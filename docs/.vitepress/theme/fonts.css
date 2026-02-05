@@ -1,0 +1,27 @@
+/* Integrate LXGW WenKai webfont via local npm package (@fontsource) */
+/* The actual font files are loaded by theme runtime in fonts-local.js. */
+
+/* Override VitePress theme font families */
+:root {
+  /* Base UI + body text font */
+  --vp-font-family-base: "LXGW WenKai", "LXGW WenKai Lite", "LXGW WenKai Screen",
+    "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  /* Keep default mono font stack */
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+/* Apply to documentation content and body */
+body,
+.vp-doc {
+  font-family: var(--vp-font-family-base);
+}
+
+/* Optional: slightly improve readability for CJK */
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.75;
+}
+

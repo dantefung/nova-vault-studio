@@ -1,0 +1,35 @@
+.markmap-container {
+  width: 100%;
+  overflow: visible;
+  margin: 1rem 0;
+}
+
+.markmap-container > svg.markmap-svg {
+  width: 100%;
+  display: block;
+  min-height: 420px;
+}
+
+/* When a fixed height is requested via `height=`,
+   make the SVG fill the container's height exactly. */
+.markmap-container[data-fixed-height] > svg.markmap-svg {
+  height: 100% !important;
+  min-height: 0;
+}
+
+/* Full-bleed variant that spans the viewport width inside centered content */
+.markmap-full-bleed {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  max-width: 100vw;
+}
+
+@media (max-width: 640px) {
+  .markmap-container > svg.markmap-svg {
+    min-height: 360px;
+  }
+}
