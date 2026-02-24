@@ -40,7 +40,7 @@ flowchart TB
 - 创建新窗口：`Ctrl-b c`
 - 切换窗口：`Ctrl-b n`(下一个)、`Ctrl-b p`(前一个)、`Ctrl-b <数字>`
 - 查看所有窗口（选择窗口列表）：`Ctrl-b w`
-- 重命名窗口：`Ctrl-b ,` 然后输入新名称
+- 重命名窗口：`Ctrl-b ,` 然后输入新名称（也可以在配置中绑定快捷键，例如 `prefix+r`）
 
 ### 1.3 窗格 (Pane)
 窗格是窗口内的子区域，允许在同一窗口中并排运行多个终端。
@@ -50,6 +50,7 @@ flowchart TB
 - 切换窗格：`Ctrl-b o`
 - 调整大小：`Ctrl-b :resize-pane -L/-R/-U/-D <number>`
 - 关闭窗格：`Ctrl-b x`
+- 显示当前窗口所有 pane 的编号：`Ctrl-b q` (会在每个 pane 角落短暂出现数字，可直接按数字切换)
 
 ## 2. 进阶使用
 
@@ -85,6 +86,8 @@ setw -g mode-keys         vi    # 进入复制模式的时候使用 vi 键位（
 bind -n M-o new-window -c "#{pane_current_path}"     # Alt+o：在当前窗格路径下创建一个新窗口
 bind -n M-O break-pane                              # Alt+Shift+o：将当前窗格拆分为一个新窗口（break-pane）
 bind -n M-Q kill-pane                               # Alt+Shift+q：关闭当前窗格
+# 快捷重命名
+bind r command-prompt -I "#W" "rename-window '%%'"   # prefix+r：重命名当前窗口
 
 # window navigation 窗口导航
 unbind n                                            # 取消默认的“n”键绑定（下一个窗口）
