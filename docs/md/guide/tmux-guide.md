@@ -4,15 +4,15 @@
 
 ```mermaid
 flowchart TB
-    A[tmux] --> B[会话(session)]
-    B --> C[窗口(window)]
-    C --> D[窗格(pane)]
-    A --> E[配置(config)]
-    E --> F[键绑定(key bindings)]
-    E --> G[选项(options)]
-    C --> H[命令模式(command mode)]
-    D --> I[分割(split)]
-    D --> J[调整大小(resize)]
+    A[tmux] --> B["会话(session)"]
+    B --> C["窗口(window)"]
+    C --> D["窗格(pane)"]
+    A --> E["配置(config)"]
+    E --> F["键绑定(key bindings)"]
+    E --> G["选项(options)"]
+    C --> H["命令模式(command mode)"]
+    D --> I["分割(split)"]
+    D --> J["调整大小(resize)"]
     
     subgraph 控制
         B
