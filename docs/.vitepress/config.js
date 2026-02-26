@@ -45,6 +45,17 @@ export default defineConfig({
     ssr: { noExternal: ['mermaid'] }
   },
   themeConfig: {
+    // 启用页面顶栏搜索
+    search: {
+      provider: 'local',            // 使用内置的本地全文索引
+      options: {
+        // flexible 配置可以根据需要定制，例如语言、最大建议条数等
+        // lang 参数帮助处理中文分词，默认会自动尝试检测
+        // 参见：https://vitepress.dev/guide/search
+        maxSuggestions: 10,
+      }
+    },
+
     nav: [
       {
         text: '指南',

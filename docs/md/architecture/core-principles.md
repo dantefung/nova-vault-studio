@@ -9,9 +9,9 @@
 
 ```mermaid
 graph TD
-  User((作者)) -->|编写 Markdown| VP[VitePress 系统]
+  User("(作者)") -->|编写 Markdown| VP[VitePress 系统]
   VP -->|生成| Site[静态站点 / SSG]
-  Site -->|服务| Reader((读者))
+  Site -->|服务| Reader("(读者)")
   VP -->|集成| Vite[Vite 构建工具]
   VP -->|使用| Vue[Vue 3 框架]
 ```
