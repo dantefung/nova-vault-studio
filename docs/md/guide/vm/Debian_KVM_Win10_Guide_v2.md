@@ -15,7 +15,17 @@ sudo apt update && sudo apt upgrade -y
 ## 安装组件
 
 ``` bash
-sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients virtinst virt-manager bridge-utils ovmf python3-gi gir1.2-libvirt-1.0
+# KVM
+sudo apt install -y qemu-kvm qemu-system qemu-utils
+
+# 管理
+sudo apt install -y libvirt-clients libvirt-daemon-system virtinst
+
+# 界面
+sudo apt install -y virt-manager bridge-utils ovmf
+
+# Python 绑定（用于某些脚本或 virt-manager 组件）
+sudo apt install -y python3-gi gir1.2-libvirt-1.0  # 若安装过程中提示 gi 模块报错，则需要这个依赖
 ```
 
 ## 启动服务
@@ -75,6 +85,30 @@ sudo /usr/bin/virt-install \
   --autostart
 
 ```
+
+### 参数说明
+
+下表解释了 `virt-install` 命令中各个参数的含义：
+
+| 参数 | 含义 |
+|------|------|
+| `--name win10-01` | 虚拟机名称，用于管理和识别。 |
+| `--memory 8192` | 分配给虚拟机的 RAM 大小，单位为 MB。 |
+| `--vcpus 8,sockets=2,cores=2,threads=2` | 指定虚拟 CPU 配置：总 vCPU 数为 8，2 个插槽，每个插槽 2 个内核，每个内核 2 个线程。 |
+| `--cpu host-model` | 使用与宿主机相同的 CPU 模型，以获得最佳性能。 |
+| `--machine q35` | 指定机器类型为 q35（支持 UEFI/OVMF 等现代功能）。 |
+| `--boot loader=...,loader.readonly=yes,loader.type=pflash,nvram.template=...` | 设置启动加载程序和 UEFI 固件路径，`loader.readonly` 表示固件只读，`nvram.template` 指定初始 NVRAM 模板。 |
+| `--osinfo win10` | 提供操作系统信息，简化安装过程。 |
+| `--disk path=...,size=60,format=qcow2,bus=virtio` | 定义第一个磁盘映像位置、大小、格式及总线类型（virtio 提供更好性能）。`virt-install` 会在指定路径自动创建该映像文件；通常只需保证目录存在且可写，无需手动预先创建。 |
+| `--disk path=...,device=cdrom` | 将 VirtIO 驱动 ISO 作为光盘插入，以便在安装过程中加载驱动。 |
+| `--cdrom /var/lib/libvirt/iso/win10.iso` | 指定 Windows 安装 ISO 文件路径作为安装媒体。 |
+| `--network network=default,model=virtio` | 使用默认 NAT 网络并将网卡类型设置为 virtio。 |
+| `--graphics spice` | 使用 SPICE 协议提供图形访问，适用于 Windows 客户机。 |
+| `--input type=tablet,bus=usb` | 添加一个平板输入设备，以改进鼠标同步。 |
+| `--autostart` | 设置虚拟机开机自启。 |
+
+这部分帮助理解各项参数的含义，可根据需求调整配置。
+
 
 ------------------------------------------------------------------------
 
