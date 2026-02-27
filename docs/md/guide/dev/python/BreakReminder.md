@@ -285,6 +285,11 @@ Linux 后台运行：
 nohup python BreakReminder.py > /dev/null 2>&1 &
 ```
 
+```bash
+python BreakReminder.py > /dev/null 2>&1 & disown
+```
+
+
 ---
 
 # 五、技术要点解析
