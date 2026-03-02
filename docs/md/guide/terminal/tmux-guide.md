@@ -32,7 +32,12 @@ flowchart TB
 - 创建会话：`tmux new -s <session-name>`
 - 列出会话：`tmux ls`
 - 附着到会话：`tmux attach -t <session-name>`
-- 退出会话：在tmux中运行 `exit` 或 `Ctrl-b d` (detach)
+- 退出会话（detach，分离但保持会话活跃）：在 tmux 中按 `Ctrl-b d` — 这是离开 tmux 但保持会话后台运行的标准方式。
+- 删除会话（完全终止）：`tmux kill-session -t <session-name>` 或在 tmux 中运行 `exit` 关闭所有窗口。
+
+**说明：** `Ctrl-b d` 和 `exit` 的区别很重要：
+  - `Ctrl-b d`（detach）：断开连接，会话在后台继续运行，可随时重新附着
+  - `exit`：关闭当前窗口，若所有窗口都关闭，整个会话被删除
 
 ### 1.2 窗口 (Window)
 窗口类似于虚拟终端，可以在会话中创建多个窗口，每个窗口有一个编号和名称。
@@ -80,6 +85,16 @@ tmux          # 创建一个新的会话并进入
 **创建初始配置文件（可选）：**
 
 如果想立即使用自定义配置，可将配置保存到 `~/.tmux.conf`，然后重启 tmux 或在 tmux 中运行 `tmux source-file ~/.tmux.conf` 使配置生效。
+
+### 1.5 获取帮助
+
+在 tmux 中可以随时查看帮助和快捷键列表：
+
+- **查看所有快捷键绑定**：按 `Ctrl-b ?`（即 `prefix + ?`）会弹出快捷键列表窗口，可用方向键或 j/k 上下翻页，按 q 退出。
+
+- **查看命令帮助**：在命令模式中输入 `list-keys` 可列出所有键绑定，或 `list-commands` 列出所有 tmux 命令。
+
+- **查看手册**：在终端中运行 `man tmux` 查看完整的 tmux 手册页面（包含所有命令和选项的详细说明）。
 
 ## 2. 进阶使用
 
@@ -327,8 +342,8 @@ tmux attach -t "$SESSION"
 
 ## 3. 常见问题与技巧
 
+- **如何不删除会话地退出 tmux？** 按 `Ctrl-b d` 进行 detach 操作，会话将在后台继续运行。之后可用 `tmux ls` 列出所有会话，用 `tmux attach -t <session-name>` 重新附着。
 - **如何恢复已关闭的窗格？** tmux 不支持直接恢复；建议使用 `tmux-resurrect` 插件。
-- **如何在退出时保持会话？** 使用 `Ctrl-b d` 进行detach, 之后会话将在后台继续运行。
 - **如何调整前缀键？** 在 `~/.tmux.conf` 中使用 `set -g prefix <key>`。
 
 ## 4. 参考资料
