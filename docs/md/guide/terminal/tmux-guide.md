@@ -73,7 +73,7 @@ set -g prefix C-z
 
 set -g base-index         1     # 窗口编号从 1 开始计数
 set -g display-panes-time 10000 # PREFIX-Q 显示编号的驻留时长，单位 ms
-set -g mouse              on    # 开启鼠标
+set -g mouse              on    # 开启鼠标, 鼠标滚动的时候会自动进入 copy-mode（复制模式）
 set -g pane-base-index    1     # 窗格编号从 1 开始计数
 set -g renumber-windows   on    # 关掉某个窗口后，编号重排
 
@@ -189,6 +189,33 @@ run '~/.tmux/plugins/tpm/tpm'
 
 - `set -g mouse on`：启用鼠标操作
 - `setw -g mode-keys vi`：使用 vi 键绑定进行复制模式
+
+### 2.4 复制模式 (Copy Mode)
+
+- 进入复制模式：按 `Ctrl-b [`（即 `prefix + [`）或运行 `tmux copy-mode`。如果启用了鼠标（`set -g mouse on`），滚动时也会自动进入复制模式。
+- 导航与搜索：
+    - 使用 `vi` 键位时可用 `h`/`j`/`k`/`l`、`w`/`b`、`0`/`$`、`gg`/`G`、`Ctrl-u`/`Ctrl-d` 等移动。分页使用 `PageUp`/`PageDown`。
+    - 搜索：按 `/` 向前搜索，按 `?` 向后搜索。使用 `n`/`N` 跳转下一个/上一个匹配。
+- 选择与复制：
+    - `vi` 模式：按 `v` 开始可视选择，移动光标后按 `y` 将选中内容复制到 tmux 缓冲（或按 `Enter` 也可复制，视 tmux 版本和配置而定）。
+    - `emacs` 模式：按 `Space` 开始选择，选好后按 `Enter` 复制到 tmux 缓冲。
+    - 退出并粘贴：在普通模式下按 `Ctrl-b ]`（`prefix + ]`）粘贴最近的缓冲内容，或使用 `tmux paste-buffer`。
+
+- 复制到系统剪贴板：推荐使用 `copy-pipe-and-cancel` 或插件来把 tmux 缓冲发送到系统剪贴板。例如：
+
+    - X11 (xclip)：
+
+        bind -T copy-mode-vi y send -X copy-pipe-and-cancel "xclip -selection clipboard -in"
+
+    - Wayland (wl-clipboard)：
+
+        bind -T copy-mode-vi y send -X copy-pipe-and-cancel "wl-copy"
+
+    上面绑定会在 `v`/`y` 操作后把选择内容传给外部剪贴板程序并退出复制模式。
+
+- 插件方式：可以使用 `tmux-plugins/tmux-yank` 或 `tmux-yank` 插件来自动处理不同平台的剪贴板交互（推荐安装并阅读插件说明）。
+
+- 注意：不同 tmux 版本对 `copy-pipe` / `copy-pipe-and-cancel` 的支持和行为可能不同，必要时请参阅 `man tmux` 或测试你的 tmux 版本是否支持这些命令。
 
 ### 2.4 会话共享
 多个用户可以附加到同一个会话，适用于协作。
