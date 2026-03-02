@@ -52,6 +52,35 @@ flowchart TB
 - 关闭窗格：`Ctrl-b x`
 - 显示当前窗口所有 pane 的编号：`Ctrl-b q` (会在每个 pane 角落短暂出现数字，可直接按数字切换)
 
+### 1.4 安装与首次使用
+
+**在 Debian/Ubuntu 上安装 tmux：**
+
+```bash
+sudo apt update
+sudo apt install tmux
+```
+
+**验证安装：**
+
+```bash
+tmux -V
+```
+
+会输出当前安装的 tmux 版本，例如 `tmux 3.3a`。
+
+**首次使用：**
+
+```bash
+tmux          # 创建一个新的会话并进入
+```
+
+这会自动创建一个会话（通常名称为 `0`）。按 `Ctrl-b ?` 可查看所有快捷键绑定。
+
+**创建初始配置文件（可选）：**
+
+如果想立即使用自定义配置，可将配置保存到 `~/.tmux.conf`，然后重启 tmux 或在 tmux 中运行 `tmux source-file ~/.tmux.conf` 使配置生效。
+
 ## 2. 进阶使用
 
 ### 2.1 命令模式
@@ -184,13 +213,69 @@ run '~/.tmux/plugins/tpm/tpm'
 
 ```
 
-### 2.3 选项
+### 2.3 插件管理 (Plugin Management)
+
+tmux 用插件管理器 **tpm** (Tmux Plugin Manager) 来安装和管理竟件，推荐使用。
+
+**安装 tpm：**
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+**在 `~/.tmux.conf` 中配置插件：**
+
+1. 在文件顶部声明插件目录（可选，默认为 `~/.tmux/plugins`）：
+   ```conf
+   setenv -g TMUX_PLUGIN_MANAGER_PATH '~/.tmux/plugins'
+   ```
+
+2. 在文件中间添加想要的插件（使用 `set -g @plugin` 语法）：
+   ```conf
+   set -g @plugin 'tmux-plugins/tmux-sensible'      # 合理的默认配置
+   set -g @plugin 'tmux-plugins/tmux-yank'          # 复制到系统剪贴板
+   set -g @plugin 'tmux-plugins/tmux-resurrect'     # 保存/恢复会话
+   set -g @plugin 'tmux-plugins/tpm'                # tpm 本身（必须）
+   ```
+
+3. 在文件末尾初始化 tpm（**必须放在最后**）：
+   ```conf
+   run '~/.tmux/plugins/tpm/tpm'
+   ```
+
+**安装插件：**
+
+保存配置文件后，在 tmux 中按 `Ctrl-b I`（大写 i）即可自动下载并安装所有列出的插件。
+
+**常用快捷键**（tpm 默认绑定）：
+
+- `prefix + I`：安装新插件
+- `prefix + U`：更新插件
+- `prefix + alt + u`：卸载未在配置中列出的插件
+
+**常用插件详解：**
+
+- **`tmux-plugins/tmux-sensible`**：提供一套合理的 tmux 默认配置，包括更优的键绑定、更好的窗口和窗格命名策略等，是入门推荐的基础插件。
+
+- **`tmux-plugins/tmux-yank`**：简化复制到系统剪贴板的操作，自动检测平台（X11/Wayland/macOS）并使用对应的剪贴板程序。在复制模式中按 `y` 即可复制到系统剪贴板，无需手动配置 `copy-pipe`。
+
+- **`tmux-plugins/tmux-resurrect`**：自动保存当前 tmux 会话的所有窗口、窗格和运行的程序，当 tmux 关闭或重启后可恢复到之前的状态。快捷键：`prefix + Ctrl-s` 保存，`prefix + Ctrl-r` 恢复。
+
+- **`tmux-plugins/tmux-pain-control`**：提供更符合直觉的窗格导航和管理快捷键，例如用方向键移动窗格焦点、用更易记忆的绑定来调整窗格大小。
+
+- **`tmux-plugins/tmux-prefix-highlight`**：在状态栏显示前缀键（prefix）的状态，当按下 prefix 后会高亮显示，方便确认是否处于命令准备状态。
+
+- **`seebi/tmux-colors-solarized`**：应用 Solarized 配色主题到 tmux，提供更舒适的配色方案。使用此插件后可删除手动的颜色配置。
+
+- **`tmux-plugins/tpm`**：tmux 插件管理器本身，必须在插件列表中声明以确保 tpm 自身被正确初始化和更新。
+
+### 2.4 选项
 常用选项包括：
 
 - `set -g mouse on`：启用鼠标操作
 - `setw -g mode-keys vi`：使用 vi 键绑定进行复制模式
 
-### 2.4 复制模式 (Copy Mode)
+### 2.5 复制模式 (Copy Mode)
 
 - 进入复制模式：按 `Ctrl-b [`（即 `prefix + [`）或运行 `tmux copy-mode`。如果启用了鼠标（`set -g mouse on`），滚动时也会自动进入复制模式。
 - 导航与搜索：
@@ -217,12 +302,12 @@ run '~/.tmux/plugins/tpm/tpm'
 
 - 注意：不同 tmux 版本对 `copy-pipe` / `copy-pipe-and-cancel` 的支持和行为可能不同，必要时请参阅 `man tmux` 或测试你的 tmux 版本是否支持这些命令。
 
-### 2.4 会话共享
+### 2.6 会话共享
 多个用户可以附加到同一个会话，适用于协作。
 
 - 设置权限：登录同一用户或者使用 `tmux -S /tmp/socket` 创建共享socket
 
-### 2.5 快速脚本
+### 2.7 快速脚本
 编写脚本自动化tmux布局，例如：
 
 ```bash
