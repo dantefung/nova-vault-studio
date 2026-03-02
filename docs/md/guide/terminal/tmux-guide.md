@@ -228,6 +228,12 @@ run '~/.tmux/plugins/tpm/tpm'
 
 ```
 
+**重新加载配置**
+
+```
+tmux source-file ~/.tmux.conf
+```
+
 ### 2.3 插件管理 (Plugin Management)
 
 tmux 用插件管理器 **tpm** (Tmux Plugin Manager) 来安装和管理竟件，推荐使用。
@@ -292,30 +298,141 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### 2.5 复制模式 (Copy Mode)
 
-- 进入复制模式：按 `Ctrl-b [`（即 `prefix + [`）或运行 `tmux copy-mode`。如果启用了鼠标（`set -g mouse on`），滚动时也会自动进入复制模式。
-- 导航与搜索：
-    - 使用 `vi` 键位时可用 `h`/`j`/`k`/`l`、`w`/`b`、`0`/`$`、`gg`/`G`、`Ctrl-u`/`Ctrl-d` 等移动。分页使用 `PageUp`/`PageDown`。
-    - 搜索：按 `/` 向前搜索，按 `?` 向后搜索。使用 `n`/`N` 跳转下一个/上一个匹配。
-- 选择与复制：
-    - `vi` 模式：按 `v` 开始可视选择，移动光标后按 `y` 将选中内容复制到 tmux 缓冲（或按 `Enter` 也可复制，视 tmux 版本和配置而定）。
-    - `emacs` 模式：按 `Space` 开始选择，选好后按 `Enter` 复制到 tmux 缓冲。
-    - 退出并粘贴：在普通模式下按 `Ctrl-b ]`（`prefix + ]`）粘贴最近的缓冲内容，或使用 `tmux paste-buffer`。
+#### 什么是复制模式
 
-- 复制到系统剪贴板：推荐使用 `copy-pipe-and-cancel` 或插件来把 tmux 缓冲发送到系统剪贴板。例如：
+复制模式是操作 tmux 自己的历史缓冲区（scrollback buffer），而不是终端的滚动条。进入后，你可以像在 Vim 中编辑一样浏览和选择历史输出。
 
-    - X11 (xclip)：
+#### 进入复制模式
 
-        bind -T copy-mode-vi y send -X copy-pipe-and-cancel "xclip -selection clipboard -in"
+按下 `Ctrl-b [`（即 `prefix + [`）进入复制模式。你会在左下角看到 `[copy mode]` 提示。
 
-    - Wayland (wl-clipboard)：
+如果启用了鼠标（`set -g mouse on`），滚动时也会自动进入复制模式。
 
-        bind -T copy-mode-vi y send -X copy-pipe-and-cancel "wl-copy"
+#### 强烈建议：启用 Vim 键位
 
-    上面绑定会在 `v`/`y` 操作后把选择内容传给外部剪贴板程序并退出复制模式。
+在 `~/.tmux.conf` 中添加：
 
-- 插件方式：可以使用 `tmux-plugins/tmux-yank` 或 `tmux-yank` 插件来自动处理不同平台的剪贴板交互（推荐安装并阅读插件说明）。
+```conf
+set -g mode-keys vi
+```
 
-- 注意：不同 tmux 版本对 `copy-pipe` / `copy-pipe-and-cancel` 的支持和行为可能不同，必要时请参阅 `man tmux` 或测试你的 tmux 版本是否支持这些命令。
+然后重新加载配置：
+
+```bash
+tmux source-file ~/.tmux.conf
+```
+
+这样可以使用熟悉的 Vim 风格快捷键，否则默认为 Emacs 风格。
+
+#### 复制模式键位表（Vim 风格）
+
+| 功能 | 按键 |
+|------|------|
+| 上下移动 | `j` / `k` |
+| 左右移动 | `h` / `l` |
+| 行首 | `0` |
+| 行尾 | `$` |
+| 上翻页 | `Ctrl-b` |
+| 下翻页 | `Ctrl-f` |
+| 半页上翻 | `Ctrl-u` |
+| 半页下翻 | `Ctrl-d` |
+| 向下搜索 | `/` |
+| 向上搜索 | `?` |
+| 下一个匹配 | `n` |
+| 上一个匹配 | `N` |
+| 文件首 | `gg` |
+| 文件末 | `G` |
+| 退出复制模式 | `q` 或 `Esc` |
+
+#### 选择与复制的标准流程
+
+1. 按 `Ctrl-b [` 进入复制模式
+2. 按 `Space` 开始选择
+3. 用 `hjkl` 或其他导航键移动选中区域
+4. 按 `Enter` 将内容复制到 tmux 缓冲区
+5. 按 `Ctrl-b ]` 粘贴复制的内容
+
+#### 粘贴缓冲内容
+
+在普通模式下按 `Ctrl-b ]`（`prefix + ]`）粘贴最近复制的缓冲内容：
+
+```bash
+Ctrl + b  ]
+```
+
+或使用命令：
+
+```bash
+tmux paste-buffer
+```
+
+#### 扩大历史缓存（日志分析推荐）
+
+如果你经常处理较长的日志或输出，建议扩大 tmux 的历史缓存限制。在 `~/.tmux.conf` 中添加：
+
+```conf
+set -g history-limit 200000
+```
+
+默认值较小，容易被截断。
+
+#### 复制到系统剪贴板（进阶）
+
+推荐使用 `copy-pipe-and-cancel` 或 `tmux-yank` 插件来把 tmux 缓冲发送到系统剪贴板。
+
+**方式一：手动配置键绑定**
+
+对于 Linux + xclip：
+
+```bash
+sudo apt install xclip
+```
+
+然后在 `~/.tmux.conf` 中添加：
+
+```conf
+bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "xclip -selection clipboard -in"
+```
+
+这样在复制模式中按 `y` 即可直接复制到系统剪贴板。
+
+对于 Wayland (wl-clipboard)：
+
+```conf
+bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "wl-copy"
+```
+
+**方式二：使用插件**
+
+推荐使用 `tmux-plugins/tmux-yank` 插件，它会自动检测平台（X11/Wayland/macOS）并使用对应的剪贴板程序。
+
+#### 实用工作流示例
+
+**场景：分析日志中的错误**
+
+```bash
+Ctrl+b [           # 进入复制模式
+/ ERROR            # 搜索 ERROR
+n                  # 跳转到下一个匹配
+Space              # 开始选择错误行
+hjkl               # 调整选择范围
+Enter              # 复制到 tmux 缓冲
+q                  # 退出复制模式
+Ctrl+b ]           # 粘贴到当前位置或应用中
+```
+
+#### 理解复制模式的原理
+
+```
+程序输出 → pty → tmux scrollback buffer
+                     ↓
+                 copy-mode (只读编辑器)
+```
+
+关键点：
+- 复制模式不影响程序运行
+- 只是读取历史缓存
+- 可以看作是 Vim 在终端历史记录上的"只读编辑器"
 
 ### 2.6 会话共享
 多个用户可以附加到同一个会话，适用于协作。
