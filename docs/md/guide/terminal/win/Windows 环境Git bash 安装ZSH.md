@@ -1,4 +1,7 @@
-# [Windows 环境Git bash 安装ZSH](https://chaosbynn.github.io/2025/11/27/Windows-%E7%8E%AF%E5%A2%83Git-bash-%E5%AE%89%E8%A3%85ZSH/)
+
+# Windows 环境Git bash 安装ZSH 
+
+- [Windows 环境Git bash 安装ZSH](https://chaosbynn.github.io/2025/11/27/Windows-%E7%8E%AF%E5%A2%83Git-bash-%E5%AE%89%E8%A3%85ZSH/)
 
 共 2766 字阅读需 6 分钟
 

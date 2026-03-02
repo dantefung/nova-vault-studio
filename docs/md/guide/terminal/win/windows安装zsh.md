@@ -1,20 +1,24 @@
-# [Windows安装Zsh终端](https://zhuanlan.zhihu.com/p/625583037)
+
+# Windows 环境Git bash 安装ZSH
+
+- [Windows安装Zsh终端](https://zhuanlan.zhihu.com/p/625583037)
+
 
 共 4394 字阅读需 9 分钟
 
 ### 前言
 
-本文以 [`Git Bash`](https://zhida.zhihu.com/search?content_id=227149648\&content_type=Article\&match_order=1\&q=Git+Bash\&zhida_source=entity) 终端为基础，来安装 [`Zsh`](https://zhida.zhihu.com/search?content_id=227149648\&content_type=Article\&match_order=1\&q=Zsh\&zhida_source=entity)终端和 `powerlevel10k` 主题，轻松易上手。
+本文以 `Git Bash` 终端为基础，来安装 `Zsh`终端和 `powerlevel10k` 主题，轻松易上手。
 
-本文以 [`Windows Terminal`](https://zhida.zhihu.com/search?content_id=227149648\&content_type=Article\&match_order=1\&q=Windows+Terminal\&zhida_source=entity) 为例，也就是 `Windows 11` 中的 `终端`，`Windows 10` 没有的话，可以去应用商店搜索并下载。但这并不是必须的，你使用 `Git Bash` 也是可以的。
+本文以 `Windows Terminal`为例，也就是 `Windows 11` 中的 `终端`，`Windows 10` 没有的话，可以去应用商店搜索并下载。但这并不是必须的，你使用 `Git Bash` 也是可以的。
 
 本文所用到软件和字体文件，建议大家从文中提供的官网地址进行下载，以保证版本的时效性。由于网络原因，一些无法访问外网的小伙伴，笔者帮大家打包好了一份，方便大家下载（软件打包时间为2023-04-26，请注意使用时间）：
 
-[软件与字体打包下载地址](https://link.zhihu.com/?target=https%3A//luwnto.lanzoum.com/b00wxp55g) 密码：4p54
+[软件与字体打包下载地址](https://luwnto.lanzoum.com/b00wxp55g) 密码：4p54
 
 ### 安装 git bash
 
-下载 [windows版本git](https://link.zhihu.com/?target=https%3A//git-scm.com/download/win)，一般来说，下载64位版本：
+下载 [windows版本git](https://git-scm.com/download/win)，一般来说，下载64位版本：
 
 ![](https://pic3.zhimg.com/v2-4e193fe1654750705a9512e9ef0f0206_r.jpg)
 
@@ -34,11 +38,11 @@
 
 ### 安装 zsh
 
-下载 [zsh安装包](https://link.zhihu.com/?target=https%3A//packages.msys2.org/package/zsh%3Frepo%3Dmsys%26variant%3Dx86_64)：
+下载 [`zsh安装包`](https://packages.msys2.org/package/zsh%3Frepo%3Dmsys%26variant%3Dx86_64)：
 
 ![](https://pic2.zhimg.com/v2-a40137f2ff0094a6477fbc8f7cdbd5ef_r.jpg)
 
-将 zsh 安装包解压到 git 的安装根目录下，可以使用 [7-Zip-zstd](https://link.zhihu.com/?target=https%3A//github.com/mcmilk/7-Zip-zstd/releases) 解压：
+将 zsh 安装包解压到 git 的安装根目录下，可以使用 [7-Zip-zstd](https://github.com/mcmilk/7-Zip-zstd/releases) 解压：
 
 ![](https://pic2.zhimg.com/v2-86283fcaf36cf14af46ec2511e5bfb93_r.jpg)
 
@@ -92,7 +96,7 @@
 
 ![](https://pica.zhimg.com/v2-1b9c154d3dfbdf714c28723997923b18_r.jpg)
 
-### 安装 [Oh My Zsh](https://zhida.zhihu.com/search?content_id=227149648\&content_type=Article\&match_order=1\&q=Oh+My+Zsh\&zhida_source=entity)
+### 安装 Oh My Zsh
 
 在安装好 `Zsh` 终端之后，看起来跟 `Bash` 终端并无太大的区别，我们也没有进行设置。而 `Oh My Zsh` 可以用于管理 `Zsh`配置。它捆绑了数千个有用的功能、助手、插件、主题等。
 
@@ -118,7 +122,7 @@
 
 ### 配置主题
 
-`Oh My Zsh` 安装默之后，默认使用主题是 `robbyrussell`，可以修改 `.zshrc` 配置中的 `ZSH_THEME` 字段，所有可用主题可参考[ohmyzsh官方文档](https://link.zhihu.com/?target=https%3A//github.com/ohmyzsh/ohmyzsh/wiki/Themes)，这里先配置一下我个人比较喜欢的主题：
+`Oh My Zsh` 安装默之后，默认使用主题是 `robbyrussell`，可以修改 `.zshrc` 配置中的 `ZSH_THEME` 字段，所有可用主题可参考[ohmyzsh官方文档](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)，这里先配置一下我个人比较喜欢的主题：
 
 ![](https://pic4.zhimg.com/v2-4d0cdea08d548a661d7b6944522a8c09_r.jpg)
 

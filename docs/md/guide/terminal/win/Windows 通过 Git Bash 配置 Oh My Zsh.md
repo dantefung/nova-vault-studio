@@ -1,4 +1,7 @@
-# [Windows 通过 Git Bash 配置 Oh My Zsh](https://www.seepine.com/git/oh-my-zsh/)
+
+# Windows 环境Git bash 安装ZSH
+
+- [Windows 通过 Git Bash 配置 Oh My Zsh](https://www.seepine.com/git/oh-my-zsh/)
 
 共 3280 字阅读需 7 分钟
 

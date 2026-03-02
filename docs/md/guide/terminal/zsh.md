@@ -35,3 +35,10 @@ While the built-in mode is functional, it lacks some advanced Vim features like 
 
 - vi-mode plugin by adding vi-mode to the plugins array in your ~/.zshrc file.
 sharat87/zsh-vim-mode: Provides "sane bindings" to make the behavior more consistently Vim-like. 
+
+## zsh插件
+
+### fzf-tab
+
+[](.)
+
