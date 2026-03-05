@@ -36,7 +36,13 @@ function extractTitle(filePath) {
 
 function generateSidebar(relativeDir, linkPrefix) {
     const dir = path.join(process.cwd(), relativeDir);
-    const markdownFiles = readMarkdownFiles(dir);
+    let markdownFiles = readMarkdownFiles(dir);
+
+    // for tutorial section we only want files inside subdirectories
+    if (relativeDir.endsWith('/tutorial')) {
+        markdownFiles = markdownFiles.filter(f => f.includes('/'));
+    }
+
     const sidebarConfig = [];
 
     markdownFiles.forEach(file => {
@@ -78,4 +84,27 @@ function generateSidebar(relativeDir, linkPrefix) {
     return sidebarConfig;
 }
 
-export { generateSidebar };
+
+function generateNavItems(relativeDir, linkPrefix) {
+    const dir = path.join(process.cwd(), relativeDir);
+    if (!fs.existsSync(dir)) return [];
+    const items = [];
+    const entries = fs.readdirSync(dir);
+    // only directories correspond to separate tutorials
+    entries.forEach(name => {
+        const full = path.join(dir, name);
+        if (fs.statSync(full).isDirectory()) {
+            const indexPath = path.join(full, 'index.md');
+            let title = name;
+            if (fs.existsSync(indexPath)) {
+                title = extractTitle(indexPath) || title;
+            }
+            items.push({ text: title, link: linkPrefix + name + '/' });
+        }
+    });
+    // sort alphabetically by text
+    items.sort((a, b) => a.text.localeCompare(b.text));
+    return items;
+}
+
+export { generateSidebar, generateNavItems };
