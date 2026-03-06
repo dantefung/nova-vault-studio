@@ -84,6 +84,23 @@ function generateSidebar(relativeDir, linkPrefix) {
     return sidebarConfig;
 }
 
+function generateSidebarMappingForSubdirectories(parentRelativeDir, parentLinkPrefix) {
+    const dir = path.join(process.cwd(), parentRelativeDir);
+    if (!fs.existsSync(dir)) return {};
+
+    const mapping = {};
+    const entries = fs.readdirSync(dir);
+    entries.forEach(name => {
+        const full = path.join(dir, name);
+        if (fs.statSync(full).isDirectory()) {
+            const key = `${parentLinkPrefix}${name}/`;
+            const relativeSubDir = path.join(parentRelativeDir, name);
+            mapping[key] = generateSidebar(relativeSubDir, key);
+        }
+    });
+
+    return mapping;
+}
 
 function generateNavItems(relativeDir, linkPrefix) {
     const dir = path.join(process.cwd(), relativeDir);
@@ -107,4 +124,4 @@ function generateNavItems(relativeDir, linkPrefix) {
     return items;
 }
 
-export { generateSidebar, generateNavItems };
+export { generateSidebar, generateNavItems, generateSidebarMappingForSubdirectories };

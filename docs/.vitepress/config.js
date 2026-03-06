@@ -2,7 +2,7 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vitepress'
 import { MermaidPlugin, MermaidMarkdown } from 'vitepress-plugin-mermaid'
 import markdownItMarkmap from './plugins/markdown-it-markmap.js'
-import { generateSidebar, generateNavItems } from './sidebar.js'
+import { generateSidebar, generateNavItems, generateSidebarMappingForSubdirectories } from './sidebar.js'
 
 export default defineConfig({
   ignoreDeadLinks: true,
@@ -88,7 +88,8 @@ export default defineConfig({
       '/md/architecture/': generateSidebar('docs/md/architecture', '/md/architecture/'),
       '/md/evolution/': generateSidebar('docs/md/evolution', '/md/evolution/'),
       '/md/reference/': generateSidebar('docs/md/reference', '/md/reference/'),
-      '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/')
+      '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dantefung/system-vault' },
