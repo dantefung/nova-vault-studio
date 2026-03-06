@@ -124,4 +124,26 @@ function generateNavItems(relativeDir, linkPrefix) {
     return items;
 }
 
-export { generateSidebar, generateNavItems, generateSidebarMappingForSubdirectories };
+function generateNavItemsFromFiles(relativeDir, linkPrefix) {
+    const dir = path.join(process.cwd(), relativeDir);
+    if (!fs.existsSync(dir)) return [];
+    const files = fs.readdirSync(dir).filter(file => {
+        return path.extname(file).toLowerCase() === '.md' && !file.toLowerCase().startsWith('index');
+    });
+
+    const items = files.map(file => {
+        const filePath = path.join(dir, file);
+        const title = extractTitle(filePath);
+        const name = file.replace(/\.md$/, '');
+        return {
+            text: title,
+            link: linkPrefix + name
+        };
+    });
+
+    // sort alphabetically by text
+    items.sort((a, b) => a.text.localeCompare(b.text));
+    return items;
+}
+
+export { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories };

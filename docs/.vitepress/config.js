@@ -2,7 +2,7 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vitepress'
 import { MermaidPlugin, MermaidMarkdown } from 'vitepress-plugin-mermaid'
 import markdownItMarkmap from './plugins/markdown-it-markmap.js'
-import { generateSidebar, generateNavItems, generateSidebarMappingForSubdirectories } from './sidebar.js'
+import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories } from './sidebar.js'
 
 export default defineConfig({
   ignoreDeadLinks: true,
@@ -34,6 +34,8 @@ export default defineConfig({
     headers: {
       level: [0, 1]
     },
+    // 禁用内嵌 HTML 解析，避免包含类似“<”的代码片段导致编译错误
+    html: false,
     config: (md) => {
       md.use(markdownItMarkmap)
       md.use(MermaidMarkdown)
@@ -58,38 +60,53 @@ export default defineConfig({
 
     nav: [
       {
-        text: '指南',
-        link: '/md/guide/getting-started',
+        text: '文档',
+        items: [
+          {
+            text: '指南',
+            link: '/md/guide/getting-started',
+          },
+          {
+            text: '特性',
+            link: '/md/sitelog/features/charts'
+          },
+          {
+            text: '架构',
+            link: '/md/sitelog/architecture/core-principles'
+          },
+          {
+            text: '演进',
+            link: '/md/sitelog/evolution/milestones'
+          },
+          {
+            text: '参考',
+            link: '/md/sitelog/reference/overview'
+          }
+        ]
       },
       {
-        text: '特性',
-        link: '/md/features/charts'
-      },
-      {
-        text: '架构',
-        link: '/md/architecture/core-principles'
-      },
-      {
-        text: '演进',
-        link: '/md/evolution/milestones'
-      },
-      {
-        text: '参考',
-        link: '/md/reference/overview'
+        text: '书籍',
+        items: generateNavItemsFromFiles('docs/md/books', '/md/books/')
       },
       {
         text: '教程',
         items: generateNavItems('docs/md/tutorial', '/md/tutorial/')
+      },
+      {
+        text: 'AGI',
+        items: generateNavItems('docs/md/agi', '/md/agi/')
       }
     ],
     sidebar: {
       '/md/guide/': generateSidebar('docs/md/guide', '/md/guide/'),
-      '/md/features/': generateSidebar('docs/md/features', '/md/features/'),
-      '/md/architecture/': generateSidebar('docs/md/architecture', '/md/architecture/'),
-      '/md/evolution/': generateSidebar('docs/md/evolution', '/md/evolution/'),
-      '/md/reference/': generateSidebar('docs/md/reference', '/md/reference/'),
+      '/md/sitelog/features/': generateSidebar('docs/md/sitelog/features', '/md/sitelog/features/'),
+      '/md/sitelog/architecture/': generateSidebar('docs/md/sitelog/architecture', '/md/sitelog/architecture/'),
+      '/md/sitelog/evolution/': generateSidebar('docs/md/sitelog/evolution', '/md/sitelog/evolution/'),
+      '/md/sitelog/reference/': generateSidebar('docs/md/sitelog/reference', '/md/sitelog/reference/'),
       '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/'),
-      ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/')
+      '/md/agi/': generateSidebar('docs/md/agi', '/md/agi/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dantefung/system-vault' },

@@ -19,7 +19,7 @@ features:
   - title: 动态侧边栏
     details: 基于文件系统自动生成侧边栏，只需关注文档创作。
   - title: 特性展示
-    details: "[内置 Mermaid 与 Markmap 支持](/md/features/charts)，让架构图与思维导图信手拈来。"
+    details: "[内置 Mermaid 与 Markmap 支持](/md/sitelog/features/charts)，让架构图与思维导图信手拈来。"
   - title: 演进黑盒
-    details: "[记录从原型到标准的完整过程](/md/evolution/milestones)，见证知识库的生命周期。"
+    details: "[记录从原型到标准的完整过程](/md/sitelog/evolution/milestones)，见证知识库的生命周期。"
 ---
