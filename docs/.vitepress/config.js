@@ -2,7 +2,7 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vitepress'
 import { MermaidPlugin, MermaidMarkdown } from 'vitepress-plugin-mermaid'
 import markdownItMarkmap from './plugins/markdown-it-markmap.js'
-import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories } from './sidebar.js'
+import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories, generateBookNavItems } from './sidebar.js'
 
 export default defineConfig({
   ignoreDeadLinks: true,
@@ -86,7 +86,10 @@ export default defineConfig({
       },
       {
         text: '书籍',
-        items: generateNavItemsFromFiles('docs/md/books', '/md/books/')
+        items: [
+          { text: '书籍库', link: '/md/books/' },
+          ...generateBookNavItems('docs/md/books', '/md/books/')
+        ]
       },
       {
         text: '教程',
@@ -105,6 +108,7 @@ export default defineConfig({
       '/md/sitelog/reference/': generateSidebar('docs/md/sitelog/reference', '/md/sitelog/reference/'),
       '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/'),
       '/md/agi/': generateSidebar('docs/md/agi', '/md/agi/'),
+      '/md/books/': generateBookNavItems('docs/md/books', '/md/books/'),
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/')
     },

@@ -8,8 +8,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "cross-env VITE_FONT_SOURCE=local vitepress dev docs",
-    "build": "cross-env VITE_FONT_SOURCE=local vitepress build docs",
+    "dev": "npm run generate:pdf-pages && cross-env VITE_FONT_SOURCE=local vitepress dev docs",
+    "generate:pdf-pages": "node scripts/generate-pdf-pages.js",
+    "build": "npm run generate:pdf-pages && cross-env VITE_FONT_SOURCE=local vitepress build docs",
     "preview": "cross-env VITE_FONT_SOURCE=local vitepress preview docs"
   },
   "author": "DANTE FUNG",
@@ -26,6 +27,7 @@
     "@giscus/vue": "^2.2.8",
     "@vercel/analytics": "^1.0.1",
     "markmap-lib": "^0.18.12",
-    "markmap-view": "^0.18.12"
+    "markmap-view": "^0.18.12",
+    "pdfjs-dist": "^5.5.207"
   }
 }

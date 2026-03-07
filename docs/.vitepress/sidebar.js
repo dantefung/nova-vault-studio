@@ -141,9 +141,59 @@ function generateNavItemsFromFiles(relativeDir, linkPrefix) {
         };
     });
 
-    // sort alphabetically by text
-    items.sort((a, b) => a.text.localeCompare(b.text));
+    // sort alphabetically by text (supports Chinese sorting)
+    items.sort((a, b) => a.text.localeCompare(b.text, 'zh-Hans-CN'));
     return items;
 }
 
-export { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories };
+function generateBookNavItems(relativeDir, linkPrefix) {
+    const dir = path.join(process.cwd(), relativeDir);
+    if (!fs.existsSync(dir)) return [];
+
+    const fileItems = []
+    const dirItems = []
+
+    const entries = fs.readdirSync(dir);
+
+    entries.forEach(name => {
+        const full = path.join(dir, name);
+        if (fs.statSync(full).isDirectory()) {
+            const indexFile = path.join(full, 'index.md');
+            let title = name;
+            if (fs.existsSync(indexFile)) {
+                title = extractTitle(indexFile) || title;
+            }
+
+            const pdfFiles = fs.readdirSync(full).filter(f => f.toLowerCase().endsWith('.pdf'));
+            const subitems = pdfFiles.map(file => {
+                const base = file.replace(/\.pdf$/i, '');
+                return {
+                    text: base.replace(/[_-]+/g, ' '),
+                    link: `${linkPrefix}${name}/${base}`
+                };
+            });
+            subitems.sort((a, b) => a.text.localeCompare(b.text, 'zh-Hans-CN'));
+
+            dirItems.push({
+                text: title,
+                link: `${linkPrefix}${name}/`,
+                items: subitems
+            });
+        } else if (path.extname(name).toLowerCase() === '.md' && !name.toLowerCase().startsWith('index')) {
+            const filePath = path.join(dir, name);
+            const title = extractTitle(filePath);
+            const base = name.replace(/\.md$/, '');
+            fileItems.push({
+                text: title,
+                link: `${linkPrefix}${base}`
+            });
+        }
+    });
+
+    const allItems = [...fileItems, ...dirItems];
+    allItems.sort((a, b) => a.text.localeCompare(b.text, 'zh-Hans-CN'));
+    return allItems;
+}
+
+
+export { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories, generateBookNavItems };
