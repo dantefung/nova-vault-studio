@@ -48,18 +48,31 @@ title: ${title}
   pdfFiles.forEach(file => {
     const base = file.replace(/\.pdf$/i, '')
     const mdPath = path.join(fullDir, `${base}.md`)
-    if (fs.existsSync(mdPath)) return
 
     const mdContent = `# ${normalizeName(base)}
 
 <script setup>
+import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
 const pdfUrl = new URL('./${file}', import.meta.url).href
 </script>
 
 <PdfViewer :src="pdfUrl" />
 `
-    fs.writeFileSync(mdPath, mdContent, 'utf8')
+
+    // If the page doesn't exist, create it.
+    // If it exists but uses the older URL construction approach, update it.
+    if (!fs.existsSync(mdPath)) {
+      fs.writeFileSync(mdPath, mdContent, 'utf8')
+      return
+    }
+
+    const existing = fs.readFileSync(mdPath, 'utf8')
+    const needsUpdate = !existing.includes('import PdfViewer') || !existing.includes('new URL(')
+    if (needsUpdate) {
+      fs.writeFileSync(mdPath, mdContent, 'utf8')
+    }
   })
 }
+
 
 console.log(`Generated PDF pages for ${dirs.length} book folder(s)`)

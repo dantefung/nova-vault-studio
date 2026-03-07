@@ -16,14 +16,18 @@ export default defineConfig({
   },
   head: (() => {
     const isCdn = (process.env.VITE_FONT_SOURCE || 'local') === 'cdn'
+    const isProd = process.env.NODE_ENV === 'production'
     const head = [
       ['link', { rel: "icon", type: "image/png", href: "/favicon.png" }],
-      ['script', { src: '/_vercel/insights/script.js', defer: '' }],
       ['meta', { name: 'theme-color', content: '#3c8772' }],
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:title', content: 'System Vault | 系统知识库' }],
       ['meta', { property: 'og:description', content: '系统知识库 - 凡是过往，皆为序章' }],
     ]
+    // 只在生产环境加载 Vercel Insights
+    if (isProd) {
+      head.push(['script', { src: '/_vercel/insights/script.js', defer: '' }])
+    }
     if (isCdn) {
       head.push(['link', { rel: 'preconnect', href: 'https://cdn.jsdelivr.net', crossorigin: '' }])
       head.push(['link', { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' }])
@@ -34,8 +38,8 @@ export default defineConfig({
     headers: {
       level: [0, 1]
     },
-    // 禁用内嵌 HTML 解析，避免包含类似“<”的代码片段导致编译错误
-    html: false,
+    // 启用内嵌 HTML 解析，以支持在 Markdown 中使用 Vue 组件（例如 <PdfViewer /> 和 <script setup>）
+    html: true,
     config: (md) => {
       md.use(markdownItMarkmap)
       md.use(MermaidMarkdown)

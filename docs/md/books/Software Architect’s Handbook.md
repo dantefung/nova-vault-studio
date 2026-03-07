@@ -10708,7 +10708,7 @@ provide an instance of the dependencies that are needed. Although it will vary d
 on your implementation, a sample call with a service locator might look something like the
 following, resulting in an instance being provided based on the specified interface:
 
-var cache = ServiceLocator.GetInstance<ILogger>();
+`var cache = ServiceLocator.GetInstance<ILogger>();`
 
 Using the service locator pattern to get dependencies is considered to be an anti-pattern by
 some people because it hides a class's dependencies. As opposed to constructor injection,
@@ -18031,6 +18031,7 @@ defined with a string. It is called a billion laughs attack because, in one comm
 the string "lol" is used. The following is an example of an XML document for this type of
 attack:
 
+```xml
 <?xml version="1.0"?>
 <!DOCTYPE lolz [
  <!ENTITY lol "lol">
@@ -18054,6 +18055,7 @@ attack:
 "&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;">
 ]>
 <lolz>&lol9;</lolz>
+``` 
 
 Each of the other entities is defined as consisting of ten of the previous entity. The XML
 document then consists of a single instance of the largest of these entities. When an XML
@@ -18931,7 +18933,7 @@ system's topology.
 
 In a deployment diagram, nodes are graphically represented by a three-dimensional box. In
 the following example, there are three nodes. One represents the Azure (App Service), one
-is Desktop Device, and one is Mobile Device. Notice that a <<device>> stereotype is used
+is Desktop Device, and one is Mobile Device. Notice that a `<<device>>` stereotype is used
 to indicate that a node is a device. The various nodes in the example contain components
 and the lines show associations between the nodes:
 

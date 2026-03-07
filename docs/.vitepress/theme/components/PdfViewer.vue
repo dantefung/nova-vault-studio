@@ -23,7 +23,7 @@
     </div>
 
     <div class="viewer">
-      <aside v-if="outline && outline.length" class="outline" :class="{ open: outlineOpen }">
+      <aside v-show="outlineOpen" class="outline">
         <div class="outline-header">
           <span>目录</span>
           <button @click="toggleOutline" title="关闭">✕</button>
@@ -37,7 +37,11 @@
       </aside>
 
       <div class="canvas-wrapper">
-        <canvas ref="canvas" class="pdf-canvas" />
+        <div v-if="error" class="pdf-error">
+          <strong>PDF 加载失败：</strong> {{ error }}
+          <div>请确认文件名是否允许 URL 编码，例如避免特殊字符。</div>
+        </div>
+        <canvas v-else ref="canvas" class="pdf-canvas" />
       </div>
     </div>
   </div>
@@ -45,6 +49,7 @@
 
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
+import PdfOutline from './PdfOutline.vue'
 
 let getDocument
 let GlobalWorkerOptions
@@ -52,7 +57,7 @@ let GlobalWorkerOptions
 const loadPdfJs = async () => {
   if (getDocument) return
   const pdfjs = await import('pdfjs-dist')
-  const workerUrl = await import('pdfjs-dist/build/pdf.worker.min.js?url')
+  const workerUrl = await import('pdfjs-dist/build/pdf.worker.min.mjs?url')
   getDocument = pdfjs.getDocument
   GlobalWorkerOptions = pdfjs.GlobalWorkerOptions
   GlobalWorkerOptions.workerSrc = workerUrl.default
@@ -72,17 +77,24 @@ const scale = ref(props.scale)
 const numPages = ref(0)
 const outline = ref(null)
 const outlineOpen = ref(false)
+const error = ref(null)
 
 let pdfDocument = null
 
 const loadPdf = async () => {
   if (!props.src) return
+  error.value = null
   await loadPdfJs()
-  const loadingTask = getDocument(props.src)
-  pdfDocument = await loadingTask.promise
-  numPages.value = pdfDocument.numPages
-  outline.value = await pdfDocument.getOutline()
-  renderPage()
+  try {
+    const loadingTask = getDocument(props.src)
+    pdfDocument = await loadingTask.promise
+    numPages.value = pdfDocument.numPages
+    outline.value = await pdfDocument.getOutline()
+    renderPage()
+  } catch (e) {
+    error.value = e?.message || String(e)
+    console.error('PDF load error:', e)
+  }
 }
 
 const renderPage = async () => {
@@ -118,12 +130,26 @@ const toggleOutline = () => {
 }
 
 const goToOutline = async (item) => {
-  if (!item.dest) return
-  const dest = await pdfDocument.getDestination(item.dest)
-  if (!dest) return
-  const pageNumber = typeof dest[0] === 'object' ? dest[0].num : dest[0]
-  goToPage(pageNumber)
-  outlineOpen.value = false
+  if (!pdfDocument || !item.dest) return
+  try {
+    const dest = await pdfDocument.getDestination(item.dest)
+    if (!dest || !dest.length) return
+    
+    // dest[0] could be either a page object or page number
+    let pageNumber
+    if (typeof dest[0] === 'object' && dest[0].num !== undefined) {
+      pageNumber = dest[0].num + 1 // page numbers are 0-indexed in PDF.js
+    } else if (typeof dest[0] === 'number') {
+      pageNumber = dest[0] + 1
+    } else {
+      return
+    }
+    
+    goToPage(pageNumber)
+    outlineOpen.value = false
+  } catch (e) {
+    console.warn('Failed to navigate to outline item:', e)
+  }
 }
 
 onMounted(loadPdf)
@@ -133,30 +159,30 @@ watch(page, renderPage)
 watch(scale, renderPage)
 </script>
 
-<script>
-export default {
-  components: {
-    PdfOutline: {
-      props: ['items'],
-      emits: ['navigate'],
-      template: `
-        <ul class="outline-children">
-          <li v-for="(item, idx) in items" :key="idx">
-            <button class="outline-item" @click="$emit('navigate', item)">{{ item.title }}</button>
-            <PdfOutline v-if="item.items?.length" :items="item.items" @navigate="$emit('navigate', $event)" />
-          </li>
-        </ul>
-      `
-    }
-  }
-}
-</script>
-
 <style scoped>
 .pdf-viewer {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.pdf-viewer:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  flex: 1;
+}
+
+.pdf-viewer:fullscreen .toolbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.pdf-viewer:fullscreen .viewer {
+  height: calc(100vh - 60px);
+}
+
+.pdf-viewer:fullscreen .canvas-wrapper {
+  max-height: calc(100vh - 60px);
 }
 
 .toolbar {
@@ -212,16 +238,27 @@ export default {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 8px;
+  overflow: auto;
+  max-height: calc(80vh - 120px);
+  width: 100%;
+  min-height: 300px;
 }
 
 .pdf-canvas {
-  width: 100%;
-  height: auto;
+  display: block;
   border: 1px solid var(--vp-c-divider);
   border-radius: 6px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.pdf-error {
+  padding: 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: rgba(255, 100, 80, 0.08);
+  color: var(--vp-c-danger);
 }
 
 .outline {
@@ -233,12 +270,8 @@ export default {
   background: var(--vp-canvas-bg);
   margin-right: 12px;
   padding: 12px;
-  transition: transform 0.25s ease;
 }
 
-.outline.open {
-  transform: translateX(0);
-}
 
 .outline-header {
   display: flex;
@@ -248,25 +281,10 @@ export default {
   margin-bottom: 8px;
 }
 
-.outline ul,
-.outline-children {
+.outline ul {
   list-style: none;
-  padding-left: 0;
+  padding-left: 12px;
   margin: 4px 0;
 }
 
-.outline-item {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: transparent;
-  text-align: left;
-  padding: 4px 0;
-  font-size: 0.92em;
-  color: var(--vp-c-foreground);
-}
-
-.outline-item:hover {
-  text-decoration: underline;
-}
 </style>
