@@ -32,6 +32,24 @@ function installUrlParsePolyfill() {
   }
 }
 
+function installPromiseWithResolversPolyfill() {
+  if (typeof window === 'undefined' || typeof Promise === 'undefined' || typeof Promise.withResolvers === 'function') {
+    return
+  }
+
+  Promise.withResolvers = () => {
+    let resolve
+    let reject
+
+    const promise = new Promise((res, rej) => {
+      resolve = res
+      reject = rej
+    })
+
+    return { promise, resolve, reject }
+  }
+}
+
 export default {
   ...DefaultTheme,
   // override the Layout with a wrapper component that
@@ -44,6 +62,7 @@ export default {
     }
     if (typeof window === 'undefined') return;
     installUrlParsePolyfill()
+    installPromiseWithResolversPolyfill()
     // Load fonts according to build-time env (VITE_FONT_SOURCE, VITE_FONT_VARIANT)
     const source = import.meta.env.VITE_FONT_SOURCE || 'local'
     if (source === 'local') {

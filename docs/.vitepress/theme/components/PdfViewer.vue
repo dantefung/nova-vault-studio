@@ -56,8 +56,8 @@ let GlobalWorkerOptions
 
 const loadPdfJs = async () => {
   if (getDocument) return
-  const pdfjs = await import('pdfjs-dist')
-  const workerUrl = await import('pdfjs-dist/build/pdf.worker.min.mjs?url')
+  const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs')
+  const workerUrl = await import('pdfjs-dist/legacy/build/pdf.worker.min.mjs?url')
   getDocument = pdfjs.getDocument
   GlobalWorkerOptions = pdfjs.GlobalWorkerOptions
   GlobalWorkerOptions.workerSrc = workerUrl.default
