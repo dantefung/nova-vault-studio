@@ -36,7 +36,16 @@
         </ul>
       </aside>
 
-      <div class="canvas-wrapper">
+      <div
+        ref="canvasWrapper"
+        class="canvas-wrapper"
+        @wheel="handleWheel"
+        @scroll="handleScroll"
+        @touchstart="handleTouchStart"
+        @touchmove="handleTouchMove"
+        @touchend="handleTouchEnd"
+        @touchcancel="handleTouchEnd"
+      >
         <div v-if="error" class="pdf-error">
           <strong>PDF 加载失败：</strong> {{ error }}
           <div>请确认文件名是否允许 URL 编码，例如避免特殊字符。</div>
@@ -48,7 +57,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, nextTick, onMounted, watch } from 'vue'
 import PdfOutline from './PdfOutline.vue'
 
 let getDocument
@@ -71,6 +80,7 @@ const props = defineProps({
 
 const container = ref(null)
 const canvas = ref(null)
+const canvasWrapper = ref(null)
 
 const page = ref(props.page)
 const scale = ref(props.scale)
@@ -80,10 +90,17 @@ const outlineOpen = ref(false)
 const error = ref(null)
 
 let pdfDocument = null
+let pendingScrollPosition = 'top'
+let lastScrollTop = 0
+let touchState = null
+let isProgrammaticScroll = false
+
+const EDGE_THRESHOLD = 24
 
 const loadPdf = async () => {
   if (!props.src) return
   error.value = null
+  pendingScrollPosition = 'top'
   await loadPdfJs()
   try {
     const loadingTask = getDocument(props.src)
@@ -105,15 +122,110 @@ const renderPage = async () => {
   canvas.value.height = viewport.height
   canvas.value.width = viewport.width
   await pdfPage.render({ canvasContext: ctx, viewport }).promise
+  await nextTick()
+  syncScrollPosition()
 }
 
-const goToPage = (n) => {
+const goToPage = (n, options = {}) => {
   if (!pdfDocument) return
+  pendingScrollPosition = options.scrollTo ?? 'top'
   page.value = Math.min(Math.max(1, n), numPages.value)
 }
 
 const setScale = (value) => {
   scale.value = Math.max(0.2, Math.min(5, value))
+}
+
+const syncScrollPosition = () => {
+  if (!canvasWrapper.value) return
+
+  isProgrammaticScroll = true
+  canvasWrapper.value.scrollTop =
+    pendingScrollPosition === 'bottom' ? canvasWrapper.value.scrollHeight : 0
+  lastScrollTop = canvasWrapper.value.scrollTop
+  pendingScrollPosition = 'top'
+
+  requestAnimationFrame(() => {
+    isProgrammaticScroll = false
+  })
+}
+
+const changePageFromEdge = (direction) => {
+  if (direction > 0 && page.value < numPages.value) {
+    goToPage(page.value + 1, { scrollTo: 'top' })
+  } else if (direction < 0 && page.value > 1) {
+    goToPage(page.value - 1, { scrollTo: 'bottom' })
+  }
+}
+
+const handleWheel = (event) => {
+  const wrapper = canvasWrapper.value
+  if (!wrapper || event.ctrlKey) return
+
+  const atTop = wrapper.scrollTop <= EDGE_THRESHOLD
+  const atBottom =
+    wrapper.scrollTop + wrapper.clientHeight >= wrapper.scrollHeight - EDGE_THRESHOLD
+
+  if (event.deltaY > 0 && atBottom) {
+    event.preventDefault()
+    changePageFromEdge(1)
+  } else if (event.deltaY < 0 && atTop) {
+    event.preventDefault()
+    changePageFromEdge(-1)
+  }
+}
+
+const handleScroll = () => {
+  const wrapper = canvasWrapper.value
+  if (!wrapper || isProgrammaticScroll || touchState?.pinching) return
+
+  const currentTop = wrapper.scrollTop
+  const movingDown = currentTop > lastScrollTop
+  const movingUp = currentTop < lastScrollTop
+  const atTop = currentTop <= EDGE_THRESHOLD
+  const atBottom =
+    currentTop + wrapper.clientHeight >= wrapper.scrollHeight - EDGE_THRESHOLD
+
+  lastScrollTop = currentTop
+
+  if (movingDown && atBottom) {
+    changePageFromEdge(1)
+  } else if (movingUp && atTop) {
+    changePageFromEdge(-1)
+  }
+}
+
+const getTouchDistance = (touches) => {
+  const [firstTouch, secondTouch] = touches
+  return Math.hypot(
+    firstTouch.clientX - secondTouch.clientX,
+    firstTouch.clientY - secondTouch.clientY
+  )
+}
+
+const handleTouchStart = (event) => {
+  if (event.touches.length !== 2) return
+
+  touchState = {
+    pinching: true,
+    startDistance: getTouchDistance(event.touches),
+    startScale: scale.value
+  }
+}
+
+const handleTouchMove = (event) => {
+  if (event.touches.length !== 2 || !touchState?.pinching) return
+
+  event.preventDefault()
+  const currentDistance = getTouchDistance(event.touches)
+  const nextScale = touchState.startScale * (currentDistance / touchState.startDistance)
+  setScale(nextScale)
+}
+
+const handleTouchEnd = (event) => {
+  if (event.touches.length < 2) {
+    touchState = null
+  }
 }
 
 const toggleFullscreen = () => {
@@ -145,7 +257,7 @@ const goToOutline = async (item) => {
       return
     }
     
-    goToPage(pageNumber)
+    goToPage(pageNumber, { scrollTo: 'top' })
     outlineOpen.value = false
   } catch (e) {
     console.warn('Failed to navigate to outline item:', e)
@@ -244,6 +356,7 @@ watch(scale, renderPage)
   max-height: calc(80vh - 120px);
   width: 100%;
   min-height: 300px;
+  overscroll-behavior: contain;
 }
 
 .pdf-canvas {
