@@ -34,6 +34,70 @@ function extractTitle(filePath) {
     return titleMatch ? titleMatch[1] : path.basename(filePath, '.md');
 }
 
+function compareByText(a, b) {
+    return a.text.localeCompare(b.text, 'zh-Hans-CN');
+}
+
+function isMarkdownFile(name) {
+    return path.extname(name).toLowerCase() === '.md';
+}
+
+function isIndexFile(name) {
+    return name.toLowerCase() === 'index.md';
+}
+
+function buildDirectorySidebar(dir, linkPrefix, options = {}) {
+    if (!fs.existsSync(dir)) return [];
+
+    const {
+        includeDirectoryIndexLink = true,
+        skipFiles = () => false
+    } = options;
+
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    const items = [];
+
+    entries
+        .filter(entry => entry.isFile() && isMarkdownFile(entry.name) && !skipFiles(entry.name) && !isIndexFile(entry.name))
+        .forEach(entry => {
+            const filePath = path.join(dir, entry.name);
+            const base = entry.name.replace(/\.md$/i, '');
+            items.push({
+                text: extractTitle(filePath),
+                link: `${linkPrefix}${base}`
+            });
+        });
+
+    entries
+        .filter(entry => entry.isDirectory())
+        .forEach(entry => {
+            const subdirPath = path.join(dir, entry.name);
+            const subdirLinkPrefix = `${linkPrefix}${entry.name}/`;
+            const indexPath = path.join(subdirPath, 'index.md');
+            const childItems = buildDirectorySidebar(subdirPath, subdirLinkPrefix, options);
+            const hasIndexPage = fs.existsSync(indexPath);
+
+            if (!hasIndexPage && childItems.length === 0) {
+                return;
+            }
+
+            const dirItem = {
+                text: hasIndexPage ? extractTitle(indexPath) : entry.name,
+                collapsed: true,
+                items: childItems
+            };
+
+            if (includeDirectoryIndexLink && hasIndexPage) {
+                dirItem.link = subdirLinkPrefix;
+            }
+
+            items.push(dirItem);
+        });
+
+    items.sort(compareByText);
+    return items;
+}
+
 function generateSidebar(relativeDir, linkPrefix) {
     const dir = path.join(process.cwd(), relativeDir);
     let markdownFiles = readMarkdownFiles(dir);
@@ -148,51 +212,7 @@ function generateNavItemsFromFiles(relativeDir, linkPrefix) {
 
 function generateBookNavItems(relativeDir, linkPrefix) {
     const dir = path.join(process.cwd(), relativeDir);
-    if (!fs.existsSync(dir)) return [];
-
-    const fileItems = []
-    const dirItems = []
-
-    const entries = fs.readdirSync(dir);
-
-    entries.forEach(name => {
-        const full = path.join(dir, name);
-        if (fs.statSync(full).isDirectory()) {
-            const indexFile = path.join(full, 'index.md');
-            let title = name;
-            if (fs.existsSync(indexFile)) {
-                title = extractTitle(indexFile) || title;
-            }
-
-            const pdfFiles = fs.readdirSync(full).filter(f => f.toLowerCase().endsWith('.pdf'));
-            const subitems = pdfFiles.map(file => {
-                const base = file.replace(/\.pdf$/i, '');
-                return {
-                    text: base.replace(/[_-]+/g, ' '),
-                    link: `${linkPrefix}${name}/${base}`
-                };
-            });
-            subitems.sort((a, b) => a.text.localeCompare(b.text, 'zh-Hans-CN'));
-
-            dirItems.push({
-                text: title,
-                link: `${linkPrefix}${name}/`,
-                items: subitems
-            });
-        } else if (path.extname(name).toLowerCase() === '.md' && !name.toLowerCase().startsWith('index')) {
-            const filePath = path.join(dir, name);
-            const title = extractTitle(filePath);
-            const base = name.replace(/\.md$/, '');
-            fileItems.push({
-                text: title,
-                link: `${linkPrefix}${base}`
-            });
-        }
-    });
-
-    const allItems = [...fileItems, ...dirItems];
-    allItems.sort((a, b) => a.text.localeCompare(b.text, 'zh-Hans-CN'));
-    return allItems;
+    return buildDirectorySidebar(dir, linkPrefix);
 }
 
 

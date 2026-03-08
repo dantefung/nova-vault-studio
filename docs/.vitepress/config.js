@@ -113,6 +113,7 @@ export default defineConfig({
       '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/'),
       '/md/agi/': generateSidebar('docs/md/agi', '/md/agi/'),
       '/md/books/': generateBookNavItems('docs/md/books', '/md/books/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/books', '/md/books/'),
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/')
     },
