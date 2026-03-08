@@ -105,6 +105,7 @@ dist
 
 # vitepress
 cache/
+.serena/
 issue*.md
 !issue-5.md
 !issue-8.md
