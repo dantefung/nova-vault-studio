@@ -7,6 +7,31 @@ import MyLayout from './MyLayout.vue'
 import './markmap.css'
 import './fonts.css'
 
+function installUrlParsePolyfill() {
+  if (typeof window === 'undefined' || typeof URL === 'undefined' || typeof URL.parse === 'function') {
+    return
+  }
+
+  URL.parse = (input, base) => {
+    try {
+      if (base == null) {
+        return new URL(input)
+      }
+
+      const normalizedBase =
+        typeof base === 'string'
+          ? base
+          : typeof base.href === 'string'
+            ? base.href
+            : String(base)
+
+      return new URL(input, normalizedBase)
+    } catch {
+      return null
+    }
+  }
+}
+
 export default {
   ...DefaultTheme,
   // override the Layout with a wrapper component that
@@ -18,6 +43,7 @@ export default {
       DefaultTheme.enhanceApp(ctx);
     }
     if (typeof window === 'undefined') return;
+    installUrlParsePolyfill()
     // Load fonts according to build-time env (VITE_FONT_SOURCE, VITE_FONT_VARIANT)
     const source = import.meta.env.VITE_FONT_SOURCE || 'local'
     if (source === 'local') {
