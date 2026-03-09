@@ -1,4 +1,4 @@
- Software Architect's Handbook
+ # Software Architect's Handbook
 
 Become a successful software architect by implementing
 eﬀective architecture concepts

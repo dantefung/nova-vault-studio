@@ -1,4 +1,4 @@
-Introducing EventStorming
+# Introducing EventStorming
 
 An act of Deliberate Collective Learning
 
@@ -15,7 +15,7 @@ feedback, pivot until you have the right book and build traction once you do.
 
 © 2015 - 2021 Alberto Brandolini
 
-Contents
+Contents
 
 Preface - 60% . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 Who is this book for . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -54,7 +54,7 @@ The illusion of the underlying model . . . . . . . . . . . . . . . . . . . . . 5
 The Product Owner fallacy . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
 The backlog fallacy [FIXME: definitely not the first one . . . . . . . . 56
 
-CONTENTS
+CONTENTS
 
 The backlog fallacy (rewritten) . . . . . . . . . . . . . . . . . . . . . . . . . 64
 Modeling is broken . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
@@ -95,7 +95,7 @@ Managing conflicts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 8. Preparing the workshop - 30% . . . . . . . . . . . . . . . . . . . . . . . . 149
 Choosing a suitable room . . . . . . . . . . . . . . . . . . . . . . . . . . . . 149
 
-CONTENTS
+CONTENTS
 
 Provide an unlimited modeling surface . . . . . . . . . . . . . . . . . . . 152
 Managing invitations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 156
@@ -136,7 +136,7 @@ Modelling processes and services . . . . . . . .196
 
 Context
 
-CONTENTS
+CONTENTS
 
 Game Goal(s) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 199
 Coming soon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204
@@ -177,7 +177,7 @@ How do we know we’re over? . . . . . . . . . . . . . . . . . . . . . . . . . 2
 
 18. Design-Level modeling tips . . . . . . . . . . . . . . . . . . . . . . . . . . 262
 
-CONTENTS
+CONTENTS
 
 Make the alternatives visible . . . . . . . . . . . . . . . . . . . . . . . . . . 262
 Choose later . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 262
@@ -218,7 +218,7 @@ How to combine the two approaches? . . . . . . . . . . . . . . . . . . . 280
 24. Working with Startups - 2% . . . . . . . . . . . . . . . . . . . . . . . . . . 282
 The focus is not on the app . . . . . . . . . . . . . . . . . . . . . . . . . . 283
 
-CONTENTS
+CONTENTS
 
 Leverage Wisdom of the crowd . . . . . . . . . . . . . . . . . . . . . . . . 283
 Multiple business models . . . . . . . . . . . . . . . . . . . . . . . . . . . . 283
@@ -259,7 +259,7 @@ Icebreaker (the)
 Incremental Notation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 304
 Go personal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 305
 
-CONTENTS
+CONTENTS
 
 Keep your mouth shut . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 305
 Leave Stuff Around . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 306
@@ -300,7 +300,7 @@ The Spoiler . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 Start from the beginning . . . . . . . . . . . . . . . . . . . . . . . . . . . . 324
 The godfather . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 324
 
-CONTENTS
+CONTENTS
 
 32. RED ZONE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 326
 Fresh Catering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 326
@@ -325,7 +325,7 @@ Recording results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 343
 
-Preface - 60%
+Preface - 60%
 
 I started writing this book a few years ago. It feels weird to put this sentence
 down because, at that time, I couldn’t imagine what was going to happen.
@@ -363,7 +363,7 @@ everybody in the same room. But in 2020-2021, the notion of filling a closed
 
 i
 
-Preface - 60%
+Preface - 60%
 
 ii
 
@@ -401,7 +401,7 @@ I’ll be strict in being consistent with my notation, using a rigid color schem
 (orange for Domain Events, magenta for Hot Spots, blue for Commands, and
 so on). It is born on the available colors for sticky notes, and interestingly
 
-Preface - 60%
+Preface - 60%
 
 iii
 
@@ -436,7 +436,7 @@ I just realized that in the previous version of this preface, I wrote: “you
 can actually run a Denial of Service attack on me. It’s probably fun!” having
 experienced that, I can tell you it’s not as fun as I expected.
 
-Preface - 60%
+Preface - 60%
 
 iv
 
@@ -447,7 +447,7 @@ better avoiding public references to stale information.
 
 ¹https://leanpub.com/introducing_eventstorming/feedback
 
-1. What does EventStorming look
+1. What does EventStorming look
 
 like? - 85%
 
@@ -478,7 +478,7 @@ art in order to highlight the next critical actions.
 
 1
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 2
 
@@ -502,7 +502,7 @@ meters of a plotter paper roll onto the main wall. Then I extract a dozen of
 
 ¹If you want to know why, have a look to Big table at the center of the room in the Anti-patterns section.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 3
 
@@ -522,7 +522,7 @@ tense form, and to place them along a timeline”.
 Given the time constraints(2-3 hours overall), we agree to narrow the scope
 to the process of customer acquisition.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 4
 
@@ -548,7 +548,7 @@ sign and write them on purple stickies decorating them with big exclamation
 marks, then I place them close to the corresponding step of the emerging
 workflow.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 5
 
@@ -579,7 +579,7 @@ postponing customer acquisition, not the smartest move in a competitive
 
 modeling in the large section.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 6
 
@@ -599,7 +599,7 @@ Looks like we have a clear winner. This is where we need to focus.
 
 It looks like we have a clear mission now.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 7
 
@@ -637,7 +637,7 @@ The business model is new for the market. It’s all clear in the founders’ br
 since they are very experienced in the financial domain. The development
 team is already familiar with Domain-Driven Design concepts, but developers,
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 8
 
@@ -681,7 +681,7 @@ The Lean Startup, a must-read for every startupper in the digital world. In orde
 potential customers as soon as possible, an MVP is the smallest possible product that can be shipped. The
 goal is to avoid wasting money building features, only to discover that no one would buy them.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 9
 
@@ -708,7 +708,7 @@ hide complexity from our investigation, so I just turn the sticky note 45\￿
 anticlockwise to signal that something is wrong, without disrupting the
 discussion flow.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 10
 
@@ -737,7 +737,7 @@ When new terms arise, and the discussion shows that they have an exact
 meaning in that context, I start capturing key term definitions on a special
 sticky note and place them just below the normal flow.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 11
 
@@ -778,7 +778,7 @@ the external systems our cool new software will have to deal with. This will
 happen more explicitly later on, but having some examples already available
 will make the following steps easier.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 12
 
@@ -801,7 +801,7 @@ to do something distinctively different.
 
 about the tooling in the Tools section.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 13
 
@@ -829,7 +829,7 @@ Commands representing user intentions/actions/decisions (they are blue stick-
 ies where we write something like Place Order or Send Invitation), and Actors
 (little yellow stickies) for specific user categories.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 14
 
@@ -839,7 +839,7 @@ To provide a little more background, I draw The picture that explains everything
 (see chapter The picture that explains everything for more on that) on a flip
 chart and keep it as a reference.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 15
 
@@ -860,7 +860,7 @@ dictionary), or in little UI sketches if visual are relevant for the current ste
 like in “we need an image here”, or “price needs to be displayed in the center of
 the screen”.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 16
 
@@ -885,7 +885,7 @@ in terms of reactions to specific Domain Events. It’s easy to pick them up sin
 they mostly start with the word ‘whenever’. It’s something like “whenever
 the exposure passes the given threshold, we need to notify the risk manager” or
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 17
 
@@ -915,7 +915,7 @@ the whys or providing useful insights on the tricky areas.
 Eventually, while founders move to a different office, we keep exploring the
 model with developers. They were eager to get into technicalities like cats
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 18
 
@@ -932,7 +932,7 @@ had pretty much everything sorted out without using words like database,
 table, and query. Data comes in mostly in terms of mandatory requirements
 or as a read model required to support a given user step. Only a few places
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 19
 
@@ -970,7 +970,7 @@ different names, exploring variations or adding more precision to the picture.
 Even if we’re throwing away many stickies, we still have a feeling of progress
 and increased solidity.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 20
 
@@ -993,7 +993,7 @@ involved (like PaymentTermsExpired);
 thing happens, then another one will happen. Well, it’s not always that
 obvious, so we set up a lilac sticky note for that.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 21
 
@@ -1034,7 +1034,7 @@ processes in lilac, that take care of the system reactive logic.
 
 [FIXME: Finish!]
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 22
 
@@ -1078,7 +1078,7 @@ gether, and we end up with around 20 possibilities for improvement.
 
 ⁵Avanscoperta is my small company, where I try to eat my own dog-food. www.avanscoperta.it
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 23
 
@@ -1113,7 +1113,7 @@ romantic than scientific).
 
 In the end, my brain is torn apart. As an entrepreneur, I am quite happy I’ve
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 24
 
@@ -1152,7 +1152,7 @@ every stakeholders involved.
 
 EventStorming.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 25
 
@@ -1188,13 +1188,13 @@ Chapter Goals:
 
 this later.
 
-What does EventStorming look like? - 85%
+What does EventStorming look like? - 85%
 
 26
 
 An overview of some possible different paths
 
-A deep dive into problem
+A deep dive into problem
 space
 
 “The only truth about human condition is that everybody lies, the only variable is
@@ -1221,7 +1221,7 @@ unfit to attack the problems we’re supposed to solve.
 
 ⁸https://www.youtube.com/watch?v=CZR2k5c_198
 
-The two chapters are complementary, and should be read one after another.
+The two chapters are complementary, and should be read one after another.
 However, If you’re eager to get into the mechanics of your first workshop, you
 might skip chapters 2 and 3, if you promise to come back.
 
@@ -1229,7 +1229,7 @@ You won’t regret it.
 
 28
 
-2. A closer look at the problem
+2. A closer look at the problem
 
 space
 
@@ -1257,7 +1257,7 @@ https://nielspflaeging.medium.com/org-physics-the-3-faces-of-every-company-df160
 
 29
 
-A closer look at the problem space
+A closer look at the problem space
 
 30
 
@@ -1278,7 +1278,7 @@ it was taken care of by someone I trusted.
 It took me some time to realize that I just created the first silo in my
 organization. In a company of two.
 
-A closer look at the problem space
+A closer look at the problem space
 
 31
 
@@ -1328,7 +1328,7 @@ Specialization is both a byproduct of silos and an enabler for more future silos
 a precise job title to match search criteria, even if you’re looking for a cross-discipline flexible collaborator. You
 won’t be found if you’re not specific.
 
-A closer look at the problem space
+A closer look at the problem space
 
 32
 
@@ -1363,7 +1363,7 @@ colleagues and hardly reachable by others. Interestingly, pandemic perturbed the
 office and the concept of physical location and nearly killed casual conversations as a side effect. In a large
 organization, the bubble effect of teams and silos is stronger than ever.
 
-A closer look at the problem space
+A closer look at the problem space
 
 33
 
@@ -1405,7 +1405,7 @@ missing the subtleties and quickly turned into secret friction generators inside
 approach - Objective Key Results - seems to be a step in the right direction, but we’re already seeing the idea
 getting polluted in its implementation, again.
 
-A closer look at the problem space
+A closer look at the problem space
 
 34
 
@@ -1450,7 +1450,7 @@ development team. Every manager thought they had rights to a 40%
 of the pie. But there were seven managers, and the pie was not big
 enough for all of them.
 
-A closer look at the problem space
+A closer look at the problem space
 
 35
 
@@ -1489,7 +1489,7 @@ organization.
 Decision-making can be even more decentralized, supporting autonomy
 and self-organization to a given extent, provided local decisions are not
 
-A closer look at the problem space
+A closer look at the problem space
 
 36
 
@@ -1530,7 +1530,7 @@ the reason:
 
 ⁵Here is the link to the article published on Nature.
 
-A closer look at the problem space
+A closer look at the problem space
 
 37
 
@@ -1556,7 +1556,7 @@ is wishful thinking. There may be special places with special protocols - I am n
 nuclear plants’ security - but in the average company, waiting for everybody’s thumbs-up is a losing strategy.
 More about it in a few paragraphs.
 
-A closer look at the problem space
+A closer look at the problem space
 
 38
 
@@ -1597,7 +1597,7 @@ awareness is hard to achieve - like in complex artifacts, siloed organizations,
 or untested legacy software - you enter the realm of risk-taking …or simply
 stay out of it.
 
-A closer look at the problem space
+A closer look at the problem space
 
 39
 
@@ -1625,7 +1625,7 @@ The decisions lifecycle, when context evolves.
 
 variations is broader, including Imposter’s Syndrome.
 
-A closer look at the problem space
+A closer look at the problem space
 
 40
 
@@ -1669,7 +1669,7 @@ valid, it can be more natural to propose a better alternative for the current co
 them popular in his blog post Documenting Architecture Decisions. You can find more resources about ADRs
 at https://adr.github.io/.
 
-A closer look at the problem space
+A closer look at the problem space
 
 41
 
@@ -1705,7 +1705,7 @@ they need different types of consensus.
 
 ⁹This should be obvious, but that’s not always the case. Obviousness is relative.
 
-A closer look at the problem space
+A closer look at the problem space
 
 42
 
@@ -1745,7 +1745,7 @@ book Visual Meetings:
 
 Can’t do system thinking without visualization
 
-A closer look at the problem space
+A closer look at the problem space
 
 43
 
@@ -1778,7 +1778,7 @@ organization. Everybody knows somebody must do something about that
 problem, but cutting through vagueness and sorting up priorities is not
 happening with the needed frequency.
 
-A closer look at the problem space
+A closer look at the problem space
 
 44
 
@@ -1800,7 +1800,7 @@ same thing. Sitting around a table with no visualization won’t trigger the
 magic. Building together the model for strategic decision-making will reveal
 the different thinking processes of the people involved.
 
-A closer look at the problem space
+A closer look at the problem space
 
 45
 
@@ -1823,7 +1823,7 @@ solution to your problems passes through coding software solutions, there’s
 an entire family of misconceptions and issues waiting for us in the next
 chapter.
 
-A closer look at the problem space
+A closer look at the problem space
 
 46
 
@@ -1847,7 +1847,7 @@ is understood.
 
 improve these numbers.
 
-3. Pretending to solve the problem
+3. Pretending to solve the problem
 
 writing software - 50%
 
@@ -1882,7 +1882,7 @@ is tempting and powerful at the same time. Developers produce things that
 
 47
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 48
 
@@ -1925,7 +1925,7 @@ was no longer the key constraint. Having a last generation IDE with awesome
 
 later.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 49
 
@@ -1968,7 +1968,7 @@ a little, you’ll be proud of your contribution⁴. Some software can be just a
 the force does in Star Wars, removing pride from our daily job is a recipe for failure. Daniel H. Pink illustrates
 this clearly in his book Drive.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 50
 
@@ -2015,7 +2015,7 @@ is the deliverable, you’re fine⁶. But if learning is the deliverable, you ju
 ⁵The answer to this one is easy: “Never!”
 ⁶No, you’re probably not.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 51
 
@@ -2056,7 +2056,7 @@ There are some common traits between how computer science is taught in
 many places around the world, that don’t match the real world sills needed
 for software professionals. This has mostly to do with the educational
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 52
 
@@ -2099,7 +2099,7 @@ Here’s the bad news.
 
 The whole is not consistent.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 53
 
@@ -2142,7 +2142,7 @@ they haven’t. From the boss asking “Is everything clear?” in a threatening
 to attract the wrath and anger of a boss in bad mood? To the polite attempt not to disrupt the conversation,
 with a continuous request for clarification.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 54
 
@@ -2189,7 +2189,7 @@ We have a recurring problem in enterprise software development, which is
 knowledge unreliability, and a strategy for modeling (nouns and data first)
 that seems perfect for being fooled.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 55
 
@@ -2230,7 +2230,7 @@ Single point of failures are bad
 Placing the burden of understanding the whole system on a single person/-
 role sounds like a terrible idea even in strategic terms.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 56
 
@@ -2266,7 +2266,7 @@ iteration.
 
 Once in place, a product backlog tends to look like a queue
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 57
 
@@ -2288,7 +2288,7 @@ enough space for those activities that don’t follow the plan.
 
 In fact, some project follow the plan relatively well. They’re usually the project
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 58
 
@@ -2320,7 +2320,7 @@ If repeatable weeks are optimized for planning and delivery. They aren’t reall
 optimized for discovery. In fact discovery is more likely to happen when we
 break our habits and do something distinctively different[^PTEL1].
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 59
 
@@ -2335,7 +2335,7 @@ software development that always looked like an elephant in the room to me.
 
 Doing a thing twice costs more than doing it right at first shot.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 60
 
@@ -2355,7 +2355,7 @@ right starting point matters: a plausible pair of variable was leading to the
 expected result in 2-3 steps, while a wrong starting point was taking way
 more rounds, hence more time, severely hurting my possibilities to pass the
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 61
 
@@ -2390,7 +2390,7 @@ thinks before typing the firs line of code.
 
 This is not what EventStorming is for
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 62
 
@@ -2413,7 +2413,7 @@ pretending that we don’t know already who’s gonna be the hero that survives.
 
 It might be fun to apply emergent design principles to a problem that has
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 63
 
@@ -2457,7 +2457,7 @@ to drink quickly in a small cup, while standing at the bar. In other countries
 (particularly colder countries), a coffee is associated with a mug and the idea
 of drinking it slowly while sitting at the table, or even a working desk.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 64
 
@@ -2491,7 +2491,7 @@ I actually love this stuff. But I still have a question mark.
 My question mark is about “how do we start?” I actually like the fact that there
 is no strong prescription about how to initiate an agile project,
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 65
 
@@ -2533,7 +2533,7 @@ A model is just a tool towards deeper learning
 
 when one can count on an infinite source of curiosity, like a kid’s brain.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 66
 
@@ -2570,7 +2570,7 @@ Splitting established model in a Database-centric architecture is among the
 most expensive refactorings in software development. Quite often the risks
 are so hard to evaluate that initiatives are killed before the start.
 
-Pretending to solve the problem writing software - 50%
+Pretending to solve the problem writing software - 50%
 
 67
 
@@ -2594,7 +2594,7 @@ distinguished things.
 This is what we do in EventStorming: we gather the best available brains for
 the job and we collaboratively build a model of a very complex problem space.
 
-4. Running a Big Picture Workshop -
+4. Running a Big Picture Workshop -
 98%
 
 In the last two chapters, we saw how many organizations end up sharing
@@ -2633,7 +2633,7 @@ or to design the next implementation of a business flow for a startup, or to
 
 68
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 69
 
@@ -2678,7 +2678,7 @@ Here is a list of the fundamental ingredients for a successful workshop.
 
 expertise, bound by the common goal of improving the system;
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 70
 
@@ -2719,7 +2719,7 @@ Room setup
 
 We’ll need a special room arrangement for the workshop.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 71
 
@@ -2770,7 +2770,7 @@ below.
 
 to be soft on needs, be hard on laziness.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 72
 
@@ -2791,7 +2791,7 @@ right!
 To give you the exact feeling, I will not anticipate the structure or the list of
 the phases. But I promise you’ll get a good summary at the end of this chapter.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 73
 
@@ -2838,7 +2838,7 @@ customers are what keeps your business alive.
 
 ⁴We’ll talk about the godfather behavior and how to deal with it in the anti-patterns section.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 74
 
@@ -2868,7 +2868,7 @@ Make it happen.
 If you do a good job, you’ll get plenty of questions at the coffee machine,
 later.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 75
 
@@ -2903,7 +2903,7 @@ build our narrative as a sequence of related events.
 
 more readable. The whole story may be read here.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 76
 
@@ -2945,7 +2945,7 @@ usually a piece of cake, culture tends to be very experimental, and there should
 to worry about. In corporate environments, you can tell there are a lot of scars and past blames in the room,
 implicitly suggesting: “let someone else make the first move.”
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 77
 
@@ -2989,7 +2989,7 @@ then all of a sudden …WRAAAAAAAAAAAAAAAMMMM!!!
 their comfort zone, to try to model their own business in a counter-intuitive way. Punishing them for a genuine
 effort can backfire.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 78
 
@@ -3028,7 +3028,7 @@ Cool down
 Eventually, the crowd will stop adding stickies to the wall and will take a more
 contemplative position, looking at the big picture more than to their own
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 79
 
@@ -3042,7 +3042,7 @@ energy.
 
 chaos -> contemplation.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 80
 
@@ -3077,7 +3077,7 @@ in my own silo” - have to be merged with somebody else’s view on the same
 
 beat lack of oxygen or walking space, so don’t underestimate room selection and arrangement.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 81
 
@@ -3115,7 +3115,7 @@ Suspects.
 
 You might want to start picking the most promising one, given your context.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 82
 
@@ -3146,7 +3146,7 @@ of the flow, and eventually start a conversation with their neighboring peers.
 
 Quicksort.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 83
 
@@ -3180,7 +3180,7 @@ milestones.
 On a smaller scale, I like using horizontal labels to name the parallel processes.
 A little less readable than real swimlanes, but more space-efficient.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 84
 
@@ -3208,7 +3208,7 @@ Time might be a better splitter than events in some cases
 Of course, we’re not interested in the trivial ordering. What we do care about
 is the conversation that emerges from the not so trivial ones.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 85
 
@@ -3246,7 +3246,7 @@ Put in another way, I just don’t trust the official version.
 
 storytelling as a gluing factor.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 86
 
@@ -3282,7 +3282,7 @@ this phase.
 
 This is when the role of the facilitator becomes crucial. While everybody is
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 87
 
@@ -3306,7 +3306,7 @@ I am expecting to find quite a few of them. In fact, EventStorming provides
 a safer environment for going hard on the problem (which is now visible on
 the wall) while being soft on the people.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 88
 
@@ -3338,7 +3338,7 @@ the most generic User to ultra-fine grained users like John and Amy, passing
 through all the possible variations of New Customer versus Returning Cus-
 tomer and so on.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 89
 
@@ -3358,7 +3358,7 @@ External Systems
 External Systems are the next significant ingredient of our model. A business
 doesn’t happen in a vacuum, and to see the whole system we need to look at
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 90
 
@@ -3404,7 +3404,7 @@ care about the personality of the systems, a little more about humans)¹³.
 
 visible. But I am really interested in the discussion.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 91
 
@@ -3425,7 +3425,7 @@ There will be no mercy for external systems.
 Adding new systems usually triggers the need for more events regarding
 things that may happen around those systems, like the need to renew licenses
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 92
 
@@ -3439,7 +3439,7 @@ possibly hiding significant details from the conversation.
 The same goes with events, if this extra information is enriching your model,
 just add the corresponding events!
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 93
 
@@ -3476,7 +3476,7 @@ add more events. Your brain pain means that it’s actually working.
 thinking about a sentence isn’t enough to trigger the magic. But the act of speaking aloud, better if in front of
 some audience, will.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 94
 
@@ -3508,7 +3508,7 @@ clarification.
 There’s no default strategy on how to handle discussions on the spot. I like
 to observe participants’ body language - it usually tells a lot ranging from “Oh,
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 95
 
@@ -3548,7 +3548,7 @@ corresponding event or sub-flow to our model.
 
 repeat it ad libitum.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 96
 
@@ -3576,7 +3576,7 @@ or can be reassigned at the very last minute.
 
 In practice, this means that we have a few more events: Participant Name
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 97
 
@@ -3617,7 +3617,7 @@ to neglect the money part of the flow: suppliers are not paid, invoices are not
 received or sent, and a large portion of the system that has to do with money
 is often overlooked or skipped.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 98
 
@@ -3649,7 +3649,7 @@ finally see the whole thing, in the form of a consistent business narrative.
 The entire thing is all but perfect and shiny, but it should now make sense
 from the storytelling perspective.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 99
 
@@ -3673,7 +3673,7 @@ it when you’ll see that. Discovering inconsistencies might be embarrassing,
 sometimes. It’s better to focus on the opportunities that an exposed flaw in
 our storytelling might lead us to.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 100
 
@@ -3712,7 +3712,7 @@ provide everybody one last chance to have their opinion visible.
 To do so, I now officially offer a 10-15 minutes time-box to add Problems
 and Opportunities to our model. Problems are represented with our familiar
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 101
 
@@ -3732,7 +3732,7 @@ Green opportunities provide a perfect counterpart to the possible flood of
 problems. We have solutions, and problem-solvers in the room too! There’s
 hope!
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 102
 
@@ -3769,7 +3769,7 @@ independent targets.
 
 3. Voting happens more or less simultaneously, no voting catwalk.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 103
 
@@ -3796,7 +3796,7 @@ structure, we included people and external systems, we explored inconsis-
 tencies in a forward and then backward fashion) we should now have a clear
 indication of what to do on the next morning.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 104
 
@@ -3813,7 +3813,7 @@ focus on.
 
 Put in another way, this is what I am expecting to see through the fog.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 105
 
@@ -3849,7 +3849,7 @@ In general, there are a few interesting variations over the Big Picture format,
 and context might drive us towards a different schedule. We’ll go deeper on
 that topic in the Big Picture Variations chapter.
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 106
 
@@ -3901,7 +3901,7 @@ their opinion and ideas about the current flow.
 • Pick the right problem: once everything is visible and marked with a
 hot spot, it may make sense to choose the most important problem(s) to
 
-Running a Big Picture Workshop - 98%
+Running a Big Picture Workshop - 98%
 
 107
 
@@ -3925,7 +3925,7 @@ different phases.
 
 covery workshop.
 
-5. Playing with value - part 1 - 95%
+5. Playing with value - part 1 - 95%
 
 Optional Step
 
@@ -3961,7 +3961,7 @@ need a counterpart for specific moments where value gets destroyed. Red
 
 108
 
-Playing with value - part 1 - 95%
+Playing with value - part 1 - 95%
 
 109
 
@@ -3991,7 +3991,7 @@ depending on the culture. In Europe, the green color implicitly means good or sa
 associated with danger. In China, red instead has a positive connotation, and green a bad one. You may want
 to keep this in mind, to choose the best suitable combination for your audience.
 
-Playing with value - part 1 - 95%
+Playing with value - part 1 - 95%
 
 110
 
@@ -4022,7 +4022,7 @@ your product and services, if you care about the ecosystem in which your
 organization operates, and in general if you care about improving, then the
 answer is clearly: _ “Yes!”_
 
-Playing with value - part 1 - 95%
+Playing with value - part 1 - 95%
 
 111
 
@@ -4063,7 +4063,7 @@ provide to write the proposal.
 
 for improvement in relieving the unnecessary burden on the citizen is as vast as Siberia.
 
-Playing with value - part 1 - 95%
+Playing with value - part 1 - 95%
 
 112
 
@@ -4102,7 +4102,7 @@ real reason why users should perform a given action can quietly kill a start-up
 idea before wasting millions. Or at least suggest us to run a cheap experiment
 to validate the assumption, and eventually kill the initiative.
 
-Playing with value - part 1 - 95%
+Playing with value - part 1 - 95%
 
 113
 
@@ -4147,7 +4147,7 @@ up being a terrible idea, poisoning the whole organization ecosystem. Dave Gray 
 describing different types of organizations in his book The Connected Company, particularly showing how a
 clear company purpose can unlock autonomy and self-organization in the employees.
 
-Playing with value - part 1 - 95%
+Playing with value - part 1 - 95%
 
 114
 
@@ -4186,7 +4186,7 @@ nobody dared to start. It can trigger deeper insight on why are we doing
 given things in our organization and shifting assumptions that haven’t been
 changed in years.
 
-Playing with value - part 1 - 95%
+Playing with value - part 1 - 95%
 
 115
 
@@ -4206,7 +4206,7 @@ session.
 • Be prepared to ask and answer difficult questions.
 • Be ready to choose what organization you want to be.
 
-6. Discovering Bounded Contexts
+6. Discovering Bounded Contexts
 
 with EventStorming¹
 
@@ -4242,7 +4242,7 @@ for some inconsistencies: it’s still work in progress, but hopefully valuable.
 
 116
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 117
 
@@ -4288,7 +4288,7 @@ So here you are, yelling at the sky, asking yourself: “What did we do wrong?�
 
 And a likely answer is: “We didn’t get the right context boundaries.”
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 118
 
@@ -4319,7 +4319,7 @@ Put in another way, the business stakeholders are not a reliable source of
 especially true: planning, designing, tracking, running, supporting, choosing are more fine-grained purposes, that
 often require a model on their own.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 119
 
@@ -4347,7 +4347,7 @@ At the very root the recipe is really simple:
 
 ³The best entry point to start exploring the EventStorming world is probably the official website.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 120
 
@@ -4372,7 +4372,7 @@ The simplest possible explanation of a domain event
 With a little facilitation magic, in a few hours, we end up with a big behavioral
 model of the entire organization: something like the one in the picture below.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 121
 
@@ -4389,7 +4389,7 @@ To make things clearer, let’s see the main steps in the workshop structure, fo
 cusing mainly on the steps that provide critical insights to Bounded Contexts
 discovery.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 122
 
@@ -4422,7 +4422,7 @@ during the conference and the days before. The need for specialization is contin
 of having to sync as few people as possible. At the same time, I’ve never seen two conferences alike, so I won’t
 be revealing special trade secrets here.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 123
 
@@ -4443,7 +4443,7 @@ much.
 As a result, we’ll end up with a lot of duplicated sticky notes, or apparently
 duplicated ones.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 124
 
@@ -4466,7 +4466,7 @@ actors in the business flow.
 
 That’s cool! It might be a hint of multiple overlapping contexts.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 125
 
@@ -4491,7 +4491,7 @@ an answer because we made sure the experts are available!
 At the same time, we’ll have diverging views about how a given step should
 be performed. Some conflicts will be settled — after all it’s just a matter of
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 126
 
@@ -4536,7 +4536,7 @@ money finally coming in; on the other one, we now have a customer
 and/or an attendee and a lot of specific communications that we’ll have
 to manage.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 127
 
@@ -4560,7 +4560,7 @@ the internal events faster. We can still improve the model later if needed.
 After highlighting pivotal events, sorting becomes a lot faster inside the
 boundaries, and a more sophisticated structure starts to emerge.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 128
 
@@ -4593,7 +4593,7 @@ from venue management, to catering, staffing, video recording and so on.
 Our replaceable tape comes in handy also to give a name to these parallel
 flows. The underlying structure backbone will now probably look something
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 129
 
@@ -4611,7 +4611,7 @@ looking for people: actors, users, personas, or specific roles in our system;
 and systems: from software components and tools to external organizations.
 Nothing excluded.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 130
 
@@ -4640,7 +4640,7 @@ storm the day before).
 From the software perspective, an external system calls for some integration
 strategy (maybe our all-time favorite: the Anti-Corruption Layer), but from
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 131
 
@@ -4673,7 +4673,7 @@ flow, while the narrator is progressing like a defrag cursor⁵.
 
 ⁵If you’re old enough to remember what defrag used to be. ;-)
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 132
 
@@ -4704,7 +4704,7 @@ collective understanding into political momentum to do the right thing⁶.
 
 ⁶This area might be what your Core Domain looks right now.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 133
 
@@ -4745,7 +4745,7 @@ design a conference, are not the same tools needed to run a conference.
 
 ⁷I might have used the word ‘heuristic’ here only to make Mathias Verraes happy.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 134
 
@@ -4760,7 +4760,7 @@ Moreover, keep in mind that when two models are interacting, there are usu-
 ally three models involved: the internal models of the two bounded contexts
 and the communication model used to exchange information between them.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 135
 
@@ -4779,7 +4779,7 @@ leads to different models.
 Pivotal Events are usually part of a more general published language shared
 between the different parties.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 136
 
@@ -4799,7 +4799,7 @@ might want to give a shot to an independent model.
 
 Swimlanes are usually a reliable clue for possible different bounded contexts.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 137
 
@@ -4821,7 +4821,7 @@ recognize that speakers and keynote speakers are different in the left part
 of the flow, but they’ll have a similar badge during the registration process,
 and they won’t be different from regular attendees during lunchtime, when
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 138
 
@@ -4864,7 +4864,7 @@ Once again: different needs mean different models.
 
 ing leverages this innate human behavior and turns into a modeling propeller.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 139
 
@@ -4884,7 +4884,7 @@ WordPress to publish the website, I just need to know whether the URL is
 reachable or not” or “I don’t care how did you decide those prices, I just need
 to know the amount for every ticket type”.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 140
 
@@ -4927,7 +4927,7 @@ Compared to traditional, formal requirements gathering, the amount of in-
 formation that we can achieve during an EventStorming session is not only
 superior: it’s massively overwhelming.
 
-Discovering Bounded Contexts with EventStorming
+Discovering Bounded Contexts with EventStorming
 
 141
 
@@ -4953,7 +4953,7 @@ Merge the people, split the software.
 In retrospective, I still wonder why we wasted all those years doing the
 opposite.
 
-7. Making it happen
+7. Making it happen
 
 Managing Participant’s experience
 
@@ -4980,7 +4980,7 @@ are not the majority.
 
 142
 
-Making it happen
+Making it happen
 
 143
 
@@ -5021,7 +5021,7 @@ Making it sure everybody knows what they’re doing is crucial for the work-
 shop’s flow. Keep in mind that most of the workshop participants are doing
 it for the first time, so they’ll need as much safety as you can provide. They’re
 
-Making it happen
+Making it happen
 
 144
 
@@ -5052,7 +5052,7 @@ More often than not, the facilitator isn’t the only one person wondering what
 an Investment really is, but others may not feel confident enough to ask. If
 you get a silent nod of approval, you’ve done a good job.
 
-Making it happen
+Making it happen
 
 145
 
@@ -5095,7 +5095,7 @@ a copy close to the distant consequence in order to simplify readability.
 temptation not to rewrite a sticky note, once we find a better wording for it to the irrational affection towards
 blatantly flawed portions of legacy code.
 
-Making it happen
+Making it happen
 
 146
 
@@ -5127,7 +5127,7 @@ to be an artist in order to draw it, but it delivers the message.
 In general, when things happen ‘at the right time’ there’s an implicit time-
 triggered event waiting to emerge. Introducing this concept as an explicit
 
-Making it happen
+Making it happen
 
 147
 
@@ -5166,7 +5166,7 @@ A Big Picture EventStorming is not a workshop for those that like to sweep
 the rug under the carpet. In fact, its more of a let’s have a look under the carpet
 party.
 
-Making it happen
+Making it happen
 
 148
 
@@ -5176,7 +5176,7 @@ Chapter Goals:
 • Tips for resolving conflicts
 • Different people make a different party
 
-8. Preparing the workshop - 30%
+8. Preparing the workshop - 30%
 
 Choosing a suitable room
 
@@ -5214,7 +5214,7 @@ workshop”), let’s take control before the battle, like great generals do.
 
 149
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 150
 
@@ -5244,7 +5244,7 @@ match.
 
 ¹“I am sorry, I can’t read from here…“, it’s hard not to say a word, sometimes.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 151
 
@@ -5274,7 +5274,7 @@ This curiosity will be your best friend.
 
 is my seat!?”, but …that’s life.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 152
 
@@ -5317,7 +5317,7 @@ effects of having laptops in the meeting that should be actively discouraged.
 
 ⁴we’ll cover that topic in detail in the tools section.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 153
 
@@ -5358,7 +5358,7 @@ for another meeting.
 Even if the workshop is officially finished, there’s still value in having the
 visible outcome available for a few days. Not every conversation or stream of
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 154
 
@@ -5387,7 +5387,7 @@ that someone knows what to do.
 
 Here is a picture of a visible agenda from one of my workshops.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 155
 
@@ -5402,7 +5402,7 @@ different activities, and timebox them. However, keep in mind that Big Picture
 is a discovery activity, so surprised will override the plan. However, when this
 happens make it an explicit, and if necessary call a quick voting session.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 156
 
@@ -5439,7 +5439,7 @@ EventStorming became a more general purpose tool that helped people coming from 
 have a better conversation around a shared artifact. Service designers, user experience designers, and whoever
 is involved in transforming the status quo into something different became welcome.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 157
 
@@ -5468,7 +5468,7 @@ There won’t be a single domain expert, with deep knowledge of several aspects
 of the domain, but many people each one with partial, possibly outdated,
 conflicting views of the problem domain.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 158
 
@@ -5484,7 +5484,7 @@ So don’t be reluctant to invite people with strongly different opinions. Man-
 aging conflicts, clarifying them and making them visible, is one of the key
 outcomes of EventStorming, so … invite that person too.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 159
 
@@ -5527,7 +5527,7 @@ much emotional burden, or a predefined position on the matter.
 Facilitator duties will include workshop preparation, providing all the neces-
 sary stationery and the illusion that everything is under control.
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 Yes, I said illusion.
 
@@ -5567,7 +5567,7 @@ entire organization has been waiting for ages, and the facilitator will just
 have to observe and take notes. Others will be poisonous: the repetition of a
 disengaging ritual that will make somebody’s eyes roll, and the facilitator will
 
-Preparing the workshop - 30%
+Preparing the workshop - 30%
 
 161
 
@@ -5610,7 +5610,7 @@ Manage expectations
 
 published after the party happened. No time travelers showed up, if this is proving anything.
 
-9. Workshop Aftermath - 20%
+9. Workshop Aftermath - 20%
 
 If your goal is to solve the problem by writing software, your job isn’t finished
 when the workshop is officially over. As a member of software development
@@ -5637,7 +5637,7 @@ beverages, the expected timebox is around two hours.
 
 162
 
-Workshop Aftermath - 20%
+Workshop Aftermath - 20%
 
 163
 
@@ -5675,7 +5675,7 @@ work. A blind date isn’t necessarily the beginning of a love story.
 In fact some of the most effective EventStorming didn’t deliver exactly what
 was expected.
 
-Workshop Aftermath - 20%
+Workshop Aftermath - 20%
 
 164
 
@@ -5716,7 +5716,7 @@ looks like the most interesting problem to solve? Did we mark it as such
 with a purple sticky note? No conflicts and no problems doesn’t mean
 honeymoon: it means somebody was missing, or maybe lying.
 
-Workshop Aftermath - 20%
+Workshop Aftermath - 20%
 
 165
 
@@ -5758,7 +5758,7 @@ misinterpret the implicit messages.
 
 rooms, you have a problem. If you’re lowering down the [FIXME: finish the note.]
 
-Workshop Aftermath - 20%
+Workshop Aftermath - 20%
 
 166
 
@@ -5799,7 +5799,7 @@ Managing the big picture artifact
 The real outcome of an EventStorming session is the cooperative learning.
 Even if getting finally to the big picture felt exhausting, the real outcome is
 
-Workshop Aftermath - 20%
+Workshop Aftermath - 20%
 
 167
 
@@ -5839,7 +5839,7 @@ some on-the-spot for better readability), roll the paper again preserving all
 the stick notes, and store the paper roll in a safe place, to be used just in
 case.
 
-Workshop Aftermath - 20%
+Workshop Aftermath - 20%
 
 168
 
@@ -5876,7 +5876,7 @@ When to stop? that our workshop will probably be limited by external factors
 such as people and room availability, so we won’t have the privilege to decide
 when the workshop is over.
 
-Workshop Aftermath - 20%
+Workshop Aftermath - 20%
 
 169
 
@@ -5908,7 +5908,7 @@ often not exactly the same.
 
 transform it.
 
-10. Big Picture Variations - 50%
+10. Big Picture Variations - 50%
 
 In Chapter 4 - Running a Big Picture Workshop we ended up with a possible
 standard road-map for a Big Picture EventStorming. Now I have to confess
@@ -5946,7 +5946,7 @@ the workshop the response to an invitation might be a “Oh, no! One more pre-sa
 
 170
 
-Big Picture Variations - 50%
+Big Picture Variations - 50%
 
 171
 
@@ -5991,7 +5991,7 @@ information.
 
 in his book Extreme Contracts. [FIXME: Links]
 
-Big Picture Variations - 50%
+Big Picture Variations - 50%
 
 172
 
@@ -6029,7 +6029,7 @@ to the newcomers, starting to model the system based on their guessing
 and assumptions, and progressively correcting them. The way we do it is to
 ask “Let’s start modelling what you think it’s happening in this organization!”
 
-Big Picture Variations - 50%
+Big Picture Variations - 50%
 
 173
 
@@ -6039,7 +6039,7 @@ visible is an interesting starting point. The senior member of the team will be
 expected to explain to justify the correction, and together they should evolve
 the model accordingly.
 
-11. Big Picture in remote mode -
+11. Big Picture in remote mode -
 
 80%
 
@@ -6078,7 +6078,7 @@ will be less rewarding, like looking at the magnificence of our model.
 
 174
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 175
 
@@ -6127,7 +6127,7 @@ workshop. There is no proximity after we exit the virtual meeting.
 
 Zoom managed to become popular also thanks to this term becoming viral. ;-)
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 176
 
@@ -6166,7 +6166,7 @@ upfront agreement.
 
 looking for edulcorated synonims of ‘bullshit’.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 177
 
@@ -6207,7 +6207,7 @@ Designing new businesses
 During the emergency months, my company had to redesign business chan-
 nels and services quickly. We used to deliver immersive workshops, and they
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 178
 
@@ -6248,7 +6248,7 @@ them portable.
 
 • I use larger stickies for pivotal events.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 179
 
@@ -6283,7 +6283,7 @@ starting point for further refinement, but our job is not over.
 
 sentence has always been: “You can’t have arrows, sorry.”
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 180
 
@@ -6323,7 +6323,7 @@ We can’t make the whole workshop fit in one day. And some activities will
 be slower anyway, so maybe we should accept this as inevitable and split the
 workshop in different chunks.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 181
 
@@ -6356,7 +6356,7 @@ main workshop, but the discussion will stay synchronous⁴.
 about their organization, you’ll be running the workshop in yours, with your current state of digital maturity.
 Things will surely evolve over the years, but themainstream isn’t there yet.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 182
 
@@ -6386,7 +6386,7 @@ This can happen before the workshop, maybe with a small selected team so
 agreeing on the seed structure doesn’t take ages, or it can happen during the
 workshop under the framing of a strictly timeboxed discardable experiment.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 183
 
@@ -6422,7 +6422,7 @@ therefore
 Keep one colour unassigned if you used colors as signature, you can use it to
 track progress when tou get in the explicit walkthrough phase.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 184
 
@@ -6450,7 +6450,7 @@ together, for the first time, remotely, we won’t be able to precisely anticipa
 
 ⁵Even if it can take less than 10 minutes, in practice you’ll be facing a riot.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 185
 
@@ -6496,7 +6496,7 @@ A lot of decisions during the workshops will be experimental and maybe
 happening on the fly. There’s nothing wrong with this as long as you’re able
 to make your decisions explicit, visible and readable by a future participant.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 186
 
@@ -6521,7 +6521,7 @@ an arrow pointing to the issue or event they care about.
 
 Arrows are not easily moveable, so keep this step close to the end. It feels
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 187
 
@@ -6543,7 +6543,7 @@ consulting scenario.
 However, ideas for experiments do not come out of the blue and I hope the
 patterns described in this chapters can come in handy.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 188
 
@@ -6571,7 +6571,7 @@ here.
 
 workshops.
 
-Big Picture in remote mode - 80%
+Big Picture in remote mode - 80%
 
 189
 
@@ -6582,12 +6582,12 @@ Validation without a conversation is an illusion.
 
 The state-of-the-art recipe for remote Big Picture EventStorming
 
-Why is it working?
+Why is it working?
 
 It took me a little to make it work. It took me ages to understand why it was
 working.
 
-12. What software development
+12. What software development
 
 really is - 40%
 
@@ -6622,7 +6622,7 @@ are crap. Unfortunately the story isn’t that simple.
 
 191
 
-What software development really is - 40%
+What software development really is - 40%
 
 192
 
@@ -6662,7 +6662,7 @@ is not only related to a technology or a programming language¹, but also to
 
 happened only in 1983 working with ZX Spectrum’s Basic language. Because all the keywords were visible.
 
-What software development really is - 40%
+What software development really is - 40%
 
 193
 
@@ -6702,7 +6702,7 @@ and mysterious coding activities. However looked like he was in a state of flow,
 closer look I discovered he was adding getters and setters manually to DTOs and domain classes. When I asked
 him why he wasn’t using the IDE built-in code generator, he said: “I prefer this way. It gives me peace of mind.”
 
-What software development really is - 40%
+What software development really is - 40%
 
 194
 
@@ -6740,7 +6740,7 @@ also taking nontrivial decisions like how to implement a given solution, which
 library, component, product or even programming language to choose for the
 next project, up to the spectrum of
 
-What software development really is - 40%
+What software development really is - 40%
 
 195
 
@@ -6770,13 +6770,13 @@ Chapter Goals:
 • Have a look at Kanban
 • Have a look at Theory of Constraints
 
-Modelling processes and
+Modelling processes and
 services
 
 In this section we’ll see how a different flavour of EventStorming can help
 interdisciplinary teams to design better services, features and products.
 
-13. Process Modeling as a
+13. Process Modeling as a
 
 cooperative game - 100%
 
@@ -6813,7 +6813,7 @@ discovery we didn’t need to converge towards a solution, now we do.
 
 197
 
-Process Modeling as a cooperative game - 100%
+Process Modeling as a cooperative game - 100%
 
 198
 
@@ -6856,7 +6856,7 @@ are meant to be used only once: once the puzzle is solved, there’s little fun 
 repeatedly, and the magic is still there. Some team games also offer a combination of collaboration inside the
 team and competition against other teams.
 
-Process Modeling as a cooperative game - 100%
+Process Modeling as a cooperative game - 100%
 
 199
 
@@ -6896,7 +6896,7 @@ Let’s look at these conditions in detail.
 
 language=it
 
-Process Modeling as a cooperative game - 100%
+Process Modeling as a cooperative game - 100%
 
 200
 
@@ -6928,7 +6928,7 @@ There is a reason for this apparent duplication: termination events are putting
 the system in a stable state, but human users usually need to see the outcome
 somewhere, to perceive the process as complete.
 
-Process Modeling as a cooperative game - 100%
+Process Modeling as a cooperative game - 100%
 
 201
 
@@ -6952,7 +6952,7 @@ world - something like: “I am hungry, and there’s money on my bank account�
 a (green) Read Model probably including the available pizzas, their ingredients,
 and pricing.
 
-Process Modeling as a cooperative game - 100%
+Process Modeling as a cooperative game - 100%
 
 202
 
@@ -6987,7 +6987,7 @@ there has to be a Lilac Policy between an Orange Event and a Blue Command.
 That would be our grammar. It’s simple enough to be grasped quickly by
 novices, but applying it everywhere won’t be trivial.
 
-Process Modeling as a cooperative game - 100%
+Process Modeling as a cooperative game - 100%
 
 203
 
@@ -7027,7 +7027,7 @@ accordingly. Reasonably happy means that we’ll do our best to maximize the
 resulting value for all the parties involved, given the starting conditions and
 the existing constraints.
 
-Process Modeling as a cooperative game - 100%
+Process Modeling as a cooperative game - 100%
 
 204
 
@@ -7060,7 +7060,7 @@ and basic rules.
 
 • The basics of the color-based grammar.
 
-14. Process Modeling Building
+14. Process Modeling Building
 
 Blocks - 90%
 
@@ -7095,7 +7095,7 @@ This approach is weird but instrumental in achieving two goals.
 
 205
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 206
 
@@ -7119,7 +7119,7 @@ The Picture That Explains Everything
 We’ve already seen the process modeling version of “The picture that explains
 everything” in the previous chapter:
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 207
 
@@ -7142,7 +7142,7 @@ You should not worry too much if the initial wording isn’t perfect, but be rea
 to rewrite your events many times: different rounds will increase semantic
 precision, and probably require more events.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 208
 
@@ -7163,7 +7163,7 @@ Events from user interaction
 Events may be the result of some user interaction with a system. This one is
 the most straightforward interaction.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 209
 
@@ -7176,7 +7176,7 @@ One single user interaction can trigger multiple events. They may be the result
 of alternative outcomes. An emergent pattern in this situation is to position the
 happy path on top and less frequent alternatives below.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 210
 
@@ -7185,7 +7185,7 @@ Multiple events as alternative outcomes of the same interaction
 Alternatives are not the only reason to have multiple events: sometimes, they
 are the result of different level of granularities or perspectives.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 211
 
@@ -7209,7 +7209,7 @@ External Systems can trigger events. A typical example occurs when you have
 distributed sensors somewhere: something like Temperature registered or
 Perimeter violation detected, or when you simply don’t want to investi-
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 212
 
@@ -7236,7 +7236,7 @@ invoice date. I like to visualize this connotation with different glyphs in the
 portion of the communication coming from distributed devices is semantically just a stream of events, often
 combined with some filtering, to separate the interesting signals from the background noise or the status quo.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 213
 
@@ -7268,7 +7268,7 @@ X event. One department may be unrecoverably late. In this case, probably
 somebody will declare the quarter closed anyway, and label the correspond-
 ing data as missing, or unconfirmed.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 214
 
@@ -7297,7 +7297,7 @@ an event to happen, and this is where time-triggered events come in handy.
 Suppose today is your friend’s birthday, and you forgot to send birthday
 greetings. Well… forgetting is not easily mapped as an Event: there is no
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 215
 
@@ -7325,7 +7325,7 @@ We’ll see quickly, that there is no such thing as an implicit cascading reacti
 but we’ll try to make the connection visible by adding a policy and a few other
 stickies in between.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 216
 
@@ -7356,7 +7356,7 @@ There shouldn’t be many surprises around our little yellow sticky figures
 either: you just need to place one to have the ball rolling. As we said before,
 we’re still enforcing Fuzzy Definitions, so I won’t precisely define what people
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 217
 
@@ -7394,7 +7394,7 @@ Personas is a common tool used in User Experience design to represent
 specific user/customer behaviors and needs. Unfortunately, they’re part of
 a specialistic jargon.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 218
 
@@ -7432,7 +7432,7 @@ gressively inject precision into our discussion. However, the color grammar
 is still consistent: a (pink) system can receive (blue) commands and generate
 (orange) events.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 219
 
@@ -7454,7 +7454,7 @@ However, displaying every system might confuse our modeling teammates,
 it’s usually a good idea to pick a representative, and use HotSpots as
 placeholders for the specific systems we’re not yet exploring.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 220
 
@@ -7490,7 +7490,7 @@ modeling approach.
 
 aware that there is no such thing as ‘a typical conversation’.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 221
 
@@ -7515,7 +7515,7 @@ conversation: “What will make this conversation end?” Conventional education
 would make us look for some closing words like goodbye, but when modeling
 with events, we might look into something the goal of the conversation has
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 222
 
@@ -7548,7 +7548,7 @@ systems that ended up crippled because of the lack of separation between the two
 issue in many enterprise systems, I’ve frequently talked about it, you may want to have a look at “Why do all
 my DDD apps look the same?” and to [“What lies beneath”][FIXME: upload the presentation].
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 223
 
@@ -7582,7 +7582,7 @@ This usually triggers some discussion and clarification. Once the implementa-
 tion of the policy is agreed, usually the name becomes obvious. How would
 you name a policy like this one?
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 224
 
@@ -7614,7 +7614,7 @@ and our stickies can represent different stages of maturity.
 In a just launched business, the owner may be the person answering phone
 calls and incoming emails. Later on, a dedicated person would be hired, to
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 225
 
@@ -7655,7 +7655,7 @@ tell you the real story at first attempt.
 This is the main reason why I recommend to be strict on the color grammar:
 the lilac sticky note is a placeholder for a mandatory conversation on the topic
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 226
 
@@ -7689,7 +7689,7 @@ be at the mercy of every possible untrustworthy person on the Internet.
 
 The first thing to do is to capture the feedback with hotspots.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 227
 
@@ -7703,7 +7703,7 @@ Now you can read aloud the policy like “Whenever we receive a room hold
 request, if the customer provided their full name and phone number, and there’s
 room availability for the selected dates, we just do it.”
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 228
 
@@ -7724,7 +7724,7 @@ cases⁴.
 sometimes even personal with an example - “That’s not what happened when your friend asked last time!” - the
 more you will discover the real nuances of your policy.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 229
 
@@ -7736,7 +7736,7 @@ while the default policy for standard customers is a polite no.
 
 Now, it looks like there are two competing policies, so let’s make them visible!
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 230
 
@@ -7752,7 +7752,7 @@ I hope the dynamic of the exploration is clear.
 Reading out loud is a powerful tool, and becomes really powerful when
 combined with simple little words like ‘always’ and ‘immediately’.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 231
 
@@ -7779,7 +7779,7 @@ want to go from place A to place B in the most convenient way, and the
 train happens to be the most obvious choice, but not necessarily the
 only one.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 232
 
@@ -7795,7 +7795,7 @@ behind the decision-making process and eventually challenge them. In the
 software design session, we’ll see how this approach allows much freedom
 in the implementation of smart software solutions.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 233
 
@@ -7835,7 +7835,7 @@ been exploited up to the point of becoming a threat to public health (in gamblin
 but the same dynamics can also be part of laudable initiatives. As a modeler, you should be aware of these
 dynamics, and choose responsibly.
 
-Process Modeling Building Blocks - 90%
+Process Modeling Building Blocks - 90%
 
 234
 
@@ -7867,7 +7867,7 @@ cess Modeling session.
 • A more sophisticated role for value stickies.
 • Hotspots as a tool from smart procrastination.
 
-15. Process modeling game
+15. Process modeling game
 
 strategies - 50%
 
@@ -7894,7 +7894,7 @@ You may want to keep the following picture visible as a reference.
 
 235
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 236
 
@@ -7914,7 +7914,7 @@ The directions your modeling space is going to expand; be sure to have more spac
 Providing too much space upfront can be scary for somebody “Are we really
 supposed to fill up all this space with stickies? but at the same time, people
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 237
 
@@ -7955,7 +7955,7 @@ As long as we proceed we’ll discover more precise events, more complex
 policies, more outcomes and constraints we were not completely aware
 before starting, and probably more dependencies from past events and data.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 238
 
@@ -7999,7 +7999,7 @@ something like:
 
 chosen journey.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 239
 
@@ -8015,13 +8015,13 @@ useful).
 Eventually, you may already emphasize with value stickies why those out-
 comes are important and for whom.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 240
 
 This is what we want, now the hard part is …how to we get here?
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 241
 
@@ -8042,7 +8042,7 @@ event] we’ll be sending the ticket via Email” so we can try a tentative name
 and start looking for the trigger event. Ticket generated seems a good fit,
 but someone says Ticket issued and sounds more professional. At the same
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 242
 
@@ -8069,7 +8069,7 @@ them.
 
 • Facilitator can take over: there’s an extra burden in rephrasing the story
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 243
 
@@ -8107,7 +8107,7 @@ timebox this phase.
 in this approach you’re losing the privilege of a clean slate in seconds,
 and then you’ll be finding your way in a cluttered space.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 244
 
@@ -8145,7 +8145,7 @@ It becomes important to be able to recognize when we’re entering the rabbit
 hole, or getting sucked into a discussion that we’re not able to finish. Here
 are a few symptoms.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 245
 
@@ -8189,7 +8189,7 @@ and make every discussion more complicated[^WIECDT].
 too. And yes, some users will do something stupid, but every single one et the
 same time is often more a symptom of fear, than a valid argument.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 246
 
@@ -8207,7 +8207,7 @@ Unfortunately, that’s never the case (and you wouldn’t need EventStorming
 to agree on a trivial process). Instead you should be prepared to handle a
 continuous explosion of branches and alternatives opening before you.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 247
 
@@ -8230,7 +8230,7 @@ At the same time, we make sure that the work in progress of our discussion is
 always limited to one issue. Issues will pop up, we’ll have a team of explorers
 and troublemakers, but we can sort them out, one by one.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 248
 
@@ -8248,7 +8248,7 @@ I just try to pretend I am here, for a while…
 
 Once the end state is reached, I do something weird: I flood my model with
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 249
 
@@ -8264,7 +8264,7 @@ Balancing personalities
 
 Different personalities and styles will play different roles, and each one of them is precious!
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 250
 
@@ -8289,7 +8289,7 @@ both solutions and make a more informed choice. It’s never fair to chose
 between the visible model we built together and the invisible one this person
 is talking about.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 251
 
@@ -8297,7 +8297,7 @@ Are we done?
 
 This is how a process can look like.
 
-Process modeling game strategies - 50%
+Process modeling game strategies - 50%
 
 252
 
@@ -8313,7 +8313,7 @@ cesses.
 
 • Survival strategies to deliver with complex teams.
 
-16. Observing global state - 10%
+16. Observing global state - 10%
 
 Banks are so worried about eventual consistency. But every time
 I transfer money I see money disappearing in a wormhole and
@@ -8349,7 +8349,7 @@ you’re getting good with this, then you’ll loose friends, but …politics is
 
 253
 
-Observing global state - 10%
+Observing global state - 10%
 
 254
 
@@ -8398,7 +8398,7 @@ me a cold hot dog is a suicidal strategy.
 
 [FIXME: complete]
 
-Observing global state - 10%
+Observing global state - 10%
 
 255
 
@@ -8416,11 +8416,11 @@ friendly
 
 • Inject precision in our modeling process
 
-Modeling software systems
+Modeling software systems
 
 [FIXME: finish]
 
-17. Running a Design-Level
+17. Running a Design-Level
 
 EventStorming - 10%
 
@@ -8454,7 +8454,7 @@ like a robust candidate solution.
 
 257
 
-Running a Design-Level EventStorming - 10%
+Running a Design-Level EventStorming - 10%
 
 258
 
@@ -8487,7 +8487,7 @@ a reference. Remember: the big picture was a model of our current
 level of understanding, by digging deeper into key interaction we are
 already making it obsolete.
 
-Running a Design-Level EventStorming - 10%
+Running a Design-Level EventStorming - 10%
 
 259
 
@@ -8525,7 +8525,7 @@ using Incremental Notation during workshops.
 
 enjoyable, but can you remember the time people actually paid to learn a notation?
 
-Running a Design-Level EventStorming - 10%
+Running a Design-Level EventStorming - 10%
 
 260
 
@@ -8545,7 +8545,7 @@ call a class with this information and purpose?”.
 
 [FIXME: add image here]
 
-Running a Design-Level EventStorming - 10%
+Running a Design-Level EventStorming - 10%
 
 261
 
@@ -8559,7 +8559,7 @@ Chapter Goals
 • Enforcing progressive consistency
 • A process not to get lost in the mess
 
-18. Design-Level modeling tips
+18. Design-Level modeling tips
 
 What happens in a Design Level EventStorming is a lot different from
 the massive discovery typical of the Big Picture Workshop. Even if many
@@ -8589,7 +8589,7 @@ Pick a Problem
 
 262
 
-Design-Level modeling tips
+Design-Level modeling tips
 
 263
 
@@ -8632,7 +8632,7 @@ it simple on the outside¹. [FIXME: finish this one]
 
 incredibly simple on the surface.
 
-Design-Level modeling tips
+Design-Level modeling tips
 
 264
 
@@ -8652,7 +8652,7 @@ Internal and external events
 
 Postpone aggregate naming
 
-19. Building Blocks - 20%
+19. Building Blocks - 20%
 
 Why are Domain Events so special?
 
@@ -8688,7 +8688,7 @@ to keep in mind that introducing precision too early might not be a good idea.
 
 265
 
-Building Blocks - 20%
+Building Blocks - 20%
 
 266
 
@@ -8739,7 +8739,7 @@ bliki:
 
 http://martinfowler.com/eaaDev/DomainEvent.html
 
-Building Blocks - 20%
+Building Blocks - 20%
 
 267
 
@@ -8780,7 +8780,7 @@ source: in fact, they can happen for different reasons:
 
 bizarre consequences.
 
-Building Blocks - 20%
+Building Blocks - 20%
 
 268
 
@@ -8797,7 +8797,7 @@ whole system instead.
 
 Choosing Domain Events as a starting points help us to remove a blind spot
 
-Building Blocks - 20%
+Building Blocks - 20%
 
 269
 
@@ -8833,7 +8833,7 @@ The forest and the trees
 A common question when explaining domain events is: “Aren’t we going too
 much into details?” People are usually concerned that an event-level analysis
 
-Building Blocks - 20%
+Building Blocks - 20%
 
 270
 
@@ -8867,7 +8867,7 @@ just in case someone explicitly asks for it:
 
 conversation.
 
-Building Blocks - 20%
+Building Blocks - 20%
 
 271
 
@@ -8905,7 +8905,7 @@ Chapter Goals:
 
 way
 
-20. Modeling Aggregates
+20. Modeling Aggregates
 
 In Domain-Driven Design, Aggregates are defined as units of transactional
 consistency. They are groups of objects whose state can change, but that
@@ -8942,7 +8942,7 @@ implementation on the internals. Some may call it encapsulation. ;-)
 
 272
 
-Modeling Aggregates
+Modeling Aggregates
 
 273
 
@@ -8986,7 +8986,7 @@ Read Model. Aggregates are something else, but we have to be aware of this
 vicious temptation of superimposing what we need to see on the screen on the
 internal structure of our model.
 
-Modeling Aggregates
+Modeling Aggregates
 
 They’re not the same thing.
 
@@ -8998,7 +8998,7 @@ What I am really looking for are units of consistent behavior, and given all the
 corporate dysfunctions that we mentioned in chapter 2, I am not expecting
 consistency to scale much.
 
-21. Event Design Patterns - 5%
+21. Event Design Patterns - 5%
 
 [FIXME: Or should it be Event Discovery Patterns?] [FIXME: candidate to be
 killed]
@@ -9027,7 +9027,7 @@ Sometimes
 
 275
 
-Event Design Patterns - 5%
+Event Design Patterns - 5%
 
 276
 
@@ -9041,7 +9041,7 @@ ing
 
 • Closing the loop with Enterprise Integration Patterns book
 
-22. From paper roll to working code
+22. From paper roll to working code
 
 Managing the design level EventStorming artifact
 
@@ -9073,7 +9073,7 @@ event-based solution.
 
 277
 
-From paper roll to working code
+From paper roll to working code
 
 278
 
@@ -9100,7 +9100,7 @@ slow down.
 
 Even if the workshops are conceptually divided in stages,
 
-23. From EventStorming to
+23. From EventStorming to
 
 UserStories - 5%
 
@@ -9130,7 +9130,7 @@ influence in the way my brain works. To be honest, more than the article, it
 
 279
 
-From EventStorming to UserStories - 5%
+From EventStorming to UserStories - 5%
 
 280
 
@@ -9167,7 +9167,7 @@ However, some parts of this conversation will
 
 [FIXME this calls for a Venn like diagram.]
 
-From EventStorming to UserStories - 5%
+From EventStorming to UserStories - 5%
 
 281
 
@@ -9177,7 +9177,7 @@ Chapter Goals:
 • being sequential is actually suboptimal
 • too many good ideas in the same space
 
-24. Working with Startups - 2%
+24. Working with Startups - 2%
 
 • too early to have corporate silos;
 • people are more likely to admit they don’t know something;
@@ -9188,7 +9188,7 @@ most important thing to do.
 
 282
 
-Working with Startups - 2%
+Working with Startups - 2%
 
 283
 
@@ -9200,7 +9200,7 @@ Multiple business models
 
 Explore multiple business models, the results might suprise you.
 
-Working with Startups - 2%
+Working with Startups - 2%
 
 284
 
@@ -9209,7 +9209,7 @@ Chapter Goals
 The coolest app isn’t enough EventStorming is second best Validate
 the assumptions Learn, and the learn more
 
-25. Working in corporate
+25. Working in corporate
 
 environment - 5%
 
@@ -9242,7 +9242,7 @@ Learning is your problem, not theirs.
 
 285
 
-Working in corporate environment - 5%
+Working in corporate environment - 5%
 
 286
 
@@ -9276,7 +9276,7 @@ break the assumption that we have to run only one session.
 As a consultant I might try to optimize costs by running avery intense and
 brain demanding
 
-Working in corporate environment - 5%
+Working in corporate environment - 5%
 
 287
 
@@ -9288,11 +9288,11 @@ The fog-me-fog model
 
 The fog-me-fog model
 
-Working in corporate environment - 5%
+Working in corporate environment - 5%
 
 288
 
-Working in corporate environment - 5%
+Working in corporate environment - 5%
 
 289
 
@@ -9308,7 +9308,7 @@ Managing the bottleneck
 
 The bottleneck, revealed
 
-Working in corporate environment - 5%
+Working in corporate environment - 5%
 
 290
 
@@ -9322,7 +9322,7 @@ Chapter Goals
 • Politics is king
 • We’re still humans, after all
 
-26. Designing a product
+26. Designing a product
 
 This is not a tailored solution
 
@@ -9338,7 +9338,7 @@ Flexible policies
 
 291
 
-27. Model Storming - 0%
+27. Model Storming - 0%
 
 Chapter Goals:
 
@@ -9354,13 +9354,13 @@ released
 
 292
 
-28. Remote Event Storming
+28. Remote Event Storming
 
 This section intentionally left blank
 
 293
 
-Remote Event Storming
+Remote Event Storming
 
 294
 
@@ -9397,7 +9397,7 @@ board size. But there’s one thing that you have to keep in mind.
 
 Your screen is small
 
-Remote Event Storming
+Remote Event Storming
 
 295
 
@@ -9420,13 +9420,13 @@ Probably, what’s disappointing for me is that people keep talking about
 was something like “do you know any cool way for remote modeling?” then the
 answer may be “of course I do, “
 
-Patterns and Anti-patterns
+Patterns and Anti-patterns
 
 “The 7 most expensive words in business are: ‘We have always done it that way!’“
 
 Catherine DeVrye
 
-29. Patterns and Anti-Patterns -
+29. Patterns and Anti-Patterns -
 
 75%
 
@@ -9460,7 +9460,7 @@ stickies in a more readable way.
 
 297
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 298
 
@@ -9506,7 +9506,7 @@ facilitator’s trick.
 
 ¹I’ve stolen the name from Rinat Abdullin and his blog.
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 299
 
@@ -9544,7 +9544,7 @@ times you’ll find yourself in a problem harder that it should be (see also Add
 more space about it). Some other times you’ll quickly cut off some portions
 of the problem that don’t look relevant.
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 300
 
@@ -9587,7 +9587,7 @@ model².
 
 approach on the matter can be found in Training from the Back of the room by Sharon L. Bowman.
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 301
 
@@ -9629,7 +9629,7 @@ is” could be addressed like: “Sure, we will!” But now there are more inter
 things to do. However, if the pressure for a definition is driven by clashing
 interpretations, then make both interpretation visible: maybe you’re just
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 302
 
@@ -9670,7 +9670,7 @@ with experience, not with an explanation.
 
 therefore
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 303
 
@@ -9706,7 +9706,7 @@ information which is relevant to the learners.
 
 [FIXME: images]
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 304
 
@@ -9743,7 +9743,7 @@ Once we hit a plateau (a fancy way to say that the pace of discovery slowed
 down), we might then add new elements to the current notation and add
 them to the legend.
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 305
 
@@ -9779,7 +9779,7 @@ Keep your mouth shut
 
 (Pattern)
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 306
 
@@ -9809,7 +9809,7 @@ Make some noise!
 
 (Pattern)
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 307
 
@@ -9849,7 +9849,7 @@ when discovery business processes, well …we have to include money in the
 
 ³For some reason, red is not contemplated among valid sticky notes colors. This is still a mystery to me.
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 308
 
@@ -9885,7 +9885,7 @@ Poisonous Seats
 
 (Pattern) [FIXME: it’s apparently the contrary]
 
-Patterns and Anti-Patterns - 75%
+Patterns and Anti-Patterns - 75%
 
 309
 
@@ -9921,7 +9921,7 @@ We are exploring, so being wrong is a legitimate state. Being visibly wrong is
 even better, so we can find somebody in the room with the information we
 need in order to learn something valuable. [FIXME: complete this one]
 
-30. Rush to the goal
+30. Rush to the goal
 
 (Pattern)
 
@@ -9946,7 +9946,7 @@ Blink Modelling at DDD Europe 2020
 
 310
 
-Rush to the goal
+Rush to the goal
 
 311
 
@@ -9977,7 +9977,7 @@ Slack day after
 The workshop is essentially discovery and opening Pandora’s Boxes. The
 outcome of this discovery is unknown. The necessary actions are unknown
 
-Rush to the goal
+Rush to the goal
 
 312
 
@@ -10014,7 +10014,7 @@ understand something even if we don’t[^HSLDM].
 :[^HSLDM] Like in the classic Homer Simpson vs the Lie Detector Machine:
 https://www.youtube.com/watch?v=k9Ylu0YywoA
 
-Rush to the goal
+Rush to the goal
 
 313
 
@@ -10053,7 +10053,7 @@ Product.
 
 therefore
 
-Rush to the goal
+Rush to the goal
 
 314
 
@@ -10087,7 +10087,7 @@ legend on-the-fly. Having a prepared all-in-one legend could save some time,
 but will also make it harder to steer the workshop reacting to the participants’
 mood and interests.
 
-31. Anti-patterns
+31. Anti-patterns
 
 This is probably going to be one of the most awkward sections in the book,
 since most of the items listed here will sound like plain old common sense.
@@ -10124,7 +10124,7 @@ bad);
 
 315
 
-Anti-patterns
+Anti-patterns
 
 316
 
@@ -10146,7 +10146,7 @@ We’ll save the money on programmers monitors¹.
 
 ¹Yes, I am ranting. Sorry about that.
 
-Anti-patterns
+Anti-patterns
 
 317
 
@@ -10164,7 +10164,7 @@ agreement about what to write on our stickies.
 This is reasonable and damn wrong at the same time, so here’s a list of reasons
 why you should try to break up committees as soon as you spot them.
 
-Anti-patterns
+Anti-patterns
 
 318
 
@@ -10208,7 +10208,7 @@ part”. Focusing is another verb with a default positive connotation, so it’s
 shouldn’t be wrong. However, the moment we focus we’re deliberately
 excluding some information from the picture.
 
-Anti-patterns
+Anti-patterns
 
 319
 
@@ -10238,7 +10238,7 @@ Karaoke Singer
 
 (Anti-Pattern)
 
-Anti-patterns
+Anti-patterns
 
 320
 
@@ -10277,7 +10277,7 @@ Precise Notation
 
 (Anti-Pattern)
 
-Anti-patterns
+Anti-patterns
 
 321
 
@@ -10314,7 +10314,7 @@ Religion War
 
 (Anti-Pattern)
 
-Anti-patterns
+Anti-patterns
 
 322
 
@@ -10359,7 +10359,7 @@ of the reason why a solution has been chosen. And of the alternatives
 available in case it turns out the chosen solution isn’t as good as it looked
 like.
 
-Anti-patterns
+Anti-patterns
 
 323
 
@@ -10400,7 +10400,7 @@ to understand why things are in a given why and why it matters. Distilled
 knowledge will turn into a dogma, leaving little space to maneuver in order
 to change them.
 
-Anti-patterns
+Anti-patterns
 
 324
 
@@ -10439,14 +10439,14 @@ The godfather
 Have you ever been in a meeting where, despite having 12 people in the
 room, only a few of them were entitled to speak? I was, and it was the only
 
-Anti-patterns
+Anti-patterns
 
 325
 
 time in my career when I was ready to cancel the whole workshop and send
 everybody home.
 
-32. RED ZONE
+32. RED ZONE
 
 Event the best facilitators have weak points. I am not among them, so I have
 many weak points. I rationalized the thing by repeating me that facilitation is
@@ -10465,11 +10465,11 @@ Providential Toilet Door Malfunctioning
 
 326
 
-Specific Formats
+Specific Formats
 
 A brief recap of what is needed for each workshop format, in recipe style.
 
-33. Big Picture EventStorming
+33. Big Picture EventStorming
 
 Ingredients:
 
@@ -10506,7 +10506,7 @@ industrial junk food. Not today.
 
 328
 
-Big Picture EventStorming
+Big Picture EventStorming
 
 329
 
@@ -10516,7 +10516,7 @@ go in the facilitator’s chapter] but to clearly state the workshop goals and t
 give participants confidence that you know what you’re doing with their time.
 Remember: people are there for their business goal, not for EventStorming.
 
-34. Design-Level EventStorming
+34. Design-Level EventStorming
 
 Ingredients:
 
@@ -10547,7 +10547,7 @@ mostly the level of confidence with the modelled solution.
 
 330
 
-Design-Level EventStorming
+Design-Level EventStorming
 
 331
 
@@ -10557,7 +10557,7 @@ Just start coding a prototype as soon as possible. Get some good food,
 but turn the exploration into working code, and write down the resulting
 questions.
 
-Glossary - 40% (but do you really
+Glossary - 40% (but do you really
 care?)
 
 Writer’s note
@@ -10588,7 +10588,7 @@ Driven Design, Tackling Complexity at the Heart of Software.
 
 332
 
-Glossary - 40% (but do you really care?)
+Glossary - 40% (but do you really care?)
 
 333
 
@@ -10634,7 +10634,7 @@ Event-Driven Architecture
 
 […]
 
-Glossary - 40% (but do you really care?)
+Glossary - 40% (but do you really care?)
 
 334
 
@@ -10680,7 +10680,7 @@ ISBN 978-1-61058-065-6
 
 ¹https://en.wikipedia.org/wiki/Persona_(user_experience)
 
-Glossary - 40% (but do you really care?)
+Glossary - 40% (but do you really care?)
 
 335
 
@@ -10702,7 +10702,7 @@ User Story
 
 User Story Mapping
 
-Tools
+Tools
 
 A lot of the conversation revolving EventStorming and visual facilitation is
 about “which markers do I use?”. So here is a sort of dedicated F.A.Q. to
@@ -10713,7 +10713,7 @@ inconsistent navigation, ridiculous user experience and so on.
 
 336
 
-Tools
+Tools
 
 337
 
@@ -10735,7 +10735,7 @@ me in a just-in-case fashion. The whole thing started exactly in this way.
 • Prepared workshop: in this case, I prefer relying on more professional
 plotter paper roll. It comes in different format, so I may choose different
 
-Tools
+Tools
 
 338
 
@@ -10769,7 +10769,7 @@ Writing on stickies
 Here is where the normal whiteboard marker is simply too big to allow us
 to write anything significant, while a normal pen isn’t visible enough. My
 
-Tools
+Tools
 
 339
 
@@ -10796,7 +10796,7 @@ something with a decent glue.
 
 4
 
-Tools
+Tools
 
 340
 
@@ -10804,7 +10804,7 @@ A reasonable supply of orange stickies.
 
 I am loyal to [3M super sticky]
 
-Tools
+Tools
 
 341
 
@@ -10825,13 +10825,13 @@ Static pads
 
 These are lovely on a smooth surface.
 
-Tools
+Tools
 
 342
 
 Recording results
 
-Bibliography
+Bibliography
 
 Agile Retrospectives - Esther Derby, Diana Larsen
 
@@ -10871,7 +10871,7 @@ handful of practical advice about how to take the best out of it.
 
 343
 
-Bibliography
+Bibliography
 
 344
 
@@ -10919,7 +10919,7 @@ A small and popular negotiation book. If you’re surprised to find a negotiatio
 book in the references, then you probably need to think twice about what
 collaborative design really is.
 
-Bibliography
+Bibliography
 
 345
 
@@ -10965,7 +10965,7 @@ Patterns of Enterprise Application Architecture - Martin Fowler
 
 ⁴http://dannorth.net/2010/08/30/introducing-deliberate-discovery/
 
-Bibliography
+Bibliography
 
 346
 
@@ -11010,7 +11010,7 @@ introduce the reader into the mindset. Very well written and very clear, with
 some really valuable advices when it comes to choose a corporate strategy
 according to principles.
 
-Bibliography
+Bibliography
 
 347
 
