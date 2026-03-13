@@ -6,6 +6,8 @@
 - Ubuntu 22.04 / 24.04
 - 其他兼容 `apt` 的 Debian 系发行版
 
+> https://community.openvpn.net/Pages/OpenVPN3Linux#stable-repository-debian-ubuntu
+
 ------------------------------------------------------------------------
 
 ## 一、安装前说明
@@ -361,6 +363,7 @@ openvpn3 session-log --path <session-path>
 
 # 断开连接
 openvpn3 session-manage --path <session-path> --disconnect
+openvpn3 session-manage --config <配置名> --disconnect
 ```
 
 ------------------------------------------------------------------------
