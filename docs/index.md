@@ -11,7 +11,7 @@ hero:
       link: /md/guide/getting-started
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/dantefung/system-vault
+      link: https://github.com/dantefung/nova-vault-studio
 
 features:
   - title: 知识沉淀

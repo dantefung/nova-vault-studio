@@ -118,7 +118,7 @@ export default defineConfig({
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/')
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/dantefung/system-vault' },
+      { icon: 'github', link: 'https://github.com/dantefung/nova-vault-studio' },
     ],
     footer: {
       message: 'Released under the MIT License.',
