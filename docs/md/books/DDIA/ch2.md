@@ -691,7 +691,7 @@ WITH RECURSIVE
 示例2-6显示了与示例2-3相同的数据，以称为Turtle的格式（Notation3（N3）[39]）的一个子集形式写成三元组。
 例2-6。图2-5中的数据子集，表示为Turtle三元组
 
-```reStructuredText
+```turtle
 @prefix : <urn:example:>.
 _:lucy     a       :Person.
 _:lucy     :name   "Lucy".

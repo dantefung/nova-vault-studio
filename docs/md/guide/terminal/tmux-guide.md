@@ -106,7 +106,7 @@ tmux          # 创建一个新的会话并进入
 
 示例配置：
 
-```conf
+```ini
 # -----------------------------------------------------------------------------
 # Tmux 基本配置 - 要求 Tmux >= 2.3
 # 如果不想使用插件，只需要将此节的内容写入 ~/.tmux.conf 即可
@@ -247,12 +247,12 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 **在 `~/.tmux.conf` 中配置插件：**
 
 1. 在文件顶部声明插件目录（可选，默认为 `~/.tmux/plugins`）：
-   ```conf
+   ```ini
    setenv -g TMUX_PLUGIN_MANAGER_PATH '~/.tmux/plugins'
    ```
 
 2. 在文件中间添加想要的插件（使用 `set -g @plugin` 语法）：
-   ```conf
+   ```ini
    set -g @plugin 'tmux-plugins/tmux-sensible'      # 合理的默认配置
    set -g @plugin 'tmux-plugins/tmux-yank'          # 复制到系统剪贴板
    set -g @plugin 'tmux-plugins/tmux-resurrect'     # 保存/恢复会话
@@ -260,7 +260,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
    ```
 
 3. 在文件末尾初始化 tpm（**必须放在最后**）：
-   ```conf
+   ```ini
    run '~/.tmux/plugins/tpm/tpm'
    ```
 
@@ -312,7 +312,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 在 `~/.tmux.conf` 中添加：
 
-```conf
+```ini
 set -g mode-keys vi
 ```
 
@@ -370,7 +370,7 @@ tmux paste-buffer
 
 如果你经常处理较长的日志或输出，建议扩大 tmux 的历史缓存限制。在 `~/.tmux.conf` 中添加：
 
-```conf
+```ini
 set -g history-limit 200000
 ```
 
@@ -390,7 +390,7 @@ sudo apt install xclip
 
 然后在 `~/.tmux.conf` 中添加：
 
-```conf
+```ini
 bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "xclip -selection clipboard -in"
 ```
 
@@ -398,7 +398,7 @@ bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "xclip -selection c
 
 对于 Wayland (wl-clipboard)：
 
-```conf
+```ini
 bind-key -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "wl-copy"
 ```
 
