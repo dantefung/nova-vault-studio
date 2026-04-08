@@ -366,6 +366,31 @@ openvpn3 session-manage --path <session-path> --disconnect
 openvpn3 session-manage --config <配置名> --disconnect
 ```
 
+
+## 个人脚本
+
+**stop_proxy.sh**
+
+```
+sudo openvpn3 session-manage --config xxx --disconnect
+```
+
+**start_proxy.sh**
+
+```
+#!/bin/bash
+
+#sudo openvpn --config abcdef.ovpn
+
+#sudo openvpn3 config-import --config abcdef.ovpn --name xxx --persistent
+
+sudo openvpn3 config-manage --config xxx --allow-compression asym
+
+sudo openvpn3 session-start --config xxx
+
+
+```
+
 ------------------------------------------------------------------------
 
 文档生成时间：2026-03-14
