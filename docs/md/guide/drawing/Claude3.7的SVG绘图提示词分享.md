@@ -1,5 +1,9 @@
 ---
 title: Claude3.7的SVG绘图提示词分享
+---
+
+&#x2D;&#x2D;&#x2D;
+title: Claude3.7的SVG绘图提示词分享
 
 
 [Claude3.7的SVG绘图提示词分享，总结文章很实用](https://linux.do/t/topic/519794)

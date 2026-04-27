@@ -1,5 +1,9 @@
 ---
 title: PlantUML 的几个技巧
+---
+
+&#x2D;&#x2D;&#x2D;
+title: PlantUML 的几个技巧
 -
 title: Reference
 

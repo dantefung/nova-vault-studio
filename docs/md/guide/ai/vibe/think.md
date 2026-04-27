@@ -1,5 +1,9 @@
 ---
 title: Sequential Thinking（分步问题解决框架）
+---
+
+&#x2D;&#x2D;&#x2D;
+title: Sequential Thinking（分步问题解决框架）
 
 ## Sequential Thinking（分步问题解决框架）
 

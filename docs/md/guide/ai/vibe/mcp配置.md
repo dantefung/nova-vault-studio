@@ -1,4 +1,8 @@
 ---
+title: xhs-mcp 配置步骤
+---
+
+&#x2D;&#x2D;&#x2D;
 title: xhs-mcp配置步骤:
 
 
