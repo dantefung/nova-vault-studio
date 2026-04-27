@@ -1,0 +1,118 @@
+/**
+ * VitePress Theme System
+ * Theme: Sepia "纸卷" — 暖米白护眼风格
+ *
+ * light 和 dark 直接复用 VitePress 原生变量
+ * 只为 sepia 主题定义覆盖变量
+ * -------------------------------------------------------------------------- */
+
+[data-theme="sepia"] {
+  /* ── Palette: Gray ── */
+  --vp-c-gray-1: #9c8e7a;
+  --vp-c-gray-2: #b5a892;
+  --vp-c-gray-3: #cbc0aa;
+  --vp-c-gray-soft: rgba(156, 142, 122, 0.18);
+
+  /* ── Palette: Brand (Indigo → Olive Green) ── */
+  --vp-c-indigo-1: #2d6a4f;
+  --vp-c-indigo-2: #3d7a5f;
+  --vp-c-indigo-3: #4d8a6f;
+  --vp-c-indigo-soft: rgba(45, 106, 79, 0.18);
+
+  /* ── Palette: Purple ── */
+  --vp-c-purple-1: #7a5a9b;
+  --vp-c-purple-2: #8e6aad;
+  --vp-c-purple-3: #a27abd;
+  --vp-c-purple-soft: rgba(122, 90, 155, 0.18);
+
+  /* ── Palette: Green ── */
+  --vp-c-green-1: #3d6b35;
+  --vp-c-green-2: #4e7a42;
+  --vp-c-green-3: #5f8a4f;
+  --vp-c-green-soft: rgba(61, 107, 53, 0.18);
+
+  /* ── Palette: Yellow (Amber) ── */
+  --vp-c-yellow-1: #9b7653;
+  --vp-c-yellow-2: #b08860;
+  --vp-c-yellow-3: #c59a6d;
+  --vp-c-yellow-soft: rgba(155, 118, 83, 0.18);
+
+  /* ── Palette: Red ── */
+  --vp-c-red-1: #a64b2a;
+  --vp-c-red-2: #bb5a38;
+  --vp-c-red-3: #d06a47;
+  --vp-c-red-soft: rgba(166, 75, 42, 0.18);
+
+  /* ── Background ── */
+  --vp-c-bg: #f5f0e8;
+  --vp-c-bg-alt: #ebe6da;
+  --vp-c-bg-elv: #faf7f2;
+  --vp-c-bg-soft: #ede8dc;
+
+  /* ── Border ── */
+  --vp-c-border: #c4bdb0;
+  --vp-c-divider: #d6cfc0;
+  --vp-c-gutter: #d6cfc0;
+
+  /* ── Text ── */
+  --vp-c-text-1: #3a3328;
+  --vp-c-text-2: #6b5f4e;
+  --vp-c-text-3: #9c8e7a;
+
+  /* ── Function Colors (based on palette) ── */
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+
+  --vp-c-brand-1: var(--vp-c-indigo-1);
+  --vp-c-brand-2: var(--vp-c-indigo-2);
+  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-note-1: var(--vp-c-brand-1);
+  --vp-c-note-2: var(--vp-c-brand-2);
+  --vp-c-note-3: var(--vp-c-brand-3);
+  --vp-c-note-soft: var(--vp-c-brand-soft);
+
+  --vp-c-success-1: var(--vp-c-green-1);
+  --vp-c-success-2: var(--vp-c-green-2);
+  --vp-c-success-3: var(--vp-c-green-3);
+  --vp-c-success-soft: var(--vp-c-green-soft);
+
+  --vp-c-important-1: var(--vp-c-purple-1);
+  --vp-c-important-2: var(--vp-c-purple-2);
+  --vp-c-important-3: var(--vp-c-purple-3);
+  --vp-c-important-soft: var(--vp-c-purple-soft);
+
+  --vp-c-warning-1: var(--vp-c-yellow-1);
+  --vp-c-warning-2: var(--vp-c-yellow-2);
+  --vp-c-warning-3: var(--vp-c-yellow-3);
+  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+
+  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);
+
+  --vp-c-caution-1: var(--vp-c-red-1);
+  --vp-c-caution-2: var(--vp-c-red-2);
+  --vp-c-caution-3: var(--vp-c-red-3);
+  --vp-c-caution-soft: var(--vp-c-red-soft);
+
+  /* ── Code Block ── */
+  --vp-code-block-bg: #ebe6da;
+  --vp-code-copy-code-bg: #e0dbcf;
+
+  /* ── Shadows (warm tint) ── */
+  --vp-shadow-2: 0 3px 12px rgba(90, 75, 60, 0.08), 0 1px 4px rgba(90, 75, 60, 0.06);
+  --vp-shadow-3: 0 12px 32px rgba(90, 75, 60, 0.12), 0 2px 6px rgba(90, 75, 60, 0.08);
+
+  /* ── Home Hero ── */
+  --vp-home-hero-name-color: var(--vp-c-brand-1);
+}
