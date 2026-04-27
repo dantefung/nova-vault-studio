@@ -10,7 +10,7 @@ title: simpread-技术分享之工具推荐 - jeremy 的技术点滴
 
 ### [](#heading)简易使用方法
 
-先用 vscode 安装 [，然后在 vscode 里新建一个 markdown 文件，参照](https://marketplace.visualstudio.com/items?item>Marp for VS Code</a> 插件<h-char unicode=) [example.md](https://raw.githubusercontent.com/marp-team/marp-vscode/master/docs/example.md) 写 markdown 文件内容就可以了。
+先用 vscode 安装 [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) 插件，然后参照 [example.md](https://raw.githubusercontent.com/marp-team/marp-vscode/master/docs/example.md) 写 markdown 文件内容就可以了。
 
 当然 `marp` 通过一些注释扩展了一些功能，要用到这些功能需要了解下这些注释的写法，这个学起来很简单，参照[官方文档](https://marpit.marp.app/markdown) 20 分钟就可以完全学会。
 
