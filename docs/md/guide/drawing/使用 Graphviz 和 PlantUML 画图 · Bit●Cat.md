@@ -1,25 +1,6 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [bitcat.love](https://bitcat.love/2020/04/18/drawing-graph-with-graphviz-and-plantuml/)
-
-> 在工作中，我们可能经常会使用到绘图工具，将自己的想法以图表的方式展现出来，可以帮助我们更加清晰理解。
-
-18 Apr 2020 4155 字 14 分  
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) （除特别声明或转载文章外）
-
-在工作中，我们可能经常会使用到绘图工具，将自己的想法以图表的方式展现出来，可以帮助我们更加清晰理解。
-
-在接触 Graphviz 和 PlantUML 这两个工具之前，我一般使用 Visio 和 [ProcessOn](https://processon.com/)。 后者是一个在线绘图工具，但非会员用户可存储的绘图是有限制的，当然这个不是大问题。
-
-以上提到的这些绘图工具，它们的理念是有区别的：
-
-*   Graphviz 和 PlantUML，是所想即所得
-*   Visio 和 ProcessON，是所见即所得
-
-在我第一次遇到 Graphviz 和 PlantUML 时，感觉打开了新世界，写代码都可以画图，简直就是为程序员量身打造的。 当然，它们也并不是完全完美的，相对 Visio 这一类绘图工具，它们缺乏一些灵活性，需要微调很多参数。所以， 要根据自己的需求选择最合适的工具。
-
-下面就分别讲解这两个工具的安装、使用、遇到的问题已经对应的解决方法。
-
-Graphviz
---------
+---
+title: 使用 Graphviz 和 PlantUML 画图
+--
 
 ### 安装
 

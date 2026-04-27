@@ -1,3 +1,7 @@
+---
+title: Unlocking Code Reading: From Novice to Expert
+
+
 # Unlocking Code Reading: From Novice to Expert
 
 ![code-reading-video-clip](./code-reading-en.png)

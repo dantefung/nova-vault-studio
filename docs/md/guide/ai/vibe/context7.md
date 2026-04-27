@@ -1,7 +1,6 @@
 ---
-trigger: always_on
-alwaysApply: true
----
+title: Context7
+
 
 ## Context7
 

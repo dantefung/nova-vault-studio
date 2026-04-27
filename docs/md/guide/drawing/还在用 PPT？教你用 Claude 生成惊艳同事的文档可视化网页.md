@@ -1,3 +1,7 @@
+---
+title: 内容要求
+
+
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s/Z-u_DHF2dXGAPUvdav2Pvw)
 
 上次分享完如何用 Claude 写出好看的界面之后发现，这套逻辑还能解决另一个打工人更加紧迫的问题。　

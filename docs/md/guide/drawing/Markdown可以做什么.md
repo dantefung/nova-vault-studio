@@ -1,19 +1,6 @@
-
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.bmpi.dev](https://www.bmpi.dev/dev/what-markdown-can-do/)
-
-> 本文介绍了零成本用 Markdown 搞定博客网站、笔记文档、演讲胶片与年终总结报告，彻底抛弃 Word 与 PPT
-
-你是否遇到这些问题：写报告需要打开 Word/PPT，每次浪费不少时间在排版上？写博客需要在管理后台网页里排版？在这篇文章里我将会介绍如何使用一种纯文本标记语言 Markdown 去排版各类型文档。
-
-本文大纲如下：
-
-*   基于 Markdown 的工作流
-*   用 Markdown 生成笔记 / 博客 / 幻灯片 / 专业报告
-
-开始之前，如果觉得本文不错，可以分享给你的朋友。让我们开始吧！
-
-基于 Markdown 的工作流
-----------------
+---
+title: Markdown可以做什么
+-------------
 
 ### Markdown 是什么
 

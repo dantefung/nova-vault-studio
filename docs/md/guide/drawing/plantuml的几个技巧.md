@@ -1,3 +1,9 @@
+---
+title: PlantUML 的几个技巧
+-
+title: Reference
+
+
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/wwwjr00/article/details/130415751)
 
 ### 1、画框图

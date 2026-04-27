@@ -1,7 +1,6 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/besidemyself/article/details/133954471)
-
-drawio 快捷键
-----------
+---
+title: Drawio快捷键全览_操作指南与教程
+-------
 
 drawio 或者 [drawon](https://www.drawon.cn?useSource=csdn) 中的快捷键基本一致，如下我们按照[不同的](https://so.csdn.net/so/search?q=%E4%B8%8D%E5%90%8C%E7%9A%84&spm=1001.2101.3001.7020)类别进行归类描述。
 

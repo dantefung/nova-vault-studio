@@ -1,9 +1,6 @@
 ---
-trigger: always_on
-alwaysApply: true
----
+title: 角色定义
 
----
 
 ## 角色定义
 

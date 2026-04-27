@@ -1,3 +1,7 @@
+---
+title: 画图 Prompt 两则
+---
+
 [画图 Prompt 两则](https://mp.weixin.qq.com/s/fgfa4RrGp5tGBikypVrbvg)
 =================================================================
 

@@ -1,25 +1,6 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [github.com](https://github.com/hangcheng/Markdown-VScode-Template)
-
-> 基于 VScode 编写 Markdown 文档的模板，默认设置对应插件，可直接编辑，支持 Draw.io、Excalidraw 、PlantUML、Mermaid 等绘图 - hangcheng/Mark......
-
-`Markdown` 结合 `VSCode` 插件编辑文档模板
-===============================
-
-[](#markdown-结合-vscode-插件编辑文档模板)
-
-> 基于 VScode 编写 Markdown 文档的模板，默认设置对应插件，可直接参考复制模板编辑，提高编写效率！
-
-关于
---
-
-[](#关于)
-
-> `Markdown-VScode-Template` 以下简称 `MVSC`,`MVSC`该工程用来展示写 `README`或技术文档的各种 `Markdown` 语法与`VSCode`插件推荐。下载或 `clone`该工程即可编写文档，提高编写效率，已内置工作区推荐的插件及设置，无需额外安装对应插件！
-
-> `GitHub` 的 `Markdown` 语法在标准的 `Markdown` 语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，`GFM` 在 `GitHub` 上有广泛应用，除了 `README` 文件外，`issues` 和 `wiki` 均支持 `Markdown` 语法。
-
-默认配置的 `VScode` 插件
------------------
+---
+title: Markdown-VScode-Template
+--------------
 
 [](#默认配置的-vscode-插件)
 

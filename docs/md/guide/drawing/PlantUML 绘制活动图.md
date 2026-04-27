@@ -1,55 +1,6 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/zhangwei_david/article/details/125507374)
-
-#### [PlantUML](https://so.csdn.net/so/search?q=PlantUML&spm=1001.2101.3001.7020) 系列文章 
-
-[PlantUML 绘制时序图![][img-0] https://blog.csdn.net/zhangwei_david/article/details/125451459](https://blog.csdn.net/zhangwei_david/article/details/125451459 "PlantUML 绘制时序图") [PlantUML 绘制类图![][img-1] https://blog.csdn.net/zhangwei_david/article/details/125477021](https://blog.csdn.net/zhangwei_david/article/details/125477021 "PlantUML绘制类图")
-
-**目录**
-
-[一、什么是活动图](#t1)
-
-[二、活动图构成](#t2)
-
-[2.1 活动图示例](#t3)
-
- [三、如何使用 PlantUML 绘制时序图](#t4)
-
-[3.1 开始 / 停止 / 结束 /](#t5)
-
-[3.1.1 示例代码](#t6)
-
- [3.2 普通活动](#t7)
-
-[3.3 条件选择](#t8)
-
-[3.3.1 if/else](#t9)
-
-[3.3.3 switch](#t10)
-
-[3.4 循环](#t11)
-
-[3.4.1 while](#t12)
-
-[3.4.2 repeat](#t13)
-
-[3.5 并行与分割](#t14)
-
-[3.5.1 并行](#t15)
-
-[3.5.2 分割](#t16)
-
-[3.6 泳道](#t17)
-
-[3.7 样式与颜色](#t18)
-
-[3.7.1  改变活动颜色](#t19)
-
-[3.7.2 改变连接线颜色](#t20)
-
-[四、综合运用](#t21)
-
-一、什么是活动图
---------
+---
+title: PlantUML 绘制活动图
+--
 
         活动图是常用的动态视图，是用来描述在具体场景下如何做特定的事情；通过可视化的工具，描绘现实生活中具体事物运转流程，输出让人更直观理解，便于沟通的内容。
 

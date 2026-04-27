@@ -1,7 +1,6 @@
 ---
-trigger: always_on
-alwaysApply: true
----
+title: Sequential Thinking（分步问题解决框架）
+
 ## Sequential Thinking（分步问题解决框架）
 
 使用 [Sequential Thinking](https://github.com/smithery-ai/reference-servers/tree/main/src/sequentialthinking) 工具，指导分步骤地解决问题，尤其适用于复杂、开放式任务。

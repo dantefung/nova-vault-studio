@@ -1,7 +1,6 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MjM5OTE4MzcyNA==&mid=2648847990&idx=1&sn=102ca5ced2383ab0b43085720a4f9ec3&chksm=bee5ac4344ba0e38ab1451a2bec12170a4fea63c6ddbde0fb55e1a55505173e9dca35a12d88d&mpshare=1&scene=1&srcid=0418GjlRRZRCKZ6ZFSGCV3Dl&sharer_shareinfo=c5506e62408680fdc09d3e4603edcc36&sharer_shareinfo_first=f49512359b03153423c4606a7bf9d02b#rd)
-
-一 背景
-----
+---
+title: Claude架构图、原型图样样精通
+-
 
 Claude 这个 AI 工具我早在 2023 年 4 月份就发布了一篇使用 Claude 的文件，见：`https://mp.weixin.qq.com/s/lz4SmopmUa-XJwSTQsj_bQ` 现在它越来越强大了，我现在编程使用最多的，也是感觉最靠谱的就是 Claude3.7--sonnet，感谢字节的 Trae，让我们可以免费使用最新最强大的编程模型，今天来聊下用 Cluade 绘图的问题。
 

@@ -1,3 +1,7 @@
+---
+title: Requirements Gathering Generation
+
+
 # Requirements Gathering Generation
 
 Workflow Stage: Requirements Gathering

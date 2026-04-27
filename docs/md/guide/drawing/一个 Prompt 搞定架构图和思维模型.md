@@ -1,3 +1,7 @@
+---
+title: 一个 Prompt 搞定架构图和思维模型
+
+
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247488242&idx=1&sn=cfe2212800684d73eca510acd3242216&chksm=c0dba5333061084402948cf9d69895b9719f451cc7890a30b72a4781d8fd10fafb292bd6d336&mpshare=1&scene=1&srcid=0418d0xt1tZgdvuzzMgTfb7g&sharer_shareinfo=d03d3c394f127a60b69964de75a1b6eb&sharer_shareinfo_first=9cc530e67988b2a1da123318d01a9eb9#rd)
 
 相信对 AI 关注紧密的朋友们，对于最近 prompt 的新玩法并不陌生，比如下图的汉语新解：

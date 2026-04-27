@@ -1,10 +1,6 @@
-
-```
-补充核心类的协作图，mermaid格式，表
-达整个核心底座（类似初期spring框架的底座，linux早期设计的底座一样，具备外围能力在此基础上建设）
-```
-
-----
+---
+title: oh_my_prompt
+-
 
 ```
 基于路径 D:\prj\opensource\litellm-1.80.8-stable.1\mcp_bridge\ 下的项目，从架构师视角分析并刻画该项目的核心能力。
