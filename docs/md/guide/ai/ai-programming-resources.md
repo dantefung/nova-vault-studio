@@ -23,3 +23,10 @@
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [CloudCLI](https://github.com/siteboon/claudecodeui) — 为 Claude Code CLI 打造图形界面，支持手机远程查看进度、操作交互
 
+---
+
+## Prompt Gallery
+
+- [Awesome Prompt Gallery](https://opennana.com/awesome-prompt-gallery) — 开源 Prompt 画廊，收录各类优质 AI 提示词示例
+- [WaytoAGI Prompts](https://www.waytoagi.com/zh/prompts?tag=2) — WaytoAGI Prompt 精选集合
+
