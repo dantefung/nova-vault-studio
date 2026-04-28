@@ -10,6 +10,16 @@ url: "https://mp.weixin.qq.com/s/qZILpo2K8q8_Ludocw6wMQ"
 
 从 Reflection、ReAct 到 Blackboard、Ensemble、Tree of Thoughts、Graph World-Model、Metacognitive——以17 种可运行的 LangChain + LangGraph 架构为线索，系统性梳理 Agent 领域从 2022 年论文原型到 2026 年生产系统的完整技术演进。本文中的每章均配有：核心思想的一句话定义、Mermaid 架构图、State / Pydantic / Node / Graph 四要素实现解析、Head-to-Head 基线对比、以及LLM-as-a-Judge 定量评分。全文横跨单 Agent 模式（Reflection/Tool Use/ReAct/Planning）、多智能体协作（流水线/黑板/元控制器/集成）、高级记忆与推理（FAISS+Neo4j 双记忆/思维树/图世界模型）、安全与可靠性（PEV/心智模拟器/Dry-Run/元认知）、学习与自适应（RLHF 自改进/元胞自动机）五大主题，并在第六部分以控制流分类、状态设计模式、Temperature 选型、错误处理等级、架构组合五个维度进行横切分析，最终提供一棵可直接用于选型决策的 Mermaid 决策树。适合希望从「跑通 Demo」跨越到「设计生产系统」的工程师、架构师与研究者。
 
+## 内容概览
+
+| 章节 | 架构 | 核心创新 |
+|------|------|---------|
+| **第一部分 基石模式** | Reflection / Tool Use / ReAct / Planning | 自我批判、工具调用、多轮推理、结构化规划 |
+| **第二部分 多智能体协作** | Multi-Agent / Blackboard / Meta-Controller / Ensemble | 流水线、动态调度、智能路由、扇出扇入 |
+| **第三部分 高级记忆与推理** | Episodic+Semantic / ToT / Graph World-Model | FAISS+Neo4j 双记忆、树搜索、多跳推理 |
+| **第四部分 安全与可靠性** | PEV / Mental Loop / Dry-Run / Metacognitive | 验证器、沙箱模拟、人工审核、自我认知 |
+| **第五部分 学习与自适应** | RLHF / Cellular Automata | 多轮改进、涌现行为 |
+
 ![image](https://mmbiz.qpic.cn/mmbiz_png/eWAyicic214bgsYXxZMoK0QssBBGWCjlKtPicqGFUguqM3b4lJCKsEtErW4d2wdMopicLSUjfr59dia3TVUnqiaxbuibMjD2NUmOX06dQNB5Z9pLYs/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
 
 > 项目地址：https://github.com/FareedKhan-dev/all-agentic-architectures阅读地址：https://forceinjection.github.io/08_agentic_system/agent_design/all-agentic-architectures-deep-dive.html
