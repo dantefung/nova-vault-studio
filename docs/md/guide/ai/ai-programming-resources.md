@@ -63,6 +63,15 @@
 
 ---
 
+## 姚金刚系列（飞书）
+
+- [姚金刚认知随笔](https://jiahejiaoyu.feishu.cn/docx/YHOHd1TLyom6KDxQY8Ac8m4hngf) — 42.5 万字，每周更新
+- [GEO 白皮书](https://yaojingang.feishu.cn/docx/Jv85dXAeZoKJ7exJi4Yc4Edrnhf) — AI 搜索营销科普文档，不定时更新
+- [姚金刚提示词合集](https://yaojingang.feishu.cn/docx/ER4rdSlvcofCtQxttSac2Xc4nGd) — 不定时更新
+- [GEO 提示词合集](https://yaojingang.feishu.cn/wiki/YbMLwkChmiktbskRoHZcFixBnxb) — 与向阳合著 GEO 书籍配套提示词
+
+---
+
 ## 白皮书与飞书文档
 
 - [Google Agents Companion 白皮书](https://drive.google.com/file/d/1GVPdwEh48bErTNdhxD0vqxPAifSx1I6Y/view) — Google 官方出品
