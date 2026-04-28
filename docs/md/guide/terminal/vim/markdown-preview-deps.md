@@ -106,7 +106,73 @@ npx --yes yarn install
 
 ---
 
-## 五、一句话总结
+## 五、Vim 集成配置
+
+### vim-plug
+
+```vim
+" 基础安装
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+
+" 国内镜像（可选，解决 yarn 安装慢的问题）
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install --registry https://registry.npmmirror.com' }
+```
+
+### dein
+
+```toml
+[[plugins]]
+repo = 'iamcco/markdown-preview.nvim'
+hook_add = '''
+  " 安装后执行
+  let g:markdown_preview_shutdown_config = {}
+'''
+post_hook = '''
+  let g:markdown_preview_open = 'chrome'
+'''
+```
+
+### 常用配置项
+
+```vim
+" 浏览器设置（默认自动选择）
+let g:markdown_preview_browser = 'Chrome'
+
+" 映射快捷键
+let g:markdown_preview_hotkey = '<leader>mp'
+
+" 是否自动启动（0=手动，1=打开文件时自动）
+let g:markdown_preview_auto_start = 0
+
+" 关闭时清理后台进程
+let g:markdown_preview_shutdown_config = {
+  \ 'cmd': 'pkill -f "markdown-preview"'
+  \ }
+
+" 自定义 CSS
+let g:markdown_preview_css = '~/path/to/custom.css'
+
+" 对特定文件类型启用（默认已有 markdown）
+let g:markdown_preview_filetypes = ['markdown', 'md']
+```
+
+### 快捷命令
+
+```vim
+:MarkdownPreview    " 启动预览
+:MarkdownPreviewStop " 停止预览
+```
+
+### 验证安装
+
+```vim
+:echo has('job')     " 返回 1 表示支持
+:checkhealth markdown_preview   " Neovim 用户用此命令排查问题
+```
+
+---
+
+## 六、一句话总结
 
 > markdown-preview.nvim 本质是：Vim + Node.js + 浏览器 的本地 Web 渲染方案
 
