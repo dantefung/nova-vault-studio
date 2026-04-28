@@ -49,6 +49,9 @@
 
 ## 设计模式与架构
 
+- [All Agentic Architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) — 主流 Agent 架构体系全景图，涵盖 ReAct、Plan-and-Execute、LLM Supervisor、Hierarchy 等多种范式，配有图解
+  - [在线阅读](https://forceinjection.github.io/08_agentic_system/agent_design/all-agentic-architectures-deep-dive.html)
+  - [中文翻译版](https://github.com/ForceInjection/all-agentic-architectures)
 - [Agentic Design Patterns 中文版](https://github.com/ginobefun/agentic-design-patterns-cn) — 谷歌资深工程主管分享的 AI Agent 系统性设计原则与最佳实践
 - [Agentic Design Patterns 中文版（另一译本）](https://github.com/fzy2012/rhzl-Agentic-Design-Patterns-cn)
 - [上下文工程：AI Agent 有效上下文设计](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic 官方工程博客
