@@ -187,6 +187,11 @@ date: "2026-04-29"
 - [writing-assistant-skill](https://github.com/Ceeon/writing-assistant-skill)
 - [best-minds](https://github.com/Ceeon/best-minds.git)
 - [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)
+- [Claude-Code-Frontend-Design-Toolkit](https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit) — 高品质视觉创意设计工具包
+- [web-design-guidelines](https://github.com/vercel-labs/agent-skills) — Vercel 100+ 准则设计走查质检员
+- [vercel-react-best-practices](https://github.com/vercel-labs/agent-skills) — Vercel React 最佳实践，守护前端性能
+- [accessibility (AccessLint)](https://github.com/addyosmani/web-quality-skills) — 无障碍（a11y）审计专家
+- [building-native-ui (Expo)](https://github.com/expo/skills) — React Native 移动端原生 UI 构建
 - [vibe-writing](https://github.com/Tasihi89/vibe-writing-workflow)
 - [x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill)
 - [notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) — Claude 自动从 NotebookLM 获取综合处理的答案
