@@ -166,7 +166,7 @@ date: "2026-04-29"
 
 ### 官方与核心
 
-- [Claude Skills](https://borghei.github.io/Claude-Skills/) — 245 个生产级 Skills 集合，覆盖工程/合规/营销/法务/C-Level 等 11 个领域，支持 Claude Code/Cursor/Codex 等 11 个平台，含 MCP Server 集成
+- [Claude Skills](https://github.com/borghei/Claude-Skills) — 245 个生产级 Skills 集合，覆盖工程/合规/营销/法务/C-Level 等 11 个领域，支持 Claude Code/Cursor/Codex 等 11 个平台，含 MCP Server 集成
 - [anthropic/skills](https://github.com/anthropics/skills/tree/main/skills/frontend-design) — Anthropic 官方 Skills
 - [LangGPT](https://github.com/langgptai/LangGPT) — 结构化提示词框架
 - [wonderful-prompts](https://github.com/langgptai/wonderful-prompts) — 中文 Prompt 精选，ChatGPT 使用指南
