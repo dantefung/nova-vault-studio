@@ -20,6 +20,7 @@
 
 ## 开源工具
 
+- [vibe-to-ui](https://github.com/MonkeyUI-dev/vibe-to-ui) — Agent Skills 将截图、图片、音乐转化为设计系统、动效语言和 UI 布局，支持 Claude Code、Cursor、Github Copilot
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [CloudCLI](https://github.com/siteboon/claudecodeui) — 为 Claude Code CLI 打造图形界面，支持手机远程查看进度、操作交互
 
