@@ -149,6 +149,7 @@ date: "2026-04-29"
 - [SuperClaude Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) — 给 Claude Code 加一套工作流系统
 - [oh-my-claude](https://github.com/TechDufus/oh-my-claude)
 - [oh-my-claudecode](https://github.com/yeachan-heo/oh-my-claudecode)
+- [claude-code-blueprint](https://github.com/Aedelon/claude-code-blueprint) — 生产级 Claude Code 配置蓝图，6层架构整合 Skills/Agents/Hooks/Rules/Permissions，32个技能含 AAPEV 五阶段认知规范
 - [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)
 - [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
 - [parallel-code](https://github.com/johannesjo/parallel-code)
