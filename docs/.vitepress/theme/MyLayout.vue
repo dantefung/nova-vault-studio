@@ -1,29 +1,51 @@
 <script setup>
-import DefaultTheme from "vitepress/theme"
+import { computed } from 'vue'
+import { useRoute } from 'vitepress'
+import DefaultTheme from 'vitepress/theme'
 import Giscus from '@giscus/vue'
+import ThemeSwitcher from './components/ThemeSwitcher.vue'
+import HomeLayout from './layouts/HomeLayout.vue'
+import { useTheme } from './composables/useTheme.js'
+import { ref, watch } from 'vue'
 
-const { Layout } = DefaultTheme
+const route = useRoute()
+const { Layout: DefaultLayout } = DefaultTheme
+const { currentTheme, getGiscusTheme } = useTheme()
+
+// 判断是否为落地页路由
+const isLanding = computed(() => {
+  return ['/', '/v2/', '/v3/', '/v4/', '/v5/'].some(p => route.path === p)
+})
+
+// Giscus 状态
+const giscusKey = ref(1)
+const giscusTheme = ref('light')
+
+watch(currentTheme, (theme) => {
+  giscusTheme.value = getGiscusTheme(theme)
+  giscusKey.value++
+}, { immediate: true })
 </script>
 
 <template>
-  <Layout>
+  <!-- 落地页：使用自定义 HomeLayout -->
+  <HomeLayout v-if="isLanding" />
+
+  <!-- 文档页：使用 VitePress 默认完整布局 + Giscus + ThemeSwitcher -->
+  <DefaultLayout v-else>
+    <template #nav-bar-content-after>
+      <ThemeSwitcher />
+    </template>
     <template #doc-after>
-      <!-- <div class="donation">
-        <div>
-          <img src="/mianfeiwucan-weixin.png" alt="img" />
-          <img src="/mianfeiwucan-alipay.png" alt="img" />
-          <img src="/mianfeiwucan-sina.png" alt="img" />
-        </div>
-      </div> -->
       <div class="giscus">
         <Giscus
-          :key="giscus"
+          :key="giscusKey"
           host="https://giscus.app"
           repo="plantree/press-comment"
           repoId="R_kgDOIDNWUg"
           category="General"
-          categoryId="DIC_kwDOIDNWUs4CRlY7" 
-          :theme="isDark ? 'dark' : 'light'"
+          categoryId="DIC_kwDOIDNWUs4CRlY7"
+          :theme="giscusTheme"
           lang="zh-CN"
           loading="lazy"
           strict="1"
@@ -32,57 +54,10 @@ const { Layout } = DefaultTheme
         />
       </div>
     </template>
-  </Layout>
+  </DefaultLayout>
 </template>
 
-<script>
-import { watch } from 'vue'
-import { useRoute, useData } from 'vitepress'
-
-export default {
-  mounted() {
-    const vitePressData = useData()
-    this.isDark = vitePressData.isDark
-
-    const route = useRoute() 
-    watch(route, () => {
-      this.giscus = !this.giscus
-    })
-  },
-  data() {
-    return {
-      giscus: true,
-      isDark: false
-    }
-  }
-}
-</script>
-
 <style>
-img.pv {
-  margin-top: 1em;
-}
-
-div.giscus {
-  margin-top: 2em;
-}
-
-.donation {
-  margin-top: 2em;
-}
-
-.donation div {
-  margin: 0 auto;  
-  flex: 0 1 auto;
-  flex-direction: row;
-  max-width: max-content;
-  row-gap: 10px;
-}
-
-.donation img {
-  display: inline-block;
-  zoom: 25%;
-  margin: 4em;
-}
-
+img.pv { margin-top: 1em; }
+div.giscus { margin-top: 2em; }
 </style>

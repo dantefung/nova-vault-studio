@@ -24,6 +24,8 @@ export default defineConfig({
       ['meta', { property: 'og:title', content: 'System Vault | 系统知识库' }],
       ['meta', { property: 'og:description', content: '系统知识库 - 凡是过往，皆为序章' }],
     ]
+    // 防闪烁脚本：页面加载前同步设置主题（同步执行，无 async/defer）
+    head.push(['script', {}, `(function(){var t=localStorage.getItem('vp-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;if(t==='dark')document.documentElement.classList.add('dark')})()`])
     // 只在生产环境加载 Vercel Insights
     if (isProd) {
       head.push(['script', { src: '/_vercel/insights/script.js', defer: '' }])
