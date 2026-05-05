@@ -5,7 +5,9 @@ source: "原创"
 url: "https://chromewebstore.google.com/detail/omni-bookmark-history-tab/mapjgeachilmcbbokkgcbgpbakaaeehi"
 ---
 
-# 安装 Omni - Bookmark, History, & Tab Manager
+# Chrome 8
+
+## 安装 Omni - Bookmark, History, & Tab Manager
 
 ## 插件信息
 
