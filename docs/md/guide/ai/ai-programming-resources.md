@@ -1,3 +1,8 @@
+---
+title: "AI 编程资源导航"
+date: "2026-05-05"
+---
+
 # AI 编程资源导航
 
 > 收录 AI 编程相关的工具、平台、视频等内容。
@@ -24,6 +29,8 @@
 - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 收录各主流产品的 DESIGN.md 文件，供 AI coding agent 生成匹配风格的 UI
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [CloudCLI](https://github.com/siteboon/claudecodeui) — 为 Claude Code CLI 打造图形界面，支持手机远程查看进度、操作交互
+- [bozhou-skills](https://github.com/bozhouDev/bozhou-skills) — AI 工具集，包含图像生成、播客转文章、PPT 生成、微信发布、社交封面图等 11 个子项目，主要使用 TypeScript
+- [GEOFlow](https://github.com/yaojingang/GEOFlow) — 生成式引擎优化智能内容工程系统，支持多模型内容生成、批量任务、知识库 RAG、审核发布工作流，基于 Laravel
 
 ---
 
@@ -46,6 +53,7 @@
 - [AI Engineering Hub](https://github.com/patchy631/ai-engineering-hub)
 - [Senior Developer Roadmap — AI Edition](https://github.com/glennsantos/senior-developer-roadmap)
 - [ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) — AI 开发任务实战集
+- [Skill-Factory](https://github.com/FeiCoder/Skill-Factory) — Book2Skills：把人类专业书籍自动转化为 LLM Agent 可执行的标准化 Skill 包，基于 Mini-Agent 开发
 
 ---
 
