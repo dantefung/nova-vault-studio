@@ -95,6 +95,7 @@ date: "2026-05-05"
 - [结构化提示词知识库（飞书）](https://langgptai.feishu.cn/wiki/RXdbwRyASiShtDky381ciwFEnpe) — Feishu LLMGPT 整理
 - [LangGraph 课程大纲（飞书）](https://docs.google.com/document/u/0/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/mobilebasic)
 - [AI Agent 入门（飞书）](https://kq4b3vgg5b.feishu.cn/wiki/GyXZwF4sbiSbQfkvdFHc5cP9nCh)
+- [AI 相关常见名词解释（飞书）](https://my.feishu.cn/wiki/OSHAwzyw9iHS3rkZ1JZcJwnCnjh) — P0 必会 / P1 应知 / P2 进阶三级分类，收录 AI/LLM/NLP/Prompt/Token 等核心概念
 
 ---
 
