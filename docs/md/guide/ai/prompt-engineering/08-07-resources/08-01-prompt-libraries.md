@@ -33,7 +33,7 @@ date: 2026-05-06
 
 | 名称 | 链接 | 说明 |
 |------|------|------|
-| 提示词速查表 | [本地文件](../prompt-hub/提示词速查表.md) | 29 种网页设计风格速查 |
+| 提示词速查表 | [本地文件](../../../prompt-hub/提示词速查表.md) | 29 种网页设计风格速查 |
 | MJ Prompt Generator | [none](https://www.canva.com) | Midjourney 风格描述生成 |
 
 ---

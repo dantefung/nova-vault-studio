@@ -122,5 +122,5 @@ A: 法国首都是巴黎。
 
 ## 相关模式
 
-- [Tree of Thoughts](./tree-of-thoughts.md) — CoT 的树状扩展，支持多路径探索
-- [ReAct](./react.md) — CoT + 工具调用，推理与行动结合
+- [Tree of Thoughts](./03-03-tree-of-thoughts.md) — CoT 的树状扩展，支持多路径探索
+- [ReAct](./03-02-react.md) — CoT + 工具调用，推理与行动结合
