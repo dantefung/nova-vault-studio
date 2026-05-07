@@ -3,6 +3,50 @@ title: Chain of Thought (CoT) 思维链
 date: 2026-05-06
 ---
 
+> **摘要** — CoT 由 Google Research 在 2022 年提出，通过引导模型"逐步思考"来提升复杂推理任务的准确性。核心思想是让模型展示推理过程而非直接给出答案。适用场景包括数学推理、逻辑演绎、代码调试；不适合事实问答、简单分类、创意写作。进阶技巧包括 Zero-Shot CoT 注入领域知识、Few-Shot CoT 示例增强、推理链验证。
+
+```mermaid
+graph TD
+    A[CoT思维链] --> B[标准CoT]
+    A --> C[Self-Ask CoT]
+    A --> D[Zero-Shot CoT]
+    A --> E[Few-Shot CoT]
+    B --> B1["Let's think step by step"]
+    C --> C1[模型主动反问自己]
+    D --> D1[注入领域知识]
+    E --> E1[示例增强]
+    B1 --> F[复杂推理任务]
+    C1 --> F
+    D1 --> F
+    E1 --> F
+```
+
+```markmap height=280
+# Chain of Thought 思维链
+## 标准 CoT
+- 加入"Let's think step by step"
+- 引导模型逐步推理
+## Self-Ask CoT
+- 模型主动反问识别知识缺口
+## 适用场景
+- 数学推理
+- 逻辑演绎
+- 代码调试
+## 不适合场景
+- 事实问答
+- 简单分类
+- 创意写作
+## 进阶技巧
+- Zero-Shot CoT：注入领域知识
+- Few-Shot CoT：示例增强
+- 验证推理链一致性
+## 相关模式
+- Tree of Thoughts：树状扩展
+- ReAct：CoT + 工具调用
+```
+
+---
+
 # Chain of Thought (CoT) 思维链
 
 > CoT 由 Google Research 在 2022 年提出，通过引导模型"逐步思考"来提升复杂推理任务的准确性。核心思想是：让模型展示推理过程，而非直接给出答案。

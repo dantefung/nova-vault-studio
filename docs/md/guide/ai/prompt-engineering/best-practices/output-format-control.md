@@ -3,6 +3,48 @@ title: "如何控制 LLM 的输出格式和解析其输出结果"
 date: "2026-05-07"
 source: "微信公众号"
 ---
+
+> **摘要** — 探讨三种控制 LLM 输出格式的方法：Function Calling 利用 API 特性强制输出 JSON；Few-shot 通过示例让模型按样例输出；Regex 约束正则匹配输出内容。实际场景常组合使用：先用 Function Calling 保证基础格式，再用 Regex 进一步约束细节。
+
+```mermaid
+graph TD
+    A[控制LLM输出格式] --> B[Function Calling]
+    A --> C[Few-shot示例]
+    A --> D[Regex约束]
+    B --> B1[API内置支持]
+    B --> B2[强制JSON输出]
+    C --> C1[示例引导格式]
+    C --> C2[多示例增强]
+    D --> D1[正则匹配内容]
+    D --> D2[结构约束]
+    B1 --> E[稳定JSON格式]
+    C1 --> E
+    D1 --> E
+```
+
+```markmap height=280
+# 控制 LLM 输出格式
+## 方法一：Function Calling
+- 利用 API 内置功能
+- 强制指定函数调用
+- 得到稳定 JSON 格式
+- 局限：需要 API 支持
+## 方法二：Few-shot 示例
+- 给出输出格式样例
+- 模型按样例学习输出
+- 多示例效果更好
+## 方法三：Regex 约束
+- 用正则表达式约束输出
+- 匹配特定模式内容
+- 配合前两种方法使用
+## 实战组合
+- Function Calling 保证基础格式
+- Regex 进一步约束细节
+- 输出结果稳定可解析
+```
+
+---
+
 # 如何控制 LLM 的输出格式和解析其输出结果
 
 

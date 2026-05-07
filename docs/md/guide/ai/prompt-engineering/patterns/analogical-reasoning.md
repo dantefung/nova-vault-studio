@@ -4,6 +4,39 @@ date: "2026-05-07"
 source: "微信公众号"
 ---
 
+> **摘要** — 类推提示法（Analogical Reasoning）源自论文 Large Language Models as Analogical Reasoners，让 LLM 先回想与问题相关的知识和案例，再借助这些案例推理解决原问题。相当于让 LLM 自动生成 few-shot 示例和思维链。Prompt 结构为：先列出"相关问题"（3个相关例子），再解决"初始问题"。
+
+```mermaid
+graph TD
+    A[类推提示法] --> B[列出相关问题]
+    B --> C[回想3个相关案例]
+    C --> D[每个案例含问题和解决方案]
+    D --> E[解决初始问题]
+    E --> F[借助案例推理]
+    F --> G[得出正确答案]
+```
+
+```markmap height=280
+# 类推提示法
+## 背景
+- 源于论文 Large Language Models as Analogical Reasoners
+- 灵感来自人类学数学时的"找类似题目"
+## 核心思想
+- 不直接解题，先找相关案例
+- 让 LLM 激发相关知识和案例
+- 借助案例推理解决问题
+## 对比 CoT
+- 0-shot CoT：直接给推理步骤
+- Few-shot CoT：给出一个示例
+- 类推法：让 LLM 自己生成示例
+## Prompt 结构
+- 初始问题
+- 相关问题：回想三个相关独特问题
+- 解决初始问题
+```
+
+---
+
 今天读了一篇有意思的论文《[Large Language Models as Analogical Reasoners ](https://arxiv.org/abs/2310.01714)，提到了一种新的 Prompt 方法——“类推提示法”，我已经翻译成了中文版：《[大语言模型的类比推理能力 \[译\] ](https://baoyu.io/blog/translations/large-language-models-as-analogical-reasoners)，跟大家一起分享一下。
 
 如果你对提示工程熟悉的话，一定听说过“思维链”（CoT，Chain of Thought），可以显著提升大语言模型（LLM）的推理能力。但使用 CoT 的时候，是需要我们需要提供相关的指导或推理示例来引导模型的。

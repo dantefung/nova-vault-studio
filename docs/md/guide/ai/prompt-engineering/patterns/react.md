@@ -3,6 +3,46 @@ title: ReAct 模式
 date: 2026-05-06
 ---
 
+> **摘要** — ReAct = **Re**asoning + **Act**ing，由普林斯顿大学和 Google DeepMind 在 2023 年提出。核心思想是将推理（Thought）和行动（Action）交替进行，让模型在推理过程中主动调用外部工具。相比 CoT，ReAct 具备工具调用能力、可实时查询外部知识、幻觉风险更低。适用于研究、分析、数据查询等场景。
+
+```mermaid
+graph TD
+    A[ReAct循环] --> B[Thought推理]
+    B --> C[Action行动]
+    C --> D[Observation观察]
+    D --> B
+    B -->|最终答案| E[Final Answer]
+    C -->|搜索|D
+    C -->|计算|D
+    C -->|查询|D
+```
+
+```markmap height=280
+# ReAct 模式
+## 核心循环
+- Thought → Action → Observation → ...
+## 三个步骤
+- Thought：推理分析，决定行动
+- Action：执行搜索/计算/查询
+- Observation：接收结果，继续推理
+## 与 CoT 区别
+- CoT：无工具调用，纯推理
+- ReAct：可调用外部工具
+- ReAct：实时查询外部知识
+- ReAct：幻觉风险更低
+## 适用场景
+- 研究任务
+- 数据查询
+- 分析任务
+## 实践建议
+- 动作集小而精
+- Observation 强制化
+- 限制循环次数
+- 定义错误兜底策略
+```
+
+---
+
 # ReAct 模式
 
 > ReAct = **Re**asoning + **Act**ing，由普林斯顿大学和 Google DeepMind 在 2023 年提出。核心思想是将推理（Thought）和行动（Action）交替进行，让模型在推理过程中主动调用外部工具。
