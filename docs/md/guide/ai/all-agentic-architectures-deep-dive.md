@@ -6,9 +6,63 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/qZILpo2K8q8_Ludocw6wMQ"
 ---
 
-# All Agentic Architectures 深入详解
+> **摘要** — 以 17 种可运行的 LangChain + LangGraph 架构为线索，系统性梳理 Agent 领域从 2022 年论文原型到 2026 年生产系统的完整技术演进。涵盖单 Agent 模式（Reflection/Tool Use/ReAct/Planning）、多智能体协作（Multi-Agent/Blackboard/Meta-Controller/Ensemble）、高级记忆与推理（FAISS+Neo4j 双记忆/思维树/图世界模型）、安全与可靠性（PEV/心智模拟器/Dry-Run/元认知）、学习与自适应（RLHF/元胞自动机）五大主题。
 
-从 Reflection、ReAct 到 Blackboard、Ensemble、Tree of Thoughts、Graph World-Model、Metacognitive——以17 种可运行的 LangChain + LangGraph 架构为线索，系统性梳理 Agent 领域从 2022 年论文原型到 2026 年生产系统的完整技术演进。本文中的每章均配有：核心思想的一句话定义、Mermaid 架构图、State / Pydantic / Node / Graph 四要素实现解析、Head-to-Head 基线对比、以及LLM-as-a-Judge 定量评分。全文横跨单 Agent 模式（Reflection/Tool Use/ReAct/Planning）、多智能体协作（流水线/黑板/元控制器/集成）、高级记忆与推理（FAISS+Neo4j 双记忆/思维树/图世界模型）、安全与可靠性（PEV/心智模拟器/Dry-Run/元认知）、学习与自适应（RLHF 自改进/元胞自动机）五大主题，并在第六部分以控制流分类、状态设计模式、Temperature 选型、错误处理等级、架构组合五个维度进行横切分析，最终提供一棵可直接用于选型决策的 Mermaid 决策树。适合希望从「跑通 Demo」跨越到「设计生产系统」的工程师、架构师与研究者。
+```mermaid
+graph TD
+    A[Agent架构全景] --> B[基石模式]
+    A --> C[多智能体协作]
+    A --> D[高级记忆与推理]
+    A --> E[安全与可靠性]
+    A --> F[学习与自适应]
+    B --> B1[01 Reflection]
+    B --> B2[02 Tool Use]
+    B --> B3[03 ReAct]
+    B --> B4[04 Planning]
+    C --> C1[05 Multi-Agent]
+    C --> C2[07 Blackboard]
+    C --> C3[11 Meta-Controller]
+    C --> C4[13 Ensemble]
+    D --> D1[08 Episodic+Semantic]
+    D --> D2[09 ToT]
+    D --> D3[12 Graph World-Model]
+    E --> E1[06 PEV]
+    E --> E2[10 Mental Loop]
+    E --> E3[14 Dry-Run]
+    E --> E4[17 Metacognitive]
+    F --> F1[15 RLHF]
+    F --> F2[16 Cellular Automata]
+```
+
+```markmap height=320
+# All Agentic Architectures
+## 基石模式
+- 01 Reflection：生成→批评→改进
+- 02 Tool Use：LLM自主调用外部API
+- 03 ReAct：多轮推理+行动循环
+- 04 Planning：先规划后执行
+## 多智能体协作
+- 05 Multi-Agent：专家团队分工
+- 07 Blackboard：共享黑板+动态调度
+- 11 Meta-Controller：智能路由
+- 13 Ensemble：多视角并行+综合
+## 高级记忆与推理
+- 08 Episodic+Semantic：双记忆系统
+- 09 Tree of Thoughts：树搜索+剪枝
+- 12 Graph World-Model：知识图谱推理
+## 安全与可靠性
+- 06 PEV：计划-执行-验证
+- 10 Mental Loop：模拟器预演
+- 14 Dry-Run：沙箱+人工审核
+- 17 Metacognitive：自我能力评估
+## 学习与自适应
+- 15 RLHF：多轮修改+持久化记忆
+- 16 Cellular Automata：涌现行为
+```
+
+---
+
+# All Agentic Architectures 深入详解
 
 ## 内容概览
 
@@ -166,9 +220,7 @@ Temperature
 
 复杂推理、多 Agent 编排、内容创作
 
-> ⚠️重要澄清：上表是本项目的默认约定，而非模型的固有属性。在生产实践中，模型选择与 Temperature 是「节点 / 任务」的属性而非「模型」的属性——同一个 Mixtral-8x22B 在 Planner 节点应用 temperature=0（求确定性），在 Creative Writing 节点可用 temperature=0.7（求多样性）；同一个 Llama-3.1-8B 在路由节点用 temperature=0，在文案润色节点可用 temperature=0.4。推荐的做法是：按节点粒度声明 LLM 实例与参数（如router_llm = ChatNebius(..., temperature=0)、creative_llm = ChatNebius(..., temperature=0.5)），而不是全局共享 LLM 实例。
-
-⚠️重要澄清：上表是本项目的默认约定，而非模型的固有属性。在生产实践中，模型选择与 Temperature 是「节点 / 任务」的属性而非「模型」的属性——同一个 Mixtral-8x22B 在 Planner 节点应用 temperature=0（求确定性），在 Creative Writing 节点可用 temperature=0.7（求多样性）；同一个 Llama-3.1-8B 在路由节点用 temperature=0，在文案润色节点可用 temperature=0.4。推荐的做法是：按节点粒度声明 LLM 实例与参数（如router_llm = ChatNebius(..., temperature=0)、creative_llm = ChatNebius(..., temperature=0.5)），而不是全局共享 LLM 实例。
+> ⚠️ **重要澄清**：上表是本项目的默认约定，而非模型的固有属性。在生产实践中，模型选择与 Temperature 是「节点 / 任务」的属性而非「模型」的属性——同一个 Mixtral-8x22B 在 Planner 节点应用 temperature=0（求确定性），在 Creative Writing 节点可用 temperature=0.7（求多样性）。推荐的做法是：按节点粒度声明 LLM 实例与参数。
 
 ### 所有架构的「骨架代码」
 
@@ -202,53 +254,21 @@ LLM-as-a-Judge 的局限性（读者须知）：
 
 本文中各架构的评估维度：
 
-架构评估维度01 Reflectioncorrectness / efficiency / style02 Tool Usetool_selection / tool_input / synthesis_quality03 ReActtask_completion / reasoning_quality04 Planningtask_completion / process_efficiency05 Multi-Agentclarity_structure / analytical_depth / completeness06 PEVtask_completion / error_handling07 Blackboardinstruction_following / process_efficiency13 Ensemblerecommendation_quality / synthesis15 RLHFscore (1-10) + feedback_points
-
-架构
-
-评估维度
-
-01 Reflection
-
-correctness / efficiency / style
-
-02 Tool Use
-
-tool_selection / tool_input / synthesis_quality
-
-03 ReAct
-
-task_completion / reasoning_quality
-
-04 Planning
-
-task_completion / process_efficiency
-
-05 Multi-Agent
-
-clarity_structure / analytical_depth / completeness
-
-06 PEV
-
-task_completion / error_handling
-
-07 Blackboard
-
-instruction_following / process_efficiency
-
-13 Ensemble
-
-recommendation_quality / synthesis
-
-15 RLHF
-
-score (1-10) + feedback_points
+| 架构 | 评估维度 |
+|------|----------|
+| 01 Reflection | correctness / efficiency / style |
+| 02 Tool Use | tool_selection / tool_input / synthesis_quality |
+| 03 ReAct | task_completion / reasoning_quality |
+| 04 Planning | task_completion / process_efficiency |
+| 05 Multi-Agent | clarity_structure / analytical_depth / completeness |
+| 06 PEV | task_completion / error_handling |
+| 07 Blackboard | instruction_following / process_efficiency |
+| 13 Ensemble | recommendation_quality / synthesis |
+| 15 RLHF | score (1-10) + feedback_points |
 
 ## 第一部分：基石模式
 
 > 从单次生成到具备工具调用、推理循环和规划能力的单 Agent 进化之路。这四种模式是所有高级架构的基础。
-
-从单次生成到具备工具调用、推理循环和规划能力的单 Agent 进化之路。这四种模式是所有高级架构的基础。
 
 ### 1.1 Reflection（反思 / 自我批判）
 
@@ -294,31 +314,11 @@ State 定义：
 
 LLM-as-a-Judge 评分（CodeEvaluation，1-10 分制）对比：
 
-维度初始代码改进后correctness79efficiency49style68
-
-维度
-
-初始代码
-
-改进后
-
-correctness
-
-7
-
-9
-
-efficiency
-
-4
-
-9
-
-style
-
-6
-
-8
+| 维度 | 初始代码 | 改进后 |
+|------|----------|--------|
+| correctness | 7 | 9 |
+| efficiency | 4 | 9 |
+| style | 6 | 8 |
 
 #### 1.1.5 思考与延伸
 
@@ -370,9 +370,7 @@ Tool Node执行工具
 
 END
 
-> 图示语义澄清：Notebook 02 的 LangGraph 图确实连接了tools → agent回边（代码与基础版一致），但由于系统提示和任务类型的约束，Agent 通常只调用一次工具就给出答案，回边在实际执行中往往不被触发。这意味着 Tool Use 与 ReAct 的真正边界不在图结构，而在 Prompt + 任务复杂度——当你用 ReAct 式的系统提示（鼓励多轮推理）替换 Notebook 02 的 Prompt 时，它的行为就等同于 ReAct。这也是下一节强调「ReAct 与 Tool Use 图结构相近、核心差异在语义」的根源。
-
-图示语义澄清：Notebook 02 的 LangGraph 图确实连接了tools → agent回边（代码与基础版一致），但由于系统提示和任务类型的约束，Agent 通常只调用一次工具就给出答案，回边在实际执行中往往不被触发。这意味着 Tool Use 与 ReAct 的真正边界不在图结构，而在 Prompt + 任务复杂度——当你用 ReAct 式的系统提示（鼓励多轮推理）替换 Notebook 02 的 Prompt 时，它的行为就等同于 ReAct。这也是下一节强调「ReAct 与 Tool Use 图结构相近、核心差异在语义」的根源。
+> 图示语义澄清：Notebook 02 的 LangGraph 图确实连接了 `tools → agent` 回边，但由于系统提示和任务类型的约束，Agent 通常只调用一次工具就给出答案。这意味着 Tool Use 与 ReAct 的真正边界不在图结构，而在 Prompt + 任务复杂度——当你用 ReAct 式的系统提示替换时，它的行为就等同于 ReAct。
 
 #### 1.2.3 关键实现解析
 
@@ -400,23 +398,11 @@ add_messages归并器确保新消息被追加而非覆盖，使得对话历史�
 
 LLM-as-a-Judge 评分（ToolUseEvaluation，1-5 分制）：
 
-维度得分tool_selection_score5tool_input_score4synthesis_quality_score4
-
-维度
-
-得分
-
-tool_selection_score
-
-5
-
-tool_input_score
-
-4
-
-synthesis_quality_score
-
-4
+| 维度 | 得分 |
+|------|------|
+| tool_selection_score | 5 |
+| tool_input_score | 4 |
+| synthesis_quality_score | 4 |
 
 #### 1.2.5 思考与延伸
 
@@ -468,37 +454,12 @@ ReAct Agent：自由多轮推理
 
 这个问题需要至少 2-3 次搜索：查电影制作方 → 查 CEO → 查最新电影预算。
 
-维度Basic AgentReAct Agent搜索次数13task_completion3/109/10reasoning_quality2/108/10结果答案不完整准确回答两个子问题
-
-维度
-
-Basic Agent
-
-ReAct Agent
-
-搜索次数
-
-1
-
-3
-
-task_completion
-
-3/10
-
-9/10
-
-reasoning_quality
-
-2/10
-
-8/10
-
-结果
-
-答案不完整
-
-准确回答两个子问题
+| 维度 | Basic Agent | ReAct Agent |
+|------|-------------|-------------|
+| 搜索次数 | 1 | 3 |
+| task_completion | 3/10 | 9/10 |
+| reasoning_quality | 2/10 | 8/10 |
+| 结果 | 答案不完整 | 准确回答两个子问题 |
 
 Basic Agent 只做了一次搜索，得到部分信息后就被迫输出答案。ReAct Agent 则进行了 3 轮搜索，逐步聚焦到最终答案。
 
@@ -550,37 +511,12 @@ Executor Node 逐步消费计划——每次取第一步执行，将剩余步骤
 
 任务：「查询法国、德国、意大利首都的人口，求和后与美国人口对比」。
 
-维度ReActPlanning方法逐步搜索，边找边想一次性生成 4 步计划搜索次数5-7 次（含试错）4 次（精确）task_completion7/109/10process_efficiency5/109/10
-
-维度
-
-ReAct
-
-Planning
-
-方法
-
-逐步搜索，边找边想
-
-一次性生成 4 步计划
-
-搜索次数
-
-5-7 次（含试错）
-
-4 次（精确）
-
-task_completion
-
-7/10
-
-9/10
-
-process_efficiency
-
-5/10
-
-9/10
+| 维度 | ReAct | Planning |
+|------|-------|----------|
+| 方法 | 逐步搜索，边找边想 | 一次性生成 4 步计划 |
+| 搜索次数 | 5-7 次（含试错） | 4 次（精确） |
+| task_completion | 7/10 | 9/10 |
+| process_efficiency | 5/10 | 9/10 |
 
 Planning Agent 生成了清晰的 4 步计划（三国首都人口 + 美国人口），然后精确执行。ReAct Agent 虽然也完成了任务，但过程中有冗余搜索。
 
@@ -598,9 +534,7 @@ Planning Agent 生成了清晰的 4 步计划（三国首都人口 + 美国人�
 
 ## 第二部分：多智能体协作
 
-> 基石模式解决了单 Agent 的能力闭环，但当任务复杂度超出单 Agent 的上下文窗口、专业深度或调度灵活性时，就需要多个专业化 Agent 分工协作——这正是多智能体系统的用武之地。这一部分按「编排耦合度」从低到高，展示四种不同的协作模式：固定流水线（Multi-Agent）→ 共享黑板（Blackboard）→ 显式路由（Meta-Controller）→ 并行扇出聚合（Ensemble）。
-
-基石模式解决了单 Agent 的能力闭环，但当任务复杂度超出单 Agent 的上下文窗口、专业深度或调度灵活性时，就需要多个专业化 Agent 分工协作——这正是多智能体系统的用武之地。这一部分按「编排耦合度」从低到高，展示四种不同的协作模式：固定流水线（Multi-Agent）→ 共享黑板（Blackboard）→ 显式路由（Meta-Controller）→ 并行扇出聚合（Ensemble）。
+> 基石模式解决了单 Agent 的能力闭环，但当任务复杂度超出单 Agent 的上下文窗口、专业深度或调度灵活性时，就需要多个专业化 Agent 分工协作——这正是多智能体系统的用武之地。
 
 ### 2.1 Multi-Agent Systems（多智能体系统）
 
@@ -640,31 +574,11 @@ Report Writer综合所有分析报告：
 
 对比单体 Agent（一个 generalist 独立完成所有分析）vs 多 Agent 团队：
 
-维度单体 AgentMulti-Agent 团队clarity_structure5/108/10analytical_depth4/109/10completeness5/109/10
-
-维度
-
-单体 Agent
-
-Multi-Agent 团队
-
-clarity_structure
-
-5/10
-
-8/10
-
-analytical_depth
-
-4/10
-
-9/10
-
-completeness
-
-5/10
-
-9/10
+| 维度 | 单体 Agent | Multi-Agent 团队 |
+|------|-----------|-----------------|
+| clarity_structure | 5/10 | 8/10 |
+| analytical_depth | 4/10 | 9/10 |
+| completeness | 5/10 | 9/10 |
 
 多 Agent 团队在每个专业维度上都有显著提升，因为每个 Agent 可以用全部上下文窗口聚焦于自己的专业领域。
 
@@ -724,31 +638,11 @@ Controller 是整个系统最关键的组件——它读取黑板内容，决定
 
 任务：「分析 Nvidia 的最新重大新闻。根据新闻情绪决定下一步——如果为负面，跳过技术分析直接进行风险评估。」
 
-维度Sequential AgentBlackboard Agentinstruction_following4/109/10process_efficiency5/108/10行为执行所有分析，忽略条件Controller 检测到负面情绪后跳过技术分析
-
-维度
-
-Sequential Agent
-
-Blackboard Agent
-
-instruction_following
-
-4/10
-
-9/10
-
-process_efficiency
-
-5/10
-
-8/10
-
-行为
-
-执行所有分析，忽略条件
-
-Controller 检测到负面情绪后跳过技术分析
+| 维度 | Sequential Agent | Blackboard Agent |
+|------|-----------------|-----------------|
+| instruction_following | 4/10 | 9/10 |
+| process_efficiency | 5/10 | 8/10 |
+| 行为 | 执行所有分析，忽略条件 | Controller 检测到负面情绪后跳过技术分析 |
 
 #### 2.2.5 思考与延伸
 
@@ -802,31 +696,11 @@ Controller Node：
 
 三次测试验证路由准确性：
 
-输入路由结果正确性"Hello, how are you today?"Generalist正确"What were NVIDIA's latest financial results?"Researcher正确"Can you write me a python function to calculate the nth fibonacci number?"Coder正确
-
-输入
-
-路由结果
-
-正确性
-
-"Hello, how are you today?"
-
-Generalist
-
-正确
-
-"What were NVIDIA's latest financial results?"
-
-Researcher
-
-正确
-
-"Can you write me a python function to calculate the nth fibonacci number?"
-
-Coder
-
-正确
+| 输入 | 路由结果 | 正确性 |
+|------|----------|--------|
+| "Hello, how are you today?" | Generalist | 正确 |
+| "What were NVIDIA's latest financial results?" | Researcher | 正确 |
+| "Can you write me a python function to calculate the nth fibonacci number?" | Coder | 正确 |
 
 #### 2.3.5 思考与延伸
 
@@ -906,9 +780,7 @@ CIO 综合：识别出共识（AI 需求强劲）和分歧（估值争议），�
 
 ## 第三部分：高级记忆与推理
 
-> 多 Agent 协作解决了并行分工，但它们都共享一个根本局限：每次对话都是「失忆」的，且推理仍局限于一次前向生成。要让 Agent 在跨会话中保留上下文、并对复杂问题展开系统化的多路径搜索，需要为其配备长期记忆与结构化推理能力。这一部分介绍三种突破上下文窗口与单步推理瓶颈的高级架构：双轨记忆（Episodic + Semantic）、思维树（Tree of Thoughts）、图世界模型（Graph World-Model）。
-
-多 Agent 协作解决了并行分工，但它们都共享一个根本局限：每次对话都是「失忆」的，且推理仍局限于一次前向生成。要让 Agent 在跨会话中保留上下文、并对复杂问题展开系统化的多路径搜索，需要为其配备长期记忆与结构化推理能力。这一部分介绍三种突破上下文窗口与单步推理瓶颈的高级架构：双轨记忆（Episodic + Semantic）、思维树（Tree of Thoughts）、图世界模型（Graph World-Model）。
+> 多 Agent 协作解决了并行分工，但它们都共享一个根本局限：每次对话都是「失忆」的，且推理仍局限于一次前向生成。这一部分介绍三种突破上下文窗口与单步推理瓶颈的高级架构。
 
 ### 3.1 Episodic + Semantic Memory（情景记忆 + 语义记忆）
 
@@ -944,43 +816,17 @@ State 定义：
 
 三轮对话模拟：
 
-轮次用户输入Agent 行为1「我叫 Alex，是保守型投资者，主要关注成熟科技公司」存储用户画像到 Neo4j；对话摘要存入 FAISS2「你怎么看 Apple (AAPL)？」从 Neo4j 检索到「Alex 是保守型投资者」 → 推荐基于稳定性分析3「根据我的偏好，推荐其他股票」综合情景记忆（之前讨论了 AAPL）+ 语义记忆（保守型、成熟科技） → 推荐 MSFT、GOOG
-
-轮次
-
-用户输入
-
-Agent 行为
-
-1
-
-「我叫 Alex，是保守型投资者，主要关注成熟科技公司」
-
-存储用户画像到 Neo4j；对话摘要存入 FAISS
-
-2
-
-「你怎么看 Apple (AAPL)？」
-
-从 Neo4j 检索到「Alex 是保守型投资者」 → 推荐基于稳定性分析
-
-3
-
-「根据我的偏好，推荐其他股票」
-
-综合情景记忆（之前讨论了 AAPL）+ 语义记忆（保守型、成熟科技） → 推荐 MSFT、GOOG
+| 轮次 | 用户输入 | Agent 行为 |
+|------|----------|------------|
+| 1 | 「我叫 Alex，是保守型投资者，主要关注成熟科技公司」 | 存储用户画像到 Neo4j；对话摘要存入 FAISS |
+| 2 | 「你怎么看 Apple (AAPL)？」 | 从 Neo4j 检索到「Alex 是保守型投资者」 → 推荐基于稳定性分析 |
+| 3 | 「根据我的偏好，推荐其他股票」 | 综合情景记忆 + 语义记忆 → 推荐 MSFT、GOOG |
 
 #### 3.1.5 思考与延伸
 
 •记忆衰减：实际系统需要遗忘策略，避免过时信息干扰
 
-•时效性与相关性校准（关键工程难题）：情景记忆不仅要相似，更要关键且新鲜。例如用户问「我的投资偏好」时，应优先召回「上周讨论的 Apple 股票看法」而非「一年前询问过 Apple 公司成立时间」。生产实践中的做法是：在向量相似度s_similarity的基础上，叠加两个附加因子——最终综合评分为score = w₁·s_similarity + w₂·s_recency + w₃·s_importance。这种「相似 × 时效 × 重要性」三因子打分是Generative Agents（斯坦福 / Google 在 2023 年发布的 25-Agent 小镇模拟实验）、MemGPT（UC Berkeley 在 2024 年提出的 OS 式分层记忆管理 Agent）等前沿记忆系统的核心设计。
-
-最终综合评分为score = w₁·s_similarity + w₂·s_recency + w₃·s_importance。这种「相似 × 时效 × 重要性」三因子打分是Generative Agents（斯坦福 / Google 在 2023 年发布的 25-Agent 小镇模拟实验）、MemGPT（UC Berkeley 在 2024 年提出的 OS 式分层记忆管理 Agent）等前沿记忆系统的核心设计。
-
-•时效性衰减：s_recency = exp(-λ·Δt)，越旧的记忆权重越低；
-
-•重要性权重：s_importance，用户明确点赞或重复提及的事实权重更高。
+•时效性与相关性校准是记忆系统的关键工程难题：最终综合评分为 `score = w₁·s_similarity + w₂·s_recency + w₃·s_importance`。这种「相似 × 时效 × 重要性」三因子打分是 Generative Agents 和 MemGPT 等前沿记忆系统的核心设计。
 
 •向量检索的召回率：语义相似不等于逻辑相关——「保守型投资者」和「低风险策略」向量可能不够近
 
@@ -1026,25 +872,10 @@ Prune Node——移除无效路径和循环：
 
 问题：狼、羊、白菜过河。
 
-方法结果过程Chain-of-Thought经常出错或陷入循环LLM 线性推理，一旦走错无法回溯Tree of Thoughts稳定找到正确解系统化搜索所有合法路径，保证找到解
-
-方法
-
-结果
-
-过程
-
-Chain-of-Thought
-
-经常出错或陷入循环
-
-LLM 线性推理，一旦走错无法回溯
-
-Tree of Thoughts
-
-稳定找到正确解
-
-系统化搜索所有合法路径，保证找到解
+| 方法 | 结果 | 过程 |
+|------|------|------|
+| Chain-of-Thought | 经常出错或陷入循环 | LLM 线性推理，一旦走错无法回溯 |
+| Tree of Thoughts | 稳定找到正确解 | 系统化搜索所有合法路径，保证找到解 |
 
 #### 3.2.5 思考与延伸
 
@@ -1100,31 +931,11 @@ Text-to-Cypher 查询——LLM 根据图 Schema 生成查询语句：
 
 三篇企业文档构建知识图谱后的查询测试：
 
-查询类型结果「谁在 AlphaCorp 工作？」单跳返回 AlphaCorp 的所有员工节点「AlphaCorp 收购了哪家公司？」单跳BetaSolutions「哪些公司与收购了 BetaSolutions 的那家公司所生产的产品存在竞争关系？」多跳通过 ACQUIRED→MAKES→COMPETES 三跳
-
-查询
-
-类型
-
-结果
-
-「谁在 AlphaCorp 工作？」
-
-单跳
-
-返回 AlphaCorp 的所有员工节点
-
-「AlphaCorp 收购了哪家公司？」
-
-单跳
-
-BetaSolutions
-
-「哪些公司与收购了 BetaSolutions 的那家公司所生产的产品存在竞争关系？」
-
-多跳
-
-通过 ACQUIRED→MAKES→COMPETES 三跳
+| 查询 | 类型 | 结果 |
+|------|------|------|
+| 「谁在 AlphaCorp 工作？」 | 单跳 | 返回 AlphaCorp 的所有员工节点 |
+| 「AlphaCorp 收购了哪家公司？」 | 单跳 | BetaSolutions |
+| 「哪些公司与收购了 BetaSolutions 的那家公司所生产的产品存在竞争关系？」 | 多跳 | 通过 ACQUIRED→MAKES→COMPETES 三跳 |
 
 #### 3.3.5 思考与延伸
 
@@ -1140,9 +951,7 @@ BetaSolutions
 
 ## 第四部分：安全与可靠性
 
-> 从「能用」到「敢用」——面向生产环境的安全保障架构。这一部分的四种架构代表了从自动容错到人工审核再到自我认知的安全等级递进。
-
-从「能用」到「敢用」——面向生产环境的安全保障架构。这一部分的四种架构代表了从自动容错到人工审核再到自我认知的安全等级递进。
+> 从「能用」到「敢用」——面向生产环境的安全保障架构。这四种架构代表了从自动容错到人工审核再到自我认知的安全等级递进。
 
 ### 4.1 PEV（计划-执行-验证）
 
@@ -1186,31 +995,11 @@ Verifier Node——用 LLM 判断工具结果是否有效：
 
 任务：「查询 Apple 的 R&D 支出和员工数量」（员工查询会失败）。
 
-维度Basic PE（无验证）PEV（有验证）task_completion4/108/10error_handling2/109/10行为将错误信息当有效数据写入报告检测到错误 → 重规划为"Apple total workforce" → 成功
-
-维度
-
-Basic PE（无验证）
-
-PEV（有验证）
-
-task_completion
-
-4/10
-
-8/10
-
-error_handling
-
-2/10
-
-9/10
-
-行为
-
-将错误信息当有效数据写入报告
-
-检测到错误 → 重规划为"Apple total workforce" → 成功
+| 维度 | Basic PE（无验证） | PEV（有验证） |
+|------|-------------------|--------------|
+| task_completion | 4/10 | 8/10 |
+| error_handling | 2/10 | 9/10 |
+| 行为 | 将错误信息当有效数据写入报告 | 检测到错误 → 重规划 → 成功 |
 
 #### 4.1.5 思考与延伸
 
@@ -1360,39 +1149,11 @@ Metacognitive Analysis——LLM 自我反思：
 
 #### 实际案例
 
-用户问题置信度策略理由「感冒的常见症状是什么？」0.9reason_directly在知识范围内，低风险「布洛芬和赖诺普利能一起吃吗？」0.5use_tool需要药物交互检查工具「我胸口很痛，怎么办？」0.1escalate潜在急症，必须转人工
-
-用户问题
-
-置信度
-
-策略
-
-理由
-
-「感冒的常见症状是什么？」
-
-0.9
-
-reason_directly
-
-在知识范围内，低风险
-
-「布洛芬和赖诺普利能一起吃吗？」
-
-0.5
-
-use_tool
-
-需要药物交互检查工具
-
-「我胸口很痛，怎么办？」
-
-0.1
-
-escalate
-
-潜在急症，必须转人工
+| 用户问题 | 置信度 | 策略 | 理由 |
+|----------|--------|------|------|
+| 「感冒的常见症状是什么？」 | 0.9 | reason_directly | 在知识范围内，低风险 |
+| 「布洛芬和赖诺普利能一起吃吗？」 | 0.5 | use_tool | 需要药物交互检查工具 |
+| 「我胸口很痛，怎么办？」 | 0.1 | escalate | 潜在急症，必须转人工 |
 
 #### 4.4.4 思考与延伸
 
@@ -1413,8 +1174,6 @@ escalate
 ## 第五部分：学习与自适应
 
 > 从静态工具到持续进化——让 Agent 从经验中学习，或通过简单规则涌现复杂行为。
-
-从静态工具到持续进化——让 Agent 从经验中学习，或通过简单规则涌现复杂行为。
 
 ### 5.1 RLHF Self-Improvement（自我改进循环）
 
@@ -1460,37 +1219,10 @@ Phase 2——带记忆的 Generator 使用 few-shot 示例：
 
 #### 5.1.4 实际案例
 
-轮次任务初始分数最终分数修改次数第 1 轮InsightSphere 产品邮件4/108/103第 2 轮（有 memory）Visionary CRM 邮件6/109/102
-
-轮次
-
-任务
-
-初始分数
-
-最终分数
-
-修改次数
-
-第 1 轮
-
-InsightSphere 产品邮件
-
-4/10
-
-8/10
-
-3
-
-第 2 轮（有 memory）
-
-Visionary CRM 邮件
-
-6/10
-
-9/10
-
-2
+| 轮次 | 任务 | 初始分数 | 最终分数 | 修改次数 |
+|------|------|----------|----------|----------|
+| 第 1 轮 | InsightSphere 产品邮件 | 4/10 | 8/10 | 3 |
+| 第 2 轮（有 memory） | Visionary CRM 邮件 | 6/10 | 9/10 | 2 |
 
 第 2 轮因为有了第 1 轮的优秀案例作为 few-shot，初始质量更高，收敛更快。
 
@@ -1574,73 +1306,31 @@ LLM 仅在最后用于生成人类可读的路径描述总结。
 
 > 超越单个架构的比较分析，帮助读者建立系统性的选型和设计能力。
 
-超越单个架构的比较分析，帮助读者建立系统性的选型和设计能力。
-
 ### 6.1 架构分类法与选型指南
 
 #### 6.1.1 按控制流模式分类
 
-模式架构特点适用场景线性 DAG01 Reflection确定性强，最易调试单步生成优化条件循环02 Tool Use, 03 ReAct, 06 PEV动态适应，需要 recursion_limit需要外部信息的开放问题固定流水线04 Planning, 05 Multi-Agent可预测，步骤明确结构化多步任务扇出/扇入13 Ensemble并行提效，综合质量多视角分析动态调度07 Blackboard, 11 Meta-Controller灵活路由，Controller 是瓶颈条件分支、多域任务树搜索09 ToT系统化探索，计算昂贵逻辑谜题、约束规划自循环进化15 RLHF持续改进，需要评估标准内容创作、质量迭代去中心化16 Cellular Automata涌现行为，不依赖 LLM空间推理、物流
-
-模式
-
-架构
-
-特点
-
-适用场景
-
-01 Reflection
-
-确定性强，最易调试
-
-单步生成优化
-
-02 Tool Use, 03 ReAct, 06 PEV
-
-动态适应，需要 recursion_limit
-
-需要外部信息的开放问题
-
-04 Planning, 05 Multi-Agent
-
-可预测，步骤明确
-
-结构化多步任务
-
-13 Ensemble
-
-并行提效，综合质量
-
-多视角分析
-
-07 Blackboard, 11 Meta-Controller
-
-灵活路由，Controller 是瓶颈
-
-条件分支、多域任务
-
-09 ToT
-
-系统化探索，计算昂贵
-
-逻辑谜题、约束规划
-
-15 RLHF
-
-持续改进，需要评估标准
-
-内容创作、质量迭代
-
-16 Cellular Automata
-
-涌现行为，不依赖 LLM
-
-空间推理、物流
+| 模式 | 架构 | 特点 | 适用场景 |
+|------|------|------|----------|
+| 线性 DAG | 01 Reflection | 确定性强，最易调试 | 单步生成优化 |
+| 条件循环 | 02 Tool Use, 03 ReAct, 06 PEV | 动态适应，需要 recursion_limit | 需要外部信息的开放问题 |
+| 固定流水线 | 04 Planning, 05 Multi-Agent | 可预测，步骤明确 | 结构化多步任务 |
+| 扇出/扇入 | 13 Ensemble | 并行提效，综合质量 | 多视角分析 |
+| 动态调度 | 07 Blackboard, 11 Meta-Controller | 灵活路由，Controller 是瓶颈 | 条件分支、多域任务 |
+| 树搜索 | 09 ToT | 系统化探索，计算昂贵 | 逻辑谜题、约束规划 |
+| 自循环进化 | 15 RLHF | 持续改进，需要评估标准 | 内容创作、质量迭代 |
+| 去中心化 | 16 Cellular Automata | 涌现行为，不依赖 LLM | 空间推理、物流 |
 
 #### 6.1.2 按 Agent 数量与通信方式分类
 
-类型架构通信模式单 Agent01, 02, 03, 04, 09, 10State 自传递多 Agent 串行05, 06State 依次传递多 Agent 并行13Fan-out → State merge → Fan-in多 Agent 动态调度07, 11Controller 分发群体 Agent16邻居交互自我对话01, 15Generator/Critic 角色分离
+| 类型 | 架构 | 通信模式 |
+|------|------|----------|
+| 单 Agent | 01, 02, 03, 04, 09, 10 | State 自传递 |
+| 多 Agent 串行 | 05, 06 | State 依次传递 |
+| 多 Agent 并行 | 13 | Fan-out → State merge → Fan-in |
+| 多 Agent 动态调度 | 07, 11 | Controller 分发 |
+| 群体 Agent | 16 | 邻居交互 |
+| 自我对话 | 01, 15 | Generator/Critic 角色分离 |
 
 类型
 
@@ -1774,55 +1464,13 @@ Generator/Critic 角色分离
 
 ### 6.2 LangGraph 状态设计模式对比
 
-模式代表架构State 结构优点缺点消息列表02, 03Annotated[list[AnyMessage], add_messages]自然对话、工具调用无缝集成随对话增长消耗 token字段组合01, 04, 06, 15TypedDictwith named fields精确控制、便于条件路由需要预定义所有字段、扩展性差（新增一个中间步骤就要改 State）共享黑板07List[str]追加模式灵活，Agent 自由读写缺乏类型安全Dict 聚合13Dict[str, str]分析师报告支持并行写入需要小心合并逻辑外部存储08, 12FAISS + Neo4j跨会话持久化、关系推理基础设施复杂度高
-
-模式
-
-代表架构
-
-State 结构
-
-优点
-
-缺点
-
-02, 03
-
-自然对话、工具调用无缝集成
-
-随对话增长消耗 token
-
-01, 04, 06, 15
-
-with named fields
-
-精确控制、便于条件路由
-
-需要预定义所有字段、扩展性差（新增一个中间步骤就要改 State）
-
-07
-
-追加模式
-
-灵活，Agent 自由读写
-
-缺乏类型安全
-
-13
-
-分析师报告
-
-支持并行写入
-
-需要小心合并逻辑
-
-08, 12
-
-FAISS + Neo4j
-
-跨会话持久化、关系推理
-
-基础设施复杂度高
+| 模式 | 代表架构 | State 结构 | 优点 | 缺点 |
+|------|----------|------------|------|------|
+| 消息列表 | 02, 03 | Annotated[list[AnyMessage], add_messages] | 自然对话、工具调用无缝集成 | 随对话增长消耗 token |
+| 字段组合 | 01, 04, 06, 15 | TypedDict with named fields | 精确控制、便于条件路由 | 需要预定义所有字段、扩展性差 |
+| 共享黑板 | 07 | List[str] | 追加模式灵活，Agent 自由读写 | 缺乏类型安全 |
+| Dict 聚合 | 13 | Dict[str, str] | 分析师报告支持并行写入 | 需要小心合并逻辑 |
+| 外部存储 | 08, 12 | FAISS + Neo4j | 跨会话持久化、关系推理 | 基础设施复杂度高 |
 
 选择建议：
 
@@ -1838,39 +1486,17 @@ FAISS + Neo4j
 
 Temperature 设置指南：
 
-Temperature用途架构示例0确定性路由、安全决策、查询生成02, 03, 11, 12, 170.2保守生成（代码）010.3轻微变化（多样化视角）130.4适度创造（策略、营销文案）09, 10, 150.5创意内容（社交媒体）14
-
-Temperature
-
-用途
-
-架构示例
-
-确定性路由、安全决策、查询生成
-
-02, 03, 11, 12, 17
-
-保守生成（代码）
-
-01
-
-轻微变化（多样化视角）
-
-13
-
-适度创造（策略、营销文案）
-
-09, 10, 15
-
-创意内容（社交媒体）
-
-14
+| Temperature | 用途 | 架构示例 |
+|-------------|------|----------|
+| 0 | 确定性路由、安全决策、查询生成 | 02, 03, 11, 12, 17 |
+| 0.2 | 保守生成（代码） | 01 |
+| 0.3 | 轻微变化（多样化视角） | 13 |
+| 0.4 | 适度创造（策略、营销文案） | 09, 10, 15 |
+| 0.5 | 创意内容（社交媒体） | 14 |
 
 规律：越需要「准确性」的场景用越低的 temperature；越需要「创造性」的场景用越高的 temperature。安全相关的决策（路由、验证、元认知分析）一律用 temperature=0。
 
-> 🔬无银弹原则：上表仅是起点估值，实际 temperature 必须通过 A/B 测试或评估来确定。推荐的做法：在 LLM-as-a-Judge 的评估集上，对temperature ∈ {0, 0.1, 0.3, 0.5, 0.7}运行各 N 次，取平均得分最高者为该节点的生产值；改变 Prompt 后需重新标定。
-
-🔬无银弹原则：上表仅是起点估值，实际 temperature 必须通过 A/B 测试或评估来确定。推荐的做法：在 LLM-as-a-Judge 的评估集上，对temperature ∈ {0, 0.1, 0.3, 0.5, 0.7}运行各 N 次，取平均得分最高者为该节点的生产值；改变 Prompt 后需重新标定。
+> 🔬 **无银弹原则**：上表仅是起点估值，实际 temperature 必须通过 A/B 测试或评估来确定。推荐的做法：在 LLM-as-a-Judge 的评估集上，对 `temperature ∈ {0, 0.1, 0.3, 0.5, 0.7}` 运行各 N 次，取平均得分最高者为该节点的生产值。
 
 同一 Pipeline 混合模型：在 Notebook 05-17 中，可以让路由/验证节点用 Llama-3.1-8B（快速+便宜），推理/生成节点用 Mixtral-8x22B（强大+准确），实现成本与质量的平衡。
 
@@ -1878,95 +1504,26 @@ Temperature
 
 #### 6.4.1 错误处理等级对比
 
-等级机制架构适用场景L0无处理01 Reflection纯 LLM 生成，无外部依赖L1条件路由02, 03根据 LLM 输出决定下一步L2验证器 + 重试06 PEV工具调用可能失败L3模拟器预演10 Mental Loop高风险决策需要预测后果L4人工审核14 Dry-Run不可逆操作需要人类批准L5元认知自评17 Metacognitive安全关键领域，Agent 知道自己的局限
-
-等级
-
-机制
-
-架构
-
-适用场景
-
-L0
-
-无处理
-
-01 Reflection
-
-纯 LLM 生成，无外部依赖
-
-L1
-
-条件路由
-
-02, 03
-
-根据 LLM 输出决定下一步
-
-L2
-
-验证器 + 重试
-
-06 PEV
-
-工具调用可能失败
-
-L3
-
-模拟器预演
-
-10 Mental Loop
-
-高风险决策需要预测后果
-
-L4
-
-人工审核
-
-14 Dry-Run
-
-不可逆操作需要人类批准
-
-L5
-
-元认知自评
-
-17 Metacognitive
-
-安全关键领域，Agent 知道自己的局限
+| 等级 | 机制 | 架构 | 适用场景 |
+|------|------|------|----------|
+| L0 | 无处理 | 01 Reflection | 纯 LLM 生成，无外部依赖 |
+| L1 | 条件路由 | 02, 03 | 根据 LLM 输出决定下一步 |
+| L2 | 验证器 + 重试 | 06 PEV | 工具调用可能失败 |
+| L3 | 模拟器预演 | 10 Mental Loop | 高风险决策需要预测后果 |
+| L4 | 人工审核 | 14 Dry-Run | 不可逆操作需要人类批准 |
+| L5 | 元认知自评 | 17 Metacognitive | 安全关键领域，Agent 知道自己的局限 |
 
 #### 6.4.2 架构组合建议
 
 单一架构很少能满足生产需求。以下是一些有价值的组合模式：
 
-组合效果适用场景PEV + Metacognitive自动容错 + 安全路由高可靠性系统Ensemble + RLHF多视角 + 质量迭代自校准分析系统Blackboard + Episodic Memory动态协作 + 长期记忆持续学习的协作系统Meta-Controller + ReAct智能路由 + 每个专家内部多轮推理多域助手Planning + PEV + Dry-Run规划 + 自动验证 + 人工审核企业级自动化流程
-
-组合
-
-效果
-
-适用场景
-
-自动容错 + 安全路由
-
-高可靠性系统
-
-多视角 + 质量迭代
-
-自校准分析系统
-
-动态协作 + 长期记忆
-
-持续学习的协作系统
-
-智能路由 + 每个专家内部多轮推理
-
-多域助手
-
-规划 + 自动验证 + 人工审核
-
-企业级自动化流程
+| 组合 | 效果 | 适用场景 |
+|------|------|----------|
+| PEV + Metacognitive | 自动容错 + 安全路由 | 高可靠性系统 |
+| Ensemble + RLHF | 多视角 + 质量迭代 | 自校准分析系统 |
+| Blackboard + Episodic Memory | 动态协作 + 长期记忆 | 持续学习的协作系统 |
+| Meta-Controller + ReAct | 智能路由 + 每个专家内部多轮推理 | 多域助手 |
+| Planning + PEV + Dry-Run | 规划 + 自动验证 + 人工审核 | 企业级自动化流程 |
 
 #### 6.4.3 可观测性
 
@@ -1984,81 +1541,25 @@ L5
 
 ### 7.1 17 种架构一览表
 
-#架构一句话定义核心创新01Reflection生成→批评→改进无需外部反馈的自我优化02Tool UseLLM 自主调用外部 API从封闭到开放系统03ReAct多轮推理+行动循环动态多跳问题求解04Planning先规划后执行结构化任务分解05Multi-Agent专家团队分工专业深度超越通用广度06PEV执行后验证+重规划工具失败自动容错07Blackboard共享黑板+动态调度条件分支多 Agent 协调08Episodic+Semantic向量+图谱双记忆跨会话个性化09Tree of Thoughts树搜索+剪枝系统化探索带回溯10Mental Loop模拟器预演高风险决策前测试11Meta-Controller智能路由最低开销多 Agent 调度12Graph World-Model知识图谱+Text-to-Cypher多跳关系推理13Ensemble并行多视角+综合认知多样性降低偏差14Dry-Run沙箱预览+人工审核不可逆操作安全门15RLHF多轮修改+持久化记忆跨任务质量提升16Cellular Automata局部规则涌现全局行为去中心化空间推理17Metacognitive自我能力评估+策略路由Agent 知道自己不知道什么
-
-#
-
-架构
-
-一句话定义
-
-核心创新
-
-01
-
-Reflection
-
-生成→批评→改进
-
-无需外部反馈的自我优化
-
-02
-
-Tool Use
-
-LLM 自主调用外部 API
-
-从封闭到开放系统
-
-03
-
-ReAct
-
-多轮推理+行动循环
-
-动态多跳问题求解
-
-04
-
-Planning
-
-先规划后执行
-
-结构化任务分解
-
-05
-
-Multi-Agent
-
-专家团队分工
-
-专业深度超越通用广度
-
-06
-
-PEV
-
-执行后验证+重规划
-
-工具失败自动容错
-
-07
-
-Blackboard
-
-共享黑板+动态调度
-
-条件分支多 Agent 协调
-
-08
-
-Episodic+Semantic
-
-向量+图谱双记忆
-
-跨会话个性化
-
-09
+| # | 架构 | 一句话定义 | 核心创新 |
+|---|------|-----------|----------|
+| 01 | Reflection | 生成→批评→改进 | 无需外部反馈的自我优化 |
+| 02 | Tool Use | LLM 自主调用外部 API | 从封闭到开放系统 |
+| 03 | ReAct | 多轮推理+行动循环 | 动态多跳问题求解 |
+| 04 | Planning | 先规划后执行 | 结构化任务分解 |
+| 05 | Multi-Agent | 专家团队分工 | 专业深度超越通用广度 |
+| 06 | PEV | 执行后验证+重规划 | 工具失败自动容错 |
+| 07 | Blackboard | 共享黑板+动态调度 | 条件分支多 Agent 协调 |
+| 08 | Episodic+Semantic | 向量+图谱双记忆 | 跨会话个性化 |
+| 09 | Tree of Thoughts | 树搜索+剪枝 | 系统化探索带回溯 |
+| 10 | Mental Loop | 模拟器预演 | 高风险决策前测试 |
+| 11 | Meta-Controller | 智能路由 | 最低开销多 Agent 调度 |
+| 12 | Graph World-Model | 知识图谱+Text-to-Cypher | 多跳关系推理 |
+| 13 | Ensemble | 并行多视角+综合 | 认知多样性降低偏差 |
+| 14 | Dry-Run | 沙箱预览+人工审核 | 不可逆操作安全门 |
+| 15 | RLHF | 多轮修改+持久化记忆 | 跨任务质量提升 |
+| 16 | Cellular Automata | 局部规则涌现全局行为 | 去中心化空间推理 |
+| 17 | Metacognitive | 自我能力评估+策略路由 | Agent 知道自己不知道什么 |
 
 Tree of Thoughts
 
@@ -2162,83 +1663,25 @@ Agent 知道自己不知道什么
 
 ### B. 17 个架构 State 定义速查表
 
-#架构State 类名核心字段01ReflectionReflectionStateuser_request, draft, critique, refined_code02Tool UseAgentStatemessages（add_messages 归并器）03ReActAgentStatemessages（add_messages 归并器）04PlanningPlanningStateuser_request, plan, intermediate_steps, final_answer05Multi-AgentMultiAgentStateuser_request, news/technical/financial_report, final_report06PEVPEVStateuser_request, plan, last_tool_result, intermediate_steps, retries07BlackboardBlackboardStateuser_request, blackboard, available_agents, next_agent08MemoryAgentStateuser_input, retrieved_memories, generation09ToTToTStateproblem_description, active_paths, solution10Mental LoopAgentStatereal_market, proposed_action, simulation_results, final_decision11Meta-ControllerMetaAgentStateuser_request, next_agent_to_call, generation12GraphN/A (chain)Neo4j graph + Cypher chain13EnsembleEnsembleStatequery, analyses (Dict), final_recommendation14Dry-RunAgentStateuser_request, proposed_post, dry_run_log, review_decision15RLHFAgentStateuser_request, draft_email, critique, revision_number16CellularN/A (simulation)WarehouseGrid + CellAgent (numpy)17MetacognitiveAgentStateuser_query, self_model, metacognitive_analysis, tool_output
-
-#
-
-架构
-
-State 类名
-
-核心字段
-
-01
-
-Reflection
-
-user_request, draft, critique, refined_code
-
-02
-
-Tool Use
-
-messages（add_messages 归并器）
-
-03
-
-ReAct
-
-messages（add_messages 归并器）
-
-04
-
-Planning
-
-user_request, plan, intermediate_steps, final_answer
-
-05
-
-Multi-Agent
-
-user_request, news/technical/financial_report, final_report
-
-06
-
-PEV
-
-user_request, plan, last_tool_result, intermediate_steps, retries
-
-07
-
-Blackboard
-
-user_request, blackboard, available_agents, next_agent
-
-08
-
-Memory
-
-user_input, retrieved_memories, generation
-
-09
-
-ToT
-
-problem_description, active_paths, solution
-
-10
-
-Mental Loop
-
-real_market, proposed_action, simulation_results, final_decision
-
-11
-
-Meta-Controller
-
-user_request, next_agent_to_call, generation
-
-12
+| # | 架构 | State 类名 | 核心字段 |
+|---|------|-----------|----------|
+| 01 | Reflection | ReflectionState | user_request, draft, critique, refined_code |
+| 02 | Tool Use | AgentState | messages（add_messages 归并器） |
+| 03 | ReAct | AgentState | messages（add_messages 归并器） |
+| 04 | Planning | PlanningState | user_request, plan, intermediate_steps, final_answer |
+| 05 | Multi-Agent | MultiAgentState | user_request, news/technical/financial_report, final_report |
+| 06 | PEV | PEVState | user_request, plan, last_tool_result, intermediate_steps, retries |
+| 07 | Blackboard | BlackboardState | user_request, blackboard, available_agents, next_agent |
+| 08 | Memory | MemoryAgentState | user_input, retrieved_memories, generation |
+| 09 | ToT | ToTState | problem_description, active_paths, solution |
+| 10 | Mental Loop | AgentState | real_market, proposed_action, simulation_results, final_decision |
+| 11 | Meta-Controller | MetaAgentState | user_request, next_agent_to_call, generation |
+| 12 | Graph | N/A (chain) | Neo4j graph + Cypher chain |
+| 13 | Ensemble | EnsembleState | query, analyses (Dict), final_recommendation |
+| 14 | Dry-Run | AgentState | user_request, proposed_post, dry_run_log, review_decision |
+| 15 | RLHF | RLHFAgentState | user_request, draft_email, critique, revision_number |
+| 16 | Cellular | N/A (simulation) | WarehouseGrid + CellAgent (numpy) |
+| 17 | Metacognitive | AgentState | user_query, self_model, metacognitive_analysis, tool_output |
 
 Graph
 
