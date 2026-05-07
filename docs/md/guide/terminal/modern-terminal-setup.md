@@ -1,7 +1,7 @@
 ---
 title: "现代化终端配置指南"
 date: "2026-05-07"
-source: "Github Gist"
+source: "Github Gist / 公众号"
 url: "https://gist.github.com/lltx/a61f98fdb761c9af7c5fd6cbfe963842"
 ---
 
@@ -424,6 +424,110 @@ gt              # 跳转到 /tmp 目录
 2. **Shell Integration**: Ghostty 的 shell integration 功能需要在配置中启用
 3. **Zoxide**: 需要使用一段时间后才能建立目录访问历史
 4. **Yazi 预览**: 需要安装额外的工具（ffmpegthumbnailer, poppler）才能预览视频和 PDF
+
+---
+
+## 备选配色方案：OneDark 优化版
+
+> 来源：[公众号 ListSec 凉城](https://www.gm7.org/archives/44541)，含半透明高斯模糊背景 + 护眼 ANSI 色板
+
+```ini
+# ==============================
+# 字体与排版：打造呼吸感
+# ==============================
+font-family = "JetBrainsMono-Regular"
+font-style-bold = "Medium"
+font-style-bold-italic = "Medium Italic"
+font-size = 16
+font-thicken = true
+grapheme-width-method = "unicode"
+adjust-cell-width = 0%
+
+# 水平边距收紧，垂直边距适中
+window-padding-x = 15
+window-padding-y = 15
+window-save-state = "always"
+
+# ==============================
+# 沉浸式 UI：透明与高斯模糊
+# ==============================
+# 80% 不透明度 + 25 高斯模糊半径 = 磨砂玻璃质感
+background-opacity = 0.8
+background-blur-radius = 25
+
+# ==============================
+# 光标与性能
+# ==============================
+cursor-color = e5c07b
+cursor-style = "bar"
+cursor-style-blink = true
+scrollback-limit = 20000
+
+# ==============================
+# 配色方案：OneDark 优化版
+# ==============================
+background = 1e222a
+foreground = dcdfe4
+selection-background = 405060
+selection-foreground = dcdfe4
+selection-invert-fg-bg = true
+
+# ANSI 16 色调色板（护眼色系）
+palette = 0=#1e222a
+palette = 1=#e06c75
+palette = 2=#98c379
+palette = 3=#e5c07b
+palette = 4=#61afef
+palette = 5=#c678dd
+palette = 6=#56b6c2
+palette = 7=#dcdfe4
+palette = 8=#545862
+palette = 9=#e06c75
+palette = 10=#98c379
+palette = 11=#e5c07b
+palette = 12=#61afef
+palette = 13=#c678dd
+palette = 14=#56b6c2
+palette = 15=#ffffff
+
+# ==============================
+# 快捷键：全局 Quake 模式
+# ==============================
+keybind = global:alt+grave_accent=toggle_quick_terminal
+```
+
+### 可选增强
+
+```ini
+# 添加背景图片（需填写实际路径）
+background-image = "/Users/lca/Pictures/your-wallpaper.jpg"
+background-opacity = 0.8
+background-image-fit = cover
+
+# 隐藏 macOS 红黄蓝按钮（沉浸感更强）
+macos-titlebar-style = hidden
+```
+
+---
+
+## Ghostty 内置 CLI 命令
+
+> Ghostty 追求极简但内置了实用的命令行工具，在终端直接执行即可
+
+| 命令 | 功能 |
+|------|------|
+| `ghostty +list-themes` | 列出所有内置主题，直接在 config 里写 `theme = 主题名` 切换 |
+| `ghostty +list-colors` | 打印当前配置的 ANSI 色块和 256 色调色板，直观验证是否刺眼 |
+| `ghostty +list-fonts` | 列举所有被 Ghostty 正确识别的系统字体及其变体名称 |
+| `ghostty +list-keybinds` | 查阅所有默认快捷键 |
+| `ghostty +show-config` | 将最终生效的完整配置（含默认 + 覆盖）合并打印出来 |
+| `ghostty +validate-config` | 语法检查 config 文件，精确指出错误行号 |
+
+> **热重载**：修改 config 文件后**无需重启**，Ghostty 自动监听文件变更并实时刷新。
+
+### 块状选择（Block Selection）
+
+按住 `Option`（Mac）或 `Alt`（Win/Linux）再拖拽鼠标，可精准框选纵向表格数据，复制特定列区域，再也不用被横向整行选中困扰。
 
 ---
 
