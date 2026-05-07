@@ -1,5 +1,5 @@
 ---
-title: "李继刚：如何写好 Prompt"
+title: "如何写好 Prompt — 模型理解 + 行业 KnowHow + 表达力"
 date: "2026-05-07"
 source: "微信公众号"
 ---
