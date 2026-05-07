@@ -1,5 +1,5 @@
 ---
-title: "结构化提示词系统论述：构建高性能 Prompt 之路"
+title: "结构化提示词 — 构建高性能 Prompt 的系统方法论"
 date: "2026-05-07"
 source: "知乎"
 url: "https://www.zhihu.com/people/zphyix"
