@@ -1,5 +1,5 @@
 ---
-title: "Prompt 进阶：提示链（Prompt Chain）和多提示词协同"
+title: "提示链与多提示词协同 — Prompt Chain 进阶指南"
 date: "2026-05-07"
 source: "微信公众号"
 ---
