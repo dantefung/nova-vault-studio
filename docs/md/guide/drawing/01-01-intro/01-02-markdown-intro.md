@@ -1,8 +1,42 @@
 ---
 title: Markdown可以做什么
+date: 2026-05-06
 ---
 
-----------
+> **摘要** — Markdown 是 John Gruber 于 2004 年创立的纯文本标记语言，可用于写作（博客、知乎专栏、微信公众号）、幻灯片、专业报告、笔记等场景。搭配 Hugo、Netlify、PlantUML 等工具可构建完整的内容创作工作流，一次投资，终生受益。
+
+```mermaid
+graph LR
+    A[Markdown工作流] --> B[写作]
+    A --> C[幻灯片]
+    A --> D[专业报告]
+    A --> E[笔记]
+    B --> B1[博客]
+    B --> B2[公众号]
+    C --> C1[Reveal.js]
+    D --> D1[PanDoc转PDF]
+    E --> E1[分类管理]
+```
+
+```markmap height=280
+# Markdown 可以做什么
+## 核心用途
+- 写作：博客、知乎专栏、公众号
+- 幻灯片：Reveal.js/Hugo Slide
+- 专业报告：PanDoc 转 Latex PDF
+- 笔记：分类目录管理
+## 工作流
+- Markdown 写文章
+- git push 推送
+- Netlify 自动构建
+- 多平台同步发布
+## 工具链
+- Hugo 生成博客
+- PlantUML 绘图
+- PanDoc 转换格式
+```
+
+---
 
 ### Markdown 是什么
 

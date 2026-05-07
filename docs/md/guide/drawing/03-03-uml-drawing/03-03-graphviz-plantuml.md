@@ -1,8 +1,41 @@
 ---
 title: 使用 Graphviz 和 PlantUML 画图 · Bit●Cat
+date: 2026-05-06
 ---
 
------
+> **摘要** — Graphviz 是 PlantUML 的子集，PlantUML 支持更丰富的绘图功能且兼容 dot 语法。PlantUML 需要 JRE 运行环境，可通过命令行或 PlantUML Server 渲染图表。推荐使用 Server 方式：团队共享、渲染更快、避免中文渲染问题。
+
+```mermaid
+graph TD
+    A[Graphviz与PlantUML] --> B[Graphviz]
+    A --> C[PlantUML]
+    B --> D[dot语法]
+    C --> E[更丰富功能]
+    C --> F[兼容dot语法]
+    E --> G[Server方式]
+    G --> H[团队共享]
+    G --> I[渲染快]
+```
+
+```markmap height=280
+# Graphviz 和 PlantUML
+## 关系
+- PlantUML 包含 Graphviz
+- PlantUML 功能更丰富
+- PlantUML 兼容 dot 语法
+## 使用方式
+- 命令行
+- PlantUML Server
+## 推荐 Server
+- 团队多人使用
+- 渲染更快
+- 避免中文问题
+## 搭建
+- 依赖 JRE
+- mvn jetty:run
+```
+
+---
 
 ### 安装
 

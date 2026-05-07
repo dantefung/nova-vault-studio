@@ -1,12 +1,41 @@
 ---
 title: 我的个人写作工具链
+date: 2026-05-06
 ---
 
-&#x2D;&#x2D;&#x2D;
-title: 我的个人写作工具链
+> **摘要** — 个人写作工具链基于 SOC（关注点分离）原则，拆解为四个方面：规划设计、内容写作、文章排版、发布管理。目标是围绕打造个人"资产"，脱离平台独立抵抗风险。以 B 计划 IP 写作作为驱动力，强迫对 A 计划不停思考迭代。
 
+```mermaid
+graph TD
+    A[写作工具链] --> B[规划设计]
+    A --> C[内容写作]
+    A --> D[文章排版]
+    A --> E[发布管理]
+    B --> B1[ABZ计划]
+    E --> E1[多平台发布]
+```
 
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s/s61JRl8P-1CmTHUSlZYoQw)
+```markmap height=280
+# 个人写作工具链
+## SOC 原则
+- 关注点分离
+- 复杂问题分解
+## 四方面
+- 规划设计
+- 内容写作
+- 文章排版
+- 发布管理
+## 目标
+- 打造个人资产
+- 脱离平台独立
+## ABZ 计划
+- A 计划主业
+- B 计划 IP 写作
+```
+
+---
+
+最近在知乎上有这么一个问题，哪一件事让你意识到打工没出路？(http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s/s61JRl8P-1CmTHUSlZYoQw)
 
 最近在知乎上有这么一个问题，哪一件事让你意识到打工没出路？
 

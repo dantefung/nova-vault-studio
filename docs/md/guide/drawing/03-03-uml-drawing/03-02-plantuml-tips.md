@@ -1,12 +1,37 @@
 ---
 title: PlantUML 的几个技巧
+date: 2026-05-06
 ---
 
-&#x2D;&#x2D;&#x2D;
-title: PlantUML 的几个技巧
--
-title: Reference
+> **摘要** — PlantUML 绘图技巧：使用 rectangle、component、card 等绘制框图；支持箭头连接（`-` 和 `-->`）；可用 `as` 关键字设置别名。适合绘制流程图、架构图等。
 
+```mermaid
+graph LR
+    A[PlantUML技巧] --> B[框图绘制]
+    A --> C[箭头连接]
+    A --> D[别名设置]
+    B --> B1[rectangle]
+    B --> B2[component]
+    B --> B3[card]
+    C --> C1[-实线]
+    C --> C2[-->虚线]
+```
+
+```markmap height=280
+# PlantUML 技巧
+## 框图
+- rectangle 矩形框
+- component 组件框
+- card 卡片框
+## 箭头连接
+- - 实线箭头
+- --> 虚线箭头
+## 别名设置
+- "描述" as 别名
+- 简化引用
+```
+
+---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/wwwjr00/article/details/130415751)
 

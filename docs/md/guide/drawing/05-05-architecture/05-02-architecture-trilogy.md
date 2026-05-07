@@ -1,12 +1,44 @@
 ---
 title: 架构三部曲：架构设计方法与视图
+date: 2026-05-06
 ---
 
-&#x2D;&#x2D;&#x2D;
-title: 架构三部曲：架构设计方法与视图
+> **摘要** — 架构设计方法论：RUP 4+1 视图（逻辑、开发、物理、处理流程）和 TOGAF9 架构分类（业务、应用、数据、技术、代码、部署）。业务架构是战略，应用架构是战术，技术架构是装备。4A 视图：战略目标→业务功能→组织结构→业务流程→业务数据。
 
+```mermaid
+graph TD
+    A[架构设计] --> B[RUP 4+1视图]
+    A --> C[TOGAF9分类]
+    B --> B1[逻辑视图]
+    B --> B2[开发视图]
+    B --> B3[物理视图]
+    B --> B4[处理流程]
+    C --> C1[业务架构]
+    C --> C2[应用架构]
+    C --> C3[技术架构]
+```
 
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=Mzg2NTkxOTEzMw==&mid=2247484786&idx=1&sn=e8794f992bdb459bb53bceefea8e931d&chksm=cff527d5ce90136c4f20c499385f44e9898bc8d618f78326ffd7ece686122277eeb27a211468&mpshare=1&scene=1&srcid=091265vPJ3fmBMDJXlExKciN&sharer_shareinfo=1c856c94864e55251fc9e08a9f12d020&sharer_shareinfo_first=a671f340ac5b67dab1da9131af024d31#rd)
+```markmap height=280
+# 架构三部曲
+## RUP 4+1 视图
+- 逻辑视图：功能拆解
+- 开发视图：模块划分
+- 物理视图：硬件部署
+- 处理流程：通信时序
+## TOGAF9 分类
+- 业务架构：战略
+- 应用架构：战术
+- 技术架构：装备
+## 4A 视图
+- 为什么干：战略目标
+- 干什么：业务功能
+- 谁来干：组织结构
+- 怎么干：业务流程
+```
+
+---
+
+**一、架构设计方法的分类**(http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=Mzg2NTkxOTEzMw==&mid=2247484786&idx=1&sn=e8794f992bdb459bb53bceefea8e931d&chksm=cff527d5ce90136c4f20c499385f44e9898bc8d618f78326ffd7ece686122277eeb27a211468&mpshare=1&scene=1&srcid=091265vPJ3fmBMDJXlExKciN&sharer_shareinfo=1c856c94864e55251fc9e08a9f12d020&sharer_shareinfo_first=a671f340ac5b67dab1da9131af024d31#rd)
 
 **一、架构设计方法的分类**
 

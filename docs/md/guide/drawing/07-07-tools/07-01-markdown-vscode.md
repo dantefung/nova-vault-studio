@@ -1,8 +1,39 @@
 ---
-title: Markdown-VScode-Template
+title: Markdown VScode Template
+date: 2026-05-06
 ---
 
------------
+> **摘要** — VSCode Markdown 插件推荐：Markdown Preview Enhanced、Markdown All in One、Prettier 格式化、Draw.io 插件、Excalidraw 插件、PlantUML 插件、Mermaid 插件。支持 Draw.io 绘图插入 Markdown、Excalidraw 白板协作。
+
+```mermaid
+graph TD
+    A[VSCode Markdown工具] --> B[预览增强]
+    A --> C[绘图工具]
+    A --> D[格式化]
+    B --> B1[Markdown Preview]
+    C --> C1[Draw.io]
+    C --> C2[PlantUML]
+    C --> C3[Excalidraw]
+    C --> C4[Mermaid]
+```
+
+```markmap height=280
+# Markdown VSCode 工具
+## 插件推荐
+- Markdown Preview Enhanced
+- Markdown All in One
+- Prettier 格式化
+## 绘图插件
+- Draw.io Integration
+- Excalidraw Editor
+- PlantUML
+- Mermaid
+## 使用方式
+- *.drawio.svg 双击编辑
+- Markdown 引用图片语法
+```
+
+---
 
 [](#默认配置的-vscode-插件)
 

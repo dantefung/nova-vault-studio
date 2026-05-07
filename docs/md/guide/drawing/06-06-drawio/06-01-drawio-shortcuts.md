@@ -1,8 +1,47 @@
 ---
-title: Drawio快捷键全览_操作指南与教程
+title: Drawio快捷键全览操作指南与教程
+date: 2026-05-06
 ---
 
-----
+> **摘要** — Draw.io 快捷键大全，涵盖标签操作、选择操作、工具操作、画布操作、图形连接、文档操作、样式操作等。常用快捷键：Ctrl+S 保存、Ctrl+Z 撤销、Ctrl+G 生成组、Ctrl+R 旋转、F2 编辑等。
+
+```mermaid
+graph TD
+    A[Draw.io快捷键] --> B[标签操作]
+    A --> C[选择操作]
+    A --> D[工具操作]
+    A --> E[画布操作]
+    B --> B1[双击插入文本]
+    C --> C1[Ctrl+A全选]
+    D --> D1[Ctrl+Shift+L图层]
+    E --> E1[Space平移]
+```
+
+```markmap height=280
+# Draw.io 快捷键
+## 标签操作
+- 双击：插入文本
+- Enter：换行
+- F2：编辑文字
+## 选择操作
+- Ctrl+A：全选
+- Shift+Tab：选择上一个
+- Alt+Click：切换选中
+## 工具操作
+- Ctrl+Shift+L：图层工具栏
+- Ctrl+Shift+P：格式工具栏
+- Ctrl+K：生成正方形
+## 画布操作
+- Ctrl+X/C：剪切/拷贝
+- Ctrl+G：生成组
+- Ctrl+R：旋转 90°
+## 文档操作
+- Ctrl+S：保存
+- Ctrl+Z：撤销
+- Ctrl+Y：重做
+```
+
+---
 
 drawio 或者 [drawon](https://www.drawon.cn?useSource=csdn) 中的快捷键基本一致，如下我们按照[不同的](https://so.csdn.net/so/search?q=%E4%B8%8D%E5%90%8C%E7%9A%84&spm=1001.2101.3001.7020)类别进行归类描述。
 
