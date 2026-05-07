@@ -4,6 +4,8 @@ date: "2026-05-07"
 source: "原创"
 url: "https://github.com/yzfly/LangGPT"
 ---
+# LangGPT — 人人都能写出高质量提示词
+
 
 ![](../images/langgpt-logo.jpg)
 
