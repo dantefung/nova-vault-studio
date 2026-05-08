@@ -62,6 +62,7 @@ date: "2026-05-05"
 ## AI Agent 入门
 
 - [hello-agents](https://github.com/datawhalechina/hello-agents) — Datawhale 出品的零基础 Agent 入门教程
+  - [在线阅读](https://hello-agents.datawhale.cc/#/) — Web 版本
 - [build-coding-agent-context-engineering](https://github.com/phodal/build-coding-agent-context-engineering) — 从 Prompt 到上下文工程构建 AI Agent，零基础指南
 - [Deep Research with LangGraph](https://academy.langchain.com/courses/deep-research-with-langgraph) — LangChain Academy 免费课程，循序渐进从单 Agent 到多 Agent 系统，外部依赖极少
 - [agents.md](https://agents.md/) — AI Agent 知识导航
