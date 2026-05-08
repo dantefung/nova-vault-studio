@@ -23,6 +23,20 @@ date: "2026-05-05"
 
 ---
 
+## 内容运营技能
+
+- [内容运营人必装的4个skill（上）](https://mp.weixin.qq.com/s/kqcpZKJLJMh2EyJF3wJTbw) — Agent Reach（AI上网能力）、Marketing Skills（营销方法论提示词）、RedBox（小红书创作工具）、Scrapling（高级网页爬虫）、Maccy（剪贴板管理器）
+
+---
+
+## 设计工具 Skills
+
+- [bggg-skills](https://github.com/bggg-ai/bggg-skills) — 饼干（@bggg_ai）的 Codex Skills 仓库
+  - [bggg-creator-image2psd](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2psd) — 设计精修 Skill，将图片转换为 PSD 格式搞定设计师
+  - [bggg-creator-image2ppt](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2ppt) — 演示落地 Skill，将图片转换为 PPT 搞定做分享的人
+
+---
+
 ## 开源工具
 
 - [vibe-to-ui](https://github.com/MonkeyUI-dev/vibe-to-ui) — Agent Skills 将截图、图片、音乐转化为设计系统、动效语言和 UI 布局，支持 Claude Code、Cursor、Github Copilot
@@ -34,6 +48,7 @@ date: "2026-05-05"
 - [obsidian-wechat-converter](https://github.com/DavidLam-oss/obsidian-wechat-converter) — 将 Obsidian 笔记转换为微信公众号格式，支持标题、图片、代码块等格式转换
 - [AIHOT 选题工具](https://aihot.virxact.com) — 卡兹克开源的 AI 热点选题工具，帮助快速发现和筛选内容选题方向
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) — 生成式引擎优化智能内容工程系统，支持多模型内容生成、批量任务、知识库 RAG、审核发布工作流，基于 Laravel
+- [llm-wiki-starter](https://github.com/eleven-net-cn/llm-wiki-starter) — 一键创建 LLM Wiki 知识库，基于 Andrej Karpathy 的 LLM Wiki 模式
 
 ---
 
