@@ -15,6 +15,7 @@ date: "2026-05-08"
 | 02 | [Claude Skills 完整构建指南](02-Claude-Skills-完整构建指南.md) | 从规划到测试到分发的完整手册 |
 | 03 | [Agent Skill 五种设计模式](03-Agent-Skill-五种设计模式.md) | Tool Wrapper、Generator、Reviewer、Inversion、Pipeline（含 ADK 代码示例） |
 | 04 | [SKILL 设计模式 5 种模式](04-SKILL设计模式-5种模式.md) | 5 种模式简介版（来源：X @1024 推文） |
+| 05 | [Google ADK Agent 设计模式](05-Google-ADK-Agent-设计模式.md) | Sequential、Parallel、Coordinator、Hierarchical、Generator-Critic（架构级编排模式） |
 
 ## 参考规范
 
