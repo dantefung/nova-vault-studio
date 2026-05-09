@@ -20,9 +20,9 @@ ICIO 框架将 Prompt 简化为四个核心要素：要做什么(Instruction)、
 
 ## Related Pages
 
-- [[concepts/prompt-engineering]]
-- [[patterns/langgpt-framework]]
-- [[patterns/co-star-framework]]
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [patterns/langgpt-framework](patterns/langgpt-framework)
+- [patterns/co-star-framework](patterns/co-star-framework)
 
 ## Sources
 

@@ -20,10 +20,10 @@ LangGPT 将提示词编写从"自然语言写作"转变为"结构化编程"，�
 
 ## Related Pages
 
-- [[concepts/prompt-engineering]]
-- [[patterns/co-star-framework]]
-- [[patterns/crisp-framework]]
-- [[patterns/icio-framework]]
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [patterns/co-star-framework](patterns/co-star-framework)
+- [patterns/crisp-framework](patterns/crisp-framework)
+- [patterns/icio-framework](patterns/icio-framework)
 
 ## Sources
 

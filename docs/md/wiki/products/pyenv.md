@@ -28,7 +28,7 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[products/uv]]
+- [products/uv](products/uv)
 
 ## Sources
 

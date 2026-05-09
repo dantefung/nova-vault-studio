@@ -19,8 +19,8 @@ Agent 可读性关注的是：当 AI Agent 阅读代码库时，能否快速理�
 
 ## Related Pages
 
-- [[concepts/harness-engineering]]
-- [[patterns/context-engineering]]
+- [concepts/harness-engineering](concepts/harness-engineering)
+- [patterns/context-engineering](patterns/context-engineering)
 
 ## Sources
 

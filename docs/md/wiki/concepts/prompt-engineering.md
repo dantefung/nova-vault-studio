@@ -38,11 +38,11 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[patterns/langgpt-framework]]
-- [[patterns/co-star-framework]]
-- [[patterns/chain-of-thought]]
-- [[patterns/react-pattern]]
-- [[concepts/harness-engineering]]
+- [patterns/langgpt-framework](patterns/langgpt-framework)
+- [patterns/co-star-framework](patterns/co-star-framework)
+- [patterns/chain-of-thought](patterns/chain-of-thought)
+- [patterns/react-pattern](patterns/react-pattern)
+- [concepts/harness-engineering](concepts/harness-engineering)
 
 ## Sources
 

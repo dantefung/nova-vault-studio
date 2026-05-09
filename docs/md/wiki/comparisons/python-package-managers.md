@@ -30,8 +30,8 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[products/pyenv]]
-- [[products/uv]]
+- [products/pyenv](products/pyenv)
+- [products/uv](products/uv)
 
 ## Sources
 

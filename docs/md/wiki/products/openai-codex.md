@@ -29,10 +29,10 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[concepts/harness-engineering]]
-- [[patterns/context-engineering]]
-- [[comparisons/ai-coding-tools]]
-- [[comparisons/harness-vs-scaffolding]]
+- [concepts/harness-engineering](concepts/harness-engineering)
+- [patterns/context-engineering](patterns/context-engineering)
+- [comparisons/ai-coding-tools](comparisons/ai-coding-tools)
+- [comparisons/harness-vs-scaffolding](comparisons/harness-vs-scaffolding)
 
 ## Sources
 

@@ -25,9 +25,9 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[patterns/entropy-management]]
-- [[patterns/drift-scanner]]
-- [[concepts/harness-engineering]]
+- [patterns/entropy-management](patterns/entropy-management)
+- [patterns/drift-scanner](patterns/drift-scanner)
+- [concepts/harness-engineering](concepts/harness-engineering)
 
 ## Sources
 

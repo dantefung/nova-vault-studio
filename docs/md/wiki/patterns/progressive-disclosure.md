@@ -35,8 +35,8 @@ AGENTS.md（≤100 行，目录索引）
 
 ## Related Pages
 
-- [[patterns/context-engineering]]
-- [[concepts/harness-engineering]]
+- [patterns/context-engineering](patterns/context-engineering)
+- [concepts/harness-engineering](concepts/harness-engineering)
 
 ## Sources
 

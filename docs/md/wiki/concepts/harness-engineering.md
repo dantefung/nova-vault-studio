@@ -38,11 +38,11 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[patterns/context-engineering]]
-- [[patterns/architectural-constraints]]
-- [[patterns/entropy-management]]
-- [[comparisons/harness-vs-scaffolding]]
-- [[comparisons/ai-coding-tools]]
+- [patterns/context-engineering](patterns/context-engineering)
+- [patterns/architectural-constraints](patterns/architectural-constraints)
+- [patterns/entropy-management](patterns/entropy-management)
+- [comparisons/harness-vs-scaffolding](comparisons/harness-vs-scaffolding)
+- [comparisons/ai-coding-tools](comparisons/ai-coding-tools)
 
 ## Sources
 

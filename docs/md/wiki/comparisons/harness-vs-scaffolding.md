@@ -29,10 +29,10 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[concepts/harness-engineering]]
-- [[patterns/context-engineering]]
-- [[products/openai-codex]]
-- [[products/claude-code]]
+- [concepts/harness-engineering](concepts/harness-engineering)
+- [patterns/context-engineering](patterns/context-engineering)
+- [products/openai-codex](products/openai-codex)
+- [products/claude-code](products/claude-code)
 
 ## Sources
 

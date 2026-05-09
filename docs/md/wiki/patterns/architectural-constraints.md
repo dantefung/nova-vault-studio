@@ -29,9 +29,9 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[concepts/harness-engineering]]
-- [[patterns/context-engineering]]
-- [[patterns/entropy-management]]
+- [concepts/harness-engineering](concepts/harness-engineering)
+- [patterns/context-engineering](patterns/context-engineering)
+- [patterns/entropy-management](patterns/entropy-management)
 
 ## Sources
 

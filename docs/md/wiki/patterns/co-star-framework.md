@@ -20,9 +20,9 @@ CO-STAR 框架要求 Prompt 包含：上下文(Context)、目标(Objective)、�
 
 ## Related Pages
 
-- [[concepts/prompt-engineering]]
-- [[patterns/langgpt-framework]]
-- [[patterns/crisp-framework]]
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [patterns/langgpt-framework](patterns/langgpt-framework)
+- [patterns/crisp-framework](patterns/crisp-framework)
 
 ## Sources
 

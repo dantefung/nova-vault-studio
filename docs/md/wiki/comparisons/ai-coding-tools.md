@@ -32,10 +32,10 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[concepts/harness-engineering]]
-- [[products/claude-code]]
-- [[products/openai-codex]]
-- [[comparisons/harness-vs-scaffolding]]
+- [concepts/harness-engineering](concepts/harness-engineering)
+- [products/claude-code](products/claude-code)
+- [products/openai-codex](products/openai-codex)
+- [comparisons/harness-vs-scaffolding](comparisons/harness-vs-scaffolding)
 
 ## Sources
 

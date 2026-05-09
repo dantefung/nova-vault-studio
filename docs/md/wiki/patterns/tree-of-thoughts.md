@@ -20,9 +20,9 @@ ToT 允许模型在推理过程中生成多个可能的"思维"分支，评估�
 
 ## Related Pages
 
-- [[patterns/chain-of-thought]]
-- [[concepts/prompt-engineering]]
-- [[concepts/agentic-architectures]]
+- [patterns/chain-of-thought](patterns/chain-of-thought)
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [concepts/agentic-architectures](concepts/agentic-architectures)
 
 ## Sources
 

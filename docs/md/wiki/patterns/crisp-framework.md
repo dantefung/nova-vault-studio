@@ -20,9 +20,9 @@ CRISP 框架通过特定的提示结构，引导 LLM 不仅给出答案，还要
 
 ## Related Pages
 
-- [[concepts/prompt-engineering]]
-- [[patterns/co-star-framework]]
-- [[patterns/langgpt-framework]]
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [patterns/co-star-framework](patterns/co-star-framework)
+- [patterns/langgpt-framework](patterns/langgpt-framework)
 
 ## Sources
 

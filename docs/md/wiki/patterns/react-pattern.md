@@ -20,9 +20,9 @@ ReAct 模式让模型在推理过程中可以调用搜索引擎、API、数据�
 
 ## Related Pages
 
-- [[patterns/chain-of-thought]]
-- [[concepts/prompt-engineering]]
-- [[concepts/agentic-architectures]]
+- [patterns/chain-of-thought](patterns/chain-of-thought)
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [concepts/agentic-architectures](concepts/agentic-architectures)
 
 ## Sources
 

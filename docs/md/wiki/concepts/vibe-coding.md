@@ -28,9 +28,9 @@ Vibe Coding 强调用自然语言与 AI 协作，快速将想法转化为可运�
 
 ## Related Pages
 
-- [[concepts/prompt-engineering]]
-- [[products/claude-code]]
-- [[products/openai-codex]]
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [products/claude-code](products/claude-code)
+- [products/openai-codex](products/openai-codex)
 
 ## Sources
 

@@ -41,10 +41,10 @@ AGENTS.md（≤100 行，目录索引）
 
 ## Related Pages
 
-- [[concepts/harness-engineering]]
-- [[patterns/architectural-constraints]]
-- [[products/claude-code]]
-- [[products/openai-codex]]
+- [concepts/harness-engineering](concepts/harness-engineering)
+- [patterns/architectural-constraints](patterns/architectural-constraints)
+- [products/claude-code](products/claude-code)
+- [products/openai-codex](products/openai-codex)
 
 ## Sources
 

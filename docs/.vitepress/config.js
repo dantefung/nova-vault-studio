@@ -125,6 +125,34 @@ export default defineConfig({
       '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/'),
       '/md/agi/': generateSidebar('docs/md/agi', '/md/agi/'),
       '/md/books/': generateBookNavItems('docs/md/books', '/md/books/'),
+      '/md/wiki/': [
+        {
+          text: 'Wiki 知识库',
+          items: [
+            { text: '知识库总览', link: '/md/wiki/' },
+          ]
+        },
+        {
+          text: '核心概念',
+          collapsed: false,
+          items: generateSidebar('docs/md/wiki/concepts', '/md/wiki/concepts/')
+        },
+        {
+          text: '模式与方法论',
+          collapsed: false,
+          items: generateSidebar('docs/md/wiki/patterns', '/md/wiki/patterns/')
+        },
+        {
+          text: '产品与工具',
+          collapsed: false,
+          items: generateSidebar('docs/md/wiki/products', '/md/wiki/products/')
+        },
+        {
+          text: '对比分析',
+          collapsed: false,
+          items: generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/')
+        }
+      ],
       '/md/wiki/concepts/': generateSidebar('docs/md/wiki/concepts', '/md/wiki/concepts/'),
       '/md/wiki/patterns/': generateSidebar('docs/md/wiki/patterns', '/md/wiki/patterns/'),
       '/md/wiki/products/': generateSidebar('docs/md/wiki/products', '/md/wiki/products/'),

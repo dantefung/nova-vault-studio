@@ -39,10 +39,10 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[concepts/harness-engineering]]
-- [[patterns/react-pattern]]
-- [[patterns/tree-of-thoughts]]
-- [[patterns/chain-of-thought]]
+- [concepts/harness-engineering](concepts/harness-engineering)
+- [patterns/react-pattern](patterns/react-pattern)
+- [patterns/tree-of-thoughts](patterns/tree-of-thoughts)
+- [patterns/chain-of-thought](patterns/chain-of-thought)
 
 ## Sources
 

@@ -20,9 +20,9 @@ CoT 通过在提示中要求模型逐步推理，将复杂问题分解为可管�
 
 ## Related Pages
 
-- [[concepts/prompt-engineering]]
-- [[patterns/react-pattern]]
-- [[patterns/tree-of-thoughts]]
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [patterns/react-pattern](patterns/react-pattern)
+- [patterns/tree-of-thoughts](patterns/tree-of-thoughts)
 
 ## Sources
 

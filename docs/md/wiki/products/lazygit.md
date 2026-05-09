@@ -30,8 +30,8 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[products/yazi]]
-- [[products/uv]]
+- [products/yazi](products/yazi)
+- [products/uv](products/uv)
 
 ## Sources
 

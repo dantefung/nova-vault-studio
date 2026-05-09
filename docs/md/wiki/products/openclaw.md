@@ -32,8 +32,8 @@ date: "2026-05-09"
 
 ## Related Pages
 
-- [[concepts/prompt-engineering]]
-- [[products/claude-code]]
+- [concepts/prompt-engineering](concepts/prompt-engineering)
+- [products/claude-code](products/claude-code)
 
 ## Sources
 
