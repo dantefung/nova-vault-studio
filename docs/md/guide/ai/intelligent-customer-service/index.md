@@ -155,6 +155,7 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 | [多智能体架构设计 v2](./multi-agent-v2.md) | 框架深度对比 | LangGraph vs CrewAI 深度对比、混合架构、决策树 |
 | [技术选型对比 v2](./tech-comparison-v2.md) | 2026 模型选型 | DeepSeek R1(Qwen3 许可证、AWS Bedrock |
 | [生产部署指南 v2](./production-deployment-v2.md) | 行业基准与验收 | LangSmith、行业指标(85%+准确率)、Budget Guard |
+| [架构演进路径（基于 Dify）](./architecture-evolution.md) | Dify→完整架构 | 六维优化空间、四阶段演进路径、九层架构图、NotebookLM 对照 |
 
 ---
 
