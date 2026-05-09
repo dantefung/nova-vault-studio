@@ -1,0 +1,50 @@
+---
+title: "---"
+date: "2026-05-09"
+---
+
+---
+title: "Wiki 操作日志"
+date: "2026-05-09"
+---
+
+# Wiki 操作日志
+
+---
+
+## 2026-05-09: Ingest docs/md/guide
+
+**Source**: docs/md/guide (directory)
+**New pages**: 28
+- concepts/harness-engineering.md
+- concepts/prompt-engineering.md
+- concepts/agentic-architectures.md
+- concepts/vibe-coding.md
+- patterns/context-engineering.md
+- patterns/architectural-constraints.md
+- patterns/entropy-management.md
+- patterns/agent-readability.md
+- patterns/progressive-disclosure.md
+- patterns/drift-scanner.md
+- patterns/gc-agent.md
+- patterns/chain-of-thought.md
+- patterns/react-pattern.md
+- patterns/tree-of-thoughts.md
+- patterns/langgpt-framework.md
+- patterns/co-star-framework.md
+- patterns/crisp-framework.md
+- patterns/icio-framework.md
+- products/claude-code.md
+- products/openai-codex.md
+- products/openclaw.md
+- products/lazygit.md
+- products/yazi.md
+- products/uv.md
+- products/pyenv.md
+- products/context7.md
+- comparisons/harness-vs-scaffolding.md
+- comparisons/ai-coding-tools.md
+- comparisons/python-package-managers.md
+
+**Updated pages**: index.md, log.md
+**New cross-references**: 85+ cross-references established across all pages

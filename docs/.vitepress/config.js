@@ -104,6 +104,16 @@ export default defineConfig({
       {
         text: 'AGI',
         items: generateNavItems('docs/md/agi', '/md/agi/')
+      },
+      {
+        text: 'Wiki',
+        items: [
+          { text: '知识库总览', link: '/md/wiki/' },
+          { text: '核心概念', link: '/md/wiki/concepts/' },
+          { text: '模式与方法论', link: '/md/wiki/patterns/' },
+          { text: '产品与工具', link: '/md/wiki/products/' },
+          { text: '对比分析', link: '/md/wiki/comparisons/' },
+        ]
       }
     ],
     sidebar: {
@@ -115,6 +125,10 @@ export default defineConfig({
       '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/'),
       '/md/agi/': generateSidebar('docs/md/agi', '/md/agi/'),
       '/md/books/': generateBookNavItems('docs/md/books', '/md/books/'),
+      '/md/wiki/concepts/': generateSidebar('docs/md/wiki/concepts', '/md/wiki/concepts/'),
+      '/md/wiki/patterns/': generateSidebar('docs/md/wiki/patterns', '/md/wiki/patterns/'),
+      '/md/wiki/products/': generateSidebar('docs/md/wiki/products', '/md/wiki/products/'),
+      '/md/wiki/comparisons/': generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/'),
       ...generateSidebarMappingForSubdirectories('docs/md/books', '/md/books/'),
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/')
