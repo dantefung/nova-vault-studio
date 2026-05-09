@@ -119,6 +119,61 @@ date: "2026-05-05"
 
 ---
 
+## lovstudio 技能集
+
+> 安装命令：`npx skills add lovstudio/skills`，22 个技能，涵盖图片生成、PPT/PDF 生成、防微信 AI 检测、内容运营等。仓库：[github.com/lovstudio/skills](https://github.com/lovstudio/skills)，欢迎 star。
+
+### Office Automation（办公自动化）
+
+| 技能 | 说明 |
+|------|------|
+| [any2pdf](https://github.com/lovstudio/skills/tree/main/any2pdf) | Markdown 转专业排版 PDF，支持 CJK/LaTeX/水印/多主题 |
+| [any2docx](https://github.com/lovstudio/skills/tree/main/any2docx) | Markdown 转 Word（.docx），支持代码块/表格/封面 |
+| [any2deck](https://github.com/lovstudio/skills/tree/main/any2deck) | 内容转幻灯片，支持 16 种视觉风格 |
+| [pdf2png](https://github.com/lovstudio/skills/tree/main/pdf2png) | PDF 转单张拼接长图（macOS/CoreGraphics） |
+| [png2svg](https://github.com/lovstudio/skills/tree/main/png2svg) | PNG 矢量化，支持白底去除/svgo 压缩 |
+| [fill-form](https://github.com/lovstudio/skills/tree/main/fill-form) | Word 表单模板自动填写 |
+| [fill-web-form](https://github.com/lovstudio/skills/tree/main/fill-web-form) | 网页表单自动填写（从本地知识库匹配） |
+
+### Content Creation（内容创作）
+
+| 技能 | 说明 |
+|------|------|
+| [image-creator](https://github.com/lovstudio/skills/tree/main/image-creator) | AI 图片生成（Gemini/ZenMux/代码渲染三模式） |
+| [wxmp-cracker](https://github.com/lovstudio/skills/tree/main/wxmp-cracker) | 微信公众号文章抓取与导出，自动处理登录态 |
+| [anti-wechat-ai-check](https://github.com/lovstudio/skills/tree/main/anti-wechat-ai-check) | 微信 AI 检测规避与人性化润色 |
+| [document-illustrator](https://github.com/lovstudio/skills/tree/main/document-illustrator) | 为文档自动插入 AI 配图/插图 |
+| [style-clone](https://github.com/lovstudio/skills/tree/main/style-clone) | 文风克隆，分析样本文章后按相同风格改写 |
+| [write-professional-book](https://github.com/lovstudio/skills/tree/main/write-professional-book) | 多章节书籍写作，支持大纲/逐章/最终构建 |
+
+### Business（商务）
+
+| 技能 | 说明 |
+|------|------|
+| [proposal](https://github.com/lovstudio/skills/tree/main/proposal) | 商务方案生成，从需求文档输出完整报价方案 |
+| [expense-report](https://github.com/lovstudio/skills/tree/main/expense-report) | 发票图片提取 + 报销 Excel 生成 |
+| [contract-review-pro](https://github.com/lovstudio/skills/tree/main/contract-review-pro) | 合同四层评审，输出结构化意见 + 风险图 |
+| [event-curator](https://github.com/lovstudio/skills/tree/main/event-curator) | 嘉宾活动策划，从嘉宾背景生成完整策划案 |
+
+### Design（设计）
+
+| 技能 | 说明 |
+|------|------|
+| [event-poster](https://github.com/lovstudio/skills/tree/main/event-poster) | 活动海报生成，输出印刷级 PNG |
+| [find-logo](https://github.com/lovstudio/skills/tree/main/find-logo) | 品牌 Logo 发现与抓取，支持 Clearbit/og:image |
+| [maintain-partners](https://github.com/lovstudio/skills/tree/main/maintain-partners) | 合作伙伴 Logo 标准化与维护（高度对齐/颜色统一） |
+
+### Academic（学术）
+
+| 技能 | 说明 |
+|------|------|
+| [thesis-polish](https://github.com/lovstudio/skills/tree/main/thesis-polish) | MBA/学位论文润色至全国优秀论文水平 |
+| [translation-review](https://github.com/lovstudio/skills/tree/main/translation-review) | 中译英翻译审校，输出结构化评审报告 |
+
+> ⚠️ Security Note：`event-poster`/`event-curator`/`wxmp-cracker` 标记为 High Risk（内容生成类），`proposal`/`contract-review-pro` 标记为 Med Risk。使用前建议 review 代码。
+
+---
+
 ## 其他
 
 - [Involution Hell](https://involutionhell.vercel.app/) — AI 学习资源导航
