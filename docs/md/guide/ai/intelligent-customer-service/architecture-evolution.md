@@ -99,11 +99,62 @@ Dify 的 Question Classifier 只返回类别，不返回置信度。这意味着
 
 ### 6. 没有回退机制和逃生舱
 
-任何专家 Agent 在工具调用失败、超时、或回答质量下降时，你的系统没有自动回退到通用路径。在 LangGraph 体系里这是通过 `recursion_limit` 和 `Budget Guard` 控制的，你的 Dify 工作流目前看不到这个层。
+Dify 的 Error Handling 节点支持 Retry on Failure（最多 10 次重试 + 可配置间隔）+ Fail Branch（预设回退路径），相当于轻量级的 Circuit Breaker。工具调用失败、超时、LLM 异常都可以触发分支回退。**这其实是 Dify 的强项**，不是缺口。
+
+### 7. Agent 跳过工具执行、模拟成功（幻觉）
+
+这是 Dify 一个已知的间歇性 bug（Issue #31722）：Agent 有时会跳过实际工具调用，自己「编一个成功结果」而不是真实执行（无操作但返回成功）。解决方案：System Prompt 必须强制要求输出 `action`+`action_input` 的 JSON 格式；增加独立的验证节点（LLM）确认工具返回的结果是否和 Agent 声称的一致。
+
+### 8. 记忆隔离问题（专家 Agent 上下文污染）
+
+当前多 Agent Chatflow 共享整个对话历史，导致不同领域的 Agent 看到不相关的上下文后产生幻觉。Issue #21640 已提出 Per Node Memory 需求，目前 Dify 仍未原生支持。**Workaround**：每个专家 Agent 拆成独立 Chatflow App，通过 API 调用串联——每个 App 有独立 Memory，历史互不污染。
+
+### 9. 安全防护层（Prompt 注入 / 内容审核）
+
+Dify 提供三层安全原生能力：
+- **内置 Moderation Tool**：OpenAI Moderation API + 自定义敏感词 / 关键词过滤，Input/Output 双审核
+- **API Extension 审核点**：`app.moderation.input` + `app.moderation.output`，可对接任何审核服务
+- **Marketplace 安全插件**：Palo Alto Networks AI Runtime Security（企业级 WAF 级别）、OpenGuardrails（OWASP LLM Top10 防护 + 22 条内置安全规则）、Azure AI Content Safety（文本+图片审核，支持 Docker 私有化部署）
+
+### 10. 多模型协作降幻觉
+
+Dify 支持动态模型路由，可以把 DeepSeek-R1（强推理，幻觉率 12.7%）和 Gemini（低幻觉，<4.3%）串联成 Pipeline：**DeepSeek-R1 负责推理规划 → Gemini 负责最终输出**。测试数据显示综合准确率提升 17.5%，幻觉率降低 67.3%。
+
+### 11. 人工转接（Human Escalation）
+
+Dify 没有内置「转人工」节点，但可以通过 **LLM 节点识别转人工意图** → **HTTP Request 节点调用企业 IM 的 Webhook**（企微/钉钉）→ 携带完整上下文（Conversation Variable 写入用户历史、意图类型、已收集的关键字段）。Conversation Context 通过 Variable 传递，不丢失。
+
+### 12. Annotation Reply（人工审核回复库）
+
+Dify 内置 Annotation Reply 功能，可以预置高质量问答对。当用户问题与 Annotation 相似度超过阈值时，**直接返回人工预置答案**，不触发 AI 生成。这是减少高风险问题幻觉的利器——保险条款、法律问题、精确报价等不允许出错的场景，Annotation 是最稳定的兜底。
 
 ---
 
-## 二、现状 vs 目标：架构对比图
+## 二、Dify 能做什么：完整能力对照表
+
+| 优化空间 | Dify 能力 | 版本/方式 | 备注 |
+|---------|----------|----------|------|
+| 意图分类+置信度 | ✅ LLM节点输出结构化JSON | 任意版本 | 输出 `{intent, confidence}` |
+| 复合意图并行 | ✅ Parallel节点 + 合并LLM | 任意版本 | 单意图+复合意图均可 |
+| 大小模型分离 | ✅ 节点级模型选择 | 任意版本 | 意图用gptnano，专家用GPT-4o |
+| 跨域上下文传递 | ✅ Conversation Variable | 任意版本 | 共享 order_id/refund 等 |
+| 工具超时回退 | ✅ Error Handling Retry + Fail Branch | v0.14.2+ | max=10次重试 |
+| 可观测性 | ✅ 原生集成 Langfuse | 任意版本 | Tracing + 节点级耗时 |
+| 记忆分层 | ✅ 短期（Memory）+ 长期（Annotation/Knowledge） | 1.7+ | 还有 Per Node Memory 需求未上线 |
+| 知识库权限隔离 | ✅ 三级权限（仅所有者/指定成员/全员） | 1.8+ | 天然对应「哪些Agent能读哪些知识」 |
+| 定时主动任务 | ✅ 计划任务型Agent（cron） | 1.7+ | 可做催单/回访提醒 |
+| 工具链组合 | ✅ 自动编排多步工具链 | 1.7+ | 查询→图表→邮件 |
+| 多模型协作降幻觉 | ✅ 动态模型路由 Pipeline | 任意版本 | DeepSeek-R1推理 + Gemini输出 |
+| Prompt注入防护 | ✅ Marketplace多插件（OpenGuardrails/Palo Alto/Azure） | 插件市场 | OWASP LLM Top10、企业级WAF |
+| 内容审核（Input/Output） | ✅ Moderation Tool + API Extension | 内置 | OpenAI + 自定义关键词 |
+| 人工转接 | ⚠️ LLM识别 + HTTP Request调用企微/钉钉Webhook | 需开发 | Conversation Variable传上下文 |
+| Annotation Reply | ✅ 内置 Annotation Reply | 内置 | 高风险问题直接返回预置答案 |
+| Agent工具调用假成功 | ⚠️ System Prompt约束 + 验证节点 | 需工程化 | Issue #31722，已知bug |
+| 记忆隔离（Per Node） | ❌ 未原生支持 | 建议Workaround | 拆成独立Chatflow App隔离Memory |
+| 动态工具Masking（系统层） | ❌ Issue #27887，团队评审中 | 未上线 | 当前靠Prompt约束 |
+| 富权限上下文传递 | ❌ 只传user_id | 未支持 | 工具拿不到用户角色/部门 |
+
+**Dify 可覆盖 12/17 项，真正做不到的只有 3 项**（Per Node Memory、动态工具Masking系统层、富权限上下文传递）。
 
 ### 现状架构（第一阶段前）
 
