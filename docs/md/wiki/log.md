@@ -35,6 +35,28 @@ date: "2026-05-09"
 
 ---
 
+## 2026-05-09: 勘误 cc-connect 文档
+
+**Source**: https://github.com/chenhg5/cc-connect (原始仓库 chenhg5/cc-connect)
+**Corrected pages**: 2
+- guide/ai/claude-code/cc-connect-多项目配置指南.md — 全面重写
+- wiki/products/cc-connect.md — 同步修正
+
+**勘误摘要**:
+- 仓库 URL: libukai/cc-connect → chenhg5/cc-connect
+- 技术栈: Node.js+pnpm → Go 二进制+npm/Homebrew
+- 配置格式: YAML → TOML
+- AI 助手: 4→10+ (新增 Qoder/OpenCode/iFlow/Kimi/Pi/ACP/Devin，移除错误项)
+- 消息平台: 5→11 (新增微博/LINE/个人微信/QQ/QQ Bot，企业微信从规划中→已支持)
+- 审核系统: 虚构的 approval YAML → 实际的 `/mode yolo/default`
+- 指令系统: 虚构的 `/approve` `/reject` → 实际的 `/new` `/list` `/switch` `/dir` `/model` `/mode` `/cron`
+- 同步模式: 虚构的 stream/batch → 实际的 display mode (full/compact/quiet)
+- 安装方式: git clone+pnpm install → npm install -g / brew install / 二进制下载
+- 项目配置: 目录式 projects/ → TOML [[projects]] 段落式
+- 新增: Web UI 配置、Provider 管理、生命周期钩子、OS 用户隔离、附件回传
+
+---
+
 ## 2026-05-09: Ingest docs/md/guide
 
 **Source**: docs/md/guide (directory)
