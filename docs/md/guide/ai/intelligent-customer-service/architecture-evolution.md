@@ -6,8 +6,72 @@ url: ""
 ---
 
 > 研究时间：2026-05-10 | 所属领域：智能客服系统建设 | 研究对象类型：技术架构演进
+> 现有架构：LLM节点(gptnano) → IF分支 → 专家Agent(MCP+LightRAG)
 
 # 多专家 Agent 架构演进路径 — 从 Dify 到完整智能客服系统
+
+## 零、你当前架构（现有系统）
+
+```mermaid
+flowchart TD
+    %% 用户入口
+    USER["👤 用户进线<br/>(企微/网页/电话)"]
+
+    %% 意图识别层
+    IR["🔍 前置意图识别节点<br/>LLM 节点 (gptnano)"]
+    IR_DESC["⚡ 小模型快而准<br/>输出: {意图, 置信度}"]
+
+    %% 路由分发层
+    IF["⚖️ IF 节点<br/>条件分支路由"]
+    IF_DESC["根据意图类型<br/>分发到专家 Agent"]
+
+    %% 专家 Agents
+    EXP_AFTERSALE["🔧 售后 Agent<br/>├─ MCP工具(CRM/工单)<br/>└─ LightRAG(退货政策)"]
+    EXP_TECH["🖥️ 技术 Agent<br/>├─ MCP工具(知识库/文档)<br/>└─ LightRAG"]
+    EXP_FINANCE["💰 财务 Agent<br/>├─ MCP工具(支付/退款API)<br/>└─ LightRAG"]
+    EXP_FALLBACK["🌐 通用兜底 Agent<br/>└─ Web搜索(只读)"]
+    EXP_ESCALATE["👨‍💻 转人工<br/>(置信度过低时触发)"]
+
+    %% 用户 → 意图识别
+    USER --> IR
+    IR --> IR_DESC
+
+    %% 意图识别 → IF路由
+    IR --> IF
+    IF --> IF_DESC
+
+    %% IF分发到各专家Agent
+    IF -->|"意图: 退货/物流/售后"| EXP_AFTERSALE
+    IF -->|"意图: 技术/使用/故障"| EXP_TECH
+    IF -->|"意图: 账单/退款/支付"| EXP_FINANCE
+    IF -->|"意图: 闲聊/模糊查询"| EXP_FALLBACK
+    IF -->|"置信度 < 阈值"| EXP_ESCALATE
+
+    %% 各Agent → 用户
+    EXP_AFTERSALE --> USER
+    EXP_TECH --> USER
+    EXP_FINANCE --> USER
+    EXP_FALLBACK --> USER
+    EXP_ESCALATE --> USER
+
+    %% 样式
+    style USER fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
+    style IR fill:#fff3e0,stroke:#e65100,color:#bf360c
+    style IR_DESC fill:#fff8e1,stroke:#f9a825,color:#f57f17
+    style IF fill:#f3e5f5,stroke:#7b1fa2,color:#6a1b9a
+    style IF_DESC fill:#f3e5f5,stroke:#7b1fa2,color:#6a1b9a
+    style EXP_AFTERSALE fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
+    style EXP_TECH fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
+    style EXP_FINANCE fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
+    style EXP_FALLBACK fill:#fce4ec,stroke:#c62828,color:#b71c1c
+    style EXP_ESCALATE fill:#ffecb3,stroke:#f57f17,color:#e65100
+```
+
+> **现有架构特点**：
+> - **意图识别**：使用 LLM 节点 + gptnano 模型（小而快），输出结构化 `{意图类别, 置信度}`
+> - **路由分发**：IF 节点做硬编码条件分支，非 A 即 B
+> - **专家 Agent**：每个 Agent 绑定专属 MCP 工具 + LightRAG 知识库
+> - **转人工**：仅在置信度低于阈值时触发
 
 ## 一、你当前架构的优化空间
 
