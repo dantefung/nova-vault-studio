@@ -21,6 +21,20 @@ date: "2026-05-09"
 
 ---
 
+## 2026-05-09: Ingest intelligent-customer-service, prompt-hub, cc-connect
+
+**Source**: docs/md/guide/ai/intelligent-customer-service/, docs/md/guide/ai/prompt-hub/, docs/md/guide/ai/claude-code/
+**New pages**: 4
+- patterns/intelligent-customer-service.md
+- patterns/rag-failure-patterns.md
+- products/cc-connect.md
+- products/prompt-hub.md
+
+**Updated pages**: index.md, log.md
+**New cross-references**: 8 cross-references added
+
+---
+
 ## 2026-05-09: Ingest docs/md/guide
 
 **Source**: docs/md/guide (directory)

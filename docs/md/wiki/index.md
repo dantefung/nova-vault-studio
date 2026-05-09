@@ -39,6 +39,8 @@ date: "2026-05-09"
 | [Agent Skill 设计模式](patterns/agent-skill-design-patterns) | Tool Wrapper、Generator、Reviewer、Inversion、Pipeline 五种模式 |
 | [Skill 构建指南](patterns/skill-building-guide) | 从规划到测试到分发的完整 Skill 构建手册 |
 | [Google ADK Agent 模式](patterns/google-adk-agent-patterns) | Sequential、Parallel、Coordinator、Hierarchical、Generator-Critic |
+| [智能客服系统建设](patterns/intelligent-customer-service) | 从零构建智能客服的五步流程与技术选型 |
+| [RAG 常见失败模式](patterns/rag-failure-patterns) | 提示词注入、上下文失效、跨文档推理、窗口溢出四种失败模式 |
 
 ## Products（产品与工具）
 
@@ -53,6 +55,8 @@ date: "2026-05-09"
 | [uv](products/uv) | 超快 Python 包管理器 |
 | [pyenv](products/pyenv) | Python 版本管理工具 |
 | [Context7](products/context7) | 实时获取库文档的 MCP 工具 |
+| [cc-connect](products/cc-connect) | 连接 AI 编程助手与消息平台的开源工具 |
+| [Prompt Hub](products/prompt-hub) | 提示词中心，收录精选模板和画图提示词 |
 
 ## Comparisons（对比分析）
 
