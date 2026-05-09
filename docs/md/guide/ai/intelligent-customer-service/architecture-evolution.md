@@ -103,6 +103,175 @@ Dify 的 Question Classifier 只返回类别，不返回置信度。这意味着
 
 ---
 
+## 二、现状 vs 目标：架构对比图
+
+### 现状架构（第一阶段前）
+
+```mermaid
+flowchart TD
+    USER["👤 用户进线"]
+
+    IR["🔍 LLM节点(gptnano)\n意图识别"]
+    IF["⚖️ IF节点\n条件分支"]
+
+    EXP1["🔧 售后Agent\nMCP+LightRAG"]
+    EXP2["🖥️ 技术Agent\nMCP+LightRAG"]
+    EXP3["💰 财务Agent\nMCP+LightRAG"]
+    EXP4["🌐 兜底Agent\nWeb搜索"]
+    EXP5["👨‍💻 转人工"]
+
+    USER --> IR --> IF
+    IF -->|"A"| EXP1
+    IF -->|"B"| EXP2
+    IF -->|"C"| EXP3
+    IF -->|"D"| EXP4
+    IF -->|"低置信"| EXP5
+    EXP1 --> USER
+    EXP2 --> USER
+    EXP3 --> USER
+    EXP4 --> USER
+    EXP5 --> USER
+
+    style IR fill:#fff3e0,stroke:#e65100,color:#bf360c
+    style IF fill:#f3e5f5,stroke:#7b1fa2
+```
+
+**现状特征**：
+
+- ❌ 无置信度动态阈值
+- ❌ 无复合意图并行处理
+- ❌ 无专家 Agent Sandbox 隔离
+- ❌ 无跨域上下文传递
+- ❌ 无记忆层
+- ❌ 无可观测性
+
+### 目标架构（第四阶段完成后）
+
+```mermaid
+flowchart TB
+    %% 用户入口
+    USER["👤 用户进线\n(企微/网页/电话)"]
+
+    subgraph SECURITY["🔒 SECURITY LAYER · 安全防护层"]
+        WAF["🔍 WAF关键词过滤"]
+        SEMANTIC["🧠 语义过滤\n(Llama Firewall)"]
+        DUAL_LLM["⚖️ 双LLM协作\nFilter-LLM + Generation-LLM"]
+        WAF --> SEMANTIC --> DUAL_LLM
+    end
+
+    subgraph ROUTER["🧭 ROUTER LAYER · 路由层 (gptnano / 小模型)"]
+        IR["🔍 意图分类+置信度\n输出:{意图,置信度,推理}"]
+        DECOMPOSE["📋 意图分解\n识别单意图/复合意图"]
+        CLARIFY["❓ 低置信追问\n信息收集后再分类"]
+        IR --> DECOMPOSE
+        DECOMPOSE -->|"单意图"| CLARIFY
+        DECOMPOSE -->|"复合意图"| PARALLEL_GATE["⚡ 并行分发"]
+    end
+
+    subgraph EXPERTS["👥 EXPERT AGENTS · 专家Agent群 (并行触发)"]
+        EXP_AS["🔧 售后Agent\nCRM/工单 MCP\n退货政策 RAG\n⚠️ Sandbox"]
+        EXP_T["🖥️ 技术Agent\n文档库 MCP\nLightRAG\n⚠️ Sandbox"]
+        EXP_F["💰 财务Agent\n支付API MCP\n退款API MCP\n⚠️ Sandbox"]
+        EXP_G["🌐 兜底Agent\nWeb搜索(只读)"]
+    end
+
+    subgraph KNOWLEDGE["📚 KNOWLEDGE LAYER · 知识层"]
+        VDB["🔎 Vector检索\n(RAG)"]
+        KG["🕸️ 知识图谱\n(GraphRAG)"]
+        DB["🏦 结构化数据\nNeo4j/Redis"]
+    end
+
+    subgraph SYNTH["🔄 SYNTHESIZER LAYER · 合成层"]
+        MERGE["🔀 多Agent结果合并"]
+        CONSISTENCY["✅ 一致性检查"]
+        AUDIT["🔍 Output Audit\n(幻觉检测)"]
+        MERGE --> CONSISTENCY --> AUDIT
+    end
+
+    subgraph MEMORY["💾 MEMORY LAYER · 记忆层"]
+        SHORT["⚡ 会话记忆\n(50-100轮)"]
+        LONG["📅 跨会话记忆\n(Mem0/向量)"]
+        SHORT --> LONG
+    end
+
+    subgraph OBS["📊 OBSERVABILITY LAYER · 可观测性层"]
+        TRACE["🔎 Tracing\nLangSmith"]
+        METRICS["📈 指标监控\nP99延迟/转人工率"]
+        ALERT["🚨 告警\n置信度/超时"]
+        TRACE --> METRICS --> ALERT
+    end
+
+    subgraph ESCALATE["👨‍💻 HUMAN ESCALATION · 人工介入"]
+        LOW_CONF["❌ 置信度<阈值\n→ 人工+上下文"]
+        SHADOW["👻 Shadow Mode\nAI草稿→人工确认"]
+        SHADOW --> LOW_CONF
+    end
+
+    %% 数据流
+    USER --> SECURITY
+    SECURITY --> ROUTER
+    MEMORY --> ROUTER
+
+    ROUTER -->|"单意图→单Agent"| EXPERTS
+    ROUTER -->|"复合意图→多Agent并行"| EXPERTS
+    PARALLEL_GATE --> EXPERTS
+
+    EXPERTS --> KNOWLEDGE
+    EXPERTS --> SYNTH
+
+    SYNTH --> LOW_CONF
+    SYNTH --> OBS
+    LOW_CONF --> USER
+
+    %% 新增能力标记
+    EXP_AS -.->|"新: Sandbox隔离"| TAG_SANDBOX["🛡️ Sandbox"]
+    EXPERTS -.->|"新: 超时回退"| TAG_TIMEOUT["⏱️ Circuit Breaker"]
+    ROUTER -.->|"新: 置信度驱动"| TAG_CONF["📊 置信度动态阈值"]
+    SYNTH -.->|"新: 跨域上下文传递"| TAG_CTX["🔗 共享上下文变量"]
+    MEMORY -.->|"新: 跨会话记忆"| TAG_MEM["💾 Mem0"]
+
+    style USER fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
+    style SECURITY fill:#ffebee,stroke:#c62828
+    style ROUTER fill:#fff3e0,stroke:#e65100,color:#bf360c
+    style EXPERTS fill:#e3f2fd,stroke:#1565c0,color:#0d47a1
+    style KNOWLEDGE fill:#f3e5f5,stroke:#7b1fa2
+    style SYNTH fill:#e8f5e9,stroke:#388e3c
+    style MEMORY fill:#fff8e1,stroke:#f9a825,color:#f57f17
+    style OBS fill:#fce4ec,stroke:#c62828
+    style ESCALATE fill:#ffecb3,stroke:#f57f17
+    style TAG_SANDBOX fill:#e0f7fa,stroke:#00838f,color:#006064
+    style TAG_TIMEOUT fill:#e0f7fa,stroke:#00838f,color:#006064
+    style TAG_CONF fill:#e0f7fa,stroke:#00838f,color:#006064
+    style TAG_CTX fill:#e0f7fa,stroke:#00838f,color:#006064
+    style TAG_MEM fill:#e0f7fa,stroke:#00838f,color:#006064
+```
+
+**目标特征**：
+
+- ✅ 置信度动态阈值 + 低置信追问
+- ✅ 复合意图分解 + 多 Agent 并行
+- ✅ 专家 Agent Sandbox 工具隔离
+- ✅ 跨域上下文传递（订单号/金额等）
+- ✅ 记忆层（会话 + 跨会话）
+- ✅ 安全防护层（4 层）
+- ✅ 可观测性层（Tracing + 指标）
+- ✅ 人工介入（Shadow Mode + 转接）
+
+### 关键变化对照
+
+| 维度 | 现状架构 | 目标架构 |
+|------|---------|---------|
+| 意图识别 | LLM(gptnano) → IF分支 | 小模型+置信度+意图分解 |
+| 处理能力 | 单意图二选一 | 单意图+复合意图并行 |
+| 工具权限 | 自由调用 | Sandbox 隔离 |
+| 上下文 | 共享历史 | 领域独立+共享变量 |
+| 记忆 | 无 | 会话+跨会话双层 |
+| 安全 | 无 | 4层防护 |
+| 可观测性 | 无 | LangSmith Tracing |
+| 转人工 | 固定阈值 | 置信度动态+Shadow Mode |
+
+---
+
 ## 二、完整的四阶段演进路径
 
 每个阶段都是可独立交付的。
