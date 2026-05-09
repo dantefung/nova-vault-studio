@@ -36,12 +36,16 @@ date: "2026-05-09"
 | [CO-STAR Framework](patterns/co-star-framework) | 六维结构化提示词构建方法 |
 | [CRISP Framework](patterns/crisp-framework) | 批判性思维提示词框架 |
 | [ICIO Framework](patterns/icio-framework) | 极简四要素提示词框架 |
+| [Agent Skill 设计模式](patterns/agent-skill-design-patterns) | Tool Wrapper、Generator、Reviewer、Inversion、Pipeline 五种模式 |
+| [Skill 构建指南](patterns/skill-building-guide) | 从规划到测试到分发的完整 Skill 构建手册 |
+| [Google ADK Agent 模式](patterns/google-adk-agent-patterns) | Sequential、Parallel、Coordinator、Hierarchical、Generator-Critic |
 
 ## Products（产品与工具）
 
 | 页面 | 定义 |
 |------|------|
 | [Claude Code](products/claude-code) | Anthropic 的 AI 编程 Agent，薄封装理念 |
+| [Claude Code Skills](products/claude-code-skills) | Claude Code 的技能扩展系统，九种类型 + 三级递进式披露 |
 | [OpenAI Codex](products/openai-codex) | OpenAI 的编程 Agent，完整驭化架构 |
 | [OpenClaw](products/openclaw) | 开源 AI 私人助手框架 |
 | [Lazygit](products/lazygit) | 终端 Git 客户端 |

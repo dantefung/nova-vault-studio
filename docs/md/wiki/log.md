@@ -1,14 +1,23 @@
 ---
-title: "---"
-date: "2026-05-09"
----
-
----
 title: "Wiki 操作日志"
 date: "2026-05-09"
 ---
 
 # Wiki 操作日志
+
+---
+
+## 2026-05-09: 补充 Agent Skills 内容
+
+**Source**: docs/md/guide/ai/skills/
+**New pages**: 4
+- products/claude-code-skills.md
+- patterns/agent-skill-design-patterns.md
+- patterns/skill-building-guide.md
+- patterns/google-adk-agent-patterns.md
+
+**Updated pages**: index.md, log.md
+**New cross-references**: 12 cross-references added
 
 ---
 
