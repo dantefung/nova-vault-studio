@@ -145,6 +145,76 @@ function generateSidebar(relativeDir, linkPrefix) {
         });
     });
 
+    // 扫描目录中包含 index.md 的子目录，将它们添加到侧边栏
+    function addIndexOnlyDirectories(currentDir, currentLevel, currentLinkPrefix) {
+        const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+        entries.forEach(entry => {
+            if (entry.isDirectory()) {
+                const subdirPath = path.join(currentDir, entry.name);
+                const indexPath = path.join(subdirPath, 'index.md');
+                const subdirLinkPrefix = currentLinkPrefix + entry.name + '/';
+                
+                // 检查目录是否有 index.md
+                const hasIndex = fs.existsSync(indexPath);
+                
+                if (hasIndex) {
+                    // 在嵌套结构中找到正确的位置
+                    let targetLevel = currentLevel;
+                    const relativePath = subdirPath.replace(dir + path.sep, '');
+                    const pathParts = relativePath.split(path.sep);
+                    
+                    // 导航到正确的父级
+                    for (let i = 0; i < pathParts.length - 1; i++) {
+                        const part = pathParts[i];
+                        let found = false;
+                        for (let item of targetLevel) {
+                            if (item.text === part) {
+                                targetLevel = item.items;
+                                found = true;
+                                break;
+                            }
+                        }
+                        if (!found) {
+                            // 创建缺失的层级
+                            const newItem = {
+                                text: part,
+                                collapsed: true,
+                                items: []
+                            };
+                            targetLevel.push(newItem);
+                            targetLevel = newItem.items;
+                        }
+                    }
+                    
+                    // 检查是否已经存在该目录（使用 title 或 entry.name）
+                    const title = extractTitle(indexPath) || entry.name;
+                    const existingItem = targetLevel.find(item => 
+                        item.text === title || item.text === entry.name
+                    );
+                    if (existingItem) {
+                        // 如果已存在，更新 title 和添加链接
+                        existingItem.text = title;
+                        if (!existingItem.link) {
+                            existingItem.link = subdirLinkPrefix;
+                        }
+                    } else {
+                        targetLevel.push({
+                            text: title,
+                            collapsed: true,
+                            items: [],
+                            link: subdirLinkPrefix
+                        });
+                    }
+                }
+                
+                // 递归处理子目录
+                addIndexOnlyDirectories(subdirPath, currentLevel, subdirLinkPrefix);
+            }
+        });
+    }
+
+    addIndexOnlyDirectories(dir, sidebarConfig, linkPrefix);
+
     return sidebarConfig;
 }
 
