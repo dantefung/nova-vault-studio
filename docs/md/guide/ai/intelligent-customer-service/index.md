@@ -157,6 +157,7 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 | 12 | [生产部署指南 v2](./12-production-deployment-v2.md) | 行业基准与验收 | LangSmith、行业指标(85%+准确率)、Budget Guard |
 | 13 | [架构演进路径（基于 Dify）](./13-architecture-evolution.md) | Dify→完整架构 | 现有架构分析、17项Dify能力对照、四阶段演进 |
 | 14 | [意图分类：准确性与速度优化](./14-intent-classification.md) | 入口层优化 | Prompt格式、置信度体系、nano模型选型、CICLe路由 |
+| 15 | [渐进式 AI 编程](./15-progressive-ai-programming.md) | 外部转载 | 微信公众号文章：渐进式 AI 编程的实践与思考 |
 
 ---
 
