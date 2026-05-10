@@ -197,34 +197,171 @@ CICLe（Conformal In-Context Learning）结合轻量级基分类器和共形预�
 
 ---
 
-## 四、gptnano 优化实操模板
+## 四、生产级提示词设计模板（中文客服场景）
 
-以下是你当前架构可以直接使用的配置：
+以下模板基于 500+ 轮实验评测、华为云/百度千帆/百度AI客服等多个中文实战案例提炼，适用于基于 LLM 的意图分类器。
+
+### 4.1 System Prompt：结构化意图分类专家
 
 ```
-模型：gpt-nano 或 GPT-5.4 nano
-温度：0.1（减少随机性）
-最大输出：50 tokens
-结构化输出：strict JSON schema
-Prompt Caching：启用（意图定义写入 System Prompt）
+你是一个客服意图分类专家。根据用户输入，从以下意图列表中
+选择一个最匹配的意图并返回结构化结果。
 
-System Prompt 内容（可缓存）：
-==========
-你是客服意图分类专家。任务是理解用户输入，判断最可能的意图。
+【意图分类体系】
+## 一级分类（必选）
+- 技术问题_用户咨询产品使用、故障排查或功能操作
+- 订单服务_用户查询订单状态、物流、修改或取消订单
+- 退款售后_用户要求退货、换货、申请退款或投诉
+- 优惠咨询_用户询问优惠券、折扣、活动规则
+- 账户管理_用户咨询账号绑定、密码修改、权限设置等
+- 闲聊其他_用户闲聊、问候或无法归入以上类别
 
-意图定义：
-[每个意图: 前缀描述 + 2个 few-shot 示例]
+## 二级分类（可选，用于复杂场景）
+[根据业务需求定义，例如：技术问题→App闪退/功能异常/参数配置]
 
-输出规则：
-- 只输出 JSON，不要任何额外文字
-- confidence 是 0 到 1 之间的小数
-- reasoning 不超过 20 字
-- 不可确定时，confidence 设为 0.5 并输出"未知"
+【输出要求】
+1. 只输出 JSON，不要任何额外文字或解释
+2. 每个字段含义：
+   - intent: 一级分类名称（从上方列表中选择）
+   - sub_intent: 二级分类名称（如有）
+   - confidence: 0到1之间的置信度（小数点后2位）
+   - reasoning: 一句话说明为何这样分类
+   - needs_human: true/false，是否建议转人工
+3. 置信度规则：
+   - confidence ≥ 0.85：直接路由到对应Agent
+   - 0.6 ≤ confidence < 0.85：追问关键信息后再路由
+   - confidence < 0.6：needs_human = true
 
-JSON 格式：
-{"intent": "...", "confidence": 0.0, "reasoning": "..."}
-==========
+【决策边界规则】
+- 当用户输入无法匹配任何已有意图时，intent="闲聊其他", confidence=0.3, needs_human=false
+- 当用户同时表达多个意图时，以最主要意图为准（secondary_intent可填第二个）
+- 当用户提到"人工"、"转人工"、"找客服"时，intent不变但 needs_human=true
+- 严禁自造意图类别，只能从上方列表中选择
+
+【温度设置】temperature=0（分类应保持确定性）
 ```
+
+### 4.2 Few-Shot 示例设计原则
+
+示例是意图分类质量提升的最大杠杆（0→3 示例提升 38%，再增加到 10 仅多 4%）。
+
+**示例选择策略**：
+1. **代表性优先**：每个意图选 2-3 个覆盖不同表述方式的示例
+2. **多样性覆盖**：示例应覆盖正式语、方言、网络用语（如"我的订单到哪了"、"我的东东咋还没到"都指向同一意图）
+3. **边界案例**：包含容易误判的边界示例（如"我要投诉"可能是退款售后，也可能是账户管理）
+4. **位置**：最近邻示例放在用户输入之前，引导模型关注当前任务
+
+**中文客服场景 Few-Shot 示例（参考百度AI客服案例）**：
+
+```
+示例1：
+输入：「我的订单怎么还没发货？」
+输出：{"intent": "订单服务", "sub_intent": "发货咨询", "confidence": 0.92, "reasoning": "用户在询问订单发货状态", "needs_human": false}
+
+示例2：
+输入：「这个手机支持5G吗」
+输出：{"intent": "技术问题", "sub_intent": "参数咨询", "confidence": 0.88, "reasoning": "用户咨询产品规格参数", "needs_human": false}
+
+示例3：
+输入：「我要退这个衣服，7天无理由吧」
+输出：{"intent": "退款售后", "sub_intent": "退货申请", "confidence": 0.95, "reasoning": "用户明确要求退货且提及无理由条款", "needs_human": false}
+
+示例4：
+输入：「你们几点下班？」
+输出：{"intent": "闲聊其他", "sub_intent": null, "confidence": 0.5, "reasoning": "闲聊问询超出业务范围", "needs_human": false}
+
+示例5（边界）：
+输入：「不想要了，能退吗？」
+输出：{"intent": "退款售后", "sub_intent": "退款咨询", "confidence": 0.78, "reasoning": "表达退货意向但未明确说明商品", "needs_human": false}
+```
+
+### 4.3 复合意图与多标签处理
+
+当用户同时表达多个意图时（如电商场景的「意图-原因」双层标签），分两阶段处理：
+
+**阶段一：意图-原因联合分类**
+
+```
+输入：「我取消订单因为地址写错了」
+输出：{"intent": "订单服务", "reason": "地址填写错误", "confidence": 0.91, "reasoning": "取消原因清晰指向地址错误", "needs_human": false}
+```
+
+**阶段二（confidence < 0.85 时）：槽位追问**
+
+```
+追问：「请问您的订单号是多少？」
+用户：「ORD123456」
+→ 置信度提升至 0.95，执行路由
+```
+
+**华为云对齐策略参考**：当用户问题与标准选项均不匹配时，返回 `N/A` 而非捏造选项。
+
+### 4.4 置信度校准（Logprobs + 阈值调优）
+
+LLM 返回的 self-reported confidence 通常**过度自信**（GPT-4.1-mini 结构化输出时，错误预测的置信度也常在 95%+）。推荐以下校准方法：
+
+**方法一：启用 Logprobs（推荐）**
+
+```python
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": "<意图分类系统提示词>"},
+        {"role": "user", "content": user_query}
+    ],
+    response_format={
+        "type": "json_schema",
+        "json_schema": {
+            "name": "intent_classification",
+            "strict": True,
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "intent": {"type": "string", "enum": ["技术问题", "订单服务", "退款售后", "优惠咨询", "账户管理", "闲聊其他"]},
+                    "confidence": {"type": "number"},
+                    "reasoning": {"type": "string"},
+                    "needs_human": {"type": "boolean"}
+                },
+                "required": ["intent", "confidence", "reasoning", "needs_human"]
+            }
+        }
+    },
+    temperature=0,
+    max_tokens=100,
+    logprobs=True,           # 启用logprobs
+    top_logprobs=5           # 返回top-5候选
+)
+# 提取joint_logprob: exp(sum of token logprobs for intent field)
+# 作为真实置信度信号替代self-reported confidence
+```
+
+**方法二：无 Logprobs 时：用真实数据标定阈值**
+
+1. 准备 100 条历史标注数据（覆盖各意图类别）
+2. 用当前模型跑一遍，记录 `(predicted_intent, model_confidence, true_label)`
+3. 绘制 histogram：按 confidence 降序排列，观察错误率分界点
+4. 设定阈值：`confidence ≥ 0.92 → 自动路由；0.7 ≤ confidence < 0.92 → 追问；confidence < 0.7 → 转人工`
+
+> **注意**：不同模型的 confidence 分布差异显著，换模型后必须重新标定。
+
+### 4.5 活跃学习闭环（持续优化）
+
+意图分类系统上线后，通过以下反馈循环持续提升：
+
+```
+用户输入 → LLM分类 → confidence路由 → Agent处理 → 用户反馈(点赞/点踩)
+                    ↓ 低置信case自动记录到bad case库
+              每周人工审核bad case库
+                    ↓
+              更新意图定义 / 补充Few-shot示例 / 调整阈值
+                    ↓
+              模型Prompt迭代 → 重新评估 → 达标后上线
+```
+
+关键指标监控：
+- **意图识别准确率**：≥ 92%（按正确分类样本数/总样本数计算）
+- **转人工率**：持续观察，初始目标 < 15%
+- **ECE（期望校准误差）**：< 0.05 表示置信度与实际准确率吻合良好
 
 ---
 
@@ -243,17 +380,18 @@ JSON 格式：
 ## 六、快速检查清单
 
 **准确性：**
-- [ ] 意图描述有前缀（`退货_` 格式）
-- [ ] 有 None/未知兜底意图
+- [ ] 意图描述有前缀（`技术问题_` 格式）
+- [ ] 有「闲聊其他」兜底意图
 - [ ] 每个意图有 2-3 个 few-shot 示例
-- [ ] 置信度 < 0.6 触发转人工记录
+- [ ] 置信度 < 0.6 触发 needs_human=true
 - [ ] 高风险意图已配置 Annotation Reply
 - [ ] 高安全场景考虑 IntentGuard 护栏模型
 
 **速度：**
 - [ ] System Prompt 开启缓存（$0.020/M）
-- [ ] 结构化输出启用 `strict` 模式
-- [ ] `max_output_tokens` 设为 50
+- [ ] 结构化输出启用 `strict` 模式（enum 约束）
+- [ ] `max_tokens` 设为 50-100
+- [ ] temperature=0（确定性）
 - [ ] 考虑 CICLe 路由（高并发场景）
 
 ---
@@ -263,14 +401,21 @@ JSON 格式：
 - [5 tips to optimize your LLM intent classification prompts — Voiceflow](https://www.voiceflow.com/blog/5-tips-to-optimize-your-llm-intent-classification-prompts)，2026-02
 - [Cost-Aware Model Selection for Text Classification — arXiv 2602.06370](https://arxiv.org/abs/2602.06370)，2026-02
 - [Efficient Text Classification with CICLe — arXiv 2512.05732](https://arxiv.org/abs/2512.05732)，2025-12
-- [CICLe: Conformal In-Context Learning — arXiv 2403.11904v2](https://arxiv.org/html/2403.11904v2)，2024-03
 - [ICLER: Intent Classification with Enhanced Reasoning — EMNLP 2025](https://aclanthology.org/2025.findings-emnlp.164.pdf)，2025-10
 - [Corrective ICL Underperforms Standard ICL — arXiv 2503.16022](https://arxiv.org/pdf/2503.16022)，2025-03
+- [Few-Shot Techniques for Text Classification Using LLMs — Vzhukov](https://vzhukov.dev/posts/2026/few-shot-techniques-for-text-classification-using-llms)，2026-02
+- [Text Classification with LLMs: Approaches and Evaluation — Helicone](https://www.helicone.ai/blog/text-classification-with-llms)，2026
+- [Classification with Structured Outputs — CallSphere](https://callsphere.ai/blog/classification-structured-outputs-sentiment-intent-category-detection.md)，2026
+- [Intent Classification and Routing — FlowX AI](https://flowxai.mintlify.app/5.1/ai-platform/patterns/intent-classification-routing)，2026
+- [LLM Confidence Calibration in Production — Tian Pan](https://tianpan.co/blog/2026-04-16-llm-confidence-calibration-production)，2026-04
+- [Measuring Classification Confidence with Gemini API Logprobs — Gemini Lab](https://gemilab.net/en/articles/gemini-api/gemini-api-logprobs-classification-confidence)，2026-04
+- [Confidence-Aware Classification — GEPA](https://gepa-ai.github.io/gepa/guides/confidence-adapter/)，2026
+- [IntentGuard: Production-Grade Vertical Intent Classifier — perfecXion](https://perfecxion.ai/articles/intentguard-vertical-intent-classifier-llm-guardrails.html)，2026-04
+- [Structured Outputs Guide — Logic](https://logic.inc/resources/structured-outputs-guide)，2026-04
+- [Prompt Engineering Guide 2026 — TokenMix](https://tokenmix.ai/blog/prompt-engineering-guide)，2026-04
+- [电商智能客服Prompt优化全流程 — 百度AI社区](https://cloud.baidu.com/article/4668612)，2025-11
+- [吴恩达Prompt工程精解：AI客服系统中的Prompt设计与优化实践 — 百度智能云](https://cloud.baidu.com/article/4421880)，2025-10
+- [Using Prompts for Intent Alignment — 华为云](https://support.huaweicloud.com/intl/en-us/bestpractice-pangulm/pangulm_04_0021.html)，2025-11
 - [Introducing GPT-5.4 mini and nano — OpenAI](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/)，2026-03
 - [GPT-5.4 nano Pricing — AI Cost Check](https://aicostcheck.com/model/gpt-5-4-nano)，2026-03
-- [IntentGuard: Production-Grade Vertical Intent Classifier — HuggingFace](https://huggingface.co/blog/perfecXion/intentguard)，2026-03
-- [LLM Classification Prompts That Actually Work — Rephrase](https://rephrase-it.com/blog/llm-classification-prompts-that-actually-work)，2026-03
-- [Prompt Engineering Guide 2026 — TokenMix](https://tokenmix.ai/blog/prompt-engineering-guide)，2026-04
 - [τ²-Bench: Benchmarking Agents in Collaborative Scenarios — Sierra AI](https://sierra.ai/blog/benchmarking-agents-in-collaborative-real-world-scenarios)，2025-06
-- [τ²-Bench Leaderboard — AI Stats](https://ai-stats.phaseo.app/benchmarks/tau-2-bench)，2026-02
-- [Using LLMs for Intent Classification — Rasa](https://rasa.com/docs/rasa/next/llms/llm-intent/)，2026
