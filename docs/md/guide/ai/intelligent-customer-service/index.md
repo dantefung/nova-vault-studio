@@ -1,7 +1,7 @@
 ---
-title: "智能客服系统建设总纲"
+title: "智能客服系统建设专栏"
 date: "2026-05-09"
-source: "NotebookLM 调研"
+source: "NotebookLM 调研 + 联网对抗性研究"
 url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7f?authuser=4"
 ---
 
@@ -134,28 +134,29 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 
 ### v1 版本（基于 NotebookLM 调研）
 
-| 文档 | 说明 |
-|------|------|
-| [系统设计与架构](./system-design.md) | 六层架构设计，含架构图、数据流、最佳实践 |
-| [RAG 实现详解](./rag-implementation.md) | 传统 RAG 检索增强生成指南 |
-| [知识图谱构建方案](./knowledge-graph.md) | 业务知识图谱的构建与应用 |
-| [多智能体架构设计](./multi-agent.md) | CrewAI 多 Agent 系统设计 |
-| [技术选型对比](./tech-comparison.md) | LLM、向量库、框架选型 |
-| [生产部署指南](./production-deployment.md) | 微服务容器化、运维监控 |
+| 序号 | 文档 | 说明 |
+|------|------|------|
+| 01 | [系统设计与架构](./01-system-design.md) | 六层架构设计，含架构图、数据流、最佳实践 |
+| 02 | [RAG 实现详解](./02-rag-implementation.md) | 传统 RAG 检索增强生成指南 |
+| 03 | [知识图谱构建方案](./03-knowledge-graph.md) | 业务知识图谱的构建与应用 |
+| 04 | [多智能体架构设计](./04-multi-agent.md) | CrewAI 多 Agent 系统设计 |
+| 05 | [技术选型对比](./05-tech-comparison.md) | LLM、向量库、框架选型 |
+| 06 | [生产部署指南](./06-production-deployment.md) | 微服务容器化、运维监控 |
 
 ### v2 版本（基于联网调研 v2·对抗性分析）
 
 > 2025-2026 最新工程实践，覆盖 GraphRAG、LangGraph vs CrewAI、DeepSeek R1、生产级安全/弹性/可观测性体系。
 
-| 文档 | 说明 | 核心更新 |
-|------|------|----------|
-| [系统设计与架构 v2](./system-design-v2.md) | 九层全景架构 | 安全防护层、弹性层、可观测性层、MCP/A2A 协议 |
-| [RAG 实现详解 v2](./rag-implementation-v2.md) | RAG 演进全景 | CID-GraphRAG、三阶检索、腾讯优图方案 |
-| [知识图谱构建方案 v2](./knowledge-graph-v2.md) | GraphRAG 实践 | 腾讯异构图谱、AutoSchemaKG、GraphRAG-Bench |
-| [多智能体架构设计 v2](./multi-agent-v2.md) | 框架深度对比 | LangGraph vs CrewAI 深度对比、混合架构、决策树 |
-| [技术选型对比 v2](./tech-comparison-v2.md) | 2026 模型选型 | DeepSeek R1(Qwen3 许可证、AWS Bedrock |
-| [生产部署指南 v2](./production-deployment-v2.md) | 行业基准与验收 | LangSmith、行业指标(85%+准确率)、Budget Guard |
-| [架构演进路径（基于 Dify）](./architecture-evolution.md) | Dify→完整架构 | 六维优化空间、四阶段演进路径、九层架构图、NotebookLM 对照 |
+| 序号 | 文档 | 说明 | 核心更新 |
+|------|------|------|----------|
+| 07 | [系统设计与架构 v2](./07-system-design-v2.md) | 九层全景架构 | 安全防护层、弹性层、可观测性层、MCP/A2A 协议 |
+| 08 | [RAG 实现详解 v2](./08-rag-implementation-v2.md) | RAG 演进全景 | CID-GraphRAG、三阶检索、腾讯优图方案 |
+| 09 | [知识图谱构建方案 v2](./09-knowledge-graph-v2.md) | GraphRAG 实践 | 腾讯异构图谱、AutoSchemaKG、GraphRAG-Bench |
+| 10 | [多智能体架构设计 v2](./10-multi-agent-v2.md) | 框架深度对比 | LangGraph vs CrewAI 深度对比、混合架构、决策树 |
+| 11 | [技术选型对比 v2](./11-tech-comparison-v2.md) | 2026 模型选型 | DeepSeek R1 / Qwen3 许可证、AWS Bedrock |
+| 12 | [生产部署指南 v2](./12-production-deployment-v2.md) | 行业基准与验收 | LangSmith、行业指标(85%+准确率)、Budget Guard |
+| 13 | [架构演进路径（基于 Dify）](./13-architecture-evolution.md) | Dify→完整架构 | 现有架构分析、17项Dify能力对照、四阶段演进 |
+| 14 | [意图分类：准确性与速度优化](./14-intent-classification.md) | 入口层优化 | Prompt格式、置信度体系、nano模型选型、CICLe路由 |
 
 ---
 
