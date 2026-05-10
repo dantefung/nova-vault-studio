@@ -1,7 +1,7 @@
 ---
 title: "14 · 意图分类：如何兼顾准确性与响应速度"
 date: "2026-05-10"
-source: "原创"
+source: "原创 + 联网验证"
 url: ""
 ---
 
@@ -57,7 +57,9 @@ url: ""
 
 - **意图描述加前缀**（`退货_用户要求...`）：加前缀后分类准确率提升 3-8%
 - **None/未知兜底意图必须有**：高频场景下有无 `未知` 意图，准确率差 5-10%
-- **每个意图给 2-3 个代表性用户原话作为 few-shot 示例**：实测 five-shot 比 zero-shot 提升显著
+- **每个意图给 2-3 个代表性用户原话作为 few-shot 示例**：实测 five-shot 比 zero-shot 提升显著，0→3 示例带来 90% 的质量提升，再增加只会增加 token 成本
+
+> **验证说明**：Voiceflow 团队在 HWU64 和 Curekart 两个数据集上测试了 500+ 种 Prompt 变体，结论一致：格式结构（Prefix + None 兜底 + Few-shot）的贡献最大；AI 生成意图描述（GPT-4 / Claude 生成）比人工撰写更贴近用户真实语言。
 
 ### 2.2 AI 生成意图描述：比人工写的更准
 
@@ -89,11 +91,33 @@ Prompt: "将以下意图分配到对应类别：..."
 |--------|------|---------|
 | 高置信 | ≥ 0.85 | 直接路由到对应专家 Agent |
 | 中置信 | 0.6–0.85 | 追问确认关键字段（如订单号），再路由 |
-| 低置信 | < 0.6 | 转人工 + 记录未识别模式（积累bad case） |
+| 低置信 | < 0.6 | 转人工 + 记录未识别模式（积累 bad case） |
 
 置信度分布本身就是产品指标：持续观察低置信 case 的 pattern，每周迭代意图定义和示例，能让系统越用越准。
 
-### 2.5 Annotation Reply：高风险意图的兜底
+### 2.5 IntentGuard：生产级护栏模型（2026 新增）
+
+对于高安全要求的场景（如金融、医疗、法律），推荐使用 IntentGuard 这类生产级垂直意图分类器：
+
+- **DeBERTa-v3-xsmall**：参数 <10MB，CPU 上 P99 < 20ms，精度 95-98%
+- **校准体系**：温度校准（ECE < 0.03）确保置信度真实反映准确率
+- **三指标门控**：LBR < 2%（误拦率）、OPR < 2%（离题放过率）、AOC < 10%（干净问题误拒率）
+- **决策逻辑**：置信度 > 阈值 → 放行；阈值之下 → ABSTAIN 转人工
+
+IntentGuard 解决了 LLM-based 分类器的延迟和校准问题，适合作为独立护栏层。
+
+### 2.6 ICLER：推理增强的意图分类（2026 新增）
+
+ICLER（Intent Classification with Enhanced Reasoning）在标准 ICL 框架中引入了两步优化：
+
+1. **推理驱动的向量表示增强**：用多任务学习让 Embedding 模型同时学习语义表示和推理生成，增强对细粒度业务场景（如实体相关、现象级描述）的捕捉能力
+2. **推理增强的意图理解**：让 LLM 在 few-shot 示例中看到推理链，提升区分语义相近意图的能力
+
+实验结果：在 PC 相关领域数据集上准确率提升 **4.77pp**，通用领域提升 0.04%-1.14%。适合复杂业务场景下的意图分类优化。
+
+> **注意**：CICL（Corrective ICL）在实验中**持续弱于标准 ICL**，且随着纠正示例比例增加而性能下降——向模型展示错误并纠正反而会破坏模型的任务理解，**不推荐在生产中使用**。
+
+### 2.7 Annotation Reply：高风险意图的兜底
 
 对于法律条款、精确报价、退款金额等不允许出错的场景，别让模型生成答案——用 Annotation Reply 预置标准答案。当用户问题与 Annotation 相似度超过阈值时，**直接返回人工审核过的预置答案**，不触发 AI 生成。
 
@@ -103,21 +127,26 @@ Prompt: "将以下意图分配到对应类别：..."
 
 ### 3.1 选对模型：nano 模型是意图分类的最优性价比
 
-| 模型 | 吞吐量 | τ2-Bench 质量 | 输入费用 |
-|------|--------|--------------|---------|
-| GPT-5.4 nano | ~200 t/s | 92.5% | **$0.20 / M tokens** |
-| GPT-5.4 mini | ~120 t/s | 94%+ | $0.75 / M tokens |
-| GPT-4o | ~40 t/s | 97%+ | $4.00 / M tokens |
+| 模型 | 上下文窗口 | 吞吐量 | 输入费用 | 输出费用 |
+|------|-----------|--------|---------|---------|
+| GPT-5.4 nano | 400K tokens | ~200 t/s | **$0.20 / M** | $1.25 / M |
+| GPT-5.4 mini | 400K tokens | ~120 t/s | $0.75 / M | $4.50 / M |
+| GPT-4o | 128K tokens | ~40 t/s | $4.00 / M | $16.00 / M |
 
-**意图分类在 GPT-5.4 nano 的 "Green Zone"**（分类、抽取、路由）——质量差距 < 10pp，价格差距 **3.75 倍**。你的 gptnano 方向是对的，只需要优化 Prompt。
+> **模型选择原则**：意图分类属于 GPT-5.4 nano 的「Green Zone」（分类、抽取、路由）——质量差距 < 10pp，价格差距 **3.75 倍**。对于零售、客服等领域的简单分类任务，nano 完全够用。
 
 ### 3.2 启用 Prompt Caching
 
 把意图定义 + few-shot 示例放进 System Prompt 并启用缓存后：
 
-- 输入 token 成本降低 **90%**
-- 意图分类变成「几乎零费用」的基础设施调用
-- 高并发场景下月度成本节省显著
+| 费用类型 | 标准价格 | 缓存价格 | 节省比例 |
+|---------|---------|---------|---------|
+| 输入 token | $0.20 / M | **$0.020 / M** | **-90%** |
+| 输出 token | $1.25 / M | $1.25 / M | — |
+
+缓存最适合 System Prompt 中的意图定义和 few-shot 示例——这些内容在每次调用中几乎不变。
+
+> **注意事项**：缓存以 128 tokens 为最小单元；当缓存内容更新时，旧缓存自动失效。高并发场景下月度成本节省显著。
 
 ### 3.3 结构化输出：消除解析延迟
 
@@ -138,19 +167,29 @@ response_format: {
 }
 ```
 
-`strict: true` 让模型直接输出合规 JSON，下游无需做格式验证/重试。
+`strict: true` 让模型直接输出合规 JSON，下游无需做格式验证/重试。TokenMix 2026 年评测显示：结构化输出使解析可靠性提升 50-80%，同时几乎不增加额外 token 成本。
 
-### 3.4 Top-K 候选路由：减少分类空间
+### 3.4 CICLe 路由：共形预测引导的候选缩窄（2026 勘误更新）
+
+> ⚠️ **勘误**：原版将 CICLe 描述为「Top-3 候选路由」，不够精确。正确描述如下：
+
+CICLe（Conformal In-Context Learning）结合轻量级基分类器和共形预测（Conformal Prediction）来引导 LLM Prompt：
 
 ```
-第一步：用 embedding 模型（或 gpt-nano）快速召回 Top-3 候选意图
-        — 基于用户 query 与意图描述的语义相似度
-第二步：用 GPT-5.4 nano 只在 Top-3 候选池内分类
-        — 不需要模型「猜」，上下文更聚焦
-        — 实测减少 34% shot 数 + 25% token 长度
+步骤一：基分类器（如 BERT / DeBERTa）给出所有意图的概率分布
+
+步骤二：共形预测根据 α 参数（控制误判率上限）构造候选集合
+         — 候选集通常包含 1-3 个类别
+         — 当候选集仅含 1 个类别时，直接绕过 LLM 输出基分类器结果
+
+步骤三：LLM 仅在缩窄后的候选集上做最终分类
+         — 从每个候选类中选取 k=2 个最相似的 few-shot 示例
+         — 上下文更聚焦，token 消耗更低
 ```
 
-CICLe 框架的核心思想：先用轻量分类器缩小候选空间，再让 LLM 做精准判断。
+**效果**：CICLe 在多领域 NLP 分类基准上持续优于基分类器和标准 Few-shot Prompting；在简单样本上完全绕过 LLM，在复杂样本上通过缩窄候选空间提升准确率。
+
+> **τ²-Bench 说明**：原版引用「GPT-5.4 nano τ²-Bench 92.5%」数据不准确。τ²-Bench 是**工具调用（Tool Use）基准**，不是意图分类基准，主要衡量 AI Agent 在零售、航空、电信场景中使用 API 完成任务的能力（pass@k 指标）。GPT-5-mini 基线为 55%，经 Prompt 优化后提升至 67.5%。意图分类应使用专门的分类任务数据集（如 HWU64、Curekart）进行评测。
 
 ### 3.5 控制最大输出 tokens
 
@@ -163,10 +202,11 @@ CICLe 框架的核心思想：先用轻量分类器缩小候选空间，再让 L
 以下是你当前架构可以直接使用的配置：
 
 ```
-模型：gpt-nano（或 GPT-5.4 nano）
+模型：gpt-nano 或 GPT-5.4 nano
 温度：0.1（减少随机性）
 最大输出：50 tokens
 结构化输出：strict JSON schema
+Prompt Caching：启用（意图定义写入 System Prompt）
 
 System Prompt 内容（可缓存）：
 ==========
@@ -194,7 +234,7 @@ JSON 格式：
 |------|--------|--------|
 | 意图识别准确率 | ~70% | **90%+** |
 | 分类延迟（P99） | 800ms | **< 300ms** |
-| 单次调用成本 | $1.20/M | **$0.20/M** |
+| 单次调用成本 | $1.20/M | **$0.20/M（缓存后 $0.02/M）** |
 | 低置信转人工率 | 30%+ | **< 15%** |
 | Prompt token 费用 | 全额 | **-90%（缓存命中后）** |
 
@@ -208,20 +248,29 @@ JSON 格式：
 - [ ] 每个意图有 2-3 个 few-shot 示例
 - [ ] 置信度 < 0.6 触发转人工记录
 - [ ] 高风险意图已配置 Annotation Reply
+- [ ] 高安全场景考虑 IntentGuard 护栏模型
 
 **速度：**
-- [ ] System Prompt 开启缓存
+- [ ] System Prompt 开启缓存（$0.020/M）
 - [ ] 结构化输出启用 `strict` 模式
 - [ ] `max_output_tokens` 设为 50
-- [ ] 考虑 Top-3 候选路由（高并发场景）
+- [ ] 考虑 CICLe 路由（高并发场景）
 
 ---
 
-## 信息来源
+## 七、信息来源
 
 - [5 tips to optimize your LLM intent classification prompts — Voiceflow](https://www.voiceflow.com/blog/5-tips-to-optimize-your-llm-intent-classification-prompts)，2026-02
 - [Cost-Aware Model Selection for Text Classification — arXiv 2602.06370](https://arxiv.org/abs/2602.06370)，2026-02
-- [Efficient Text Classification with CICLe — arXiv 2512.05732](https://arxiv.org/abs/2512.05732)
+- [Efficient Text Classification with CICLe — arXiv 2512.05732](https://arxiv.org/abs/2512.05732)，2025-12
+- [CICLe: Conformal In-Context Learning — arXiv 2403.11904v2](https://arxiv.org/html/2403.11904v2)，2024-03
+- [ICLER: Intent Classification with Enhanced Reasoning — EMNLP 2025](https://aclanthology.org/2025.findings-emnlp.164.pdf)，2025-10
+- [Corrective ICL Underperforms Standard ICL — arXiv 2503.16022](https://arxiv.org/pdf/2503.16022)，2025-03
 - [Introducing GPT-5.4 mini and nano — OpenAI](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/)，2026-03
-- [GPT-5.4 nano Application Scenario Guide — APIYI](https://help.apiyi.com/en/gpt-5-4-nano-application-scenarios-guide-en.html)，2026-05
-- [Two stages prompting for few-shot multi-intent detection — ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0925231224001954)，2024-04
+- [GPT-5.4 nano Pricing — AI Cost Check](https://aicostcheck.com/model/gpt-5-4-nano)，2026-03
+- [IntentGuard: Production-Grade Vertical Intent Classifier — HuggingFace](https://huggingface.co/blog/perfecXion/intentguard)，2026-03
+- [LLM Classification Prompts That Actually Work — Rephrase](https://rephrase-it.com/blog/llm-classification-prompts-that-actually-work)，2026-03
+- [Prompt Engineering Guide 2026 — TokenMix](https://tokenmix.ai/blog/prompt-engineering-guide)，2026-04
+- [τ²-Bench: Benchmarking Agents in Collaborative Scenarios — Sierra AI](https://sierra.ai/blog/benchmarking-agents-in-collaborative-real-world-scenarios)，2025-06
+- [τ²-Bench Leaderboard — AI Stats](https://ai-stats.phaseo.app/benchmarks/tau-2-bench)，2026-02
+- [Using LLMs for Intent Classification — Rasa](https://rasa.com/docs/rasa/next/llms/llm-intent/)，2026
