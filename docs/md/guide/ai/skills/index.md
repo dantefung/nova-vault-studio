@@ -23,8 +23,8 @@ date: "2026-05-08"
 |------|------|
 | [~/.agents 目录规范](AGENTS_DIRECTORY_SPEC.md) | Agent Skills 开放标准说明文档 |
 
-## 子专栏
+## 相关专栏
 
 | 目录 | 内容 |
 |------|------|
-| [gstack/](gstack/) | GStack 工具安装与使用指南 |
+| [agentic-engineer/](../agentic-engineer/) | Agentic 开发框架（GStack、OMC、Agent 架构） |
