@@ -38,6 +38,7 @@ date: "2026-05-05"
 - [bggg-skills](https://github.com/bggg-ai/bggg-skills) — 饼干（@bggg_ai）的 Codex Skills 仓库
   - [bggg-creator-image2psd](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2psd) — 设计精修 Skill，将图片转换为 PSD 格式搞定设计师
   - [bggg-creator-image2ppt](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2ppt) — 演示落地 Skill，将图片转换为 PPT 搞定做分享的人
+- [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) — superpowers 中文增强版（116k+⭐上游），17 款工具 + 20 skills + 6 个中国原创 skill，npm 一键安装，2.7k stars
 
 ---
 
@@ -54,6 +55,7 @@ date: "2026-05-05"
 - [AIHOT 选题工具](https://aihot.virxact.com) — 卡兹克开源的 AI 热点选题工具，帮助快速发现和筛选内容选题方向
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) — 生成式引擎优化智能内容工程系统，支持多模型内容生成、批量任务、知识库 RAG、审核发布工作流，基于 Laravel
 - [llm-wiki-starter](https://github.com/eleven-net-cn/llm-wiki-starter) — 一键创建 LLM Wiki 知识库，基于 Andrej Karpathy 的 LLM Wiki 模式
+- [ElysiaJS](https://elysiajs.com) — Bun 生态最快的 TypeScript 后端框架，基于 OpenAPI 3.x 规范，类型安全、极速性能，支持 Swagger 文档自动生成
 
 ---
 
@@ -66,6 +68,7 @@ date: "2026-05-05"
 
 ## AI Agent 入门
 
+- [hello-generic-agent](https://github.com/datawhalechina/hello-generic-agent) — Datawhale 出品的 Generic Agent 教程，18 章，覆盖安装/浏览器能力/四层记忆/自我进化/案例，404 stars
 - [hello-agents](https://github.com/datawhalechina/hello-agents) — Datawhale 出品的零基础 Agent 入门教程
   - [在线阅读](https://hello-agents.datawhale.cc/#/) — Web 版本
 - [build-coding-agent-context-engineering](https://github.com/phodal/build-coding-agent-context-engineering) — 从 Prompt 到上下文工程构建 AI Agent，零基础指南
@@ -89,7 +92,9 @@ date: "2026-05-05"
 - [Agentic Design Patterns 中文版](https://github.com/ginobefun/agentic-design-patterns-cn) — 谷歌资深工程主管分享的 AI Agent 系统性设计原则与最佳实践
 - [Agentic Design Patterns 中文版（另一译本）](https://github.com/fzy2012/rhzl-Agentic-Design-Patterns-cn)
 - [上下文工程：AI Agent 有效上下文设计](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic 官方工程博客
-- [为 Agent 编写工具](https://www.anthropic.com/engineering/writing-tools-for-agents) — Anthropic 官方工程博客
+  - [为 Agent 编写工具](https://www.anthropic.com/engineering/writing-tools-for-agents) — Anthropic 官方工程博客
+  - [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) — 官方风格 Harness Engineering 教程，12 lectures + 6 projects + 多语言翻译，4.1k stars
+  - [OpenHarness](https://github.com/HKUDS/OpenHarness) — Python Harness 实现 + ohmo 个人 Agent，内置 43 tools、MCP、权限系统，12.4k stars
 
 ## 架构实战案例
 
