@@ -20,6 +20,7 @@ date: "2026-05-05"
 
 - [Multica](https://github.com/multica-ai/multica) — 专为 AI-native 团队设计的 Agent + 人的协作平台，AI agent 是一等公民的任务管理工具，官网 [multica.ai](https://multica.ai)
 - [VibeKanban](https://vibekanban.com/) — AI 研发工程从本地化到在线化/共享化
+- [OpenAI Symphony](https://github.com/openai/symphony) — 将项目工作转化为隔离的自主执行运行，团队管理工作而非监督 AI coding agent。监控 Linear 工单板，自动派发任务给 Codex Agent，Agent 完成后提供 CI 状态、PR 审查反馈、复杂度分析等证明，23.5k stars
 
 ---
 
