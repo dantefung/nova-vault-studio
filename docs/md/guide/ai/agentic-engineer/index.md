@@ -33,6 +33,8 @@ url: ""
 | — | [Oh My Codex Skills 架构](./oh-my-codex-skills.md) | 架构解析 | Codex Skills 技能包系统 |
 | — | [Commit As Prompt 架构](./commit-as-prompt.md) | 架构解析 | WHAT/WHY/HOW 结构化提交 |
 | — | [基于文件的规划](./planning-with-files.md) | 架构解析 | 文件驱动的任务规划系统 |
+| — | [Ralph Loop 入门介绍与实践](./ralph-loop-intro.md) | 模式解析 | 让 AI 代理在循环中对抗外部检查直到任务通过 |
+| — | [Ralph 循环在复合工程中的作用](./ralph-loop-compound-engineering.md) | 模式解析 | Ralph 循环 × 复合工程：每一个特性让下一个更容易构建 |
 
 ---
 
