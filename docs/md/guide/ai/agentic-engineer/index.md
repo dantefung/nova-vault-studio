@@ -35,6 +35,7 @@ url: ""
 | — | [基于文件的规划](./planning-with-files.md) | 架构解析 | 文件驱动的任务规划系统 |
 | — | [Ralph Loop 入门介绍与实践](./ralph-loop-intro.md) | 模式解析 | 让 AI 代理在循环中对抗外部检查直到任务通过 |
 | — | [Ralph 循环在复合工程中的作用](./ralph-loop-compound-engineering.md) | 模式解析 | Ralph 循环 × 复合工程：每一个特性让下一个更容易构建 |
+| — | [75K Star 的 Skills 仓库到底凭什么](./mattpocock-skills-analysis.md) | 案例剖析 | Matt Pocock 把 4 本经典压成 10 行招式，心法→招式的范本 |
 
 ---
 
