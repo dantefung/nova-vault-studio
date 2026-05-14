@@ -37,6 +37,8 @@ url: ""
 
 ### 呼叫中心时代：用「排队」解决「并发」
 
+![呼叫中心时代](images/customer-service-building-guide/01-call-center-era.png)
+
 1956年，美国泛美航空建了世界上第一个呼叫中心。就是这个东西，敲下了客服产业的第一根桩。
 
 彼时的架构再简单不过：PBX（企业电话交换机）+ 人工坐席 + 排队系统。客户打电话进来，系统按顺序分配空闲接线员。
@@ -85,6 +87,8 @@ ChatGPT发布的那一天，整个客服行业都在恐慌。
 
 ### 2023-2026：AI代理接管客服，但败局也不少
 
+![AI Agent](images/customer-service-building-guide/04-ai-agent-face.png)
+
 Intercom在2023年推出了Fin AI chatbot，基于GPT-4。这是一个重要的产品决策：不是在自己的旧架构上打补丁，而是直接基于最先进的LLM重建整个智能客服。一年后，Fin 2发布时切换到了Anthropic的Claude模型 —— 这意味着Intercom已经在做多模型路由。
 
 更有意思的是定价模式。Intercom对Fin的收费方式是$0.99 per outcome —— 按「实际解决了问题」收费，而不是按坐席收费。这让AI从「帮你省人力成本」变成了「我替你干活」，这是一个商业模式维度的创新，它意味着AI客服不再被视为一个feature，而是一个可以独立拆开卖的产品。
@@ -100,6 +104,8 @@ Zendesk的路更有戏剧性。2022年被Hellman & Friedman以102亿美金私有
 这些数字告诉你什么？技术的车轮已经碾过去了，但落地的鸿沟比所有人想象的要深得多。
 
 ### 技术演进的五层结构：不是线性的，但每一层都踩在前一层的尸体上
+
+![五层技术栈](images/customer-service-building-guide/02-tech-stack-pyramid.png)
 
 如果你回头从技术栈的角度看这60年，能看到一个清晰的五层递进：
 
@@ -122,6 +128,8 @@ Zendesk的路更有戏剧性。2022年被Hellman & Friedman以102亿美金私有
 ## 三、横向分析：当前的竞争图谱，你需要知道的六张面孔
 
 ### 先回答一个前置问题：你要自建还是购买？
+
+![市场选择](images/customer-service-building-guide/03-market-crossroads.png)
 
 这是所有想做智能客服的团队遇到的第一个问题。答案取决于你要的是什么：
 
@@ -245,6 +253,8 @@ GitHub上Dify的Issues则暴露了更底层的问题：多租户凭据不安全�
 「初期」决定你选哪个平台跑MVP，「中期」决定你从哪个层次切出来自建，「长期」决定你是否有能力维护自己的技术栈。
 
 ### 第四条判断：三个剧本
+
+![三剧本推演](images/customer-service-building-guide/05-three-futures.png)
 
 **大概率剧本：AI Agent客服成为标配，但人类的角色从「接线员」升维到「专家和守门员」**
 
