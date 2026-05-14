@@ -9,27 +9,29 @@ description: |
 
 # Gemini Web 图片生成（浏览器操作引擎）
 
-底层引擎：通过有头浏览器操作 gemini.google.com 的「制作图片」模式生成图片。
+通过有头浏览器操作 gemini.google.com 的「制作图片」模式生成图片。
+绕开 CLI API 路径的生图不稳定问题（API 路径对信息图 prompt 几乎 100% 拒生）。
 
-> 被 `article-illustrate` skill 调用。也可独立使用：给定 prompt → 返回 PNG 文件路径。
+> 被 `article-illustrate` skill 调用。独立使用：给定 prompt → 返回 PNG 路径。
 
 ## 前置依赖
 
 - gstack browse (`/home/fenghaolin/.claude/skills/gstack/browse/dist/browse`)
-- danger-gemini cookie（`~/.local/share/baoyu-skills/gemini-web/cookies.json`）
+- danger-gemini cookie (`~/.local/share/baoyu-skills/gemini-web/cookies.json`)
 - bun, python3
 
-## 独立使用
+## ⚠️ 关键铁律（不遵守必失败）
 
-```bash
-# 给一个 prompt，生一张图
-# AI 自动走完整浏览器流程
-"用 gemini 生图：A blue infographic diagram..."
-```
+1. **登录必须先访问 `google.com` 再跳 Gemini** —— cookie 需要先建域
+2. **「取消选择制作图片」指示器 = 生图模式的唯一可信信号** —— 没有指示器就不在生图模式
+3. **每轮生图模式最多出 2 张图** —— 之后模型会切回文本回复，需回主页重新激活
+4. **browse 的 `click` 和 `fill` 不稳定** —— 用 JS 替代 `click`，用 `type` + `press Enter` 替代 `fill`
+5. **JS 必须用 `function()` 不能用 `()=>`** —— browse 的 JS 引擎不支持 ES6 箭头函数
+6. **提取 blob 必须记录前后数量差** —— 取 `imgs[BEFORE]` 而非 `imgs[imgs.length-1]`
 
-## 执行流程（共 5 步）
+## 完整流程
 
-### Step 1: 启动浏览器并登录
+### Step 1: 启动并登录
 
 ```bash
 B="/home/fenghaolin/.claude/skills/gstack/browse/dist/browse"
@@ -42,6 +44,10 @@ rm -f "$(git rev-parse --show-toplevel 2>/dev/null)/.gstack/browse.json"
 # 连接有头浏览器
 $B connect
 
+# ⚠️ 先访问 google.com 建 cookie 域（关键！）
+$B goto https://www.google.com
+sleep 2
+
 # 注入 Google cookies
 python3 -c "
 import json, subprocess, os
@@ -51,66 +57,84 @@ for name, value in data.get('cookieMap', {}).items():
     subprocess.run(['$B', 'cookie', f'{name}={value}'], capture_output=True, timeout=3)
 "
 
-# 导航到 Gemini
+# 跳 Gemini
 $B goto https://gemini.google.com
 sleep 3
 
-# 如果有 cookie 弹窗，点接受
-$B snapshot -i | grep '全部接受' && $B js "Array.from(document.querySelectorAll('button')).find(function(b){return b.textContent.includes('全部接受')}).click();'ok'"
-```
-
-### Step 2: 进入生图模式
-
-```bash
-# 点击「制作图片」按钮
-$B js "Array.from(document.querySelectorAll('button')).find(function(b){return b.textContent.includes('制作图片')}).click();'imgmode'"
+# Cookie 弹窗 → 点全部接受
+$B snapshot -i | grep '全部接受' && $B js "(function(){var b=Array.from(document.querySelectorAll('button')).find(function(x){return x.textContent.includes('全部接受')});if(b){b.click();return'ok'}return'no'})()"
 sleep 2
-
-# 验证 textbox 出现
-$B snapshot -i | grep '为 Gemini 输入提示'
 ```
 
-### Step 3: 输入 Prompt 并发送
+### Step 2: 进入生图模式并验证
 
 ```bash
-# 聚焦 textbox
-$B js "document.querySelector('[aria-label*=\"为 Gemini 输入提示\"]').focus();'ok'"
-sleep 1
+# 点击「制作图片」
+$B js "(function(){var b=Array.from(document.querySelectorAll('button')).find(function(x){return x.textContent.includes('制作图片')});if(b){b.click();return'ok'}return'nobtn'})()"
+sleep 4
 
-# 输入 prompt
-$B type "你的图片 prompt..."
-
-# 按 Enter 发送
-$B press Enter
+# ⚠️ 必须验证指示器（关键门禁！）
+HAS_INDICATOR=$($B snapshot -i | grep -c '取消选择')
+if [ "$HAS_INDICATOR" -eq 0 ]; then
+  echo "FATAL: 不在生图模式，重试登录流程"
+  # 重新走 google.com → gemini → 制作图片
+fi
 ```
 
-### Step 4: 等待并提取图片
+### Step 3: 逐张生图（每轮最多 2 张）
 
 ```bash
-sleep 50  # 等待生图
-
-# 检查是否生图成功
-$B snapshot -i | grep 'AI 生成' || echo "NO_IMAGE"
-
-# 提取最后一张 blob
-$B js "
-(function() {
-  var imgs = Array.from(document.querySelectorAll('img')).filter(function(i){
-    return i.naturalWidth>100 && i.src.startsWith('blob:');
-  });
-  var last = imgs[imgs.length-1];
-  var c = document.createElement('canvas');
-  c.width = last.naturalWidth; c.height = last.naturalHeight;
-  c.getContext('2d').drawImage(last, 0, 0);
-  return JSON.stringify({w:last.naturalWidth, h:last.naturalHeight, data:c.toDataURL('image/png')});
-})()
-" | python3 -c "
-import json,sys,base64
-d=json.loads(sys.stdin.read().strip())
-b64=d['data'].split(',',1)[1]
-with open('OUTPUT_PATH.png','wb') as f: f.write(base64.b64decode(b64))
-print(f'Saved ({d[\"w\"]}x{d[\"h\"]})')
+generate_one() {
+  local OUTPUT="$1" PROMPT="$2"
+  
+  # 记录 blob 数量
+  BEFORE=$($B js "Array.from(document.querySelectorAll('img')).filter(function(i){return i.src.startsWith('blob:')}).length")
+  
+  # 聚焦 textbox → 打字 → 发送
+  $B js "document.querySelector('[aria-label*=\"为 Gemini 输入提示\"]').focus();'ok'"
+  sleep 1
+  $B type "$PROMPT"
+  sleep 2
+  $B press Enter
+  
+  # 等待生图（50-60s）
+  sleep 55
+  
+  # 检查是否生了新 blob
+  AFTER=$($B js "Array.from(document.querySelectorAll('img')).filter(function(i){return i.src.startsWith('blob:')}).length")
+  
+  if [ "$AFTER" -gt "$BEFORE" ]; then
+    # 取新 blob（索引 = BEFORE）
+    $B js "(function(){var imgs=Array.from(document.querySelectorAll('img')).filter(function(i){return i.naturalWidth>100&&i.src.startsWith('blob:')});var img=imgs[$BEFORE];var c=document.createElement('canvas');c.width=img.naturalWidth;c.height=img.naturalHeight;c.getContext('2d').drawImage(img,0,0);return c.toDataURL('image/png')})()" | python3 -c "
+import sys,base64
+d=sys.stdin.read().strip()
+if d.startswith('data:image/png;base64,'):
+  with open('${OUTPUT}','wb') as f: f.write(base64.b64decode(d.split(',',1)[1]))
+  print('OK')
 "
+    return 0
+  else
+    return 1  # 没生图，需要重新激活模式
+  fi
+}
+
+# 使用
+generate_one "out.png" "Your image prompt here..."
+
+# 每 2 张后检查：如果连续 2 次 AFTER==BEFORE → 回 Step 2 重新激活
+```
+
+### Step 4: 重新激活生图模式（每 2 张后）
+
+```bash
+# 回主页
+$B goto https://gemini.google.com
+sleep 3
+
+# 重新点击制作图片 + 验证指示器
+$B js "(function(){var b=Array.from(document.querySelectorAll('button')).find(function(x){return x.textContent.includes('制作图片')});if(b){b.click();return'ok'}return'nobtn'})()"
+sleep 4
+$B snapshot -i | grep '取消选择' || echo "REACTIVATION FAILED"
 ```
 
 ### Step 5: 清理
@@ -119,22 +143,41 @@ print(f'Saved ({d[\"w\"]}x{d[\"h\"]})')
 $B disconnect
 ```
 
+## 提示词格式
+
+生图时 prompt 要精简（100-150 字符），把核心视觉元素说清楚。Gemini 在生图模式下对 prompt 长度敏感：
+
+```
+[style] [subject with key elements]. [layout]. [colors]. [mood].
+```
+
+示例：
+```
+Notion hand-sketched comparison two cards Accuracy vs Speed on cream notebook paper cozy minimal warm
+```
+
 ## 技术原理
 
-- Gemini Web API (`generate_content`) 对信息图 prompt 几乎 100% 拒生
-- Gemini Web UI「制作图片」模式走不同后端，所有类型 prompt 都能生图
-- 生成后图片以 `blob:` URL 存 DOM，通过 Canvas API 导出 PNG
-- 每张约 25-50 秒，尺寸通常 1024x559
+| 路径 | 行为 | 原因 |
+|------|------|------|
+| CLI API (`generate_content`) | 信息图 prompt → 0 图片 | API 端点不触发 Imagen |
+| UI「制作图片」模式 | 所有 prompt → 可生图 | UI 走不同服务端路径 |
+| 浏览器 JS (`$B js`) | 可操作 DOM | CDP pipe 注入 |
+| browse `click` | 频繁超时 (5s) | Playwright 选择器解析慢 |
+| browse `type` + `press Enter` | 稳定 | 模拟键盘输入 |
+| `$B cookie` 注入 | 需先访问 google.com | cookie domain 绑定 |
 
 ## 故障排查
 
-| 问题 | 解决方案 |
-|------|---------|
-| 浏览器连不上 | `$B connect` 重新连接 |
-| 未登录 | `bun <danger-gemini>/main.ts --login` 刷新 cookie 后重新注入 |
-| ref 过期 | `$B snapshot -i` 获取最新 ref |
-| 生图模式不激活 | 导航到 Gemini 主页 → 点「发起新对话」→ 重新点「制作图片」 |
-| 图片不生成 | 等 60 秒，检查「答得好」按钮 |
-| 提取的图片重复 | 只提取最后一个 blob：`imgs[imgs.length-1]` |
-| prompt 含特殊字符 | bash 单引号包裹，内部双引号需转义 |
-| JS 语法错误 (arrow fn) | 用 `function()` 替代 `()=>`，browse 的 JS 引擎不支持 ES6 |
+| 问题 | 原因 | 解法 |
+|------|------|------|
+| 未登录（显示「登录」链接） | cookie 域未建立 | **先 `goto google.com` → 注 cookie → 再 `goto gemini`** |
+| 没有「取消选择」指示器 | 不在生图模式 | 回主页重新点制作图片 |
+| 点制作图片后指示器仍不出现 | profile 缓存 | `rm -rf ~/.gstack/chromium-profile` 清 profile 重来 |
+| 第 3 张图不生成 | 模式会话限制 | 回主页重新激活生图模式 |
+| prompt 含特殊字符失败 | bash 转义 | 单引号包裹，双引号用 `\"` |
+| `$B js` 语法错误 | 箭头函数不支持 | 用 `function(){}` 代替 `()=>{}` |
+| 提取图片为空/0字节 | 取了错索引 | 用 `imgs[BEFORE]` 而非 `imgs[last]` |
+| MD5 重复 | 取了同一 blob | 同上，用索引 `BEFORE` 取新增的 |
+| `$B fill` / `$B click` 超时 | Playwright 限制 | 用 JS 替代：`$B js "...click()"` |
+| `$B cookie-import-browser` 返回 0 | Chrome cookie 加密 | 用 danger-gemini CLI 的 `--login` 刷新 |
