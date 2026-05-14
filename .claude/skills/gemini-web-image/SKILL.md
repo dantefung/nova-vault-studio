@@ -149,26 +149,24 @@ $B disconnect
 
 ## 提示词技巧
 
-Gemini Imagen 是通用图像模型（非信息图专用），对以下类型 prompt 生图率高：
+**2026-05-14 实测结论**：Gemini Web UI 的「制作图片」模式对**所有类型** prompt 都有效，
+包括信息图（infographic）、结构化指令（ZONES/LABELS/COLORS）、时间线、图表等。
+CLI 的 API 路径对非视觉 prompt 拒生，但 UI 路径照单全收。
 
-| ✅ 高成功率 | ❌ 低成功率 |
-|------------|------------|
-| 摄影/绘画风格描述 | 结构化图表（timeline/diagram） |
-| 抽象几何构图 | 矩阵表格 |
-| 场景/氛围描述 | 中文文字标注 |
-| 简洁、视觉化语言 | 多层级复杂指令 |
-| 纯英文 prompt | 含「ZONES」「LABELS」「COLORS」等结构化标签 |
+| 类型 | 示例 | 结果 |
+|------|------|------|
+| 纯视觉描述 | "A robot face against navy background" | ✅ |
+| 信息图描述 | "An infographic diagram with 5 stacked layers" | ✅ |
+| 结构化指令 | "ZONES: Title, 5 nodes. LABELS: 1966 ELIZA..." | ✅ |
+| 时间线 | "A timeline with milestones on a blue line" | ✅ |
 
-**推荐 prompt 模式**：
-```
-A [adjective] [subject] in [style], [lighting], [mood], [composition details]
-```
-例如：`"A friendly sleek white robot face with soft blue glowing eyes, against a deep navy gradient background, futuristic but warm design"`
+**唯一限制**：Gemini 文本理解能力决定了中文 label 是否精准渲染，
+复杂的中文文字标注可能需要多次尝试。
 
 ## 技术原理
 
-- Gemini Web API 的 Imagen 管线通过 `generate_content` API 触发不可靠，模型常返回空 images[]
-- 但 Gemini Web UI 的「制作图片」模式走的是不同的后端路径，成功率稳定
+- Gemini Web API (`generate_content`) 对信息图/结构化 prompt 几乎 100% 拒生（返回空 images[]）
+- 但 Gemini Web UI 的「制作图片」模式走不同的后端路径，**所有类型 prompt 都能生图**
 - 生成后的图片以 `blob:` URL 存在于 DOM，可直接通过 Canvas API 导出
 - 每次生图大约 25-40 秒，图片尺寸通常为 1024x559 或其他 16:9 变体
 

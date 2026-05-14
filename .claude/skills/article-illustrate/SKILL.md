@@ -62,26 +62,17 @@ description: |
 
 ## 提示词范式
 
-**❌ 错误**（结构化图表指令，Imagen 拒生）：
-```
-Create a timeline diagram with 13 nodes labeled...
-Use ZONES: title, timeline, labels...
-COLORS: deep blue, gold circles...
-```
+**2026-05-14 实测**：UI「制作图片」模式对所有类型 prompt 都有效。
+之前 API 路径的「信息图/结构化拒生」限制在 UI 路径上不存在。
 
-**✅ 正确**（纯视觉描述，Imagen 能吃）：
-```
-A vintage photograph style image of an old telephone on a wooden desk,
-warm sepia tones, soft window light, documentary photography aesthetic,
-nostalgic atmosphere
-```
+| 类型 | Prompt 示例 | 结果 |
+|------|------------|------|
+| 纯视觉 | "A robot face against deep navy background" | ✅ |
+| 信息图 | "An infographic diagram with 5 stacked layers, corporate style" | ✅ |
+| 结构化 | "ZONES: Title. LABELS: 1966 ELIZA... COLORS: blue, gold" | ✅ |
+| 时间线 | "A timeline with 5 milestones on a horizontal line" | ✅ |
 
-**关键区别**：
-- 不说 "Create a diagram/chart/infographic/timeline"
-- 不说 "ZONES / LABELS / COLORS / STYLE" 这些结构化标签
-- 像跟摄影师/画家说话一样描述画面
-- 指定风格：photography, oil painting, abstract geometric, cinematic, corporate minimalist
-- 指定氛围：warm, nostalgic, futuristic, hopeful, professional
+**可以直接用文章中的结构化图表描述作为 prompt**，不需要刻意转成纯视觉描述。
 
 ## 输出目录
 
