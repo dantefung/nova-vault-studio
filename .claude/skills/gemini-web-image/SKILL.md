@@ -1,31 +1,190 @@
 ---
 name: gemini-web-image
 description: |
-  通过有头浏览器直接操作 Gemini Web UI 生成图片。当用户说 "用 gemini 生图"、"gemini web 配图"、"gemini 生成图片"、
-  "danger-gemini 生图"、"Gemini 画图" 时触发。
-  适用于 danger-gemini CLI 的 API 路径无法触发生图时，通过可视化浏览器直接操作 gemini.google.com 的「制作图片」模式。
-  依赖 gstack browse 有头浏览器。
+  文章配图全流程技能。当用户说 "文章配图"、"给文章插图"、"用 gemini 生图"、"gemini 生成图片"、"Gemini 画图" 时触发。
+  自动分析文章 → 推荐配图方案(类型×风格×色板) → 通过有头浏览器操作 Gemini UI 生成图片 → 插入文章。
+  依赖 gstack browse 有头浏览器，已整合 baoyu-article-illustrator 的完整风格体系。
 ---
 
-# Gemini Web 图片生成（浏览器操作版）
+# Gemini Web 图片生成 & 文章配图
 
 通过有头浏览器直接操作 gemini.google.com 的「制作图片」模式生成图片，
-绕开 danger-gemini CLI 的 API 生图不稳定问题。
-
-> **背景**：danger-gemini-web 的 CLI (`scripts/main.ts --prompt "..." --image out.png`) 通过
-> Gemini Web API 请求生图时成功率极低（~10%），因为当前模型（gemini-3.0-pro/flash）的
-> Imagen 管线不稳定。但通过有头浏览器直接点击 Gemini UI 的「制作图片」按钮，
-> 成功率接近 100%。本技能封装了这套浏览器操作流程。
+内置完整风格体系（类型×风格×色板三维选择）。
 
 ## 前置依赖
 
-- gstack browse 已安装（`/home/fenghaolin/.claude/skills/gstack/browse/dist/browse`）
-- Google 账号已登录 Chrome（browse 复用本机 Chrome cookie）
-- bun 已安装
+- gstack browse (`/home/fenghaolin/.claude/skills/gstack/browse/dist/browse`)
+- Google 账号已登录
+- bun, python3
 
-## 执行流程
+## 三维度选择模型
 
-### Step 1: 启动有头浏览器
+| 维度 | 控制什么 | 可选值 |
+|------|---------|--------|
+| **Type** | 信息结构 | infographic, scene, flowchart, comparison, framework, timeline |
+| **Style** | 渲染风格 | blueprint, vector-illustration, notion, elegant, warm, editorial, scientific... |
+| **Palette** | 色彩方案(可选) | 默认(style自带), macaron, warm, neon |
+
+### 类型
+
+| Type | 适用场景 |
+|------|---------|
+| `infographic` | 数据、指标、技术概念 |
+| `scene` | 叙事、情感、氛围 |
+| `flowchart` | 流程、步骤、工作流 |
+| `comparison` | 对比、方案选择、PK |
+| `framework` | 模型、架构、原则 |
+| `timeline` | 历史、演进、时间线 |
+
+### 核心风格
+
+| Style | 视觉效果 | 适用 |
+|-------|---------|------|
+| `blueprint` | 技术蓝图，蓝白配色，精密线条 | AI/系统设计/工程 |
+| `vector-illustration` | 扁平矢量，粗几何形，鲜艳和谐 | 知识文章/教程/技术 |
+| `notion` | 极简手绘线稿，柔和图标 | SaaS/产品/知识分享 |
+| `elegant` | 精致高雅 | 商业/思想领导力 |
+| `warm` | 温暖友好 | 个人成长/生活/教育 |
+| `editorial` | 杂志级信息图，数据可视化强 | 数据新闻/报告 |
+| `scientific` | 学术精密图表 | 研究/论文/生物化学 |
+| `screen-print` | 海报风，半色调纹理，限色 | 观点/文化/影视 |
+
+### 完整风格画廊
+
+| Style | 描述 | 最佳场景 |
+|-------|------|---------|
+| `vector-illustration` | 扁平矢量，粗几何形 | 知识文章、教程、技术内容 |
+| `notion` | 极简手绘线稿 | 知识分享、SaaS、效率工具 |
+| `elegant` | 精致、高雅 | 商业、思想领导力 |
+| `warm` | 友好、亲和 | 个人成长、生活、教育 |
+| `minimal` | 超简洁、禅意 | 哲学、极简主义 |
+| `blueprint` | 技术蓝图 | 架构、系统设计、工程 |
+| `watercolor` | 柔和艺术水彩 | 生活、旅行、创意 |
+| `editorial` | 杂志信息图 | 技术解说、新闻 |
+| `scientific` | 学术精密图 | 生物、化学、研究 |
+| `chalkboard` | 黑板粉笔画 | 教育、教学 |
+| `fantasy-animation` | 吉卜力/迪士尼手绘风 | 故事、魔法、情感 |
+| `flat` | 现代粗几何 | 现代数字、当代 |
+| `flat-doodle` | 可爱扁平粗线 | 可爱、友好 |
+| `intuition-machine` | 技术简报旧纸风 | 技术简报、学术 |
+| `nature` | 有机自然插画 | 环境、健康 |
+| `pixel-art` | 复古8位像素 | 游戏、复古科技 |
+| `playful` | 俏皮粉彩涂鸦 | 趣味、休闲、教育 |
+| `retro` | 80/90年代霓虹几何 | 怀旧、大胆 |
+| `sketch` | 铅笔笔记本草图 | 头脑风暴、创意 |
+| `screen-print` | 海报艺术、半色调 | 观点、文化、影视 |
+| `sketch-notes` | 柔和手绘笔记 | 教育、温馨笔记 |
+| `vintage` | 羊皮纸历史 | 历史、传统 |
+
+### Type × Style 兼容矩阵
+
+| | vector | notion | warm | minimal | blueprint | watercolor | elegant | editorial | scientific | screen-print |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| infographic | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ |
+| scene | ✓ | ✓ | ✓✓ | ✓ | ✗ | ✓✓ | ✓ | ✓ | ✗ | ✓✓ |
+| flowchart | ✓✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✗ | ✓ | ✓✓ | ✓ | ✗ |
+| comparison | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓ |
+| framework | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✓ |
+| timeline | ✓ | ✓✓ | ✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ | ✓ |
+
+✓✓ = 强烈推荐 | ✓ = 兼容 | ✗ = 不推荐
+
+### 内容信号 → 自动推荐
+
+| 内容信号 | 类型 | 风格 |
+|---------|------|------|
+| API, 数据, 指标, 对比, 数字 | infographic | blueprint, vector-illustration |
+| 知识, 概念, 教程, 学习, 指南 | infographic | vector-illustration, notion |
+| 技术, AI, 编程, 代码 | infographic | vector-illustration, blueprint |
+| 步骤, 流程, 工作流 | flowchart | vector-illustration, notion |
+| 框架, 模型, 架构, 原则 | framework | blueprint, vector-illustration |
+| 对比, 优劣, 方案选择 | comparison | vector-illustration, notion |
+| 故事, 情感, 经历, 个人 | scene | warm, watercolor |
+| 历史, 时间线, 演进 | timeline | elegant, warm |
+| 效率工具, SaaS, 软件 | infographic | notion, vector-illustration |
+| 商业, 专业, 战略 | framework | elegant |
+| 观点, 文化, 哲学, 影视 | scene | screen-print |
+| 生物, 化学, 医学 | infographic | scientific |
+| 新闻, 杂志, 调查 | infographic | editorial |
+
+### 色板
+
+| Palette | 效果 | 适用 |
+|---------|------|------|
+| (默认) | 风格自带配色 | 通用 |
+| `macaron` | 柔和粉彩(蓝/薄荷/薰衣草/桃) 暖奶油底 | 教育/知识/教程 |
+| `warm` | 暖色大地调(橙/陶/金) 柔和桃底 | 品牌/产品/生活 |
+| `neon` | 鲜艳霓虹(粉/青/黄) 深紫底 | 游戏/复古/流行 |
+
+### 风格预设 (Preset)
+
+| Preset | Type | Style | 适用 |
+|--------|------|-------|------|
+| `tech-explainer` | infographic | blueprint | API文档/系统指标 |
+| `system-design` | framework | blueprint | 架构图/系统设计 |
+| `knowledge-base` | infographic | vector-illustration | 概念解释/教程 |
+| `saas-guide` | infographic | notion | 产品指南/SaaS |
+| `tutorial` | flowchart | vector-illustration | 分步教程 |
+| `process-flow` | flowchart | notion | 工作流文档 |
+| `data-report` | infographic | editorial | 数据新闻/报告 |
+| `versus` | comparison | vector-illustration | 技术对比 |
+| `history` | timeline | elegant | 历史概述 |
+| `edu-visual` | infographic + macaron | vector-illustration | 知识总结 |
+| `opinion-piece` | scene | screen-print | 观点/评论 |
+
+## 文章配图交互流程
+
+### Step 1: 读文章 → Step 2: 分析 → Step 3: 确认 → Step 4: 生图 → Step 5: 插入
+
+### Step 1: 通读文章
+
+读完全文，理解内容类型、核心论点和结构。
+
+### Step 2: 分析并推荐方案
+
+输出分析结果：
+
+```
+【内容分析】
+- 类型：技术教程 / 方法论 / 叙事 / 数据报告 / ...
+- 目的：信息传达 / 可视化 / 情绪营造
+- 核心论点：2-5个
+
+【配图推荐】
+| # | 段落 | Type | Style | 概念 |
+|---|------|------|-------|------|
+| 1 | §X 标题 | flowchart | blueprint | 流程描述... |
+| 2 | §Y 标题 | comparison | vector-illustration | 对比描述... |
+```
+
+### Step 3: 确认方案
+
+用 AskUserQuestion 确认，1 次最多 4 问：
+
+| Q | 内容 |
+|---|------|
+| Q1 | 类型/预设 (推荐 + 备选) |
+| Q2 | 密度 (per-section 推荐 / balanced / minimal) |
+| Q3 | 风格 (推荐 + 备选) |
+| Q4 | 色板 (默认 / macaron / warm / neon) |
+
+### Step 4: 生图
+
+调用浏览器流程逐张生成（见下文「浏览器操作」部分）。
+
+### Step 5: 插入文章
+
+```markdown
+### 段落标题
+
+![描述](images/article-slug/01-concept-name.png)
+
+正文...
+```
+
+## 浏览器操作流程
+
+### Step B1: 启动并登录
 
 ```bash
 B="/home/fenghaolin/.claude/skills/gstack/browse/dist/browse"
@@ -33,149 +192,139 @@ B="/home/fenghaolin/.claude/skills/gstack/browse/dist/browse"
 # 清理旧进程
 kill $(cat "$(git rev-parse --show-toplevel 2>/dev/null)/.gstack/browse.json" 2>/dev/null | grep -o '"pid":[0-9]*' | grep -o '[0-9]*') 2>/dev/null || true
 sleep 1
-rm -f "$(git rev-parse --show-toplevel 2>/dev/null)/.gstack/browse.json" 2>/dev/null
-rm -f "$HOME/.gstack/chromium-profile/SingletonLock" "$HOME/.gstack/chromium-profile/SingletonSocket" "$HOME/.gstack/chromium-profile/SingletonCookie" 2>/dev/null
+rm -f "$(git rev-parse --show-toplevel 2>/dev/null)/.gstack/browse.json"
 
 # 连接有头浏览器
 $B connect
-```
 
-### Step 2: 登录 Gemini
+# 注入 Google cookies（从 danger-gemini 会话）
+python3 -c "
+import json, subprocess
+with open('$HOME/.local/share/baoyu-skills/gemini-web/cookies.json') as f:
+    data = json.load(f)
+for name, value in data.get('cookieMap', {}).items():
+    subprocess.run(['$B', 'cookie', f'{name}={value}'], capture_output=True, timeout=3)
+"
 
-```bash
+# 导航到 Gemini
 $B goto https://gemini.google.com
-$B snapshot -i
+sleep 3
+# 如果有 cookie 弹窗，点接受
+$B snapshot -i | grep '全部接受' && $B js "Array.from(document.querySelectorAll('button')).find(function(b){return b.textContent.includes('全部接受')}).click();'ok'"
 ```
 
-检查 snapshot 输出：
-- 如果看到 Google 登录页 → 需要导入 cookies 或手动登录
-- 如果看到 Cookie 同意页 → `$B click @e5`（全部接受）
-- 如果看到 Gemini 主页 → 已登录，继续
-
-**Cookie 导入**（如果需要）：
-```bash
-$B cookie-import-browser Chrome --domain google.com
-```
-
-### Step 3: 进入「制作图片」模式
-
-在 Gemini 主页上，点击「制作图片」按钮：
+### Step B2: 进入生图模式
 
 ```bash
-$B snapshot -i | grep '制作图片'
-# 找到按钮 ref，例如 @e9
-$B click @e9
-```
-
-验证模式激活：snapshot 中应出现「取消选择"制作图片"」按钮。
-
-### Step 4: 输入提示词并生图
-
-```bash
-# 找到 textbox ref
-TEXTBOX=$($B snapshot -i | grep -E '@e[0-9]+ \[textbox\]' | tail -1 | grep -oP '@e[0-9]+')
-
-# 填入提示词
-$B fill $TEXTBOX "你的图片描述..."
-
-# 等 send 按钮激活后点击
+# 点击「制作图片」按钮
+$B js "Array.from(document.querySelectorAll('button')).find(function(b){return b.textContent.includes('制作图片')}).click();'imgmode'"
 sleep 2
-SENDBTN=$($B snapshot -i | grep -E '@e[0-9]+ \[button\] "发送"' | tail -1 | grep -oP '@e[0-9]+')
-$B click $SENDBTN
-
-# 等待生图完成（通常 25-40 秒）
-sleep 35
+# 验证：应看到 textbox
+$B snapshot -i | grep '为 Gemini 输入提示'
 ```
 
-### Step 5: 提取图片
-
-Gemini 生成的图片以 blob URL 存在页面 `<img>` 元素中。
-用 JS 通过 `<canvas>` 转换为 data URL 再解码保存：
+### Step B3: 输入并发送
 
 ```bash
+# 聚焦 textbox 并打字
+$B js "document.querySelector('[aria-label*=\"为 Gemini 输入提示\"]').focus();'ok'"
+sleep 1
+$B type "你的图片 prompt ..."
+
+# 按 Enter 发送
+$B press Enter
+```
+
+### Step B4: 等待并提取
+
+```bash
+sleep 50  # 等待生图
+
+# 检查是否生图成功
+$B snapshot -i | grep 'AI 生成'
+
+# 提取最后一张 blob 图片
 $B js "
-(async () => {
-  const imgs = Array.from(document.querySelectorAll('img')).filter(i => i.naturalWidth > 100);
-  if (!imgs.length) return '[]';
-  const results = [];
-  for (let idx = 0; idx < imgs.length; idx++) {
-    const img = imgs[idx];
-    const canvas = document.createElement('canvas');
-    canvas.width = img.naturalWidth;
-    canvas.height = img.naturalHeight;
-    canvas.getContext('2d').drawImage(img, 0, 0);
-    results.push({index: idx, w: img.naturalWidth, h: img.naturalHeight, data: canvas.toDataURL('image/png')});
-  }
-  return JSON.stringify(results);
+(function() {
+  var imgs = Array.from(document.querySelectorAll('img')).filter(function(i){
+    return i.naturalWidth>100 && i.src.startsWith('blob:');
+  });
+  var last = imgs[imgs.length-1];
+  var c = document.createElement('canvas');
+  c.width = last.naturalWidth; c.height = last.naturalHeight;
+  c.getContext('2d').drawImage(last, 0, 0);
+  return JSON.stringify({w:last.naturalWidth, h:last.naturalHeight, data:c.toDataURL('image/png')});
 })()
 " | python3 -c "
-import json, sys, base64
-data = json.loads(sys.stdin.read().strip())
-# 保存所有图片，按索引命名
-for d in data:
-    idx = d['index']
-    b64 = d['data'].split(',',1)[1]
-    with open(f'output-{idx:02d}.png', 'wb') as f:
-        f.write(base64.b64decode(b64))
-    print(f'Saved output-{idx:02d}.png ({len(b64)} bytes b64)')
+import json,sys,base64
+d=json.loads(sys.stdin.read().strip())
+b64=d['data'].split(',',1)[1]
+with open('output.png','wb') as f: f.write(base64.b64decode(b64))
+print(f'Saved ({d[\"w\"]}x{d[\"h\"]})')
 "
 ```
 
-### Step 6: 批量生图
-
-生成多张图片时，每张之间需要间隔。在同一对话中连续发 prompt：
-
-```bash
-for i in 1 2 3; do
-  TEXTBOX=$($B snapshot -i | grep -E '@e[0-9]+ \[textbox\]' | tail -1 | grep -oP '@e[0-9]+')
-  SENDBTN=$($B snapshot -i | grep -E '@e[0-9]+ \[button\] "发送"' | tail -1 | grep -oP '@e[0-9]+')
-  
-  $B fill $TEXTBOX "$PROMPT_$i"
-  sleep 2
-  $B click $SENDBTN
-  sleep 35  # 等待生图
-  echo "Image $i done"
-done
-
-# 最后一次性提取所有图片
-$B js "..." | python3 -c "..."
-```
-
-### Step 7: 关闭浏览器
+### Step B5: 清理
 
 ```bash
 $B disconnect
 ```
 
-## 提示词技巧
+## Prompt 写作
 
-**2026-05-14 实测结论**：Gemini Web UI 的「制作图片」模式对**所有类型** prompt 都有效，
-包括信息图（infographic）、结构化指令（ZONES/LABELS/COLORS）、时间线、图表等。
-CLI 的 API 路径对非视觉 prompt 拒生，但 UI 路径照单全收。
+### 结构化 Prompt 模板（信息图/图表用）
 
-| 类型 | 示例 | 结果 |
-|------|------|------|
-| 纯视觉描述 | "A robot face against navy background" | ✅ |
-| 信息图描述 | "An infographic diagram with 5 stacked layers" | ✅ |
-| 结构化指令 | "ZONES: Title, 5 nodes. LABELS: 1966 ELIZA..." | ✅ |
-| 时间线 | "A timeline with milestones on a blue line" | ✅ |
+```
+A [type] showing [content]. [layout description]. [style cues]. [color scheme].
+```
 
-**唯一限制**：Gemini 文本理解能力决定了中文 label 是否精准渲染，
-复杂的中文文字标注可能需要多次尝试。
+示例：
+```
+A comparison diagram with three columns showing nano vs mini vs 4o.
+Each column has a colored bar for speed and cost.
+Bold geometric shapes, flat modern vector art style.
+Blue green orange palette, white background.
+```
 
-## 技术原理
+### 视觉风格 Prompt 模板（场景/概念用）
 
-- Gemini Web API (`generate_content`) 对信息图/结构化 prompt 几乎 100% 拒生（返回空 images[]）
-- 但 Gemini Web UI 的「制作图片」模式走不同的后端路径，**所有类型 prompt 都能生图**
-- 生成后的图片以 `blob:` URL 存在于 DOM，可直接通过 Canvas API 导出
-- 每次生图大约 25-40 秒，图片尺寸通常为 1024x559 或其他 16:9 变体
+```
+A [adjective] [subject] in [style], [lighting], [mood], [composition details].
+```
+
+## 注意事项
+
+- **「制作图片」按钮**：在 Gemini 主页（非对话内）出现。点击后应进入生图模式（textbox 出现）
+- **生图模式指示器**：如果看到「取消选择"制作图片"」按钮 = 确认在生图模式
+- **每次文本回复后模式重置**：需要重新点击「制作图片」进入生图
+- **Cookie 有效期**：danger-gemini 的 cookie 可能过期，需要时运行 `bun <danger-gemini>/main.ts --login` 刷新
+- **图片格式**：blob URL → Canvas → PNG，通常 1024x559
 
 ## 故障排查
 
 | 问题 | 解决方案 |
 |------|---------|
 | 浏览器连不上 | `$B connect` 重新连接 |
-| 未登录 | `$B cookie-import-browser Chrome --domain google.com` |
+| 未登录 | 检查 cookie 注入，必要时 `bun ... --login` 重新认证 |
 | ref 过期 | `$B snapshot -i` 获取最新 ref |
-| 图片一直不生成 | 等 60 秒，检查是否有「答得好/答得不好」按钮出现 |
-| 提取的图片重复 | 生图未完成就提取了，等久一点 |
+| 生图模式不激活 | 切换到 Gemini 主页 → 点「发起新对话」→ 点「制作图片」 |
+| 图片一直不生成 | 等 60 秒，检查是否有「答得好」按钮 |
+| 提取的图片重复 | 只提取最后一个 blob（`imgs[imgs.length-1]`） |
+| 文字渲染不准 | Gemini 中文文本能力有限，label 尽量用英文或简短 |
+
+## 实际案例
+
+### 案例 1: 智能客服建设指南（信息图）
+- 5 张信息图：timeline, framework, flowchart, comparison, framework
+- 风格：blueprint
+- 生成时间：~5 分钟
+
+### 案例 2: 概念艺术配图（已废弃，改用信息图）
+- 5 张概念图：摄影/抽象/路标/机器人/风景
+- 风格：visual description
+- 结论：信息图方案更优
+
+### 案例 3: 意图分类分析（待配图）
+- 5 张：comparison, framework, flowchart, comparison, flowchart
+- 风格：vector-illustration
+- 类型匹配：技术文章 → infographic/flowchart/comparison + vector-illustration
