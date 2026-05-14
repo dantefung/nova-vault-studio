@@ -56,8 +56,10 @@ date: "2026-05-09"
 ## Related Pages
 
 - [[patterns/intelligent-customer-service]]
-- [[patterns/context-engineering]]
+- [[patterns/production-deployment]]
+- [[patterns/rag-implementation]]
+- [[concepts/rag]]
 
 ## Sources
 
-- docs/md/guide/ai/intelligent-customer-service/index.md
+- [[智能客服专栏] 智能客服系统建设总纲 - 常见失败模式](./index.md)

@@ -17,6 +17,12 @@ date: "2026-05-09"
 | [Prompt Engineering](concepts/prompt-engineering) | 通过设计、优化输入提示词来引导 LLM 产生预期输出的实践学科 |
 | [Agentic Architectures](concepts/agentic-architectures) | 从论文原型到生产系统的 17 种 Agent 架构模式 |
 | [Vibe Coding](concepts/vibe-coding) | 用自然语言和 AI 快速构建功能原型的编程方式 |
+| [RAG](concepts/rag) | 检索增强生成，将外部知识检索与LLM生成结合的技术架构 |
+| [GraphRAG](concepts/graph-rag) | 图增强RAG，将知识图谱与RAG深度融合的技术方案 |
+| [LightRAG](concepts/light-rag) | 香港大学推出的轻量级图增强RAG，双层检索+增量更新 |
+| [意图识别](concepts/intent-classification) | 智能客服入口层优化技术，准确理解用户问题意图 |
+| [知识图谱](concepts/knowledge-graph) | 用结构化节点和边表示实体及关系的语义网络 |
+| [多Agent系统](concepts/multi-agent) | 多个具有专业能力的Agent协同工作的系统 |
 
 ## Patterns（模式与方法论）
 
@@ -41,6 +47,8 @@ date: "2026-05-09"
 | [Google ADK Agent 模式](patterns/google-adk-agent-patterns) | Sequential、Parallel、Coordinator、Hierarchical、Generator-Critic |
 | [智能客服系统建设](patterns/intelligent-customer-service) | 从零构建智能客服的五步流程与技术选型 |
 | [RAG 常见失败模式](patterns/rag-failure-patterns) | 提示词注入、上下文失效、跨文档推理、窗口溢出四种失败模式 |
+| [RAG检索增强实现](patterns/rag-implementation) | RAG完整实现指南：分块、Embedding、向量库、检索策略、生成控制 |
+| [生产环境部署](patterns/production-deployment) | 智能客服生产级部署最佳实践：安全、混合架构、转人工、性能优化 |
 
 ## Products（产品与工具）
 
@@ -57,6 +65,12 @@ date: "2026-05-09"
 | [Context7](products/context7) | 实时获取库文档的 MCP 工具 |
 | [cc-connect](products/cc-connect) | 连接 AI 编程助手与消息平台的开源工具 |
 | [Prompt Hub](products/prompt-hub) | 提示词中心，收录精选模板和画图提示词 |
+| [LangChain](products/langchain) | 通用型LLM应用开发框架，链式编排为核心 |
+| [LlamaIndex](products/llamaindex) | RAG专用框架，以索引和检索效果优化为核心 |
+| [RAGFlow](products/ragflow) | 深度文档理解的RAG引擎，强调"质量进，质量出" |
+| [QAnything](products/qanything) | 网易有道开源RAG，两阶段检索+BCEmbedding |
+| [Milvus](products/milvus) | 国产开源向量数据库，百亿级向量规模 |
+| [Neo4j](products/neo4j) | 最成熟的图数据库，用于知识图谱存储 |
 
 ## Comparisons（对比分析）
 

@@ -93,3 +93,32 @@ date: "2026-05-09"
 
 **Updated pages**: index.md, log.md
 **New cross-references**: 85+ cross-references established across all pages
+
+---
+
+## 2026-05-14: 萃取智能客服专栏知识
+
+**Source**: docs/md/guide/ai/intelligent-customer-service/
+**New pages**: 15
+- concepts/rag.md
+- concepts/graph-rag.md
+- concepts/light-rag.md
+- concepts/intent-classification.md
+- concepts/knowledge-graph.md
+- concepts/multi-agent.md
+- products/langchain.md
+- products/llamaindex.md
+- products/ragflow.md
+- products/qanything.md
+- products/milvus.md
+- products/neo4j.md
+- patterns/rag-implementation.md
+- patterns/production-deployment.md
+
+**Updated pages**: 
+- patterns/intelligent-customer-service.md (补充Sources)
+- patterns/rag-failure-patterns.md (补充Sources)
+- index.md (新增页面条目)
+- log.md
+
+**New cross-references**: 45+ cross-references established

@@ -35,11 +35,22 @@ date: "2026-05-09"
 | 图数据库 | Neo4j |
 | 模型管理 | Ollama |
 
+## Context
+
+智能客服专栏共18篇文章，覆盖v1（基于NotebookLM调研）和v2（基于联网对抗性研究）两个版本，涵盖系统架构、RAG实现、知识图谱、多智能体、技术选型、生产部署、架构演进、意图分类等完整内容。
+
 ## Related Pages
 
+- [[patterns/rag-implementation]]
 - [[patterns/rag-failure-patterns]]
-- [[concepts/agentic-architectures]]
+- [[patterns/production-deployment]]
+- [[concepts/rag]]
+- [[concepts/knowledge-graph]]
+- [[concepts/multi-agent]]
 
 ## Sources
 
-- docs/md/guide/ai/intelligent-customer-service/index.md
+- [[智能客服专栏] 智能客服系统建设总纲](./index.md)
+- [[智能客服专栏] 系统设计与架构](./01-system-design.md)
+- [[智能客服专栏] 系统设计与架构v2](./07-system-design-v2.md)
+- [[智能客服专栏] 智能客服建设指南](./16-customer-service-building-guide.md)
