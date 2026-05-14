@@ -13,6 +13,8 @@ url: ""
 
 ## 一、问题本质：准确与快，天然矛盾吗？
 
+![准确性 vs 速度](images/intent-classification/01-accuracy-vs-speed.png)
+
 意图分类面临一个经典 trade-off：
 
 | 目标 | 常见做法 | 代价 |
@@ -28,6 +30,8 @@ url: ""
 ## 二、准确性优化：从 Prompt 结构到置信度体系
 
 ### 2.1 Prompt 结构：最被低估的优化杠杆
+
+![Prompt 结构对比](images/intent-classification/02-prompt-structure.png)
 
 低效 Prompt 示例：
 
@@ -87,6 +91,8 @@ Prompt: "将以下意图分配到对应类别：..."
 
 ### 2.4 置信度阈值体系：动态而非固定
 
+![置信度三级路由](images/intent-classification/03-confidence-routing.png)
+
 | 置信度 | 区间 | 系统动作 |
 |--------|------|---------|
 | 高置信 | ≥ 0.85 | 直接路由到对应专家 Agent |
@@ -126,6 +132,8 @@ ICLER（Intent Classification with Enhanced Reasoning）在标准 ICL 框架中�
 ## 三、速度优化：让入口快过整个链路
 
 ### 3.1 选对模型：nano 模型是意图分类的最优性价比
+
+![模型对比](images/intent-classification/04-model-comparison.png)
 
 | 模型 | 上下文窗口 | 吞吐量 | 输入费用 | 输出费用 |
 |------|-----------|--------|---------|---------|
@@ -345,6 +353,8 @@ response = client.chat.completions.create(
 > **注意**：不同模型的 confidence 分布差异显著，换模型后必须重新标定。
 
 ### 4.5 活跃学习闭环（持续优化）
+
+![活跃学习闭环](images/intent-classification/05-active-learning.png)
 
 意图分类系统上线后，通过以下反馈循环持续提升：
 
