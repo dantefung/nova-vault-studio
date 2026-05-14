@@ -18,6 +18,7 @@ url: ""
 | 01 | [GStack 技能包安装报告](./01-GStack-技能包安装报告.md) | 安装与配置 | GStack/Codex 技能包安装指南 |
 | 02 | [GStack 10 分钟上手版](./02-gstack-10分钟上手版.md) | 快速入门 | 最小可用的 GStack 配置 |
 | 03 | [GStack 使用手册](./03-gstack-使用手册.md) | 完整手册 | 20+ 条技能定义与使用场景 |
+| 04 | [GSD 快速开始：从单次任务到完整项目管理](./04-gsd-quick-start.md) | 快速入门 | GSD 三步上手路径：Quick Fix / 代码库维护 / 完整项目，含 XML 任务计划示例 |
 | 11 | [Pensieve：让 AI Agent 拥有持续生长的项目记忆](./11-pensieve-architecture.md) | 项目记忆 | 四层知识模型(MUST/WANT/HOW/IS)、七工具、图谱生成、自增强循环 |
 
 ---
