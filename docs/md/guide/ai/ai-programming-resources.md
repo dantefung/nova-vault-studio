@@ -50,6 +50,7 @@ date: "2026-05-05"
 - [browser-harness](https://github.com/browser-use/browser-harness) — 浏览器自动化工具，适合 Hermes / OpenClaw 等 Agent 操纵浏览器执行复杂任务，相比 CDP/MCP 方案更轻量易用
 - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 收录各主流产品的 DESIGN.md 文件，供 AI coding agent 生成匹配风格的 UI
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
+- [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) — 开源 Claude Design 替代品，5.8k stars，支持 Claude/GPT/Gemini/Ollama 等多模型，一键导入 Claude Code / Codex 配置，本地优先，MIT 协议
 - [CloudCLI](https://github.com/siteboon/claudecodeui) — 为 Claude Code CLI 打造图形界面，支持手机远程查看进度、操作交互
 - [bozhou-skills](https://github.com/bozhouDev/bozhou-skills) — AI 工具集，包含图像生成、播客转文章、PPT 生成、微信发布、社交封面图等 11 个子项目，主要使用 TypeScript
 - [obsidian-wechat-converter](https://github.com/DavidLam-oss/obsidian-wechat-converter) — 将 Obsidian 笔记转换为微信公众号格式，支持标题、图片、代码块等格式转换
