@@ -9,6 +9,8 @@ tags: ["研究方法", "深度研究", "认知框架", "Prompt", "方法论"]
 
 # 横纵分析法：半小时搞懂任何陌生领域的深度研究框架
 
+![hv-analysis](images/hv-analysis/hv-analysis-cover.png)
+
 > 核心方法：纵向追时间深度，横向追同期广度，最后交汇出判断。
 
 ## 方法论起源
