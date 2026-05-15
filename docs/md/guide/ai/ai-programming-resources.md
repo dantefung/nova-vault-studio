@@ -33,6 +33,50 @@ date: "2026-05-05"
 
 ---
 
+## Claude Skills 精选（2026年）
+
+> 来源：[@sylvainxai](https://x.com/i/status/2037772956483678532) 整理
+
+### 发现与元技能
+
+- [find-skills](https://github.com/find-skills) — 在 GitHub 上搜索和查找合适的 Skills，按类别、星级和更新时间筛选
+- [skill-creator](https://github.com/skill-creator) — 自动生成标准化的 SKILL.md 文件和目录结构，将团队 SOP 转化为可安装的技能包
+- [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
+
+### 工程与设计标准
+
+- [vercel-react-best-practices](https://github.com/vercel/react-best-practices) — 巩固团队开发标准，涵盖可读性、性能和边缘案例处理
+- [vue-best-practices](https://github.com/vuejs/core) — 标准化组件边界、状态管理和复用策略
+- [frontend-design](https://github.com/anthropic/frontend-design) — 使用 Tailwind/shadcn/ui 生成高质量 HTML/CSS/React 代码，聚焦间距和对齐避免"AI风味"
+- [ui-ux-pro-max-skill](https://github.com/ui-ux-pro-max/ui-ux-pro-max-skill) — 跨平台设计（Web、iOS、Android）、响应式布局和设计系统管理
+- [web-design-guidelines](https://github.com/web-design-guidelines) — 将网页设计规则系统化：层次结构、排版、无障碍
+- [building-native-ui](https://github.com/building-native-ui) — React Native/Expo 原生 UI 步骤，避免平台差异和手势错误
+- [remotion-best-practices](https://github.com/remotion-dev/remotion-best-practices) — 可编程视频项目标准，聚焦项目结构和渲染性能
+
+### 生产力与知识管理
+
+- [planning-with-files](https://github.com/planning-with-files) — 自动维护 todo.md 和 plan.md 跟踪任务状态，防止无限循环
+- [ralph-wiggum](https://github.com/ralph-wiggum) — planning-with-files 的执行伙伴，负责执行具体计划任务
+- [document-skills](https://github.com/anthropic/document-skills) — 官方"四大技能"：Docx、Xlsx、Pptx 和 PDF 完整套件
+- [obsidian-skills](https://github.com/obsidianmd/obsidian-skills) — 自动化知识库管理、双向链接优化和 Canvas 功能
+- [Markitdown](https://github.com/dstearle/markitdown) — 将 PDF、PPT、图片、音频和 ZIP 转换为 Markdown
+- [notebooklm-skill](https://github.com/notebooklm/skill) — 将视频字幕和 PDF 集成到云知识库
+
+### 自动化、营销与研究
+
+- [agent-browser](https://github.com/agent-browser/agent-browser) — 自动化浏览、提取信息和生成表格，构建重复性研究任务结构
+- [X-article-publisher-skill](https://github.com/x-article-publisher/x-article-publisher-skill) — 使 AI 能像人类一样操作网页（登录、填表、上传），将网站变成私人工具
+- [seo-audit](https://github.com/seo-audit/seo-audit) — 提供标题、元标签和页面速度检查清单，可直接转化为任务清单
+- [copywriting](https://github.com/copywriting-skill/copywriting) — 定义受众和卖点以避免通用 AI 文案并提高转化率
+- [claude-scientific-skills](https://github.com/claude-scientific/claude-scientific-skills) — 学术场景：论文写作、数据可视化和 LaTeX 公式处理
+- [Awesome-claude-skills](https://github.com/anthropic/awesome-claude-skills) — 26,000+ stars 中心仓库，收集 10+ 类别精选技能
+
+### 核心洞察
+
+> 该生态系统代表了从"一次性输出"到"可复用工作流"的转变。通过"安装"专家的专业知识，用户降低了入门门槛，超越了复杂的提示工程。AI 不再只是你指挥的工具——它是一个能计划和执行的协作伙伴。
+
+---
+
 ## 设计工具 Skills
 
 - [bggg-skills](https://github.com/bggg-ai/bggg-skills) — 饼干（@bggg_ai）的 Codex Skills 仓库
