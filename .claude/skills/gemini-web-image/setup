@@ -1,0 +1,18 @@
+#!/bin/bash
+# gemini-web-image setup — verify gstack browse is available
+set -e
+
+B="/home/fenghaolin/.claude/skills/gstack/browse/dist/browse"
+
+if [ -x "$B" ]; then
+  echo "gstack browse: OK ($B)"
+  exit 0
+fi
+
+echo "gstack browse not found at $B"
+echo ""
+echo "Install gstack:"
+echo "  cd ~/.claude/skills/gstack && ./setup"
+echo ""
+echo "This builds the browse binary (~98MB, Go-compiled, requires Go toolchain)."
+exit 1

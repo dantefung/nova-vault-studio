@@ -12,9 +12,16 @@ description: |
 
 ## 依赖
 
-仅一个：**gstack browse**（`/home/fenghaolin/.claude/skills/gstack/browse/dist/browse`）
+仅一个：**gstack browse**。默认路径 `~/.claude/skills/gstack/browse/dist/browse`。
 
-提供 Playwright Chromium 二进制 + CDP pipe 通信层（`$B js` / `$B type` / `$B goto` 等）。
+提供 Playwright Chromium + CDP pipe 通信层（`$B js` / `$B type` / `$B goto` 等）。
+
+```bash
+# 检查是否已安装
+bash .claude/skills/gemini-web-image/setup
+```
+
+gstack browse 是 98MB Go 编译 ELF 二进制，链接仅依赖 libc。无 npm/pip 依赖链。
 
 ## 持久化
 
@@ -36,7 +43,7 @@ Profile 包含 Google 登录态。首次登录后，Chromium SQLite 保存 cooki
 gstack browse 启动的是**有头浏览器**（用户可看到窗口）。
 
 ```bash
-B="/home/fenghaolin/.claude/skills/gstack/browse/dist/browse"
+B="$HOME/.claude/skills/gstack/browse/dist/browse"
 STORE="$HOME/.local/share/nova-vault/gemini-web-image"
 PROFILE="$STORE/gstack-chrome-profile"; mkdir -p "$PROFILE"
 
@@ -59,7 +66,7 @@ $B goto https://gemini.google.com
 ### 日常：零步骤启动
 
 ```bash
-B="/home/fenghaolin/.claude/skills/gstack/browse/dist/browse"
+B="$HOME/.claude/skills/gstack/browse/dist/browse"
 STORE="$HOME/.local/share/nova-vault/gemini-web-image"
 PROFILE="$STORE/gstack-chrome-profile"
 
