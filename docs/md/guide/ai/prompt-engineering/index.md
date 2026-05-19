@@ -63,6 +63,7 @@ graph TD
 - [02-05 CO-STAR 框架](./02-01-methods/02-05-co-star-framework.md) — 结构化提示词构建方法
 - [02-06 CRISP 框架](./02-01-methods/02-06-crisp-framework.md) — 批判性思维提示词框架
 - [02-07 ICIO 框架](./02-01-methods/02-07-icio-framework.md) — 指令 + 上下文 + 输入 + 输出格式
+- [02-08 Prompt 设计编译器](./02-01-methods/02-08-prompt-design-compiler.md) — 知识对象路由与高信息密度 Prompt 设计方法
 
 ---
 
