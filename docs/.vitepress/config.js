@@ -114,6 +114,13 @@ export default defineConfig({
           { text: '产品与工具', link: '/md/wiki/products/' },
           { text: '对比分析', link: '/md/wiki/comparisons/' },
         ]
+      },
+      {
+        text: '商业',
+        items: [
+          { text: '商业分析总览', link: '/md/business/' },
+          { text: '市场分析', link: '/md/business/market-analysis/' },
+        ]
       }
     ],
     sidebar: {
@@ -157,9 +164,11 @@ export default defineConfig({
       '/md/wiki/patterns/': generateSidebar('docs/md/wiki/patterns', '/md/wiki/patterns/'),
       '/md/wiki/products/': generateSidebar('docs/md/wiki/products', '/md/wiki/products/'),
       '/md/wiki/comparisons/': generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/'),
+      '/md/business/': generateSidebar('docs/md/business', '/md/business/'),
       ...generateSidebarMappingForSubdirectories('docs/md/books', '/md/books/'),
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
-      ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/')
+      ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/business', '/md/business/')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dantefung/nova-vault-studio' },
