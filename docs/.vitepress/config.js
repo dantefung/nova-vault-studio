@@ -121,6 +121,12 @@ export default defineConfig({
           { text: '商业分析总览', link: '/md/business/' },
           { text: '市场分析', link: '/md/business/market-analysis/' },
         ]
+      },
+      {
+        text: '产品',
+        items: [
+          { text: "Lenny's Newsletter", link: '/md/guide/pm/lenny-newsletter/' },
+        ]
       }
     ],
     sidebar: {
