@@ -41,6 +41,8 @@ url: ""
 | — | [拆解 AI Agent 内部：300 行 ReAct 循环](./simple-react-agent-loop.md) | 架构解析 | Action 即危险、上下文成本、ReAct 循环的极简本质 |
 | — | [75K Star 的 Skills 仓库到底凭什么](./mattpocock-skills-analysis.md) | 案例剖析 | Matt Pocock 把 4 本经典压成 10 行招式，心法→招式的范本 |
 | — | [Coding Tutor Plugin 架构详解](./coding-tutor-plugin-architecture.md) | 案例剖析 | Agent 驱动的个性化编程教学：learn profile → 代码库实例 → 间隔重复，Skill + Python 脚本架构 |
+| — | [Open Multi-Agent — TS 原生多 Agent 编排框架](./open-multi-agent-research.md) | 框架分析 | Goal→DAG 自动拆解，10 Provider，MCP，6.2k⭐，仅 3 运行时依赖 |
+| — | [GStack 知识系统架构](./gstack-knowledge-system.md) | 架构解析 | Learnings + GBrain + Preamble 三层记忆：自动捕获、置信度衰减、向量检索、跨机器同步 |
 
 ---
 
