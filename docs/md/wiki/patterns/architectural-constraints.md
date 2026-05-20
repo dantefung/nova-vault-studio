@@ -35,4 +35,4 @@ date: "2026-05-09"
 
 ## Sources
 
-- GitHub Conn-Ho/harness-engineering: docs/md/guide/ai/harness/concepts/02-architectural-constraints.md
+- GitHub Conn-Ho/harness-engineering: docs/md/columns/harness-engineering/concepts/02-architectural-constraints.md

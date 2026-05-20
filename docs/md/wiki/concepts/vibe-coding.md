@@ -34,4 +34,4 @@ Vibe Coding 强调用自然语言与 AI 协作，快速将想法转化为可运�
 
 ## Sources
 
-- docs/md/guide/ai/vibe/index.md
+- docs/md/columns/vibe-coding/index.md

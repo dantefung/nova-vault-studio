@@ -31,4 +31,4 @@ date: "2026-05-09"
 
 ## Sources
 
-- docs/md/guide/ai/harness/concepts/03-entropy-management.md
+- docs/md/columns/harness-engineering/concepts/03-entropy-management.md

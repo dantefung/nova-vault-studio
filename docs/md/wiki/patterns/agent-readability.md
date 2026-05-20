@@ -24,4 +24,4 @@ Agent 可读性关注的是：当 AI Agent 阅读代码库时，能否快速理�
 
 ## Sources
 
-- GitHub Conn-Ho/harness-engineering: docs/md/guide/ai/harness/concepts/04-agent-readability.md
+- GitHub Conn-Ho/harness-engineering: docs/md/columns/harness-engineering/concepts/04-agent-readability.md

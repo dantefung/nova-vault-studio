@@ -36,4 +36,4 @@ date: "2026-05-09"
 
 ## Sources
 
-- docs/md/guide/ai/harness/ecosystem-tools-comparison.md
+- docs/md/columns/harness-engineering/ecosystem-tools-comparison.md

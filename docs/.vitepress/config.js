@@ -123,9 +123,13 @@ export default defineConfig({
         ]
       },
       {
-        text: '产品',
+        text: '专栏',
         items: [
-          { text: "Lenny's Newsletter", link: '/md/pm/lenny-newsletter/' },
+          { text: '专栏总览', link: '/md/columns/' },
+          { text: 'Agentic Engineer', link: '/md/columns/agentic-engineer/' },
+          { text: 'Vibe Coding', link: '/md/columns/vibe-coding/' },
+          { text: 'Harness Engineering', link: '/md/columns/harness-engineering/' },
+          { text: "Lenny's Newsletter", link: '/md/columns/lenny-newsletter/' },
         ]
       }
     ],
@@ -172,11 +176,13 @@ export default defineConfig({
       '/md/wiki/comparisons/': generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/'),
       '/md/business/': generateSidebar('docs/md/business', '/md/business/'),
       '/md/pm/': generateSidebar('docs/md/pm', '/md/pm/'),
+      '/md/columns/': generateSidebar('docs/md/columns', '/md/columns/'),
       ...generateSidebarMappingForSubdirectories('docs/md/books', '/md/books/'),
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/'),
       ...generateSidebarMappingForSubdirectories('docs/md/business', '/md/business/'),
-      ...generateSidebarMappingForSubdirectories('docs/md/pm', '/md/pm/')
+      ...generateSidebarMappingForSubdirectories('docs/md/pm', '/md/pm/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/columns', '/md/columns/')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dantefung/nova-vault-studio' },

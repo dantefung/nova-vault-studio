@@ -33,4 +33,4 @@ date: "2026-05-09"
 
 ## Sources
 
-- docs/md/guide/ai/vibe/05-01-context7/context7.md
+- docs/md/columns/vibe-coding/05-01-context7/context7.md

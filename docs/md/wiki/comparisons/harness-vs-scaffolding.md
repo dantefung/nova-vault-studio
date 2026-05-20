@@ -36,4 +36,4 @@ date: "2026-05-09"
 
 ## Sources
 
-- GitHub Conn-Ho/harness-engineering: docs/md/guide/ai/harness/concepts/06-harness-vs-scaffolding.md
+- GitHub Conn-Ho/harness-engineering: docs/md/columns/harness-engineering/concepts/06-harness-vs-scaffolding.md

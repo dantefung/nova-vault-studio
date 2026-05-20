@@ -48,4 +48,4 @@ AGENTS.md（≤100 行，目录索引）
 
 ## Sources
 
-- GitHub Conn-Ho/harness-engineering: docs/md/guide/ai/harness/concepts/01-context-engineering.md
+- GitHub Conn-Ho/harness-engineering: docs/md/columns/harness-engineering/concepts/01-context-engineering.md

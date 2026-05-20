@@ -44,4 +44,4 @@ date: "2026-05-09"
 
 ## Sources
 
-- GitHub Conn-Ho/harness-engineering: docs/md/guide/ai/harness/concepts/03-entropy-management.md
+- GitHub Conn-Ho/harness-engineering: docs/md/columns/harness-engineering/concepts/03-entropy-management.md

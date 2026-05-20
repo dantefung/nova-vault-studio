@@ -658,4 +658,4 @@ Pensieve 最初以「Linus Torvalds 风格引导 Prompt」闻名——用「good
 - [中文 README](https://github.com/kingkongshot/Pensieve/blob/zh/README.md)
 - [Pensieve SKILL.md](https://github.com/kingkongshot/Pensieve/blob/main/SKILL.md)
 - [Pensieve CHANGELOG](https://github.com/kingkongshot/Pensieve/blob/main/CHANGELOG.md)
-- [Pensieve 架构设计 — nova-vault-studio](/docs/md/guide/ai/agentic-engineer/)
+- [Pensieve 架构设计 — nova-vault-studio](/docs/md/columns/agentic-engineer/)

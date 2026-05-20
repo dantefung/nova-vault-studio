@@ -46,4 +46,4 @@ date: "2026-05-09"
 
 ## Sources
 
-- GitHub Conn-Ho/harness-engineering: docs/md/guide/ai/harness/concepts/00-overview.md
+- GitHub Conn-Ho/harness-engineering: docs/md/columns/harness-engineering/concepts/00-overview.md
