@@ -13,6 +13,7 @@ graph TD
     A --> E[提示词技巧]
     A --> F[上下文管理]
     A --> G[工作流架构]
+    A --> H[工具栈]
     B --> B1[通用规则]
     B --> B2[开发规则]
     C --> C1[Spec工作流]
@@ -27,6 +28,7 @@ graph TD
     F --> F2[MCP配置]
     G --> G1[工作流]
     G --> G2[Codex]
+    H --> H1[工具栈速配]
 ```
 
 ```markmap height=320
@@ -51,6 +53,8 @@ graph TD
 ## 06 工作流与架构
 - 06-01-workflow：工作流
 - 06-02-codex：Codex
+## 07 工具栈与CLI
+- 07-01-toolstack：Vercel/Supabase/Stripe/Cloudflare 全配齐
 ```
 
 ---
@@ -102,3 +106,9 @@ graph TD
 |------|------|
 | [06-01-workflow](/guide/ai/vibe/06-01-workflow/) | Vibe 开发工作流 |
 | [06-02-codex](/guide/ai/vibe/06-02-codex/) | Codex 相关内容 |
+
+### 07 工具栈与CLI
+
+| 章节 | 内容 |
+|------|------|
+| [07-01-toolstack](/guide/ai/vibe/07-toolstack/) | Vercel / Supabase / Stripe / Cloudflare / GSC+GA4 / Resend / SSH Agent 全链路工具链速配 |
