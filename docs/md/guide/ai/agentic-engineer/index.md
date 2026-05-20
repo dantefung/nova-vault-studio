@@ -40,6 +40,7 @@ url: ""
 | — | [Ralph 循环在复合工程中的作用](./ralph-loop-compound-engineering.md) | 模式解析 | Ralph 循环 × 复合工程：每一个特性让下一个更容易构建 |
 | — | [拆解 AI Agent 内部：300 行 ReAct 循环](./simple-react-agent-loop.md) | 架构解析 | Action 即危险、上下文成本、ReAct 循环的极简本质 |
 | — | [75K Star 的 Skills 仓库到底凭什么](./mattpocock-skills-analysis.md) | 案例剖析 | Matt Pocock 把 4 本经典压成 10 行招式，心法→招式的范本 |
+| — | [Coding Tutor Plugin 架构详解](./coding-tutor-plugin-architecture.md) | 案例剖析 | Agent 驱动的个性化编程教学：learn profile → 代码库实例 → 间隔重复，Skill + Python 脚本架构 |
 
 ---
 
