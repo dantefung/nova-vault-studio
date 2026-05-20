@@ -175,13 +175,11 @@ export default defineConfig({
       '/md/wiki/products/': generateSidebar('docs/md/wiki/products', '/md/wiki/products/'),
       '/md/wiki/comparisons/': generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/'),
       '/md/business/': generateSidebar('docs/md/business', '/md/business/'),
-      '/md/pm/': generateSidebar('docs/md/pm', '/md/pm/'),
       '/md/columns/': generateSidebar('docs/md/columns', '/md/columns/'),
       ...generateSidebarMappingForSubdirectories('docs/md/books', '/md/books/'),
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/'),
       ...generateSidebarMappingForSubdirectories('docs/md/business', '/md/business/'),
-      ...generateSidebarMappingForSubdirectories('docs/md/pm', '/md/pm/'),
       ...generateSidebarMappingForSubdirectories('docs/md/columns', '/md/columns/')
     },
     socialLinks: [
