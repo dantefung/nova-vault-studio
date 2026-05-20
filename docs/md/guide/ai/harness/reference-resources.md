@@ -1,6 +1,6 @@
 ---
 title: "Harness Engineering 参考资源"
-date: "2026-05-08"
+date: "2026-05-20"
 source: "GitHub Conn-Ho/harness-engineering"
 url: "https://github.com/Conn-Ho/harness-engineering"
 ---
@@ -45,6 +45,31 @@ url: "https://github.com/Conn-Ho/harness-engineering"
   - 高吞吐自主 Agent 循环的参考实现，PRD 驱动，git worktree 隔离
 - **[az9713/harness-engineering-blueprint](https://github.com/az9713/harness-engineering-blueprint)** — 长期运行多 Agent 系统的综合驭化工程指南
 - **[deepklarity/harness-kit](https://github.com/deepklarity/harness-kit)** — AI Agent 工程模式工具包
+- **[deusyu/harness-engineering](https://github.com/deusyu/harness-engineering)** — Harness 相关文档仓库
+
+---
+
+## 社区视角
+
+- **[George @odysseus0z — 控制论视角看 Harness](https://x.com/odysseus0z/status/2030416758138634583)**
+  - 从控制论（Cybernetics）的角度解读 Harness Engineering 的核心逻辑
+
+- **[Viv @Vtrivedy10 — Agent Harness 解剖](https://x.com/Vtrivedy10/status/2031408954517971368)**
+  - 对 Agent Harness 的结构化解剖分析
+
+---
+
+## 框架与文档
+
+- **[LangChain DeepAgents — Harness 文档](https://docs.langchain.com/oss/python/deepagents/harness)**
+  - LangChain 官方 DeepAgents 框架的 Harness 层设计文档
+
+---
+
+## 社区知识库
+
+- **[一支烟花社区 — Harness 知识库（飞书）](https://hqexj12b0g.feishu.cn/wiki/VSl1wSQDnitFCwktjvochuURne5)**
+  - 中文社区 Harness Engineering 知识沉淀
 
 ---
 
