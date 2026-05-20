@@ -13,7 +13,7 @@ url: "https://www.lennysnewsletter.com/"
 
 ## Newsletter（7 年合集）
 
-| 年份 | 文件 | 期数 |
+| 年份 | 文件 | 说明 |
 |------|------|------|
 | 2019 | [Newsletter 2019](./newsletters-2019.md) | 2019 年全部文章 |
 | 2020 | [Newsletter 2020](./newsletters-2020.md) | 61 期 |
@@ -27,7 +27,7 @@ url: "https://www.lennysnewsletter.com/"
 
 ## Podcast（16 个季度合集）
 
-| 季度 | 文件 | 期数 |
+| 季度 | 文件 | 说明 |
 |------|------|------|
 | 2022 Q2 | [Podcast 2022 Q2](./podcasts-2022-q2.md) | 2022 Q2 全部节目 |
 | 2022 Q3 | [Podcast 2022 Q3](./podcasts-2022-q3.md) | 2022 Q3 全部节目 |
@@ -51,11 +51,3 @@ url: "https://www.lennysnewsletter.com/"
 ## 关于 Lenny Rachitsky
 
 Lenny 曾任 Airbnb 产品经理，他的 Newsletter 和 Podcast 聚焦于产品管理、增长策略、用户研究和职业发展，订阅者超过 70 万。他的内容以**深度访谈一线产品领袖**和**实战方法论**著称，是硅谷产品经理的必读资源。
-
----
-
-## 相关资源
-
-- [Lenny's Newsletter 官网](https://www.lennysnewsletter.com/)
-- [Lenny's Podcast (Spotify / Apple)](https://www.lennyspodcast.com/)
-- [Lenny's Job Board](https://www.lennysjobs.com/)

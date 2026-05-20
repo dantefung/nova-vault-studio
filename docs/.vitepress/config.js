@@ -125,7 +125,7 @@ export default defineConfig({
       {
         text: '产品',
         items: [
-          { text: "Lenny's Newsletter", link: '/md/guide/pm/lenny-newsletter/' },
+          { text: "Lenny's Newsletter", link: '/md/pm/lenny-newsletter/' },
         ]
       }
     ],
@@ -171,10 +171,12 @@ export default defineConfig({
       '/md/wiki/products/': generateSidebar('docs/md/wiki/products', '/md/wiki/products/'),
       '/md/wiki/comparisons/': generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/'),
       '/md/business/': generateSidebar('docs/md/business', '/md/business/'),
+      '/md/pm/': generateSidebar('docs/md/pm', '/md/pm/'),
       ...generateSidebarMappingForSubdirectories('docs/md/books', '/md/books/'),
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/'),
-      ...generateSidebarMappingForSubdirectories('docs/md/business', '/md/business/')
+      ...generateSidebarMappingForSubdirectories('docs/md/business', '/md/business/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/pm', '/md/pm/')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dantefung/nova-vault-studio' },
