@@ -273,6 +273,52 @@ base layers
 - `python-deps:/install` → `runtime:/usr/local`
 - `node-deps:/app/node_modules` → `runtime:/app/node_modules`
 
+### 缓存失效规则：阶段内 + 跨阶段
+
+阶段在物理层面就是一条命名的 layer 链。缓存失效分两种情况：
+
+**1. 同一阶段内：前面层失效 → 后面层全部失效**
+
+```
+同一阶段内：
+Layer A   ← 输入未变，可复用
+Layer B   ← 输入变了，重新构建
+Layer C   ← 必须重建（基于新的 Layer B 快照）
+```
+
+原因很简单：Layer C 是基于新的 Layer B 文件系统快照继续构建的，旧的 Layer C 不能直接接上去。
+
+**2. 跨阶段：COPY --from 引用的内容变了 → 引用层及后续失效**
+
+```
+python-deps 阶段里的 /install 内容变了
+  → runtime 里 COPY --from=python-deps 层失效
+  → runtime 里这一层后面的所有层也失效
+```
+
+完整的关系图：
+
+```
+                   base
+                    │
+          ┌─────────┼─────────┐
+          │         │         │
+          v         v         v
+     python-deps  node-deps  runtime
+          │         │         │
+          │         │         ├── COPY from python-deps  ← 跨阶段依赖
+          │         │         ├── COPY from node-deps    ← 跨阶段依赖
+          │         │         └── COPY app
+          │         │
+          │         └── npm install
+          │
+          └── pip install
+```
+
+一句话：
+
+> **阶段就是一条可命名的构建链；缓存按链条顺序判断；跨阶段通过 COPY --from 建立依赖关系。**
+
 ### 阶段是真实存在的构建单元
 
 "阶段"首先是 Dockerfile 语法的逻辑概念，但它会真实映射到 Docker/BuildKit 的物理构建结果上。
