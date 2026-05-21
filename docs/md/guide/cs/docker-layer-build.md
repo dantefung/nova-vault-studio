@@ -71,6 +71,39 @@ default-libmysqlclient-dev
 - 镜像体积膨胀（编译器+头文件几百 MB）
 - 攻击面扩大（多一个工具多一个风险点）
 
+### 先分清：分层缓存 ≠ 多阶段构建
+
+很多人把"拷贝依赖文件放前面"等同于"多阶段构建"，其实它们是两个独立机制：
+
+**只做了分层缓存（有，但不完整）：**
+
+```dockerfile
+FROM python:3.10-slim-bullseye
+# ...
+COPY requirements.txt /app/     # ← 依赖文件放前面
+RUN pip install -r requirements.txt
+COPY . /app/                     # ← 业务代码放后面
+```
+
+| 能力 | 是否具备 |
+|------|---------|
+| 缓存 Python 依赖（代码变不重装 pip） | ✅ 是 |
+| 多阶段构建（`FROM ... AS` + `COPY --from`） | ❌ 不是 |
+| 把编译工具（build-essential 等）排除出最终镜像 | ❌ 不能 |
+
+这种 Dockerfile 做对了依赖与代码分离，但 `build-essential`、`pkg-config`、`default-libmysqlclient-dev` 这些编译 `mysqlclient` 用的工具会永远留在最终运行镜像里。
+
+**真正的多阶段构建（拆成 base / deps / runtime 三段）：**
+
+```dockerfile
+FROM python:3.10-slim-bullseye AS base
+FROM base AS python-deps       # 编译阶段——装编译器，pip install
+FROM base AS runtime             # 运行阶段——只拿产物，不带编译工具
+COPY --from=python-deps /install /usr/local
+```
+
+结论一句话：**分层缓存决定"重不重装"，多阶段构建决定"带不带进镜像"。两者互补，不是一回事。**
+
 ### 多阶段构建方案
 
 ```dockerfile
