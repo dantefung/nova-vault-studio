@@ -206,6 +206,47 @@ COPY --from=node-deps /app/node_modules /app/node_modules
 
 这条语法的本质是：**一个 Dockerfile，多个独立的构建环境，互相之间只传递最终产物。**
 
+### 阶段是真实存在的构建单元
+
+"阶段"首先是 Dockerfile 语法的逻辑概念，但它会真实映射到 Docker/BuildKit 的物理构建结果上。
+
+```
+FROM base AS python-deps     ← 命名阶段（逻辑名）
+RUN apt-get install gcc       ← 生成真实缓存层
+RUN pip install ...            ← 生成真实缓存层
+
+FROM base AS runtime           ← 最后一个阶段就是最终镜像的"根"
+COPY --from=python-deps /install /usr/local  ← 只这一行让产物进入最终镜像
+```
+
+物理上看：
+
+```
+build 阶段的层：
+  ├─ python 基础层
+  ├─ 安装 gcc 的层
+  └─ pip install 的层
+
+runtime 阶段的层（最终镜像）：
+  ├─ python 基础层
+  └─ COPY /install 的层
+
+build 阶段的 gcc 等层 → 不属于最终镜像引用链
+                       → 但可能留在 Docker build cache
+```
+
+核心结论：
+
+| 概念 | 是什么 |
+|------|--------|
+| 阶段 | 逻辑构建单元 + 独立的文件系统快照链 |
+| 阶段名（如 `python-deps`） | 逻辑引用名，供 `COPY --from` 使用 |
+| 阶段里的 RUN/COPY | 真实存在的缓存对象（layer/blob/snapshot） |
+| 最终镜像 | 最后一个 FROM 阶段 + 显式 COPY 进来的内容 |
+| 未被引用的阶段层 | 构建缓存，可复用（下次构建更快），也可被 prune 清理 |
+
+一句话：**阶段不是纯注释，是真实参与构建的文件系统快照。最终镜像不会引用所有阶段，只引用最后一个阶段及 COPY --from 的内容。**
+
 ### 中间阶段产物的去向
 
 多阶段构建里的"中间产物"分两类：
