@@ -370,6 +370,94 @@ build 阶段的 gcc 等层 → 不属于最终镜像引用链
 
 可以这么类比：**阶段名是构建图的节点名，阶段内容是真实的文件系统快照链，最终镜像是构建图导出的结果。**
 
+### BuildKit 构建图（DAG）示意
+
+BuildKit 不是简单的一条线，而是在构建一个有向无环图（DAG）。每个阶段产生各自的快照链，跨阶段通过 `COPY --from` 建立引用边：
+
+```
+                           ┌──────────────────────┐
+                           │ python:3.10-slim     │
+                           │ base image layers    │
+                           └──────────┬───────────┘
+                                      │
+                           ┌──────────▼───────────┐
+                           │ base snapshot         │
+                           │ ENV + WORKDIR         │
+                           └──────────┬───────────┘
+                                      │
+            ┌─────────────────────────┼─────────────────────────┐
+            │                         │                         │
+            ▼                         ▼                         ▼
+  ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
+  │ python-deps snap │  │ node-deps snap   │  │ runtime snap     │
+  │ apt build deps   │  │ install node     │  │ apt runtime libs │
+  │ cache record P1   │  │ cache record N1  │  │ cache record R1  │
+  └────────┬─────────┘  └────────┬─────────┘  └────────┬─────────┘
+           │                     │                     │
+           ▼                     ▼                     ▼
+  ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
+  │ python-deps snap │  │ node-deps snap   │  │ runtime snap     │
+  │ pip install      │  │ npm install      │  │ COPY /install    │◄──────┐
+  │ cache record P2  │  │ cache record N2  │  │ from python-deps │       │
+  └────────┬─────────┘  └────────┬─────────┘  │ cache record R2  │       │
+           │                     │             └────────┬─────────┘       │
+           │                     │                       │                │
+           │                     │                       ▼                │
+           │                     │             ┌──────────────────┐       │
+           │                     └────────────►│ runtime snap     │       │
+           │                                   │ COPY node_modules│       │
+           │                                   │ from node-deps   │       │
+           │                                   │ cache record R3  │       │
+           │                                   └────────┬─────────┘       │
+           │                                            │                 │
+           │                                            ▼                 │
+           │                                   ┌──────────────────┐       │
+           │                                   │ runtime snap     │       │
+           │                                   │ COPY . /app      │       │
+           │                                   │ cache record R4  │       │
+           │                                   └────────┬─────────┘       │
+           │                                            │                 │
+           │                                            ▼                 │
+           │                                   ┌──────────────────┐       │
+           │                                   │ final image      │       │
+           │                                   │ image manifest   │       │
+           └───────────────────────────────────┴──────────────────┘       │
+               P2 留在 build cache，可复用                                  │
+                                                                          │
+               P2 的 /install 被 R2 引用 ─────────────────────────────────┘
+```
+
+简化版：
+
+```
+                   base
+                    │
+        ┌───────────┼───────────┐
+        │           │           │
+        ▼           ▼           ▼
+     P1 apt      N1 node      R1 libs
+        │           │           │
+        ▼           ▼           ▼
+     P2 pip      N2 npm       R2 copy from P2
+                                │
+                                ▼
+                             R3 copy from N2
+                                │
+                                ▼
+                             R4 copy app
+                                │
+                                ▼
+                           final image
+```
+
+含义：
+
+- **P2** = `python-deps` 最终快照 → N2 = `node-deps` 最终快照 → R4 = `runtime` 最终快照
+- 最终导出镜像只导出 R4 这条链
+- P1/P2/N1/N2 留在 BuildKit cache，供下次构建复用
+- `COPY --from=python-deps` = 从 P2 快照读取文件
+- `COPY --from=node-deps` = 从 N2 快照读取文件
+
 ### 中间阶段产物的去向
 
 多阶段构建里的"中间产物"分两类：
