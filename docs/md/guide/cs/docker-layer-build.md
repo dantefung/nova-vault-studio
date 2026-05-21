@@ -124,6 +124,37 @@ COPY . /app/
 CMD ["python", "app.py"]
 ```
 
+### `FROM base AS node-deps` 语法解释
+
+`FROM base AS node-deps` 是 Docker 多阶段构建中的**派生语法**：
+
+```dockerfile
+# 先定义一个公共基础阶段
+FROM python:3.10-slim-bullseye AS base
+# 公共配置：ENV、WORKDIR 等
+
+# 从 base 派生，专门安装 Python 依赖
+FROM base AS python-deps
+# 安装 Python 依赖
+
+# 从 base 派生，专门安装 Node 依赖
+FROM base AS node-deps
+# 安装 Node 依赖
+
+# 从 base 派生，最终运行镜像
+FROM base AS runtime
+COPY --from=python-deps /install /usr/local
+COPY --from=node-deps /app/node_modules /app/node_modules
+```
+
+关键点：
+
+1. **`FROM base AS node-deps`** = "以 `base` 阶段作为基础镜像，再开一个新阶段，名叫 `node-deps`"
+2. **`COPY --from=node-deps`** = "从 `node-deps` 阶段里拿产物，不是从宿主机拿"
+3. **隔离效果**：`node-deps` 里安装 Node 依赖时的中间环境（npm 缓存、devDependencies 等）**不会进入最终镜像**——最终镜像只拿它产出的 `node_modules`
+
+这条语法的本质是：**一个 Dockerfile，多个独立的构建环境，互相之间只传递最终产物。**
+
 ---
 
 ## 三、Playwright Chromium 的安置策略
