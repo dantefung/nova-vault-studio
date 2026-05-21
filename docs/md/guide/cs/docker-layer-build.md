@@ -206,6 +206,51 @@ COPY --from=node-deps /app/node_modules /app/node_modules
 
 这条语法的本质是：**一个 Dockerfile，多个独立的构建环境，互相之间只传递最终产物。**
 
+### 中间阶段产物的去向
+
+多阶段构建里的"中间产物"分两类：
+
+**1. 被 `COPY --from` 复制到最终镜像的 → 留下**
+
+```dockerfile
+COPY --from=python-deps /install /usr/local
+COPY --from=node-deps /app/node_modules /app/node_modules
+```
+
+最终镜像里会有 Python 包（`/usr/local/...`）和 Node 包（`/app/node_modules`）。
+
+**2. 没有被复制的 → 不进入最终镜像**
+
+`python-deps` 阶段里的这些永远不会出现在 `runtime` 镜像中：
+
+- `build-essential`、`pkg-config`、`default-libmysqlclient-dev`
+- `apt` 缓存
+- 临时构建目录
+
+**但它们不一定会立刻物理删除。** Docker/BuildKit 为了缓存复用，会把中间阶段的层保留在本机 build cache 里。
+
+```
+多阶段构建各阶段
+        │
+        │ COPY --from=xxx 的内容
+        ▼
+最终镜像：保留被复制的产物
+
+未复制内容：
+  → 不进入最终镜像
+  → 但可能留在 Docker build cache
+  → 等待复用或被 prune 清理
+```
+
+清理命令：
+
+```bash
+docker builder prune     # 清理构建缓存
+docker system prune      # 更彻底，含悬空镜像
+```
+
+在 CI 里：如果没有持久化 BuildKit cache，中间阶段随 runner 销毁；如果配了 Docker layer cache，可能被缓存到下次构建。
+
 ---
 
 ## 三、Playwright Chromium 的安置策略
