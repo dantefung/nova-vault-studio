@@ -43,6 +43,7 @@ url: ""
 | — | [Coding Tutor Plugin 架构详解](./coding-tutor-plugin-architecture.md) | 案例剖析 | Agent 驱动的个性化编程教学：learn profile → 代码库实例 → 间隔重复，Skill + Python 脚本架构 |
 | — | [Open Multi-Agent — TS 原生多 Agent 编排框架](./open-multi-agent-research.md) | 框架分析 | Goal→DAG 自动拆解，10 Provider，MCP，6.2k⭐，仅 3 运行时依赖 |
 | — | [GStack 知识系统架构](./gstack-knowledge-system.md) | 架构解析 | Learnings + GBrain + Preamble 三层记忆：自动捕获、置信度衰减、向量检索、跨机器同步 |
+| — | [OMC 19 Agent 架构实战](./omc-19-agents-architecture.md) | 架构解析 | Hooks→Skills→Agents→State 四层编排，19 Agent 四泳道，三层模型路由，三种执行模式 |
 | — | [Prompt → Context → Harness 三次进化](./prompt-context-harness-evolution.md) | 深度文章 | 从 Prompt 到 Context 到 Harness 的工程进化论：嵌套关系、衰变定律、Human Steer + Agents Execute |
 
 ---
