@@ -206,6 +206,73 @@ COPY --from=node-deps /app/node_modules /app/node_modules
 
 这条语法的本质是：**一个 Dockerfile，多个独立的构建环境，互相之间只传递最终产物。**
 
+**逻辑视角 —— 阶段与数据流：**
+
+```
+            ┌──────────────────────────────┐
+            │ FROM python AS base           │
+            │ ENV / WORKDIR                 │
+            └──────────────┬───────────────┘
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          v                v                v
+  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
+  │ python-deps  │  │ node-deps    │  │ runtime      │
+  │              │  │              │  │              │
+  │ install gcc  │  │ install node │  │ install libs │
+  │ pip install  │  │ npm install  │  │ tini / cmd   │
+  │              │  │              │  │              │
+  │ /install     │  │ node_modules │  │              │
+  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘
+         │                 │                 │
+         │ COPY --from     │ COPY --from     │
+         │                 │                 │
+         v                 v                 v
+         └──────────────┬──┴─────────────────┘
+                        │
+                        v
+              ┌────────────────────┐
+              │ 最终 runtime 镜像   │
+              │                    │
+              │ /usr/local         │  ← Python 依赖
+              │ /app/node_modules  │  ← Node 依赖
+              │ /app               │  ← 应用代码
+              │ gunicorn CMD       │
+              └────────────────────┘
+```
+
+**物理视角 —— 哪些层在最终镜像里，哪些只在 build cache：**
+
+```
+build cache 里可能存在
+────────────────────────────────────────
+
+base layers
+   │
+   ├── python-deps layers
+   │      ├── build-essential
+   │      ├── pkg-config
+   │      ├── mysql dev headers
+   │      └── /install
+   │
+   ├── node-deps layers
+   │      ├── nodejs
+   │      └── /app/node_modules
+   │
+   └── runtime layers   ← 最终镜像只引用这一条链
+          ├── runtime apt libs
+          ├── COPY /install from python-deps
+          ├── COPY node_modules from node-deps
+          ├── playwright chromium
+          └── COPY app source
+```
+
+关键点：`python-deps` 和 `node-deps` 整个阶段不会进入最终镜像。只有 `COPY --from` 指定的内容会进入 runtime：
+
+- `python-deps:/install` → `runtime:/usr/local`
+- `node-deps:/app/node_modules` → `runtime:/app/node_modules`
+
 ### 阶段是真实存在的构建单元
 
 "阶段"首先是 Dockerfile 语法的逻辑概念，但它会真实映射到 Docker/BuildKit 的物理构建结果上。
