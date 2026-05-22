@@ -42,6 +42,11 @@ date: "2026-05-05"
 - [find-skills](https://github.com/find-skills) — 在 GitHub 上搜索和查找合适的 Skills，按类别、星级和更新时间筛选
 - [skill-creator](https://github.com/skill-creator) — 自动生成标准化的 SKILL.md 文件和目录结构，将团队 SOP 转化为可安装的技能包
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
+- [mattpocock/skills](https://github.com/mattpocock/skills) — TypeScript 大神 Matt Pocock（前 Vercel 工程师）的 AI 编程工作流技能库，82.5k stars，18 个技能
+  - 安装：`npx skills@latest add mattpocock/skills`
+  - 痛点拆解：沟通不对齐、术语不统一、缺反馈循环、代码熵增
+  - 核心技能：`/grill-me`（深度需求拷问）、`/tdd`（红绿重构）、`/caveman`（精简 token 75%）、`/improve-codebase-architecture`（代码库定期保养）
+  - 背景：《The Pragmatic Programmer》+ DDD + XP 工程经验提炼
 
 ### 工程与设计标准
 
@@ -70,6 +75,13 @@ date: "2026-05-05"
 - [copywriting](https://github.com/copywriting-skill/copywriting) — 定义受众和卖点以避免通用 AI 文案并提高转化率
 - [claude-scientific-skills](https://github.com/claude-scientific/claude-scientific-skills) — 学术场景：论文写作、数据可视化和 LaTeX 公式处理
 - [Awesome-claude-skills](https://github.com/anthropic/awesome-claude-skills) — 26,000+ stars 中心仓库，收集 10+ 类别精选技能
+
+### Claude Code 官方 Skills 插件
+
+- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — Claude Code Plugin Marketplace 官方插件
+  - 安装：`/plugin marketplace add addyosmani/agent-skills`
+  - 使用：`/plugin install agent-skills@addy-agent-skills`
+  - 功能：安装后即可使用 7 个斜杠命令，Skill 根据上下文自动激活
 
 ### 核心洞察
 

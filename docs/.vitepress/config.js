@@ -130,6 +130,7 @@ export default defineConfig({
           { text: 'Vibe Coding', link: '/md/columns/vibe-coding/' },
           { text: 'Harness Engineering', link: '/md/columns/harness-engineering/' },
           { text: "Lenny's Newsletter", link: '/md/columns/lenny-newsletter/' },
+          { text: '绘图指南', link: '/md/columns/drawing/' },
         ]
       }
     ],

@@ -40,3 +40,11 @@ url: ""
 > Lenny Rachitsky 的 Newsletter 与 Podcast 精华合集，产品管理领域最具影响力的内容。
 
 [进入专栏 →](/md/columns/lenny-newsletter/)
+
+---
+
+## 绘图指南
+
+> SVG 绘图、UML 图绘制、AI 生成图片、架构图制作、Drawio 使用、绘图工具合集。
+
+[进入专栏 →](/md/columns/drawing/)
