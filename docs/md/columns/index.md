@@ -48,3 +48,11 @@ url: ""
 > SVG 绘图、UML 图绘制、AI 生成图片、架构图制作、Drawio 使用、绘图工具合集。
 
 [进入专栏 →](/md/columns/drawing/)
+
+---
+
+## OPC 一人公司
+
+> 一人公司、超级个体、超级岗位、FDE——AI 时代的个体崛起与职业转型。
+
+[进入专栏 →](/md/columns/opc/)
