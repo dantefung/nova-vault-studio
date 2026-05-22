@@ -41,6 +41,20 @@ convert /tmp/temp.png images/{文章名}/{图片名}.png
 file images/{文章名}/{图片名}.png    # 必须输出 "PNG image data"
 ```
 
+### 公众号采集必须两步走：正文 + 图片
+
+`fetch_weixin.py` 只抓 Markdown 正文和远程图片 URL，**不会下载图片到本地**。漏掉第二步图片就白抓了。
+
+```bash
+# 第一步：抓正文（含远程图片 URL）
+python3 ~/.claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL" > /tmp/temp.md
+
+# 第二步：下载图片到本地（必须紧跟，带 Referer 穿越防盗链）
+python3 ~/.agents/skills/markdown-proxy/scripts/download-images.py -i /tmp/temp.md -o /tmp/temp.md
+```
+
+> **铁律**：这两个脚本以前是独立存在的，但 SKILL.md 从来没把它们串起来。现在已经更新了 markdown-proxy 的 SKILL.md，Agent 采集公众号时会自动执行两步。如果你手动调 `fetch_weixin.py`，必须手动补调 `download-images.py`。
+
 ### `ignoreDeadLinks: true` — 死链接静默放过
 
 构建时不会因为死链接报错。如果改动了文件路径或删除了页面，相关引用不会自动发现。
@@ -49,7 +63,7 @@ file images/{文章名}/{图片名}.png    # 必须输出 "PNG image data"
 
 ## 归档文章到专栏
 
-1. 文件放到专栏目录（如 `docs/md/guide/ai/agentic-engineer/`）
+1. 文件放到专栏目录（如 `docs/md/columns/agentic-engineer/`）
 2. **手动更新专栏 `index.md` 的表格** — 侧边栏自动生成，但 index.md 的索引表不自动维护
 3. YAML frontmatter 必须含 `title`, `date`, `source`, `url`
 
