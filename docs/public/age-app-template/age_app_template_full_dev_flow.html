@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AGE App Template 全流程使用图</title>
+<style>
+  :root {
+    --bg: #f6f8fb;
+    --panel: #ffffff;
+    --ink: #14213d;
+    --muted: #5d6b82;
+    --line: #d7deea;
+    --blue: #2563eb;
+    --blue-soft: #eaf1ff;
+    --green: #16a34a;
+    --green-soft: #eaf8ef;
+    --orange: #f97316;
+    --orange-soft: #fff3e8;
+    --purple: #7c3aed;
+    --purple-soft: #f2ecff;
+    --red: #dc2626;
+    --red-soft: #fff0f0;
+    --gray-soft: #f1f5f9;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+  }
+
+  .page {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 28px 28px 44px;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  .title h1 {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: .5px;
+  }
+
+  .title p {
+    margin: 10px auto 0;
+    color: var(--muted);
+    font-size: 15px;
+    max-width: 980px;
+    line-height: 1.6;
+  }
+
+  .legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0 24px;
+  }
+
+  .legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 7px 12px;
+    font-size: 13px;
+    color: #344154;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot.blue { background: var(--blue); }
+  .dot.green { background: var(--green); }
+  .dot.orange { background: var(--orange); }
+  .dot.purple { background: var(--purple); }
+  .dot.red { background: var(--red); }
+
+  .section {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: 0 10px 28px rgba(20, 33, 61, 0.06);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .section-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .section-header h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .section-header .hint {
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  .init-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr;
+    gap: 16px;
+    padding: 18px;
+  }
+
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: #fff;
+    padding: 14px 14px 12px;
+  }
+
+  .card h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .card p {
+    margin: 6px 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 4px 9px;
+    font-size: 12px;
+    font-weight: 650;
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+
+  .chip.blue { color: #1d4ed8; background: var(--blue-soft); }
+  .chip.green { color: #15803d; background: var(--green-soft); }
+  .chip.orange { color: #c2410c; background: var(--orange-soft); }
+  .chip.purple { color: #6d28d9; background: var(--purple-soft); }
+  .chip.red { color: #b91c1c; background: var(--red-soft); }
+
+  .files {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 12.6px;
+    line-height: 1.7;
+    color: #1f2937;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 10px 12px;
+    overflow: auto;
+  }
+
+  .flow-wrap {
+    padding: 20px;
+  }
+
+  .flow {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(170px, 1fr));
+    gap: 14px;
+    align-items: stretch;
+  }
+
+  .step {
+    position: relative;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 14px;
+    min-height: 236px;
+    background: #fff;
+  }
+
+  .step::after {
+    content: "→";
+    position: absolute;
+    right: -14px;
+    top: 44%;
+    color: #94a3b8;
+    font-size: 22px;
+    font-weight: 700;
+    z-index: 2;
+  }
+
+  .step:last-child::after { content: ""; }
+
+  .step .num {
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .step h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+  }
+
+  .step .desc {
+    color: var(--muted);
+    font-size: 12.8px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .mini-title {
+    margin: 10px 0 5px;
+    font-size: 12px;
+    color: #334155;
+    font-weight: 800;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  li {
+    margin: 4px 0;
+    color: #334155;
+    font-size: 12.6px;
+    line-height: 1.35;
+  }
+
+  .doc {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin: 5px 0;
+    font-size: 11.8px;
+    color: #0f172a;
+  }
+
+  .blue-border { border-top: 5px solid var(--blue); }
+  .green-border { border-top: 5px solid var(--green); }
+  .orange-border { border-top: 5px solid var(--orange); }
+  .purple-border { border-top: 5px solid var(--purple); }
+  .red-border { border-top: 5px solid var(--red); }
+
+  .num.blue { background: var(--blue); }
+  .num.green { background: var(--green); }
+  .num.orange { background: var(--orange); }
+  .num.purple { background: var(--purple); }
+  .num.red { background: var(--red); }
+
+  .lane-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 18px;
+  }
+
+  .lane {
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .lane h3 {
+    margin: 0;
+    padding: 13px 15px;
+    background: #f8fafc;
+    border-bottom: 1px solid var(--line);
+    font-size: 16px;
+  }
+
+  .lane table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .lane th, .lane td {
+    border-bottom: 1px solid #edf2f7;
+    padding: 10px 12px;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+
+  .lane th {
+    text-align: left;
+    color: #334155;
+    background: #fbfdff;
+    width: 24%;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .lane tr:last-child th, .lane tr:last-child td { border-bottom: none; }
+
+  .automation {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    padding: 18px;
+  }
+
+  .auto-card {
+    border-radius: 14px;
+    border: 1px solid var(--line);
+    padding: 14px;
+    background: #fff;
+  }
+
+  .auto-card h3 {
+    font-size: 15px;
+    margin: 0 0 8px;
+  }
+
+  .auto-card .trigger {
+    font-size: 12px;
+    font-weight: 750;
+    color: #475569;
+    background: #f1f5f9;
+    display: inline-block;
+    border-radius: 7px;
+    padding: 4px 7px;
+    margin-bottom: 8px;
+  }
+
+  .auto-card p {
+    margin: 6px 0;
+    color: var(--muted);
+    font-size: 12.8px;
+    line-height: 1.45;
+  }
+
+  .matrix {
+    padding: 18px;
+  }
+
+  .matrix table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: #fff;
+  }
+
+  .matrix th, .matrix td {
+    padding: 11px 12px;
+    border-bottom: 1px solid #edf2f7;
+    border-right: 1px solid #edf2f7;
+    font-size: 13px;
+    line-height: 1.45;
+    vertical-align: top;
+  }
+
+  .matrix th {
+    background: #f8fafc;
+    text-align: left;
+    font-size: 12px;
+    color: #334155;
+  }
+
+  .matrix tr:last-child td { border-bottom: none; }
+  .matrix th:last-child, .matrix td:last-child { border-right: none; }
+
+  .status {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 3px 8px;
+    font-size: 11px;
+    font-weight: 800;
+  }
+
+  .status.must { background: var(--red-soft); color: var(--red); }
+  .status.should { background: var(--orange-soft); color: var(--orange); }
+  .status.can { background: var(--blue-soft); color: var(--blue); }
+  .status.done { background: var(--green-soft); color: var(--green); }
+
+  .footer-note {
+    margin-top: 14px;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  @media print {
+    body { background: white; }
+    .page { max-width: none; padding: 12px; }
+    .section { box-shadow: none; break-inside: avoid; }
+    .flow { grid-template-columns: repeat(7, 1fr); }
+    .step { min-height: 220px; }
+  }
+
+  @media (max-width: 1280px) {
+    .flow { grid-template-columns: repeat(2, minmax(240px, 1fr)); }
+    .step::after { display: none; }
+    .automation { grid-template-columns: repeat(2, 1fr); }
+    .init-grid, .lane-grid { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 720px) {
+    .flow, .automation { grid-template-columns: 1fr; }
+    .page { padding: 18px 12px; }
+    .title h1 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="title">
+    <h1>AGE App Template：贯穿 AI 开发全流程使用图</h1>
+    <p>
+      这张图把“什么时候写什么文档、在哪里设置什么机制、由什么触发、如何进入代码实现、如何回写长期记忆”串成一条闭环。
+      核心原则：<strong>文档不是额外负担，而是 AI 的长期上下文、约束入口和合并依据。</strong>
+    </p>
+  </div>
+
+  <div class="legend">
+    <span><i class="dot blue"></i>输入与澄清</span>
+    <span><i class="dot purple"></i>需求/设计/架构收敛</span>
+    <span><i class="dot orange"></i>计划与审查</span>
+    <span><i class="dot green"></i>实现与验证</span>
+    <span><i class="dot red"></i>合并门禁/长期记忆</span>
+  </div>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>0. 初始化阶段：模板复制后必须先设置的“项目吸引子”</h2>
+      <div class="hint">目标：先让 AI 知道项目事实、自治边界、代码地图和真实验证命令</div>
+    </div>
+    <div class="init-grid">
+      <div class="card blue-border">
+        <h3>① 基础上下文</h3>
+        <p>这些文件决定 AI 每次进仓库后先相信什么、先读什么、不能越过什么边界。</p>
+        <div class="files">
+AGENTS.md<br/>
+START-HERE-after-copy.md<br/>
+docs/context/project-context.md<br/>
+docs/context/ai-autonomy-policy.md<br/>
+docs/context/codebase-map.md<br/>
+docs/backlog/README.md
+        </div>
+      </div>
+
+      <div class="card green-border">
+        <h3>② 验证基线</h3>
+        <p>不能只写“请测试一下”。必须写真实可执行命令，否则 AI 很容易自我验证。</p>
+        <div class="files">
+known-good-baselines.md<br/>
+docs/testing/README.md<br/>
+scripts/run-known-good-baseline.sh（建议补充）<br/>
+package.json / pom.xml / Makefile / CI workflow
+        </div>
+      </div>
+
+      <div class="card orange-border">
+        <h3>③ 合并门禁</h3>
+        <p>如果没有门禁，模板会退化成“大家自觉维护 MD”。建议从低成本规则开始。</p>
+        <div>
+          <span class="chip orange">PR 模板</span>
+          <span class="chip orange">docs 必填检查</span>
+          <span class="chip orange">验证命令检查</span>
+          <span class="chip orange">Owner Doc 变更提示</span>
+          <span class="chip red">复杂改动必须有 plan</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>1. 主流程：从需求输入到代码合并，再到长期记忆沉淀</h2>
+      <div class="hint">建议规则：一个需求 = 一个分支 = 代码 + 文档 + 验证 + 日志 同 PR 合并</div>
+    </div>
+
+    <div class="flow-wrap">
+      <div class="flow">
+        <div class="step blue-border">
+          <div class="num blue">1</div>
+          <h3>需求输入</h3>
+          <div class="desc">业务方、会议、聊天、截图、临时想法，先保留原始信息。</div>
+          <div class="mini-title">更新文档</div>
+          <div class="doc">docs/input/xxx-raw.md</div>
+          <div class="mini-title">触发机制</div>
+          <ul>
+            <li>新需求进入</li>
+            <li>业务口头信息转文字</li>
+            <li>AI 先做摘要，不直接实现</li>
+          </ul>
+        </div>
+
+        <div class="step blue-border">
+          <div class="num blue">2</div>
+          <h3>澄清讨论</h3>
+          <div class="desc">不确定、不一致、有分歧的内容，先不要污染正式需求。</div>
+          <div class="mini-title">更新文档</div>
+          <div class="doc">docs/discussions/xxx.md</div>
+          <div class="mini-title">触发机制</div>
+          <ul>
+            <li>发现歧义</li>
+            <li>需求与现有设计冲突</li>
+            <li>AI 生成问题清单</li>
+          </ul>
+        </div>
+
+        <div class="step purple-border">
+          <div class="num purple">3</div>
+          <h3>需求收敛</h3>
+          <div class="desc">把可实现的目标、边界、验收标准沉淀成 AI 可执行需求。</div>
+          <div class="mini-title">更新文档</div>
+          <div class="doc">docs/requirements/REQ-xxx.md</div>
+          <div class="mini-title">门禁机制</div>
+          <ul>
+            <li>必须有验收标准</li>
+            <li>必须说明不做什么</li>
+            <li>必须标明影响范围</li>
+          </ul>
+        </div>
+
+        <div class="step purple-border">
+          <div class="num purple">4</div>
+          <h3>设计/架构判断</h3>
+          <div class="desc">不是所有需求都要改架构；只有边界变化时才更新 Owner Doc。</div>
+          <div class="mini-title">按需更新</div>
+          <div class="doc">docs/design/xxx.md</div>
+          <div class="doc">docs/architecture/xxx.md</div>
+          <div class="mini-title">触发机制</div>
+          <ul>
+            <li>API / DB / 权限变化</li>
+            <li>跨模块依赖变化</li>
+            <li>状态机/业务流程变化</li>
+          </ul>
+        </div>
+
+        <div class="step orange-border">
+          <div class="num orange">5</div>
+          <h3>制定计划</h3>
+          <div class="desc">复杂需求先写 plan，不能让 AI 直接“凭感觉改代码”。</div>
+          <div class="mini-title">更新文档</div>
+          <div class="doc">docs/plans/PLAN-xxx.md</div>
+          <div class="mini-title">触发机制</div>
+          <ul>
+            <li>跨 3 个以上文件</li>
+            <li>涉及数据/权限/接口</li>
+            <li>需要迁移或兼容</li>
+          </ul>
+        </div>
+
+        <div class="step green-border">
+          <div class="num green">6</div>
+          <h3>实现与验证</h3>
+          <div class="desc">AI 根据 active requirement + active owner doc + plan 修改代码并运行验证。</div>
+          <div class="mini-title">更新内容</div>
+          <div class="doc">src/...</div>
+          <div class="doc">tests/...</div>
+          <div class="doc">docs/testing/xxx.md</div>
+          <div class="mini-title">触发机制</div>
+          <ul>
+            <li>plan audit 通过</li>
+            <li>执行真实测试命令</li>
+            <li>失败则回写问题</li>
+          </ul>
+        </div>
+
+        <div class="step red-border">
+          <div class="num red">7</div>
+          <h3>关闭审查与沉淀</h3>
+          <div class="desc">代码不是终点，必须把实际变化、经验、基线写回长期记忆。</div>
+          <div class="mini-title">更新文档</div>
+          <div class="doc">docs/logs/xxx.md</div>
+          <div class="doc">docs/bugs/xxx.md（如有）</div>
+          <div class="doc">known-good-baselines.md</div>
+          <div class="mini-title">门禁机制</div>
+          <ul>
+            <li>closure audit</li>
+            <li>PR 模板勾选</li>
+            <li>CI / Reviewer 合并</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>2. AI 每次开始开发前的读取顺序</h2>
+      <div class="hint">避免 AI 只读当前聊天，必须让它从仓库恢复上下文</div>
+    </div>
+
+    <div class="lane-grid">
+      <div class="lane">
+        <h3>AI Session 启动读取链路</h3>
+        <table>
+          <tr>
+            <th>第一层</th>
+            <td><strong>AGENTS.md</strong>：项目级规则、禁止事项、默认流程、验证要求。</td>
+          </tr>
+          <tr>
+            <th>第二层</th>
+            <td><strong>docs/context/project-context.md</strong>：业务背景、产品目标、稳定术语。</td>
+          </tr>
+          <tr>
+            <th>第三层</th>
+            <td><strong>docs/context/ai-autonomy-policy.md</strong>：AI 可以自主做什么，哪些必须先问人。</td>
+          </tr>
+          <tr>
+            <th>第四层</th>
+            <td><strong>docs/context/codebase-map.md</strong>：代码结构、模块边界、常见入口。</td>
+          </tr>
+          <tr>
+            <th>第五层</th>
+            <td><strong>active requirement + active owner doc + active plan</strong>：本次任务的直接依据。</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="lane">
+        <h3>复杂度分流规则</h3>
+        <table>
+          <tr>
+            <th>极小改动</th>
+            <td>文案、局部样式、明显 bug，小于 1~2 个文件，可直接处理，但仍要记录验证。</td>
+          </tr>
+          <tr>
+            <th>中等改动</th>
+            <td>涉及多个文件、接口或业务分支，必须先写 <strong>docs/plans/</strong>。</td>
+          </tr>
+          <tr>
+            <th>高风险改动</th>
+            <td>数据库、权限、支付、调度、核心状态机，必须更新 owner doc，并经过人工/AI plan audit。</td>
+          </tr>
+          <tr>
+            <th>修 bug</th>
+            <td>必须补 <strong>docs/bugs/</strong>，并说明对应测试覆盖，避免同类问题复发。</td>
+          </tr>
+          <tr>
+            <th>架构变化</th>
+            <td>必须更新 <strong>docs/architecture/</strong> 与 <strong>codebase-map</strong>，否则下一轮 AI 会读到旧世界。</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>3. 应该设置的机制：从“自觉维护”升级到“工程约束”</h2>
+      <div class="hint">先做低成本自动化，再逐步升级为文档-代码联动</div>
+    </div>
+
+    <div class="automation">
+      <div class="auto-card blue-border">
+        <h3>机制 A：文档必填检查</h3>
+        <div class="trigger">触发：PR 打开 / 更新</div>
+        <p><strong>检查：</strong>需求文档是否存在、验收标准是否为空、验证命令是否填写。</p>
+        <p><strong>工具：</strong>PR 模板 + docs lint + 简单脚本。</p>
+      </div>
+
+      <div class="auto-card orange-border">
+        <h3>机制 B：复杂改动必须有 Plan</h3>
+        <div class="trigger">触发：变更文件数量 / 关键目录变化</div>
+        <p><strong>检查：</strong>涉及 src、db、api、auth、workflow 等关键目录时，必须有 docs/plans。</p>
+        <p><strong>目标：</strong>防止 AI 直接大范围改代码。</p>
+      </div>
+
+      <div class="auto-card purple-border">
+        <h3>机制 C：Owner Doc 变更提示</h3>
+        <div class="trigger">触发：接口/模型/数据库/权限变化</div>
+        <p><strong>检查：</strong>是否同步更新 docs/design 或 docs/architecture。</p>
+        <p><strong>目标：</strong>防止代码变了，长期文档还是旧的。</p>
+      </div>
+
+      <div class="auto-card green-border">
+        <h3>机制 D：验证基线执行</h3>
+        <div class="trigger">触发：PR / main 合并前</div>
+        <p><strong>检查：</strong>known-good-baselines.md 中的命令是否能跑通。</p>
+        <p><strong>目标：</strong>防止“AI 说已验证”但实际没验证。</p>
+      </div>
+
+      <div class="auto-card red-border">
+        <h3>机制 E：Closure Audit</h3>
+        <div class="trigger">触发：AI 声称完成 / PR ready</div>
+        <p><strong>检查：</strong>代码、文档、测试、日志、bug 记录是否闭环。</p>
+        <p><strong>目标：</strong>防止 demo 化完成。</p>
+      </div>
+
+      <div class="auto-card blue-border">
+        <h3>机制 F：Codebase Map 更新</h3>
+        <div class="trigger">触发：目录结构/模块入口变化</div>
+        <p><strong>检查：</strong>docs/context/codebase-map.md 是否反映最新模块边界。</p>
+        <p><strong>目标：</strong>让下一轮 AI 快速定位代码。</p>
+      </div>
+
+      <div class="auto-card orange-border">
+        <h3>机制 G：Bug Lesson 固化</h3>
+        <div class="trigger">触发：bugfix PR</div>
+        <p><strong>检查：</strong>是否有 docs/bugs 记录，是否补测试覆盖。</p>
+        <p><strong>目标：</strong>把错误变成下次 AI 的约束。</p>
+      </div>
+
+      <div class="auto-card purple-border">
+        <h3>机制 H：Session Log</h3>
+        <div class="trigger">触发：每次重要 AI 任务结束</div>
+        <p><strong>检查：</strong>docs/logs 记录本次做了什么、没做什么、验证结果。</p>
+        <p><strong>目标：</strong>支持多 session 接力。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>4. 文档更新矩阵：什么变化应该更新哪份文档</h2>
+      <div class="hint">可直接作为团队 PR Review 清单</div>
+    </div>
+
+    <div class="matrix">
+      <table>
+        <thead>
+          <tr>
+            <th>触发事件</th>
+            <th>必须更新</th>
+            <th>建议更新</th>
+            <th>检查机制</th>
+            <th>风险</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>新需求进入</td>
+            <td><span class="status must">必须</span> docs/input/</td>
+            <td>docs/discussions/</td>
+            <td>需求入口记录</td>
+            <td>原始上下文丢失，后续只能靠口头解释</td>
+          </tr>
+          <tr>
+            <td>需求已明确</td>
+            <td><span class="status must">必须</span> docs/requirements/</td>
+            <td>docs/backlog/README.md</td>
+            <td>验收标准检查</td>
+            <td>AI 不知道完成标准，容易过度发挥</td>
+          </tr>
+          <tr>
+            <td>业务流程变化</td>
+            <td><span class="status must">必须</span> docs/design/</td>
+            <td>docs/requirements/ 反链</td>
+            <td>Owner Doc 检查</td>
+            <td>业务规则散落在代码里</td>
+          </tr>
+          <tr>
+            <td>API / DB / 权限 / 模块边界变化</td>
+            <td><span class="status must">必须</span> docs/architecture/</td>
+            <td>docs/context/codebase-map.md</td>
+            <td>关键目录变更检查</td>
+            <td>下一轮 AI 读取旧架构，越改越偏</td>
+          </tr>
+          <tr>
+            <td>复杂实现开始前</td>
+            <td><span class="status must">必须</span> docs/plans/</td>
+            <td>plan audit 记录</td>
+            <td>复杂度门禁</td>
+            <td>AI 大范围改动不可控</td>
+          </tr>
+          <tr>
+            <td>代码实现完成</td>
+            <td><span class="status must">必须</span> docs/logs/</td>
+            <td>docs/testing/</td>
+            <td>Closure audit</td>
+            <td>多 session 无法接力，不知道实际做了什么</td>
+          </tr>
+          <tr>
+            <td>发现或修复 bug</td>
+            <td><span class="status must">必须</span> docs/bugs/</td>
+            <td>known-good-baselines.md</td>
+            <td>bugfix PR 检查</td>
+            <td>同类错误反复出现</td>
+          </tr>
+          <tr>
+            <td>验证命令变化</td>
+            <td><span class="status must">必须</span> known-good-baselines.md</td>
+            <td>docs/testing/README.md</td>
+            <td>CI 执行基线</td>
+            <td>AI 引用过期测试命令，产生假验证</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="footer-note">
+        建议落地顺序：先把 <strong>PR 模板、验证命令、复杂改动必须有 Plan、Closure Audit</strong> 做起来；
+        后续再做文档-代码变更关联、codebase-map 自动更新、AI session 状态可视化。
+      </p>
+    </div>
+  </section>
+</div>
+</body>
+</html>
