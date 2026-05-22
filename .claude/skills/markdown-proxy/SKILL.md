@@ -38,7 +38,7 @@ description: |
 
 ```
 if URL contains "mp.weixin.qq.com":
-    → Step A: 公众号抓取
+    → Step A: 公众号抓取（正文 + 图片下载）
     → 结束
 
 if URL contains "feishu.cn/docx/" or "feishu.cn/wiki/" or "feishu.cn/docs/" or "larksuite.com/docx/":
@@ -55,12 +55,26 @@ else:
 
 ### Step A: 公众号文章抓取（内置）
 
+**抓取正文**：
+
 ```bash
 python3 ~/.claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL"
 ```
 
 依赖：`playwright`、`beautifulsoup4`、`lxml`
-输出：YAML frontmatter（title, author, date, url）+ Markdown 正文
+输出：YAML frontmatter（title, author, date, url）+ Markdown 正文（含远程图片 URL）
+
+**下载图片**（必做——紧跟正文抓取之后）：
+
+```bash
+python3 ~/.agents/skills/markdown-proxy/scripts/download-images.py -i <saved_md_file> -o <saved_md_file>
+```
+
+依赖：`requests`
+效果：下载所有 `![...](https://mmbiz.qpic.cn/...)` 远程图片到 `images/<文章名>/` 子目录，替换 Markdown 中的远程 URL 为本地相对路径，自动带 `Referer: https://mp.weixin.qq.com/` 穿越防盗链。
+
+> **铁律**：公众号抓取 **必须** 正文 + 图片两步走。先 `fetch_weixin.py` 拿正文和远程图片 URL，再 `download-images.py` 下载图片到本地并重写路径。缺一步图片就白抓了。
+
 失败时回退到 Step 1-2 代理服务。
 
 ### Step B: 飞书文档抓取（内置）
