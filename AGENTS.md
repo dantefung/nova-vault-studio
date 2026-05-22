@@ -47,13 +47,13 @@ file images/{文章名}/{图片名}.png    # 必须输出 "PNG image data"
 
 ```bash
 # 第一步：抓正文（含远程图片 URL）
-python3 ~/.claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL" > /tmp/temp.md
+python3 .claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL" > /tmp/temp.md
 
 # 第二步：下载图片到本地（必须紧跟，带 Referer 穿越防盗链）
-python3 ~/.agents/skills/markdown-proxy/scripts/download-images.py -i /tmp/temp.md -o /tmp/temp.md
+python3 .claude/skills/markdown-proxy/scripts/download-images.py -i /tmp/temp.md -o /tmp/temp.md
 ```
 
-> **铁律**：这两个脚本以前是独立存在的，但 SKILL.md 从来没把它们串起来。现在已经更新了 markdown-proxy 的 SKILL.md，Agent 采集公众号时会自动执行两步。如果你手动调 `fetch_weixin.py`，必须手动补调 `download-images.py`。
+> **铁律**：markdown-proxy SKILL.md 已更新为强制两步流程。Agent 采集公众号时自动执行。手动调 `fetch_weixin.py` 必须补调 `download-images.py`。
 
 ### `ignoreDeadLinks: true` — 死链接静默放过
 
