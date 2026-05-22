@@ -10,9 +10,13 @@ url: "https://mp.weixin.qq.com/s/BE4dJP-0sn5FsF_MYIE-Fw"
 
 > oh-my-claudecode (OMC) 通过 Hooks → Skills → Agents → State 四层架构，把 Claude Code 从手动指挥一个 Agent 升级为自动协调 19 个专业 Agent。
 
+![OMC 核心架构概览](images/omc-19-agents-architecture/01.png)
+
 ---
 
 ## 1. Claude Code 底层机制
+
+![Claude Code 四层架构](images/omc-19-agents-architecture/02.png)
 
 Claude Code 采用工具增强的 Agent 架构：**思考 → 调用工具 → 处理结果 → 继续思考**。
 
@@ -36,6 +40,8 @@ OMC 的 20 个 Hook 脚本拦截这些事件实现智能路由：
 ---
 
 ## 2. OMC 架构设计
+
+![OMC 四大系统互联流程](images/omc-19-agents-architecture/03.png)
 
 四层管线：**用户输入 → Hooks（事件检测）→ Skills（行为注入）→ Agents（任务执行）→ State（进度追踪）**
 
@@ -91,6 +97,8 @@ explore → analyst → planner → critic → executor → verifier
 ---
 
 ## 3. 三种执行模式
+
+![三种核心执行模式对比](images/omc-19-agents-architecture/04.png)
 
 | 模式 | 场景 | 特点 | 触发 |
 |------|------|------|------|
