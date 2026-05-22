@@ -3842,3 +3842,39 @@ FacelessReels 是视频生成工作流。
 
 具体的人群和场景里？
 
+---
+
+## 配图
+
+（以下为 PDF 报告中提取的配图）
+
+![002-p02](images/low-key-profitable/002-p02.png)
+![003-p-1](images/low-key-profitable/003-p-1.png)
+![006-p04](images/low-key-profitable/006-p04.png)
+![010-p08](images/low-key-profitable/010-p08.png)
+![014-p12](images/low-key-profitable/014-p12.png)
+![018-p15](images/low-key-profitable/018-p15.png)
+![022-p19](images/low-key-profitable/022-p19.png)
+![026-p23](images/low-key-profitable/026-p23.png)
+![030-p27](images/low-key-profitable/030-p27.png)
+![034-p29](images/low-key-profitable/034-p29.png)
+![038-p32](images/low-key-profitable/038-p32.png)
+![042-p34](images/low-key-profitable/042-p34.png)
+![046-p37](images/low-key-profitable/046-p37.png)
+![050-p39](images/low-key-profitable/050-p39.png)
+![054-p42](images/low-key-profitable/054-p42.png)
+![058-p47](images/low-key-profitable/058-p47.png)
+![062-p50](images/low-key-profitable/062-p50.png)
+![066-p54](images/low-key-profitable/066-p54.png)
+![070-p57](images/low-key-profitable/070-p57.png)
+![074-p61](images/low-key-profitable/074-p61.png)
+![078-p64](images/low-key-profitable/078-p64.png)
+![082-p68](images/low-key-profitable/082-p68.png)
+![086-p72](images/low-key-profitable/086-p72.png)
+![090-p74](images/low-key-profitable/090-p74.png)
+![094-p77](images/low-key-profitable/094-p77.png)
+![098-p80](images/low-key-profitable/098-p80.png)
+![102-p82](images/low-key-profitable/102-p82.png)
+![106-p85](images/low-key-profitable/106-p85.png)
+![110-p87](images/low-key-profitable/110-p87.png)
+![114-p93](images/low-key-profitable/114-p93.png)
