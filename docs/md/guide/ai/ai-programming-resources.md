@@ -114,6 +114,7 @@ date: "2026-05-05"
 - [Better-Fullstack](https://github.com/Marve10s/Better-Fullstack) — 项目生成器，270+ 技术栈组合（TS/Rust/Python/Go），前端/后端/数据库/Auth/支付/AI/DevOps 一键配置，开箱即用
 - [obsidian-wechat-converter](https://github.com/DavidLam-oss/obsidian-wechat-converter) — 将 Obsidian 笔记转换为微信公众号格式，支持标题、图片、代码块等格式转换
 - [AIHOT 选题工具](https://aihot.virxact.com) — 卡兹克开源的 AI 热点选题工具，帮助快速发现和筛选内容选题方向
+- [云图 (Cloudimgs)](https://github.com/qazzxxx/cloudimgs) — NAS 自建图床解决方案，支持 Docker 部署
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) — 生成式引擎优化智能内容工程系统 2.0，多站点分发、知识库 RAG、审核发布工作流，1.6k+ stars
 - [llm-wiki-starter](https://github.com/eleven-net-cn/llm-wiki-starter) — 一键创建 LLM Wiki 知识库，基于 Andrej Karpathy 的 LLM Wiki 模式
 - [ElysiaJS](https://elysiajs.com) — Bun 生态最快的 TypeScript 后端框架，基于 OpenAPI 3.x 规范，类型安全、极速性能，支持 Swagger 文档自动生成
