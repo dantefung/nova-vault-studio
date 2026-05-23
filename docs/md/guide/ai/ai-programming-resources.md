@@ -121,6 +121,7 @@ date: "2026-05-05"
 
 - [Awesome Prompt Gallery](https://opennana.com/awesome-prompt-gallery) — 开源 Prompt 画廊，收录各类优质 AI 提示词示例
 - [WaytoAGI Prompts](https://www.waytoagi.com/zh/prompts?tag=2) — WaytoAGI Prompt 精选集合
+- [X/Twitter 爆款文章追踪](https://youmind.com/zh-CN/landing/x-viral-articles) — YouMind 爆款榜单，AI 拆解 + 封面设计分析，每日更新
 
 ---
 
