@@ -118,3 +118,4 @@ graph TD
 | 章节 | 内容 |
 |------|------|
 | [08-01-什么时候该用 Hooks](./08-hooks/08-01-when-to-use-hooks.md) | Prompt 表达意图，Hook 固化规则 |
+| [08-02-Hooks 打造自动化 Claude Code 工作流](./08-hooks/08-02-hooks-automation-workflow.md) | 5 个核心事件、三种类型、实际配置示例 |
