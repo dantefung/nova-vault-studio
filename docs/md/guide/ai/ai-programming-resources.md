@@ -105,6 +105,7 @@ date: "2026-05-05"
 - [vibe-to-ui](https://github.com/MonkeyUI-dev/vibe-to-ui) — Agent Skills 将截图、图片、音乐转化为设计系统、动效语言和 UI 布局，支持 Claude Code、Cursor、Github Copilot
 - [browser-harness](https://github.com/browser-use/browser-harness) — 浏览器自动化工具，适合 Hermes / OpenClaw 等 Agent 操纵浏览器执行复杂任务，相比 CDP/MCP 方案更轻量易用
 - [Lightpanda](https://github.com/lightpanda-io/browser) — Zig 从零写的无头浏览器，100 页面内存 123MB，内置 MCP Server，支持 Puppeteer/Playwright
+- [Midscene.js](https://github.com/web-infra-dev/midscene) — 视觉智能体 SDK，让 AI 看懂屏幕像人类一样操作，跨平台（Web/PC/Android/iOS/鸿蒙），模型无关，13k+ stars
 - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 收录各主流产品的 DESIGN.md 文件，供 AI coding agent 生成匹配风格的 UI
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) — 开源 Claude Design 替代品，5.8k stars，支持 Claude/GPT/Gemini/Ollama 等多模型，一键导入 Claude Code / Codex 配置，本地优先，MIT 协议
