@@ -196,6 +196,7 @@ date: "2026-04-29"
 - [writing-assistant-skill](https://github.com/Ceeon/writing-assistant-skill)
 - [best-minds](https://github.com/Ceeon/best-minds.git)
 - [vibe-writing](https://github.com/Tasihi89/vibe-writing-workflow)
+- [tweet-skills](https://github.com/chencore/tweet-skills) — 推文自动创作流水线，8个独立模块：采集/调研/观点/正文/去AI味/标题/结尾/串联
 - [x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill)
 - [notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) — Claude 自动从 NotebookLM 获取综合处理的答案
 - [Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) — 利用 Claude 对视频字幕语义分析，自动生成各平台摘要和素材
