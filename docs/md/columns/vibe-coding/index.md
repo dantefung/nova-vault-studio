@@ -112,3 +112,9 @@ graph TD
 | 章节 | 内容 |
 |------|------|
 | [07-01-toolstack](/guide/ai/vibe/07-toolstack/) | Vercel / Supabase / Stripe / Cloudflare / GSC+GA4 / Resend / SSH Agent 全链路工具链速配 |
+
+### 08 Hooks 与规则
+
+| 章节 | 内容 |
+|------|------|
+| [08-01-什么时候该用 Hooks](./08-hooks/08-01-when-to-use-hooks.md) | Prompt 表达意图，Hook 固化规则 |
