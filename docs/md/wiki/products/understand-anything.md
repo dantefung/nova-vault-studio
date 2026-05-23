@@ -25,6 +25,11 @@ date: "2026-05-22"
 - 大型项目上下文探索
 - 文档与代码关系梳理
 
+## Related Pages
+
+- [DeepWiki](deepwiki.md) — AI 驱动代码理解
+- [GitNexus](gitnexus.md) — 爆炸半径分析 + LLM Wiki 生成
+
 ## Sources
 
 - https://github.com/Lum1104/Understand-Anything

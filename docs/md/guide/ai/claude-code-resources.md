@@ -227,6 +227,8 @@ date: "2026-04-29"
 - [Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) — 文档配图生成
 - [awesome-design-skills](https://github.com/Phibrand/awesome-design-skills) — 57 种设计风格 Skills
 - [Understand-Anything](https://github.com/Lum1104/Understand-Anything) — 代码库转交互式 Knowledge Graph，快速理解陌生项目
+- [DeepWiki](https://deepwiki.com) — AI 驱动代码理解
+- [GitNexus](https://gitnexus.com) — 代码变更爆炸半径分析 + LLM Wiki 生成
 
 ---
 
