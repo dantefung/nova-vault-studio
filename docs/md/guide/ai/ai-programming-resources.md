@@ -137,6 +137,7 @@ date: "2026-05-05"
 - [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
 - [Microsoft MCP for Beginners](https://github.com/microsoft/mcp-for-beginners)
 - [Microsoft Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
+- [Zero to Claude Code](https://zero2claude.dev) — Wix VP 出品的免费课程，14 级 · 147 课 · 10 种交互形态，从零基础到生产环境发布软件，含 Skills/MCP/Subagents/Hooks 全套
 - [AI Engineering Hub](https://github.com/patchy631/ai-engineering-hub)
 - [Senior Developer Roadmap — AI Edition](https://github.com/glennsantos/senior-developer-roadmap)
 - [ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) — AI 开发任务实战集
