@@ -218,6 +218,7 @@ date: "2026-04-29"
 - [videocut-skills](https://github.com/Ceeon/videocut-skills)
 - [chujianyun/skills](https://github.com/chujianyun/skills)
 - [cockpit-tools](https://github.com/jlcodes99/cockpit-tools) — 通用 AI IDE 账号管理工具，支持 12 平台多账号切换、配额监控、多开实例
+- [UncommonRoute](https://github.com/CommonstackAI/UncommonRoute) — 本地 AI Router，根据任务难度自动匹配模型，节省 80-90% API 成本
 - [微信读书 Skill](https://github.com/kejixiaoliang/weixin-read) — 查书架、搜书、看统计、看详情、导笔记
 - [read-persona](https://github.com/kejixiaoliang/read-persona) — 调用微信读书数据直出 HTML 报告
 - [cockpit-tools](https://github.com/jlcodes99/cockpit-tools)
