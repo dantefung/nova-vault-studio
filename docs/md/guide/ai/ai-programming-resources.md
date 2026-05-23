@@ -138,6 +138,7 @@ date: "2026-05-05"
 - [AI Engineering Hub](https://github.com/patchy631/ai-engineering-hub)
 - [Senior Developer Roadmap — AI Edition](https://github.com/glennsantos/senior-developer-roadmap)
 - [ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) — AI 开发任务实战集
+- [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — 435 lessons, 20 phases, ~320 hours，Python/TypeScript/Rust/Julia 四语言，从数学基础到 Agent 自主系统，每课产出可复用 artifact
 - [Skill-Factory](https://github.com/FeiCoder/Skill-Factory) — Book2Skills：把人类专业书籍自动转化为 LLM Agent 可执行的标准化 Skill 包，基于 Mini-Agent 开发
 
 ---
