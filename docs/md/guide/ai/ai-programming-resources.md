@@ -111,6 +111,7 @@ date: "2026-05-05"
 - [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) — 开源 Claude Design 替代品，5.8k stars，支持 Claude/GPT/Gemini/Ollama 等多模型，一键导入 Claude Code / Codex 配置，本地优先，MIT 协议
 - [CloudCLI](https://github.com/siteboon/claudecodeui) — 为 Claude Code CLI 打造图形界面，支持手机远程查看进度、操作交互
 - [bozhou-skills](https://github.com/bozhouDev/bozhou-skills) — AI 工具集，包含图像生成、播客转文章、PPT 生成、微信发布、社交封面图等 11 个子项目，主要使用 TypeScript
+- [Better-Fullstack](https://github.com/Marve10s/Better-Fullstack) — 项目生成器，270+ 技术栈组合（TS/Rust/Python/Go），前端/后端/数据库/Auth/支付/AI/DevOps 一键配置，开箱即用
 - [obsidian-wechat-converter](https://github.com/DavidLam-oss/obsidian-wechat-converter) — 将 Obsidian 笔记转换为微信公众号格式，支持标题、图片、代码块等格式转换
 - [AIHOT 选题工具](https://aihot.virxact.com) — 卡兹克开源的 AI 热点选题工具，帮助快速发现和筛选内容选题方向
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) — 生成式引擎优化智能内容工程系统 2.0，多站点分发、知识库 RAG、审核发布工作流，1.6k+ stars
