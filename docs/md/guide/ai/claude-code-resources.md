@@ -225,6 +225,43 @@ date: "2026-04-29"
 - [vibe-writing](https://github.com/Tasihi89/vibe-writing-workflow)
 - [skills.sh](https://skills.sh/) — Skills 市场
 - [Document-illustrator-skill](https://github.com/op7418/Document-illustrator-skill) — 文档配图生成
+- [awesome-design-skills](https://github.com/Phibrand/awesome-design-skills) — 57 种设计风格 Skills
+
+---
+
+## 神级 Skills 与用法心法
+
+### 第一梯队（神级）
+
+- [Meta-skill](https://github.com/search?q=meta-skill+claude-code) — 管理 skill 的 skill，自动观察→记录改进点→定时优化所有 skill
+- [Superpowers](https://github.com/obra/superpowers) — 头脑风暴 + 项目规划，中小项目最佳
+- [GSD (Get Shit Done)](https://github.com/gsd-build/get-shit-done) — 大项目工作流，流程比 prompt 重要
+
+### 神奇小工具
+
+- `/close` — 会话结束自动 memory + commit + 日志
+- `/lastpic` — 抓桌面截图给 Claude 看 UI bug
+- [Humanizer](https://github.com/search?q=humanizer+skill) — 干掉 em-dash 这种 AI 味
+- [tonone](https://github.com/search?q=tonone+agent) — 23 个专家 agent，各管一摊领域
+- [authsome](https://github.com/search?q=authsome) — 一次登录所有 SaaS，Claude 拿不到密钥
+- [LLM Council](https://github.com/search?q=llm+council) (Karpathy) — 重大决策让多模型投票
+
+### 垂类神器
+
+- 设计：[57 种风格 skill](https://github.com/Phibrand/awesome-design-skills)
+- 安全：Supabase Sentinel + Aegis
+- 调试：Dendrite 7 步根因法
+- 研究：paperloom（论文→Obsidian 图谱）
+- 财务：openaccountants（报税）
+- 商业：bulletproof-business-plan
+
+### 用法心法
+
+① 把 Claude 当流水线编排，别当问答机
+② 写 skill 的 ROI 远大于写 prompt
+③ skill 里最值钱的是 validator 和脚本，不是自然语言
+④ 让 Claude 给自己写 skill，套娃才是终点
+⑤ 跨 session 的 memory > 自动化 skill 优化
 
 ---
 
