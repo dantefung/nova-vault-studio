@@ -217,6 +217,8 @@ date: "2026-04-29"
 - [skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator)
 - [videocut-skills](https://github.com/Ceeon/videocut-skills)
 - [chujianyun/skills](https://github.com/chujianyun/skills)
+- [微信读书 Skill](https://github.com/kejixiaoliang/weixin-read) — 查书架、搜书、看统计、看详情、导笔记
+- [read-persona](https://github.com/kejixiaoliang/read-persona) — 调用微信读书数据直出 HTML 报告
 - [cockpit-tools](https://github.com/jlcodes99/cockpit-tools)
 - [vibe-writing](https://github.com/Tasihi89/vibe-writing-workflow)
 - [skills.sh](https://skills.sh/) — Skills 市场
