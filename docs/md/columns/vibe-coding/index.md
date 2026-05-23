@@ -119,3 +119,4 @@ graph TD
 |------|------|
 | [08-01-什么时候该用 Hooks](./08-hooks/08-01-when-to-use-hooks.md) | Prompt 表达意图，Hook 固化规则 |
 | [08-02-Hooks 打造自动化 Claude Code 工作流](./08-hooks/08-02-hooks-automation-workflow.md) | 5 个核心事件、三种类型、实际配置示例 |
+| [08-03-Vibe Coding 12 原则](./08-hooks/08-03-vibe-coding-12-principles.md) | 12Factor.me 四阶段学习路径：准备/执行/协作/迭代 |
