@@ -42,6 +42,7 @@ url: ""
 | — | [75K Star 的 Skills 仓库到底凭什么](./mattpocock-skills-analysis.md) | 案例剖析 | Matt Pocock 把 4 本经典压成 10 行招式，心法→招式的范本 |
 | — | [Coding Tutor Plugin 架构详解](./coding-tutor-plugin-architecture.md) | 案例剖析 | Agent 驱动的个性化编程教学：learn profile → 代码库实例 → 间隔重复，Skill + Python 脚本架构 |
 | — | [cc-connect 飞书接入指南](./cc-connect-feishu-guide.md) | 工具集成 | Claude Code → 飞书机器人远程调用，WebSocket 长连接无需公网 IP |
+| — | [飞书 + Claude Code 远程指挥](./remote-claude-code-feishu.md) | 工具集成 | 自建 Python 服务，SQLite 持久化 session，FIFO 消息队列，与 cc-connect 对比 |
 | — | [Open Multi-Agent — TS 原生多 Agent 编排框架](./open-multi-agent-research.md) | 框架分析 | Goal→DAG 自动拆解，10 Provider，MCP，6.2k⭐，仅 3 运行时依赖 |
 | — | [GStack 知识系统架构](./gstack-knowledge-system.md) | 架构解析 | Learnings + GBrain + Preamble 三层记忆：自动捕获、置信度衰减、向量检索、跨机器同步 |
 | — | [OMC 19 Agent 架构实战](./omc-19-agents-architecture.md) | 架构解析 | Hooks→Skills→Agents→State 四层编排，19 Agent 四泳道，三层模型路由，三种执行模式 |
