@@ -38,7 +38,7 @@ description: |
 
 ```
 if URL contains "mp.weixin.qq.com":
-    → Step A: 公众号抓取（正文 + 图片下载）
+    → Step A: 公众号抓取
     → 结束
 
 if URL contains "feishu.cn/docx/" or "feishu.cn/wiki/" or "feishu.cn/docs/" or "larksuite.com/docx/":
@@ -55,24 +55,53 @@ else:
 
 ### Step A: 公众号文章抓取（内置）
 
-**抓取正文**：
+公众号文章支持两种模式，**默认图片模式（嵌入图片链接）**，可选纯文本模式：
+
+#### 步骤 A1: 抓取正文
 
 ```bash
-python3 .claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL"
+# 图片模式（默认）：content 含 ![](url)，img_urls 有 URL 列表
+python3 ~/.claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL" --json
+
+# 纯文本模式：跳过图片提取，content 无图片
+python3 ~/.claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL" --json --no-images
 ```
 
 依赖：`playwright`、`beautifulsoup4`、`lxml`
-输出：YAML frontmatter（title, author, date, url）+ Markdown 正文（含远程图片 URL）
 
-**下载图片**（必做——紧跟正文抓取之后）：
+两种模式输出对比：
+
+| 模式 | content 含 ![](url) | img_urls |
+|------|---------------------|----------|
+| 图片模式（默认） | ✅ 是 | ✅ 有 URL 列表 |
+| 纯文本模式 | ❌ 否 | ❌ 空列表 |
+
+**图片模式**下，`fetch_weixin.py` 会自动把图片以 `![](url)` 格式嵌入 content，图片 URL 收集在 `img_urls` 字段。后续由 `download-images.py` 下载并替换为本地路径。
+
+**纯文本模式**下，不提取图片，直接输出纯正文，适合只需要文字内容时使用。
+
+#### 步骤 A2: 下载图片（仅图片模式需要）
 
 ```bash
-python3 {baseDir}/scripts/download-images.py -i <saved_md_file> -o <saved_md_file>
+cd /目标文章所在目录/
+python3 ~/.claude/skills/markdown-proxy/scripts/download-images.py "文章完整路径.md" --prefix "images/文章英文名/"
 ```
 
-其中 `{baseDir}` 为本 SKILL.md 所在目录（`.claude/skills/markdown-proxy/`）。
+脚本逻辑：从 `img_urls` 列表读取 URL，带 Referer 下载（解决微信防盗链），按 `001.png` / `002.png` 格式命名保存到 `images/{文章英文名}/`，并可选替换 markdown 中的远程 URL 为本地相对路径。
 
-> **铁律**：公众号抓取 **必须** 正文 + 图片两步走。先 `fetch_weixin.py` 拿正文和远程图片 URL，再 `download-images.py` 下载图片到本地并重写路径。缺一步图片就白抓了。
+#### 步骤 A3: 配图
+
+图片模式下载完成后，markdown 中图片链接已是 `![](url)` 格式，需要将远程 URL 替换为本地路径：
+
+```bash
+# 查看当前 markdown 中的图片链接状态
+python3 download-images.py "文章.md" --dry-run --prefix "images/文章英文名/"
+```
+
+确认无误后执行替换：
+```bash
+python3 download-images.py "文章.md" --prefix "images/文章英文名/"
+```
 
 失败时回退到 Step 1-2 代理服务。
 
@@ -155,7 +184,13 @@ curl -sL "https://r.jina.ai/https://example.com/article"
 
 ### 公众号文章
 ```bash
-python3 ~/.claude/skills/markdown-proxy/scripts/fetch_weixin.py "https://mp.weixin.qq.com/s/abc123"
+# 图片模式（默认）：content 含远程图片 URL，后续 download-images.py 替换
+python3 ~/.claude/skills/markdown-proxy/scripts/fetch_weixin.py "https://mp.weixin.qq.com/s/abc123" --json
+# → 下载图片并替换
+python3 download-images.py "文章.md" --prefix "images/文章英文名/"
+
+# 纯文本模式：不提取图片，直接输出纯正文
+python3 ~/.claude/skills/markdown-proxy/scripts/fetch_weixin.py "https://mp.weixin.qq.com/s/abc123" --json --no-images
 ```
 
 ### 飞书文档
@@ -175,3 +210,5 @@ python3 ~/.claude/skills/markdown-proxy/scripts/fetch_feishu.py "https://xxx.fei
 - 飞书文档使用内置 API 脚本（需环境变量 `FEISHU_APP_ID` + `FEISHU_APP_SECRET`）
 - 飞书脚本自动将 blocks 转为 Markdown（标题、列表、代码块、引用、待办等）
 - 对于超长内容，可用 `| head -n 200` 先预览
+- **公众号图片模式**：content 已含远程 ![](url)，直接用 `download-images.py --prefix ...` 下载并替换为本地路径
+- **公众号纯文本模式**：content 无图片，适合只需要文字时使用
