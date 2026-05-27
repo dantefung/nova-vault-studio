@@ -1,122 +1,80 @@
 ---
-title: "Vibe Coding 指南"
-date: "2026-05-08"
+title: "Vibe Coding 完全指南"
+date: "2026-05-27"
+source: "原创整理"
+url: "/columns/vibe-coding/"
 ---
 
-> **摘要** — 收录 Vibe Coding 相关的开发规范、提示词技巧、上下文管理和工作流架构等内容。
+# Vibe Coding 完全指南
 
-```mermaid
-graph TD
-    A[Vibe Coding] --> B[基础规则]
-    A --> C[需求与设计]
-    A --> D[代码质量]
-    A --> E[提示词技巧]
-    A --> F[上下文管理]
-    A --> G[工作流架构]
-    A --> H[工具栈]
-    B --> B1[通用规则]
-    B --> B2[开发规则]
-    C --> C1[Spec工作流]
-    C --> C2[Linus原则]
-    D --> D1[Clean Code]
-    D --> D2[Code Quality]
-    D --> D3[Code Principle]
-    E --> E1[Vibe提示词]
-    E --> E2[图表提示词]
-    E --> E3[分析提示词]
-    F --> F1[Context7]
-    F --> F2[MCP配置]
-    G --> G1[工作流]
-    G --> G2[Codex]
-    H --> H1[工具栈速配]
-```
+> 收录 Vibe Coding 相关的开发规范、提示词技巧、上下文管理和工作流架构等内容。
+
+---
+
+## 什么是 Vibe Coding
+
+Vibe Coding 是用自然语言和 AI 协作开发的方式。你不需要懂代码，只要描述你的想法，AI 来帮你完成具体的实现工作。
+
+---
+
+## 学习路径
+
+本专栏按「入门→进阶→实战」三阶段组织：
+
+### 入门篇：先了解我是什么
+
+| 文章 | 说明 |
+|------|------|
+| [01-vibe-coding-intro](./01-vibe-coding-intro) | 我是谁、我的工作方式、三大方法论 |
+| [02-vibe-rules](./02-vibe-rules) | 基础规则和开发原则 |
+| [03-askme](./03-askme) | 常见问题解答 |
+
+### 进阶篇：跟 AI 沟通的技巧
+
+| 文章 | 说明 |
+|------|------|
+| [04-vibe-prompts](./04-vibe-prompts) | SVG 绘图、设计流程、Sequential Thinking 提示词 |
+| [05-diagram-prompts](./05-diagram-prompts) | Mermaid 架构图、三层思维分析框架 |
+| [06-context-management](./06-context-management) | MCP 配置、Context7、工具调用策略 |
+
+### 实战篇：做项目的标准流程
+
+| 文章 | 说明 |
+|------|------|
+| [07-spec-workflow](./07-spec-workflow) | Spec 需求设计工作流（需求→设计→实施） |
+| [08-clean-code](./08-clean-code) | 代码质量标准、KISS/YAGNI/SOLID/DRY |
+| [09-linus-principle](./09-linus-principle) | 代码审查原则（Linus 风格） |
+| [10-codex-workflow](./10-codex-workflow) | Codex CLI 全局配置和工作流 |
+| [11-toolstack](./11-toolstack) | Vercel/Supabase/Stripe/Cloudflare 全链路工具栈 |
+| [12-hooks](./12-hooks) | Hooks 自动化 + Vibe Coding 12 原则 |
+
+### 附录
+
+| 文章 | 说明 |
+|------|------|
+| [references/](./references/) | 原始文件备份（可溯源） |
+
+---
+
+## 快速导航
 
 ```markmap height=320
-# Vibe Coding 指南
-## 01 基础规则
-- 01-01-vibe通用规则：角色定位和核心原则
-- 01-02-askme：常见问答
-## 02 需求与设计
-- 02-01-spec-workflow：Spec工作流
-- 02-02-linus-principle：Linus原则
-## 03 代码质量
-- 03-01-clean-code：清洁代码规范
-- 03-02-code-quality：代码质量标准
-- 03-03-code-principle：代码原则
-## 04 提示词技巧
-- 04-01-vibe-prompts：Vibe提示词
-- 04-02-diagram-prompt：图表提示词
-- 04-03-analysis-prompt：分析提示词
-## 05 上下文管理
-- 05-01-context7：Context7
-- 05-02-mcp：MCP配置
-## 06 工作流与架构
-- 06-01-workflow：工作流
-- 06-02-codex：Codex
-## 07 工具栈与CLI
-- 07-01-toolstack：Vercel/Supabase/Stripe/Cloudflare 全配齐
+# Vibe Coding 完全指南
+## 入门篇
+- 01-vibe-coding-intro：我是谁
+- 02-vibe-rules：基础规则
+- 03-askme：常见问答
+## 进阶篇
+- 04-vibe-prompts：提示词模板
+- 05-diagram-prompts：图表提示词
+- 06-context-management：MCP 配置
+## 实战篇
+- 07-spec-workflow：需求设计工作流
+- 08-clean-code：代码质量
+- 09-linus-principle：Linus 审查原则
+- 10-codex-workflow：Codex 工作流
+- 11-toolstack：工具栈配置
+- 12-hooks：Hooks 自动化
+## 附录
+- references/：原始文件备份
 ```
-
----
-
-# Vibe Coding 指南
-
-## 目录
-
-### 01 基础规则
-
-| 章节 | 内容 |
-|------|------|
-| [01-01-vibe通用规则](/guide/ai/vibe/01-01-vibe-rules/) | Vibe 开发的角色定位和核心原则 |
-| [01-02-askme](/guide/ai/vibe/01-02-askme/) | 常见问答 |
-
-### 02 需求与设计
-
-| 章节 | 内容 |
-|------|------|
-| [02-01-spec-workflow](/guide/ai/vibe/02-01-spec-workflow/) | 需求收集、设计文档、任务规划的标准化流程 |
-| [02-02-linus-principle](/guide/ai/vibe/02-02-linus-principle/) | 代码评审和开发原则 |
-
-### 03 代码质量
-
-| 章节 | 内容 |
-|------|------|
-| [03-01-clean-code](/guide/ai/vibe/03-01-clean-code/) | 清洁代码规范 |
-| [03-02-code-quality](/guide/ai/vibe/03-02-code-quality/) | 代码质量标准 |
-| [03-03-code-principle](/guide/ai/vibe/03-03-code-principle/) | 代码原则 |
-
-### 04 提示词技巧
-
-| 章节 | 内容 |
-|------|------|
-| [04-01-vibe-prompts](/guide/ai/vibe/04-01-vibe-prompts/) | Vibe 提示词模板和技巧 |
-| [04-02-diagram-prompt](/guide/ai/vibe/04-02-diagram-prompt/) | 图表绘制的提示词 |
-| [04-03-analysis-prompt](/guide/ai/vibe/04-03-analysis-prompt/) | 三层思维分析提示词 |
-
-### 05 上下文管理
-
-| 章节 | 内容 |
-|------|------|
-| [05-01-context7](/guide/ai/vibe/05-01-context7/) | Context7 上下文管理技术 |
-| [05-02-mcp](/guide/ai/vibe/05-02-mcp/) | Model Context Protocol 配置 |
-
-### 06 工作流与架构
-
-| 章节 | 内容 |
-|------|------|
-| [06-01-workflow](/guide/ai/vibe/06-01-workflow/) | Vibe 开发工作流 |
-| [06-02-codex](/guide/ai/vibe/06-02-codex/) | Codex 相关内容 |
-
-### 07 工具栈与CLI
-
-| 章节 | 内容 |
-|------|------|
-| [07-01-toolstack](/guide/ai/vibe/07-toolstack/) | Vercel / Supabase / Stripe / Cloudflare / GSC+GA4 / Resend / SSH Agent 全链路工具链速配 |
-
-### 08 Hooks 与规则
-
-| 章节 | 内容 |
-|------|------|
-| [08-01-什么时候该用 Hooks](./08-hooks/08-01-when-to-use-hooks.md) | Prompt 表达意图，Hook 固化规则 |
-| [08-02-Hooks 打造自动化 Claude Code 工作流](./08-hooks/08-02-hooks-automation-workflow.md) | 5 个核心事件、三种类型、实际配置示例 |
-| [08-03-Vibe Coding 12 原则](./08-hooks/08-03-vibe-coding-12-principles.md) | 12Factor.me 四阶段学习路径：准备/执行/协作/迭代 |
