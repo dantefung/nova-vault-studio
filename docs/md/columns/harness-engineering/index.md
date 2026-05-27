@@ -34,6 +34,7 @@ url: "https://github.com/Conn-Ho/harness-engineering"
 
 | 文件 | 内容 |
 |------|------|
+| [从Prompt、Context到Harness，工程的三次进化与终局之战](./three-evolutions-of-engineering.md) | Prompt Engineering → Context Engineering → Harness Engineering 的三次进化逻辑与终局 |
 | [工具、Context 隔离与对抗性 Agent 分工](tools-context-adversarial-agents.md) | 工具是武器、Context 隔离是分工基础、对抗拆分保障质量、人的判断密度在升高 |
 | [大模型 vs 大驭化层 辩论](debate-big-model-vs-harness.md) | 两派核心论据对比分析 |
 | [生态工具对比](ecosystem-tools-comparison.md) | Harness 生态中不同工具的定位和适用场景 |
