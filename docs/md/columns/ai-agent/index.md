@@ -13,4 +13,5 @@ url: "/columns/ai-agent/"
 
 | 文章 | 类型 | 日期 |
 |------|------|------|
+| [tw93：13年6款工具，程序员开源的长期主义](./tw93-open-source-story) | 人物 | 2026-05 |
 | [Pi Agent 原理与实现：从零到一实现一个 AI Agent](./pi-agent-principle-and-implementation) | 教程 | 2026-05 |
