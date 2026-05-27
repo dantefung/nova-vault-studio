@@ -50,6 +50,7 @@ url: ""
 | — | [淘天生码工作流最佳实践](./taobao-code-generation-workflow.md) | 案例剖析 | 淘天营销中后台 AI 生码全流程：Prompt→Context→验证闭环，35 张配图 |
 | — | [Agent 范式演变：六维度从过去到现在](./agent-paradigm-evolution.md) | 深度文章 | 四阶段 + 六维度演变：Prompt/Planning/Memory/Tools/Workflow/Environment 的前后对比 |
 | — | [Prompt → Context → Harness 三次进化](./prompt-context-harness-evolution.md) | 深度文章 | 从 Prompt 到 Context 到 Harness 的工程进化论：嵌套关系、衰变定律、Human Steer + Agents Execute |
+| — | [AGE 应用开发模板介绍](./age-app-template-introduction.md) | 方法论 | Attractor-Guided Engineering：文件进文件出、owner-doc 吸引子、三级独立审计、独立子 Agent 审查 |
 
 ---
 
