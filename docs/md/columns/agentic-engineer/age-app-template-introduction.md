@@ -11,6 +11,70 @@ url: "https://mp.weixin.qq.com/s/DsLQTrALYFrtAJlhrG5bOw"
 
 ---
 
+## 摘要
+
+**AGE（Attractor-Guided Engineering，吸引子引导工程）** 是一套面向 AI 大规模应用开发的最佳实践模板，核心理念是把仓库变成 AI 可持续工作的制度基础设施，让 AI 在多 session、长周期、多角色协作中始终围绕文档这个"稳定吸引子"收敛。
+
+**三大核心原则**：
+1. **文件进，文件出** — 重要输入写文件，重要输出回写仓库，不允许结论停留在聊天里
+2. **owner-doc 作为吸引子** — `docs/design/` 和 `docs/architecture/` 作为稳定锚点，防止需求漂移
+3. **独立子 Agent 审查** — 不自己审自己，用独立 Agent 验证闭包门
+
+**10 阶段开发工作流**：context → input → requirements → design → plan → implement → 闭包审计
+
+**适用场景**：后台系统、门户、工作流应用、Dashboard、内部工具、CRUD 较多的领域系统
+
+> GitHub 模板：[entropy-cloud/attractor-guided-engineering-template](https://github.com/entropy-cloud/attractor-guided-engineering-template)
+
+---
+
+## 思维导图
+
+```markmap
+- AGE 应用开发模板
+  - 核心定义
+    - AGE = Attractor-Guided Engineering
+    - 仓库 = 真相源，聊天 = 临时工作面
+    - 目标：避免需求漂移、架构失真、Demo 化
+  - 核心原则
+    - 文件进，文件出
+    - 吸引子 = 稳定结构（owner-doc）
+    - 设计分离（业务/技术）
+    - 最小完整切片
+    - 独立审查
+    - 代码注释最少化
+  - docs/ 目录结构
+    - 核心：context, requirements, design, architecture
+    - 按需：discussions, plans, logs, bugs
+    - 可选：audits, skills, testing, lessons
+  - 10 阶段开发工作流
+    - Stage 0-4: 上下文 → 输入 → 需求 → 设计
+    - Stage 5-7: 审计 → 计划 → 审计计划
+    - Stage 8-10: 实现 → 验证 → 闭包审计
+  - 三步核心控制循环
+    - A. 生成设计文档（分开，独立审查）
+    - B. 根据设计文档生成 Plan
+    - C. 定期审计
+  - 三级审计体系
+    - 文档审计：需求/设计更新后
+    - 计划审计：Plan 写完后
+    - 闭包审计：实现完成后
+  - Plan 规则
+    - 必须写：跨模块/多Session/高风险
+    - 跳过：文案/样式/单文件修复
+  - 首次使用清单
+    - Day 0 必须：project-context/验证命令/backlog
+    - 禁止启动：context为空/验证命令为占位符
+  - AI 开发可以不做的事
+    - 不生成大量注释
+    - 不从输入直接跳代码
+    - 不优化Demo广度
+    - 不把验证命令写成占位符
+    - 不自己审查自己
+```
+
+---
+
 在我此前的两篇文章中已经介绍了 AGE 的基本理论概念以及它和 Spec-Driven 开发以及 Harness Engineering 的区别。为了便于实际落地 AGE 的实践，我新建了一个新的模板项目 [attractor-guided-engineering-template](https://github.com/entropy-cloud/attractor-guided-engineering-template)，本文是对这个模板的简单介绍。
 
 **参考文章：**
