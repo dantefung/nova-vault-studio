@@ -269,6 +269,14 @@ date: "2026-04-29"
 
 ---
 
+## Plugins
+
+- [Claude Code Setup](https://claude.com/plugins/claude-code-setup) — 分析代码库并推荐量身定制的 Claude Code 自动化（MCP servers、Skills、Hooks、Subagents、Slash Commands），121,428 次安装，Anthropic 官方认证
+  - 安装：`/plugin install claude-code-setup@claude-plugins-official`
+  - 附带已安装 `claude-md-management`
+
+---
+
 ## Rules 与配置
 
 - [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — Cursor Rules 资源大合集
