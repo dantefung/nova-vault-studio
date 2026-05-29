@@ -1,3 +1,9 @@
+---
+title: "nohup 与 systemd 本质区别"
+date: "2026-05-28"
+source: "微信公众号"
+url: ""
+---
 # nohup 与 systemd 本质区别（原理拆解版）
 
 本文件从 **系统启动流程、进程托管机制、cgroup、日志系统** 四个维度分析。

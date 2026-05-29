@@ -1,4 +1,8 @@
-
+---
+title: "disown 说明"
+date: "2026-05-28"
+source: "微信公众号"
+---
 # disown 说明
 
 ```bash

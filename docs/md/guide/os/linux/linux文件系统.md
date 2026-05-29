@@ -1,3 +1,10 @@
+---
+title: "Linux 文件系统"
+date: "2026-05-28"
+source: "博客"
+url: "https://deusyu.app/posts/linux-file-system/"
+---
+
 # [Linux File System](https://deusyu.app/posts/linux-file-system/)
 
 共 2103 字阅读需 5 分钟
