@@ -98,3 +98,18 @@ npm run preview   # 预览构建产物
 - 侧边栏完全自动生成，新增 `.md` 文件即自动出现
 - `index.md` 不出现在侧边栏中，但其所在目录会作为分组入口
 - `tutorial/` 目录有特殊规则：只保留子目录中的文件，根目录文件被过滤
+
+---
+
+## LLM Wiki 约定
+
+本项目使用 `llm-wiki` 模式维护知识库：
+
+- Wiki 路径：`wiki/`
+- 一个页面 = 一个知识实体（概念、实体、摘要）
+- 文件命名：小写、中划线分隔（如 `claude-code-setup.md`）
+- 交叉引用：`[[pages/concept-name]]` Obsidian 兼容双括号格式
+- `index.md`：每次 ingest 更新，按分类组织
+- `log.md`：只追加、chronological 条目，条目以 `## [YYYY-MM-DD]` 开头
+- 原始来源不可变——LLM 只读不改
+- 有价值的答案应写回 wiki 成为新页面
