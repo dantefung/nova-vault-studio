@@ -50,4 +50,4 @@ wiki/
 
 ## 来源
 
-- [llm-wiki SKILL.md](/.claude/skills/llm-wiki/SKILL.md)
+- [llm-wiki SKILL.md](../../.claude/skills/llm-wiki/SKILL.md)

@@ -105,7 +105,7 @@ npm run preview   # 预览构建产物
 
 本项目使用 `llm-wiki` 模式维护知识库：
 
-- Wiki 路径：`wiki/`
+- Wiki 路径：`docs/md/wiki/`
 - 一个页面 = 一个知识实体（概念、实体、摘要）
 - 文件命名：小写、中划线分隔（如 `claude-code-setup.md`）
 - 交叉引用：`[[pages/concept-name]]` Obsidian 兼容双括号格式
