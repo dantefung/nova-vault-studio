@@ -101,6 +101,16 @@ npm run preview   # 预览构建产物
 
 ---
 
+## Commit-As-Prompt Skill
+
+将 Git 提交记录转化为供其他 AI 参考的上下文 Prompt。触发词：`/vast-commit-as-prompt`、`commit as prompt`、`提交转 prompt`。
+
+```bash
+/vast-commit-as-prompt
+```
+
+---
+
 ## LLM Wiki 约定
 
 本项目使用 `llm-wiki` 模式维护知识库：
