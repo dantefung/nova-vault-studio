@@ -21,7 +21,7 @@ url: ""
 | 04 | [GSD 快速开始：从单次任务到完整项目管理](./04-gsd-quick-start.md) | 快速入门 | GSD 三步上手路径：Quick Fix / 代码库维护 / 完整项目，含 XML 任务计划示例 |
 | 05 | [GSD 初学者完全指南](./05-gsd-beginner-guide.md) | 完整教程 | 讨论→规划→执行→验证 全流程，含波次执行原理、命令详解 |
 | 06 | [GSD 前端开发工作流](./06-gsd-frontend-workflow.md) | 前端专项 | UI 设计合约(UI-SPEC) + 视觉审计(gsd-ui-review)，discuss 与 plan 之间插入设计步骤 |
-| 11 | [Pensieve：让 AI Agent 拥有持续生长的项目记忆](./11-pensieve-architecture.md) | 项目记忆 | 四层知识模型(MUST/WANT/HOW/IS)、七工具、图谱生成、自增强循环 |
+| 12 | [Matt Pocock Skills 安装与使用指南](./12-mattpocock-skills-install-guide.md) | 安装指南 | 29 个技能的完整安装与分类用法，含 diagnose/tdd/caveman 等核心技能详解 |
 
 ---
 
