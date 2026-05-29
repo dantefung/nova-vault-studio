@@ -36,3 +36,16 @@ Artifacts 是 Claude 在对话中直接生成可预览内容的功能——不�
 2. **《Essential Books for Product Builders》**
    > Lenny 整理了 36 本经得住时间检验的书，按"你想解决什么问题"来分类推荐
    - https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart
+
+## Claude Code 动态工作流
+
+Claude Code 引入了动态工作流，AI 可以动态安排合适的多个 agents 一起工作，无需人工配置 agent team。
+
+**核心特点：**
+- AI 自主安排、自动调用多个 agents 处理任务
+- 类似 GSD 工作流
+- 不需要人为配置 subagents
+
+**启用方式：**
+1. 输入：`创建(动态)工作流程`
+2. 使用：`/effort ultracode`
