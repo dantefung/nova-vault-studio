@@ -48,6 +48,7 @@ Vibe Coding 是用自然语言和 AI 协作开发的方式。你不需要懂代�
 | [11-toolstack](./11-toolstack) | Vercel/Supabase/Stripe/Cloudflare 全链路工具栈 |
 | [12-hooks](./12-hooks) | Hooks 自动化 + Vibe Coding 12 原则 |
 | [13-claude-code-tips](./13-claude-code-tips) | Nav Toor 42 个实战技巧（基础/进阶/高阶） |
+| [14-claude-code-setup-plugin](./14-claude-code-setup-plugin) | 官方自动化配置插件（呱呱一号） |
 
 ### 附录
 
