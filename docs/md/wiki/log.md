@@ -13,9 +13,9 @@ source: "llm-wiki"
 
 ## [2026-05-29] init: 初始化 wiki 结构
 
-- 创建 `wiki/` 目录结构（sources/、pages/四子目录）
-- 创建 `wiki/index.md`（分类索引 + 当前知识体系概览）
-- 创建 `wiki/log.md`（本文件）
+- 创建 `docs/md/wiki/` 目录结构（concepts/、products/、patterns/、comparisons/、entities/、summaries/、synthesis/、sources/）
+- 创建 `docs/md/wiki/index.md`（分类索引 + 当前知识体系概览）
+- 创建 `docs/md/wiki/log.md`（本文件）
 - 注入 schema 约定到本项目 AGENTS.md
 - 首期收录：llm-wiki 模式本身 + 3 个核心插件 + 2 个专栏入口
 - 后续来源：公众号抓取、skill 蒸馏、HV 分析报告
