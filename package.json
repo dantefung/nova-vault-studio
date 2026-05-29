@@ -27,7 +27,6 @@
     "@fontsource/lxgw-wenkai": "5.2.5",
     "@giscus/vue": "^2.2.8",
     "@vercel/analytics": "^1.0.1",
-    "cc-adapter-v2": "file:../../../../../../tmp/opencode-cc-adapter",
     "markmap-lib": "^0.18.12",
     "markmap-view": "^0.18.12",
     "pdfjs-dist": "^5.5.207"
