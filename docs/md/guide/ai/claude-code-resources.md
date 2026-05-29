@@ -275,6 +275,8 @@ date: "2026-04-29"
   - 安装：`/plugin install claude-code-setup@claude-plugins-official`
   - 附带已安装 `claude-md-management`
 
+- [opencode-cc-adapter](https://github.com/VastFuture/opencode-cc-adapter) — 将 Claude Code 命令、技能、MCP 服务器桥接到 OpenCode，加载 `.claude/commands/` 为原生命令，81 个源文件，21.6KB 编译产物，基于 oh-my-openagent 轻量提取
+
 ---
 
 ## Rules 与配置
