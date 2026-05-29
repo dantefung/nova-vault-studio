@@ -113,6 +113,7 @@ export default defineConfig({
           { text: '模式与方法论', link: '/md/wiki/patterns/' },
           { text: '产品与工具', link: '/md/wiki/products/' },
           { text: '对比分析', link: '/md/wiki/comparisons/' },
+          { text: '日记', link: '/md/wiki/journal/' },
         ]
       },
       {
@@ -171,6 +172,11 @@ export default defineConfig({
           text: '对比分析',
           collapsed: false,
           items: generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/')
+        },
+        {
+          text: '日记',
+          collapsed: false,
+          items: generateSidebar('docs/md/wiki/journal', '/md/wiki/journal/')
         }
       ],
       '/md/wiki/concepts/': generateSidebar('docs/md/wiki/concepts', '/md/wiki/concepts/'),
@@ -183,7 +189,8 @@ export default defineConfig({
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/'),
       ...generateSidebarMappingForSubdirectories('docs/md/business', '/md/business/'),
-      ...generateSidebarMappingForSubdirectories('docs/md/columns', '/md/columns/')
+      ...generateSidebarMappingForSubdirectories('docs/md/columns', '/md/columns/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/wiki/journal', '/md/wiki/journal/')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dantefung/nova-vault-studio' },

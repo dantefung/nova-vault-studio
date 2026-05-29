@@ -1,5 +1,5 @@
 ---
-title: "AI 玩耍群日报 - 0527"
+title: "Claude Code 动态工作流与静态页面"
 date: "2026-05-27"
 ---
 
