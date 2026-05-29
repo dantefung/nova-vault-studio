@@ -92,24 +92,24 @@ title: 浮世绘风格
 
 居中位置是主角灶門炭治郎和弥豆子
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tc9Zic7wWc9AP44b5pZdribdHj6tdC42Jpo4uziazqAjn4f2aDD9jCYQbAyay21427KCe7qvERIM4Uia3haWL8KcMw/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img1.png)
 
 将「画面内容」部分做替换即可保持画风，生成自己需要的画面内容：
 
 「千山鳥_飛絕_，. 萬徑人蹤滅。 孤舟蓑笠翁，. 獨釣寒江雪。」
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tc9Zic7wWc9AP44b5pZdribdHj6tdC42JpeDbM1jgrdzxXYic1MgHic9CqVgawImljsJ4jCqSQyiarcv5JzziclBKrUQ/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img2.png)
 
 「_十年生死兩茫茫_，_不思量_，_自難忘_。_千里孤墳_，_無處話淒涼_。縱使相逢應不識，塵滿面，鬢如霜。 夜來幽夢忽還鄉，小軒窗，正梳妝。」
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tc9Zic7wWc9AP44b5pZdribdHj6tdC42JpllsRSUcXaQHbE7iaBb6w0Ya8QAiaHwcj0V3rVttPmlUa6ib2tCicN4YZaw/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img3.png)
 
 将之前记录的一些读书笔记进行可视化：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tc9Zic7wWc9AP44b5pZdribdHj6tdC42JpcSIxjSBAFQTGYdShLnUBicxAzSVVjzfj6FvxQ0bsq9m3yY91dzKjfNg/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tc9Zic7wWc9AP44b5pZdribdHj6tdC42JpslA1YjwkelVibgtD8Sq2OcYDx5gakHF3lFFqPhNVjRtaPsRdhkSnHWg/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tc9Zic7wWc9AP44b5pZdribdHj6tdC42JpaMEIIUibmN2NUZPIA6XMRPXVgra6COdAzHIOgOapkD1sFFkHMJewrqQ/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img6.png)
 
 \>由 \[Circle 阅读助手\](https://circlereader.com) 生成

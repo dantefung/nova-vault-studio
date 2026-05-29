@@ -63,7 +63,7 @@ Swiss Style
 
 \- 绘制主体：《鬼灭之刃》中的继国缘一战斗特写
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/tc9Zic7wWc9A7rvGzta3lTa7fia8OKxOJdywTUVx9IvOTiaibDTEHLxkcx1g7sTXlgMibt1UZNvjGzYCgCeXfAbKr8A/640?wx_fmt=jpeg&from=appmsg#imgIndex=0)
+![](./images/03-02-paint-prompts-two/03-02-paint-prompts-two-img1.jpeg)
 
 日系
 --
@@ -132,6 +132,6 @@ Swiss Style
 
 下雪天，初恋男女，在学校操场上玩闹
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tc9Zic7wWc9A7rvGzta3lTa7fia8OKxOJdRJqOVgkNft0snHOf2taZMe30GABAkfHXojLecQxia0l5iaFjeSEnDO9A/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![](./images/03-02-paint-prompts-two/03-02-paint-prompts-two-img2.png)
 
 \>由 \[Circle 阅读助手\](https://circlereader.com) 生成
