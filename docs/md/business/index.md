@@ -14,6 +14,7 @@ url: ""
 | 专栏 | 说明 | 最新 |
 |------|------|------|
 | [市场分析](./market-analysis/) | 区域市场、行业赛道的深度横纵分析 | [珠三角服装尾货市场](./market-analysis/prd-clothing-surplus-market.md) |
+| [数字产品副业](./digital-products/) | 数字产品平台选择与副业变现策略 | [数字产品副业平台对比](./digital-products/digital-product-platforms.md) |
 | 公司研究 | 企业商业模式与竞争策略分析（筹建中） | — |
 | 商业模式 | 商业模型拆解与创新分析（筹建中） | — |
 
