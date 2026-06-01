@@ -1,8 +1,7 @@
 ---
 title: "我用 Codex 跑视频字幕的大致流程"
 source: "微信公众号-狂奔滴小马"
-url: "https://mp.weixin.qq.com/s/Xe06pFpo9h6uXUsUotk4FQ
-date: "2026-06-01"
+url: "https://mp.weixin.qq.com/s/Xe06pFpo9h6uXUsUotk4FQ"
 ---
 
 # 我用 Codex 跑视频字幕的大致流程

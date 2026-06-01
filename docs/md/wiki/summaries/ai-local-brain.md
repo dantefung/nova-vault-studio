@@ -2,7 +2,7 @@
 title: "让AI站在我全部数据上（摘要）"
 date: "2026-06-01"
 source: "微信公众号"
-url: "https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ
+url: "https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ"
 ---
 
 # 让AI站在我全部数据上

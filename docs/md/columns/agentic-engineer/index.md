@@ -21,7 +21,7 @@ url: ""
 | 04 | [GSD 快速开始：从单次任务到完整项目管理](./04-gsd-quick-start.md) | 快速入门 | GSD 三步上手路径：Quick Fix / 代码库维护 / 完整项目，含 XML 任务计划示例 |
 | 05 | [GSD 初学者完全指南](./05-gsd-beginner-guide.md) | 完整教程 | 讨论→规划→执行→验证 全流程，含波次执行原理、命令详解 |
 | 06 | [GSD 前端开发工作流](./06-gsd-frontend-workflow.md) | 前端专项 | UI 设计合约(UI-SPEC) + 视觉审计(gsd-ui-review)，discuss 与 plan 之间插入设计步骤 |
-| 12 | [Matt Pocock Skills 安装与使用指南](./12-mattpocock-skills-install-guide.md) | 安装指南 | 29 个技能的完整安装与分类用法，含 diagnose/tdd/caveman 等核心技能详解 |
+
 
 ---
 
@@ -40,7 +40,7 @@ url: ""
 | — | [Ralph 循环在复合工程中的作用](./ralph-loop-compound-engineering.md) | 模式解析 | Ralph 循环 × 复合工程：每一个特性让下一个更容易构建 |
 | — | [Agent之：后台任务](./agent-background-tasks.md) | 架构解析 | subprocess 后台执行 + 通知队列汇入主循环 |
 | — | [拆解 AI Agent 内部：300 行 ReAct 循环](./simple-react-agent-loop.md) | 架构解析 | Action 即危险、上下文成本、ReAct 循环的极简本质 |
-| — | [75K Star 的 Skills 仓库到底凭什么](./mattpocock-skills-analysis.md) | 案例剖析 | Matt Pocock 把 4 本经典压成 10 行招式，心法→招式的范本 |
+
 | — | [Coding Tutor Plugin 架构详解](./coding-tutor-plugin-architecture.md) | 案例剖析 | Agent 驱动的个性化编程教学：learn profile → 代码库实例 → 间隔重复，Skill + Python 脚本架构 |
 | — | [cc-connect 多项目配置指南](./cc-connect-multi-project-guide.md) | 工具集成 | 10+ AI 编码助手 × 11 消息平台桥接，单进程多项目管理 |
 | — | [cc-connect 飞书接入指南](./cc-connect-feishu-guide.md) | 工具集成 | Claude Code → 飞书机器人远程调用，WebSocket 长连接无需公网 IP |

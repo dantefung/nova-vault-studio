@@ -2,7 +2,7 @@
 title: "AI本地知识基座"
 date: "2026-06-01"
 source: "微信公众号-精炼"
-url: "https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ
+url: "https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ"
 ---
 
 # AI本地知识基座
