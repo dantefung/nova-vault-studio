@@ -153,6 +153,45 @@ docs/md/wiki/
 
 ---
 
+## 自动触发 Wiki-Ingest（Step 6）
+
+写入 `sources/{slug}.md` 并更新 `log.md` 后，立即触发 `/wiki-ingest` 将文章提炼为 Wiki 知识页。
+
+### 执行方式
+
+```
+/wiki-ingest
+```
+
+或通过 skill 工具加载 `wiki-ingest`（在 nova-vault-studio 项目中）。
+
+### Wiki-Ingest 应完成的工作
+
+1. **读取** `docs/md/wiki/sources/{slug}.md`
+2. **提炼**出 Wiki 概念页（如 `concepts/{slug}.md`），包含：
+   - 一句话核心定义
+   - 关键洞察（3-5 条）
+   - 原文核心章节摘要
+   - 交叉引用到其他 wiki 页面
+3. **写入** `docs/md/wiki/concepts/{slug}.md`（或 `summaries/`/`entities/`/`patterns/` 之一）
+4. **更新** `docs/md/wiki/index.md` 分类索引
+
+> 纯来源归档（公众号原文镜像）可跳过。含概念/工具/框架的文章必须触发。
+
+### 流程串联
+
+```
+URL → 步骤1-5（抓取/图片/精写/sources/）
+      ↓
+   步骤6：/wiki-ingest（提炼知识页 → concepts/）
+      ↓
+   index.md 更新
+      ↓
+   git commit + push
+```
+
+---
+
 ## 注意
 
 - `title` 必填，缺失阻断 pre-commit

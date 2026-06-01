@@ -214,3 +214,49 @@ docs/md/wiki/
 - 原始来源不可变——LLM 只读不改，只在 sources/ 归档摘要
 - `date` 使用当天日期 `YYYY-MM-DD`
 - source 填写平台名称：微信公众号、X/Twitter、YouTube、博客、知乎等
+
+---
+
+## 自动触发 Wiki-Ingest（步骤 6）
+
+归档到 sources/ 并更新 log.md 后，**自动触发 `/wiki-ingest` 将文章内容提炼为 Wiki 知识页**。
+
+### 执行方式
+
+在写入 `sources/{slug}.md` 并更新 `log.md` 后，立即调用：
+
+```
+/wiki-ingest
+```
+
+或通过 skill 工具加载：
+
+```
+加载 skill: wiki-ingest
+```
+
+### Wiki-Ingest 应完成的工作
+
+1. **读取** `docs/md/wiki/sources/{slug}.md` 的精读正文
+2. **提炼**出一个 Wiki 概念页（如 `concepts/{slug}.md`），包含：
+   - 一句话核心定义
+   - 关键洞察（3-5 条）
+   - 原文核心章节摘要
+   - 交叉引用到其他已有 wiki 页面
+3. **写入** `docs/md/wiki/concepts/{slug}.md`（或 `summaries/` / `entities/` / `patterns/` 之一，取决于文章主题）
+4. **更新** `docs/md/wiki/index.md` 的分类索引（新增一行）
+5. **追加** log.md 的 ingest 记录（已在步骤 5 完成）
+
+> 如果文章是纯来源归档（如公众号原文镜像），可以直接跳过此步骤。如果文章包含值得结构化的概念、工具或框架，则必须触发 `/wiki-ingest`。
+
+### 流程串联示意
+
+```
+URL → 步骤1-5（抓取/图片/精写/sources/）
+      ↓
+   步骤6：/wiki-ingest（提炼为知识页 → concepts/）
+      ↓
+   index.md 更新
+      ↓
+   git commit + push
+```
