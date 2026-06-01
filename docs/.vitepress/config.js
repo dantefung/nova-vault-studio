@@ -114,6 +114,7 @@ export default defineConfig({
           { text: '产品与工具', link: '/md/wiki/products/' },
           { text: '对比分析', link: '/md/wiki/comparisons/' },
           { text: '日记', link: '/md/wiki/journal/' },
+          { text: '稍后读', link: '/md/wiki/read-later/' },
         ]
       },
       {
@@ -177,6 +178,11 @@ export default defineConfig({
           text: '日记',
           collapsed: false,
           items: generateSidebar('docs/md/wiki/journal', '/md/wiki/journal/')
+        },
+        {
+          text: '稍后读',
+          collapsed: false,
+          items: generateSidebar('docs/md/wiki/read-later', '/md/wiki/read-later/')
         }
       ],
       '/md/wiki/concepts/': generateSidebar('docs/md/wiki/concepts', '/md/wiki/concepts/'),
@@ -190,7 +196,8 @@ export default defineConfig({
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/'),
       ...generateSidebarMappingForSubdirectories('docs/md/business', '/md/business/'),
       ...generateSidebarMappingForSubdirectories('docs/md/columns', '/md/columns/'),
-      ...generateSidebarMappingForSubdirectories('docs/md/wiki/journal', '/md/wiki/journal/')
+      ...generateSidebarMappingForSubdirectories('docs/md/wiki/journal', '/md/wiki/journal/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/wiki/read-later', '/md/wiki/read-later/')
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dantefung/nova-vault-studio' },
