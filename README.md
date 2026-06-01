@@ -69,7 +69,7 @@ sources/     ← 原始原文（公众号文章、X/Twitter 帖子等），verba
 summaries/  ← 精读摘要（LLM 重写，含核心结论+关键证据+疑点+术语）
 concepts/   ← 知识页（从摘要提炼，含定义+洞察+交叉引用）
 artifacts/  ← 原创产出物（已发布的文章、推文串、笔记）
-journal/    ← 与 AI 对话的探索记录
+journal/    ← 探索日志（chronological 条目）
 ```
 
 ### 两条归档路径

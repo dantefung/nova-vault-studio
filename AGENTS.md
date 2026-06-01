@@ -152,6 +152,6 @@ artifacts/
 - 交叉引用：`[[pages/concept-name]]` Obsidian 兼容双括号格式
 - `index.md`：每次 ingest 更新，按分类组织
 - `log.md`：只追加、chronological 条目，条目以 `## [YYYY-MM-DD]` 开头
-- `journal/`：与 AI 对话的探索记录（brainstorming 等价）
+- `journal/`：探索日志（brainstorming 等价，chronological 条目）
 - 原始来源不可变——LLM 只读不改
 - 有价值的答案应写回 wiki 成为新页面
