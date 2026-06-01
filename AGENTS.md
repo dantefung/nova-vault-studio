@@ -113,14 +113,45 @@ npm run preview   # 预览构建产物
 
 ## LLM Wiki 约定
 
-本项目使用 `llm-wiki` 模式维护知识库：
+本项目使用 `llm-wiki` 模式维护知识库，采用四层架构：
+
+### 四层结构
+
+| 层级 | 目录 | 内容 | 是否可变 |
+|------|------|------|----------|
+| 原始层 | `sources/` | 原始原文（公众号文章、X/Twitter 帖子等），verbatim 不可修改 | 唯读 |
+| 摘要层 | `summaries/` | 精读摘要（LLM 重写，含核心结论+关键证据+疑点+术语） | LLM 维护 |
+| 概念层 | `concepts/` | 从摘要提炼的知识页，含定义+洞察+与其他概念交叉引用 | LLM 维护 |
+| 产出层 | `artifacts/` | 你原创的完成品（已发布的文章、推文串、笔记） | 你维护 |
+
+### artifacts 子目录
+
+```
+artifacts/
+├── articles/   ← 已发布到专栏的长文
+├── threads/    ← 推文串/X threads
+└── notes/      ← 随手笔记/想法片段
+```
+
+**artifacts 入口**：写完发布到专栏时，同步复制一份到 `wiki/artifacts/articles/`。
+不是采集归档，是**创作产出物**。
+
+### 两条归档路径
+
+| 路径 | 触发 | 目的地 |
+|------|------|--------|
+| 采集归档 | `/wiki-ingest-article` | `sources/` → `summaries/` → `concepts/` |
+| 创作发布 | 写完发布到专栏时 | 同时写一份到 `artifacts/articles/` |
+
+### Wiki 目录
 
 - Wiki 路径：`docs/md/wiki/`
-- Wiki 子目录：`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`
+- Wiki 子目录：`artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`journal/`、`images/`
 - 一个页面 = 一个知识实体（概念、实体、摘要）
 - 文件命名：小写、中划线分隔（如 `claude-code-setup.md`）
 - 交叉引用：`[[pages/concept-name]]` Obsidian 兼容双括号格式
 - `index.md`：每次 ingest 更新，按分类组织
 - `log.md`：只追加、chronological 条目，条目以 `## [YYYY-MM-DD]` 开头
+- `journal/`：与 AI 对话的探索记录（brainstorming 等价）
 - 原始来源不可变——LLM 只读不改
 - 有价值的答案应写回 wiki 成为新页面
