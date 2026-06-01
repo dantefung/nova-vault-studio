@@ -5,6 +5,8 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/tsXQqeGNZnFUwc8eJu9IbQ"
 ---
 
+# Vibe Coding 实战（一）：6小时，我搭建了一个基于Claude Code的24小时工作流
+
 ![图片](./images/vibe-coding-5/001.png)
 
 ## 前言
@@ -261,10 +263,4 @@ Worker 从队列取出任务，调用 Claude Agent SDK 执行，边执行边汇�
 
 **工具不是问题，思路才是关键。** 如果你也有类似的痛点，不妨动手试试。哪怕不用这套技术栈，核心思路也能复用到你熟悉的工具上。
 
-希望这篇文章能给你一些启发。也欢迎关注我的公众号，后续我会持续分享我在AI方面的一些实战。
 
-最后我拉了一个交流群，有兴趣的同学可以加入，我会持续的在群中分享一些个人的思考和高质量文章
-
-![图片](./images/vibe-coding-5/006.jpeg)
-
-收录于Vibe Coding实战
