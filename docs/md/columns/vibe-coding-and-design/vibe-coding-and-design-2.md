@@ -4,19 +4,6 @@ date: "2026-01-02"
 source: "KaitoX"
 url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=aa330218426023f6d96cdb2aa3da005c"
 ---
----
-title: "Vibe Coding与设计（二）：5分钟，实现一个有设计感的网站"
-url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=aa330218426023f6d96cdb2aa3da005c&chksm=fdef4b06ca1c2bc1a810eb4258269107f5408fcc12f7f142ae295889f4bfb94e075c4e80f429#rd"
-requestedUrl: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=aa330218426023f6d96cdb2aa3da005c"
-author: "KaitoX"
-coverImage: "https://mmbiz.qpic.cn/mmbiz_jpg/wHeAVjutPRpBzFWXWibib9qyZDGVJEPutIje6WiaRqu9TepN3ZvLdgMccZzjpIJCTNuEzJXQ0hB1AqGFSoA9ZCh2A/0?wx_fmt=jpeg"
-siteName: "微信公众平台"
-summary: "前言在上一篇文章中，我们揭示了 AI 生成页面千篇一律的根源——原子设计的标准化与 AI的高频模式选择，并提出"
-adapter: "generic"
-capturedAt: "2026-06-01T02:48:58.711Z"
-conversionMethod: "defuddle"
-kind: "generic/article"
----
 
 # Vibe Coding与设计（二）：5分钟，实现一个有设计感的网站
 

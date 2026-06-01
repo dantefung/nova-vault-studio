@@ -4,34 +4,6 @@ date: "2026-01-04"
 source: "KaitoX"
 url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=9db62468415375fe02ef55710ec01781"
 ---
----
-title: "Vibe Coding与设计（四）：用ASCII图给AI戴上“结构镣铐”，让你的页面更加可控"
-url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=9db62468415375fe02ef55710ec01781&chksm=fd34add8bf6dc41cae31da7522a769781d5427eaaca46418a22baca053be643dbc220836515c#rd"
-requestedUrl: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=9db62468415375fe02ef55710ec01781"
-author: "KaitoX"
-coverImage: "https://mmbiz.qpic.cn/mmbiz_jpg/wHeAVjutPRrZH8BvU7ibqhN73P0NqR1fnic43J7s3ONyJKcgonVp3TpndbOicyiaPSRlCHLKfA3zM1iaKmHqyLhm5Aw/0?wx_fmt=jpeg"
-siteName: "微信公众平台"
-summary: "用工程师的严谨和规划，去驾驭 AI 的强大生产力。 ASCII 图就是我们给 AI 的“施工图纸”，它将页面开发从充满不确定性的“艺术创作”转变为可控的“工程建设”。"
-adapter: "generic"
-capturedAt: "2026-06-01T02:49:34.653Z"
-conversionMethod: "defuddle"
-kind: "generic/article"
----
-
-# Vibe Coding与设计（四）：用ASCII图给AI戴上“结构镣铐”，让你的页面更加可控
-
-原创 KaitoX *2026年1月27日 09:30*
-
-![图片](images/vibe-coding-4/001.png)
-
-欢迎回到 Kaito 的“ **Vibe Coding 与设计** ”系列！
-
-在第一篇，我们建立了通过 **设计 Token** 约束 AI 的理论框架；第二篇，我们用 5 分钟实战落地了一个静态网站；第三篇，我们为网站注入了 **Lottie 和 Motion 动画** 的灵魂。至此，我们已经拥有一个外观精美、交互生动的页面。
-
-但很多开发者在实际操作中，往往会跳过规划，直接对 AI 说：“请给我生成一个xxx页面”。然后就开始了漫长的“抽卡”过程：发现不对，让 AI 修改；再不对，再修改……最后得到的代码往往结构混乱、样式冲突，引入一堆难以维护的 bug。
-
-![image.png](images/vibe-coding-4/002.jpeg)
-
 **这种“先开枪，后瞄准”的工作流，是 Vibe Coding 的天敌。**
 
 那么，有没有什么方法可以从一开始就避免这种情况？当然有。答案不是更复杂的 Prompt，而是更原始的工具—— **ASCII 图** 。

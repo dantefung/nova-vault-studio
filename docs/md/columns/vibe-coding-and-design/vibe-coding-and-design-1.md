@@ -4,19 +4,6 @@ date: "2026-01-01"
 source: "KaitoX"
 url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483720&idx=1&sn=ea3c0d4e52a872f2b56d1febee67fcca"
 ---
----
-title: "Vibe Coding与设计（一）：如何实现有设计感的网站？"
-url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483720&idx=1&sn=ea3c0d4e52a872f2b56d1febee67fcca&chksm=fdb529f9805489bf7d3d3024faf45cd32f446bb1e1c4b410d64211417b22a51d954655394096#rd"
-requestedUrl: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483720&idx=1&sn=ea3c0d4e52a872f2b56d1febee67fcca"
-author: "KaitoX"
-coverImage: "https://mmbiz.qpic.cn/mmbiz_jpg/wHeAVjutPRohYQSSoUoKR3Rl9xLyeZCn25e2QlToxicSFGicxpiauhUrC8fUgLCVTovSRdSkGgGev6CHSRZN5rewQ/0?wx_fmt=jpeg"
-siteName: "微信公众平台"
-summary: "我们将从底层原理出发,探讨 AI 生成页面为何千篇一律,并给出一套可操作的解决方案: 如何通过设计 Token 约束 AI,让它生成具有个人风格的网站。"
-adapter: "generic"
-capturedAt: "2026-06-01T02:47:31.800Z"
-conversionMethod: "defuddle"
-kind: "generic/article"
----
 
 # Vibe Coding与设计（一）：如何实现有设计感的网站？
 

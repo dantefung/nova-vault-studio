@@ -4,34 +4,6 @@ date: "2026-01-03"
 source: "KaitoX"
 url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=224cd6fbd3176ea31baf2756aecfd680"
 ---
----
-title: "Vibe Coding与设计（三）：两步搞定前端动效，让网站瞬间 “活” 起来"
-url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=224cd6fbd3176ea31baf2756aecfd680&chksm=fd13a0a7cdff55e62952f3dd95205677bffa0def023f88edbdcbb4bca83081ae056ec3482e4b#rd"
-requestedUrl: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=224cd6fbd3176ea31baf2756aecfd680"
-author: "KaitoX"
-coverImage: "https://mmbiz.qpic.cn/mmbiz_jpg/wHeAVjutPRqyFzk1YYM1ibBy05kIaCX7nClYSiaibqiau4z5JIoGhehcoto5Y3CRcHxJJ2nPQvLQU4xL7K9M0jHUlg/0?wx_fmt=jpeg"
-siteName: "微信公众平台"
-summary: "今天这篇文章，我们将花5分钟，为 Nanobanana 注入生命。我们将探讨如何通过动画（Animation）提升用户体验，并深入讲解两种核心的技术方案：Lottie 与 Motion，最后基于第二节中生成的页面，在页面中增加相应的动画，让我们的网站“活”起来。"
-adapter: "generic"
-capturedAt: "2026-06-01T02:50:12.345Z"
-conversionMethod: "defuddle"
-kind: "generic/article"
----
-
-# Vibe Coding与设计（三）：两步搞定前端动效，让网站瞬间 “活” 起来
-
-原创 KaitoX *2026年1月15日 10:21*
-
-## 前言
-
-欢迎回到 Kaito 的“ **Vibe Coding 与设计** ”系列！
-
-在第一篇《如何实现有设计感的网站》中，我们通过拆解网页设计的五个层次—— **视觉基础、基础组件、复合组件、布局模式、交互反馈** ，建立了设计系统的理论框架。
-
-在第二篇《5分钟，实现一个有设计感的网站》中，我们利用 AI 快速落地了一个名为 **Nanobanana** 的 AI 工具站。虽然页面结构完整、配色也不错，但如果你仔细观察，会发现它少了一点“灵魂”。
-
-**这点缺失的“灵魂”，就是第五个层次——交互反馈（Interactive Feedback）。**
-
 ![image.png](images/vibe-coding-3/001.jpeg)
 
 现在的网页就像一张精美的海报，虽然好看，但它是静止的、冷漠的。当你把鼠标移到按钮上时，它没有反应；当你滚动页面时，内容生硬地出现。这种体验在当今的 Web 标准下，只能算是“及格”，远称不上“出色”。
