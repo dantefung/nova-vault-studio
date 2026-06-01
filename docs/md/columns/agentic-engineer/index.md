@@ -52,6 +52,7 @@ url: ""
 | — | [Agent 范式演变：六维度从过去到现在](./agent-paradigm-evolution.md) | 深度文章 | 四阶段 + 六维度演变：Prompt/Planning/Memory/Tools/Workflow/Environment 的前后对比 |
 | — | [Prompt → Context → Harness 三次进化](./prompt-context-harness-evolution.md) | 深度文章 | 从 Prompt 到 Context 到 Harness 的工程进化论：嵌套关系、衰变定律、Human Steer + Agents Execute |
 | — | [AGE 应用开发模板介绍](./age-app-template-introduction.md) | 方法论 | Attractor-Guided Engineering：文件进文件出、owner-doc 吸引子、三级独立审计、独立子 Agent 审查 |
+| — | [Codex 视频字幕工作流](./codex-video-subtitle.md) | 实践案例 | 音频→SRT→修字幕→ASS→FFmpeg烧录，Codex 串起本地工具链自动加字幕 |
 | — | [强模型，救不了烂工程](./strong-model-bad-engineering.md) | 架构解析 | LLM→Harness→Agent OS 体系，双层 Loop 净删 2 万行教训 |
 
 ---
