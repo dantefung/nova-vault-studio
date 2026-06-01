@@ -119,3 +119,4 @@ scripts/*.json
 !package.json
 !package-lock.json
 .gstack/
+scripts/__pycache__/
