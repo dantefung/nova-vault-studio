@@ -22,6 +22,9 @@ source: "llm-wiki"
 
 ## [2026-06-01] ingest: 让AI站在我全部数据上
 
-- 归档《让AI站在我全部数据上》公众号长文至 sources/ai-local-brain.md
+- 归档《让AI站在我全部数据上》公众号长文至 sources/ai-local-brain.md（原始原文）
+- 精读摘要写入 summaries/ai-local-brain.md
+- 知识提炼写入 concepts/ai-local-brain.md（Wiki概念页）
 - 下载 6 张配图至 images/ai-local-brain/
-- 内容摘要：Obsidian 本地知识库 + 常驻 Mac + 微信/Codex Mobile/Obsidian Sync 三入口 + Skill 系统，四层架构实现 AI 持续帮我
+- 内容摘要：Obsidian本地知识库 + 常驻Mac + 微信/Codex Mobile/Obsidian Sync三入口 + Skill系统，四层架构实现AI持续帮我
+- 注：sources/ = 原始原文（不可变），summaries/ = 精读摘要（LLM重写），concepts/ = 提炼知识页
