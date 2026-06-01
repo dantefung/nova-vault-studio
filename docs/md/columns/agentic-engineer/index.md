@@ -53,6 +53,7 @@ url: ""
 | — | [Prompt → Context → Harness 三次进化](./prompt-context-harness-evolution.md) | 深度文章 | 从 Prompt 到 Context 到 Harness 的工程进化论：嵌套关系、衰变定律、Human Steer + Agents Execute |
 | — | [AGE 应用开发模板介绍](./age-app-template-introduction.md) | 方法论 | Attractor-Guided Engineering：文件进文件出、owner-doc 吸引子、三级独立审计、独立子 Agent 审查 |
 | — | [Codex 视频字幕工作流](./codex-video-subtitle.md) | 实践案例 | 音频→SRT→修字幕→ASS→FFmpeg烧录，Codex 串起本地工具链自动加字幕 |
+| — | [oh-my-codex 工作流](./oh-my-codex-workflow.md) | 实践案例 | 2.8万 Star，不是让模型更聪明，而是管住 Codex 的工程流程：$deep-interview→$ralplan→$prometheus-strict→$ultragoal |
 | — | [强模型，救不了烂工程](./strong-model-bad-engineering.md) | 架构解析 | LLM→Harness→Agent OS 体系，双层 Loop 净删 2 万行教训 |
 
 ---
