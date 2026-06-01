@@ -60,6 +60,31 @@ python3 .claude/skills/pdf-to-markdown/scripts/pdf2md.py input.pdf -o output.md
 
 自动提取文字（pdftotext）+ 嵌入图片（pdfimages），生成带配图的 Markdown。
 
+## LLM Wiki 知识库
+
+本项目使用四层架构维护知识库，参考 Andrej Karpathy 的 llm-wiki 概念：
+
+```
+sources/     ← 原始原文（公众号文章、X/Twitter 帖子等），verbatim 不可修改
+summaries/  ← 精读摘要（LLM 重写，含核心结论+关键证据+疑点+术语）
+concepts/   ← 知识页（从摘要提炼，含定义+洞察+交叉引用）
+artifacts/  ← 原创产出物（已发布的文章、推文串、笔记）
+journal/    ← 与 AI 对话的探索记录
+```
+
+### 两条归档路径
+
+| 路径 | 触发 | 目的地 |
+|------|------|--------|
+| 采集归档 | `/wiki-ingest-article` | sources → summaries → concepts |
+| 创作发布 | 发布到专栏时 | 同步复制到 `wiki/artifacts/articles/` |
+
+### Wiki 子目录
+
+`concepts/`（概念）、`entities/`（实体）、`patterns/`（模式）、`products/`（产品）、`comparisons/`（对比）、`synthesis/`（综合）、`artifacts/`（产出）、`journal/`（对话）、`images/`（图片）
+
+详细内容见 [AGENTS.md](./AGENTS.md)。
+
 ## 部署
 
 本项目支持在 Vercel 一键部署。
