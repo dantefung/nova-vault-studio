@@ -69,7 +69,7 @@ sources/     ← 原始原文（公众号文章、X/Twitter 帖子等），verba
 summaries/  ← 精读摘要（LLM 重写，含核心结论+关键证据+疑点+术语）
 concepts/   ← 知识页（从摘要提炼，含定义+洞察+交叉引用）
 artifacts/  ← 原创产出物（已发布的文章、推文串、笔记）
-journal/    ← 探索日志（chronological 条目）
+brainstorming/ ← 与 AI 对话的探索记录
 ```
 
 ### 两条归档路径
@@ -81,7 +81,7 @@ journal/    ← 探索日志（chronological 条目）
 
 ### Wiki 子目录
 
-`concepts/`（概念）、`entities/`（实体）、`patterns/`（模式）、`products/`（产品）、`comparisons/`（对比）、`synthesis/`（综合）、`artifacts/`（产出）、`journal/`（对话）、`images/`（图片）
+`concepts/`（概念）、`entities/`（实体）、`patterns/`（模式）、`products/`（产品）、`comparisons/`（对比）、`synthesis/`（综合）、`artifacts/`（产出）、`brainstorming/`（对话）、`images/`（图片）
 
 详细内容见 [AGENTS.md](./AGENTS.md)。
 
