@@ -13,33 +13,37 @@ url: ""
 
 ## 目录
 
-| 序号 | 文档 | 说明 | 核心更新 |
-|------|------|------|----------|
-| 01 | [Matt Pocock Skills 安装与使用指南](./12-mattpocock-skills-install-guide.md) | 安装指南 | 29 个技能的完整安装与分类用法，含 diagnose/tdd/caveman 等核心技能详解 |
-| 02 | [75K Star 的 Skills 仓库到底凭什么](./mattpocock-skills-analysis.md) | 案例剖析 | Matt Pocock 把 4 本经典压成 10 行招式，心法→招式的范本 |
-| 03 | [improve-codebase-architecture 技能详解](./improve-codebase-architecture.md) | 核心技能 | 发现架构摩擦点，将浅层模块转换为深层模块，提高可测试性和 AI 可导航性 |
+| 序号 | 文档 | 说明 |
+|------|------|------|
+| 01 | [Matt Pocock Skills 安装与使用指南](./12-mattpocock-skills-install-guide.md) | 安装指南 |
+| 02 | [75K Star 的 Skills 仓库到底凭什么](./mattpocock-skills-analysis.md) | 案例剖析 |
+| 03 | [diagnose — 系统化调试循环](./diagnose.md) | 工程技能 |
+| 04 | [grill-with-docs — 架构质询与会话](./grill-with-docs.md) | 工程技能 |
+| 05 | [triage — 问题分类状态机](./triage.md) | 工程技能 |
+| 06 | [improve-codebase-architecture — 架构深化发现](./improve-codebase-architecture.md) | 工程技能 |
+| 07 | [setup-matt-pocock-skills — 仓库脚手架配置](./setup-matt-pocock-skills.md) | 工程技能 |
+| 08 | [tdd — 红绿重构循环](./tdd.md) | 工程技能 |
+| 09 | [to-issues — 垂直切片式 Issue 分解](./to-issues.md) | 工程技能 |
+| 10 | [to-prd — 对话转 PRD](./to-prd.md) | 工程技能 |
+| 11 | [zoom-out — 放大视角获取全局上下文](./zoom-out.md) | 工程技能 |
+| 12 | [prototype — 快速原型验证设计](./prototype.md) | 工程技能 |
 
 ---
 
-## 核心技能速览
+## 工程技能速览
 
-### 工程技能（Engineering）
-
-| 技能 | 用途 |
-|------|------|
-| `diagnose` | 系统化调试，发现根因 |
-| `tdd` | 测试驱动开发循环 |
-| `improve-codebase-architecture` | 发现架构问题，深化模块 |
-| `caveman` | 快速 MVP 原型开发 |
-| `grill-with-docs` | 架构质询与决策记录 |
-
-### 规划技能（Planning）
-
-| 技能 | 用途 |
-|------|------|
-| `office-hours` | YC 风格创业问诊 |
-| `plan-ceo-review` | CEO 模式计划审查 |
-| `plan-eng-review` | 工程模式计划审查 |
+| 技能 | 核心能力 |
+|------|----------|
+| `diagnose` | 系统化调试，6 步循环找根因 |
+| `grill-with-docs` | 架构质询，更新 CONTEXT.md + ADR |
+| `triage` | 分类角色状态机 |
+| `improve-codebase-architecture` | 将浅层模块转为深层模块 |
+| `setup-matt-pocock-skills` | 为其他技能搭建仓库配置 |
+| `tdd` | 红-绿-重构循环 |
+| `to-issues` | 垂直切片式 Issue 分解 |
+| `to-prd` | 对话直接合成 PRD |
+| `zoom-out` | 放大视角看全局 |
+| `prototype` | 一次性原型验证设计 |
 
 ---
 
