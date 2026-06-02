@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-PDF 批量转 MD
-- 文字：pdftotext -layout (排版好)
-- 图片：PyMuPDF (fitz) 提取嵌入图片
+PDF 批量转 MD（v2）
+- 文字：pdftotext -layout
+- 栅格化检测：avg < 50 chars/page → 整页渲染为 PNG（DPI 150）
+- 嵌入图片：PyMuPDF 提取（仅文字型 PDF）
 - 输出：MD + images/{slug}/
 """
 import subprocess
 import re
 import sys
-import os
 from pathlib import Path
 
 import fitz  # PyMuPDF
@@ -36,7 +36,7 @@ PDF_MAP = [
     ("bizmodeling/[架构]架构设计：如何区分变与不变，建立边界与结构？.pdf",
      "01-domain-modeling", "架构设计-如何区分变与不变-建立边界与结构", "架构设计：如何区分变与不变，建立边界与结构"),
     ("bizmodeling/[架构]架构师成长之路：如何做好架构设计？.pdf",
-     "01-domain-modeling", "架构师成长之路-如何做好架构设计", "架构师成长之路：如何做好架构设计"),
+     "01-domain-modeling", "架构师成长之路-如何做好架构设计", "架构师成长之路：如何做好架构设计？"),
     ("bizmodeling/[源码阅读]如何去阅读源码.pdf",
      "01-domain-modeling", "如何去阅读源码", "如何去阅读源码"),
     ("bizmodeling/[源码阅读]有哪些你不知道的阅读源码的技巧.pdf",
@@ -60,7 +60,7 @@ PDF_MAP = [
     ("bizmodeling/迄今为止最完整的DDD实践.pdf",
      "01-domain-modeling", "迄今为止最完整的DDD实践", "迄今为止最完整的 DDD 实践"),
     ("bizmodeling/如何快速理解复杂业务，系统思考问题？.pdf",
-     "01-domain-modeling", "如何快速理解复杂业务-系统思考问题", "如何快速理解复杂业务，系统思考问题"),
+     "01-domain-modeling", "如何快速理解复杂业务-系统思考问题", "如何快速理解复杂业务，系统思考问题？"),
     ("bizmodeling/软件复杂度的思考与解决之道.pdf",
      "01-domain-modeling", "软件复杂度的思考与解决之道", "软件复杂度的思考与解决之道"),
     ("bizmodeling/软件工程中建模的底层逻辑.pdf",
@@ -70,7 +70,7 @@ PDF_MAP = [
     ("bizmodeling/业务单据进行领域驱动设计的最佳实践.pdf",
      "01-domain-modeling", "业务单据进行领域驱动设计的最佳实践", "业务单据进行领域驱动设计的最佳实践"),
     ("bizmodeling/殷浩详解 DDD：如何避免写流水账代码？.pdf",
-     "01-domain-modeling", "殷浩详解DDD-如何避免写流水账代码", "殷浩详解 DDD：如何避免写流水账代码"),
+     "01-domain-modeling", "殷浩详解DDD-如何避免写流水账代码", "殷浩详解 DDD：如何避免写流水账代码？"),
     ("bizmodeling/元数据思想-打破传统的思维方式.pdf",
      "01-domain-modeling", "元数据思想-打破传统的思维方式", "元数据思想：打破传统的思维方式"),
     ("bizmodeling/再谈软件设计中的抽象思维（上），从封装变化开始.pdf",
@@ -100,7 +100,7 @@ PDF_MAP = [
     ("systemdesign/ebook/Principles of Computer System Design An Introduction-2009.pdf",
      "02-architecture-design", "principles-of-computer-system-design", "Principles of Computer System Design: An Introduction (2009)"),
     ("systemdesign/阿里大佬谈交易链路中的一些设计原则！.pdf",
-     "02-architecture-design", "阿里大佬谈交易链路中的一些设计原则", "阿里大佬谈交易链路中的一些设计原则"),
+     "02-architecture-design", "阿里大佬谈交易链路中的一些设计原则", "阿里大佬谈交易链路中的一些设计原则！"),
     ("systemdesign/阿里商旅账单系统架构设计实践.pdf",
      "02-architecture-design", "阿里商旅账单系统架构设计实践", "阿里商旅账单系统架构设计实践"),
     ("systemdesign/订单逆向履约系统的建模与PaaS化落地实践.pdf",
@@ -108,7 +108,7 @@ PDF_MAP = [
     ("systemdesign/分布式权限设计.pdf",
      "02-architecture-design", "分布式权限设计", "分布式权限设计"),
     ("systemdesign/复杂系统设计原则与案例!.pdf",
-     "02-architecture-design", "复杂系统设计原则与案例", "复杂系统设计原则与案例"),
+     "02-architecture-design", "复杂系统设计原则与案例", "复杂系统设计原则与案例！"),
     ("systemdesign/基于有限状态机与消息队列的三方支付系统补单实践.pdf",
      "02-architecture-design", "基于有限状态机与消息队列的三方支付系统补单实践", "基于有限状态机与消息队列的三方支付系统补单实践"),
     ("systemdesign/基于注解的异步导入导出系统.pdf",
@@ -132,7 +132,7 @@ PDF_MAP = [
     ("cleancode/[星标]答应我，别再写上千行的类了好吗.pdf",
      "03-clean-code", "答应我别再写上千行的类了好吗", "答应我，别再写上千行的类了好吗"),
     ("cleancode/[星标]腾讯程序员怎么写代码？看看读者麻瓜大佬怎么说！.pdf",
-     "03-clean-code", "腾讯程序员怎么写代码-麻瓜大佬怎么说", "腾讯程序员怎么写代码？看看读者麻瓜大佬怎么说"),
+     "03-clean-code", "腾讯程序员怎么写代码-麻瓜大佬怎么说", "腾讯程序员怎么写代码？看看读者麻瓜大佬怎么说！"),
     ("cleancode/对象参数校验的花式写法.pdf",
      "03-clean-code", "对象参数校验的花式写法", "对象参数校验的花式写法"),
     ("cleancode/防腐层是如何工作的.pdf",
@@ -190,12 +190,19 @@ PDF_MAP = [
     ("performance/复杂业务接口优化.pdf",
      "04-reliability", "复杂业务接口优化", "复杂业务接口优化"),
     ("troubleshooting/CPU飙高，系统性能问题如何排查？.pdf",
-     "04-reliability", "CPU飙高-系统性能问题如何排查", "CPU 飙高，系统性能问题如何排查"),
+     "04-reliability", "CPU飙高-系统性能问题如何排查", "CPU 飙高，系统性能问题如何排查？"),
     ("troubleshooting/JVM内存问题排查Cookbook.pdf",
      "04-reliability", "JVM内存问题排查Cookbook", "JVM 内存问题排查 Cookbook"),
     ("troubleshooting/线上故障如何快速排查？来看这套技巧大全.pdf",
      "04-reliability", "线上故障如何快速排查-技巧大全", "线上故障如何快速排查？来看这套技巧大全"),
 ]
+
+
+# 栅格化判定阈值：平均每页提取到的字符数低于此值视为栅格化 PDF
+RASTER_AVG_CHARS_THRESHOLD = 50
+
+# 整页渲染 DPI（150 是阅读清晰度与体积的平衡点）
+RASTER_DPI = 150
 
 
 def to_win_path(p: Path) -> str:
@@ -210,7 +217,30 @@ def clean_for_slug(name: str) -> str:
     return s
 
 
-def extract_images(pdf_path: Path, img_dir: Path, min_size_kb: int = 30) -> list:
+def extract_text(pdf_path: Path) -> str:
+    """pdftotext -layout 提取文字（errors=replace 兼容 GBK 文件名）"""
+    result = subprocess.run(
+        ["pdftotext", "-layout", to_win_path(pdf_path), "-"],
+        capture_output=True
+    )
+    return result.stdout.decode('utf-8', errors='replace')
+
+
+def detect_raster(pdf_path: Path, text: str) -> bool:
+    """判断 PDF 是否是栅格化（整页扫描/截图）型"""
+    try:
+        doc = fitz.open(to_win_path(pdf_path))
+        npages = len(doc)
+        doc.close()
+    except Exception:
+        return False
+    if npages == 0:
+        return False
+    avg = len(text.strip()) / npages
+    return avg < RASTER_AVG_CHARS_THRESHOLD
+
+
+def extract_embedded_images(pdf_path: Path, img_dir: Path, min_size_kb: int = 30) -> list:
     """用 PyMuPDF 提取 PDF 嵌入图片，返回 [(filename, page, idx)]"""
     img_dir.mkdir(parents=True, exist_ok=True)
     extracted = []
@@ -230,10 +260,8 @@ def extract_images(pdf_path: Path, img_dir: Path, min_size_kb: int = 30) -> list
                 ext = base_img["ext"]
                 w = base_img.get("width", 0)
                 h = base_img.get("height", 0)
-                # 过滤小图（装饰/logo/分隔条）
                 if len(img_bytes) < min_size_kb * 1024:
                     continue
-                # 过滤太窄或太矮的图（很可能是分隔条）
                 if w < 100 or h < 50:
                     continue
                 img_counter += 1
@@ -248,6 +276,63 @@ def extract_images(pdf_path: Path, img_dir: Path, min_size_kb: int = 30) -> list
     return extracted
 
 
+def render_pages_as_images(pdf_path: Path, img_dir: Path) -> list:
+    """栅格化降级：把每页渲染为 PNG（DPI 150）"""
+    img_dir.mkdir(parents=True, exist_ok=True)
+    extracted = []
+    try:
+        doc = fitz.open(to_win_path(pdf_path))
+    except Exception as e:
+        print(f"  ! PyMuPDF 打开失败: {e}", file=sys.stderr)
+        return []
+
+    for page_idx, page in enumerate(doc, 1):
+        try:
+            pix = page.get_pixmap(dpi=RASTER_DPI)
+            fname = f"p{page_idx:02d}.png"
+            fpath = img_dir / fname
+            pix.save(fpath)
+            extracted.append((fname, page_idx, 0))
+        except Exception as e:
+            print(f"  ! 第 {page_idx} 页渲染失败: {e}", file=sys.stderr)
+            continue
+    doc.close()
+    return extracted
+
+
+def write_md(out_path: Path, title: str, rel_src: str, body_text: str,
+             images: list, img_slug: str, is_raster: bool) -> None:
+    """写 MD 文件"""
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write("---\n")
+        f.write(f'title: "{title}"\n')
+        f.write('date: "2023-04-13"\n')
+        f.write('source: "Macaroon-Spring-Family/spring-boot-best-practice"\n')
+        f.write(f'original: "{rel_src}"\n')
+        f.write("---\n\n")
+        f.write(f"# {title}\n\n")
+        f.write(f"> 原文 PDF：`{rel_src}`")
+        f.write("（整页扫描，文字层缺失，已按页渲染为图片）\n\n" if is_raster
+                else "（已转文字 + 提取配图）\n\n")
+
+        if is_raster:
+            f.write("## 全文（图片版）\n\n")
+        else:
+            f.write("## 正文\n\n")
+            if body_text.strip():
+                f.write(body_text.rstrip())
+                f.write("\n\n")
+            else:
+                f.write("> 原 PDF 未提取到文字层，已按页渲染为图片。\n\n")
+
+        if images:
+            f.write("## 配图\n\n" if not is_raster else "## 页面\n\n")
+            for fname, page, _ in images:
+                rel = f"images/{img_slug}/{fname}"
+                f.write(f"### 第 {page} 页 — {fname}\n\n")
+                f.write(f"![{fname}]({rel})\n\n")
+
+
 def convert_one(rel_src: str, subdir: str, out_name: str, title: str) -> bool:
     pdf_path = SRC / rel_src
     if not pdf_path.exists():
@@ -256,51 +341,36 @@ def convert_one(rel_src: str, subdir: str, out_name: str, title: str) -> bool:
 
     out_md = COL / subdir / f"{out_name}.md"
     if out_md.exists():
-        print(f"  SKIP (exists): {out_name}.md")
+        print(f"  SKIP (exists): {subdir}/{out_name}.md")
         return True
 
     img_dir = COL / subdir / "images" / clean_for_slug(out_name)
+    img_slug = clean_for_slug(out_name)
     print(f"  -> {subdir}/{out_name}.md")
 
-    # 1) pdftotext -layout
-    text = subprocess.run(
-        ["pdftotext", "-layout", to_win_path(pdf_path), "-"],
-        capture_output=True, text=True, encoding="utf-8"
-    ).stdout
+    text = extract_text(pdf_path)
+    is_raster = detect_raster(pdf_path, text)
 
-    # 2) 提取图片
-    images = extract_images(pdf_path, img_dir)
+    if is_raster:
+        images = render_pages_as_images(pdf_path, img_dir)
+    else:
+        images = extract_embedded_images(pdf_path, img_dir)
 
-    # 3) 写 MD
-    with open(out_md, "w", encoding="utf-8") as f:
-        f.write("---\n")
-        f.write(f'title: "{title}"\n')
-        f.write(f'date: "2023-04-13"\n')
-        f.write(f'source: "Macaroon-Spring-Family/spring-boot-best-practice"\n')
-        f.write(f'original: "{rel_src}"\n')
-        f.write("---\n\n")
-        f.write(f"# {title}\n\n")
-        f.write(f"> 原文 PDF：`{rel_src}`（已转文字 + 提取配图）\n\n")
-        f.write("## 正文\n\n")
-        f.write("```\n")
-        f.write(text)
-        f.write("\n```\n\n")
-        if images:
-            f.write("## 配图\n\n")
-            # 相对路径从 MD 所在目录算起
-            for fname, page, _ in images:
-                rel = f"images/{clean_for_slug(out_name)}/{fname}"
-                f.write(f"### 第 {page} 页 — {fname}\n\n")
-                f.write(f"![{fname}]({rel})\n\n")
-
+    write_md(out_md, title, rel_src, text, images, img_slug, is_raster)
     return True
 
 
 def main():
-    print(f"待转换 PDF: {len(PDF_MAP)} 个")
+    print(f"待转换 PDF: {len(PDF_MAP)} 个\n")
     ok = 0
     fail = 0
+    skip = 0
     for rel_src, subdir, out_name, title in PDF_MAP:
+        out_md = COL / subdir / f"{out_name}.md"
+        if out_md.exists():
+            print(f"  SKIP: {subdir}/{out_name}.md")
+            skip += 1
+            continue
         try:
             if convert_one(rel_src, subdir, out_name, title):
                 ok += 1
@@ -309,7 +379,7 @@ def main():
         except Exception as e:
             print(f"FAIL: {rel_src}: {e}", file=sys.stderr)
             fail += 1
-    print(f"\n完成: ok={ok}, fail={fail}")
+    print(f"\n完成: ok={ok}, skip={skip}, fail={fail}")
 
     # 统计
     print("\n各主题域文件数：")
