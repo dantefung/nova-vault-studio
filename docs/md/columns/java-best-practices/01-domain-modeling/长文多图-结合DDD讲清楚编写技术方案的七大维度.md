@@ -11,885 +11,882 @@ original: "[星标]长文多图：结合DDD讲清楚编写技术方案的七大�
 
 ## 正文
 
-```
-2022/6/12 21:46                                    DDD
-
-DDD
-
- IT JAVA 2021-10-01 16:56
-
-
-# 8 #Java 54 # 18 #DDD 2
-
+2022/6/12 21:46                                    DDD
+
+DDD
+
+ IT JAVA 2021-10-01 16:56
+
+
+# 8 #Java 54 # 18 #DDD 2
+
 JAVA 
-
-   JAVA 
- java_fro  nt 
-
-1 
-
-
-
-1946-1956
-
-1956-1968
-
-
-1968
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       1/33
-2022/6/12 21:46                                    DDD
-
-
-
-
-
-
-
-
-
-2 
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       2/33
-2022/6/12 21:46                                    DDD
-
-
-whywhat
-how
-
-
-
-
-3 
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       3/33
-2022/6/12 21:46                                    DDD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3.1 
-
-3.1.1 
-
-
-
-
-
-
-
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       4/33
-2022/6/12 21:46                                    DDD
-
-3.1.2 
-
-(1) 
-
-
-
-
-
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       5/33
-2022/6/12 21:46                                    DDD
-
-  (2) 
-
-
-
-
-
-
-
-(3) 
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       6/33
-2022/6/12 21:46                                    DDD
-
-(4) 
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       7/33
-2022/6/12 21:46                                    DDD
-
-3.1.3 
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       8/33
-2022/6/12 21:46                                    DDD
-
-3.1.4 
-
-
-
-
-
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       9/33
-2022/6/12 21:46                                    DDD
-
-3.2 
-
-
-
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       10/33
-2022/6/12 21:46                                    DDD
-
-include
-
-
-
-extend
-
-
-
-
-
-
-3.3 
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       11/33
-2022/6/12 21:46                                    DDD
-
-
-
-
-3.3.1 
-
-
-
-
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       12/33
-2022/6/12 21:46                                    DDD
-
-3.3.2 
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       13/33
-2022/6/12 21:46                                    DDD
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       14/33
-2022/6/12 21:46                                    DDD
-
-3.3.3 
-
-ABCABB
-CA
-BCCB
-
-
-
-
-
-3.4 
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       15/33
-2022/6/12 21:46  DDD
-
-
-
-
-
-
-
-
-
-
-
-
-
+
+   JAVA 
+ java_fro  nt 
+
+1 
+
+
+
+1946-1956
+
+1956-1968
+
+
+1968
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       1/33
+2022/6/12 21:46                                    DDD
+
+
+
+
+
+
+
+
+
+2 
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       2/33
+2022/6/12 21:46                                    DDD
+
+
+whywhat
+how
+
+
+
+
+3 
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       3/33
+2022/6/12 21:46                                    DDD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.1 
+
+3.1.1 
+
+
+
+
+
+
+
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       4/33
+2022/6/12 21:46                                    DDD
+
+3.1.2 
+
+(1) 
+
+
+
+
+
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       5/33
+2022/6/12 21:46                                    DDD
+
+  (2) 
+
+
+
+
+
+
+
+(3) 
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       6/33
+2022/6/12 21:46                                    DDD
+
+(4) 
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       7/33
+2022/6/12 21:46                                    DDD
+
+3.1.3 
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       8/33
+2022/6/12 21:46                                    DDD
+
+3.1.4 
+
+
+
+
+
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       9/33
+2022/6/12 21:46                                    DDD
+
+3.2 
+
+
+
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       10/33
+2022/6/12 21:46                                    DDD
+
+include
+
+
+
+extend
+
+
+
+
+
+
+3.3 
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       11/33
+2022/6/12 21:46                                    DDD
+
+
+
+
+3.3.1 
+
+
+
+
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       12/33
+2022/6/12 21:46                                    DDD
+
+3.3.2 
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       13/33
+2022/6/12 21:46                                    DDD
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       14/33
+2022/6/12 21:46                                    DDD
+
+3.3.3 
+
+ABCABB
+CA
+BCCB
+
+
+
+
+
+3.4 
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       15/33
+2022/6/12 21:46  DDD
+
+
+
+
+
+
+
+
+
+
+
+
+
      // 
-                                            16/33
-
+                                            16/33
+
             public class FootballPlayerDO {
-
-                   private Long id;
+
+                   private Long id;
                    private String name;
-
+
                    private Integer height;
-
+
                    private Integer weight;
-
+
                    private String gamePerformance;
-
-
+
+
             }
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46                      DDD
-
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
+2022/6/12 21:46                      DDD
+
 // 
-
-
+
+
 public class FootballPlayerDMO {
-
-       private Long id;
+
+       private Long id;
        private String name;
-
+
        private Integer height;
-
+
        private Integer weight;
-
+
        private GamePerformanceVO gamePerformanceVO;
-
-
+
+
 }
-
-
+
+
 public class GamePerformanceVO {
-
+
        private Double runDistance;
-
+
        private Double passSuccess;
-
+
        private Integer scoreNum;
-
-
+
+
 }
-
-
-JSON
-groovyQLExpress
-
-
-
-JSONKEY5
-MySQLESJSON KEY
-
-
-3.5 
-
-
-
-
-
-ABCA9
-9B88C
-77
-
-
+
+
+JSON
+groovyQLExpress
+
+
+
+JSONKEY5
+MySQLESJSON KEY
+
+
+3.5 
+
+
+
+
+
+ABCA9
+9B88C
+77
+
+
             public class OrderServiceImpl implements OrderService {
-  17/33
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46                                    DDD
-
+  17/33
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
+2022/6/12 21:46                                    DDD
+
                  @Resource
-
+
                  private OrderMapper orderMapper;
-
-
+
+
                  @Override
-
-
+
+
                  public void createOrder(OrderBO orderBO) {
-
-
-                 if (null == orderBO) {
-
+
+
+                 if (null == orderBO) {
+
                       throw new RuntimeException("    ");
-
-
+
+
                  }
-
-
+
+
                  if (OrderTypeEnum.isNotValid(orderBO.getType())) {
-
-
+
+
                       throw new RuntimeException("    ");
-
-
+
+
                  }
-
-
+
+
                  // A
-
-
+
+
                  if (OrderTypeEnum.A_TYPE.getCode().equals(orderBO.getType())) {
-
-
+
+
                      orderBO.setPrice(orderBO.getPrice() * 0.9);
-
-
+
+
                      if (orderBO.getWeight() > 9) {
-
-
+
+
                               throw new RuntimeException("         ");
-
-
+
+
                         }
-
-
+
+
                         orderBO.setRefundSupport(Boolean.FALSE);
-
-
+
+
                  }
-
-
+
+
                  // B
-
-
+
+
                  else if (OrderTypeEnum.B_TYPE.getCode().equals(orderBO.getType())) {
-
-
+
+
                      orderBO.setPrice(orderBO.getPrice() * 0.8);
-
-
+
+
                      if (orderBO.getWeight() > 8) {
-
-
+
+
                               throw new RuntimeException("         ");
-
-
+
+
                         }
-
-
+
+
                         orderBO.setRefundSupport(Boolean.TRUE);
-
-
+
+
                  }
-
-
+
+
                  // C
-
-
+
+
                  else if (OrderTypeEnum.C_TYPE.getCode().equals(orderBO.getType())) {
-
-
+
+
                      orderBO.setPrice(orderBO.getPrice() * 0.7);
-
-
+
+
                      if (orderBO.getWeight() > 7) {
-
-
+
+
                               throw new RuntimeException("         ");
-
-
+
+
                         }
-
-
+
+
                         orderBO.setRefundSupport(Boolean.TRUE);
-
-
+
+
                  }
-
-
+
+
                  // 
-
-
+
+
                  OrderDO orderDO = new OrderDO();
-
+
                  BeanUtils.copyProperties(orderBO, orderDO);
-
+
                  orderMapper.insert(orderDO);
-
-
-       }
+
+
+       }
 }
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw                                       18/33
-2022/6/12 21:46  DDD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3.5.1 
-
-
-
-
-
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw                                       18/33
+2022/6/12 21:46  DDD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.5.1 
+
+
+
+
+
      // 
-                                          19/33
-
+                                          19/33
+
             public interface DiscountStrategy {
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46              DDD
-
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
+2022/6/12 21:46              DDD
+
                  public void discount(OrderBO orderBO);
-
-
+
+
 }
-
-
+
+
 // A
-
-
-@Component
+
+
+@Component
 public class TypeADiscountStrategy implements DiscountStrategy {
-
-
+
+
                  @Override
-
-
+
+
                  public void discount(OrderBO orderBO) {
-
-
+
+
                  orderBO.setPrice(orderBO.getPrice() * 0.9);
-
-
-       }
+
+
+       }
 }
-
-
+
+
 // B
-
-
-@Component
+
+
+@Component
 public class TypeBDiscountStrategy implements DiscountStrategy {
-
-
+
+
                  @Override
-
-
+
+
                  public void discount(OrderBO orderBO) {
-
-
+
+
                  orderBO.setPrice(orderBO.getPrice() * 0.8);
-
-
-       }
+
+
+       }
 }
-
-
+
+
 // C
-
-
-@Component
+
+
+@Component
 public class TypeCDiscountStrategy implements DiscountStrategy {
-
-
+
+
                  @Override
-
-
+
+
                  public void discount(OrderBO orderBO) {
-
-
+
+
                  orderBO.setPrice(orderBO.getPrice() * 0.7);
-
-
-       }
+
+
+       }
 }
-
-
+
+
 // 
-
-
-@Component
+
+
+@Component
 public class DiscountStrategyFactory implements InitializingBean {
-
-
+
+
        private Map<String, DiscountStrategy> strategyMap = new HashMap<>();
-
-
+
+
                    @Resource
-                                                 20/33
+                                                 20/33
                    private TypeADiscountStrategy typeADiscountStrategy;
-
+
                    @Resource
-
+
                    private TypeBDiscountStrategy typeBDiscountStrategy;
-
+
                    @Resource
-
+
                    private TypeCDiscountStrategy typeCDiscountStrategy;
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46              DDD
-
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
+2022/6/12 21:46              DDD
+
                  public DiscountStrategy getStrategy(String type) {
-
+
                         return strategyMap.get(type);
-
-
-                 }
-
+
+
+                 }
+
                  @Override
-
-
+
+
                  public void afterPropertiesSet() throws Exception {
-
-
+
+
                  strategyMap.put(OrderTypeEnum.A_TYPE.getCode(), typeADiscountStrategy);
-
+
                  strategyMap.put(OrderTypeEnum.B_TYPE.getCode(), typeBDiscountStrategy);
-
+
                  strategyMap.put(OrderTypeEnum.C_TYPE.getCode(), typeCDiscountStrategy);
-
-
-       }
+
+
+       }
 }
-
-
+
+
 // 
-
-
-@Component
+
+
+@Component
 public class DiscountStrategyExecutor {
-
-
+
+
        private DiscountStrategyFactory discountStrategyFactory;
-
-
+
+
                  public void discount(OrderBO orderBO) {
-
-
-                 DiscountStrategy discountStrategy = discountStrategyFactory.getStrategy(orderBO.ge
-
+
+
+                 DiscountStrategy discountStrategy = discountStrategyFactory.getStrategy(orderBO.ge
+
                  if (null == discountStrategy) {
-
-
+
+
                   throw new RuntimeException("               ");
-
-
+
+
                  }
-
+
                  discountStrategy.discount(orderBO);
-
-
-       }
+
+
+       }
 }
-
-
-3.5.2 
-
-
-
-
-
-
-
+
+
+3.5.2 
+
+
+
+
+
+
+
 // 
-
-
+
+
 public interface CreateOrderService {
-
+
        public void createOrder(OrderBO orderBO);
-
-
+
+
 }
-
-
+
+
      // 
-                                                                                            21/33
-
-            public abstract class AbstractCreateOrderFlow {
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
+                                                                                            21/33
+
+            public abstract class AbstractCreateOrderFlow {
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
 2022/6/12 21:46     abstract  class  AbstractCreateOrderFlowDD{D
-
-            public
-
+
+            public
+
 @Resource
-
+
 private OrderMapper orderMapper;
-
-
+
+
 public void createOrder(OrderBO orderBO) {
-
-
+
+
    // 
-
-
-                    if (null == orderBO) {
-
+
+
+                    if (null == orderBO) {
+
                          throw new RuntimeException("        ");
-
-
+
+
                     }
-
-
+
+
                     if (OrderTypeEnum.isNotValid(orderBO.getType())) {
-
-
+
+
                          throw new RuntimeException("        ");
-
-
+
+
                     }
-
-
+
+
                     // 
-
-
+
+
                     discount(orderBO);
-
-
+
+
                     // 
-
-
+
+
                     weighing(orderBO);
-
-
+
+
                     // 
-
-
+
+
                     supportRefund(orderBO);
-
-
+
+
                     // 
-
-
+
+
        OrderDO orderDO = new OrderDO();
-
-
+
+
        BeanUtils.copyProperties(orderBO, orderDO);
-
+
        orderMapper.insert(orderDO);
-
-}
-
+
+}
+
 public abstract void discount(OrderBO orderBO);
-
-
+
+
 public abstract void weighing(OrderBO orderBO);
-
-
+
+
        public abstract void supportRefund(OrderBO orderBO);
-
+
 }
-
-
+
+
 // 
-
-
+
+
 @Service
-
+
 public class CreateOrderFlow extends AbstractCreateOrderFlow {
-
-
+
+
 @Resource
-
+
 private DiscountStrategyExecutor discountStrategyExecutor;
-
+
 @Resource
-
+
 private ExpressStrategyExecutor expressStrategyExecutor;
-
+
 @Resource
-
+
 private RefundStrategyExecutor refundStrategyExecutor;
-
-
+
+
                    @Override
-                                            22/33
+                                            22/33
                    public void discount(OrderBO orderBO) {
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46                                                            DDD
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
+2022/6/12 21:46                                                            DDD
                    }  discountStrategyExecutor.discount(orderBO);
-
-
+
+
 @Override
-
-
+
+
 public void weighing(OrderBO orderBO) {
-
+
        expressStrategyExecutor.weighing(orderBO);
-
-
-}
-
+
+
+}
+
 @Override
-
-
+
+
 public void supportRefund(OrderBO orderBO) {
-
-
+
+
                       refundStrategyExecutor.supportRefund(orderBO);
-
-
-       }
+
+
+       }
 }
-
-
-3.5.3 
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw                               23/33
-2022/6/12 21:46                                    DDD
-
-
-
-
-
-
-Y
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       24/33
-2022/6/12 21:46                                    DDD
-
-3.3.1
-
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       25/33
- 2022/6/12 21:46                                   DDD
-    3.6
-
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       26/33
-2022/6/12 21:46                                    DDD
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       27/33
-2022/6/12 21:46                                    DDD
-
-     (1) api
-
-DTO
-
-(2) controller
-
-HTTP
-
-(3) service
-
-BO
-
-
-(4) domain
-
-DMOVODO
-
-
-(5) dependency
-
-RPC
-
-(6) infrastructure
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       28/33
-2022/6/12 21:46                                    DDD
-
-DMOVO
-DO
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       29/33
-2022/6/12 21:46                                    DDD
-
-3.7 
-
-
-
-Swagger
-
-
-
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       30/33
-2022/6/12 21:46                                    DDD
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       31/33
-2022/6/12 21:46  DDD
-
-4 
-
-
-
-
-
-
-
+
+
+3.5.3 
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw                               23/33
+2022/6/12 21:46                                    DDD
+
+
+
+
+
+
+Y
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       24/33
+2022/6/12 21:46                                    DDD
+
+3.3.1
+
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       25/33
+ 2022/6/12 21:46                                   DDD
+    3.6
+
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       26/33
+2022/6/12 21:46                                    DDD
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       27/33
+2022/6/12 21:46                                    DDD
+
+     (1) api
+
+DTO
+
+(2) controller
+
+HTTP
+
+(3) service
+
+BO
+
+
+(4) domain
+
+DMOVODO
+
+
+(5) dependency
+
+RPC
+
+(6) infrastructure
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       28/33
+2022/6/12 21:46                                    DDD
+
+DMOVO
+DO
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       29/33
+2022/6/12 21:46                                    DDD
+
+3.7 
+
+
+
+Swagger
+
+
+
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       30/33
+2022/6/12 21:46                                    DDD
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       31/33
+2022/6/12 21:46  DDD
+
+4 
+
+
+
+
+
+
+
 JAVA 
-
-   JAVA 
- java_fro  nt 
-
-     #8                                                           
-                                                   
-    ATAM
-                                                                                                                  32/33
-  
-
-  MySQL
-
-  JAVA
-
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46                                    DDD
-
+
+   JAVA 
+ java_fro  nt 
+
+     #8                                                           
+                                                   
+    ATAM
+                                                                                                                  32/33
+  
+
+  MySQL
+
+  JAVA
+
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
+2022/6/12 21:46                                    DDD
+
 https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       33/33
-
-```
 
 ## 配图
 
