@@ -7,101 +7,85 @@ original: "bizmodeling/DDD建模工作坊指南.pdf"
 
 # DDD 建模工作坊指南
 
-> 原文 PDF：`bizmodeling/DDD建模工作坊指南.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`bizmodeling/DDD建模工作坊指南.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 1 页 — 001-p01.jpeg
+![p01.png](images/DDD建模工作坊指南/p01.png)
 
-![001-p01.jpeg](images/DDD建模工作坊指南/001-p01.jpeg)
+### 第 2 页 — p02.png
 
-### 第 1 页 — 002-p01.jpeg
+![p02.png](images/DDD建模工作坊指南/p02.png)
 
-![002-p01.jpeg](images/DDD建模工作坊指南/002-p01.jpeg)
+### 第 3 页 — p03.png
 
-### 第 8 页 — 003-p08.jpeg
+![p03.png](images/DDD建模工作坊指南/p03.png)
 
-![003-p08.jpeg](images/DDD建模工作坊指南/003-p08.jpeg)
+### 第 4 页 — p04.png
 
-### 第 8 页 — 004-p08.jpeg
+![p04.png](images/DDD建模工作坊指南/p04.png)
 
-![004-p08.jpeg](images/DDD建模工作坊指南/004-p08.jpeg)
+### 第 5 页 — p05.png
 
-### 第 9 页 — 005-p09.jpeg
+![p05.png](images/DDD建模工作坊指南/p05.png)
 
-![005-p09.jpeg](images/DDD建模工作坊指南/005-p09.jpeg)
+### 第 6 页 — p06.png
 
-### 第 9 页 — 006-p09.jpeg
+![p06.png](images/DDD建模工作坊指南/p06.png)
 
-![006-p09.jpeg](images/DDD建模工作坊指南/006-p09.jpeg)
+### 第 7 页 — p07.png
 
-### 第 9 页 — 007-p09.jpeg
+![p07.png](images/DDD建模工作坊指南/p07.png)
 
-![007-p09.jpeg](images/DDD建模工作坊指南/007-p09.jpeg)
+### 第 8 页 — p08.png
 
-### 第 9 页 — 008-p09.jpeg
+![p08.png](images/DDD建模工作坊指南/p08.png)
 
-![008-p09.jpeg](images/DDD建模工作坊指南/008-p09.jpeg)
+### 第 9 页 — p09.png
 
-### 第 11 页 — 009-p11.jpeg
+![p09.png](images/DDD建模工作坊指南/p09.png)
 
-![009-p11.jpeg](images/DDD建模工作坊指南/009-p11.jpeg)
+### 第 10 页 — p10.png
 
-### 第 11 页 — 010-p11.jpeg
+![p10.png](images/DDD建模工作坊指南/p10.png)
 
-![010-p11.jpeg](images/DDD建模工作坊指南/010-p11.jpeg)
+### 第 11 页 — p11.png
 
-### 第 13 页 — 011-p13.jpeg
+![p11.png](images/DDD建模工作坊指南/p11.png)
 
-![011-p13.jpeg](images/DDD建模工作坊指南/011-p13.jpeg)
+### 第 12 页 — p12.png
 
-### 第 13 页 — 012-p13.jpeg
+![p12.png](images/DDD建模工作坊指南/p12.png)
 
-![012-p13.jpeg](images/DDD建模工作坊指南/012-p13.jpeg)
+### 第 13 页 — p13.png
 
-### 第 14 页 — 013-p14.jpeg
+![p13.png](images/DDD建模工作坊指南/p13.png)
 
-![013-p14.jpeg](images/DDD建模工作坊指南/013-p14.jpeg)
+### 第 14 页 — p14.png
 
-### 第 14 页 — 014-p14.jpeg
+![p14.png](images/DDD建模工作坊指南/p14.png)
 
-![014-p14.jpeg](images/DDD建模工作坊指南/014-p14.jpeg)
+### 第 15 页 — p15.png
 
-### 第 15 页 — 015-p15.jpeg
+![p15.png](images/DDD建模工作坊指南/p15.png)
 
-![015-p15.jpeg](images/DDD建模工作坊指南/015-p15.jpeg)
+### 第 16 页 — p16.png
 
-### 第 15 页 — 016-p15.jpeg
+![p16.png](images/DDD建模工作坊指南/p16.png)
 
-![016-p15.jpeg](images/DDD建模工作坊指南/016-p15.jpeg)
+### 第 17 页 — p17.png
 
-### 第 17 页 — 017-p17.jpeg
+![p17.png](images/DDD建模工作坊指南/p17.png)
 
-![017-p17.jpeg](images/DDD建模工作坊指南/017-p17.jpeg)
+### 第 18 页 — p18.png
 
-### 第 17 页 — 018-p17.jpeg
+![p18.png](images/DDD建模工作坊指南/p18.png)
 
-![018-p17.jpeg](images/DDD建模工作坊指南/018-p17.jpeg)
+### 第 19 页 — p19.png
 
-### 第 17 页 — 019-p17.jpeg
-
-![019-p17.jpeg](images/DDD建模工作坊指南/019-p17.jpeg)
-
-### 第 17 页 — 020-p17.jpeg
-
-![020-p17.jpeg](images/DDD建模工作坊指南/020-p17.jpeg)
-
-### 第 18 页 — 021-p18.jpeg
-
-![021-p18.jpeg](images/DDD建模工作坊指南/021-p18.jpeg)
-
-### 第 18 页 — 022-p18.jpeg
-
-![022-p18.jpeg](images/DDD建模工作坊指南/022-p18.jpeg)
+![p19.png](images/DDD建模工作坊指南/p19.png)
 

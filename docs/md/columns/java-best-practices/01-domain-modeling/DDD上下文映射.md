@@ -7,17 +7,33 @@ original: "DDD上下文映射.pdf"
 
 # DDD 上下文映射
 
-> 原文 PDF：`DDD上下文映射.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`DDD上下文映射.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 6 页 — 001-p06.jpeg
+![p01.png](images/DDD上下文映射/p01.png)
 
-![001-p06.jpeg](images/DDD上下文映射/001-p06.jpeg)
+### 第 2 页 — p02.png
+
+![p02.png](images/DDD上下文映射/p02.png)
+
+### 第 3 页 — p03.png
+
+![p03.png](images/DDD上下文映射/p03.png)
+
+### 第 4 页 — p04.png
+
+![p04.png](images/DDD上下文映射/p04.png)
+
+### 第 5 页 — p05.png
+
+![p05.png](images/DDD上下文映射/p05.png)
+
+### 第 6 页 — p06.png
+
+![p06.png](images/DDD上下文映射/p06.png)
 

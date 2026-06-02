@@ -7,29 +7,37 @@ original: "cleancode/为什么ifelse会影响我的代码复杂度.pdf"
 
 # 为什么 if-else 会影响我的代码复杂度
 
-> 原文 PDF：`cleancode/为什么ifelse会影响我的代码复杂度.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`cleancode/为什么ifelse会影响我的代码复杂度.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 2 页 — 001-p02.jpeg
+![p01.png](images/为什么if-else会影响我的代码复杂度/p01.png)
 
-![001-p02.jpeg](images/为什么if-else会影响我的代码复杂度/001-p02.jpeg)
+### 第 2 页 — p02.png
 
-### 第 4 页 — 002-p04.jpeg
+![p02.png](images/为什么if-else会影响我的代码复杂度/p02.png)
 
-![002-p04.jpeg](images/为什么if-else会影响我的代码复杂度/002-p04.jpeg)
+### 第 3 页 — p03.png
 
-### 第 4 页 — 003-p04.jpeg
+![p03.png](images/为什么if-else会影响我的代码复杂度/p03.png)
 
-![003-p04.jpeg](images/为什么if-else会影响我的代码复杂度/003-p04.jpeg)
+### 第 4 页 — p04.png
 
-### 第 7 页 — 004-p07.jpeg
+![p04.png](images/为什么if-else会影响我的代码复杂度/p04.png)
 
-![004-p07.jpeg](images/为什么if-else会影响我的代码复杂度/004-p07.jpeg)
+### 第 5 页 — p05.png
+
+![p05.png](images/为什么if-else会影响我的代码复杂度/p05.png)
+
+### 第 6 页 — p06.png
+
+![p06.png](images/为什么if-else会影响我的代码复杂度/p06.png)
+
+### 第 7 页 — p07.png
+
+![p07.png](images/为什么if-else会影响我的代码复杂度/p07.png)
 

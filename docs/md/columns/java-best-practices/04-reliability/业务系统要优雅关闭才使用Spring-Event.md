@@ -7,29 +7,33 @@ original: "faultcase/【故障现场】业务系统要优雅关闭才使用Sprin
 
 # 业务系统要优雅关闭才使用 Spring Event
 
-> 原文 PDF：`faultcase/【故障现场】业务系统要优雅关闭才使用Spring Event.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`faultcase/【故障现场】业务系统要优雅关闭才使用Spring Event.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 1 页 — 001-p01.jpeg
+![p01.png](images/业务系统要优雅关闭才使用Spring-Event/p01.png)
 
-![001-p01.jpeg](images/业务系统要优雅关闭才使用Spring-Event/001-p01.jpeg)
+### 第 2 页 — p02.png
 
-### 第 1 页 — 002-p01.jpeg
+![p02.png](images/业务系统要优雅关闭才使用Spring-Event/p02.png)
 
-![002-p01.jpeg](images/业务系统要优雅关闭才使用Spring-Event/002-p01.jpeg)
+### 第 3 页 — p03.png
 
-### 第 2 页 — 003-p02.jpeg
+![p03.png](images/业务系统要优雅关闭才使用Spring-Event/p03.png)
 
-![003-p02.jpeg](images/业务系统要优雅关闭才使用Spring-Event/003-p02.jpeg)
+### 第 4 页 — p04.png
 
-### 第 5 页 — 004-p05.jpeg
+![p04.png](images/业务系统要优雅关闭才使用Spring-Event/p04.png)
 
-![004-p05.jpeg](images/业务系统要优雅关闭才使用Spring-Event/004-p05.jpeg)
+### 第 5 页 — p05.png
+
+![p05.png](images/业务系统要优雅关闭才使用Spring-Event/p05.png)
+
+### 第 6 页 — p06.png
+
+![p06.png](images/业务系统要优雅关闭才使用Spring-Event/p06.png)
 

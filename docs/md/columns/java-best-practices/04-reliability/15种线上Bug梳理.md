@@ -7,69 +7,57 @@ original: "faultcase/【故障现场】15种线上Bug梳理.pdf"
 
 # 15 种线上 Bug 梳理
 
-> 原文 PDF：`faultcase/【故障现场】15种线上Bug梳理.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`faultcase/【故障现场】15种线上Bug梳理.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 2 页 — 001-p02.jpeg
+![p01.png](images/15种线上Bug梳理/p01.png)
 
-![001-p02.jpeg](images/15种线上Bug梳理/001-p02.jpeg)
+### 第 2 页 — p02.png
 
-### 第 2 页 — 002-p02.jpeg
+![p02.png](images/15种线上Bug梳理/p02.png)
 
-![002-p02.jpeg](images/15种线上Bug梳理/002-p02.jpeg)
+### 第 3 页 — p03.png
 
-### 第 2 页 — 003-p02.jpeg
+![p03.png](images/15种线上Bug梳理/p03.png)
 
-![003-p02.jpeg](images/15种线上Bug梳理/003-p02.jpeg)
+### 第 4 页 — p04.png
 
-### 第 2 页 — 004-p02.jpeg
+![p04.png](images/15种线上Bug梳理/p04.png)
 
-![004-p02.jpeg](images/15种线上Bug梳理/004-p02.jpeg)
+### 第 5 页 — p05.png
 
-### 第 3 页 — 005-p03.jpeg
+![p05.png](images/15种线上Bug梳理/p05.png)
 
-![005-p03.jpeg](images/15种线上Bug梳理/005-p03.jpeg)
+### 第 6 页 — p06.png
 
-### 第 3 页 — 006-p03.jpeg
+![p06.png](images/15种线上Bug梳理/p06.png)
 
-![006-p03.jpeg](images/15种线上Bug梳理/006-p03.jpeg)
+### 第 7 页 — p07.png
 
-### 第 3 页 — 007-p03.jpeg
+![p07.png](images/15种线上Bug梳理/p07.png)
 
-![007-p03.jpeg](images/15种线上Bug梳理/007-p03.jpeg)
+### 第 8 页 — p08.png
 
-### 第 6 页 — 008-p06.jpeg
+![p08.png](images/15种线上Bug梳理/p08.png)
 
-![008-p06.jpeg](images/15种线上Bug梳理/008-p06.jpeg)
+### 第 9 页 — p09.png
 
-### 第 7 页 — 009-p07.jpeg
+![p09.png](images/15种线上Bug梳理/p09.png)
 
-![009-p07.jpeg](images/15种线上Bug梳理/009-p07.jpeg)
+### 第 10 页 — p10.png
 
-### 第 8 页 — 010-p08.jpeg
+![p10.png](images/15种线上Bug梳理/p10.png)
 
-![010-p08.jpeg](images/15种线上Bug梳理/010-p08.jpeg)
+### 第 11 页 — p11.png
 
-### 第 9 页 — 011-p09.jpeg
+![p11.png](images/15种线上Bug梳理/p11.png)
 
-![011-p09.jpeg](images/15种线上Bug梳理/011-p09.jpeg)
+### 第 12 页 — p12.png
 
-### 第 10 页 — 012-p10.jpeg
-
-![012-p10.jpeg](images/15种线上Bug梳理/012-p10.jpeg)
-
-### 第 12 页 — 013-p12.jpeg
-
-![013-p12.jpeg](images/15种线上Bug梳理/013-p12.jpeg)
-
-### 第 12 页 — 014-p12.jpeg
-
-![014-p12.jpeg](images/15种线上Bug梳理/014-p12.jpeg)
+![p12.png](images/15种线上Bug梳理/p12.png)
 

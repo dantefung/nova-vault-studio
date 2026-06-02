@@ -1,75 +1,119 @@
 ---
-title: "殷浩详解 DDD：如何避免写流水账代码"
+title: "殷浩详解 DDD：如何避免写流水账代码？"
 date: "2023-04-13"
 source: "Macaroon-Spring-Family/spring-boot-best-practice"
 original: "bizmodeling/殷浩详解 DDD：如何避免写流水账代码？.pdf"
 ---
 
-# 殷浩详解 DDD：如何避免写流水账代码
+# 殷浩详解 DDD：如何避免写流水账代码？
 
-> 原文 PDF：`bizmodeling/殷浩详解 DDD：如何避免写流水账代码？.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`bizmodeling/殷浩详解 DDD：如何避免写流水账代码？.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 1 页 — 001-p01.jpeg
+![p01.png](images/殷浩详解DDD-如何避免写流水账代码/p01.png)
 
-![001-p01.jpeg](images/殷浩详解DDD-如何避免写流水账代码/001-p01.jpeg)
+### 第 2 页 — p02.png
 
-### 第 1 页 — 002-p01.jpeg
+![p02.png](images/殷浩详解DDD-如何避免写流水账代码/p02.png)
 
-![002-p01.jpeg](images/殷浩详解DDD-如何避免写流水账代码/002-p01.jpeg)
+### 第 3 页 — p03.png
 
-### 第 7 页 — 003-p07.jpeg
+![p03.png](images/殷浩详解DDD-如何避免写流水账代码/p03.png)
 
-![003-p07.jpeg](images/殷浩详解DDD-如何避免写流水账代码/003-p07.jpeg)
+### 第 4 页 — p04.png
 
-### 第 8 页 — 004-p08.jpeg
+![p04.png](images/殷浩详解DDD-如何避免写流水账代码/p04.png)
 
-![004-p08.jpeg](images/殷浩详解DDD-如何避免写流水账代码/004-p08.jpeg)
+### 第 5 页 — p05.png
 
-### 第 12 页 — 005-p12.jpeg
+![p05.png](images/殷浩详解DDD-如何避免写流水账代码/p05.png)
 
-![005-p12.jpeg](images/殷浩详解DDD-如何避免写流水账代码/005-p12.jpeg)
+### 第 6 页 — p06.png
 
-### 第 18 页 — 006-p18.jpeg
+![p06.png](images/殷浩详解DDD-如何避免写流水账代码/p06.png)
 
-![006-p18.jpeg](images/殷浩详解DDD-如何避免写流水账代码/006-p18.jpeg)
+### 第 7 页 — p07.png
 
-### 第 19 页 — 007-p19.jpeg
+![p07.png](images/殷浩详解DDD-如何避免写流水账代码/p07.png)
 
-![007-p19.jpeg](images/殷浩详解DDD-如何避免写流水账代码/007-p19.jpeg)
+### 第 8 页 — p08.png
 
-### 第 19 页 — 008-p19.jpeg
+![p08.png](images/殷浩详解DDD-如何避免写流水账代码/p08.png)
 
-![008-p19.jpeg](images/殷浩详解DDD-如何避免写流水账代码/008-p19.jpeg)
+### 第 9 页 — p09.png
 
-### 第 22 页 — 009-p22.jpeg
+![p09.png](images/殷浩详解DDD-如何避免写流水账代码/p09.png)
 
-![009-p22.jpeg](images/殷浩详解DDD-如何避免写流水账代码/009-p22.jpeg)
+### 第 10 页 — p10.png
 
-### 第 22 页 — 010-p22.jpeg
+![p10.png](images/殷浩详解DDD-如何避免写流水账代码/p10.png)
 
-![010-p22.jpeg](images/殷浩详解DDD-如何避免写流水账代码/010-p22.jpeg)
+### 第 11 页 — p11.png
 
-### 第 23 页 — 011-p23.jpeg
+![p11.png](images/殷浩详解DDD-如何避免写流水账代码/p11.png)
 
-![011-p23.jpeg](images/殷浩详解DDD-如何避免写流水账代码/011-p23.jpeg)
+### 第 12 页 — p12.png
 
-### 第 24 页 — 012-p24.jpeg
+![p12.png](images/殷浩详解DDD-如何避免写流水账代码/p12.png)
 
-![012-p24.jpeg](images/殷浩详解DDD-如何避免写流水账代码/012-p24.jpeg)
+### 第 13 页 — p13.png
 
-### 第 24 页 — 013-p24.jpeg
+![p13.png](images/殷浩详解DDD-如何避免写流水账代码/p13.png)
 
-![013-p24.jpeg](images/殷浩详解DDD-如何避免写流水账代码/013-p24.jpeg)
+### 第 14 页 — p14.png
 
-### 第 26 页 — 014-p26.jpeg
+![p14.png](images/殷浩详解DDD-如何避免写流水账代码/p14.png)
 
-![014-p26.jpeg](images/殷浩详解DDD-如何避免写流水账代码/014-p26.jpeg)
+### 第 15 页 — p15.png
+
+![p15.png](images/殷浩详解DDD-如何避免写流水账代码/p15.png)
+
+### 第 16 页 — p16.png
+
+![p16.png](images/殷浩详解DDD-如何避免写流水账代码/p16.png)
+
+### 第 17 页 — p17.png
+
+![p17.png](images/殷浩详解DDD-如何避免写流水账代码/p17.png)
+
+### 第 18 页 — p18.png
+
+![p18.png](images/殷浩详解DDD-如何避免写流水账代码/p18.png)
+
+### 第 19 页 — p19.png
+
+![p19.png](images/殷浩详解DDD-如何避免写流水账代码/p19.png)
+
+### 第 20 页 — p20.png
+
+![p20.png](images/殷浩详解DDD-如何避免写流水账代码/p20.png)
+
+### 第 21 页 — p21.png
+
+![p21.png](images/殷浩详解DDD-如何避免写流水账代码/p21.png)
+
+### 第 22 页 — p22.png
+
+![p22.png](images/殷浩详解DDD-如何避免写流水账代码/p22.png)
+
+### 第 23 页 — p23.png
+
+![p23.png](images/殷浩详解DDD-如何避免写流水账代码/p23.png)
+
+### 第 24 页 — p24.png
+
+![p24.png](images/殷浩详解DDD-如何避免写流水账代码/p24.png)
+
+### 第 25 页 — p25.png
+
+![p25.png](images/殷浩详解DDD-如何避免写流水账代码/p25.png)
+
+### 第 26 页 — p26.png
+
+![p26.png](images/殷浩详解DDD-如何避免写流水账代码/p26.png)
 

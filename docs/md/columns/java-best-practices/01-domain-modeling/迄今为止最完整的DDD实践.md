@@ -7,89 +7,109 @@ original: "bizmodeling/迄今为止最完整的DDD实践.pdf"
 
 # 迄今为止最完整的 DDD 实践
 
-> 原文 PDF：`bizmodeling/迄今为止最完整的DDD实践.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`bizmodeling/迄今为止最完整的DDD实践.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 2 页 — 001-p02.jpeg
+![p01.png](images/迄今为止最完整的DDD实践/p01.png)
 
-![001-p02.jpeg](images/迄今为止最完整的DDD实践/001-p02.jpeg)
+### 第 2 页 — p02.png
 
-### 第 3 页 — 002-p03.jpeg
+![p02.png](images/迄今为止最完整的DDD实践/p02.png)
 
-![002-p03.jpeg](images/迄今为止最完整的DDD实践/002-p03.jpeg)
+### 第 3 页 — p03.png
 
-### 第 3 页 — 003-p03.jpeg
+![p03.png](images/迄今为止最完整的DDD实践/p03.png)
 
-![003-p03.jpeg](images/迄今为止最完整的DDD实践/003-p03.jpeg)
+### 第 4 页 — p04.png
 
-### 第 5 页 — 004-p05.jpeg
+![p04.png](images/迄今为止最完整的DDD实践/p04.png)
 
-![004-p05.jpeg](images/迄今为止最完整的DDD实践/004-p05.jpeg)
+### 第 5 页 — p05.png
 
-### 第 9 页 — 005-p09.jpeg
+![p05.png](images/迄今为止最完整的DDD实践/p05.png)
 
-![005-p09.jpeg](images/迄今为止最完整的DDD实践/005-p09.jpeg)
+### 第 6 页 — p06.png
 
-### 第 11 页 — 006-p11.jpeg
+![p06.png](images/迄今为止最完整的DDD实践/p06.png)
 
-![006-p11.jpeg](images/迄今为止最完整的DDD实践/006-p11.jpeg)
+### 第 7 页 — p07.png
 
-### 第 13 页 — 007-p13.jpeg
+![p07.png](images/迄今为止最完整的DDD实践/p07.png)
 
-![007-p13.jpeg](images/迄今为止最完整的DDD实践/007-p13.jpeg)
+### 第 8 页 — p08.png
 
-### 第 13 页 — 008-p13.jpeg
+![p08.png](images/迄今为止最完整的DDD实践/p08.png)
 
-![008-p13.jpeg](images/迄今为止最完整的DDD实践/008-p13.jpeg)
+### 第 9 页 — p09.png
 
-### 第 13 页 — 009-p13.jpeg
+![p09.png](images/迄今为止最完整的DDD实践/p09.png)
 
-![009-p13.jpeg](images/迄今为止最完整的DDD实践/009-p13.jpeg)
+### 第 10 页 — p10.png
 
-### 第 14 页 — 010-p14.jpeg
+![p10.png](images/迄今为止最完整的DDD实践/p10.png)
 
-![010-p14.jpeg](images/迄今为止最完整的DDD实践/010-p14.jpeg)
+### 第 11 页 — p11.png
 
-### 第 14 页 — 011-p14.jpeg
+![p11.png](images/迄今为止最完整的DDD实践/p11.png)
 
-![011-p14.jpeg](images/迄今为止最完整的DDD实践/011-p14.jpeg)
+### 第 12 页 — p12.png
 
-### 第 15 页 — 012-p15.jpeg
+![p12.png](images/迄今为止最完整的DDD实践/p12.png)
 
-![012-p15.jpeg](images/迄今为止最完整的DDD实践/012-p15.jpeg)
+### 第 13 页 — p13.png
 
-### 第 15 页 — 013-p15.jpeg
+![p13.png](images/迄今为止最完整的DDD实践/p13.png)
 
-![013-p15.jpeg](images/迄今为止最完整的DDD实践/013-p15.jpeg)
+### 第 14 页 — p14.png
 
-### 第 20 页 — 014-p20.jpeg
+![p14.png](images/迄今为止最完整的DDD实践/p14.png)
 
-![014-p20.jpeg](images/迄今为止最完整的DDD实践/014-p20.jpeg)
+### 第 15 页 — p15.png
 
-### 第 20 页 — 015-p20.jpeg
+![p15.png](images/迄今为止最完整的DDD实践/p15.png)
 
-![015-p20.jpeg](images/迄今为止最完整的DDD实践/015-p20.jpeg)
+### 第 16 页 — p16.png
 
-### 第 21 页 — 016-p21.jpeg
+![p16.png](images/迄今为止最完整的DDD实践/p16.png)
 
-![016-p21.jpeg](images/迄今为止最完整的DDD实践/016-p21.jpeg)
+### 第 17 页 — p17.png
 
-### 第 21 页 — 017-p21.jpeg
+![p17.png](images/迄今为止最完整的DDD实践/p17.png)
 
-![017-p21.jpeg](images/迄今为止最完整的DDD实践/017-p21.jpeg)
+### 第 18 页 — p18.png
 
-### 第 22 页 — 018-p22.jpeg
+![p18.png](images/迄今为止最完整的DDD实践/p18.png)
 
-![018-p22.jpeg](images/迄今为止最完整的DDD实践/018-p22.jpeg)
+### 第 19 页 — p19.png
 
-### 第 24 页 — 019-p24.jpeg
+![p19.png](images/迄今为止最完整的DDD实践/p19.png)
 
-![019-p24.jpeg](images/迄今为止最完整的DDD实践/019-p24.jpeg)
+### 第 20 页 — p20.png
+
+![p20.png](images/迄今为止最完整的DDD实践/p20.png)
+
+### 第 21 页 — p21.png
+
+![p21.png](images/迄今为止最完整的DDD实践/p21.png)
+
+### 第 22 页 — p22.png
+
+![p22.png](images/迄今为止最完整的DDD实践/p22.png)
+
+### 第 23 页 — p23.png
+
+![p23.png](images/迄今为止最完整的DDD实践/p23.png)
+
+### 第 24 页 — p24.png
+
+![p24.png](images/迄今为止最完整的DDD实践/p24.png)
+
+### 第 25 页 — p25.png
+
+![p25.png](images/迄今为止最完整的DDD实践/p25.png)
 

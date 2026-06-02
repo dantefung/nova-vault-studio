@@ -7,125 +7,57 @@ original: "faultcase/【故障现场】Redis 事务遇上 @Transactional 有大�
 
 # Redis 事务遇上 @Transactional 有大坑
 
-> 原文 PDF：`faultcase/【故障现场】Redis 事务遇上 @Transactional 有大坑.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`faultcase/【故障现场】Redis 事务遇上 @Transactional 有大坑.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 2 页 — 001-p02.jpeg
+![p01.png](images/Redis事务遇上Transactional有大坑/p01.png)
 
-![001-p02.jpeg](images/Redis事务遇上Transactional有大坑/001-p02.jpeg)
+### 第 2 页 — p02.png
 
-### 第 2 页 — 002-p02.jpeg
+![p02.png](images/Redis事务遇上Transactional有大坑/p02.png)
 
-![002-p02.jpeg](images/Redis事务遇上Transactional有大坑/002-p02.jpeg)
+### 第 3 页 — p03.png
 
-### 第 3 页 — 003-p03.jpeg
+![p03.png](images/Redis事务遇上Transactional有大坑/p03.png)
 
-![003-p03.jpeg](images/Redis事务遇上Transactional有大坑/003-p03.jpeg)
+### 第 4 页 — p04.png
 
-### 第 3 页 — 004-p03.jpeg
+![p04.png](images/Redis事务遇上Transactional有大坑/p04.png)
 
-![004-p03.jpeg](images/Redis事务遇上Transactional有大坑/004-p03.jpeg)
+### 第 5 页 — p05.png
 
-### 第 3 页 — 005-p03.jpeg
+![p05.png](images/Redis事务遇上Transactional有大坑/p05.png)
 
-![005-p03.jpeg](images/Redis事务遇上Transactional有大坑/005-p03.jpeg)
+### 第 6 页 — p06.png
 
-### 第 4 页 — 006-p04.jpeg
+![p06.png](images/Redis事务遇上Transactional有大坑/p06.png)
 
-![006-p04.jpeg](images/Redis事务遇上Transactional有大坑/006-p04.jpeg)
+### 第 7 页 — p07.png
 
-### 第 4 页 — 007-p04.jpeg
+![p07.png](images/Redis事务遇上Transactional有大坑/p07.png)
 
-![007-p04.jpeg](images/Redis事务遇上Transactional有大坑/007-p04.jpeg)
+### 第 8 页 — p08.png
 
-### 第 5 页 — 008-p05.jpeg
+![p08.png](images/Redis事务遇上Transactional有大坑/p08.png)
 
-![008-p05.jpeg](images/Redis事务遇上Transactional有大坑/008-p05.jpeg)
+### 第 9 页 — p09.png
 
-### 第 5 页 — 009-p05.jpeg
+![p09.png](images/Redis事务遇上Transactional有大坑/p09.png)
 
-![009-p05.jpeg](images/Redis事务遇上Transactional有大坑/009-p05.jpeg)
+### 第 10 页 — p10.png
 
-### 第 5 页 — 010-p05.jpeg
+![p10.png](images/Redis事务遇上Transactional有大坑/p10.png)
 
-![010-p05.jpeg](images/Redis事务遇上Transactional有大坑/010-p05.jpeg)
+### 第 11 页 — p11.png
 
-### 第 5 页 — 011-p05.jpeg
+![p11.png](images/Redis事务遇上Transactional有大坑/p11.png)
 
-![011-p05.jpeg](images/Redis事务遇上Transactional有大坑/011-p05.jpeg)
+### 第 12 页 — p12.png
 
-### 第 6 页 — 012-p06.jpeg
-
-![012-p06.jpeg](images/Redis事务遇上Transactional有大坑/012-p06.jpeg)
-
-### 第 6 页 — 013-p06.jpeg
-
-![013-p06.jpeg](images/Redis事务遇上Transactional有大坑/013-p06.jpeg)
-
-### 第 6 页 — 014-p06.jpeg
-
-![014-p06.jpeg](images/Redis事务遇上Transactional有大坑/014-p06.jpeg)
-
-### 第 6 页 — 015-p06.jpeg
-
-![015-p06.jpeg](images/Redis事务遇上Transactional有大坑/015-p06.jpeg)
-
-### 第 7 页 — 016-p07.jpeg
-
-![016-p07.jpeg](images/Redis事务遇上Transactional有大坑/016-p07.jpeg)
-
-### 第 7 页 — 017-p07.jpeg
-
-![017-p07.jpeg](images/Redis事务遇上Transactional有大坑/017-p07.jpeg)
-
-### 第 7 页 — 018-p07.jpeg
-
-![018-p07.jpeg](images/Redis事务遇上Transactional有大坑/018-p07.jpeg)
-
-### 第 8 页 — 019-p08.jpeg
-
-![019-p08.jpeg](images/Redis事务遇上Transactional有大坑/019-p08.jpeg)
-
-### 第 8 页 — 020-p08.jpeg
-
-![020-p08.jpeg](images/Redis事务遇上Transactional有大坑/020-p08.jpeg)
-
-### 第 9 页 — 021-p09.jpeg
-
-![021-p09.jpeg](images/Redis事务遇上Transactional有大坑/021-p09.jpeg)
-
-### 第 9 页 — 022-p09.jpeg
-
-![022-p09.jpeg](images/Redis事务遇上Transactional有大坑/022-p09.jpeg)
-
-### 第 10 页 — 023-p10.jpeg
-
-![023-p10.jpeg](images/Redis事务遇上Transactional有大坑/023-p10.jpeg)
-
-### 第 10 页 — 024-p10.jpeg
-
-![024-p10.jpeg](images/Redis事务遇上Transactional有大坑/024-p10.jpeg)
-
-### 第 10 页 — 025-p10.jpeg
-
-![025-p10.jpeg](images/Redis事务遇上Transactional有大坑/025-p10.jpeg)
-
-### 第 11 页 — 026-p11.jpeg
-
-![026-p11.jpeg](images/Redis事务遇上Transactional有大坑/026-p11.jpeg)
-
-### 第 12 页 — 027-p12.jpeg
-
-![027-p12.jpeg](images/Redis事务遇上Transactional有大坑/027-p12.jpeg)
-
-### 第 12 页 — 028-p12.jpeg
-
-![028-p12.jpeg](images/Redis事务遇上Transactional有大坑/028-p12.jpeg)
+![p12.png](images/Redis事务遇上Transactional有大坑/p12.png)
 

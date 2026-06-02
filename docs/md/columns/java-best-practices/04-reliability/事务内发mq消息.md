@@ -7,29 +7,33 @@ original: "faultcase/【故障现场】事务内发mq消息.pdf"
 
 # 事务内发 MQ 消息
 
-> 原文 PDF：`faultcase/【故障现场】事务内发mq消息.pdf`（已转文字 + 提取配图）
+> 原文 PDF：`faultcase/【故障现场】事务内发mq消息.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
-## 正文
+## 全文（图片版）
 
-```
-
-```
+## 页面
 
-## 配图
+### 第 1 页 — p01.png
 
-### 第 4 页 — 001-p04.jpeg
+![p01.png](images/事务内发mq消息/p01.png)
 
-![001-p04.jpeg](images/事务内发mq消息/001-p04.jpeg)
+### 第 2 页 — p02.png
 
-### 第 5 页 — 002-p05.jpeg
+![p02.png](images/事务内发mq消息/p02.png)
 
-![002-p05.jpeg](images/事务内发mq消息/002-p05.jpeg)
+### 第 3 页 — p03.png
 
-### 第 6 页 — 003-p06.jpeg
+![p03.png](images/事务内发mq消息/p03.png)
 
-![003-p06.jpeg](images/事务内发mq消息/003-p06.jpeg)
+### 第 4 页 — p04.png
 
-### 第 6 页 — 004-p06.jpeg
+![p04.png](images/事务内发mq消息/p04.png)
 
-![004-p06.jpeg](images/事务内发mq消息/004-p06.jpeg)
+### 第 5 页 — p05.png
+
+![p05.png](images/事务内发mq消息/p05.png)
+
+### 第 6 页 — p06.png
+
+![p06.png](images/事务内发mq消息/p06.png)
 
