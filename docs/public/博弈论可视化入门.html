@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>博弈论可视化入门 · 基于耶鲁公开课</title>
+<style>
+  :root{
+    --bg:#0f1419; --panel:#1a2330; --panel2:#222e3e; --ink:#e6edf3;
+    --muted:#9fb0c0; --accent:#4ea1ff; --accent2:#ffb454; --good:#5ac88a;
+    --bad:#ff6b6b; --line:#2c3a4d; --hi:#2d3f57;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;
+    line-height:1.7;font-size:16px}
+  a{color:var(--accent)}
+  #layout{display:flex;min-height:100vh}
+  /* Sidebar */
+  #nav{width:260px;flex:0 0 260px;background:#0c1118;border-right:1px solid var(--line);
+    position:sticky;top:0;height:100vh;overflow-y:auto;padding:24px 0}
+  #nav h1{font-size:17px;margin:0 22px 4px;color:#fff}
+  #nav .sub{font-size:12px;color:var(--muted);margin:0 22px 20px}
+  #nav a{display:block;padding:10px 22px;color:var(--muted);text-decoration:none;
+    font-size:14px;border-left:3px solid transparent;transition:.15s}
+  #nav a:hover{background:var(--hi);color:var(--ink)}
+  #nav a.active{color:#fff;border-left-color:var(--accent);background:var(--hi)}
+  #nav .num{display:inline-block;width:22px;color:var(--accent);font-weight:700}
+  /* Content */
+  #main{flex:1;max-width:880px;margin:0 auto;padding:48px 40px 120px}
+  section{margin-bottom:72px;scroll-margin-top:24px}
+  .tag{display:inline-block;font-size:12px;letter-spacing:1px;color:var(--accent2);
+    text-transform:uppercase;margin-bottom:8px}
+  h2{font-size:28px;margin:0 0 18px;line-height:1.3;color:#fff;border-bottom:1px solid var(--line);padding-bottom:14px}
+  h3{font-size:19px;margin:32px 0 10px;color:#fff}
+  p{margin:12px 0}
+  .muted{color:var(--muted)}
+  .lead{font-size:18px;color:var(--ink)}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:22px 24px;margin:20px 0}
+  .keypt{background:linear-gradient(90deg,#1d2c20,#1a2330);border-left:4px solid var(--good);
+    border-radius:8px;padding:14px 18px;margin:18px 0}
+  .keypt b{color:var(--good)}
+  .demo{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:22px;margin:22px 0}
+  .demo h4{margin:0 0 14px;font-size:15px;color:var(--accent);letter-spacing:.5px}
+  .term{color:var(--accent2);font-weight:600}
+  button{font-family:inherit;cursor:pointer;border:none;border-radius:8px;
+    padding:9px 16px;font-size:14px;background:var(--accent);color:#06121f;font-weight:600;transition:.15s}
+  button:hover{filter:brightness(1.1)}
+  button.ghost{background:var(--hi);color:var(--ink)}
+  button:disabled{opacity:.4;cursor:not-allowed}
+  .btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+  /* payoff matrix */
+  table.pm{border-collapse:collapse;margin:6px auto}
+  table.pm td,table.pm th{border:1px solid var(--line);padding:0;text-align:center}
+  table.pm .lbl{background:#16202c;color:var(--muted);font-size:13px;padding:8px 12px;font-weight:600}
+  table.pm .cell{width:108px;height:62px;position:relative;background:var(--panel);transition:.2s;font-size:15px}
+  table.pm .cell .p1{position:absolute;left:7px;bottom:5px;color:var(--accent)}
+  table.pm .cell .p2{position:absolute;right:7px;top:5px;color:var(--accent2)}
+  table.pm .cell.dim{opacity:.18}
+  table.pm .cell.ne{background:#26402e;box-shadow:inset 0 0 0 2px var(--good)}
+  table.pm .cell.br1{box-shadow:inset 0 0 0 2px var(--accent)}
+  table.pm .cell.hl{background:var(--hi)}
+  .small{font-size:13px;color:var(--muted)}
+  .step{font-size:14px;color:var(--ink);min-height:22px;margin-top:12px}
+  /* slider */
+  input[type=range]{width:100%;accent-color:var(--accent)}
+  .bar{height:26px;border-radius:6px;background:var(--hi);overflow:hidden;display:flex;font-size:12px}
+  .bar > div{display:flex;align-items:center;justify-content:center;color:#06121f;font-weight:700;transition:.2s}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:760px){.grid2{grid-template-columns:1fr}}
+  /* game tree svg */
+  svg text{font-family:inherit}
+  .pill{display:inline-block;background:var(--hi);border-radius:20px;padding:3px 11px;font-size:12px;margin:2px;color:var(--muted)}
+  .num2{color:var(--accent)}
+  hr{border:none;border-top:1px solid var(--line);margin:40px 0}
+  .qa{background:#16202c;border-radius:8px;padding:14px 18px;margin:14px 0;cursor:pointer}
+  .qa summary{font-weight:600;color:var(--accent);outline:none}
+  .qa p{margin:10px 0 0}
+  @media(max-width:860px){#nav{display:none}#main{padding:28px 20px 80px}}
+</style>
+</head>
+<body>
+<div id="layout">
+  <nav id="nav">
+    <h1>博弈论 · 可视化入门</h1>
+    <div class="sub">基于耶鲁公开课 ECON 159（Ben Polak）</div>
+    <a href="#s0" data-s><span class="num">0</span>导言：什么是博弈论</a>
+    <a href="#s1" data-s><span class="num">1</span>严格劣势策略</a>
+    <a href="#s2" data-s><span class="num">2</span>迭代剔除 & 猜2/3</a>
+    <a href="#s3" data-s><span class="num">3</span>囚徒困境</a>
+    <a href="#s4" data-s><span class="num">4</span>最佳对策与纳什均衡</a>
+    <a href="#s5" data-s><span class="num">5</span>混合策略</a>
+    <a href="#s6" data-s><span class="num">6</span>序贯博弈与逆向归纳</a>
+    <a href="#s7" data-s><span class="num">7</span>重复博弈与延伸</a>
+    <a href="#s8" data-s><span class="num">8</span>生活 & 工作实战</a>
+    <a href="#s9" data-s><span class="num">9</span>附录 · 数学小课堂</a>
+  </nav>
+  <main id="main">
+
+  <!-- 0 -->
+  <section id="s0">
+    <div class="tag">导言</div>
+    <h2>什么是博弈论？</h2>
+    <p class="lead">博弈论研究的是<b>相互依赖</b>的决策：我的最优选择取决于你会怎么做，而你的选择又取决于我。它不只是"游戏"，而是经济、政治、生物、商业谈判背后的通用语言。</p>
+
+    <div class="card">
+      <h3 style="margin-top:0">一个博弈的四个要素</h3>
+      <p><span class="term">玩家（Players）</span>：做决策的人，记作 i、j。<br>
+      <span class="term">策略（Strategies）</span>：每个玩家可选的行动，玩家 i 的某个策略记 s<sub>i</sub>，其余人记 s<sub>-i</sub>。<br>
+      <span class="term">收益（Payoffs）</span>：每种结果给玩家带来的效用 u<sub>i</sub>。<br>
+      <span class="term">规则（Rules）</span>：同时出招还是有先后？信息是否公开？</p>
+    </div>
+
+    <div class="keypt"><b>核心假设：理性。</b> 每个玩家都想最大化自己的收益，并且知道别人也这么想。Polak 的第一课名言：<i>"你的收益不取决于你有多努力，而取决于别人怎么选。"</i></div>
+
+    <p class="muted">下面我们从最基本、也是最有用的一条原则开始——永远不要选一个<b>严格劣势</b>的策略。</p>
+  </section>
+
+  <!-- 1 -->
+  <section id="s1">
+    <div class="tag">第一部分</div>
+    <h2>严格劣势策略</h2>
+    <p>一个策略是 <span class="term">严格劣势（strictly dominated）</span>的，意思是：无论对手怎么选，总有另一个策略给你带来<b>严格更高</b>的收益。理性的玩家永远不会选它。</p>
+
+    <div class="demo">
+      <h4>互动 1 · 判断一个策略是否被支配</h4>
+      <p class="small">下表是玩家 1（行，<span style="color:var(--accent)">蓝色</span>=你的收益）的选择。对手玩家 2 选左或右。问：玩家 1 该不该选「下」？点击按钮逐步检验。</p>
+      <div id="dom-matrix"></div>
+      <div class="btnrow">
+        <button onclick="domStep()">下一步 ▶</button>
+        <button class="ghost" onclick="domReset()">重置</button>
+      </div>
+      <div class="step" id="dom-step">点击「下一步」开始。</div>
+    </div>
+    <div class="keypt"><b>要点：</b> 删掉严格劣势策略不会"误删"任何理性选择——因为没有任何对手行为能让它变成最优。这是简化博弈的第一把刀。</div>
+  </section>
+
+  <!-- 2 -->
+  <section id="s2">
+    <div class="tag">第二部分</div>
+    <h2>迭代剔除 & 猜 2/3 游戏</h2>
+    <p>如果"我"不会选劣势策略，而且"我知道你也不会"，那就能<b>反复</b>地删除：删掉我的劣势策略后，你的某些策略可能变成劣势，再删……这叫 <span class="term">迭代剔除严格劣势策略（IDSDS）</span>。</p>
+
+    <div class="demo">
+      <h4>互动 2 · 猜 2/3 平均数（Polak 课堂经典）</h4>
+      <p class="small">规则：所有人从 0–100 选一个数，谁的数最接近「全班平均数的 2/3」谁赢。你会选几？</p>
+      <div class="btnrow" style="margin-bottom:8px">
+        <input type="number" id="guessIn" min="0" max="100" step="1" value="33" style="width:90px;padding:8px;border-radius:8px;border:1px solid var(--line);background:#16202c;color:var(--ink);font-size:15px">
+        <button onclick="doGuess()">看看会怎样</button>
+      </div>
+      <div id="guessOut" class="step"></div>
+    </div>
+    <p>逻辑：平均数最大 100，2/3 是 66.7，所以选 >67 是劣势→删。但如果大家都懂这点，平均≤67，目标≤44……一层层推下去，<b>唯一存活的数是 0</b>。这正是 IDSDS 的终点。</p>
+    <div class="keypt"><b>要点：</b> 理论预测人人选 0，但真实课堂平均常落在 20–35。这揭示了博弈论的关键张力——<b>结果取决于你认为别人有多理性</b>（理性的层数）。</div>
+  </section>
+
+  <!-- 3 -->
+  <section id="s3">
+    <div class="tag">第三部分</div>
+    <h2>囚徒困境</h2>
+    <p>博弈论最著名的模型。两名嫌犯被分开审讯，各自选择<b>沉默（合作）</b>或<b>认罪（背叛）</b>。数字是刑期，越小越好，所以这里收益用「负的年数」表示，越大越好。</p>
+
+    <div class="demo">
+      <h4>互动 3 · 个人理性 vs 集体最优</h4>
+      <div id="pd-matrix"></div>
+      <div class="btnrow">
+        <button onclick="pdShowDom()">高亮各自的占优选择</button>
+        <button onclick="pdShowNE()">显示纳什均衡</button>
+        <button class="ghost" onclick="pdReset()">重置</button>
+      </div>
+      <div class="step" id="pd-step">两人都想少坐牢。看看"理性"会把他们带到哪里。</div>
+    </div>
+    <div class="keypt"><b>要点：</b> 对每个人来说「背叛」都是占优策略，于是双方都背叛、各坐 5 年——尽管「都沉默」（各 1 年）对两人都更好。<b>个人理性导致集体次优。</b></div>
+    <p class="muted">现实版：军备竞赛、价格战、公地悲剧、气候谈判。本质都是"我做对自己最好的事，却让大家一起变糟"。</p>
+  </section>
+
+  <!-- 4 -->
+  <section id="s4">
+    <div class="tag">第四部分</div>
+    <h2>最佳对策与纳什均衡</h2>
+    <p>很多博弈里没有占优策略，这时用 <span class="term">最佳对策（best response）</span>：给定对手的选择，我能拿到最高收益的回应。</p>
+    <p><span class="term">纳什均衡</span>：一组策略，<b>每个人都在对其他人做最佳对策</b>——没人想单方面改变。它是"互相猜对、且都没有后悔"的稳定点。</p>
+
+    <div class="demo">
+      <h4>互动 4 · 性别战（协调博弈）</h4>
+      <p class="small">情侣想一起出门：玩家1（行）偏爱<b>拳击</b>，玩家2（列）偏爱<b>芭蕾</b>，但两人都更想<b>在一起</b>。点按钮标出最佳对策，交叉处就是纳什均衡。</p>
+      <div id="bos-matrix"></div>
+      <div class="btnrow">
+        <button onclick="bosBR(1)">玩家1的最佳对策</button>
+        <button onclick="bosBR(2)">玩家2的最佳对策</button>
+        <button onclick="bosNE()">找纳什均衡</button>
+        <button class="ghost" onclick="bosReset()">重置</button>
+      </div>
+      <div class="step" id="bos-step">蓝框=玩家1的最佳对策，橙框=玩家2的。两框重合处即均衡。</div>
+    </div>
+    <div class="keypt"><b>要点：</b> 这个博弈有<b>两个</b>纯策略纳什均衡（都看拳击 / 都看芭蕾）。均衡不一定唯一，也不一定公平——但都是"谁都不想单独改主意"的稳定结果。</div>
+  </section>
+
+  <!-- 5 -->
+  <section id="s5">
+    <div class="tag">第五部分</div>
+    <h2>混合策略</h2>
+    <p>有些博弈根本没有纯策略均衡——比如<b>石头剪刀布</b>或<b>点球大战</b>：只要你的出招可预测，对手就能克制你。出路是<span class="term">随机化</span>：按某个概率出招。</p>
+
+    <div class="demo">
+      <h4>互动 5 · 点球大战：你该往哪扑？</h4>
+      <p class="small">守门员（你）选择扑<b>左</b>的概率 q。射手会挑你扑得少的一侧。拖动滑块，看双方期望进球率怎么变。</p>
+      <p class="small">扑左概率 q = <b id="qval">50</b>%</p>
+      <input type="range" id="qslide" min="0" max="100" value="50" oninput="penalty()">
+      <div style="margin:14px 0">
+        <div class="small">射手「踢左」时进球率：<span id="shL" class="num2"></span>　|　射手「踢右」时进球率：<span id="shR" class="num2"></span></div>
+        <div class="bar" style="margin-top:8px">
+          <div id="barL" style="background:var(--bad)">踢左</div>
+          <div id="barR" style="background:var(--good)">踢右</div>
+        </div>
+      </div>
+      <div class="step" id="pen-step"></div>
+    </div>
+    <div class="keypt"><b>要点：</b> 混合策略均衡的诀窍——<b>让对手无所谓</b>。当 q 使得射手「踢左」和「踢右」进球率相等时，对手无法利用你，这就是均衡概率（本例 q=50%）。现实点球数据也确实接近五五开。</div>
+  </section>
+
+  <!-- 6 -->
+  <section id="s6">
+    <div class="tag">第六部分</div>
+    <h2>序贯博弈与逆向归纳</h2>
+    <p>当玩家<b>有先后顺序</b>、能看到对方已走的棋，博弈就画成一棵 <span class="term">博弈树</span>。求解方法是<span class="term">逆向归纳（backward induction）</span>：从最后一步倒着想——"如果轮到他，他会怎么选？"再推自己现在该怎么走。</p>
+
+    <div class="demo">
+      <h4>互动 6 · 进入威慑博弈</h4>
+      <p class="small">新公司（进入者）决定是否<b>进入</b>市场；若进入，在位者选择<b>打价格战</b>或<b>容忍</b>。括号 = (进入者, 在位者) 收益。点击逐步逆向归纳。</p>
+      <div id="treebox" style="text-align:center"></div>
+      <div class="btnrow">
+        <button onclick="treeStep()">逆向归纳一步 ▶</button>
+        <button class="ghost" onclick="treeReset()">重置</button>
+      </div>
+      <div class="step" id="tree-step">先想最后一步：如果进入者真进来了，在位者会怎么选？</div>
+    </div>
+    <div class="keypt"><b>要点：</b> 在位者威胁「你敢进我就打价格战」其实<b>不可信</b>——真进来了，打价格战他自己也亏（1<2）。逆向归纳剔除这种空洞威胁，得到的解叫<span class="term">子博弈完美均衡</span>：进入者进入，在位者容忍。</div>
+  </section>
+
+  <!-- 7 -->
+  <section id="s7">
+    <div class="tag">第七部分</div>
+    <h2>重复博弈与延伸</h2>
+    <p>囚徒困境里背叛是占优的——但如果<b>反复打交道</b>呢？在<span class="term">重复博弈</span>中，今天的背叛会招致明天的报复，合作就可能靠"未来的阴影"维持。</p>
+    <div class="card">
+      <h3 style="margin-top:0">以牙还牙（Tit-for-Tat）</h3>
+      <p>Axelrod 著名的电脑锦标赛冠军策略，规则极简：<b>第一轮合作；之后对方上一轮怎么对我，我这轮就怎么回敬。</b></p>
+      <p class="muted">它的成功源于四个特质：善良（不先背叛）、可激怒（会报复）、宽容（对方回头就原谅）、清晰（容易被看懂从而建立信任）。</p>
+    </div>
+    <h3>再往下可以学什么</h3>
+    <p>信号传递与不完全信息（为什么名校文凭值钱）、讨价还价、拍卖设计、演化博弈（动物与策略的"适者生存"）。这些都建立在你刚学的四块基石上：劣势策略、纳什均衡、混合策略、逆向归纳。</p>
+
+    <details class="qa"><summary>纳什均衡一定是"最好"的结果吗？</summary><p>不是。囚徒困境的均衡对双方都不是最优。纳什均衡只保证<b>稳定</b>（没人想单方面偏离），不保证<b>高效</b>或<b>公平</b>。</p></details>
+    <details class="qa"><summary>占优策略和纳什均衡什么关系？</summary><p>如果人人都有占优策略，那这组占优策略一定构成纳什均衡。但反过来不成立——很多纳什均衡里并没有占优策略（如性别战）。</p></details>
+    <details class="qa"><summary>想看原版课程？</summary><p>耶鲁公开课 ECON 159《Game Theory》，主讲 Ben Polak，共 24 讲，Open Yale Courses 上免费提供视频、字幕与讲义。配套教材常用 Dutta《Strategies and Games》或 Osborne《An Introduction to Game Theory》。</p></details>
+
+  </section>
+
+  <!-- 8 -->
+  <section id="s8">
+    <div class="tag">第八部分</div>
+    <h2>生活 &amp; 工作实战</h2>
+    <p class="lead">博弈论不是黑板上的数字游戏。你每天都在玩——开会、谈薪、排队、和同事协作。下面把前面学的概念对号入座到真实场景。</p>
+
+    <h3>🏠 生活场景</h3>
+    <div class="grid2">
+      <div class="card"><b>🚗 早高峰选路线</b><br><span class="small muted">概念：纳什均衡 / 拥堵</span><p>大家都往"看起来更快"的小路挤，结果小路也堵了。均衡是两条路耗时大致相等——没人能靠换路单方面变快。导航 App 本质就是在帮所有人逼近这个均衡。</p></div>
+      <div class="card"><b>🧹 室友/家务分工</b><br><span class="small muted">概念：囚徒困境 / 公地悲剧</span><p>"反正别人会扫"，于是谁都不扫，公共区域变脏。一次性博弈里偷懒是占优策略；但室友是<b>重复博弈</b>——值日表 + 互相监督，把它变成可维持的合作。</p></div>
+      <div class="card"><b>🍽️ AA 制点菜</b><br><span class="small muted">概念：公地悲剧</span><p>均摊买单时，每个人都倾向多点贵菜（成本被分摊），总账单失控。解法：改成各付各的，让成本回到个人身上。</p></div>
+      <div class="card"><b>💑 周末去哪</b><br><span class="small muted">概念：性别战 / 协调博弈</span><p>你想爬山，TA 想看展，但都更想一起。两个均衡都行，关键是<b>协调</b>——轮流决定、或提前约定，比僵持更优。</p></div>
+    </div>
+
+    <h3>💼 工作场景</h3>
+    <div class="grid2">
+      <div class="card"><b>💰 谈薪资</b><br><span class="small muted">概念：讨价还价 / 信息</span><p>先开价的人锚定了区间；有外部 offer（可信的"退出选项"）大幅提升议价力——就像进入威慑里，<b>可信的威胁</b>才有用。空喊"不加薪我就走"若不可信，等于没说。</p></div>
+      <div class="card"><b>🏢 同事甩锅 vs 协作</b><br><span class="small muted">概念：囚徒困境</span><p>项目里各自抢功、推责是短期占优。但同事关系是长期重复博弈，<b>以牙还牙</b>式的互惠（你帮我我帮你）才能长期共赢。声誉是这里的货币。</p></div>
+      <div class="card"><b>📊 会议沉默</b><br><span class="small muted">概念：劣势策略 / 从众</span><p>大家都怕第一个反对显得不合群，于是集体沉默通过了烂方案。识别这是个协调失败，主动"打破均衡"——有人带头表态，往往全场跟进。</p></div>
+      <div class="card"><b>🛒 公司价格战</b><br><span class="small muted">概念：囚徒困境</span><p>两家都降价抢市场，结果都亏。这是经典囚徒困境；现实里靠差异化、隐性默契或长期博弈避免"两败俱伤"的均衡。</p></div>
+    </div>
+
+    <div class="demo">
+      <h4>互动 7 · 这是什么博弈？</h4>
+      <p class="small">读情景，先猜它对应哪个概念，再点开看解析。</p>
+      <div id="quizbox"></div>
+    </div>
+
+    <div class="keypt"><b>实战心法：</b> 遇到决策困境时问自己三件事——①我的收益<b>取决于谁</b>的选择？②这是<b>一次性</b>还是<b>反复</b>打交道？③我能让自己的承诺/威胁<b>变可信</b>吗？想清这三点，你就已经在用博弈论了。</div>
+
+  </section>
+
+  <!-- 9 -->
+  <section id="s9">
+    <div class="tag">附录</div>
+    <h2>数学小课堂（零基础友好）</h2>
+    <p class="lead">博弈论里出现的"计算"其实只有<b>小学到初中</b>水平：比大小、算平均、算概率加权。下面把前面每个用到数学的地方，掰开揉碎讲一遍。不用怕，跟着读就行。</p>
+
+    <h3>🧮 工具一：比大小（判断劣势策略）</h3>
+    <div class="card">
+      <p>这是最简单的一步——<b>就是比谁的数字大</b>。判断"策略 A 是不是被 B 严格支配"，你只需要：</p>
+      <p class="muted">对手的<b>每一种</b>选择，都把 A 的收益和 B 的收益拿来比。只要存在一次 A ≥ B，A 就<b>不算</b>被严格支配。</p>
+      <p><b>例（第一部分的"下"行）：</b><br>
+      对手选左：下=2，中=4 → 4&gt;2 ✓<br>
+      对手选右：下=8，中=3 → 8&gt;3，<b>这次"下"反而更大</b> ✗<br>
+      因为有一次"下"更大，所以"下"<b>没有</b>被支配。结论：要"每一种情况都更差"才叫严格劣势。</p>
+    </div>
+
+    <h3>➗ 工具二：求平均数（猜 2/3 游戏）</h3>
+    <div class="card">
+      <p><b>平均数</b> = 把所有数加起来，再除以人数。比如 3 个人选了 60、30、0：</p>
+      <p style="text-align:center;font-size:18px">(60 + 30 + 0) ÷ 3 = 30</p>
+      <p>目标是"平均的 2/3"。<b>2/3 ≈ 0.667</b>，就是"乘以 0.667"，或者更直观地"先乘 2 再除以 3"：</p>
+      <p style="text-align:center;font-size:18px">30 × 2 ÷ 3 = 20</p>
+      <p class="muted">为什么答案会一路滑到 0？因为最大平均是 100，它的 2/3 只有约 67。所以选&gt;67 永远没用→大家都不选→平均跌到 67 以下→目标跌到 44……每"想深一层"，目标就乘一次 2/3，越乘越小，极限是 0。</p>
+    </div>
+
+    <h3>🎲 工具三：期望值（混合策略的核心）</h3>
+    <div class="card">
+      <p>这是唯一需要"概率"的地方，但概念很朴素：<b>期望值 = 把每个结果，按它发生的概率加权后相加。</b>像"加权平均的成绩"。</p>
+      <p><b>生活例子：</b>一张彩票，70% 概率拿 0 元，30% 概率拿 100 元。它平均值多少？</p>
+      <p style="text-align:center;font-size:18px">0 × 0.70 + 100 × 0.30 = 0 + 30 = <b>30 元</b></p>
+      <p class="muted">注意：概率用小数（70% = 0.70），所有概率加起来要等于 1（0.70 + 0.30 = 1）。就这两条规则。</p>
+      <hr style="margin:18px 0">
+      <p><b>用到点球大战：</b>守门员有 q 的概率扑左、(1−q) 的概率扑右。射手"踢左"的进球率就是按这两种情况加权：</p>
+      <p style="text-align:center;font-size:17px">进球率 = q×0.3 + (1−q)×0.9</p>
+      <p class="muted">含义：守门员扑对了（也扑左，概率 q）只剩 0.3 进球率；扑错了（扑右，概率 1−q）高达 0.9。把两块加权一加就是平均进球率。</p>
+    </div>
+
+    <div class="demo">
+      <h4>互动 8 · 期望值计算器</h4>
+      <p class="small">自己填两种结果和概率，看期望值怎么算出来。（两个概率会自动凑成 100%）</p>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end">
+        <label class="small">结果A 数值<br><input type="number" id="ev-a" value="100" style="width:90px;padding:7px;border-radius:8px;border:1px solid var(--line);background:#16202c;color:var(--ink)"></label>
+        <label class="small">结果A 概率%<br><input type="number" id="ev-p" value="30" min="0" max="100" style="width:90px;padding:7px;border-radius:8px;border:1px solid var(--line);background:#16202c;color:var(--ink)"></label>
+        <label class="small">结果B 数值<br><input type="number" id="ev-b" value="0" style="width:90px;padding:7px;border-radius:8px;border:1px solid var(--line);background:#16202c;color:var(--ink)"></label>
+        <button onclick="calcEV()">计算期望值</button>
+      </div>
+      <div class="step" id="ev-out" style="margin-top:14px"></div>
+    </div>
+
+    <h3>🔁 工具四：逆向归纳（其实是"倒着比大小"）</h3>
+    <div class="card">
+      <p>博弈树看着吓人，但运算还是<b>比大小</b>，只是要<b>从最后一步往前比</b>。</p>
+      <p><b>进入威慑那棵树：</b><br>
+      ① 先看最后决策者（在位者）：打价格战=1，容忍=2 → 选 <b>2</b>（容忍）。<br>
+      ② 把这个结果"提"上来：进入者一旦进入，拿到的是 2；不进入拿 0。<br>
+      ③ 进入者比 2 和 0 → 选 <b>2</b>（进入）。<br>
+      整个过程没有任何复杂公式，就是<b>站在每个人的位置上，选他那行数字最大的</b>，从后往前推。</p>
+    </div>
+
+    <div class="keypt"><b>一句话总结：</b> 整个入门博弈论的数学，归根到底是三件事——<b>比大小、求平均、按概率加权相加</b>。会这三样，你就能算遍本课程所有题目。</div>
+
+    <hr>
+    <p class="small muted">本页为入门可视化教学材料，案例与数值经过简化以突出直觉，正式定义请以课程讲义与教材为准。</p>
+  </section>
+
+  </main>
+</div>
+
+<script>
+/* ---------- helpers ---------- */
+function cellHTML(p1,p2){return `<span class="p1">${p1}</span><span class="p2">${p2}</span>`;}
+function buildMatrix(host,rows,cols,data,opt={}){
+  // data[r][c] = [p1,p2]
+  let h='<table class="pm"><tr><td class="lbl" style="background:#0c1118"></td>';
+  cols.forEach(c=>h+=`<td class="lbl">${c}</td>`);
+  h+='</tr>';
+  rows.forEach((r,ri)=>{
+    h+=`<tr><td class="lbl">${r}</td>`;
+    cols.forEach((c,ci)=>{
+      h+=`<td class="cell" id="${opt.id}-${ri}-${ci}">${cellHTML(data[ri][ci][0],data[ri][ci][1])}</td>`;
+    });
+    h+='</tr>';
+  });
+  h+='</table>';
+  document.getElementById(host).innerHTML=h;
+}
+function cls(id,c,on){const e=document.getElementById(id);if(e){on?e.classList.add(c):e.classList.remove(c);}}
+function clearCls(prefix,rn,cn,...cs){for(let r=0;r<rn;r++)for(let c=0;c<cn;c++)cs.forEach(x=>cls(`${prefix}-${r}-${c}`,x,false));}
+
+/* ---------- 1. dominance ---------- */
+// rows: 上 中 下 ; cols 左 右 ; p1 payoff matters
+const domData=[[[13,3],[1,4]],[[4,1],[3,1]],[[2,9],[8,5]]]; // 下行没有被严格支配：它在对手选右时是玩家1最佳回应
+let domS=0;
+function domDraw(){buildMatrix('dom-matrix',['上','中','下'],['左','右'],domData,{id:'dm'});}
+function domStep(){
+  domS++;
+  const st=document.getElementById('dom-step');
+  if(domS===1){cls('dm-2-0','hl',true);cls('dm-2-1','hl',true);
+    st.innerHTML='看「下」这一行，玩家1收益是 <b>2</b>（对左）和 <b>8</b>（对右）。';}
+  else if(domS===2){cls('dm-1-0','br1',true);cls('dm-1-1','br1',true);
+    st.innerHTML='再看「中」行：<b>4</b>（对左）和 <b>3</b>（对右）。比较——对手选左时 4>2，对手选右时…… 咦 3<8？';}
+  else if(domS===3){
+    st.innerHTML='所以「中」并不能严格支配「下」。换看「上」行：对左 13>2，对右… 1<8。也不行。<b>结论：「下」其实没有被严格支配</b>——它在对手选右时反而最好！';}
+  else if(domS===4){clearCls('dm',3,2,'hl','br1');cls('dm-0-0','ne',true);
+    st.innerHTML='教训：判断劣势要<b>对手的每一种选择都更差</b>才算。少一种都不成立。点击重置再体会。';domS=0;}
+}
+function domReset(){domS=0;clearCls('dm',3,2,'hl','br1','ne','dim');document.getElementById('dom-step').textContent='点击「下一步」开始。';}
+
+/* ---------- 2. guess 2/3 ---------- */
+function doGuess(){
+  let g=+document.getElementById('guessIn').value;
+  if(!Number.isFinite(g)) g=0;
+  g=Math.max(0,Math.min(100,g));
+  const out=document.getElementById('guessOut');
+  let msg=`你选了 <b>${g}</b>。`;
+  if(g>67) msg+=' 这是<b>劣势策略</b>——平均数顶多100，2/3≈66.7，永远赢不了。';
+  else if(g>44) msg+=' 第一层理性会删掉它：如果大家都不选>67，目标会落在44以下。';
+  else if(g>1) msg+=' 不错，你考虑了别人也在思考。再多推几层，目标会继续往0滑。';
+  else if(g===0) msg+=' 这是理论上的<b>唯一存活解（纳什均衡）</b>——前提是你假设所有人无限理性。';
+  else msg+=' 已经非常接近理论终点了；但严格说，唯一存活解是 <b>0</b>。';
+  msg+=`<br><span class="small muted">真实课堂平均常在20–35之间，赢家往往选 13 左右。理论 vs 现实的差距，正是博弈论最有意思的地方。</span>`;
+  out.innerHTML=msg;
+}
+
+/* ---------- 3. prisoner's dilemma ---------- */
+// rows 沉默/认罪, cols 沉默/认罪 ; payoff = -years
+const pdData=[[[-1,-1],[-10,0]],[[0,-10],[-5,-5]]];
+function pdDraw(){buildMatrix('pd-matrix',['你: 沉默','你: 认罪'],['他: 沉默','他: 认罪'],pdData,{id:'pd'});}
+function pdReset(){clearCls('pd',2,2,'hl','br1','ne','dim');document.getElementById('pd-step').textContent='两人都想少坐牢。看看"理性"会把他们带到哪里。';}
+function pdShowDom(){
+  pdReset();
+  // player1 best: 认罪 row better in both columns -> highlight row 认罪
+  cls('pd-1-0','br1',true);cls('pd-1-1','br1',true);
+  cls('pd-0-1','hl',true);cls('pd-1-1','hl',true);
+  document.getElementById('pd-step').innerHTML='对手沉默时：认罪(0)>沉默(-1)。对手认罪时：认罪(-5)>沉默(-10)。<b>无论如何，认罪都更好</b>——对双方都成立。';
+}
+function pdShowNE(){
+  pdReset();cls('pd-1-1','ne',true);
+  document.getElementById('pd-step').innerHTML='双方都认罪 = 纳什均衡，各坐 <b>5 年</b>。但「都沉默」各只坐 1 年，明显更好——这就是困境。';
+}
+
+/* ---------- 4. battle of the sexes ---------- */
+// rows 拳击/芭蕾, cols 拳击/芭蕾
+const bosData=[[[2,1],[0,0]],[[0,0],[1,2]]];
+function bosDraw(){buildMatrix('bos-matrix',['1: 拳击','1: 芭蕾'],['2: 拳击','2: 芭蕾'],bosData,{id:'bs'});}
+function bosReset(){clearCls('bs',2,2,'br1','hl','ne');document.getElementById('bos-step').innerHTML='蓝框=玩家1的最佳对策，橙框=玩家2的。两框重合处即均衡。';}
+function bosBR(p){
+  if(p===1){ // for each column pick row with higher p1
+    cls('bs-0-0','br1',true); // col拳击: row拳击 p1=2>0
+    cls('bs-1-1','br1',true); // col芭蕾: row芭蕾 p1=1>0
+    document.getElementById('bos-step').innerHTML='玩家1：对方看拳击→我也看拳击(2)；对方看芭蕾→我也看芭蕾(1)。蓝框标出。';
+  } else {
+    cls('bs-0-0','hl',true); // row拳击: col拳击 p2=1>0
+    cls('bs-1-1','hl',true);
+    document.getElementById('bos-step').innerHTML='玩家2：对方看拳击→我也看拳击(1)；对方看芭蕾→我也看芭蕾(2)。';
+  }
+}
+function bosNE(){bosReset();cls('bs-0-0','ne',true);cls('bs-1-1','ne',true);
+  document.getElementById('bos-step').innerHTML='<b>两个纯策略纳什均衡</b>：(拳击,拳击) 和 (芭蕾,芭蕾)。都"在一起"，只是谁迁就谁不同——均衡不唯一。';}
+
+/* ---------- 5. penalty kick ---------- */
+// goalie dives left with prob q. If shooter shoots same side goalie dives -> save (low score), else goal.
+// shoot Left score = q*0.3 + (1-q)*0.9 ; shoot Right score = q*0.9 + (1-q)*0.3
+function penalty(){
+  const q=+document.getElementById('qslide').value/100;
+  document.getElementById('qval').textContent=Math.round(q*100);
+  const sL=q*0.3+(1-q)*0.9, sR=q*0.9+(1-q)*0.3;
+  document.getElementById('shL').textContent=(sL*100).toFixed(0)+'%';
+  document.getElementById('shR').textContent=(sR*100).toFixed(0)+'%';
+  const tot=sL+sR;
+  document.getElementById('barL').style.width=(sL/tot*100)+'%';
+  document.getElementById('barR').style.width=(sR/tot*100)+'%';
+  const st=document.getElementById('pen-step');
+  if(Math.abs(sL-sR)<0.02) st.innerHTML='✅ 两侧进球率相等（约60%）——射手<b>无法利用</b>你。q=50% 就是混合策略均衡。';
+  else if(sL>sR) st.innerHTML='你扑左太少了，射手会狂踢左边（进球率更高）。把 q 调高一点。';
+  else st.innerHTML='你扑左太多了，射手会狂踢右边（进球率更高）。把 q 调低一点。';
+}
+
+/* ---------- 6. game tree ---------- */
+let treeS=0;
+function treeDraw(){
+  document.getElementById('treebox').innerHTML=`
+  <svg viewBox="0 0 520 300" width="100%" style="max-width:520px">
+    <!-- nodes -->
+    <circle cx="60" cy="150" r="9" fill="#4ea1ff" id="n-enter"/>
+    <circle cx="260" cy="80" r="9" fill="#ffb454" id="n-incumb"/>
+    <!-- enter: 不进入 (terminal) -->
+    <line x1="60" y1="150" x2="260" y2="230" stroke="#2c3a4d" stroke-width="2" id="e-stay"/>
+    <line x1="60" y1="150" x2="260" y2="80" stroke="#2c3a4d" stroke-width="2" id="e-enter"/>
+    <!-- incumbent branches -->
+    <line x1="260" y1="80" x2="460" y2="40" stroke="#2c3a4d" stroke-width="2" id="e-fight"/>
+    <line x1="260" y1="80" x2="460" y2="120" stroke="#2c3a4d" stroke-width="2" id="e-accom"/>
+    <!-- labels on edges -->
+    <text x="120" y="100" fill="#9fb0c0" font-size="13">进入</text>
+    <text x="120" y="205" fill="#9fb0c0" font-size="13">不进入</text>
+    <text x="350" y="48" fill="#9fb0c0" font-size="13">打价格战</text>
+    <text x="350" y="128" fill="#9fb0c0" font-size="13">容忍</text>
+    <!-- terminals -->
+    <text x="470" y="44" fill="#e6edf3" font-size="14" id="t-fight">(1, 1)</text>
+    <text x="470" y="124" fill="#e6edf3" font-size="14" id="t-accom">(2, 2)</text>
+    <text x="270" y="235" fill="#e6edf3" font-size="14" id="t-stay">(0, 4)</text>
+    <!-- node labels -->
+    <text x="36" y="135" fill="#4ea1ff" font-size="12">进入者</text>
+    <text x="240" y="66" fill="#ffb454" font-size="12">在位者</text>
+  </svg>`;
+}
+function treeStep(){
+  treeS++;
+  const st=document.getElementById('tree-step');
+  if(treeS===1){
+    document.getElementById('e-accom').setAttribute('stroke','#5ac88a');
+    document.getElementById('e-accom').setAttribute('stroke-width','4');
+    document.getElementById('t-accom').setAttribute('fill','#5ac88a');
+    st.innerHTML='最后一步：在位者比较 <b>打价格战=1</b> vs <b>容忍=2</b>。理性的他选<b>容忍</b>（绿色）。';
+  } else if(treeS===2){
+    st.innerHTML='进入者知道这一点：所以「进入」的真实结果是 (2,2)，而「不进入」是 (0,4)。对进入者：2>0。';
+  } else if(treeS===3){
+    document.getElementById('e-enter').setAttribute('stroke','#4ea1ff');
+    document.getElementById('e-enter').setAttribute('stroke-width','4');
+    st.innerHTML='进入者选<b>进入</b>（蓝色）。逆向归纳的解：<b>进入 → 容忍</b>，收益 (2,2)。在位者"我会打价格战"的威胁不可信。';
+    treeS=0;
+  }
+}
+function treeReset(){treeS=0;treeDraw();document.getElementById('tree-step').innerHTML='先想最后一步：如果进入者真进来了，在位者会怎么选？';}
+
+/* ---------- 7. scenario quiz ---------- */
+const quiz=[
+  {q:'部门里两个小组都想抢同一个明星项目，互相隐瞒进度、互不配合，最后项目延期，两组都被批评。',a:'囚徒困境',e:'各自"不合作"是短期占优，却导致集体次优——典型囚徒困境。长期看，建立互信与信息共享才是更优均衡。'},
+  {q:'演唱会散场，所有人都站起来想看得更清楚，结果谁也没看得更好，还都站着累。',a:'纳什均衡（且低效）',e:'"站起来"是对别人站立的最佳对策，没人敢单独坐下——这是个稳定但糟糕的纳什均衡。'},
+  {q:'新员工放话"不给我升职我就辞职"，但大家都知道他刚买房还房贷，根本走不了。',a:'不可信的威胁',e:'就像进入威慑里的空头威胁，逆向归纳会识破它。威胁要有约束力（如手握 offer）才管用。'},
+  {q:'团队里没人敢第一个对老板的方案提反对意见，于是烂方案一致通过。',a:'劣势策略/协调失败',e:'"沉默"看似安全实则集体受损。需要有人带头打破均衡，往往会引发跟随。'}
+];
+function quizDraw(){
+  let h='';
+  quiz.forEach((item,i)=>{
+    h+=`<details class="qa"><summary>情景 ${i+1}：${item.q}</summary>
+    <p>👉 <b>对应概念：${item.a}</b><br>${item.e}</p></details>`;
+  });
+  document.getElementById('quizbox').innerHTML=h;
+}
+quizDraw();
+
+/* ---------- 8. expected value calculator ---------- */
+function calcEV(){
+  let a=+document.getElementById('ev-a').value||0;
+  let b=+document.getElementById('ev-b').value||0;
+  let p=Math.max(0,Math.min(100,+document.getElementById('ev-p').value||0));
+  let pa=p/100, pb=1-pa;
+  let ev=a*pa+b*pb;
+  document.getElementById('ev-out').innerHTML=
+    `计算过程：<br>结果A：${a} × ${pa.toFixed(2)} = <b>${(a*pa).toFixed(1)}</b><br>`+
+    `结果B：${b} × ${pb.toFixed(2)} = <b>${(b*pb).toFixed(1)}</b><br>`+
+    `相加 → 期望值 = <b class="num2" style="font-size:18px">${ev.toFixed(1)}</b><br>`+
+    `<span class="small muted">含义：长期反复来很多次，平均每次大约能拿到 ${ev.toFixed(1)}。</span>`;
+}
+calcEV();
+
+/* ---------- init ---------- */
+domDraw();pdDraw();bosDraw();treeDraw();penalty();
+domReset();pdReset();bosReset();
+
+/* scroll spy */
+const links=[...document.querySelectorAll('#nav a[data-s]')];
+const secs=links.map(a=>document.querySelector(a.getAttribute('href')));
+function spy(){
+  let idx=0;const y=window.scrollY+120;
+  secs.forEach((s,i)=>{if(s.offsetTop<=y)idx=i;});
+  links.forEach((a,i)=>a.classList.toggle('active',i===idx));
+}
+window.addEventListener('scroll',spy);spy();
+links.forEach(a=>a.addEventListener('click',e=>{
+  e.preventDefault();document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+}));
+</script>
+</body>
+</html>
