@@ -32,7 +32,7 @@ url: ""
 |---|---|
 | [迄今为止最完整的 DDD 实践](./01-domain-modeling/迄今为止最完整的DDD实践) | 社区 DDD 实践集大成 |
 | [殷浩详解 DDD：如何避免写流水账代码](./01-domain-modeling/殷浩详解DDD-如何避免写流水账代码) | 阿里 DDD 专家实战分享 |
-| [5 分钟掌握领域驱动设计的 40 个关键概念](./01-domain-modeling/5%20分钟迅速掌握领域驱动设计的%2040%20个关键概念) | 速查表 |
+| [5 分钟掌握领域驱动设计的 40 个关键概念](./01-domain-modeling/5 分钟迅速掌握领域驱动设计的 40 个关键概念) | 速查表 |
 | [金字塔原理指导技术系统优化](./01-domain-modeling/多图详解-金字塔原理如何指导技术系统优化) | 思维工具 |
 | [学习源码的三重境界](./01-domain-modeling/学习源码的三重境界) | 源码阅读方法论 |
 
@@ -95,10 +95,10 @@ url: ""
 | 必读推荐 | 说明 |
 |---|---|
 | [程序员如何高效工作](./05-engineering-practice/程序员如何高效工作) | 工作方法论 |
-| [利用 Java 8 对设计模式的重构](./05-engineering-practice/利用%20java8%20对设计模式的重构) | 函数式思维 |
+| [利用 Java 8 对设计模式的重构](./05-engineering-practice/利用 java8 对设计模式的重构) | 函数式思维 |
 | [ThreadLocal：线程专属的变量](./05-engineering-practice/ThreadLocal：线程专属的变量) | 并发工具 |
-| [调用链跨线程传递 ThreadLocal 对象对比](./05-engineering-practice/调用链跨线程传递%20ThreadLocal%20对象对比) | ThreadLocal 进阶 |
-| [内存 Join 可以如此简单！！！](./05-engineering-practice/内存%20Join%20可以如此简单！！！) | 性能优化技巧 |
+| [调用链跨线程传递 ThreadLocal 对象对比](./05-engineering-practice/调用链跨线程传递 ThreadLocal 对象对比) | ThreadLocal 进阶 |
+| [内存 Join 可以如此简单！！！](./05-engineering-practice/内存 Join 可以如此简单！！！) | 性能优化技巧 |
 
 ---
 

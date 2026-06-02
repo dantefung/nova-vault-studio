@@ -158,7 +158,7 @@ public class PushTemplateLambda {
 }
 ```
 
-借助 Consumer<T> 这个 function interface，可以省去实现子类，具体的实现留到使用时再来决定，如：
+借助 `Consumer<T>` 这个 function interface，可以省去实现子类，具体的实现留到使用时再来决定，如：
 
 ```
 new PushTemplateLambda().push(1, " 糖果店 ", (Object[] obj) -> {
