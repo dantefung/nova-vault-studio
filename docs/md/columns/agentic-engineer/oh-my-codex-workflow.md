@@ -1,7 +1,7 @@
 ---
 title: "2.8万 Star 的 oh-my-codex：Codex 真正缺的不是模型，是工作流"
 source: "微信公众号-wayn"
-url: "https://mp.weixin.qq.com/s/UjEfMLz19GK79gQQwBVJRQ
+url: "https://mp.weixin.qq.com/s/UjEfMLz19GK79gQQwBVJRQ"
 date: "2026-05-26"
 ---
 

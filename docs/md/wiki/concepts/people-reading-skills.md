@@ -1,7 +1,7 @@
 ---
 title: "七条准验的识人技巧总结"
 source: "微信公众号-灵绘AIGC智能体"
-url: "https://mp.weixin.qq.com/s/8BMW0eAphJcAMqRmIyiG7A
+url: "https://mp.weixin.qq.com/s/8BMW0eAphJcAMqRmIyiG7A"
 date: "2026-06-01"
 ---
 
