@@ -55,6 +55,34 @@ python3 .claude/skills/markdown-proxy/scripts/download-images.py -i /tmp/temp.md
 
 > **铁律**：markdown-proxy SKILL.md 已更新为强制两步流程。Agent 采集公众号时自动执行。手动调 `fetch_weixin.py` 必须补调 `download-images.py`。
 
+### 公众号采集后续处理
+
+**1. 移动图片到目标目录**
+
+```bash
+cp -r /tmp/images/{article}/ docs/md/{分类}/{文章名}/images/
+```
+
+> 注意：`download-images.py` 写入的路径前缀默认是 `./images/article/`，需手动修正为正确目录名。可用 sed 批量替换。
+
+**2. 清理双 frontmatter**
+
+baoyu-fetch 可能产生两块 `---`：
+- 第一块：YAML 元数据（title/date/source/url 等）
+- 第二块：可能是额外的元数据或直接是正文
+
+处理方式：只保留第一块 frontmatter（`---` 闭合后到下一个 `---` 之间的内容全部删除），正文从 `# 标题` 行开始。
+
+**3. 修复 YAML frontmatter 常见问题**
+
+- URL 折行：`url: "https://..."` 必须在一行内，不能在 URL 中间换行
+- 验证：`python3 .claude/hooks/check-frontmatter.py {file}`（无输出 = 通过）
+
+**4. Commit 规范**
+
+- commit message 用 `prompt:` 前缀，例：`prompt: 采集 xxx 文章`
+- pre-commit hook 会检查 title 必填，缺则拒绝提交
+
 ### `ignoreDeadLinks: true` — 死链接静默放过
 
 构建时不会因为死链接报错。如果改动了文件路径或删除了页面，相关引用不会自动发现。
