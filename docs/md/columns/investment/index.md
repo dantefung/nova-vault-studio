@@ -13,5 +13,6 @@ url: "/columns/investment/"
 
 | 文章 | 类型 | 日期 |
 |------|------|------|
+| [又vibecoding了个LOF实时溢价小工具](./lof-premium-tool) | 套利工具 | 2026-06 |
 | [一级市场与二级市场：金融市场的双生结构](./primary-and-secondary-markets-hv-analysis) | 横纵分析 | 2026-05 |
 | [傅海棠商品交易心法：大周期供需失衡的逆向投资逻辑](./fu-haidian-commodity-trading-philosophy) | 方法论 | 2026-05 |
