@@ -91,6 +91,7 @@ date: "2026-05-05"
 
 ## 设计工具 Skills
 
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) — 22.7K Stars，给 AI 编程好品味的技能包，专门解决 AI 生成 UI 的"塑料味"问题，让 AI 输出更像"人写的"。单句≤25字、禁用词表、TDD 式质量铁律，22,704 stars
 - [bggg-skills](https://github.com/bggg-ai/bggg-skills) — 饼干（@bggg_ai）的 Codex Skills 仓库
   - [bggg-creator-image2psd](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2psd) — 设计精修 Skill，将图片转换为 PSD 格式搞定设计师
   - [bggg-creator-image2ppt](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2ppt) — 演示落地 Skill，将图片转换为 PPT 搞定做分享的人
