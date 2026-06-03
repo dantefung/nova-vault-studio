@@ -1,7 +1,7 @@
 ---
 title: Pensieve 深度解析 — AI Agent 的项目记忆系统
-description: "双层架构、系统代码与项目数据物理隔离、manifest 锚点机制"
-series: "pensieve"
+description: 系统性解读 Pensieve 的架构设计、语义分层、双系统检索、知识图谱与生命周期管理
+series: pensieve
 created: 2026-06-03
 ---
 

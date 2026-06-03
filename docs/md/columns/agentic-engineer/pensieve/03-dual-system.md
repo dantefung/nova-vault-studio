@@ -1,7 +1,7 @@
 ---
 title: "Pensieve #3：双系统检索与 pensieve-wand"
-description: "双层架构、系统代码与项目数据物理隔离、manifest 锚点机制"
-series: "pensieve"
+description: 快思考/慢思考双系统决策、认知预算约束、知识升级路径
+series: pensieve
 part: 3
 created: 2026-06-03
 ---

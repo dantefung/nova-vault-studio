@@ -1,7 +1,7 @@
 ---
 title: "Pensieve #5：知识图谱与生命周期"
-description: "双层架构、系统代码与项目数据物理隔离、manifest 锚点机制"
-series: "pensieve"
+description: [[...]] 链接系统、Mermaid 图谱生成、EMPTY/SEEDED/ALIGNED/DRIFTED 状态机
+series: pensieve
 part: 5
 created: 2026-06-03
 ---

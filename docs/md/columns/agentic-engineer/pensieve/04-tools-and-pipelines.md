@@ -1,7 +1,7 @@
 ---
 title: "Pensieve #4：工具链与 Pipeline"
-description: "双层架构、系统代码与项目数据物理隔离、manifest 锚点机制"
-series: "pensieve"
+description: 七大工具职责边界、Pipeline 工作流引擎、commit/refactor/review 三大内置工作流
+series: pensieve
 part: 4
 created: 2026-06-03
 ---

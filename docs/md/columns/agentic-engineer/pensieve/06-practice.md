@@ -1,7 +1,7 @@
 ---
 title: "Pensieve #6：实践指南与对比"
-description: "双层架构、系统代码与项目数据物理隔离、manifest 锚点机制"
-series: "pensieve"
+description: 安装配置、日常使用、refine 五问法、三种压缩技术、vs RAG/Vector DB
+series: pensieve
 part: 6
 created: 2026-06-03
 ---
@@ -174,7 +174,28 @@ rm -rf <project>/.pensieve
 
 ### Q: PENSIEVE_SKILL_ROOT 需要手动设置吗？
 
-不需要。脚本通过 `.src/manifest.json` 自举定位技能根目录。环境变量只是备用覆盖。
+**取决于安装方式。**
+
+**传统 skill 安装**（通过 `git clone` 到 `~/.claude/skills/pensieve/`）：
+- 不需要。脚本通过 `.src/manifest.json` 自举定位技能根目录。
+
+**Marketplace plugin 安装**（通过 `kingkongshot-marketplace`）：
+- **需要**。Plugin 的 hook handler 会回退到项目级路径 `<project>/.claude/skills/pensieve/`。
+- 如果你的全局安装在 `~/.agents/skills/pensieve/`，需要设置环境变量：
+  ```bash
+  echo 'export PENSIEVE_SKILL_ROOT=$HOME/.agents/skills/pensieve' >> ~/.zshrc
+  source ~/.zshrc
+  ```
+- 或者创建软链：`ln -s ~/.agents/skills ~/.claude/skills`
+
+**判断你的安装方式**：
+```bash
+# Marketplace plugin
+ls ~/.claude/plugins/cache/kingkongshot-marketplace/pensieve/
+
+# 传统 skill
+ls ~/.claude/skills/pensieve/.src/
+```
 
 ### Q: short-term 条目会自动删除吗？
 

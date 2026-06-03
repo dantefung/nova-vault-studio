@@ -1,7 +1,7 @@
 ---
 title: "Pensieve #2：四层语义模型"
-description: "双层架构、系统代码与项目数据物理隔离、manifest 锚点机制"
-series: "pensieve"
+description: MUST/WANT/IS/HOW 四层分层、short-term 缓冲机制、refine 五问法
+series: pensieve
 part: 2
 created: 2026-06-03
 ---

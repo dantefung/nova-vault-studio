@@ -1,7 +1,7 @@
 ---
 title: "Pensieve #1：架构与设计哲学"
-description: "双层架构、系统代码与项目数据物理隔离、manifest 锚点机制"
-series: "pensieve"
+description: 双层架构、系统代码与项目数据物理隔离、manifest 锚点机制
+series: pensieve
 part: 1
 created: 2026-06-03
 ---
