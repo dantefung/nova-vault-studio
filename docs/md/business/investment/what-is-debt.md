@@ -1,8 +1,7 @@
 ---
 title: "负债是什么？"
 source: "微信公众号-白希"
-url: "https://mp.weixin.qq.com/s/-clN3SS92OsConlVAG-mWg
-date: "2026-06-02"
+url: "https://mp.weixin.qq.com/s/-clN3SS92OsConlVAG-mWg"
 ---
 
 # 负债是什么？
