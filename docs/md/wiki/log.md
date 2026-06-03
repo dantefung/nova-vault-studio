@@ -20,6 +20,13 @@ source: "llm-wiki"
 - 首期收录：llm-wiki 模式本身 + 3 个核心插件 + 2 个专栏入口
 - 后续来源：公众号抓取、skill 蒸馏、HV 分析报告
 
+## [2026-06-03] ingest: Pensieve 知识库归档
+
+- 创建 `columns/agentic-engineer/pensieve/` 目录（含 index.md 入口）
+- 将 `columns/agentic-engineer/11-pensieve-architecture.md` 移入 `columns/agentic-engineer/pensieve/pensieve-architecture.md`（Pensieve 架构深度分析）
+- Pensieve 四层架构：sources/（原始原文）、summaries/（精读摘要）、concepts/（知识页）、artifacts/（产出物）
+- 更新 wiki/index.md 分类索引
+
 ## [2026-06-01] ingest: 让AI站在我全部数据上
 
 - 归档《让AI站在我全部数据上》公众号长文至 sources/ai-local-brain.md（原始原文）

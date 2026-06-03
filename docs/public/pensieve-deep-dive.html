@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pensieve 深度解析 — AI Agent 的项目记忆系统</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface2: #1a1a26;
+    --border: #2a2a3a;
+    --text: #e0e0e8;
+    --text-dim: #8888a0;
+    --accent: #7c6cf0;
+    --accent2: #5ce0d8;
+    --accent3: #f0a050;
+    --danger: #f05060;
+    --success: #50f080;
+    --code-bg: #0d0d14;
+    --gradient-1: linear-gradient(135deg, #7c6cf0 0%, #5ce0d8 100%);
+    --gradient-2: linear-gradient(135deg, #f0a050 0%, #f05060 100%);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 6rem 2rem 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 50% 50%, rgba(124,108,240,0.08) 0%, transparent 50%);
+    animation: pulse 8s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.5; }
+    50% { transform: scale(1.1); opacity: 1; }
+  }
+  .hero h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    letter-spacing: -0.02em;
+  }
+  .hero .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-dim);
+    margin-top: 1rem;
+    position: relative;
+  }
+  .hero .version-badge {
+    display: inline-block;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.25rem 1rem;
+    font-size: 0.85rem;
+    color: var(--accent);
+    margin-top: 1.5rem;
+    position: relative;
+  }
+
+  /* Section */
+  section { margin-bottom: 4rem; }
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  h2 .icon { font-size: 1.4rem; }
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    color: var(--accent2);
+  }
+  h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.75rem;
+    color: var(--accent3);
+  }
+  p { margin-bottom: 1rem; color: var(--text); }
+  .dim { color: var(--text-dim); }
+
+  /* Cards */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+  .card .card-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    color: var(--text);
+  }
+  .card p {
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    margin: 0;
+  }
+
+  /* Code */
+  pre {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+  }
+  code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.85em;
+  }
+  p code, li code {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.15em 0.4em;
+    color: var(--accent2);
+  }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+  th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--surface);
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  tr:hover td { background: var(--surface); }
+
+  /* Diagrams */
+  .diagram {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    overflow-x: auto;
+  }
+  .diagram pre {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--text-dim);
+  }
+
+  /* Layer badges */
+  .layer-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .layer-is { background: rgba(92,224,216,0.15); color: var(--accent2); }
+  .layer-want { background: rgba(240,160,80,0.15); color: var(--accent3); }
+  .layer-must { background: rgba(240,80,96,0.15); color: var(--danger); }
+  .layer-how { background: rgba(124,108,240,0.15); color: var(--accent); }
+
+  /* Callout */
+  .callout {
+    background: var(--surface);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .callout.warn { border-left-color: var(--accent3); }
+  .callout.danger { border-left-color: var(--danger); }
+  .callout.success { border-left-color: var(--success); }
+  .callout strong { color: var(--accent); }
+  .callout.warn strong { color: var(--accent3); }
+
+  /* Flow chart */
+  .flow-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: var(--surface);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .flow-step .step-num {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    background: var(--gradient-1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #fff;
+  }
+  .flow-step .step-content h4 { margin: 0 0 0.25rem; color: var(--text); }
+  .flow-step .step-content p { margin: 0; font-size: 0.9rem; color: var(--text-dim); }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  /* TOC */
+  .toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+  }
+  .toc h3 { margin: 0 0 1rem; color: var(--text); }
+  .toc ol { padding-left: 1.5rem; }
+  .toc li { margin: 0.4rem 0; }
+  .toc a {
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .toc a:hover { color: var(--accent); }
+
+  /* Comparison */
+  .vs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+  }
+  .vs-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+  .vs-card.good { border-color: var(--success); }
+  .vs-card.bad { border-color: var(--danger); opacity: 0.7; }
+  .vs-card h4 { margin: 0 0 0.75rem; }
+  .vs-card.good h4 { color: var(--success); }
+  .vs-card.bad h4 { color: var(--danger); }
+  .vs-card ul { padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-dim); }
+  .vs-card li { margin: 0.3rem 0; }
+
+  @media (max-width: 640px) {
+    .hero h1 { font-size: 2rem; }
+    .card-grid { grid-template-columns: 1fr; }
+    .vs-grid { grid-template-columns: 1fr; }
+    .container { padding: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== HERO ===================== -->
+<div class="hero">
+  <h1>Pensieve</h1>
+  <p class="subtitle">AI Agent 的项目记忆系统 — 深度架构解析</p>
+  <span class="version-badge">v1.3.0 &middot; by kingkongshot</span>
+</div>
+
+<div class="container">
+
+<!-- ===================== TOC ===================== -->
+<nav class="toc">
+  <h3>📑 目录</h3>
+  <ol>
+    <li><a href="#problem">问题：AI Agent 的失忆症</a></li>
+    <li><a href="#philosophy">设计哲学</a></li>
+    <li><a href="#architecture">双层架构：系统代码 vs 项目数据</a></li>
+    <li><a href="#semantic-layers">四层语义模型</a></li>
+    <li><a href="#dual-system">双系统决策：快思考与慢思考</a></li>
+    <li><a href="#tools">七大工具</a></li>
+    <li><a href="#pipeline">Pipeline 工作流引擎</a></li>
+    <li><a href="#knowledge-graph">知识图谱与链接系统</a></li>
+    <li><a href="#lifecycle">生命周期管理</a></li>
+    <li><a href="#hooks">Hook 机制</a></li>
+    <li><a href="#comparison">对比：为什么不用 RAG / Vector DB</a></li>
+    <li><a href="#practice">实践指南</a></li>
+  </ol>
+</nav>
+
+<!-- ===================== 1. PROBLEM ===================== -->
+<section id="problem">
+  <h2><span class="icon">🧠</span> 1. 问题：AI Agent 的失忆症</h2>
+
+  <p>大语言模型（LLM）驱动的 AI Agent 在编码场景中面临一个根本性矛盾：<strong>模型有卓越的推理能力，但没有持久记忆</strong>。每次新会话开始，Agent 对项目的认知归零——它不知道上周为什么选择了方案 A 而不是方案 B，不知道这个模块有哪些坑，不知道哪些规则必须遵守。</p>
+
+  <p>这导致三个反复出现的问题：</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-icon">🔄</div>
+      <h3>重复探索</h3>
+      <p>每次都要重新 grep 代码、重新理解模块边界、重新推导调用链路。相同的问题被反复"发现"。</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">💀</div>
+      <h3>决策遗忘</h3>
+      <p>"上次为什么这样设计来着？" 架构决策的上下文丢失，后人（或后会话）推翻前人决策却不自知。</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🎲</div>
+      <h3>行为不一致</h3>
+      <p>没有可复用的工作流。commit 时该检查什么、refactor 时该遵循什么——每次都是临场发挥。</p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <strong>Pensieve 的核心命题：</strong> 项目级的"经验"如何从一次会话传递到下一次会话？不是靠模型记忆，而是靠<strong>结构化的外部知识库</strong>。
+  </div>
+</section>
+
+<!-- ===================== 2. PHILOSOPHY ===================== -->
+<section id="philosophy">
+  <h2><span class="icon">💡</span> 2. 设计哲学</h2>
+
+  <p>Pensieve 的名字来自《哈利波特》中的冥想盆（Pensieve）——一个可以存储和提取记忆的容器。但它的设计思想更接近于<strong>人类的长期记忆系统</strong>：</p>
+
+  <h3>📌 经验不是参数，是结构</h3>
+  <p>Fine-tuning 改变模型的参数，但无法精确传递"这个项目的 API 必须幂等"这类具体知识。Pensieve 选择<strong>符号化、可编辑、可版本控制</strong>的 Markdown 文件作为记忆载体，而不是向量数据库中的浮点数。</p>
+
+  <h3>📌 分层治理，而非一锅煮</h3>
+  <p>不是所有知识都同等重要。一个跨越项目、跨越语言的工程原则（"消除特殊情况"）和一个特定文件的调用链路，需要不同的管理策略。Pensieve 用四层语义模型区分知识的"硬度"。</p>
+
+  <h3>📌 短期缓冲，长期沉淀</h3>
+  <p>新结论不直接写入长期目录——先进入 <code>short-term/</code> 缓冲区，7 天后由人工或 Agent 审查。这避免了噪声积累，确保长期知识库的质量。</p>
+
+  <h3>📌 系统代码与用户数据物理隔离</h3>
+  <p>Pensieve 的引擎代码（<code>.src/</code>）和项目知识数据（<code>.pensieve/</code>）完全分离。<code>git pull</code> 更新引擎永远不会触碰你的项目数据。</p>
+</section>
+
+<!-- ===================== 3. ARCHITECTURE ===================== -->
+<section id="architecture">
+  <h2><span class="icon">🏗️</span> 3. 双层架构：系统代码 vs 项目数据</h2>
+
+  <p>Pensieve 采用<strong>两级锚点</strong>设计，将"引擎"和"数据"物理隔离：</p>
+
+  <div class="diagram">
+<pre>
+┌─────────────────────────────────────────────────────────────────┐
+│                    系统级 (User-Level, Global)                   │
+│                                                                 │
+│  ~/.claude/skills/pensieve/          ← 全局 git clone，只读引擎  │
+│  ├── SKILL.md                        ← 静态路由声明              │
+│  ├── .src/                           ← 核心引擎                 │
+│  │   ├── core/                      ← Python 核心 (schema, 分类)│
+│  │   ├── scripts/                   ← Shell 脚本 (hooks, 维护)  │
+│  │   ├── templates/                 ← 种子模板                  │
+│  │   ├── references/                ← 规范文档                  │
+│  │   └── tools/                     ← 七工具规范                │
+│  └── agents/                         ← Agent 元数据              │
+│                                                                 │
+│  一次安装，所有项目共享                                          │
+└─────────────────────────────────────────────────────────────────┘
+                              ↕ 读取模板 / 执行脚本
+┌─────────────────────────────────────────────────────────────────┐
+│                   项目级 (Project-Level, Per-Project)            │
+│                                                                 │
+│  <project>/.pensieve/                ← 每个项目独立的知识库      │
+│  ├── maxims/                         ← 工程铁律 (MUST)          │
+│  ├── decisions/                      ← 架构决策 (WANT)          │
+│  ├── knowledge/                      ← 探索缓存 (IS)            │
+│  ├── pipelines/                      ← 可复用工作流 (HOW)       │
+│  ├── short-term/                     ← 短期缓冲区 (STAGING)     │
+│  │   ├── maxims/  decisions/  knowledge/  pipelines/            │
+│  ├── state.md                        ← 动态生命周期状态          │
+│  └── .state/                         ← 运行时产物 (gitignored)  │
+│      └── pensieve-user-data-graph.md ← 知识图谱 (Mermaid)       │
+│                                                                 │
+│  可提交到 git，随项目版本控制                                    │
+└─────────────────────────────────────────────────────────────────┘
+</pre>
+  </div>
+
+  <div class="callout success">
+    <strong>关键设计决策：</strong> <code>.src/manifest.json</code> 是定位技能根目录的锚点。任何包含此文件的目录就是系统技能根。脚本通过它自举，不依赖硬编码路径。
+  </div>
+</section>
+
+<!-- ===================== 4. SEMANTIC LAYERS ===================== -->
+<section id="semantic-layers">
+  <h2><span class="icon">🧱</span> 4. 四层语义模型</h2>
+
+  <p>Pensieve 的核心创新之一是将知识按"硬度"分为四层，每层有不同的准入标准、生命周期和管理策略：</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>层</th>
+        <th>语义</th>
+        <th>目录</th>
+        <th>准入标准</th>
+        <th>例子</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="layer-must">MUST</span></td>
+        <td>Maxim（铁律）</td>
+        <td><code>maxims/</code></td>
+        <td>跨项目、跨语言仍成立；违反则回归风险剧增；可一句话说完</td>
+        <td>"消除特殊情况优于增加条件判断"</td>
+      </tr>
+      <tr>
+        <td><span class="layer-want">WANT</span></td>
+        <td>Decision（决策）</td>
+        <td><code>decisions/</code></td>
+        <td>去掉后未来更易犯错；三个月后能帮后人少走弯路</td>
+        <td>"选择浮窗工作台而非内联 tab"</td>
+      </tr>
+      <tr>
+        <td><span class="layer-is">IS</span></td>
+        <td>Knowledge（事实）</td>
+        <td><code>knowledge/</code></td>
+        <td>可验证、可追溯；不写会反复拖慢执行</td>
+        <td>"diagnosis provider 的 CLI 边界"</td>
+      </tr>
+      <tr>
+        <td><span class="layer-how">HOW</span></td>
+        <td>Pipeline（工作流）</td>
+        <td><code>pipelines/</code></td>
+        <td>同类型任务已复现 3 次以上；步骤不可互换；每步可验证</td>
+        <td>"run-when-committing.md"</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>为什么是四层而不是一层？</h3>
+
+  <p>如果所有知识都扔进一个目录，Agent 无法区分"这是必须遵守的铁律"和"这是上次探索的缓存"。四层模型让 Agent 在读取知识时天然获得<strong>优先级信号</strong>：</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>🔴 MUST — 不可违反</h3>
+      <p>违反这些规则的代码不应该被提交。Agent 在 code review 时可以直接引用 maxim 作为拒绝理由。</p>
+    </div>
+    <div class="card">
+      <h3>🟠 WANT — 应该遵循</h3>
+      <p>架构决策有上下文和被拒绝的替代方案。Agent 可以理解"为什么这样做"而不只是"怎么做"。</p>
+    </div>
+    <div class="card">
+      <h3>🔵 IS — 参考事实</h3>
+      <p>探索结果的缓存。可能过时，需要验证。Agent 可以先查缓存，miss 时再 grep。</p>
+    </div>
+    <div class="card">
+      <h3>🟣 HOW — 执行流程</h3>
+      <p>标准化的工作流。Agent 不需要临场发挥，按 pipeline 步骤执行即可。</p>
+    </div>
+  </div>
+
+  <h3>short-term/ — 短期缓冲机制</h3>
+
+  <p>新结论不直接写入长期目录。先进入 <code>short-term/</code>，结构与长期目录镜像：</p>
+
+  <div class="flow-step">
+    <div class="step-num">1</div>
+    <div class="step-content">
+      <h4>self-improve 捕获</h4>
+      <p>Agent 从会话 + diff 中提取 insight，写入 <code>short-term/{type}/</code></p>
+    </div>
+  </div>
+  <div class="flow-step">
+    <div class="step-num">2</div>
+    <div class="step-content">
+      <h4>7 天 TTL 计时</h4>
+      <p>基于 <code>created</code> 日期 + 7 天。过期后触发提醒（session hook / doctor / commit pipeline）</p>
+    </div>
+  </div>
+  <div class="flow-step">
+    <div class="step-num">3</div>
+    <div class="step-content">
+      <h4>refine 审查</h4>
+      <p>五问决策法：删除？合并？提升到长期目录？填缺后保留？</p>
+    </div>
+  </div>
+  <div class="flow-step">
+    <div class="step-num">4</div>
+    <div class="step-content">
+      <h4>提升或删除</h4>
+      <p><code>mv short-term/{type}/file.md {type}/file.md</code>，链接零更新（因为 <code>[[...]]</code> 不含 short-term 前缀）</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 5. DUAL SYSTEM ===================== -->
+<section id="dual-system">
+  <h2><span class="icon">⚡</span> 5. 双系统决策：快思考与慢思考</h2>
+
+  <p>Pensieve 的知识检索 Agent（<code>pensieve-wand</code>）受 Daniel Kahneman《思考，快与慢》启发，实现了<strong>双系统决策</strong>：</p>
+
+  <div class="vs-grid">
+    <div class="vs-card good">
+      <h4>⚡ System 1：直觉匹配（零工具调用）</h4>
+      <ul>
+        <li><strong>触发条件</strong>：查询关键词命中 MEMORY.md 中的路由条目</li>
+        <li><strong>成本</strong>：零工具调用，纯上下文匹配</li>
+        <li><strong>精度</strong>：高（人工筛选过的路由）</li>
+        <li><strong>适用</strong>：高频问题、已知领域</li>
+      </ul>
+    </div>
+    <div class="vs-card">
+      <h4>🧠 System 2：预算探索（有约束的深度搜索）</h4>
+      <ul>
+        <li><strong>触发条件</strong>：System 1 未命中，或条目标记为 [slow]</li>
+        <li><strong>预算</strong>：图节点 ≤ 5 个文件，Grep ≤ 2 次，总工具调用 ≤ 10</li>
+        <li><strong>终止</strong>：问题有定论 / 预算耗尽 / 连续 2 次搜索无新信息</li>
+        <li><strong>适用</strong>：新领域、复杂问题</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>知识升级路径</h3>
+
+  <div class="diagram">
+<pre>
+  新查询
+    │
+    ├─→ MEMORY.md 关键词命中 ─→ System 1：零工具调用直接回答
+    │     └─ 需要细节？最多读 1 个路由文件或 pensieve 条目
+    │
+    ├─→ MEMORY.md [slow] 命中 ─→ System 2：从已知线索出发，预算约束
+    │
+    └─→ 全 miss ─→ System 2：完整图谱探索，预算约束
+         │
+    调查结束
+    ├─→ 答案确定 ─→ 写入 MEMORY.md 内联条目（升级为 System 1）
+    ├─→ 线索不完整 ─→ 写 slow_{topic}.md + 标记 [slow]
+    └─→ 一次性查询 ─→ 不写入
+</pre>
+  </div>
+
+  <div class="callout">
+    <strong>核心思想：</strong> 快速的 80% 回答优于缓慢的 100% 回答。大多数高频问题应该在 System 1 就解决。System 2 有严格的认知预算，防止 Agent 陷入无限探索。
+  </div>
+</section>
+
+<!-- ===================== 6. TOOLS ===================== -->
+<section id="tools">
+  <h2><span class="icon">🔧</span> 6. 七大工具</h2>
+
+  <p>Pensieve 提供七个职责分明的工具，每个工具有明确的边界——"负责什么"和"不负责什么"：</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>工具</th>
+        <th>职责</th>
+        <th>触发场景</th>
+        <th>关键约束</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>init</code></td>
+        <td>初始化项目数据目录，播种种子文件</td>
+        <td>首次集成 Pensieve / 重装后</td>
+        <td>幂等；不覆盖已有用户数据</td>
+      </tr>
+      <tr>
+        <td><code>upgrade</code></td>
+        <td>刷新全局技能源码（git pull）</td>
+        <td>更新 Pensieve 版本</td>
+        <td>不迁移结构，不发 PASS/FAIL</td>
+      </tr>
+      <tr>
+        <td><code>migrate</code></td>
+        <td>迁移遗留数据，对齐目录结构和关键文件</td>
+        <td>旧路径清理、关键文件漂移</td>
+        <td>不更新版本，不发 PASS/FAIL</td>
+      </tr>
+      <tr>
+        <td><code>doctor</code></td>
+        <td>只读健康扫描，输出固定格式报告</td>
+        <td>init/upgrade/migrate 后验证</td>
+        <td>不修改业务代码</td>
+      </tr>
+      <tr>
+        <td><code>self-improve</code></td>
+        <td>从会话 + diff 提取 insight，写入 short-term</td>
+        <td>任务轮次结束 / commit 前</td>
+        <td>新条目进 short-term；已有文件原地编辑</td>
+      </tr>
+      <tr>
+        <td><code>refine</code></td>
+        <td>五问审查 + 压缩知识库</td>
+        <td>short-term 过期 / 定期维护</td>
+        <td>压缩产生的新条目走 short-term</td>
+      </tr>
+      <tr>
+        <td><code>sync-instructions</code></td>
+        <td>将 pipeline 短路由写入 CLAUDE.md / AGENTS.md</td>
+        <td>pipeline 变更后同步</td>
+        <td>不生成项目摘要，不内联完整 pipeline</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>工具路由</h3>
+  <p><code>SKILL.md</code> 作为路由入口，根据用户请求的关键词将请求分发到正确的工具。Agent 不需要记住所有工具的用法，只需要把请求交给 Pensieve，它自己会路由。</p>
+</section>
+
+<!-- ===================== 7. PIPELINE ===================== -->
+<section id="pipeline">
+  <h2><span class="icon">⚙️</span> 7. Pipeline 工作流引擎</h2>
+
+  <p>Pipeline 是 Pensieve 中 <span class="layer-how">HOW</span> 层的具体实现。它不是简单的任务列表，而是<strong>带有信号判断、验证循环和失败兜底的可执行工作流</strong>。</p>
+
+  <h3>Pipeline 的三个创建条件</h3>
+  <div class="callout warn">
+    <strong>不要滥用 Pipeline！</strong> 只有同时满足以下三个条件时才创建：
+    <br>1. 同类型任务已复现 3 次以上
+    <br>2. 步骤顺序不可互换
+    <br>3. 每个步骤有可验证的完成标准
+  </div>
+
+  <h3>内置 Pipeline</h3>
+
+  <p>Pensieve 初始化时播种三个核心 Pipeline：</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-icon">📝</div>
+      <h3>run-when-committing</h3>
+      <p>commit 前自动提取 insight 并捕获。三步：信号判断 → 自动捕获 → 原子提交。</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🔨</div>
+      <h3>run-when-refactoring</h3>
+      <p>重构前确认真实问题，先修上游数据权威性，分步交付，删除旧路径。</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🔍</div>
+      <h3>run-when-reviewing-code</h3>
+      <p>从 git 历史和热点文件出发，验证候选问题，只报告高信号发现。</p>
+    </div>
+  </div>
+
+  <h3>Pipeline 骨架</h3>
+<pre>
+---
+id: run-when-xxx
+type: pipeline
+title: Pipeline Name
+status: active
+description: [触发场景, 跳过代价, 触发关键词]
+---
+
+## Signal Rules
+- 只保留可复现、可定位、有证据支撑的结果
+
+## Task Blueprint
+### Task 1: [目标]
+- Input: [文件/路径]
+- Steps: [编号、具体、可执行]
+- Completion criteria: [可验证]
+
+### Task 2: ...
+
+## Failure Fallback
+1. 输入缺失时停止
+2. 证据不足时过滤
+3. 无高信号结果时明确声明
+</pre>
+</section>
+
+<!-- ===================== 8. KNOWLEDGE GRAPH ===================== -->
+<section id="knowledge-graph">
+  <h2><span class="icon">🕸️</span> 8. 知识图谱与链接系统</h2>
+
+  <p>Pensieve 的知识不是孤立的文件——它们通过 <code>[[...]]</code> 链接形成<strong>有向图</strong>。</p>
+
+  <h3>链接规则</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>链接类型</th>
+        <th>指向</th>
+        <th>例子</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>Based on:</code></td>
+        <td>前置知识或决策</td>
+        <td><code>[[knowledge/auth-flow/content]]</code></td>
+      </tr>
+      <tr>
+        <td><code>Leads to:</code></td>
+        <td>后续流程或决策</td>
+        <td><code>[[decisions/2026-03-16-api-design]]</code></td>
+      </tr>
+      <tr>
+        <td><code>Related:</code></td>
+        <td>并行主题</td>
+        <td><code>[[maxims/reduce-complexity]]</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>图谱生成</h3>
+  <p><code>generate-user-data-graph.sh</code> 扫描所有 <code>[[...]]</code> 链接，生成 Mermaid 格式的知识图谱，输出到 <code>.pensieve/.state/pensieve-user-data-graph.md</code>。图谱按目录分组（subgraph），每个节点 ID（如 <code>n80</code>）对应一个条目。</p>
+
+  <h3>short-term 链接的巧妙设计</h3>
+  <div class="callout success">
+    <strong>零成本提升：</strong> <code>[[...]]</code> 链接<strong>不含 <code>short-term/</code> 前缀</strong>。图谱解析器在处理 short-term 文件时自动剥离前缀，与长期文件共享节点 ID。这意味着 <code>mv</code> 提升条目时，所有引用它的链接<strong>零更新</strong>。
+  </div>
+</section>
+
+<!-- ===================== 9. LIFECYCLE ===================== -->
+<section id="lifecycle">
+  <h2><span class="icon">🔄</span> 9. 生命周期管理</h2>
+
+  <p>Pensieve 用一个明确的状态机管理项目数据的生命周期：</p>
+
+  <div class="diagram">
+<pre>
+  ┌──────────┐     init      ┌──────────┐    doctor PASS    ┌──────────┐
+  │  EMPTY   │ ──────────→   │  SEEDED  │ ──────────────→   │ ALIGNED  │
+  │          │               │          │                   │          │
+  │ 缺根目录 │               │ 缺关键文件│                   │ 健康状态  │
+  └──────────┘               └──────────┘                   └────┬─────┘
+                                                                 │
+                                                          doctor FAIL
+                                                                 │
+                                                            ┌────▼─────┐
+                                                            │ DRIFTED  │
+                                                            │          │
+                                                            │ 结构漂移  │
+                                                            └──────────┘
+                                                                 │
+                                                              migrate
+                                                                 │
+                                                            ┌────▼─────┐
+                                                            │ ALIGNED  │
+                                                            └──────────┘
+</pre>
+  </div>
+
+  <p>状态由 <code>pensieve_core.py</code> 的 <code>classify_state()</code> 函数确定：</p>
+<pre>
+def classify_state(*, has_missing_root, has_missing_directories,
+                   has_missing_critical_files, must_fix_count):
+    if has_missing_root or has_missing_directories:
+        return "EMPTY"
+    if has_missing_critical_files:
+        return "SEEDED"
+    if must_fix_count == 0:
+        return "ALIGNED"
+    return "DRIFTED"
+</pre>
+
+  <p><code>state.md</code> 是动态生成的，由 <code>maintain-project-state.sh</code> 在每次生命周期事件（install/upgrade/migrate/doctor/self-improve/sync）后刷新。</p>
+</section>
+
+<!-- ===================== 10. HOOKS ===================== -->
+<section id="hooks">
+  <h2><span class="icon">🪝</span> 10. Hook 机制</h2>
+
+  <p>Pensieve 通过 Claude Code 的 Hook 系统注入自动化行为：</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Hook 时机</th>
+        <th>脚本</th>
+        <th>作用</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>SessionStart</code></td>
+        <td><code>pensieve-session-marker.sh</code></td>
+        <td>会话启动时标记，检查 short-term 过期提醒</td>
+      </tr>
+      <tr>
+        <td><code>PreToolUse</code> (Explore/Plan)</td>
+        <td><code>explore-prehook.sh</code></td>
+        <td>在探索前注入 SKILL.md + state.md 提示，让 Agent 先查 Pensieve</td>
+      </tr>
+      <tr>
+        <td><code>PostToolUse</code> (Write/Edit)</td>
+        <td><code>sync-project-skill-graph.sh</code></td>
+        <td>文件修改后自动同步知识图谱</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Hook 配置写入 <code>~/.claude/settings.json</code>，对所有项目全局生效。没有 <code>.pensieve/</code> 的项目不受影响（Hook 静默退出）。</p>
+</section>
+
+<!-- ===================== 11. COMPARISON ===================== -->
+<section id="comparison">
+  <h2><span class="icon">⚖️</span> 11. 对比：为什么不用 RAG / Vector DB</h2>
+
+  <div class="vs-grid">
+    <div class="vs-card good">
+      <h4>✅ Pensieve 方案</h4>
+      <ul>
+        <li>Markdown 文件 = 人类可读、可 diff、可 merge</li>
+        <li>语义分层 = 知识硬度可区分</li>
+        <li>git 版本控制 = 完整审计轨迹</li>
+        <li>链接系统 = 显式关系，不依赖向量相似度</li>
+        <li>零依赖 = 不需要 embedding 模型 / 向量数据库</li>
+        <li>Agent 可直接编辑 = 自改进闭环</li>
+      </ul>
+    </div>
+    <div class="vs-card bad">
+      <h4>❌ RAG / Vector DB 方案</h4>
+      <ul>
+        <li>向量 = 人类不可读、不可 diff</li>
+        <li>扁平存储 = 无法区分"铁律"和"缓存"</li>
+        <li>embedding 漂移 = 模型更新后向量不可比</li>
+        <li>相似度检索 = 语义相近 ≠ 语义相关</li>
+        <li>外部依赖 = 需要维护向量数据库</li>
+        <li>黑盒 = Agent 无法自解释检索过程</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout">
+    <strong>Pensieve 的赌注：</strong> 在项目级知识管理的场景下，<strong>结构化 > 向量化</strong>。知识的价值不在于"语义相似"，而在于"结构正确"——正确的分层、正确的链接、正确的生命周期。
+  </div>
+</section>
+
+<!-- ===================== 12. PRACTICE ===================== -->
+<section id="practice">
+  <h2><span class="icon">🚀</span> 12. 实践指南</h2>
+
+  <h3>快速开始</h3>
+
+<pre>
+# 1. 全局安装（一次性）
+git clone -b main https://github.com/kingkongshot/Pensieve.git ~/.claude/skills/pensieve
+
+# 2. 安装 Hooks（一次性）
+bash ~/.claude/skills/pensieve/.src/scripts/install-hooks.sh
+
+# 3. 初始化项目（每个项目）
+cd &lt;your-project&gt;
+bash ~/.claude/skills/pensieve/.src/scripts/init-project-data.sh
+
+# 4. 验证
+bash ~/.claude/skills/pensieve/.src/scripts/run-doctor.sh --strict
+</pre>
+
+  <h3>日常使用</h3>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>开始编码前</h3>
+      <p>Agent 自动通过 <code>pensieve-wand</code> 检索项目知识。你不需要手动触发。</p>
+    </div>
+    <div class="card">
+      <h3>Commit 时</h3>
+      <p><code>run-when-committing</code> pipeline 自动运行：判断是否有 insight → 捕获 → 原子提交。</p>
+    </div>
+    <div class="card">
+      <h3>定期维护</h3>
+      <p>运行 <code>refine</code> 清理过期的 short-term 条目，压缩知识库。</p>
+    </div>
+    <div class="card">
+      <h3>更新 Pensieve</h3>
+      <p><code>cd ~/.claude/skills/pensieve && git pull --ff-only</code>，然后跑 <code>doctor</code>。</p>
+    </div>
+  </div>
+
+  <h3>refine 的五问决策法</h3>
+
+  <p>这是 Pensieve 知识质量管理的核心算法：</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>问题</th>
+        <th>否 →</th>
+        <th>是 →</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Q1</td>
+        <td>删除后，未来是否会重复犯错或重复探索？</td>
+        <td><strong>DELETE</strong></td>
+        <td>→ Q2</td>
+      </tr>
+      <tr>
+        <td>Q2</td>
+        <td>有证据支撑吗（代码、文档、实验结果）？</td>
+        <td><strong>DELETE</strong></td>
+        <td>→ Q3</td>
+      </tr>
+      <tr>
+        <td>Q3</td>
+        <td>是否已被现有条目覆盖？</td>
+        <td>→ Q4</td>
+        <td><strong>DELETE</strong>（合并后删除）</td>
+      </tr>
+      <tr>
+        <td>Q4</td>
+        <td>写作时的上下文现在还成立吗？</td>
+        <td><strong>DELETE</strong></td>
+        <td>→ Q5</td>
+      </tr>
+      <tr>
+        <td>Q5</td>
+        <td>是否符合目标层的内容规范？</td>
+        <td>补齐缺失或 <strong>DELETE</strong></td>
+        <td><strong>KEEP / PROMOTE</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>三种压缩技术</h3>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>🔼 向上抽象</h3>
+      <p>多个条目展现同一模式 → 提炼更高层抽象，删除原始条目。例：三个"API 必须幂等" → 一条 maxim "所有外部 API 必须幂等"。</p>
+    </div>
+    <div class="card">
+      <h3>🔗 提取共享</h3>
+      <p>多个条目重复引用同一事实 → 提取为独立条目 + <code>[[...]]</code> 引用。例：三个决策都描述同一流程 → 提取为 knowledge 条目。</p>
+    </div>
+    <div class="card">
+      <h3>💎 消除特殊情况</h3>
+      <p>看似不同的条目实际是同一深层原则的特例 → 写深层原则，删除表面规则。例："不在 handler 操作 DB" + "Service 层管理事务" → "关注点分离"。</p>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <p>
+    Pensieve v1.3.0 &middot;
+    <a href="https://github.com/kingkongshot/Pensieve" target="_blank">GitHub</a> &middot;
+    基于源码深度解析生成 &middot; 2026-06-03
+  </p>
+</footer>
+
+</body>
+</html>

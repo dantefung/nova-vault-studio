@@ -28,7 +28,7 @@ url: "https://mp.weixin.qq.com/s/DfDFsIhLZJp1NiXz9dp7ug"
 
 ### 正文
 
-<article-content />
+正文见：[让 Agent 不会停下来：goal 命令](./goal-command.md)
 
 ---
 
