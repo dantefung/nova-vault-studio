@@ -1,4 +1,4 @@
----
+﻿---
 title: "满屏的 if-else，要怎么优化？"
 date: "2023-04-13"
 source: "Macaroon-Spring-Family/spring-boot-best-practice"
@@ -7,7 +7,7 @@ original: "满屏的 if-else，要怎么优化？.pdf"
 
 # 满屏的 if-else，要怎么优化？
 
-> 原文 PDF：`满屏的 if-else，要怎么优化？.pdf`（已转文字 + 提取配图）
+&gt; 原文 PDF：`满屏的 if-else，要怎么优化？.pdf`（已转文字 + 提取配图）
 
 ## 正文
 
@@ -30,13 +30,13 @@ original: "满屏的 if-else，要怎么优化？.pdf"
 public class BadCodeDemo {
 
 
-private void getBadCodeBiz(Integer city, List<TestCodeData> newDataList, Lis
+private void getBadCodeBiz(Integer city, List&lt;TestCodeData&gt; newDataList, Lis
        if (city != null) {
 
 
-if (newDataList != null && newDataList.size() > 0) {
+if (newDataList != null && newDataList.size() &gt; 0) {
 
-       TestCodeData newData = newDataList.stream().filter(p -> {
+       TestCodeData newData = newDataList.stream().filter(p -&gt; {
 
               if (p.getIsHoliday() == 1) {
 
@@ -63,7 +63,7 @@ if (newDataList != null && newDataList.size() > 0) {
 
 if (oldDataList != null && newDataList != null) {
 
-       List<TestCodeData> oldCollect = oldDataList.stream().filter(p ->
+       List&lt;TestCodeData&gt; oldCollect = oldDataList.stream().filter(p -&gt;
               if (p.getIsHoliday() == 1) {
 
                      return true;
@@ -75,7 +75,7 @@ if (oldDataList != null && newDataList != null) {
 
 }).collect(Collectors.toList());
 
-List<TestCodeData> newCollect = newDataList.stream().filter(p ->
+List&lt;TestCodeData&gt; newCollect = newDataList.stream().filter(p -&gt;
 
        if (p.getIsHoliday() == 1) {
 
@@ -89,7 +89,7 @@ List<TestCodeData> newCollect = newDataList.stream().filter(p ->
 }).collect(Collectors.toList());
 
 
-if (newCollect != null && newCollect.size() > 0 && oldCollect !=
+if (newCollect != null && newCollect.size() &gt; 0 && oldCollect !=
        for (TestCodeData newPO : newCollect) {
 
 
@@ -98,7 +98,7 @@ if (newCollect != null && newCollect.size() > 0 && oldCollect !=
 https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             1/16
 2022/6/12 16:34                                                                  if-else
 
-                                                 TestCodeData po = oldCollect.stream().filter(p -> p.
+                                                 TestCodeData po = oldCollect.stream().filter(p -&gt; p.
                                                                 && (p.getEndTime() == 12 || p.getEndTime() =
 
                                                  if (po != null) {
@@ -112,7 +112,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             1/
 
                                                  TestCodeData po = oldCollect.stream().filter(
 
-                                                                p -> (p.getStartTime() == 12 || p.getStartTi
+                                                                p -&gt; (p.getStartTime() == 12 || p.getStartTi
                                                                               && p.getEndTime() == 24).findFirst()
 
                                                  if (po != null) {
@@ -126,13 +126,13 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             1/
 
                                                  TestCodeData po = oldCollect.stream().filter(
 
-                                                                p -> p.getStartTime() == 0 && p.getEndTime()
+                                                                p -&gt; p.getStartTime() == 0 && p.getEndTime()
 
                                                  if (po == null) {
 
                                                          po = oldCollect.stream().filter(
 
-                                                                       p -> p.getStartTime() == 0 && p.getEndTi
+                                                                       p -&gt; p.getStartTime() == 0 && p.getEndTi
 
                                                  }
 
@@ -141,7 +141,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             1/
 
                                                          po = oldCollect.stream().filter(
 
-                                                                       p -> p.getStartTime() == 12 && p.getEndT
+                                                                       p -&gt; p.getStartTime() == 12 && p.getEndT
 
                                                  }
 
@@ -156,7 +156,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             1/
                                                  TestCodeData po = oldCollect.stream().filter(
 
 
-                                                                e -> e.getTimeUnit().equals(Integer.valueOf(
+                                                                e -&gt; e.getTimeUnit().equals(Integer.valueOf(
                                                  if (po != null) {
 
 
@@ -196,11 +196,11 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                               
 
 
 
-private void getCityNotNull(Integer city, List<TestCodeData> newDataList) {
+private void getCityNotNull(Integer city, List&lt;TestCodeData&gt; newDataList) {
 
-       if (newDataList != null && newDataList.size() > 0) {
+       if (newDataList != null && newDataList.size() &gt; 0) {
 
-              TestCodeData newData = newDataList.stream().filter(p -> {
+              TestCodeData newData = newDataList.stream().filter(p -&gt; {
 
                      if (p.getIsHoliday() == 1) {
 
@@ -224,7 +224,7 @@ private void getCityNotNull(Integer city, List<TestCodeData> newDataList) {
 // 
 
 
-private void getBadCodeBiz(Integer city, List<TestCodeData> newDataList, List<Te
+private void getBadCodeBiz(Integer city, List&lt;TestCodeData&gt; newDataList, List&lt;Te
        if (city != null) {
 
               this.getCityNull(city, newDataList);
@@ -241,7 +241,7 @@ return
 
 "" getCityNull 
 
-public void getCityNotNull(Integer city, List<TestCodeData> newDataList) {
+public void getCityNotNull(Integer city, List&lt;TestCodeData&gt; newDataList) {
 
 
  if (CollectionUtils.isEmpty(newDataList)) {
@@ -253,7 +253,7 @@ public void getCityNotNull(Integer city, List<TestCodeData> newDataList) {
 
 }
 
-TestCodeData newData = newDataList.stream().filter(p -> {
+TestCodeData newData = newDataList.stream().filter(p -&gt; {
 
 
                  if (p.getIsHoliday() == 1) {
@@ -288,7 +288,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                               
 public class BadCodeDemo {
 
 
-public void getBadCodeBiz(Integer city, List<TestCodeData> newDataList, List
+public void getBadCodeBiz(Integer city, List&lt;TestCodeData&gt; newDataList, List
        if (city != null) {
 
               this.getCityNotNull(city, newDataList);
@@ -302,7 +302,7 @@ public void getBadCodeBiz(Integer city, List<TestCodeData> newDataList, List
 
 }
 
-private void getCityNotNull(Integer city, List<TestCodeData> newDataList) {
+private void getCityNotNull(Integer city, List&lt;TestCodeData&gt; newDataList) {
 
 
  if (CollectionUtils.isEmpty(newDataList)) {
@@ -316,7 +316,7 @@ private void getCityNotNull(Integer city, List<TestCodeData> newDataList) {
 }
 
 
-TestCodeData newData = newDataList.stream().filter(p -> {
+TestCodeData newData = newDataList.stream().filter(p -&gt; {
 
 
     if (p.getIsHoliday() == 1) {
@@ -341,7 +341,7 @@ TestCodeData newData = newDataList.stream().filter(p -> {
 
 }
 
- private void getCityNull(List<TestCodeData> newDataList, List<TestCodeData>
+ private void getCityNull(List&lt;TestCodeData&gt; newDataList, List&lt;TestCodeData&gt;
 //                                                 
 
 
@@ -353,7 +353,7 @@ if (CollectionUtils.isEmpty(oldDataList) && CollectionUtils.isEmpty(newD
 }
 
 
-List<TestCodeData> oldCollect = oldDataList.stream().filter(p -> {
+List&lt;TestCodeData&gt; oldCollect = oldDataList.stream().filter(p -&gt; {
 
        if (p.getIsHoliday() == 1) {
 
@@ -366,7 +366,7 @@ List<TestCodeData> oldCollect = oldDataList.stream().filter(p -> {
 }).collect(Collectors.toList());
 
 
-List<TestCodeData> newCollect = newDataList.stream().filter(p -> {
+List&lt;TestCodeData&gt; newCollect = newDataList.stream().filter(p -&gt; {
 
        if (p.getIsHoliday() == 1) {
 
@@ -397,7 +397,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             4/
       }
                 if (newPO.getStartTime() == 0 && newPO.getEndTime() == 12) {
 
-                               TestCodeData po = oldCollect.stream().filter(p -> p.getStartTime
+                               TestCodeData po = oldCollect.stream().filter(p -&gt; p.getStartTime
                                               && (p.getEndTime() == 12 || p.getEndTime() == 24)).findF
                                if (po != null) {
 
@@ -408,7 +408,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             4/
                         } else if (newPO.getStartTime() == 12 && newPO.getEndTime() == 24) {
                                TestCodeData po = oldCollect.stream().filter(
 
-                                              p -> (p.getStartTime() == 12 || p.getStartTime() == 0)
+                                              p -&gt; (p.getStartTime() == 12 || p.getStartTime() == 0)
 
                                                             && p.getEndTime() == 24).findFirst().orElse(null
                                if (po != null) {
@@ -421,19 +421,19 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             4/
 
                                TestCodeData po = oldCollect.stream().filter(
 
-                                              p -> p.getStartTime() == 0 && p.getEndTime() == 24).find
+                                              p -&gt; p.getStartTime() == 0 && p.getEndTime() == 24).find
                                if (po == null) {
 
                                       po = oldCollect.stream().filter(
 
-                                                     p -> p.getStartTime() == 0 && p.getEndTime() == 12).
+                                                     p -&gt; p.getStartTime() == 0 && p.getEndTime() == 12).
                                }
 
                                if (po == null) {
 
                                       po = oldCollect.stream().filter(
 
-                                                     p -> p.getStartTime() == 12 && p.getEndTime() == 24)
+                                                     p -&gt; p.getStartTime() == 12 && p.getEndTime() == 24)
                                }
 
                                if (po != null) {
@@ -446,7 +446,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             4/
 
                                TestCodeData po = oldCollect.stream().filter(
 
-                                              e -> e.getTimeUnit().equals(Integer.valueOf(1))).findFir
+                                              e -&gt; e.getTimeUnit().equals(Integer.valueOf(1))).findFir
                                if (po != null) {
 
                                       newPO.setCity(po.getCity());
@@ -498,9 +498,9 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                               
                  @Override
 
 
-                 public void setCity(TestCodeData data, List<TestCodeData> oldDataList) {
+                 public void setCity(TestCodeData data, List&lt;TestCodeData&gt; oldDataList) {
 
-                     TestCodeData po = oldDataList.stream().filter(p -> p.getStartTime()
+                     TestCodeData po = oldDataList.stream().filter(p -&gt; p.getStartTime()
 
                              && (p.getEndTime() == 12 || p.getEndTime() == 24)).findFirst
 
@@ -525,13 +525,13 @@ PM("pm", "
                  @Override
 
 
-                 public void setCity(TestCodeData data, List<TestCodeData> oldCollect) {
+                 public void setCity(TestCodeData data, List&lt;TestCodeData&gt; oldCollect) {
 
 
                      TestCodeData po = oldCollect.stream().filter(
 
 
-                             p -> (p.getStartTime() == 12 || p.getStartTime() == 0)
+                             p -&gt; (p.getStartTime() == 12 || p.getStartTime() == 0)
 
 
                                                    && p.getEndTime() == 24).findFirst().orElse(null);
@@ -557,13 +557,13 @@ DAY("day", "
                  @Override
 
 
-                 public void setCity(TestCodeData data, List<TestCodeData> oldCollect) {
+                 public void setCity(TestCodeData data, List&lt;TestCodeData&gt; oldCollect) {
 
 
                      TestCodeData po = oldCollect.stream().filter(
 
 
-                             p -> p.getStartTime() == 0 && p.getEndTime() == 24).findFirs
+                             p -&gt; p.getStartTime() == 0 && p.getEndTime() == 24).findFirs
 
                      if (po == null) {
 
@@ -571,7 +571,7 @@ DAY("day", "
                          po = oldCollect.stream().filter(
 
 
-                                   p -> p.getStartTime() == 0 && p.getEndTime() == 12).find
+                                   p -&gt; p.getStartTime() == 0 && p.getEndTime() == 12).find
 
                      }
 
@@ -582,7 +582,7 @@ DAY("day", "
                          po = oldCollect.stream().filter(
 
 
-                                   p -> p.getStartTime() == 12 && p.getEndTime() == 24).fin
+                                   p -&gt; p.getStartTime() == 12 && p.getEndTime() == 24).fin
 
                      }
 
@@ -608,13 +608,13 @@ HOUR("hour", "
                  @Override
 
 
-                 public void setCity(TestCodeData data, List<TestCodeData> oldCollect) {
+                 public void setCity(TestCodeData data, List&lt;TestCodeData&gt; oldCollect) {
 
 
                      TestCodeData po = oldCollect.stream().filter(
 
 
-                             e -> e.getTimeUnit().equals(Integer.valueOf(1))).findFirst()
+                             e -&gt; e.getTimeUnit().equals(Integer.valueOf(1))).findFirst()
 
                      if (po != null) {
 
@@ -631,7 +631,7 @@ HOUR("hour", "
 };
 
 
-public abstract void setCity(TestCodeData data, List<TestCodeData> oldCollec
+public abstract void setCity(TestCodeData data, List&lt;TestCodeData&gt; oldCollec
 
 private String code;
 
@@ -825,21 +825,21 @@ public class AwardService {
 https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                    8/16
 2022/6/12 16:34                                             if-else
 
-    private Map<String, BiFunction<String, String, Boolean>> sourceMap = new Has
+    private Map&lt;String, BiFunction&lt;String, String, Boolean&gt;&gt; sourceMap = new Has
 
     @PostConstruct
 
     private void dispatcher() {
 
 
-           sourceMap.put("wx", (userId, source) -> this.wxReward(userId));
+           sourceMap.put("wx", (userId, source) -&gt; this.wxReward(userId));
 
-           sourceMap.put("toutiao", (userId, source) -> this.toutiaoReward(userId))
+           sourceMap.put("toutiao", (userId, source) -&gt; this.toutiaoReward(userId))
     }
 
     public Boolean getRewardResult(String userId, String source) {
 
-           BiFunction<String, String, Boolean> result = sourceMap.get(source);
+           BiFunction&lt;String, String, Boolean&gt; result = sourceMap.get(source);
 
            if (null != result) {
 
@@ -1014,7 +1014,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                          10/16
 
            */
 
-         Map<String, Boolean> awardStrategy(String userId);
+         Map&lt;String, Boolean&gt; awardStrategy(String userId);
 
 
    /***
@@ -1193,15 +1193,15 @@ public class WeChatAwardStrategyService extends BaseAwardTemplate implements Awa
 public class AwardStrategyFactory implements ApplicationContextAware {
 
 
-       private final static Map<String, AwardStrategy> MAP = new HashMap<>();
+       private final static Map&lt;String, AwardStrategy&gt; MAP = new HashMap&lt;&gt;();
 
 
     @Override
 
     public void setApplicationContext(ApplicationContext applicationContext) thr
 
-           Map<String, AwardStrategy> beanTypeMap = applicationContext.getBeansOfTy
-           beanTypeMap.values().forEach(strategyObj -> MAP.put(strategyObj.getSourc
+           Map&lt;String, AwardStrategy&gt; beanTypeMap = applicationContext.getBeansOfTy
+           beanTypeMap.values().forEach(strategyObj -&gt; MAP.put(strategyObj.getSourc
     }
 
     /**

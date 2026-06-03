@@ -316,9 +316,9 @@ graph TD
 
 实际产出的知识图谱示例（来自 Pensieve 官方项目）：
 
-![Pensieve 知识图谱概览](./graph-overview.png)
+![Pensieve 知识图谱概览](../graph-overview.png)
 
-![Pensieve 知识图谱详解](./graph-detail.png)
+![Pensieve 知识图谱详解](../graph-detail.png)
 
 ### 3.2 链接解析规则
 

@@ -74,7 +74,7 @@ graph TD
 | **第四部分 安全与可靠性** | PEV / Mental Loop / Dry-Run / Metacognitive | 验证器、沙箱模拟、人工审核、自我认知 |
 | **第五部分 学习与自适应** | RLHF / Cellular Automata | 多轮改进、涌现行为 |
 
-![image](./images/all-agentic-architectures-deep-dive/all-agentic-architectures-deep-dive-img1.png)
+![image](../images/all-agentic-architectures-deep-dive/all-agentic-architectures-deep-dive-img1.png)
 
 > 项目地址：https://github.com/FareedKhan-dev/all-agentic-architectures阅读地址：https://forceinjection.github.io/08_agentic_system/agent_design/all-agentic-architectures-deep-dive.html
 
