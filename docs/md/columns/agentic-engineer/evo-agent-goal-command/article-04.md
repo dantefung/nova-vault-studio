@@ -14,7 +14,7 @@ messages 越滚越大，context window 撑不住了怎么办？本文梳理业�
 前三篇文章分别讲了 Agent 的 Loop、Tools 和 记忆。这篇聊一个迟早得正面面对的问题。Agent 跑着跑着，messages 越滚越大，context window 快撑不住了，怎么办？
 ## 一、项目进度回顾
 先简单回顾一下。evo-agent 是我从零构建 Agent 的学习项目。https://github.com/tiankonguse/evo-agent第一篇，搭骨架：接入 Anthropic API，实现 ReAct Loop，第一个工具 bash。第二篇，扩展工具系统：新增 read_file、write_file、edit_file，重构工具注册机制。第三篇，理解记忆层：System Prompt、Messages History、Tools Schema 三位一体。这一篇，解决一个绕不过去的工程问题——上下文压缩。当前项目的目录结构如下：
-```
+```text
 src/├── main.go├── internal/│   ├── agent/│   │   ├── loop.go          # Agent 主循环│   │   ├── state.go         # 对话状态（含 CompactState）│   │   ├── compact.go       # 压缩核心引擎（新增）│   │   └── transcripts.go   # 对话存档（新增）│   ├── tools/│   │   ├── tool.go│   │   ├── executor.go│   │   ├── bash.go│   │   ├── read_file.go│   │   ├── write_file.go│   │   ├── edit_file.go│   │   └── compact.go       # compact 工具（新增）│   ├── config/│   │   └── config.go│   └── ui/│       └── terminal.go
 ```
 ## 二、问题的根源：messages 是一个只增不减的雪球
@@ -43,7 +43,7 @@ evo-agent 采用了三层压缩策略，按照成本从低到高依次触发。
 就像三道防线。第一道，能在内存里解决的，绝不动网络。第二道，内存搞不定了，调 LLM 做摘要。第三道，LLM 自己觉得不行了，主动喊暂停。一层一层兜底。
 ### 第一层：MicroCompact（微压缩）
 每次调用 LLM 之前，先扫一遍 messages，把较旧的工具结果替换成一行占位符：
-```
+```javascript
 [Earlier tool result compacted. Re-run the tool if you need full detail.]
 ```
 只保留最近 3 条工具结果的完整内容，更早的全部折叠。这个操作在内存里完成，耗时不到 1ms，没有任何网络请求。这里有一个关键的保护逻辑：最后一批工具结果永远不会被压缩。为什么？因为 LLM 刚刚发起了工具调用，还没来得及”看”这批结果。如果此时就把它们折叠掉，LLM 就会拿到空结果，行为会出错。这就好比你刚派人去查资料，人还没回来呢，你就把他的工位清了。回来了没地方汇报，这活就白干了。
@@ -52,21 +52,21 @@ evo-agent 采用了三层压缩策略，按照成本从低到高依次触发。
 ![image](./images/article-04/007.png)
 ### 第三层：手动 Compact 工具
 除了自动触发，LLM 自己也可以主动要求压缩。工具系统里注册了一个 compact 工具，LLM 可以调用它，还能传一个 focus 参数，告诉压缩引擎”这次特别要保留什么”：
-```
+```javascript
 // tools/compact.gotype CompactInput struct {    Focus string `json:"focus,omitempty"`}
 ```
 比如 LLM 觉得自己快撑不住了，可以主动说：compact(focus="当前正在重构的 loop.go 和相关接口")摘要里会额外追加这段 focus 提示，确保下一轮不忘关键信息。这个设计挺有意思的。相当于 Agent 有了”自我管理记忆”的能力。它不只是被动等着系统来压缩，它可以自己判断什么时候该”忘”一些东西，同时告诉系统”但这些别忘”。
 ## 五、CompactState：压缩也需要记忆
 压缩这件事本身，也需要状态追踪。不然你都不知道压缩发生过几次，上次摘要长什么样。所以我把压缩相关的状态单独抽了出来，存在 CompactState 里：
-```
+```javascript
 // state.gotype CompactState struct {    HasCompacted bool     // 是否已发生过压缩    LastSummary  string   // 最后一次生成的摘要    RecentFiles  []string // 最近访问的文件（FIFO，最多 5 个）    CompactCount int      // 压缩次数计数}
 ```
 这里有一个细节设计，我觉得值得单独说一下——RecentFiles。每次 LLM 调用了 read_file 工具，loop.go 都会把这个文件路径记进去，保持最近 5 个，先进先出。压缩发生时，这份文件列表会附加到摘要末尾：
-```
+```javascript
 Recent files to reopen if needed:- src/internal/agent/loop.go- src/internal/agent/compact.go
 ```
 为什么要这么做？因为压缩之后，messages 里的旧内容都没了。LLM 读完摘要，知道”上次我在看这几个文件”，可以快速重新打开，不用重新摸索。就像你午睡醒了，桌上摆着你睡前打开的几份文件。你一看就知道：”哦，我之前在做这个事”。不用从头回忆。CompactState 不随每次用户提问重置，而是在整个 REPL 会话中持久保持：
-```
+```javascript
 // loop.go - Run()compactState := &CompactState{} // 整个会话只初始化一次for { // REPL 循环    state := &LoopState{        Messages:     history,        CompactState: compactState, // 每次查询复用同一个 state    }    a.Loop(state)    compactState = state.CompactState // 同步回来}
 ```
 这样即使跨多次用户查询，压缩历史和文件追踪都不会丢失。

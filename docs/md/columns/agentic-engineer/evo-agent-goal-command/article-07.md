@@ -24,21 +24,21 @@ TUI，全称 Terminal User Interface，终端用户界面。它处于 CLI 和 G
 了解了框架，来看 evo-agent 的 TUI 具体怎么做的。首先要面对一个核心矛盾：Agent 与 TUI 在不同的 goroutine 里跑的。用户在 TUI 里输入问题，TUI 把问题发给 Agent goroutine，Agent 去调 LLM、调工具，产生一系列事件。这些事件需要实时反映在 TUI 上。但 Bubble Tea 的更新只能通过消息驱动，不能直接操作 UI。怎么办？答案是一个事件总线：ui.EventSink。
 ![image](./images/article-07/003.png)
 EventSink 是一个接口，极简，就一个方法：
-```
+```text
 type EventSink interface {    Emit(e Event)}
 ```
 Agent goroutine 只知道”有个 EventSink 可以发事件”，完全不知道 TUI 长什么样。TUI 侧的 Sink 实现了这个接口，内部维护一个带缓冲的 channel：
-```
+```text
 type Sink struct {    ch chan ui.Event}func (s *Sink) Emit(e ui.Event) {    select {    case s.ch Agent 调 Emit，Sink 把事件塞进 channel，TUI 通过 listenForEvents() 从 channel 里读。整条链路是异步的，双方完全解耦。这个设计有一个额外的好处——如果用户不想用 TUI，Agent 照样跑，只需把 EventSink 换成直接打印文字的实现就行。Agent 的逻辑一行都不用改。这就是事件总线的力量。
 ## 事件类型与 Block 系统
 Agent 跑起来之后会产生各种事件。我定义了这些类型：
 ```
 const (    EvThinking  EventKind = iota // LLM 思考块    EvText                       // 助手回复文本    EvToolCall                   // 工具被调用    EvToolResult                 // 工具返回结果    EvSystem                     // 系统提示信息    EvTokens                     // token 用量更新    EvDone                       // 本轮结束)
-```
+```text
 TUI 收到这些事件后，会把它们映射成屏幕上的 Block（块）。这个 Block 的概念很重要。以前的纯文本输出，所有内容都是一行一行的字符串，没有结构可言而 Block 系统把每种内容都打了标签——思考块、文本块、工具调用块、系统消息块——然后由统一的渲染函数根据类型来决定怎么画。工具调用块还有三种状态：
 ```
 StatusPending  // ● 等待结果中（黄色）StatusSuccess  // ✓ 执行成功（绿色）StatusFailed   // ✗ 执行失败（红色）
-```
+```text
 当 EvToolCall 事件到达时，TUI 创建一个 StatusPending 的工具块，先挂着。当配对的 EvToolResult 到达时，找到对应的块，更新状态、填入结果、记录耗时。这个”先挂起、等结果、再完成”的机制，让工具调用在视觉上是一个整体。用户能同时看到调用和结果，而不是两条分散的文字。就像你看一个人做菜，不是看到一堆零散的动作，而是看到”切菜→颠锅→出锅”这样一个完整的流程。
 ## 渲染策略：永久区和实时区
 Bubble Tea 有一个非常有意思的机制：tea.Println。常规的 TUI 渲染是”全量刷新”——每次 View() 返回新内容，框架把整个终端重绘一遍。静态布局没问题，但 Agent 这种会持续产出大量内容的场景，历史内容会随着界面更新而消失。tea.Println 解决了这个问题。它把内容永久写入终端的滚动缓冲区——就像普通的 fmt.Println 一样，只是写完之后，Bubble Tea 会在它下方重新绘制 View() 的内容。evo-agent 利用这个机制做了一个清晰的分层：上方是永久区。所有已完成的内容——思考块、文本回复、完成的工具调用——通过 tea.Println 写入终端。用户可以往上翻，历史记录一直都在。下方是实时区。输入框、进行中的工具调用、状态栏，由 View() 渲染，始终钉在屏幕底部。
@@ -48,15 +48,15 @@ Bubble Tea 有一个非常有意思的机制：tea.Println。常规的 TUI 渲�
 所有颜色和排版都用 Lipgloss 定义在 styles.go 里，统一管理。思考块用紫色系，一眼就能跟最终回复区分开——”这是 Agent 内部的推理，不是给你的答案”：
 ```
 thinkingHeaderStyle = lipgloss.NewStyle().    Background(lipgloss.Color("#2d1b69")).    Foreground(lipgloss.Color("#a78bfa")).    Bold(true)thinkingBodyStyle = lipgloss.NewStyle().    Background(lipgloss.Color("#1e1244")).    Foreground(lipgloss.Color("#c8b8ff"))
-```
+```text
 工具调用用 GitHub 暗色主题的配色——绿色成功，红色失败，蓝色工具名：
 ```
 toolSuccessStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("#3fb950")) // ✓toolErrorStyle   = lipgloss.NewStyle().Foreground(lipgloss.Color("#f85149")) // ✗toolNameStyle    = lipgloss.NewStyle().Foreground(lipgloss.Color("#58a6ff")).Bold(true)
-```
+```text
 状态栏用深灰背景，在视觉上跟内容区拉开层次：
 ```
 statusBarStyle = lipgloss.NewStyle().    Background(lipgloss.Color("#161b22")).    Foreground(lipgloss.Color("#8b949e"))
-```
+```text
 整套配色参考了 GitHub 的暗色主题。为什么选它？因为程序员每天看得最多的页面就是 GitHub，这套颜色眼熟、不刺眼、长时间看也不累。
 ## 状态栏：一眼看清 Agent 的”血条”
 状态栏是整个 TUI 里信息密度最高的一行。
@@ -66,23 +66,23 @@ statusBarStyle = lipgloss.NewStyle().    Background(lipgloss.Color("#161b22"))
 光看设计不够直观。来看一次真实的运行记录，和上一篇 Skill 那篇是同一个任务——分析 Union 字段值。Agent 启动
 ```
 [MCP] Connected to "unionplus_mcp_normal" (9 tools)[Skills] Loaded 4 skill(s)
-```
+```text
 简洁，连上了 MCP，加载了 Skill，准备好了。用户输入问题
 ```
 You: 分析 Union 字段值, 视图ID 2003, 主键key mzc002009g0nh88, 字段 type_name
-```
+```text
 用户消息蓝色加粗，跟后续 Agent 内容一眼就能区分。思考块出现
 ![image](./images/article-07/006.png)
 紫色背景整块呈现，标题行带着耗时。LLM 的推理过程完整可见——它在判断该调哪个工具，决定先加载 Skill。这种可见性太重要了。以前 Agent 思考的过程是黑盒，现在你能一行一行看到它在想什么。加载 Skill
 ```
 ✓ load_skill {"name":"union-field-trace"}  🕐 0ms   Result:  分析一个 Union 字段值的完整来源链路...  … 298 more lines
-```
+```text
 工具调用块的格式很紧凑：状态图标 + 工具名 + 参数 + 耗时。结果超出 10 行的部分折叠成 … N more lines，保持屏幕整洁。并行发起两个查询
 ![image](./images/article-07/007.png)
 两个工具并行调用，各自的耗时和结果独立展示。双 ✓ 绿色，都成功了。继续溯源，最终完成
 ```
 ✓ mcp__unionplus_mcp_normal__QuerySource {"field_name":"type_name","key":"mzc002009g0nh88","view_name":"2003"}  🕐 225ms ✓ mcp__unionplus_mcp_normal__QueryEnumValueInfo {"lib_id":"2","value":"2"}  🕐 200ms
-```
+```text
 每一步都有完整记录。底部状态栏始终可见
 ![image](./images/article-07/008.png)
 整个过程中，状态栏一直钉在屏幕底部。5471 token，2.7%，离压缩触发还远得很。

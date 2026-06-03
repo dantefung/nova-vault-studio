@@ -24,53 +24,53 @@ Skill，直译就是”技能”。但在 Agent 这个语境下，它本质上�
 这里有两个关键的设计。第一个是目录与内容分离。系统提示只放”目录”——名称加一句话描述，正文在需要时才加载。用不到的 Skill，它的 token 消耗是零。这很重要，因为 context window 是稀缺资源。第二个是 LLM 自己决定什么时候加载。不需要调用方显式指定”用哪个 Skill”，LLM 根据任务语义自己判断。这就意味着，一个通用 Agent 可以根据不同的任务，自动切换成不同的”专家模式”。
 ## 来看看代码怎么写的
 原理说完了，来看 evo-agent 里是怎么落地的。代码在 https://github.com/tiankonguse/evo-agent ，感兴趣可以对着看。先说 Skill 文件长什么样。每个 Skill 就是一个 SKILL.md 文件，放在 .evo_agent/skill/<技能名>/ 目录下。文件头是 YAML frontmatter，声明元数据：
-```
+```text
 ---name: union-field-tracedescription: 分析 Union 字段值的来源。用户输入视图名-主键-字段名，逐层溯源：字段配置 → 计算表达式解析 → QuerySource 取值 → 代入计算，最终给出完整的"值是怎么来的"分析报告。compatibility: Requires unionplus mcp.---分析一个 Union 字段值的完整来源链路，包含计算表达式解析和依赖字段值获取。## 步骤 0：解析用户输入...## 步骤 1：并行获取字段元数据和当前字段值...
 ```
 frontmatter 下面就是完整的执行指导——每一步该调什么工具、参数怎么填、结果怎么处理。全写在这一个 Markdown 文件里。再看注册和加载的逻辑。程序启动时，skills.Init() 扫描目录，把所有 SKILL.md 读进来：
-```
+```go
 func Init() {    skillsDir := filepath.Join(".evo_agent", "skill")    filepath.WalkDir(skillsDir, func(path string, d os.DirEntry, err error) error {        if d.Name() != "SKILL.md" {            return nil        }        data, _ := os.ReadFile(path)        meta, body := parseFrontmatter(string(data))        name := meta["name"]        documents[name] = skillDocument{            Manifest: SkillManifest{Name: name, Description: meta["description"]},            Body:     strings.TrimSpace(body),        }        return nil    })}
 ```
 然后 Catalog() 把所有 Skill 的名称和描述拼成一段文本，塞进系统提示：
-```
+```go
 skills.Init()if catalog := skills.Catalog(); catalog != "" {    cfg.SystemMsg += "\nSkills available:\n" + catalog +        "\nUse load_skill when a task needs specialized instructions before you act."}
 ```
 LLM 看到的系统提示末尾会多出这么几行：
-```
+```go
 Skills available:- union-field-trace: 分析 Union 字段值的来源。用户输入视图名-主键-字段名，逐层溯源...- git-commit: Best practices for writing git commit messagesUse load_skill when a task needs specialized instructions before you act.
 ```
 就这么几行，占不了多少 token，但 LLM 已经知道有哪些 Skill 可用了。最后是 load_skill 这个工具本身。它就是一个普通的内置工具，跟 bash、read_file 并列注册：
-```
+```go
 func init() {    Register(ToolDef{        Schema: anthropic.ToolParam{            Name: "load_skill",            Description: anthropic.String(                "Load the full body of a named skill into the current context. " +                    "Call this before acting on a task that needs specialized instructions.",            ),            InputSchema: GenerateSchema[loadSkillInput](),        },        Handler: func(input json.RawMessage) (string, error) {            var in loadSkillInput            json.Unmarshal(input, &in)            return skills.Load(in.Name), nil        },    })}
 ```
 skills.Load() 做的事也很简单——把完整的 Skill 文档包在 XML 标签里返回：
-```
+```go
 func Load(name string) string {    doc, ok := documents[name]    if !ok {        return fmt.Sprintf("Error: Unknown skill %q. Available skills: %s", name, knownNames())    }    return fmt.Sprintf("\n%s\n",        doc.Manifest.Name, doc.Path, doc.Body)}
 ```
 整个实现没有什么魔法。就是一个”按名字查文档，包装后返回”的工具。真正的复杂度，全在 Skill 文档本身的内容质量上。
 ## 跑一次真实的看看
 光看代码不够直观，来看一次真实的运行过程。这次用的是 union-field-trace Skill——分析 Union 字段值的完整来源链路。在此之前，这套逻辑是写死在一个专用 Agent 的系统提示里的。用了 Skill 之后，通用 Agent 直接按需加载，行为完全一致。用户的输入是这样的：
-```
+```bash
 >> 分析 Union 字段值, 视图ID 2003, 主键key mzc002009g0nh88, 字段 type_name
 ```
 然后来看 Agent 是怎么一步一步走的。首先，LLM 识别任务，加载 Skill。LLM 看了一眼任务描述，结合系统提示里的 Skill 目录，判断出这是一个字段溯源任务。它没有自己硬想，而是先把 Skill 加载进来：
-```
+```bash
 THINKING: 根据任务要求，我需要使用 union-field-trace 技能来分析字段值的来源。Tool called: load_skill$ load_skill({"name":"union-field-trace"})→  ... 完整步骤文档 ...
 ```
 Skill 文档加载完毕，LLM 现在手里有了完整的作战手册。接下来，按 Skill 指导，并行发起两个查询。Skill 第一步要求同时获取字段元数据和当前字段值。注意是并行，不是串行，这也是 Skill 里写好的：
-```
+```bash
 THINKING: 需要并行获取字段元数据（QueryViewFieldInfo）和当前字段值（QueryUnionPlus）。$ mcp__unionplus_mcp_normal__QueryViewFieldInfo({"view_name":"2003","field_name":"type_name"})→ {"c_rule":"DICT_ENUM(2, type_name)", "c_lib_id":"media_80009", ...}$ mcp__unionplus_mcp_normal__QueryUnionPlus({"view_name":"2003","key":"mzc002009g0nh88","field_name":"type_name"})→ Union value: {"type_name":"电视剧"}
 ```
 c_rule 是 DICT_ENUM(2, type_name)，这说明这是一个计算字段，依赖枚举翻译。然后，查底层原始值。Skill 的步骤 2 告诉 LLM：碰到计算表达式，要调 QuerySource 获取依赖字段在 Redis 里的原始值：
-```
+```bash
 $ mcp__unionplus_mcp_normal__QuerySource({"view_name":"2003","key":"mzc002009g0nh88","field_name":"type_name"})→ Data source value: 2 | Redis command: HGET xxx
 ```
 原始值是整数 2。Redis 里存的不是”电视剧”这三个字，而是一个枚举 ID。最后，查枚举翻译，验证推导。Skill 步骤 3 要求：有 c_lib_id 时，调 QueryEnumValueInfo 做精确验证：
-```
+```text
 $ mcp__unionplus_mcp_normal__QueryEnumValueInfo({"lib_id":"media_80009","value":"2"})→ {"c_value":"2","c_name":"2|电视剧","c_status":1}
 ```
 枚举值 2 对应”电视剧”，跟前面 QueryUnionPlus 返回的最终值完全吻合。整条链路通了。最终输出的分析报告长这样：
-```
+```text
 ## Union 字段值来源分析字段 type_name（大分类名）的值通过计算表达式 DICT_ENUM(2, type_name) 得出。底层 Redis 命令：HGET xxx存储原始值：2枚举库（media_80009）翻译：2 → 电视剧完整链路：Redis 存储枚举值 2 → 按 media_80009 枚举库翻译 → 最终展示值"电视剧"
 ```
 整个过程，LLM 严格按照 Skill 文档描述的步骤在走。并行查询、解析表达式、溯源原始值、验证枚举翻译——每一步该调什么工具、参数怎么填、结果怎么判断，都是从 Skill 文档里读来的，不是临时发挥的。这就是 Skill 的价值。把摸索出来的经验固化成可复用的工作流，下次直接用，不用重新探索。

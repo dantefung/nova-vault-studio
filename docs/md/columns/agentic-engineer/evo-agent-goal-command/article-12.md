@@ -25,7 +25,7 @@ Agent.md 是”项目的公共知识”。 它告诉 Agent：这个项目用什
 总共 40 行。没有废话。每一行都在回答一个具体的问题：怎么构建？怎么测试？有什么坑？一个好的 Agent.md 通常包含这几类信息。命令：构建、测试、部署的实际命令。不是”请参考 Makefile”，而是可以直接复制粘贴执行的完整命令。Agent 遇到最多的错误就是执行了错误的命令，把正确命令写在这里能避免大量无效尝试。架构约定：项目的核心架构约束。比如 evo-agent 里”新工具必须用 init() 自注册模式”。如果 Agent 不知道这个约定，它加新工具时可能会在 main.go 里手动注册，破坏整个代码风格的一致性。禁区：不能做什么，比”能做什么”更重要。比如”不要直接修改 generated/ 目录下的文件”、”不要在 main 分支直接 push”。Agent 没有人类的”常识”，你不明确禁止的事，它都可能去做。环境依赖：必须设置的环境变量、必须安装的工具。Agent 不会猜测你的环境配置，告诉它需要什么，它才能正确判断报错原因。
 ## 五、evo-agent 的加载机制
 Agent.md 的加载逻辑极其简单。在 main.go 里，config.Load() 之后，有这样一段代码：
-```
+```javascript
 // Load Agent.md into system prompt (if present in project root)if agentMd, err := os.ReadFile(filepath.Join(cfg.ProjectDir, "Agent.md")); err == nil {    cfg.SystemMsg += "\n\n# Project Guidance (Agent.md)\n\n" + string(agentMd)}
 ```
 就这么三行。读文件，拼进 System Prompt，完事。Agent 启动时就已经”知道”了它需要知道的一切。
