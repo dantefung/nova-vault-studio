@@ -1,6 +1,6 @@
 ---
 title: "Pensieve #5：知识图谱与生命周期"
-description: [[...]] 链接系统、Mermaid 图谱生成、EMPTY/SEEDED/ALIGNED/DRIFTED 状态机
+description: "[[...]] 链接系统、Mermaid 图谱生成、EMPTY/SEEDED/ALIGNED/DRIFTED 状态机"
 series: pensieve
 part: 5
 created: 2026-06-03
