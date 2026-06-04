@@ -1,11 +1,11 @@
 ---
-title: "殷浩详解 DDD：如何避免写流水账代码？"
+title: "殷浩详解 DDD：如何避免写流水账代码？（PDF 扫描版）"
 date: "2023-04-13"
 source: "Macaroon-Spring-Family/spring-boot-best-practice"
 original: "bizmodeling/殷浩详解 DDD：如何避免写流水账代码？.pdf"
 ---
 
-# 殷浩详解 DDD：如何避免写流水账代码？
+# 殷浩详解 DDD：如何避免写流水账代码？（PDF 扫描版）
 
 > 原文 PDF：`bizmodeling/殷浩详解 DDD：如何避免写流水账代码？.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
