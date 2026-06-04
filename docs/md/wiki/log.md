@@ -36,6 +36,12 @@ source: "llm-wiki"
 - 内容摘要：Obsidian本地知识库 + 常驻Mac + 微信/Codex Mobile/Obsidian Sync三入口 + Skill系统，四层架构实现AI持续帮我
 - 注：sources/ = 原始原文（不可变），summaries/ = 精读摘要（LLM重写），concepts/ = 提炼知识页
 
+## [2026-06-04] ingest: Auto-PPT Harness 分析
+
+- 归档 GitHub Auto-PPT 仓库至 sources/auto-ppt-harness.md
+- 内容摘要：React 代码写 PPT 的 Harness，一仓库多套 PPT，Annotated 三字段，固定 1920×1080 画布，双反馈循环（Content loop + Layout loop），28 Stars
+- 分类：products/
+
 ## [2026-06-04] ingest: LLM Wiki 产品深入分析
 
 - 归档 X 推文「登记资源：LLM Wiki」至 sources/llm-wiki-product.md
