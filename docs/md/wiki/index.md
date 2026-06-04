@@ -51,6 +51,7 @@ wiki/
 | [opencode-cc-adapter](/wiki/pages/concepts/opencode-cc-adapter) | 桥接 Claude Code 生态到 OpenCode | 插件 |
 | [oh-my-claudecode](/wiki/pages/concepts/oh-my-claudecode) | Claude Code 超集工作流框架 | skill |
 | [pensieve](/columns/agentic-engineer/pensieve) | 自增长的 AI Agent 项目知识库，四层结构化记忆 | 项目 |
+| [llm-wiki-product](/wiki/sources/llm-wiki-product) | Karpathy 方法论工程化实现，10.3k Stars 跨平台知识库 | X |
 
 ### 学习路径 (Learning Paths)
 

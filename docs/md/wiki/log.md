@@ -35,3 +35,10 @@ source: "llm-wiki"
 - 下载 6 张配图至 images/ai-local-brain/
 - 内容摘要：Obsidian本地知识库 + 常驻Mac + 微信/Codex Mobile/Obsidian Sync三入口 + Skill系统，四层架构实现AI持续帮我
 - 注：sources/ = 原始原文（不可变），summaries/ = 精读摘要（LLM重写），concepts/ = 提炼知识页
+
+## [2026-06-04] ingest: LLM Wiki 产品深入分析
+
+- 归档 X 推文「登记资源：LLM Wiki」至 sources/llm-wiki-product.md
+- 下载 3 张配图至 images/llm-wiki/（logo.jpg、overview.jpg、llm_wiki_arch.jpg）
+- 内容摘要：Karpathy 方法论工程化实现，跨平台桌面应用，两步 Chain-of-Thought 入库，4 信号知识图谱 + Louvain 社区发现，Deep Research + Chrome 剪藏，本地 HTTP API + Agent Skill，Obsidian 零迁移
+- 10.3k Stars，1.3k Forks，v0.4.19
