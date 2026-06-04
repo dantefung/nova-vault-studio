@@ -57,6 +57,8 @@ wiki/
 | [mycc-notebooklm-obsidian](/wiki/sources/mycc-notebooklm-obsidian) | Claude Code + NotebookLM + Obsidian 四层研究流水线 | X |
 | [coss-heroui](/wiki/sources/coss-heroui) | 比 shadcn/UI 更漂亮的两款 React 组件库 | X |
 | [genericagent](/wiki/sources/genericagent) | 3K 行代码自我进化 Agent，6x Token 节省，12.5k Stars | GitHub |
+| [ai-rd-automation-wiki-skill](/wiki/sources/ai-rd-automation-wiki-skill) | 阿里哥伦 AI 研发自动化：LLM-Wiki + 6 大 Skill + Harness 体系 | 微信公众号 |
+| [40-thinking-models](/wiki/sources/40-thinking-models) | 40 种顶级思维模型，按 8 大能力模块组织（学习/思考/创造/设计/共情/故事/领导/整合） | 掘金 |
 
 ### 学习路径 (Learning Paths)
 
