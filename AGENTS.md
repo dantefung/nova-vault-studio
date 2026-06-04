@@ -141,7 +141,29 @@ npm run preview   # 预览构建产物
 
 ## LLM Wiki 约定
 
-本项目使用 `llm-wiki` 模式维护知识库，采用四层架构：
+本项目使用 `llm-wiki` 模式维护知识库，采用四层架构。
+
+### 稍后读 (Read Later)
+
+**触发词**：「稍后读」「先记下来」「mark for later」「回头看」。
+
+**轻量性质**：用户说"稍后读"= **只记链接**，**不要抓全文到 Downloads**，**不要**走 wiki-ingest 完整流程。
+
+**文件**：`docs/md/wiki/read-later/index.md`——按平台分类追加一行，**绝不单独建文件**。
+
+**格式**（微信公众号分类下）：
+
+```markdown
+| YYYY-MM-DD | https://mp.weixin.qq.com/s/xxx | **标题**：一句话摘要 + 关键洞察 + 跟本仓哪条概念链接 |
+```
+
+- 日期：当天 `YYYY-MM-DD`
+- 摘要：3-5 个粗体关键词，1-2 句话讲核心
+- 交叉引用：跟现有 wiki 概念（`[[llm-wiki]]` 等）的关联顺手标注
+
+**升级路径**：如果用户后续说「入库」「归档到仓库」「走完整流程」，再触发 `/wiki-ingest-article`——sources → summaries → concepts → index/log 更新。
+
+**反例**（INFP 常见陷阱：理想化预期、过度打磨）：不要"为了以防万一先抓全文存到 Downloads"——除非用户明确说"抓全文"或"入库"。
 
 ### 四层结构
 
@@ -164,12 +186,13 @@ artifacts/
 **artifacts 入口**：写完发布到专栏时，同步复制一份到 `wiki/artifacts/articles/`。
 不是采集归档，是**创作产出物**。
 
-### 两条归档路径
+### 三条归档路径（含稍后读）
 
-| 路径 | 触发 | 目的地 |
-|------|------|--------|
-| 采集归档 | `/wiki-ingest-article` | `sources/` → `summaries/` → `concepts/` |
-| 创作发布 | 写完发布到专栏时 | 同时写一份到 `artifacts/articles/` |
+| 路径 | 触发 | 目的地 | 重量 |
+|------|------|--------|------|
+| 稍后读 | "稍后读"/"先记下来" | `wiki/read-later/index.md` 追加一行 | ⚡ 极轻（只记链接） |
+| 采集归档 | `/wiki-ingest-article` | `sources/` → `summaries/` → `concepts/` | 🔥 重（精读+配图+概念页） |
+| 创作发布 | 写完发布到专栏时 | 同时写一份到 `artifacts/articles/` | 中 |
 
 ### Wiki 目录
 
