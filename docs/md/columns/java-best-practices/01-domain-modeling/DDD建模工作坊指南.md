@@ -1,11 +1,11 @@
 ---
-title: "DDD 建模工作坊指南"
+title: "DDD 建模工作坊指南（PDF 扫描版）"
 date: "2023-04-13"
 source: "Macaroon-Spring-Family/spring-boot-best-practice"
 original: "bizmodeling/DDD建模工作坊指南.pdf"
 ---
 
-# DDD 建模工作坊指南
+# DDD 建模工作坊指南（PDF 扫描版）
 
 > 原文 PDF：`bizmodeling/DDD建模工作坊指南.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 

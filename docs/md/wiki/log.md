@@ -48,6 +48,28 @@ source: "llm-wiki"
 - 内容摘要：Anthropic 官方 Claude 使用菜谱，Jupyter Notebook 示例，44.9k Stars，涵盖 Tool Use、RAG、Multi-modal、Prompt Caching 等
 - 分类：resources/
 
+## [2026-06-04] ingest: AI 研发自动化 Wiki+Skill 包
+
+- 归档公众号《AI研发自动化：Wiki知识库+技能包》至 sources/ai-rd-automation-wiki-skill.md
+- 32 张配图本地化至 images/ai-rd-automation-wiki-skill/（3MB）
+- 精读摘要写入 summaries/ai-rd-automation-wiki-skill.md
+- 知识提炼写入 concepts/ai-rd-automation-wiki-skill.md（与 [[llm-wiki]]/[[harness-engineering]]/[[ai-local-brain]] 关联）
+- 内容摘要：阿里哥伦实战——LLM-Wiki + 6 大领域 Skill（写方案/写代码/评审/测试/答疑/排障）+ Harness 规则体系（门禁/编排/护栏/回滚），目标"用户给 PRD，剩下全交给 agent"
+- AGENTS.md 同步新增"稍后读"流程规范（触发词/文件/格式/反例）
+
+## [2026-06-04] ingest: 40 种顶级思维模型
+
+- 归档掘金《40种顶级思维模型》至 sources/40-thinking-models.md
+- 41 张配图本地化至 images/40-thinking-models/（1MB）
+- 内容摘要：40 个模型分 8 大能力模块（学习力 6/思考力 4/创造力 5/设计力 5/共情力 5/故事力 5/领导力 5/整合力 5），每个给"一句话应用"
+- 分类：思维模型/
+
+## [2026-06-04] fix: sidebar.js extractTitle 读取 frontmatter title
+
+- P0 修复：`docs/.vitepress/sidebar.js` 的 `extractTitle()` 改为优先读 frontmatter title，其次 H1，最后 fallback 文件名
+- 影响：22/47 个无 H1 文件的侧边栏标题立刻显示 frontmatter 工整标题（如 `(第二章 抽象）.md` → `(第二章 抽象）`）
+- 待办：P1 清理 4 组同名重复文件 + P2 命名规范化
+
 ## [2026-06-04] ingest: MyCC AI 研究机器（四层架构）
 
 - 归档 X 推文「MyCC」至 sources/mycc-notebooklm-obsidian.md

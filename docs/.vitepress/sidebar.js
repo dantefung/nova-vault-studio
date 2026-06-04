@@ -30,8 +30,14 @@ function readMarkdownFiles(dir, parentPath = '') {
 
 function extractTitle(filePath) {
     const content = fs.readFileSync(filePath, 'utf8');
-    const titleMatch = content.match(/^#\s+(.*)/m);
-    return titleMatch ? titleMatch[1] : path.basename(filePath, '.md');
+    // 优先级：frontmatter title > 首个 H1 > 文件名
+    const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
+    if (fmMatch) {
+        const titleMatch = fmMatch[1].match(/^title:\s*["']?(.+?)["']?\s*$/m);
+        if (titleMatch) return titleMatch[1].trim();
+    }
+    const h1Match = content.match(/^#\s+(.*)/m);
+    return h1Match ? h1Match[1] : path.basename(filePath, '.md');
 }
 
 function compareByText(a, b) {

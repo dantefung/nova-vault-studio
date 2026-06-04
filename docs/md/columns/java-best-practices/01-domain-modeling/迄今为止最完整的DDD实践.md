@@ -1,11 +1,11 @@
 ---
-title: "迄今为止最完整的 DDD 实践"
+title: "迄今为止最完整的 DDD 实践（PDF 扫描版）"
 date: "2023-04-13"
 source: "Macaroon-Spring-Family/spring-boot-best-practice"
 original: "bizmodeling/迄今为止最完整的DDD实践.pdf"
 ---
 
-# 迄今为止最完整的 DDD 实践
+# 迄今为止最完整的 DDD 实践（PDF 扫描版）
 
 > 原文 PDF：`bizmodeling/迄今为止最完整的DDD实践.pdf`（整页扫描，文字层缺失，已按页渲染为图片）
 
