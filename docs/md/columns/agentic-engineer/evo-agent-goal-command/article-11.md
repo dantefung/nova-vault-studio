@@ -34,15 +34,15 @@ Auto Memory，直译是”自动记忆”。核心思想用一句话概括：让
 对大多数本地 Agent 来说，纯文件方案是起步的最优选。简单、透明、用户可控。等真正遇到瓶颈了，再往结构化方向演进也不迟。
 ## 七、业界设计思路
 业界的 Auto Memory 采用文件存储 + 索引注入的方案。存储结构。 在项目目录下的 .evo-agent/ 里，新建一个 memory/ 子目录。核心是一个 MEMORY.md 索引文件，加上若干具体的记忆详情文件：
-```
+```text
 .evo-agent/├── memory/│   ├── MEMORY.md              # 索引文件（启动时注入）│   ├── user.md                # 详情：用户信息│   └── current_year.md        # 详情：当前年份├── mcp.json├── skill/└── command/
 ```
 MEMORY.md 是索引，记录每个详情文件的名称和一句话描述。启动时只注入这个文件的内容，控制 token 用量。其他 .md 文件是具体的记忆详情，带有 YAML frontmatter 元数据和正文内容。当 Agent 在工作中需要深入了解某条记忆时，可以通过 read_file 工具去读取对应的详情文件。索引文件大致长这样：
-```
+```text
 - [User](user.md) — Information about the user's name, interests, and birth year.- [Current Year](current_year.md) — The current year is 2026.
 ```
 每个条目是一个 Markdown 链接加上一句话描述。Agent 看到索引就知道有哪些知识可用，需要具体内容时再去读对应文件。详情文件的结构是 YAML frontmatter 加正文：
-```
+```text
 ---name: userdescription: Information about the user, including name, interests, and birth year.type: user---### User NameThe user's name is 天空柚子.### User InterestsThe user enjoys rock climbing.### User Birth YearThe user was born in 1990.
 ```
 frontmatter 里的 type 字段区分记忆类别：project 是项目知识，user 是用户偏好。所有文件都是纯 Markdown，用户可以随时打开编辑器查看和修改。写入方式。 通过一个 remember 工具触发，也支持 /remember 命令。用户对 Agent 说”记住：构建命令是 make build”，Agent 调用 remember 工具。工具会做两件事：创建一个带 frontmatter 的详情文件，然后在 MEMORY.md 索引里注册这条记忆。

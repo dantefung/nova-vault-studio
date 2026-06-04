@@ -15,7 +15,7 @@ url: "https://quantumentangled.dev/viewpost/11/whats-actually-inside-an-ai-agent
 
 作者想穿过 AI Agent 的炒作，弄清楚当一个应用开始运行 Agent 时，到底发生了什么变化。于是用伪代码先画了草图，读了奠定当前生产 Agent 的几篇论文，再跟主流 Agent 对话补齐细节，最终落到下图：
 
-![ReAct 伪代码](images/simple-react-agent-loop/pseudo-code.png)
+![ReAct 伪代码](../images/simple-react-agent-loop/pseudo-code.png)
 
 这个循环非常简单——也因此有些脆弱。跑小本地模型时会答错，而且只要其中一步出错，整条链就会被污染。
 

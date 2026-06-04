@@ -22,17 +22,17 @@ author: "袁小康"
 子代理设计里有几个关键约束，值得单独说。约束一：子代理不能再派生子代理。如果子代理也能调 task 工具，就会形成递归派生，深度难以控制，计费和调试都会变得非常麻烦。evo-agent 的解法是：子代理使用的工具列表里，直接排除了 task 工具。约束二：上下文完全隔离。子代理从空的 messages=[] 开始，看不到父代理的历史对话。、它只知道当前这个子任务的 prompt，不知道父代理正在做什么大任务。这是有意为之——子代理只需要做好自己的一件事。约束三：共享文件系统，不共享 LLM 上下文。子代理可以读写文件、执行命令，对文件系统的操作是真实的。但对话历史是完全独立的两份。约束四：只返回摘要。子代理的工具调用结果、中间 text block，都只在子代理内部流转。父代理只收到子代理最后输出的那段文字。这是”上下文不污染”的核心保证。
 ## 四、工程难点：如何避免循环依赖
 在实现上，子代理有一个工程层面的挑战。evo-agent 的代码结构是这样的：
-```
+```javascript
 main.go  └── agent 包（Loop, RunSubagent）        └── tools 包（Register, Dispatch, Execute）
 ```
 agent 包 import 了 tools 包。task 工具的逻辑是：收到调用 → 派发给子代理。但子代理的实现在 agent 包里，不在 tools 包里。如果 tools 包要调用 agent.RunSubagent()，就需要 import agent 包。这就形成了循环依赖：agent → tools → agent，Go 编译器直接拒绝。
 ![image](./images/article-09/003.png)
 解法是注册回调函数，把依赖方向彻底反转。tools 包只持有一个函数变量，具体实现由外部注入：
-```
+```javascript
 // tools/task.govar subagentRunner func(prompt string) stringfunc RegisterSubagentRunner(fn func(prompt string) string) {    subagentRunner = fn}
 ```
 agent 包在初始化时，把自己的 RunSubagent 方法注入进去：
-```
+```javascript
 // agent/loop.gofunc New(client *anthropic.Client, cfg *config.Config) *Agent {    a := &Agent{client: client, cfg: cfg}    tools.RegisterSubagentRunner(func(prompt string) string {        return a.RunSubagent(prompt)    })    return a}
 ```
 依赖方向现在是：agent → tools（单向），循环消除。
@@ -40,23 +40,23 @@ agent 包在初始化时，把自己的 RunSubagent 方法注入进去：
 这个模式在 evo-agent 里不是第一次用了。GlobalTodo（上一篇 TODO 工具）也是同样的包级变量 + 外部初始化模式。Go 语言里这是解决循环依赖的常规手段，和标准库的 http.HandleFunc 是一个思路。
 ## 五、task 工具的实现
 task 工具的接口设计很简洁：
-```
+```json
 type TaskInput struct {    Prompt      string `json:"prompt"`      // 完整的子任务描述    Description string `json:"description"` // 单行摘要，显示在 UI 里}
 ```
 父代理调用 task 时，只需要告诉子代理”去做什么”。description 字段是给用户看的，显示在 UI 的工具调用面板里，让用户知道当前派发的是什么任务。工具处理函数非常简单，直接把 prompt 转发给注册的 runner：
-```
+```json
 Handler: func(input json.RawMessage) (string, error) {    var in TaskInput    if err := json.Unmarshal(input, &in); err != nil {        return "", err    }    if subagentRunner == nil {        return "Error: subagent runner not initialized", nil    }    return subagentRunner(in.Prompt), nil},
 ```
 ## 六、RunSubagent：子代理的执行流程
 子代理的核心逻辑在 agent/subagent.go 的 RunSubagent 方法里。
 ![image](./images/article-09/005.png)
 几个关键实现细节。全新的 messages。子代理从 []anthropic.MessageParam 开始，和父代理的历史完全无关。排除 task 工具。子代理使用 tools.ToolsExcept("task") 获取工具列表，task 工具不在其中，彻底切断递归派生的可能。最多 30 轮。防止子代理陷入死循环。30 轮足够完成大多数探索型任务。返回最后一个 text block。子代理的所有 text 输出都只显示在日志里（带 [subagent] 前缀），最终返回给父代理的只有最后一段文字。如果子代理没有输出任何文字，返回 "(no summary)"。子代理的 UI 输出有专门的 [sub] 前缀，方便在 TUI 日志里区分哪些是主代理的、哪些是子代理的：
-```
+```json
 [subagent turn 1 | tool_use][sub] read_file({"path": "src/main.go"})[subagent turn 2 | end_turn][subagent] 分析完成：main.go 中的瓶颈在于...
 ```
 ## 七、父代理的 context 为什么能保持干净
 整个流程走完，父代理的 messages 里只多了两条记录：
-```
+```json
 [assistant]: tool_use { name: "task", input: { prompt: "...", description: "..." } }[user]:      tool_result { id: "...", content: "摘要：..." }
 ```
 子代理探索过程中产生的几十条 messages——所有的文件读取、命令执行、中间分析——全部在 RunSubagent 函数栈里，函数返回后直接被 GC 回收。父代理的 context 增量是固定的：一条 tool_use + 一条 tool_result（摘要文字）。不管子代理跑了多少轮、读了多少文件，对父代理的影响都是一样的。

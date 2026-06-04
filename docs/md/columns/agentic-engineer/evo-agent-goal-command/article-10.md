@@ -26,7 +26,7 @@ Skill 和 Command 的关系，可以类比遥控器和声控。Skill 是声控�
 关键在于：Command 的内容不是直接展示给用户的，而是注入到 LLM 的上下文里，让 LLM 按照其中描述的步骤去执行。这和传统 CLI 工具的 command 不太一样。传统 CLI 里，/help 是程序自己处理，直接打印帮助文本。Agent 里的 /help 是把”帮助文档的生成指令”交给 LLM，让 LLM 根据当前状态生成定制化的帮助。这意味着 Command 本质上是一种对 LLM 行为的确定性调度——用户确定要执行这个工作流，但工作流的具体执行仍然由 LLM 驱动。
 ## 四、evo-agent 的实现思路
 evo-agent 的做法很巧妙：Command 和 Skill 共用同一套基础设施，只在注册来源和可见性上做区分。文件存放位置不同。Skill 放在 .evo-agent/skill/<名称>/SKILL.md，带子目录结构。Command 放在 .evo-agent/command/<名称>.md，扁平的单文件。Command 文件的结构和 Skill 完全一致，同样是 YAML frontmatter 加 Markdown 正文：
-```
+```text
 ---name: helloargument-hint: [name]arguments: nameuser-invocable: true---Say hello to $name in a friendly way.
 ```
 启动时，Init() 先加载所有 Skill，然后调用 InitCommands() 扫描 command 目录。两者分别存入独立的 map，互不干扰。Dispatch 是整个机制的入口。它做的事情很简单：判断用户输入是否以 / 加字母开头，如果是就当作斜杠命令处理。为了避免误伤文件路径（比如 /usr/bin/env），它还检查名称里是否包含 /。查找顺序是 Command 优先于 Skill。如果同名的 Command 和 Skill 都存在，斜杠调用走 Command 的版本。这让用户可以用 Command “覆盖”某个 Skill 的行为，实现个性化定制。参数替换是锦上添花。Command 的正文里可以使用 $name、$0、$ARGUMENTS 这样的占位符。用户输入 /hello World 时，$name 被替换为 World，最终注入 LLM 的内容就是渲染后的完整指令。整个流程在 main.go 的 agent 协程里，只有几行代码：

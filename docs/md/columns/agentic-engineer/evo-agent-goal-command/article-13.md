@@ -13,7 +13,7 @@ author: "袁小康"
 ![image](./images/article-13/001.png)
 ## 一、从一行到一百行
 第三篇文章里，evo-agent 的系统提示词只有一行：
-```
+```text
 You are a coding agent at ${cwd}.
 ```
 就这么一句话，告诉 LLM “你是谁”和”你在哪”。当时这就够了。Agent 只有 bash 和文件操作几个工具，行为简单，不需要太多约束。但随着功能越加越多——Skill 系统、Todo 规划、Subagent、Auto Memory、Agent.md——一个问题逐渐暴露出来。Agent 开始”犯规”了。它会在不该创建文件的时候创建文件。会在简单任务上过度设计。会输出一大段废话再开始干活。会忽略已有的 Skill 去重新发明轮子。原因很简单：你没告诉它规矩，它就只能靠猜。就像招了一个极其聪明但毫无行业经验的新人。你不给他规范，他就按自己的理解来——往往聪明反被聪明误。于是，System Prompt 从一行代码，逐渐演化成了一个多段落、多来源、分层组装的架构。
@@ -40,7 +40,7 @@ Intro（身份定义） 是最短也最核心的一段。告诉 LLM “你是�
 Agent.md 排在动态区最前面。它在启动时一次性读入，会话过程中不会变化。虽然内容固定，但它属于”项目维度”的知识——换一个项目就完全不同，所以不能放进静态缓存区。PS：如前文所说，Claude Code 的 CLAUDE.md 并不在 System Prompt 中，而是作为用户上下文的最顶部注入的。Skills Catalog 从 .evo-agent/skill/ 目录扫描而来。每个 Skill 只展示名称和一行描述，不展示完整内容——完整内容要等 Agent 调用 load_skill 工具时才按需加载。这是一种”目录式”设计：先给 Agent 看菜单，它点菜了再上正文。和 Agent.md 一样，启动后固定。Memories 是持久记忆系统的输出。LoadPrompt() 方法会把 .evo-agent/memory/ 目录下所有记忆条目格式化为一段文本。如果用户在会话中新增了记忆（通过 /remember），下一次 Build 就能带上最新的。这是动态区里真正会”变”的部分。Environment 是纯实时信息——工作目录、是否在 Git 仓库内、操作系统、Shell 类型、当前日期、使用的模型名称。这些信息让 Agent 对当前运行环境有基本感知，不至于在执行操作时”睁眼瞎”。比如知道工作目录在哪，构造文件路径时就不会迷失方向；知道当前日期，处理时间相关的任务就能给出准确判断。
 ## 七、从 Builder 到 API 调用
 最后看一下 System Prompt 是怎么被使用的。在 agent/loop.go 的主循环里，每一轮 LLM 调用前，都会重新 Build：
-```
+```javascript
 // agent/loop.go — Loop() 内部resp, err := a.client.Call({    Model: a.cfg.ModelID,    System: a.prompt.Build(),    Messages:  state.Messages,    Tools:     tools.Tools(),    MaxTokens: 8000,})
 ```
 注意三件事。第一，System 字段和 Messages 字段是完全独立的。System Prompt 不在 messages 数组里，不会被上下文压缩影响。不管对话历史被压缩了多少轮，Agent 的”行为规范”始终完整保留。第二，每一轮都重新调用 Build()，而不是复用上一轮的结果。这保证了动态 Section（尤其是 Memory）始终是最新的。第三，Tools 也是每次都传的。工具的 Schema 和描述本身也是一种”隐性 Prompt”——LLM 靠它们决定什么时候用什么工具。Tool Schema 加上 System Prompt，共同构成了 Agent 的完整”世界观”。

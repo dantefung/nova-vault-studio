@@ -22,7 +22,7 @@ MCP，全称 Model Context Protocol，是 Anthropic 在 2024 年底推出的一
 有了 MCP，Agent 的工具生态就从”自己写、自己维护”，变成了”任何人都可以发布 MCP Server，Agent 接入即用”。这是一个质的变化。
 ## 三、底层通信：JSON-RPC 2.0
 聊完了”是什么”，来看看它底下是怎么跑的。MCP 的底层通信协议是 JSON-RPC 2.0。这东西非常轻量。每条消息就是一个 JSON 对象，通过 method 字段声明调用什么方法，通过 params 字段传参数，通过 result 字段返回结果。长什么样呢？看一眼就明白了：
-```
+```javascript
 // 请求（Client → Server）{  "jsonrpc": "2.0",  "id": 1,  "method": "tools/call",  "params": {    "name": "QueryUnionPlus",    "arguments": {      "view_name": "2003",      "key": "mzc002009g0nh88",      "field_name": "title"    }  }}// 响应（Server → Client）{  "jsonrpc": "2.0",  "id": 1,  "result": {    "content": [      {        "type": "text",        "text": "Union value: {\"title\":\"主角\"}"      }    ]  }}
 ```
 就这么简单，一来一回。MCP 在这套基础上，定义了三个核心方法：initialize，握手。Client 和 Server 互相确认协议版本和能力。tools/list，工具发现。Client 拉取 Server 提供的所有工具列表及参数格式。tools/call，工具调用。Client 发起具体的工具请求，Server 执行并返回结果。整个连接的生命周期，画出来是这样的：
@@ -30,15 +30,15 @@ MCP，全称 Model Context Protocol，是 Anthropic 在 2024 年底推出的一
 先握手，再拿工具列表，然后就可以按需调用了。逻辑非常清晰。
 ## 四、三种传输方式
 JSON-RPC 消息需要一个”管道”来传输。MCP 规范定义了三种传输方式，适用于不同的部署场景。第一种，stdio（标准输入输出）。最简单的方式。Client 把 Server 当作一个子进程启动，通过进程的标准输入和标准输出传递 JSON-RPC 消息。
-```
+```json
 Client ──stdin──→ Server 子进程Client ←─stdout── Server 子进程
 ```
 适合本地工具，比如文件系统操作、代码执行等场景。Server 就是一个可执行文件。第二种，SSE（Server-Sent Events）。基于 HTTP 长连接。Client 向 Server 发起一个 GET 请求，建立一条持久的 SSE 推送流；同时通过 POST 发送请求消息；Server 的响应通过 SSE 流推回来。
-```
+```json
 Client ──POST──→ Server（发请求）Client ←─SSE─── Server（收响应，持久连接）
 ```
 适合远程 Server，需要维护一条持久连接。第三种，streamableHttp（可流式 HTTP）。更简单的远程方案。每次调用都是一个独立的 HTTP POST 请求，Server 可以直接返回 JSON 响应，也可以用 SSE 格式返回流式内容。
-```
+```json
 Client ──POST──→ Server（每次独立请求）Client ←─JSON── Server（或 SSE 流）
 ```
 适合无状态的远程服务，对 Server 部署要求最低。
@@ -46,21 +46,21 @@ Client ──POST──→ Server（每次独立请求）Client ←─JSON─
 三种方式，覆盖了从本地到远程、从有状态到无状态的所有场景。按需选择就行。
 ## 五、evo-agent 怎么实现的
 了解了协议本身，来看看 evo-agent 是怎么落地的。evo-agent 目前已经实现了五个核心模块：Loop（Agent 主循环）、Tools（工具注册与调用）、Prompts（系统提示管理）、Context Compact（上下文压缩）、MCP（外部工具）。代码：https://github.com/tiankonguse/evo-agent先说配置。配置文件。MCP Server 的配置统一放在 .evo_agent/mcp.json 里：
-```
+```json
 {  "mcpServers": {    "unionplus_mcp_normal": {      "type": "streamableHttp",      "url": "https://example.com/mcp",      "headers": {        "Authorization": "Bearer ",        "other_header": "xxx"      },      "disabled": false    }  }}
 ```
 每个 Server 有一个名字，配置里指定传输类型、连接地址和认证信息。disabled: true 可以临时关闭某个 Server，不用删配置。对应的 Go 结构体长这样：
 ![image](./images/article-05/006.png)
 统一接口。三种传输方式的内部实现完全不同，但对外暴露的是同一套接口：
-```
+```text
 type mcpClient interface {    getTools() []mcpToolSpec    callTool(toolName string, arguments json.RawMessage) (string, error)    stop()}
 ```
 mcpProcess（stdio）、mcpHTTPClient（streamableHttp）、mcpSSEClient（SSE）分别实现这个接口。上层代码完全不感知传输细节，只需要调 callTool。这个设计其实就是经典的策略模式——底层实现随便换，上层调用完全透明。工具命名与路由。这里有个小巧思。MCP 工具在 Agent 侧有一套固定的命名规则：
-```
+```text
 mcp__{服务器名}__{工具名}
 ```
 比如 mcp__unionplus_mcp_normal__QueryUnionPlus。这个前缀有两个用途。第一，让 Agent 知道这是一个 MCP 工具，跟内置工具区分开来。第二，携带了路由信息。调用时只需要按 __ 分割，就能知道该把请求转发给哪个 Server。路由代码写出来就这几行：
-```
+```text
 func DispatchMCP(name string, input json.RawMessage) (string, error) {    rest := strings.TrimPrefix(name, "mcp__")    sep := strings.Index(rest, "__")    serverName := rest[:sep]    toolName := rest[sep+2:]    client := mcpServers[serverName]    return client.callTool(toolName, input)}
 ```
 信息藏在名字里，不需要额外的映射表。启动流程。程序启动时，InitMCP() 负责加载配置、连接所有 Server、拉取工具列表：
