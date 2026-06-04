@@ -42,6 +42,12 @@ source: "llm-wiki"
 - 内容摘要：React 代码写 PPT 的 Harness，一仓库多套 PPT，Annotated 三字段，固定 1920×1080 画布，双反馈循环（Content loop + Layout loop），28 Stars
 - 分类：products/
 
+## [2026-06-04] ingest: Claude Cookbooks 官方菜谱集
+
+- 归档 GitHub claude-cookbooks 至 sources/claude-cookbooks.md
+- 内容摘要：Anthropic 官方 Claude 使用菜谱，Jupyter Notebook 示例，44.9k Stars，涵盖 Tool Use、RAG、Multi-modal、Prompt Caching 等
+- 分类：resources/
+
 ## [2026-06-04] ingest: LLM Wiki 产品深入分析
 
 - 归档 X 推文「登记资源：LLM Wiki」至 sources/llm-wiki-product.md

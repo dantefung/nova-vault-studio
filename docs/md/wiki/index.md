@@ -53,6 +53,7 @@ wiki/
 | [pensieve](/columns/agentic-engineer/pensieve) | 自增长的 AI Agent 项目知识库，四层结构化记忆 | 项目 |
 | [llm-wiki-product](/wiki/sources/llm-wiki-product) | Karpathy 方法论工程化实现，10.3k Stars 跨平台知识库 | X |
 | [auto-ppt-harness](/wiki/sources/auto-ppt-harness) | React 代码写 PPT 的 Harness，双反馈循环驱动 | GitHub |
+| [claude-cookbooks](/wiki/sources/claude-cookbooks) | Anthropic 官方 44.9k Stars 菜谱集，Jupyter Notebook 示例 | GitHub |
 
 ### 学习路径 (Learning Paths)
 
