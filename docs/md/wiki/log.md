@@ -48,6 +48,18 @@ source: "llm-wiki"
 - 内容摘要：Anthropic 官方 Claude 使用菜谱，Jupyter Notebook 示例，44.9k Stars，涵盖 Tool Use、RAG、Multi-modal、Prompt Caching 等
 - 分类：resources/
 
+## [2026-06-04] ingest: MyCC AI 研究机器（四层架构）
+
+- 归档 X 推文「MyCC」至 sources/mycc-notebooklm-obsidian.md
+- 内容摘要：Claude Code + NotebookLM + Obsidian 四层研究流水线，执行层/定制层/分析层/记忆层，30 分钟搭建，越用越懂你
+- 分类：patterns/
+
+## [2026-06-04] ingest: COSS UI + HeroUI 组件库对比
+
+- 归档 X 推文「两个比 shadcn/UI 更漂亮的组件库」至 sources/coss-heroui.md
+- 内容摘要：COSS UI（Base UI，简洁考究，484 Particles）+ HeroUI（React Aria，色彩鲜艳，theme 丰富，MCP + Agent Skills）
+- 分类：products/
+
 ## [2026-06-04] ingest: LLM Wiki 产品深入分析
 
 - 归档 X 推文「登记资源：LLM Wiki」至 sources/llm-wiki-product.md
