@@ -66,3 +66,9 @@ source: "llm-wiki"
 - 下载 3 张配图至 images/llm-wiki/（logo.jpg、overview.jpg、llm_wiki_arch.jpg）
 - 内容摘要：Karpathy 方法论工程化实现，跨平台桌面应用，两步 Chain-of-Thought 入库，4 信号知识图谱 + Louvain 社区发现，Deep Research + Chrome 剪藏，本地 HTTP API + Agent Skill，Obsidian 零迁移
 - 10.3k Stars，1.3k Forks，v0.4.19
+
+## [2026-06-04] ingest: GenericAgent 自我进化 Agent 框架
+
+- 归档 GitHub GenericAgent 至 sources/genericagent.md
+- 内容摘要：3K 行种子代码，9 原子工具，~100 行 Agent Loop，5 层记忆系统，自主固化为 Skill，6x Token 节省，12.5k Stars
+- 分类：concepts/

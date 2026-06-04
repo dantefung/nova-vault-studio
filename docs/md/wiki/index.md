@@ -56,6 +56,7 @@ wiki/
 | [claude-cookbooks](/wiki/sources/claude-cookbooks) | Anthropic 官方 44.9k Stars 菜谱集，Jupyter Notebook 示例 | GitHub |
 | [mycc-notebooklm-obsidian](/wiki/sources/mycc-notebooklm-obsidian) | Claude Code + NotebookLM + Obsidian 四层研究流水线 | X |
 | [coss-heroui](/wiki/sources/coss-heroui) | 比 shadcn/UI 更漂亮的两款 React 组件库 | X |
+| [genericagent](/wiki/sources/genericagent) | 3K 行代码自我进化 Agent，6x Token 节省，12.5k Stars | GitHub |
 
 ### 学习路径 (Learning Paths)
 
