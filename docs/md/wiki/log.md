@@ -72,3 +72,9 @@ source: "llm-wiki"
 - 归档 GitHub GenericAgent 至 sources/genericagent.md
 - 内容摘要：3K 行种子代码，9 原子工具，~100 行 Agent Loop，5 层记忆系统，自主固化为 Skill，6x Token 节省，12.5k Stars
 - 分类：concepts/
+
+## [2026-06-04] ingest: DDD Harness Microservices 样板
+
+- 归档 GitHub ddd-harness-microservices 至 sources/ddd-harness-microservices.md
+- 内容摘要：Java 11 / Spring Boot + Vite / Vue 3 全栈，DDD 四层架构（adapter/application/domain/infrastructure），service-bff + service-base + service-domain-demo
+- 分类：patterns/

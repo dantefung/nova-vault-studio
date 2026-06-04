@@ -57,6 +57,7 @@ wiki/
 | [mycc-notebooklm-obsidian](/wiki/sources/mycc-notebooklm-obsidian) | Claude Code + NotebookLM + Obsidian 四层研究流水线 | X |
 | [coss-heroui](/wiki/sources/coss-heroui) | 比 shadcn/UI 更漂亮的两款 React 组件库 | X |
 | [genericagent](/wiki/sources/genericagent) | 3K 行代码自我进化 Agent，6x Token 节省，12.5k Stars | GitHub |
+| [ddd-harness-microservices](/wiki/sources/ddd-harness-microservices) | Java/Spring Boot DDD 四层架构微服务样板 | GitHub |
 
 ### 学习路径 (Learning Paths)
 
