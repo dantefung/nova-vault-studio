@@ -112,3 +112,4 @@ graph TD
 - [08-01 优质提示词库](./08-07-resources/08-01-prompt-libraries.md) — 收录各平台优质提示词集合
 - [08-02 提示词工具](./08-07-resources/08-02-prompt-tools.md) — 调试、优化、版本管理工具
 - [08-03 论文与博客](./08-07-resources/08-03-papers-blogs.md) — 必读论文与技术博客精选
+- [提示词的道与术 PPT](./ppt-how-to-write-prompt/index.md) — 30分钟把13份资料压成22页 · Swiss · IKB 风格
