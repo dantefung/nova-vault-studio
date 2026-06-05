@@ -15,25 +15,25 @@ original: "DDD上下文映射.pdf"
 
 ### 第 1 页 — p01.png
 
-![p01.png](images/DDD上下文映射/p01.png)
+<!-- TODO: missing image -->
 
 ### 第 2 页 — p02.png
 
-![p02.png](images/DDD上下文映射/p02.png)
+<!-- TODO: missing image -->
 
 ### 第 3 页 — p03.png
 
-![p03.png](images/DDD上下文映射/p03.png)
+<!-- TODO: missing image -->
 
 ### 第 4 页 — p04.png
 
-![p04.png](images/DDD上下文映射/p04.png)
+<!-- TODO: missing image -->
 
 ### 第 5 页 — p05.png
 
-![p05.png](images/DDD上下文映射/p05.png)
+<!-- TODO: missing image -->
 
 ### 第 6 页 — p06.png
 
-![p06.png](images/DDD上下文映射/p06.png)
+<!-- TODO: missing image -->
 
