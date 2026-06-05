@@ -116,7 +116,7 @@ docs/md/{分类}/{子目录}/images/{文章英文名}/{图片文件}
 ### 目标位置
 
 ```
-docs/md/{分类}/{专栏}/ppt-{英文简称}/
+docs/md/slides/ppt-{英文简称}/
 ├── index.html          ← 原始 HTML（verbatim）
 ├── index.md            ← VitePress 入口（必建）
 └── images/             ← 引用的图片（如有）
@@ -125,21 +125,21 @@ docs/md/{分类}/{专栏}/ppt-{英文简称}/
 ```
 
 - 目录命名：`ppt-` 前缀 + 英文 kebab-case（如 `ppt-how-to-write-prompt`）
-- 放在对应专栏目录下，与 `.md` 文章同级
+- 放在 `docs/md/slides/` 专用目录下，按主题分类
 
 ### 操作步骤
 
 ```bash
 # 1. 创建目录
-mkdir -p docs/md/{分类}/{专栏}/ppt-{英文名}/images
+mkdir -p docs/md/slides/ppt-{英文名}/images
 
 # 2. 复制文件
-cp {源}/index.html docs/md/{分类}/{专栏}/ppt-{英文名}/
-cp {源}/images/*.png docs/md/{分类}/{专栏}/ppt-{英文名}/images/
+cp {源}/index.html docs/md/slides/ppt-{英文名}/
+cp {源}/images/*.png docs/md/slides/ppt-{英文名}/images/
 
 # 3. 创建 index.md（见下方模板）
 
-# 4. 更新父级 index.md 的目录索引
+# 4. 更新 docs/md/slides/index.md 的目录索引
 ```
 
 ### index.md 模板
@@ -168,7 +168,7 @@ url: ""
 
 ### 索引更新
 
-在父级 `index.md` 的资源导航章节追加：
+在 `docs/md/slides/index.md` 的对应主题章节追加：
 
 ```markdown
 - [{PPT 标题}](./ppt-{英文名}/index.md) — {一句话描述}
