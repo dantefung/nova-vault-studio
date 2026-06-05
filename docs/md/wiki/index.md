@@ -59,6 +59,9 @@ wiki/
 | [genericagent](/wiki/sources/genericagent) | 3K 行代码自我进化 Agent，6x Token 节省，12.5k Stars | GitHub |
 | [ai-rd-automation-wiki-skill](/wiki/sources/ai-rd-automation-wiki-skill) | 阿里哥伦 AI 研发自动化：LLM-Wiki + 6 大 Skill + Harness 体系 | 微信公众号 |
 | [40-thinking-models](/wiki/sources/40-thinking-models) | 40 种顶级思维模型，按 8 大能力模块组织（学习/思考/创造/设计/共情/故事/领导/整合） | 掘金 |
+| [gstack-ai-team](/wiki/sources/gstack-ai-team) | gstack 把 AI 编程助手拆成多角色工程团队（思考/规划/构建/审查/测试/发布/反思） | 微信公众号 |
+| [ddd-harness-microservices](/wiki/sources/ddd-harness-microservices) | Java/Spring Boot DDD 四层架构微服务样板 | GitHub |
+| [open-design](/wiki/sources/open-design) | 开源 Claude Design 替代，本地优先，100+ skills / 150 DESIGN.md / 261 插件，21 CLI 适配 | GitHub |
 
 ### 学习路径 (Learning Paths)
 

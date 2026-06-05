@@ -94,3 +94,24 @@ source: "llm-wiki"
 - 归档 GitHub GenericAgent 至 sources/genericagent.md
 - 内容摘要：3K 行种子代码，9 原子工具，~100 行 Agent Loop，5 层记忆系统，自主固化为 Skill，6x Token 节省，12.5k Stars
 - 分类：concepts/
+
+## [2026-06-04] ingest: gstack Skills 把 AI 编程助手升级为工程团队
+
+- 归档公众号《gstack Skills 把 AI 编程助手升级为一支工程团队》至 sources/gstack-ai-team.md
+- 内容摘要：Garry Tan（YC CEO）开源 gstack，把 AI 编程助手拆成多角色按生命周期组织（思考/规划/构建/审查/测试/发布/反思），5 大类 Skills 闭环工作流
+- 注：帅哥只要文字，未下载配图
+
+## [2026-06-04] ingest: DDD Harness Microservices 样板
+
+- 归档 GitHub ddd-harness-microservices 至 sources/ddd-harness-microservices.md
+- 内容摘要：Java 11 / Spring Boot + Vite / Vue 3 全栈，DDD 四层架构（adapter/application/domain/infrastructure），service-bff + service-base + service-domain-demo
+- 分类：patterns/
+
+## [2026-06-04] register: Open Design 开源 Claude Design 替代
+
+- 登记 GitHub nexu-io/open-design 至 sources/open-design.md
+- 关键数据：225MB / 100+ skills / 150 DESIGN.md / 261 插件 / 21 CLI 适配 / Apache 2.0
+- 核心：本地优先桌面应用，跑在 Claude Code / Codex / Cursor / OpenCode / Hermes 等 21 个 CLI 上
+- 0.9.0 内置 official Model Router（开箱即用，无需配置 API key）
+- 13 语 README（含简中/繁中/日/韩）
+- 分类：products/
