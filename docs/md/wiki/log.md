@@ -140,3 +140,9 @@ source: "llm-wiki"
 - 归档 GitHub skillshare 至 sources/skillshare.md
 - 内容摘要：一个命令同步 Skills 到 60+ AI CLI 平台（Claude Code/Codex/OpenClaw/OpenCode 等），内置安全审计，2.1k Stars
 - 分类：patterns/
+
+## [2026-06-04] ingest: ai-website-cloner-template AI 网站克隆模板
+
+- 归档 GitHub ai-website-cloner-template 至 sources/ai-website-cloner-template.md
+- 内容摘要：输入 URL 用 AI 克隆网站为 Next.js 代码，/clone-website 单命令，Reconnaissance→Component Specs→Parallel Build→QA，16.4k Stars
+- 分类：patterns/
