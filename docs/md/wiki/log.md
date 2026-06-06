@@ -158,3 +158,9 @@ source: "llm-wiki"
 - 归档 GitHub AiToEarn 至 sources/aitoearn.md
 - 内容摘要：AI 内容生产 + 全平台分发（抖音/小红书/B站/TikTok 等）+ 自动互动运营 + CPS/CPM 变现，Monetize/Publish/Engage/Create 四大 Agent，18.2k Stars
 - 分类：products/
+
+## [2026-06-04] ingest: geju（格局）Skill，专治 Codex 过度谨慎
+
+- 归档 hai-stack/geju Skill 至 sources/geju-skill.md
+- 内容摘要：专治 Codex "苟帝"综合征，8 种打开格局打法（从终局倒推/零历史包袱/杀错误概念/十倍问题/反向约束等），触发词「格局打开」，48 Stars（hai-stack）
+- 分类：patterns/
