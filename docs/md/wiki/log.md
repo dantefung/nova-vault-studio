@@ -164,3 +164,9 @@ source: "llm-wiki"
 - 归档 hai-stack/geju Skill 至 sources/geju-skill.md
 - 内容摘要：专治 Codex "苟帝"综合征，8 种打开格局打法（从终局倒推/零历史包袱/杀错误概念/十倍问题/反向约束等），触发词「格局打开」，48 Stars（hai-stack）
 - 分类：patterns/
+
+## [2026-06-04] ingest: flipbook-app，点击探索 AI 生成知识树
+
+- 归档 GitHub flipbook-app 至 sources/flipbook-app.md
+- 内容摘要：长按图片任意位置，系统联网搜索相关内容，生成带标注的子图，层层递进，无限探索；支持 OpenAI/Nano Banana/Seedream 多图生引擎，语音叙事，静态网站导出，142 Stars
+- 分类：products/
