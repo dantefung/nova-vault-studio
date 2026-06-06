@@ -61,3 +61,47 @@ date: "2026-06-06"
 
 - 与 [[go-stock]] 同属 AI 赋能股票分析类工具，但 go-stock 是技术指标方向，Serenity Skill 是供应链卡脖子方向
 - 框架方法论类似 [[geju-skill]] 的"打开格局"——都是给 AI 装上特定思维透镜
+
+---
+
+## 今日其他收录
+
+### awesome-codex-skills — Codex Skills 精选列表
+
+[ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)：Codex Skills 精选列表，40+ Skills 覆盖开发/协作/写作/数据分析，13k Stars，1.3k Forks。Composio 出品，每个 Skill 独立文件夹含 `SKILL.md` + 脚本 + 参考资料，可通过 `skill-installer` 一键安装。
+
+**分类维度**：
+- 开发工具：codebase-migrate、deploy-pipeline、pr-review-ci-fix、mcp-builder、sentry-triage
+- 生产力：connect（1000+ 应用）、linear、notion 系列、meeting 系列
+- 写作：email-draft-polish、changelog-generator、content-research-writer、tailored-resume-generator
+- 数据：spreadsheet-formula-helper、datadog-logs、langsmith-fetch、lead-research-assistant
+- Meta：skill-creator、skill-installer、template-skill
+
+### cell-architecture-studio — 3D 细胞结构交互画廊
+
+[cclank/cell-architecture-studio](https://github.com/cclank/cell-architecture-studio)：React + Three.js 3D 细胞结构画廊，7 种细胞类型（植物细胞/白细胞/神经元/上皮细胞/细菌/动物细胞/肌肉细胞），高保真 GLB 模型，AI Tutor 面板，对比模式，1k Stars。
+
+**技术栈**：React 19 + TypeScript + Vite + Three.js + React Three Fiber + Drei，Playwright 视觉验证覆盖桌面/紧凑/移动端。
+
+---
+
+## 今日汇总
+
+今日共归档 **10 个资源**：
+
+| 资源 | Stars | 类型 |
+|------|-------|------|
+| awesome-codex-skills | 13k | 精选列表 |
+| serenity-skill-muxuuu | 356 | Skill |
+| serenity-aleabitoreddit | 112 | Skill |
+| cell-architecture-studio | 1k | Product |
+| serenity-aleabitoreddit-skill | 23 | Skill |
+| serenity-skill-zad | 15 | Skill |
+| serenity-stock-choke | 12 | Skill |
+| serenity-skill-0xagata | 14 | Skill |
+| serenity-skills-xvhaoran | 7 | Skill |
+| stock-skill | 16 | Skill |
+
+另有段永平播客日记一篇（[[2026-06-06-duan-yongping]]）。
+
+**今日主题**：Serenity Skill 全家桶 — 同一种供应链卡脖子投资方法论，被 8 个不同作者蒸馏成不同版本（完整度/平台/市场/深度四个维度分化），加上一个 Codex Skills 精选列表和一个 3D 教育产品。
