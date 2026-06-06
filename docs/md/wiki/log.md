@@ -128,3 +128,9 @@ source: "llm-wiki"
   - magic-slide.md：HTML 演示稿生成，Magic Move 平滑转场，PipeLLM 图生，147 Stars
   - awesome-design-md.md：72+ 品牌 DESIGN.md 集合，AI 按风格生成界面，87.8k Stars
 - 分类：patterns/
+
+## [2026-06-04] ingest: guizang-social-card-skill 小红书图文/公众号封面对
+
+- 归档 GitHub guizang-social-card-skill 至 sources/guizang-social-card-skill.md
+- 内容摘要：Claude Code / Codex 小红书图文 + 公众号封面对生成，Editorial × Swiss 双视觉系统，28 版式骨架，10 主题预设，3k Stars
+- 分类：patterns/

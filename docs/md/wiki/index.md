@@ -66,6 +66,7 @@ wiki/
 | [emil-kowalski-skill](/wiki/sources/emil-kowalski-skill) | UI 细节打磨，交互/动效/组件状态精致化，2.1k Stars | GitHub |
 | [magic-slide](/wiki/sources/magic-slide) | HTML 演示稿生成，Magic Move 转场，PipeLLM 图生，147 Stars | GitHub |
 | [awesome-design-md](/wiki/sources/awesome-design-md) | 72+ 品牌 DESIGN.md，AI 按风格生成界面，87.8k Stars | GitHub |
+| [guizang-social-card-skill](/wiki/sources/guizang-social-card-skill) | 小红书图文/公众号封面对，Editorial × Swiss 双视觉系统，28 版式，3k Stars | GitHub |
 
 ### 学习路径 (Learning Paths)
 
