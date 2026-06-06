@@ -100,3 +100,9 @@ source: "llm-wiki"
 - 归档 GitHub ddd-harness-microservices 至 sources/ddd-harness-microservices.md
 - 内容摘要：Java 11 / Spring Boot + Vite / Vue 3 全栈，DDD 四层架构（adapter/application/domain/infrastructure），service-bff + service-base + service-domain-demo
 - 分类：patterns/
+
+## [2026-06-04] ingest: Yao Open Skills 公开 Skill 合集
+
+- 归档 GitHub yao-open-skills 至 sources/yao-open-skills.md
+- 内容摘要：OpenYao Skill 合集，1.1k Stars，yao-expert-skill（行业学习）、yao-crux-skill（主次矛盾）、yao-bayesian-skill（贝叶斯决策）等
+- 分类：patterns/
