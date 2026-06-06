@@ -189,3 +189,9 @@ source: "llm-wiki"
 - 归档 GitHub muxuuu/serenity-skill 至 sources/serenity-skill-muxuuu.md
 - 内容摘要：Serenity 式供应链卡点股票研究 Agent Skill，中文优先，356 Stars，支持 Codex/Claude Code/Hermes/OpenClaw 等，从热点拆解产业链到优先研究清单，完整研究流水线
 - 分类：patterns/
+
+## [2026-06-06] ingest: ComposioHQ/awesome-codex-skills，Codex Skills 精选列表，13k Stars
+
+- 归档 GitHub ComposioHQ/awesome-codex-skills 至 sources/awesome-codex-skills.md
+- 内容摘要：Codex Skills 精选列表，40+ Skills 覆盖开发/协作/写作/数据分析，13k Stars，1.3k Forks，Composio 出品，每个 Skill 独立安装
+- 分类：patterns/
