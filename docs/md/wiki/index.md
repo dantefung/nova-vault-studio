@@ -61,6 +61,11 @@ wiki/
 | [yao-open-skills](/wiki/sources/yao-open-skills) | OpenYao Skill 合集：yao-expert/贝叶斯/博弈论等，1.1k Stars | GitHub |
 | [ky-design-to-html](/wiki/sources/ky-design-to-html-skill) | UI 截图转 HTML/CSS 视觉还原，截图验证修正，57 Stars | GitHub |
 | [weread-exporter](/wiki/sources/weread-exporter) | 微信读书全本导出，付费书可用，Playwright + Canvas Hook，47 Stars | GitHub |
+| [taste-skill](/wiki/sources/taste-skill) | AI 前端防丑 Skill 合集，三档设计旋钮，34.1k Stars | GitHub |
+| [web-designer-plugin](/wiki/sources/web-designer-plugin) | 48 个 Award 级设计模式，决策框架，43 Stars | GitHub |
+| [emil-kowalski-skill](/wiki/sources/emil-kowalski-skill) | UI 细节打磨，交互/动效/组件状态精致化，2.1k Stars | GitHub |
+| [magic-slide](/wiki/sources/magic-slide) | HTML 演示稿生成，Magic Move 转场，PipeLLM 图生，147 Stars | GitHub |
+| [awesome-design-md](/wiki/sources/awesome-design-md) | 72+ 品牌 DESIGN.md，AI 按风格生成界面，87.8k Stars | GitHub |
 
 ### 学习路径 (Learning Paths)
 

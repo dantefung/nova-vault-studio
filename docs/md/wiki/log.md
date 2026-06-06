@@ -118,3 +118,13 @@ source: "llm-wiki"
 - 归档 GitHub weread-exporter 至 sources/weread-exporter.md
 - 内容摘要：Playwright + Canvas fillText Hook 提取微信读书全本正文（含付费书），输出 Markdown，47 Stars
 - 分类：products/
+
+## [2026-06-04] ingest: 5 个 AI UI 设计 Skill
+
+- 归档 GitHub 5 个项目至 sources/
+  - taste-skill.md：AI 前端防丑 Skill 合集，34.1k Stars，三档旋钮（VARIANCE/MOTION/DENSITY）
+  - web-designer-plugin.md：48 个 Award 级设计模式，参考 38 个优秀网站，43 Stars
+  - emil-kowalski-skill.md：UI 细节打磨，交互/动效/组件状态精致化，2.1k Stars
+  - magic-slide.md：HTML 演示稿生成，Magic Move 平滑转场，PipeLLM 图生，147 Stars
+  - awesome-design-md.md：72+ 品牌 DESIGN.md 集合，AI 按风格生成界面，87.8k Stars
+- 分类：patterns/
