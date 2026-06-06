@@ -195,3 +195,9 @@ source: "llm-wiki"
 - 归档 GitHub ComposioHQ/awesome-codex-skills 至 sources/awesome-codex-skills.md
 - 内容摘要：Codex Skills 精选列表，40+ Skills 覆盖开发/协作/写作/数据分析，13k Stars，1.3k Forks，Composio 出品，每个 Skill 独立安装
 - 分类：patterns/
+
+## [2026-06-06] ingest: cclank/cell-architecture-studio，3D 细胞结构交互画廊
+
+- 归档 GitHub cclank/cell-architecture-studio 至 sources/cell-architecture-studio.md
+- 内容摘要：React + Three.js 3D 细胞结构画廊，7 种细胞类型，高保真 GLB 模型，AI Tutor 面板，对比模式，1k Stars，224 Forks
+- 分类：products/
