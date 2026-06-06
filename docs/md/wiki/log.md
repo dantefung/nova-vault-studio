@@ -146,3 +146,9 @@ source: "llm-wiki"
 - 归档 GitHub ai-website-cloner-template 至 sources/ai-website-cloner-template.md
 - 内容摘要：输入 URL 用 AI 克隆网站为 Next.js 代码，/clone-website 单命令，Reconnaissance→Component Specs→Parallel Build→QA，16.4k Stars
 - 分类：patterns/
+
+## [2026-06-04] ingest: go-stock AI 赋能股票分析工具
+
+- 归档 GitHub go-stock 至 sources/go-stock.md
+- 内容摘要：AI 赋能股票分析，市场/个股情绪分析，AI 热点资讯分析，K线技术指标，支持 A股/港股/美股，6.1k Stars
+- 分类：products/
