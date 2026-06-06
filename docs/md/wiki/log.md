@@ -112,3 +112,9 @@ source: "llm-wiki"
 - 归档 GitHub ky-design-to-html-skill 至 sources/ky-design-to-html-skill.md
 - 内容摘要：UI 截图转 HTML/CSS，拆解→资产分离→画布适配→截图验证→误差修正，57 Stars
 - 分类：patterns/
+
+## [2026-06-04] ingest: weread-exporter 微信读书全本导出
+
+- 归档 GitHub weread-exporter 至 sources/weread-exporter.md
+- 内容摘要：Playwright + Canvas fillText Hook 提取微信读书全本正文（含付费书），输出 Markdown，47 Stars
+- 分类：products/
