@@ -152,3 +152,9 @@ source: "llm-wiki"
 - 归档 GitHub go-stock 至 sources/go-stock.md
 - 内容摘要：AI 赋能股票分析，市场/个股情绪分析，AI 热点资讯分析，K线技术指标，支持 A股/港股/美股，6.1k Stars
 - 分类：products/
+
+## [2026-06-04] ingest: AiToEarn AI 全自动自媒体内容变现平台
+
+- 归档 GitHub AiToEarn 至 sources/aitoearn.md
+- 内容摘要：AI 内容生产 + 全平台分发（抖音/小红书/B站/TikTok 等）+ 自动互动运营 + CPS/CPM 变现，Monetize/Publish/Engage/Create 四大 Agent，18.2k Stars
+- 分类：products/
