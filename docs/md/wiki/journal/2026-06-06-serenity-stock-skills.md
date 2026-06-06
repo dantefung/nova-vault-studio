@@ -20,6 +20,7 @@ date: "2026-06-06"
 | [serenity-skills-xvhaoran](/wiki/sources/serenity-skills-xvhaoran) | 跨市场版（A股/美股/港股/台股/日股/欧洲），贝叶斯更新框架 | 7 |
 | [serenity-skill-0xagata](/wiki/sources/serenity-skill-0xagata) | 粉丝站，4740 条推文，Claude Project + ChatGPT Custom GPT 双入口 | 14 |
 | [serenity-stock-choke](/wiki/sources/serenity-stock-choke) | A 股适配版，六步推理链路，覆盖电力/光模块/半导体/军工/新能源车等 | 12 |
+| [serenity-skill-muxuuu](/wiki/sources/serenity-skill-muxuuu) | Serenity 式供应链卡点股票研究，中文优先，356 Stars，Stars 最多版 | **356** |
 
 ## 关键洞察
 

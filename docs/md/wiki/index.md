@@ -75,6 +75,7 @@ wiki/
 | [flipbook-app](/wiki/sources/flipbook-app) | 点击探索 AI 生成知识树，无限子节点层层递进，142 Stars | GitHub |
 | [stock-skill](/wiki/sources/stock-skill) | 三人美股框架合议：Serenity 卡脖子 × TraderS 宏观 × 恨铁技术执行，16 Stars | GitHub |
 | [serenity-aleabitoreddit](/wiki/sources/serenity-aleabitoreddit) | Serenity 5813 条推文完整档案 + 供应链卡点 Skill，112 Stars | GitHub |
+| [serenity-skill-muxuuu](/wiki/sources/serenity-skill-muxuuu) | Serenity 式供应链卡点股票研究，中文优先，356 Stars，Stars 最多版 | GitHub |
 | [serenity-aleabitoreddit-skill](/wiki/sources/serenity-aleabitoreddit-skill) | Serenity 卡点投资分析技能，多 Agent 多市场适用，23 Stars | GitHub |
 | [serenity-stock-choke](/wiki/sources/serenity-stock-choke) | A 股卡脖子选股框架，六步推理链路，12 Stars | GitHub |
 

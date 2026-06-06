@@ -183,3 +183,9 @@ source: "llm-wiki"
   - serenity-stock-choke：A 股适配版，六步推理链路，12 Stars
 - 内容摘要：Serenity（@aleabitoreddit，白发女股神）供应链卡脖子投资框架，45 倍 YTD 自述，从 Reddit WSB 散户到 50 万粉丝，AI 半导体/光通信/CPO 供应链逆向分析
 - 分类：patterns/
+
+## [2026-06-06] ingest: muxuuu/serenity-skill，第 8 个 Serenity Skill，356 Stars（Stars 最多版）
+
+- 归档 GitHub muxuuu/serenity-skill 至 sources/serenity-skill-muxuuu.md
+- 内容摘要：Serenity 式供应链卡点股票研究 Agent Skill，中文优先，356 Stars，支持 Codex/Claude Code/Hermes/OpenClaw 等，从热点拆解产业链到优先研究清单，完整研究流水线
+- 分类：patterns/
