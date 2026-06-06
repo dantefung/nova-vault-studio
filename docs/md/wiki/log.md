@@ -106,3 +106,9 @@ source: "llm-wiki"
 - 归档 GitHub yao-open-skills 至 sources/yao-open-skills.md
 - 内容摘要：OpenYao Skill 合集，1.1k Stars，yao-expert-skill（行业学习）、yao-crux-skill（主次矛盾）、yao-bayesian-skill（贝叶斯决策）等
 - 分类：patterns/
+
+## [2026-06-04] ingest: ky-design-to-html 视觉还原 Skill
+
+- 归档 GitHub ky-design-to-html-skill 至 sources/ky-design-to-html-skill.md
+- 内容摘要：UI 截图转 HTML/CSS，拆解→资产分离→画布适配→截图验证→误差修正，57 Stars
+- 分类：patterns/
