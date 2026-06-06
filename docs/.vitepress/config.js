@@ -136,6 +136,12 @@ export default defineConfig({
           { text: 'OPC 一人公司', link: '/md/columns/opc/' },
           { text: '投资专栏', link: '/md/columns/investment/' },
         ]
+      },
+      {
+        text: 'Slides',
+        items: [
+          { text: '演示文稿', link: '/md/slides/' },
+        ]
       }
     ],
     sidebar: {
@@ -191,11 +197,13 @@ export default defineConfig({
       '/md/wiki/comparisons/': generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/'),
       '/md/business/': generateSidebar('docs/md/business', '/md/business/'),
       '/md/columns/': generateSidebar('docs/md/columns', '/md/columns/'),
+      '/md/slides/': generateSidebar('docs/md/slides', '/md/slides/'),
       ...generateSidebarMappingForSubdirectories('docs/md/books', '/md/books/'),
       ...generateSidebarMappingForSubdirectories('docs/md/tutorial', '/md/tutorial/'),
       ...generateSidebarMappingForSubdirectories('docs/md/agi', '/md/agi/'),
       ...generateSidebarMappingForSubdirectories('docs/md/business', '/md/business/'),
       ...generateSidebarMappingForSubdirectories('docs/md/columns', '/md/columns/'),
+      ...generateSidebarMappingForSubdirectories('docs/md/slides', '/md/slides/'),
       ...generateSidebarMappingForSubdirectories('docs/md/wiki/journal', '/md/wiki/journal/'),
       ...generateSidebarMappingForSubdirectories('docs/md/wiki/read-later', '/md/wiki/read-later/')
     },

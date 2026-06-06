@@ -17,6 +17,7 @@ title: Other Tools
 - [Commit as Prompt](./commit-as-prompt.md)
 - [Open Multi-Agent Research](./open-multi-agent-research.md)
 - [Planning with Files](./planning-with-files.md)
+- [Pencil + Claude Code 用对话做设计](./pencil-claudecode-design.md)
 - [Prompt Context Harness Evolution](./prompt-context-harness-evolution.md)
 - [Remote Claude Code Feishu](./remote-claude-code-feishu.md)
 - [Strong Model Bad Engineering](./strong-model-bad-engineering.md)

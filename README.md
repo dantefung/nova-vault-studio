@@ -60,6 +60,22 @@ python3 .claude/skills/pdf-to-markdown/scripts/pdf2md.py input.pdf -o output.md
 
 自动提取文字（pdftotext）+ 嵌入图片（pdfimages），生成带配图的 Markdown。
 
+### 网页 PPT 生成（guizang-ppt-skill）
+
+```bash
+# Agent 调用：直接说"做一个 XXX 主题的杂志风/瑞士风 PPT"
+```
+
+归藏（guizang）开源的 `guizang-ppt-skill` 已安装至 `.claude/skills/guizang-ppt-skill/`：
+
+- **输出形式**：单文件 HTML 横向翻页 PPT（无需服务器，浏览器直接打开）
+- **两种视觉风格**：
+  - **风格 A · 电子杂志 × 电子墨水**（默认）：衬线字体 + 流体背景 + 暖色调
+  - **风格 B · 瑞士国际主义**：无衬线 + 网格点阵 + IKB 蓝/柠檬黄/柠檬绿/安全橙高亮
+- **触发词**："杂志风 PPT"、"瑞士风 PPT"、"Swiss Style"、"horizontal swipe deck"、分享/演讲/发布会
+- **模板**：WebGL 背景、章节幕封、数据大字报、图片网格
+- 技能文件位于 `.claude/skills/guizang-ppt-skill/`，规范源仓库 [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)
+
 ## LLM Wiki 知识库
 
 本项目使用四层架构维护知识库，参考 Andrej Karpathy 的 llm-wiki 概念：

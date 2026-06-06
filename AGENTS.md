@@ -109,6 +109,80 @@ docs/md/{分类}/{子目录}/images/{文章英文名}/{图片文件}
 
 ---
 
+## HTML PPT 归档规范
+
+外部 HTML PPT（如 guizang-ppt-skill 生成的）归档到本知识库时，遵循以下流程：
+
+### 目标位置
+
+```
+docs/md/slides/ppt-{英文简称}/
+├── index.html          ← 原始 HTML（verbatim）
+├── index.md            ← VitePress 入口（必建）
+└── images/             ← 引用的图片（如有）
+    ├── slide-01.png
+    └── slide-02.png
+```
+
+- 目录命名：`ppt-` 前缀 + 英文 kebab-case（如 `ppt-how-to-write-prompt`）
+- 放在 `docs/md/slides/` 专用目录下，按主题分类
+
+### 操作步骤
+
+```bash
+# 1. 创建目录
+mkdir -p docs/md/slides/ppt-{英文名}/images
+
+# 2. 复制文件
+cp {源}/index.html docs/md/slides/ppt-{英文名}/
+cp {源}/images/*.png docs/md/slides/ppt-{英文名}/images/
+
+# 3. 创建 index.md（见下方模板）
+
+# 4. 更新 docs/md/slides/index.md 的目录索引
+```
+
+### index.md 模板
+
+```markdown
+---
+title: "{PPT 标题}"
+date: "{YYYY-MM-DD}"
+source: "{来源项目}"
+url: ""
+---
+
+# {PPT 标题}
+
+> {一句话描述}
+
+[打开 PPT →](./index.html)
+
+---
+
+## 内容概览
+
+- 要点 1
+- 要点 2
+```
+
+### 索引更新
+
+在 `docs/md/slides/index.md` 的对应主题章节追加：
+
+```markdown
+- [{PPT 标题}](./ppt-{英文名}/index.md) — {一句话描述}
+```
+
+### ⚠️ 注意事项
+
+- `index.html` **原样复制**，不要修改内容（保持 PPT 可独立运行）
+- `index.md` 的 `title` 必填（pre-commit hook 检查）
+- 如果 HTML 引用了外部 CDN 字体/脚本，保留不动（PPT 需要联网加载）
+- 图片如果在 HTML 中是内联 base64，则不需要单独复制 images 目录
+
+---
+
 ## 构建与预览
 
 ```bash
