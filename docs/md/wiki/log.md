@@ -134,3 +134,9 @@ source: "llm-wiki"
 - 归档 GitHub guizang-social-card-skill 至 sources/guizang-social-card-skill.md
 - 内容摘要：Claude Code / Codex 小红书图文 + 公众号封面对生成，Editorial × Swiss 双视觉系统，28 版式骨架，10 主题预设，3k Stars
 - 分类：patterns/
+
+## [2026-06-04] ingest: skillshare 跨平台 Skills 同步管理
+
+- 归档 GitHub skillshare 至 sources/skillshare.md
+- 内容摘要：一个命令同步 Skills 到 60+ AI CLI 平台（Claude Code/Codex/OpenClaw/OpenCode 等），内置安全审计，2.1k Stars
+- 分类：patterns/
