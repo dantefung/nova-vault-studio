@@ -201,3 +201,9 @@ source: "llm-wiki"
 - 归档 GitHub cclank/cell-architecture-studio 至 sources/cell-architecture-studio.md
 - 内容摘要：React + Three.js 3D 细胞结构画廊，7 种细胞类型，高保真 GLB 模型，AI Tutor 面板，对比模式，1k Stars，224 Forks
 - 分类：products/
+
+## [2026-06-07] ingest: 广州工业品店群实战文章
+
+- 归档公众号文章《搞副业最猛的城市：广州》至 sources/guangzhou-industrial-ecommerce.md
+- 内容摘要：广州工业品店群实战，采集+代发+工厂场景，从"出租屋一周没咨询"到"一个人管20个店"，番禺农机/花都工程材料/白云小型机械供应链路由
+- 分类：patterns/
