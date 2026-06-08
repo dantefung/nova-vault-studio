@@ -226,3 +226,9 @@ source: "llm-wiki"
 - 归档 GitHub bingshuoguo/linus-torvalds-skills 至 sources/linus-torvalds-skills.md
 - 内容摘要：Linus Torvalds 工程品味 AI Skill，四大原则（好品味/永不破坏用户空间/实用主义/极度求简），Claude Code/Cursor/Codex 通用，5 Stars
 - 分类：patterns/
+
+## [2026-06-08] ingest: inhai-wiki/video-highlight-skill，AI 视频高光剪辑 Skill
+
+- 归档 GitHub inhai-wiki/video-highlight-skill 至 sources/video-highlight-skill.md
+- 内容摘要：AI 视频高光 Skill，FFmpeg 剪辑 + SRT 字幕 + YouTube 风格回顾页，支持会议/课程/直播/短视频，7 Stars
+- 分类：products/
