@@ -220,3 +220,9 @@ source: "llm-wiki"
 - 归档 GitHub jackwener/wx-cli 至 sources/wx-cli.md
 - 内容摘要：微信本地数据 CLI 工具，Rust 实现，内存扫描提取 SQLCipher 4 密钥解密，支持会话/聊天记录/搜索/联系人/群成员/朋友圈/公众号文章/收藏/统计/导出，零依赖跨平台，3.3k Stars，AI Agent Skill 支持
 - 分类：products/
+
+## [2026-06-08] ingest: bingshuoguo/linus-torvalds-skills，Linus 式工程品味 Skill
+
+- 归档 GitHub bingshuoguo/linus-torvalds-skills 至 sources/linus-torvalds-skills.md
+- 内容摘要：Linus Torvalds 工程品味 AI Skill，四大原则（好品味/永不破坏用户空间/实用主义/极度求简），Claude Code/Cursor/Codex 通用，5 Stars
+- 分类：patterns/
