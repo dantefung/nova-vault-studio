@@ -210,7 +210,7 @@ source: "llm-wiki"
 
 ## [2026-06-07] report: 一件代发（Dropshipping）商业模式横纵分析报告
 
-- 输出位置：商业分析/案例专栏/一件代发_横纵分析报告.md
+- 输出位置：business/business-models/dropshipping.md（从 wiki/商业分析/案例专栏/ 迁移）
 - 内容摘要：全球 dropshipping 从邮购时代到店群时代的完整纵向（1990s-2026），三段模式横向对比（全球版 vs 无货源店群 vs 广州工业品），横纵交汇产出三个未来剧本（红海持续/降维打击/品牌化出路）
 - 关联：guangzhou-industrial-ecommerce.md（广州案例为一件代发的中国进化版）
 - 分类：商业分析/
