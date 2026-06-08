@@ -214,3 +214,9 @@ source: "llm-wiki"
 - 内容摘要：全球 dropshipping 从邮购时代到店群时代的完整纵向（1990s-2026），三段模式横向对比（全球版 vs 无货源店群 vs 广州工业品），横纵交汇产出三个未来剧本（红海持续/降维打击/品牌化出路）
 - 关联：guangzhou-industrial-ecommerce.md（广州案例为一件代发的中国进化版）
 - 分类：商业分析/
+
+## [2026-06-08] ingest: jackwener/wx-cli，微信本地数据 CLI
+
+- 归档 GitHub jackwener/wx-cli 至 sources/wx-cli.md
+- 内容摘要：微信本地数据 CLI 工具，Rust 实现，内存扫描提取 SQLCipher 4 密钥解密，支持会话/聊天记录/搜索/联系人/群成员/朋友圈/公众号文章/收藏/统计/导出，零依赖跨平台，3.3k Stars，AI Agent Skill 支持
+- 分类：products/
