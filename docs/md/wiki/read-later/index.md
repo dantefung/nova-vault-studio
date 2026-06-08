@@ -26,6 +26,7 @@ date: "2026-05-29"
 | 2026-05-31 | https://mp.weixin.qq.com/s/S7HO98KRB2VBqBkBjSNa6g | **Obsidian 插件授权系统改造复盘**：用户买了 Pro 却激活不了，因为国内网络无法访问 Cloudflare Worker。改造方案：国内备用节点 + License 签名校验（客户端必须验证签名，中间人无法伪造）+ 多端点故障转移。关键设计点：私钥保护、KV 存储、ICP 备案/CORS/SSL 证书坑点。还发现"清除本机授权"其实没有释放服务端名额的设计 bug。 |
 | 2026-06-04 | https://mp.weixin.qq.com/s/6hDDkU2z31K67y8Z9dcqhw | **AI研发自动化：Wiki知识库+技能包**：把 AI 研发自动化拆成两条腿——**LLM-Wiki 知识库**（Karpathy 26/04 提出的"新知识库模式"，本质是 SKILL/md 文件，把 LLM 从 RAG 引擎变成"维护 wiki 的全职编辑"，知识增长是**复利式**而非线性）+ **领域专家 SKILL 包**（写方案/写代码/评审/测试/答疑/排障）。架构三层：Sources（只读真源）→ Wiki（LLM 全权 md 实体/概念/综述页）→ Schema（工作流规范）。核心操作是 Ingest/Query/Lint 三件套。最终目标：用户给 PRD，剩下全交给 agent。跟本仓 `llm-wiki` skill 主题完全契合。 |
 | 2026-06-04 | https://mp.weixin.qq.com/s/AZ-np48XJLM1QO5NJ_YiVA | **用 LLM Agent 重构告警排查流程（得物技术）**：用 **Spring AI Alibaba ReAct Agent** + Supervisor Agent 编排，自动完成告警数据采集/根因分析/处置建议；4 个排查工具（指标/日志/链路/知识）+ Validation Agent 验收 + 知识沉淀闭环。**中位排查耗时 20min→4.4min**，覆盖 11 个服务 10+ 告警类型。核心难点：动态策略组装、工具超时隔离、AI 权限安全、幻觉控制。跟本仓 `agentic-engineer` 主题强相关。 |
+| 2026-06-09 | https://mp.weixin.qq.com/s/--PaxhI2_8dz4bpcDy1ciw | **给 Agent 引入专家：自定义子代理**（天空的代码世界）：通用子代理/自定义子代理/fork子代理/Teammate 四种模式，"配置即能力"——给 Agent 加新行为成本压到"写一段 Markdown"。四个 frontmatter 字段（name/description/model/max_turns）定义专家。关联：本仓 [[agentic-engineer]] 子代理章节 + Serenity Skill 多专家分工思路。 |
 
 ## 其他
 
