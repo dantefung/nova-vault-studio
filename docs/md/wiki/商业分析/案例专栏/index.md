@@ -13,7 +13,9 @@ date: "2026-06-07"
 
 | 报告 | 研究对象 | 类型 | 日期 |
 |------|---------|------|------|
-| [一件代发（Dropshipping）商业模式横纵分析报告](/wiki/商业分析/案例专栏/一件代发_横纵分析报告) | 一件代发（Dropshipping） | 商业模式 | 2026-06-07 |
+| ~~一件代发（Dropshipping）商业模式横纵分析报告~~ | 一件代发（Dropshipping） | 商业模式 | 2026-06-07 |
+
+> ⚠️ 此报告已迁移至 [商业分析 > 商业模式 > 一件代发（Dropshipping）](/business/business-models/dropshipping)
 
 ---
 

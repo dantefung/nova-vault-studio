@@ -47,6 +47,7 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
+| [claude-skills](/wiki/concepts/claude-skills) | Claude 生态扩展机制，渐进式加载、可执行代码、跨平台移植 | 文章 |
 | [claude-code-setup](/wiki/pages/concepts/claude-code-setup) | 官方插件，扫描代码库推荐自动化配置 | 插件 |
 | [opencode-cc-adapter](/wiki/pages/concepts/opencode-cc-adapter) | 桥接 Claude Code 生态到 OpenCode | 插件 |
 | [oh-my-claudecode](/wiki/pages/concepts/oh-my-claudecode) | Claude Code 超集工作流框架 | skill |
