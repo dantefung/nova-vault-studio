@@ -214,3 +214,15 @@ source: "llm-wiki"
 - 内容摘要：全球 dropshipping 从邮购时代到店群时代的完整纵向（1990s-2026），三段模式横向对比（全球版 vs 无货源店群 vs 广州工业品），横纵交汇产出三个未来剧本（红海持续/降维打击/品牌化出路）
 - 关联：guangzhou-industrial-ecommerce.md（广州案例为一件代发的中国进化版）
 - 分类：商业分析/
+
+## [2026-06-08] ingest: 面向 UI/UX 工程师的 8 个顶级 Claude Skills
+
+- 归档《Top 8 Claude Skills for UI/UX Engineers》Snyk Blog 至 sources/top-claude-skills-ui-ux-engineers.md
+- 内容摘要：梳理 8 个最值得关注的 Claude Skills，覆盖创意设计（Anthropic Frontend Design）、Web 审计（Vercel Guidelines）、React 性能（Vercel Best Practices）、组件架构（Composition Patterns）、设计智能（UI/UX Pro Max）、UX 设计（Bencium）、无障碍（AccessLint）、移动端（React Native）。核心观点：AI 不替代设计师判断力，而是释放创造力；多技能组合互补而非冲突
+- 分类：skills/
+
+## [2026-06-08] wiki-ingest: claude-skills
+
+- 从 sources/top-claude-skills-ui-ux-engineers.md 提炼概念页 concepts/claude-skills.md
+- 核心概念：Claude Skills 生态扩展机制，渐进式加载、可执行代码、跨平台移植
+- 更新 index.md 新增 claude-skills 条目
