@@ -226,3 +226,33 @@ source: "llm-wiki"
 - 从 sources/top-claude-skills-ui-ux-engineers.md 提炼概念页 concepts/claude-skills.md
 - 核心概念：Claude Skills 生态扩展机制，渐进式加载、可执行代码、跨平台移植
 - 更新 index.md 新增 claude-skills 条目
+
+## [2026-06-08] ingest: Code X LOF 基金套利实战
+
+- 归档《被裁了，用Code X做了个赚钱工具》微信公众号至 sources/code-x-lof-arbitrage.md
+- 内容摘要：被裁程序员用 AI 工具（Code X）9 分钟完成全栈 LOF 基金溢价率监控工具，揭示 AI 对初级开发者的替代威胁，提出 AI 失业基金会等社会解决方案
+- 分类：vibe-coding/
+
+## [2026-06-08] wiki-ingest: ai-finance-tool-dev
+
+- 从 sources/code-x-lof-arbitrage.md 提炼模式页 patterns/ai-finance-tool-dev.md
+- 核心模式：AI 辅助金融量化工具开发，知识导入→自动抓取→实时计算→语音迭代
+- 更新 index.md 新增 ai-finance-tool-dev 条目
+
+## [2026-06-08] ingest: 企业级知识库检索优化
+
+- 归档《知识库检索不准？看我们是如何做的》微信公众号至 guide/ai/intelligent-customer-service/19-rag-knowledge-base-optimization.md
+- 内容摘要：企业非结构化数据检索痛点，从传统 RAG 到 Graph RAG 的演进方案，含数据清洗、索引构建、查询精排全流程
+- 分类：intelligent-customer-service/
+
+## [2026-06-08] ingest: 用 Claude Code 建站
+
+- 归档《不写代码，嘴喷AI6小时后，我也能建站了？！》微信公众号至 sources/claude-code-build-site.md
+- 内容摘要：非程序员用 Claude Code 6 小时完成 SEO 建站全流程：需求挖掘→产品文档→设计优化→SEO 布局→部署上线
+- 分类：vibe-coding/
+
+## [2026-06-08] wiki-ingest: claude-code-build-site
+
+- 从 sources/claude-code-build-site.md 提炼概念页 concepts/claude-code-build-site.md
+- 核心概念：用 Claude Code 建站，非程序员 6 小时完成 SEO 建站全流程
+- 更新 index.md 新增 claude-code-build-site 条目

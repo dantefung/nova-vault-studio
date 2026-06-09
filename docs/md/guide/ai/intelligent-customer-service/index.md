@@ -158,6 +158,7 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 | 13 | [架构演进路径（基于 Dify）](./13-architecture-evolution.md) | Dify→完整架构 | 现有架构分析、17项Dify能力对照、四阶段演进 |
 | 14 | [意图分类：准确性与速度优化](./14-intent-classification.md) | 入口层优化 | Prompt格式、置信度体系、nano模型选型、CICLe路由 |
 | 15 | [渐进式 AI 编程](./15-progressive-ai-programming.md) | 外部转载 | 微信公众号文章：渐进式 AI 编程的实践与思考 |
+| 16 | [知识库检索不准？看我们是如何做的](./19-rag-knowledge-base-optimization.md) | 实战经验 | 企业级知识库 RAG + Graph RAG 优化方案 |
 
 ---
 

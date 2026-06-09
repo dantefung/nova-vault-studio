@@ -90,6 +90,8 @@ wiki/
 |------|--------|------|
 | [vibe-coding](/wiki/pages/concepts/vibe-coding) | 自然语言编程入门到实战 | 专栏 |
 | [agentic-engineer](/wiki/pages/concepts/agentic-engineer) | Agent 工程完整知识体系 | 专栏 |
+| [ai-finance-tool-dev](/wiki/patterns/ai-finance-tool-dev) | AI 辅助金融量化工具开发模式 | 公众号 |
+| [claude-code-build-site](/wiki/concepts/claude-code-build-site) | 用 Claude Code 建站：非程序员 6 小时完成 SEO 建站全流程 | 公众号 |
 
 ---
 
