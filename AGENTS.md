@@ -183,6 +183,67 @@ url: ""
 
 ---
 
+## PDF 归档到 books 目录
+
+### 目标位置
+
+```
+docs/md/books/{分类目录}/
+├── index.md                    ← VitePress 入口（手动编辑，用 <PdfList> 组件）
+├── {书名}.pdf                  ← 原始 PDF
+├── {书名-kebab-case}.md        ← PDF 预览页（手动创建）
+└── cover.png                   ← 封面图（可选）
+```
+
+### 操作步骤
+
+```bash
+# 1. 创建分类目录（如不存在）
+mkdir -p docs/md/books/{分类目录}
+
+# 2. 复制 PDF
+cp /path/to/源文件.pdf "docs/md/books/{分类目录}/{书名}.pdf"
+
+# 3. 如果 PDF > 100MB，先用 ghostscript 压缩
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+   -dNOPAUSE -dQUIET -dBATCH \
+   -sOutputFile="/tmp/compressed.pdf" \
+   "docs/md/books/{分类目录}/{书名}.pdf"
+cp /tmp/compressed.pdf "docs/md/books/{分类目录}/{书名}.pdf"
+
+# 4. 创建 PDF 预览页（{书名-kebab-case}.md，见下方模板）
+
+# 5. 更新 index.md 简介（可选）
+```
+
+### PDF 预览页模板
+
+```markdown
+---
+title: "{书名}"
+date: "{YYYY-MM-DD}"
+source: "{来源}"
+---
+
+<script setup>
+import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
+const pdfUrl = new URL('./{书名}.pdf', import.meta.url).href
+</script>
+
+# {书名}
+
+<PdfViewer :src="pdfUrl" />
+```
+
+### ⚠️ 关键约束
+
+- **文件命名**：PDF 预览页用 kebab-case（如 `x-growth-100-to-110k.md`），引用中文名 PDF
+- **不要创建与 PDF 同名的 .md**：`generate-pdf-pages.js` 在 dev/build 时会扫描 PDF 自动生成同名 `.md`。如果你手动创建了 kebab-case 的预览页，脚本会检测到该 PDF 已被其他 `.md` 引用，自动跳过生成。**但如果创建了与 PDF 同名（中文）的 `.md`，脚本会认为这是"已有页面"而保留，导致侧边栏出现两个入口**
+- **压缩门槛**：PDF > 100MB 必须用 ghostscript 压缩（GitHub 单文件上限 100MB）
+- **commit 体积**：超大 PDF 会导致 push 超时，等待即可（或者用 `git push --no-thin`）
+
+---
+
 ## 构建与预览
 
 ```bash
