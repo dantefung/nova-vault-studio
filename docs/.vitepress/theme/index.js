@@ -3,6 +3,8 @@
 import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
+import PdfList from './components/PdfList.vue'
+import PdfViewer from './components/PdfViewer.vue'
 import './markmap.css'
 import './fonts.css'
 import './themes.css'
@@ -14,6 +16,8 @@ export default {
     if (typeof DefaultTheme.enhanceApp === 'function') {
       DefaultTheme.enhanceApp(ctx)
     }
+    ctx.app.component('PdfList', PdfList)
+    ctx.app.component('PdfViewer', PdfViewer)
     if (typeof window === 'undefined') return
     installUrlParsePolyfill()
     installPromiseWithResolversPolyfill()

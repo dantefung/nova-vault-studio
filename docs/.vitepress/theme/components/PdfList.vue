@@ -53,7 +53,7 @@ const props = defineProps({
   dir: { type: String, default: '' }
 })
 
-const raw = import.meta.globEager('../../../md/books/**/*.pdf')
+const raw = import.meta.glob('../../../md/books/**/*.pdf', { eager: true })
 
 const groups = {}
 Object.entries(raw).forEach(([filePath, module]) => {
