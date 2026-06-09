@@ -39,18 +39,18 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [llm-wiki](/md/wiki/pages/concepts/llm-wiki) | 持久化、复利的知识库模式 | skill |
-| [prompt-context-harness](/md/wiki/pages/concepts/prompt-context-harness) | Prompt→Context→Harness 工程进化论 | 文章 |
-| [agentic-engineer](/md/wiki/pages/concepts/agentic-engineer) | Agent 工程架构全链路 | 专栏 |
+| [llm-wiki](/md/wiki/concepts/llm-wiki) | 持久化、复利的知识库模式 | skill |
+| [prompt-context-harness](/md/wiki/concepts/prompt-context-harness) | Prompt→Context→Harness 工程进化论 | 文章 |
+| [agentic-engineer](/md/wiki/concepts/agentic-engineer) | Agent 工程架构全链路 | 专栏 |
 
 ### 工具与技能 (Tools & Skills)
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [claude-skills](/md/wiki/concepts/claude-skills) | Claude 生态扩展机制，渐进式加载、可执行代码、跨平台移植 | 文章 |
-| [claude-code-setup](/md/wiki/pages/concepts/claude-code-setup) | 官方插件，扫描代码库推荐自动化配置 | 插件 |
-| [opencode-cc-adapter](/md/wiki/pages/concepts/opencode-cc-adapter) | 桥接 Claude Code 生态到 OpenCode | 插件 |
-| [oh-my-claudecode](/md/wiki/pages/concepts/oh-my-claudecode) | Claude Code 超集工作流框架 | skill |
+| [claude-code-setup](/md/wiki/concepts/claude-code-setup) | 官方插件，扫描代码库推荐自动化配置 | 插件 |
+| [opencode-cc-adapter](/md/wiki/concepts/opencode-cc-adapter) | 桥接 Claude Code 生态到 OpenCode | 插件 |
+| [oh-my-claudecode](/md/wiki/concepts/oh-my-claudecode) | Claude Code 超集工作流框架 | skill |
 | [pensieve](/md/columns/agentic-engineer/pensieve) | 自增长的 AI Agent 项目知识库，四层结构化记忆 | 项目 |
 | [llm-wiki-product](/md/wiki/sources/llm-wiki-product) | Karpathy 方法论工程化实现，10.3k Stars 跨平台知识库 | X |
 | [auto-ppt-harness](/md/wiki/sources/auto-ppt-harness) | React 代码写 PPT 的 Harness，双反馈循环驱动 | GitHub |
@@ -92,8 +92,8 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [vibe-coding](/md/wiki/pages/concepts/vibe-coding) | 自然语言编程入门到实战 | 专栏 |
-| [agentic-engineer](/md/wiki/pages/concepts/agentic-engineer) | Agent 工程完整知识体系 | 专栏 |
+| [vibe-coding](/md/wiki/concepts/vibe-coding) | 自然语言编程入门到实战 | 专栏 |
+| [agentic-engineer](/md/wiki/concepts/agentic-engineer) | Agent 工程完整知识体系 | 专栏 |
 | [ai-finance-tool-dev](/md/wiki/patterns/ai-finance-tool-dev) | AI 辅助金融量化工具开发模式 | 公众号 |
 | [claude-code-build-site](/md/wiki/concepts/claude-code-build-site) | 用 Claude Code 建站：非程序员 6 小时完成 SEO 建站全流程 | 公众号 |
 
