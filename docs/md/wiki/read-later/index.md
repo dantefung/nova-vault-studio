@@ -30,6 +30,12 @@ date: "2026-05-29"
 | 2026-06-09 | https://mp.weixin.qq.com/s/OqbXqE8Go-vsLTX-O-JwbA | **控制论与智能体编码中的"人在环上"**（思特沃克洞见）：从 HITL 到 HOTL（Human-on-the-loop）范式转变，用控制论（维纳/Beer VSM/马利克）做桥梁管理 Agent 系统。核心：衰减（过滤噪音）+ 放大（编码全局策略）+ 现地现物（Gemba）+ 双环学习。关联：本仓 [[agentic-engineer]] 框架，llm-wiki 的"塑造与配置"思路。 |
 | 2026-06-09 | https://mp.weixin.qq.com/s/2Cq0QR3vcKlMHkI0XyYYrw | **如何更科学、方向可控的实现 Skill 的"自进化"？（阿里云开发者）**：三篇里程碑论文深度解析——**Trace2Skill**（归纳法学派：并行分析大量轨迹→层次化合并）、**EvoSkill**（自验证选择学派：前沿集合+失败驱动+验证门控）、**SkillOpt**（训练优化器学派：Skill=外部可训练参数，Bounded Learning Rate+动量+元学习）。核心洞察：从"经验主义"走向"科学工程"，验证=reward function，无验证的优化=盲目。关联：本仓 llm-wiki [[llm-wiki]] Skill 自进化方向。 |
 
+## GitHub
+
+| 日期 | 链接 | 摘要 |
+|------|------|------|
+| 2026-06-10 | https://github.com/Leonxlnx/taste-skill | **Taste-Skill 审美品味 Skill（36.5k Stars）**：给 AI 装上"设计品味过滤器"，解决大模型生成内容千篇一律的根本问题。审美品味过滤器 + 个性输出 + 品味学习 + 创意增强。部署：`npx skills add taste-skill`。关联：本仓 [[taste-skill]]（已归档）|
+
 ## 其他
 
 <!-- 待补充 -->
