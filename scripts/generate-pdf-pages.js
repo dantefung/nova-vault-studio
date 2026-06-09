@@ -49,6 +49,15 @@ title: ${title}
     const base = file.replace(/\.pdf$/i, '')
     const mdPath = path.join(fullDir, `${base}.md`)
 
+    const existingMds = fs.readdirSync(fullDir).filter(f =>
+      f.endsWith('.md') && !f.startsWith('index')
+    )
+    const alreadyReferenced = existingMds.some(f => {
+      const content = fs.readFileSync(path.join(fullDir, f), 'utf8')
+      return content.includes(`./${file}`)
+    })
+    if (alreadyReferenced) return
+
     const mdContent = `# ${normalizeName(base)}
 
 <script setup>
