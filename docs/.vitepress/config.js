@@ -112,6 +112,7 @@ export default defineConfig({
           { text: '核心概念', link: '/md/wiki/concepts/' },
           { text: '模式与方法论', link: '/md/wiki/patterns/' },
           { text: '产品与工具', link: '/md/wiki/products/' },
+          { text: '原始文档', link: '/md/wiki/sources/' },
           { text: '对比分析', link: '/md/wiki/comparisons/' },
           { text: '日记', link: '/md/wiki/journal/' },
           { text: '稍后读', link: '/md/wiki/read-later/' },
@@ -176,6 +177,11 @@ export default defineConfig({
           items: generateSidebar('docs/md/wiki/products', '/md/wiki/products/')
         },
         {
+          text: '原始文档 (Sources)',
+          collapsed: false,
+          items: generateSidebar('docs/md/wiki/sources', '/md/wiki/sources/')
+        },
+        {
           text: '对比分析',
           collapsed: false,
           items: generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/')
@@ -195,6 +201,7 @@ export default defineConfig({
       '/md/wiki/patterns/': generateSidebar('docs/md/wiki/patterns', '/md/wiki/patterns/'),
       '/md/wiki/products/': generateSidebar('docs/md/wiki/products', '/md/wiki/products/'),
       '/md/wiki/comparisons/': generateSidebar('docs/md/wiki/comparisons', '/md/wiki/comparisons/'),
+      '/md/wiki/sources/': generateSidebar('docs/md/wiki/sources', '/md/wiki/sources/'),
       '/md/business/': generateSidebar('docs/md/business', '/md/business/'),
       '/md/columns/': generateSidebar('docs/md/columns', '/md/columns/'),
       '/md/slides/': generateSidebar('docs/md/slides', '/md/slides/'),
