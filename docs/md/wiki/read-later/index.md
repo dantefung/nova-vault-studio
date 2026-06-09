@@ -28,6 +28,7 @@ date: "2026-05-29"
 | 2026-06-04 | https://mp.weixin.qq.com/s/AZ-np48XJLM1QO5NJ_YiVA | **用 LLM Agent 重构告警排查流程（得物技术）**：用 **Spring AI Alibaba ReAct Agent** + Supervisor Agent 编排，自动完成告警数据采集/根因分析/处置建议；4 个排查工具（指标/日志/链路/知识）+ Validation Agent 验收 + 知识沉淀闭环。**中位排查耗时 20min→4.4min**，覆盖 11 个服务 10+ 告警类型。核心难点：动态策略组装、工具超时隔离、AI 权限安全、幻觉控制。跟本仓 `agentic-engineer` 主题强相关。 |
 | 2026-06-09 | https://mp.weixin.qq.com/s/--PaxhI2_8dz4bpcDy1ciw | **给 Agent 引入专家：自定义子代理**（天空的代码世界）：通用子代理/自定义子代理/fork子代理/Teammate 四种模式，"配置即能力"——给 Agent 加新行为成本压到"写一段 Markdown"。四个 frontmatter 字段（name/description/model/max_turns）定义专家。关联：本仓 [[agentic-engineer]] 子代理章节 + Serenity Skill 多专家分工思路。 |
 | 2026-06-09 | https://mp.weixin.qq.com/s/OqbXqE8Go-vsLTX-O-JwbA | **控制论与智能体编码中的"人在环上"**（思特沃克洞见）：从 HITL 到 HOTL（Human-on-the-loop）范式转变，用控制论（维纳/Beer VSM/马利克）做桥梁管理 Agent 系统。核心：衰减（过滤噪音）+ 放大（编码全局策略）+ 现地现物（Gemba）+ 双环学习。关联：本仓 [[agentic-engineer]] 框架，llm-wiki 的"塑造与配置"思路。 |
+| 2026-06-09 | https://mp.weixin.qq.com/s/2Cq0QR3vcKlMHkI0XyYYrw | **如何更科学、方向可控的实现 Skill 的"自进化"？（阿里云开发者）**：三篇里程碑论文深度解析——**Trace2Skill**（归纳法学派：并行分析大量轨迹→层次化合并）、**EvoSkill**（自验证选择学派：前沿集合+失败驱动+验证门控）、**SkillOpt**（训练优化器学派：Skill=外部可训练参数，Bounded Learning Rate+动量+元学习）。核心洞察：从"经验主义"走向"科学工程"，验证=reward function，无验证的优化=盲目。关联：本仓 llm-wiki [[llm-wiki]] Skill 自进化方向。 |
 
 ## 其他
 
