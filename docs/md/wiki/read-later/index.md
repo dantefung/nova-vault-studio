@@ -26,6 +26,9 @@ date: "2026-05-29"
 | 2026-05-31 | https://mp.weixin.qq.com/s/S7HO98KRB2VBqBkBjSNa6g | **Obsidian 插件授权系统改造复盘**：用户买了 Pro 却激活不了，因为国内网络无法访问 Cloudflare Worker。改造方案：国内备用节点 + License 签名校验（客户端必须验证签名，中间人无法伪造）+ 多端点故障转移。关键设计点：私钥保护、KV 存储、ICP 备案/CORS/SSL 证书坑点。还发现"清除本机授权"其实没有释放服务端名额的设计 bug。 |
 | 2026-06-04 | https://mp.weixin.qq.com/s/6hDDkU2z31K67y8Z9dcqhw | **AI研发自动化：Wiki知识库+技能包**：把 AI 研发自动化拆成两条腿——**LLM-Wiki 知识库**（Karpathy 26/04 提出的"新知识库模式"，本质是 SKILL/md 文件，把 LLM 从 RAG 引擎变成"维护 wiki 的全职编辑"，知识增长是**复利式**而非线性）+ **领域专家 SKILL 包**（写方案/写代码/评审/测试/答疑/排障）。架构三层：Sources（只读真源）→ Wiki（LLM 全权 md 实体/概念/综述页）→ Schema（工作流规范）。核心操作是 Ingest/Query/Lint 三件套。最终目标：用户给 PRD，剩下全交给 agent。跟本仓 `llm-wiki` skill 主题完全契合。 |
 | 2026-06-04 | https://mp.weixin.qq.com/s/AZ-np48XJLM1QO5NJ_YiVA | **用 LLM Agent 重构告警排查流程（得物技术）**：用 **Spring AI Alibaba ReAct Agent** + Supervisor Agent 编排，自动完成告警数据采集/根因分析/处置建议；4 个排查工具（指标/日志/链路/知识）+ Validation Agent 验收 + 知识沉淀闭环。**中位排查耗时 20min→4.4min**，覆盖 11 个服务 10+ 告警类型。核心难点：动态策略组装、工具超时隔离、AI 权限安全、幻觉控制。跟本仓 `agentic-engineer` 主题强相关。 |
+| 2026-06-09 | https://mp.weixin.qq.com/s/--PaxhI2_8dz4bpcDy1ciw | **给 Agent 引入专家：自定义子代理**（天空的代码世界）：通用子代理/自定义子代理/fork子代理/Teammate 四种模式，"配置即能力"——给 Agent 加新行为成本压到"写一段 Markdown"。四个 frontmatter 字段（name/description/model/max_turns）定义专家。关联：本仓 [[agentic-engineer]] 子代理章节 + Serenity Skill 多专家分工思路。 |
+| 2026-06-09 | https://mp.weixin.qq.com/s/OqbXqE8Go-vsLTX-O-JwbA | **控制论与智能体编码中的"人在环上"**（思特沃克洞见）：从 HITL 到 HOTL（Human-on-the-loop）范式转变，用控制论（维纳/Beer VSM/马利克）做桥梁管理 Agent 系统。核心：衰减（过滤噪音）+ 放大（编码全局策略）+ 现地现物（Gemba）+ 双环学习。关联：本仓 [[agentic-engineer]] 框架，llm-wiki 的"塑造与配置"思路。 |
+| 2026-06-09 | https://mp.weixin.qq.com/s/2Cq0QR3vcKlMHkI0XyYYrw | **如何更科学、方向可控的实现 Skill 的"自进化"？（阿里云开发者）**：三篇里程碑论文深度解析——**Trace2Skill**（归纳法学派：并行分析大量轨迹→层次化合并）、**EvoSkill**（自验证选择学派：前沿集合+失败驱动+验证门控）、**SkillOpt**（训练优化器学派：Skill=外部可训练参数，Bounded Learning Rate+动量+元学习）。核心洞察：从"经验主义"走向"科学工程"，验证=reward function，无验证的优化=盲目。关联：本仓 llm-wiki [[llm-wiki]] Skill 自进化方向。 |
 
 ## 其他
 

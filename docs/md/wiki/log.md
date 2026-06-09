@@ -215,11 +215,23 @@ source: "llm-wiki"
 - 关联：guangzhou-industrial-ecommerce.md（广州案例为一件代发的中国进化版）
 - 分类：商业分析/
 
-## [2026-06-08] ingest: 面向 UI/UX 工程师的 8 个顶级 Claude Skills
+## [2026-06-08] ingest: jackwener/wx-cli，微信本地数据 CLI
 
-- 归档《Top 8 Claude Skills for UI/UX Engineers》Snyk Blog 至 sources/top-claude-skills-ui-ux-engineers.md
-- 内容摘要：梳理 8 个最值得关注的 Claude Skills，覆盖创意设计（Anthropic Frontend Design）、Web 审计（Vercel Guidelines）、React 性能（Vercel Best Practices）、组件架构（Composition Patterns）、设计智能（UI/UX Pro Max）、UX 设计（Bencium）、无障碍（AccessLint）、移动端（React Native）。核心观点：AI 不替代设计师判断力，而是释放创造力；多技能组合互补而非冲突
-- 分类：skills/
+- 归档 GitHub jackwener/wx-cli 至 sources/wx-cli.md
+- 内容摘要：微信本地数据 CLI 工具，Rust 实现，内存扫描提取 SQLCipher 4 密钥解密，支持会话/聊天记录/搜索/联系人/群成员/朋友圈/公众号文章/收藏/统计/导出，零依赖跨平台，3.3k Stars，AI Agent Skill 支持
+- 分类：products/
+
+## [2026-06-08] ingest: bingshuoguo/linus-torvalds-skills，Linus 式工程品味 Skill
+
+- 归档 GitHub bingshuoguo/linus-torvalds-skills 至 sources/linus-torvalds-skills.md
+- 内容摘要：Linus Torvalds 工程品味 AI Skill，四大原则（好品味/永不破坏用户空间/实用主义/极度求简），Claude Code/Cursor/Codex 通用，5 Stars
+- 分类：patterns/
+
+## [2026-06-08] ingest: inhai-wiki/video-highlight-skill，AI 视频高光剪辑 Skill
+
+- 归档 GitHub inhai-wiki/video-highlight-skill 至 sources/video-highlight-skill.md
+- 内容摘要：AI 视频高光 Skill，FFmpeg 剪辑 + SRT 字幕 + YouTube 风格回顾页，支持会议/课程/直播/短视频，7 Stars
+- 分类：products/
 
 ## [2026-06-08] wiki-ingest: claude-skills
 
