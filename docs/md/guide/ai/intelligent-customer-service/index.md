@@ -159,6 +159,10 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 | 14 | [意图分类：准确性与速度优化](./14-intent-classification.md) | 入口层优化 | Prompt格式、置信度体系、nano模型选型、CICLe路由 |
 | 15 | [渐进式 AI 编程](./15-progressive-ai-programming.md) | 外部转载 | 微信公众号文章：渐进式 AI 编程的实践与思考 |
 | 16 | [知识库检索不准？看我们是如何做的](./19-rag-knowledge-base-optimization.md) | 实战经验 | 企业级知识库 RAG + Graph RAG 优化方案 |
+| 17 | [LightRAG 使用经验总结](./20-lightrag-experience.md) | 实战经验 | top_k/chunk_top_k 调优、排查召回失效、数据清洗与图谱质量 |
+| 18 | [智能客服系统搭建指南](./16-customer-service-building-guide.md) | 实战指南 | 从零搭建企业级智能客服，含完整代码和架构 |
+| 19 | [RAG 知识库搭建方案分析](./17-rag-building-scheme-analysis.md) | 方案分析 | 多种 RAG 方案的对比与选型 |
+| 20 | [意图分类深度分析](./18-intent-classification-analysis.md) | 深度分析 | 意图分类准确率优化方法与实践经验 |
 
 ---
 
