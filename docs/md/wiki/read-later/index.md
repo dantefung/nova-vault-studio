@@ -38,4 +38,6 @@ date: "2026-05-29"
 
 ## 其他
 
-<!-- 待补充 -->
+| 日期 | 链接 | 摘要 |
+|------|------|------|
+| 2026-06-10 | https://codexradar.com/ | **CodexRadar**：AI Coding Agent / Skills 资讯站，追踪 GitHub trending 新发布，Codex/Claude Code/Cursor 等生态动态。待进一步了解定位。 |
