@@ -268,3 +268,21 @@ source: "llm-wiki"
 - 从 sources/claude-code-build-site.md 提炼概念页 concepts/claude-code-build-site.md
 - 核心概念：用 Claude Code 建站，非程序员 6 小时完成 SEO 建站全流程
 - 更新 index.md 新增 claude-code-build-site 条目
+
+## [2026-06-11] ingest: meigen.ai 出海建站案例
+
+- 归档《月访500万的AI生图站 meigen.ai 技术拆解》微信公众号至 sources/meigen-ai-tech-breakdown.md
+- 下载 19 张配图至 images/meigen-ai-tech-breakdown/
+- 内容摘要：meigen.ai 月访 576 万，SSR + 积分制 + 程序化 SEO，T3 国家市场策略，推客矩阵驱动自然增长
+
+## [2026-06-11] ingest: Hermes Agent + Obsidian 知识库
+
+- 归档《我把Hermes Agent接进 Obsidian 后，知识库终于不只是"存资料"了》至 sources/hermes-obsidian-knowledge-base.md
+- 下载 1 张配图至 images/hermes-obsidian-knowledge-base/
+- 内容摘要：Obsidian 做底座，Hermes Agent 做执行层。Source→Topic→Draft→Published 四步流转链路，知识库从仓库变生产线
+
+## [2026-06-11] ingest: Claude 100个提示策略
+
+- 归档《Claude 的真正上限：100个提示策略构建你的AI思维系统》至 sources/claude-prompt-strategies.md
+- 下载 11 张配图至 images/claude-prompt-strategies/
+- 内容摘要：10 大场景分类（结构化提示、推理框架、内容创作等），思维框架比模型版本更重要

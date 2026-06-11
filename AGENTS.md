@@ -12,6 +12,7 @@ title: "AI Agent 操作规范"
 
 - 这是一个 **纯内容站点**，不要运行 `npm test`/`npm run lint` — 这些命令不存在
 - 所有 `.md` 文件放在 `docs/md/` 下，侧边栏和导航由文件系统扫描自动生成
+- **每次完成任务都要主动汇报进度**
 
 ---
 
@@ -244,6 +245,14 @@ const pdfUrl = new URL('./{书名}.pdf', import.meta.url).href
 
 ---
 
+## 临时目录
+
+临时工作文件统一放在项目根目录 `_sandbox/` 下，完成后清理。不放在 `/tmp/`。
+
+**采集完成后**，必须清理 `_sandbox/` 目录，删除临时文件和图片。
+
+---
+
 ## 构建与预览
 
 ```bash
@@ -332,7 +341,27 @@ artifacts/
 ### Wiki 目录
 
 - Wiki 路径：`docs/md/wiki/`
-- Wiki 子目录：`artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`journal/`、`images/`
+- Wiki 子目录：`artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`journal/`、`images/`、`images/`（文章配图）
+- **索引页维护**：每个分类（vibe-coding、agentic-engineer、出海建站等）需要在 `index.md` 的分类索引中登记，sidebar 自动生成但 index 索引需手动更新
+
+---
+
+## TODO 待办列表
+
+用于记录待爬取的公众号内容链接，与「稍后读」同级。文件位置：`TODO.md`。
+
+**格式**：
+
+```markdown
+| 日期 | 链接 | 状态 |
+|------|------|------|
+| YYYY-MM-DD | https://... | pending |
+```
+
+**流程**：
+1. 记录链接，状态设为 `pending`
+2. 执行采集（`/wiki-ingest-article`）
+3. 完成后更新状态为 `done`，移至「已完成」区块
 - 一个页面 = 一个知识实体（概念、实体、摘要）
 - 文件命名：小写、中划线分隔（如 `claude-code-setup.md`）
 - 交叉引用：`[[pages/concept-name]]` Obsidian 兼容双括号格式
