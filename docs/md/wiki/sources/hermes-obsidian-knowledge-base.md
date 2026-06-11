@@ -1,5 +1,5 @@
 ---
-title: "我把Hermes Agent接进 Obsidian 后，知识库终于不只是"存资料"了"
+title: '我把Hermes Agent接进 Obsidian 后，知识库终于不只是"存资料"了'
 date: "2026-06-11"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/ZJZGwdWUlj8-L2Lsp1Zyog"
