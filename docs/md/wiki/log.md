@@ -286,3 +286,173 @@ source: "llm-wiki"
 - 归档《Claude 的真正上限：100个提示策略构建你的AI思维系统》至 sources/claude-prompt-strategies.md
 - 下载 11 张配图至 images/claude-prompt-strategies/
 - 内容摘要：10 大场景分类（结构化提示、推理框架、内容创作等），思维框架比模型版本更重要
+
+## [2026-06-11] ingest: 9个API平台出海
+
+- 归档《出海产品从0到1：我常用的9个API平台，语言、图片、视频、地图全整理》至 sources/ai-api-platforms-overseas.md
+- 下载 3 张配图至 images/ai-api-platforms-overseas/
+- 内容摘要：9 个常用 API 平台（语言/图片/视频/地图），API 组合是普通人出海产品的加速器
+
+## [2026-06-11] ingest: Harness 工程化实践
+
+- 归档《AI 不缺智商缺纪律：一场 Harness 工程化实践》至 sources/harness-engineering-practice.md
+- 下载 24 张配图至 images/harness-engineering-practice/
+- 内容摘要：harness 四阶段演进、三层加载架构、19节点链路、G1-G8门禁、7维评测体系
+
+## [2026-06-11] wiki-ingest: harness-engineering
+
+- 更新 concepts/harness-engineering.md（原有概念页）
+- 补充四阶段演进、thin controller 原则、19节点链路、7维评测体系
+- 新增 sources/harness-engineering-practice 为关联来源
+
+## [2026-06-11] ingest: 野生小虎出海SEO 100万UV（降级为稍后读）
+
+- X帖子嵌入文章需登录访问，无法抓图归档
+- 降级为稍后读，保留链接待后续采集
+
+## [2026-06-11] ingest: AI时代造富效应 + Agent团队9阶段
+
+- 归档《AI时代的造富效应》至 sources/ai-era-wealth-creation.md（无图片）
+- 归档《从零搭建AI Agent团队：9个阶段》至 sources/ai-agent-team-9-stages.md（9张图）
+- 内容摘要：造富公式/三路径/四赛道 + Agent团队三层九阶段架构
+
+## [2026-06-11] wiki-ingest: ai-era-wealth-creation + ai-agent-team-9-stages
+
+- 新建 patterns/ai-wealth-creation.md（AI时代造富模式）
+- 新建 patterns/multi-agent-architecture.md（多智能体架构9阶段）
+- 关联 sources → patterns 双向引用
+
+## [2026-06-11] wiki-ingest: claude-prompt-strategies + hermes-obsidian + meigen-ai
+
+- 新建 patterns/prompt-engineering.md（提示工程100策略）
+- 新建 patterns/ai-knowledge-workflow.md（AI知识管理工作流）
+- 新建 patterns/ai-product-seo-launch.md（AI产品SEO冷启动）
+- 关联 sources → patterns 双向引用
+
+## [2026-06-11] wiki-ingest: ai-api-platforms + flipbook-app + go-stock + guangzhou-ecommerce
+
+- 新建 patterns/ai-api-integration.md（AI API集成模式）
+- 新建 products/flipbook-app.md（交互式知识图谱）
+- 新建 products/go-stock.md（AI股票分析工具）
+- 新建 patterns/guangzhou-industrial-ecommerce.md（广州工业品电商模式）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: aitoearn + agent-reach + ai-local-brain + 40-thinking-models
+
+- 新建 products/aitoearn.md（AI全自动自媒体内容平台）
+- 新建 products/agent-reach.md（AI Agent互联网能力扩展）
+- 新建 patterns/personal-ai-infrastructure.md（个人AI基础设施）
+- 新建 patterns/thinking-models.md（40种思维模型）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: codex-skills + magic-slide + vibe-coding + ai-unemployment
+
+- 新建 products/codex-skills.md（Codex Skills精选列表）
+- 新建 products/magic-slide.md（HTML演示稿生成Skill）
+- 新建 products/personal-ai-infrastructure.md（PAI 个人AI操作系统）
+- 新建 patterns/engineering-taste.md（工程品味）
+- 新建 products/taste-skill.md（AI前端防丑Skill）
+- 新建 patterns/vibe-coding.md（氛围编程建站模式）
+- 新建 patterns/ai-unemployment-pattern.md（AI失业危机与应对策略）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: serenity + ui-polish + geju + open-design + social-card + design-to-html
+
+- 新建 patterns/serenity-stock-research.md（供应链卡点投研）
+- 新建 patterns/ui-polish.md（UI精致打磨）
+- 新建 patterns/geju-decision打开策略.md（AI决策打开策略）
+- 新建 products/open-design.md（开源Claude Design替代）
+- 新建 products/social-card-design.md（社媒封面图生成）
+- 新建 products/design-to-html.md（UI截图视觉还原）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: claude-skills-ui-ux + weread-exporter + awesome-design-md
+
+- 新建 patterns/claude-skills-ui-ux.md（UI/UX工程师顶级Skills）
+- 新建 products/weread-exporter.md（微信读书全本导出）
+- 新建 products/awesome-design-md.md（72+品牌设计系统文档集合）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: auto-ppt + ddd-harness + video-highlight
+
+- 新建 products/auto-ppt.md（React代码制作PPT）
+- 新建 patterns/ddd-four-layer-architecture.md（DDD四层架构微服务样板）
+- 新建 products/video-highlight-skill.md（AI视频高光剪辑）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: ai-rd-automation + skillshare + cell-architecture
+
+- 新建 patterns/ai-rd-automation.md（AI研发自动化Wiki知识库+技能包）
+- 新建 products/skillshare.md（AI CLI Skills跨平台同步）
+- 新建 products/cell-architecture-studio.md（3D细胞结构交互画廊）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: tolaria + obsidian-hermes + openai-plugins
+
+- 新建 products/tolaria.md（Markdown知识库桌面管理）
+- 新建 patterns/obsidian-hermes-knowledge-factory.md（Obsidian+Hermes知识库生产线）
+- 新建 products/openai-plugins.md（OpenAI Codex官方插件示例集合）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: gstack-skills + ai-website-cloner + generic-agent
+
+- 新建 patterns/gstack-skills.md（AI编程助手团队化）
+- 新建 products/ai-website-cloner.md（网站克隆为Next.js）
+- 新建 concepts/generic-agent.md（自我进化AI Agent框架）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: claude-cookbooks + google-skills + serenity-stock-trading
+
+- 新建 products/claude-cookbooks.md（Anthropic官方使用菜谱集）
+- 新建 products/google-skills.md（Google官方Skills合集）
+- 新建 patterns/serenity-stock-trading.md（三人合议制投资框架）
+- 关联 sources → patterns/products 双向引用
+
+## [2026-06-11] wiki-ingest: serenity-skill family consolidation
+
+- 新建 concepts/serenity-investment-methodology.md（AI供应链卡脖子分析统一方法论）
+- 新建 products/serenity-skill-fansite.md（粉丝站版本）
+- 新建 products/serenity-aleabitoreddit.md（完整推文档案）
+- 新建 products/serenity-skill-zad.md（ZadAnthony版本）
+- 关联 sources → concepts/products 双向引用
+
+## [2026-06-11] wiki-ingest: serenity-cross-market + serenity-aleabitoreddit-skill + career-ops + last30days + pm-skills
+
+- 新建 products/serenity-cross-market-skill.md（跨市场供应链卡点）
+- 新建 products/serenity-aleabitoreddit-skill.md（WYP版本）
+- 新建 products/career-ops.md（AI求职系统）
+- 新建 products/last30days-skill.md（近30天趋势研究）
+- 新建 products/pm-skills.md（产品经理Skills市场）
+- 关联 sources → products 双向引用
+
+## [2026-06-11] wiki-ingest: web-designer + turbovec + meigen-ai
+
+- 新建 products/web-designer-plugin.md（48个Award级设计模式）
+- 新建 products/turbovec.md（向量检索库）
+- 新建 products/meigen-ai.md（AI生图平台）
+- 关联 sources → products 双向引用
+
+## [2026-06-11] wiki-ingest: multi-agent-architecture + prompt-engineering + harness-engineering-practice
+
+- 更新 patterns/multi-agent-architecture.md（多Agent协作架构）
+- 更新 patterns/prompt-engineering.md（100个提示策略）
+- 新建 patterns/harness-engineering-practice.md（Harness工程化实践）
+- 关联 sources → patterns 双向引用
+
+## [2026-06-11] wiki-ingest: ai-era-wealth-creation
+
+- 更新 patterns/ai-wealth-creation.md（AI时代造富效应）
+- 关联 sources → patterns 双向引用
+
+## [2026-06-11] wiki-ingest: ai-api-platforms + guangzhou-ecommerce + react-component-libraries
+
+- 新建 patterns/ai-api-platforms-overseas.md（出海API平台）
+- 新建 patterns/guangzhou-industrial-ecommerce.md（广州工业品电商）
+- 新建 comparisons/react-component-libraries.md（React组件库对比）
+- 关联 sources → patterns双向引用
+
+## [2026-06-11] wiki-ingest: mycc-research-machine + llm-wiki-product
+
+- 新建 patterns/mycc-research-machine.md（AI研究机器四层架构）
+- 新建 products/llm-wiki-product.md（LLM Wiki知识管理产品化实现）
+- 关联 sources → patterns/products 双向引用

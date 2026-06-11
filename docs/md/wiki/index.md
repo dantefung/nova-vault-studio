@@ -40,6 +40,7 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [llm-wiki](/md/wiki/concepts/llm-wiki) | 持久化、复利的知识库模式 | skill |
+| [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
 | [prompt-context-harness](/md/columns/agentic-engineer/other-tools/prompt-context-harness-evolution) | Prompt→Context→Harness 工程进化论 | 文章 |
 | [agentic-engineer](/md/columns/agentic-engineer/) | Agent 工程架构全链路 | 专栏 |
 
@@ -102,6 +103,22 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [meigen-ai-tech-breakdown](/md/wiki/sources/meigen-ai-tech-breakdown) | 月访500万AI生图站：SSR + 积分制 + 程序化 SEO，T3国家市场策略 | 公众号 |
+| [ai-api-platforms-overseas](/md/wiki/sources/ai-api-platforms-overseas) | 9个常用API平台：语言/图片/视频/地图，API组合是出海产品加速器 | 公众号 |
+| [xiaohu-seo-1m-uv](/md/wiki/read-later/index) | 练手小游戏30天100万UV：野生小虎首次出海SEO实战复盘，纯自然流量 | X |
+
+### Agent 工程 (Agent Engineering)
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [ai-agent-team-9-stages](/md/wiki/sources/ai-agent-team-9-stages) | Anthropic 9阶段搭建Agent团队：从单个Agent到生产级协作，三层架构 | 公众号 |
+| [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
+
+### 商业模式 (Business Models)
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [ai-era-wealth-creation](/md/wiki/sources/ai-era-wealth-creation) | AI时代造富公式：现金流/股权/流动性三路径，四大赛道分析 | 公众号 |
+
 
 ### 内容工作流 (Content Workflows)
 

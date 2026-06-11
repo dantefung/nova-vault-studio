@@ -7,16 +7,7 @@
 | 日期 | 链接 | 状态 |
 |------|------|------|
 | 2026-06-11 | https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0NTU3NTc5Ng==&action=getalbum&album_id=4472291562085187591... | pending |
-| 2026-06-11 | mp.weixin.qq.com/s/_6_a_aM-874ZQicXSsP8Xg（AI时代的造富效应） | pending |
-| 2026-06-11 | https://mp.weixin.qq.com/s/UIEzO9_w06iRB7qpULnIQA | pending |
-
-## 待处理（图片已下载）
-
-| 来源目录 | 图片数 | 目标目录 | 状态 |
-|---------|--------|----------|------|
-| /tmp/images/article_9r/ | 3张 | docs/md/wiki/images/ai-api-platforms-overseas/ | pending |
-| /tmp/images/article_ho/ | 24张 | docs/md/wiki/images/ | pending |
 
 ## 已完成
 
-（暂无）
+- 2026-06-11：meigen.ai 出海建站、Hermes+Obsidian、Claude提示策略、9个API平台出海、Harness工程化实践、AI时代造富效应、Agent团队9阶段（均已归档）
