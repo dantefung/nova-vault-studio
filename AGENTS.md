@@ -16,6 +16,46 @@ title: "AI Agent 操作规范"
 
 ---
 
+## 系统功能矩阵概览
+
+### 内容板块（11 个）
+
+| 板块 | 用途 |
+|------|------|
+| guide | 指南文档（AI、Claude Code、CS、开发、终端、OS 等） |
+| wiki | LLM Wiki 知识库（四层架构） |
+| columns | 19 个深度专栏 |
+| books | 16 个书籍分类，支持 PDF 内嵌预览 |
+| slides | 横向翻页网页 PPT 集合 |
+| tutorial | 教程区 |
+| agi | AGI 相关教程 |
+| business | 商业分析（市场、模式、投资） |
+| sitelog | 站点自身文档 |
+
+### Skills 能力（18 个）
+
+| 类别 | 主要 Skill |
+|------|-----------|
+| 知识采集 | markdown-proxy、wiki-ingest-article |
+| 知识管理 | llm-wiki、content-factory |
+| 内容创作 | guizang-ppt-skill、article-illustrate、huashu-bookwriter |
+| 学习工具 | book-study、sigma、book2skill、nuwa-skill |
+| 文档处理 | pdf-to-markdown |
+| Git 工作流 | commit-as-prompt、gh-push |
+| 元技能 | skill-forge |
+
+### 站点特性
+
+- 全文搜索（中文分词）
+- Mermaid 图表、Markmap 思维导图
+- PDF 预览、HTML PPT 嵌入
+- 亮/暗主题切换、自动侧边栏
+- Sitemap、Vercel Analytics、Giscus 评论
+
+> 📋 **详细功能矩阵**：[sitelog/features/feature-matrix.md](./docs/md/sitelog/features/feature-matrix.md)
+
+---
+
 ## ⚠️ 致命坑
 
 ### Frontmatter `title` 是必填的，缺失会阻断提交
