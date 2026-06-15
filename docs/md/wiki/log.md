@@ -527,3 +527,10 @@ source: "llm-wiki"
 - 新建 patterns/mycc-research-machine.md（AI研究机器四层架构）
 - 新建 products/llm-wiki-product.md（LLM Wiki知识管理产品化实现）
 - 关联 sources → patterns/products 双向引用
+
+## [2026-06-15] ingest: Claude Code 18 款 UI/UX 设计 Skill 指南
+
+- 归档《Claude Code UI/UX 设计最佳 18 款 Skill 完整指南》博客至 sources/claude-code-18-ui-ux-design-skills.md
+- 下载 3 张配图至 images/claude-code-18-ui-ux-design-skills/
+- 内容摘要：解决 Claude Code 生成界面千篇一律的"分布收敛"问题，18 款设计 Skill 详细介绍（Anthropic Frontend Design、UI/UX Pro Max、Taste Skill、Impeccable 等），含对比表和安装命令
+- 分类：products/design-skills
