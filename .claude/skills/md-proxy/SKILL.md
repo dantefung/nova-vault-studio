@@ -61,11 +61,16 @@ else:
 # 第一步：抓正文（含远程图片 URL），保存到 _sandbox/
 python3 .claude/skills/md-proxy/scripts/fetch_weixin.py "WEIXIN_URL" > _sandbox/wechat_xxx.md
 
-# 第二步：下载图片到本地（带 Referer 穿越防盗链）
+# 第二步：下载图片
 python3 .claude/skills/md-proxy/scripts/download-images.py _sandbox/wechat_xxx.md
 ```
 
-> **临时目录**：`/_sandbox/`（不是 `/tmp/`），完成后必须清理
+**第三步：归档后清理 _sandbox/**
+```bash
+rm -rf _sandbox/*
+```
+
+> **临时目录**：`/_sandbox/`（不是 `/tmp/`），采集完成后必须清空
 
 依赖：`playwright`、`beautifulsoup4`、`lxml`
 输出：YAML frontmatter（title, author, date, url）+ Markdown 正文
