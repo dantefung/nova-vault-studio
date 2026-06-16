@@ -160,6 +160,7 @@ date: "2026-05-05"
   - **资源库**：提示词大全（在线表格）、Skills 技能大全、系统提示词仓库、通用项目架构模板
   - **工具推荐**：VSCode、Cursor、Warp、Neovim、Claude Opus 4.5、GPT-5.1 Codex、Gemini CLI 等
   - 安装：克隆仓库即可使用，内含 Makefile 自动化脚本
+  - **Zread 深度解读**：[zread.ai/tukuaiai/vibe-coding-cn](https://zread.ai/tukuaiai/vibe-coding-cn/1-overview) — AI 驱动的 GitHub 仓库阅读工具，提供完整知识图谱和概念索引
 
 ---
 
