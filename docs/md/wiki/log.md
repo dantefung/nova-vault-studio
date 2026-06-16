@@ -534,3 +534,24 @@ source: "llm-wiki"
 - 下载 3 张配图至 images/claude-code-18-ui-ux-design-skills/
 - 内容摘要：解决 Claude Code 生成界面千篇一律的"分布收敛"问题，18 款设计 Skill 详细介绍（Anthropic Frontend Design、UI/UX Pro Max、Taste Skill、Impeccable 等），含对比表和安装命令
 - 分类：products/design-skills
+
+## [2026-06-15] ingest: Claude Design 10 个高级提示词
+
+- 归档《Claude Design 的 10 个高级提示词：Senior UX 设计师工作流》博客至 sources/claude-design-10-prompts.md
+- 下载 1 张配图至 images/claude-design-10-prompts/
+- 内容摘要：10 个可直接复制粘贴的实战提示词（信息架构师、零预算用户研究员、设计系统、微文案、引导设计师、可用性审计师、数据看板、无障碍专家、表单设计师、原型测试员），按角色/上下文/约束/输出格式参数化
+- 分类：products/design-skills
+
+## [2026-06-16] ingest: 8 个优质设计 Skills 解决 Vibe Coding 设计难题
+
+- 归档《8 个优质的设计 Skills 解决 Vibe Coding 设计难题》博客至 sources/8-design-skills-vibe-coding.md
+- 下载 8 张配图至 images/8-design-skills-vibe-coding/
+- 内容摘要：涵盖创意方向（Frontend Design、Taste Skill、Impeccable）、设计智能（UI/UX Pro Max、UI Design Brain）、质量合规（UI Skills）、工程模式（Designer Skills、UX Researcher Designer）四大类别
+- 分类：products/design-skills
+
+## [2026-06-16] ingest: Taste Skill 实测 - 从能看变成能商用
+
+- 归档《Taste Skill 实测：把 AI 设计从能看变成能商用》博客至 sources/taste-skill-302ai-review.md
+- 下载 9 张配图至 images/taste-skill-302ai-review/
+- 内容摘要：37k Stars 的 Taste Skill 深度实测，三大案例（Ferrari Luce 落地页、Nano Banana Pro 老项目优化、302.AI 品牌重塑），展示数值化参数系统如何打破 AI 界面平庸套路
+- 分类：products/design-skills
