@@ -15,6 +15,9 @@ url: "https://github.com/2025Emma/vibe-coding-cn/tree/main/i18n/zh/documents/Met
 
 | 日期 | 标题 | 说明 |
 |------|------|------|
+| 2026-06-16 | [开发范式演进](./development-paradigm-evolution.md) | 从过程式到 Vibe Coding 的六大范式演进 |
+| 2026-06-16 | [语言层与代码理解](./language-layers-code-comprehension.md) | 12 层认知模型：语法只占 30% |
+| 2026-06-16 | [递归自优化系统](./recursive-self-optimizing-system-zread.md) | 生成器即计算对象：不动点语义与 λ 演算 |
 | 2026-06-16 | [问题求解方法论](./problem-solving-methodology.md) | 从模糊到可执行的底层框架：定义×构建×验证 |
 | 2026-06-16 | [Glue Coding 哲学](./glue-coding-philosophy.md) | 拼好码：复用优先的工程判断力框架 |
 | 2026-06-16 | [递归自优化生成系统形式化](./recursive-self-optimizing-systems.md) | α-提示词与 Ω-提示词的递归优化理论 |
