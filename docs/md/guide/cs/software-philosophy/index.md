@@ -15,6 +15,8 @@ url: "https://github.com/2025Emma/vibe-coding-cn/tree/main/i18n/zh/documents/Met
 
 | 日期 | 标题 | 说明 |
 |------|------|------|
+| 2026-06-16 | [问题求解方法论](./problem-solving-methodology.md) | 从模糊到可执行的底层框架：定义×构建×验证 |
+| 2026-06-16 | [Glue Coding 哲学](./glue-coding-philosophy.md) | 拼好码：复用优先的工程判断力框架 |
 | 2026-06-16 | [递归自优化生成系统形式化](./recursive-self-optimizing-systems.md) | α-提示词与 Ω-提示词的递归优化理论 |
 | 2026-06-16 | [Gemini 无头模式](./gemini-headless.md) | Gemini CLI 无头模式使用指南 |
 | 2026-06-16 | [胶水编程](./glue-coding.md) | 用 AI 把现成组件粘在一起的编程方式 |
