@@ -7,6 +7,7 @@
 | 日期 | 链接 | 状态 |
 |------|------|------|
 | 2026-06-11 | https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0NTU3NTc5Ng==&action=getalbum&album_id=4472291562085187591... | pending |
+| 2026-06-12 | https://mp.weixin.qq.com/s/AOwVFJe13Yk3MEDcIdSpow | pending |
 
 ## 已完成
 

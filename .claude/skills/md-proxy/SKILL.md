@@ -38,7 +38,7 @@ description: |
 
 ```
 if URL contains "mp.weixin.qq.com":
-    → Step A: 公众号抓取
+    → Step A: 公众号抓取（两步走）
     → 结束
 
 if URL contains "feishu.cn/docx/" or "feishu.cn/wiki/" or "feishu.cn/docs/" or "larksuite.com/docx/":
@@ -53,20 +53,27 @@ else:
     → 继续 Step 1
 ```
 
-### Step A: 公众号文章抓取（内置）
+### Step A: 公众号文章抓取（两步走）
+
+**⚠️ 铁律：必须两步走，漏掉第二步图片就白抓了**
 
 ```bash
-python3 .claude/project-skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL"
+# 第一步：抓正文（含远程图片 URL），保存到 _sandbox/
+python3 .claude/skills/md-proxy/scripts/fetch_weixin.py "WEIXIN_URL" > _sandbox/wechat_xxx.md
+
+# 第二步：下载图片到本地（带 Referer 穿越防盗链）
+python3 .claude/skills/md-proxy/scripts/download-images.py _sandbox/wechat_xxx.md
 ```
+
+> **临时目录**：`/_sandbox/`（不是 `/tmp/`），完成后必须清理
 
 依赖：`playwright`、`beautifulsoup4`、`lxml`
 输出：YAML frontmatter（title, author, date, url）+ Markdown 正文
-失败时回退到 Step 1-2 代理服务。
 
 ### Step B: 飞书文档抓取（内置）
 
 ```bash
-python3 .claude/project-skills/markdown-proxy/scripts/fetch_feishu.py "FEISHU_URL"
+python3 .claude/skills/md-proxy/scripts/fetch_feishu.py "FEISHU_URL"
 ```
 
 依赖：`requests`（标准库级别），环境变量 `FEISHU_APP_ID` + `FEISHU_APP_SECRET`
@@ -116,19 +123,29 @@ defuddle parse "{original_url}" -m -j
 
 ### Step 5: 保存文件（默认执行）
 
-将抓取的 Markdown 内容保存到本地：
+将抓取的 Markdown 内容保存到 `_sandbox/`：
 
 ```
-默认保存路径：~/Downloads/{title}.md
+默认保存路径：_sandbox/{article-slug}.md
 文件格式：YAML frontmatter（title, author, date, url, source）+ Markdown 正文
 ```
 
-- 文件名用文章标题，去掉特殊字符
+- 文件名用文章 slug（英文或数字），去掉特殊字符
 - 如果用户指定了其他保存路径，按用户要求
+- **临时目录统一用 `_sandbox/`**，不是 `/tmp/`
 - 保存后告知用户文件路径
 - 如果用户明确说"不用保存"或只是快速预览，可以跳过
 
 ## Examples
+
+### 公众号文章（两步走）
+```bash
+# 第一步：抓正文到 _sandbox/
+python3 .claude/skills/md-proxy/scripts/fetch_weixin.py "https://mp.weixin.qq.com/s/abc123" > _sandbox/wechat_abc123.md
+
+# 第二步：下载图片
+python3 .claude/skills/md-proxy/scripts/download-images.py _sandbox/wechat_abc123.md
+```
 
 ### X/Twitter 帖子
 ```bash
@@ -140,19 +157,14 @@ curl -sL "https://r.jina.ai/https://x.com/username/status/1234567890"
 curl -sL "https://r.jina.ai/https://example.com/article"
 ```
 
-### 公众号文章
-```bash
-python3 .claude/project-skills/markdown-proxy/scripts/fetch_weixin.py "https://mp.weixin.qq.com/s/abc123"
-```
-
 ### 飞书文档
 ```bash
-python3 .claude/project-skills/markdown-proxy/scripts/fetch_feishu.py "https://xxx.feishu.cn/docx/xxxxxxxx"
+python3 .claude/skills/md-proxy/scripts/fetch_feishu.py "https://xxx.feishu.cn/docx/xxxxxxxx"
 ```
 
 ### 飞书知识库
 ```bash
-python3 .claude/project-skills/markdown-proxy/scripts/fetch_feishu.py "https://xxx.feishu.cn/wiki/xxxxxxxx"
+python3 .claude/skills/md-proxy/scripts/fetch_feishu.py "https://xxx.feishu.cn/wiki/xxxxxxxx"
 ```
 
 ## Notes
@@ -162,3 +174,5 @@ python3 .claude/project-skills/markdown-proxy/scripts/fetch_feishu.py "https://x
 - 飞书文档使用内置 API 脚本（需环境变量 `FEISHU_APP_ID` + `FEISHU_APP_SECRET`）
 - 飞书脚本自动将 blocks 转为 Markdown（标题、列表、代码块、引用、待办等）
 - 对于超长内容，可用 `| head -n 200` 先预览
+- **临时目录统一用 `_sandbox/`**，不是 `/tmp/`，完成后必须清理
+- **download-images.py 参数**：`python3 download-images.py <md_file>`，只需一个位置参数，不要加 `-i` 或 `-o`

@@ -1,7 +1,7 @@
 ---
 title: "一个 Obsidian、三个入口、一台常驻 Mac：我的 AI 个人工作流"
 author: "kaitox"
-date: "2026年6月1日 10:00"
+date: "2026-06-01"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ"
 ---

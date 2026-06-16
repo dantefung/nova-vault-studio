@@ -11,6 +11,77 @@ source: "llm-wiki"
 
 ---
 
+## [2026-06-16] WeChat archives completed
+
+- **claude-code-shortcuts.md** → source: Claude Code 快捷键 (Jay的觉醒之旅)
+- **gefei-seo-long-tail.md** → source: 哥飞SEO教程：新词老词策略
+- **Patterns**: long-tail-reverse-eating-main-keyword, seo-new-vs-old-keyword, seo-homepage-signal, seo-roi-analysis
+- **Note**: 两篇微信文章均无外部图片（微信内置图），无需本地化
+
+## [2026-06-14] llm-for-i-report registered
+
+- **LLM for i-Report** → product: [[llm-for-i-report]]
+  - 0 Stars, Python
+  - 专为i人设计的低阻力碎片化记录与智能汇报工具，命令行记录Done/Todo，LLM一键生成日/周/月报
+
+## [2026-06-14] one-job-one-resume registered
+
+- **One-Job-One-Resume** → product: [[one-job-one-resume]]
+  - 10 Stars, Python
+  - 一岗一件定制化简历，帮助应届生精准展示与目标职位匹配度
+
+## [2026-06-14] legado registered
+
+- **legado (阅读3.0)** → product: [[legado]]
+  - gedoor/legado: 46,891 Stars, 5,777 Forks
+  - 开源 Android 阅读器，自定义来源阅读网络小说
+  - 用户 fork: FountainChan/legado
+
+## [2026-06-14] tgo registered
+
+- **tgo** → product: [[TGO]] (tgoai/tgo)
+  - 495 Stars, 96 Forks, TypeScript
+  - 开源 AI Agent 客服平台：多渠道接入、RAG 知识库、Agent 编排、人工协作
+  - 核心提取：Web Widget + RAG 知识库 + MCP 工具 → 可作为网站智能客服
+
+## [2026-06-13] More sources processed
+
+- **code-x-lof-arbitrage.md** → patterns: [[ai-replaces-junior-dev]], [[lof-arbitrage]]
+- **go-stock.md** → product: [[go-stock]]
+- **ai-website-cloner-template.md** → patterns: [[ai-website-cloning]], [[parallel-agent-build]]
+
+## [2026-06-13] Bulk processing
+
+- **geju-skill.md** → pattern: [[geju-skill]]
+- **flipbook-canvas.md** → product: [[flipbook-canvas]]
+- **ddd-harness-microservices.md** → product: [[ddd-harness-microservices]]
+- **ai-era-wealth-creation.md** → pattern: [[wealth-leap-formula]]
+- **claude-prompt-strategies.md** → patterns: [[structured-prompt]], [[first-principles-reasoning]], [[multi-perspective-validation]]
+
+## [2026-06-13] ai-agent-team-9-stages
+
+- **Source**: [从零搭建AI Agent团队：9个阶段](https://mp.weixin.qq.com/s/UIEzO9_w06iRB7qpULnIQA)
+- **Images**: none (text-only article)
+- **Patterns**: agent-loop, context-engineering, typed-tool-schema, isolated-sub-agent, orchestrator-pattern, shared-task-list, memory-persistence-sandbox, evaluation-pipeline, permissions-file
+- **Products**: Anthropic-Claude (编排器用 Opus, 子 Agent 用 Sonnet/Haiku)
+- **Concepts**: multi-agent-architecture, agent-team
+
+## [2026-06-13] ai-local-brain
+
+- **Source**: [一个 Obsidian、三个入口、一台常驻 Mac：我的 AI 个人工作流](https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ) (kaitox)
+- **Images**: 5 images → `sources/images/ai-local-brain/` (already existed)
+- **Patterns**: local-data-backbone, always-on-mac, three-entry-points, four-layer-workflow, skill-based-integration, lan-nas-access
+- **Products**: codex, hermes-agent, obsidian, futu
+- **Fix**: date 格式修正 (2026年6月1日 10:00 → 2026-06-01)
+
+## [2026-06-13] agent-skill-iterative-writing
+
+- **Source**: [Agent skill 迭代式编写实战](https://mp.weixin.qq.com/s/59Z2eVOg914_bpRD6-WsYg) (物流技术团队)
+- **Images**: 16 images (001.gif, 002.webp, 003-016.png, 010.gif, 013.jpg) → `sources/images/agent-skill-iterative-writing/`
+- **Patterns**: progressive-disclosure, decision-tree, negative-constraint-with-alternative, self-review-mechanism, eval-mechanism, faas-analogy, skill-file-structure
+- **Products**: skill-creator, skill-judge, skills-sh, Claude-Skills, Agent-Skills, Cursor, OpenCode, Qoder, LangGraph, ReAct
+- **Concepts**: agent-skill
+
 ## [2026-05-29] init: 初始化 wiki 结构
 
 - 创建 `docs/md/wiki/` 目录结构（concepts/、products/、patterns/、comparisons/、entities/、summaries/、synthesis/、sources/）
