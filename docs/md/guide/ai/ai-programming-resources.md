@@ -151,6 +151,18 @@ date: "2026-05-05"
 
 ---
 
+## Vibe Coding 工作流
+
+- [vibe-coding-cn](https://github.com/2025Emma/vibe-coding-cn) — **21.7k Stars**，Vibe Coding 指南：通过与 AI 结对编程，将想法变为现实的终极工作站。核心理念：规划驱动 + 上下文固定 + AI 结对执行
+  - **元方法论**：α-提示词（生成器）+ Ω-提示词（优化器）的递归自优化系统
+  - **道法术器**：目的主导、上下文第一性、先结构后代码、奥卡姆剃刀、帕累托法则
+  - **编码模型分级**：第一梯队（codex-5.1-max-xhigh、claude-opus-4.5-xhigh、gpt-5.2-xhigh）
+  - **资源库**：提示词大全（在线表格）、Skills 技能大全、系统提示词仓库、通用项目架构模板
+  - **工具推荐**：VSCode、Cursor、Warp、Neovim、Claude Opus 4.5、GPT-5.1 Codex、Gemini CLI 等
+  - 安装：克隆仓库即可使用，内含 Makefile 自动化脚本
+
+---
+
 ## 设计模式与架构
 
 - [All Agentic Architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) — 主流 Agent 架构体系全景图，涵盖 ReAct、Plan-and-Execute、LLM Supervisor、Hierarchy 等多种范式，配有图解
