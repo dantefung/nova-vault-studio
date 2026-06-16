@@ -562,3 +562,11 @@ source: "llm-wiki"
 - 下载 2 张配图至 images/23-rag-accuracy-optimization/
 - 内容摘要：从文档解析到生成的全链路优化（文档清洗→切分策略→混合检索→Rerank→Prompt 打磨），包含 Java 生产级实现代码和效果评估指标
 - 分类：guide/ai/intelligent-customer-service
+
+## [2026-06-16] ingest: 程序员的底层思维 - 16 种底层思维能力
+
+- 归档《程序员的底层思维：解密 16 种底层思维能力》掘金至 columns/cognition/programmer-underlying-thinking.md
+- 下载 1 张配图至 images/programmer-underlying-thinking/
+- 内容摘要：《程序员底层思维》阅读笔记，介绍基础思维能力（抽象、逻辑、结构化、批判性、维度、分类、分治、简单、成长型）和专业思维能力（解耦、契约、模型、工具化、量化、数据、产品）共 16 种
+- 分类：columns/cognition
+- 新增认知专栏：创建 columns/cognition/index.md，更新 columns/index.md
