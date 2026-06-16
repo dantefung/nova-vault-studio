@@ -555,3 +555,10 @@ source: "llm-wiki"
 - 下载 9 张配图至 images/taste-skill-302ai-review/
 - 内容摘要：37k Stars 的 Taste Skill 深度实测，三大案例（Ferrari Luce 落地页、Nano Banana Pro 老项目优化、302.AI 品牌重塑），展示数值化参数系统如何打破 AI 界面平庸套路
 - 分类：products/design-skills
+
+## [2026-06-16] ingest: RAG 准确率翻倍的优化实践
+
+- 归档《RAG准确率翻倍，我做了这些优化。。。》公众号至 guide/ai/intelligent-customer-service/23-rag-accuracy-optimization.md
+- 下载 2 张配图至 images/23-rag-accuracy-optimization/
+- 内容摘要：从文档解析到生成的全链路优化（文档清洗→切分策略→混合检索→Rerank→Prompt 打磨），包含 Java 生产级实现代码和效果评估指标
+- 分类：guide/ai/intelligent-customer-service
