@@ -8,6 +8,9 @@
 |------|------|------|
 | 2026-06-11 | https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI0NTU3NTc5Ng==&action=getalbum&album_id=4472291562085187591... | pending |
 | 2026-06-12 | https://mp.weixin.qq.com/s/AOwVFJe13Yk3MEDcIdSpow | pending |
+| 2026-06-22 | 《AI 产品沉思录：流量先行，窄业务、小产品/工具》— zlbigger 文章中引用，待获取原文链接 | pending |
+| 2026-06-22 | 《AI 产品沉思录：小朋友玩起了 AI 智能体》— zlbigger 文章中引用，待获取原文链接 | pending |
+| 2026-06-22 | 《像更新文章一样创建 AI 小应用并以最小成本快速验证》— zlbigger 文章中引用，待获取原文链接 | pending |
 
 ## 已完成
 

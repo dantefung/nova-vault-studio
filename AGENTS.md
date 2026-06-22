@@ -24,7 +24,7 @@ title: "AI Agent 操作规范"
 |------|------|
 | guide | 指南文档（AI、Claude Code、CS、开发、终端、OS 等） |
 | wiki | LLM Wiki 知识库（四层架构） |
-| columns | 19 个深度专栏 |
+| columns | 20 个深度专栏 |
 | books | 16 个书籍分类，支持 PDF 内嵌预览 |
 | slides | 横向翻页网页 PPT 集合 |
 | tutorial | 教程区 |
@@ -87,24 +87,27 @@ file images/{文章名}/{图片名}.png    # 必须输出 "PNG image data"
 `fetch_weixin.py` 只抓 Markdown 正文和远程图片 URL，**不会下载图片到本地**。漏掉第二步图片就白抓了。
 
 ```bash
-# 第一步：抓正文（含远程图片 URL）
-python3 .claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL" > /tmp/temp.md
+# 第一步：抓正文（含远程图片 URL），输出到 _sandbox/
+python3 .claude/skills/markdown-proxy/scripts/fetch_weixin.py "WEIXIN_URL" > _sandbox/{文章英文名}.md
 
-# 第二步：下载图片到本地（必须紧跟，带 Referer 穿越防盗链）
-python3 .claude/skills/markdown-proxy/scripts/download-images.py -i /tmp/temp.md -o /tmp/temp.md
+# 第二步：下载图片到 _sandbox/images/{文章英文名}/（用 --prefix 指定目录）
+python3 .claude/skills/markdown-proxy/scripts/download-images.py _sandbox/{文章英文名}.md --prefix "images/{文章英文名}/"
 ```
 
 > **铁律**：markdown-proxy SKILL.md 已更新为强制两步流程。Agent 采集公众号时自动执行。手动调 `fetch_weixin.py` 必须补调 `download-images.py`。
+> **重要**：`download-images.py` 默认输出到 `./images/{prefix}/`，**必须用 `--prefix`** 指定为 `_sandbox/images/{文章英文名}/`，否则图片散落一地。
 
 ### 公众号采集后续处理
 
-**1. 移动图片到目标目录**
+**1. 图片路径已由脚本自动替换为本地相对路径**（`images/{文章英文名}/001.png` 等），无需手动修正。
 
-```bash
-cp -r /tmp/images/{article}/ docs/md/{分类}/{文章名}/images/
-```
+**2. 清理双 frontmatter**
 
-> 注意：`download-images.py` 写入的路径前缀默认是 `./images/article/`，需手动修正为正确目录名。可用 sed 批量替换。
+baoyu-fetch 可能产生两块 `---`：
+- 第一块：YAML 元数据（title/date/source/url 等）
+- 第二块：可能是额外的元数据或直接是正文
+
+处理方式：只保留第一块 frontmatter（`---` 闭合后到下一个 `---` 之间的内容全部删除），正文从 `# 标题` 行开始。
 
 **2. 清理双 frontmatter**
 
@@ -383,6 +386,49 @@ artifacts/
 - Wiki 路径：`docs/md/wiki/`
 - Wiki 子目录：`artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`journal/`、`images/`、`images/`（文章配图）
 - **索引页维护**：每个分类（vibe-coding、agentic-engineer、出海建站等）需要在 `index.md` 的分类索引中登记，sidebar 自动生成但 index 索引需手动更新
+
+---
+
+## 日记记录 (Journal Diary)
+
+用于记录用户的随思、感悟、语录等非结构化内容。触发词：「记录日记」、「记一下」、「写个日记」、「随手记」。
+
+### 文件位置
+
+- 目录：`docs/md/wiki/journal/`
+- 文件名：`YYYY-MM-DD.md`（按日期分文件）
+
+### 内容组织
+
+按**内容主题**划分章节/条目，追加到当天的文件里。同一日期的多条记录放在同一个文件的不同章节。
+
+### 格式
+
+```markdown
+## HH:MM 主题标签
+
+内容...
+
+*—— 来源*
+```
+
+### index.md 索引维护
+
+`index.md` 是日记索引，**只登记不写内容**。每次新建/更新日记文件后，在 `index.md` 顶部追加索引条目：
+
+```markdown
+## YYYY-MM-DD
+
+- [HH:MM] 主题标签 — 一句话摘要
+- [HH:MM] 主题标签 — 一句话摘要
+```
+
+index.md 保持按日期倒序排列（最新日期在前）。
+
+### 操作流程
+
+1. 用户说"记录日记" → 记录内容到 `docs/md/wiki/journal/YYYY-MM-DD.md`
+2. 更新 `index.md` 的索引条目
 
 ---
 

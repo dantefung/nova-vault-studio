@@ -44,3 +44,9 @@ date: "2026-05-29"
 |------|------|------|
 | 2026-06-10 | https://codexradar.com/ | **CodexRadar**：AI Coding Agent / Skills 资讯站，追踪 GitHub trending 新发布，Codex/Claude Code/Cursor 等生态动态。待进一步了解定位。 |
 | 2026-06-10 | http://vibe-ui.youji.pro/ | **Vibe UI Design Guide**：AI 生成 UI 的完整设计到开发路径。两条路（UI Kit+MCP / design.md）、15 个设计系统模板（Clean/Minimal/Modern/Elegant 等）、设计 Token 提取流程、技术栈选型（HTML/React/Next.js/Tailwind）、资源导航（字体/图标/Prompt/Skill）。来源：有籍（youji.pro）|
+## 2026-06-21 王紫菜粉丝见证
+
+| 日期 | 链接 | 内容 |
+|------|------|------|
+| 2026-06-21 | 本条见证 | **记录**：19年2月开始跟着紫菜抢演唱会门票→茅台→手机→泡泡玛特→港股打新→NFT打新→Web3。"执行跟着紫菜走，很难不赚钱。" — 信任积累的活生生案例，从+10分的小任务一路升级到Web3合作。 |
+

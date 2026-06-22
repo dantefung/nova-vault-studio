@@ -11,6 +11,167 @@ source: "llm-wiki"
 
 ---
 
+## [2026-06-22] ai-productivity-not-website wiki-ingest
+
+- **Source**: [核心不是网站而是利用 AI](https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w) (zlbigger)
+- **Pattern**: [[ai-productivity-tool-not-the-goal]] - AI是生产力工具，替换工作流，更快验证
+
+## [2026-06-22] ai-website-passive-income wiki-ingest
+
+- **Source**: [利用 AI 给自己做个网站给养老吧](https://mp.weixin.qq.com/s/rIu6Efw7m54FENXEvqtvyg) (zlbigger)
+- **Pattern**: [[ai-agent-content-farm]] - AI Agent 内容农场，躺赚模式
+
+## [2026-06-21] hidden-asset-inheritance wiki-ingest
+
+- **Source**: [隐性资产传承](https://) (小鹅劳斯)
+- **Pattern**: [[hidden-asset-inheritance]] - 金钱工具论、机会准备论、城市杠杆、隐性资产传承
+
+## [2026-06-21] first-bucket-consumer-to-producer wiki-ingest
+
+- **Source**: [第一桶金从消费者到生产者](https://) (小鹅劳斯视频文案)
+- **Pattern**: [[first-bucket-consumer-to-producer]] - 第一桶金来自消费到生产的转变，任何一端形成优势实现套利
+
+## [2026-06-21] ajie-money-not-important wiki-ingest
+
+- **Source**: [对话阿杰|30岁以前，挣钱不重要](https://mp.weixin.qq.com/s/KbF1g3W0KF616jDaAfbUxQ) (小鹅/阿杰)
+- **Pattern**: [[ajie-money-not-important]] - 信息来源>资金，项目选择三维，优秀创业者三特质
+
+## [2026-06-21] five-days-near-dropout wiki-ingest
+
+- **Source**: [退学边缘的五天里，我得到了一份让我复用终身的资产](https://mp.weixin.qq.com/s/_LMqkF7tJ1kiIZiTDIuLnQ) (小鹅劳斯)
+- **Pattern**: [[five-days-near-dropout]] - 重大决策前多问，预见极端风险，短线思维的危害
+
+## [2026-06-21] city-second-birth wiki-ingest
+
+- **Source**: [换个城市，相当于二次投胎](https://mp.weixin.qq.com/s/oMY2FWh-ztDDLX-7Jd9QbA) (小鹅)
+- **Pattern**: [[city-second-birth]] - 换个城市逃脱原生家庭惯性，选择新的人生算法
+
+## [2026-06-21] private-domain-arrogance wiki-ingest
+
+- **Source**: [我想不通，原来真的会有人讨厌挣钱…](https://mp.weixin.qq.com/s/2FxSbLu6KxntpKItu7EIsg) (小鹅劳斯)
+- **Pattern**: [[private-domain-arrogance]] - 私域傲慢vs微商偏见，做好私域+社群的触达率和终身价值
+
+## [2026-06-21] knowledge-payment-value wiki-ingest
+
+- **Source**: [花了五千块学做公众号，感觉被套路了…](https://mp.weixin.qq.com/s/PtcJHya5nJg5N2VwLcktTA) (小鹅劳斯)
+- **Pattern**: [[knowledge-payment-value]] - 知识付费三目的三坑，选课三层自我审视
+
+## [2026-06-21] refutation-personality wiki-ingest
+
+- **Source**: [注定贫穷的性格——反驳性人格](https://mp.weixin.qq.com/s/MnNS0M_qEa6PD2zDkUCARQ) (小鹅劳斯)
+- **Pattern**: [[refutation-personality]] - 反驳性人格注定贫穷，先听逻辑再判断，保持空杯心态
+
+## [2026-06-21] question-reveals-tier wiki-ingest
+
+- **Source**: [问的每个问题，其实都在暴露你的段位](https://mp.weixin.qq.com/s/2abGj6OnqJAUGZGN66LMrQ) (小鹅劳斯)
+- **Pattern**: [[question-reveals-tier]] - 结构化提问体现逻辑能力，问对问题比找到答案更重要
+
+## [2026-06-21] ninth-month-recap wiki-ingest
+
+- **Source**: [鹅的九月复盘](https://mp.weixin.qq.com/s/SvdCOX24wwAC5MnQrwgXbg) (小鹅劳斯)
+- **Pattern**: [[ninth-month-recap]] - 解决问题的能力决定命运，超级个体必须学会外放
+
+## [2026-06-21] social-intro-and-king-of-oneself wiki-ingest
+
+- **Source**: [士为知己者死（上）](https://mp.weixin.qq.com/s/7nx6_Ga0JmDw1lfj_nXzrA) (小鹅劳斯)
+- **Pattern**: [[social-intro-and-king-of-oneself]] - 向上社交艺术，自我介绍是关键，够用指数，多种种子
+
+## [2026-06-21] income-structure-four-certainties wiki-ingest
+
+- **Source**: [对话杨涛：知识付费防坑指南](https://mp.weixin.qq.com/s/Y8eDZI_ZO0YO0wonj8g_5w) (小鹅/杨涛)
+- **Pattern**: [[income-structure-four-certainties]] - 收入结构要健康，四个确定性判断项目，望闻问切防坑
+
+## [2026-06-21] money-shame-and-ai-tool wiki-ingest
+
+- **Source**: [对话虎牙：年轻人，拒绝谈钱羞耻](https://mp.weixin.qq.com/s/uiiIYhAHyboBde9c1u4Zew) (小鹅劳斯对话虎牙)
+- **Pattern**: [[money-shame-and-ai-tool]] - 拒绝谈钱羞耻，AI是工具不能神化，创业趁早试错成本低
+
+## [2026-06-21] four-layer-filter wiki-ingest
+
+- **Source**: [大多数人成不了事儿的原因，就一句话](https://mp.weixin.qq.com/s/Zl6UbmtN9KSKWQ-GI4k58A) (小鹅劳斯)
+- **Pattern**: [[four-layer-filter]] - 看见→相信→动手→坚持，市场奖励通过四层筛选的人
+
+## [2026-06-21] ai-writing-micro-business wiki-ingest
+
+- **Source**: [最适合互联网新手的小项目——AI写作](https://mp.weixin.qq.com/s/2BC2eE1R-m-d_snkvz8wKA) (小鹅劳斯)
+- **Pattern**: [[ai-writing-micro-business]] - AI写作市场洞察+知识付费筛选原则
+
+## [2026-06-21] cannot-play-beyond-character wiki-ingest
+
+- **Source**: [打不出来性格以外的球](https://mp.weixin.qq.com/s/JnXpVzhDjtsmGUPVGQnWLA) (王紫菜)
+- **Pattern**: [[cannot-play-beyond-character]] - 具体问题都是性格投射，真正稀缺的是穿过性格那道坎
+
+## [2026-06-21] investment-taste wiki-ingest
+
+- **Source**: [投资中的品味&人的品性](https://mp.weixin.qq.com/s/Blv18YQ4oYsTYioS8JR5Dg) (张秋兴)
+- **Pattern**: [[investment-taste]] - 品性>能力，靠谱是投资前置条件，大道至简
+
+## [2026-06-21] single-threaded-imagination wiki-ingest
+
+- **Source**: [退休么](https://mp.weixin.qq.com/s/1SAU9_Jgxa1NqVK1yJG9Pg) (王紫菜)
+- **Pattern**: [[single-threaded-imagination]] - 单线程想象的未来经不起推敲，真正的生活远比想象复杂
+
+## [2026-06-21] principles-are-cheap wiki-ingest
+
+- **Source**: [道理重要，还是赚钱重要？](https://mp.weixin.qq.com/s/iynfTqFzUmfm2p5NkQz1Nw) (王紫菜)
+- **Pattern**: [[principles-are-cheap]] - 道理在哪都是最廉价的，赢了道理输了感情
+
+## [2026-06-21] trust-quantifiable wiki-ingest
+
+- **Source**: [再谈信任](https://mp.weixin.qq.com/s/yjtMOv0gFZ0D656uVISQ4Q) (王紫菜)
+- **Pattern**: [[trust-quantifiable]] - 信任可以量化，有衡量标准，有极强的复利
+
+## [2026-06-21] cognition-outside-money wiki-ingest
+
+- **Source**: [认知外的钱](https://mp.weixin.qq.com/s/uGiNnlw6ykNQQaRi4Itbjw) (王紫菜)
+- **Pattern**: [[cognition-outside-money]] - 无法赚到认知以外的钱，面对看不懂的机会先别急着下结论
+
+## [2026-06-21] below-iceberg wiki-ingest
+
+- **Source**: [我为什么更愿意聊冰山之下的内容](https://mp.weixin.qq.com/s/cvYc1GAagyAj3jOZMJPKZw) (王紫菜)
+- **Pattern**: [[below-iceberg-thinking]] - 冰山之下是底层逻辑，认知差比执行更重要，信任是核心资产
+
+## [2026-06-21] shenzhen-tennis-court wiki-ingest
+
+- **Source**: [在深圳做了两片网球场](https://mp.weixin.qq.com/s/ZJTzgh6wC7jfp2I4ZAa3YA) (王紫菜)
+- **Pattern**: [[execution-speed-trust]] - 执行速度，信任破裂立即切割，世界奖励积极主动的人
+
+## [2026-06-21] no-mate-worship wiki-ingest
+
+- **Source**: [不要乱拜码头](https://mp.weixin.qq.com/s/-K13EeWEDv0W5929txa3mA) (王紫菜)
+- **Pattern**: [[deep-trust-relationship]] - 信任稀缺性，克制让人脉发挥最大作用，10倍比2倍更容易
+
+## [2026-06-21] wiki-ingest: no-partner-startup + luck-and-mysticism
+
+- **Sources**: 
+  - [创业不要合伙！！！](https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg) (小鹅劳斯)
+  - [运气和玄学](https://mp.weixin.qq.com/s/V1eWrG-chA4gh3AV8sAb7A) (小鹅劳斯)
+- **Patterns**: 
+  - [[solo-startup]] - 创业不要合伙，定期分钱不分股权，掌握稀缺资源
+  - [[life-anti-fragility]] - 多重支点，时间周期拉长运气归零，吃透vs浅尝辄止
+
+## [2026-06-19] agent-reach registered
+
+- **Agent Reach** → product: [[agent-reach]]
+  - 34,390 Stars, 2,745 Forks
+  - AI Agent 多平台搜索工具（Twitter/Reddit/YouTube/GitHub/Bilibili/小红书/微信公众号）
+  - 安装：pipx install https://github.com/Panniantong/agent-reach/archive/main.zip
+  - ⚠️ 微信公众号支持：需从 v1.3.0 手动复制 wechat.py 到 v1.5.0
+
+## [2026-06-17] ai-basic-concepts wiki-ingest
+
+- **Source**: [一篇文章讲清楚AI基础概念](https://mp.weixin.qq.com/s/96bg1YgNQZsR8Q9cMdEMiw) (Harry)
+- **Images**: 无外部图片（微信内置图）
+- **Patterns**: [[ai-concepts-map]] - AI概念关系图谱：LLM→Agent→Skill→RAG→Harness
+- **Note**: 大部分概念已有，文章主要是梳理关系
+
+## [2026-06-16] saas-payment-methods wiki-ingest
+
+- **Source**: [用户更倾向于选择Creem而不是Paypal](https://mp.weixin.qq.com/s/2ehAIv_X_0_R1YUtsxF3Og) (吴就业)
+- **Images**: 无外部图片（微信内置图）
+- **Patterns**: [[saas-payment-provider-comparison]] - Creem vs PayPal 费用对比、用户选择数据、EU VAT 影响
+- **Products**: [[creem]], [[paypal]], [[wise]]
+
 ## [2026-06-16] WeChat archives completed
 
 - **claude-code-shortcuts.md** → source: Claude Code 快捷键 (Jay的觉醒之旅)
