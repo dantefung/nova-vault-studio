@@ -13,6 +13,7 @@ date: "2026-05-05"
 
 - [如何使用 Smart Domain 实现 DDD？](https://www.bilibili.com/video/BV1QT411J7jh/) — B站视频
 - [Harness for AI coding 团队级 AI 编程驾驭工程](https://b23.tv/aRXiG9J) — 2026-04-25
+- [AI 编程中的测试和 Loop](https://www.bilibili.com/video/BV1atjU6KEJF/) — 2026-06-20
 
 ---
 
