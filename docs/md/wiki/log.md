@@ -16,6 +16,10 @@ source: "llm-wiki"
 - **Source**: [我造了一台全自动烧 Token 的无限故事引擎](https://mp.weixin.qq.com/s/baWcDi2Q8_NNlRRuqe7zsw) (陌尘在长脑子里了)
 - **Note**: Multi-agent 模拟驱动的无限故事引擎，互动小说 APP
 
+## [2026-06-25] codex-content-creation-workflow 新增
+
+- **Pattern**: [[codex-content-creation-workflow]] — Codex 中文内容创作者 10 个顶级 Skills，按内容生产线排序：选题/调研/写作/去AI味/封面/卡片/信息图/HTML
+
 ## [2026-06-25] content-arbitrage-pattern 新增
 
 - **Pattern**: [[content-arbitrage-pattern]] — 跨境内容搬运套利，三招体系 + 一鱼五吃
