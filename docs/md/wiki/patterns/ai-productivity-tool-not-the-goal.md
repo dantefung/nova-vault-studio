@@ -1,7 +1,7 @@
 ---
 title: "AI Productivity Tool Not The Goal"
 date: "2026-06-22"
-source: "关于《利用 AI 做个网站养老》的补充，核心不是"网站"而是"利用 AI""
+source: "关于《利用 AI 做个网站养老》的补充，核心不是「网站」而是「利用 AI」"
 url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 ---
 
