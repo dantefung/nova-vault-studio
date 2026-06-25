@@ -16,6 +16,11 @@ source: "llm-wiki"
 - **Source**: [我造了一台全自动烧 Token 的无限故事引擎](https://mp.weixin.qq.com/s/baWcDi2Q8_NNlRRuqe7zsw) (陌尘在长脑子里了)
 - **Note**: Multi-agent 模拟驱动的无限故事引擎，互动小说 APP
 
+## [2026-06-25] content-arbitrage-pattern 新增
+
+- **Pattern**: [[content-arbitrage-pattern]] — 跨境内容搬运套利，三招体系 + 一鱼五吃
+- **归档**: indie-hub 专栏
+
 ## [2026-06-22] ai-productivity-not-website wiki-ingest
 
 - **Source**: [核心不是网站而是利用 AI](https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w) (zlbigger)

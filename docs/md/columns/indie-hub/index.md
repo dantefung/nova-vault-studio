@@ -18,6 +18,7 @@ date: "2026-06-22"
 | [望闻问切选合作](../wiki/patterns/knowledge-payment-value.md) | 筛选合伙人/客户的框架 |
 | [收入结构四维判断](../wiki/patterns/income-structure-four-certainties.md) | 项目值不值得做 |
 | [独立开发者套利模式](./aribitrage-mode.md) | 前端/后端分离，搭建可复用系统 |
+| [内容搬运套利](../wiki/patterns/content-arbitrage-pattern.md) | 跨境内容搬运 + 一鱼五吃矩阵分发 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径
@@ -83,3 +84,4 @@ date: "2026-06-22"
 - [[private-domain-arrogance]] — 私域运营核心
 - [[knowledge-payment-value]] — 望闻问切选合作
 - [[income-structure-four-certainties]] — 收入结构四维判断
+- [[content-arbitrage-pattern]] — 跨境内容搬运套利，一鱼五吃矩阵分发
