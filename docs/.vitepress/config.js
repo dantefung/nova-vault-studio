@@ -50,7 +50,8 @@ export default defineConfig({
   vite: {
     plugins: [MermaidPlugin()],
     optimizeDeps: { include: ['mermaid'] },
-    ssr: { noExternal: ['mermaid'] }
+    ssr: { noExternal: ['mermaid'] },
+    assetsInclude: ['**/*.awebp']
   },
   themeConfig: {
     // 启用页面顶栏搜索
