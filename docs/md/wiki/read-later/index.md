@@ -15,6 +15,7 @@ date: "2026-05-29"
 | 2026-05-29 | https://x.com/i/status/2052368318825402507 | Vince 聊开发 |
 | 2026-06-06 | https://x.com/i/status/2012728374725398570 | 待查看 |
 | 2026-06-11 | https://x.com/xiaohu0x/status/2065012267297767442 | **野生小虎出海SEO复盘**：练手小游戏30天100万UV、290万PV，纯SEO自然流量 |
+| 2026-06-26 | https://x.com/wquguru/status/2069641926752780384 | **Agent Memory 架构全景**：从规则文件、会话检索到反思与技能沉淀。从 OpenClaw 的 MEMORY.md 出发，深入 ~/.claude/ 目录结构，探讨 Agent 记忆系统的多层架构设计 |
 
 ## 微信公众号
 
