@@ -49,6 +49,7 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
+| [codex-claude-shortcuts](https://shangtianqiang.github.io/codex-claude-shortcuts/) | Codex/Claude 67 条快捷指令速查表，Win/Mac 双平台，搜索过滤 | 网站 |
 | [claude-skills](/md/wiki/concepts/claude-skills) | Claude 生态扩展机制，渐进式加载、可执行代码、跨平台移植 | 文章 |
 | [claude-code-setup](/md/columns/vibe-coding/14-claude-code-setup-plugin) | 官方插件，扫描代码库推荐自动化配置 | 插件 |
 | [opencode-cc-adapter](https://github.com/VastFuture/opencode-cc-adapter) | 桥接 Claude Code 生态到 OpenCode | 插件 |

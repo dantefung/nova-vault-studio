@@ -11,6 +11,12 @@ source: "llm-wiki"
 
 ---
 
+## [2026-06-26] codex-claude-shortcuts registered
+
+- **Codex/Claude 快捷指令速查表** → 资源: [shangtianqiang.github.io/codex-claude-shortcuts](https://shangtianqiang.github.io/codex-claude-shortcuts/)
+  - 67 条快捷指令，Win/Mac 双平台标注，支持中英文搜索过滤
+  - 覆盖 Codex CLI 会话控制/任务代码/调试审查/沙箱文件/扩展UI，Claude Code 斜杠命令/终端快捷键/内联快捷键/Agent快捷方式
+
 ## [2026-06-26] loop-engineering-critique wiki-ingest
 
 - **Source**: [Loop Engineering 批判：一个被过度炒作的技术名词](https://mp.weixin.qq.com/s/2HugtDY6FTAty4eTD6Tzag) (飞天闪客)
