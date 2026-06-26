@@ -92,8 +92,8 @@ Addy 定义了 Loop 需要的五个组件：
 - **Addy**：抓住技术名词热点刷存在感，千载难逢的机会
 - **Karpathy**（类比）：加入 Anthropic 后有些发言也难免带营销味
 
-![KOL 的利益分析](../images/loop-engineering-critique/013.png)
-![利益分析续](../images/loop-engineering-critique/014.png)
+![KOL 的利益分析](../images/loop-engineering-critique/013.jpeg)
+![利益分析续](../images/loop-engineering-critique/014.jpeg)
 
 ## 深度思考：循环思想确实存在，但不需要新名词
 
