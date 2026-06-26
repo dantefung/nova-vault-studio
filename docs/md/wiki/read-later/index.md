@@ -36,6 +36,10 @@ date: "2026-05-29"
 | 2026-06-25 | — | **Loop Engineering 三件套**：①@addyosmani《Loop Engineering》②Anatoli《Loops explained: Claude, GPT, Mira and what actually works》（890万浏览）③Peter Steinberger（OpenClaw作者）AI Engineer Europe 19分钟分享 — 理论+实战+框架三者互补，Loop核心：Prompt是指挥，Loop是给目标+验收规则让Agent自己跑；靠谱Loop五部分：Automation/Skill/Sub-agents/Connectors/Verifier；验收标准Judge决定成败 |
 | 2026-06-25 | https://search-sharp.com | **闲鱼黑话搜索**：咸鱼暗号查询工具 |
 | 2026-06-26 | https://www.xuanyuancode.com | 待查看 |
+| 2026-06-26 | https://skill.huasheng.ai | **Huashu Design Skill PPT 作品**：用 Huashu Design skill 两小时做了 13 页 PPT |
+| 2026-06-26 | https://x.com/i/status/2050968016826048899 | 待查看 |
+| 2026-06-26 | https://x.com/i/status/2055617718628528439 | 待查看 |
+| 2026-06-26 | https://x.com/i/status/2069019238283849954 | 待查看 |
 | 2026-06-25 | https://x.com/i/status/2070091940260155651 | 待查看 |
 | 2026-06-25 | https://x.com/i/status/2069738265138307490 | **@wizardly_ai Harness/Loop 工程笔记**：80% Agent生产崩溃死在上下文溢出/工具调错/子代理失控，2026分水岭在Harness+Loop非模型；Harness=Agent的办公室制度+安保系统+质检流程；Loop=让Agent自己发现/分派/验证/记录，人变成设计循环的人；模型可替换，Harness是底盘安全系统，Loop是自动驾驶；三样叠加才是能积累传承的Agent工程能力 |
 | 2026-06-24 | https://my.feishu.cn/wiki/SzR6wH3cXi87PPk01NbcaI1EnAc | **Loop Engineering**（飞书） |
