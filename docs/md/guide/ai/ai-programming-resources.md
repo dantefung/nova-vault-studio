@@ -108,6 +108,11 @@ date: "2026-05-05"
 - [jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) — 剪映/Capcut/即梦 AI 内容创作相关 Skill
 - [AI-Coding-Guide-Zh](https://github.com/KimYx0207/AI-Coding-Guide-Zh) — 中文 AI Coding 指南
 - [GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) — PPT 生成 Skill
+- [frontend-slides](https://github.com/zarazhangrui/frontend-slides) — 前端幻灯片
+- [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) — 精美 HTML 模板
+- [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) — 网页 PPT 生成 Skill
+- [html-ppt-skill](https://github.com/lewislulu/html-ppt-skill) — HTML PPT Skill
+- [ppt-master](https://github.com/hugohe3/ppt-master) — PPT 大师
 - [baoyu-design](https://github.com/JimLiu/baoyu-design) — 设计相关 Skill
 - [gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) — Gmail 账号批量创建自动化
 - [小耳私人工具库](https://xiaoer-tools-wall.vercel.app/) — 审美、AI艺术、网页相关的酷炫工具合集，不是爬虫采集而是作者手动一个一个拷贝记录在 Notion 中的个人累积
