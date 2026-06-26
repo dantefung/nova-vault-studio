@@ -105,7 +105,10 @@ date: "2026-05-05"
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) — Agent 触达能力扩展
 - [技能商店 Skill Store](https://github.com/anbeime/skill) — AI 技能的 App Store，每 24 小时自动同步 awesome-agent-skills，收录最全更新最快的 AI Agent 技能库
 - [AgentKey](https://agentkey.app/@cirila) — 一句话命令安装到 Codex/龙虾/Claude Code，自动化采集小红书、抖音、快手、B站、微博、知乎、Youtube 等平台公开内容、评论、点赞、转发，降低调研搬运门槛
-- [ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) — 输入网址 AI 完整复刻前端页面，代码干净无垃圾，竞品落地页偷师神器
+- [jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) — 剪映/Capcut/即梦 AI 内容创作相关 Skill
+- [AI-Coding-Guide-Zh](https://github.com/KimYx0207/AI-Coding-Guide-Zh) — 中文 AI Coding 指南
+- [GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) — PPT 生成 Skill
+- [gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) — Gmail 账号批量创建自动化
 - [小耳私人工具库](https://xiaoer-tools-wall.vercel.app/) — 审美、AI艺术、网页相关的酷炫工具合集，不是爬虫采集而是作者手动一个一个拷贝记录在 Notion 中的个人累积
 - [follow-builders](https://github.com/zarazhangrui/follow-builders) — AI 驱动的信息聚合工具，追踪 AI 领域顶尖建造者（研究员、创始人、产品经理、工程师）的最新动态，每日/每周推送到 Telegram、Discord、邮件等，支持 Claude Code 和 OpenClaw
 - [vibe-to-ui](https://github.com/MonkeyUI-dev/vibe-to-ui) — Agent Skills 将截图、图片、音乐转化为设计系统、动效语言和 UI 布局，支持 Claude Code、Cursor、Github Copilot

@@ -19,6 +19,7 @@ date: "2026-06-22"
 | [收入结构四维判断](../wiki/patterns/income-structure-four-certainties.md) | 项目值不值得做 |
 | [独立开发者套利模式](./aribitrage-mode.md) | 前端/后端分离，搭建可复用系统 |
 | [内容搬运套利](../wiki/patterns/content-arbitrage-pattern.md) | 跨境内容搬运 + 一鱼五吃矩阵分发 |
+| [莆、广系跨境电商AI搜索与深度研究](./ai-cross-border-ecommerce-research/ai-cross-border-ecommerce-research.md) | 市场/用户/竞品/趋势四大研究 + AI整合商业情报系统 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径

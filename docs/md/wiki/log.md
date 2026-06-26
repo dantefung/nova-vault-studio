@@ -16,6 +16,11 @@ source: "llm-wiki"
 - **Source**: [我造了一台全自动烧 Token 的无限故事引擎](https://mp.weixin.qq.com/s/baWcDi2Q8_NNlRRuqe7zsw) (陌尘在长脑子里了)
 - **Note**: Multi-agent 模拟驱动的无限故事引擎，互动小说 APP
 
+## [2026-06-26] ai-cross-border-ecommerce-research wiki-ingest
+
+- **Source**: [莆、广系跨境电商独立站卖家AI细学手册](https://mp.weixin.qq.com/s/b8OZwmQ8u18UBQjkslweYQ) (GOD哥)
+- **归档**: indie-hub 专栏 — 市场/用户/竞品/趋势四大研究框架，AI整合多平台商业情报
+
 ## [2026-06-25] skill-symlink-management 新增
 
 - **Pattern**: [[skill-symlink-management]] — Skills 极客管理方式：软链接工作流，项目内安装而非全局，三步操作让 Agent 帮你干
