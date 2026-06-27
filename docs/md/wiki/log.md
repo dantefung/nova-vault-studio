@@ -16,6 +16,11 @@ source: "llm-wiki"
 - **Source**: [我造了一台全自动烧 Token 的无限故事引擎](https://mp.weixin.qq.com/s/baWcDi2Q8_NNlRRuqe7zsw) (陌尘在长脑子里了)
 - **Note**: Multi-agent 模拟驱动的无限故事引擎，互动小说 APP
 
+## [2026-06-27] ai-programming-structured-requirements wiki-ingest
+
+- **Source**: [大多数团队 AI 编程都卡在结构化需求上](https://mp.weixin.qq.com/s/jNCVsXmzDEG_TrKKZbmUZg) (少个分号)
+- **核心洞察**: 需求颗粒度要大、结构化四要素、原型不可缺少、AI反讲验证
+
 ## [2026-06-27] seo-7-google-signals wiki-ingest
 
 - **Source**: [Google SEO 7大排名信号](https://mp.weixin.qq.com/s/MxKBpXCoEs1pwRX1Ti5sqg) (SlowGrowth)
