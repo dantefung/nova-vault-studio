@@ -110,6 +110,11 @@ date: "2026-05-05"
 - [xiaohu-ip-studio](https://github.com/xiaohailabs/xiaohu-ip-studio) — IP Studio
 - [claude-gh-skills](https://github.com/wscffaa/claude-gh-skills) — Claude GitHub Skills
 - [ponytail](https://github.com/DietrichGebert/ponytail) — **60k+ Stars**，让 AI 学会极致偷懒的规则集，代码量平均减少54%，Token成本降20%，安全零妥协
+- [gaokaomath](https://github.com/deekur/gaokaomath) — 高考数学相关资源
+- [gaokaophysics](https://github.com/deekur/gaokaophysics) — 高考物理相关资源
+- [open-source-cs](https://github.com/ForrestKnight/open-source-cs) — 开源计算机科学学习资源
+- [codex-whiteboard-video-skill](https://github.com/gnipbao/codex-whiteboard-video-skill) — 白板视频 Skill
+- [whiteboard-video-engine](https://github.com/gnipbao/whiteboard-video-engine) — 白板视频引擎
 - [GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) — PPT 生成 Skill
 - [frontend-slides](https://github.com/zarazhangrui/frontend-slides) — 前端幻灯片
 - [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) — 精美 HTML 模板
