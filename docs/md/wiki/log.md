@@ -16,6 +16,11 @@ source: "llm-wiki"
 - **Source**: [我造了一台全自动烧 Token 的无限故事引擎](https://mp.weixin.qq.com/s/baWcDi2Q8_NNlRRuqe7zsw) (陌尘在长脑子里了)
 - **Note**: Multi-agent 模拟驱动的无限故事引擎，互动小说 APP
 
+## [2026-06-27] seo-7-google-signals wiki-ingest
+
+- **Source**: [Google SEO 7大排名信号](https://mp.weixin.qq.com/s/MxKBpXCoEs1pwRX1Ti5sqg) (SlowGrowth)
+- **归档**: indie-hub 专栏 — Google已确认7大排名信号：反向链接/搜索意图/新鲜度/HTTPS/移动友好/加载速度/侵入广告
+
 ## [2026-06-26] ai-cross-border-ecommerce-research wiki-ingest
 
 - **Source**: [莆、广系跨境电商独立站卖家AI细学手册](https://mp.weixin.qq.com/s/b8OZwmQ8u18UBQjkslweYQ) (GOD哥)
