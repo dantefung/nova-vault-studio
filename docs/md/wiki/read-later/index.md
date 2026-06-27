@@ -53,6 +53,9 @@ date: "2026-05-29"
 | 2026-06-27 | https://x.com/i/status/2070693285019181352 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2070087156190658983 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2070662634807177570 | 待查看 |
+| 2026-06-27 | https://x.com/i/status/2070523413849083977 | 待查看 |
+| 2026-06-27 | https://x.com/i/status/2070423171401191465 | 待查看 |
+| 2026-06-27 | https://x.com/i/status/2070395515003445543 | 待查看 |
 | 2026-06-25 | https://x.com/i/status/2070091940260155651 | 待查看 |
 | 2026-06-25 | https://x.com/i/status/2069738265138307490 | **@wizardly_ai Harness/Loop 工程笔记**：80% Agent生产崩溃死在上下文溢出/工具调错/子代理失控，2026分水岭在Harness+Loop非模型；Harness=Agent的办公室制度+安保系统+质检流程；Loop=让Agent自己发现/分派/验证/记录，人变成设计循环的人；模型可替换，Harness是底盘安全系统，Loop是自动驾驶；三样叠加才是能积累传承的Agent工程能力 |
 | 2026-06-24 | https://my.feishu.cn/wiki/SzR6wH3cXi87PPk01NbcaI1EnAc | **Loop Engineering**（飞书） |
