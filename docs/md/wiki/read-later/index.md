@@ -15,11 +15,18 @@ date: "2026-05-29"
 | 2026-05-29 | https://x.com/i/status/2052368318825402507 | Vince 聊开发 |
 | 2026-06-06 | https://x.com/i/status/2012728374725398570 | 待查看 |
 | 2026-06-11 | https://x.com/xiaohu0x/status/2065012267297767442 | **野生小虎出海SEO复盘**：练手小游戏30天100万UV、290万PV，纯SEO自然流量 |
-
+| 2026-06-27 | https://x.com/i/status/2070096226784297422 | **川野：Codex新手入门**：文章推荐从 Codex 入手而非直接冲 Claude Code 或 Hermes，原因是上手曲线更友好 |
+| 2026-06-27 | https://x.com/i/status/2070505255670775837 | **阿哲Phil：提示词美学解码×包豪斯**：AI 生图的包豪斯风格prompt美学，不是红黄蓝色块拼贴，而是颜色搭配与工业感的深层逻辑 |
+| 2026-06-27 | https://x.com/i/status/2070656715515932930 | **snowboat：AI for Science 详细介绍（上）**：AI for Science 范式与版图 |
+| 2026-06-27 | https://x.com/i/status/2070440257426985386 | **lele：2026美股证券开户对比**：IBKR/Firstrade/Charles Schwab 大陆投资者开户指南与费率对比 |
+| 2026-06-27 | https://x.com/i/status/2070504333201015271 | **探路AI：控制AI视频微表情**：三个方法减少AI味和机械感，提高AI人物活人感 |
+| 2026-06-27 | https://x.com/i/status/2070518876493017579 | **修饼：AI的数学基础**：张量计算、token、向量、矩阵乘法、注意力机制 |
+| 2026-06-27 | https://x.com/i/status/2069761380274630997 | **鱼总聊AI：Giffgaff英国SIM卡激活充值**：无需Visa，适合旅游/海外账号注册/保号接码 |
+| 2026-06-27 | https://x.com/i/status/2070466993401283050 | **徐伦：Wise注册全攻略**：一张身份证拿下多国银行账户，跨境收款 |
+| 2026-06-27 | https://x.com/i/status/2070536395719053364 | **自由的灵魂：Giffgaff批量薅卡技巧**：每人一次性薅5-10张，集货到一个包裹转运回国 |
+| 2026-06-27 | https://x.com/i/status/2070681227288551666 | **向野：技能变现·摄影变现**：拍的好只是入场券，案例：摄影爱好者如何通过技能变现
 ## 微信公众号
 
-| 日期 | 链接 | 摘要 |
-|------|------|------|
 | 2026-05-30 | https://mp.weixin.qq.com/s/k6y1ohwHQJQmVpwMLRwS4g | **OpenCodeReview v1.1.1-v1.1.7 更新**：核心围绕两条主线——**可控性**（让用户看见并控制评审全过程）和**可集成性**（成为 AI 编码工作流原住民）。新功能包括 `--preview` 预览（零 token 消耗提前确认评审范围）、`ocr rules check` 规则检查、多阶段工程流水线等。已在阿里巴巴内部多个核心业务线落地验证。 |
 | 2026-05-31 | https://mp.weixin.qq.com/s/CzhP5enU_tGDbjoDcEMKuA | **easyclaw.work 企业 AI 员工分析**：2 个月从 8.1K 涨到 97.4K 访问量。核心原因不是技术最强，而是**说人话**——用岗位和业务结果来卖，把复杂 agent 基础设施包装成"AI Employees for Business"，面向非技术决策者。站点结构：多语言销售页 + credits 用量制 + 高客单 lobster care 服务。值得学习的增长结构。 |
 | 2026-05-31 | https://mp.weixin.qq.com/s/p-Uk4QjnIAhVWpvC23nFvg | **Remoting 动态图表叠加口播视频**：人月聊IT 分享如何给真人口播视频叠加动态可视化图表（流程图、对比图、要点列表）。核心思路：用 Remoting 生成 SVG 图表 + ffmpeg overlay 叠加到视频上。工作流可复用——给一段视频 + 逐字稿就能跑出来，避免手动剪辑 2-3 小时。提供完整 Skills 技能包。 |
@@ -60,6 +67,7 @@ date: "2026-05-29"
 | 2026-06-27 | https://x.com/i/status/2069769416930414980 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2070700577810792739 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2070501810608181569 | 待查看 |
+| 2026-06-27 | https://x.com/i/status/2070499112512864524 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2052368318825402507 | **Claude Code + Codex 配置复用**：AGENTS.md 作唯一配置源，CLAUDE.md 软链接指向它，一份配置多端复用；Windows 用引用方式 @AGENTS.md |
 | 2026-06-25 | https://x.com/i/status/2070091940260155651 | 待查看 |
 | 2026-06-25 | https://x.com/i/status/2069738265138307490 | **@wizardly_ai Harness/Loop 工程笔记**：80% Agent生产崩溃死在上下文溢出/工具调错/子代理失控，2026分水岭在Harness+Loop非模型；Harness=Agent的办公室制度+安保系统+质检流程；Loop=让Agent自己发现/分派/验证/记录，人变成设计循环的人；模型可替换，Harness是底盘安全系统，Loop是自动驾驶；三样叠加才是能积累传承的Agent工程能力 |

@@ -115,6 +115,14 @@ date: "2026-05-05"
 - [open-source-cs](https://github.com/ForrestKnight/open-source-cs) — 开源计算机科学学习资源
 - [codex-whiteboard-video-skill](https://github.com/gnipbao/codex-whiteboard-video-skill) — 白板视频 Skill
 - [whiteboard-video-engine](https://github.com/gnipbao/whiteboard-video-engine) — 白板视频引擎
+- [CoreCoder](https://github.com/he-yufeng/CoreCoder) — 核心编码器
+- [ChatGPT Image Studio](https://github.com/peiyizhi0724/ChatGpt-Image-Studio) — GPT Image 2 批量出图工具，账号池 + 工作流模板 + 批量队列，Go 后端 + Vite/React
+- [SearchSharp](https://search-sharp.com/) — 搜全它的所有叫法
+- [X Interaction Toolkit](https://github.com/b8l8u8e8/x-interaction-toolkit) — X 账号互动分析工具，输入 @username 自动抓取评论/点赞/转发/引用者并排名，Userscript 版本，直接用 X 登录态
+- [huasheng13-skill](https://github.com/WangJunqing-coder/huasheng13-skill) — 公考花生十三 Skill，覆盖行测六大模块二十余题型上百条速算公式，配真题示例
+- [journal-partner](https://github.com/zhaohongxuan/journal-partner) — Obsidian 日记插件，语音实时转写 + 日记搜索 + 随机回顾 + URL Scheme 一键录音，支持 SiliconFlow/Groq/OpenAI/阿里百炼
+- [TREK](https://github.com/mauriceboe/TREK) — 旅行规划工具，NestJS + React + WebSocket 实时协作 + Leaflet/Mapbox 互动地图 + 行程拖拽 + 费用分摊 + 打包清单 + PDF 导出
+- [ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest) — 电子书下载宝库，聚合帆书/微信读书/京东读书/喜马拉雅等平台，支持 epub/mobi/azw3，13.9k stars
 - [GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) — PPT 生成 Skill
 - [frontend-slides](https://github.com/zarazhangrui/frontend-slides) — 前端幻灯片
 - [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) — 精美 HTML 模板
