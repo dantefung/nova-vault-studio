@@ -11,6 +11,19 @@ source: "llm-wiki"
 
 ---
 
+## [2026-06-26] codex-claude-shortcuts registered
+
+- **Codex/Claude 快捷指令速查表** → 资源: [shangtianqiang.github.io/codex-claude-shortcuts](https://shangtianqiang.github.io/codex-claude-shortcuts/)
+  - 67 条快捷指令，Win/Mac 双平台标注，支持中英文搜索过滤
+  - 覆盖 Codex CLI 会话控制/任务代码/调试审查/沙箱文件/扩展UI，Claude Code 斜杠命令/终端快捷键/内联快捷键/Agent快捷方式
+
+## [2026-06-26] loop-engineering-critique wiki-ingest
+
+- **Source**: [Loop Engineering 批判：一个被过度炒作的技术名词](https://mp.weixin.qq.com/s/2HugtDY6FTAty4eTD6Tzag) (飞天闪客)
+- **Images**: 15 张配图 → `images/loop-engineering-critique/`
+- **Patterns**: [[loop-engineering-critique]] — Loop Engineering 溯源三波炒作（Boris→Peter→Addy），本质是定时任务包装，五组件框架缺陷分析，KOL 利益驱动下的技术名词膨胀现象
+- **Note**: 核心洞察—看清词源，回归本质，比追逐新概念重要
+
 ## [2026-06-23] infinite-story-engine wiki-ingest
 
 - **Source**: [我造了一台全自动烧 Token 的无限故事引擎](https://mp.weixin.qq.com/s/baWcDi2Q8_NNlRRuqe7zsw) (陌尘在长脑子里了)

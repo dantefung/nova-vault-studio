@@ -4,8 +4,23 @@ import { MermaidPlugin, MermaidMarkdown } from 'vitepress-plugin-mermaid'
 import markdownItMarkmap from './plugins/markdown-it-markmap.js'
 import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories, generateBookNavItems } from './sidebar.js'
 
+const SEARCH_RENDER_SIZE_LIMIT = 200_000
+const isLowMemoryBuild = process.env.VERCEL === '1' || process.env.VITEPRESS_LOW_MEMORY_BUILD === '1'
+const enableLocalSearch = process.env.VITEPRESS_DISABLE_LOCAL_SEARCH !== '1' && !isLowMemoryBuild
+
+function escapeHtml(value) {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/{/g, '&#123;')
+    .replace(/}/g, '&#125;')
+}
+
 export default defineConfig({
   ignoreDeadLinks: true,
+  buildConcurrency: isLowMemoryBuild ? 4 : 16,
   title: 'System Vault',
   description: '系统知识库 - 凡是过往，皆为序章',
   lastUpdated: true,
@@ -40,6 +55,7 @@ export default defineConfig({
     headers: {
       level: [0, 1]
     },
+    highlight: (str) => escapeHtml(str),
     // 启用内嵌 HTML 解析，以支持在 Markdown 中使用 Vue 组件（例如 <PdfViewer /> 和 <script setup>）
     html: true,
     config: (md) => {
@@ -54,16 +70,21 @@ export default defineConfig({
     assetsInclude: ['**/*.awebp']
   },
   themeConfig: {
-    // 启用页面顶栏搜索
-    search: {
+    // Vercel 构建内存有限；本地搜索会额外渲染所有页面生成索引。
+    search: enableLocalSearch ? {
       provider: 'local',            // 使用内置的本地全文索引
       options: {
         // flexible 配置可以根据需要定制，例如语言、最大建议条数等
         // lang 参数帮助处理中文分词，默认会自动尝试检测
         // 参见：https://vitepress.dev/guide/search
         maxSuggestions: 10,
+        async _render(src, env, md) {
+          if (env.frontmatter?.search === false) return ''
+          if (src.length > SEARCH_RENDER_SIZE_LIMIT) return ''
+          return md.render(src, env)
+        },
       }
-    },
+    } : undefined,
 
     nav: [
       {
