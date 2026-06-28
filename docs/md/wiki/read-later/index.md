@@ -28,6 +28,8 @@ date: "2026-05-29"
 | 2026-06-27 | https://x.com/i/status/2070681227288551666 | **向野：技能变现·摄影变现**：拍的好只是入场券，案例：摄影爱好者如何通过技能变现 |
 | 2026-06-28 | https://x.com/i/status/2047628310948290603 | **段少：一人家公司1800块、做App 200块**：一人公司头三个月的 cost breakdown 与 how-to，创业成本极简化实践 |
 | 2026-06-28 | https://x.com/i/status/1960539006338523174 | **布衣：工具站出海，月入3000刀**：7500字复盘一年踩坑记录，工具站出海实战经验 |
+| 2026-06-28 | https://mp.weixin.qq.com/s/0R4blVPJforjMKVm6harrw | **黄杨ME：用土区礼品卡充值GPT Plus**：土耳其区 Apple ID 充值 GPT Plus 省一半，实操步骤详解 |
+| 2026-06-28 | https://mp.weixin.qq.com/s/dn1YamrZgs3QYPMvwLzWdQ | **风尘：土区ChatGPT订阅价格暴涨**：土区 Plus 涨至 $21.66 比美区还贵8%，菲律宾区成新低价洼地 |
 ## 微信公众号
 
 | 2026-05-30 | https://mp.weixin.qq.com/s/k6y1ohwHQJQmVpwMLRwS4g | **OpenCodeReview v1.1.1-v1.1.7 更新**：核心围绕两条主线——**可控性**（让用户看见并控制评审全过程）和**可集成性**（成为 AI 编码工作流原住民）。新功能包括 `--preview` 预览（零 token 消耗提前确认评审范围）、`ocr rules check` 规则检查、多阶段工程流水线等。已在阿里巴巴内部多个核心业务线落地验证。 |
