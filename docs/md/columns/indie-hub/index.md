@@ -62,6 +62,7 @@ date: "2026-06-22"
 - **数据库**：Supabase（Auth + Postgres + Storage）
 - **支付**：Stripe（订阅/一次性）
 - **部署**：Vercel / Railway / Fly.io
+- **全栈框架**：[OpenSaaS](https://github.com/wasp-lang/open-saas) — 基于 Wasp 的开源全站框架，集成了认证、支付、Email、社媒登录、Stripe 等 SaaS 必备功能，开箱即用，可省下数周开发时间专注核心业务。[演示](https://opensaas.sh) | [文档](https://docs.opensaas.sh)
 
 ### SaaS Landing Page 参考
 
