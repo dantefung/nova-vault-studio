@@ -102,6 +102,7 @@ date: "2026-05-29"
 | 2026-06-28 | https://github.com/yaojingang/yao-geo-skills | **GEO Skills**：姚金刚开源的 GEO（生成式引擎优化）提示词与 Skill 全套系统，含改写提示词+评估标准+实操教程 |
 | 2026-06-28 | https://github.com/hasaneyldrm/exercises-dataset | **exercises-dataset**：1324个健身动作数据集，含动画GIF/缩略图/多语言说明，3k Stars |
 | 2026-06-28 | https://github.com/santifer/career-ops | **career-ops**：AI求职系统，Claude Code驱动，740+职位评估/100+定制简历/议薪脚本，56.4k Stars |
+| 2026-06-28 | https://github.com/alexpate/awesome-design-systems | **awesome-design-systems**：精选设计系统合集，收录Ant Design/Atlassian/IBM Carbon等知名系统，25.2k Stars |
 
 ## 其他
 
