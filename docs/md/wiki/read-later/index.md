@@ -31,6 +31,14 @@ date: "2026-05-29"
 | 2026-06-28 | https://mp.weixin.qq.com/s/0R4blVPJforjMKVm6harrw | **黄杨ME：用土区礼品卡充值GPT Plus**：土耳其区 Apple ID 充值 GPT Plus 省一半，实操步骤详解 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/dn1YamrZgs3QYPMvwLzWdQ | **风尘：土区ChatGPT订阅价格暴涨**：土区 Plus 涨至 $21.66 比美区还贵8%，菲律宾区成新低价洼地 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/7xzXiToRiatBRlqIIInDUg | **木易：安卓开通ChatGPT Plus教程**：国内信用卡 + Google Play 绑卡开通 Plus，保姆级安卓篇 |
+| 2026-06-28 | https://mp.weixin.qq.com/s/RqKMLdfbWRLTrHfec0IV1A | **zlbigger：长篇网文写作Skill**：小龙虾模型 + Obsidian 自动化写连载小说，附一篇品读章节 |
+| 2026-06-28 | https://x.com/i/status/2070702280224235949 | **Louis Wei：Loop Engineering 0-1搭建教程**：从手动 Prompt 到自主 Agent 的 5 个等级完整指南 |
+| 2026-06-28 | https://x.com/i/status/2061284291544269030 | **水Lane：giffgaff 极简保号技巧**：6个月内必须主动扣费一次，预存 £10 操作方法 |
+| 2026-06-28 | https://x.com/i/status/2071213103505870899 | **Qurious：AI人生复刻短视频教程**：零基础做"体验100种人生"爆款视频，喂饭级指南 |
+| 2026-06-28 | https://chendahuang.com/blog/sub-store-cloudflare/ | **陈大黄：机场订阅聚合搬到Cloudflare**：Workers+D1实现多订阅合并，支持 clash/surge/sing-box/Shadowrocket，附 AI Agent 一键部署 |
+| 2026-06-28 | https://x.com/i/status/2071025081091002392 | **码良：Karpathy的10条Claude新军规**：Karpathy 加入 Anthropic 五周后的 CLAUDE.md 实操笔记，2800+ 赞，37.5K 浏览 |
+| 2026-06-28 | https://x.com/i/status/2071186650521100627 | **方方：小红书起号资料合集**：方法论/工具/Skill/书单全覆盖，含"14天0粉到5000粉"实战复盘 |
+| 2026-06-28 | https://x.com/i/status/2071073057075331498 | **诺鸭船长：Product Hunt 全网最全使用指南**：从入门到榨干，中文互联网爆款产品的海外源头追踪术 |
 ## 微信公众号
 
 | 2026-05-30 | https://mp.weixin.qq.com/s/k6y1ohwHQJQmVpwMLRwS4g | **OpenCodeReview v1.1.1-v1.1.7 更新**：核心围绕两条主线——**可控性**（让用户看见并控制评审全过程）和**可集成性**（成为 AI 编码工作流原住民）。新功能包括 `--preview` 预览（零 token 消耗提前确认评审范围）、`ocr rules check` 规则检查、多阶段工程流水线等。已在阿里巴巴内部多个核心业务线落地验证。 |
@@ -89,6 +97,7 @@ date: "2026-05-29"
 | 2026-06-24 | https://github.com/songquanpeng/one-api | **One API**：OpenAI 接口管理 & 分发平台，支持多种渠道 |
 | 2026-06-24 | https://github.com/virgiliojr94/book-to-skill | **Book to Skill**：把书籍蒸馏成可执行 Skill |
 | 2026-06-24 | https://github.com/Panniantong/Agent-Reach | **Agent-Reach**：Agent 触达能力 |
+| 2026-06-28 | https://github.com/realchendahuang/sub-store-cloudflare | **sub-store-cloudflare**：CF Workers+D1 机场订阅聚合，多源合并+分流规则，AI Agent 一键部署 |
 
 ## 其他
 
