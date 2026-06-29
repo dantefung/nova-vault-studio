@@ -39,6 +39,7 @@ date: "2026-05-29"
 | 2026-06-28 | https://x.com/i/status/2071025081091002392 | **码良：Karpathy的10条Claude新军规**：Karpathy 加入 Anthropic 五周后的 CLAUDE.md 实操笔记，2800+ 赞，37.5K 浏览 |
 | 2026-06-28 | https://x.com/i/status/2071186650521100627 | **方方：小红书起号资料合集**：方法论/工具/Skill/书单全覆盖，含"14天0粉到5000粉"实战复盘 |
 | 2026-06-28 | https://x.com/i/status/2071073057075331498 | **诺鸭船长：Product Hunt 全网最全使用指南**：从入门到榨干，中文互联网爆款产品的海外源头追踪术 |
+| 2026-06-28 | https://x.com/i/status/2071126903939858742 | **Hytidel：闲鱼搞钱保姆级教程(2)商品标题SEO**：搜索电商标题优化指南，172.7K 高浏览 |
 ## 微信公众号
 
 | 2026-05-30 | https://mp.weixin.qq.com/s/k6y1ohwHQJQmVpwMLRwS4g | **OpenCodeReview v1.1.1-v1.1.7 更新**：核心围绕两条主线——**可控性**（让用户看见并控制评审全过程）和**可集成性**（成为 AI 编码工作流原住民）。新功能包括 `--preview` 预览（零 token 消耗提前确认评审范围）、`ocr rules check` 规则检查、多阶段工程流水线等。已在阿里巴巴内部多个核心业务线落地验证。 |
@@ -98,6 +99,9 @@ date: "2026-05-29"
 | 2026-06-24 | https://github.com/virgiliojr94/book-to-skill | **Book to Skill**：把书籍蒸馏成可执行 Skill |
 | 2026-06-24 | https://github.com/Panniantong/Agent-Reach | **Agent-Reach**：Agent 触达能力 |
 | 2026-06-28 | https://github.com/realchendahuang/sub-store-cloudflare | **sub-store-cloudflare**：CF Workers+D1 机场订阅聚合，多源合并+分流规则，AI Agent 一键部署 |
+| 2026-06-28 | https://github.com/yaojingang/yao-geo-skills | **GEO Skills**：姚金刚开源的 GEO（生成式引擎优化）提示词与 Skill 全套系统，含改写提示词+评估标准+实操教程 |
+| 2026-06-28 | https://github.com/hasaneyldrm/exercises-dataset | **exercises-dataset**：1324个健身动作数据集，含动画GIF/缩略图/多语言说明，3k Stars |
+| 2026-06-28 | https://github.com/santifer/career-ops | **career-ops**：AI求职系统，Claude Code驱动，740+职位评估/100+定制简历/议薪脚本，56.4k Stars |
 
 ## 其他
 
