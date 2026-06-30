@@ -58,7 +58,7 @@ date: "2026-05-29"
 | 2026-06-24 | https://mp.weixin.qq.com/s/XpSpAiWY-nXjw8d8QPbabg | 待查看 |
 | 2026-06-24 | https://mp.weixin.qq.com/s/tJmoNrjABIMginNSTnvL-w | 待查看 |
 | 2026-06-25 | https://mp.weixin.qq.com/s/vqEIJgsdQltsRNU2POlMHw | **字节火山引擎洪定坤分享**：①原型驱动开发（AI生成可交互原型替代PRD提前暴露分歧）②AI Development系统化（AI写Spec→功能实现→Browser Use验证→自动上线）③Harness基建（上下文工程+架构约束+团队知识Memory+技术债梳理，可交付性40~60分→80分）|
-| 2026-06-29 | https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ | 待查看（采集被微信反爬挡住，未抓到正文） |
+| 2026-06-29 | https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ | ~~待查看~~ → 已归档至 sources/vibe-coding-two-prompts.md |
 
 ## 其他链接
 
@@ -98,6 +98,11 @@ date: "2026-05-29"
 | 2026-06-27 | https://x.com/i/status/2070499112512864524 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2052368318825402507 | **Claude Code + Codex 配置复用**：AGENTS.md 作唯一配置源，CLAUDE.md 软链接指向它，一份配置多端复用；Windows 用引用方式 @AGENTS.md |
 | 2026-06-29 | https://x.com/PandaTalk8/status/2065714368071745710 | 待查看 |
+| 2026-06-29 | https://x.com/0xluffy_eth/status/2071440964829466983 | ~~待查看~~ → 已归档至 sources/ai-virtual-model-account-case-study.md |
+| 2026-06-29 | https://x.com/AmberTreelet/status/2071592494245285956 | ~~待查看~~ → 已归档至 sources/xianyu-private-domain-guide.md |
+| 2026-06-29 | https://x.com/longlongsongs/status/2071576723284763072 | 待查看 |
+| 2026-06-29 | https://x.com/Bit_LittleP/status/2071494340225146966 | 待查看 |
+| 2026-06-29 | https://x.com/Jackywxsz/status/2071553723822927928 | 待查看 |
 | 2026-06-24 | https://my.feishu.cn/wiki/SzR6wH3cXi87PPk01NbcaI1EnAc | **Loop Engineering**（飞书） |
 
 ## GitHub

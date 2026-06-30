@@ -777,3 +777,24 @@ source: "llm-wiki"
 - 内容摘要：《程序员底层思维》阅读笔记，介绍基础思维能力（抽象、逻辑、结构化、批判性、维度、分类、分治、简单、成长型）和专业思维能力（解耦、契约、模型、工具化、量化、数据、产品）共 16 种
 - 分类：columns/cognition
 - 新增认知专栏：创建 columns/cognition/index.md，更新 columns/index.md
+
+## [2026-06-29] ingest: Vibe Coding 必备的两个 Prompt
+
+- 归档《分享 2 个 Vibe Coding 必备的超实用 Prompt》公众号至 sources/vibe-coding-two-prompts.md
+- 下载 8 张配图至 images/vibe-coding-two-prompts/
+- 内容摘要：数字生命卡兹克近一年 Vibe Coding 实践最高频的两个 Prompt——**第一性原理**（生成端，强制 AI 跳脱类比推理回到问题本质）和**对抗式审查**（验证端，多 Agent 并发模拟恶意用户找 BUG），构成完整闭环。适用范围远超 Vibe Coding，可用于文章审查、商业方案审视、人生决策。配真实案例（AIHOT 飞书推送 BUG / OOM 死循环 / 未来时间污染）
+- 分类：sources（vibe-coding / prompt-engineering / first-principles / adversarial-review）
+
+## [2026-06-29] ingest: AI 美女账号 9.4 万粉月入 2.8 万 - Ina 案例
+
+- 归档 X 长文《AI 美女账号 9.4 万粉月入 2.8 万》(@0xluffy_eth) 至 sources/ai-virtual-model-account-case-study.md
+- 下载 6 张配图至 images/ai-virtual-model-account-case-study/
+- 内容摘要：拆解 AI 虚拟模特账号 Ina（明牌 AI，145 条内容，9.4 万粉，Patreon 1169 付费会员，月入 6.35-28.3 万人民币）。核心洞察——**AI 美女账号赚钱核心不是脸，是「角色付费系统」**：①明牌筛选 ②Patreon 三档定价（高价档 $49.99 最受欢迎）③三层漏斗（主页涨粉 → 故事精选预热 → Patreon 收费）④涨粉型 vs 盈利型本质差异 ⑤高价档筛选高意愿用户 ⑥矩阵化复制成本低 ⑦门槛不在技术，在运营
+- 分类：sources（ai-virtual-influencer / subscription-model / private-domain-monetization / content-matrix）
+
+## [2026-06-29] ingest: 闲鱼导流实操手册 - 从 0 到 1 全攻略
+
+- 归档 X 长文《闲鱼导流实操手册》(@AmberTreelet) 至 sources/xianyu-private-domain-guide.md
+- 下载 1 张配图至 images/xianyu-private-domain-guide/
+- 内容摘要：闲鱼作为「精准商品属性平台」与小红书「内容电商」互补的获客方法论。9 大模块——生态条件、6 个适合品类（服务/资料/教学/引流品/同城/高客单前端）、基建准备（1-5 台干净安卓机+鱼小铺）、7 天养号大法、调研同行做搜索词表、服务类实操模板、数据复盘表（曝光-浏览-想要）、导流技巧（夸克网盘）、微信聊天、后期维护。**核心原则：搜索电商占关键词，弱内容强交易，私域才是真正变现处**
+- 分类：sources（private-domain / customer-acquisition / xianyu / e-commerce）
