@@ -124,6 +124,8 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-06-30 | https://github.com/freestylefly/awesome-gpt-image-2 | **awesome-gpt-image-2**：苍何的 329 条 GPT-Image 2 提示词模板开源，Prompt-as-Code 结构化模板。关联：已归档至 sources/gpt-image2-prompts.md |
+| 2026-06-30 | https://github.com/gpt-image2/awesome-gptimage2-prompts | **awesome-gptimage2-prompts**：GPT-Image 2 提示词合集，open-gpt-image 出品的另一个 awesome list |
 | 2026-06-10 | https://github.com/Leonxlnx/taste-skill | **Taste-Skill 审美品味 Skill（36.5k Stars）**：给 AI 装上"设计品味过滤器"，解决大模型生成内容千篇一律的根本问题。审美品味过滤器 + 个性输出 + 品味学习 + 创意增强。部署：`npx skills add taste-skill`。关联：本仓 [[taste-skill]]（已归档）|
 | 2026-06-10 | https://github.com/kejixiaoliang/html-ppt-editor | **html-ppt-editor**：HTML 可视化编辑器，支持直接编辑 HTML 格式 PPT，可修改文字/颜色/背景/间距，修改时自动同步源码，支持导出新 HTML。Codex 限额还有一些 bug。关联：本仓 [[guizang-ppt-skill]]（网页 PPT 制作）|
 | 2026-06-24 | https://github.com/everyinc/compound-engineering-plugin | **Compound Engineering Plugin**：知识沉淀工具，关联 ce:compound skill |
