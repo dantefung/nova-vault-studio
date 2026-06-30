@@ -45,6 +45,8 @@ date: "2026-05-29"
 | 2026-06-28 | https://x.com/i/status/2063184261184700597 | **动物园园长：Claude搞闲鱼店铺**：选品+文案+运营全流程AI化，694K浏览，2.9K收藏 |
 ## 微信公众号
 
+| 日期 | 链接 | 摘要 |
+|------|------|------|
 | 2026-05-30 | https://mp.weixin.qq.com/s/k6y1ohwHQJQmVpwMLRwS4g | **OpenCodeReview v1.1.1-v1.1.7 更新**：核心围绕两条主线——**可控性**（让用户看见并控制评审全过程）和**可集成性**（成为 AI 编码工作流原住民）。新功能包括 `--preview` 预览（零 token 消耗提前确认评审范围）、`ocr rules check` 规则检查、多阶段工程流水线等。已在阿里巴巴内部多个核心业务线落地验证。 |
 | 2026-05-31 | https://mp.weixin.qq.com/s/CzhP5enU_tGDbjoDcEMKuA | **easyclaw.work 企业 AI 员工分析**：2 个月从 8.1K 涨到 97.4K 访问量。核心原因不是技术最强，而是**说人话**——用岗位和业务结果来卖，把复杂 agent 基础设施包装成"AI Employees for Business"，面向非技术决策者。站点结构：多语言销售页 + credits 用量制 + 高客单 lobster care 服务。值得学习的增长结构。 |
 | 2026-05-31 | https://mp.weixin.qq.com/s/p-Uk4QjnIAhVWpvC23nFvg | **Remoting 动态图表叠加口播视频**：人月聊IT 分享如何给真人口播视频叠加动态可视化图表（流程图、对比图、要点列表）。核心思路：用 Remoting 生成 SVG 图表 + ffmpeg overlay 叠加到视频上。工作流可复用——给一段视频 + 逐字稿就能跑出来，避免手动剪辑 2-3 小时。提供完整 Skills 技能包。 |
@@ -58,8 +60,18 @@ date: "2026-05-29"
 | 2026-06-24 | https://mp.weixin.qq.com/s/XpSpAiWY-nXjw8d8QPbabg | 待查看 |
 | 2026-06-24 | https://mp.weixin.qq.com/s/tJmoNrjABIMginNSTnvL-w | 待查看 |
 | 2026-06-25 | https://mp.weixin.qq.com/s/vqEIJgsdQltsRNU2POlMHw | **字节火山引擎洪定坤分享**：①原型驱动开发（AI生成可交互原型替代PRD提前暴露分歧）②AI Development系统化（AI写Spec→功能实现→Browser Use验证→自动上线）③Harness基建（上下文工程+架构约束+团队知识Memory+技术债梳理，可交付性40~60分→80分）|
-| 2026-06-25 | — | **Loop Engineering 三件套**：①@addyosmani《Loop Engineering》②Anatoli《Loops explained: Claude, GPT, Mira and what actually works》（890万浏览）③Peter Steinberger（OpenClaw作者）AI Engineer Europe 19分钟分享 — 理论+实战+框架三者互补，Loop核心：Prompt是指挥，Loop是给目标+验收规则让Agent自己跑；靠谱Loop五部分：Automation/Skill/Sub-agents/Connectors/Verifier；验收标准Judge决定成败 |
+| 2026-06-29 | https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ | ~~待查看~~ → 已归档至 sources/vibe-coding-two-prompts.md |
+
+## 其他链接
+
+> 跨平台的「待查看」链接集合（非微信公号，分类归集到此）
+
+| 日期 | 链接 | 摘要 |
+|------|------|------|
 | 2026-06-25 | https://search-sharp.com | **闲鱼黑话搜索**：咸鱼暗号查询工具 |
+| 2026-06-25 | https://x.com/i/status/2070091940260155651 | 待查看 |
+| 2026-06-25 | https://x.com/i/status/2069738265138307490 | **@wizardly_ai Harness/Loop 工程笔记**：80% Agent生产崩溃死在上下文溢出/工具调错/子代理失控，2026分水岭在Harness+Loop非模型；Harness=Agent的办公室制度+安保系统+质检流程；Loop=让Agent自己发现/分派/验证/记录，人变成设计循环的人；模型可替换，Harness是底盘安全系统，Loop是自动驾驶；三样叠加才是能积累传承的Agent工程能力 |
+| 2026-06-25 | — | **Loop Engineering 三件套**：①@addyosmani《Loop Engineering》②Anatoli《Loops explained: Claude, GPT, Mira and what actually works》（890万浏览）③Peter Steinberger（OpenClaw作者）AI Engineer Europe 19分钟分享 — 理论+实战+框架三者互补，Loop核心：Prompt是指挥，Loop是给目标+验收规则让Agent自己跑；靠谱Loop五部分：Automation/Skill/Sub-agents/Connectors/Verifier；验收标准Judge决定成败 |
 | 2026-06-26 | https://www.xuanyuancode.com | 待查看 |
 | 2026-06-26 | https://skill.huasheng.ai | **Huashu Design Skill PPT 作品**：用 Huashu Design skill 两小时做了 13 页 PPT |
 | 2026-06-26 | https://x.com/i/status/2050968016826048899 | 待查看 |
@@ -87,8 +99,12 @@ date: "2026-05-29"
 | 2026-06-27 | https://x.com/i/status/2070501810608181569 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2070499112512864524 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2052368318825402507 | **Claude Code + Codex 配置复用**：AGENTS.md 作唯一配置源，CLAUDE.md 软链接指向它，一份配置多端复用；Windows 用引用方式 @AGENTS.md |
-| 2026-06-25 | https://x.com/i/status/2070091940260155651 | 待查看 |
-| 2026-06-25 | https://x.com/i/status/2069738265138307490 | **@wizardly_ai Harness/Loop 工程笔记**：80% Agent生产崩溃死在上下文溢出/工具调错/子代理失控，2026分水岭在Harness+Loop非模型；Harness=Agent的办公室制度+安保系统+质检流程；Loop=让Agent自己发现/分派/验证/记录，人变成设计循环的人；模型可替换，Harness是底盘安全系统，Loop是自动驾驶；三样叠加才是能积累传承的Agent工程能力 |
+| 2026-06-29 | https://x.com/PandaTalk8/status/2065714368071745710 | 待查看 |
+| 2026-06-29 | https://x.com/0xluffy_eth/status/2071440964829466983 | ~~待查看~~ → 已归档至 sources/ai-virtual-model-account-case-study.md |
+| 2026-06-29 | https://x.com/AmberTreelet/status/2071592494245285956 | ~~待查看~~ → 已归档至 sources/xianyu-private-domain-guide.md |
+| 2026-06-29 | https://x.com/longlongsongs/status/2071576723284763072 | 待查看 |
+| 2026-06-29 | https://x.com/Bit_LittleP/status/2071494340225146966 | 待查看 |
+| 2026-06-29 | https://x.com/Jackywxsz/status/2071553723822927928 | 待查看 |
 | 2026-06-24 | https://my.feishu.cn/wiki/SzR6wH3cXi87PPk01NbcaI1EnAc | **Loop Engineering**（飞书） |
 
 ## GitHub
@@ -107,6 +123,7 @@ date: "2026-05-29"
 | 2026-06-28 | https://github.com/santifer/career-ops | **career-ops**：AI求职系统，Claude Code驱动，740+职位评估/100+定制简历/议薪脚本，56.4k Stars |
 | 2026-06-28 | https://github.com/alexpate/awesome-design-systems | **awesome-design-systems**：精选设计系统合集，收录Ant Design/Atlassian/IBM Carbon等知名系统，25.2k Stars |
 | 2026-06-28 | https://github.com/dreamportdev/Osdev-Notes | **Osdev-Notes**：从零编写操作系统的完整教程书籍，含引导程序/内存管理/调度/文件系统，1.1k Stars |
+| 2026-06-29 | https://github.com/webadderallorg/Recordly | **Recordly（18.3k Stars）**：开源桌面录屏 + 演示视频编辑器，自动放大/光标美化/动态摄像头气泡/时间轴编辑，零剪辑技能出片。Mac/Win/Linux 多平台，支持 MP4/GIF 导出 + .recordly 工程文件，AGPL-3.0 开源 |
 
 ## 其他
 

@@ -1,15 +1,12 @@
 ---
-title: ai
+title: "AI Software"
+date: "2026-06-29"
+source: "Nova Vault Studio"
+url: ""
 ---
 
-# ai
+# AI Software
 
-> 📖 在此处写一些本书的简介（例如用途、章节概览、阅读建议等）。
->
-> 你也可以添加封面图，例如：
->
-> ```md
-> ![封面](./cover.png)
-> ```
->
-<PdfList dir="ai" />
+AI 软件工程、AI Coding、Agentic Software Engineering、Harness Engineering 与提示词工程相关书籍归档。
+
+<PdfList dir="ai-software" />

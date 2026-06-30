@@ -1,15 +1,12 @@
 ---
-title: social media
+title: "Social Media"
+date: "2026-06-29"
+source: "Nova Vault Studio"
+url: ""
 ---
 
-# social media
+# Social Media
 
-> 📖 在此处写一些本书的简介（例如用途、章节概览、阅读建议等）。
->
-> 你也可以添加封面图，例如：
->
-> ```md
-> ![封面](./cover.png)
-> ```
->
+社交媒体增长、内容运营、流量机制与 X/Twitter 经验复盘相关书籍归档。
+
 <PdfList dir="social-media" />
