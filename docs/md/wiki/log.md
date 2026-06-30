@@ -813,3 +813,10 @@ source: "llm-wiki"
 - columns/index.md 专栏总览新增 Indie Hub 入口
 - 内容：6 阶段独立 App 实战——①找点子和真实需求 ②锁定细分方向 ③开发 MVP ④上架与 ASO ⑤冷启动与第一批用户 ⑥转化/留存/增长飞轮。每步含「工具/方法/通过标准/产出」。配套 7 天行动计划 + 工具速查表。**核心方法论：先验证再开发，单渠道打透再扩，付费墙放在价值被理解之后**
 - 分类：columns/indie-hub（indie-app / app-store-optimization / mvp / cold-start / growth-loop）
+
+## [2026-06-30] ingest: GPT-Image 2 提示词模板开源
+
+- 归档《苍何：GPT-Image 2 的 329 条提示词模板开源》X/Twitter 至 sources/gpt-image2-prompts.md
+- 下载 23 张配图至 images/gpt-image2-prompts/
+- 内容摘要：苍何逆向 329 个 GPT-Image 2 案例为 Prompt-as-Code 结构化模板，开源在 GitHub（freestylefly/awesome-gpt-image-2），支持 Agent 自动化调用。覆盖直播画面/手绘地图/海报/拆解图/技术详解/朋友圈截图/个人网页/诗词图/长卷图等场景。核心创新：原子化 Schema 注入 + 零配置工作流 + 多维决策矩阵。
+- 分类：sources/tools（ai-image-generation / gpt-image / prompt-engineering）

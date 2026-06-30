@@ -1,0 +1,88 @@
+---
+title: "苍何：GPT-Image 2 的 329 条提示词模板开源"
+date: "2026-06-30"
+source: "X/Twitter"
+url: "https://x.com/canghe/status/2048306517976514786"
+---
+
+# 我逆向了 329 条 GPT-Image2 提示词模板，全部开源！
+
+> 苍何将 329 个 GPT-Image 2 精美案例逆向为结构化 Prompt-as-Code 模板，开源在 GitHub，支持 Agent 自动化调用。
+>
+> 开源仓库：https://github.com/freestylefly/awesome-gpt-image-2
+
+<!-- more -->
+
+## GPT-Image 2 的能力震撼
+
+GPT-Image 2 发布后，AI 生图质量大幅跃升——文字乱码几乎消失、中文支持极好、多种尺寸直出。效果逼真到「眼见为实」这四个字以后可能彻底成笑话。
+
+苍何搜集了网上有趣的玩法案例和提示词，抽离成模板，全部开源。分类覆盖：信息图、界面、海报、摄影、插画、品牌、卡牌、直播截图、国风、商业视觉等。
+
+## 核心功能 - Prompt-as-Code 工业级引擎
+
+不是简单的提示词集合，而是一套 Agent 可直接调用的结构化「协议」：
+
+- **原子化 Schema 注入**：视觉要素(主体、光影、材质、排版)全部降维为 JSON/YAML 结构化组件，Agent 零幻觉稳定解析
+- **零配置工作流**：随时接入大模型数据管线
+- **多维决策矩阵**：引入空间坐标系约束，精确控制画面排版
+- **每套模板自带防坑指南**：可直接丢给 Claude Code / Codex 等 Agent 批量出提示词和出图
+
+## 案例展示
+
+直播画面——提示词极简单：「生成一张直播间的图片，直播间氛围是月下美女跳舞的画面，直播间有很多人评论」：
+
+![](../images/gpt-image2-prompts/img-008-HGz_l4caUAAq9EK.jpg)
+
+手绘风格城市地图——西安地图：
+
+![](../images/gpt-image2-prompts/img-011-HGz29BBbMAAvJVR.jpg)
+
+提示词模板：「生成一张手绘水彩风格的「这里输入城市名」城市地图，包含的当地特色美食、地标建筑及城市特色」
+
+海报生成——随手拍茶π照片丢给 GPT-Image 2：
+
+![](../images/gpt-image2-prompts/img-013-HGz3EW0a4AAjpj5.jpg)
+
+提示词仅一句：「帮这个产品生成宣传图」
+
+拆解图——AI 眼镜爆炸视图：
+
+![](../images/gpt-image2-prompts/img-014-HG0KrL3bgAEkXKQ.jpg)
+
+技术详解图——RAG 详解：
+
+![](../images/gpt-image2-prompts/img-015-HGz3Jp4aMAEsQkl.jpg)
+
+提示词模板：「帮我生成一张【名词】技术的详细讲解图」
+
+朋友圈截图——逼真到需要提醒父母警惕：
+
+![](../images/gpt-image2-prompts/img-016-HGz3Mc_bYAEgAFs.jpg)
+
+个人网页——AI 直接设计个人主页：
+
+![](../images/gpt-image2-prompts/img-018-HG0LDbfacAAgayu.jpg)
+
+诗词意境图——《短歌行》：
+
+![](../images/gpt-image2-prompts/img-019-HGz3UQwbcAA-tdH.jpg)
+
+长卷图——《赤壁怀古》：
+
+![](../images/gpt-image2-prompts/img-020-HGz3W17bcAAgvUT.jpg)
+
+## Codex + GPT-Image 2 工作流
+
+苍何发现 Codex + Obsidian 才是公众号封面图的最佳拍档——Codex 直接调 GPT-Image 2 生成封面图，一分钟不到，自动填充进文章字段。之前用 Claude Code + Nano Banana 2 又慢又不稳定。
+
+## 开源地址
+
+```
+https://github.com/freestylefly/awesome-gpt-image-2
+```
+
+## Thread 关联
+
+- https://x.com/canghe/status/2048306616324477144
+- https://x.com/canghe/status/2048940891969392681
