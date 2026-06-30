@@ -40,6 +40,9 @@ date: "2026-05-29"
 | 2026-06-28 | https://x.com/i/status/2071186650521100627 | **方方：小红书起号资料合集**：方法论/工具/Skill/书单全覆盖，含"14天0粉到5000粉"实战复盘 |
 | 2026-06-28 | https://x.com/i/status/2071073057075331498 | **诺鸭船长：Product Hunt 全网最全使用指南**：从入门到榨干，中文互联网爆款产品的海外源头追踪术 |
 | 2026-06-28 | https://x.com/i/status/2071126903939858742 | **Hytidel：闲鱼搞钱保姆级教程(2)商品标题SEO**：搜索电商标题优化指南，172.7K 高浏览 |
+| 2026-06-28 | https://x.com/i/status/2053735690353971217 | **动物园园长：闲鱼倒卖拼多多货3个月还清房贷**：万字长文，3.4M浏览，实战闲鱼无货源电商全流程 |
+| 2026-06-28 | https://x.com/i/status/2070887812313034791 | **黄赟：不会写代码用AI做15个小程序月入2w+**：需求挖掘→开发→变现完整路径拆解，22.1K浏览 |
+| 2026-06-28 | https://x.com/i/status/2063184261184700597 | **动物园园长：Claude搞闲鱼店铺**：选品+文案+运营全流程AI化，694K浏览，2.9K收藏 |
 ## 微信公众号
 
 | 2026-05-30 | https://mp.weixin.qq.com/s/k6y1ohwHQJQmVpwMLRwS4g | **OpenCodeReview v1.1.1-v1.1.7 更新**：核心围绕两条主线——**可控性**（让用户看见并控制评审全过程）和**可集成性**（成为 AI 编码工作流原住民）。新功能包括 `--preview` 预览（零 token 消耗提前确认评审范围）、`ocr rules check` 规则检查、多阶段工程流水线等。已在阿里巴巴内部多个核心业务线落地验证。 |
@@ -103,6 +106,7 @@ date: "2026-05-29"
 | 2026-06-28 | https://github.com/hasaneyldrm/exercises-dataset | **exercises-dataset**：1324个健身动作数据集，含动画GIF/缩略图/多语言说明，3k Stars |
 | 2026-06-28 | https://github.com/santifer/career-ops | **career-ops**：AI求职系统，Claude Code驱动，740+职位评估/100+定制简历/议薪脚本，56.4k Stars |
 | 2026-06-28 | https://github.com/alexpate/awesome-design-systems | **awesome-design-systems**：精选设计系统合集，收录Ant Design/Atlassian/IBM Carbon等知名系统，25.2k Stars |
+| 2026-06-28 | https://github.com/dreamportdev/Osdev-Notes | **Osdev-Notes**：从零编写操作系统的完整教程书籍，含引导程序/内存管理/调度/文件系统，1.1k Stars |
 
 ## 其他
 
@@ -111,6 +115,7 @@ date: "2026-05-29"
 | 2026-06-10 | https://codexradar.com/ | **CodexRadar**：AI Coding Agent / Skills 资讯站，追踪 GitHub trending 新发布，Codex/Claude Code/Cursor 等生态动态。待进一步了解定位。 |
 | 2026-06-10 | http://vibe-ui.youji.pro/ | **Vibe UI Design Guide**：AI 生成 UI 的完整设计到开发路径。两条路（UI Kit+MCP / design.md）、15 个设计系统模板（Clean/Minimal/Modern/Elegant 等）、设计 Token 提取流程、技术栈选型（HTML/React/Next.js/Tailwind）、资源导航（字体/图标/Prompt/Skill）。来源：有籍（youji.pro）|
 | 2026-06-24 | https://harness-agent.ai/ | **Harness Engineering 小书**（王梓任）：对 Harness 概念做精细理论分析，比网上绝大多数分析精确深入得多，包含大量实战经验 |
+| 2026-06-28 | https://x.com/i/communities/1698871397022388467 | **X跨境电商交流群 + AI**：20.8K成员的X社区，跨境电商/AI工具/平台运营交流 |
 
 ## 2026-06-21 王紫菜粉丝见证
 
