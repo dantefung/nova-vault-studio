@@ -11,6 +11,12 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 备注 |
 |------|------|------|
+| 2026-06-30 | https://x.com/canghe/status/2048306517976514786?s=20 | ~~待查看~~ → 已归档至 sources/gpt-image2-prompts.md |
+| 2026-06-30 | https://github.com/jlcodes99/cockpit-tools | **Cockpit Tools**：AI 编程辅助工具集 |
+| 2026-06-30 | https://github.com/google/agents-cli | **Google Agents CLI**：Google 开源的 Agents 开发 CLI 工具，支持多 Agent 编排 |
+| 2026-06-30 | https://x.com/qi9098/status/2069970430962667596?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/YannisHan77/status/2071572066999083058?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/commander1688/status/2071487569402220558?s=20 | 待查看 |
 | 2026-05-29 | https://x.com/i/status/2059844244907696186 | Vince 聊开发 |
 | 2026-05-29 | https://x.com/i/status/2052368318825402507 | Vince 聊开发 |
 | 2026-06-06 | https://x.com/i/status/2012728374725398570 | 待查看 |
@@ -111,12 +117,21 @@ date: "2026-05-29"
 | 2026-06-29 | https://x.com/longlongsongs/status/2071576723284763072 | 待查看 |
 | 2026-06-29 | https://x.com/Bit_LittleP/status/2071494340225146966 | 待查看 |
 | 2026-06-29 | https://x.com/Jackywxsz/status/2071553723822927928 | 待查看 |
+| 2026-06-29 | https://x.com/Jolyne_AI/status/2070031498422714556 | 待查看 |
+| 2026-06-29 | https://x.com/mybitstar/status/2071156230203097310 | 待查看 |
+| 2026-06-29 | https://x.com/wangdefou/status/2051280285623627874 | 待查看 |
+| 2026-06-29 | https://x.com/prothistle01/status/2050877210442269026 | 待查看 |
+| 2026-06-29 | https://x.com/LouisChen737/status/2071157884050890874 | 待查看 |
+| 2026-06-29 | https://x.com/Jimmy_JingLv/status/2013508273039876103 | 待查看 |
+| 2026-06-29 | https://x.com/wangdefou/status/2050579434441199881 | 待查看 |
 | 2026-06-24 | https://my.feishu.cn/wiki/SzR6wH3cXi87PPk01NbcaI1EnAc | **Loop Engineering**（飞书） |
 
 ## GitHub
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-06-30 | https://github.com/freestylefly/awesome-gpt-image-2 | **awesome-gpt-image-2**：苍何的 329 条 GPT-Image 2 提示词模板开源，Prompt-as-Code 结构化模板。关联：已归档至 sources/gpt-image2-prompts.md |
+| 2026-06-30 | https://github.com/gpt-image2/awesome-gptimage2-prompts | **awesome-gptimage2-prompts**：GPT-Image 2 提示词合集，open-gpt-image 出品的另一个 awesome list |
 | 2026-06-10 | https://github.com/Leonxlnx/taste-skill | **Taste-Skill 审美品味 Skill（36.5k Stars）**：给 AI 装上"设计品味过滤器"，解决大模型生成内容千篇一律的根本问题。审美品味过滤器 + 个性输出 + 品味学习 + 创意增强。部署：`npx skills add taste-skill`。关联：本仓 [[taste-skill]]（已归档）|
 | 2026-06-10 | https://github.com/kejixiaoliang/html-ppt-editor | **html-ppt-editor**：HTML 可视化编辑器，支持直接编辑 HTML 格式 PPT，可修改文字/颜色/背景/间距，修改时自动同步源码，支持导出新 HTML。Codex 限额还有一些 bug。关联：本仓 [[guizang-ppt-skill]]（网页 PPT 制作）|
 | 2026-06-24 | https://github.com/everyinc/compound-engineering-plugin | **Compound Engineering Plugin**：知识沉淀工具，关联 ce:compound skill |
@@ -129,7 +144,9 @@ date: "2026-05-29"
 | 2026-06-28 | https://github.com/santifer/career-ops | **career-ops**：AI求职系统，Claude Code驱动，740+职位评估/100+定制简历/议薪脚本，56.4k Stars |
 | 2026-06-28 | https://github.com/alexpate/awesome-design-systems | **awesome-design-systems**：精选设计系统合集，收录Ant Design/Atlassian/IBM Carbon等知名系统，25.2k Stars |
 | 2026-06-28 | https://github.com/dreamportdev/Osdev-Notes | **Osdev-Notes**：从零编写操作系统的完整教程书籍，含引导程序/内存管理/调度/文件系统，1.1k Stars |
-| 2026-06-29 | https://github.com/webadderallorg/Recordly | **Recordly（18.3k Stars）**：开源桌面录屏 + 演示视频编辑器，自动放大/光标美化/动态摄像头气泡/时间轴编辑，零剪辑技能出片。Mac/Win/Linux 多平台，支持 MP4/GIF 导出 + .recordly 工程文件，AGPL-3.0 开源 |
+| 2026-06-29 | https://github.com/webadderallorg/Recordly | **Recordly（18.3k Stars）**：开源桌面录屏 + 演示视频编辑器，自动放大/光标美化/动态摄像头气泡/时间轴编辑，零剪辑技能出片。Mac/Win/Linux 多平台，支持 MP4/GIF 导出 + .recordly 工程文件，AGPL-3.0 开源。起初为 OpenScreen 分支，已分叉 80%+ 代码 |
+| 2026-06-29 | https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning | **Mathematical Foundations of RL（16.7k Stars）**：西湖大学赵世钰教授写的强化学习数学基础教材 PDF 全本，10 章+附录+教学视频（B站210万+播放）。从 MDP / Bellman 方程到 Actor-Critic 算法，每个例子用统一 grid world 任务串起来。**唯一一本把「为什么这样设计」讲透的 RL 入门书**。已由 Springer + 清华出版社联合出版 |
+| 2026-06-29 | https://github.com/DavidXanatos/TaskExplorer | **TaskExplorer（3.7k Stars）**：Windows 高级任务管理器，基于 Process Hacker 内核 + Qt 框架。功能远超自带任务管理器——线程堆栈追踪（诊断死锁/性能瓶颈）/ 内存查看编辑 / 句柄表（文件名+偏移+大小）/ 全部 socket 连接（含 UDP 伪连接 ETW 抓包）/ DLL 模块注入与卸载 / Token / 环境变量 / 窗口 / GDI / .NET 面板。**未来要移植到 Linux** |
 
 ## 其他
 

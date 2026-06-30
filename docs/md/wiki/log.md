@@ -798,3 +798,25 @@ source: "llm-wiki"
 - 下载 1 张配图至 images/xianyu-private-domain-guide/
 - 内容摘要：闲鱼作为「精准商品属性平台」与小红书「内容电商」互补的获客方法论。9 大模块——生态条件、6 个适合品类（服务/资料/教学/引流品/同城/高客单前端）、基建准备（1-5 台干净安卓机+鱼小铺）、7 天养号大法、调研同行做搜索词表、服务类实操模板、数据复盘表（曝光-浏览-想要）、导流技巧（夸克网盘）、微信聊天、后期维护。**核心原则：搜索电商占关键词，弱内容强交易，私域才是真正变现处**
 - 分类：sources（private-domain / customer-acquisition / xianyu / e-commerce）
+
+## [2026-06-29] archive: OpenSpec + Superpowers 工作流
+
+- 新建 concepts/openspec-superpowers-workflow.md
+- 内容：公司内推的 AI 辅助开发工作流整合——OpenSpec 管规格/记忆，Superpowers 管设计/执行。6 步闭环：① 提案（/opsx:propose）→ ② 人工审查 → ③ 设计（brainstorming + writing-plans）→ ④ 构建（TDD + 子代理读 specs/）→ ⑤ 交付（verification）→ ⑥ 归档（/opsx:archive）。**核心价值：解决 AI 开发的两个最大痛点——缺记忆 + 缺纪律**
+- 分类：concepts（ai-workflow / spec-driven-development / multi-agent）
+
+## [2026-06-29] archive: 独立 App 实战手册（Adam Lyttle 88 集整理）
+
+- 整页爬取 https://app-playbook-site.pages.dev/ 至 docs/public/app-playbook/（VitePress 公共目录，含 index.html + styles.css + script.js + favicon.svg）
+- 知识库版摘要 docs/md/columns/indie-hub/app-playbook/index.md 使用 `<HtmlViewer>` 组件内嵌呈现
+- indie-hub/index.md 系列索引表新增入口
+- columns/index.md 专栏总览新增 Indie Hub 入口
+- 内容：6 阶段独立 App 实战——①找点子和真实需求 ②锁定细分方向 ③开发 MVP ④上架与 ASO ⑤冷启动与第一批用户 ⑥转化/留存/增长飞轮。每步含「工具/方法/通过标准/产出」。配套 7 天行动计划 + 工具速查表。**核心方法论：先验证再开发，单渠道打透再扩，付费墙放在价值被理解之后**
+- 分类：columns/indie-hub（indie-app / app-store-optimization / mvp / cold-start / growth-loop）
+
+## [2026-06-30] ingest: GPT-Image 2 提示词模板开源
+
+- 归档《苍何：GPT-Image 2 的 329 条提示词模板开源》X/Twitter 至 sources/gpt-image2-prompts.md
+- 下载 23 张配图至 images/gpt-image2-prompts/
+- 内容摘要：苍何逆向 329 个 GPT-Image 2 案例为 Prompt-as-Code 结构化模板，开源在 GitHub（freestylefly/awesome-gpt-image-2），支持 Agent 自动化调用。覆盖直播画面/手绘地图/海报/拆解图/技术详解/朋友圈截图/个人网页/诗词图/长卷图等场景。核心创新：原子化 Schema 注入 + 零配置工作流 + 多维决策矩阵。
+- 分类：sources/tools（ai-image-generation / gpt-image / prompt-engineering）

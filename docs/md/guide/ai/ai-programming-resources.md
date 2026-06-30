@@ -205,6 +205,7 @@ date: "2026-05-05"
   - [为 Agent 编写工具](https://www.anthropic.com/engineering/writing-tools-for-agents) — Anthropic 官方工程博客
   - [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) — 官方风格 Harness Engineering 教程，12 lectures + 6 projects + 多语言翻译，4.1k stars
   - [OpenHarness](https://github.com/HKUDS/OpenHarness) — Python Harness 实现 + ohmo 个人 Agent，内置 43 tools、MCP、权限系统，12.4k stars
+- [12-factor-agents](https://github.com/humanlayer/12-factor-agents) — **23.8k Stars**，HumanLayer 出品的「**生产级 LLM Agent 12 原则**」，致敬 12 Factor Apps。核心理念——**好的 Agent 大部分时间就是普通软件，LLM 只在最关键节点做决策**，不是「prompt + 工具袋 + 循环跑」那么简单。12 因素：①自然语言→工具调用 ②自己管 prompt ③自己管 context window ④工具=结构化输出 ⑤统一执行态和业务态 ⑥启停/恢复用简单 API ⑦用工具调用联系人类 ⑧自己管控制流 ⑨错误压回 context ⑩小而聚焦的 Agent ⑪任意地方触发 ⑫Agent=无状态 reducer。配套 `npx create-12-factor-agent` 脚手架
 
 ## 架构实战案例
 
