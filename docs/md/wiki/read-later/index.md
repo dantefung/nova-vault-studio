@@ -105,6 +105,7 @@ date: "2026-05-29"
 | 2026-06-29 | https://x.com/longlongsongs/status/2071576723284763072 | 待查看 |
 | 2026-06-29 | https://x.com/Bit_LittleP/status/2071494340225146966 | 待查看 |
 | 2026-06-29 | https://x.com/Jackywxsz/status/2071553723822927928 | 待查看 |
+| 2026-06-29 | https://x.com/Jolyne_AI/status/2070031498422714556 | 待查看 |
 | 2026-06-24 | https://my.feishu.cn/wiki/SzR6wH3cXi87PPk01NbcaI1EnAc | **Loop Engineering**（飞书） |
 
 ## GitHub
@@ -123,7 +124,9 @@ date: "2026-05-29"
 | 2026-06-28 | https://github.com/santifer/career-ops | **career-ops**：AI求职系统，Claude Code驱动，740+职位评估/100+定制简历/议薪脚本，56.4k Stars |
 | 2026-06-28 | https://github.com/alexpate/awesome-design-systems | **awesome-design-systems**：精选设计系统合集，收录Ant Design/Atlassian/IBM Carbon等知名系统，25.2k Stars |
 | 2026-06-28 | https://github.com/dreamportdev/Osdev-Notes | **Osdev-Notes**：从零编写操作系统的完整教程书籍，含引导程序/内存管理/调度/文件系统，1.1k Stars |
-| 2026-06-29 | https://github.com/webadderallorg/Recordly | **Recordly（18.3k Stars）**：开源桌面录屏 + 演示视频编辑器，自动放大/光标美化/动态摄像头气泡/时间轴编辑，零剪辑技能出片。Mac/Win/Linux 多平台，支持 MP4/GIF 导出 + .recordly 工程文件，AGPL-3.0 开源 |
+| 2026-06-29 | https://github.com/webadderallorg/Recordly | **Recordly（18.3k Stars）**：开源桌面录屏 + 演示视频编辑器，自动放大/光标美化/动态摄像头气泡/时间轴编辑，零剪辑技能出片。Mac/Win/Linux 多平台，支持 MP4/GIF 导出 + .recordly 工程文件，AGPL-3.0 开源。起初为 OpenScreen 分支，已分叉 80%+ 代码 |
+| 2026-06-29 | https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning | **Mathematical Foundations of RL（16.7k Stars）**：西湖大学赵世钰教授写的强化学习数学基础教材 PDF 全本，10 章+附录+教学视频（B站210万+播放）。从 MDP / Bellman 方程到 Actor-Critic 算法，每个例子用统一 grid world 任务串起来。**唯一一本把「为什么这样设计」讲透的 RL 入门书**。已由 Springer + 清华出版社联合出版 |
+| 2026-06-29 | https://github.com/DavidXanatos/TaskExplorer | **TaskExplorer（3.7k Stars）**：Windows 高级任务管理器，基于 Process Hacker 内核 + Qt 框架。功能远超自带任务管理器——线程堆栈追踪（诊断死锁/性能瓶颈）/ 内存查看编辑 / 句柄表（文件名+偏移+大小）/ 全部 socket 连接（含 UDP 伪连接 ETW 抓包）/ DLL 模块注入与卸载 / Token / 环境变量 / 窗口 / GDI / .NET 面板。**未来要移植到 Linux** |
 
 ## 其他
 

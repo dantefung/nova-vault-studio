@@ -798,3 +798,9 @@ source: "llm-wiki"
 - 下载 1 张配图至 images/xianyu-private-domain-guide/
 - 内容摘要：闲鱼作为「精准商品属性平台」与小红书「内容电商」互补的获客方法论。9 大模块——生态条件、6 个适合品类（服务/资料/教学/引流品/同城/高客单前端）、基建准备（1-5 台干净安卓机+鱼小铺）、7 天养号大法、调研同行做搜索词表、服务类实操模板、数据复盘表（曝光-浏览-想要）、导流技巧（夸克网盘）、微信聊天、后期维护。**核心原则：搜索电商占关键词，弱内容强交易，私域才是真正变现处**
 - 分类：sources（private-domain / customer-acquisition / xianyu / e-commerce）
+
+## [2026-06-29] archive: OpenSpec + Superpowers 工作流
+
+- 新建 concepts/openspec-superpowers-workflow.md
+- 内容：公司内推的 AI 辅助开发工作流整合——OpenSpec 管规格/记忆，Superpowers 管设计/执行。6 步闭环：① 提案（/opsx:propose）→ ② 人工审查 → ③ 设计（brainstorming + writing-plans）→ ④ 构建（TDD + 子代理读 specs/）→ ⑤ 交付（verification）→ ⑥ 归档（/opsx:archive）。**核心价值：解决 AI 开发的两个最大痛点——缺记忆 + 缺纪律**
+- 分类：concepts（ai-workflow / spec-driven-development / multi-agent）
