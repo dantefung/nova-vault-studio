@@ -11,6 +11,9 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 备注 |
 |------|------|------|
+| 2026-06-30 | https://github.com/google/agents-cli | **Google Agents CLI**：Google 开源的 Agents 开发 CLI 工具，支持多 Agent 编排 |
+| 2026-06-30 | https://x.com/YannisHan77/status/2071572066999083058?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/commander1688/status/2071487569402220558?s=20 | 待查看 |
 | 2026-05-29 | https://x.com/i/status/2059844244907696186 | Vince 聊开发 |
 | 2026-05-29 | https://x.com/i/status/2052368318825402507 | Vince 聊开发 |
 | 2026-06-06 | https://x.com/i/status/2012728374725398570 | 待查看 |
@@ -106,6 +109,12 @@ date: "2026-05-29"
 | 2026-06-29 | https://x.com/Bit_LittleP/status/2071494340225146966 | 待查看 |
 | 2026-06-29 | https://x.com/Jackywxsz/status/2071553723822927928 | 待查看 |
 | 2026-06-29 | https://x.com/Jolyne_AI/status/2070031498422714556 | 待查看 |
+| 2026-06-29 | https://x.com/mybitstar/status/2071156230203097310 | 待查看 |
+| 2026-06-29 | https://x.com/wangdefou/status/2051280285623627874 | 待查看 |
+| 2026-06-29 | https://x.com/prothistle01/status/2050877210442269026 | 待查看 |
+| 2026-06-29 | https://x.com/LouisChen737/status/2071157884050890874 | 待查看 |
+| 2026-06-29 | https://x.com/Jimmy_JingLv/status/2013508273039876103 | 待查看 |
+| 2026-06-29 | https://x.com/wangdefou/status/2050579434441199881 | 待查看 |
 | 2026-06-24 | https://my.feishu.cn/wiki/SzR6wH3cXi87PPk01NbcaI1EnAc | **Loop Engineering**（飞书） |
 
 ## GitHub

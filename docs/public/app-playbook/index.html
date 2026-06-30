@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>独立开发指南：从 App 点子到第一批付费用户</title>
+    <meta
+      name="description"
+      content="给新手的独立 App 实战指南：发现点子、选择产品、开发 MVP、上架 ASO、分发营销、增长留存。"
+    >
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="回到顶部">
+        <span class="brand-bulb" aria-hidden="true">
+          <svg viewBox="0 0 36 36">
+            <path d="M18 3v4M7.4 7.4l2.8 2.8M3 18h4M28.6 7.4l-2.8 2.8M33 18h-4" />
+            <circle cx="18" cy="18" r="8" />
+            <path d="M14 28h8M15 32h6M15 20c2-4 4-4 6 0" />
+          </svg>
+        </span>
+        <span>独立开发指南</span>
+      </a>
+
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#route">学习路线</a>
+        <a href="#playbook">详细计划</a>
+        <a href="#starter-path">视频路线</a>
+        <a href="#tools">工具资源</a>
+        <a href="#listing">上架清单</a>
+        <a href="#growth">增长飞轮</a>
+      </nav>
+
+      <a class="save-button" href="#checklist">
+        <span aria-hidden="true">☆</span>
+        收藏本页
+      </a>
+    </header>
+
+    <aside class="page-outline" aria-label="页面大纲">
+      <b>页面大纲</b>
+      <a href="#top">开头</a>
+      <a href="#route">流程地图</a>
+      <a href="#chapters">六大阶段</a>
+      <a href="#playbook">详细计划</a>
+      <a href="#listing">上架清单</a>
+      <a href="#growth">增长飞轮</a>
+      <a href="#tools">工具资源</a>
+      <a href="#starter-path">视频路线</a>
+      <a href="#checklist">7 天行动</a>
+    </aside>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-doodle hero-doodle-left" aria-hidden="true">
+          <svg viewBox="0 0 170 170">
+            <path class="ray blue" d="M35 26l-13-15M60 18l-3-19M105 31l17-14" />
+            <circle class="bulb-ring" cx="75" cy="74" r="48" />
+            <path class="bulb-core" d="M61 75c4-16 24-14 28 0M65 77l25 32M87 76l-25 32M54 117h46M60 130h34" />
+            <path class="ray yellow" d="M72 26V8" />
+          </svg>
+        </div>
+
+        <div class="hero-doodle hero-doodle-right" aria-hidden="true">
+          <div class="speech">独立开发者<br>也能做出好产品!</div>
+          <svg viewBox="0 0 170 150">
+            <path class="person" d="M72 116c-24 0-40-18-40-45s16-45 40-45 40 18 40 45-16 45-40 45Z" />
+            <path class="person-line" d="M58 65c4 5 9 5 13 0M78 65c4 5 9 5 13 0M62 84c8 8 23 8 31 0M31 82c-13 2-18 9-14 21M112 75c18 0 28 7 30 22M128 44l13-11M141 34l-4-14M36 42l-14-10" />
+          </svg>
+        </div>
+
+        <h1>
+          从一个 App 点子，<br>
+          到第一批<span class="underline orange">付费</span><span class="underline blue">用户</span>
+        </h1>
+        <p class="hero-subtitle">
+          一份面向新手的完整实战指南，<br>
+          从 0 到 1 搭建并验证你的 App 生意。
+        </p>
+        <a class="primary-button" href="#route">开始学习指南 <span aria-hidden="true">→</span></a>
+
+        <div class="trust-row" aria-label="指南特点">
+          <span>✓ 点子来源与需求验证</span>
+          <span>✓ 工具与通过标准</span>
+          <span>✓ 上架材料清单</span>
+          <span>✓ 冷启动与增长动作</span>
+        </div>
+      </section>
+
+      <section id="route" class="map-card">
+        <div class="section-title small">
+          <h2>完整流程地图</h2>
+          <p>七个关键阶段，少走弯路</p>
+        </div>
+
+        <div class="route-line" aria-label="独立 App 完整流程">
+          <article>
+            <span class="icon-shell blue">
+              <svg viewBox="0 0 48 48"><path d="M24 6v5M11 11l4 4M6 24h5M37 11l-4 4M42 24h-5M16 33h16M18 39h12" /><circle cx="24" cy="24" r="11" /></svg>
+            </span>
+            <b>1</b>
+            <h3>发现点子</h3>
+            <p>找真实需求<br>验证可行性</p>
+          </article>
+          <article>
+            <span class="icon-shell orange">
+              <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="15" /><circle cx="24" cy="24" r="7" /><path d="M34 14l8-8M38 6h4v4" /></svg>
+            </span>
+            <b>2</b>
+            <h3>选择产品</h3>
+            <p>锁定细分方向<br>明确核心价值</p>
+          </article>
+          <article>
+            <span class="icon-shell purple">
+              <svg viewBox="0 0 48 48"><path d="M16 36l16-16M20 12l16 16M12 16l8-8 6 6-8 8zM30 30l6-6 6 6-8 8z" /></svg>
+            </span>
+            <b>3</b>
+            <h3>开发 MVP</h3>
+            <p>快速构建原型<br>验证核心假设</p>
+          </article>
+          <article>
+            <span class="icon-shell blue">
+              <svg viewBox="0 0 48 48"><path d="M24 7l5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2z" /></svg>
+            </span>
+            <b>4</b>
+            <h3>上架与 ASO</h3>
+            <p>准备上架材料<br>优化应用商店</p>
+          </article>
+          <article>
+            <span class="icon-shell orange">
+              <svg viewBox="0 0 48 48"><path d="M8 28l24-12v24zM32 20l8-6M34 30l8 4M13 30l3 10" /></svg>
+            </span>
+            <b>5</b>
+            <h3>分发与营销</h3>
+            <p>冷启动与推广<br>获取第一批用户</p>
+          </article>
+          <article>
+            <span class="icon-shell purple">
+              <svg viewBox="0 0 48 48"><path d="M10 38h28M14 34V22M24 34V12M34 34V18M12 14l10-8 10 7 8-5" /></svg>
+            </span>
+            <b>6</b>
+            <h3>增长与留存</h3>
+            <p>提升转化留存<br>建立增长飞轮</p>
+          </article>
+          <article>
+            <span class="icon-shell yellow">
+              <svg viewBox="0 0 48 48"><path d="M15 15a14 14 0 0 1 20 0l4 4M33 33a14 14 0 0 1-20 0l-4-4M39 10v9H30M9 38v-9h9" /></svg>
+            </span>
+            <b>7</b>
+            <h3>迭代与扩展</h3>
+            <p>复盘迭代优化<br>拓展更多可能</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="chapters" class="chapters">
+        <div class="section-title">
+          <h2>六大阶段 · 先看全局</h2>
+          <p>下面是目录，真正的操作步骤在下一节</p>
+        </div>
+
+        <div class="chapter-grid">
+          <article class="chapter-card">
+            <span class="badge blue">1</span>
+            <div>
+              <h3>发现点子</h3>
+              <p>从生活中找到好点子</p>
+            </div>
+            <ul>
+              <li>需求从哪里来?</li>
+              <li>验证想法是否可行</li>
+              <li>发现你的目标用户</li>
+              <li>分析市场与竞品</li>
+            </ul>
+            <svg class="card-art" viewBox="0 0 150 130">
+              <circle cx="74" cy="66" r="32" fill="#cce7ff"/>
+              <path d="M52 83c19-7 40-8 55 8M48 58c10-24 45-24 55 0M66 56h.1M90 56h.1M70 72c6 5 14 5 20 0" stroke="#0a0d12" stroke-width="5" fill="none" stroke-linecap="round"/>
+              <path d="M107 24l10 20 20 10-20 10-10 20-10-20-20-10 20-10z" fill="#ffec96" stroke="#0a0d12" stroke-width="4"/>
+            </svg>
+            <div class="card-meta"><span>模板 3</span><span>清单 4</span><span>案例 3</span></div>
+          </article>
+
+          <article class="chapter-card">
+            <span class="badge orange">2</span>
+            <div>
+              <h3>选择产品</h3>
+              <p>做正确的产品</p>
+            </div>
+            <ul>
+              <li>聚焦细分场景</li>
+              <li>确定核心价值主张</li>
+              <li>制定产品路线图</li>
+              <li>定价策略初步思考</li>
+            </ul>
+            <svg class="card-art" viewBox="0 0 150 130">
+              <rect x="34" y="30" width="62" height="74" rx="12" fill="#fff" stroke="#0a0d12" stroke-width="4"/>
+              <path d="M50 51l8 8 15-18M50 74l8 8 15-18M50 96h30" stroke="#f26110" stroke-width="5" fill="none" stroke-linecap="round"/>
+              <circle cx="105" cy="66" r="24" fill="#ffe0cf" stroke="#0a0d12" stroke-width="4"/>
+              <circle cx="105" cy="66" r="10" fill="#f26110"/>
+            </svg>
+            <div class="card-meta orange-meta"><span>模板 2</span><span>清单 3</span><span>案例 3</span></div>
+          </article>
+
+          <article class="chapter-card">
+            <span class="badge purple">3</span>
+            <div>
+              <h3>开发 MVP</h3>
+              <p>用最小成本验证想法</p>
+            </div>
+            <ul>
+              <li>定义 MVP 范围</li>
+              <li>选择技术栈与工具</li>
+              <li>设计原型与界面</li>
+              <li>快速开发与测试</li>
+            </ul>
+            <svg class="card-art" viewBox="0 0 150 130">
+              <rect x="24" y="32" width="102" height="70" rx="12" fill="#f1e6ff" stroke="#0a0d12" stroke-width="4"/>
+              <path d="M24 50h102" stroke="#0a0d12" stroke-width="4"/>
+              <rect x="45" y="66" width="22" height="22" rx="5" fill="#9552e0"/>
+              <rect x="77" y="66" width="36" height="22" rx="5" fill="#9552e0"/>
+              <path d="M91 102h38" stroke="#0a0d12" stroke-width="5" stroke-linecap="round"/>
+              <text x="84" y="118" font-size="20" font-weight="800" fill="#9552e0">MVP</text>
+            </svg>
+            <div class="card-meta purple-meta"><span>模板 4</span><span>清单 5</span><span>案例 3</span></div>
+          </article>
+
+          <article class="chapter-card">
+            <span class="badge blue">4</span>
+            <div>
+              <h3>上架与 ASO</h3>
+              <p>让用户在应用商店找到你</p>
+            </div>
+            <ul>
+              <li>准备上架资料</li>
+              <li>应用商店优化 ASO</li>
+              <li>截图与预览视频</li>
+              <li>审核注意事项</li>
+            </ul>
+            <svg class="card-art" viewBox="0 0 150 130">
+              <rect x="28" y="28" width="70" height="70" rx="18" fill="#479dff"/>
+              <path d="M64 43l-22 38M51 81h42M68 43l23 38" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/>
+              <rect x="82" y="54" width="44" height="58" rx="8" fill="#fff" stroke="#0a0d12" stroke-width="4"/>
+              <path d="M94 72h20M94 88h20M94 104h14" stroke="#0a0d12" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+            <div class="card-meta"><span>模板 5</span><span>清单 4</span><span>案例 3</span></div>
+          </article>
+
+          <article class="chapter-card">
+            <span class="badge orange">5</span>
+            <div>
+              <h3>分发与营销</h3>
+              <p>获取第一批付费用户</p>
+            </div>
+            <ul>
+              <li>冷启动策略</li>
+              <li>内容营销与社区</li>
+              <li>付费广告基础</li>
+              <li>合作与渠道拓展</li>
+            </ul>
+            <svg class="card-art" viewBox="0 0 150 130">
+              <path d="M28 76l66-34v58z" fill="#f26110" stroke="#0a0d12" stroke-width="4"/>
+              <path d="M95 51l20-15M99 71l25 6M44 82l10 25" stroke="#0a0d12" stroke-width="5" fill="none" stroke-linecap="round"/>
+              <rect x="104" y="84" width="30" height="24" rx="8" fill="#9552e0"/>
+              <path d="M111 94h14" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+            <div class="card-meta orange-meta"><span>模板 3</span><span>清单 5</span><span>案例 4</span></div>
+          </article>
+
+          <article class="chapter-card">
+            <span class="badge purple">6</span>
+            <div>
+              <h3>增长与留存</h3>
+              <p>让用户留下来并持续付费</p>
+            </div>
+            <ul>
+              <li>转化漏斗分析</li>
+              <li>提升留存与活跃</li>
+              <li>订阅与付费策略</li>
+              <li>数据驱动增长</li>
+            </ul>
+            <svg class="card-art" viewBox="0 0 150 130">
+              <path d="M30 104h94M42 96V70M70 96V52M98 96V34" stroke="#0a0d12" stroke-width="5" fill="none" stroke-linecap="round"/>
+              <rect x="34" y="72" width="18" height="24" rx="5" fill="#cce7ff"/>
+              <rect x="62" y="54" width="18" height="42" rx="5" fill="#9552e0"/>
+              <rect x="90" y="36" width="18" height="60" rx="5" fill="#f1e6ff"/>
+              <path d="M34 46c26 2 50-8 72-28M106 18v20h-20" stroke="#0a0d12" stroke-width="5" fill="none" stroke-linecap="round"/>
+            </svg>
+            <div class="card-meta purple-meta"><span>模板 3</span><span>清单 4</span><span>案例 3</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="playbook" class="playbook">
+        <div class="section-title">
+          <h2>详细实战计划 · 按这个顺序做</h2>
+          <p>每一步都给你动作、工具、判断标准和最后要产出的东西。</p>
+        </div>
+
+        <article class="play-step">
+          <div class="play-head">
+            <span class="play-number blue">01</span>
+            <div>
+              <h3>找点子和真实需求</h3>
+              <p>别从“我想做什么功能”开始，从“谁现在很痛、正在到处找办法”开始。</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div>
+              <h4>去哪里找</h4>
+              <ul>
+                <li>App Store 搜同类词，看差评、长评、最近更新和用户抱怨。</li>
+                <li>Reddit、TikTok、YouTube 评论区搜“how do I / app for / alternative”。</li>
+                <li>看 Meta Ads Library、TikTok Creative Center，找竞品正在反复投的角度。</li>
+                <li>从自己每天重复 3 次以上的麻烦里记 30 个问题，不先想解决方案。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>用哪些工具</h4>
+              <ul>
+                <li>Astro、Appfigures 或 Sensor Tower：看关键词热度、难度、竞品排名。</li>
+                <li>Google Trends：确认是不是季节性需求，别把短期热点当长期市场。</li>
+                <li>Notion / Sheets：用表格记录问题、人群、关键词、竞品、收费方式。</li>
+                <li>App Store 评论、GummySearch、Reddit 搜索：挖用户原话。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>怎么验证</h4>
+              <ul>
+                <li>先做 10 次用户访谈，只问过去行为：你上次遇到是什么时候？现在怎么解决？花过钱吗？</li>
+                <li>做一个假 web-to-app 漏斗：广告 → hero 页 → 证明页 → 假付费墙 → 留邮箱。</li>
+                <li>小额跑 Meta 广告测试 3 个角度，每个角度只测一个核心承诺。</li>
+                <li>不要收卡、不假装收费，提交后说明产品还在制作并追问“你为什么感兴趣”。</li>
+              </ul>
+            </div>
+            <div class="pass-box">
+              <h4>通过标准</h4>
+              <p>12% 到 25% 的访问者能到付费墙，2% 到 5% 的访问者愿意留下购买意向，访谈里至少 5 个人用同一句话描述同一个痛点。</p>
+              <b>产出：30 个问题清单、10 条用户原话、3 个广告角度、1 个验证漏斗结果。</b>
+            </div>
+          </div>
+        </article>
+
+        <article class="play-step">
+          <div class="play-head">
+            <span class="play-number orange">02</span>
+            <div>
+              <h3>锁定细分方向</h3>
+              <p>一个 App 只能先服务一个明确人群。人群混了，截图、文案、付费墙都会散。</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div>
+              <h4>怎么缩小</h4>
+              <ul>
+                <li>用“人群 + 场景 + 结果”写一句定位：给谁，在什么场景，得到什么结果。</li>
+                <li>把关键词背后的意图分开。比如“UV tracker”是防晒，“vitamin D”是补充日照，不是同一批人。</li>
+                <li>只选一个主购买理由，其他功能都降级成辅助卖点。</li>
+                <li>先选你能触达的人群，不选你完全不知道去哪找的市场。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>评分表</h4>
+              <ul>
+                <li>痛感强度：不用会不会损失时间、钱、健康、机会？</li>
+                <li>购买能力：用户是否已经为替代方案付费？</li>
+                <li>获客路径：ASO、TikTok、Google Ads、社区里有没有清晰入口？</li>
+                <li>竞争缝隙：差评里有没有重复抱怨，而竞品长期没解决？</li>
+              </ul>
+            </div>
+            <div>
+              <h4>不要这样做</h4>
+              <ul>
+                <li>不要同时服务两个相反需求的人群。</li>
+                <li>不要为了“市场更大”把定位写成所有人都能用。</li>
+                <li>不要用功能当卖点，要写用户想要的结果。</li>
+                <li>不要因为关键词低难度就做，Apple 现在会拒绝过于简单的工具。</li>
+              </ul>
+            </div>
+            <div class="pass-box orange">
+              <h4>通过标准</h4>
+              <p>你能用 15 秒说清：谁会搜它、为什么现在需要、竞品哪里没满足、你第一版只解决哪一步。</p>
+              <b>产出：一句定位、一个主关键词、一个主渠道、一个核心付费理由。</b>
+            </div>
+          </div>
+        </article>
+
+        <article class="play-step">
+          <div class="play-head">
+            <span class="play-number purple">03</span>
+            <div>
+              <h3>开发 MVP</h3>
+              <p>MVP 不是粗糙版大产品，而是只验证一个核心假设的小产品。</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div>
+              <h4>只做这些</h4>
+              <ul>
+                <li>核心动作：用户打开后 30 秒内能完成一次关键任务。</li>
+                <li>4 到 5 步 onboarding：确认下对 App、展示核心收益、引导到核心功能。</li>
+                <li>基础付费墙：展示免费能做什么、付费解锁什么、试用和价格。</li>
+                <li>反馈入口：第 3 次启动后问“你用它来做什么、多久用一次、哪里卡住”。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>工具组合</h4>
+              <ul>
+                <li>SwiftUI + Xcode：iOS 原生优先，少加依赖。</li>
+                <li>Figma 或直接用 SwiftUI Preview：先做关键路径，不画完整后台。</li>
+                <li>RevenueCat：订阅、试用、恢复购买和付费状态。</li>
+                <li>PostHog / Firebase / TelemetryDeck：记录激活、试用、购买、留存事件。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>埋点要有</h4>
+              <ul>
+                <li>下载后首次打开、完成 onboarding、触发核心动作。</li>
+                <li>看到付费墙、点击试用、购买成功、取消或退款。</li>
+                <li>第 1 天、第 7 天是否回来。</li>
+                <li>反馈表提交原因，尤其是“为什么下载”和“为什么没付费”。</li>
+              </ul>
+            </div>
+            <div class="pass-box purple">
+              <h4>通过标准</h4>
+              <p>陌生用户不用解释也能完成核心动作；你能从数据里看到哪里流失，而不是靠猜。</p>
+              <b>产出：MVP 范围、核心路径、付费墙、埋点表、TestFlight 反馈。</b>
+            </div>
+          </div>
+        </article>
+
+        <article id="listing" class="play-step">
+          <div class="play-head">
+            <span class="play-number blue">04</span>
+            <div>
+              <h3>上架材料与 ASO</h3>
+              <p>App Store 页面是漏斗最上层。图标和截图不清楚，后面的转化根本不会发生。</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div>
+              <h4>上架材料</h4>
+              <ul>
+                <li>App 名称、Subtitle、关键词字段、描述、促销文本。</li>
+                <li>图标、6.7 英寸和 6.5 英寸截图、必要时加 iPad 截图和预览视频。</li>
+                <li>隐私政策 URL、支持 URL、App Privacy 营养标签、年龄分级。</li>
+                <li>订阅名称、价格、试用、订阅说明、恢复购买入口、审核备注。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>截图怎么写</h4>
+              <ul>
+                <li>第一张只回答：这个 App 帮我解决什么问题？</li>
+                <li>不要只写 Find / Track / Protect 这种形容词，要写结果：避免晒伤、练琴计划、快速做出截图。</li>
+                <li>把主关键词的意图写进截图，不要两个用户人群混在一套截图里。</li>
+                <li>图标要亮、简单、远看能认出，不把它当最后一分钟的素材。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>审核注意</h4>
+              <ul>
+                <li>简单工具容易被当成低质量或重复 App，要加真实使用场景里的差异：同步、报表、导出、提醒、模板。</li>
+                <li>付费墙必须清楚展示价格、周期、试用结束会怎样，不能靠假倒计时或误导按钮逼订阅。</li>
+                <li>如果有账号、订阅、数据采集，审核备注里写清测试路径和测试账号。</li>
+                <li>别堆关键词。名称、Subtitle、关键词字段分工，不重复浪费字符。</li>
+              </ul>
+            </div>
+            <div class="pass-box">
+              <h4>通过标准</h4>
+              <p>一个没听过产品的人只看前两张截图，就能说出它解决什么问题，以及为什么值得下载。</p>
+              <b>产出：关键词表、截图文案、审核备注、隐私/支持 URL、订阅配置。</b>
+            </div>
+          </div>
+        </article>
+
+        <article class="play-step">
+          <div class="play-head">
+            <span class="play-number orange">05</span>
+            <div>
+              <h3>冷启动与第一批用户</h3>
+              <p>新手最容易错在同时做 5 个渠道。先选一个最可能赢的渠道，把它打透。</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div>
+              <h4>三种起步方式</h4>
+              <ul>
+                <li>ASO：适合搜索意图明确的工具类，目标是先吃长尾关键词。</li>
+                <li>UGC / TikTok / Reels：适合能用前后对比、故事、挑战展示结果的 App。</li>
+                <li>Google Ads / Meta Ads：适合有清晰付费意图和可衡量漏斗的产品。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>30 天动作</h4>
+              <ul>
+                <li>第 1 周：发布到 5 个垂直社区，只求访谈和反馈，不硬卖。</li>
+                <li>第 2 周：做 10 条短视频脚本，复用竞品高频角度，连续发 7 天。</li>
+                <li>第 3 周：跑 3 组小额广告，只比较 CTR、到付费墙比例、留邮箱比例。</li>
+                <li>第 4 周：把胜出的角度改进 App Store 截图、onboarding 和付费墙。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>第一批用户怎么拿</h4>
+              <ul>
+                <li>给访谈用户发 TestFlight，要求他们完成一次核心任务后再给意见。</li>
+                <li>把“我做了一个解决 X 的小工具”发到问题出现的社区，不发泛泛宣传。</li>
+                <li>找 20 个小创作者，给清晰脚本和禁用承诺，避免夸大功能。</li>
+                <li>在用户完成价值动作后再请求评分，不要一打开就弹。</li>
+              </ul>
+            </div>
+            <div class="pass-box orange">
+              <h4>通过标准</h4>
+              <p>你不是看下载数，而是看每个渠道能否带来完成核心动作的人，以及这些人有没有进入试用或付费。</p>
+              <b>产出：一个主渠道、10 条内容脚本、3 组广告测试、首批 50 到 100 个真实用户。</b>
+            </div>
+          </div>
+        </article>
+
+        <article id="growth" class="play-step">
+          <div class="play-head">
+            <span class="play-number purple">06</span>
+            <div>
+              <h3>转化、留存和增长飞轮</h3>
+              <p>增长不是多发帖，而是让每一批用户都更容易激活、付费、留下、带来下一批用户。</p>
+            </div>
+          </div>
+          <div class="detail-grid">
+            <div>
+              <h4>提升转化</h4>
+              <ul>
+                <li>先优化前 90 秒：用户是否知道下载对了、下一步点哪里、付费值在哪里。</li>
+                <li>付费墙不要太早挡住全部功能，先让用户体验基础价值，再展示高级价值。</li>
+                <li>试用期先测 3 天和 7 天，不要默认越长越好。</li>
+                <li>免费和付费边界要自然：次数限制、高级模板、导出、同步、增强功能。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>提升留存</h4>
+              <ul>
+                <li>定义一个激活事件：完成一次计划、生成一次结果、保存一个项目。</li>
+                <li>围绕激活事件做提醒、历史记录、模板、进度，而不是乱加功能。</li>
+                <li>第 3 次启动弹反馈，问用途和频率；第 7 天看谁回来，问留下原因。</li>
+                <li>把差评和取消原因每周归类，优先修重复最多的 1 个问题。</li>
+              </ul>
+            </div>
+            <div>
+              <h4>增长飞轮</h4>
+              <ul>
+                <li>ASO 或广告带来用户，onboarding 提高激活。</li>
+                <li>激活后的用户进入试用，付费用户贡献收入。</li>
+                <li>收入的一部分继续投到胜出的渠道，形成可控获客。</li>
+                <li>好体验带来评分、口碑和截图素材，再反过来提高转化。</li>
+              </ul>
+            </div>
+            <div class="pass-box purple">
+              <h4>每周看这些数</h4>
+              <p>展示量、产品页转化率、下载到首次打开、onboarding 完成率、核心动作完成率、试用率、试用转付费、D1/D7 留存、退款和取消原因。</p>
+              <b>产出：一张增长看板、每周一个实验、一个能复投的获客渠道。</b>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="tools" class="why-card">
+        <h2>工具与模板速查</h2>
+        <div class="why-grid">
+          <article>
+            <span class="why-icon blue">☆</span>
+            <h3>需求研究</h3>
+            <p>App Store 评论、Reddit、TikTok、Google Trends、Astro、Appfigures。</p>
+          </article>
+          <article>
+            <span class="why-icon orange">▣</span>
+            <h3>验证漏斗</h3>
+            <p>Carrd / Framer、Tally、Prelaunch、Meta Ads、Stripe 测试页。</p>
+          </article>
+          <article>
+            <span class="why-icon purple">▤</span>
+            <h3>开发与变现</h3>
+            <p>SwiftUI、TestFlight、RevenueCat、PostHog、Firebase。</p>
+          </article>
+          <article>
+            <span class="why-icon yellow">↻</span>
+            <h3>推广增长</h3>
+            <p>Meta Ads Library、TikTok Creative Center、Google Ads、App Store Connect。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="starter-path" class="starter-path">
+        <div class="section-title">
+          <h2>第一次做 iOS App，先走这条路</h2>
+          <p>不用一次看完 88 条。按阶段看对应视频，看完就产出一个小成果。</p>
+        </div>
+
+        <div class="starter-grid">
+          <article class="starter-step">
+            <span>01</span>
+            <h3>先建立正确预期</h3>
+            <p>第一次不要从“我要做完整产品”开始，而是先理解独立 App 的钱从哪里来：需求、分发、转化，缺一个都很难赚钱。</p>
+            <ul>
+              <li>写下你想做 App 的原因：赚钱、练手、解决自己的问题，三选一为主。</li>
+              <li>设一个小目标：30 天内做出 MVP，先验证 1 个核心场景。</li>
+              <li>不要一开始追求大而全，先做一句话能讲明白的小工具。</li>
+            </ul>
+            <b>阶段产出：一句话项目目标 + 30 天范围。</b>
+            <div class="watch-list">
+              <a href="https://www.youtube.com/watch?v=TLvNdp44bZ8" target="_blank" rel="noreferrer">我的 100 万美元独立 App 方法论</a>
+              <a href="https://www.youtube.com/watch?v=btl2tMjUBOw" target="_blank" rel="noreferrer">0 美元营销预算做出 10 万美元 App</a>
+              <a href="https://www.youtube.com/watch?v=nm8tRM6GQj8" target="_blank" rel="noreferrer">为什么 1 万美元 MRR 是多数人的梦想</a>
+            </div>
+          </article>
+
+          <article class="starter-step">
+            <span>02</span>
+            <h3>找需求，不是找灵感</h3>
+            <p>好点子通常来自真实麻烦：别人已经在搜索、抱怨、付费，或者竞品很多但体验很差。</p>
+            <ul>
+              <li>去 App Store 搜 10 个关键词，看前 20 名应用的差评和付费点。</li>
+              <li>去 Reddit、TikTok、YouTube 评论区找“我希望有一个...”这类句子。</li>
+              <li>把点子写成“谁在什么场景下，用它解决什么问题”。</li>
+            </ul>
+            <b>阶段产出：10 个需求句子，筛出 3 个候选方向。</b>
+            <div class="watch-list">
+              <a href="https://www.youtube.com/watch?v=yBa3BKOrVPA" target="_blank" rel="noreferrer">App 点子与验证：119 万美元流程第 1 部分</a>
+              <a href="https://www.youtube.com/watch?v=ijn19lKp9Xc" target="_blank" rel="noreferrer">低预算寻找产品市场契合点</a>
+              <a href="https://www.youtube.com/watch?v=VgwrWPhUaaE" target="_blank" rel="noreferrer">抢先找到可能病毒传播的 App 点子</a>
+              <a href="https://www.youtube.com/watch?v=r4V7mIKUH4I" target="_blank" rel="noreferrer">用快捷方式研究竞品收入</a>
+            </div>
+          </article>
+
+          <article class="starter-step">
+            <span>03</span>
+            <h3>验证可行性</h3>
+            <p>新手最容易犯的错是先开发三个月，再发现没人要。验证阶段只问三件事：有人搜吗、有人点吗、有人愿意付费吗。</p>
+            <ul>
+              <li>用关键词工具看搜索热度和竞争，避开没人搜或巨头占满的词。</li>
+              <li>做一个假 Web2App 页面，用广告或社群流量测试点击和付费意向。</li>
+              <li>通过标准先定死：例如 100 个访问里至少 2-5 个走到付费意向页。</li>
+            </ul>
+            <b>阶段产出：1 个通过验证的细分方向。</b>
+            <div class="watch-list">
+              <a href="https://www.youtube.com/watch?v=sM1wegrJJos" target="_blank" rel="noreferrer">用假的 Web2App 漏斗验证新点子</a>
+              <a href="https://www.youtube.com/watch?v=iVCXPtq17gY" target="_blank" rel="noreferrer">大多数 App 发布前就失败的原因</a>
+              <a href="https://www.youtube.com/watch?v=0YHKGcHetOA" target="_blank" rel="noreferrer">我花 2000 美元摸清 Meta Ads</a>
+            </div>
+          </article>
+
+          <article class="starter-step">
+            <span>04</span>
+            <h3>锁定 MVP，只做核心动作</h3>
+            <p>第一版 iOS App 只服务一个核心动作：识别、生成、记录、提醒、清理、导出。功能越多，越难验证。</p>
+            <ul>
+              <li>画 5 个屏幕以内的流程：入口、新手引导、核心动作、结果页、付费墙。</li>
+              <li>先用 SwiftUI 做原生体验，能不用账号系统就先不用。</li>
+              <li>如果用 AI/Vibe Coding，必须自己反复跑完整流程，别只看代码能不能编译。</li>
+            </ul>
+            <b>阶段产出：一个可用 MVP，能让用户完成 1 次核心动作。</b>
+            <div class="watch-list">
+              <a href="https://www.youtube.com/watch?v=lagGyGT1psU" target="_blank" rel="noreferrer">执行与开发：119 万美元流程第 2 部分</a>
+              <a href="https://www.youtube.com/watch?v=Q4msn6DOmfQ" target="_blank" rel="noreferrer">如何做出不像 Vibe Coding 的 App</a>
+              <a href="https://www.youtube.com/watch?v=sZT0iYid7As" target="_blank" rel="noreferrer">App Store 因“功能太少”拒审怎么办</a>
+            </div>
+          </article>
+
+          <article class="starter-step">
+            <span>05</span>
+            <h3>准备上架与 ASO</h3>
+            <p>上架不是填表。标题、副标题、关键词、截图、评论预期，决定了用户会不会点进来、会不会下载。</p>
+            <ul>
+              <li>标题放主关键词，副标题说清收益，不要堆无意义形容词。</li>
+              <li>前三张截图讲清：痛点、结果、为什么现在下载。</li>
+              <li>审核前准备隐私政策、订阅说明、测试账号、功能演示路径。</li>
+            </ul>
+            <b>阶段产出：一套可提交的 App Store 页面材料。</b>
+            <div class="watch-list">
+              <a href="https://www.youtube.com/watch?v=qaA23rN2lMw" target="_blank" rel="noreferrer">发布与营销：119 万美元流程第 3 部分</a>
+              <a href="https://www.youtube.com/watch?v=4_8f4vBlMzg" target="_blank" rel="noreferrer">2025 年 App Store 关键词研究</a>
+              <a href="https://www.youtube.com/watch?v=QM8tNfnfGrU" target="_blank" rel="noreferrer">Claude Skill 自动生成 App Store 截图</a>
+              <a href="https://www.youtube.com/watch?v=z6DhByIF6LM" target="_blank" rel="noreferrer">15 分钟 App Store 改造</a>
+            </div>
+          </article>
+
+          <article class="starter-step">
+            <span>06</span>
+            <h3>冷启动与分发</h3>
+            <p>新手不要只等 App Store 自然流量。先用一个渠道打穿：ASO、短视频、Meta Ads、Web2App、YouTube 都可以，但不要同时做五个。</p>
+            <ul>
+              <li>如果有关键词需求，优先 ASO；如果需求要解释，优先短视频或 YouTube。</li>
+              <li>如果能用广告测清楚痛点，就用 Meta Ads 跑小预算验证素材。</li>
+              <li>每周只判断一个问题：哪个渠道能带来真实下载或试用。</li>
+            </ul>
+            <b>阶段产出：第一个稳定获客渠道，哪怕每天只有几个用户。</b>
+            <div class="watch-list">
+              <a href="https://www.youtube.com/watch?v=HjnXnssrj4M" target="_blank" rel="noreferrer">为什么 2026 年 App 营销正在改变</a>
+              <a href="https://www.youtube.com/watch?v=8jubXNF8X64" target="_blank" rel="noreferrer">如何为 App 做广告：三步流程</a>
+              <a href="https://www.youtube.com/watch?v=-ft4JzVT2w8" target="_blank" rel="noreferrer">Web2App 漏斗终于开始转化</a>
+              <a href="https://www.youtube.com/watch?v=L0LovslxRG8" target="_blank" rel="noreferrer">为什么独立 App 开发者应该做 YouTube</a>
+            </div>
+          </article>
+
+          <article class="starter-step">
+            <span>07</span>
+            <h3>提升转化与留存</h3>
+            <p>下载不是胜利。用户第一次打开后，必须快速看到价值；付费墙应该出现在价值被理解之后，而不是挡在门口。</p>
+            <ul>
+              <li>新手引导只解释核心收益，不要做产品说明书。</li>
+              <li>定义激活事件：完成一次生成、保存一次记录、导出一次结果。</li>
+              <li>看试用率、试用转付费、D1/D7 留存，别只看下载数。</li>
+            </ul>
+            <b>阶段产出：一条从下载到试用再到付费的转化路径。</b>
+            <div class="watch-list">
+              <a href="https://www.youtube.com/watch?v=dKif3Eo3frk" target="_blank" rel="noreferrer">获得前 100 个付费用户</a>
+              <a href="https://www.youtube.com/watch?v=QMo2T5apdYw" target="_blank" rel="noreferrer">能提升转化的新手引导秘密</a>
+              <a href="https://www.youtube.com/watch?v=Owz0rWi-yz4" target="_blank" rel="noreferrer">改变付费墙出现时机后试用注册提升</a>
+              <a href="https://www.youtube.com/watch?v=UWm_NpAyrlc" target="_blank" rel="noreferrer">这个付费墙上个月赚了 73,800 美元</a>
+            </div>
+          </article>
+
+          <article class="starter-step">
+            <span>08</span>
+            <h3>复盘、迭代、放大</h3>
+            <p>当 App 有一点收入后，不要急着重写。先找瓶颈：下载少、转化低、留存差、定价弱，哪个最影响收入就先修哪个。</p>
+            <ul>
+              <li>每周只做一个实验：换截图、换价格、换付费墙时机、换关键词。</li>
+              <li>如果一个 App 每月有稳定下载但收入低，优先修新手引导和付费墙。</li>
+              <li>如果一个方向完全没有搜索、没有点击、没有付费意向，就果断停掉。</li>
+            </ul>
+            <b>阶段产出：一个每周复盘表和下一轮增长实验。</b>
+            <div class="watch-list">
+              <a href="https://www.youtube.com/watch?v=-1n2vqTwf04" target="_blank" rel="noreferrer">3 步把 App 从月入 90 美元做到 3000 美元</a>
+              <a href="https://www.youtube.com/watch?v=bXvpOt1Wtl0" target="_blank" rel="noreferrer">7 万美元 MRR ASO 停止增长后怎么办</a>
+              <a href="https://www.youtube.com/watch?v=t9oOlQGUweA" target="_blank" rel="noreferrer">一个 App 到底什么时候算失败</a>
+              <a href="https://www.youtube.com/watch?v=mafcz2I6uu8" target="_blank" rel="noreferrer">MRR 突然下跌 34% 的原因</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="checklist" class="plan">
+        <div class="section-title">
+          <h2>7 天行动计划 · 迈出第一步</h2>
+          <p>跟着每天一个小目标，快速启动你的 App 项目</p>
+        </div>
+
+        <div class="day-grid">
+          <article><span>Day 1</span><b>找点子</b><p>记录 10 个想法，并筛选 1 个最有潜力的。</p></article>
+          <article><span>Day 2</span><b>验证需求</b><p>与 5 位潜在用户聊聊，确认真实需求。</p></article>
+          <article><span>Day 3</span><b>明确方案</b><p>确定核心功能，写出 MVP 范围与价值主张。</p></article>
+          <article><span>Day 4</span><b>制作原型</b><p>用原型工具做出交互草图，验证流程。</p></article>
+          <article><span>Day 5</span><b>准备上架</b><p>注册开发者账号，准备账号与文案初稿。</p></article>
+          <article><span>Day 6</span><b>冷启动计划</b><p>制定发布计划，准备推广渠道与内容。</p></article>
+          <article><span>Day 7</span><b>发布与复盘</b><p>提交审核或发布复盘单，抬头看下一步。</p></article>
+        </div>
+      </section>
+
+      <section id="cases" class="final-cta">
+        <div class="final-person" aria-hidden="true"></div>
+        <div>
+          <h2>别再从写代码开始</h2>
+          <p>先用详细计划验证需求，再决定要不要开发。</p>
+          <a class="primary-button" href="#playbook">查看详细计划 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="rocket" aria-hidden="true"></div>
+      </section>
+
+      <section id="about" class="source-note">
+        <p>
+          内容基于 Adam Lyttle 近一年 88 条视频整理，覆盖 idea 验证、关键词研究、MVP 开发、上架 ASO、分发营销、付费墙、定价与增长复盘。
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

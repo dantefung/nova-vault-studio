@@ -22,6 +22,7 @@ date: "2026-06-22"
 | [莆、广系跨境电商AI搜索与深度研究](./ai-cross-border-ecommerce-research/ai-cross-border-ecommerce-research.md) | 市场/用户/竞品/趋势四大研究 + AI整合商业情报系统 |
 | [Google SEO 7大排名信号](./seo-7-google-signals/seo-7-google-signals.md) | 反向链接/搜索意图/新鲜度/HTTPS/移动友好/加载速度/无侵入广告 |
 | [Dropshipping 资源索引](./dropshipping-resources/index.md) | 一件代发从概念→选平台→实操全链路 |
+| [独立 App 实战手册](./app-playbook/index.md) | Adam Lyttle 88 集视频整理，从点子到第一批付费用户 6 阶段全流程 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径

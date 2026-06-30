@@ -804,3 +804,12 @@ source: "llm-wiki"
 - 新建 concepts/openspec-superpowers-workflow.md
 - 内容：公司内推的 AI 辅助开发工作流整合——OpenSpec 管规格/记忆，Superpowers 管设计/执行。6 步闭环：① 提案（/opsx:propose）→ ② 人工审查 → ③ 设计（brainstorming + writing-plans）→ ④ 构建（TDD + 子代理读 specs/）→ ⑤ 交付（verification）→ ⑥ 归档（/opsx:archive）。**核心价值：解决 AI 开发的两个最大痛点——缺记忆 + 缺纪律**
 - 分类：concepts（ai-workflow / spec-driven-development / multi-agent）
+
+## [2026-06-29] archive: 独立 App 实战手册（Adam Lyttle 88 集整理）
+
+- 整页爬取 https://app-playbook-site.pages.dev/ 至 docs/public/app-playbook/（VitePress 公共目录，含 index.html + styles.css + script.js + favicon.svg）
+- 知识库版摘要 docs/md/columns/indie-hub/app-playbook/index.md 使用 `<HtmlViewer>` 组件内嵌呈现
+- indie-hub/index.md 系列索引表新增入口
+- columns/index.md 专栏总览新增 Indie Hub 入口
+- 内容：6 阶段独立 App 实战——①找点子和真实需求 ②锁定细分方向 ③开发 MVP ④上架与 ASO ⑤冷启动与第一批用户 ⑥转化/留存/增长飞轮。每步含「工具/方法/通过标准/产出」。配套 7 天行动计划 + 工具速查表。**核心方法论：先验证再开发，单渠道打透再扩，付费墙放在价值被理解之后**
+- 分类：columns/indie-hub（indie-app / app-store-optimization / mvp / cold-start / growth-loop）
