@@ -463,7 +463,7 @@ index.md 保持按日期倒序排列（最新日期在前）。
 
 ### Codex 实战课程仓库
 
-路径：`/opt/workspace/nova-vault-studio/codex-practice`
+路径：`codex-practice/`（相对于本仓库根目录）
 
 GitHub：https://github.com/VastFuture/codex-practice
 
