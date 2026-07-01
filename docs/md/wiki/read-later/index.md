@@ -44,6 +44,11 @@ date: "2026-05-29"
 | 2026-05-13 | https://x.com/i/status/2054396603197505745 | **铁锤人：AI Agent记忆原理**：向量数据库/RAG/上下文窗口/情景记忆，426.2K浏览（付费合作） |
 | 2025-11-28 | https://x.com/i/status/1994381544178274769 | **泊舟：日常AI使用指南**：四象限选择AI工具/提示词/编程/SMART框架，158.7K浏览 |
 | 2026-05-03 | https://x.com/i/status/2050800695239127479 | **周周：ChatGPT Plus海外区订阅**：Apple ID/礼品卡/地区设置避坑，20.8K浏览 |
+| 2026-06-30 | https://x.com/i/status/2071975182278045813 | **黄赟：03年毕业生AI工作流创业**：RPA+ChatGPT+Lark自动化爆文写作→旅行博主→高客单 |
+| 2026-06-30 | https://x.com/i/status/2071773128993489341 | **淘淘：抖音带货日入2万**：三年100万件，163.5K浏览 |
+| 2026-06-30 | https://x.com/i/status/2071842762056667409 | **老杨啊：free-for-dev开发者白嫖圣经**：12.7k Stars，1600人维护，AWS/GCP/Vercel免费额度汇总 |
+| 2026-06-30 | https://x.com/i/status/2071799855455027664 | **Mengke Wang：App产品卖出160条真话**：Apple×浙大孵化营，App创始人不愿意承认的判断，29.1K浏览 |
+| 2026-07-01 | https://mp.weixin.qq.com/s/0bbHjliV-V35HDtGtxt33Q | 待查看 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/RqKMLdfbWRLTrHfec0IV1A | **zlbigger：长篇网文写作Skill**：小龙虾模型 + Obsidian 自动化写连载小说，附一篇品读章节 |
 | 2026-06-28 | https://x.com/i/status/2070702280224235949 | **Louis Wei：Loop Engineering 0-1搭建教程**：从手动 Prompt 到自主 Agent 的 5 个等级完整指南 |
 | 2026-06-28 | https://x.com/i/status/2061284291544269030 | **水Lane：giffgaff 极简保号技巧**：6个月内必须主动扣费一次，预存 £10 操作方法 |
