@@ -16,6 +16,9 @@ date: "2026-05-29"
 | 2026-07-02 | https://x.com/i/status/2027685265817694668 | **冰河：短剧剧本创作 Skill 正式发布**：小说→剧本→场景→Seedance 2.0 全链路，含出海模式，469.2K 浏览 |
 | 2026-07-02 | https://x.com/i/status/2039989274070913482 | **Mr Panda：40岁后的身体保养指南**：饮食、运动与作息的科学方案，AI制作，149.5K 浏览 |
 | 2026-07-02 | https://x.com/i/status/2071799516978888972 | **Jingle Bell 初号机：半年总结目录**：AI/投资/个人感悟/重要事件/交易所周边/coding工具/搞抽象全目录，8.8K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2021791983514366057 | **出海去孵化器：Anthropic 官方 Claude Skills 构建指南精华解读**：33页指南整理，解决重复告诉Claude写作风格/项目规范/工作流程的痛点，132.8K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2071796715162857477 | **小互：单人团队运营5款产品80%时间不写代码秘诀**：Every 的方法——每次完成功能后把解法存进系统，让AI下次自动避坑，12K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2065232309310427565 | **歸藏：万字长文——做了些爆款 Skills 以后，我对 Skills 的看法**：Agent 大众理解误区、Skills 真正价值所在，476.8K 浏览 |
 | 2026-06-30 | https://x.com/Jason_Young1231/status/2061476998602715557?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/dotey/status/2014164622459228324?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/hezhiyan7/status/2057607672875385264?s=20 | 待查看 |
@@ -33,7 +36,7 @@ date: "2026-05-29"
 | 2026-06-30 | https://x.com/AdrianPunk115/status/2062804487665029241?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/369Serena/status/2062495055034958159?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/gaoqian2580/status/2059786247682637972?s=20 | 待查看 |
-| 2026-06-30 | https://x.com/op7418/status/2059812895803011449?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/op7418/status/2059812895803011449?s=20 | ~~待查看~~ → 已归档至 sources/guizang-skills-insights.md |
 | 2026-06-30 | https://x.com/Eejoylove/status/2071965689708249264?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/canghe/status/2048306517976514786?s=20 | ~~待查看~~ → 已归档至 sources/gpt-image2-prompts.md |
 | 2026-06-30 | https://github.com/jlcodes99/cockpit-tools | **Cockpit Tools**：AI 编程辅助工具集 |
@@ -199,6 +202,8 @@ date: "2026-05-29"
 ## GitHub
 
 | 日期 | 链接 | 摘要 |
+|------|------|------|
+| 2026-07-02 | https://github.com/alchaincyf/obsidian-ai-orange-book | **Obsidian + Claude Code 橙皮书**：用AI重建你的第二大脑，1.2k Stars。核心：Markdown是AI原生接口、LLM是编译器而非检索器、CLAUDE.md+index.md搞定80%工作 |
 |------|------|------|
 | 2026-06-30 | https://github.com/RayVentura/ShortGPT | **ShortGPT**：AI 短视频批量生成框架，自动化剪辑/配音/字幕/发布 |
 | 2026-06-30 | https://github.com/freestylefly/awesome-gpt-image-2 | **awesome-gpt-image-2**：苍何的 329 条 GPT-Image 2 提示词模板开源，Prompt-as-Code 结构化模板。关联：已归档至 sources/gpt-image2-prompts.md |
