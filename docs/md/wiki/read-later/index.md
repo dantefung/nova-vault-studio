@@ -11,6 +11,25 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 备注 |
 |------|------|------|
+| 2026-06-30 | https://x.com/Jason_Young1231/status/2061476998602715557?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/dotey/status/2014164622459228324?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/hezhiyan7/status/2057607672875385264?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/VincentLogic/status/2070416748772515992?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/MindfulReturn/status/2037386293265748390?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/binghe/status/2032733777907347477?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/bozhou_ai/status/2039596877650551056?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/seekjourney/status/2035923833707012270?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/PandaTalk8/status/2046142712756441502?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/HanyangWang/status/2029362155607474359?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/AlchainHust/status/2056595872754848232?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/VincentLogic/status/2070521706503151951?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/ezshine/status/2031224897004052789?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/Pluvio9yte/status/2066904490868109493?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/AdrianPunk115/status/2062804487665029241?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/369Serena/status/2062495055034958159?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/gaoqian2580/status/2059786247682637972?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/op7418/status/2059812895803011449?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/Eejoylove/status/2071965689708249264?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/canghe/status/2048306517976514786?s=20 | ~~待查看~~ → 已归档至 sources/gpt-image2-prompts.md |
 | 2026-06-30 | https://github.com/jlcodes99/cockpit-tools | **Cockpit Tools**：AI 编程辅助工具集 |
 | 2026-06-30 | https://github.com/google/agents-cli | **Google Agents CLI**：Google 开源的 Agents 开发 CLI 工具，支持多 Agent 编排 |
@@ -176,6 +195,7 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-06-30 | https://github.com/RayVentura/ShortGPT | **ShortGPT**：AI 短视频批量生成框架，自动化剪辑/配音/字幕/发布 |
 | 2026-06-30 | https://github.com/freestylefly/awesome-gpt-image-2 | **awesome-gpt-image-2**：苍何的 329 条 GPT-Image 2 提示词模板开源，Prompt-as-Code 结构化模板。关联：已归档至 sources/gpt-image2-prompts.md |
 | 2026-06-30 | https://github.com/gpt-image2/awesome-gptimage2-prompts | **awesome-gptimage2-prompts**：GPT-Image 2 提示词合集，open-gpt-image 出品的另一个 awesome list |
 | 2026-06-10 | https://github.com/Leonxlnx/taste-skill | **Taste-Skill 审美品味 Skill（36.5k Stars）**：给 AI 装上"设计品味过滤器"，解决大模型生成内容千篇一律的根本问题。审美品味过滤器 + 个性输出 + 品味学习 + 创意增强。部署：`npx skills add taste-skill`。关联：本仓 [[taste-skill]]（已归档）|
@@ -198,6 +218,9 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-06-30 | https://zhuanlan.zhihu.com/p/2051351123517346918 | 待查看 |
+| 2026-06-30 | https://ew6rccvpnmz.feishu.cn/wiki/ILO2waqXLi1EvqkuKHvcceMOnVd | 待查看 |
+| 2026-06-30 | https://my.feishu.cn/wiki/JhtLwBQZ7ij43MkiX8IcW56cnFd | **AINative 工作流设计**（飞书）：Agent 工作流设计相关，待进一步了解 |
 | 2026-06-10 | https://codexradar.com/ | **CodexRadar**：AI Coding Agent / Skills 资讯站，追踪 GitHub trending 新发布，Codex/Claude Code/Cursor 等生态动态。待进一步了解定位。 |
 | 2026-06-10 | http://vibe-ui.youji.pro/ | **Vibe UI Design Guide**：AI 生成 UI 的完整设计到开发路径。两条路（UI Kit+MCP / design.md）、15 个设计系统模板（Clean/Minimal/Modern/Elegant 等）、设计 Token 提取流程、技术栈选型（HTML/React/Next.js/Tailwind）、资源导航（字体/图标/Prompt/Skill）。来源：有籍（youji.pro）|
 | 2026-06-24 | https://harness-agent.ai/ | **Harness Engineering 小书**（王梓任）：对 Harness 概念做精细理论分析，比网上绝大多数分析精确深入得多，包含大量实战经验 |

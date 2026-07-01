@@ -821,6 +821,12 @@ source: "llm-wiki"
 - 内容摘要：阿西的 Codex 入门教程，对比 Claude Code 三大痛点（部署难/额度贵/封号），介绍两种模式、四种场景：配图、PPT、自动化任务、Computer Use。
 - 分类：sources/tools（codex / ai-coding-agent / beginner-guide）
 
+## [2026-06-30] ingest: Codex 视频制作 6 个 GitHub Skills
+
+- 归档《Codex 视频制作：6 个必装 GitHub Skills》至 sources/codex-video-production-skills.md
+- 内容摘要：整理 Codex 做视频的 6 个 GitHub Skills：HyperFrames（动效视频）、video-use（剪辑）、Remotion Skills（批量视频）、Generative Media Skills（AI 生成工具箱）、videocut-skills（中文剪辑）、seedance2-skill（即梦提示词）。含推荐搭配方案。
+- 分类：sources/tools（codex / video-production / github-skills）
+
 ## [2026-06-30] ingest: GPT-Image 2 提示词模板开源
 
 - 归档《苍何：GPT-Image 2 的 329 条提示词模板开源》X/Twitter 至 sources/gpt-image2-prompts.md
