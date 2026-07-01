@@ -299,3 +299,9 @@ date: "2026-05-05"
 ## 其他
 
 - [Involution Hell](https://involutionhell.vercel.app/) — AI 学习资源导航
+
+---
+
+## 个人 AI 工作流参考
+
+- [我的常用 AI 工具](https://mp.weixin.qq.com/s/BBUc4NVORsCTF8c3dIX3HQ) — Felix（AI观察志）：本地助理 Hermes+Mac mini / 飞书+lark-cli / Codex+Claude+GLM / Obsidian+Claudian / PPT工具链，完整个人 AI 工作流
