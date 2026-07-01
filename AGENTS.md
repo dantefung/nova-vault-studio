@@ -456,3 +456,15 @@ index.md 保持按日期倒序排列（最新日期在前）。
 - `log.md`：只追加、chronological 条目，条目以 `## [YYYY-MM-DD]` 开头
 - `brainstorming/`：与 AI 对话的探索记录（chronological 条目）
 - `artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`images/`
+
+---
+
+## 临时记录
+
+### Codex 实战课程仓库
+
+路径：`/opt/workspace/nova-vault-studio/codex-practice`
+
+GitHub：https://github.com/VastFuture/codex-practice
+
+近期需要维护，可能需要激活上下文。
