@@ -1,0 +1,66 @@
+---
+title: "Codex 零基础小白上手指南（附实战全流程）"
+date: "2026-06-30"
+source: "X/Twitter"
+url: "https://x.com/axichuhai/article/2052233789925892370"
+---
+
+# Codex 零基础小白上手指南（附实战全流程）
+
+> 阿西写的 Codex 零基础入门教程，从安装到四个真实场景演示——配图、PPT、自动化任务、Computer Use 操作电脑。
+
+<!-- more -->
+
+## 为什么推荐 Codex 而非 Claude Code
+
+三个痛点对比：
+
+- **部署**：Claude Code 要装终端配环境，上手难；Codex 像普通 App 一样安装，不用碰终端
+- **额度**：Claude Code 额度消耗快（尤其 Opus 4.7 上线后），Codex 对非会员有免费额度且官方常重置
+- **封号**：Claude Code 容易封号；Codex 无此问题
+
+另外 Codex 内置 GPT-Image-2 生图模型，可直接生成图片。
+
+## 三种安装方式
+
+桌面 App（推荐小白）、VS Code 插件、终端命令行。
+
+桌面版 Windows/macOS 都直接去官网下载安装包，登录 ChatGPT 账号即可。
+
+## 界面布局
+
+左中右三块：
+
+- **左侧**：项目管理 + 单聊模式。项目管理需绑定文件夹（Codex 在此读写文件）。下方有剩余额度显示（5 小时滚动额度 + 周额度）
+- **中间**：对话区。可选模型（ChatGPT 5.5）、推理速度（标准/快速，快速消耗 2 倍额度）、权限设置（自动审查/完全访问）、上下文进度压缩
+- **右侧**：终端 + 文件预览 + 任务追踪面板。文件预览可直接看生成的 HTML/PPT 效果
+
+![](../images/codex-beginners-guide/img-006-HHruwB2XQAcaumb.png)
+
+## 四个真实使用场景
+
+### 场景一：一键给长文生成配图
+
+安装插图 Skill（如宝玉的 baoyu Skill）→ 丢文章给 Codex → 调用 Skill 扫描段落后逐张生成图片 → 自动插入文章对应位置
+
+![](../images/codex-beginners-guide/img-012-HHrwI_wXAAgEffi.jpg)
+
+### 场景二：一键生成可编辑的本地 PPT
+
+Codex 内置 PPT 插件（侧边栏入口）→ 发文章给 Codex → @调出 PPT 插件，指定风格 → 输出本地 .pptx 文件，可自由编辑文字排版
+
+### 场景三：自动化任务
+
+把重复工作封装成定时自动任务：让 Codex 搜索信息 → 确认内容 → 告诉它"做成自动化任务，每天早上 9 点推送" → 左上角"自动化"面板可管理
+
+![](../images/codex-beginners-guide/img-018-HHrwxjXW4AEX_cS.jpg)
+
+### 场景四：Computer Use——让 AI 操作你电脑（Mac 专属）
+
+安装 Computer Use 插件 → AI 获得操作权限 → 虚拟鼠标执行任务。演示：让 Codex 自动打开飞书搜索联系人发送消息，每天早上 9 点推送 AI 资讯到手机。
+
+![](../images/codex-beginners-guide/img-020-HHrxAwDW0AMdEhs.jpg)
+
+## 来源
+
+> 🫶作者 X：[@axichuhai](https://x.com/axichuhai)
