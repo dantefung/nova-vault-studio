@@ -4,3 +4,4 @@
 
 - [教程一](./tutorial-one/)
 - [教程二](./tutorial-two/)
+- [Codex 实战课程](./codex-practice/)
