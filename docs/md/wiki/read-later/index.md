@@ -50,6 +50,17 @@ date: "2026-05-29"
 | 2026-06-30 | https://x.com/i/status/2071842762056667409 | **老杨啊：free-for-dev开发者白嫖圣经**：12.7k Stars，1600人维护，AWS/GCP/Vercel免费额度汇总 |
 | 2026-06-30 | https://x.com/i/status/2071799855455027664 | **Mengke Wang：App产品卖出160条真话**：Apple×浙大孵化营，App创始人不愿意承认的判断，29.1K浏览 |
 | 2026-07-01 | https://mp.weixin.qq.com/s/0bbHjliV-V35HDtGtxt33Q | 待查看 |
+| 2026-07-01 | https://haoshiyinli.com/book/read.html | **王梦珂《把才华变成钱》**：非技术人员品牌工作手册，16章讲清如何把能力变收入 |
+| 2026-07-01 | https://x.com/i/status/2072147682387517527 | **饼干哥哥：AI中转站月入百万**：Token API倒卖生意解析，深潮TechFlow引用，2.4K浏览 |
+| 2026-07-01 | https://weekly.tw93.fun/posts/271 | **tw93潮流周刊271期：精神家园**：claude-tap/VidBee/Witr/Dinky工具推荐+工程师转型随笔，封面拍于王小波书店 |
+| 2026-06-26 | https://mp.weixin.qq.com/s/8Ajr7a5NjyTAyQzn1yg2zQ | **AI少折腾：用Codex搭建公众号AI内容生产流水线**：选题/研究/写作/改稿/视觉/发布全流程，Skill分工设计 |
+| 2026-03-12 | https://x.com/i/status/2032091246588518683 | **Tw93：你不知道的Claude Code**：架构/治理/工程实践，40刀/月深度踩坑经验，3.2M浏览，18K收藏 |
+| 2026-03-19 | https://x.com/i/status/2034627967926825175 | **Tw93：你不知道的Agent**：原理/架构/工程实践，1.7M浏览，11K收藏 |
+| 2026-04-03 | https://x.com/i/status/2040047268221608281 | **Tw93：你不知道的大模型训练**：原理/路径/新实践，640.5K浏览，4.2K收藏 |
+| 2026-01-24 | https://x.com/i/status/2014851148516360446 | **Tw93：243个工程师最近一年买到的好东西**：电子设备/软件/生活用品推荐合集，1.8M浏览 |
+| 2026-01-30 | https://x.com/i/status/2017241035454218547 | **Tw93：我的极简生活经验**：恰到好处的极简生活分享，119.5K浏览 |
+| 2024-01-12 | https://tw93.fun/2024-01-12/open.html | **Tw93：我的开源成长之旅**：9年开源经验，微软GitHub Universe 2023分享 |
+| 2026-07-01 | https://my.feishu.cn/docs/doccnVL5FwOmPpvCU5NX5lCJljd | **飞书文档**：需登录查看 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/RqKMLdfbWRLTrHfec0IV1A | **zlbigger：长篇网文写作Skill**：小龙虾模型 + Obsidian 自动化写连载小说，附一篇品读章节 |
 | 2026-06-28 | https://x.com/i/status/2070702280224235949 | **Louis Wei：Loop Engineering 0-1搭建教程**：从手动 Prompt 到自主 Agent 的 5 个等级完整指南 |
 | 2026-06-28 | https://x.com/i/status/2061284291544269030 | **水Lane：giffgaff 极简保号技巧**：6个月内必须主动扣费一次，预存 £10 操作方法 |
