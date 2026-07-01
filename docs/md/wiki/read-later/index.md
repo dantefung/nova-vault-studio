@@ -37,6 +37,13 @@ date: "2026-05-29"
 | 2026-06-28 | https://mp.weixin.qq.com/s/0R4blVPJforjMKVm6harrw | **黄杨ME：用土区礼品卡充值GPT Plus**：土耳其区 Apple ID 充值 GPT Plus 省一半，实操步骤详解 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/dn1YamrZgs3QYPMvwLzWdQ | **风尘：土区ChatGPT订阅价格暴涨**：土区 Plus 涨至 $21.66 比美区还贵8%，菲律宾区成新低价洼地 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/7xzXiToRiatBRlqIIInDUg | **木易：安卓开通ChatGPT Plus教程**：国内信用卡 + Google Play 绑卡开通 Plus，保姆级安卓篇 |
+| 2026-05-22 | https://x.com/i/status/2057646160631001372 | **Kyrie：Obsidian多端同步全方案**：11种方式对比，71.9K浏览 |
+| 2026-06-29 | https://x.com/i/status/2071593346708177237 | **fireup：土区订阅GPT Plus真相**：不同产品低价区不同，Claude巴区更便宜（约119元），土区反而要145元 |
+| 2026-05-04 | https://x.com/i/status/2051333083220394321 | **9A💎：虚拟信用卡BIN号段**：高权重BIN原理/烧BIN/风控/代币化，AI订阅绑卡实战指南 |
+| 2026-05-17 | https://x.com/i/status/2055913339138560001 | **动物园园长：ChatGPT搞闲鱼店铺**：选品/文案/赚钱系统，94K浏览 |
+| 2026-05-13 | https://x.com/i/status/2054396603197505745 | **铁锤人：AI Agent记忆原理**：向量数据库/RAG/上下文窗口/情景记忆，426.2K浏览（付费合作） |
+| 2025-11-28 | https://x.com/i/status/1994381544178274769 | **泊舟：日常AI使用指南**：四象限选择AI工具/提示词/编程/SMART框架，158.7K浏览 |
+| 2026-05-03 | https://x.com/i/status/2050800695239127479 | **周周：ChatGPT Plus海外区订阅**：Apple ID/礼品卡/地区设置避坑，20.8K浏览 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/RqKMLdfbWRLTrHfec0IV1A | **zlbigger：长篇网文写作Skill**：小龙虾模型 + Obsidian 自动化写连载小说，附一篇品读章节 |
 | 2026-06-28 | https://x.com/i/status/2070702280224235949 | **Louis Wei：Loop Engineering 0-1搭建教程**：从手动 Prompt 到自主 Agent 的 5 个等级完整指南 |
 | 2026-06-28 | https://x.com/i/status/2061284291544269030 | **水Lane：giffgaff 极简保号技巧**：6个月内必须主动扣费一次，预存 £10 操作方法 |
@@ -69,6 +76,13 @@ date: "2026-05-29"
 | 2025-01-09 | https://x.com/i/status/1877358943300952206 | **Zane Wynn：SEO博客底层逻辑**：长尾词博客不仅直接获客，还通过内链传递权重给主页面，提升主词排名 |
 | 2026-04-26 | https://x.com/i/status/2048230976447557787 | **Tw93：非技术人上手AI Coding**：上手路径/使用场景/实战指南，355.3K浏览，2.9K收藏 |
 | 2026-06-29 | https://x.com/i/status/2071637123413970960 | **Stanley：闲鱼AI代写副业**：普通人2026年最被低估的搞钱副业分析，45.1K浏览 |
+| 2026-06-07 | https://x.com/i/status/2063523060406423864 | **知识猫图解：Codex快速入门任意领域**：学习系统/知识仓库/练习生成/项目推进，168.1K浏览，1.8K收藏 |
+| 2023-08-16 | https://x.com/i/status/1691832015816196580 | **Barret李靖：Wise境外卡开通指南**：护照+入金$20认证，地址验证解决方案，423.3K浏览 |
+| 2026-04-22 | https://x.com/i/status/2046746630859210806 | **鱼总聊AI：德国O2 eSIM神卡**：0元开卡，保号0.02欧/年，1M浏览（付费合作内容，仅供参考） |
+| 2026-04-26 | https://x.com/i/status/2048407080512757795 | **鱼总聊AI：KiteSim香港手机卡**：4美分/天，独享虚拟号，228.6K浏览（付费合作内容，仅供参考） |
+| 2026-07-01 | https://github.com/farion1231/Way-to-ChatGPT-Plus | **Way-to-ChatGPT-Plus**：国内订阅ChatGPT Plus/X Premium/Claude Pro攻略，美区/土耳其区Apple ID，1.1k Stars |
+| 2023-09-03 | https://x.com/i/status/1698338662088622167 | **Barret李靖：新加坡OCBC开户指南**：全程大陆身份+大陆IP可开，NFC扫描护照，1.1M浏览 |
+| 2026-03-05 | https://x.com/i/status/2029560033131041059 | **Y11：尼日利亚Gomoney套利**：P2P承兑/锁汇支付/代充值/高息储蓄，197.6K浏览 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/RCnJP6xGT5-OvU7yhCrzGQ | **哥飞：BlogToPin月入1.6万美元**：把博客文章自动做成Pinterest图片并排期发布，工具产品化案例拆解 |
 ## 微信公众号
 
