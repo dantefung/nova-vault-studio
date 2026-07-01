@@ -166,6 +166,7 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-06-30 | https://github.com/RayVentura/ShortGPT | **ShortGPT**：AI 短视频批量生成框架，自动化剪辑/配音/字幕/发布 |
 | 2026-06-30 | https://github.com/freestylefly/awesome-gpt-image-2 | **awesome-gpt-image-2**：苍何的 329 条 GPT-Image 2 提示词模板开源，Prompt-as-Code 结构化模板。关联：已归档至 sources/gpt-image2-prompts.md |
 | 2026-06-30 | https://github.com/gpt-image2/awesome-gptimage2-prompts | **awesome-gptimage2-prompts**：GPT-Image 2 提示词合集，open-gpt-image 出品的另一个 awesome list |
 | 2026-06-10 | https://github.com/Leonxlnx/taste-skill | **Taste-Skill 审美品味 Skill（36.5k Stars）**：给 AI 装上"设计品味过滤器"，解决大模型生成内容千篇一律的根本问题。审美品味过滤器 + 个性输出 + 品味学习 + 创意增强。部署：`npx skills add taste-skill`。关联：本仓 [[taste-skill]]（已归档）|
