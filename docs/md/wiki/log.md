@@ -814,6 +814,13 @@ source: "llm-wiki"
 - 内容：6 阶段独立 App 实战——①找点子和真实需求 ②锁定细分方向 ③开发 MVP ④上架与 ASO ⑤冷启动与第一批用户 ⑥转化/留存/增长飞轮。每步含「工具/方法/通过标准/产出」。配套 7 天行动计划 + 工具速查表。**核心方法论：先验证再开发，单渠道打透再扩，付费墙放在价值被理解之后**
 - 分类：columns/indie-hub（indie-app / app-store-optimization / mvp / cold-start / growth-loop）
 
+## [2026-06-30] ingest: Codex 零基础小白上手指南
+
+- 归档《Codex 零基础小白上手指南（附实战全流程）》X Article 至 sources/codex-beginners-guide.md
+- 下载 22 张配图至 images/codex-beginners-guide/
+- 内容摘要：阿西的 Codex 入门教程，对比 Claude Code 三大痛点（部署难/额度贵/封号），介绍两种模式、四种场景：配图、PPT、自动化任务、Computer Use。
+- 分类：sources/tools（codex / ai-coding-agent / beginner-guide）
+
 ## [2026-06-30] ingest: GPT-Image 2 提示词模板开源
 
 - 归档《苍何：GPT-Image 2 的 329 条提示词模板开源》X/Twitter 至 sources/gpt-image2-prompts.md

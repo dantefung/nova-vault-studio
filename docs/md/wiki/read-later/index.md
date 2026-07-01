@@ -15,6 +15,7 @@ date: "2026-05-29"
 | 2026-06-30 | https://github.com/jlcodes99/cockpit-tools | **Cockpit Tools**：AI 编程辅助工具集 |
 | 2026-06-30 | https://github.com/google/agents-cli | **Google Agents CLI**：Google 开源的 Agents 开发 CLI 工具，支持多 Agent 编排 |
 | 2026-06-30 | https://x.com/qi9098/status/2069970430962667596?s=20 | 待查看 |
+| 2026-06-30 | https://x.com/axichuhai/article/2052233789925892370 | ~~待查看~~ → 已归档至 sources/codex-beginners-guide.md |
 | 2026-06-30 | https://x.com/YannisHan77/status/2071572066999083058?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/commander1688/status/2071487569402220558?s=20 | 待查看 |
 | 2026-05-29 | https://x.com/i/status/2059844244907696186 | Vince 聊开发 |

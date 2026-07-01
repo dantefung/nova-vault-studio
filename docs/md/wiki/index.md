@@ -50,6 +50,7 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [prompt-as-code](/md/wiki/concepts/prompt-as-code) | 将提示词从自然语言转变为结构化 JSON/YAML 组件，让 Agent 确定性产出提示词，零幻觉批量生图 | X |
+| [codex](/md/wiki/concepts/codex) | OpenAI 官方 AI 编程客户端，桌面/VS Code/终端三种形态，内置 GPT-Image-2 + Computer Use | X Article |
 | [codex-claude-shortcuts](https://shangtianqiang.github.io/codex-claude-shortcuts/) | Codex/Claude 67 条快捷指令速查表，Win/Mac 双平台，搜索过滤 | 网站 |
 | [claude-skills](/md/wiki/concepts/claude-skills) | Claude 生态扩展机制，渐进式加载、可执行代码、跨平台移植 | 文章 |
 | [claude-code-setup](/md/columns/vibe-coding/14-claude-code-setup-plugin) | 官方插件，扫描代码库推荐自动化配置 | 插件 |
