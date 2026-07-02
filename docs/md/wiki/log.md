@@ -11,6 +11,13 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-02] prompt-to-harness ingest
+
+- **Source**: [从Prompt到Harness：一文看懂AI工程的四次跃迁](https://mp.weixin.qq.com/s/ERajPSZ6vG5LYqtLftfTfw) (瑜的安全谷)
+- **Images**: 22 张配图 → `images/prompt-to-harness/`
+- **Content**: 大模型应用发展四阶段（提示词工程→工具调用→上下文工程→Harness工程），Harness = Model + Harness，6大核心能力
+- **Patterns**: [[harness-engineering]] — AI工程四次跃迁，Harness工程 = Agent的心脏
+
 ## [2026-06-26] codex-claude-shortcuts registered
 
 - **Codex/Claude 快捷指令速查表** → 资源: [shangtianqiang.github.io/codex-claude-shortcuts](https://shangtianqiang.github.io/codex-claude-shortcuts/)

@@ -53,34 +53,37 @@ description: "将任意平台文章采集归档到本知识库（docs/md/wiki/so
 
 ### 步骤 2：抓取正文
 
+> **临时目录**：统一使用 `_sandbox/`，完成后清理。不允许使用 `/tmp/`。
+
 **微信公众号（两步走）：**
 
 ```bash
-# 第一步：抓正文（含远程图片 URL，不下载）
-python3 .claude/skills/markdown-proxy/scripts/fetch_weixin.py "URL" > /tmp/article.md
+# 第一步：抓正文（含远程图片 URL，不下载）到 _sandbox/
+python3 .claude/skills/markdown-proxy/scripts/fetch_weixin.py "URL" > _sandbox/{article-slug}.md
 
-# 第二步：下载图片到本地（必须紧跟）
-python3 .claude/skills/markdown-proxy/scripts/download-images.py /tmp/article.md --prefix "images/{slug}/" --keep-original
+# 第二步：下载图片到 _sandbox/images/{article-slug}/（必须紧跟）
+python3 .claude/skills/markdown-proxy/scripts/download-images.py _sandbox/{article-slug}.md --prefix "images/{article-slug}/" --keep-original
 ```
 
 > **铁律**：微信公众号必须两步走。漏掉第二步图片就白抓了。
+> **图片路径**：`download-images.py` 默认输出到 `./images/{prefix}/`，**必须用 `--prefix`** 指定为 `_sandbox/images/{article-slug}/`，否则图片散落一地。
 
 **通用文章（r.jina.ai）：**
 
 ```bash
-curl -s "https://r.jina.ai/URL" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('content',''))" > /tmp/article.md
+curl -s "https://r.jina.ai/URL" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('content',''))" > _sandbox/{article-slug}.md
 ```
 
 **X / Twitter：**
 
 ```bash
-python3 .agents/skills/baoyu-danger-x-to-markdown/scrape.sh "URL" > /tmp/article.md
+python3 .agents/skills/baoyu-danger-x-to-markdown/scrape.sh "URL" > _sandbox/{article-slug}.md
 ```
 
 **YouTube 字幕：**
 
 ```bash
-python3 .agents/skills/baoyu-youtube-transcript/transcribe.sh "URL" > /tmp/article.md
+python3 .agents/skills/baoyu-youtube-transcript/transcribe.sh "URL" > _sandbox/{article-slug}.md
 ```
 
 ### 步骤 3：下载图片到 wiki 目录
@@ -88,7 +91,7 @@ python3 .agents/skills/baoyu-youtube-transcript/transcribe.sh "URL" > /tmp/artic
 若 `download-images.py` 因路径问题失败，手动下载：
 
 ```bash
-mkdir -p docs/md/wiki/images/{slug}/
+mkdir -p _sandbox/images/{article-slug}/
 
 python3 -c "
 import urllib.request, re
@@ -98,7 +101,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0'
 }
 
-with open('/tmp/article.md', 'r') as f:
+with open('_sandbox/{article-slug}.md', 'r') as f:
     content = f.read()
 
 # 收集所有图片 URL（含 mmbiz 和通用图片）
@@ -111,7 +114,7 @@ for i, url in enumerate(urls):
     ext = 'jpg'
     if '.png' in url: ext = 'png'
     elif '.webp' in url: ext = 'webp'
-    path = f'docs/md/wiki/images/{slug}/{i+1:03d}.{ext}'
+    path = f'_sandbox/images/{article-slug}/{i+1:03d}.{ext}'
     try:
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=15) as resp:
