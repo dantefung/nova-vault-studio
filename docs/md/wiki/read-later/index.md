@@ -241,6 +241,7 @@ date: "2026-05-29"
 | 2026-06-30 | https://zhuanlan.zhihu.com/p/2051351123517346918 | 待查看 |
 | 2026-06-30 | https://ew6rccvpnmz.feishu.cn/wiki/ILO2waqXLi1EvqkuKHvcceMOnVd | 待查看 |
 | 2026-06-30 | https://my.feishu.cn/wiki/JhtLwBQZ7ij43MkiX8IcW56cnFd | **AINative 工作流设计**（飞书）：Agent 工作流设计相关，待进一步了解 |
+| 2026-07-02 | https://dennischancs.github.io/gg-keeper/ | **Giffgaff 保号小工具**：精准消耗 120KB 流量防缓存确保真扣费，手机网页点开即用，开源免费 |
 | 2026-06-10 | https://codexradar.com/ | **CodexRadar**：AI Coding Agent / Skills 资讯站，追踪 GitHub trending 新发布，Codex/Claude Code/Cursor 等生态动态。待进一步了解定位。 |
 | 2026-06-10 | http://vibe-ui.youji.pro/ | **Vibe UI Design Guide**：AI 生成 UI 的完整设计到开发路径。两条路（UI Kit+MCP / design.md）、15 个设计系统模板（Clean/Minimal/Modern/Elegant 等）、设计 Token 提取流程、技术栈选型（HTML/React/Next.js/Tailwind）、资源导航（字体/图标/Prompt/Skill）。来源：有籍（youji.pro）|
 | 2026-06-24 | https://harness-agent.ai/ | **Harness Engineering 小书**（王梓任）：对 Harness 概念做精细理论分析，比网上绝大多数分析精确深入得多，包含大量实战经验 |
