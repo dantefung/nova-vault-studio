@@ -840,3 +840,11 @@ source: "llm-wiki"
 - 下载 23 张配图至 images/gpt-image2-prompts/
 - 内容摘要：苍何逆向 329 个 GPT-Image 2 案例为 Prompt-as-Code 结构化模板，开源在 GitHub（freestylefly/awesome-gpt-image-2），支持 Agent 自动化调用。覆盖直播画面/手绘地图/海报/拆解图/技术详解/朋友圈截图/个人网页/诗词图/长卷图等场景。核心创新：原子化 Schema 注入 + 零配置工作流 + 多维决策矩阵。
 - 分类：sources/tools（ai-image-generation / gpt-image / prompt-engineering）
+
+## [2026-07-02] ingest: Codex App 从0到1完整入门教程
+
+- 归档《Codex App 从0到1完整入门教程》X/Twitter @gengdaJ(逸尘) 至 sources/codex-app-beginner-tutorial.md
+- 下载 19 张配图至 images/codex-app-beginner-tutorial/
+- 内容摘要：550 行实测入门长文，覆盖下载安装、三者区别(ChatGPT/Codex App/云端Codex)、主界面左中右三栏地图、6 大入口、11 个设置页（重点：常规/外观/个性化/MCP/电脑操控）、5 类权限边界、6 个常见踩坑、9 步上手路线。明确 Code App 比 Claude Code 更适合小白。
+- 新增概念页 [[concept-codex-app]]：OpenAI 桌面端 AI 工作台——四大能力扩展(Plugin/Connector/Skill/MCP) + Computer Use + 自动化 + 个性化偏好。
+- 分类：sources/tools + concepts（codex / desktop-ai-agent / beginner-tutorial / openai）
