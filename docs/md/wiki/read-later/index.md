@@ -214,6 +214,7 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-07-09 | https://github.com/asnowwolf/meta-project-poc | **Meta-Project POC 元工程**：将软件工程方法论（Design Thinking/DDD/敏捷/TDD）引入 LLM 开发流程的 POC，通过 PDCA 循环 + Human Gate + CI Pipeline 实现宏观确定性与微观灵活性的平衡，93.5% Shell + 6.5% Python |
 | 2026-07-02 | https://github.com/alchaincyf/obsidian-ai-orange-book | **Obsidian + Claude Code 橙皮书**：用AI重建你的第二大脑，1.2k Stars。核心：Markdown是AI原生接口、LLM是编译器而非检索器、CLAUDE.md+index.md搞定80%工作 |
 |------|------|------|
 | 2026-06-30 | https://github.com/RayVentura/ShortGPT | **ShortGPT**：AI 短视频批量生成框架，自动化剪辑/配音/字幕/发布 |
