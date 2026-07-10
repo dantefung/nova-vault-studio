@@ -880,3 +880,11 @@ source: "llm-wiki"
 - 内容摘要：zlbigger 一年多 AI 一人公司复盘，5 条收入线全跑通（流量/订阅/知识付费/按需，ToB 暂时不碰）。核心方法论 4 步走：AI 大模型实现最小单元 PMF → RPA 规模化 → 形成 SOP → 无限复制。暴论：同样 1 万盈利，别人 5 人 vs 我 1 人 = 效率秒杀。关键判断：大模型是技术不是产品，不必纠结「一定做 AI 应用」。N 个小产品叠加 IP 流量，跨语种覆盖全球。
 - 新增概念页 [[concept-ai-oneperson-company]]：AI 一人公司方法论——PMF→RPA→SOP→无限复制，N 个小产品叠加 IP 流量，跟在大模型屁股后面吃红利。
 - 分类：sources/indie-hub + concepts（ai-product / one-person-company / indie-business / pmb-2-sop）
+
+## [2026-07-02] ingest: 利用 AI 给自己做个网站给养老吧（裸晒项目实操）
+
+- 归档《利用 AI 给自己做个网站给养老吧，"躺"着把钱挣》微信公众号 zlbigger 至 sources/ai-website-lay-flat-income-zlbigger.md
+- 下载 14 张关键配图至 images/ai-website-lay-flat-income-zlbigger/
+- 内容摘要：zlbigger 上次没融到钱没找到团队，这次直接裸晒项目 linggan.io（动漫 OOTD 站）。完整 6 个 AI 打工人分工（写主题/画图 prompt/标题党/分词/description/正文创作），全部输出 5 语种 JSON（es/zh/jp/kr/en）。关键 SEO 设计：多语种子路径 URL + 默认 301 重定向防内容重复 + friendly URL 部分不翻译 + 标签页本地化。定时任务每 5 分钟提交一个主题 → 每天 288 个内容页。成本：域名 100/年 + 搬瓦工空间 + Cloudflare 白嫖 + 文本 API 几乎免费（图片 API 是隐藏技巧）。
+- 新增概念页 [[concept-ai-lay-flat-income]]：AI 躺赚多语种站——选流量主题 + 6 AI 打工人分工 + JSON 多语种输出 + 定时任务调度 + 全球被动收入。核心："AI 加成普通 CMS，不是做 AI 应用"。
+- 分类：sources/indie-hub + concepts（ai-stie-builder / lay-flat-income / multi-lang-cms / passive-income / seo-pipeline）
