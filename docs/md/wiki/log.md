@@ -915,3 +915,12 @@ source: "llm-wiki"
 - 新增概念页 [[concept-ai-mini-app-template]]：AI 小应用模板化创建——占位符模板 + 后台批量 + 多语种 + SEO 自带。从"写 prompt"到"规模化分发 prompt"的关键中间层。
 - indie-hub 专栏同步归档 columns/indie-hub/ai-mini-app-creation-zlbigger.md
 - 分类：sources/indie-hub + concepts（ai-template / placeholder-prompt / mini-app-creation / indie-tool / prompt-as-code）
+
+## [2026-07-02] ingest: 写给普通人的 AI 工具使用指南（5 大类工具地图）
+
+- 归档《写给普通人的 AI 工具使用指南：免费用起来再说》微信公众号 zlbigger 至 sources/ai-free-tools-guide-zlbigger.md
+- 下载 68 张关键配图至 images/ai-free-tools-guide-zlbigger/
+- 内容摘要：481 行 68 张截图的 5 大类工具地图（文本/图像/视频/音乐/语音），覆盖 30+ 国内可用工具。**核心心法：额度用完换下一个继续免费用**（利用信息差 + 多供应商轮换）。文本类主力 Kimi，图像类 Liblib + WHEE，图像修改百度 AI 图片助手，视频快影 + 海螺 + 即梦，音频网易天音 + 通义听悟。
+- 新增概念页 [[concept-ai-free-quota-rotation]]：AI 工具免费额度轮换策略——信息差 + 多供应商永久免费循环 + 工具目录变现。
+- indie-hub 专栏同步归档 columns/indie-hub/ai-free-tools-guide-zlbigger.md
+- 分类：sources/indie-hub + concepts（ai-tools / free-quota / tool-catalog / indie-tool / arbitrage）

@@ -32,6 +32,7 @@ date: "2026-06-22"
 | [Agent 调度升级](./xiaolongxia-agent-automation-zlbigger.md) | zlbigger 第 3 篇：Agent 自主调度 + 远程触发 + 三阶段流水线 |
 | [AI 报告信息站](./ai-report-info-station-zlbigger.md) | zlbigger 第 4 篇：细分行业 + 文档订阅 + PDF→HTML 自动总结 |
 | [AI 小应用批量创建](./ai-mini-app-creation-zlbigger.md) | zlbigger 第 5 篇：[input1] 占位符模板化 prompt，5 字段后台几分钟上线 |
+| [AI 工具使用指南](./ai-free-tools-guide-zlbigger.md) | zlbigger 第 6 篇：5 大类 30+ 免费工具，额度轮换 + 信息差变现 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径

@@ -59,6 +59,7 @@ wiki/
 | [ai-lay-flat-income](/md/wiki/concepts/ai-lay-flat-income) | AI 躺赚多语种站——6 AI 打工人分工 + 全球被动收入 + 定时任务调度 | 公众号 |
 | [agent-autonomous-pipeline](/md/wiki/concepts/agent-autonomous-pipeline) | Agent 自主调度 + 三阶段流水线——商机→产品→开发，手机远程触发 7×24 干活 | 公众号 |
 | [ai-mini-app-template](/md/wiki/concepts/ai-mini-app-template) | AI 小应用模板化创建——[input1][input2] 占位符 + 后台批量上线 + 自媒体爆款逻辑复用 | 公众号 |
+| [ai-free-quota-rotation](/md/wiki/concepts/ai-free-quota-rotation) | AI 工具免费额度轮换——信息差 + 多供应商永久免费循环 + 工具目录变现 | 公众号 |
 | [codex-claude-shortcuts](https://shangtianqiang.github.io/codex-claude-shortcuts/) | Codex/Claude 67 条快捷指令速查表，Win/Mac 双平台，搜索过滤 | 网站 |
 | [claude-skills](/md/wiki/concepts/claude-skills) | Claude 生态扩展机制，渐进式加载、可执行代码、跨平台移植 | 文章 |
 | [claude-code-setup](/md/columns/vibe-coding/14-claude-code-setup-plugin) | 官方插件，扫描代码库推荐自动化配置 | 插件 |
