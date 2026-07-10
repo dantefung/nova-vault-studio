@@ -11,7 +11,30 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 备注 |
 |------|------|------|
-<<<<<<< HEAD
+| 2026-07-09 | https://x.com/Bytec99/status/2075372048994672994?s=20 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074459150323769843 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2075077966007291958 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074811767553929576 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074728162018152817 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2075186898188841140 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2075063722624921848 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2075023547056132391 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2075131461049729438 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074515412272996467 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074896710887776336 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2075023103260819784 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2075048416976232823 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074790399789732348 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074821901940056524 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074744543170469894 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2050799359214915653 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074800215937433915 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2074783758327406920 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2046790896482455890 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2063275297341051086 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2044634498432962806 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2062080784572534958 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2022954721548661130 | 待查看 |
 | 2026-07-02 | https://x.com/SVScholar/status/2072474615893704805?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/Easycompany333/status/2071877302347079998?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/longlongsongs/status/2072242880593207400?s=20 | 待查看 |
@@ -29,7 +52,6 @@ date: "2026-05-29"
 | 2026-07-02 | https://x.com/i/status/2071796715162857477 | **小互：单人团队运营5款产品80%时间不写代码秘诀**：Every 的方法——每次完成功能后把解法存进系统，让AI下次自动避坑，12K 浏览 |
 | 2026-07-02 | https://x.com/i/status/2065232309310427565 | **歸藏：万字长文——做了些爆款 Skills 以后，我对 Skills 的看法**：Agent 大众理解误区、Skills 真正价值所在，476.8K 浏览 |
 | 2026-06-30 | https://x.com/ma_zhenyuan/status/2072139232542630108?s=20 | 待查看 |
->>>>>>> 420cf00 (prompt: 登记稍后读 ma_zhenyuan)
 | 2026-06-30 | https://x.com/Jason_Young1231/status/2061476998602715557?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/dotey/status/2014164622459228324?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/hezhiyan7/status/2057607672875385264?s=20 | 待查看 |
@@ -214,6 +236,10 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-07-09 | https://github.com/refly-ai/refly | **Refly（7.4k Stars）**：首个开源 Agent Skills 构建平台，vibe workflow 定义 skills 并导出到 Claude Code/Cursor/Codex/APIs，支持 3000+ 工具 + MCP，Skills 是基础设施而非提示词 |
+| 2026-07-09 | https://github.com/YouMind-OpenLab/awesome-gpt-image-2 | **awesome-gpt-image-2（8.1k Stars）**：全球最大 GPT Image 2 提示词库，2000+ 精选提示词含预览图，16 语言，TypeScript 100% |
+| 2026-07-09 | https://github.com/chuspeeism/dashiAI-ppt-skill | **DashiAI PPT Skill（1.5k Stars）**：AI Agent 生成可编辑网页 PPT，12套视觉主题/1020个版式/8576个控件，支持导出 HTML/PDF/可编辑 PPTX，碾压 PPT-master，Claude Code/Codex/豆包均支持 |
+| 2026-07-09 | https://github.com/byoungd/up | **人生进阶指南 up（55.6k Stars）**：英语学习主线 + AI 学习方法 + 人生复盘样本，含认知/单词/听力/阅读/口语/写作/AI场景训练全链路，JavaScript 100% |
 | 2026-07-09 | https://github.com/asnowwolf/meta-project-poc | **Meta-Project POC 元工程**：将软件工程方法论（Design Thinking/DDD/敏捷/TDD）引入 LLM 开发流程的 POC，通过 PDCA 循环 + Human Gate + CI Pipeline 实现宏观确定性与微观灵活性的平衡，93.5% Shell + 6.5% Python |
 | 2026-07-02 | https://github.com/alchaincyf/obsidian-ai-orange-book | **Obsidian + Claude Code 橙皮书**：用AI重建你的第二大脑，1.2k Stars。核心：Markdown是AI原生接口、LLM是编译器而非检索器、CLAUDE.md+index.md搞定80%工作 |
 |------|------|------|
@@ -240,6 +266,7 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-07-09 | https://meigen.ai | **MeiGen（表情包）**：免费 GPT Image 2 / Nano Banana / Seedance 2.0 / Midjourney 提示词库，一键复制，支持短视频封面/电商主图/品牌海报/朋友圈氛围感大片 |
 | 2026-06-30 | https://zhuanlan.zhihu.com/p/2051351123517346918 | 待查看 |
 | 2026-06-30 | https://ew6rccvpnmz.feishu.cn/wiki/ILO2waqXLi1EvqkuKHvcceMOnVd | 待查看 |
 | 2026-06-30 | https://my.feishu.cn/wiki/JhtLwBQZ7ij43MkiX8IcW56cnFd | **AINative 工作流设计**（飞书）：Agent 工作流设计相关，待进一步了解 |
