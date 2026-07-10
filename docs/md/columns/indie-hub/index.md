@@ -27,6 +27,8 @@ date: "2026-06-22"
 | [AI赚钱30种方式](./ai-money-30-ways.md) | 差价/包装/时间差/流量/规模等30种赚钱模式，附传统vs AI对比 |
 | [赚钱的本质：系统漏洞游戏](./money-exploit-games.md) | 23个领域的赚钱漏洞：算法/心理/规则三层，附实操建议 |
 | [把才华变成钱](./mengke-money-from-talent.md) | 王梦珂品牌工作手册：16章讲清如何把能力变收入，核心是"让别人知道你为什么值钱" |
+| [AI 产品沉思录](./ai-product-reflection-zlbigger.md) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具，PMF→RPA→SOP→无限复制 |
+| [AI 躺赚多语种站](./ai-website-lay-flat-zlbigger.md) | zlbigger 裸晒 linggan.io：6 AI 打工人分工，5 语种全球被动收入 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径
