@@ -888,3 +888,12 @@ source: "llm-wiki"
 - 内容摘要：zlbigger 上次没融到钱没找到团队，这次直接裸晒项目 linggan.io（动漫 OOTD 站）。完整 6 个 AI 打工人分工（写主题/画图 prompt/标题党/分词/description/正文创作），全部输出 5 语种 JSON（es/zh/jp/kr/en）。关键 SEO 设计：多语种子路径 URL + 默认 301 重定向防内容重复 + friendly URL 部分不翻译 + 标签页本地化。定时任务每 5 分钟提交一个主题 → 每天 288 个内容页。成本：域名 100/年 + 搬瓦工空间 + Cloudflare 白嫖 + 文本 API 几乎免费（图片 API 是隐藏技巧）。
 - 新增概念页 [[concept-ai-lay-flat-income]]：AI 躺赚多语种站——选流量主题 + 6 AI 打工人分工 + JSON 多语种输出 + 定时任务调度 + 全球被动收入。核心："AI 加成普通 CMS，不是做 AI 应用"。
 - 分类：sources/indie-hub + concepts（ai-stie-builder / lay-flat-income / multi-lang-cms / passive-income / seo-pipeline）
+
+## [2026-07-02] ingest: 我借助小龙虾把『做个网站养老吧』升级了（Agent 自主调度）
+
+- 归档《我借助小龙虾把"做个网站养老吧"升级了！》微信公众号 zlbigger 至 sources/xiaolongxia-agent-automation-zlbigger.md
+- 下载 19 张关键配图至 images/xiaolongxia-agent-automation-zlbigger/
+- 内容摘要：zlbigger 系列第 3 篇——从手动调度 6 个 AI 打工人升级到 Agent 自主调度 + 远程触发。展示 8 个真实在跑的自动化流水线：壁纸站凌晨自动化/穿搭素材管理/AI 资讯自动筛选/报告解读多渠道分发/商机→产品→开发三阶段流水线/AI 工具返佣/网盘拉新/电商联盟。关键突破：手机微信/飞书远程触发 Agent（Agent-as-a-Employee）。核心金句："设计代码部署运维 AI 自己搞定，剩下的就是你创意、策略、业务、执行"。
+- 新增概念页 [[concept-agent-autonomous-pipeline]]：Agent 自主调度 + 三阶段流水线（商机→产品→开发），从手动触发升级到 7×24 Agent 自主 + 远程触发。
+- indie-hub 专栏同步归档 columns/indie-hub/xiaolongxia-agent-automation-zlbigger.md
+- 分类：sources/indie-hub + concepts（agent-autonomous / ai-oneperson-company / remote-trigger / three-stage-pipeline）

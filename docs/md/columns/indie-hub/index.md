@@ -29,6 +29,7 @@ date: "2026-06-22"
 | [把才华变成钱](./mengke-money-from-talent.md) | 王梦珂品牌工作手册：16章讲清如何把能力变收入，核心是"让别人知道你为什么值钱" |
 | [AI 产品沉思录](./ai-product-reflection-zlbigger.md) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具，PMF→RPA→SOP→无限复制 |
 | [AI 躺赚多语种站](./ai-website-lay-flat-zlbigger.md) | zlbigger 裸晒 linggan.io：6 AI 打工人分工，5 语种全球被动收入 |
+| [Agent 调度升级](./xiaolongxia-agent-automation-zlbigger.md) | zlbigger 第 3 篇：Agent 自主调度 + 远程触发 + 三阶段流水线 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径

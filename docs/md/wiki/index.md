@@ -57,6 +57,7 @@ wiki/
 | [selfmedia-compound-model](/md/wiki/concepts/selfmedia-compound-model) | 自媒体复利模型——流量起点→真需求产品→收入闭环，4 层变现漏斗 | X Article |
 | [ai-oneperson-company](/md/wiki/concepts/ai-oneperson-company) | AI 一人公司方法论——PMF→RPA→SOP→无限复制，跟在大模型屁股后面吃红利 | 公众号 |
 | [ai-lay-flat-income](/md/wiki/concepts/ai-lay-flat-income) | AI 躺赚多语种站——6 AI 打工人分工 + 全球被动收入 + 定时任务调度 | 公众号 |
+| [agent-autonomous-pipeline](/md/wiki/concepts/agent-autonomous-pipeline) | Agent 自主调度 + 三阶段流水线——商机→产品→开发，手机远程触发 7×24 干活 | 公众号 |
 | [codex-claude-shortcuts](https://shangtianqiang.github.io/codex-claude-shortcuts/) | Codex/Claude 67 条快捷指令速查表，Win/Mac 双平台，搜索过滤 | 网站 |
 | [claude-skills](/md/wiki/concepts/claude-skills) | Claude 生态扩展机制，渐进式加载、可执行代码、跨平台移植 | 文章 |
 | [claude-code-setup](/md/columns/vibe-coding/14-claude-code-setup-plugin) | 官方插件，扫描代码库推荐自动化配置 | 插件 |
