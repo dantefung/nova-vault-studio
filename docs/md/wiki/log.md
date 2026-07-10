@@ -906,3 +906,12 @@ source: "llm-wiki"
 - 概念沿用 [[concept-ai-oneperson-company]]（方法论已覆盖），本篇作为细分场景案例。
 - indie-hub 专栏同步归档 columns/indie-hub/ai-report-info-station-zlbigger.md
 - 分类：sources/indie-hub（ai-report-station / info-station / content-subscription / passive-income / vertical-niche）
+
+## [2026-07-02] ingest: 像更新文章一样创建 AI 小应用（占位符 prompt 模板）
+
+- 归档《像更新文章一样创建 AI 小应用并以最小成本快速验证》微信公众号 zlbigger 至 sources/ai-mini-app-creation-zlbigger.md
+- 下载 11 张关键配图至 images/ai-mini-app-creation-zlbigger/
+- 内容摘要：zlbigger 系列第 5 篇——AI 小应用批量创建后台。核心机制：用 [input1] [input2] 占位符把 prompt 抽象成可复用模板，后台填 5 个字段（名称/简介/角色/输入提示/字段数）几分钟上线独立站。后台内置"SEO 专员"AI + 多语种自动。爆款逻辑：单应用 90% 不火，但 10 个里有 1 个火了就值回成本（自媒体爆款逻辑复用）。8 种爆款方向（作者体/梗图/小语种翻译/名人回信/品牌海报/儿童故事/菜谱/复习卡片）。
+- 新增概念页 [[concept-ai-mini-app-template]]：AI 小应用模板化创建——占位符模板 + 后台批量 + 多语种 + SEO 自带。从"写 prompt"到"规模化分发 prompt"的关键中间层。
+- indie-hub 专栏同步归档 columns/indie-hub/ai-mini-app-creation-zlbigger.md
+- 分类：sources/indie-hub + concepts（ai-template / placeholder-prompt / mini-app-creation / indie-tool / prompt-as-code）

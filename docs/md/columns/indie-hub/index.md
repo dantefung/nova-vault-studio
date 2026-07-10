@@ -31,6 +31,7 @@ date: "2026-06-22"
 | [AI 躺赚多语种站](./ai-website-lay-flat-zlbigger.md) | zlbigger 裸晒 linggan.io：6 AI 打工人分工，5 语种全球被动收入 |
 | [Agent 调度升级](./xiaolongxia-agent-automation-zlbigger.md) | zlbigger 第 3 篇：Agent 自主调度 + 远程触发 + 三阶段流水线 |
 | [AI 报告信息站](./ai-report-info-station-zlbigger.md) | zlbigger 第 4 篇：细分行业 + 文档订阅 + PDF→HTML 自动总结 |
+| [AI 小应用批量创建](./ai-mini-app-creation-zlbigger.md) | zlbigger 第 5 篇：[input1] 占位符模板化 prompt，5 字段后台几分钟上线 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径
