@@ -897,3 +897,12 @@ source: "llm-wiki"
 - 新增概念页 [[concept-agent-autonomous-pipeline]]：Agent 自主调度 + 三阶段流水线（商机→产品→开发），从手动触发升级到 7×24 Agent 自主 + 远程触发。
 - indie-hub 专栏同步归档 columns/indie-hub/xiaolongxia-agent-automation-zlbigger.md
 - 分类：sources/indie-hub + concepts（agent-autonomous / ai-oneperson-company / remote-trigger / three-stage-pipeline）
+
+## [2026-07-02] ingest: 用 AI 来做一个高质量行业信息站（细分付费）
+
+- 归档《用 AI 来做一个高质量行业信息站，帮你卖行业报告文档》微信公众号 zlbigger 至 sources/ai-report-info-station-zlbigger.md
+- 下载 10 张配图至 images/ai-report-info-station-zlbigger/
+- 内容摘要：zlbigger 系列第 4 篇——具体场景落地（行业报告文档站）。核心方法：花 200 块买 VIP 当资源池 + AI 自动 PDF→HTML 总结 + 88/年订阅或单篇下载。注意知识星球 30-40% 抽成 + 苹果支付再抽 30%。arXiv 论文赛道更简单（URL 直接提交）。关键洞察："同样的代码复制到母婴、汽车、AI 等多个细分行业"。
+- 概念沿用 [[concept-ai-oneperson-company]]（方法论已覆盖），本篇作为细分场景案例。
+- indie-hub 专栏同步归档 columns/indie-hub/ai-report-info-station-zlbigger.md
+- 分类：sources/indie-hub（ai-report-station / info-station / content-subscription / passive-income / vertical-niche）
