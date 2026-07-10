@@ -872,3 +872,11 @@ source: "llm-wiki"
 - 内容摘要：02 年应届生 8 个月推特运营复盘，从外包/体力劳动转向自媒体+真需求产品。核心观点：流量只是起点，围绕流量构造产业链才是护城河；账号是地基，真需求产品是出口；公开赚钱=出来卖，公开是信任建设。8 个月时间线 + 5 个值得研究人物（卫斯理/涛哥/天赐/熠辉等）。
 - 新增概念页 [[concept-selfmedia-compound-model]]：自媒体复利模型——4 层变现漏斗（流量→信任→真需求→收入闭环），复利 vs 体力劳动 6 个判断标准，自媒体变现 4 阶段路径。
 - 分类：sources/tools + concepts（selfmedia / content-business / compound-thinking / growth-hacking）
+
+## [2026-07-02] ingest: AI 产品沉思录（流量先行 + 小产品/工具）
+
+- 归档《AI 产品沉思录：流量先行，窄业务、小产品/工具》微信公众号 zlbigger 至 sources/ai-product-reflection-zlbigger.md
+- 下载 28 张配图（含 11 张重复）至 images/ai-product-reflection-zlbigger/
+- 内容摘要：zlbigger 一年多 AI 一人公司复盘，5 条收入线全跑通（流量/订阅/知识付费/按需，ToB 暂时不碰）。核心方法论 4 步走：AI 大模型实现最小单元 PMF → RPA 规模化 → 形成 SOP → 无限复制。暴论：同样 1 万盈利，别人 5 人 vs 我 1 人 = 效率秒杀。关键判断：大模型是技术不是产品，不必纠结「一定做 AI 应用」。N 个小产品叠加 IP 流量，跨语种覆盖全球。
+- 新增概念页 [[concept-ai-oneperson-company]]：AI 一人公司方法论——PMF→RPA→SOP→无限复制，N 个小产品叠加 IP 流量，跟在大模型屁股后面吃红利。
+- 分类：sources/indie-hub + concepts（ai-product / one-person-company / indie-business / pmb-2-sop）
