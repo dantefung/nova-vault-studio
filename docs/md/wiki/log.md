@@ -848,3 +848,27 @@ source: "llm-wiki"
 - 内容摘要：550 行实测入门长文，覆盖下载安装、三者区别(ChatGPT/Codex App/云端Codex)、主界面左中右三栏地图、6 大入口、11 个设置页（重点：常规/外观/个性化/MCP/电脑操控）、5 类权限边界、6 个常见踩坑、9 步上手路线。明确 Code App 比 Claude Code 更适合小白。
 - 新增概念页 [[concept-codex-app]]：OpenAI 桌面端 AI 工作台——四大能力扩展(Plugin/Connector/Skill/MCP) + Computer Use + 自动化 + 个性化偏好。
 - 分类：sources/tools + concepts（codex / desktop-ai-agent / beginner-tutorial / openai）
+
+## [2026-07-02] ingest: AI 全自动生成图书号短视频
+
+- 归档《AI 全自动生成图书号短视频》X/Twitter @Bytec99(Bytec) 至 sources/ai-book-short-video-pipeline.md
+- 下载 5 张配图至 images/ai-book-short-video-pipeline/
+- 内容摘要：基于 @369Serena 流程改造的图书号短视频自动化链路。6 个核心工具(HyperFrames + 微信读书 Skill + VoxCPM + faster-whisper + FFmpeg + yt-dlp)，12 步流水线只保留 2 个确认点（文案+图片）。关键经验：图片不放文字、旁白一次生成、字幕只借时间不用文字、BGM ducking 用 sidechaincompress、HyperFrames 自检三步走。核心观点："把内容品类做成可复用的生产流程"。
+- 新增概念页 [[concept-ai-content-pipeline]]：AI 内容工厂流水线——把内容生产从一次性生成变成可复用工程，人负责挑选微调，AI 跑完全流程。
+- 分类：sources/tools + concepts（ai-content-pipeline / short-video / automation / codex / hyperframes / voxcpm / ffmpeg）
+
+## [2026-07-02] ingest: Claude 能做到这一切（16 个 Power Features + 4 角色 Prompt）
+
+- 归档《Claude 能做到这一切，但大多数人完全不知道》X/Twitter @Etudecn(淘沙者) 至 sources/claude-power-features-guide.md
+- 下载 9 张配图至 images/claude-power-features-guide/
+- 内容摘要：382 行覆盖 16 个 Claude 真实功能的位置和用法——Projects/Artifacts/Adaptive Thinking/Memory/Chrome/Cowork/Scheduled Tasks/Skills/CLAUDE.md/Claude Code/Claude Design/Prompt Caching，加 4 个角色 Prompt（CBT 咨询师/严厉导师/魔鬼代言人/私人教练）。核心观点：大多数人只用 5% Claude 能力，今天设好一个功能就能赢一半。
+- 新增概念页 [[concept-claude-role-prompts]]：4 个改变提问方式的角色框架——本质是「重新分配对话注意力资源」而非「让 AI 假装是 X」。
+- 分类：sources/tools + concepts（claude / power-features / role-prompts / cbt-framework）
+
+## [2026-07-02] ingest: 月入 23w 复盘（自媒体复利模型）
+
+- 归档《月入23w，我把自己拆给你看》X/Twitter @Pluvio9yte(雪踏乌云) 至 sources/compound-growth-selfmedia-journey.md
+- 下载 1 张配图至 images/compound-growth-selfmedia-journey/
+- 内容摘要：02 年应届生 8 个月推特运营复盘，从外包/体力劳动转向自媒体+真需求产品。核心观点：流量只是起点，围绕流量构造产业链才是护城河；账号是地基，真需求产品是出口；公开赚钱=出来卖，公开是信任建设。8 个月时间线 + 5 个值得研究人物（卫斯理/涛哥/天赐/熠辉等）。
+- 新增概念页 [[concept-selfmedia-compound-model]]：自媒体复利模型——4 层变现漏斗（流量→信任→真需求→收入闭环），复利 vs 体力劳动 6 个判断标准，自媒体变现 4 阶段路径。
+- 分类：sources/tools + concepts（selfmedia / content-business / compound-thinking / growth-hacking）
