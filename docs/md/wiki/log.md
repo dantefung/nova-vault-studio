@@ -955,3 +955,13 @@ source: "llm-wiki"
 - 精读重写结构：人生三阶段 + 四大杠杆（媒体/人才/被动收入/资金）+ 递进逻辑
 - 关键洞察：Agent 和 Skill 是 AI 时代的新型人才杠杆；四杠杆层层递进不可跳过
 - 关联到 [[40-thinking-models]]、[[ai-era-wealth-creation]]
+
+## [2026-07-13] ingest: 周报 #107 - Multica + Impeccable 双工具工作流
+
+- 归档《周报 #107 - 基于 Multica 与 Impeccable 的开发/设计工作流》{pseudoyu 2026-04-19 pseudoyu.com} 至 sources/weekly-review-107-multica-impeccable.md
+- 13 张配图全部下载至 images/weekly-review-107/001-013
+- 精读重写聚焦两套工具：
+  - **Multica** — Runtime + Agent 员工 + Issue 指派的协作平台，把本地 Coding Agent 装上共享知识库
+  - **Impeccable** — 设计流程命令化（/teach /craft /audit /polish），告别"为某页面一次性的设计代码"
+- 提取对比表 + 共同点（同把"隐性的个人流程"显性化）
+- 归到现有 concept-indie-site-builder-skill-stack，不单独立 concept
