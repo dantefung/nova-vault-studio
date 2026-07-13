@@ -924,3 +924,13 @@ source: "llm-wiki"
 - 新增概念页 [[concept-ai-free-quota-rotation]]：AI 工具免费额度轮换策略——信息差 + 多供应商永久免费循环 + 工具目录变现。
 - indie-hub 专栏同步归档 columns/indie-hub/ai-free-tools-guide-zlbigger.md
 - 分类：sources/indie-hub + concepts（ai-tools / free-quota / tool-catalog / indie-tool / arbitrage）
+
+## [2026-07-13] ingest: 出海一周年稳定万刀——12 模块 200+ 篇实战文章方法论地图
+
+- 归档《出海一周年，稳定万刀，网站出海内容整理》X 推文（droidHZ @hezhiyan7）至 sources/hezhiyan7-outsea-oneyear-10000usd.md
+- 下载 2 张配图（封面 + aichuhai.dev 站截图）至 images/hezhiyan7-outsea-oneyear-10000usd/
+- 内容摘要：droidHZ 出海 1 周年 3 月达到月入万刀（稳定），把整年微信公众号每日分享按 12 大模块做了系统整理：需求挖掘（28 篇，最大）/SEO（35 篇，最大）/开发（22）/流量（20）/支付（17）/复盘（14）/ads（12）/数据分析（11）/产品设计（9）/外链（9）/工具推荐（5）/部署上线（4）。每篇文章都链向具体微信公众号实战文章。SEO 文章密度最高（约 35 篇），反映独立站流量高度依赖搜索的本质。
+- 新增概念页 [[concept-indie-site-builder-skill-stack]]：独立网站出海创业 12 大能力栈——按业务重要性而非时间排序的实战密度地图，SEO 模块最大，AI 工具深度嵌入每个环节，跨境合规闭环是基础门槛。
+- 新增产品页 [[product-aichuhai-dev]]：droidHZ 配套导航站 aichuhai.dev——把 200+ 篇实战文章按 12 模块做二次分类整理，开放话题提交入口，本身就是 AI 内容运营样板。
+- 5 大核心洞察：(1) SEO 是最大战场 + GEO 成为新变量；(2) AI 工具是基础设施不是单点；(3) 跨境合规闭环是基础门槛；(4) 心态是"种树故事"——1 年稳定万刀是正常节奏；(5) 复盘模块提供"上下文锚点"让你知道这条路能走多远。
+- 分类：sources/indie-hub + concepts/product（seo / indie-business / outsea-oneyear / site-builder / cross-border-payment / passive-income / ai-tools）
