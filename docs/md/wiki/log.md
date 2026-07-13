@@ -934,3 +934,6 @@ source: "llm-wiki"
 - 新增产品页 [[product-aichuhai-dev]]：droidHZ 配套导航站 aichuhai.dev——把 200+ 篇实战文章按 12 模块做二次分类整理，开放话题提交入口，本身就是 AI 内容运营样板。
 - 5 大核心洞察：(1) SEO 是最大战场 + GEO 成为新变量；(2) AI 工具是基础设施不是单点；(3) 跨境合规闭环是基础门槛；(4) 心态是"种树故事"——1 年稳定万刀是正常节奏；(5) 复盘模块提供"上下文锚点"让你知道这条路能走多远。
 - 分类：sources/indie-hub + concepts/product（seo / indie-business / outsea-oneyear / site-builder / cross-border-payment / passive-income / ai-tools）
+- 整理推文中的 227 个微信公众号原文链接：B 方案精选 50 篇进 TODO.md（按 7 个二级主题：复盘总结 20/部署上线 4/需求挖掘 10/开发 5/SEO 5/支付 3/流量 3），全量 227 篇归档到 indie-hub 专栏 columns/indie-hub/hezhiyan7-outsea-oneyear-toc.md（按 12 大业务模块分类的完整 TOC，53KB）。
+- 12 模块文章密度：SEO 45 + 需求挖掘 29 + 开发 29 + 支付 23 + 流量 23 + 复盘 20 + ads 14 + 数据分析 14 + 产品设计 11 + 外链 10 + 工具推荐 5 + 部署上线 4 = 227。
+- TODO.md 顶部加引用说明指向原文 sources/，底部加「全量归档说明」段落。
