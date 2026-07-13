@@ -937,7 +937,7 @@ source: "llm-wiki"
 - 整理推文中的 227 个微信公众号原文链接：B 方案精选 50 篇进 TODO.md（按 7 个二级主题：复盘总结 20/部署上线 4/需求挖掘 10/开发 5/SEO 5/支付 3/流量 3），全量 227 篇归档到 indie-hub 专栏 columns/indie-hub/hezhiyan7-outsea-oneyear-toc.md（按 12 大业务模块分类的完整 TOC，53KB）。
 - 12 模块文章密度：SEO 45 + 需求挖掘 29 + 开发 29 + 支付 23 + 流量 23 + 复盘 20 + ads 14 + 数据分析 14 + 产品设计 11 + 外链 10 + 工具推荐 5 + 部署上线 4 = 227。
 - TODO.md 顶部加引用说明指向原文 sources/，底部加「全量归档说明」段落。
-- 试点爬取 5 篇微信公众号文章（droidHZ 出海系列）：
+## [2026-07-13] 试点爬取 5 篇微信公众号文章（droidHZ 出海系列）：
   - **first-time-dollar-oneyear** — 《第一次赚美元！纯新手深度复盘网站出海》：赫兹第一视角全流程，从付费 7000+ 学费到 5 个站 + 1 千元收入，含 28 节课程
   - **ai-traffic-geo** — 《如何查看 AI 流量，做好 GEO》：3 个 AI 流量来源分类（推荐位/搜索框/答案引用）+ 4 个查看方法 + 5 类适配建议
   - **sell-air-mvp** — 《卖空气验证需求》：Pieter Levels 预售《MAKE》案例 + 4 步 SOP（落地页→AI生成→Stripe→广告）
@@ -947,3 +947,11 @@ source: "llm-wiki"
 - 10 张图片下载到 sources/images/{slug}/
 - 5 篇都归到现有 [[concept-indie-site-builder-skill-stack]] 12 模块下，作为具体方法案例，不单独立 concept 页
 - TODO.md 对应 5 条状态从 pending 改为 done，附归档链接
+
+## [2026-07-13] ingest: 借力才能赚大钱（indie-hub-leverage-thinking）
+
+- 归档《借力才能赚大钱：人生四阶段的杠杆思维》{广东 2026-07-11 微信公众号} 至 sources/indie-hub-leverage-thinking.md
+- 原文无图片，纯观点文
+- 精读重写结构：人生三阶段 + 四大杠杆（媒体/人才/被动收入/资金）+ 递进逻辑
+- 关键洞察：Agent 和 Skill 是 AI 时代的新型人才杠杆；四杠杆层层递进不可跳过
+- 关联到 [[40-thinking-models]]、[[ai-era-wealth-creation]]
