@@ -27,7 +27,7 @@ url: ""
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485493&idx=1&sn=e7375346f3b7dbdee824f9dc432ce084 | **推荐一个实操性满满的直播分享** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485627&idx=1&sn=9d137208965ca32d458bddb7b726a061 | **一场高质量直播：哥飞、彪哥、壹树聊出海创业** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485648&idx=1&sn=af41da5f921fc3250dd64d99f4963e40 | **不要给自己设限** |
-| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483721&idx=1&sn=e9d9896d6f64e718b0a780adc5ec7fac | **第一次赚美元！纯新手深度复盘网站出海** |
+| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483721&idx=1&sn=e9d9896d6f64e718b0a780adc5ec7fac | **第一次赚美元！纯新手深度复盘网站出海** | done ([sources/first-time-dollar-oneyear](/md/wiki/sources/first-time-dollar-oneyear)) |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483748&idx=1&sn=1ec554ab4a29e791730c817fd0b408d1 | **AI 助力网站出海：只靠聊天，做高颜值网站** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483767&idx=1&sn=9aa9fa99477c3cc070272623c3f78b98 | **网站出海就是一个种树的故事** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483798&idx=1&sn=225d21e48fd9e9ee3b1c64c5f7618990 | **表情包还能这么用？进决赛还获奖了** |
@@ -40,7 +40,7 @@ url: ""
 
 | 日期 | 链接 | 状态 |
 |------|------|------|
-| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483909&idx=1&sn=377b088a4626c93095242f9c2b4a6f13 | **基于模板的上站 SOP** |
+| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483909&idx=1&sn=377b088a4626c93095242f9c2b4a6f13 | **基于模板的上站 SOP** | done ([sources/template-sop](/md/wiki/sources/template-sop)) |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485466&idx=1&sn=2c861d4367bd984d854fdc2641531283 | **域名选择优先级** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485561&idx=1&sn=0ee4864e9b230c9c2434b890810549c6 | **跟着免费的保姆级教程，上线自己的网站** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485567&idx=1&sn=0733ad32d06cecf0bd980cac055df06c | **前期上线网站成本有多低** |
@@ -49,7 +49,7 @@ url: ""
 
 | 日期 | 链接 | 状态 |
 |------|------|------|
-| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484519&idx=1&sn=069312d4f7c63344e64047457955d428 | **卖空气验证需求**（最低成本 MVP） |
+| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484519&idx=1&sn=069312d4f7c63344e64047457955d428 | **卖空气验证需求**（最低成本 MVP） | done ([sources/sell-air-mvp](/md/wiki/sources/sell-air-mvp)) |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485622&idx=1&sn=4f2b6a1edce2081a00691fb8331bb9e4 | **基于人群找细分需求** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485694&idx=1&sn=dbe9d794b7d13832ac244bef3202fc69 | **需求的痛点决定了转化率** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484056&idx=1&sn=9a5191770f368c289204403cc2551b58 | **通过词根找需求** |
@@ -66,7 +66,7 @@ url: ""
 |------|------|------|
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484820&idx=1&sn=259adf45f1e4a8feaede9ef97a0aa1ad | **创建一个 claude skill 减少重复操作** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484034&idx=1&sn=6573e8234b7eaa45c766fd3e694ec5b8 | **创建 claude code 命令，减少重复操作** |
-| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484584&idx=1&sn=42b4674d57f0e684283013c897fd29f0 | **重大 Next.js 漏洞问题，小心账单爆炸** |
+| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484584&idx=1&sn=42b4674d57f0e684283013c897fd29f0 | **重大 Next.js 漏洞问题，小心账单爆炸** | done ([sources/nextjs-vuln-bill](/md/wiki/sources/nextjs-vuln-bill)) |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485689&idx=1&sn=db5b595a16c0d6401bffaa09306ab068 | **分享遇到的 3 个 vercel 账单暴涨问题** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483881&idx=1&sn=dd38923efa0bf23e857cc725a8a9cfde | **API 调试** |
 
@@ -74,7 +74,7 @@ url: ""
 
 | 日期 | 链接 | 状态 |
 |------|------|------|
-| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485118&idx=1&sn=accaf8bf730d8142b1f410051e89edae | **如何查看 AI 流量，做好 GEO** ⭐ |
+| 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247485118&idx=1&sn=accaf8bf730d8142b1f410051e89edae | **如何查看 AI 流量，做好 GEO** ⭐ | done ([sources/ai-traffic-geo](/md/wiki/sources/ai-traffic-geo)) |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484526&idx=1&sn=1bdf3fb20abb23ca61c72d0ba0cda9d6 | **布局 AI 搜索** ⭐ |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484957&idx=1&sn=0f5def823e44211ecde7d1b40726291a | **AITDK SEO 内容的生成和重写** |
 | 2026-07-13 | https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247484215&idx=1&sn=5bca516f41ac7ae3e63b9930cf9dba92 | **低竞争小词：8 条外链拿下 41K 月访问量** |
