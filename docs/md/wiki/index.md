@@ -129,6 +129,7 @@ wiki/
 | [recruit-workbuddy](/md/wiki/sources/recruit-workbuddy) | WorkBuddy AI 招聘流水线：简历处理从 8 小时压到 0 分钟 | 公众号 |
 | [hr-resume-skill](/md/wiki/concepts/hr-resume-skill) | 自定义 Skill + 连接器 + 自动化 三层架构 | 概念 |
 | [recruitment-workbuddy](/md/wiki/concepts/recruitment-workbuddy) | WorkBuddy 在企业 HR 招聘场景的落地方案 | 概念 |
+| [agent-launch-personal-site](/md/wiki/sources/agent-launch-personal-site) | Agent 口喷上线个人网站：6 步极简部署 + kongge.space 实战 | 公众号 |
 
 ### Agent 工程 (Agent Engineering)
 

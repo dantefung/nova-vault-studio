@@ -971,3 +971,12 @@ source: "llm-wiki"
 - 评分核心：6 维（学历 10% / 经验 30% / 技能 10% / 项目 30% / 稳定 10% / 潜力 10%）+ 加权后总分 ≥ 8 分自动推送业务负责人
 - columns/index.md 加智能招聘专栏入口
 - 分类：recruitment/hr-automation + concepts（workbuddy / ai-recruiting / resume-screening / feishu-bitable / hr-resume-skill）
+- **droidHZ 19 篇复盘总结抓取受阻**：再次启动后，captcha 仍生效（IP 仍被微信标记为爬虫 IP），复盘系列全部 0/19 抓取成功。已尝试 4 种方案（headless/headed/r.jina.ai/defuddle/gstack browse + cookie import）均失败。
+- 验证 IP 状态：叶小钗同一台服务器可抓（叶小钗那篇成功），droidHZ 那台公众号 IP 被锁。**两个公众号 IP 状态独立**。
+- **策略调整**：放弃 droidHZ 那 19 篇（保留 TODO 中，不强行反复触发 captcha）。后续智能招聘专栏如需扩展，由用户直接提供可抓 URL。
+- 采集空格丶《是时候让 Agent 上线你的个人网站了》→ sources/agent-launch-personal-site.md（219 行精读 + 16 张配图）。
+- **核心 6 步部署**：买域名→加 Cloudflare→改 DNS→装 gh+wrangler CLI→授权→一句话部署
+- 技术栈极简：只有 `gh` (GitHub CLI) + `wrangler` (Cloudflare CLI)，授权一次靠嘴部署
+- 4 模块收敛（我是谁 / 做过什么 / 想过什么 / 能提供什么）→ 网站是实时对外的窗口，不是博客
+- 归档到 indie-hub 专栏（与 first-time-dollar-oneyear、template-sop 形成「口喷建站」系列）
+- 分类：indie-hub + vibe-coding + agent-deploy + personal-site + cloudflare-pages

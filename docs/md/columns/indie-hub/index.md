@@ -34,6 +34,7 @@ date: "2026-06-22"
 | [AI 小应用批量创建](./ai-mini-app-creation-zlbigger.md) | zlbigger 第 5 篇：[input1] 占位符模板化 prompt，5 字段后台几分钟上线 |
 | [AI 工具使用指南](./ai-free-tools-guide-zlbigger.md) | zlbigger 第 6 篇：5 大类 30+ 免费工具，额度轮换 + 信息差变现 |
 | [出海一周年万刀·12 模块全量索引](./hezhiyan7-outsea-oneyear-toc.md) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC（SEO/需求/开发/支付/流量 等 12 模块分类） |
+| [Agent 上线个人网站](./agent-launch-personal-site.md) | 空格丶口喷建站：GitHub CLI + Cloudflare wrangler，6 步极简部署 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径
