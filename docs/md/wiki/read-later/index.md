@@ -180,6 +180,7 @@ date: "2026-05-29"
 | 2026-06-25 | https://mp.weixin.qq.com/s/vqEIJgsdQltsRNU2POlMHw | **字节火山引擎洪定坤分享**：①原型驱动开发（AI生成可交互原型替代PRD提前暴露分歧）②AI Development系统化（AI写Spec→功能实现→Browser Use验证→自动上线）③Harness基建（上下文工程+架构约束+团队知识Memory+技术债梳理，可交付性40~60分→80分）|
 | 2026-06-29 | https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ | ~~待查看~~ → 已归档至 sources/vibe-coding-two-prompts.md |
 | 2026-07-15 | https://mp.weixin.qq.com/s/OS5lI3eK1G4X0hYcum6kpw | 待查看 |
+| 2026-07-15 | https://mp.weixin.qq.com/s/WJWR8RdN2OmPGZ38mkPaRA | 待查看 |
 
 ## 其他链接
 
