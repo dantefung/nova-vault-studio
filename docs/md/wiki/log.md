@@ -965,3 +965,9 @@ source: "llm-wiki"
   - **Impeccable** — 设计流程命令化（/teach /craft /audit /polish），告别"为某页面一次性的设计代码"
 - 提取对比表 + 共同点（同把"隐性的个人流程"显性化）
 - 归到现有 concept-indie-site-builder-skill-stack，不单独立 concept
+- 微信反爬 IP 解除后（之前 captcha 失败因 IP 被标记），抓取叶小钗《我用WorkBuddy搭了一套AI招聘流水线》一文 → sources/recruit-workbuddy.md（255 行精读 + 12 张配图）
+- **新建智能招聘专栏** `columns/recruitment/`，包含 index.md（系列索引 + 核心路径 + 评分标准）
+- 新增 2 个概念页：[[concept-hr-resume-skill]]（Skill+连接器+自动化 三层架构）、[[concept-recruitment-workbuddy]]（WorkBuddy HR 落地方案）
+- 评分核心：6 维（学历 10% / 经验 30% / 技能 10% / 项目 30% / 稳定 10% / 潜力 10%）+ 加权后总分 ≥ 8 分自动推送业务负责人
+- columns/index.md 加智能招聘专栏入口
+- 分类：recruitment/hr-automation + concepts（workbuddy / ai-recruiting / resume-screening / feishu-bitable / hr-resume-skill）

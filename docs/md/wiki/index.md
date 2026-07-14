@@ -126,6 +126,9 @@ wiki/
 | [sell-air-mvp](/md/wiki/sources/sell-air-mvp) | 卖空气验证需求：Pieter Levels 预售 + 4 步 SOP | 公众号 |
 | [nextjs-vuln-bill](/md/wiki/sources/nextjs-vuln-bill) | Next.js Image 漏洞账单爆炸：真实事件 + 4 套解决方案 | 公众号 |
 | [template-sop](/md/wiki/sources/template-sop) | 基于模板的上站 SOP：3 大类模板 + AI 编程适配 | 公众号 |
+| [recruit-workbuddy](/md/wiki/sources/recruit-workbuddy) | WorkBuddy AI 招聘流水线：简历处理从 8 小时压到 0 分钟 | 公众号 |
+| [hr-resume-skill](/md/wiki/concepts/hr-resume-skill) | 自定义 Skill + 连接器 + 自动化 三层架构 | 概念 |
+| [recruitment-workbuddy](/md/wiki/concepts/recruitment-workbuddy) | WorkBuddy 在企业 HR 招聘场景的落地方案 | 概念 |
 
 ### Agent 工程 (Agent Engineering)
 
