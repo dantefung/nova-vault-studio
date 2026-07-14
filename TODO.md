@@ -114,6 +114,12 @@ url: ""
 | 2026-07-14 | https://x.com/i/status/2076513303778742620 | 待查看 | pending |
 | 2026-07-14 | https://x.com/i/status/2076697599416082910 | 待查看 | pending |
 | 2026-07-15 | https://mp.weixin.qq.com/s/26E9jSCWquHB1_efWTPBFQ | Obsidian写作Skill（已归档） | done |
+| 2026-07-15 | https://mp.weixin.qq.com/s/_NMgeSFOyY7uKNkGtPPAgQ | 待采集 | pending |
+| 2026-07-15 | https://mp.weixin.qq.com/s/HrY7NRcZGEpA3RleHKDyvg | 待采集 | pending |
+| 2026-07-15 | https://mp.weixin.qq.com/s/AOwVFJe13Yk3MEDcIdSpow | 待采集 | pending |
+| 2026-07-15 | https://mp.weixin.qq.com/s/dwaMd_h26FlUdChqR6rp0g | 待采集 | pending |
+| 2026-07-15 | https://mp.weixin.qq.com/s/obKxDMPRwvi8G9hZSoZERA | 待采集 | pending |
+| 2026-07-15 | https://mp.weixin.qq.com/s/zo1T4Q1wBlYt_JORZeES0w | 待采集 | pending |
 
 ## 已完成
 

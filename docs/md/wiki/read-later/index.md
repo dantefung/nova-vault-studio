@@ -242,6 +242,7 @@ date: "2026-05-29"
 | 2026-07-09 | https://github.com/YouMind-OpenLab/awesome-gpt-image-2 | **awesome-gpt-image-2（8.1k Stars）**：全球最大 GPT Image 2 提示词库，2000+ 精选提示词含预览图，16 语言，TypeScript 100% |
 | 2026-07-09 | https://github.com/chuspeeism/dashiAI-ppt-skill | **DashiAI PPT Skill（1.5k Stars）**：AI Agent 生成可编辑网页 PPT，12套视觉主题/1020个版式/8576个控件，支持导出 HTML/PDF/可编辑 PPTX，碾压 PPT-master，Claude Code/Codex/豆包均支持 |
 | 2026-07-09 | https://github.com/byoungd/up | **人生进阶指南 up（55.6k Stars）**：英语学习主线 + AI 学习方法 + 人生复盘样本，含认知/单词/听力/阅读/口语/写作/AI场景训练全链路，JavaScript 100% |
+| 2026-07-15 | https://github.com/Jane-xiaoer/paper-collage-ad-codex | **Paper Collage Ad Codex（244 Stars）**：Codex Skill，完整剪纸/编辑拼贴广告制作，创意→分镜→动画→本地IndexTTS-2声音克隆→音效→MP4质检，全链路，85.6% JavaScript |
 | 2026-07-14 | https://github.com/DavidLam-oss/obsidian-wechat-converter | **Obsidian Wechat Converter（251 Stars）**：Obsidian 插件，Markdown 一键发布微信公众号+飞书+知乎/掘金/CSDN/小红书，支持数学公式/SVG/Mermaid/图片滑动/AI编排，MIT |
 | 2026-07-09 | https://github.com/asnowwolf/meta-project-poc | **Meta-Project POC 元工程**：将软件工程方法论（Design Thinking/DDD/敏捷/TDD）引入 LLM 开发流程的 POC，通过 PDCA 循环 + Human Gate + CI Pipeline 实现宏观确定性与微观灵活性的平衡，93.5% Shell + 6.5% Python |
 | 2026-07-02 | https://github.com/alchaincyf/obsidian-ai-orange-book | **Obsidian + Claude Code 橙皮书**：用AI重建你的第二大脑，1.2k Stars。核心：Markdown是AI原生接口、LLM是编译器而非检索器、CLAUDE.md+index.md搞定80%工作 |
