@@ -11,6 +11,20 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-15] indie-hub-obsidian-writing-skill ingest
+
+- **Source**: [Obsidian入门40：把我的写作工作流Skill免费分享给你](https://mp.weixin.qq.com/s/26E9jSCWquHB1_efWTPBFQ) (林大友)
+- **Images**: 9张配图 → `images/indie-hub-obsidian-writing-skill/`
+- **Content**: wechat-writer（五角色写作天团）+ wechat-director（三步出图），双Skill系统，开源在 GitHub
+- **Patterns**: [[Skill设计]] [[写作工作流]] [[多Agent协作]] [[checkpoint机制]]
+
+## [2026-07-14] indie-hub-jason-ai-blogger ingest
+
+- **Source**: [一人公司、半年营收百万，算法工程师转型AI博主全复盘](https://mp.weixin.qq.com/s/HAsP5MRk15x_WkrajRglQA) (游牧岛NEXT)
+- **Images**: 14张配图 → `images/indie-hub-jason-ai-blogger/`
+- **Content**: 算法工程师Jason转型AI博主之路，一年半探索+半年跑通MCN商业模式
+- **Patterns**: [[数字游民]] [[一人公司]] [[MCN]] [[内容变现]] [[AI博主]]
+
 ## [2026-07-02] prompt-to-harness ingest
 
 - **Source**: [从Prompt到Harness：一文看懂AI工程的四次跃迁](https://mp.weixin.qq.com/s/ERajPSZ6vG5LYqtLftfTfw) (瑜的安全谷)

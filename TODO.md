@@ -108,6 +108,12 @@ url: ""
 | 2026-07-01 | https://x.com/i/status/2048230976447557787 | **Tw93：非技术人上手 AI Coding**（文章内链待抓取） | pending |
 | 2026-07-01 | https://x.com/i/status/2063523060406423864 | **知识猫图解：Codex 快速入门任意领域**（文章内链待抓取） | pending |
 | 2026-07-02 | https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ | 待补充 | pending |
+| 2026-07-14 | https://x.com/i/status/2076998958254288930 | 待查看 | pending |
+| 2026-07-14 | https://x.com/i/status/2076530524110369070 | 待查看 | pending |
+| 2026-07-14 | https://x.com/i/status/2076554886091805110 | 待查看 | pending |
+| 2026-07-14 | https://x.com/i/status/2076513303778742620 | 待查看 | pending |
+| 2026-07-14 | https://x.com/i/status/2076697599416082910 | 待查看 | pending |
+| 2026-07-15 | https://mp.weixin.qq.com/s/26E9jSCWquHB1_efWTPBFQ | Obsidian写作Skill（已归档） | done |
 
 ## 已完成
 
