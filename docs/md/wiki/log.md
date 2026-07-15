@@ -1036,3 +1036,10 @@ source: "llm-wiki"
 - 4 模块收敛（我是谁 / 做过什么 / 想过什么 / 能提供什么）→ 网站是实时对外的窗口，不是博客
 - 归档到 indie-hub 专栏（与 first-time-dollar-oneyear、template-sop 形成「口喷建站」系列）
 - 分类：indie-hub + vibe-coding + agent-deploy + personal-site + cloudflare-pages
+- 采集 Heidixie呀《职场人学习要诀：问题驱动的学习车轮》→ sources/problem-driven-learning-wheel.md（精读，4 张配图）
+- **新概念页** [[concept-problem-driven-learning-wheel]]：Charles Handy 的双环学习模型
+- **新增子目录**：guide/career/learning/（首个文件）
+- 同步挂入 [[columns/cognition/index|认知专栏]] + wiki index
+- 核心洞察：5 步实操法（独立思考 → 问题本 → 求解 → 实践反思 → 月度输出）。月度输出要达到「能给 30+ 人会场分享」的程度
+- 4 个车轮卡住的常见原因：麻木 / 停在问题 / 脱离实践 / 缺乏反思
+- 分类：career/learning + cognition + problem-driven-learning + 学习车轮 + 双环学习

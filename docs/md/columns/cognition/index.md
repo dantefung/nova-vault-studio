@@ -14,3 +14,4 @@ date: "2026-06-16"
 | 日期 | 标题 | 来源 |
 |------|------|------|
 | 2026-06-16 | [程序员的底层思维：解密 16 种底层思维能力](./programmer-underlying-thinking.md) | 掘金 |
+| 2026-07-14 | [职场人学习要诀：问题驱动的学习车轮（Charles Handy）](../../guide/career/learning/problem-driven-learning-wheel) | 微信公众号（曹宇/Heidixie呀） |
