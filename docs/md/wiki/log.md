@@ -19,6 +19,15 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-15] indie-hub-agentic-loop ingest
+
+- **Source**: [Agentic Loop：三个循环](https://mp.weixin.qq.com/s/RbMg_AXzOTtf3tcQnoThzQ) (Robert Ross)
+- **Images**: 1张 → `images/indie-hub-agentic-loop/`
+- **Content**: Agent三个循环：推理循环（调用LLM API）、工具循环（执行工具调用）、人类循环（审批/拒绝工具调用），Temporal解决持久化问题
+- **Patterns**: [[Agentic Loop]] [[推理循环]] [[工具循环]] [[人类循环]] [[agentic-engineer]]
+
+---
+
 ## [2026-07-15] indie-hub-pm-skills-rebuild ingest
 
 - **Source**: [用完全网最火的PM Skills，我决定把163个Skill推倒重做](https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ) (空格丶)
