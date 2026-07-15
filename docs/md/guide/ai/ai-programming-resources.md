@@ -67,6 +67,7 @@ date: "2026-05-05"
 - [obsidian-skills](https://github.com/obsidianmd/obsidian-skills) — 自动化知识库管理、双向链接优化和 Canvas 功能
 - [Markitdown](https://github.com/dstearle/markitdown) — 将 PDF、PPT、图片、音频和 ZIP 转换为 Markdown
 - [notebooklm-skill](https://github.com/notebooklm/skill) — 将视频字幕和 PDF 集成到云知识库
+- [moore-wechat-article-downloader](https://github.com/Moore-developers/moore-wechat-article-downloader) — 本地优先的公众号 Skill：同步/研究/收藏/归档 4 大场景，SQLite 状态管理，评论互动数据写回 Markdown
 
 ### 自动化、营销与研究
 

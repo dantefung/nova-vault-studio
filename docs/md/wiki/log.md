@@ -1043,3 +1043,7 @@ source: "llm-wiki"
 - 核心洞察：5 步实操法（独立思考 → 问题本 → 求解 → 实践反思 → 月度输出）。月度输出要达到「能给 30+ 人会场分享」的程度
 - 4 个车轮卡住的常见原因：麻木 / 停在问题 / 脱离实践 / 缺乏反思
 - 分类：career/learning + cognition + problem-driven-learning + 学习车轮 + 双环学习
+- 登记 AI 编程资源：Moore-developers/moore-wechat-article-downloader 公众号内容情报库 Skill → products/moore-wechat-article-downloader.md
+- 同步挂到 [[guide-ai-ai-programming-resources]]「生产力与知识管理」分类 + wiki index
+- 核心：4 大场景（同步/研究/微信收藏/链接归档）+ SQLite 状态管理 + 评论互动写回 Markdown
+- 与本仓 [[wiki-ingest-article]] 互补：本仓 skill 偏精读归档，moore 偏批量同步
