@@ -11,6 +11,14 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-15] indie-hub-xiaohongshu-workbench ingest
+
+- **Source**: [GitHub - xiaohongshu-ai-workbench](https://github.com/nihe0909/xiaohongshu-ai-workbench) (王梦珂X帖)
+- **Content**: 小红书运营AI工作台，6个Codex Skills（suite/title/profile/topic-planner/comment-reply/conversion-path）
+- **Patterns**: [[小红书运营]] [[Codex Skills]] [[内容运营]] [[个人IP]]
+
+---
+
 ## [2026-07-15] indie-hub-pm-skills-rebuild ingest
 
 - **Source**: [用完全网最火的PM Skills，我决定把163个Skill推倒重做](https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ) (空格丶)
