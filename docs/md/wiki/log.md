@@ -11,6 +11,27 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-15] indie-hub-loop-engineer ingest
+
+- **Source**: [开始Loop Engineer之前，请先把loop、hook、goal用好](https://mp.weixin.qq.com/s/RWs-wFHYwtyC43-RehoJDw) (空格丶)
+- **Images**: 10张配图 → `images/indie-hub-loop-engineer/`
+- **Content**: loop/hook/goal三大能力详解+实践案例，Loop Engineering完整6模块
+- **Patterns**: [[Loop Engineering]] [[hook机制]] [[goal驱动]]
+
+## [2026-07-15] indie-hub-social-media-skill ingest
+
+- **Source**: [我用Agent Skill搭了一套社媒监控系统](https://mp.weixin.qq.com/s/1_ugBJwHEEPuLw_baP-0zQ) (空格丶)
+- **Images**: 5张配图 → `images/indie-hub-social-media-skill/`
+- **Content**: 社媒监控系统4个Skill：小红书账号分析/爆款搜索/公众号爆款/监控日报
+- **Patterns**: [[社媒监控]] [[Agent Skill]] [[内容分析]]
+
+## [2026-07-15] indie-hub-knowledge-mgmt-skills ingest
+
+- **Source**: [50个知识管理Skill，帮你打造AI生产力系统](https://mp.weixin.qq.com/s/xU6T2GWL6TiFAFEwsfcgew) (空格丶)
+- **Images**: 4张配图 → `images/indie-hub-knowledge-mgmt-skills/`
+- **Content**: Read Buddy(19) + Design Buddy(19) + Creator Buddy(5) 三大Skill仓库，覆盖阅读→整理→创作全链路
+- **Patterns**: [[知识管理]] [[AI生产力]] [[Skill系统]]
+
 ## [2026-07-15] indie-hub-obsidian-writing-skill ingest
 
 - **Source**: [Obsidian入门40：把我的写作工作流Skill免费分享给你](https://mp.weixin.qq.com/s/26E9jSCWquHB1_efWTPBFQ) (林大友)
