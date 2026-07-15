@@ -1,22 +1,22 @@
 ---
 title: "LazyVim 快捷键大全"
-date: "2026-06-16"
+date: "2026-07-14"
 source: "GitHub"
 url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tutorials%20and%20Guides/LazyVim%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8.md"
+tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 ---
 
 # LazyVim 快捷键大全
 
-> LazyVim 常用快捷键速查表，按功能分类整理。
+> LazyVim 常用快捷键速查表，按功能分类整理。共 15 个章节，覆盖 150+ 个常用快捷键。
 
 <!-- more -->
-
 ## 通用操作
 
 | 快捷键 | 功能 |
 |--------|------|
-| `<Space>` 等 1 秒 | 显示快捷键菜单 |
-| `<Space>sk` | 搜索所有快捷键 |
+| `&lt;Space&gt;` 等1秒 | 显示快捷键菜单 |
+| `&lt;Space&gt;sk` | 搜索所有快捷键 |
 | `u` | 撤销 |
 | `Ctrl+r` | 重做 |
 | `.` | 重复上次操作 |
@@ -26,26 +26,26 @@ url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tut
 
 | 快捷键 | 功能 |
 |--------|------|
-| `<Space>ff` | 搜索文件 |
-| `<Space>fr` | 最近打开的文件 |
-| `<Space>fn` | 新建文件 |
-| `<Space>fs` | 保存文件 |
-| `<Space>fS` | 另存为 |
-| `<Space>e` | 打开/关闭侧边栏 |
-| `<Space>E` | 侧边栏定位当前文件 |
+| `&lt;Space&gt;ff` | 搜索文件 |
+| `&lt;Space&gt;fr` | 最近打开的文件 |
+| `&lt;Space&gt;fn` | 新建文件 |
+| `&lt;Space&gt;fs` | 保存文件 |
+| `&lt;Space&gt;fS` | 另存为 |
+| `&lt;Space&gt;e` | 打开/关闭侧边栏 |
+| `&lt;Space&gt;E` | 侧边栏定位当前文件 |
 
 ## 搜索
 
 | 快捷键 | 功能 |
 |--------|------|
-| `<Space>sg` | 全局搜索文本 (grep) |
-| `<Space>sw` | 搜索光标下的词 |
-| `<Space>sb` | 当前 buffer 搜索 |
-| `<Space>ss` | 搜索符号 |
-| `<Space>sS` | 工作区搜索符号 |
-| `<Space>sh` | 搜索帮助文档 |
-| `<Space>sm` | 搜索标记 |
-| `<Space>sr` | 搜索替换 |
+| `&lt;Space&gt;sg` | 全局搜索文本 (grep) |
+| `&lt;Space&gt;sw` | 搜索光标下的词 |
+| `&lt;Space&gt;sb` | 当前 buffer 搜索 |
+| `&lt;Space&gt;ss` | 搜索符号 |
+| `&lt;Space&gt;sS` | 工作区搜索符号 |
+| `&lt;Space&gt;sh` | 搜索帮助文档 |
+| `&lt;Space&gt;sm` | 搜索标记 |
+| `&lt;Space&gt;sr` | 搜索替换 |
 | `/` | 当前文件搜索 |
 | `n` | 下一个搜索结果 |
 | `N` | 上一个搜索结果 |
@@ -57,13 +57,13 @@ url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tut
 |--------|------|
 | `Shift+h` | 上一个 buffer |
 | `Shift+l` | 下一个 buffer |
-| `<Space>bb` | 切换到其他 buffer |
-| `<Space>bd` | 关闭当前 buffer |
-| `<Space>bD` | 强制关闭 buffer |
-| `<Space>bo` | 关闭其他 buffer |
-| `<Space>bp` | 固定 buffer |
-| `<Space>bl` | 删除左侧 buffer |
-| `<Space>br` | 删除右侧 buffer |
+| `&lt;Space&gt;bb` | 切换到其他 buffer |
+| `&lt;Space&gt;bd` | 关闭当前 buffer |
+| `&lt;Space&gt;bD` | 强制关闭 buffer |
+| `&lt;Space&gt;bo` | 关闭其他 buffer |
+| `&lt;Space&gt;bp` | 固定 buffer |
+| `&lt;Space&gt;bl` | 删除左侧 buffer |
+| `&lt;Space&gt;br` | 删除右侧 buffer |
 | `[b` | 上一个 buffer |
 | `]b` | 下一个 buffer |
 
@@ -75,11 +75,10 @@ url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tut
 | `Ctrl+j` | 移动到下边窗口 |
 | `Ctrl+k` | 移动到上边窗口 |
 | `Ctrl+l` | 移动到右边窗口 |
-| `<Space>-` | 水平分屏 |
-| `<Space>\|` | 垂直分屏 |
-| `<Space>wd` | 关闭当前窗口 |
-| `<Space>ww` | 切换窗口 |
-| `<Space>wo` | 关闭其他窗口 |
+| `&lt;Space&gt;-` | 水平分屏 |
+| `&lt;Space&gt;wd` | 关闭当前窗口 |
+| `&lt;Space&gt;ww` | 切换窗口 |
+| `&lt;Space&gt;wo` | 关闭其他窗口 |
 | `Ctrl+Up` | 增加窗口高度 |
 | `Ctrl+Down` | 减少窗口高度 |
 | `Ctrl+Left` | 减少窗口宽度 |
@@ -90,8 +89,8 @@ url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tut
 | 快捷键 | 功能 |
 |--------|------|
 | `Ctrl+/` | 浮动终端 |
-| `<Space>ft` | 浮动终端 |
-| `<Space>fT` | 当前目录终端 |
+| `&lt;Space&gt;ft` | 浮动终端 |
+| `&lt;Space&gt;fT` | 当前目录终端 |
 | `Ctrl+\` | 退出终端模式 |
 
 ## 代码导航
@@ -117,13 +116,13 @@ url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tut
 
 | 快捷键 | 功能 |
 |--------|------|
-| `<Space>ca` | 代码操作 |
-| `<Space>cA` | 源代码操作 |
-| `<Space>cr` | 重命名 |
-| `<Space>cf` | 格式化文件 |
-| `<Space>cd` | 行诊断信息 |
-| `<Space>cl` | LSP 信息 |
-| `<Space>cm` | Mason (管理 LSP) |
+| `&lt;Space&gt;ca` | 代码操作 |
+| `&lt;Space&gt;cA` | 源代码操作 |
+| `&lt;Space&gt;cr` | 重命名 |
+| `&lt;Space&gt;cf` | 格式化文件 |
+| `&lt;Space&gt;cd` | 行诊断信息 |
+| `&lt;Space&gt;cl` | LSP 信息 |
+| `&lt;Space&gt;cm` | Mason (管理 LSP) |
 
 ## 注释
 
@@ -139,21 +138,21 @@ url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tut
 
 | 快捷键 | 功能 |
 |--------|------|
-| `<Space>gg` | 打开 lazygit |
-| `<Space>gG` | 当前目录 lazygit |
-| `<Space>gf` | git 文件列表 |
-| `<Space>gc` | git 提交记录 |
-| `<Space>gs` | git 状态 |
-| `<Space>gb` | git blame 当前行 |
-| `<Space>gB` | 浏览器打开仓库 |
+| `&lt;Space&gt;gg` | 打开 lazygit |
+| `&lt;Space&gt;gG` | 当前目录 lazygit |
+| `&lt;Space&gt;gf` | git 文件列表 |
+| `&lt;Space&gt;gc` | git 提交记录 |
+| `&lt;Space&gt;gs` | git 状态 |
+| `&lt;Space&gt;gb` | git blame 当前行 |
+| `&lt;Space&gt;gB` | 浏览器打开仓库 |
 | `]h` | 下一个 git 修改块 |
 | `[h` | 上一个 git 修改块 |
-| `<Space>ghp` | 预览修改块 |
-| `<Space>ghs` | 暂存修改块 |
-| `<Space>ghr` | 重置修改块 |
-| `<Space>ghS` | 暂存整个文件 |
-| `<Space>ghR` | 重置整个文件 |
-| `<Space>ghd` | diff 当前文件 |
+| `&lt;Space&gt;ghp` | 预览修改块 |
+| `&lt;Space&gt;ghs` | 暂存修改块 |
+| `&lt;Space&gt;ghr` | 重置修改块 |
+| `&lt;Space&gt;ghS` | 暂存整个文件 |
+| `&lt;Space&gt;ghR` | 重置整个文件 |
+| `&lt;Space&gt;ghd` | diff 当前文件 |
 
 ## 选择/编辑
 
@@ -170,8 +169,8 @@ url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tut
 | `x` | 删除字符 |
 | `r` | 替换字符 |
 | `~` | 切换大小写 |
-| `>>` | 增加缩进 |
-| `<<` | 减少缩进 |
+| `&gt;&gt;` | 增加缩进 |
+| `&lt;&lt;` | 减少缩进 |
 | `=` | 自动缩进 |
 | `J` | 合并行 |
 
@@ -208,10 +207,40 @@ url: "https://github.com/2025Emma/vibe-coding-cn/blob/main/i18n/zh/documents/Tut
 | `zA` | 递归切换折叠 |
 | `zo` | 打开折叠 |
 | `zc` | 关闭折叠 |
+| `zR` | 打开所有折叠 |
+| `zM` | 关闭所有折叠 |
+
+## UI
+
+| 快捷键 | 功能 |
+|--------|------|
+| `&lt;Space&gt;uf` | 切换格式化 |
+| `&lt;Space&gt;us` | 切换拼写检查 |
+| `&lt;Space&gt;uw` | 切换自动换行 |
+| `&lt;Space&gt;ul` | 切换行号 |
+| `&lt;Space&gt;uL` | 切换相对行号 |
+| `&lt;Space&gt;ud` | 切换诊断 |
+| `&lt;Space&gt;uc` | 切换隐藏字符 |
+| `&lt;Space&gt;uh` | 切换高亮 |
+| `&lt;Space&gt;un` | 关闭通知 |
+
+## 退出
+
+| 快捷键 | 功能 |
+|--------|------|
+| `&lt;Space&gt;qq` | 退出全部 |
+| `&lt;Space&gt;qQ` | 强制退出全部 |
+| `:w` | 保存 |
+| `:q` | 退出 |
+| `:wq` | 保存并退出 |
+| `:q!` | 强制退出不保存 |
 
 ---
 
 ## 相关文章
 
+- [lazyvim-architecture.md](./lazyvim-architecture.md) — LazyVim 庖丁解牛（静态构成 + 动态启动链路）
+- [lazyvim-keymap-config.md](./lazyvim-keymap-config.md) — 自定义 keymaps.lua 完整配置
+- [lazyvim-lsp-keymaps.md](./lazyvim-lsp-keymaps.md) — LSP 快捷键总览
 - [tmux 快捷键大全](./tmux-cheatsheet.md) — tmux 常用快捷键速查表
 - [tmux 完整指南](./tmux-guide.md) — 从概念到进阶使用的完整教程
