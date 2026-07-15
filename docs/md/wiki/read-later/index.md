@@ -11,8 +11,17 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 备注 |
 |------|------|------|
+| 2026-07-15 | https://x.com/i/status/2076554713336512758 | 待查看 |
+| 2026-07-15 | https://x.com/i/status/2076887045906256305 | 待查看 |
+| 2026-07-15 | https://x.com/i/status/2076931650412511257 | 待查看 |
+| 2026-07-15 | https://x.com/i/status/2076865068613206046 | 待查看 |
+| 2026-07-15 | https://x.com/i/status/2076871293211685140 | 待查看 |
+| 2026-07-15 | https://x.com/i/status/2076705154364252494 | 待查看 |
 | 2026-07-09 | https://x.com/Bytec99/status/2075372048994672994?s=20 | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2074459150323769843 | 待查看 |
+| 2026-07-15 | https://github.com/Nutlope/hallmark | **Hallmark**：去除AI塑料味的Skill，20种预设主题+57项反AI测试+量身定制，Codex/Cursor均支持 |
+| 2026-07-15 | https://github.com/simonlin1212/Vibe-Research | 待查看 |
+| 2026-07-15 | https://github.com/bozhouDev/codex-orange-book | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2075077966007291958 | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2074811767553929576 | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2074728162018152817 | 待查看 |
@@ -244,6 +253,7 @@ date: "2026-05-29"
 | 2026-07-09 | https://github.com/YouMind-OpenLab/awesome-gpt-image-2 | **awesome-gpt-image-2（8.1k Stars）**：全球最大 GPT Image 2 提示词库，2000+ 精选提示词含预览图，16 语言，TypeScript 100% |
 | 2026-07-09 | https://github.com/chuspeeism/dashiAI-ppt-skill | **DashiAI PPT Skill（1.5k Stars）**：AI Agent 生成可编辑网页 PPT，12套视觉主题/1020个版式/8576个控件，支持导出 HTML/PDF/可编辑 PPTX，碾压 PPT-master，Claude Code/Codex/豆包均支持 |
 | 2026-07-09 | https://github.com/byoungd/up | **人生进阶指南 up（55.6k Stars）**：英语学习主线 + AI 学习方法 + 人生复盘样本，含认知/单词/听力/阅读/口语/写作/AI场景训练全链路，JavaScript 100% |
+| 2026-07-15 | https://github.com/ATH-MaaS/Pixelle-Video | **Pixelle-Video（25.5k Stars）**：AI全自动短视频引擎，输入主题→文案+配图+语音+BGM+合成，支持ComfyUI/RunningHub/直连API，数字人口播/动作迁移，Windows一键包 |
 | 2026-07-15 | https://github.com/Jane-xiaoer/paper-collage-ad-codex | **Paper Collage Ad Codex（244 Stars）**：Codex Skill，完整剪纸/编辑拼贴广告制作，创意→分镜→动画→本地IndexTTS-2声音克隆→音效→MP4质检，全链路，85.6% JavaScript |
 | 2026-07-14 | https://github.com/DavidLam-oss/obsidian-wechat-converter | **Obsidian Wechat Converter（251 Stars）**：Obsidian 插件，Markdown 一键发布微信公众号+飞书+知乎/掘金/CSDN/小红书，支持数学公式/SVG/Mermaid/图片滑动/AI编排，MIT |
 | 2026-07-09 | https://github.com/asnowwolf/meta-project-poc | **Meta-Project POC 元工程**：将软件工程方法论（Design Thinking/DDD/敏捷/TDD）引入 LLM 开发流程的 POC，通过 PDCA 循环 + Human Gate + CI Pipeline 实现宏观确定性与微观灵活性的平衡，93.5% Shell + 6.5% Python |
@@ -272,6 +282,7 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-07-15 | https://github.com/chenjin-cmd/wechat-aip-architect | **Wechat AIP Architect（55 Stars）**：公众号AIP打造方法论，工具无关（适配任意AI），5模块（定位/搭建/对标/写作/排版）+ 3内容模板 + 4 HTML图文模板，中英双语 |
 | 2026-07-09 | https://meigen.ai | **MeiGen（表情包）**：免费 GPT Image 2 / Nano Banana / Seedance 2.0 / Midjourney 提示词库，一键复制，支持短视频封面/电商主图/品牌海报/朋友圈氛围感大片 |
 | 2026-06-30 | https://zhuanlan.zhihu.com/p/2051351123517346918 | 待查看 |
 | 2026-06-30 | https://ew6rccvpnmz.feishu.cn/wiki/ILO2waqXLi1EvqkuKHvcceMOnVd | 待查看 |

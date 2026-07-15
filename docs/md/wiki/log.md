@@ -11,6 +11,27 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-15] indie-hub-pm-skills-rebuild ingest
+
+- **Source**: [用完全网最火的PM Skills，我决定把163个Skill推倒重做](https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ) (空格丶)
+- **Images**: 13张配图 → `images/indie-hub-pm-skills-rebuild/`
+- **Content**: Skill 2.0体系：Plugin/Command/Skill/Hooks四层，pm-skills案例，skill-plugin-architect工具
+- **Patterns**: [[Skill 2.0]] [[Plugin]] [[Command]] [[Hooks]]
+
+## [2026-07-15] indie-hub-feishu-agent-os ingest
+
+- **Source**: [7个案例把飞书用作Agent的操作系统](https://mp.weixin.qq.com/s/rDcT6xFqHAkNUzwDuC5tBA) (空格丶)
+- **Images**: 13张配图 → `images/indie-hub-feishu-agent-os/`
+- **Content**: 7个案例：AAMP协议/Bridge/HyperFrames/GEO诊断等，飞书作为Agent操作系统
+- **Patterns**: [[飞书]] [[Agent操作系统]] [[AAMP协议]]
+
+## [2026-07-15] indie-hub-onepod-skills ingest
+
+- **Source**: [小宇宙播客也能转文章了！开源OnePod全套Skills](https://mp.weixin.qq.com/s/kRrTqdWHmMV5yb7vrQ6Mww) (空格丶)
+- **Images**: 10张配图 → `images/indie-hub-onepod-skills/`
+- **Content**: OnePod 6个Skill开源：youtube-feed/字幕提取/内容提炼/主控编排/口播脚本/小宇宙转文章
+- **Patterns**: [[OnePod]] [[播客转文字]] [[Skill编排]] [[Loop Engineering]]
+
 ## [2026-07-15] indie-hub-loop-engineer ingest
 
 - **Source**: [开始Loop Engineer之前，请先把loop、hook、goal用好](https://mp.weixin.qq.com/s/RWs-wFHYwtyC43-RehoJDw) (空格丶)
