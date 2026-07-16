@@ -251,6 +251,10 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-07-16 | https://x.com/i/status/2077689805752942619 | 待查看 |
+| 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a44e9190000000008030e7b | **CrazyAllen：图解论文 DSpark**（大模型推理加速）— 小红书Skill，25赞 |
+| 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a435798000000001003da5f | **CrazyAllen：图解论文 SkillOpt**（自改进Agent Skill）— 小红书Skill，22赞 |
+| 2026-07-16 | https://github.com/HKUDS/OpenOPC | **OpenOPC**：HKUDS开源，AI编程资源，待补充详情 |
 | 2026-07-09 | https://github.com/wechat-article/wechat-article-exporter | **wechat-article-exporter（12.2k Stars）**：微信公众号文章批量下载工具，支持导出正文/阅读量/评论数据，HTML格式100%还原排版，支持 Docker/Cloudflare 部署 |
 | 2026-07-09 | https://github.com/mcncarl/yichen-skills | **yichen-skills（795 Stars）**：13个 Claude Code/Codex Skills 合集，含对话摘要/X文章发布/微信双开/微信本地库/抖音/小红书采集/火山ASR/视频诊断/ChatGPT研究/剪映剪辑/Agent记忆/微信公众号批量导出/企业微信本地库，Python 100% |
 | 2026-07-09 | https://github.com/refly-ai/refly | **Refly（7.4k Stars）**：首个开源 Agent Skills 构建平台，vibe workflow 定义 skills 并导出到 Claude Code/Cursor/Codex/APIs，支持 3000+ 工具 + MCP，Skills 是基础设施而非提示词 |
