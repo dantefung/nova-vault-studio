@@ -1,7 +1,7 @@
 ---
 title: "独立 App 实战手册：从点子到第一批付费用户"
 date: "2026-06-29"
-source: "Adam Lyttle YouTube 88 集整理"
+source: "Adam Lyttle YouTube 88 集整理（app-playbook-site.pages.dev）"
 url: "https://app-playbook-site.pages.dev/"
 ---
 
@@ -14,6 +14,8 @@ import HtmlViewer from '../../../../.vitepress/theme/components/HtmlViewer.vue'
 > 给新手的完整独立 App 实战指南——发现点子、选择产品、开发 MVP、上架 ASO、分发营销、增长留存。
 >
 > 📦 **完整网页已归档**：下方 HtmlViewer 内嵌呈现，支持全屏 / 新标签页打开 / 工具栏操作。
+
+> 🔗 **原文出处**：<https://app-playbook-site.pages.dev/> — Adam Lyttle 近一年 88 条 YouTube 视频的整理。本文档为知识库摘要 + 原网页内嵌归档。
 
 <HtmlViewer src="/app-playbook/index.html" title="独立开发指南：从 App 点子到第一批付费用户" />
 
@@ -278,3 +280,19 @@ onboarding 提高激活
 - 本仓 wiki/concepts/openspec-superpowers-workflow（OpenSpec + Superpowers AI 开发工作流）
 - 本仓 wiki/concepts/vibe-coding（Vibe Coding 方法论）
 - 本仓 wiki/concepts/agentic-architectures（Agent 架构设计）
+
+---
+
+## 📎 出处与归档说明
+
+| 项 | 值 |
+|----|----|
+| **原文 URL** | <https://app-playbook-site.pages.dev/> |
+| **作者** | Adam Lyttle（YouTube） |
+| **内容来源** | 近一年 **88 条 YouTube 视频**整理 |
+| **本地归档** | `docs/public/app-playbook/index.html` (41.6 KB, 11 个章节) |
+| **本知识库版** | 摘要 + HtmlViewer 内嵌原始网页 |
+| **License** | 沿用原作者版权（Adam Lyttle 个人作品） |
+| **站内更新** | 2026-07-13 由大圣添加"出处与归档说明"块，让用户能直接看到原始 URL |
+
+> 如发现原文已更新或链接失效，欢迎在仓内提交 Issue 反馈。
