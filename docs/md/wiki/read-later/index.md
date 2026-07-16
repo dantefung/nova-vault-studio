@@ -251,9 +251,14 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
+| 2026-07-16 | https://x.com/i/status/2077612942585975289 | **Smartpig：副业年入百万的8个GitHub仓库**：①business-ideas-dataset（Reddit/AppStore痛点评分）②startup-ideas（月度创业机会）③niche-app-ideas（细分市场需求）④app-ideas（大型应用创意合集）⑤awesome-app-ideas（移动/效率/工具）⑥tastejs/awesome-app-ideas（搜索/健身/监控）⑦Best-Micro-SaaS-Tools（真实Micro-SaaS产品）⑧BizGenie（商业想法生成+验证），5.7K浏览 |
+| 2026-07-16 | https://my.feishu.cn/wiki/KZAqwJU1CibndpneWzce5gfnsc | **《关于 Vibe Coding 的 100 个问题》**：3.7万字，100个问题，适合不会编程想做东西的人/被AI冲击的职场人/想提效的老板与产品运营 |
+| 2026-07-16 | https://my.feishu.cn/wiki/FC6ZwnwWWi0dWpke56act61gnUd | **《100个问题》系列索引**：①Loop Engineering ②Codex ③WorkBuddy ④AI产品经理 ⑤飞书CLI ⑥Vibe Coding（新增）|
 | 2026-07-16 | https://x.com/i/status/2077689805752942619 | 待查看 |
 | 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a44e9190000000008030e7b | **CrazyAllen：图解论文 DSpark**（大模型推理加速）— 小红书Skill，25赞 |
 | 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a435798000000001003da5f | **CrazyAllen：图解论文 SkillOpt**（自改进Agent Skill）— 小红书Skill，22赞 |
+| 2026-07-16 | https://github.com/bojieli/ai-agent-book | **ai-agent-book（986 Stars）**：《深入理解AI Agent：设计原理与工程实践》(李博杰)，核心公式Agent=LLM+上下文+工具，10章：基础知识→上下文工程→记忆与RAG→工具(MCP)→Coding Agent→评估→后训练→自我进化→多模态→多Agent协作，配书PDF+按章代码，Python 94.5% |
+| 2026-07-16 | https://github.com/jamwithai/production-agentic-rag-course | **production-agentic-rag-course（7.9k Stars）**：7周构建arXiv论文助手，基础设施(Docker/FastAPI/PostgreSQL/OpenSearch/Airflow)→数据管道(arXiv API/Docling)→BM25搜索→混合搜索(RRF)→RAG+Ollama+Gradio→Langfuse监控+Redis缓存→LangGraph Agentic RAG+Telegram Bot，Python+Jupyter |
 | 2026-07-16 | https://github.com/HKUDS/OpenOPC | **OpenOPC**：HKUDS开源，AI编程资源，待补充详情 |
 | 2026-07-09 | https://github.com/wechat-article/wechat-article-exporter | **wechat-article-exporter（12.2k Stars）**：微信公众号文章批量下载工具，支持导出正文/阅读量/评论数据，HTML格式100%还原排版，支持 Docker/Cloudflare 部署 |
 | 2026-07-09 | https://github.com/mcncarl/yichen-skills | **yichen-skills（795 Stars）**：13个 Claude Code/Codex Skills 合集，含对话摘要/X文章发布/微信双开/微信本地库/抖音/小红书采集/火山ASR/视频诊断/ChatGPT研究/剪映剪辑/Agent记忆/微信公众号批量导出/企业微信本地库，Python 100% |
