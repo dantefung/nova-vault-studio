@@ -2,7 +2,7 @@
 title: "把才华变成钱 — 王梦珂"
 date: "2026-07-01"
 source: "好事发生"
-url: "https://haoshiyinli.com/book/read.html"
+url: "https://haoshiyinli.com/book/index.html"
 ---
 
 <script setup>
@@ -141,4 +141,4 @@ const pdfUrl = new URL('./把才华变成钱.pdf', import.meta.url).href
 
 ---
 
-> [下载 PDF](把才华变成钱.pdf) | [在线阅读](https://haoshiyinli.com/book/read.html)
+> [下载 PDF](把才华变成钱.pdf) | [在线阅读](https://haoshiyinli.com/book/index.html)
