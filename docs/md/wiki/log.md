@@ -1064,3 +1064,9 @@ source: "llm-wiki"
 - 同步挂到 [[guide-ai-ai-programming-resources]]「生产力与知识管理」分类 + wiki index
 - 核心：4 大场景（同步/研究/微信收藏/链接归档）+ SQLite 状态管理 + 评论互动写回 Markdown
 - 与本仓 [[wiki-ingest-article]] 互补：本仓 skill 偏精读归档，moore 偏批量同步
+- 采集阿加曦《AdSense 美国税务信息填写指南》→ sources/adsense-us-tax-form.md（精读 + 15 张操作截图）
+- **核心要点**：W-8BEN 表 10 分钟填表 + 三大预扣税率（YouTube 版税 10% / AdSense 服务 0% / 电影电视版税 10%）
+- 关键易错点：姓名必须写拼音（ZHANG SAN）+ 外国纳税人识别号填身份证 + 必须选 W-8BEN（中国非美国人）
+- 3 工作日审核通过（Google 提示 7 天）
+- 同步挂入 wiki index + indie-hub 专栏索引
+- 分类：indie-hub + adsense + w-8ben + 跨境变现 + 广告变现
