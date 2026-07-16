@@ -5,6 +5,11 @@ source: "好事发生"
 url: "https://haoshiyinli.com/book/read.html"
 ---
 
+<script setup>
+import PdfViewer from '../../../../.vitepress/theme/components/PdfViewer.vue'
+const pdfUrl = new URL('./把才华变成钱.pdf', import.meta.url).href
+</script>
+
 # 把才华变成钱
 
 > 一个人做品牌工作手册 · 16章 + 附录
