@@ -1099,3 +1099,10 @@ source: "llm-wiki"
 - 采集方式：baoyu-danger-x-to-markdown（bun 脚本 thread 模式）
 - 图片：59 张，下载到各 guide/ai/images/ 对应目录
 - 分类：ai-tools + AI-Coding + video + prompt + 循环 + 工作流
+
+## [2026-07-17] Docker MySQL 教程归档
+
+- **内容**：Docker 安装 MySQL 完整流程（快速启动→持久化→中文字符集→管理命令）
+- **路径**：guide/dev/docker/docker-mysql-setup.md
+- **核心**：Volume 挂载实现数据持久化，my.cnf 配置 utf8mb4
+- 分类：devops + docker + mysql + 数据库
