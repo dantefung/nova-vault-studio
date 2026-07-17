@@ -1070,3 +1070,11 @@ source: "llm-wiki"
 - 3 工作日审核通过（Google 提示 7 天）
 - 同步挂入 wiki index + indie-hub 专栏索引
 - 分类：indie-hub + adsense + w-8ben + 跨境变现 + 广告变现
+- 采集空格丶《做了个专写 10 万+ 标题 Skill，创作必备》→ sources/baokuan-title-generator-skill.md（精读 + 7 张配图）
+- 新建产品页 [[product-baokuan-title-generator-skill]]：SpaceZephyr/creator-buddy 仓库下的标题 Skill
+- **核心洞察**：公众号新规则下「震惊体」已死 → 口语化 / 观点 / 接地气 / 情绪化 容易火
+- **16 种标题模板**：数字反差 / 生活痛点 / 揭秘 / 对话剧本 / 悬念留白 / 极值 / 认知反转 / 隐藏机制 / 场景画面 ...
+- **双模型协同方法论**：fable5（精准戳中人）+ GPT-5.6（覆盖广）= 锋利方法 + 完整框架
+- 两种用法：①大纲→标题（推荐）②文章→换标题
+- 与 [[sources/agent-launch-personal-site]] 同作者（空格丶）
+- 分类：indie-hub + vibe-writing + title-skill + 公众号 + AI-创作 + creator-buddy

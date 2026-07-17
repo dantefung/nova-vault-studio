@@ -132,6 +132,8 @@ wiki/
 | [recruitment-workbuddy](/md/wiki/concepts/recruitment-workbuddy) | WorkBuddy 在企业 HR 招聘场景的落地方案 | 概念 |
 | [agent-launch-personal-site](/md/wiki/sources/agent-launch-personal-site) | Agent 口喷上线个人网站：6 步极简部署 + kongge.space 实战 | 公众号 |
 | [adsense-us-tax-form](/md/wiki/sources/adsense-us-tax-form) | AdSense 美国税务信息（W-8BEN 表 + 中美税收条约）10 分钟填表 | 公众号 |
+| [baokuan-title-generator-skill](/md/wiki/sources/baokuan-title-generator-skill) | 公众号爆款标题 Skill：16 种模板 + 双模型协同（fable5 + GPT-5.6） | 公众号 |
+| [baokuan-title-generator-skill](/md/wiki/products/baokuan-title-generator-skill) | 公众号爆款标题 Skill 产品页 | 产品 |
 
 ### Agent 工程 (Agent Engineering)
 

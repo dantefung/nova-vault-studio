@@ -36,6 +36,7 @@ date: "2026-06-22"
 | [出海一周年万刀·12 模块全量索引](./hezhiyan7-outsea-oneyear-toc.md) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC（SEO/需求/开发/支付/流量 等 12 模块分类） |
 | [Agent 上线个人网站](./agent-launch-personal-site.md) | 空格丶口喷建站：GitHub CLI + Cloudflare wrangler，6 步极简部署 |
 | [AdSense 美国税务信息填写指南](./adsense-us-tax-form.md) | 阿加曦：W-8BEN 表 + 中美税收条约 + 三大预扣税率 10 分钟实操 |
+| [公众号爆款标题 Skill](./baokuan-title-generator-skill.md) | 空格丶：16 种标题套路 + 双模型协同（fable5 精准 + GPT-5.6 全面） |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 
 ## 核心路径
