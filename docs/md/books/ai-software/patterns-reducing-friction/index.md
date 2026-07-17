@@ -5,7 +5,6 @@ source: "Patterns"
 ---
 
 <script setup>
-import PdfViewer from '../../../../.vitepress/theme/components/PdfViewer.vue'
 const pdfUrl = new URL('./Patterns-for-Reducing-Friction-in-AI-Assisted-Development.pdf', import.meta.url).href
 </script>
 

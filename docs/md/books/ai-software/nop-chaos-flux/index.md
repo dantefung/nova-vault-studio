@@ -5,7 +5,6 @@ source: "Nop Chaos Flux"
 ---
 
 <script setup>
-import PdfViewer from '../../../../.vitepress/theme/components/PdfViewer.vue'
 const pdfUrl = new URL('./nop-chaos-flux-ai-large-scale-development.pdf', import.meta.url).href
 </script>
 

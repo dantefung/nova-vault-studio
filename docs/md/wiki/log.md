@@ -1078,3 +1078,24 @@ source: "llm-wiki"
 - 两种用法：①大纲→标题（推荐）②文章→换标题
 - 与 [[sources/agent-launch-personal-site]] 同作者（空格丶）
 - 分类：indie-hub + vibe-writing + title-skill + 公众号 + AI-创作 + creator-buddy
+
+## [2026-07-17] X 推文批量采集（7 条）
+
+- **Tw93**(@HiTw93)《非技术人上手 AI Coding》→ guide/ai/tw93-ai-coding-non-tech.md（精读 + 21 张配图）
+- **知识猫图解**(@GeekCatX)《用 Codex 快速入门任何领域》→ guide/ai/geekcat-codex-domain-learning.md（精读 + 1 张配图）
+  - 核心：把 Codex 当「领域学习工程师」，搭建可运行/可迭代/可测试的学习仓库
+  - 方法：AGENTS.md + Skills + 知识地图 + 练习题 + 测验 + 项目 + 复盘
+- **苍何**(@canghe)《腾讯 WorkBuddy 实战蓝皮书》→ guide/ai/canghe-workbuddy-bluebook.md（精读 + 17 张配图）
+  - 核心：5 人联合开源 WorkBuddy 蓝皮书，覆盖安装/日常办公/实战案例
+  - 分类：indie-hub + 工具 + 腾讯 + WorkBuddy
+- **季白羽**(@vbjby3)《Codex + Remotion 唐朝纸片分层动画》→ guide/ai/vbjby3-codex-remotion-tang.md（精读 + 5 张配图）
+  - 核心：分层素材制作 + Remotion 代码驱动运动的完整视频流水线
+- **Adrian Punk**(@AdrianPunk115)《黄蓝配色扁平大字封面 Prompt》→ prompts/design/adrianpunk-yellow-blue-prompt.md（精读 + 4 张配图）
+  - 核心：深蓝+明黄+暖白扁平化封面提示词模板
+- **淘沙者**(@Etudecn)《2026 年构建你的第一个 AI 循环》→ guide/ai/etudecn-2026-ai-loop.md（精读 + 10 张配图）
+  - 核心：从手动 prompt → 循环设计（OpenClaw + Claude Code 循环实例）
+- **Kimberly**(@king1818888)《Codex 图书号视频全流程》→ guide/ai/king18188-codex-book-video.md（精读 + 1 张配图）
+  - 核心：选题→文案→语音→剪辑→成片的完整 AI 工作流
+- 采集方式：baoyu-danger-x-to-markdown（bun 脚本 thread 模式）
+- 图片：59 张，下载到各 guide/ai/images/ 对应目录
+- 分类：ai-tools + AI-Coding + video + prompt + 循环 + 工作流

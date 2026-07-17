@@ -5,7 +5,6 @@ source: "The Founders"
 ---
 
 <script setup>
-import PdfViewer from '../../../../.vitepress/theme/components/PdfViewer.vue'
 const pdfUrl = new URL('./The-Founders-Playbook-05062026_v3_中英双语移动阅读版.pdf', import.meta.url).href
 </script>
 
