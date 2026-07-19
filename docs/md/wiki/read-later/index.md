@@ -257,6 +257,14 @@ date: "2026-05-29"
 | 2026-07-16 | https://x.com/i/status/2077689805752942619 | 待查看 |
 | 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a44e9190000000008030e7b | **CrazyAllen：图解论文 DSpark**（大模型推理加速）— 小红书Skill，25赞 |
 | 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a435798000000001003da5f | **CrazyAllen：图解论文 SkillOpt**（自改进Agent Skill）— 小红书Skill，22赞 |
+| 2026-07-18 | https://harness-agent.ai/book/ | **《Harness Engineering》**：王梓任著，在线免费阅读，Harness权威指南 |
+| 2026-07-18 | https://martinfowler.com/articles/harness-engineering.html | **Martin Fowler：Harness Engineering**：通俗完整的Harness介绍 |
+| 2026-07-18 | https://enladder.com/ | **EnLadder**：生词提示辅助工具 |
+| 2026-07-18 | https://www.bilibili.com/video/BV1HxKB6hED3/ | **【2026-07-18】深入理解Harness Engineering**：B站视频 |
+| 2026-07-19 | https://github.com/ake77-code/distill-design | **distill-design**：Google Stitch DESIGN.md蒸馏工具，网站→AI可读设计规范（颜色/字号/圆角/间距/组件），74个顶级品牌现成规范（Stripe/Linear/Apple/Figma等），三件套DESIGN.md+preview.html+demo.html，ake77-code |
+| 2026-07-18 | https://github.com/SpaceZephyr/cowrite | **Cowrite**：Codex可视化创作工作台，零散Skill封装成GUI，一键配图/排版/生成Slide(PPTX/HTML)/发飞书，基于MCP，数字生命卡兹克作品 |
+| 2026-07-17 | https://github.com/Cocoon-AI/architecture-diagram-generator | **architecture-diagram-generator（6.3k+ Stars）**：AI架构图生成Skill，支持Cursor/Claude Code/Windsurf，描述系统结构→生成深色主题HTML架构图，内置复制/PNG/PDF导出，配套process-flow-diagram-generator画流程图 |
+| 2026-07-16 | https://github.com/geekjourneyx/geekx-skills | **geekx-skills（9 Stars）**：极客杰尼AI Agent技能集，geekx-gate（决策门控，判断过度设计/是否该做）+geekx-grilling（苏格拉底追问，强制共同理解），npx安装，JavaScript |
 | 2026-07-16 | https://github.com/bojieli/ai-agent-book | **ai-agent-book（986 Stars）**：《深入理解AI Agent：设计原理与工程实践》(李博杰)，核心公式Agent=LLM+上下文+工具，10章：基础知识→上下文工程→记忆与RAG→工具(MCP)→Coding Agent→评估→后训练→自我进化→多模态→多Agent协作，配书PDF+按章代码，Python 94.5% |
 | 2026-07-16 | https://github.com/jamwithai/production-agentic-rag-course | **production-agentic-rag-course（7.9k Stars）**：7周构建arXiv论文助手，基础设施(Docker/FastAPI/PostgreSQL/OpenSearch/Airflow)→数据管道(arXiv API/Docling)→BM25搜索→混合搜索(RRF)→RAG+Ollama+Gradio→Langfuse监控+Redis缓存→LangGraph Agentic RAG+Telegram Bot，Python+Jupyter |
 | 2026-07-16 | https://github.com/HKUDS/OpenOPC | **OpenOPC**：HKUDS开源，AI编程资源，待补充详情 |

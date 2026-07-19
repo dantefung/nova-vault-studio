@@ -11,6 +11,51 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-19] indie-hub-loop-engineering-pro-con ingest
+
+- **Source**: [Loop Engineering，应该赞成还是反对？](https://mp.weixin.qq.com/s/Jt3YDLxcygO7xO0B2IOdjw) (若飞/JiaGouX)
+- **Images**: 3张 → `images/indie-hub-loop-engineering/`
+- **Content**: Loop Engineering有条件赞成：73.2%人跟随AI错误建议（Cognitive Surrender），任务准入四条件（目标清楚/可验证/可撤回/长期维护），控制面写进协议，规则变更要慢于执行Loop，四步上线（复盘→影子→候选→低风险）
+- **Patterns**: [[Loop Engineering]] [[Cognitive Surrender]] [[Harness]] [[渐进放权]]
+
+---
+
+## [2026-07-19] indie-hub-two-traffic-words ingest
+
+- **Source**: [两个流量暴涨的词](https://mp.weixin.qq.com/s/u1bZA6fpQ1CImxRaQGtUsg) (小拾)
+- **Images**: 3张 → `images/indie-hub-two-traffic-words/`
+- **Content**: Google Trends发现两个流量暴涨词：palworld 1.0 breeding guide、doki doki dialog generator，GitHub有开源可研究包装
+- **Patterns**: [[流量挖掘]] [[Google Trends]] [[独立开发]]
+
+---
+
+## [2026-07-19] indie-hub-tech-lead-ai ingest
+
+- **Source**: [AI 编程：未来只需要 Tech Lead 级别的开发人员](https://mp.weixin.qq.com/s/toVFeAdLqxQjzs2w0c1dCA) (少个分号)
+- **Images**: 1张 → `images/indie-hub-tech-lead-ai/`
+- **Content**: AI编程时代团队结构变化：金字塔→扁平，初中级开发被替代，Tech Lead不可替代（架构设计/需求拆解/跨团队沟通），未来最值钱的是会跟AI协作+做技术决策的人
+- **Patterns**: [[Tech Lead]] [[AI编程]] [[团队结构变化]] [[初级开发被替代]]
+
+---
+
+## [2026-07-18] indie-hub-cowrite ingest
+
+- **Source**: [Cowrite 上线，给 Codex 装上可视化创作工作台](https://mp.weixin.qq.com/s/sRL8J9l_iejTwH83hYqXUQ) (数字生命卡兹克)
+- **Images**: 12张 → `images/indie-hub-cowrite/`
+- **Content**: Cowrite 可视化写作工作台，封装10+ Skill成GUI，配图/排版/PPT/飞书发布，支持Claude Code/Workbuddy
+- **Patterns**: [[Cowrite]] [[Codex Skill]] [[可视化写作工具]] [[飞书CLI]]
+
+---
+
+## [2026-07-17] indie-hub-architecture-diagram ingest
+
+- **Source**: [又一个神级画图Skill开源，再见draw.io！](https://mp.weixin.qq.com/s/WtBGpFuCxUfEZd2YjdTXEw) (梦想de星空)
+- **Images**: 10张 → `images/indie-hub-architecture-diagram/`
+- **Content**: architecture-diagram-generator（6.3k+ Stars）画架构图Skill + process-flow-diagram-generator画流程图，支持Cursor/Claude Code/Windsurf，HTML输出内置导出
+- **Patterns**: [[架构图生成]] [[流程图生成]] [[Claude Code Skill]] [[draw.io替代]]
+
+---
+
 ## [2026-07-15] indie-hub-xiaohongshu-workbench ingest
 
 - **Source**: [GitHub - xiaohongshu-ai-workbench](https://github.com/nihe0909/xiaohongshu-ai-workbench) (王梦珂X帖)
