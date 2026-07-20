@@ -11,6 +11,22 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-19] indie-hub-10-content-skills ingest
+
+- **Source**: 一人顶个编辑部：中文创作最强10个Skill (归藏X帖)
+- **Content**: 中文内容创作TOP10 Skill排名，marketingskills(32.4k)/guizang-ppt-skill(17.3k)/Humanizer-zh(9.9k)/awesome-gpt-image-2(7.3k)/anything-to-notebooklm(5.1k)/guizang-social-card-skill(3.6k)/oh-story-claudecode(2.4k)/wewrite(2.3k)/Youtube-clipper-skill(2k)/Deep-Research-skills(1.1k)，累计8万+Stars
+- **Patterns**: [[Codex Skills]] [[内容创作]] [[guizang-ppt-skill]] [[Humanizer-zh]]
+
+---
+
+## [2026-07-19] indie-hub-7-content-skills ingest
+
+- **Source**: 自媒体人必看，7个Skill从选题到交付全搞定 (X帖)
+- **Content**: 7个Codex Skills：Agent Reach(选题)/opencli(资料搜集)/cheat-on-content(爆款判断)/ljg-plain(白话表达)/guizang-social-card(封面)/ian-xiaohei-illustrations(IP配图)/kami(文档交付)
+- **Patterns**: [[Codex Skills]] [[内容创作]] [[选题]] [[封面设计]]
+
+---
+
 ## [2026-07-19] indie-hub-loop-engineering-pro-con ingest
 
 - **Source**: [Loop Engineering，应该赞成还是反对？](https://mp.weixin.qq.com/s/Jt3YDLxcygO7xO0B2IOdjw) (若飞/JiaGouX)
