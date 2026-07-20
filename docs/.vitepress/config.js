@@ -6,7 +6,7 @@ import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateS
 
 const SEARCH_RENDER_SIZE_LIMIT = 200_000
 const isLowMemoryBuild = process.env.VERCEL === '1' || process.env.VITEPRESS_LOW_MEMORY_BUILD === '1'
-const enableLocalSearch = process.env.VITEPRESS_DISABLE_LOCAL_SEARCH !== '1' && !isLowMemoryBuild
+const enableLocalSearch = process.env.VITEPRESS_DISABLE_LOCAL_SEARCH !== '1'
 
 function escapeHtml(value) {
   return value
