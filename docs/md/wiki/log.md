@@ -1194,3 +1194,18 @@ source: "llm-wiki"
 - **产品化**：Cowrite（Codex 可视化创作工作台）
 - **图片**：8 张
 - 分类：indie-hub + AI-创作 + skill系统 + 内容工厂 + 四层架构
+
+## [2026-07-20] 采集《简单聊聊 Agent 自进化》
+- **来源**：微信公众号
+- **作者**：haoran
+- **文件**：sources/guard-model-evolution.md
+- **摘要**：从 Model、Harness、Artifact 三个维度解析 Agent 自进化，将自进化分为产物迭代优化、Harness 系统进化、模型学习三类，提出判断自进化的三个问题
+- **图片**：6 张（已下载到 wiki/images/guard-model-evolution/）
+
+
+## [2026-07-20] skill-system-prompt-design
+
+- **变更类型**：sources 新增
+- **文件**：`wiki/sources/skill-system-prompt-design.md`
+- **图片**：30 张（`wiki/images/skill-system-prompt-design/`）
+- **描述**：AI代码生成率94%——腾讯企业微信团队用 Skill 跑通需求开发全流程。8阶段流水线、五步定位法、三级金字塔知识库、红线机制、跨会话知识传承（TECH_SPEC.md）。
