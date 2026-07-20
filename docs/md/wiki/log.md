@@ -1183,3 +1183,14 @@ source: "llm-wiki"
 - **路径**：guide/dev/docker/docker-mysql-setup.md
 - **核心**：Volume 挂载实现数据持久化，my.cnf 配置 utf8mb4
 - 分类：devops + docker + mysql + 数据库
+
+## [2026-07-20] 空格丶《50 Skills AI 创作系统》
+
+- **内容**：空格丶的50个 Skill 串成四层创作系统（数据→创作→排版→分发）
+- **路径**：columns/indie-hub/50-skills-ai-creation-system/index.md
+- **核心洞察**：收藏100个 Skill 不如把自己的10个串成系统
+- **四层架构**：数据层（RSS/YouTube/播客/OCR）→ 创作层（热点/标题/全文）→ 排版层（封面/PPT/视频）→ 分发层（待建）
+- **三个仓库**：read-buddy / creator-buddy / design-buddy
+- **产品化**：Cowrite（Codex 可视化创作工作台）
+- **图片**：8 张
+- 分类：indie-hub + AI-创作 + skill系统 + 内容工厂 + 四层架构
