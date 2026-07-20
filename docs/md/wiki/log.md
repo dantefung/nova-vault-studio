@@ -11,6 +11,22 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-19] indie-hub-anthropic-plugins ingest
+
+- **Source**: Anthropic官方知识工作插件集开源 (X帖)
+- **Content**: Anthropic knowledge-work-plugins（16k Stars），11个插件（销售/客服/产品/营销/财务/数据/法务/生物研发+3个通用），连HubSpot/Snowflake/Figma，Cowork+Claude Code两套，全markdown可自定义
+- **Patterns**: [[Anthropic]] [[Claude]] [[Knowledge Work Plugins]]
+
+---
+
+## [2026-07-19] indie-hub-7-xhs-skills ingest
+
+- **Source**: 小红书图文卡片Skill七剑客清单 (X帖)
+- **Content**: 7个小红书Skill完整管线：baoyu-skills(16k)×48组合/BLCaptain(35版式)/Viral Writer(审核100%)/xhs-content(调研5h→几分钟)/Qianjin(长文拆6平台)/henry-ai(三平台互转)/Qiaomu(海报)
+- **Patterns**: [[小红书运营]] [[Codex Skills]] [[内容创作]]
+
+---
+
 ## [2026-07-19] indie-hub-10-content-skills ingest
 
 - **Source**: 一人顶个编辑部：中文创作最强10个Skill (归藏X帖)
