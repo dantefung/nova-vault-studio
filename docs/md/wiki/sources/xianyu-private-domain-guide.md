@@ -278,7 +278,7 @@ author: "小树 (@AmberTreelet)"
 
 ---
 
-![闲鱼导流实操](../images/xianyu-private-domain-guide/001.jpg)
+% 图片已移除（原始图片未下载）
 
 ## 关联阅读
 

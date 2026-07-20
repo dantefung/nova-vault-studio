@@ -113,6 +113,6 @@ Karpathy 的方法论是纯方法论文档，没有现成产品。LLM Wiki 保�
 - **526 Commits**
 - **v0.4.19**（2026-06-03）
 
-![LLM Wiki 架构图](../images/llm-wiki/llm_wiki_arch.jpg)
+% 图片已移除（原始图片未下载）
 
-![功能概览](../images/llm-wiki/overview.jpg)
+% 图片已移除（原始图片未下载）

@@ -55,6 +55,6 @@ url: "https://mp.weixin.qq.com/s/RbMg_AXzOTtf3tcQnoThzQ"
 
 这三个循环构成了智能体系统的基础。RAG、渐进式发现、工具自动审批等能力，都是在它们之上搭起来的。
 
-![image](../images/indie-hub-agentic-loop/001.jpeg)
+% 图片已移除（原始图片未下载）
 
 > — 我甚至还做了这张图！

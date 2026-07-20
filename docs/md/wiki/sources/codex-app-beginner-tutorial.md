@@ -30,7 +30,7 @@ Codex App 是一个把 AI Agent 放进你电脑里的工作台，只要你能做
 
 ## 主界面地图：左中右三栏
 
-![整体界面](images/codex-app-beginner-tutorial/img-002-HHmxoi_aQAEclcw.jpg)
+% 图片已移除（原始图片未下载）
 
 | 区域 | 作用 | 小白最常用动作 |
 |------|------|---------------|

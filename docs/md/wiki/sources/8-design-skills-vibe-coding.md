@@ -27,7 +27,7 @@ AI 生成的项目设计通常有较多不足。Design Skills 不同于简单的
 
 ### 1. Anthropic Frontend Design
 
-![Anthropic Frontend Design](../images/8-design-skills-vibe-coding/001.webp)
+% 图片已移除（原始图片未下载）
 
 - **GitHub**：[github.com/anthropics/skills](https://github.com/anthropics/skills)
 - **Stars**：96k+
@@ -46,7 +46,7 @@ AI 生成的项目设计通常有较多不足。Design Skills 不同于简单的
 
 ### 2. Impeccable
 
-![Impeccable](../images/8-design-skills-vibe-coding/002.webp)
+% 图片已移除（原始图片未下载）
 
 - **GitHub**：[github.com/pbakaus/impeccable](https://github.com/pbakaus/impeccable)
 - **Stars**：10k+
@@ -65,7 +65,7 @@ AI 生成的项目设计通常有较多不足。Design Skills 不同于简单的
 
 ### 3. Taste Skill
 
-![Taste Skill](../images/8-design-skills-vibe-coding/003.webp)
+% 图片已移除（原始图片未下载）
 
 - **GitHub**：[github.com/Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
 - **Stars**：3.4K+
@@ -87,7 +87,7 @@ AI 生成的项目设计通常有较多不足。Design Skills 不同于简单的
 
 ### 4. UI/UX Pro Max
 
-![UI/UX Pro Max](../images/8-design-skills-vibe-coding/004.webp)
+% 图片已移除（原始图片未下载）
 
 - **GitHub**：[github.com/nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 - **Stars**：43K+
@@ -109,7 +109,7 @@ AI 生成的项目设计通常有较多不足。Design Skills 不同于简单的
 
 ### 5. Designer Skills
 
-![Designer Skills](../images/8-design-skills-vibe-coding/005.webp)
+% 图片已移除（原始图片未下载）
 
 - **GitHub**：[github.com/Owl-Listener/designer-skills](https://github.com/Owl-Listener/designer-skills)
 - **Stars**：164
@@ -131,7 +131,7 @@ AI 生成的项目设计通常有较多不足。Design Skills 不同于简单的
 
 ### 6. UI Skills
 
-![UI Skills](../images/8-design-skills-vibe-coding/006.webp)
+% 图片已移除（原始图片未下载）
 
 - **GitHub**：[github.com/ibelick/ui-skills](https://github.com/ibelick/ui-skills)
 - **Stars**：1K
@@ -152,7 +152,7 @@ AI 生成的项目设计通常有较多不足。Design Skills 不同于简单的
 
 ### 7. UX Researcher Designer
 
-![UX Researcher Designer](../images/8-design-skills-vibe-coding/007.webp)
+% 图片已移除（原始图片未下载）
 
 - **GitHub**：[github.com/davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
 - **Stars**：23K+
@@ -171,7 +171,7 @@ AI 生成的项目设计通常有较多不足。Design Skills 不同于简单的
 
 ### 8. UI Design Brain
 
-![UI Design Brain](../images/8-design-skills-vibe-coding/008.webp)
+% 图片已移除（原始图片未下载）
 
 - **GitHub**：[github.com/carmahhawwari/ui-design-brain](https://github.com/carmahhawwari/ui-design-brain)
 - **Stars**：600+

@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ"
 
 地址：github.com/phuryn/pm-skills
 
-![image](./images/indie-hub-pm-skills-rebuild/001.png)
+% 图片已移除（原始图片未下载）
 
 但真正让我兴奋的不是它能干什么，是它的制作 skill 的方法。
 
@@ -22,7 +22,7 @@ url: "https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ"
 
 很多人可能见过 Claude Cowork 那个插件市场，琳琅满目的，被 anthropic 或者第三方平台封装好的。
 
-![image](./images/indie-hub-pm-skills-rebuild/002.png)
+% 图片已移除（原始图片未下载）
 
 但搞不清楚Plugin 插件跟 Skill 到底什么关系。
 
@@ -32,7 +32,7 @@ url: "https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ"
 
 Skill 的上一层就是插件。插件包含了 skill、 command、hooks 这些概念，
 
-![image](./images/indie-hub-pm-skills-rebuild/003.png)
+% 图片已移除（原始图片未下载）
 
 这篇文章借 pm-skills 这个项目，把插件、命令、Hooks、Skill 这四样东西一次性讲清楚。
 
@@ -40,13 +40,13 @@ Skill 的上一层就是插件。插件包含了 skill、 command、hooks 这些
 
 插件的文件夹构成长什么样？
 
-![image](./images/indie-hub-pm-skills-rebuild/004.png)
+% 图片已移除（原始图片未下载）
 
 把 pm-skills 仓库拉下来打开，第一感受是它跟我们熟悉的 Skill 仓库不一样。
 
 熟悉的 Skill 仓库通常是这样：根目录下一堆文件夹，每个文件夹一个 SKILL.md，配几个参考资料和脚本。一字排开，平铺。
 
-![image](./images/indie-hub-pm-skills-rebuild/005.png)
+% 图片已移除（原始图片未下载）
 
 pm-skills 是分层的。根目录下是 9 个文件夹，对应 9 个插件，
 
@@ -72,7 +72,7 @@ pm-skills 插件里多了一种用法：command。
 
 command 用一条斜杠命令触发。在 Claude 里输入 /discover，它会自动跑一连串 Skill。
 
-![image](./images/indie-hub-pm-skills-rebuild/006.png)
+% 图片已移除（原始图片未下载）
 
 先 brainstorm-ideas 帮我发散想法，再 identify-assumptions 拆出每个想法背后的假设（价值、可用性、可行性、生命力四类），再 prioritize-assumptions 给假设排优先级，最后 brainstorm-experiments 设计验证实验。
 
@@ -108,7 +108,7 @@ Hooks 是强制性的，挂在 Claude Code 的生命周期事件上，到点就�
 
 .sh 是被调起来跑的脚本，名字一看就知道干啥的，比如 session-start.sh、sdd-cache-pre.sh、simplify-ignore.sh。
 
-![image](./images/indie-hub-pm-skills-rebuild/007.png)
+% 图片已移除（原始图片未下载）
 
 可能还有几个 .md 是给脚本看的参考资料或缓存。
 
@@ -130,7 +130,7 @@ plugin 就是 command、skills、hooks 这几样东西的上级目录。
 
 一个 plugin 文件夹里面有四样东西：plugin.json 是自我介绍（名字、版本、作者、依赖、属于什么领域）；commands 文件夹放所有命令剧本；skills 文件夹放原子 Skill；hooks 文件夹放生命周期钩子。
 
-![image](./images/indie-hub-pm-skills-rebuild/008.png)
+% 图片已移除（原始图片未下载）
 
 Claude Cowork 那个插件市场展示的就是这个，每一项都是一个 plugin。
 
@@ -144,7 +144,7 @@ Anthropic 自己也建了官方仓库 anthropics/claude-plugins-official 统一�
 
 对我们做 Skill 的四个参考
 
-![image](./images/indie-hub-pm-skills-rebuild/009.png)
+% 图片已移除（原始图片未下载）
 
 我手头有几十个 Skill 散在几个仓库里，看完 pm-skills 我准备做四件事。
 
@@ -182,13 +182,13 @@ Skill 是后厨，command 是菜单。我准备做几条高频命令：/new-arti
 
 它的工作流分三段。
 
-![image](./images/indie-hub-pm-skills-rebuild/010.png)
+% 图片已移除（原始图片未下载）
 
 第一段先扫描。
 
 安装好这个 Skill，你只要说：整理我的 skill，就可以
 
-![image](./images/indie-hub-pm-skills-rebuild/011.png)
+% 图片已移除（原始图片未下载）
 
 读 ~/.claude/skills/ 下所有 Skill 的 description，按规则聚类成 8-12 个 Plugin
 
@@ -198,7 +198,7 @@ Skill 是后厨，command 是菜单。我准备做几条高频命令：/new-arti
 
 最后输出一张完整的目录树，标好每个 Plugin 装多少 Skill、几条 Command、几个 Hook。
 
-![image](./images/indie-hub-pm-skills-rebuild/012.png)
+% 图片已移除（原始图片未下载）
 
 第三段动手
 
@@ -218,7 +218,7 @@ Skill 已经进化成了 plugin。
 
 我们今天搭的每一个 plugin，都在为下一代模型写训练教材。
 
-![image](./images/indie-hub-pm-skills-rebuild/013.png)
+% 图片已移除（原始图片未下载）
 
 每一个在用 AI 的人都是 AGI 路上的贡献者。
 

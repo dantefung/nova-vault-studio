@@ -8,13 +8,13 @@ url: "https://mp.weixin.qq.com/s/rDcT6xFqHAkNUzwDuC5tBA"
 
 # 7 个案例把飞书用作 Agent 的操作系统
 
-![image](./images/indie-hub-feishu-agent-os/001.png)
+% 图片已移除（原始图片未下载）
 
 昨天就在飞书群里看到这场直播预告。张咋啦也在嘉宾名单里。我关注挺久了，每次她聊飞书的玩法都让我想动手试试。
 
 除了她之外，名单上还有几个我蹲了很久的 AI 博主：人民公园说 AI 的苏辰、互通有无的卓霖、还有苍何。
 
-![image](./images/indie-hub-feishu-agent-os/002.png)
+% 图片已移除（原始图片未下载）
 
 我挺好奇不同人对飞书的用法的，特别是有了 CLI 的能力后，飞书有太多可挖掘的场景了。
 
@@ -28,7 +28,7 @@ url: "https://mp.weixin.qq.com/s/rDcT6xFqHAkNUzwDuC5tBA"
 
 另一件事是 onepod。每天定时抓我订阅的播客字幕，自动推送到飞书文档，再同步到我的个人网站。整条链路我也没管过，跑了大半年。
 
-![image](./images/indie-hub-feishu-agent-os/003.png)
+% 图片已移除（原始图片未下载）
 
 这两件事让我觉得"飞书 + Agent "场景也就这些了。
 
@@ -42,7 +42,7 @@ url: "https://mp.weixin.qq.com/s/rDcT6xFqHAkNUzwDuC5tBA"
 
 到 Agent 时代：
 
-![image](./images/indie-hub-feishu-agent-os/004.png)
+% 图片已移除（原始图片未下载）
 
 -进程调度= 谁来触发 Agent？人手动喊？定时任务？事件驱动？
 
@@ -62,7 +62,7 @@ Agent 输出的是一张可交互的图表、一组带样式的卡片、甚至�
 
 Bridge 是她另一个开源项目，可以把本地的 Claude Code 和 Codex 桥接到飞书 里，让 Claude Code/Codex 成为飞书里的一个 bot，把 coding agent 接回大家每天都在用的协作场景里，让对话、任务、卡片、文档和会话记录都能在同一个环境中流动。
 
-![image](./images/indie-hub-feishu-agent-os/005.png)
+% 图片已移除（原始图片未下载）
 
 在Terminal输入一行命令就能安装：
 
@@ -74,13 +74,13 @@ Agent 在 IM 里被聊天触发、在文档里渲染产出、在多维表格里�
 
 苏辰是《人民公园说 AI》的主播，他做了一个叫"小书童"的足球比赛 Agent，每天看比赛、出战报。比赛卡片直接做成飞书卡片在群里推。
 
-![image](./images/indie-hub-feishu-agent-os/006.jpeg)
+% 图片已移除（原始图片未下载）
 
 但让我停下来想了想的是他后面那段。他说他还有一个 Agent 叫AI早晚报，每天抓行业资讯，选择一个主题就能制作 5 分钟左右的博客。
 
 最近他在关注 SpaceX 上市，他直接让飞书 CLI 调 Codex 去读早晚报这个 Bot 里最近一个月所有跟 SpaceX 相关的数据，生成一份量化分析报告。
 
-![image](./images/indie-hub-feishu-agent-os/007.png)
+% 图片已移除（原始图片未下载）
 
 - 资讯沉淀在飞书 Bot 里（文件系统）
 
@@ -98,7 +98,7 @@ Agent 在 IM 里被聊天触发、在文档里渲染产出、在多维表格里�
 
 他使用飞书官方做的 AAMP 协议的应用场景
 
-![image](./images/indie-hub-feishu-agent-os/008.png)
+% 图片已移除（原始图片未下载）
 
 现场演示是：网站有几个 bug，bug 收集表里两行任务，引用了 codexchat 这个 Agent 邮箱。提交瞬间，本地两个 Codex worktree 自动拉起来，并行修 bug。修完返回 MR 链接到多维表格，再点一个"一键上线"按钮，部署完成。
 
@@ -108,7 +108,7 @@ Agent 在 IM 里被聊天触发、在文档里渲染产出、在多维表格里�
 
 AAMP 就是 Agent 时代的 IPC（进程间通信）。每个 Agent 有地址、有信箱、有调度器，多维表格是任务队列，工作流是定时器，仪表盘是控制面板。
 
-![image](./images/indie-hub-feishu-agent-os/009.png)
+% 图片已移除（原始图片未下载）
 
 而且不止 Codex。 Claude Code、OpenClaw 等任何符合协议的 Agent 都能接进来。多维表格的每一列、飞书项目工作流的每一个节点、甚至 GitHub Issue 的评论区，未来都可以直接调用本地 Agent。
 
@@ -124,7 +124,7 @@ HyperFrames 安装
 
 npx skills add heygen-com/hyperframes
 
-![image](./images/indie-hub-feishu-agent-os/010.png)
+% 图片已移除（原始图片未下载）
 
 让我觉得有意思的是：她不用打开剪辑软件，不用碰电脑，整个生产流在飞书对话里完成。
 
@@ -136,7 +136,7 @@ npx skills add heygen-com/hyperframes
 
 李青是来也科技的 AI 产品经理，她演示了一个 B 端最高频的痛点：业务人员每天处理大量邮箱来的订单附件，逐字读、人工录入、人工核对。
 
-![image](./images/indie-hub-feishu-agent-os/011.png)
+% 图片已移除（原始图片未下载）
 
 她做了一个 Skill，安装后只要说一句"帮我处理过去 24 小时内的所有订单附件"，Agent 就自动拉邮件、读 PDF 附件、识别商品、对照内部 SKU 库、检测价格偏差、把异常订单单独标红、所有信息归档到多维表格。
 
@@ -154,7 +154,7 @@ Skill 安装：
 
 给一个品牌名，Skill 全网搜索 + 多模型对比 + 评分输出，最后落成一份精美的HTML/飞书文档
 
-![image](./images/indie-hub-feishu-agent-os/012.png)
+% 图片已移除（原始图片未下载）
 
 让我特别有共鸣的是他说的那句：这些都依赖飞书 CLI 的能力。
 
@@ -168,7 +168,7 @@ Skill 安装：
 
 他的工作流：每天晚上 12 点，他睡觉了，Codex 通过飞书 CLI 自动跑一个定时任务。
 
-![image](./images/indie-hub-feishu-agent-os/013.png)
+% 图片已移除（原始图片未下载）
 
 这个任务会读他白天所有飞书会议的妙记、读他得到大脑里录音卡录的语音，按他训练好的"个人内容风格 Skill"提炼选题、生成初稿、给客户敏感信息脱敏。
 

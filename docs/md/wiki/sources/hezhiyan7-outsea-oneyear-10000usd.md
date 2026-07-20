@@ -11,7 +11,7 @@ tags: ["indie-hub", "seo", "indie-business", "出海", "passive-income", "site-b
 
 > 一个独立开发者做网站出海 1 周年达到稳定月入万刀的完整方法论地图，按 12 个能力域分类整理 200+ 篇实战文章。这是 indie-hub 站群运营方向最重要的资源盘点之一。
 
-![封面](https://pbs.twimg.com/media/HI4XJk1aoAAcJm5.jpg)
+% 图片已移除（原始图片未下载）
 
 <!-- more -->
 
@@ -23,7 +23,7 @@ droidHZ (@hezhiyan7) 在出海 1 周年、3 月达到月入万刀后，把一整
 
 最后他还创建了配套导航站 **aichuhai.dev**（AI 出海），把所有文章做了二次分类整理，并开放话题提交入口。
 
-![aichuhai.dev 导航站](https://pbs.twimg.com/media/HI4W8u8bIAA6YEu.jpg)
+% 图片已移除（原始图片未下载）
 
 ## 12 大模块全景
 

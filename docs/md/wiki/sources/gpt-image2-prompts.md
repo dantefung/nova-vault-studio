@@ -32,45 +32,45 @@ GPT-Image 2 发布后，AI 生图质量大幅跃升——文字乱码几乎消�
 
 直播画面——提示词极简单：「生成一张直播间的图片，直播间氛围是月下美女跳舞的画面，直播间有很多人评论」：
 
-![](../images/gpt-image2-prompts/img-008-HGz_l4caUAAq9EK.jpg)
+% 图片已移除（原始图片未下载）
 
 手绘风格城市地图——西安地图：
 
-![](../images/gpt-image2-prompts/img-011-HGz29BBbMAAvJVR.jpg)
+% 图片已移除（原始图片未下载）
 
 提示词模板：「生成一张手绘水彩风格的「这里输入城市名」城市地图，包含的当地特色美食、地标建筑及城市特色」
 
 海报生成——随手拍茶π照片丢给 GPT-Image 2：
 
-![](../images/gpt-image2-prompts/img-013-HGz3EW0a4AAjpj5.jpg)
+% 图片已移除（原始图片未下载）
 
 提示词仅一句：「帮这个产品生成宣传图」
 
 拆解图——AI 眼镜爆炸视图：
 
-![](../images/gpt-image2-prompts/img-014-HG0KrL3bgAEkXKQ.jpg)
+% 图片已移除（原始图片未下载）
 
 技术详解图——RAG 详解：
 
-![](../images/gpt-image2-prompts/img-015-HGz3Jp4aMAEsQkl.jpg)
+% 图片已移除（原始图片未下载）
 
 提示词模板：「帮我生成一张【名词】技术的详细讲解图」
 
 朋友圈截图——逼真到需要提醒父母警惕：
 
-![](../images/gpt-image2-prompts/img-016-HGz3Mc_bYAEgAFs.jpg)
+% 图片已移除（原始图片未下载）
 
 个人网页——AI 直接设计个人主页：
 
-![](../images/gpt-image2-prompts/img-018-HG0LDbfacAAgayu.jpg)
+% 图片已移除（原始图片未下载）
 
 诗词意境图——《短歌行》：
 
-![](../images/gpt-image2-prompts/img-019-HGz3UQwbcAA-tdH.jpg)
+% 图片已移除（原始图片未下载）
 
 长卷图——《赤壁怀古》：
 
-![](../images/gpt-image2-prompts/img-020-HGz3W17bcAAgvUT.jpg)
+% 图片已移除（原始图片未下载）
 
 ## Codex + GPT-Image 2 工作流
 

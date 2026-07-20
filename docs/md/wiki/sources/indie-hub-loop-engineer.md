@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/RWs-wFHYwtyC43-RehoJDw"
 
 # 开始 loop engineer 之前，请先把 loop、hook、goal 用好
 
-![image](./images/indie-hub-loop-engineer/001.png)
+% 图片已移除（原始图片未下载）
 
 最近 Loop Engineering 很火。
 
@@ -30,7 +30,7 @@ Claude 的工程师公开说他自己已经不再 prompt Claude 了，现在是�
 
 但是在折腾的这段时间，我重新认识了和 Loop Engineering 相关的三个能力：
 
-![image](./images/indie-hub-loop-engineer/002.png)
+% 图片已移除（原始图片未下载）
 
 /hook：事件触发，AI 干完某件事自动跑一段脚本，比如写完文件就检查、提交代码前先扫密钥
 
@@ -52,7 +52,7 @@ Claude 的工程师公开说他自己已经不再 prompt Claude 了，现在是�
 
 Claude Code 现在有三层 loop 的方案。
 
-![image](./images/indie-hub-loop-engineer/003.png)
+% 图片已移除（原始图片未下载）
 
 会话内轮询，跑在本地的当前会话里，关掉窗口就停，适合调用本地资源的。
 
@@ -68,7 +68,7 @@ loop 在 Codex 那边叫 Automations，使用场景差不多。
 
 每天晚上 10 点跑：
 
-![image](./images/indie-hub-loop-engineer/004.png)
+% 图片已移除（原始图片未下载）
 
 拉过去 24 小时的更新；按播主权重和标题关键词过滤一遍，挑出 3-5 个值得处理的；最后通过飞书机器人推到我的"播客摘要"知识库节点。
 
@@ -102,7 +102,7 @@ Claude Pro 是按 5 小时滑动窗口算 token 上限的。也就是说，白�
 
 写 /loop 提示词我自己摸出来五件事必须想清楚再写：
 
-![image](./images/indie-hub-loop-engineer/005.png)
+% 图片已移除（原始图片未下载）
 
 把你每天重复在做的事写下来，挑一件丢给 /loop，剩下的时间留给真正需要你判断的事。
 
@@ -110,7 +110,7 @@ Claude Pro 是按 5 小时滑动窗口算 token 上限的。也就是说，白�
 
 hook 这个词很有意思，就是"钩子"的意思。我第一次认识它是 webhook，一个服务发生某件事的时候，主动请求数据，它把"事件"和"动作"挂上钩。
 
-![image](./images/indie-hub-loop-engineer/006.png)
+% 图片已移除（原始图片未下载）
 
 在 Claude Code 里 hook 是一段写死的 shell 命令，挂在 agent 生命周期的固定锚点上。事件一发生，命令就跑。
 
@@ -156,7 +156,7 @@ Claude 收到就会自己回去改。整个过程我不在场。这玩意挂上�
 
 写 hook 的时候要注意
 
-![image](./images/indie-hub-loop-engineer/007.png)
+% 图片已移除（原始图片未下载）
 
 被什么事件触发、触发后做什么动作、出错了怎么兜底、什么文件什么操作绝对不要碰。
 
@@ -194,7 +194,7 @@ Claude Code 和 Codex 都有 /goal 命令，逻辑是一样的，你给它一条
 
 关于 goal 的一些命令：
 
-![image](./images/indie-hub-loop-engineer/008.png)
+% 图片已移除（原始图片未下载）
 
 写 /goal 的关键就五件事：
 
@@ -212,11 +212,11 @@ Claude Code 和 Codex 都有 /goal 命令，逻辑是一样的，你给它一条
 
 这三个工具就是我现在 AI 工作流的自动化骨架。
 
-![image](./images/indie-hub-loop-engineer/009.png)
+% 图片已移除（原始图片未下载）
 
 但这三个加起来，也只是 Loop Engineering 的一角。
 
-![image](./images/indie-hub-loop-engineer/010.png)
+% 图片已移除（原始图片未下载）
 
 还有 Skill（项目知识沉淀）、Worktree（多 agent 并行隔离）、Connector（GitHub / 飞书 / Linear 连接器）、Sub-agent（写代码的 ≠ 判完成的）、State（跨会话记忆）这几块。
 

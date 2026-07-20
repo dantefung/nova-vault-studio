@@ -11,8 +11,8 @@ url: "https://mp.weixin.qq.com/s/u1bZA6fpQ1CImxRaQGtUsg"
 
 许多人都是多做站，快速上线推广，抓概率，有点像外贸群发客户。这种方法不适合我，一是执行力低，二是做多了厌倦了，还是喜欢精开发，不然做了那么多网站，推广维护也很费力的。
 
-![image](../images/indie-hub-two-traffic-words/001.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-two-traffic-words/002.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-two-traffic-words/003.png)
+% 图片已移除（原始图片未下载）

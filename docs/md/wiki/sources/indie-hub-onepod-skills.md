@@ -8,19 +8,19 @@ url: "https://mp.weixin.qq.com/s/kRrTqdWHmMV5yb7vrQ6Mww"
 
 # 小宇宙播客也能转文章了！开源  OnePod 全套 Skills
 
-![image](./images/indie-hub-onepod-skills/001.png)
+% 图片已移除（原始图片未下载）
 
 大家好，我是空格。
 
 之前我写过一篇文章介绍 OnePod，一个每天自动精选海外播客、转成中文文章的小产品。
 
-![image](./images/indie-hub-onepod-skills/002.png)
+% 图片已移除（原始图片未下载）
 
 发出来之后收到很多人问同一个问题：中文播客支持吗？
 
 答案一直是不支持。因为中文播客和海外播客的技术路径完全不同。
 
-![image](./images/indie-hub-onepod-skills/003.png)
+% 图片已移除（原始图片未下载）
 
 YouTube 视频有开放的字幕接口，几秒钟就能拿到全文。但中文播客平台（小宇宙、喜马拉雅）不提供字幕，拿到的只有一段音频。
 
@@ -32,9 +32,9 @@ OnePod 现在正式支持中文播客了。
 
 中文播客的聚集地就是小宇宙，里面有太多优秀的内容了，我常听的有面基、知行小酒馆、42 章经、岩中花述、十字路口等
 
-![image](./images/indie-hub-onepod-skills/004.jpeg)
+% 图片已移除（原始图片未下载）
 
-![image](./images/indie-hub-onepod-skills/004.jpeg)
+% 图片已移除（原始图片未下载）
 
 我平常在通勤路上和健身时候听，有时候还是会错过很多优质内容。
 
@@ -58,7 +58,7 @@ OnePod 现在正式支持中文播客了。
 
 可以看下下面转写效果，可读性挺高的。
 
-![image](./images/indie-hub-onepod-skills/005.png)
+% 图片已移除（原始图片未下载）
 
 在这过程中音频转文字的质量是最大的不确定因素。实测下来，Whisper large-v3 对中文的识别率已经相当好了，配合 Llama 3.3 70B 做标点润色，最终文稿的可读性没什么问题。
 
@@ -74,7 +74,7 @@ Skill 地址：github.com/zephyrwang6/onepod-Skill/xiaoyuzhou-to-article
 
 整条链路是这样的：
 
-![image](./images/indie-hub-onepod-skills/006.png)
+% 图片已移除（原始图片未下载）
 
 脚本跑完，你会拿到两份产出：一份逐字文稿，一份改写后的文章。
 
@@ -84,7 +84,7 @@ Skill 地址：github.com/zephyrwang6/onepod-Skill/xiaoyuzhou-to-article
 
 OnePod 是我用 AI 搭建的一个个人播客处理系统。它每天从我关注的 40 多个海外播客频道里，自动筛选最值得看的内容，抓取字幕，转成中文文章，保存到飞书知识库，同步到网站。
 
-![image](./images/indie-hub-onepod-skills/007.png)
+% 图片已移除（原始图片未下载）
 
 地址：onepod.site
 
@@ -110,7 +110,7 @@ OnePod 是我用 AI 搭建的一个个人播客处理系统。它每天从我关
 
 今天我把所有播客处理相关的 Skills 整合到了一个仓库，统一开源：
 
-![image](./images/indie-hub-onepod-skills/008.png)
+% 图片已移除（原始图片未下载）
 
 GitHub：github.com/zephyrwang6/onepod-Skill
 
@@ -150,7 +150,7 @@ Skill 6：xiaoyuzhou-to-article — 小宇宙转文章
 
 今天的主角。把小宇宙播客链接变成逐字文稿 + 结构化文章。技术方案就是前面说的：下载音频 → ffmpeg 切片 → Groq Whisper 转录 → 标点润色 → Agent 改写。
 
-![image](./images/indie-hub-onepod-skills/009.png)
+% 图片已移除（原始图片未下载）
 
 ┌──────────────────────────────────────────────┐│  发现层                                       ││  youtube-feed (海外频道监控)                    │├──────────────────────────────────────────────┤│  提取层                                       ││  youtube-transcript-cn (YouTube 字幕)         ││  xiaoyuzhou-to-article (小宇宙音频转录) 🆕     │├──────────────────────────────────────────────┤│  处理层                                       ││  content-digest (内容提炼)                     │├──────────────────────────────────────────────┤│  输出层                                       ││  podcast-workflow (全流程编排)                  ││  podcast-script-generator (口播脚本)           ││  → 飞书知识库 / Obsidian / 网站               │└──────────────────────────────────────────────┘
 
@@ -168,7 +168,7 @@ Skill 6：xiaoyuzhou-to-article — 小宇宙转文章
 
 这也是我觉得 Skills 最有意思的地方，它是可以像乐高一样不断拼接的能力模块。
 
-![image](./images/indie-hub-onepod-skills/010.png)
+% 图片已移除（原始图片未下载）
 
 你今天做了播客处理，明天换个数据源就是论文追踪，换个输出模板就是行业简报。
 

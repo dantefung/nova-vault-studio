@@ -10,7 +10,7 @@ author: "pseudoyu"
 
 > 两套工具重塑 Indie 工作流：**Multica** 把本地 Coding Agent 链接成共享的"AI 员工"团队；**Impeccable** 把设计流程拆成命令化步骤（如 `/teach`、`/craft`、`/audit`），告别"为了某个页面一次性优化的代码"。
 
-![cover](../images/weekly-review-107/001.png)
+% 图片已移除（原始图片未下载）
 
 <!-- more -->
 
@@ -24,19 +24,19 @@ author: "pseudoyu"
 
 **关键设计**：`multica` CLI 连接自部署 server，把本机设备注册为 **Runtime**，无需自己重新配置 Rules / MCP。
 
-![multica_runtime](../images/weekly-review-107/002.png)
+% 图片已移除（原始图片未下载）
 
 注册完 Runtime 后，可以创建 **Agent**：每个 Agent 配不同的指令、Skills、自定义参数，相当于定制一个"AI 员工"，有明确的工作职责范围与技能。
 
-![multica_agents](../images/weekly-review-107/003.png)
+% 图片已移除（原始图片未下载）
 
 **协作魔法**：新建 Issue 时可指派给特定 Agent 员工；所有 Agent 的工作记录都在 Multica 平台统一存档，等于给不同人/不同设备的本地 Agent **装了一个共享知识库和上下文**——在关联性高的协作任务中尤其有用。
 
-![multica_new_issue](../images/weekly-review-107/004.png)
+% 图片已移除（原始图片未下载）
 
 **克制之美**：早期连搜索都没做，重点放在与本地 Agent 的连接上。最近陆续补了 **Projects**（按 Workspace 区分项目）和 **Autopilot**（定时/重复任务自动化），现在还在快速迭代。
 
-![multica_autopilot](../images/weekly-review-107/005.png)
+% 图片已移除（原始图片未下载）
 
 **作者的后续计划**：把更多项目实践引入 Multica，与自建的 Hermes Agent 结合，把**开发 → 测试 → 预发验证 → 正式发布**四步流程做得更完善。
 
@@ -48,11 +48,11 @@ author: "pseudoyu"
 
 [Impeccable](https://impeccable.style/) 在 Web3Insight 项目上效果出乎意料地好：
 
-![web3insight_ai_01](../images/weekly-review-107/006.png)
-![web3insight_ai_02](../images/weekly-review-107/007.png)
-![web3insight_ai_03](../images/weekly-review-107/008.png)
-![web3insight_dash_01](../images/weekly-review-107/009.png)
-![web3insight_dash_02](../images/weekly-review-107/010.png)
+% 图片已移除（原始图片未下载）
+% 图片已移除（原始图片未下载）
+% 图片已移除（原始图片未下载）
+% 图片已移除（原始图片未下载）
+% 图片已移除（原始图片未下载）
 
 **核心思想**：把 UI 设计当成 `CLAUDE.md` / `AGENTS.md` 的"设计版"来管理——先做宏观品牌分析，沉淀为 `.impeccable.md`，所有后续设计都基于这套原则拓展，避免"为某个页面优化引入的一次性代码"。
 
@@ -65,7 +65,7 @@ author: "pseudoyu"
 | `/critique` / `/audit` | 分析/审计当前设计的问题 |
 | `/polish` / `/optimize` / `/animate` | 针对特定方向优化设计 |
 
-![impeccable_commands](../images/weekly-review-107/011.png)
+% 图片已移除（原始图片未下载）
 
 参考：[Web3Insight.ai 的 .impeccable.md](https://github.com/web3insight-ai/web3insight.ai/blob/main/.impeccable.md)
 
@@ -86,7 +86,7 @@ author: "pseudoyu"
 
 ### 一次惊心动魄的 Payment 上线
 
-![euka_launch](../images/weekly-review-107/012.jpg)
+% 图片已移除（原始图片未下载）
 
 > 最近很多任务到收尾阶段，经历了一次惊魂未定的"上线 → Vercel Rollback → 二次上线"。跟所有用户 Payment 有关的大重构上生产，从 5am 肝到第二天 5am，但比起之前忙碌，这次反而不觉得累。
 
@@ -94,7 +94,7 @@ author: "pseudoyu"
 
 ### 陪学姐去江阴游泳比赛
 
-![boyi_swimming_jiang_yin](../images/weekly-review-107/013.png)
+% 图片已移除（原始图片未下载）
 
 > 周末护送学姐去江阴参加游泳比赛，两天密集行程有些累，学姐得第五名。有种家长带小孩参加兴趣班比赛的成就感。
 

@@ -20,7 +20,7 @@ url: "https://mp.weixin.qq.com/s/xU6T2GWL6TiFAFEwsfcgew"
 
 下面是我的文件夹目录结构：
 
-![image](./images/indie-hub-knowledge-mgmt-skills/001.png)
+% 图片已移除（原始图片未下载）
 
 数据就是 Agent 的生产力
 
@@ -44,7 +44,7 @@ Read Buddy ，阅读和整理
 
 共 19 个 skill， 把网页、RSS、YouTube、播客、X/Twitter、飞书文档、图片 OCR、微信读书划线，全部转成可读、可检索、可继续写作的结构化内容。信息不管在什么格式里，先拿回来。
 
-![image](./images/indie-hub-knowledge-mgmt-skills/002.png)
+% 图片已移除（原始图片未下载）
 
 地址：github.com/SpaceZephyr/read-buddy
 
@@ -52,13 +52,13 @@ Design Buddy ，设计和配图
 
 也是 19 个 skill， 把文章内容转成封面、配图、逻辑图、架构图、Logo、故事板、幻灯片、公众号排版。从初稿到可发布，不用打开设计软件。
 
-![image](./images/indie-hub-knowledge-mgmt-skills/003.png)
+% 图片已移除（原始图片未下载）
 
 地址：github.com/SpaceZephyr/design-buddy
 
 Creator Buddy ，创作和分析
 
-![image](./images/indie-hub-knowledge-mgmt-skills/004.png)
+% 图片已移除（原始图片未下载）
 
 共 5 个 skill， 从抖音、小红书、公众号、B站搜热点、挖爆款、看评论、查竞品。把"今天写什么"变成一套可复用的数据工作流。
 

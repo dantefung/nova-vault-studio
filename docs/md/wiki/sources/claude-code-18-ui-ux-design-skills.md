@@ -17,7 +17,7 @@ url: "https://pasqualepillitteri.it/zh/news/889/claude-code-18-zuijia-skill-ui-u
 
 **解决方案**：设计类 Skill。它们是教会 Claude 如何设计独特界面的 markdown 文件，配备精确的风格、精挑细选的调色板和考究的字体排印。
 
-![Claude Code UI/UX 设计最佳 18 款 Skill 对比](../images/claude-code-18-ui-ux-design-skills/001.png)
+% 图片已移除（原始图片未下载）
 
 ## Skill 工作原理
 
@@ -84,9 +84,9 @@ Anthropic 的官方 Skill，安装量已超 **277,000 次**，是必备的起点
 
 **安装**：`npx skills add https://github.com/Leonxlnx/taste-skill`
 
-![使用 taste-skill 生成的 Floria 项目](../images/claude-code-18-ui-ux-design-skills/002.webp)
+% 图片已移除（原始图片未下载）
 
-![Floria 项目底部](../images/claude-code-18-ui-ux-design-skills/003.webp)
+% 图片已移除（原始图片未下载）
 
 ### 4. Impeccable - 反 AI 套路的设计语言（35,800 颗星）
 

@@ -105,6 +105,4 @@ tags: ["neovim", "lazyvim", "备忘录", "keymap", "jetbrains-对照", "cheatshe
 
 ## 附：原文预览
 
-作者博客现场截图（来自原文）：
-- ![预览 1](../../../wiki/sources/images/lazyvim-init-zzkrix/preview-1.jpg)
-- ![预览 2](../../../wiki/sources/images/lazyvim-init-zzkrix/preview-2.jpg)
+> 图片待补充（原始图片未下载）

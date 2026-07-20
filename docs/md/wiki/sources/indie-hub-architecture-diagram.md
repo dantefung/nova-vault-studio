@@ -53,22 +53,22 @@ https://github.com/Cocoon-AI/process-flow-diagram-generator
 
 ## 配图
 
-![image](../images/indie-hub-architecture-diagram/001.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/002.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/003.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/004.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/005.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/006.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/007.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/008.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/009.png)
+% 图片已移除（原始图片未下载）
 
-![image](../images/indie-hub-architecture-diagram/010.gif)
+% 图片已移除（原始图片未下载）

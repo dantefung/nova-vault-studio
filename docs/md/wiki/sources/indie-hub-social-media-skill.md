@@ -8,11 +8,11 @@ url: "https://mp.weixin.qq.com/s/1_ugBJwHEEPuLw_baP-0zQ"
 
 # 我用 Agent Skill 搭了一套社媒监控系统
 
-![image](./images/indie-hub-social-media-skill/001.png)
+% 图片已移除（原始图片未下载）
 
 昨天看到 X 官方出了 MCP，授权以后，Agent 就能帮你搜推文、查账号、拉时间线、看互动数据，甚至管理书签和起草文章。我自己也做了一套 skill 叫做 creator buddy，帮你运营全域平台，这篇文章就挑几个场景介绍一下。
 
-![image](./images/indie-hub-social-media-skill/002.jpeg)
+% 图片已移除（原始图片未下载）
 
 说实话，我第一反应是挺震惊的。竟然真的有社交平台愿意把自己最重要的资产开放出来，让 Agent 直接访问。
 
@@ -40,7 +40,7 @@ url: "https://mp.weixin.qq.com/s/1_ugBJwHEEPuLw_baP-0zQ"
 
 只需要把一个小红书主页链接丢进去，它会拉账号最近一批内容，然后按点赞、收藏、评论、发布时间做分析。最后输出一张表，告诉我这个账号最近哪些内容表现最好，哪些选题更容易被收藏，发布频率大概是什么样。
 
-![image](./images/indie-hub-social-media-skill/003.png)
+% 图片已移除（原始图片未下载）
 
 比如我可以把自己的主页丢进去，让它看最近 30 篇内容里，哪些主题收藏率最高，哪些标题点击感更强，哪些发布时间更容易有反馈。
 
@@ -52,7 +52,7 @@ url: "https://mp.weixin.qq.com/s/1_ugBJwHEEPuLw_baP-0zQ"
 
 我输入一个关键词，比如Codex，它会去搜索相关笔记，按互动量排序，再帮我提炼标题规律、封面规律、开头钩子和用户关注点。
 
-![image](./images/indie-hub-social-media-skill/004.png)
+% 图片已移除（原始图片未下载）
 
 拿到这组数据以后，选题就不再是拍脑袋。它至少会给我几个明确方向：这个角度值得写，那个角度已经卷了，另一个角度没人讲透。
 
@@ -62,7 +62,7 @@ url: "https://mp.weixin.qq.com/s/1_ugBJwHEEPuLw_baP-0zQ"
 
 逻辑类似，只不过换成公众号文章。它可以帮我看最近一段时间，哪些号在密集写某个话题，切入角度有什么不同。
 
-![image](./images/indie-hub-social-media-skill/005.png)
+% 图片已移除（原始图片未下载）
 
 我现在不知道创作什么，就看最近 30 天有没有相关爆款，哪些号在写，它们分别从什么角度切，哪些标题更像观点文，哪些更像教程文。
 

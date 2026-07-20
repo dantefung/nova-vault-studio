@@ -65,4 +65,4 @@ url: "https://mp.weixin.qq.com/s/toVFeAdLqxQjzs2w0c1dCA"
 
 网站 shaogefenhao.com，微信同号
 
-![image](../images/indie-hub-tech-lead-ai/001.png)
+% 图片已移除（原始图片未下载）

@@ -84,14 +84,14 @@ Anthropic 最近对 Routines 和 Dynamic Workflows 的两处调整：外部系�
 
 ## 配图
 
-![image](../images/indie-hub-loop-engineering/001.png)
+% 图片已移除（原始图片未下载）
 
 *图1：四个条件对应三种 Loop 处理方式*
 
-![image](../images/indie-hub-loop-engineering/002.png)
+% 图片已移除（原始图片未下载）
 
 *图2：Sentry Loop 的控制面与人工闸门*
 
-![image](../images/indie-hub-loop-engineering/003.png)
+% 图片已移除（原始图片未下载）
 
 *图3：从人工复盘到有限自动化的上线流程*

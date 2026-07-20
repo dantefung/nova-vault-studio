@@ -24,7 +24,7 @@ author: "路飞 🏴‍☠️ AI 研究员🧐 (@0xluffy_eth)"
 
 粉丝不是为「真人」付费，是为「**角色关系**」付费。
 
-![Ina 主页面](../images/ai-virtual-model-account-case-study/001.jpg)
+% 图片已移除（原始图片未下载）
 
 ## 二、筛选：只留下「明知是 AI 还愿意付费」的人
 
@@ -38,7 +38,7 @@ Ina 反过来做——**一开始就筛选用户**，只留下那些「明知道
 
 > **你卖的不是一个人，是一个持续更新的数字角色。**
 
-![Ina 角色与 VTuber 对比](../images/ai-virtual-model-account-case-study/002.jpg)
+% 图片已移除（原始图片未下载）
 
 ## 三、收入：Patreon 三档价格
 
@@ -62,7 +62,7 @@ Patreon 有 3 档：
 
 > 这个账号最值钱的地方不是 9.4 万粉，而是 **1.24% 的付费率**——这已经不是「发图涨粉」，而是一个完整的**付费漏斗**。
 
-![Patreon 三档定价逻辑](../images/ai-virtual-model-account-case-study/003.jpg)
+% 图片已移除（原始图片未下载）
 
 ## 四、差异：涨粉型 vs 盈利型
 
@@ -75,7 +75,7 @@ Patreon 有 3 档：
 
 > **涨粉靠冲击。付费靠陪伴。**
 
-![Ina 多场景内容矩阵](../images/ai-virtual-model-account-case-study/004.jpg)
+% 图片已移除（原始图片未下载）
 
 ## 五、路径：三层漏斗清晰分开
 
@@ -160,7 +160,7 @@ AI 美女账号天然容易被怀疑：
 
 > 你越像一个正式项目，用户越敢点链接。
 
-![评论区多语言混搭](../images/ai-virtual-model-account-case-study/006.jpg)
+% 图片已移除（原始图片未下载）
 
 ## 十、语言：韩语内容 + 英语简介
 

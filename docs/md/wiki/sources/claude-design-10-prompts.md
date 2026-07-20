@@ -17,7 +17,7 @@ Anthropic 于 2026 年 4 月 17 日发布 **Claude Design**（运行在 claude.a
 
 **关键洞察**：结果质量几乎完全取决于初始提示词。普通用户得到平庸样张，而注入精确技术简报的资深设计师能拿到可投产的设计系统。
 
-![Claude Design 即用型提示词 10 个](../images/claude-design-10-prompts/001.png)
+% 图片已移除（原始图片未下载）
 
 ## 使用方法
 
