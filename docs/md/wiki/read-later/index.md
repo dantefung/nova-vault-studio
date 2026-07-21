@@ -261,6 +261,7 @@ date: "2026-05-29"
 | 2026-07-18 | https://martinfowler.com/articles/harness-engineering.html | **Martin Fowler：Harness Engineering**：通俗完整的Harness介绍 |
 | 2026-07-18 | https://enladder.com/ | **EnLadder**：生词提示辅助工具 |
 | 2026-07-18 | https://www.bilibili.com/video/BV1HxKB6hED3/ | **【2026-07-18】深入理解Harness Engineering**：B站视频 |
+| 2026-07-19 | https://github.com/terrastruct/d2 | **D2（24.7k Stars）**：程序员声明式图表工具，用代码画流程图/时序图/ER图，19种主题，AI友好语法，比PlantUML更简洁，支持CLI/VSCode/在线渲染 |
 | 2026-07-19 | https://github.com/tt-a1i/archify | **Archify**：Agent画图Skill（Claude Code/Codex/OpenCode），大白话描述系统关系→生成可分享HTML架构图，支持PNG/JPEG/SVG/WebP导出（4倍高清），内置深浅主题，箭头连线检查，适合技术方案/项目README/产品评审/新人交接 |
 | 2026-07-19 | https://github.com/ake77-code/distill-design | **distill-design**：Google Stitch DESIGN.md蒸馏工具，网站→AI可读设计规范（颜色/字号/圆角/间距/组件），74个顶级品牌现成规范（Stripe/Linear/Apple/Figma等），三件套DESIGN.md+preview.html+demo.html，ake77-code |
 | 2026-07-18 | https://github.com/SpaceZephyr/cowrite | **Cowrite**：Codex可视化创作工作台，零散Skill封装成GUI，一键配图/排版/生成Slide(PPTX/HTML)/发飞书，基于MCP，数字生命卡兹克作品 |

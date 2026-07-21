@@ -19,6 +19,24 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-19] indie-hub-agentic-rl ingest
+
+- **Source**: [长程Agent训练九best practices](https://mp.weixin.qq.com/s/joyd7o0cCbiuIvoE0tsV8A) (若飞/JiaGouX)
+- **Images**: 3张 → `images/indie-hub-agentic-rl/`
+- **Content**: 长程Agent训练三循环（执行/学习/治理），九项实践：可验证边界选任务/可重置环境/完整轨迹保存/奖励拆分四本账/失败分六类/验证器对抗化/Horizon渐进/轨迹带版本/监控TemplateCollapse，五份合同
+- **Patterns**: [[Agentic RL]] [[长程Agent]] [[Harness]] [[Template Collapse]]
+
+---
+
+## [2026-07-19] indie-hub-d2 ingest
+
+- **Source**: [专为程序员打造的画图神器，斩获 24k Star](https://mp.weixin.qq.com/s/SOztOQf-Sch3v_yNfFOsuA) (韩数同学)
+- **Images**: 5张 → `images/indie-hub-d2/`
+- **Content**: D2声明式图表工具（terrastruct/d2，24.7k Stars），专为程序员设计，代码代替拖拽，支持流程图/时序图/ER图，19种主题，AI友好语法
+- **Patterns**: [[D2]] [[声明式图表]] [[架构图]]
+
+---
+
 ## [2026-07-19] indie-hub-7-xhs-skills ingest
 
 - **Source**: 小红书图文卡片Skill七剑客清单 (X帖)
