@@ -1291,3 +1291,23 @@ source: "llm-wiki"
 - **描述**：Pas 推荐的面向前端/产品/UI 的 10 个 Agent Skills。含 frontend-design、figma-implement-design、playwright、react-best-practices 等。
 - **安装状态**：9/10 已安装到 `.claude/skills/`（frontend-skill 在 OpenAI 仓库中不存在）
 - **来源仓库**：openai/skills、anthropics/skills、vercel-labs/agent-skills
+
+## [2026-07-21] Ahrefs SEO 系统教程采集
+
+**操作**：批量采集 Ahrefs 官方中文版 SEO 教程（10 篇）
+**位置**：`columns/indie-hub/seo/ahrefs/`
+**文章**：
+1. SEO 基础知识 (seo-basics)
+2. 搜索引擎如何工作 (how-do-search-engines-work)
+3. AI 搜索引擎如何工作 (how-ai-search-engines-work)
+4. AI 对 SEO 意味着什么 (what-ai-means-for-seo)
+5. 关键词研究 (keyword-research)
+6. 页面 SEO (on-page-seo)
+7. SEO 内容 (seo-content)
+8. 技术 SEO (technical-seo)
+9. 链接建设 (link-building)
+10. 本地 SEO (local-seo)
+
+**图片**：约 190 张已下载到本地 `images/` 目录
+**编排**：按学习路径分三阶段（理解搜索引擎 → 核心技能 → 进阶策略）
+**更新**：seo/index.md 增加系统教程板块
