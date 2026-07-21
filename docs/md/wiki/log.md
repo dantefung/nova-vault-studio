@@ -19,6 +19,24 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-21] indie-hub-git-worktree ingest
+
+- **Source**: [一个人如何管理几十个AI程序员？](https://mp.weixin.qq.com/s/zxjYSGzgEoDyrcpdupEQ-w) (刘小排)
+- **Images**: 6张 → `images/indie-hub-git-worktree/`
+- **Content**: Git Worktree管理多AI程序员：分支管路线Worktree管现场，五种情况（main直改/只开分支/同分支多Worktree/分支+Worktree/全矩阵），独立开发者三条建议（拆任务/地基先于功能/当产品经理）
+- **Patterns**: [[Git Worktree]] [[AI并行开发]] [[Agent管理]]
+
+---
+
+## [2026-07-20] indie-hub-dontbesilent ingest
+
+- **Source**: [dontbesilent 平时怎么用 Codex？我分析了他的 534 个会话](https://mp.weixin.qq.com/s/9DRoXsv4fu1S1496ML4-uQ) (dontbesilent)
+- **Images**: 无外部图片
+- **Content**: dontbesilent四层工作体系（任务/工作流/方法/系统），534会话分析，短Prompt+厚环境设计，SOURCE_OF_TRUTH.md，Skill真源治理，递归改进（用Codex改造Codex），个人AI组织
+- **Patterns**: [[Codex]] [[Skill治理]] [[知识真源]] [[Agent组织]] [[递归改进]] [[dontbesilent]]
+
+---
+
 ## [2026-07-19] indie-hub-agentic-rl ingest
 
 - **Source**: [长程Agent训练九best practices](https://mp.weixin.qq.com/s/joyd7o0cCbiuIvoE0tsV8A) (若飞/JiaGouX)
