@@ -194,6 +194,7 @@ date: "2026-05-29"
 | 2026-06-29 | https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ | ~~待查看~~ → 已归档至 sources/vibe-coding-two-prompts.md |
 | 2026-07-15 | https://mp.weixin.qq.com/s/OS5lI3eK1G4X0hYcum6kpw | 待查看 |
 | 2026-07-15 | https://mp.weixin.qq.com/s/WJWR8RdN2OmPGZ38mkPaRA | 待查看 |
+| 2026-07-21 | https://mp.weixin.qq.com/s/mGGIbFyF4U1PrBJVdfgcvg | 待查看 |
 
 ## 其他链接
 
