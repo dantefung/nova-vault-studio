@@ -19,6 +19,24 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-21] indie-hub-forex-basics ingest
+
+- **Source**: [外汇交易基础概念：货币对、点差、汇率、直盘、交叉盘、外汇保证金等](https://mp.weixin.qq.com/s/HAZiRj953OpPT1IxFoT4uw) (光速白眉)
+- **Images**: 无外部图片
+- **Content**: 外汇交易基础：货币对（基础货币/报价货币）、直盘vs交叉盘、点差（Bid/Ask）、汇率（浮动/固定）、保证金（Margin/追保/强平）、滑点（负滑点/正滑点/限价单）
+- **Patterns**: [[外汇交易]] [[货币对]] [[点差]] [[保证金]] [[滑点]]
+
+---
+
+## [2026-07-21] indie-hub-codex-eat-pc ingest
+
+- **Source**: [Codex 吞掉了浏览器，下一口是整台电脑](https://mp.weixin.qq.com/s/AYlYfVp_dSPuHM589rgrHw) (成峰)
+- **Images**: 6张 → `images/indie-hub-codex-eat-pc/`
+- **Content**: Atlas死了但Agent能力活在Codex里，阅读起点从「打开资料」变「审核结果」，四个标签页Codex一次读完，AgentOS雏形：Agent App = Agent + 工具 + Skills + 上下文
+- **Patterns**: [[Codex]] [[AgentOS]] [[Atlas]] [[浏览器]]
+
+---
+
 ## [2026-07-21] indie-hub-git-worktree ingest
 
 - **Source**: [一个人如何管理几十个AI程序员？](https://mp.weixin.qq.com/s/zxjYSGzgEoDyrcpdupEQ-w) (刘小排)
