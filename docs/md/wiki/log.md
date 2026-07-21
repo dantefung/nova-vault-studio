@@ -19,6 +19,15 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-21] indie-hub-grill-with-docs ingest
+
+- **Source**: [还在用grill-me？Matt Pocock建议grill-with-docs](https://mp.weixin.qq.com/s/Yia6XDvAkw8ygjRXFmPmgg) (运维有术)
+- **Images**: 5张 → `images/indie-hub-grill-with-docs/`
+- **Content**: Matt Pocock grill-with-docs：两个原语（grilling追问+domain-modeling落字），CONTEXT.md术语表（glossary only），ADR三条门槛（Hard to reverse/Surprising without context/Real trade-off），四反模式（过早记录/术语过多/写成spec/代码漂移）
+- **Patterns**: [[Matt Pocock]] [[grill-with-docs]] [[CONTEXT.md]] [[ADR]] [[术语对齐]]
+
+---
+
 ## [2026-07-21] indie-hub-forex-basics ingest
 
 - **Source**: [外汇交易基础概念：货币对、点差、汇率、直盘、交叉盘、外汇保证金等](https://mp.weixin.qq.com/s/HAZiRj953OpPT1IxFoT4uw) (光速白眉)
