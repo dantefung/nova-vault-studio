@@ -7,7 +7,7 @@ url: "https://haoshiyinli.com/book/index.html"
 
 <script setup>
 import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('./把才华变成钱.pdf', import.meta.url).href
+const pdfUrl = new URL('../../books/social-media/把才华变成钱.pdf', import.meta.url).href
 </script>
 
 # 把才华变成钱

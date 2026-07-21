@@ -100,9 +100,11 @@ LLMs.txt 是一项自愿性标准，用于告诉大型语言模型 (LLM) 如何�
 
 ### 爬虫指令
 
-Robots meta 标签是一段 HTML 代码片段，用于告诉搜索引擎如何抓取或索引某个页面。它被放置在网页的 <head> 部分，如下所示：
+Robots meta 标签是一段 HTML 代码片段，用于告诉搜索引擎如何抓取或索引某个页面。它被放置在网页的 `<head>` 部分，如下所示：
 
+```html
 <meta name="robots" content="noindex" />
+```
 
 ### 规范化
 
