@@ -1287,7 +1287,7 @@ source: "llm-wiki"
 ## [2026-07-20] top10-agent-skills-for-frontend-product-ui
 
 - **变更类型**：sources 新增 + skills 安装
-- **文件**：`wiki/sources/top10-agent-skills-for-frontend-product-ui.md`
+- **文件**：`columns/vibe-coding-and-design/top10-agent-skills-for-frontend-product-ui.md`
 - **描述**：Pas 推荐的面向前端/产品/UI 的 10 个 Agent Skills。含 frontend-design、figma-implement-design、playwright、react-best-practices 等。
 - **安装状态**：9/10 已安装到 `.claude/skills/`（frontend-skill 在 OpenAI 仓库中不存在）
 - **来源仓库**：openai/skills、anthropics/skills、vercel-labs/agent-skills
