@@ -1281,3 +1281,13 @@ source: "llm-wiki"
 - **文件**：`docs/.vitepress/config.js`
 - **描述**：去掉 `isLowMemoryBuild` 对搜索的限制，Vercel 上启用 VitePress 本地全文搜索。同时修复 `skill-system-prompt-design.md` 中 Vue 模板解析错误（`<xxx>` 标签用反引号包裹）。
 - **验证**：本地构建 101.71s 通过，Vercel 构建成功，搜索框正常显示。
+
+---
+
+## [2026-07-20] top10-agent-skills-for-frontend-product-ui
+
+- **变更类型**：sources 新增 + skills 安装
+- **文件**：`wiki/sources/top10-agent-skills-for-frontend-product-ui.md`
+- **描述**：Pas 推荐的面向前端/产品/UI 的 10 个 Agent Skills。含 frontend-design、figma-implement-design、playwright、react-best-practices 等。
+- **安装状态**：9/10 已安装到 `.claude/skills/`（frontend-skill 在 OpenAI 仓库中不存在）
+- **来源仓库**：openai/skills、anthropics/skills、vercel-labs/agent-skills
