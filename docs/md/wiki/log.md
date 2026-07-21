@@ -1272,3 +1272,12 @@ source: "llm-wiki"
 - **文件**：`wiki/sources/skill-system-prompt-design.md`
 - **图片**：30 张（`wiki/images/skill-system-prompt-design/`）
 - **描述**：AI代码生成率94%——腾讯企业微信团队用 Skill 跑通需求开发全流程。8阶段流水线、五步定位法、三级金字塔知识库、红线机制、跨会话知识传承（TECH_SPEC.md）。
+
+---
+
+## [2026-07-20] feat(search): enable local search on Vercel
+
+- **变更类型**：config 变更
+- **文件**：`docs/.vitepress/config.js`
+- **描述**：去掉 `isLowMemoryBuild` 对搜索的限制，Vercel 上启用 VitePress 本地全文搜索。同时修复 `skill-system-prompt-design.md` 中 Vue 模板解析错误（`<xxx>` 标签用反引号包裹）。
+- **验证**：本地构建 101.71s 通过，Vercel 构建成功，搜索框正常显示。
