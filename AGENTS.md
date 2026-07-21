@@ -64,6 +64,15 @@ title: "AI Agent 操作规范"
 pre-commit hook (`check-frontmatter.py`) 检查所有 staged `.md` 文件，缺 `title` 直接拒绝提交。
 `date`、`url` 缺失仅警告不阻断。
 
+### 裸露 HTML 标签阻断提交
+
+pre-commit hook 同时检查 `.md` 文件中是否有裸露的 HTML 标签（非代码块内）。Vue 编译器会把 `<tag>` 当作真实 HTML 解析，导致构建失败：
+
+- **代码片段必须加反引号**：`<h1>`、`<head>`、`</body>` 等必须写成 `` `<h1>` ``、`` `<head>` ``、`` `</body>` ``
+- **浏览器扩展污染**：`<readpronunciation-*>` 等注入标签会被 hook 拦截——用 `git checkout -- <file>` 回退
+
+**新增脚本**：`.claude/hooks/check-html-tags.py`（被 `.git/hooks/pre-commit` 调用）
+
 ```yaml
 ---
 title: "标题"          # 必填
