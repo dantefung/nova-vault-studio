@@ -14,7 +14,8 @@ date: "2026-07-20"
 | 篇目 | 标题 | 关键词 |
 |------|------|--------|
 | 1 | [Ahrefs SEO 完全指南](./ahrefs/index.md) | 系统教程、从零到一 |
-| 2 | [哥飞进阶教程](./webcafe-advanced/index.md) | 实战教程、出海工具站 |
+| 2 | [哥飞新手入门教程](./webcafe-beginner/index.md) | 新手入门、SEO 基础 |
+| 3 | [哥飞进阶教程](./webcafe-advanced/index.md) | 实战教程、出海工具站 |
 
 ### 实战文章
 
