@@ -8,6 +8,7 @@ import PdfViewer from './components/PdfViewer.vue'
 import './markmap.css'
 import './fonts.css'
 import './themes.css'
+import { setupTheme } from './composables/useTheme.js'
 
 export default {
   ...DefaultTheme,
@@ -21,7 +22,7 @@ export default {
     if (typeof window === 'undefined') return
     installUrlParsePolyfill()
     installPromiseWithResolversPolyfill()
-    import('./composables/useTheme.js').then(m => m.setupTheme?.()).catch(() => {})
+    setupTheme()
     const source = import.meta.env.VITE_FONT_SOURCE || 'local'
     if (source === 'local') {
       import('./fonts-local.js').then(m => m.setupLocalFonts?.()).catch(() => {})
