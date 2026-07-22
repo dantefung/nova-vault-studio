@@ -1,285 +1,627 @@
 ---
 title: "从网站站内优化到部署上线再到推广运营"
-date: "2024-08-13"
+date: "2024-08-12"
 source: "web.cafe"
 author: "哥飞"
-url: "https://new.web.cafe/topic/o3RNNMKZAMtBADNFswicqE"
+url: "https://new.web.cafe/tutorial/detail/seo-onpage-deploy-promote"
 ---
 
-# 从网站站内优化到部署上线再到推广运营
+# 【5800字长文】从网站站内优化到部署上线再到推广运营一篇文章让你学明白
+> 原文链接: https://new.web.cafe/tutorial/detail/o3RNNMKZAMtBADNFswicqE
 
-> 来源：[web.cafe 进阶教程](https://new.web.cafe/topic/o3RNNMKZAMtBADNFswicqE)
-> 作者：哥飞
+---
 
-【5800字长文】从网站站内优化到部署上线再到推广运营一篇文章让你学明白
+![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_000.jpg)
+
+哥飞2024-08-13 11:50
+
+进阶教程
+
+## 进阶教程
+
+# 【5800字长文】从网站站内优化到部署上线再到推广运营一篇文章让你学明白
+
 收藏
+
 大家好，我是哥飞，微信号 qiayue ，今天跟大家聊一下网站站内优化到部署上线再到推广运营一条龙，争取一篇文章让你学明白。
+
 看这篇文章之前，需要先看前一篇挖掘需求的文章《出海工具网站，如何从需求挖掘到网站制作全流程》。
-一、站内优化经验 我们通过分析需求，找到了我们可以做的关键词之后，就要思考，用户在搜索引擎里搜索这个关键字，到底是想找什么，是想找内容？还是想找工具？还是想找服务？还是想找商品？或者其它东西？
+
+**一、站内优化经验** 我们通过分析需求，找到了我们可以做的关键词之后，就要思考，用户在搜索引擎里搜索这个关键字，到底是想找什么，是想找内容？还是想找工具？还是想找服务？还是想找商品？或者其它东西？
+
 分析清楚了用户的真实需求，我们就有的放矢，知道到底要给这个关键词做一个什么页面来承接搜索过来的流量。
-1.1、TDK 现在假设我们已经知道要做一个什么页面了，那么页面内的TDK要怎么写呢？
+
+**1.1、TDK** 现在假设我们已经知道要做一个什么页面了，那么页面内的TDK要怎么写呢？
+
 我们跟着豆瓣学一学。
-title
+
+**title**
+
 先说title，也就是网页标题。
+
 这是搜索引擎判断一个网页的主要内容最重要的参考来源之一。
+
 很多时候我们说SEO优化，其实就是如何写好网页标题。
+
 标题会直接出现在搜索结果中，所以写一个好标题，还有助于吸引用户点进你的网页
+
+![d54d651f695910d7945459bd32b404e9.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_001.jpg)
+
 豆瓣的电影页面标题很简单，就是电影名称（豆瓣）。
+
 那是因为豆瓣已经有足够的权重了，如果我们现在要做一个电影介绍网站，那么就应该分析用户对于每一个电影到底想关心什么，然后去写标题。
+
 如“学爸主演、演员表、主角、评分、票房”
+
+![ca76e589e74d53602ea57ec8b460ac56.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_002.jpg)
+
 用户可能会关心的，且有搜索流量的，都可以拼凑上去。
-description和keywords
+
+**description和keywords**
+
 description 网页描述，也比较重要，也会出现在搜索结果中。
+
 keywords 关键词列表，一般可以不写。我的优化风格是优化不要太满，所以一般都是好好写title和description，但直接删除 keywords 。
+
+![f5d6954b7e6f4350785193b406f324d0.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_003.jpg)
+
 可以看到，豆瓣把一些本来要写到标题里的，写到描述里去了。
+
 好了，TDK就介绍完了，我们看看实际在搜索引擎里的结果显示成什么样。
-这是百度：
-这是谷歌：
-1.2、网页结构 一个HTML网页，除了要写好 title 和 descrition 外，最重要的就是要让整个网页结构清晰，有明显的 h1、h2、h3 结构。
-先说下H1
+
+这是百度： ![d5ac597570c277714ccced1f2c71c58c.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_004.jpg)
+
+这是谷歌： ![d9a8c4e94ed2b210b3549ffae0eee81b.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_005.jpg)
+
+**1.2、网页结构** 一个HTML网页，除了要写好 title 和 descrition 外，最重要的就是要让整个网页结构清晰，有明显的 h1、h2、h3 结构。
+
+**先说下H1**
+
 一个网页只能有一个h1，如果说 title 是给搜索引擎看的，那么 h1 就是给用户看的。但同时搜索引擎也会参考 h1 来对你的网页进行内容评判，最终给不给你排名，排在哪个位置，很多时候就是 h1 和 title 决定的。
-再说下h2和h3 这两个也是一个完整的语义化HTML必不可少的部分。一个网页可以有多个h2和h3。
-再说下 p h1 h2 h3 这些都是标题，分别是一级标题、二级标题和三级标题。
+
+![299dbc04d472e74b0838b8d7391e2983.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_006.jpg)
+
+**再说下h2和h3** 这两个也是一个完整的语义化HTML必不可少的部分。一个网页可以有多个h2和h3。
+
+![814625bf3042b04a70c3f7aa274e88f7.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_007.jpg)
+
+**再说下 p** h1 h2 h3 这些都是标题，分别是一级标题、二级标题和三级标题。
+
 除了标题之外，其它正文内容，就要写在p里边了，图片也可以放在p里。
-然后是img 图片也是一个网页必不可少的一部分，用 img 标签，合理的放置图片，不仅可以让用户更好的理解你的内容，也可以从搜索引擎的图片搜索获取流量。
+
+![1b187a2d448f1ba3d604da4a355567af.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_008.jpg)
+
+**然后是img** 图片也是一个网页必不可少的一部分，用 img 标签，合理的放置图片，不仅可以让用户更好的理解你的内容，也可以从搜索引擎的图片搜索获取流量。
+
 img 标签一定要写 alt 属性，这是对图片的描述，专门写给搜索引擎看的。图片尽量用大图，也就是300x300以上的。
+
+![932d1a3916956f3b207aa630d1ee83f5.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_009.jpg)
+
 不管你是工具页面，还是内容页面，都需要有 TDK 和 h1 h2 h3 p img 。
-典型网页结构 一个典型的网页结构一般长这样： h1 h2 p h3 p h3 p h2 p h3
-1.3、内链建设 按照上面说的，网页你就做好了，那么接下来就要把各个网页用链接连起来。
+
+**典型网页结构** 一个典型的网页结构一般长这样： h1 h2 p h3 p h3 p h2 p h3
+
+**1.3、内链建设** 按照上面说的，网页你就做好了，那么接下来就要把各个网页用链接连起来。
+
 网站内互相跳转的链接叫做内链。
+
 外部网站跳转到我们网站的链接叫外链。
+
 通常来讲，我们找到的关键词，都可以拓展出很多二级三级关键词，那么在我们网站首页里，一般会把主关键词和二级三级关键词都分别用h1、h2、h3列出来，做这些的目的都是为了优化主页的主关键词。
+
 以 coloring pages 为例，主关键词是
+
 coloring pages
+
 二级关键词就是 dog coloring pages cat coloring pages girl coloring pages flower coloring pages 等等
+
 而dog coloring pages 的三级关键词可以是 cute dog coloring pages 等等
+
 主关键词用域名首页来做，二级关键词用子目录来做，三级关键词用子目录的子目录来做，最后是内页。
+
 内链建设的意思是，既要能够从首页有链接到每个二级、三级关键词，也要每个页面都有链接能够指向上级。
+
 举例，在 cute dog coloring pages 可以增加文本为“dog coloring pages”的链接指向dog coloring pages页面。
+
 在 dog coloring pages 页面，可以增加文本为“coloring pages”的链接指向首页。
+
 然后所有的页面，都增加文本为“coloring pages”的链接指向首页。
+
 也就是说，某个二级关键词的所有的三级关键词都需要指向到这个二级关键词子目录页面。
+
 然后所有的二级关键词子目录页面也需要有链接能够指向到首页。
-1.4、六字真言：分门别类罗列 然后哥飞总结了首页可以用的六字真言：分门别类罗列。
+
+**1.4、六字真言：分门别类罗列** 然后哥飞总结了首页可以用的六字真言：分门别类罗列。
+
 举例，coloring pages 网站首页结构
+
 h1 coloring pages
+
 h2 dog coloring pages
+
 h3 cute dog coloring pages
+
 img1 img2 img3 …… h3 little dog coloring pages img1 img2 img3 ……
+
 h2 cat coloring pages
+
 h3 cute cat coloring pages img1 img2 img3 …… h3 little cat coloring pages img1 img2 img3 ……
+
 h2 flower coloring pages
+
 h3 red flower coloring pages img1 img2 img3 …… h3 yellow flower coloring pages img1 img2 img3 ……
-1.5、后端渲染
+
+**1.5、后端渲染**
+
 有一点一定要注意，以上所有这些都需要直接在 html 代码里体现出来，而不能是前端渲染。
+
 也就是说，我们打开网页，浏览器右键查看网页源代码，需要能够看到这些内容。
+
 那么搜索引擎的爬虫去抓取网页，也能够抓取到这些内容。
+
 虽然，的确搜索引擎有时候能够解析前端js，触发渲染。
+
 但这需要更多的算力资源，凭什么给我们的新网站用。
+
 所以新网站，老老实实后端渲染。
-1.6、确保URL唯一 还有一点要注意，我们需要确保url唯一。
+
+**1.6、确保URL唯一** 还有一点要注意，我们需要确保url唯一。
+
 每一个网页，有可能会有多个url可以打开，但是我们需要在网页的head中通过设置 canonical 来让搜索引擎知道当前网页正确且唯一的 URL。
-举个例子，微信App在苹果AppStore的网页，苹果官方推荐的唯一URL是 https://apps.apple.com/cn/app/%E5%BE%AE%E4%BF%A1/id414478124。
+
+举个例子，微信App在苹果AppStore的网页，苹果官方推荐的唯一URL是 [https://apps.apple.com/cn/app/%E5%BE%AE%E4%BF%A1/id414478124。](https://apps.apple.com/cn/app/%E5%BE%AE%E4%BF%A1/id414478124%E3%80%82)
+
 但其实我们可以通过多个URL都能打开这个页面，如以下URL都可以：
-https://apps.apple.com/cn/app/id414478124 https://apps.apple.com/cn/app/weixin/id414478124 https://apps.apple.com/cn/app/wechat/id414478124
+
+[https://apps.apple.com/cn/app/id414478124](https://apps.apple.com/cn/app/id414478124) [https://apps.apple.com/cn/app/weixin/id414478124](https://apps.apple.com/cn/app/weixin/id414478124) [https://apps.apple.com/cn/app/wechat/id414478124](https://apps.apple.com/cn/app/wechat/id414478124)
+
+![b0a2eb3390760913a1ef733d9e72d8bd.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_010.jpg)
+
+![74af7bf7a9d20408c205c3240c9e6611.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_011.jpg)
+
+![4f095d43b65b45ece2c5b32a48dee7a1.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_012.jpg)
+
 可以看到，不管用哪个URL打开，苹果官方用 canonical 指定的规范且唯一的URL都是同一个。
+
 有些网站可能同时支持 www 和 裸域名访问，有时还同时支持 http 和 https 访问。
+
 这里也要注意，需要通过 canonical 告诉搜索引擎，我们官方指定的正确规范化 url 到底是哪一个。
+
 否则，在搜索引擎看来，就会有多个网址，打开是重复的内容。
+
 另外，包括前面说的后端渲染也是一样，如果你用前端渲染，也会让搜索引擎认为多个网页的网页是重复的，就不会收录了。
+
 好了，网站站内优化部分，就讲完了。
-二、域名、服务器
+
+**二、域名、服务器**
+
 接下来我们说说域名、服务器和部署相关
-2.1、域名购买渠道 海外站，尽量不要在国内的域名注册商注册域名，国外的推荐注册商：
-https://www.godaddy.com/ https://www.namecheap.com/ https://www.namesilo.com/ https://porkbun.com/ https://www.cloudflare.com/ https://www.hostinger.com/ 随便哪个都可以，你有哪个账号就在哪里注册，不用去纠结那几块钱的价格差
-2.2、服务器购买渠道
+
+**2.1、域名购买渠道** 海外站，尽量不要在国内的域名注册商注册域名，国外的推荐注册商：
+
+[https://www.godaddy.com/](https://www.godaddy.com/) [https://www.namecheap.com/](https://www.namecheap.com/) [https://www.namesilo.com/](https://www.namesilo.com/) [https://porkbun.com/](https://porkbun.com/) [https://www.cloudflare.com/](https://www.cloudflare.com/) [https://www.hostinger.com/](https://www.hostinger.com/) 随便哪个都可以，你有哪个账号就在哪里注册，不用去纠结那几块钱的价格差
+
+**2.2、服务器购买渠道**
+
 服务器购买渠道有很多，哥飞推荐几个哥飞知道的，其实还有很多别的，你用惯了哪个就用哪个就行。
+
 有国内阿里云、腾讯云账号的话，直接在上面购买海外服务器即可。
+
 国外的话AWS、谷歌云等也可以
-https://aws.amazon.com/ https://cloud.google.com/ https://www.digitalocean.com/ https://www.linode.com/
-2.3、不用服务器
+
+[https://aws.amazon.com/](https://aws.amazon.com/) [https://cloud.google.com/](https://cloud.google.com/) [https://www.digitalocean.com/](https://www.digitalocean.com/) [https://www.linode.com/](https://www.linode.com/)
+
+**2.3、不用服务器**
+
 那么不要服务器行不行呢？
+
 我们之前说过，也可以。
+
 其实如果是做简单前端工具的话，用 Vercel 免费版就足够了，前后端代码都可以放。
+
 前端还可以用 CloudFlare Pages ，后端可以用 CloudFlare workers。
+
 Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后再付费。
-2.4、LOGO制作工具
+
+**2.4、LOGO制作工具**
+
 再推荐几个logo制作工具
-https://ideogram.ai/ https://www.midjourney.com/ https://icon.ray.so/ https://logofa.st/
-三、如何部署
+
+[https://ideogram.ai/](https://ideogram.ai/) [https://www.midjourney.com/](https://www.midjourney.com/) [https://icon.ray.so/](https://icon.ray.so/) [https://logofa.st/](https://logofa.st/)
+
+**三、如何部署**
+
 以上这些都准备好了之后，就可以部署我们做好的网页了。
+
 哥飞先简单介绍一下一点技术小知识。
+
 用户在浏览器输入你的域名之后，会经过dns解析，找到域名提供服务的服务器IP，也许这是你自己购买的云服务器IP，也许是你的Vercel、CloudFlare等平台的IP，之后请求就会被发送到服务器里，由服务器进行一些处理后，返回html页面代码给浏览器，最终浏览器渲染出网页。
+
 所以我们购买到的域名，需要有一个dns服务器，一般域名注册商都会免费提供，我们也可以使用第三方的dns服务。这里统一建议大家使用 CloudFlare 的域名解析服务。
+
 接下来我们以 CloudFlare 和 Vercel 为例，说明如何部署一个前端工具站点。
-3.1、域名解析
+
+**3.1、域名解析**
+
 首先是配置域名解析，打开 CloudFlare ，点击左侧 Websites ，打开网站列表页面，点击右上角“Add a site”，在新开的页面输入框中填入你的域名，点击“Continue”按钮。
+
+![86b3388b951906446dd65d4e4af8d6dc.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_013.jpg)
+
 选择免费套餐，继续点击“Continue”按钮。
+
+![6a65f2c3c0671f8f42039eecdd2c7711.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_014.jpg)
+
 复制CloudFlare提供的 ns1 和 ns2 ，填到域名注册商后台的域名dns设置界面。
+
+![3b7c5519a408a659e1241b6a1ff7a611.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_015.jpg)
+
 有些dns服务商有5个ns，一般最少都有2个，CloudFlare就只有2个，那么就填这两个进去，提交保存。
+
+![e5cac2b1521ab7b433e1f1e318fdf3c3.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_016.jpg)
+
 之后继续下一步，三个都开启，最后点击“Finish”就可以了。生效需要一段时间，等回到网站列表页面，网站底下显示“Active”就表示修改dns成功了。
-3.2、添加域名解析记录
+
+![9f410d082dff2d90553253b27fb4a513.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_017.jpg)
+
+**3.2、添加域名解析记录**
+
 常用的域名解析记录类型有A记录、CNAME记录、TXT记录、MAX记录，如果只需要配置网站访问，只需要用前两个就行，如果要配置邮箱，才需要用到后两个。有时候做一些域名所有权校验，需要用到第三个TXT记录。
+
 一般别人叫你添加什么，你就添加什么就好了。
-3.3、静态网站部署
-以Vercel配合CloudFlare为例说明静态网站部署流程，总共有以下几步： 1、创建Github私有仓库，把网站前端代码提交到仓库； 2、在Vercel新建项目，选择关联上一步创建的仓库； 3、等待自动构建成功，点击Vercel免费提供的子域名，可以成功打开网站； 4、在Vercel域名设置中添加自定义域名，选择默认用无www域名，把www域名跳转到无www域名（刚好与官方建议相反），并且开始SSL证书，选择从http跳转到https； 5、在CloudFlare中添加域名解析记录，注意要SSL要选择Full模式； 6、等待解析记录生效，使用 https://域名 打开网站，部署完成。
+
+![8f6746df319b5ac3ff3b76da3ef78b67.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_018.jpg)
+
+**3.3、静态网站部署**
+
+以Vercel配合CloudFlare为例说明静态网站部署流程，总共有以下几步： 1、创建Github私有仓库，把网站前端代码提交到仓库； 2、在Vercel新建项目，选择关联上一步创建的仓库； 3、等待自动构建成功，点击Vercel免费提供的子域名，可以成功打开网站； 4、在Vercel域名设置中添加自定义域名，选择默认用无www域名，把www域名跳转到无www域名（刚好与官方建议相反），并且开始SSL证书，选择从http跳转到https； 5、在CloudFlare中添加域名解析记录，注意要SSL要选择Full模式； 6、等待解析记录生效，使用 [https://域名](https://xn--eqrt2g/) 打开网站，部署完成。
+
 通过以上步骤，我们成功部署了一个网站，可以打开搜索引擎，好好欣赏3分钟。
-四、上线第一步
+
+**四、上线第一步**
+
 那么网站部署好了之后，我们还需要做一些准备工作。
+
 如提交到谷歌 search console 后台，配置流量统计代码，添加一些外链等等。
-4.1、提交谷歌 search console 后台
+
+**4.1、提交谷歌 search console 后台**
+
 先要为网站制作制作 sitemap，具体格式请百度或者谷歌或者问GPT。
+
 之后在谷歌中搜索 site:域名 ，会有一个提示“尝试使用Google Search Console”，点击进去。
+
+![0f470f43d723386bf7f2e41ae15288a7.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_019.jpg)
+
 进去之后，在页面左侧找到按钮，添加资源，选择网域形式，输入域名，点击继续。之后因为你的域名是在CloudFlare管理的，所以可以一键授权验证所有权。如果是在别处管理，按照要求配置解析记录进去进行所有权验证即可。
+
+![a0ad1a7c2080f61f75e255b5a3786002.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_020.jpg)
+
 验证之后，就可以去添加我们之前准备好的sitemap文件，之后就等待谷歌爬虫光临就好了。
-4.2、别忘了放置流量统计代码
-打开谷歌分析 https://analytics.google.com/analytics/ ，点击左下角的设置按钮，在设置页面中点击“添加媒体资源”按钮，在新界面中按照步骤添加自己域名。按照要求，一步一步填写即可，第3步时选择“获取基准报告”。
+
+**4.2、别忘了放置流量统计代码**
+
+打开谷歌分析 [https://analytics.google.com/analytics/](https://analytics.google.com/analytics/) ，点击左下角的设置按钮，在设置页面中点击“添加媒体资源”按钮，在新界面中按照步骤添加自己域名。按照要求，一步一步填写即可，第3步时选择“获取基准报告”。
+
+![4c8a6272459f3b647b6b5e40e273562a.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_021.jpg)
+
 第4步选择类型为网站，之后输入网站域名和网站名称，提交后就可以获取网站统计代码。
-把网站统计代码放到你的网站的所有页面的 `</body>` 之前，如下所示：
+
+把网站统计代码放到你的网站的所有页面的 `</body>`之前，如下所示：
+
+![image.png](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_022.png)
+
 如果你用不太习惯，也可以同时放百度统计代码，也是放到这个 display:none 的 div 内。
-4.3、吸引爬虫 通过建立启动外链，吸引爬虫，可以尽快让搜索引擎收录我们的新网站。
+
+**4.3、吸引爬虫** 通过建立启动外链，吸引爬虫，可以尽快让搜索引擎收录我们的新网站。
+
 主要有2个办法。 1、找到谷歌爬虫经常光顾的网站，去发布帖子，宣传 如V2EX.com就是一个不错的发布网站，可以去分享创造节点发布自己的网站，注意，介绍一定要真诚一点，不要敷衍了事。
+
 2、在自己的老网站上增加友链 如果你有一些已经被收录的网站就最好了，在你的老网站里给新网站添加外链，也容易吸引到爬虫。
+
 所以当我们手里的网站越来越多之后，上一个新网站被搜索引擎收录就会更快好多。
-五、宣传推广
+
+**五、宣传推广**
+
 接下来就可以开始推广了，其实昨天文章 需求有了，网站也做好了，流量从哪来？ 已经聊了，今天补充一些。
+
 5.1、从熟悉的渠道开始 先从你熟悉的渠道开始，把你能够影响的渠道，都去发一遍。先获取第一批用户，即使不是海外用户都行，因为第一批用户可以帮助你找出一些Bug，修复一些问题。
+
 5.2、提交到周刊、聚合分享网站 接着，可以提交到一些周刊，如阮一峰的每周五科技周刊，如 ahhhhfs.com ，如小众软件等。
+
 5.3、提交到ProductHunt 之后，把产品提交到ProductHunt，能够带来真正意义上的第一波海外用户。
+
 因为我们的产品是AI工具，所以会被各个AI导航爬虫从PH上自动抓取，收录，这样又能够从这些导航站获取一批用户。
+
 5.4、提交到导航网站 然后还可以提交到一些不会自动抓取，需要我们手动提交的AI导航站，甚至有些付费的也可以试试提交，不过量力而行，太贵的就先不提交了。
+
 到这一步，你已经有几批新用户过来了，需要观察一下用户使用情况，是否能够正常使用工具，是否会愿意分享工具，看看老用户有没有带新用户进来。
+
 5.5、提交到科技媒体 如果以上步骤都效果不错的话，还可以去找一些小科技媒体，小自媒体账号，自荐一下。
+
 尽量找免费的，如果你的工具有趣且好用的话，能找到愿意帮你宣传的媒体的，因为他们发内容也需要素材。
+
 5.6、社交平台找有需求的人 最后，还可以去推特上搜索有没有人在找相关的产品，你可以去评论区自荐，注意态度一定要诚恳，诚实说是自己做的产品，请对方使用，并且提提意见。会有人不理你没关系，但也会有人理你，那就收获用户+1。
+
 经过以上步骤，你的网站就会有了初始启动用户。
+
 如果产品做得不错的话，还会被不断传播出去。
+
 同时搜索引擎也会因为外链增加而得到排名，也能够开始带来一些流量。
+
 一些都向着美好迈进。
-六、调整预期 但，是不是就可以高枕无忧，躺平不上班了呢？ 先别想太美。
+
+**六、调整预期** 但，是不是就可以高枕无忧，躺平不上班了呢？ 先别想太美。
+
 不要幻想着流量会爆发，很多时候很可能网站上线了，访问量只有很少的几个。
+
 那么我们需要调整一下预期。
+
 我们读书时学过的《劝学》分享给大家： 积土成山，风雨兴焉；积水成渊，蛟龙生焉； 积善成德，而神明自得，圣心备焉。 故不积跬步，无以至千里；不积小流，无以成江海。 骐骥一跃，不能十步；驽马十驾，功在不舍。 锲而舍之，朽木不折；锲而不舍，金石可镂。 蚓无爪牙之利，筋骨之强，上食埃土，下饮黄泉，用心一也。 蟹六跪而二螯，非蛇鳝之穴无可寄托者，用心躁也。
+
 对于我们来说，有些朋友之前已经有相关经验，那么目标可以定得高一些。
+
 但是对于没有经验的朋友来说，最好的办法就是目标放低一点。
+
 看得上小钱，才能赚大钱，积少成多，聚沙成塔
+
 我们先从我们能力范围内能做的网站开始做起，先把第一个网站做出来。
+
 能够从搜索引擎获取到免费的流量，能够从Adsense赚到第一笔广告费，那就说明你入门了。
+
 举例，去找需求的时候，先找搜索量小一些并且竞争度低的词，先按照这个操作方法，做一个网站，上线后从谷歌拿到流量再说。有了这样的正反馈之后，我们才会更有动力去投入进去做更难一点的词。
+
 就我的经验来讲，谷歌依然还是搜索霸主，谷歌就是一片大海，我们去谷歌之海航行，词找对的话，2周内就能够拿到结果。甚至快的，一周就能有流量进来。
+
 哥飞有个朋友，算是新手，7月开始做网站，到现在做了3个网站了，加起来一天的广告费已经超过500美元了。
+
 这，就是谷歌的馈赠。希望大家都能有收获。
+
+[上一篇: 【5000字长文】海外工具从需求挖掘到网站制作全流程让你一篇文章学会](https://new.web.cafe/tutorial/detail/gz96vzpif7dW65iFcHDbTY)[下一篇: 新手怎么做好出海第一站？](https://new.web.cafe/tutorial/detail/1mKHV1JxHVn8pHSYjhPgaK)
+
 评论区
 
-理想是自由
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_023.jpg)
 
-2025-08-01 10:21
+    Jing
 
-回复
+    2024-09-10 04:08
 
-打卡
+    回复
 
-Johnson
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_024.jpg)
 
-2025-08-05 16:06
+    独孤久鉴
 
-回复
+    2024-11-08 20:15
 
-打卡
+    回复
 
-- . -
+    写得太详细了，佩服
 
-2025-08-14 10:19
+    ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_025.jpg)
 
-回复
+    M 🇸
 
-打卡
+    2025-12-11 17:56
 
-Striver
+    回复
 
-2025-08-20 13:23
+    大多数都是一笔带过吧
 
-回复
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_026.jpg)
 
-打卡
+    Cyrus
 
-小楼
+    2025-01-09 15:18
 
-2025-08-25 16:07
+    回复
 
-回复
+    太详细了，飞哥牛逼
 
-打卡
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_027.jpg)
 
-Sigma
+    Steve
 
-2025-09-03 01:02
+    2025-01-11 20:47
 
-回复
+    回复
 
-打卡
+    learn over
 
-Z
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_028.jpg)
 
-2025-09-24 21:33
+    测不准
 
-回复
+    2025-02-24 23:41
 
-1
+    回复
 
-违章动物
+    感谢经验
 
-2025-10-30 14:17
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_029.jpg)
 
-回复
+    請給我一支蘭州
 
-打卡
+    2025-04-27 16:37
 
-简扬♪
+    回复
 
-2025-11-04 23:05
+    打卡
 
-回复
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_030.jpg)
 
-收获很大，看来自己之前做的，有很多遗漏，做得不好的地方。
+    2025-06-12 14:25
 
-汐财
+    回复
 
-2025-12-26 12:40
+    自己之前做过站，从cloudflare看每月还有2000访问，但估计都是爬虫，必须从google console 看才真实
 
-回复
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_031.jpg)
 
-打卡，从这篇文章开始，大概有概念了
+    LFT
 
-Qi
+    2025-06-27 15:32
 
-2026-02-14 20:24
+    回复
 
-回复
+    打卡
 
-打卡打卡
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_032.jpg)
 
-霍建铨
+    三球法术
 
-2026-02-22 11:59
+    2025-07-04 16:20
 
-回复
+    回复
 
-温故而知新
+    打卡
 
-陈慧_Vera
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_033.jpg)
 
-2026-03-16 14:20
+    Richao
 
-回复
+    2025-07-05 18:30
 
-打卡
+    回复
 
-简语
+    打卡，跟着哥飞一步一步实践
 
-2026-05-17 17:04
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_034.jpg)
 
-回复
+    宇古
 
-打卡
+    2025-07-06 08:47
+
+    回复
+
+    1.  网站怎么开头？先搞清楚“人家到底想搜啥” • 别一上来就埋头写内容，先想清楚：用户搜这个词，是想找啥？工具？教程？服务？还是买东西？ • 你得对症下药，页面内容要能正好“接住”这些流量。
+
+    2.  TDK是啥？就是“门面三件套” • Title（标题）：写得好，搜索引擎和用户都爱点你。比如豆瓣电影页，直接写电影名+豆瓣，人家有底气。你没底气？那就把用户关心的都写上，比如“主演/评分/票房”。 • Description（描述）：补充介绍，吸引人点进来。可以把没写进标题的内容放这里。 • Keywords（关键词）：现在基本没人管了，直接删掉也行，别堆太多。
+
+    3.  网页结构要像写作文，分层分段 • h1：每页只能有一个，像作文题目，给人和搜索引擎看。 • h2、h3：分小节，分小点，能有条理。 • p：正文内容都放这里，图片也能放进来。 • img：图片要写alt（描述），让搜索引擎知道你图里是啥，图片尽量大点，300x300起步。
+
+    4.  内链怎么做？像搭积木，层层递进 • 首页放主关键词，二级页面放二级词，三级页面放三级词。 • 每个页面都要能点回上一级，比如“可爱狗狗填色页”能点回“狗狗填色页”，“狗狗填色页”能点回“填色页”首页。 • 这样做，权重能层层传递，搜索引擎也能顺着爬。
+
+    5.  首页内容怎么排？“分门别类罗列” • 就是把所有内容像超市货架一样分好类、列出来。 • 比如填色页网站，首页先h1“填色页”，下面h2“狗狗填色页”，h3“可爱狗狗填色页”，每个下面都放几张图，接着h2“猫咪填色页”……依次类推。
+
+    6.  后端渲染，别偷懒 • 所有内容都要直接写进HTML里，别只靠前端JS渲染。 • 搜索引擎爬虫喜欢“现成的饭”，不爱等你前端慢慢炒菜。 • 新网站尤其要老老实实后端渲染，别想着投机取巧。
+
+    7.  URL唯一，别让搜索引擎迷路 • 一个页面可能有好几个网址能打开，但你得告诉搜索引擎“哪个才是正宫”。 • 用canonical标签，指定唯一的标准URL，别让权重分散。
+
+    8.  域名和服务器怎么买？ • 域名推荐国外注册商：GoDaddy、Namecheap、Cloudflare、Porkbun等，国内也能买但不推荐出海用。 • 服务器随便选，阿里云、腾讯云、AWS、Google Cloud都行，做简单工具站还可以用Vercel、Cloudflare Pages免费套餐。
+
+    9.  部署上线流程像做饭 • 代码放GitHub，Vercel自动构建，Cloudflare做DNS解析，SSL证书全自动，几步搞定。 • 最后用https访问，网站就上线了。
+
+    10.  上线后要做啥？ • 提交网站到Google Search Console，做sitemap，等爬虫来抓。 • 加上Google Analytics统计代码，随时看流量。 • 可以在高权重网站发帖、老站点加友链，吸引爬虫快点来。
+
+    11.  推广怎么搞？ • 先在自己熟悉的渠道发一遍，拉来第一批用户，哪怕是亲戚朋友。 • 提交到科技周刊、导航站、ProductHunt等，能带来更多曝光。 • 社交平台主动找目标用户，真诚自荐，别怕被拒绝。
+
+    12.  别幻想一夜暴富，慢慢来 • 网站刚上线，流量很少很正常，别灰心。 • 先做小词、冷门词，拿到第一波流量和广告费，积累信心。 • 谷歌依然是流量大海，方法对了，2周就能见效果。
+
+    一句话总结： 做网站就像盖房子，地基（结构/SEO）要打牢，材料（内容/图片）要新鲜，水电（内链/URL）要通畅，装修（TDK/描述）要吸引人，最后还得自己出去吆喝（推广/外链），别指望一夜暴富，慢慢积累才是王道！
+
+    ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_035.jpg)
+
+    燚
+
+    2026-01-01 12:35
+
+    回复
+
+    牛逼
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_036.jpg)
+
+    峻菁
+
+    2025-07-07 11:07
+
+    回复
+
+    打卡
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_037.jpg)
+
+    阿木子三不知
+
+    2025-07-07 19:47
+
+    回复
+
+    打卡
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_038.jpg)
+
+    图南
+
+    2025-07-09 12:30
+
+    回复
+
+    打卡
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_039.jpg)
+
+    毅往无前
+
+    2025-07-12 16:34
+
+    回复
+
+    入群第一天，看了这么多干货！ 不积跬步，无以至千里；给自己和群友们加油！！！
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_040.jpg)
+
+    JsonChao
+
+    2025-07-17 15:44
+
+    回复
+
+    打卡
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_041.jpg)
+
+    Alexander
+
+    2025-07-19 22:21
+
+    回复
+
+    打卡
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_042.jpg)
+
+    一大口米
+
+    2025-07-23 15:32
+
+    回复
+
+    打卡
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_043.jpg)
+
+    Traveling Light
+
+    2025-07-27 13:04
+
+    回复
+
+    打卡
+
+-   ![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_044.jpg)
+
+    Ju火巨
+
+    2025-07-28 23:28
+
+    回复
+
+    打卡
+
+![](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_045.jpg)
+
+添加图片添加隐藏回复
+
+[![new.web.cafe](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_046.svg/)
 

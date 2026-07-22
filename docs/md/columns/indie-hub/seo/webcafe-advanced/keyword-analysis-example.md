@@ -1,14 +1,104 @@
+# 【哥飞看词】帮社群里朋友看一个关键词是否能做
+
+> 原文链接: https://new.web.cafe/tutorial/detail/6y8debz2oj
+> 作者: 哥飞
+> 日期: 2025-08-04 11:40
+> 标签: 关键词
+
 ---
-title: "哥飞看词帮社群里朋友看关键词"
-date: "2025-08-04"
-source: "web.cafe"
-author: "哥飞"
-url: "https://new.web.cafe/topic/6y8debz2oj"
----
 
-# 哥飞看词帮社群里朋友看关键词
+大家好，我是哥飞。
 
-> 来源：[web.cafe 进阶教程](https://new.web.cafe/topic/6y8debz2oj)
-> 作者：哥飞
+社群里朋友找到一个关键词"pizza edition"，说优化难度低，让哥飞看看确认一下。
 
-大家好，我是哥飞。社群里朋友找到一个关键词pizza edition，说优化难度低，让哥飞看看确认一下。所以哥飞干脆开一个新栏目哥飞看词，时不时帮大家看看某个关键词是否可以做。我们直接开始，先在谷歌趋势里拿pizza edition和GPTs比，会发现pizza edition是一个搜索量还不小的词。我们再拿这个词去ahrefs的Keyword Difficulty Checker查，会发现优化难度居然只有1，只需要2个网站的反链就能够进入谷歌搜索前10的位置。再看谷歌搜索结果，排名第一的结果居然是一个内页。种种迹象表明，朋友找到了一个优化难度很低且搜索量不小的关键词。但是不要急着注册域名，再看看。先看谷歌搜索结果，排名前四的结果里，有两个是Google Sites做的网站。这说明什么？说明这个词竞争很激烈，Google Sites本身就是高权重域名，如果它们都在做这个词，说明这个词值得做，但竞争也很大。再看搜索结果，排名第五到第十的结果里，有一些是比较小的网站。这说明小网站也有机会。综合来看，pizza edition这个词：优点：搜索量不错，优化难度低，有商业化潜力。缺点：竞争激烈，已经有高权重网站在做。建议：可以做，但要做好长期投入的准备。可以通过高质量内容+外链建设来提升排名。不要指望快速见效，需要3-6个月才能看到明显效果。同时，可以考虑做长尾关键词，比如pizza edition game、pizza edition online等。
+所以哥飞干脆开一个新栏目"哥飞看词"，时不时帮大家看看某个关键词是否可以做。
+
+我们直接开始，先在谷歌趋势里拿"pizza edition"和"GPTs"比，会发现"pizza edition"是一个搜索量还不小的词。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_000.png)
+
+我们再拿这个词去ahrefs 的 Keyword Difficulty Checker 查，会发现优化难度居然只有1，只需要2个网站的反链就能够进入谷歌搜索前10的位置。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_001.png)
+
+再看谷歌搜索结果，排名第一的结果居然是一个内页。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_002.png)
+
+种种迹象表明，朋友找到了一个优化难度很低且搜索量不小的关键词。
+
+但是不要急着注册域名，再看看。
+
+先看谷歌搜索结果，排名前四的结果里，有两个是Google Sites的内页，有两个是首页，一个是子域名首页，一个是主域名首页。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_003.png)
+
+再去 Ahrefs 这里看看前几的流量，还是有一些流量的，但其实也不算大。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_004.png)
+
+我们再看一眼这张图，有没有发现，前三结果的反链数量都是个位数？
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_005.png)
+
+但是，我们去查一下第四名，就会有大发现，这个站居然有81个反链，而且DR有49。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_006.png)
+
+那为什么只能排第四名呢？
+
+有两个原因，先说第一个，Title中关键词并没有完全匹配，并且页面里关键词密度也不够，H1直接空白。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_007.png)
+
+再说第二个原因，是因为 Google Sites 的域名权重太高了。
+
+虽然这个游戏站只有五个外链，但因为用的是 sites.google.com 这个高权重域名，所以即使是内页，也能够排到前面，这就是高权重站的优势。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_008.png)
+
+所以，因为上面说的这两个原因，即使第四名的域名权重高，但依然进不了前三。
+
+好，我们再看下第二名，是一个 Github Pages 的子域名，月访问量不多，才七万多。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_009.png)
+
+用的直接是网站首页，并且有9个外链。
+
+那为什么9个外链网站，就能够打败第四名呢？
+
+原因是关键词覆盖到了，并且在网页H1里也有体现出来。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_010.png)
+
+从这里可以看出，哥飞一直讲的站内优化有多重要了吧。
+
+那么回到问题，这个词是否值得做呢？
+
+哥飞的建议是，不建议去做。
+
+因为即使拿到了第二名，月访问量也才七万多。
+
+而想要拿到第一名，其实会有一定难度的。
+
+当然如果你就想拿来练手，也可以去试试，目标不要那么高，只要能够进入谷歌搜索结果前10 ，就算练手成功了。
+
+上面提到了 sites.google.com ，这是啥子东西？
+
+我们打开 https://sites.google.com/ 就会发现，这是谷歌的一个建站工具，可以让你不需要编程也能做网站。
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_011.png)
+
+哥飞刚才随手做了一个站 https://sites.google.com/view/gefei/ ，效果如下：
+
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_012.png)
+
+发现没有，生成的网站，直接用的是高权重域名 sites.google.com 的内页。
+
+这东西有什么好处呢？
+
+哥飞已经在付费社群"哥飞的朋友们"里给朋友们讲解清楚了，并且这类的平台还不止一个。
+
+想要知道吗？
+
+想要跟着一起做网站赚美元吗？想要跟着哥飞学SEO搞流量吗？ 欢迎加入哥飞的付费社群"哥飞的朋友们"。

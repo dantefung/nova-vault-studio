@@ -1,14 +1,556 @@
----
-title: "看排行榜挖掘赚钱产品基于Stripe入站流量"
-date: "2024-08-13"
-source: "web.cafe"
-author: "哥飞"
-url: "https://new.web.cafe/topic/wBf7QCAM8YRWFUqaPdDoA2"
+# 看排行榜挖掘赚钱产品，基于Stripe入站流量估算产品收入
+> 原文链接: https://new.web.cafe/tutorial/detail/wBf7QCAM8YRWFUqaPdDoA2
+
 ---
 
-# 看排行榜挖掘赚钱产品基于Stripe入站流量
+![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_000.jpg)
 
-> 来源：[web.cafe 进阶教程](https://new.web.cafe/topic/wBf7QCAM8YRWFUqaPdDoA2)
-> 作者：哥飞
+哥飞2024-08-13 15:35
 
-大家好，我是哥飞，一个自称为SEO专家的出海AI工具创业者。我在2007年开始学编程就是从做网站开始的，也是从那个时候开始学习搞SEO，到现在断断续续搞了16年了。以前主要做百度SEO流量，最近转战谷歌，因为做谷歌就意味着可以面向70亿人做产品，为全球70亿人服务，赚全世界人民的美元。今天跟大家聊聊一些目前正在赚钱的AI产品。主要分成三部分：分享彪哥发现的通过看排行榜挖掘赚钱产品的方法；从排行榜里找一些产品，分析流量来源，估算月收入；总结下目前还能够获取到流量的一些渠道。第一部分，如何找到这些目前正在赚钱的AI产品。方法很简单，就是看排行榜。这个方法最早是彪哥和杉木哥等走在前面的领路人分享出来的，感谢他们！如果是网站产品，可以看 Toolify.ai 排行榜。如果是Chrome扩展，可以看 Chromewebstore 排行榜。如果是SaaS产品，可以看 ProductHunt 排行榜。这些排行榜会告诉你哪些产品目前最受欢迎，哪些产品正在赚钱。第二部分，分析产品流量来源。找到产品后，可以用 SimilarWeb 或 Ahrefs 分析它的流量来源。看看它主要从哪些渠道获取流量，是SEO、付费广告、社交媒体还是其他渠道。同时，可以估算它的月收入。如果是SaaS产品，可以根据它的定价和用户量来估算。如果是Chrome扩展，可以根据它的下载量和评分来估算。第三部分，目前还能够获取到流量的渠道。1. Google SEO：仍然是最主要的流量来源，做好内容和外链，可以获得稳定的自然流量。2. Bing SEO：竞争比Google小，适合新站。3. ProductHunt：新品发布的好平台，可以获得一波初始流量。4. Twitter/X：适合做个人品牌和内容营销。5. Reddit：适合做社区营销和长尾流量。6. YouTube：适合做视频内容和教程。7. Chrome扩展商店：如果做Chrome扩展，这是必争之地。总结：做海外工具站，关键是要找到需求，做好产品，然后通过多渠道获取流量。不要只依赖一个渠道，要多元化布局。
+进阶教程
+
+## 进阶教程
+
+# 看排行榜挖掘赚钱产品，基于Stripe入站流量估算产品收入
+
+收藏
+
+大家好，我是哥飞，一个自称为SEO专家的出海AI工具创业者。
+
+我在2007年开始学编程就是​从做网站开始的，也是从那个时候开始学习搞SEO，到现在断断续续搞了1​6年了。
+
+以前主要做百度SEO流量，最近转战谷歌，因为做谷歌就意味着可以面向70亿人做产品，为全球70亿人服务，赚​全世界人民的美元。
+
+今天跟大家聊聊一些目前正在赚钱的AI产品。 主要分成三部分：
+
+1.  分享彪哥发现的通过看排行榜挖掘赚钱产品的方法；
+2.  从排行榜里找一些产品，分析流量来源，估算月收入；
+3.  总结下目前还能够获取到流量的一些渠道。
+
+**第一部分** ，如何找到这些目前正在赚钱的AI产品。
+
+方法很简单，就是看排行榜。 这个方法最早是彪哥和杉木哥等走在前面的领路人分享出来的，感谢他们！
+
+如果是网站产品，可以看 Toolify.ai 的收入排行榜或者IndieHackers.com 的收入排行榜。
+
+如果是 App 产品可以看 SensorTower.com、DianDian.com、QiMai.cn、Data.ai 等产品。
+
+不过我对 App 不是特别熟悉，所以我们今天只讲 Web 形态的产品。
+
+我们先看下 Toolify.ai 收入排行榜的截图：
+
+[https://www.toolify.ai/Best-AI-Tools-revenue](https://www.toolify.ai/Best-AI-Tools-revenue)
+
+![ddd004519d77b92e5426852bd964ea31\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_001.png)
+
+注意这里虽然第一眼看起来是按照流量排序的，好像跟收入没关系，但其实只是因为一般来讲流量越大收入越高，所以前面一些产品刚好流量排名和收入排名重合了。
+
+看第7名和第8名就知道，这个榜单不是流量排行榜。
+
+那么这个榜单的收入是怎么来的呢？
+
+很简单，凭经验值估算的。
+
+但也不是瞎估算，而是要有参考依据的。
+
+参考依据是什么呢？就是上面截图中哥飞用红色圈出来的，基于收款平台的数据。
+
+先说下原理，当一个网站，接入了 Stripe 支付后，用户想要付费，就会从这个网站点击打开 Stripe 收银台页面进行支付。
+
+我们拿 ChatGPT 网站升级 Plus 套餐为例。
+
+![286329d63d8a011fee5dba7ff28b9f8b\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_002.png) 当我们点击“Upgrade to Plus”按钮后，会打开下面的页面： ![5cc80fb3dca243962ef46e0d77b64c99\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_003.png)
+
+可以看到，虽然打开的网页域名是 pay.openai.com ，但从左下角的“Powered by Stripe”可以知道，这其实是 Stripe 的页面。
+
+![b8959041139fca8680b2ad4fb7ad87d2\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_004.png)
+
+会显示为 pay.openai.com 是因为 OpenAI 在 Stripe 后台绑定了自定义域名。
+
+那么根据 pay.openai.com 这个域名的访问量，就可以算出 ChatGPT 的订单数量。
+
+![a55beef115e5be8672d9ce28e953ca70\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_005.png)
+
+在 Similarweb 可以查到这个域名的3月访问量是658万，其中有450万来自于外部链接。
+
+![145c6f7f33ff8b36cac1c2bc6cad38b0\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_006.png)
+
+![7f29aca4579827202143c639c627944e\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_007.png)
+
+而外部链接里99.9%流量都来自于 chat.openai.com ，所以我们就可以假设收银台页面在3月总共被打开了450万次，我们假设打开一次就是一个订单，也就是有450万个订单。
+
+这里我再解释下，一般打开了 Stripe 的收银台页面，就是已经创建好订单了。用户打开这个订单后，有可能不输入任何信息，直接关闭，也有可能会输入信用卡信息，确认支付。这里就有两种结果，支付成功或者支付失败，失败的原因可能有多种，如被限制了、卡余额不足、卡信息填错等等。
+
+也就是说订单数量不能等同于支付成功数量，这里有一个转化比例，我自己的AI工具类产品，支付成功比例从10%到50%都有。
+
+我们假设 ChatGPT 订单支付成功率是20%，也就是有 90 万个订单，每个平均支付 20 美元，那么总营收就是 1800 万美元。
+
+ChatGPT 的实际支付成功率估计不止 20%，具体多少，哥飞也不知道。
+
+但我们掌握了这个方法，至少可以大概判断一个产品的月收入是多少。
+
+有些产品没有在 Stripe 设置自定义域名，我们就没办法直接看收银台域名的流量来判断收入了。
+
+这时候其实也是有办法的，观察会发现，点击支付后打开的 Stripe 收银台地址是 checkout.stripe.com ，那我们就可以去看 checkout.stripe.com 的流量。
+
+![4dadcba90e6ba09cf2ef7fccaab0d4d1\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_008.png)
+
+可以看到这个域名每个月的访问量在两三千万，也就是说，所有接入了Stripe支付但没有设置自定义域名的网站，一共每个月有两三千万个订单。
+
+那要怎么分出来，每一个网站的订单数量呢？
+
+刚才我们说明，在接入了Stripe支付的网站点击就会打开Stripe的收银台页面，这个时候，【接入了Stripe支付的网站】就是【Stripe收银台网站】的【外部链接网站】，所以就可以在 Similarweb 的热门外链网站模块看到每一个网站的数据。
+
+![5c84f261312c1be76380f6862b88430c\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_009.png)
+
+点击右下角链接，打开新页面，我们就得到了订单排行榜。
+
+![d49dc1a13163384d7ff200155003600b\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_010.png)
+
+举例，上面是3月份的订单数量排行榜，排名第一的是 roblox.com ，是一个套了元宇宙概念的类4399网站，上面有很多各种各样的小游戏，3月的网站访问量是6.669亿，其中订单量是140万，具体支付成功率哥飞没去估算，反正也不是AI产品，我们就跳过。
+
+![6e9b695453262751bec8d1e29f03f69e\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_011.png)
+
+再看第二个产品 Midjourney 就是典型的AI产品了，3月份订单数量约为67万个。
+
+![c1309592c8dd7fe450558622df07ca78\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_012.png)
+
+Midjourney 提供这么多套餐，我们假设平均每个订单25美元，假设支付成功率是40%，那么算下来月收入是67_25_0.4=670万美元。
+
+而实际上 Midjourney 属于订阅制，用户订阅后如果不是主动取消，下个月还会自动扣款，所以这670万可以理解为新增收入，而每个月还有老用户的订阅收入，所以总收入肯定是不止我们计算的这些。
+
+查看科技媒体报道，说 Midjourney 2023 年收入是2亿美元，算下来平均每个月是1666万美元。
+
+从这里我们可以看到，对于这种超级大的产品，我们其实并没有那么容易去估算真实的月收入。
+
+但是，其实很多时候我们也不需要知道真实的收入，只要知道订单数量，就能够判断出来说，某一个AI产品到底有没有收入，进而去判断这个产品对应的需求大概有多大，我们是否值得去进入这个市场。
+
+那么是不是就完全无法知道一个AI产品的月收入到底是多少呢？
+
+也不是。
+
+有一些开发者奉行 Build in Public 原则，会每个月公布自己产品的月收入，这也是他们宣传产品的一种方式。
+
+通过去 Twitter 关注这些开发者，就能够知道真实收入。
+
+甚至还可以再去Similarweb看他网站的流量情况，这样就能够倒推支付成功率等信息。
+
+另外 IndieHackers 网站，也有一个收入排行榜，数据都是真实的，来自于开发者授权IndieHackers网站读取的Stripe真实收入。
+
+[https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue](https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue)
+
+![d33fa823579f4ba7c9dc1a70e57b186c\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_013.png)
+
+总结一下，我们可以通过 Toolify 和 IndieHackers 的排行榜直接看目前正在赚钱的AI产品，也可以通过在 Similarweb 看 Stripe 收银台的流量数据来估算其它一些AI产品的收入。
+
+[https://www.toolify.ai/Best-AI-Tools-revenue](https://www.toolify.ai/Best-AI-Tools-revenue) [https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue](https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue)
+
+**第二部分**，找几个产品来实际具体分析一下。
+
+先看 Jenni AI ，这是一个AI写作类产品，更准确地说是帮你写论文，写文献综述等各种各样内容的AI产品。
+
+![5971cb300bc7cc7326b623e0d8ab9273\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_014.png)
+
+论文写作，这个是用户付费意愿比较强的需求。
+
+从流量角度看，过去一年流量没有特别大的变化，一直在一百多万徘徊。
+
+![4ce653e8674bed7662ae7382d173b905\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_015.png)
+
+![271269ed2fea5e2ce712546390b3f557\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_016.png)
+
+28.9%流量来自于自然搜索，也就是通过SEO，从各个搜索引擎免费获取的流量。约10%流量来自于付费广告，7.1%来自于社交媒体分享，3.9%来自于外部链接，剩下还有49.4%来自于直接访问，说明这个网站的留存不错。
+
+![794d957fd06eb286c0dec82a31ad3b5f\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_017.png)
+
+按照刚才介绍的方法，我们可以看到，最近12个月， Jenni AI 跳转到 Stripe 的访问量是13.18万，也就是过去12个月产生了这么多个订单。
+
+因为 IndieHackers 上显示的是 Mrr ，也就是月度经常性收入，所以我们先看下3月的新增订单数量是3.73万，假设支付成功率是10%，那么就有3730个成功支付订单。
+
+![d7ccdc525b3ec8d088a5309436ab7217\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_018.png)
+
+![927905cc44a786a037521a2cff6d243a\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_019.png)
+
+再看下 Jenni AI 的套餐是单月20美元，如果一次性支付12个月，就能优惠40%，只需要12美元一个月，算下来就是要支付144美元。 这里我们假设全部人都选择了年付套餐，那么新增收入就是3730\*144=537K。
+
+![ab72b5f6ced599f26e8498e63763a2f8\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_020.png)
+
+而 IndieHackers 上面显示的收入是574K，看起来，猜对了？
+
+但其实是错的，因为不可能所有人都选择年付，也就是有一部分人会选择20美元，这里假设60%选择年付，40%选择月付。
+
+那么算下来的收入就是 3730\*(144_0.6+20_0.4)=352K。
+
+还差 574K-352K=222K ，可以理解是之前用户订阅后的自动付款。
+
+那么上面这几个数字就算对了吗？
+
+其实我们也是用了大量假设，先假设付费成功率是10%，再假设有60%选择年付，40%选择月付，这么多假设凑出来的数字当然不可能反映真实情况。
+
+实际情况如何，就需要用上各种办法去调查，尽可能少假设，多用真实数据。
+
+但我们今天只是跟大家分享这个方法，所以就大胆假设了。
+
+![11a6c536e3acbad68fb2aa880f4a1db7\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_021.png)
+
+好了，我们再去看看广告投入，基于Similarweb估算的数据，3月 Jenni AI 的搜索广告投入是9万美元左右。
+
+这相比于每个月有57万美元收入来说，ROI就很高了。
+
+刚才上面说过，这主要是得益于有28.9%的来自于搜索引擎的流量。
+
+这部分流量完全不花钱，只要做好了SEO就能够得到，可以理解为是谷歌的馈赠。
+
+![4e99bfea069453444daae582d1cdd506\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_022.png)
+
+Jenni AI 还有 7.1% 流量来自于社交媒体，主要来自于 Youtube 视频，排名第二的是 Linkedin ，Whatsapp 也来了不少流量。
+
+所以我们的AI产品，如果做好用户引导，让用户能够主动分享到社交平台上，也是能够获得不错的流量和关注度的。
+
+我们再看一个产品 StealthGPT ，这是一个生成“Undetectable AI Content”的AI工具，也就是说他生成出来的内容不太容易被AI检测工具检测出来。
+
+![3e5bde623a35d1439fc122cd1a2be4aa\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_023.png)
+
+在 IndieHackers 上公布出来的，被验证的收入是201K美元。
+
+![840792c7916fd8733ac3ab22f1b01914\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_024.png)
+
+![dbe0b95696155135c841e2b9caa7aaeb\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_025.png)
+
+而这个网站的访问量目前才26.4万每个月，即使最高峰也才33.8万。
+
+这么一点流量，居然能够产生这么高的收入，这就是目前AI出海产品的魅力。
+
+差不多相当于每一个访问量可以产生 20.1/26.4=0.76 美元的收入。
+
+![69bfd09b139928cdba933024e2af88fb\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_026.png)
+
+查看导入到 Stripe 的订单大概是9.6K个，这里我们忽略支付成功率，假设成功率就是100%，计算一下每个订单的金额大概是20.9美元。
+
+这个领域，目前流量更大的是另一个产品，谷歌搜索“Undetectable AI”可以找到，排第一名的就是。 ![8ff4a33160d6e6aa4a20b0d9850cfa58\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_027.png) 可以看到 Undetectable AI 直接用需求关键词注册域名，这样就把行业需求词变成了自己的品牌名称，在谷歌眼里，就相当于大家搜索 Undetectable AI 需求，想找的是 Undetectable AI 这个网站。 这是很牛逼的一个策略。 ![8708a81fee9ea14855dd9ef7b2722bea\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_028.png) 这个网站3月的访问量是416.9万，假设这是同一批潜在用户，那么按照每一个访问量0.76美元计算，这个网站的月收入是316万美元。 不过实际肯定是没有那么多的。
+
+![344df8d101571eb3752dcab98a592cb0\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_029.png)
+
+我们查到这个网站3月份导入到Stripe的订单大概是60.5K。
+
+同样按照100%支付成功率计算，得到的金额是60.5_1000_20.9=126万美元。
+
+我们取126万到316万的中间数，所以大概估算这个网站每个月的收入是220万美元。
+
+再次说明一下，以上估算我们用到了大量的拍脑袋想的经验值，不保证准确率。
+
+![3559d3bbe08b4db461011e2e05927da6\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_030.png)
+
+Undetectable AI 每个月的流量里有47.74%来自于搜索引擎，这也是完全免费的流量，也就是几乎差不多有100万美元的收入来自于免费流量。
+
+![ca61113ca7bdf382593ad02d0c379afa\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_031.png)
+
+3月花出去的广告费是22.7万美元，敢花这么多钱出去，说明肯定是赚钱的，ROI能够打正的。
+
+有10.43%的流量来自于付费搜索，也即是大约能够产生22.9万美元收入。
+
+这样算起来，ROI才刚刚打正，为什么他还愿意花这么多钱去打广告呢？
+
+从上面的付费关键词可以看到，核心关键词“Undetectable AI”上就花了16万的广告费，说明他需要靠着付费广告来把这个词的精准流量都拿下，之后再用这些量来拿到自然搜索的排名。
+
+好了，以上就是第二部分，我们找了几个产品分析了一下。 列表里还有上百个产品，大家都可以按照这样的方法去分析。
+
+**第三部分**，目前还有效的流量获取渠道。
+
+目前海外获取流量，主要有以下几种方式：
+
+1、SEO+SEM
+
+免费+付费组合，尽可能拿下所有的精准流量，而且付费流量还可以进一步巩固免费流量的位置；
+
+2、Affliates
+
+也就是通过真金白银的返佣金机制，让很多中小流量渠道帮助我们推广。
+
+3、导航站
+
+目前全球有300+个AI导航站，大部分是不需要花钱就能够提交，或者他们会自动收录，但还有很多有流量的AI导航站需要花钱才能提交，不过一般花的钱也不多，目前最贵的是全球排名第一的AI导航站 theresanaiforthat.com ，单次提交费用需要三百多美元。
+
+而全球排名第二的AI导航站是杉木大哥做的 Toolify.ai ，目前提交只需要49美元，价格很便宜了。
+
+另外有些AI导航站还会去注册Affliates，也就是所有从导航过来的付费用户，他们都要收佣金。
+
+4、Reddit
+
+Reddit 类似于贴吧，有很多很多各种不同的频道，有些频道支持我们发布自己产品的宣传帖子。
+
+老外比较喜欢分享创业故事、产品故事的帖子，所以可以软一点，千万不要扔下一个链接就跑，那样就太硬了，很容易被删帖。
+
+5、YC Hacker News
+
+Hacker News 上有一个 Show HN 频道，允许全球开发者发布自己的产品，可以直接留链接，然后写产品介绍。
+
+同样更建议软一点，讲故事的形式，这样可以引起讨论，获得更多曝光。
+
+6、ProductHunt
+
+这上面每天都有很多产品在打榜，我们中小团队，没什么特色的产品，其实也是可以发到上面的，不为别的，能够拿到一个外链也是不错的。
+
+而如果你的产品有特色，能够吸引用户自发参与讨论，帮你投票，你再辅助一些付费投票，拿下前三名的话，可以带来很多二次传播。
+
+这对于品牌宣传还是很有帮助的。
+
+7、红人营销
+
+找到Tiktok、Instagram、Youtube等平台上有一定粉丝自己的红人，请他们体验完我们产品后，制作一个视频发布到他们的账号上，也是可以带来不错的热度和流量。
+
+不过这块我不太熟悉，没有实际操作过。
+
+8、社交媒体
+
+Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值得我们去挖掘。
+
+同样也可以找一些达人帮我们发帖宣传。
+
+* * *
+
+上面我只列出来了8种，其实肯定还有更多方式，就需要大家去探索了。 另外每一种方式其实可以跟别的方式结合一起一起使用。
+
+好了，以上就是今晚分享的全部内容。
+
+[上一篇: 新手怎么做好出海第一站？](https://new.web.cafe/tutorial/detail/1mKHV1JxHVn8pHSYjhPgaK)[下一篇: 如何使用谷歌趋势找新词，如何判断一个关键词是新词](https://new.web.cafe/tutorial/detail/gZnGR6eDaKxdyeT4ouR6KV)
+
+评论区
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_032.jpg)
+
+    請給我一支蘭州
+
+    2025-04-27 17:08
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_033.jpg)
+
+    2025-06-12 15:29
+
+    回复
+
+    IndieHackers 很早前注册了，原来还有这么多有用的方式
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_034.jpg)
+
+    LFT
+
+    2025-06-27 17:30
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_035.jpg)
+
+    三球法术
+
+    2025-07-04 17:29
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_036.jpg)
+
+    Richao
+
+    2025-07-05 20:12
+
+    回复
+
+    打卡，继续学习，开发上线只是20%，80%的工作是找需求和推广
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_037.jpg)
+
+    宇古
+
+    2025-07-06 10:23
+
+    回复
+
+    1.  怎么找到正在赚钱的AI产品？ ￼ • 看排行榜：直接去看专门统计AI产品收入的网站排行榜，比如 Toolify.ai、IndieHackers.com。 • 只看Web产品：作者主要分析网站类AI产品，不涉及App。 • 排行榜的收入怎么算的？ ▫ 不是随便猜，是根据产品用的支付平台（比如 Stripe）的数据来估算。 ▫ 只要网站用 Stripe 收款，用户付费时会跳转到 Stripe 的收银台页面。 ▫ 通过统计这些收银台页面的访问量，可以大致推算订单数量。
+
+    2.  怎么估算产品收入？ ￼ • 以 ChatGPT 为例： ▫ 统计 pay.openai.com 这个 Stripe 收银台页面的访问量（比如3月有450万次）。 ▫ 假设每次访问就是一个订单，再假设20%支付成功，每单20美元，月收入大约1800万美元。 ▫ 真实支付成功率可能更高，但这种方法能大致判断收入区间。 • 如果网站没用自定义域名？ ▫ 这时收银台页面是 checkout.stripe.com。 ▫ 可以看这个域名的总访问量，再通过外部链接分析每个网站带来的订单量。 • 举例分析 Midjourney： ▫ 3月订单67万，假设40%支付成功，每单25美元，月收入约670万美元。 ▫ 但实际收入还包括老用户的续费，所以真实收入更高。 • 有些产品开发者会公开收入： ▫ 比如在 IndieHackers 上，开发者会直接展示 Stripe 验证的真实收入数据。
+
+    3.  具体产品分析 ￼ • Jenni AI（AI写作工具） ▫ 年访问量稳定在100多万。 ▫ 28.9%流量来自SEO，10%来自广告，7.1%来自社交媒体，49.4%是直接访问。 ▫ 3月跳转到Stripe的订单3.73万，假设10%支付成功，年付套餐144美元，月新增收入约53.7万美元。 ▫ IndieHackers显示的真实收入是57.4万美元，说明估算方法靠谱。 ▫ 广告投入9万美元，ROI很高。 • StealthGPT（生成“不可检测AI内容”） ▫ 月访问量26.4万，收入20.1万美元，平均每个访问能赚0.76美元。 ▫ 订单量9.6K，平均每单20.9美元。 ▫ 领域内流量更大的 Undetectable AI，月访问416.9万，订单6.05万，估算月收入126-316万美元。
+
+    4.  主要流量获取渠道 ￼
+
+    5.  SEO+SEM：免费+付费搜索流量组合。
+
+    6.  Affiliates：通过返佣让别人帮你推广。
+
+    7.  导航站：把产品提交到AI导航站，部分需要付费。
+
+    8.  Reddit：在相关频道发帖，讲故事比硬广更有效。
+
+    9.  Hacker News：Show HN频道发产品介绍。
+
+    10.  ProductHunt：每天都有新产品打榜，能带来外链和曝光。
+
+    11.  红人营销：找有影响力的博主/达人帮忙推广。
+
+    12.  社交媒体：Twitter、Facebook等传统社交平台。
+
+    13.  总结 ￼ • 通过排行榜和流量数据，可以大致判断AI产品的赚钱能力。 • 估算收入时要用到一些假设，但结合真实数据和开发者公开信息，能让判断更准确。 • 获取流量的渠道很多，SEO、广告、导航站、社交媒体、红人推广等都值得尝试。
+
+    ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_038.jpg)
+
+    燚
+
+    2026-01-04 11:19
+
+    回复
+
+    支持一下！
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_039.jpg)
+
+    峻菁
+
+    2025-07-07 11:09
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_043.jpg)
+
+    阿木子三不知
+
+    2025-07-07 21:09
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_041.jpg)
+
+    图南
+
+    2025-07-09 11:08
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_042.jpg)
+
+    GeyonGpan
+
+    2025-07-11 17:45
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_040.jpg)
+
+    峻菁
+
+    2025-07-17 14:53
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_044.jpg)
+
+    Alexander
+
+    2025-07-19 22:45
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_045.jpg)
+
+    吉良吉影
+
+    2025-07-21 11:58
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_046.jpg)
+
+    Johnson
+
+    2025-08-05 16:24
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_047.jpg)
+
+    理想是自由
+
+    2025-08-07 15:27
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_048.jpg)
+
+    Striver
+
+    2025-08-21 13:06
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_049.jpg)
+
+    Collins1337
+
+    2025-09-11 11:26
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_050.jpg)
+
+    老荀
+
+    2025-09-22 12:16
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_051.jpg)
+
+    经纬
+
+    2025-09-29 09:49
+
+    回复
+
+    打卡
+
+-   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_052.jpg)
+
+    欧欧加油
+
+    2025-12-03 18:52
+
+    回复
+
+    打卡
+
+![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_053.svg)
+
+添加图片添加隐藏回复
+
+
