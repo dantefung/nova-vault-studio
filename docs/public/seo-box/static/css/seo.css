@@ -1,0 +1,13 @@
+body{
+	background-color: #f7f6f2;
+}
+.links .grid,.links .link{
+	border: solid 1px #cbcbc8;
+	background-color: #fbfbfb;
+}
+h1 a{color: #f05011;}
+.quick-links .mx-auto{
+	background-color: #fbfbfb;
+	border-radius: 8px;
+	overflow: hidden;
+}
