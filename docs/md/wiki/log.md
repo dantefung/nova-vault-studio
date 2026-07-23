@@ -11,6 +11,15 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-23] indie-hub-gefei-keyword ingest
+
+- **Source**: 哥飞AI社群 (new.web.cafe/chat)
+- **Images**: 无外部图片
+- **Content**: SEO找关键词方法论：9渠道穷尽（谷歌下拉/相关搜索/Similarweb/Semrush/Ahrefs/趋势/平台下拉/Ads/竞品反查）+ 7步评估筛选 + 跨平台数据对齐（Ads规划工具为准）+ AI辅助网站规划
+- **Patterns**: [[SEO]] [[关键词研究]] [[KDROI]] [[内容营销]] [[AI辅助建站]]
+
+---
+
 ## [2026-07-19] indie-hub-anthropic-plugins ingest
 
 - **Source**: Anthropic官方知识工作插件集开源 (X帖)

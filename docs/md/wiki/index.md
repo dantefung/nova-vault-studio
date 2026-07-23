@@ -172,6 +172,7 @@ wiki/
 | [外汇交易基础](/md/wiki/sources/indie-hub-forex-basics) | 货币对/点差/汇率/直盘交叉盘/保证金/Margin Call/滑点 | 光速白眉 |
 | [D2画图神器24k Stars](/md/wiki/sources/indie-hub-d2) | 程序员声明式图表工具，用代码画流程图/时序图/ER图，19种主题 | 韩数同学 |
 | [计算机数据表示与存储](/md/wiki/sources/indie-hub-computer-data) | 二进制/补码/IEEE 754/ASCII/Unicode/大小端/存储层次 | Debug 蟹老板 |
+| [哥飞SEO找关键词方法论](/md/wiki/sources/indie-hub-gefei-keyword) | 9渠道穷尽+7步筛选+跨平台对齐+AI辅助网站规划 | 哥飞社群 |
 
 [更多 →](./sources/index.md)
 
