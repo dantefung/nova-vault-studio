@@ -1,0 +1,177 @@
+---
+title: "小宇宙播客也能转文章了！开源  OnePod 全套 Skills"
+author: "空格丶"
+date: "2026年6月24日 11:11"
+source: "微信公众号"
+url: "https://mp.weixin.qq.com/s/kRrTqdWHmMV5yb7vrQ6Mww"
+---
+
+# 小宇宙播客也能转文章了！开源  OnePod 全套 Skills
+
+![image](./images/indie-hub-article-6/001.png)
+
+大家好，我是空格。
+
+之前我写过一篇文章介绍 OnePod，一个每天自动精选海外播客、转成中文文章的小产品。
+
+![image](./images/indie-hub-article-6/002.png)
+
+发出来之后收到很多人问同一个问题：中文播客支持吗？
+
+答案一直是不支持。因为中文播客和海外播客的技术路径完全不同。
+
+![image](./images/indie-hub-article-6/003.png)
+
+YouTube 视频有开放的字幕接口，几秒钟就能拿到全文。但中文播客平台（小宇宙、喜马拉雅）不提供字幕，拿到的只有一段音频。
+
+直到前几天我看到 Agent Reach 这个项目的小宇宙处理方案，把音频下载下来，再用语音转文字模型处理。
+
+一下有了思路。试着做了一下，没想到很快就跑通了。
+
+OnePod 现在正式支持中文播客了。
+
+中文播客的聚集地就是小宇宙，里面有太多优秀的内容了，我常听的有面基、知行小酒馆、42 章经、岩中花述、十字路口等
+
+![image](./images/indie-hub-article-6/004.jpeg)
+
+![image](./images/indie-hub-article-6/004.jpeg)
+
+我平常在通勤路上和健身时候听，有时候还是会错过很多优质内容。
+
+还好有 onepod 可以替处理播客，用文字的方式高效处理播客信息，现在加入了小宇宙的内容，可以说覆盖了全球的优质播客了。
+
+01 先看效果
+
+昨晚我用三期小宇宙播客测试，全部顺利完成。
+
+整个流程是：发一条小宇宙链接给 Agent → 等几分钟 → 拿到逐字文稿 + 改写后的文章。
+
+输入只需要一句话：
+
+把这个小宇宙链接转成文章 https://www.xiaoyuzhoufm.com/episode/xxxx
+
+输出两份：
+
+1.逐字文稿——Whisper 转录 + 中文标点润色，基本能做到「说了什么就写了什么」
+
+2.结构化文章—— Agent 在文稿基础上改写，去掉口语赘词，重新组织成可阅读的文章
+
+可以看下下面转写效果，可读性挺高的。
+
+![image](./images/indie-hub-article-6/005.png)
+
+在这过程中音频转文字的质量是最大的不确定因素。实测下来，Whisper large-v3 对中文的识别率已经相当好了，配合 Llama 3.3 70B 做标点润色，最终文稿的可读性没什么问题。
+
+02 实现逻辑
+
+和 OnePod 处理海外播客一样，小宇宙转文章的实现也是一个 Skill。
+
+Skill 地址：github.com/zephyrwang6/onepod-Skill/xiaoyuzhou-to-article
+
+它的核心是一个 270 行的 shell 脚本transcribe.sh，配合一个SKILL.md告诉 Agent 怎么调用它。
+
+你对 Agent 说「把这个小宇宙链接转成文章」， Agent 读了 SKILL.md 就知道该跑哪个脚本、参数怎么传、输出怎么处理。
+
+整条链路是这样的：
+
+![image](./images/indie-hub-article-6/006.png)
+
+脚本跑完，你会拿到两份产出：一份逐字文稿，一份改写后的文章。
+
+关于语音转文字模型，可以使用免费的 Groq API Key（console.groq.com注册即得，转录成本为零）。
+
+03 关于 OnePod
+
+OnePod 是我用 AI 搭建的一个个人播客处理系统。它每天从我关注的 40 多个海外播客频道里，自动筛选最值得看的内容，抓取字幕，转成中文文章，保存到飞书知识库，同步到网站。
+
+![image](./images/indie-hub-article-6/007.png)
+
+地址：onepod.site
+
+整套系统的实现用到了几个东西：
+
+-Agent Code + Loop：Agent Loop 循环运行，每天自动抓取、筛选、处理
+
+-几个 Skills 串联：发现 → 字幕提取 → 内容提炼 → 保存，每个环节一个 Skill，由一个主控 Skill 编排
+
+-飞书：当 CMS 用，既能编辑也能存储，不需要单独搭后台
+
+-Cloudflare：部署网站，Worker 定时从飞书同步内容
+
+飞书和 cloudflare 都支持 CLI，全部交给 Agent 来操作。
+
+现在 OnePod 不只有播客了，还加了AI 日报模块。它们都是通过最近比较火的 Loop Engineer 模式来做的Agent 每天自动循环运行，抓取、处理、更新、自我纠正，持续成长。
+
+感兴趣的话，我后面写一起讲下我怎么让这些 loop 任务运行的。
+
+到目前为止，OnePod 已经更新了100 多篇播客内容。这些让我觉得花出去的 token 没有被浪费，每一个 token 都变成了可以反复翻阅的信息资产。
+
+全套 Skills 开源
+
+今天我把所有播客处理相关的 Skills 整合到了一个仓库，统一开源：
+
+![image](./images/indie-hub-article-6/008.png)
+
+GitHub：github.com/zephyrwang6/onepod-Skill
+
+一共 6 个 Skill，覆盖从发现到输出的完整链路。
+
+Skill 1：youtube-feed — 播客更新监控
+
+整个工作流的起点。内置了 30 个我关注的 YouTube 频道——Andrej Karpathy、Lex Fridman、Lenny's Podcast、No Priors、a16z、Latent Space……
+
+它做的事情很简单：去这些频道看看最近有没有新视频，有的话列出来，让我（或者 Agent 自己）挑一个去处理。
+
+你可以把自己关注的频道加进去，告诉 Agent「加一个 XXX 频道」就行。
+
+Skill 2：youtube-transcript-cn — YouTube 字幕提取
+
+海外播客的核心环节。调用 YouTube 的字幕 API，按优先级尝试中文字幕 → 英文字幕 → 自动生成字幕。一小时的播客，几秒钟拿到全文。
+
+Skill 3：content-digest — 内容提炼
+
+整套系统的大脑。把 1-2 万字的原始文稿，提炼成两个版本：
+
+-短版：10-15 个核心观点，每个 2-4 句话，适合快速扫描
+
+-长版：叙事性文章，保留对话感，带小标题分段
+
+这个 Skill 的 prompt 我调了很久。核心理念是让 AI 站在「我的视角」去理解内容——不是客观总结，而是筛选出对我有启发、有非共识、值得展开写的观点。
+
+Skill 4：podcast-workflow — 主控编排器
+
+把上面几个 Skill 串起来的「总指挥」。说一句「处理这个播客」，它自动调用字幕提取 → 内容提炼 → 保存飞书 → 生成图片，全流程自动化。
+
+Skill 5：podcast-script-generator — 口播脚本
+
+把文章改写成视频口播脚本。适合想做短视频二创的场景——播客内容变成 3-5 分钟的口播文案，自然的中文口语风格。
+
+Skill 6：xiaoyuzhou-to-article — 小宇宙转文章
+
+今天的主角。把小宇宙播客链接变成逐字文稿 + 结构化文章。技术方案就是前面说的：下载音频 → ffmpeg 切片 → Groq Whisper 转录 → 标点润色 → Agent 改写。
+
+![image](./images/indie-hub-article-6/009.png)
+
+┌──────────────────────────────────────────────┐│  发现层                                       ││  youtube-feed (海外频道监控)                    │├──────────────────────────────────────────────┤│  提取层                                       ││  youtube-transcript-cn (YouTube 字幕)         ││  xiaoyuzhou-to-article (小宇宙音频转录) 🆕     │├──────────────────────────────────────────────┤│  处理层                                       ││  content-digest (内容提炼)                     │├──────────────────────────────────────────────┤│  输出层                                       ││  podcast-workflow (全流程编排)                  ││  podcast-script-generator (口播脚本)           ││  → 飞书知识库 / Obsidian / 网站               │└──────────────────────────────────────────────┘
+
+每个 Skill 都可以独立使用，也可以用podcast-workflow一句话串起来跑。
+
+装完之后直接对 Agent 说「获取播客更新」或者发一条小宇宙链接，就能跑了。
+
+04 最后
+
+回头看，OnePod 从最初的「半自动处理英文播客」，到现在「全自动 + 中英双语 + AI 日报」，功能是一点一点长出来的。
+
+每次都是同一个模式：遇到一个具体需求 → 写一个 Skill 解决它 → 接入主流程 → 自动化。
+
+小宇宙转文章也是这样。写成 Skill，接进去，搞定。
+
+这也是我觉得 Skills 最有意思的地方，它是可以像乐高一样不断拼接的能力模块。
+
+![image](./images/indie-hub-article-6/010.png)
+
+你今天做了播客处理，明天换个数据源就是论文追踪，换个输出模板就是行业简报。
+
+我们正在进入个人信息处理的自动化时代。
+
+Agent 负责采集和处理，你只需要定义范围和标准。每一个 Skill 都是你雇佣的一个专职员工，它们组合在一起，就是一条 24 小时运转的内容流水线。
