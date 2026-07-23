@@ -17,17 +17,17 @@ author: "哥飞"
 
 我们先用 Similarweb 看下这个网站的流量，月访问量170万，这流量也不高啊，怎么就那么赚钱呢？
 
-![image](images/哥飞解读年收入1400万美元的一人公司为何这么赚/001.png)
+![image](images/the-14-million-revenue-one-person-company/001.png)
 
 我们看下相似网站，就能够知道答案了。哥飞先考考你，看到下面这张图片，你找到答案了吗？给你30秒思考。
 
-![image](images/哥飞解读年收入1400万美元的一人公司为何这么赚/002.png)
+![image](images/the-14-million-revenue-one-person-company/002.png)
 
 好了，30秒思考结束，哥飞公布答案，看到月访问量 1220 万的 zoominfo.com 了吗？这就是 BuiltWith 赚钱的秘密。
 
 如果你还不知道答案，看看 ZoomInfo 的股市数据就知道了，市值11.593B，也就是115.93亿美元。
 
-![image](images/哥飞解读年收入1400万美元的一人公司为何这么赚/003.png)
+![image](images/the-14-million-revenue-one-person-company/003.png)
 
 你可能会问了，ZoomInfo 的市值跟 BuiltWith 有什么关系？
 
@@ -51,15 +51,15 @@ a database of potential customers and leads
 
 看完上面哥飞的解释，你可能还是不太了解，刚好前几天有个推特可以用来放在这里解释一下 BuiltWith 的价值。
 
-![image](images/哥飞解读年收入1400万美元的一人公司为何这么赚/004.png)
+![image](images/the-14-million-revenue-one-person-company/004.png)
 
 如何寻找成功的利基站点？ 1、打开 BuiltWith.com 2、搜索 Mediavine/AdThrive 3、查看所有用了 Mediavine 或者 AdThrive 的网站
 
 哥飞给大家解释下，Mediavine 和 AdThrive 都是帮助内容创作者通过数字广告获取收入的公司，另外说下 AdThrive 与 CafeMedia 合并后成立了新品牌 Raptive ，所以你搜索时还可以搜索 Raptive 。
 
-![image](images/哥飞解读年收入1400万美元的一人公司为何这么赚/005.png)
+![image](images/the-14-million-revenue-one-person-company/005.png)
 
-![image](images/哥飞解读年收入1400万美元的一人公司为何这么赚/006.png)
+![image](images/the-14-million-revenue-one-person-company/006.png)
 
 也就是说，因为网站放置了 Mediavine 或者 AdThrive 的广告代码，就表明网站能赚钱，那么我们找到这些网站，就能够去找到这些赚钱的网站，然后去模仿。
 

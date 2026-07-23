@@ -9,7 +9,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
 ---
 
-![](images/51-wealth-keywords-for-demand-discovery_/img_001.jpg)
+![](images/51-wealth-keywords-for-demand-discovery/img_001.jpg)
 
 哥飞2024-08-12 15:33
 
@@ -21,7 +21,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
 收藏
 
-![image.png](images/51-wealth-keywords-for-demand-discovery_/img_002.png) 大家好，我是哥飞。
+![image.png](images/51-wealth-keywords-for-demand-discovery/img_002.png) 大家好，我是哥飞。
 
 之前我们已经学习了如何挖掘需求：
 
@@ -415,7 +415,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
 评论区
 
--   ![](images/51-wealth-keywords-for-demand-discovery_/img_003.jpg)
+-   ![](images/51-wealth-keywords-for-demand-discovery/img_003.jpg)
 
     阿木子三不知
 
@@ -425,7 +425,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡
 
--   ![](images/51-wealth-keywords-for-demand-discovery_/img_004.jpg)
+-   ![](images/51-wealth-keywords-for-demand-discovery/img_004.jpg)
 
     \- . -
 
@@ -435,7 +435,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     这里的词我先去搜索一遍了解一下，很多时候我们是不知道国外的人会怎么表达，收集一些常用的关键词还是比较重要的
 
--   ![](images/51-wealth-keywords-for-demand-discovery_/img_005.jpg)
+-   ![](images/51-wealth-keywords-for-demand-discovery/img_005.jpg)
 
     Sigma
 
@@ -445,7 +445,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡
 
--   ![](images/51-wealth-keywords-for-demand-discovery_/img_006.jpg)
+-   ![](images/51-wealth-keywords-for-demand-discovery/img_006.jpg)
 
     甜瓜
 
@@ -455,7 +455,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡学习中
 
--   ![](images/51-wealth-keywords-for-demand-discovery_/img_007.jpg)
+-   ![](images/51-wealth-keywords-for-demand-discovery/img_007.jpg)
 
     陈慧\_Vera
 
@@ -465,7 +465,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡
 
--   ![](images/51-wealth-keywords-for-demand-discovery_/img_008.jpg)
+-   ![](images/51-wealth-keywords-for-demand-discovery/img_008.jpg)
 
     Jimmy sunshine
 
@@ -475,11 +475,11 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡
 
-![](images/51-wealth-keywords-for-demand-discovery_/img_009.jpg)
+![](images/51-wealth-keywords-for-demand-discovery/img_009.jpg)
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/51-wealth-keywords-for-demand-discovery_/img_010.svg)](https://new.web.cafe/)
+[![new.web.cafe](images/51-wealth-keywords-for-demand-discovery/img_010.svg)](https://new.web.cafe/)
 
 Web.Cafe
 

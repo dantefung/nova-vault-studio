@@ -15,7 +15,7 @@ author: "哥飞"
 
 话题目前来自于志愿者们和哥飞一起手动从连续对话中挑选整理。
 
-![image](images/国庆放假大家都没闲着都在上新站搞流量赚美元/001.png)
+![image](images/everyone-is-launching-new-sites-during-national-holiday/001.png)
 
 最开始尝试过按照时间划分话题，连续时间的对话当作一个话题，但是发现经常会发生多个话题同时穿插进行，所以放弃按照时间划分。
 
@@ -29,10 +29,10 @@ author: "哥飞"
 
 因为哥飞定下的原则是，一个话题只讨论一件事情，所以有时候连续对话会讨论的多个事情，就可以在左侧看到。
 
-![image](images/国庆放假大家都没闲着都在上新站搞流量赚美元/002.png)
+![image](images/everyone-is-launching-new-sites-during-national-holiday/002.png)
 
 也做了手机端支持。
 
-![image](images/国庆放假大家都没闲着都在上新站搞流量赚美元/003.png)
+![image](images/everyone-is-launching-new-sites-during-national-holiday/003.png)
 
 虽然现在交互和UI都还有调整的空间，但至少可以先看起来了，所以就跟大家介绍介绍。

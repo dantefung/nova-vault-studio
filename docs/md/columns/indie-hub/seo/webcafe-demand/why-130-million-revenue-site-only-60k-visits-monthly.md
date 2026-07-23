@@ -13,7 +13,7 @@ author: "哥飞"
 
 就像今天哥飞给大家介绍的 Browserless.io ，Similarweb 上显示，9月访问量才六万多。
 
-![image](images/为何这个年收入130万美元的网站每月只有六万多访问量/001.png)
+![image](images/why-130-million-revenue-site-only-60k-visits-monthly/001.png)
 
 从上图可以看到，5月时甚至流量最低到了2.7万，之后不断上升，8月时最高9.8万，然后9月下降为了6.3万。
 
@@ -21,7 +21,7 @@ author: "哥飞"
 
 但是，创始人在 IndieHacker 中发文章说，年收入已经达到了130万美元。
 
-![image](images/为何这个年收入130万美元的网站每月只有六万多访问量/002.png)
+![image](images/why-130-million-revenue-site-only-60k-visits-monthly/002.png)
 
 这是怎么做到的呢？
 
@@ -51,7 +51,7 @@ author: "哥飞"
 
 如果你没有搞清楚这点，那么就无法理解他为什么能赚钱。
 
-![image](images/为何这个年收入130万美元的网站每月只有六万多访问量/003.png)
+![image](images/why-130-million-revenue-site-only-60k-visits-monthly/003.png)
 
 他网站上标注出来了几个使用场景，其实大部分用于付费购买的就是"Scraping"，也就是爬虫服务。
 
@@ -67,7 +67,7 @@ Browserless.io 内置了代理环境，付费用户购买的其实就是这个�
 
 显然 Browserless.io 也知道这一点，所以他们创始人在文章里说了，准备推出一个新产品，专门给那些不需要浏览器，但是需要代理环境的用户使用，也就是直接卖代理环境。
 
-![image](images/为何这个年收入130万美元的网站每月只有六万多访问量/004.png)
+![image](images/why-130-million-revenue-site-only-60k-visits-monthly/004.png)
 
 最后再次回答一下本文标题，因为这个 SAAS 提供的是 API 服务，用户不需要每次都在网站上使用服务，所以网站流量小。
 

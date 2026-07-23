@@ -27,4 +27,4 @@ author: "哥飞"
 
 以下是大牛猫建议截图，如果觉得有用请转发分享。
 
-![image](images/对于我们来说尽快多赚点美元可能是最适合我们的方案/001.png)
+![image](images/earn-more-usd-is-the-best-choice/001.png)

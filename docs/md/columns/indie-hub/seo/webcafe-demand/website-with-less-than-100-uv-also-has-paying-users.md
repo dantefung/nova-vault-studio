@@ -17,11 +17,11 @@ author: "哥飞"
 
 就靠着这每天不到100个UV，结果昨天就有一个支付了，是一个以色列的用户，直接就付费了29.9美元。
 
-![image](images/每天不到100UV的网站也有人付费/001.png)
+![image](images/website-with-less-than-100-uv-also-has-paying-users/001.png)
 
 而实际上我只设置了 9.9元、19.9元和29.9元三档套餐，他直接就选择了最高档支付了。
 
-![image](images/每天不到100UV的网站也有人付费/002.png)
+![image](images/website-with-less-than-100-uv-also-has-paying-users/002.png)
 
 这说明只要你能够获取精准流量，就有可能够有付费用户。
 
@@ -31,7 +31,7 @@ author: "哥飞"
 
 说完哥飞的消息，再说说哥飞社群里一个朋友的好消息，他11月初花了2天时间基于一份旧代码修修改改上线的一个网站，1月份收入已经破3000美元了。
 
-![image](images/每天不到100UV的网站也有人付费/003.png)
+![image](images/website-with-less-than-100-uv-also-has-paying-users/003.png)
 
 目前Adsense广告费和用户付费大概是各一半左右。
 
@@ -39,7 +39,7 @@ author: "哥飞"
 
 后来又申请了Adsense广告，11月广告费大概400多美元，12月是800多美元，1月就是1500多美元，每个月广告费都比上个月多。
 
-![image](images/每天不到100UV的网站也有人付费/004.png)
+![image](images/website-with-less-than-100-uv-also-has-paying-users/004.png)
 
 反倒是付费套餐比较克制，所以付费收入不多，1月份才一千多美元。
 

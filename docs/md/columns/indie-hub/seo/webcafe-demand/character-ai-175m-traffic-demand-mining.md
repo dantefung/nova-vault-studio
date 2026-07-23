@@ -9,7 +9,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 ---
 
-![](images/character-ai-175m-traffic-demand-mining_/img_001.jpg)
+![](images/character-ai-175m-traffic-demand-mining/img_001.jpg)
 
 哥飞2024-08-12 15:44
 
@@ -23,21 +23,21 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 大家好，我是哥飞。
 
-话说今天哥飞去看了 Character.ai 的流量，吓一跳，都这么高了，每月1.75亿访问量了。 ![image.png](images/character-ai-175m-traffic-demand-mining_/img_002.png) 如果看流量曲线会发现，这还是因为最近几个月流量下降了一些，之前月访问量超过了2亿。 ![image.png](images/character-ai-175m-traffic-demand-mining_/img_003.png) 那么大家肯定会好奇，这么多访问量，都在访问哪些页面呢？都是什么需求呢？
+话说今天哥飞去看了 Character.ai 的流量，吓一跳，都这么高了，每月1.75亿访问量了。 ![image.png](images/character-ai-175m-traffic-demand-mining/img_002.png) 如果看流量曲线会发现，这还是因为最近几个月流量下降了一些，之前月访问量超过了2亿。 ![image.png](images/character-ai-175m-traffic-demand-mining/img_003.png) 那么大家肯定会好奇，这么多访问量，都在访问哪些页面呢？都是什么需求呢？
 
 哥飞今天就带大家挖一挖。
 
 打开Similarweb的“自然落地页”功能，就可以看到按照访问量从高到低排序的各个不同的页面。
 
-可以看到前几个大流量页面的关键词都是品牌词，但是第6、第9等页面就不是品牌词了。 ![image.png](images/character-ai-175m-traffic-demand-mining_/img_004.png) 其中第6解决的是AI虚拟女友需求，第9解决的是角色扮演AI需求。
+可以看到前几个大流量页面的关键词都是品牌词，但是第6、第9等页面就不是品牌词了。 ![image.png](images/character-ai-175m-traffic-demand-mining/img_004.png) 其中第6解决的是AI虚拟女友需求，第9解决的是角色扮演AI需求。
 
 这些页面都是老页面，哥飞今天先不继续分析了，大家可以自行去分析。
 
-哥飞今天带着大家看新页面，鼠标放到“新页面”会有提示，说这些页面是从上个月开始有流量的页面。 ![image.png](images/character-ai-175m-traffic-demand-mining_/img_005.png) 这种页面才是哥飞希望大家关注的页面，因为新页面意味着新需求，新需求意味着竞争没有那么激烈，大家把这些需求单独做成一个网站，就更容易搞到流量。
+哥飞今天带着大家看新页面，鼠标放到“新页面”会有提示，说这些页面是从上个月开始有流量的页面。 ![image.png](images/character-ai-175m-traffic-demand-mining/img_005.png) 这种页面才是哥飞希望大家关注的页面，因为新页面意味着新需求，新需求意味着竞争没有那么激烈，大家把这些需求单独做成一个网站，就更容易搞到流量。
 
-我们勾选新页面，结果如下。 ![image.png](images/character-ai-175m-traffic-demand-mining_/img_006.png) 我们会发现获取这些页面获取流量几乎都只要一两个核心关键词。
+我们勾选新页面，结果如下。 ![image.png](images/character-ai-175m-traffic-demand-mining/img_006.png) 我们会发现获取这些页面获取流量几乎都只要一两个核心关键词。
 
-我们拿第3名关键词“ai hoshino”来分析看看，先看谷歌趋势过去一年的走势图，会发现这个词搜索量并不低，差不多相当于“GPTs”的搜索量了。 ![image.png](images/character-ai-175m-traffic-demand-mining_/img_007.png) 再看这个词的优化难度，超级easy，居然难度只有2，而所需的外链网站数量只需要3，也就是说，只要你拿这个关键词注册域名，做个网站专门优化这个关键词，只需要找三五个网站的外链，就能拿到谷歌首页排名结果了。 ![image.png](images/character-ai-175m-traffic-demand-mining_/img_008.png) 所以，用哥飞教你这个方法找关键词，是不是so easy，一天找几十个关键词都不在话下。
+我们拿第3名关键词“ai hoshino”来分析看看，先看谷歌趋势过去一年的走势图，会发现这个词搜索量并不低，差不多相当于“GPTs”的搜索量了。 ![image.png](images/character-ai-175m-traffic-demand-mining/img_007.png) 再看这个词的优化难度，超级easy，居然难度只有2，而所需的外链网站数量只需要3，也就是说，只要你拿这个关键词注册域名，做个网站专门优化这个关键词，只需要找三五个网站的外链，就能拿到谷歌首页排名结果了。 ![image.png](images/character-ai-175m-traffic-demand-mining/img_008.png) 所以，用哥飞教你这个方法找关键词，是不是so easy，一天找几十个关键词都不在话下。
 
 其它的关键词类似，哥飞就不一一带着大家分析了，就当交给大家的家庭作业吧，大家自己去分析。
 
@@ -45,7 +45,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 评论区
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_009.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_009.jpg)
 
     人生旅行
 
@@ -55,7 +55,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     这个应该比想象的难，仅仅靠外链是不行的。
 
-    ![](images/character-ai-175m-traffic-demand-mining_/img_010.jpg)
+    ![](images/character-ai-175m-traffic-demand-mining/img_010.jpg)
 
     Leovyx
 
@@ -65,7 +65,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     +1，不知道大家也没有衡量kd更准确的方式
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_011.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_011.jpg)
 
     2025-06-16 16:27
 
@@ -73,7 +73,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     [https://aihoshino.com/](https://aihoshino.com/) 有人注册了 没做站吗，我访问不了
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_012.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_012.jpg)
 
     阿木子三不知
 
@@ -83,7 +83,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     打卡
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_013.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_013.jpg)
 
     小楼
 
@@ -93,7 +93,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     打卡
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_014.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_014.jpg)
 
     \- . -
 
@@ -103,7 +103,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     semrush上好像没有这个功能，我在主要页面点击了新近检测，但是他并没有总结出关键词，这篇用similarweb比较方便
 
-    ![](images/character-ai-175m-traffic-demand-mining_/img_015.jpg)
+    ![](images/character-ai-175m-traffic-demand-mining/img_015.jpg)
 
     MR.ZY
 
@@ -113,7 +113,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     在关键词研究>网站浏览工具>着陆页 中可以查看
 
-    ![](images/character-ai-175m-traffic-demand-mining_/img_016.jpg)
+    ![](images/character-ai-175m-traffic-demand-mining/img_016.jpg)
 
     汉宜
 
@@ -123,9 +123,9 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     MR.ZY
 
-    好像关键词研究那里没有网站浏览工具这项？![image](images/character-ai-175m-traffic-demand-mining_/img_017.png)
+    好像关键词研究那里没有网站浏览工具这项？![image](images/character-ai-175m-traffic-demand-mining/img_017.png)
 
-    ![](images/character-ai-175m-traffic-demand-mining_/img_018.jpg)
+    ![](images/character-ai-175m-traffic-demand-mining/img_018.jpg)
 
     L.King
 
@@ -137,7 +137,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     这说的还是similarweb
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_019.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_019.jpg)
 
     Sigma
 
@@ -147,7 +147,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     打卡
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_020.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_020.jpg)
 
     班纳
 
@@ -157,7 +157,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     1
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_021.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_021.jpg)
 
     大林
 
@@ -167,7 +167,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     原来是 《我推的孩子》 星野爱 呀
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_022.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_022.jpg)
 
     楠木
 
@@ -177,7 +177,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     打卡
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_023.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_023.jpg)
 
     FeiYing
 
@@ -187,7 +187,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     打卡
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_024.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_024.jpg)
 
     秋天 | AI探索者
 
@@ -197,7 +197,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     打卡，飞哥分享的那个功能现在是收费的了
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_025.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_025.jpg)
 
     陈慧\_Vera
 
@@ -207,7 +207,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     厉害
 
--   ![](images/character-ai-175m-traffic-demand-mining_/img_026.jpg)
+-   ![](images/character-ai-175m-traffic-demand-mining/img_026.jpg)
 
     简语
 
@@ -217,11 +217,11 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
     打卡
 
-![](images/character-ai-175m-traffic-demand-mining_/img_027.jpg)
+![](images/character-ai-175m-traffic-demand-mining/img_027.jpg)
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/character-ai-175m-traffic-demand-mining_/img_028.svg)](https://new.web.cafe/)
+[![new.web.cafe](images/character-ai-175m-traffic-demand-mining/img_028.svg)](https://new.web.cafe/)
 
 Web.Cafe
 

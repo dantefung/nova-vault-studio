@@ -62,7 +62,7 @@ CPC （如果搜索结果很多，也可以加一点 CPC 挑一挑）
 
 在 GoogleTrends 上输入各种词根，然后去看底部的相关查询
 
-![image](images/漫游找词SOP/001.png)
+![image](images/free-roaming-keyword-research-sop/001.png)
 
 良辰美大佬还分享了喂饭式 GoogleTrends 文件： https://docs.google.com/spreadsheets/d/11H52lHp5VD96X2ZTh8QMbGgrYHTVHYh1xdx6MG1siQ8/edit?pli=1&gid=0#gid=0
 
@@ -91,7 +91,7 @@ https://roi-calculator-flame.vercel.app/
 有些搜索目标是无法替代的：
 class charts login 但这个词其实没有操作空间，因为 class charts 是英国教育系统里的在线学校管理软件。。。。
 
-![image](images/漫游找词SOP/002.png)
+![image](images/free-roaming-keyword-research-sop/002.png)
 
 Google 首页就解决了关键词的需求：
 [[ring size chart]]（戒指尺寸表），上来 google 就放了各种图片，根本没人去看下边的网站

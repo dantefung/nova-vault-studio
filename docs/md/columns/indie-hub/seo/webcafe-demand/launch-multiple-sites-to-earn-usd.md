@@ -23,11 +23,11 @@ author: "哥飞"
 
 哥飞给大家看下他这个站的统计数据，可以看到流量一直在增长。
 
-![image](images/上站上站朋友们请上站想要赚美元就多上站/001.png)
+![image](images/launch-multiple-sites-to-earn-usd/001.png)
 
 主要流量来源都是各个搜索引擎。
 
-![image](images/上站上站朋友们请上站想要赚美元就多上站/002.png)
+![image](images/launch-multiple-sites-to-earn-usd/002.png)
 
 那么他做了什么呢？从下面的外链数量可以看出来，主要就是高了一些外链。
 
@@ -37,7 +37,7 @@ author: "哥飞"
 
 然后就一直放着，跟时间交朋友。
 
-![image](images/上站上站朋友们请上站想要赚美元就多上站/003.png)
+![image](images/launch-multiple-sites-to-earn-usd/003.png)
 
 之后就发现，流量一直在慢慢地增长，然后开始有订单了。
 
