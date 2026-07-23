@@ -19,6 +19,33 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-22] indie-hub-website-launch ingest
+
+- **Source**: [网站上线后24小时之内马上要做的事情是什么？](https://mp.weixin.qq.com/s/AoaSCinIab1nssNNqI7jQw) (SlowGrowth.慢速生长)
+- **Images**: 9张 → `images/indie-hub-website-launch/`
+- **Content**: 网站上线24小时四链路（可访问/可统计/可发现/可追踪）：外部检查/GSC验证/sitemap提交/Bing接入/GA4配置，IndexNow加速发现，不保证收录只保证入口
+- **Patterns**: [[网站上线]] [[SEO]] [[GSC]] [[IndexNow]] [[GA4]]
+
+---
+
+## [2026-07-22] indie-hub-tdd-diagnosing ingest
+
+- **Source**: [用户报Bug，Agent立刻猜根因？Matt Pocock这2个skill把它拉回正轨](https://mp.weixin.qq.com/s/kefeCAyFKRtpCOQ0_wDc-A) (运维有术)
+- **Images**: 4张 → `images/indie-hub-tdd-diagnosing/`
+- **Content**: Matt Pocock diagnosing-bugs六阶段调试（red-capable command入场券/falsifiable假设/correct seam）+ tdd核心（Seam缝合线/Pre-agreed seam/红绿循环），反馈信号是Agent速度上限
+- **Patterns**: [[Matt Pocock]] [[diagnosing-bugs]] [[TDD]] [[red-capable command]]
+
+---
+
+## [2026-07-21] indie-hub-computer-data ingest
+
+- **Source**: [图解：计算机中的数据表示与存储系统](https://mp.weixin.qq.com/s/_87UlR8TDzE1cOZAIk1odA) (Debug 蟹老板)
+- **Images**: 53张（仅部分） → `images/indie-hub-computer-data/`
+- **Content**: 计算机数据表示与存储：二进制/十进制/十六进制，位权计数法，原码/反码/补码，IEEE 754浮点数，ASCII/Unicode字符编码，存储层次，大小端
+- **Patterns**: [[二进制]] [[补码]] [[IEEE 754]] [[ASCII]] [[大小端]]
+
+---
+
 ## [2026-07-21] indie-hub-grill-with-docs ingest
 
 - **Source**: [还在用grill-me？Matt Pocock建议grill-with-docs](https://mp.weixin.qq.com/s/Yia6XDvAkw8ygjRXFmPmgg) (运维有术)

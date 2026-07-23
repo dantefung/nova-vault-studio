@@ -158,6 +158,25 @@ wiki/
 
 ---
 
+### 精选专栏 (Indie Hub)
+
+> 微信公众号精选文章归档，来源：韩数同学/若飞/dontbesilent/刘小排/成峰/运维有术 等
+
+| 文章 | 一句话 | 来源 |
+|------|--------|------|
+| [长程Agent训练九实践](/md/wiki/sources/indie-hub-agentic-rl) | 执行/学习/治理三循环，九项实践，Horizon渐进，Template Collapse监控 | 若飞 |
+| [dontbesilent四层Codex体系](/md/wiki/sources/indie-hub-dontbesilent) | 任务/工作流/方法/系统四层，短Prompt+厚环境，SOURCE_OF_TRUTH.md，递归改进 | dontbesilent |
+| [Git Worktree管多AI程序员](/md/wiki/sources/indie-hub-git-worktree) | 分支管路线Worktree管现场，五种情况，独立开发者三条建议 | 刘小排 |
+| [Codex吞掉浏览器](/md/wiki/sources/indie-hub-codex-eat-pc) | Atlas死了但Agent能力活在Codex里，AgentOS雏形：Agent+工具+Skills+上下文 | 成峰 |
+| [grill-with-docs术语对齐](/md/wiki/sources/indie-hub-grill-with-docs) | Matt Pocock：grilling+domain-modeling双原语，CONTEXT.md/ADR三分法，四反模式 | 运维有术 |
+| [外汇交易基础](/md/wiki/sources/indie-hub-forex-basics) | 货币对/点差/汇率/直盘交叉盘/保证金/Margin Call/滑点 | 光速白眉 |
+| [D2画图神器24k Stars](/md/wiki/sources/indie-hub-d2) | 程序员声明式图表工具，用代码画流程图/时序图/ER图，19种主题 | 韩数同学 |
+| [计算机数据表示与存储](/md/wiki/sources/indie-hub-computer-data) | 二进制/补码/IEEE 754/ASCII/Unicode/大小端/存储层次 | Debug 蟹老板 |
+
+[更多 →](./sources/index.md)
+
+---
+
 ## 最新收录
 
 > 见 [log.md](./log.md)
