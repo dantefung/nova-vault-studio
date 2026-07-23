@@ -1,216 +1,89 @@
 ---
 name: webcafe-collector
-description: "采集 web.cafe（new.web.cafe）文章到知识库。触发词：采集 web.cafe、webcafe 文章、哥飞教程、web.cafe 入库。支持专栏文章和帖子。自动完成：opencli 抓取 → 图片下载 → 创建档案。"
+description: "采集 web.cafe（new.web.cafe）文章到知识库。触发词：采集 web.cafe、webcafe 文章、哥飞教程、web.cafe 入库、新文章入库、采集专栏。支持专栏文章和帖子。两路方案：优先 opencli，备用 Chrome DevTools CDP。"
 ---
 
 # Web.cafe Collector
 
-采集 **web.cafe**（new.web.cafe）平台文章到本知识库。
+## Iron Law
 
----
+> **Turnstile 每次都会触发。** 不要假设第一次导航就能拿到正文。必须检查 URL 是否仍是 `/verify?`，如果是则执行绕过策略。
 
-## 前置条件
-
-### 1. opencli 安装与浏览器桥接
-
-```bash
-# 安装 opencli
-npm install -g opencli
-
-# 安装 Browser Bridge 扩展（Chrome）
-# 打开 chrome://extensions → 加载扩展 → 选择 extension/ 目录
-
-# 验证连接
-opencli doctor
-```
-
-输出 `Everything looks good!` 即可。
-
-### 2. Chrome 登录 web.cafe
-
-1. 打开 Chrome，访问 https://new.web.cafe
-2. 确保已登录（右上角显示用户名，而非"登 录"）
-3. 登录一次即可，opencli 会复用 Chrome 的登录 session
-
-> **关键**：不需要手动提取 cookie，opencli 直接复用 Chrome 已登录的 session。
-
----
-
-## 核心命令
-
-```bash
-opencli web read --url "https://new.web.cafe/tutorial/detail/{UID}"
-```
-
-**自动完成：**
-- 抓取文章正文（含 frontmatter）
-- 下载文章内所有图片到 `images/` 目录
-- 输出 Markdown 文件到 `web-articles/` 目录
-
----
-
-## 执行流程
-
-### 步骤 1：发现文章 UID
-
-从专栏页获取文章列表：
-
-```bash
-opencli web read --url "https://new.web.cafe/tutorial/{COLUMN_UID}"
-```
-
-或用 Chrome DevTools MCP 在已打开的专栏页上提取：
+## Workflow Checklist
 
 ```
-take_snapshot → 找到所有 /tutorial/detail/{UID} 链接
+采集工作流：
+
+- [ ] Step 1: 选择方法 ⛔ BLOCKING
+  - [ ] 首选：opencli（快、自动下载图片）→ 加载 references/opencli-method.md
+  - [ ] 备用：Chrome DevTools CDP（绕过 Cloudflare）→ 加载 references/chrome-cdp-method.md
+- [ ] Step 2: 发现文章 UID ⚠️ REQUIRED
+  - [ ] 打开专栏页，提取所有 /tutorial/detail/{UID} 链接
+- [ ] Step 3: 逐篇抓取
+  - [ ] 导航到文章详情页
+  - [ ] 处理 Turnstile（见下方决策树）
+  - [ ] 提取正文到 web-articles/
+- [ ] Step 4: 下载图片
+  - [ ] 用 curl -L 下载 → images/NNN.png
+  - [ ] 替换 URL 为本地路径
+- [ ] Step 5: 归档到 wiki ⚠️ REQUIRED
+  - [ ] 复制到目标目录，添加 frontmatter
+  - [ ] 下载图片到 images/{slug}/
+  - [ ] 更新 index.md 索引
+- [ ] Step 6: 验证
+  - [ ] 所有文章有 frontmatter（title/date/source/author）
+  - [ ] 图片路径为本地相对路径（无 https://）
+  - [ ] index.md 包含新文章链接
+  - [ ] git commit 成功
 ```
 
-### 步骤 2：逐篇抓取
+## Turnstile 决策树
 
-```bash
-# 单篇
-opencli web read --url "https://new.web.cafe/tutorial/detail/{UID}"
-
-# 批量（间隔 15 秒，避免 Cloudflare）
-for uid in UID1 UID2 UID3; do
-  opencli web read --url "https://new.web.cafe/tutorial/detail/$uid"
-  sleep 15
-done
-```
-
-### 步骤 3：归档到知识库
-
-将 `web-articles/` 中的文件移动到目标目录：
-
-```bash
-# 目标目录
-DST="docs/md/columns/indie-hub/seo/{专栏名}"
-
-# 移动文章（重命名为英文 kebab-case）
-mv "web-articles/{中文标题}/{中文标题}.md" "$DST/{english-slug}.md"
-
-# 移动图片（重命名以匹配文章）
-mv "web-articles/{中文标题}/images/" "$DST/images/{english-slug}_"
-```
-
-更新图片路径（sed 批量替换）：
-
-```bash
-sed -i "s|images/{中文标题}/|images/{english-slug}_|g" "$DST/{english-slug}.md"
-```
-
-### 步骤 4：更新索引
-
-更新专栏 `index.md` 的文章列表。
-
----
-
-## Cloudflare 应对策略
-
-web.cafe 使用 Cloudflare 保护，连续请求会触发验证。
-
-| 情况 | 症状 | 解决 |
-|------|------|------|
-| 正常 | 返回完整文章 | 继续 |
-| 频率限制 | 返回 `Security Verification` | **等待 15 秒后重试** |
-| 持续被拦 | 多次重试仍失败 | **等待 30 秒后重试** |
-| 登录墙 | 返回"本文登录可见" | 检查 Chrome 是否已登录 |
-
-**经验法则：每篇间隔 15 秒，基本不会触发。**
-
----
-
-## Chrome DevTools MCP 备用方案
-
-如果 opencli 持续被 Cloudflare 拦截，可用 Chrome DevTools MCP：
-
-1. 在 Chrome 中打开文章 URL
-2. 用 `take_snapshot` 提取内容
-3. 用 `evaluate_script` 提取图片 URL
-4. 用 `curl` 下载图片
+每次导航后：
 
 ```
-navigate_page → url: "https://new.web.cafe/tutorial/detail/{UID}"
-take_snapshot → 提取文章内容
-evaluate_script → 提取图片 URL 列表
+导航到文章 URL
+  │
+  ├─ URL 仍是 /verify? → 执行绕过
+  │   ├─ 优先：列表页 onclick → evaluate_script 查找标题 <p> → 点击
+  │   ├─ 其次：用户手动点 checkbox
+  │   └─ 最后：重试导航（有时自动通过）
+  │
+  └─ URL 已是 /tutorial/detail/ → take_snapshot 提取正文
 ```
 
----
+> ⚠️ `chrome-devtools_click` 点击 Turnstile checkbox **必定失败**（cross-origin iframe）。不要尝试。
 
-## 目录结构
+## 方法选择
 
-```
-docs/md/columns/indie-hub/seo/
-├── webcafe-advanced/
-│   ├── index.md                    ← 专栏索引
-│   ├── seo-3words-annotation.md    ← 文章档案
-│   ├── tool-creation-full-process.md
-│   └── images/
-│       ├── gefei-seo-3words-annotation_001.jpg
-│       └── gefei-tool-creation-full-process_001.png
-```
+| 场景 | 推荐方法 |
+|------|---------|
+| opencli 可用 + Cloudflare 未频繁拦截 | opencli |
+| opencli 持续返回 Security Verification | Chrome DevTools CDP |
+| opencli 未安装 | Chrome DevTools CDP |
+| 需要绕过登录墙 | Chrome DevTools CDP（复用已登录 session） |
 
----
+## 资源
 
-## 文件命名规范
+| 资源 | 何时加载 |
+|------|---------|
+| `references/opencli-method.md` | 使用 opencli 方法时 |
+| `references/chrome-cdp-method.md` | 使用 Chrome DevTools CDP 方法时 |
+| `references/common.md` | 归档步骤（frontmatter、命名、反模式） |
+| `scripts/setup-chrome.sh` | 启动 Chrome CDP 时 |
 
-- 文章：英文小写、中划线分隔（如 `seo-3words-annotation`）
-- 图片：`gefei-{文章slug}_{序号}.{ext}`（如 `gefei-seo-3words-annotation_001.jpg`）
+## Anti-Patterns
 
----
+- ❌ 跳过 Turnstile 检查 → 正文为空
+- ❌ 用 `curl` 不带 `-L` 下载图片 → 下载失败
+- ❌ 在 SKILL.md 里塞所有细节 → 应放 references/
+- ❌ 忘记添加 frontmatter → pre-commit hook 拒绝提交
+- ❌ 忘记更新 index.md → 文章在侧边栏不可见
 
-## Frontmatter 模板
+## Pre-Delivery Checklist
 
-```yaml
----
-title: "文章标题"
-date: "YYYY-MM-DD"
-source: "web.cafe"
-author: "哥飞"
-url: "https://new.web.cafe/tutorial/detail/{UID}"
----
-```
-
----
-
-## 快速参考
-
-| 操作 | 命令 |
-|------|------|
-| 验证环境 | `opencli doctor` |
-| 抓取单篇 | `opencli web read --url "https://new.web.cafe/tutorial/detail/{UID}"` |
-| 批量抓取 | 循环 + `sleep 15` |
-| 检查输出 | `ls web-articles/` |
-
----
-
-## 故障排查
-
-### opencli 返回 `Security Verification`
-
-**原因**：Cloudflare 频率限制
-
-**解决**：等待 15-30 秒后重试
-
-### opencli 返回登录墙
-
-**原因**：Chrome 未登录 web.cafe
-
-**解决**：在 Chrome 中手动登录 https://new.web.cafe
-
-### 图片未下载
-
-**原因**：opencli 某些版本可能不下载图片
-
-**解决**：手动下载
-```bash
-curl -sL -o img.jpg "https://s.web.cafe/image/{HASH}.png"
-```
-
-### opencli 未安装
-
-**解决**：
-```bash
-npm install -g opencli
-opencli doctor  # 验证
-```
+- [ ] 每篇文章有 frontmatter（title/date/source/author）
+- [ ] 所有图片为本地相对路径（无 `https://`）
+- [ ] index.md 包含所有文章链接
+- [ ] git commit 成功
+- [ ] web-articles/ 临时目录已清理

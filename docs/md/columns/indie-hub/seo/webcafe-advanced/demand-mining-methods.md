@@ -11,7 +11,6 @@ url: "https://new.web.cafe/tutorial/detail/demand-mining-methods"
 
 ---
 
-![](images/demand-mining-methods/gefei-demand-mining-methods_0.jpg)
 
 哥飞2024-08-13 16:57
 
@@ -59,11 +58,9 @@ url: "https://new.web.cafe/tutorial/detail/demand-mining-methods"
 
 第一种挖掘需求的方法，我们从基础需求关键词出来，也就是所谓的词根出发，找到更多的关键词。 这就需要配合哥飞之前发到公众号里的51个词根关键词 [https://mp.weixin.qq.com/s/pFi683ZoT\_WJXO\_t770vSQ](https://mp.weixin.qq.com/s/pFi683ZoT_WJXO_t770vSQ)
 
-![1dc69bf7916ea5185a399e73e10898f2\_.png](images/demand-mining-methods/gefei-demand-mining-methods_000.jpg)
 
 我们今天先拿 Generator 来演示，因为很多AI相关的需求关键词都包含 Generator 这个词。 有很多工具都可以基于一个关键词来拓展更多关键词，先说完全免费，不需要登录也能使用的 Ahrefs Free Keyword Generator 工具，大家会发现，本身这个工具名字就自带了 Generator 这个词。 打开 [https://ahrefs.com/keyword-generator/](https://ahrefs.com/keyword-generator/) ，选择谷歌，输入关键词 Generator ，选择美国，就能够看到拓展出来的一些关键词。
 
-![dd46ee78e8bb75cb7f6411d9e2470ef8\_.png](images/demand-mining-methods/gefei-demand-mining-methods_1.jpg)
 
 可以看到，这个免费工具虽然可以看到一些关键词，但是默认给出来的都是搜索量比较大的关键词，KD都很高。 而如果登录注册 Ahrefs ，套餐费用又挺高的，所以我们一般不用这个工具。
 
@@ -73,7 +70,6 @@ url: "https://new.web.cafe/tutorial/detail/demand-mining-methods"
 
 在这个 Keyword Magic Tool 页面，可以看到很多关键词，我们可以用筛选工具，选择搜索量30000以上，也就是平均每天1000以上的，KD选择60以下的，CPC选择大于0.01的，就得到了一些符合我们要求的关键词列表。
 
-![c23671b4e8bf6d6c2d645cb38bafb506\_.png](images/demand-mining-methods/gefei-demand-mining-methods_2.jpg)
 
 还可以点击左侧的关键词群组，选择AI，那么出来的就全都是带AI且带Generator的关键词了。
 
@@ -81,7 +77,6 @@ url: "https://new.web.cafe/tutorial/detail/demand-mining-methods"
 
 Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器里，同样输入一个关键词，就能够找到很多相关关键词。 同样设置一些筛选条件，可以找到一些关键词。
 
-![e27b21947310a83db769368025e3e06d\_.png](images/demand-mining-methods/gefei-demand-mining-methods_3.jpg)
 
 有了这些关键词列表，我们就可以进一步的筛选，举例你可以按照搜索量从高到低排序，也可以按照优化难度（KD）从低到高排序，也可以按照CPC从高到低排序。
 
@@ -91,7 +86,6 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 很明显 headcanon generator 就是一个新词，之前都没啥搜索量，最近才有搜索量。 为了判断是否是新词，我们还可以借助谷歌趋势来看。 打开谷歌趋势 [https://trends.google.com/trends/explore?q=headcanon%20generator&hl=zh-CN](https://trends.google.com/trends/explore?q=headcanon%20generator&hl=zh-CN) 时间选择最近12个月，很容易看出来，这个词是5月底才出现的。
 
-![c5459b12caf3d994c2d0fa137e4294b6\_.png](images/demand-mining-methods/gefei-demand-mining-methods_4.jpg)
 
 我们还可以借助谷歌广告后台进一步确认这个词的真实搜索量。 打开谷歌广告后台，找到工具->规划->关键字规划工具->选择获取搜索量和预测数据，输入我们想查询的关键词，把地理位置选择为全球，时间选择5月和6月，就看到了，6月这个词的搜索量是13.5万，平均每天4500次搜索。
 
@@ -99,7 +93,8 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 有了关键词，我们就可以去谷歌实际搜索一下这个关键词，看看目前的第一页结果都是什么。
 
-![ce6e036f3aa56b1890b4bd3214f06e6d\_.png](images/demand-mining-methods/gefei-demand-mining-methods_5.jpg) 目前可以看到，美国区，用英语搜索，出来的第1、第3都是工具，不过是内页。 第2是Reddit的讨论区。 第4是一个AI导航站，这个站记起来，要考，属于是SEO做得比较好的网站，可以去上面提交我们的产品。
+
+目前可以看到，美国区，用英语搜索，出来的第1、第3都是工具，不过是内页。 第2是Reddit的讨论区。 第4是一个AI导航站，这个站记起来，要考，属于是SEO做得比较好的网站，可以去上面提交我们的产品。
 
 剩下的结果分析我们今天就不深入了。 继续说挖掘需求，刚才介绍了基于某个基础关键词，去拓展找到更多关键词的方法。 我们再说第二种方法，是基于某一个网站，找到这个网站的流量来源关键词。 举例 Canva.com 是 SEO 做得很好的大站，我们可以研究他从哪些关键词获得了流量，我们是否也可以从这些关键词获取流量呢。
 
@@ -115,19 +110,16 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 在排除掉品牌词之后，我们就能够看到 Canva 获取流量的关键词都有哪些了。 可以看到第一名就是 color wheel 色轮，这是设计师经常用到的颜色选择工具。 第二名是 im image generator ，这个也算是 Canva 的核心功能之一。 第四名 qr code generator 有点意思，这跟 Canva 主业好像不搭，不过也算是图片生成相关的。
 
-![debbb317ff4b5a493b636420484cbd11\_.png](images/demand-mining-methods/gefei-demand-mining-methods_6.jpg)
 
 看关键词列表，我们还可以关注那些仅仅靠内页就拿下来了这个关键词搜索的绝大部分流量的词，这种词，既然别人仅仅靠一个内页就能够拿到排名，我们专门做一个网站，举全站之力去做，也很有可能能够拿到排名，拿到曝光和点击。
 
 第三个平台是Similarweb，一样可以看到某个网站的关键词列表，一样可以按照一些条件去筛选关键词。
 
-![063d89b6ea3e7a8e23f92608be96202d\_.png](images/demand-mining-methods/gefei-demand-mining-methods_7.jpg)
 
 除了关注大站的关键词，我们还需要关注他们的能够获取流量的页面，如 Similarweb 这里就可以看到所有能够获取自然流量的页面，都是通过哪些关键词获取的流量。 而且还可以在点击量变化中选择“新点击量”，筛选那些最近才获得流量的页面。 从这些页面，也可以发现一些新的需求关键词。
 
 ![ef5da6d348fd2d805d00c992a9a21fe8\_.png](images/demand-mining-methods/gefei-demand-mining-methods_007.png)
 
-![f001ed13240b7caab92d99ba237f36a7\_.png](images/demand-mining-methods/gefei-demand-mining-methods_8.jpg)
 
 举个例子，这个生日派对邀请函模版页面就获取到了很多新流量。 不过这个词本身不新，可能是之前他们这个页面没有拿到排名，最近拿到排名了。
 
@@ -137,7 +129,6 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 现在讲第三种挖掘需求关键词的方法，直接利用谷歌等搜索引擎的下拉推荐搜索词。 如在谷歌搜索 Birthday ，你加一个空格之后，就会出现很多以 Birthday 开头的相关关键词。 谷歌放出来的这些词，就是大家经常搜索的关键词。
 
-![4ddcbb5dda668f8dc5199503920374ea\_.png](images/demand-mining-methods/gefei-demand-mining-methods_9.jpg)
 
 现在讲第四种挖掘需求关键词的方法，把以上三种方法组合起来使用。 在谷歌随便搜索某个关键词，一般排到前三的都是SEO做得比较好的网站。 点开这些网站，去Simialrweb或者Semrush 继续研究这个网站，找出这个网站的更多关键词。 有了关键词，又可以回到谷歌，继续找到三个SEO做得比较好的网站。 这样反反复复循环，就像是在流量的海洋里冲浪，看多了，你绝对能够得到升华。
 
