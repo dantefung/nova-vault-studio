@@ -40,7 +40,7 @@ source: "llm-wiki"
 ## [2026-07-21] indie-hub-computer-data ingest
 
 - **Source**: [图解：计算机中的数据表示与存储系统](https://mp.weixin.qq.com/s/_87UlR8TDzE1cOZAIk1odA) (Debug 蟹老板)
-- **Images**: 53张（仅部分） → `images/indie-hub-computer-data/`
+- **Images**: ⚠️ 125MB太大，push阻塞，仅推送了md文本，图片需重新下载压缩后再归档
 - **Content**: 计算机数据表示与存储：二进制/十进制/十六进制，位权计数法，原码/反码/补码，IEEE 754浮点数，ASCII/Unicode字符编码，存储层次，大小端
 - **Patterns**: [[二进制]] [[补码]] [[IEEE 754]] [[ASCII]] [[大小端]]
 
