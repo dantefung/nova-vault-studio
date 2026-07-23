@@ -16,4 +16,5 @@ date: "2026-07-23"
 ## 目录
 
 - [SEO.box](/columns/seo/seo-tool/) — SEO 工具集合
-- [游戏站 SEO FAQ](/columns/seo/seo-faq.md) — 游戏站建设常见问题
+- [SEO FAQ](/columns/seo/seo-faq/) — 常见问题
+  - [游戏站 SEO](/columns/seo/seo-faq/game-site.md) — 游戏站建设
