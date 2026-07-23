@@ -294,13 +294,3 @@ Pollo.ai 就做到了统一，同一个URL，登录前和登录后不一样，�
 ![](images/gefei-premium-tool-site/019.jpg)
 
 添加图片添加隐藏回复
-
-Web.Cafe
-
-[](https://new.web.cafe/tutorial/detail/za408lc1q9?__pvhp=1)
-
-153 results
-
-Use arrow keys ↑↓ to navigate
-
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful
