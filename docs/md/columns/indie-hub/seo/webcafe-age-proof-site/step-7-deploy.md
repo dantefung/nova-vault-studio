@@ -228,13 +228,3 @@ Github 仓库中有代码后，就可以部署到Vercel 中了。
 添加图片添加隐藏回复
 
 [![new.web.cafe](images/gefei-age-proof-site-step-7-deploy/img_043.svg)](https://new.web.cafe/)
-
-Web.Cafe
-
-[](https://new.web.cafe/tutorial/detail/1JQ1RBpMQR9UiPVnVJ6HMA?__pvhp=1)
-
-153 results
-
-Use arrow keys ↑↓ to navigate
-
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful

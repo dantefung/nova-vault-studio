@@ -142,13 +142,3 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 添加图片添加隐藏回复
 
 [![new.web.cafe](images/gefei-age-proof-site-step-8-analytics-search-console/img_019.svg)](https://new.web.cafe/)
-
-Web.Cafe
-
-[](https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM?__pvhp=1)
-
-153 results
-
-Use arrow keys ↑↓ to navigate
-
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful

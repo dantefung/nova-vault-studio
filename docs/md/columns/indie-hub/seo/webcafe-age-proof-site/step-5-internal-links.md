@@ -241,13 +241,3 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 添加图片添加隐藏回复
 
 [![new.web.cafe](images/gefei-age-proof-site-step-5-internal-links/img_012.svg)](https://new.web.cafe/)
-
-Web.Cafe
-
-[](https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V?__pvhp=1)
-
-153 results
-
-Use arrow keys ↑↓ to navigate
-
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful

@@ -113,11 +113,3 @@ GPT3.5的回答如下：
 添加图片添加隐藏回复
 
 [![new.web.cafe](images/gefei-age-proof-site-step-2-search-intent/img_009.svg)](https://new.web.cafe/)
-
-Web.Cafe
-
-153 results
-
-Use arrow keys ↑↓ to navigate
-
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful

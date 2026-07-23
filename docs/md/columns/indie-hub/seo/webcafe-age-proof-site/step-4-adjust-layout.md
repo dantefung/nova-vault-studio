@@ -248,13 +248,3 @@ html 代码保持不变：
 添加图片添加隐藏回复
 
 [![new.web.cafe](images/gefei-age-proof-site-step-4-adjust-layout/img_017.svg)](https://new.web.cafe/)
-
-Web.Cafe
-
-[](https://new.web.cafe/tutorial/detail/aucjab67rxKvyoJudKV4oM?__pvhp=1)
-
-153 results
-
-Use arrow keys ↑↓ to navigate
-
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful

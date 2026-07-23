@@ -172,13 +172,3 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 添加图片添加隐藏回复
 
 [![new.web.cafe](images/gefei-age-proof-site-introduction/img_016.svg)](https://new.web.cafe/)
-
-Web.Cafe
-
-[](https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85?__pvhp=1)
-
-153 results
-
-Use arrow keys ↑↓ to navigate
-
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful

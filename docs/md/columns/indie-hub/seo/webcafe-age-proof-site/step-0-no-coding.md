@@ -100,13 +100,3 @@ B站有个评论说“三十分钟讲了我们老师一学期讲的”，从这�
 添加图片添加隐藏回复
 
 [![new.web.cafe](images/gefei-age-proof-site-step-0-no-coding/img_007.svg)](https://new.web.cafe/)
-
-Web.Cafe
-
-[](https://new.web.cafe/tutorial/detail/aaRj7BUd6vwKjvKJUiSrEU?__pvhp=1)
-
-153 results
-
-Use arrow keys ↑↓ to navigate
-
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful
