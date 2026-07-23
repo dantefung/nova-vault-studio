@@ -19,5 +19,6 @@ date: "2026-07-23"
 - [SEO FAQ](/columns/seo/seo-faq/) — 常见问题
   - [游戏站 SEO](/columns/seo/seo-faq/game-site.md) — 游戏站建设
   - [游戏站完整操作指南](/columns/seo/seo-faq/game-site-guide.md) — 找词/建站/变现完整攻略
+  - [游戏站深度补充](/columns/seo/seo-faq/game-site-advanced.md) — Adsense养号/冠军SOP/域名抢注
   - [如何找关键词](/columns/seo/seo-faq/keyword.md) — 9渠道+7步筛选
   - [可以做什么类型的站](/columns/seo/seo-faq/site-types.md) — 内容站/工具站/变现
