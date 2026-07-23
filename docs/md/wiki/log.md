@@ -20,6 +20,15 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-23] indie-hub-seo-game-site ingest
+
+- **Source**: 哥飞AI社群 (new.web.cafe/chat)
+- **Images**: 无外部图片
+- **Content**: 游戏站SEO建设FAQ：平台选择(itch.io/Newgrounds)、版权注意(大厂游戏不能碰)、iframe外链问题、域名策略(单游戏单域名vs聚合站)、快速上手路线(iframe+Cloudflare Pages)
+- **Patterns**: [[游戏站SEO]] [[iframe嵌入]] [[版权]] [[域名策略]] [[Cloudflare Pages]]
+
+---
+
 ## [2026-07-19] indie-hub-anthropic-plugins ingest
 
 - **Source**: Anthropic官方知识工作插件集开源 (X帖)
