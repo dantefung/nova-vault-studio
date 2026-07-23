@@ -17,7 +17,7 @@ date: "2026-06-22"
 | [私域即一切](../wiki/patterns/private-domain-arrogance.md) | 私域触达率是公域 N 倍 |
 | [望闻问切选合作](../wiki/patterns/knowledge-payment-value.md) | 筛选合伙人/客户的框架 |
 | [收入结构四维判断](../wiki/patterns/income-structure-four-certainties.md) | 项目值不值得做 |
-| [独立开发者套利模式](./aribitrage-mode.md) | 前端/后端分离，搭建可复用系统 |
+| [独立开发者套利模式](./money-methods/aribitrage-mode.md) | 前端/后端分离，搭建可复用系统 |
 | [内容搬运套利](../wiki/patterns/content-arbitrage-pattern.md) | 跨境内容搬运 + 一鱼五吃矩阵分发 |
 | [莆、广系跨境电商AI搜索与深度研究](./ai-cross-border-ecommerce-research/ai-cross-border-ecommerce-research.md) | 市场/用户/竞品/趋势四大研究 + AI整合商业情报系统 |
 | [Google SEO 7大排名信号](./seo-7-google-signals/seo-7-google-signals.md) | 反向链接/搜索意图/新鲜度/HTTPS/移动友好/加载速度/无侵入广告 |
@@ -26,8 +26,8 @@ date: "2026-06-22"
 | [独立 App 实战手册](./app-playbook/index.md) | Adam Lyttle 88 集视频整理，从点子到第一批付费用户 6 阶段全流程 |
 | [AI时代个体创业路径](./money-methods/ai-individual-path.md) | 16步低风险从0到1完整指南，动作顺序即风险控制 |
 | [AI赚钱30种方式](./money-methods/ai-money-30-ways.md) | 差价/包装/时间差/流量/规模等30种赚钱模式，附传统vs AI对比 |
-| [赚钱的本质：系统漏洞游戏](./money-exploit-games.md) | 23个领域的赚钱漏洞：算法/心理/规则三层，附实操建议 |
-| [把才华变成钱](./mengke-money-from-talent.md) | 王梦珂品牌工作手册：16章讲清如何把能力变收入，核心是"让别人知道你为什么值钱" |
+| [赚钱的本质：系统漏洞游戏](./money-methods/money-exploit-games.md) | 23个领域的赚钱漏洞：算法/心理/规则三层，附实操建议 |
+| [把才华变成钱](./money-methods/mengke-money-from-talent.md) | 王梦珂品牌工作手册：16章讲清如何把能力变收入，核心是"让别人知道你为什么值钱" |
 | [AI 产品沉思录](./ai-product/ai-product-reflection-zlbigger.md) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具，PMF→RPA→SOP→无限复制 |
 | [AI 躺赚多语种站](./zlbigger/ai-website-lay-flat-zlbigger.md) | zlbigger 裸晒 linggan.io：6 AI 打工人分工，5 语种全球被动收入 |
 | [Agent 调度升级](./zlbigger/xiaolongxia-agent-automation-zlbigger.md) | zlbigger 第 3 篇：Agent 自主调度 + 远程触发 + 三阶段流水线 |
@@ -49,7 +49,7 @@ date: "2026-06-22"
 |------|------|
 | [zlbigger 系列教程](./zlbigger/) | 6 篇 AI 工具实战教程，从免费工具到躺赚站、Agent 自动化、批量建应用 |
 | [AI 产品沉思录](./ai-product/) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具 |
-| [AI 赚钱方法论](./money-methods/) | 个体创业路径 + 30 种赚钱方式 + Build-to-Sell 模式 |
+| [赚钱方法论](./money-methods/) | 个体创业路径 + 30 种赚钱方式 + 套利思维 + 把才华变成钱 |
 | [出海实战索引](./outsea-playbook/) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC |
 
 ## 核心路径

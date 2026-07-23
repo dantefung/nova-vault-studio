@@ -1,15 +1,18 @@
 ---
-title: "AI 赚钱方法论"
+title: "赚钱方法论"
 date: "2026-07-22"
 url: ""
 ---
 
-# AI 赚钱方法论
+# 赚钱方法论
 
-从 0 到 1 的个体创业路径、30 种赚钱方式、Build-to-Sell 模式。
+个体创业路径、赚钱模式、套利思维、把才华变成钱。
 
 ## 目录
 
 - [AI时代个体创业路径](./ai-individual-path.md) — 16步低风险从0到1完整指南
 - [AI赚钱最快的30种方式](./ai-money-30-ways.md) — 差价/包装/时间差/流量/规模等30种模式
 - [Build-to-Sell：AI Agent 内容农场](./build-to-sell.md) — AI 驱动 CMS + 多语言 SEO + 广告变现
+- [赚钱的本质：系统漏洞游戏](./money-exploit-games.md) — 23个领域的赚钱漏洞：算法/心理/规则三层
+- [独立开发者套利模式](./aribitrage-mode.md) — 前端/后端分离，搭建可复用系统
+- [把才华变成钱](./mengke-money-from-talent.md) — 王梦珂品牌工作手册：16章讲清如何把能力变收入
