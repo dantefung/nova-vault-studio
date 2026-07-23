@@ -20,6 +20,15 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-23] indie-hub-gefei-game-site-phase2 ingest
+
+- **Source**: 哥飞AI社群 (new.web.cafe/chat)
+- **Images**: 无外部图片
+- **Content**: 游戏站深度补充阶段二：Adsense养号/Blank冠军SOP Similarweb找词/结果季军域名抢注+大站账号矩阵外链/广告布局最佳姿势
+- **Patterns**: [[游戏站SEO]] [[Adsense养号]] [[Similarweb找词]] [[域名抢注]] [[外链策略]]
+
+---
+
 ## [2026-07-23] indie-hub-seo-game-site ingest
 
 - **Source**: 哥飞AI社群 (new.web.cafe/chat)
