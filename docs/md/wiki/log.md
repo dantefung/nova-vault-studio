@@ -20,6 +20,24 @@ source: "llm-wiki"
 
 ---
 
+## [2026-07-23] indie-hub-gefei-game-site-guide ingest
+
+- **Source**: 哥飞AI社群 (new.web.cafe/chat)
+- **Images**: 无外部图片
+- **Content**: 游戏站完整操作指南：什么是游戏站/为什么入门/收入参考/找词方法/三种建站方式/页面布局/两种策略/变现/部署/常见坑
+- **Patterns**: [[游戏站SEO]] [[Adsense]] [[iframe嵌入]] [[域名策略]] [[Cloudflare Pages]]
+
+---
+
+## [2026-07-23] indie-hub-gefei-game-site-advanced ingest
+
+- **Source**: 哥飞AI社群 (new.web.cafe/chat)
+- **Images**: 无外部图片
+- **Content**: 游戏站深度补充：找词三阶段/Sitemap监控/Google Trends API/外链策略/游戏资源获取(CMS/模拟器/原生代码)/广告变现/程序化SEO警告/极速上线案例
+- **Patterns**: [[游戏站SEO]] [[找词自动化]] [[外链策略]] [[游戏CMS]] [[程序化SEO]]
+
+---
+
 ## [2026-07-23] indie-hub-gefei-game-site-phase2 ingest
 
 - **Source**: 哥飞AI社群 (new.web.cafe/chat)
