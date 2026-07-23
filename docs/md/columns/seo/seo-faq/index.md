@@ -12,3 +12,4 @@ date: "2026-07-23"
 | 主题 | 描述 |
 |------|------|
 | [游戏站 SEO](/columns/seo/seo-faq/game-site.md) | 游戏站建设、平台选择、版权、域名策略 |
+| [如何找关键词](/columns/seo/seo-faq/keyword.md) | 9渠道找词、7步筛选、跨平台对齐、AI辅助 |
