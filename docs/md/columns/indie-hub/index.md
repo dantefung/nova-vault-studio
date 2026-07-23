@@ -24,22 +24,33 @@ date: "2026-06-22"
 | [SEO 建站指南](./seo/index.md) | Google 信号、关键词策略、ROI 分析、冷启动等 6 篇 |
 | [Dropshipping 资源索引](./dropshipping-resources/index.md) | 一件代发从概念→选平台→实操全链路 |
 | [独立 App 实战手册](./app-playbook/index.md) | Adam Lyttle 88 集视频整理，从点子到第一批付费用户 6 阶段全流程 |
-| [AI时代个体创业路径](./ai-individual-path.md) | 16步低风险从0到1完整指南，动作顺序即风险控制 |
-| [AI赚钱30种方式](./ai-money-30-ways.md) | 差价/包装/时间差/流量/规模等30种赚钱模式，附传统vs AI对比 |
+| [AI时代个体创业路径](./money-methods/ai-individual-path.md) | 16步低风险从0到1完整指南，动作顺序即风险控制 |
+| [AI赚钱30种方式](./money-methods/ai-money-30-ways.md) | 差价/包装/时间差/流量/规模等30种赚钱模式，附传统vs AI对比 |
 | [赚钱的本质：系统漏洞游戏](./money-exploit-games.md) | 23个领域的赚钱漏洞：算法/心理/规则三层，附实操建议 |
 | [把才华变成钱](./mengke-money-from-talent.md) | 王梦珂品牌工作手册：16章讲清如何把能力变收入，核心是"让别人知道你为什么值钱" |
-| [AI 产品沉思录](./ai-product-reflection-zlbigger.md) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具，PMF→RPA→SOP→无限复制 |
-| [AI 躺赚多语种站](./ai-website-lay-flat-zlbigger.md) | zlbigger 裸晒 linggan.io：6 AI 打工人分工，5 语种全球被动收入 |
-| [Agent 调度升级](./xiaolongxia-agent-automation-zlbigger.md) | zlbigger 第 3 篇：Agent 自主调度 + 远程触发 + 三阶段流水线 |
-| [AI 报告信息站](./ai-report-info-station-zlbigger.md) | zlbigger 第 4 篇：细分行业 + 文档订阅 + PDF→HTML 自动总结 |
-| [AI 小应用批量创建](./ai-mini-app-creation-zlbigger.md) | zlbigger 第 5 篇：[input1] 占位符模板化 prompt，5 字段后台几分钟上线 |
-| [AI 工具使用指南](./ai-free-tools-guide-zlbigger.md) | zlbigger 第 6 篇：5 大类 30+ 免费工具，额度轮换 + 信息差变现 |
-| [出海一周年万刀·12 模块全量索引](./hezhiyan7-outsea-oneyear-toc.md) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC（SEO/需求/开发/支付/流量 等 12 模块分类） |
+| [AI 产品沉思录](./ai-product/ai-product-reflection-zlbigger.md) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具，PMF→RPA→SOP→无限复制 |
+| [AI 躺赚多语种站](./zlbigger/ai-website-lay-flat-zlbigger.md) | zlbigger 裸晒 linggan.io：6 AI 打工人分工，5 语种全球被动收入 |
+| [Agent 调度升级](./zlbigger/xiaolongxia-agent-automation-zlbigger.md) | zlbigger 第 3 篇：Agent 自主调度 + 远程触发 + 三阶段流水线 |
+| [AI 报告信息站](./zlbigger/ai-report-info-station-zlbigger.md) | zlbigger 第 4 篇：细分行业 + 文档订阅 + PDF→HTML 自动总结 |
+| [AI 小应用批量创建](./zlbigger/ai-mini-app-creation-zlbigger.md) | zlbigger 第 5 篇：[input1] 占位符模板化 prompt，5 字段后台几分钟上线 |
+| [AI 工具使用指南](./zlbigger/ai-free-tools-guide-zlbigger.md) | zlbigger 第 6 篇：5 大类 30+ 免费工具，额度轮换 + 信息差变现 |
+| [AI 生产力乘数](./zlbigger/ai-productivity-multiplier.md) | 每月 10-20 美金的高级打工仔，替换工作流任何一个环节 |
+| [Build-to-Sell：AI Agent 内容农场](./money-methods/build-to-sell.md) | AI 驱动 CMS + 多语言 SEO + 广告变现 |
+| [出海一周年万刀·12 模块全量索引](./outsea-playbook/hezhiyan7-outsea-oneyear-toc.md) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC（SEO/需求/开发/支付/流量 等 12 模块分类） |
 | [Agent 上线个人网站](./agent-launch-personal-site.md) | 空格丶口喷建站：GitHub CLI + Cloudflare wrangler，6 步极简部署 |
 | [AdSense 美国税务信息填写指南](./adsense-us-tax-form.md) | 阿加曦：W-8BEN 表 + 中美税收条约 + 三大预扣税率 10 分钟实操 |
 | [公众号爆款标题 Skill](./baokuan-title-generator-skill.md) | 空格丶：16 种标题套路 + 双模型协同（fable5 精准 + GPT-5.6 全面） |
 | [50 Skills AI 创作系统](./50-skills-ai-creation-system/index.md) | 空格丶：数据→创作→排版→分发四层架构，50 个 Skill 串成系统 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
+
+## 分类索引
+
+| 分类 | 内容 |
+|------|------|
+| [zlbigger 系列教程](./zlbigger/) | 6 篇 AI 工具实战教程，从免费工具到躺赚站、Agent 自动化、批量建应用 |
+| [AI 产品沉思录](./ai-product/) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具 |
+| [AI 赚钱方法论](./money-methods/) | 个体创业路径 + 30 种赚钱方式 + Build-to-Sell 模式 |
+| [出海实战索引](./outsea-playbook/) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC |
 
 ## 核心路径
 
