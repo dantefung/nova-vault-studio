@@ -1,0 +1,190 @@
+- generic [active] [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - region "Notifications Alt+T"
+    - navigation "Global" [ref=f5e3]:
+      - link [ref=f5e6] [cursor=pointer]:
+        - /url: /
+        - img "new.web.cafe" [ref=f5e7]
+      - generic [ref=f5e8]:
+        - link "全部" [ref=f5e9] [cursor=pointer]:
+          - /url: /all
+        - link "帖子" [ref=f5e10] [cursor=pointer]:
+          - /url: /topics
+        - link "经验" [ref=f5e11] [cursor=pointer]:
+          - /url: /experiences
+        - link "教程" [ref=f5e12] [cursor=pointer]:
+          - /url: /tutorials
+        - link "标签" [ref=f5e13] [cursor=pointer]:
+          - /url: /labels
+        - link "比赛" [ref=f5e14] [cursor=pointer]:
+          - /url: /competition
+        - link "哥飞.ai" [ref=f5e15] [cursor=pointer]:
+          - /url: /chat
+        - link "工具箱" [ref=f5e16] [cursor=pointer]:
+          - /url: https://seo.web.cafe/
+        - link "优选" [ref=f5e17] [cursor=pointer]:
+          - /url: /store
+      - generic [ref=f5e19]:
+        - button "切换主题" [ref=f5e21] [cursor=pointer]
+        - button "登 录" [ref=f5e24] [cursor=pointer]
+  - generic [ref=f5e26]:
+    - navigation "Breadcrumb" [ref=f5e28]:
+      - list [ref=f5e29]:
+        - listitem [ref=f5e30]:
+          - link "Home" [ref=f5e32] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f5e36]:
+          - link "教 程" [ref=f5e40] [cursor=pointer]:
+            - /url: /tutorials
+        - listitem [ref=f5e41]:
+          - link "挖掘需求" [ref=f5e45] [cursor=pointer]:
+            - /url: /tutorial/89afd4d0414d41e6b5f9304ee42df055
+        - listitem [ref=f5e46]:
+          - generic [ref=f5e47]: 通过查看 vercel.app 的子域名发现新需求
+    - generic [ref=f5e51]:
+      - generic [ref=f5e52]:
+        - generic [ref=f5e54]:
+          - generic [ref=f5e55] [cursor=pointer]: 哥飞
+          - generic [ref=f5e56]: 2024-07-18 00:26
+        - generic [ref=f5e57]:
+          - heading "挖掘需求" [level=2] [ref=f5e58]
+          - navigation [ref=f5e59]:
+            - link "1. 通过查看 vercel.app 的子域名发现新需求" [ref=f5e60] [cursor=pointer]:
+              - /url: /tutorial/detail/566236a5bb414c7eba92dcbadbf00240
+              - generic [ref=f5e61]: "1."
+              - generic [ref=f5e62]: 通过查看 vercel.app 的子域名发现新需求
+            - link "2. 人人都能学会的发掘 web 产品需求方法入门" [ref=f5e63] [cursor=pointer]:
+              - /url: /tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh
+              - generic [ref=f5e64]: "2."
+              - generic [ref=f5e65]: 人人都能学会的发掘 web 产品需求方法入门
+            - link "3. 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品" [ref=f5e66] [cursor=pointer]:
+              - /url: /tutorial/detail/34rBHmYJe3nFSsMDLLd8KU
+              - generic [ref=f5e67]: "3."
+              - generic [ref=f5e68]: 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品
+            - link "4. 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家" [ref=f5e69] [cursor=pointer]:
+              - /url: /tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy
+              - generic [ref=f5e70]: "4."
+              - generic [ref=f5e71]: 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家
+            - link "5. 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求" [ref=f5e72] [cursor=pointer]:
+              - /url: /tutorial/detail/aYfEzr44YKgXFLfNoSMkfL
+              - generic [ref=f5e73]: "5."
+              - generic [ref=f5e74]: 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求
+            - link "6. 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会" [ref=f5e75] [cursor=pointer]:
+              - /url: /tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi
+              - generic [ref=f5e76]: "6."
+              - generic [ref=f5e77]: 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会
+            - link "7. 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App" [ref=f5e78] [cursor=pointer]:
+              - /url: /tutorial/detail/oDAuhzcqNiar5JMZkmn2fu
+              - generic [ref=f5e79]: "7."
+              - generic [ref=f5e80]: 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App
+            - link "8. 如果你做AI工具没灵感，可以来这里：一个让你可以找到真实AI需求的地方" [ref=f5e81] [cursor=pointer]:
+              - /url: /tutorial/detail/jKVAYNoDeKfe6yWm2mqDUA
+              - generic [ref=f5e82]: "8."
+              - generic [ref=f5e83]: 如果你做AI工具没灵感，可以来这里：一个让你可以找到真实AI需求的地方
+            - link "9. 分享个搜索量跟 Midjourney 和 Stable Diffusion 差不多的关键词，有个单页网站用这个关键词赚了100万" [ref=f5e84] [cursor=pointer]:
+              - /url: /tutorial/detail/uGhSzkFUooAwd77V4yvPgC
+              - generic [ref=f5e85]: "9."
+              - generic [ref=f5e86]: 分享个搜索量跟 Midjourney 和 Stable Diffusion 差不多的关键词，有个单页网站用这个关键词赚了100万
+            - link "10. 【哥飞分享】通过查看 vercel.app 的子域名发现新需求、新关键词" [ref=f5e87] [cursor=pointer]:
+              - /url: /tutorial/detail/beYVJMzigPiWFuSpHKYyX3
+              - generic [ref=f5e88]: "10."
+              - generic [ref=f5e89]: 【哥飞分享】通过查看 vercel.app 的子域名发现新需求、新关键词
+            - link "11. 对于我们来说，尽快多赚点美元可能是最适合我们的方案。" [ref=f5e90] [cursor=pointer]:
+              - /url: /tutorial/detail/4zH66cGDYsE8vAXyhEuAuQ
+              - generic [ref=f5e91]: "11."
+              - generic [ref=f5e92]: 对于我们来说，尽快多赚点美元可能是最适合我们的方案。
+            - link "12. 哥飞解读：年收入1400万美元的一人公司为何这么赚？" [ref=f5e93] [cursor=pointer]:
+              - /url: /tutorial/detail/62rEqHuhk2iSPGprEQtVe4
+              - generic [ref=f5e94]: "12."
+              - generic [ref=f5e95]: 哥飞解读：年收入1400万美元的一人公司为何这么赚？
+            - link "13. 国庆放假大家都没闲着，都在上新站搞流量赚美元；社群配套网站首次亮相" [ref=f5e96] [cursor=pointer]:
+              - /url: /tutorial/detail/bPiHN9jQSeSYtqBAEGCxSq
+              - generic [ref=f5e97]: "13."
+              - generic [ref=f5e98]: 国庆放假大家都没闲着，都在上新站搞流量赚美元；社群配套网站首次亮相
+            - link "14. 与纯银探讨再聊我们为什么要出海赚美元" [ref=f5e99] [cursor=pointer]:
+              - /url: /tutorial/detail/vbuUJSWx8TWT5z6yjSkEVV
+              - generic [ref=f5e100]: "14."
+              - generic [ref=f5e101]: 与纯银探讨再聊我们为什么要出海赚美元
+            - link "15. 为何这个年收入130万美元的网站每月只有六万多访问量？" [ref=f5e102] [cursor=pointer]:
+              - /url: /tutorial/detail/hrwYeosrLhjWp7smCpYgTy
+              - generic [ref=f5e103]: "15."
+              - generic [ref=f5e104]: 为何这个年收入130万美元的网站每月只有六万多访问量？
+            - link "16. 每天不到100UV的网站也有人付费；11月初做的网站现在已经月收入3000美元了！" [ref=f5e105] [cursor=pointer]:
+              - /url: /tutorial/detail/nnREFp7pWxhf9nzc4UygcQ
+              - generic [ref=f5e106]: "16."
+              - generic [ref=f5e107]: 每天不到100UV的网站也有人付费；11月初做的网站现在已经月收入3000美元了！
+            - link "17. 上站，上站，朋友们请上站！想要赚美元就多上站！" [ref=f5e108] [cursor=pointer]:
+              - /url: /tutorial/detail/byVyDasjfDBssYMwijjzGb
+              - generic [ref=f5e109]: "17."
+              - generic [ref=f5e110]: 上站，上站，朋友们请上站！想要赚美元就多上站！
+            - link "18. 漫游找词SOP" [ref=f5e111] [cursor=pointer]:
+              - /url: /tutorial/detail/fjdhxvvcsq
+              - generic [ref=f5e112]: "18."
+              - generic [ref=f5e113]: 漫游找词SOP
+      - generic [ref=f5e114]:
+        - generic [ref=f5e115]:
+          - heading "通过查看 vercel.app 的子域名发现新需求" [level=1] [ref=f5e117]
+          - generic [ref=f5e118]:
+            - generic [ref=f5e119]: 在 Similarweb 或者 Semrush 上都可以查看某个域名下的子域名。
+            - generic [ref=f5e120]: 今天教大家的方法是使用 Similarweb 查看 vercel.app 下的子域名，来发现新需求。
+            - generic [ref=f5e121]: 路径： 打开 Similarweb ，在左侧菜单栏找到“搜索情报”下的“关键词研究”，再在“网站浏览工具”里找到“着陆页”。
+            - generic:
+              - img "image.png"
+            - generic [ref=f5e122]: 在顶部输入框，输入域名 vercel.app ，回车，就能查看自然 Vercel.app 的落地页。
+            - generic:
+              - img "image.png"
+            - generic [ref=f5e123]: 右上角时间选择，你可以选择最近 28 天，也可以选择上个月。
+            - img "image.png" [ref=f5e125]
+            - separator [ref=f5e126]
+            - heading "2025 年 7 月哥飞备注，以下教程写于 2024年 7 月，Similarweb 针对落地页功能，已经做了一些改版，界面不是下面这样了，但是基本的分析步骤和原理是一样的。" [level=2] [ref=f5e127]
+            - generic [ref=f5e128]: 选择最近几个月（哥飞这里选择的是最近12个月，你也可以选择最近1个月），勾选“新发现”这个过滤条件。
+            - generic [ref=f5e129]:
+              - text: 链接是：
+              - link "https://pro.similarweb.com/#/organicsearch/pageAnalysis/landing-pages-v2/*/999/28d?key=vercel.app&pageFilter=%5B%7B%22url%22%3A%22vercel.app%22%2C%22searchType%22%3A%22domain%22%7D%5D&webSource=Total&selectedPageTab=Organic" [ref=f5e130] [cursor=pointer]:
+                - /url: https://pro.similarweb.com/#/organicsearch/pageAnalysis/landing-pages-v2/*/999/28d?key=vercel.app&pageFilter=%5B%7B%22url%22%3A%22vercel.app%22%2C%22searchType%22%3A%22domain%22%7D%5D&webSource=Total&selectedPageTab=Organic
+            - generic [ref=f5e131]:
+              - text: 截图见下方：
+              - img "image.png" [ref=f5e132]
+            - generic [ref=f5e133]: 如第一名是 check-your-khodam.vercel.app ，不过可惜的是这个网站已经打不开了。
+            - generic:
+              - img "image.png"
+            - generic [ref=f5e134]:
+              - text: 承接的关键词如下截图所示：
+              - img "image.png" [ref=f5e135]
+            - generic [ref=f5e136]: 拿最前面两个去谷歌趋势检查，果然是6月18日才开始新出现的关键词。
+            - generic:
+              - img "image.png"
+            - generic [ref=f5e137]: 至于这些关键词具体代表什么，就交给大家去探索了。
+            - generic [ref=f5e138]: 继续看，会发现第二个子域名也是关于这个关键词的。
+            - generic [ref=f5e139]: 第三个子域名则是关于 chatgpt premium cookies 和 grammarly cookies 的。
+            - img "image.png" [ref=f5e141]
+            - generic [ref=f5e142]: 去看谷歌趋势，的确是新出现的词。
+            - generic:
+              - img "image.png"
+            - generic [ref=f5e143]: 好了，本篇教程就到这里了，剩下的大家自己去探索吧。
+          - 'link "下一篇: 人人都能学会的发掘 web 产品需求方法入门" [ref=f5e146] [cursor=pointer]':
+            - /url: /tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh
+        - generic [ref=f5e147]: 评论区
+        - list
+        - generic [ref=f5e155]:
+          - textbox "添加您的评论，在您的评论中使用 [hidden] 标签来隐藏特定内容。例如，[hidden]您要隐藏的评论内容[/hidden] 将使这部分内容仅对帖子作者,管理员和您可见。" [ref=f5e157]
+          - generic [ref=f5e162]:
+            - button "添加图片" [ref=f5e163] [cursor=pointer]
+            - button "添加隐藏" [ref=f5e164] [cursor=pointer]
+            - button "回复" [ref=f5e165] [cursor=pointer]
+  - generic [ref=f5e168]:
+    - generic [ref=f5e169]:
+      - link [ref=f5e170] [cursor=pointer]:
+        - /url: /
+        - img "new.web.cafe" [ref=f5e171]
+      - paragraph [ref=f5e172]: Web.Cafe
+      - paragraph
+    - generic [ref=f5e173]:
+      - generic [ref=f5e174]:
+        - generic [ref=f5e175]:
+          - list
+        - generic [ref=f5e176]:
+          - list
+      - generic [ref=f5e178]:
+        - list
+  - alert [ref=f5e179]

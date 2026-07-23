@@ -1311,3 +1311,10 @@ source: "llm-wiki"
 **图片**：约 190 张已下载到本地 `images/` 目录
 **编排**：按学习路径分三阶段（理解搜索引擎 → 核心技能 → 进阶策略）
 **更新**：seo/index.md 增加系统教程板块
+
+## [2026-07-22] spec-superflow-intro 采集
+
+**操作**：采集微信公众号文章对比 Matt Pocock skills 与 spec-superflow 工作流
+**位置**：`sources/spec-superflow-intro.md`
+**图片**：6 张已下载到 `images/spec-superflow-intro/`
+**摘要**：Matt Pocock 开源 agent skills 以 small/composable 理念提供 /grill-me、/tdd 等独立 skill，适合个人项目和英文生态；spec-superflow 通过 8 状态路由和 execution-contract 硬约束强制「Spec First」，适合中文团队和大项目。作者建议小需求用 Matt 快速过，大功能走 spec-superflow。

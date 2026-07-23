@@ -1,0 +1,12 @@
+- generic [active] [ref=f3e1]:
+  - main [ref=f3e2]:
+    - generic [ref=f3e5]:
+      - heading "404" [level=1] [ref=f3e6]
+      - generic [ref=f3e7]: ☕
+      - heading "Oops! This page took a coffee break" [level=2] [ref=f3e8]
+      - paragraph [ref=f3e9]: The page you're looking for seems to have wandered off. It might be sipping a latte somewhere.
+      - generic [ref=f3e10]:
+        - link "Back to Home" [ref=f3e11] [cursor=pointer]:
+          - /url: /
+        - button "Go Back" [ref=f3e14] [cursor=pointer]
+  - alert [ref=f3e17]

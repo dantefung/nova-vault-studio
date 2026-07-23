@@ -1,0 +1,169 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e8]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: /all
+          - text: 全部
+        - link [ref=e10] [cursor=pointer]:
+          - /url: /topics
+          - text: 帖子
+        - link [ref=e11] [cursor=pointer]:
+          - /url: /experiences
+          - text: 经验
+        - link [ref=e12] [cursor=pointer]:
+          - /url: /tutorials
+          - text: 教程
+        - link [ref=e13] [cursor=pointer]:
+          - /url: /labels
+          - text: 标签
+        - link [ref=e14] [cursor=pointer]:
+          - /url: /competition
+          - text: 比赛
+        - link [ref=e15] [cursor=pointer]:
+          - /url: /chat
+          - text: 哥飞.ai
+        - link [ref=e16] [cursor=pointer]:
+          - /url: https://seo.web.cafe/
+          - text: 工具箱
+        - link [ref=e17] [cursor=pointer]:
+          - /url: /store
+          - text: 优选
+      - generic [ref=e19]:
+        - button [ref=e21] [cursor=pointer]
+        - button [ref=e24] [cursor=pointer]: 登 录
+  - generic [ref=e26]:
+    - navigation "Breadcrumb" [ref=e28]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - link "Home" [ref=e32] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e36]:
+          - link "教 程" [ref=e40] [cursor=pointer]:
+            - /url: /tutorials
+        - listitem [ref=e41]:
+          - link "挖掘需求" [ref=e45] [cursor=pointer]:
+            - /url: /tutorial/89afd4d0414d41e6b5f9304ee42df055
+        - listitem [ref=e46]:
+          - generic [ref=e47]: 通过查看 vercel.app 的子域名发现新需求
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - generic [ref=e55] [cursor=pointer]: 哥飞
+          - generic [ref=e56]: 2024-07-18 00:26
+        - generic [ref=e57]:
+          - heading "挖掘需求" [level=2] [ref=e58]
+          - navigation [ref=e59]:
+            - link "1. 通过查看 vercel.app 的子域名发现新需求" [ref=e60] [cursor=pointer]:
+              - /url: /tutorial/detail/566236a5bb414c7eba92dcbadbf00240
+              - generic [ref=e61]: "1."
+              - generic [ref=e62]: 通过查看 vercel.app 的子域名发现新需求
+            - link "2. 人人都能学会的发掘 web 产品需求方法入门" [ref=e63] [cursor=pointer]:
+              - /url: /tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh
+              - generic [ref=e64]: "2."
+              - generic [ref=e65]: 人人都能学会的发掘 web 产品需求方法入门
+            - link "3. 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品" [ref=e66] [cursor=pointer]:
+              - /url: /tutorial/detail/34rBHmYJe3nFSsMDLLd8KU
+              - generic [ref=e67]: "3."
+              - generic [ref=e68]: 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品
+            - link "4. 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家" [ref=e69] [cursor=pointer]:
+              - /url: /tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy
+              - generic [ref=e70]: "4."
+              - generic [ref=e71]: 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家
+            - link "5. 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求" [ref=e72] [cursor=pointer]:
+              - /url: /tutorial/detail/aYfEzr44YKgXFLfNoSMkfL
+              - generic [ref=e73]: "5."
+              - generic [ref=e74]: 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求
+            - link "6. 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会" [ref=e75] [cursor=pointer]:
+              - /url: /tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi
+              - generic [ref=e76]: "6."
+              - generic [ref=e77]: 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会
+            - link "7. 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App" [ref=e78] [cursor=pointer]:
+              - /url: /tutorial/detail/oDAuhzcqNiar5JMZkmn2fu
+              - generic [ref=e79]: "7."
+              - generic [ref=e80]: 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App
+            - link "8. 如果你做AI工具没灵感，可以来这里：一个让你可以找到真实AI需求的地方" [ref=e81] [cursor=pointer]:
+              - /url: /tutorial/detail/jKVAYNoDeKfe6yWm2mqDUA
+              - generic [ref=e82]: "8."
+              - generic [ref=e83]: 如果你做AI工具没灵感，可以来这里：一个让你可以找到真实AI需求的地方
+            - link "9. 分享个搜索量跟 Midjourney 和 Stable Diffusion 差不多的关键词，有个单页网站用这个关键词赚了100万" [ref=e84] [cursor=pointer]:
+              - /url: /tutorial/detail/uGhSzkFUooAwd77V4yvPgC
+              - generic [ref=e85]: "9."
+              - generic [ref=e86]: 分享个搜索量跟 Midjourney 和 Stable Diffusion 差不多的关键词，有个单页网站用这个关键词赚了100万
+            - link "10. 【哥飞分享】通过查看 vercel.app 的子域名发现新需求、新关键词" [ref=e87] [cursor=pointer]:
+              - /url: /tutorial/detail/beYVJMzigPiWFuSpHKYyX3
+              - generic [ref=e88]: "10."
+              - generic [ref=e89]: 【哥飞分享】通过查看 vercel.app 的子域名发现新需求、新关键词
+            - link "11. 对于我们来说，尽快多赚点美元可能是最适合我们的方案。" [ref=e90] [cursor=pointer]:
+              - /url: /tutorial/detail/4zH66cGDYsE8vAXyhEuAuQ
+              - generic [ref=e91]: "11."
+              - generic [ref=e92]: 对于我们来说，尽快多赚点美元可能是最适合我们的方案。
+            - link "12. 哥飞解读：年收入1400万美元的一人公司为何这么赚？" [ref=e93] [cursor=pointer]:
+              - /url: /tutorial/detail/62rEqHuhk2iSPGprEQtVe4
+              - generic [ref=e94]: "12."
+              - generic [ref=e95]: 哥飞解读：年收入1400万美元的一人公司为何这么赚？
+            - link "13. 国庆放假大家都没闲着，都在上新站搞流量赚美元；社群配套网站首次亮相" [ref=e96] [cursor=pointer]:
+              - /url: /tutorial/detail/bPiHN9jQSeSYtqBAEGCxSq
+              - generic [ref=e97]: "13."
+              - generic [ref=e98]: 国庆放假大家都没闲着，都在上新站搞流量赚美元；社群配套网站首次亮相
+            - link "14. 与纯银探讨再聊我们为什么要出海赚美元" [ref=e99] [cursor=pointer]:
+              - /url: /tutorial/detail/vbuUJSWx8TWT5z6yjSkEVV
+              - generic [ref=e100]: "14."
+              - generic [ref=e101]: 与纯银探讨再聊我们为什么要出海赚美元
+            - link "15. 为何这个年收入130万美元的网站每月只有六万多访问量？" [ref=e102] [cursor=pointer]:
+              - /url: /tutorial/detail/hrwYeosrLhjWp7smCpYgTy
+              - generic [ref=e103]: "15."
+              - generic [ref=e104]: 为何这个年收入130万美元的网站每月只有六万多访问量？
+            - link "16. 每天不到100UV的网站也有人付费；11月初做的网站现在已经月收入3000美元了！" [ref=e105] [cursor=pointer]:
+              - /url: /tutorial/detail/nnREFp7pWxhf9nzc4UygcQ
+              - generic [ref=e106]: "16."
+              - generic [ref=e107]: 每天不到100UV的网站也有人付费；11月初做的网站现在已经月收入3000美元了！
+            - link "17. 上站，上站，朋友们请上站！想要赚美元就多上站！" [ref=e108] [cursor=pointer]:
+              - /url: /tutorial/detail/byVyDasjfDBssYMwijjzGb
+              - generic [ref=e109]: "17."
+              - generic [ref=e110]: 上站，上站，朋友们请上站！想要赚美元就多上站！
+            - link "18. 漫游找词SOP" [ref=e111] [cursor=pointer]:
+              - /url: /tutorial/detail/fjdhxvvcsq
+              - generic [ref=e112]: "18."
+              - generic [ref=e113]: 漫游找词SOP
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - heading "通过查看 vercel.app 的子域名发现新需求" [level=1] [ref=e117]
+          - 'link "下一篇: 人人都能学会的发掘 web 产品需求方法入门" [ref=e120] [cursor=pointer]':
+            - /url: /tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh
+        - generic [ref=e121]: 评论区
+        - list
+        - textbox "添加您的评论，在您的评论中使用 [hidden] 标签来隐藏特定内容。例如，[hidden]您要隐藏的评论内容[/hidden] 将使这部分内容仅对帖子作者,管理员和您可见。" [disabled] [ref=e130]
+  - generic [ref=e136]:
+    - generic [ref=e137]:
+      - link [ref=e138] [cursor=pointer]:
+        - /url: /
+        - img "new.web.cafe" [ref=e139]
+      - paragraph [ref=e140]: Web.Cafe
+      - paragraph
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - list
+        - generic [ref=e144]:
+          - list
+      - generic [ref=e146]:
+        - list
+  - generic:
+    - generic:
+      - generic:
+        - dialog "new.web.cafe":
+          - generic [ref=e150]:
+            - generic [ref=e152]:
+              - heading [level=3] [ref=e153]:
+                - img "new.web.cafe" [ref=e155]
+              - paragraph [ref=e157]: 本文登录后可见
+            - generic [ref=e158]:
+              - button [active] [ref=e159] [cursor=pointer]:
+                - paragraph [ref=e165]: 使用 Google 登录
+              - button [ref=e166] [cursor=pointer]:
+                - img "微信" [ref=e167]
+                - paragraph [ref=e168]: 个人微信登录
+  - alert [ref=e169]

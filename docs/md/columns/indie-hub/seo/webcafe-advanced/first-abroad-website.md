@@ -1,3 +1,11 @@
+---
+title: "新手怎么做好出海第一站"
+date: "2024-08-12"
+source: "web.cafe"
+author: "哥飞"
+url: "https://new.web.cafe/tutorial/detail/first-abroad-website"
+---
+
 # 新手怎么做好出海第一站？
 > 原文链接: https://new.web.cafe/tutorial/detail/1mKHV1JxHVn8pHSYjhPgaK
 

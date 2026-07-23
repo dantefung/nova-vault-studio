@@ -1,3 +1,11 @@
+---
+title: "如何使用谷歌趋势找新词"
+date: "2024-08-12"
+source: "web.cafe"
+author: "哥飞"
+url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
+---
+
 # 如何使用谷歌趋势找新词，如何判断一个关键词是新词
 > 原文链接: https://new.web.cafe/tutorial/detail/gZnGR6eDaKxdyeT4ouR6KV
 

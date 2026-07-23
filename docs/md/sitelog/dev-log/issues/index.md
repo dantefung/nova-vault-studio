@@ -12,3 +12,4 @@ url: ""
 | 日期 | 问题 | 状态 |
 |------|------|------|
 | 2026-06-26 | [Vercel 构建 OOM](./vercel-build-oom.md) | fixed |
+| 2026-07-22 | [Web.Cafe 内容采集](./webcafe-scraping-handover.md) | wip |

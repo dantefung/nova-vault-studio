@@ -191,4 +191,3 @@ Web.Cafe
 
 Use arrow keys ↑↓ to navigate
 
-![](chrome-extension://mapjgeachilmcbbokkgcbgpbakaaeehi/assets/check.svg)The action has been successful

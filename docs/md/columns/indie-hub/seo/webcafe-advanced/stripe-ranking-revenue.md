@@ -1,3 +1,11 @@
+---
+title: "看排行榜挖掘赚钱产品"
+date: "2024-08-12"
+source: "web.cafe"
+author: "哥飞"
+url: "https://new.web.cafe/tutorial/detail/stripe-ranking-revenue"
+---
+
 # 看排行榜挖掘赚钱产品，基于Stripe入站流量估算产品收入
 > 原文链接: https://new.web.cafe/tutorial/detail/wBf7QCAM8YRWFUqaPdDoA2
 

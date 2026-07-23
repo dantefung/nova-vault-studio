@@ -1,3 +1,11 @@
+---
+title: "再聊内链和内页内容型工具站"
+date: "2024-08-12"
+source: "web.cafe"
+author: "哥飞"
+url: "https://new.web.cafe/tutorial/detail/internal-links-content-site"
+---
+
 # 再聊内链和内页，以及如何做好一个内容型工具站
 > 原文链接: https://new.web.cafe/tutorial/detail/v2NENgATdt5a62SzVQUYY6
 

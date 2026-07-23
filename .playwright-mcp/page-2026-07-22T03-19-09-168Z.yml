@@ -1,0 +1,213 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - region "Notifications Alt+T"
+    - navigation "Global" [ref=f4e3]:
+      - link [ref=f4e6] [cursor=pointer]:
+        - /url: /
+        - img "new.web.cafe" [ref=f4e7]
+      - generic [ref=f4e8]:
+        - link "全部" [ref=f4e9] [cursor=pointer]:
+          - /url: /all
+        - link "帖子" [ref=f4e10] [cursor=pointer]:
+          - /url: /topics
+        - link "经验" [ref=f4e11] [cursor=pointer]:
+          - /url: /experiences
+        - link "教程" [ref=f4e12] [cursor=pointer]:
+          - /url: /tutorials
+        - link "标签" [ref=f4e13] [cursor=pointer]:
+          - /url: /labels
+        - link "比赛" [ref=f4e14] [cursor=pointer]:
+          - /url: /competition
+        - link "群聊" [ref=f4e248] [cursor=pointer]:
+          - /url: /messages
+        - link "实录" [ref=f4e249] [cursor=pointer]:
+          - /url: /shares
+        - link "哥飞.ai" [ref=f4e15] [cursor=pointer]:
+          - /url: /chat
+        - link "工具箱" [ref=f4e16] [cursor=pointer]:
+          - /url: https://seo.web.cafe/
+        - link "优选" [ref=f4e17] [cursor=pointer]:
+          - /url: /store
+        - link "我的" [ref=f4e250] [cursor=pointer]:
+          - /url: /myTopic
+      - generic [ref=f4e18]:
+        - textbox "搜索" [ref=f4e254]
+        - link "发帖" [ref=f4e258] [cursor=pointer]:
+          - /url: /write
+        - generic [ref=f4e19]:
+          - button "切换主题" [ref=f4e21] [cursor=pointer]
+          - button "通知" [ref=f4e261] [cursor=pointer]
+          - button "Open user menu" [ref=f4e266] [cursor=pointer]
+  - generic [ref=f4e26]:
+    - navigation "Breadcrumb" [ref=f4e28]:
+      - list [ref=f4e29]:
+        - listitem [ref=f4e30]:
+          - link "Home" [ref=f4e32] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f4e36]:
+          - link "教 程" [ref=f4e40] [cursor=pointer]:
+            - /url: /tutorials
+        - listitem [ref=f4e41]:
+          - generic [ref=f4e42]: 进阶教程
+    - generic [ref=f4e46]:
+      - generic [ref=f4e47]: "#"
+      - heading "进阶教程" [level=1] [ref=f4e48]
+    - list [ref=f4e49]:
+      - generic [ref=f4e52]:
+        - generic [ref=f4e54]:
+          - paragraph [ref=f4e55] [cursor=pointer]: 谷歌SEO三字经（注解版）
+          - generic [ref=f4e56]:
+            - generic [ref=f4e268]:
+              - button [ref=f4e269] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e57]:
+              - term [ref=f4e58]
+              - definition [ref=f4e61]: "18"
+        - generic [ref=f4e62]:
+          - paragraph [ref=f4e63] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e66]:
+            - time [ref=f4e67]: 2024-07-21 15:59
+      - generic [ref=f4e70]:
+        - generic [ref=f4e72]:
+          - paragraph [ref=f4e73] [cursor=pointer]: 【5000字长文】海外工具从需求挖掘到网站制作全流程让你一篇文章学会
+          - generic [ref=f4e74]:
+            - generic [ref=f4e272]:
+              - button [ref=f4e273] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e75]:
+              - term [ref=f4e76]
+              - definition [ref=f4e79]: "88"
+        - generic [ref=f4e80]:
+          - paragraph [ref=f4e81] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e84]:
+            - time [ref=f4e85]: 2024-08-13 11:23
+      - generic [ref=f4e88]:
+        - generic [ref=f4e90]:
+          - paragraph [ref=f4e91] [cursor=pointer]: 【5800字长文】从网站站内优化到部署上线再到推广运营一篇文章让你学明白
+          - generic [ref=f4e92]:
+            - generic [ref=f4e276]:
+              - button [ref=f4e277] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e93]:
+              - term [ref=f4e94]
+              - definition [ref=f4e97]: "40"
+        - generic [ref=f4e98]:
+          - paragraph [ref=f4e99] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e102]:
+            - time [ref=f4e103]: 2024-08-13 11:50
+      - generic [ref=f4e106]:
+        - generic [ref=f4e108]:
+          - paragraph [ref=f4e109] [cursor=pointer]: 新手怎么做好出海第一站？
+          - generic [ref=f4e110]:
+            - generic [ref=f4e280]:
+              - button [ref=f4e281] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e111]:
+              - term [ref=f4e112]
+              - definition [ref=f4e115]: "35"
+        - generic [ref=f4e116]:
+          - paragraph [ref=f4e117] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e120]:
+            - time [ref=f4e121]: 2024-08-13 15:05
+      - generic [ref=f4e124]:
+        - generic [ref=f4e126]:
+          - paragraph [ref=f4e127] [cursor=pointer]: 看排行榜挖掘赚钱产品，基于Stripe入站流量估算产品收入
+          - generic [ref=f4e128]:
+            - generic [ref=f4e284]:
+              - button [ref=f4e285] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e129]:
+              - term [ref=f4e130]
+              - definition [ref=f4e133]: "31"
+        - generic [ref=f4e134]:
+          - paragraph [ref=f4e135] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e138]:
+            - time [ref=f4e139]: 2024-08-13 15:35
+      - generic [ref=f4e142]:
+        - generic [ref=f4e144]:
+          - paragraph [ref=f4e145] [cursor=pointer]: 如何使用谷歌趋势找新词，如何判断一个关键词是新词
+          - generic [ref=f4e146]:
+            - generic [ref=f4e288]:
+              - button [ref=f4e289] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e147]:
+              - term [ref=f4e148]
+              - definition [ref=f4e151]: "41"
+        - generic [ref=f4e152]:
+          - paragraph [ref=f4e153] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e156]:
+            - time [ref=f4e157]: 2024-08-13 15:47
+      - generic [ref=f4e160]:
+        - generic [ref=f4e162]:
+          - paragraph [ref=f4e163] [cursor=pointer]: 再聊内链和内页，以及如何做好一个内容型工具站
+          - generic [ref=f4e164]:
+            - generic [ref=f4e292]:
+              - button [ref=f4e293] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e165]:
+              - term [ref=f4e166]
+              - definition [ref=f4e169]: "17"
+        - generic [ref=f4e170]:
+          - paragraph [ref=f4e171] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e174]:
+            - time [ref=f4e175]: 2024-08-13 16:33
+      - generic [ref=f4e178]:
+        - generic [ref=f4e180]:
+          - paragraph [ref=f4e181] [cursor=pointer]: 再聊挖掘需求的方法
+          - generic [ref=f4e182]:
+            - generic [ref=f4e296]:
+              - button [ref=f4e297] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e183]:
+              - term [ref=f4e184]
+              - definition [ref=f4e187]: "33"
+        - generic [ref=f4e188]:
+          - paragraph [ref=f4e189] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e192]:
+            - time [ref=f4e193]: 2024-08-13 16:57
+      - generic [ref=f4e196]:
+        - generic [ref=f4e198]:
+          - paragraph [ref=f4e199] [cursor=pointer]: 如何获取Bing的流量
+          - generic [ref=f4e200]:
+            - generic [ref=f4e300]:
+              - button [ref=f4e301] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e201]:
+              - term [ref=f4e202]
+              - definition [ref=f4e205]: "19"
+        - generic [ref=f4e206]:
+          - paragraph [ref=f4e207] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e210]:
+            - time [ref=f4e211]: 2025-03-06 17:15
+          - paragraph [ref=f4e213] [cursor=pointer]: Bing
+      - generic [ref=f4e216]:
+        - generic [ref=f4e218]:
+          - paragraph [ref=f4e219] [cursor=pointer]: 【哥飞看词】帮社群里朋友看一个关键词是否能做
+          - generic [ref=f4e220]:
+            - generic [ref=f4e304]:
+              - button [ref=f4e305] [cursor=pointer]
+              - generic: 收藏
+            - generic [ref=f4e221]:
+              - term [ref=f4e222]
+              - definition [ref=f4e225]: "23"
+        - generic [ref=f4e226]:
+          - paragraph [ref=f4e227] [cursor=pointer]: 哥飞
+          - paragraph [ref=f4e230]:
+            - time [ref=f4e231]: 2025-08-04 11:40
+          - paragraph [ref=f4e233] [cursor=pointer]: 关键词
+  - generic [ref=f4e236]:
+    - generic [ref=f4e237]:
+      - link [ref=f4e238] [cursor=pointer]:
+        - /url: /
+        - img "new.web.cafe" [ref=f4e239]
+      - paragraph [ref=f4e240]: Web.Cafe
+      - paragraph
+    - generic [ref=f4e241]:
+      - generic [ref=f4e242]:
+        - generic [ref=f4e243]:
+          - list
+        - generic [ref=f4e244]:
+          - list
+      - generic [ref=f4e246]:
+        - list
+  - alert [ref=f4e247]

@@ -1,3 +1,11 @@
+---
+title: "再聊挖掘需求的方法"
+date: "2024-08-12"
+source: "web.cafe"
+author: "哥飞"
+url: "https://new.web.cafe/tutorial/detail/demand-mining-methods"
+---
+
 # 再聊挖掘需求的方法
 > 原文链接: https://new.web.cafe/tutorial/detail/mrozYpTgfu6MGXggeX2Kzr
 

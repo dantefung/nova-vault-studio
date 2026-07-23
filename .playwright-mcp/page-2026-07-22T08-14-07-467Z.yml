@@ -1,0 +1,244 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - region "Notifications Alt+T"
+    - navigation "Global" [ref=e3]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "new.web.cafe" [ref=e7]
+      - generic [ref=e8]:
+        - link "全部" [ref=e9] [cursor=pointer]:
+          - /url: /all
+        - link "帖子" [ref=e10] [cursor=pointer]:
+          - /url: /topics
+        - link "经验" [ref=e11] [cursor=pointer]:
+          - /url: /experiences
+        - link "教程" [ref=e12] [cursor=pointer]:
+          - /url: /tutorials
+        - link "标签" [ref=e13] [cursor=pointer]:
+          - /url: /labels
+        - link "比赛" [ref=e14] [cursor=pointer]:
+          - /url: /competition
+        - link "哥飞.ai" [ref=e15] [cursor=pointer]:
+          - /url: /chat
+        - link "工具箱" [ref=e16] [cursor=pointer]:
+          - /url: https://seo.web.cafe/
+        - link "优选" [ref=e17] [cursor=pointer]:
+          - /url: /store
+      - generic [ref=e19]:
+        - button "切换主题" [ref=e21] [cursor=pointer]
+        - button "登 录" [ref=e24] [cursor=pointer]
+  - generic [ref=e26]:
+    - navigation "Breadcrumb" [ref=e28]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - link "Home" [ref=e32] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e36]:
+          - link "教 程" [ref=e40] [cursor=pointer]:
+            - /url: /tutorials
+        - listitem [ref=e41]:
+          - generic [ref=e42]: 挖掘需求
+    - generic [ref=e46]:
+      - generic [ref=e47]: "#"
+      - heading "挖掘需求" [level=1] [ref=e48]
+    - list [ref=e49]:
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - paragraph [ref=e55] [cursor=pointer]: 通过查看 vercel.app 的子域名发现新需求
+          - generic [ref=e57]:
+            - term [ref=e58]
+            - definition [ref=e61]: "38"
+        - generic [ref=e62]:
+          - paragraph [ref=e63] [cursor=pointer]: 哥飞
+          - paragraph [ref=e66]:
+            - time [ref=e67]: 2024-07-18 00:26
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - paragraph [ref=e73] [cursor=pointer]: 人人都能学会的发掘 web 产品需求方法入门
+          - generic [ref=e75]:
+            - term [ref=e76]
+            - definition [ref=e79]: "13"
+        - generic [ref=e80]:
+          - paragraph [ref=e81] [cursor=pointer]: 哥飞
+          - paragraph [ref=e84]:
+            - time [ref=e85]: 2024-08-12 15:15
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - paragraph [ref=e91] [cursor=pointer]: 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品
+          - generic [ref=e93]:
+            - term [ref=e94]
+            - definition [ref=e97]: "9"
+        - generic [ref=e98]:
+          - paragraph [ref=e99] [cursor=pointer]: 哥飞
+          - paragraph [ref=e102]:
+            - time [ref=e103]: 2024-08-12 15:23
+      - generic [ref=e106]:
+        - generic [ref=e108]:
+          - paragraph [ref=e109] [cursor=pointer]: 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家
+          - generic [ref=e111]:
+            - term [ref=e112]
+            - definition [ref=e115]: "6"
+        - generic [ref=e116]:
+          - paragraph [ref=e117] [cursor=pointer]: 哥飞
+          - paragraph [ref=e120]:
+            - time [ref=e121]: 2024-08-12 15:33
+      - generic [ref=e124]:
+        - generic [ref=e126]:
+          - paragraph [ref=e127] [cursor=pointer]: 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求
+          - generic [ref=e129]:
+            - term [ref=e130]
+            - definition [ref=e133]: "19"
+        - generic [ref=e134]:
+          - paragraph [ref=e135] [cursor=pointer]: 哥飞
+          - paragraph [ref=e138]:
+            - time [ref=e139]: 2024-08-12 15:40
+      - generic [ref=e142]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145] [cursor=pointer]: 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会
+          - generic [ref=e147]:
+            - term [ref=e148]
+            - definition [ref=e151]: "17"
+        - generic [ref=e152]:
+          - paragraph [ref=e153] [cursor=pointer]: 哥飞
+          - paragraph [ref=e156]:
+            - time [ref=e157]: 2024-08-12 15:44
+      - generic [ref=e160]:
+        - generic [ref=e162]:
+          - paragraph [ref=e163] [cursor=pointer]: 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App
+          - generic [ref=e165]:
+            - term [ref=e166]
+            - definition [ref=e169]: "20"
+        - generic [ref=e170]:
+          - paragraph [ref=e171] [cursor=pointer]: 哥飞
+          - paragraph [ref=e174]:
+            - time [ref=e175]: 2024-08-12 15:54
+      - generic [ref=e178]:
+        - generic [ref=e180]:
+          - paragraph [ref=e181] [cursor=pointer]: 如果你做AI工具没灵感，可以来这里：一个让你可以找到真实AI需求的地方
+          - generic [ref=e183]:
+            - term [ref=e184]
+            - definition [ref=e187]: "8"
+        - generic [ref=e188]:
+          - paragraph [ref=e189] [cursor=pointer]: 哥飞
+          - paragraph [ref=e192]:
+            - time [ref=e193]: 2024-08-12 15:59
+      - generic [ref=e196]:
+        - generic [ref=e198]:
+          - paragraph [ref=e199] [cursor=pointer]: 分享个搜索量跟 Midjourney 和 Stable Diffusion 差不多的关键词，有个单页网站用这个关键词赚了100万
+          - generic [ref=e201]:
+            - term [ref=e202]
+            - definition [ref=e205]: "9"
+        - generic [ref=e206]:
+          - paragraph [ref=e207] [cursor=pointer]: 哥飞
+          - paragraph [ref=e210]:
+            - time [ref=e211]: 2024-08-12 16:03
+      - generic [ref=e214]:
+        - generic [ref=e216]:
+          - paragraph [ref=e217] [cursor=pointer]: 【哥飞分享】通过查看 vercel.app 的子域名发现新需求、新关键词
+          - generic [ref=e219]:
+            - term [ref=e220]
+            - definition [ref=e223]: "7"
+        - generic [ref=e224]:
+          - paragraph [ref=e225] [cursor=pointer]: 哥飞
+          - paragraph [ref=e228]:
+            - time [ref=e229]: 2024-08-12 16:36
+      - generic [ref=e232]:
+        - generic [ref=e234]:
+          - paragraph [ref=e235] [cursor=pointer]: 对于我们来说，尽快多赚点美元可能是最适合我们的方案。
+          - generic [ref=e237]:
+            - term [ref=e238]
+            - definition [ref=e241]: "8"
+        - generic [ref=e242]:
+          - paragraph [ref=e243] [cursor=pointer]: 哥飞
+          - paragraph [ref=e246]:
+            - time [ref=e247]: 2024-08-13 09:40
+      - generic [ref=e250]:
+        - generic [ref=e252]:
+          - paragraph [ref=e253] [cursor=pointer]: 哥飞解读：年收入1400万美元的一人公司为何这么赚？
+          - generic [ref=e255]:
+            - term [ref=e256]
+            - definition [ref=e259]: "11"
+        - generic [ref=e260]:
+          - paragraph [ref=e261] [cursor=pointer]: 哥飞
+          - paragraph [ref=e264]:
+            - time [ref=e265]: 2024-08-13 09:43
+      - generic [ref=e268]:
+        - generic [ref=e270]:
+          - paragraph [ref=e271] [cursor=pointer]: 国庆放假大家都没闲着，都在上新站搞流量赚美元；社群配套网站首次亮相
+          - generic [ref=e273]:
+            - term [ref=e274]
+            - definition [ref=e277]: "4"
+        - generic [ref=e278]:
+          - paragraph [ref=e279] [cursor=pointer]: 哥飞
+          - paragraph [ref=e282]:
+            - time [ref=e283]: 2024-08-13 09:47
+      - generic [ref=e286]:
+        - generic [ref=e288]:
+          - paragraph [ref=e289] [cursor=pointer]: 与纯银探讨再聊我们为什么要出海赚美元
+          - generic [ref=e291]:
+            - term [ref=e292]
+            - definition [ref=e295]: "10"
+        - generic [ref=e296]:
+          - paragraph [ref=e297] [cursor=pointer]: 哥飞
+          - paragraph [ref=e300]:
+            - time [ref=e301]: 2024-08-13 09:53
+      - generic [ref=e304]:
+        - generic [ref=e306]:
+          - paragraph [ref=e307] [cursor=pointer]: 为何这个年收入130万美元的网站每月只有六万多访问量？
+          - generic [ref=e309]:
+            - term [ref=e310]
+            - definition [ref=e313]: "9"
+        - generic [ref=e314]:
+          - paragraph [ref=e315] [cursor=pointer]: 哥飞
+          - paragraph [ref=e318]:
+            - time [ref=e319]: 2024-08-13 09:56
+      - generic [ref=e322]:
+        - generic [ref=e324]:
+          - paragraph [ref=e325] [cursor=pointer]: 每天不到100UV的网站也有人付费；11月初做的网站现在已经月收入3000美元了！
+          - generic [ref=e327]:
+            - term [ref=e328]
+            - definition [ref=e331]: "12"
+        - generic [ref=e332]:
+          - paragraph [ref=e333] [cursor=pointer]: 哥飞
+          - paragraph [ref=e336]:
+            - time [ref=e337]: 2024-08-13 10:00
+      - generic [ref=e340]:
+        - generic [ref=e342]:
+          - paragraph [ref=e343] [cursor=pointer]: 上站，上站，朋友们请上站！想要赚美元就多上站！
+          - generic [ref=e345]:
+            - term [ref=e346]
+            - definition [ref=e349]: "11"
+        - generic [ref=e350]:
+          - paragraph [ref=e351] [cursor=pointer]: 哥飞
+          - paragraph [ref=e354]:
+            - time [ref=e355]: 2024-08-13 10:02
+      - generic [ref=e358]:
+        - generic [ref=e360]:
+          - paragraph [ref=e361] [cursor=pointer]: 漫游找词SOP
+          - generic [ref=e363]:
+            - term [ref=e364]
+            - definition [ref=e367]: "32"
+        - generic [ref=e368]:
+          - paragraph [ref=e369] [cursor=pointer]: 程序员卡诺
+          - paragraph [ref=e372]:
+            - time [ref=e373]: 2024-12-27 19:33
+          - generic [ref=e374]:
+            - paragraph [ref=e375] [cursor=pointer]: 万词王
+            - paragraph [ref=e376] [cursor=pointer]: 需求挖掘
+            - paragraph [ref=e377] [cursor=pointer]: 经验
+  - generic [ref=e380]:
+    - generic [ref=e381]:
+      - link [ref=e382] [cursor=pointer]:
+        - /url: /
+        - img "new.web.cafe" [ref=e383]
+      - paragraph [ref=e384]: Web.Cafe
+      - paragraph
+    - generic [ref=e385]:
+      - generic [ref=e386]:
+        - generic [ref=e387]:
+          - list
+        - generic [ref=e388]:
+          - list
+      - generic [ref=e390]:
+        - list
+  - alert [ref=e391]

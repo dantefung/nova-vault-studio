@@ -1,0 +1,57 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - button [ref=e10] [cursor=pointer]: 登 录
+          - button [ref=e13] [cursor=pointer]
+          - button [ref=e17] [cursor=pointer]
+          - button [ref=e21] [cursor=pointer]:
+            - generic [ref=e22]: Open main menu
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e30]:
+        - generic [ref=e31] [cursor=pointer]: 哥飞
+        - generic [ref=e32]: 2024-07-16 22:01
+      - button "新手入门" [ref=e34] [cursor=pointer]
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - heading "出海工具网站，从需求挖掘到网站制作全流程，让你一篇文章学会" [level=1] [ref=e41]
+        - 'link "下一篇: 如何用GPT生成SEO友好的网页Title和Description" [ref=e44] [cursor=pointer]':
+          - /url: /tutorial/detail/def03d968f1b46e894bd19e2516e49c8
+      - generic [ref=e45]: 评论区
+      - list
+      - textbox "添加您的评论，在您的评论中使用 [hidden] 标签来隐藏特定内容。例如，[hidden]您要隐藏的评论内容[/hidden] 将使这部分内容仅对帖子作者,管理员和您可见。" [disabled] [ref=e54]
+  - generic [ref=e60]:
+    - generic [ref=e61]:
+      - link [ref=e62] [cursor=pointer]:
+        - /url: /
+        - img "new.web.cafe" [ref=e63]
+      - paragraph [ref=e64]: Web.Cafe
+      - paragraph
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - list
+        - generic [ref=e68]:
+          - list
+      - generic [ref=e70]:
+        - list
+  - generic:
+    - generic:
+      - generic:
+        - dialog "new.web.cafe":
+          - generic [ref=e74]:
+            - generic [ref=e76]:
+              - heading [level=3] [ref=e77]:
+                - img "new.web.cafe" [ref=e79]
+              - paragraph [ref=e81]: 本文登录后可见
+            - generic [ref=e82]:
+              - button [active] [ref=e83] [cursor=pointer]:
+                - paragraph [ref=e89]: 使用 Google 登录
+              - button [ref=e90] [cursor=pointer]:
+                - img "微信" [ref=e91]
+                - paragraph [ref=e92]: 个人微信登录
+  - alert [ref=e93]

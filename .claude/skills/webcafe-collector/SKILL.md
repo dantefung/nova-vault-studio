@@ -1,6 +1,6 @@
 ---
 name: webcafe-collector
-description: "采集 web.cafe（new.web.cafe）文章到知识库。触发词：采集 web.cafe、webcafe 文章、哥飞教程、web.cafe 入库。支持专栏文章和帖子，需登录 cookie。自动完成：cookie 设置 → Playwright 抓取 → 图片下载 → 创建档案。"
+description: "采集 web.cafe（new.web.cafe）文章到知识库。触发词：采集 web.cafe、webcafe 文章、哥飞教程、web.cafe 入库。支持专栏文章和帖子。自动完成：opencli 抓取 → 图片下载 → 创建档案。"
 ---
 
 # Web.cafe Collector
@@ -11,195 +11,128 @@ description: "采集 web.cafe（new.web.cafe）文章到知识库。触发词：
 
 ## 前置条件
 
-### 1. 获取 Cookie
-
-web.cafe 是付费内容平台，需要登录 cookie 才能访问文章。
-
-**获取方式：**
-1. 在浏览器中登录 https://new.web.cafe
-2. 打开 DevTools → Application → Cookies
-3. 复制以下 cookie 值：
-
-```
-__Secure-authjs.session-token=eyJhbGciOi...
-__Host-authjs.csrf-token=...
-_pv_id=...
-```
-
-### 2. 设置环境变量
-
-将 cookie 保存到环境变量或直接写入脚本：
+### 1. opencli 安装与浏览器桥接
 
 ```bash
-export WEBCAFE_SESSION_TOKEN="eyJhbGciOi..."
-export WEBCAFE_CSRF_TOKEN="..."
+# 安装 opencli
+npm install -g opencli
+
+# 安装 Browser Bridge 扩展（Chrome）
+# 打开 chrome://extensions → 加载扩展 → 选择 extension/ 目录
+
+# 验证连接
+opencli doctor
 ```
+
+输出 `Everything looks good!` 即可。
+
+### 2. Chrome 登录 web.cafe
+
+1. 打开 Chrome，访问 https://new.web.cafe
+2. 确保已登录（右上角显示用户名，而非"登 录"）
+3. 登录一次即可，opencli 会复用 Chrome 的登录 session
+
+> **关键**：不需要手动提取 cookie，opencli 直接复用 Chrome 已登录的 session。
 
 ---
 
-## 平台路由表
+## 核心命令
 
-| URL 特征 | 平台 | 处理方式 |
-|----------|------|----------|
-| `new.web.cafe/topic/{uid}` | web.cafe 帖子 | Playwright + cookie |
-| `new.web.cafe/tutorial/{column_uid}/{article_uid}` | web.cafe 专栏文章 | 重定向到 `/topic/{article_uid}` |
+```bash
+opencli web read --url "https://new.web.cafe/tutorial/detail/{UID}"
+```
 
-> **重要**：web.cafe 专栏文章的实际内容 URL 是 `/topic/{article_uid}`，不是 `/tutorial/...`
+**自动完成：**
+- 抓取文章正文（含 frontmatter）
+- 下载文章内所有图片到 `images/` 目录
+- 输出 Markdown 文件到 `web-articles/` 目录
 
 ---
 
 ## 执行流程
 
-### 步骤 1：设置 Cookie 并抓取文章
+### 步骤 1：发现文章 UID
 
-```python
-from playwright.sync_api import sync_playwright
-import time, json, re
+从专栏页获取文章列表：
 
-COOKIES = [
-    {"name": "_pv_id", "value": "YOUR_PV_ID", "domain": ".web.cafe", "path": "/"},
-    {"name": "__Host-authjs.csrf-token", "value": "YOUR_CSRF_TOKEN", "domain": "new.web.cafe", "path": "/"},
-    {"name": "__Secure-authjs.session-token", "value": "YOUR_SESSION_TOKEN", "domain": "new.web.cafe", "path": "/"},
-]
-
-def fetch_article(article_uid):
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=['--no-sandbox'])
-        context = browser.new_context()
-        cdp = context.new_cdp_session(page=context.pages[0] if context.pages else context.new_page())
-        
-        # 设置 cookie
-        for c in COOKIES:
-            cdp.send("Network.setCookie", {
-                "name": c["name"], 
-                "value": c["value"], 
-                "domain": c["domain"], 
-                "path": c["path"], 
-                "secure": True
-            })
-        
-        page = context.new_page()
-        url = f"https://new.web.cafe/topic/{article_uid}"
-        page.goto(url, wait_until='networkidle', timeout=30000)
-        time.sleep(3)
-        
-        # 提取标题和内容
-        h1 = page.query_selector('h1')
-        title = h1.inner_text() if h1 else 'untitled'
-        
-        body = page.query_selector('body').inner_text()
-        # 从标题位置开始截取内容
-        title_idx = body.find(title)
-        if title_idx >= 0:
-            content = body[title_idx + len(title):]
-            # 去掉开头的元数据（收藏、作者、日期等）
-            lines = content.split('\n')
-            start = 0
-            for i, line in enumerate(lines):
-                line = line.strip()
-                if len(line) > 20 and not line.startswith('收藏') and not line.startswith('哥飞') and '2024-' not in line and '2025-' not in line:
-                    start = i
-                    break
-            content = '\n'.join(lines[start:])
-        
-        browser.close()
-        return title, content
+```bash
+opencli web read --url "https://new.web.cafe/tutorial/{COLUMN_UID}"
 ```
 
-### 步骤 2：批量抓取（带间隔）
+或用 Chrome DevTools MCP 在已打开的专栏页上提取：
 
-```python
-articles = [
-    ("article_uid_1", "文章标题1"),
-    ("article_uid_2", "文章标题2"),
-    # ...
-]
-
-results = []
-for uid, title in articles:
-    print(f"Fetching: {title} ({uid})")
-    try:
-        actual_title, content = fetch_article(uid)
-        results.append({"uid": uid, "title": actual_title, "content": content, "success": True})
-        print(f"  ✅ {len(content)} chars")
-    except Exception as e:
-        results.append({"uid": uid, "title": title, "content": "", "success": False})
-        print(f"  ❌ {e}")
-    time.sleep(3)  # 间隔 3 秒，避免频率限制
+```
+take_snapshot → 找到所有 /tutorial/detail/{UID} 链接
 ```
 
-### 步骤 3：下载图片
+### 步骤 2：逐篇抓取
 
-web.cafe 文章中的图片通常需要从页面中提取：
+```bash
+# 单篇
+opencli web read --url "https://new.web.cafe/tutorial/detail/{UID}"
 
-```python
-def download_images(page, article_uid, output_dir):
-    """从页面中提取并下载图片"""
-    images = page.query_selector_all('img')
-    downloaded = []
-    
-    for i, img in enumerate(images):
-        src = img.get_attribute('src')
-        if not src or 'avatar' in src or 'icon' in src:
-            continue
-        
-        # 下载图片
-        ext = 'jpg'
-        if '.png' in src: ext = 'png'
-        elif '.webp' in src: ext = 'webp'
-        
-        filename = f"{article_uid}_{i:03d}.{ext}"
-        filepath = f"{output_dir}/{filename}"
-        
-        # 使用 curl 下载
-        import subprocess
-        subprocess.run(['curl', '-sL', '-o', filepath, src], timeout=15)
-        downloaded.append(filename)
-    
-    return downloaded
+# 批量（间隔 15 秒，避免 Cloudflare）
+for uid in UID1 UID2 UID3; do
+  opencli web read --url "https://new.web.cafe/tutorial/detail/$uid"
+  sleep 15
+done
 ```
 
-### 步骤 4：创建档案文件
+### 步骤 3：归档到知识库
 
-```python
-def create_archive(article, output_dir, images):
-    """创建 markdown 档案文件"""
-    uid = article["uid"]
-    title = article["title"]
-    content = article["content"]
-    
-    md_content = f"""---
-title: "{title}"
-date: "YYYY-MM-DD"
-source: "web.cafe"
-author: "哥飞"
-url: "https://new.web.cafe/topic/{uid}"
+将 `web-articles/` 中的文件移动到目标目录：
+
+```bash
+# 目标目录
+DST="docs/md/columns/indie-hub/seo/{专栏名}"
+
+# 移动文章（重命名为英文 kebab-case）
+mv "web-articles/{中文标题}/{中文标题}.md" "$DST/{english-slug}.md"
+
+# 移动图片（重命名以匹配文章）
+mv "web-articles/{中文标题}/images/" "$DST/images/{english-slug}_"
+```
+
+更新图片路径（sed 批量替换）：
+
+```bash
+sed -i "s|images/{中文标题}/|images/{english-slug}_|g" "$DST/{english-slug}.md"
+```
+
+### 步骤 4：更新索引
+
+更新专栏 `index.md` 的文章列表。
+
 ---
 
-# {title}
+## Cloudflare 应对策略
 
-> 来源：[web.cafe 帖子](https://new.web.cafe/topic/{uid})
-> 作者：哥飞
+web.cafe 使用 Cloudflare 保护，连续请求会触发验证。
 
-{content}
-"""
-    
-    filepath = f"{output_dir}/{uid}.md"
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(md_content)
-    
-    return filepath
+| 情况 | 症状 | 解决 |
+|------|------|------|
+| 正常 | 返回完整文章 | 继续 |
+| 频率限制 | 返回 `Security Verification` | **等待 15 秒后重试** |
+| 持续被拦 | 多次重试仍失败 | **等待 30 秒后重试** |
+| 登录墙 | 返回"本文登录可见" | 检查 Chrome 是否已登录 |
+
+**经验法则：每篇间隔 15 秒，基本不会触发。**
+
+---
+
+## Chrome DevTools MCP 备用方案
+
+如果 opencli 持续被 Cloudflare 拦截，可用 Chrome DevTools MCP：
+
+1. 在 Chrome 中打开文章 URL
+2. 用 `take_snapshot` 提取内容
+3. 用 `evaluate_script` 提取图片 URL
+4. 用 `curl` 下载图片
+
 ```
-
-### 步骤 5：更新索引和日志
-
-```markdown
-## [YYYY-MM-DD] ingest: web.cafe 文章
-
-- 采集 web.cafe 专栏「XXX」N 篇文章
-- 归档至 columns/indie-hub/seo/xxx/
-- 下载 N 张配图
-- 文章列表：...
+navigate_page → url: "https://new.web.cafe/tutorial/detail/{UID}"
+take_snapshot → 提取文章内容
+evaluate_script → 提取图片 URL 列表
 ```
 
 ---
@@ -210,20 +143,19 @@ url: "https://new.web.cafe/topic/{uid}"
 docs/md/columns/indie-hub/seo/
 ├── webcafe-advanced/
 │   ├── index.md                    ← 专栏索引
-│   ├── article-slug-1.md           ← 文章档案
-│   ├── article-slug-2.md
+│   ├── seo-3words-annotation.md    ← 文章档案
+│   ├── tool-creation-full-process.md
 │   └── images/
-│       ├── article-uid_001.jpg
-│       └── article-uid_002.png
+│       ├── gefei-seo-3words-annotation_001.jpg
+│       └── gefei-tool-creation-full-process_001.png
 ```
 
 ---
 
 ## 文件命名规范
 
-- 英文小写、中划线分隔
-- 从文章标题提取关键词
-- 示例：`seo-3words-annotation`、`tool-creation-full-process`
+- 文章：英文小写、中划线分隔（如 `seo-3words-annotation`）
+- 图片：`gefei-{文章slug}_{序号}.{ext}`（如 `gefei-seo-3words-annotation_001.jpg`）
 
 ---
 
@@ -235,20 +167,9 @@ title: "文章标题"
 date: "YYYY-MM-DD"
 source: "web.cafe"
 author: "哥飞"
-url: "https://new.web.cafe/topic/{article_uid}"
+url: "https://new.web.cafe/tutorial/detail/{UID}"
 ---
 ```
-
----
-
-## 注意事项
-
-1. **Cookie 有效期**：session token 通常 7-30 天过期，需定期更新
-2. **频率限制**：每次请求间隔 3-5 秒，避免被封
-3. **付费内容**：只有登录用户才能查看文章正文
-4. **URL 模式**：使用 `/topic/{article_uid}` 而非 `/tutorial/...`
-5. **图片下载**：图片可能需要 Referer 头，使用 curl 时加上 `--referer`
-6. **Vue 模板**：文章中的 `<xxx>` 标签需要用反引号包裹，避免 Vue 解析错误
 
 ---
 
@@ -256,35 +177,40 @@ url: "https://new.web.cafe/topic/{article_uid}"
 
 | 操作 | 命令 |
 |------|------|
-| 抓取单篇文章 | `fetch_article("article_uid")` |
-| 批量抓取 | 循环 + `time.sleep(3)` |
-| 下载图片 | `curl -sL -o img.jpg "URL"` |
-| 创建档案 | 写入 markdown + frontmatter |
+| 验证环境 | `opencli doctor` |
+| 抓取单篇 | `opencli web read --url "https://new.web.cafe/tutorial/detail/{UID}"` |
+| 批量抓取 | 循环 + `sleep 15` |
+| 检查输出 | `ls web-articles/` |
 
 ---
 
 ## 故障排查
 
-### 问题：文章内容为空
+### opencli 返回 `Security Verification`
 
-**原因**：cookie 过期或 URL 模式错误
+**原因**：Cloudflare 频率限制
 
-**解决**：
-1. 检查 cookie 是否有效（在浏览器中测试）
-2. 使用 `/topic/{article_uid}` 而非 `/tutorial/...`
-3. 增加等待时间（`time.sleep(5)`）
+**解决**：等待 15-30 秒后重试
 
-### 问题：图片下载失败
+### opencli 返回登录墙
 
-**原因**：图片 URL 需要 Referer 头
+**原因**：Chrome 未登录 web.cafe
+
+**解决**：在 Chrome 中手动登录 https://new.web.cafe
+
+### 图片未下载
+
+**原因**：opencli 某些版本可能不下载图片
+
+**解决**：手动下载
+```bash
+curl -sL -o img.jpg "https://s.web.cafe/image/{HASH}.png"
+```
+
+### opencli 未安装
 
 **解决**：
 ```bash
-curl -sL -o img.jpg --referer "https://new.web.cafe/" "IMAGE_URL"
+npm install -g opencli
+opencli doctor  # 验证
 ```
-
-### 问题：Vue 模板解析错误
-
-**原因**：文章中的 `<xxx>` 标签被 Vue 解析
-
-**解决**：用反引号包裹 `<xxx>` → `\`<xxx>\``

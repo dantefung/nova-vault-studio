@@ -1,3 +1,11 @@
+---
+title: "哥飞看词：帮社群朋友看关键词"
+date: "2024-08-12"
+source: "web.cafe"
+author: "哥飞"
+url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
+---
+
 # 【哥飞看词】帮社群里朋友看一个关键词是否能做
 
 > 原文链接: https://new.web.cafe/tutorial/detail/6y8debz2oj

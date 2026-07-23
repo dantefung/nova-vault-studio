@@ -1,3 +1,11 @@
+---
+title: "如何获取Bing的流量"
+date: "2024-08-12"
+source: "web.cafe"
+author: "哥飞"
+url: "https://new.web.cafe/tutorial/detail/bing-traffic"
+---
+
 # 如何获取Bing的流量
 > 原文链接: https://new.web.cafe/tutorial/detail/i9aa0x1lhb
 
