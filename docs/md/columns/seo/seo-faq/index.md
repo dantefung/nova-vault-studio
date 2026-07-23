@@ -1,48 +1,33 @@
 ---
-title: "游戏站 SEO 建设 FAQ"
+title: "游戏站 SEO FAQ"
 date: "2026-07-23"
 source: "哥飞社群"
 url: "https://new.web.cafe/chat"
 ---
 
-# 游戏站 SEO 建设 FAQ
+# 游戏站 SEO FAQ
 
-## 平台选择
+> 游戏网站建设常见问题汇总，来源：哥飞社群
 
-- **独立游戏 → itch.io / Newgrounds**：本身支持嵌入，有天然流量，版权方不会追究
-- **自己托管**：想让外链归自己时进阶做法；Scratch 游戏可导出 HTML 自托管
+## 目录
 
-## 版权 / 商标
+| 主题 | 文件 | 核心要点 |
+|------|------|---------|
+| [平台选择](/columns/seo/seo-faq/01-platform/) | 独立游戏首选 itch.io/Newgrounds | 本身支持嵌入，有天然流量 |
+| [版权避坑](/columns/seo/seo-faq/02-copyright/) | 大厂游戏不能碰 | 独立小游戏/开源游戏没问题 |
+| [iframe 外链](/columns/seo/seo-faq/03-iframe/) | 套别人 iframe = 送外链 | 自托管游戏文件解决 |
+| [域名策略](/columns/seo/seo-faq/04-domain/) | 单游戏单域名 vs 聚合站 | 哥飞建议双线并行 |
+| [快速上手](/columns/seo/seo-faq/05-quickstart/) | 5步完成落地页 | iframe + Cloudflare Pages |
 
-> 游戏名称作为域名，需看该游戏是否申请了商标版权。申请过则尽量别用；未申请则没事。大厂游戏（任天堂等）不能碰，大量独立小游戏和开源游戏没有问题。
+## 快速导航
 
-## iframe 外链问题
+- [平台选择](./01-platform/) — 选哪个平台最合适
+- [版权避坑](./02-copyright/) — 哪些游戏不能用
+- [iframe 外链](./03-iframe/) — 外链归己方案
+- [域名策略](./04-domain/) — 单站还是聚合站
+- [快速上手](./05-quickstart/) — 实战5步路线
 
-> 套别人的 iframe = 给别人做外链
+## 相关资源
 
-想让外链归自己 → 自己托管游戏文件
-
-## 域名策略
-
-| 类型 | 适用场景 | 优缺点 |
-|------|---------|--------|
-| 单游戏单域名 | 蹭爆款游戏词精确流量 | 成本低，词凉了不续费 |
-| 聚合站 | 长期运营 | 价值更高，起步维护多 |
-
-**哥飞建议**：两个都做，自己卷自己。
-
-## 快速上手
-
-1. 用关键词找词方法找游戏相关词（有搜索量、竞争不太大）
-2. 注册域名
-3. 在 itch.io 等平台找游戏，拿到 iframe src
-4. Cursor 生成落地页（游戏 iframe 居中 + 标题 + 描述 + Adsense 广告位）
-5. 部署到 Cloudflare Pages
-
-**案例**：群友华从问「嵌入码去哪找」到「可以了，谢谢」只花了不到半小时。
-
-**学习资源**：new.web.cafe 搜索「游戏」，几十篇文章看完就差不多了。
-
-## 交叉引用
-
-[[哥飞SEO找关键词方法论](/md/wiki/sources/indie-hub-gefei-keyword)]
+- [SEO.box 工具导航](/columns/seo/seo-tool/) — SEO 工具集合
+- [哥飞 SEO 关键词方法论](/md/wiki/sources/indie-hub-gefei-keyword/) — 找词核心技能
