@@ -37,8 +37,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
 而最核心的思路其实是开头说过的，因为这些新网站需要去各个地方宣传推广，那么就一定会留下链接，我们根据这些网站的出站域名就能够发现这些新网站。 ![image.png](images/outbound-domain-demand-discovery/img_006.png) 群友们根据哥飞的演示，马上就总结出来了这个方法的价值所在，能够研究需求，分析竞对。 ![image.png](images/outbound-domain-demand-discovery/img_007.png) damo 老板想到了更多，他说这一套方法甚至可以做成一个服务，卖给所有的需要推广的开发者。 ![image.png](images/outbound-domain-demand-discovery/img_008.png) 以上就是哥飞给大家分享的如何使用Semrush的查询出站域名，发掘新产品，新需求的方法，以及群友们基于这个方法总结的更广泛的使用场景。
 
-[上一篇: 人人都能学会的发掘 web 产品需求方法入门](https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh)[下一篇: 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家](https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy)
-
 评论区
 
 -   ![](images/outbound-domain-demand-discovery/img_009.jpg)

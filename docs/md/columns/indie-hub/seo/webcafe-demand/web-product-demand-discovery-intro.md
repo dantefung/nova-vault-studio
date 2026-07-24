@@ -45,8 +45,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 那么，“时间戳”这个词，如果我们注册一个域名，专门做“时间戳”相关工具的话，假以时日，是有可能上搜索引擎首页，甚至是排到前5前3的。
 
-[上一篇: 通过查看 vercel.app 的子域名发现新需求](https://new.web.cafe/tutorial/detail/566236a5bb414c7eba92dcbadbf00240)[下一篇: 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品](https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU)
-
 评论区
 
 -   ![](images/web-product-demand-discovery-intro/img_013.jpg)

@@ -32,5 +32,3 @@ url: "https://new.web.cafe/tutorial/detail/9F4dZkZ7L3JPDNnaRRWRkW"
 
 这绝对是一个新的机会，大家抓住了，就可以《[养网站防老：网站可以做成一生的事业](https://mp.weixin.qq.com/s/URcdE3VaoYoAx0cOcll8_g)》了。
 
-[上一篇: 如何给一个已经上线的网站出SEO改造建议](https://new.web.cafe/tutorial/detail/eBR9wWboQbuJ6BqxhNfuo7)[下一篇: 介绍几个 Ahrefs 家的免费SEO工具 Free SEO Tools（上）](https://new.web.cafe/tutorial/detail/7mbmvSVtCAG4RHSZYMu92R)
-

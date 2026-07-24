@@ -95,5 +95,3 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 
 使用演示：大家可以自己安装使用。
 
-[上一篇: 介绍几个 Ahrefs 家的免费SEO工具 Free SEO Tools（上）](https://new.web.cafe/tutorial/detail/7mbmvSVtCAG4RHSZYMu92R)[下一篇: 【哥飞带你读】你需要了解的10个重要SEO元标签（上）](https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h)
-

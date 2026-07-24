@@ -87,7 +87,6 @@ xml 可以自带样式的，这是这站的 sitemap 加了样式文件，所以�
 **宫十三**
 * * *
 **tison**
-[上一篇: 学习维基百科内页和内链策略，做好我们自己的 AI 导航站](https://new.web.cafe/tutorial/detail/551y0dv782)[下一篇: 【哥飞小课堂】新站没有沙盒期，反而有优待期](https://new.web.cafe/tutorial/detail/q0a85lt9uw)
 评论区
 -   
     Dia ting

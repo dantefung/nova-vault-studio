@@ -118,7 +118,7 @@ Cursor 同理，全网在讨论 Cursor 时，绝大多数内容指向的都是 C
 
 互联网有自己的新陈代谢，曾经风光的A网站，也许后面就倒闭没落了，此时就应该允许另一个也叫A的网站出现，甚至就使用A曾经用过的域名都可以。
 
-[上一篇: 【2025.6.18哥飞小课堂】Airbrush.com流量增长案例拆解 —— 厚积薄发的 SEO 逻辑与实操启示](https://new.web.cafe/tutorial/detail/lamwyfyn4v)[下一篇: 【2025.4.29哥飞小课堂】Pixverse.ai SEO 反面案例拆解 ——6 大忌讳与新站实操启示](https://new.web.cafe/tutorial/detail/wo85zkrb8z)
+
 
 评论区
 

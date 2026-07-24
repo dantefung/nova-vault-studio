@@ -131,7 +131,6 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 如今，Google 比以往任何时候都更看重能够展示出对主题具有第一手经验的内容。以下是他们在最近一次[质量评分者指南](https://developers.google.com/search/blog/2022/12/google-raters-guidelines-e-e-a-t)更新中的表述：
 
-![Image 8: 引号](images/quotation-marks-6PWBEG7B.svg)
 内容是否也表明，它是在一定程度的经验基础上创作出来的？比如实际使用过某个产品、实际到访过某地或传达了作者的亲身经历？在某些情况下，你最看重的内容恰恰是由那些在该主题上有第一手生活经验的人创作的。
 
 [Google 会使用一系列信号](https://www.google.com/search/howsearchworks/how-search-works/ranking-results/)来帮助判断内容是否体现了经验、专业性、权威性与可信度。Google 将这些信号称为 [EEAT](https://ahrefs.com/zh/blog/eeat-seo/)，它们对那些可能影响读者幸福、健康或财富的主题尤为重要。Google 把这类主题称为 Your Money or Your Life (YMYL) 主题。

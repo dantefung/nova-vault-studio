@@ -183,8 +183,6 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
 好了，哥飞今天的讲解就大概讲完了。
 
-[上一篇: 如何使用谷歌趋势找新词，如何判断一个关键词是新词](https://new.web.cafe/tutorial/detail/gZnGR6eDaKxdyeT4ouR6KV)[下一篇: 再聊挖掘需求的方法](https://new.web.cafe/tutorial/detail/mrozYpTgfu6MGXggeX2Kzr)
-
 评论区
 
 -   ![](images/internal-links-content-site/gefei-internal-links-content-site_5.jpg)

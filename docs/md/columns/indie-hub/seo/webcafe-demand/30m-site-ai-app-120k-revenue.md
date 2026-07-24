@@ -45,8 +45,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
 ![image.png](images/30m-site-ai-app-120k-revenue/img_021.png) 有了GPT的加持后，他们3人的小团队，就可以做这么一个月收入12万美金的App，各位正在看哥飞文章的大家，是否也可以呢？
 
-[上一篇: 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会](https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi)[下一篇: 如果你做AI工具没灵感，可以来这里：一个让你可以找到真实AI需求的地方](https://new.web.cafe/tutorial/detail/jKVAYNoDeKfe6yWm2mqDUA)
-
 评论区
 
 -   ![](images/30m-site-ai-app-120k-revenue/img_022.jpg)

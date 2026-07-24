@@ -93,8 +93,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 好了，今晚的哥飞小课堂到此结束。
 
-[上一篇: 看排行榜挖掘赚钱产品，基于Stripe入站流量估算产品收入](https://new.web.cafe/tutorial/detail/wBf7QCAM8YRWFUqaPdDoA2)[下一篇: 再聊内链和内页，以及如何做好一个内容型工具站](https://new.web.cafe/tutorial/detail/v2NENgATdt5a62SzVQUYY6)
-
 评论区
 
 -   ![](images/google-trends-new-words/gefei-google-trends-new-words_011.jpg)

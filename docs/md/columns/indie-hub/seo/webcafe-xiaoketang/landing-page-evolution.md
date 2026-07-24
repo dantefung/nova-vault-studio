@@ -89,7 +89,6 @@ midjourney.com 会展示用户生成的图片。 suno.com 会展示用户生成�
 这里我们之前的小课堂也详细讲解过了，具体看这里： 再聊基于精品工具页面思路，如何做精品工具站 [https://new.web.cafe/tutorial/detail/za408lc1q9](https://new.web.cafe/tutorial/detail/za408lc1q9)
 补充一下，V2.0也是需要博客页面的，版本之间是层层递进关系，每一版进化，都需要保留之前版本的优势。
 博客页面的优势是什么？ 可以长期产出文章，保持网站更新频率，可以覆盖更多靠工具页面覆盖不了的长尾关键词。
-[上一篇: 再聊基于精品工具页面思路，如何做精品工具站](https://new.web.cafe/tutorial/detail/za408lc1q9)[下一篇: 流量变现、广告投放都要学会算帐，用一个例子教你算帐](https://new.web.cafe/tutorial/detail/ltmrne0xly)
 评论区
 -   
     杰

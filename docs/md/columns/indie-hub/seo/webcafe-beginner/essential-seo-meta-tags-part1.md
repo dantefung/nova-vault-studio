@@ -98,5 +98,3 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 顺便给大家推荐一个特别好用且免费的SEO浏览器插件，如我们在浏览 checkfiletype.com 这个网站时点开插件，就能够看到这个网站首页的 Title、Description、Headings、域名注册时间、流量等数据。 ![image.png](images/essential-seo-meta-tags-part1/img_010.png) ![image.png](images/essential-seo-meta-tags-part1/img_011.png) ![image.png](images/essential-seo-meta-tags-part1/img_012.png) 这么好用的插件居然是免费的，是的，这也是哥飞社群里朋友做的产品之一，欢迎下载使用 [https://aitdk.com/zh-CN/extension/](https://aitdk.com/zh-CN/extension/) 。
 
-[上一篇: 介绍几个 Ahrefs 家的免费SEO工具 Free SEO Tools（下）](https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ)[下一篇: 【哥飞带你读】你需要了解的10个重要SEO元标签（中）](https://new.web.cafe/tutorial/detail/9ZYduVPvgQksByx5RREP7G)
-

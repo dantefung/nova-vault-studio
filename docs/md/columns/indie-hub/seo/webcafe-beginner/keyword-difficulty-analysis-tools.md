@@ -79,5 +79,3 @@ url: "https://new.web.cafe/tutorial/detail/k7etr1tAWLjUQmnDUnpf1G"
 
 所有这些工具，每天用一用，保持数据敏感度，绝对能够提升你的能力。
 
-[上一篇: 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享](https://new.web.cafe/tutorial/detail/c8w83QGZAkt728T33WERCg)[下一篇: 如何用AI做SEO之内容自动批量生成，从搜索引擎获取免费流量](https://new.web.cafe/tutorial/detail/6F1jyKqBumtJhvBcwN1t7S)
-

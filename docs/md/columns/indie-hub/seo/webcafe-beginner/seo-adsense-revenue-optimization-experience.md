@@ -77,5 +77,3 @@ UV涨了之后，PV也会涨，而且之前旧版只有首页、分类页、详�
 
 看到这里，想必你已经学会了如何去优化一个网站了。
 
-[上一篇: 如何用GPT生成SEO友好的网页Title和Description](https://new.web.cafe/tutorial/detail/def03d968f1b46e894bd19e2516e49c8)[下一篇: 有了这几个关键字优化难度分析工具，妈妈再也不怕我不会判断SEO难度了](https://new.web.cafe/tutorial/detail/k7etr1tAWLjUQmnDUnpf1G)
-

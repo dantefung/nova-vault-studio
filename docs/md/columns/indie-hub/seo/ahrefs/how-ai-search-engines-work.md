@@ -66,11 +66,7 @@ LLM 通过海量数据进行训练，等同于“阅读”了包括整部维基�
 
 ![Image 2: 图示说明了大型语言模型如何利用网络规模内容进行训练](images/image-how-training-works-WHU77PV4.png)
 
-![Image 3: 引号](images/quotation-marks-6PWBEG7B.svg)
-这也是实体型 SEO 的关键所在：当您的品牌稳定出现在知识图谱中，通过 schema 标记进行了恰当的结构化，并且在整个互联网的高质量内容中与相关实体共同出现，那么你就在训练数据中构建了更强的“实体信号”。
-
-![Image 4: Gianluca Fiorelli的画像](images/gianluca-fiorelli-6JKQOVDJ.jpg)
-Gianluca Fiorelli, 战略与国际 SEO/AI 搜索顾问
+这也是实体型 SEO 的关键所在：当您的品牌稳定出现在知识图谱中，通过 schema 标记进行了恰当的结构化，并且在整个互联网的高质量内容中与相关实体共同出现，那么你就在训练数据中构建了更强的"实体信号"。
 
 关键在于，LLM 具有许多独特特性：
 
@@ -80,11 +76,7 @@ Gianluca Fiorelli, 战略与国际 SEO/AI 搜索顾问
 
 *   **幻觉问题：**模型可能会自信地给出并不真实的内容。LLM 是通过预测下一个最有可能出现的词来生成文本，而不是通过核实事实。虽然它们在训练中被设定为要有帮助且准确，但模型本身并没有内置的事实核查机制，这也正是通过网页搜索进行事实锚定如此重要的原因。
 
-![Image 5: 引号](images/quotation-marks-6PWBEG7B.svg)
-一个常见的误解是，认为 LLM 会像软件打补丁一样获得“知识更新”。实际情况是，每个模型只在某个固定的数据集上训练一次。当一个知识截止日期更新的新模型发布时，那是一个从零开始训练的全新模型，而不是对现有模型的更新。
-
-![Image 6: Gianluca Fiorelli的画像](images/gianluca-fiorelli-6JKQOVDJ.jpg)
-Gianluca Fiorelli, 战略与国际 SEO/AI 搜索顾问
+一个常见的误解是，认为 LLM 会像软件打补丁一样获得"知识更新"。实际情况是，每个模型只在某个固定的数据集上训练一次。当一个知识截止日期更新的新模型发布时，那是一个从零开始训练的全新模型，而不是对现有模型的更新。
 
 一个会产生幻觉、分享过时信息的搜索引擎听起来并不怎么实用。正因如此，LLM 通过一种称为**事实锚定**的机制来克服其中的某些局限性。
 
@@ -158,11 +150,7 @@ _"我正在为一家中型 B2B SaaS 公司规划一份为期 6 个月的内容�
 
 ……LLM 会利用初始提示词，生成一系列更短的相关查询，以帮助检索相关信息。
 
-![Image 9: 引号](images/quotation-marks-6PWBEG7B.svg)
-这些“扇出查询”同样由大语言模型生成，因此具有 _非确定性_：即使相同的搜索，每次的结果也可能不同。
-
-![Image 10: Mark Williams-Cook的画像](images/mark-williams-cook-O3Q2DKGE.jpg)
-Mark Williams-Cook, AlsoAsked 创始人
+这些"扇出查询"同样由大语言模型生成，因此具有 _非确定性_：即使相同的搜索，每次的结果也可能不同。
 
 这一过程对 SEO 从业者来说应该并不陌生：这些相关查询与长尾关键词、子意图以及 People Also Ask 中的问题非常相似：
 
@@ -178,11 +166,7 @@ Mark Williams-Cook, AlsoAsked 创始人
 
 ![Image 11: 图示展示了 AI 搜索引擎如何将单一用户提示词扇出为多个相关查询](images/query-fan-out-process-WWZGG2WA.png)
 
-![Image 12: 引号](images/quotation-marks-6PWBEG7B.svg)
-查询扇出让人更省心：你不必去猜用户会用哪些对话型提示词。相反，应针对拆解后的查询进行优化，也就是 LLM 自然生成的语义组件。这些和传统关键词分析非常相似：[主题] + [限定词]、对比类查询、定义类查询，以及“最佳实践”类内容。你现有的 SEO 研究很可能已经覆盖了这些扇出空间。
-
-![Image 13: Gianluca Fiorelli的画像](images/gianluca-fiorelli-6JKQOVDJ.jpg)
-Gianluca Fiorelli, 战略与国际 SEO/AI 搜索顾问
+查询扇出让人更省心：你不必去猜用户会用哪些对话型提示词。相反，应针对拆解后的查询进行优化，也就是 LLM 自然生成的语义组件。这些和传统关键词分析非常相似：[主题] + [限定词]、对比类查询、定义类查询，以及"最佳实践"类内容。你现有的 SEO 研究很可能已经覆盖了这些扇出空间。
 
 * * *
 
@@ -240,11 +224,7 @@ ChatGPT 及其他 AI 搜索引擎能够根据不同用户定制个性化搜索�
 
 *   **系统提示词：**在系统消息中设定的任何特定偏好都会影响对话内容（例如，在系统提示词中加入“记住我是素食者”，就会影响对“健康早餐建议”这类提示词的回答）。
 
-![Image 14: 引号](images/quotation-marks-6PWBEG7B.svg)
-这里有一个类比，可以帮助理解系统提示词。假设你在踢足球，“训练数据”就是你多年来的所有训练积累，是长期形成的肌肉记忆。而系统提示词则像是教练在你上场前最后给你的战术指示，它是一种更强的短期记忆，对最终表现的影响更为直接。
-
-![Image 15: Mark Williams-Cook的画像](images/mark-williams-cook-O3Q2DKGE.jpg)
-Mark Williams-Cook, AlsoAsked 创始人
+这里有一个类比，可以帮助理解系统提示词。假设你在踢足球，"训练数据"就是你多年来的所有训练积累，是长期形成的肌肉记忆。而系统提示词则像是教练在你上场前最后给你的战术指示，它是一种更强的短期记忆，对最终表现的影响更为直接。
 
 ![Image 16: 图示展示了影响 AI 搜索响应的个性化信号](images/image-how-personalization-works-V4HOXAQ6.png)
 

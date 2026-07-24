@@ -85,5 +85,3 @@ Viewport 标签虽然与排名没有直接关系，但是通过上面的分析�
 
 到此为止，哥飞把原文介绍的10个标签都按照哥飞自己的理解给大家介绍了一遍了。
 
-[上一篇: 【哥飞带你读】你需要了解的10个重要SEO元标签（中）](https://new.web.cafe/tutorial/detail/9ZYduVPvgQksByx5RREP7G)[下一篇: 推荐一款好用且免费的SEO插件，哥飞天天都在用](https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1)
-

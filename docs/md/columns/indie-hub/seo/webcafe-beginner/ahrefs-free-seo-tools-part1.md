@@ -73,5 +73,3 @@ Ahrefs 做了好多免费 SEO 工具：
 
 使用演示：输入域名，会看到查询出来的数据跟上面这个查反链的工具相同，不用疑惑，查反链时显示的数据，就是这里的 website authority 数据。 ![image.png](images/ahrefs-free-seo-tools-part1/img_014.png) 好了，剩下的7个我们在明天的文章中介绍。
 
-[上一篇: 月访问量八百万的在线自动化工具站如何用内容做SEO获取大量优质免费流量？](https://new.web.cafe/tutorial/detail/9F4dZkZ7L3JPDNnaRRWRkW)[下一篇: 介绍几个 Ahrefs 家的免费SEO工具 Free SEO Tools（下）](https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ)
-

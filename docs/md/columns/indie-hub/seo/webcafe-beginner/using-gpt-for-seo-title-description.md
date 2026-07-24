@@ -69,5 +69,3 @@ GPT 的回复如下： ![image.png](images/using-gpt-for-seo-title-description/i
 
 大家也可以用这个方法，取跟GPT或者Claude对话，让AI辅助你编写网页标题和描述。
 
-[上一篇: 出海工具网站，从需求挖掘到网站制作全流程，让你一篇文章学会](https://new.web.cafe/tutorial/detail/7fd1eef2eb754b9f860b65ca185c0023)[下一篇: 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享](https://new.web.cafe/tutorial/detail/c8w83QGZAkt728T33WERCg)
-

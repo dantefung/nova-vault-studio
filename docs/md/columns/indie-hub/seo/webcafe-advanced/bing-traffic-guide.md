@@ -65,8 +65,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
 补充，如何在GA（谷歌分析）看网站流量来源，见这里[https://new.web.cafe/experience/hwnkft6n9z](https://new.web.cafe/experience/hwnkft6n9z)
 
-[上一篇: 再聊挖掘需求的方法](https://new.web.cafe/tutorial/detail/mrozYpTgfu6MGXggeX2Kzr)[下一篇: 【哥飞看词】帮社群里朋友看一个关键词是否能做](https://new.web.cafe/tutorial/detail/6y8debz2oj)
-
 评论区
 
 -   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_007.jpg)

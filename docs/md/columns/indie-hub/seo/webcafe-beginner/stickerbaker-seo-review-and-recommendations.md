@@ -120,5 +120,3 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 
 很多时候，SEO拼的就是细节，谁愿意花更多时间去死磕细节，谁就有可能拿到更高的排名，获取更多的流量。
 
-[上一篇: 推荐一款好用且免费的SEO插件，哥飞天天都在用](https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1)[下一篇: 【5000字调查分析】建站20天拿下480万访问量，俄罗斯版的妙鸭相机是怎么做到的？](https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6)
-

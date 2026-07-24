@@ -145,4 +145,3 @@ Coolbat：kd值跟进前十所需要的预估外链数量有对应关系吗？
 
 哥飞：Ahrefs 有一篇博客介绍到了，可以在 KD 查询工具里找到这篇博客的入口。
 
-[上一篇: 上站之后要做什么；再次详解谷歌搜索排名；以月收入$50k的网站为例说明](https://new.web.cafe/tutorial/detail/sk5je1bj0f)[下一篇: 哥飞的经验和教训：一个骚操作，导致日10K访问量网站没流量了](https://new.web.cafe/tutorial/detail/q0nih90lv0)

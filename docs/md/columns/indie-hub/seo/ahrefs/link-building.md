@@ -279,7 +279,6 @@ Google 显然会关注这些资料页。如果你查看 Ahrefs 的“知识”�
 
 “[Google 搜索的运作方式](https://www.google.com/intl/en_uk/search/howsearchworks/how-search-works/ranking-results/)”指南中的一段摘录也印证了这一理论（粗体为笔者所加）：
 
-![Image 16: 引号](images/quotation-marks-6PWBEG7B.svg)
 如果**同一主题下的其他知名网站**也链接到该页面，通常是内容质量较高的一个信号。
 
 但这并不意味着你应该避免从那些主题与你不一致的网站获取链接。我无法想象任何一位资深的 SEO 专家会说：“不，请不要从 dreamhost.com（一个 DR 93 的主机托管网站）链接到我的食谱网站。”
@@ -296,7 +295,6 @@ Google 显然会关注这些资料页。如果你查看 Ahrefs 的“知识”�
 
 因此，Google 会利用锚文本中的词来更好地理解被引用页面的主题，以及它应该在哪些关键词下获得排名，这并不令人意外。事实上，[Google 最初的 PageRank 专利](http://infolab.stanford.edu/~backrub/google.html)中就非常明确地提到了这一点（粗体为笔者所加）：
 
-![Image 17: 引号](images/quotation-marks-6PWBEG7B.svg)
 Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**以及邻近信息。
 
 那么在做链接建设时，你该如何利用锚文本呢？

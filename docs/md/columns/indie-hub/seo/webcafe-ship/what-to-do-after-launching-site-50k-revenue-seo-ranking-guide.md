@@ -218,4 +218,3 @@ Sprunkin.com $40K 左右 Sprunki.org $120K 左右
 
 所以请大家好好学习，好好体会。
 
-[上一篇: 从细节入手做好跨境电商流量获取工作](https://new.web.cafe/tutorial/detail/zole0n9l6y)[下一篇: 再次系统的聊聊如何判断一个关键词是否能做](https://new.web.cafe/tutorial/detail/7v7tfjneg9)

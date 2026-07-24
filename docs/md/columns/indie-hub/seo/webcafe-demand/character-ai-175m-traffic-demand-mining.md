@@ -41,8 +41,6 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 其它的关键词类似，哥飞就不一一带着大家分析了，就当交给大家的家庭作业吧，大家自己去分析。
 
-[上一篇: 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求](https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL)[下一篇: 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App](https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu)
-
 评论区
 
 -   ![](images/character-ai-175m-traffic-demand-mining/img_009.jpg)

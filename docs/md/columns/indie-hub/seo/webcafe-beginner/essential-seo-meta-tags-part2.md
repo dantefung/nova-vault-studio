@@ -84,5 +84,3 @@ content 的取值有很多，更详细的建议看谷歌文档：
 
 所以多上站才是最优策略。
 
-[上一篇: 【哥飞带你读】你需要了解的10个重要SEO元标签（上）](https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h)[下一篇: 【哥飞带你读】你需要了解的10个重要SEO元标签（下）](https://new.web.cafe/tutorial/detail/qQpapieeJpFC8hdmmSta2F)
-

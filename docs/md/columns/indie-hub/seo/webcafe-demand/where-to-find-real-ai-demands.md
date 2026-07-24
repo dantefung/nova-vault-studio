@@ -68,8 +68,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
 教程可以看这里《[AI工具站日收入破千美元；零基础入门养网站防老路线图](https://mp.weixin.qq.com/s/0XnKfImW-OyU6oFP966S_w)》。
 
-[上一篇: 某个月访问量3000多万的网站里有个月访问量118万的页面，有人基于这个页面的需求做了个月收入12万+美金的AI App](https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu)[下一篇: 分享个搜索量跟 Midjourney 和 Stable Diffusion 差不多的关键词，有个单页网站用这个关键词赚了100万](https://new.web.cafe/tutorial/detail/uGhSzkFUooAwd77V4yvPgC)
-
 评论区
 
 -   ![](images/where-to-find-real-ai-demands/img_004.jpg)

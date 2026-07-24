@@ -59,5 +59,3 @@ url: "https://new.web.cafe/tutorial/detail/eBR9wWboQbuJ6BqxhNfuo7"
 
 今天的文章就到这里了，实际改造过程中，肯定会有各种细节，但是我们文章里没办法一一列出来，所以只能大概列了上面的这些。 我们明天再见。
 
-[上一篇: 如何用AI做SEO之内容自动批量生成，从搜索引擎获取免费流量](https://new.web.cafe/tutorial/detail/6F1jyKqBumtJhvBcwN1t7S)[下一篇: 月访问量八百万的在线自动化工具站如何用内容做SEO获取大量优质免费流量？](https://new.web.cafe/tutorial/detail/9F4dZkZ7L3JPDNnaRRWRkW)
-

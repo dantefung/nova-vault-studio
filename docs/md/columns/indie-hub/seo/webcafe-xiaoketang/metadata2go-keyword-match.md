@@ -132,8 +132,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
 （未完待续……）
 
-[上一篇: 可以开始考虑每天搜索量10万以内，KD50到70的关键词了](https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9)[下一篇: 一些大家目前用得上的广告指标](https://new.web.cafe/tutorial/detail/1bbfc12ffbc94c169c68bc5669ad7c12)
-
 评论区
 
 

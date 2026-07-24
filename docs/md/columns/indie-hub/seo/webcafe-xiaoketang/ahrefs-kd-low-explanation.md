@@ -86,8 +86,6 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
 所以，我们看 Ahrefs 的 KD 不能只看数值，也要综合从网站获取的流量大小、网站外链数量等指标综合判断。
 
-[上一篇: MRR $15k 的在线倒计时网站分析](https://new.web.cafe/tutorial/detail/dxxitw3vzo)[下一篇: 如何通过谷歌趋势推断一个关键词搜索量](https://new.web.cafe/tutorial/detail/dva3ltp2ex)
-
 评论区
 
 -   

@@ -57,8 +57,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
 我们回到 Gumroad 的流量页面列表，选择按照“自然搜索”从高到低排序，就能够找到了。 ![image.png](images/gumroad-24m-traffic-demand-analysis/img_009.png) 这些页面，大家可以自己去看，哥飞就不给大家演示了。
 
-[上一篇: 51个挖掘需求时能用得上的财富密码关键词哥飞免费赠送给大家](https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy)[下一篇: 以月访问量1.75亿的Character.ai为例，哥飞教你如何挖掘大流量网站的新流量机会](https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi)
-
 评论区
 
 -   ![](images/gumroad-24m-traffic-demand-analysis/img_010.jpg)

@@ -321,8 +321,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
 好了，以上就是今晚分享的全部内容。
 
-[上一篇: 新手怎么做好出海第一站？](https://new.web.cafe/tutorial/detail/1mKHV1JxHVn8pHSYjhPgaK)[下一篇: 如何使用谷歌趋势找新词，如何判断一个关键词是新词](https://new.web.cafe/tutorial/detail/gZnGR6eDaKxdyeT4ouR6KV)
-
 评论区
 
 -   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_032.jpg)

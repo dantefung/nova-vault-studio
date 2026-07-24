@@ -411,8 +411,6 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
 常见搭配：Emergency Responder、Customer Support Responder、Automated Responder
 
-[上一篇: 人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品](https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU)[下一篇: 哥飞教你通过分析月访问量2445万的 Gumroad 高流量页面来挖掘他人正在赚钱的需求](https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL)
-
 评论区
 
 -   ![](images/51-wealth-keywords-for-demand-discovery/img_003.jpg)

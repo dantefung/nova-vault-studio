@@ -180,8 +180,6 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 分享个关键词 how to make slime
 
-[上一篇: 再聊内链和内页，以及如何做好一个内容型工具站](https://new.web.cafe/tutorial/detail/v2NENgATdt5a62SzVQUYY6)[下一篇: 如何获取Bing的流量](https://new.web.cafe/tutorial/detail/i9aa0x1lhb)
-
 评论区
 
 -   ![](images/demand-mining-methods/gefei-demand-mining-methods_018.png)
