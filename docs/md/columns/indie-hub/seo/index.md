@@ -7,6 +7,12 @@ date: "2026-07-20"
 
 独立开发者建站 SEO 核心知识库，涵盖 Google 信号、关键词策略、ROI 分析、冷启动等。
 
+## 工具
+
+| 工具 | 描述 |
+|------|------|
+| [SEO.box](./seo-tool/) | SEO Tools Box - 在线 SEO 工具导航 |
+
 ## 内容索引
 
 ### 系统教程
@@ -30,3 +36,13 @@ date: "2026-07-20"
 | 4 | [SEO Homepage Signal Judgment](./strategy/seo-homepage-signal) | 首页信号判断 |
 | 5 | [SEO New vs Old Keyword Strategy](./strategy/seo-new-vs-old-keyword) | 新旧关键词策略 |
 | 6 | [SEO ROI Analysis](./strategy/seo-roi-analysis) | ROI 分析 |
+
+### FAQ
+
+- [SEO FAQ](./seo-faq/) — 常见问题
+  - [游戏站 SEO](./seo-faq/game-site.md) — 游戏站建设
+  - [游戏站完整操作指南](./seo-faq/game-site-guide.md) — 找词/建站/变现完整攻略
+  - [游戏站深度补充](./seo-faq/game-site-advanced.md) — Adsense养号/冠军SOP/域名抢注
+  - [游戏站深度补充（阶段三）](./seo-faq/game-site-phase3.md) — 资源获取/TikTok找词/一小时建站
+  - [如何找关键词](./seo-faq/keyword.md) — 9渠道+7步筛选
+  - [可以做什么类型的站](./seo-faq/site-types.md) — 内容站/工具站/变现
