@@ -3,7 +3,7 @@ title: "哥飞解答：为什么有些关键词流量巨大但Ahrefs查询出来
 url: "https://new.web.cafe/tutorial/detail/k9jbug5r3n"
 ---
 
-![](images/ahrefs-kd-low-explanation/img_001.jpg)
+# 哥飞解答：为什么有些关键词流量巨大但Ahrefs查询出来的KD很低
 
 哥飞2024-11-11 16:20
 
