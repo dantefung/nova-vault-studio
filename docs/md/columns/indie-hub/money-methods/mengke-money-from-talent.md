@@ -7,7 +7,7 @@ url: "https://haoshiyinli.com/book/index.html"
 
 <script setup>
 import PdfViewer from '../../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('../../../books/social-media/把才华变成钱.pdf', import.meta.url).href
+const pdfUrl = new URL('../mengke-money-from-talent/把才华变成钱.pdf', import.meta.url).href
 </script>
 
 # 把才华变成钱
@@ -141,4 +141,4 @@ const pdfUrl = new URL('../../../books/social-media/把才华变成钱.pdf', imp
 
 ---
 
-> [下载 PDF](把才华变成钱.pdf) | [在线阅读](https://haoshiyinli.com/book/index.html)
+> [下载 PDF](../mengke-money-from-talent/把才华变成钱.pdf) | [在线阅读](https://haoshiyinli.com/book/index.html)
