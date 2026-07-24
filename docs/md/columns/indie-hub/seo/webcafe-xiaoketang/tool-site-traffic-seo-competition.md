@@ -168,27 +168,17 @@ Carrd.co 会提供用户二级域名，那么我们去看有哪些网页拿到�
 
 自从Claude有了联网能力后，我每次看到没见过的网站就去问Claude，能帮很大的忙。 stitchfiddle.com 这个网站每个月有70万访问量，但是我只看首页的话，完全看不太懂是干嘛的。
 
-![图片](images/tool-site-traffic-seo-competition/img_032.jpg)
-
-![图片](images/tool-site-traffic-seo-competition/img_033.jpg)
-
-![图片](images/tool-site-traffic-seo-competition/img_034.jpg)
-
 2009年上线的老网站 friendship-bracelets.net，教你编手环。
 
 像这些很有意思的网站，你不能带着一定要找出能做的关键词的目的去看。 你就当作满足自己好奇心，多看看各种各样的没见过没听过的需求，了解一下丰富多彩的网络世界。
 
 ravelry.com 这个网站很奇葩，不登录不给用，打开首页就跳转到登录界面。 而且还只是给针织爱好者这个小众人群做的网站，但是居然月访问量有1490万，63%访问量来自于直接打开，粘性很强。
 
-![图片](images/tool-site-traffic-seo-competition/img_035.jpg)
-
 Ravelry于2007年推出，彻底改变了针织和钩针编织设计师销售图案的方式。 不再需要印刷和分发纸质图案，任何有电脑的人都可以直接上传PDF图案并直接销售给消费者。 该网站由美国针织爱好者Jessica Forbes和她的丈夫Casey创建，现在全球拥有超过300万用户。 据最新数据显示，目前Ravelry拥有超过900万会员，形成了一个非常庞大、友好且才华横溢的社区。
 
 看下介绍，这个网站 Projects 功能真的是为用户考虑了，每个人都可以建立 Project 来记录当前自己正在织什么，对应的图纸、设计师、需要的纱线等情况都一一可以看到。
 
 braceletbook.com 这个网站流量也不小，之前150万，现在91万一个月。 也是提供手环编织图样的社区网站。 用户可以在教程里学习如何编织手环，在论坛里交流讨论，在图片和视频里分享自己的作品，在模式里学习看新的手环图样和编织方法。
-
-![图片](images/tool-site-traffic-seo-competition/img_036.jpg)
 
 老外蹭热点出书速度一点也不比我们慢
 

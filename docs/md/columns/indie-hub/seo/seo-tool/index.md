@@ -6,7 +6,7 @@ url: "https://seo.box/"
 ---
 
 <script setup>
-import HtmlViewer from '../../../.vitepress/theme/components/HtmlViewer.vue'
+import HtmlViewer from '../../../../../.vitepress/theme/components/HtmlViewer.vue'
 </script>
 
 # SEO.box

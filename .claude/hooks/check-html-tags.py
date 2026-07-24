@@ -17,6 +17,7 @@ ALLOWED_TAGS = {
     'a', 'b', 'i', 'strong', 'em', 'pre', 'code', 'blockquote',
     'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
     'colgroup', 'col', 'video', 'source',
+    'script',
 }
 
 def check_file(filepath):
