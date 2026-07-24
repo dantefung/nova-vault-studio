@@ -10,9 +10,9 @@ url: "https://new.web.cafe/tutorial/detail/uaisSufhYh5uZ6DW3zLwhP"
 
 今天的#哥飞小课堂 教一个挖APP需求的方法。 原理很简单，依然是抄作业，看哪些App在投谷歌关键词广告。 怎么看呢？ 打开 Similarweb ，输入 AppStore 的域名 apps.apple.com ，在自然搜索的下面找到付费搜索，点击下面的链接，查看全部广告，就能够到达广告列表页面。 在这个页面，你可以分桌面端和移动端分别看都有哪些App在投广告。
 
-![ad-1](images/gefei-demand-discovery-1.png)
+![ad-1](images/discover-demand-via-ad-apps/gefei-demand-discovery-1.png)
 
-![ad-2](images/gefei-demand-discovery-2.png)
+![ad-2](images/discover-demand-via-ad-apps/gefei-demand-discovery-2.png)
 
 举例，排名第一的，投得好像比较猛，我们看到他的App地址是 apps.apple.com/br/app/ia-chat-inteligente-chatbot/id6447419372
 
@@ -20,15 +20,15 @@ url: "https://new.web.cafe/tutorial/detail/uaisSufhYh5uZ6DW3zLwhP"
 
 打开网页，得到这个App在 SensorTower 的名称是 AI Chat -Ask Chatbot Assistant 。 为什么需要这一步呢？因为有些App会时不时改名字，我们在AppStore看到的名字，在SensorTower不一定能够搜索到。
 
-![ad-3](images/gefei-demand-discovery-3.png)
+![ad-3](images/discover-demand-via-ad-apps/gefei-demand-discovery-3.png)
 
-![ad-4](images/gefei-demand-discovery-4.png)
+![ad-4](images/discover-demand-via-ad-apps/gefei-demand-discovery-4.png)
 
 从这两张图就可以看到，的确名字不一样，但是ID是一样的，那就没问题了。
 
-![ad-5](images/gefei-demand-discovery-5.png)
+![ad-5](images/discover-demand-via-ad-apps/gefei-demand-discovery-5.png)
 
-![ad-6](images/gefei-demand-discovery-6.png)
+![ad-6](images/discover-demand-via-ad-apps/gefei-demand-discovery-6.png)
 
 接下来，你拿着 AI Chat -Ask Chatbot Assistant 这个名字，打开 https://app.sensortower.com/ 首页，在右上角输入框粘贴名字，就会有一个下拉的即时搜索结果。 确认一下开发商，对得上，那么没问题，就是这个App，可以看到月下载量400K，月收入100万刀。
 

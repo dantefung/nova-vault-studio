@@ -5,59 +5,59 @@ source: "web.cafe"
 author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 ---
-![](images/img_001.jpg)
+![](images/programmatic-seo-massive-pages/img_001.jpg)
 
-![image.png](images/img_002.png)
+![image.png](images/programmatic-seo-massive-pages/img_002.png)
 
-![image.png](images/img_003.png)
+![image.png](images/programmatic-seo-massive-pages/img_003.png)
 
-![image.png](images/img_004.png)
+![image.png](images/programmatic-seo-massive-pages/img_004.png)
 
-![image.png](images/img_005.png)
+![image.png](images/programmatic-seo-massive-pages/img_005.png)
 
-![image.png](images/img_006.png)
+![image.png](images/programmatic-seo-massive-pages/img_006.png)
 
-![image.png](images/img_007.png)
+![image.png](images/programmatic-seo-massive-pages/img_007.png)
 
-![image.png](images/img_008.png)
+![image.png](images/programmatic-seo-massive-pages/img_008.png)
 
-![image.png](images/img_009.png)
+![image.png](images/programmatic-seo-massive-pages/img_009.png)
 
-![image.png](images/img_010.png)
+![image.png](images/programmatic-seo-massive-pages/img_010.png)
 
-![image.png](images/img_011.png)
+![image.png](images/programmatic-seo-massive-pages/img_011.png)
 
-![image.png](images/img_012.png)
+![image.png](images/programmatic-seo-massive-pages/img_012.png)
 
-![image.png](images/img_013.png)
+![image.png](images/programmatic-seo-massive-pages/img_013.png)
 
-![image.png](images/img_014.png)
+![image.png](images/programmatic-seo-massive-pages/img_014.png)
 
-![image.png](images/img_015.png)
+![image.png](images/programmatic-seo-massive-pages/img_015.png)
 
-![](images/img_016.jpg)
+![](images/programmatic-seo-massive-pages/img_016.jpg)
 
-![](images/img_017.jpg)
+![](images/programmatic-seo-massive-pages/img_017.jpg)
 
-![](images/img_018.jpg)
+![](images/programmatic-seo-massive-pages/img_018.jpg)
 
-![](images/img_019.jpg)
+![](images/programmatic-seo-massive-pages/img_019.jpg)
 
-![](images/img_020.jpg)
+![](images/programmatic-seo-massive-pages/img_020.jpg)
 
-![](images/img_021.jpg)
+![](images/programmatic-seo-massive-pages/img_021.jpg)
 
-![](images/img_022.jpg)
+![](images/programmatic-seo-massive-pages/img_022.jpg)
 
-![](images/img_023.jpg)
+![](images/programmatic-seo-massive-pages/img_023.jpg)
 
-![](images/img_024.jpg)
+![](images/programmatic-seo-massive-pages/img_024.jpg)
 
-![](images/img_025.jpg)
+![](images/programmatic-seo-massive-pages/img_025.jpg)
 
-![](images/img_026.jpg)
+![](images/programmatic-seo-massive-pages/img_026.jpg)
 
-![new.web.cafe](images/img_027.svg)
+![new.web.cafe](images/programmatic-seo-massive-pages/img_027.svg)
 
 哥飞2025-06-18 19:31
 [案例分享](https://new.web.cafe/label/9e51be5a855445859eeaf63d998c04dd)[数据分析](https://new.web.cafe/label/x7jg0h2m85)
@@ -144,7 +144,7 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 时间到，今天的#哥飞下课堂 开始了。
 
-![slide-1](images/gefei-prog-seo-1.png)
+![slide-1](images/programmatic-seo-massive-pages/gefei-prog-seo-1.png)
 
 先看流量，Similarweb 上面几个网站的最近12个月访问量，最大的 distance.to 访问量1297万。
 
@@ -152,25 +152,25 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 这样两个地点，两两组合，就会有N多问题。 仅仅从国家层面，全球二百多个国家，就有四万多个问题了。 再到省市区不同级别地区，各自两两组合，几百万个问题都有了。
 
-![slide-2](images/gefei-prog-seo-2.png)
+![slide-2](images/programmatic-seo-massive-pages/gefei-prog-seo-2.png)
 
 甚至离开地球，在宇宙尺度，也是有人会问问题的。
 
-![slide-3](images/gefei-prog-seo-3.png)
+![slide-3](images/programmatic-seo-massive-pages/gefei-prog-seo-3.png)
 
 每一个地区，到另一个地区，都会有人好奇，距离是多少。
 
-![slide-4](images/gefei-prog-seo-4.png)
+![slide-4](images/programmatic-seo-massive-pages/gefei-prog-seo-4.png)
 
 我们拿 distance.to 这个网站来说，看上图，页面很好做，主体部分是地图，标记一下两个地区，连上线，再在地图上方浮层显示一些文字信息，整个页面就做好了。
 
 [https://www.distance.to/Germany/Azerbaijan](https://www.distance.to/Germany/Azerbaijan)
 
-![slide-5](images/gefei-prog-seo-5.png)
+![slide-5](images/programmatic-seo-massive-pages/gefei-prog-seo-5.png)
 
 谷歌收录了 distance.to 129万个页面。 注意，并不是说这个网站服务器里有 129 万个 html 文件。 这样的页面，都是统一的模板页面，只需要从数据库里取出地理位置数据，计算一下距离，然后把数据填充到模板里，每次用户访问时动态渲染出来就好了。
 
-![slide-6](images/gefei-prog-seo-6.png)
+![slide-6](images/programmatic-seo-massive-pages/gefei-prog-seo-6.png)
 
 从前面的 site 结果看到，这个网站还做了多语言支持，并且用的是子域名的方式实现的。 我们之前提到的多语言方式都是用子目录来实现的。 两种方法都可以，但是哥飞建议，你一个新网站刚上线时，最好用子目录方式来实现，这样冷启动的成本更低。
 
@@ -210,7 +210,7 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 谷歌有一个反垃圾机制，你不提供价值的网站，很难获取到流量了。 能够拿到流量的网站，尤其是拿到大流量的网站，一定是能够给一部分人群提供价值的。
 
-![slide-7](images/gefei-prog-seo-7.png)
+![slide-7](images/programmatic-seo-massive-pages/gefei-prog-seo-7.png)
 
 之前6月北京线下聚会时，Henry 分享了他的网站的案例，首页瞄准有一定优化难度的大搜索量关键词，然后通过二级页面和大量的三级页面，不断的获取小词的排名、曝光、点击，进而带动了上一级页面的权重，最后让首页拿到了相关关键词的排名。 上面这条流量增长曲线就说明了，这个内容策略是有效的。
 

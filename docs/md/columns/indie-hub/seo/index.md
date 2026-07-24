@@ -18,6 +18,7 @@ date: "2026-07-20"
 | 3 | [哥飞进阶教程](./webcafe-advanced/index.md) | 实战教程、出海工具站 |
 | 4 | [哥飞需求挖掘教程](./webcafe-demand/index.md) | 需求挖掘、出海赚钱 |
 | 5 | [哥飞上站与推广教程](./webcafe-ship/index.md) | 上站推广、谷歌搜索排名 |
+| 6 | [哥飞SEO小课堂](./webcafe-xiaoketang/index.md) | 关键词选择、落地页迭代 |
 
 ### 实战文章
 

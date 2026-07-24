@@ -3,7 +3,7 @@ title: "【2025.4.16哥飞小课堂】广告与订阅变现的成本收益计算
 url: "https://new.web.cafe/tutorial/detail/os9crni66l"
 ---
 
-![](images/img_001.jpg)
+![](images/ads-subscription-monetization/img_001.jpg)
 
 哥飞2025-10-10 16:00
 
@@ -76,7 +76,7 @@ A网站上有 1000 个人点击了B网站的广告，李四的预算就花光了
 
 评论区
 
--   ![](images/img_002.jpg)
+-   ![](images/ads-subscription-monetization/img_002.jpg)
 
     歪叔
 
@@ -86,8 +86,8 @@ A网站上有 1000 个人点击了B网站的广告，李四的预算就花光了
 
     看明白了 打卡
 
-![](images/img_003.jpg)
+![](images/ads-subscription-monetization/img_003.jpg)
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/img_004.svg)](https://new.web.cafe/)
+[![new.web.cafe](images/ads-subscription-monetization/img_004.svg)](https://new.web.cafe/)

@@ -3,7 +3,7 @@ title: "【2025.4.29哥飞小课堂】Pixverse.ai SEO 反面案例拆解 ——6
 url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 ---
 
-![](images/img_001.jpg)
+![](images/pixverse-ai-seo-case-study/img_001.jpg)
 
 哥飞2025-10-10 15:11
 
@@ -18,7 +18,7 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 我们来看一个案例，这个网站一年访问量6236万，从搜索引擎过来的就有2410万，占比38.63%。 但是这么多搜索来的流量，94%都是搜索品牌词过来的。 这就说明，这个网站的SEO其实做得不好，但是品牌强大，让大家愿意去搜索找到来使用。
 
-![图片](images/img_002.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_002.jpg)
 
 换句话说，这个网站要是能够好好做一下SEO规划，网站流量有可能能够翻倍。
 
@@ -26,23 +26,23 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 提前说一下，今天的小课堂讲完了，下一次就要到五一节后了，放假期间，哥飞想休息一下，大家可以放假期间继续上站赚钱。
 
-![图片](images/img_003.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_003.jpg)
 
 这个网站就是国内创业公司做的 pixverse.ai，1月访问量1330万，2月1130万，3月1120万。 流量来源方面，仅看3月，42.89%直接打开，37.27%自然搜索，16.8%外链（含付费广告）。
 
 从Similarweb给出的Top关键词列表就可以看到，这些关键词都跟品牌名相关
 
-![图片](images/img_004.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_004.jpg)
 
 第一个大忌，就是不用主域名，而是都跳转到了app这个子域名。 我猜，他们一开始想学海外公司做法，核心产品放app子域名，自己开发，而www则放官网落地页，使用第三方平台，但是不知道什么原因，第二步一直没去做，于是就只好把主域名跳转到app子域名。
 
-![图片](images/img_005.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_005.jpg)
 
-![图片](images/img_006.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_006.jpg)
 
 而如果打开 [https://app.pixverse.ai/](https://app.pixverse.ai/) 你就观察到，浏览器里的URL很快被替换为了 [https://app.pixverse.ai/onboard](https://app.pixverse.ai/onboard) 。 一开始我以为是从 / 跳转到了 /onboard ，后来仔细研究了一下，是用了浏览器提供的 url history 接口，通过代码，强行把 / 改成了 /onboard 了。
 
-![图片](images/img_007.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_007.jpg)
 
 更有意思的是，随便你输入什么网址，如 [https://app.pixverse.ai/gefeiseo](https://app.pixverse.ai/gefeiseo) 也会自动被修正为 [https://app.pixverse.ai/onboard](https://app.pixverse.ai/onboard) 。 这些都是前端JS做的工作。
 
@@ -50,7 +50,7 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 这就可以解释，为什么这个网站的主要流量来源关键词，都是品牌词了，因为他压根就没有可以用于获取其他关键词的页面。
 
-![图片](images/img_008.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_008.jpg)
 
 所以谷歌也没收录多少页面，只收录了208个页面，这估计还是因为这些页面的网址出现在了别的网站上，被谷歌爬到了，于是就收录了。
 
@@ -62,9 +62,9 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 第四大忌，首页标题，只写了品牌名称，以及一个没有意义的Home，任何其他业务相关关键词都没有。 其实即使他们保持现在的代码不做任何变化，只需要把 AI Video 相关关键词加上去，也能够带来更多的搜索流量。 因为现在他们网站有2500个外链域名，DR60，足够拿下一些关键词排名了。
 
-![图片](images/img_009.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_009.jpg)
 
-![图片](images/img_010.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_010.jpg)
 
 第五第六点，就不算大忌了，算小忌吧。 第5，Canonical 没有设置，导致有大量的重复页面被收录； 第6，整个页面没有任何的Headings。 即使是前端渲染，也建议写上合理的Headings，万一谷歌觉得你流量这么大权重这么高，会给你抓取html代码后在服务器端渲染一下呢，那不就能让谷歌知道你的网页是关于什么的吗。
 
@@ -76,7 +76,7 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 打开这个网页 html 一看，居然是后端渲染的 dofollow 链接。 大家可以去研究一下，怎么在 Patreon 发文章了，优质外链哦。
 
-![图片](images/img_011.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_011.jpg)
 
 好了，以上就是今天的小课堂，给大家讲了大流量网站 Pixverse.ai 的SEO工作不到位的地方，顺便给大家挖掘了一个DR 93的 dofollow 外链。
 
@@ -90,7 +90,7 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 为什么一定要让自己一段时间，只做一件事情呢？ 这些事情本来就没有明确的先后顺序，同时做就好了呀。
 
-![图片](images/img_012.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_012.jpg)
 
 每个人都有可能害怕开始，尤其是在陌生领域，自己没做过的事情，总是会想东想西，但就是不敢开始去做。
 
@@ -98,14 +98,14 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 这个网站，也许是大家需要的 [https://www.placestoguestpost.com/](https://www.placestoguestpost.com/) ，找到支持发客座博客的网站
 
-![图片](images/img_013.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_013.jpg)
 
 [上一篇: 【2025.5.19哥飞小课堂】维基百科内页 / 内链设计迁移与品牌命名策略 ——AI 导航站实操借鉴](https://new.web.cafe/tutorial/detail/udq1kg51ay)[下一篇: 【2025.4.27哥飞小课堂】工具站流量获取、SEO 竞争逻辑与 “站找站 / 词找词” 实战](https://new.web.cafe/tutorial/detail/900n85lbf2)
 
 评论区
 
-![](images/img_014.jpg)
+![](images/pixverse-ai-seo-case-study/img_014.jpg)
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/img_015.svg)](https://new.web.cafe/)
+[![new.web.cafe](images/pixverse-ai-seo-case-study/img_015.svg)](https://new.web.cafe/)

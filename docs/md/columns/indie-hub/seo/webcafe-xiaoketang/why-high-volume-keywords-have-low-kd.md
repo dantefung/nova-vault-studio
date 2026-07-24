@@ -5,27 +5,27 @@ source: "web.cafe"
 author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/k9jbug5r3n"
 ---
-![](images/img_001.jpg)
+![](images/why-high-volume-keywords-have-low-kd/img_001.jpg)
 
-![image.png](images/img_002.png)
+![image.png](images/why-high-volume-keywords-have-low-kd/img_002.png)
 
-![image.png](images/img_003.png)
+![image.png](images/why-high-volume-keywords-have-low-kd/img_003.png)
 
-![image.png](images/img_004.png)
+![image.png](images/why-high-volume-keywords-have-low-kd/img_004.png)
 
-![image.png](images/img_005.png)
+![image.png](images/why-high-volume-keywords-have-low-kd/img_005.png)
 
-![](images/img_006.jpg)
+![](images/why-high-volume-keywords-have-low-kd/img_006.jpg)
 
-![](images/img_007.jpg)
+![](images/why-high-volume-keywords-have-low-kd/img_007.jpg)
 
-![](images/img_008.jpg)
+![](images/why-high-volume-keywords-have-low-kd/img_008.jpg)
 
-![](images/img_009.jpg)
+![](images/why-high-volume-keywords-have-low-kd/img_009.jpg)
 
-![](images/img_010.jpg)
+![](images/why-high-volume-keywords-have-low-kd/img_010.jpg)
 
-![new.web.cafe](images/img_011.svg)
+![new.web.cafe](images/why-high-volume-keywords-have-low-kd/img_011.svg)
 
 哥飞2024-11-11 16:20
 [外链建设](https://new.web.cafe/label/b8a3104c000d448b9ebf3c8e86dfffdd)
@@ -92,13 +92,13 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
 # 哥飞解答：为什么有些关键词流量巨大但Ahrefs查询出来的KD很低
 
-![img1](images/gefei-kd-low-1.png)
+![img1](images/why-high-volume-keywords-have-low-kd/gefei-kd-low-1.png)
 
 要解答这个问题，我们先聊点别的。 群友 AUDI 发了一条即刻动态，说： 做SEO其实是做搜索，不是做SEO; 做搜索离不开做SEO，不只做SEO。
 
 哥飞去补充说明了一下：
 
-![img2](images/gefei-kd-low-2.png)
+![img2](images/why-high-volume-keywords-have-low-kd/gefei-kd-low-2.png)
 
 SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的需求去做网页。 发现需求，理解需求，开发产品，满足需求。 了解爬虫原理，让爬虫更容易抓取网站，让爬虫更好的理解网页。 理解需求背后的人，为人做功能和服务，通过满足人的需求，而让人在网页里停留，在网站里流连。
 
@@ -138,17 +138,17 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
 一种是受技术限制，或者程序员偷懒，会把 / 跳转到某个页面，如 java 写的网站，经常把 /welcome 当作首页。 举个例子，著名的开源GPT Web客户端 LobeChat 的首页就是这样。 未登录时打开首页，会自动跳转到 https://lobechat.com/welcome，那么其实谷歌就会把 /welcome 页面的内容当作是你的首页来对待。
 
-![img3](images/gefei-kd-low-3.png)
+![img3](images/why-high-volume-keywords-have-low-kd/gefei-kd-low-3.png)
 
 此时，这个网站的权重，虽然外部链接传递过来的权重会先到了/，但最终会汇聚到了 /welcome 页面的。
 
 另一种情况，就是截图上的这种，站长有意的不用首页来承接需求，而是用内页来搞排名。 大家学习挖掘需求时，一定会找到相关的关键词。 搜索量巨大，但是Ahrefs显示的KD巨低。
 
-![img4](images/gefei-kd-low-4.png)
+![img4](images/why-high-volume-keywords-have-low-kd/gefei-kd-low-4.png)
 
 前几名的网站拿到了大量的访问量，但是关键词的KD值居然只有3，只需要4个外链就能够进入首页。
 
-![img5](images/gefei-kd-low-5.png)
+![img5](images/why-high-volume-keywords-have-low-kd/gefei-kd-low-5.png)
 
 当大家发现这样的关键词时，是不是觉得挖到宝了？
 
