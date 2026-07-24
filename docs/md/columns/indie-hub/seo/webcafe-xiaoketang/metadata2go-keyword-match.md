@@ -6,44 +6,6 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 ---
 
-![image.png](images/metadata2go-keyword-match/img_002.png)
-
-![image.png](images/metadata2go-keyword-match/img_003.png)
-
-![image.png](images/metadata2go-keyword-match/img_004.png)
-
-![image.png](images/metadata2go-keyword-match/img_005.png)
-
-![image.png](images/metadata2go-keyword-match/img_006.png)
-
-![image.png](images/metadata2go-keyword-match/img_007.png)
-
-哥飞2024-07-21 12:16
-[网站推荐](https://new.web.cafe/label/cf7830f3b8d7461bb73250cc3a96f42c)
-哥飞小课堂
-收藏
-哥飞为了看一个 mp3 文件的 metadata，就去谷歌搜索 mp3 file info checker ，结果如下。
-哥飞在结果列表，右键打开了前两个结果。
-因为第二个结果是后打开的，于是自然而然先看了第二个页面，结果发现是一个桌面端软件，需要下载才能使用。
-于是关闭了上面这个页面，此时，第一个结果页面被展示出来了。
-点击“View Metadata”，打开了新页面 [https://www.metadata2go.com/view-metadata](https://www.metadata2go.com/view-metadata) ，上传 mp3 文件之后，解决了我的需求。
-于是哥飞就出于习惯，看了一下这个网站 metadata2go.com 的流量数据。
-初看起来好像平平无奇，每个月访问量几十万，过去12个月总访问量457万。
-但是，当哥飞去看这个网站哪些落地页能够获取流量时，发现了一个神奇的事情。
-这个网站的 97% 流量都来自于网站首页。
-这还不是最神奇的。
-最神奇的是，这 97% 的流量来自于 12373 个关键词。
-让我们点击“所有关键词”，展开看看。
-上图看到了吗？
-果然是首页命中了很多个关键词，所以平均每一个关键词带来的流量都不大。
-这跟哥飞说的“一个关键词做一个页面原则”好像有冲突？
-先留着这个疑问，我们继续往下看。
-我们先看看谷歌搜索结果，验证一下这些关键词是否真的拿到了排名。
-| metadata viewer 谷歌搜索结果 |
-|
-
-
-
 # 一个神奇的网站 metadata2go.com，首页匹配到了一千多个关键词
 
 哥飞为了看一个 mp3 文件的 metadata，就去谷歌搜索 mp3 file info checker ，结果如下。
@@ -174,7 +136,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
 评论区
 
--   ![](images/metadata2go-keyword-match/img_021.jpg)
 
     bluce
 
@@ -184,7 +145,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     下文额...
 
-    ![](images/metadata2go-keyword-match/img_022.jpg)
 
     行者
 
@@ -194,7 +154,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     下文呢😂
 
--   ![](images/metadata2go-keyword-match/img_022.jpg)
 
     行者
 
@@ -204,7 +163,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     飞哥，下文呢
 
--   ![](images/metadata2go-keyword-match/img_023.jpg)
 
     Dawson
 
@@ -214,7 +172,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     ？？？？所以为什么匹配了 1000 个词
 
--   ![](images/metadata2go-keyword-match/img_024.jpg)
 
     张宇
 
@@ -224,7 +181,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     下文还有吗
 
--   ![](images/metadata2go-keyword-match/img_025.jpg)
 
     DK
 
@@ -234,7 +190,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     请问下上图中分析流量用的工具是什么？或者咱这里有没有专门介绍工具的一篇内容？
 
-    ![](images/metadata2go-keyword-match/img_026.jpg)
 
     LL.Chen
 
@@ -244,7 +199,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     similarweb吧，还有aitdk的插件
 
--   ![](images/metadata2go-keyword-match/img_027.jpg)
 
     鹏之大一锅炖不下
 
@@ -254,7 +208,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     怎么没下文了😂
 
--   ![](images/metadata2go-keyword-match/img_028.jpg)
 
     P3L
 
@@ -264,7 +217,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     蹲个下文🥺
 
--   ![](images/metadata2go-keyword-match/img_029.jpg)
 
     Manki
 
@@ -274,7 +226,6 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     未完待续……😂
 
--   ![](images/metadata2go-keyword-match/img_030.jpg)
 
     S
 
@@ -284,8 +235,5 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
     下面呢，没了？
 
-![](images/metadata2go-keyword-match/img_031.jpg)
 
-添加图片添加隐藏回复
 
-[![new.web.cafe](images/metadata2go-keyword-match/img_032.svg)](https://new.web.cafe/)

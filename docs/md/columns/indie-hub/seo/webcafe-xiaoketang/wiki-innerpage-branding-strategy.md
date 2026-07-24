@@ -122,7 +122,6 @@ Cursor 同理，全网在讨论 Cursor 时，绝大多数内容指向的都是 C
 
 评论区
 
--   ![](images/wiki-innerpage-branding-strategy/img_016.jpg)
 
     小里脊
 
@@ -132,8 +131,5 @@ Cursor 同理，全网在讨论 Cursor 时，绝大多数内容指向的都是 C
 
     [https://new.web.cafe/tutorial/detail/551y0dv782](https://new.web.cafe/tutorial/detail/551y0dv782) 跟这篇文章有什么区别
 
-![](images/wiki-innerpage-branding-strategy/img_017.jpg)
 
-添加图片添加隐藏回复
 
-[![new.web.cafe](images/wiki-innerpage-branding-strategy/img_018.svg)](https://new.web.cafe/)

@@ -76,7 +76,7 @@ A网站上有 1000 个人点击了B网站的广告，李四的预算就花光了
 
 评论区
 
--   ![](images/ads-subscription-monetization/img_002.jpg)
+
 
     歪叔
 
@@ -86,4 +86,4 @@ A网站上有 1000 个人点击了B网站的广告，李四的预算就花光了
 
     看明白了 打卡
 
-![](images/ads-subscription-monetization/img_003.jpg)
+

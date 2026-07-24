@@ -90,7 +90,7 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
 评论区
 
--   ![](images/ahrefs-kd-low-explanation/img_006.jpg)
+-   
 
     吉他三少
 
@@ -100,7 +100,7 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
     semrush的KD会不会也有这个问题
 
--   ![](images/ahrefs-kd-low-explanation/img_007.jpg)
+-   
 
     Ethan
 
@@ -110,7 +110,7 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
     如果是用内页拿排名，为什么搜索关键词时首页会排在前面而不是内页？
 
--   ![](images/ahrefs-kd-low-explanation/img_008.jpg)
+-   
 
     殷小样
 
@@ -120,7 +120,7 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
     隐藏内容
 
--   ![](images/ahrefs-kd-low-explanation/img_009.jpg)
+-   
 
     班纳
 
@@ -130,8 +130,7 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
     1
 
-![](images/ahrefs-kd-low-explanation/img_010.jpg)
 
-添加图片添加隐藏回复
 
-[![new.web.cafe](images/ahrefs-kd-low-explanation/img_011.svg)](https://new.web.cafe/)
+
+
