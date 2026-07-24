@@ -158,6 +158,7 @@ export default defineConfig({
           { text: '绘图指南', link: '/md/columns/drawing/' },
           { text: 'OPC 一人公司', link: '/md/columns/opc/' },
           { text: '投资专栏', link: '/md/columns/investment/' },
+          { text: 'SEO 建站', link: '/md/columns/indie-hub/seo/' },
         ]
       },
       {
