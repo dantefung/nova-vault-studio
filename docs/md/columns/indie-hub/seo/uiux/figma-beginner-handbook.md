@@ -7,10 +7,6 @@ url: "https://m.zcool.com.cn/article/ZMTE5MzAwNA==.html"
 
 # 小白的Figma入门手册
 
-[![用户头像]("undefined")
-
-  
-
 **3.11我如何找到最初的组件？**
 
 首先需要说明，Figma的组件管理方式很灵活，但相较于Sketch的确不够规范，这里仍建议设计师新建一个layers,以组件来命名，将原始组件都放置在这个页面，易于管理。 
