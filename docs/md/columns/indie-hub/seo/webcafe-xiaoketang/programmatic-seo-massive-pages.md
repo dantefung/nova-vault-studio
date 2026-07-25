@@ -57,8 +57,6 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 ![](images/programmatic-seo-massive-pages/img_026.jpg)
 
-![new.web.cafe](images/programmatic-seo-massive-pages/img_027.svg)
-
 哥飞2025-06-18 19:31
 [案例分享](https://new.web.cafe/label/9e51be5a855445859eeaf63d998c04dd)[数据分析](https://new.web.cafe/label/x7jg0h2m85)
 哥飞小课堂
