@@ -13,6 +13,8 @@ date: "2026-05-29"
 |------|------|------|
 | 2026-07-26 | https://x.com/i/status/2062080784572534958 | 待查看 |
 | 2026-07-26 | https://x.com/i/status/2079935421459366178 | 待查看 |
+| 2026-07-26 | https://x.com/i/status/2080467501633478757 | **Fred-New**：GitHub信息差套利8法——remote-job/ai-money-maker/TelegramGroup/awesome-list/ai-goofish-monitor/n8n/awesome-public-datasets/awesome-systematic-trading，信息差从来不值钱，执行力才值钱 |
+| 2026-07-26 | — | **躺赚vs辛苦钱**：卖铲子思维——搬视频/盯盘/跪富婆都是辛苦钱，卖工具/课/软件才是躺赚。选边比努力重要一万倍。所有人在赌时，最稳生意是卖入场券 |
 | 2026-07-15 | https://x.com/i/status/2076966319031996776 | **张子俊**：把12台iPhone 8变成增长机房——@julianivaldy 把内部实验做成公开作品集再变现，预估年流水六位数人民币，TikTok增长服务 |
 | 2026-07-15 | https://x.com/i/status/2076554713336512758 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076887045906256305 | 待查看 |
