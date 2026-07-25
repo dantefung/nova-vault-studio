@@ -25,7 +25,7 @@ url: "https://new.web.cafe/tutorial/detail/dxxitw3vzo"
 
 ![](images/mrr15k-countdown-website-analysis/img_010.jpg)
 
-![new.web.cafe](images/mrr15k-countdown-website-analysis/img_011.svg)
+![new.web.cafe](images/mrr15k-countdown-website-analysis/gefei-countdown-11.png)
 
 哥飞2024-11-11 16:20
 [外链建设](https://new.web.cafe/label/b8a3104c000d448b9ebf3c8e86dfffdd)

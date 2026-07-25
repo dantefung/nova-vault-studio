@@ -25,7 +25,7 @@ url: "https://new.web.cafe/tutorial/detail/k9jbug5r3n"
 
 ![](images/why-high-volume-keywords-have-low-kd/img_010.jpg)
 
-![new.web.cafe](images/why-high-volume-keywords-have-low-kd/img_011.svg)
+![new.web.cafe](images/why-high-volume-keywords-have-low-kd/img_010.jpg)
 
 哥飞2024-11-11 16:20
 [外链建设](https://new.web.cafe/label/b8a3104c000d448b9ebf3c8e86dfffdd)
