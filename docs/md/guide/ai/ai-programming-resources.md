@@ -104,6 +104,11 @@ date: "2026-05-05"
 
 ## 开源工具
 
+- [Glarity](https://chromewebstore.google.com/detail/cmnlolelipjlhfkhpohphpedmkfbobjc) — Chrome 扩展，AI 助手，支持自定义 OpenAI API Key，免费使用全部功能
+- [Easy Scraper](https://chromewebstore.google.com/detail/cljbfnedccphacfneigoegkiieckjndh) — Chrome 扩展，网页数据采集工具，无需编码，支持智能选择/批量采集/CSV或Excel导出/自动翻页
+- [SiteSucker](https://ricks-apps.com/osx/sitesucker/) — Mac 网站下载工具，完整下载 HTML/图片/视频/音频等所有资源，保持目录结构，支持断点续传/离线浏览
+- [小飞兔](https://www.xiaofeitu.com/) — 批量整站下载工具，收费订阅支持批量扒站，免费版可用但代码识别需手工修正
+- [Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk) — Google 开发的网站性能检测工具，分析性能/可访问性/最佳实践/SEO/PWA，提供详细优化建议
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) — Agent 触达能力扩展
 - [技能商店 Skill Store](https://github.com/anbeime/skill) — AI 技能的 App Store，每 24 小时自动同步 awesome-agent-skills，收录最全更新最快的 AI Agent 技能库
 - [AgentKey](https://agentkey.app/@cirila) — 一句话命令安装到 Codex/龙虾/Claude Code，自动化采集小红书、抖音、快手、B站、微博、知乎、Youtube 等平台公开内容、评论、点赞、转发，降低调研搬运门槛
