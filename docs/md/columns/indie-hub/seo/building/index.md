@@ -12,3 +12,4 @@ date: "2026-07-25"
 | 4.12 | [域名购买与管理](./04-12-domain-purchase-management) |
 | 4.16 | [企业邮箱教程](./04-16-email-setup) |
 | 4.17 | [网站数据分析工具](./04-17-analytics-tools) |
+| 4.18 | [产品营销推广](./04-18-marketing-promotion) |
