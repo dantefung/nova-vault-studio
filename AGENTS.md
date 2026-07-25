@@ -162,6 +162,35 @@ rtk ls docs/md/{分类}/{文章}/images/{文章名}/
 
 **处理方式**：将引用路径改为实际存在的文件名。
 
+### Pre-commit Hook 配置
+
+项目已配置 pre-commit hook，自动检查 staged 的 `.md` 文件：
+
+- `check-frontmatter.py` — 验证 frontmatter title 必填
+- `check-html-tags.py` — 检查裸露 HTML 标签
+- `check-image-refs.py` — 验证图片引用是否存在
+
+**首次配置（项目根目录执行）**：
+
+```bash
+cat > .git/hooks/pre-commit << 'EOF'
+#!/bin/sh
+PROJECT_ROOT="$(git rev-parse --show-toplevel)"
+STAGED_MD_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.md$' | grep -v '^docs/public/')
+[ -z "$STAGED_MD_FILES" ] && exit 0
+
+for file in $STAGED_MD_FILES; do
+    FULL_PATH="$PROJECT_ROOT/$file"
+    python3 "$PROJECT_ROOT/.claude/hooks/check-frontmatter.py" "$FULL_PATH" || exit 1
+    python3 "$PROJECT_ROOT/.claude/hooks/check-html-tags.py" "$FULL_PATH" || exit 1
+    python3 "$PROJECT_ROOT/.claude/hooks/check-image-refs.py" "$FULL_PATH" || exit 1
+done
+EOF
+chmod +x .git/hooks/pre-commit
+```
+
+> **注意**：`.git/hooks/pre-commit` 是本地文件，不上传 git。每个开发者首次克隆项目后需要手动创建。
+
 ---
 
 ## 归档文章到专栏
