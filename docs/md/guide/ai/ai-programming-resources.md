@@ -156,6 +156,7 @@ date: "2026-05-05"
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) — 生成式引擎优化智能内容工程系统 2.0，多站点分发、知识库 RAG、审核发布工作流，1.6k+ stars
 - [llm-wiki-starter](https://github.com/eleven-net-cn/llm-wiki-starter) — 一键创建 LLM Wiki 知识库，基于 Andrej Karpathy 的 LLM Wiki 模式
 - [ElysiaJS](https://elysiajs.com) — Bun 生态最快的 TypeScript 后端框架，基于 OpenAPI 3.x 规范，类型安全、极速性能，支持 Swagger 文档自动生成
+- [edgetunnel](https://github.com/cmliu/edgetunnel) — **41.1k Stars**，基于 Cloudflare Workers/Pages 的 VLESS/Trojan/SS 多功能面板，支持订阅系统和多平台客户端适配
 
 ---
 
