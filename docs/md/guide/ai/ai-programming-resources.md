@@ -163,6 +163,7 @@ date: "2026-05-05"
 - [hyperframes-motion-director](https://github.com/geekjourneyx/hyperframes-motion-director) — 宣传片 Agent Skill，视频创作工作流
 - [Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube视频搬运流水线，自动监控更新/下载/字幕生成/翻译/质检/AI改标题，双平台上传（B站+AcFun），支持企业微信推送
 - [Bento](https://github.com/nyblnet/bento) — 开源HTML PPT工具，单HTML文件实现编辑+全屏播放+多人协作，JSON明文格式适合AI修改迭代，动效炫酷
+- [UP](https://github.com/byoungd/up) — 英语学习全面指南，56W star，涵盖认知/单词/听力/阅读/口语/写作六大板块，含AI辅助学英语（GPT语音模型听说读写训练）
 
 ---
 
