@@ -65,11 +65,8 @@ export default defineConfig({
   },
   vite: {
     plugins: [MermaidPlugin()],
-    // 方案2：移除 mermaid 强制预加载，让其懒加载
-    // noExternal: ['mermaid'] 会强制在 SSR 阶段也打包 mermaid，吃内存
-    // 移除后 mermaid 仅在客户端懒加载，减少构建时内存压力
-    optimizeDeps: { include: [] },
-    ssr: {},
+    optimizeDeps: { include: ['mermaid'] },
+    ssr: { noExternal: ['mermaid'] },
     assetsInclude: ['**/*.awebp'],
   },
   themeConfig: {

@@ -61,25 +61,16 @@ date: "2026-07-26"
 *   **原因**: 将 `mermaid` 和 `vitepress` 单独抽成 chunk 后，它们之间产生循环依赖
 *   **修复**: 移除所有 manualChunks 配置，恢复 VitePress 默认打包行为
 
-**正确修复（方案 1+2+3）**:
-1. **确认 VitePress 版本**: 当前 1.6.4 为最新稳定版，注释说明降级方向备用
-2. **移除 Mermaid 强制 SSR 打包**:
-   ```js
-   vite: {
-     plugins: [MermaidPlugin()],
-     // noExternal: ['mermaid'] 会强制在 SSR 阶段也打包 mermaid，吃内存
-     // 移除后 mermaid 仅在客户端懒加载，减少构建时内存压力
-     optimizeDeps: { include: [] }, // 不预加载 mermaid，懒加载
-     ssr: {},                       // 不强制任何包进 SSR bundle
-   }
-   ```
-3. **增加 Node 内存上限**: `NODE_OPTIONS='--max-old-space-size=2048'` 在构建时给 Node 更多内存空间
+**最终结论**:
+* commit 9fc0807（移除 manualChunks）验证：**仅移除 manualChunks 即可解决 Vercel OOM**
+* 后续改动的 `optimizeDeps: { include: [] }`、`ssr: {}`、`NODE_OPTIONS` 反而让情况更差，已 revert
+* 当前配置（mermaid SSR 恢复原样 + 无 manualChunks）才是最优状态
+* 根本解法是精简文档规模（减少页面数/禁用 mermaid）或升级 Vercel Pro
 
 **经验**:
-*   chunking 方案要谨慎——VitePress 默认 chunk 策略已经过优化，强制分包容易弄巧成拙
-*   Vercel OOM 时先本地验证 build 能跑通，再推送
-*   Mermaid 在 SSR 阶段被强制打包是最常见的内存杀手之一
-*   根本解法可能是精简文档规模或升级 Vercel Pro
+* 遇到 OOM 不要乱改配置——先确认哪个改动真正解决问题
+* VitePress 默认 chunk 策略已经过优化，强制分包容易弄巧成拙
+* 改配置前先本地验证，改动要最小化
 
 ## 后续演进方向
 - [ ] 搜索体验优化 (Algolia 深度集成)
