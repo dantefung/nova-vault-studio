@@ -27,10 +27,7 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   lang: 'zh-CN',
-  async theme() {
-    const { default: teek } = await import('vitepress-theme-teek')
-    return teek
-  },
+
   sitemap: {
     hostname: 'https://system-vault.site'
   },
