@@ -29,6 +29,7 @@
     "@vercel/analytics": "^1.0.1",
     "markmap-lib": "^0.18.12",
     "markmap-view": "^0.18.12",
-    "pdfjs-dist": "^5.5.207"
+    "pdfjs-dist": "^5.5.207",
+    "vitepress-theme-teek": "^1.6.2"
   }
 }
