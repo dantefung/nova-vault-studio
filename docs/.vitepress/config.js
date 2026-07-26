@@ -68,18 +68,7 @@ export default defineConfig({
     optimizeDeps: { include: ['mermaid'] },
     ssr: { noExternal: ['mermaid'] },
     assetsInclude: ['**/*.awebp'],
-    build: {
-      chunkSizeWarningLimit: 1000,
-      rollupOptions: {
-        output: {
-          manualChunks: (id) => {
-            if (id.includes('node_modules') && !id.includes('vitepress') && !id.includes('mermaid')) {
-              return 'vendor'
-            }
-          }
-        }
-      }
-    }
+
   },
   themeConfig: {
     // Vercel 构建内存有限；本地搜索会额外渲染所有页面生成索引。
