@@ -46,6 +46,32 @@ date: "2026-07-26"
 *   **配置哲学的实践**: 遵循 VitePress 原生设计模式，无需自定义 sidebar 生成逻辑，充分利用框架自动化能力
 *   **维护性提升**: 从特例处理回归标准目录模式，降低未来维护成本
 
+## 踩坑记录
+
+### 2026-07: Vercel 构建 OOM 与 Chunk 循环依赖
+
+**问题 1: Vercel 构建内存不足（OOM）**
+*   **现象**: 本地 `npm run build` 正常，Vercel 构建时进程被 SIGKILL，报告 "Out of Memory"
+*   **原因**: Vercel 构建容器内存有限，VitePress 文档量大导致内存压力过大
+*   **处理**: 在 `docs/.vitepress/config.js` 的 `vite.build.rollupOptions.output.manualChunks` 中添加 chunk 分割
+
+**问题 2: Rollup 循环 chunk 依赖**
+*   **现象**: `Circular chunk: mermaid -> vendor -> mermaid` 和 `Circular chunk: mermaid -> vitepress -> mermaid`
+*   **原因**: 将 `mermaid` 和 `vitepress` 单独抽成 chunk 后，它们之间产生循环依赖
+*   **修复**: 排除 `mermaid` 和 `vitepress`，仅保留 `vendor` 分包：
+  ```js
+  manualChunks: (id) => {
+    if (id.includes('node_modules') && !id.includes('vitepress') && !id.includes('mermaid')) {
+      return 'vendor'
+    }
+  }
+  ```
+
+**经验**:
+*   Vercel OOM 时先在本地验证 build 能跑通，再推送
+*   分包时避免将 VitePress 核心依赖（vitepress/mermaid）与 vendor 混合抽离，容易触发循环引用
+*   Vercel 环境变量 `VERCEL=1` 可触发低内存模式（`buildConcurrency: 4`）
+
 ## 后续演进方向
 - [ ] 搜索体验优化 (Algolia 深度集成)
 - [ ] 多语言支持 (i18n)
