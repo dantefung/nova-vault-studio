@@ -4,6 +4,7 @@ import { MermaidPlugin, MermaidMarkdown } from 'vitepress-plugin-mermaid'
 import markdownItMarkmap from './plugins/markdown-it-markmap.js'
 import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories, generateBookNavItems } from './sidebar.js'
 
+
 const SEARCH_RENDER_SIZE_LIMIT = 200_000
 const isLowMemoryBuild = process.env.VERCEL === '1' || process.env.VITEPRESS_LOW_MEMORY_BUILD === '1'
 const enableLocalSearch = process.env.VITEPRESS_DISABLE_LOCAL_SEARCH !== '1'
@@ -27,9 +28,8 @@ export default defineConfig({
   cleanUrls: true,
   lang: 'zh-CN',
   async theme() {
-    const teek = (await import('vitepress-theme-teek')).default
-    const { default: defaultTheme } = await import('vitepress/theme')
-    return Object.assign({}, teek, { extends: defaultTheme })
+    const { default: teek } = await import('vitepress-theme-teek')
+    return teek
   },
   sitemap: {
     hostname: 'https://system-vault.site'
