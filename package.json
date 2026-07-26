@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "npm run generate:pdf-pages && cross-env VITE_FONT_SOURCE=local vitepress dev docs",
     "generate:pdf-pages": "node scripts/generate-pdf-pages.js",
-    "build": "npm run generate:pdf-pages && cross-env NODE_OPTIONS='--max-old-space-size=2048' VITE_FONT_SOURCE=local vitepress build docs",
+    "build": "npm run generate:pdf-pages && cross-env NODE_OPTIONS='--max-old-space-size=1024' VITE_FONT_SOURCE=local vitepress build docs",
     "preview": "cross-env VITE_FONT_SOURCE=local vitepress preview docs"
   },
   "author": "DANTE FUNG",
