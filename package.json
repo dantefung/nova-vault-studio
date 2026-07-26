@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "npm run generate:pdf-pages && cross-env VITE_FONT_SOURCE=local vitepress dev docs",
     "generate:pdf-pages": "node scripts/generate-pdf-pages.js",
-    "build": "npm run generate:pdf-pages && cross-env VITE_FONT_SOURCE=local vitepress build docs",
+    "build": "npm run generate:pdf-pages && cross-env NODE_OPTIONS='--max-old-space-size=2048' VITE_FONT_SOURCE=local vitepress build docs",
     "preview": "cross-env VITE_FONT_SOURCE=local vitepress preview docs"
   },
   "author": "DANTE FUNG",
@@ -19,6 +19,8 @@
     "cross-env": "10.1.0",
     "markdown-it-container": "^4.0.0",
     "mermaid": "^11.12.0",
+    // 锁定 VitePress 版本避免未知内存问题；1.6.4 是当前版本，降级测试用
+    // 如果 OOM 持续，可尝试 1.5.0 或 1.4.x 等更稳定的旧版本
     "vitepress": "1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17",
     "vue": "^3.2.47"

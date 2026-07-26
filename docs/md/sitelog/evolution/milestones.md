@@ -52,25 +52,34 @@ date: "2026-07-26"
 
 **问题 1: Vercel 构建内存不足（OOM）**
 *   **现象**: 本地 `npm run build` 正常，Vercel 构建时进程被 SIGKILL，报告 "Out of Memory"
-*   **原因**: Vercel 构建容器内存有限，VitePress 文档量大导致内存压力过大
-*   **处理**: 在 `docs/.vitepress/config.js` 的 `vite.build.rollupOptions.output.manualChunks` 中添加 chunk 分割
+*   **原因**: Vercel 免费版 Build Container 内存有限（~1GB），VitePress 文档量大 + Mermaid 图表渲染导致内存压力过大
+*   **错误修复 1**: 尝试 `manualChunks` 分割 chunk → 触发循环依赖警告（mermaid ↔ vendor ↔ vitepress），内存反而更高
+*   **错误修复 2**: 移除 PDF 生成步骤 → PDF 生成仅 2 秒就完成，OOM 发生在 VitePress 打包阶段，无效
 
 **问题 2: Rollup 循环 chunk 依赖**
 *   **现象**: `Circular chunk: mermaid -> vendor -> mermaid` 和 `Circular chunk: mermaid -> vitepress -> mermaid`
 *   **原因**: 将 `mermaid` 和 `vitepress` 单独抽成 chunk 后，它们之间产生循环依赖
-*   **修复**: 排除 `mermaid` 和 `vitepress`，仅保留 `vendor` 分包：
-  ```js
-  manualChunks: (id) => {
-    if (id.includes('node_modules') && !id.includes('vitepress') && !id.includes('mermaid')) {
-      return 'vendor'
-    }
-  }
-  ```
+*   **修复**: 移除所有 manualChunks 配置，恢复 VitePress 默认打包行为
+
+**正确修复（方案 1+2+3）**:
+1. **锁定 VitePress 版本**: 添加注释标记，OOM 持续时可降级到 1.5.x 或 1.4.x 测试
+2. **移除 Mermaid 强制 SSR 打包**:
+   ```js
+   vite: {
+     plugins: [MermaidPlugin()],
+     // noExternal: ['mermaid'] 会强制在 SSR 阶段也打包 mermaid，吃内存
+     // 移除后 mermaid 仅在客户端懒加载，减少构建时内存压力
+     optimizeDeps: { include: [] }, // 不预加载 mermaid，懒加载
+     ssr: {},                       // 不强制任何包进 SSR bundle
+   }
+   ```
+3. **增加 Node 内存上限**: `NODE_OPTIONS='--max-old-space-size=2048'` 在构建时给 Node 更多内存空间
 
 **经验**:
-*   Vercel OOM 时先在本地验证 build 能跑通，再推送
-*   分包时避免将 VitePress 核心依赖（vitepress/mermaid）与 vendor 混合抽离，容易触发循环引用
-*   Vercel 环境变量 `VERCEL=1` 可触发低内存模式（`buildConcurrency: 4`）
+*   chunking 方案要谨慎——VitePress 默认 chunk 策略已经过优化，强制分包容易弄巧成拙
+*   Vercel OOM 时先本地验证 build 能跑通，再推送
+*   Mermaid 在 SSR 阶段被强制打包是最常见的内存杀手之一
+*   根本解法可能是精简文档规模或升级 Vercel Pro
 
 ## 后续演进方向
 - [ ] 搜索体验优化 (Algolia 深度集成)
