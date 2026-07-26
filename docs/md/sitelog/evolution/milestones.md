@@ -1,3 +1,8 @@
+---
+title: "演进历程与里程碑"
+date: "2026-07-26"
+---
+
 # 演进历程与里程碑
 
 本文记录了 **System Vault** (及其原型项目) 的核心开发节点与演进路线。
@@ -22,6 +27,10 @@
 *   **多主题切换**: 实现三种主题（晴空/暗夜/纸卷）自由切换，localStorage 持久化，SSR 防闪烁
 *   **落地页风格系统**: 首页支持 8 种落地页风格（晴空/杂志/极客/诗卷/卡片/暗魄/暖域/静界），导航栏下拉实时切换
 *   **设计工具**: 使用 [Huashu-Design](https://github.com/alchaincyf/huashu-design) skill 完成主题和落地页的设计与实现
+
+### 2026-07: 主题扩展与备份体系
+*   **Teek 主题引入**: 安装 [vitepress-theme-teek](https://github.com/teek/vitepress-theme-teek)，~1k stars，支持文档风/博客风模式切换，适合个人博客/知识库场景
+*   **备份分支**: 建立 `backup-20260726` 分支，作为变更前的完整快照
 
 ### 2026-04: 教程内容集成与目录标准化
 *   **full-keyboard 项目集成**: 成功将独立的 GitHub 项目 `alexzhang1030/full-keyboard` 集成到知识库中
