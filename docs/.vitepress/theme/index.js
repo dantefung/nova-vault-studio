@@ -1,4 +1,6 @@
-import teek from 'vitepress-theme-teek'
+// .vitepress/theme/index.js
+
+import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
 import './markmap.css'
@@ -6,11 +8,11 @@ import './fonts.css'
 import './themes.css'
 
 export default {
-  ...teek,
+  ...DefaultTheme,
   Layout: MyLayout,
   enhanceApp(ctx) {
-    if (typeof teek.enhanceApp === 'function') {
-      teek.enhanceApp(ctx)
+    if (typeof DefaultTheme.enhanceApp === 'function') {
+      DefaultTheme.enhanceApp(ctx)
     }
     if (typeof window === 'undefined') return
     installUrlParsePolyfill()
