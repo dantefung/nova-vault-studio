@@ -66,7 +66,27 @@ export default defineConfig({
     }
   },
   vite: {
-    plugins: [MermaidPlugin()],
+    plugins: [
+      MermaidPlugin(),
+      // 拦截 vitepress 主题的 CSS 导入，防止 Node.js ESM loader 报错
+      // Node 无法直接加载 .css 文件，通过返回空模块绕过
+      {
+        name: 'vitepress-ssr-css-interceptor',
+        resolveId(id, importer) {
+          if (id.endsWith('.css') || id.includes('styles/')) {
+            const isVitepressSource = importer?.includes('vitepress') || importer?.includes('vitepress-theme-teek')
+            if (isVitepressSource) {
+              return { id: '\0vitepress-ssr-css-stub', external: false }
+            }
+          }
+        },
+        load(id) {
+          if (id === '\0vitepress-ssr-css-stub') {
+            return 'export default {}'
+          }
+        }
+      }
+    ],
     optimizeDeps: { include: ['mermaid'] },
     ssr: { noExternal: ['mermaid'] },
     assetsInclude: ['**/*.awebp'],
