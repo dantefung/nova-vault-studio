@@ -1,6 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vitepress'
-import { MermaidPlugin, MermaidMarkdown } from 'vitepress-plugin-mermaid'
 import markdownItMarkmap from './plugins/markdown-it-markmap.js'
 import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories, generateBookNavItems } from './sidebar.js'
 
@@ -62,13 +61,9 @@ export default defineConfig({
     html: true,
     config: (md) => {
       md.use(markdownItMarkmap)
-      md.use(MermaidMarkdown)
     }
   },
   vite: {
-    plugins: [MermaidPlugin()],
-    optimizeDeps: { include: ['mermaid'] },
-    ssr: { noExternal: ['mermaid'] },
     assetsInclude: ['**/*.awebp'],
   },
   themeConfig: {
