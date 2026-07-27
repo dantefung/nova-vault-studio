@@ -4,12 +4,13 @@ import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
 import { createMermaidRenderer } from 'vitepress-mermaid-renderer'
-import { h, nextTick, watch } from 'vue'
-import { useData } from 'vitepress'
+import { h, nextTick } from 'vue'
 import './markmap.css'
 import './fonts.css'
 import './themes.css'
 import './custom.css'
+import './override.css'
+import './navigation-fix.css'
 
 export default {
   ...DefaultTheme,
@@ -22,15 +23,28 @@ export default {
     installUrlParsePolyfill()
     installPromiseWithResolversPolyfill()
 
-    // mermaid 运行时渲染优化
-    const { isDark } = useData()
-    const initMermaid = () => {
-      createMermaidRenderer({
-        theme: isDark.value ? 'dark' : 'default',
+    // mermaid 运行时渲染优化 - 延迟到组件挂载后初始化
+    if (typeof window !== 'undefined') {
+      const initMermaidWithTheme = () => {
+        // 从 HTML 元素读取主题状态
+        const isDark = document.documentElement.classList.contains('dark')
+        createMermaidRenderer({
+          theme: isDark ? 'dark' : 'default',
+        })
+      }
+      
+      // 初始化
+      nextTick(() => initMermaidWithTheme())
+      
+      // 监听主题变化
+      const observer = new MutationObserver(() => {
+        initMermaidWithTheme()
+      })
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class']
       })
     }
-    nextTick(() => initMermaid())
-    watch(() => isDark.value, () => initMermaid())
 
     import('./composables/useTheme.js').then(m => m.setupTheme?.()).catch(() => {})
     const source = import.meta.env.VITE_FONT_SOURCE || 'local'

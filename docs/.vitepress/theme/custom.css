@@ -1,57 +1,7 @@
 /**
- * 修复导航和侧边栏交互问题
- * 确保所有可点击元素都有正确的 z-index 和 pointer-events
+ * 侧边栏折叠动画
+ * 注意：导航和侧边栏交互修复已移至 override.css 和 navigation-fix.css
  */
-
-/* 确保侧边栏导航项可以点击 */
-.VPSidebar,
-.VPSidebarItem,
-.VPLink {
-  pointer-events: auto !important;
-}
-
-/* 确保下拉菜单可以点击 */
-.VPNavBarMenuGroup,
-.VPFlyout,
-.VPMenu {
-  pointer-events: auto !important;
-}
-
-/* 确保侧边栏折叠按钮可以点击 */
-.VPSidebarItem button.caret-button,
-.VPSidebarItem .caret {
-  pointer-events: auto !important;
-  cursor: pointer !important;
-}
-
-/* 修复可能的 z-index 层级问题 */
-.VPNav {
-  z-index: 50;
-}
-
-.VPSidebar {
-  z-index: 40;
-}
-
-.VPLocalNav {
-  z-index: 30;
-}
-
-/* 确保链接可以点击 */
-a {
-  pointer-events: auto !important;
-}
-
-/* 确保按钮可以点击 */
-button {
-  pointer-events: auto !important;
-  cursor: pointer !important;
-}
-
-/* 移除可能阻止交互的全局样式 */
-* {
-  pointer-events: initial;
-}
 
 /* 确保折叠/展开动画正常工作 */
 .VPSidebarItem.collapsed .items,

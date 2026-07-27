@@ -1,0 +1,42 @@
+/**
+ * 侧边栏交互修复
+ * 注意：导航栏修复已移至 navigation-fix.css
+ */
+
+/* VitePress 侧边栏 - 所有元素 */
+.VPSidebar,
+.VPSidebar *,
+.VPSidebarItem,
+.VPSidebarItem *,
+.VPSidebarGroup,
+.VPSidebarGroup *,
+.VPLink,
+.group {
+  pointer-events: auto !important;
+}
+
+/* 确保侧边栏可以滚动和交互 */
+.VPSidebar .content {
+  pointer-events: auto !important;
+}
+
+/* 修复折叠按钮 */
+.VPSidebarItem .caret,
+.VPSidebarItem button,
+.VPSidebarItem .indicator {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+/* 确保链接文本可点击 */
+.VPSidebarItem .text,
+.VPSidebarItem .link {
+  pointer-events: auto !important;
+}
+
+/* 文本输入框保持文本光标 */
+input[type="text"],
+input[type="search"],
+textarea {
+  cursor: text !important;
+}
