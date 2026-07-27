@@ -37,6 +37,7 @@ date: "2026-07-20"
 | 4 | [SEO Homepage Signal Judgment](./strategy/seo-homepage-signal) | 首页信号判断 |
 | 5 | [SEO New vs Old Keyword Strategy](./strategy/seo-new-vs-old-keyword) | 新旧关键词策略 |
 | 6 | [SEO ROI Analysis](./strategy/seo-roi-analysis) | ROI 分析 |
+| 7 | [Google Ads 广告投放教程](./google-ads/) | Google 广告、学习期、质量得分 |
 
 ### FAQ
 
