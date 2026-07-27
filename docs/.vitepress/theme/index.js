@@ -1,6 +1,5 @@
-// .vitepress/theme/index.js
-
-import DefaultTheme from 'vitepress/theme'
+import theme from '@duxweb/vitepress-theme'
+import '@duxweb/vitepress-theme/dist/index.css'
 import MyLayout from './MyLayout.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
 import './markmap.css'
@@ -8,11 +7,11 @@ import './fonts.css'
 import './themes.css'
 
 export default {
-  ...DefaultTheme,
+  extends: theme,
   Layout: MyLayout,
   enhanceApp(ctx) {
-    if (typeof DefaultTheme.enhanceApp === 'function') {
-      DefaultTheme.enhanceApp(ctx)
+    if (typeof theme.enhanceApp === 'function') {
+      theme.enhanceApp(ctx)
     }
     if (typeof window === 'undefined') return
     installUrlParsePolyfill()

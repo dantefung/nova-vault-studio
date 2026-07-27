@@ -24,6 +24,7 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
+    "@duxweb/vitepress-theme": "^1.1.9",
     "@fontsource/lxgw-wenkai": "5.2.5",
     "@giscus/vue": "^2.2.8",
     "@vercel/analytics": "^1.0.1",
