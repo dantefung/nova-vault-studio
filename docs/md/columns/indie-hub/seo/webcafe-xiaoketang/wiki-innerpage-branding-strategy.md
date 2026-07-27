@@ -3,8 +3,6 @@ title: "【2025.5.19哥飞小课堂】维基百科内页 / 内链设计迁移与
 url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 ---
 
-![](images/wiki-innerpage-branding-strategy/img_001.jpg)
-
 哥飞2025-10-10 12:20
 
 [网站推荐](https://new.web.cafe/label/cf7830f3b8d7461bb73250cc3a96f42c)[建站技术](https://new.web.cafe/label/a922f9a22d294dd19df0b974e6374ba1)[高手分享](https://new.web.cafe/label/59pg1qpg2f)[经验](https://new.web.cafe/label/ux8ptumaqu)[Google Analytics](https://new.web.cafe/label/pnc5zq0f0t)
@@ -36,7 +34,6 @@ url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 
 ![图片](images/wiki-innerpage-branding-strategy/img_003.jpg)
 
-![图片](images/wiki-innerpage-branding-strategy/img_004.jpg)
 
 再看第三个例子，谷歌搜索Flux，前三个结果，第一个是很有名的屏幕色温调节软件，第二名是一个用AI去设计PCB电路板的产品，第三名是Flux AI生图网站。 也就是说，谷歌是允许多个产品公用一个品牌名称的。
 
@@ -44,9 +41,7 @@ url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 
 好了，15点到了，今天的#哥飞小课堂 正式开始，在 Cursor 的搜索结果里，第二名就是维基百科的页面。
 
-![图片](images/wiki-innerpage-branding-strategy/img_005.jpg)
 
-![图片](images/wiki-innerpage-branding-strategy/img_006.jpg)
 
 我们打开页面，就可以看到维基百科的经典页面之词条详情页。 维基百科网站的绝大多数的流量，都靠这个词条详情页来承接。 不管是站外搜索（如谷歌、百度、Bing）还是站内搜索，用户想找的其实就是这个词条详情页。
 
@@ -56,7 +51,6 @@ url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 
 从 Headings 结构，可以得到答案，围绕着当前词条，这个页面详细的从各个角度来阐述解释跟这个词条相关的内容。
 
-![图片](images/wiki-innerpage-branding-strategy/img_007.jpg)
 
 也就是说，用户只需要看这个页面，就能够大概了解到Cursor这个产品的所有信息。 其他词条页面同理，只要是跟词条相关的内容，都会被编辑进去，形成一个内容特别丰富又特别相关的页面。
 
@@ -66,27 +60,21 @@ url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 
 除了词条与词条在正文中互相链接之外，维基百科每个词条内页，还有 See Also 设计，列出来一些跟当前词条相关的词条页面。
 
-![图片](images/wiki-innerpage-branding-strategy/img_009.jpg)
 
-![图片](images/wiki-innerpage-branding-strategy/img_010.jpg)
 
 这个设计，不仅仅可以迁移到AI导航站里，还可以迁移到AI工具站里。 时不时有朋友问，我同一个工具，是否可以做多个页面？ 其实是可以的。 举例，你做了一个在线图片编辑器，那么可以建立以下页面： Online Image Editor Online Photo Editor Online Picture Editor 只要是有人搜索的关键词，你都可以为这个关键词做一个页面，围绕着不同的关键词写不同的文案，但实际使用同一个功能来满足需求。
 
 回到刚才 Cursor 的分类，我们打开 IDE 这个分类页面，可以看到，在大分类页面，列出来了小分类列表，然后下方列出来了IDE分类下所有的词条列表。
 
-![图片](images/wiki-innerpage-branding-strategy/img_011.jpg)
 
 通过词条、分类等页面之间的合理内链，维基百科这么庞大的网站，流量就流动起来了。 同时，也让搜索引擎的爬虫，可以更好的爬到所有的页面。
 
-![图片](images/wiki-innerpage-branding-strategy/img_012.jpg)
 
 分类页面，满足的是了列出信息的需求。 举例，当我想要了解，2020年有哪些公司合并事件发生，我去谷歌搜索 2020 merger companies ，排到第二第三名的，就是维基百科的分类页面。 在这些页面里，就列出来了，我要要知道的公司列表。
 
 现在，假设，你做了一个AI导航站，用户会搜索2024年成立的AI公司，或者搜索2025年上线的AI产品。 你如果做一个按照年份分类列表页面，是不是就有可能满足这方面的需求？
 
-![图片](images/wiki-innerpage-branding-strategy/img_013.jpg)
 
-![图片](images/wiki-innerpage-branding-strategy/img_014.jpg)
 
 我们做SEO，一定要记住下面这句： 只要有人搜索，我们就去做相关页面来满足搜索。
 
@@ -102,7 +90,6 @@ url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 
 1.  为什么mapify.so打败了mapify.ai，拿到了第一名，并且拿到了Sitelinks？ 答：虽然 mapify.ai 先上线，但是 mapify.so 的品宣和外链太强了。 当全网在讨论 Mapify 时，提到的域名都是 mapify.so ，于是谷歌就认为，Mapify 这个词，应该是 mapify.so 。
 
-![图片](images/wiki-innerpage-branding-strategy/img_015.jpg)
 
 Cursor 同理，全网在讨论 Cursor 时，绝大多数内容指向的都是 Cursor IDE ，而不是别的，于是Cursor 就跟cursor.com绑定在一起了。
 

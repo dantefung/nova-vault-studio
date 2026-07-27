@@ -32,17 +32,13 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 从Similarweb给出的Top关键词列表就可以看到，这些关键词都跟品牌名相关
 
-![图片](images/pixverse-ai-seo-case-study/img_004.jpg)
 
 第一个大忌，就是不用主域名，而是都跳转到了app这个子域名。 我猜，他们一开始想学海外公司做法，核心产品放app子域名，自己开发，而www则放官网落地页，使用第三方平台，但是不知道什么原因，第二步一直没去做，于是就只好把主域名跳转到app子域名。
 
-![图片](images/pixverse-ai-seo-case-study/img_005.jpg)
 
-![图片](images/pixverse-ai-seo-case-study/img_006.jpg)
 
 而如果打开 [https://app.pixverse.ai/](https://app.pixverse.ai/) 你就观察到，浏览器里的URL很快被替换为了 [https://app.pixverse.ai/onboard](https://app.pixverse.ai/onboard) 。 一开始我以为是从 / 跳转到了 /onboard ，后来仔细研究了一下，是用了浏览器提供的 url history 接口，通过代码，强行把 / 改成了 /onboard 了。
 
-![图片](images/pixverse-ai-seo-case-study/img_007.jpg)
 
 更有意思的是，随便你输入什么网址，如 [https://app.pixverse.ai/gefeiseo](https://app.pixverse.ai/gefeiseo) 也会自动被修正为 [https://app.pixverse.ai/onboard](https://app.pixverse.ai/onboard) 。 这些都是前端JS做的工作。
 
@@ -62,9 +58,7 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 第四大忌，首页标题，只写了品牌名称，以及一个没有意义的Home，任何其他业务相关关键词都没有。 其实即使他们保持现在的代码不做任何变化，只需要把 AI Video 相关关键词加上去，也能够带来更多的搜索流量。 因为现在他们网站有2500个外链域名，DR60，足够拿下一些关键词排名了。
 
-![图片](images/pixverse-ai-seo-case-study/img_009.jpg)
 
-![图片](images/pixverse-ai-seo-case-study/img_010.jpg)
 
 第五第六点，就不算大忌了，算小忌吧。 第5，Canonical 没有设置，导致有大量的重复页面被收录； 第6，整个页面没有任何的Headings。 即使是前端渲染，也建议写上合理的Headings，万一谷歌觉得你流量这么大权重这么高，会给你抓取html代码后在服务器端渲染一下呢，那不就能让谷歌知道你的网页是关于什么的吗。
 
@@ -76,7 +70,6 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 打开这个网页 html 一看，居然是后端渲染的 dofollow 链接。 大家可以去研究一下，怎么在 Patreon 发文章了，优质外链哦。
 
-![图片](images/pixverse-ai-seo-case-study/img_011.jpg)
 
 好了，以上就是今天的小课堂，给大家讲了大流量网站 Pixverse.ai 的SEO工作不到位的地方，顺便给大家挖掘了一个DR 93的 dofollow 外链。
 
@@ -90,7 +83,6 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 为什么一定要让自己一段时间，只做一件事情呢？ 这些事情本来就没有明确的先后顺序，同时做就好了呀。
 
-![图片](images/pixverse-ai-seo-case-study/img_012.jpg)
 
 每个人都有可能害怕开始，尤其是在陌生领域，自己没做过的事情，总是会想东想西，但就是不敢开始去做。
 
@@ -98,7 +90,6 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 这个网站，也许是大家需要的 [https://www.placestoguestpost.com/](https://www.placestoguestpost.com/) ，找到支持发客座博客的网站
 
-![图片](images/pixverse-ai-seo-case-study/img_013.jpg)
 
 评论区
 
