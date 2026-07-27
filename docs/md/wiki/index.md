@@ -80,6 +80,7 @@ wiki/
 | [web-designer-plugin](/md/wiki/sources/web-designer-plugin) | 48 个 Award 级设计模式，决策框架，43 Stars | GitHub |
 | [emil-kowalski-skill](/md/wiki/sources/emil-kowalski-skill) | UI 细节打磨，交互/动效/组件状态精致化，2.1k Stars | GitHub |
 | [magic-slide](/md/wiki/sources/magic-slide) | HTML 演示稿生成，Magic Move 转场，PipeLLM 图生，147 Stars | GitHub |
+| [linux-drawio-desktop-cli](/md/wiki/sources/linux-drawio-desktop-cli) | Draw.io Desktop 在 Linux 上的 5 种安装方式及 CLI 导出命令，含 Docker 无头模式 | 用户整理 |
 | [awesome-design-md](/md/wiki/sources/awesome-design-md) | 72+ 品牌 DESIGN.md，AI 按风格生成界面，87.8k Stars | GitHub |
 | [guizang-social-card-skill](/md/wiki/sources/guizang-social-card-skill) | 小红书图文/公众号封面对，Editorial × Swiss 双视觉系统，28 版式，3k Stars | GitHub |
 | [skillshare](/md/wiki/sources/skillshare) | 一个命令同步 Skills 到 60+ AI CLI 平台，内置安全审计，2.1k Stars | GitHub |

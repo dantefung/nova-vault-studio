@@ -1390,3 +1390,9 @@ source: "llm-wiki"
 **位置**：`sources/spec-superflow-intro.md`
 **图片**：6 张已下载到 `images/spec-superflow-intro/`
 **摘要**：Matt Pocock 开源 agent skills 以 small/composable 理念提供 /grill-me、/tdd 等独立 skill，适合个人项目和英文生态；spec-superflow 通过 8 状态路由和 execution-contract 硬约束强制「Spec First」，适合中文团队和大项目。作者建议小需求用 Matt 快速过，大功能走 spec-superflow。
+
+## [2026-07-27] Linux 上使用 Draw.io Desktop 命令行功能
+
+**操作**：归档 Draw.io Desktop 在 Linux 上的安装与 CLI 导出方法
+**位置**：`sources/linux-drawio-desktop-cli.md`
+**内容**：5 种安装方式（Snap / AppImage / DEB / Flatpak / Docker），drawio CLI 导出命令示例，rlespinasse/drawio-cli 已废弃提示
