@@ -14,7 +14,9 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 今天哥飞带着大家读一下 SearchEngineJournal.com 上的文章：
 
-[https://www.searchenginejournal.com/important-tags-seo/156440/](https://www.searchenginejournal.com/important-tags-seo/156440/) ![image.png](images/essential-seo-meta-tags-part1/img_002.png)
+[https://www.searchenginejournal.com/important-tags-seo/156440/](https://www.searchenginejournal.com/important-tags-seo/156440/)
+
+![image.png](images/essential-seo-meta-tags-part1/img_002.png)
 
 开篇第一句话就告诉大家，一些元标签对SEO至关重要，而其他标签对排名几乎没有影响，所以这篇文章讲的是重要的10个标签。
 
@@ -28,9 +30,16 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 2.  如何阅读这个页面；
 3.  谁应该看到这个页面，即这个页面要出现在哪些关键词的搜索结果中。
 
-以下是10个最重要的HTML元标签。 **一、Title 页面标题** 哥飞无数次跟大家说过，Title 很重要，就是因为 Title 可以告诉搜索引擎，你的这个网页主要是关于什么内容的，标题是对网页的全面概括。
+以下是10个最重要的HTML元标签。
 
-在《【哥飞解读】2024年谷歌算法排名因素变化》中，我们知道标题里包含的关键词依然还占排名因素的15%，是优质内容之外的第二大因素。 ![image.png](images/essential-seo-meta-tags-part1/img_003.png) 以前，谷歌会把标题严格匹配用户搜索结果的网页排到前面，后来谷歌能够更多的基于语义化理解网页之后，我们的标题不需要严格匹配就能够出现在谷歌搜索结果中了。
+**一、Title 页面标题**
+哥飞无数次跟大家说过，Title 很重要，就是因为 Title 可以告诉搜索引擎，你的这个网页主要是关于什么内容的，标题是对网页的全面概括。
+
+在《【哥飞解读】2024年谷歌算法排名因素变化》中，我们知道标题里包含的关键词依然还占排名因素的15%，是优质内容之外的第二大因素。 
+
+![image.png](images/essential-seo-meta-tags-part1/img_003.png)
+
+ 以前，谷歌会把标题严格匹配用户搜索结果的网页排到前面，后来谷歌能够更多的基于语义化理解网页之后，我们的标题不需要严格匹配就能够出现在谷歌搜索结果中了。
 
 ![image.png](images/essential-seo-meta-tags-part1/img_004.png)
 
@@ -38,7 +47,23 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 简单说就是，你如果围绕一个关键词做了一个高质量网页，不仅仅能够拿到这个关键词的流量，还有可能拿到更多的相关关键词的流量了。
 
-哥飞给大家举个例子，刚好是哥飞昨天刚刚搜索过的词，热乎的结果。 ![image.png](images/essential-seo-meta-tags-part1/img_005.png) ![image.png](images/essential-seo-meta-tags-part1/img_006.png) ![image.png](images/essential-seo-meta-tags-part1/img_007.png) ![image.png](images/essential-seo-meta-tags-part1/img_008.png) 看到了吗？四个关键词，意思类似，需求类似，所以谷歌都把同一个网站排到了第一名，而这个网站的标题其实只写了其中一种关键词“File Type Checker”。
+哥飞给大家举个例子，刚好是哥飞昨天刚刚搜索过的词，热乎的结果。 
+
+![image.png](images/essential-seo-meta-tags-part1/img_005.png)
+
+ 
+
+![image.png](images/essential-seo-meta-tags-part1/img_006.png)
+
+ 
+
+![image.png](images/essential-seo-meta-tags-part1/img_007.png)
+
+ 
+
+![image.png](images/essential-seo-meta-tags-part1/img_008.png)
+
+ 看到了吗？四个关键词，意思类似，需求类似，所以谷歌都把同一个网站排到了第一名，而这个网站的标题其实只写了其中一种关键词“File Type Checker”。
 
 搜索引擎关注页面的整体情况，倾向于把页面的整体内容作为一个整体进行评估，但是标题依然很重要，尤其是在搜索结果中显示的标题还对点击率有很大的影响。
 
@@ -51,7 +76,10 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 3.  将重要关键词放在首位，但要自然，就好像你首先为访客编写标题一样；
 4.  在标题中使用您的品牌名称，即使最终不会显示在搜索引擎结果页面上，对搜索引擎仍会产生影响。
 
-关于第4点，哥飞的习惯，会在全站所有页面的标题结尾都加上网站名称和域名，如果网站名称就是域名，则只需要加域名就行。 **二、Description 页面描述** 页面描述不是排名因素，但为什么也重要呢？
+关于第4点，哥飞的习惯，会在全站所有页面的标题结尾都加上网站名称和域名，如果网站名称就是域名，则只需要加域名就行。
+
+**二、Description 页面描述**
+页面描述不是排名因素，但为什么也重要呢？
 
 因为大多数时候，页面描述会和网址、页面标题一起显示在搜索结果中。
 
@@ -74,11 +102,16 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 [https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=zh-cn](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=zh-cn)
 
-**三、Heading 标题标签（H1到H6）** 注意这里的标题跟网页标题不是同一个东西，只不过中文都翻译为了标题。
+**三、Heading 标题标签（H1到H6）**
+注意这里的标题跟网页标题不是同一个东西，只不过中文都翻译为了标题。
 
-关于H1，哥飞也是多次强调，每一个网页的H1必不可少，且要好好写，对SEO很有作用。
+关于 H1，哥飞也是多次强调，每一个网页的H1必不可少，且要好好写，对SEO很有作用。
 
-但如果看下面这张图会发现，H1并不在影响排名的因素里，那为什么哥飞依然强调H1要好好写呢？ ![image.png](images/essential-seo-meta-tags-part1/img_009.png) 因为良好的H1到H6，可以帮助谷歌更好的梳理网页内容结构，也就是帮助谷歌更好的理解网页内容。
+但如果看下面这张图会发现，H1并不在影响排名的因素里，那为什么哥飞依然强调H1要好好写呢？
+
+![image.png](images/essential-seo-meta-tags-part1/img_009.png)
+
+因为良好的H1到H6，可以帮助谷歌更好的梳理网页内容结构，也就是帮助谷歌更好的理解网页内容。
 
 同时H1到H6还是给用户看的，帮助用户在看完全文之前就更好的了解全文到底讲什么，有一个提前的预期。
 
@@ -92,9 +125,21 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 有个小问题，Title 和 H1 是否可以重复呢？
 
-谷歌的建议是可以一样，但是也可以不一样。所以如果你实在写不出不一样的H1，那就让H1和Title一样也行。
+谷歌的建议是可以一样，但是也可以不一样。所以如果你实在写不出不一样的H1，那就让H1和Title 一样也行。
 
 今天文章我们讲了10个最重要的HTML元标签中的前三个，分别是 Title 和 Description 和 Headings ，现在文章已经超过2000字了，哥飞决定把文章拆分一下，这篇当作上，后面还有中和下两篇，总共三篇文章来介绍完全部10个元标签。
 
-顺便给大家推荐一个特别好用且免费的SEO浏览器插件，如我们在浏览 checkfiletype.com 这个网站时点开插件，就能够看到这个网站首页的 Title、Description、Headings、域名注册时间、流量等数据。 ![image.png](images/essential-seo-meta-tags-part1/img_010.png) ![image.png](images/essential-seo-meta-tags-part1/img_011.png) ![image.png](images/essential-seo-meta-tags-part1/img_012.png) 这么好用的插件居然是免费的，是的，这也是哥飞社群里朋友做的产品之一，欢迎下载使用 [https://aitdk.com/zh-CN/extension/](https://aitdk.com/zh-CN/extension/) 。
+顺便给大家推荐一个特别好用且免费的SEO浏览器插件，如我们在浏览 checkfiletype.com 这个网站时点开插件，就能够看到这个网站首页的 Title、Description、Headings、域名注册时间、流量等数据。 
+
+![image.png](images/essential-seo-meta-tags-part1/img_010.png)
+
+ 
+
+![image.png](images/essential-seo-meta-tags-part1/img_011.png)
+
+ 
+
+![image.png](images/essential-seo-meta-tags-part1/img_012.png)
+
+ 这么好用的插件居然是免费的，是的，这也是哥飞社群里朋友做的产品之一，欢迎下载使用 [https://aitdk.com/zh-CN/extension/](https://aitdk.com/zh-CN/extension/) 。
 

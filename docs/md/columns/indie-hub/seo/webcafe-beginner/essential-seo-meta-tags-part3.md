@@ -19,7 +19,12 @@ url: "https://new.web.cafe/tutorial/detail/qQpapieeJpFC8hdmmSta2F"
 
 今天继续介绍剩下的4个。
 
-**七、canonical 标签** 如果大家经常使用 Detailed SEO Extension 就会发现，会检测这个标签。 ![image.png](images/essential-seo-meta-tags-part3/img_002.png) 插件地址： [https://detailed.com/extension/](https://detailed.com/extension/) 类似且更好用插件 [https://aitdk.com/zh-CN/extension/](https://aitdk.com/zh-CN/extension/)
+**七、canonical 标签**
+如果大家经常使用 Detailed SEO Extension 就会发现，会检测这个标签。
+
+![image.png](images/essential-seo-meta-tags-part3/img_002.png)
+
+ 插件地址： [https://detailed.com/extension/](https://detailed.com/extension/) 类似且更好用插件 [https://aitdk.com/zh-CN/extension/](https://aitdk.com/zh-CN/extension/)
 
 这个标签作用是什么呢？哥飞之前在《[如何给一个已经上线的网站出SEO改造建议](https://mp.weixin.qq.com/s/TOHrvB1VY88yOfTLJPOAIQ)》和《[【5800字长文】从网站站内优化到部署上线再到推广运营一篇文章让你学明白](https://mp.weixin.qq.com/s/eM1vquYr87hYfgM5JYY6HA)》文章中都提到过，是用来告诉搜索引擎，当前网页的规范网址是哪个的。
 
@@ -29,7 +34,7 @@ url: "https://new.web.cafe/tutorial/detail/qQpapieeJpFC8hdmmSta2F"
 
 为了不让搜索引擎有疑惑，我们在 abc.com 网站首页的 html head 里加上如下代码：
 
-`<link rel="canonical" href="https://abc.com/">`
+`<link rel=「canonical」 href=「https://abc.com/」>`
 
 这样不管爬虫从 [https://abc.com/](https://abc.com/) 进入，还是从 [https://abc.com/?r=reddit](https://abc.com/?r=reddit) 进入，还是从 [https://abc.com/?r=ph](https://abc.com/?r=ph) 进入，都知道你这个网页真实的规范的网址是 [https://abc.com/](https://abc.com/) 。
 
@@ -37,7 +42,7 @@ url: "https://new.web.cafe/tutorial/detail/qQpapieeJpFC8hdmmSta2F"
 
 举例，网站博客的某篇介绍如何搞钱的文章应该返回如下代码：
 
-`<link rel="canonical" href="https://abc.com/blog/how-to-make-money">`
+`<link rel=「canonical」 href=「https://abc.com/blog/how-to-make-money」>`
 
 还有一点很重要，假设你在多个不同的外部网站上都有反向链接，但是链接里加了跟踪参数，如上面我们提到的 r=reddit 和 r=ph ，如果不设置 canonical 标签，那么谷歌会认为有多个网址得到了反向链接，权重就分散到各个带参数的网址里去了。
 
@@ -45,17 +50,27 @@ url: "https://new.web.cafe/tutorial/detail/qQpapieeJpFC8hdmmSta2F"
 
 举个例子，你写了一篇如何搞钱的文章，想拿下“How to make money”这个关键词的排名，你把文章投稿到各个不同的平台，并且留下来原文链接，并且你的这篇文章还被很多别的博客转载了，他们转载时也给你加了原文链接，但是所有这些链接都加了跟踪参数，如果不设置 canonical 标签，你的这些外链就浪费掉了，权重分散到各个带跟踪参数的链接里去了。而设置了 canonical 标签，则全部权重会汇聚到你指定的唯一规范网址里，你的排名就更容易上升。
 
-**八、Schema Markup 模式标记** 这个其实就是哥飞之前在《[10种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第9种](https://mp.weixin.qq.com/s/I4hkYHtp8OEf21L-3yqCrw)》介绍过的一些效果，当时哥飞文章里说的是让谷歌自动去抓取结构化数据，但其实要想呈现结构化的搜索结果，最好的办法是按照谷歌的帮助文档要求去主动给谷歌提供结构化的数据，具体可以看这里：
+**八、Schema Markup 模式标记**
+这个其实就是哥飞之前在《[10种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第9种](https://mp.weixin.qq.com/s/I4hkYHtp8OEf21L-3yqCrw)》介绍过的一些效果，当时哥飞文章里说的是让谷歌自动去抓取结构化数据，但其实要想呈现结构化的搜索结果，最好的办法是按照谷歌的帮助文档要求去主动给谷歌提供结构化的数据，具体可以看这里：
 
 [https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=zh-cn](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=zh-cn)
 
 谷歌官方也提供了一个结构化数据标记辅助工具：
 
-[https://www.google.com/webmasters/markup-helper/?hl=zh](https://www.google.com/webmasters/markup-helper/?hl=zh) ![image.png](images/essential-seo-meta-tags-part3/img_003.png) 使用步骤很简单，输入要标记的网址，选择标记的数据类型，点击网页选择内容然后标记数据。 ![image.png](images/essential-seo-meta-tags-part3/img_004.png) 最后生成的 JSON-LD 数据代码如下，把这些代码添加到网页html 的 head 中即可：
+[https://www.google.com/webmasters/markup-helper/?hl=zh](https://www.google.com/webmasters/markup-helper/?hl=zh) 
 
-`<!-- 由 Google 结构化数据标记助手生成的 JSON-LD 标记。--> <script type="application/ld+json"> {   "@context": "http://schema.org",   "@type": "Product",   "name": "Listen Notes",   "image": "https://wxcdn.qabot.cn/plugin/img/1280.duck_3.png",   "description": "最好的播客搜索引擎和数据库，包含所有播客和剧集。" } </script>`
+![image.png](images/essential-seo-meta-tags-part3/img_003.png)
 
-**九、Social Media 社媒元标签** 社交媒体元标签可以控制你的网页被分享到各个社交平台之后展示的效果，主要用来控制标题、网址、配图等信息。
+ 使用步骤很简单，输入要标记的网址，选择标记的数据类型，点击网页选择内容然后标记数据。 
+
+![image.png](images/essential-seo-meta-tags-part3/img_004.png)
+
+ 最后生成的 JSON-LD 数据代码如下，把这些代码添加到网页html 的 head 中即可：
+
+`<!-- 由 Google 结构化数据标记助手生成的 JSON-LD 标记。--> <script type=「application/ld+json」> {   「@context」: 「http://schema.org」,   「@type」: 「Product」,   「name」: 「Listen Notes」,   「image」: 「https://wxcdn.qabot.cn/plugin/img/1280.duck_3.png」,   「description」: 「最好的播客搜索引擎和数据库，包含所有播客和剧集。」 } </script>`
+
+**九、Social Media 社媒元标签**
+社交媒体元标签可以控制你的网页被分享到各个社交平台之后展示的效果，主要用来控制标题、网址、配图等信息。
 
 Open Graph 最初是 Facebook 提出来的，并且在 FB 里进行了支持，后来 Linkedin 也开始支持，Twitter 搞特殊，搞了个 Twitter cards 。
 
@@ -65,19 +80,30 @@ Open Graph 最初是 Facebook 提出来的，并且在 FB 里进行了支持，�
 
 给大家看一下 Hix.ai 的 Open Graph 代码：
 
-`<meta property="og:title" content="HIX.AI: Your Most Powerful, All-In-One AI Writing Copilot"/> <meta property="og:description" content="Generate high-quality copies for ads, emails, blogs, and more in seconds with HIX.AI, the most powerful, all-in-one AI writing copilot on the market."/> <meta property="og:url" content="https://hix.ai"/> <meta property="og:type" content="website"/> <meta property="og:image" content="https://hix.ai/featured-images/hix-ai-the-most-powerful-all-in-one-ai-writing-copilot.jpg"/> <meta property="og:image:alt" content="The Most Powerful, All-in-One AI Writing Copilot."/> <meta property="og:image:width" content="800"/> <meta property="og:image:height" content="600"/>`
+`<meta property=「og:title」 content=「HIX.AI: Your Most Powerful, All-In-One AI Writing Copilot」/> <meta property=「og:description」 content=「Generate high-quality copies for ads, emails, blogs, and more in seconds with HIX.AI, the most powerful, all-in-one AI writing copilot on the market.」/> <meta property=「og:url」 content=「https://hix.ai」/> <meta property=「og:type」 content=「website」/> <meta property=「og:image」 content=「https://hix.ai/featured-images/hix-ai-the-most-powerful-all-in-one-ai-writing-copilot.jpg」/> <meta property=「og:image:alt」 content=「The Most Powerful, All-in-One AI Writing Copilot.」/> <meta property=「og:image:width」 content=「800」/> <meta property=「og:image:height」 content=「600」/>`
 
-在 Detailed SEO Extension 可以检查是否配置正确： ![image.png](images/essential-seo-meta-tags-part3/img_005.png) 如果我在 Facebook 发帖时粘贴了 Hix.ai 的网址，就会显示如下效果： ![image.png](images/essential-seo-meta-tags-part3/img_006.png) Twitter cards 有些不太一样，具体看下面文档： [https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
+在 Detailed SEO Extension 可以检查是否配置正确： 
 
-**十、Viewport Meta Tag 视口元标签** Viewport 元标签通常用来配置我们的网页在不同大小屏幕下的缩放和显示方式，简单说，就是可以用来适配不同大小屏幕的显示效果。
+![image.png](images/essential-seo-meta-tags-part3/img_005.png)
 
-在《[【哥飞解读】2024年谷歌算法排名因素变化](https://mp.weixin.qq.com/s/Jru9k4oGAyiZK1VYFFZRQQ)》文章里我们说了，移动端友好占谷歌排名因素的5%权重，所以适配手机和平板电脑对于SEO也很重要。
+ 如果我在 Facebook 发帖时粘贴了 Hix.ai 的网址，就会显示如下效果： 
 
-![image.png](images/essential-seo-meta-tags-part3/img_007.png) 通常代码如下：
+![image.png](images/essential-seo-meta-tags-part3/img_006.png)
 
-`<meta name="viewport" content="width=device-width, initial-scale=1"/>`
+ Twitter cards 有些不太一样，具体看下面文档： [https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
 
-“width=device-width”将使页面与设备独立像素的屏幕宽度匹配，“initial scale=1”将建立CSS像素和设备独立像素之间的1:1关系，考虑屏幕方向。 ![image.png](images/essential-seo-meta-tags-part3/img_008.png)
+**十、Viewport Meta Tag 视口元标签**
+Viewport 元标签通常用来配置我们的网页在不同大小屏幕下的缩放和显示方式，简单说，就是可以用来适配不同大小屏幕的显示效果。
+
+在《[【哥飞解读】2024年谷歌算法排名因素变化](https://mp.weixin.qq.com/s/Jru9k4oGAyiZK1VYFFZRQQ)》文章里我们说了，移动端友好占谷歌排名因素的5%权重，所以适配手机和平板电脑对于 SEO也很重要。
+
+![image.png](images/essential-seo-meta-tags-part3/img_007.png)
+通常代码如下：
+
+`<meta name=「viewport」 content=「width=device-width, initial-scale=1」/>`
+
+“width=device-width”将使页面与设备独立像素的屏幕宽度匹配，“initial scale=1”将建立CSS像素和设备独立像素之间的1:1关系，考虑屏幕方向。
+![image.png](images/essential-seo-meta-tags-part3/img_008.png)
 
 上面可以看到对比效果，左边是不设置 Viewport ，右边是设置，明显右边可以更好的适配手机端的显示效果。
 

@@ -1,17 +1,20 @@
 ---
-title: "我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享"
+title: "我如何通过SEO和Adsense 优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享"
 date: "2024-08-12"
 source: "web.cafe"
 author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/c8w83QGZAkt728T33WERCg"
 ---
 
-# 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享
+# 我如何通过SEO和Adsense 优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享
 
 ## 新手入门
 
-# 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享
-![image.png](images/seo-adsense-revenue-optimization-experience/img_002.png) 先上图，有图有真相，可以看到，2016年6月份，Adsense广告收入874美元，到了7月份，立马就几乎翻倍变成1475美元了，之后一路上升，到了11月已经2100美元了。
+# 我如何通过SEO和Adsense 优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_002.png)
+
+先上图，有图有真相，可以看到，2016年6月份，Adsense广告收入874美元，到了7月份，立马就几乎翻倍变成1475美元了，之后一路上升，到了11月已经2100美元了。
 
 那么关键时间点，6月底，哥飞做了什么呢？
 
@@ -31,7 +34,19 @@ url: "https://new.web.cafe/tutorial/detail/c8w83QGZAkt728T33WERCg"
 
 哥飞为了写这篇文章，特意又从 archive.org 上把当时网站界面截图下来了给大家看。
 
-可以看到，这是一个很典型的列表式网站，首页和分类页面，都是列表，列表页只有顶部一个广告位。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_003.png) 点击列表，进入详情页，长下面这样，详情页也只有一个广告位。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_004.png) ![image.png](images/seo-adsense-revenue-optimization-experience/img_005.png) 如果你对京东图书详情页比较熟悉就会发现，详情页里的图书介绍，直接复制的京东图书介绍内容和样式过来的。
+可以看到，这是一个很典型的列表式网站，首页和分类页面，都是列表，列表页只有顶部一个广告位。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_003.png)
+
+ 点击列表，进入详情页，长下面这样，详情页也只有一个广告位。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_004.png)
+
+ 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_005.png)
+
+ 如果你对京东图书详情页比较熟悉就会发现，详情页里的图书介绍，直接复制的京东图书介绍内容和样式过来的。
 
 这里很重要，正是因为看到首页的下载和浏览数据，以及详情页的京东图书介绍，哥飞才觉得，这位网友很不错，是个做运营网站的高手，于是才答应了帮他优化网站。
 
@@ -59,21 +74,85 @@ url: "https://new.web.cafe/tutorial/detail/c8w83QGZAkt728T33WERCg"
 
 举例旧版的分类 url 是 domain.com/book/keji.html ，那么新版也要保持一样。旧版的书籍页面 url 是 domain.com/book/view/9.html，那么新版也要保持一样。
 
-改版后的网站如下，可以看到变漂亮了，书籍列表页面改成卡片式，一行放了4本书，还增加了书籍封面，也增加广告位了，一页放了3个广告位。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_006.png) 我们可以学习一下首页的 HTML 中标题（title）和 描述（description） 如何编写，这里特意把真实网站名称都替换为了“网站名称”四个字，下同。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_007.png) 首页的 h1 写的也是网站名称和slogan。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_008.png) 详情页则改成了下面这样，也是一页三个广告位。
+改版后的网站如下，可以看到变漂亮了，书籍列表页面改成卡片式，一行放了4本书，还增加了书籍封面，也增加广告位了，一页放了3个广告位。 
 
-同时保留了最经典的京东图书介绍内容板块，只是稍微做了一些样式调整。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_009.png) ![image.png](images/seo-adsense-revenue-optimization-experience/img_010.png) 详情页的网页标题则是“{书籍名称}-网站名称-通用关键字”格式，描述则是“{书籍名称}是{作者}的作品，网站名称为您提供{书籍名称}免费……”格式。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_011.png) HTML里，书籍标题用 h1 标签，告诉搜索引擎，这个页面最重要的文字就是书籍名称。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_012.png) 分类页面，整体UI跟首页差不多，同样也是3个广告位。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_013.png) 分类页面，网页标题格式为“{分类名称}-网站名称-slogan”，描述格式为“{分类名称}类……，网站名称为您提供……”。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_014.png) 分类页面的 h1 标签就简单了，直接是分类名称。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_015.png) 另外还增加标签页面，能够聚合相同标签下的不同书籍，一样也是放了三个广告位。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_016.png) 标签页的标题格式为“标签:{标签名称}-网站名称-slogan”，然后哥飞7年后终于发现，当时忘记写描述了，这是一个bug。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_017.png) h1 也是直接就写了“标签:{标签名称}”。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_018.png) 其实，作者名称也被当作一个特殊的标签来处理的，所以有作者页面，会聚合作者的所有书籍。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_019.png) ![image.png](images/seo-adsense-revenue-optimization-experience/img_020.png) 针对查找书籍不方便，除了增加标签之外，还增加了搜索功能，不过因为archive.org 上存档的都是静态页面，无法看到搜索结果页面，所以无法截图给大家看。
+![image.png](images/seo-adsense-revenue-optimization-experience/img_006.png)
+
+ 我们可以学习一下首页的 HTML 中标题（title）和 描述（description） 如何编写，这里特意把真实网站名称都替换为了“网站名称”四个字，下同。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_007.png)
+
+ 首页的 h1 写的也是网站名称和slogan。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_008.png)
+
+ 详情页则改成了下面这样，也是一页三个广告位。
+
+同时保留了最经典的京东图书介绍内容板块，只是稍微做了一些样式调整。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_009.png)
+
+ 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_010.png)
+
+ 详情页的网页标题则是“{书籍名称}-网站名称-通用关键字”格式，描述则是“{书籍名称}是{作者}的作品，网站名称为您提供{书籍名称}免费……”格式。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_011.png)
+
+ HTML里，书籍标题用 h1 标签，告诉搜索引擎，这个页面最重要的文字就是书籍名称。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_012.png)
+
+ 分类页面，整体UI跟首页差不多，同样也是3个广告位。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_013.png)
+
+ 分类页面，网页标题格式为“{分类名称}-网站名称-slogan”，描述格式为“{分类名称}类……，网站名称为您提供……”。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_014.png)
+
+ 分类页面的 h1 标签就简单了，直接是分类名称。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_015.png)
+
+ 另外还增加标签页面，能够聚合相同标签下的不同书籍，一样也是放了三个广告位。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_016.png)
+
+ 标签页的标题格式为“标签:{标签名称}-网站名称-slogan”，然后哥飞7年后终于发现，当时忘记写描述了，这是一个bug。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_017.png)
+
+ h1 也是直接就写了“标签:{标签名称}”。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_018.png)
+
+ 其实，作者名称也被当作一个特殊的标签来处理的，所以有作者页面，会聚合作者的所有书籍。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_019.png)
+
+ 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_020.png)
+
+ 针对查找书籍不方便，除了增加标签之外，还增加了搜索功能，不过因为archive.org 上存档的都是静态页面，无法看到搜索结果页面，所以无法截图给大家看。
 
 总结一下就会发现，所有的页面，哥飞都放满3个广告位了，因为这是谷歌Adsense文档里推荐的最大广告位数量。 新版网站在6月25号上线后，第二天就看到，UV和PV都比前一天涨了好多。
 
 UV涨是为什么呢？其实是因为每天搜索引擎会带来大量的流量，但是之前的老代码运行太慢了，有一部分用户发现点击搜索结果后需要好久才能打开页面，就直接关掉了。
 
-而新版上线后，性能问题解决了，所有从搜索引擎过来的流量，都能够承接住，所以UV就暴涨了。
+而新版上线后，性能问题解决了，所有从搜索引擎过来的流量，都能够承接住，所以 UV就暴涨了。
 
 UV涨了之后，PV也会涨，而且之前旧版只有首页、分类页、详情页，现在新增了标签页、搜索页，所以单个用户可点击的页面增多了。PV/UV的比例也会增加。
 
 最终结果就是广告展示数量暴涨，广告费暴涨。
 
-所以可以看到，7月的广告费立马就变成了6月的差不多两倍。 ![image.png](images/seo-adsense-revenue-optimization-experience/img_021.png) 而8月几乎没涨，9月涨了，10月涨了，11月大涨，则是因为新版网站对搜索引擎更友好了，慢慢被搜索引擎收录了更多页面，同时又因为体验更好，打开更快，进而导致搜索排名上升，从搜索引擎过来的流量越来越高。
+所以可以看到，7月的广告费立马就变成了6月的差不多两倍。 
+
+![image.png](images/seo-adsense-revenue-optimization-experience/img_021.png)
+
+ 而8月几乎没涨，9月涨了，10月涨了，11月大涨，则是因为新版网站对搜索引擎更友好了，慢慢被搜索引擎收录了更多页面，同时又因为体验更好，打开更快，进而导致搜索排名上升，从搜索引擎过来的流量越来越高。
 
 看到这里，想必你已经学会了如何去优化一个网站了。
 

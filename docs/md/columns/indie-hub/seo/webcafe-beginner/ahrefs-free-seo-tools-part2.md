@@ -18,23 +18,42 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 -   AI Writing Tools 人工智能写作工具
 -   Ahrefs SEO Toolbar Ahrefs SEO 工具栏
 
-**8\. Broken Link Checker 坏链检查器** ![image.png](images/ahrefs-free-seo-tools-part2/img_002.png) 工具网址：[https://ahrefs.com/broken-link-checker](https://ahrefs.com/broken-link-checker)
+**8\. Broken Link Checker 坏链检查器**
+
+![image.png](images/ahrefs-free-seo-tools-part2/img_002.png)
+
+工具网址：[https://ahrefs.com/broken-link-checker](https://ahrefs.com/broken-link-checker)
 
 工具用途：检测指定网站的坏链，也就是404链接，也成死链 。
 
-这里又分为出站链接和入站链接。A网站上有一个B网站的链接，如果B网站无法访问了，对于A网站来说，就有一个出站死链。
+这里又分为出站链接和入站链接。A网站上有一个B网站的链接，如果B网站无法访问了，对于 A网站来说，就有一个出站死链。
 
-如果A网站无法访问，B网站可以访问，对于B网站来说，A网站的这个就属于是入站死链。
+如果A网站无法访问，B网站可以访问，对于 B网站来说，A网站的这个就属于是入站死链。
 
-使用演示：如输入“qiuyumi.com” 可以看到有8个出站死链。 ![image.png](images/ahrefs-free-seo-tools-part2/img_003.png)
+使用演示：如输入“qiuyumi.com” 可以看到有 8个出站死链。
+![image.png](images/ahrefs-free-seo-tools-part2/img_003.png)
 
-**9\. Website Traffic Checker 网站流量检查器** ![image.png](images/ahrefs-free-seo-tools-part2/img_004.png) 工具网址：[https://ahrefs.com/traffic-checker](https://ahrefs.com/traffic-checker)
+**9\. Website Traffic Checker 网站流量检查器**
+
+![image.png](images/ahrefs-free-seo-tools-part2/img_004.png)
+
+工具网址：[https://ahrefs.com/traffic-checker](https://ahrefs.com/traffic-checker)
 
 工具用途：查询指定域名的自然搜索流量和流量价值。
 
-使用演示：如输入 producthunt.com ，显示自然流量110万，价值49.5万美元。 ![image.png](images/ahrefs-free-seo-tools-part2/img_005.png) 这里可以跟 Semrush 数据对比，比 Semrush 显示的更多。 ![image.png](images/ahrefs-free-seo-tools-part2/img_006.png)
+使用演示：如输入 producthunt.com ，显示自然流量110万，价值49.5万美元。 
 
-**10\. Keyword Rank Checker 关键词排名检查器** ![image.png](images/ahrefs-free-seo-tools-part2/img_007.png) 工具网址：[https://ahrefs.com/keyword-rank-checker](https://ahrefs.com/keyword-rank-checker)
+![image.png](images/ahrefs-free-seo-tools-part2/img_005.png)
+
+ 这里可以跟 Semrush 数据对比，比 Semrush 显示的更多。 
+
+![image.png](images/ahrefs-free-seo-tools-part2/img_006.png)
+
+**10\. Keyword Rank Checker 关键词排名检查器**
+
+![image.png](images/ahrefs-free-seo-tools-part2/img_007.png)
+
+工具网址：[https://ahrefs.com/keyword-rank-checker](https://ahrefs.com/keyword-rank-checker)
 
 工具用途：查询某个网站某个关键词在谷歌中的排名。
 
@@ -66,7 +85,8 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 
 ![image.png](images/ahrefs-free-seo-tools-part2/img_012.png)
 
-**13\. AI Writing Tools 人工智能写作工具** ![image.png](images/ahrefs-free-seo-tools-part2/img_013.png)
+**13\. AI Writing Tools 人工智能写作工具**
+![image.png](images/ahrefs-free-seo-tools-part2/img_013.png)
 
 工具网址：[https://ahrefs.com/writing-tools](https://ahrefs.com/writing-tools)
 
@@ -87,7 +107,11 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 11.  Paragraph Generator 段落生成器
 12.  以及更多几十项功能……
 
-**14\. Ahrefs SEO Toolbar Ahrefs SEO 工具栏** ![image.png](images/ahrefs-free-seo-tools-part2/img_014.png) 工具网址：[https://ahrefs.com/seo-toolbar](https://ahrefs.com/seo-toolbar)
+**14\. Ahrefs SEO Toolbar Ahrefs SEO 工具栏**
+
+![image.png](images/ahrefs-free-seo-tools-part2/img_014.png)
+
+工具网址：[https://ahrefs.com/seo-toolbar](https://ahrefs.com/seo-toolbar)
 
 安装地址：[https://chromewebstore.google.com/detail/ahrefs-seo-toolbar-on-pag/hgmoccdbjhknikckedaaebbpdeebhiei](https://chromewebstore.google.com/detail/ahrefs-seo-toolbar-on-pag/hgmoccdbjhknikckedaaebbpdeebhiei)
 

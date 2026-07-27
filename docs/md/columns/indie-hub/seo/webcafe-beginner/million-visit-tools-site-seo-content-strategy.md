@@ -12,9 +12,39 @@ url: "https://new.web.cafe/tutorial/detail/9F4dZkZ7L3JPDNnaRRWRkW"
 
 今天我们聊聊 zapier.com， 一个在线自动化工具网站，Zapier 帮助用户连接应用和服务来实现自动化流程。
 
-在 Similarweb 可以看到，上个月访问量 875万左右，人均访问7.2个页面，用户停留时间4分22秒，很不错的数据。 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_002.png) 从最近六个月的访问量来看，最低是4月份的826万，之后一路上涨，到了8月最高到了973万，之后在9月回落了一些。 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_003.png) 从流量来源来看，38.5%左右来自于直接访问，48.9%来自于搜索引擎自然搜索。
+在 Similarweb 可以看到，上个月访问量 875万左右，人均访问7.2个页面，用户停留时间4分22秒，很不错的数据。 
 
-这是一个很健康的比例，说明从搜索引擎过来的流量，能够留下来，变成经常访问的老用户。 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_004.png) 哥飞真正愿意拿这个网站当案例，是因为自然搜索词里除了品牌词，居然还出现了2个AI相关的关键词。付费搜索里，居然也买了AI相关的关键词。 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_005.png) 我们打开 Semrush 看下这个网站的流量情况，刚才我们在 Similarweb 看到，自然搜索流量是 0.489\*875 约等于 427万，跟 Semrush 的 430 万居然很接近。 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_006.png) 我们先看一下付费关键词，有没有发现一个特点，大部分付费关键词的落地页是博客页面。 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_007.png) 我们点开第一个付费关键词对应的博客文章看看，典型的 Best xxx 格式博客文章。 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_008.png) 继续看自然搜索关键词，除了品牌词是到了首页，其它大部分词也是到了博客页面。 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_009.png)
+![image.png](images/million-visit-tools-site-seo-content-strategy/img_002.png)
+
+ 从最近六个月的访问量来看，最低是4月份的826万，之后一路上涨，到了8月最高到了973万，之后在9月回落了一些。 
+
+![image.png](images/million-visit-tools-site-seo-content-strategy/img_003.png)
+
+ 从流量来源来看，38.5%左右来自于直接访问，48.9%来自于搜索引擎自然搜索。
+
+这是一个很健康的比例，说明从搜索引擎过来的流量，能够留下来，变成经常访问的老用户。 
+
+![image.png](images/million-visit-tools-site-seo-content-strategy/img_004.png)
+
+ 哥飞真正愿意拿这个网站当案例，是因为自然搜索词里除了品牌词，居然还出现了2个AI相关的关键词。付费搜索里，居然也买了AI相关的关键词。 
+
+![image.png](images/million-visit-tools-site-seo-content-strategy/img_005.png)
+
+ 我们打开 Semrush 看下这个网站的流量情况，刚才我们在 Similarweb 看到，自然搜索流量是 0.489\*875 约等于 427万，跟 Semrush 的 430 万居然很接近。 
+
+![image.png](images/million-visit-tools-site-seo-content-strategy/img_006.png)
+
+ 我们先看一下付费关键词，有没有发现一个特点，大部分付费关键词的落地页是博客页面。 
+
+![image.png](images/million-visit-tools-site-seo-content-strategy/img_007.png)
+
+ 我们点开第一个付费关键词对应的博客文章看看，典型的 Best xxx 格式博客文章。 
+
+![image.png](images/million-visit-tools-site-seo-content-strategy/img_008.png)
+
+ 继续看自然搜索关键词，除了品牌词是到了首页，其它大部分词也是到了博客页面。 
+
+![image.png](images/million-visit-tools-site-seo-content-strategy/img_009.png)
 
 写到这里，今天文章的标题其实已经有了答案了。
 

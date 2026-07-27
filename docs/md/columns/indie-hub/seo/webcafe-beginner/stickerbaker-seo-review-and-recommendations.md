@@ -12,7 +12,11 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 
 这个网站的代码是开源的，如果大家想要部署，可以看上面这篇文章。
 
-下面我们先看下网站首页，中规中矩，很典型的AI工具站的布局，从上到下依次是导航、Logo、工具表单、最新作品列表等。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_002.png) 个网站目录结构目前也比较简单，主要由以下几个页面构成： / 首页 /sticker/{id} 单个贴纸详情页 /stickers 用户生成的贴纸列表 /search 贴纸搜索入口页 /search?query={input} 贴纸搜索结果页
+下面我们先看下网站首页，中规中矩，很典型的AI工具站的布局，从上到下依次是导航、Logo、工具表单、最新作品列表等。 
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_002.png)
+
+ 个网站目录结构目前也比较简单，主要由以下几个页面构成： / 首页 /sticker/{id} 单个贴纸详情页 /stickers 用户生成的贴纸列表 /search 贴纸搜索入口页 /search?query={input} 贴纸搜索结果页
 
 上面这些页面里，首页是入口，所以需要把整个网站最核心的功能都展示出来，一是生成贴纸，二是浏览发现贴纸，三个功能导航如搜索入口、用户贴纸列表入口等。
 
@@ -20,35 +24,86 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 
 贴纸详情页和搜索结果页是亮点页面，这两个都可以动态生成海量页面，被搜索引擎收录之后，获取大量长尾关键词的流量。
 
-下面我们一个一个页面来看一下，这里需要用到在《[推荐一款好用且免费的SEO插件，哥飞天天都在用](https://mp.weixin.qq.com/s/BGNEsu-cmxMwy-IGKnNHAA)》介绍在 AITDK SEO Extension 这个浏览器插件。 **一、首页** 打开首页，点击 AITDK SEO Extension ，查看概览信息。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_003.png) **1.1、Title** 可以看到 Title 推荐长度是60个字符，但这个网站只用到了12个字符，这有点浪费，没有把需求关键词尽可能在 Title 中体现出来。
+下面我们一个一个页面来看一下，这里需要用到在《[推荐一款好用且免费的SEO插件，哥飞天天都在用](https://mp.weixin.qq.com/s/BGNEsu-cmxMwy-IGKnNHAA)》介绍在 AITDK SEO Extension 这个浏览器插件。
 
-可以看这篇《[【哥飞带你读】你需要了解的10个重要SEO元标签（上）](https://mp.weixin.qq.com/s/Tn_FFAe7JwGopUPFffK9eA)》介绍的关于 Title 的最佳实践。 **1.2、Description** 同样，Description 推荐长度是160个字符，这个网站只用到了21个字符，不过好在把核心关键词“Stickers AI”体现出来了。 **1.3、Keywords** 哥飞不推荐大家用 Keywords，所以这里不写是对的。 **1.4、Canonical** Canonical 缺失，这个不应该。
+**一、首页**
+打开首页，点击 AITDK SEO Extension ，查看概览信息。
 
-可以在《[【哥飞带你读】你需要了解的10个重要SEO元标签（下）](https://mp.weixin.qq.com/s/pgRb7By2EVLMDYZ1E2JG5Q)》看到 Canonical 的最佳实践，看完大家就知道，这个标签还是很建议写上的。 **1.5、Sitemap** sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站来说，谷歌自己就会把页面都爬了，不一定要用 sitemap.xml 。
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_003.png)
 
-不过 Canonical 和 sitemap.xml 都是有比没有好，所以哥飞推荐大家都配置上。 **1.6、Headings** 再看 Headings ，会发现这个网站的 H 标签使用混乱，首页用到了两个 H1 ，而且都没有体现出网站的需求关键词。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_004.png) 哥飞建议一个页面只放一个H1，在H1里放你网站要做的核心关键词，如这个网站可以体现“Sticker Maker”这个关键词。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_005.png)
+**1.1、Title**
+可以看到 Title 推荐长度是60个字符，但这个网站只用到了12个字符，这有点浪费，没有把需求关键词尽可能在 Title 中体现出来。
+
+可以看这篇《[【哥飞带你读】你需要了解的10个重要SEO元标签（上）](https://mp.weixin.qq.com/s/Tn_FFAe7JwGopUPFffK9eA)》介绍的关于 Title 的最佳实践。
+
+**1.2、Description**
+同样，Description 推荐长度是160个字符，这个网站只用到了21个字符，不过好在把核心关键词“Stickers AI”体现出来了。
+
+**1.3、Keywords** 哥飞不推荐大家用 Keywords，所以这里不写是对的。
+
+**1.4、Canonical** Canonical 缺失，这个不应该。
+
+可以在《[【哥飞带你读】你需要了解的10个重要SEO元标签（下）](https://mp.weixin.qq.com/s/pgRb7By2EVLMDYZ1E2JG5Q)》看到 Canonical 的最佳实践，看完大家就知道，这个标签还是很建议写上的。
+
+**1.5、Sitemap**
+sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站来说，谷歌自己就会把页面都爬了，不一定要用 sitemap.xml 。
+
+不过 Canonical 和 sitemap.xml 都是有比没有好，所以哥飞推荐大家都配置上。
+
+**1.6、Headings**
+再看 Headings ，会发现这个网站的 H 标签使用混乱，首页用到了两个 H1 ，而且都没有体现出网站的需求关键词。
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_004.png)
+
+ 哥飞建议一个页面只放一个H1，在H1里放你网站要做的核心关键词，如这个网站可以体现“Sticker Maker”这个关键词。 
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_005.png)
 
 “Upload”这里是否可以用 H 标签呢？
 
-肯定是不能用H1，甚至H2都不能用，这里建议用H3，结构就变成： H2: Convert photo to sticker H3: Upload photo
+肯定是不能用 H1，甚至H2都不能用，这里建议用 H3，结构就变成： H2: Convert photo to sticker H3: Upload photo
 
-原因如下： ![image.png](images/stickerbaker-seo-review-and-recommendations/img_006.png) ![image.png](images/stickerbaker-seo-review-and-recommendations/img_007.png) 当然他这里还有个核心需求是“Face to Sticker”，这个也需要体现出来，那么就可以改成这样： H2: Convert face photo to sticker H3: Upload face photo
+原因如下： 
 
-“Latest”也建议改为“Latest Generated Stickers”，并且用H2标签。 **1.7、图片** 再说图片，这个网站的图片处理做得还是不错的，除了三个用到了网站ICON的地方没给图片加Alt，其它图片都加了合适的 Alt 。
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_006.png)
 
-不过哥飞建议生成的 Sticker 图片的 Alt 可以写长一点，体现 Sticker 关键词，如“Ayna”可以改为“Ayna Sticker”。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_008.png) **1.8、链接** 可以看到这里有三个出站链接，都是Dofollow的，他这里都是自己可控的出站链接，所以用 Dofollow 也可以，不是一定出站链接就要Nofollow。
+ 
 
-关于链接如何设置请看《【[哥飞带你读】你需要了解的10个重要SEO元标签（中）](https://mp.weixin.qq.com/s/TOHrvB1VY88yOfTLJPOAIQ)》《[再聊内链建设：内链重要性不亚于外链](https://mp.weixin.qq.com/s/s3wjxhNTrfqj5go6hFqXJg)》。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_009.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_007.png)
 
-**1.9、社媒** 这里不错，Open Graph 和 Twitter Card 都设置了。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_010.png)
+ 当然他这里还有个核心需求是“Face to Sticker”，这个也需要体现出来，那么就可以改成这样： H2: Convert face photo to sticker H3: Upload face photo
 
-**1.10、Hreflangs 和 Structured** 这个网站暂时没有做多语言，所以 Hreflangs 绑定没有设置。
+“Latest”也建议改为“Latest Generated Stickers”，并且用 H2标签。
+
+**1.7、图片**
+再说图片，这个网站的图片处理做得还是不错的，除了三个用到了网站ICON的地方没给图片加Alt，其它图片都加了合适的 Alt 。
+
+不过哥飞建议生成的 Sticker 图片的 Alt 可以写长一点，体现 Sticker 关键词，如“Ayna”可以改为“Ayna Sticker”。 
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_008.png)
+
+**1.8、链接**
+可以看到这里有三个出站链接，都是Dofollow的，他这里都是自己可控的出站链接，所以用 Dofollow 也可以，不是一定出站链接就要Nofollow。
+
+关于链接如何设置请看《【[哥飞带你读】你需要了解的10个重要SEO元标签（中）](https://mp.weixin.qq.com/s/TOHrvB1VY88yOfTLJPOAIQ)》《[再聊内链建设：内链重要性不亚于外链](https://mp.weixin.qq.com/s/s3wjxhNTrfqj5go6hFqXJg)》。 
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_009.png)
+
+**1.9、社媒**
+这里不错，Open Graph 和 Twitter Card 都设置了。
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_010.png)
+
+**1.10、Hreflangs 和 Structured**
+这个网站暂时没有做多语言，所以 Hreflangs 绑定没有设置。
 
 具体要怎么绑定，可以看 Hix.ai 的首页 HTML 代码学习一下。
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_011.png)
 
-也没有设置结构化数据，具体有什么效果可以看《[10种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第9种](https://mp.weixin.qq.com/s/I4hkYHtp8OEf21L-3yqCrw)》。 **1.11、首页总结** 看完上面这些基础SEO信息，可以发现大部分都做得还行，就是H标签需要改的比较多。
+也没有设置结构化数据，具体有什么效果可以看《[10种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第9种](https://mp.weixin.qq.com/s/I4hkYHtp8OEf21L-3yqCrw)》。
+
+**1.11、首页总结**
+看完上面这些基础SEO信息，可以发现大部分都做得还行，就是H标签需要改的比较多。
 
 除了这些，哥飞再跟大家说下这个网站首页有哪些做得好的地方：
 
@@ -62,41 +117,108 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_012.png)
 
-**2.1、URL** 这个站URL直接用的数字ID，容易被从1开始遍历，扒站的爬虫会很喜欢这种路径，建议改为 /sticker/29961-fairy-unicorn 。
+**2.1、URL**
+这个站URL直接用的数字ID，容易被从1开始遍历，扒站的爬虫会很喜欢这种路径，建议改为 /sticker/29961-fairy-unicorn 。
 
 程序读取的时候有两种办法，一是拆分解析得到29961之后从数据库根据ID读取内容；二是数据库增加 url 字段，保存“29961-fairy-unicorn”字符串，之后直接用路径从数据库读取。
 
-另外注意，如果用户输入的生成贴纸的提示词比较长的话，不建议直接拿来做URL，而是可以抽取主要关键词作为URL。 **2.2、SEO基础信息** 之后的内页哥飞就不一项一项说了，大家可以参考首页点评去对照。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_013.png) 这里说下贴纸详情页的Title，目前的写法估计是考虑到分享出去时显示的标题更好看，但是其实可以把“I made an”去掉，直接是“AI Sticker of fairy unicorn”就很好了，核心关键词“AI Sticker”和长尾关键词“fairy unicorn”都照顾到了。
+另外注意，如果用户输入的生成贴纸的提示词比较长的话，不建议直接拿来做URL，而是可以抽取主要关键词作为URL。
+
+**2.2、SEO基础信息**
+之后的内页哥飞就不一项一项说了，大家可以参考首页点评去对照。
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_013.png)
+
+ 这里说下贴纸详情页的Title，目前的写法估计是考虑到分享出去时显示的标题更好看，但是其实可以把“I made an”去掉，直接是“AI Sticker of fairy unicorn”就很好了，核心关键词“AI Sticker”和长尾关键词“fairy unicorn”都照顾到了。
 
 为了分享出去的标题好看，就可以去设置Open Graph和Twitter Card的标题为“I made an AI sticker of fairy unicorn”。
 
-描述则可以更长一些，可以加上行动召唤，提升CTR，具体可以看这里《【哥飞带你读】你需要了解的10个重要SEO元标签（上）》。 **2.3、Headings** H 标签依然还有同样的问题，层级错乱。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_014.png) 首先是 H1 必须体现核心关键词，可以是“fairy unicorn”，更好的是“AI Stickers of fairy unicorn”。
+描述则可以更长一些，可以加上行动召唤，提升CTR，具体可以看这里《【哥飞带你读】你需要了解的10个重要SEO元标签（上）》。
 
-“Similar-ish stickers” 则可以放在 H2。 **2.4、贴纸详情页总结** 这个页面其实已经做得挺不错的了，或者说，知道要做贴纸详情页这件事情，并且去做了，就是很不错的。当然上面我们也看到了，会有一些细节需要去调整。
+**2.3、Headings**
+H 标签依然还有同样的问题，层级错乱。
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_014.png)
+
+ 首先是 H1 必须体现核心关键词，可以是“fairy unicorn”，更好的是“AI Stickers of fairy unicorn”。
+
+“Similar-ish stickers” 则可以放在 H2。
+
+**2.4、贴纸详情页总结**
+这个页面其实已经做得挺不错的了，或者说，知道要做贴纸详情页这件事情，并且去做了，就是很不错的。当然上面我们也看到了，会有一些细节需要去调整。
 
 尤其是相似贴纸这个真是神来之笔，可以有效的提升长尾关键词“fairy unicorn”的关键词密度。
 
-不过目前相似贴纸是前端获取数据并渲染的，哥飞建议要改成后端渲染，这样才能被搜索引擎抓取到，从而提升关键词密度，进而让这个页面能够拿到更靠前的排名。 **三、搜索首页** “Sticker Search”这个关键词是有一定的搜索量的，虽然不大。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_015.png) 所以这个站专门做了一个搜索入口页面，主打“Sticker Search”这个关键词，这个做法很正确。
+不过目前相似贴纸是前端获取数据并渲染的，哥飞建议要改成后端渲染，这样才能被搜索引擎抓取到，从而提升关键词密度，进而让这个页面能够拿到更靠前的排名。
 
-不过也有还有些细节需要改进，下面我们一一来看下。 **3.1、SEO基础信息** ![image.png](images/stickerbaker-seo-review-and-recommendations/img_016.png) 标题用的是“StickerSearch”而不是“Sticker Search”，哥飞猜测站长是想把贴纸搜索打造成一个品牌。
+**三、搜索首页**
+“Sticker Search”这个关键词是有一定的搜索量的，虽然不大。
 
-这个思路是对的，看下两个关键词的网页供应量就知道了，不带空格的作为品牌名称完全没问题的，因为网页供应量少，当用户习惯使用不带空格来搜索之后，这个站长的新站就更容易拿到更靠前的排名。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_017.png) 不过也有个小问题，因为目前用户更容易想到的还是带空格的写法，所以网页Title、Description、H1等地方就需要把有空格的也兼容到。 **3.2、Headings** ![image.png](images/stickerbaker-seo-review-and-recommendations/img_018.png) 这里只用了一个H5，也是极其不合理的，应该改成H1，并且多增加一些内容和标签。 **3.3、搜索首页总结** 设置一个单独的搜索首页是很不错的做法，有可能能够获取到一些流量。不过依然还是有很多细节值得改进。
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_015.png)
 
-**四、搜索结果页** ![image.png](images/stickerbaker-seo-review-and-recommendations/img_019.png) 增加搜索结果页的好处显而易见，可以获取大量用户真实需求关键词，生成大量长尾关键词页面，被搜索引擎抓取后，从搜索引擎获取海量搜索流量。
+ 所以这个站专门做了一个搜索入口页面，主打“Sticker Search”这个关键词，这个做法很正确。
 
-不过，依然还是有一些细节值得修改。 **4.1、SEO基础信息** ![image.png](images/stickerbaker-seo-review-and-recommendations/img_020.png) 不管搜索什么关键词，Title和Description都固定文案了，没有根据搜索关键词去调整，这跟搜索结果页目前用的前端渲染方案有关。
+不过也有还有些细节需要改进，下面我们一一来看下。
+
+**3.1、SEO基础信息**
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_016.png)
+
+标题用的是“StickerSearch”而不是“Sticker Search”，哥飞猜测站长是想把贴纸搜索打造成一个品牌。
+
+这个思路是对的，看下两个关键词的网页供应量就知道了，不带空格的作为品牌名称完全没问题的，因为网页供应量少，当用户习惯使用不带空格来搜索之后，这个站长的新站就更容易拿到更靠前的排名。 
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_017.png)
+
+不过也有个小问题，因为目前用户更容易想到的还是带空格的写法，所以网页Title、Description、H1等地方就需要把有空格的也兼容到。
+
+**3.2、Headings**
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_018.png)
+
+这里只用了一个H5，也是极其不合理的，应该改成H1，并且多增加一些内容和标签。
+
+**3.3、搜索首页总结**
+设置一个单独的搜索首页是很不错的做法，有可能能够获取到一些流量。不过依然还是有很多细节值得改进。
+
+**四、搜索结果页**
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_019.png)
+
+增加搜索结果页的好处显而易见，可以获取大量用户真实需求关键词，生成大量长尾关键词页面，被搜索引擎抓取后，从搜索引擎获取海量搜索流量。
+
+不过，依然还是有一些细节值得修改。
+
+**4.1、SEO基础信息**
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_020.png)
+
+不管搜索什么关键词，Title和Description都固定文案了，没有根据搜索关键词去调整，这跟搜索结果页目前用的前端渲染方案有关。
 
 目前前端渲染，虽然会产生很多的搜索结果页面，但是在搜索引擎爬虫看来，这些网址不同的页面其实HTML内容都是重复的，这是SEO大忌。
 
-建议作者修改为后端渲染，这样就可以有效的利用真实用户搜索生成大量的长尾关键词页面了。 **4.2、Headings** ![image.png](images/stickerbaker-seo-review-and-recommendations/img_021.png) 依然是因为前端渲染导致的问题，目前H标签的标题都写死了。
+建议作者修改为后端渲染，这样就可以有效的利用真实用户搜索生成大量的长尾关键词页面了。
+
+**4.2、Headings**
+
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_021.png)
+
+依然是因为前端渲染导致的问题，目前H标签的标题都写死了。
 
 不仅需要修改为后端渲染，还需要修改H标签的层级关系。
 
-以 /search?query=unicorn 为例，H1和Title都可以是“160 Best Unicorn Stickers”，其中“160”是搜索结果数量。 **4.3、搜索结果页总结** 搜索结果页很有用，但是要用好不容易，特别需要注重细节，像这个网站目前就做得不够好，从上面可以看到许多需要改进的地方。
+以 /search?query=unicorn 为例，H1和Title都可以是“160 Best Unicorn Stickers”，其中“160”是搜索结果数量。
+
+**4.3、搜索结果页总结**
+搜索结果页很有用，但是要用好不容易，特别需要注重细节，像这个网站目前就做得不够好，从上面可以看到许多需要改进的地方。
 
 如果后面都改好了，那么这些可以生成无限多的页面会释放出巨大的潜力，会是首页之外最大的流量补充来源。
 
-**五、建议增加的新页面** 说完了已经存在的页面，哥飞说下建议增加的页面有哪些。 **5.1、建议增加发现页面** 这个其实我们在说首页时就提到了，需要有一个发现页面来列出所有的贴纸给搜索引擎爬虫去爬。
+**五、建议增加的新页面**
+说完了已经存在的页面，哥飞说下建议增加的页面有哪些。
+
+**5.1、建议增加发现页面**
+这个其实我们在说首页时就提到了，需要有一个发现页面来列出所有的贴纸给搜索引擎爬虫去爬。
 
 而且这个页面还需要分页展示，因为贴纸太多了，不可能一个页面全部展示完。
 
@@ -104,9 +226,17 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 
 如当前是第35页，那么需要列出以下页面链接： a) 第1页和最后一页； b) 第31到39页； c) 第50页、第100页、第200页……
 
-当然也还有其它方式来尽量让爬虫能够更快更轻松爬到完全部页面，如学习 Toolify.ai 的首页底部做法。 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_022.png) **5.2、建议增加专题页面** 这个页面也是用来获取某些关键词的流量的，一个专题下面可以有多种不同的贴纸，但是所有这些组合起来，就是一个完整的专题。
+当然也还有其它方式来尽量让爬虫能够更快更轻松爬到完全部页面，如学习 Toolify.ai 的首页底部做法。 
 
-这个可以人工去选择，也可以用向量搜索来解决。 **5.3、建议增加搜索结果列表页面** 上面也说过，能够通过用户搜索获取大量真实需求关键词，那么这些关键词对应的搜索结果页面也是能够从搜索引擎获取流量的，所以我们需要有一个页面能够展示所有的搜索关键词，让爬虫有入口去爬去所有的搜索结果页面。
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_022.png)
+
+**5.2、建议增加专题页面**
+这个页面也是用来获取某些关键词的流量的，一个专题下面可以有多种不同的贴纸，但是所有这些组合起来，就是一个完整的专题。
+
+这个可以人工去选择，也可以用向量搜索来解决。
+
+**5.3、建议增加搜索结果列表页面**
+上面也说过，能够通过用户搜索获取大量真实需求关键词，那么这些关键词对应的搜索结果页面也是能够从搜索引擎获取流量的，所以我们需要有一个页面能够展示所有的搜索关键词，让爬虫有入口去爬去所有的搜索结果页面。
 
 当然搜索关键词肯定会有很多，所以也是需要分页展示。
 

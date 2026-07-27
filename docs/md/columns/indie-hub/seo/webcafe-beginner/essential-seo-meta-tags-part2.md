@@ -16,7 +16,7 @@ url: "https://new.web.cafe/tutorial/detail/9ZYduVPvgQksByx5RREP7G"
 
 **四、图片 Alt** 给图片标签增加 alt 属性，这是很多人会忽略掉的事情，正确的写法如下：
 
-`<img src="这里是图片地址" alt="这里是图片描述">`
+`<img src=「这里是图片地址」 alt=「这里是图片描述」>`
 
 但其实 alt 属性很重要，有以下几个用途：
 
@@ -32,7 +32,8 @@ url: "https://new.web.cafe/tutorial/detail/9ZYduVPvgQksByx5RREP7G"
 2.  尽力优化最突出的图片（产品图片、信息图表或培训图片），这些图片可能会在谷歌图片搜索中被查找到；
 3.  确保替代文本清晰且具有描述性，合理使用关键词，并确保它们自然地融入页面内容的整体画布中。
 
-**五、链接的 Nofollow 属性** 理解这个属性，需要先理解 follow 是什么意思，最早，这其实是用于告诉搜索引擎的爬虫，遇到链接，是否需要继续爬下去，默认follow就是要爬，加了nofollow 就是不要爬。
+**五、链接的 Nofollow 属性**
+理解这个属性，需要先理解 follow 是什么意思，最早，这其实是用于告诉搜索引擎的爬虫，遇到链接，是否需要继续爬下去，默认follow就是要爬，加了nofollow 就是不要爬。
 
 但其实据哥飞多年经验，即使你写了nofollow，谷歌也会爬。
 
@@ -46,7 +47,7 @@ url: "https://new.web.cafe/tutorial/detail/9ZYduVPvgQksByx5RREP7G"
 
 具体用法如下：
 
-`<a href="链接网址" rel="noopener noreferrer nofollow">锚文本</a>`
+`<a href=「链接网址」 rel=「noopener noreferrer nofollow」>锚文本</a>`
 
 上面可以看到，我们同行会三个一起使用，各有不同的用处，这里当作家庭作业留给大家，去搜索了解一下三个的用途和使用场景。
 
@@ -56,9 +57,10 @@ url: "https://new.web.cafe/tutorial/detail/9ZYduVPvgQksByx5RREP7G"
 2.  任何付费或赞助链接（你不希望谷歌发现你在出售“选票”）；
 3.  评论或其他类型的用户生成内容中的链接可能会被滥用，而这是您无法控制的。
 
-**六、robots 元标签** 注意，这里说的不是 robots.txt 文件，而是某个具体的网页 head 里的 robots meta 标签，大概用户如下：
+**六、robots 元标签**
+注意，这里说的不是 robots.txt 文件，而是某个具体的网页 head 里的 robots meta 标签，大概用户如下：
 
-`<!DOCTYPE html> <html><head> <meta name="robots" content="noindex"> (…) </head> <body>(…)</body> </html>`
+`<!DOCTYPE html> <html><head> <meta name=「robots」 content=「noindex」> (…) </head> <body>(…)</body> </html>`
 
 content 的取值有很多，更详细的建议看谷歌文档：
 
@@ -78,7 +80,7 @@ content 的取值有很多，更详细的建议看谷歌文档：
 
 最后给大家提个醒，部分朋友可能会有流量错觉，认为要很大的流量才能赚钱，所以一直去找那些低优化难度的大流量关键词，但这种词其实很少，比较难找到。
 
-所以其实我们更应该从小词做起，对于直接搜索关键词过来的精准流量，每个月有10几万访问量，就可以有1000多美元收入了。
+所以其实我们更应该从小词做起，对于直接搜索关键词过来的精准流量，每个月有 10几万访问量，就可以有 1000多美元收入了。
 
 你做一个月收入1万美元的网站很难，但是做10个月收入1000美元的网站就容易多了。
 

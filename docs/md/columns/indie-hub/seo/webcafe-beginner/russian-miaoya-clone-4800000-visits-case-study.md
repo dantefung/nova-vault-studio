@@ -11,17 +11,19 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 ## 新手入门
 
 # 【5000字调查分析】建站20天拿下480万访问量，俄罗斯版的妙鸭相机是怎么做到的？
+
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_002.png)
 
 **正文开始** 话说，下午 MoneyHunter 群主在群里例行分享财富信息，说 BaiRBIE.me 单月访问量480万了，而且是凭空冒出来的。
 
-我查了一下，这个域名居然是7月17日注册的，再查 archive 发现网页是7月22日被收录的，也就是说，建站到今天，也才20天。![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_003.png)
+我查了一下，这个域名居然是7月17日注册的，再查 archive 发现网页是7月22日被收录的，也就是说，建站到今天，也才20天。
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_003.png)
 
-从上图可以看出来，实际流量是7月就有480万，8月还没结束，暂时看不到流量数据，所以实际480万流量是7月31日之前的10天时间就达成的，但是8月数据还没出来，我们就暂时当作总流量480万。
+从上图可以看出来，实际流量是7月就有 480万，8月还没结束，暂时看不到流量数据，所以实际480万流量是7月31日之前的10天时间就达成的，但是8月数据还没出来，我们就暂时当作总流量480万。
 
 如果让哥飞来预估的话，8月流量估计在650万左右，到9月初，Similarweb 上显示了8月份流量数据时，我们再来看看哥飞估得准不准。
 
-这个网站流量增速这么猛，引起了哥飞运营的付费社群“哥飞的朋友们”里一位朋友TT总的注意，他问哥飞，这流量到底怎么来的？
+这个网站流量增速这么猛，引起了哥飞运营的付费社群“哥飞的朋友们”里一位朋友 TT总的注意，他问哥飞，这流量到底怎么来的？
 
 哥飞就去收集了一些信息，总结起来发现，整个爆火路径居然跟妙鸭相机差不多。
 
@@ -29,9 +31,19 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 先看 Similarweb 上这个站的用户地理位置分布，我们发现几乎都是北半球来的流量，俄罗斯60.65%，哈萨克斯坦7.57%，乌克兰4.55%，波兰4.37%，土耳其3.84%，白俄罗斯3.07%，剩下的流量就很分散了，我们忽略掉。
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_004.png) 再看流量来源分布，57.44%是直接访问，21.51%来自于搜索引擎，14.51%来自社交网络，6.24%来自外链，还有0.28%来自于邮件。几乎没有付费搜索或者展示广告，说明运营团队没有做广告投放。
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_004.png)
 
-多说一句，哥飞这里展示的数据来自于 Similarweb Pro ，如果你用的免费版，不是最新数据，可能跟哥飞这里看到的不一样，以哥飞截图为准。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_005.png) 再看下访问设备分布，11.38%来自于电脑，88.62%来自于手机或者平板电脑。也就是这个站整体流量主要在手机端传播流动。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_006.png) 刚才我们说了，有21.51%流量来自于搜索引擎，从下图可以看到，大部分都是品牌词，也就是说，用户在别的地方知道这个产品名字之后，再来搜索引擎里搜索的，而不是这个网站抓住了什么热门搜索关键字。
+再看流量来源分布，57.44%是直接访问，21.51%来自于搜索引擎，14.51%来自社交网络，6.24%来自外链，还有 0.28%来自于邮件。几乎没有付费搜索或者展示广告，说明运营团队没有做广告投放。
+
+多说一句，哥飞这里展示的数据来自于 Similarweb Pro ，如果你用的免费版，不是最新数据，可能跟哥飞这里看到的不一样，以哥飞截图为准。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_005.png)
+
+ 再看下访问设备分布，11.38%来自于电脑，88.62%来自于手机或者平板电脑。也就是这个站整体流量主要在手机端传播流动。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_006.png)
+
+ 刚才我们说了，有 21.51%流量来自于搜索引擎，从下图可以看到，大部分都是品牌词，也就是说，用户在别的地方知道这个产品名字之后，再来搜索引擎里搜索的，而不是这个网站抓住了什么热门搜索关键字。
 
 当然，你会说，最近上映了一部电影，但是电影名字是《Barbie》，而网站域名是 BaiRBIE.me ，看出区别来了吗，域名多了一个i，与字母a凑成了ai。
 
@@ -39,7 +51,7 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_007.png)
 
-所以，虽然有21.51%流量来自于搜索引擎，但并不是流量的初始来源，我们还得继续找。
+所以，虽然有 21.51%流量来自于搜索引擎，但并不是流量的初始来源，我们还得继续找。
 
 上面我们说了，57.44%流量来自于直接访问，这部分可以认为是用户记住了网址，或者用即时通信软件发送的网址，或者把网址加入了书签，或者是有些链接设置了noreferrer导致无法跟踪。但不管哪种情况，我们先放一边，看看别的方向。
 
@@ -65,17 +77,50 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 接下来，我们在谷歌用“site:来源域名 bairbie”语法搜索，并且点开搜索工具，限定结果时间为7月17日到7月25日，目的是找出最早的宣传网页。
 
-如第一个lifehacker.ru，我们这样搜索，总共只找到7条结果，其中最早的是7月18日发的，好像找到了最早的网页。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_009.png) 但实际仔细看就会发现，我们找的关键字都没有出现在标题里，而是出现在描述里的，所以最有可能的真相是，这些网页里都有个相关文章列表，里边有我们要找的那个文章。
+如第一个lifehacker.ru，我们这样搜索，总共只找到7条结果，其中最早的是7月18日发的，好像找到了最早的网页。 
 
-那就继续把时间往后移动，经过多次测试，当选择7月26日到7月28日区间时，终于出现了我们要找的网页。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_010.png) 网址是 [https://lifehacker.ru/bairbie-me-servis/](https://lifehacker.ru/bairbie-me-servis/) ，这是 7月27日发的，网页截图如下。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_011.png) 注意，这篇文章太长了，不好全部截图，所以只截了上半部分和尾部，因为尾部里有 BaiRBIE.me 的链接。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_012.png) 这是 lifehacker.ru 的一个名叫达莉亚·格罗莫娃的编辑发的文章，我们暂时不知道是收费软文，还是仅仅是新闻报道，所以暂时不下结论。
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_009.png)
 
-继续按照上面的方法，这次我们限定一下，使用 intitle 语法，限定我们要找的关键字只能出现在标题中，并且拉长时间，会发现，这个网站只有这一篇文章提到了 BaiRBIE。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_013.png) 那么继续找第二个来源网站 medialeaks.ru ，这次我们限定时间7月17日到8月11日，同样只找到一篇帖子。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_014.png) 链接是 [https://medialeaks.ru/2707tat-str-int-bairbie-me/](https://medialeaks.ru/2707tat-str-int-bairbie-me/) ，发布时间7月27日，截图如下。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_015.png) 注意，这里提到了 Twitter ，说明有可能 BaiRBIE 最早是在 Twitter 推广的。
+ 但实际仔细看就会发现，我们找的关键字都没有出现在标题里，而是出现在描述里的，所以最有可能的真相是，这些网页里都有个相关文章列表，里边有我们要找的那个文章。
+
+那就继续把时间往后移动，经过多次测试，当选择7月26日到7月28日区间时，终于出现了我们要找的网页。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_010.png)
+
+ 网址是 [https://lifehacker.ru/bairbie-me-servis/](https://lifehacker.ru/bairbie-me-servis/) ，这是 7月27日发的，网页截图如下。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_011.png)
+
+ 注意，这篇文章太长了，不好全部截图，所以只截了上半部分和尾部，因为尾部里有 BaiRBIE.me 的链接。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_012.png)
+
+ 这是 lifehacker.ru 的一个名叫达莉亚·格罗莫娃的编辑发的文章，我们暂时不知道是收费软文，还是仅仅是新闻报道，所以暂时不下结论。
+
+继续按照上面的方法，这次我们限定一下，使用 intitle 语法，限定我们要找的关键字只能出现在标题中，并且拉长时间，会发现，这个网站只有这一篇文章提到了 BaiRBIE。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_013.png)
+
+ 那么继续找第二个来源网站 medialeaks.ru ，这次我们限定时间7月17日到8月11日，同样只找到一篇帖子。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_014.png)
+
+ 链接是 [https://medialeaks.ru/2707tat-str-int-bairbie-me/](https://medialeaks.ru/2707tat-str-int-bairbie-me/) ，发布时间7月27日，截图如下。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_015.png)
+
+ 注意，这里提到了 Twitter ，说明有可能 BaiRBIE 最早是在 Twitter 推广的。
 
 接下来，用同样的方法，去找第3个来源网站 itc.ua 的搜索结果，找到了四条，两条是7月26日发的，两条是8月1日发的。
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_016.png) 我们先看7月26日发的， ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_017.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_016.png)
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_018.png) 注意看这两条，有几个关键点：
+我们先看7月26日发的，
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_017.png)
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_018.png)
+注意看这两条，有几个关键点：
 
 1、一个是09:34发布，一个是09:35发布；
 
@@ -91,13 +136,13 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 我们换用站内搜索，结果页 [https://pikabu.ru/search?q=bairbie&st=3](https://pikabu.ru/search?q=bairbie&st=3) 找到了4个帖子，分别如下：
 
-[https://pikabu.ru/story/v\_volne\_novogo\_filma\_pro\_barbi\_i\_pro\_ai\_neyronku\_10502953](https://pikabu.ru/story/v_volne_novogo_filma_pro_barbi_i_pro_ai_neyronku_10502953) 发布于7月26日
+[https://pikabu.ru/story/v\_volne\_novogo\_filma\_pro\_barbi\_i\_pro\_ai\_neyronku\_10502953](https://pikabu.ru/story/v_volne_novogo_filma_pro_barbi_i_pro_ai_neyronku_10502953) 发布于 7月26日
 
-[https://pikabu.ru/story/stat\_barbi\_za\_1\_minutu\_10509430](https://pikabu.ru/story/stat_barbi_za_1_minutu_10509430) 发布于7月28日
+[https://pikabu.ru/story/stat\_barbi\_za\_1\_minutu\_10509430](https://pikabu.ru/story/stat_barbi_za_1_minutu_10509430) 发布于 7月28日
 
-[https://pikabu.ru/story/now\_i\_am\_become\_death\_the\_destroyer\_of\_barbieworlds\_10511321](https://pikabu.ru/story/now_i_am_become_death_the_destroyer_of_barbieworlds_10511321) 发布于7月29日，里边还提到去水印工具，所以可以认为是用户发布的。
+[https://pikabu.ru/story/now\_i\_am\_become\_death\_the\_destroyer\_of\_barbieworlds\_10511321](https://pikabu.ru/story/now_i_am_become_death_the_destroyer_of_barbieworlds_10511321) 发布于 7月29日，里边还提到去水印工具，所以可以认为是用户发布的。
 
-[https://pikabu.ru/story/prevrati\_sebya\_v\_barbi\_ili\_kena\_v\_odin\_klik\_onlayn\_10527031](https://pikabu.ru/story/prevrati_sebya_v_barbi_ili_kena_v_odin_klik_onlayn_10527031) 发布于8月3日
+[https://pikabu.ru/story/prevrati\_sebya\_v\_barbi\_ili\_kena\_v\_odin\_klik\_onlayn\_10527031](https://pikabu.ru/story/prevrati_sebya_v_barbi_ili_kena_v_odin_klik_onlayn_10527031) 发布于 8月3日
 
 接下来是 site:hi-tech.mail.ru BaiRBIE ，有一条7月28日的软文。
 
@@ -165,19 +210,25 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 对于以上21个网页，哥飞以多年行走江湖的经验判断，除了 pikabu.ru 和 vc.ru 两个网站的部分内容是用户自发发布的外，其它的网页典型特征都是一个网站只发一两条，但是访问量都挺大的，可以认为都是媒体软文。
 
-现在我们回过头来再看社交网络来的流量，刚才我们说了，整个网站的流量中有14.51%来自于社交网络，那么这部分流量中，来源分布情况如下：
+现在我们回过头来再看社交网络来的流量，刚才我们说了，整个网站的流量中有 14.51%来自于社交网络，那么这部分流量中，来源分布情况如下：
 
 55.27%来自于 VKontakte ，这是俄罗斯最大的社交网站，简称 VK；
 
 17.93%来自于 Facebook ，脸书不用介绍了；
 
-10.97%来自于Twitter，现在应该叫 X 了；
+10.97%来自于 Twitter，现在应该叫 X 了；
 
 9.54%来自于 TG web app ；
 
 3.60%来自于 Instagram。
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_019.png) 我们先看 VK ，先在谷歌搜索，找到了915条，通过限定时间，找到了几条，但是依然还是我们刚才前文遇到的问题，实际发布时间不是这个时间。 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_020.png) 以上面显示7月18日发布的 [https://vk.com/loveofmom](https://vk.com/loveofmom) 为例，实际我们打开他的个人页面可以就能看到，[https://vk.com/wall-83478798\_15142](https://vk.com/wall-83478798_15142) 是在7月28日发布的。
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_019.png)
+
+ 我们先看 VK ，先在谷歌搜索，找到了915条，通过限定时间，找到了几条，但是依然还是我们刚才前文遇到的问题，实际发布时间不是这个时间。 
+
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_020.png)
+
+ 以上面显示7月18日发布的 [https://vk.com/loveofmom](https://vk.com/loveofmom) 为例，实际我们打开他的个人页面可以就能看到，[https://vk.com/wall-83478798\_15142](https://vk.com/wall-83478798_15142) 是在7月28日发布的。
 
 [https://vk.com/muz.ing.club](https://vk.com/muz.ing.club) 则是在8月1日转载别人在当日发布的内容 [https://vk.com/wall-192863412\_651](https://vk.com/wall-192863412_651) 。
 
