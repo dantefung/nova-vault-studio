@@ -16,7 +16,11 @@ export default {
     if (typeof window === 'undefined') return
     installUrlParsePolyfill()
     installPromiseWithResolversPolyfill()
-    import('./composables/useTheme.js').then(m => m.setupTheme?.()).catch(() => {})
+    import('vitepress-mermaid-renderer').then(m => {
+      if (m.default) {
+        ctx.app.component('Mermaid', m.default)
+      }
+    }).catch(() => {})
     const source = import.meta.env.VITE_FONT_SOURCE || 'local'
     if (source === 'local') {
       import('./fonts-local.js').then(m => m.setupLocalFonts?.()).catch(() => {})
