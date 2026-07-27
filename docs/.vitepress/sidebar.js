@@ -176,41 +176,60 @@ function generateSidebar(relativeDir, linkPrefix) {
                 const hasIndex = fs.existsSync(indexPath);
                 
                 if (hasIndex) {
-                    // 先递归处理子目录
+                    // 先递归处理子目录（子目录会在递归中自己导航到正确位置）
                     addIndexOnlyDirectories(subdirPath, currentLevel, subdirLinkPrefix);
                     
-                    // 尝试找到已存在的条目（按 text 或 link 匹配）
-                    const title = extractTitle(indexPath) || entry.name;
-                    const linkMatch = subdirLinkPrefix; // 有尾部 /
-                    const linkMatchNoSlash = subdirLinkPrefix.slice(0, -1); // 无尾部 /
+                    // 导航到正确的父级
+                    const relativePath = subdirPath.replace(dir + path.sep, '');
+                    const pathParts = relativePath.split(path.sep);
+                    let targetLevel = currentLevel;
                     
-                    let existingItem = null;
-                    for (const item of currentLevel) {
-                        if (item.text === title || item.text === entry.name || item.link === linkMatch || item.link === linkMatchNoSlash) {
-                            existingItem = item;
-                            break;
+                    for (let i = 0; i < pathParts.length - 1; i++) {
+                        const part = pathParts[i];
+                        let found = false;
+                        for (const item of targetLevel) {
+                            if (item.text === part || (item.link && item.link === currentLinkPrefix + part + '/')) {
+                                targetLevel = item.items;
+                                found = true;
+                                break;
+                            }
+                        }
+                        if (!found) {
+                            const newItem = {
+                                text: part,
+                                collapsed: true,
+                                items: []
+                            };
+                            targetLevel.push(newItem);
+                            targetLevel = newItem.items;
                         }
                     }
-                    // 也搜索嵌套条目
+                    
+                    // 在 targetLevel 中查找已存在的条目
+                    const title = extractTitle(indexPath) || entry.name;
+                    const linkMatch = subdirLinkPrefix;
+                    const linkMatchNoSlash = subdirLinkPrefix.slice(0, -1);
+                    
+                    let existingItem = targetLevel.find(item => 
+                        item.text === title || item.text === entry.name || item.link === linkMatch || item.link === linkMatchNoSlash
+                    );
                     if (!existingItem) {
-                        existingItem = findSidebarItem(currentLevel, title);
+                        existingItem = findSidebarItem(targetLevel, title);
                         if (!existingItem) {
-                            existingItem = findSidebarItem(currentLevel, linkMatch);
+                            existingItem = findSidebarItem(targetLevel, linkMatch);
                             if (!existingItem) {
-                                existingItem = findSidebarItem(currentLevel, linkMatchNoSlash);
+                                existingItem = findSidebarItem(targetLevel, linkMatchNoSlash);
                             }
                         }
                     }
                     
                     if (existingItem) {
-                        // 更新已存在的条目
                         existingItem.text = title;
                         if (!existingItem.link) {
                             existingItem.link = linkMatch;
                         }
                     } else {
-                        // 创建新条目
-                        currentLevel.push({
+                        targetLevel.push({
                             text: title,
                             collapsed: true,
                             items: [],
