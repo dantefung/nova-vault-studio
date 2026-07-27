@@ -48,3 +48,7 @@ date: "2026-07-20"
   - [游戏站深度补充（阶段三）](./seo-faq/game-site-phase3.md) — 资源获取/TikTok找词/一小时建站
   - [如何找关键词](./seo-faq/keyword.md) — 9渠道+7步筛选
   - [可以做什么类型的站](./seo-faq/site-types.md) — 内容站/工具站/变现
+
+### 社群动态
+
+- [哥飞社群每日群聊总结](./community-recap/) — 2026年7月社群每日精华
