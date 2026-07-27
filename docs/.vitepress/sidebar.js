@@ -132,7 +132,7 @@ function generateSidebar(relativeDir, linkPrefix) {
             } else {
                 let found = false;
                 for (let item of currentLevel) {
-                    if (item.text === part) {
+                    if (item.text === part || (item.link && item.link === linkPrefix + part + '/')) {
                         currentLevel = item.items;
                         found = true;
                         break;
@@ -151,7 +151,20 @@ function generateSidebar(relativeDir, linkPrefix) {
         });
     });
 
-    // 扫描目录中包含 index.md 的子目录，将它们添加到侧边栏
+    // 在 sidebar 中递归查找条目（按 text 或 link 匹配）
+    function findSidebarItem(level, textOrLink) {
+        for (const item of level) {
+            if (item.text === textOrLink || item.link === textOrLink) {
+                return item;
+            }
+            if (item.items) {
+                const result = findSidebarItem(item.items, textOrLink);
+                if (result) return result;
+            }
+        }
+        return null;
+    }
+
     function addIndexOnlyDirectories(currentDir, currentLevel, currentLinkPrefix) {
         const entries = fs.readdirSync(currentDir, { withFileTypes: true });
         entries.forEach(entry => {
@@ -160,61 +173,53 @@ function generateSidebar(relativeDir, linkPrefix) {
                 const indexPath = path.join(subdirPath, 'index.md');
                 const subdirLinkPrefix = currentLinkPrefix + entry.name + '/';
                 
-                // 检查目录是否有 index.md
                 const hasIndex = fs.existsSync(indexPath);
                 
                 if (hasIndex) {
-                    // 在嵌套结构中找到正确的位置
-                    let targetLevel = currentLevel;
-                    const relativePath = subdirPath.replace(dir + path.sep, '');
-                    const pathParts = relativePath.split(path.sep);
+                    // 先递归处理子目录
+                    addIndexOnlyDirectories(subdirPath, currentLevel, subdirLinkPrefix);
                     
-                    // 导航到正确的父级
-                    for (let i = 0; i < pathParts.length - 1; i++) {
-                        const part = pathParts[i];
-                        let found = false;
-                        for (let item of targetLevel) {
-                            if (item.text === part) {
-                                targetLevel = item.items;
-                                found = true;
-                                break;
-                            }
+                    // 尝试找到已存在的条目（按 text 或 link 匹配）
+                    const title = extractTitle(indexPath) || entry.name;
+                    const linkMatch = subdirLinkPrefix; // 有尾部 /
+                    const linkMatchNoSlash = subdirLinkPrefix.slice(0, -1); // 无尾部 /
+                    
+                    let existingItem = null;
+                    for (const item of currentLevel) {
+                        if (item.text === title || item.text === entry.name || item.link === linkMatch || item.link === linkMatchNoSlash) {
+                            existingItem = item;
+                            break;
                         }
-                        if (!found) {
-                            // 创建缺失的层级
-                            const newItem = {
-                                text: part,
-                                collapsed: true,
-                                items: []
-                            };
-                            targetLevel.push(newItem);
-                            targetLevel = newItem.items;
+                    }
+                    // 也搜索嵌套条目
+                    if (!existingItem) {
+                        existingItem = findSidebarItem(currentLevel, title);
+                        if (!existingItem) {
+                            existingItem = findSidebarItem(currentLevel, linkMatch);
+                            if (!existingItem) {
+                                existingItem = findSidebarItem(currentLevel, linkMatchNoSlash);
+                            }
                         }
                     }
                     
-                    // 检查是否已经存在该目录（使用 title 或 entry.name）
-                    const title = extractTitle(indexPath) || entry.name;
-                    const existingItem = targetLevel.find(item => 
-                        item.text === title || item.text === entry.name
-                    );
                     if (existingItem) {
-                        // 如果已存在，更新 title 和添加链接
+                        // 更新已存在的条目
                         existingItem.text = title;
                         if (!existingItem.link) {
-                            existingItem.link = subdirLinkPrefix;
+                            existingItem.link = linkMatch;
                         }
                     } else {
-                        targetLevel.push({
+                        // 创建新条目
+                        currentLevel.push({
                             text: title,
                             collapsed: true,
                             items: [],
-                            link: subdirLinkPrefix
+                            link: linkMatch
                         });
                     }
+                } else {
+                    addIndexOnlyDirectories(subdirPath, currentLevel, subdirLinkPrefix);
                 }
-                
-                // 递归处理子目录
-                addIndexOnlyDirectories(subdirPath, currentLevel, subdirLinkPrefix);
             }
         });
     }
