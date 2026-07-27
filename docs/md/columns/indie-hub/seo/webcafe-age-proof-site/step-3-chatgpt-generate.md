@@ -121,7 +121,6 @@ GPT4的回答：
 
 
 
--   ![](images/gefei-age-proof-site-step-3-chatgpt-generate/img_007.jpg)
 
     阡墨
 
@@ -131,7 +130,6 @@ GPT4的回答：
 
     隐藏内容
 
--   ![](images/gefei-age-proof-site-step-3-chatgpt-generate/img_008.jpg)
 
     老荀
 
@@ -141,7 +139,6 @@ GPT4的回答：
 
     打卡
 
--   ![](images/gefei-age-proof-site-step-3-chatgpt-generate/img_009.jpg)
 
     班纳
 
@@ -151,7 +148,6 @@ GPT4的回答：
 
     1
 
--   ![](images/gefei-age-proof-site-step-3-chatgpt-generate/img_010.jpg)
 
     秋天 | AI探索者
 
@@ -165,4 +161,3 @@ GPT4的回答：
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-step-3-chatgpt-generate/img_012.svg)](https://new.web.cafe/)

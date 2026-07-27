@@ -87,7 +87,6 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
 
 
--   ![](images/gefei-age-proof-site-step-8-analytics-search-console/img_013.jpg)
 
     拭心
 
@@ -97,7 +96,6 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
     遇到 Github push 后没有自动触发部署的问题，我的原因是提交的邮箱没有绑定 Github，git config --get user.email 获取提交的邮箱后，到 Github Setting 里添加 email 就好了。
 
-    ![](images/gefei-age-proof-site-step-8-analytics-search-console/img_014.jpg)
 
     理想园
 
@@ -107,7 +105,6 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
     👍
 
--   ![](images/gefei-age-proof-site-step-8-analytics-search-console/img_015.jpg)
 
     老荀
 
@@ -117,7 +114,6 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
     打卡
 
--   ![](images/gefei-age-proof-site-step-8-analytics-search-console/img_016.jpg)
 
     秋天 | AI探索者
 
@@ -127,7 +123,6 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
     打卡
 
--   ![](images/gefei-age-proof-site-step-8-analytics-search-console/img_017.jpg)
 
     Meet you
 
@@ -141,4 +136,3 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-step-8-analytics-search-console/img_019.svg)](https://new.web.cafe/)

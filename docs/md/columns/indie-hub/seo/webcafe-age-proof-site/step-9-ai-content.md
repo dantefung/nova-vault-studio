@@ -89,7 +89,6 @@ GPT返回的文章原文如下：
 
 
 
--   ![](images/gefei-age-proof-site-step-9-ai-content/img_009.jpg)
 
     秋天 | AI探索者
 
@@ -103,7 +102,6 @@ GPT返回的文章原文如下：
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-step-9-ai-content/img_011.svg)](https://new.web.cafe/)
 
 
 

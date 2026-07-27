@@ -75,7 +75,6 @@ B站有个评论说“三十分钟讲了我们老师一学期讲的”，从这�
 
 
 
--   ![](images/gefei-age-proof-site-step-0-no-coding/img_004.jpg)
 
     小虾米游大海
 
@@ -85,7 +84,6 @@ B站有个评论说“三十分钟讲了我们老师一学期讲的”，从这�
 
     不用纠结于技术细节，找到需求 解决需求，先上站，过程中遇到什么问题，就去搜索，去问ai，去解决！打卡
 
--   ![](images/gefei-age-proof-site-step-0-no-coding/img_005.jpg)
 
     秋天 | AI探索者
 
@@ -99,4 +97,3 @@ B站有个评论说“三十分钟讲了我们老师一学期讲的”，从这�
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-step-0-no-coding/img_007.svg)](https://new.web.cafe/)

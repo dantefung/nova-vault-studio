@@ -169,7 +169,6 @@ GPT4回答：
 
 
 
--   ![](images/gefei-age-proof-site-step-6-multi-language/img_007.jpg)
 
     你好孙悟空
 
@@ -179,7 +178,6 @@ GPT4回答：
 
     新网址站点是不是不推荐多语言？那么到多久以后再加这种呢？
 
--   ![](images/gefei-age-proof-site-step-6-multi-language/img_008.jpg)
 
     袁锐钦
 
@@ -268,7 +266,6 @@ GPT4回答：
 
     **总结**：多语言就是给不同国家的用户“换说明书”，跟着步骤复制粘贴，小白也能搞定！下一步就是把网站上线，让全世界都能访问～ 🌟
 
--   ![](images/gefei-age-proof-site-step-6-multi-language/img_009.jpg)
 
     老荀
 
@@ -278,7 +275,6 @@ GPT4回答：
 
     打卡
 
--   ![](images/gefei-age-proof-site-step-6-multi-language/img_010.jpg)
 
     秋天 | AI探索者
 
@@ -292,4 +288,3 @@ GPT4回答：
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-step-6-multi-language/img_012.svg)](https://new.web.cafe/)

@@ -119,7 +119,6 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 
 
 
--   ![](images/gefei-age-proof-site-step-5-internal-links/img_007.jpg)
 
     你好孙悟空
 
@@ -129,7 +128,6 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 
     导出 Semrush 中跟当前内页关键词相关的更多关键词，并且生成更多 section，其实本质上增加页面内容的丰富程度吧？
 
--   ![](images/gefei-age-proof-site-step-5-internal-links/img_008.jpg)
 
     袁锐钦
 
@@ -216,7 +214,6 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 
     （笔记整理：豆包，适合2025年新手，无需代码基础，重点在逻辑和复制操作）
 
--   ![](images/gefei-age-proof-site-step-5-internal-links/img_009.jpg)
 
     老荀
 
@@ -226,7 +223,6 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 
     打卡
 
--   ![](images/gefei-age-proof-site-step-5-internal-links/img_010.jpg)
 
     秋天 | AI探索者
 
@@ -240,4 +236,3 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-step-5-internal-links/img_012.svg)](https://new.web.cafe/)

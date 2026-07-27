@@ -49,7 +49,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
 
 
--   ![](images/gefei-age-proof-site-introduction/img_003.jpg)
 
     💎天天
 
@@ -61,7 +60,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     这个吧
 
--   ![](images/gefei-age-proof-site-introduction/img_004.jpg)
 
     龍嘨波
 
@@ -71,7 +69,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     [https://123apps.com/](https://123apps.com/) 找到了
 
--   ![](images/gefei-age-proof-site-introduction/img_005.jpg)
 
     殷小样
 
@@ -81,7 +78,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     隐藏内容
 
--   ![](images/gefei-age-proof-site-introduction/img_006.jpg)
 
     Liran413
 
@@ -91,7 +87,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     10s不到就 找到了。。。
 
--   ![](images/gefei-age-proof-site-introduction/img_007.jpg)
 
     NightWatch
 
@@ -101,7 +96,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     隐藏内容
 
--   ![](images/gefei-age-proof-site-introduction/img_008.jpg)
 
     tison
 
@@ -111,7 +105,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     找到了 ![image](images/gefei-age-proof-site-introduction/img_009.png)
 
--   ![](images/gefei-age-proof-site-introduction/img_010.jpg)
 
     老荀
 
@@ -121,7 +114,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     打卡
 
--   ![](images/gefei-age-proof-site-introduction/img_011.jpg)
 
     小虾米游大海
 
@@ -131,7 +123,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     打卡
 
--   ![](images/gefei-age-proof-site-introduction/img_012.jpg)
 
     深圳的阳
 
@@ -141,7 +132,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     已阅
 
--   ![](images/gefei-age-proof-site-introduction/img_013.jpg)
 
     秋天 | AI探索者
 
@@ -151,7 +141,6 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     打卡
 
--   ![](images/gefei-age-proof-site-introduction/img_014.jpg)
 
     婉遙
 
@@ -171,4 +160,3 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-introduction/img_016.svg)](https://new.web.cafe/)

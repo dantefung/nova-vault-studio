@@ -67,7 +67,6 @@ Github 仓库中有代码后，就可以部署到Vercel 中了。
 
 
 
--   ![](images/gefei-age-proof-site-step-7-deploy/img_037.jpg)
 
     会飞的猪👋
 
@@ -75,7 +74,6 @@ Github 仓库中有代码后，就可以部署到Vercel 中了。
 
     回复
 
--   ![](images/gefei-age-proof-site-step-7-deploy/img_038.jpg)
 
     Cyrus
 
@@ -85,7 +83,6 @@ Github 仓库中有代码后，就可以部署到Vercel 中了。
 
     精彩
 
--   ![](images/gefei-age-proof-site-step-7-deploy/img_039.jpg)
 
     袁锐钦
 
@@ -203,7 +200,6 @@ Github 仓库中有代码后，就可以部署到Vercel 中了。
 
     **总结**：这一步的核心是“把文件搬上网”，跟着步骤点鼠标就行，不用懂代码原理。记住：哪怕慢一点，只要每步做对，你的网站一定能上线！ 🌟
 
--   ![](images/gefei-age-proof-site-step-7-deploy/img_040.jpg)
 
     老荀
 
@@ -213,7 +209,6 @@ Github 仓库中有代码后，就可以部署到Vercel 中了。
 
     打卡
 
--   ![](images/gefei-age-proof-site-step-7-deploy/img_041.jpg)
 
     秋天 | AI探索者
 
@@ -227,4 +222,3 @@ Github 仓库中有代码后，就可以部署到Vercel 中了。
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-step-7-deploy/img_043.svg)](https://new.web.cafe/)

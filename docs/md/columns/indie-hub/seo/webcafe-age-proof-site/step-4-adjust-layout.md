@@ -132,7 +132,6 @@ html 代码保持不变：
 
 
 
--   ![](images/gefei-age-proof-site-step-4-adjust-layout/img_013.jpg)
 
     袁锐钦
 
@@ -223,7 +222,6 @@ html 代码保持不变：
 
     同学啊，在这里见也能见到你的分享！666
 
--   ![](images/gefei-age-proof-site-step-4-adjust-layout/img_014.jpg)
 
     老荀
 
@@ -233,7 +231,6 @@ html 代码保持不变：
 
     打卡
 
--   ![](images/gefei-age-proof-site-step-4-adjust-layout/img_015.jpg)
 
     秋天 | AI探索者
 
@@ -247,4 +244,3 @@ html 代码保持不变：
 
 添加图片添加隐藏回复
 
-[![new.web.cafe](images/gefei-age-proof-site-step-4-adjust-layout/img_017.svg)](https://new.web.cafe/)
