@@ -47,7 +47,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
 评论区
 
--   ![](images/30m-site-ai-app-120k-revenue/img_022.jpg)
 
     LFT
 
@@ -57,7 +56,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     有时候找到合适的词了，但是语言问题理解不了词的意思，理解不了用户搜索本意，这个怎么破呢
 
-    ![](images/30m-site-ai-app-120k-revenue/img_023.jpg)
 
     欲买桂花同载酒
 
@@ -67,7 +65,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     问 ai
 
-    ![](images/30m-site-ai-app-120k-revenue/img_024.jpg)
 
     尖椒干豆腐大师
 
@@ -77,7 +74,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     问问GPT呗 让他帮忙理解理解
 
-    ![](images/30m-site-ai-app-120k-revenue/img_025.jpg)
 
     甜瓜
 
@@ -87,7 +83,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     问CC
 
--   ![](images/30m-site-ai-app-120k-revenue/img_026.jpg)
 
     阿木子三不知
 
@@ -97,7 +92,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡，按着哥飞教程多操作，多看。
 
--   ![](images/30m-site-ai-app-120k-revenue/img_027.jpg)
 
     小楼
 
@@ -107,7 +101,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_028.jpg)
 
     \- . -
 
@@ -117,7 +110,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     哇pickuplines，翻译一下才知道他的含义——搭讪金句，像这种如果不是熟知他们表达习惯的，感觉单看也不知道是这个意思
 
-    ![](images/30m-site-ai-app-120k-revenue/img_029.jpg)
 
     大林
 
@@ -127,7 +119,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     当年，PUA的意思，还是 Pick Up Artist 搭讪达人 的意思呢， 现在含义国内被泛化太多了……
 
--   ![](images/30m-site-ai-app-120k-revenue/img_030.jpg)
 
     老荀
 
@@ -137,7 +128,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_031.jpg)
 
     swimming
 
@@ -147,7 +137,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_032.jpg)
 
     tison
 
@@ -157,7 +146,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_033.jpg)
 
     班纳
 
@@ -167,7 +155,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     1
 
--   ![](images/30m-site-ai-app-120k-revenue/img_034.jpg)
 
     陈浩填
 
@@ -177,7 +164,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_035.jpg)
 
     经纬
 
@@ -187,7 +173,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_036.jpg)
 
     楠木
 
@@ -197,7 +182,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_037.jpg)
 
     秋天 | AI探索者
 
@@ -207,7 +191,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_038.jpg)
 
     Shrek☀
 
@@ -217,7 +200,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_039.jpg)
 
     陈慧\_Vera
 
@@ -227,7 +209,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_040.jpg)
 
     简语
 
@@ -237,7 +218,6 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
     打卡
 
--   ![](images/30m-site-ai-app-120k-revenue/img_041.jpg)
 
     Jimmy sunshine
 

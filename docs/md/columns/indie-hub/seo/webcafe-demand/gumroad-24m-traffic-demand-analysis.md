@@ -59,7 +59,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
 评论区
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_010.jpg)
 
     东
 
@@ -69,7 +68,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     为什么我看到的流量分析的页面不一样？
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_011.jpg)
 
     2025-06-16 15:53
 
@@ -77,7 +75,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     时间久了，这商店的都不卖了
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_012.jpg)
 
     maktub.
 
@@ -87,7 +84,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     好多方法都开始收费了。打开 Semrush ，输入 Gumroad.com ，点击流量分析，点击主要页面，然后就可以针对查询出来的结果进行分析了。
 
-    ![](images/gumroad-24m-traffic-demand-analysis/img_013.jpg)
 
     陈鹏
 
@@ -97,7 +93,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     淘宝的semrush套餐也是区分是否带 traffic analysis的。我买的就没有
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_014.jpg)
 
     LFT
 
@@ -107,7 +102,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     好思路
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_015.jpg)
 
     阿木子三不知
 
@@ -117,7 +111,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     打卡，Semrush后台改版的现在不知道怎么看文章中演示的操作了。
 
-    ![](images/gumroad-24m-traffic-demand-analysis/img_016.jpg)
 
     殷小样
 
@@ -127,7 +120,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     打开 semrush，点击「流量与市场」➡️「主要页面」，输入 gumroad.com![image](images/gumroad-24m-traffic-demand-analysis/img_017.png)
 
-    ![](images/gumroad-24m-traffic-demand-analysis/img_018.jpg)
 
     金鱼Evan
 
@@ -139,7 +131,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     感谢
 
-    ![](images/gumroad-24m-traffic-demand-analysis/img_019.jpg)
 
     PeacePower
 
@@ -153,7 +144,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     共 4 条回复，展开查看
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_020.jpg)
 
     小楼
 
@@ -163,7 +153,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     打卡
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_021.jpg)
 
     \- . -
 
@@ -173,7 +162,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     通过Gumroad这种大的产品平台去挖掘新产品和新需求确实不错，只是也引发了一个思考，谷歌搜索结果只能有一个第一，除了竞争以外，应该尝试找找其他的市场，还有推广的空间；
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_022.jpg)
 
     班纳
 
@@ -183,7 +171,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     1
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_023.jpg)
 
     经纬
 
@@ -193,7 +180,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     打卡
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_024.jpg)
 
     楠木
 
@@ -203,7 +189,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     打卡
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_025.jpg)
 
     墨白
 
@@ -213,7 +198,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     打卡
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_026.jpg)
 
     陈慧\_Vera
 
@@ -223,7 +207,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     好思路
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_027.jpg)
 
     简语
 
@@ -233,7 +216,6 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
     打卡
 
--   ![](images/gumroad-24m-traffic-demand-analysis/img_028.jpg)
 
     Jimmy sunshine
 

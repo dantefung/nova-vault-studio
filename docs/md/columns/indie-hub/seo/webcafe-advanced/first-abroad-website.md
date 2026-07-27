@@ -195,7 +195,6 @@ AI 工具站有几个特点：
 
 评论区
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_004.jpg)
 
     請給我一支蘭州
 
@@ -205,7 +204,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_005.jpg)
 
     Matthew
 
@@ -215,7 +213,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_006.jpg)
 
     2025-06-12 14:41
 
@@ -223,7 +220,6 @@ AI 工具站有几个特点：
 
     这航海是训练营吗，我们社群有训练营吗
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_007.jpg)
 
     LFT
 
@@ -233,7 +229,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_008.jpg)
 
     Scar🐬
 
@@ -243,7 +238,6 @@ AI 工具站有几个特点：
 
     最后好热血哈哈哈哈
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_009.jpg)
 
     三球法术
 
@@ -253,7 +247,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_010.jpg)
 
     Richao
 
@@ -263,7 +256,6 @@ AI 工具站有几个特点：
 
     打卡，ヾ(◍°∇°◍)ﾉﾞ
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_011.jpg)
 
     宇古
 
@@ -287,7 +279,6 @@ AI 工具站有几个特点：
 
     一句话总结： 别想太多，先找对需求，快速做出能解决问题的小工具站，积极推广，流量和收入自然来。
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_012.jpg)
 
     峻菁
 
@@ -297,7 +288,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_013.jpg)
 
     图南
 
@@ -307,7 +297,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_014.jpg)
 
     JsonChao
 
@@ -317,7 +306,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_015.jpg)
 
     Alexander
 
@@ -327,7 +315,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_016.jpg)
 
     Ju火巨
 
@@ -339,7 +326,6 @@ AI 工具站有几个特点：
 
     隐藏内容
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_017.jpg)
 
     理想是自由
 
@@ -349,7 +335,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_018.jpg)
 
     Johnson
 
@@ -359,7 +344,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_019.jpg)
 
     \- . -
 
@@ -369,7 +353,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_020.jpg)
 
     Striver
 
@@ -379,7 +362,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_021.jpg)
 
     小楼
 
@@ -389,7 +371,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_022.jpg)
 
     ғᴏʀᴇsᴛ
 
@@ -399,7 +380,6 @@ AI 工具站有几个特点：
 
     打卡
 
--   ![](images/first-abroad-website/gefei-first-abroad-website_023.jpg)
 
     老荀
 

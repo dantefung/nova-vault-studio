@@ -67,7 +67,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
 评论区
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_007.jpg)
 
     2025-06-13 14:32
 
@@ -75,7 +74,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     bing 流量质量怎样
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_008.jpg)
 
     LFT
 
@@ -85,7 +83,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     mark
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_009.jpg)
 
     心花烂漫
 
@@ -95,7 +92,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     问一下，这里的流量是用什么统计的
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_010.jpg)
 
     峻菁
 
@@ -105,7 +101,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_011.jpg)
 
     阿木子三不知
 
@@ -115,7 +110,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_012.jpg)
 
     图南
 
@@ -125,7 +119,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_013.jpg)
 
     张宇
 
@@ -135,7 +128,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_014.jpg)
 
     老荀
 
@@ -145,7 +137,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_015.jpg)
 
     简扬♪
 
@@ -155,7 +146,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡 1.CF开始主动推送 2.主动给bing提交站点地图 3.提交到 Bing 站长后台 4.按照bing的网站扫描结果，进行修改； 5.主动提交到 IndexNow
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_016.jpg)
 
     laiqun🇨🇳
 
@@ -167,7 +157,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     一句话版： 你更新网站 → CF 自动通知 Bing → Bing 更快收录。
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_017.jpg)
 
     fz
 
@@ -177,7 +166,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     Cloudfalre里面开启“主动推送”选项指的就是“Crawer hints” 吗？
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_018.jpg)
 
     丿晓风
 
@@ -187,7 +175,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_019.jpg)
 
     曦演
 
@@ -197,7 +184,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_020.jpg)
 
     简语
 
@@ -207,7 +193,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_021.jpg)
 
     36Laugh
 
@@ -217,7 +202,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     completed
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_022.jpg)
 
     大鱼
 
@@ -227,7 +211,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_023.jpg)
 
     Jimmy sunshine
 
@@ -237,7 +220,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_024.jpg)
 
     Jessica周
 
@@ -247,7 +229,6 @@ SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的2倍�
 
     打卡
 
--   ![](images/bing-traffic-guide/gefei-bing-traffic-guide_025.jpg)
 
     曾伟雄
 

@@ -323,7 +323,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
 评论区
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_032.jpg)
 
     請給我一支蘭州
 
@@ -333,7 +332,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_033.jpg)
 
     2025-06-12 15:29
 
@@ -341,7 +339,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     IndieHackers 很早前注册了，原来还有这么多有用的方式
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_034.jpg)
 
     LFT
 
@@ -351,7 +348,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_035.jpg)
 
     三球法术
 
@@ -361,7 +357,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_036.jpg)
 
     Richao
 
@@ -371,7 +366,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡，继续学习，开发上线只是20%，80%的工作是找需求和推广
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_037.jpg)
 
     宇古
 
@@ -405,7 +399,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     13.  总结 ￼ • 通过排行榜和流量数据，可以大致判断AI产品的赚钱能力。 • 估算收入时要用到一些假设，但结合真实数据和开发者公开信息，能让判断更准确。 • 获取流量的渠道很多，SEO、广告、导航站、社交媒体、红人推广等都值得尝试。
 
-    ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_038.jpg)
 
     燚
 
@@ -415,7 +408,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     支持一下！
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_039.jpg)
 
     峻菁
 
@@ -425,7 +417,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_043.jpg)
 
     阿木子三不知
 
@@ -435,7 +426,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_041.jpg)
 
     图南
 
@@ -445,7 +435,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_042.jpg)
 
     GeyonGpan
 
@@ -455,7 +444,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_040.jpg)
 
     峻菁
 
@@ -465,7 +453,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_044.jpg)
 
     Alexander
 
@@ -475,7 +462,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_045.jpg)
 
     吉良吉影
 
@@ -485,7 +471,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_046.jpg)
 
     Johnson
 
@@ -495,7 +480,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_047.jpg)
 
     理想是自由
 
@@ -505,7 +489,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_048.jpg)
 
     Striver
 
@@ -515,7 +498,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_049.jpg)
 
     Collins1337
 
@@ -525,7 +507,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_050.jpg)
 
     老荀
 
@@ -535,7 +516,6 @@ Twitter、Facebook 等传统社交媒体上面依然还有挺大的流量，值�
 
     打卡
 
--   ![](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_051.jpg)
 
     经纬
 

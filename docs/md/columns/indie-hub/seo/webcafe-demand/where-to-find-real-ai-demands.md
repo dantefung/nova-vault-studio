@@ -70,7 +70,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
 评论区
 
--   ![](images/where-to-find-real-ai-demands/img_004.jpg)
 
     阿木子三不知
 
@@ -80,7 +79,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
     打卡
 
--   ![](images/where-to-find-real-ai-demands/img_005.jpg)
 
     PeacePower
 
@@ -90,7 +88,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
     商业模型，类似ai的appsumo
 
--   ![](images/where-to-find-real-ai-demands/img_006.jpg)
 
     \- . -
 
@@ -100,7 +97,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
     这个导航站好，也可以通过前面分享的方法尝试分析一下
 
--   ![](images/where-to-find-real-ai-demands/img_007.jpg)
 
     老荀
 
@@ -110,7 +106,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
     打卡
 
--   ![](images/where-to-find-real-ai-demands/img_008.jpg)
 
     tison
 
@@ -120,7 +115,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
     打卡
 
--   ![](images/where-to-find-real-ai-demands/img_009.jpg)
 
     楠木
 
@@ -130,7 +124,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
     打卡
 
--   ![](images/where-to-find-real-ai-demands/img_010.jpg)
 
     陈慧\_Vera
 
@@ -140,7 +133,6 @@ TheresAnAIForThat ，简称 TAAFT ，应该是目前全球访问量最大的AI�
 
     打卡
 
--   ![](images/where-to-find-real-ai-demands/img_011.jpg)
 
     简语
 

@@ -39,7 +39,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
 评论区
 
--   ![](images/outbound-domain-demand-discovery/img_009.jpg)
 
     觉
 
@@ -49,7 +48,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
     做出来了吗？
 
-    ![](images/outbound-domain-demand-discovery/img_010.jpg)
 
     我是省外的
 
@@ -59,7 +57,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
     这个想法不错bucuo
 
--   ![](images/outbound-domain-demand-discovery/img_011.jpg)
 
     2025-06-16 15:28
 
@@ -67,7 +64,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
     banbri 大佬做出来了吗
 
--   ![](images/outbound-domain-demand-discovery/img_011.jpg)
 
     2025-06-17 16:34
 
@@ -75,7 +71,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
     我想起以前用的脚本 影刀 rpa 自动查询，汇总到表格
 
--   ![](images/outbound-domain-demand-discovery/img_012.jpg)
 
     阿木子三不知
 
@@ -85,7 +80,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
     做出来了吗？之前第一次看没看懂，现在是看懂了。
 
-    ![](images/outbound-domain-demand-discovery/img_013.jpg)
 
     欲买桂花同载酒
 
@@ -95,7 +89,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
     Banbri 大佬的 [https://traffic.cv/](https://traffic.cv/)
 
--   ![](images/outbound-domain-demand-discovery/img_014.jpg)
 
     \- . -
 
@@ -105,7 +98,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
     了解到一个新的挖掘需求的方法，通过一些初期产品宣传的大站，通过出站的域名来了解到一些新的产品需求
 
--   ![](images/outbound-domain-demand-discovery/img_015.jpg)
 
     陈慧\_Vera
 
@@ -115,7 +107,6 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
     打卡
 
--   ![](images/outbound-domain-demand-discovery/img_016.jpg)
 
     简语
 

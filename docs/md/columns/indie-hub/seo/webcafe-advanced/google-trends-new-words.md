@@ -95,7 +95,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 评论区
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_011.jpg)
 
     請給我一支蘭州
 
@@ -105,7 +104,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_012.jpg)
 
     2025-06-12 15:36
 
@@ -113,7 +111,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     谷歌趋势登录数据不是那么准，还是得换一个魔法
 
-    ![](images/google-trends-new-words/gefei-google-trends-new-words_013.jpg)
 
     YEE
 
@@ -123,7 +120,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     登录数据不准指的是？
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_014.jpg)
 
     LFT
 
@@ -133,7 +129,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_015.jpg)
 
     三球法术
 
@@ -143,7 +138,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_016.jpg)
 
     Richao
 
@@ -153,7 +147,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡，找需求找关键词，行百里者半九十！！！
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_017.jpg)
 
     宇古
 
@@ -186,7 +179,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     用谷歌趋势查词，看曲线出现的时间点，能判断新词；用相关查询功能，不断输入不同词，就能挖掘出更多新词。这个方法可以手动做，也可以用API自动化，配合网站流量数据，能系统性地发现新需求和新机会。
 
-    ![](images/google-trends-new-words/gefei-google-trends-new-words_018.jpg)
 
     M 🇸
 
@@ -196,7 +188,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     这是把AI用得明明白白的
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_019.jpg)
 
     峻菁
 
@@ -206,7 +197,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡，竟然还有api接口！
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_020.jpg)
 
     阿木子三不知
 
@@ -216,7 +206,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_021.jpg)
 
     💋大白兔白又白
 
@@ -226,7 +215,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_022.jpg)
 
     Alexander
 
@@ -236,7 +224,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_023.jpg)
 
     小楼
 
@@ -246,7 +233,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_028.jpg)
 
     我素熊猫
 
@@ -256,7 +242,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     6666
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_025.jpg)
 
     徐俊武
 
@@ -266,7 +251,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡 Google Trends 领域宽泛名词-> google trends -> 更多名词 -> 更多网站 -> google trends Google Trends的API（接口）自动化
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_026.jpg)
 
     Johnson
 
@@ -276,7 +260,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_027.jpg)
 
     理想是自由
 
@@ -286,7 +269,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_024.jpg)
 
     小楼
 
@@ -296,7 +278,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_029.jpg)
 
     Sigma
 
@@ -306,7 +287,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_030.jpg)
 
     Collins1337
 
@@ -316,7 +296,6 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
     打卡
 
--   ![](images/google-trends-new-words/gefei-google-trends-new-words_031.jpg)
 
     老荀
 

@@ -47,7 +47,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 评论区
 
--   ![](images/web-product-demand-discovery-intro/img_013.jpg)
 
     阿木子三不知
 
@@ -57,7 +56,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     打卡
 
--   ![](images/web-product-demand-discovery-intro/img_014.jpg)
 
     小楼
 
@@ -67,7 +65,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     打卡
 
--   ![](images/web-product-demand-discovery-intro/img_015.jpg)
 
     张宇
 
@@ -77,7 +74,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     打卡
 
--   ![](images/web-product-demand-discovery-intro/img_016.jpg)
 
     \- . -
 
@@ -87,7 +83,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     通过这一章我针对tool.lu进行探索终于发现了Semrush数据上和similarweb之间的区别，
 
-    ![](images/web-product-demand-discovery-intro/img_017.jpg)
 
     涂灵捷 Lyn
 
@@ -97,7 +92,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     区别是啥
 
--   ![](images/web-product-demand-discovery-intro/img_018.jpg)
 
     班纳
 
@@ -107,7 +101,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     1
 
--   ![](images/web-product-demand-discovery-intro/img_019.jpg)
 
     蔡老九
 
@@ -117,7 +110,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     该篇为啥用了国内的站长工具？是做中文用户的谷歌搜索？还是百度的呢？有点蒙蒙的
 
-    ![](images/web-product-demand-discovery-intro/img_020.jpg)
 
     JS
 
@@ -127,7 +119,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     英文是中文站，百度也有其参考价值，如果要是英文站或者其他语种，直接ahrefs 查KD值，我是这么理解的
 
--   ![](images/web-product-demand-discovery-intro/img_021.jpg)
 
     陈慧\_Vera
 
@@ -137,7 +128,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     如果聚焦做海外，也可以用爱站长工具吗
 
--   ![](images/web-product-demand-discovery-intro/img_022.jpg)
 
     孙大龙
 
@@ -147,7 +137,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     学习打卡
 
--   ![](images/web-product-demand-discovery-intro/img_023.jpg)
 
     简语
 
@@ -157,7 +146,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     打卡
 
--   ![](images/web-product-demand-discovery-intro/img_024.jpg)
 
     徐俊武
 
@@ -167,7 +155,6 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
     1、自己想做一个类型的网站，Google搜索关键词 2、找到排名靠前的网站，用similarweb. 爱站之类的分析它哪些关键词拿到了流量 3、用 [https://tool.chinaz.com/kwevaluate查看优化难度](https://tool.chinaz.com/kwevaluate%E6%9F%A5%E7%9C%8B%E4%BC%98%E5%8C%96%E9%9A%BE%E5%BA%A6) 4、找到难度低，流量不错，且竞争对手是内页的站，用同名域名法干他
 
--   ![](images/web-product-demand-discovery-intro/img_025.jpg)
 
     Jimmy sunshine
 

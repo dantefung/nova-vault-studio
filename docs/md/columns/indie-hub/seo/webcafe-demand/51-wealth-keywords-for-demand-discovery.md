@@ -413,7 +413,6 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
 评论区
 
--   ![](images/51-wealth-keywords-for-demand-discovery/img_003.jpg)
 
     阿木子三不知
 
@@ -423,7 +422,6 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡
 
--   ![](images/51-wealth-keywords-for-demand-discovery/img_004.jpg)
 
     \- . -
 
@@ -433,7 +431,6 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     这里的词我先去搜索一遍了解一下，很多时候我们是不知道国外的人会怎么表达，收集一些常用的关键词还是比较重要的
 
--   ![](images/51-wealth-keywords-for-demand-discovery/img_005.jpg)
 
     Sigma
 
@@ -443,7 +440,6 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡
 
--   ![](images/51-wealth-keywords-for-demand-discovery/img_006.jpg)
 
     甜瓜
 
@@ -453,7 +449,6 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡学习中
 
--   ![](images/51-wealth-keywords-for-demand-discovery/img_007.jpg)
 
     陈慧\_Vera
 
@@ -463,7 +458,6 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
     打卡
 
--   ![](images/51-wealth-keywords-for-demand-discovery/img_008.jpg)
 
     Jimmy sunshine
 
