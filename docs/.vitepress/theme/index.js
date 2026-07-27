@@ -9,6 +9,7 @@ import { useData } from 'vitepress'
 import './markmap.css'
 import './fonts.css'
 import './themes.css'
+import './custom.css'
 
 export default {
   ...DefaultTheme,
@@ -44,6 +45,8 @@ export default {
     } else {
       setTimeout(init, 0)
     }
+    // 修复导航交互问题
+    import('./fix-navigation.js').then(m => m.fixNavigation?.()).catch(() => {})
   }
 }
 

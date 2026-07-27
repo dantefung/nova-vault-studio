@@ -1,7 +1,7 @@
 /**
  * useTheme - 主题状态管理 + localStorage 持久化
  */
-import { ref, watch, readonly, getCurrentInstance } from 'vue'
+import { ref, watch, readonly } from 'vue'
 
 const STORAGE_KEY = 'vp-theme'
 const THEMES = ['light', 'dark', 'sepia']
