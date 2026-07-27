@@ -44,7 +44,6 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     这确实是一种发现"蓝海"市场的聪明方法。通过观察那些积极发布外链的网站，你可以发现那些认真投入SEO的人，这往往意味着他们已经找到了一个有利可图的市场。
 
--   ![](images/gefei-blog-comment-backlink-inspiration/img_002.jpg)
 
     峻菁
 
@@ -54,7 +53,6 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     天才。
 
--   ![](images/gefei-blog-comment-backlink-inspiration/img_003.jpg)
 
     小楼
 
@@ -64,7 +62,6 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     天才
 
--   ![](images/gefei-blog-comment-backlink-inspiration/img_004.jpg)
 
     老荀
 
@@ -74,7 +71,6 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     打卡
 
--   ![](images/gefei-blog-comment-backlink-inspiration/img_005.jpg)
 
     经纬
 
@@ -84,7 +80,6 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     打卡
 
--   ![](images/gefei-blog-comment-backlink-inspiration/img_006.jpg)
 
     小灰灰
 
@@ -94,7 +89,6 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     天才
 
--   ![](images/gefei-blog-comment-backlink-inspiration/img_007.jpg)
 
     肃观
 
@@ -104,7 +98,6 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     太精明了，哈哈
 
--   ![](images/gefei-blog-comment-backlink-inspiration/img_008.jpg)
 
     旅明
 
@@ -114,7 +107,6 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     太好了
 
--   ![](images/gefei-blog-comment-backlink-inspiration/img_009.jpg)
 
     Richao
 

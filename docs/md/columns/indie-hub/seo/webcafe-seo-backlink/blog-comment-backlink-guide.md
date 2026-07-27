@@ -34,7 +34,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 也就是说，同行已经帮你找好了，你只需去看看同行有哪些外链，然后你也去发就行了。
 
 
--   ![](images/gefei-blog-comment-backlink/img_003.jpg)
 
     LeeShall
 
@@ -44,7 +43,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     最近用semrush看之前火的sprunki网站的外链就能看到很多很多，博客外链个人经验是有不少你评论了不会马上就能查到（也可能是我用ahrefs免费的查更新的慢），过几天就有了，网站也会有点权重，唯一麻烦的就是不停的评论，不过这个过程也能半自动化或者完全自动化。推荐还是直接抄sprunki这种网站的作业，这些网站每天都会不停发外链，根本不愁没作业抄
 
--   ![](images/gefei-blog-comment-backlink/img_004.jpg)
 
     蝎子...
 
@@ -54,7 +52,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     博客评论外链需要博客内容与你网站主题相关吗？
 
-    ![](images/gefei-blog-comment-backlink/img_005.jpg)
 
     Nirvana
 
@@ -64,7 +61,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     如果站长要审核才显示，就得相关，不然就不会通过了
 
-    ![](images/gefei-blog-comment-backlink/img_005.jpg)
 
     Nirvana
 
@@ -74,7 +70,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     又读了一遍你的问题，我觉得要分情况，比如我想推广自己的在线消消乐，博客正文是一篇休闲娱乐方式的文章，那评论它完全ok哎，也很自然。不一定非要也找一个同样是推荐在线消消乐的博文，才去写评价。
 
-    ![](images/gefei-blog-comment-backlink/img_006.jpg)
 
     峻菁
 
@@ -88,7 +83,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     共 4 条回复，展开查看
 
--   ![](images/gefei-blog-comment-backlink/img_007.jpg)
 
     温勇
 
@@ -98,7 +92,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     经常遇到评论但是不显示在页面，但是页面会刷新一次并显示评论编号，这种貌似没有成功。
 
--   ![](images/gefei-blog-comment-backlink/img_005.jpg)
 
     Nirvana
 
@@ -108,7 +101,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     “这时候，评论正文里不出现我们的广告也没问题，只要个人主页和姓名里包含了我们要留的链接就行。”——学到了，最开始找的是这种，看到下面没人评论，只有一个光秃秃的提交回复还需要审核，就觉得有点不确定，等论坛这个发完了，筛选博客的继续发。
 
--   ![](images/gefei-blog-comment-backlink/img_008.jpg)
 
     Motto
 
@@ -118,7 +110,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     博客评论 一般都是nofollow 的吧
 
--   ![](images/gefei-blog-comment-backlink/img_006.jpg)
 
     峻菁
 
@@ -128,7 +119,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     学到了。
 
--   ![](images/gefei-blog-comment-backlink/img_009.jpg)
 
     小楼
 
@@ -138,7 +128,6 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     打卡
 
--   ![](images/gefei-blog-comment-backlink/img_010.jpg)
 
     阿木子三不知
 
