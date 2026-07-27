@@ -6,8 +6,7 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 ---
 
-# 养网站防老第8步：添加统计代码，提交到 Google Search Console，增加外链，等待被收录
-
+# 养网站防老第 8 步：添加统计代码，提交到 Google Search Console，增加外链，等待被收录
 
 大家好，我是哥飞。
 
@@ -17,21 +16,21 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
 [养网站防老：网站可以做成一生的事业](https://mp.weixin.qq.com/s/URcdE3VaoYoAx0cOcll8_g)
 
-[养网站防老第1步，挖掘出第1个需求](https://mp.weixin.qq.com/s/V35KGuSqMHhhgr4x1Bzw6Q) [养网站防老第2步：分析搜索意图](https://mp.weixin.qq.com/s/0l-1EVPJWAJK6z9w8Bn-FQ)
+[养网站防老第 1 步，挖掘出第 1 个需求](https://mp.weixin.qq.com/s/V35KGuSqMHhhgr4x1Bzw6Q) [养网站防老第 2 步：分析搜索意图](https://mp.weixin.qq.com/s/0l-1EVPJWAJK6z9w8Bn-FQ)
 
-[养网站防老第1.5步：用一个公式来判断关键词是否值得做，让你选择关键词不再犹豫](https://mp.weixin.qq.com/s/CJNigdIt8VkfQDangR8Bcg)
+[养网站防老第 1.5 步：用一个公式来判断关键词是否值得做，让你选择关键词不再犹豫](https://mp.weixin.qq.com/s/CJNigdIt8VkfQDangR8Bcg)
 
-[养网站防老第3步：根据搜索意图使用ChatGPT的GPT4生成网页](https://mp.weixin.qq.com/s/Mg5utkp0iD_b0RGMbCvA4A)
+[养网站防老第 3 步：根据搜索意图使用 ChatGPT 的 GPT4 生成网页](https://mp.weixin.qq.com/s/Mg5utkp0iD_b0RGMbCvA4A)
 
-[养网站防老第4步：手动调整布局和样式](https://mp.weixin.qq.com/s/2T8u9QsGEKIv7c6ObSwYpw)
+[养网站防老第 4 步：手动调整布局和样式](https://mp.weixin.qq.com/s/2T8u9QsGEKIv7c6ObSwYpw)
 
-[养网站防老第5步：内页和内链建设](https://mp.weixin.qq.com/s/X95UZmPEKHZZ4rNoBcaoJg)
+[养网站防老第 5 步：内页和内链建设](https://mp.weixin.qq.com/s/X95UZmPEKHZZ4rNoBcaoJg)
 
-[【6000字详解】养网站防老第6步：利用ChatGPT给网站增加多语言支持](https://mp.weixin.qq.com/s/b3_lY793bgiVcuZ2TREF2w)
+[【6000 字详解】养网站防老第 6 步：利用 ChatGPT 给网站增加多语言支持](https://mp.weixin.qq.com/s/b3_lY793bgiVcuZ2TREF2w)
 
-[养网站防老第7步：注册域名，解析域名，部署上线](https://mp.weixin.qq.com/s/B-boMGJsI3bxB8Ih10duRw)
+[养网站防老第 7 步：注册域名，解析域名，部署上线](https://mp.weixin.qq.com/s/B-boMGJsI3bxB8Ih10duRw)
 
-今天我们聊第8步，主要分为三个小步骤：
+今天我们聊第 8 步，主要分为三个小步骤：
 
 1.  添加统计代码；
 2.  提交到 Google Search Console；
@@ -49,15 +48,21 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
 记住，每一个 html 文件都需要加上统计代码，如果是后端动态页面，就可以只添加一个，然后在所有 html 文件中引入添加的代码，但我们这里只是手工制作的静态页面，那么就手动添加吧。
 
-添加好之后，就可以把本地改动后的静态网页文件通过 git 提交到最新版本到 Github 。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_010.png) 此时如果你打开 Vercel 就会发现，我们提交最新代码到 Github 之后，Vercel 就重新部署了新版网页。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_011.png) 此时，我们打开网页，用浏览器查看网页 html 源码，也能够发现，最新改动已经生效了。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_012.png) 从这里就可以看出来，我们为什么要用 Github 了，因为通过 GitHub 做中转，我们可以做到在我们的电脑上改动网站之后，网站就自动更新了。
+添加好之后，就可以把本地改动后的静态网页文件通过 git 提交到最新版本到 Github 。
+![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_010.png)
+此时如果你打开 Vercel 就会发现，我们提交最新代码到 Github 之后，Vercel 就重新部署了新版网页。
+![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_011.png)
+此时，我们打开网页，用浏览器查看网页 html 源码，也能够发现，最新改动已经生效了。
+![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_012.png)
+从这里就可以看出来，我们为什么要用 Github 了，因为通过 GitHub 做中转，我们可以做到在我们的电脑上改动网站之后，网站就自动更新了。
 
-也就是说，我们的电脑就可以认为是我们网站的数据源头。我们可以真正可以掌控我们的网站数据，不会像语雀一样，在周一下午崩溃7个小时而无法访问。
+也就是说，我们的电脑就可以认为是我们网站的数据源头。我们可以真正可以掌控我们的网站数据，不会像语雀一样，在周一下午崩溃 7 个小时而无法访问。
 
 我们目前依赖于 Vercel 和 Cloudflare ，这两家公司短期来讲，都不会倒闭，所以我们的网站也能够保证可用性。
 
 万一哪天这两个服务中哪个无法使用了，我们也可以把网页部署到别的服务，然后修改域名解析到别的服务即可。
 
-因为最原始的网页一直在我们的电脑上保存了一份，在Github保存了一份，几乎不会丢失或者损坏。
+因为最原始的网页一直在我们的电脑上保存了一份，在 Github 保存了一份，几乎不会丢失或者损坏。
 
 二、提交到 Google Search Console
 
@@ -69,7 +74,7 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
 其实这部分的教程，哥飞也写过，大家直接看下面的教程即可：
 
-[Threads 上线，我火速做了个网站，1小时就被谷歌收录了，操作步骤全揭秘](https://mp.weixin.qq.com/s/pW3hHm-04oBz98LielieTw)
+[Threads 上线，我火速做了个网站，1 小时就被谷歌收录了，操作步骤全揭秘](https://mp.weixin.qq.com/s/pW3hHm-04oBz98LielieTw)
 
 [新上线的网站，如何快速让谷歌收录？做网站为什么要生成几十万个页面？](https://mp.weixin.qq.com/s/F8nbfD720wjxcJsSPlAb-w)
 
@@ -77,16 +82,13 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
 我们新网站被收录的速度有多快，就取决于谷歌的蜘蛛到我们提交链接的网站有多频繁。
 
-接下来，我们只需要等待即可，一般来讲，通过提交外链的方法，最快1个小时可以被收录，慢的话也一天足够了。
+接下来，我们只需要等待即可，一般来讲，通过提交外链的方法，最快 1 个小时可以被收录，慢的话也一天足够了。
 
 如果你等了几天还没被收录，那么就要看看是不是我们的网页质量太低了，或者其它什么原因。
 
 如果有问题的话，一般都可以在 Google Search Console 后台看到提醒。
 
 到此为止，养网站防老系列的前期准备工作都做完了，接下来就是去所有能够宣传我们网站的地方去宣传了。
-
-
-
 
     拭心
 
@@ -96,7 +98,6 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
     遇到 Github push 后没有自动触发部署的问题，我的原因是提交的邮箱没有绑定 Github，git config --get user.email 获取提交的邮箱后，到 Github Setting 里添加 email 就好了。
 
-
     理想园
 
     2026-01-05 21:47
@@ -104,7 +105,6 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
     回复
 
     👍
-
 
     老荀
 
@@ -114,15 +114,13 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
     打卡
 
-
-    秋天 | AI探索者
+    秋天 | AI 探索者
 
     2026-01-21 17:44
 
     回复
 
     打卡
-
 
     Meet you
 
