@@ -1,26 +1,37 @@
-import theme from '@duxweb/vitepress-theme'
-import '@duxweb/vitepress-theme/dist/index.css'
+// .vitepress/theme/index.js
+
+import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
+import { createMermaidRenderer } from 'vitepress-mermaid-renderer'
+import { h, nextTick, watch } from 'vue'
+import { useData } from 'vitepress'
 import './markmap.css'
 import './fonts.css'
 import './themes.css'
 
 export default {
-  extends: theme,
+  ...DefaultTheme,
   Layout: MyLayout,
   enhanceApp(ctx) {
-    if (typeof theme.enhanceApp === 'function') {
-      theme.enhanceApp(ctx)
+    if (typeof DefaultTheme.enhanceApp === 'function') {
+      DefaultTheme.enhanceApp(ctx)
     }
     if (typeof window === 'undefined') return
     installUrlParsePolyfill()
     installPromiseWithResolversPolyfill()
-    import('vitepress-mermaid-renderer').then(m => {
-      if (m.default) {
-        ctx.app.component('Mermaid', m.default)
-      }
-    }).catch(() => {})
+
+    // mermaid 运行时渲染优化
+    const { isDark } = useData()
+    const initMermaid = () => {
+      createMermaidRenderer({
+        theme: isDark.value ? 'dark' : 'default',
+      })
+    }
+    nextTick(() => initMermaid())
+    watch(() => isDark.value, () => initMermaid())
+
+    import('./composables/useTheme.js').then(m => m.setupTheme?.()).catch(() => {})
     const source = import.meta.env.VITE_FONT_SOURCE || 'local'
     if (source === 'local') {
       import('./fonts-local.js').then(m => m.setupLocalFonts?.()).catch(() => {})

@@ -22,7 +22,6 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
-    "@duxweb/vitepress-theme": "^1.1.9",
     "@fontsource/lxgw-wenkai": "5.2.5",
     "@giscus/vue": "^2.2.8",
     "@vercel/analytics": "^1.0.1",
@@ -30,6 +29,7 @@
     "markmap-view": "^0.18.12",
     "mermaid": "^11.16.0",
     "pdfjs-dist": "^5.5.207",
+    "vitepress-mermaid-renderer": "^1.1.28",
     "vitepress-plugin-mermaid": "^2.0.17"
   }
 }
