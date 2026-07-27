@@ -28,6 +28,8 @@
     "@vercel/analytics": "^1.0.1",
     "markmap-lib": "^0.18.12",
     "markmap-view": "^0.18.12",
-    "pdfjs-dist": "^5.5.207"
+    "mermaid": "^11.16.0",
+    "pdfjs-dist": "^5.5.207",
+    "vitepress-plugin-mermaid": "^2.0.17"
   }
 }
