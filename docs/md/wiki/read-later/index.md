@@ -324,6 +324,7 @@ date: "2026-05-29"
 | 2026-06-24 | https://harness-agent.ai/ | **Harness Engineering 小书**（王梓任）：对 Harness 概念做精细理论分析，比网上绝大多数分析精确深入得多，包含大量实战经验 |
 | 2026-06-28 | https://x.com/i/communities/1698871397022388467 | **X跨境电商交流群 + AI**：20.8K成员的X社区，跨境电商/AI工具/平台运营交流 |
 | 2026-07-29 | https://www.xgdn.com/6.html | 待查看 |
+| 2026-07-29 | https://zhuanlan.zhihu.com/p/716891964 | 待查看 |
 
 ## 2026-06-21 王紫菜粉丝见证
 
