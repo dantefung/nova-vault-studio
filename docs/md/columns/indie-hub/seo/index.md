@@ -27,6 +27,7 @@ date: "2026-07-20"
 | 6 | [哥飞SEO小课堂](./webcafe-xiaoketang/index.md) | 关键词选择、落地页迭代 |
 | 4.12 | [域名购买与管理](./building/) | 域名、Namesilo、Cloudflare |
 | 8 | [网站分析与关键词挖掘专题](./keyword-analysis/) | 关键词挖掘全系列：指标体系/工具流程/实战案例/外链策略/新词比赛 |
+| 9 | [账号矩阵引流与新人力作](./keyword-analysis/keyword-account-matrix-strategy.md) | 结果账号矩阵、Reyn冷启动、诗意听涛时间线、金鱼Evan跑起来、跨案例共性 |
 
 | 篇目 | 标题 | 关键词 |
 |------|------|--------|
