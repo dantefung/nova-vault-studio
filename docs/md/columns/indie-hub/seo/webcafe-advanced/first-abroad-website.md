@@ -11,7 +11,7 @@ url: "https://new.web.cafe/tutorial/detail/first-abroad-website"
 
 ---
 
-![](images/first-abroad-website/gefei-first-abroad-website_000.jpg)
+![](images/first-abroad-website/gefei-first-abroad-website_001.jpg)
 
 
 

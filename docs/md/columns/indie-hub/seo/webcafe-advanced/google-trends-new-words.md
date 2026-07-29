@@ -11,7 +11,7 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 ---
 
-![](images/google-trends-new-words/gefei-google-trends-new-words_000.jpg)
+![](images/google-trends-new-words/gefei-google-trends-new-words_001.png)
 
 
 

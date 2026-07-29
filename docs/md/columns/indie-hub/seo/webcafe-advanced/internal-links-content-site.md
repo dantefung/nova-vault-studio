@@ -11,7 +11,7 @@ url: "https://new.web.cafe/tutorial/detail/internal-links-content-site"
 
 ---
 
-![](images/internal-links-content-site/gefei-internal-links-content-site_000.jpg)
+![](images/internal-links-content-site/gefei-internal-links-content-site_0.jpg)
 
 
 
