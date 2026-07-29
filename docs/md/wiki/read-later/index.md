@@ -323,6 +323,7 @@ date: "2026-05-29"
 | 2026-06-10 | http://vibe-ui.youji.pro/ | **Vibe UI Design Guide**：AI 生成 UI 的完整设计到开发路径。两条路（UI Kit+MCP / design.md）、15 个设计系统模板（Clean/Minimal/Modern/Elegant 等）、设计 Token 提取流程、技术栈选型（HTML/React/Next.js/Tailwind）、资源导航（字体/图标/Prompt/Skill）。来源：有籍（youji.pro）|
 | 2026-06-24 | https://harness-agent.ai/ | **Harness Engineering 小书**（王梓任）：对 Harness 概念做精细理论分析，比网上绝大多数分析精确深入得多，包含大量实战经验 |
 | 2026-06-28 | https://x.com/i/communities/1698871397022388467 | **X跨境电商交流群 + AI**：20.8K成员的X社区，跨境电商/AI工具/平台运营交流 |
+| 2026-07-29 | https://www.xgdn.com/6.html | 待查看 |
 
 ## 2026-06-21 王紫菜粉丝见证
 
