@@ -8,140 +8,158 @@ url: "https://new.web.cafe/tutorial/detail/7v7tfjneg9"
 
 # 再次系统的聊聊如何判断一个关键词是否能做
 
+今天的 #哥飞小课堂，跟大家再次系统的聊聊，如何判断一个关键词是否能做。开课之前，先跟大家征集一些关键词，等下我拿来做案例。不用太多，几个就够。
 
+好了，收集到足够多的数据了，今天挑前面 10 个来分析一下：
 
+> aes encryption online、stargate ai、Playback Speed Calculator、webp to png、ai face swap、flux ai、pdf image to video ai、ai image generator、png to webp converter、diagram gpt、Humanize AI、color palette generator、maze generator、image resize、rice purity test、pup hood、retro bowl quotes、random group generator、word wipe
 
-今天的#哥飞小课堂 ，跟大家再次系统的聊聊，如何判断一个关键词是否能做。 开课之前，先跟大家征集一些关键词，等下我拿来做案例。 不用太多，几个就够。
+## 判断流程
 
-好了，收集到足够多的数据了，今天挑前面10个来分析一下 aes encryption online stargate ai Playback Speed Calculator webp to png ai face swap flux ai pdf image to video ai ai image generator png to webp converter diagram gpt Humanize AI color palette generator maze generator image resize rice purity test pup hood retro bowl quotes random group generator word wipe
+**第 1 步**：去谷歌搜索，看看前 10 的搜索结果，内页有多少，首页有多少。如果是首页，就看整站流量，如果是内页，就去 Similarweb 看这个内页拿到的流量。
 
-拿到关键词第1步： 去谷歌搜索，看看前10的搜索结果，内页有多少，首页有多少。 如果是首页，就看整站流量，如果是内页，就去Similarweb看这个内页拿到的流量。
+**第 2 步**：Ahrefs 查看关键词 KD，以及拿到了前三名的网页的流量，有多少外链：\`<\1>
 
-第2步： Ahrefs 查看关键词 KD ，以及拿到了前三名的网页的流量，有多少外链 [https://ahrefs.com/keyword-difficulty](https://ahrefs.com/keyword-difficulty)
-
-第3步： 对于某个网站 Ahrefs 查看外链数量。
+**第 3 步**：对于某个网站 Ahrefs 查看外链数量。
 
 我们假设每一个外链都是需要成本的，所以可以拿流量除以外链数量，简单的计算投资回报率。
 
-以 aes encryption online 为例，第4和9是首页，其它都是内页。 我们先看第4，子域名也算首页，网站月访问量三千多，太小了。 再看第9，2022年注册的域名，月访问量三万多，也还是很小。
+## 案例分析
 
-![73fec38a035a0d45d11171e9afcaed7.jpg](images/is-this-keyword-worth-doing/img_002.jpg)
+### 案例 1：aes encryption online
 
-而第1名，整站23万访问量每月，其中拿到第一名的这个页面，月访问量1.7万。
+第 4 和 9 是首页，其它都是内页。我们先看第 4，子域名也算首页，网站月访问量三千多，太小了。再看第 9，2022 年注册的域名，月访问量三万多，也还是很小。
 
-![cf63f8e7be5473de062c35945a27da4.jpg](images/is-this-keyword-worth-doing/img_003.jpg)
+![](images/is-this-keyword-worth-doing/img_002.jpg)
 
-第1名这个站有2.8K的外链域名数量。 第4名，子域名有198个外链域名。 这些都是不好惹的，而你需要花那么大的力气打败这些已经拿到排名的站，结果每个月只有不到两万的访问量，这完全不值得去做。
+而第 1 名，整站 23 万访问量每月，其中拿到第一名的这个页面，月访问量 1.7 万。
 
-![f286067788d0a555070703cd59dba1b.jpg](images/is-this-keyword-worth-doing/img_004.jpg)
+![](images/is-this-keyword-worth-doing/img_003.jpg)
 
-![3b63c6bc98152b8d4a4437ea67b997d.jpg](images/is-this-keyword-worth-doing/img_005.jpg)
+第 1 名这个站有 2.8K 的外链域名数量。第 4 名，子域名有 198 个外链域名。这些都是不好惹的，而你需要花那么大的力气打败这些已经拿到排名的站，结果每个月只有不到两万的访问量，这完全不值得去做。
 
-Ahrefs 说，需要51个外链域名，就可以进前10了，但他并没有告诉你，进入前三需要多少外链。 我大概估算一下，估计需要两百多个。 这个投入产出算下来，就很不划算。
+![](images/is-this-keyword-worth-doing/img_004.jpg)
 
-![151f7da02a6dc989b4ad9712ed07be7.jpg](images/is-this-keyword-worth-doing/img_006.jpg)
+![](images/is-this-keyword-worth-doing/img_005.jpg)
 
-注意，我们上面分析时说，是否有必要单独注册一个域名，去做一个网站，拿 aes encryption online 这个关键词的排名。 这样分析下来，是没必要的。
+Ahrefs 说，需要 51 个外链域名，就可以进前 10 了，但他并没有告诉你，进入前三需要多少外链。我大概估算一下，估计需要两百多个。这个投入产出算下来，就很不划算。
 
-但如果你本身就做了一个网站，你的用户群体就是需要这个工具，而这个工具开发起来其实并不难，那么你去开发一个内页，是没问题的。 反正你的目的也不是拿排名，而是满足用户的需求。 短时间拿不到排名都没关系，也许用的人多了，慢慢就有一点排名了呢。
+![](images/is-this-keyword-worth-doing/img_006.jpg)
 
-再看第2个词，stargate ai 这是这两天的大热门，但只要你去关注了新闻就知道，这是别人公司名字。 并不是对外发布的产品名称，所以可能过段时间就没热度了。 除非后面会一直发布新产品，就像 OpenAI 一样，这样才有人会去搜索。 而且，这个关键词，你不可能说，去注册个域名，给建一个网站，如果你做了，这就是相当于在做一个钓鱼网站了，假冒的官网。 所以这种词，完全不用看任何数据，直接不建议做注册域名做。
+注意，我们上面分析时说，是否有必要单独注册一个域名，去做一个网站，拿 aes encryption online 这个关键词的排名。这样分析下来，是没必要的。
+
+但如果你本身就做了一个网站，你的用户群体就是需要这个工具，而这个工具开发起来其实并不难，那么你去开发一个内页，是没问题的。反正你的目的也不是拿排名，而是满足用户的需求。短时间拿不到排名都没关系，也许用的人多了，慢慢就有一点排名了呢。
+
+### 案例 2：stargate ai
+
+这是这两天的大热门，但只要你去关注了新闻就知道，这是别人公司名字。并不是对外发布的产品名称，所以可能过段时间就没热度了。除非后面会一直发布新产品，就像 OpenAI 一样，这样才有人会去搜索。而且，这个关键词，你不可能说，去注册个域名，给建一个网站，如果你做了，这就是相当于在做一个钓鱼网站了，假冒的官网。所以这种词，完全不用看任何数据，直接不建议做注册域名做。
 
 但如果你有一个科技媒体网站，你可以开一个 stargate ai 专题，持续的报道 stargate ai 的最新进展，慢慢积累，你这里就有最新最全的 stargate ai 信息了，后面别人想要去看相关信息，就会到你这个专栏来看。
 
-第3个词，Playback Speed Calculator 这个词我一开始不知道什么意思，谷歌搜索，打开第一个结果，才知道，原来是播放速度计算器。 解决的需求时，我有一个2小时30分钟的视频，如果我以1.5倍速播放，多长时间可以播放完，可以帮我节省多长时间。
+### 案例 3：Playback Speed Calculator
+
+这个词我一开始不知道什么意思，谷歌搜索，打开第一个结果，才知道，原来是播放速度计算器。解决的需求时，我有一个 2 小时 30 分钟的视频，如果我以 1.5 倍速播放，多长时间可以播放完，可以帮我节省多长时间。
 
 所以大家可以看到，调研需求，理解需求，其实可以通过谷歌搜索结果来解决，我们周一直播时教的理解需求方法，也是这个。
 
 我们既然吃谷歌这碗饭，就要用好谷歌。
 
-Ahrefs 查这个词的KD，其实也能够看到前10的搜索结果，会发现，前10只有一个首页，其它都是内页。 [https://ahrefs.com/keyword-difficulty/](https://ahrefs.com/keyword-difficulty/)
+Ahrefs 查这个词的 KD，其实也能够看到前 10 的搜索结果，会发现，前 10 只有一个首页，其它都是内页。\`<\1>
 
-并且KD显示也很低，只需要3个外链域名就可以拿下前10排名。
+并且 KD 显示也很低，只需要 3 个外链域名就可以拿下前 10 排名。
 
-![2e4dbfcd2e511632a8874c69b12acd0.jpg](images/is-this-keyword-worth-doing/img_007.jpg)
+![](images/is-this-keyword-worth-doing/img_007.jpg)
 
-谷歌趋势，看过去五年的数据，会发现，这个词也算是新出现的词，2023年3月才开始有搜索量。 不过跟GPTs去比较的话，会发现这个词的搜索量还很小。
+谷歌趋势，看过去五年的数据，会发现，这个词也算是新出现的词，2023 年 3 月才开始有搜索量。不过跟 GPTs 去比较的话，会发现这个词的搜索量还很小。
 
-![38ca50ed7e1680a7ad01db67ea59d27.jpg](images/is-this-keyword-worth-doing/img_008.jpg)
+![](images/is-this-keyword-worth-doing/img_008.jpg)
 
 对于这个词，我的判断是，如果你想做一个练手网站，可以去试一试。
 
-不过也要做好准备，这个词其实出现也有快2年了，并没有那么新，所以你刚上线，可能拿不到排名，也就是不会出词。 你需要加一些外链之后，才有可能开始出词。
+不过也要做好准备，这个词其实出现也有快 2 年了，并没有那么新，所以你刚上线，可能拿不到排名，也就是不会出词。你需要加一些外链之后，才有可能开始出词。
 
 然后不断的加外链，不断的提升排名，看看是否可以拿到首页排名，甚至进前三。
 
 另外，即使拿下了前三，其实也没多少访问量，所以这个词不是用来赚钱的，是用来练手的。
 
-这里注意有另一个词 speed time calculator ，搜索量会大一些，但是需求其实不是那么明确，因为目前谷歌排名靠前的页面，是数学上的速度和距离计算器。 另外，这个词的KD也挺高的，55，需要103个域名才可能进首页。
+这里注意有另一个词 `speed time calculator`，搜索量会大一些，但是需求其实不是那么明确，因为目前谷歌排名靠前的页面，是数学上的速度和距离计算器。另外，这个词的 KD 也挺高的，55，需要 103 个域名才可能进首页。
 
-![5dd4d7487200ae1e028b2a29ef4338f.jpg](images/is-this-keyword-worth-doing/img_009.jpg)
+![](images/is-this-keyword-worth-doing/img_009.jpg)
 
-第4个词，webp to png ，只看 KD 的话，好像不高的样子。 但其实这些站，都是大流量网站。
+### 案例 4：webp to png
 
-![43a7c14324e72aeff8295fb4d60ff26.jpg](images/is-this-keyword-worth-doing/img_010.jpg)
+只看 KD 的话，好像不高的样子。但其实这些站，都是大流量网站。
 
-![8f6457a551cc45efb9df7ede9f56794.jpg](images/is-this-keyword-worth-doing/img_011.jpg)
+![](images/is-this-keyword-worth-doing/img_010.jpg)
 
-在 [query.domains](https://query.domains/) 上查，域名也被注册得差不多了。 但是我们在搜索结果里并没有看到这些域名出现，这就说明，目前这些挑战者连首页都没拿下。
+![](images/is-this-keyword-worth-doing/img_011.jpg)
 
-![6bf7f815038da342925d9915d511cea.jpg](images/is-this-keyword-worth-doing/img_012.jpg)
+在 [query.domains](https://query.domains/) 上查，域名也被注册得差不多了。但是我们在搜索结果里并没有看到这些域名出现，这就说明，目前这些挑战者连首页都没拿下。
 
-![672a0e0accdf2a6bb1362b5893208a9.jpg](images/is-this-keyword-worth-doing/img_013.jpg)
+![](images/is-this-keyword-worth-doing/img_012.jpg)
 
-所以这个词，依然不推荐你注册个域名，然后仅靠SEO去获取流量。 但如果你是已经有一个图片工具站，那么再做一个内页，这是可以的。 又或者，你就想挑战一下，那么你可以做一个漂亮一点，且完全免费的，甚至是开源的网站，然后先通过各种其它渠道去宣传推广，久而久之，靠着跟时间交朋友，慢慢积累一些访问量，慢慢拿到一些比较靠后的排名，拿到一些点击，这是有可能的。
+![](images/is-this-keyword-worth-doing/img_013.jpg)
 
-总结一下，关键词搜索量小，但竞争程度又大，可以完全不考虑了。 而如果有一定的搜索量，那么即使竞争大一些，也没问题。 蛋糕足够大，我们即使只分到一小块，就足够了。 而且随着我们的不断努力，是有可能吃到更大的蛋糕的。
+所以这个词，依然不推荐你注册个域名，然后仅靠 SEO 去获取流量。但如果你是已经有一个图片工具站，那么再做一个内页，这是可以的。又或者，你就想挑战一下，那么你可以做一个漂亮一点，且完全免费的，甚至是开源的网站，然后先通过各种其它渠道去宣传推广，久而久之，靠着跟时间交朋友，慢慢积累一些访问量，慢慢拿到一些比较靠后的排名，拿到一些点击，这是有可能的。
 
-如第5个关键词，ai face swap 就是这样的。 不用查搜索量，我们都知道，这个需求后面会不断变大。
+总结一下，关键词搜索量小，但竞争程度又大，可以完全不考虑了。而如果有一定的搜索量，那么即使竞争大一些，也没问题。蛋糕足够大，我们即使只分到一小块，就足够了。而且随着我们的不断努力，是有可能吃到更大的蛋糕的。
 
-这个词，23年下半年才开始有搜索量，也算是新词了。 目前每天搜索量是GPTs的6倍，去年12月的搜索量已经达到了55万，平均每天1.8万。
+### 案例 5：ai face swap
 
-![4c532b8b95f73fa55a14710a08154c0.jpg](images/is-this-keyword-worth-doing/img_014.jpg)
+不用查搜索量，我们都知道，这个需求后面会不断变大。
 
-![ab22e9c47bbe4eeaf6e349eef3606d2.jpg](images/is-this-keyword-worth-doing/img_015.jpg)
+这个词，23 年下半年才开始有搜索量，也算是新词了。目前每天搜索量是 GPTs 的 6 倍，去年 12 月的搜索量已经达到了 55 万，平均每天 1.8 万。
 
-目前的KD是60，估算需要有129个域名外链，就可以拿下前10位置。 而目前第一名的网站，有304个域名外链。
+![](images/is-this-keyword-worth-doing/img_014.jpg)
 
-![a76228b8cfc39f4bea3919a57746ca1.jpg](images/is-this-keyword-worth-doing/img_016.jpg)
+![](images/is-this-keyword-worth-doing/img_015.jpg)
 
-这两个站，都进了谷歌前10，都是首页，一个八百多万访问量，一个二百多万访问量。
+目前的 KD 是 60，估算需要有 129 个域名外链，就可以拿下前 10 位置。而目前第一名的网站，有 304 个域名外链。
 
-![65c7bd2b8ccf6d7b04f4b72fe7b0b46.jpg](images/is-this-keyword-worth-doing/img_017.jpg)
+![](images/is-this-keyword-worth-doing/img_016.jpg)
 
-为什么1200个外链域名的站，打不过外链只有352个的站呢？ 之前我们分析过，是因为第一名的完全免费的策略，吸引了很多人。
+这两个站，都进了谷歌前 10，都是首页，一个八百多万访问量，一个二百多万访问量。
 
-![0cd936301496c065b2815eef48858fb.jpg](images/is-this-keyword-worth-doing/img_018.jpg)
+![](images/is-this-keyword-worth-doing/img_017.jpg)
 
-![3f8416596572579e1b2194614849f17.jpg](images/is-this-keyword-worth-doing/img_019.jpg)
+为什么 1200 个外链域名的站，打不过外链只有 352 个的站呢？之前我们分析过，是因为第一名的完全免费的策略，吸引了很多人。
 
-另外这个站的Canonical设置错了，域名权重全都跑到子域名 undefined.faceswapper.ai 下面去了。
+![](images/is-this-keyword-worth-doing/img_018.jpg)
 
-![0f1c5a9c20a523d598de0caae5d1043.jpg](images/is-this-keyword-worth-doing/img_020.jpg)
+![](images/is-this-keyword-worth-doing/img_019.jpg)
 
-在用户行为数据方面，io域名这个站全面领先。 所以他就排到第一名了。
+另外这个站的 Canonical 设置错了，域名权重全都跑到子域名 undefined.faceswapper.ai 下面去了。
 
-![1b873325c5c710eba10c4e992f8e3e8.jpg](images/is-this-keyword-worth-doing/img_021.jpg)
+![](images/is-this-keyword-worth-doing/img_020.jpg)
 
-那么这个词现在是否还可以做呢？ 谷歌目前只给第一名出了mini sitelinks，还没有出 sitelinks ，那么我认为还可以做。 但是，你要考虑到，如果你想要打败第一名，那么不仅你需要几百个甚至上千个外链，你还需要不收费，完全免费才行。 这里的成本，你能够Hold住吗？
+在用户行为数据方面，io 域名这个站全面领先。所以他就排到第一名了。
 
-![8b5c25be3a15415991a8b72ca65cf18.jpg](images/is-this-keyword-worth-doing/img_022.jpg)
+![](images/is-this-keyword-worth-doing/img_021.jpg)
 
-在谷歌搜索第二页，我甚至看到了这个站，标题里完全没有覆盖到相关关键词，但是网页内容里有覆盖到，就能够拿下第二页的排名了。 当然，这个站808个外链域名也是不容忽视的。
+那么这个词现在是否还可以做呢？谷歌目前只给第一名出了 mini sitelinks，还没有出 sitelinks，那么我认为还可以做。但是，你要考虑到，如果你想要打败第一名，那么不仅你需要几百个甚至上千个外链，你还需要不收费，完全免费才行。这里的成本，你能够 Hold 住吗？
 
-![a5bd4c6c263d57ca8e9300ee3d44675.jpg](images/is-this-keyword-worth-doing/img_023.jpg)
+![](images/is-this-keyword-worth-doing/img_022.jpg)
 
-kk：请教下，前端代码部署到服务器上，本地图片文件都是怎么处理的，
+在谷歌搜索第二页，我甚至看到了这个站，标题里完全没有覆盖到相关关键词，但是网页内容里有覆盖到，就能够拿下第二页的排名了。当然，这个站 808 个外链域名也是不容忽视的。
 
-直接部署代码吗
+![](images/is-this-keyword-worth-doing/img_023.jpg)
 
-哥飞：放R2
+> **kk**：请教下，前端代码部署到服务器上，本地图片文件都是怎么处理的，直接部署代码吗？
+>
+> **哥飞**：放 R2。
 
-剩下的词，大家也可以按照上面说的方法，自己去判断，我就不一一演示了。 我总结一下，需要看哪些方面的数据： 1、看关键词搜索量（可以在谷歌趋势、谷歌Ads关键词规划工具、Similarweb等渠道看）； 2、看关键词搜索结果（可以在谷歌搜索、Ahrefs KD 查询、Simialrweb 等渠道看）； 3、看网站的流量（可以在AITDK.com 插件、Similarweb、Ahrefs KD 查询等渠道看）； 4、看网页的流量（可以在Similarweb看具体页面流量）； 5、看网站的外链（可以在Ahrefs Backlink 查询工具查看）。
+剩下的词，大家也可以按照上面说的方法，自己去判断，我就不一一演示了。
+
+## 总结：需要看哪些数据
+
+1. **关键词搜索量** — 可以在谷歌趋势、谷歌 Ads 关键词规划工具、Similarweb 等渠道看
+2. **关键词搜索结果** — 可以在谷歌搜索、Ahrefs KD 查询、Similarweb 等渠道看
+3. **网站的流量** — 可以在 AITDK.com 插件、Similarweb、Ahrefs KD 查询等渠道看
+4. **网页的流量** — 可以在 Similarweb 看具体页面流量
+5. **网站的外链** — 可以在 Ahrefs Backlink 查询工具查看
 
 基本上综合以上这些信息，就可以做一个大概的判断了。
 
-Coolbat：kd值跟进前十所需要的预估外链数量有对应关系吗？
-
-哥飞：Ahrefs 有一篇博客介绍到了，可以在 KD 查询工具里找到这篇博客的入口。
-
+> **Coolbat**：kd 值跟进前十所需要的预估外链数量有对应关系吗？
+>
+> **哥飞**：Ahrefs 有一篇博客介绍到了，可以在 KD 查询工具里找到这篇博客的入口。

@@ -11,28 +11,28 @@ author: "哥飞"
 
 目前话题列表新版已经上线，所以发出来给大家看一下。
 
-点击导航栏的“群聊”即可打开群聊话题列表。
+点击导航栏的"群聊"即可打开群聊话题列表。
 
 话题目前来自于志愿者们和哥飞一起手动从连续对话中挑选整理。
 
-![image](images/everyone-is-launching-new-sites-during-national-holiday/001.png)
+![](images/everyone-is-launching-new-sites-during-national-holiday/001.png)
 
 最开始尝试过按照时间划分话题，连续时间的对话当作一个话题，但是发现经常会发生多个话题同时穿插进行，所以放弃按照时间划分。
 
-后来尝试先按照时间划分，再把所有对话记录发给GPT，让GPT理解对话，并把多个话题拆分出来，但是目前GPT能力不足以实现，即使是GPT4都还不行。
+后来尝试先按照时间划分，再把所有对话记录发给 GPT，让 GPT 理解对话，并把多个话题拆分出来，但是目前 GPT 能力不足以实现，即使是 GPT4 都还不行。
 
 最后只能回归人工整理，由肉眼从连续对话中把穿插进行的多个话题拆分出来，整理成一个一个话题。
 
-这个活很累人，感谢@一零、@Cam、@小同学、@ByroG、@Tim、@BingNi等志愿者们。
+这个活很累人，感谢 @一零、@Cam、@小同学、@ByroG、@Tim、@BingNi 等志愿者们。
 
 点击话题列表中的某个话题之后，可以看到该话题对话列表，同时还可以在左侧看到该话题前后的多条相关话题。
 
 因为哥飞定下的原则是，一个话题只讨论一件事情，所以有时候连续对话会讨论的多个事情，就可以在左侧看到。
 
-![image](images/everyone-is-launching-new-sites-during-national-holiday/002.png)
+![](images/everyone-is-launching-new-sites-during-national-holiday/002.png)
 
 也做了手机端支持。
 
-![image](images/everyone-is-launching-new-sites-during-national-holiday/003.png)
+![](images/everyone-is-launching-new-sites-during-national-holiday/003.png)
 
-虽然现在交互和UI都还有调整的空间，但至少可以先看起来了，所以就跟大家介绍介绍。
+虽然现在交互和 UI 都还有调整的空间，但至少可以先看起来了，所以就跟大家介绍介绍。

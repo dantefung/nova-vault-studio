@@ -9,7 +9,7 @@ author: "哥飞"
 
 其实之前哥飞写过类似话题《[只要行动，就会有收获；只有行动，才会有收获！](https://mp.weixin.qq.com/s/4pm2G7bF9hVmBwHx1_I70A)》。
 
-今天跟社群里的一位朋友聊天，说到他的某个网站，现在已经有每天10个左右的订单了。
+今天跟社群里的一位朋友聊天，说到他的某个网站，现在已经有每天 10 个左右的订单了。
 
 虽然哥飞一直叫大家赶紧上站，但其实哥飞也有注册了域名还没上站的，所以今天我们再聊下这个话题。
 
@@ -23,21 +23,21 @@ author: "哥飞"
 
 哥飞给大家看下他这个站的统计数据，可以看到流量一直在增长。
 
-![image](images/launch-multiple-sites-to-earn-usd/001.png)
+![](images/launch-multiple-sites-to-earn-usd/001.png)
 
 主要流量来源都是各个搜索引擎。
 
-![image](images/launch-multiple-sites-to-earn-usd/002.png)
+![](images/launch-multiple-sites-to-earn-usd/002.png)
 
 那么他做了什么呢？从下面的外链数量可以看出来，主要就是高了一些外链。
 
 而外链怎么搞的呢？
 
-朋友当时就是把这个站提交了一波AI导航。
+朋友当时就是把这个站提交了一波 AI 导航。
 
 然后就一直放着，跟时间交朋友。
 
-![image](images/launch-multiple-sites-to-earn-usd/003.png)
+![](images/launch-multiple-sites-to-earn-usd/003.png)
 
 之后就发现，流量一直在慢慢地增长，然后开始有订单了。
 

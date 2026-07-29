@@ -13,34 +13,34 @@ author: "哥飞"
 
 今天教大家的方法是使用 Similarweb 查看 vercel.app 下的子域名，来发现新需求。
 
-路径：打开 Similarweb ，查询 vcrcel.app ，查看自然落地页，选择最近几个月（哥飞这里选择的是最近12个月，你也可以选择最近1个月），勾选“新发现”这个过滤条件。
+**路径**：打开 Similarweb，查询 `vcrcel.app`，查看自然落地页，选择最近几个月（哥飞这里选择的是最近 12 个月，你也可以选择最近 1 个月），勾选"新发现"这个过滤条件。
 
-链接是： https://pro.similarweb.com/#/digitalsuite/websiteanalysis/organic-landing-pages/*/999/12m?webSource=Desktop&IncludeNewPages=true&key=vercel.app
+链接是：\`<\1>
 
-![image](images/vercel-app-subdomain-demand-discovery/001.png)
+![](images/vercel-app-subdomain-demand-discovery/001.png)
 
-如第一名是 check-your-khodam.vercel.app ，不过可惜的是这个网站已经打不开了。
+如第一名是 `check-your-khodam.vercel.app`，不过可惜的是这个网站已经打不开了。
 
-![image](images/vercel-app-subdomain-demand-discovery/002.png)
+![](images/vercel-app-subdomain-demand-discovery/002.png)
 
 承接的关键词如下截图所示：
 
-![image](images/vercel-app-subdomain-demand-discovery/003.png)
+![](images/vercel-app-subdomain-demand-discovery/003.png)
 
-拿最前面两个去谷歌趋势检查，果然是6月18日才开始新出现的关键词。
+拿最前面两个去谷歌趋势检查，果然是 6 月 18 日才开始新出现的关键词。
 
-![image](images/vercel-app-subdomain-demand-discovery/004.png)
+![](images/vercel-app-subdomain-demand-discovery/004.png)
 
 至于这些关键词具体代表什么，就交给大家去探索了。
 
 继续看，会发现第二个子域名也是关于这个关键词的。
 
-第三个子域名则是关于 chatgpt premium cookies 和 grammarly cookies 的。
+第三个子域名则是关于 `chatgpt premium cookies` 和 `grammarly cookies` 的。
 
-![image](images/vercel-app-subdomain-demand-discovery/005.png)
+![](images/vercel-app-subdomain-demand-discovery/005.png)
 
 去看谷歌趋势，的确是新出现的词。
 
-![image](images/vercel-app-subdomain-demand-discovery/006.png)
+![](images/vercel-app-subdomain-demand-discovery/006.png)
 
 好了，本篇教程就到这里了，大家应该都学会了吧，希望大家可以举一反三，学会更多的挖掘需求的方法。

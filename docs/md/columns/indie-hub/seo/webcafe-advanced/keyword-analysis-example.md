@@ -25,7 +25,7 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_000.png)
 
-我们再拿这个词去ahrefs 的 Keyword Difficulty Checker 查，会发现优化难度居然只有1，只需要2个网站的反链就能够进入谷歌搜索前10的位置。
+我们再拿这个词去 ahrefs 的 Keyword Difficulty Checker 查，会发现优化难度居然只有 1，只需要 2 个网站的反链就能够进入谷歌搜索前 10 的位置。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_001.png)
 
@@ -37,7 +37,7 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 但是不要急着注册域名，再看看。
 
-先看谷歌搜索结果，排名前四的结果里，有两个是Google Sites的内页，有两个是首页，一个是子域名首页，一个是主域名首页。
+先看谷歌搜索结果，排名前四的结果里，有两个是 Google Sites的内页，有两个是首页，一个是子域名首页，一个是主域名首页。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_003.png)
 
@@ -49,13 +49,13 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_005.png)
 
-但是，我们去查一下第四名，就会有大发现，这个站居然有81个反链，而且DR有49。
+但是，我们去查一下第四名，就会有大发现，这个站居然有 81 个反链，而且 DR有 49。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_006.png)
 
 那为什么只能排第四名呢？
 
-有两个原因，先说第一个，Title中关键词并没有完全匹配，并且页面里关键词密度也不够，H1直接空白。
+有两个原因，先说第一个，Title中关键词并没有完全匹配，并且页面里关键词密度也不够，H1 直接空白。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_007.png)
 
@@ -71,11 +71,11 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_009.png)
 
-用的直接是网站首页，并且有9个外链。
+用的直接是网站首页，并且有 9 个外链。
 
-那为什么9个外链网站，就能够打败第四名呢？
+那为什么 9 个外链网站，就能够打败第四名呢？
 
-原因是关键词覆盖到了，并且在网页H1里也有体现出来。
+原因是关键词覆盖到了，并且在网页 H1 里也有体现出来。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_010.png)
 
@@ -89,7 +89,7 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 而想要拿到第一名，其实会有一定难度的。
 
-当然如果你就想拿来练手，也可以去试试，目标不要那么高，只要能够进入谷歌搜索结果前10 ，就算练手成功了。
+当然如果你就想拿来练手，也可以去试试，目标不要那么高，只要能够进入谷歌搜索结果前 10 ，就算练手成功了。
 
 上面提到了 sites.google.com ，这是啥子东西？
 
@@ -109,4 +109,4 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 想要知道吗？
 
-想要跟着一起做网站赚美元吗？想要跟着哥飞学SEO搞流量吗？ 欢迎加入哥飞的付费社群"哥飞的朋友们"。
+想要跟着一起做网站赚美元吗？想要跟着哥飞学 SEO搞流量吗？ 欢迎加入哥飞的付费社群"哥飞的朋友们"。
