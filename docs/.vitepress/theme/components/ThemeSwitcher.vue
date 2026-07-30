@@ -115,6 +115,7 @@ onUnmounted(() => {
   position: relative;
   display: flex;
   align-items: center;
+  max-width: 100%;
 }
 
 .theme-switcher-btn {
@@ -164,7 +165,9 @@ onUnmounted(() => {
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  min-width: 200px;
+  width: max-content;
+  min-width: min(200px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
   background: var(--vp-c-bg-elv);
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;

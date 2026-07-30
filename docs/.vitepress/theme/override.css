@@ -452,7 +452,7 @@ textarea {
   .easton-clone-page main,
   .easton-clone-footer { width: min(100% - 32px, 1160px); }
   .easton-clone-header { align-items: flex-start; flex-direction: column; gap: 14px; padding: 16px 0; }
-  .easton-clone-nav { flex-wrap: wrap; gap: 8px 12px; }
+  .easton-clone-nav { width: 100%; flex-wrap: wrap; gap: 8px 12px; }
   .easton-clone-hero { padding: 72px 0 72px; }
   .easton-clone-hero h1 { font-size: clamp(48px, 14vw, 68px); }
   .easton-clone-actions { flex-wrap: wrap; gap: 12px 18px; }
@@ -1042,13 +1042,25 @@ textarea {
   }
 
   .vp-landing .landing-nav-inner {
+    align-items: flex-start;
+    flex-direction: column;
     min-height: 64px;
-    gap: 16px;
+    gap: 14px;
+    padding: 16px 0;
   }
 
   .vp-landing .landing-nav-links {
-    gap: 14px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 14px;
     font-size: 13px;
+  }
+
+  .vp-landing .landing-theme-dropdown,
+  .vp-landing .theme-dropdown {
+    right: auto;
+    left: 0;
   }
 
   .vp-landing .landing-main {

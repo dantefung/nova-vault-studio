@@ -71,6 +71,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   position: relative;
   display: flex;
   align-items: center;
+  max-width: 100%;
 }
 
 .landing-theme-switcher-button,
@@ -81,6 +82,8 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
 
 .landing-theme-switcher-button {
   display: inline-flex;
+  width: 100%;
+  min-width: 0;
   align-items: center;
   gap: 7px;
   padding: 6px 8px;
@@ -107,7 +110,13 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   border-radius: 50%;
 }
 
+.landing-theme-switcher-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .landing-theme-switcher-arrow {
+  flex: 0 0 auto;
   color: var(--library-muted, var(--vp-c-text-3));
   line-height: 1;
   transition: transform 180ms ease;
@@ -122,7 +131,9 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
   top: calc(100% + 8px);
   right: 0;
   z-index: 100;
-  min-width: 190px;
+  width: max-content;
+  min-width: min(190px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
   padding: 7px;
   border: 1px solid var(--library-border, var(--vp-c-border));
   border-radius: 9px;
