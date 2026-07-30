@@ -1,22 +1,54 @@
+---
+title: "落地页风格系统"
+date: "2026-07-30"
+source: "Nova Vault Studio"
+url: ""
+---
+
 # 落地页风格系统
 
-System Vault 首页支持 **8 种落地页风格** 切换，用户可以在页面导航栏右侧的「风格」下拉菜单中实时切换，无需刷新页面，风格偏好自动保存。
+System Vault 首页当前采用单一的 **Quiet Library** 风格：浅色纸面、蓝色强调、圆角面板和克制交互，服务于知识分类导航与最近更新阅读。
+
+历史版本曾支持 8 种首页风格切换，现已由 Quiet Library 替代。详细的迁移过程和经验记录在[首页 Quiet Library 改造开发日志](../dev-log/homepage-quiet-library.md)。
 
 > 本落地页系统使用 [Huashu-Design](https://github.com/alchaincyf/huashu-design) skill 设计生成。
 
 ## 设计理念
 
-8 种风格来自 5 个不同设计流派，确保视觉差异化：
+首页优先解决知识库导航问题，而不是展示风格选项：
 
-| 流派 | 风格 | 特点 |
-|------|------|------|
-| 极简主义 | 晴空 / 静界 | 克制留白、秩序感 |
-| 叙事设计 | 杂志 / 暖域 | 强对比、杂志排版 |
-| 技术美学 | 极客 | 终端感、代码风格 |
-| 东方哲学 | 诗卷 | 竖排、纸卷、水墨 |
-| 现代实用 | 卡片 / 暗魄 | 信息密度、导航导向 |
+| 目标 | 实现 |
+|------|------|
+| 快速开始 | Hero 提供 Guide 入口 |
+| 内容导航 | 分类卡片链接到真实知识板块 |
+| 持续阅读 | 最近更新列表链接到真实文章 |
+| 长期使用 | 浅色、暗色、sepia 三种主题状态保持一致 |
 
-## 八种风格
+## Quiet Library 视觉规范
+
+```text
+背景: #f8fafc
+内容表面: #ffffff
+主文字: #172033
+正文: #475569
+强调色: #2563eb
+浅蓝面板: #eff6ff
+边框: #dbe4ef
+```
+
+首页布局使用居中内容列、三列分类网格和单列最近更新列表。平板端缩为两列，移动端缩为单列。卡片只使用轻微 hover 反馈，不使用轮播、视差或滚动驱动切换。
+
+### 主题状态
+
+- `light`：浅蓝灰纸面和蓝色强调。
+- `dark`：深蓝灰背景、浅色文字和浅蓝强调。
+- `sepia`：暖纸色背景、棕色文字和棕色强调。
+
+所有首页 token 都限定在 `.vp-landing` 下，不修改文档页全局主题变量。
+
+## 历史风格
+
+以下 8 种风格是历史实现，不再作为首页可切换功能保留。
 
 ### 1. 晴空 · 极简学术（Clear）
 
@@ -150,7 +182,7 @@ System Vault 首页支持 **8 种落地页风格** 切换，用户可以在页�
 ```
 docs/.vitepress/theme/
 ├── layouts/
-│   └── HomeLayout.vue           # 落地页 Layout（含 8 种风格）
+│   └── HomeLayout.vue           # Quiet Library 首页 Layout
 ├── index.js                      # 主题入口，根据路由分发 Layout
 └── MyLayout.vue                  # 文档页 Layout（非落地页路由）
 ```
@@ -163,50 +195,42 @@ VitePress 路由
 └── /md/*                       → MyLayout.vue（文档页）
 
 HomeLayout.vue 内部：
-├── 导航栏 + 风格下拉
-├── 8 个 <section v-if="landingStyle === 'xxx'">
-└── 风格 CSS（scoped 在 .vp-landing.style-{name} 下）
+├── 导航栏 + 主题切换
+├── Hero 定位区域
+├── 知识分类入口
+└── 最近更新列表
 ```
 
-### 风格切换逻辑
+### 首页数据结构
 
 ```javascript
-// HomeLayout.vue
-const STYLES = [
-  { key: 'clear',    name: '晴空', desc: '极简学术风', color: '#3451b2' },
-  { key: 'magazine', name: '杂志', desc: '大写叙事风', color: '#9b7653' },
-  { key: 'tech',     name: '极客', desc: '代码美学风', color: '#3fb950' },
-  { key: 'poetry',   name: '诗卷', desc: '东方诗意风', color: '#2d6a4f' },
-  { key: 'cards',    name: '卡片', desc: '现代导航风', color: '#e65100' },
-  { key: 'brutal',   name: '暗魄', desc: '粗野几何风', color: '#e63946' },
-  { key: 'editorial',name: '暖域', desc: '杂志编辑风', color: '#d4a373' },
-  { key: 'zen',      name: '静界', desc: '极简禅意风', color: '#adb5bd' },
+const libraryEntries = [
+  { label: '指南', href: '/md/guide/getting-started' },
+  { label: 'Wiki', href: '/md/wiki/' },
+  { label: '专栏', href: '/md/columns/' },
+  { label: '书籍', href: '/md/books/' },
+  { label: '教程', href: '/md/tutorial/' },
 ]
 
-// localStorage 持久化
-onMounted(() => {
-  const saved = localStorage.getItem('vp-landing-style')
-  if (saved && STYLES.some(s => s.key === saved)) {
-    landingStyle.value = saved
-  }
-})
+const recentUpdates = [
+  { title: 'Happy Coder：用手机远程操控 Claude Code', href: '/md/guide/claude-code/happy-coder-remote-control' },
+  { title: '网站分析与关键词挖掘：核心转折点全部突破', href: '/md/columns/indie-hub/seo/keyword-analysis/keyword-breakthrough-round-15' },
+]
 ```
 
 ### CSS 隔离
 
-每种风格使用独立的 CSS 类隔离：
+首页样式统一使用 `.vp-landing` 前缀，避免影响文档页：
 
 ```css
-/* 晴空风格 */
-.vp-landing.style-clear { background: var(--vp-c-bg); }
+.vp-landing {
+  --library-bg: #f8fafc;
+  --library-surface: #fff;
+  --library-primary: #2563eb;
+}
 
-/* 极客风格 */
-.vp-landing.style-tech { background: #0d1117; }
-
-/* 诗卷风格 */
-.vp-landing.style-poetry { background: #f5f0e8; }
-
-/* ... 其他风格 */
+.vp-landing.theme-dark { /* dark tokens */ }
+.vp-landing.theme-sepia { /* sepia tokens */ }
 ```
 
 ### 多路由支持
@@ -222,18 +246,10 @@ docs/
 └── v5/index.md     → /v5/
 ```
 
-当前版本使用同一 Layout 内切换视觉风格，不再需要多路由。
+当前版本使用同一 Layout 渲染 Quiet Library，不再通过首页风格选择器切换视觉。
 
-## 扩展主题
+如需调整首页，应优先修改内容入口、最近更新数据和 `.vp-landing` 局部 token；不要恢复多套首页风格切换，除非先重新完成信息架构和维护成本评估。
 
-如需添加新风格，只需：
+## 相关文档
 
-1. 在 `STYLES` 数组中追加配置项
-2. 在模板中添加 `<section v-else-if="landingStyle === '新key'">`
-3. 在 `<style>` 中添加 `.vp-landing.style-{新key} {}` 样式块
-
-## 致谢
-
-> System Vault 的落地页风格系统由 [Huashu-Design](https://github.com/alchaincyf/huashu-design) skill 设计生成。
->
-> Huashu-Design 是一个基于 HTML 的设计技能，帮助快速生成高保真交互原型、设计变体探索、动画演示等多种视觉产出。
+- [首页 Quiet Library 改造开发日志](../dev-log/homepage-quiet-library.md)

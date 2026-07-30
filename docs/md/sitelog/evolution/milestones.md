@@ -1,6 +1,8 @@
 ---
 title: "演进历程与里程碑"
 date: "2026-07-26"
+source: "Nova Vault Studio"
+url: ""
 ---
 
 # 演进历程与里程碑
@@ -25,8 +27,8 @@ date: "2026-07-26"
 
 ### 2026-04: 主题系统与落地页风格
 *   **多主题切换**: 实现三种主题（晴空/暗夜/纸卷）自由切换，localStorage 持久化，SSR 防闪烁
-*   **落地页风格系统**: 首页支持 8 种落地页风格（晴空/杂志/极客/诗卷/卡片/暗魄/暖域/静界），导航栏下拉实时切换
-*   **设计工具**: 使用 [Huashu-Design](https://github.com/alchaincyf/huashu-design) skill 完成主题和落地页的设计与实现
+*   **落地页风格系统**: 历史版本曾支持 8 种风格切换，后收敛为 Quiet Library 单一首页，优先服务知识分类导航和最近更新阅读
+*   **设计工具**: 早期主题与落地页使用 Huashu-Design，2026-07 首页改造采用 Quiet Library 视觉方案
 
 ### 2026-07: 主题扩展与备份体系
 *   **Teek 主题引入**: 安装 [vitepress-theme-teek](https://github.com/teek/vitepress-theme-teek)，~1k stars，支持文档风/博客风模式切换，适合个人博客/知识库场景
