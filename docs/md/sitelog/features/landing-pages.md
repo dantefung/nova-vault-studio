@@ -7,9 +7,9 @@ url: ""
 
 # 落地页风格系统
 
-System Vault 首页当前采用单一的 **Quiet Library** 风格：浅色纸面、蓝色强调、圆角面板和克制交互，服务于知识分类导航与最近更新阅读。
+System Vault 首页当前提供两种独立的视觉风格：默认的 **Quiet Library**，以及可手动切换的 **Easton Blog** 编辑风格。两者都服务于知识分类导航与最近更新阅读。
 
-历史版本曾支持 8 种首页风格切换，现已由 Quiet Library 替代。详细的迁移过程和经验记录在[首页 Quiet Library 改造开发日志](../dev-log/homepage-quiet-library.md)。
+历史版本曾支持 8 种首页风格切换，现已收敛为两种可维护的视觉模式。详细的实现过程和经验记录在[首页 Quiet Library 改造开发日志](../dev-log/homepage-quiet-library.md)。
 
 > 本落地页系统使用 [Huashu-Design](https://github.com/alchaincyf/huashu-design) skill 设计生成。
 
@@ -23,6 +23,13 @@ System Vault 首页当前采用单一的 **Quiet Library** 风格：浅色纸面
 | 内容导航 | 分类卡片链接到真实知识板块 |
 | 持续阅读 | 最近更新列表链接到真实文章 |
 | 长期使用 | 浅色、暗色、sepia 三种主题状态保持一致 |
+
+## 两套独立状态
+
+- **首页视觉风格**：`Quiet Library` / `Easton Blog`，保存于 `vp-landing-theme`，只影响首页布局的局部 token 和排版。
+- **全局颜色模式**：`light` / `dark` / `sepia`，保存于 `vp-theme`，继续由现有主题切换器管理，影响首页和文档页的颜色模式。
+
+这两个状态可以自由组合，例如 `Easton Blog + dark` 或 `Quiet Library + sepia`，互不覆盖，也不会改变文档页布局。
 
 ## Quiet Library 视觉规范
 
@@ -45,6 +52,10 @@ System Vault 首页当前采用单一的 **Quiet Library** 风格：浅色纸面
 - `sepia`：暖纸色背景、棕色文字和棕色强调。
 
 所有首页 token 都限定在 `.vp-landing` 下，不修改文档页全局主题变量。
+
+### Easton Blog 视觉规范
+
+Easton 模式使用暖纸色背景、棕红强调色、衬线标题、粗分隔线和编号内容入口。它复用 Quiet Library 的 Hero、分类网格、最近更新和真实链接，不复制另一套首页模板。
 
 ## 历史风格
 
@@ -195,7 +206,7 @@ VitePress 路由
 └── /md/*                       → MyLayout.vue（文档页）
 
 HomeLayout.vue 内部：
-├── 导航栏 + 主题切换
+├── 导航栏 + 首页视觉切换 + 全局颜色切换
 ├── Hero 定位区域
 ├── 知识分类入口
 └── 最近更新列表
@@ -246,9 +257,9 @@ docs/
 └── v5/index.md     → /v5/
 ```
 
-当前版本使用同一 Layout 渲染 Quiet Library，不再通过首页风格选择器切换视觉。
+当前版本使用同一 Layout 渲染两种首页视觉模式。首页视觉切换器只读写 `vp-landing-theme`，全局主题切换器只读写 `vp-theme`。
 
-如需调整首页，应优先修改内容入口、最近更新数据和 `.vp-landing` 局部 token；不要恢复多套首页风格切换，除非先重新完成信息架构和维护成本评估。
+如需调整首页，应优先修改内容入口、最近更新数据和 `.vp-landing` 局部 token；新增视觉模式前先重新完成信息架构和维护成本评估。
 
 ## 相关文档
 

@@ -2,10 +2,11 @@
 import { computed } from 'vue'
 import { useRoute } from 'vitepress'
 import ThemeSwitcher from '../components/ThemeSwitcher.vue'
+import LandingThemeSwitcher from '../components/LandingThemeSwitcher.vue'
 import { useTheme } from '../composables/useTheme.js'
 
 const route = useRoute()
-const { currentTheme } = useTheme()
+const { currentTheme, currentLandingTheme } = useTheme()
 
 const isLanding = computed(() =>
   ['/', '/v2/', '/v3/', '/v4/', '/v5/'].includes(route.path),
@@ -48,13 +49,14 @@ const recentUpdates = [
 </script>
 
 <template>
-  <div v-if="isLanding" class="vp-landing" :class="`theme-${currentTheme}`">
+  <div v-if="isLanding" class="vp-landing" :class="[`theme-${currentTheme}`, `landing-theme-${currentLandingTheme}`]">
     <header class="landing-nav">
       <div class="landing-nav-inner">
         <a href="/" class="landing-logo">System Vault</a>
         <nav class="landing-nav-links" aria-label="站点导航">
           <a href="/md/guide/getting-started">开始阅读</a>
           <a href="https://github.com/dantefung/nova-vault-studio" target="_blank" rel="noreferrer">GitHub</a>
+          <LandingThemeSwitcher />
           <ThemeSwitcher />
         </nav>
       </div>

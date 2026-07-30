@@ -9,12 +9,13 @@ url: ""
 
 ## 变更目标
 
-将 `https://eastondev.com/blog/zh/` 的首页视觉语言转化为 Nova Vault Studio 的默认首页样式。最终选择 **A · Quiet Library**：浅色纸面、蓝色强调、圆角面板、克制交互，服务于长期阅读和知识导航。
+将 `https://eastondev.com/blog/zh/` 的首页视觉语言转化为 Nova Vault Studio 的首页样式。默认仍是 **A · Quiet Library**：浅色纸面、蓝色强调、圆角面板、克制交互；同时提供可选的 **Easton Blog** 编辑风格，服务于不同阅读偏好和知识导航。
 
 本次范围严格限制为首页：
 
 - 首页同时提供知识分类入口和最近更新内容。
-- 文章页、Wiki 页、侧边栏、搜索、评论和主题切换继续使用原有机制。
+- 文章页、Wiki 页、侧边栏、搜索和评论继续使用原有机制。
+- 全局颜色模式（`light` / `dark` / `sepia`）与首页视觉风格（`quiet` / `easton`）独立保存、独立切换。
 - 不增加后端、数据库、运行时文件扫描或虚构统计数据。
 
 ## 实现结果
@@ -23,7 +24,7 @@ url: ""
 
 首页从上到下分为：
 
-1. 保留站点品牌、开始阅读、GitHub 和主题切换。
+1. 保留站点品牌、开始阅读、GitHub、首页视觉切换和全局颜色切换。
 2. Hero：说明这是一个个人知识库，并给出 Guide 作为第一阅读路径。
 3. 知识分类入口：Guide、Wiki、Columns、Books、Tutorial、AGI、商业、Slides 和知识库总览。
 4. 最近更新：展示 4 篇仓库中真实存在的文章，并链接到真实页面。
@@ -32,8 +33,8 @@ url: ""
 ### 代码改动
 
 - `docs/.vitepress/theme/layouts/HomeLayout.vue`
-  - 删除原来 8 套首页风格和 localStorage 风格选择器。
-  - 收敛为单一 Quiet Library 首页。
+  - 删除原来 8 套首页风格，保留 Quiet Library 默认首页结构。
+  - 增加独立的 Quiet Library / Easton Blog 首页视觉切换。
   - 使用数组和 `v-for` 渲染分类入口与最近更新。
   - 入口全部使用普通站内链接，不用 click handler 伪造导航。
 
@@ -43,6 +44,14 @@ url: ""
   - 实现桌面三列、平板两列、移动单列布局。
   - 实现卡片 hover/focus、圆角、轻微阴影和 `prefers-reduced-motion`。
   - 保留原有侧边栏和输入框修复规则。
+
+- `docs/.vitepress/theme/composables/useTheme.js`
+  - 保留 `vp-theme` 全局颜色主题状态。
+  - 增加独立的 `vp-landing-theme` 首页视觉状态。
+
+- `docs/.vitepress/theme/components/LandingThemeSwitcher.vue`
+  - 提供可访问的首页视觉模式下拉菜单。
+  - 只读写首页视觉状态，不接管全局颜色主题。
 
 - `docs/index.md`
   - 删除旧的 VitePress `hero` 和 `features` 配置。
@@ -99,6 +108,10 @@ url: ""
 | `neat-freak` | 收尾时检查过期文档，并同步修正仍描述 8 套首页风格的功能文档 |
 | `retrospective-codify` | 从死链接、主题遗漏和构建验证中提炼可复用经验；本次经验属于项目开发日志，没有新增全局规则或技能 |
 
+### 9. 两个主题维度必须分开
+
+首页视觉模式不是颜色主题的别名。`Easton Blog` 必须在 `light`、`dark` 和 `sepia` 下都可读；全局主题切换不能把首页切回 Quiet，也不能影响文档页布局。
+
 ## 验证结果
 
 - `npm run build`：通过。
@@ -108,7 +121,7 @@ url: ""
 - 分类入口：均指向真实页面或目录。
 - 最近更新：4 篇文章链接均指向真实页面。
 - 文章页和 Wiki 页：继续使用默认 VitePress 文档布局。
-- 搜索和主题切换：回归验证通过。
+- 搜索、全局颜色主题和首页视觉主题：回归验证通过。
 - 本项目 VitePress 开发服务器：验证后已停止。
 
 构建仍有两个既存警告：`useTheme.js` 同时被静态和动态导入，以及部分 chunk 超过 500 kB。这些不是本次首页改造引入的功能错误，留待独立性能任务处理。
@@ -117,5 +130,6 @@ url: ""
 
 - 首页入口新增或改名时，必须先确认目标 Markdown 或目录真实存在。
 - 修改主题 token 时，同时检查 `light`、`dark`、`sepia` 三种首页状态。
+- 修改首页视觉模式时，同时检查 `quiet`、`easton` 两种状态及其与三种颜色模式的组合。
 - 首页样式必须继续使用 `.vp-landing` 作用域。
 - 修改首页后至少运行 `npm run build`，并验证移动端没有横向溢出。

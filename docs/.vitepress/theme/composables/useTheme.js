@@ -5,10 +5,14 @@ import { ref, watch, readonly } from 'vue'
 
 const STORAGE_KEY = 'vp-theme'
 const THEMES = ['light', 'dark', 'sepia']
+const LANDING_STORAGE_KEY = 'vp-landing-theme'
+const LANDING_THEMES = ['quiet', 'easton']
 
 // 当前主题 ref（模块级单例）
 const currentTheme = ref('light')
+const currentLandingTheme = ref('quiet')
 let initialized = false
+let landingInitialized = false
 
 // 初始化：从 localStorage 读取，兜底跟随系统
 function initTheme() {
@@ -46,6 +50,24 @@ function setTheme(name) {
   applyTheme(name)
 }
 
+function initLandingTheme() {
+  if (typeof window === 'undefined' || landingInitialized) return
+  landingInitialized = true
+
+  const saved = localStorage.getItem(LANDING_STORAGE_KEY)
+  if (LANDING_THEMES.includes(saved)) {
+    currentLandingTheme.value = saved
+  }
+}
+
+function setLandingTheme(name) {
+  if (!LANDING_THEMES.includes(name)) return
+  currentLandingTheme.value = name
+  if (typeof window !== 'undefined') {
+    localStorage.setItem(LANDING_STORAGE_KEY, name)
+  }
+}
+
 // 切换到下一个主题（循环）
 function toggleTheme() {
   const idx = THEMES.indexOf(currentTheme.value)
@@ -67,6 +89,7 @@ function getGiscusTheme(theme) {
 // 自动初始化（SSR 安全）
 export function setupTheme() {
   initTheme()
+  initLandingTheme()
 }
 
 export function useTheme() {
@@ -75,6 +98,9 @@ export function useTheme() {
     setTheme,
     toggleTheme,
     getGiscusTheme,
-    THEMES
+    THEMES,
+    currentLandingTheme: readonly(currentLandingTheme),
+    setLandingTheme,
+    LANDING_THEMES
   }
 }
