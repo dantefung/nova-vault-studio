@@ -201,6 +201,21 @@ chmod +x .git/hooks/pre-commit
 
 ---
 
+## 归档脱敏要求
+
+归档文件时，检查并替换以下敏感信息：
+
+- **Webhook URL**：飞书/企微机器人的 hook token 和 key
+- **API Token / Secret Key**：Cloudflare 隧道 token、GitHub token、API key 等
+- **ChatGPT 分享链接**：`chatgpt.com/share/` 链接可能泄露私人对话
+- **云服务 Dashboard URL**：含 account ID 的链接（如 `dash.cloudflare.com/xxxxxxxx`）
+- **服务器 IP / 域名**：如有生产环境敏感信息，用 `<SERVER_IP>` 替换
+- **个人路径**：`/home/用户名` 等路径，用 `/home/<USER>` 替换
+
+替换方式：用 `<PLACEHOLDER>` 占位符替代，如 `<WEBHOOK_TOKEN>`、`<API_KEY>` 等。
+
+---
+
 ## 图片存放规范
 
 ```
