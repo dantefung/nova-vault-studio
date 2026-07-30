@@ -1,6 +1,7 @@
 <script setup>
 import ThemeSwitcher from './ThemeSwitcher.vue'
 import LandingThemeSwitcher from './LandingThemeSwitcher.vue'
+import EastonSearchTrigger from './EastonSearchTrigger.vue'
 
 const categories = [
   { label: '技术开发', count: '225', href: '/md/guide/' },
@@ -37,6 +38,7 @@ const latest = [
         <a href="/md/columns/">系列</a>
         <a href="/md/wiki/">分类</a>
         <a href="/md/wiki/">归档</a>
+        <EastonSearchTrigger variant="nav" label="搜索文章" />
         <LandingThemeSwitcher />
         <ThemeSwitcher />
       </nav>
@@ -47,7 +49,8 @@ const latest = [
         <p class="easton-clone-overline">AI · DEV · AUTOMATION</p>
         <h1>AI、开发、自动化<br />与独立产品笔记。</h1>
         <p>文章、指南、工具与项目笔记，覆盖 AI、开发、自动化、知识管理与独立创造。</p>
-        <div class="easton-clone-actions"><a href="/md/guide/">搜索知识</a><a href="/md/columns/">浏览系列</a><a href="/md/wiki/">分类入口</a></div>
+        <div class="easton-clone-actions"><EastonSearchTrigger variant="action" label="搜索问题" /><a href="/md/columns/">浏览系列</a><a href="/md/wiki/">分类入口</a></div>
+        <EastonSearchTrigger variant="bar" label="搜索问题" />
       </section>
 
       <section class="easton-clone-entry">
