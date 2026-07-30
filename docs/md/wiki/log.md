@@ -1396,3 +1396,22 @@ source: "llm-wiki"
 **操作**：归档 Draw.io Desktop 在 Linux 上的安装与 CLI 导出方法
 **位置**：`sources/linux-drawio-desktop-cli.md`
 **内容**：5 种安装方式（Snap / AppImage / DEB / Flatpak / Docker），drawio CLI 导出命令示例，rlespinasse/drawio-cli 已废弃提示
+
+## [2026-07-30] ingest: Matt Pocock wayfinder + handoff
+
+**操作**：归档微信公众号文章《Matt Pocock wayfinder + handoff：AI Agent 跨 5 次会话接力赛不掉链》至 sources/
+**位置**：`sources/h1httNlFmRqN9jyOAO380A.md`
+**图片**：4 张已下载到 `images/h1httNlFmRqN9jyOAO380A/`
+**内容摘要**：Matt Pocock 的 wayfinder（多会话共享地图）与 handoff（会话边界交接）接力协议解析。smart zone vs dumb zone 机制（~120K tokens 阈值），三场景选择框架（main flow / handoff / wayfinder），5 次会话接力真实案例，setup-matt-pocock-skills 地基说明
+
+## [2026-07-28] ingest: 林一 Cloudflare Zero Trust Access
+
+**操作**：归档微信公众号文章《林一的 Cloudflare 通关记》第 12 篇至 sources/
+**位置**：`sources/9BiipNeCgOvBnVvCzY0FkA.md`
+**图片**：6 张已下载到 `images/9BiipNeCgOvBnVvCzY0FkA/`
+**内容摘要**：零信任（Zero Trust）网络安全模型——"永不信任，始终验证"，vs 传统城堡模型。Cloudflare Access 免费 50 用户实现零信任访问控制，身份即服务（IdaaS）概念，Access 工作原理（反向代理 + JWT 验证 + 策略引擎），与阿里云 IDaaS/腾讯云身份管家对比
+
+**操作**：归档微信公众号文章《Matt Pocock wayfinder + handoff：AI Agent 跨 5 次会话接力赛不掉链》至 sources/
+**位置**：`sources/h1httNlFmRqN9jyOAO380A.md`
+**图片**：4 张已下载到 `images/h1httNlFmRqN9jyOAO380A/`
+**内容摘要**：Matt Pocock 的 wayfinder（多会话共享地图）与 handoff（会话边界交接）接力协议解析。smart zone vs dumb zone 机制（~120K tokens 阈值），三场景选择框架（main flow / handoff / wayfinder），5 次会话接力真实案例，setup-matt-pocock-skills 地基说明
