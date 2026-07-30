@@ -11,6 +11,7 @@ title: Other Tools
 - [Age App Template Introduction](./age-app-template-introduction.md)
 - [Agent Background Tasks](./agent-background-tasks.md)
 - [Claude Code Connect Feishu Guide](./cc-connect-feishu-guide.md)
+- [Claude Code Connect `/model` 命令](./cc-connect-model-switch.md)
 - [Claude Code Connect Multi Project Guide](./cc-connect-multi-project-guide.md)
 - [Codex Video Subtitle](./codex-video-subtitle.md)
 - [Coding Tutor Plugin Architecture](./coding-tutor-plugin-architecture.md)
