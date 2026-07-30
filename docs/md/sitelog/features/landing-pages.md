@@ -7,9 +7,9 @@ url: ""
 
 # 落地页风格系统
 
-System Vault 首页当前提供两种独立的视觉风格：默认的 **Quiet Library**，以及可手动切换的 **Easton Blog** 编辑风格。两者都服务于知识分类导航与最近更新阅读。
+System Vault 首页当前提供三种独立的视觉风格：默认的 **Quiet Library**、编辑化的 **Easton Blog**，以及尽量复刻 `eastondev.com/blog/zh/` 内容门户结构的 **Easton Clone**。三者都可以通过首页风格菜单手动切换。
 
-历史版本曾支持 8 种首页风格切换，现已收敛为两种可维护的视觉模式。详细的实现过程和经验记录在[首页 Quiet Library 改造开发日志](../dev-log/homepage-quiet-library.md)。
+历史版本曾支持 8 种首页风格切换，现已收敛为三种可维护的视觉模式。详细的实现过程和经验记录在[首页 Quiet Library 改造开发日志](../dev-log/homepage-quiet-library.md)。
 
 > 本落地页系统使用 [Huashu-Design](https://github.com/alchaincyf/huashu-design) skill 设计生成。
 
@@ -26,10 +26,10 @@ System Vault 首页当前提供两种独立的视觉风格：默认的 **Quiet L
 
 ## 两套独立状态
 
-- **首页视觉风格**：`Quiet Library` / `Easton Blog`，保存于 `vp-landing-theme`，只影响首页布局的局部 token 和排版。
+- **首页视觉风格**：`Quiet Library` / `Easton Blog` / `Easton Clone`，保存于 `vp-landing-theme`，只影响首页视觉和首页内容门户布局。
 - **全局颜色模式**：`light` / `dark` / `sepia`，保存于 `vp-theme`，继续由现有主题切换器管理，影响首页和文档页的颜色模式。
 
-这两个状态可以自由组合，例如 `Easton Blog + dark` 或 `Quiet Library + sepia`，互不覆盖，也不会改变文档页布局。
+这两个状态可以自由组合，例如 `Easton Clone + dark` 或 `Quiet Library + sepia`，互不覆盖，也不会改变文档页布局。
 
 ## Quiet Library 视觉规范
 
@@ -56,6 +56,10 @@ System Vault 首页当前提供两种独立的视觉风格：默认的 **Quiet L
 ### Easton Blog 视觉规范
 
 Easton 模式使用暖纸色背景、棕红强调色、衬线标题、粗分隔线和编号内容入口。它复用 Quiet Library 的 Hero、分类网格、最近更新和真实链接，不复制另一套首页模板。
+
+### Easton Clone 视觉规范
+
+Easton Clone 复刻目标站首页的内容门户结构：顶部博客导航、主 Hero、阅读入口、系列专题、编辑精选、最新文章、分类浏览和页脚资源导航。由于本仓库没有目标站的文章数据和插画资源，Clone 主题只复刻公开页面的结构、密度、色彩、分隔线、排版比例和交互层级，内容链接替换为本仓库真实页面，不直接复制目标站内容或资源。
 
 ## 历史风格
 

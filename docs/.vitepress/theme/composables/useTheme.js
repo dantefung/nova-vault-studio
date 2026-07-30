@@ -6,7 +6,7 @@ import { ref, watch, readonly } from 'vue'
 const STORAGE_KEY = 'vp-theme'
 const THEMES = ['light', 'dark', 'sepia']
 const LANDING_STORAGE_KEY = 'vp-landing-theme'
-const LANDING_THEMES = ['quiet', 'easton']
+const LANDING_THEMES = ['quiet', 'easton', 'easton-clone']
 
 // 当前主题 ref（模块级单例）
 const currentTheme = ref('light')

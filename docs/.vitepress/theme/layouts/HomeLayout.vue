@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vitepress'
 import ThemeSwitcher from '../components/ThemeSwitcher.vue'
 import LandingThemeSwitcher from '../components/LandingThemeSwitcher.vue'
+import EastonCloneLayout from '../components/EastonCloneLayout.vue'
 import { useTheme } from '../composables/useTheme.js'
 
 const route = useRoute()
@@ -50,6 +51,8 @@ const recentUpdates = [
 
 <template>
   <div v-if="isLanding" class="vp-landing" :class="[`theme-${currentTheme}`, `landing-theme-${currentLandingTheme}`]">
+    <EastonCloneLayout v-if="currentLandingTheme === 'easton-clone'" />
+    <template v-else>
     <header class="landing-nav">
       <div class="landing-nav-inner">
         <a href="/" class="landing-logo">System Vault</a>
@@ -103,6 +106,7 @@ const recentUpdates = [
     <footer class="landing-footer">
       <span>© 2024-present DANTE FUNG · MIT License</span>
     </footer>
+    </template>
   </div>
 
   <slot v-else />

@@ -8,6 +8,7 @@ const isOpen = ref(false)
 const themes = {
   quiet: { name: 'Quiet Library', desc: '安静的知识库', accent: '#2563eb' },
   easton: { name: 'Easton Blog', desc: '编辑感首页', accent: '#b85c38' },
+  'easton-clone': { name: 'Easton Clone', desc: '完整博客门户', accent: '#e7683d' },
 }
 
 function selectTheme(name) {
