@@ -104,6 +104,7 @@ date: "2026-05-05"
 
 ## 开源工具
 
+- [k12-teacher-skills](https://github.com/anthropics/k12-teacher-skills) — Anthropic 开源的教师备课神器，把教育研究验证过的最佳实践封装成 AI 可执行的「技能脚本」。三大功能：教案生成（自动识别科目加载教学法框架，对标州课程标准编号，一次产出教师计划/学生材料/观察模板三份 Word）、教案分层改编（低于/达标/高于年级水平三层，用于大班差异化教学）、开源质量评分标准（evals/ 四维度 CSV 评分表，支持 LLM-as-Judge）
 - [Glarity](https://chromewebstore.google.com/detail/cmnlolelipjlhfkhpohphpedmkfbobjc) — Chrome 扩展，AI 助手，支持自定义 OpenAI API Key，免费使用全部功能
 - [Easy Scraper](https://chromewebstore.google.com/detail/cljbfnedccphacfneigoegkiieckjndh) — Chrome 扩展，网页数据采集工具，无需编码，支持智能选择/批量采集/CSV或Excel导出/自动翻页
 - [SiteSucker](https://ricks-apps.com/osx/sitesucker/) — Mac 网站下载工具，完整下载 HTML/图片/视频/音频等所有资源，保持目录结构，支持断点续传/离线浏览
