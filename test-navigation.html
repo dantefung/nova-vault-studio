@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>导航问题诊断</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ccc; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+        .log { background: #f5f5f5; padding: 10px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>VitePress 导航交互诊断工具</h1>
+    
+    <div class="test-section">
+        <h2>步骤 1: 打开你的知识库</h2>
+        <p>在浏览器中打开: <code>http://localhost:5173</code></p>
+    </div>
+
+    <div class="test-section">
+        <h2>步骤 2: 打开浏览器开发者工具</h2>
+        <ol>
+            <li>按 F12 或右键 → 检查</li>
+            <li>切换到 Console 标签</li>
+        </ol>
+    </div>
+
+    <div class="test-section">
+        <h2>步骤 3: 在 Console 中运行以下代码</h2>
+        <button onclick="copyCode1()">复制代码 1</button>
+        <pre id="code1">// 检查 VitePress 类名
+console.log('=== 侧边栏元素检查 ===');
+console.log('Sidebar:', document.querySelector('.VPSidebar'));
+console.log('Sidebar Items:', document.querySelectorAll('.VPSidebarItem').length);
+console.log('Links:', document.querySelectorAll('.VPSidebarItem a').length);
+console.log('Buttons:', document.querySelectorAll('.VPSidebarItem button').length);</pre>
+    </div>
+
+    <div class="test-section">
+        <h2>步骤 4: 检查样式</h2>
+        <button onclick="copyCode2()">复制代码 2</button>
+        <pre id="code2">// 检查第一个侧边栏项的样式
+const firstItem = document.querySelector('.VPSidebarItem');
+if (firstItem) {
+    const styles = window.getComputedStyle(firstItem);
+    console.log('pointer-events:', styles.pointerEvents);
+    console.log('z-index:', styles.zIndex);
+    console.log('display:', styles.display);
+}</pre>
+    </div>
+
+    <div class="test-section">
+        <h2>步骤 5: 强制修复</h2>
+        <button onclick="copyCode3()">复制代码 3</button>
+        <pre id="code3">// 强制应用可点击样式
+document.querySelectorAll('.VPSidebarItem, .VPSidebarItem a, .VPSidebarItem button, .VPNavBarMenuGroup button, .VPFlyout, .VPMenu').forEach(el => {
+    el.style.pointerEvents = 'auto';
+    el.style.cursor = 'pointer';
+});
+console.log('✅ 已强制修复所有交互元素');</pre>
+    </div>
+
+    <script>
+        function copyCode1() {
+            navigator.clipboard.writeText(document.getElementById('code1').textContent);
+            alert('代码已复制到剪贴板！');
+        }
+        function copyCode2() {
+            navigator.clipboard.writeText(document.getElementById('code2').textContent);
+            alert('代码已复制到剪贴板！');
+        }
+        function copyCode3() {
+            navigator.clipboard.writeText(document.getElementById('code3').textContent);
+            alert('代码已复制到剪贴板！');
+        }
+    </script>
+</body>
+</html>
