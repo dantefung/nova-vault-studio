@@ -8,8 +8,8 @@ source: "原创"
 
 ## 机器人 Webhook
 
-- 飞书个人机器人：`https://open.feishu.cn/open-apis/bot/v2/hook/a99ab03d-c559-4e26-b979-6d9d3311368b`
-- 企微个人机器人：`https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=4b2fb04c-603d-48ca-87c6-ee0a1bf96baf`
+- 飞书个人机器人：`https://open.feishu.cn/open-apis/bot/v2/hook/<WEBHOOK_TOKEN>`
+- 企微个人机器人：`https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=<WEBHOOK_KEY>`
 
 ## mpv 视频播放器
 
@@ -27,8 +27,7 @@ apt update
 apt upgrade -y
 ```
 
-- apt/apt-cache/apt-file/apt-get：https://chatgpt.com/share/69d8f3cc-3354-832c-b176-2b7ab8bb3234
-- https://chatgpt.com/share/69d8f409-07e4-832d-affb-b226bd6b2177
+- apt/apt-cache/apt-file/apt-get：`<CHATGPT_SHARE_LINK>`
 
 ## Headless 模式和图形桌面模式切换
 
@@ -48,7 +47,7 @@ sudo systemctl set-default graphical.target && reboot
 
 - [debian 安装软件及卸载软件的三种方法](https://www.cnblogs.com/fuyouhao/p/17253372.html)
 - [Debian 彻底卸载软件包（apt-get）](https://www.cnblogs.com/ahlxjg/p/15816606.html)
-- 粗略找出非系统预装软件：https://chatgpt.com/share/69dde078-4c90-83ea-9695-380d88e3c903
+- 粗略找出非系统预装软件：`<CHATGPT_SHARE_LINK>`
 - `apt-mark showmanual`：`apt` 会标记安装的软件库（缺点：不一定准确，但能过滤很多软件了）
   - 手动安装：通过 `apt install` 安装的都会标记为 `manual`
   - 依赖安装：标记为 `auto`，系统预装的软件大多数标记为 `auto`
@@ -74,7 +73,7 @@ sudo systemctl set-default graphical.target && reboot
 
 - [如何查看 linux 是否打开虚拟化](https://www.cnblogs.com/liufarui/p/12133083.html)
 - [WinBoat - Run Windows Apps on Linux](https://winboat.app/)
-- https://chatgpt.com/share/69d471ee-9d7c-832a-a199-3cd716efa59d
+- `<CHATGPT_SHARE_LINK>`
 - [WinBoat Guest Server 离线](https://rentry.org/winboat_guest_server_borked)
 
 ## Starship
@@ -288,4 +287,4 @@ python3 -m venv /root/gpt_env
 virtualenv -p python3 /root/gpt_env
 ```
 
-- https://chatgpt.com/share/69dcec34-9588-8328-a11c-fa87fee36d78
+- `<CHATGPT_SHARE_LINK>`
