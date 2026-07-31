@@ -182,6 +182,7 @@ date: "2026-05-05"
 ## AI Agent 入门
 
 - [hello-generic-agent](https://github.com/datawhalechina/hello-generic-agent) — Datawhale 出品的 Generic Agent 教程，18 章，覆盖安装/浏览器能力/四层记忆/自我进化/案例，404 stars
+- [ai-agent-book](https://github.com/bojieli/ai-agent-book) — AI Agent 实战教程，[在线阅读](https://bojieli.github.io/ai-agent-book/)，覆盖 Agent 核心概念、工具调用、工作流编排、部署运维
 - [hello-agents](https://github.com/datawhalechina/hello-agents) — Datawhale 出品的零基础 Agent 入门教程
   - [在线阅读](https://hello-agents.datawhale.cc/#/) — Web 版本
 - [build-coding-agent-context-engineering](https://github.com/phodal/build-coding-agent-context-engineering) — 从 Prompt 到上下文工程构建 AI Agent，零基础指南
