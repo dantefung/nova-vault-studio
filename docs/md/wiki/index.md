@@ -64,6 +64,7 @@ wiki/
 | [claude-skills](/md/wiki/concepts/claude-skills) | Claude 生态扩展机制，渐进式加载、可执行代码、跨平台移植 | 文章 |
 | [claude-code-setup](/md/columns/vibe-coding/14-claude-code-setup-plugin) | 官方插件，扫描代码库推荐自动化配置 | 插件 |
 | [opencode-cc-adapter](https://github.com/VastFuture/opencode-cc-adapter) | 桥接 Claude Code 生态到 OpenCode | 插件 |
+| [opencodex](/md/wiki/concepts/opencodex) | Codex 本地模型路由层，统一管理多 provider 切换，session 不丢失 | 公众号 |
 | [oh-my-claudecode](/md/columns/agentic-engineer/oh-my-claudecode) | Claude Code 超集工作流框架 | skill |
 | [pensieve](/md/columns/agentic-engineer/pensieve) | 自增长的 AI Agent 项目知识库，四层结构化记忆 | 项目 |
 | [llm-wiki-product](/md/wiki/sources/llm-wiki-product) | Karpathy 方法论工程化实现，10.3k Stars 跨平台知识库 | X |
