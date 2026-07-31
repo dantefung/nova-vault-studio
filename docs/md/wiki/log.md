@@ -1422,3 +1422,10 @@ source: "llm-wiki"
 **位置**：`sources/Saq_dHCQ40IbHRgJPOdWDw.md`
 **图片**：6 张已下载到 `images/Saq_dHCQ40IbHRgJPOdWDw/`
 **内容摘要**：OpenCodex 本地代理层解决 Codex 多模型切换痛点——以前换模型需开工具改配置重启 Codex 导致 session 丢失，现在 Codex 固定指向本地 OpenCodex（127.0.0.1:10100），所有上游 provider 在 OpenCodex 统一管理，session 不丢失
+
+## [2026-07-31] ingest: Matt Pocock 三类 on-ramp 分流
+
+**操作**：归档微信公众号文章《周一 30 issue + 3 bug + 1 新模块：先做哪个？Matt Pocock 用 3 条 on-ramp 帮你分流》至 sources/
+**位置**：`sources/Obn3th61vpLSsi7eZs-DKg.md`
+**图片**：5 张已下载到 `images/Obn3th61vpLSsi7eZs-DKg/`
+**内容摘要**：Matt Pocock 三类 on-ramp 输入分类器：/triage（别人提的 issue）、/diagnosing-bugs（突然变红的回归 bug）、/wayfinder（模糊新模块）。按输入来源分类，不是按优先级。判断依据是来源和形态，不是工作量大小。
