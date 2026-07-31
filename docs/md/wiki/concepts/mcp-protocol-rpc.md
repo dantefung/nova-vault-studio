@@ -54,6 +54,7 @@ MCP 是有状态协议（连接管理、能力协商、服务端主动推送）�
 
 ## 交叉引用
 
+- [[concepts/mcp-2026-07-28-stateless]] — MCP 2026-07-28 无状态版本更新
 - [[MCP]] — MCP 核心概念
 - [[matt-pocock-on-ramp]] — on-ramp 输入分类器
 

@@ -91,6 +91,7 @@ wiki/
 | [matt-pocock-wayfinder-handoff](/md/wiki/concepts/matt-pocock-wayfinder-handoff) | wayfinder（多会话地图）+ handoff（会话边界交接）接力协议，smart zone vs dumb zone ~120K tokens 阈值 | 公众号 |
 | [matt-pocock-on-ramp](/md/wiki/concepts/matt-pocock-on-ramp) | 三类输入分类器：/triage（issue）/diagnosing-bugs（回归bug）/wayfinder（新模块），按来源和形态分流 | 公众号 |
 | [mcp-protocol-rpc](/md/wiki/concepts/mcp-protocol-rpc) | MCP 选 JSON-RPC 而非 gRPC 的四个理由：stdio 优先、瓶颈在推理而非序列化、门槛低生态广、JSON 是 AI 母语 | 公众号 |
+| [mcp-2026-07-28-stateless](/md/wiki/concepts/mcp-2026-07-28-stateless) | MCP 2026-07-28 最大更新：无状态+短连接、MRTR 多轮往返、缓存TTL、按需订阅、Tasks 正式扩展 | 公众号 |
 | [awesome-codex-skills](/md/wiki/sources/awesome-codex-skills) | Codex Skills 精选列表，40+ Skills 覆盖开发/协作/写作/分析，13k Stars | GitHub |
 | [ai-website-cloner-template](/md/wiki/sources/ai-website-cloner-template) | 输入 URL 用 AI 克隆网站为 Next.js，/clone-website 单命令，16.4k Stars | GitHub |
 | [go-stock](/md/wiki/sources/go-stock) | AI 赋能股票分析，市场/个股情绪分析，K线技术指标，6.1k Stars | GitHub |
@@ -116,6 +117,7 @@ wiki/
 | [agentic-engineer](/md/columns/agentic-engineer/) | Agent 工程完整知识体系 | 专栏 |
 | [ai-finance-tool-dev](/md/wiki/patterns/ai-finance-tool-dev) | AI 辅助金融量化工具开发模式 | 公众号 |
 | [claude-code-build-site](/md/wiki/concepts/claude-code-build-site) | 用 Claude Code 建站：非程序员 6 小时完成 SEO 建站全流程 | 公众号 |
+| [linux-context-switch](/md/wiki/concepts/linux-context-switch) | Linux 内核进程上下文切换全解：switch_to 汇编、CFS→EEVDF、进程/线程/中断三类切换、线上排查工具链 | 公众号 |
 
 ### 出海建站 (Overseas Website Building)
 

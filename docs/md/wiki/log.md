@@ -1436,3 +1436,21 @@ source: "llm-wiki"
 **位置**：`sources/IkiF31FcXDrd2zmliufxJQ.md`
 **图片**：7 张已下载到 `images/IkiF31FcXDrd2zmliufxJQ/`
 **内容摘要**：MCP（Model Context Protocol）与 RPC 协议的核心差异——MCP 是 pub/sub 模式而非请求/响应，tool call 是双向 streaming，支持 concurrent requests，不是传统 RPC 的 C/S 模型
+
+---
+
+## [2026-07-31] ingest: MCP 新版本无状态可缓存可扩展
+
+**操作**：归档微信公众号文章《一文看懂 MCP 新版本：无状态、可缓存、可扩展》至 sources/
+**位置**：`sources/mcp-new-version-stateless-cacheable-scalable.md`
+**图片**：3 张已下载到 `images/mcp-new-version-stateless-cacheable-scalable/`
+**内容摘要**：MCP 2026-07-28 最大更新——从有会话双向 RPC 变为无状态请求/响应协议。移除 initialize 握手和 Mcp-Session-Id，改用 MRTR 多轮往返请求替代 Server-to-Client RPC，支持缓存（ttlMs/cacheScope）、按需订阅、Tasks 正式扩展、OAuth 签发校验
+
+---
+
+## [2026-07-31] ingest: Linux 内核进程上下文切换
+
+**操作**：归档微信公众号文章《不懂上下文切换，无法真正吃透 Linux 内核进程管理》至 sources/
+**位置**：`sources/linux-kernel-context-switch.md`
+**图片**：1 张已下载到 `images/linux-kernel-context-switch/`
+**内容摘要**：从原理到源码到线上排查，全面讲解 Linux 进程上下文切换——本质是 CPU 执行权转移，进程 vs 线程切换开销差异来自地址空间，switch_to 汇编核心栈切换，EEVDF 取代经典 CFS，线上排查工具链（vmstat/pidstat/perf sched）
