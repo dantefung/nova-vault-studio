@@ -90,6 +90,7 @@ wiki/
 | [linus-torvalds-skills](/md/wiki/sources/linus-torvalds-skills) | Linus 式工程品味 Skill：好品味/不破坏用户/实用主义/极度求简，5 Stars | GitHub |
 | [matt-pocock-wayfinder-handoff](/md/wiki/concepts/matt-pocock-wayfinder-handoff) | wayfinder（多会话地图）+ handoff（会话边界交接）接力协议，smart zone vs dumb zone ~120K tokens 阈值 | 公众号 |
 | [matt-pocock-on-ramp](/md/wiki/concepts/matt-pocock-on-ramp) | 三类输入分类器：/triage（issue）/diagnosing-bugs（回归bug）/wayfinder（新模块），按来源和形态分流 | 公众号 |
+| [mcp-protocol-rpc](/md/wiki/concepts/mcp-protocol-rpc) | MCP 选 JSON-RPC 而非 gRPC 的四个理由：stdio 优先、瓶颈在推理而非序列化、门槛低生态广、JSON 是 AI 母语 | 公众号 |
 | [awesome-codex-skills](/md/wiki/sources/awesome-codex-skills) | Codex Skills 精选列表，40+ Skills 覆盖开发/协作/写作/分析，13k Stars | GitHub |
 | [ai-website-cloner-template](/md/wiki/sources/ai-website-cloner-template) | 输入 URL 用 AI 克隆网站为 Next.js，/clone-website 单命令，16.4k Stars | GitHub |
 | [go-stock](/md/wiki/sources/go-stock) | AI 赋能股票分析，市场/个股情绪分析，K线技术指标，6.1k Stars | GitHub |

@@ -1429,3 +1429,10 @@ source: "llm-wiki"
 **位置**：`sources/Obn3th61vpLSsi7eZs-DKg.md`
 **图片**：5 张已下载到 `images/Obn3th61vpLSsi7eZs-DKg/`
 **内容摘要**：Matt Pocock 三类 on-ramp 输入分类器：/triage（别人提的 issue）、/diagnosing-bugs（突然变红的回归 bug）、/wayfinder（模糊新模块）。按输入来源分类，不是按优先级。判断依据是来源和形态，不是工作量大小。
+
+## [2026-07-31] ingest: MCP 为什么不用 RPC 协议
+
+**操作**：归档微信公众号文章《MCP 为什么不用 RPC 协议》至 sources/
+**位置**：`sources/IkiF31FcXDrd2zmliufxJQ.md`
+**图片**：7 张已下载到 `images/IkiF31FcXDrd2zmliufxJQ/`
+**内容摘要**：MCP（Model Context Protocol）与 RPC 协议的核心差异——MCP 是 pub/sub 模式而非请求/响应，tool call 是双向 streaming，支持 concurrent requests，不是传统 RPC 的 C/S 模型
