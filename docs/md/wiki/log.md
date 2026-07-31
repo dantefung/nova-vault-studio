@@ -1404,7 +1404,7 @@ source: "llm-wiki"
 **图片**：4 张已下载到 `images/h1httNlFmRqN9jyOAO380A/`
 **内容摘要**：Matt Pocock 的 wayfinder（多会话共享地图）与 handoff（会话边界交接）接力协议解析。smart zone vs dumb zone 机制（~120K tokens 阈值），三场景选择框架（main flow / handoff / wayfinder），5 次会话接力真实案例，setup-matt-pocock-skills 地基说明
 
-## [2026-07-28] ingest: 林一 Cloudflare Zero Trust Access
+## [2026-07-28] ingest: 林一 Cloudflare Zero Trust Access ingest: 林一 Cloudflare Zero Trust Access
 
 **操作**：归档微信公众号文章《林一的 Cloudflare 通关记》第 12 篇至 sources/
 **位置**：`sources/9BiipNeCgOvBnVvCzY0FkA.md`
@@ -1415,3 +1415,10 @@ source: "llm-wiki"
 **位置**：`sources/h1httNlFmRqN9jyOAO380A.md`
 **图片**：4 张已下载到 `images/h1httNlFmRqN9jyOAO380A/`
 **内容摘要**：Matt Pocock 的 wayfinder（多会话共享地图）与 handoff（会话边界交接）接力协议解析。smart zone vs dumb zone 机制（~120K tokens 阈值），三场景选择框架（main flow / handoff / wayfinder），5 次会话接力真实案例，setup-matt-pocock-skills 地基说明
+
+## [2026-07-31] ingest: OpenCodex 统一管理 Codex 模型切换
+
+**操作**：归档微信公众号文章《用 OpenCodex 统一管理 Codex 的模型切换》至 sources/
+**位置**：`sources/Saq_dHCQ40IbHRgJPOdWDw.md`
+**图片**：6 张已下载到 `images/Saq_dHCQ40IbHRgJPOdWDw/`
+**内容摘要**：OpenCodex 本地代理层解决 Codex 多模型切换痛点——以前换模型需开工具改配置重启 Codex 导致 session 丢失，现在 Codex 固定指向本地 OpenCodex（127.0.0.1:10100），所有上游 provider 在 OpenCodex 统一管理，session 不丢失

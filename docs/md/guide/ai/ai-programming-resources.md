@@ -148,6 +148,7 @@ date: "2026-05-05"
 - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — **5.4万+ Stars**，把 Stripe/Linear/Figma/Vercel 等顶级品牌的设计系统整理成 DESIGN.md 文件，AI 编程工具可直接读取，包含配色/字体/组件/布局/响应式规则/设计语气，覆盖 AI 工具、开发工具、设计工具、金融/Crypto、消费品牌。把设计系统变成 AI 可直接读取的工程文件。
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) — 开源 Claude Design 替代品，5.8k stars，支持 Claude/GPT/Gemini/Ollama 等多模型，一键导入 Claude Code / Codex 配置，本地优先，MIT 协议
+- [OpenCodex](https://github.com/bitkyc08/opencodex) — Codex 本地代理层，统一管理多模型切换（ChatGPT Plus / GPT 中转站 / MiniMax / DeepSeek），Codex 无需重启、session 不丢失，npm 全局安装即可
 - [CloudCLI](https://github.com/siteboon/claudecodeui) — 为 Claude Code CLI 打造图形界面，支持手机远程查看进度、操作交互
 - [bozhou-skills](https://github.com/bozhouDev/bozhou-skills) — AI 工具集，包含图像生成、播客转文章、PPT 生成、微信发布、社交封面图等 11 个子项目，主要使用 TypeScript
 - [Better-Fullstack](https://github.com/Marve10s/Better-Fullstack) — 项目生成器，270+ 技术栈组合（TS/Rust/Python/Go），前端/后端/数据库/Auth/支付/AI/DevOps 一键配置，开箱即用
