@@ -38,5 +38,8 @@ date: "2026-05-09"
 
 ## Sources
 
-- docs/md/guide/ai/claude-code/cc-connect-多项目配置指南.md
+- docs/md/columns/agentic-engineer/cc-connect/cc-connect-multi-project-guide.md
+- docs/md/columns/agentic-engineer/cc-connect/cc-connect-feishu-guide.md
+- docs/md/columns/agentic-engineer/cc-connect/cc-connect-model-switch.md
+- docs/md/columns/agentic-engineer/cc-connect/config.example.toml
 - https://github.com/chenhg5/cc-connect
