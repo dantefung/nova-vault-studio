@@ -11,6 +11,7 @@ import './themes.css'
 import './custom.css'
 import './override.css'
 import './navigation-fix.css'
+import './easton-doc.css'
 
 export default {
   ...DefaultTheme,

@@ -1,7 +1,7 @@
 /**
  * useTheme - 主题状态管理 + localStorage 持久化
  */
-import { ref, watch, readonly } from 'vue'
+import { ref, readonly } from 'vue'
 
 const STORAGE_KEY = 'vp-theme'
 const THEMES = ['light', 'dark', 'sepia']
@@ -50,6 +50,11 @@ function setTheme(name) {
   applyTheme(name)
 }
 
+function applyLandingTheme(name) {
+  if (typeof document === 'undefined') return
+  document.documentElement.dataset.landingTheme = name
+}
+
 function initLandingTheme() {
   if (typeof window === 'undefined' || landingInitialized) return
   landingInitialized = true
@@ -58,6 +63,7 @@ function initLandingTheme() {
   if (LANDING_THEMES.includes(saved)) {
     currentLandingTheme.value = saved
   }
+  applyLandingTheme(currentLandingTheme.value)
 }
 
 function setLandingTheme(name) {
@@ -66,6 +72,7 @@ function setLandingTheme(name) {
   if (typeof window !== 'undefined') {
     localStorage.setItem(LANDING_STORAGE_KEY, name)
   }
+  applyLandingTheme(name)
 }
 
 // 切换到下一个主题（循环）
