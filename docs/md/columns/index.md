@@ -91,8 +91,8 @@ url: ""
 
 ---
 
-## QwenPaw
+## 各种虾
 
-> 通义千问智能体框架 QwenPaw —— 安装、配置、使用与实践。
+> 虾系 AI 工具集 —— QwenPaw 等各类智能体框架的安装、配置、使用与实践。
 
-[进入专栏 →](/md/columns/qwenpaw/)
+[进入专栏 →](/md/columns/paws/)
