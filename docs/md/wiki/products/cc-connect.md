@@ -41,5 +41,5 @@ date: "2026-05-09"
 - docs/md/columns/agentic-engineer/cc-connect/cc-connect-multi-project-guide.md
 - docs/md/columns/agentic-engineer/cc-connect/cc-connect-feishu-guide.md
 - docs/md/columns/agentic-engineer/cc-connect/cc-connect-model-switch.md
-- docs/md/columns/agentic-engineer/cc-connect/config.example.toml
+- docs/md/columns/agentic-engineer/cc-connect/config-example.md
 - https://github.com/chenhg5/cc-connect
