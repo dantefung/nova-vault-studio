@@ -88,3 +88,11 @@ url: ""
 > AI 驱动的 HR 工作流自动化：简历筛选、人才库管理、面试调度、评分校准全链路。
 
 [进入专栏 →](/md/columns/recruitment/)
+
+---
+
+## QwenPaw
+
+> 通义千问智能体框架 QwenPaw —— 安装、配置、使用与实践。
+
+[进入专栏 →](/md/columns/qwenpaw/)
