@@ -34,6 +34,18 @@ html[data-landing-theme="easton"][data-theme="sepia"] {
   --easton-doc-shadow: 0 24px 70px rgb(68 53 42 / 0.1);
 }
 
+/* body 与顶层 #app 应用 Easton 暖色背景（修复 Shiki 代码块走默认冷灰的问题） */
+html[data-landing-theme="easton"] body,
+html[data-landing-theme="easton"] #app {
+  background: var(--easton-doc-bg);
+}
+
+/* 文档卡片表面用 surface 微调，区别于 body */
+html[data-landing-theme="easton"] .easton-doc-shell .VPDoc .content-container {
+  background: color-mix(in srgb, var(--easton-doc-surface) 92%, var(--easton-doc-bg));
+}
+
+/* 代码块：用 soft 混入 surface，形成「编辑感卡片里的代码卡片」层级 */
 html[data-landing-theme="easton"] .easton-doc-shell {
   --vp-c-bg: var(--easton-doc-bg);
   --vp-c-bg-alt: var(--easton-doc-soft);
@@ -155,9 +167,38 @@ html[data-landing-theme="easton"] .easton-doc-shell .vp-doc blockquote {
 
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'],
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc table {
+  background: color-mix(in srgb, var(--easton-doc-soft) 35%, var(--easton-doc-surface));
   border: 1px solid var(--easton-doc-rule);
   border-radius: 18px;
   box-shadow: 0 14px 34px rgb(36 33 30 / 0.05);
+  overflow: hidden;
+}
+
+/* 代码块 pre/code 内部：恢复 padding，用最深的 ink 字色建立层级 */
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'] pre,
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'] code {
+  padding: 18px 22px;
+  color: var(--easton-doc-ink);
+  background: transparent;
+  font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Shiki 内部行内 span：只在 light / sepia 模式下用 ink 统一（github-light 主题的 token 蓝紫绿与 Easton 暖色背景对比过强）。
+   dark 模式保持 Shiki 默认（github-dark 高对比度）。 */
+html[data-landing-theme="easton"]:not([data-theme="dark"]) .easton-doc-shell .vp-doc .shiki span {
+  color: var(--easton-doc-ink);
+}
+
+/* 行内 <code>（不在 pre 内的）：accent 色 + soft 背景作「标注」 */
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc :not(pre) > code {
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--easton-doc-soft) 60%, var(--easton-doc-surface));
+  color: var(--easton-doc-accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell .VPDocAsideOutline .content,
