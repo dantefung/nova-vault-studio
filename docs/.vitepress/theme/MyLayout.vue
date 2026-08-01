@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import Giscus from '@giscus/vue'
 import ThemeSwitcher from './components/ThemeSwitcher.vue'
 import LandingThemeSwitcher from './components/LandingThemeSwitcher.vue'
+import MobileNavSheet from './components/MobileNavSheet.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
 import BlogLayout from './layouts/BlogLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
@@ -61,6 +62,7 @@ watch(currentTheme, (theme) => {
       <template #nav-bar-content-after>
         <LandingThemeSwitcher />
         <ThemeSwitcher />
+        <MobileNavSheet />
       </template>
       <template #doc-after>
         <BlogArticleShell />
@@ -90,6 +92,7 @@ watch(currentTheme, (theme) => {
       <template #nav-bar-content-after>
         <LandingThemeSwitcher />
         <ThemeSwitcher />
+        <MobileNavSheet />
       </template>
       <template #doc-after>
         <div class="giscus">
