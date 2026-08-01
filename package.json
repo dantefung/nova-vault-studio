@@ -8,9 +8,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "npm run generate:pdf-pages && cross-env VITE_FONT_SOURCE=local vitepress dev docs",
+    "dev": "npm run generate:pdf-pages && npm run generate:blog-index && npm run generate:blog-routes && cross-env VITE_FONT_SOURCE=local vitepress dev docs",
     "generate:pdf-pages": "node scripts/generate-pdf-pages.js",
-    "build": "npm run generate:pdf-pages && cross-env VITE_FONT_SOURCE=local vitepress build docs",
+    "generate:blog-index": "node scripts/build-blog-index.js",
+    "generate:blog-routes": "node scripts/generate-blog-routes.js",
+    "build": "npm run generate:pdf-pages && npm run generate:blog-index && npm run generate:blog-routes && cross-env VITE_FONT_SOURCE=local vitepress build docs",
     "preview": "cross-env VITE_FONT_SOURCE=local vitepress preview docs"
   },
   "author": "DANTE FUNG",
