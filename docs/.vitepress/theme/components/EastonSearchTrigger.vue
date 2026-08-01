@@ -204,6 +204,21 @@ function openSearch() {
 }
 
 /* 移动端 */
+@media (max-width: 768px) {
+  .easton-search.is-nav {
+    padding: 8px 12px;
+    min-height: 44px;
+    min-width: 44px;
+    justify-content: center;
+  }
+  .easton-search.is-nav .easton-search-nav-shortcut {
+    display: none;
+  }
+  .easton-search.is-nav .easton-search-nav-label {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   .easton-search.is-bar {
     grid-template-columns: auto minmax(0, 1fr);
@@ -217,9 +232,6 @@ function openSearch() {
   .easton-search.is-bar .easton-search-icon {
     width: 18px;
     height: 18px;
-  }
-  .easton-search.is-nav .easton-search-nav-shortcut {
-    display: none;
   }
 }
 </style>

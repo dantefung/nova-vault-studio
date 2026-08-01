@@ -251,4 +251,18 @@ onUnmounted(() => {
   opacity: 0;
   transform: translateY(-6px);
 }
+
+@media (max-width: 768px) {
+  .theme-switcher-btn {
+    padding: 8px 12px;
+    min-height: 44px;
+    min-width: 44px;
+    justify-content: center;
+  }
+  .theme-dropdown {
+    right: auto;
+    left: 0;
+    min-width: min(220px, calc(100vw - 32px));
+  }
+}
 </style>

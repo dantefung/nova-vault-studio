@@ -189,4 +189,25 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
     transition: none;
   }
 }
+
+@media (max-width: 768px) {
+  .landing-theme-switcher-button {
+    padding: 8px 12px;
+    min-height: 44px;
+    min-width: 44px;
+    justify-content: center;
+  }
+  .landing-theme-switcher-button .landing-theme-switcher-label {
+    /* 移动端隐藏文字标签，只保留色点 */
+    display: none;
+  }
+  .landing-theme-switcher-arrow {
+    display: none;
+  }
+  .landing-theme-dropdown {
+    right: auto;
+    left: 0;
+    min-width: min(200px, calc(100vw - 32px));
+  }
+}
 </style>
