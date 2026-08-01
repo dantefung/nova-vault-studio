@@ -141,7 +141,8 @@ url: ""
 - dev 模式下 SPA 切换看起来工作、build + preview 模式下却坏——以后必须用 preview 验证最终用户路径
 
 **留待**:
-- [ ] 评估去掉 `easton-clone` 首页整体特性，只保留文档内页 Easton 化（最稳）
-- [ ] 评估引入 VitePress 1.7+ 或迁移到 Astro
+- [x] 去掉 `easton-clone` 首页整体特性，只保留文档内页 Easton 化（已选定方案 1，在 main 分支直接改造）
+- [ ] 升级 VitePress 1.7+ 并验证 landingTheme SSR 可用（方案 2，子代理 worktree 实施）
+- [ ] 用 Astro 重建首页和博客系统（方案 3，子代理 worktree 实施）
 - [ ] 评估把 `easton-clone` 拆为独立路由 `/easton-clone/` 避免 landingTheme 切换路径
 
