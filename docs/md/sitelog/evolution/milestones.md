@@ -102,3 +102,46 @@ url: ""
 * 前端内容索引只要没有复杂需求，手写正则比引第三方库更轻
 * 大改前后一定要 rebuild + 浏览器实跑，chromium headless 可以替代纯手工 click 流程
 
+## 2026-08-01 Easton Clone 首页白屏（已知 bug，未修）
+
+**WHAT**: 用户从 `LandingThemeSwitcher` 切换到 `easton-clone` 后首页白屏，预期看到 Easton Clone 博客门户，实际只看到空白页。
+
+**WHY（根因）**: VitePress 1.6.4 SSR 阶段执行 `useTheme()` 时拿不到 `localStorage`（SSR 阶段没 localStorage）、拿不到 `<html>.dataset.landingTheme`（`head script` 是客户端执行）。`HomeLayout.vue` 的 `currentLandingTheme` 在 SSR 阶段恒为 `'quiet'`，v-if 渲染 `<!---->` 占位 + quiet fallback 模板。客户端 hydration 时 Vue 3 信任 SSR HTML，**hydration patch 模式只更新 className，不重新评估 v-if**。即使 hydration 后 `currentLandingTheme` 变为 `'easton-clone'`，`EastonCloneLayout` 仍不会挂载，结果就是 class 是 `landing-theme-easton-clone` 但 v-if 占位导致内容为空。
+
+**HOW（验证过程）**:
+- 用 chromium headless + CDP 验证 SPA 切换：`vpClass: "vp-landing theme-light landing-theme-easton-clone"`（class 已切换），`hasEC: false`（EastonCloneLayout 没渲染），`bodyText: ""`（空白）
+- 试用过的修复方案（均失败）：
+  1. `useTheme.js` 加 `initialLanding = readLandingFromDom()` + 在 `useTheme()` 内部同步 DOM：仅 client 端有效，SSR 阶段无法访问 DOM
+  2. `HomeLayout.vue` 加 `domLanding` ref + `renderKey` 强制重建：`:key` 改变触发整块重建，但 hydration 阶段 Vue 仍信任 SSR HTML
+  3. 去掉 `currentLandingTheme` 的 `readonly` 包装：不影响 hydration 行为
+  4. `LandingThemeSwitcher.vue` 加 `window.location.reload()`：reload 后 SSR 仍然渲染 quiet（SSR 仍读不到 localStorage）
+  5. 换 `v-show` 替代 `v-if`：编译错误（v-if 已存在）
+- 真正 work 的方案在 VitePress 1.7+ 才能用（head script SSR 化或 transformPageData 暴露 request cookie）
+
+**影响范围**:
+- ❌ Easton Clone 首页在 SPA 切换时白屏
+- ✅ 博客列表 / 归档 / 系列 / 分类 4 个页面在 `easton-clone` 风格下正常
+- ✅ 文章详情页（`/md/wiki/sources/*` 等）在 `easton-clone` 风格下走 `BlogArticleShell` 正常
+- ✅ 文档内页 Easton 化（`easton-doc.css`）正常
+- ✅ 切换 `quiet` / `easton` 正常
+
+**临时绕过方案（用户可选）**:
+- 让用户在 dev console 跑 `localStorage.setItem('vp-landing-theme', 'easton-clone')` 后**整页刷新一次**（仍不一定能渲染）
+- 回到 quiet 风格：访问任何文档页（Wiki / Guide / Columns），那里的 Easton 化是好的
+
+**正式修复需要**:
+- VitePress 1.7+（SSR 暴露 request context）
+- 或迁移到 Astro/Next（自带 cookie SSR 模式）
+- 或接受 trade-off：彻底去掉 `easton-clone` 整体首页特性，只保留文档内页 Easton 化
+
+**经验**:
+- Vue 3 hydration 是 patch 模式，不会重新评估 v-if；hydration 后的 v-if 切换依赖 `:key` 强制重建（但 SSR 阶段 v-if 已经定型，patch 阶段 Vue 选择信任 SSR）
+- 任何依赖 localStorage/cookie 才能正确渲染的内容，**必须在 SSR 阶段也能拿到**——VitePress 1.6 限制让这个要求几乎不可能
+- 浏览器自动化测试要用 `bodyText` 验证内容而不只是 `vpClass`，否则假阳性（class 切换 ≠ 内容切换）
+- dev 模式下 SPA 切换看起来工作、build + preview 模式下却坏——以后必须用 preview 验证最终用户路径
+
+**留待**:
+- [ ] 评估去掉 `easton-clone` 首页整体特性，只保留文档内页 Easton 化（最稳）
+- [ ] 评估引入 VitePress 1.7+ 或迁移到 Astro
+- [ ] 评估把 `easton-clone` 拆为独立路由 `/easton-clone/` 避免 landingTheme 切换路径
+
