@@ -147,13 +147,67 @@ html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h1 {
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h2 {
-  margin-top: 54px;
-  border-top-color: var(--easton-doc-rule);
+  margin-top: 56px;
+  padding-top: 18px;
+  padding-left: 18px;
+  border-top: 1px dashed var(--easton-doc-rule);
+  border-left: 3px solid var(--easton-doc-accent);
+  position: relative;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h3 {
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h4 {
+  margin-top: 28px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--easton-doc-body);
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc a {
   color: var(--easton-doc-accent);
   text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc a:hover {
+  background: color-mix(in srgb, var(--easton-doc-accent) 12%, transparent);
+  border-radius: 2px;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc hr {
+  border: 0;
+  height: 0;
+  border-top: 1px dashed var(--easton-doc-rule);
+  margin: 48px 0;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc table tbody tr:hover {
+  background: color-mix(in srgb, var(--easton-doc-accent) 4%, transparent);
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc table th {
+  font-weight: 700;
+  color: var(--easton-doc-ink);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 12px;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc ul > li::marker,
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc ol > li::marker {
+  color: var(--easton-doc-accent);
+  font-weight: 700;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc table {
   text-underline-offset: 4px;
 }
 

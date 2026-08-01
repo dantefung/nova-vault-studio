@@ -6,6 +6,8 @@ import Giscus from '@giscus/vue'
 import ThemeSwitcher from './components/ThemeSwitcher.vue'
 import LandingThemeSwitcher from './components/LandingThemeSwitcher.vue'
 import MobileNavSheet from './components/MobileNavSheet.vue'
+import ArticleHero from './components/ArticleHero.vue'
+import ArticleFooterNav from './components/ArticleFooterNav.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
 import BlogLayout from './layouts/BlogLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
@@ -64,6 +66,9 @@ watch(currentTheme, (theme) => {
         <ThemeSwitcher />
         <MobileNavSheet />
       </template>
+      <template #doc-top>
+        <ArticleHero />
+      </template>
       <template #doc-after>
         <BlogArticleShell />
         <div class="giscus">
@@ -94,7 +99,11 @@ watch(currentTheme, (theme) => {
         <ThemeSwitcher />
         <MobileNavSheet />
       </template>
+      <template #doc-top>
+        <ArticleHero />
+      </template>
       <template #doc-after>
+        <ArticleFooterNav />
         <div class="giscus">
           <Giscus
             :key="giscusKey"
@@ -110,6 +119,11 @@ watch(currentTheme, (theme) => {
             mapping="title"
             crossorigin="anonymous"
           />
+        </div>
+      </template>
+    </DefaultLayout>
+  </div>
+</template>
         </div>
       </template>
     </DefaultLayout>
