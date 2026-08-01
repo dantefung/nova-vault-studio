@@ -143,6 +143,60 @@ url: ""
 **留待**:
 - [x] 去掉 `easton-clone` 首页整体特性，只保留文档内页 Easton 化（已选定方案 1，在 main 分支直接改造）
 - [ ] 升级 VitePress 1.7+ 并验证 landingTheme SSR 可用（方案 2，子代理 worktree 实施）
-- [ ] 用 Astro 重建首页和博客系统（方案 3，子代理 worktree 实施）
+- [x] 用 Astro 重建首页和博客系统（方案 3，已在 `worktree-astro` 完成 commit `5872d09`）
+- [x] 用 Next.js (App Router) 重建首页和博客系统（方案 4，`worktree-next` 分支 `feat/next-rebuild`）
 - [ ] 评估把 `easton-clone` 拆为独立路由 `/easton-clone/` 避免 landingTheme 切换路径
+
+## 2026-08-01 Next.js (App Router) 重构进度
+
+**WHAT**：用 Next.js 15 + App Router 在 worktree `worktree-next` 分支 `feat/next-rebuild` 重建首页与博客系统，独立工程在 `next-app/` 目录。
+
+**WHY**：方案 3 用 Astro 已在 `worktree-astro` 验证可行，但团队倾向尝试 React 生态的 SSR 方案作为对照；Next.js App Router 的 `cookies()` API 与 Astro 同源（都在 SSR 阶段读 request cookie），是验证"换栈也能修白屏"的最直接路径。
+
+**HOW（架构）**：
+- `next-app/src/lib/blog-index.ts` 复用 `docs/.vitepress/generated/blog-index.json`（510 篇文章 / 1 系列 / 14 分类），不重新生成
+- `next-app/src/lib/article-loader.ts` 用 fs walk + gray-matter 直接读 `docs/md/**` 下的 markdown
+- `next-app/src/lib/theme.ts` 提供 `readLandingThemeFromCookies()`，与 Astro 版同形
+- `next-app/src/app/layout.tsx` 在 RSC 顶层调 `cookies()` 决定 `<html data-theme>`，`<head>` 内联 `SYNC_SCRIPT` 在 hydration 前同步 localStorage → cookie
+- `next-app/src/components/ThemeSwitcher.tsx`（client）切换时 `localStorage.setItem` + 写 cookie + `router.refresh()` 让 SSR 立即拿到新 cookie
+- 三风格分流：`page.tsx` 根据 `theme` 渲染 `<EastonCloneHome>` / `<EastonHome>` / `<QuietHome>` 三种服务端组件
+- 博客 4 页面 + 文章详情：`/blog/`（latest/category/series 三视图）、`/blog/archive/`、`/blog/series/[slug]/`、`/blog/category/[slug]/`、`/article/[...path]/`，文章详情支持上下篇 + 相关文章
+
+**白屏修复验证（CDP chromium headless）**：
+- `home:easton-clone`（cookie `vp-landing-theme=easton-clone`）：`theme=easton-clone`，`hasHero=true / hasFeatured=true / hasLatest=true / hasSeries=true / hasCategory=true`，`featuredCount=3 / latestCount=4 / seriesCount=1 / categoryCount=3`，`sampleTitle="AI 编程：大多数团队 AI 编程都卡在结构化需求上"` ✓
+- `home:easton`：`theme=easton`，6 张 article-card，Easton hero + tab ✓
+- `home:quiet-no-cookie`：`theme=quiet`（SSR fallback），15 张 article-card，Knowledge Library 入口 ✓
+- `blog:list-latest`：50 张 article-card，三视图 tab 切换 ✓
+- `blog:archive`：25 个月份分组，510 篇文章 ✓
+- `blog:series-index`：`Pensieve` 系列 1 个 ✓
+- `blog:series-detail`：`/blog/series/pensieve/` 6 篇文章 ✓
+- `blog:category-index`：14 个分类 ✓
+- `blog:category-detail-sources`：`/blog/category/sources/` 175 篇文章 ✓
+- `article:detail`：`/article/wiki/sources/yao-open-skills/` 单篇正文 + 上下篇 + 相关文章 6 张 ✓
+
+**构建**：`next build` 通过，966 个静态页（1 home dynamic + 940+ articles SSG + 14 categories SSG + 1 series SSG + 4 blog dynamic + archive dynamic）。
+
+**与 Astro 版本的差异**：
+- 路由结构对齐（Astro 用 `pages/*.astro`，Next.js 用 `app/**/page.tsx`），URL 一致
+- cookie 名称差异：Astro 用 `landingTheme`，Next.js 用 `vp-landing-theme`（沿用 VitePress 原值，零迁移成本）；SYNC_SCRIPT 同步逻辑一致
+- 文章详情页 Next.js 用 `generateStaticParams`（SSG），Astro 同；上下篇 + 相关文章在两边都实现
+- Next.js 多了一套 `latest(category|series)` 列表三视图 tab（来自 `searchParams.view`），Astro 版无 tab 直接拼接
+- 样式直接迁移 `easton-clone.css` / `global.css`（CSS Modules / 全局），未做 scoped 拆分
+- Next.js 多支持 `router.refresh()` 让主题切换无需整页 reload（客户端 API），Astro 版靠 `location.reload()`
+- 构建产物：Next.js 走 SSG/SSR 混合（dynamic page + SSG detail），Astro 走 `output: 'server'` + Node adapter 全 SSR
+
+**未完成 / 后续**：
+- [ ] 接入 Vercel 部署（已写 `vercel.json` 在仓库根但未针对 next-app 配置）
+- [ ] 图片资源代理：`% 图片已移除（原始图片未下载）` 占位说明来自原 markdown，没处理（与 VitePress 一致未做替换）
+- [ ] 搜索框占位（`easton-clone-search-bar`），原 VitePress 的 `EastonSearchTrigger` 是 Algolia / local search，未移植
+- [ ] Teek 主题 / PdfViewer / Markmap 等 VitePress 专属组件保留在 VitePress 站，next-app 仅承担"首页 + 博客 + 文章详情"
+- [ ] Lighthouse / 性能评估未做
+
+**经验**：
+- Next.js 15 + App Router 的 `cookies()` API 是异步（要 `await`），文档陷阱之一
+- `generateStaticParams` 路径参数类型是 `string[]`（catch-all）或 `string`（单段），`notFound()` 必须在确定动态参数后再调用
+- `gray-matter` 必须放 `serverExternalPackages`（Next.js 15 顶层 key，不再是 `experimental`），否则 build 阶段会报 ESM/CJS 互操作问题
+- `outputFileTracingRoot` 必须显式指向 worktree 根，否则 build 阶段读不到 `docs/.vitepress/generated/blog-index.json`
+- CDP chromium 验证 `bodyText` 而非仅 `vpClass` 是必须——`html[data-theme]` 属性切换 ≠ DOM 内容切换，假阳性很高（这是 VitePress 1.6 bug 复盘的关键教训）
+- SSG 预生成 + SSR 三风格分支 = 一个项目解决所有 landingTheme 问题，比 Vue 3 信任 SSR HTML 的 hydration 模式可靠得多
 
