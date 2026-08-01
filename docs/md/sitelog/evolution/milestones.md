@@ -146,3 +146,27 @@ url: ""
 - [ ] 用 Astro 重建首页和博客系统（方案 3，子代理 worktree 实施）
 - [ ] 评估把 `easton-clone` 拆为独立路由 `/easton-clone/` 避免 landingTheme 切换路径
 
+## 2026-08-01 VitePress 1.6.4 升级结果
+
+**版本检查**:
+- npm 官方 registry 的 `latest` 仍是 `1.6.4`，`next` 是 `2.0.0-alpha.18`；VitePress 1.7 stable 尚未发布
+- 仓库已经精确锁定 `vitepress: 1.6.4`，执行 `npm install vitepress@latest --save-dev --save-exact` 后 `package.json` 和 `package-lock.json` 均无版本变更
+- 未使用 `2.0.0-alpha.18`，避免把预发布版本当作稳定升级引入生产站点
+
+**SSR request API 检查**:
+- `dist/client/index.d.ts` 没有导出 `useRequestHeaders`、`useRequestURL` 或其他 request context API
+- `TransformPageContext` 只有 `siteConfig`；`transformPageData` 的运行时实现也只传入 `{ siteConfig }`
+- `dist/node/index.js` 没有导出 request headers / URL / cookie 读取能力
+- VitePress 生产构建仍是静态 SSG：构建期没有访问者请求，preview 只分发预生成 HTML，无法按请求 cookie 决定首页 SSR 分支
+
+**白屏结论**:
+- **未修复**。现有 head script 已在客户端把 `vp-landing-theme` 写入 cookie，但静态 SSR 无法读取这个 cookie
+- 未修改 `useTheme.js` / `HomeLayout.vue`，避免用客户端 fallback 冒充 SSR 修复
+- 后续仍需等待提供 per-request SSR context 的稳定版本，或改用独立路由 / 支持服务端请求上下文的框架
+
+**构建验证**:
+- `npm ci` 完整安装 306 个依赖
+- 普通构建在当前机器打包阶段被系统以 `137/SIGKILL` 终止；使用仓库已有低内存开关后通过：
+  `VITEPRESS_LOW_MEMORY_BUILD=1 VITEPRESS_DISABLE_LOCAL_SEARCH=1 npm run build`
+- VitePress 1.6.4 完成 client/server bundles、页面渲染和 sitemap 生成，耗时 93.12 秒
+
