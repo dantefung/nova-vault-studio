@@ -6,6 +6,8 @@ import Giscus from '@giscus/vue'
 import ThemeSwitcher from './components/ThemeSwitcher.vue'
 import LandingThemeSwitcher from './components/LandingThemeSwitcher.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
+import BlogLayout from './layouts/BlogLayout.vue'
+import BlogArticleShell from './layouts/BlogArticleShell.vue'
 import { useTheme } from './composables/useTheme.js'
 import { ref, watch } from 'vue'
 
@@ -16,6 +18,20 @@ const { currentTheme, currentLandingTheme, getGiscusTheme } = useTheme()
 // 判断是否为落地页路由
 const isLanding = computed(() => {
   return ['/', '/v2/', '/v3/', '/v4/', '/v5/'].some(p => route.path === p)
+})
+
+// 博客路由（/md/blog/）
+const isBlog = computed(() => route.path.startsWith('/md/blog/'))
+
+// 文章路由（在已有 wiki / columns / business 内容路径下，且 easton-clone 风格）
+const isArticle = computed(() => {
+  if (currentLandingTheme.value !== 'easton-clone') return false
+  if (isBlog.value || isLanding.value) return false
+  return (
+    route.path.startsWith('/md/wiki/') ||
+    route.path.startsWith('/md/columns/') ||
+    route.path.startsWith('/md/business/')
+  )
 })
 
 const docLayoutClasses = computed(() => ({
@@ -36,7 +52,39 @@ watch(currentTheme, (theme) => {
   <!-- 落地页：使用自定义 HomeLayout -->
   <HomeLayout v-if="isLanding" />
 
-  <!-- 文档页：使用 VitePress 默认完整布局 + Giscus + ThemeSwitcher -->
+  <!-- 博客页（/md/blog/）：列表 / 系列 / 分类 / 时间归档 -->
+  <BlogLayout v-else-if="isBlog" />
+
+  <!-- 文章页（easton-clone 风格）：在 VitePress 默认 layout 外面套 Easton 文章壳 -->
+  <div v-else-if="isArticle" class="doc-layout-shell" :class="docLayoutClasses">
+    <DefaultLayout>
+      <template #nav-bar-content-after>
+        <LandingThemeSwitcher />
+        <ThemeSwitcher />
+      </template>
+      <template #doc-after>
+        <BlogArticleShell />
+        <div class="giscus">
+          <Giscus
+            :key="giscusKey"
+            host="https://giscus.app"
+            repo="plantree/press-comment"
+            repoId="R_kgDOIDNWUs4CRlY7"
+            category="General"
+            categoryId="DIC_kwDOIDNWUs4CRlY7"
+            :theme="giscusTheme"
+            lang="zh-CN"
+            loading="lazy"
+            strict="1"
+            mapping="title"
+            crossorigin="anonymous"
+          />
+        </div>
+      </template>
+    </DefaultLayout>
+  </div>
+
+  <!-- 文档页：默认 VitePress layout + Giscus + ThemeSwitcher -->
   <div v-else class="doc-layout-shell" :class="docLayoutClasses">
     <DefaultLayout>
       <template #nav-bar-content-after>
@@ -49,7 +97,7 @@ watch(currentTheme, (theme) => {
             :key="giscusKey"
             host="https://giscus.app"
             repo="plantree/press-comment"
-            repoId="R_kgDOIDNWUg"
+            repoId="R_kgDOIDNWUs4CRlY7"
             category="General"
             categoryId="DIC_kwDOIDNWUs4CRlY7"
             :theme="giscusTheme"

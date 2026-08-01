@@ -3,6 +3,11 @@
 import DefaultTheme from 'vitepress/theme'
 import MyLayout from './MyLayout.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
+import BlogIndexLayout from './layouts/BlogIndexLayout.vue'
+import SeriesLayout from './layouts/SeriesLayout.vue'
+import CategoryArchiveLayout from './layouts/CategoryArchiveLayout.vue'
+import ArchiveLayout from './layouts/ArchiveLayout.vue'
+import BlogArticleShell from './layouts/BlogArticleShell.vue'
 import { createMermaidRenderer } from 'vitepress-mermaid-renderer'
 import { h, nextTick } from 'vue'
 import './markmap.css'
@@ -12,6 +17,7 @@ import './custom.css'
 import './override.css'
 import './navigation-fix.css'
 import './easton-doc.css'
+import './easton-blog.css'
 
 export default {
   ...DefaultTheme,
@@ -20,6 +26,12 @@ export default {
     if (typeof DefaultTheme.enhanceApp === 'function') {
       DefaultTheme.enhanceApp(ctx)
     }
+    // 全局注册博客组件，让占位 md 里可以直接 <BlogIndex /> 等
+    ctx.app.component('BlogIndex', BlogIndexLayout)
+    ctx.app.component('BlogSeries', SeriesLayout)
+    ctx.app.component('BlogCategory', CategoryArchiveLayout)
+    ctx.app.component('BlogArchive', ArchiveLayout)
+    ctx.app.component('BlogArticleShell', BlogArticleShell)
     if (typeof window === 'undefined') return
     installUrlParsePolyfill()
     installPromiseWithResolversPolyfill()
