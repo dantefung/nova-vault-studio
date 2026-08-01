@@ -1,0 +1,38 @@
+---
+// src/pages/blog/series/[slug].astro
+// 单系列详情
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import { allSeries, seriesBySlug, articlesBySeries } from '../../../lib/blog-index'
+import { readLandingThemeFromCookies } from '../../../lib/theme'
+
+export async function getStaticPaths() {
+  return allSeries().map((s) => ({ params: { slug: s.slug } }))
+}
+
+const theme = readLandingThemeFromCookies(Astro.cookies)
+const { slug } = Astro.params
+const series = slug ? seriesBySlug(slug) : null
+const articles = slug ? articlesBySeries(slug) : []
+---
+<BaseLayout title={`系列 · ${series?.title || slug}`} theme={theme}>
+  <main class="container">
+    {!series && <p class="muted">系列不存在。</p>}
+    {series && (
+      <>
+        <a href="/blog/series/" style="font-size:13px;">← 全部系列</a>
+        <h1 style="margin:8px 0 8px;">{series.title}</h1>
+        <p class="muted" style="margin:0 0 32px;">共 {articles.length} 篇，按发布时间倒序。</p>
+
+        <div style="display:flex;flex-direction:column;gap:0;">
+          {articles.map((a) => (
+            <a href={a.path} class="article-card" style="border-radius:0;border-left:0;border-right:0;">
+              <small>{a.date} · {a.categoryTitle}</small>
+              <h2>{a.title}</h2>
+              <p>{a.excerpt}</p>
+            </a>
+          ))}
+        </div>
+      </>
+    )}
+  </main>
+</BaseLayout>

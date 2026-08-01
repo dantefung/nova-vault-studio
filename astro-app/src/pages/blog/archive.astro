@@ -1,0 +1,35 @@
+---
+// src/pages/blog/archive.astro
+// 时间归档页：按年-月分组
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { archiveGroups } from '../../lib/blog-index'
+import { readLandingThemeFromCookies } from '../../lib/theme'
+
+const theme = readLandingThemeFromCookies(Astro.cookies)
+const groups = archiveGroups()
+---
+<BaseLayout title="博客归档 · 按时间" theme={theme}>
+  <main class="container">
+    <h1 style="margin:0 0 8px;">时间归档</h1>
+    <p class="muted" style="margin:0 0 32px;">按年-月倒序，共 {Object.keys(groups).length} 个月。</p>
+
+    {Object.entries(groups).map(([ym, articles]) => (
+      <section style="margin-bottom:32px;">
+        <h2 style="font-size:20px;border-bottom:1px solid var(--theme-rule);padding-bottom:8px;">{ym} <span class="muted" style="font-size:14px;font-weight:400;">· {articles.length} 篇</span></h2>
+        <ul style="list-style:none;padding:0;margin:16px 0 0;display:flex;flex-direction:column;gap:12px;">
+          {articles.map((a) => (
+            <li>
+              <a href={a.path} style="display:flex;gap:16px;align-items:baseline;padding:6px 0;">
+                <span class="muted" style="font-size:13px;min-width:80px;">{a.date}</span>
+                <span style="flex:1;">
+                  <b style="font-size:15px;">{a.title}</b>
+                  <span class="muted" style="font-size:13px;margin-left:8px;">{a.categoryTitle}</span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </main>
+</BaseLayout>

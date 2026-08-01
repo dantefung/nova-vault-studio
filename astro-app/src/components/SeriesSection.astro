@@ -1,0 +1,27 @@
+---
+// src/components/SeriesSection.astro
+import { allSeries } from '../lib/blog-index'
+const series = allSeries().slice(0, 3)
+const tones = ['tone-0', 'tone-1', 'tone-2']
+const tags = ['CODE', 'AGENT', 'SOLO']
+---
+{series.length > 0 && (
+  <section class="easton-clone-section">
+    <div class="easton-clone-section-head">
+      <span>精选系列专题</span>
+      <strong>每个专题都有完整的阅读路径，从第一篇系统读起。</strong>
+      <a href="/blog/series/">浏览系列 →</a>
+    </div>
+    <div class="easton-clone-series-grid">
+      {series.map((s, i) => (
+        <a href={`/blog/series/${s.slug}/`} class:list={['easton-clone-series-card', tones[i % 3]]}>
+          <div class="easton-clone-art"><span>{tags[i % 3]}</span></div>
+          <small>{s.title} · {s.count} 篇</small>
+          <h2>{s.title}</h2>
+          <p>共 {s.count} 篇，按发布时间排序，从第一篇系统读起。</p>
+          <b>从第 1 篇开始 →</b>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

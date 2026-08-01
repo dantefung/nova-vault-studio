@@ -1,0 +1,77 @@
+---
+// src/pages/index.astro
+// 首页：根据 cookie 中的 landingTheme 决定 SSR 渲染哪个分支
+// 这是修复 VitePress 1.6.4 首页白屏 bug 的核心：Astro SSR 阶段就能读 cookie
+
+import BaseLayout from '../layouts/BaseLayout.astro'
+import HeroBlock from '../components/HeroBlock.astro'
+import EntryGrid from '../components/EntryGrid.astro'
+import SeriesSection from '../components/SeriesSection.astro'
+import FeaturedSection from '../components/FeaturedSection.astro'
+import LatestSection from '../components/LatestSection.astro'
+import CategoriesSection from '../components/CategoriesSection.astro'
+import EastonCloneFooter from '../components/EastonCloneFooter.astro'
+import { readLandingThemeFromCookies } from '../lib/theme'
+import { latest } from '../lib/blog-index'
+
+const theme = readLandingThemeFromCookies(Astro.cookies)
+const recent = latest(5)
+---
+<BaseLayout title="System Vault — AI / Dev / Automation" theme={theme}>
+  {theme === 'easton-clone' ? (
+    <main class="easton-clone-page">
+      <HeroBlock />
+      <EntryGrid />
+      <SeriesSection />
+      <FeaturedSection />
+      <LatestSection />
+      <CategoriesSection />
+      <EastonCloneFooter />
+    </main>
+  ) : theme === 'easton' ? (
+    <main class="container">
+      <section class="hero">
+        <h1>System Vault</h1>
+        <p>Easton 风格的文档知识库首页占位。点击右上角切换到 <code>easton-clone</code> 查看博客化整体首页。</p>
+        <div class="tabs">
+          <span>分类导航：</span>
+          <a href="/blog/agentic-engineer/">Agentic Engineer</a>
+          <a href="/blog/cognition/">认知</a>
+          <a href="/blog/investment/">投资</a>
+        </div>
+      </section>
+      <section>
+        <h2>最近发布</h2>
+        <div class="grid-3" style="margin-top:16px;">
+          {recent.map((a) => (
+            <a href={a.path} class="article-card">
+              <small>{a.date} · {a.categoryTitle}</small>
+              <h2>{a.title}</h2>
+              <p>{a.excerpt}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    </main>
+  ) : (
+    <main class="container">
+      <section class="hero">
+        <h1>System Vault</h1>
+        <p>AI / Dev / Automation 知识库。{recent.length} 篇文章，按主题归档。</p>
+        <p style="color:var(--theme-body);font-size:14px;">右上角可切换 <b>Easton</b> / <b>Easton Clone</b> 风格。</p>
+      </section>
+      <section>
+        <h2 style="font-size:22px;">最近发布</h2>
+        <div class="grid-3" style="margin-top:16px;">
+          {recent.map((a) => (
+            <a href={a.path} class="article-card">
+              <small>{a.date} · {a.categoryTitle}</small>
+              <h2>{a.title}</h2>
+              <p>{a.excerpt}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    </main>
+  )}
+</BaseLayout>

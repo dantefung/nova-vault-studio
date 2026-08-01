@@ -1,0 +1,26 @@
+---
+// src/pages/blog/category/index.astro
+// 分类索引
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import { allCategories } from '../../../lib/blog-index'
+import { readLandingThemeFromCookies } from '../../../lib/theme'
+
+const theme = readLandingThemeFromCookies(Astro.cookies)
+const categories = allCategories()
+---
+<BaseLayout title="博客分类" theme={theme}>
+  <main class="container">
+    <h1 style="margin:0 0 8px;">分类归档</h1>
+    <p class="muted" style="margin:0 0 32px;">按主题浏览，共 {categories.length} 个分类。</p>
+
+    <div class="grid-3">
+      {categories.map((c) => (
+        <a href={`/blog/category/${c.slug}/`} class="article-card">
+          <small>分类 · {c.count} 篇</small>
+          <h2>{c.title}</h2>
+          <p>共 {c.count} 篇相关文章。</p>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

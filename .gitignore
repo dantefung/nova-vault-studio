@@ -124,3 +124,6 @@ scripts/__pycache__/
 web-articles
 .playwright-mcp
 docs/md/columns/indie-hub/seo/webcafe-xiaoketang/collected/
+astro-app/node_modules/
+astro-app/dist/
+astro-app/.astro/

@@ -1,0 +1,24 @@
+---
+// src/components/FeaturedSection.astro
+import { latest } from '../lib/blog-index'
+const featured = latest(3)
+---
+{featured.length > 0 && (
+  <section class="easton-clone-section">
+    <div class="easton-clone-section-head">
+      <span>编辑精选</span>
+      <strong>最近发布、值得优先阅读的文章、指南和项目笔记。</strong>
+      <a href="/blog/">查看全部 →</a>
+    </div>
+    <div class="easton-clone-featured-grid">
+      {featured.map((item) => (
+        <a href={item.path} class="easton-clone-featured-card">
+          <div class="easton-clone-featured-art"></div>
+          <small>{item.date} · {item.categoryTitle || item.category}</small>
+          <h2>{item.title}</h2>
+          <p>{item.excerpt}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

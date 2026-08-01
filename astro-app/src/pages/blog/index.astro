@@ -1,0 +1,65 @@
+---
+// src/pages/blog/index.astro
+// 博客列表页（latest / category / series 三视图）
+// 当前实现：latest 视图。三视图由 URL 参数 ?view=category|series 切换
+
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { latest, allCategories, allSeries, articlesByCategory, articlesBySeries } from '../../lib/blog-index'
+import { readLandingThemeFromCookies } from '../../lib/theme'
+
+const theme = readLandingThemeFromCookies(Astro.cookies)
+const url = new URL(Astro.request.url)
+const rawView = url.searchParams.get('view') || 'latest'
+const view: 'latest' | 'category' | 'series' =
+  rawView === 'category' || rawView === 'series' ? rawView : 'latest'
+
+let items: { path: string; title: string; date: string; excerpt: string; categoryTitle: string; sub?: string }[] = []
+let subtitle = '最近发布的所有文章'
+let viewTitle = '最新文章'
+
+if (view === 'category') {
+  viewTitle = '按分类浏览'
+  subtitle = '所有分类的文章合并展示'
+  // 拼一个分类摘要（每个分类前 3 篇）
+  for (const cat of allCategories()) {
+    const arr = articlesByCategory(cat.slug).slice(0, 3)
+    for (const a of arr) items.push({ ...a, sub: cat.title })
+  }
+} else if (view === 'series') {
+  viewTitle = '按系列浏览'
+  subtitle = '所有系列的文章合并展示'
+  for (const s of allSeries()) {
+    const arr = articlesBySeries(s.slug).slice(0, 3)
+    for (const a of arr) items.push({ ...a, sub: s.title })
+  }
+} else {
+  items = latest(50) as any
+}
+---
+<BaseLayout title={`博客 · ${viewTitle}`} theme={theme}>
+  <main class="container">
+    <div class="flex between mb-8">
+      <div>
+        <h1 style="margin:0;">博客</h1>
+        <p class="muted" style="margin:4px 0 0;">{subtitle}</p>
+      </div>
+      <div class="tabs" role="tablist">
+        <a href="?view=latest" class:list={[{ active: view === 'latest' }]}><button class:list={[{ active: view === 'latest' }]}>最新</button></a>
+        <a href="?view=category" class:list={[{ active: view === 'category' }]}><button class:list={[{ active: view === 'category' }]}>分类</button></a>
+        <a href="?view=series" class:list={[{ active: view === 'series' }]}><button class:list={[{ active: view === 'series' }]}>系列</button></a>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:0;">
+      {items.map((a) => (
+        <a href={a.path} class="article-card" style="border-radius:0;border-left:0;border-right:0;">
+          <small>{a.date} · {a.categoryTitle}{a.sub ? ` · ${a.sub}` : ''}</small>
+          <h2>{a.title}</h2>
+          <p>{a.excerpt}</p>
+        </a>
+      ))}
+    </div>
+
+    {items.length === 0 && <p class="muted">暂无文章。</p>}
+  </main>
+</BaseLayout>

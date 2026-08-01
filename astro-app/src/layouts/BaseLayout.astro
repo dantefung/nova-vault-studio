@@ -1,0 +1,75 @@
+---
+// src/layouts/BaseLayout.astro
+// 全站基础布局：cookie → html data-theme + 三风格导航
+import '../styles/global.css'
+import '../styles/easton-clone.css'
+import { THEMES, THEME_META, type LandingTheme, SYNC_SCRIPT } from '../lib/theme'
+
+interface Props {
+  title: string
+  description?: string
+  theme: LandingTheme
+  bodyClass?: string
+}
+const { title, description = 'System Vault — AI / Dev / Automation knowledge base', theme, bodyClass = '' } = Astro.props
+---
+<!doctype html>
+<html lang="zh-CN" data-theme={theme}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    {/* 客户端脚本：localStorage → cookie 同步；早于 body 渲染前执行 */}
+    <script is:inline set:html={SYNC_SCRIPT}></script>
+  </head>
+  <body class={bodyClass}>
+    <header class="site-header">
+      <a href="/" class="site-brand">
+        <span class="site-brand-mark">E</span>
+        <span>System Vault</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="/">首页</a>
+        <a href="/blog/">列表</a>
+        <a href="/blog/archive/">归档</a>
+        <a href="/blog/series/">系列</a>
+        <a href="/blog/category/">分类</a>
+        <div class="theme-switch" role="group" aria-label="切换首页风格">
+          {THEMES.map((t) => (
+            <button
+              type="button"
+              data-theme-target={t}
+              class:list={['theme-btn', { active: t === theme }]}
+              title={THEME_META[t].desc}
+            >{THEME_META[t].label}</button>
+          ))}
+        </div>
+      </nav>
+    </header>
+
+    <slot />
+
+    <footer class="footer">
+      <p>System Vault · Astro rebuild · 主题：{theme}</p>
+    </footer>
+
+    {/* 主题切换交互：localStorage + cookie + reload 让 SSR 下次拿到正确值 */}
+    <script is:inline>
+      (function(){
+        const LS_KEY = 'vp-landing-theme';
+        const COOKIE = 'landingTheme';
+        const VALID = ['quiet','easton','easton-clone'];
+        document.querySelectorAll('button[data-theme-target]').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const t = btn.getAttribute('data-theme-target');
+            if (!t || !VALID.includes(t)) return;
+            try { localStorage.setItem(LS_KEY, t); } catch(e) {}
+            document.cookie = COOKIE + '=' + encodeURIComponent(t) + '; path=/; max-age=31536000; SameSite=Lax';
+            window.location.reload();
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

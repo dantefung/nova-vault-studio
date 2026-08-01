@@ -1,0 +1,24 @@
+---
+// src/components/CategoriesSection.astro
+import { allCategories } from '../lib/blog-index'
+const cats = allCategories().slice(0, 3)
+---
+{cats.length > 0 && (
+  <section class="easton-clone-section easton-clone-categories">
+    <div class="easton-clone-section-head">
+      <span>按分类浏览</span>
+      <strong>从开发、AI 与数字创作三个方向进入内容。</strong>
+    </div>
+    <div class="easton-clone-category-grid">
+      {cats.map((cat) => (
+        <a href={`/blog/category/${cat.slug}/`}>
+          <span class="easton-clone-category-icon">✦</span>
+          <h2>{cat.title}</h2>
+          <b>{cat.count}</b>
+          <p>围绕实践、工具、工作流和长期积累的内容。</p>
+          <span>进入{cat.title} →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

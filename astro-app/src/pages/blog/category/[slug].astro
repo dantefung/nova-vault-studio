@@ -1,0 +1,38 @@
+---
+// src/pages/blog/category/[slug].astro
+// 单分类详情
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import { allCategories, categoryBySlug, articlesByCategory } from '../../../lib/blog-index'
+import { readLandingThemeFromCookies } from '../../../lib/theme'
+
+export async function getStaticPaths() {
+  return allCategories().map((c) => ({ params: { slug: c.slug } }))
+}
+
+const theme = readLandingThemeFromCookies(Astro.cookies)
+const { slug } = Astro.params
+const cat = slug ? categoryBySlug(slug) : null
+const articles = slug ? articlesByCategory(slug) : []
+---
+<BaseLayout title={`分类 · ${cat?.title || slug}`} theme={theme}>
+  <main class="container">
+    {!cat && <p class="muted">分类不存在。</p>}
+    {cat && (
+      <>
+        <a href="/blog/category/" style="font-size:13px;">← 全部分类</a>
+        <h1 style="margin:8px 0 8px;">{cat.title}</h1>
+        <p class="muted" style="margin:0 0 32px;">共 {articles.length} 篇，按发布时间倒序。</p>
+
+        <div style="display:flex;flex-direction:column;gap:0;">
+          {articles.map((a) => (
+            <a href={a.path} class="article-card" style="border-radius:0;border-left:0;border-right:0;">
+              <small>{a.date}{a.series ? ` · 系列 ${a.series}` : ''}</small>
+              <h2>{a.title}</h2>
+              <p>{a.excerpt}</p>
+            </a>
+          ))}
+        </div>
+      </>
+    )}
+  </main>
+</BaseLayout>

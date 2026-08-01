@@ -1,0 +1,28 @@
+---
+// src/pages/blog/series/index.astro
+// 系列索引
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import { allSeries } from '../../../lib/blog-index'
+import { readLandingThemeFromCookies } from '../../../lib/theme'
+
+const theme = readLandingThemeFromCookies(Astro.cookies)
+const series = allSeries()
+---
+<BaseLayout title="博客系列" theme={theme}>
+  <main class="container">
+    <h1 style="margin:0 0 8px;">系列专题</h1>
+    <p class="muted" style="margin:0 0 32px;">按长期主题系统阅读。共 {series.length} 个系列。</p>
+
+    {series.length === 0 && <p class="muted">暂无系列。</p>}
+
+    <div class="grid-3">
+      {series.map((s) => (
+        <a href={`/blog/series/${s.slug}/`} class="article-card">
+          <small>系列 · {s.count} 篇</small>
+          <h2>{s.title}</h2>
+          <p>共 {s.count} 篇。从第一篇系统读起。</p>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

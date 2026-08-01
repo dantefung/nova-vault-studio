@@ -1,0 +1,23 @@
+---
+// src/components/LatestSection.astro
+import { latest } from '../lib/blog-index'
+const items = latest(8)
+---
+{items.length > 0 && (
+  <section class="easton-clone-section" id="latest">
+    <div class="easton-clone-section-head">
+      <span>最新文章</span>
+      <strong>最近发布的 AI、开发和独立产品笔记。</strong>
+    </div>
+    <div class="easton-clone-latest-list">
+      {items.map((item) => (
+        <a href={item.path}>
+          <span>{item.date}</span>
+          <span>{item.categoryTitle || item.category}</span>
+          <b>{item.title}</b>
+          <i>↗</i>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

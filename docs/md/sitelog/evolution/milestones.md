@@ -146,3 +146,62 @@ url: ""
 - [ ] 用 Astro 重建首页和博客系统（方案 3，子代理 worktree 实施）
 - [ ] 评估把 `easton-clone` 拆为独立路由 `/easton-clone/` 避免 landingTheme 切换路径
 
+## 2026-08-01 Astro 重构进度（方案 3 实验分支）
+
+**WHAT**: 在 `feat/astro-rebuild` 分支用 Astro 5 + Node adapter 重建首页和博客系统，作为 VitePress 1.6.4 首页白屏 bug 的方案 3 实验。
+
+**WHY**:
+- VitePress 1.6.4 SSR 阶段读不到 cookie/localStorage，方案 1/2 都受限于上游 SSR 能力
+- Astro `output: 'server'` + `@astrojs/node` adapter 让 SSR 阶段能直接读 `Astro.cookies.get('landingTheme')`，避开 hydration 时序问题
+- 目标：验证 Astro 能否用更少代码实现 Easton Clone 首页 + 博客 4 页 + 文章详情
+
+**HOW（架构）**:
+- `astro-app/src/pages/index.astro`：根据 cookie SSR 渲染 `quiet` / `easton` / `easton-clone` 三风格首页。easton-clone 分支组合 7 个组件（Hero/Entry/Series/Featured/Latest/Categories/Footer）
+- `astro-app/src/pages/blog/index.astro`：列表，`?view=latest|category|series` 切换视图
+- `astro-app/src/pages/blog/archive.astro`：按 `archiveGroups()` 按年-月分组
+- `astro-app/src/pages/blog/series/[slug].astro` & `category/[slug].astro`：动态路由 + `getStaticPaths` 预生成
+- `astro-app/src/pages/article/[...path].astro`：文章详情，runtime walk `docs/md/` 加载 markdown，markdown-it 渲染
+- `src/lib/blog-index.ts`：复用 `scripts/build-blog-index.js` 生成的 `blog-index.json`，提供 latest/category/series/related/archive 查询
+- `src/lib/article-loader.ts`：runtime fs walk 加载 markdown（避免 Astro 把外部 .md 当 content collection 处理）
+- 客户端 sync script：localStorage → cookie 同步；切换按钮：localStorage + cookie + reload
+
+**HOW（验证）**:
+- `npm run build` 通过（30s 内，含 blog-index 重建）
+- HTTP-level 25/25 checks pass（`astro-app/scripts/cdp-validate.mjs` 风格的 curl 套件）：homepage 三风格 cookie 切换、4 个博客页面、文章详情
+- 真 chromium headless 验证（CDP via `scripts/cdp-validate.mjs`）：
+  ```
+  {"theme":"easton-clone","hasHero":true,"hasFeatured":true,
+   "hasLatest":true,"hasSeries":true,"hasCategory":true,
+   "featuredCount":3,"latestCount":8,"seriesCount":1,
+   "categoryCount":3,"sampleTitle":"AI 编程：大多数团队 AI 编程都卡在结构化需求上"}
+  ```
+  即：访问 `http://127.0.0.1:4323/` 带 `landingTheme=easton-clone` cookie，**SSR HTML 直接包含完整 Easton Clone 首页内容**（白屏 bug 已修复）
+
+**HOW（踩坑）**:
+- `scripts/build-blog-index.js` 用 `process.cwd()` 决定内容目录，第一次跑 npm script 时 cwd 错了，生成了空的 `astro-app/docs/...` 脏数据 → 在 candidates 列表里加文件大小校验
+- `import.meta.glob('../../../docs/**/*.md', { query: '?raw' })` 会被 Astro markdown 插件拦截，返回 object 而不是 string → 改用 `?url` 拿路径 + runtime fs.readFileSync
+- `?url` 返回相对路径，与运行时 path.join 的 `..` 解析冲突 → 干脆放弃 glob，改 runtime `walkMarkdown`
+- 第一次路径解析错误：`path.join(worktree_root, '../../../docs/...')` 把 worktree 根当成绝对路径的一部分去 normalize，把 `../..` 解析掉了 → hardcode `EFFECTIVE_ROOT`
+- gray-matter 解析某些 frontmatter 返回非 string date → `String()` 兜底
+
+**完成范围**:
+- 首页：三风格 SSR（quiet / easton / easton-clone）
+- Easton Clone 整体首页：Hero、Entry、Series（×1）、Featured（×3）、Latest（×8）、Categories（×3）、Footer
+- 博客列表 / 归档 / 系列 / 分类 4 个页面
+- 文章详情页：markdown 渲染 + 相关文章
+- Cookie 同步：localStorage ↔ cookie via client script + reload
+- CDP 真浏览器验证脚本
+
+**未完成（与时间盒相关，留待后续 worktree）**:
+- VitePress 主分支兼容：当前 worktree 的 `astro-app/` 是平行的实验项目，main 分支仍跑 VitePress。两套系统并存
+- Easton doc 内页（`easton-doc.css`）未迁移到 Astro
+- 客户端 SPA 路由（不 reload 切换主题）：当前用 reload 强制 SSR 重渲染——体验略差
+- 搜索触发器 / EastonSearchTrigger 交互未实现
+- Easton Clone footer 中"资源"链接还指向老 vitepress 路径，需要重新映射
+
+**经验**:
+- 任何依赖客户端存储才能正确渲染的内容，**必须能在 SSR 阶段也拿到**——这是 VitePress 1.6/Astro SSG/Vue 3 hydration 三方限制的硬约束。Astro `output: 'server'` 模式是绕过的最干净路径
+- Astro 的 content collection 会接管 src 外的 .md，导致外部 markdown 内容无法直接通过 glob 读——运行时 fs walk 更可控
+- `getStaticPaths` 在 `output: 'server'` 下被忽略；要么给具体页加 `export const prerender = true`，要么让所有路由都走 SSR（我们选了后者，因为依赖 cookie）
+- 510 篇文章走 SSR 性能 OK（首次访问 ~200ms 后稳定），可加内存缓存避免每次 walk
+

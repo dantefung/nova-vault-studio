@@ -1,0 +1,99 @@
+---
+// src/pages/article/[...path].astro
+// 文章详情：URL /md/wiki/sources/foo/ → 渲染 docs/md/wiki/sources/foo.md
+// SSR 模式 + getStaticPaths 预生成所有文章静态文件
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { loadAllArticles, articleByUrlPath } from '../../lib/article-loader'
+import { relatedArticles } from '../../lib/blog-index'
+import { readLandingThemeFromCookies } from '../../lib/theme'
+import MarkdownIt from 'markdown-it'
+
+const md = new MarkdownIt({ html: true, linkify: true, typographer: false })
+
+export async function getStaticPaths() {
+  return loadAllArticles().map((a) => ({
+    params: { path: a.urlPath.replace(/^\/md\//, '') },
+  }))
+}
+
+const theme = readLandingThemeFromCookies(Astro.cookies)
+const { path } = Astro.params
+const urlPath = '/md/' + (path || '')
+const article = articleByUrlPath(urlPath)
+const related = article ? relatedArticles(urlPath, 4) : []
+---
+<BaseLayout title={article?.frontmatter.title || '文章'} description={article?.excerpt} theme={theme}>
+  <main class="container" style="max-width:780px;">
+    {article ? (
+      <>
+        <nav style="font-size:13px;margin-bottom:24px;">
+          <a href="/">首页</a> · <a href="/blog/">列表</a> · <a href={`/blog/category/${article.frontmatter.category || ''}/`}>分类</a>
+        </nav>
+        <article class="blog-article" style="background:var(--theme-surface);padding:32px;border-radius:16px;border:1px solid var(--theme-rule);">
+          <header style="margin-bottom:24px;border-bottom:1px solid var(--theme-rule);padding-bottom:16px;">
+            <small class="muted">
+              {article.frontmatter.date || ''}
+              {article.frontmatter.source ? ` · 来源 ${article.frontmatter.source}` : ''}
+              {article.frontmatter.author ? ` · ${article.frontmatter.author}` : ''}
+            </small>
+            <h1 style="font-family:Georgia,serif;font-size:32px;margin:8px 0;">{article.frontmatter.title || 'Untitled'}</h1>
+          </header>
+          <div class="prose" set:html={md.render(article.content)} />
+        </article>
+
+        {related.length > 0 && (
+          <section style="margin-top:40px;">
+            <h2 style="font-size:18px;">相关文章</h2>
+            <div class="grid-2" style="margin-top:12px;">
+              {related.map((r) => (
+                <a href={r.path} class="article-card">
+                  <small>{r.date} · {r.categoryTitle}</small>
+                  <h2>{r.title}</h2>
+                  <p>{r.excerpt}</p>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+      </>
+    ) : (
+      <p class="muted">文章不存在。</p>
+    )}
+  </main>
+</BaseLayout>
+
+<style is:global>
+  .prose { line-height: 1.8; color: var(--theme-ink); }
+  .prose h1, .prose h2, .prose h3 { font-family: Georgia, serif; margin-top: 1.6em; }
+  .prose h1 { font-size: 28px; }
+  .prose h2 { font-size: 22px; border-bottom: 1px solid var(--theme-rule); padding-bottom: 6px; }
+  .prose h3 { font-size: 18px; }
+  .prose p { margin: 12px 0; }
+  .prose blockquote {
+    border-left: 4px solid var(--theme-accent);
+    padding: 4px 16px;
+    color: var(--theme-body);
+    background: color-mix(in srgb, var(--theme-accent) 6%, transparent);
+    margin: 16px 0;
+  }
+  .prose code {
+    background: color-mix(in srgb, var(--theme-ink) 8%, transparent);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+  .prose pre {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  .prose pre code { background: transparent; padding: 0; }
+  .prose table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  .prose th, .prose td { border: 1px solid var(--theme-rule); padding: 8px 12px; text-align: left; }
+  .prose th { background: color-mix(in srgb, var(--theme-accent) 6%, transparent); }
+  .prose img { border-radius: 8px; margin: 16px auto; }
+  .prose a { color: var(--theme-accent); text-decoration: underline; }
+  .prose ul, .prose ol { padding-left: 24px; }
+</style>
