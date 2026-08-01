@@ -73,8 +73,26 @@ export function fixNavigation() {
         button.addEventListener('mouseenter', showMenu)
         group.addEventListener('mouseleave', hideMenu)
         
-        // 点击切换
+        // 点击：跳转到第一项（VitePress 1.6 flyout 默认只展开菜单，用户期望点击直达）。
+        // hover 仍展开子菜单（高级用户仍可看到全部 items）。
         button.addEventListener('click', (e) => {
+          // 检查按钮是否已经通过 hover 展开菜单——如果展开了，让 click 关闭
+          if (menu.style.display === 'block') {
+            // 菜单展开状态下，click 关闭菜单（不跳转）
+            e.preventDefault()
+            e.stopPropagation()
+            hideMenu()
+            return
+          }
+          // 默认 click 行为：触发第一项的链接点击，VitePress 自动 SPA 路由跳转
+          const firstLink = group.querySelector('.items a[href]')
+          if (firstLink && firstLink.getAttribute('href')) {
+            e.preventDefault()
+            e.stopPropagation()
+            firstLink.click()
+            return
+          }
+          // 兜底：toggle 菜单显示
           e.preventDefault()
           e.stopPropagation()
           if (menu.style.display === 'none') {
