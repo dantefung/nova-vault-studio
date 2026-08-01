@@ -155,6 +155,7 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [ai-era-wealth-creation](/md/wiki/sources/ai-era-wealth-creation) | AI时代造富公式：现金流/股权/流动性三路径，四大赛道分析 | 公众号 |
+| [digital-products-side-income](/md/wiki/concepts/digital-products-side-income) | 数字产品副业：国内卖19.9国外卖9美元，Gumroad/Payhip/Sellfy 平台对比 | 公众号 |
 
 
 ### 内容工作流 (Content Workflows)

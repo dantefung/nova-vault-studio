@@ -1454,3 +1454,12 @@ source: "llm-wiki"
 **位置**：`sources/linux-kernel-context-switch.md`
 **图片**：1 张已下载到 `images/linux-kernel-context-switch/`
 **内容摘要**：从原理到源码到线上排查，全面讲解 Linux 进程上下文切换——本质是 CPU 执行权转移，进程 vs 线程切换开销差异来自地址空间，switch_to 汇编核心栈切换，EEVDF 取代经典 CFS，线上排查工具链（vmstat/pidstat/perf sched）
+
+---
+
+## [2026-07-31] ingest: 数字产品副业
+
+- **Source**: 微信公众号 (小拾随语)
+- **Images**: 1 张已下载到 `images/sell-digital-products/`
+- **Content**: 数字产品副业指南：PDF/Prompt/模板，国内卖19.9国外卖9美元，Gumroad/Payhip/Sellfy/Stan Store 平台对比
+- **Concepts**: [[digital-products-side-income]]
