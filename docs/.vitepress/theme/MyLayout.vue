@@ -23,9 +23,9 @@ const isLanding = computed(() => {
 // 博客路由（/md/blog/）
 const isBlog = computed(() => route.path.startsWith('/md/blog/'))
 
-// 文章路由（在已有 wiki / columns / business 内容路径下，且 easton-clone 风格）
+// 文章路由（在已有 wiki / columns / business 内容路径下，且 easton 风格）
 const isArticle = computed(() => {
-  if (currentLandingTheme.value !== 'easton-clone') return false
+  if (currentLandingTheme.value !== 'easton') return false
   if (isBlog.value || isLanding.value) return false
   return (
     route.path.startsWith('/md/wiki/') ||
@@ -35,7 +35,7 @@ const isArticle = computed(() => {
 })
 
 const docLayoutClasses = computed(() => ({
-  'easton-doc-shell': currentLandingTheme.value === 'easton-clone',
+  'easton-doc-shell': currentLandingTheme.value === 'easton',
 }))
 
 // Giscus 状态
@@ -55,7 +55,7 @@ watch(currentTheme, (theme) => {
   <!-- 博客页（/md/blog/）：列表 / 系列 / 分类 / 时间归档 -->
   <BlogLayout v-else-if="isBlog" />
 
-  <!-- 文章页（easton-clone 风格）：在 VitePress 默认 layout 外面套 Easton 文章壳 -->
+  <!-- 文章页（easton 风格）：在 VitePress 默认 layout 外面套 Easton 文章壳（Easton 编辑感内页） -->
   <div v-else-if="isArticle" class="doc-layout-shell" :class="docLayoutClasses">
     <DefaultLayout>
       <template #nav-bar-content-after>
@@ -85,7 +85,7 @@ watch(currentTheme, (theme) => {
   </div>
 
   <!-- 文档页：默认 VitePress layout + Giscus + ThemeSwitcher -->
-  <div v-else class="doc-layout-shell" :class="docLayoutClasses">
+  <div v-else class="doc-layout-shell easton-doc-shell">
     <DefaultLayout>
       <template #nav-bar-content-after>
         <LandingThemeSwitcher />

@@ -1,30 +1,30 @@
 /* Easton Clone 博客页视觉皮肤
- * 仅在 easton-clone 风格下生效。
+ * 仅在 easton 风格下生效。
  * 复用 --easton-doc-* / --clone-* token，新加 --easton-blog-* 增量。
  */
 
-html[data-landing-theme="easton-clone"] .blog-page {
+html[data-landing-theme="easton"] .blog-page {
   min-height: 100vh;
   background: var(--clone-bg);
   color: var(--clone-ink);
   font-family: 'LXGW WenKai', Georgia, serif;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page main.blog-main {
+html[data-landing-theme="easton"] .blog-page main.blog-main {
   max-width: 1180px;
   margin: 0 auto;
   padding: 32px 28px 80px;
 }
 
 /* 列表 / 系列 / 分类 / 归档通用 section */
-html[data-landing-theme="easton-clone"] .blog-page .blog-index,
-html[data-landing-theme="easton-clone"] .blog-page .blog-series,
-html[data-landing-theme="easton-clone"] .blog-page .blog-category,
-html[data-landing-theme="easton-clone"] .blog-page .blog-archive {
+html[data-landing-theme="easton"] .blog-page .blog-index,
+html[data-landing-theme="easton"] .blog-page .blog-series,
+html[data-landing-theme="easton"] .blog-page .blog-category,
+html[data-landing-theme="easton"] .blog-page .blog-archive {
   padding: 0;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-index-tabs {
+html[data-landing-theme="easton"] .blog-page .blog-index-tabs {
   display: inline-flex;
   gap: 6px;
   padding: 4px;
@@ -34,7 +34,7 @@ html[data-landing-theme="easton-clone"] .blog-page .blog-index-tabs {
   margin-left: auto;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-index-tabs button {
+html[data-landing-theme="easton"] .blog-page .blog-index-tabs button {
   border: 0;
   padding: 6px 14px;
   border-radius: 999px;
@@ -46,13 +46,13 @@ html[data-landing-theme="easton-clone"] .blog-page .blog-index-tabs button {
   transition: background 160ms ease, color 160ms ease;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-index-tabs button.active {
+html[data-landing-theme="easton"] .blog-page .blog-index-tabs button.active {
   background: var(--clone-accent);
   color: #fff;
 }
 
 /* 文章 grid */
-html[data-landing-theme="easton-clone"] .blog-page .blog-grid {
+html[data-landing-theme="easton"] .blog-page .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 18px;
@@ -60,7 +60,7 @@ html[data-landing-theme="easton-clone"] .blog-page .blog-grid {
 }
 
 /* 分类 / 系列 tile（列表页第二种视图） */
-html[data-landing-theme="easton-clone"] .blog-page .blog-tile {
+html[data-landing-theme="easton"] .blog-page .blog-tile {
   display: grid;
   gap: 6px;
   padding: 22px;
@@ -72,109 +72,109 @@ html[data-landing-theme="easton-clone"] .blog-page .blog-tile {
   transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-tile b {
+html[data-landing-theme="easton"] .blog-page .blog-tile b {
   font-size: 18px;
   font-weight: 600;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-tile span {
+html[data-landing-theme="easton"] .blog-page .blog-tile span {
   color: var(--clone-body);
   font-size: 13px;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-tile i {
+html[data-landing-theme="easton"] .blog-page .blog-tile i {
   margin-top: 6px;
   font-style: normal;
   color: var(--clone-accent);
   font-size: 14px;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-tile:hover {
+html[data-landing-theme="easton"] .blog-page .blog-tile:hover {
   border-color: color-mix(in srgb, var(--clone-accent) 60%, var(--clone-rule));
   transform: translateY(-2px);
   box-shadow: 0 18px 45px rgb(36 33 30 / 0.08);
 }
 
 /* 归档按年-月 */
-html[data-landing-theme="easton-clone"] .blog-page .blog-archive-group {
+html[data-landing-theme="easton"] .blog-page .blog-archive-group {
   margin-top: 32px;
   padding-top: 22px;
   border-top: 1px solid var(--clone-rule);
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-archive-group:first-of-type {
+html[data-landing-theme="easton"] .blog-page .blog-archive-group:first-of-type {
   border-top: 0;
   padding-top: 0;
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-archive-group h2 {
+html[data-landing-theme="easton"] .blog-page .blog-archive-group h2 {
   margin: 0 0 4px;
   font-size: 22px;
   color: var(--clone-ink);
 }
 
-html[data-landing-theme="easton-clone"] .blog-page .blog-archive-group > span {
+html[data-landing-theme="easton"] .blog-page .blog-archive-group > span {
   color: var(--clone-body);
   font-size: 13px;
 }
 
 /* dark / sepia 主题覆盖 */
-html[data-landing-theme="easton-clone"][data-theme="dark"] .blog-page {
+html[data-landing-theme="easton"][data-theme="dark"] .blog-page {
   background: #1d1a18;
   color: #f7eee5;
 }
 
-html[data-landing-theme="easton-clone"][data-theme="dark"] .blog-page .blog-tile,
-html[data-landing-theme="easton-clone"][data-theme="dark"] .blog-page .blog-grid > * {
+html[data-landing-theme="easton"][data-theme="dark"] .blog-page .blog-tile,
+html[data-landing-theme="easton"][data-theme="dark"] .blog-page .blog-grid > * {
   background: color-mix(in srgb, #29231f 92%, transparent);
   border-color: #4b4037;
   color: #f7eee5;
 }
 
-html[data-landing-theme="easton-clone"][data-theme="dark"] .blog-page .blog-index-tabs {
+html[data-landing-theme="easton"][data-theme="dark"] .blog-page .blog-index-tabs {
   border-color: #4b4037;
   background: color-mix(in srgb, #29231f 80%, transparent);
 }
 
-html[data-landing-theme="easton-clone"][data-theme="dark"] .blog-page .blog-index-tabs button {
+html[data-landing-theme="easton"][data-theme="dark"] .blog-page .blog-index-tabs button {
   color: #c8b9aa;
 }
 
-html[data-landing-theme="easton-clone"][data-theme="dark"] .blog-page .blog-archive-group {
+html[data-landing-theme="easton"][data-theme="dark"] .blog-page .blog-archive-group {
   border-top-color: #4b4037;
 }
 
-html[data-landing-theme="easton-clone"][data-theme="sepia"] .blog-page {
+html[data-landing-theme="easton"][data-theme="sepia"] .blog-page {
   background: #e9ddcf;
   color: #44352a;
 }
 
-html[data-landing-theme="easton-clone"][data-theme="sepia"] .blog-page .blog-tile,
-html[data-landing-theme="easton-clone"][data-theme="sepia"] .blog-page .blog-grid > * {
+html[data-landing-theme="easton"][data-theme="sepia"] .blog-page .blog-tile,
+html[data-landing-theme="easton"][data-theme="sepia"] .blog-page .blog-grid > * {
   background: color-mix(in srgb, #f8efe2 92%, transparent);
   border-color: #cdb9a4;
   color: #44352a;
 }
 
-html[data-landing-theme="easton-clone"][data-theme="sepia"] .blog-page .blog-index-tabs {
+html[data-landing-theme="easton"][data-theme="sepia"] .blog-page .blog-index-tabs {
   border-color: #cdb9a4;
   background: color-mix(in srgb, #f8efe2 80%, transparent);
 }
 
-html[data-landing-theme="easton-clone"][data-theme="sepia"] .blog-page .blog-index-tabs button {
+html[data-landing-theme="easton"][data-theme="sepia"] .blog-page .blog-index-tabs button {
   color: #765e4c;
 }
 
-html[data-landing-theme="easton-clone"][data-theme="sepia"] .blog-page .blog-archive-group {
+html[data-landing-theme="easton"][data-theme="sepia"] .blog-page .blog-archive-group {
   border-top-color: #cdb9a4;
 }
 
 /* 移动端 */
 @media (max-width: 640px) {
-  html[data-landing-theme="easton-clone"] .blog-page main.blog-main {
+  html[data-landing-theme="easton"] .blog-page main.blog-main {
     padding: 22px 16px 60px;
   }
-  html[data-landing-theme="easton-clone"] .blog-page .blog-grid {
+  html[data-landing-theme="easton"] .blog-page .blog-grid {
     grid-template-columns: 1fr;
   }
 }

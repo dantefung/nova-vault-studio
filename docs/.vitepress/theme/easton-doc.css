@@ -1,4 +1,4 @@
-html[data-landing-theme="easton-clone"] {
+html[data-landing-theme="easton"] {
   --easton-doc-bg: #f5f0e8;
   --easton-doc-surface: #fffaf3;
   --easton-doc-soft: #eee5d8;
@@ -10,7 +10,7 @@ html[data-landing-theme="easton-clone"] {
   --easton-doc-shadow: 0 24px 70px rgb(36 33 30 / 0.08);
 }
 
-html[data-landing-theme="easton-clone"][data-theme="dark"] {
+html[data-landing-theme="easton"][data-theme="dark"] {
   --easton-doc-bg: #1d1a18;
   --easton-doc-surface: #29231f;
   --easton-doc-soft: #352c26;
@@ -22,7 +22,7 @@ html[data-landing-theme="easton-clone"][data-theme="dark"] {
   --easton-doc-shadow: 0 24px 70px rgb(0 0 0 / 0.25);
 }
 
-html[data-landing-theme="easton-clone"][data-theme="sepia"] {
+html[data-landing-theme="easton"][data-theme="sepia"] {
   --easton-doc-bg: #e9ddcf;
   --easton-doc-surface: #f8efe2;
   --easton-doc-soft: #ddcbb6;
@@ -34,7 +34,7 @@ html[data-landing-theme="easton-clone"][data-theme="sepia"] {
   --easton-doc-shadow: 0 24px 70px rgb(68 53 42 / 0.1);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell {
+html[data-landing-theme="easton"] .easton-doc-shell {
   --vp-c-bg: var(--easton-doc-bg);
   --vp-c-bg-alt: var(--easton-doc-soft);
   --vp-c-bg-elv: var(--easton-doc-surface);
@@ -55,57 +55,57 @@ html[data-landing-theme="easton-clone"] .easton-doc-shell {
   font-family: 'LXGW WenKai', Georgia, serif;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPNav,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPNavBar {
+html[data-landing-theme="easton"] .easton-doc-shell .VPNav,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar {
   background: color-mix(in srgb, var(--easton-doc-bg) 88%, transparent);
   border-bottom-color: var(--easton-doc-rule);
   backdrop-filter: blur(18px);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPNavBarTitle .title,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPNavBarMenuLink,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPNavBarMenuGroup .button {
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarTitle .title,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button {
   color: var(--easton-doc-ink);
   font-family: 'LXGW WenKai', Georgia, serif;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPNavBarMenuLink:hover,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPNavBarMenuGroup .button:hover {
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink:hover,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button:hover {
   color: var(--easton-doc-accent);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPNavBarSearchButton,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .DocSearch-Button,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .local-search-button {
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarSearchButton,
+html[data-landing-theme="easton"] .easton-doc-shell .DocSearch-Button,
+html[data-landing-theme="easton"] .easton-doc-shell .local-search-button {
   border-color: var(--easton-doc-rule);
   background: color-mix(in srgb, var(--easton-doc-surface) 78%, transparent);
   color: var(--easton-doc-body);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPSidebar {
+html[data-landing-theme="easton"] .easton-doc-shell .VPSidebar {
   background: color-mix(in srgb, var(--easton-doc-bg) 92%, transparent);
   border-right-color: var(--easton-doc-rule);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPSidebarItem .text,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPSidebarItem .link {
+html[data-landing-theme="easton"] .easton-doc-shell .VPSidebarItem .text,
+html[data-landing-theme="easton"] .easton-doc-shell .VPSidebarItem .link {
   color: var(--easton-doc-body);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPSidebarItem.is-active > .item .link > .text,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPSidebarItem .link:hover .text {
+html[data-landing-theme="easton"] .easton-doc-shell .VPSidebarItem.is-active > .item .link > .text,
+html[data-landing-theme="easton"] .easton-doc-shell .VPSidebarItem .link:hover .text {
   color: var(--easton-doc-accent);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPContent {
+html[data-landing-theme="easton"] .easton-doc-shell .VPContent {
   background: transparent;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPDoc {
+html[data-landing-theme="easton"] .easton-doc-shell .VPDoc {
   padding-top: 44px;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPDoc .content-container {
+html[data-landing-theme="easton"] .easton-doc-shell .VPDoc .content-container {
   max-width: 820px;
   padding: 42px;
   border: 1px solid var(--easton-doc-rule);
@@ -114,38 +114,38 @@ html[data-landing-theme="easton-clone"] .easton-doc-shell .VPDoc .content-contai
   box-shadow: var(--easton-doc-shadow);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc {
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc {
   color: var(--easton-doc-body);
   font-size: 17px;
   line-height: 1.92;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc h1,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc h2,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc h3,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc h4 {
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h1,
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h2,
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h3,
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h4 {
   color: var(--easton-doc-ink);
   font-family: 'LXGW WenKai', Georgia, serif;
   letter-spacing: -0.02em;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc h1 {
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h1 {
   font-size: clamp(2.3rem, 6vw, 4.4rem);
   line-height: 0.98;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc h2 {
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h2 {
   margin-top: 54px;
   border-top-color: var(--easton-doc-rule);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc a {
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc a {
   color: var(--easton-doc-accent);
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc blockquote {
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc blockquote {
   border-left: 4px solid var(--easton-doc-accent);
   border-radius: 0 18px 18px 0;
   background: color-mix(in srgb, var(--easton-doc-soft) 70%, transparent);
@@ -153,79 +153,79 @@ html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc blockquote {
   padding: 16px 20px;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc div[class*='language-'],
-html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc table {
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'],
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc table {
   border: 1px solid var(--easton-doc-rule);
   border-radius: 18px;
   box-shadow: 0 14px 34px rgb(36 33 30 / 0.05);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .VPDocAsideOutline .content,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .outline-marker {
+html[data-landing-theme="easton"] .easton-doc-shell .VPDocAsideOutline .content,
+html[data-landing-theme="easton"] .easton-doc-shell .outline-marker {
   border-color: var(--easton-doc-rule);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .outline-link {
+html[data-landing-theme="easton"] .easton-doc-shell .outline-link {
   color: var(--easton-doc-body);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .outline-link:hover,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .outline-link.active {
+html[data-landing-theme="easton"] .easton-doc-shell .outline-link:hover,
+html[data-landing-theme="easton"] .easton-doc-shell .outline-link.active {
   color: var(--easton-doc-accent);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .pager-link,
-html[data-landing-theme="easton-clone"] .easton-doc-shell div.giscus {
+html[data-landing-theme="easton"] .easton-doc-shell .pager-link,
+html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
   border: 1px solid var(--easton-doc-rule);
   border-radius: 22px;
   background: color-mix(in srgb, var(--easton-doc-surface) 88%, transparent);
   box-shadow: 0 14px 34px rgb(36 33 30 / 0.05);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell div.giscus {
+html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
   padding: 24px;
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .landing-theme-switcher-button,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .theme-switcher-btn {
+html[data-landing-theme="easton"] .easton-doc-shell .landing-theme-switcher-button,
+html[data-landing-theme="easton"] .easton-doc-shell .theme-switcher-btn {
   border-color: var(--easton-doc-rule);
   background: color-mix(in srgb, var(--easton-doc-surface) 78%, transparent);
   color: var(--easton-doc-body);
 }
 
-html[data-landing-theme="easton-clone"] .easton-doc-shell .landing-theme-dropdown,
-html[data-landing-theme="easton-clone"] .easton-doc-shell .theme-dropdown {
+html[data-landing-theme="easton"] .easton-doc-shell .landing-theme-dropdown,
+html[data-landing-theme="easton"] .easton-doc-shell .theme-dropdown {
   border-color: var(--easton-doc-rule);
   background: var(--easton-doc-surface);
   box-shadow: var(--easton-doc-shadow);
 }
 
 @media (max-width: 960px) {
-  html[data-landing-theme="easton-clone"] .easton-doc-shell .VPDoc {
+  html[data-landing-theme="easton"] .easton-doc-shell .VPDoc {
     padding-top: 28px;
   }
 
-  html[data-landing-theme="easton-clone"] .easton-doc-shell .VPDoc .content-container {
+  html[data-landing-theme="easton"] .easton-doc-shell .VPDoc .content-container {
     padding: 30px;
     border-radius: 24px;
   }
 }
 
 @media (max-width: 640px) {
-  html[data-landing-theme="easton-clone"] .easton-doc-shell .VPDoc {
+  html[data-landing-theme="easton"] .easton-doc-shell .VPDoc {
     padding: 20px 14px 0;
   }
 
-  html[data-landing-theme="easton-clone"] .easton-doc-shell .VPDoc .content-container {
+  html[data-landing-theme="easton"] .easton-doc-shell .VPDoc .content-container {
     padding: 24px 18px;
     border-radius: 20px;
   }
 
-  html[data-landing-theme="easton-clone"] .easton-doc-shell .vp-doc {
+  html[data-landing-theme="easton"] .easton-doc-shell .vp-doc {
     font-size: 16px;
   }
 
-  html[data-landing-theme="easton-clone"] .easton-doc-shell div.giscus {
+  html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
     padding: 16px;
   }
 }
