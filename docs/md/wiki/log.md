@@ -1463,3 +1463,12 @@ source: "llm-wiki"
 - **Images**: 1 张已下载到 `images/sell-digital-products/`
 - **Content**: 数字产品副业指南：PDF/Prompt/模板，国内卖19.9国外卖9美元，Gumroad/Payhip/Sellfy/Stan Store 平台对比
 - **Concepts**: [[digital-products-side-income]]
+
+---
+
+## [2026-07-31] ingest: Mission Driver Loop Engineering
+
+- **Source**: 微信公众号 (可逆计算)
+- **Images**: 4 张已下载到 `images/mission-driver-loop-engineering/`
+- **Content**: Mission Driver 声明式任务驱动引擎，多层 Loop 嵌套实现局部容错与稳定保障，AGE 理论核心组件。22 天 154 模块 ERP 实战案例
+- **Concepts**: [[mission-driver]] [[loop-engineering]]

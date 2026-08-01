@@ -56,6 +56,10 @@ Loop Engineering 是对 AI Agent 定时/循环调度机制的工程化包装，�
 - **自媒体**: 无脑二道贩子 → 加速焦虑传播
 - **技术人员**: FOMO 焦虑 → 被动接受并继续传播
 
+## 具体实现
+
+- [Mission Driver](/md/wiki/concepts/mission-driver) — 声明式任务驱动引擎，通过多层 Loop 嵌套实现 AI 全自主运行，AGE 理论（吸引子引导工程）的核心组件。22 天产出 154 模块 ERP 的实战案例。
+
 ## 相关概念
 
 - [[harness-engineering]] — Harness 是 Loop 的前置概念，Loop 被放在 Harness 之上
