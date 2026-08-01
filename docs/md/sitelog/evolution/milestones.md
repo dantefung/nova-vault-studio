@@ -79,3 +79,26 @@ url: ""
 - [ ] 多语言支持 (i18n)
 - [ ] 交互式代码 Playground 支持
 - [ ] 自动化的静态资源压缩流水线
+
+## 2026-08-01 Easton Clone 重度博客化
+
+- 完全重写博客系统：在 `easton-clone` 风格下提供独立的列表页 / 详情页 / 系列页 / 分类归档页 / 时间归档页
+- 新增 `scripts/build-blog-index.js` 扫描内容目录，生成 `docs/.vitepress/generated/blog-index.{js,json}`（509 篇文章、1 个 series、14 个分类）
+- 新增 `theme/composables/useBlogIndex.js` 提供查询助手：`latest / articleByPath / articlesByCategory / articlesBySeries / relatedArticles / archiveGroups / neighbors` 等
+- 新增 `BlogLayout` 路由分发 + `BlogIndexLayout / BlogArticleLayout / BlogArticleShell / SeriesLayout / CategoryArchiveLayout / ArchiveLayout` 6 个博客布局
+- 新增 5 个博客 UI 组件：`ArticleCard / ArticleMeta / ArticleNav / RelatedArticles / SeriesProgress`
+- 新增 `docs/md/blog/` 下 16 个占位 md 文件（1 列表 + 1 时间归档 + 1 系列 + 13 分类），避开 VitePress 1.6.4 不支持 `rewrites` 的限制
+- `scripts/generate-blog-routes.js` 自动从索引生成占位 md
+- `MyLayout` 三分支路由：landing / blog / article，`isArticle` 在 `easton-clone` 风格下注入 `BlogArticleShell`（封面/元信息条/上下一篇/相关文章）
+- `EastonCloneLayout` 硬编码卡 → 全部接入 `useBlogIndex()`，首页文章 / 系列 / 分类随索引自动更新
+- `EastonSearchTrigger` 样式重写：胶囊形 + 居中 SVG 图标 + 快捷键 kbd，三变体（bar/action/nav）统一 Easton token
+- `useTheme` 优雅降级：客户端首屏从 `<html>` dataset 同步 landingTheme，SSR fallback `quiet`
+- `easton-blog.css`（180 行）提供 Easton Clone 风格下的博客视觉皮肤
+- 仅 `easton-clone` 风格走博客化；`quiet` / `easton` 完全保持现状
+
+**经验**：
+* VitePress 1.6.4 不支持 `rewrites` / `dynamicRoutes`，占位 md 是唯一可行的"动态路由"路径
+* SSR 阶段读不到 `localStorage`、也读不到 `<html>` dataset（head script 是客户端），把 landingTheme 渲染推到 SPA 阶段是 trade-off
+* 前端内容索引只要没有复杂需求，手写正则比引第三方库更轻
+* 大改前后一定要 rebuild + 浏览器实跑，chromium headless 可以替代纯手工 click 流程
+
