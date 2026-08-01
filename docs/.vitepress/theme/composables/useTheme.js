@@ -8,9 +8,20 @@ const THEMES = ['light', 'dark', 'sepia']
 const LANDING_STORAGE_KEY = 'vp-landing-theme'
 const LANDING_THEMES = ['quiet', 'easton', 'easton-clone']
 
+// SSR 阶段：head script 已经同步把 landingTheme 写入 <html> dataset
+function readLandingFromDom() {
+  if (typeof document === 'undefined') return null
+  const v = document.documentElement.dataset.landingTheme
+  return LANDING_THEMES.includes(v) ? v : null
+}
+
+// 客户端首屏：head script 已经同步执行，<html> dataset 一定有值
+// 服务端：没有 DOM，fallback 到 'quiet'
+const initialLanding = readLandingFromDom() || 'quiet'
+
 // 当前主题 ref（模块级单例）
 const currentTheme = ref('light')
-const currentLandingTheme = ref('quiet')
+const currentLandingTheme = ref(initialLanding)
 let initialized = false
 let landingInitialized = false
 
@@ -62,6 +73,11 @@ function initLandingTheme() {
   const saved = localStorage.getItem(LANDING_STORAGE_KEY)
   if (LANDING_THEMES.includes(saved)) {
     currentLandingTheme.value = saved
+  }
+  // 客户端首屏 hydration：head script 已把 landingTheme 写入 <html> dataset
+  const fromDom = document.documentElement.dataset.landingTheme
+  if (LANDING_THEMES.includes(fromDom)) {
+    currentLandingTheme.value = fromDom
   }
   applyLandingTheme(currentLandingTheme.value)
 }

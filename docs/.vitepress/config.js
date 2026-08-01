@@ -42,7 +42,7 @@ export default defineConfig({
       ['meta', { property: 'og:description', content: '系统知识库 - 凡是过往，皆为序章' }],
     ]
     // 防闪烁脚本：页面加载前同步设置主题（同步执行，无 async/defer）
-    head.push(['script', {}, `(function(){var t=localStorage.getItem('vp-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;if(t==='dark')document.documentElement.classList.add('dark');var l=localStorage.getItem('vp-landing-theme');if(['quiet','easton','easton-clone'].includes(l))document.documentElement.dataset.landingTheme=l})()`])
+    head.push(['script', {}, `(function(){var t=localStorage.getItem('vp-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;if(t==='dark')document.documentElement.classList.add('dark');var l=localStorage.getItem('vp-landing-theme');if(['quiet','easton','easton-clone'].includes(l)){document.documentElement.dataset.landingTheme=l;document.cookie='vp-landing-theme='+l+';path=/;max-age=31536000;samesite=lax'}else if(document.cookie.match(/(?:^|;\s*)vp-landing-theme=([^;]+)/)){l=RegExp.$1;if(['quiet','easton','easton-clone'].includes(l))document.documentElement.dataset.landingTheme=l}})()`])
     // 只在生产环境加载 Vercel Insights
     if (isProd) {
       head.push(['script', { src: '/_vercel/insights/script.js', defer: '' }])
