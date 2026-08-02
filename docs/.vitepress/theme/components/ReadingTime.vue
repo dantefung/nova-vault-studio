@@ -10,7 +10,7 @@ import { useData } from 'vitepress'
 const { frontmatter, source } = useData()
 
 const readingMinutes = computed(() => {
-  const fm = frontmatter.value.readingTime
+  const fm = frontmatter.value?.readingTime
   if (typeof fm === 'number' && fm > 0) return fm
   // 估算：去掉 frontmatter + markdown 标记，按字符数
   const text = (source.value || '').replace(/^---[\s\S]*?---/, '').replace(/[#>*`_\-\[\]\(\)!]/g, '')

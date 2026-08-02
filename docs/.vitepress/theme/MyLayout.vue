@@ -37,6 +37,9 @@ const isArticle = computed(() => {
   )
 })
 
+// 普通文档页（非博客、非落地页、非文章）
+const isDocPage = computed(() => !isLanding.value && !isBlog.value && !isArticle.value && route.path.startsWith('/md/'))
+
 const docLayoutClasses = computed(() => ({
   'easton-doc-shell': currentLandingTheme.value === 'easton',
 }))
@@ -91,8 +94,8 @@ watch(currentTheme, (theme) => {
     </DefaultLayout>
   </div>
 
-  <!-- 文档页：默认 VitePress layout + Giscus + ThemeSwitcher -->
-  <div v-else class="doc-layout-shell easton-doc-shell">
+  <!-- 普通文档页：默认 VitePress layout + Giscus + ThemeSwitcher（仅 easton 主题下注入 ArticleHero/FooterNav） -->
+  <div v-else-if="isDocPage" class="doc-layout-shell easton-doc-shell">
     <DefaultLayout>
       <template #nav-bar-content-after>
         <LandingThemeSwitcher />
@@ -100,10 +103,10 @@ watch(currentTheme, (theme) => {
         <MobileNavSheet />
       </template>
       <template #doc-top>
-        <ArticleHero />
+        <ArticleHero v-if="currentLandingTheme === 'easton'" />
       </template>
       <template #doc-after>
-        <ArticleFooterNav />
+        <ArticleFooterNav v-if="currentLandingTheme === 'easton'" />
         <div class="giscus">
           <Giscus
             :key="giscusKey"
@@ -123,11 +126,15 @@ watch(currentTheme, (theme) => {
       </template>
     </DefaultLayout>
   </div>
-</template>
-        </div>
-      </template>
-    </DefaultLayout>
-  </div>
+
+  <!-- 兜底：其它路由（404 / 配置页） -->
+  <DefaultLayout v-else>
+    <template #nav-bar-content-after>
+      <LandingThemeSwitcher />
+      <ThemeSwitcher />
+      <MobileNavSheet />
+    </template>
+  </DefaultLayout>
 </template>
 
 <style>

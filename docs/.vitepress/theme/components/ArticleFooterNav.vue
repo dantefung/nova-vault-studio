@@ -2,48 +2,35 @@
 /**
  * ArticleFooterNav - 文章末尾上一篇 / 下一篇 导航
  *
- * 依赖 VitePress 的 prev/next links
+ * 通过 VitePress 的 frontmatter.nav（navigation）拿 prev/next。
+ * SSR 安全：仅读 frontmatter 字段，不读 DOM。
  */
-import { useRoute, useData } from 'vitepress'
-import { useBlogIndex } from '../composables/useBlogIndex.js'
-import { computed, onMounted, ref } from 'vue'
+import { computed } from 'vue'
+import { useData } from 'vitepress'
 
-const route = useRoute()
-const { theme } = useData()
-const { articleByPath } = useBlogIndex()
+const { frontmatter } = useData()
 
-const prev = ref(null)
-const next = ref(null)
-
-onMounted(() => {
-  // 优先用 VitePress 默认 sidebar 的 prev/next links
-  const navLinks = theme.value.sidebar?.[route.path] || []
-  // 兜底用 blog-index 找相邻文章
-  if (navLinks.length === 0) {
-    const cur = articleByPath(route.path)
-    // 简单 fallback：找相同 category 的前后
-    const currentIdx = cur ? findIndex(cur.path) : -1
-    if (currentIdx >= 0) {
-      next.value = currentIdx > 0 ? { text: indexed[currentIdx - 1].title, link: indexed[currentIdx - 1].path } : null
-      prev.value = currentIdx < indexed.length - 1 ? { text: indexed[currentIdx + 1].title, link: indexed[currentIdx + 1].path } : null
-    }
-  }
+const prev = computed(() => {
+  const nav = frontmatter.value?.nav
+  return Array.isArray(nav) ? (nav[0] || null) : null
 })
 
-const prev2 = computed(() => prev.value)
-const next2 = computed(() => next.value)
+const next = computed(() => {
+  const nav = frontmatter.value?.nav
+  return Array.isArray(nav) ? (nav[1] || null) : null
+})
 </script>
 
 <template>
-  <nav v-if="prev2 || next2" class="article-footer-nav">
-    <a v-if="prev2" class="article-footer-nav-item is-prev" :href="prev2.link">
+  <nav v-if="prev || next" class="article-footer-nav">
+    <a v-if="prev" class="article-footer-nav-item is-prev" :href="prev.link">
       <span class="article-footer-nav-label">← 上一篇</span>
-      <span class="article-footer-nav-title">{{ prev2.text }}</span>
+      <span class="article-footer-nav-title">{{ prev.text }}</span>
     </a>
     <span v-else class="article-footer-nav-spacer"></span>
-    <a v-if="next2" class="article-footer-nav-item is-next" :href="next2.link">
+    <a v-if="next" class="article-footer-nav-item is-next" :href="next.link">
       <span class="article-footer-nav-label">下一篇 →</span>
-      <span class="article-footer-nav-title">{{ next2.text }}</span>
+      <span class="article-footer-nav-title">{{ next.text }}</span>
     </a>
   </nav>
 </template>

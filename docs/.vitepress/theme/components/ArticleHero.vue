@@ -11,36 +11,36 @@ import ReadingTime from './ReadingTime.vue'
 const { frontmatter, title } = useData()
 
 const dateStr = computed(() => {
-  const d = frontmatter.value.date
+  const d = frontmatter.value?.date
   if (!d) return null
   if (typeof d === 'string') return d.slice(0, 10)
   return String(d).slice(0, 10)
 })
 
 const sourceLabel = computed(() => {
-  const s = frontmatter.value.source
+  const s = frontmatter.value?.source
   if (!s) return null
   return String(s)
 })
 
 const authorLabel = computed(() => {
-  const a = frontmatter.value.author
+  const a = frontmatter.value?.author
   if (!a) return null
   return String(a)
 })
 
 const descText = computed(() => {
-  const d = frontmatter.value.description
+  const d = frontmatter.value?.description
   return d ? String(d) : null
 })
 
 const categoryText = computed(() => {
-  const c = frontmatter.value.category
+  const c = frontmatter.value?.category
   return c ? String(c) : null
 })
 
 const tagList = computed(() => {
-  const t = frontmatter.value.tags
+  const t = frontmatter.value?.tags
   if (Array.isArray(t)) return t
   if (typeof t === 'string') return t.split(',').map(s => s.trim()).filter(Boolean)
   return []
