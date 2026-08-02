@@ -146,3 +146,38 @@ url: ""
 - [ ] 用 Astro 重建首页和博客系统（方案 3，子代理 worktree 实施）
 - [ ] 评估把 `easton-clone` 拆为独立路由 `/easton-clone/` 避免 landingTheme 切换路径
 
+
+## 2026-08-02 今日开发总览
+
+### 完成项
+
+| 任务 | Commit |
+|------|--------|
+| Easton Clone 重度博客化（索引/布局/组件/搜索框/路由） | `6e6ac6b` ~ `f892825` |
+| 去掉 easton-clone 首页整体特性（修复白屏） | `614e9ec` |
+| 菜单失效修复（flyout button click 跳转第一项） | `1c7859d` |
+| 移动端 nav 重设计（inline 色块 + pill + 底部 sheet） | `628158e` |
+| easton 代码块视觉和谐（body/code block 全链路背景） | `a070b28` |
+| 移动端 nav 验证脚本 | `0a52369` |
+| 文章展示高级感（ArticleHero / ReadingTime / FooterNav + typography） | `74ee029` |
+| ArticleHero/ReadingTime/FooterNav SSR 安全修复（Vercel build 失败） | `d34b4d7` |
+| 304 个 skills 按 vendor 归类索引 | `3a56c55` |
+
+### 三方案 Worktree 分支
+
+| 分支 | 状态 | 说明 |
+|------|------|------|
+| `fix/vitepress-1.7` | ⚠️ verify only | VitePress 1.7 未发布，仅做了 verify commit `c539151` |
+| `feat/astro-rebuild` | ✅ 推送 `5872d09` | Astro 重构，5 风格 SSR 正确，白屏已修 |
+| `feat/next-rebuild` | ✅ 推送 `1fec0af` | Next.js 重构，5 风格 SSR 正确，白屏已修 |
+
+### 待办
+
+- [ ] 移动端 3 个致命 bug：横向溢出 36px / 链接字号 36.8px / ArticleHero 拥挤
+- [ ] 方案 2 升级 VitePress 1.7（1.7 未发布，暂搁置）
+- [ ] 选定 Astro / Next.js 其中一个作为未来主线
+
+**经验**：
+* Vercel build 失败 `Cannot read properties of undefined (reading 'value')` 根因是 Vue 3 SSR 阶段 `frontmatter.value.xxx` 访问 undefined，所有 frontmatter 访问必须加 optional chaining
+* MyLayout.vue 模板结构损坏（重复 `</template>`）会导致 SFC 解析失败，Edit 工具多次操作同一文件时要特别小心
+* SKILL.md frontmatter 无 author 字段，304 个 skills 只能靠 name 前缀 / description 关键词推断 vendor
