@@ -122,6 +122,7 @@ url: ""
 | 2026-07-15 | https://mp.weixin.qq.com/s/zo1T4Q1wBlYt_JORZeES0w | 待采集 | pending |
 | 2026-07-15 | https://mp.weixin.qq.com/s/FY2J-mXMSoSOQ3_JFl2tMA | 待采集 | pending |
 | 2026-08-03 | https://x.com/i/status/2083773600776262120 | **阿哲Phil：FDE 是临时外包 or 真AI落地？附小白快速入门与辨别方式**（关联 FDE 书） | pending |
+| 2026-08-03 | https://x.com/i/status/2083806603527024702 | **Jason Zhu：手把手教你申请清迈大学语言班**（42000泰铢，半年清迈学英语） | pending |
 
 ## 已完成
 
