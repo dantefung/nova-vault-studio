@@ -96,3 +96,11 @@ url: ""
 > 虾系 AI 工具集 —— QwenPaw 等各类智能体框架的安装、配置、使用与实践。
 
 [进入专栏 →](/md/columns/paws/)
+
+---
+
+## 社媒
+
+> X/Twitter 运营、SEO 策略、谷歌搜索控制台实战记录。
+
+[进入专栏 →](/md/columns/social-media/)
