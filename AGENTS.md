@@ -17,23 +17,254 @@ title: "AI Agent 操作规范"
 
 ---
 
+## 目录结构总览
+
+```
+docs/md/
+├── guide/           # 指南文档（AI、Claude Code、CS、开发、终端、OS 等）
+│   ├── ai/          # AI 编程资源、Skills、Vibe Writing
+│   ├── claude-code/ # Claude Code 指南
+│   ├── openclaw/    # OpenClaw 指南
+│   ├── terminal/    # 终端工具指南
+│   ├── cs/          # CS 基础
+│   ├── os/          # 操作系统
+│   ├── dev/         # 开发工具
+│   ├── career/      # 职业发展
+│   ├── business/    # 商业指南
+│   ├── research/    # 研究方法
+│   └── vm/          # 虚拟机
+├── columns/         # 深度专栏（24 个）
+│   ├── indie-hub/   # 独立开发者出海
+│   │   └── seo/     # SEO 建站（22 个子分类）
+│   ├── agentic-engineer/ # AI Agent 工程
+│   ├── ai-agent/    # AI Agent 教程
+│   ├── harness-engineering/ # Harness 工程
+│   ├── vibe-coding/ # Vibe Coding
+│   ├── vibe-coding-and-design/ # Vibe Coding + 设计
+│   ├── openclaw/    # OpenClaw 专栏
+│   ├── opc/         # OPC 专栏
+│   ├── gstack-skills/ # GStack Skills
+│   ├── superpowers-skills/ # Superpowers Skills
+│   ├── mattpocock-skills/ # Matt Pocock Skills
+│   ├── get-shit-done-skills/ # GSD Skills
+│   ├── prompt-engineering-book/ # 提示词工程
+│   ├── content-engineering/ # 内容工程
+│   ├── cognition/   # 认知科学
+│   ├── drawing/     # 绘图
+│   ├── diary/       # 日记专栏
+│   ├── investment/  # 投资
+│   ├── java-best-practices/ # Java 最佳实践
+│   ├── lenny-newsletter/ # Lenny  Newsletter
+│   ├── paws/        # PAWS
+│   ├── qwenpaw/     # QwenPaw
+│   ├── recruitment/ # 招聘
+│   └── social-media/ # 社交媒体
+├── wiki/            # LLM Wiki 知识库
+│   ├── sources/     # 原始文章（verbatim，唯读）
+│   ├── summaries/   # 精读摘要
+│   ├── concepts/    # 概念页
+│   ├── products/    # 产品页
+│   ├── patterns/    # 模式页
+│   ├── comparisons/ # 对比页
+│   ├── entities/    # 实体页
+│   ├── journal/     # 日记
+│   ├── read-later/  # 稍后读
+│   ├── 商业分析/    # 商业分析
+│   └── images/      # 配图
+├── books/           # 专题书籍（16 类，PDF 内嵌预览）
+│   ├── ai-software/ # AI 软件
+│   ├── claude-code-src/ # Claude Code 源码
+│   ├── DDIA/        # 数据密集型应用
+│   ├── harness/     # Harness
+│   ├── hermes/      # Hermes
+│   ├── k8s/         # Kubernetes
+│   ├── linux-network/ # Linux 网络
+│   ├── openclaw/    # OpenClaw
+│   ├── software-engineering/ # 软件工程
+│   ├── social-media/ # 社交媒体
+│   ├── spring/      # Spring
+│   ├── transformer-embedding/ # Transformer
+│   ├── visual-systems/ # 视觉系统
+│   ├── zettelkasten/ # 卡片笔记
+│   └── misc/        # 其他
+├── slides/          # 横向翻页网页 PPT
+├── tutorial/        # 教程区
+│   ├── codex-practice/
+│   ├── full-keyboard/
+│   ├── tutorial-one/
+│   └── tutorial-two/
+├── agi/             # AGI 相关教程
+│   ├── Anthropic-Academy/
+│   └── claude-code-src/
+├── business/        # 商业分析
+│   ├── market-analysis/
+│   ├── business-models/
+│   ├── investment/
+│   ├── ai-relay-station/
+│   └── digital-products/
+├── blog/            # 博客
+│   ├── category/
+│   ├── series/
+│   └── archive/
+├── sitelog/         # 站点自身文档
+│   ├── architecture/
+│   ├── features/
+│   ├── development/
+│   ├── dev-log/
+│   ├── evolution/
+│   └── reference/
+├── prompts/         # 提示词
+│   └── design/
+└── assets/          # 静态资源
+    └── diagram-icons/
+```
+
+---
+
+## 🔍 路由表（关键字 → 路径）
+
+### 指南类
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| AI 编程资源、AI 工具、Claude Skills | `guide/ai/ai-programming-resources.md` |
+| Claude Code 资源、Claude 教程 | `guide/ai/claude-code-resources.md` |
+| Claude Code 指南 | `guide/claude-code/` |
+| OpenClaw 指南 | `guide/openclaw/` |
+| 提示词工程、Prompt | `guide/ai/prompt-engineering/` |
+| 结构化 Prompt 开发 | `guide/ai/structured-prompt-driven-development.md` |
+| Vibe Coding 教程 | `guide/ai/vibe-coding-core-pitfalls.md` |
+| AI 编程幻灯片 | `guide/ai/ai-programming-slides/` |
+| 终端工具、命令行 | `guide/terminal/` |
+| CS 基础、计算机科学 | `guide/cs/` |
+| 操作系统、OS | `guide/os/` |
+| 开发工具、Dev | `guide/dev/` |
+| 职业发展、Career | `guide/career/` |
+| 研究方法、Research | `guide/research/` |
+| 虚拟机、VM | `guide/vm/` |
+| 商业指南 | `guide/business/` |
+
+### 专栏类
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| 独立开发者、出海、Indie Hub | `columns/indie-hub/` |
+| SEO 建站、Google SEO、排名 | `columns/indie-hub/seo/` |
+| 关键词分析、Keyword | `columns/indie-hub/seo/keyword-analysis/` |
+| 域名、Domain | `columns/indie-hub/seo/domain/` |
+| 落地页、Landing Page | `columns/indie-hub/seo/webcafe-landing-page/` |
+| 需求挖掘 | `columns/indie-hub/seo/webcafe-demand/` |
+| 外链、Backlink | `columns/indie-hub/seo/webcafe-seo-backlink/` |
+| 上站、上线、Ship | `columns/indie-hub/seo/webcafe-ship/` |
+| 工具站、Tool Site | `columns/indie-hub/seo/webcafe-tool-site/` |
+| 新手入门、SEO 基础 | `columns/indie-hub/seo/webcafe-beginner/` |
+| 进阶教程 | `columns/indie-hub/seo/webcafe-advanced/` |
+| 社群复盘、社区动态 | `columns/indie-hub/seo/community-recap/` |
+| Google Ads 广告 | `columns/indie-hub/seo/google-ads/` |
+| 赚钱方法、套利、Money | `columns/indie-hub/money-methods/` |
+| Dropshipping、一件代发 | `columns/indie-hub/dropshipping-resources/` |
+| 独立 App、App 实战 | `columns/indie-hub/app-playbook/` |
+| AI 产品、AI 工具 | `columns/indie-hub/ai-product/` |
+| zlbigger 系列 | `columns/indie-hub/zlbigger/` |
+| 出海实战、outsea | `columns/indie-hub/outsea-playbook/` |
+| 跨境电商、AI 电商 | `columns/indie-hub/ai-cross-border-ecommerce-research/` |
+| Agentic Engineer、Agent 工程 | `columns/agentic-engineer/` |
+| 多 Agent 协作冲突 | `columns/agentic-engineer/multi-agent-collision/` |
+| cc-connect 配置 | `columns/agentic-engineer/cc-connect/` |
+| GStack、GSD | `columns/agentic-engineer/gstack/` |
+| oh-my-claudecode | `columns/agentic-engineer/oh-my-claudecode/` |
+| Agent 范式演进 | `columns/agentic-engineer/agent-paradigm-evolution/` |
+| Ralph Loop | `columns/agentic-engineer/ralph-loop/` |
+| Pensieve | `columns/agentic-engineer/pensieve/` |
+| AI Agent 教程 | `columns/ai-agent/` |
+| Harness 工程 | `columns/harness-engineering/` |
+| Vibe Coding 工作流 | `columns/vibe-coding/` |
+| Vibe Coding + 设计 | `columns/vibe-coding-and-design/` |
+| OpenClaw 专栏 | `columns/openclaw/` |
+| OPC 专栏 | `columns/opc/` |
+| GStack Skills | `columns/gstack-skills/` |
+| Superpowers Skills | `columns/superpowers-skills/` |
+| Matt Pocock Skills | `columns/mattpocock-skills/` |
+| GSD Skills | `columns/get-shit-done-skills/` |
+| 提示词工程书 | `columns/prompt-engineering-book/` |
+| 内容工程 | `columns/content-engineering/` |
+| 认知科学 | `columns/cognition/` |
+| 绘图、Drawing | `columns/drawing/` |
+| 投资 | `columns/investment/` |
+| Java 最佳实践 | `columns/java-best-practices/` |
+| Lenny Newsletter | `columns/lenny-newsletter/` |
+| 社交媒体 | `columns/social-media/` |
+| QwenPaw | `columns/qwenpaw/` |
+| 招聘 | `columns/recruitment/` |
+
+### 知识库类
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| Wiki 知识库、LLM Wiki | `wiki/` |
+| 原始文章、Sources | `wiki/sources/` |
+| 摘要、Summaries | `wiki/summaries/` |
+| 概念、Concepts | `wiki/concepts/` |
+| 产品、Products | `wiki/products/` |
+| 模式、Patterns | `wiki/patterns/` |
+| 对比、Comparisons | `wiki/comparisons/` |
+| 实体、Entities | `wiki/entities/` |
+| 日记、Journal | `wiki/journal/` |
+| 稍后读、Read Later | `wiki/read-later/` |
+| 商业分析 | `wiki/商业分析/` |
+
+### 书籍类
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| AI 软件书籍 | `books/ai-software/` |
+| Claude Code 源码书 | `books/claude-code-src/` |
+| DDIA、数据密集型 | `books/DDIA/` |
+| Harness 书籍 | `books/harness/` |
+| Hermes 书籍 | `books/hermes/` |
+| Kubernetes、k8s | `books/k8s/` |
+| Linux 网络 | `books/linux-network/` |
+| OpenClaw 书籍 | `books/openclaw/` |
+| 软件工程 | `books/software-engineering/` |
+| 社交媒体 | `books/social-media/` |
+| Spring | `books/spring/` |
+| Transformer、Embedding | `books/transformer-embedding/` |
+| 视觉系统 | `books/visual-systems/` |
+| 卡片笔记、Zettelkasten | `books/zettelkasten/` |
+
+### 其他
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| 网页 PPT、Slides | `slides/` |
+| 教程、Tutorial | `tutorial/` |
+| AGI 教程 | `agi/` |
+| 商业分析（顶层） | `business/` |
+| 博客、Blog | `blog/` |
+| 站点日志、Sitelog | `sitelog/` |
+| 提示词、Prompts | `prompts/` |
+
+---
+
 ## 系统功能矩阵概览
 
-### 内容板块（11 个）
+### 内容板块（11 个顶层分类）
 
-| 板块 | 用途 |
-|------|------|
-| guide | 指南文档（AI、Claude Code、CS、开发、终端、OS 等） |
-| wiki | LLM Wiki 知识库（四层架构） |
-| columns | 20 个深度专栏 |
-| books | 16 个书籍分类，支持 PDF 内嵌预览 |
-| slides | 横向翻页网页 PPT 集合 |
-| tutorial | 教程区 |
-| agi | AGI 相关教程 |
-| business | 商业分析（市场、模式、投资） |
-| sitelog | 站点自身文档 |
+| 板块 | 用途 | 路径 |
+|------|------|------|
+| guide | 指南文档（AI、Claude Code、CS、开发、终端、OS 等） | `docs/md/guide/` |
+| wiki | LLM Wiki 知识库（四层架构） | `docs/md/wiki/` |
+| columns | 24 个深度专栏 | `docs/md/columns/` |
+| books | 16 个书籍分类，支持 PDF 内嵌预览 | `docs/md/books/` |
+| slides | 横向翻页网页 PPT 集合 | `docs/md/slides/` |
+| tutorial | 教程区 | `docs/md/tutorial/` |
+| agi | AGI 相关教程 | `docs/md/agi/` |
+| business | 商业分析（市场、模式、投资） | `docs/md/business/` |
+| blog | 博客 | `docs/md/blog/` |
+| sitelog | 站点自身文档 | `docs/md/sitelog/` |
+| prompts | 提示词集合 | `docs/md/prompts/` |
 
-### Skills 能力（18 个）
+### Skills 能力
 
 | 类别 | 主要 Skill |
 |------|-----------|
@@ -70,8 +301,6 @@ pre-commit hook 同时检查 `.md` 文件中是否有裸露的 HTML 标签（非
 
 - **代码片段必须加反引号**：`<h1>`、`<head>`、`</body>` 等必须写成 `` `<h1>` ``、`` `<head>` ``、`` `</body>` ``
 - **浏览器扩展污染**：`<readpronunciation-*>` 等注入标签会被 hook 拦截——用 `git checkout -- <file>` 回退
-
-**新增脚本**：`.claude/hooks/check-html-tags.py`（被 `.git/hooks/pre-commit` 调用）
 
 ```yaml
 ---
@@ -110,14 +339,6 @@ python3 .claude/skills/markdown-proxy/scripts/download-images.py _sandbox/{文�
 ### 公众号采集后续处理
 
 **1. 图片路径已由脚本自动替换为本地相对路径**（`images/{文章英文名}/001.png` 等），无需手动修正。
-
-**2. 清理双 frontmatter**
-
-baoyu-fetch 可能产生两块 `---`：
-- 第一块：YAML 元数据（title/date/source/url 等）
-- 第二块：可能是额外的元数据或直接是正文
-
-处理方式：只保留第一块 frontmatter（`---` 闭合后到下一个 `---` 之间的内容全部删除），正文从 `# 标题` 行开始。
 
 **2. 清理双 frontmatter**
 
@@ -230,8 +451,6 @@ docs/md/{分类}/{子目录}/images/{文章英文名}/{图片文件}
 
 ## HTML PPT 归档规范
 
-外部 HTML PPT（如 guizang-ppt-skill 生成的）归档到本知识库时，遵循以下流程：
-
 ### 目标位置
 
 ```
@@ -242,9 +461,6 @@ docs/md/slides/ppt-{英文简称}/
     ├── slide-01.png
     └── slide-02.png
 ```
-
-- 目录命名：`ppt-` 前缀 + 英文 kebab-case（如 `ppt-how-to-write-prompt`）
-- 放在 `docs/md/slides/` 专用目录下，按主题分类
 
 ### 操作步骤
 
@@ -409,23 +625,17 @@ npm run preview   # 预览构建产物
 
 **触发词**：「稍后读」「先记下来」「mark for later」「回头看」。
 
-**轻量性质**：用户说"稍后读"= **只记链接**，**不要抓全文到 Downloads**，**不要**走 wiki-ingest 完整流程。
+**轻量性质**：用户说"稍后读"= **只记链接**，**不要抓全文**，**不要**走 wiki-ingest 完整流程。
 
 **文件**：`docs/md/wiki/read-later/index.md`——按平台分类追加一行，**绝不单独建文件**。
 
-**格式**（微信公众号分类下）：
+**格式**：
 
 ```markdown
-| YYYY-MM-DD | https://mp.weixin.qq.com/s/xxx | **标题**：一句话摘要 + 关键洞察 + 跟本仓哪条概念链接 |
+| YYYY-MM-DD | https://... | **标题**：一句话摘要 + 关键洞察 + 交叉引用 |
 ```
 
-- 日期：当天 `YYYY-MM-DD`
-- 摘要：3-5 个粗体关键词，1-2 句话讲核心
-- 交叉引用：跟现有 wiki 概念（`[[llm-wiki]]` 等）的关联顺手标注
-
 **升级路径**：如果用户后续说「入库」「归档到仓库」「走完整流程」，再触发 `/wiki-ingest-article`——sources → summaries → concepts → index/log 更新。
-
-**反例**（INFP 常见陷阱：理想化预期、过度打磨）：不要"为了以防万一先抓全文存到 Downloads"——除非用户明确说"抓全文"或"入库"。
 
 ### 四层结构
 
@@ -436,19 +646,7 @@ npm run preview   # 预览构建产物
 | 概念层 | `concepts/` | 从摘要提炼的知识页，含定义+洞察+与其他概念交叉引用 | LLM 维护 |
 | 产出层 | `artifacts/` | 你原创的完成品（已发布的文章、推文串、笔记） | 你维护 |
 
-### artifacts 子目录
-
-```
-artifacts/
-├── articles/   ← 已发布到专栏的长文
-├── threads/    ← 推文串/X threads
-└── notes/      ← 随手笔记/想法片段
-```
-
-**artifacts 入口**：写完发布到专栏时，同步复制一份到 `wiki/artifacts/articles/`。
-不是采集归档，是**创作产出物**。
-
-### 三条归档路径（含稍后读）
+### 三条归档路径
 
 | 路径 | 触发 | 目的地 | 重量 |
 |------|------|--------|------|
@@ -456,80 +654,26 @@ artifacts/
 | 采集归档 | `/wiki-ingest-article` | `sources/` → `summaries/` → `concepts/` | 🔥 重（精读+配图+概念页） |
 | 创作发布 | 写完发布到专栏时 | 同时写一份到 `artifacts/articles/` | 中 |
 
-### Wiki 目录
-
-- Wiki 路径：`docs/md/wiki/`
-- Wiki 子目录：`artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`journal/`、`images/`、`images/`（文章配图）
-- **索引页维护**：每个分类（vibe-coding、agentic-engineer、出海建站等）需要在 `index.md` 的分类索引中登记，sidebar 自动生成但 index 索引需手动更新
-
 ---
 
 ## 日记记录 (Journal Diary)
 
-用于记录用户的随思、感悟、语录等非结构化内容。触发词：「记录日记」、「记一下」、「写个日记」、「随手记」。
-
-### 文件位置
+触发词：「记录日记」、「记一下」、「写个日记」、「随手记」。
 
 - 目录：`docs/md/wiki/journal/`
-- 文件名：`YYYY-MM-DD.md`（按日期分文件）
-
-### 内容组织
-
-按**内容主题**划分章节/条目，追加到当天的文件里。同一日期的多条记录放在同一个文件的不同章节。
-
-### 格式
-
-```markdown
-## HH:MM 主题标签
-
-内容...
-
-*—— 来源*
-```
-
-### index.md 索引维护
-
-`index.md` 是日记索引，**只登记不写内容**。每次新建/更新日记文件后，在 `index.md` 顶部追加索引条目：
-
-```markdown
-## YYYY-MM-DD
-
-- [HH:MM] 主题标签 — 一句话摘要
-- [HH:MM] 主题标签 — 一句话摘要
-```
-
-index.md 保持按日期倒序排列（最新日期在前）。
-
-### 操作流程
-
-1. 用户说"记录日记" → 记录内容到 `docs/md/wiki/journal/YYYY-MM-DD.md`
-2. 更新 `index.md` 的索引条目
+- 文件名：`YYYY-MM-DD.md`
+- 每条记录用 `## 主题` 分章节
+- 更新 `index.md` 顶部索引（按日期倒序）
 
 ---
 
 ## TODO 待办列表
 
-用于记录待爬取的公众号内容链接，与「稍后读」同级。文件位置：`TODO.md`。
+文件：`TODO.md`
 
-**格式**：
+格式：`| 日期 | 链接 | 描述 | 状态 |`
 
-```markdown
-| 日期 | 链接 | 状态 |
-|------|------|------|
-| YYYY-MM-DD | https://... | pending |
-```
-
-**流程**：
-1. 记录链接，状态设为 `pending`
-2. 执行采集（`/wiki-ingest-article`）
-3. 完成后更新状态为 `done`，移至「已完成」区块
-- 一个页面 = 一个知识实体（概念、实体、摘要）
-- 文件命名：小写、中划线分隔（如 `claude-code-setup.md`）
-- 交叉引用：`[[pages/concept-name]]` Obsidian 兼容双括号格式
-- `index.md`：每次 ingest 更新，按分类组织
-- `log.md`：只追加、chronological 条目，条目以 `## [YYYY-MM-DD]` 开头
-- `brainstorming/`：与 AI 对话的探索记录（chronological 条目）
-- `artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`images/`
+流程：记录 `pending` → 采集后标记 `done` → 移至「已完成」区块
 
 ---
 
@@ -538,7 +682,4 @@ index.md 保持按日期倒序排列（最新日期在前）。
 ### Codex 实战课程仓库
 
 路径：`codex-practice/`（相对于本仓库根目录）
-
 GitHub：https://github.com/VastFuture/codex-practice
-
-近期需要维护，可能需要激活上下文。
