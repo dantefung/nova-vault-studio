@@ -30,6 +30,7 @@ source: "原创"
 | [全 Agentic 架构深度剖析](../agent-paradigm-evolution/all-agentic-architectures-deep-dive.md) | 17 种架构模式全覆盖 |
 | [Prompt → Context → Harness 三次进化](../other-tools/prompt-context-harness-evolution.md) | 工程进化论 |
 | [淘天生码工作流最佳实践](../other-tools/taobao-code-generation-workflow.md) | AI 生码全流程案例 |
+| [多 Agent 协作冲突的血泪教训与解决方案](./multi-agent-collision/) | 主管理者+Worker 权限分离、浏览器锁、习惯闭环 |
 
 ---
 
