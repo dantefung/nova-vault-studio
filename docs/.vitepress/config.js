@@ -130,6 +130,10 @@ export default defineConfig({
         items: generateNavItems('docs/md/agi', '/md/agi/')
       },
       {
+        text: '博客',
+        link: '/md/blog/'
+      },
+      {
         text: 'Wiki',
         items: [
           { text: '知识库总览', link: '/md/wiki/' },

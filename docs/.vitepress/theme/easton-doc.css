@@ -71,6 +71,9 @@ html[data-landing-theme="easton"] .easton-doc-shell .VPNav,
 html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar {
   background: color-mix(in srgb, var(--easton-doc-bg) 88%, transparent);
   border-bottom-color: var(--easton-doc-rule);
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar {
   backdrop-filter: blur(18px);
 }
 

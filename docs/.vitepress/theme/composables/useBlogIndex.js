@@ -5,6 +5,8 @@ import { ref, readonly, computed } from 'vue'
 import blogIndex from '../../generated/blog-index.js'
 
 const index = ref(blogIndex)
+const categories = computed(() => index.value.categories)
+const series = computed(() => index.value.series)
 
 function articleByPath(path) {
   if (!path) return null
@@ -107,6 +109,8 @@ function neighbors(path) {
 export function useBlogIndex() {
   return {
     index: readonly(index),
+    categories,
+    series,
     articleByPath,
     articlesByCategory,
     articlesBySeries,

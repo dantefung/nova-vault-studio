@@ -56,6 +56,7 @@ const recentUpdates = [
         <a href="/" class="landing-logo">System Vault</a>
         <nav class="landing-nav-links" aria-label="站点导航">
           <a href="/md/guide/getting-started">开始阅读</a>
+          <a href="/md/blog/">博客</a>
           <a href="https://github.com/dantefung/nova-vault-studio" target="_blank" rel="noreferrer">GitHub</a>
           <LandingThemeSwitcher />
           <ThemeSwitcher />
