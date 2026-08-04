@@ -13,9 +13,18 @@ import { useTheme } from '../composables/useTheme.js'
 const { currentTheme, setTheme, THEMES, currentLandingTheme, setLandingTheme } = useTheme()
 
 const isOpen = ref(false)
+let previousBodyOverflow = ''
 
-function open() { isOpen.value = true; document.body.style.overflow = 'hidden' }
-function close() { isOpen.value = false; document.body.style.overflow = '' }
+function open() {
+  previousBodyOverflow = document.body.style.overflow
+  isOpen.value = true
+  document.body.style.overflow = 'hidden'
+}
+
+function close() {
+  isOpen.value = false
+  document.body.style.overflow = previousBodyOverflow
+}
 
 const swatches = [
   { key: 'light', color: '#5672cd', label: '晴空' },
@@ -33,7 +42,10 @@ function handleKeydown(e) {
 }
 
 onMounted(() => document.addEventListener('keydown', handleKeydown))
-onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
+onUnmounted(() => {
+  document.removeEventListener('keydown', handleKeydown)
+  if (isOpen.value) document.body.style.overflow = previousBodyOverflow
+})
 </script>
 
 <template>
@@ -117,11 +129,11 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
 <style scoped>
 .mobile-nav-sheet-trigger {
   display: none;
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   border: 1px solid var(--easton-doc-rule, var(--vp-c-divider));
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--easton-doc-surface, var(--vp-c-bg-elv)) 80%, transparent);
+  border-radius: 2px;
+  background: transparent;
   color: var(--easton-doc-body, var(--vp-c-text-2));
   cursor: pointer;
   align-items: center;
@@ -151,8 +163,9 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   max-height: 80vh;
   padding: 12px 22px 32px;
   background: var(--easton-doc-surface, #fffaf3);
-  border-radius: 20px 20px 0 0;
-  box-shadow: 0 -8px 32px rgba(36, 33, 30, 0.12);
+  border-top: 1px solid var(--easton-doc-rule, #d7cec2);
+  border-radius: 0;
+  box-shadow: 0 -8px 24px rgba(36, 33, 30, 0.08);
   overflow-y: auto;
 }
 
@@ -197,7 +210,7 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   gap: 10px;
   padding: 14px 16px;
   border: 1px solid var(--easton-doc-rule, #d7cec2);
-  border-radius: 14px;
+  border-radius: 2px;
   background: var(--easton-doc-surface, #fffaf3);
   font: inherit;
   cursor: pointer;
@@ -227,7 +240,7 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   gap: 12px;
   padding: 14px 18px;
   border: 1px solid var(--easton-doc-rule, #d7cec2);
-  border-radius: 14px;
+  border-radius: 2px;
   background: var(--easton-doc-surface, #fffaf3);
   color: var(--easton-doc-ink, #24211e);
   font: inherit;
@@ -263,7 +276,7 @@ onUnmounted(() => document.removeEventListener('keydown', handleKeydown))
   width: 100%;
   padding: 14px;
   border: 0;
-  border-radius: 14px;
+  border-radius: 2px;
   background: var(--easton-doc-ink, #24211e);
   color: var(--easton-doc-surface, #fffaf3);
   font: inherit;

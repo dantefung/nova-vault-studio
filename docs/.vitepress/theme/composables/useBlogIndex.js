@@ -75,7 +75,6 @@ function relatedArticles(path, n = 4) {
 
   return candidates
     .map(a => ({ a, s: score(a) }))
-    .filter(x => x.s > 0)
     .sort((x, y) => y.s - x.s || (y.a.date || '').localeCompare(x.a.date || ''))
     .slice(0, n)
     .map(x => x.a)

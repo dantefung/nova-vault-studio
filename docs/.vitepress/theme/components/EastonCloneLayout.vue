@@ -16,7 +16,7 @@ const featuredSeries = computed(() => series.value.slice(0, 3))
 <template>
   <div class="easton-clone-page">
     <header class="easton-clone-header">
-      <a href="/" class="easton-clone-brand"><span class="easton-clone-mark">E</span><span>System Vault</span></a>
+      <a href="/" class="easton-clone-brand"><span>System Vault</span></a>
       <nav aria-label="首页导航" class="easton-clone-nav">
         <a href="/">首页</a>
         <a href="/md/blog/">列表</a>
@@ -120,7 +120,7 @@ const featuredSeries = computed(() => series.value.slice(0, 3))
 
     <footer class="easton-clone-footer">
       <div>
-        <a href="/" class="easton-clone-brand"><span class="easton-clone-mark">E</span><span>System Vault</span></a>
+        <a href="/" class="easton-clone-brand"><span>System Vault</span></a>
         <p>AI、开发、自动化与独立产品构建笔记。</p>
       </div>
       <div>

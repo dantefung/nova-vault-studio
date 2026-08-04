@@ -21,6 +21,7 @@ const BLOG_DIRS = [
   'docs/md/wiki/sources',
   'docs/md/wiki/journal',
   'docs/md/wiki/read-later',
+  'docs/md/guide/research',
   'docs/md/columns/agentic-engineer',
   'docs/md/columns/ai-agent',
   'docs/md/columns/cognition',
@@ -38,6 +39,7 @@ const DIR_TO_CATEGORY = {
   'docs/md/wiki/sources': { slug: 'sources', title: '资料源' },
   'docs/md/wiki/journal': { slug: 'journal', title: '日志' },
   'docs/md/wiki/read-later': { slug: 'read-later', title: '稍后读' },
+  'docs/md/guide/research': { slug: 'research', title: '研究方法' },
   'docs/md/columns/agentic-engineer': { slug: 'agentic-engineer', title: 'Agentic Engineer' },
   'docs/md/columns/ai-agent': { slug: 'ai-agent', title: 'AI Agent' },
   'docs/md/columns/cognition': { slug: 'cognition', title: '认知' },
@@ -54,7 +56,7 @@ const DIR_TO_CATEGORY = {
 const CATEGORY_ORDER = [
   'sources', 'journal', 'agentic-engineer', 'ai-agent', 'cognition',
   'content-engineering', 'harness-engineering', 'investment', 'opc',
-  'social-media', 'vibe-coding', 'indie-hub', 'business', 'read-later',
+  'social-media', 'vibe-coding', 'indie-hub', 'business', 'research', 'read-later',
 ]
 
 const OUTPUT_DIR = path.join(CWD, 'docs/.vitepress/generated')

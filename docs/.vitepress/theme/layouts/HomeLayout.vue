@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vitepress'
 import ThemeSwitcher from '../components/ThemeSwitcher.vue'
 import LandingThemeSwitcher from '../components/LandingThemeSwitcher.vue'
+import MobileNavSheet from '../components/MobileNavSheet.vue'
 import { useTheme } from '../composables/useTheme.js'
 
 const route = useRoute()
@@ -58,6 +59,7 @@ const recentUpdates = [
           <a href="https://github.com/dantefung/nova-vault-studio" target="_blank" rel="noreferrer">GitHub</a>
           <LandingThemeSwitcher />
           <ThemeSwitcher />
+          <MobileNavSheet />
         </nav>
       </div>
     </header>

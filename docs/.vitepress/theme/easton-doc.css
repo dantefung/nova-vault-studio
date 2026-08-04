@@ -120,16 +120,20 @@ html[data-landing-theme="easton"] .easton-doc-shell .VPDoc {
 html[data-landing-theme="easton"] .easton-doc-shell .VPDoc .content-container {
   max-width: 820px;
   padding: 42px;
-  border: 1px solid var(--easton-doc-rule);
-  border-radius: 30px;
-  background: color-mix(in srgb, var(--easton-doc-surface) 93%, transparent);
-  box-shadow: var(--easton-doc-shadow);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc {
   color: var(--easton-doc-body);
   font-size: 17px;
   line-height: 1.92;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h1 {
+  display: none;
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc h1,
@@ -213,7 +217,7 @@ html[data-landing-theme="easton"] .easton-doc-shell .vp-doc table {
 
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc blockquote {
   border-left: 4px solid var(--easton-doc-accent);
-  border-radius: 0 18px 18px 0;
+  border-radius: 0;
   background: color-mix(in srgb, var(--easton-doc-soft) 70%, transparent);
   color: var(--easton-doc-body);
   padding: 16px 20px;
@@ -221,17 +225,28 @@ html[data-landing-theme="easton"] .easton-doc-shell .vp-doc blockquote {
 
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'],
 html[data-landing-theme="easton"] .easton-doc-shell .vp-doc table {
+  max-width: 100%;
   background: color-mix(in srgb, var(--easton-doc-soft) 35%, var(--easton-doc-surface));
   border: 1px solid var(--easton-doc-rule);
-  border-radius: 18px;
-  box-shadow: 0 14px 34px rgb(36 33 30 / 0.05);
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'] {
+  min-width: 0;
   overflow: hidden;
 }
 
-/* 代码块 pre/code 内部：恢复 padding，用最深的 ink 字色建立层级 */
-html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'] pre,
-html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'] code {
+/* pre 独占间距与滚动，避免 pre 和 code 的双重 padding 撑破正文列。 */
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'] pre {
+  max-width: 100%;
+  margin: 0;
   padding: 18px 22px;
+  overflow-x: auto;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'] code {
+  padding: 0;
   color: var(--easton-doc-ink);
   background: transparent;
   font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
@@ -272,9 +287,9 @@ html[data-landing-theme="easton"] .easton-doc-shell .outline-link.active {
 html[data-landing-theme="easton"] .easton-doc-shell .pager-link,
 html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
   border: 1px solid var(--easton-doc-rule);
-  border-radius: 22px;
+  border-radius: 2px;
   background: color-mix(in srgb, var(--easton-doc-surface) 88%, transparent);
-  box-shadow: 0 14px 34px rgb(36 33 30 / 0.05);
+  box-shadow: none;
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
@@ -302,18 +317,24 @@ html[data-landing-theme="easton"] .easton-doc-shell .theme-dropdown {
 
   html[data-landing-theme="easton"] .easton-doc-shell .VPDoc .content-container {
     padding: 30px;
-    border-radius: 24px;
   }
 }
 
 @media (max-width: 640px) {
+  html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarSearchButton,
+  html[data-landing-theme="easton"] .easton-doc-shell .DocSearch-Button,
+  html[data-landing-theme="easton"] .easton-doc-shell .local-search-button {
+    width: 36px;
+    height: 36px;
+    border-radius: 2px;
+  }
+
   html[data-landing-theme="easton"] .easton-doc-shell .VPDoc {
     padding: 20px 14px 0;
   }
 
   html[data-landing-theme="easton"] .easton-doc-shell .VPDoc .content-container {
     padding: 24px 18px;
-    border-radius: 20px;
   }
 
   html[data-landing-theme="easton"] .easton-doc-shell .vp-doc {

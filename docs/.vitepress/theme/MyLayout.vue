@@ -12,11 +12,13 @@ import HomeLayout from './layouts/HomeLayout.vue'
 import BlogLayout from './layouts/BlogLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
 import { useTheme } from './composables/useTheme.js'
+import { useBlogIndex } from './composables/useBlogIndex.js'
 import { ref, watch } from 'vue'
 
 const route = useRoute()
 const { Layout: DefaultLayout } = DefaultTheme
 const { currentTheme, currentLandingTheme, getGiscusTheme } = useTheme()
+const { articleByPath } = useBlogIndex()
 
 // 判断是否为落地页路由
 const isLanding = computed(() => {
@@ -26,14 +28,15 @@ const isLanding = computed(() => {
 // 博客路由（/md/blog/）
 const isBlog = computed(() => route.path.startsWith('/md/blog/'))
 
-// 文章路由（在已有 wiki / columns / business 内容路径下，且 easton 风格）
+// 保留现有文章目录行为，并让博客索引中的其它内容目录使用文章布局。
 const isArticle = computed(() => {
   if (currentLandingTheme.value !== 'easton') return false
   if (isBlog.value || isLanding.value) return false
   return (
     route.path.startsWith('/md/wiki/') ||
     route.path.startsWith('/md/columns/') ||
-    route.path.startsWith('/md/business/')
+    route.path.startsWith('/md/business/') ||
+    Boolean(articleByPath(route.path))
   )
 })
 

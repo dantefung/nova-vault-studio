@@ -40,7 +40,6 @@ export function fixNavigation() {
       
       const menu = flyout.querySelector('.VPMenu')
       if (menu) {
-        menu.style.position = 'absolute'
         menu.style.zIndex = '200'
         menu.style.pointerEvents = 'auto'
       }

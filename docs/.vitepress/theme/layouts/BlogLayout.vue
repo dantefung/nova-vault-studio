@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vitepress'
 import ThemeSwitcher from '../components/ThemeSwitcher.vue'
 import LandingThemeSwitcher from '../components/LandingThemeSwitcher.vue'
+import MobileNavSheet from '../components/MobileNavSheet.vue'
 import EastonSearchTrigger from '../components/EastonSearchTrigger.vue'
 import BlogIndexLayout from './BlogIndexLayout.vue'
 import BlogArticleLayout from './BlogArticleLayout.vue'
@@ -29,7 +30,6 @@ const view = computed(() => {
   <div class="easton-clone-page blog-page" :class="[`theme-${currentTheme}`, `landing-theme-${currentLandingTheme}`]">
     <header class="easton-clone-header">
       <a href="/" class="easton-clone-brand">
-        <span class="easton-clone-mark">E</span>
         <span>System Vault</span>
       </a>
       <nav aria-label="博客导航" class="easton-clone-nav">
@@ -40,6 +40,7 @@ const view = computed(() => {
         <EastonSearchTrigger variant="nav" label="搜索文章" />
         <LandingThemeSwitcher />
         <ThemeSwitcher />
+        <MobileNavSheet />
       </nav>
     </header>
 
@@ -54,7 +55,6 @@ const view = computed(() => {
     <footer class="easton-clone-footer">
       <div>
         <a href="/" class="easton-clone-brand">
-          <span class="easton-clone-mark">E</span>
           <span>System Vault</span>
         </a>
         <p>AI、开发、自动化与独立产品构建笔记。</p>

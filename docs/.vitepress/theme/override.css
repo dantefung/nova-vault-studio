@@ -91,25 +91,11 @@ textarea {
 .easton-clone-brand {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
   color: var(--clone-ink);
   font-family: Georgia, serif;
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-}
-
-.easton-clone-mark {
-  display: grid;
-  width: 28px;
-  height: 28px;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--clone-accent);
-  color: #fffaf3;
-  font-family: Georgia, serif;
-  font-size: 18px;
-  font-weight: 700;
 }
 
 .easton-clone-nav {

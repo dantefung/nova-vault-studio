@@ -67,7 +67,7 @@ export default defineConfig({
   },
   vite: {
     plugins: [MermaidPlugin()],
-    optimizeDeps: { include: ['mermaid'] },
+    optimizeDeps: { include: ['mermaid', 'markmap-lib', 'markmap-view'] },
     ssr: { noExternal: ['mermaid'] },
     assetsInclude: ['**/*.awebp'],
   },
