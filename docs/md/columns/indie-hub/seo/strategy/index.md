@@ -17,3 +17,4 @@ url: ""
 - [SEO Homepage Signal Judgment](./seo-homepage-signal.md) — 首页信号判断
 - [SEO New vs Old Keyword Strategy](./seo-new-vs-old-keyword.md) — 新旧关键词策略
 - [SEO ROI Analysis](./seo-roi-analysis.md) — ROI 分析
+- [程序化 SEO（PSEO）：为什么不能用 GPT 批量生成页面](./pseo-gpt-programmatic-seo.md) — PSEO、GPT 使用规范、模板化策略

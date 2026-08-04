@@ -150,6 +150,7 @@ wiki/
 | [ai-agent-team-9-stages](/md/wiki/sources/ai-agent-team-9-stages) | Anthropic 9阶段搭建Agent团队：从单个Agent到生产级协作，三层架构 | 公众号 |
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
 | [mission-driver](/md/wiki/concepts/mission-driver) | Mission Driver 声明式任务驱动引擎，Loop Engineering 参考实现，多层嵌套局部容错 | 公众号 |
+| [ai-asset-map](/md/wiki/concepts/ai-asset-map) | AI 资产地图：从 Agent 花名册走向可管理的数字资产关系图，治理 100+ Agent 的五类盲区 | 公众号 |
 
 ### 商业模式 (Business Models)
 

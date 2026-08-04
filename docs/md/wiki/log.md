@@ -1472,3 +1472,12 @@ source: "llm-wiki"
 - **Images**: 4 张已下载到 `images/mission-driver-loop-engineering/`
 - **Content**: Mission Driver 声明式任务驱动引擎，多层 Loop 嵌套实现局部容错与稳定保障，AGE 理论核心组件。22 天 154 模块 ERP 实战案例
 - **Concepts**: [[mission-driver]] [[loop-engineering]]
+
+---
+
+## [2026-08-04] ingest: AI 资产地图
+
+- **Source**: 微信公众号 (云与数字化)
+- **Images**: 无外部图片
+- **Content**: 企业 100+ Agent 管理盲区（资产/责任/权限/依赖/审计）→ AI 资产地图三层能力（注册表/关系/控制面）→ 八类信息 → 六条关系 → CMDB 扩展 → 动态授权 → 四步建立最小可用地图 → 12 问自检清单
+- **Concepts**: [[ai-asset-map]] [[agent-governance]] [[cmdb-extension]]
