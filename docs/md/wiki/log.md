@@ -1490,3 +1490,11 @@ source: "llm-wiki"
 - **Images**: 4 张配图至 images/milvus-3.0-open-source/
 - **Content**: Milvus 3.0.0 GA 深度解读 — Storage V3 / Loon manifest 列存 → 4 个改变工作流的能力（Online Schema / External Collection / TEXT + Sparse Index / Woodpecker WAL）→ 3 个门槛 + 2 个已知 bug → 3.1 路线图
 - **Concepts**: [[milvus-3.0]] [[vector-database]] [[lake-native-architecture]]
+
+## 2026-08-05: Ingest Milvus 3.0 官宣开源
+
+**Source**: `sources/milvus-3.0-open-source.md`
+**New pages**:
+- `concepts/milvus-3.0.md` — Milvus 3.0 架构与能力深度解读
+- `concepts/lake-native-architecture.md` — Lake-native 架构模式
+**New cross-references**: [[concepts/milvus-3.0]] ↔ [[concepts/lake-native-architecture]]

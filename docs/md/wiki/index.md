@@ -189,6 +189,15 @@ wiki/
 
 ---
 
+### 数据库 (Databases)
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [milvus-3.0](/md/wiki/concepts/milvus-3.0) | Milvus 3.0 GA 深度解读：lake-native 架构、Storage V3 / Loon、4 个改变工作流的能力、3 个落地门槛 | 公众号 |
+| [lake-native-architecture](/md/wiki/concepts/lake-native-architecture) | 湖原生架构：将数据库存储底座直接构建在数据湖之上，manifest 列存格式按需精准取列 | 公众号 |
+
+---
+
 ## 最新收录
 
 > 见 [log.md](./log.md)
