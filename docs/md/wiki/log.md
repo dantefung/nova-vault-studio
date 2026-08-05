@@ -1481,3 +1481,12 @@ source: "llm-wiki"
 - **Images**: 无外部图片
 - **Content**: 企业 100+ Agent 管理盲区（资产/责任/权限/依赖/审计）→ AI 资产地图三层能力（注册表/关系/控制面）→ 八类信息 → 六条关系 → CMDB 扩展 → 动态授权 → 四步建立最小可用地图 → 12 问自检清单
 - **Concepts**: [[ai-asset-map]] [[agent-governance]] [[cmdb-extension]]
+
+---
+
+## [2026-08-05] ingest: Milvus 3.0 官宣开源
+
+- **Source**: 微信公众号 (运维有术)
+- **Images**: 4 张配图至 images/milvus-3.0-open-source/
+- **Content**: Milvus 3.0.0 GA 深度解读 — Storage V3 / Loon manifest 列存 → 4 个改变工作流的能力（Online Schema / External Collection / TEXT + Sparse Index / Woodpecker WAL）→ 3 个门槛 + 2 个已知 bug → 3.1 路线图
+- **Concepts**: [[milvus-3.0]] [[vector-database]] [[lake-native-architecture]]
