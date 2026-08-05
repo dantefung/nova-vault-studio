@@ -1498,3 +1498,12 @@ source: "llm-wiki"
 - `concepts/milvus-3.0.md` — Milvus 3.0 架构与能力深度解读
 - `concepts/lake-native-architecture.md` — Lake-native 架构模式
 **New cross-references**: [[concepts/milvus-3.0]] ↔ [[concepts/lake-native-architecture]]
+
+---
+
+## [2026-08-05] ingest: Linux 火焰图
+
+- **Source**: 微信公众号 (goldbeef)
+- **Images**: 1 张配图至 images/linux-flame-graph/
+- **Content**: Linux 性能分析火焰图 — 6 种类型（On-CPU / Off-CPU / Wakeup / Off-Wakeup / Page Fault / Memory），万物皆可火焰图的核心思想
+- **Concepts**: [[flame-graph]] [[linux-performance-analysis]]
