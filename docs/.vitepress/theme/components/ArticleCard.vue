@@ -4,7 +4,7 @@ import ArticleMeta from './ArticleMeta.vue'
 
 const props = defineProps({
   article: { type: Object, required: true },
-  variant: { type: String, default: 'default' }, // default | compact | feature | row
+  variant: { type: String, default: 'default' }, // default | compact | feature | row | lead | story | side
 })
 
 const a = props.article
@@ -21,8 +21,8 @@ const href = computed(() => a.path)
         <ArticleMeta :article="a" size="sm" />
       </div>
       <h3 class="article-card-title">{{ a.title }}</h3>
-      <p v-if="a.excerpt && props.variant !== 'compact' && props.variant !== 'row'" class="article-card-excerpt">{{ a.excerpt }}</p>
-      <div v-if="Array.isArray(a.tags) && a.tags.length && props.variant !== 'row'" class="article-card-tags">
+      <p v-if="a.excerpt && !['compact', 'row', 'side'].includes(props.variant)" class="article-card-excerpt">{{ a.excerpt }}</p>
+      <div v-if="Array.isArray(a.tags) && a.tags.length && props.variant !== 'row' && props.variant !== 'side'" class="article-card-tags">
         <span v-for="t in a.tags.slice(0, 4)" :key="t" class="article-card-tag">#{{ t }}</span>
       </div>
     </div>
@@ -160,6 +160,68 @@ const href = computed(() => a.path)
   transform: translateX(2px);
 }
 
+.article-card.is-lead,
+.article-card.is-story,
+.article-card.is-side {
+  display: block;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.article-card.is-lead:hover,
+.article-card.is-story:hover,
+.article-card.is-side:hover {
+  border-color: transparent;
+  box-shadow: none;
+  transform: none;
+}
+
+.article-card.is-lead .article-card-title {
+  margin: 12px 0 20px;
+  font-size: clamp(42px, 5.8vw, 76px);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.article-card.is-story .article-card-title {
+  margin: 14px 0 12px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.18;
+}
+
+.article-card.is-side .article-card-title {
+  margin: 12px 0;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.article-card.is-lead .article-card-excerpt {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.article-card.is-story .article-card-excerpt {
+  font-size: 14px;
+  -webkit-line-clamp: 2;
+}
+
+.article-card.is-lead .article-card-tags,
+.article-card.is-story .article-card-tags {
+  margin-top: 8px;
+}
+
+.article-card.is-lead .article-card-tag,
+.article-card.is-story .article-card-tag {
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
 @media (max-width: 640px) {
   .article-card.is-default,
   .article-card.is-feature {
@@ -177,6 +239,17 @@ const href = computed(() => a.path)
     grid-template-areas:
       'meta'
       'title';
+  }
+  .article-card.is-lead .article-card-title {
+    font-size: 32px;
+  }
+
+  .article-card.is-story .article-card-title {
+    font-size: 20px;
+  }
+
+  .article-card.is-side .article-card-title {
+    font-size: 22px;
   }
 }
 </style>
