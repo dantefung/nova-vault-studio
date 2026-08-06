@@ -11,6 +11,14 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-07] ingest: 哥飞SEO基础
+
+- 归档《【SEO基础】哥飞跟大家聊聊 HTTP 协议、互联网、爬虫和外链》微信公众号至 sources/seo-basics-http-crawlers-backlinks.md
+- 下载 6 张配图至 images/seo-basics-http-crawlers-backlinks/
+- 内容摘要：哥飞科普 HTTP 协议、互联网、爬虫、外链四个基础概念，解释为什么各 SEO 平台外链数据不一致，以及为什么 AI 搜索不自建爬虫
+
+---
+
 ## [2026-07-23] indie-hub-gefei-keyword ingest
 
 - **Source**: 哥飞AI社群 (new.web.cafe/chat)

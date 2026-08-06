@@ -142,6 +142,7 @@ wiki/
 | [hr-resume-skill](/md/wiki/concepts/hr-resume-skill) | 自定义 Skill + 连接器 + 自动化 三层架构 | 概念 |
 | [recruitment-workbuddy](/md/wiki/concepts/recruitment-workbuddy) | WorkBuddy 在企业 HR 招聘场景的落地方案 | 概念 |
 | [agent-launch-personal-site](/md/wiki/sources/agent-launch-personal-site) | Agent 口喷上线个人网站：6 步极简部署 + kongge.space 实战 | 公众号 |
+| [seo-basics](/md/wiki/concepts/seo-basics) | SEO 基础四件套：HTTP 协议/互联网/爬虫/外链，为什么各平台外链数据不一致，AI 搜索为何不自建爬虫 | 公众号 |
 | [adsense-us-tax-form](/md/wiki/sources/adsense-us-tax-form) | AdSense 美国税务信息（W-8BEN 表 + 中美税收条约）10 分钟填表 | 公众号 |
 | [baokuan-title-generator-skill](/md/wiki/sources/baokuan-title-generator-skill) | 公众号爆款标题 Skill：16 种模板 + 双模型协同（fable5 + GPT-5.6） | 公众号 |
 | [baokuan-title-generator-skill](/md/wiki/products/baokuan-title-generator-skill) | 公众号爆款标题 Skill 产品页 | 产品 |
