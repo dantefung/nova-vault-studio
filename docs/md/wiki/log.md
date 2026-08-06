@@ -1517,3 +1517,12 @@ source: "llm-wiki"
 - **Images**: 5 张已下载到 `images/setup-matt-pocock-skills-not-script/`
 - **Content**: 深入拆解 Matt Pocock Skills 体系中 setup-matt-pocock-skills 的设计哲学——prompt-driven 对话式配置，先 explore 再提问，把「工单在哪、标签叫什么、文档放哪」三个决策落地
 - **Concepts**: [[setup-matt-pocock-skills]] [[engineering-skills]] [[agent-configuration]]
+
+---
+
+## [2026-08-06] ingest: FFmpeg 9.0 Lei 版
+
+- **Source**: 微信公众号 (风筝)
+- **Images**: 5 张已下载到 `images/ffmpeg-9-lei/`
+- **Content**: FFmpeg 9.0 代号「Lei」纪念中国音视频开发者雷霄骅，回顾 FFmpeg 26 年历史、Fabrice Bellard 传奇、以及 FFmpeg 在 AI 时代作为核心基础设施的地位
+- **Concepts**: [[ffmpeg-9-lei]] [[ffmpeg]] [[multimedia-framework]]

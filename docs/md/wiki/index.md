@@ -108,6 +108,7 @@ wiki/
 | [serenity-skill-muxuuu](/md/wiki/sources/serenity-skill-muxuuu) | Serenity 式供应链卡点股票研究，中文优先，356 Stars，Stars 最多版 | GitHub |
 | [serenity-aleabitoreddit-skill](/md/wiki/sources/serenity-aleabitoreddit-skill) | Serenity 卡点投资分析技能，多 Agent 多市场适用，23 Stars | GitHub |
 | [serenity-stock-choke](/md/wiki/sources/serenity-stock-choke) | A 股卡脖子选股框架，六步推理链路，12 Stars | GitHub |
+| [ffmpeg-9-lei](/md/wiki/concepts/ffmpeg-9-lei) | FFmpeg 9.0 代号「Lei」纪念雷霄骅，新增 ONNX Runtime DNN 后端，AI 时代多媒体基础设施 | 公众号 |
 
 ### 学习路径 (Learning Paths)
 
