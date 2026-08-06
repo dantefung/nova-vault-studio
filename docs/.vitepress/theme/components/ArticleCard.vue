@@ -4,29 +4,49 @@ import ArticleMeta from './ArticleMeta.vue'
 
 const props = defineProps({
   article: { type: Object, required: true },
-  variant: { type: String, default: 'default' }, // default | compact | feature | row
+  variant: { type: String, default: 'default' }, // default | compact | feature | row | timeline
 })
 
 const a = props.article
 const href = computed(() => a.path)
+const timelineDate = computed(() => {
+  if (typeof a.date !== 'string' || !a.date.trim()) return '日期未定'
+  return a.date.slice(5, 10).replace('-', '.') || a.date
+})
+const timelineTitle = computed(() => a.title?.trim() || '未命名文章')
+const timelineCategory = computed(() => a.categoryTitle?.trim() || a.category?.trim() || '未分类')
+const timelineReadingTime = computed(() => (
+  Number.isFinite(a.readingTime) ? `${a.readingTime} 分钟` : '阅读时间未定'
+))
 </script>
 
 <template>
   <a class="article-card" :class="`is-${props.variant}`" :href="href">
-    <div v-if="props.variant === 'feature' || props.variant === 'default'" class="article-card-cover" aria-hidden="true">
-      <span class="article-card-cover-mark">{{ (a.categoryTitle || a.category || '文').slice(0, 1) }}</span>
-    </div>
-    <div class="article-card-body">
-      <div class="article-card-meta">
-        <ArticleMeta :article="a" size="sm" />
+    <template v-if="props.variant === 'timeline'">
+      <time class="article-card-timeline-date" :datetime="a.date || undefined">{{ timelineDate }}</time>
+      <h3 class="article-card-title">{{ timelineTitle }}</h3>
+      <span class="article-card-timeline-meta">
+        <span>{{ timelineCategory }}</span>
+        <span aria-hidden="true">·</span>
+        <span>{{ timelineReadingTime }}</span>
+      </span>
+    </template>
+    <template v-else>
+      <div v-if="props.variant === 'feature' || props.variant === 'default'" class="article-card-cover" aria-hidden="true">
+        <span class="article-card-cover-mark">{{ (a.categoryTitle || a.category || '文').slice(0, 1) }}</span>
       </div>
-      <h3 class="article-card-title">{{ a.title }}</h3>
-      <p v-if="a.excerpt && props.variant !== 'compact' && props.variant !== 'row'" class="article-card-excerpt">{{ a.excerpt }}</p>
-      <div v-if="Array.isArray(a.tags) && a.tags.length && props.variant !== 'row'" class="article-card-tags">
-        <span v-for="t in a.tags.slice(0, 4)" :key="t" class="article-card-tag">#{{ t }}</span>
+      <div class="article-card-body">
+        <div class="article-card-meta">
+          <ArticleMeta :article="a" size="sm" />
+        </div>
+        <h3 class="article-card-title">{{ a.title }}</h3>
+        <p v-if="a.excerpt && props.variant !== 'compact' && props.variant !== 'row'" class="article-card-excerpt">{{ a.excerpt }}</p>
+        <div v-if="Array.isArray(a.tags) && a.tags.length && props.variant !== 'row'" class="article-card-tags">
+          <span v-for="t in a.tags.slice(0, 4)" :key="t" class="article-card-tag">#{{ t }}</span>
+        </div>
       </div>
-    </div>
-    <span v-if="props.variant === 'row'" class="article-card-arrow" aria-hidden="true">→</span>
+      <span v-if="props.variant === 'row'" class="article-card-arrow" aria-hidden="true">→</span>
+    </template>
   </a>
 </template>
 

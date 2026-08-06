@@ -12,6 +12,16 @@ const list = computed(() => {
   if (mode.value === 'category') return categories.value
   return series.value
 })
+
+const groupedByYear = computed(() => {
+  const groups = new Map()
+  for (const a of list.value) {
+    const year = typeof a.date === 'string' && a.date.trim() ? a.date.slice(0, 4) : '日期未定'
+    if (!groups.has(year)) groups.set(year, [])
+    groups.get(year).push(a)
+  }
+  return Array.from(groups.entries()).sort((a, b) => b[0].localeCompare(a[0]))
+})
 </script>
 
 <template>
@@ -27,8 +37,13 @@ const list = computed(() => {
     </div>
 
     <template v-if="mode === 'latest'">
-      <div class="blog-grid">
-        <ArticleCard v-for="a in list" :key="a.path" :article="a" />
+      <div class="blog-timeline">
+        <div v-for="[year, articles] in groupedByYear" :key="year" class="blog-timeline-year">
+          <span class="blog-timeline-year-label">{{ year }}</span>
+          <div class="blog-timeline-entries">
+            <ArticleCard v-for="a in articles" :key="a.path" :article="a" variant="timeline" />
+          </div>
+        </div>
       </div>
     </template>
 
