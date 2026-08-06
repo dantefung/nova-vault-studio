@@ -1526,3 +1526,23 @@ source: "llm-wiki"
 - **Images**: 5 张已下载到 `images/ffmpeg-9-lei/`
 - **Content**: FFmpeg 9.0 代号「Lei」纪念中国音视频开发者雷霄骅，回顾 FFmpeg 26 年历史、Fabrice Bellard 传奇、以及 FFmpeg 在 AI 时代作为核心基础设施的地位
 - **Concepts**: [[ffmpeg-9-lei]] [[ffmpeg]] [[multimedia-framework]]
+
+---
+
+## [2026-08-06] ingest: 复杂业务团队的 AI Coding 交付实践
+
+- **Source**: 微信公众号 (物流技术)
+- **Images**: 22 张已下载到 `images/ai-coding-delivery-practice/`
+- **Content**: 复杂业务场景下 AI 研发交付的实践方案，三层架构（命令协议层/知识资产层/RD 过程资产层），分层知识库设计（main/applications/candidate/personal/template），文件化 RD 流程，前置质量门禁
+- **Concepts**: [[AI-coding-delivery]] [[RD-flow]] [[layered-knowledge-base]] [[quality-gate]]
+- **New page**: [[concepts/ai-coding-delivery]]
+
+---
+
+## [2026-08-06] ingest: LLM 缓存机制详解
+
+- **Source**: 微信公众号 (朱小厮的博客)
+- **Images**: 5 张已下载到 `images/llm-cache-mechanism/`
+- **Content**: LLM 缓存三层机制——模型内部的 KV Cache、显存优化（GQA/PagedAttention/量化/淘汰）、跨请求前缀缓存（Prompt Caching），以及 Claude Code 与 Codex 的工程实践对比
+- **Concepts**: [[KV-cache]] [[prefix-caching]] [[prompt-caching]] [[llm-inference-optimization]]
+- **New page**: [[concepts/llm-cache-mechanism]]
