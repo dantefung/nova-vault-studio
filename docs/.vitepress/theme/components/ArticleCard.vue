@@ -4,15 +4,33 @@ import ArticleMeta from './ArticleMeta.vue'
 
 const props = defineProps({
   article: { type: Object, required: true },
-  variant: { type: String, default: 'default' }, // default | compact | feature | row
+  variant: { type: String, default: 'default' }, // default | compact | feature | row | editorial
 })
 
 const a = props.article
 const href = computed(() => a.path)
+const category = computed(() => a.categoryTitle || a.category || '')
+const categoryHref = computed(() => a.category ? `/md/blog/category/${a.category}/` : '')
+const readingTime = computed(() => typeof a.readingTime === 'number' ? `${a.readingTime} 分钟` : '')
+const displayDate = computed(() => a.date?.replaceAll('-', '.') || '')
+const excerpt = computed(() => a.excerpt?.replace(/<!--\s*more[\s\S]*$/i, '').trim() || '')
 </script>
 
 <template>
-  <a class="article-card" :class="`is-${props.variant}`" :href="href">
+  <article v-if="props.variant === 'editorial'" class="article-card is-editorial">
+    <div class="article-card-meta">
+      <time v-if="a.date" :datetime="a.date">{{ displayDate }}</time>
+      <a v-if="categoryHref" :href="categoryHref">{{ category }}</a>
+      <span v-else-if="category">{{ category }}</span>
+    </div>
+    <div class="article-card-body">
+      <h2 class="article-card-title"><a :href="href">{{ a.title }}</a></h2>
+      <p v-if="excerpt" class="article-card-excerpt">{{ excerpt }}</p>
+    </div>
+    <span v-if="readingTime" class="article-card-reading-time">{{ readingTime }}</span>
+  </article>
+
+  <a v-else class="article-card" :class="`is-${props.variant}`" :href="href">
     <div v-if="props.variant === 'feature' || props.variant === 'default'" class="article-card-cover" aria-hidden="true">
       <span class="article-card-cover-mark">{{ (a.categoryTitle || a.category || '文').slice(0, 1) }}</span>
     </div>
@@ -21,7 +39,7 @@ const href = computed(() => a.path)
         <ArticleMeta :article="a" size="sm" />
       </div>
       <h3 class="article-card-title">{{ a.title }}</h3>
-      <p v-if="a.excerpt && props.variant !== 'compact' && props.variant !== 'row'" class="article-card-excerpt">{{ a.excerpt }}</p>
+      <p v-if="excerpt && props.variant !== 'compact' && props.variant !== 'row'" class="article-card-excerpt">{{ excerpt }}</p>
       <div v-if="Array.isArray(a.tags) && a.tags.length && props.variant !== 'row'" class="article-card-tags">
         <span v-for="t in a.tags.slice(0, 4)" :key="t" class="article-card-tag">#{{ t }}</span>
       </div>
@@ -61,7 +79,7 @@ const href = computed(() => a.path)
   padding: 18px;
 }
 
-.article-card:hover {
+.article-card:not(.is-editorial):hover {
   border-color: color-mix(in srgb, var(--easton-doc-accent) 60%, var(--easton-doc-rule));
   box-shadow: var(--easton-doc-shadow);
   transform: translateY(-2px);
@@ -158,6 +176,100 @@ const href = computed(() => a.path)
 .article-card:hover .article-card-arrow {
   color: var(--easton-doc-accent);
   transform: translateX(2px);
+}
+
+.article-card.is-editorial {
+  grid-template-columns: 150px minmax(0, 1fr) 74px;
+  gap: 34px;
+  padding: 28px 0 30px;
+  border: 0;
+  border-bottom: 1px solid var(--easton-doc-rule);
+  border-radius: 0;
+  background: transparent;
+}
+
+.is-editorial .article-card-meta {
+  display: grid;
+  align-content: start;
+  gap: 3px;
+  color: var(--easton-doc-muted);
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: .03em;
+}
+
+.is-editorial .article-card-meta a {
+  color: var(--easton-doc-body);
+  text-decoration: none;
+}
+
+.is-editorial .article-card-body {
+  gap: 10px;
+}
+
+.is-editorial .article-card-title {
+  font-size: clamp(24px, 3vw, 38px);
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.is-editorial .article-card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.is-editorial .article-card-excerpt {
+  line-height: 1.65;
+  -webkit-line-clamp: 2;
+}
+
+.article-card-reading-time {
+  justify-self: end;
+  padding-top: 4px;
+  color: var(--easton-doc-muted);
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.is-editorial a:hover,
+.is-editorial a:focus-visible {
+  color: var(--easton-doc-accent);
+}
+
+.is-editorial a:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 4px;
+}
+
+@media (max-width: 700px) {
+  .article-card.is-editorial {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px 18px;
+    padding: 22px 0 24px;
+  }
+
+  .is-editorial .article-card-meta {
+    grid-column: 1 / -1;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 12px;
+  }
+
+  .is-editorial .article-card-title {
+    font-size: clamp(23px, 7vw, 32px);
+  }
+
+  .is-editorial .article-card-excerpt {
+    font-size: 14px;
+  }
+
+  .article-card-reading-time {
+    grid-column: 2;
+    grid-row: 2;
+  }
 }
 
 @media (max-width: 640px) {
