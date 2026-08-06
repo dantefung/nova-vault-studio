@@ -1546,3 +1546,13 @@ source: "llm-wiki"
 - **Content**: LLM 缓存三层机制——模型内部的 KV Cache、显存优化（GQA/PagedAttention/量化/淘汰）、跨请求前缀缓存（Prompt Caching），以及 Claude Code 与 Codex 的工程实践对比
 - **Concepts**: [[KV-cache]] [[prefix-caching]] [[prompt-caching]] [[llm-inference-optimization]]
 - **New page**: [[concepts/llm-cache-mechanism]]
+
+---
+
+## [2026-08-06] ingest: 医疗知识图谱智能问答机器人
+
+- **Source**: GitHub (liuhuanyong / 同济子豪兄)
+- **Images**: 5 张已下载到 `images/medical-kg-qa/`
+- **Content**: 基于 Neo4j 的医疗知识图谱问答系统，7 类实体 4.4 万、11 类关系 30 万，18 类问答意图，实体识别 + 意图分类 + Cypher 查询
+- **Concepts**: [[medical-kg-qa]] [[knowledge-graph]] [[neo4j]]
+- **New page**: [[concepts/medical-kg-qa]]

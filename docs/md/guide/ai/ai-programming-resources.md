@@ -25,6 +25,9 @@ date: "2026-05-05"
   - [官方博客：Symphony 开源规范发布](https://openai.com/index/open-source-codex-orchestration-symphony/) — 2026-04-27，OpenAI 工程师博文，内部部分团队 3 周内 PR 数量提升 500%
   - [InfoWorld 报道](https://www.infoworld.com/article/4164173/openais-symphony-spec-pushes-coding-agents-from-prompts-to-orchestration.html) — 分析 Symphony 将 AI 从个人编程助手向团队共享工程基础设施的转型，Forrester 分析师指出 Agent 控制平面和自适应流程编排的价值
   - [Help Net Security 报道](https://www.helpnetsecurity.com/2026/04/28/openai-symphony-codex-orchestration-linear/) — 详细介绍"人类注意力瓶颈"（每人只能监督 3-5 个 Codex 会话），以及团队 PM/Designer 从 Linear 手机 App 提交工单的实践
+- [Buzz](https://github.com/block/buzz) — Block（原 Square）开源的人类与 AI 协作工作区，Nostr 中继架构，23.9k stars。人与 Agent 共享同一房间，支持频道/线程/画布/工作流/语音 huddle，Agent 是"成员"而非"机器人"，有独立密钥、成员关系和审计轨迹
+  - [Goose](https://github.com/block/goose) — Block 的另一款开源 AI Agent CLI，管理单个 Agent 怎么干活
+  - 观点：从 Goose 管单个 Agent 怎么干活，到 Buzz 管一群人和一群 Agent 怎么共事。团队要让 Agent 干活，迟早要搞清楚**它是谁、它能动什么、它干过什么**——Buzz 是第一个把这三个问题当成产品核心的开源项目
 
 ---
 
