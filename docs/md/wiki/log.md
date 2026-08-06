@@ -1491,14 +1491,6 @@ source: "llm-wiki"
 - **Content**: Milvus 3.0.0 GA 深度解读 — Storage V3 / Loon manifest 列存 → 4 个改变工作流的能力（Online Schema / External Collection / TEXT + Sparse Index / Woodpecker WAL）→ 3 个门槛 + 2 个已知 bug → 3.1 路线图
 - **Concepts**: [[milvus-3.0]] [[vector-database]] [[lake-native-architecture]]
 
-## 2026-08-05: Ingest Milvus 3.0 官宣开源
-
-**Source**: `sources/milvus-3.0-open-source.md`
-**New pages**:
-- `concepts/milvus-3.0.md` — Milvus 3.0 架构与能力深度解读
-- `concepts/lake-native-architecture.md` — Lake-native 架构模式
-**New cross-references**: [[concepts/milvus-3.0]] ↔ [[concepts/lake-native-architecture]]
-
 ---
 
 ## [2026-08-05] ingest: Linux 火焰图
@@ -1507,3 +1499,21 @@ source: "llm-wiki"
 - **Images**: 1 张配图至 images/linux-flame-graph/
 - **Content**: Linux 性能分析火焰图 — 6 种类型（On-CPU / Off-CPU / Wakeup / Off-Wakeup / Page Fault / Memory），万物皆可火焰图的核心思想
 - **Concepts**: [[flame-graph]] [[linux-performance-analysis]]
+
+---
+
+## [2026-08-06] ingest: 独立开发者赚钱方法拆解
+
+- **Source**: 微信公众号 (空格丶)
+- **Images**: 13 张已下载到 `images/bilibili-history-money-method/`
+- **Content**: 独立开发者通过「用户群体、产品形态、收费模式」三维度找需求，以 B 站无限历史记录插件为例，拆解如何找到「官方不管、用户很痒、有人愿意付钱」的需求
+- **Concepts**: [[indie-product]] [[product-market-fit]] [[personal-developer]]
+
+---
+
+## [2026-08-06] ingest: setup-matt-pocock-skills 深度解析
+
+- **Source**: 微信公众号 (运维有术)
+- **Images**: 5 张已下载到 `images/setup-matt-pocock-skills-not-script/`
+- **Content**: 深入拆解 Matt Pocock Skills 体系中 setup-matt-pocock-skills 的设计哲学——prompt-driven 对话式配置，先 explore 再提问，把「工单在哪、标签叫什么、文档放哪」三个决策落地
+- **Concepts**: [[setup-matt-pocock-skills]] [[engineering-skills]] [[agent-configuration]]

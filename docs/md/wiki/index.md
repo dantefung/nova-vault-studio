@@ -151,6 +151,8 @@ wiki/
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
 | [mission-driver](/md/wiki/concepts/mission-driver) | Mission Driver 声明式任务驱动引擎，Loop Engineering 参考实现，多层嵌套局部容错 | 公众号 |
 | [ai-asset-map](/md/wiki/concepts/ai-asset-map) | AI 资产地图：从 Agent 花名册走向可管理的数字资产关系图，治理 100+ Agent 的五类盲区 | 公众号 |
+| [setup-matt-pocock-skills](/md/wiki/concepts/setup-matt-pocock-skills) | Matt Pocock 前置配置 skill：prompt-driven 对话，把「工单在哪、标签叫什么、文档放哪」一次落地 | 公众号 |
+| [engineering-skills](/md/wiki/concepts/engineering-skills) | Matt Pocock 工程化 AI 编程 skill 体系，读配置执行，setup 是所有 flow 的 precondition | 公众号 |
 
 ### 商业模式 (Business Models)
 
@@ -158,6 +160,7 @@ wiki/
 |------|--------|------|
 | [ai-era-wealth-creation](/md/wiki/sources/ai-era-wealth-creation) | AI时代造富公式：现金流/股权/流动性三路径，四大赛道分析 | 公众号 |
 | [digital-products-side-income](/md/wiki/concepts/digital-products-side-income) | 数字产品副业：国内卖19.9国外卖9美元，Gumroad/Payhip/Sellfy 平台对比 | 公众号 |
+| [indie-product](/md/wiki/concepts/indie-product) | 独立开发者三维度找需求：用户群体×产品形态×收费模式，「官方不管、用户很痒、有人愿意付钱」 | 公众号 |
 
 
 ### 内容工作流 (Content Workflows)
