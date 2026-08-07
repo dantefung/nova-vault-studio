@@ -89,6 +89,7 @@ date: "2026-06-11"
 - [concepts/agentscope-layering](concepts/agentscope-layering) — 分层架构：无状态内核 + 组合式外壳哲学（AgentScope Java 2.0）
 - [concepts/agentscope-governance](concepts/agentscope-governance) — 治理子系统：权限六步管线、优雅停机、统一事件流（AgentScope Java 2.0）
 - [concepts/agentscope-multi-agent](concepts/agentscope-multi-agent) — 多 Agent 编排：spawn/send、超时晋升、跨副本路由（AgentScope Java 2.0）
+- [concepts/agentscope-finale](concepts/agentscope-finale) — 收尾：扩展生态、清债方案、上生产决策地图（AgentScope Java 2.0）
 
 ## Sources
 
