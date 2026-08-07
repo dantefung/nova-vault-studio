@@ -32,6 +32,13 @@ source: "llm-wiki"
 - 内容摘要：TencentDB Agent Memory v2.0.0，四类资产（Chat Memory/Skill/Wiki/CodeGraph），L0-L3 分层记忆，Memory Hub 治理，对接 Claude Code
 - 新增 concepts/tencentdb-agent-memory.md
 
+## [2026-08-07] ingest: 阿里云 AgentLoop Skill 评估
+
+- 归档《基于阿里云 AgentLoop 的 Skill 评估与优化最佳实践》钟玟公众号至 sources/agelloop-skill.md
+- 下载 15 张配图至 images/agelloop-skill/
+- 内容摘要：Skill 评估优化六步闭环（创建→可观测→离线评估→Bad Case 优化→迭代验证→发布），8 维评估体系，Skill+Harness 双线策略，CMS 运维 Skill 真实调优案例
+- 新增 concepts/agelloop-skill.md
+
 ---
 
 ## [2026-08-07] ingest: AgentScope 收尾篇
