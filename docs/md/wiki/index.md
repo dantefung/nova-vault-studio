@@ -159,6 +159,12 @@ wiki/
 | [ai-asset-map](/md/wiki/concepts/ai-asset-map) | AI 资产地图：从 Agent 花名册走向可管理的数字资产关系图，治理 100+ Agent 的五类盲区 | 公众号 |
 | [setup-matt-pocock-skills](/md/wiki/concepts/setup-matt-pocock-skills) | Matt Pocock 前置配置 skill：prompt-driven 对话，把「工单在哪、标签叫什么、文档放哪」一次落地 | 公众号 |
 | [engineering-skills](/md/wiki/concepts/engineering-skills) | Matt Pocock 工程化 AI 编程 skill 体系，读配置执行，setup 是所有 flow 的 precondition | 公众号 |
+| [agentscope-enterprise-platform](/md/wiki/concepts/agentscope-enterprise-platform) | 企业级 Agent 平台工程外壳：workspace 文件化角色/记忆/技能、沙箱 SPI + 状态持久化、skill 自学习闭环，含 AgentScope 坑点 | 公众号 |
+| [agentscope-layering](/md/wiki/concepts/agentscope-layering) | AgentScope 分层架构：无状态 ReAct 内核 + 组合式外壳 + 18 类扩展，洋葱 4 点+管道 1 点中间件，112 处 @Deprecated 双轨债 | 公众号 |
+| [agentscope-governance](/md/wiki/concepts/agentscope-governance) | Agent 平台治理三大支柱：权限六步管线（独立引擎+HITL）、优雅停机三原则（先存后断+阶段边界+按requestId）、统一事件流（31种event+CustomEvent逃生舱） | 公众号 |
+| [agent-token-architecture](/md/wiki/concepts/agent-token-architecture) | Agent 的本质：用 Token 换架构，控制流从开发期迁移到运行时，三年技术脉络 ReAct→FC→MCP→Skills | 公众号 |
+| [agentscope-multi-agent](/md/wiki/concepts/agentscope-multi-agent) | 多 Agent 编排三件套：spawn/send 原语、超时收编后台任务不丢弃、子事件并入父流、跨副本三段式路由 | 公众号 |
+| [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
 
 ### 商业模式 (Business Models)
 

@@ -11,6 +11,69 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-07] ingest: Agent 本质万字长文
+
+- 归档《【万字】Agent 的本质：用 Token 换架构》叶小钗公众号至 sources/agent-token-architecture.md
+- 下载 7 张配图至 images/agent-token-architecture/
+- 内容摘要：Agent vs Workflow 核心取舍（Token 换架构简洁度），三年技术脉络（ReAct→FC→MCP→Skills），Function Calling/MCP/Skills 技术详解，ReAct 与 CoT 关系
+- 新增 concepts/agent-token-architecture.md
+
+---
+
+## [2026-08-07] ingest: AgentScope 收尾篇
+
+- 归档《搭一个企业级 Agent 平台（六·收尾）：扩展生态，以及如果我来做 3.0 会怎么清债》唐成公众号至 sources/agentscope-finale.md
+- 无外部图片
+- 内容摘要：扩展生态治理（SPI 收口方案）、5 处双轨债 3.0 清理方案（附版本时间表）、P0-P3 上生产决策地图（可勾选 checklist + 选型决策树）
+- 新增 concepts/agentscope-finale.md
+
+---
+
+## [2026-08-07] ingest: AgentScope 多 Agent 编排
+
+- 归档《搭一个企业级 Agent 平台（五）：多 Agent 编排——spawn、超时晋升、跨副本路由》唐成公众号至 sources/agentscope-multi-agent.md
+- 下载 2 张配图至 images/agentscope-multi-agent/
+- 内容摘要：多 Agent 编排三件套——spawn/send 原语、超时收编后台任务（不丢弃）、子事件并入父流、跨副本三段式路由（live+registry+materialize）
+- 新增 concepts/agentscope-multi-agent.md
+
+---
+
+## [2026-08-07] ingest: Agent 的本质（用 Token 换架构）
+
+- 归档《【万字】Agent 的本质：用 Token 换架构》叶小钗公众号至 sources/agent-token-architecture.md
+- 下载 7 张配图至 images/agent-token-architecture/
+- 内容摘要：Agent 本质是用 Token 成本换架构简洁度（控制流从开发期迁移到运行时），技术脉络 ReAct→FC→MCP→Skills，记忆模块仍是老大难
+- 新增 concepts/agent-token-architecture.md
+
+---
+
+## [2026-08-07] ingest: AgentScope 治理子系统
+
+- 归档《搭一个企业级 Agent 平台（四）：治理——权限、停机、事件流》唐成公众号至 sources/agentscope-governance.md
+- 下载 2 张配图至 images/agentscope-governance/
+- 内容摘要：权限六步管线（独立引擎+固定顺序+HITL+DONT_ASK）、优雅停机三原则（先存后断+阶段边界+按requestId）、统一事件流（31种typed event+CustomEvent逃生舱）
+- 新增 concepts/agentscope-governance.md
+
+---
+
+## [2026-08-07] ingest: AgentScope 分层架构
+
+- 归档《AgentScope Java 2.0 源码拆解：分层的艺术》唐成公众号至 sources/agentscope-layering.md
+- 下载 3 张配图至 images/agentscope-layering/
+- 内容摘要：AgentScope 三层架构（无状态 ReAct 内核/组合式外壳/18 类扩展），洋葱 4 点+管道 1 点中间件，HarnessAgent 委托 ReActAgent，112 处 @Deprecated 双轨债，7 条工程铁律
+- 新增 concepts/agentscope-layering.md，更新 concepts/agentscope-enterprise-platform.md 交叉引用
+
+---
+
+## [2026-08-07] ingest: 企业级 Agent 平台工程外壳
+
+- 归档《搭一个企业级 Agent 平台（三）：工程外壳——workspace、沙箱、skill》唐成公众号至 sources/agentscope-enterprise-shell.md
+- 下载 1 张配图至 images/agentscope-enterprise-shell/
+- 内容摘要：AgentScope Java 2.0 工程外壳拆解——workspace 文件化角色/记忆/技能、沙箱 SPI + 状态持久化、skill 自学习闭环，含坑点（命令级安全、跨副本锁）
+- 新增 concepts/agentscope-enterprise-platform.md，更新 harness-engineering 概念页引用
+
+---
+
 ## [2026-08-07] ingest: 招聘信息商业模式分析
 
 - 归档《把 BOSS 直聘当免费的商业模式数据库》公众号至 sources/boss-business-model.md

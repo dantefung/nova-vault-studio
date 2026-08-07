@@ -85,8 +85,16 @@ date: "2026-06-11"
 - [comparisons/harness-vs-scaffolding](comparisons/harness-vs-scaffolding)
 - [comparisons/ai-coding-tools](comparisons/ai-coding-tools)
 - [sources/harness-engineering-practice](sources/harness-engineering-practice)
+- [concepts/agentscope-enterprise-platform](concepts/agentscope-enterprise-platform) — 工程外壳落地：workspace 文件化、沙箱 SPI、skill 自学习（AgentScope Java 2.0）
+- [concepts/agentscope-layering](concepts/agentscope-layering) — 分层架构：无状态内核 + 组合式外壳哲学（AgentScope Java 2.0）
+- [concepts/agentscope-governance](concepts/agentscope-governance) — 治理子系统：权限六步管线、优雅停机、统一事件流（AgentScope Java 2.0）
+- [concepts/agentscope-multi-agent](concepts/agentscope-multi-agent) — 多 Agent 编排：spawn/send、超时晋升、跨副本路由（AgentScope Java 2.0）
 
 ## Sources
 
 - GitHub Conn-Ho/harness-engineering: docs/md/columns/harness-engineering/concepts/00-overview.md
 - 微信公众号《AI 不缺智商缺纪律：一场 Harness 工程化实践》(2026-06-10)
+- 微信公众号《搭一个企业级 Agent 平台（三）：工程外壳》(2026-08-01)
+- 微信公众号《AgentScope Java 2.0 源码拆解：分层的艺术》(2026-07-30)
+- 微信公众号《搭一个企业级 Agent 平台（四）：治理——权限、停机、事件流》(2026-08-02)
+- 微信公众号《搭一个企业级 Agent 平台（五）：多 Agent 编排——spawn、超时晋升、跨副本路由》(2026-08-03)
