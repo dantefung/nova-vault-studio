@@ -45,6 +45,7 @@ wiki/
 | [ai-coding-delivery](/md/wiki/concepts/ai-coding-delivery) | 复杂业务团队 AI 研发交付：分层知识库 + 文件化 RD 流程 + 前置质量门禁 | 公众号 |
 | [prompt-context-harness](/md/columns/agentic-engineer/other-tools/prompt-context-harness-evolution) | Prompt→Context→Harness 工程进化论 | 文章 |
 | [loop-engineering](/md/wiki/concepts/loop-engineering) | Loop Engineering 溯源与批判：定时任务 → KOL炒作 → 五组件框架，看清词源回归本质 | 公众号 |
+| [ai-self-refine-prompt](/md/wiki/patterns/ai-self-refine-prompt) | AI 主动进步提示词：先定质量标准→自检→针对最差处重写，迭代至无明显改进空间 | X/Twitter |
 | [agentic-engineer](/md/columns/agentic-engineer/) | Agent 工程架构全链路 | 专栏 |
 
 ### 工具与技能 (Tools & Skills)
