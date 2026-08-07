@@ -11,6 +11,33 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-07] ingest: 招聘信息商业模式分析
+
+- 归档《把 BOSS 直聘当免费的商业模式数据库》公众号至 sources/boss-business-model.md
+- 下载 1 张配图至 images/boss-business-model/
+- 内容摘要：用招聘信息反向推断公司商业模式——岗位类型暴露获客/销售/交付模式，横向对比 20+ 公司拼出行业地图，含局限性交叉验证
+- 新增 concepts/boss-business-model.md
+
+---
+
+## [2026-08-07] ingest: SDIO 总线硬件原理
+
+- 归档《小白也能懂——SDIO总线：硬件原理篇》公众号至 sources/sdio-bus-hardware.md
+- 下载 3 张配图至 images/sdio-bus-hardware/
+- 内容摘要：SDIO 总线硬件原理全面科普——SD 家族区分、引脚定义、1-bit vs 4-bit 模式、命令帧格式、上电初始化时序、硬件设计踩坑合集
+- 新增 concepts/sdio-bus.md
+
+---
+
+## [2026-08-07] ingest: 互斥锁演化史
+
+- 归档《互斥锁是如何一步步被发明出来的？》xiaokang1998 公众号至 sources/mutex-evolution.md
+- 下载 4 张配图至 images/mutex-evolution/
+- 内容摘要：从 count++ 竞态条件出发，推导互斥锁演化路径——关中断→Peterson算法→原子指令→自旋锁→互斥锁→读写锁，含死锁四条件
+- 新增 concepts/mutex-evolution.md
+
+---
+
 ## [2026-08-07] ingest: 循环工程实践指南
 
 - 归档《一份不靠你亲自上阵的循环工程实践指南》ThinkInAI 公众号至 sources/loop-engineering-practice-guide.md

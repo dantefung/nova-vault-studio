@@ -121,6 +121,8 @@ wiki/
 | [ai-finance-tool-dev](/md/wiki/patterns/ai-finance-tool-dev) | AI 辅助金融量化工具开发模式 | 公众号 |
 | [claude-code-build-site](/md/wiki/concepts/claude-code-build-site) | 用 Claude Code 建站：非程序员 6 小时完成 SEO 建站全流程 | 公众号 |
 | [linux-context-switch](/md/wiki/concepts/linux-context-switch) | Linux 内核进程上下文切换全解：switch_to 汇编、CFS→EEVDF、进程/线程/中断三类切换、线上排查工具链 | 公众号 |
+| [mutex-evolution](/md/wiki/concepts/mutex-evolution) | 互斥锁演化史：关中断→Peterson算法→原子指令→自旋锁→互斥锁→读写锁，含死锁四条件 | 公众号 |
+| [sdio-bus](/md/wiki/concepts/sdio-bus) | SDIO 总线硬件原理：SD 家族区分、引脚定义、1-bit/4-bit 模式、命令帧格式、初始化时序、硬件设计踩坑 | 公众号 |
 
 ### 出海建站 (Overseas Website Building)
 
@@ -165,7 +167,7 @@ wiki/
 | [ai-era-wealth-creation](/md/wiki/sources/ai-era-wealth-creation) | AI时代造富公式：现金流/股权/流动性三路径，四大赛道分析 | 公众号 |
 | [digital-products-side-income](/md/wiki/concepts/digital-products-side-income) | 数字产品副业：国内卖19.9国外卖9美元，Gumroad/Payhip/Sellfy 平台对比 | 公众号 |
 | [indie-product](/md/wiki/concepts/indie-product) | 独立开发者三维度找需求：用户群体×产品形态×收费模式，「官方不管、用户很痒、有人愿意付钱」 | 公众号 |
-
+| [boss-business-model](/md/wiki/concepts/boss-business-model) | 招聘信息分析：用 BOSS 直聘做商业模式研究，岗位类型暴露获客/销售/交付模式，横向对比拼出行业地图 | 公众号 |
 
 ### 内容工作流 (Content Workflows)
 
