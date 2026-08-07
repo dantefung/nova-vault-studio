@@ -129,6 +129,7 @@ wiki/
 | [virtual-memory-invention](/md/wiki/concepts/virtual-memory-invention) | 虚拟内存发明历程：物理寻址→重定位→覆盖→分页→MMU→缺页中断→TLB，三大核心价值 | 公众号 |
 | [app-idea-validation](/md/wiki/concepts/app-idea-validation) | 月入 10 万美元 App 点子验证法：Google Trends→Rising Queries→ASO→Sensor Tower→竞品分析→七天冲刺 | X/Twitter |
 | [fcitx-rime-snow-lmdg](/md/wiki/concepts/fcitx-rime-snow-lmdg) | Fcitx + RIME + 雾凇 + LMDG 开源 AI 输入法组合，全本地运行，互联网从业者专属 | 社群 |
+| [international-software-arsenal](/md/wiki/concepts/international-software-arsenal) | 境外势力软件盘点：网络工具/AI/内容/社交/效率/自律，17 个常用国际服务清单 | 社群 |
 
 ### 出海建站 (Overseas Website Building)
 
