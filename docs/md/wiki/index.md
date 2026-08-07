@@ -127,6 +127,7 @@ wiki/
 | [sdio-bus](/md/wiki/concepts/sdio-bus) | SDIO 总线硬件原理：SD 家族区分、引脚定义、1-bit/4-bit 模式、命令帧格式、初始化时序、硬件设计踩坑 | 公众号 |
 | [virtual-memory-invention](/md/wiki/concepts/virtual-memory-invention) | 虚拟内存发明历程：物理寻址→重定位→覆盖→分页→MMU→缺页中断→TLB，三大核心价值 | 公众号 |
 | [app-idea-validation](/md/wiki/concepts/app-idea-validation) | 月入 10 万美元 App 点子验证法：Google Trends→Rising Queries→ASO→Sensor Tower→竞品分析→七天冲刺 | X/Twitter |
+| [fcitx-rime-snow-lmdg](/md/wiki/concepts/fcitx-rime-snow-lmdg) | Fcitx + RIME + 雾凇 + LMDG 开源 AI 输入法组合，全本地运行，互联网从业者专属 | 社群 |
 
 ### 出海建站 (Overseas Website Building)
 
