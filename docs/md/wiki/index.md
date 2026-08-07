@@ -46,6 +46,7 @@ wiki/
 | [prompt-context-harness](/md/columns/agentic-engineer/other-tools/prompt-context-harness-evolution) | Prompt→Context→Harness 工程进化论 | 文章 |
 | [loop-engineering](/md/wiki/concepts/loop-engineering) | Loop Engineering 溯源与批判：定时任务 → KOL炒作 → 五组件框架，看清词源回归本质 | 公众号 |
 | [ai-self-refine-prompt](/md/wiki/patterns/ai-self-refine-prompt) | AI 主动进步提示词：先定质量标准→自检→针对最差处重写，迭代至无明显改进空间 | X/Twitter |
+| [book-notes-content-factory](/md/wiki/concepts/book-notes-content-factory) | 内容平台卖读书笔记：AI 批量产出初稿→人工精修→打包付费，知识内容 SOP 化量产 | X/Twitter |
 | [agentic-engineer](/md/columns/agentic-engineer/) | Agent 工程架构全链路 | 专栏 |
 
 ### 工具与技能 (Tools & Skills)
