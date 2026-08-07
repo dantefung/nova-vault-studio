@@ -1670,3 +1670,12 @@ source: "llm-wiki"
 - **Content**: 基于 Neo4j 的医疗知识图谱问答系统，7 类实体 4.4 万、11 类关系 30 万，18 类问答意图，实体识别 + 意图分类 + Cypher 查询
 - **Concepts**: [[medical-kg-qa]] [[knowledge-graph]] [[neo4j]]
 - **New page**: [[concepts/medical-kg-qa]]
+
+---
+
+## [2026-08-06] ingest: 虚拟内存发明历程
+
+- **Source**: 微信公众号 (xiaokang1998)
+- **Images**: 7 张已下载到 `images/virtual-memory-invention/`
+- **Content**: 从物理寻址到虚拟内存的完整推导：重定位→覆盖→分页→MMU→缺页中断→TLB，以及隔离保护/空间放大/碎片化分配三大价值
+- **Concepts**: [[virtual-memory-invention]] [[virtual-memory]] [[paging]]
