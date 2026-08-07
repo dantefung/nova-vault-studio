@@ -11,6 +11,15 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-07] ingest: 循环工程实践指南
+
+- 归档《一份不靠你亲自上阵的循环工程实践指南》ThinkInAI 公众号至 sources/loop-engineering-practice-guide.md
+- 下载 3 张配图至 images/loop-engineering-practice-guide/
+- 内容摘要：loop-engineering 框架完整技术拆解——6 步递归目标周期、6 原语、7 个核心模式、CLI 工具链、安全与故障模式
+- 更新 concepts/loop-engineering.md 添加框架实现细节
+
+---
+
 ## [2026-08-07] ingest: 哥飞SEO基础
 
 - 归档《【SEO基础】哥飞跟大家聊聊 HTTP 协议、互联网、爬虫和外链》微信公众号至 sources/seo-basics-http-crawlers-backlinks.md

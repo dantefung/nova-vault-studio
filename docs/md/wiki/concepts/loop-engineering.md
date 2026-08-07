@@ -56,9 +56,45 @@ Loop Engineering 是对 AI Agent 定时/循环调度机制的工程化包装，�
 - **自媒体**: 无脑二道贩子 → 加速焦虑传播
 - **技术人员**: FOMO 焦虑 → 被动接受并继续传播
 
+## 框架实现：loop-engineering
+
+loop-engineering 是一个完整的开源框架，提供 CLI 工具集和模式注册表，将循环工程从概念落地为可操作的工具。
+
+### 递归目标周期（六步）
+
+Schedule（调度）→ Triage（分诊）→ State Sync（状态同步）→ Execute（执行）→ Verify（验证）→ Gate（关卡）
+
+### 六个原语
+
+| 原语 | 说明 |
+|------|------|
+| 调度 | 通过 `/loop`、cron 或 GitHub Actions 触发 |
+| Worktree | `git worktree` 隔离并行环境 |
+| Skills | SKILL.md 封装意图与逻辑 |
+| 连接器 | GitHub/Slack/Linear 的 MCP 接口 |
+| 子智能体 | Maker/Checker 拆分 |
+| 状态 | STATE.md + loop-run-log.md 持久记忆 |
+
+### 七个核心模式
+
+Daily Triage（L1 仅报告）、PR Babysitter（PR 停滞）、CI Sweeper（CI 变红）、Dependency Sweeper（依赖过时）、Post-Merge Cleanup（合后清理）、Changelog Drafter（更新日志）、Goal Patterns（目标准入）
+
+### CLI 工具链
+
+- **loop-audit**：0-100 就绪度评分，<40 返回 CI 退出码
+- **loop-init**：脚手架生成
+- **loop-cost**：Token 成本估算
+- **loop-sync**：配置漂移检测
+- **loop-context**：有状态记忆管理器 + 断路器
+
+### 安全与故障模式
+
+路径拒绝列表（`.env`、`auth/**`、`payments/**`）、无自动合并默认策略、Token 预算管理、Kill Switch 标签。11 个具名故障模式，最常见的包括：无限修复循环（3 次尝试上限）、状态腐化、Token 燃烧、越界。
+
 ## 具体实现
 
 - [Mission Driver](/md/wiki/concepts/mission-driver) — 声明式任务驱动引擎，通过多层 Loop 嵌套实现 AI 全自主运行，AGE 理论（吸引子引导工程）的核心组件。22 天产出 154 模块 ERP 的实战案例。
+- [loop-engineering-practice-guide](/md/wiki/sources/loop-engineering-practice-guide) — 完整的技术拆解，含 6 步周期、6 原语、7 模式、CLI 工具链、安全与故障模式详解
 
 ## 相关概念
 
