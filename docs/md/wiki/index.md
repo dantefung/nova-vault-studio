@@ -117,6 +117,7 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [vibe-coding](/md/wiki/concepts/vibe-coding) | 自然语言编程入门到实战 | 专栏 |
+| [ai-coding-methodology](/md/wiki/concepts/ai-coding-methodology) | AI Coding 六步方法论：从自然语言编程到代码搬运工 | 公众号 |
 | [agentic-engineer](/md/columns/agentic-engineer/) | Agent 工程完整知识体系 | 专栏 |
 | [ai-finance-tool-dev](/md/wiki/patterns/ai-finance-tool-dev) | AI 辅助金融量化工具开发模式 | 公众号 |
 | [claude-code-build-site](/md/wiki/concepts/claude-code-build-site) | 用 Claude Code 建站：非程序员 6 小时完成 SEO 建站全流程 | 公众号 |

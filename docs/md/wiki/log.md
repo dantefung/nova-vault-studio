@@ -18,6 +18,13 @@ source: "llm-wiki"
 - 内容摘要：Agent vs Workflow 核心取舍（Token 换架构简洁度），三年技术脉络（ReAct→FC→MCP→Skills），Function Calling/MCP/Skills 技术详解，ReAct 与 CoT 关系
 - 新增 concepts/agent-token-architecture.md
 
+## [2026-08-07] ingest: AI Coding 方法论
+
+- 归档《【万字】Gemini 到底能不能杀死程序员？聊聊 AI 编程》叶小钗公众号至 sources/gemini-ai-coding.md
+- 下载 44 张配图至 images/gemini-ai-coding/
+- 内容摘要：自然语言编程时代，AI 编程六步方法论（需求拆解→架构→提示词→迭代→集成→部署），TRAE 案例实操，工具选择维度，AI 编程局限性（数据边界+ROI 过低）
+- 新增 concepts/ai-coding-methodology.md
+
 ---
 
 ## [2026-08-07] ingest: AgentScope 收尾篇
