@@ -25,6 +25,13 @@ source: "llm-wiki"
 - 内容摘要：自然语言编程时代，AI 编程六步方法论（需求拆解→架构→提示词→迭代→集成→部署），TRAE 案例实操，工具选择维度，AI 编程局限性（数据边界+ROI 过低）
 - 新增 concepts/ai-coding-methodology.md
 
+## [2026-08-07] ingest: 腾讯 Agent Memory
+
+- 归档《别再让每个 Agent 从零学习了，腾讯开源了一套团队记忆中枢》TJ 公众号至 sources/tencentdb-agent-memory.md
+- 下载 4 张配图至 images/tencentdb-agent-memory/
+- 内容摘要：TencentDB Agent Memory v2.0.0，四类资产（Chat Memory/Skill/Wiki/CodeGraph），L0-L3 分层记忆，Memory Hub 治理，对接 Claude Code
+- 新增 concepts/tencentdb-agent-memory.md
+
 ---
 
 ## [2026-08-07] ingest: AgentScope 收尾篇

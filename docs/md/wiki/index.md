@@ -167,6 +167,7 @@ wiki/
 | [agent-token-architecture](/md/wiki/concepts/agent-token-architecture) | Agent 的本质：用 Token 换架构，控制流从开发期迁移到运行时，三年技术脉络 ReAct→FC→MCP→Skills | 公众号 |
 | [agentscope-multi-agent](/md/wiki/concepts/agentscope-multi-agent) | 多 Agent 编排三件套：spawn/send 原语、超时收编后台任务不丢弃、子事件并入父流、跨副本三段式路由 | 公众号 |
 | [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
+| [tencentdb-agent-memory](/md/wiki/concepts/tencentdb-agent-memory) | 团队级 Agent 记忆中枢：四类资产（Chat Memory/Skill/Wiki/CodeGraph）+ Memory Hub 治理，L0-L3 分层记忆 | 公众号 |
 
 ### 商业模式 (Business Models)
 
