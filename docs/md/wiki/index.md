@@ -133,6 +133,7 @@ wiki/
 | [cf-worker-cpu-limit](/md/wiki/concepts/cf-worker-cpu-limit) | Cloudflare Workers CPU Time 限制导致 AI 流式输出中断：Chunk 累积 CPU、浏览器直连、合并 Chunk 解决 | 公众号 |
 | [b2c-conversion](/md/wiki/concepts/b2c-conversion) | B2C 独立站转化率优化七法：标题卖情绪→卖点写用户所得→为什么选你→语气舒服→制造紧迫感→尺寸指南→信任证据 | 公众号 |
 | [codex-security](/md/wiki/concepts/codex-security) | Codex Security 开源 AI 安全研究员：自动读代码/扫漏洞/验证/补丁，三种接入方案，交叉扫描建议 | 公众号 |
+| [gefei-seo-keywords](/md/wiki/concepts/gefei-seo-keywords) | 哥飞 SEO 教程：关键词优先网站结构规划，八步流程（收词→补量→意图分组→URL 清单），4 个常见坑 | 公众号 |
 
 ### 出海建站 (Overseas Website Building)
 

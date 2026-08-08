@@ -60,6 +60,13 @@ source: "llm-wiki"
 - 内容摘要：Codex Security（原 Aardvark）开源，AI 安全研究员自动扫描漏洞/验证/补丁，三种接入方案，214 文件检出 21 个安全问题，成本与交叉扫描建议
 - 新增 concepts/codex-security.md
 
+## [2026-08-08] ingest: 哥飞 SEO 关键词教程
+
+- 归档《【哥飞SEO教程】先收集关键词，再规划网站结构》哥飞公众号至 sources/gefei-seo-keywords.md
+- 下载 6 张配图至 images/gefei-seo-keywords/
+- 内容摘要：关键词优先的网站结构规划（多入口收词→补搜索量→清理词表→意图分组→URL 清单→人工删减→先做 5-10 页），4 个常见坑
+- 新增 concepts/gefei-seo-keywords.md
+
 ---
 
 ## [2026-08-07] ingest: AgentScope 收尾篇
