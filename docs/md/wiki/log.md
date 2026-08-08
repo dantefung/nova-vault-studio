@@ -46,6 +46,13 @@ source: "llm-wiki"
 - 内容摘要：Cloudflare Workers 免费版 CPU Time 限制导致 AI 流式输出中断，排查与解决（Worker 主链路拿掉、Chunk 合并）
 - 新增 concepts/cf-worker-cpu-limit.md
 
+## [2026-08-08] ingest: B2C 转化思路
+
+- 归档《学会国外爆卖B2C转化思路，帮你提升独立站下单转化率》小拾公众号至 sources/b2c-conversion.md
+- 无配图
+- 内容摘要：拆国外 B2C 竞品网站的七个转化套路（标题卖情绪/卖点写用户所得/为什么选你/语气舒服/现在买理由/尺寸指南/信任证据），先模仿再创新
+- 新增 concepts/b2c-conversion.md
+
 ---
 
 ## [2026-08-07] ingest: AgentScope 收尾篇

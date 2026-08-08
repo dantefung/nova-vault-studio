@@ -131,6 +131,7 @@ wiki/
 | [fcitx-rime-snow-lmdg](/md/wiki/concepts/fcitx-rime-snow-lmdg) | Fcitx + RIME + 雾凇 + LMDG 开源 AI 输入法组合，全本地运行，互联网从业者专属 | 社群 |
 | [international-software-arsenal](/md/wiki/concepts/international-software-arsenal) | 境外势力软件盘点：网络工具/AI/内容/社交/效率/自律，17 个常用国际服务清单 | 社群 |
 | [cf-worker-cpu-limit](/md/wiki/concepts/cf-worker-cpu-limit) | Cloudflare Workers CPU Time 限制导致 AI 流式输出中断：Chunk 累积 CPU、浏览器直连、合并 Chunk 解决 | 公众号 |
+| [b2c-conversion](/md/wiki/concepts/b2c-conversion) | B2C 独立站转化率优化七法：标题卖情绪→卖点写用户所得→为什么选你→语气舒服→制造紧迫感→尺寸指南→信任证据 | 公众号 |
 
 ### 出海建站 (Overseas Website Building)
 
