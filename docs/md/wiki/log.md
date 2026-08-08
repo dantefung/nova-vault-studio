@@ -1770,3 +1770,27 @@ source: "llm-wiki"
 - **Images**: 7 张已下载到 `images/virtual-memory-invention/`
 - **Content**: 从物理寻址到虚拟内存的完整推导：重定位→覆盖→分页→MMU→缺页中断→TLB，以及隔离保护/空间放大/碎片化分配三大价值
 - **Concepts**: [[virtual-memory-invention]] [[virtual-memory]] [[paging]]
+
+---
+
+## [2026-08-08] ingest: 哥飞 AdSense 系列文章 5 篇
+
+- **Source 1**: [AdSense 提交网站申请的小细节](./sources/adsense-site-application-details.md) — 必须先验证 ads.txt 文件，再验证 JS 代码段，最后提交
+- **Images**: 11 张到 `images/adsense-site-application-details/`
+- **Concepts**: [[adsense-site-application-details]]
+
+- **Source 2**: [AdSense 账号注册、审核、网站审核经验](./sources/adsense-account-registration.md) — 完整注册流程，养号、双验证、流量优先审核
+- **Images**: 12 张到 `images/adsense-account-registration/`
+- **Concepts**: [[adsense-account-registration]]
+
+- **Source 3**: [AdSense Pin 码与实名认证](./sources/adsense-pin-verification.md) — Pin 码平信丢失处理，人工审核上身份证+地标照
+- **Images**: 3 张到 `images/adsense-pin-verification/`
+- **Concepts**: [[adsense-pin-verification]]
+
+- **Source 4**: [SEO+AdSense 收入从 800 到 2000 美元](./sources/adsense-seo-800-to-2000.md) — 技术重写+站内 SEO+广告位优化，三管齐下
+- **Images**: 25 张到 `images/adsense-seo-800-to-2000/`
+- **Concepts**: [[adsense-seo-800-to-2000]]
+
+- **Source 5**: [英文站 AdSense 赚钱入门 8000 字](./sources/adsense-english-site-guide.md) — 单域名单词策略、站内 SEO 细节、工具站 vs 内容站选择
+- **Images**: 10 张到 `images/adsense-english-site-guide/`
+- **Concepts**: [[adsense-english-site-guide]]

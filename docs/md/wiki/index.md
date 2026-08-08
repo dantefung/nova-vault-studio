@@ -224,6 +224,18 @@ wiki/
 
 ---
 
+### AdSense 变现 (AdSense Monetization)
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [英文站 AdSense 赚钱入门](/md/wiki/concepts/adsense-english-site-guide) | 流量思维+单域名单词策略+站内 SEO 细节+工具站/内容站选择 | 公众号 |
+| [SEO+AdSense 从 800 到 2000 美元/月](/md/wiki/concepts/adsense-seo-800-to-2000) | 技术重写+站内 SEO+3 广告位优化，三管齐下收入翻倍 | 公众号 |
+| [AdSense 账号注册与审核](/md/wiki/concepts/adsense-account-registration) | 养号、双验证、流量优先审核、Pin 码变现链路 | 公众号 |
+| [AdSense 网站提交审核细节](/md/wiki/concepts/adsense-site-application-details) | 先验证 ads.txt 再验证代码段，顺序决定审核成败 | 公众号 |
+| [AdSense Pin 码与实名认证](/md/wiki/concepts/adsense-pin-verification) | Pin 码平信丢失处理，人工审核上身份证+地标照 | 公众号 |
+
+---
+
 ### 数据库 (Databases)
 
 | 页面 | 一句话 | 来源 |
