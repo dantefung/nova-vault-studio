@@ -178,6 +178,7 @@ wiki/
 | [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
 | [agentscope-skills](/md/wiki/concepts/agentscope-skills) | AgentScope Skills 技能系统：Agent 世界的动态链接器，四步加载（符号表→重定位→加载→卸载），SkillRepository 对标 LD_LIBRARY_PATH，确定性协处理器 | 公众号 |
 | [agentscope-managed-agents](/md/wiki/concepts/agentscope-managed-agents) | AgentScope 2.0 Managed Agents 运行时底座：Brain/Hands 分离、三种 Worker 模式（Local/Cloud Sandbox/Self-hosted）、控制面/数据面/Worker 三层职责 | 公众号 |
+| [agentscope-harnessagent-declarative](/md/wiki/concepts/agentscope-harnessagent-declarative) | AgentScope HarnessAgent 声明式策略：统一管理 Skill/MCP/@Tool/SubAgent 四种资源，声明式注册+中间件治理，MCP 六步权限评估，静态 vs 动态分层 | 公众号 |
 | [tencentdb-agent-memory](/md/wiki/concepts/tencentdb-agent-memory) | 团队级 Agent 记忆中枢：四类资产（Chat Memory/Skill/Wiki/CodeGraph）+ Memory Hub 治理，L0-L3 分层记忆 | 公众号 |
 | [agelloop-skill](/md/wiki/concepts/agelloop-skill) | AgentLoop Skill 评估优化六步闭环：可观测→离线评估→Bad Case 优化→迭代验证，Skill+Harness 双线策略 | 公众号 |
 | [deepseek-v4-omp-pi](/md/wiki/concepts/deepseek-v4-omp-pi) | DeepSeek V4 Flash + OMP/Pi 配置指南：四项 Agent 基准超 V4 Pro，原生 Responses API + 内置联网搜索，OMP/Pi 内置 provider 即配即用 | 公众号 |

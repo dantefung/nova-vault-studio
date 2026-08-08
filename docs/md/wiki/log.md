@@ -11,6 +11,13 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: HarnessAgent 声明式策略
+
+- 归档《从源码拆解 AgentScope Java 2.0 的 HarnessAgent：声明式策略统一管理 Skill/MCP/@Tool/SubAgent》唐成公众号至 sources/agentscope-harnessagent-declarative.md
+- 无配图
+- 内容摘要：HarnessAgent 用组合/委托而非继承把裸 ReActAgent 升级为生产级，四种资源统一抽象（Skill/MCP/@Tool/SubAgent），声明式注册+中间件治理，MCP 六步权限评估管线，静态 vs 动态分层（Skill>SubAgent>MCP），注意"自助创建与自助发现"的缝隙
+- 新增 concepts/agentscope-harnessagent-declarative.md
+
 ## [2026-08-08] ingest: AgentScope 2.0 Managed Agents
 
 - 归档《专为 Managed Agents 而生的 Harness 底座：AgentScope 2.0》刘军公众号至 sources/agentscope-managed-agents.md
