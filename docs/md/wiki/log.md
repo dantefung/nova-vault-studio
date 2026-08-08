@@ -11,6 +11,13 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: AgentScope 2.0 Managed Agents
+
+- 归档《专为 Managed Agents 而生的 Harness 底座：AgentScope 2.0》刘军公众号至 sources/agentscope-managed-agents.md
+- 下载 10 张配图至 images/agentscope-managed-agents/
+- 内容摘要：Brain/Hands 分离架构，Harness 责任从业务开发者转移到平台，Anthropic 三层递进（CLI→SDK→Managed），三种 Worker 模式（Local/Cloud Sandbox/Self-hosted），控制面/数据面/Worker 三层职责，AgentScope 2.0 作为 Managed Agents 运行时底座
+- 新增 concepts/agentscope-managed-agents.md
+
 ## [2026-08-08] ingest: DeepSeek V4 Flash + OMP/Pi 配置
 
 - 归档《换掉 Claude Code，DeepSeek V4 Flash + OMP / Pi 太丝滑了！》小G 公众号至 sources/deepseek-v4-omp-pi.md
