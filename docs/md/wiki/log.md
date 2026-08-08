@@ -11,6 +11,13 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: Loop Engineering 深度思考
+
+- 归档《对 Loop Engineering 的思考》吕昊俣公众号（腾讯云开发者）至 sources/loop-engineering-thoughts.md
+- 下载 21 张配图至 images/loop-engineering-thoughts/
+- 内容摘要：五代工程演进（Prompt→Context→Harness→Loop→Graph），控制论四大公理映射，吴恩达三个环，Loop 五大组件（Automations/Worktrees/Maker-Checker/Connectors/Memory），TDD 作为反馈信号，三种方法让模型说"不"（TDD/证据链/预算思维），小闭环起步原则
+- 新增 concepts/loop-engineering-thoughts.md
+
 ## [2026-08-08] ingest: HarnessAgent 声明式策略
 
 - 归档《从源码拆解 AgentScope Java 2.0 的 HarnessAgent：声明式策略统一管理 Skill/MCP/@Tool/SubAgent》唐成公众号至 sources/agentscope-harnessagent-declarative.md
