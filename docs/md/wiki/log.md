@@ -11,6 +11,13 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: AdSense 审计 Skill
+
+- 归档 web.cafe 帖子《adsense 审计 skill》至 sources/adsense-site-auditor.md
+- 下载 1 张配图至 images/adsense-site-auditor/
+- 内容摘要：AdSense 审计 Skill 的用法 Prompt 集合，五种审计场景（完整审计/仅线上/仓库+线上/拒审诊断/修复后复审），逐项检查 ADS-* 要求
+- 新增 patterns/adsense-site-auditor.md
+
 ## [2026-08-08] ingest: Loop Engineering 深度思考
 
 - 归档《对 Loop Engineering 的思考》吕昊俣公众号（腾讯云开发者）至 sources/loop-engineering-thoughts.md

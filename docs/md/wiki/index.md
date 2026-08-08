@@ -114,6 +114,7 @@ wiki/
 | [serenity-aleabitoreddit-skill](/md/wiki/sources/serenity-aleabitoreddit-skill) | Serenity 卡点投资分析技能，多 Agent 多市场适用，23 Stars | GitHub |
 | [serenity-stock-choke](/md/wiki/sources/serenity-stock-choke) | A 股卡脖子选股框架，六步推理链路，12 Stars | GitHub |
 | [ffmpeg-9-lei](/md/wiki/concepts/ffmpeg-9-lei) | FFmpeg 9.0 代号「Lei」纪念雷霄骅，新增 ONNX Runtime DNN 后端，AI 时代多媒体基础设施 | 公众号 |
+| [adsense-site-auditor](/md/wiki/patterns/adsense-site-auditor) | AdSense 审计 Skill：用 Codex/Claude 反复审核通过 Google AdSense 申请，五种审计场景 Prompt | web.cafe |
 
 ### 学习路径 (Learning Paths)
 
