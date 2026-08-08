@@ -53,6 +53,13 @@ source: "llm-wiki"
 - 内容摘要：拆国外 B2C 竞品网站的七个转化套路（标题卖情绪/卖点写用户所得/为什么选你/语气舒服/现在买理由/尺寸指南/信任证据），先模仿再创新
 - 新增 concepts/b2c-conversion.md
 
+## [2026-08-08] ingest: Codex Security
+
+- 归档《OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器》数字生命卡兹克公众号至 sources/codex-security.md
+- 下载 24 张配图至 images/codex-security/
+- 内容摘要：Codex Security（原 Aardvark）开源，AI 安全研究员自动扫描漏洞/验证/补丁，三种接入方案，214 文件检出 21 个安全问题，成本与交叉扫描建议
+- 新增 concepts/codex-security.md
+
 ---
 
 ## [2026-08-07] ingest: AgentScope 收尾篇
