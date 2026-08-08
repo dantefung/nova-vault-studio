@@ -11,6 +11,13 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: 后端架构 AI Friendly
+
+- 归档《后端架构 AI Friendly 的标准与路径：面向无人值守开发时代的系统重构》刘瑞洲公众号至 sources/ai-friendly-backend.md
+- 下载 10 张配图至 images/ai-friendly-backend/
+- 内容摘要：AI Friendly = 建设「可被智能体维护的系统」，六类事实层（架构/服务/领域/接口/数据/运行），四大产物（Architecture Map/Service Card/领域模型/SKILL），Harness 七层安全轨道，测试从防人出错升级为约束 AI，分级权限 L0-L5，架构即代码，三阶段演进（Copilot→Coworker→Operator黑灯工厂），11 步可落地 Roadmap
+- 新增 concepts/ai-friendly-backend.md
+
 ## [2026-08-07] ingest: Agent 本质万字长文
 
 - 归档《【万字】Agent 的本质：用 Token 换架构》叶小钗公众号至 sources/agent-token-architecture.md

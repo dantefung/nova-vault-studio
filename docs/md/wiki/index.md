@@ -178,6 +178,7 @@ wiki/
 | [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
 | [tencentdb-agent-memory](/md/wiki/concepts/tencentdb-agent-memory) | 团队级 Agent 记忆中枢：四类资产（Chat Memory/Skill/Wiki/CodeGraph）+ Memory Hub 治理，L0-L3 分层记忆 | 公众号 |
 | [agelloop-skill](/md/wiki/concepts/agelloop-skill) | AgentLoop Skill 评估优化六步闭环：可观测→离线评估→Bad Case 优化→迭代验证，Skill+Harness 双线策略 | 公众号 |
+| [ai-friendly-backend](/md/wiki/concepts/ai-friendly-backend) | 后端架构 AI Friendly 标准与路径：六类事实层、四大产物、Harness 七层、三阶段演进（Copilot→Coworker→Operator 黑灯工厂）、11 步 Roadmap | 公众号 |
 
 ### 商业模式 (Business Models)
 
