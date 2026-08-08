@@ -39,6 +39,13 @@ source: "llm-wiki"
 - 内容摘要：Skill 评估优化六步闭环（创建→可观测→离线评估→Bad Case 优化→迭代验证→发布），8 维评估体系，Skill+Harness 双线策略，CMS 运维 Skill 真实调优案例
 - 新增 concepts/agelloop-skill.md
 
+## [2026-08-08] ingest: CF Worker CPU Time
+
+- 归档《AI长文章总是生成一半，到底是哪里出了问题？》小拾公众号至 sources/cf-worker-cpu-limit.md
+- 无配图
+- 内容摘要：Cloudflare Workers 免费版 CPU Time 限制导致 AI 流式输出中断，排查与解决（Worker 主链路拿掉、Chunk 合并）
+- 新增 concepts/cf-worker-cpu-limit.md
+
 ---
 
 ## [2026-08-07] ingest: AgentScope 收尾篇
