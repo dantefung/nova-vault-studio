@@ -11,6 +11,13 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: AgentScope Skills 技能系统
+
+- 归档《AgentScope Skills 技能系统：Agent 的"上下文链接器"》一灰灰blog 公众号至 sources/agentscope-skills.md
+- 下载 3 张配图至 images/agentscope-skills/
+- 内容摘要：Skills = Agent 世界的动态链接器，四步加载（符号表→重定位→加载→卸载），SkillRepository 对标 LD_LIBRARY_PATH（四种来源+优先级覆盖），Tool 动态可见性，SKILL.md 文件协议，确定性协处理器（概率计算→确定性执行）
+- 新增 concepts/agentscope-skills.md（AgentScope 系列第8篇）
+
 ## [2026-08-08] ingest: 后端架构 AI Friendly
 
 - 归档《后端架构 AI Friendly 的标准与路径：面向无人值守开发时代的系统重构》刘瑞洲公众号至 sources/ai-friendly-backend.md
