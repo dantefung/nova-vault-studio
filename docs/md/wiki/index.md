@@ -179,6 +179,7 @@ wiki/
 | [agentscope-skills](/md/wiki/concepts/agentscope-skills) | AgentScope Skills 技能系统：Agent 世界的动态链接器，四步加载（符号表→重定位→加载→卸载），SkillRepository 对标 LD_LIBRARY_PATH，确定性协处理器 | 公众号 |
 | [tencentdb-agent-memory](/md/wiki/concepts/tencentdb-agent-memory) | 团队级 Agent 记忆中枢：四类资产（Chat Memory/Skill/Wiki/CodeGraph）+ Memory Hub 治理，L0-L3 分层记忆 | 公众号 |
 | [agelloop-skill](/md/wiki/concepts/agelloop-skill) | AgentLoop Skill 评估优化六步闭环：可观测→离线评估→Bad Case 优化→迭代验证，Skill+Harness 双线策略 | 公众号 |
+| [deepseek-v4-omp-pi](/md/wiki/concepts/deepseek-v4-omp-pi) | DeepSeek V4 Flash + OMP/Pi 配置指南：四项 Agent 基准超 V4 Pro，原生 Responses API + 内置联网搜索，OMP/Pi 内置 provider 即配即用 | 公众号 |
 | [ai-friendly-backend](/md/wiki/concepts/ai-friendly-backend) | 后端架构 AI Friendly 标准与路径：六类事实层、四大产物、Harness 七层、三阶段演进（Copilot→Coworker→Operator 黑灯工厂）、11 步 Roadmap | 公众号 |
 
 ### 商业模式 (Business Models)

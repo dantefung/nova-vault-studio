@@ -11,6 +11,13 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: DeepSeek V4 Flash + OMP/Pi 配置
+
+- 归档《换掉 Claude Code，DeepSeek V4 Flash + OMP / Pi 太丝滑了！》小G 公众号至 sources/deepseek-v4-omp-pi.md
+- 下载 9 张配图至 images/deepseek-v4-omp-pi/
+- 内容摘要：DeepSeek V4 Flash 正式版四项 Agent 基准超 V4 Pro Preview，原生 Responses API + 内置联网搜索，OMP 和 Pi 均已内置 provider 无需手写配置，极低价格，环境变量配置即用
+- 新增 concepts/deepseek-v4-omp-pi.md
+
 ## [2026-08-08] ingest: AgentScope Skills 技能系统
 
 - 归档《AgentScope Skills 技能系统：Agent 的"上下文链接器"》一灰灰blog 公众号至 sources/agentscope-skills.md
