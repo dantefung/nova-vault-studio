@@ -325,6 +325,7 @@ date: "2026-05-05"
 ## 书籍与白皮书
 
 - [FDE 前线部署工程师指南](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) — 范冰（XDash）著，**1.5k Stars**。免费公开全文，从零入门 FDE（Forward Deployed Engineer）。基于《增长黑客》原书框架，聊清楚三件事：FDE 是什么（从 Palantir 情报项目长出的角色，AI 时代爆发）、怎么做（找对问题→赢得客户→激活部署→守住续约→扩大收入→规模化复制）、谁在做（112 个真实案例）。含 PDF 整本下载。非商业性分享免费
+- [深入理解 AI Agent：设计原理与工程实践](https://github.com/bojieli/ai-agent-book) — 李博杰著，开源电子书。从设计原理到工程实践系统讲解 AI Agent，含 [PDF 下载](https://github.com/bojieli/ai-agent-book/blob/main/book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.2.pdf)
 
 ## 其他
 
