@@ -16,6 +16,12 @@ source: "llm-wiki"
 - 归档用户分享的 Claude Design + Baoyu-Design Skill 工作流至 sources/baoyu-design-workflow.md
 - 内容摘要：先原型后功能，原型与功能保持一致的工作流。Claude Design 产出 React 代码和 JSON，通过 git diff 追踪版本变更，Agent 参考 diff 实现功能。Baoyu-Design Skill 维护原型
 
+## [2026-08-09] ingest: PPT Skill 7 项目实测对比
+
+- 归档《PPT Skill 哪家强？实测 GitHub 上 7 个热门项目》微信公众号至 sources/pptskill-comparison.md
+- 下载 8 张配图至 images/pptskill-comparison/
+- 内容摘要：同一篇文章交给 7 个 PPT Agent Skill 并行生成，盲评 PPT Master 第一（76/80），open-kimi 第二（75/80），Bento 第三（71.5/80）。覆盖原生 PPTX、PPTD、单 HTML 三种格式
+
 ## [2026-08-08] ingest: opencode-ralph-loop 插件原理
 
 - 归档 GitHub 仓库 opencode-ralph-loop 原理分析文至 sources/opencode-ralph-loop.md
