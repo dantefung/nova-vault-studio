@@ -20,4 +20,5 @@ date: "2026-07-23"
 | [可以做什么类型的站](/columns/indie-hub/seo/seo-faq/site-types.md) | 内容站vs工具站、变现方式、各类型案例 |
 | [站点是不是必须要 sitemap.xml？](/columns/indie-hub/seo/seo-faq/sitemap-necessity.md) | sitemap 的必要性、作用和最佳实践，如何加速收录 |
 | [Hexo 静态站 vs PSEO 怎么选？](/columns/indie-hub/seo/seo-faq/hexo-vs-pseo.md) | Hexo 是工具，PSEO 是策略，不互斥；新手禁用程序化 SEO |
+| [用 Hexo 能做哪些站？可以做站群吗？](/columns/indie-hub/seo/seo-faq/hexo-static-site-types.md) | 静态站适合内容/文档/工具/导航站，可做站群但建议先跑通一个站 |
 | [新人入门资料汇总](/columns/indie-hub/seo/seo-faq/beginner-resources.md) | 从零做 SEO 独立站，一篇看完所有核心资料 |
