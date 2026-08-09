@@ -1,5 +1,5 @@
 ---
-title: "AgentScope Skills 技能系统：Agent 的"上下文链接器"——如何像管理动态链接库一样管理 Agent 能力"
+title: "AgentScope Skills 技能系统：Agent 的「上下文链接器」——如何像管理动态链接库一样管理 Agent 能力"
 author: "一灰灰blog"
 date: "2026-08-07"
 source: "微信公众号"
