@@ -102,6 +102,7 @@ date: "2026-05-05"
   - [bggg-creator-image2psd](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2psd) — 设计精修 Skill，将图片转换为 PSD 格式搞定设计师
   - [bggg-creator-image2ppt](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2ppt) — 演示落地 Skill，将图片转换为 PPT 搞定做分享的人
 - [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) — superpowers 中文增强版（116k+⭐上游），17 款工具 + 20 skills + 6 个中国原创 skill，npm 一键安装，2.7k stars
+- [baoyu-design](https://github.com/JimLiu/baoyu-design) — 在本地以 Agent Skill 方式运行 Claude Design（支持 Cursor、Claude Code 等）。工作流：先用 Claude Design 设计 UI 原型，配合本 Skill 维护，每次开发新功能先改原型、确认后再改功能，保证原型与功能一致。产出 React 代码 + 结构化 JSON，通过 git diff 清晰追踪版本变更，Agent 参考 diff 实现功能。可低成本验证产品/UI 设计，详见 [工作流归档](/md/wiki/sources/baoyu-design-workflow)
 
 ---
 

@@ -123,6 +123,8 @@ url: ""
 | 2026-07-15 | https://mp.weixin.qq.com/s/FY2J-mXMSoSOQ3_JFl2tMA | 待采集 | pending |
 | 2026-08-03 | https://x.com/i/status/2083773600776262120 | **阿哲Phil：FDE 是临时外包 or 真AI落地？附小白快速入门与辨别方式**（关联 FDE 书） | pending |
 | 2026-08-03 | https://x.com/i/status/2083806603527024702 | **Jason Zhu：手把手教你申请清迈大学语言班**（42000泰铢，半年清迈学英语） | pending |
+| 2026-08-08 | https://x.com/i/status/2078766646001561670 | 待查看 | pending |
+| 2026-08-08 | https://github.com/JimLiu/baoyu-design | **Claude Design + Baoyu-Design Skill 工作流**（原型与功能一致） | ✅ done ([sources/baoyu-design-workflow](/md/wiki/sources/baoyu-design-workflow)) |
 
 ## 已完成
 

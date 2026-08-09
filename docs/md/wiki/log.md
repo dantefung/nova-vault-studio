@@ -11,6 +11,11 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: Claude Design + Baoyu-Design 工作流
+
+- 归档用户分享的 Claude Design + Baoyu-Design Skill 工作流至 sources/baoyu-design-workflow.md
+- 内容摘要：先原型后功能，原型与功能保持一致的工作流。Claude Design 产出 React 代码和 JSON，通过 git diff 追踪版本变更，Agent 参考 diff 实现功能。Baoyu-Design Skill 维护原型
+
 ## [2026-08-08] ingest: opencode-ralph-loop 插件原理
 
 - 归档 GitHub 仓库 opencode-ralph-loop 原理分析文至 sources/opencode-ralph-loop.md
