@@ -27,6 +27,12 @@ source: "llm-wiki"
 - 归档《Harness 101：复刻 Dynamic Workflow（含代码）》飞书文档至 sources/deerflow-dynamic-workflow.md
 - 内容摘要：Dynamic Workflow 是模型针对当前任务临时编写的 JavaScript 脚本，结合程序稳定性与 Agent 灵活性。Deer Workflow 开源自研 TypeScript 实现，支持 Codex CLI/Claude 双 Agent Runtime，提供 Journaled Replay 断点续接
 
+## [2026-08-09] ingest: Codex 创造力工作流
+
+- 归档《拥有创造力的人，就像是一只边牧》微信公众号至 sources/codex-creativity-workflow.md
+- 下载 41 张配图至 images/codex-creativity-workflow/
+- 内容摘要：非设计背景作者用 Codex 一个月干完大半年活——品牌视觉统一、20 个 Skill 兵工厂、微信读书/Notion/Cubox 集成、Agent 替甲方开会、职业规划 Agent、企业管理 Agent。核心观点：Codex 让人类像边牧一样，有灵感就停不下来
+
 ## [2026-08-08] ingest: opencode-ralph-loop 插件原理
 
 - 归档 GitHub 仓库 opencode-ralph-loop 原理分析文至 sources/opencode-ralph-loop.md
