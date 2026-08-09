@@ -11,6 +11,11 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-08] ingest: opencode-ralph-loop 插件原理
+
+- 归档 GitHub 仓库 opencode-ralph-loop 原理分析文至 sources/opencode-ralph-loop.md
+- 内容摘要：自指完成循环（Ralph Loop）的工程实现，零依赖单文件插件。核心是 Agent 承担完成判断责任，通过 `<promise>DONE</promise>` XML 信号规约，插件只做检测信号、注入延续提示、管理状态三件事。两种激活模式（命令驱动 / ebuilder 自动检测）、JSON 状态持久化、inFlight Set 竞态保护、session_id 隔离，含 6 张 Mermaid 架构图
+
 ## [2026-08-08] ingest: AdSense 审计 Skill
 
 - 归档 web.cafe 帖子《adsense 审计 skill》至 sources/adsense-site-auditor.md

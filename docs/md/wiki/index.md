@@ -185,6 +185,7 @@ wiki/
 | [agelloop-skill](/md/wiki/concepts/agelloop-skill) | AgentLoop Skill 评估优化六步闭环：可观测→离线评估→Bad Case 优化→迭代验证，Skill+Harness 双线策略 | 公众号 |
 | [deepseek-v4-omp-pi](/md/wiki/concepts/deepseek-v4-omp-pi) | DeepSeek V4 Flash + OMP/Pi 配置指南：四项 Agent 基准超 V4 Pro，原生 Responses API + 内置联网搜索，OMP/Pi 内置 provider 即配即用 | 公众号 |
 | [ai-friendly-backend](/md/wiki/concepts/ai-friendly-backend) | 后端架构 AI Friendly 标准与路径：六类事实层、四大产物、Harness 七层、三阶段演进（Copilot→Coworker→Operator 黑灯工厂）、11 步 Roadmap | 公众号 |
+| [opencode-ralph-loop](/md/wiki/sources/opencode-ralph-loop) | 自指完成循环工程实现：Agent 承担完成判断，`<promise>` 信号规约，检测信号/注入延续/管理状态三职责，零依赖 400 行单文件 | GitHub |
 
 ### 商业模式 (Business Models)
 
