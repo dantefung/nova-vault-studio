@@ -8,6 +8,7 @@ pre-commit hook:
 import sys
 import re
 import subprocess
+import yaml
 from pathlib import Path
 
 REQUIRED_FIELDS = ['title']
@@ -62,10 +63,23 @@ def check_frontmatter(file_path):
 
     fm = parts[1]
 
+    # 检查 YAML 是否可解析（防止嵌套引号/多行 key 等导致构建失败）
+    try:
+        fm_data = yaml.safe_load(fm)
+    except yaml.YAMLError as e:
+        errors.append(f"{file_path}: invalid YAML frontmatter — {e}")
+        return errors, warnings
+
     # 检查必需字段
     for field in REQUIRED_FIELDS:
         if not re.search(rf'^{field}:', fm, re.MULTILINE):
             errors.append(f"{file_path}: missing required frontmatter field '{field}'")
+
+    # 检查 title 字段值是否为标量（非 map/list），防止嵌套结构污染
+    if fm_data is not None and isinstance(fm_data, dict):
+        for field in REQUIRED_FIELDS + RECOMMENDED_FIELDS:
+            if field in fm_data and not isinstance(fm_data[field], (str, int, float, bool, type(None))):
+                errors.append(f"{file_path}: frontmatter field '{field}' must be a scalar value, got {type(fm_data[field]).__name__}")
 
     # 检查推荐字段（仅警告）
     for field in RECOMMENDED_FIELDS:

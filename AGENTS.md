@@ -295,6 +295,23 @@ docs/md/
 pre-commit hook (`check-frontmatter.py`) 检查所有 staged `.md` 文件，缺 `title` 直接拒绝提交。
 `date`、`url` 缺失仅警告不阻断。
 
+### Frontmatter 中 title 值不能嵌套双引号
+
+YAML 中 `title: "..."` 的值内部不能再出现未转义的双引号 `"`，否则 YAML 解析器会报错，导致 VitePress 构建失败：
+
+```yaml
+# 错误 ❌ — 嵌套双引号
+title: "Agent 的"上下文链接器"——如何管理能力"
+
+# 正确 ✅ — 使用中文引号
+title: "Agent 的「上下文链接器」——如何管理能力"
+
+# 正确 ✅ — 使用单引号包裹
+title: 'Agent 的"上下文链接器"——如何管理能力'
+```
+
+pre-commit hook 现在会验证 frontmatter 是否能被 YAML 正确解析，不合法则拒绝提交。
+
 ### 裸露 HTML 标签阻断提交
 
 pre-commit hook 同时检查 `.md` 文件中是否有裸露的 HTML 标签（非代码块内）。Vue 编译器会把 `<tag>` 当作真实 HTML 解析，导致构建失败：
