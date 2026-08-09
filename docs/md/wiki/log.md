@@ -22,6 +22,11 @@ source: "llm-wiki"
 - 下载 8 张配图至 images/pptskill-comparison/
 - 内容摘要：同一篇文章交给 7 个 PPT Agent Skill 并行生成，盲评 PPT Master 第一（76/80），open-kimi 第二（75/80），Bento 第三（71.5/80）。覆盖原生 PPTX、PPTD、单 HTML 三种格式
 
+## [2026-08-09] ingest: DeerFlow Dynamic Workflow 开源复刻
+
+- 归档《Harness 101：复刻 Dynamic Workflow（含代码）》飞书文档至 sources/deerflow-dynamic-workflow.md
+- 内容摘要：Dynamic Workflow 是模型针对当前任务临时编写的 JavaScript 脚本，结合程序稳定性与 Agent 灵活性。Deer Workflow 开源自研 TypeScript 实现，支持 Codex CLI/Claude 双 Agent Runtime，提供 Journaled Replay 断点续接
+
 ## [2026-08-08] ingest: opencode-ralph-loop 插件原理
 
 - 归档 GitHub 仓库 opencode-ralph-loop 原理分析文至 sources/opencode-ralph-loop.md
