@@ -375,6 +375,36 @@ baoyu-fetch 可能产生两块 `---`：
 - commit message 用 `prompt:` 前缀，例：`prompt: 采集 xxx 文章`
 - pre-commit hook 会检查 title 必填，缺则拒绝提交
 
+### 大图片拖垮 Vercel 构建（OOM）
+
+图片单个 >500KB 且大量堆积时，Vercel 构建会在「rendering pages」阶段 OOM（约 7 分钟超时失败）。**采集/归档图片后必须压缩**。
+
+**规则**：
+- 图片单个 >500KB 禁止直接提交
+- pre-commit hook（`check-image-size.py`）会自动检查 staged 的 `.md` 引用图片和直接 staged 的图片文件，超限会阻断并给出压缩命令
+
+**GIF 一律转 PNG**（sharp 提取首帧）：
+```bash
+node -e "const sharp=require('sharp'); \
+  sharp('{图片}.gif',{animated:false}).png({compressionLevel:9,palette:true}) \
+  .toFile('{图片}.png').then(()=>console.log('OK'))"
+```
+转换后必须：① 更新 `.md` 引用 `.gif`→`.png` ② 删除原 `.gif` 文件。
+
+**PNG/JPG/WebP 压缩**（sharp，>500KB）：
+```bash
+node -e "const sharp=require('sharp'),fs=require('fs'); \
+  sharp('{图片}').rotate().resize({width:1600,withoutEnlargement:true}) \
+  .jpeg({quality:82,mozjpeg:true}).toFile('{图片}.tmp') \
+  .then(()=>fs.renameSync('{图片}.tmp','{图片}'))"
+```
+
+**批量压缩**：项目根 `_sandbox/compress-images.js`（遍历 `docs/md/` 处理 >500KB 图片）。注意 PNG palette 转换可能变大，需降分辨率或换 JPEG 降质。
+
+**⚠️ PNG 转 JPEG 后扩展名必须改**：用 sharp 把 `.png` 转成 JPEG 内容后，若文件名仍是 `.png`，虽然浏览器能渲染，但不符合规范。应 `mv x.png x.jpg` 并更新引用。未被引用的图片（孤立文件）可保留原名。
+
+**⚠️ 项目是 ESM**：`package.json` 含 `"type": "module"`。写 node 脚本时 `.js` 会被当 ES module，`require` 会报错——用 `.cjs` 扩展名或 `import` 语法。
+
 ### `ignoreDeadLinks: true` — 死链接静默放过
 
 构建时不会因为死链接报错。如果改动了文件路径或删除了页面，相关引用不会自动发现。
@@ -407,6 +437,7 @@ rtk ls docs/md/{分类}/{文章}/images/{文章名}/
 - `check-frontmatter.py` — 验证 frontmatter title 必填
 - `check-html-tags.py` — 检查裸露 HTML 标签
 - `check-image-refs.py` — 验证图片引用是否存在
+- `check-image-size.py` — 检查图片 >500KB（Vercel OOM 防护）
 
 **首次配置（项目根目录执行）**：
 
@@ -415,13 +446,18 @@ cat > .git/hooks/pre-commit << 'EOF'
 #!/bin/sh
 PROJECT_ROOT="$(git rev-parse --show-toplevel)"
 STAGED_MD_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.md$' | grep -v '^docs/public/')
-[ -z "$STAGED_MD_FILES" ] && exit 0
+STAGED_IMAGE_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(png|jpe?g|gif|webp)$')
+[ -z "$STAGED_MD_FILES" ] && [ -z "$STAGED_IMAGE_FILES" ] && exit 0
 
 for file in $STAGED_MD_FILES; do
     FULL_PATH="$PROJECT_ROOT/$file"
     python3 "$PROJECT_ROOT/.claude/hooks/check-frontmatter.py" "$FULL_PATH" || exit 1
     python3 "$PROJECT_ROOT/.claude/hooks/check-html-tags.py" "$FULL_PATH" || exit 1
     python3 "$PROJECT_ROOT/.claude/hooks/check-image-refs.py" "$FULL_PATH" || exit 1
+done
+for file in $STAGED_IMAGE_FILES; do
+    FULL_PATH="$PROJECT_ROOT/$file"
+    python3 "$PROJECT_ROOT/.claude/hooks/check-image-size.py" "$FULL_PATH" || exit 1
 done
 EOF
 chmod +x .git/hooks/pre-commit
