@@ -137,6 +137,7 @@ wiki/
 | [codex-security](/md/wiki/concepts/codex-security) | Codex Security 开源 AI 安全研究员：自动读代码/扫漏洞/验证/补丁，三种接入方案，交叉扫描建议 | 公众号 |
 | [gefei-seo-keywords](/md/wiki/concepts/gefei-seo-keywords) | 哥飞 SEO 教程：关键词优先网站结构规划，八步流程（收词→补量→意图分组→URL 清单），4 个常见坑 | 公众号 |
 | [programmer-math-cultivation](/md/wiki/concepts/programmer-math-cultivation) | 程序员的数学修养：逻辑思维、抽象建模与量化分析，离散数学/线性代数/概率统计/微积分四大分支支撑，三层进阶 | 原创/概念整理 |
+| [austrian-economics](/md/wiki/concepts/austrian-economics) | 奥地利经济学派：方法论个人主义、人的行动学、主观价值论、商业周期理论，反对政府干预与数学模型预测 | 原创/概念整理 |
 
 ### 出海建站 (Overseas Website Building)
 
