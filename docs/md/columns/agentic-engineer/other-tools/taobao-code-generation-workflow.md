@@ -7,11 +7,11 @@ url: "https://mp.weixin.qq.com/s/VjTyHFr17l_bObG6x8-Mmw"
 
 # 淘天营销中后台生码工作流最佳实践
 
-![image](../images/taobao-code-generation-workflow/agent-article-temp-img1.gif)本文系统总结了营销中后台在财年初推进AI生码提效的最佳实践升级路径：统一收敛至云端托管生码（基于AoneSuper），解决本地研发环境不一致、AK管理难、执行易中断等问题；1.构建跨仓库工作区（git submodule + turborepo）支持多仓协同；2.打造可编排场景化工作流，覆盖需求理解→编码→构建发布全链路；针对迁移/重构（高确定性）采用架构说明文档+领域Skill固化规则；针对日常迭代（低确定性）引入功能树实现精准查表式知识供给，并通过D2C/API还原优化、知识自动沉淀形成提效飞轮。核心方法论：给恰好够用的精确知识、确定性逻辑交工程、知识建正向循环。![image](../images/taobao-code-generation-workflow/agent-article-temp-img2.webp)生码提效路径的重新梳理
+![image](../images/taobao-code-generation-workflow/agent-article-temp-img1.png)本文系统总结了营销中后台在财年初推进AI生码提效的最佳实践升级路径：统一收敛至云端托管生码（基于AoneSuper），解决本地研发环境不一致、AK管理难、执行易中断等问题；1.构建跨仓库工作区（git submodule + turborepo）支持多仓协同；2.打造可编排场景化工作流，覆盖需求理解→编码→构建发布全链路；针对迁移/重构（高确定性）采用架构说明文档+领域Skill固化规则；针对日常迭代（低确定性）引入功能树实现精准查表式知识供给，并通过D2C/API还原优化、知识自动沉淀形成提效飞轮。核心方法论：给恰好够用的精确知识、确定性逻辑交工程、知识建正向循环。![image](../images/taobao-code-generation-workflow/agent-article-temp-img2.webp)生码提效路径的重新梳理
 
-![image](../images/taobao-code-generation-workflow/agent-article-temp-img1.gif)本文系统总结了营销中后台在财年初推进AI生码提效的最佳实践升级路径：统一收敛至云端托管生码（基于AoneSuper），解决本地研发环境不一致、AK管理难、执行易中断等问题；1.构建跨仓库工作区（git submodule + turborepo）支持多仓协同；2.打造可编排场景化工作流，覆盖需求理解→编码→构建发布全链路；针对迁移/重构（高确定性）采用架构说明文档+领域Skill固化规则；针对日常迭代（低确定性）引入功能树实现精准查表式知识供给，并通过D2C/API还原优化、知识自动沉淀形成提效飞轮。核心方法论：给恰好够用的精确知识、确定性逻辑交工程、知识建正向循环。![image](../images/taobao-code-generation-workflow/agent-article-temp-img2.webp)生码提效路径的重新梳理
+![image](../images/taobao-code-generation-workflow/agent-article-temp-img1.png)本文系统总结了营销中后台在财年初推进AI生码提效的最佳实践升级路径：统一收敛至云端托管生码（基于AoneSuper），解决本地研发环境不一致、AK管理难、执行易中断等问题；1.构建跨仓库工作区（git submodule + turborepo）支持多仓协同；2.打造可编排场景化工作流，覆盖需求理解→编码→构建发布全链路；针对迁移/重构（高确定性）采用架构说明文档+领域Skill固化规则；针对日常迭代（低确定性）引入功能树实现精准查表式知识供给，并通过D2C/API还原优化、知识自动沉淀形成提效飞轮。核心方法论：给恰好够用的精确知识、确定性逻辑交工程、知识建正向循环。![image](../images/taobao-code-generation-workflow/agent-article-temp-img2.webp)生码提效路径的重新梳理
 
-![image](../images/taobao-code-generation-workflow/agent-article-temp-img1.gif)
+![image](../images/taobao-code-generation-workflow/agent-article-temp-img1.png)
 
 本文系统总结了营销中后台在财年初推进AI生码提效的最佳实践升级路径：统一收敛至云端托管生码（基于AoneSuper），解决本地研发环境不一致、AK管理难、执行易中断等问题；1.构建跨仓库工作区（git submodule + turborepo）支持多仓协同；2.打造可编排场景化工作流，覆盖需求理解→编码→构建发布全链路；针对迁移/重构（高确定性）采用架构说明文档+领域Skill固化规则；针对日常迭代（低确定性）引入功能树实现精准查表式知识供给，并通过D2C/API还原优化、知识自动沉淀形成提效飞轮。核心方法论：给恰好够用的精确知识、确定性逻辑交工程、知识建正向循环。
 

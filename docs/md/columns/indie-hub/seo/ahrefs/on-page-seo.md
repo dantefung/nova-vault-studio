@@ -549,7 +549,7 @@ Google 在确定排名时，会参考[用户与你页面的互动方式](https:/
 
 通过对比页面优化前后的流量趋势，有助于判断哪些改动是有效的。
 
-![Image 33: Ahrefs Web Analytics Dashboard 显示的实时流量数据](images/ahrefs-web-analytics-2FXWHLR3.gif)
+![Image 33: Ahrefs Web Analytics Dashboard 显示的实时流量数据](images/ahrefs-web-analytics-2FXWHLR3.png)
 
 ### 检查更新页面的用户行为
 
