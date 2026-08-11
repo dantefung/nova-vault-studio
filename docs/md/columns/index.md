@@ -99,6 +99,14 @@ url: ""
 
 ---
 
+## The Software Architecture Chronicles
+
+> 软件架构编年史：从架构思想到设计模式的系统梳理。基于 Herberto Graca 的同名系列文章。
+
+[进入专栏 →](/md/columns/software-architecture-chronicles/)
+
+---
+
 ## 社媒
 
 > X/Twitter 运营、SEO 策略、谷歌搜索控制台实战记录。
