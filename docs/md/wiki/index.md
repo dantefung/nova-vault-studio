@@ -136,6 +136,7 @@ wiki/
 | [b2c-conversion](/md/wiki/concepts/b2c-conversion) | B2C 独立站转化率优化七法：标题卖情绪→卖点写用户所得→为什么选你→语气舒服→制造紧迫感→尺寸指南→信任证据 | 公众号 |
 | [codex-security](/md/wiki/concepts/codex-security) | Codex Security 开源 AI 安全研究员：自动读代码/扫漏洞/验证/补丁，三种接入方案，交叉扫描建议 | 公众号 |
 | [gefei-seo-keywords](/md/wiki/concepts/gefei-seo-keywords) | 哥飞 SEO 教程：关键词优先网站结构规划，八步流程（收词→补量→意图分组→URL 清单），4 个常见坑 | 公众号 |
+| [programmer-math-cultivation](/md/wiki/concepts/programmer-math-cultivation) | 程序员的数学修养：逻辑思维、抽象建模与量化分析，离散数学/线性代数/概率统计/微积分四大分支支撑，三层进阶 | 原创/概念整理 |
 
 ### 出海建站 (Overseas Website Building)
 
@@ -169,6 +170,7 @@ wiki/
 | [ai-agent-team-9-stages](/md/wiki/sources/ai-agent-team-9-stages) | Anthropic 9阶段搭建Agent团队：从单个Agent到生产级协作，三层架构 | 公众号 |
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
 | [mission-driver](/md/wiki/concepts/mission-driver) | Mission Driver 声明式任务驱动引擎，Loop Engineering 参考实现，多层嵌套局部容错 | 公众号 |
+| [dao-fa-shu-qi](/md/wiki/concepts/dao-fa-shu-qi) | 道法术器：中国传统文化中解决问题的四层框架（思路→流程→执行→工具） | 原创/概念整理 |
 | [ai-asset-map](/md/wiki/concepts/ai-asset-map) | AI 资产地图：从 Agent 花名册走向可管理的数字资产关系图，治理 100+ Agent 的五类盲区 | 公众号 |
 | [setup-matt-pocock-skills](/md/wiki/concepts/setup-matt-pocock-skills) | Matt Pocock 前置配置 skill：prompt-driven 对话，把「工单在哪、标签叫什么、文档放哪」一次落地 | 公众号 |
 | [engineering-skills](/md/wiki/concepts/engineering-skills) | Matt Pocock 工程化 AI 编程 skill 体系，读配置执行，setup 是所有 flow 的 precondition | 公众号 |

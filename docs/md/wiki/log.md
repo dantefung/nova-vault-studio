@@ -1821,3 +1821,8 @@ source: "llm-wiki"
 - **Source 5**: [英文站 AdSense 赚钱入门 8000 字](./sources/adsense-english-site-guide.md) — 单域名单词策略、站内 SEO 细节、工具站 vs 内容站选择
 - **Images**: 10 张到 `images/adsense-english-site-guide/`
 - **Concepts**: [[adsense-english-site-guide]]
+
+## [2026-08-11] ingest: 程序员的数学修养
+
+- 归档 Evernote 笔记《程序员的数学修养》(李烨) 至 sources/programmer-math-cultivation.md
+- 内容摘要：讨论程序员是否需要数学、AI 是否依赖数学、数学的碎片化学习特征、AI 技术岗必需的数学知识清单（微积分/概率统计/线性代数/最优化方法）、以人为轴和手脑并用的学习方法、数学思维的训练方法。包含主动学习 vs 被动学习理论、数学符号系统、桶排序/栈/优先级队列等算法示例。
