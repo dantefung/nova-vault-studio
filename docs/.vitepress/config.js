@@ -7,7 +7,7 @@ import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateS
 
 const SEARCH_RENDER_SIZE_LIMIT = 200_000
 const isLowMemoryBuild = process.env.VERCEL === '1' || process.env.VITEPRESS_LOW_MEMORY_BUILD === '1'
-const enableLocalSearch = process.env.VITEPRESS_DISABLE_LOCAL_SEARCH !== '1'
+const enableLocalSearch = process.env.VITEPRESS_DISABLE_LOCAL_SEARCH !== '1' && !isLowMemoryBuild
 
 function escapeHtml(value) {
   return value
@@ -22,6 +22,7 @@ function escapeHtml(value) {
 export default defineConfig({
   ignoreDeadLinks: true,
   buildConcurrency: isLowMemoryBuild ? 4 : 16,
+  metaChunk: true,
   title: 'System Vault',
   description: '系统知识库 - 凡是过往，皆为序章',
   lastUpdated: true,
@@ -66,6 +67,9 @@ export default defineConfig({
     }
   },
   vite: {
+    define: {
+      __LOCAL_SEARCH_ENABLED__: JSON.stringify(enableLocalSearch),
+    },
     plugins: [MermaidPlugin()],
     optimizeDeps: { include: ['mermaid', 'markmap-lib', 'markmap-view'] },
     ssr: { noExternal: ['mermaid'] },

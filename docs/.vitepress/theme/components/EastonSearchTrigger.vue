@@ -22,6 +22,7 @@ const props = defineProps({
 })
 
 const VPLocalSearchBox = defineAsyncComponent(() => import('vitepress/dist/client/theme-default/components/VPLocalSearchBox.vue'))
+const searchEnabled = __LOCAL_SEARCH_ENABLED__
 const showSearch = ref(false)
 
 function openSearch() {
@@ -31,6 +32,7 @@ function openSearch() {
 
 <template>
   <button
+    v-if="searchEnabled"
     type="button"
     class="easton-search"
     :class="`is-${props.variant}`"
@@ -53,7 +55,7 @@ function openSearch() {
     <span v-else-if="props.variant === 'nav'" class="easton-search-nav-shortcut" aria-hidden="true">{{ props.shortcut }}</span>
   </button>
 
-  <VPLocalSearchBox v-if="showSearch" @close="showSearch = false" />
+  <VPLocalSearchBox v-if="searchEnabled && showSearch" @close="showSearch = false" />
 </template>
 
 <style scoped>
