@@ -1890,7 +1890,6 @@ source: "llm-wiki"
 - 归档《多 Agent 项目中，子 Agent 之间是如何通信的？》微信公众号至 sources/multi-agent-communication.md
 - 下载 7 张配图至 images/multi-agent-communication/
 - 内容摘要：主流多 Agent 编码工具（Claude Code / Codex / Anthropic Research）中子 Agent 基本不直接通信，采用"编排者—执行者"父子树拓扑；两条通道（任务下发+压缩摘要回传、产物直接写文件系统）；Claude Code 三档（Subagents / Agent Teams / CLI 管道）；多 Agent token 投入约单 Agent 15 倍，性能约高 90.2%
-
 ## [2026-08-12] ingest: Hermes Agent LLM Wiki Skill
 
 - 归档 Hermes Agent 官方文档《Karpathy's LLM Wiki》至 sources/hermes-llm-wiki-skill.md
@@ -1898,3 +1897,16 @@ source: "llm-wiki"
 - 新增 summaries/hermes-llm-wiki-skill.md，更新 concepts/llm-wiki.md 与 index.md
 - 内容摘要：Hermes v2.1.0 将 LLM Wiki 落实为可执行协议，覆盖会话定向、三层架构、来源 SHA-256 漂移检测、页面阈值、冲突与置信度标记，以及 Ingest/Query/13 步 Lint 三种核心操作
 - 交叉引用：[[concepts/llm-wiki]]、[[concepts/ai-rd-automation-wiki-skill]]、[[concepts/harness-engineering]]
+
+## [2026-08-12] ingest: Harness 工程理论溯源
+
+- 归档《【AI Harness 系列】追本溯源，从"科学管理"和"老三论"看 Harness 工程》微信公众号至 sources/harness-engineering-scientific-management.md
+- 下载 4 张配图至 images/harness-engineering-scientific-management/
+- 内容摘要：AI Harness 工程的理论溯源——泰勒科学管理（价值治理）、控制论（动态稳态）、系统论（全局架构）、信息论（数据底座），三层双向闭环运行体系
+>>>>>>> 4aac4d05 (prompt: 采集 Harness 工程理论溯源文章)
+
+## [2026-08-12] ingest: Coding Agent 项目记忆五步法
+
+- 归档 Phodal《别再反复教 Coding Agent：让项目记住自己如何工作的五个步骤》微信公众号至 sources/coding-agent-project-memory-five-steps.md
+- 下载 6 张配图至 images/coding-agent-project-memory-five-steps/（5 张压缩为 JPEG）
+- 内容摘要：Better Harness 框架下的 Agent Work Loop 五步法——AGENTS.md 项目地图、核心文档知识路由、Skill 提炼、CLI/MCP 工程接口、经验闭环沉淀
