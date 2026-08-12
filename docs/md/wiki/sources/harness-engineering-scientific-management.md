@@ -1,5 +1,5 @@
 ---
-title: "【AI Harness 系列】追本溯源，从"科学管理"和"老三论"看 Harness 工程"
+title: "【AI Harness 系列】追本溯源，从「科学管理」和「老三论」看 Harness 工程"
 date: "2026-08-12"
 source: "微信公众号"
 author: "Miaozhe"
