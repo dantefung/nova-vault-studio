@@ -87,10 +87,18 @@ def extract_image_refs(md_path):
 
     content = open(md_path, 'r', encoding='utf-8', errors='ignore').read()
 
-    # Match markdown image syntax: ![alt](path)
-    pattern = r'!\[.*?\]\(([^)]+)\)'
-    for match in re.finditer(pattern, content):
-        path = match.group(1)
+    # Match inline images and definitions used by reference-style images.
+    paths = [match.group(1) for match in re.finditer(r'!\[.*?\]\(([^)]+)\)', content)]
+    labels = {
+        (label or alt).casefold() for alt, label in re.findall(r'!\[([^\]]*)\]\[([^\]]*)\]', content)
+        if (label or alt)
+    }
+    paths.extend(
+        match.group(2) for match in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)(?:\s+["\'(].*)?$', content, re.MULTILINE)
+        if match.group(1).casefold() in labels
+    )
+
+    for path in paths:
         if path.startswith('http'):
             continue
         # Resolve relative to md file

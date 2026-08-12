@@ -60,6 +60,63 @@ build complete in 85.69s.
 
 退出码为 0。
 
+## 2026-08-12 再次优化
+
+随着页面数量增长到约 2449 页，Vercel 构建再次超过 45 分钟。本地基线构建耗时约 191 秒，峰值内存约 6.07 GiB，文件系统写出约 6.7 GiB。
+
+本轮确认了四个叠加因素：
+
+- 本地全文搜索会再次渲染页面并生成全站索引。
+- 每个页面重复内联站点 metadata，放大 HTML 产物。
+- `vercel.json` 每次构建前删除缓存，阻止 VitePress 复用有效缓存。
+- 43 篇 Markdown 中仍有 463 张 Base64 图片，编码文本约 71.9 MB。
+
+完成以下调整：
+
+- Vercel 和低内存构建关闭本地搜索，本地开发继续保留搜索。
+- 搜索关闭时同步隐藏自定义搜索入口，避免出现空搜索框。
+- 启用 VitePress `metaChunk`，把重复 metadata 提取为共享 chunk。
+- Vercel 构建不再强制删除 `docs/.vitepress/cache`。
+- 保留 `lastUpdated`，避免更新时间功能回归。
+- 修复《冒号课堂》PDF 文件名不匹配导致的重复预览页。
+
+本地模拟 Vercel 环境执行：
+
+```bash
+VERCEL=1 /usr/bin/time -v npm run build
+```
+
+结果：
+
+```txt
+build complete in 115.30s.
+Elapsed: 1:57.08
+Maximum resident set size: 6239728 kB
+File system outputs: 3480400
+```
+
+相较 191 秒基线，构建时间缩短约 39%，文件系统写出约减半。峰值内存仍接近 6 GiB，说明 Base64 图片仍是下一阶段主要瓶颈。
+
+随后将 43 篇 Markdown 中的 463 个 Base64 图片引用全部迁移为文章同级独立图片文件：
+
+- 每篇文章使用独立的 `images/{文章名}/` 目录。
+- PNG、JPEG、WebP 保持原格式；11 张 GIF 经明确确认后作为例外保留动画，没有按默认归档规范转为静态 PNG。
+- 同一文章内按图片内容去重，共落盘 454 张图片。
+- 超过 500 KB 的图片压缩到仓库限制以内。
+- 图片检查 hook 增加引用式 Markdown 支持，避免路径或大小检查漏报。
+- 新增 `scripts/extract-base64-images.mjs`，再次执行时不产生改动。
+
+迁移后再次执行 Vercel 模式构建：
+
+```txt
+build complete in 99.09s.
+Elapsed: 1:40.63
+Maximum resident set size: 4921564 kB
+File system outputs: 2914528
+```
+
+相较最初基线，构建时间缩短约 47%，峰值内存下降约 23%，文件系统写出下降约 57%。
+
 ## 后续约束
 
 - 不要把大图以内联 base64 形式放进 Markdown。

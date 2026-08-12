@@ -20,17 +20,25 @@ def check_image_references(md_file: str) -> bool:
     content = md_path.read_text(encoding='utf-8')
     md_dir = md_path.parent
 
-    # Pattern to match markdown image syntax: ![alt](path)
-    # and also raw URLs that look like image references
+    # Match inline images and reference-style image definitions.
     img_pattern = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
+    reference_labels = {
+        (label or alt).casefold() for alt, label in re.findall(r'!\[([^\]]*)\]\[([^\]]*)\]', content)
+        if (label or alt)
+    }
+    reference_pattern = re.compile(r'^\[([^\]]+)\]:\s*(\S+)(?:\s+["\'(].*)?$', re.MULTILINE)
+    matches = list(img_pattern.finditer(content))
+    matches.extend(
+        match for match in reference_pattern.finditer(content)
+        if match.group(1).casefold() in reference_labels
+    )
 
     errors = []
-    for match in img_pattern.finditer(content):
-        alt_text = match.group(1)
+    for match in matches:
         img_path = match.group(2).strip()
 
         # Skip external URLs (http, https)
-        if img_path.startswith('http://') or img_path.startswith('https://'):
+        if img_path.startswith(('http://', 'https://', 'data:')):
             continue
 
         # Skip empty paths
