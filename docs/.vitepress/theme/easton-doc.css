@@ -344,6 +344,10 @@ html[data-landing-theme="easton"] .easton-doc-shell .theme-dropdown {
     font-size: 16px;
   }
 
+  html[data-landing-theme="easton"] .easton-doc-shell .vp-doc div[class*='language-'] {
+    max-width: none;
+  }
+
   html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
     padding: 16px;
   }
