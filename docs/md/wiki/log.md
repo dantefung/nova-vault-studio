@@ -1910,3 +1910,9 @@ source: "llm-wiki"
 - 归档 Phodal《别再反复教 Coding Agent：让项目记住自己如何工作的五个步骤》微信公众号至 sources/coding-agent-project-memory-five-steps.md
 - 下载 6 张配图至 images/coding-agent-project-memory-five-steps/（5 张压缩为 JPEG）
 - 内容摘要：Better Harness 框架下的 Agent Work Loop 五步法——AGENTS.md 项目地图、核心文档知识路由、Skill 提炼、CLI/MCP 工程接口、经验闭环沉淀
+
+## [2026-08-12] ingest: 得物复合检索 Agent 系统设计
+
+- 归档 得物技术《知识问答：复合检索 Agent 的系统设计实践》微信公众号至 sources/dewu-knowledge-qa-composite-retrieval-agent.md
+- 下载 11 张配图至 images/dewu-knowledge-qa-composite-retrieval-agent/（1 张 GIF→PNG，1 张 PNG→JPEG 压缩）
+- 内容摘要：基于 AgentScope 2.0 HarnessAgent 架构的复合检索系统——四源融合检索（知识库+飞书文档/消息/妙记）、三阶段质量 Pipeline（FastPass→Reranker→LLM Grading）、Agent 自主决策+Middleware 兜底、多模态截图即提问、多实例 SSE 断点续传
