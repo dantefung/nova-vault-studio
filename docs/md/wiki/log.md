@@ -1885,3 +1885,9 @@ source: "llm-wiki"
 - 归档原创整理《关于代码编写习惯与设计思想》至 sources/coding-habits-and-design-thinking.md
 - 无配图
 - 内容摘要：讨论编码习惯 vs 规范、设计思想（解耦/抽象/封装）、初学者成长方式、学习 API 框架与理解实现原理的层次关系（使用→实现→设计思想），以及代码量越少越好、findbug 检查、性能与可读性的权衡等实践心得。
+## [2026-08-12] ingest: 多 Agent 子 Agent 通信
+
+- 归档《多 Agent 项目中，子 Agent 之间是如何通信的？》微信公众号至 sources/multi-agent-communication.md
+- 下载 7 张配图至 images/multi-agent-communication/
+- 内容摘要：主流多 Agent 编码工具（Claude Code / Codex / Anthropic Research）中子 Agent 基本不直接通信，采用"编排者—执行者"父子树拓扑；两条通道（任务下发+压缩摘要回传、产物直接写文件系统）；Claude Code 三档（Subagents / Agent Teams / CLI 管道）；多 Agent token 投入约单 Agent 15 倍，性能约高 90.2%
+>>>>>>> 2434b127 (prompt: 采集多 Agent 子 Agent 通信文章)
