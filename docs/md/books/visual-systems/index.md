@@ -1,15 +1,12 @@
 ---
-title: visual systems
+title: "Visual Systems"
+date: "2026-08-12"
+source: "Nova Vault Studio"
+url: ""
 ---
 
-# visual systems
+# Visual Systems
 
-> 📖 在此处写一些本书的简介（例如用途、章节概览、阅读建议等）。
->
-> 你也可以添加封面图，例如：
->
-> ```md
-> ![封面](./cover.png)
-> ```
->
+视觉思考、信息可视化、系统图解与创造力训练相关书籍和交互资料。
+
 <PdfList dir="visual-systems" />
