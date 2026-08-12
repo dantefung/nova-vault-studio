@@ -2,6 +2,7 @@
 title: "LLM Wiki"
 date: "2026-05-29"
 source: "llm-wiki"
+updated: "2026-08-12"
 ---
 
 # LLM Wiki
@@ -48,6 +49,26 @@ wiki/
 
 维护成本接近零——LLM 一次 ingest 可同时更新 10-15 个相关页面。
 
+## 可执行治理规则
+
+Hermes Agent 的 v2.1.0 实现补全了从理念到长期运行所需的约束：
+
+- **先定向再操作**：每次会话先读 Schema、索引和最近日志；大型 Wiki 还要先全文搜索。
+- **原文漂移检测**：来源正文保存 SHA-256，再次 ingest 时跳过未变化内容并标记变化。
+- **页面创建阈值**：中心主题或两个以上来源共同出现才建页，路过式提及不建页。
+- **显式处理不确定性**：用 `confidence`、`contested` 和 `contradictions` 记录证据强弱与冲突，不静默覆盖。
+- **知识库 lint**：检查孤立页、坏链接、漏索引、过时信息、矛盾、低置信度、来源漂移、超长页面、标签失控和日志轮转。
+
+这些规则解决的是知识库增长后的真实问题：没有准入阈值会产生重复页面，没有来源哈希无法发现原文变化，没有冲突标记会把不确定判断固化为事实。
+
+## 相关页面
+
+- [[concepts/ai-rd-automation-wiki-skill]] — LLM Wiki 在研发流程中的工程化应用
+- [[concepts/harness-engineering]] — 通过规则、门禁和反馈约束 Agent
+- [[sources/llm-wiki-product]] — LLM Wiki 的桌面产品化实现
+
 ## 来源
 
 - [llm-wiki SKILL.md](../../.claude/skills/llm-wiki/SKILL.md)
+- [Hermes Agent：Karpathy's LLM Wiki Skill](../sources/hermes-llm-wiki-skill.md)
+- [Hermes Agent LLM Wiki Skill 摘要](../summaries/hermes-llm-wiki-skill.md)

@@ -1890,4 +1890,11 @@ source: "llm-wiki"
 - 归档《多 Agent 项目中，子 Agent 之间是如何通信的？》微信公众号至 sources/multi-agent-communication.md
 - 下载 7 张配图至 images/multi-agent-communication/
 - 内容摘要：主流多 Agent 编码工具（Claude Code / Codex / Anthropic Research）中子 Agent 基本不直接通信，采用"编排者—执行者"父子树拓扑；两条通道（任务下发+压缩摘要回传、产物直接写文件系统）；Claude Code 三档（Subagents / Agent Teams / CLI 管道）；多 Agent token 投入约单 Agent 15 倍，性能约高 90.2%
->>>>>>> 2434b127 (prompt: 采集多 Agent 子 Agent 通信文章)
+
+## [2026-08-12] ingest: Hermes Agent LLM Wiki Skill
+
+- 归档 Hermes Agent 官方文档《Karpathy's LLM Wiki》至 sources/hermes-llm-wiki-skill.md
+- 无配图
+- 新增 summaries/hermes-llm-wiki-skill.md，更新 concepts/llm-wiki.md 与 index.md
+- 内容摘要：Hermes v2.1.0 将 LLM Wiki 落实为可执行协议，覆盖会话定向、三层架构、来源 SHA-256 漂移检测、页面阈值、冲突与置信度标记，以及 Ingest/Query/13 步 Lint 三种核心操作
+- 交叉引用：[[concepts/llm-wiki]]、[[concepts/ai-rd-automation-wiki-skill]]、[[concepts/harness-engineering]]

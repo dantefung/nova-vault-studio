@@ -39,7 +39,8 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [llm-wiki](/md/wiki/concepts/llm-wiki) | 持久化、复利的知识库模式 | skill |
+| [llm-wiki](/md/wiki/concepts/llm-wiki) | 持久化、复利的知识库模式：三层架构 + Ingest/Query/Lint + 哈希/阈值/冲突治理 | Skill / Hermes Agent |
+| [hermes-llm-wiki-skill](/md/wiki/summaries/hermes-llm-wiki-skill) | Hermes v2.1.0 将 Karpathy LLM Wiki 落实为可执行的建设、查询和 13 步 Lint 治理流程 | Hermes Agent 文档 |
 | [llm-cache-mechanism](/md/wiki/concepts/llm-cache-mechanism) | LLM 缓存三层机制：KV Cache → 显存优化 → 前缀缓存，以及 Claude Code/Codex 工程实践 | 公众号 |
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
 | [ai-coding-delivery](/md/wiki/concepts/ai-coding-delivery) | 复杂业务团队 AI 研发交付：分层知识库 + 文件化 RD 流程 + 前置质量门禁 | 公众号 |
