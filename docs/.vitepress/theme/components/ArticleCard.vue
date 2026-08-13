@@ -7,84 +7,134 @@ const props = defineProps({
   variant: { type: String, default: 'default' }, // default | compact | feature | row
 })
 
-const a = props.article
-const href = computed(() => a.path)
+const a = computed(() => props.article)
+const href = computed(() => a.value.path)
+const illustrationClass = computed(() => {
+  const key = String(a.value.id || a.value.path || a.value.title || '')
+  const value = Array.from(key).reduce((sum, char) => sum + char.codePointAt(0), 0)
+  return `illustration-${(value % 5) + 1}`
+})
 </script>
 
 <template>
-  <a class="article-card" :class="`is-${props.variant}`" :href="href">
-    <div v-if="props.variant === 'feature' || props.variant === 'default'" class="article-card-cover" aria-hidden="true">
-      <span class="article-card-cover-mark">{{ (a.categoryTitle || a.category || '文').slice(0, 1) }}</span>
+  <article class="article-card" :class="[`is-${props.variant}`, props.variant === 'feature' && illustrationClass]">
+    <div v-if="props.variant === 'feature'" class="article-card-illustration" aria-hidden="true">
+      <span></span>
     </div>
     <div class="article-card-body">
       <div class="article-card-meta">
-        <ArticleMeta :article="a" size="sm" />
+        <ArticleMeta :article="a" size="sm" :linked="false" />
       </div>
-      <h3 class="article-card-title">{{ a.title }}</h3>
+      <h3 class="article-card-title"><a :href="href">{{ a.title }}</a></h3>
       <p v-if="a.excerpt && props.variant !== 'compact' && props.variant !== 'row'" class="article-card-excerpt">{{ a.excerpt }}</p>
-      <div v-if="Array.isArray(a.tags) && a.tags.length && props.variant !== 'row'" class="article-card-tags">
-        <span v-for="t in a.tags.slice(0, 4)" :key="t" class="article-card-tag">#{{ t }}</span>
-      </div>
     </div>
     <span v-if="props.variant === 'row'" class="article-card-arrow" aria-hidden="true">→</span>
-  </a>
+  </article>
 </template>
 
 <style scoped>
 .article-card {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 16px;
-  padding: 22px;
-  border: 1px solid var(--easton-doc-rule);
-  border-radius: 22px;
-  background: color-mix(in srgb, var(--easton-doc-surface) 92%, transparent);
+  gap: 18px;
+  min-width: 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--easton-doc-rule);
   color: var(--easton-doc-ink);
-  text-decoration: none;
-  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
 }
 
-.article-card.is-default,
 .article-card.is-feature {
-  grid-template-columns: 100px 1fr;
-  gap: 20px;
-  align-items: start;
+  grid-template-rows: minmax(150px, 1fr) auto;
+  padding: 0;
+  border-top: 0;
 }
 
 .article-card.is-row {
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  padding: 18px 22px;
+  padding: 18px 0;
 }
 
 .article-card.is-compact {
-  padding: 18px;
+  padding: 16px 0;
 }
 
-.article-card:hover {
-  border-color: color-mix(in srgb, var(--easton-doc-accent) 60%, var(--easton-doc-rule));
-  box-shadow: var(--easton-doc-shadow);
-  transform: translateY(-2px);
+.article-card-illustration {
+  position: relative;
+  min-height: 150px;
+  overflow: hidden;
+  border: 1px solid var(--easton-doc-rule);
+  background: var(--easton-doc-soft);
 }
 
-.article-card-cover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-  border-radius: 18px;
-  background:
-    radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--easton-doc-accent) 28%, transparent), transparent 60%),
-    linear-gradient(140deg, color-mix(in srgb, var(--easton-doc-accent) 16%, var(--easton-doc-soft)), var(--easton-doc-soft));
-  color: var(--easton-doc-accent);
+.article-card-illustration::before,
+.article-card-illustration::after,
+.article-card-illustration span {
+  position: absolute;
+  display: block;
+  content: '';
 }
 
-.article-card-cover-mark {
-  font-family: 'LXGW WenKai', Georgia, serif;
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 1;
+.illustration-1 .article-card-illustration::before {
+  inset: 18% 12%;
+  border: 1px solid var(--easton-doc-accent);
+}
+.illustration-1 .article-card-illustration::after {
+  top: 0;
+  bottom: 0;
+  left: 38%;
+  border-left: 1px solid var(--easton-doc-rule);
+}
+.illustration-2 .article-card-illustration::before {
+  width: 42%;
+  height: 72%;
+  right: 10%;
+  bottom: 0;
+  border: 1px solid var(--easton-doc-accent);
+  background: var(--easton-doc-surface);
+}
+.illustration-2 .article-card-illustration::after {
+  width: 58%;
+  top: 32%;
+  left: 0;
+  border-top: 1px solid var(--easton-doc-ink);
+}
+.illustration-3 .article-card-illustration::before {
+  inset: 14%;
+  border-top: 1px solid var(--easton-doc-ink);
+  border-bottom: 1px solid var(--easton-doc-accent);
+}
+.illustration-3 .article-card-illustration::after {
+  width: 1px;
+  height: 100%;
+  left: 50%;
+  background: var(--easton-doc-rule);
+}
+.illustration-4 .article-card-illustration::before {
+  width: 54%;
+  height: 54%;
+  top: 12%;
+  left: 10%;
+  border: 1px solid var(--easton-doc-ink);
+}
+.illustration-4 .article-card-illustration::after {
+  width: 54%;
+  height: 54%;
+  right: 10%;
+  bottom: 12%;
+  border: 1px solid var(--easton-doc-accent);
+}
+.illustration-5 .article-card-illustration::before {
+  inset: 0 30%;
+  border-right: 1px solid var(--easton-doc-rule);
+  border-left: 1px solid var(--easton-doc-rule);
+  background: var(--easton-doc-surface);
+}
+.illustration-5 .article-card-illustration::after {
+  right: 0;
+  bottom: 28%;
+  left: 0;
+  border-top: 1px solid var(--easton-doc-accent);
 }
 
 .article-card-body {
@@ -102,6 +152,18 @@ const href = computed(() => a.path)
   line-height: 1.35;
 }
 
+.article-card-title a {
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 0.18em;
+}
+
+.article-card-title a:hover,
+.article-card-title a:focus-visible {
+  color: var(--easton-doc-accent);
+  text-decoration: underline;
+}
+
 .article-card.is-feature .article-card-title {
   font-size: 22px;
 }
@@ -117,25 +179,10 @@ const href = computed(() => a.path)
   overflow: hidden;
 }
 
-.article-card-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.article-card-tag {
-  padding: 2px 8px;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--easton-doc-soft) 70%, transparent);
-  color: var(--easton-doc-body);
-  font-size: 11.5px;
-}
-
 .article-card.is-row .article-card-body {
-  grid-template-columns: 110px 1fr;
+  grid-template-columns: minmax(120px, auto) minmax(0, 1fr);
   grid-template-areas:
-    'meta title'
-    '. meta';
+    'meta title';
   align-items: center;
   gap: 4px 14px;
 }
@@ -152,23 +199,14 @@ const href = computed(() => a.path)
 .article-card-arrow {
   color: var(--easton-doc-muted);
   font-size: 18px;
-  transition: color 180ms ease, transform 180ms ease;
 }
 
+.article-card:focus-within .article-card-arrow,
 .article-card:hover .article-card-arrow {
   color: var(--easton-doc-accent);
-  transform: translateX(2px);
 }
 
 @media (max-width: 640px) {
-  .article-card.is-default,
-  .article-card.is-feature {
-    grid-template-columns: 1fr;
-  }
-  .article-card-cover {
-    width: 100%;
-    height: 80px;
-  }
   .article-card.is-row {
     grid-template-columns: 1fr auto;
   }

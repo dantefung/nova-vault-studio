@@ -16,11 +16,14 @@ const articles = computed(() => articlesBySeries(slug.value))
   <section class="easton-clone-section blog-series">
     <div class="easton-clone-section-head">
       <span>SERIES</span>
-      <strong>{{ info?.title || slug }}</strong>
-      <span>{{ articles.length }} 篇</span>
+      <div class="blog-archive-heading">
+        <h1>{{ info?.title || slug }}</h1>
+        <p>按系列连续阅读，共 {{ articles.length }} 篇。</p>
+      </div>
     </div>
-    <div class="blog-grid">
-      <ArticleCard v-for="a in articles" :key="a.path" :article="a" />
+    <div v-if="articles.length" class="blog-row-list">
+      <ArticleCard v-for="a in articles" :key="a.path" :article="a" variant="row" />
     </div>
+    <p v-else class="blog-empty">这个系列暂时没有文章。</p>
   </section>
 </template>

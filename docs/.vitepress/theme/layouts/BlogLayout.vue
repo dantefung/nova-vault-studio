@@ -6,7 +6,6 @@ import LandingThemeSwitcher from '../components/LandingThemeSwitcher.vue'
 import MobileNavSheet from '../components/MobileNavSheet.vue'
 import EastonSearchTrigger from '../components/EastonSearchTrigger.vue'
 import BlogIndexLayout from './BlogIndexLayout.vue'
-import BlogArticleLayout from './BlogArticleLayout.vue'
 import SeriesLayout from './SeriesLayout.vue'
 import CategoryArchiveLayout from './CategoryArchiveLayout.vue'
 import ArchiveLayout from './ArchiveLayout.vue'
@@ -15,7 +14,6 @@ import { useTheme } from '../composables/useTheme.js'
 const route = useRoute()
 const { currentTheme, currentLandingTheme } = useTheme()
 
-// 路由分发
 const view = computed(() => {
   const p = route.path
   if (p.startsWith('/md/blog/series/')) return 'series'
@@ -30,7 +28,7 @@ const view = computed(() => {
   <div class="easton-clone-page blog-page" :class="[`theme-${currentTheme}`, `landing-theme-${currentLandingTheme}`]">
     <header class="easton-clone-header">
       <a href="/" class="easton-clone-brand">
-        <span>System Vault</span>
+        <span>花叔的系统笔记</span>
       </a>
       <nav aria-label="博客导航" class="easton-clone-nav">
         <a href="/">首页</a>
@@ -49,51 +47,24 @@ const view = computed(() => {
       <SeriesLayout v-else-if="view === 'series'" />
       <CategoryArchiveLayout v-else-if="view === 'category'" />
       <ArchiveLayout v-else-if="view === 'archive'" />
-      <BlogArticleLayout v-else />
     </main>
 
     <footer class="easton-clone-footer">
       <div>
         <a href="/" class="easton-clone-brand">
-          <span>System Vault</span>
+          <span>花叔的系统笔记</span>
         </a>
-        <p>AI、开发、自动化与独立产品构建笔记。</p>
+        <p>一个作者关于 AI、软件与独立创作的长期笔记。</p>
       </div>
       <div>
-        <b>导航</b>
         <a href="/">首页</a>
-        <a href="/md/blog/">列表</a>
+        <a href="/md/blog/">文章</a>
         <a href="/md/blog/archive/">归档</a>
-      </div>
-      <div>
-        <b>资源</b>
         <a href="/md/guide/">指南</a>
         <a href="/md/agi/">AGI</a>
         <a href="/md/business/">商业</a>
-      </div>
-      <div>
-        <b>许可</b>
-        <span>MIT License</span>
         <span>© 2024-present</span>
       </div>
     </footer>
   </div>
 </template>
-
-<style scoped>
-.blog-fallback {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 28px;
-  border-radius: 22px;
-  background: color-mix(in srgb, var(--easton-doc-soft) 50%, transparent);
-  color: var(--easton-doc-body);
-  font-size: 14.5px;
-}
-.blog-fallback code {
-  padding: 1px 6px;
-  border-radius: 6px;
-  background: color-mix(in srgb, var(--easton-doc-soft) 80%, transparent);
-  color: var(--easton-doc-ink);
-}
-</style>
