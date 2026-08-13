@@ -1940,3 +1940,9 @@ source: "llm-wiki"
 - 归档 摸鱼界AI上分手册《把文档变成课堂》微信公众号至 sources/codex-openknowledge-teach-pipeline.md
 - 下载 1 张配图至 images/codex-openknowledge-teach-pipeline/
 - 内容摘要：用 Codex（运行层）+ OpenKnowledge CRDT 知识库（存储层）+ teach 技能（教学法层）搭互动教学链路——五环：Codex 配置、OK MCP 集成、URL 抓取、三层知识库门控、teach 合意困难教学，合并享反馈回路自更新
+
+## [2026-08-13] ingest: AI 编码会话边界决策树
+
+- 归档 术哥《AI 编码会话的 5 次边界抉择：为什么 /compact 垫底》微信公众号至 sources/ai-coding-phase-boundaries.md
+- 下载 5 张配图至 images/ai-coding-phase-boundaries/（全部压缩为 JPEG，未用 005 已删除）
+- 内容摘要：解构 Matt Pocock PHASE-BOUNDARIES.md 五问决策树——6 处 phase boundary 走查、五选项成立条件、一手 vs 二手损耗交换模型、Context Rot 退化来自长度、顺序即逻辑、四个选错反例。核心：能继续就继续，/clear 上下文无关，/handoff 有东西旅行，subagent 能 AFK，/compact 兜底垫底
