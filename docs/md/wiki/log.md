@@ -1928,3 +1928,9 @@ source: "llm-wiki"
 - 归档 小康《虚拟内存是如何一步步被发明出来的？》微信公众号至 sources/virtual-memory-step-by-step.md
 - 移动 5 张内容配图至 images/virtual-memory-step-by-step/（001 压缩为 JPEG；保留课程广告相关 2 张不归档）
 - 内容摘要：分九步推演虚拟内存的诞生——物理内存直操 → 多程序冲突 → 地址重定位 → 覆盖技术 → 虚拟地址假象（MMU）→ 分页页表 → 缺页中断 → TLB 加速 → 隔离/大空间/碎片化三大好处
+
+## [2026-08-13] ingest: Multica 深读
+
+- 归档 朱小厮《Multica 深读：把编码 Agent 变成真正的队友》微信公众号至 sources/multica-deep-dive.md
+- 下载 5 张配图至 images/multica-deep-dive/
+- 内容摘要：开源 Managed Agents 平台 Multica 架构深读——不造循环只做控制面、三段式架构（前端+Go 后端+本机 Daemon）、一个 Backend 接口封装现成 CLI、一次性流式 vs 持续 stdio 会话、ResumeSessionID 跨 run 恢复、技能/Squads/Autopilot
