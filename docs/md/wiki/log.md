@@ -1916,3 +1916,9 @@ source: "llm-wiki"
 - 归档 得物技术《知识问答：复合检索 Agent 的系统设计实践》微信公众号至 sources/dewu-knowledge-qa-composite-retrieval-agent.md
 - 下载 11 张配图至 images/dewu-knowledge-qa-composite-retrieval-agent/（1 张 GIF→PNG，1 张 PNG→JPEG 压缩）
 - 内容摘要：基于 AgentScope 2.0 HarnessAgent 架构的复合检索系统——四源融合检索（知识库+飞书文档/消息/妙记）、三阶段质量 Pipeline（FastPass→Reranker→LLM Grading）、Agent 自主决策+Middleware 兜底、多模态截图即提问、多实例 SSE 断点续传
+
+## [2026-08-12] ingest: 设备树本质解读
+
+- 归档《扒一扒设备树的外皮，看看它本质上是在做什么？》微信公众号至 sources/device-tree-essentials.md
+- 下载 2 张配图至 images/device-tree-essentials/（001 压缩为 JPEG）
+- 内容摘要：设备树原理入门——硬件描述与驱动逻辑分离、compatible 匹配机制、reg/interrupts/status 字段、.dtsi 与 .dts 分层
