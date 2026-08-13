@@ -1946,3 +1946,9 @@ source: "llm-wiki"
 - 归档 术哥《AI 编码会话的 5 次边界抉择：为什么 /compact 垫底》微信公众号至 sources/ai-coding-phase-boundaries.md
 - 下载 5 张配图至 images/ai-coding-phase-boundaries/（全部压缩为 JPEG，未用 005 已删除）
 - 内容摘要：解构 Matt Pocock PHASE-BOUNDARIES.md 五问决策树——6 处 phase boundary 走查、五选项成立条件、一手 vs 二手损耗交换模型、Context Rot 退化来自长度、顺序即逻辑、四个选错反例。核心：能继续就继续，/clear 上下文无关，/handoff 有东西旅行，subagent 能 AFK，/compact 兜底垫底
+
+## [2026-08-13] ingest: ForceInjection Skill 项目周报
+
+- 归档 GrissomFI《AI 原力注入 Skill 项目一周更新综述》微信公众号至 sources/forceinjection-skills-weekly-update.md
+- 无配图
+- 内容摘要：ForceInjection 四个仓库周更新——awesome-skills 中英双语化+质量治理流程化、DDD 技能验证覆盖补全+子模块→文本引用、OpenSpec-practise 升级 v1.7.0+版本锁定、ai-native-devops 范式综合+案例沉淀
