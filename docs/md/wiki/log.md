@@ -1934,3 +1934,9 @@ source: "llm-wiki"
 - 归档 朱小厮《Multica 深读：把编码 Agent 变成真正的队友》微信公众号至 sources/multica-deep-dive.md
 - 下载 5 张配图至 images/multica-deep-dive/
 - 内容摘要：开源 Managed Agents 平台 Multica 架构深读——不造循环只做控制面、三段式架构（前端+Go 后端+本机 Daemon）、一个 Backend 接口封装现成 CLI、一次性流式 vs 持续 stdio 会话、ResumeSessionID 跨 run 恢复、技能/Squads/Autopilot
+
+## [2026-08-13] ingest: Codex + OpenKnowledge + Teach 教学链路
+
+- 归档 摸鱼界AI上分手册《把文档变成课堂》微信公众号至 sources/codex-openknowledge-teach-pipeline.md
+- 下载 1 张配图至 images/codex-openknowledge-teach-pipeline/
+- 内容摘要：用 Codex（运行层）+ OpenKnowledge CRDT 知识库（存储层）+ teach 技能（教学法层）搭互动教学链路——五环：Codex 配置、OK MCP 集成、URL 抓取、三层知识库门控、teach 合意困难教学，合并享反馈回路自更新
