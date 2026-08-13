@@ -28,7 +28,7 @@ const view = computed(() => {
   <div class="easton-clone-page blog-page" :class="[`theme-${currentTheme}`, `landing-theme-${currentLandingTheme}`]">
     <header class="easton-clone-header">
       <a href="/" class="easton-clone-brand">
-        <span>花叔的系统笔记</span>
+        <span>System Vault</span>
       </a>
       <nav aria-label="博客导航" class="easton-clone-nav">
         <a href="/">首页</a>
@@ -52,7 +52,7 @@ const view = computed(() => {
     <footer class="easton-clone-footer">
       <div>
         <a href="/" class="easton-clone-brand">
-          <span>花叔的系统笔记</span>
+          <span>System Vault</span>
         </a>
         <p>一个作者关于 AI、软件与独立创作的长期笔记。</p>
       </div>

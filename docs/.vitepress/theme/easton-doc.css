@@ -295,6 +295,68 @@ html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
   box-shadow: none;
 }
 
+html[data-landing-theme="easton"] .easton-article-shell .VPDocFooter .prev-next {
+  display: none;
+}
+
+html[data-landing-theme="quiet"] .easton-article-shell .article-hero,
+html[data-landing-theme="quiet"] .easton-article-shell .blog-article-shell {
+  display: none;
+}
+
+.easton-sidebar-toggle {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  html[data-landing-theme="easton"] .easton-article-shell .easton-sidebar-toggle {
+    position: fixed;
+    z-index: 25;
+    top: 80px;
+    right: 20px;
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid var(--easton-doc-rule);
+    border-radius: 2px;
+    background: transparent;
+    color: var(--easton-doc-body);
+    font: inherit;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  html[data-landing-theme="easton"] .easton-article-shell .easton-sidebar-toggle:hover {
+    color: var(--easton-doc-accent);
+  }
+
+  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPSidebar {
+    display: none;
+  }
+
+  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPContent.has-sidebar {
+    padding-left: 0;
+  }
+
+  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPNavBar.has-sidebar .title {
+    position: relative;
+    width: auto;
+  }
+
+  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPNavBar.has-sidebar .content,
+  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPNavBar.has-sidebar .divider,
+  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPLocalNav.has-sidebar {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPContent.has-sidebar {
+    padding-left: calc((100vw - var(--vp-layout-max-width)) / 2);
+  }
+}
+
 html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
   padding: 24px;
 }
@@ -313,7 +375,18 @@ html[data-landing-theme="easton"] .easton-doc-shell .theme-dropdown {
   box-shadow: var(--easton-doc-shadow);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 959.98px) {
+  html[data-landing-theme="easton"] .easton-article-shell .landing-theme-switcher,
+  html[data-landing-theme="easton"] .easton-article-shell .theme-switcher,
+  html[data-landing-theme="easton"] .easton-article-shell .VPNavBarMenu,
+  html[data-landing-theme="easton"] .easton-article-shell .VPNavBarExtra {
+    display: none;
+  }
+
+  html[data-landing-theme="easton"] .easton-article-shell .mobile-nav-sheet-trigger {
+    display: inline-flex;
+  }
+
   html[data-landing-theme="easton"] .easton-doc-shell .VPDoc {
     padding-top: 28px;
   }

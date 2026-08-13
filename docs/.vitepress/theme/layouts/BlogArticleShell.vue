@@ -61,7 +61,7 @@ const article = computed(() => articleByPath(route.path))
 
 .blog-article-shell-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr);
   gap: 28px;
   align-items: start;
 }
@@ -72,9 +72,4 @@ const article = computed(() => articleByPath(route.path))
   min-width: 0;
 }
 
-@media (max-width: 960px) {
-  .blog-article-shell-grid {
-    grid-template-columns: 1fr;
-  }
-}
 </style>

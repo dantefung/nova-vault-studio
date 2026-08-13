@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Giscus from '@giscus/vue'
@@ -13,12 +13,31 @@ import BlogLayout from './layouts/BlogLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
 import { useTheme } from './composables/useTheme.js'
 import { useBlogIndex } from './composables/useBlogIndex.js'
-import { ref, watch } from 'vue'
 
 const route = useRoute()
 const { Layout: DefaultLayout } = DefaultTheme
 const { currentTheme, currentLandingTheme, getGiscusTheme } = useTheme()
 const { articleByPath } = useBlogIndex()
+const SIDEBAR_STORAGE_KEY = 'easton-article-sidebar-collapsed'
+const isArticleSidebarCollapsed = ref(true)
+
+onMounted(() => {
+  try {
+    const saved = localStorage.getItem(SIDEBAR_STORAGE_KEY)
+    isArticleSidebarCollapsed.value = saved === 'false' ? false : true
+  } catch {
+    isArticleSidebarCollapsed.value = true
+  }
+})
+
+function toggleArticleSidebar() {
+  isArticleSidebarCollapsed.value = !isArticleSidebarCollapsed.value
+  try {
+    localStorage.setItem(SIDEBAR_STORAGE_KEY, String(isArticleSidebarCollapsed.value))
+  } catch {
+    // Current-session state remains usable when storage is unavailable.
+  }
+}
 
 // 判断是否为落地页路由
 const isLanding = computed(() => {
@@ -28,9 +47,8 @@ const isLanding = computed(() => {
 // 博客路由（/md/blog/）
 const isBlog = computed(() => route.path.startsWith('/md/blog/'))
 
-// 保留现有文章目录行为，并让博客索引中的其它内容目录使用文章布局。
-const isArticle = computed(() => {
-  if (currentLandingTheme.value !== 'easton') return false
+// 路由决定稳定 DOM，landing theme 只切换文章增强视觉，避免 hydration 分支不一致。
+const isArticlePath = computed(() => {
   if (isBlog.value || isLanding.value) return false
   return (
     route.path.startsWith('/md/wiki/') ||
@@ -41,11 +59,7 @@ const isArticle = computed(() => {
 })
 
 // 普通文档页（非博客、非落地页、非文章）
-const isDocPage = computed(() => !isLanding.value && !isBlog.value && !isArticle.value && route.path.startsWith('/md/'))
-
-const docLayoutClasses = computed(() => ({
-  'easton-doc-shell': currentLandingTheme.value === 'easton',
-}))
+const isDocPage = computed(() => !isLanding.value && !isBlog.value && !isArticlePath.value && route.path.startsWith('/md/'))
 
 // Giscus 状态
 const giscusKey = ref(1)
@@ -65,9 +79,22 @@ watch(currentTheme, (theme) => {
   <BlogLayout v-else-if="isBlog" />
 
   <!-- 文章页（easton 风格）：在 VitePress 默认 layout 外面套 Easton 文章壳（Easton 编辑感内页） -->
-  <div v-else-if="isArticle" class="doc-layout-shell" :class="docLayoutClasses">
+  <div
+    v-else-if="isArticlePath"
+    class="doc-layout-shell easton-doc-shell easton-article-shell"
+    :class="{ 'is-sidebar-collapsed': isArticleSidebarCollapsed }"
+  >
     <DefaultLayout>
       <template #nav-bar-content-after>
+        <button
+          type="button"
+          class="easton-sidebar-toggle"
+          :aria-expanded="String(!isArticleSidebarCollapsed)"
+          aria-controls="VPSidebarNav"
+          @click="toggleArticleSidebar"
+        >
+          {{ isArticleSidebarCollapsed ? '显示目录' : '隐藏目录' }}
+        </button>
         <LandingThemeSwitcher />
         <ThemeSwitcher />
         <MobileNavSheet />

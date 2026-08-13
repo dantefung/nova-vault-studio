@@ -146,7 +146,7 @@ const illustrationClass = computed(() => {
 .article-card-title {
   margin: 0;
   color: var(--easton-doc-ink);
-  font-family: 'LXGW WenKai', Georgia, serif;
+  font-family: var(--blog-heading-font, 'LXGW WenKai', Georgia, serif);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.35;
