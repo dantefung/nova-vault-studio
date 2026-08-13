@@ -9,6 +9,14 @@ url: ""
 > 用于记录待爬取的公众号内容链接，与「稍后读」同级。采集完成后标记为 done。
 > 来源文章：[《出海一周年稳定万刀：12 模块方法论地图》](/md/wiki/sources/hezhiyan7-outsea-oneyear-10000usd)（droidHZ @hezhiyan7）
 
+## 工程优化
+
+| 日期 | 链接 | 描述 | 状态 |
+|------|------|------|------|
+| 2026-08-12 | `docs/md/agi/Anthropic-Academy/anthropic-courses-complete-cn.md` | 按课程章节拆分超长 Markdown，降低约 1.71 MiB 的路由级 JS chunk；保留总目录入口 | pending |
+| 2026-08-12 | `docs/md/books/software-engineering/Software Architect’s Handbook.md` | 按书籍章节拆分超长 Markdown，降低约 1.12 MiB 的路由级 JS chunk；保留总目录入口 | pending |
+| 2026-08-12 | `docs/md/books/software-engineering/enterprise_application_architecture_patterns.md` | 按书籍章节拆分超长 Markdown，降低约 748 KiB 的路由级 JS chunk；保留总目录入口 | pending |
+
 ## 待爬取
 
 ### 复盘总结（20 篇 · 心态 + ROI 最高）

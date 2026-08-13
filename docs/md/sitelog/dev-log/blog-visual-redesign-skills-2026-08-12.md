@@ -54,4 +54,12 @@ url: ""
 - DOM 中嵌套链接数量为 0，三种索引按钮都暴露正确的 `aria-pressed` 状态。
 - `npm run build`、`git diff --check` 和两个独立审查均通过。
 
-构建仍报告仓库既有的 `useTheme.js` 动静态混合导入和大 chunk 警告，本次没有扩大这些问题。
+## 构建警告处置
+
+- `useTheme.js` 原本同时被布局组件静态导入、被主题入口动态导入。动态导入无法形成独立 chunk，只会产生 Vite 警告，现已统一为静态导入并直接调用 `setupTheme()`。
+- 构建剩余的大 chunk 来自三篇超长 Markdown 的路由级页面包，不是所有页面共享的公共 JavaScript：
+  - `anthropic-courses-complete-cn.md`：约 1.71 MiB。
+  - `Software Architect’s Handbook.md`：约 1.12 MiB。
+  - `enterprise_application_architecture_patterns.md`：约 748 KiB。
+- 本次不提高 `chunkSizeWarningLimit`，也不配置 `manualChunks`。这两种做法只会隐藏警告或增加错误拆包风险，不能减少超长正文的下载体积。
+- 后续单独按章节拆分三篇超长文档，并保持旧入口可导航到新的章节目录。

@@ -10,6 +10,7 @@ import ArchiveLayout from './layouts/ArchiveLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
 import { createMermaidRenderer } from 'vitepress-mermaid-renderer'
 import { h, nextTick } from 'vue'
+import { setupTheme } from './composables/useTheme.js'
 import './markmap.css'
 import './fonts.css'
 import './themes.css'
@@ -59,7 +60,7 @@ export default {
       })
     }
 
-    import('./composables/useTheme.js').then(m => m.setupTheme?.()).catch(() => {})
+    setupTheme()
     const source = import.meta.env.VITE_FONT_SOURCE || 'local'
     if (source === 'local') {
       import('./fonts-local.js').then(m => m.setupLocalFonts?.()).catch(() => {})
