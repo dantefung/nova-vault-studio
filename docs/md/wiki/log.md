@@ -1952,3 +1952,9 @@ source: "llm-wiki"
 - 归档 GrissomFI《AI 原力注入 Skill 项目一周更新综述》微信公众号至 sources/forceinjection-skills-weekly-update.md
 - 无配图
 - 内容摘要：ForceInjection 四个仓库周更新——awesome-skills 中英双语化+质量治理流程化、DDD 技能验证覆盖补全+子模块→文本引用、OpenSpec-practise 升级 v1.7.0+版本锁定、ai-native-devops 范式综合+案例沉淀
+
+## [2026-08-13] ingest: Pi Agent 接入 DeepSeek-V4-Pro 到 Codex
+
+- 归档 空格丶《用 Pi Agent 把 DeepSeek-V4-Pro 接入 Codex》微信公众号至 sources/pi-agent-deepseek-v4-pro-codex.md
+- 下载 15 张配图至 images/pi-agent-deepseek-v4-pro-codex/（011 压缩为 JPEG）
+- 内容摘要：Pi Agent（做减法 Harness，千 token 级提示词）+ codex-host 项目嫁接 Codex GUI 与 DeepSeek-V4-Pro，实测前端与 Qwen3.8 相当，工具调用好，性价比极高（1.3 千万 tokens 两块多）
