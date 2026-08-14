@@ -2036,3 +2036,9 @@ source: "llm-wiki"
 - 归档 易焘《出海游戏网站，比你想象的要简单得多》至 sources/overseas-game-website-simple-guide.md
 - 1 张配图至 images/overseas-game-website-simple-guide/
 - 内容摘要：开发游戏站≠开发游戏，通过 iframe 嵌入 HTML5 游戏，三种实现方式（纯静态/NextJS/WordPress）
+
+## [2026-08-14] ingest: Pi AI 编程 Agent 解析
+
+- 归档 苏三《为什么越来越多人用 Pi？》至 sources/pi-ai-coding-agent-popularity.md
+- 2 张配图至 images/pi-ai-coding-agent-popularity/（webp 误标→重命名为 jpg）
+- 内容摘要：Pi 由 libGDX 创始人 Mario Zechner 开源，200 Token 系统提示词+4 原语工具，99.93% 缓存命中率，不锁模型支持 15+ 供应商，兼容 Claude Code Skill/AGENTS.md，MIT 开源
