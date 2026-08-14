@@ -2030,3 +2030,9 @@ source: "llm-wiki"
 - 归档 易焘《学会这样部署出海游戏站，每年帮你省下几千上万》至 sources/cloudflare-deploy-game-website.md
 - 无配图（35 张均为 Cloudflare UI 操作截图，已清理）
 - 内容摘要：CF 添加域名→切换 Nameserver→GitHub 提交代码→CF Pages 部署→绑定自定义域名，全程免费
+
+## [2026-08-14] ingest: 出海游戏站简单指南
+
+- 归档 易焘《出海游戏网站，比你想象的要简单得多》至 sources/overseas-game-website-simple-guide.md
+- 1 张配图至 images/overseas-game-website-simple-guide/
+- 内容摘要：开发游戏站≠开发游戏，通过 iframe 嵌入 HTML5 游戏，三种实现方式（纯静态/NextJS/WordPress）
