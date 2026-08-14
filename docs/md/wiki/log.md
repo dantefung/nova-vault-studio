@@ -2000,3 +2000,9 @@ source: "llm-wiki"
 - 归档 唐成《技术方案总挨批？五步法拆透企业Agent平台》至 sources/technical-proposal-five-step-method.md
 - 1 张配图至 images/technical-proposal-five-step-method/
 - 内容摘要：五步法（需求介绍→需求分析→复杂度分析→备选方案→360度环评），以企业 Agent 管理平台为贯穿案例，强调数据推导替代拍脑袋
+
+## [2026-08-14] ingest: DSH 插件运行机制深度解析
+
+- 归档 何明璐《深入解析DeepSeek Harness插件运行机制和当前的Harness技术工程能力》至 sources/deepseek-harness-plugin-architecture-deep-dive.md
+- 4 张配图至 images/deepseek-harness-plugin-architecture-deep-dive/
+- 内容摘要：DSH 四层架构（装配层→Cordis运行时→Agent控制层→能力生态层），Cordis 插件机制（Context/Service/Event/Effect），Agent Loop Turn/Step 生命周期，8 大核心能力插件化实现
