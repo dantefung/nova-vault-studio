@@ -1958,3 +1958,9 @@ source: "llm-wiki"
 - 归档 空格丶《用 Pi Agent 把 DeepSeek-V4-Pro 接入 Codex》微信公众号至 sources/pi-agent-deepseek-v4-pro-codex.md
 - 下载 15 张配图至 images/pi-agent-deepseek-v4-pro-codex/（011 压缩为 JPEG）
 - 内容摘要：Pi Agent（做减法 Harness，千 token 级提示词）+ codex-host 项目嫁接 Codex GUI 与 DeepSeek-V4-Pro，实测前端与 Qwen3.8 相当，工具调用好，性价比极高（1.3 千万 tokens 两块多）
+
+## [2026-08-13] ingest: DSH DeepSeek Harness 与 V4 Pro
+
+- 归档 若飞《DSH 来了：从 DeepSeek V4 Pro 看 Agent 的模型、协议与运行时》微信公众号至 sources/dsh-deepseek-harness-v4-pro.md
+- 下载 4 张配图至 images/dsh-deepseek-harness-v4-pro/（QR 码未归档）
+- 内容摘要：DeepSeek 三层架构——V4 Pro 模型层（Terminal Bench 87.9/DeepSWE 62.7）、Responses API 协议层（无状态、接入 Codex）、DSH 运行时层（插件式 Cordis 架构、4 种模式、会话事件日志、seam 接缝）、价格切换高峰/非高峰
