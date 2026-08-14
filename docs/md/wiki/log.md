@@ -2012,3 +2012,9 @@ source: "llm-wiki"
 - 归档 面汤放盐-uzong《BFF 架构实践指南》至 sources/bff-architecture-practice-guide.md
 - 无配图（19 张均为重复的装饰性节分割图，已清理）
 - 内容摘要：BFF vs API 网关区别、数据聚合（CompletableFuture/Reactor）两种方式、避坑指南、落地约束、拆分方案、Trade-off 讨论
+
+## [2026-08-14] ingest: AI Native 团队协同重构
+
+- 归档 天猫技术团队《重构协同：关于AI Native团队的思考》至 sources/ai-native-team-collaboration-rethink.md
+- 2 张配图至 images/ai-native-team-collaboration-rethink/（006.jpg 压缩 596KB→112KB，010.png 127KB）
+- 内容摘要：消费侧 vs 生产侧分析，串联者从人→Agent，AI Native 三层形态（知识底座+Agent+人），软件是被固化的知识，存量业务知识底座三道坎
