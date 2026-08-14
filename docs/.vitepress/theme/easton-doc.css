@@ -8,6 +8,7 @@ html[data-landing-theme="easton"] {
   --easton-doc-accent: #e7683d;
   --easton-doc-rule: #d7cec2;
   --easton-doc-shadow: 0 24px 70px rgb(36 33 30 / 0.08);
+  --easton-reading-width: 820px;
 }
 
 html[data-landing-theme="easton"][data-theme="dark"] {
@@ -77,6 +78,12 @@ html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar {
   backdrop-filter: blur(18px);
 }
 
+html[data-landing-theme="easton"] .easton-doc-shell .VPNav,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar .container,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar .content {
+  background: transparent;
+}
+
 html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarTitle .title,
 html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink,
 html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button {
@@ -95,6 +102,26 @@ html[data-landing-theme="easton"] .easton-doc-shell .local-search-button {
   border-color: var(--easton-doc-rule);
   background: color-mix(in srgb, var(--easton-doc-surface) 78%, transparent);
   color: var(--easton-doc-body);
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar .divider {
+  background-color: var(--easton-doc-rule);
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarTitle,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenu,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarExtra {
+  background-color: transparent;
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink {
+  color: var(--easton-doc-ink);
+}
+
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button:hover,
+html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink:hover {
+  color: var(--easton-doc-accent);
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell .VPSidebar {
@@ -121,7 +148,8 @@ html[data-landing-theme="easton"] .easton-doc-shell .VPDoc {
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell .VPDoc .content-container {
-  max-width: 820px;
+  max-width: var(--easton-reading-width);
+  margin-inline: auto;
   padding: 42px;
   border: 0;
   border-radius: 0;
@@ -339,6 +367,10 @@ html[data-landing-theme="quiet"] .easton-article-shell .blog-article-shell {
     padding-left: 0;
   }
 
+  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPDoc.has-aside .aside {
+    display: none;
+  }
+
   html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPNavBar.has-sidebar .title {
     position: relative;
     width: auto;
@@ -351,14 +383,15 @@ html[data-landing-theme="quiet"] .easton-article-shell .blog-article-shell {
   }
 }
 
-@media (min-width: 1440px) {
-  html[data-landing-theme="easton"] .easton-article-shell.is-sidebar-collapsed .VPContent.has-sidebar {
-    padding-left: calc((100vw - var(--vp-layout-max-width)) / 2);
-  }
-}
-
 html[data-landing-theme="easton"] .easton-doc-shell div.giscus {
   padding: 24px;
+}
+
+html[data-landing-theme="easton"] .easton-article-shell .blog-article-shell,
+html[data-landing-theme="easton"] .easton-article-shell div.giscus {
+  width: 100%;
+  max-width: var(--easton-reading-width);
+  margin-inline: auto;
 }
 
 html[data-landing-theme="easton"] .easton-doc-shell .landing-theme-switcher-button,

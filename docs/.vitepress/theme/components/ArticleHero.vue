@@ -85,9 +85,9 @@ const tagList = computed(() => {
 <style scoped>
 .article-hero {
   box-sizing: border-box;
-  width: calc(100% - 32px);
-  max-width: 820px;
-  margin: 0 0 32px 32px;
+  width: auto;
+  max-width: var(--easton-reading-width, 820px);
+  margin: 0 auto 32px;
   padding: 12px 42px 28px;
   border-bottom: 1px solid var(--easton-doc-rule, #d7cec2);
 }
@@ -159,12 +159,6 @@ const tagList = computed(() => {
   padding: 0;
   color: var(--easton-doc-body, #6e655c);
   font-size: 12px;
-}
-
-@media (min-width: 1280px) {
-  .article-hero {
-    width: calc(100% - 256px);
-  }
 }
 
 @media (max-width: 960px) {
