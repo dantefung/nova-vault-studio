@@ -248,6 +248,7 @@ wiki/
 | [milvus-3.0](/md/wiki/concepts/milvus-3.0) | Milvus 3.0 GA 深度解读：lake-native 架构、Storage V3 / Loon、4 个改变工作流的能力、3 个落地门槛 | 公众号 |
 | [lake-native-architecture](/md/wiki/concepts/lake-native-architecture) | 湖原生架构：将数据库存储底座直接构建在数据湖之上，manifest 列存格式按需精准取列 | 公众号 |
 | [medical-kg-qa](/md/wiki/concepts/medical-kg-qa) | 基于 Neo4j 的医疗知识图谱问答系统，4.4 万实体、30 万关系、18 类问答意图 | GitHub |
+| [data-governance-five-concepts](/md/wiki/concepts/data-governance-five-concepts) | 数据治理五大概念辨析：元数据、数据元、元模型、数据字典、数据模型的定义与联动 | 公众号 |
 
 ---
 

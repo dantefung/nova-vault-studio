@@ -2042,3 +2042,9 @@ source: "llm-wiki"
 - 归档 苏三《为什么越来越多人用 Pi？》至 sources/pi-ai-coding-agent-popularity.md
 - 2 张配图至 images/pi-ai-coding-agent-popularity/（webp 误标→重命名为 jpg）
 - 内容摘要：Pi 由 libGDX 创始人 Mario Zechner 开源，200 Token 系统提示词+4 原语工具，99.93% 缓存命中率，不锁模型支持 15+ 供应商，兼容 Claude Code Skill/AGENTS.md，MIT 开源
+
+## [2026-08-14] ingest: 数据治理五大概念辨析
+
+- 归档 商业智能研究《数据治理最容易混淆的5个概念》至 sources/data-governance-concepts.md
+- 15 张配图至 images/data-governance-concepts/
+- 内容摘要：系统辨析元数据、数据元、元模型、数据字典、数据模型五个概念的定义、区别和实际治理中的联动关系
