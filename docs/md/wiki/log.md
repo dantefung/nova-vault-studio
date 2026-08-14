@@ -2078,3 +2078,10 @@ source: "llm-wiki"
 - 归档 王杨《下载站又出8000！一定要掌握小站模式规律！》至 sources/small-station-model.md
 - 1 张配图至 images/small-station-model/
 - 内容摘要：分享小站模式五大要点——只选下载行业、COM 域名优先、首页收录是前提、外链接要多、注重出站历史价值
+
+## [2026-08-14] ingest: DeepSeek Harness 开源解析
+
+- 归档 林大友《Agent = Model + Harness：DeepSeek 把模型的「壳」开源了》至 sources/deepseek-harness.md
+- 提炼概念页至 concepts/deepseek-harness-agent-formula.md
+- 6 张配图至 images/deepseek-harness/（压缩后）
+- 内容摘要：DeepSeek 开源 DeepSeek Harness（dsh），提出 Agent = Model + Harness 公式，一切皆插件架构、极简模式、可追溯会话日志、开源定地基圈生态
