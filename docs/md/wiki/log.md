@@ -2006,3 +2006,9 @@ source: "llm-wiki"
 - 归档 何明璐《深入解析DeepSeek Harness插件运行机制和当前的Harness技术工程能力》至 sources/deepseek-harness-plugin-architecture-deep-dive.md
 - 4 张配图至 images/deepseek-harness-plugin-architecture-deep-dive/
 - 内容摘要：DSH 四层架构（装配层→Cordis运行时→Agent控制层→能力生态层），Cordis 插件机制（Context/Service/Event/Effect），Agent Loop Turn/Step 生命周期，8 大核心能力插件化实现
+
+## [2026-08-14] ingest: BFF 架构实践指南
+
+- 归档 面汤放盐-uzong《BFF 架构实践指南》至 sources/bff-architecture-practice-guide.md
+- 无配图（19 张均为重复的装饰性节分割图，已清理）
+- 内容摘要：BFF vs API 网关区别、数据聚合（CompletableFuture/Reactor）两种方式、避坑指南、落地约束、拆分方案、Trade-off 讨论
