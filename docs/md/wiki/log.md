@@ -2024,3 +2024,9 @@ source: "llm-wiki"
 - 归档 易焘《看完圈友自动化上站赚3700刀，我也冲了：30个站，只赚了30美金》至 sources/bulk-website-building-30-sites-30-dollars.md
 - 6 张配图至 images/bulk-website-building-30-sites-30-dollars/（流量和收入截图）
 - 内容摘要：用 AI Skills 批量上站 30 个出海游戏网站，有流量但收入仅 30 美金，反思自动化是放大器而非印钞机，先跑通 0~1 更重要
+
+## [2026-08-14] ingest: Cloudflare 部署游戏站指南
+
+- 归档 易焘《学会这样部署出海游戏站，每年帮你省下几千上万》至 sources/cloudflare-deploy-game-website.md
+- 无配图（35 张均为 Cloudflare UI 操作截图，已清理）
+- 内容摘要：CF 添加域名→切换 Nameserver→GitHub 提交代码→CF Pages 部署→绑定自定义域名，全程免费
