@@ -171,6 +171,9 @@ wiki/
 |------|--------|------|
 | [ai-agent-team-9-stages](/md/wiki/sources/ai-agent-team-9-stages) | Anthropic 9阶段搭建Agent团队：从单个Agent到生产级协作，三层架构 | 公众号 |
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
+| [deepseek-harness](/md/wiki/products/deepseek-harness) | DeepSeek 开源的可组装 Agent 底盘：模型、工具、Skill、沙箱、控制流与 UI 一切皆插件 | 用户原创 |
+| [deepseek-harness-summary](/md/wiki/summaries/deepseek-harness-plugin-first-agent-runtime) | DeepSeek Harness 原创材料精读：五个关键洞察、长期资产判断及插件系统待验证边界 | Wiki 摘要 |
+| [plugin-first-agent-runtime](/md/wiki/patterns/plugin-first-agent-runtime) | 插件优先 Agent Runtime：极简稳定内核 + 标准化可替换组件，像 Agent 世界的 foobar2000 | 用户原创 |
 | [mission-driver](/md/wiki/concepts/mission-driver) | Mission Driver 声明式任务驱动引擎，Loop Engineering 参考实现，多层嵌套局部容错 | 公众号 |
 | [dao-fa-shu-qi](/md/wiki/concepts/dao-fa-shu-qi) | 道法术器：中国传统文化中解决问题的四层框架（思路→流程→执行→工具） | 原创/概念整理 |
 | [ai-asset-map](/md/wiki/concepts/ai-asset-map) | AI 资产地图：从 Agent 花名册走向可管理的数字资产关系图，治理 100+ Agent 的五类盲区 | 公众号 |

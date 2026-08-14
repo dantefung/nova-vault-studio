@@ -14,6 +14,7 @@ date: "2026-06-11"
 - 核心洞察：Agent 的可靠性瓶颈不是模型，是环境——同模型不同驭化，性能差异可达 36 个百分点
 - 工程师角色转变：从亲手写代码到设计让 Agent 能写好代码的环境
 - **核心转变**：从「用更多的字约束 AI」，到「用更好的结构约束 AI」
+- **另一条架构轴**：Harness 不只提供纪律，也可以提供插件化底盘，将模型、工具、Skill、状态、沙箱、控制流和 UI 变成可替换组件
 
 ## Details
 
@@ -90,6 +91,8 @@ date: "2026-06-11"
 - [concepts/agentscope-governance](concepts/agentscope-governance) — 治理子系统：权限六步管线、优雅停机、统一事件流（AgentScope Java 2.0）
 - [concepts/agentscope-multi-agent](concepts/agentscope-multi-agent) — 多 Agent 编排：spawn/send、超时晋升、跨副本路由（AgentScope Java 2.0）
 - [concepts/agentscope-finale](concepts/agentscope-finale) — 收尾：扩展生态、清债方案、上生产决策地图（AgentScope Java 2.0）
+- [[products/deepseek-harness]] — 以「一切皆插件」为核心的可组装 Agent 底盘
+- [[patterns/plugin-first-agent-runtime]] — 极简内核 + 能力外置的 Agent Runtime 模式
 
 ## Sources
 
@@ -99,3 +102,4 @@ date: "2026-06-11"
 - 微信公众号《AgentScope Java 2.0 源码拆解：分层的艺术》(2026-07-30)
 - 微信公众号《搭一个企业级 Agent 平台（四）：治理——权限、停机、事件流》(2026-08-02)
 - 微信公众号《搭一个企业级 Agent 平台（五）：多 Agent 编排——spawn、超时晋升、跨副本路由》(2026-08-03)
+- [[sources/deepseek-harness-plugin-first-agent-runtime]]：DeepSeek Harness 的插件化哲学与 foobar2000 类比

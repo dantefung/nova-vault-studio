@@ -11,6 +11,16 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-14] ingest: DeepSeek Harness 插件化 Agent 底盘
+
+- 归档用户原创《DeepSeek Harness，Agent 自己「组装」》至 sources/deepseek-harness-plugin-first-agent-runtime.md
+- 新增 summaries/deepseek-harness-plugin-first-agent-runtime.md
+- 新增 products/deepseek-harness.md
+- 新增 patterns/plugin-first-agent-runtime.md
+- 更新 concepts/harness-engineering.md，补充 Harness 的插件化底盘架构轴
+- 更新 wiki/index.md，新增 DeepSeek Harness 与插件优先 Agent Runtime 索引
+- 内容摘要：DeepSeek Harness v0.1 以「一切皆插件」为核心，把模型、工具、Skill、会话、沙箱、文件系统、循环、编排和 UI 设计为可替换组件；其定位不是超级 Agent，而是类似 foobar2000 的极简可扩展底盘。长期资产从单一 Agent 产品转向插件、Skills、Workflow、数据和业务逻辑组成的组件库
+
 ## [2026-08-11] ingest: 做事的原则与决策基础
 
 - 归档原创整理《做事的原则与决策基础》至 sources/decision-principles.md
