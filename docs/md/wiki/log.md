@@ -1994,3 +1994,9 @@ source: "llm-wiki"
 - 归档 唐成《写架构文档，四段式骨架扛住八成评审追问》至 sources/architecture-document-four-section-framework.md
 - 1 张配图至 images/architecture-document-four-section-framework/
 - 内容摘要：四段式架构文档（总体方案/详细设计/部署方案/演进规划），每段写法和 Agent 平台案例，强调"决策密度"和"不选什么"
+
+## [2026-08-14] ingest: 技术方案五步法
+
+- 归档 唐成《技术方案总挨批？五步法拆透企业Agent平台》至 sources/technical-proposal-five-step-method.md
+- 1 张配图至 images/technical-proposal-five-step-method/
+- 内容摘要：五步法（需求介绍→需求分析→复杂度分析→备选方案→360度环评），以企业 Agent 管理平台为贯穿案例，强调数据推导替代拍脑袋
