@@ -1988,3 +1988,9 @@ source: "llm-wiki"
 - 归档 唐成《DeepSeek Harness做Agent蒸馏——天然蒸馏数据工厂》至 sources/deepseek-harness-agent-distillation.md
 - 1 张配图至 images/deepseek-harness-agent-distillation/
 - 内容摘要：DSH append-only 事件流天然产出完整 ReAct 轨迹，headless 批量跑任务→JSONL 导出蒸馏数据，session fork 扩充样本多样性，pre-step 钩子过滤脏数据
+
+## [2026-08-14] ingest: 架构文档四段式写法
+
+- 归档 唐成《写架构文档，四段式骨架扛住八成评审追问》至 sources/architecture-document-four-section-framework.md
+- 1 张配图至 images/architecture-document-four-section-framework/
+- 内容摘要：四段式架构文档（总体方案/详细设计/部署方案/演进规划），每段写法和 Agent 平台案例，强调"决策密度"和"不选什么"
