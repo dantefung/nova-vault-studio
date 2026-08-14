@@ -1982,3 +1982,9 @@ source: "llm-wiki"
 - 归档 唐成《从DeepSeek Harness的架构，看Agent Runtime该怎么设计》至 sources/deepseek-harness-agent-runtime-architecture.md
 - 下载 2 张配图至 images/deepseek-harness-agent-runtime-architecture/
 - 内容摘要：DSH 无特权核心架构、append-only session log 事件流、Seam 三角色设计、Profile+Bundle+Patch 三层组合、turn/step 两级生命周期
+
+## [2026-08-14] ingest: DSH Agent 蒸馏
+
+- 归档 唐成《DeepSeek Harness做Agent蒸馏——天然蒸馏数据工厂》至 sources/deepseek-harness-agent-distillation.md
+- 1 张配图至 images/deepseek-harness-agent-distillation/
+- 内容摘要：DSH append-only 事件流天然产出完整 ReAct 轨迹，headless 批量跑任务→JSONL 导出蒸馏数据，session fork 扩充样本多样性，pre-step 钩子过滤脏数据
