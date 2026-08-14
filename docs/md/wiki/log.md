@@ -1976,3 +1976,9 @@ source: "llm-wiki"
 - 归档 朱小厮《/goal 是怎么实现的：让智能体自己判断「干完了没有」》微信公众号至 sources/goal-command-completion-judgment.md
 - 下载 4 张配图至 images/goal-command-completion-judgment/（QR 码未归档）
 - 内容摘要：/goal 核心原理——在 Stop 事件上插入完成判定，Haiku 小模型读会话记录判断（证据而非感觉），Codex 版（线程内状态+预算+状态机）vs Claude Code 版（Stop 钩子封装），好目标四要素（终态/验证面/约束/受阻兜底）
+
+## [2026-08-14] ingest: DeepSeek Harness 架构分析
+
+- 归档 唐成《从DeepSeek Harness的架构，看Agent Runtime该怎么设计》至 sources/deepseek-harness-agent-runtime-architecture.md
+- 下载 2 张配图至 images/deepseek-harness-agent-runtime-architecture/
+- 内容摘要：DSH 无特权核心架构、append-only session log 事件流、Seam 三角色设计、Profile+Bundle+Patch 三层组合、turn/step 两级生命周期
