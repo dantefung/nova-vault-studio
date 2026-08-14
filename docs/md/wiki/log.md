@@ -2048,3 +2048,33 @@ source: "llm-wiki"
 - 归档 商业智能研究《数据治理最容易混淆的5个概念》至 sources/data-governance-concepts.md
 - 15 张配图至 images/data-governance-concepts/
 - 内容摘要：系统辨析元数据、数据元、元模型、数据字典、数据模型五个概念的定义、区别和实际治理中的联动关系
+
+## [2026-08-14] ingest: 闲置域名做游戏站
+
+- 归档 王杨《别把闲置域名当摆设！手搓几个游戏站试一下！》至 sources/idle-domain-game-site.md
+- 1 张配图至 images/idle-domain-game-site/
+- 内容摘要：利用闲置域名通过九游 CPS 搭建游戏站，手动搬运游戏和资讯内容实现域名价值变现
+
+## [2026-08-14] ingest: 游戏养站系统工具
+
+- 归档 王杨《40块1个站点游戏下载站模板+海量游戏数据的SEO功能游戏养站系统》至 sources/game-seo-system.md
+- 24 张功能截图至 images/game-seo-system/
+- 内容摘要：一套面向入门 SEO 站长的游戏养站系统，集成 400 套模板、CPS 接口、自动文章更新、蜘蛛池、友链部署等功能
+
+## [2026-08-14] ingest: 游戏下载站成本核算
+
+- 归档 王杨《游戏下载站养站30个网站成本核算明细分享》至 sources/game-station-cost-breakdown.md
+- 无配图（纯文字成本计算）
+- 内容摘要：30 个游戏下载站年成本约 6090 元（域名 1590 + 服务器 2500 + 技术支持 2000），回收单个小站约 5000-8000 元
+
+## [2026-08-14] ingest: 游戏下载行业入门指南
+
+- 归档 王杨《1篇文章带你入门游戏下载行业！学会不用求人！》至 sources/game-download-industry-entry.md
+- 3 张配图至 images/game-download-industry-entry/
+- 内容摘要：三步入门游戏下载行业——找高权重站参考内容、接入游戏 CPS 后台、保持日常更新
+
+## [2026-08-14] ingest: 下载站小站模式
+
+- 归档 王杨《下载站又出8000！一定要掌握小站模式规律！》至 sources/small-station-model.md
+- 1 张配图至 images/small-station-model/
+- 内容摘要：分享小站模式五大要点——只选下载行业、COM 域名优先、首页收录是前提、外链接要多、注重出站历史价值
