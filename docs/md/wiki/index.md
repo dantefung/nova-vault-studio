@@ -151,6 +151,7 @@ wiki/
 | [indie-site-builder-skill-stack](/md/wiki/concepts/indie-site-builder-skill-stack) | 独立网站出海创业 12 大能力栈：需求/SEO/支付/流量 等实战密度地图 | 概念 |
 | [half-hour-game-site](/md/wiki/sources/half-hour-game-site) | 半小时上线小游戏站：域名注册→Cloudflare DNS→GitHub→Claude 生成代码→Vercel 部署→自定义域名+SSL，1 小时含写文章 | 公众号 |
 | [bolt-new-5min-site](/md/wiki/sources/bolt-new-5min-site) | 刘小排：5 分钟做个网站：Bolt.new + Claude 一键生成运势网站，HTML+Tailwind 单文件，推荐付费测试产品方向 | 公众号 |
+| [day-90-checklist](/md/wiki/sources/day-90-checklist) | 袁锐钦 90 天 89 篇出海工具站收官：六阶段全路径清单（启动→流量→变现→规模化→进阶→搜索型出海）+ 三条教训（标题/新词/止损） | 公众号 |
 | [aichuhai-dev](/md/wiki/products/aichuhai-dev) | droidHZ 的 AI 出海导航站：12 模块分类 + 话题驱动 + 用户参与 | 产品 |
 | [moore-wechat-article-downloader](/md/wiki/products/moore-wechat-article-downloader) | 公众号内容情报库 Skill：4 大场景 + SQLite 状态 + 评论互动 | 产品 |
 | [first-time-dollar-oneyear](/md/wiki/sources/first-time-dollar-oneyear) | 第一次赚美元：新手到 5 站 + 1 千元/月，复盘 28 节付费课程 | 公众号 |
@@ -196,6 +197,7 @@ wiki/
 | [flow-friction](/md/wiki/concepts/flow-friction) | 流动摩擦：AI 让开发变成最快环节后，需求/设计/Review/测试之间的节奏不匹配才是真正的瓶颈 | 公众号 |
 | [age-mission-driver](/md/wiki/concepts/age-mission-driver) | AGE 吸引子引导工程：从 Loop Engineering 到方向外化的期望吸引子，Mission Driver 全文件化编排 Plan 生命周期 | 公众号 |
 | [harness-multiplier-effect](/md/wiki/concepts/harness-multiplier-effect) | Harness 乘数效应：Composio 测试同一模型 8 种 Harness，Pi Agent 66.7% 成功率 $0.028/任务，缓存命中率 99.93% | 公众号 |
+| [cordis-dsh-vs-pi](/md/wiki/sources/cordis-dsh-vs-pi) | Cordis 解决什么：DSH 用 Cordis 管理跨插件关系（Loader/Fiber/effect/Service/Context），Pi 把清理交给扩展作者。两条 Provider 变化路径 + 所有权规则 + 半途失败回收 | 公众号 |
 
 ### 商业模式 (Business Models)
 

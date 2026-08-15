@@ -2139,3 +2139,17 @@ source: "llm-wiki"
 - 归档刘小排《5 分钟做个网站，人人都能学会》至 sources/bolt-new-5min-site.md（哥飞转载）
 - 11 张配图（Bolt.new 生成界面、生成效果、代码结构、clicktest.me 案例、变现说明、部署截图等）
 - 内容摘要：用 Bolt.new + Claude 五步 Prompt 5 分钟生成运势网站。核心观点：语文功底 > 技术能力。推荐付费测试产品方向（MBTI、智商测试），变现三步走（流量→广告→付费），流量流派（SEO/投放/大V/自传播）
+
+
+## [2026-08-15] ingest: Cordis 到底解决了什么
+
+- 归档架构师（JiaGouX）《Cordis 到底解决了什么：DSH 与 Pi 的两种答案》至 sources/cordis-dsh-vs-pi.md
+- 4 张配图（对比图、两条变化路径、SessionStore 回收机制、签名图）
+- 内容摘要：Cordis（@deepseek-ai/cordis@4.0.1）是 DSH 的插件生命周期管理器。Pi 把清理交给扩展作者（session_shutdown/session_start），DSH 借 Cordis 把跨插件关系记进运行时。Cordis 回答三个问题：系统想让谁运行（Loader）、资源由谁撤销（Fiber+effect）、依赖失效影响谁（Service+inject）。DSH 有两条 Provider 变化路径：注册表路径（轻，调用时取当前）和 Service 拓扑路径（重，让旧 Consumer 退出）。所有权规则：谁通过 ctx.effect() 登记副作用，撤销责任就跟着谁。生成器 effect 支持半途失败回滚
+
+
+## [2026-08-15] ingest: Day 90 收官 出海工具站全路径清单
+
+- 归档袁锐钦《Day 90 收官：90 天 89 篇，出海工具站真正剩下的只有这一页清单》至 sources/day-90-checklist.md
+- 无配图
+- 内容摘要：90 天出海工具站系列收官，六阶段全路径清单（启动期 Day1-15→流量期 Day16-30→变现期 Day31-45→规模化期 Day46-60→进阶技术期 Day61-80→搜索型出海 Day81-90），三条贯穿教训（标题案例钩子/新词>热词/止损线），一页纸可贴显示器执行清单
