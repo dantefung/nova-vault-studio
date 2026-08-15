@@ -119,6 +119,7 @@ wiki/
 | [edu-skills-catalog](/md/wiki/sources/edu-skills-catalog) | 教育场景 100 个 AI Skills、11 大功能分类：课设、课件、批改、教研，含 Course-designer + Teachany 实战 | 公众号 |
 | [claude-teacher-skill](/md/wiki/sources/claude-teacher-skill) | Claude 官方 K-12 教师 Skill（k12-lesson-planning + k12-lesson-differentiation）实战，七份关联教学文件，三个教学判断 | 公众号 |
 | [matt-pocock-skills-use](/md/wiki/sources/matt-pocock-skills-use) | Matt Pocock Skills 全流程使用指南：setup/ask/grill/to-prd/to-issues/implement/handoff 八 Skill 演示 | 公众号 |
+| [design-skills-programmer](/md/wiki/sources/design-skills-programmer) | 程序员必备 Design Skills：四类能力（生成/规范/还原/系统化），五种角色组合建议，含 Taste Skill/UI UX Pro Max/UI Design Brain/Impeccable 等 | 公众号 |
 
 ### 学习路径 (Learning Paths)
 

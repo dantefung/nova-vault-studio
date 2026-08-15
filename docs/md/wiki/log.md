@@ -17,6 +17,12 @@ source: "llm-wiki"
 - 9 张配图（3 张压缩 JPEG，6 张 PNG）
 - 内容摘要：Skills = Agent 的动态能力，像手机 App + 标准化 SOP。作者通宵整理教育场景 100 个 Skills、11 大功能分类（备课与课程设计/课堂教学/记忆与学习科学/评估与批改/读写与学科技能/教研与论文/班级与学生身心/AI 素养/治理与决策/内容创作/学伴与通识）。实战案例：Course-designer 一句话生成 16 页数学教学设计 Word 文档，Teachany-interactive-courseware 生成生物光合作用互动网页课件
 
+## [2026-08-11] ingest: 程序员必备的 Design Skills，不要让 UI 成为产品短板
+
+- 归档《程序员必备的 Design Skills，不要让 UI 成为产品短板》至 sources/design-skills-programmer.md（数字边界 EdgeX，2026-03-17）
+- 9 张配图（全 PNG，无需压缩）
+- 内容摘要：程序员 UI 设计四大阶段对应 Skills：① 无设计图（Taste Skill + UI UX Pro Max）从 0 生成 ② 存量优化（UI Skills + UI Design Brain）统一规范 ③ 有设计图（Impeccable + Vercel Web Design Guidelines）提高还原度 ④ 自动化（Anthropic frontend-design + stitch-skills + Designer Skills Collection）规模化复用。按角色给出 Skill 组合建议：独立开发者/非前端工程师/初级前端/高级前端/技术负责人
+
 ## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
 
 - 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）
