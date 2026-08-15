@@ -123,6 +123,7 @@ wiki/
 | [design-skills-eight](/md/wiki/sources/design-skills-eight) | 8 个优质 Design Skills（创意方向/设计智能/质量合规/工程模式四类），含 Anthropic Frontend Design/Impeccable/Taste Skill/UI UX Pro Max 等 | 公众号 |
 | [baoyu-design-skill](/md/wiki/sources/baoyu-design-skill) | baoyu-design 技能包：Design Skill 导出 MP4 动画视频（逐帧拍照+ffmpeg），一句话生成技术解释视频，支持 Cursor/Claude Code/Codex | 公众号 |
 | [huashu-design-deep-dive](/md/wiki/sources/huashu-design-deep-dive) | huashu-design 逆向深度解析：品牌资产协议（5步硬流程）+ 20种设计哲学库 + Stage+Sprite 动画引擎 + render-video.js 视频管线 + 16条动画踩坑实录 | 公众号 |
+| [huashu-design-workflow](/md/wiki/sources/huashu-design-workflow) | huashu-design 交付型设计 skill 分析：HTML 作为中间层，解决格式/上下文/方向/责任 4 个结构性断裂 | 公众号 |
 
 ### 学习路径 (Learning Paths)
 

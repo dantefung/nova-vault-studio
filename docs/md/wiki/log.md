@@ -41,6 +41,12 @@ source: "llm-wiki"
 - 1 张配图（PNG）
 - 内容摘要：huashu-design（花叔 Design，Alchain）深度解析。四大核心机制：品牌资产协议（5 步硬流程，稳定性提升 5 倍）、设计方向顾问（5 流派×20 种设计哲学）、Junior Designer 工作流（4 轮迭代）、反 AI Slop 规则。源码分析：SKILL.md（56KB 规则引擎）、animations.jsx（Stage+Sprite 动画引擎）、deck_stage.js（1920×1080 Web Component）、render-video.js（Playwright 两阶段录制架构）。技术亮点：16 条动画踩坑实录、Tweaks 实时变体系统、5 维度专家评审、跨 Agent 兼容设计
 
+## [2026-08-11] ingest: 当 AI 出图引爆设计圈，huashu-design 直接掀翻了设计交付链
+
+- 归档《当 AI 出图引爆设计圈，huashu-design 直接掀翻了设计交付链》至 sources/huashu-design-workflow.md（有料黑科技，2026-04-22）
+- 8 张配图（1 PNG + 7 压缩 JPEG）
+- 内容摘要：huashu-design 定位为「交付型设计 skill」，HTML 作为中间层解决 4 个结构性断裂：格式断裂（直出 prototype/deck/PPTX/MP4/GIF/PDF）→ 上下文断裂（吃真实品牌资产）→ 方向断裂（先给 3 个方向再选路）→ 责任断裂（增强人的工作流而非伪装全自动）。与常见设计 AI 工具区别：结果终点从视觉结果变为工作流产物
+
 ## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
 
 - 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）
