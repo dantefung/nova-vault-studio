@@ -35,6 +35,12 @@ source: "llm-wiki"
 - 无配图
 - 内容摘要：baoyu-design 是 Agent Skill 而非网页工具，可生成 UI 设计稿/原型/线框图/落地页/Dashboard/移动 App/PPT/动画视频/自包含 HTML。核心产物是可编辑的本地文件。亮点：动画逐帧拍照导出 MP4（headless Chrome + ffmpeg），比录屏更稳定可复现。安装：npx skills add JimLiu/baoyu-design，支持指定 claude-code/cursor/codex Agent
 
+## [2026-08-11] ingest: 逆向 Claude Design：huashu-design 深度解析
+
+- 归档《逆向 Claude Design：huashu-design 深度解析》至 sources/huashu-design-deep-dive.md（Agent 工程化，2026-04-21）
+- 1 张配图（PNG）
+- 内容摘要：huashu-design（花叔 Design，Alchain）深度解析。四大核心机制：品牌资产协议（5 步硬流程，稳定性提升 5 倍）、设计方向顾问（5 流派×20 种设计哲学）、Junior Designer 工作流（4 轮迭代）、反 AI Slop 规则。源码分析：SKILL.md（56KB 规则引擎）、animations.jsx（Stage+Sprite 动画引擎）、deck_stage.js（1920×1080 Web Component）、render-video.js（Playwright 两阶段录制架构）。技术亮点：16 条动画踩坑实录、Tweaks 实时变体系统、5 维度专家评审、跨 Agent 兼容设计
+
 ## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
 
 - 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）
