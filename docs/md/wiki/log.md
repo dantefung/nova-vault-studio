@@ -29,6 +29,12 @@ source: "llm-wiki"
 - 8 张配图（6 JPEG + 1 PNG + 1 WebP）
 - 内容摘要：8 个 Design Skills 分四大类。创意方向：Anthropic Frontend Design（95k Stars，禁止 Inter/Roboto/紫白配色，四维度思考目的/基调/约束/差异化）、Impeccable（17 个设计命令 /polish/audit/distill/enhance/refine）、Taste Skill（4 子技能：taste/redesign/output/soft，让东西看起来昂贵）。设计智能：UI UX Pro Max（43K Stars，50+ UI 风格/97 调色板/57 字体搭配/99 UX 指南/25 图表类型，无障碍第一）、UI Design Brain（60+ 组件最佳实践库，5 种设计风格，反模式库）。质量合规：UI Skills（15 个专项 skills，fixing-accessibility/fixing-metadata/fixing-motion-performance/12-principles-of-animation）。工程模式：Designer Skills（63 skills/27 命令，8 大设计领域）、UX Researcher Designer（23K Stars，用户研究方法论/可用性测试/信息架构）
 
+## [2026-08-11] ingest: 发现一个好用的 AI 设计 Skill：baoyu-design
+
+- 归档《发现一个好用的 AI 设计 Skill：baoyu-design》至 sources/baoyu-design-skill.md（AI 探索，2026-06-17）
+- 无配图
+- 内容摘要：baoyu-design 是 Agent Skill 而非网页工具，可生成 UI 设计稿/原型/线框图/落地页/Dashboard/移动 App/PPT/动画视频/自包含 HTML。核心产物是可编辑的本地文件。亮点：动画逐帧拍照导出 MP4（headless Chrome + ffmpeg），比录屏更稳定可复现。安装：npx skills add JimLiu/baoyu-design，支持指定 claude-code/cursor/codex Agent
+
 ## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
 
 - 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）

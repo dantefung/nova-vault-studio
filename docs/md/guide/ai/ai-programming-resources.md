@@ -315,6 +315,7 @@ date: "2026-05-05"
 | [three-scope-map-skill](https://github.com/designskills) | 3D 可视化方向：地图/空间展示/数据场景/沉浸式视觉，大屏和科技感页面 |
 | [Web to Design md](https://github.com/designskills) | 网页内容转为结构化文档，竞品拆解/页面结构整理/设计逻辑提炼 |
 | [Shadcn/ui Skill](https://github.com/designskills) | 快速生成高质量 UI 组件和前端界面，原型/组件规范/产品 Demo/设计落地 |
+| [baoyu-design](https://github.com/jimliu/baoyu-design) | Design Skill，可生成 UI 设计稿/原型/PPT/动画视频，支持逐帧拍照导出 MP4（headless Chrome + ffmpeg），Agent 友好 |
 
 ### Academic（学术）
 
