@@ -2091,3 +2091,9 @@ source: "llm-wiki"
 - 归档 ginobefun《BestBlogs 早报 · 08-15》至 sources/bestblogs-2026-08-15.md
 - 7 张配图至 images/bestblogs-2026-08-15/（004 压缩）
 - 内容摘要：三篇精讲——GLM-5.3 编程/网络安全能力迁移（Terminal-Bench 4.6→28.3）、Addy Osmani 实用循环工程（goal vs loop + 执行验证分离）、大淘宝 AI Native 团队（编码≠交付，三层结构+知识底座）；速览含开放模型观察、DeepTutor 34K Star、dLLM、LTX-2.5 等
+
+## [2026-08-15] archive: OpenKnowledge
+
+- 归档 Inkeep《OpenKnowledge：AI 原生 Markdown IDE 与 LLM Wiki》至 sources/open-knowledge-inkeep.md
+- 无配图（GitHub 项目页）
+- 内容摘要：Inkeep 开源 AI 原生 Markdown IDE 和 LLM Wiki 工具，3458 Stars，GPL-3.0，关联 llm-wiki-karpathy、pkm、second-brain 等概念，与本站 LLM Wiki 实践方向一致
