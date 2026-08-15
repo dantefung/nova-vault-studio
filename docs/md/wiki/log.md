@@ -59,6 +59,12 @@ source: "llm-wiki"
 - 4 张配图（全 PNG，无需压缩）
 - 内容摘要：Ego Lite（citrolabs/ego-lite）免费 Agent 浏览器工作台。基于 Chromium，可导入 Chrome 设置/Cookie/扩展/历史记录，解决 Agent 登录态问题。核心功能 Space 将人和 Agent 工作区分隔，支持并行多任务。Semantic Snapshot 压缩页面 Token。Benchmark：抓取 X 账号近 7 天主帖 81.8s vs Agent Browser 282.9s（快 3.5 倍）。适合增长动作/后台巡检/上线前检查三类场景
 
+## [2026-08-11] ingest: 一个让独立产品更正规的免费小功能：Cloudflare 域名邮箱转发
+
+- 归档《一个让独立产品更正规的免费小功能：Cloudflare 域名邮箱转发》至 sources/cloudflare-email-routing.md（苏打 da 汽水，2026-06-28）
+- 2 张配图（全 PNG，无需压缩）
+- 内容摘要：Cloudflare Email Routing 免费域名邮箱转发服务。前提：有域名并在 Cloudflare 管理。Workers Free 计划免费使用。限制：每域名 200 条 routing rules、每账号 200 个 destination addresses、单封 25MiB。配置步骤：Onboard Domain → 添加 Destination Address → 验证 Gmail → 创建 routing rule → 测试。重要限制：只能收信转发，回复时发件人仍是 Gmail
+
 ## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
 
 - 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）
