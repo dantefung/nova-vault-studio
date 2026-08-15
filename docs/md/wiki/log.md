@@ -76,6 +76,14 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-15] ingest: teach skill（Matt Pocock）
+
+- 归档《Teach Skill——一个好用的教学 Skill》至 sources/teach-skill.md
+- 下载 1 张配图至 images/teach-skill/
+- 内容摘要：Matt Pocock 的 teach skill，将 AI 从「百科全书式应答器」转化为「有状态的学习教练」；持久化教学空间（MISSION.md/RESOURCES.md/learning-records/NOTES.md/lessons/reference）；前置动机澄清环节；递进式课时 + 可验证预测题；将动机理论/间隔重复/检索练习/支架式教学封装为可复用 Agent Skill
+
+---
+
 ## [2026-08-15] ingest: 认知债与意图债（聂晓龙）
 
 - 归档《当理解成为瓶颈：AI 编程时代的认知债与意图债》至 sources/cognitive-intent-debt.md

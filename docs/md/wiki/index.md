@@ -199,6 +199,7 @@ wiki/
 | [linux-task-struct-process](/md/wiki/sources/linux-task-struct-process) | 不懂 task_struct，别说你懂 Linux 进程管理：进程标识/状态/调度/内存/文件/亲缘关系六类字段，fork 创建与僵尸进程，CFS 调度器核心 | 公众号 |
 | [seo-index-gate-strategy](/md/wiki/sources/seo-index-gate-strategy) | AI 说「新词全铺完」，我把建议砍成索引闸门：AI 扩候选 + 人工四问闸门，五格判断表 | 公众号 |
 | [cognitive-intent-debt](/md/wiki/sources/cognitive-intent-debt) | AI 编程时代的认知债与意图债：三元债模型（技术债/认知债/意图债），理解的本质是为了参与，Vibe Coding 的自我修正，Agentic Engineering | 公众号 |
+| [teach-skill](/md/wiki/sources/teach-skill) | Matt Pocock teach skill：将 AI 从应答器转化为有状态的学习教练，持久化教学空间（MISSION/RESOURCES/learning-records），动机澄清前置，递进式课时 | 公众号 |
 | [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
 | [agentscope-skills](/md/wiki/concepts/agentscope-skills) | AgentScope Skills 技能系统：Agent 世界的动态链接器，四步加载（符号表→重定位→加载→卸载），SkillRepository 对标 LD_LIBRARY_PATH，确定性协处理器 | 公众号 |
 | [agentscope-managed-agents](/md/wiki/concepts/agentscope-managed-agents) | AgentScope 2.0 Managed Agents 运行时底座：Brain/Hands 分离、三种 Worker 模式（Local/Cloud Sandbox/Self-hosted）、控制面/数据面/Worker 三层职责 | 公众号 |
