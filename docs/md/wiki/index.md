@@ -116,6 +116,7 @@ wiki/
 | [serenity-stock-choke](/md/wiki/sources/serenity-stock-choke) | A 股卡脖子选股框架，六步推理链路，12 Stars | GitHub |
 | [ffmpeg-9-lei](/md/wiki/concepts/ffmpeg-9-lei) | FFmpeg 9.0 代号「Lei」纪念雷霄骅，新增 ONNX Runtime DNN 后端，AI 时代多媒体基础设施 | 公众号 |
 | [adsense-site-auditor](/md/wiki/patterns/adsense-site-auditor) | AdSense 审计 Skill：用 Codex/Claude 反复审核通过 Google AdSense 申请，五种审计场景 Prompt | web.cafe |
+| [edu-skills-catalog](/md/wiki/sources/edu-skills-catalog) | 教育场景 100 个 AI Skills、11 大功能分类：课设、课件、批改、教研，含 Course-designer + Teachany 实战 | 公众号 |
 
 ### 学习路径 (Learning Paths)
 

@@ -11,6 +11,12 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-11] ingest: 花 1 万积分、熬一个通宵，我整理了教育场景下所有 AI Skills
+
+- 归档《花 1 万积分、熬一个通宵，我整理了教育场景下所有 AI Skills》至 sources/edu-skills-catalog.md（希希说AI，2026-08-06）
+- 9 张配图（3 张压缩 JPEG，6 张 PNG）
+- 内容摘要：Skills = Agent 的动态能力，像手机 App + 标准化 SOP。作者通宵整理教育场景 100 个 Skills、11 大功能分类（备课与课程设计/课堂教学/记忆与学习科学/评估与批改/读写与学科技能/教研与论文/班级与学生身心/AI 素养/治理与决策/内容创作/学伴与通识）。实战案例：Course-designer 一句话生成 16 页数学教学设计 Word 文档，Teachany-interactive-courseware 生成生物光合作用互动网页课件
+
 ## [2026-08-11] ingest: 做事的原则与决策基础
 
 - 归档原创整理《做事的原则与决策基础》至 sources/decision-principles.md
