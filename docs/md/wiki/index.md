@@ -194,7 +194,10 @@ wiki/
 | [function-calling-mechanism](/md/wiki/sources/function-calling-mechanism) | 工具机制与 Function Calling：三步流程（判断/执行/回传），工具 Schema 定义（name/description/parameters），finish_reason 详解，多工具编排与多轮循环 | 公众号 |
 | [llm-chat-completion-api](/md/wiki/sources/llm-chat-completion-api) | LLM 与 Chat Completion API：LLM 生成文本本质（预测下一个 token），messages 角色体系（system/user/assistant/tool），Token 与上下文窗口，temperature/max_tokens 参数 | 公众号 |
 | [deepseek-api-call-multiturn](/md/wiki/sources/deepseek-api-call-multiturn) | 大模型 API 调用和多轮对话：环境准备、DeepSeek API 调用（兼容 OpenAI）、对话循环实现，最基础的「记忆」——把历史对话塞进每次请求 | 公众号 |
-| [llm-batch-invariance](/md/wiki/sources/llm-batch-invariance) | AI Infra 进阶：如何让大模型输出确定的结果；GEMM/RMSNorm/Attention/NCCL 的 Batch Invariance 实现，浮点加法不满足结合律的根因，vLLM 的确定性推理方案 | 公众号 |
+| [llm-batch-invariance](/md/wiki/sources/llm-batch-invariance) | AI Infra 进阶：如何让大模型输出确定的结果；GEMM/RMSNorm/Attention/NCCL 的 Batch Invariance 实现 | 公众号 |
+| [packet-network-flow](/md/wiki/sources/packet-network-flow) | 跟着一个数据包，看懂整个网络传输过程：分包、封装（Encapsulation）、TCP/IP 四层数据流、各层头部结构 | 公众号 |
+| [linux-task-struct-process](/md/wiki/sources/linux-task-struct-process) | 不懂 task_struct，别说你懂 Linux 进程管理：进程标识/状态/调度/内存/文件/亲缘关系六类字段，fork 创建与僵尸进程，CFS 调度器核心 | 公众号 |
+| [seo-index-gate-strategy](/md/wiki/sources/seo-index-gate-strategy) | AI 说「新词全铺完」，我把建议砍成索引闸门：AI 扩候选 + 人工四问闸门，五格判断表，版本词与近义词的铺页策略 | 公众号 |
 | [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
 | [agentscope-skills](/md/wiki/concepts/agentscope-skills) | AgentScope Skills 技能系统：Agent 世界的动态链接器，四步加载（符号表→重定位→加载→卸载），SkillRepository 对标 LD_LIBRARY_PATH，确定性协处理器 | 公众号 |
 | [agentscope-managed-agents](/md/wiki/concepts/agentscope-managed-agents) | AgentScope 2.0 Managed Agents 运行时底座：Brain/Hands 分离、三种 Worker 模式（Local/Cloud Sandbox/Self-hosted）、控制面/数据面/Worker 三层职责 | 公众号 |

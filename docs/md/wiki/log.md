@@ -76,6 +76,14 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-15] ingest: 批量采集 3 篇（网络/内核/SEO）
+
+- **网络数据包传输** → sources/packet-network-flow.md（xiaokang1998）：分包、封装（Encapsulation）、TCP/IP 四层数据流、各层头部结构（5 张配图）
+- **task_struct 进程管理** → sources/linux-task-struct-process.md（往事敬秋风）：进程标识/状态/调度/内存/文件/亲缘关系六类字段，fork 创建与僵尸进程，CFS 调度器核心，面试五问
+- **SEO 索引闸门策略** → sources/seo-index-gate-strategy.md（袁锐钦）：AI 扩候选 + 人工四问闸门，五格判断表，版本词与近义词铺页策略
+
+---
+
 ## [2026-08-15] ingest: AI Infra 进阶 大模型输出确定的结果
 
 - 归档腾讯程序员《AI Infra 进阶：如何让大模型输出确定的结果》至 sources/llm-batch-invariance.md
