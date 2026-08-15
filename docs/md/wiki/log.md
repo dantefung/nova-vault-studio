@@ -68,6 +68,14 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-15] ingest: Linux 中断管理概述
+
+- 归档《Linux 中断管理概述》微信公众号至 sources/linux-interrupt-overview.md
+- 下载 5 张配图至 images/linux-interrupt-overview/
+- 内容摘要：顶半部/底半部分层架构；三大底半部机制（Softirq/Tasklet/Workqueue）：Softirq 不可休眠执行极快用于网络收发，Tasklet 基于 Softirq 同类型串行执行是驱动开发便捷接口，Workqueue 运行在进程上下文允许休眠适合磁盘 IO；核心原则：顶半部必须原子操作极速返回，只有底半部允许复杂进程调度
+
+---
+
 - 归档用户分享的 Claude Design + Baoyu-Design Skill 工作流至 sources/baoyu-design-workflow.md
 - 内容摘要：先原型后功能，原型与功能保持一致的工作流。Claude Design 产出 React 代码和 JSON，通过 git diff 追踪版本变更，Agent 参考 diff 实现功能。Baoyu-Design Skill 维护原型
 
