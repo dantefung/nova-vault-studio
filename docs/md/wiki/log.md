@@ -2097,3 +2097,10 @@ source: "llm-wiki"
 - 归档 Inkeep《OpenKnowledge：AI 原生 Markdown IDE 与 LLM Wiki》至 sources/open-knowledge-inkeep.md
 - 无配图（GitHub 项目页）
 - 内容摘要：Inkeep 开源 AI 原生 Markdown IDE 和 LLM Wiki 工具，3458 Stars，GPL-3.0，关联 llm-wiki-karpathy、pkm、second-brain 等概念，与本站 LLM Wiki 实践方向一致
+
+## [2026-08-15] ingest: 流动摩擦概念
+
+- 归档 Phodal《设计流动摩擦：AI 原生团队的核心能力》至 sources/flow-friction-ai-team.md
+- 提炼概念页至 concepts/flow-friction.md
+- 2 张配图至 images/flow-friction-ai-team/（压缩后）
+- 内容摘要：AI 将开发变成最快环节后，需求/设计/Review/测试之间的节奏不匹配成为真正的瓶颈；三种摩擦表现（上游饥饿+下游拥堵、歧义固化成代码、并行开发增加共有成本）+ 设计流动摩擦六节点
