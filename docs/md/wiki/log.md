@@ -76,6 +76,14 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-15] ingest: 认知债与意图债（聂晓龙）
+
+- 归档《当理解成为瓶颈：AI 编程时代的认知债与意图债》至 sources/cognitive-intent-debt.md
+- 下载 9 张配图至 images/cognitive-intent-debt/
+- 内容摘要：三元债模型（技术债/认知债/意图债），AI 降低技术债但加速认知债与意图债累积，理解的本质是为了参与（Geoffrey Litt），Vibe Coding 的自我修正（95%开发者需额外修正），Agentic Engineering 替代 Vibe Coding，「你可以外包你的思考，但不能外包你的理解」
+
+---
+
 ## [2026-08-15] ingest: 批量采集 3 篇（网络/内核/SEO）
 
 - **网络数据包传输** → sources/packet-network-flow.md（xiaokang1998）：分包、封装（Encapsulation）、TCP/IP 四层数据流、各层头部结构（5 张配图）
