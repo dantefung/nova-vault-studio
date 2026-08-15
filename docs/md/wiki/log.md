@@ -2132,3 +2132,10 @@ source: "llm-wiki"
 - 归档哥飞《如何半小时上线一个小游戏网站》至 sources/half-hour-game-site.md
 - 42 张配图（域名注册、Cloudflare DNS、GitHub 创建仓库、Claude 代码生成、Vercel 部署、自定义域名配置、最终上线效果）
 - 内容摘要：以 MemoryTest.io 为例，演示从选域名到 Vercel 部署的完整流程：域名注册 → Cloudflare DNS 迁移 → GitHub 创建仓库 → Claude 生成 game.html → Vercel Import 部署 → 自定义域名 + SSL（Cloudflare 完全严格模式）→ Claude 生成 SEO 落地页。核心结论：半小时可上线一个小游戏站，一小时含写文章讲解
+
+
+## [2026-08-15] ingest: 刘小排 5 分钟做个网站
+
+- 归档刘小排《5 分钟做个网站，人人都能学会》至 sources/bolt-new-5min-site.md（哥飞转载）
+- 11 张配图（Bolt.new 生成界面、生成效果、代码结构、clicktest.me 案例、变现说明、部署截图等）
+- 内容摘要：用 Bolt.new + Claude 五步 Prompt 5 分钟生成运势网站。核心观点：语文功底 > 技术能力。推荐付费测试产品方向（MBTI、智商测试），变现三步走（流量→广告→付费），流量流派（SEO/投放/大V/自传播）
