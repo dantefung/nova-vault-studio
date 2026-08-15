@@ -193,6 +193,7 @@ wiki/
 | [deepseek-harness-agent-formula](/md/wiki/concepts/deepseek-harness-agent-formula) | DeepSeek 开源 Harness（dsh）：Agent = Model + Harness 公式，一切皆插件、极简模式、可追溯会话 | 公众号 |
 | [flow-friction](/md/wiki/concepts/flow-friction) | 流动摩擦：AI 让开发变成最快环节后，需求/设计/Review/测试之间的节奏不匹配才是真正的瓶颈 | 公众号 |
 | [age-mission-driver](/md/wiki/concepts/age-mission-driver) | AGE 吸引子引导工程：从 Loop Engineering 到方向外化的期望吸引子，Mission Driver 全文件化编排 Plan 生命周期 | 公众号 |
+| [harness-multiplier-effect](/md/wiki/concepts/harness-multiplier-effect) | Harness 乘数效应：Composio 测试同一模型 8 种 Harness，Pi Agent 66.7% 成功率 $0.028/任务，缓存命中率 99.93% | 公众号 |
 
 ### 商业模式 (Business Models)
 

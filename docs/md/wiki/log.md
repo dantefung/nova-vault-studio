@@ -2111,3 +2111,10 @@ source: "llm-wiki"
 - 提炼概念页至 concepts/age-mission-driver.md
 - 1 张配图至 images/mission-driver-supplement/
 - 内容摘要：AGE 吸引子引导工程体系（状态空间/吸引子/轨迹/控制四概念）、与 Harness 和 Loop Engineering 的层级关系、Mission Driver 与普通工作流引擎的三大根本区别、与 LoopX 的对比、三层"AI 全自动"定义、nop-app-erp 22 天案例、关键命题"不是让 Agent 记住项目，而是让项目本身不再遗忘自己"
+
+## [2026-08-15] ingest: DeepSeek + Pi 王炸组合
+
+- 归档 Tina《DeepSeek + Pi 王炸组合跑赢 Claude Code？》至 sources/pi-deepseek-benchmark.md
+- 提炼概念页至 concepts/harness-multiplier-effect.md
+- 9 张配图至 images/pi-deepseek-benchmark/（压缩后）
+- 内容摘要：Composio 用 DeepSeek V4 Flash 在 8 种 Harness 中跑 30 项高难度任务，Pi Agent 66.7% 成功率第一（$0.028/任务，Claude Code $0.195）；Harness 乘数效应，干净 Harness 胜率逻辑；DeepSeek 前缀缓存机制（Reasonix 五原则 + pi-deepseek-cache 三层设计），成本降幅 98-99%；DeepSeek 官方 Harness 即将发布
