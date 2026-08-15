@@ -310,6 +310,11 @@ date: "2026-05-05"
 | [event-poster](https://github.com/lovstudio/skills/tree/main/event-poster) | 活动海报生成，输出印刷级 PNG |
 | [find-logo](https://github.com/lovstudio/skills/tree/main/find-logo) | 品牌 Logo 发现与抓取，支持 Clearbit/og:image |
 | [maintain-partners](https://github.com/lovstudio/skills/tree/main/maintain-partners) | 合作伙伴 Logo 标准化与维护（高度对齐/颜色统一） |
+| [Text to Lottie Skill](https://github.com/designskills) | 文字描述转 Lottie 动效，启动页动画/按钮反馈/图标动效/产品微交互 |
+| [GSAP Skill](https://github.com/designskills) | 复杂网页动效：滚动动画/入场动画/视差效果/品牌官网动效 |
+| [three-scope-map-skill](https://github.com/designskills) | 3D 可视化方向：地图/空间展示/数据场景/沉浸式视觉，大屏和科技感页面 |
+| [Web to Design md](https://github.com/designskills) | 网页内容转为结构化文档，竞品拆解/页面结构整理/设计逻辑提炼 |
+| [Shadcn/ui Skill](https://github.com/designskills) | 快速生成高质量 UI 组件和前端界面，原型/组件规范/产品 Demo/设计落地 |
 
 ### Academic（学术）
 
