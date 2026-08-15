@@ -47,6 +47,12 @@ source: "llm-wiki"
 - 8 张配图（1 PNG + 7 压缩 JPEG）
 - 内容摘要：huashu-design 定位为「交付型设计 skill」，HTML 作为中间层解决 4 个结构性断裂：格式断裂（直出 prototype/deck/PPTX/MP4/GIF/PDF）→ 上下文断裂（吃真实品牌资产）→ 方向断裂（先给 3 个方向再选路）→ 责任断裂（增强人的工作流而非伪装全自动）。与常见设计 AI 工具区别：结果终点从视觉结果变为工作流产物
 
+## [2026-08-11] ingest: 网站上线前，先用这个免费工具做一次 SEO 体检
+
+- 归档《网站上线前，先用这个免费工具做一次 SEO 体检》至 sources/seo-audit-tool.md（苏打 da 汽水，2026-07-13）
+- 2 张配图（全 PNG，无需压缩）
+- 内容摘要：哥飞社群分享的 On Page SEO 体检工具 seo.web.cafe/audit/。输入 URL+关键词自动选出聚焦度最高的主关键词做体检，分三组检查：关键词覆盖（Title/Description/H1/H2/URL/开头100词）、页面基础项（Meta/内容质量/关键词优化/链接/图片/结构化数据/抓取）、页面状态数据（状态码/加载耗时/词数/内外链/语言）。适合页面和 pSEO 批量上线前轻量自查。支持「复制报告给 AI」让 Agent 自动改一版
+
 ## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
 
 - 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）

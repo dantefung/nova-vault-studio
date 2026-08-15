@@ -318,6 +318,7 @@ date: "2026-05-05"
 | [baoyu-design](https://github.com/jimliu/baoyu-design) | Design Skill，可生成 UI 设计稿/原型/PPT/动画视频，支持逐帧拍照导出 MP4（headless Chrome + ffmpeg），Agent 友好 |
 | [huashu-design](https://github.com/alchaincyf/huashu-design) | 花叔 Design，HTML 原生设计 Skill：20 种设计哲学、Stage+Sprite 动画引擎、视频渲染管线、品牌资产协议，1.2k Stars |
 | [huashu-design-workflow](/md/wiki/sources/huashu-design-workflow) | huashu-design 交付型设计分析：HTML 中间层解决 4 个结构性断裂（格式/上下文/方向/责任） | 公众号 |
+| [seo-audit-tool](/md/wiki/sources/seo-audit-tool) | 哥飞 On Page SEO 体检工具 seo.web.cafe/audit/：输入 URL+关键词，检查 Title/Description/H1/关键词覆盖/页面状态，支持复制报告给 AI 自动修改 | 公众号 |
 
 ### Academic（学术）
 

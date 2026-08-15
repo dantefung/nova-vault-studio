@@ -124,6 +124,7 @@ wiki/
 | [baoyu-design-skill](/md/wiki/sources/baoyu-design-skill) | baoyu-design 技能包：Design Skill 导出 MP4 动画视频（逐帧拍照+ffmpeg），一句话生成技术解释视频，支持 Cursor/Claude Code/Codex | 公众号 |
 | [huashu-design-deep-dive](/md/wiki/sources/huashu-design-deep-dive) | huashu-design 逆向深度解析：品牌资产协议（5步硬流程）+ 20种设计哲学库 + Stage+Sprite 动画引擎 + render-video.js 视频管线 + 16条动画踩坑实录 | 公众号 |
 | [huashu-design-workflow](/md/wiki/sources/huashu-design-workflow) | huashu-design 交付型设计 skill 分析：HTML 作为中间层，解决格式/上下文/方向/责任 4 个结构性断裂 | 公众号 |
+| [seo-audit-tool](/md/wiki/sources/seo-audit-tool) | On Page SEO 体检工具 seo.web.cafe/audit/：上线前自检 Title/Description/H1/关键词覆盖，支持 pSEO 批量抽查 | 公众号 |
 
 ### 学习路径 (Learning Paths)
 
