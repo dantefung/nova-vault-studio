@@ -76,6 +76,14 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-15] ingest: AI Infra 进阶 大模型输出确定的结果
+
+- 归档腾讯程序员《AI Infra 进阶：如何让大模型输出确定的结果》至 sources/llm-batch-invariance.md
+- 下载 36 张配图至 images/llm-batch-invariance/
+- 内容摘要：GEMM/RMSNorm/Attention/NCCL 四大算子的 Batch Invariance 实现；根因是浮点加法不满足结合律 + 动态组批导致 Reduction Tree 拓扑变化；vLLM 解决方案：GEMM 固定 BLOCK_K+禁用 Split-K、RMSNorm 锁定 block_size=1024、FlashAttention 强制 num_splits=1、NCCL 固定 Tree+Simple+Channel=1
+
+---
+
 ## [2026-08-15] ingest: 批量采集 LLM/Agent 基础系列（4 篇）
 
 - **LangGraph** → sources/langgraph-agent-framework.md：LangChain 官方低阶 Agent 编排框架（33,900+ Stars），图结构编排 + Checkpointer + HITL + 子图，vs AutoGen/CrewAI 对比
