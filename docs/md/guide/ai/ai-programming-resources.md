@@ -322,6 +322,7 @@ date: "2026-05-05"
 | [ego-lite](https://github.com/citrolabs/ego-lite) | 免费 Agent 浏览器工作台，导入 Chrome 登录态/Cookie，Space 多任务隔离，Semantic Snapshot 压缩 Token，支持 Codex/Claude Code/Cursor | 公众号 |
 | [Cloudflare Email Routing](https://developers.cloudflare.com/email-service/get-started/route-emails/) | 免费域名邮箱转发：support@/legal@ 等别名转发到 Gmail，Workers Free 计划免费，配置 MX/SPF/DKIM | 公众号 |
 | [MkDollar](https://mkdollar.com) | 外链提交管理工具：按 DR/Traffic/Pricing/Dofollow/Account/Category 筛选，支持产品外链提交进度跟踪 | 公众号 |
+| [ai-image-prompt-libraries](/md/wiki/sources/ai-image-prompt-libraries) | AI 图灵感库合集（mkimage.ai/meigen.ai/gpt-image2）：Prompt 可复制/翻译/标注 License/出处追踪，独立开发者 Landing page 素材 | 公众号 |
 
 ### Academic（学术）
 
