@@ -2085,3 +2085,9 @@ source: "llm-wiki"
 - 提炼概念页至 concepts/deepseek-harness-agent-formula.md
 - 6 张配图至 images/deepseek-harness/（压缩后）
 - 内容摘要：DeepSeek 开源 DeepSeek Harness（dsh），提出 Agent = Model + Harness 公式，一切皆插件架构、极简模式、可追溯会话日志、开源定地基圈生态
+
+## [2026-08-15] ingest: BestBlogs 早报
+
+- 归档 ginobefun《BestBlogs 早报 · 08-15》至 sources/bestblogs-2026-08-15.md
+- 7 张配图至 images/bestblogs-2026-08-15/（004 压缩）
+- 内容摘要：三篇精讲——GLM-5.3 编程/网络安全能力迁移（Terminal-Bench 4.6→28.3）、Addy Osmani 实用循环工程（goal vs loop + 执行验证分离）、大淘宝 AI Native 团队（编码≠交付，三层结构+知识底座）；速览含开放模型观察、DeepTutor 34K Star、dLLM、LTX-2.5 等
