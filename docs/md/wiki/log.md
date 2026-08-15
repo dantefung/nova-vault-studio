@@ -76,6 +76,14 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-15] ingest: 微软开源 AutoGen 多智能体框架
+
+- 归档《微软开源 AutoGen：让 AI Agent 真正「对话起来」的多智能体框架》微信公众号至 sources/microsoft-autogen-multagent.md
+- 无配图
+- 内容摘要：微软研究院开源 Multi-Agent 框架（GitHub 36k+ Stars，MIT 协议），核心抽象「对话即代码」；ConversableAgent 万物皆可对话，GroupChat 团队协作；v0.4 async-first 完全重写，actor 模型+事件驱动+分布式运行时；与 LangGraph（状态图/确定性流程）/CrewAI（角色任务/快速原型）对比；实战场景：代码生成+评审、论文写作、客服系统、数据分析
+
+---
+
 - 归档用户分享的 Claude Design + Baoyu-Design Skill 工作流至 sources/baoyu-design-workflow.md
 - 内容摘要：先原型后功能，原型与功能保持一致的工作流。Claude Design 产出 React 代码和 JSON，通过 git diff 追踪版本变更，Agent 参考 diff 实现功能。Baoyu-Design Skill 维护原型
 
