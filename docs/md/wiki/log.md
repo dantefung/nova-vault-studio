@@ -2174,3 +2174,10 @@ source: "llm-wiki"
 - 归档唐成《Node 搭 Agent 实战：用 LangChain.js v1 手把手跑通公众号流水线》至 sources/langchain-agent-wechat.md
 - 1 张配图（流水线架构图）
 - 内容摘要：七步搭 Agent 流水线（接 DeepSeek/MCP/Skill 排版/SubAgent 写作/ReActAgent/Harness 外壳/跑通日志）。LangChain.js v1 + LangGraph.js v1.4.9 选型理由。DeepSeek V4 双模型分工（flash 主控编排/pro 写作）。8 个避坑（模型名/API 弃用/MCP peer 依赖/doocs/md 装不来/MemorySaver 双重挂等）。核心观点：Agent = 一个会调工具的循环 + 一层会打回重做的外壳
+
+
+## [2026-08-15] ingest: 多 Agent 系统的设计哲学
+
+- 归档架构精进之路《多 Agent 系统的设计哲学》至 sources/multi-agent-design.md
+- 8 张配图（封面、六层架构、天花板、角色边界、通信方式、反模式、结语动画、签名）
+- 内容摘要：多 Agent 六层架构（任务/编排/Agent/工具/记忆/评估）；单 Agent 四天花板（上下文/角色冲突/缺乏对抗/无法并行）；五种角色（Manager/Explorer/Developer/Reviewer/Tester）；三种协作模式（中心化/流水线/对等协商）；四种通信方式（结构化输出/Manager中转/共享文件/环境变量）；七项生产难点（可观测/可恢复/权限/成本/冲突/人工/验证）；五实践五反模式；七判断标准
