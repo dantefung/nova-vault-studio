@@ -321,6 +321,7 @@ date: "2026-05-05"
 | [seo-audit-tool](/md/wiki/sources/seo-audit-tool) | 哥飞 On Page SEO 体检工具 seo.web.cafe/audit/：输入 URL+关键词，检查 Title/Description/H1/关键词覆盖/页面状态，支持复制报告给 AI 自动修改 | 公众号 |
 | [ego-lite](https://github.com/citrolabs/ego-lite) | 免费 Agent 浏览器工作台，导入 Chrome 登录态/Cookie，Space 多任务隔离，Semantic Snapshot 压缩 Token，支持 Codex/Claude Code/Cursor | 公众号 |
 | [Cloudflare Email Routing](https://developers.cloudflare.com/email-service/get-started/route-emails/) | 免费域名邮箱转发：support@/legal@ 等别名转发到 Gmail，Workers Free 计划免费，配置 MX/SPF/DKIM | 公众号 |
+| [MkDollar](https://mkdollar.com) | 外链提交管理工具：按 DR/Traffic/Pricing/Dofollow/Account/Category 筛选，支持产品外链提交进度跟踪 | 公众号 |
 
 ### Academic（学术）
 

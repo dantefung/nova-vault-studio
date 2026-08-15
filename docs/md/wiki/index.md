@@ -127,6 +127,7 @@ wiki/
 | [seo-audit-tool](/md/wiki/sources/seo-audit-tool) | On Page SEO 体检工具 seo.web.cafe/audit/：上线前自检 Title/Description/H1/关键词覆盖，支持 pSEO 批量抽查 | 公众号 |
 | [ego-lite-browser](/md/wiki/sources/ego-lite-browser) | Ego Lite 免费 Agent 浏览器：导入 Chrome 登录态/Cookie，Space 多任务隔离，Semantic Snapshot 压缩 Token，benchmark 比 Agent Browser 快 3.5 倍 | 公众号 |
 | [cloudflare-email-routing](/md/wiki/sources/cloudflare-email-routing) | Cloudflare Email Routing 免费域名邮箱转发：support@/legal@ 等别名转发到 Gmail，Workers Free 计划免费，限制 200 rules/200 destinations/25MiB | 公众号 |
+| [mkdollar-backlinks](/md/wiki/sources/mkdollar-backlinks) | MkDollar（mkdollar.com）外链提交管理工具：按 DR/Traffic/Pricing/Dofollow/Account/Category 筛选，支持产品外链提交进度跟踪 | 公众号 |
 
 ### 学习路径 (Learning Paths)
 

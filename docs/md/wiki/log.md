@@ -65,6 +65,12 @@ source: "llm-wiki"
 - 2 张配图（全 PNG，无需压缩）
 - 内容摘要：Cloudflare Email Routing 免费域名邮箱转发服务。前提：有域名并在 Cloudflare 管理。Workers Free 计划免费使用。限制：每域名 200 条 routing rules、每账号 200 个 destination addresses、单封 25MiB。配置步骤：Onboard Domain → 添加 Destination Address → 验证 Gmail → 创建 routing rule → 测试。重要限制：只能收信转发，回复时发件人仍是 Gmail
 
+## [2026-08-11] ingest: 做海外产品推广，可以先把这个外链表跑一遍
+
+- 归档《做海外产品推广，可以先把这个外链表跑一遍》至 sources/mkdollar-backlinks.md（苏打 da 汽水，2026-06-18）
+- 4 张配图（全 PNG，无需压缩）
+- 内容摘要：MkDollar（mkdollar.com）外链提交管理工具，适合出海产品/AI 工具/SaaS/工具站。整理一批可提交产品的网站，标注 DR/Traffic/Pricing/Dofollow/Account/Category。筛选支持 Free + Dofollow 组合过滤。管理功能：Dashboard 输入产品域名自动拉取信息，产品详情页跟踪外链状态（Unknown/Submitted/Approved/Rejected）
+
 ## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
 
 - 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）
