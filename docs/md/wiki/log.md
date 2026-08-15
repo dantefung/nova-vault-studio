@@ -2181,3 +2181,10 @@ source: "llm-wiki"
 - 归档架构精进之路《多 Agent 系统的设计哲学》至 sources/multi-agent-design.md
 - 8 张配图（封面、六层架构、天花板、角色边界、通信方式、反模式、结语动画、签名）
 - 内容摘要：多 Agent 六层架构（任务/编排/Agent/工具/记忆/评估）；单 Agent 四天花板（上下文/角色冲突/缺乏对抗/无法并行）；五种角色（Manager/Explorer/Developer/Reviewer/Tester）；三种协作模式（中心化/流水线/对等协商）；四种通信方式（结构化输出/Manager中转/共享文件/环境变量）；七项生产难点（可观测/可恢复/权限/成本/冲突/人工/验证）；五实践五反模式；七判断标准
+
+
+## [2026-08-15] ingest: Agent Sandbox K8s SIG 项目
+
+- 归档希里安（阿里云）《Agent Sandbox》至 sources/agent-sandbox-k8s.md
+- 无配图
+- 内容摘要：Kubernetes SIG 项目 kubernetes-sigs/agent-sandbox，在 K8s 上用声明式 API 管单实例、有状态、得隔离的沙箱运行时。核心 CRD：Sandbox（稳定身份+持久存储+生命周期）、SandboxTemplate、SandboxWarmPool（预热池）、SandboxClaim。真正强隔离交给 RuntimeClass 背后的 gVisor/Kata。Agent 链路中只管执行环境层（跑代码/装依赖/落文件/联网），不管推理规划和工具协议。四个值得关注的理由：Workload 形态在变/安全默认升档/冷启动体验/可编程消费

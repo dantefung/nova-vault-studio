@@ -186,6 +186,7 @@ wiki/
 | [agent-token-architecture](/md/wiki/concepts/agent-token-architecture) | Agent 的本质：用 Token 换架构，控制流从开发期迁移到运行时，三年技术脉络 ReAct→FC→MCP→Skills | 公众号 |
 | [agentscope-multi-agent](/md/wiki/concepts/agentscope-multi-agent) | 多 Agent 编排三件套：spawn/send 原语、超时收编后台任务不丢弃、子事件并入父流、跨副本三段式路由 | 公众号 |
 | [multi-agent-design](/md/wiki/sources/multi-agent-design) | 多 Agent 系统设计哲学：六层架构、四天花板、五角色、三协作模式、四通信方式、七生产难点、五实践五反模式 | 公众号 |
+| [agent-sandbox-k8s](/md/wiki/sources/agent-sandbox-k8s) | Agent Sandbox：K8s SIG 项目（kubernetes-sigs/agent-sandbox），声明式 CRD 编排隔离有状态单例沙箱，WarmPool 预热池 + RuntimeClass 接 gVisor/Kata，Agent 执行层基础设施 | 公众号 |
 | [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
 | [agentscope-skills](/md/wiki/concepts/agentscope-skills) | AgentScope Skills 技能系统：Agent 世界的动态链接器，四步加载（符号表→重定位→加载→卸载），SkillRepository 对标 LD_LIBRARY_PATH，确定性协处理器 | 公众号 |
 | [agentscope-managed-agents](/md/wiki/concepts/agentscope-managed-agents) | AgentScope 2.0 Managed Agents 运行时底座：Brain/Hands 分离、三种 Worker 模式（Local/Cloud Sandbox/Self-hosted）、控制面/数据面/Worker 三层职责 | 公众号 |
