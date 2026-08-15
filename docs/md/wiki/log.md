@@ -2125,3 +2125,10 @@ source: "llm-wiki"
 - 归档大风AI编程《我做了个「一键生成学习网站」的 skill，把自己惊艳到了》至 sources/student-learning-website-builder.md
 - 8 张配图（课程设计模板、Trae 操作界面、网站开发过程、成功案例）
 - 内容摘要：作者将课程设计→教学设计→互动网站全流程打包为 student-learning-website-builder skill，用 Trae 辅助开发，十天压缩到十分钟。核心亮点：8 模块互动学习网站、AI 苏格拉底式学习伙伴、四维素养雷达图、纯 HTML 零框架双击即开，比 PPT 多出了动手能力、AI 交互和进度追踪
+
+
+## [2026-08-15] ingest: 如何半小时上线一个小游戏网站
+
+- 归档哥飞《如何半小时上线一个小游戏网站》至 sources/half-hour-game-site.md
+- 42 张配图（域名注册、Cloudflare DNS、GitHub 创建仓库、Claude 代码生成、Vercel 部署、自定义域名配置、最终上线效果）
+- 内容摘要：以 MemoryTest.io 为例，演示从选域名到 Vercel 部署的完整流程：域名注册 → Cloudflare DNS 迁移 → GitHub 创建仓库 → Claude 生成 game.html → Vercel Import 部署 → 自定义域名 + SSL（Cloudflare 完全严格模式）→ Claude 生成 SEO 落地页。核心结论：半小时可上线一个小游戏站，一小时含写文章讲解

@@ -149,6 +149,7 @@ wiki/
 | [xiaohu-seo-1m-uv](/md/wiki/read-later/index) | 练手小游戏30天100万UV：野生小虎首次出海SEO实战复盘，纯自然流量 | X |
 | [hezhiyan7-outsea-oneyear-10000usd](/md/wiki/sources/hezhiyan7-outsea-oneyear-10000usd) | 出海一周年稳定万刀：12 模块 200+ 篇实战文章方法论地图 | X |
 | [indie-site-builder-skill-stack](/md/wiki/concepts/indie-site-builder-skill-stack) | 独立网站出海创业 12 大能力栈：需求/SEO/支付/流量 等实战密度地图 | 概念 |
+| [half-hour-game-site](/md/wiki/sources/half-hour-game-site) | 半小时上线小游戏站：域名注册→Cloudflare DNS→GitHub→Claude 生成代码→Vercel 部署→自定义域名+SSL，1 小时含写文章 | 公众号 |
 | [aichuhai-dev](/md/wiki/products/aichuhai-dev) | droidHZ 的 AI 出海导航站：12 模块分类 + 话题驱动 + 用户参与 | 产品 |
 | [moore-wechat-article-downloader](/md/wiki/products/moore-wechat-article-downloader) | 公众号内容情报库 Skill：4 大场景 + SQLite 状态 + 评论互动 | 产品 |
 | [first-time-dollar-oneyear](/md/wiki/sources/first-time-dollar-oneyear) | 第一次赚美元：新手到 5 站 + 1 千元/月，复盘 28 节付费课程 | 公众号 |
