@@ -2104,3 +2104,10 @@ source: "llm-wiki"
 - 提炼概念页至 concepts/flow-friction.md
 - 2 张配图至 images/flow-friction-ai-team/（压缩后）
 - 内容摘要：AI 将开发变成最快环节后，需求/设计/Review/测试之间的节奏不匹配成为真正的瓶颈；三种摩擦表现（上游饥饿+下游拥堵、歧义固化成代码、并行开发增加共有成本）+ 设计流动摩擦六节点
+
+## [2026-08-15] ingest: Mission Driver 补充说明
+
+- 归档 可逆计算《关于 Mission Driver：Loop Engineering 的一种通用参考实现的补充说明》至 sources/mission-driver-supplement.md
+- 提炼概念页至 concepts/age-mission-driver.md
+- 1 张配图至 images/mission-driver-supplement/
+- 内容摘要：AGE 吸引子引导工程体系（状态空间/吸引子/轨迹/控制四概念）、与 Harness 和 Loop Engineering 的层级关系、Mission Driver 与普通工作流引擎的三大根本区别、与 LoopX 的对比、三层"AI 全自动"定义、nop-app-erp 22 天案例、关键命题"不是让 Agent 记住项目，而是让项目本身不再遗忘自己"
