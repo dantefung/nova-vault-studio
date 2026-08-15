@@ -17,6 +17,12 @@ source: "llm-wiki"
 - 9 张配图（3 张压缩 JPEG，6 张 PNG）
 - 内容摘要：Skills = Agent 的动态能力，像手机 App + 标准化 SOP。作者通宵整理教育场景 100 个 Skills、11 大功能分类（备课与课程设计/课堂教学/记忆与学习科学/评估与批改/读写与学科技能/教研与论文/班级与学生身心/AI 素养/治理与决策/内容创作/学伴与通识）。实战案例：Course-designer 一句话生成 16 页数学教学设计 Word 文档，Teachany-interactive-courseware 生成生物光合作用互动网页课件
 
+## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
+
+- 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）
+- 12 张配图（7 张压缩 JPEG，5 张 PNG）
+- 内容摘要：Anthropic 公开 K-12 教师 Skill（k12-lesson-planning + k12-lesson-differentiation）到 GitHub。安装后在 WorkBuddy 上为七年级生物「生物与非生物」备课，一套 Skill 生成 3 份 Word（教案/学生讲义/观察模板），第二套生成 4 份（分层方案+A/B/C 三组材料），合计 7 份关联文件。三个教学判断：① AI 备课不能只靠万能模板，要按学科调用教学原则 ② 差异化应改变支持而非降低目标 ③ AI 生成材料需出厂检验
+
 ## [2026-08-11] ingest: 做事的原则与决策基础
 
 - 归档原创整理《做事的原则与决策基础》至 sources/decision-principles.md
