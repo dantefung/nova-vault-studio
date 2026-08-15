@@ -23,6 +23,12 @@ source: "llm-wiki"
 - 12 张配图（7 张压缩 JPEG，5 张 PNG）
 - 内容摘要：Anthropic 公开 K-12 教师 Skill（k12-lesson-planning + k12-lesson-differentiation）到 GitHub。安装后在 WorkBuddy 上为七年级生物「生物与非生物」备课，一套 Skill 生成 3 份 Word（教案/学生讲义/观察模板），第二套生成 4 份（分层方案+A/B/C 三组材料），合计 7 份关联文件。三个教学判断：① AI 备课不能只靠万能模板，要按学科调用教学原则 ② 差异化应改变支持而非降低目标 ③ AI 生成材料需出厂检验
 
+## [2026-08-11] ingest: 超详细！Matt Pocock 的 Skills 到底应该怎么用
+
+- 归档《超详细！Matt Pocock 的 Skills 到底应该怎么用》至 sources/matt-pocock-skills-use.md（LC，2026-07-12）
+- 18 张配图（全 PNG，无需压缩）
+- 内容摘要：Matt Pocock Skills 完整使用流程演示，以 Hermes 项目为例。覆盖 8 个核心 Skill：setup-matt-pocock-skills（配置）→ ask-matt（建议）→ teach（分课教学）→ grill-with-docs/grill-me（问答澄清需求）→ to-prd（输出需求文档）→ to-issues（拆分 Issue）→ implement（实现+测试）→ handoff（交接文档）。注意原始 to-issues Skill 会自动 commit，需删掉自动提交命令描述
+
 ## [2026-08-11] ingest: 做事的原则与决策基础
 
 - 归档原创整理《做事的原则与决策基础》至 sources/decision-principles.md
