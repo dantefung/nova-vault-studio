@@ -54,6 +54,20 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-15] ingest: 陈以强 Agent Flow 到 AI Native
+
+- 归档《从 Agent Flow 到 AI Native：为什么通用 Agent 是「饮鸩止渴」》微信公众号至 sources/agent-flow-vs-general.md
+- 下载 4 张配图至 images/agent-flow-vs-general/
+- 内容摘要：Agent Flow（symphlo）用自然语言描述目标、LLM 生成/修改/运行 Flow 编排多个 Node（QwenWork/Codex CLI/影刀/千牛等）；核心观点：通用 Agent 不是恰当目标，用户要的是确定地、可靠地完成复杂任务；Hardcode 在 LLM 时代是美丽的（代码维护者变成 LLM，if else 比抽象工厂更容易理解）；AI Native 本质是解决问题让用户付费，不是贴 AI 皮；基建和权限要 LLM-friendly，组织链路要足够短
+
+## [2026-08-15] ingest: 希里安 Agent Sandbox
+
+- 归档《Agent Sandbox：K8s SIG 沙箱编排项目》微信公众号至 sources/agent-sandbox-k8s.md
+- 无配图
+- 内容摘要：kubernetes-sigs/agent-sandbox 项目，声明式 CRD 编排隔离有状态单例沙箱，WarmPool 预热池 + RuntimeClass 接 gVisor/Kata，Agent 执行层基础设施
+
+---
+
 - 归档用户分享的 Claude Design + Baoyu-Design Skill 工作流至 sources/baoyu-design-workflow.md
 - 内容摘要：先原型后功能，原型与功能保持一致的工作流。Claude Design 产出 React 代码和 JSON，通过 git diff 追踪版本变更，Agent 参考 diff 实现功能。Baoyu-Design Skill 维护原型
 
