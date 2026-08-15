@@ -53,6 +53,12 @@ source: "llm-wiki"
 - 2 张配图（全 PNG，无需压缩）
 - 内容摘要：哥飞社群分享的 On Page SEO 体检工具 seo.web.cafe/audit/。输入 URL+关键词自动选出聚焦度最高的主关键词做体检，分三组检查：关键词覆盖（Title/Description/H1/H2/URL/开头100词）、页面基础项（Meta/内容质量/关键词优化/链接/图片/结构化数据/抓取）、页面状态数据（状态码/加载耗时/词数/内外链/语言）。适合页面和 pSEO 批量上线前轻量自查。支持「复制报告给 AI」让 Agent 自动改一版
 
+## [2026-08-11] ingest: 独立开发者的网页杂活，可以交给这款免费 Agent 浏览器
+
+- 归档《独立开发者的网页杂活，可以交给这款免费 Agent 浏览器》至 sources/ego-lite-browser.md（苏打 da 汽水，2026-07-05）
+- 4 张配图（全 PNG，无需压缩）
+- 内容摘要：Ego Lite（citrolabs/ego-lite）免费 Agent 浏览器工作台。基于 Chromium，可导入 Chrome 设置/Cookie/扩展/历史记录，解决 Agent 登录态问题。核心功能 Space 将人和 Agent 工作区分隔，支持并行多任务。Semantic Snapshot 压缩页面 Token。Benchmark：抓取 X 账号近 7 天主帖 81.8s vs Agent Browser 282.9s（快 3.5 倍）。适合增长动作/后台巡检/上线前检查三类场景
+
 ## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
 
 - 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）
