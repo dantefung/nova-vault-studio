@@ -2167,3 +2167,10 @@ source: "llm-wiki"
 - 归档王僖（阿里云团队）《前端 Skill 驱动的团队 AI Coding 实践》至 sources/frontend-skill-team-coding.md
 - 14 张配图（封面、技术债、认知转变、五维结构、样板、案例图表、国际化对比、R2C 流程、结语动画）
 - 内容摘要：把前端规范做成 Skill 前置到 AI 写代码前，解决全员 AI Coding 下的风格漂移/技术栈错配/自创轮子问题。an-frontend-skill 五维结构：When(触发场景)/What(选型矩阵)/Don't+Why(8条硬约束)/How(4套样板)/Map(设计+国际化)。落地四案例：Status看板3周/CFD升级3天(原1-2周)/AIOps设计直码复用率70-80%/国际化三平台2周(原2月)。R2C 需求转代码 8 阶段全链路。核心观点：能力沉淀>个人提效，Skill 是把底线抬高而非让强者更快
+
+
+## [2026-08-15] ingest: Node 搭 Agent 实战 LangChain.js v1 公众号流水线
+
+- 归档唐成《Node 搭 Agent 实战：用 LangChain.js v1 手把手跑通公众号流水线》至 sources/langchain-agent-wechat.md
+- 1 张配图（流水线架构图）
+- 内容摘要：七步搭 Agent 流水线（接 DeepSeek/MCP/Skill 排版/SubAgent 写作/ReActAgent/Harness 外壳/跑通日志）。LangChain.js v1 + LangGraph.js v1.4.9 选型理由。DeepSeek V4 双模型分工（flash 主控编排/pro 写作）。8 个避坑（模型名/API 弃用/MCP peer 依赖/doocs/md 装不来/MemorySaver 双重挂等）。核心观点：Agent = 一个会调工具的循环 + 一层会打回重做的外壳

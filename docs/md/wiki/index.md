@@ -200,6 +200,7 @@ wiki/
 | [harness-multiplier-effect](/md/wiki/concepts/harness-multiplier-effect) | Harness 乘数效应：Composio 测试同一模型 8 种 Harness，Pi Agent 66.7% 成功率 $0.028/任务，缓存命中率 99.93% | 公众号 |
 | [cordis-dsh-vs-pi](/md/wiki/sources/cordis-dsh-vs-pi) | Cordis 解决什么：DSH 用 Cordis 管理跨插件关系（Loader/Fiber/effect/Service/Context），Pi 把清理交给扩展作者。两条 Provider 变化路径 + 所有权规则 + 半途失败回收 | 公众号 |
 | [frontend-skill-team-coding](/md/wiki/sources/frontend-skill-team-coding) | 阿里云团队前端 Skill 驱动的团队 AI Coding 实践：五维结构（When/What/Don't-Why/How/Map）、四个落地案例（Status看板/CFD升级/AIOps设计直码/国际化流水线）、R2C 需求转代码 | 公众号 |
+| [langchain-agent-wechat](/md/wiki/sources/langchain-agent-wechat) | Node + LangChain.js v1 搭公众号 Agent 流水线：七步落地 ReAct/Harness/MCP/SubAgent/Skill，DeepSeek V4 双模型分工，8 个避坑 | 公众号 |
 
 ### 商业模式 (Business Models)
 
