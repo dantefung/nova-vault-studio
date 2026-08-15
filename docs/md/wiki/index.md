@@ -190,6 +190,10 @@ wiki/
 | [agent-flow-vs-general](/md/wiki/sources/agent-flow-vs-general) | 从 Agent Flow 到 AI Native：通用 Agent 是「饮鸩止渴」；最小任务单元、Hardcode 是美丽的、AI Native 本质是解决用户问题、基建要 LLM-friendly、组织链路要足够短 | 公众号 |
 | [linux-interrupt-overview](/md/wiki/sources/linux-interrupt-overview) | Linux 中断管理概述：顶半部/底半部分层架构，三大底半部机制（Softirq/Tasklet/Workqueue）特点与适用场景 | 公众号 |
 | [microsoft-autogen-multagent](/md/wiki/sources/microsoft-autogen-multagent) | 微软开源 AutoGen：多智能体框架，ConversableAgent 万物皆可对话，GroupChat 团队协作，v0.4 async-first 分布式架构，vs LangGraph/CrewAI 对比 | 公众号 |
+| [langgraph-agent-framework](/md/wiki/sources/langgraph-agent-framework) | LangGraph：LangChain 官方低阶 Agent 编排框架（33,900+ Stars），用「图」重新定义 Agent 编排，StateGraph + Checkpointer + HITL + 子图，vs AutoGen/CrewAI 对比 | 公众号 |
+| [function-calling-mechanism](/md/wiki/sources/function-calling-mechanism) | 工具机制与 Function Calling：三步流程（判断/执行/回传），工具 Schema 定义（name/description/parameters），finish_reason 详解，多工具编排与多轮循环 | 公众号 |
+| [llm-chat-completion-api](/md/wiki/sources/llm-chat-completion-api) | LLM 与 Chat Completion API：LLM 生成文本本质（预测下一个 token），messages 角色体系（system/user/assistant/tool），Token 与上下文窗口，temperature/max_tokens 参数 | 公众号 |
+| [deepseek-api-call-multiturn](/md/wiki/sources/deepseek-api-call-multiturn) | 大模型 API 调用和多轮对话：环境准备、DeepSeek API 调用（兼容 OpenAI）、对话循环实现，最基础的「记忆」——把历史对话塞进每次请求 | 公众号 |
 | [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
 | [agentscope-skills](/md/wiki/concepts/agentscope-skills) | AgentScope Skills 技能系统：Agent 世界的动态链接器，四步加载（符号表→重定位→加载→卸载），SkillRepository 对标 LD_LIBRARY_PATH，确定性协处理器 | 公众号 |
 | [agentscope-managed-agents](/md/wiki/concepts/agentscope-managed-agents) | AgentScope 2.0 Managed Agents 运行时底座：Brain/Hands 分离、三种 Worker 模式（Local/Cloud Sandbox/Self-hosted）、控制面/数据面/Worker 三层职责 | 公众号 |

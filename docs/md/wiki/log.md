@@ -76,6 +76,16 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-15] ingest: 批量采集 LLM/Agent 基础系列（4 篇）
+
+- **LangGraph** → sources/langgraph-agent-framework.md：LangChain 官方低阶 Agent 编排框架（33,900+ Stars），图结构编排 + Checkpointer + HITL + 子图，vs AutoGen/CrewAI 对比
+- **Function Calling** → sources/function-calling-mechanism.md：工具调用三步流程（判断/执行/回传），Schema 定义，finish_reason 详解，多工具多轮循环
+- **LLM Chat Completion API** → sources/llm-chat-completion-api.md：LLM 生成文本本质（预测下一个 token），messages 角色体系，Token 与上下文窗口
+- **DeepSeek API 多轮对话** → sources/deepseek-api-call-multiturn.md：环境准备、OpenAI 兼容调用、对话循环，最基础的「记忆」
+- 配图：4 张（仅最后一篇有 2 张）
+
+---
+
 ## [2026-08-15] ingest: 微软开源 AutoGen 多智能体框架
 
 - 归档《微软开源 AutoGen：让 AI Agent 真正「对话起来」的多智能体框架》微信公众号至 sources/microsoft-autogen-multagent.md
