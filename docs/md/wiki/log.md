@@ -11,6 +11,12 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-16] ingest: 升维思考，降维做事
+
+- 归档《有一种赚钱的方式叫做：升维思考，降维做事》至 sources/升维思考降维做事.md（微信公众号：澎湃王侯，2026-08-16，《低成本创收图谱》第二期）
+- 5 张配图
+- 内容摘要：升维≠想得深，升维=换牌桌；降维≠放低身段，降维=搞翻译；解释权是入场券，谁能把专业翻译成人话谁就能进场；三层金字塔（执行层→翻译层→规则层）；自媒体是工具AI是提效；核心是赚认知差而非辛苦钱
+
 ## [2026-08-16] ingest: Book Smart 与 Street Smart 的合流
 
 - 归档《Book Smart 与 Street Smart 的合流》至 sources/book-smart-vs-street-smart.md（X/Twitter：Ashlyn He @AshlynHe1129，2026-01-31，18.1万浏览）
