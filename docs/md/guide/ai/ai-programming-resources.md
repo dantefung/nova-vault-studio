@@ -119,6 +119,7 @@ date: "2026-05-05"
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) — Agent 触达能力扩展
 - [技能商店 Skill Store](https://github.com/anbeime/skill) — AI 技能的 App Store，每 24 小时自动同步 awesome-agent-skills，收录最全更新最快的 AI Agent 技能库
 - [AgentKey](https://agentkey.app/@cirila) — 一句话命令安装到 Codex/龙虾/Claude Code，自动化采集小红书、抖音、快手、B站、微博、知乎、Youtube 等平台公开内容、评论、点赞、转发，降低调研搬运门槛
+- [career-assets-skill](https://github.com/Ivor-NCUT/career-assets-skill) — 职业资产 Agent Skill，通过读材料和深度访谈沉淀长期职业主档（`职业经历.md`），针对岗位派生可迭代简历，投递/面试反馈回流更新主档；核心差异：不是润色简历而是从真实经历和证据出发构建可复用的长期资产，包含"保真底稿"与"强化建议"双层机制确保真实性
 - [jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) — 剪映/Capcut/即梦 AI 内容创作相关 Skill
 - [AI-Coding-Guide-Zh](https://github.com/KimYx0207/AI-Coding-Guide-Zh) — 中文 AI Coding 指南
 - [xiaohu-ip-studio](https://github.com/xiaohailabs/xiaohu-ip-studio) — IP Studio
