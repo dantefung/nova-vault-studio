@@ -190,7 +190,7 @@ date: "2026-05-05"
 ## AI Agent 入门
 
 - [hello-generic-agent](https://github.com/datawhalechina/hello-generic-agent) — Datawhale 出品的 Generic Agent 教程，18 章，覆盖安装/浏览器能力/四层记忆/自我进化/案例，404 stars
-- [ai-agent-book](https://github.com/bojieli/ai-agent-book) — AI Agent 实战教程，[在线阅读](https://bojieli.github.io/ai-agent-book/)，覆盖 Agent 核心概念、工具调用、工作流编排、部署运维
+- [ai-agent-book](https://github.com/bojieli/ai-agent-book) — 李博杰著，开源电子书，[在线阅读](https://bojieli.github.io/ai-agent-book/)，含 [PDF 下载](https://github.com/bojieli/ai-agent-book/blob/main/book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.2.pdf)。《深入理解 AI Agent：设计原理与工程实践》，分享大量实践经验和判断，告诉做 Agent 各个方面面临什么问题、怎么解决、有哪些坑。核心价值：Agent 架构设计原则——cache 优化设计是必须的、工具描述的核心是让 LLM 知道"什么时候用"而不只是"能做什么"、Code Agent 是通用 Agent 核心元能力。作者兼具深厚理论功底和工程判断力
 - [hello-agents](https://github.com/datawhalechina/hello-agents) — Datawhale 出品的零基础 Agent 入门教程
   - [在线阅读](https://hello-agents.datawhale.cc/#/) — Web 版本
 - [build-coding-agent-context-engineering](https://github.com/phodal/build-coding-agent-context-engineering) — 从 Prompt 到上下文工程构建 AI Agent，零基础指南
@@ -340,7 +340,6 @@ date: "2026-05-05"
 ## 书籍与白皮书
 
 - [FDE 前线部署工程师指南](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) — 范冰（XDash）著，**1.5k Stars**。免费公开全文，从零入门 FDE（Forward Deployed Engineer）。基于《增长黑客》原书框架，聊清楚三件事：FDE 是什么（从 Palantir 情报项目长出的角色，AI 时代爆发）、怎么做（找对问题→赢得客户→激活部署→守住续约→扩大收入→规模化复制）、谁在做（112 个真实案例）。含 PDF 整本下载。非商业性分享免费
-- [深入理解 AI Agent：设计原理与工程实践](https://github.com/bojieli/ai-agent-book) — 李博杰著，开源电子书。从设计原理到工程实践系统讲解 AI Agent，含 [PDF 下载](https://github.com/bojieli/ai-agent-book/blob/main/book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.2.pdf)
 
 ## 其他
 
