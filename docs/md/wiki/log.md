@@ -47,6 +47,12 @@ source: "llm-wiki"
 - 无配图
 - 内容摘要：个人成长中两种"聪明"必须合流——book smart（书本智慧/逻辑推演）vs street smart（街头智慧/实战判断），作者从牛津AI初创的"漂浮感"到深圳团队的"接地气"经历，核心观点"看得见结构，摸得到泥土"
 
+## [2026-08-16] ingest: Web 出海之反查网站作者的其他站和 sitemap 游戏监控站
+
+- 归档《Web 出海之反查网站作者的其他站和 sitemap 游戏监控站》至 sources/web-haichuang-pinterest.md（微信公众号：独元殇，2026-08-09）
+- 1 张配图
+- 内容摘要：AI Web 出海实操笔记——Pinterest 引流（精准流量、审美参考）；反查网站作者的其他站（PubSpy 通过 Adsense pub 编号反查 + sitedata 查推广历史）；游戏词跟踪 sitemap 选站（群友 humphrey 分享）
+
 ## [2026-08-16] ingest: 你以为是你在拍板——真拍板完整版
 
 - 归档《你以为是你在拍板：假拍板与真拍板（完整版）》至 sources/假拍板-完整版.md
