@@ -11,6 +11,12 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-16] ingest: AgentScope Java 2.0 Workspace——大脑外化
+
+- 归档《AgentScope Java 2.0 工作区Workspace —— "大脑外化"》至 sources/AgentScope-Workspace.md（微信公众号：一灰灰blog，2026-07-31）
+- 4 张配图（2 JPEG + 2 WebP）
+- 内容摘要：AgentScope Java 2.0 Workspace 机制深度拆解，核心范式"代码定义Agent→文件定义Agent"，AGENTS.md定义人格/MEMORY.md沉淀记忆/两层记忆架构（日记本+整理笔记）/三次LLM调用流水线/每轮推理重新加载文件/迭代速度从周级别到秒级别
+
 ## [2026-08-16] ingest: AI Video 产品竞品调研报告
 
 - 归档《AI Video 产品竞品调研报告》至 sources/AI-Video竞品调研.md（微信公众号：Corly，2026-08-15）
