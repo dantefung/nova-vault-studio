@@ -11,6 +11,12 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-16] ingest: Vibe Coding 技巧——Karpathy三层工具组合
+
+- 归档《我这半年看过最好的 Vibe Coding 技巧》至 sources/VibeCoding技巧.md（微信公众号：池建强，2025-09-01，解读Karpathy X推文）
+- 1 张配图
+- 内容摘要：Karpathy的Vibe Coding 2.0三层工作流——Cursor自动补全(4/5时间)→Claude/Codex(规模生成)→GPT-5 Pro(疑难救火)，核心观点"不要找万能工具，建立工具组合"，"用代码演示而非自然语言驱动模型"，"后代码稀缺时代"
+
 ## [2026-08-16] ingest: 两个月20多个App——AI开发流水线
 
 - 归档《两个月做了20多个App，我是怎么用AI把开发变成流水线的》至 sources/两个月20个App.md（微信公众号：jackiexiao/Maker Jackie，2026-08-15）
