@@ -11,6 +11,12 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-16] ingest: Book Smart 与 Street Smart 的合流
+
+- 归档《Book Smart 与 Street Smart 的合流》至 sources/book-smart-vs-street-smart.md（X/Twitter：Ashlyn He @AshlynHe1129，2026-01-31，18.1万浏览）
+- 无配图
+- 内容摘要：个人成长中两种"聪明"必须合流——book smart（书本智慧/逻辑推演）vs street smart（街头智慧/实战判断），作者从牛津AI初创的"漂浮感"到深圳团队的"接地气"经历，核心观点"看得见结构，摸得到泥土"
+
 ## [2026-08-16] ingest: 你以为是你在拍板——三种假拍板
 
 - 归档《你以为是你在拍板：情绪、模型、人群，三个替你签字的东西》至 sources/假拍板.md（微信公众号：袁锐钦，2026-08-11）
