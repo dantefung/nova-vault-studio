@@ -96,6 +96,7 @@ date: "2026-05-05"
 
 ## 设计工具 Skills
 
+- [diagram-design](https://github.com/cathrynlavery/diagram-design) — **19K Stars**，29 种编辑级图表类型（架构图/流程图/时序图/状态机/ER/时间线/泳道/四象限/树/组织图/Venn/金字塔/雷达/循环/甘特图等），单文件自包含 HTML+SVG，无阴影无 Mermaid-slop。支持 Claude Code/Codex/Pi 三大 Agent 平台，60 秒通过 onboarding 匹配品牌色/字体。支持 draw.io/Mermaid 导入重绘，可选可访问动效，PNG/SVG 导出。设计理念：1 个强调色、1-2 个焦点元素、所有尺寸按 4px 网格、密度目标 4/10
 - [Taste Skill](https://github.com/Leonxlnx/taste-skill) — 22.7K Stars，给 AI 编程好品味的技能包，专门解决 AI 生成 UI 的"塑料味"问题，让 AI 输出更像"人写的"。单句≤25字、禁用词表、TDD 式质量铁律，22,704 stars
 - [Vercel 设计规范 Review](https://vercel.com/design) — 用 Claude 读取 Vercel 设计规范文档，对比你的产品设计挑毛病。Prompt 模板：「请访问 vercel.com/design.md 和 vercel.com/design.dark.md，读取 Vercel 的设计规范。然后看看我的产品，对比这套规范，告诉我我现在设计上最明显的问题是什么，以及怎么改。」
 - [bggg-skills](https://github.com/bggg-ai/bggg-skills) — 饼干（@bggg_ai）的 Codex Skills 仓库
