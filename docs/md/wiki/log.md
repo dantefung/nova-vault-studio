@@ -59,6 +59,12 @@ source: "llm-wiki"
 - 无配图
 - 内容摘要：本体论三层含义（哲学/IT/AI），Palantir三步落地（语义层→动力层→动态层），Function只读不写vs Action改动状态，语言本身必然失真（维特根斯坦"不可说"），AI三个死穴（无直觉、不懂意义、无法创造），核心金句"名字是用来吓人的，代码才是用来干活的"
 
+## [2026-08-18] ingest: 从架构到 Agent 工作流，聊聊 DSH 插件该怎么选
+
+- 归档《从架构到 Agent 工作流，聊聊 DSH 插件该怎么选》至 sources/dsh-plugins.md（微信公众号：架构师，若飞，2026-08-17）
+- 3 张配图
+- 内容摘要：DSH插件选型指南，按四层划分（交互入口/Agent工具/跨会话状态/调度与工作流）；推荐安装顺序 dsh-at-file→better-sidebar/TUI→Vision Toolkit→Mnemon→Automation/Workflow；核心观点"关掉以后还会留下什么"，Profile不是安全沙箱，锁版本+留锁文件
+
 ## [2026-08-17] ingest: Hello Harness 03 · Streaming 流式输出
 
 - 归档《Hello Harness 03 · Streaming 流式输出》至 sources/hello-harness-streaming.md（微信公众号：一灰灰blog，2026-08-17）
