@@ -47,6 +47,12 @@ source: "llm-wiki"
 - 无配图
 - 内容摘要：个人成长中两种"聪明"必须合流——book smart（书本智慧/逻辑推演）vs street smart（街头智慧/实战判断），作者从牛津AI初创的"漂浮感"到深圳团队的"接地气"经历，核心观点"看得见结构，摸得到泥土"
 
+## [2026-08-17] ingest: 从零搭建 Harness——三个 Skill 打造懂你的 Agent
+
+- 归档《从零开始，搭建你的 Harness，定制化懂你的 Agent》至 sources/harness-three-skills.md（微信公众号：空格丶，2026-08-17）
+- 9 张配图（第8张无法下载）
+- 内容摘要：SpaceZephyr 开源三个 Harness 相关 Skill——star-your-harness（从零搭建目录骨架，问四问题后生成含CLAUDE.md/上下文/记忆/协议/工具五层结构）、better-your-harness（五层体检：安全隐私/上下文质量/工具装备/记忆学习，产出34项HTML报告+修复提示词）、view-your-harness（可视化工作台，文件按文档/代码/数据/图片分类卡片墙+Skill管理）；核心理念——"有了属于自己的 Harness，不管换什么 Agent 都能无缝衔接"
+
 ## [2026-08-16] ingest: Web 出海之反查网站作者的其他站和 sitemap 游戏监控站
 
 - 归档《Web 出海之反查网站作者的其他站和 sitemap 游戏监控站》至 sources/web-haichuang-pinterest.md（微信公众号：独元殇，2026-08-09）
