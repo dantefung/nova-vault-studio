@@ -47,6 +47,12 @@ source: "llm-wiki"
 - 无配图
 - 内容摘要：个人成长中两种"聪明"必须合流——book smart（书本智慧/逻辑推演）vs street smart（街头智慧/实战判断），作者从牛津AI初创的"漂浮感"到深圳团队的"接地气"经历，核心观点"看得见结构，摸得到泥土"
 
+## [2026-08-17] ingest: Hello Harness 03 · Streaming 流式输出
+
+- 归档《Hello Harness 03 · Streaming 流式输出》至 sources/hello-harness-streaming.md（微信公众号：一灰灰blog，2026-08-17）
+- 4 张配图（含2张GIF转PNG）
+- 内容摘要：Agent Harness 流式输出实践，将模型输出从 Promise 换成 `AsyncIterable<ModelEvent>` 异步迭代器；核心抽象 `ModelEvent` 判别联合（content 增量事件 + usage 收尾事件），是第15章完整 Event System 的最小种子；感知延迟从"总生成时间"降为"首token时间"；可观察性升级（首token/总耗时/token用量量化可见）；新架构引入的事件判别/错误处理/类型膨胀等问题为下一章 Model Provider 抽象铺路
+
 ## [2026-08-17] ingest: 从零搭建 Harness——三个 Skill 打造懂你的 Agent
 
 - 归档《从零开始，搭建你的 Harness，定制化懂你的 Agent》至 sources/harness-three-skills.md（微信公众号：空格丶，2026-08-17）
