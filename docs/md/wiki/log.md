@@ -65,6 +65,12 @@ source: "llm-wiki"
 - 3 张配图
 - 内容摘要：DSH插件选型指南，按四层划分（交互入口/Agent工具/跨会话状态/调度与工作流）；推荐安装顺序 dsh-at-file→better-sidebar/TUI→Vision Toolkit→Mnemon→Automation/Workflow；核心观点"关掉以后还会留下什么"，Profile不是安全沙箱，锁版本+留锁文件
 
+## [2026-08-18] ingest: AI 写的代码，我从来不逐行 review：我只看它能炸多大
+
+- 归档《AI 写的代码，我从来不逐行 review：我只看它能炸多大》至 sources/ai-code-review-blast-radius.md（微信公众号：编程一生，2026-08-18）
+- 无配图
+- 内容摘要：AI代码review不应逐行看，应分两层——第一关机器负责"对不对"（真启动跑集成测试，4个动作：贴接口返回/贴日志/测试先挂再改/点名异常），第二关人负责"能炸多大"（三圈：代码引用数/老数据兼容性/发版时正在跑的数据），核心观点"AI有全世界的知识，但没有你们公司的记忆"，附放行清单按改动类型分五档
+
 ## [2026-08-17] ingest: Hello Harness 03 · Streaming 流式输出
 
 - 归档《Hello Harness 03 · Streaming 流式输出》至 sources/hello-harness-streaming.md（微信公众号：一灰灰blog，2026-08-17）
