@@ -235,6 +235,12 @@ wiki/
 | [dsh-tech-hype-or-not](/md/wiki/sources/dsh-tech-hype-or-not) | DeepSeek Harness 是技术人自嗨？反驳批评，从四种工作模式与 Cordis 插件架构看 DSH 真正的差异化 | 公众号 |
 | [dsh-tech-hype-or-not-summary](/md/wiki/summaries/dsh-tech-hype-or-not) | DSH 四模式与 Cordis 插件架构精读：Harness 是工程系统而非产品功能，四模式 = 四份插件清单 | Wiki 摘要 |
 | [dsh-four-modes](/md/wiki/patterns/dsh-four-modes) | DSH 四种工作模式：插件清单驱动的 Agent 能力切换，preset 抽象让「切换模式」=「换职业」 | Wiki 推导 |
+| [dsh-vs-continuum-acp](/md/wiki/sources/dsh-vs-continuum-acp) | DSH 临时 Plugin 挂载不是自我进化：从 Runtime 实验走向工程闭环，四类基础设施缺一不可 | X |
+| [dsh-vs-continuum-acp-summary](/md/wiki/summaries/dsh-vs-continuum-acp) | DSH 工程比较与自修改治理精读：Cordis 边界 + Self-Harness/DGM + 组件组合非线性 + 四类工程闭环 | Wiki 摘要 |
+| [agent-self-modification-closure](/md/wiki/concepts/agent-self-modification-closure) | Agent 自修改的工程闭环：临时插件挂载只是 candidate，评测/隔离/发布/责任归属缺一不可 | Wiki 推导 |
+| [dsh-complete-guide](/md/wiki/sources/dsh-complete-guide) | DSH 完全指南：浏览器优先 + 133 插件 + config 关闭任意插件 + trajectory 视图 + headless/CI/MCP | X |
+| [dsh-complete-guide-summary](/md/wiki/summaries/dsh-complete-guide) | DSH 完全指南精读：浏览器应用、MCP 配置、Trajectory 暴露、profile 抽象 vs 闭源 CLI 的工程差异 | Wiki 摘要 |
+| [dsh-browser-first-configurable-harness](/md/wiki/concepts/dsh-browser-first-configurable-harness) | 浏览器优先的完全可配置 Harness：DSH 与 Claude Code/Codex 的四项核心工程差异 | Wiki 推导 |
 
 ### 商业模式 (Business Models)
 

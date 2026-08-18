@@ -10,7 +10,23 @@ source: "llm-wiki"
 > 格式：`## [YYYY-MM-DD] 操作类型: 简要描述`
 
 ---
+## [2026-08-17] ingest: DSH 临时 Plugin 挂载不是自我进化——Runtime 实验走向工程闭环
 
+- 归档《从 Runtime 实验走向工程闭环》至 sources/dsh-vs-continuum-acp.md（X/Twitter：@JoeyDeepWorld，2026-08-17）
+- 2 张配图（已下载到 images/dsh-vs-continuum-acp/）
+- 新增 summaries/dsh-vs-continuum-acp.md
+- 新增 concepts/agent-self-modification-closure.md（自修改工程闭环四类基础设施推导）
+- 更新 wiki/index.md，新增 dsh-vs-continuum-acp 系列索引
+- 内容摘要：从工程视角比较 DSH 与作者自研 Continuum/ACP——DSH 临时 Plugin 挂载只是 candidate 起点，要成为正式版本需补齐可信评测/正式发布链路/强隔离与最小权限/责任归属四类基础设施；Cordis 解决组件生命周期但不替代 Agent 行为正确性证明；Self-Harness 与 DGM 等自修改研究在受控基准展示了增益（最高 132% 相对增益）但未证明生产系统任意组件替换；跨组件组合具有非线性（HotpotQA 仅工具配置高于全组件）；关键判断要严格分离"提出修改 ≠ 运行 ≠ 通过检查 ≠ 成为正式版本"
+
+## [2026-08-15] ingest: DeepSeek Harness 完全指南——浏览器优先、133 插件、config 关闭任意插件
+
+- 归档《DeepSeek Harness: the complete guide》至 sources/dsh-complete-guide.md（X/Twitter：@phosphenq，2026-08-15）
+- 6 张配图（3 jpg + 3 png，已下载到 images/dsh-complete-guide/）
+- 新增 summaries/dsh-complete-guide.md
+- 新增 concepts/dsh-browser-first-configurable-harness.md（浏览器优先 vs 闭源 CLI 的四项工程差异推导）
+- 更新 wiki/index.md，新增 dsh-complete-guide 系列索引
+- 内容摘要：从运行实例写就的 DSH 全套使用手册——DSH 是浏览器应用（npx @deepseek-ai/dsh web → 127.0.0.1:3080）而非终端应用；默认安装 133 个插件，config 文件能关闭任意插件包括 sidebar 和 agent loop；headless profile 一次性任务 + exit code 反馈；profile = 命名插件清单 + 权限边界（minimal/standard/code/cordis）；Trajectory 视图暴露完整执行真相；MCP server 以 mcp__<server>__<tool> 注册，HMR 热插拔；安全默认 workspace-write 但读/网络/进程不限，遥测默认关闭；典型命令包括 dsh plugin add/profile 管理与 --patch 覆盖
 ## [2026-08-18] ingest: DeepSeek Harness 是技术人自嗨炫技？
 
 - 归档《DeepSeek Harness 是技术人自嗨炫技？》至 sources/dsh-tech-hype-or-not.md（微信公众号：轩辕之风，2026-08-18）
