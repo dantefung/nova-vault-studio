@@ -12,6 +12,7 @@ source: "原创"
 
 ## 目录结构
 
+- [ai-resources/](./ai-resources/) — AI 资源全景地图（100+ 分类，600+ 资源链接）
 - [industrial-agent-practice/](./industrial-agent-practice/) — 工业 AI Agent 实战派（7 篇，LangChain4j 入门到框架深析）
 - [agent-production-notes/](./agent-production-notes/) — Agent 生产实战笔记（11 篇，工业 Agent 生产化全流程）
 - [agentscope/](./agentscope/) — AgentScope 迁移系列（10 篇，从迁移动机到实战复刻）

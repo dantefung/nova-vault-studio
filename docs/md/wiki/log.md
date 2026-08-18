@@ -129,6 +129,13 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-18] ingest: AI 资源全景地图
+
+- 归档《AI 资源全景地图》至 sources/anything-about-ai-resources.md（GitHub: killop/anything_about_game/AI.md）
+- 174KB / 1925 行 / 100+ 分类 / 600+ 资源链接
+- 覆盖：AI 资讯、AIGC、游戏 AI、MCP、Agent 框架、编码 Agent、记忆系统、RAG、工作流编排、研究工具等
+- 同时新建 agentic-engineer 下 ai-resources/ 专栏，按 10 大主题索引
+
 ## [2026-08-18] ingest: 工业 AI Agent 实战派（7 篇专辑系列）
 
 - 归档 7 篇「工业 AI Agent 实战派」专辑文章至 sources/（微信公众号：老梁agent，2026-06-02 至 2026-06-09）
