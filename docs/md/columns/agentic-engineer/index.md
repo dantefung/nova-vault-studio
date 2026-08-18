@@ -12,6 +12,7 @@ source: "原创"
 
 ## 目录结构
 
+- [agentscope/](./agentscope/) — AgentScope 迁移系列（10 篇，从迁移动机到实战复刻）
 - [gstack/](./gstack/) — GStack/GSD 快速入门、架构设计与使用手册
 - [oh-my-claudecode/](./oh-my-claudecode/) — oh-my-claudecode 架构与多 Agent 编排
 - [agent-paradigm-evolution/](./agent-paradigm-evolution/) — Agent 范式演进与架构深度剖析
