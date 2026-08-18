@@ -129,6 +129,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-14] ingest: 国产 AI 应用三剑客：AgentScope、WorkBuddy 和 DS-Harness
+
+- 归档《国产 AI 应用三剑客：AgentScope、WorkBuddy 和 DS-Harness》至 sources/three-chinese-ai-tools.md（微信公众号：老马，2026-08-14）
+- 无配图（纯文字短文）
+- 内容摘要：对比三剑客定位差异——WorkBuddy（闭源成品桌面软件，面向终端用户零代码上手，兼容 OpenClaw Skills，适合小微企业）；DS-Harness（开源轻量底座，Cordis 元框架，一切皆插件，插件加载+依赖管理+事件总线，开发者预览版有破坏性变更风险，适合中小团队验证原型）；AgentScope（阿里 Apache2.0 企业级框架，多智能体协作+分布式+沙箱+全链路追踪+审计，双模调度 AI 推理/Workflow，架构偏重，适合大型机构）；赛道展望：AI 落地分化三条路线（成品工具/轻量底座/工程框架），另有第四条折中方案（吸收架构思想自研）；核心观点"模型决定上限，运行底座决定能否落地"
+
 ## [2026-07-21] ingest: 我用阿里 AgentScope 复刻了一个 WorkBuddy
 
 - 归档《我用阿里 AgentScope 复刻了一个 WorkBuddy》至 sources/agentscope-workbuddy.md（微信公众号：叶小钗，2026-07-21）
