@@ -129,6 +129,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-07-28] ingest: 把 Agent 的「经验」固化为可复用的流程：Skill 与 Workflow 引擎
+
+- 归档《把 Agent 的「经验」固化为可复用的流程：Skill 与 Workflow 引擎》至 sources/agentscope-skill-workflow-engine.md（微信公众号：老梁agent，2026-07-28）
+- 1 张配图（架构图）
+- 内容摘要：工业 AI Agent 项目从 MVP 到生产级的架构演进——五个 Expert 各写一套重复代码，Router/Supervisor 硬编码 switch 分发，新增 Expert 要改三个文件（散弹式修改）；Step1 Skill 接口（三个方法 chat/skillName/description，Spring 自动收集 List`<Skill>` 注入，新增 Expert 零改动自动发现）；Step2 SkillTemplate 基类（PromptCompiler 运行时动态编译 System Prompt，替代 @SystemMessage 编译时固定；工具子集过滤，只给技能需要的工具不暴露全部）；Skill vs SkillTemplate（接口轻量兼容已有 Expert vs 基类动态 Prompt 编排新技能）；Workflow YAML 配置（七个节点六条边串行链：查告警→查数据→搜知识库→诊断→创建工单→审批→通知）；四种节点类型（EXPERT_CALL/TOOL_CALL/APPROVAL/NOTIFY）；引擎执行（Kahn 拓扑排序+上下文累积+审批暂停）；与 Router/Supervisor 协作（WORKFLOW 意图关键词匹配，工作流优先跳过 LLM 任务规划）；扩展方向（并行节点/条件分支/自定义 NodeExecutor/动态加载）；谁来定义 Workflow（当前手写为主，预留模型生成+人工审核端点）；核心观点「Skill 把能力模块化，Workflow 把模块流程化」
+
 ## [2026-07-29] ingest: Java AI Agent 框架横向对比
 
 - 归档《Java AI Agent 框架横向对比：AgentScope vs LangChain4j vs LangGraph4j vs Spring AI Alibaba》至 sources/java-agent-frameworks-comparison.md（微信公众号：老梁agent，2026-07-29）
