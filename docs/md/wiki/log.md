@@ -129,6 +129,26 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-18] ingest: Agent 生产实战笔记（11 篇专题系列）
+
+- 归档 11 篇生产级 Agent 系统设计系列文章至 sources/（微信公众号：老梁agent，2026-07-02 至 2026-07-27）
+- 全部纯文字，无配图
+- 系列主题覆盖：系统设计架构 → 体检清单 → 工具层 → Runtime 状态机 → 可观测性 → 调试追踪 → 记忆模型 → Prompt 编译引擎 → 调度并发 → SideCar → RAG 混合检索
+
+| # | 日期 | 文章 |
+|---|------|------|
+| 01 | 07-02 | [企业生产级 AI Agent 系统设计：能力、架构与演进路径](./sources/agent-production-architecture.md) |
+| 02 | 07-03 | [你的 Agent 离生产级还有多远？一份开箱即用的体检清单](./sources/agent-production-checklist.md) |
+| 03 | 07-06 | [生产级 Agent 的工具层：从「函数裸调」到「受控执行单元」](./sources/agent-tool-layer.md) |
+| 04 | 07-07 | [Agent Runtime 状态机：让 AI 推理每一步都可暂停、可回放、可审计](./sources/agent-runtime-state-machine.md) |
+| 05 | 07-08 | [Agent 可观测性实战：全链路追踪 + JSON 结构化日志](./sources/agent-observability.md) |
+| 06 | 07-10 | [为什么你的 Agent 答错问题你查不出来？](./sources/agent-debug-trace.md) |
+| 07 | 07-14 | [Agent 记忆的四层存储模型：从 20 条滑窗到长期可演进记忆](./sources/agent-memory-four-tier.md) |
+| 08 | 07-17 | [告别硬编码 System Prompt：Prompt 六层编译引擎设计与实现](./sources/prompt-six-layer-compiler.md) |
+| 09 | 07-20 | [Agent 调度与并发：读写分离、SSE 早返回与异步 SideCar](./sources/agent-scheduling-concurrency.md) |
+| 10 | 07-22 | [Agent 系统的 SideCar 模式：主链路之外的异步能力](./sources/agent-sidecar-pattern.md) |
+| 11 | 07-27 | [从单一向量到多路召回：RAG 混合检索的工程实践](./sources/rag-hybrid-retrieval.md) |
+
 ## [2026-07-28] ingest: 把 Agent 的「经验」固化为可复用的流程：Skill 与 Workflow 引擎
 
 - 归档《把 Agent 的「经验」固化为可复用的流程：Skill 与 Workflow 引擎》至 sources/agentscope-skill-workflow-engine.md（微信公众号：老梁agent，2026-07-28）

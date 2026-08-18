@@ -12,6 +12,7 @@ source: "原创"
 
 ## 目录结构
 
+- [agent-production-notes/](./agent-production-notes/) — Agent 生产实战笔记（11 篇，工业 Agent 生产化全流程）
 - [agentscope/](./agentscope/) — AgentScope 迁移系列（10 篇，从迁移动机到实战复刻）
 - [gstack/](./gstack/) — GStack/GSD 快速入门、架构设计与使用手册
 - [oh-my-claudecode/](./oh-my-claudecode/) — oh-my-claudecode 架构与多 Agent 编排
