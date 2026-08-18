@@ -71,6 +71,12 @@ source: "llm-wiki"
 - 无配图
 - 内容摘要：AI代码review不应逐行看，应分两层——第一关机器负责"对不对"（真启动跑集成测试，4个动作：贴接口返回/贴日志/测试先挂再改/点名异常），第二关人负责"能炸多大"（三圈：代码引用数/老数据兼容性/发版时正在跑的数据），核心观点"AI有全世界的知识，但没有你们公司的记忆"，附放行清单按改动类型分五档
 
+## [2026-08-09] ingest: 遇到好 Skill 别急着装：从拆解到融合的完整实践
+
+- 归档《遇到好 Skill 别急着装：从拆解到融合的完整实践》至 sources/human-writing-skill.md（微信公众号：Johnson，2026-08-09）
+- 3 张配图
+- 内容摘要：从发现 human-writing（2000 Star通用中文写作Skill）到深度拆解、对比自有 wechat-tech-article Skill、最终融合改进的完整过程；human-writing 6个核心设计（材料门槛/说话位置/修辞动作禁令/正向示范/七遍改稿/量化检测），5项具体优化（材料清点/翻案腔禁令升级/check_style.py/说话位置锚定/正向示范），处理框架：拆解→判断装还是融→保留各自壁垒
+
 ## [2026-08-17] ingest: Hello Harness 03 · Streaming 流式输出
 
 - 归档《Hello Harness 03 · Streaming 流式输出》至 sources/hello-harness-streaming.md（微信公众号：一灰灰blog，2026-08-17）
