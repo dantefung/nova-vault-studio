@@ -83,6 +83,12 @@ source: "llm-wiki"
 - 11 张配图（原推特图、Reddit帖、评论区截图、AI对话演示截图）
 - 内容摘要：从Twitter截图到Reddit原帖发现steelman（钢人论证）概念，steelman是straw man（稻草人谬误）的反面——先把对方论点补完整到最强再反驳；作者设计双向钢人Prompt（4步：重述问题/双向钢人强化/找出关键变量/逼AI给明确判断），实战演示用司庆日选择案例验证效果；核心观点"AI最大的问题依然是谄媚，钢人论证能最大程度避免"
 
+## [2026-08-18] ingest: GPT-5.6 之后，Superpowers 可以卸载了
+
+- 归档《GPT-5.6 之后，Superpowers 可以卸载了》至 sources/superpowers-uninstall.md（微信公众号：意琦行 / 探索云原生，2026-08-18）
+- 4 张配图（封面、工作流对比图、SVG数据图表×2）
+- 内容摘要：GPT-5.6 Sol出现后Superpowers等通用AI编程Skill的价值下降；Comet Native模式（0.4.0-beta.7）去掉OpenSpec+Superpowers，仅保留Shape/Build/Verify/Archive四阶段，思路"过程放松结果收紧"；官方96次实验结果：pass@3均100%但Native总Token降76.8%、成本降75.1%、Agent轮次减半；核心观点"通用Skill被模型和Runtime内化，垂直Skill（私有知识/专属执行能力/业务边界）才能长期保留"
+
 ## [2026-08-03] ingest: 从进程到进程组：Linux 组调度背后的公平性重构
 
 - 归档《从进程到进程组：Linux 组调度背后的公平性重构》至 sources/linux-group-scheduling.md（微信公众号：程序员学习随笔，2026-08-03）
