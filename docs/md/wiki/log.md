@@ -129,6 +129,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-07-21] ingest: 我用阿里 AgentScope 复刻了一个 WorkBuddy
+
+- 归档《我用阿里 AgentScope 复刻了一个 WorkBuddy》至 sources/agentscope-workbuddy.md（微信公众号：叶小钗，2026-07-21）
+- 29 张配图（AgentScope 介绍、组织生态、模型管理、Toolkit 架构、权限系统、审批流程、四层工具架构等），2 张压缩（841KB→150KB、360KB→56KB）
+- 内容摘要：用 AgentScope 框架复刻 mini-WorkBuddy 的完整实践——AgentScope 是阿里开源的 Agent 开发框架（核心能力：模型对接、工具调用/MCP、Skill 执行、消息上下文、ReAct、多 Agent 协作、追踪调试）；AgentScope-AI 组织含 Runtime/Java/Studio/Samples 多个项目；模型配置层用 Credential+模型族，项目外层维护 workspace/models.json 管理多模型；工具层用 Toolkit 容器管理 Tool/MCP/Skill/ToolGroup 四类，显式注册六个通用工具；权限层五种模式（DEFAULT/ACCEPT_EDITS/EXPLORE/BYPASS/DONT_ASK），mini-WorkBuddy 映射为三档（默认/自动审批/完全放行）；PermissionRule 支持自定义规则（tool_name+rule_content+behavior+source）；审批流程通过 PendingApproval+ConfirmationBatch 管理；最后按四层架构整理工具体系
+
 ## [2026-08-15] ingest: 我的第一个 DSH Plugin 诞生，还推了官方 PR
 
 - 归档《我的第一个 DSH Plugin 诞生，还推了官方 PR》至 sources/my-first-dsh-plugin-pr.md（微信公众号：itr-del，2026-08-15）
