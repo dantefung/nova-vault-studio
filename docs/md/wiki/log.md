@@ -83,6 +83,12 @@ source: "llm-wiki"
 - 11 张配图（原推特图、Reddit帖、评论区截图、AI对话演示截图）
 - 内容摘要：从Twitter截图到Reddit原帖发现steelman（钢人论证）概念，steelman是straw man（稻草人谬误）的反面——先把对方论点补完整到最强再反驳；作者设计双向钢人Prompt（4步：重述问题/双向钢人强化/找出关键变量/逼AI给明确判断），实战演示用司庆日选择案例验证效果；核心观点"AI最大的问题依然是谄媚，钢人论证能最大程度避免"
 
+## [2026-08-18] ingest: Hello Harness 04 · Model Provider 抽象
+
+- 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
+- 3 张配图（架构图、运行 Demo）
+- 内容摘要：Hello Harness 系列第4章，第一次真正的架构抽象——定义与Provider无关的Model接口（generate+stream），将OpenAI实现收进src/model/openai.ts，应用层index.ts不再import OpenAI SDK；核心收获：可换（换Provider只需换实现文件）、可读（应用层干净）、可测（FakeModel不联网跑通）、可演进（Agent Loop挂Model接口上）；引入的新代价：每个Provider都要写样板实现、接口只有一个实现时说服力不足、错误类型仍裸着
+
 ## [2026-08-18] ingest: AI时代对抗软件规模与复杂度的战争：救命、治病、养生（下篇）
 
 - 归档《AI时代对抗软件规模与复杂度的战争：救命、治病、养生（下篇）》至 sources/ai-complexity-war-part2.md（微信公众号：茹炳晟+AI，2026-08-18）
