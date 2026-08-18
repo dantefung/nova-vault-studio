@@ -101,6 +101,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：读Cordis论文《A Programming Paradigm for Spatiotemporal Composability》(北大+DeepSeek)的心得——拆干净的两条数学条件（时间上逆序复原、空间上依赖声明自动配好），"干净"不是物理还原而是观感等价；核心对比pi抽象"实体"（组装好的电脑）vs dsh抽象"规则"（怎么组电脑），维度差一阶（下棋规则vs一枚棋子）；最终判断框架"维度高是可能性大不是能力大，能力=可能性×落地质量"，"够用顺手拆得开比参数好看更重要"
 
+## [2026-08-14] ingest: 高强度用了一天 Deepseek Harness 有兴奋有悲伤
+
+- 归档《高强度用了一天 Deepseek Harness 有兴奋有悲伤》至 sources/one-day-dsh-experience.md（微信公众号：nigo，2026-08-14）
+- 14 张配图（安装界面、Web UI、插件安装、迁移过程、Token 用量、WorkBuddy 对比、课程二维码等）
+- 内容摘要：高强度使用 DSH 一天的体验——兴奋点：长时任务跑一天用 deepseek v4 flash 处理 6 亿 token，缓存命中 100%，opencode go 订阅月仅需 30 元（用量仅 3%），dsh 中 flash 效果可比 glm 5.2；悲伤点：同事用 WorkBuddy 发现 skill 管理分发、office 实时操作等功能齐备，感觉自己的系统白写了，随时可能被大厂功能替代；建议学通用 AI Agent 工具"学会手动档再会自动档"
+
 ## [2026-08-17] ingest: DSH 插件推荐清单
 
 - 归档《DSH 插件推荐清单：DeepSeek Harness 必装的 14 个插件》至 sources/dsh-plugin-recommendations.md（微信公众号：AI 架构师，2026-08-17）
