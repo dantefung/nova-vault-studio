@@ -95,6 +95,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-16] ingest: 实体抽象 vs 规则抽象
+
+- 归档《实体抽象 vs 规则抽象》至 sources/entity-vs-rule-abstraction.md（微信公众号：木鱼脑壳在，2026-08-16）
+- 无配图（纯文字短文）
+- 内容摘要：读Cordis论文《A Programming Paradigm for Spatiotemporal Composability》(北大+DeepSeek)的心得——拆干净的两条数学条件（时间上逆序复原、空间上依赖声明自动配好），"干净"不是物理还原而是观感等价；核心对比pi抽象"实体"（组装好的电脑）vs dsh抽象"规则"（怎么组电脑），维度差一阶（下棋规则vs一枚棋子）；最终判断框架"维度高是可能性大不是能力大，能力=可能性×落地质量"，"够用顺手拆得开比参数好看更重要"
+
 ## [2026-08-18] ingest: [Alan の手札] Pi-vs-dsh (DeepSeek-Harness) 全方位技术对比
 
 - 归档《[Alan の手札] Pi-vs-dsh (DeepSeek-Harness) 全方位技术对比》至 sources/pi-vs-dsh-alan.md（微信公众号：Alan Hsu，2026-08-18）
