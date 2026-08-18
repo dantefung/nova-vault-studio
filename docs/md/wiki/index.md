@@ -232,6 +232,9 @@ wiki/
 | [cordis-dsh-vs-pi](/md/wiki/sources/cordis-dsh-vs-pi) | Cordis 解决什么：DSH 用 Cordis 管理跨插件关系（Loader/Fiber/effect/Service/Context），Pi 把清理交给扩展作者。两条 Provider 变化路径 + 所有权规则 + 半途失败回收 | 公众号 |
 | [frontend-skill-team-coding](/md/wiki/sources/frontend-skill-team-coding) | 阿里云团队前端 Skill 驱动的团队 AI Coding 实践：五维结构（When/What/Don't-Why/How/Map）、四个落地案例（Status看板/CFD升级/AIOps设计直码/国际化流水线）、R2C 需求转代码 | 公众号 |
 | [langchain-agent-wechat](/md/wiki/sources/langchain-agent-wechat) | Node + LangChain.js v1 搭公众号 Agent 流水线：七步落地 ReAct/Harness/MCP/SubAgent/Skill，DeepSeek V4 双模型分工，8 个避坑 | 公众号 |
+| [dsh-tech-hype-or-not](/md/wiki/sources/dsh-tech-hype-or-not) | DeepSeek Harness 是技术人自嗨？反驳批评，从四种工作模式与 Cordis 插件架构看 DSH 真正的差异化 | 公众号 |
+| [dsh-tech-hype-or-not-summary](/md/wiki/summaries/dsh-tech-hype-or-not) | DSH 四模式与 Cordis 插件架构精读：Harness 是工程系统而非产品功能，四模式 = 四份插件清单 | Wiki 摘要 |
+| [dsh-four-modes](/md/wiki/patterns/dsh-four-modes) | DSH 四种工作模式：插件清单驱动的 Agent 能力切换，preset 抽象让「切换模式」=「换职业」 | Wiki 推导 |
 
 ### 商业模式 (Business Models)
 

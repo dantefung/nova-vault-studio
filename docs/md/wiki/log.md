@@ -11,6 +11,15 @@ source: "llm-wiki"
 
 ---
 
+## [2026-08-18] ingest: DeepSeek Harness 是技术人自嗨炫技？
+
+- 归档《DeepSeek Harness 是技术人自嗨炫技？》至 sources/dsh-tech-hype-or-not.md（微信公众号：轩辕之风，2026-08-18）
+- 18 张配图（已下载到 images/dsh-tech-hype-or-not/，webp 转 jpg 处理）
+- 新增 summaries/dsh-tech-hype-or-not.md
+- 新增 patterns/dsh-four-modes.md（DSH 四模式插件清单切换模式推导）
+- 更新 wiki/index.md，新增 dsh-tech-hype-or-not 系列索引
+- 内容摘要：从工程视角反驳"技术人自嗨"批评——Harness 是工程系统而非产品功能；DSH 四种工作模式（标准/PTC/极简/创造）实质是同一 Harness 内加载的四份插件清单（preset）；PTC 把工具组合改成写程序调度工具；极简模式只保留 Bash+str_replace_editor 用于模型评测；创造模式让 Agent 自己组合插件创建新 preset；Cordis 插件框架（MIT，独立开源）是 DSH 自由组合的关键，DSH 把固定版本 Cordis 源码放进 vendor 目录；作者实测把"B 站 UP 主数据获取"几十次模型往返压缩为 4 次 AI 调用
+
 ## [2026-08-14] ingest: DeepSeek Harness 插件化 Agent 底盘
 
 - 归档用户原创《DeepSeek Harness，Agent 自己「组装」》至 sources/deepseek-harness-plugin-first-agent-runtime.md
