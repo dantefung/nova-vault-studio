@@ -73,10 +73,6 @@ dsh 是非常开放的，可以直接接入常用的 AI coding plan 或者 api�
 
 这可能是目前我感觉，最具性价比的方案。
 
-通过我的邀请码订阅 opencode go（可以使用支付宝付款），我们双方可以获得额外 $5 的使用额度：
-
-https://opencode.ai/go?ref=CRGDXX1P4N
-
 ![性价比对比](images/one-day-dsh-experience/010.jpeg)
 
 价格、速度、质量不可能三角中，我感觉在 dsh + opencode go 订阅完美得到平衡，在目前 AI coding plan 大幅涨价的今天，十分难得。
@@ -94,23 +90,3 @@ https://opencode.ai/go?ref=CRGDXX1P4N
 ![AI Agent 工具](images/one-day-dsh-experience/012.jpeg)
 
 当然，我还是建议应该学习一个通用的 AI Agent 工具，你可以学习到更多东西，而且是相通的，**学会手动档，然后会自动档。**
-
----
-
-以下是个人广告：
-
-我的 AI Agent 课程网址：
-
-https://m.tenclass.cn/channel2/1880290
-
-或者扫描二维码：
-
-![课程二维码](images/one-day-dsh-experience/013.jpeg)
-
-大纲和试听也通过上面二维码进入课程查看。
-
-目前是优惠价 899 元，最近我再更新几节 deepseek harness 和过时的内容后恢复 1299 元。
-
-![课程信息](images/one-day-dsh-experience/014.jpeg)
-
-购买后加助理，备注：已购买，发送购买截图，加入答疑群。
