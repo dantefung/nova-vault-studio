@@ -95,6 +95,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-15] ingest: 我的第一个 DSH Plugin 诞生，还推了官方 PR
+
+- 归档《我的第一个 DSH Plugin 诞生，还推了官方 PR》至 sources/my-first-dsh-plugin-pr.md（微信公众号：itr-del，2026-08-15）
+- 无配图（纯文字长文）
+- 内容摘要：飞书 bot 桥接 DSH Agent 的完整开发历程——选型三方案（Python SDK 桥 vs Cordis 插件 vs MCP 服务），选 Cordis 因为完整事件流同进程；6 个真实调试坑：patch 位置错、飞书 WS 被抢、环境变量污染、agents.create 漏传 meta.cwd、agent/status 是 scoped 事件、SessionId 导出包错；7 步开源管道（Contents API 绕过 git 协议）；PR#127 被 review 4 项修复后合并；6 条开源清单（README 安装流程、dsh.bundle.patch 声明、patch 不写 credentials、包名不用占位 scope、中英文 README、单行 description）
+
 ## [2026-08-16] ingest: 实体抽象 vs 规则抽象
 
 - 归档《实体抽象 vs 规则抽象》至 sources/entity-vs-rule-abstraction.md（微信公众号：木鱼脑壳在，2026-08-16）
