@@ -68,59 +68,60 @@ html[data-landing-theme="easton"] .easton-doc-shell {
   font-family: 'LXGW WenKai', Georgia, serif;
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNav,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar {
-  background: color-mix(in srgb, var(--easton-doc-bg) 88%, transparent);
+html[data-landing-theme="easton"] {
+  --vp-nav-bg-color: var(--easton-doc-bg);
+}
+
+html[data-landing-theme="easton"] .VPNav,
+html[data-landing-theme="easton"] .VPNavBar,
+html[data-landing-theme="easton"] .VPNavBar.has-sidebar {
+  background: var(--easton-doc-bg);
   border-bottom-color: var(--easton-doc-rule);
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar {
-  backdrop-filter: blur(18px);
-}
-
-html[data-landing-theme="easton"] .easton-doc-shell .VPNav,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar .container,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar .content {
+html[data-landing-theme="easton"] .VPNav,
+html[data-landing-theme="easton"] .VPNavBar .container,
+html[data-landing-theme="easton"] .VPNavBar .content {
   background: transparent;
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarTitle .title,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button {
+html[data-landing-theme="easton"] .VPNavBarTitle .title,
+html[data-landing-theme="easton"] .VPNavBarMenuLink,
+html[data-landing-theme="easton"] .VPNavBarMenuGroup .button {
   color: var(--easton-doc-ink);
   font-family: 'LXGW WenKai', Georgia, serif;
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink:hover,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button:hover {
+html[data-landing-theme="easton"] .VPNavBarMenuLink:hover,
+html[data-landing-theme="easton"] .VPNavBarMenuGroup .button:hover {
   color: var(--easton-doc-accent);
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarSearchButton,
-html[data-landing-theme="easton"] .easton-doc-shell .DocSearch-Button,
-html[data-landing-theme="easton"] .easton-doc-shell .local-search-button {
+html[data-landing-theme="easton"] .VPNavBarSearchButton,
+html[data-landing-theme="easton"] .DocSearch-Button,
+html[data-landing-theme="easton"] .local-search-button {
   border-color: var(--easton-doc-rule);
-  background: color-mix(in srgb, var(--easton-doc-surface) 78%, transparent);
+  background: var(--easton-doc-bg);
   color: var(--easton-doc-body);
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBar .divider {
+html[data-landing-theme="easton"] .VPNavBar .divider {
   background-color: var(--easton-doc-rule);
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarTitle,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenu,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarExtra {
+html[data-landing-theme="easton"] .VPNavBarTitle,
+html[data-landing-theme="easton"] .VPNavBarMenu,
+html[data-landing-theme="easton"] .VPNavBarExtra {
   background-color: transparent;
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink {
+html[data-landing-theme="easton"] .VPNavBarMenuGroup .button,
+html[data-landing-theme="easton"] .VPNavBarMenuLink {
   color: var(--easton-doc-ink);
 }
 
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuGroup .button:hover,
-html[data-landing-theme="easton"] .easton-doc-shell .VPNavBarMenuLink:hover {
+html[data-landing-theme="easton"] .VPNavBarMenuGroup .button:hover,
+html[data-landing-theme="easton"] .VPNavBarMenuLink:hover {
   color: var(--easton-doc-accent);
 }
 
