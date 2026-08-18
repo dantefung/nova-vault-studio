@@ -129,6 +129,22 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-18] ingest: 工业 AI Agent 实战派（7 篇专辑系列）
+
+- 归档 7 篇「工业 AI Agent 实战派」专辑文章至 sources/（微信公众号：老梁agent，2026-06-02 至 2026-06-09）
+- 全部纯文字，无配图
+- 专辑主题覆盖：IoT 转 AI Agent 入门 → LangChain4j 实战 → 工具设计 → Function Calling 排坑 → AiServices 深析 → ChatMemory → SystemMessage
+
+| # | 日期 | 文章 |
+|---|------|------|
+| 01 | 06-02 | [一个 IoT 架构师开始学 AI Agent](./sources/iot-architect-to-ai-agent.md) |
+| 02 | 06-04 | [LangChain4j + DeepSeek：Java 开发者构建第一个 Agent 的完整指南](./sources/langchain4j-deepseek-first-agent.md) |
+| 03 | 06-05 | [工业 Agent 工具设计的 5 个原则](./sources/industrial-agent-tool-design-5-principles.md) |
+| 04 | 06-06 | [为什么我的 Agent 不调用工具？排查 Function Calling 的 4 个常见坑](./sources/why-agent-not-call-tools-function-calling-4-pits.md) |
+| 05 | 06-08 | [LangChain4j AiServices 深度解析：声明式 Agent 编程的魔法背后](./sources/langchain4j-aiservices-deep-dive.md) |
+| 06 | 06-09 | [Agent 对话为什么会「失忆」？ChatMemory 三种策略对比与工业选型](./sources/agent-chat-memory-3-strategies.md) |
+| 07 | 06-09 | [给 Agent 一个「人设」：SystemMessage 在工业场景的设计技巧](./sources/agent-system-message-industrial-design.md) |
+
 ## [2026-08-18] ingest: Agent 生产实战笔记（11 篇专题系列）
 
 - 归档 11 篇生产级 Agent 系统设计系列文章至 sources/（微信公众号：老梁agent，2026-07-02 至 2026-07-27）
