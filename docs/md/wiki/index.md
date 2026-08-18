@@ -116,6 +116,19 @@ wiki/
 | [serenity-stock-choke](/md/wiki/sources/serenity-stock-choke) | A 股卡脖子选股框架，六步推理链路，12 Stars | GitHub |
 | [ffmpeg-9-lei](/md/wiki/concepts/ffmpeg-9-lei) | FFmpeg 9.0 代号「Lei」纪念雷霄骅，新增 ONNX Runtime DNN 后端，AI 时代多媒体基础设施 | 公众号 |
 | [adsense-site-auditor](/md/wiki/patterns/adsense-site-auditor) | AdSense 审计 Skill：用 Codex/Claude 反复审核通过 Google AdSense 申请，五种审计场景 Prompt | web.cafe |
+| [edu-skills-catalog](/md/wiki/sources/edu-skills-catalog) | 教育场景 100 个 AI Skills、11 大功能分类：课设、课件、批改、教研，含 Course-designer + Teachany 实战 | 公众号 |
+| [claude-teacher-skill](/md/wiki/sources/claude-teacher-skill) | Claude 官方 K-12 教师 Skill（k12-lesson-planning + k12-lesson-differentiation）实战，七份关联教学文件，三个教学判断 | 公众号 |
+| [matt-pocock-skills-use](/md/wiki/sources/matt-pocock-skills-use) | Matt Pocock Skills 全流程使用指南：setup/ask/grill/to-prd/to-issues/implement/handoff 八 Skill 演示 | 公众号 |
+| [design-skills-programmer](/md/wiki/sources/design-skills-programmer) | 程序员必备 Design Skills：四类能力（生成/规范/还原/系统化），五种角色组合建议，含 Taste Skill/UI UX Pro Max/UI Design Brain/Impeccable 等 | 公众号 |
+| [design-skills-eight](/md/wiki/sources/design-skills-eight) | 8 个优质 Design Skills（创意方向/设计智能/质量合规/工程模式四类），含 Anthropic Frontend Design/Impeccable/Taste Skill/UI UX Pro Max 等 | 公众号 |
+| [baoyu-design-skill](/md/wiki/sources/baoyu-design-skill) | baoyu-design 技能包：Design Skill 导出 MP4 动画视频（逐帧拍照+ffmpeg），一句话生成技术解释视频，支持 Cursor/Claude Code/Codex | 公众号 |
+| [huashu-design-deep-dive](/md/wiki/sources/huashu-design-deep-dive) | huashu-design 逆向深度解析：品牌资产协议（5步硬流程）+ 20种设计哲学库 + Stage+Sprite 动画引擎 + render-video.js 视频管线 + 16条动画踩坑实录 | 公众号 |
+| [huashu-design-workflow](/md/wiki/sources/huashu-design-workflow) | huashu-design 交付型设计 skill 分析：HTML 作为中间层，解决格式/上下文/方向/责任 4 个结构性断裂 | 公众号 |
+| [seo-audit-tool](/md/wiki/sources/seo-audit-tool) | On Page SEO 体检工具 seo.web.cafe/audit/：上线前自检 Title/Description/H1/关键词覆盖，支持 pSEO 批量抽查 | 公众号 |
+| [ego-lite-browser](/md/wiki/sources/ego-lite-browser) | Ego Lite 免费 Agent 浏览器：导入 Chrome 登录态/Cookie，Space 多任务隔离，Semantic Snapshot 压缩 Token，benchmark 比 Agent Browser 快 3.5 倍 | 公众号 |
+| [cloudflare-email-routing](/md/wiki/sources/cloudflare-email-routing) | Cloudflare Email Routing 免费域名邮箱转发：support@/legal@ 等别名转发到 Gmail，Workers Free 计划免费，限制 200 rules/200 destinations/25MiB | 公众号 |
+| [mkdollar-backlinks](/md/wiki/sources/mkdollar-backlinks) | MkDollar（mkdollar.com）外链提交管理工具：按 DR/Traffic/Pricing/Dofollow/Account/Category 筛选，支持产品外链提交进度跟踪 | 公众号 |
+| [ai-image-prompt-libraries](/md/wiki/sources/ai-image-prompt-libraries) | 带 Prompt 的 AI 图库（mkimage.ai/meigen.ai/gpt-image2.canghe.ai）：Prompt 可复制/翻译中文/标注 License/出处追踪，三步法找创意+微调+生成 | 公众号 |
 
 ### 学习路径 (Learning Paths)
 
@@ -149,6 +162,10 @@ wiki/
 | [xiaohu-seo-1m-uv](/md/wiki/read-later/index) | 练手小游戏30天100万UV：野生小虎首次出海SEO实战复盘，纯自然流量 | X |
 | [hezhiyan7-outsea-oneyear-10000usd](/md/wiki/sources/hezhiyan7-outsea-oneyear-10000usd) | 出海一周年稳定万刀：12 模块 200+ 篇实战文章方法论地图 | X |
 | [indie-site-builder-skill-stack](/md/wiki/concepts/indie-site-builder-skill-stack) | 独立网站出海创业 12 大能力栈：需求/SEO/支付/流量 等实战密度地图 | 概念 |
+| [half-hour-game-site](/md/wiki/sources/half-hour-game-site) | 半小时上线小游戏站：域名注册→Cloudflare DNS→GitHub→Claude 生成代码→Vercel 部署→自定义域名+SSL，1 小时含写文章 | 公众号 |
+| [bolt-new-5min-site](/md/wiki/sources/bolt-new-5min-site) | 刘小排：5 分钟做个网站：Bolt.new + Claude 一键生成运势网站，HTML+Tailwind 单文件，推荐付费测试产品方向 | 公众号 |
+| [day-90-checklist](/md/wiki/sources/day-90-checklist) | 袁锐钦 90 天 89 篇出海工具站收官：六阶段全路径清单（启动→流量→变现→规模化→进阶→搜索型出海）+ 三条教训（标题/新词/止损） | 公众号 |
+| [fxiaoyuan-site-seo](/md/wiki/sources/fxiaoyuan-site-seo) | SEO 小平：外贸独立站避开内卷，纯血小语种策略（本土域名+本地服务器+真实搜索量关键词+AI 原生创作），投产比远超英语市场 | 公众号 |
 | [aichuhai-dev](/md/wiki/products/aichuhai-dev) | droidHZ 的 AI 出海导航站：12 模块分类 + 话题驱动 + 用户参与 | 产品 |
 | [moore-wechat-article-downloader](/md/wiki/products/moore-wechat-article-downloader) | 公众号内容情报库 Skill：4 大场景 + SQLite 状态 + 评论互动 | 产品 |
 | [first-time-dollar-oneyear](/md/wiki/sources/first-time-dollar-oneyear) | 第一次赚美元：新手到 5 站 + 1 千元/月，复盘 28 节付费课程 | 公众号 |
@@ -184,6 +201,21 @@ wiki/
 | [agentscope-governance](/md/wiki/concepts/agentscope-governance) | Agent 平台治理三大支柱：权限六步管线（独立引擎+HITL）、优雅停机三原则（先存后断+阶段边界+按requestId）、统一事件流（31种event+CustomEvent逃生舱） | 公众号 |
 | [agent-token-architecture](/md/wiki/concepts/agent-token-architecture) | Agent 的本质：用 Token 换架构，控制流从开发期迁移到运行时，三年技术脉络 ReAct→FC→MCP→Skills | 公众号 |
 | [agentscope-multi-agent](/md/wiki/concepts/agentscope-multi-agent) | 多 Agent 编排三件套：spawn/send 原语、超时收编后台任务不丢弃、子事件并入父流、跨副本三段式路由 | 公众号 |
+| [multi-agent-design](/md/wiki/sources/multi-agent-design) | 多 Agent 系统设计哲学：六层架构、四天花板、五角色、三协作模式、四通信方式、七生产难点、五实践五反模式 | 公众号 |
+| [agent-sandbox-k8s](/md/wiki/sources/agent-sandbox-k8s) | Agent Sandbox：K8s SIG 项目（kubernetes-sigs/agent-sandbox），声明式 CRD 编排隔离有状态单例沙箱，WarmPool 预热池 + RuntimeClass 接 gVisor/Kata，Agent 执行层基础设施 | 公众号 |
+| [agent-flow-vs-general](/md/wiki/sources/agent-flow-vs-general) | 从 Agent Flow 到 AI Native：通用 Agent 是「饮鸩止渴」；最小任务单元、Hardcode 是美丽的、AI Native 本质是解决用户问题、基建要 LLM-friendly、组织链路要足够短 | 公众号 |
+| [linux-interrupt-overview](/md/wiki/sources/linux-interrupt-overview) | Linux 中断管理概述：顶半部/底半部分层架构，三大底半部机制（Softirq/Tasklet/Workqueue）特点与适用场景 | 公众号 |
+| [microsoft-autogen-multagent](/md/wiki/sources/microsoft-autogen-multagent) | 微软开源 AutoGen：多智能体框架，ConversableAgent 万物皆可对话，GroupChat 团队协作，v0.4 async-first 分布式架构，vs LangGraph/CrewAI 对比 | 公众号 |
+| [langgraph-agent-framework](/md/wiki/sources/langgraph-agent-framework) | LangGraph：LangChain 官方低阶 Agent 编排框架（33,900+ Stars），用「图」重新定义 Agent 编排，StateGraph + Checkpointer + HITL + 子图，vs AutoGen/CrewAI 对比 | 公众号 |
+| [function-calling-mechanism](/md/wiki/sources/function-calling-mechanism) | 工具机制与 Function Calling：三步流程（判断/执行/回传），工具 Schema 定义（name/description/parameters），finish_reason 详解，多工具编排与多轮循环 | 公众号 |
+| [llm-chat-completion-api](/md/wiki/sources/llm-chat-completion-api) | LLM 与 Chat Completion API：LLM 生成文本本质（预测下一个 token），messages 角色体系（system/user/assistant/tool），Token 与上下文窗口，temperature/max_tokens 参数 | 公众号 |
+| [deepseek-api-call-multiturn](/md/wiki/sources/deepseek-api-call-multiturn) | 大模型 API 调用和多轮对话：环境准备、DeepSeek API 调用（兼容 OpenAI）、对话循环实现，最基础的「记忆」——把历史对话塞进每次请求 | 公众号 |
+| [llm-batch-invariance](/md/wiki/sources/llm-batch-invariance) | AI Infra 进阶：如何让大模型输出确定的结果；GEMM/RMSNorm/Attention/NCCL 的 Batch Invariance 实现 | 公众号 |
+| [packet-network-flow](/md/wiki/sources/packet-network-flow) | 跟着一个数据包，看懂整个网络传输过程：分包、封装（Encapsulation）、TCP/IP 四层数据流、各层头部结构 | 公众号 |
+| [linux-task-struct-process](/md/wiki/sources/linux-task-struct-process) | 不懂 task_struct，别说你懂 Linux 进程管理：进程标识/状态/调度/内存/文件/亲缘关系六类字段，fork 创建与僵尸进程，CFS 调度器核心 | 公众号 |
+| [seo-index-gate-strategy](/md/wiki/sources/seo-index-gate-strategy) | AI 说「新词全铺完」，我把建议砍成索引闸门：AI 扩候选 + 人工四问闸门，五格判断表 | 公众号 |
+| [cognitive-intent-debt](/md/wiki/sources/cognitive-intent-debt) | AI 编程时代的认知债与意图债：三元债模型（技术债/认知债/意图债），理解的本质是为了参与，Vibe Coding 的自我修正，Agentic Engineering | 公众号 |
+| [teach-skill](/md/wiki/sources/teach-skill) | Matt Pocock teach skill：将 AI 从应答器转化为有状态的学习教练，持久化教学空间（MISSION/RESOURCES/learning-records），动机澄清前置，递进式课时 | 公众号 |
 | [agentscope-finale](/md/wiki/concepts/agentscope-finale) | Agent 平台上生产决策地图：扩展生态 SPI 收口、5 处双轨债 3.0 清理方案、P0-P3 可勾选 checklist | 公众号 |
 | [agentscope-skills](/md/wiki/concepts/agentscope-skills) | AgentScope Skills 技能系统：Agent 世界的动态链接器，四步加载（符号表→重定位→加载→卸载），SkillRepository 对标 LD_LIBRARY_PATH，确定性协处理器 | 公众号 |
 | [agentscope-managed-agents](/md/wiki/concepts/agentscope-managed-agents) | AgentScope 2.0 Managed Agents 运行时底座：Brain/Hands 分离、三种 Worker 模式（Local/Cloud Sandbox/Self-hosted）、控制面/数据面/Worker 三层职责 | 公众号 |
@@ -193,6 +225,13 @@ wiki/
 | [deepseek-v4-omp-pi](/md/wiki/concepts/deepseek-v4-omp-pi) | DeepSeek V4 Flash + OMP/Pi 配置指南：四项 Agent 基准超 V4 Pro，原生 Responses API + 内置联网搜索，OMP/Pi 内置 provider 即配即用 | 公众号 |
 | [ai-friendly-backend](/md/wiki/concepts/ai-friendly-backend) | 后端架构 AI Friendly 标准与路径：六类事实层、四大产物、Harness 七层、三阶段演进（Copilot→Coworker→Operator 黑灯工厂）、11 步 Roadmap | 公众号 |
 | [opencode-ralph-loop](/md/wiki/sources/opencode-ralph-loop) | 自指完成循环工程实现：Agent 承担完成判断，`<promise>` 信号规约，检测信号/注入延续/管理状态三职责，零依赖 400 行单文件 | GitHub |
+| [deepseek-harness-agent-formula](/md/wiki/concepts/deepseek-harness-agent-formula) | DeepSeek 开源 Harness（dsh）：Agent = Model + Harness 公式，一切皆插件、极简模式、可追溯会话 | 公众号 |
+| [flow-friction](/md/wiki/concepts/flow-friction) | 流动摩擦：AI 让开发变成最快环节后，需求/设计/Review/测试之间的节奏不匹配才是真正的瓶颈 | 公众号 |
+| [age-mission-driver](/md/wiki/concepts/age-mission-driver) | AGE 吸引子引导工程：从 Loop Engineering 到方向外化的期望吸引子，Mission Driver 全文件化编排 Plan 生命周期 | 公众号 |
+| [harness-multiplier-effect](/md/wiki/concepts/harness-multiplier-effect) | Harness 乘数效应：Composio 测试同一模型 8 种 Harness，Pi Agent 66.7% 成功率 $0.028/任务，缓存命中率 99.93% | 公众号 |
+| [cordis-dsh-vs-pi](/md/wiki/sources/cordis-dsh-vs-pi) | Cordis 解决什么：DSH 用 Cordis 管理跨插件关系（Loader/Fiber/effect/Service/Context），Pi 把清理交给扩展作者。两条 Provider 变化路径 + 所有权规则 + 半途失败回收 | 公众号 |
+| [frontend-skill-team-coding](/md/wiki/sources/frontend-skill-team-coding) | 阿里云团队前端 Skill 驱动的团队 AI Coding 实践：五维结构（When/What/Don't-Why/How/Map）、四个落地案例（Status看板/CFD升级/AIOps设计直码/国际化流水线）、R2C 需求转代码 | 公众号 |
+| [langchain-agent-wechat](/md/wiki/sources/langchain-agent-wechat) | Node + LangChain.js v1 搭公众号 Agent 流水线：七步落地 ReAct/Harness/MCP/SubAgent/Skill，DeepSeek V4 双模型分工，8 个避坑 | 公众号 |
 
 ### 商业模式 (Business Models)
 
@@ -251,6 +290,7 @@ wiki/
 | [milvus-3.0](/md/wiki/concepts/milvus-3.0) | Milvus 3.0 GA 深度解读：lake-native 架构、Storage V3 / Loon、4 个改变工作流的能力、3 个落地门槛 | 公众号 |
 | [lake-native-architecture](/md/wiki/concepts/lake-native-architecture) | 湖原生架构：将数据库存储底座直接构建在数据湖之上，manifest 列存格式按需精准取列 | 公众号 |
 | [medical-kg-qa](/md/wiki/concepts/medical-kg-qa) | 基于 Neo4j 的医疗知识图谱问答系统，4.4 万实体、30 万关系、18 类问答意图 | GitHub |
+| [data-governance-five-concepts](/md/wiki/concepts/data-governance-five-concepts) | 数据治理五大概念辨析：元数据、数据元、元模型、数据字典、数据模型的定义与联动 | 公众号 |
 
 ---
 

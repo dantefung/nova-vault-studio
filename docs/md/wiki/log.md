@@ -20,6 +20,311 @@ source: "llm-wiki"
 - 更新 concepts/harness-engineering.md，补充 Harness 的插件化底盘架构轴
 - 更新 wiki/index.md，新增 DeepSeek Harness 与插件优先 Agent Runtime 索引
 - 内容摘要：DeepSeek Harness v0.1 以「一切皆插件」为核心，把模型、工具、Skill、会话、沙箱、文件系统、循环、编排和 UI 设计为可替换组件；其定位不是超级 Agent，而是类似 foobar2000 的极简可扩展底盘。长期资产从单一 Agent 产品转向插件、Skills、Workflow、数据和业务逻辑组成的组件库
+## [2026-08-16] ingest: 璞玉和沙砾——写作技巧与内容之辨
+
+- 归档《璞玉和沙砾》至 sources/璞玉和沙砾.md（微信公众号：池建强，2016-08-18）
+- 1 张配图
+- 内容摘要：写作套路（营造氛围→提问→分析→解决→结论）、赋比兴修辞、类比是跨越已知未知鸿沟的唯一手段、文字要朗朗上口，但所有技巧都是为了内容服务的——璞玉稍加打磨就是宝石，沙砾打磨再多只是好看的石头
+
+## [2026-08-16] ingest: 你的价值去哪儿了？
+
+- 归档《你的价值去哪儿了？》至 sources/你的价值去哪儿了.md（微信公众号：池建强，2016-02-28，回应Fenng"对我有什么好处"番外篇）
+- 2 张配图
+- 内容摘要：核心价值观点——你自身的价值决定了你的人脉和资源，而不是反过来；当价值和影响力达到临界点，资源和优秀的人自然会聚集；提升个人价值的唯一路径是长年累月的有效知识积累；创作的价值远远大于混圈子
+
+## [2026-08-16] ingest: Vibe Coding 技巧——Karpathy三层工具组合
+
+- 归档《我这半年看过最好的 Vibe Coding 技巧》至 sources/VibeCoding技巧.md（微信公众号：池建强，2025-09-01，解读Karpathy X推文）
+- 1 张配图
+- 内容摘要：Karpathy的Vibe Coding 2.0三层工作流——Cursor自动补全(4/5时间)→Claude/Codex(规模生成)→GPT-5 Pro(疑难救火)，核心观点"不要找万能工具，建立工具组合"，"用代码演示而非自然语言驱动模型"，"后代码稀缺时代"
+
+## [2026-08-16] ingest: 两个月20多个App——AI开发流水线
+
+- 归档《两个月做了20多个App，我是怎么用AI把开发变成流水线的》至 sources/两个月20个App.md（微信公众号：jackiexiao/Maker Jackie，2026-08-15）
+- 1 张配图
+- 内容摘要：独立开发者Jackie两个月做20+个iOS App，30天消耗740亿Token月支4000-5000元，App Factory模式(monorepo+代码模板+Skills)实现调研→需求→原型→新建→测试→发布全自动流水线，核心瓶颈从开发转向宣发
+
+## [2026-08-16] ingest: 升维思考，降维做事
+
+- 归档《有一种赚钱的方式叫做：升维思考，降维做事》至 sources/升维思考降维做事.md（微信公众号：澎湃王侯，2026-08-16，《低成本创收图谱》第二期）
+- 5 张配图
+- 内容摘要：升维≠想得深，升维=换牌桌；降维≠放低身段，降维=搞翻译；解释权是入场券，谁能把专业翻译成人话谁就能进场；三层金字塔（执行层→翻译层→规则层）；自媒体是工具AI是提效；核心是赚认知差而非辛苦钱
+
+## [2026-08-16] ingest: Book Smart 与 Street Smart 的合流
+
+- 归档《Book Smart 与 Street Smart 的合流》至 sources/book-smart-vs-street-smart.md（X/Twitter：Ashlyn He @AshlynHe1129，2026-01-31，18.1万浏览）
+- 无配图
+- 内容摘要：个人成长中两种"聪明"必须合流——book smart（书本智慧/逻辑推演）vs street smart（街头智慧/实战判断），作者从牛津AI初创的"漂浮感"到深圳团队的"接地气"经历，核心观点"看得见结构，摸得到泥土"
+
+## [2026-08-18] ingest: 新站外链做不起来，可能因为第一步就找错了地方
+
+- 归档《新站外链做不起来，可能因为第一步就找错了地方》至 sources/newsite-backlinks.md（微信公众号：我是哥飞，2026-08-17）
+- 9 张配图（10张下载，第10张为二维码跳过引用）
+- 内容摘要：哥飞2025年中分享交流会嘉宾Ada（前EaseUS推广负责人）分享两条新站外链路径——PR通稿建立品牌曝光（400词精炼新闻稿，200家媒体转发不等于200条外链，GSC实际识别约20-30条）与SERP合作（从目标关键词搜索结果找视频/UGC/内容页作者进行Digital PR），两条路组合使用；关键策略：PR用于正式发布节点、SERP合作用于锁定关键词后；100位筛选后的编辑中1位回复已值得继续
+
+## [2026-08-18] ingest: 本体论，到底在装什么逼？——我和AI吵了一架，终于搞懂了
+
+- 归档《本体论，到底在装什么逼？——我和AI吵了一架，终于搞懂了》至 sources/ontology-ai.md（微信公众号：CodeNoPPT，2026-08-17）
+- 无配图
+- 内容摘要：本体论三层含义（哲学/IT/AI），Palantir三步落地（语义层→动力层→动态层），Function只读不写vs Action改动状态，语言本身必然失真（维特根斯坦"不可说"），AI三个死穴（无直觉、不懂意义、无法创造），核心金句"名字是用来吓人的，代码才是用来干活的"
+
+## [2026-08-18] ingest: 从架构到 Agent 工作流，聊聊 DSH 插件该怎么选
+
+- 归档《从架构到 Agent 工作流，聊聊 DSH 插件该怎么选》至 sources/dsh-plugins.md（微信公众号：架构师，若飞，2026-08-17）
+- 3 张配图
+- 内容摘要：DSH插件选型指南，按四层划分（交互入口/Agent工具/跨会话状态/调度与工作流）；推荐安装顺序 dsh-at-file→better-sidebar/TUI→Vision Toolkit→Mnemon→Automation/Workflow；核心观点"关掉以后还会留下什么"，Profile不是安全沙箱，锁版本+留锁文件
+
+## [2026-08-18] ingest: AI 写的代码，我从来不逐行 review：我只看它能炸多大
+
+- 归档《AI 写的代码，我从来不逐行 review：我只看它能炸多大》至 sources/ai-code-review-blast-radius.md（微信公众号：编程一生，2026-08-18）
+- 无配图
+- 内容摘要：AI代码review不应逐行看，应分两层——第一关机器负责"对不对"（真启动跑集成测试，4个动作：贴接口返回/贴日志/测试先挂再改/点名异常），第二关人负责"能炸多大"（三圈：代码引用数/老数据兼容性/发版时正在跑的数据），核心观点"AI有全世界的知识，但没有你们公司的记忆"，附放行清单按改动类型分五档
+
+## [2026-08-09] ingest: 遇到好 Skill 别急着装：从拆解到融合的完整实践
+
+- 归档《遇到好 Skill 别急着装：从拆解到融合的完整实践》至 sources/human-writing-skill.md（微信公众号：Johnson，2026-08-09）
+- 3 张配图
+- 内容摘要：从发现 human-writing（2000 Star通用中文写作Skill）到深度拆解、对比自有 wechat-tech-article Skill、最终融合改进的完整过程；human-writing 6个核心设计（材料门槛/说话位置/修辞动作禁令/正向示范/七遍改稿/量化检测），5项具体优化（材料清点/翻案腔禁令升级/check_style.py/说话位置锚定/正向示范），处理框架：拆解→判断装还是融→保留各自壁垒
+
+## [2026-08-18] ingest: 一个极度实用的深度思考 Prompt，帮你挖出最本质的答案
+
+- 归档《一个极度实用的深度思考 Prompt，帮你挖出最本质的答案》至 sources/steelman-prompt.md（微信公众号：数字生命卡兹克，2026-08-18）
+- 11 张配图（原推特图、Reddit帖、评论区截图、AI对话演示截图）
+- 内容摘要：从Twitter截图到Reddit原帖发现steelman（钢人论证）概念，steelman是straw man（稻草人谬误）的反面——先把对方论点补完整到最强再反驳；作者设计双向钢人Prompt（4步：重述问题/双向钢人强化/找出关键变量/逼AI给明确判断），实战演示用司庆日选择案例验证效果；核心观点"AI最大的问题依然是谄媚，钢人论证能最大程度避免"
+
+## [2026-08-18] ingest: Pi 在做减法，DeepSeek Harness (DSH) 却想让 Agent 自己进化
+
+- 归档《Pi 在做减法，DeepSeek Harness (DSH) 却想让 Agent 自己进化》至 sources/pi-vs-dsh.md（微信公众号：Coppice，2026-08-14）
+- 4 张配图（Pi vs DSH 对比图、Pi极简工具集、扩展机制、Agent自我扩展流程）
+- 内容摘要：Pi 与 DSH 两条相反路线对比——Pi 做减法（read/write/edit/bash 四工具，核心固定外围可扩展，复杂度视为负担），DSH 做加法再拆碎（模型/工具/文件系统/Agent Loop 全部插件化，几乎没有不可替换的核心，复杂度结构化驯服）；关键差异"谁来扩展 Agent"：Pi 由人写扩展→显式安装，DSH 尝试 Agent 运行时发现能力缺口→现场生成挂载工具；作者更看好 DSH 的想象力
+
+## [2026-08-15] ingest: 用问题空间定位法认识 单身汉 DSH（DeepSeek Harness）
+
+- 归档《用问题空间定位法认识 单身汉 DSH（DeepSeek Harness）》至 sources/problem-space-dsh.md（微信公众号：阿海，2026-08-15）
+- 无配图（纯文字短文）
+- 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
+
+## [2026-08-15] ingest: 我的第一个 DSH Plugin 诞生，还推了官方 PR
+
+- 归档《我的第一个 DSH Plugin 诞生，还推了官方 PR》至 sources/my-first-dsh-plugin-pr.md（微信公众号：itr-del，2026-08-15）
+- 无配图（纯文字长文）
+- 内容摘要：飞书 bot 桥接 DSH Agent 的完整开发历程——选型三方案（Python SDK 桥 vs Cordis 插件 vs MCP 服务），选 Cordis 因为完整事件流同进程；6 个真实调试坑：patch 位置错、飞书 WS 被抢、环境变量污染、agents.create 漏传 meta.cwd、agent/status 是 scoped 事件、SessionId 导出包错；7 步开源管道（Contents API 绕过 git 协议）；PR#127 被 review 4 项修复后合并；6 条开源清单（README 安装流程、dsh.bundle.patch 声明、patch 不写 credentials、包名不用占位 scope、中英文 README、单行 description）
+
+## [2026-08-16] ingest: 实体抽象 vs 规则抽象
+
+- 归档《实体抽象 vs 规则抽象》至 sources/entity-vs-rule-abstraction.md（微信公众号：木鱼脑壳在，2026-08-16）
+- 无配图（纯文字短文）
+- 内容摘要：读Cordis论文《A Programming Paradigm for Spatiotemporal Composability》(北大+DeepSeek)的心得——拆干净的两条数学条件（时间上逆序复原、空间上依赖声明自动配好），"干净"不是物理还原而是观感等价；核心对比pi抽象"实体"（组装好的电脑）vs dsh抽象"规则"（怎么组电脑），维度差一阶（下棋规则vs一枚棋子）；最终判断框架"维度高是可能性大不是能力大，能力=可能性×落地质量"，"够用顺手拆得开比参数好看更重要"
+
+## [2026-08-14] ingest: 高强度用了一天 Deepseek Harness 有兴奋有悲伤
+
+- 归档《高强度用了一天 Deepseek Harness 有兴奋有悲伤》至 sources/one-day-dsh-experience.md（微信公众号：nigo，2026-08-14）
+- 12 张配图（安装界面、Web UI、插件安装、迁移过程、Token 用量、WorkBuddy 对比等）— 已去广告段和广告图（原 14 张，删掉课程二维码 2 张）
+- 内容摘要：高强度使用 DSH 一天的体验——兴奋点：长时任务跑一天用 deepseek v4 flash 处理 6 亿 token，缓存命中 100%，opencode go 订阅月仅需 30 元（用量仅 3%），dsh 中 flash 效果可比 glm 5.2；悲伤点：同事用 WorkBuddy 发现 skill 管理分发、office 实时操作等功能齐备，感觉自己的系统白写了，随时可能被大厂功能替代；建议学通用 AI Agent 工具"学会手动档再会自动档"
+
+## [2026-08-17] ingest: DSH 插件推荐清单
+
+- 归档《DSH 插件推荐清单：DeepSeek Harness 必装的 14 个插件》至 sources/dsh-plugin-recommendations.md（微信公众号：AI 架构师，2026-08-17）
+- 无配图（纯文字列表短文）
+- 内容摘要：14 个 DSH 必装插件分三梯队——第一梯队基础能力（ModLens识图、@引用文件、粘贴拖拽、Office读写、内嵌浏览器、桌面操作）；第二梯队体验增强（插件自动查找、任务看板全家桶、图表渲染、一键回退、消息编辑）；第三梯队进阶玩法（多Agent协作、跨会话记忆、模型故障切换、飞书机器人）；插件索引github.com/topics/dsh-plugin已收录1000+
+
+## [2026-08-18] ingest: [Alan の手札] Pi-vs-dsh (DeepSeek-Harness) 全方位技术对比
+
+- 归档《[Alan の手札] Pi-vs-dsh (DeepSeek-Harness) 全方位技术对比》至 sources/pi-vs-dsh-alan.md（微信公众号：Alan Hsu，2026-08-18）
+- 6 张配图（架构流图、Cordis论文图、上下文压缩策略、Cordis effect、选型决策树）
+- 内容摘要：32项技术维度全景对比——Pi 5包monorepo(500文件) vs DSH 50+包(8600文件)，Pi固定Agent Loop vs DSH Agent Loop也是插件，Pi生命周期钩子 vs Cordis 4种类型化事件(emit/waterfall/parallel/serial)，Pi人可读纯文本压缩 vs DSH回放安全surface替换，Pi手动清理退出 vs Cordis effect自动逆序撤销+inject依赖追踪，Pi 0.028美元/任务 vs DSH暂无基准；结论"不是替代是分化，Pi用Agent干活vs DSH造Agent给别人用"
+
+## [2026-08-18] ingest: Hello Harness 04 · Model Provider 抽象
+
+- 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
+- 3 张配图（架构图、运行 Demo）
+- 内容摘要：Hello Harness 系列第4章，第一次真正的架构抽象——定义与Provider无关的Model接口（generate+stream），将OpenAI实现收进src/model/openai.ts，应用层index.ts不再import OpenAI SDK；核心收获：可换（换Provider只需换实现文件）、可读（应用层干净）、可测（FakeModel不联网跑通）、可演进（Agent Loop挂Model接口上）；引入的新代价：每个Provider都要写样板实现、接口只有一个实现时说服力不足、错误类型仍裸着
+
+## [2026-08-18] ingest: AI时代对抗软件规模与复杂度的战争：救命、治病、养生（下篇）
+
+- 归档《AI时代对抗软件规模与复杂度的战争：救命、治病、养生（下篇）》至 sources/ai-complexity-war-part2.md（微信公众号：茹炳晟+AI，2026-08-18）
+- 无配图（纯文字长文）
+- 内容摘要：茹炳晟2023年三段论框架在AI时代的重心迁移——救命：可解释性真空+配置漂移导致定位变难，AI灭火器反而更依赖确定性裁判；治病：AI理解是统计性非因果性，分工原则"AI做可验证理解，人做不可验证判断"；养生：治理对象从人扩展到模型约束，新增"驾驭系统维护"预算项和"驾驭债"指标，养生份额应比80%更高；核心警句"AI时代复杂度治理的失守发生在'暂停养生'的决定里"
+
+## [2026-08-18] ingest: GPT-5.6 之后，Superpowers 可以卸载了
+
+- 归档《GPT-5.6 之后，Superpowers 可以卸载了》至 sources/superpowers-uninstall.md（微信公众号：意琦行 / 探索云原生，2026-08-18）
+- 4 张配图（封面、工作流对比图、SVG数据图表×2）
+- 内容摘要：GPT-5.6 Sol出现后Superpowers等通用AI编程Skill的价值下降；Comet Native模式（0.4.0-beta.7）去掉OpenSpec+Superpowers，仅保留Shape/Build/Verify/Archive四阶段，思路"过程放松结果收紧"；官方96次实验结果：pass@3均100%但Native总Token降76.8%、成本降75.1%、Agent轮次减半；核心观点"通用Skill被模型和Runtime内化，垂直Skill（私有知识/专属执行能力/业务边界）才能长期保留"
+
+## [2026-08-03] ingest: 从进程到进程组：Linux 组调度背后的公平性重构
+
+- 归档《从进程到进程组：Linux 组调度背后的公平性重构》至 sources/linux-group-scheduling.md（微信公众号：程序员学习随笔，2026-08-03）
+- 5 张配图（内核结构图和代码流程图）
+- 内容摘要：Linux组调度解决多用户场景下进程公平≠用户公平的问题，基于CFS扩展sched_entity（my_rq指针区分进程/进程组）和task_group（per-CPU调度实体+运行队列），实现两层调度（组间分配→组内分配）和树形分层；核心递归逻辑pick_next_task_fair用do-while循环从根队列逐层选择直到叶子进程，CFS核心算法零改动；机制与策略分离（内核只按组分配，用户态定义分组维度）
+
+## [2026-08-17] ingest: Hello Harness 03 · Streaming 流式输出
+
+- 归档《Hello Harness 03 · Streaming 流式输出》至 sources/hello-harness-streaming.md（微信公众号：一灰灰blog，2026-08-17）
+- 4 张配图（含2张GIF转PNG）
+- 内容摘要：Agent Harness 流式输出实践，将模型输出从 Promise 换成 `AsyncIterable<ModelEvent>` 异步迭代器；核心抽象 `ModelEvent` 判别联合（content 增量事件 + usage 收尾事件），是第15章完整 Event System 的最小种子；感知延迟从"总生成时间"降为"首token时间"；可观察性升级（首token/总耗时/token用量量化可见）；新架构引入的事件判别/错误处理/类型膨胀等问题为下一章 Model Provider 抽象铺路
+
+## [2026-08-17] ingest: 从零搭建 Harness——三个 Skill 打造懂你的 Agent
+
+- 归档《从零开始，搭建你的 Harness，定制化懂你的 Agent》至 sources/harness-three-skills.md（微信公众号：空格丶，2026-08-17）
+- 9 张配图（第8张无法下载）
+- 内容摘要：SpaceZephyr 开源三个 Harness 相关 Skill——star-your-harness（从零搭建目录骨架，问四问题后生成含CLAUDE.md/上下文/记忆/协议/工具五层结构）、better-your-harness（五层体检：安全隐私/上下文质量/工具装备/记忆学习，产出34项HTML报告+修复提示词）、view-your-harness（可视化工作台，文件按文档/代码/数据/图片分类卡片墙+Skill管理）；核心理念——"有了属于自己的 Harness，不管换什么 Agent 都能无缝衔接"
+
+## [2026-08-16] ingest: Web 出海之反查网站作者的其他站和 sitemap 游戏监控站
+
+- 归档《Web 出海之反查网站作者的其他站和 sitemap 游戏监控站》至 sources/web-haichuang-pinterest.md（微信公众号：独元殇，2026-08-09）
+- 1 张配图
+- 内容摘要：AI Web 出海实操笔记——Pinterest 引流（精准流量、审美参考）；反查网站作者的其他站（PubSpy 通过 Adsense pub 编号反查 + sitedata 查推广历史）；游戏词跟踪 sitemap 选站（群友 humphrey 分享）
+
+## [2026-08-16] ingest: 你以为是你在拍板——真拍板完整版
+
+- 归档《你以为是你在拍板：假拍板与真拍板（完整版）》至 sources/假拍板-完整版.md
+- 无配图
+- 内容摘要：完整拆解三种假拍板（情绪/模型/人群），真拍板三问（依据说得清/反问扛得住/撤回条件有），做/看/不三格安置方法，20分钟清假拍板执行流程；关键洞察——闷声发财的本质是"把拍板权攥在自己手里"
+
+## [2026-08-16] ingest: 你以为是你在拍板——三种假拍板
+
+- 归档《你以为是你在拍板：情绪、模型、人群，三个替你签字的东西》至 sources/假拍板.md（微信公众号：袁锐钦，2026-08-11）
+- 无配图
+- 内容摘要：假拍板比不拍板更危险——情绪/模型/人群三个替签者；真拍板三问（依据说得清/反问扛得住/撤回条件有）；做/看/不三格安置；20分钟清假拍板执行流程；作者自曝"人群拍板无法撤回"是推翻AI初稿后补
+
+## [2026-08-16] ingest: AgentScope Java 2.0 Workspace——大脑外化
+
+- 归档《AgentScope Java 2.0 工作区Workspace —— "大脑外化"》至 sources/AgentScope-Workspace.md（微信公众号：一灰灰blog，2026-07-31）
+- 4 张配图（2 JPEG + 2 WebP）
+- 内容摘要：AgentScope Java 2.0 Workspace 机制深度拆解，核心范式"代码定义Agent→文件定义Agent"，AGENTS.md定义人格/MEMORY.md沉淀记忆/两层记忆架构（日记本+整理笔记）/三次LLM调用流水线/每轮推理重新加载文件/迭代速度从周级别到秒级别
+
+## [2026-08-16] ingest: AI Video 产品竞品调研报告
+
+- 归档《AI Video 产品竞品调研报告》至 sources/AI-Video竞品调研.md（微信公众号：Corly，2026-08-15）
+- 3 张配图
+- 内容摘要：30+产品AI视频赛道全景调研，11种产品形态拆解，"健身房模式"（无限套餐=概率生意），核心结论"模型是成本，工作流才是商品，成片才是价值"，"画布负责复杂度，Agent负责降低复杂度，表单负责转化率"，电商复刻和AI短剧是最先工业化的两个场景
+
+## [2026-08-16] ingest: 月入万刀周报
+
+- 归档《【周报1.19】一个创业 10 年的程序员，走上了一人开发之路，月入万刀》至 sources/月入万刀.md（微信公众号：Corly，2026-01-19）
+- 2 张配图
+- 内容摘要：大厂10年创业4次的程序员辞职一人公司首月复盘，MRR逼近1万美金，核心观点"正反馈>计划"、"个体开发者应从用户需求出发"、"编程已进入不看代码只看结果的奇点时代"、"套壳价值被严重低估"
+
+## [2026-08-16] ingest: 26年的回乡文学——关于AI的思考
+
+- 归档《26年的回乡文学——关于AI的思考》至 sources/回乡文学关于AI的思考.md（微信公众号：Corly，2026-02-26）
+- 无配图
+- 内容摘要：20年互联网从业者的春节回乡冷静观察，核心观点包括"代码是日抛的但思想不是"、"编程不再是文本编辑行为"、"Agent是过渡品终局是大厂平台内嵌"、"AI不能替代人类思考（概率≠智慧）"、"工具不是命运"
+
+## [2026-08-16] ingest: SEO 出海速成指南
+
+- 归档《SEO 出海速成指南》至 sources/SEO出海速成指南.md（微信公众号：Corly，2026-02-28）
+- 无配图
+- 内容摘要：15分钟出海SEO速成，7步路线图（基础准备→关键词→开发上线→三方对接→发布运维→提升排名→坐等收钱），核心公式SEO排名→自然流量→转化→变现，强调AI可替换开发环节、跑通10-20站即可规模化收入
+
+## [2026-08-16] ingest: AI创业半年复盘
+
+- 归档《AI创业半年复盘：从1万美元到5万美元，从一个人到5个人》至 sources/AI创业半年复盘.md（微信公众号：Corly，2026-08-06）
+- 3 张配图
+- 内容摘要：AI SaaS 独立站半年 bootstrap 复盘，MRR 从 1 万→5 万美元，团队 1→5 人，技术路径从 Agent 探索到"Agent+Workflow+控制层"智能工作流方案，行业判断"AI 创业不晚"，核心感悟"认知>技术"
+
+## [2026-08-16] ingest: 独立开发选品避坑指南
+
+- 归档《独立开发选品避坑指南：如何选对方向，尽快赚到第一个美金》至 sources/独立开发选品避坑指南.md（微信公众号：Corly，2026-01-21）
+- 4 张配图（3 PNG，1 JPEG）
+- 内容摘要：创业 10 年程序员独立开发选品实战指南，三阶段路线（新热点小工具→聚合站→品牌站），案例 Nano Banana/Viddo/Medeo，强调"先活下来再谈理想"，核心目标是赚到第一个美金验证付费假设
+
+## [2026-08-16] ingest: 如何在一天里重启你的人生
+
+- 归档《如何在一天里重启你的人生》至 sources/一天重启人生.md（微信公众号：Corly，2026-01-18，外网阅读量破亿）
+- 无配图
+- 内容摘要：从目的论心理学、控制论和心智层级三个视角拆解改变失败的根本原因，提供一套一天人生重置协议（反向审计→愿景/反愿景→目标层级与约束），核心观点"所有行为都有无意识目标，真正的改变需要先改变视角再改变行为"
+
+## [2026-08-16] ingest: 2025 年，我在 AI 独立站出海追过的所有风口
+
+- 归档《2025 年，我在 AI 独立站出海追过的所有风口》至 sources/ai-独立站出海复盘.md（微信公众号：Corly，2026-01-16）
+- 无配图
+- 内容摘要：AI 独立站出海从业者全年风口复盘，核心结论"风口是窗口期而非趋势"，时间线覆盖推理模型(1月)→Sora 2(10月)→卖课迭代(Prompt/Agent/Workflow/Skill)→Manus被Meta收购，最终观点"独立站是做资产不是追概念"
+
+## [2026-08-16] ingest: 创业半年回顾
+
+- 归档《创业半年回顾》至 sources/创业半年回顾.md（微信公众号：出海那些事，2025-08-16）
+- 11 张配图（8 张 JPEG，3 张 PNG）
+- 内容摘要：北京10年网赚/AI软件从业者辞职创业半年复盘，记录了AI产品（聊天/音乐/数字人）市场遇冷、副业踩坑（抖音小游戏/网盟广告/小程序被割）、最终转向软件外包的心路历程
+
+## [2026-08-11] ingest: 花 1 万积分、熬一个通宵，我整理了教育场景下所有 AI Skills
+
+- 归档《花 1 万积分、熬一个通宵，我整理了教育场景下所有 AI Skills》至 sources/edu-skills-catalog.md（希希说AI，2026-08-06）
+- 9 张配图（3 张压缩 JPEG，6 张 PNG）
+- 内容摘要：Skills = Agent 的动态能力，像手机 App + 标准化 SOP。作者通宵整理教育场景 100 个 Skills、11 大功能分类（备课与课程设计/课堂教学/记忆与学习科学/评估与批改/读写与学科技能/教研与论文/班级与学生身心/AI 素养/治理与决策/内容创作/学伴与通识）。实战案例：Course-designer 一句话生成 16 页数学教学设计 Word 文档，Teachany-interactive-courseware 生成生物光合作用互动网页课件
+
+## [2026-08-11] ingest: 程序员必备的 Design Skills，不要让 UI 成为产品短板
+
+- 归档《程序员必备的 Design Skills，不要让 UI 成为产品短板》至 sources/design-skills-programmer.md（数字边界 EdgeX，2026-03-17）
+- 9 张配图（全 PNG，无需压缩）
+- 内容摘要：程序员 UI 设计四大阶段对应 Skills：① 无设计图（Taste Skill + UI UX Pro Max）从 0 生成 ② 存量优化（UI Skills + UI Design Brain）统一规范 ③ 有设计图（Impeccable + Vercel Web Design Guidelines）提高还原度 ④ 自动化（Anthropic frontend-design + stitch-skills + Designer Skills Collection）规模化复用。按角色给出 Skill 组合建议：独立开发者/非前端工程师/初级前端/高级前端/技术负责人
+
+## [2026-08-11] ingest: 8 个优质的设计 Skills 解决 AI 设计难题
+
+- 归档《8 个优质的设计 Skills 解决 AI 设计难题》至 sources/design-skills-eight.md（rico，2026-03-17）
+- 8 张配图（6 JPEG + 1 PNG + 1 WebP）
+- 内容摘要：8 个 Design Skills 分四大类。创意方向：Anthropic Frontend Design（95k Stars，禁止 Inter/Roboto/紫白配色，四维度思考目的/基调/约束/差异化）、Impeccable（17 个设计命令 /polish/audit/distill/enhance/refine）、Taste Skill（4 子技能：taste/redesign/output/soft，让东西看起来昂贵）。设计智能：UI UX Pro Max（43K Stars，50+ UI 风格/97 调色板/57 字体搭配/99 UX 指南/25 图表类型，无障碍第一）、UI Design Brain（60+ 组件最佳实践库，5 种设计风格，反模式库）。质量合规：UI Skills（15 个专项 skills，fixing-accessibility/fixing-metadata/fixing-motion-performance/12-principles-of-animation）。工程模式：Designer Skills（63 skills/27 命令，8 大设计领域）、UX Researcher Designer（23K Stars，用户研究方法论/可用性测试/信息架构）
+
+## [2026-08-11] ingest: 发现一个好用的 AI 设计 Skill：baoyu-design
+
+- 归档《发现一个好用的 AI 设计 Skill：baoyu-design》至 sources/baoyu-design-skill.md（AI 探索，2026-06-17）
+- 无配图
+- 内容摘要：baoyu-design 是 Agent Skill 而非网页工具，可生成 UI 设计稿/原型/线框图/落地页/Dashboard/移动 App/PPT/动画视频/自包含 HTML。核心产物是可编辑的本地文件。亮点：动画逐帧拍照导出 MP4（headless Chrome + ffmpeg），比录屏更稳定可复现。安装：npx skills add JimLiu/baoyu-design，支持指定 claude-code/cursor/codex Agent
+
+## [2026-08-11] ingest: 逆向 Claude Design：huashu-design 深度解析
+
+- 归档《逆向 Claude Design：huashu-design 深度解析》至 sources/huashu-design-deep-dive.md（Agent 工程化，2026-04-21）
+- 1 张配图（PNG）
+- 内容摘要：huashu-design（花叔 Design，Alchain）深度解析。四大核心机制：品牌资产协议（5 步硬流程，稳定性提升 5 倍）、设计方向顾问（5 流派×20 种设计哲学）、Junior Designer 工作流（4 轮迭代）、反 AI Slop 规则。源码分析：SKILL.md（56KB 规则引擎）、animations.jsx（Stage+Sprite 动画引擎）、deck_stage.js（1920×1080 Web Component）、render-video.js（Playwright 两阶段录制架构）。技术亮点：16 条动画踩坑实录、Tweaks 实时变体系统、5 维度专家评审、跨 Agent 兼容设计
+
+## [2026-08-11] ingest: 当 AI 出图引爆设计圈，huashu-design 直接掀翻了设计交付链
+
+- 归档《当 AI 出图引爆设计圈，huashu-design 直接掀翻了设计交付链》至 sources/huashu-design-workflow.md（有料黑科技，2026-04-22）
+- 8 张配图（1 PNG + 7 压缩 JPEG）
+- 内容摘要：huashu-design 定位为「交付型设计 skill」，HTML 作为中间层解决 4 个结构性断裂：格式断裂（直出 prototype/deck/PPTX/MP4/GIF/PDF）→ 上下文断裂（吃真实品牌资产）→ 方向断裂（先给 3 个方向再选路）→ 责任断裂（增强人的工作流而非伪装全自动）。与常见设计 AI 工具区别：结果终点从视觉结果变为工作流产物
+
+## [2026-08-11] ingest: 网站上线前，先用这个免费工具做一次 SEO 体检
+
+- 归档《网站上线前，先用这个免费工具做一次 SEO 体检》至 sources/seo-audit-tool.md（苏打 da 汽水，2026-07-13）
+- 2 张配图（全 PNG，无需压缩）
+- 内容摘要：哥飞社群分享的 On Page SEO 体检工具 seo.web.cafe/audit/。输入 URL+关键词自动选出聚焦度最高的主关键词做体检，分三组检查：关键词覆盖（Title/Description/H1/H2/URL/开头100词）、页面基础项（Meta/内容质量/关键词优化/链接/图片/结构化数据/抓取）、页面状态数据（状态码/加载耗时/词数/内外链/语言）。适合页面和 pSEO 批量上线前轻量自查。支持「复制报告给 AI」让 Agent 自动改一版
+
+## [2026-08-11] ingest: 独立开发者的网页杂活，可以交给这款免费 Agent 浏览器
+
+- 归档《独立开发者的网页杂活，可以交给这款免费 Agent 浏览器》至 sources/ego-lite-browser.md（苏打 da 汽水，2026-07-05）
+- 4 张配图（全 PNG，无需压缩）
+- 内容摘要：Ego Lite（citrolabs/ego-lite）免费 Agent 浏览器工作台。基于 Chromium，可导入 Chrome 设置/Cookie/扩展/历史记录，解决 Agent 登录态问题。核心功能 Space 将人和 Agent 工作区分隔，支持并行多任务。Semantic Snapshot 压缩页面 Token。Benchmark：抓取 X 账号近 7 天主帖 81.8s vs Agent Browser 282.9s（快 3.5 倍）。适合增长动作/后台巡检/上线前检查三类场景
+
+## [2026-08-11] ingest: 一个让独立产品更正规的免费小功能：Cloudflare 域名邮箱转发
+
+- 归档《一个让独立产品更正规的免费小功能：Cloudflare 域名邮箱转发》至 sources/cloudflare-email-routing.md（苏打 da 汽水，2026-06-28）
+- 2 张配图（全 PNG，无需压缩）
+- 内容摘要：Cloudflare Email Routing 免费域名邮箱转发服务。前提：有域名并在 Cloudflare 管理。Workers Free 计划免费使用。限制：每域名 200 条 routing rules、每账号 200 个 destination addresses、单封 25MiB。配置步骤：Onboard Domain → 添加 Destination Address → 验证 Gmail → 创建 routing rule → 测试。重要限制：只能收信转发，回复时发件人仍是 Gmail
+
+## [2026-08-11] ingest: 做海外产品推广，可以先把这个外链表跑一遍
+
+- 归档《做海外产品推广，可以先把这个外链表跑一遍》至 sources/mkdollar-backlinks.md（苏打 da 汽水，2026-06-18）
+- 4 张配图（全 PNG，无需压缩）
+- 内容摘要：MkDollar（mkdollar.com）外链提交管理工具，适合出海产品/AI 工具/SaaS/工具站。整理一批可提交产品的网站，标注 DR/Traffic/Pricing/Dofollow/Account/Category。筛选支持 Free + Dofollow 组合过滤。管理功能：Dashboard 输入产品域名自动拉取信息，产品详情页跟踪外链状态（Unknown/Submitted/Approved/Rejected）
+
+## [2026-08-11] ingest: 独立开发者必收藏：带 Prompt 的 AI 图库，省掉创意难题
+
+- 归档《独立开发者必收藏：带 Prompt 的 AI 图库，省掉创意难题》至 sources/ai-image-prompt-libraries.md（苏打 da 汽水，2026-06-07）
+- 5 张配图（4 JPEG + 1 PNG，无需压缩）
+- 内容摘要：AI 图灵感库合集（mkimage.ai/meigen.ai/gpt-image2.canghe.ai），形态：图片瀑布流+分类筛选。每张图关键信息：Prompt（可复制）、出处（可追踪）、模型信息、License 说明。CC BY 4.0 协议可商用需注明来源。meigen.ai 特色：Prompt 一键翻译中文。三步用法：找创意→拿 Prompt 微调→生成放入页面。小技巧：把候选图丢给 Coding Agent 生成预览 HTML 页面批量比对主题色
+
+## [2026-08-11] ingest: 我把 Claude 官方教师 Skill 装进了自己的备课系统
+
+- 归档《我把 Claude 官方教师 Skill 装进了自己的备课系统》至 sources/claude-teacher-skill.md（李小祖逸，2026-08-08）
+- 12 张配图（7 张压缩 JPEG，5 张 PNG）
+- 内容摘要：Anthropic 公开 K-12 教师 Skill（k12-lesson-planning + k12-lesson-differentiation）到 GitHub。安装后在 WorkBuddy 上为七年级生物「生物与非生物」备课，一套 Skill 生成 3 份 Word（教案/学生讲义/观察模板），第二套生成 4 份（分层方案+A/B/C 三组材料），合计 7 份关联文件。三个教学判断：① AI 备课不能只靠万能模板，要按学科调用教学原则 ② 差异化应改变支持而非降低目标 ③ AI 生成材料需出厂检验
+
+## [2026-08-11] ingest: 超详细！Matt Pocock 的 Skills 到底应该怎么用
+
+- 归档《超详细！Matt Pocock 的 Skills 到底应该怎么用》至 sources/matt-pocock-skills-use.md（LC，2026-07-12）
+- 18 张配图（全 PNG，无需压缩）
+- 内容摘要：Matt Pocock Skills 完整使用流程演示，以 Hermes 项目为例。覆盖 8 个核心 Skill：setup-matt-pocock-skills（配置）→ ask-matt（建议）→ teach（分课教学）→ grill-with-docs/grill-me（问答澄清需求）→ to-prd（输出需求文档）→ to-issues（拆分 Issue）→ implement（实现+测试）→ handoff（交接文档）。注意原始 to-issues Skill 会自动 commit，需删掉自动提交命令描述
 
 ## [2026-08-11] ingest: 做事的原则与决策基础
 
@@ -61,6 +366,78 @@ source: "llm-wiki"
 - 归档原创整理《哲学之思——程序设计思想与思维养成》至 sources/programming-philosophy-thoughts.md
 - 无配图
 - 内容摘要：程序设计与思维养成哲学。4w 模型（what/why/when/how）、写代码=逻辑推演、够用原则（一半思考一半编码）、程序员需学的八门学科（物理/化学/生物/历史/文学/建筑/艺术/经济）、记忆提取与线索依赖遗忘、编程范式即世界观与方法论、泛型/元编程/切面/事件驱动范式、State Machine 与 Tree 的编程本质、AOP 三种实现、Controller 参数校验（JSR303/@Valid）、4w 应用、学习即学历史
+
+---
+
+## [2026-08-15] ingest: 陈以强 Agent Flow 到 AI Native
+
+- 归档《从 Agent Flow 到 AI Native：为什么通用 Agent 是「饮鸩止渴」》微信公众号至 sources/agent-flow-vs-general.md
+- 下载 4 张配图至 images/agent-flow-vs-general/
+- 内容摘要：Agent Flow（symphlo）用自然语言描述目标、LLM 生成/修改/运行 Flow 编排多个 Node（QwenWork/Codex CLI/影刀/千牛等）；核心观点：通用 Agent 不是恰当目标，用户要的是确定地、可靠地完成复杂任务；Hardcode 在 LLM 时代是美丽的（代码维护者变成 LLM，if else 比抽象工厂更容易理解）；AI Native 本质是解决问题让用户付费，不是贴 AI 皮；基建和权限要 LLM-friendly，组织链路要足够短
+
+## [2026-08-15] ingest: 希里安 Agent Sandbox
+
+- 归档《Agent Sandbox：K8s SIG 沙箱编排项目》微信公众号至 sources/agent-sandbox-k8s.md
+- 无配图
+- 内容摘要：kubernetes-sigs/agent-sandbox 项目，声明式 CRD 编排隔离有状态单例沙箱，WarmPool 预热池 + RuntimeClass 接 gVisor/Kata，Agent 执行层基础设施
+
+---
+
+## [2026-08-15] ingest: Linux 中断管理概述
+
+- 归档《Linux 中断管理概述》微信公众号至 sources/linux-interrupt-overview.md
+- 下载 5 张配图至 images/linux-interrupt-overview/
+- 内容摘要：顶半部/底半部分层架构；三大底半部机制（Softirq/Tasklet/Workqueue）：Softirq 不可休眠执行极快用于网络收发，Tasklet 基于 Softirq 同类型串行执行是驱动开发便捷接口，Workqueue 运行在进程上下文允许休眠适合磁盘 IO；核心原则：顶半部必须原子操作极速返回，只有底半部允许复杂进程调度
+
+---
+
+## [2026-08-15] ingest: teach skill（Matt Pocock）
+
+- 归档《Teach Skill——一个好用的教学 Skill》至 sources/teach-skill.md
+- 下载 1 张配图至 images/teach-skill/
+- 内容摘要：Matt Pocock 的 teach skill，将 AI 从「百科全书式应答器」转化为「有状态的学习教练」；持久化教学空间（MISSION.md/RESOURCES.md/learning-records/NOTES.md/lessons/reference）；前置动机澄清环节；递进式课时 + 可验证预测题；将动机理论/间隔重复/检索练习/支架式教学封装为可复用 Agent Skill
+
+---
+
+## [2026-08-15] ingest: 认知债与意图债（聂晓龙）
+
+- 归档《当理解成为瓶颈：AI 编程时代的认知债与意图债》至 sources/cognitive-intent-debt.md
+- 下载 9 张配图至 images/cognitive-intent-debt/
+- 内容摘要：三元债模型（技术债/认知债/意图债），AI 降低技术债但加速认知债与意图债累积，理解的本质是为了参与（Geoffrey Litt），Vibe Coding 的自我修正（95%开发者需额外修正），Agentic Engineering 替代 Vibe Coding，「你可以外包你的思考，但不能外包你的理解」
+
+---
+
+## [2026-08-15] ingest: 批量采集 3 篇（网络/内核/SEO）
+
+- **网络数据包传输** → sources/packet-network-flow.md（xiaokang1998）：分包、封装（Encapsulation）、TCP/IP 四层数据流、各层头部结构（5 张配图）
+- **task_struct 进程管理** → sources/linux-task-struct-process.md（往事敬秋风）：进程标识/状态/调度/内存/文件/亲缘关系六类字段，fork 创建与僵尸进程，CFS 调度器核心，面试五问
+- **SEO 索引闸门策略** → sources/seo-index-gate-strategy.md（袁锐钦）：AI 扩候选 + 人工四问闸门，五格判断表，版本词与近义词铺页策略
+
+---
+
+## [2026-08-15] ingest: AI Infra 进阶 大模型输出确定的结果
+
+- 归档腾讯程序员《AI Infra 进阶：如何让大模型输出确定的结果》至 sources/llm-batch-invariance.md
+- 下载 36 张配图至 images/llm-batch-invariance/
+- 内容摘要：GEMM/RMSNorm/Attention/NCCL 四大算子的 Batch Invariance 实现；根因是浮点加法不满足结合律 + 动态组批导致 Reduction Tree 拓扑变化；vLLM 解决方案：GEMM 固定 BLOCK_K+禁用 Split-K、RMSNorm 锁定 block_size=1024、FlashAttention 强制 num_splits=1、NCCL 固定 Tree+Simple+Channel=1
+
+---
+
+## [2026-08-15] ingest: 批量采集 LLM/Agent 基础系列（4 篇）
+
+- **LangGraph** → sources/langgraph-agent-framework.md：LangChain 官方低阶 Agent 编排框架（33,900+ Stars），图结构编排 + Checkpointer + HITL + 子图，vs AutoGen/CrewAI 对比
+- **Function Calling** → sources/function-calling-mechanism.md：工具调用三步流程（判断/执行/回传），Schema 定义，finish_reason 详解，多工具多轮循环
+- **LLM Chat Completion API** → sources/llm-chat-completion-api.md：LLM 生成文本本质（预测下一个 token），messages 角色体系，Token 与上下文窗口
+- **DeepSeek API 多轮对话** → sources/deepseek-api-call-multiturn.md：环境准备、OpenAI 兼容调用、对话循环，最基础的「记忆」
+- 配图：4 张（仅最后一篇有 2 张）
+
+---
+
+## [2026-08-15] ingest: 微软开源 AutoGen 多智能体框架
+
+- 归档《微软开源 AutoGen：让 AI Agent 真正「对话起来」的多智能体框架》微信公众号至 sources/microsoft-autogen-multagent.md
+- 无配图
+- 内容摘要：微软研究院开源 Multi-Agent 框架（GitHub 36k+ Stars，MIT 协议），核心抽象「对话即代码」；ConversableAgent 万物皆可对话，GroupChat 团队协作；v0.4 async-first 完全重写，actor 模型+事件驱动+分布式运行时；与 LangGraph（状态图/确定性流程）/CrewAI（角色任务/快速原型）对比；实战场景：代码生成+评审、论文写作、客服系统、数据分析
 
 ---
 
@@ -1920,3 +2297,281 @@ source: "llm-wiki"
 - 归档 Phodal《别再反复教 Coding Agent：让项目记住自己如何工作的五个步骤》微信公众号至 sources/coding-agent-project-memory-five-steps.md
 - 下载 6 张配图至 images/coding-agent-project-memory-five-steps/（5 张压缩为 JPEG）
 - 内容摘要：Better Harness 框架下的 Agent Work Loop 五步法——AGENTS.md 项目地图、核心文档知识路由、Skill 提炼、CLI/MCP 工程接口、经验闭环沉淀
+
+## [2026-08-12] ingest: 得物复合检索 Agent 系统设计
+
+- 归档 得物技术《知识问答：复合检索 Agent 的系统设计实践》微信公众号至 sources/dewu-knowledge-qa-composite-retrieval-agent.md
+- 下载 11 张配图至 images/dewu-knowledge-qa-composite-retrieval-agent/（1 张 GIF→PNG，1 张 PNG→JPEG 压缩）
+- 内容摘要：基于 AgentScope 2.0 HarnessAgent 架构的复合检索系统——四源融合检索（知识库+飞书文档/消息/妙记）、三阶段质量 Pipeline（FastPass→Reranker→LLM Grading）、Agent 自主决策+Middleware 兜底、多模态截图即提问、多实例 SSE 断点续传
+
+## [2026-08-12] ingest: 设备树本质解读
+
+- 归档《扒一扒设备树的外皮，看看它本质上是在做什么？》微信公众号至 sources/device-tree-essentials.md
+- 下载 2 张配图至 images/device-tree-essentials/（001 压缩为 JPEG）
+- 内容摘要：设备树原理入门——硬件描述与驱动逻辑分离、compatible 匹配机制、reg/interrupts/status 字段、.dtsi 与 .dts 分层
+
+## [2026-08-12] ingest: 虚拟内存发明演进史
+
+- 归档 小康《虚拟内存是如何一步步被发明出来的？》微信公众号至 sources/virtual-memory-step-by-step.md
+- 移动 5 张内容配图至 images/virtual-memory-step-by-step/（001 压缩为 JPEG；保留课程广告相关 2 张不归档）
+- 内容摘要：分九步推演虚拟内存的诞生——物理内存直操 → 多程序冲突 → 地址重定位 → 覆盖技术 → 虚拟地址假象（MMU）→ 分页页表 → 缺页中断 → TLB 加速 → 隔离/大空间/碎片化三大好处
+
+## [2026-08-13] ingest: Multica 深读
+
+- 归档 朱小厮《Multica 深读：把编码 Agent 变成真正的队友》微信公众号至 sources/multica-deep-dive.md
+- 下载 5 张配图至 images/multica-deep-dive/
+- 内容摘要：开源 Managed Agents 平台 Multica 架构深读——不造循环只做控制面、三段式架构（前端+Go 后端+本机 Daemon）、一个 Backend 接口封装现成 CLI、一次性流式 vs 持续 stdio 会话、ResumeSessionID 跨 run 恢复、技能/Squads/Autopilot
+
+## [2026-08-13] ingest: Codex + OpenKnowledge + Teach 教学链路
+
+- 归档 摸鱼界AI上分手册《把文档变成课堂》微信公众号至 sources/codex-openknowledge-teach-pipeline.md
+- 下载 1 张配图至 images/codex-openknowledge-teach-pipeline/
+- 内容摘要：用 Codex（运行层）+ OpenKnowledge CRDT 知识库（存储层）+ teach 技能（教学法层）搭互动教学链路——五环：Codex 配置、OK MCP 集成、URL 抓取、三层知识库门控、teach 合意困难教学，合并享反馈回路自更新
+
+## [2026-08-13] ingest: AI 编码会话边界决策树
+
+- 归档 术哥《AI 编码会话的 5 次边界抉择：为什么 /compact 垫底》微信公众号至 sources/ai-coding-phase-boundaries.md
+- 下载 5 张配图至 images/ai-coding-phase-boundaries/（全部压缩为 JPEG，未用 005 已删除）
+- 内容摘要：解构 Matt Pocock PHASE-BOUNDARIES.md 五问决策树——6 处 phase boundary 走查、五选项成立条件、一手 vs 二手损耗交换模型、Context Rot 退化来自长度、顺序即逻辑、四个选错反例。核心：能继续就继续，/clear 上下文无关，/handoff 有东西旅行，subagent 能 AFK，/compact 兜底垫底
+
+## [2026-08-13] ingest: ForceInjection Skill 项目周报
+
+- 归档 GrissomFI《AI 原力注入 Skill 项目一周更新综述》微信公众号至 sources/forceinjection-skills-weekly-update.md
+- 无配图
+- 内容摘要：ForceInjection 四个仓库周更新——awesome-skills 中英双语化+质量治理流程化、DDD 技能验证覆盖补全+子模块→文本引用、OpenSpec-practise 升级 v1.7.0+版本锁定、ai-native-devops 范式综合+案例沉淀
+
+## [2026-08-13] ingest: Pi Agent 接入 DeepSeek-V4-Pro 到 Codex
+
+- 归档 空格丶《用 Pi Agent 把 DeepSeek-V4-Pro 接入 Codex》微信公众号至 sources/pi-agent-deepseek-v4-pro-codex.md
+- 下载 15 张配图至 images/pi-agent-deepseek-v4-pro-codex/（011 压缩为 JPEG）
+- 内容摘要：Pi Agent（做减法 Harness，千 token 级提示词）+ codex-host 项目嫁接 Codex GUI 与 DeepSeek-V4-Pro，实测前端与 Qwen3.8 相当，工具调用好，性价比极高（1.3 千万 tokens 两块多）
+
+## [2026-08-13] ingest: DSH DeepSeek Harness 与 V4 Pro
+
+- 归档 若飞《DSH 来了：从 DeepSeek V4 Pro 看 Agent 的模型、协议与运行时》微信公众号至 sources/dsh-deepseek-harness-v4-pro.md
+- 下载 4 张配图至 images/dsh-deepseek-harness-v4-pro/（QR 码未归档）
+- 内容摘要：DeepSeek 三层架构——V4 Pro 模型层（Terminal Bench 87.9/DeepSWE 62.7）、Responses API 协议层（无状态、接入 Codex）、DSH 运行时层（插件式 Cordis 架构、4 种模式、会话事件日志、seam 接缝）、价格切换高峰/非高峰
+
+## [2026-08-13] ingest: 渐进式探索源代码逆向工程 Skill
+
+- 归档 何明璐《基于 Harness 工程和渐进式探索的源代码逆向工程》微信公众号至 sources/harness-progressive-exploration-reverse-engineering.md
+- 下载 1 张配图至 images/harness-progressive-exploration-reverse-engineering/
+- 内容摘要：九阶段逆向工程 Skill——从"总结报告"到"可导航元模型"（可导航/可钻取/可更新/可验证），三个原则（先地图后细节/先索引后展开/先稳定后可变），六个落地机制（入口索引/深度三档/完成标准/进度检查点/最小上下文/增量重扫），证据分级（事实/推断/假设）对抗记忆漂移，一致性校验 0 ERROR
+
+## [2026-08-14] ingest: /goal 命令实现原理
+
+- 归档 朱小厮《/goal 是怎么实现的：让智能体自己判断「干完了没有」》微信公众号至 sources/goal-command-completion-judgment.md
+- 下载 4 张配图至 images/goal-command-completion-judgment/（QR 码未归档）
+- 内容摘要：/goal 核心原理——在 Stop 事件上插入完成判定，Haiku 小模型读会话记录判断（证据而非感觉），Codex 版（线程内状态+预算+状态机）vs Claude Code 版（Stop 钩子封装），好目标四要素（终态/验证面/约束/受阻兜底）
+
+## [2026-08-14] ingest: DeepSeek Harness 架构分析
+
+- 归档 唐成《从DeepSeek Harness的架构，看Agent Runtime该怎么设计》至 sources/deepseek-harness-agent-runtime-architecture.md
+- 下载 2 张配图至 images/deepseek-harness-agent-runtime-architecture/
+- 内容摘要：DSH 无特权核心架构、append-only session log 事件流、Seam 三角色设计、Profile+Bundle+Patch 三层组合、turn/step 两级生命周期
+
+## [2026-08-14] ingest: DSH Agent 蒸馏
+
+- 归档 唐成《DeepSeek Harness做Agent蒸馏——天然蒸馏数据工厂》至 sources/deepseek-harness-agent-distillation.md
+- 1 张配图至 images/deepseek-harness-agent-distillation/
+- 内容摘要：DSH append-only 事件流天然产出完整 ReAct 轨迹，headless 批量跑任务→JSONL 导出蒸馏数据，session fork 扩充样本多样性，pre-step 钩子过滤脏数据
+
+## [2026-08-14] ingest: 架构文档四段式写法
+
+- 归档 唐成《写架构文档，四段式骨架扛住八成评审追问》至 sources/architecture-document-four-section-framework.md
+- 1 张配图至 images/architecture-document-four-section-framework/
+- 内容摘要：四段式架构文档（总体方案/详细设计/部署方案/演进规划），每段写法和 Agent 平台案例，强调"决策密度"和"不选什么"
+
+## [2026-08-14] ingest: 技术方案五步法
+
+- 归档 唐成《技术方案总挨批？五步法拆透企业Agent平台》至 sources/technical-proposal-five-step-method.md
+- 1 张配图至 images/technical-proposal-five-step-method/
+- 内容摘要：五步法（需求介绍→需求分析→复杂度分析→备选方案→360度环评），以企业 Agent 管理平台为贯穿案例，强调数据推导替代拍脑袋
+
+## [2026-08-14] ingest: DSH 插件运行机制深度解析
+
+- 归档 何明璐《深入解析DeepSeek Harness插件运行机制和当前的Harness技术工程能力》至 sources/deepseek-harness-plugin-architecture-deep-dive.md
+- 4 张配图至 images/deepseek-harness-plugin-architecture-deep-dive/
+- 内容摘要：DSH 四层架构（装配层→Cordis运行时→Agent控制层→能力生态层），Cordis 插件机制（Context/Service/Event/Effect），Agent Loop Turn/Step 生命周期，8 大核心能力插件化实现
+
+## [2026-08-14] ingest: BFF 架构实践指南
+
+- 归档 面汤放盐-uzong《BFF 架构实践指南》至 sources/bff-architecture-practice-guide.md
+- 无配图（19 张均为重复的装饰性节分割图，已清理）
+- 内容摘要：BFF vs API 网关区别、数据聚合（CompletableFuture/Reactor）两种方式、避坑指南、落地约束、拆分方案、Trade-off 讨论
+
+## [2026-08-14] ingest: AI Native 团队协同重构
+
+- 归档 天猫技术团队《重构协同：关于AI Native团队的思考》至 sources/ai-native-team-collaboration-rethink.md
+- 2 张配图至 images/ai-native-team-collaboration-rethink/（006.jpg 压缩 596KB→112KB，010.png 127KB）
+- 内容摘要：消费侧 vs 生产侧分析，串联者从人→Agent，AI Native 三层形态（知识底座+Agent+人），软件是被固化的知识，存量业务知识底座三道坎
+
+## [2026-08-14] ingest: 批量上站 30 站仅赚 30 美金
+
+- 归档 易焘《看完圈友自动化上站赚3700刀，我也冲了：30个站，只赚了30美金》至 sources/bulk-website-building-30-sites-30-dollars.md
+- 6 张配图至 images/bulk-website-building-30-sites-30-dollars/（流量和收入截图）
+- 内容摘要：用 AI Skills 批量上站 30 个出海游戏网站，有流量但收入仅 30 美金，反思自动化是放大器而非印钞机，先跑通 0~1 更重要
+
+## [2026-08-14] ingest: Cloudflare 部署游戏站指南
+
+- 归档 易焘《学会这样部署出海游戏站，每年帮你省下几千上万》至 sources/cloudflare-deploy-game-website.md
+- 无配图（35 张均为 Cloudflare UI 操作截图，已清理）
+- 内容摘要：CF 添加域名→切换 Nameserver→GitHub 提交代码→CF Pages 部署→绑定自定义域名，全程免费
+
+## [2026-08-14] ingest: 出海游戏站简单指南
+
+- 归档 易焘《出海游戏网站，比你想象的要简单得多》至 sources/overseas-game-website-simple-guide.md
+- 1 张配图至 images/overseas-game-website-simple-guide/
+- 内容摘要：开发游戏站≠开发游戏，通过 iframe 嵌入 HTML5 游戏，三种实现方式（纯静态/NextJS/WordPress）
+
+## [2026-08-14] ingest: Pi AI 编程 Agent 解析
+
+- 归档 苏三《为什么越来越多人用 Pi？》至 sources/pi-ai-coding-agent-popularity.md
+- 2 张配图至 images/pi-ai-coding-agent-popularity/（webp 误标→重命名为 jpg）
+- 内容摘要：Pi 由 libGDX 创始人 Mario Zechner 开源，200 Token 系统提示词+4 原语工具，99.93% 缓存命中率，不锁模型支持 15+ 供应商，兼容 Claude Code Skill/AGENTS.md，MIT 开源
+
+## [2026-08-14] ingest: 数据治理五大概念辨析
+
+- 归档 商业智能研究《数据治理最容易混淆的5个概念》至 sources/data-governance-concepts.md
+- 15 张配图至 images/data-governance-concepts/
+- 内容摘要：系统辨析元数据、数据元、元模型、数据字典、数据模型五个概念的定义、区别和实际治理中的联动关系
+
+## [2026-08-14] ingest: 闲置域名做游戏站
+
+- 归档 王杨《别把闲置域名当摆设！手搓几个游戏站试一下！》至 sources/idle-domain-game-site.md
+- 1 张配图至 images/idle-domain-game-site/
+- 内容摘要：利用闲置域名通过九游 CPS 搭建游戏站，手动搬运游戏和资讯内容实现域名价值变现
+
+## [2026-08-14] ingest: 游戏养站系统工具
+
+- 归档 王杨《40块1个站点游戏下载站模板+海量游戏数据的SEO功能游戏养站系统》至 sources/game-seo-system.md
+- 24 张功能截图至 images/game-seo-system/
+- 内容摘要：一套面向入门 SEO 站长的游戏养站系统，集成 400 套模板、CPS 接口、自动文章更新、蜘蛛池、友链部署等功能
+
+## [2026-08-14] ingest: 游戏下载站成本核算
+
+- 归档 王杨《游戏下载站养站30个网站成本核算明细分享》至 sources/game-station-cost-breakdown.md
+- 无配图（纯文字成本计算）
+- 内容摘要：30 个游戏下载站年成本约 6090 元（域名 1590 + 服务器 2500 + 技术支持 2000），回收单个小站约 5000-8000 元
+
+## [2026-08-14] ingest: 游戏下载行业入门指南
+
+- 归档 王杨《1篇文章带你入门游戏下载行业！学会不用求人！》至 sources/game-download-industry-entry.md
+- 3 张配图至 images/game-download-industry-entry/
+- 内容摘要：三步入门游戏下载行业——找高权重站参考内容、接入游戏 CPS 后台、保持日常更新
+
+## [2026-08-14] ingest: 下载站小站模式
+
+- 归档 王杨《下载站又出8000！一定要掌握小站模式规律！》至 sources/small-station-model.md
+- 1 张配图至 images/small-station-model/
+- 内容摘要：分享小站模式五大要点——只选下载行业、COM 域名优先、首页收录是前提、外链接要多、注重出站历史价值
+
+## [2026-08-14] ingest: DeepSeek Harness 开源解析
+
+- 归档 林大友《Agent = Model + Harness：DeepSeek 把模型的「壳」开源了》至 sources/deepseek-harness.md
+- 提炼概念页至 concepts/deepseek-harness-agent-formula.md
+- 6 张配图至 images/deepseek-harness/（压缩后）
+- 内容摘要：DeepSeek 开源 DeepSeek Harness（dsh），提出 Agent = Model + Harness 公式，一切皆插件架构、极简模式、可追溯会话日志、开源定地基圈生态
+
+## [2026-08-15] ingest: BestBlogs 早报
+
+- 归档 ginobefun《BestBlogs 早报 · 08-15》至 sources/bestblogs-2026-08-15.md
+- 7 张配图至 images/bestblogs-2026-08-15/（004 压缩）
+- 内容摘要：三篇精讲——GLM-5.3 编程/网络安全能力迁移（Terminal-Bench 4.6→28.3）、Addy Osmani 实用循环工程（goal vs loop + 执行验证分离）、大淘宝 AI Native 团队（编码≠交付，三层结构+知识底座）；速览含开放模型观察、DeepTutor 34K Star、dLLM、LTX-2.5 等
+
+## [2026-08-15] archive: OpenKnowledge
+
+- 归档 Inkeep《OpenKnowledge：AI 原生 Markdown IDE 与 LLM Wiki》至 sources/open-knowledge-inkeep.md
+- 无配图（GitHub 项目页）
+- 内容摘要：Inkeep 开源 AI 原生 Markdown IDE 和 LLM Wiki 工具，3458 Stars，GPL-3.0，关联 llm-wiki-karpathy、pkm、second-brain 等概念，与本站 LLM Wiki 实践方向一致
+
+## [2026-08-15] ingest: 流动摩擦概念
+
+- 归档 Phodal《设计流动摩擦：AI 原生团队的核心能力》至 sources/flow-friction-ai-team.md
+- 提炼概念页至 concepts/flow-friction.md
+- 2 张配图至 images/flow-friction-ai-team/（压缩后）
+- 内容摘要：AI 将开发变成最快环节后，需求/设计/Review/测试之间的节奏不匹配成为真正的瓶颈；三种摩擦表现（上游饥饿+下游拥堵、歧义固化成代码、并行开发增加共有成本）+ 设计流动摩擦六节点
+
+## [2026-08-15] ingest: Mission Driver 补充说明
+
+- 归档 可逆计算《关于 Mission Driver：Loop Engineering 的一种通用参考实现的补充说明》至 sources/mission-driver-supplement.md
+- 提炼概念页至 concepts/age-mission-driver.md
+- 1 张配图至 images/mission-driver-supplement/
+- 内容摘要：AGE 吸引子引导工程体系（状态空间/吸引子/轨迹/控制四概念）、与 Harness 和 Loop Engineering 的层级关系、Mission Driver 与普通工作流引擎的三大根本区别、与 LoopX 的对比、三层"AI 全自动"定义、nop-app-erp 22 天案例、关键命题"不是让 Agent 记住项目，而是让项目本身不再遗忘自己"
+
+## [2026-08-15] ingest: DeepSeek + Pi 王炸组合
+
+- 归档 Tina《DeepSeek + Pi 王炸组合跑赢 Claude Code？》至 sources/pi-deepseek-benchmark.md
+- 提炼概念页至 concepts/harness-multiplier-effect.md
+- 9 张配图至 images/pi-deepseek-benchmark/（压缩后）
+- 内容摘要：Composio 用 DeepSeek V4 Flash 在 8 种 Harness 中跑 30 项高难度任务，Pi Agent 66.7% 成功率第一（$0.028/任务，Claude Code $0.195）；Harness 乘数效应，干净 Harness 胜率逻辑；DeepSeek 前缀缓存机制（Reasonix 五原则 + pi-deepseek-cache 三层设计），成本降幅 98-99%；DeepSeek 官方 Harness 即将发布
+
+
+## [2026-08-15] ingest: 我做了个「一键生成学习网站」的 skill
+
+- 归档大风AI编程《我做了个「一键生成学习网站」的 skill，把自己惊艳到了》至 sources/student-learning-website-builder.md
+- 8 张配图（课程设计模板、Trae 操作界面、网站开发过程、成功案例）
+- 内容摘要：作者将课程设计→教学设计→互动网站全流程打包为 student-learning-website-builder skill，用 Trae 辅助开发，十天压缩到十分钟。核心亮点：8 模块互动学习网站、AI 苏格拉底式学习伙伴、四维素养雷达图、纯 HTML 零框架双击即开，比 PPT 多出了动手能力、AI 交互和进度追踪
+
+
+## [2026-08-15] ingest: 如何半小时上线一个小游戏网站
+
+- 归档哥飞《如何半小时上线一个小游戏网站》至 sources/half-hour-game-site.md
+- 42 张配图（域名注册、Cloudflare DNS、GitHub 创建仓库、Claude 代码生成、Vercel 部署、自定义域名配置、最终上线效果）
+- 内容摘要：以 MemoryTest.io 为例，演示从选域名到 Vercel 部署的完整流程：域名注册 → Cloudflare DNS 迁移 → GitHub 创建仓库 → Claude 生成 game.html → Vercel Import 部署 → 自定义域名 + SSL（Cloudflare 完全严格模式）→ Claude 生成 SEO 落地页。核心结论：半小时可上线一个小游戏站，一小时含写文章讲解
+
+
+## [2026-08-15] ingest: 刘小排 5 分钟做个网站
+
+- 归档刘小排《5 分钟做个网站，人人都能学会》至 sources/bolt-new-5min-site.md（哥飞转载）
+- 11 张配图（Bolt.new 生成界面、生成效果、代码结构、clicktest.me 案例、变现说明、部署截图等）
+- 内容摘要：用 Bolt.new + Claude 五步 Prompt 5 分钟生成运势网站。核心观点：语文功底 > 技术能力。推荐付费测试产品方向（MBTI、智商测试），变现三步走（流量→广告→付费），流量流派（SEO/投放/大V/自传播）
+
+
+## [2026-08-15] ingest: Cordis 到底解决了什么
+
+- 归档架构师（JiaGouX）《Cordis 到底解决了什么：DSH 与 Pi 的两种答案》至 sources/cordis-dsh-vs-pi.md
+- 4 张配图（对比图、两条变化路径、SessionStore 回收机制、签名图）
+- 内容摘要：Cordis（@deepseek-ai/cordis@4.0.1）是 DSH 的插件生命周期管理器。Pi 把清理交给扩展作者（session_shutdown/session_start），DSH 借 Cordis 把跨插件关系记进运行时。Cordis 回答三个问题：系统想让谁运行（Loader）、资源由谁撤销（Fiber+effect）、依赖失效影响谁（Service+inject）。DSH 有两条 Provider 变化路径：注册表路径（轻，调用时取当前）和 Service 拓扑路径（重，让旧 Consumer 退出）。所有权规则：谁通过 ctx.effect() 登记副作用，撤销责任就跟着谁。生成器 effect 支持半途失败回滚
+
+
+## [2026-08-15] ingest: Day 90 收官 出海工具站全路径清单
+
+- 归档袁锐钦《Day 90 收官：90 天 89 篇，出海工具站真正剩下的只有这一页清单》至 sources/day-90-checklist.md
+- 无配图
+- 内容摘要：90 天出海工具站系列收官，六阶段全路径清单（启动期 Day1-15→流量期 Day16-30→变现期 Day31-45→规模化期 Day46-60→进阶技术期 Day61-80→搜索型出海 Day81-90），三条贯穿教训（标题案例钩子/新词>热词/止损线），一页纸可贴显示器执行清单
+
+
+## [2026-08-15] ingest: 外贸独立站避开内卷 纯血小语种策略
+
+- 归档 SEO 小平《外贸独立站：避开内卷，选择大于努力》至 sources/fxiaoyuan-site-seo.md
+- 7 张配图（内卷现状、本地工厂逻辑、本土域名、关键词挖掘、视频AI翻译、联系方式、微信二维码）
+- 内容摘要：外贸工厂英语市场内卷严重，建议转向纯血小语种独立站。核心三要素：100%本土化（.de/.fr/.jp域名+本地服务器）、SEM/Ahrefs挖真实搜索量关键词、AI原生创作而非机器翻译。全渠道优势：SEO竞争1/3、广告点击成本低30%、品牌信任高、生成式搜索红利
+
+
+## [2026-08-15] ingest: 前端 Skill 驱动的团队 AI Coding 实践
+
+- 归档王僖（阿里云团队）《前端 Skill 驱动的团队 AI Coding 实践》至 sources/frontend-skill-team-coding.md
+- 14 张配图（封面、技术债、认知转变、五维结构、样板、案例图表、国际化对比、R2C 流程、结语动画）
+- 内容摘要：把前端规范做成 Skill 前置到 AI 写代码前，解决全员 AI Coding 下的风格漂移/技术栈错配/自创轮子问题。an-frontend-skill 五维结构：When(触发场景)/What(选型矩阵)/Don't+Why(8条硬约束)/How(4套样板)/Map(设计+国际化)。落地四案例：Status看板3周/CFD升级3天(原1-2周)/AIOps设计直码复用率70-80%/国际化三平台2周(原2月)。R2C 需求转代码 8 阶段全链路。核心观点：能力沉淀>个人提效，Skill 是把底线抬高而非让强者更快
+
+
+## [2026-08-15] ingest: Node 搭 Agent 实战 LangChain.js v1 公众号流水线
+
+- 归档唐成《Node 搭 Agent 实战：用 LangChain.js v1 手把手跑通公众号流水线》至 sources/langchain-agent-wechat.md
+- 1 张配图（流水线架构图）
+- 内容摘要：七步搭 Agent 流水线（接 DeepSeek/MCP/Skill 排版/SubAgent 写作/ReActAgent/Harness 外壳/跑通日志）。LangChain.js v1 + LangGraph.js v1.4.9 选型理由。DeepSeek V4 双模型分工（flash 主控编排/pro 写作）。8 个避坑（模型名/API 弃用/MCP peer 依赖/doocs/md 装不来/MemorySaver 双重挂等）。核心观点：Agent = 一个会调工具的循环 + 一层会打回重做的外壳
+
+
+## [2026-08-15] ingest: 多 Agent 系统的设计哲学
+
+- 归档架构精进之路《多 Agent 系统的设计哲学》至 sources/multi-agent-design.md
+- 8 张配图（封面、六层架构、天花板、角色边界、通信方式、反模式、结语动画、签名）
+- 内容摘要：多 Agent 六层架构（任务/编排/Agent/工具/记忆/评估）；单 Agent 四天花板（上下文/角色冲突/缺乏对抗/无法并行）；五种角色（Manager/Explorer/Developer/Reviewer/Tester）；三种协作模式（中心化/流水线/对等协商）；四种通信方式（结构化输出/Manager中转/共享文件/环境变量）；七项生产难点（可观测/可恢复/权限/成本/冲突/人工/验证）；五实践五反模式；七判断标准
+
+
+## [2026-08-15] ingest: Agent Sandbox K8s SIG 项目
+
+- 归档希里安（阿里云）《Agent Sandbox》至 sources/agent-sandbox-k8s.md
+- 无配图
+- 内容摘要：Kubernetes SIG 项目 kubernetes-sigs/agent-sandbox，在 K8s 上用声明式 API 管单实例、有状态、得隔离的沙箱运行时。核心 CRD：Sandbox（稳定身份+持久存储+生命周期）、SandboxTemplate、SandboxWarmPool（预热池）、SandboxClaim。真正强隔离交给 RuntimeClass 背后的 gVisor/Kata。Agent 链路中只管执行环境层（跑代码/装依赖/落文件/联网），不管推理规划和工具协议。四个值得关注的理由：Workload 形态在变/安全默认升档/冷启动体验/可编程消费

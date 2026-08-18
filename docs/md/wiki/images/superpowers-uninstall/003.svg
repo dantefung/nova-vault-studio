@@ -1,0 +1,212 @@
+  <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+   <desc>
+    
+    
+    
+    Native 在严格 pass@1、pass@3、pass^3 和业务验证通过率四项指标上均不低于 Classic。
+   </desc>
+   <rect width="1600" height="900" fill="#f7f8fa">
+   </rect>
+   <text x="100" y="90" fill="#18212b" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">
+    
+    
+    
+    流程变轻，完成质量没有下降
+   </text>
+   <text x="100" y="140" fill="#667085" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23">
+    
+    
+    
+    Comet Native 与 0.4.0 Classic，16 个任务，每个任务运行 3 次
+   </text>
+   <rect x="1120" y="80" width="24" height="24" rx="4" fill="#148a85">
+   </rect>
+   <text x="1158" y="101" fill="#344054" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22">
+    
+    
+    
+    Native
+   </text>
+   <rect x="1300" y="80" width="24" height="24" rx="4" fill="#e96b4c">
+   </rect>
+   <text x="1338" y="101" fill="#344054" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22">
+    
+    
+    
+    Classic
+   </text>
+   <line x1="130" y1="690" x2="1490" y2="690" stroke="#cfd4dc" stroke-width="2">
+   </line>
+   <line x1="130" y1="592" x2="1490" y2="592" stroke="#dfe3e8" stroke-dasharray="7 8">
+   </line>
+   <line x1="130" y1="494" x2="1490" y2="494" stroke="#dfe3e8" stroke-dasharray="7 8">
+   </line>
+   <line x1="130" y1="396" x2="1490" y2="396" stroke="#dfe3e8" stroke-dasharray="7 8">
+   </line>
+   <line x1="130" y1="298" x2="1490" y2="298" stroke="#dfe3e8" stroke-dasharray="7 8">
+   </line>
+   <line x1="130" y1="200" x2="1490" y2="200" stroke="#dfe3e8" stroke-dasharray="7 8">
+   </line>
+   <g fill="#667085" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" text-anchor="end">
+    <text x="112" y="697">
+     
+     
+     
+     0%
+    </text>
+    <text x="112" y="599">
+     
+     
+     
+     20%
+    </text>
+    <text x="112" y="501">
+     
+     
+     
+     40%
+    </text>
+    <text x="112" y="403">
+     
+     
+     
+     60%
+    </text>
+    <text x="112" y="305">
+     
+     
+     
+     80%
+    </text>
+    <text x="112" y="207">
+     
+     
+     
+     100%
+    </text>
+   </g>
+   <g>
+    <rect x="225" y="220" width="105" height="470" rx="6" fill="#148a85">
+    </rect>
+    <rect x="342" y="251" width="105" height="439" rx="6" fill="#e96b4c">
+    </rect>
+    <text x="277" y="204" fill="#116b68" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     95.83%
+    </text>
+    <text x="394" y="235" fill="#b7472d" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     89.58%
+    </text>
+    <rect x="550" y="200" width="105" height="490" rx="6" fill="#148a85">
+    </rect>
+    <rect x="667" y="200" width="105" height="490" rx="6" fill="#e96b4c">
+    </rect>
+    <text x="602" y="184" fill="#116b68" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     100%
+    </text>
+    <text x="719" y="184" fill="#b7472d" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     100%
+    </text>
+    <rect x="875" y="261" width="105" height="429" rx="6" fill="#148a85">
+    </rect>
+    <rect x="992" y="323" width="105" height="367" rx="6" fill="#e96b4c">
+    </rect>
+    <text x="927" y="245" fill="#116b68" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     87.5%
+    </text>
+    <text x="1044" y="307" fill="#b7472d" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     75%
+    </text>
+    <rect x="1200" y="200" width="105" height="490" rx="6" fill="#148a85">
+    </rect>
+    <rect x="1317" y="210" width="105" height="480" rx="6" fill="#e96b4c">
+    </rect>
+    <text x="1252" y="184" fill="#116b68" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     100%
+    </text>
+    <text x="1369" y="194" fill="#b7472d" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     97.92%
+    </text>
+   </g>
+   <g fill="#344054" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="600" text-anchor="middle">
+    <text x="336" y="735">
+     
+     
+     
+     严格 pass@1
+    </text>
+    <text x="661" y="735">
+     
+     
+     
+     pass@3
+    </text>
+    <text x="986" y="735">
+     
+     
+     
+     pass^3
+    </text>
+    <text x="1311" y="735">
+     
+     
+     
+     业务验证通过
+    </text>
+   </g>
+   <g fill="#667085" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" text-anchor="middle">
+    <text x="336" y="766">
+     
+     
+     
+     46/48 vs 43/48
+    </text>
+    <text x="661" y="766">
+     
+     
+     
+     16/16 vs 16/16
+    </text>
+    <text x="986" y="766">
+     
+     
+     
+     14/16 vs 12/16
+    </text>
+    <text x="1311" y="766">
+     
+     
+     
+     48/48 vs 47/48
+    </text>
+   </g>
+   <text x="100" y="850" fill="#7a8491" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">
+    
+    
+    
+    数据来源：Comet 官方评测报告，版本 0.4.0-beta.16；图表根据公开数据整理
+   </text>
+  </svg>

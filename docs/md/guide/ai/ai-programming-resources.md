@@ -96,6 +96,8 @@ date: "2026-05-05"
 
 ## 设计工具 Skills
 
+- [stitch-skills](https://github.com/google-labs-code/stitch-skills) — **8.1K Stars**，Google Labs 出品的 Agent Skills 库，配套 Google Stitch MCP 服务器，遵循 Agent Skills 开放标准，兼容 Codex/Antigravity/Gemini CLI/Claude Code/Cursor/OpenCode。三大插件包：stitch-design（code-to-design/generate-design/manage-design-system/extract-design-md/extract-static-html/upload-to-stitch）、stitch-build（react-components/react-native/remotion/shadcn-ui/react-vite-dashboard）、stitch-utilities（design-md/enhance-prompt/stitch-loop/taste-design）
+- [diagram-design](https://github.com/cathrynlavery/diagram-design) — **19K Stars**，29 种编辑级图表类型（架构图/流程图/时序图/状态机/ER/时间线/泳道/四象限/树/组织图/Venn/金字塔/雷达/循环/甘特图等），单文件自包含 HTML+SVG，无阴影无 Mermaid-slop。支持 Claude Code/Codex/Pi 三大 Agent 平台，60 秒通过 onboarding 匹配品牌色/字体。支持 draw.io/Mermaid 导入重绘，可选可访问动效，PNG/SVG 导出。设计理念：1 个强调色、1-2 个焦点元素、所有尺寸按 4px 网格、密度目标 4/10
 - [Taste Skill](https://github.com/Leonxlnx/taste-skill) — 22.7K Stars，给 AI 编程好品味的技能包，专门解决 AI 生成 UI 的"塑料味"问题，让 AI 输出更像"人写的"。单句≤25字、禁用词表、TDD 式质量铁律，22,704 stars
 - [Vercel 设计规范 Review](https://vercel.com/design) — 用 Claude 读取 Vercel 设计规范文档，对比你的产品设计挑毛病。Prompt 模板：「请访问 vercel.com/design.md 和 vercel.com/design.dark.md，读取 Vercel 的设计规范。然后看看我的产品，对比这套规范，告诉我我现在设计上最明显的问题是什么，以及怎么改。」
 - [bggg-skills](https://github.com/bggg-ai/bggg-skills) — 饼干（@bggg_ai）的 Codex Skills 仓库
@@ -117,6 +119,7 @@ date: "2026-05-05"
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) — Agent 触达能力扩展
 - [技能商店 Skill Store](https://github.com/anbeime/skill) — AI 技能的 App Store，每 24 小时自动同步 awesome-agent-skills，收录最全更新最快的 AI Agent 技能库
 - [AgentKey](https://agentkey.app/@cirila) — 一句话命令安装到 Codex/龙虾/Claude Code，自动化采集小红书、抖音、快手、B站、微博、知乎、Youtube 等平台公开内容、评论、点赞、转发，降低调研搬运门槛
+- [career-assets-skill](https://github.com/Ivor-NCUT/career-assets-skill) — 职业资产 Agent Skill，通过读材料和深度访谈沉淀长期职业主档（`职业经历.md`），针对岗位派生可迭代简历，投递/面试反馈回流更新主档；核心差异：不是润色简历而是从真实经历和证据出发构建可复用的长期资产，包含"保真底稿"与"强化建议"双层机制确保真实性
 - [jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) — 剪映/Capcut/即梦 AI 内容创作相关 Skill
 - [AI-Coding-Guide-Zh](https://github.com/KimYx0207/AI-Coding-Guide-Zh) — 中文 AI Coding 指南
 - [xiaohu-ip-studio](https://github.com/xiaohailabs/xiaohu-ip-studio) — IP Studio
@@ -165,7 +168,7 @@ date: "2026-05-05"
 - [ElysiaJS](https://elysiajs.com) — Bun 生态最快的 TypeScript 后端框架，基于 OpenAPI 3.x 规范，类型安全、极速性能，支持 Swagger 文档自动生成
 - [edgetunnel](https://github.com/cmliu/edgetunnel) — **41.1k Stars**，基于 Cloudflare Workers/Pages 的 VLESS/Trojan/SS 多功能面板，支持订阅系统和多平台客户端适配
 - [OpenWorker](https://github.com/andrewyng/openworker) — 吴恩达开源的桌面 AI 助手，自动处理文档/日程/邮件等杂事，支持 25+ 工具（GitHub/Slack/Jira/Notion/Gmail/Google日历），模型灵活（OpenAI/Claude/Gemini/DeepSeek/Ollama），隐私本地存储
-- [ego-lite](https://github.com/citrolabs/ego-lite) — 为"人 + Agent 同屏协作"设计的浏览器，前台工作+后台 Agent 任务互不干扰，一键迁移 Chrome 数据，每个 Agent 独立 Space，多任务并行不串号，兼容 Claude Code/Codex/Cursor，复杂任务最高提速 2.5 倍，仅 Mac 版
+- [ego-lite](https://lite.ego.app/zh-cn) — 为 AI Agent 打造的"最快浏览器"，基于 Chromium 的一键迁移 Chrome 数据的 Agent 浏览器，免费无配置。核心特性：①ego-browser 技能，一个安装即可被 Claude Code/Codex/Cursor/Kiro/Hermes/OpenClaw/OpenCode 等所有 Agent 操控；②Semantic Snapshot 内置在定制 Chromium 引擎中（非 JS 适配层），Snapshot 返回更快、ref 操作更可靠，可访问跨域 iframe、Shadow DOM、Stripe/Salesforce/Intercom/React Portal 等第三方 SDK；③Agent 在独立 Space 中运行，与用户互不干扰，支持多任务并行，最高快 3.45 倍，Token 消耗更低；④Agent 继承用户真实登录态，不再卡在验证码/双重验证/SSO；⑤零费用零配置，仅 Mac 版
 - [Paseo](https://github.com/getpaseo/paseo) — **12.1k Stars**，一个界面编排多个 AI 编程 Agent（Claude Code / Codex / Copilot / OpenCode / Pi），自托管本地运行，跨设备（桌面/手机/Web/CLI），支持语音控制、多 Agent 并行、工作区隔离。Skill 命令：`/paseo-handoff`（Agent 交接）、`/paseo-loop`（循环执行）、`/paseo-advisor`（顾问模式）、`/paseo-committee`（多 Agent 委员会）
 - [video-shotcraft](https://vincentwei1021.github.io/video-shotcraft/) — **106 个镜头配方、162 种风格、161 个动态预览**，分镜/运镜/节奏/音效/Remotion 实现整理成 Agent Skill，视频创作技能库
 - [hyperframes-motion-director](https://github.com/geekjourneyx/hyperframes-motion-director) — 宣传片 Agent Skill，视频创作工作流
@@ -188,7 +191,7 @@ date: "2026-05-05"
 ## AI Agent 入门
 
 - [hello-generic-agent](https://github.com/datawhalechina/hello-generic-agent) — Datawhale 出品的 Generic Agent 教程，18 章，覆盖安装/浏览器能力/四层记忆/自我进化/案例，404 stars
-- [ai-agent-book](https://github.com/bojieli/ai-agent-book) — AI Agent 实战教程，[在线阅读](https://bojieli.github.io/ai-agent-book/)，覆盖 Agent 核心概念、工具调用、工作流编排、部署运维
+- [ai-agent-book](https://github.com/bojieli/ai-agent-book) — 李博杰著，开源电子书，[在线阅读](https://bojieli.github.io/ai-agent-book/)，含 [PDF 下载](https://github.com/bojieli/ai-agent-book/blob/main/book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.2.pdf)。《深入理解 AI Agent：设计原理与工程实践》，分享大量实践经验和判断，告诉做 Agent 各个方面面临什么问题、怎么解决、有哪些坑。核心价值：Agent 架构设计原则——cache 优化设计是必须的、工具描述的核心是让 LLM 知道"什么时候用"而不只是"能做什么"、Code Agent 是通用 Agent 核心元能力。作者兼具深厚理论功底和工程判断力
 - [hello-agents](https://github.com/datawhalechina/hello-agents) — Datawhale 出品的零基础 Agent 入门教程
   - [在线阅读](https://hello-agents.datawhale.cc/#/) — Web 版本
 - [build-coding-agent-context-engineering](https://github.com/phodal/build-coding-agent-context-engineering) — 从 Prompt 到上下文工程构建 AI Agent，零基础指南
@@ -310,6 +313,19 @@ date: "2026-05-05"
 | [event-poster](https://github.com/lovstudio/skills/tree/main/event-poster) | 活动海报生成，输出印刷级 PNG |
 | [find-logo](https://github.com/lovstudio/skills/tree/main/find-logo) | 品牌 Logo 发现与抓取，支持 Clearbit/og:image |
 | [maintain-partners](https://github.com/lovstudio/skills/tree/main/maintain-partners) | 合作伙伴 Logo 标准化与维护（高度对齐/颜色统一） |
+| [Text to Lottie Skill](https://github.com/designskills) | 文字描述转 Lottie 动效，启动页动画/按钮反馈/图标动效/产品微交互 |
+| [GSAP Skill](https://github.com/designskills) | 复杂网页动效：滚动动画/入场动画/视差效果/品牌官网动效 |
+| [three-scope-map-skill](https://github.com/designskills) | 3D 可视化方向：地图/空间展示/数据场景/沉浸式视觉，大屏和科技感页面 |
+| [Web to Design md](https://github.com/designskills) | 网页内容转为结构化文档，竞品拆解/页面结构整理/设计逻辑提炼 |
+| [Shadcn/ui Skill](https://github.com/designskills) | 快速生成高质量 UI 组件和前端界面，原型/组件规范/产品 Demo/设计落地 |
+| [baoyu-design](https://github.com/jimliu/baoyu-design) | Design Skill，可生成 UI 设计稿/原型/PPT/动画视频，支持逐帧拍照导出 MP4（headless Chrome + ffmpeg），Agent 友好 |
+| [huashu-design](https://github.com/alchaincyf/huashu-design) | 花叔 Design，HTML 原生设计 Skill：20 种设计哲学、Stage+Sprite 动画引擎、视频渲染管线、品牌资产协议，1.2k Stars |
+| [huashu-design-workflow](/md/wiki/sources/huashu-design-workflow) | huashu-design 交付型设计分析：HTML 中间层解决 4 个结构性断裂（格式/上下文/方向/责任） | 公众号 |
+| [seo-audit-tool](/md/wiki/sources/seo-audit-tool) | 哥飞 On Page SEO 体检工具 seo.web.cafe/audit/：输入 URL+关键词，检查 Title/Description/H1/关键词覆盖/页面状态，支持复制报告给 AI 自动修改 | 公众号 |
+| [ego-lite](https://github.com/citrolabs/ego-lite) | 免费 Agent 浏览器工作台，导入 Chrome 登录态/Cookie，Space 多任务隔离，Semantic Snapshot 压缩 Token，支持 Codex/Claude Code/Cursor | 公众号 |
+| [Cloudflare Email Routing](https://developers.cloudflare.com/email-service/get-started/route-emails/) | 免费域名邮箱转发：support@/legal@ 等别名转发到 Gmail，Workers Free 计划免费，配置 MX/SPF/DKIM | 公众号 |
+| [MkDollar](https://mkdollar.com) | 外链提交管理工具：按 DR/Traffic/Pricing/Dofollow/Account/Category 筛选，支持产品外链提交进度跟踪 | 公众号 |
+| [ai-image-prompt-libraries](/md/wiki/sources/ai-image-prompt-libraries) | AI 图灵感库合集（mkimage.ai/meigen.ai/gpt-image2）：Prompt 可复制/翻译/标注 License/出处追踪，独立开发者 Landing page 素材 | 公众号 |
 
 ### Academic（学术）
 
@@ -325,7 +341,6 @@ date: "2026-05-05"
 ## 书籍与白皮书
 
 - [FDE 前线部署工程师指南](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) — 范冰（XDash）著，**1.5k Stars**。免费公开全文，从零入门 FDE（Forward Deployed Engineer）。基于《增长黑客》原书框架，聊清楚三件事：FDE 是什么（从 Palantir 情报项目长出的角色，AI 时代爆发）、怎么做（找对问题→赢得客户→激活部署→守住续约→扩大收入→规模化复制）、谁在做（112 个真实案例）。含 PDF 整本下载。非商业性分享免费
-- [深入理解 AI Agent：设计原理与工程实践](https://github.com/bojieli/ai-agent-book) — 李博杰著，开源电子书。从设计原理到工程实践系统讲解 AI Agent，含 [PDF 下载](https://github.com/bojieli/ai-agent-book/blob/main/book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.2.pdf)
 
 ## 其他
 
