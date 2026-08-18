@@ -129,6 +129,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-07-29] ingest: Java AI Agent 框架横向对比
+
+- 归档《Java AI Agent 框架横向对比：AgentScope vs LangChain4j vs LangGraph4j vs Spring AI Alibaba》至 sources/java-agent-frameworks-comparison.md（微信公众号：老梁agent，2026-07-29）
+- 无配图（纯文字技术长文）
+- 内容摘要：四框架横向对比——LangChain4j（社区驱动，8k+ Stars，AiServices+@Tool+ChatMemory，工具链优先，多 Agent 需手写 switch）、LangGraph4j（社区驱动，`<500` Stars，StateGraph+Node+ConditionalEdge，图编排优先，编译时确定拓扑）、Spring AI Alibaba（阿里云，3k+ Stars，ChatClient+@Tool+Advisor，生态绑定优先，深度绑定 DashScope）、AgentScope Java 2.0（阿里达摩院，2026.7 GA，ReActAgent+HarnessAgent+Subagent，Agent 原生优先）；11 个维度深度对比：Agent 抽象层级（AgentScope 最高，HarnessAgent 是完整运行时）、多 Agent 协作（AgentScope 双轨制 Supervisor+SubagentDeclaration）、MCP 支持（仅 AgentScope 原生声明式）、工具系统（AgentScope 显式注册表）、生产就绪度（会话持久化/记忆压缩/沙箱/事件流/工作区管理/Trace ID 六项全）、A2A 协议（仅 AgentScope 原生）、模型支持（LangChain4j 最开放 10+，AgentScope OpenAI 兼容）、错误处理（AgentScope FallbackModel+Token 窗口+工具超时+循环保护）、可测试性（AgentScope Eval Probe）、部署模式（AgentScope 自描述 workspace 包）、社区生态；选型决策树四路径（快速集成→LangChain4j，阿里云→SAA，确定性图→LangGraph4j，生产多 Agent→AgentScope）；核心观点「LangChain4j 让 Agent 能跑，AgentScope 让 Agent 能自主」；编者注补充 Spring AI Alibaba v1.1.2.0+ 已有 Supervisor/A2A 能力
+
 ## [2026-08-11] ingest: AgentScope 高级特性：MCP 协议集成与沙箱
 
 - 归档《AgentScope 高级特性：MCP 协议集成与沙箱》至 sources/agentscope-mcp-sandbox.md（微信公众号：老梁agent，2026-08-11）
