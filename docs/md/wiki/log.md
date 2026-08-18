@@ -26,7 +26,7 @@ source: "llm-wiki"
 - 新增 summaries/dsh-complete-guide.md
 - 新增 concepts/dsh-browser-first-configurable-harness.md（浏览器优先 vs 闭源 CLI 的四项工程差异推导）
 - 更新 wiki/index.md，新增 dsh-complete-guide 系列索引
-- 内容摘要：从运行实例写就的 DSH 全套使用手册——DSH 是浏览器应用（npx @deepseek-ai/dsh web → 127.0.0.1:3080）而非终端应用；默认安装 133 个插件，config 文件能关闭任意插件包括 sidebar 和 agent loop；headless profile 一次性任务 + exit code 反馈；profile = 命名插件清单 + 权限边界（minimal/standard/code/cordis）；Trajectory 视图暴露完整执行真相；MCP server 以 mcp__<server>__<tool> 注册，HMR 热插拔；安全默认 workspace-write 但读/网络/进程不限，遥测默认关闭；典型命令包括 dsh plugin add/profile 管理与 --patch 覆盖
+- 内容摘要：从运行实例写就的 DSH 全套使用手册——DSH 是浏览器应用（npx @deepseek-ai/dsh web → 127.0.0.1:3080）而非终端应用；默认安装 133 个插件，config 文件能关闭任意插件包括 sidebar 和 agent loop；headless profile 一次性任务 + exit code 反馈；profile = 命名插件清单 + 权限边界（minimal/standard/code/cordis）；Trajectory 视图暴露完整执行真相；MCP server 以 `mcp__&lt;server&gt;__&lt;tool&gt;` 注册，HMR 热插拔；安全默认 workspace-write 但读/网络/进程不限，遥测默认关闭；典型命令包括 dsh plugin add/profile 管理与 --patch 覆盖
 ## [2026-08-18] ingest: DeepSeek Harness 是技术人自嗨炫技？
 
 - 归档《DeepSeek Harness 是技术人自嗨炫技？》至 sources/dsh-tech-hype-or-not.md（微信公众号：轩辕之风，2026-08-18）
