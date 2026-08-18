@@ -83,6 +83,12 @@ source: "llm-wiki"
 - 11 张配图（原推特图、Reddit帖、评论区截图、AI对话演示截图）
 - 内容摘要：从Twitter截图到Reddit原帖发现steelman（钢人论证）概念，steelman是straw man（稻草人谬误）的反面——先把对方论点补完整到最强再反驳；作者设计双向钢人Prompt（4步：重述问题/双向钢人强化/找出关键变量/逼AI给明确判断），实战演示用司庆日选择案例验证效果；核心观点"AI最大的问题依然是谄媚，钢人论证能最大程度避免"
 
+## [2026-08-18] ingest: 用 AI 从 0 到 1 做个海外工具站赚美元
+
+- 归档《用 AI 从 0 到 1 做个海外工具站赚美元》至 sources/overseas-tool-site.md（微信公众号：Coder梁，梁唐，2026-08-18）
+- 2 张配图（Stripe收款界面、AgentFlowing代码模板）
+- 内容摘要：AI出海工具站指南，0成本创业模式（成了盆满钵满，不成只亏token）；三派流量获取方式：SEO/AEO派（卷网站质量+外链+权重）、广告投放派（谷歌买量，新手ROI为负但学成爆发力极强）、自媒体派（长期主义但门槛高）；核心结论：群体作战优于单打独斗；收款需境外公司实体（香港/新加坡/英国/美国），Stripe为主流选择；代码模板比大模型更关键
+
 ## [2026-08-18] ingest: Hello Harness 04 · Model Provider 抽象
 
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
