@@ -77,6 +77,12 @@ source: "llm-wiki"
 - 3 张配图
 - 内容摘要：从发现 human-writing（2000 Star通用中文写作Skill）到深度拆解、对比自有 wechat-tech-article Skill、最终融合改进的完整过程；human-writing 6个核心设计（材料门槛/说话位置/修辞动作禁令/正向示范/七遍改稿/量化检测），5项具体优化（材料清点/翻案腔禁令升级/check_style.py/说话位置锚定/正向示范），处理框架：拆解→判断装还是融→保留各自壁垒
 
+## [2026-08-03] ingest: 从进程到进程组：Linux 组调度背后的公平性重构
+
+- 归档《从进程到进程组：Linux 组调度背后的公平性重构》至 sources/linux-group-scheduling.md（微信公众号：程序员学习随笔，2026-08-03）
+- 5 张配图（内核结构图和代码流程图）
+- 内容摘要：Linux组调度解决多用户场景下进程公平≠用户公平的问题，基于CFS扩展sched_entity（my_rq指针区分进程/进程组）和task_group（per-CPU调度实体+运行队列），实现两层调度（组间分配→组内分配）和树形分层；核心递归逻辑pick_next_task_fair用do-while循环从根队列逐层选择直到叶子进程，CFS核心算法零改动；机制与策略分离（内核只按组分配，用户态定义分组维度）
+
 ## [2026-08-17] ingest: Hello Harness 03 · Streaming 流式输出
 
 - 归档《Hello Harness 03 · Streaming 流式输出》至 sources/hello-harness-streaming.md（微信公众号：一灰灰blog，2026-08-17）
