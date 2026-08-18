@@ -1,79 +1,224 @@
 ---
-title: "搭一个企业级 Agent 平台（五）：多 Agent 编排——spawn、超时晋升、跨副本路由"
-date: "2026-08-03"
-source: "微信公众号"
-url: "https://mp.weixin.qq.com/s/umihKCJhFIIBdNnc2-JdMQ"
+title: "AgentScope 多 Agent 协作：SubAgent 与 Supervisor 模式"
+date: "2026-08-06"
+source: "微信公众号：老梁agent"
+url: "https://mp.weixin.qq.com/s/xIHmzWKE24Fjea0xtuBF8g"
 ---
 
-# 搭一个企业级 Agent 平台（五）：多 Agent 编排——spawn、超时晋升、跨副本路由
+# AgentScope 多 Agent 协作：SubAgent 与 Supervisor 模式
 
-> 超时晋升不丢弃、事件转发一条流、跨副本三段式路由——多 Agent 编排的三条生产级铁律。
+> 单个 Agent 能力有限——一次只能做一件事，工具集越复杂越容易乱。AgentScope 的多 Agent 协作方案通过「Agent 即工具」让 Supervisor Agent 把其他 Agent 当作工具来调用，每件事都有专门的 Agent 负责。
 
-系列第五篇，钻进多 Agent 编排子系统。前面讲单个 agent 怎么想、怎么干、怎么管，这篇讲多个 agent 怎么协作。
+## 一、为什么需要多 Agent
 
-## 一、spawn / send：把 agent 当函数调
+### 1.1 单 Agent 的局限
 
-多 agent 协作的基础原语是两个工具（在 `AgentSpawnTool` 里）：
+假设有一个「全能助手」Agent，它需要处理天气查询、数学计算、翻译和代码审查。把所有工具都注册到一个 Agent 身上：
 
-- **spawn**：按配置生成一个子 agent 并让它干活。流程是 `createAgentIfPresent` + `invoke`。可以 `persistSession`（用确定式 hash 生成 key，下次复用同一个子 agent 的会话）。
-- **send**：用 `agent_key` 或 `label` 找到已经 spawn 过的子 agent，再发消息给它（找不到会从 `SpawnRegistry` 恢复）。
+```java
+Toolkit toolkit = new Toolkit();
+toolkit.registerTool(weatherTool);
+toolkit.registerTool(calculatorTool);
+toolkit.registerTool(translatorTool);
+toolkit.registerTool(codeReviewTool);
+```
 
-> 说白了：spawn = new 一个子 agent 并跑，send = 给已有的子 agent 发消息。把 agent 当函数调，但这个"函数"有自己的会话和状态。
+问题：
 
-![spawn 流程](images/agentscope-multi-agent/001.png)
+- **工具描述互相干扰**：LLM 面对 10+ 个工具时容易「选择困难」
+- **sysPrompt 过长**：每种任务的规则都塞进一个 sysPrompt，上下文爆炸
+- **无法组合**：不能先翻译再审查，因为 Agent 每次只能做一个任务
 
-执行时有三种路径：`timeout=0` 走异步（注册成后台任务）、远程走 HTTP 同步、本地走带超时晋升的同步。
+### 1.2 多 Agent 的分工方案
 
-![三种执行路径](images/agentscope-multi-agent/002.png)
+```
+用户："翻译这段代码的注释，然后审查翻译后的代码质量"
+    ↓
+SupervisorAgent
+├── Step1: 调用 TranslatorAgent  → 翻译注释
+├── Step2: 调用 CodeReviewAgent  → 审查代码
+└── Step3: 汇总结果返回用户
+```
 
-## 二、超时晋升：超时也不丢弃（最值得抄）
+每个 Agent 只做一件事，有自己的 sysPrompt 和工具集，Supervisor 负责协调。
 
-子 agent 跑久了会超时。普通做法是超时就 cancel 掉——用户白等一场。AgentScope 的做法很巧妙（`execWithTimeoutPromotion`）：
+## 二、SubAgent：Agent 作为工具
 
-> **超时不取消**，而是用 CompletableFuture 桥接，把子 agent 收编成一个后台任务（AdoptedTaskRunSpec），结果异步算完后推回 inbox + 唤醒父 agent。
+### 2.1 核心概念
 
-**超时 → 收编后台任务 → 完成后 inbox+唤醒 → 最终结果异步回来合并。**
+AgentScope 的设计哲学之一：**Agent 可以是另一个 Agent 的工具。**
 
-为什么这个设计好？agent 任务往往耗时不可控（调外部 API、跑长脚本）。硬超时 kill 掉，用户前面等的全白费；收编成后台任务，用户该干啥干啥，结果好了再通知——这是生产环境里体验最好的超时策略。
+```java
+Toolkit toolkit = new Toolkit();
+toolkit.registration().subAgent(
+    weatherAgent::getAgent,
+    SubAgentConfig.builder()
+        .toolName("weather_expert")
+        .description("天气查询专家。查询各城市天气信息。")
+        .build()
+).apply();
+```
 
-> 抄什么：做多 agent 编排时，超时策略想清楚是"丢、重试、还是收编"。多数场景"收编为后台任务 + 异步唤醒"体验最好，别无脑 kill。
+### 2.2 创建 Supervisor Agent
 
-## 三、事件转发：子的实时进父的流
+```java
+@Component
+public class SupervisorAgent {
+    private final ReActAgent supervisor;
 
-子 agent 跑的时候会产生一堆事件（流式文本、工具调用）。如果父 agent 的事件流里看不到，前端就显示成"父在干等"，体验割裂。
+    public SupervisorAgent(Model model,
+                          WeatherExpert weatherExpert,
+                          CalculatorExpert calculatorExpert,
+                          TranslatorExpert translatorExpert) {
+        Toolkit toolkit = new Toolkit();
 
-AgentScope 的做法（`execLocalSync`）：子 agent 的事件经 `AgentEventEmitter.FORWARDING_CONTEXT_KEY` 实时转发进父的事件流，并自动补发 `AgentStart/End`，给转发来的事件打上 source 路径标记（比如 `main/researcher`）。前端看到的是一条连贯的父子流，而不是父阻塞、子黑箱。
+        toolkit.registration().subAgent(
+            weatherExpert::getAgent,
+            SubAgentConfig.builder()
+                .toolName("weather_expert")
+                .description("天气查询专家。当用户询问天气时调用。")
+                .build()
+        ).apply();
 
-这和第四篇的"统一事件流"是一脉相承的——正因为事件流统一，子 agent 的事件才能无缝并入父流。
+        toolkit.registration().subAgent(
+            calculatorExpert::getAgent,
+            SubAgentConfig.builder()
+                .toolName("calculator_expert")
+                .description("数学计算专家。当用户需要计算时调用。")
+                .build()
+        ).apply();
 
-## 四、跨副本路由：子 agent 跨节点也能找到
+        toolkit.registration().subAgent(
+            translatorExpert::getAgent,
+            SubAgentConfig.builder()
+                .toolName("translator_expert")
+                .description("翻译专家。当用户需要翻译文本时调用。")
+                .build()
+        ).apply();
 
-生产环境是多副本的。父 agent 在节点 A spawn 了一个子 agent，子 agent 可能在节点 B 被调度执行。怎么找到它？
+        this.supervisor = ReActAgent.builder()
+            .name("supervisor")
+            .sysPrompt("""
+                你是一个超级助手，协调多个专家完成任务：
+                - weather_expert：天气查询
+                - calculator_expert：数学计算
+                - translator_expert：文本翻译
 
-AgentScope 用**三段式路由**（`HarnessGateway` + `StoreBackedSubagentRegistry`）：
+                根据用户问题选择合适的专家。如果问题涉及多个专家
+                （如"北京气温和100°F差多少"），按顺序调用需要的专家。
+                """)
+            .model(model)
+            .toolkit(toolkit)
+            .build();
+    }
+}
+```
 
-1. **先查本机**有没有这个 exposed subagent（live 缓存）
-2. **miss 了查分布式存储**里的 `SubagentRecord`（持久化 registry）
-3. 拿到记录后，在**本节点用 materialize 重新构建** agent 实例
+### 2.3 SubAgentConfig 详解
 
-没有分布式存储时，优雅退化为单进程（`InMemorySubagentRegistry`）。这套设计让 exposed subagent 跨副本可恢复——任何一个副本都能接手。
+| 字段 | 作用 |
+|------|------|
+| toolName | Supervisor 的 LLM 看到的工具名 |
+| description | 何时调用这个专家的判断依据 |
 
-> 抄什么：跨副本路由用"live 缓存 + 持久化 registry + 本节点 materialize"三段式，无分布式存储时单进程退化。这是多副本 agent 平台的标配。
+LLM 不在 SubAgent 之间做复杂推理——它只决定「调哪个专家」，然后把结果汇总。每个专家的推理在自己的 ReAct 循环中完成。
 
-## 五、抄什么 + 避什么坑
+## 三、Supervisor vs Router：两种协作模式
 
-### 值得抄
-- 超时收编为后台任务 + 异步唤醒，不丢弃
-- 子事件并入父流，前端一条连贯流
-- live + registry + materialize 三段式路由
+### 3.1 Router 模式（一对一分发）
 
-### 要避的坑
-1. **MAX_SPAWN_DEPTH=3 是硬编码**防递归爆炸——建议做成可配置，不同场景深度需求不同
-2. **spawn 有 5 种分支**（sync/async/remote/timeout-promotion/reuse），事件转发有 3 条路径。设计时尽早画清状态图，否则后期没人敢动
-3. **RemoteSubagentStub.doCall 超时返回"不支持"文本**而不是抛异常——调用方（或 LLM）容易当成正常子 agent 结果。远程子 agent 的错误要显式抛，别用文本冒充结果
+```
+用户 → Supervisor → 选中一个专家 → 返回结果
+```
 
-## 六、一句话带走
+适用场景：用户问题明确属于某个领域（天气、计算、翻译）。
 
-> 超时晋升不丢弃、事件转发一条流、跨副本三段式路由——多 agent 编排的三条生产级铁律。
+```java
+.sysPrompt("""
+    根据用户问题选择专家：
+    - 天气 → weather_expert
+    - 计算 → calculator_expert
+    - 翻译 → translator_expert
 
-**下一篇预告：** 扩展生态 + 避坑总结——Model/Sandbox SPI 怎么留口、双 BOM 治理、贯穿全系列的"7 条铁律 + 避坑清单"。
+    选择一个专家，将其返回结果直接呈现给用户。
+    """)
+```
+
+### 3.2 Supervisor 模式（多步协作）
+
+```
+用户 → Supervisor → 专家A → 汇总 → 专家B → 汇总 → 返回综合报告
+```
+
+适用场景：用户问题需要多领域协作（先翻译再审查、先查天气再计算）。
+
+```java
+.sysPrompt("""
+    你是任务协调器，按以下步骤处理用户请求：
+    1. 分析问题需要哪些专家
+    2. 依次调用所需的专家
+    3. 每个专家完成后，汇总其核心发现
+    4. 所有步骤完成后，生成综合报告
+    """)
+```
+
+### 3.3 选择标准
+
+| 维度 | Router | Supervisor |
+|------|--------|-----------|
+| 调用次数 | 1 次 | N 次 |
+| 适用场景 | 单一领域问题 | 跨领域综合问题 |
+| 复杂度 | 低 | 中等 |
+| 可维护性 | 高（专家细分） | 依赖 Supervisor 的调度质量 |
+
+## 四、Agent 作为工具的设计哲学
+
+### 4.1 与传统微服务的对比
+
+传统架构中，多个微服务由代码编排：
+
+```java
+String weather = weatherService.get("北京");
+String temp = extractTemp(weather);
+String result = calculatorService.calculate(temp + "-100");
+return translatorService.translate(result, "en");
+```
+
+AgentScope 中的编排方式是：
+
+```java
+// Supervisor 的 LLM 自主决定：先调 weather_expert，再调 calculator_expert
+```
+
+区别在于：**流程控制从「代码定义」变成了「LLM 理解 sysPrompt 后自主规划」**。
+
+### 4.2 什么时候用 SubAgent，什么时候用 @Tool
+
+| 场景 | 用 @Tool | 用 SubAgent |
+|------|----------|------------|
+| 确定性操作（查数据库、调 API） | ✅ | ❌ |
+| 需要 LLM 推理判断 | ❌ | ✅ |
+| 返回结构化数据 | ✅ | ❌ |
+| 需要多轮交互（对话式） | ❌ | ✅ |
+| 简单的计算/转换 | ✅ | ❌ |
+| 复杂的分析/诊断 | ❌ | ✅ |
+
+> **经验法则**：如果「调用 API 就能得到正确答案」，用 @Tool；如果「需要 LLM 自己判断和推理」，用 SubAgent。
+
+## 五、总结
+
+多 Agent 协作的核心模式：
+
+```
+每个专家 = 独立的 ReActAgent（有自己的 name + sysPrompt + toolkit）
+    ↓
+Supervisor = ReActAgent + Toolkit（注册所有专家的 SubAgent）
+    ↓
+用户 → Supervisor → LLM 根据 sysPrompt 自主选择专家 → 汇总结果
+```
+
+关键收益：
+
+- **关注点分离**：每个 Agent 的 sysPrompt 和 toolkit 互不干扰
+- **LLM 自主路由**：不需要 Java switch/if-else，不需要枚举和分类器
+- **可扩展**：新增一个专家只需加一个 SubAgent 声明，不改 Supervisor 代码

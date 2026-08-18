@@ -129,6 +129,43 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-11] ingest: AgentScope 高级特性：MCP 协议集成与沙箱
+
+- 归档《AgentScope 高级特性：MCP 协议集成与沙箱》至 sources/agentscope-mcp-sandbox.md（微信公众号：老梁agent，2026-08-11）
+- 无配图（纯文字）
+- 内容摘要：MCP（Model Context Protocol）作为 Agent 领域「USB 协议」，AgentScope 作为 MCP Client 通过 tools.json 声明式配置连接 MCP Server 自动发现注册远程工具；workspace 三文件机制（tools.json/AGENTS.md/MEMORY.md）；沙箱方案将工具调用隔离到 Docker 容器（readonly 只读、network none、timeout 超时），工具执行在容器中完成后销毁；会话持久化通过 AgentStateStore 插件接入 Redis，支持多实例共享会话；中间件链（Logging/RateLimiting/Timeout）；权限控制 PermissionMode.REQUIRE_CONFIRM；结构化输出 JSON→Java Record；MCP vs @Tool 选择法则「Agent 自己的手用 @Tool，共享基础设施用 MCP Server」
+
+## [2026-08-06] ingest: AgentScope 多 Agent 协作：SubAgent 与 Supervisor 模式
+
+- 归档《AgentScope 多 Agent 协作：SubAgent 与 Supervisor 模式》至 sources/agentscope-multi-agent.md（微信公众号：老梁agent，2026-08-06）
+- 无配图（纯文字）
+- 内容摘要：多 Agent 协作核心模式「Agent 即工具」——通过 SubAgentConfig 将 ReActAgent 注册为 Supervisor 的 Toolkit 工具，LLM 自主决定调哪个专家；SubAgentConfig 两个字段：toolName（LLM 看到的工具名）和 description（判断依据）；Router 模式一对一分发（适合单一领域问题）vs Supervisor 模式多步协作（适合跨领域综合问题）；@Tool vs SubAgent 选择法则「调用 API 就能得到正确答案用 @Tool，需要 LLM 判断和推理用 SubAgent」；与传统微服务对比：流程控制从「代码定义」变成「LLM 理解 sysPrompt 后自主规划」；关键收益：关注点分离、LLM 自主路由（无需 switch/if-else）、可扩展（新增专家只加 SubAgent 声明）
+
+## [2026-08-05] ingest: AgentScope 事件系统与流式输出
+
+- 归档《AgentScope 事件系统与流式输出》至 sources/agentscope-events.md（微信公众号：老梁agent，2026-08-05）
+- 无配图（纯文字）
+- 内容摘要：streamEvents() 返回 Flux 把 Agent 整个推理过程实时推送给前端，28 种 AgentEventType 分 5 类：生命周期（AGENT_START/END/RESULT）、文本流（TEXT_BLOCK_START/DELTA/END 打字机效果）、思考过程（THINKING_BLOCK_START/DELTA/END）、工具调用（TOOL_CALL_START/ARGUMENT_DELTA/END/RESULT_START/TEXT_DELTA/DATA_DELTA/END）、交互与异常（REQUIRE_USER_CONFIRM/USER_CONFIRM_RESULT/EXTERNAL_ACTION_REQUIRED/EXCEED_MAX_ITERS/ALL_TOOLS_REJECTED）；StreamOptions 按需订阅事件类型过滤；SSE 端点桥接 Flux 和前端 EventSource，前端按事件类型渲染（打字机/工具调用面板/思考折叠区/确认弹窗）；与 LangChain4j TokenStream 对比（只有一种文本事件 vs 28 种事件）；设计价值：思考过程可视化提升用户信任、解耦 Agent 行为和 UI 渲染、天然可观察性
+
+## [2026-08-04] ingest: AgentScope 工具系统：@Tool、@ToolParam 与 Toolkit
+
+- 归档《AgentScope 工具系统：@Tool、@ToolParam 与 Toolkit》至 sources/agentscope-tools.md（微信公众号：老梁agent，2026-08-04）
+- 无配图（纯文字）
+- 内容摘要：@Tool 注解两个必填字段 name 和 description（进入 LLM function calling schema）；@ToolParam 声明参数描述；工具方法规范：返回 String、public、非 static；Toolkit 注册工具并绑定 Agent，LLM 通过反射调用工具方法；工具调用流程 6 步（LLM 生成 function call → 框架反射调用 → 返回 String → 包装 ToolResult → LLM 继续推理）；五种权限模式（DEFAULT/ACCEPT_EDITS/EXPLORE/REQUIRE_CONFIRM/DENY）；工具设计三原则：description 决定用法、一个工具做一件事、返回 JSON 结构化数据而非自然语言
+
+## [2026-08-03] ingest: AgentScope 核心概念与 ReActAgent 深度解析
+
+- 归档《AgentScope 核心概念与 ReActAgent 深度解析》至 sources/agentscope-reactagent-core.md（微信公众号：老梁agent，2026-08-03）
+- 无配图（纯文字）
+- 内容摘要：8 个核心概念（Model/ReActAgent/Tool/Toolkit/sysPrompt/Msg/RuntimeContext/AgentEvent），全部是接口非具体实现；ReAct 循环 Thought→Action→Observation→循环直到最终答案，LLM 自主决策多步推理可中断；ReActAgent.builder() 构建器参数全解：name/sysPrompt/model/toolkit/maxIters/generateOptions/middlewares，sysPrompt 四层信息（角色/工具/约束/流程）；call() 返回 Mono+Msg（含文本/图片/工具调用/工具结果）vs streamEvents() 返回 Flux 实时事件流；记忆管理「会话即记忆」模型：同一个 sessionId 共享记忆，AgentState 框架自动管理对话历史/摘要/迭代计数/工具状态，AgentStateStore 插件持久化到 Redis；与 LangChain4j ChatMemory 对比：自动摘要压缩 vs 手动选窗口大小
+
+## [2026-07-31] ingest: 为什么我们要把 Agent 引擎从自研换成 AgentScope
+
+- 归档《为什么我们要把 Agent 引擎从自研换成 AgentScope》至 sources/why-migrate-to-agentscope.md（微信公众号：老梁agent，2026-07-31）
+- 无配图（纯文字技术长文）
+- 内容摘要：工业 AI Agent 项目（Java 21 + Spring Boot 3.3 + LangChain4j 1.16.3 + DeepSeek）架构决策——自研引擎 18 个文件不到 3000 行，5 个专家 Agent，Supervisor 多 Agent 协作；三个痛点：多 Agent 靠 if-else/switch、LLM 调用与 Agent 行为耦合、每新增专家要新建类；评估三框架：LangGraph4j（图编排编译时确定拓扑、Java 版 0.x 不成熟、缺 MCP/记忆/沙箱）、Spring AI Alibaba（绑定阿里云、原文称无多 Agent 故事）、AgentScope（Java 原生、MCP+A2A+沙箱全内置、Supervisor+SubagentDeclaration 原生支持、Flux 事件流、达摩院维护）；六阶段渐进迁移策略（环境准备→单 Agent 验证→工具迁移→多 Agent 协作→清理验证→高级能力），薄封装层隔离 AgentPort 接口可回退；不选 AgentScope 的 4 种场景：单 Agent 对话、深度绑定阿里云、确定性图编排、不想引入响应式编程；核心观点「从写代码决定 Agent 怎么协作变成描述 Agent 能做什么让 LLM 决定」
+- **补充说明**：发布后收到读者指正——Spring AI Alibaba v1.1.2.0 起以独立组件引入 Supervisor/A2A，v1.1.2.2 起深度融合 AgentScope，两者优势互补（SAA 以 Graph 为核心，AgentScope 以 Agentic 为核心），可以配合使用；读者还指出 AgentScope 特色是分布式多 Agent，技术含量不突出，Java 团队用 SAA 足够，当前业务痛点不需要分布式拆分 Agent，无状态服务+本地编排+两层 Supervisor+自定义 Graph 即可解决；AgentScope 2.0 变化大 bug 不少；作者回复「框架不是单选题，需要的时候配合使用」
+
 ## [2026-08-13] ingest: AgentScope HarnessAgent：高级封装与生产级特性
 
 - 归档《AgentScope HarnessAgent：高级封装与生产级特性》至 sources/agentscope-harnessagent.md（微信公众号：老梁agent，2026-08-13）

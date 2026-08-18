@@ -254,3 +254,23 @@ AgentScope 2.0 是 2026 年 7 月才 GA 的新框架，API 稳定性确实有风
 下一篇文章开始进入代码：第一阶段，单 Agent 迁移验证。
 
 项目地址：github.com/LaoLiang-agent/industrial-agent-long
+
+---
+
+## 补充说明（读者指正）
+
+发布后收到读者指正，本文在 Spring AI Alibaba 部分存在信息过时的问题，特此补充：
+
+> **Spring AI Alibaba 在 v1.1.2.0 开始以独立组件的方式引入 Supervisor、A2A 等能力；v1.1.2.2 开始官方深度融合 AgentScope，两个框架实现优势互补。SAA 以 Graph 为核心，AgentScope 以 Agentic 为核心，可以配合使用。**
+
+此外，读者还指出：
+
+- AgentScope 目前的核心特色是分布式多 Agent，技术含量方面并不突出
+- 对于 Java 背景的团队，Spring AI Alibaba 框架已经足够满足业务需求
+- 从文中的业务诉求和痛点来看，还没有达到需要分布式拆分 Agent 的地步
+- 无状态服务 + 本地编排 + 两层 Supervisor 结构，最多自定义 Graph 就可以解决
+- AgentScope 2.0 变化太大，而且 bug 还不少
+
+作者回复：
+
+> 框架不是单选题，需要的时候就是配合使用。据说 Spring AI Alibaba 在计划将底层替换为 AgentScope，不确定是否属实。
