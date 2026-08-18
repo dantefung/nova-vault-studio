@@ -132,7 +132,7 @@ source: "llm-wiki"
 ## [2026-07-31] ingest: 为什么我们要把 Agent 引擎从自研换成 AgentScope
 
 - 归档《为什么我们要把 Agent 引擎从自研换成 AgentScope》至 sources/why-migrate-to-agentscope.md（微信公众号：老梁agent，2026-07-31）
-- 11 张配图（自研引擎架构、痛点分析、评估标准、框架对比、迁移策略等）
+- 无配图（微信采集版本不含图片）
 - 内容摘要：工业 AI Agent 项目（Java 21 + Spring Boot 3.3 + LangChain4j 1.16.3 + DeepSeek）架构决策——自研引擎 18 个文件不到 3000 行，5 个专家 Agent，Supervisor 多 Agent 协作；三个痛点：多 Agent 靠 if-else/switch、LLM 调用与 Agent 行为耦合、每新增专家要新建类；评估三框架：LangGraph4j（图编排编译时确定拓扑、Java 版 0.x 不成熟、缺 MCP/记忆/沙箱）、Spring AI Alibaba（绑定阿里云、无多 Agent 故事）、AgentScope（Java 原生、MCP+A2A+沙箱全内置、Supervisor+SubagentDeclaration 原生支持、Flux 事件流、达摩院维护）；六阶段渐进迁移策略（环境准备→单 Agent 验证→工具迁移→多 Agent 协作→清理验证→高级能力），薄封装层隔离 AgentPort 接口可回退；不选 AgentScope 的 4 种场景：单 Agent 对话、深度绑定阿里云、确定性图编排、不想引入响应式编程；核心观点"从写代码决定 Agent 怎么协作变成描述 Agent 能做什么让 LLM 决定"
 
 ## [2026-07-26] ingest: AgentScope 2.0 深度解析
