@@ -101,6 +101,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：读Cordis论文《A Programming Paradigm for Spatiotemporal Composability》(北大+DeepSeek)的心得——拆干净的两条数学条件（时间上逆序复原、空间上依赖声明自动配好），"干净"不是物理还原而是观感等价；核心对比pi抽象"实体"（组装好的电脑）vs dsh抽象"规则"（怎么组电脑），维度差一阶（下棋规则vs一枚棋子）；最终判断框架"维度高是可能性大不是能力大，能力=可能性×落地质量"，"够用顺手拆得开比参数好看更重要"
 
+## [2026-08-17] ingest: DSH 插件推荐清单
+
+- 归档《DSH 插件推荐清单：DeepSeek Harness 必装的 14 个插件》至 sources/dsh-plugin-recommendations.md（微信公众号：AI 架构师，2026-08-17）
+- 无配图（纯文字列表短文）
+- 内容摘要：14 个 DSH 必装插件分三梯队——第一梯队基础能力（ModLens识图、@引用文件、粘贴拖拽、Office读写、内嵌浏览器、桌面操作）；第二梯队体验增强（插件自动查找、任务看板全家桶、图表渲染、一键回退、消息编辑）；第三梯队进阶玩法（多Agent协作、跨会话记忆、模型故障切换、飞书机器人）；插件索引github.com/topics/dsh-plugin已收录1000+
+
 ## [2026-08-18] ingest: [Alan の手札] Pi-vs-dsh (DeepSeek-Harness) 全方位技术对比
 
 - 归档《[Alan の手札] Pi-vs-dsh (DeepSeek-Harness) 全方位技术对比》至 sources/pi-vs-dsh-alan.md（微信公众号：Alan Hsu，2026-08-18）
