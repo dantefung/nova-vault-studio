@@ -95,6 +95,12 @@ source: "llm-wiki"
 - 2 张配图（Stripe收款界面、AgentFlowing代码模板）
 - 内容摘要：AI出海工具站指南，0成本创业模式（成了盆满钵满，不成只亏token）；三派流量获取方式：SEO/AEO派（卷网站质量+外链+权重）、广告投放派（谷歌买量，新手ROI为负但学成爆发力极强）、自媒体派（长期主义但门槛高）；核心结论：群体作战优于单打独斗；收款需境外公司实体（香港/新加坡/英国/美国），Stripe为主流选择；代码模板比大模型更关键
 
+## [2026-08-18] ingest: [Alan の手札] Pi-vs-dsh (DeepSeek-Harness) 全方位技术对比
+
+- 归档《[Alan の手札] Pi-vs-dsh (DeepSeek-Harness) 全方位技术对比》至 sources/pi-vs-dsh-alan.md（微信公众号：Alan Hsu，2026-08-18）
+- 6 张配图（架构流图、Cordis论文图、上下文压缩策略、Cordis effect、选型决策树）
+- 内容摘要：32项技术维度全景对比——Pi 5包monorepo(500文件) vs DSH 50+包(8600文件)，Pi固定Agent Loop vs DSH Agent Loop也是插件，Pi生命周期钩子 vs Cordis 4种类型化事件(emit/waterfall/parallel/serial)，Pi人可读纯文本压缩 vs DSH回放安全surface替换，Pi手动清理退出 vs Cordis effect自动逆序撤销+inject依赖追踪，Pi 0.028美元/任务 vs DSH暂无基准；结论"不是替代是分化，Pi用Agent干活vs DSH造Agent给别人用"
+
 ## [2026-08-18] ingest: Hello Harness 04 · Model Provider 抽象
 
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
