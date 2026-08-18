@@ -129,6 +129,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-13] ingest: AgentScope HarnessAgent：高级封装与生产级特性
+
+- 归档《AgentScope HarnessAgent：高级封装与生产级特性》至 sources/agentscope-harnessagent.md（微信公众号：老梁agent，2026-08-13）
+- 无配图（纯文字技术长文）
+- 内容摘要：HarnessAgent vs ReActAgent 对比——ReActAgent 是引擎（基础原语），HarnessAgent 是整车（生产级封装）；Workspace 三文件机制：tools.json（MCP 声明式工具发现，启动自动注册到 Toolkit）、AGENTS.md（Agent 能力自描述/简历，SubAgent 时被上层 LLM 参考）、MEMORY.md（长期记忆文件，注入 sysPrompt）；内建三个中间件：CompactionMiddleware（上下文压缩，60k token 阈值，保留系统消息+最近N条）、PlanMiddleware（任务规划，自动分解子任务，最多5步）、SkillMiddleware（技能管理，curated skills + skill promotion 将高频工具提升为 Skill）；SubAgent 注册（构建时/运行时），子 Agent 调用创建独立 AgentState 不污染主 Agent；生产级特性：会话持久化（DatabaseAgentStateStorage）、工具沙箱（Docker 容器隔离）、权限系统（Allow/Deny/Ask 规则）、流式输出（Flux 事件流）；选择指南：原型用 ReActAgent，生产用 HarnessAgent
+
 ## [2026-07-31] ingest: 为什么我们要把 Agent 引擎从自研换成 AgentScope
 
 - 归档《为什么我们要把 Agent 引擎从自研换成 AgentScope》至 sources/why-migrate-to-agentscope.md（微信公众号：老梁agent，2026-07-31）
