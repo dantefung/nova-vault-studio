@@ -83,6 +83,12 @@ source: "llm-wiki"
 - 11 张配图（原推特图、Reddit帖、评论区截图、AI对话演示截图）
 - 内容摘要：从Twitter截图到Reddit原帖发现steelman（钢人论证）概念，steelman是straw man（稻草人谬误）的反面——先把对方论点补完整到最强再反驳；作者设计双向钢人Prompt（4步：重述问题/双向钢人强化/找出关键变量/逼AI给明确判断），实战演示用司庆日选择案例验证效果；核心观点"AI最大的问题依然是谄媚，钢人论证能最大程度避免"
 
+## [2026-08-18] ingest: Pi 在做减法，DeepSeek Harness (DSH) 却想让 Agent 自己进化
+
+- 归档《Pi 在做减法，DeepSeek Harness (DSH) 却想让 Agent 自己进化》至 sources/pi-vs-dsh.md（微信公众号：Coppice，2026-08-14）
+- 4 张配图（Pi vs DSH 对比图、Pi极简工具集、扩展机制、Agent自我扩展流程）
+- 内容摘要：Pi 与 DSH 两条相反路线对比——Pi 做减法（read/write/edit/bash 四工具，核心固定外围可扩展，复杂度视为负担），DSH 做加法再拆碎（模型/工具/文件系统/Agent Loop 全部插件化，几乎没有不可替换的核心，复杂度结构化驯服）；关键差异"谁来扩展 Agent"：Pi 由人写扩展→显式安装，DSH 尝试 Agent 运行时发现能力缺口→现场生成挂载工具；作者更看好 DSH 的想象力
+
 ## [2026-08-18] ingest: 用 AI 从 0 到 1 做个海外工具站赚美元
 
 - 归档《用 AI 从 0 到 1 做个海外工具站赚美元》至 sources/overseas-tool-site.md（微信公众号：Coder梁，梁唐，2026-08-18）
