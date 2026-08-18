@@ -129,6 +129,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-07-26] ingest: AgentScope 2.0 深度解析
+
+- 归档《AgentScope 2.0 深度解析：它真正重写的，是 Agent 的运行边界》至 sources/agentscope-2.0-deep-dive.md（微信公众号：code2rich，2026-07-26）
+- 6 张配图（八区域三边界概念图、Message/Event、Agent Core、Toolkit、Permission/Workspace、Agent Service）
+- 内容摘要：基于 AgentScope 2.0.5 源码的模块深度拆解——八区域：Message/Event/Agent Core/Toolkit/State-Memory-RAG/Permission-Workspace/Middleware-Observability/App-Service-Team；三边界：语义边界（内容vs过程）、执行边界（Toolkit动作/Permission决策/Workspace环境）、产品边界（Agent Core单次循环 vs App层多租户服务）；Event 流式异步生成器把控制权从黑盒循环拿出来；Toolkit 统一注册 Tool/MCP/Skill/ToolGroup，Skill 不是工具；五种 PermissionMode 映射三档权限；Workspace 支持 Local/Docker/E2B/OpenSandbox/K8s/Daytona；Agent Service 基于 FastAPI 多租户多会话，默认拒绝跨所有者访问；核心观点"最小生产单元是事件链而非 prompt"
+
 ## [2026-08-14] ingest: 国产 AI 应用三剑客：AgentScope、WorkBuddy 和 DS-Harness
 
 - 归档《国产 AI 应用三剑客：AgentScope、WorkBuddy 和 DS-Harness》至 sources/three-chinese-ai-tools.md（微信公众号：老马，2026-08-14）
