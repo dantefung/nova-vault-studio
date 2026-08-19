@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">首单全链路状态演练</title>
+  <desc id="desc">从创建结账到付款、交付、结算和对账的原创状态演练图</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06111f"/><stop offset="1" stop-color="#132039"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#55e6c1"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".05"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#38bdf8"/></marker>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="28" fill="url(#grid)"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="58" y="70" fill="#55e6c1" font-size="15" font-weight="700" letter-spacing="3">PREPARE / 06</text>
+    <text x="58" y="116" fill="#f8fafc" font-size="32" font-weight="800">首单全链路状态演练</text>
+    <text x="58" y="147" fill="#94a3b8" font-size="16">不是只测“支付成功”，而是证明每个异常都能恢复</text>
+
+    <path d="M140 272H1060" stroke="#27405e" stroke-width="4"/>
+    <g fill="none" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M216 272H317"/><path d="M403 272H504"/><path d="M590 272H691"/><path d="M777 272H878"/>
+    </g>
+    <g>
+      <circle cx="168" cy="272" r="48" fill="#10243a" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="355" cy="272" r="48" fill="#10243a" stroke="#a78bfa" stroke-width="2"/>
+      <circle cx="542" cy="272" r="48" fill="#102b31" stroke="#55e6c1" stroke-width="2"/>
+      <circle cx="729" cy="272" r="48" fill="#2d2418" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="916" cy="272" r="48" fill="#2b1c2c" stroke="#f472b6" stroke-width="2"/>
+      <text x="168" y="279" fill="#38bdf8" font-size="22" font-weight="800" text-anchor="middle">01</text>
+      <text x="355" y="279" fill="#a78bfa" font-size="22" font-weight="800" text-anchor="middle">02</text>
+      <text x="542" y="279" fill="#55e6c1" font-size="22" font-weight="800" text-anchor="middle">03</text>
+      <text x="729" y="279" fill="#fbbf24" font-size="22" font-weight="800" text-anchor="middle">04</text>
+      <text x="916" y="279" fill="#f472b6" font-size="22" font-weight="800" text-anchor="middle">05</text>
+    </g>
+    <g fill="#f8fafc" font-size="17" font-weight="700" text-anchor="middle">
+      <text x="168" y="352">创建结账</text><text x="355" y="352">确认付款</text><text x="542" y="352">发放权益</text><text x="729" y="352">完成结算</text><text x="916" y="352">月度对账</text>
+    </g>
+    <g fill="#64748b" font-size="13" text-anchor="middle">
+      <text x="168" y="377">订单待支付</text><text x="355" y="377">服务端事件</text><text x="542" y="377">幂等 + 重试</text><text x="729" y="377">关联批次</text><text x="916" y="377">解释全部差额</text>
+    </g>
+
+    <rect x="58" y="423" width="1084" height="178" rx="20" fill="#0c1728" stroke="#293b53"/>
+    <text x="84" y="460" fill="#f8fafc" font-size="18" font-weight="700">故障注入：主动把三件事弄坏</text>
+    <g>
+      <rect x="84" y="484" width="314" height="88" rx="15" fill="#241a27" stroke="#5b3054"/>
+      <circle cx="113" cy="513" r="11" fill="#fb7185"/>
+      <text x="137" y="519" fill="#f8fafc" font-size="15" font-weight="700">支付成功后关闭页面</text>
+      <text x="107" y="550" fill="#94a3b8" font-size="13">仍应由服务端完成订单确认</text>
+
+      <rect x="443" y="484" width="314" height="88" rx="15" fill="#241f19" stroke="#665029"/>
+      <circle cx="472" cy="513" r="11" fill="#fbbf24"/>
+      <text x="496" y="519" fill="#f8fafc" font-size="15" font-weight="700">权益接口临时失败</text>
+      <text x="466" y="550" fill="#94a3b8" font-size="13">付款事实保留，交付自动重试</text>
+
+      <rect x="802" y="484" width="314" height="88" rx="15" fill="#1a2231" stroke="#31516e"/>
+      <circle cx="831" cy="513" r="11" fill="#38bdf8"/>
+      <text x="855" y="519" fill="#f8fafc" font-size="15" font-weight="700">同一事件重复三次</text>
+      <text x="825" y="550" fill="#94a3b8" font-size="13">只发一次权益，不延长三次</text>
+    </g>
+
+    <rect x="58" y="631" width="1084" height="2" fill="url(#accent)" opacity=".8"/>
+    <text x="58" y="657" fill="#64748b" font-size="13">上线闸门：测试环境覆盖状态 + 一笔真实小额交易 + 结算退款对账全部走通</text>
+  </g>
+</svg>
