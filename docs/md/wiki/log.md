@@ -129,6 +129,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-19] ingest: DeepSeekHarness 新范式：让 Agent 为自己构建工具
+
+- 归档《DeepSeekHarness 的新范式：让 Agent 为自己构建工具》至 sources/deepseek-harness-agent-build-tools.md（微信公众号：乔木，2026-08-19）
+- 纯文字，无配图
+- 核心：一切皆插件，Agent 现场造工具、用完即销毁。脚本 vs 插件 8 维度对比 + 五条最佳实践
+
 ## [2026-08-18] ingest: AI 资源全景地图
 
 - 归档《AI 资源全景地图》至 sources/anything-about-ai-resources.md（GitHub: killop/anything_about_game/AI.md）
