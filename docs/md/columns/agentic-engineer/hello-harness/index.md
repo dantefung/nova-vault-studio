@@ -25,6 +25,7 @@ Stage 1  →  Function Calling + Tool + Agent Loop
 
 | # | 文章 | 日期 | 主题 |
 |---|------|------|------|
+| 04 | [Model Provider 抽象：Agent 不应该知道 OpenAI / Anthropic / Gemini 的区别](./04-model-provider.md) | 08-18 | 第一次架构抽象，定义与 Provider 无关的 Model 接口 |
 | 05 | [Function Calling：让模型第一次产生结构化动作 ToolCall](./05-function-calling.md) | 08-19 | 从「只会说」到「能动手」的关键一步 |
 
 ---
