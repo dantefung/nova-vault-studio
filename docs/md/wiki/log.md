@@ -129,6 +129,21 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-19] ingest: 新建 DeepSeek Harness 专栏
+
+- 归档 6 篇 DeepSeek Harness 相关文章至 columns/agentic-engineer/deepseek-harness/（微信公众号，2026-08-13 至 2026-08-19）
+- 同时从 other-tools 专栏移除 deepseek-harness-agent-build-tools.md（已归入新专栏）
+- 6 篇文章全部无广告
+
+| # | 文章 | 来源 | 主题 |
+|---|------|------|------|
+| 01 | Agent = Model + Harness | 林大友 | 整体架构与核心理念 |
+| 02 | Agent Runtime 该怎么设计 | — | Session Log / Seam / Agent Loop |
+| 03 | 插件运行机制深析 | — | Cordis 插件生态 |
+| 04 | Agent 为自己构建工具 | 乔木 | 现场装配 + 五条最佳实践 |
+| 05 | Agent 蒸馏数据工厂 | — | 事件流 → 蒸馏数据 |
+| 06 | Cordis vs Pi | 架构师 | 两种 Agent 架构对比 |
+
 ## [2026-08-19] ingest: DeepSeekHarness 新范式：让 Agent 为自己构建工具
 
 - 归档《DeepSeekHarness 的新范式：让 Agent 为自己构建工具》至 sources/deepseek-harness-agent-build-tools.md（微信公众号：乔木，2026-08-19）
