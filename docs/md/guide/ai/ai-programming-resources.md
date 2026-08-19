@@ -239,6 +239,7 @@ date: "2026-05-05"
 
 ## 架构实战案例
 
+- [system-design-notes](https://github.com/liquidslr/system-design-notes) — 《System Design Interview - An Insider's Guide》读书笔记，13.1k stars。28 章，从 Scale、Rate Limiter、Consistent Hashing 到 Stock Exchange，覆盖系统设计面试全谱系，同时附 Rate Limiting/Circuit Breaker/Key-Value Store/Message Queue 等专题参考资料
 - [ai-architecture](https://github.com/myinvestpilot/ai-architecture) — 业余时间用 AI vibe coding 数年，28 个仓库、53.8 万行代码、3000+ 用户。系列文章：AI 原生系统设计（DSL）、多 Agent 架构、Agent 驱动开发流程、一人公司云原生架构。适合想了解真实规模 Vibe Coding 实践的开发者
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) — Multi-Agents LLM 金融交易框架，78.6k stars，分析师/研究员/交易员/风控多 Agent 协作（仅供研究，不构成投资建议）
 - [Anthropic Skilljar 课程](https://anthropic.skilljar.com/) — Anthropic 官方学习平台
