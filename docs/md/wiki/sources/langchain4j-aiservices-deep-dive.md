@@ -10,13 +10,7 @@ url: "http://mp.weixin.qq.com/s?__biz=MzY5MzMzODAwMg==&mid=2247483742&idx=1&sn=5
 
 > 定义一个接口，加上注解，框架自动生成实现——AiServices 把声明式编程带到了 Agent 开发里。这篇文章深入解析它的工作机制和 5 个核心能力。
 
-
-
-定义一个接口，加上注解，框架自动生成实现——AiServices 把声明式编程带到了 Agent 开发里。这篇文章深入解析它的工作机制和 5 个核心能力。
-
-
-
-上篇文章里我们展示了一个「能聊天的 Agent」：定义一个 IndustrialAssistant 接口，调 AiServices.builder().build()，就能自动调用工具、管理记忆、返回结果。
+上篇文章里我们展示了一个「能聊天的 Agent」：定义一个 IndustrialAssistant 接口，调 AiServices.builder().build()，就能自动调用工具、管理记忆、返回结果。
 
 
 
