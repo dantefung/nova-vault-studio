@@ -129,6 +129,12 @@ source: "llm-wiki"
 - 无配图（纯文字短文）
 - 内容摘要：用"问题空间定位法"五步拆解 DSH——它解决的3个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是"调度AI的运行时"（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude占"把代码写好"，Pi占"省上下文"，WorkBuddy占"分发"，DSH占"调度+本地"），反直觉事实：DSH能把Codex和Claude Code当插件后端调度
 
+## [2026-08-19] ingest: Hello Harness 专栏
+
+- 归档《Hello Harness 05 · Function Calling》至 sources/hello-harness-05-function-calling.md（微信公众号：一灰灰blog，2026-08-19）
+- 纯文字，无配图，无广告
+- 新建 agentic-engineer 下 hello-harness/ 专栏（从 0 手写 Agent Harness 系列）
+
 ## [2026-08-19] ingest: 新建 DeepSeek Harness 专栏
 
 - 归档 6 篇 DeepSeek Harness 相关文章至 columns/agentic-engineer/deepseek-harness/（微信公众号，2026-08-13 至 2026-08-19）
