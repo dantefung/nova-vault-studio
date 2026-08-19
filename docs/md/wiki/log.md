@@ -156,6 +156,13 @@ source: "llm-wiki"
 - 纯文字，无配图，无广告
 - 新建 agentic-engineer 下 hello-harness/ 专栏（从 0 手写 Agent Harness 系列）
 
+## [2026-08-19] ingest: 澎湃王侯「普通人如何上牌桌」
+
+- 归档《普通人如何「上牌桌」？》至 sources/penghua-putai-shangpai.md（微信公众号：澎湃王侯，2026-08-19）
+- 纯文字，无配图，无广告（"付费"为正文内容非推广）
+- 摘要写入 wiki/商业分析/penghua-putai-shangpai.md
+- 内容摘要：核心隐喻「小兔子与破桌子」，风口≠牌桌，生态位分化，四个实操案例（冷门自媒体/老人数字助手/接地气英语/本地维修），四条执行原则
+
 ## [2026-08-19] ingest: 新建 DeepSeek Harness 专栏
 
 - 归档 6 篇 DeepSeek Harness 相关文章至 columns/agentic-engineer/deepseek-harness/（微信公众号，2026-08-13 至 2026-08-19）
