@@ -232,6 +232,12 @@ wiki/
 | [cordis-dsh-vs-pi](/md/wiki/sources/cordis-dsh-vs-pi) | Cordis 解决什么：DSH 用 Cordis 管理跨插件关系（Loader/Fiber/effect/Service/Context），Pi 把清理交给扩展作者。两条 Provider 变化路径 + 所有权规则 + 半途失败回收 | 公众号 |
 | [frontend-skill-team-coding](/md/wiki/sources/frontend-skill-team-coding) | 阿里云团队前端 Skill 驱动的团队 AI Coding 实践：五维结构（When/What/Don't-Why/How/Map）、四个落地案例（Status看板/CFD升级/AIOps设计直码/国际化流水线）、R2C 需求转代码 | 公众号 |
 | [langchain-agent-wechat](/md/wiki/sources/langchain-agent-wechat) | Node + LangChain.js v1 搭公众号 Agent 流水线：七步落地 ReAct/Harness/MCP/SubAgent/Skill，DeepSeek V4 双模型分工，8 个避坑 | 公众号 |
+| [sba-agentscope-announcement](/md/wiki/sources/saa-agentscope) | Spring AI Alibaba 与 AgentScope 定位区别：Graph 工作流 vs Agentic 最大化模型，Java 智能体两条路线融合趋势 | java2ai.com |
+| [sba-agentscope-summary](/md/wiki/summaries/saa-agentscope) | Spring AI Alibaba vs AgentScope-Java 定位精读：四条路线差异 + 生态融合 + 路线图 v1.0 | Wiki 摘要 |
+| [graph-vs-agentic-java-frameworks](/md/wiki/patterns/graph-vs-agentic-java-frameworks) | Graph vs Agentic：Java 智能体框架两条设计路线的选型决策框架 | Wiki 推导 |
+| [why-people-use-pi](/md/wiki/sources/why-people-use-pi) | 为什么越来越多人用 Pi：200 Token prompt + 4 原语工具，缓存命中率 99.93%，$0.028/任务 | 公众号 |
+| [why-people-use-pi-summary](/md/wiki/summaries/why-people-use-pi) | Pi 极简哲学精读：原语优先 vs 脚手架完整，与 DSH 加法路线的对照 | Wiki 摘要 |
+| [primitives-vs-scaffolding](/md/wiki/patterns/primitives-vs-scaffolding) | 原语优先 vs 脚手架完整：Agent 工具设计的两种极端范式对比 | Wiki 推导 |
 | [dsh-tech-hype-or-not](/md/wiki/sources/dsh-tech-hype-or-not) | DeepSeek Harness 是技术人自嗨？反驳批评，从四种工作模式与 Cordis 插件架构看 DSH 真正的差异化 | 公众号 |
 | [dsh-tech-hype-or-not-summary](/md/wiki/summaries/dsh-tech-hype-or-not) | DSH 四模式与 Cordis 插件架构精读：Harness 是工程系统而非产品功能，四模式 = 四份插件清单 | Wiki 摘要 |
 | [dsh-four-modes](/md/wiki/patterns/dsh-four-modes) | DSH 四种工作模式：插件清单驱动的 Agent 能力切换，preset 抽象让「切换模式」=「换职业」 | Wiki 推导 |

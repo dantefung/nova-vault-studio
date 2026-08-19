@@ -9,7 +9,23 @@ source: "llm-wiki"
 > 所有 ingest、query、lint 操作记录在此。
 > 格式：`## [YYYY-MM-DD] 操作类型: 简要描述`
 
----
+---## [2026-08-18] ingest: 为什么越来越多人用 Pi？——200 Token prompt + 4 原语工具的极简 Agent
+
+- 归档《为什么越来越多人用 Pi ？》至 sources/why-people-use-pi.md（微信公众号：苏三说技术，2026-08-18）
+- 2 张配图（已下载到 images/why-people-use-pi/，真 webp 格式）
+- 新增 summaries/why-people-use-pi.md
+- 新增 patterns/primitives-vs-scaffolding.md（原语优先 vs 脚手架完整对比推导）
+- 更新 wiki/index.md，新增 why-people-use-pi 系列索引
+- 内容摘要：Pi 由 libGDX 创始人 Mario Zechner 开源，GitHub 8.6万 Star——核心反直觉在于"做减法"（4 原语工具 read/write/edit/bash + 200 Token 系统提示词 vs Claude Code 14000 Token + 10+ 内置工具）；Composio 8 Harness 横评中 Pi + DeepSeek V4 Flash 跑 Terminal-Bench-2.0 得 66.7%、$0.028/任务、缓存命中率 99.93%；架构本质是 while 循环；作者 Mario Zechner 的判断"bash 本身就是最通用的工具接口"；与 DSH 加法路线形成对照
+
+## [2026-01-13] ingest: Spring AI Alibaba 与 AgentScope 定位区别——Graph vs Agentic 两条路线
+
+- 归档《一文讲透 Spring AI Alibaba 与 AgentScope 的定位与区别》至 sources/saa-agentscope.md（java2ai.com 官方博客，2026-01-13）
+- 6 张配图（原图为 2752×1536 PNG，单张 7MB，已用 ImageMagick 压缩到 1600px JPEG，单张 ~190KB）
+- 新增 summaries/saa-agentscope.md
+- 新增 patterns/graph-vs-agentic-java-frameworks.md（Java 智能体两条路线的选型决策框架推导）
+- 更新 wiki/index.md，新增 saa-agentscope 系列索引
+- 内容摘要：Spring AI Alibaba（基于 Spring AI 0.8.0 的本地化增强，2024-09 开源，含 Graph 工作流编排）与 AgentScope-Java（阿里通义实验室 AgentScope 的 Java 版，2025-09 开源）代表两条不同的智能体设计哲学——Graph 强调工作流确定性（Spring AI Alibaba）、Agentic 强调最大化模型能力（AgentScope）；两条路线未来将融合（Spring AI Alibaba 底层全面支持 AgentScope，提供 AgentScope Starter 与 Runtime Starter）；AgentScope-Java 路线图 2026-11 底发布 v1.0（新增 RAG/Plan/Tracing/Evaluation/Studio + Runtime v1.0 含安全沙箱/A2A Agent），12 月推出 ReMe 上下文管理与 Trinity-RFT 强化学习最佳实践；Serverless 化是共同方向，应对"二八定律"流量分布
 ## [2026-08-17] ingest: DSH 临时 Plugin 挂载不是自我进化——Runtime 实验走向工程闭环
 
 - 归档《从 Runtime 实验走向工程闭环》至 sources/dsh-vs-continuum-acp.md（X/Twitter：@JoeyDeepWorld，2026-08-17）
