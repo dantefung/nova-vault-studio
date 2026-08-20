@@ -46,10 +46,12 @@ AiServices.builder(IndustrialAssistant.class).build() 返回的，是 JDK 在�
 
 
 
+```java
 // 手写 Agent 调用链（伪代码）public String chat(String userMessage) {    // 1. 从 ChatMemory 加载历史    List&lt;Message&gt; history = chatMemory.messages();    // 2. 构建 OpenAI Request    ChatCompletionRequest request = ChatCompletionRequest.builder()        .model("deepseek-chat")        .messages(history + currentMessage)        .tools(buildToolSchema(alarmTool, dataTool, diagnosisTool))  // 反射提取 @Tool        .build();    // 3. 调 LLM    ChatCompletionResponse response = chatModel.chat(request);    // 4. 如果 LLM 返回 tool_calls，反射调用 Java 方法    if (response.hasToolCalls()) {        for (ToolCall tc : response.getToolCalls()) {            String result = invokeToolByName(tc.name, tc.arguments);            history.add(tc, result);  // 工具结果也加入上下文        }        // 5. 把工具结果发回 LLM，获取最终回复        response = chatModel.chat(buildFollowUpRequest(history));    }    // 6. 保存到 ChatMemory    chatMemory.add(userMessage, response);    return response.getContent();}
 
 
 
+```
 这就是 AiServices 帮你省掉的胶水代码。代理对象的 invoke() 内部就是上面的流程——但它是框架写好的，你只需要定义接口。
 
 
@@ -210,10 +212,12 @@ ChatMemory 是 Agent 记住多轮对话的机制。LangChain4j 提供了两种�
 
 
 
+```java
 // MemoryComparisonService 的核心逻辑Map&lt;String, List&lt;String&gt;&gt; results = new LinkedHashMap&lt;&gt;();// 20 条消息窗口ChatMemory msg20 = MessageWindowChatMemory.withMaxMessages(20);results.put("messageWindow(20)", runConversation(msg20, conversation));// 4 条消息窗口 — 模拟「短记忆」ChatMemory msg4 = MessageWindowChatMemory.withMaxMessages(4);results.put("messageWindow(4)", runConversation(msg4, conversation));// 2000 token 窗口ChatMemory token2k = TokenWindowChatMemory.withMaxTokens(2000, new OpenAiTokenizer());results.put("tokenWindow(2000t)", runConversation(token2k, conversation));
 
 
 
+```
 典型结果：
 
 
@@ -366,10 +370,12 @@ interface IndustrialAssistant {    String chat(String message);    // 
 
 
 
+```java
 @PostMapping(value = "/chat/stream", produces = MediaType.TEXT_EVENT_STREAM_VALUE)public SseEmitter chatStream(@RequestBody Map&lt;String, String&gt; request) {    String message = request.getOrDefault("message", "");    SseEmitter emitter = new SseEmitter(120_000L); // 2 分钟超时    TokenStream tokenStream = deviceAgent.chatStream(message);    tokenStream        .onNext(token -&gt; {            emitter.send(SseEmitter.event().name("token").data(token));        })        .onComplete(response -&gt; {            log.info("[SSE] Stream completed, tokens: {}", response.tokenUsage());            emitter.complete();        })        .onError(error -&gt; {            log.error("[SSE] Stream error: {}", error.getMessage());            emitter.completeWithError(error);        })        .start();    return emitter;}
 
 
 
+```
 三个回调：
 
 
@@ -434,10 +440,12 @@ API 对 API 调用
 
 
 
+```java
 @Datapublic class DiagnosticResponse {    @Description("设备ID")    private String deviceId;    @Description("设备当前状态：normal/warning/critical")    private String status;    @Description("诊断分析结论")    private String analysis;    @Description("可能的故障原因，按可能性从高到低排列")    private List&lt;String&gt; possibleCauses;    @Description("建议的维修或处理措施")    private List&lt;String&gt; suggestedActions;    @Description("优先级：HIGH/MEDIUM/LOW")    private String priority;    @Description("是否需要立即处理")    private Boolean requiresImmediateAction;    @Description("诊断置信度，0.0-1.0")    private Double confidence;}
 
 
 
+```
 @Description 注解是关键——它告诉 LLM 每个字段的含义和取值范围。LLM 会在推理时决定每个字段填什么。
 
 

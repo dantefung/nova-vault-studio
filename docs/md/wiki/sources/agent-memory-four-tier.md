@@ -90,16 +90,20 @@ PostgreSQL
 
 L1 存的是「任务中间态」——当前目标、部分结果、待执行的工具调用。它是易失的：任务做完或超时就该消失。用 Redis 的 TTL 天然实现自过期：
 
+```java
 @Componentpublic class WorkingMemory {    private final StringRedisTemplate redis;    private final ObjectMapper mapper;    private final Duration ttl;   // 来自配置：600s    private String key(String sessionId, String taskId) {        return "wm:" + sessionId + ":" + taskId;    }    /** 覆盖写任务状态，并刷新 TTL */    public void put(String sessionId, String taskId, Map&lt;String, Object&gt; state) {        redis.opsForValue().set(key(sessionId, taskId),                mapper.writeValueAsString(state), ttl);    }    public Map&lt;String, Object&gt; get(String sessionId, String taskId) {        String json = redis.opsForValue().get(key(sessionId, taskId));        return json == null ? Map.of() : mapper.readValue(json, Map.class);    }}
 
+```
 设计要点：key 带上 taskId，TTL 由配置控制。一个被用户中途放弃的任务（「查一下 CNC-001…算了」），10 分钟后自己蒸发，不留垃圾。不需要写任何清理逻辑，Redis 做了。
 
 ## 四、L2 Conversation Memory：一个有上限的 Redis Stream
 
 L2 是「最近几轮原始对话」，用于即时上下文。这里我们没有用 List 手动裁剪，而是用 Redis Stream + MAXLEN，让淘汰交给 Redis：
 
+```java
 @Componentpublic class ConversationMemory {    private final StringRedisTemplate redis;    private final int maxEntries;   // 来自配置：5    public void append(String sessionId, String role, String content) {        Map&lt;String, String&gt; fields = new LinkedHashMap&lt;&gt;();        fields.put("role", role);        fields.put("content", content);        fields.put("timestamp", String.valueOf(System.currentTimeMillis()));        MapRecord&lt;String, String, String&gt; record =                StreamRecords.mapBacked(fields).withStreamKey(key(sessionId));        redis.opsForStream().add(record);        redis.opsForStream().trim(key(sessionId), maxEntries);  // ← 保持定长    }    public List&lt;ConversationTurn&gt; recent(String sessionId) {        List&lt;MapRecord&lt;String, Object, Object&gt;&gt; records =                redis.opsForStream().range(key(sessionId), Range.unbounded());        // 按时间序还原为 ConversationTurn 列表        ...    }}
 
+```
 为什么是 Stream 而不是 List？定长裁剪不是理由——List 的 LTRIM 同样原子。真正的三个理由是：
 
 1. 结构化多字段存储。Stream 每条记录天然是一个 field-value map，一条对话就是 {role, content, timestamp} 三个字段并存。换成 List 只能存一个字符串，要么自己拼 JSON 再解析，要么定分隔符——Stream 省掉了这层手动序列化。
@@ -116,8 +120,10 @@ L2 是「最近几轮原始对话」，用于即时上下文。这里我们没�
 
 这是四层里最有价值、也最容易做错的一层。滑动窗口丢掉的信息，靠 L3 来沉淀——每轮结束后，调一个小模型把对话压缩成结构化 JSON 存进 PostgreSQL：
 
+```java
 @Componentpublic class SummaryMemory {    // 结构化摘要的四个字段，而不是一段自由文本    @Async    public void generateAndStore(String sessionId, int turnNumber,                                 List&lt;ConversationTurn&gt; turns) {        try {            String transcript = turns.stream()                    .map(t -&gt; t.role() + ": " + t.content())                    .collect(Collectors.joining("\n"));            String prompt = """                    你是对话摘要器。请把下面的多轮对话压缩为结构化 JSON，仅输出 JSON。                    字段：user_goal（用户目标）、confirmed_facts（已确认事实）、                    pending_actions（待办动作）、constraints（约束/限制）。                    对话：                    %s                    """.formatted(transcript);            String raw = chatModel.chat(prompt);            JsonNode node = mapper.readTree(extractJson(raw));            store(new ConversationSummary(sessionId, turnNumber,                    node.path("user_goal").asText(""),                    node.path("confirmed_facts").asText(""),                    node.path("pending_actions").asText(""),                    node.path("constraints").asText("")));        } catch (Exception e) {            // 摘要失败绝不能影响用户请求，吞掉只记日志            log.warn("[L3] summary generation failed: {}", e.getMessage());        }    }}
 
+```
 两个关键设计：
 
 1. @Async：这个方法挂在 Spring 的异步线程池上（需要 @EnableAsync）。主链路把回复吐给用户后就返回了，摘要生成在后台慢慢跑，用户完全无感。
@@ -148,8 +154,10 @@ L4 是最长命的一层——用户和设备的长期事实：「张三负责 C
 
 读路径——把 L4 + L3 + L2 合并成一个上下文块，供 Prompt 注入：
 
+```java
 public String buildContextBlock(RuntimeContext ctx) {    StringBuilder sb = new StringBuilder();    // L4：用户画像    List&lt;ProfileEntry&gt; facts = profile.forSubject("user", ctx.getUserId());    if (!facts.isEmpty()) {        sb.append("【用户画像】\n");        facts.forEach(e -&gt; sb.append("- ").append(e.attribute())                             .append(": ").append(e.value()).append('\n'));    }    // L3：历史摘要（结构化四字段）    summary.latest(ctx.getSessionId()).ifPresent(s -&gt; {        sb.append("【历史摘要】\n");        if (!s.userGoal().isBlank()) sb.append("- 用户目标: ").append(s.userGoal()).append('\n');        // ... confirmedFacts / pendingActions / constraints    });    // L2：最近对话原文    conversation.recent(ctx.getSessionId()).forEach(t -&gt;            sb.append(t.role()).append(": ").append(t.content()).append('\n'));    return sb.toString();}
 
+```
 写路径——主链路只同步写 L2，L3 甩给异步：
 
 public void recordTurn(RuntimeContext ctx, String userMessage, String assistantReply) {    String sessionId = ctx.getSessionId();    conversation.append(sessionId, "user", userMessage);        // L2 同步    conversation.append(sessionId, "assistant", assistantReply); // L2 同步    int nextTurn = summary.latest(sessionId).map(s -&gt; s.turnNumber() + 1).orElse(1);    summary.generateAndStore(sessionId, nextTurn,               // L3 异步，不阻塞            conversation.recent(sessionId));}
