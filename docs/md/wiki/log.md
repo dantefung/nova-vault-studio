@@ -150,6 +150,12 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-20] ingest: Harness 工程化和脚手架实践
+
+- 归档《我的 Harness 工程化和脚手架实践》至 sources/huazai-harness-practice.md（微信公众号：华仔，2026-08-20）
+- 原文含大量付费社群推广（星球限时 159 元），已去广告（原 875 行，去广告后约 820 行，仍有 56 处残留广告关键词因混在正文中难以完全清除）
+- 添加至 agentic-engineer/agentscope 专栏第 19 篇（Java AgentScope 多 Agent 旅游规划项目：5 Agent 架构 + SDD + Harness Engineering + Plan Mode + 三层存储）
+
 ## [2026-08-19] ingest: Hello Harness 专栏
 
 - 归档《Hello Harness 05 · Function Calling》至 sources/hello-harness-05-function-calling.md（微信公众号：一灰灰blog，2026-08-19）
