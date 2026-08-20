@@ -342,6 +342,8 @@ date: "2026-05-05"
 
 ## 书籍与白皮书
 
+- [《深入理解 AI Agent——设计原理与工程实践》](https://bojieli.github.io/ai-agent-book/) — 开源 AI Agent 技术书，Apache 2.0 许可证，10 章完整体系：Agent 基础知识（Agent = LLM + 上下文 + 工具）、上下文工程（KV Cache/提示工程/Agent Skills/上下文压缩）、用户记忆和知识库（RAG/知识图谱）、工具（MCP 协议/三类工具/异步 Agent）、Coding Agent、Agent 评估、模型后训练（SFT+RL）、Agent 持续进化、多模态与实时交互（Computer Use）、多 Agent 协作。配套实验 + 思考题答案。中文版提供 PDF/EPUB 下载，社区翻译覆盖 12+ 语言（英语/西语/印尼语/阿拉伯语/繁体中文/俄语/泰米尔语/越南语/日语/土耳其语/韩语/匈牙利语/希伯来语）
+
 - [FDE 前线部署工程师指南](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) — 范冰（XDash）著，**1.5k Stars**。免费公开全文，从零入门 FDE（Forward Deployed Engineer）。基于《增长黑客》原书框架，聊清楚三件事：FDE 是什么（从 Palantir 情报项目长出的角色，AI 时代爆发）、怎么做（找对问题→赢得客户→激活部署→守住续约→扩大收入→规模化复制）、谁在做（112 个真实案例）。含 PDF 整本下载。非商业性分享免费
 
 ## 其他
