@@ -164,8 +164,15 @@ source: "llm-wiki"
 ## [2026-08-20] ingest: Harness 工程化和脚手架实践
 
 - 归档《我的 Harness 工程化和脚手架实践》至 sources/huazai-harness-practice.md（微信公众号：华仔，2026-08-20）
-- 原文含大量付费社群推广（星球限时 159 元），已去广告（原 875 行，去广告后约 820 行，仍有 56 处残留广告关键词因混在正文中难以完全清除）
-- 添加至 agentic-engineer/agentscope 专栏第 19 篇（Java AgentScope 多 Agent 旅游规划项目：5 Agent 架构 + SDD + Harness Engineering + Plan Mode + 三层存储）
+- 原文含大量付费社群推广（星球限时 159 元），已去广告
+- 添加至 agentic-engineer/agentscope 专栏第 19 篇
+
+## [2026-08-01] ingest: 「解决问题」不赚钱，反过来才赚钱
+
+- 归档《「解决问题」不赚钱，反过来才赚钱》至 sources/manufacturing-problems-to-earn-money.md（微信公众号：澎湃王侯，2026-08-01）
+- 纯文字，无配图，无广告
+- 摘要写入 商业分析/manufacturing-problems-to-earn-money.md
+- 内容摘要：制造问题三层模型（制造标准/制造依赖/制造身份否定），案例：杀毒软件养寇自重、洗发水产品线设计、净水器滤芯、自媒体博主卖期货
 
 ## [2026-08-19] ingest: Hello Harness 专栏
 
