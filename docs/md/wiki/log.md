@@ -17,7 +17,14 @@ source: "llm-wiki"
 - 新增 patterns/primitives-vs-scaffolding.md（原语优先 vs 脚手架完整对比推导）
 - 更新 wiki/index.md，新增 why-people-use-pi 系列索引
 - 内容摘要：Pi 由 libGDX 创始人 Mario Zechner 开源，GitHub 8.6万 Star——核心反直觉在于"做减法"（4 原语工具 read/write/edit/bash + 200 Token 系统提示词 vs Claude Code 14000 Token + 10+ 内置工具）；Composio 8 Harness 横评中 Pi + DeepSeek V4 Flash 跑 Terminal-Bench-2.0 得 66.7%、$0.028/任务、缓存命中率 99.93%；架构本质是 while 循环；作者 Mario Zechner 的判断"bash 本身就是最通用的工具接口"；与 DSH 加法路线形成对照
+## [2026-08-20] ingest: LLM 上下文窗口与 Token 原理——128k 公摊、BPE 子词切分与 Prompt 工程
 
+- 归档《上下文 128k 也有"公摊"？通俗大白话聊透大模型底层逻辑》至 sources/llm-context-and-token.md（微信公众号：小牛呼噜噜，2026-08-20）
+- 8 张配图（6 张 PNG 压缩成 JPEG + 1 张 GIF + 1 张 PNG，已下载到 images/llm-context-and-token/）
+- 新增 summaries/llm-context-and-token.md
+- 新增 concepts/context-window-public-area.md（128k 上下文五大公摊来源 + 可用空间估算 + 长上下文三大副作用推导）
+- 更新 wiki/index.md，新增 llm-context-and-token 系列索引
+- 内容摘要：大模型本质（自回归生成 + 下一个 Token 预测）；Token 三种切分（字符级太碎 / 词级词表爆炸 / 子词 BPE 是当前大模型主流）；BBPE 字节级分词（GPT/Claude/DeepSeek 都用，从 256 字节起步覆盖任何文本包括 Emoji）；128k 上下文的"公摊"五大来源（系统设定/历史记录/RAG/工具定义/输出预算）；长上下文三大副作用（成本浪费/首字延迟/注意力分散 - Lost in the Middle）；Prompt 工程四要素（角色+背景+任务+要求）
 ## [2026-01-13] ingest: Spring AI Alibaba 与 AgentScope 定位区别——Graph vs Agentic 两条路线
 
 - 归档《一文讲透 Spring AI Alibaba 与 AgentScope 的定位与区别》至 sources/saa-agentscope.md（java2ai.com 官方博客，2026-01-13）

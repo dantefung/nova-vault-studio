@@ -200,6 +200,9 @@ wiki/
 | [agentscope-layering](/md/wiki/concepts/agentscope-layering) | AgentScope 分层架构：无状态 ReAct 内核 + 组合式外壳 + 18 类扩展，洋葱 4 点+管道 1 点中间件，112 处 @Deprecated 双轨债 | 公众号 |
 | [agentscope-governance](/md/wiki/concepts/agentscope-governance) | Agent 平台治理三大支柱：权限六步管线（独立引擎+HITL）、优雅停机三原则（先存后断+阶段边界+按requestId）、统一事件流（31种event+CustomEvent逃生舱） | 公众号 |
 | [agent-token-architecture](/md/wiki/concepts/agent-token-architecture) | Agent 的本质：用 Token 换架构，控制流从开发期迁移到运行时，三年技术脉络 ReAct→FC→MCP→Skills | 公众号 |
+| [llm-context-and-token](/md/wiki/sources/llm-context-and-token) | LLM 上下文窗口与 Token 原理：128k 公摊、BPE 子词切分、Prompt 工程四要素 | 公众号 |
+| [llm-context-and-token-summary](/md/wiki/summaries/llm-context-and-token) | LLM 上下文与 Token 原理精读：自回归生成 + 子词分词 + 128k 公摊 + Prompt 四要素 | Wiki 摘要 |
+| [context-window-public-area](/md/wiki/concepts/context-window-public-area) | 上下文窗口的公摊面积：五大公摊来源 + 实际可用空间估算 + 长上下文三大副作用 | Wiki 推导 |
 | [agentscope-multi-agent](/md/wiki/concepts/agentscope-multi-agent) | 多 Agent 编排三件套：spawn/send 原语、超时收编后台任务不丢弃、子事件并入父流、跨副本三段式路由 | 公众号 |
 | [multi-agent-design](/md/wiki/sources/multi-agent-design) | 多 Agent 系统设计哲学：六层架构、四天花板、五角色、三协作模式、四通信方式、七生产难点、五实践五反模式 | 公众号 |
 | [agent-sandbox-k8s](/md/wiki/sources/agent-sandbox-k8s) | Agent Sandbox：K8s SIG 项目（kubernetes-sigs/agent-sandbox），声明式 CRD 编排隔离有状态单例沙箱，WarmPool 预热池 + RuntimeClass 接 gVisor/Kata，Agent 执行层基础设施 | 公众号 |
