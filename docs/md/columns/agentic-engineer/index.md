@@ -25,6 +25,7 @@ source: "原创"
 - [evo-agent-goal-command/](./evo-agent-goal-command/) — 袁小康 Agent Loop 系列（持续更新）
 - [pensieve/](./pensieve/) — Pensieve 自增长知识库
 - [other-tools/](./other-tools/) — 其他工具与实践案例
+- [build-with-agents/](./build-with-agents/) — 与智能体一起构建（人本视角的第一人称实践）
 
 ---
 
