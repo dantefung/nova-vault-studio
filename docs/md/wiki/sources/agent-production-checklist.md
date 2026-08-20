@@ -164,7 +164,11 @@ DiagnosisTool 的 generateDiagnosis 没有调用上限——LLM 可以在一�
 
 
 
+```
+
 public String searchKnowledgeBase(String query) {    Embedding queryEmbedding = embeddingModel.embed(query).content();    EmbeddingSearchResult&lt;TextSegment&gt; result = embeddingStore.search(            EmbeddingSearchRequest.builder()                    .queryEmbedding(queryEmbedding)                    .maxResults(3)                    .minScore(0.5)                    .build()    );    // 直接返回结果，无任何过滤}
+```
+
 
 
 
@@ -444,7 +448,11 @@ P0 完成后：系统有了中枢（Runtime）、免疫系统（Tool 防护）�
 
 
 
+```
+
 L1 工作记忆 (Redis, TTL 10min) + L2 会话记忆 (Redis Stream, 最近 3-5 轮) + L3 摘要记忆 (PG, 异步小模型生成) + L4 画像记忆 (PG, 置信度 &gt; 0.9 写入)
+```
+
 
 
 

@@ -41,7 +41,11 @@ Java 不是 AI Agent 的原生语言。Python 生态有 LangChain、LangGraph、
 | 响应式 | 无 | 无 | ✅ Spring WebFlux | ✅ Project Reactor |
 | 自研框架 | 无（开源社区版） | 低 | 高 | 低 |
 | 自研框架 | 无 | 无 | 无 | ✅ Eval Probe 机制 |
+```
+
 | GitHub Stars | 8k+ | &lt;500 | 3k+ | 3k+（Python 版）|
+```
+
 | 发布频率 | 每月 1-2 次 | 不定期 | 跟随 Spring AI | 双周迭代 |
 
 ## 三、架构设计哲学

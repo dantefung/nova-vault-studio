@@ -106,7 +106,11 @@ Adapt to the user's domain. The schema constrains agent behavior and ensures con
 
 Raw sources ALSO get a small frontmatter block so re-ingests can detect drift:
 
+```
+
 `---source_url: https://example.com/article   # original URL, if applicableingested: YYYY-MM-DDsha256: &lt;hex digest of the raw content below the frontmatter>---`
+```
+
 
 The `sha256:` lets a future re-ingest of the same URL skip processing when content is unchanged, and flag drift when it has changed. Compute over the body only (everything after the closing `---`), not the frontmatter itself.
 

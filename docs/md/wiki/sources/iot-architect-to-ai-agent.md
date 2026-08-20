@@ -268,7 +268,11 @@ LangChain4j 的 Tool 声明极其简洁：在方法上加 @Tool 注解，注解�
 
 
 
+```java
+
 // DeviceAlarmTool.java@Componentpublic class DeviceAlarmTool {    @Tool("查询指定设备的当前告警信息。输入设备ID，返回该设备的所有活跃告警。")    public String queryDeviceAlarms(String deviceId) {        // ... 告警查询逻辑    }}
+```
+
 
 
 
@@ -392,7 +396,11 @@ Agent 的执行链路：
 
 
 
+```
+
 1. LLM 理解意图 → 需要先查告警 + 查数据2. 调用 queryDeviceAlarms("CNC-001")    → 返回告警信息3. 调用 queryDeviceHistory("CNC-001")   → 返回遥测数据4. LLM 分析结果 → 发现振动值超标，需要诊断5. 调用 generateDiagnosis("振动异常", "vibration=4.8mm/s&gt;2.8")6. LLM 整合所有信息 → 生成完整诊断报告
+```
+
 
 
 

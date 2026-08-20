@@ -92,7 +92,11 @@ ChatMemory shortMemory = MessageWindowChatMemory.withMaxMessages(4);
 
 
 
+```
+
 // 标准对话：自我介绍 → 查询设备 → 追问身份List&lt;String&gt; conversation = List.of(    "你好，我叫张三，是CNC-001的运维工程师。",    "CNC-001现在有什么告警吗？",    "我之前说我是谁？我叫什么名字？我负责哪台设备？");Map&lt;String, List&lt;String&gt;&gt; results = memoryComparison.compare(conversation);
+```
+
 
 
 

@@ -72,7 +72,11 @@ public String chat(String userMessage) {    log.info("[Agent] User message:
 
 
 
+```
+
 // runtime/RuntimeContext.javapublic class RuntimeContext {    private final String traceId;          // 全链路追踪 ID    private final String sessionId;        // 会话 ID    private final String tenantId;         // 租户 ID（多租户隔离）    private final String userId;           // 用户 ID    private final long startedAtMs;        // 请求开始时间    private final long deadlineMs;         // 超时熔断线    private final List&lt;ToolCallRecord&gt; toolCallHistory; // 已调工具记录    private AgentState currentState;       // 当前状态    private String executionPlan;          // 当前执行计划}
+```
+
 
 
 
@@ -88,7 +92,11 @@ RuntimeContext 就是单次请求的"护照"——它跟着请求走完整个�
 
 
 
+```java
+
 // runtime/AgentRuntime.java@Componentpublic class AgentRuntime {    public &lt;T&gt; T execute(RuntimeContext ctx, Supplier&lt;T&gt; action) {        // 1. 熔断检查        if (!circuitBreaker.isAllowed()) {            ctx.transition(FAILED);            throw new RuntimeExceededException("Circuit breaker open");        }        // 2. 状态流转        ctx.transition(SESSION_READY);        tracer.stateTransition(ctx, RECEIVED, SESSION_READY);        ctx.transition(CONTEXT_READY);        tracer.stateTransition(ctx, SESSION_READY, CONTEXT_READY);        // 3. 超时预检        if (ctx.isExpired()) {            ctx.transition(FAILED);            throw new RuntimeExceededException("Deadline exceeded");        }        try {            ctx.transition(MODEL_THINKING);            T result = action.get();   // ← 实际的 LLM + 工具调用在这里            ctx.transition(POST_PROCESSING);            ctx.transition(COMPLETED);            metrics.recordRequest(COMPLETED, ctx.elapsedMs());            return result;        } catch (ToolException e) {            ctx.transition(FAILED);            circuitBreaker.recordFailure();            throw e;        } catch (Exception e) {            ctx.transition(FAILED);            circuitBreaker.recordFailure();            throw new RuntimeException("Agent execution failed", e);        }    }}
+```
+
 
 
 
@@ -116,11 +124,19 @@ RuntimeContext 就是单次请求的"护照"——它跟着请求走完整个�
 
 
 
+```
+
 // 改造前public String chat(String userMessage) {    return buildAssistant().chat(userMessage);}// 改造后public String chat(RuntimeContext ctx, String userMessage) {    return runtime.execute(ctx, () -&gt; {        String reply = buildAssistant().chat(userMessage);        costTracker.recordRequest(userMessage, reply);        return reply;    });}
+```
 
 
+
+
+```
 
 变化只有一行包装 runtime.execute(ctx, () -&gt; {...})，但这一行带来的能力是：
+```
+
 
 
 
@@ -144,7 +160,11 @@ RuntimeContext 就是单次请求的"护照"——它跟着请求走完整个�
 
 
 
+```java
+
 // AgentController.java@PostMapping("/chat")public ResponseEntity&lt;Map&lt;String, Object&gt;&gt; chat(@RequestBody Map&lt;String, String&gt; request) {    String message = request.getOrDefault("message", "");    // 为每次请求创建独立的上下文    RuntimeContext ctx = runtime.createContext(            request.getOrDefault("sessionId", "default"),            request.getOrDefault("tenantId", "default"),            request.getOrDefault("userId", "anonymous"));    String reply = deviceAgent.chat(ctx, message);    // 返回 traceId 给客户端，方便排查    Map&lt;String, Object&gt; response = new LinkedHashMap&lt;&gt;();    response.put("reply", reply);    response.put("traceId", ctx.getTraceId());    // ← 客户端可以拿这个 ID 报障    response.put("elapsedMs", ctx.elapsedMs());   // ← 客户端感知延迟    return ResponseEntity.ok(response);}
+```
+
 
 
 

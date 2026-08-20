@@ -24,7 +24,11 @@ MVP 版本的 KnowledgeBaseTool.searchKnowledgeBase() 总共 20 行：
 
 
 
+```
+
 public String searchKnowledgeBase(String query) {    Embedding queryEmbedding = embeddingModel.embed(query).content();    EmbeddingSearchResult&lt;TextSegment&gt; result = embeddingStore.search(            EmbeddingSearchRequest.builder()                    .queryEmbedding(queryEmbedding)                    .maxResults(3)                    .minScore(0.5)                    .build()    );    // ... JSON 格式化返回}
+```
+
 
 
 
@@ -144,7 +148,11 @@ rag:  rewrite-strategy: HYDE   # HYDE | MULTI_QUERY | NONE
 
 
 
+```
+
 Embedding queryEmbedding = embeddingModel.embed(searchQuery).content();EmbeddingSearchResult&lt;TextSegment&gt; result = embeddingStore.search(        EmbeddingSearchRequest.builder()                .queryEmbedding(queryEmbedding)                .maxResults(10)     // 不再是 3，留给后续步骤裁剪                .minScore(0.3)      // 放低门槛，扩大召回                .filter(tenantFilter) // 租户过滤                .build());
+```
+
 
 
 
@@ -172,11 +180,19 @@ BM25 天然适合术语匹配：
 
 
 
+```
+
 // Bm25Retriever.java — in-memory inverted indexpublic List&lt;ScoredDoc&gt; search(String query, int topK) {    String[] queryTerms = tokenize(query);    // IDF × TF × (K1+1) / (TF + K1×(1-B+B×len/avgLen))    for (String term : queryTerms) {        Map&lt;Integer, Double&gt; postings = invertedIndex.getOrDefault(term, Map.of());        double idf = Math.log(1 + (totalDocs - df + 0.5) / (df + 0.5));        for (var entry : postings.entrySet()) {            scores.merge(entry.getKey(), idf * tfScore(entry.getValue(), len), Double::sum);        }    }    // ... sort by score desc, return topK}
+```
 
 
+
+
+```
 
 BM25 索引在服务启动时自动构建，每次文档写入后自动重建。35 篇维修知识库，索引构建 &lt;1ms。
+```
+
 
 
 
@@ -188,7 +204,11 @@ BM25 索引在服务启动时自动构建，每次文档写入后自动重建。
 
 
 
+```
+
 // RrfFusion.javapublic List&lt;String&gt; fuse(List&lt;EmbeddingMatch&lt;TextSegment&gt;&gt; dense,                         List&lt;ScoredDoc&gt; sparse, int topK) {    Map&lt;String, Double&gt; scores = new LinkedHashMap&lt;&gt;();    // RRF 公式: score(d) = Σ 1/(K + rank)    for (int i = 0; i &lt; dense.size(); i++)        scores.merge(dense.get(i).embedded().text(), 1.0 / (60 + i + 1), Double::sum);    for (int i = 0; i &lt; sparse.size(); i++)        scores.merge(sparse.get(i).text(), 1.0 / (60 + i + 1), Double::sum);    return scores.entrySet().stream()            .sorted(Map.Entry.&lt;String, Double&gt;comparingByValue().reversed())            .limit(topK).map(Map.Entry::getKey).toList();}
+```
+
 
 
 
@@ -208,7 +228,11 @@ K=60 是经典参数：平滑了排名差异，又保留了靠前结果的优势
 
 
 
+```
+
 // LlmReranker.javapublic List&lt;String&gt; rerank(String query, List&lt;String&gt; candidates, int topK) {    // 把 N 个候选打包成一个 LLM 请求    String prompt = """            Rate the relevance of each document to the query on 0-10.            Query: %s            [0] doc text...            [1] doc text...            Return ONLY a JSON array of scores, e.g. [8,3,6].""".formatted(query);    String scoresJson = chatModel.chat(prompt);    // 解析分数，按分数降序排列，返回 topK}
+```
+
 
 
 
@@ -236,7 +260,11 @@ searchKnowledgeBase 是用 @Tool 注解的方法——它的签名由 LangCha
 
 
 
+```
+
 // RagContextHolder.javapublic class RagContextHolder {    private static final ThreadLocal&lt;String&gt; tenantIdHolder = new ThreadLocal&lt;&gt;();    public static void set(String tenantId, String userId) { ... }    public static String getTenantId() { return tenantIdHolder.get(); }    public static void clear() { tenantIdHolder.remove(); }}
+```
+
 
 
 
@@ -244,7 +272,11 @@ searchKnowledgeBase 是用 @Tool 注解的方法——它的签名由 LangCha
 
 
 
+```
+
 // DeviceAgent.javapublic String chat(RuntimeContext ctx, String userMessage) {    RagContextHolder.set(ctx.getTenantId(), ctx.getUserId());    try {        return runtime.execute(ctx, () -&gt; {            String reply = buildAssistant(ctx).chat(promptCompiler.compileTask(userMessage));            // ... LLM 内部调用 @Tool → searchKnowledgeBase → RagContextHolder.getTenantId()            return reply;        });    } finally {        RagContextHolder.clear();    }}
+```
+
 
 
 
@@ -296,7 +328,11 @@ RagEvaluator 新增了 NDCG（Normalized Discounted Cumulative Gain）指标：
 
 
 
+```
+
 // 二元相关性：命中=1，未命中=0double sum = 0;for (QueryResult r : results) {    if (hit &amp;&amp; rank &gt; 0 &amp;&amp; rank &lt;= k) {        sum += 1.0 / (Math.log(rank + 1) / Math.log(2)); // DCG@k    }}double ndcg = sum / (results.size() * idealDcg);  // NDCG@10
+```
+
 
 
 

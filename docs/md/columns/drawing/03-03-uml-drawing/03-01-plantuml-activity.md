@@ -244,7 +244,11 @@ end split
 
 如：
 
+```
+
 <table border="1" cellpadding="1" cellspacing="1"><tbody><tr><td>语句</td><td>说明</td></tr><tr><td>-[#red,dashed]-&gt;</td><td>红色虚线</td></tr><tr><td>&nbsp;-[#blue,dotted]-&gt;</td><td>蓝色点状线</td></tr><tr><td>-[#red]-&gt;</td><td>红色实线</td></tr></tbody></table>
+```
+
 
 3.7.3 改变泳道颜色
 

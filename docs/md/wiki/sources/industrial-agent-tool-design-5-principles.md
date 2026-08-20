@@ -48,7 +48,11 @@ LLM 从自然语言中提取参数，然后填到 Function Calling 的 JSON 参�
 
 
 
+```
+
 // 差 — 复杂对象，LLM 很容易填错字段@Tool("...")public String query(Map&lt;String, Object&gt; params)// 好 — 明确的简单类型@Tool("...")public String queryDeviceAlarms(String deviceId)// 也可以 — 多个简单参数@Tool("...")public String queryHistoryData(String deviceId, String metric, int minutes)
+```
+
 
 
 

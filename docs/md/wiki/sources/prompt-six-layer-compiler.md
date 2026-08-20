@@ -104,7 +104,11 @@ L2 的 Policy 不是代码，是配置——所以可以热更。
 
 
 
+```java
+
 // prompt/PolicyRegistry.java@Componentpublic class PolicyRegistry {    private final AgentPromptProperties properties;    private final List&lt;String&gt; policies = new CopyOnWriteArrayList&lt;&gt;();    public PolicyRegistry(AgentPromptProperties properties) {        this.properties = properties;        reload();    }    public List&lt;String&gt; policies() {        return List.copyOf(policies);    }    /** 从配置文件重新加载策略——不需要重启应用。 */    public void reload() {        policies.clear();        policies.addAll(properties.getPolicies());    }}
+```
+
 
 
 
@@ -196,7 +200,11 @@ L5 目前是一个空槽位：
 
 
 
+```
+
 // L5 Knowledge Context (RAG) — hook, empty until RAGif (knowledge != null &amp;&amp; !knowledge.isBlank()) {    sb.append("【知识库检索】\n").append(knowledge).append('\n');}
+```
+
 
 
 
@@ -248,7 +256,11 @@ L6 做了三件事：
 
 
 
+```
+
 // DeviceAgent.java — MVP 版本interface IndustrialAssistant {    @SystemMessage("你是一个工业设备运维专家...")  // ← 硬编码    String chat(String message);}public String chat(RuntimeContext ctx, String userMessage) {    return runtime.execute(ctx, () -&gt; {        String reply = buildAssistant(ctx).chat(userMessage);        ...    });}
+```
+
 
 
 
@@ -256,7 +268,11 @@ L6 做了三件事：
 
 
 
+```
+
 // DeviceAgent.java — 生产版本interface IndustrialAssistant {    // @SystemMessage 已删除——由 systemMessageProvider 动态提供    String chat(String message);}private IndustrialAssistant buildAssistant(RuntimeContext ctx) {    return AiServices.builder(IndustrialAssistant.class)            .chatModel(chatModel)            .chatMemory(chatMemory)            .systemMessageProvider(id -&gt; promptCompiler.compileSystem(ctx))  // ← 动态编译            .tools(...)            .build();}public String chat(RuntimeContext ctx, String userMessage) {    return runtime.execute(ctx, () -&gt; {        String reply = buildAssistant(ctx)                .chat(promptCompiler.compileTask(userMessage));  // ← L6 包装用户消息        ...    });}
+```
+
 
 
 
@@ -272,7 +288,11 @@ systemMessageProvider 是 LangChain4j 的扩展点——它接受一个 Functi
 
 
 
+```
+
 - diagnose() 内部重新构建 Assistant，同样使用 systemMessageProvider(id -&gt; promptCompiler.compileSystem(ctx))
+```
+
 
 
 
@@ -284,7 +304,11 @@ Policy 从配置文件读取，配合 Spring 的 @ConfigurationProperties，修
 
 
 
+```java
+
 // 伪代码——未来可加的 admin endpoint@PostMapping("/admin/policy/reload")public Map&lt;String, Object&gt; reloadPolicies() {    policyRegistry.reload();    return Map.of("policies", policyRegistry.policies());}
+```
+
 
 
 

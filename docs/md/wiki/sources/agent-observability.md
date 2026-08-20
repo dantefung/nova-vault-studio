@@ -108,7 +108,11 @@ AgentRuntime 的 execute() 方法在每次状态变更时都调用 tracer：
 
 
 
+```
+
 // AgentRuntime.javapublic &lt;T&gt; T execute(RuntimeContext ctx, Supplier&lt;T&gt; action) {    tracer.attachTrace(ctx);    // 状态迁移 → 日志事件    ctx.transition(SESSION_READY);    tracer.stateTransition(ctx, RECEIVED, SESSION_READY);    ctx.transition(CONTEXT_READY);    tracer.stateTransition(ctx, SESSION_READY, CONTEXT_READY);    // LLM 调用 → 日志事件    ctx.transition(MODEL_THINKING);    tracer.stateTransition(ctx, CONTEXT_READY, MODEL_THINKING);    // ... 执行 ...    // 请求完成 → 日志事件    tracer.requestCompleted(ctx, resultPreview);    return result;}
+```
+
 
 
 

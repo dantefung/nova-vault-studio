@@ -92,7 +92,11 @@ Agent 在「正在等 LLM 返回」和「正在执行工具」之间切换时，
 
 
 
+```java
+
 @PostMapping("/chat")public ResponseEntity&lt;Map&lt;String, Object&gt;&gt; chat(@RequestBody Map&lt;String, String&gt; request) {    RuntimeContext ctx = runtime.createContext(sessionId, tenantId, userId);    String reply = deviceAgent.chat(ctx, message);    return ResponseEntity.ok(Map.of(        "reply", reply,        "traceId", ctx.getTraceId()   // ← 客户端收到这个    ));}
+```
+
 
 
 

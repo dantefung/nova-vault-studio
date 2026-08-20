@@ -128,7 +128,11 @@ Docker
 
 
 
+```
+
 &lt;parent&gt;    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;    &lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt;    &lt;version&gt;3.3.0&lt;/version&gt;&lt;/parent&gt;&lt;dependencies&gt;    &lt;dependency&gt;        &lt;groupId&gt;dev.langchain4j&lt;/groupId&gt;        &lt;artifactId&gt;langchain4j&lt;/artifactId&gt;        &lt;version&gt;0.35.0&lt;/version&gt;    &lt;/dependency&gt;    &lt;dependency&gt;        &lt;groupId&gt;dev.langchain4j&lt;/groupId&gt;        &lt;artifactId&gt;langchain4j-open-ai&lt;/artifactId&gt;        &lt;version&gt;0.35.0&lt;/version&gt;    &lt;/dependency&gt;    &lt;dependency&gt;        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;        &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;    &lt;/dependency&gt;&lt;/dependencies&gt;
+```
+
 
 
 
@@ -320,7 +324,11 @@ LangChain4j 的 Tool 声明极其简洁——在方法上加 @Tool 注解，�
 
 
 
+```java
+
 @RestController@RequestMapping("/api/agent")public class AgentController {    private final DeviceAgent agent;    public AgentController(DeviceAgent agent) {        this.agent = agent;    }    @PostMapping("/chat")    public ResponseEntity&lt;Map&lt;String, String&gt;&gt; chat(@RequestBody ChatRequest request) {        String reply = agent.chat(request.message());        return ResponseEntity.ok(Map.of("reply", reply));    }    public record ChatRequest(String message) {}}
+```
+
 
 
 

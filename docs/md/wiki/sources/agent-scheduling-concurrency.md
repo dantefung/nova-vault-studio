@@ -24,7 +24,11 @@ Agent 的响应时间就是用户的等待时间。代码里多写的每一行�
 
 
 
+```
+
 // DeviceAgent.javapublic String chat(RuntimeContext ctx, String userMessage) {    return runtime.execute(ctx, () -&gt; {        String reply = buildAssistant(ctx).chat(promptCompiler.compileTask(userMessage));        costTracker.recordRequest(userMessage, reply);   // ← 记录 Token 成本        memory.recordTurn(ctx, userMessage, reply);       // ← 写 L1/L2 记忆        return reply;    });}
+```
+
 
 
 
@@ -128,7 +132,11 @@ BudgetManager填补了这个空白：
 
 
 
+```java
+
 // schedule/BudgetManager.java@Componentpublic class BudgetManager {    /** LLM 调用前检查预算，超限直接抛异常。 */    public void checkLlmBudget(RuntimeContext ctx) {        int count = ctx.getLlmCallCount();        int max = budget.getMaxLlmCalls();        if (count &gt;= max) {            throw new BudgetExceededException("LLM budget: " + count + "/" + max);        }    }    /** LLM 调用后计数。 */    public void recordLlmCall(RuntimeContext ctx) { ctx.incrementLlmCalls(); }    /** 检查截止时间。 */    public void checkDeadline(RuntimeContext ctx) {        if (ctx.isExpired()) {            throw new BudgetExceededException("Deadline: " + ctx.elapsedMs() + "ms");        }    }}
+```
+
 
 
 
@@ -168,7 +176,11 @@ BudgetManager用ExecutorService+CompletableFuture实现：
 
 
 
+```
+
 // schedule/BudgetManager.javaprivate final ExecutorService readExecutor =    Executors.newFixedThreadPool(4, r -&gt; new Thread(r, "tool-read-"));public List&lt;ToolResult&gt; executeReadsInParallel(List&lt;ToolTask&gt; tasks) {    List&lt;CompletableFuture&lt;ToolResult&gt;&gt; futures = tasks.stream()            .map(t -&gt; CompletableFuture.supplyAsync(() -&gt; executeOne(t), readExecutor))            .toList();    List&lt;ToolResult&gt; results = new ArrayList&lt;&gt;();    for (CompletableFuture&lt;ToolResult&gt; f : futures) {        try {            results.add(f.get(10, TimeUnit.SECONDS));  // 单个超时 10s        } catch (TimeoutException e) {            results.add(ToolResult.timeout(...));       // 超时优雅降级        }    }    return results;}
+```
+
 
 
 
@@ -268,7 +280,11 @@ checkLlmBudget→ 推理 →recordLlmCall，三步把每一次 LLM 调用都置�
 
 
 
+```
+
 public String chat(RuntimeContext ctx, String userMessage) {    return runtime.execute(ctx, () -&gt; {        String reply = buildAssistant(ctx).chat(promptCompiler.compileTask(userMessage));        costTracker.recordRequest(userMessage, reply);   // 同步        memory.recordTurn(ctx, userMessage, reply);       // 同步        return reply;    });}
+```
+
 
 
 
@@ -276,7 +292,11 @@ public String chat(RuntimeContext ctx, String userMessage) {    return 
 
 
 
+```java
+
 public String chat(RuntimeContext ctx, String userMessage) {    return runtime.execute(ctx, () -&gt; {        String reply = buildAssistant(ctx).chat(promptCompiler.compileTask(userMessage));        sideCar.recordCost(userMessage, reply);           // @Async → 不等待        sideCar.recordTurn(ctx, userMessage, reply);       // @Async → 不等待        return reply;  // 立刻返回，旁路任务在后台线程运行    });}
+```
+
 
 
 

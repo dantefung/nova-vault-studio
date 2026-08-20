@@ -42,8 +42,14 @@ WorkOrderTool.createWorkOrder：
 
 然后建一个注册中心，所有工具在这里声明自己的"身份"：
 
+
 ```java
+
 // tool/ToolRegistry.java@Componentpublic class ToolRegistry {    private final Map&lt;String, ToolMeta&gt; registry = new LinkedHashMap&lt;&gt;();    @PostConstruct    void init() {        register("queryDeviceAlarms",     SideEffect.READ,  3, false, 5000);        register("queryDeviceHistory",    SideEffect.READ,  3, false, 5000);        register("searchKnowledgeBase",   SideEffect.READ,  3, false, 5000);        register("generateDiagnosis",     SideEffect.READ,  3, false, 5000);        register("createWorkOrder",       SideEffect.WRITE, 1, true,  10000);        register("startWorkOrder",        SideEffect.WRITE, 1, false, 10000);        register("completeWorkOrder",     SideEffect.WRITE, 1, false, 10000);    }}
+```
+
+```
+
 
 ```
 这里的关键设计决策是：读工具最多 3 次，写工具最多 1 次。 这不是拍脑袋的数字。读工具多调一次没有副作用，给 LLM 留一些探索空间；写工具一次就够了——如果诊断需要创建两张工单，那是工作流该管的事，不是 LLM 该决定的事。
@@ -56,7 +62,11 @@ agent:  budget:    max-llm-calls: 5    max-read-tools-per-request: 3 
 
 对应的配置类：
 
+```java
+
 // tool/ToolBudget.java@Component@ConfigurationProperties(prefix = "agent.budget")public class ToolBudget {    private int maxLlmCalls = 5;    private int maxReadToolsPerRequest = 3;    private int maxWriteToolsPerRequest = 1;    private int totalLatencyMs = 10000;}
+```
+
 
 这四项约束构成了 Agent 的"安全笼"：
 
@@ -72,8 +82,14 @@ agent:  budget:    max-llm-calls: 5    max-read-tools-per-request: 3 
 
 这是整个工具层的核心。ToolExecutor 负责调度每一次工具调用，确保三件事：不会重复执行、不会超出预算、每次执行都有审计日志。
 
+
 ```java
+
 // tool/ToolExecutor.java@Componentpublic class ToolExecutor {    // 内存幂等存储（生产环境换 Redis）    private final Map&lt;String, String&gt; idempotencyStore = new ConcurrentHashMap&lt;&gt;();    // 生成唯一执行 ID    public String generateExecutionId(String sessionId, String toolName, String params) {        String raw = sessionId + ":" + toolName + ":" + params;        // SHA-256 取前 16 位        ...        return hex.substring(0, 16);    }    // 预算校验    public ToolMeta validate(String toolName, int readCount, int writeCount) {        ToolMeta meta = registry.get(toolName).orElseThrow(...);        if (meta.sideEffect() == WRITE &amp;&amp; writeCount &gt;= budget.getMaxWriteToolsPerRequest()) {            throw new ToolException("Write budget exceeded");        }        if (meta.sideEffect() == READ &amp;&amp; readCount &gt;= budget.getMaxReadToolsPerRequest()) {            throw new ToolException("Read budget exceeded");        }        return meta;    }    // 审计记录    public void audit(String executionId, String toolName, ...) {        ExecutionAuditLog entry = new ExecutionAuditLog(            executionId, toolName, sideEffect, params, result, status, durationMs, Instant.now());        auditLogs.add(entry);    }}
+```
+
+```
+
 
 ```
 有了 ToolExecutor，WorkOrderTool.createWorkOrder 的改造就很直观了：

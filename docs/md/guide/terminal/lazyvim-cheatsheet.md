@@ -15,8 +15,12 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 
 | 快捷键 | 功能 |
 |--------|------|
+```
+
 | `&lt;Space&gt;` 等1秒 | 显示快捷键菜单 |
 | `&lt;Space&gt;sk` | 搜索所有快捷键 |
+```
+
 | `u` | 撤销 |
 | `Ctrl+r` | 重做 |
 | `.` | 重复上次操作 |
@@ -26,6 +30,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 
 | 快捷键 | 功能 |
 |--------|------|
+```
+
 | `&lt;Space&gt;ff` | 搜索文件 |
 | `&lt;Space&gt;fr` | 最近打开的文件 |
 | `&lt;Space&gt;fn` | 新建文件 |
@@ -33,11 +39,15 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | `&lt;Space&gt;fS` | 另存为 |
 | `&lt;Space&gt;e` | 打开/关闭侧边栏 |
 | `&lt;Space&gt;E` | 侧边栏定位当前文件 |
+```
+
 
 ## 搜索
 
 | 快捷键 | 功能 |
 |--------|------|
+```
+
 | `&lt;Space&gt;sg` | 全局搜索文本 (grep) |
 | `&lt;Space&gt;sw` | 搜索光标下的词 |
 | `&lt;Space&gt;sb` | 当前 buffer 搜索 |
@@ -46,6 +56,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | `&lt;Space&gt;sh` | 搜索帮助文档 |
 | `&lt;Space&gt;sm` | 搜索标记 |
 | `&lt;Space&gt;sr` | 搜索替换 |
+```
+
 | `/` | 当前文件搜索 |
 | `n` | 下一个搜索结果 |
 | `N` | 上一个搜索结果 |
@@ -57,6 +69,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 |--------|------|
 | `Shift+h` | 上一个 buffer |
 | `Shift+l` | 下一个 buffer |
+```
+
 | `&lt;Space&gt;bb` | 切换到其他 buffer |
 | `&lt;Space&gt;bd` | 关闭当前 buffer |
 | `&lt;Space&gt;bD` | 强制关闭 buffer |
@@ -64,6 +78,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | `&lt;Space&gt;bp` | 固定 buffer |
 | `&lt;Space&gt;bl` | 删除左侧 buffer |
 | `&lt;Space&gt;br` | 删除右侧 buffer |
+```
+
 | `[b` | 上一个 buffer |
 | `]b` | 下一个 buffer |
 
@@ -75,10 +91,14 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | `Ctrl+j` | 移动到下边窗口 |
 | `Ctrl+k` | 移动到上边窗口 |
 | `Ctrl+l` | 移动到右边窗口 |
+```
+
 | `&lt;Space&gt;-` | 水平分屏 |
 | `&lt;Space&gt;wd` | 关闭当前窗口 |
 | `&lt;Space&gt;ww` | 切换窗口 |
 | `&lt;Space&gt;wo` | 关闭其他窗口 |
+```
+
 | `Ctrl+Up` | 增加窗口高度 |
 | `Ctrl+Down` | 减少窗口高度 |
 | `Ctrl+Left` | 减少窗口宽度 |
@@ -89,8 +109,12 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | 快捷键 | 功能 |
 |--------|------|
 | `Ctrl+/` | 浮动终端 |
+```
+
 | `&lt;Space&gt;ft` | 浮动终端 |
 | `&lt;Space&gt;fT` | 当前目录终端 |
+```
+
 | `Ctrl+\` | 退出终端模式 |
 
 ## 代码导航
@@ -116,6 +140,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 
 | 快捷键 | 功能 |
 |--------|------|
+```
+
 | `&lt;Space&gt;ca` | 代码操作 |
 | `&lt;Space&gt;cA` | 源代码操作 |
 | `&lt;Space&gt;cr` | 重命名 |
@@ -123,6 +149,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | `&lt;Space&gt;cd` | 行诊断信息 |
 | `&lt;Space&gt;cl` | LSP 信息 |
 | `&lt;Space&gt;cm` | Mason (管理 LSP) |
+```
+
 
 ## 注释
 
@@ -138,6 +166,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 
 | 快捷键 | 功能 |
 |--------|------|
+```
+
 | `&lt;Space&gt;gg` | 打开 lazygit |
 | `&lt;Space&gt;gG` | 当前目录 lazygit |
 | `&lt;Space&gt;gf` | git 文件列表 |
@@ -145,14 +175,20 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | `&lt;Space&gt;gs` | git 状态 |
 | `&lt;Space&gt;gb` | git blame 当前行 |
 | `&lt;Space&gt;gB` | 浏览器打开仓库 |
+```
+
 | `]h` | 下一个 git 修改块 |
 | `[h` | 上一个 git 修改块 |
+```
+
 | `&lt;Space&gt;ghp` | 预览修改块 |
 | `&lt;Space&gt;ghs` | 暂存修改块 |
 | `&lt;Space&gt;ghr` | 重置修改块 |
 | `&lt;Space&gt;ghS` | 暂存整个文件 |
 | `&lt;Space&gt;ghR` | 重置整个文件 |
 | `&lt;Space&gt;ghd` | diff 当前文件 |
+```
+
 
 ## 选择/编辑
 
@@ -169,8 +205,12 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | `x` | 删除字符 |
 | `r` | 替换字符 |
 | `~` | 切换大小写 |
+```
+
 | `&gt;&gt;` | 增加缩进 |
 | `&lt;&lt;` | 减少缩进 |
+```
+
 | `=` | 自动缩进 |
 | `J` | 合并行 |
 
@@ -214,6 +254,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 
 | 快捷键 | 功能 |
 |--------|------|
+```
+
 | `&lt;Space&gt;uf` | 切换格式化 |
 | `&lt;Space&gt;us` | 切换拼写检查 |
 | `&lt;Space&gt;uw` | 切换自动换行 |
@@ -223,13 +265,19 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 | `&lt;Space&gt;uc` | 切换隐藏字符 |
 | `&lt;Space&gt;uh` | 切换高亮 |
 | `&lt;Space&gt;un` | 关闭通知 |
+```
+
 
 ## 退出
 
 | 快捷键 | 功能 |
 |--------|------|
+```
+
 | `&lt;Space&gt;qq` | 退出全部 |
 | `&lt;Space&gt;qQ` | 强制退出全部 |
+```
+
 | `:w` | 保存 |
 | `:q` | 退出 |
 | `:wq` | 保存并退出 |

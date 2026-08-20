@@ -249,7 +249,11 @@ Worker 从队列取出任务，调用 Claude Agent SDK 执行，边执行边汇�
 
 **项目已开源：** https://github.com/kuangjiajia/24hours
 
+```
+
 <video src="https://mpvideo.qpic.cn/0bc3kmabeaaa3eaaiplrgzuvau6dcjjqaeqa.f10002.mp4?dis_k=e0bb1aee6715d408ffc03be46a31c8e4&amp;dis_t=1780307565&amp;play_scene=10120&amp;auth_info=aqTh4OMhV0RN27THhFJLCDo0HUplNhJnNmEHZjdTZR1MejULPWsoPjxTbBwNakcr&amp;auth_key=8828ac4eed2e1221652cb8f85a3c9859&amp;vid=wxv_4352458581854502915&amp;format_id=10002&amp;support_redirect=0&amp;mmversion=false">您的浏览器不支持 video 标签</video>
+```
+
 
 ## 结语
 
