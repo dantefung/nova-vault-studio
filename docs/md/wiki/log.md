@@ -161,6 +161,13 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-20] ingest: 你为什么一直努力却一直贫穷？
+
+- 归档《你为什么一直努力却一直贫穷？》至 sources/why-hardwork-doesnt-get-rich.md（微信公众号：庞少棠，2020-01-16，转载庞门正道）
+- 纯文字，无配图，无广告
+- 摘要写入 商业分析/why-hardwork-doesnt-get-rich.md
+- 内容摘要：核心观点「每个人都只能赚得到和他知识相匹配的钱」；成功的两种模式（专业拔尖 vs 面面通单干）；一直穷的三个原因（重复劳动/没时间学习/思维不迭代）；一万小时原理的正确理解；每天一小时学习=月薪增加3650元
+
 ## [2026-08-20] ingest: 为什么你读了 15 年书却挣不到钱？
 
 - 归档《为什么你读了 15 年书却挣不到钱？》至 sources/why-15-years-schooling-doesnt-earn-money.md（微信公众号：庞少棠，2020-06-13，转载庞门正道）
