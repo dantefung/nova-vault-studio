@@ -174,6 +174,13 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-20] ingest: DSH 是自进化 Agent 的基石
+
+- 归档《DeepSeek Harness 是自进化 Agent 的基石》至 sources/dsh-self-evolving-foundation.md（微信公众号：Cage、Daniel，2026-08-20）
+- 纯文字，无配图，无广告（飞书文档转发的中文长文，原格式为单行块引文）
+- 添加至 agentic-engineer/deepseek-harness 专栏第 08 篇
+- 核心：DSH 研究 Harness 可塑性（meta harness），Anthropic 研究 Harness 能力；To Developer → To Agent；Cordis 统一 hooks/MCP/subagents/loop 为一种插件机制；Creator 模式为交互式 Agent Foundry
+
 ## [2026-08-21] ingest: OpenAI 全面开源 Codex Harness
 
 - 归档《震撼！OpenAI 全面开源 Codex Harness》至 sources/codex-harness-open-source.md（微信公众号：ASI 启示录/新智元，2026-08-21）
