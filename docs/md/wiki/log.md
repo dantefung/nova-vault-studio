@@ -174,6 +174,12 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-21] ingest: 我用 Codex 一天提交了 80 次代码
+
+- 归档《我用 Codex 一天提交了 80 次代码》至 sources/codex-80-commits-in-one-day.md（微信公众号，2026-08-21）
+- 纯文字，无配图，无广告
+- 内容摘要：ShipArt 项目 14 天半上线，8 月 4-5 日 24h 内 80 commit；订阅支付功能（48h38min/37亿Token/210子Agent/187 commit/7 批次）；两个阶段产生大规模 commit（大需求开发 + 人工验收）；Dev Flow skill 自动走流程
+
 ## [2026-08-20] ingest: DSH 是自进化 Agent 的基石
 
 - 归档《DeepSeek Harness 是自进化 Agent 的基石》至 sources/dsh-self-evolving-foundation.md（微信公众号：Cage、Daniel，2026-08-20）
