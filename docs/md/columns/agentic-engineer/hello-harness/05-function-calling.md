@@ -52,3 +52,5 @@ Stage 0 结束，模型会「说」会「写」会「流式输出」，但本质
 ---
 
 [← 专栏首页](./index.md)
+
+[← 上一篇：04、Model Provider 抽象](./04-model-provider.md) | [下一篇：07、Tool Result →](./07-tool-result.md)

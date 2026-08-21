@@ -161,6 +161,12 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-21] ingest: Hello Harness 07
+
+- 归档《Hello Harness 07 · Tool Result》至 sources/hello-harness-07-tool-result.md（微信公众号：一灰灰blog，2026-08-21）
+- 纯文字，无配图，无广告
+- 核心：四种消息类型（system/user/assistant/tool），提议→执行→回写→再问的 Agent 节律
+
 ## [2020-07-09] ingest: 关于睡觉的技术
 
 - 归档《关于睡觉的技术》至 sources/sleep-techniques.md（微信公众号：庞少棠，2020-07-09，转载庞门正道）
