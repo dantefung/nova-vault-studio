@@ -161,6 +161,13 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2020-07-09] ingest: 关于睡觉的技术
+
+- 归档《关于睡觉的技术》至 sources/sleep-techniques.md（微信公众号：庞少棠，2020-07-09，转载庞门正道）
+- 纯文字，无配图，无广告
+- 摘要写入 商业分析/sleep-techniques.md
+- 内容摘要：睡眠三法（主动调整睡前状态/温度控制 25 度/细节想象入睡），睡眠是大脑排出废物 + 记忆入长期存储的唯一方法
+
 ## [2016-06-20] ingest: 下班时间才决定你的未来
 
 - 归档《下班时间才决定你的未来》至 sources/offwork-hours-determine-future.md（微信公众号：阿门/庞门正道，2016-06-20）
