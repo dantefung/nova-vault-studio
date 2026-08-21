@@ -1,4 +1,15 @@
 ---
+title: "Wiki 日记"
+date: "2026-05-29"
+source: "llm-wiki"
+---
+
+## 2026-08-21
+
+- [cubxxw.com 主题复刻部署成功](./2026-08-21.md) — Next.js + Tailwind CSS 完整复刻，部署到 Cloudflare Pages (https://f1ef4f72.nova-vault-f1p.pages.dev)
+- 采集 Flipkart AI SEO 策略、AI Agent Skills 大全两篇公众号文章
+
+---
 title: "日记索引"
 date: "2026-08-03"
 ---
