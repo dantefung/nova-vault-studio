@@ -39,6 +39,7 @@ source: "原创"
 | [Prompt → Context → Harness 三次进化](../other-tools/prompt-context-harness-evolution.md) | 工程进化论 |
 | [淘天生码工作流最佳实践](../other-tools/taobao-code-generation-workflow.md) | AI 生码全流程案例 |
 | [多 Agent 协作冲突的血泪教训与解决方案](./multi-agent-collision/) | 主管理者+Worker 权限分离、浏览器锁、习惯闭环 |
+| [本体论 vs MCP：Agent 架构中"接口"与"链接"的边界](./ontology-vs-mcp-juepen-crm-s2e7.md) | 嘴喷CRM S2E7，三层递进：MCP→语义封装→本体论；接口是点，链接是边 |
 
 ---
 
