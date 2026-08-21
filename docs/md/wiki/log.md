@@ -161,6 +161,13 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-20] ingest: 什么人可以赚大钱？
+
+- 归档《什么人可以赚大钱？》至 sources/what-makes-you-rich.md（微信公众号：庞少棠，2026-08-20，转载庞门正道）
+- 纯文字，无配图，无广告
+- 摘要写入 商业分析/what-makes-you-rich.md
+- 内容摘要：价值=稀缺性×迫切性的双轴模型，作者电商设计实战经验（企业站设计无迫切性→电商店铺设计有 deadline 约束，收入数倍增长）
+
 ## [2026-08-20] ingest: Harness 工程化和脚手架实践
 
 - 归档《我的 Harness 工程化和脚手架实践》至 sources/huazai-harness-practice.md（微信公众号：华仔，2026-08-20）
