@@ -42,6 +42,7 @@ date: "2026-06-22"
 | [公众号爆款标题 Skill](./baokuan-title-generator-skill.md) | 空格丶：16 种标题套路 + 双模型协同（fable5 精准 + GPT-5.6 全面） |
 | [50 Skills AI 创作系统](./50-skills-ai-creation-system/index.md) | 空格丶：数据→创作→排版→分发四层架构，50 个 Skill 串成系统 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
+| [PMaker：145 篇产品方法论（AI 基础+产品实践）](./pmaker-series/) | 空格·键盘：AI 名词/大模型/提示词/RAG/Agent/成本安全 60 篇 + 产品发现/定义/设计/交互/界面/协作/验证 85 篇 |
 
 ## 分类索引
 
@@ -51,6 +52,7 @@ date: "2026-06-22"
 | [AI 产品沉思录](./ai-product/) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具 |
 | [赚钱方法论](./money-methods/) | 个体创业路径 + 30 种赚钱方式 + 套利思维 + 把才华变成钱 |
 | [出海实战索引](./outsea-playbook/) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC |
+| [PMaker 系列（145 篇）](./pmaker-series/) | 空格·键盘的产品方法论：AI 基础 60 篇 + 产品基础 10 篇 + 产品实践模式 75 篇 |
 
 ## 核心路径
 

@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-21] ingest: PMaker 全站 145 篇
+
+- 全站采集 pmaker.space（作者：空格的键盘），新建 indie-hub/pmaker-series/ 专栏
+- 共 145 篇文章：learn/（AI 基础知识 60 篇）、basics/（产品基础 10 篇）、patterns/（产品实践模式 75 篇）
+- AI 知识分 6 板块：基础认知 6 篇 / 大模型 16 篇 / 提示词工程 9 篇 / 上下文与 RAG 11 篇 / Agent 与 Skill 9 篇 / 成本与安全 9 篇
+- 产品实践分 7 板块：发现问题 10 篇 / 定义产品 10 篇 / 设计结构 12 篇 / 设计交互 12 篇 / 设计界面 11 篇 / 与 AI 协作 10 篇 / 验证与迭代 10 篇
+- 更新 indie-hub 主索引，新增 pmaker-series 入口
+- 无配图（全站纯文字 + HTML 交互图，已转为纯 markdown）
+
+
 ## [2026-08-21] ingest: AI 时代的软件基本功——Uncle Bob 谈 Agent 编码与质量围栏
 
 - 归档《AI 时代的软件基本功》（Uncle Bob 访谈高密度总结，基于 Matt Pocock 访谈）至 sources/uncle-bob-ai-software-fundamentals.md
