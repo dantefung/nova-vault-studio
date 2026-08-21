@@ -8,7 +8,9 @@
     "dev": "next dev -H 127.0.0.1 -p 3000",
     "build": "next build",
     "start": "next start -H 127.0.0.1 -p 3000",
-    "validate": "node scripts/cdp-validate.mjs"
+    "validate": "node scripts/cdp-validate.mjs",
+    "preview": "npx opennextjs-cloudflare build && npx wrangler dev",
+    "deploy": "npx opennextjs-cloudflare build && npx opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "@fontsource/lxgw-wenkai": "5.2.5",
@@ -19,11 +21,13 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.2",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.9.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "typescript": "^5.6.3",
+    "wrangler": "^4.125.0",
     "ws": "^8.18.0"
   }
 }

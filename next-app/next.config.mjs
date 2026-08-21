@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
-const REPO_ROOT = new URL('..', import.meta.url).pathname
-
 const nextConfig = {
   reactStrictMode: false,
   // Next.js 15: serverComponentsExternalPackages 移到顶层
   serverExternalPackages: ['gray-matter'],
-  outputFileTracingRoot: REPO_ROOT,
+  output: 'standalone',
+  // outputFileTracingRoot 故意省略 —— OpenNext 假设 .next/standalone/.next/ 是根
+  // 任何显式 outputFileTracingRoot 都会让 Next.js 输出到不同位置
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -15,3 +15,10 @@ const nextConfig = {
 }
 
 export default nextConfig
+
+// dev 模式才需要 OpenNext 的 Cloudflare context 注入
+// build 模式不需要（next.config.mjs 顶层不要 await async，会导致时序问题）
+if (process.env.NEXT_DEV) {
+  const { initOpenNextCloudflareForDev } = await import('@opennextjs/cloudflare')
+  await initOpenNextCloudflareForDev()
+}
