@@ -161,6 +161,13 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2016-06-20] ingest: 下班时间才决定你的未来
+
+- 归档《下班时间才决定你的未来》至 sources/offwork-hours-determine-future.md（微信公众号：阿门/庞门正道，2016-06-20）
+- 纯文字，无配图，无广告
+- 摘要写入 商业分析/offwork-hours-determine-future.md
+- 内容摘要：第三个 8 小时理论——上班 8 小时再怎么努力也只是普通人，下班后的 8 小时决定一生；「屌丝心态」的本质是觉得时间不值钱；作者 2008 年 24 岁就已厕所带设计书
+
 ## [2026-08-20] ingest: 你为什么一直努力却一直贫穷？
 
 - 归档《你为什么一直努力却一直贫穷？》至 sources/why-hardwork-doesnt-get-rich.md（微信公众号：庞少棠，2020-01-16，转载庞门正道）
