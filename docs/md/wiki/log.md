@@ -2887,6 +2887,21 @@ source: "llm-wiki"
 - 内容摘要：哥飞 SEO Agent 对 Mulan.pro（AI 视频工作流产品）进行完整 SEO 诊断，发现八个问题：纯前端渲染（首 HTML 仅 2.4KB 空壳）、根目录按浏览器语言跳转、robots/sitemap 被跳回首页、不存在 URL 返回 200（soft 404）、测试环境被 Google 收录、无 canonical/hreflang、无 H1/内链/OG/JSON-LD、关键词全为品牌词。修复顺序：① SSR/SSG 渲染 + 稳定根目录 ② 补齐 robots/sitemap + 错误状态 ③ 隔离测试环境 ④ 完善页面信号和关键词入口。核心观点：团队从一开始就没把 SEO 放进网站建设流程，先让 Google 拿到正确页面，再谈关键词建设
 
 
+## [2026-08-21] ingest: 哥飞 SEO Agent 对 Mulan.pro 的 SEO 诊断报告
+
+- 归档哥飞《SEO Agent 对 Mulan.pro 的 SEO 诊断报告》至 sources/mulan-pro-seo-diagnosis.md
+- 无配图（原文纯文字）
+- 内容摘要：哥飞 SEO Agent 对 Mulan.pro（AI 视频工作流产品）进行完整 SEO 诊断，发现八个问题：纯前端渲染（首 HTML 仅 2.4KB 空壳）、根目录按浏览器语言跳转、robots/sitemap 被跳回首页、不存在 URL 返回 200（soft 404）、测试环境被 Google 收录、无 canonical/hreflang、无 H1/内链/OG/JSON-LD、关键词全为品牌词。修复顺序：① SSR/SSG 渲染 + 稳定根目录 ② 补齐 robots/sitemap + 错误状态 ③ 隔离测试环境 ④ 完善页面信号和关键词入口。核心观点：团队从一开始就没把 SEO 放进网站建设流程，先让 Google 拿到正确页面，再谈关键词建设
+
+
+## [2026-08-21] ingest: QwenPaw 2.1.0 Checkpoint 功能展示
+
+- 归档 QwenPaw《读懂 QwenPaw 2.1.0｜Agent 会话「存档点」：Checkpoint 功能展示》至 sources/qwenpaw-210-checkpoint.md
+- 新增专栏文章至 columns/qwenpaw/checkpoint-guide.md
+- 无配图（原文纯文字，含大量重复格式行，已清洗重建）
+- 内容摘要：QwenPaw 2.1.0 新增 Checkpoint 功能（类似游戏存档点）。三种节点：命名快照（手动，不参与 GC）/ 自动检查点（按数量时间规则清理）/ 恢复前安全点（恢复前自动创建）。恢复范围：当前会话（默认含）/ 长期记忆（默认不含）/ 工作区文件（预览后选）。七条魔法命令：/checkpoint、auto、snapshot、timeline、restore、gc、reset。关键参数：--dry-run 预览 / --confirm 确认 / --include-memory / --include-files / --files / --all-sessions / --compact。与项目 .git/ 分离，恢复后形成新时间线分支。核心价值：Agent 走偏时提供可靠返回点
+
+
 ## [2026-08-15] ingest: Agent Sandbox K8s SIG 项目
 
 - 归档希里安（阿里云）《Agent Sandbox》至 sources/agent-sandbox-k8s.md
