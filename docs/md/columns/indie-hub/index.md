@@ -111,6 +111,14 @@ date: "2026-06-22"
 - [ ] 竞争壁垒是什么？（网络效应/数据/团队/先发）
 - [ ] 后端交付能标准化/外包吗？
 
+## 开源资源
+
+| 资源 | 说明 | Stars |
+|------|------|-------|
+| [ai-money-maker-handbook](https://github.com/XiaomingX/ai-money-maker-handbook) | AI 副业赚钱大集合：程序员的副业赚钱宝典 446 章 + 写给 0-1 初创公司合伙人 31 篇系列，覆盖 AI 自媒体、技术 SaaS、模型训练、套壳站、出海货运等赚钱思路 | ⭐ 4.1k |
+| [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | 按主题分类的顶级开放数据集大全（78.4k★），涵盖社交/新闻/医学/金融/图像/文本/NLP/推荐系统等 30+ 领域，适合构建 AI 应用和独立产品时快速获取数据 | ⭐ 78.4k |
+| [TelegramGroup](https://github.com/AZeC4/TelegramGroup) | 10000+ 优质 Telegram 群组/频道/机器人合集，含群管理 Bot、频道搬运、搜索、加密支付等全套工具链，出海私域运营必备 | ⭐ 23k |
+
 ## 相关 Pattern
 
 - [[first-bucket-consumer-to-producer]] — 第一桶金方法论
