@@ -161,6 +161,16 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-21] ingest: OpenAI 全面开源 Codex Harness
+
+- 归档《震撼！OpenAI 全面开源 Codex Harness》至 sources/codex-harness-open-source.md（微信公众号：ASI 启示录/新智元，2026-08-21）
+- 纯文字，无配图，无广告（转载新智元报道，文末「秒追 ASI」推广段已保留原文）
+- 添加至 agentic-engineer/deepseek-harness 专栏第 07 篇
+- 核心数据：ARC-AGI-3 基准，GPT-5.6 Sol 得分从 13.3% 飙升到 38.3%，Token 消耗减少 6 倍（仅两项 Harness 改进：保留推理 + 上下文压缩）
+- 三大开源组件：CLI (codex exec) / SDK (TS/Python) / app-server (JSON-RPC)
+- 核心哲学：「不应用万能聊天框干掉专业界面，而是给这些界面装上聪明的大脑」
+- 落地案例：Thrive Holdings 税务申报（7000 份/时间缩 1/3）、Cisco App Builder、Relay 物流看板
+
 ## [2026-08-21] ingest: 12 个最常用 Prompt 合集
 
 - 归档《都 Agent 时代了，我还是想分享给你这 12 个我最常用的 Prompt》至 sources/khazix-12-prompts.md（微信公众号：数字生命卡兹克，2026-08-21）
