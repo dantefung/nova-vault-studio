@@ -1,0 +1,24 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cubxxw-clone/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to Cloudflare Pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: cd cubxxw-clone && npm ci
+      - run: cd cubxxw-clone && npx next build
+      - uses: cloudflare/pages-action@v1
+        with:
+          projectName: nova-vault
+          directory: cubxxw-clone/.next
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
