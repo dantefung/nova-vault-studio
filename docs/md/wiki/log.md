@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-21] ingest: 可逆不是逆向运行 — DeepSeek Harness 架构的数学本质
+
+- 作者：可逆计算，微信公众号，2026-08-21 发布
+- 来源：`https://mp.weixin.qq.com/s/BVR8ANhtlXTqcZ3M73Y0_w`
+- 54k 字长文，从可逆计算理论（GRC）角度分析 DSH 底层插件运行时 Cordis 的数学本质
+- 核心论点：Cordis 是可逆计算理论在运行时结构空间的具体应用；"可逆"指逆转运行时结构变更，不是逆向运行
+- 6 大章节：一切皆差量 / Delta 可正可负 / Pi Agent 对比 / 可逆计算理论分析 / 熵增哲学 / 结语
+- 对比 DSH 与 Nop 平台：运行时 vs 编译期可逆、闭包函数 vs 结构差量、平铺映射 vs tree 坐标
+- 交叉引用：DSH 专栏、Nop 可逆计算、可逆计算理论
+
 ## [2026-08-21] ingest: PMaker 全站 145 篇
 
 - 全站采集 pmaker.space（作者：空格的键盘），新建 indie-hub/pmaker-series/ 专栏

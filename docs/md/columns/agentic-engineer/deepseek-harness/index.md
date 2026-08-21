@@ -38,6 +38,7 @@ source: "微信公众号"
 | 07 | [OpenAI 全面开源 Codex Harness——「把 AI 装进专业界面，不是让用户适应聊天框」](./07-codex-harness-open-source.md) | 08-21 | 竞品开源，ARC-AGI-3 得分 13.3%→38.3%，Token 降 6 倍 |
 | 08 | [DeepSeek Harness 是自进化 Agent 的基石——从 To Developer 到 To Agent](./08-self-evolving-foundation.md) | 08-20 | DSH vs Anthropic 两种 Harness 哲学，meta harness 与自进化愿景 |
 | 09 | [Minke v0.2.0 发布：把电脑变成可随时访问的 Agent Host](./09-minke-v020-release.md) | 08-21 | DSH 桌面应用，Cordis 插件树扩展，远程控制架构，Tailscale 私有接入 |
+| 10 | [可逆不是逆向运行：DeepSeek Harness 架构的数学本质](./10-reversible-architecture.md) | 08-21 | 从可逆计算理论看 Cordis 的数学本质：一切皆差量、Delta 可正可负、单写者+累加+无删除 |
 
 ---
 
