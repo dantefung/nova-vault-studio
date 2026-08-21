@@ -4,6 +4,15 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-21] ingest: AI 时代的软件基本功——Uncle Bob 谈 Agent 编码与质量围栏
+
+- 归档《AI 时代的软件基本功》（Uncle Bob 访谈高密度总结，基于 Matt Pocock 访谈）至 sources/uncle-bob-ai-software-fundamentals.md
+- 新增至 Agentic Engineer 专栏核心文章 columns/agentic-engineer/ai-software-fundamentals-uncle-bob.md
+- 更新 Agentic Engineer 专栏 index.md
+- 无配图（原文纯 markdown）
+- 内容摘要：Uncle Bob 核心观点——AI 改变实现劳动成本，不改变软件复杂性。关键框架：①确定性工具（CRAP/mutation testing/架构 checker）> 长提示 Steering（lost in the middle）；②五阶段 Multi-Agent 流水线（Specifier→Coder→Cleaner→Hardener→QA），核心价值是上下文卫生；③「价值不变，纪律可变」——不将人类纪律强加给 Agent，但嵌入人类价值；④Agent 降低变更成本后，小 Story + 短反馈 > Plan-maxing；⑤Agent 擅长战术编程，战略编程（模块边界/依赖方向/质量投资）仍需人类；⑥Agent 时代软件工程五层模型（价值/架构/规格/执行/验证）
+
+
 ## [2026-08-21] ingest: 数据建模分层：主题域、概念、逻辑、物理模型
 
 - 归档《数据建模到底怎么分层？主题域、概念、逻辑、物理模型一次讲清》至 sources/data-modeling-layering.md
