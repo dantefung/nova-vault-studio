@@ -1,6 +1,20 @@
 import { articles, getArticleBySlug } from "@/data/articles";
 import ArticleContent from "@/components/ArticleContent";
 
+export function generateStaticParams() {
+  return [
+    { slug: 'ai-made-me-smarter-later-to-reality' },
+    { slug: 'fear-does-not-decide-for-me' },
+    { slug: 'agent-system-design-synthesis' },
+    { slug: 'conversation-as-database' },
+    { slug: 'tradingagents-organization' },
+    { slug: 'n8n-growth-automation' },
+    { slug: 'history-needs-more-than-one-scale' },
+    { slug: 'flipkart-ai-seo-strategy' },
+    { slug: 'ai-agent-skills-collection' },
+  ];
+}
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
