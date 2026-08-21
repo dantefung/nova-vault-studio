@@ -8,7 +8,7 @@ source: "微信公众号"
 
 > DeepSeek 开源的 Agent 框架——「Agent = Model + Harness」。一切皆插件，能力按需装配、用完即焚。
 
-> 本专栏收录 8 篇文章，从整体架构到插件机制，从运行时设计到 Agent 蒸馏，从与 Cordis/Pi 的横向对比到 Codex 竞品开源，再到自进化 Agent 的哲学思考，完整覆盖 Harness 生态竞争格局。
+> 本专栏收录 9 篇文章，从整体架构到插件机制，从运行时设计到 Agent 蒸馏，从与 Cordis/Pi 的横向对比到 Codex 竞品开源，再到自进化 Agent 的哲学思考和 DSH 桌面应用实践，完整覆盖 Harness 生态竞争格局。
 
 ---
 
@@ -20,6 +20,7 @@ source: "微信公众号"
 能力层    →  Agent 为自己构建工具
 数据层    →  Agent 蒸馏数据工厂
 对比层    →  DSH vs Pi：两种 Agent 架构设计哲学
+实践层    →  Minke v0.2.0：DSH 桌面应用与远程控制
 ```
 
 ---
@@ -36,6 +37,7 @@ source: "微信公众号"
 | 06 | [Cordis 到底解决了什么：DSH 与 Pi 的两种答案](./06-cordis-dsh-vs-pi.md) | 08-15 | 横向对比两种 Agent 架构 |
 | 07 | [OpenAI 全面开源 Codex Harness——「把 AI 装进专业界面，不是让用户适应聊天框」](./07-codex-harness-open-source.md) | 08-21 | 竞品开源，ARC-AGI-3 得分 13.3%→38.3%，Token 降 6 倍 |
 | 08 | [DeepSeek Harness 是自进化 Agent 的基石——从 To Developer 到 To Agent](./08-self-evolving-foundation.md) | 08-20 | DSH vs Anthropic 两种 Harness 哲学，meta harness 与自进化愿景 |
+| 09 | [Minke v0.2.0 发布：把电脑变成可随时访问的 Agent Host](./09-minke-v020-release.md) | 08-21 | DSH 桌面应用，Cordis 插件树扩展，远程控制架构，Tailscale 私有接入 |
 
 ---
 

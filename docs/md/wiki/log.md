@@ -4,6 +4,15 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-21] ingest: DSH Minke v0.2.0 发布
+
+- 归档 lencx《DSH：Minke v0.2.0 发布了》至 sources/minke-v020-release.md
+- 新增至 DeepSeek Harness 专栏 09 篇 columns/agentic-engineer/deepseek-harness/09-minke-v020-release.md
+- 更新 DeepSeek Harness 专栏索引（8→9 篇，新增「实践层」阅读路线）
+- 无配图（原文纯文字，含重复行已清洗）
+- 内容摘要：Minke v0.2.0 把 DSH 带进桌面应用，让电脑变成可随时访问的 Agent Host。核心架构：Cordis 插件树（Minke 通过 --patch Seam 加入，不复制 Agent Loop），minke-harness-overlay 提供 DSH 原生 /api 和 Minke 专属 /minke RPC，Tailscale 仅负责 Web Origin 传输。同一 Client 两种 Host Adapter（Electron vs 移动端 PWA），Files/Diff/Terminal 都在 Host 执行。安全：两阶段接入、DSH 仅监听 Loopback、远程功能默认关闭。附五则其他资讯：Codex Harness（早开源）、Qwen 3.8 27B、Ox Alpha（匿名推理模型）、Omarchy（DHH Linux）、DeepSeek-V4-Flash-Vision-Exp
+
+
 ## [2026-08-21] ingest: AI Agent Skills 大全
 
 - 归档《2026 AI Agent 必备 Skills 大全，附码哥实战精选清单》公众号至 sources/ai-agent-skills-collection.md
@@ -2886,12 +2895,6 @@ source: "llm-wiki"
 - 无配图（原文纯文字）
 - 内容摘要：哥飞 SEO Agent 对 Mulan.pro（AI 视频工作流产品）进行完整 SEO 诊断，发现八个问题：纯前端渲染（首 HTML 仅 2.4KB 空壳）、根目录按浏览器语言跳转、robots/sitemap 被跳回首页、不存在 URL 返回 200（soft 404）、测试环境被 Google 收录、无 canonical/hreflang、无 H1/内链/OG/JSON-LD、关键词全为品牌词。修复顺序：① SSR/SSG 渲染 + 稳定根目录 ② 补齐 robots/sitemap + 错误状态 ③ 隔离测试环境 ④ 完善页面信号和关键词入口。核心观点：团队从一开始就没把 SEO 放进网站建设流程，先让 Google 拿到正确页面，再谈关键词建设
 
-
-## [2026-08-21] ingest: 哥飞 SEO Agent 对 Mulan.pro 的 SEO 诊断报告
-
-- 归档哥飞《SEO Agent 对 Mulan.pro 的 SEO 诊断报告》至 sources/mulan-pro-seo-diagnosis.md
-- 无配图（原文纯文字）
-- 内容摘要：哥飞 SEO Agent 对 Mulan.pro（AI 视频工作流产品）进行完整 SEO 诊断，发现八个问题：纯前端渲染（首 HTML 仅 2.4KB 空壳）、根目录按浏览器语言跳转、robots/sitemap 被跳回首页、不存在 URL 返回 200（soft 404）、测试环境被 Google 收录、无 canonical/hreflang、无 H1/内链/OG/JSON-LD、关键词全为品牌词。修复顺序：① SSR/SSG 渲染 + 稳定根目录 ② 补齐 robots/sitemap + 错误状态 ③ 隔离测试环境 ④ 完善页面信号和关键词入口。核心观点：团队从一开始就没把 SEO 放进网站建设流程，先让 Google 拿到正确页面，再谈关键词建设
 
 
 ## [2026-08-21] ingest: QwenPaw 2.1.0 Checkpoint 功能展示
