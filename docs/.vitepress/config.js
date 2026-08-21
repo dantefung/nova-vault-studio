@@ -42,8 +42,12 @@ export default defineConfig({
       ['meta', { property: 'og:title', content: 'System Vault | 系统知识库' }],
       ['meta', { property: 'og:description', content: '系统知识库 - 凡是过往，皆为序章' }],
     ]
+    // cubxxw 风格字体：Space Grotesk, Inter, Noto Serif SC, JetBrains Mono, Fraunces
+    head.push(['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com', crossorigin: '' }])
+    head.push(['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }])
+    head.push(['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,700;1,9..144,300;1,9..144,400;1,9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap' }])
     // 防闪烁脚本：页面加载前同步设置主题（同步执行，无 async/defer）
-    head.push(['script', {}, `(function(){var t=localStorage.getItem('vp-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;if(t==='dark')document.documentElement.classList.add('dark');var l=localStorage.getItem('vp-landing-theme');if(['quiet','easton'].includes(l)){document.documentElement.dataset.landingTheme=l;document.cookie='vp-landing-theme='+l+';path=/;max-age=31536000;samesite=lax'}else if(document.cookie.match(/(?:^|;\s*)vp-landing-theme=([^;]+)/)){l=RegExp.$1;if(['quiet','easton'].includes(l))document.documentElement.dataset.landingTheme=l}})()`])
+    head.push(['script', {}, `(function(){var t=localStorage.getItem('vp-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;if(t==='dark')document.documentElement.classList.add('dark');var l=localStorage.getItem('vp-landing-theme');if(['quiet','easton','cubxxw'].includes(l)){document.documentElement.dataset.landingTheme=l;document.cookie='vp-landing-theme='+l+';path=/;max-age=31536000;samesite=lax'}else if(document.cookie.match(/(?:^|;\s*)vp-landing-theme=([^;]+)/)){l=RegExp.$1;if(['quiet','easton','cubxxw'].includes(l))document.documentElement.dataset.landingTheme=l}})()`])
     // 只在生产环境加载 Vercel Insights
     if (isProd) {
       head.push(['script', { src: '/_vercel/insights/script.js', defer: '' }])
