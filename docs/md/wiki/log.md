@@ -161,6 +161,13 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-21] ingest: 12 个最常用 Prompt 合集
+
+- 归档《都 Agent 时代了，我还是想分享给你这 12 个我最常用的 Prompt》至 sources/khazix-12-prompts.md（微信公众号：数字生命卡兹克，2026-08-21）
+- 纯文字，无配图，无广告
+- 摘要写入 wiki/商业分析/khazix-12-prompts.md
+- 内容摘要：五个场景（问清问题/学习/解决问题/决策/认识自己），12 个可独立使用的 Prompt 合集，苏格拉底提问法 + 深度思考 + 天赋挖掘机
+
 ## [2026-08-21] ingest: Hello Harness 07
 
 - 归档《Hello Harness 07 · Tool Result》至 sources/hello-harness-07-tool-result.md（微信公众号：一灰灰blog，2026-08-21）
