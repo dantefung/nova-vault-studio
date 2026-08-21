@@ -161,6 +161,13 @@ source: "llm-wiki"
 - 归档《Hello Harness 04 · Model Provider 抽象》至 sources/hello-harness-04-model-provider.md（微信公众号：一灰灰blog，2026-08-18）
 - 纯文字，无配图，无广告
 
+## [2026-08-20] ingest: 为什么你读了 15 年书却挣不到钱？
+
+- 归档《为什么你读了 15 年书却挣不到钱？》至 sources/why-15-years-schooling-doesnt-earn-money.md（微信公众号：庞少棠，2020-06-13，转载庞门正道）
+- 纯文字，无配图，无广告
+- 摘要写入 商业分析/why-15-years-schooling-doesnt-earn-money.md
+- 内容摘要：知识 ABCD 分类，A 类课本知识只能拿普通工资，C 类知识差（你知道别人不知道）才是真正值钱的；同行不知道的部分才叫利润
+
 ## [2026-08-20] ingest: 什么人可以赚大钱？
 
 - 归档《什么人可以赚大钱？》至 sources/what-makes-you-rich.md（微信公众号：庞少棠，2026-08-20，转载庞门正道）
