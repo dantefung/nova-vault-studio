@@ -19,6 +19,9 @@ import './override.css'
 import './navigation-fix.css'
 import './easton-doc.css'
 import './easton-blog.css'
+import './cubxxw-theme.css'
+import './fonts-cubxxw.css'
+import './cubxxw-landing.css'
 
 export default {
   ...DefaultTheme,

@@ -1,0 +1,74 @@
+/**
+ * cubxxw.com 字体样式覆盖
+ * 字体通过 config.js head 注入 Google Fonts，此处只设置 CSS 变量
+ */
+
+/* ═══════════════════════════════════════════════════════════════
+   CSS 变量覆盖 — 字体族
+   ═══════════════════════════════════════════════════════════════ */
+:root {
+  --vp-font-family-base: 'Inter', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', system-ui, sans-serif;
+
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', ui-monospace,
+    SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --vp-font-family-heading: 'Space Grotesk', 'Fraunces', system-ui,
+    -apple-system, sans-serif;
+}
+
+/* 正文使用衬线字体 — cubxxw 风格 */
+.vp-doc {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC',
+    STSong, SimSun, Georgia, serif;
+}
+
+/* 标题使用 Space Grotesk */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  font-family: 'Space Grotesk', 'Fraunces', system-ui, sans-serif;
+}
+
+/* 导航和 UI 元素使用 Inter */
+.VPNav,
+.VPSidebar,
+.VPFooter,
+.VPButton,
+.dropdown,
+.nav-dropdown {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.VPSidebarItem .text {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* 代码块 */
+.vp-doc pre code,
+.vp-doc code {
+  font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+}
+
+/* 正文段落增加行高 — cubxxw 标志性大行高 */
+.vp-doc p,
+.vp-doc li,
+.vp-doc blockquote p {
+  line-height: 2.0;
+}
+
+/* 导航链接样式 */
+.VPNavItems .VPNavItemLink,
+.VPNavItems a {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 0.875rem;
+}

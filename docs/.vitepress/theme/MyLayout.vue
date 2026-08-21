@@ -78,22 +78,22 @@ watch(currentTheme, (theme) => {
   <!-- 博客页（/md/blog/）：列表 / 系列 / 分类 / 时间归档 -->
   <BlogLayout v-else-if="isBlog" />
 
-  <!-- 文章页（easton 风格）：在 VitePress 默认 layout 外面套 Easton 文章壳（Easton 编辑感内页） -->
+  <!-- 文章页（cubxxw 编辑风格） -->
   <div
     v-else-if="isArticlePath"
-    class="doc-layout-shell easton-doc-shell easton-article-shell"
+    class="doc-layout-shell cubxxw-article-shell"
     :class="{ 'is-sidebar-collapsed': isArticleSidebarCollapsed }"
   >
     <DefaultLayout>
       <template #nav-bar-content-after>
         <button
           type="button"
-          class="easton-sidebar-toggle"
+          class="cubxxw-sidebar-toggle"
           :aria-expanded="String(!isArticleSidebarCollapsed)"
           aria-controls="VPSidebarNav"
           @click="toggleArticleSidebar"
         >
-          {{ isArticleSidebarCollapsed ? '显示目录' : '隐藏目录' }}
+          {{ isArticleSidebarCollapsed ? '目录' : '收起' }}
         </button>
         <LandingThemeSwitcher />
         <ThemeSwitcher />
@@ -124,8 +124,8 @@ watch(currentTheme, (theme) => {
     </DefaultLayout>
   </div>
 
-  <!-- 普通文档页：默认 VitePress layout + Giscus + ThemeSwitcher（仅 easton 主题下注入 ArticleHero/FooterNav） -->
-  <div v-else-if="isDocPage" class="doc-layout-shell easton-doc-shell">
+  <!-- 普通文档页 -->
+  <div v-else-if="isDocPage" class="doc-layout-shell cubxxw-doc-shell">
     <DefaultLayout>
       <template #nav-bar-content-after>
         <LandingThemeSwitcher />
@@ -133,10 +133,10 @@ watch(currentTheme, (theme) => {
         <MobileNavSheet />
       </template>
       <template #doc-top>
-        <ArticleHero v-if="currentLandingTheme === 'easton'" />
+        <ArticleHero v-if="currentLandingTheme === 'cubxxw'" />
       </template>
       <template #doc-after>
-        <ArticleFooterNav v-if="currentLandingTheme === 'easton'" />
+        <ArticleFooterNav v-if="currentLandingTheme === 'cubxxw'" />
         <div class="giscus">
           <Giscus
             :key="giscusKey"
@@ -157,7 +157,7 @@ watch(currentTheme, (theme) => {
     </DefaultLayout>
   </div>
 
-  <!-- 兜底：其它路由（404 / 配置页） -->
+  <!-- 兜底：其它路由 -->
   <DefaultLayout v-else>
     <template #nav-bar-content-after>
       <LandingThemeSwitcher />

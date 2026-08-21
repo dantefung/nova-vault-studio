@@ -6,6 +6,7 @@ const { currentLandingTheme, setLandingTheme } = useTheme()
 const themes = {
   quiet: { quietLabel: '知识库', eastonLabel: 'Library', desc: '安静的知识库' },
   easton: { quietLabel: '博客', eastonLabel: 'Blog', desc: '编辑感首页' },
+  cubxxw: { quietLabel: '档案', eastonLabel: 'Archive', desc: 'cubxxw 编辑风' },
 }
 </script>
 

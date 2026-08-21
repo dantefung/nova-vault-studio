@@ -6,7 +6,7 @@ import { ref, readonly } from 'vue'
 const STORAGE_KEY = 'vp-theme'
 const THEMES = ['light', 'dark', 'sepia']
 const LANDING_STORAGE_KEY = 'vp-landing-theme'
-const LANDING_THEMES = ['quiet', 'easton']
+const LANDING_THEMES = ['quiet', 'easton', 'cubxxw']
 
 // SSR 阶段：head script 已经同步把 landingTheme 写入 <html> dataset
 function readLandingFromDom() {
