@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-21] deploy: cubxxw.com 主题复刻部署成功
+
+- 复刻 cubxxw.com 编辑风格到 Nova Vault（Next.js + Tailwind CSS）
+- 生产地址：https://f1ef4f72.nova-vault-f1p.pages.dev
+- 技术栈：Next.js 16.3.1 / Tailwind CSS v4 / Cloudflare Pages
+- 设计令牌：纸色 #fbf9f4 / 墨色 #350003 / 深红 #862122
+- 字体：Space Grotesk + Noto Serif SC + Inter + JetBrains Mono
+- 输出大小：8.2MB 静态导出
+- 归档《cubxxw 主题复刻部署记录》至 sources/cubxxw-theme-deploy.md
+
+
 ## [2026-08-21] ingest: AI Agent Skills 大全
 
 - 归档《2026 AI Agent 必备 Skills 大全，附码哥实战精选清单》公众号至 sources/ai-agent-skills-collection.md
