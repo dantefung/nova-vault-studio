@@ -39,6 +39,7 @@ source: "微信公众号"
 | 08 | [DeepSeek Harness 是自进化 Agent 的基石——从 To Developer 到 To Agent](./08-self-evolving-foundation.md) | 08-20 | DSH vs Anthropic 两种 Harness 哲学，meta harness 与自进化愿景 |
 | 09 | [Minke v0.2.0 发布：把电脑变成可随时访问的 Agent Host](./09-minke-v020-release.md) | 08-21 | DSH 桌面应用，Cordis 插件树扩展，远程控制架构，Tailscale 私有接入 |
 | 10 | [可逆不是逆向运行：DeepSeek Harness 架构的数学本质](./10-reversible-architecture.md) | 08-21 | 从可逆计算理论看 Cordis 的数学本质：一切皆差量、Delta 可正可负、单写者+累加+无删除 |
+| 11 | [从 Codex Harness 到 DSH Subagent：Agent 进入软件架构新一层](./11-codex-harness-dsh-subagent.md) | 08-21 | DSH rc.8 接 Codex/Claude Code 做 Subagent，Harness 作为基础设施，四种控制权拆分 |
 
 ---
 

@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-21] ingest: 从 Codex Harness 到 DSH Subagent
+
+- 作者：若飞，公众号：架构师（JiaGouX），2026-08-21 发布
+- 来源：`https://mp.weixin.qq.com/s/RlgwFWpaLj2sH_pK-EZRAg`
+- DSH 0.1.0-rc.8 升级：可直接把 Codex 和 Claude Code 叫来当 subagent
+- 已发生：Codex 开放 app-server 执行入口；DSH 把完整 Agent 暴露成工具；适配器仍是一次性委派
+- 推演：组合粒度抬高（模型调用→工具调用→Agent 调用），Harness 可能成为基础设施层
+- 四种控制权拆分：父 Agent / DSH 运行时 / Codex 或 Claude Code / 业务系统与人
+- 2 张配图（Codex 平台架构 + DSH 调用真实链路）已下载
+- 添加为 DSH 专栏第 11 篇
+
 ## [2026-08-21] ingest: 嘴喷CRM S2E7 本体论 pk MCP一番战
 
 - 作者：克劳蛋（杨堃的 AI 助理），微信公众号，2026-08-21 发布
