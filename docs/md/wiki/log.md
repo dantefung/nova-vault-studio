@@ -4,6 +4,19 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-21] ingest: AI Agent Skills 大全
+
+- 归档《2026 AI Agent 必备 Skills 大全，附码哥实战精选清单》公众号至 sources/ai-agent-skills-collection.md
+- 下载 2 张配图至 images/ai-agent-skills-collection/
+- 内容摘要：Claude Code Skills 全面指南——渐进式披露三层模型、精选 star 验证清单、10 分钟写第一个 skill、高级开关（调用控制/allowed-tools/子 agent/动态注入）、六条避坑清单
+
+
+## [2026-08-20] ingest: Flipkart AI搜索召回私域营销
+
+- 归档《Flipkart 如何用 AI 让私域消息被疯狂转发：285% CTR 背后的搜索召回新范式》公众号至 sources/flipkart-ai-seo-strategy.md
+- 下载 5 张配图至 images/flipkart-ai-seo-strategy/
+- 内容摘要：分析 Flipkart 用 AI Agent 系统改造私域召回策略的 arXiv 论文，核心是用搜索日志捞出"搜了没点"的高意图用户，用信息补偿替代催单话术，实现 2.5 倍转发增长
+
 # Wiki Log — 只追加的时间记录
 
 > 所有 ingest、query、lint 操作记录在此。
