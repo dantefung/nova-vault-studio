@@ -40,6 +40,7 @@ source: "原创"
 | [淘天生码工作流最佳实践](../other-tools/taobao-code-generation-workflow.md) | AI 生码全流程案例 |
 | [多 Agent 协作冲突的血泪教训与解决方案](./multi-agent-collision/) | 主管理者+Worker 权限分离、浏览器锁、习惯闭环 |
 | [本体论 vs MCP：Agent 架构中"接口"与"链接"的边界](./ontology-vs-mcp-juepen-crm-s2e7.md) | 嘴喷CRM S2E7，三层递进：MCP→语义封装→本体论；接口是点，链接是边 |
+| [多 Agent 系统的模式与问题——Anthropic 实证研究](./anthropic-multiagent-systems.md) | 4 类系统性失败：协调/一致性/认知/目标冲突，7 个实验，核心结论：协调不会自然涌现 |
 
 ---
 
