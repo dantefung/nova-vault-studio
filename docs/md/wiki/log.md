@@ -2604,6 +2604,13 @@ source: "llm-wiki"
 - **Concepts**: [[virtual-memory-invention]] [[virtual-memory]] [[paging]]
 
 ---
+## 2026-08-22
+
+### 新增来源文章
+
+| 时间 | 来源 | 标题 | 链接 | 分类 |
+|------|------|------|------|------|
+| 2026-08-22 12:20 | [Mozilla Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat) | Public Suffix List (公共后缀列表) | https://publicsuffix.org/list/public_suffix_list.dat | 技术参考 |
 
 ## [2026-08-08] ingest: 哥飞 AdSense 系列文章 5 篇
 
