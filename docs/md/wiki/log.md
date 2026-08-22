@@ -4,6 +4,21 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-22] ingest: Codex Harness 架构解析与应用
+
+- 作者：若飞，公众号「架构师 JiaGouX」，2026-08-22 发布
+- 来源：`https://mp.weixin.qq.com/s/TDnw2sKTJwHGF7kwbj_1_g`
+- OpenAI Codex Harness 架构解析，源码基线 `ff0e95007c`
+- 四层架构：产品应用 → App Server → Core Session → Agent Loop + 模型
+- Thread/Turn/Item 三对象、`JSON-RPC` + `stdio` 协议、`handle_client_request` / `thread/start` / Listener 三处关键代码
+- 三层 Agent Loop：`RegularTask::run` / `run_turn` / `try_run_sampling_request`
+- 审批（Harness 执行许可）vs 业务授权（业务身份与流程）的边界划分
+- 三种接法选型：`codex exec` / SDK / App Server
+- 三个工作现场推演：CI 修复 / 线上告警 / 工单物流
+- ARC-AGI-3 基准：同模型开启 retained reasoning + context compaction 后从 13.3% 跳至 38.3%
+- 核心判断：Codex Harness 应称 Agent Runtime 而非 Agent OS
+- 新建 `agentic-engineer/codex-harness/` 专栏目录，1 篇，去广告清理后入库
+
 ## [2026-08-22] ingest: DeepSeek Harness 虚拟机部署体验
 
 - 作者：大唐小少，微信公众号，2026-08-22 发布

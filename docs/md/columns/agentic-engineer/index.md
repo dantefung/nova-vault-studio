@@ -14,6 +14,7 @@ source: "原创"
 
 - [hello-harness/](./hello-harness/) — Hello Harness（从 0 手写 Agent Harness，TS 实现）
 - [deepseek-harness/](./deepseek-harness/) — DeepSeek Harness（12 篇，从架构到 Subagent 到部署）
+- [codex-harness/](./codex-harness/) — Codex Harness（1 篇，App Server / Core Session / Agent Loop 源码解析）
 - [ai-resources/](./ai-resources/) — AI 资源全景地图（100+ 分类，600+ 资源链接）
 - [industrial-agent-practice/](./industrial-agent-practice/) — 工业 AI Agent 实战派（7 篇，LangChain4j 入门到框架深析）
 - [agent-production-notes/](./agent-production-notes/) — Agent 生产实战笔记（11 篇，工业 Agent 生产化全流程）
