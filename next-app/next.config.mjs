@@ -12,6 +12,13 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // 把 PMaker 风格 URL 重写到一个内部 handler
+  // /learn/xxx, /patterns/xxx, /basics/xxx → /pmaker/[cat]/[slug]
+  rewrites: async () => [
+    { source: '/learn/:slug', destination: '/pmaker/learn/:slug' },
+    { source: '/patterns/:slug', destination: '/pmaker/patterns/:slug' },
+    { source: '/basics/:slug', destination: '/pmaker/basics/:slug' },
+  ],
 }
 
 export default nextConfig
