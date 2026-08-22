@@ -1,0 +1,87 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","agent-eval"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","agent-eval","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","agent-eval","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-agent","children":"Agent 与 Skill"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"Agent 评测"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #a9b0ee 0%, #dcdff8 38%, #f9f9ff 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"Agent 与 Skill"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"Agent 评测"}]]}]}]}],"$L10","$L11"]
+12:T14ee,<h1>Agent 评测 | Agent 与 Skill | 做产品</h1>
+<h1>Agent 评测</h1>
+<p>普通问答有标准答案，可以自动打分。Agent 是<strong>多步的、没有标准答案的、过程会漂移的</strong>——所以大多数人干脆不评测，靠感觉。「感觉变好了」和「真的变好了」之间，差一套能跑的评测。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>调完一个参数，感觉好了一些，说不清好在哪</p>
+</li>
+<li>
+<p>上了新功能，不知道有没有让别的任务变差</p>
+</li>
+<li>
+<p>它多跑了好几轮，你没注意到账单在变厚</p>
+</li>
+</ul>
+<h2>为什么评测难</h2>
+<p>难点有三个：</p>
+<p><strong>一、没有标准答案。</strong>「帮我整理这份会议的待办」——正确输出是什么？没有唯一答案，无法机器判分。</p>
+<p>**二、过程也重要。**结果对了，但绕了 30 轮、调了 8 次工具、差点删错数据——这算成功吗？只测结果，你会漏掉这些。</p>
+<p>**三、改动影响面大。**Agent 是系统——改一个提示词、加一个工具，可能让整个流程行为变化。不评测，你无法知道「这次改动有没有让别的任务变差」。</p>
+<p>但这些「难」都是程度问题，不是「所以别做」的理由。<strong>最小的评测，比没有评测好一百倍。</strong></p>
+<h2>三层指标</h2>
+<p>**① 结果层：任务完成得怎么样。**这一层最接近产品目标。由于没有标准答案，做法是人工打分——或者让更强的模型辅助打分、人再抽检。分数可以有多个维度：完成度、正确性、是否造成了副作用。</p>
+<p>**② 过程层：它是怎么完成的。**这一层往往比结果层更早暴露问题。看运行日志：调用了哪些工具、顺序对不对、重试了几次、有没有绕路、有没有触发被拦截的动作。过程指标可以自动化统计，比结果层便宜得多。</p>
+<p>**③ 成本层：花了多少代价。**轮数、Token 总量、时长、工具调用次数。**同一个功能，两种实现的成本可能差 10 倍。**成本要和结果、过程一起看——一个又快又省但结果平庸的方案，和一个又贵又慢但结果完美的方案，是两种不同的产品决策。</p>
+<p>三个层次各有各的作用：<strong>成本层高频自动跑，过程层每次改动跑，结果层定期人工判。</strong></p>
+<p>越往下越便宜，也就越该跑得勤</p>
+<p>① 结果层
+完成度 · 正确性 · 有没有副作用
+人工打分，或强模型辅助 + 人抽检
+没有标准答案，这一层只能贵</p>
+<p>定期人工判</p>
+<p>② 过程层
+工具顺序 · 重试次数 · 被拦的动作
+读运行日志，可自动统计
+往往比结果层更早暴露问题</p>
+<p>每次改动跑</p>
+<p>③ 成本层
+轮数 · Token 总量 · 时长 · 调用次数
+全自动，几乎零成本
+同一功能，两种实现可能差 10 倍</p>
+<p>高频自动跑</p>
+<p>跑完第一遍，最关键的一步是把记录留作基线——没有基线，之后每次改动都无法对比。</p>
+<p>三层不是可选项里挑一个，而是<strong>不同频率的三条线</strong>。只看结果层，你会因为太贵而干脆不测；只看成本层，你会把一个又快又省但结果平庸的方案当成进步。</p>
+<h2>最小评测集</h2>
+<p>不用等完美，按这个起步：</p>
+<p>**准备 20 个代表性任务。**覆盖三类：常见任务（用户最常做的 80%）、边界情况（缺参数、异常输入）、危险场景（会触发高风险动作的）。宁可少而代表，不要多而随意。</p>
+<p>**给每个任务写一份「打分卡」。**不是标准答案，是「完成到什么程度算合格」：结果是否达成、过程是否可接受（比如「允许一次重试，不允许反复试」）、成本上限（比如「不超过 10 轮」）。</p>
+<p>**跑一遍，记录三层数据。**然后这是最关键的一步：**把这份记录留作基线。**没有基线，之后的每一次改动都无法对比。</p>
+<p>**每次改动后重跑。**改提示词、换模型、加工具、调整循环逻辑——都跑一遍这 20 个任务，和基线对比。看三层指标各自的变化。</p>
+<h2>什么时候重测</h2>
+<p>不是所有改动都要全量评测，按改动的影响面分级：</p>
+<p>**小改动（改一句提示词、调一个参数）→ 跑过程层和成本层。**便宜、自动、高频。结果层可以抽查几个关键任务。</p>
+<p>**中改动（加工具、改循环逻辑、换模型）→ 全量三层。**这类改动最容易「解决 A 搞坏 B」，必须看全部 20 个任务。</p>
+<p>**大改动（换架构、多 Agent 重新分工）→ 全量 + 上线后监控。**上线后还要继续看真实日志里的过程指标——很多跑偏只在真实流量里出现。</p>
+<p>最后一条：**评测是产品的一部分，不是上线的门槛。**把它做成日常——有基线、有对比、有记录。跑偏不可怕，可怕的是跑偏了你不知道。</p>
+<p>提示词迭代
+普通问答的评测怎么做，Agent 评测是它的延伸。</p>
+<p>Agent 跑偏的三种形态
+过程层指标最能暴露的，就是这三种失控。</p>
+<p>权限分级与人工断点
+评测里「触发拦截」本身就是要统计的指标。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"Agent 与 Skill"}],[["$","$Lf","/learn/tool-calling",{"href":"/learn/tool-calling","className":"","children":"工具调用"}],["$","$Lf","/learn/agent-loop",{"href":"/learn/agent-loop","className":"","children":"Agent 循环"}],["$","$Lf","/learn/skill-mcp",{"href":"/learn/skill-mcp","className":"","children":"Skill 与 MCP"}],["$","$Lf","/learn/multi-agent",{"href":"/learn/multi-agent","className":"","children":"多 Agent 协作"}],["$","$Lf","/learn/agent-drift",{"href":"/learn/agent-drift","className":"","children":"Agent 跑偏的三种形态"}],["$","$Lf","/learn/agent-eval",{"href":"/learn/agent-eval","className":"is-active","children":"Agent 评测"}],["$","$Lf","/learn/agent-layers",{"href":"/learn/agent-layers","className":"","children":"模型、Agent、应用的分层"}],["$","$Lf","/learn/permissions",{"href":"/learn/permissions","className":"","children":"权限分级与人工断点"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/learn/tool-calling",{"href":"/learn/tool-calling","className":"related__item","children":["$L13","$L14","$L15"]}],"$L16","$L17","$L18"]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}]
+14:["$","h3",null,{"className":"related__name","children":"工具调用"}]
+15:["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]
+16:["$","$Lf","/learn/agent-loop",{"href":"/learn/agent-loop","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"Agent 循环"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}]
+17:["$","$Lf","/learn/skill-mcp",{"href":"/learn/skill-mcp","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"Skill 与 MCP"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}]
+18:["$","$Lf","/learn/multi-agent",{"href":"/learn/multi-agent","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"多 Agent 协作"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

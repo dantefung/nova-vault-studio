@@ -1,0 +1,104 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","patterns","three-layers-of-validation"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","patterns","d"],{"children":[["slug","three-layers-of-validation","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","patterns","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","three-layers-of-validation","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#yanzheng","children":"验证与迭代"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"能用、好用、有人用"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #c6d9a3 0%, #e4eecd 38%, #fbfdf4 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"验证与迭代"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"能用、好用、有人用"}]]}]}]}],"$L10","$L11"]
+12:Tf0a,<h1>能用、好用、有人用 | 验证与迭代 | 做产品</h1>
+<h1>能用、好用、有人用</h1>
+<p>验证分三层。每一层要回答的问题不同，用的方法也不同，混在一起就什么都验不清楚。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>上线了，但不知道该看哪个数，只能看每天有多少人打开</p>
+</li>
+<li>
+<p>数据不好，说不清是功能有 bug、体验太绕，还是根本没人需要</p>
+</li>
+<li>
+<p>验收全靠自己点几下，点的还都是自己熟悉的那条路</p>
+</li>
+</ul>
+<h2>三层各看什么</h2>
+<p>层要回答怎么验不通过的表现</p>
+<p>能用
+功能对不对，异常情况会不会崩
+走查清单、真实数据压测、安全检查
+白屏、报错、数据丢失</p>
+<p>好用
+陌生人能不能自己走完
+五秒测试、找三五个人试用并观察
+他卡在某一步、需要你在旁边解释</p>
+<p>有人用
+他们会不会回来、愿不愿意付钱
+埋点、留存曲线、转化漏斗
+用了一次再也不来</p>
+<p>「好用」这一层最容易被跳过，因为它要找人，比较麻烦。但三五个人、每人二十分钟，能发现的问题比你自己点一百遍都多。</p>
+<p>每一层要回答的问题不同，用的方法也不同</p>
+<p>有人用
+他们会不会回来、愿不愿意付钱
+埋点 · 留存曲线 · 转化漏斗</p>
+<p>好用
+陌生人能不能自己走完
+五秒测试 · 找三五个人试用并观察</p>
+<p>能用
+功能对不对，异常会不会崩
+走查清单 · 真实数据压测 · 安全检查</p>
+<p>依赖顺序
+下一层不成立，
+上一层的结论
+就没有意义
+用户走到一半崩了，
+留存低是必然的，跟
+需求真不真没关系</p>
+<p>但发现顺序常常是反的：数据不好 → 找人试用 → 发现某一步走不通 → 查代码发现是个 bug。所以三层要都会。
+中间那层最容易被跳过，因为要找人。但三五个人、每人二十分钟，能发现的问题比你自己点一百遍都多。</p>
+<p>观察用户时最难的是<strong>忍住不说话</strong>——他卡住的那十秒钟，是整个测试里信息量最大的十秒。你一开口解释，这十秒就没了。</p>
+<h2>顺序不能乱</h2>
+<p>三层是有依赖的。<strong>下一层不成立，上一层的结论就没有意义。</strong></p>
+<ul>
+<li>
+<p>**能用不过关，就别看留存。**用户走到一半崩了，留存低是必然的，跟需求真不真没关系。</p>
+</li>
+<li>
+<p>**好用不过关，就别急着投放。**把人拉进来卡在第二步，等于花钱买流失。</p>
+</li>
+<li>
+<p>**有人用不成立，前两层做得再精也白搭。**没人需要的东西，做得再顺手也不会有人回来。</p>
+</li>
+<li>
+<p>**但发现顺序常常是反的。**数据不好 → 找人试用 → 发现某一步走不通 → 查代码发现是个 bug。所以三层要都会。</p>
+</li>
+</ul>
+<h2>一个人怎么做</h2>
+<p>时机做什么
+写完一个功能对着状态清单逐条过；用零条数据和超长内容各跑一遍
+上线前走查清单全过一遍，含安全那几条；用全新账号完整走一次
+上线时埋点必须已经在了。没埋点的功能，上线等于没上
+上线后第一周找三五个真实用户看他们怎么用，别在旁边指导
+上线后一个月看留存曲线走不走平，这决定了要不要继续投入</p>
+<p>观察用户时最难的是忍住不说话。他卡住的那十秒钟，是整个测试里信息量最大的十秒。</p>
+<h2>接着看</h2>
+<p>走查清单
+第一层的具体做法。功能、体验、安全三类，上线前逐条过。</p>
+<p>五秒测试
+第二层里成本最低的一个。给陌生人看五秒，问他这页最想让你干什么。</p>
+<p>先埋点后上线
+第三层的前提。埋点要在开发阶段就定，不是上线之后补。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"验证与迭代"}],[["$","$Lf","/patterns/three-layers-of-validation",{"href":"/patterns/three-layers-of-validation","className":"is-active","children":"能用、好用、有人用"}],["$","$Lf","/patterns/metrics-system",{"href":"/patterns/metrics-system","className":"","children":"指标体系怎么搭"}],["$","$Lf","/patterns/north-star",{"href":"/patterns/north-star","className":"","children":"一个北极星"}],["$","$Lf","/patterns/five-second-test",{"href":"/patterns/five-second-test","className":"","children":"五秒测试"}],["$","$Lf","/patterns/launch-checklist",{"href":"/patterns/launch-checklist","className":"","children":"走查清单"}],["$","$Lf","/patterns/ai-code-check",{"href":"/patterns/ai-code-check","className":"","children":"AI 代码的安全检查"}],["$","$Lf","/patterns/north-star-split",{"href":"/patterns/north-star-split","className":"","children":"北极星拆解"}],["$","$Lf","/patterns/real-data-stress",{"href":"/patterns/real-data-stress","className":"","children":"真实数据压测"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/patterns/metrics-system",{"href":"/patterns/metrics-system","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"验证与迭代"}]}],["$","h3",null,{"className":"related__name","children":"指标体系怎么搭"}],["$","p",null,{"className":"related__why","children":["来自「","验证与迭代","」章节的相关模式"]}]]}],["$","$Lf","/patterns/north-star",{"href":"/patterns/north-star","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"验证与迭代"}]}],"$L13","$L14"]}],"$L15","$L16"]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","h3",null,{"className":"related__name","children":"一个北极星"}]
+14:["$","p",null,{"className":"related__why","children":["来自「","验证与迭代","」章节的相关模式"]}]
+15:["$","$Lf","/patterns/five-second-test",{"href":"/patterns/five-second-test","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"验证与迭代"}]}],["$","h3",null,{"className":"related__name","children":"五秒测试"}],["$","p",null,{"className":"related__why","children":["来自「","验证与迭代","」章节的相关模式"]}]]}]
+16:["$","$Lf","/patterns/launch-checklist",{"href":"/patterns/launch-checklist","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"验证与迭代"}]}],["$","h3",null,{"className":"related__name","children":"走查清单"}],["$","p",null,{"className":"related__why","children":["来自「","验证与迭代","」章节的相关模式"]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

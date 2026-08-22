@@ -1,0 +1,80 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","patterns","whitespace-first"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","patterns","d"],{"children":[["slug","whitespace-first","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","patterns","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","whitespace-first","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#jiemian","children":"设计界面"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"留白优先"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #f2b8c0 0%, #fadde1 38%, #fff9fa 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"设计界面"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"留白优先"}]]}]}]}],"$L10","$L11"]
+12:Tcd9,<h1>留白优先 | 设计界面 | 做产品</h1>
+<h1>留白优先</h1>
+<p>需要把两块内容分开时，先试着拉开距离。距离不够用了，再考虑加线。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>页面上框套着框，线比内容还多</p>
+</li>
+<li>
+<p>每加一个模块就给它加个卡片，最后满屏都是卡片</p>
+</li>
+<li>
+<p>AI 生成的界面每两行之间都有一条分割线</p>
+</li>
+</ul>
+<p>分割线和边框是「画出来的分隔」，间距是「让出来的分隔」。两者效果一样，但前者增加视觉元素，后者不增加。同样能表达分组，为什么要多画一堆线。</p>
+<p>更重要的是，线用多了会失效。当页面上每个模块都有边框，边框就不再传递「这是一组」的信息，只是背景噪音。</p>
+<h2>什么时候还是要线</h2>
+<p>情况为什么这时候要线
+表格的行与行需要横向对照，线帮眼睛保持在同一行上
+空间不够拉开距离移动端一屏内容多，没有足够空间做间距
+需要明确的可点边界输入框、按钮，用户要知道点哪儿
+内容浮在别的内容上弹窗、抽屉、下拉菜单，需要跟底下的内容分开
+并列的多个卡片数量多且要区分彼此时，边框比间距更省地方</p>
+<p>用线的时候把它做得尽量淡。分割线用接近背景的浅灰就够，它的作用是提示边界，不是自己变成一个视觉元素。</p>
+<p>同样是把三组内容分开，两种做法</p>
+<p>画出来的分隔</p>
+<p>框套着框，线比内容还多</p>
+<p>让出来的分隔</p>
+<p>↕ 8
+↕ 24
+↕ 8
+分组一样清楚，一根线都没画</p>
+<p>先删再加：把所有边框和分割线删掉，看还能不能分清结构。分不清的地方再加回来——通常只要加回三成。</p>
+<p>线用多了会失效。**当页面上每个模块都有边框，边框就不再传递「这是一组」的信息，只是背景噪音。**真要用线的时候，把它做得尽量淡——它的作用是提示边界，不是自己变成一个视觉元素。</p>
+<h2>怎么用留白分区</h2>
+<ul>
+<li>
+<p>**组内 8，组间 24。**差三倍是个安全的起点。同一组内的元素靠得紧，不同组之间拉开（见一套间距）。</p>
+</li>
+<li>
+<p>**标题跟自己的正文离得近，跟上一组离得远。**这一条错了，分组关系会被读反。</p>
+</li>
+<li>
+<p>**先删再加。**做完一个界面，试着把所有边框和分割线删掉，看还能不能分清结构。分不清的地方再加回来，通常会发现只要加回三成。</p>
+</li>
+<li>
+<p>**大区块之间给足空间。**桌面端 40 到 64px 不算多。页面显得挤，通常不是内容多，是留白不够。</p>
+</li>
+</ul>
+<p>留白不是空着不用，它在表达关系。一块空白告诉用户「这里结束了，下面是新的一段」——这个信息本身就是内容。</p>
+<h2>接着看</h2>
+<p>一套间距
+删掉线之后用多大的空间替代，取决于这组固定数值。组内 8、组间 24 就是从那儿来的。</p>
+<p>视觉层级从哪来
+留白是四种手段里最被低估的一种，也是最不增加视觉噪音的一种。</p>
+<p>排版基础
+行距、段距、页边距都是留白。中文的行距要比英文更松一些。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"设计界面"}],[["$","$Lf","/patterns/visual-hierarchy",{"href":"/patterns/visual-hierarchy","className":"","children":"视觉层级从哪来"}],["$","$Lf","/patterns/color-basics",{"href":"/patterns/color-basics","className":"","children":"颜色基础"}],["$","$Lf","/patterns/typography-basics",{"href":"/patterns/typography-basics","className":"","children":"排版基础"}],["$","$Lf","/patterns/spacing-scale",{"href":"/patterns/spacing-scale","className":"","children":"一套间距"}],["$","$Lf","/patterns/one-accent",{"href":"/patterns/one-accent","className":"","children":"一个强调色"}],["$","$Lf","/patterns/whitespace-first",{"href":"/patterns/whitespace-first","className":"is-active","children":"留白优先"}],["$","$Lf","/patterns/alignment",{"href":"/patterns/alignment","className":"","children":"对齐轴"}],["$","$Lf","/patterns/components-first",{"href":"/patterns/components-first","className":"","children":"先定组件后拼页"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/patterns/visual-hierarchy",{"href":"/patterns/visual-hierarchy","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计界面"}]}],["$","h3",null,{"className":"related__name","children":"视觉层级从哪来"}],["$","p",null,{"className":"related__why","children":["来自「","设计界面","」章节的相关模式"]}]]}],["$","$Lf","/patterns/color-basics",{"href":"/patterns/color-basics","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计界面"}]}],["$","h3",null,{"className":"related__name","children":"颜色基础"}],["$","p",null,{"className":"related__why","children":["来自「","设计界面","」章节的相关模式"]}]]}],["$","$Lf","/patterns/typography-basics",{"href":"/patterns/typography-basics","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计界面"}]}],"$L13","$L14"]}],"$L15"]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","h3",null,{"className":"related__name","children":"排版基础"}]
+14:["$","p",null,{"className":"related__why","children":["来自「","设计界面","」章节的相关模式"]}]
+15:["$","$Lf","/patterns/spacing-scale",{"href":"/patterns/spacing-scale","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计界面"}]}],["$","h3",null,{"className":"related__name","children":"一套间距"}],["$","p",null,{"className":"related__why","children":["来自「","设计界面","」章节的相关模式"]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

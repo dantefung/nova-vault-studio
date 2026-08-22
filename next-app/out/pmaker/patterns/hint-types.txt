@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","patterns","hint-types"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","patterns","d"],{"children":[["slug","hint-types","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","patterns","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","hint-types","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#jiaohu","children":"设计交互"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"提示的五种形式"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #cdbce9 0%, #e6dcf5 38%, #fbf9ff 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"设计交互"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"提示的五种形式"}]]}]}]}],"$L10","$L11"]
+12:Tb33,<h1>提示的五种形式 | 设计交互 | 做产品</h1>
+<h1>提示的五种形式</h1>
+<p>提示要跟事情的严重程度匹配。用弹窗报一条无关紧要的消息，用户下次就学会了闭眼点确定。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>用户对所有弹窗都直接点确定，从来不看内容</p>
+</li>
+<li>
+<p>重要的提示被做成了轻提示，一闪而过没人注意到</p>
+</li>
+<li>
+<p>推送发多了，用户直接关掉了通知权限</p>
+</li>
+</ul>
+<h2>五种形式</h2>
+<p>形式什么时候用长什么样
+数字提示有几条待处理的东西图标角上的小红点加数字，不打断任何操作
+气泡提示引导用户注意某个新功能屏幕角落的短文本气泡，看不看都行
+全局提示重要的状态变化或紧急信息顶部横幅或中央弹窗，覆盖在内容上
+消息公告长篇信息，比如维护通知、更新说明专门的公告板块，用户主动点进去看
+推送用户不在应用里，但你需要他知道系统通知中心。最贵的一种，用多了会被关掉</p>
+<p>除了这五种，还有一批用得少但有用的：工具提示（悬停显示说明）、焦点提示（高亮当前输入框）、进度提示（上传下载的进度条）、确认框（关键操作前拦一道）、动画提示（完成时的打勾动效）。</p>
+<h2>强中弱三档</h2>
+<p>选形式之前先判断强度。标准只有一条：这件事用户如果不处理，会不会出问题。</p>
+<p>强 · 弹窗
+必须立刻处理的错误
+不处理就没法继续</p>
+<p>中 · 全局横幅
+状态变化，成功提示
+要知道，但不必马上动</p>
+<p>弱 · 气泡 / 红点
+可看可不看的信息
+不处理也没影响</p>
+<p>越级使用的代价：用户对这一档的所有提示都脱敏
+弹窗用滥了，真出事的时候他也是闭眼点确定</p>
+<h2>警告、提示、错误</h2>
+<p>按目的分，提示语只有三类，它们的语气和落点都不同。</p>
+<p>类型目的例子</p>
+<p>警告
+提前告诉他后果，但不拦着
+「确定删除这些文件吗？这个操作不可恢复」</p>
+<p>提示
+帮他做得更好，不是纠正错误
+「为了账户安全，建议用更复杂的密码组合」</p>
+<p>错误
+说清出了什么问题，怎么改
+「密码错误，请重新输入」</p>
+<p>警告的关键在于不阻止用户，只给他一个思考的机会。把警告做成拦截，用户会开始机械地点确定，警告就失效了。</p>
+<h2>接着看</h2>
+<p>提示语怎么写
+形式选定之后，文字怎么写。说明当前状况加引导措施，不用感叹号，句尾不加标点。</p>
+<p>四态齐全
+错误态用哪一档提示，取决于这个错误影响的是整页还是一个模块。</p>
+<p>可撤销优于确认
+很多警告其实可以不要。给一次撤销的机会，比事前拦一道更好用。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"设计交互"}],[["$","$Lf","/patterns/interaction-basics",{"href":"/patterns/interaction-basics","className":"","children":"交互管的是行为"}],["$","$Lf","/patterns/common-components",{"href":"/patterns/common-components","className":"","children":"常用组件有哪些"}],["$","$Lf","/patterns/four-states",{"href":"/patterns/four-states","className":"","children":"四态齐全"}],["$","$Lf","/patterns/feedback",{"href":"/patterns/feedback","className":"","children":"操作必有反馈"}],["$","$Lf","/patterns/form-restraint",{"href":"/patterns/form-restraint","className":"","children":"表单克制"}],["$","$Lf","/patterns/first-run",{"href":"/patterns/first-run","className":"","children":"首次体验设计"}],["$","$Lf","/patterns/hint-types",{"href":"/patterns/hint-types","className":"is-active","children":"提示的五种形式"}],["$","$Lf","/patterns/permission-as-view",{"href":"/patterns/permission-as-view","className":"","children":"权限即视图"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/patterns/interaction-basics",{"href":"/patterns/interaction-basics","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计交互"}]}],["$","h3",null,{"className":"related__name","children":"交互管的是行为"}],["$","p",null,{"className":"related__why","children":["来自「","设计交互","」章节的相关模式"]}]]}],["$","$Lf","/patterns/common-components",{"href":"/patterns/common-components","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计交互"}]}],["$","h3",null,{"className":"related__name","children":"常用组件有哪些"}],["$","p",null,{"className":"related__why","children":["来自「","设计交互","」章节的相关模式"]}]]}],["$","$Lf","/patterns/four-states",{"href":"/patterns/four-states","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计交互"}]}],["$","h3",null,{"className":"related__name","children":"四态齐全"}],["$","p",null,{"className":"related__why","children":["来自「","设计交互","」章节的相关模式"]}]]}],["$","$Lf","/patterns/feedback",{"href":"/patterns/feedback","className":"related__item","children":["$L13","$L14","$L15"]}]]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计交互"}]}]
+14:["$","h3",null,{"className":"related__name","children":"操作必有反馈"}]
+15:["$","p",null,{"className":"related__why","children":["来自「","设计交互","」章节的相关模式"]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

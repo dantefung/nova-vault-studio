@@ -1,0 +1,139 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","patterns","one-screen-one-job"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","patterns","d"],{"children":[["slug","one-screen-one-job","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","patterns","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","one-screen-one-job","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#jiegou","children":"设计结构"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"一屏一件事"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #b9c8ee 0%, #dee5f7 38%, #f8faff 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"设计结构"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"一屏一件事"}]]}]}]}],"$L10","$L11"]
+12:T1a95,<h1>一屏一件事 | 骨架 | 做产品</h1>
+<h1>一屏一件事</h1>
+<p>功能都做出来了，用起来却很累。因为页面上每样东西都一样重，用户每进一个页面都要先做一道选择题。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>让 AI 做工作台，它把你提到的五个功能做成五张一模一样的卡片</p>
+</li>
+<li>
+<p>自己看着还行，别人打开第一句话是「我该点哪个」</p>
+</li>
+<li>
+<p>想突出某个功能，只能靠加粗、加框、加底色，越加越乱</p>
+</li>
+</ul>
+<p>一个页面应该有一个明确的主任务。用户走到这里是来干这件事的，页面上的其他东西全都为它让位：尺寸更小、位置更靠后、或者干脆收进导航里。</p>
+<p>让 AI 生成页面时，它倾向于把你提到的所有功能平铺展开，因为它没有理由认为哪个比哪个重要。你说&quot;做一个工作台，要有项目列表、数据看板、团队管理、消息、设置&quot;，它就给你五块等大的卡片。每一块都存在，每一块都不突出，用户进来要先做一道选择题。</p>
+<p>这就是功能都在、用起来却很累的来源。<strong>功能齐全和主次分明是两回事，前者 AI 帮你做到了，后者只能你来定。</strong></p>
+<p>判断一个页面是否合格，问一句：如果用户在这个页面上只能点一个东西，应该是哪个？如果答不上来，说明这个页面还没设计完。</p>
+<h3>怎么找出那一件事</h3>
+<ul>
+<li>
+<p>看用户是从哪来的。从搜索结果进来的详情页，主任务是确认这是不是他要找的；从推送进来的，主任务是看那条更新。</p>
+</li>
+<li>
+<p>看统计。如果已经上线，八成的点击集中在一两个位置，那就是主任务，页面应该照着它重排。</p>
+</li>
+<li>
+<p>看频率。每天做的事放最外面，每月做一次的收进设置，一次性的（比如初始化配置）做完就该消失。</p>
+</li>
+</ul>
+<h2>低频功能放哪</h2>
+<p>从首屏赶走的东西不会消失，它们要落到导航里。导航形式基本就四种，选哪种取决于系统有多少个一级模块。</p>
+<p>仅左侧一级
+功能单一的系统
+文档、笔记类</p>
+<p>仅顶部一级
+内容型站点
+官网、电商</p>
+<p>左一级 顶二级
+模块多的后台
+管理系统</p>
+<p>顶一级 左二级
+多个系统并列
+门户 + 子系统</p>
+<p>一级菜单项控制在五到九个之间，这是短期记忆一次能处理的量。超过九个就该分组，同时导航别藏超过两级，第三级往下用户基本走不到。</p>
+<h2>设计考量</h2>
+<ul>
+<li></li>
+</ul>
+<p><strong>主任务只配一个主按钮，同屏不出现第二个同等份量的按钮。</strong>
+两个一样醒目的按钮等于没有主按钮。次要操作降级成文字链接或幽灵按钮，视觉重量拉开三倍以上，用户的眼睛才会自动落到该落的地方。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>低频功能收进导航，不占首屏面积。</strong>
+账单、成员管理、集成配置这类一个月碰一次的东西，放进顶部菜单或设置页即可。它们出现在首屏的唯一效果是稀释主任务。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>宁可多一个页面，不要一页塞两件事。</strong>
+页面是廉价的，注意力是昂贵的。两个任务硬塞进一屏，用户每次都要先分辨自己在哪一半；拆成两个页面加一个清晰的入口，反而更快。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>用位置和尺寸做层级，别用边框和底色。</strong>
+给次要模块加个灰底想让它退后，通常效果相反——多一块颜色就是多一个视觉重心。真正让它退后的方式是缩小、下移、去掉图标。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>首屏不滚动的区域，留给主任务和它的上下文。</strong>
+用户不滚动就能看到的那部分是最贵的地方。它应该回答用户在哪、能干什么，而不是塞公告栏和推广位。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>同一个页面在不同角色下主任务可能不同。</strong>
+管理员进来是审批，成员进来是提交。与其做一个兼容两者的折中页面，不如按角色渲染不同的主区域，导航保持一致。</p>
+<h2>给 AI 的话</h2>
+<p>AI 不会自己判断主次，你得把主次写进需求。这段模板适用于任何一个新页面。</p>
+<p>复制
+PROMPT · 页面需求
+页面：[页面名]
+用户从哪来：[入口，比如&quot;从侧边栏点进来&quot; / &quot;从邮件通知点进来&quot;]</p>
+<p>主任务（这个页面只服务这一件事）：
+[一句话，比如&quot;快速回到最近在做的项目&quot;]</p>
+<p>页面上还需要出现，但都属于次要的：</p>
+<ul>
+<li>[次要项 1]</li>
+<li>[次要项 2]</li>
+</ul>
+<p>低频功能，收进顶部导航或设置页，不要出现在首屏：</p>
+<ul>
+<li>[低频项...]</li>
+</ul>
+<p>布局约束：</p>
+<ul>
+<li>整页只有一个主按钮，对应主任务。次要操作用文字链接或
+幽灵按钮，视觉重量必须明显低于主按钮。</li>
+<li>不滚动就能看到的区域，只放主任务和它必要的上下文。</li>
+<li>次要模块靠缩小字号、下移位置来降级，不要用灰底或加边框。</li>
+</ul>
+<p>先用一段文字描述你打算的布局顺序和每块的视觉权重，
+我确认之后你再写代码。</p>
+<p>如果 AI 给回来的布局描述里出现了三个以上&quot;重要的&quot;模块，说明主任务还没定清楚，回到需求那一步改，别在代码上调。</p>
+<h2>相关模式</h2>
+<p>入口密度
+一屏一件事管的是单个页面内部的主次，入口密度管的是首页该放几个入口。当用户来意确实有好几种时，正确解法是把首页做成分流页，而不是硬选一个主任务。</p>
+<p>层级对比
+定下主次之后，靠层级对比来落实。大小和位置的差距不够大，主次就只存在于你的文档里，不存在于用户眼里。</p>
+<p>唯一主线
+这是同一条判断在两个尺度上的应用：唯一主线定的是整个产品的主任务，一屏一件事定的是单个页面的。产品主线不清楚，每个页面都会摇摆。</p>
+<p>五秒测试
+验证这个模式最快的方式。给陌生人看五秒，问他这页最想让你干什么，答不出来就是没做到。</p>
+<h2>真实案例</h2>
+<p>Google</p>
+<p>Google 首页是这个模式最极端的版本：整页只有一个输入框。其余几十个产品全部收进右上角一个九宫格图标里。</p>
+<p>收件箱 · 12</p>
+<p>写邮件</p>
+<p>Gmail 的主任务是&quot;处理收件箱&quot;，所以整个中区都是邮件列表，唯一的主按钮是写邮件。标签、过滤器、设置全部在侧边和角落。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"设计结构"}],[["$","$Lf","/patterns/what-is-ia",{"href":"/patterns/what-is-ia","className":"","children":"什么是信息架构"}],["$","$Lf","/patterns/four-structures",{"href":"/patterns/four-structures","className":"","children":"四种组织结构"}],["$","$Lf","/patterns/sitemap",{"href":"/patterns/sitemap","className":"","children":"页面地图"}],["$","$Lf","/patterns/three-diagrams",{"href":"/patterns/three-diagrams","className":"","children":"三种结构图"}],["$","$Lf","/patterns/card-sorting",{"href":"/patterns/card-sorting","className":"","children":"卡片分类"}],["$","$Lf","/patterns/content-inventory",{"href":"/patterns/content-inventory","className":"","children":"内容清单"}],["$","$Lf","/patterns/data-model-first",{"href":"/patterns/data-model-first","className":"","children":"数据模型先行"}],["$","$Lf","/patterns/grouping-naming",{"href":"/patterns/grouping-naming","className":"","children":"分组与命名"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],"$L13"]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/patterns/what-is-ia",{"href":"/patterns/what-is-ia","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计结构"}]}],["$","h3",null,{"className":"related__name","children":"什么是信息架构"}],["$","p",null,{"className":"related__why","children":["来自「","设计结构","」章节的相关模式"]}]]}],["$","$Lf","/patterns/four-structures",{"href":"/patterns/four-structures","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计结构"}]}],["$","h3",null,{"className":"related__name","children":"四种组织结构"}],["$","p",null,{"className":"related__why","children":["来自「","设计结构","」章节的相关模式"]}]]}],["$","$Lf","/patterns/sitemap",{"href":"/patterns/sitemap","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计结构"}]}],["$","h3",null,{"className":"related__name","children":"页面地图"}],["$","p",null,{"className":"related__why","children":["来自「","设计结构","」章节的相关模式"]}]]}],["$","$Lf","/patterns/three-diagrams",{"href":"/patterns/three-diagrams","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计结构"}]}],["$","h3",null,{"className":"related__name","children":"三种结构图"}],["$","p",null,{"className":"related__why","children":["来自「","设计结构","」章节的相关模式"]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

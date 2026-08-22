@@ -1,0 +1,92 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","agent-drift"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","agent-drift","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","agent-drift","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-agent","children":"Agent 与 Skill"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"Agent 跑偏的三种形态"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #a9b0ee 0%, #dcdff8 38%, #f9f9ff 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"Agent 与 Skill"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"Agent 跑偏的三种形态"}]]}]}]}],"$L10","$L11"]
+12:T16b2,<h1>Agent 跑偏的三种形态 | Agent 与 Skill | 做产品</h1>
+<h1>Agent 跑偏的三种形态</h1>
+<p>Agent 跑偏不是玄学，是可以分类的。绝大多数失控，落在这<strong>三种形态</strong>里——每种都有对应的拦截方式。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>它做着 A，做着做着开始做 B，做完 B 还不停</p>
+</li>
+<li>
+<p>它调了不该调的工具，或者参数传得离谱</p>
+</li>
+<li>
+<p>同一个动作反复重试，停不下来，账单一直在涨</p>
+</li>
+</ul>
+<h2>目标漂移</h2>
+<p>症状：开始时目标明确，但随着上下文变长、中间动作变多，模型渐渐把「完成当前子任务」当成了「目标」。你让它查订单，它查完订单开始分析订单数据，分析完开始写改进建议——<strong>每一步都合理，整体已经跑远了</strong>。</p>
+<p>为什么会这样？因为 Agent 每轮决策时，上下文里堆满了中间结果，原始目标（「查订单并汇报」）被淹没在后面，注意力逐渐被最近的步骤带走。</p>
+<p>拦截手段：</p>
+<p>**一、把目标写成「终点条件」。**不只是「查订单」，而是「查订单，把结果用一段话汇报，汇报完任务即结束」。让模型有明确的「做完」判断。</p>
+<p>**二、把目标固定在显眼位置。**在系统提示或每轮开头重申一次本次任务边界——不是靠「记住」，是靠放在高注意力位置。</p>
+<p>**三、允许它「拒绝延展」。**提示词里明确：「如果发现当前动作超出了原始请求范围，停下来向用户确认」。让「停下来问」成为一个正当选项，而不是逼它一直做下去。</p>
+<h2>工具误用</h2>
+<p>症状：该调工具时调错工具，或参数传错。最危险的是「够得着但用错了」：一个能删数据的工具和一个只读工具放在一起，模型选错了。</p>
+<p>为什么会这样？一是工具清单太杂、说明太含糊，模型分辨不清；二是外部内容（网页、文档）里藏了引导它调用某工具的指令——提示注入的典型手法。</p>
+<p>拦截手段：</p>
+<p><strong>一、工具说明写清边界。</strong>「此工具只读，不产生任何修改」「仅当用户明确要求发送时才可调用」。模型会照说明行事，说明越清楚，误用越少。</p>
+<p>**二、风险工具分级。**有副作用的工具（发送、删除、转账）单独归类，设为需人工批准，不让模型在循环里自动调用。</p>
+<p>**三、参数校验放执行层。**不要相信模型传的参数。执行前校验类型、范围、权限，把「模型说错」拦截在真正的动作之前。</p>
+<h2>循环不收敛</h2>
+<p>症状：同一个动作反复重试。失败 → 换个参数重试 → 再失败 → 再换参数……每轮都在增加上下文、每轮都在花钱，<strong>永远不会达到终止条件</strong>。</p>
+<p>为什么会这样？往往是失败的结果没有给出「为什么失败」，或者失败后模型没有足够信息改变策略，只能原地打转。</p>
+<p>拦截手段：</p>
+<p>**一、硬性最大轮数。**这个必须有。循环是刹车失灵的重灾区，超过 N 轮直接终止并降级处理。</p>
+<p><strong>二、失败要带回原因。</strong>「重试时带上上次失败的原因」，让模型有信息改变做法，而不是盲试。</p>
+<p>**三、失败收敛策略。**规定：同一步失败 K 次就停止，改为向用户说明问题。别让它用不同的方式失败一百次。</p>
+<p>**四、监控轮数与花费。**循环次数、工具调用次数、累计 Token，这些是最基本的运行指标。不记录这些，你连它跑了多远都不知道。</p>
+<p>灰色是你要的，红色是它实际做的</p>
+<p>原始终点</p>
+<p>越走越远</p>
+<p>只读工具</p>
+<p>删除工具
+够得着，但选错了那一个</p>
+<p>× N
+轮数一直涨
+终点永远到不了</p>
+<p>目标漂移
+每一步都合理，整体已跑远
+工具误用
+清单太杂，或被外部内容诱导
+循环不收敛
+失败没带回原因，只能盲试</p>
+<p>拦：把目标写成终点条件
+拦：允许它「停下来问」
+拦：说明里写清工具边界
+拦：参数校验放执行层
+拦：硬性最大轮数
+拦：失败必须带回原因</p>
+<p>三种形态的共同点：模型不会自己「醒悟」，一切克制都来自你搭的约束。</p>
+<p>把失控拆成三类之后，「Agent 不靠谱」就变成了三个可以分别下手的工程问题。<strong>每一列的拦截手段都写在代码和提示词里，不在模型的自觉里。</strong></p>
+<h2>通用的兜底</h2>
+<p>三种形态各有拦法，但还有几条适用于所有情况的底线：</p>
+<p>**一、权限是最后一道闸。**规则再完善也拦不住意外。把所有高风险动作（删除、发送、付款、外发）都放到人工断点之后——<strong>这是唯一你不需要信任模型的防线。</strong></p>
+<p>**二、全程留日志。**每一步的输入、输出、工具调用、理由都记下来。跑偏之后，没有日志你连「它为什么这么做」都说不清。</p>
+<p><strong>三、给 Agent 留「不知道」的出口。</strong>「不确定时停下问用户」要作为一个正当选项写进提示词。一个永远在行动的 Agent，比一个会停下来问的 Agent 危险得多。</p>
+<p>最后记住这件事：**跑偏的拦截是设计出来的，不是祈祷出来的。**模型不会自己「醒悟」，一切克制都来自你搭的约束。</p>
+<p>权限分级与人工断点
+三种跑偏的共同最后防线。</p>
+<p>Agent 循环
+不收敛的根源，在循环怎么转的。</p>
+<p>Agent 评测
+跑偏是偶发还是常态，要靠评测才能确认。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"Agent 与 Skill"}],[["$","$Lf","/learn/tool-calling",{"href":"/learn/tool-calling","className":"","children":"工具调用"}],["$","$Lf","/learn/agent-loop",{"href":"/learn/agent-loop","className":"","children":"Agent 循环"}],["$","$Lf","/learn/skill-mcp",{"href":"/learn/skill-mcp","className":"","children":"Skill 与 MCP"}],["$","$Lf","/learn/multi-agent",{"href":"/learn/multi-agent","className":"","children":"多 Agent 协作"}],["$","$Lf","/learn/agent-drift",{"href":"/learn/agent-drift","className":"is-active","children":"Agent 跑偏的三种形态"}],["$","$Lf","/learn/agent-eval",{"href":"/learn/agent-eval","className":"","children":"Agent 评测"}],["$","$Lf","/learn/agent-layers",{"href":"/learn/agent-layers","className":"","children":"模型、Agent、应用的分层"}],["$","$Lf","/learn/permissions",{"href":"/learn/permissions","className":"","children":"权限分级与人工断点"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],"$L13"]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/learn/tool-calling",{"href":"/learn/tool-calling","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"工具调用"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}],["$","$Lf","/learn/agent-loop",{"href":"/learn/agent-loop","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"Agent 循环"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}],["$","$Lf","/learn/skill-mcp",{"href":"/learn/skill-mcp","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"Skill 与 MCP"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}],["$","$Lf","/learn/multi-agent",{"href":"/learn/multi-agent","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"多 Agent 协作"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

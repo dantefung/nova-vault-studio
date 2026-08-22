@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","model-selection"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","model-selection","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","model-selection","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-model","children":"大模型"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"选型与降级"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #7fd1d8 0%, #cfeef1 38%, #f5fdfd 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"大模型"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"选型与降级"}]]}]}]}],"$L10","$L11"]
+12:T18a1,<h1>选型与降级 | 大模型 | 做产品</h1>
+<h1>选型与降级</h1>
+<p>很多团队的做法是：选一个最强的模型，全站都用它。这样最省事，也最贵、最脆——<strong>贵在大部分请求根本用不上那个档次，脆在它一挂你就全挂。</strong></p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>账单里绝大部分钱，花在了「判断这条消息是不是垃圾信息」这类简单活上</p>
+</li>
+<li>
+<p>模型服务抖一下，整个产品的 AI 功能全线不可用</p>
+</li>
+<li>
+<p>换了个便宜模型，上线后才发现某类请求的效果掉得厉害</p>
+</li>
+</ul>
+<h2>按任务分档</h2>
+<p>第一件事是承认：<strong>你的请求不是同一种。</strong></p>
+<p>「判断这条评论是不是负面」和「根据这份需求文档写一个模块」，难度差着量级，却常常用同一个模型在跑。前者用最便宜的小模型就绰绰有余，后者才需要推理模型。</p>
+<p>分档的做法是给每类任务配一个档位——</p>
+<p>**轻档：**分类、打标、抽字段、格式转换、简单改写。这类任务答案空间小、对错分明，小模型足够，而且更快更便宜。</p>
+<p>**中档：**问答、摘要、内容生成、常规代码补全。主力模型，覆盖大部分场景。</p>
+<p>**重档：**多步推演、复杂代码、方案权衡。用推理模型，但要限制它的占比。</p>
+<p>怎么判断一个请求该走哪档？<strong>多数时候不需要智能路由——按功能入口静态分配就够了。</strong>「垃圾评论检测」这个功能固定走轻档，「写周报」固定走中档。只有当同一个入口的请求复杂度确实差别很大时，才值得做动态判断。</p>
+<p>这件事的收益通常很可观：把量最大的那几个简单功能降到轻档，账单往往能降一大截，而用户完全感觉不到。</p>
+<h2>降级不只是换一个</h2>
+<p>模型服务会挂。会限流、会超时、会返回错误、会某天下线一个版本。<strong>这是常态，不是意外</strong>，产品必须有准备。</p>
+<p>但降级这件事，做得比想象中容易出错。有三个坑。</p>
+<p>**坑一：备用模型从来没真跑过。**配置里写了一个备用，但没人验证过它在你的提示词下表现如何。等真出事切过去，才发现它的输出格式对不上，程序直接崩了。<strong>备用通道必须定期真实跑一遍</strong>，最好放一部分线上流量过去。</p>
+<p><strong>坑二：输出格式不兼容。<strong>这是最常见的。你的程序按主模型的输出格式在解析，切到备用之后格式变了——尤其是要求 JSON 输出的场景，各家的稳定程度差别很大。所以那一层封装里必须做</strong>格式归一化</strong>：不管哪个模型返回什么，出到业务代码那里都是同一个结构。</p>
+<p>**坑三：不知道自己降级了。**降级悄悄发生，没有任何记录，然后有人反馈「今天回答质量怪怪的」，查了半天查不出原因。<strong>每次降级都要打点</strong>，并且要能在监控上看到降级率。</p>
+<p>还有一条产品决策要提前定：**降级之后要不要告诉用户？**如果降级会明显影响质量，含糊地照常输出可能比诚实说明更糟。多数情况下，一句「当前使用备用服务，结果可能不如平时」比让用户自己怀疑要好。</p>
+<p>模型服务会挂、会限流、会下线——这是常态，不是意外</p>
+<p>坑一
+备用从没真跑过
+配置里写了一个备用，
+但没人验证过它的表现
+对策：定期真实跑一遍，
+最好放一部分线上流量过去</p>
+<p>坑二
+输出格式不兼容
+切过去之后格式变了，
+解析代码直接崩
+对策：在封装层做格式归一，
+出到业务代码永远同一结构</p>
+<p>坑三
+不知道自己降级了
+有人说「今天回答怪怪的」，
+查半天查不出原因
+对策：每次降级都打点，
+监控上要看得到降级率</p>
+<p>还有一条产品决策要提前定：降级之后要不要告诉用户
+如果降级会明显影响质量，含糊地照常输出往往比诚实说明更糟——一句「当前使用备用服务」比让用户自己怀疑要好。</p>
+<p>这三个坑有同一个前提条件：<strong>模型调用被封装在你自己的一层里</strong>。分档路由、主备切换、格式归一化、打点监控全都发生在那一层——业务代码里散落着各家 SDK 的话，这一节讲的每件事都会变得极其昂贵。</p>
+<h2>怎么验证没变差</h2>
+<p>换模型、调档位、切备用——每一次都要回答同一个问题：**效果掉了没有？**靠感觉是答不了的。</p>
+<p>方法很朴素：<strong>留一组固定的测试用例。</strong></p>
+<p>20 到 50 条真实请求，覆盖常见情况和几个刁钻的边界。每次要动模型，就用这组跑一遍，和上次的结果并排比。这组用例是你所有模型决策的尺子——选型那一节说的也是同一件事，它是整个环节里回报最高的一次性投入。</p>
+<p>三条实践提醒。</p>
+<p>**一、换模型往往要重调提示词。**不同厂商对同一段提示词的反应差别很大。一轮结果不好，先给它一次针对性调整的机会，再下结论——直接判死刑经常是冤枉的。</p>
+<p>**二、别只看平均值。**平均分持平，可能是「大部分变好了，少数崩得很惨」。要看最差的那几条，那才是用户会投诉的。</p>
+<p>**三、灰度切换。**先放一小部分流量到新模型，观察几天再全量。这比在测试环境里跑一百遍更能发现真问题。</p>
+<p>最后回到一条贯穿的原则：**这些事之所以做得成，前提是模型调用被封装在你自己的一层里。**分档路由、主备切换、格式归一化、打点监控，全都发生在那一层。如果业务代码里散落着各家的 SDK，这一节讲的每一件事都会变得极其昂贵。</p>
+<p>调用一个模型需要什么
+分档和降级都建在那一层封装上，先把它做出来。</p>
+<p>主流模型厂商的差异
+六个选型维度，以及为什么要选两个而不是一个。</p>
+<p>推理模型与普通模型
+重档留给它，但要控制占比。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"大模型"}],[["$","$Lf","/learn/next-token",{"href":"/learn/next-token","className":"","children":"大模型的运作原理"}],["$","$Lf","/learn/call_params",{"href":"/learn/call_params","className":"","children":"learn/call_params.html"}],["$","$Lf","/learn/temperature",{"href":"/learn/temperature","className":"","children":"温度与随机性"}],["$","$Lf","/learn/model_selection",{"href":"/learn/model_selection","className":"","children":"learn/model_selection.html"}],["$","$Lf","/learn/call-params",{"href":"/learn/call-params","className":"","children":"常用调用参数"}],["$","$Lf","/learn/cutoff",{"href":"/learn/cutoff","className":"","children":"知识截止日期"}],["$","$Lf","/learn/hallucination",{"href":"/learn/hallucination","className":"","children":"幻觉产生的原因"}],["$","$Lf","/learn/how-to-call",{"href":"/learn/how-to-call","className":"","children":"调用一个模型需要什么"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],"$L13"]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/learn/next-token",{"href":"/learn/next-token","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"大模型"}]}],["$","h3",null,{"className":"related__name","children":"大模型的运作原理"}],["$","p",null,{"className":"related__why","children":["来自「","大模型","」章节的相关模式"]}]]}],["$","$Lf","/learn/call_params",{"href":"/learn/call_params","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"大模型"}]}],["$","h3",null,{"className":"related__name","children":"learn/call_params.html"}],["$","p",null,{"className":"related__why","children":["来自「","大模型","」章节的相关模式"]}]]}],["$","$Lf","/learn/temperature",{"href":"/learn/temperature","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"大模型"}]}],["$","h3",null,{"className":"related__name","children":"温度与随机性"}],["$","p",null,{"className":"related__why","children":["来自「","大模型","」章节的相关模式"]}]]}],["$","$Lf","/learn/model_selection",{"href":"/learn/model_selection","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"大模型"}]}],["$","h3",null,{"className":"related__name","children":"learn/model_selection.html"}],["$","p",null,{"className":"related__why","children":["来自「","大模型","」章节的相关模式"]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

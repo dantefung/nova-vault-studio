@@ -8,8 +8,10 @@ import type { CardKind } from '@/data/pmaker'
 export function Card({ card }: { card: CardKind }) {
   const cls = ['card']
   if (card.soon) cls.push('card--soon')
+  // URL 去 .html 后缀（CF Pages 静态导出用 file-based routing）
+  const href = card.href ? card.href.replace(/\.html$/, '') : '#'
   return (
-    <a className={cls.join(' ')} href={card.href || '#'}>
+    <a className={cls.join(' ')} href={href}>
       <div className="card__art">
         <span className="card__no">{card.no}</span>
         {card.demo && <span className="card__demo">可交互</span>}

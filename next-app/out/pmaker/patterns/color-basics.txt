@@ -1,0 +1,101 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","patterns","color-basics"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","patterns","d"],{"children":[["slug","color-basics","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","patterns","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","color-basics","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#jiemian","children":"设计界面"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"颜色基础"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #f2b8c0 0%, #fadde1 38%, #fff9fa 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"设计界面"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"颜色基础"}]]}]}]}],"$L10","$L11"]
+12:T103b,<h1>颜色基础 | 设计界面 | 做产品</h1>
+<h1>颜色基础</h1>
+<p>界面里九成的面积是中性色，彩色只用在需要被看见的地方。颜色越省着用，它就越有效。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>页面花花绿绿，但说不清重点在哪</p>
+</li>
+<li>
+<p>想加一个新状态，发现颜色已经不够用了</p>
+</li>
+<li>
+<p>AI 生成的界面全是蓝紫渐变，跟品牌没关系</p>
+</li>
+</ul>
+<h2>三个属性</h2>
+<p>属性是什么在界面里怎么用
+色相红黄蓝，颜色本身用来区分不同类别。同一个页面里色相越少越干净
+明度亮还是暗建立层级的主要手段。同一色相拉出深浅，比换色相安全
+饱和度鲜艳还是灰大面积用低饱和，小面积可以高饱和。反过来会刺眼</p>
+<p>做界面时最常用的是明度：同一个主题色拉出五到九个深浅档，按钮、悬停、背景、边框各用一档，页面就自然协调。</p>
+<h2>四类角色</h2>
+<ul>
+<li>
+<p>**主题色。**一个就够。用在主按钮、选中态、链接、品牌标识上。它出现的地方，就是你希望用户点的地方。</p>
+</li>
+<li>
+<p>**中性色。**从近黑到近白拉一条灰阶，管文字、边框、底色、分隔。界面九成的面积都是它。</p>
+</li>
+<li>
+<p>**语义色。**成功绿、警告黄、错误红。这三个是行业惯例，别为了差异化改掉。</p>
+</li>
+<li>
+<p>**点缀色。**图表、标签分类时才需要。日常界面可以完全不用。</p>
+</li>
+</ul>
+<p>四类加起来控制在五种色相以内。超过之后，用户就无法从颜色里读出意义了——颜色多到一定程度，它就退化成了装饰。</p>
+<p>一个界面里，四类颜色的面积大致是这个比例</p>
+<p>中性色　文字 · 边框 · 底色 · 分隔
+约九成面积
+主题色
+语义色
+点缀</p>
+<p>做界面最常用的其实是明度：同一个主题色拉出五到九档深浅</p>
+<p>按钮、悬停、背景、边框各用一档，页面就自然协调——比换一个色相安全得多。</p>
+<p>四类加起来控制在五种色相以内。超过之后用户就无法从颜色里读出意义，颜色退化成了装饰。
+另外别只靠颜色传递信息——状态除了颜色还要有文字或图标，正文对比度至少 4.5:1。</p>
+<p>选定主题色之后一定要<strong>记下具体色号并拉出深浅档</strong>。只记「蓝色」，下次做另一个页面时你会拿到另一个蓝——这是全站颜色慢慢走样最常见的起点。</p>
+<h2>怎么选主题色</h2>
+<p>方式怎么做
+跟品牌一致有 logo 就取 logo 的主色。这是最省事也最不会错的做法
+跟内容匹配金融偏稳重的蓝，食品偏暖的橙红，环保偏绿
+从参考里取找一个你认可的产品，取它的主色号，再往自己的方向偏一点
+用配色工具生成确定主色号之后，用配色工具生成互补色、类比色，挑一个当辅助色</p>
+<p>选定之后一定要记下具体色号，并且拉出深浅档。只记「蓝色」，下次做另一个页面时会拿到另一个蓝。</p>
+<h2>几个常见问题</h2>
+<ul>
+<li>
+<p>**别只靠颜色传递信息。**红绿色觉障碍的人占比不低。状态除了颜色还要有文字或图标。</p>
+</li>
+<li>
+<p>**对比度要够。**浅灰字配白底看着高级，但很多人读不清。正文对比度至少 4.5:1。</p>
+</li>
+<li>
+<p>**大面积渐变要慎用。**它很容易让页面显得像模板，尤其是蓝紫那一套。要用就压低饱和度，作为背景而不是主角。</p>
+</li>
+<li>
+<p>**暗色模式不是把颜色反过来。**纯黑底配纯白字会晃眼，通常用接近黑的深灰配接近白的浅灰，饱和度也要相应降低。</p>
+</li>
+</ul>
+<h2>接着看</h2>
+<p>一个强调色
+这一篇讲颜色怎么来，那一篇讲怎么克制着用：只留一个彩色，其余全交给中性灰。</p>
+<p>视觉层级从哪来
+颜色是四种手段里最贵的一种。先用位置和留白，颜色留到最后。</p>
+<p>建一份最小设计系统
+选好的颜色要固化成变量，四组变量就能管住整个项目。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"设计界面"}],[["$","$Lf","/patterns/visual-hierarchy",{"href":"/patterns/visual-hierarchy","className":"","children":"视觉层级从哪来"}],["$","$Lf","/patterns/color-basics",{"href":"/patterns/color-basics","className":"is-active","children":"颜色基础"}],["$","$Lf","/patterns/typography-basics",{"href":"/patterns/typography-basics","className":"","children":"排版基础"}],["$","$Lf","/patterns/spacing-scale",{"href":"/patterns/spacing-scale","className":"","children":"一套间距"}],["$","$Lf","/patterns/one-accent",{"href":"/patterns/one-accent","className":"","children":"一个强调色"}],["$","$Lf","/patterns/whitespace-first",{"href":"/patterns/whitespace-first","className":"","children":"留白优先"}],["$","$Lf","/patterns/alignment",{"href":"/patterns/alignment","className":"","children":"对齐轴"}],["$","$Lf","/patterns/components-first",{"href":"/patterns/components-first","className":"","children":"先定组件后拼页"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/patterns/visual-hierarchy",{"href":"/patterns/visual-hierarchy","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计界面"}]}],["$","h3",null,{"className":"related__name","children":"视觉层级从哪来"}],["$","p",null,{"className":"related__why","children":["来自「","设计界面","」章节的相关模式"]}]]}],["$","$Lf","/patterns/typography-basics",{"href":"/patterns/typography-basics","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":"$L13"}],"$L14","$L15"]}],"$L16","$L17"]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计界面"}]
+14:["$","h3",null,{"className":"related__name","children":"排版基础"}]
+15:["$","p",null,{"className":"related__why","children":["来自「","设计界面","」章节的相关模式"]}]
+16:["$","$Lf","/patterns/spacing-scale",{"href":"/patterns/spacing-scale","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计界面"}]}],["$","h3",null,{"className":"related__name","children":"一套间距"}],["$","p",null,{"className":"related__why","children":["来自「","设计界面","」章节的相关模式"]}]]}]
+17:["$","$Lf","/patterns/one-accent",{"href":"/patterns/one-accent","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计界面"}]}],["$","h3",null,{"className":"related__name","children":"一个强调色"}],["$","p",null,{"className":"related__why","children":["来自「","设计界面","」章节的相关模式"]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

@@ -1,0 +1,76 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","open-vs-closed"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","open-vs-closed","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","open-vs-closed","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-model","children":"大模型"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"开源与闭源"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #7fd1d8 0%, #cfeef1 38%, #f5fdfd 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"大模型"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"开源与闭源"}]]}]}]}],"$L10","$L11"]
+12:T16b6,<h1>开源与闭源 | 大模型 | 做产品</h1>
+<h1>开源与闭源</h1>
+<p>「开源模型」这个说法借用了软件行业的词，但含义差得很远。软件开源你能看到全部源代码；模型开源，<strong>你通常只拿到权重</strong>——一堆训练好的数字。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>以为「开源」等于免费，算完自部署的账才发现比调 API 贵</p>
+</li>
+<li>
+<p>下载了权重，却发现许可证不允许你这种商用方式</p>
+</li>
+<li>
+<p>老板说「用开源的，数据安全」，但没人算过要买几张卡</p>
+</li>
+</ul>
+<h2>开的到底是什么</h2>
+<p>一个模型由三部分构成：<strong>训练数据</strong>、<strong>权重</strong>、<strong>训练代码与配方</strong>。</p>
+<p>所谓「开源模型」，绝大多数情况下只公开了中间那一块——权重。训练数据几乎从不公开（涉及版权和商业机密），完整的训练配方多数也不给。</p>
+<p>这意味着：**你能用它，但复现不出它，也搞不清它到底学过什么。**所以业内更准确的叫法是「开放权重」（open-weight），而不是开源。你在训练数据那一节看到的那些偏向和缺口，在开放权重模型上同样存在，而且更难查证。</p>
+<p>相对地，闭源模型连权重都不给，你只能通过 API 调用。你不知道它具体是什么结构、多大参数，厂商换了模型你也未必察觉得到。</p>
+<h2>许可证要看什么</h2>
+<p>「公开」不等于「随便用」。下载之前，让法务或者你自己确认三件事。</p>
+<p>**一、能不能商用。**有些许可证只允许研究用途，商用要单独授权。</p>
+<p>**二、有没有规模限制。**有的许可证写了用户量或收入的门槛，超过就要另外谈授权——这条最容易被忽略，等产品做大了才发现，那时候换模型的成本已经很高了。</p>
+<p>**三、产出物和衍生模型归谁。**你用它微调出来的模型能不能自己发布、能不能闭源，不同许可证规定不一样。</p>
+<p>许可证种类很多，宽松的接近标准开源协议，严格的更像「有条件的免费使用授权」。<strong>别看厂商宣传页上那句「完全开源」，去读许可证原文。</strong></p>
+<h2>自部署的真实账</h2>
+<p>这是最容易算错的地方。很多人把「不用付 API 费」直接等同于「免费」。</p>
+<p>实际要付的是这些：<strong>显卡</strong>（买或租，大模型往往需要多张高端卡）、<strong>电力与机房</strong>、<strong>运维人力</strong>（部署、监控、故障恢复、版本升级）、<strong>并发能力</strong>（要支撑多少人同时用，就要备多少冗余）。</p>
+<p>关键在于，**这些成本大部分是固定的，跟你用不用无关。**API 是用多少付多少，半夜没人用就不花钱；自部署的卡在那放着，闲着也在烧钱。</p>
+<p>所以结论几乎总是：**调用量低的时候，自部署单位成本高得离谱；只有量大到能把固定成本摊薄，才可能划算。**而「量大」的门槛，通常比团队预估的高不少。</p>
+<p>另外还有一笔隐性账：<strong>能力差距</strong>。开放权重模型和头部闭源模型之间通常仍有差距，而且你要自己承担跟进新版本的工作——闭源 API 是厂商升级了你自动受益。</p>
+<p>把「开源 = 省钱」这个等号去掉，再看这张图</p>
+<p>总成本
+调用量 →</p>
+<p>回本点</p>
+<p>调 API：用多少付多少
+自部署：固定成本，闲着也在烧钱</p>
+<p>这一整段里，自部署的
+单位成本高得离谱</p>
+<p>「量大」的门槛通常比团队预估的高不少。先用 API 跑一段时间，拿真实用量算一遍多久回本——算不明白就说明还不到时候。</p>
+<p>显卡、电力机房、运维人力、并发冗余，这些成本<strong>大部分是固定的，跟你用不用无关</strong>。开源真正卖给你的是控制权：数据不出门、模型不会消失、版本你自己定——不是便宜。</p>
+<h2>什么时候才该自部署</h2>
+<p>符合下面任意一条，自部署才真正成立。</p>
+<p>**一、数据绝对不能出门。**医疗、金融、政务、军工这类场景，合规要求压过一切成本考虑。这是自部署最正当、也最常见的理由。</p>
+<p>**二、调用量大到能摊薄固定成本。**先用 API 跑一段时间，拿真实用量算一遍：按现在的量，自部署多久能回本？算不明白就说明还不到时候。</p>
+<p>**三、需要深度定制。**要做大规模微调、改模型结构、或者部署到没有网络的环境，这些闭源 API 做不到。</p>
+<p>**四、必须消除供应商风险。**不接受模型某天被下线、涨价或限流。这条对长周期的 B 端合同尤其重要。</p>
+<p>如果一条都不占，那就用 API。**把「开源=省钱」这个等号去掉，你会做出更清醒的决定。**开源真正卖给你的是控制权：数据不出门、模型不会消失、版本你自己定——这在选择接入渠道时也是同一套逻辑。</p>
+<p>还有个折中方案值得知道：**用云厂商托管的开放权重模型。**模型是开放权重的，但由云平台负责部署运维，你按调用量付费。拿到了模型选择的自由，又不用自己扛运维——对多数团队来说，这是比自建机房更现实的一条路。</p>
+<p>从哪里拿到模型
+五种渠道各自的控制权和责任边界，自部署只是其中一种。</p>
+<p>训练数据从哪来
+权重公开但数据不公开，意味着它学过什么你查不到。</p>
+<p>主流模型厂商的差异
+开放权重阵营和闭源阵营的性格差别，以及怎么放进同一张选型表。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"大模型"}],[["$","$Lf","/learn/next-token",{"href":"/learn/next-token","className":"","children":"大模型的运作原理"}],["$","$Lf","/learn/call_params",{"href":"/learn/call_params","className":"","children":"learn/call_params.html"}],["$","$Lf","/learn/temperature",{"href":"/learn/temperature","className":"","children":"温度与随机性"}],["$","$Lf","/learn/model_selection",{"href":"/learn/model_selection","className":"","children":"learn/model_selection.html"}],["$","$Lf","/learn/call-params",{"href":"/learn/call-params","className":"","children":"常用调用参数"}],["$","$Lf","/learn/cutoff",{"href":"/learn/cutoff","className":"","children":"知识截止日期"}],["$","$Lf","/learn/hallucination",{"href":"/learn/hallucination","className":"","children":"幻觉产生的原因"}],["$","$Lf","/learn/how-to-call",{"href":"/learn/how-to-call","className":"","children":"调用一个模型需要什么"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],"$L13"]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/learn/next-token",{"href":"/learn/next-token","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"大模型"}]}],["$","h3",null,{"className":"related__name","children":"大模型的运作原理"}],["$","p",null,{"className":"related__why","children":["来自「","大模型","」章节的相关模式"]}]]}],["$","$Lf","/learn/call_params",{"href":"/learn/call_params","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"大模型"}]}],["$","h3",null,{"className":"related__name","children":"learn/call_params.html"}],["$","p",null,{"className":"related__why","children":["来自「","大模型","」章节的相关模式"]}]]}],["$","$Lf","/learn/temperature",{"href":"/learn/temperature","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"大模型"}]}],["$","h3",null,{"className":"related__name","children":"温度与随机性"}],["$","p",null,{"className":"related__why","children":["来自「","大模型","」章节的相关模式"]}]]}],["$","$Lf","/learn/model_selection",{"href":"/learn/model_selection","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"大模型"}]}],["$","h3",null,{"className":"related__name","children":"learn/model_selection.html"}],["$","p",null,{"className":"related__why","children":["来自「","大模型","」章节的相关模式"]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

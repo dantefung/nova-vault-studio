@@ -1,0 +1,99 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","patterns","context-budget"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","patterns","d"],{"children":[["slug","context-budget","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","patterns","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","context-budget","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#xiezuo","children":"与 AI 协作"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"上下文预算"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #a5d8c6 0%, #d7ede4 38%, #f7fdfb 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"与 AI 协作"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"上下文预算"}]]}]}]}],"$L10","$L11"]
+12:Tf9b,<h1>上下文预算 | 与 AI 协作 | 做产品</h1>
+<h1>上下文预算</h1>
+<p>把上下文当成有限的预算来分配。多给一份无关内容，就少一分对关键内容的注意力。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>把整个项目丢给它之后，回答反而变含糊了</p>
+</li>
+<li>
+<p>聊得越久，它越容易违反前面定好的规则</p>
+</li>
+<li>
+<p>贴了一大段报错日志，它抓错了重点</p>
+</li>
+</ul>
+<h2>该给什么</h2>
+<p>给什么占比说明
+项目约束少量精简的规矩，长期有效。放在最前面
+当前模块的规格少量数据结构、状态、边界。这一块最值得占位置
+直接相关的文件中等指名要改的那两三个，加上它们依赖的接口定义
+这一次的指令少量放在最后。关键约束在这里重申一遍
+留白三成左右给它推理和输出用。填满了它就没有余地了</p>
+<p>关键约束值得说两遍：一遍在开头的项目规则里，一遍在这一条指令里。这是针对「中间容易被忽略」的直接对策。</p>
+<p>把上下文当成有限的预算来分配</p>
+<p>项目约束
+模块规格
+直接相关的那几个文件
+这次的指令
+留白　约三成
+留白是给它推理和输出用的——填满了它就没有余地了。</p>
+<p>关键约束值得说两遍</p>
+<p>约束
+约束
+中间这一段最容易被忽略
+一遍写在开头的项目规则里，一遍在这条指令里重申——这是针对「中段被忽略」的直接对策。</p>
+<p>这四样别给</p>
+<p>整个仓库</p>
+<p>完整报错日志</p>
+<p>上个话题的历史</p>
+<p>大段示例数据</p>
+<p>有个简单的自查：如果你自己都不确定某段内容这次用不用得上，那多半就不该给。</p>
+<p>重开会话之前，<strong>先让它把这一轮的结论总结成一份可以粘进文件的文字</strong>——这样重开就不等于从零开始。几百行栈信息里有用的通常不到十行，先自己扫一眼再贴。</p>
+<h2>不该给什么</h2>
+<ul>
+<li>
+<p>**整个仓库。**让它自己翻遍所有文件，看起来省事，实际是把噪音塞满了窗口。指名要改哪几个。</p>
+</li>
+<li>
+<p>**完整的报错日志。**先自己扫一眼，把关键的那几行贴过去。几百行栈信息里有用的通常不到十行。</p>
+</li>
+<li>
+<p>**上一个话题的全部历史。**做完一件事就换个会话，别把上一件事的讨论一路带着走。</p>
+</li>
+<li>
+<p>**大段的示例数据。**给两三条代表性的就够，包括一条边界情况。</p>
+</li>
+<li>
+<p>**已经定过又反复推导的东西。**写进文件，让它去读，别让它每次重新想一遍。</p>
+</li>
+</ul>
+<p>有个简单的自查：如果你自己都不确定某段内容这次用不用得上，那多半就不该给。</p>
+<h2>什么时候清空重来</h2>
+<p>信号该做什么
+开始违反前面定好的规则把关键决定写进文件，然后开新会话
+它开始重复之前说过的话说明有效信息被稀释了，重开
+换了一个不相关的任务直接开新会话，不要接着聊
+连续三轮都没改对停下。多半是描述有问题，重新写清楚再开一轮</p>
+<p>重开会话之前，先让它把这一轮的结论总结成一份可以粘进文件的文字。这样重开就不等于从零开始。</p>
+<p>还有一个结构层面的做法：<strong>按功能组织代码目录</strong>。做登录相关的改动只需要读 auth 一个目录，比从每一层各读几个文件省下大量上下文。这个选择在项目开始时几乎不花成本，后期改起来很贵。</p>
+<h2>接着看</h2>
+<p>上下文是怎么回事
+这一篇讲怎么分配，那一篇讲为什么必须分配——长了会失焦，中段最容易丢。</p>
+<p>一次一件
+控制上下文最省事的办法：一个任务一个会话，天然就不会积累噪音。</p>
+<p>约束沉淀
+「写进文件让它去读」的具体做法，以及怎么防止约束文件本身变成噪音。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"与 AI 协作"}],[["$","$Lf","/patterns/spec-before-code",{"href":"/patterns/spec-before-code","className":"","children":"先规格后代码"}],["$","$Lf","/patterns/one-thing-at-a-time",{"href":"/patterns/one-thing-at-a-time","className":"","children":"一次一件"}],["$","$Lf","/patterns/reference-anchor",{"href":"/patterns/reference-anchor","className":"","children":"参考锚定"}],["$","$Lf","/patterns/prototype-to-code",{"href":"/patterns/prototype-to-code","className":"","children":"从原型到代码"}],["$","$Lf","/patterns/ai-can-cannot",{"href":"/patterns/ai-can-cannot","className":"","children":"它会做的和不会做的"}],["$","$Lf","/patterns/context-budget",{"href":"/patterns/context-budget","className":"is-active","children":"上下文预算"}],["$","$Lf","/patterns/rules-distilled",{"href":"/patterns/rules-distilled","className":"","children":"约束沉淀"}],["$","$Lf","/patterns/spec-prompt-rules",{"href":"/patterns/spec-prompt-rules","className":"","children":"规格、提示、约束的分工"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/patterns/spec-before-code",{"href":"/patterns/spec-before-code","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"与 AI 协作"}]}],["$","h3",null,{"className":"related__name","children":"先规格后代码"}],["$","p",null,{"className":"related__why","children":["来自「","与 AI 协作","」章节的相关模式"]}]]}],["$","$Lf","/patterns/one-thing-at-a-time",{"href":"/patterns/one-thing-at-a-time","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"与 AI 协作"}]}],"$L13","$L14"]}],"$L15","$L16"]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","h3",null,{"className":"related__name","children":"一次一件"}]
+14:["$","p",null,{"className":"related__why","children":["来自「","与 AI 协作","」章节的相关模式"]}]
+15:["$","$Lf","/patterns/reference-anchor",{"href":"/patterns/reference-anchor","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"与 AI 协作"}]}],["$","h3",null,{"className":"related__name","children":"参考锚定"}],["$","p",null,{"className":"related__why","children":["来自「","与 AI 协作","」章节的相关模式"]}]]}]
+16:["$","$Lf","/patterns/prototype-to-code",{"href":"/patterns/prototype-to-code","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"与 AI 协作"}]}],["$","h3",null,{"className":"related__name","children":"从原型到代码"}],["$","p",null,{"className":"related__why","children":["来自「","与 AI 协作","」章节的相关模式"]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

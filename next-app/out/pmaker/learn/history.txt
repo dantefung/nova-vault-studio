@@ -1,0 +1,113 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","history"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","history","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","history","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-basics","children":"基础认知"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"AI 发展简史"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #a7ded8 0%, #d9f1ee 38%, #f7fdfc 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"基础认知"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"AI 发展简史"}]]}]}]}],"$L10","$L11"]
+12:T1e1b,<h1>AI 发展简史 | 基础认知 | 做产品</h1>
+<h1>AI 发展简史</h1>
+<p>这段历史不用背年份。真正要看懂的只有一件事：每一代技术，都是因为上一代「还得人来干」的那一段撑不住了。那条线一直在往右移，但从没消失过。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>把今天的生成式 AI 当成一夜之间冒出来的新东西</p>
+</li>
+<li>
+<p>听到「AI 寒冬」，以为这行业曾经彻底停摆过</p>
+</li>
+<li>
+<p>把专家系统、机器学习、深度学习、大模型当成四个并列的产品来比较</p>
+</li>
+</ul>
+<h2>一条一直在移的线</h2>
+<p>每个时代的 AI，都由两部分拼成：<strong>人来干的那一段</strong>，和<strong>机器自己学的那一段</strong>。技术进步的全部内容，就是这条分界线往右挪。</p>
+<p>挪动的动力也一直是同一个：人来干的那一段，干不完了。规则写不完，就让机器从数据里学；特征设计不完，就让网络自己提取；每个任务单独训一个模型也训不完，就干脆训一个底座，靠提示词改用途。</p>
+<p>这个视角比记年份有用得多。因为它同时回答了一个更实际的问题：<strong>每一次挪动，值钱的技能也跟着换了一批。</strong></p>
+<h2>四次转移</h2>
+<p>**第一段：人把规则写进去。**早期研究者相信，只要把知识表示成符号，再写足够多的推理规则，机器就能表现出智能。专家系统在边界清楚的专业领域确实管用——医疗诊断、设备排障，这些地方规则有限、专家说得清。</p>
+<p>它撞的墙叫<strong>知识获取瓶颈</strong>：现实里的例外太多，规则越写越多，改一条就牵动一片。维护成本随规模爆炸。所谓「AI 寒冬」，指的是投入和期望回落，不是研究停了——底下的工作一直在做。</p>
+<p>**第二段：让机器从样本里学。**机器学习不再要求人写出每条判断规则，改成给一堆带答案的数据，让算法自己找输入和答案之间的统计关系。瓶颈从「写规则」挪到了「准备数据、设计特征」。</p>
+<p>这一段里人干的活最琐碎：要判断一封邮件是不是垃圾邮件，得由人想出「包含多少感叹号」「发件人是否在通讯录」这类特征，一个个喂给算法。特征设计得好不好，直接决定效果。这门手艺当年很值钱。</p>
+<p>**第三段：让网络自己学表示。**深度学习用多层神经网络，从原始数据里逐层自己提取特征——人不用再想「该看哪些特征」了。2012 年 AlexNet 在大规模图像分类上的结果，让「GPU + 大数据 + 深层网络」这个组合成为主流。</p>
+<p>但它还有个没解决的问题：**每个任务都得单独训一个模型。**做图像分类训一个，做翻译训一个，做情感分析再训一个，每个都要自己的标注数据。任务是无限的，模型训不完。</p>
+<p>**第四段：先训一个底座，再改用途。**2017 年的 Transformer 让大规模语言训练变得容易并行，规模化才真正跑起来。做法变成：先用海量文本训一个通用底座，学到语言本身的规律；然后同一个模型，靠换提示词就能干不同的活——不用重新训练。</p>
+<p>今天的大模型就是这条路走到规模化之后的结果。人干的那一段被压缩到了最短，但它还在，只是内容变了：<strong>定义任务、准备上下文、验收结果。</strong></p>
+<p>人干的那一段
+撞的墙
+当年值钱的技能</p>
+<p>① 写规则
+专家系统
+把知识写成符号和规则
+例外写不完
+知识工程</p>
+<p>② 学样本
+机器学习
+准备数据、设计特征
+特征想不完
+特征工程</p>
+<p>③ 学表示
+深度学习
+备数据、调网络、堆算力
+每个任务单独训一个
+调参与训练工程</p>
+<p>④ 训底座
+大模型
+定义任务、准备上下文、验收
+缺可验证的反馈
+把任务说清楚的人</p>
+<p>每次挪动都换掉一批值钱的技能。这一轮，那条线正好移到了你脚下。</p>
+<p>把四段并排看，能看清一件比年份重要得多的事：<strong>瓶颈从来没消失，只是换了位置</strong>。今天缺的高质量上下文、可验证反馈、可控行动边界，都不是模型能力问题，是产品定义问题。</p>
+<h2>六个节点</h2>
+<p>如果需要一条时间线放进材料里，这六个够用了。</p>
+<p>时间发生了什么真正被改变的事
+1950图灵提出「模仿游戏」把「机器能否思考」这个哲学问题，改写成一个可观察、可讨论的行为问题。
+1956达特茅斯研讨会「人工智能」成为一个正式的研究领域，有了名字和边界。
+1970s – 80s专家系统兴起，随后降温证明了窄领域规则确实有价值，也暴露出知识获取和维护的天花板。
+2012AlexNet数据、GPU 与深层网络的组合，在感知任务上建立压倒性优势。
+2016 – 2017AlphaGo 与 Transformer前者展示复杂决策能力，后者给大模型铺好了可并行扩展的底座。
+2022 起对话式大模型普及自然语言变成通用交互层。AI 从「一个单点能力」变成「进入工作流」。</p>
+<p>这些节点标记的不是「智能等级」，而是工程方法和产品入口发生了变化。资料基准：2026 年 8 月，历史节点以原始论文与研究机构公开资料为准。</p>
+<h2>对做产品的三个提醒</h2>
+<p>**一、能力进步和可靠性进步不是一回事。**每一轮浪潮都是先出现亮眼的演示，隔一段时间才慢慢补上评估、流程和安全工程。你今天看到的惊艳 demo，离能上线通常还差这一整段。判断一个 AI 功能能不能做，别看演示，看它在哪个成熟度档位上。</p>
+<p>**二、旧范式不会消失，只会各就各位。**规则仍然最适合权限、计费、风控这类必须百分百确定的地方；统计模型仍然最适合稳定的分类任务；大模型适合处理开放的自然语言。成熟产品往往是三者混用——把该确定的地方交给规则，别什么都丢给模型。</p>
+<p>**三、每次扩张都会换来一个新瓶颈。**规则时代缺知识，机器学习时代缺标注，深度学习时代缺算力，而基础模型时代缺的是：<strong>高质量的上下文、可验证的反馈、可控的行动边界</strong>。</p>
+<p>这三样恰好都不是模型能力问题，是产品定义问题。这就是为什么今天最值钱的不是会调参的人，是能把任务说清楚、把验收标准定明白的人。那条红线移到了你脚下。</p>
+<h2>资料来源</h2>
+<ul>
+<li>
+<p>Alan Turing，Computing Machinery and Intelligence（1950）——「模仿游戏」的原始论文</p>
+</li>
+<li>
+<p>Dartmouth College：1956 年研讨会与「人工智能」这一名称的由来</p>
+</li>
+<li>
+<p>Krizhevsky、Sutskever、Hinton，ImageNet Classification with Deep Convolutional Neural Networks（2012）——AlexNet</p>
+</li>
+<li>
+<p>Vaswani 等，Attention Is All You Need（2017）——Transformer</p>
+</li>
+<li>
+<p>Google DeepMind：AlphaGo 的技术说明与比赛记录</p>
+</li>
+</ul>
+<p>资料基准：2026 年 8 月。时间线上的节点以上述一手资料为准；对「哪一代解决了什么、留下了什么」的归纳是本文的观点，不是原文结论。</p>
+<p>AI 目前到了哪一步
+沿着这条线走到今天，哪些能力已经能放心用，哪些还不稳。</p>
+<p>AI 行业的四层
+技术范式最后是怎么变成今天这套产业分工的。</p>
+<p>大模型的运作原理
+把 Transformer 之后的那套核心机制继续拆开看。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"基础认知"}],[["$","$Lf","/learn/glossary",{"href":"/learn/glossary","className":"","children":"AI 名词地图"}],["$","$Lf","/learn/history",{"href":"/learn/history","className":"is-active","children":"AI 发展简史"}],["$","$Lf","/learn/current-state",{"href":"/learn/current-state","className":"","children":"AI 目前到了哪一步"}],["$","$Lf","/learn/industry-layers",{"href":"/learn/industry-layers","className":"","children":"AI 行业的四层"}],["$","$Lf","/learn/model-access",{"href":"/learn/model-access","className":"","children":"从哪里拿到模型"}],["$","$Lf","/learn/model-providers",{"href":"/learn/model-providers","className":"","children":"主流模型厂商的差异"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],"$L13"]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/learn/glossary",{"href":"/learn/glossary","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"基础认知"}]}],["$","h3",null,{"className":"related__name","children":"AI 名词地图"}],["$","p",null,{"className":"related__why","children":["来自「","基础认知","」章节的相关模式"]}]]}],["$","$Lf","/learn/current-state",{"href":"/learn/current-state","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"基础认知"}]}],["$","h3",null,{"className":"related__name","children":"AI 目前到了哪一步"}],["$","p",null,{"className":"related__why","children":["来自「","基础认知","」章节的相关模式"]}]]}],["$","$Lf","/learn/industry-layers",{"href":"/learn/industry-layers","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"基础认知"}]}],["$","h3",null,{"className":"related__name","children":"AI 行业的四层"}],["$","p",null,{"className":"related__why","children":["来自「","基础认知","」章节的相关模式"]}]]}],["$","$Lf","/learn/model-access",{"href":"/learn/model-access","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"基础认知"}]}],["$","h3",null,{"className":"related__name","children":"从哪里拿到模型"}],["$","p",null,{"className":"related__why","children":["来自「","基础认知","」章节的相关模式"]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

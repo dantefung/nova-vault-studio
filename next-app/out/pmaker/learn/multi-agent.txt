@@ -1,0 +1,92 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","multi-agent"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","multi-agent","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","multi-agent","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-agent","children":"Agent 与 Skill"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"多 Agent 协作"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #a9b0ee 0%, #dcdff8 38%, #f9f9ff 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"Agent 与 Skill"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"多 Agent 协作"}]]}]}]}],"$L10","$L11"]
+12:T1442,<h1>多 Agent 协作 | Agent 与 Skill | 做产品</h1>
+<h1>多 Agent 协作</h1>
+<p>「我们用多个 Agent 分工协作」听起来很先进。但多 Agent 不是一种更高级的模式，<strong>是一笔有明确代价的账</strong>——拆对了解决问题，拆错了只是把一个难题拆成四个难题。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>看到演示里的「多 Agent 系统」很炫，想直接照搬</p>
+</li>
+<li>
+<p>单 Agent 做一件事，上下文动不动就爆</p>
+</li>
+<li>
+<p>拆成多个之后，调试时根本说不清是哪个环节出的错</p>
+</li>
+</ul>
+<h2>为什么要拆</h2>
+<p>拆，是为了解决单 Agent 的<strong>三个具体毛病</strong>，缺一不可：</p>
+<p>**一、上下文装不下。**单 Agent 的全部记忆都在上下文窗口里。任务太长，中间必然被挤掉。拆成多个，每个只管一小段，各用各的窗口，问题绕开。</p>
+<p>**二、一件事的「角色」互相干扰。**既要点子多又要严谨抠细节，一个模型同一轮里两头兼顾会互相拖累。拆开后，一个负责发散、一个负责收敛，各带各的角色提示。</p>
+<p>**三、需要并行或隔离。**几件独立的事同时做；或者某一步用到的权限不该让整个流程共享。</p>
+<p>反过来想：<strong>如果单 Agent 没在这三处遇到问题，拆就只是纯成本。</strong></p>
+<h2>三种拆法</h2>
+<p>**主从。**一个「主管」Agent 负责理解目标、拆任务、派活，几个「执行」Agent 各干一块，结果回报给主管汇总决策。适合任务可以明显切块、且需要统一把控的场景。代价是主管成了新的瓶颈和单点。</p>
+<p>**流水线。**严格按顺序：A 的输出原样交给 B，B 的输出交给 C。每步角色单一、可单独评测、好排查。代价是慢——整条链的时间等于各步之和，且一步卡住全链卡住。</p>
+<p>**对等。**几个 Agent 各做各的独立任务，最后汇总比较。适合「多方案生成后挑最优」这类场景，天然能并行。代价是汇总这一步谁来判、按什么标准判，往往没想清楚。</p>
+<p>三种模式可以混用。关键是先想清楚**「最终谁对结果负责」**——没有明确的负责人，多 Agent 就是一群人在一个没主持人的会议室里开会。</p>
+<p>三种拆法可以混用，但每种都有自己那笔账</p>
+<p>主从</p>
+<p>主管</p>
+<p>执行
+执行
+执行</p>
+<p>流水线</p>
+<p>A
+B
+C</p>
+<p>对等</p>
+<p>方案 A
+方案 B
+方案 C</p>
+<p>汇总</p>
+<p>任务可切块
+每步角色单一，好评测
+多方案里挑最优</p>
+<p>主管成了新的单点
+总时延是各步之和
+谁来判、按什么判</p>
+<p>拆之前先确认这一条
+「最终谁对结果负责」——没有明确的负责人，多 Agent 就是一群人在没主持人的会议室里开会。
+也别一次拆成五个：先把最吃窗口的那一步拎出来，验证收益再继续。</p>
+<p>三种拓扑解决的是不同的痛：主从治「任务要统一把控」，流水线治「角色互相干扰」，对等治「需要并行」。<strong>单 Agent 没在这三处出问题，拆就只是纯成本。</strong></p>
+<h2>成本涨在哪</h2>
+<p>拆的账，主要在这四处：</p>
+<p>**一、上下文来回传。**主管要把任务背景复制给执行者，执行者要把结果传回给主管。这些内容反复进出计费的输入。拆成 N 个，总 Token 往往比单 Agent 高出数倍。</p>
+<p>**二、决策谁来下。**每个 Agent 都只看到局部信息，谁有权做全局判断？判断错了，算谁的？这层要想清楚，否则就是甩锅。</p>
+<p>**三、失败归因变难。**最终结果错了，是任务理解错了、某个执行者做错了、还是传递过程中丢了信息？排查面从一个环节变成一条链。</p>
+<p>**四、延迟叠加。**串行链路的总时延是各步之和，用户等的就是总和。交互式场景里，多 Agent 常常比单 Agent 明显更慢。</p>
+<h2>该不该拆</h2>
+<p>给一个可操作的判断顺序：</p>
+<p>**第一步，先优化单 Agent。**换更好的提示词分层、把上下文压缩做好、把工具说明写清楚。<strong>多数「单 Agent 不够用」其实只是单 Agent 没做好。</strong></p>
+<p>**第二步，确认拆能解决具体问题。**是窗口爆了？是角色冲突？是必须并行？能说清「不拆就做不成」，才具备拆的前提。</p>
+<p>**第三步，先拆最痛的那一步。**别一次拆成五个。把最吃窗口、最需要隔离的那一步拎出来独立成 Agent，其余保持原样，验证收益再继续。</p>
+<p>最后一条纪律：**每隔一段时间问自己「现在能拆回去吗」。**工具、模型、提示词都在进步。今天必须靠多 Agent 才能绕开的限制，半年后也许单 Agent 就够用了。多 Agent 是手段，不是目的。</p>
+<p>Agent 循环
+多 Agent 里的每一个，底下都是一个循环。</p>
+<p>上下文窗口
+拆最主要就是拆窗口——先搞清楚窗口为什么不够。</p>
+<p>提示词的分层
+每个 Agent 的「角色」要靠分层提示词固定住。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"Agent 与 Skill"}],[["$","$Lf","/learn/tool-calling",{"href":"/learn/tool-calling","className":"","children":"工具调用"}],["$","$Lf","/learn/agent-loop",{"href":"/learn/agent-loop","className":"","children":"Agent 循环"}],["$","$Lf","/learn/skill-mcp",{"href":"/learn/skill-mcp","className":"","children":"Skill 与 MCP"}],["$","$Lf","/learn/multi-agent",{"href":"/learn/multi-agent","className":"is-active","children":"多 Agent 协作"}],["$","$Lf","/learn/agent-drift",{"href":"/learn/agent-drift","className":"","children":"Agent 跑偏的三种形态"}],["$","$Lf","/learn/agent-eval",{"href":"/learn/agent-eval","className":"","children":"Agent 评测"}],["$","$Lf","/learn/agent-layers",{"href":"/learn/agent-layers","className":"","children":"模型、Agent、应用的分层"}],["$","$Lf","/learn/permissions",{"href":"/learn/permissions","className":"","children":"权限分级与人工断点"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":["$L13","$L14","$L15","$L16"]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","$Lf","/learn/tool-calling",{"href":"/learn/tool-calling","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"工具调用"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}]
+14:["$","$Lf","/learn/agent-loop",{"href":"/learn/agent-loop","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"Agent 循环"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}]
+15:["$","$Lf","/learn/skill-mcp",{"href":"/learn/skill-mcp","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"Skill 与 MCP"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}]
+16:["$","$Lf","/learn/agent-drift",{"href":"/learn/agent-drift","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"Agent 与 Skill"}]}],["$","h3",null,{"className":"related__name","children":"Agent 跑偏的三种形态"}],["$","p",null,{"className":"related__why","children":["来自「","Agent 与 Skill","」章节的相关模式"]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

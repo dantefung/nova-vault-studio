@@ -1,0 +1,107 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","basics","product-types"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","basics","d"],{"children":[["slug","product-types","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","basics","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","product-types","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#basics","children":"基础"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"产品的类型与方向"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #f8d98a 0%, #fdedc4 38%, #fffdf6 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"基础"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"产品的类型与方向"}]]}]}]}],"$L10","$L11"]
+12:T10ff,<h1>产品的类型与方向 | 基础 | 做产品</h1>
+<h1>产品的类型与方向</h1>
+<p>产品方法论只有一套，但套在不同类型的产品上，结论经常是相反的。分不清类型，学再多方法也会用错地方。</p>
+<p>读完你能回答</p>
+<ul>
+<li>
+<p>为什么 C 端讲的「减少一步」，到了 B 端反而要加一步</p>
+</li>
+<li>
+<p>平台、工具、内容这三种形态，各自最难的地方在哪</p>
+</li>
+<li>
+<p>你自己想做的东西属于哪一类，该照哪套标准判断</p>
+</li>
+</ul>
+<p>最常见的误用是把 C 端的经验直接搬到 B 端。C 端的用户可以随时走人，所以每多一步都是流失；B 端的用户走不了，但他的每一步操作背后有一条真实的业务流程和一份责任，少一步反而出事。</p>
+<h2>C 端和 B 端</h2>
+<p>差别不在界面，在「谁决定用不用」和「用错了谁承担」。</p>
+<p>看的是
+C 端
+B 端</p>
+<p>谁做决定用的人自己，一秒钟决定老板买、员工用，两拨人
+能不能走随时能走，所以每一步都算流失走不了，所以怕的是出错不是麻烦
+判断依据数据。留存、转化、时长流程。跑不跑得通，对不对得上账
+功能怎么加能砍就砍，简单是竞争力该有的必须有，缺一个环节就没法交付
+最难的地方让人第一次愿意打开把一个组织的现实流程搞清楚
+出错的代价用户下次不来了财务对不上账，有人要担责</p>
+<p>还有一类 G 端，服务对象是政府，形态接近 B 端，但可靠性和安全性的权重更高，定制内容也更多。</p>
+<p>同一个功能，两边的做法能差出一个「确认」按钮。</p>
+<p>笔记应用</p>
+<p>×</p>
+<p>已删除
+撤销</p>
+<p><strong>C 端：删了再说</strong>给一次撤销的机会</p>
+<p>合同管理</p>
+<p>确认作废这份合同？
+编号 HT-2024-0391，金额 ¥286,000**作废后会同步给财务和客户，无法恢复</p>
+<p>输入合同编号确认</p>
+<p>确认作废
+取消</p>
+<p>B 端：先拦一道**不可逆的动作要有代价</p>
+<p>左边这种做法放到合同系统里是事故，右边这种做法放到笔记应用里没人会用。同一条「可撤销优于确认」的原则，边界就在动作可不可逆、后果影响几个人。</p>
+<h2>四种形态</h2>
+<p>除了服务对象，还有一层是产品的形态。它决定了你的增长从哪来，也决定了最难啃的是哪一块。</p>
+<p>形态怎么赚钱最难的地方例子</p>
+<p>工具
+订阅、买断、增值功能
+做完一件事就走，很难留住人
+剪辑软件、笔记、设计工具</p>
+<p>内容
+广告、会员、带货
+内容供给要持续，断一天就掉
+视频、播客、资讯</p>
+<p>平台
+抽佣、流量分发
+两边都要有人，先有鸡还是先有蛋
+电商、外卖、招聘</p>
+<p>社区
+广告、电商、会员
+氛围一旦垮掉基本救不回来
+论坛、兴趣社区</p>
+<p>工具产品用完即走，所以要么做成高频刚需，要么想办法沉淀数据把人留住；平台的冷启动几乎全是靠一边补贴另一边硬撑出来的。</p>
+<h2>你该做哪种</h2>
+<p>一个人用 AI 做产品，这四种形态的难度差距很大。</p>
+<p>一个人能扛
+需要一支团队和很多钱</p>
+<p>工具
+做出来就能用</p>
+<p>内容
+要持续生产</p>
+<p>社区
+要有人气才成立</p>
+<p>平台
+两边都要冷启动</p>
+<p>独立开发者绝大多数落在工具这一档，原因不是野心小，是只有工具形态能靠「做出来」本身成立。平台和社区做出来只是开始，真正的成本在后面。</p>
+<p>选方向的时候，把这三个问题连起来问一遍：服务的是个人还是组织、形态是工具内容平台还是社区、以及你能不能一个人撑到有第一批用户。三个答案自洽，方向就基本对了。</p>
+<h2>接着看</h2>
+<p>互联网行业地图
+类型讲的是产品长什么样，行业讲的是这类产品现在处在什么阶段。同一个类型在不同行业，机会大小差很多。</p>
+<p>常见的商业模式
+四种形态各自的赚钱方式，在那一篇里展开。形态基本决定了商业模式的选项范围。</p>
+<p>一屏一件事
+这条原则在 C 端和 B 端的执行强度不同：C 端能砍就砍，B 端的「一件事」通常是一整条业务流程。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"基础"}],[["$","$Lf","/basics/what-pm",{"href":"/basics/what-pm","className":"","children":"basics/what-pm.html"}],["$","$Lf","/basics/product-workflow",{"href":"/basics/product-workflow","className":"","children":"产品的工作流程"}],["$","$Lf","/basics/glossary",{"href":"/basics/glossary","className":"","children":"术语表"}],["$","$Lf","/basics/business-models",{"href":"/basics/business-models","className":"","children":"常见的商业模式"}],["$","$Lf","/basics/industry-map",{"href":"/basics/industry-map","className":"","children":"互联网行业地图"}],["$","$Lf","/basics/product-types",{"href":"/basics/product-types","className":"is-active","children":"产品的类型与方向"}],["$","$Lf","/basics/roadmap",{"href":"/basics/roadmap","className":"","children":"进阶路线与书单"}],["$","$Lf","/basics/thinking-models",{"href":"/basics/thinking-models","className":"","children":"产品思维模型"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/basics/what-pm",{"href":"/basics/what-pm","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"基础"}]}],["$","h3",null,{"className":"related__name","children":"basics/what-pm.html"}],["$","p",null,{"className":"related__why","children":["来自「","基础","」章节的相关模式"]}]]}],["$","$Lf","/basics/product-workflow",{"href":"/basics/product-workflow","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":"$L13"}],"$L14","$L15"]}],"$L16","$L17"]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"基础"}]
+14:["$","h3",null,{"className":"related__name","children":"产品的工作流程"}]
+15:["$","p",null,{"className":"related__why","children":["来自「","基础","」章节的相关模式"]}]
+16:["$","$Lf","/basics/glossary",{"href":"/basics/glossary","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"基础"}]}],["$","h3",null,{"className":"related__name","children":"术语表"}],["$","p",null,{"className":"related__why","children":["来自「","基础","」章节的相关模式"]}]]}]
+17:["$","$Lf","/basics/business-models",{"href":"/basics/business-models","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"基础"}]}],["$","h3",null,{"className":"related__name","children":"常见的商业模式"}],["$","p",null,{"className":"related__why","children":["来自「","基础","」章节的相关模式"]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

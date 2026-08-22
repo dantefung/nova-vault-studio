@@ -1,0 +1,142 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","patterns","four-states"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","patterns","d"],{"children":[["slug","four-states","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","patterns","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","four-states","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#jiaohu","children":"设计交互"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"四态齐全"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #cdbce9 0%, #e6dcf5 38%, #fbf9ff 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"设计交互"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"四态齐全"}]]}]}]}],"$L10","$L11"]
+12:T1afe,<h1>四态齐全 | 设计交互 | 做产品</h1>
+<h1>四态齐全</h1>
+<p>一块界面在真实环境里会出现四种样子，AI 通常只做出其中一种。剩下三种要么一片空白，要么直接把报错摊在用户面前。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>自己演示一切正常，同事一登录就是白屏，因为他账号里没数据</p>
+</li>
+<li>
+<p>网慢的时候页面先塌下去，数据回来又撑开，正要点的按钮跑掉了</p>
+</li>
+<li>
+<p>接口一挂整页变成 Uncaught TypeError，用户只能刷新碰运气</p>
+</li>
+</ul>
+<p>原因不在模型。你说做一个订单列表，它脑子里的画面就是一屏排列整齐的订单，因为你给它的描述里也只有这一种。空、加载、出错这三种情况在需求文档里从来不出现，只在真实用户手上出现：新注册的人第一次打开、地铁里信号断了、后端刚好在发版。</p>
+<p>补齐的成本通常是几十行代码。真正的门槛是在写需求的时候就把它们当成需求的一部分，而不是等 bug 报上来再补。</p>
+<h2>怎么判断</h2>
+<p>任何一次取数据，结果只会落在四个格子里。照着这张图问一遍，就知道少写了哪个。</p>
+<p>发起请求</p>
+<p>还没回来
+失败了
+成功，但没数据
+成功，有数据</p>
+<p>加载态</p>
+<p>错误态</p>
+<p>空态</p>
+<p>正常态</p>
+<p>还要多久，页面会不会跳
+怎么回事，我能做什么
+为什么是空的，
+下一步该干什么
+最重要的那条看得到吗</p>
+<p>空态还要再分一层：是这个人本来就没有数据，还是筛选条件把数据筛没了。前者引导他创建，后者提示放宽条件并给一键清除。</p>
+<h2>设计考量</h2>
+<ul>
+<li></li>
+</ul>
+<p><strong>空态是介绍产品的机会，别只写暂无数据。</strong>
+用户第一次进来看到的多半就是空态。这块地方应该说清楚这里将来会有什么、以及怎么让它有，一句解释加一个主按钮。四个字的暂无数据把最好的教学位置浪费掉了。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>加载用骨架屏，别用居中转圈。</strong>
+骨架屏提前占住内容将来的位置，数据到达时页面不跳动；转圈会让整块区域先塌再撑开。超过一秒的等待才需要显示加载态，更短的反而闪一下更难受。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>错误文案按「说明当前状况 + 引导措施」写。</strong>
+先讲发生了什么（没连上服务器），再讲他能做什么（重试或检查网络）。这个公式套在任何一条提示上都成立。重试按钮放在文案旁边，别让人去刷新整页。</p>
+<p>提示用什么形式，取决于这件事严不严重。三档从强到弱，越级使用的代价是用户很快学会闭眼点确定。</p>
+<p>弹窗 · 强
+必须立刻处理的错误</p>
+<p>全局横幅 · 中
+状态变化，不必立刻行动</p>
+<p>气泡 · 弱
+可看可不看的信息</p>
+<p>强度分档参考了提示语设计的常见做法。判断标准很简单：这件事如果用户不处理，会不会出问题。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>局部失败就局部提示，别让整页塌掉。</strong>
+侧边栏的推荐模块挂了，不该导致整个页面变成错误页。状态的粒度要跟数据源的粒度对齐，每个独立请求各自管好自己那块区域。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>四种状态的容器高度尽量接近。</strong>
+切换时高度剧烈变化会导致页面跳动，用户正要点的按钮会跑掉。给容器一个 min-height，是成本最低的体验改善。</p>
+<ul>
+<li></li>
+</ul>
+<p><strong>错误文案里不要用感叹号，句尾也不加标点。</strong>
+感叹号会把一次网络波动渲染成事故。等待类文案统一用省略号收尾（加载中…），这是中文界面里比较通行的写法。</p>
+<h2>给 AI 的话</h2>
+<p>放进组件需求，或者直接沉淀到项目的 <code>CLAUDE.md</code>，之后每次生成数据组件都会默认带上四态。</p>
+<p>复制
+PROMPT · 组件需求
+凡是涉及异步数据的组件，必须同时实现四种状态，缺一不可：</p>
+<ol>
+<li>正常态：有数据时的正常渲染。</li>
+<li>空态：数据为空数组时。区分两种来源——</li>
+</ol>
+<ul>
+<li>用户还没有任何数据：给一句说明 + 一个主行动按钮</li>
+<li>筛选/搜索后无结果：提示放宽条件 + 一键清除筛选</li>
+</ul>
+<ol start="3">
+<li>加载态：使用骨架屏，形状和数量贴近真实内容，不要用居中 spinner。</li>
+<li>错误态：按「说明当前状况 + 引导措施」写文案，配一个「重试」按钮，
+不要暴露状态码或堆栈。</li>
+</ol>
+<p>文案规范：</p>
+<ul>
+<li>不使用感叹号；句尾除疑问句外不加标点。</li>
+<li>等待类文案统一以「…」结尾，例如「加载中…」。</li>
+<li>提示强度分三档：必须立刻处理用弹窗，状态变化用全局横幅，
+可看可不看用气泡。不要越级。</li>
+</ul>
+<p>其他约束：</p>
+<ul>
+<li>四种状态复用同一个外层容器，设置 min-height 避免切换时页面跳动。</li>
+<li>错误只影响当前组件，不要向上冒泡导致整页变成错误页。</li>
+<li>把状态做成组件的一个 prop（'ok' | 'empty' | 'loading' | 'error'），
+这样我可以在不改后端的情况下逐个预览。</li>
+</ul>
+<p>先告诉我这四种状态分别打算怎么呈现，我确认后你再写代码。</p>
+<p>最后一句很关键。让它先描述方案，你能在几秒内看出空态是不是又写成了四个字的暂无数据，比读完代码再返工快得多。</p>
+<h2>相关模式</h2>
+<p>首次体验
+空态是首次体验的主要载体。新用户第一次打开时看到的几乎全是空态，这两个模式在同一块屏幕上碰头：一个管没有数据时显示什么，一个管没有数据时该引导他做什么。</p>
+<p>操作反馈
+加载态和错误态本质上都是反馈。区别是四态管的是页面进来时的数据，操作反馈管的是用户点击之后的结果，两者用同一套视觉语言才不会显得是两个产品。</p>
+<p>先规格后代码
+四态最容易在直接让 AI 写的时候漏掉。先要一份状态清单再动手，是把这个模式落地的具体手段。</p>
+<p>真实数据压测
+四态写完了不代表对。用零条数据和断网各跑一遍，是验证这个模式是否真的生效的唯一方式。</p>
+<h2>真实案例</h2>
+<p>还没有任何笔记
+你写的东西会出现在这里，随时可以搜索和整理。</p>
+<p>新建第一篇</p>
+<p>Notion 的空数据库会给出几个模板选项和一个创建入口，用这块地方教用户接下来做什么。</p>
+<p>Linear 的加载骨架复刻了真实内容的行高和分栏，数据到达时几乎察觉不到切换，页面不发生跳动。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"设计交互"}],[["$","$Lf","/patterns/interaction-basics",{"href":"/patterns/interaction-basics","className":"","children":"交互管的是行为"}],["$","$Lf","/patterns/common-components",{"href":"/patterns/common-components","className":"","children":"常用组件有哪些"}],["$","$Lf","/patterns/four-states",{"href":"/patterns/four-states","className":"is-active","children":"四态齐全"}],["$","$Lf","/patterns/feedback",{"href":"/patterns/feedback","className":"","children":"操作必有反馈"}],["$","$Lf","/patterns/form-restraint",{"href":"/patterns/form-restraint","className":"","children":"表单克制"}],["$","$Lf","/patterns/first-run",{"href":"/patterns/first-run","className":"","children":"首次体验设计"}],["$","$Lf","/patterns/hint-types",{"href":"/patterns/hint-types","className":"","children":"提示的五种形式"}],["$","$Lf","/patterns/permission-as-view",{"href":"/patterns/permission-as-view","className":"","children":"权限即视图"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],"$L13"]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/patterns/interaction-basics",{"href":"/patterns/interaction-basics","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计交互"}]}],["$","h3",null,{"className":"related__name","children":"交互管的是行为"}],["$","p",null,{"className":"related__why","children":["来自「","设计交互","」章节的相关模式"]}]]}],["$","$Lf","/patterns/common-components",{"href":"/patterns/common-components","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计交互"}]}],["$","h3",null,{"className":"related__name","children":"常用组件有哪些"}],["$","p",null,{"className":"related__why","children":["来自「","设计交互","」章节的相关模式"]}]]}],["$","$Lf","/patterns/feedback",{"href":"/patterns/feedback","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计交互"}]}],["$","h3",null,{"className":"related__name","children":"操作必有反馈"}],["$","p",null,{"className":"related__why","children":["来自「","设计交互","」章节的相关模式"]}]]}],["$","$Lf","/patterns/form-restraint",{"href":"/patterns/form-restraint","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"设计交互"}]}],["$","h3",null,{"className":"related__name","children":"表单克制"}],["$","p",null,{"className":"related__why","children":["来自「","设计交互","」章节的相关模式"]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

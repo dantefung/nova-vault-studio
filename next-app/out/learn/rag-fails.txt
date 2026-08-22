@@ -1,0 +1,86 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","rag-fails"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","rag-fails","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","rag-fails","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-context","children":"上下文与 RAG"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"RAG 答不准的三个环节"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #93c5f0 0%, #d3e6f9 38%, #f7fbff 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"上下文与 RAG"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"RAG 答不准的三个环节"}]]}]}]}],"$L10","$L11"]
+12:T1855,<h1>RAG 答不准的三个环节 | 上下文与 RAG | 做产品</h1>
+<h1>RAG 答不准的三个环节</h1>
+<p>知识库上线后，一定会收到「它答错了」的反馈。这时候最常见的反应是去改提示词——<strong>而大多数时候，问题根本不在那里。</strong></p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>反复调提示词，效果就是上不去</p>
+</li>
+<li>
+<p>同一个问题，有时答对有时答错，说不清规律</p>
+</li>
+<li>
+<p>业务方说「这个文档里明明写了」，但它就是答不出来</p>
+</li>
+</ul>
+<h2>按顺序往前查</h2>
+<p>RAG 是一条串行链路，任何一环断了，最终输出都是错的。所以排查要<strong>从前往后</strong>，而不是从最容易改的地方开始。</p>
+<p>拿到一个答错的案例，按这四个问题依次问下去：</p>
+<p>**① 库里到底有没有这条信息？**去向量库里直接搜一下相关关键词，把原始片段调出来看。<strong>你会惊讶于有多少「答错」其实是文档里压根没写</strong>，或者写在了一份没被收录的文件里。这一步能筛掉相当一部分工单。</p>
+<p>顺带确认：那句话是完整存在于某一段里的吗？还是被切分拆到了两段？</p>
+<p>**② 它有没有被召回？**把这次检索召回的全部片段打印出来（这需要你事先做了日志，见下文）。正确那段在不在里面？</p>
+<p>**③ 它排在第几？**如果召回了但排在第 18 名，而你只取前 5，那它等于没召回。这是重排的问题。</p>
+<p>**④ 材料给对了，回答还错？**把召回的那几段手动贴进一个对话框，把问题也贴上，看模型答得对不对。<strong>只有这一步答错了，才轮到改提示词。</strong></p>
+<p>这个顺序很重要。<strong>前三环出问题时改提示词，纯属白费力气</strong>——模型手上根本没有正确材料，你把提示词写出花来它也答不对。</p>
+<h2>每一环怎么修</h2>
+<p><strong>① 库里没有 → 这是内容问题，不是技术问题。</strong></p>
+<p>要么文档确实没写（该去补文档），要么这份文档没被收录（该去补数据源），要么它以图片、扫描件形式存在而没被提取出文字。</p>
+<p>这一环的修复往往不在工程侧。<strong>很多知识库项目的真正瓶颈，是没人愿意先把文档整理干净</strong>——这件事该在项目启动时就说清楚，而不是上线后才发现。</p>
+<p><strong>② 召回不到 → 检索策略问题。</strong></p>
+<p>几个常见原因和对策：用户用的词和文档用的词差太远（加关键词检索这一路）；问的是订单号型号这类精确串（向量对此无能，必须靠关键词）；切分时丢了标题导致片段没有主题信息（入库时拼上章节路径）；召回数量太少（先调大，宁可多召再靠重排筛）。</p>
+<p><strong>③ 排名靠后 → 加重排，或者调重排。</strong></p>
+<p>如果你还没有重排这一步，<strong>这通常是投入产出比最高的一次改进</strong>。如果已经有了，检查是不是被目录页、反向条款这类高相似度的干扰项挤掉了。</p>
+<p><strong>④ 材料对但答错 → 这才是提示词和模型的事。</strong></p>
+<p>常见情况：没说清「只能基于材料回答」，它掺了自己的知识；没给「不知道」的出路，材料不足时它编了；材料太多太长，关键那段埋在中间被忽略；或者问题确实需要跨段推理，超出了模型能力。</p>
+<h2>建一套评测</h2>
+<p>上面那套排查是针对单个案例的。要系统性改进，得有可重复的度量。</p>
+<p>最小可用的做法：<strong>准备一组「问题 + 正确文档段」的配对</strong>，30 到 50 组，覆盖常见问法和几个刁钻的边界情况。</p>
+<p>然后分两层看指标：</p>
+<p><strong>检索层</strong>——正确那段有没有进召回？排第几？这一层不需要调用模型，跑起来又快又便宜，<strong>可以高频跑</strong>。调切分、换向量模型、改召回数量，都用它来判断。</p>
+<p><strong>回答层</strong>——最终答案对不对。这一层要人工判或者用模型辅助判，慢且贵，改动大的时候跑。</p>
+<p>分开看的价值在于：**检索层的分数上不去，回答层怎么都好不了。**先把检索层做到位，是最有效的顺序。</p>
+<p>最后，两件必须在上线前做好的工程准备：</p>
+<p>**一、把每次检索的召回结果和排名记进日志。**没有这个，上面那套排查一步都走不了——你连当时召回了什么都不知道。</p>
+<p>**二、让回答带出处，并且出处能点开看原文。**这样业务方自己就能判断引用对不对，问题反馈会从「它答错了」变成「它引用了第 3 段，但应该看第 5 段」——<strong>后者是可以直接行动的信息。</strong></p>
+<p>要系统性改进，指标得分成两层看</p>
+<p>检索层
+正确那段有没有进召回？排第几？
+不用调用模型，又快又便宜
+调切分、换向量模型、改召回数量都用它判断</p>
+<p>可以高频跑</p>
+<p>回答层
+最终答案对不对？
+人工判，或用模型辅助判再抽检
+慢且贵，改动大的时候才跑
+低频</p>
+<p>检索层的分数上不去，回答层怎么都好不了——先把检索层做到位，是最有效的顺序。</p>
+<p>上线前必须做好的两件工程准备
+① 把每次检索的召回结果和排名记进日志——没有它，排查一步都走不了</p>
+<p>② 让回答带出处且能点开原文：反馈会从「它答错了」变成「它引用了第 3 段，但应该看第 5 段」</p>
+<p>后一句才是这张图真正的收益：**「它答错了」没法行动，「它引用了第 3 段但应该看第 5 段」可以直接行动。**业务方自己就能判断引用对不对，你也省掉了大半排查时间。</p>
+<p>切分：RAG 成败的第一步
+第一环出问题的概率最高，也最容易被忽略。</p>
+<p>相似不等于相关
+召回和重排这两环的根本难点。</p>
+<p>RAG：知识库的三步
+回到整条链路，看每一环各自的位置。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"上下文与 RAG"}],[["$","$Lf","/learn/context-window",{"href":"/learn/context-window","className":"","children":"上下文窗口"}],["$","$Lf","/learn/embedding",{"href":"/learn/embedding","className":"","children":"向量与语义相似度"}],["$","$Lf","/learn/compaction",{"href":"/learn/compaction","className":"","children":"对话压缩"}],["$","$Lf","/learn/context-rot",{"href":"/learn/context-rot","className":"","children":"上下文中段丢失"}],["$","$Lf","/learn/finetune-vs-rag",{"href":"/learn/finetune-vs-rag","className":"","children":"微调还是 RAG"}],["$","$Lf","/learn/long-memory",{"href":"/learn/long-memory","className":"","children":"长期记忆的实现方式"}],["$","$Lf","/learn/rag-chunking",{"href":"/learn/rag-chunking","className":"","children":"切分：RAG 成败的第一步"}],["$","$Lf","/learn/rag-fails",{"href":"/learn/rag-fails","className":"is-active","children":"RAG 答不准的三个环节"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],"$L13"]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/learn/context-window",{"href":"/learn/context-window","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"上下文与 RAG"}]}],["$","h3",null,{"className":"related__name","children":"上下文窗口"}],["$","p",null,{"className":"related__why","children":["来自「","上下文与 RAG","」章节的相关模式"]}]]}],["$","$Lf","/learn/embedding",{"href":"/learn/embedding","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"上下文与 RAG"}]}],["$","h3",null,{"className":"related__name","children":"向量与语义相似度"}],["$","p",null,{"className":"related__why","children":["来自「","上下文与 RAG","」章节的相关模式"]}]]}],["$","$Lf","/learn/compaction",{"href":"/learn/compaction","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"上下文与 RAG"}]}],["$","h3",null,{"className":"related__name","children":"对话压缩"}],["$","p",null,{"className":"related__why","children":["来自「","上下文与 RAG","」章节的相关模式"]}]]}],["$","$Lf","/learn/context-rot",{"href":"/learn/context-rot","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"上下文与 RAG"}]}],["$","h3",null,{"className":"related__name","children":"上下文中段丢失"}],["$","p",null,{"className":"related__why","children":["来自「","上下文与 RAG","」章节的相关模式"]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

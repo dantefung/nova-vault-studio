@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","human-boundary"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","human-boundary","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","human-boundary","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-cost","children":"成本与安全"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"人机边界"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #e2b0d8 0%, #f3dcee 38%, #fdf8fc 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"成本与安全"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"人机边界"}]]}]}]}],"$L10","$L11"]
+12:T12de,<h1>人机边界 | 成本与安全 | 做产品</h1>
+<h1>人机边界</h1>
+<p>AI 的能力让人眼花缭乱，但有一条线始终没动过：**AI 能补全实现，补不上判断。**判断这一段，永远是你的活。</p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>「让 AI 决定」成了开会偷懒的方式</p>
+</li>
+<li>
+<p>决策依赖 AI 的输出，出问题时发现没人担责</p>
+</li>
+<li>
+<p>把「效率最大化」当成了唯一目标——那是 AI 的目标，不一定是你的</p>
+</li>
+</ul>
+<h2>判断与实现</h2>
+<p>AI 在「实现」这一侧近乎无限：补全代码、生成文档、批量整理、翻译改写、快速出初稿。它快、不累、不限量，而且不会因为重复而厌倦——这是它无可替代的价值。</p>
+<p>AI 在「判断」这一侧几乎为零：它没有立场，没有价值观，没有「为什么做这件事」的动机，也<strong>无法承担后果</strong>。它只会输出「在给定输入下最顺的文字」。目标、取舍、责任——它一样都给不了你。</p>
+<p>所以分工的原则很简单：**让 AI 做它擅长的（实现），你来掌握它不擅长的（判断）。**判断给出方向和标准，AI 负责用最高效率把它变成现实。</p>
+<h2>四件不该交的事</h2>
+<p><strong>一、目标定夺。</strong>「我们到底要做成什么」——这个答案来自你的处境、资源和取舍，不来自任何概率模型。AI 可以帮你分析选项，但<strong>选定目标是你的责任</strong>。把一个连目标都交出去的项目，做完会发现不是自己想要的。</p>
+<p><strong>二、价值取舍。</strong>「这个功能值得做吗？」「涨价的代价是什么？」——涉及利益分配、长期 vs 短期、对谁负责。这些是价值判断，<strong>没有「最优解」，只有「你选的那个」</strong>。AI 给不出，给了也不该由它定。</p>
+<p>**三、责任承担。**决策错了，谁负责？答案永远是你。AI 不会替你的团队背锅，法律也不会认为「是 AI 决定的」。<strong>把决策交出去，等于把自己的责任交给了没有担责能力的东西</strong>——这不是分担，是甩锅。</p>
+<p>**四、信任建立。**用户信不信任你的产品，取决于你一次次兑现承诺。<strong>信任只能由人来建立</strong>，AI 的稳定性可以辅助，但它不是信任的主体。信任的最后一道确认，永远是人做的。</p>
+<p>这四件不是「现在还不行」，是性质上给不了</p>
+<p>目标定夺
+「我们到底要做成什么」
+答案来自你的处境、资源和取舍，
+不来自任何概率模型</p>
+<p>价值取舍
+「这个功能值得做吗」
+没有「最优解」，只有「你选的那个」
+它给不出，给了也不该由它定</p>
+<p>责任承担
+决策错了，谁负责
+法律不会认为「是 AI 决定的」——
+交出去不是分担，是甩锅</p>
+<p>信任建立
+用户信不信任你的产品
+取决于你一次次兑现承诺，
+AI 的稳定性只是辅助，不是主体</p>
+<p>它替你省下的是「做到」的时间，不是「决定」的责任。</p>
+<p>四件事有同一个根源：**它没有立场、没有价值观、没有「为什么做这件事」的动机，也无法承担后果。**判断这一段永远是你自己的活——这不是限制，这正是你还在这里的原因。</p>
+<h2>怎么分工</h2>
+<p>把这条线画成工作习惯：</p>
+<p><strong>一、先自己定方向和标准，再交给 AI 实现。</strong>「帮我写周报」不如「按这三点组织：进展、阻塞、下周计划，用三句话讲清每点」。方向越明确，AI 的输出越有用。提示词的四部件在这里体现——你在提供判断，它在完成实现。</p>
+<p><strong>二、用 AI 的方案，别用 AI 的决定。</strong>「给三个方案，各列出成本和风险，给出你的倾向」——注意，「给出倾向」只是让你比较时省事，<strong>选哪个仍是你拍板</strong>。三问判断法在这里用得上。</p>
+<p>**三、AI 负责「第一版」，你负责「最后一关」。**它出初稿，你做取舍、定稿、对外。它把效率最大化，你把质量负责到底。三个核实动作是你作为人的守门姿势。</p>
+<p>最后，记住这句：**AI 是你的同事，不是你的老板，也不是你的替罪羊。**它替你省下的是「做到」的时间，不是「决定」的责任。判断这一段，永远是你自己的活——这不是限制，这正是你还在这里的原因。</p>
+<p>什么能交给 AI
+用三问判断法，把边界落到具体任务上。</p>
+<p>核实 AI 回答的三个动作
+判断之前，先学会核验。</p>
+<p>Agent 评测
+系统层面的边界：哪些环节该留人，靠评测来验证。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"成本与安全"}],[["$","$Lf","/learn/what-to-trust",{"href":"/learn/what-to-trust","className":"","children":"什么能交给 AI"}],["$","$Lf","/learn/ai-code-vulns",{"href":"/learn/ai-code-vulns","className":"","children":"AI 代码的常见漏洞"}],["$","$Lf","/learn/billing",{"href":"/learn/billing","className":"","children":"一次调用的计费构成"}],["$","$Lf","/learn/cache-savings",{"href":"/learn/cache-savings","className":"","children":"缓存命中与省钱"}],["$","$Lf","/learn/data-usage",{"href":"/learn/data-usage","className":"","children":"对话数据的去向"}],["$","$Lf","/learn/human-boundary",{"href":"/learn/human-boundary","className":"is-active","children":"人机边界"}],["$","$Lf","/learn/image-cost",{"href":"/learn/image-cost","className":"","children":"生图为什么贵几十倍"}],["$","$Lf","/learn/prompt-injection",{"href":"/learn/prompt-injection","className":"","children":"提示注入"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/learn/what-to-trust",{"href":"/learn/what-to-trust","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"成本与安全"}]}],["$","h3",null,{"className":"related__name","children":"什么能交给 AI"}],"$L13"]}],"$L14","$L15","$L16"]}]]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","p",null,{"className":"related__why","children":["来自「","成本与安全","」章节的相关模式"]}]
+14:["$","$Lf","/learn/ai-code-vulns",{"href":"/learn/ai-code-vulns","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"成本与安全"}]}],["$","h3",null,{"className":"related__name","children":"AI 代码的常见漏洞"}],["$","p",null,{"className":"related__why","children":["来自「","成本与安全","」章节的相关模式"]}]]}]
+15:["$","$Lf","/learn/billing",{"href":"/learn/billing","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"成本与安全"}]}],["$","h3",null,{"className":"related__name","children":"一次调用的计费构成"}],["$","p",null,{"className":"related__why","children":["来自「","成本与安全","」章节的相关模式"]}]]}]
+16:["$","$Lf","/learn/cache-savings",{"href":"/learn/cache-savings","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"成本与安全"}]}],["$","h3",null,{"className":"related__name","children":"缓存命中与省钱"}],["$","p",null,{"className":"related__why","children":["来自「","成本与安全","」章节的相关模式"]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"

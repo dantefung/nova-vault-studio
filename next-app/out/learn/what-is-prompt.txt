@@ -1,0 +1,80 @@
+1:"$Sreact.fragment"
+2:I[9766,[],""]
+3:I[8924,[],""]
+5:I[4431,[],"OutletBoundary"]
+7:I[5278,[],"AsyncMetadataOutlet"]
+9:I[4431,[],"ViewportBoundary"]
+b:I[4431,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[7150,[],""]
+:HL["/_next/static/css/92a4519b82739911.css","style"]
+0:{"P":null,"b":"R81jfnBUPR2YkW8tOIx9b","p":"","c":["","pmaker","learn","what-is-prompt"],"i":false,"f":[[["",{"children":["pmaker",{"children":[["cat","learn","d"],{"children":[["slug","what-is-prompt","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/92a4519b82739911.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","data-theme":"pmaker","children":[["$","head",null,{"children":[["$","meta",null,{"charSet":"utf-8"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["pmaker",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["cat","learn","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","what-is-prompt","d"],["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+f:I[2619,["794","static/chunks/app/pmaker/%5Bcat%5D/%5Bslug%5D/page-4af5c0336c9801bf.js"],""]
+4:[["$","header",null,{"className":"topbar","children":["$","div",null,{"className":"topbar__inner","children":[["$","a",null,{"href":"#top","className":"wordmark","children":["$","img",null,{"src":"/pmaker-assets/logo.png","alt":"做产品 PMaker","className":"wordmark__img"}]}],["$","nav",null,{"className":"topnav","aria-label":"主导航","children":[["$","a",null,{"href":"#top","children":"首页"}],["$","a",null,{"href":"#basics","children":"基础"}]]}],["$","div",null,{"className":"lang-toggle","role":"group","aria-label":"语言切换","children":[["$","a",null,{"className":"lang-toggle__opt","href":"#","aria-current":"true","lang":"zh","children":"中"}],["$","a",null,{"className":"lang-toggle__opt","href":"#","lang":"en","children":"EN"}]]}],["$","details",null,{"className":"creator-profile","children":[["$","summary",null,{"className":"creator-profile__trigger","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘","className":"creator-profile__avatar"}],["$","span",null,{"className":"creator-profile__name","children":"空格的键盘"}],["$","svg",null,{"className":"creator-profile__chevron","viewBox":"0 0 24 24","aria-hidden":"true","children":["$","path",null,{"d":"m6 9 6 6 6-6"}]}]]}],["$","div",null,{"className":"creator-profile__panel","children":[["$","div",null,{"className":"creator-profile__intro","children":[["$","img",null,{"src":"/pmaker-assets/avatar.jpg","alt":"空格的键盘"}],["$","span",null,{"children":[["$","strong",null,{"children":"空格的键盘"}],["$","small",null,{"children":"产品经理 · AI Builder"}]]}]]}],["$","div",null,{"className":"creator-profile__links","children":[["$","a",null,{"className":"creator-profile__link","href":"https://xhslink.com/m/7IKqVTqRKp3","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"小"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"小红书"}],["$","small",null,{"children":"AI 与产品笔记"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://web.okjike.com/u/695ACB1F-CBA8-4896-B105-4FE7981E4300","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"即"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"即刻"}],["$","small",null,{"children":"日常想法与动态"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://b23.tv/USChDUV","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"B"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"B 站"}],["$","small",null,{"children":"AI 实践视频"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://www.zhihu.com/people/wang-xiao-ye-22-95","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"知"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"知乎"}],["$","small",null,{"children":"产品方法与回答"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}],["$","a",null,{"className":"creator-profile__link","href":"https://mp.weixin.qq.com/s/SPOH_g4SXSxXA1e3ozBBYQ","target":"_blank","rel":"noreferrer","children":[["$","span",null,{"className":"creator-profile__platform-icon","children":"公"}],["$","span",null,{"className":"creator-profile__platform-copy","children":[["$","strong",null,{"children":"公众号"}],["$","small",null,{"children":"空格的键盘"}]]}],["$","span",null,{"className":"creator-profile__arrow","children":"↗"}]]}]]}]]}]]}]]}]}],["$","nav",null,{"className":"crumb","children":[["$","$Lf",null,{"href":"/#top","children":"PMaker"}],["$","span",null,{"children":"›"}],[["$","$Lf",null,{"href":"/#ai-prompt","children":"提示词工程"}],["$","span",null,{"children":"›"}]],["$","span",null,{"className":"crumb__here","children":"提示词不是咒语"}]]}],["$","section",null,{"className":"stage","children":["$","div",null,{"className":"stage__inner","style":{"background":"radial-gradient(120% 130% at 6% 0%, #86cbe6 0%, #d1e9f4 38%, #f6fcfe 100%)"},"children":["$","div",null,{"style":{"textAlign":"center","maxWidth":720},"children":[["$","div",null,{"style":{"fontSize":12,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":12},"children":"提示词工程"}],["$","h1",null,{"style":{"fontFamily":"var(--serif)","fontSize":"40px","lineHeight":1.4,"letterSpacing":"0.01em","fontWeight":400,"margin":0,"color":"var(--ink)"},"children":"提示词不是咒语"}]]}]}]}],"$L10","$L11"]
+12:T176d,<h1>提示词不是咒语 | 提示词工程 | 做产品</h1>
+<h1>提示词不是咒语</h1>
+<p>网上流传着各种「万能提示词模板」「提示词秘籍」，把它说得像某种咒语——念对了就灵。其实机制朴素得多：<strong>你说的每一句话，都在缩小它可能写出的东西的范围。</strong></p>
+<p>你会遇到的现象</p>
+<ul>
+<li>
+<p>同事发来一段「超好用的提示词」，你抄过来用，效果平平</p>
+</li>
+<li>
+<p>你觉得自己说得挺清楚，它给的东西却完全不是那回事</p>
+</li>
+<li>
+<p>你在提示词里加了「请认真思考」「这很重要」，感觉没什么用</p>
+</li>
+</ul>
+<h2>它在收窄范围</h2>
+<p>回到运作原理：模型每一步都在算「下一个词最可能是什么」。这个「最可能」，是相对于它已经看到的全部内容而言的。</p>
+<p>所以当你只说「写篇文案」，它面对的可能性几乎是无限的——写给谁？什么产品？多长？什么语气？这些你都没说，但它必须往下写，于是它只能<strong>按训练语料里最常见的样子来选</strong>。结果就是一段四平八稳、谁看了都没感觉的通用文案。</p>
+<p>你每补一个条件，范围就窄一截。补上「给已经用了三个月的老用户看」，它就排除掉所有面向新用户的写法；再补上「不超过一百字、不要感叹号」，剩下的可能性就已经很接近你要的了。</p>
+<p>这就是那张图的意思。<strong>提示词工程不是找到某个神奇句式，是系统地把该说的都说清楚。</strong></p>
+<p>横条是「它可能写出的东西」的范围</p>
+<p>「写篇文案」</p>
+<p>写给谁？什么产品？多长？什么语气？——它只能按语料里最常见的样子选</p>
+<p>＋ 给用了三个月的老用户</p>
+<p>排除掉所有面向新用户的写法</p>
+<p>＋ 不超过一百字</p>
+<p>长度定了，结构也就定了大半</p>
+<p>＋ 不要感叹号、不要营销腔</p>
+<p>剩下的已经很接近你要的了</p>
+<p>为什么「咒语」不管用</p>
+<p>「请认真思考」「这很重要」</p>
+<p>没有提供新信息，一寸都没收窄</p>
+<p>提示词工程不是找到某个神奇句式，是<strong>系统地把该说的都说清楚</strong>。这也解释了为什么别人的「万能提示词」抄过来不好用——那段话收窄的是他们的范围，不是你的。</p>
+<h2>当成需求文档来写</h2>
+<p>有个类比很好用：<strong>把模型当成一个能力很强、但完全不了解你们公司的新同事。</strong></p>
+<p>他很聪明，学得快，什么领域都懂一点。但他不知道你们的产品叫什么、用户是谁、上次那个方案为什么被否了、你们的语气偏好是什么。你交代任务时省略的每一条背景，他都得自己猜。</p>
+<p>你会怎么给这样一个新同事派活？你会说清楚：这是给谁的、要达成什么、有哪些限制、什么样算做好了。<strong>这就是提示词该有的样子。</strong></p>
+<p>这个类比还能解释一件事：为什么别人的「万能提示词」抄过来往往不好用。因为那段提示词里塞满了他们的背景和约束，那些恰好不是你的。模板可以借结构，借不了内容。</p>
+<h2>三个常见误解</h2>
+<p><strong>误解一：有一句咒语能大幅提升效果。</strong></p>
+<p>像「请认真思考」「这对我很重要」这类话，效果通常很有限。原因不难理解：这些话没有提供任何新信息，没有收窄任何范围。真正有效的是具体条件——「按这个格式」「参考这个例子」「不要出现这几个词」。</p>
+<p>唯一有点例外的是引导它先推演再作答（「先列出步骤，再给结论」），这个确实有用，但原因不是咒语，是多写就是多算。</p>
+<p><strong>误解二：说得越长越好。</strong></p>
+<p>不对。有用的是信息密度，不是字数。塞一堆不相关的背景，反而会稀释关键指令，还会让成本上升。更麻烦的是，内容一多，关键那句容易被埋在中间——而中段恰恰是最容易被忽略的位置。</p>
+<p><strong>误解三：它理解了我的意思。</strong></p>
+<p>它没有「理解」，它在做统计上的延续。这个区别在顺利的时候看不出来，在出错的时候特别明显：**它不会像人一样，在觉得任务描述有歧义时停下来问你。**它会挑一个解释，然后自信地一路做下去。</p>
+<p>所以歧义的代价全部由你承担。这也是下一节要讲的：把该说的部件补齐。</p>
+<h2>从哪一句开始改</h2>
+<p>如果你现在手上就有一段效果不好的提示词，按这个顺序检查，比重写一遍有效。</p>
+<p>**第一，把你脑子里的默认假设找出来。**你写的时候心里想着「当然是给 B 端客户看的」「当然是中文」「当然不能提竞品」——这些「当然」，模型一个都不知道。逐条写进去。</p>
+<p>**第二，加上一句「不要什么」。**正面描述往往不够，反面清单收窄得更快。「不要用感叹号」「不要写成营销腔」「不要编造数据」，一句能顶三句正面描述。</p>
+<p>**第三，给一个例子。**如果你能拿出一个「像这样就对了」的样本，它的效果通常胜过你写三段形容词——这一条单独有一节。</p>
+<p><strong>第四，说清楚什么算做完了。</strong>「输出三条，每条不超过 20 字，用编号列出」比「简明扼要地总结一下」有用得多。</p>
+<p>做完这四步再看效果。多数「模型不行」的情况，在这一步就解决了。</p>
+<p>提示词的四个部件
+把「该说清楚」变成一份可以逐条对照的清单。</p>
+<p>大模型的运作原理
+为什么「收窄范围」这个说法比「它听懂了」更准确。</p>
+<p>三段式提示
+把这套写法用到「让 AI 帮你做产品」这个具体场景上。</p>
+10:["$","main",null,{"className":"doc","children":[["$","nav",null,{"className":"secnav","children":["$","div",null,{"className":"secnav__list","children":[["$","div",null,{"style":{"fontSize":11,"letterSpacing":"0.12em","color":"var(--ink-faint)","textTransform":"uppercase","marginBottom":4,"fontWeight":700},"children":"提示词工程"}],[["$","$Lf","/learn/what-is-prompt",{"href":"/learn/what-is-prompt","className":"is-active","children":"提示词不是咒语"}],["$","$Lf","/learn/few-shot",{"href":"/learn/few-shot","className":"","children":"给例子比讲道理管用"}],["$","$Lf","/learn/output-format",{"href":"/learn/output-format","className":"","children":"控制输出格式"}],["$","$Lf","/learn/prompt-iterate",{"href":"/learn/prompt-iterate","className":"","children":"提示词怎么迭代"}],["$","$Lf","/learn/prompt-assets",{"href":"/learn/prompt-assets","className":"","children":"提示词的沉淀与版本"}],["$","$Lf","/learn/prompt-markdown",{"href":"/learn/prompt-markdown","className":"","children":"为什么用 Markdown 写提示词"}],["$","$Lf","/learn/prompt-parts",{"href":"/learn/prompt-parts","className":"","children":"提示词的四个部件"}],["$","$Lf","/learn/prompt-roles",{"href":"/learn/prompt-roles","className":"","children":"系统提示与用户提示"}]]]}]}],["$","article",null,{"className":"prose","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$12"}}]}],"$L13"]}]
+11:["$","footer",null,{"className":"foot","children":[["$","span",null,{"children":"做产品 PMaker · 学习产品思维，做出真实产品"}],["$","span",null,{"children":"内容整理自实践与公开资料"}]]}]
+13:["$","section",null,{"className":"related","style":{"marginTop":80},"children":[["$","$Lf","/learn/few-shot",{"href":"/learn/few-shot","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"提示词工程"}]}],["$","h3",null,{"className":"related__name","children":"给例子比讲道理管用"}],["$","p",null,{"className":"related__why","children":["来自「","提示词工程","」章节的相关模式"]}]]}],["$","$Lf","/learn/output-format",{"href":"/learn/output-format","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"提示词工程"}]}],["$","h3",null,{"className":"related__name","children":"控制输出格式"}],["$","p",null,{"className":"related__why","children":["来自「","提示词工程","」章节的相关模式"]}]]}],["$","$Lf","/learn/prompt-iterate",{"href":"/learn/prompt-iterate","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"提示词工程"}]}],["$","h3",null,{"className":"related__name","children":"提示词怎么迭代"}],["$","p",null,{"className":"related__why","children":["来自「","提示词工程","」章节的相关模式"]}]]}],["$","$Lf","/learn/prompt-assets",{"href":"/learn/prompt-assets","className":"related__item","children":[["$","div",null,{"className":"related__art","aria-hidden":"true","children":["$","div",null,{"style":{"height":"100%","display":"grid","placeItems":"center","color":"rgba(22,21,26,.4)","fontSize":13,"fontFamily":"var(--serif)"},"children":"提示词工程"}]}],["$","h3",null,{"className":"related__name","children":"提示词的沉淀与版本"}],["$","p",null,{"className":"related__why","children":["来自「","提示词工程","」章节的相关模式"]}]]}]]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"做产品 PMaker | 学习产品思维，做出真实产品"}],["$","meta","1",{"name":"description","content":"AI 让更多人能把想法做成产品。做得越快，越要想清楚做什么、怎么做、做完之后怎么改。"}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"
