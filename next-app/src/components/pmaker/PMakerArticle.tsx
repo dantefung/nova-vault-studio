@@ -1,6 +1,6 @@
 // src/components/pmaker/PMakerArticle.tsx
 // PMaker 详情页视觉壳：crumbs + stage + doc + secnav + prose + related
-// 内容来自 docs/md/ 真实文章（通过 article-loader 加载）
+// 内容来自 docs/md/pmaker-detail/（build-time 静态导入）
 
 import Link from 'next/link'
 import MarkdownIt from 'markdown-it'
@@ -8,7 +8,6 @@ import { TopBar } from './TopBar'
 import { Foot } from './Foot'
 import { CATS } from '@/data/pmaker'
 import { GRADIENTS } from '@/data/pmaker'
-import { resolvePMaker } from '@/data/pmaker-mapping'
 import { PMAKER_MAPPING } from '@/data/pmaker-mapping'
 
 const md = new MarkdownIt({ html: true, linkify: true, typographer: false })
@@ -21,19 +20,21 @@ interface Article {
 }
 
 interface Props {
-  pmakerHref: string   // PMaker 风格 href，如 'learn/glossary.html'
+  pmakerHref: string
   article: Article | null
 }
 
-// 找同 cat 的所有 PMaker href（用于侧边 secnav 和底部相关推荐）
-function getSiblingHrefs(cat: string, currentHref: string) {
-  return Object.entries(PMAKER_MAPPING)
-    .filter(([_, m]) => m.cat === cat && m.src)
-    .map(([href, m]) => ({ href, ...m }))
-    .filter((_, i, arr) => i < 8)
+function stripHtml(s: string): string {
+  return s.replace(/\.html$/, '')
 }
 
-// 找同 cat 的 4 个相邻 article（用于底部 .related）
+function getSiblingHrefs(cat: string, currentHref: string) {
+  return Object.entries(PMAKER_MAPPING)
+    .filter(([_, m]) => m.cat === cat)
+    .map(([href, m]) => ({ href, ...m }))
+    .slice(0, 8)
+}
+
 function getRelatedArticles(cat: string, currentHref: string) {
   const siblings = getSiblingHrefs(cat, currentHref)
   return siblings
@@ -42,14 +43,13 @@ function getRelatedArticles(cat: string, currentHref: string) {
     .map((s) => {
       const cat = CATS[s.cat]
       return {
-        href: '/' + s.href,
+        href: '/' + stripHtml(s.href),
         name: getCardTitle(s.href) || s.href,
         catName: cat?.name || '',
       }
     })
 }
 
-// 从 PMaker 145 张卡里查 title
 function getCardTitle(href: string): string | null {
   for (const cid in CATS) {
     const cat = CATS[cid]
@@ -65,19 +65,17 @@ function getCardTitle(href: string): string | null {
 }
 
 export function PMakerArticle({ pmakerHref, article }: Props) {
-  const mapping = resolvePMaker(pmakerHref)
+  const mapping = PMAKER_MAPPING[pmakerHref]
   const cat = mapping?.cat || 'basics'
   const cardTitle = getCardTitle(pmakerHref) || article?.title || '未命名文章'
   const catInfo = CATS[cat]
   const stageBg = GRADIENTS[cat]?.g || '#f4f3f1'
   const related = mapping ? getRelatedArticles(mapping.cat, pmakerHref) : []
 
-  // markdown 内容
   const html = article ? md.render(article.content) : ''
 
-  // secnav 列表（同 cat 的 PMaker href）
   const navItems = mapping ? getSiblingHrefs(mapping.cat, pmakerHref).map((s) => ({
-    href: '/' + s.href,
+    href: '/' + stripHtml(s.href),
     name: getCardTitle(s.href) || s.href,
     active: s.href === pmakerHref,
   })) : []
@@ -100,7 +98,6 @@ export function PMakerArticle({ pmakerHref, article }: Props) {
 
       <section className="stage">
         <div className="stage__inner" style={{ background: stageBg }}>
-          {/* 头图：PMaker 用对应的 cat 渐变色 + 序号/分类名 */}
           <div style={{ textAlign: 'center', maxWidth: 720 }}>
             <div style={{ fontSize: 12, letterSpacing: '0.12em', color: 'var(--ink-faint)', textTransform: 'uppercase', marginBottom: 12 }}>
               {catInfo?.name || cat}
@@ -145,11 +142,6 @@ export function PMakerArticle({ pmakerHref, article }: Props) {
 
         {article ? (
           <article className="prose">
-            {/* lede：取第一段当开篇加粗 */}
-            {(() => {
-              const firstP = article.content.split('\n\n').find((p) => p.trim() && !p.startsWith('#') && !p.startsWith('!'))
-              return firstP ? <p className="lede">{firstP.replace(/^#+\s*/, '').replace(/[*_`>#-]/g, '').slice(0, 200)}</p> : null
-            })()}
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </article>
         ) : (
@@ -157,15 +149,11 @@ export function PMakerArticle({ pmakerHref, article }: Props) {
             <div className="symptoms">
               <div className="symptoms__label">状态</div>
               <ul>
-                <li>该文章暂未适配 PMaker 视觉壳的内容映射</li>
-                <li>欢迎前往 docs/md/ 仓库贡献对应文章</li>
+                <li>该文章暂未抓到</li>
               </ul>
             </div>
-            <h2>该文章是 PMaker 视觉壳的一部分</h2>
             <p>
-              <code>{pmakerHref}</code> 这个 URL 在 PMaker 原站对应一篇教程。
-              当前映射表中尚无对应文章，欢迎在 <code>src/data/pmaker-mapping.ts</code> 里添加映射，
-              指向 docs/md/ 仓库中的相关文章。
+              <code>{pmakerHref}</code> 内容缺失。请重新运行 <code>scripts/fetch-pmaker-details.py</code>。
             </p>
           </article>
         )}

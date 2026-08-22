@@ -1,35 +1,39 @@
 // src/app/pmaker/[cat]/[slug]/page.tsx
-// PMaker 风格 URL 的统一处理点
-// 由 next.config.mjs 的 rewrites 把 /learn/xxx /patterns/xxx /basics/xxx
-// 重写到 /pmaker/[cat]/[slug]
-//
-// 内容来源：build-time 嵌入到 .ts（CF Workers 不能读 fs，JSON import
-// 在 OpenNext bundle 里被 tree-shake 掉，所以 hardcode 成 TS const）
+// PMaker 详情页静态路由（CF Pages + output:'export'）
+// 内容来源：docs/md/pmaker-detail/*.md（build-time 读取）
 
+import { readFileSync } from 'fs'
+import { join } from 'path'
 import matter from 'gray-matter'
 import { PMakerArticle } from '@/components/pmaker/PMakerArticle'
-import { PMAKER_CONTENT_DATA } from '@/data/pmaker-content-inline'
-
-const PMAKER_CONTENT: Record<string, string> = PMAKER_CONTENT_DATA
+import { PMAKER_MAPPING } from '@/data/pmaker-mapping'
 
 interface Props {
   params: Promise<{ cat: string; slug: string }>
 }
 
+// docs/md/pmaker-detail/learn__glossary.html
+const DETAIL_DIR = join(process.cwd(), '..', 'docs', 'md', 'pmaker-detail')
+
 function loadArticle(href: string) {
-  const raw = PMAKER_CONTENT[href]
-  if (!raw) return null
-  const parsed = matter(raw)
-  return {
-    title: (parsed.data.title as string) || href,
-    content: parsed.content,
-    source: parsed.data.source as string | undefined,
-    date: parsed.data.date as string | undefined,
+  // learn/glossary.html → learn__glossary.html
+  const fileName = href.replace('/', '__')
+  const fullPath = join(DETAIL_DIR, fileName)
+  try {
+    const raw = readFileSync(fullPath, 'utf-8')
+    const parsed = matter(raw)
+    return {
+      title: (parsed.data.title as string) || href,
+      content: parsed.content,
+      source: parsed.data.source as string | undefined,
+      date: parsed.data.date as string | undefined,
+    }
+  } catch (e) {
+    return null
   }
 }
 
-export async function generateStaticParams() {
-  const { PMAKER_MAPPING } = await import('@/data/pmaker-mapping')
+export function generateStaticParams() {
   return Object.keys(PMAKER_MAPPING).map((href) => {
     const clean = href.replace(/\.html$/, '')
     const parts = clean.split('/')
