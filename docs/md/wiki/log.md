@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-22] ingest: DeepSeek Harness 虚拟机部署体验
+
+- 作者：大唐小少，微信公众号，2026-08-22 发布
+- 来源：`https://mp.weixin.qq.com/s/XZ6-ZaTNWasCz8c1ElWc0Q`
+- CentOS 虚拟机从零部署 DSH 完整指南：环境要求、四种安装方式、远端访问坑位
+- 远端访问 `crypto.randomUUID is not a function` 两个方案：dsh-lan-access 插件 / SSH 端口转发
+- 实测：24 点游戏生成任务，38 万 Token，约 0.21 元
+- 12 张截图已下载，添加到 dsh-vm-deployment/ 专栏
+- 添加为 DSH 专栏第 12 篇
+
 ## [2026-08-21] ingest: Anthropic — Patterns and Problems in Multiagent Systems
 
 - 来源：`https://www.anthropic.com/research/multiagent-systems`
