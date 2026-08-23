@@ -169,7 +169,14 @@ date: "2026-05-05"
 - [edgetunnel](https://github.com/cmliu/edgetunnel) — **41.1k Stars**，基于 Cloudflare Workers/Pages 的 VLESS/Trojan/SS 多功能面板，支持订阅系统和多平台客户端适配
 - [OpenWorker](https://github.com/andrewyng/openworker) — 吴恩达开源的桌面 AI 助手，自动处理文档/日程/邮件等杂事，支持 25+ 工具（GitHub/Slack/Jira/Notion/Gmail/Google日历），模型灵活（OpenAI/Claude/Gemini/DeepSeek/Ollama），隐私本地存储
 - [ego-lite](https://lite.ego.app/zh-cn) — 为 AI Agent 打造的"最快浏览器"，基于 Chromium 的一键迁移 Chrome 数据的 Agent 浏览器，免费无配置。核心特性：①ego-browser 技能，一个安装即可被 Claude Code/Codex/Cursor/Kiro/Hermes/OpenClaw/OpenCode 等所有 Agent 操控；②Semantic Snapshot 内置在定制 Chromium 引擎中（非 JS 适配层），Snapshot 返回更快、ref 操作更可靠，可访问跨域 iframe、Shadow DOM、Stripe/Salesforce/Intercom/React Portal 等第三方 SDK；③Agent 在独立 Space 中运行，与用户互不干扰，支持多任务并行，最高快 3.45 倍，Token 消耗更低；④Agent 继承用户真实登录态，不再卡在验证码/双重验证/SSO；⑤零费用零配置，仅 Mac 版
-- [Paseo](https://github.com/getpaseo/paseo) — **14.5k Stars**，一个界面编排多个 AI 编程 Agent（Claude Code / Codex / Copilot / OpenCode / Pi），自托管本地运行，跨设备（桌面/手机/Web/CLI/浏览器），支持语音控制、多 Agent 并行、工作区隔离。5000+ commits、1.5k forks，活跃度高。Skill 命令：`/paseo-handoff`（Agent 交接）、`/paseo-advisor`（顾问模式）、`/paseo-committee`（多 Agent 委员会）。支持 Docker 自托管、TypeScript SDK、CLI、VS Code 扩展
+- [Paseo](https://github.com/getpaseo/paseo) — **14.5k Stars**，一个界面编排多个 AI 编程 Agent（Claude Code / Codex / Copilot / OpenCode / Pi），自托管本地运行，跨设备（桌面/手机/Web/CLI/浏览器），支持语音控制、多 Agent 并行、工作区隔离。5000+ commits、1.5k forks，活跃度高。Skill 命令：`/paseo-handoff`（Agent 交接）、`/paseo-advisor`（顾问模式）、`/paseo-committee`（多 Agent 委员会）。支持 Docker 自托管、TypeScript SDK、CLI、VS Code 扩展。主要创建者 Mohamed Boudra（GitHub: boudra），北非马格里布裔背景，主要活动在西班牙巴塞罗那/Reus，个人主页 moboudra.com。组织 getpaseo，AGPL-3.0 协议，仓库含中文/日文/韩文 README
+  - **同类项目（Paseo 定位：自托管 daemon + 多端客户端 + 多 Agent 编排，AGPL-3.0）**：
+    - **Orca** — 并行跑多个 CLI Agent（Claude Code/Codex/OpenCode/Pi），每个独立 git worktree，带终端/浏览器/diff 审查/移动端，偏 ADE（Agent Development Environment）
+    - **Emdash** — 桌面端（Electron），支持大量 CLI provider，worktree 隔离，本地优先
+    - **Superset** — macOS 桌面应用，并行编排多个 Agent，每个独立 worktree
+    - **Happy** — 开源移动 + Web 客户端，远程控制 Claude Code/Codex，端到端加密 + 语音
+    - **Claude Squad** — 终端工作流，多 Agent + git worktree，比较成熟
+    - **Crystal** — 并行 Codex/Claude Code session + worktree
 - [video-shotcraft](https://vincentwei1021.github.io/video-shotcraft/) — **106 个镜头配方、162 种风格、161 个动态预览**，分镜/运镜/节奏/音效/Remotion 实现整理成 Agent Skill，视频创作技能库
 - [hyperframes-motion-director](https://github.com/geekjourneyx/hyperframes-motion-director) — 宣传片 Agent Skill，视频创作工作流
 - [Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube视频搬运流水线，自动监控更新/下载/字幕生成/翻译/质检/AI改标题，双平台上传（B站+AcFun），支持企业微信推送
