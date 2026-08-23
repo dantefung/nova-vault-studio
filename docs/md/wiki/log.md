@@ -3012,3 +3012,10 @@ source: "llm-wiki"
 - 归档希里安（阿里云）《Agent Sandbox》至 sources/agent-sandbox-k8s.md
 - 无配图
 - 内容摘要：Kubernetes SIG 项目 kubernetes-sigs/agent-sandbox，在 K8s 上用声明式 API 管单实例、有状态、得隔离的沙箱运行时。核心 CRD：Sandbox（稳定身份+持久存储+生命周期）、SandboxTemplate、SandboxWarmPool（预热池）、SandboxClaim。真正强隔离交给 RuntimeClass 背后的 gVisor/Kata。Agent 链路中只管执行环境层（跑代码/装依赖/落文件/联网），不管推理规划和工具协议。四个值得关注的理由：Workload 形态在变/安全默认升档/冷启动体验/可编程消费
+
+## [2026-08-23] ingest: 产品开发好了，域名怎么买？
+
+- 来源：微信公众号，2026-08-23
+- 归档《产品开发好了，域名怎么买？》至 sources/weixin-domain-guide.md
+- 3 张配图已下载至 images/weixin-domain-guide/
+- 内容摘要：面向独立开发者的域名购买入门指南。覆盖：localhost 笑点解读、国内/海外注册商对比（Porkbun/Dynadot/Namecheap 支持支付宝）、ICP 备案规则与流程（7~15 个工作日）、域名后缀选择（.com/.io/.ai/.dev 适用场景）、.ai 域名与安圭拉国家的有趣故事
