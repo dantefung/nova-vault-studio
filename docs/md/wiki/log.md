@@ -4,6 +4,19 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-24] ingest: Omarchy 桌面 Linux 发行版有救了吗（冯若航）
+
+- 作者：冯若航（老冯，Pigsty/PostgreSQL 发行版作者），微信公众号，2026-08-24 发布
+- 来源：`https://mp.weixin.qq.com/s/eRa3tnzV9WBuGEBgtbCDVQ`
+- DHH 的 Omarchy 4.0 桌面发行版评测，2018 Intel MacBook Pro 实测
+- 结论：品味在线但不替代 macOS 桌面，也取代不了 Ubuntu 服务器地位
+- 老冯装 DSH/Codex/Claude Code 打包在 macOS 上比 Omarchy 更早
+- Linux 发行版观感：RedHat/Debian/Ubuntu/Fedora/Arch/NixOS/Mint 等全试过，返璞归真 Debian+Ubuntu
+- Ubuntu 在海外压倒性主导，Debian 稳如老狗
+- 桌面建议：macOS 一把梭，Linux 折腾用服务器就行
+- Omarchy vs 当年 Ubuntu：DHH 对标 Mark Shuttleworth
+- 写入 `guide/os/linux/omarchy-review.md`
+
 ## [2026-08-24] ingest: 我在 iPhone 上装了 DeepSeek Harness（康叔AI）
 
 - 来源：飞书文档 `https://my.feishu.cn/docx/KDRndy4iIoLTQVxQ6XyckDuenAh`
