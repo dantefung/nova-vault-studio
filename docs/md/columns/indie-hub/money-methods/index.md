@@ -20,3 +20,4 @@ url: ""
 - [构建独特信息流](./personal-info-pipeline.md) — 主动推送替代被动刷社媒，定时高质量内容到Telegram/飞书，记忆承载+书籍
 - [90% 的独立开发不挣钱](./indie-dev-90-percent-no-money.md) — 梁唐：开发是确定性难题，产品运营是不确定性难题；认知差=时间差；90% 提前设想的问题不会发生
 - [数字产品副业指南](./sell-digital-products.md) — 国内卖19国外卖9刀，Gumroad/Payhip/Sellfy 平台对比
+- [边走边看，边干边学，判断标准，在实践里找](./judge-standard-in-practice.md) — 范范：贝叶斯主义者，每次行动后用结果调整策略；搞钱和搞流量总得有一个在干

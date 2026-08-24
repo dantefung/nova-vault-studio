@@ -4,6 +4,33 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-24] ingest: 我在 iPhone 上装了 DeepSeek Harness（康叔AI）
+
+- 来源：飞书文档 `https://my.feishu.cn/docx/KDRndy4iIoLTQVxQ6XyckDuenAh`
+- 作者：康叔AI，飞书文档
+- DSH 定位：Agent 运行时底座（对标 LangGraph/AutoGen），非 Claude Code 竞品；核心理念 Everything is a Plugin
+- iPhone + iSH 极限部署，五道关卡：依赖树拆分/pty stub/fetch polyfill/禁用 18 插件/沙箱绕过
+- 多智能体审讯流水线：主 Agent 召唤架构师/红队/机会猎人三个子代理
+- Flash vs Pro 盲评竞技场：Pro 36/40 vs Flash 24/40，Kimi K3 当裁判，顺序打乱防偏差
+- 写入 `deepseek-harness/13-dsh-on-iphone.md`
+
+## [2026-09-26] ingest: 边走边看，边干边学，判断标准，在实践里找（范范）
+
+- 作者：范范，微信公众号，2025-09-26 发布
+- 来源：`https://mp.weixin.qq.com/s/5LV_syzBzzuIOOzLxMr0PQ`
+- 哥飞社群全职出海，贝叶斯主义者——每次行动后用结果调整策略
+- 核心：搞钱和搞流量总得有一个在干；不知道怎么提升就写公众号发推
+- 写入 `indie-hub/money-methods/judge-standard-in-practice.md`
+
+## [2026-07-10] ingest: 先从工具站的热门词开始看（范范）
+
+- 作者：范范，微信公众号，2026-07-10 发布
+- 来源：`https://mp.weixin.qq.com/s/-vofGiJPRYLvc5ZrpxYyiQ`
+- 工具站找词三步筛选漏斗：①aitdk 看工具站 Top5 流量词发现机会 ②ads 查搜索量+CPC+人工判断 KD ③GPT 做第二轮反向质检
+- 核心判断：站找词不是找搜索量，而是找可承接的需求；Generator 类词天然适合做站
+- KD 判断：哥飞教法，不只看工具难度分，看前排页面是否有真实工具/域名权重/专门性
+- 写入 `indie-hub/seo/keyword-analysis/tool-site-keyword-methodology.md`
+
 ## [2026-08-24] ingest: Hermes Agents 实战——RoomEnvision 工具站上线（范范）
 
 - 作者：范范，微信公众号，2026-08-24 发布

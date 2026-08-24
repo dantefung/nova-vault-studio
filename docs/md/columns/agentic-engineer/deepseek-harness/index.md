@@ -8,7 +8,7 @@ source: "微信公众号"
 
 > DeepSeek 开源的 Agent 框架——「Agent = Model + Harness」。一切皆插件，能力按需装配、用完即焚。
 
-> 本专栏收录 9 篇文章，从整体架构到插件机制，从运行时设计到 Agent 蒸馏，从与 Cordis/Pi 的横向对比到 Codex 竞品开源，再到自进化 Agent 的哲学思考和 DSH 桌面应用实践，完整覆盖 Harness 生态竞争格局。
+> 本专栏共收录 13 篇文章，从整体架构到插件机制，从运行时设计到 Agent 蒸馏，从与 Cordis/Pi 的横向对比到 Codex 竞品开源，再到自进化 Agent 的哲学思考、DSH 桌面应用与虚拟机部署，最后到 iPhone 极限部署实战。
 
 ---
 
@@ -41,6 +41,7 @@ source: "微信公众号"
 | 10 | [可逆不是逆向运行：DeepSeek Harness 架构的数学本质](./10-reversible-architecture.md) | 08-21 | 从可逆计算理论看 Cordis 的数学本质：一切皆差量、Delta 可正可负、单写者+累加+无删除 |
 | 11 | [从 Codex Harness 到 DSH Subagent：Agent 进入软件架构新一层](./11-codex-harness-dsh-subagent.md) | 08-21 | DSH rc.8 接 Codex/Claude Code 做 Subagent，Harness 作为基础设施，四种控制权拆分 |
 | 12 | [DeepSeek Harness 虚拟机部署体验](./12-dsh-vm-deployment.md) | 08-22 | CentOS 虚拟机从零部署 DSH，四种安装方式，远端访问坑位，实际运行 38 万 Token |
+| 13 | [我在 iPhone 上装了 DeepSeek Harness，还让它自己审讯了自己](./13-dsh-on-iphone.md) | 08-24 | iPhone + iSH 极限部署，五道关卡，多智能体审讯流水线，Flash vs Pro 盲评竞技场 |
 
 ---
 
