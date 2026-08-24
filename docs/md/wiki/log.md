@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-24] ingest: Hermes Agents 实战——RoomEnvision 工具站上线（范范）
+
+- 作者：范范，微信公众号，2026-08-24 发布
+- 来源：`https://mp.weixin.qq.com/s/5EPgrBxTwuTD_ND5lbcJqg`
+- RoomEnvision：AI 房间改造工具，从代码到上线、支付全链路、提交商店审核——一天
+- 三个概念：Profile（状态隔离）、Skill（按需加载+自生长）、Agent Loop（不停执行直到完成）
+- 实战一：Hermes 半小时理清 Creem 7 项合规清单
+- 实战二：8 产品全自动重建 + 26 环境变量 + webhook + 逐项验证
+- 技术栈：Next.js + Cloudflare Pages + D1 + R2 + KV + Replicate FLUX + Google One Tap
+- 写入 `ai-agent/hermes-agents-roomenvision-tutorial.md`
+
 ## [2026-08-24] ingest: Huashu-Excel 正式发布（花叔）
 
 - 作者：花叔（alchaincyf），微信公众号，2026-08-24 发布
