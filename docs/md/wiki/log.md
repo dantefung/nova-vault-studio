@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-24] ingest: 高性能 Web 开发选 Rust？Rust+Axum Web 开发教程（小牛呼噜噜）
+
+- 作者：小牛呼噜噜，微信公众号，2026-08-24 发布
+- 来源：`https://mp.weixin.qq.com/s/w8qDIDxTix7AtTFAPINU0A`
+- Java+SpringBoot 1核1G 服务器跑不了几个 demo，转向 Rust+Axum
+- 系列教程第一篇：Hello World、路由与处理器、提取器、响应处理、错误处理、中间件、Tracing 日志、配置文件读取
+- 关键：Axum 无自建中间件系统，用 `tower::Service` 获得超时/跟踪/压缩/授权
+- 错误处理：`Infallible` 保证所有错误都有响应，用中间错误类型 + `?` 运算符
+- 配置：YAML/JSON/TOML/INi/Cargo.toml/.env 多格式读取，`LazyLock` 全局静态配置
+- 写入 `guide/dev/rust-axum-web-tutorial.md`
+
 ## [2026-08-24] ingest: Omarchy 桌面 Linux 发行版有救了吗（冯若航）
 
 - 作者：冯若航（老冯，Pigsty/PostgreSQL 发行版作者），微信公众号，2026-08-24 发布
