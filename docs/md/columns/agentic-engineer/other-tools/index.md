@@ -13,6 +13,7 @@ title: Other Tools
 - [Codex Video Subtitle](./codex-video-subtitle.md)
 - [Coding Tutor Plugin Architecture](./coding-tutor-plugin-architecture.md)
 - [Commit as Prompt](./commit-as-prompt.md)
+- [Huashu-Excel](./huashu-excel.md)
 - [Open Multi-Agent Research](./open-multi-agent-research.md)
 - [Planning with Files](./planning-with-files.md)
 - [Pencil + Claude Code 用对话做设计](./pencil-claudecode-design.md)

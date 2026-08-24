@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-24] ingest: Huashu-Excel 正式发布（花叔）
+
+- 作者：花叔（alchaincyf），微信公众号，2026-08-24 发布
+- 来源：`https://mp.weixin.qq.com/s/7gYbxcW81EtUZQOvpZTOkw`
+- 花叔开源 huashu-excel skill，MIT 协议，用于 Excel/CSV 数据分析和报告生成
+- 八步流程：体检→清洗→对齐→分析→对账→交付→验图→质控
+- 10 份真实数据压测：纽约 311 工单/英国电商/纽约市政预算/薪酬调查等
+- 设计逻辑：AI 算错不报错→对账/验图/质控补位；角色激发→test-time scaling→统计讲究
+- 写入 `agentic-engineer/other-tools/huashu-excel.md`
+
 ## [2026-08-23] ingest: 金果月入万刀故事（哥飞社群案例）
 
 - 作者：哥飞，微信公众号，2026-08-23 发布
