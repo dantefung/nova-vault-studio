@@ -35,6 +35,7 @@ source: "原创"
 | 文档 | 说明 |
 |------|------|
 | [AI 时代的软件基本功——Uncle Bob 谈 Agent 编码与质量围栏](./ai-software-fundamentals-uncle-bob.md) | 确定性工具 > 长提示、五阶段 Multi-Agent 流水线、价值不变纪律可变 |
+| [User Harness：从工程演进到 PI Delivery Loop 交付闭环](./user_harness.md) | 四代演进（Prompt→Context→Harness→Loop）、PI Delivery Loop 6 阶段闭环、质量四象限（Q1–Q4） |
 | [Agent 范式演变：六维度从过去到现在](../agent-paradigm-evolution/agent-paradigm-evolution.md) | 四阶段 + 六维度演变 |
 | [全 Agentic 架构深度剖析](../agent-paradigm-evolution/all-agentic-architectures-deep-dive.md) | 17 种架构模式全覆盖 |
 | [Prompt → Context → Harness 三次进化](../other-tools/prompt-context-harness-evolution.md) | 工程进化论 |
