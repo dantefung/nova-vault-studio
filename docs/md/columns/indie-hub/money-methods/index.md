@@ -18,4 +18,5 @@ url: ""
 - [把才华变成钱](./mengke-money-from-talent.md) — 王梦珂品牌工作手册：16章讲清如何把能力变收入
 - [未来十年，普通人最值钱的15个能力](./15-valuable-skills.md) — 跨境/英语/销售/内容/IP/AI/私域/短视频/高客单/投资/副业/复利/精力管理
 - [构建独特信息流](./personal-info-pipeline.md) — 主动推送替代被动刷社媒，定时高质量内容到Telegram/飞书，记忆承载+书籍
+- [90% 的独立开发不挣钱](./indie-dev-90-percent-no-money.md) — 梁唐：开发是确定性难题，产品运营是不确定性难题；认知差=时间差；90% 提前设想的问题不会发生
 - [数字产品副业指南](./sell-digital-products.md) — 国内卖19国外卖9刀，Gumroad/Payhip/Sellfy 平台对比

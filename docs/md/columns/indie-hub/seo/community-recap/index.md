@@ -33,6 +33,7 @@ url: ""
 | 07-19 | [北京线下面基燃爆，热点建站与高收入案例刷屏](./2026-07-19-community-recap.md) |
 | 07-20 | [Creem 支付大面积封号，SEO Agent 模型切换引热议](./2026-07-20-community-recap.md) |
 | 07-21 | [哥飞四城晚宴启程，SEO Agent 持续打磨](./2026-07-21-community-recap.md) |
+| 08-23 | [金果：做网站前3个月一分钱没赚，一年后他做到了月入万刀](./2026-08-23-jinguo-first-dollar.md) |
 
 ---
 
