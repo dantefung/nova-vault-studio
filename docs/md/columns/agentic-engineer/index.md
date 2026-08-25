@@ -13,7 +13,7 @@ source: "原创"
 ## 目录结构
 
 - [hello-harness/](./hello-harness/) — Hello Harness（从 0 手写 Agent Harness，TS 实现）
-- [deepseek-harness/](./deepseek-harness/) — DeepSeek Harness（14 篇，从架构到 Subagent 到部署到架构深拆）
+- [deepseek-harness/](./deepseek-harness/) — DeepSeek Harness（16 篇，从架构到 Subagent 到部署到架构深拆到自进化）
 - [codex-harness/](./codex-harness/) — Codex Harness（1 篇，App Server / Core Session / Agent Loop 源码解析）
 - [ai-resources/](./ai-resources/) — AI 资源全景地图（100+ 分类，600+ 资源链接）
 - [industrial-agent-practice/](./industrial-agent-practice/) — 工业 AI Agent 实战派（7 篇，LangChain4j 入门到框架深析）

@@ -8,7 +8,7 @@ source: "微信公众号"
 
 > DeepSeek 开源的 Agent 框架——「Agent = Model + Harness」。一切皆插件，能力按需装配、用完即焚。
 
-> 本专栏共收录 15 篇文章，从整体架构到插件机制，从运行时设计到 Agent 蒸馏，从与 Cordis/Pi 的横向对比到 Codex 竞品开源，再到自进化 Agent 的哲学思考、DSH 桌面应用与虚拟机部署，iPhone 极限部署实战，最新架构深度拆解，以及 1W 个 DSH 插件仓库全量生态审计。
+> 本专栏共收录 16 篇文章，从整体架构到插件机制，从运行时设计到 Agent 蒸馏，从与 Cordis/Pi 的横向对比到 Codex 竞品开源，再到自进化 Agent 的哲学思考、DSH 桌面应用与虚拟机部署，iPhone 极限部署实战，架构深度拆解、插件生态审计，以及 DSH 过度工程与自进化的本质判断。
 
 ---
 
@@ -44,6 +44,7 @@ source: "微信公众号"
 | 13 | [我在 iPhone 上装了 DeepSeek Harness，还让它自己审讯了自己](./13-dsh-on-iphone.md) | 08-24 | iPhone + iSH 极限部署，五道关卡，多智能体审讯流水线，Flash vs Pro 盲评竞技场 |
 | 14 | [10 张图详细拆解 DeepSeek Harness 设计架构](./14-xuanyuan-dsh-architecture-deep-dive.md) | 08-25 | 三阶段运行时、Profile/Bundle/Patch 三层组装、Cordis 插件框架四能力、四种 Preset、Turn/Step 模型、SessionEvent |
 | 15 | [我扒了 1W 个仓库，重新看了一遍 DSH 插件生态](./15-dsh-plugin-ecosystem-10k.md) | 08-24 | 9393 仓库全量枚举、rc.1 破坏性变更试金石、27 品类全景分布、10 大精选原生插件 |
+| 16 | [The deepseek of DSH：过度工程，还是为自进化而建？](./16-zhenjia-dsh-overengineering-self-evolution.md) | 08-25 | 三派开发流派（库/成品/平台）、DSH 一切皆插件、时空可组合性（id=interface, name=implementation）、自进化五级、Prime Agent refinement 管线 |
 
 ---
 

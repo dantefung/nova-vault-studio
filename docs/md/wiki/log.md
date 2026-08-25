@@ -4,6 +4,18 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-25] ingest: The deepseek of DSH：过度工程，还是为自进化而建？（郑嘉 / zhenjia.dev）
+
+- 来源：`https://zhenjia.dev/posts/the-deepseek-of-deepseek-harness`
+- Agent 基本组成：上下文管理 + 工具接口 + 约束 + 验证 + 纠正，核心是 ReAct 循环
+- 三派开发流派：库（Pydantic AI 手搓）/ 成品（Claude Agent SDK 扩展点）/ 平台（Eve 声明式文件树）
+- DSH 一切皆插件 + Cordis 框架 + 时空可组合性（id = interface, name = implementation）
+- Agent 自进化五级：改提示词 → 改上下文结构 → 改工作流 → 改 Harness 代码 → 改优化器代码
+- 核心判断：DSH 过度工程是为了运行时自进化预留的——现在还不是刚需
+- 关键对比：搜广推在线学习信号客观/便宜/高频 vs Agent 自进化信号主观/昂贵/低频
+- 关键引用：Lilian Weng《Harness Engineering for Self-Improvement》(2026-07-04)
+- 写入 `agentic-engineer/deepseek-harness/16-zhenjia-dsh-overengineering-self-evolution.md`
+
 ## [2026-08-25] ingest: 全栈 AI Agent 从 0 到 1：智能播客平台开发全记录（京东科技 蔡欣彤）
 
 - 来源：`https://mp.weixin.qq.com/s/IGSAgptmQ-ZDurI-pnhdog`
