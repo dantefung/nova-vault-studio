@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-25] ingest: 10 张图详细拆解 DeepSeek Harness 设计架构（轩辕之风O）
+
+- 来源：`https://mp.weixin.qq.com/s/bwMs2BeCo_xkD0iVCoul_w`
+- 三阶段运行时：Host 装配 → Agent 装配（Preset）→ Agent Loop 执行
+- Profile/Bundle/Patch 三层配置组装：Profile 选启动形态、Bundle 打包插件组合、Patch 覆盖配置
+- Cordis 插件框架四能力：provide（服务注册）/ inject（依赖声明）/ event（侧面参与）/ effect（生命周期管理）
+- 四种 Preset：标准 / PTC / 极简 / 创造
+- Agent Loop：Turn 内部多个 Step，模型每次只决定一步
+- SessionEvent：追加式日志记录全部事件，供模型/WebUI/持久化多方消费
+- 写入 `agentic-engineer/deepseek-harness/14-xuanyuan-dsh-architecture-deep-dive.md`
+
 ## [2026-08-25] ingest: 为什么越来越多人用 gRPC？（苏三）
 
 - 来源：`https://mp.weixin.qq.com/s/DTMscGpqlyytmtZOtfFZ2g`
