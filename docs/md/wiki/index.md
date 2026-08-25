@@ -39,6 +39,7 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
+| [ontology-platform-architecture](/md/wiki/concepts/ontology-platform-architecture) | 本体平台总体架构：四层三纵 + 十大引擎 + 三大运行模式，统一企业业务语义中枢 | 公众号：人月聊IT |
 | [llm-wiki](/md/wiki/concepts/llm-wiki) | 持久化、复利的知识库模式：三层架构 + Ingest/Query/Lint + 哈希/阈值/冲突治理 | Skill / Hermes Agent |
 | [hermes-llm-wiki-skill](/md/wiki/summaries/hermes-llm-wiki-skill) | Hermes v2.1.0 将 Karpathy LLM Wiki 落实为可执行的建设、查询和 13 步 Lint 治理流程 | Hermes Agent 文档 |
 | [llm-cache-mechanism](/md/wiki/concepts/llm-cache-mechanism) | LLM 缓存三层机制：KV Cache → 显存优化 → 前缀缓存，以及 Claude Code/Codex 工程实践 | 公众号 |
