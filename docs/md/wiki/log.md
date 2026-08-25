@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-25] BestBlogs 早报 · 08-25（ginobefun）
+
+- 来源：`https://mp.weixin.qq.com/s/p4avjMU1NO0V2qktBR0U0w`
+- 三篇精讲：①大淘宝技术 AI Coding 从 Spec 驱动转向环境与验证驱动（生码只占 20-30%）②Steve Yegge「围栏而非沙箱」——450 个法律式构件治理 50-60 Agent 软件工厂③吴恩达 AI 工程技能图谱六类能力
+- 速览：数据中心影子借贷/丰田企业 AI/Google ADK 语音评估/NVIDIA Groq 3 LPX/达摩院肝癌 AI/GPT-5.6 in Kiro/Claude Code 营销更新
+- 补充：DFlash CPU 推测解码/DSH 规模化踩坑/Microsoft 运行时治理/Wan 3.0/FireRedTTS3/梁文锋人物稿/MedGuard/DSH vs Pi vs Codex/XMind 圈子制
+- 写入 `wiki/sources/bestblogs-2026-08-25.md`
+
 ## [2026-08-24] ingest: 高性能 Web 开发选 Rust？Rust+Axum Web 开发教程（小牛呼噜噜）
 
 - 作者：小牛呼噜噜，微信公众号，2026-08-24 发布
