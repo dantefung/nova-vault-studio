@@ -4,16 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
-## [2026-08-25] ingest: 本体平台总体架构：从需求到本体建模与应用生成（人月聊IT / 何明璐）
+## [2026-08-25] ingest: 全栈 AI Agent 从 0 到 1：智能播客平台开发全记录（京东科技 蔡欣彤）
 
-- 来源：`https://mp.weixin.qq.com/s/sHwC35mtrOmPBhFrkh95fw`
-- 核心痛点：解决企业数字化中“语义翻译损失”（需求丢失、OLTP与OLAP脱节、AI缺乏业务上下文）
-- 总体架构：四层（基础设施与连接层、存储与资产层、核心引擎层、用户与生态接入层）+ 三纵（设计时、运行时、编排）
-- 关键引擎：十大引擎（需求、本体模型、应用生成、数据分析、数据连接、AI分析推理、存储、场景编排、本体能力网关、大模型网关）
-- 三大模式：从0到1构建应用、已有系统AI智能分析、OLTP与OLAP语义对齐
-- 落地策略：第一阶段最小闭环（本体建模+数据连接+AI推理+存储），再逐步扩展应用生成与编排治理
-- 配图：4 张高清架构与流程图保存至 `docs/md/wiki/images/ontology-platform-architecture/`
-- 写入 `docs/md/wiki/sources/ontology-platform-architecture.md`
+- 来源：`https://mp.weixin.qq.com/s/IGSAgptmQ-ZDurI-pnhdog`
+- 京东科技工程师独立开发的全栈智能播客平台，四阶段演进
+- 技术栈：Vue 3 + TypeScript + FastAPI + LangGraph + AG-UI Protocol + pydub
+- 模型：qwen3.5-omni-plus（多模态）+ Qwen-ASR + Qwen-TTS（阿里云 DashScope）
+- 关键设计：LLM 工厂模式 / 动态 Prompt 注入 / SSE 流式通信 / 临时/永久存储分离 / 多层级配置
+- 四阶段：框架搭建 → 音频后期（混音/BGM/拼接）→ 多模态识别+存储升级 → 配置与工程管理
+- 写入 `wiki/sources/smart-podcast-platform-full-stack-agent.md`
+
+## [2026-08-25] ingest: 本体平台总体架构：从需求到本体建模与应用生成（人月聊IT / 何明璐）
 
 ## [2026-08-25] ingest: 10 张图详细拆解 DeepSeek Harness 设计架构（轩辕之风O）
 
