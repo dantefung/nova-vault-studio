@@ -4,6 +4,15 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-25] ingest: 2026 年 AI Agent 学习路线图（GrissomFI / AI-fundamentals）
+
+- 来源：`https://mp.weixin.qq.com/s/z1ZE1uymL0XORPkY8BNb2Q`
+- 七阶段路线图：阶段 0 前置基础 → 阶段 1 Agent 是什么 → 阶段 2 手搓核心范式（ReAct/Plan-and-Solve/Reflection）→ 阶段 3 框架实战（LangGraph）→ 阶段 4 协议/记忆/上下文工程（MCP + Skills）→ 阶段 5 案例与多智能体 → 阶段 6 Harness 与工程化
+- 两条路径：课程派 4-6 个月稳扎稳打 vs 实战派 2-3 个月以用带学
+- 三大陷阱：选择瘫痪 / demo 层天花板 / 框架焦虑
+- 完整课程仓库：AI-fundamentals（github.com/ForceInjection/AI-fundamentals）
+- 写入 `guide/ai/ai-agent-learning-roadmap-2026.md`
+
 ## [2026-08-25] BestBlogs 早报 · 08-25（ginobefun）
 
 - 来源：`https://mp.weixin.qq.com/s/p4avjMU1NO0V2qktBR0U0w`
