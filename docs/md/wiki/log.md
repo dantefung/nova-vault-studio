@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-25] ingest: 外币兑换 ≠ 结售汇：商业银行外币兑换业务（光速白眉）
+
+- 来源：`https://mp.weixin.qq.com/s/B3qQvc9Sl9R4GJbLIC5ZJw`
+- 核心辨析：结售汇 = 人民币↔外汇；外币兑换 = 外币↔外币（不含人民币），二者监管归属、额度占用、凭证要求完全不同
+- 外币套兑不占用 5 万美元年度便利化额度
+- 网点准入三大门槛：现钞库存 / 人员能力 / 系统能力
+- 科技挑战：报价引擎需支持多币种对（最多 40）+ 现汇/现钞四价分离 + 实时刷新
+- 业务层级：个人外汇业务 > 个人外汇买卖业务 > 外币兑换 + 外汇实盘交易
+- 写入 `wiki/sources/foreign-currency-exchange-banking.md`
+
 ## [2026-08-25] ingest: 2026 年 AI Agent 学习路线图（GrissomFI / AI-fundamentals）
 
 - 来源：`https://mp.weixin.qq.com/s/z1ZE1uymL0XORPkY8BNb2Q`
