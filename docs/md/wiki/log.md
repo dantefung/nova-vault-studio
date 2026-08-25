@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-25] ingest: 为什么越来越多人用 gRPC？（苏三）
+
+- 来源：`https://mp.weixin.qq.com/s/DTMscGpqlyytmtZOtfFZ2g`
+- 核心收益：REST→gRPC，同配置下 QPS 翻 3 倍，延迟降低 48%，吞吐量提升 107%
+- 两大技术底座：HTTP/2 多路复用（1 RTT vs 3 RTT）+ Protobuf 二进制序列化（体积降 60-80%，速度提升 3-5 倍）
+- Spring Boot 4.1.0 官方提供 gRPC starter，`@GrpcService` / `@GrpcAdvice` / `@ImportGrpcClients` 注解
+- 四种通信模式：Unary / Server Streaming / Client Streaming / Bidirectional
+- 短板：浏览器兼容性 / 调试难度 / 学习曲线 / K8s 长连接粘滞
+- 写入 `guide/dev/grpc-microservices-spring-boot-2026.md`
+
 ## [2026-08-25] ingest: 外币兑换 ≠ 结售汇：商业银行外币兑换业务（光速白眉）
 
 - 来源：`https://mp.weixin.qq.com/s/B3qQvc9Sl9R4GJbLIC5ZJw`
