@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-26] ingest: Anthropic 官方指南：AI Native 开发手册（金色传说大聪明，编译自 Anthropic 博客）
+
+- 来源：`https://mp.weixin.qq.com/s/3Mh8CNQewKmU2I8nePnxrA`
+- 编译自《The AI-Native SDLC Playbook》（Louis Claxton，2026-08-21）
+- 核心概念：Committed Artifact（提交的产物），commit 链即审计链
+- 六阶段 Play：规划(intent.md) → 设计(spec.md) → 构建(plan.md) → 测试(Eval+PR) → 部署(Hooks门禁) → 运维(1/2/3σ响应)
+- 三层护栏：CLAUDE.md（知识）+ Skills（建议）+ Hooks（确定性阻断）
+- 测试理念：每个生产事故变成一个 eval 永远留在套件里
+- 关键产物链：intent.md → spec.md → plan.md → 代码 diff → PR → 事故记录
+- 写入 `agentic-engineer/anthropic-ai-native-sdlc-playbook.md`
+
 ## [2026-08-26] ingest: Hello Harness · Stage 1 Hello Agent 总览（一灰灰blog）
 
 - 来源：`https://mp.weixin.qq.com/s/VdSjs75Ra7tYsvpkInseBA`
