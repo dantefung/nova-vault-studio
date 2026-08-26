@@ -4,6 +4,15 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-08-26] ingest: Hello Harness · Stage 1 Hello Agent 总览（一灰灰blog）
+
+- 来源：`https://mp.weixin.qq.com/s/VdSjs75Ra7tYsvpkInseBA`
+- Hello Harness 系列 Stage 1 总览，五章递进：05 Function Calling → 06 第一个 Tool → 07 Tool Result → 08 第一个 Agent Loop → 09 停止条件
+- 核心心法：Agent 本质不是一个神秘对象，而是一个循环
+- Stage 0 vs Stage 1 对比：Model 负责「说」，Agent 负责「干」
+- 毕业作品：Tool Calling Agent——会干活、能叫停
+- 写入 `agentic-engineer/hello-harness/10-stage1-hello-agent.md`
+
 ## [2026-08-25] ingest: The deepseek of DSH：过度工程，还是为自进化而建？（郑嘉 / zhenjia.dev）
 
 - 来源：`https://zhenjia.dev/posts/the-deepseek-of-deepseek-harness`

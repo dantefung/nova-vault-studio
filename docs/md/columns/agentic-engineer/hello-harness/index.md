@@ -28,8 +28,9 @@ Stage 1  →  Function Calling + Tool + Agent Loop
 | 04 | [Model Provider 抽象：Agent 不应该知道 OpenAI / Anthropic / Gemini 的区别](./04-model-provider.md) | 08-18 | 第一次架构抽象，定义与 Provider 无关的 Model 接口 |
 | 05 | [Function Calling：让模型第一次产生结构化动作 ToolCall](./05-function-calling.md) | 08-19 | 从「只会说」到「能动手」的关键一步 |
 | 07 | [Tool Result：把工具结果喂回模型，形成完整循环](./07-tool-result.md) | 08-21 | 四种消息类型，提议→执行→回写→再问 |
+| 10 | [Stage 1 Hello Agent 总览：从 LLM 接口调用长出一个能干活的 Agent](./10-stage1-hello-agent.md) | 08-26 | Stage 1 五章递进总览，灵魂一句：Agent 本质是一个循环 |
 
-> ⏳ 待补：01 项目初识 / 02 第一次模型调用 / 03 上下文管理 / 06 第一个 Tool
+> ⏳ 待补：01 项目初识 / 02 第一次模型调用 / 03 上下文管理 / 06 第一个 Tool / 08 第一个 Agent Loop / 09 Agent 的停止条件
 
 ---
 
