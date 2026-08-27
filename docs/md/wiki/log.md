@@ -3200,4 +3200,15 @@ source: "llm-wiki"
 - 来源：微信公众号，2026-08-23
 - 归档《产品开发好了，域名怎么买？》至 sources/weixin-domain-guide.md
 - 3 张配图已下载至 images/weixin-domain-guide/
+
+## [2026-08-27] ingest: 从 ReAct 到 Ralph Loop：AI Agent 的持续迭代范式（阿里云云原生 / 丹坤）
+
+- 来源：`https://www.cnblogs.com/alisystemsoftware/p/19540015`
+- 核心概念：Ralph Loop —— 通过 Stop Hook 拦截 + 明确完成条件，强制 AI Agent 持续迭代直到真正完成任务
+- 关键机制：与 ReAct/Plan-and-Execute 的区别在于外部强制循环而非 LLM 自我评估退出
+- 状态持久化三件套：progress.txt / prd.json / Git 提交记录
+- 最佳实践：HITL→AFK、prd.json 结构化任务、反馈循环、Docker 沙箱、成本控制
+- 写入 `docs/md/wiki/sources/ralph-loop-ai-agent.md`
+- 创建概念页 `docs/md/wiki/concepts/ralph-loop.md`
+
 - 内容摘要：面向独立开发者的域名购买入门指南。覆盖：localhost 笑点解读、国内/海外注册商对比（Porkbun/Dynadot/Namecheap 支持支付宝）、ICP 备案规则与流程（7~15 个工作日）、域名后缀选择（.com/.io/.ai/.dev 适用场景）、.ai 域名与安圭拉国家的有趣故事
