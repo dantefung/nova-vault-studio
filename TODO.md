@@ -134,6 +134,32 @@ url: ""
 | 2026-08-08 | https://x.com/i/status/2078766646001561670 | 待查看 | pending |
 | 2026-08-08 | https://github.com/JimLiu/baoyu-design | **Claude Design + Baoyu-Design Skill 工作流**（原型与功能一致） | ✅ done ([sources/baoyu-design-workflow](/md/wiki/sources/baoyu-design-workflow)) |
 
+### CAPTCHA 拦截待采集（2026-08-30）
+
+| 日期 | 链接 | 状态 |
+|------|------|------|
+| 2026-08-30 | https://mp.weixin.qq.com/s/tZYefzKqZ_37eqldxDAJBg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/tuieXFQmqqaocumSefLRHg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/gDdg1rGGq_CkC3n4a54A2g | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/8OCk8zHh58CKhMlyqeGCDg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/dg3IFoOm_jWeVCDH5A05-A | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/9wPw1dR_B2-u8WmARbsuJw | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/QwwHBchlijXSY9AjgTvJ_A | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/1YaHaOC1veK3dJhlJyvE9Q | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/M24xotwUq_lBJqnwewfEkQ | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/sSJZzhY9Lik5GGFNHMXxww | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/Jzl97B4NZmizW8BU8n97tw | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/LHkZN9wO1siHMf1zZXIcEA | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/ty1RWtrqrlIxveQ0X1eCOQ | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/KW5vvF2w1pkkBW36lLDcAg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/q6rKFZul3G0Jc9_wPOEFpw | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/hbyo1pPeIO5CBLHjmqcXlw | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/i82nnXmSl-iddD7RQHd5PQ | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/XzPKyFfMafacHY2VOnD0IQ | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/ddvQhB7VgwtMfFzzzpFkUg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/vJYATdjd_YYOg5p8wrtZDg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/60H9httJacoMWPgbHG6SJg | pending（WeChat CAPTCHA） |
+
 ## 已完成
 
 - 2026-06-11：meigen.ai 出海建站、Hermes+Obsidian、Claude 提示策略、9 个 API 平台出海、Harness 工程化实践、AI 时代造富效应、Agent 团队 9 阶段（均已归档）
