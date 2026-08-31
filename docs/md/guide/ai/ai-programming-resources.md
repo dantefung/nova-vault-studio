@@ -105,6 +105,8 @@ date: "2026-05-05"
   - [bggg-creator-image2ppt](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2ppt) — 演示落地 Skill，将图片转换为 PPT 搞定做分享的人
 - [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) — superpowers 中文增强版（116k+⭐上游），17 款工具 + 20 skills + 6 个中国原创 skill，npm 一键安装，2.7k stars
 - [baoyu-design](https://github.com/JimLiu/baoyu-design) — 在本地以 Agent Skill 方式运行 Claude Design（支持 Cursor、Claude Code 等）。工作流：先用 Claude Design 设计 UI 原型，配合本 Skill 维护，每次开发新功能先改原型、确认后再改功能，保证原型与功能一致。产出 React 代码 + 结构化 JSON，通过 git diff 清晰追踪版本变更，Agent 参考 diff 实现功能。可低成本验证产品/UI 设计，详见 [工作流归档](/md/wiki/sources/baoyu-design-workflow)
+- [archify](https://github.com/tt-a1i/archify) — **36.4K Stars**，JetBrains 之外的明星项目，Agent 技能：将代码库或系统描述转化为精美的交互式架构/工作流/序列图/数据流/生命周期图——自包含 HTML，含动效和高清导出。支持 Claude Code/Codex/Py/Twitter/OpenCode 等平台。五大图表类型、四种预设、暗/亮主题、内置品牌标识。支持 Before/Delta/After 三栏对比，搜索节点、溯源代码、生成 1200×630 分享卡。安装：`npx skills add tt-a1i/archify -g`
+- [effective-html](https://github.com/plannotator/effective-html) — **2.8K Stars**，Plannotator 出品的 HTML 原型/Skill 集合：专注生成实用的自包含 HTML artifacts——从低保真线框图到可交互原型。六大 Skill：html（综合）、design-artifact（创意方向）、html-wireframe（低保真布局）、html-prototype（可交互原型）、html-plan（路线图/计划）、html-diagram（架构图/序列图/流程图）。安装：`npx skills add plannotator/effective-html`，官方指南 [effectivehtml.com](https://www.effectivehtml.com/)
 
 ---
 
@@ -166,6 +168,7 @@ date: "2026-05-05"
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) — 生成式引擎优化智能内容工程系统 2.0，多站点分发、知识库 RAG、审核发布工作流，1.6k+ stars
 - [llm-wiki-starter](https://github.com/eleven-net-cn/llm-wiki-starter) — 一键创建 LLM Wiki 知识库，基于 Andrej Karpathy 的 LLM Wiki 模式
 - [ElysiaJS](https://elysiajs.com) — Bun 生态最快的 TypeScript 后端框架，基于 OpenAPI 3.x 规范，类型安全、极速性能，支持 Swagger 文档自动生成
+- [thinkrail](https://github.com/JetBrains/thinkrail) — **372 Stars**，JetBrains 孵化项目：用 `pi` 编码代理驱动的轻量级真实 IDE，vibe coding 工具。Desktop + CLI 双形态，支持 git worktree 多工作区，内嵌 Monaco 编辑器 + 多 tab + 终端 + spec-graph 视图。架构三圈：engine host（Bun.serve HTTP+WS）/ wire（typed contracts）/ UI client（React 19 + Zustand + Tailwind v4）。官网 [thinkrail.ai](https://thinkrail.ai/)，协议 Apache-2.0
 - [edgetunnel](https://github.com/cmliu/edgetunnel) — **41.1k Stars**，基于 Cloudflare Workers/Pages 的 VLESS/Trojan/SS 多功能面板，支持订阅系统和多平台客户端适配
 - [OpenWorker](https://github.com/andrewyng/openworker) — 吴恩达开源的桌面 AI 助手，自动处理文档/日程/邮件等杂事，支持 25+ 工具（GitHub/Slack/Jira/Notion/Gmail/Google日历），模型灵活（OpenAI/Claude/Gemini/DeepSeek/Ollama），隐私本地存储
 - [ego-lite](https://lite.ego.app/zh-cn) — 为 AI Agent 打造的"最快浏览器"，基于 Chromium 的一键迁移 Chrome 数据的 Agent 浏览器，免费无配置。核心特性：①ego-browser 技能，一个安装即可被 Claude Code/Codex/Cursor/Kiro/Hermes/OpenClaw/OpenCode 等所有 Agent 操控；②Semantic Snapshot 内置在定制 Chromium 引擎中（非 JS 适配层），Snapshot 返回更快、ref 操作更可靠，可访问跨域 iframe、Shadow DOM、Stripe/Salesforce/Intercom/React Portal 等第三方 SDK；③Agent 在独立 Space 中运行，与用户互不干扰，支持多任务并行，最高快 3.45 倍，Token 消耗更低；④Agent 继承用户真实登录态，不再卡在验证码/双重验证/SSO；⑤零费用零配置，仅 Mac 版
