@@ -35,6 +35,7 @@ url: "https://new.web.cafe/tutorial/0c91c83924e9495aa75384becf6304ff"
 | 序号 | 文章 | 核心问题 |
 |------|------|----------|
 | 08 | [再聊内链和内页内容型工具站](./internal-links-content-site.md) | 内链策略与内容站优化 |
+| 08+ | [防止内页关键词蚕食](./internal-page-keyword-cannibalization.md) | 内页与内页之间防蚕食策略 |
 | 09 | [看排行榜挖掘赚钱产品](./stripe-ranking-revenue.md) | 基于 Stripe 入站流量估算收入 |
 | 10 | [哥飞看词：帮社群朋友看关键词](./keyword-analysis-example.md) | 实战案例分析 |
 
