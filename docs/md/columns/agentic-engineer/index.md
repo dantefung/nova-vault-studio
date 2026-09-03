@@ -44,6 +44,7 @@ source: "原创"
 | [本体论 vs MCP：Agent 架构中"接口"与"链接"的边界](./ontology-vs-mcp-juepen-crm-s2e7.md) | 嘴喷CRM S2E7，三层递进：MCP→语义封装→本体论；接口是点，链接是边 |
 | [Anthropic 官方指南：AI Native 开发手册](./anthropic-ai-native-sdlc-playbook.md) | AI 原生 SDLC 六阶段 Play（intent.md→spec.md→plan.md→PR→事故），CLAUDE.md + Skills + Hooks 三层护栏 |
 | [多 Agent 系统的模式与问题——Anthropic 实证研究](./anthropic-multiagent-systems.md) | 4 类系统性失败：协调/一致性/认知/目标冲突，7 个实验，核心结论：协调不会自然涌现 |
+| [若飞：代码越来越快，架构工作变在哪里](./ai-eng-skills/ruofei-ai-eng-skills.md) | 从吴恩达 AI 工程技能图谱看：代码生成变快，架构决定反而更密集；身份模型、数据边界、安全可靠性是核心取舍 |
 
 ---
 
