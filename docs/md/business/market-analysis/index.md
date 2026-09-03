@@ -15,4 +15,4 @@ url: ""
 |------|------|------|------|
 | 01 | [珠三角服装尾货市场](./prd-clothing-surplus-market.md) | 服装产业 | 45年演变：天光墟→1280亿尾货帝国，七市场/三渠道对比，SHEIN冲击，三剧本推演 |
 | 02 | [Helm — Always-On Coding Agent](./helm-agent-research.md) | AI 工具 | 常驻型 Agent 运行时竞品研究：守护进程、任务队列、四级权限、多工作区 |
-| 03 | [AI 中转站生意拆解](../ai-relay-station/ai-relay-station-deep-dive.md) | AI 套利 | 半个月深度扒皮：利润结构、搭建教程、上下游链条、内幕与风险 |
+| 04 | [王侯：如何快速摸清一门行业](./wanghou-industry-research.md) | 行业研究 | 咨询公司方法论平民化：找行业框架、跟从业者聊、看研报和财报、拆解产业链 | AI 套利 | 半个月深度扒皮：利润结构、搭建教程、上下游链条、内幕与风险 |
