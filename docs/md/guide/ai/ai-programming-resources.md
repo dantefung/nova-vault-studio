@@ -250,6 +250,8 @@ date: "2026-05-05"
 ## 架构实战案例
 
 - [loopx](https://github.com/huangruiteng/loopx) — 长周期 Agent 控制平面，5k stars。在 Codex/Claude Code/Cursor/dsh 等 Harness 之上提供持久化目标、门禁、Todo、证据、配额和交接，让多日级工程/研究/实验类任务可复盘、可恢复、可交接；不替换 Harness，而是作为"Agent 原生看板"层；v0.4.x，Apache 2.0 许可证
+- [Alioth](https://github.com/CosmicTools9/Alioth) — **9 Stars**，CosmicTools 开发的 PostgreSQL 表继承数据模型，基于群论与交换本体论，将经济行为形式化为四维正交空间 `(Scene, Factor, Function, State)` 内的对称操作，为企业数据管理提供数学严格的基础；MIT 许可证
+  - [dsh-alioth](https://github.com/CosmicTools9/dsh-alioth) — **2 Stars**，为 DeepSeek Harness（dsh）开发的 Alioth 应用创建框架，对话式驱动企业应用生成器，用户描述应用后插件组在 Alioth 实体注册表中注册业务实体，通过确定性程序化管道发出 AliothStudio 可导入的产物（`app.json`/`module.json`/extensions/prototype/Sources 骨架），LLM 仅提供结构化参数和语义决策，从不直接生成产物文本；Apache-2.0 许可证
 - [system-design-notes](https://github.com/liquidslr/system-design-notes) — 《System Design Interview - An Insider's Guide》读书笔记，13.1k stars。28 章，从 Scale、Rate Limiter、Consistent Hashing 到 Stock Exchange，覆盖系统设计面试全谱系，同时附 Rate Limiting/Circuit Breaker/Key-Value Store/Message Queue 等专题参考资料
 - [ai-architecture](https://github.com/myinvestpilot/ai-architecture) — 业余时间用 AI vibe coding 数年，28 个仓库、53.8 万行代码、3000+ 用户。系列文章：AI 原生系统设计（DSL）、多 Agent 架构、Agent 驱动开发流程、一人公司云原生架构。适合想了解真实规模 Vibe Coding 实践的开发者
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) — Multi-Agents LLM 金融交易框架，78.6k stars，分析师/研究员/交易员/风控多 Agent 协作（仅供研究，不构成投资建议）
