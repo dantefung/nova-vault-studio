@@ -107,6 +107,7 @@ date: "2026-05-05"
 - [baoyu-design](https://github.com/JimLiu/baoyu-design) — 在本地以 Agent Skill 方式运行 Claude Design（支持 Cursor、Claude Code 等）。工作流：先用 Claude Design 设计 UI 原型，配合本 Skill 维护，每次开发新功能先改原型、确认后再改功能，保证原型与功能一致。产出 React 代码 + 结构化 JSON，通过 git diff 清晰追踪版本变更，Agent 参考 diff 实现功能。可低成本验证产品/UI 设计，详见 [工作流归档](/md/wiki/sources/baoyu-design-workflow)
 - [archify](https://github.com/tt-a1i/archify) — **36.4K Stars**，JetBrains 之外的明星项目，Agent 技能：将代码库或系统描述转化为精美的交互式架构/工作流/序列图/数据流/生命周期图——自包含 HTML，含动效和高清导出。支持 Claude Code/Codex/Py/Twitter/OpenCode 等平台。五大图表类型、四种预设、暗/亮主题、内置品牌标识。支持 Before/Delta/After 三栏对比，搜索节点、溯源代码、生成 1200×630 分享卡。安装：`npx skills add tt-a1i/archify -g`
 - [effective-html](https://github.com/plannotator/effective-html) — **2.8K Stars**，Plannotator 出品的 HTML 原型/Skill 集合：专注生成实用的自包含 HTML artifacts——从低保真线框图到可交互原型。六大 Skill：html（综合）、design-artifact（创意方向）、html-wireframe（低保真布局）、html-prototype（可交互原型）、html-plan（路线图/计划）、html-diagram（架构图/序列图/流程图）。安装：`npx skills add plannotator/effective-html`，官方指南 [effectivehtml.com](https://www.effectivehtml.com/)
+- [lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) — 数据可视化 Skill：先判断数据适合哪种图表，再从已有图库中挑选，而非上来就套柱状图/折线图/饼图；支持年度阅读报告等 HTML 页面生成；官方模板可替换品牌色/背景/字体，套 PPT 风格。注意：部分图表需联网加载依赖；许可为 PolyForm Noncommercial 1.0.0，商业使用需确认。安装：`npx skills add larashero3-dotcom/lieflat-charts --skill lieflat-charts`
 
 ---
 
