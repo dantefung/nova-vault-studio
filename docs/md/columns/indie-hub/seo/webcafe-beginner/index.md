@@ -14,6 +14,7 @@ url: "https://new.web.cafe/tutorial/7c36c9a7c6e34d21b8f3efd857d980aa"
 ### 基础入门
 - [出海工具网站，从需求挖掘到网站制作全流程，让你一篇文章学会](./getting-started-site-from-research-to-build.md)
 - [如何用 GPT 生成 SEO 友好的网页 Title 和 Description](./using-gpt-for-seo-title-description.md)
+- [哥飞：HTTP 协议、互联网、爬虫和外链基础](./gefei-http-seo-backlink.md) — DNS/TCP/HTTP 请求响应头、浏览器渲染爬虫抓取逻辑、外链本质
 
 ### SEO 实战经验
 - [我如何通过 SEO 和 Adsense 优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享](./seo-adsense-revenue-optimization-experience.md)
