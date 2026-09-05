@@ -29,6 +29,7 @@ url: "https://github.com/2025Emma/vibe-coding-cn/tree/main/i18n/zh/documents/Met
 | 2026-06-16 | [系统提示词构建原则](./system-prompt-principles.md) | 如何构建高效可靠的 AI 系统提示词 |
 | 2026-06-16 | [编程之道](./way-of-programming.md) | 编程的哲学与智慧 |
 | 2026-06-16 | [胶水编程（另一版本）](./glue-programming.md) | 胶水编程的深入探讨 |
+| 2026-09-05 | [到底什么是高内聚、低耦合](./tudou-cohesion-coupling.md) | 软件工程核心设计原则：内聚性/耦合性分类详解，附政府服务/苹果生态实例 |
 
 ---
 
