@@ -5,6 +5,10 @@ date: "2026-08-03"
 
 # 日记索引
 
+## 2026-09-05
+
+- [全天] BestBlogs 早报 — AI 原生 SDLC 六阶段（Plan→Design→Build→Test→Deploy→Maintain）+ intent.md/spec.md 工件化；淘宝百亿补贴团队指标语义链路；Physical Intelligence 物理 AI 提升可靠性
+
 ## 2026-08-16
 
 - [全天] 说话人感到紧张的根本原因 — 紧张源于对永恒劣势的觉察：所有语料都来自经验，好的表达能力前提是对世界有足够丰富且细致的感知经验
