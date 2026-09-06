@@ -49,6 +49,7 @@ source: "原创"
 | [Stellarlink：2026 年我的 AI-Native 软件开发工作流](./ai-eng-skills/stellarlink-ai-native-workflow.md) | 模型变强后轻量约束 vs 早期强约束的权衡，多模型组合与工程流程搭配 |
 | [蒋泽林：从 ReAct 到 Agent Teams](./ai-eng-skills/jiangzelin-agent-teams.md) | 工程师视角：ReAct 模式即人类智能工程化抽象，Agent 协作机制演进 |
 | [玄姐：从 Loop 到 Graph](./ai-eng-skills/xuanjie-loop-to-graph.md) | Loop 到 Graph 的工程架构设计，让 AI Agent 落地的架构实践 |
+| [术哥：Agent 给自己写外挂](./ai-eng-skills/shugex-agent-self-external.md) | DeepSeek Harness 七枚工具：cordis_inspect_list/query/define/run/stop/undefine，防错不防坏，Agent 自主写外挂实战 |
 
 ---
 
