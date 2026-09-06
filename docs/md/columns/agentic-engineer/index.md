@@ -46,6 +46,7 @@ source: "原创"
 | [多 Agent 系统的模式与问题——Anthropic 实证研究](./anthropic-multiagent-systems.md) | 4 类系统性失败：协调/一致性/认知/目标冲突，7 个实验，核心结论：协调不会自然涌现 |
 | [若飞：代码越来越快，架构工作变在哪里](./ai-eng-skills/ruofei-ai-eng-skills.md) | 从吴恩达 AI 工程技能图谱看：代码生成变快，架构决定反而更密集；身份模型、数据边界、安全可靠性是核心取舍 |
 | [若飞：Harness 到底是什么](./ai-eng-skills/ruofei-harness-explained.md) | 为什么同一个模型换个 Coding Agent 结果不一样：Harness 作为模型与任务之间的中间层，决定工具定义、决策路径和反馈机制 |
+| [Stellarlink：2026 年我的 AI-Native 软件开发工作流](./ai-eng-skills/stellarlink-ai-native-workflow.md) | 模型变强后轻量约束 vs 早期强约束的权衡，多模型组合与工程流程搭配 |
 
 ---
 
