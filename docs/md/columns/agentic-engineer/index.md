@@ -48,6 +48,7 @@ source: "原创"
 | [若飞：Harness 到底是什么](./ai-eng-skills/ruofei-harness-explained.md) | 为什么同一个模型换个 Coding Agent 结果不一样：Harness 作为模型与任务之间的中间层，决定工具定义、决策路径和反馈机制 |
 | [Stellarlink：2026 年我的 AI-Native 软件开发工作流](./ai-eng-skills/stellarlink-ai-native-workflow.md) | 模型变强后轻量约束 vs 早期强约束的权衡，多模型组合与工程流程搭配 |
 | [蒋泽林：从 ReAct 到 Agent Teams](./ai-eng-skills/jiangzelin-agent-teams.md) | 工程师视角：ReAct 模式即人类智能工程化抽象，Agent 协作机制演进 |
+| [玄姐：从 Loop 到 Graph](./ai-eng-skills/xuanjie-loop-to-graph.md) | Loop 到 Graph 的工程架构设计，让 AI Agent 落地的架构实践 |
 
 ---
 
