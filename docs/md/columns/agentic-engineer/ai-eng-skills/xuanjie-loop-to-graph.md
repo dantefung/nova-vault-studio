@@ -166,9 +166,9 @@ AI 工程落地干货直播，欢迎点击预约，直播见。
 
 扫码加我👇有很多不方便公开发公众号的我会直接分享在朋友圈，欢迎你扫码加我个人微信来看👇
 
-![image](./images/005.other)
+![image](./images/005.webp)
 
-![image](./images/005.other)
+![image](./images/005.webp)
 
 加星标★，不错过每一次更新！
 
