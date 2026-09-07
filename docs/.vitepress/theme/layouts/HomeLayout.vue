@@ -4,6 +4,7 @@ import { useRoute } from 'vitepress'
 import ThemeSwitcher from '../components/ThemeSwitcher.vue'
 import LandingThemeSwitcher from '../components/LandingThemeSwitcher.vue'
 import MobileNavSheet from '../components/MobileNavSheet.vue'
+import EastonSearchTrigger from '../components/EastonSearchTrigger.vue'
 import { useTheme } from '../composables/useTheme.js'
 
 const route = useRoute()
@@ -71,6 +72,7 @@ const recentUpdates = [
         <h1 id="library-title">A personal knowledge library</h1>
         <p class="library-lead">把零散知识，整理成可以反复使用的系统。</p>
         <p class="library-description">AI、开发、商业、书籍与长期学习的工作记录。安静地阅读，清楚地找到下一步。</p>
+        <EastonSearchTrigger variant="bar" label="搜索文章" placeholder="搜索 System Vault…" shortcut="⌘K" />
         <a href="/md/guide/getting-started" class="library-hero-action">开始阅读 <span aria-hidden="true">→</span></a>
       </section>
 
