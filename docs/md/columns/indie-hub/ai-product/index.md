@@ -18,4 +18,5 @@ url: "https://mp.weixin.qq.com/s/qwiakZDHHOCGij-YQT8aQQ"
 | 篇目 | 标题 |
 |------|------|
 | 1 | [如何找到真正能赚钱的 App 点子](./how-to-find-profitable-app-idea) — 核心三问：用户搜了吗？关键词能打吗？同类产品有人付费吗？ |
+| 2 | [Cursor开发的破软件，竟然年入百万](./cursor-app-80k-month) — 以色列人用 Cursor 两周开发，抄美国 App 做本地化，12 个月月入 8W 刀，技术栈：Claude + Expo + Supabase + RevenueCat |
 
