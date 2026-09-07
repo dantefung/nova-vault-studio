@@ -3212,3 +3212,12 @@ source: "llm-wiki"
 - 创建概念页 `docs/md/wiki/concepts/ralph-loop.md`
 
 - 内容摘要：面向独立开发者的域名购买入门指南。覆盖：localhost 笑点解读、国内/海外注册商对比（Porkbun/Dynadot/Namecheap 支持支付宝）、ICP 备案规则与流程（7~15 个工作日）、域名后缀选择（.com/.io/.ai/.dev 适用场景）、.ai 域名与安圭拉国家的有趣故事
+
+## [2026-09-07] ingest: 为什么工业不能照搬 Palantir Ontology + AI Agent 时代语义层
+
+- 归档《为什么工业不能照搬 Palantir Ontology》微信公众号至 sources/why-industry-cant-copy-palantir-ontology.md
+  - 下载 16 张配图至 images/why-industry-cant-copy-palantir-ontology/
+  - 核心观点：Palantir Ontology 是运营世界模型（决策闭环），工业本体是物理世界形式化模型，两者不可互替；提出"决策闭包"六要素与工业双层本体架构
+- 归档《AI Agent 时代，需要的不是更多数据，而是一个语义层》微信公众号至 sources/ai-agent-semantic-layer.md
+  - 下载 11 张配图至 images/ai-agent-semantic-layer/
+  - 核心观点：UnifiedModel 用 Set+Link+Field 三原语构建对象图语义层，让 Agent 按对象读数、沿关系定位根因；DataAgentBench 实验旗舰模型提升 10-20pp
