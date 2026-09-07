@@ -3221,3 +3221,9 @@ source: "llm-wiki"
 - 归档《AI Agent 时代，需要的不是更多数据，而是一个语义层》微信公众号至 sources/ai-agent-semantic-layer.md
   - 下载 11 张配图至 images/ai-agent-semantic-layer/
   - 核心观点：UnifiedModel 用 Set+Link+Field 三原语构建对象图语义层，让 Agent 按对象读数、沿关系定位根因；DataAgentBench 实验旗舰模型提升 10-20pp
+
+## [2026-09-07] ingest: 技术栈推荐：围绕 AI 反馈闭环做选型
+
+- 归档《技术栈推荐：围绕 AI 反馈闭环做选型》微信公众号至 sources/ai-feedback-closed-loop-tech-stack.md
+- 下载 2 张配图至 images/ai-feedback-closed-loop-tech-stack/
+- 内容摘要：lencx 分享围绕 AI agent 反馈闭环的技术栈选型——pnpm v12 + TS v7 + Vite v8 + Oxlint/Oxfmt + React/Astryx，配合 lencx/skills 和 Matt Pocock Skills 实现架构治理与开发约束的自动化
