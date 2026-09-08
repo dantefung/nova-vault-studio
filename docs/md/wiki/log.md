@@ -3227,3 +3227,31 @@ source: "llm-wiki"
 - 归档《技术栈推荐：围绕 AI 反馈闭环做选型》微信公众号至 sources/ai-feedback-closed-loop-tech-stack.md
 - 下载 2 张配图至 images/ai-feedback-closed-loop-tech-stack/
 - 内容摘要：lencx 分享围绕 AI agent 反馈闭环的技术栈选型——pnpm v12 + TS v7 + Vite v8 + Oxlint/Oxfmt + React/Astryx，配合 lencx/skills 和 Matt Pocock Skills 实现架构治理与开发约束的自动化
+
+## [2026-09-08] ingest: Agent 长记忆落地——摘要+检索+衰减三层方案
+
+- 归档《Agent长记忆落地》微信公众号至 sources/agent-long-term-memory-layered.md
+- 下载 7 张配图至 images/agent-long-term-memory-layered/
+- 内容摘要：作者实践总结 Agent 长记忆分层方案——滚动摘要压缩旧对话、向量检索召回相关记忆、时间衰减淘汰过期条目；全量塞上下文导致 Token 账单爆炸，三层架构压缩率 93%，回答质量反升
+
+## [2026-09-08] ingest: OpenKnowledge —— 让 Claude、Codex、Cursor 共用一套知识库的 Markdown IDE
+
+- 归档《4.1K Star！OpenKnowledge》微信公众号至 sources/open-knowledge-markdown-ide.md
+- 下载 6 张配图至 images/open-knowledge-markdown-ide/
+- 内容摘要：Inkeep 团队开源的 Markdown IDE，人用可视化编辑器写文档，Agent 通过 MCP/Skills 读取；同一批文件多人协作，Git 记录版本，解决 Claude、Codex、Cursor 各自重复理解背景的问题
+
+## [2026-09-08] ingest: 太好说话的人，为什么更穷？
+
+- 归档至 sources/nice-vs-kind-agreeableness.md
+- 内容摘要：心理学论文《好人垫底》揭示随和与财富的反向关系；Adam Grant 区分"门垫式给予者"与"不随和的给予者"；核心建议：动机上给予，外壳上有边界，区分 nice（让人舒服）和 kind（对人好）
+
+## [2026-09-08] ingest: 手机电脑无缝衔接跑任务——Vibecoding 的完全体
+
+- 归档至 sources/vibecoding-mobile-computer-seamless.md
+- 下载 19 张配图至 images/vibecoding-mobile-computer-seamless/
+- 内容摘要：作者分享 Vibecoding 工作流——通过 UU 远程在手机查看 Codex/GPT 任务进度，实现多任务并发（网页、工具、测试同时进行），突破必须在电脑前等待确认的限制
+
+## [2026-09-08] ingest: 词太小上不去？从已验证的页面往上下游挖，比找新词稳
+
+- 归档至 sources/seo-upstream-downstream-keyword-mining.md
+- 内容摘要：SEO 方法教程——利用 GSC 找出「门口词」（有展示、排名 8-30、CTR 低），往下游走长尾变体（限定词/疑问词/格式对），往上探边界词，落回页面三种方式（扩标题/加章节/新开页），形成可循环的挖矿流程

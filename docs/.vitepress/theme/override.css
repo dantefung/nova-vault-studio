@@ -857,12 +857,20 @@ textarea {
   line-height: 1.8;
 }
 
+.vp-landing .library-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
 .vp-landing .library-hero-action {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  margin-top: 32px;
-  padding: 11px 16px;
+  min-height: 44px;
+  padding: 10px 18px;
   border: 1px solid var(--library-primary);
   border-radius: 8px;
   color: var(--library-primary);
@@ -1067,6 +1075,17 @@ textarea {
 
   .vp-landing .library-description {
     font-size: 15px;
+  }
+
+  .vp-landing .library-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 24px;
+    gap: 12px;
+  }
+
+  .vp-landing .library-hero-actions .library-hero-action {
+    justify-content: center;
   }
 
   .vp-landing .library-section {
