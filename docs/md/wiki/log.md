@@ -3239,3 +3239,14 @@ source: "llm-wiki"
 - 归档《4.1K Star！OpenKnowledge》微信公众号至 sources/open-knowledge-markdown-ide.md
 - 下载 6 张配图至 images/open-knowledge-markdown-ide/
 - 内容摘要：Inkeep 团队开源的 Markdown IDE，人用可视化编辑器写文档，Agent 通过 MCP/Skills 读取；同一批文件多人协作，Git 记录版本，解决 Claude、Codex、Cursor 各自重复理解背景的问题
+
+## [2026-09-08] ingest: 太好说话的人，为什么更穷？
+
+- 归档至 sources/nice-vs-kind-agreeableness.md
+- 内容摘要：心理学论文《好人垫底》揭示随和与财富的反向关系；Adam Grant 区分"门垫式给予者"与"不随和的给予者"；核心建议：动机上给予，外壳上有边界，区分 nice（让人舒服）和 kind（对人好）
+
+## [2026-09-08] ingest: 手机电脑无缝衔接跑任务——Vibecoding 的完全体
+
+- 归档至 sources/vibecoding-mobile-computer-seamless.md
+- 下载 19 张配图至 images/vibecoding-mobile-computer-seamless/
+- 内容摘要：作者分享 Vibecoding 工作流——通过 UU 远程在手机查看 Codex/GPT 任务进度，实现多任务并发（网页、工具、测试同时进行），突破必须在电脑前等待确认的限制
