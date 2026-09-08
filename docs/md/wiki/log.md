@@ -3227,3 +3227,15 @@ source: "llm-wiki"
 - 归档《技术栈推荐：围绕 AI 反馈闭环做选型》微信公众号至 sources/ai-feedback-closed-loop-tech-stack.md
 - 下载 2 张配图至 images/ai-feedback-closed-loop-tech-stack/
 - 内容摘要：lencx 分享围绕 AI agent 反馈闭环的技术栈选型——pnpm v12 + TS v7 + Vite v8 + Oxlint/Oxfmt + React/Astryx，配合 lencx/skills 和 Matt Pocock Skills 实现架构治理与开发约束的自动化
+
+## [2026-09-08] ingest: Agent 长记忆落地——摘要+检索+衰减三层方案
+
+- 归档《Agent长记忆落地》微信公众号至 sources/agent-long-term-memory-layered.md
+- 下载 7 张配图至 images/agent-long-term-memory-layered/
+- 内容摘要：作者实践总结 Agent 长记忆分层方案——滚动摘要压缩旧对话、向量检索召回相关记忆、时间衰减淘汰过期条目；全量塞上下文导致 Token 账单爆炸，三层架构压缩率 93%，回答质量反升
+
+## [2026-09-08] ingest: OpenKnowledge —— 让 Claude、Codex、Cursor 共用一套知识库的 Markdown IDE
+
+- 归档《4.1K Star！OpenKnowledge》微信公众号至 sources/open-knowledge-markdown-ide.md
+- 下载 6 张配图至 images/open-knowledge-markdown-ide/
+- 内容摘要：Inkeep 团队开源的 Markdown IDE，人用可视化编辑器写文档，Agent 通过 MCP/Skills 读取；同一批文件多人协作，Git 记录版本，解决 Claude、Codex、Cursor 各自重复理解背景的问题
