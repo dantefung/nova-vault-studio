@@ -3250,3 +3250,8 @@ source: "llm-wiki"
 - 归档至 sources/vibecoding-mobile-computer-seamless.md
 - 下载 19 张配图至 images/vibecoding-mobile-computer-seamless/
 - 内容摘要：作者分享 Vibecoding 工作流——通过 UU 远程在手机查看 Codex/GPT 任务进度，实现多任务并发（网页、工具、测试同时进行），突破必须在电脑前等待确认的限制
+
+## [2026-09-08] ingest: 词太小上不去？从已验证的页面往上下游挖，比找新词稳
+
+- 归档至 sources/seo-upstream-downstream-keyword-mining.md
+- 内容摘要：SEO 方法教程——利用 GSC 找出「门口词」（有展示、排名 8-30、CTR 低），往下游走长尾变体（限定词/疑问词/格式对），往上探边界词，落回页面三种方式（扩标题/加章节/新开页），形成可循环的挖矿流程
