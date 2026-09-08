@@ -38,6 +38,7 @@ url: "https://github.com/Conn-Ho/harness-engineering"
 | [工具、Context 隔离与对抗性 Agent 分工](tools-context-adversarial-agents.md) | 工具是武器、Context 隔离是分工基础、对抗拆分保障质量、人的判断密度在升高 |
 | [大模型 vs 大驭化层 辩论](debate-big-model-vs-harness.md) | 两派核心论据对比分析 |
 | [生态工具对比](ecosystem-tools-comparison.md) | Harness 生态中不同工具的定位和适用场景 |
+| [Harness开源框架Hermes‑Agent详解](./hermes-agent-detail.md) | Hermes 开源框架核心架构解析，Agent 设计与实现细节 |
 
 ## 模板
 
