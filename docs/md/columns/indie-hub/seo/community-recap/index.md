@@ -34,6 +34,7 @@ url: ""
 | 07-20 | [Creem 支付大面积封号，SEO Agent 模型切换引热议](./2026-07-20-community-recap.md) |
 | 07-21 | [哥飞四城晚宴启程，SEO Agent 持续打磨](./2026-07-21-community-recap.md) |
 | 08-23 | [金果：做网站前3个月一分钱没赚，一年后他做到了月入万刀](./2026-08-23-jinguo-first-dollar.md) |
+| 09-09 | [19岁大学退学卖表情包素材起步，不到一年融资300万美元](./gefei-emoji-stickers-fund.md) |
 
 ---
 
