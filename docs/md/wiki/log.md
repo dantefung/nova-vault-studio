@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-09-09] ingest: 笔记系统（AngusWG blog）
+
+- 来源：`https://anguswg.github.io/blog/pages/fa9ff695-a87f-42c7-9674-3e4a9ab22866/`
+- 主题：基于 VS Code + Foam + GTD 的数字化第二大脑笔记系统搭建实践
+- 核心内容：GTD 流水线（收集/处理/组织/检查/行动/回顾）+ To Do / Anki / PageNote 工具集成 + 图床选型与搜索定位技巧
+- 写入 `docs/md/wiki/sources/anguswg-note-system.md`
+
+
 ## [2026-08-26] ingest: Anthropic 官方指南：AI Native 开发手册（金色传说大聪明，编译自 Anthropic 博客）
 
 - 来源：`https://mp.weixin.qq.com/s/3Mh8CNQewKmU2I8nePnxrA`
