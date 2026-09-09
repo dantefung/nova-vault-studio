@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-09-09] ingest: 笔记系统（AngusWG blog）
+
+- 来源：`https://anguswg.github.io/blog/pages/fa9ff695-a87f-42c7-9674-3e4a9ab22866/`
+- 主题：基于 VS Code + Foam + GTD 的数字化第二大脑笔记系统搭建实践
+- 核心内容：GTD 流水线（收集/处理/组织/检查/行动/回顾）+ To Do / Anki / PageNote 工具集成 + 图床选型与搜索定位技巧
+- 写入 `docs/md/wiki/sources/anguswg-note-system.md`
+
+
 ## [2026-08-26] ingest: Anthropic 官方指南：AI Native 开发手册（金色传说大聪明，编译自 Anthropic 博客）
 
 - 来源：`https://mp.weixin.qq.com/s/3Mh8CNQewKmU2I8nePnxrA`
@@ -3255,3 +3263,8 @@ source: "llm-wiki"
 
 - 归档至 sources/seo-upstream-downstream-keyword-mining.md
 - 内容摘要：SEO 方法教程——利用 GSC 找出「门口词」（有展示、排名 8-30、CTR 低），往下游走长尾变体（限定词/疑问词/格式对），往上探边界词，落回页面三种方式（扩标题/加章节/新开页），形成可循环的挖矿流程
+
+## [2026-09-09] ingest: 企业级MultiAgent Plan模式
+
+- 归档《企业级 MultiAgent 落地：Plan 模式与主子 Agent 协作》微信公众号至 sources/dewu-multiagent-plan-subagent.md
+- 内容摘要：基于 AgentScope Java 的企业级 MultiAgent 平台设计，介绍 Plan 全生命周期、主/子 Agent 协作、A2A 跨服务协议及多租户隔离、全链路追踪等企业级能力保障
