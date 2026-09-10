@@ -45,6 +45,7 @@ source: "微信公众号"
 | 14 | [10 张图详细拆解 DeepSeek Harness 设计架构](./14-xuanyuan-dsh-architecture-deep-dive.md) | 08-25 | 三阶段运行时、Profile/Bundle/Patch 三层组装、Cordis 插件框架四能力、四种 Preset、Turn/Step 模型、SessionEvent |
 | 15 | [我扒了 1W 个仓库，重新看了一遍 DSH 插件生态](./15-dsh-plugin-ecosystem-10k.md) | 08-24 | 9393 仓库全量枚举、rc.1 破坏性变更试金石、27 品类全景分布、10 大精选原生插件 |
 | 16 | [The deepseek of DSH：过度工程，还是为自进化而建？](./16-zhenjia-dsh-overengineering-self-evolution.md) | 08-25 | 三派开发流派（库/成品/平台）、DSH 一切皆插件、时空可组合性（id=interface, name=implementation）、自进化五级、Prime Agent refinement 管线 |
+| 17 | [兼容不是复制：DeepSeek Harness 如何把 Claude Code 生态接进自己的 seam](./17-deepseek-harness-claude-code-ecology.md) | 09-10 | DeepSeek Harness 接入 Claude Code 生态的兼容策略，seam 设计思路 |
 
 ---
 
