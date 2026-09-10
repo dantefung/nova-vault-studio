@@ -108,6 +108,7 @@ date: "2026-05-05"
 - [archify](https://github.com/tt-a1i/archify) — **36.4K Stars**，JetBrains 之外的明星项目，Agent 技能：将代码库或系统描述转化为精美的交互式架构/工作流/序列图/数据流/生命周期图——自包含 HTML，含动效和高清导出。支持 Claude Code/Codex/Py/Twitter/OpenCode 等平台。五大图表类型、四种预设、暗/亮主题、内置品牌标识。支持 Before/Delta/After 三栏对比，搜索节点、溯源代码、生成 1200×630 分享卡。安装：`npx skills add tt-a1i/archify -g`
 - [effective-html](https://github.com/plannotator/effective-html) — **2.8K Stars**，Plannotator 出品的 HTML 原型/Skill 集合：专注生成实用的自包含 HTML artifacts——从低保真线框图到可交互原型。六大 Skill：html（综合）、design-artifact（创意方向）、html-wireframe（低保真布局）、html-prototype（可交互原型）、html-plan（路线图/计划）、html-diagram（架构图/序列图/流程图）。安装：`npx skills add plannotator/effective-html`，官方指南 [effectivehtml.com](https://www.effectivehtml.com/)
 - [lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) — 数据可视化 Skill：先判断数据适合哪种图表，再从已有图库中挑选，而非上来就套柱状图/折线图/饼图；支持年度阅读报告等 HTML 页面生成；官方模板可替换品牌色/背景/字体，套 PPT 风格。注意：部分图表需联网加载依赖；许可为 PolyForm Noncommercial 1.0.0，商业使用需确认。安装：`npx skills add larashero3-dotcom/lieflat-charts --skill lieflat-charts`
+- [白嫖警告：这个图表 Skill 太猛了，正在悄悄拉高所有人的审美标准](./chart-skill-recommend.md) — 推荐一款图表 Skill，支持架构图/流程图/时序图等多种类型，适合独立开发者做产品界面
 
 ---
 
@@ -244,6 +245,7 @@ date: "2026-05-05"
 - [Agentic Design Patterns 中文版（另一译本）](https://github.com/fzy2012/rhzl-Agentic-Design-Patterns-cn)
 - [上下文工程：AI Agent 有效上下文设计](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic 官方工程博客
   - [为 Agent 编写工具](https://www.anthropic.com/engineering/writing-tools-for-agents) — Anthropic 官方工程博客
+- [anthropics/commerce-agents](https://github.com/anthropics/commerce-agents) — Anthropic 官方电商/商业场景 Agent 参考实现，涵盖结账、退款、订单状态查询等商业流程的 Agent 化方案
   - [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) — 官方风格 Harness Engineering 教程，12 lectures + 6 projects + 多语言翻译，4.1k stars
   - [OpenHarness](https://github.com/HKUDS/OpenHarness) — Python Harness 实现 + ohmo 个人 Agent，内置 43 tools、MCP、权限系统，12.4k stars
 - [12-factor-agents](https://github.com/humanlayer/12-factor-agents) — **23.8k Stars**，HumanLayer 出品的「**生产级 LLM Agent 12 原则**」，致敬 12 Factor Apps。核心理念——**好的 Agent 大部分时间就是普通软件，LLM 只在最关键节点做决策**，不是「prompt + 工具袋 + 循环跑」那么简单。12 因素：①自然语言→工具调用 ②自己管 prompt ③自己管 context window ④工具=结构化输出 ⑤统一执行态和业务态 ⑥启停/恢复用简单 API ⑦用工具调用联系人类 ⑧自己管控制流 ⑨错误压回 context ⑩小而聚焦的 Agent ⑪任意地方触发 ⑫Agent=无状态 reducer。配套 `npx create-12-factor-agent` 脚手架
