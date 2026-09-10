@@ -36,6 +36,7 @@ url: ""
 | 08-23 | [金果：做网站前3个月一分钱没赚，一年后他做到了月入万刀](./2026-08-23-jinguo-first-dollar.md) |
 | 09-09 | [19岁大学退学卖表情包素材起步，不到一年融资300万美元](./gefei-emoji-stickers-fund.md) |
 | 09-10 | [白天上班，晚上做网站，3个人4年做到年化收入3200万美元](./gefei-3people-32m-arr.md) |
+| 09-10 | [10年前王杨在seowhy学到双权重7，祝老师节日快乐](./wangyang-seowhy-double-pr7.md) |
 
 ---
 
