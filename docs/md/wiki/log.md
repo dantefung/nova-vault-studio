@@ -3268,3 +3268,9 @@ source: "llm-wiki"
 
 - 归档《企业级 MultiAgent 落地：Plan 模式与主子 Agent 协作》微信公众号至 sources/dewu-multiagent-plan-subagent.md
 - 内容摘要：基于 AgentScope Java 的企业级 MultiAgent 平台设计，介绍 Plan 全生命周期、主/子 Agent 协作、A2A 跨服务协议及多租户隔离、全链路追踪等企业级能力保障
+
+## [2026-09-11] ingest: GA4探索报告完整指南（微信公众号 Haran）
+
+- 归档《GA4探索报告完整指南：如何选择自由形式、漏斗、路径、同类群组和细分》至 sources/ga4-exploration-guide.md
+- 下载 6 张配图至 images/ga4-exploration-guide/
+- 内容摘要：GA4 探索报告 7 种核心分析方法详解——自由形式、漏斗、路径、细分重叠、用户分层、同类群组、用户生命周期，以及细分/对比项/筛选条件的区别
