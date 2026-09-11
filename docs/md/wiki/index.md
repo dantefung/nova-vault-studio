@@ -317,3 +317,13 @@ wiki/
 ## 最新收录
 
 > 见 [log.md](./log.md)
+
+---
+
+### 数据分析 (Analytics)
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [ga4-exploration-reports](/md/wiki/concepts/ga4-exploration-reports) | GA4 探索报告 7 种核心分析方法：自由形式、漏斗、路径、细分重叠、用户分层、同类群组、用户生命周期 | 公众号 |
+| [ga4-segment-vs-comparison](/md/wiki/concepts/ga4-segment-vs-comparison) | 细分、对比项、筛选条件三者辨析：作用范围与可复用性的关键区别 | 公众号 |
+| [ga4-metrics-concepts](/md/wiki/concepts/ga4-metrics-concepts) | GA4 指标体系：事件级/用户级/会话级三类指标及转化率、AOV、LTV、留存率 | 公众号 |
