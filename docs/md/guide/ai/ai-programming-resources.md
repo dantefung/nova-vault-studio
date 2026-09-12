@@ -229,7 +229,7 @@ date: "2026-05-05"
   - **道法术器**：目的主导、上下文第一性、先结构后代码、奥卡姆剃刀、帕累托法则
   - **编码模型分级**：第一梯队（codex-5.1-max-xhigh、claude-opus-4.5-xhigh、gpt-5.2-xhigh）
   - **资源库**：提示词大全（在线表格）、Skills 技能大全、系统提示词仓库、通用项目架构模板
-  - **工具推荐**：VSCode、Cursor、Warp、Neovim、Claude Opus 4.5、GPT-5.1 Codex、Gemini CLI 等
+  - **工具推荐**：VSCode、Cursor、Warp、Neovim、Claude Opus 4.5、GPT-5.1 Codex、Gemini CLI、[Gemini Desktop](https://gemini.google/desktop/) 等
   - 安装：克隆仓库即可使用，内含 Makefile 自动化脚本
   - **Zread 深度解读**：[zread.ai/tukuaiai/vibe-coding-cn](https://zread.ai/tukuaiai/vibe-coding-cn/1-overview) — AI 驱动的 GitHub 仓库阅读工具，提供完整知识图谱和概念索引
 
