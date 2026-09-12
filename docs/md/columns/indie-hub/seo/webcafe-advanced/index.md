@@ -39,6 +39,7 @@ url: "https://new.web.cafe/tutorial/0c91c83924e9495aa75384becf6304ff"
 | 09 | [看排行榜挖掘赚钱产品](./stripe-ranking-revenue.md) | 基于 Stripe 入站流量估算收入 |
 | 10 | [哥飞看词：帮社群朋友看关键词](./keyword-analysis-example.md) | 实战案例分析 |
 | 11 | [Search SEOul 2026 首尔现场全记录](./search-seoul-2026.md) | Google 搜索团队 + 21 场演讲：AI 搜索未让 SEO 失效，工作分三层 |
+| 12 | [挖回来的词别全建新页：三选一判断表](./keyword-decision-table.md) | 袁锐钦：三步判断关键词是否值得建新页面，避免内容稀释 |
 
 ---
 
