@@ -38,6 +38,7 @@ url: ""
 | 09-10 | [白天上班，晚上做网站，3个人4年做到年化收入3200万美元](./gefei-3people-32m-arr.md) |
 | 09-10 | [10年前王杨在seowhy学到双权重7，祝老师节日快乐](./wangyang-seowhy-double-pr7.md) |
 | 09-12 | [华强北卖家嫌客服邮件太多写了个工具，拿到6600万美元融资](./huaqiangbei-66m-fund.md) |
+| 09-13 | [网站出海每日分享（Aichuhai系列43篇）](./aichuhai-series/index.md) |
 
 ---
 
