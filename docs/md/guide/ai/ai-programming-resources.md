@@ -171,6 +171,7 @@ date: "2026-05-05"
 - [llm-wiki-starter](https://github.com/eleven-net-cn/llm-wiki-starter) — 一键创建 LLM Wiki 知识库，基于 Andrej Karpathy 的 LLM Wiki 模式
 - [ElysiaJS](https://elysiajs.com) — Bun 生态最快的 TypeScript 后端框架，基于 OpenAPI 3.x 规范，类型安全、极速性能，支持 Swagger 文档自动生成
 - [thinkrail](https://github.com/JetBrains/thinkrail) — **372 Stars**，JetBrains 孵化项目：用 `pi` 编码代理驱动的轻量级真实 IDE，vibe coding 工具。Desktop + CLI 双形态，支持 git worktree 多工作区，内嵌 Monaco 编辑器 + 多 tab + 终端 + spec-graph 视图。架构三圈：engine host（Bun.serve HTTP+WS）/ wire（typed contracts）/ UI client（React 19 + Zustand + Tailwind v4）。官网 [thinkrail.ai](https://thinkrail.ai/)，协议 Apache-2.0
+- [VMark](https://github.com/xiaolai/vmark) — **718 Stars**，李笑来开源的 AI 原生 Markdown 编辑器，支持 MCP 协议直连 Claude/Codex/Gemini，AI 直接读写本地文档不需复制粘贴，中日韩排版规则本地优先，ISC 协议
 - [edgetunnel](https://github.com/cmliu/edgetunnel) — **41.1k Stars**，基于 Cloudflare Workers/Pages 的 VLESS/Trojan/SS 多功能面板，支持订阅系统和多平台客户端适配
 - [OpenWorker](https://github.com/andrewyng/openworker) — 吴恩达开源的桌面 AI 助手，自动处理文档/日程/邮件等杂事，支持 25+ 工具（GitHub/Slack/Jira/Notion/Gmail/Google日历），模型灵活（OpenAI/Claude/Gemini/DeepSeek/Ollama），隐私本地存储
 - [ego-lite](https://lite.ego.app/zh-cn) — 为 AI Agent 打造的"最快浏览器"，基于 Chromium 的一键迁移 Chrome 数据的 Agent 浏览器，免费无配置。核心特性：①ego-browser 技能，一个安装即可被 Claude Code/Codex/Cursor/Kiro/Hermes/OpenClaw/OpenCode 等所有 Agent 操控；②Semantic Snapshot 内置在定制 Chromium 引擎中（非 JS 适配层），Snapshot 返回更快、ref 操作更可靠，可访问跨域 iframe、Shadow DOM、Stripe/Salesforce/Intercom/React Portal 等第三方 SDK；③Agent 在独立 Space 中运行，与用户互不干扰，支持多任务并行，最高快 3.45 倍，Token 消耗更低；④Agent 继承用户真实登录态，不再卡在验证码/双重验证/SSO；⑤零费用零配置，仅 Mac 版
