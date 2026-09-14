@@ -4,6 +4,6 @@ docs/.vitepress/dist
 node_modules
 
 # Large asset directories
-docs/md/books/
+docs/md/books/**/*.pdf
 docs/md/columns/java-best-practices/images/
 docs/md/columns/indie-hub/zlbigger/
