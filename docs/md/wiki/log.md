@@ -3274,3 +3274,12 @@ source: "llm-wiki"
 - 归档《GA4探索报告完整指南：如何选择自由形式、漏斗、路径、同类群组和细分》至 sources/ga4-exploration-guide.md
 - 下载 6 张配图至 images/ga4-exploration-guide/
 - 内容摘要：GA4 探索报告 7 种核心分析方法详解——自由形式、漏斗、路径、细分重叠、用户分层、同类群组、用户生命周期，以及细分/对比项/筛选条件的区别
+
+## [2026-09-14] ingest: 哥飞SEO作业竞品分析SOP（微信公众号·刘辣可AI出海）
+
+- 来源：`https://mp.weixin.qq.com/s/G2jnOpIzyuJqB9HombnMIA`
+- 主题：竞品SEO分析五步法 — SimilarWeb流量摸底 → 非品牌关键词挖掘 → AITDK页面解剖 → SERP无限循环
+- 核心框架：5分钟摸家底（总流量+粘性指标+流量构成）→ 挖非品牌词（理解用户真实需求而非品牌知名度）→ 页面拆解（Title/Description/H1/词频分析）→ SERP滚雪球（验证真实战场+发现新对手）
+- 关键洞察：分析品牌词只能知道多有名；分析非品牌词才能知道如何通过满足"未知用户"需求变得有名
+- 写入 `docs/md/wiki/sources/geofei-seo-homework-analysis.md`
+- 下载 20 张配图至 `images/g2jn-opi-zyuJqB9HombnMIA/`
