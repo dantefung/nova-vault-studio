@@ -12,6 +12,7 @@ date: "2026-05-29"
 | 日期 | 链接 | 备注 |
 |------|------|------|
 | 2026-09-14 | https://www.goodreads.com/en/book/show/43190966-refactoring-ui | **Refactoring UI** — 设计/前端重构经典 |
+| 2026-09-14 | https://x.com/jinli_lg/status/2099120598509310039 | **金力**（科大讯飞研发）：待查看 |
 
 ---
 
