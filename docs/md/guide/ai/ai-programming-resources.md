@@ -362,6 +362,12 @@ date: "2026-05-05"
 
 - [FDE 前线部署工程师指南](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) — 范冰（XDash）著，**1.5k Stars**。免费公开全文，从零入门 FDE（Forward Deployed Engineer）。基于《增长黑客》原书框架，聊清楚三件事：FDE 是什么（从 Palantir 情报项目长出的角色，AI 时代爆发）、怎么做（找对问题→赢得客户→激活部署→守住续约→扩大收入→规模化复制）、谁在做（112 个真实案例）。含 PDF 整本下载。非商业性分享免费
 
+## 开源书籍
+
+- [ai-infra-book](https://github.com/bojieli/ai-infra-book) — **979 Stars**，《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计，含全书正文、PDF、配套计算工具与实验
+
+---
+
 ## 其他
 
 - [Involution Hell](https://involutionhell.vercel.app/) — AI 学习资源导航
