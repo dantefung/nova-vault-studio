@@ -23,6 +23,7 @@ url: "https://new.web.cafe/tutorial/7c36c9a7c6e34d21b8f3efd857d980aa"
 - [如何用 AI 做 SEO 之内容自动批量生成，从搜索引擎获取免费流量](./ai-bulk-seo-content-generation.md)
 - [如何给一个已经上线的网站出 SEO 改造建议](./seo-audit-for-existing-website.md)
 - [月访问量八百万的在线自动化工具站如何用内容做 SEO 获取大量优质免费流量？](./million-visit-tools-site-seo-content-strategy.md)
+- [给网站加多语言，怎么找到当地用户真正会搜的词？](./website-multi-language-keyword-search.md)
 
 ### Ahrefs 工具
 - [介绍几个 Ahrefs 家的免费 SEO 工具 Free SEO Tools（上）](./ahrefs-free-seo-tools-part1.md)
