@@ -1,8 +1,7 @@
+---
+title: "Claude Code 源码架构深度分析"
+---
+
 # Claude Code 源码架构深度分析
 
-<script setup>
-import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('./Claude Code 源码架构深度分析.pdf', import.meta.url).href
-</script>
-
-<PdfViewer :src="pdfUrl" />
+<PdfViewer repo-path="docs/md/books/claude-code-src/Claude Code 源码架构深度分析.pdf" />

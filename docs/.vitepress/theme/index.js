@@ -8,6 +8,8 @@ import SeriesLayout from './layouts/SeriesLayout.vue'
 import CategoryArchiveLayout from './layouts/CategoryArchiveLayout.vue'
 import ArchiveLayout from './layouts/ArchiveLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
+import PdfList from './components/PdfList.vue'
+import PdfViewer from './components/PdfViewer.vue'
 import { createMermaidRenderer } from 'vitepress-mermaid-renderer'
 import { h, nextTick } from 'vue'
 import { setupTheme } from './composables/useTheme.js'
@@ -33,6 +35,8 @@ export default {
     ctx.app.component('BlogCategory', CategoryArchiveLayout)
     ctx.app.component('BlogArchive', ArchiveLayout)
     ctx.app.component('BlogArticleShell', BlogArticleShell)
+    ctx.app.component('PdfList', PdfList)
+    ctx.app.component('PdfViewer', PdfViewer)
     if (typeof window === 'undefined') return
     installUrlParsePolyfill()
     installPromiseWithResolversPolyfill()

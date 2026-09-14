@@ -1,8 +1,7 @@
+---
+title: "claude code architecture analysis"
+---
+
 # claude code architecture analysis
 
-<script setup>
-import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('./claude-code-architecture-analysis.pdf', import.meta.url).href
-</script>
-
-<PdfViewer :src="pdfUrl" />
+<PdfViewer repo-path="docs/md/books/claude-code-src/claude-code-architecture-analysis.pdf" />

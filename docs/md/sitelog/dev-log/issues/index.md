@@ -11,5 +11,6 @@ url: ""
 
 | 日期 | 问题 | 状态 |
 |------|------|------|
+| 2026-09-14 | [书籍库线上 404 与 Vercel 部署阻断](./books-route-404.md) | fixed |
 | 2026-06-26 | [Vercel 构建 OOM](./vercel-build-oom.md) | fixed |
 | 2026-07-22 | [Web.Cafe 内容采集](./webcafe-scraping-handover.md) | wip |

@@ -1,8 +1,7 @@
+---
+title: "zettelkasten"
+---
+
 # zettelkasten
 
-<script setup>
-import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('./zettelkasten.pdf', import.meta.url).href
-</script>
-
-<PdfViewer :src="pdfUrl" />
+<PdfViewer repo-path="docs/md/books/zettelkasten/zettelkasten.pdf" />

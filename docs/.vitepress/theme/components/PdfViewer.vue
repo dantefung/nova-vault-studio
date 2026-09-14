@@ -18,7 +18,7 @@
       <div class="actions">
         <button @click="toggleOutline" title="目录">📑</button>
         <button @click="toggleFullscreen" title="全屏">⛶</button>
-        <a :href="src" target="_blank" rel="noreferrer" title="在新标签页打开">↗</a>
+        <a :href="pdfUrl" target="_blank" rel="noreferrer" title="在新标签页打开">↗</a>
       </div>
     </div>
 
@@ -48,7 +48,7 @@
       >
         <div v-if="error" class="pdf-error">
           <strong>PDF 加载失败：</strong> {{ error }}
-          <div>请确认文件名是否允许 URL 编码，例如避免特殊字符。</div>
+          <div>请确认 PDF 文件存在且网络连接正常。</div>
         </div>
         <canvas v-else ref="canvas" class="pdf-canvas" />
       </div>
@@ -57,8 +57,9 @@
 </template>
 
 <script setup>
-import { ref, nextTick, onMounted, watch } from 'vue'
+import { computed, ref, nextTick, onMounted, watch } from 'vue'
 import PdfOutline from './PdfOutline.vue'
+import { getPdfUrl } from '../utils/pdf-assets.js'
 
 let getDocument
 let GlobalWorkerOptions
@@ -73,10 +74,15 @@ const loadPdfJs = async () => {
 }
 
 const props = defineProps({
-  src: { type: String, required: true },
+  src: { type: String, default: '' },
+  repoPath: { type: String, default: '' },
   page: { type: Number, default: 1 },
   scale: { type: Number, default: 1.2 }
 })
+
+const pdfUrl = computed(() =>
+  props.repoPath ? getPdfUrl(props.repoPath) : props.src
+)
 
 const container = ref(null)
 const canvas = ref(null)
@@ -98,12 +104,12 @@ let isProgrammaticScroll = false
 const EDGE_THRESHOLD = 24
 
 const loadPdf = async () => {
-  if (!props.src) return
+  if (!pdfUrl.value) return
   error.value = null
   pendingScrollPosition = 'top'
   await loadPdfJs()
   try {
-    const loadingTask = getDocument(props.src)
+    const loadingTask = getDocument(pdfUrl.value)
     pdfDocument = await loadingTask.promise
     numPages.value = pdfDocument.numPages
     outline.value = await pdfDocument.getOutline()
@@ -266,7 +272,7 @@ const goToOutline = async (item) => {
 
 onMounted(loadPdf)
 
-watch(() => props.src, loadPdf)
+watch(pdfUrl, loadPdf)
 watch(page, renderPage)
 watch(scale, renderPage)
 </script>

@@ -5,13 +5,8 @@ source: "Zsolt Viczian"
 url: "https://visual-thinking-workshop.com"
 ---
 
-<script setup>
-import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('./Sketch_Your_Mind_-_Zsolt_Viczian.pdf', import.meta.url).href
-</script>
-
 # Sketch Your Mind
 
 > Zsolt Viczian 关于视觉思考、草图表达与创造力训练的实践指南。
 
-<PdfViewer :src="pdfUrl" />
+<PdfViewer repo-path="docs/md/books/visual-systems/Sketch_Your_Mind_-_Zsolt_Viczian.pdf" />
