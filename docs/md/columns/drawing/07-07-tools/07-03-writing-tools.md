@@ -175,6 +175,10 @@ graph TD
 
 最后，将公众号编辑器里面的内容复制，直接黏贴在知乎的编辑器里面，就连同样式 + 图片一起保留了，直接保存或者发布即可了。
 
+### 扩展工具
+
+- [MultiPost Extension](./multipost-extension.md) — 浏览器多平台一键发布扩展
+
 [img-0]:images/07-03-writing-tools/p01.jpg
 
 [img-1]:images/07-03-writing-tools/p02.gif
