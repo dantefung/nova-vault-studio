@@ -3283,3 +3283,10 @@ source: "llm-wiki"
 - 关键洞察：分析品牌词只能知道多有名；分析非品牌词才能知道如何通过满足"未知用户"需求变得有名
 - 写入 `docs/md/wiki/sources/geofei-seo-homework-analysis.md`
 - 下载 20 张配图至 `images/g2jn-opi-zyuJqB9HombnMIA/`
+
+## [2026-09-15] ingest: Codex + Hypit 视频复刻工作流
+
+- 归档 Rachel（@Zesee）X 线程至 sources/hypit-agent-video-workflow.md
+- 下载 1 张演示视频封面至 images/hypit-agent-video-workflow/；原始视频约 40 MB，仓库无 Git LFS，未纳入版本库
+- 新增精读摘要 summaries/hypit-agent-video-workflow.md，并更新 concepts/ai-content-pipeline.md
+- 内容摘要：Hypit 把人物、台词、字幕、B-roll 和特效绑定到文字与叙事事件，而非绝对时间点，使 Codex 等 Agent 能把一次视频复刻沉淀为可局部修改、换人换语言和批量生成的视频工作流

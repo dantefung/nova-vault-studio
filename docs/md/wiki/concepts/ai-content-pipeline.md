@@ -87,6 +87,12 @@ npx hyperframes validate   # 检查字幕/对比度/音频轨道
 | 边际成本 | 线性 | 接近零 |
 | 人的角色 | 制作人 | 选品/微调 |
 
+## 新案例：从复刻成片到提取视频工作流
+
+Rachel 的 Hypit 演示把这套思路推进到视频内部：人物、台词、字幕、B-roll 和特效跟随文字与叙事事件，而不是固定在绝对时间点。这样，换主持人只重做相关镜头，修改图表或背景只调整对应组件。
+
+这里的资产不再只是最终 MP4，而是 Agent 可以继续修改的叙事结构。参考视频因此既是待复刻的样本，也是工作流提取的输入。详见 [[summaries/hypit-agent-video-workflow]]。
+
 ## 适用场景特征
 
 ✅ **适合做流水线的内容品类**：
@@ -118,5 +124,6 @@ npx hyperframes validate   # 检查字幕/对比度/音频轨道
 
 - [[sources/ai-book-short-video-pipeline]] — 完整 12 步案例（Bytec @Bytec99）
 - [[sources/codex-video-production-skills]] — Codex 视频制作 6 个 GitHub Skills
+- [[sources/hypit-agent-video-workflow]] — Codex + Hypit 将视频复刻沉淀为可修改的叙事组件工作流
 - [[sources/codex-app-beginner-tutorial]] — Codex App 入门（理解 Agent 工作台）
 - [[concept-content-factory]] — 主题级内容工厂（同一思想，更大范围）
