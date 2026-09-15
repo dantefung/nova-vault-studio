@@ -11,7 +11,7 @@ url: "https://github.com/VastNext/rapid-agent-team-config"
 
 **项目来源：** [https://github.com/VastNext/rapid-agent-team-config](https://github.com/VastNext/rapid-agent-team-config)  
 **关联项目：** [opencode-rapid-agent-team](https://github.com/VastNext/opencode-rapid-agent-team)  
-**当前版本：** v0.1.12  
+**当前版本：** v0.1.14
 **技术栈：** Rust + wry/tao + 原生前端  
 
 ---
@@ -84,25 +84,110 @@ url: "https://github.com/VastNext/rapid-agent-team-config"
 
 ---
 
-## 3. 安装方式
+## 3. 最新安装方式
 
-### 方式一：下载预编译二进制（推荐）
+### 3.1 Debian / Ubuntu（推荐）
 
-前往 [Releases 页面](https://github.com/VastNext/rapid-agent-team-config/releases) 下载对应平台文件。
+下载并安装 `v0.1.14`：
+
+```bash
+wget https://github.com/VastNext/rapid-agent-team-config/releases/download/v0.1.14/rapid-agent-team-config_0.1.14-1_amd64.deb
+sudo apt install ./rapid-agent-team-config_0.1.14-1_amd64.deb
+```
+
+如果已经安装过旧版本，直接执行同一条 `apt install` 命令即可覆盖升级，**不需要先卸载**。升级不会删除已有的 OpenCode 配置。
+
+安装完成后检查版本：
+
+```bash
+dpkg -s rapid-agent-team-config | grep Version
+```
+
+预期输出：
+
+```text
+Version: 0.1.14-1
+```
+
+然后从应用菜单启动 **Rapid Agent Team Configurator**，或在终端运行：
+
+```bash
+RapidAgentTeamConfig
+```
+
+### 3.2 Windows
+
+从 [`v0.1.14` Release](https://github.com/VastNext/rapid-agent-team-config/releases/tag/v0.1.14) 下载：
+
+```text
+RapidAgentTeamConfig-windows-x64.exe
+```
+
+下载后直接双击运行，无需安装 Node.js 或 Rust。
 
 > **Windows 注意：** 当前版本未配置 Authenticode 签名证书，首次运行可能出现 SmartScreen「未知发布者」提示。请下载同目录下的 `.sha256` 文件核对校验值。
 
-### 方式二：从源码编译
+### 3.3 macOS
+
+根据 Mac 的处理器下载对应文件：
+
+| Mac 类型 | 下载文件 |
+|---|---|
+| Apple Silicon（M1/M2/M3/M4） | `RapidAgentTeamConfig-macos-arm64` |
+| Intel Mac | `RapidAgentTeamConfig-macos-x64` |
+
+首次运行前赋予执行权限：
+
+```bash
+chmod +x RapidAgentTeamConfig-macos-arm64
+./RapidAgentTeamConfig-macos-arm64
+```
+
+Intel Mac 请将命令中的文件名替换为 `RapidAgentTeamConfig-macos-x64`。
+
+### 3.4 Linux 通用二进制
+
+不使用 Debian 包时，可以下载：
+
+```text
+RapidAgentTeamConfig-linux-x64
+```
+
+然后运行：
+
+```bash
+chmod +x RapidAgentTeamConfig-linux-x64
+./RapidAgentTeamConfig-linux-x64
+```
+
+系统仍需提供 GTK 3 和 WebKitGTK 4.1 运行库。Debian/Ubuntu 用户优先使用 `.deb`，由包管理器自动处理依赖。
+
+### 3.5 校验下载文件
+
+`v0.1.14` Debian 包的 SHA-256：
+
+```text
+cdd69f6ba3203585b40542983dfb6aa9762f1be3c784b84a98f5de164a2813f2
+```
+
+校验命令：
+
+```bash
+sha256sum rapid-agent-team-config_0.1.14-1_amd64.deb
+```
+
+输出的哈希值必须与上面完全一致。其他平台的校验文件可从 [`v0.1.14` Release](https://github.com/VastNext/rapid-agent-team-config/releases/tag/v0.1.14) 一并下载。
+
+### 3.6 从源码编译
 
 **环境要求：** Rust 1.75+、`libwayland-dev`、`libxkbcommon-dev`、`libglib2.0-dev`、`libcairo2-dev`、`libgtk-3-dev`、`libwebkit2gtk-4.1-dev`
 
 ```bash
-git clone --depth 1 https://github.com/VastNext/rapid-agent-team-config.git \
-  /home/fenghaolin/workspace/prj/opensource/rapid-agent-team-config
-cd /home/fenghaolin/workspace/prj/opensource/rapid-agent-team-config
+git clone --depth 1 --branch v0.1.14 \
+  https://github.com/VastNext/rapid-agent-team-config.git
+cd rapid-agent-team-config
 cargo build --release
-# 产物：target/release/RapidAgentTeamConfig（约 7.4 MB）
-# 已复制到 bin/RapidAgentTeamConfig
+# 产物：target/release/RapidAgentTeamConfig
 ```
 
 **常用构建命令：**
@@ -115,23 +200,11 @@ cargo run               # 本地调试运行
 cargo build --release   # 发布单文件可执行程序
 ```
 
-### 已编译二进制位置
+### 3.7 从 v0.1.13 升级
 
-帅哥的编译产物已保存在：
+Debian/Ubuntu 用户如果遇到界面长期停留在“正在扫描 OpenCode 配置环境...”，说明很可能仍在使用 `v0.1.13`。该版本在 Linux WebKitGTK 中使用了不可靠的 IPC 调用方式，请直接覆盖安装 `v0.1.14`。
 
-```
-/home/fenghaolin/workspace/prj/opensource/rapid-agent-team-config/bin/RapidAgentTeamConfig
-```
-
-直接运行即可启动 GUI：
-
-```bash
-/home/fenghaolin/workspace/prj/opensource/rapid-agent-team-config/bin/RapidAgentTeamConfig
-```
-
----
-
-## 4. 运行方式
+`v0.1.14` 已改用 Wry 原生 IPC，并在扫描失败时显示明确错误，不再一直停留在扫描占位界面。
 
 ## 4. 安全设计（Zero Credential Guarantee）
 
