@@ -166,6 +166,7 @@ date: "2026-05-05"
 - [Better-Fullstack](https://github.com/Marve10s/Better-Fullstack) — 项目生成器，270+ 技术栈组合（TS/Rust/Python/Go），前端/后端/数据库/Auth/支付/AI/DevOps 一键配置，开箱即用
 - [obsidian-wechat-converter](https://github.com/DavidLam-oss/obsidian-wechat-converter) — 将 Obsidian 笔记转换为微信公众号格式，支持标题、图片、代码块等格式转换
 - [ponytail](https://github.com/DietrichGebert/ponytail) — 待查看
+- [agent-skills](https://github.com/addyosmani/agent-skills) — Addy Osmani 的 Agent Skills 集合
 - [wechat-ai-memory](https://github.com/ikevss/wechat-ai-memory) — **263 Stars**，本地优先的 Windows 微信个人记忆库，按会话/日期/关键词筛选聊天上下文导出为 PDF/Markdown/JSON，图片语音全支持，全程不上传，MIT 协议
 - [AIHOT 选题工具](https://aihot.virxact.com) — 卡兹克开源的 AI 热点选题工具，帮助快速发现和筛选内容选题方向
 - [云图 (Cloudimgs)](https://github.com/qazzxxx/cloudimgs) — NAS 自建图床解决方案，支持 Docker 部署
