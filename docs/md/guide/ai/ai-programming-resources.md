@@ -35,6 +35,14 @@ date: "2026-05-05"
 
 - [内容运营人必装的4个skill（上）](https://mp.weixin.qq.com/s/kqcpZKJLJMh2EyJF3wJTbw) — Agent Reach（AI上网能力）、Marketing Skills（营销方法论提示词）、RedBox（小红书创作工具）、Scrapling（高级网页爬虫）、Maccy（剪贴板管理器）
 
+### 热点监控
+
+- [SoPilot](https://sopilot.net/zh) — X 上正在起爆话题与推文监控
+- [Today热榜](https://tophub.today) — 今日多平台热榜聚合
+- [NewsNow](https://newsnow.busiyi.world) — 精美实时热榜
+- [AIHOT](https://aihot.news) — 卡兹克全球 AI 热门动态
+- **AIHOT Agent**（卡兹克）— 定时汇报 AI 当天重点新闻，并可据热点生成 X/小红书等内容草稿
+
 ---
 
 ## Claude Skills 精选（2026年）
