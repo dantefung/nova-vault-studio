@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/G2jnOpIzyuJqB9HombnMIA"
 
 > 一份在圈内流传的哥飞SEO作业，不是枯燥理论，而是一套完整的竞品分析SOP。用SimilarWeb + AITDK插件 + Instant Data Scraper，从流量摸底到SERP滚雪球，步步拆解对手的获客密码。
 
-![作业封面](../../images/g2jn-opi-zyuJqB9HombnMIA/001.jpeg)
+![作业封面](../images/g2jn-opi-zyuJqB9HombnMIA/001.jpeg)
 
 你是否也想做出海AI产品，看到别人赚钱，却不知如何找到自己的切入点？
 
@@ -25,7 +25,7 @@ url: "https://mp.weixin.qq.com/s/G2jnOpIzyuJqB9HombnMIA"
 
 **先看总流量：**
 
-![SimilarWeb总流量](../../images/g2jn-opi-zyuJqB9HombnMIA/002.png)
+![SimilarWeb总流量](../images/g2jn-opi-zyuJqB9HombnMIA/002.png)
 
 页面下方还有四个用户粘性指标需要注意：
 
@@ -34,11 +34,11 @@ url: "https://mp.weixin.qq.com/s/G2jnOpIzyuJqB9HombnMIA"
 - **Avg. Visit Duration（平均访问时长）**：用户在站停留时间
 - **Total Visits（总访问量）**：本次只需记录这个
 
-![粘性指标](../../images/g2jn-opi-zyuJqB9HombnMIA/003.png)
+![粘性指标](../images/g2jn-opi-zyuJqB9HombnMIA/003.png)
 
 **然后看流量构成：**直接访问量 vs 自然搜索流量（organic search，图表直译成「有机」容易误解）
 
-![流量构成](../../images/g2jn-opi-zyuJqB9HombnMIA/004.png)
+![流量构成](../images/g2jn-opi-zyuJqB9HombnMIA/004.png)
 
 了解几个关键概念：
 
@@ -53,7 +53,7 @@ url: "https://mp.weixin.qq.com/s/G2jnOpIzyuJqB9HombnMIA"
 
 **统计后的数据：**
 
-![数据统计](../../images/g2jn-opi-zyuJqB9HombnMIA/005.png)
+![数据统计](../images/g2jn-opi-zyuJqB9HombnMIA/005.png)
 
 会发现直接搜索和自然搜索流量占了总流量的80%多，大致可以得出两个结论：
 
@@ -87,23 +87,23 @@ url: "https://mp.weixin.qq.com/s/G2jnOpIzyuJqB9HombnMIA"
 
 **进入实操：**点击关键词研究→SEO概览，左上角输入pollo.ai。
 
-![SEO概览入口](../../images/g2jn-opi-zyuJqB9HombnMIA/006.png)
+![SEO概览入口](../images/g2jn-opi-zyuJqB9HombnMIA/006.png)
 
 SEO概览页面有很多内容，比如排名机会、关键词机会、竞争机会以及流量趋势都有：
 
-![SEO概览详情](../../images/g2jn-opi-zyuJqB9HombnMIA/007.png)
+![SEO概览详情](../images/g2jn-opi-zyuJqB9HombnMIA/007.png)
 
 但作业部分是左侧栏的「关键词」，查看Pollo.ai的非品牌关键词，记录每一个关键词8月可带来的流量大小，以及对应的页面网址：
 
-![关键词列表](../../images/g2jn-opi-zyuJqB9HombnMIA/008.png)
+![关键词列表](../images/g2jn-opi-zyuJqB9HombnMIA/008.png)
 
 接下来把这些关键词记录下来（3万多条有点太多了），可以有选择性地记录，留下月点击量1k以上的，将关键词、点击量、对应页面网址记录在表格中。
 
 因为SimilarWeb下载比较贵，用了安装插件Instant Data Scraper的办法，分页导出了3页共300条数据：
 
-![Instant Data Scraper](../../images/g2jn-opi-zyuJqB9HombnMIA/009.png)
+![Instant Data Scraper](../images/g2jn-opi-zyuJqB9HombnMIA/009.png)
 
-![导出数据示例](../../images/g2jn-opi-zyuJqB9HombnMIA/010.png)
+![导出数据示例](../images/g2jn-opi-zyuJqB9HombnMIA/010.png)
 
 导出的300条数据就是一座金矿。但如何筛选？不能只看流量大小，必须结合关键词的搜索规模、点击量、CPC、关键词难度（KD）、商业意图等维度综合判断。这部分值得单独再写一篇教程。
 
@@ -115,11 +115,11 @@ SEO概览页面有很多内容，比如排名机会、关键词机会、竞争�
 
 打开了关键词排名第一的kling ai，打开对应页面 https://pollo.ai/m/kling-ai：
 
-![目标页面](../../images/g2jn-opi-zyuJqB9HombnMIA/011.png)
+![目标页面](../images/g2jn-opi-zyuJqB9HombnMIA/011.png)
 
 然后点击AITDK插件：
 
-![AITDK插件](../../images/g2jn-opi-zyuJqB9HombnMIA/012.png)
+![AITDK插件](../images/g2jn-opi-zyuJqB9HombnMIA/012.png)
 
 **Title**：显示在浏览器标签页上，也是用户在谷歌搜索结果中看到的那个蓝色大标题链接。这是页面在谷歌上的「第一广告牌」，任务是在一瞬间抓住用户眼球，吸引点击。好的Title通常包含核心关键词（Kling AI）、用户利益点（Free）、行动号召（Try...Now!）和品牌名（Pollo AI）。
 
@@ -127,11 +127,11 @@ SEO概览页面有很多内容，比如排名机会、关键词机会、竞争�
 
 页面的单词数要往下拉，这个页面有1827个单词：
 
-![单词统计](../../images/g2jn-opi-zyuJqB9HombnMIA/013.png)
+![单词统计](../images/g2jn-opi-zyuJqB9HombnMIA/013.png)
 
 这是网页内的一级标题H1：**Kling AI Video Generator**，最显眼的那个。
 
-![H1标题](../../images/g2jn-opi-zyuJqB9HombnMIA/014.png)
+![H1标题](../images/g2jn-opi-zyuJqB9HombnMIA/014.png)
 
 **关于关键词词组长度筛选的思考：**
 
@@ -143,14 +143,14 @@ SEO概览页面有很多内容，比如排名机会、关键词机会、竞争�
 
 从1words到5words，通过分析词频，能看出用户的搜索意图，也能看出网站作者对用户搜索意图的理解和满足，作为拆解者能从中学习「应该为用户提供什么样的价值」。一个成功的页面，其内容焦点必然是满足用户的搜索需求，然后才是解决用户的搜索需求。
 
-![词频分析示例](../../images/g2jn-opi-zyuJqB9HombnMIA/015.png)
-![词频分析示例2](../../images/g2jn-opi-zyuJqB9HombnMIA/016.png)
-![词频分析示例3](../../images/g2jn-opi-zyuJqB9HombnMIA/017.png)
-![词频分析示例4](../../images/g2jn-opi-zyuJqB9HombnMIA/018.png)
+![词频分析示例](../images/g2jn-opi-zyuJqB9HombnMIA/015.png)
+![词频分析示例2](../images/g2jn-opi-zyuJqB9HombnMIA/016.png)
+![词频分析示例3](../images/g2jn-opi-zyuJqB9HombnMIA/017.png)
+![词频分析示例4](../images/g2jn-opi-zyuJqB9HombnMIA/018.png)
 
 根据作业要求，记录成了表格，这只能算是完成了大量非品牌关键词中一个关键词的任务：
 
-![记录表格](../../images/g2jn-opi-zyuJqB9HombnMIA/019.png)
+![记录表格](../images/g2jn-opi-zyuJqB9HombnMIA/019.png)
 
 ---
 
