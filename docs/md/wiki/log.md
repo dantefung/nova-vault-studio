@@ -3310,3 +3310,12 @@ source: "llm-wiki"
 - 内容摘要：Zyppy Cyrus & Dawn Shepard 联合 131 位一线 SEO 专家完成 2026 年最大规模 Google 排名因素调研，13,665 数据点：相关性/外链/内容质量仍前三；用户信号（Navboost）大幅跃升成板上钉钉；AI 内容无原罪，规模化灌水才是问题；品牌搜索量 = 新的外链
 
 ## [2026-09-15] ingest: Codex + Hypit 视频复刻工作流
+
+## [2026-09-16] ingest: Stripe 收款全链路指南 × 2 + Stripe Agent Toolkit 动态
+
+- 归档诺鸭船长《Stripe 全网最全使用指南：从入门到榨干》至 sources/stripe-noahduck283-guide.md
+  - 下载 8 张配图至 images/stripe-noahduck283/
+- 归档 sitin《出海网站 Stripe 支付接入实战：从 0 到收款全流程》至 sources/stripe-sitinme-guide.md
+  - 下载 26 张配图至 images/stripe-sitinme/
+- 新增精读摘要 summaries/stripe-noahduck283-guide.md、summaries/stripe-sitinme-guide.md
+- 内容摘要：诺鸭船长以 7 大章节覆盖 Stripe 全链路——Payment Links/Invoice/Checkout 选型、Billing 订阅管理、Tax vs MoR 责任划分、费用与 payout 现金流、Webhook 安全设计、中国开发者主体路径（Atlas/MoR/Stripe 阶段表）；sitin 补充 Stripe CLI 本地测试 Webhook、受限 API Key、常见坑（验签 secret 搞混/金额单位/优惠码）的实操视角；同期 Stripe 宣布 Agent Toolkit（github.com/stripe/ai），允许 AI 代理通过函数调用实现支付链接生成、发票开具、虚拟卡发行等财务能力
