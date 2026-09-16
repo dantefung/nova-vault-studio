@@ -15,6 +15,7 @@ source: "原创"
 - [hello-harness/](./hello-harness/) — Hello Harness（从 0 手写 Agent Harness，TS 实现）
 - [deepseek-harness/](./deepseek-harness/) — DeepSeek Harness（16 篇，从架构到 Subagent 到部署到架构深拆到自进化）
 - [codex-harness/](./codex-harness/) — Codex Harness（1 篇，App Server / Core Session / Agent Loop 源码解析）
+- [gsd-core/](./gsd-core/) — GSD Core 核心架构与 72 技能全景（Spec-Driven 与上下文防腐体系）
 - [ai-resources/](./ai-resources/) — AI 资源全景地图（100+ 分类，600+ 资源链接）
 - [industrial-agent-practice/](./industrial-agent-practice/) — 工业 AI Agent 实战派（7 篇，LangChain4j 入门到框架深析）
 - [agent-production-notes/](./agent-production-notes/) — Agent 生产实战笔记（11 篇，工业 Agent 生产化全流程）
@@ -50,11 +51,13 @@ source: "原创"
 | [蒋泽林：从 ReAct 到 Agent Teams](./ai-eng-skills/jiangzelin-agent-teams.md) | 工程师视角：ReAct 模式即人类智能工程化抽象，Agent 协作机制演进 |
 | [玄姐：从 Loop 到 Graph](./ai-eng-skills/xuanjie-loop-to-graph.md) | Loop 到 Graph 的工程架构设计，让 AI Agent 落地的架构实践 |
 | [术哥：Agent 给自己写外挂](./ai-eng-skills/shugex-agent-self-external.md) | DeepSeek Harness 七枚工具：cordis_inspect_list/query/define/run/stop/undefine，防错不防坏，Agent 自主写外挂实战 |
+| [GSD Core 专栏：Spec-Driven 与上下文工程架构](./gsd-core/) | 反上下文腐化架构、The Phase Loop 状态机闭环、Worktree 并发隔离、72 技能全景图谱 |
 
 ---
 
 ## 参考资料
 
+- [GSD Core 官方仓库](https://github.com/open-gsd/gsd-core)
 - [Pensieve 官方仓库](https://github.com/kingkongshot/Pensieve)
 - [GStack GitHub](https://github.com/Khulnasoft/gstack)
 - [Codex Skills](https://docs.codex.khulnasoft.com/)
