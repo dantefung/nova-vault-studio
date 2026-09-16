@@ -180,6 +180,7 @@ date: "2026-05-05"
 - [gap-trap](https://github.com/pliablepixels/gap-trap) — 待查看
 - [Hypit](https://github.com/hypitai/hypit) — 开源视频语言和系统，为 Claude Code/Codex 等 AI Agent 提供视频生成能力，人物/台词/字幕/B-roll/特效随叙事事件走，不再钉死在时间线，可复用工作流
 - [WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) — 待查看
+- [doubao-say](https://github.com/quanru/doubao-say) — 待查看
 - [wechat-ai-memory](https://github.com/ikevss/wechat-ai-memory) — **263 Stars**，本地优先的 Windows 微信个人记忆库，按会话/日期/关键词筛选聊天上下文导出为 PDF/Markdown/JSON，图片语音全支持，全程不上传，MIT 协议
 - [AIHOT 选题工具](https://aihot.virxact.com) — 卡兹克开源的 AI 热点选题工具，帮助快速发现和筛选内容选题方向
 - [云图 (Cloudimgs)](https://github.com/qazzxxx/cloudimgs) — NAS 自建图床解决方案，支持 Docker 部署
