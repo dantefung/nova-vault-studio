@@ -62,6 +62,9 @@ wiki/
 | [codex-app](/md/wiki/concepts/codex-app) | OpenAI 桌面端 AI 工作台，左中右三栏工作现场，Plugin/Connector/Skill/MCP 四扩展 + Computer Use | X Article |
 | [ai-content-pipeline](/md/wiki/concepts/ai-content-pipeline) | AI 内容工厂流水线——用 Agent 串工具把人负责挑选微调，AI 跑完全流程 | X Article |
 | [hypit-agent-video-workflow](/md/wiki/summaries/hypit-agent-video-workflow) | Codex + Hypit 把视频复刻沉淀为可局部修改、批量变体的叙事组件工作流 | X/Twitter |
+| [stripe-x-account-setup](/md/wiki/summaries/stripe-x-account-setup) | Stripe 香港个人账户注册： Individual + 港卡 + 护照 KYC，美元结算账户降低汇损 | X/Twitter |
+| [x-creator-monetization-2026](/md/wiki/summaries/x-creator-monetization-2026) | X 创作者收益完整流程：资格门槛 → 环境伪装 → 身份验证 → Wise/港卡 → W-8BEN | X/Twitter |
+| [canghe-x-stripe-tutorial](/md/wiki/summaries/canghe-x-stripe-tutorial) | X 认证 + Stripe 绑定四步闭环：港卡 → Stripe → X 认证 → 创作者工作室连接 | X/Twitter |
 | [claude-role-prompts](/md/wiki/concepts/claude-role-prompts) | 4 个改变提问方式的角色框架——CBT 咨询师/严厉导师/魔鬼代言人/私人教练 | X Article |
 | [selfmedia-compound-model](/md/wiki/concepts/selfmedia-compound-model) | 自媒体复利模型——流量起点→真需求产品→收入闭环，4 层变现漏斗 | X Article |
 | [ai-oneperson-company](/md/wiki/concepts/ai-oneperson-company) | AI 一人公司方法论——PMF→RPA→SOP→无限复制，跟在大模型屁股后面吃红利 | 公众号 |

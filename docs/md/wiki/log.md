@@ -3290,3 +3290,16 @@ source: "llm-wiki"
 - 下载 1 张演示视频封面至 images/hypit-agent-video-workflow/；原始视频约 40 MB，仓库无 Git LFS，未纳入版本库
 - 新增精读摘要 summaries/hypit-agent-video-workflow.md，并更新 concepts/ai-content-pipeline.md
 - 内容摘要：Hypit 把人物、台词、字幕、B-roll 和特效绑定到文字与叙事事件，而非绝对时间点，使 Codex 等 Agent 能把一次视频复刻沉淀为可局部修改、换人换语言和批量生成的视频工作流
+
+## [2026-09-15] ingest: Stripe 香港个人账户注册 + X 创作者收益教程三件套
+
+- 归档 nemo《无需公司！手把手注册 Stripe 香港个人账户》至 sources/stripe-x-account-setup.md
+  - 下载 24 张配图至 images/stripe-x-account-setup/
+- 归档 AYi《2026 最新 X 创作者收益开通 + 身份认证 + Stripe 收款教程》至 sources/x-creator-monetization-2026.md
+  - 下载 2 张配图至 images/x-creator-monetization-2026/
+- 归档苍何《2026 年最新最全 X 认证 + Stripe 绑定教程》至 sources/canghe-x-stripe-tutorial.md
+  - 下载 22 张配图至 images/canghe-x-stripe-tutorial/
+- 新增精读摘要 summaries/stripe-x-account-setup.md、summaries/x-creator-monetization-2026.md、summaries/canghe-x-stripe-tutorial.md
+- 内容摘要：nemo 详解 Stripe 香港 Individual 个人账户注册全流程，护照 KYC，美元结算账户降低汇损；AYi 完整拆解 X 创作者收益开通七步（资格门槛→环境伪装→身份验证→Wise/港卡→W-8BEN→审核），核心铁律是姓名一致性；苍何补充 X 认证 + Stripe 绑定的四步闭环实操，众安银行优先于汇丰
+
+## [2026-09-15] ingest: Codex + Hypit 视频复刻工作流
