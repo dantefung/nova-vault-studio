@@ -3302,4 +3302,11 @@ source: "llm-wiki"
 - 新增精读摘要 summaries/stripe-x-account-setup.md、summaries/x-creator-monetization-2026.md、summaries/canghe-x-stripe-tutorial.md
 - 内容摘要：nemo 详解 Stripe 香港 Individual 个人账户注册全流程，护照 KYC，美元结算账户降低汇损；AYi 完整拆解 X 创作者收益开通七步（资格门槛→环境伪装→身份验证→Wise/港卡→W-8BEN→审核），核心铁律是姓名一致性；苍何补充 X 认证 + Stripe 绑定的四步闭环实操，众安银行优先于汇丰
 
+## [2026-09-16] ingest: 2026 Google SEO 排名因素专家调查
+
+- 归档 Yangyi《2026 年 Google SEO 高排名核心影响因素》微信公众号至 sources/google-seo-ranking-factors-2026.md
+- 下载 9 张配图（1 张 PNG 转 JPEG 压缩）至 images/google-seo-ranking-factors-2026/
+- 新增精读摘要 summaries/google-seo-ranking-factors-2026.md
+- 内容摘要：Zyppy Cyrus & Dawn Shepard 联合 131 位一线 SEO 专家完成 2026 年最大规模 Google 排名因素调研，13,665 数据点：相关性/外链/内容质量仍前三；用户信号（Navboost）大幅跃升成板上钉钉；AI 内容无原罪，规模化灌水才是问题；品牌搜索量 = 新的外链
+
 ## [2026-09-15] ingest: Codex + Hypit 视频复刻工作流
