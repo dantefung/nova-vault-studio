@@ -83,10 +83,17 @@ def should_skip_file(file_path):
     return rel_path.startswith('.claude/') or base.startswith('README')
 
 
+def check_resource_nav():
+    """Validate the AI programming resources markdown (drives /md/resources/)."""
+    root = Path(__file__).resolve().parents[2]
+    script = root / '.claude' / 'hooks' / 'check-resource-nav.py'
+    if not script.exists():
+        return 0
+    return subprocess.run(['python3', str(script)], cwd=root).returncode
+
+
 def main():
     md_files = get_staged_md_files()
-    if not md_files:
-        return 0
 
     all_errors = []
     all_warnings = []
@@ -104,7 +111,9 @@ def main():
     for e in all_errors:
         print(f"Error: {e}")
 
-    if all_errors:
+    resource_error = check_resource_nav()
+
+    if all_errors or resource_error:
         print("\nPlease fix the errors above before committing.")
         return 1
 
