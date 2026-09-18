@@ -92,6 +92,15 @@ def check_resource_nav():
     return subprocess.run(['python3', str(script)], cwd=root).returncode
 
 
+def check_vue_interpolation():
+    """Reject un-fenced {{ }} that would break the Vue compiler build."""
+    root = Path(__file__).resolve().parents[2]
+    script = root / '.claude' / 'hooks' / 'check-vue-interpolation.py'
+    if not script.exists():
+        return 0
+    return subprocess.run(['python3', str(script)], cwd=root).returncode
+
+
 def main():
     md_files = get_staged_md_files()
 
@@ -112,8 +121,9 @@ def main():
         print(f"Error: {e}")
 
     resource_error = check_resource_nav()
+    interpolation_error = check_vue_interpolation()
 
-    if all_errors or resource_error:
+    if all_errors or resource_error or interpolation_error:
         print("\nPlease fix the errors above before committing.")
         return 1
 

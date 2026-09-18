@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/bYgPL3R0BI4iEx3Z9V7IsQ"
 
 # /proc 不是磁盘：Linux 虚拟文件系统的运行机制
 
-0.引言
+## 0.引言
 
 执行 du -sh /proc 的时候，我们可能会感到困惑：明明 ls /proc 能列出上百个文件和目录，总大小却显示为 0。原因很简单——/proc 里的东西根本不在磁盘上。
 
@@ -18,17 +18,55 @@ url: "https://mp.weixin.qq.com/s/bYgPL3R0BI4iEx3Z9V7IsQ"
 
 本文从 VFS 抽象层出发，深入 procfs 的内核实现，拆解一次 cat 命令背后完整的调用链路。
 
-1.VFS：一切文件系统的统一抽象
+## 1.VFS：一切文件系统的统一抽象
 
 在理解 proc 之前，我们必须先理解 VFS。Linux 能同时支持几十种文件系统，靠的就是这层抽象。详细内容可以参考：VFS：Linux文件系统的“联合国”式抽象——探秘统一访问接口的设计哲学
 
 这就是为什么我们可以用 cat、grep、vim 等任何普通文件工具操作 /proc——因为在 VFS 层面，它和磁盘文件没有区别。
 
-2.proc_dir_entry：proc 文件系统的骨架
+## 2.proc_dir_entry：proc 文件系统的骨架
 
 procfs 内部有自己的目录树组织方式，核心数据结构是 struct proc_dir_entry，简称 PDE。每个你在 /proc 下看到的文件或目录，在内核里都对应一个 PDE 节点。
 
-structproc_dir_entry{/** number of callers into module in progress;* negative -> it's going away RSN*/atomic_tin_use;refcount_trefcnt;structlist_headpde_openers;/* who did ->open, but not ->release *//* protects ->pde_openers and all struct pde_opener instances */spinlock_tpde_unload_lock;structcompletion*pde_unload_completion;conststructinode_operations*proc_iops;union{conststructproc_ops*proc_ops;conststructfile_operations*proc_dir_ops;};conststructdentry_operations*proc_dops;union{conststructseq_operations*seq_ops;int(*single_show)(structseq_file *,void*);};proc_write_twrite;void*data;unsignedintstate_size;unsignedintlow_ino;nlink_tnlink;kuid_tuid;kgid_tgid;loff_tsize;structproc_dir_entry*parent;structrb_rootsubdir;structrb_nodesubdir_node;char*name;umode_tmode;u8 flags;u8 namelen;charinline_name[];} __randomize_layout;
+```c
+struct proc_dir_entry {
+    /** number of callers into module in progress;
+     *  negative -> it's going away RSN */
+    atomic_t in_use;
+    refcount_t refcnt;
+    struct list_head pde_openers;
+    /* who did ->open, but not ->release */
+    /* protects ->pde_openers and all struct pde_opener instances */
+    spinlock_t pde_unload_lock;
+    struct completion *pde_unload_completion;
+    const struct inode_operations *proc_iops;
+    union {
+        const struct proc_ops *proc_ops;
+        const struct file_operations *proc_dir_ops;
+    };
+    const struct dentry_operations *proc_dops;
+    union {
+        const struct seq_operations *seq_ops;
+        int (*single_show)(struct seq_file *, void *);
+    };
+    proc_write_t write;
+    void *data;
+    unsigned int state_size;
+    unsigned int low_ino;
+    nlink_t nlink;
+    kuid_t uid;
+    kgid_t gid;
+    loff_t size;
+    struct proc_dir_entry *parent;
+    struct rb_root subdir;
+    struct rb_node subdir_node;
+    char *name;
+    umode_t mode;
+    u8 flags;
+    u8 namelen;
+    char inline_name[];
+} __randomize_layout;
+```
 
 设计细节：
 
@@ -38,7 +76,7 @@ structproc_dir_entry{/** number of callers into module in progress;* negative ->
 
 第三，size 字段通常为 0。因为内容是动态生成的，打开文件之前没人知道最终会输出多少字节。所以 ls -l 看到大部分 proc 文件大小都是 0，但实际读取时能返回数据。
 
-3.一次完整的读取
+## 3.一次完整的读取
 
 现在我们跟踪一次 cat /proc/meminfo，看数据如何从内核变量走到你的终端。
 
@@ -72,17 +110,41 @@ seq_file 是内核引入的专门解决虚拟文件读取的一套机制。在�
 
 seq_file 的核心思想是迭代器模式。它把虚拟文件内容看作一系列"记录"，提供四个回调：
 
-structseq_operations {void* (*start) (structseq_file *m, loff_t *pos);void(*stop)  (structseq_file *m,void*v);void* (*next)  (structseq_file *m,void*v, loff_t *pos);int(*show)  (structseq_file *m,void*v);};
+```c
+struct seq_operations {
+    void * (*start) (struct seq_file *m, loff_t *pos);
+    void (*stop) (struct seq_file *m, void *v);
+    void * (*next) (struct seq_file *m, void *v, loff_t *pos);
+    int (*show) (struct seq_file *m, void *v);
+};
+```
 
 对于输出只有一行或一个固定块的简单文件（比如 meminfo），连迭代器都不用写，直接用 single_open 封装一个 show 函数就行：
 
-// meminfo 的简化实现示意staticintmeminfo_show(structseq_file *m,void*v){structsysinfo i;si_meminfo(&i);seq_printf(m, ”MemTotal:       %8lu kB\n”, i.totalram);seq_printf(m, ”MemFree:        %8lu kB\n”, i.freeram);seq_printf(m, ”Buffers:        %8lu kB\n”, i.bufferram);// ... 输出几十行统计信息return0;}staticintmeminfo_open(structinode *inode,structfile*file){returnsingle_open(file, meminfo_show, NULL);}
+```c
+// meminfo 的简化实现示意
+static int meminfo_show(struct seq_file *m, void *v)
+{
+    struct sysinfo i;
+    si_meminfo(&i);
+    seq_printf(m, "MemTotal:        %8lu kB\n", i.totalram);
+    seq_printf(m, "MemFree:         %8lu kB\n", i.freeram);
+    seq_printf(m, "Buffers:         %8lu kB\n", i.bufferram);
+    // ... 输出几十行统计信息
+    return 0;
+}
+
+static int meminfo_open(struct inode *inode, struct file *file)
+{
+    return single_open(file, meminfo_show, NULL);
+}
+```
 
 seq_printf 是 seq_file 提供的格式化函数，它自动管理内部缓冲区的扩容，不用担心溢出。这比直接操作用户缓冲区安全得多。
 
 seq_file 的另一个重要贡献是正确处理 seek。因为每条记录有明确的边界，即使随机 seek 到文件中间，seq_file 也能通过迭代器定位到正确的记录起始位置，不会出现读到半行的尴尬情况。
 
-5.写入路径：/proc/sys 如何修改内核参数
+## 5.写入路径：/proc/sys 如何修改内核参数
 
 proc 文件不只是能读，/proc/sys 下的文件还能写。echo 1 > /proc/sys/net/ipv4/ip_forward 这条命令很多人都用过，但它背后是怎么工作的？
 
@@ -90,7 +152,19 @@ proc 文件不只是能读，/proc/sys 下的文件还能写。echo 1 > /proc/sy
 
 /proc/sys 并不是用普通 PDE 一个个注册的，它基于 sysctl 表。内核中定义了一张 ctl_table 树，每个节点对应一个 sysctl 参数，同时也对应 /proc/sys 下的一个文件。
 
-// 简化的 sysctl 表定义staticstructctl_table ipv4_table[] = {{.procname   = ”ip_forward”,.data       = &ipv4_devconf.data[IPV4_DEVCONF_FORWARDING -1],.maxlen     =sizeof(int),.mode       =0644,.proc_handler   = proc_dointvec,},// ... 几十上百个参数};
+```c
+// 简化的 sysctl 表定义
+static struct ctl_table ipv4_table[] = {
+    {
+        .procname     = "ip_forward",
+        .data         = &ipv4_devconf.data[IPV4_DEVCONF_FORWARDING - 1],
+        .maxlen       = sizeof(int),
+        .mode         = 0644,
+        .proc_handler = proc_dointvec,
+    },
+    // ... 几十上百个参数
+};
+```
 
 每个表项包含几个关键字段：
 
@@ -152,7 +226,7 @@ dentry 缓存是双刃剑。访问过的 proc 文件会在 dcache 中留下缓�
 
 尽管有这些资源消耗，procfs 的设计仍然是成功的。它用极小的性能代价，换来了极大的调试和运维便利性。任何进程不需要特殊权限、不需要特殊工具，只用标准文件 I/O 就能窥探内核状态。这是 Unix "一切皆文件" 哲学最精彩的体现之一。
 
-8.几个容易搞错的冷知识
+## 8.几个容易搞错的冷知识
 
 ### 误区一：/proc 文件可以用 mmap
 
@@ -170,7 +244,7 @@ dentry 缓存是双刃剑。访问过的 proc 文件会在 dcache 中留下缓�
 
 写入 /proc/sys 的字符串会被解析后丢弃。你写 "1" 进去，内核变量变成整数 1。再读出来时，是内核把整数重新格式化成字符串返回的。写入和读出的字符串格式不一定完全一致。
 
-9.总结
+## 9.总结
 
 /proc 看起来像文件，用起来像文件，接口和文件完全一致，但它从头到尾都不是文件。
 

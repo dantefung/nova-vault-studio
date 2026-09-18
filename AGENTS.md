@@ -439,6 +439,7 @@ rtk ls docs/md/{分类}/{文章}/images/{文章名}/
 - `check-image-refs.py` — 验证图片引用是否存在
 - `check-image-size.py` — 检查图片 >500KB（Vercel OOM 防护）
 - `check-resource-nav.py` — 校验 AI 编程资源 md 格式（仅在源文件 staged 时触发）
+- `check-vue-interpolation.py` — 拦截代码围栏外的 `{{ }}`（会炸 Vue 编译器）
 
 **首次配置（项目根目录执行）**：
 
@@ -456,6 +457,7 @@ for file in $STAGED_MD_FILES; do
     python3 "$PROJECT_ROOT/.claude/hooks/check-html-tags.py" "$FULL_PATH" || exit 1
     python3 "$PROJECT_ROOT/.claude/hooks/check-image-refs.py" "$FULL_PATH" || exit 1
     python3 "$PROJECT_ROOT/.claude/hooks/check-resource-nav.py" "$FULL_PATH" || exit 1
+    python3 "$PROJECT_ROOT/.claude/hooks/check-vue-interpolation.py" "$FULL_PATH" || exit 1
 done
 for file in $STAGED_IMAGE_FILES; do
     FULL_PATH="$PROJECT_ROOT/$file"
