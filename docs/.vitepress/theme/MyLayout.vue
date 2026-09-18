@@ -10,6 +10,7 @@ import ArticleHero from './components/ArticleHero.vue'
 import ArticleFooterNav from './components/ArticleFooterNav.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
 import BlogLayout from './layouts/BlogLayout.vue'
+import ResourceNavLayout from './layouts/ResourceNavLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
 import { useTheme } from './composables/useTheme.js'
 import { useBlogIndex } from './composables/useBlogIndex.js'
@@ -47,6 +48,9 @@ const isLanding = computed(() => {
 // 博客路由（/md/blog/）
 const isBlog = computed(() => route.path.startsWith('/md/blog/'))
 
+// 资源导航（/md/resources/）
+const isResourceNav = computed(() => route.path.startsWith('/md/resources'))
+
 // 路由决定稳定 DOM，landing theme 只切换文章增强视觉，避免 hydration 分支不一致。
 const isArticlePath = computed(() => {
   if (isBlog.value || isLanding.value) return false
@@ -77,6 +81,9 @@ watch(currentTheme, (theme) => {
 
   <!-- 博客页（/md/blog/）：列表 / 系列 / 分类 / 时间归档 -->
   <BlogLayout v-else-if="isBlog" />
+
+  <!-- 资源导航（/md/resources/）：卡片网格 + 分类筛选 + 搜索 -->
+  <ResourceNavLayout v-else-if="isResourceNav" />
 
   <!-- 文章页（easton 风格）：在 VitePress 默认 layout 外面套 Easton 文章壳（Easton 编辑感内页） -->
   <div

@@ -438,6 +438,7 @@ rtk ls docs/md/{分类}/{文章}/images/{文章名}/
 - `check-html-tags.py` — 检查裸露 HTML 标签
 - `check-image-refs.py` — 验证图片引用是否存在
 - `check-image-size.py` — 检查图片 >500KB（Vercel OOM 防护）
+- `check-resource-nav.py` — 校验 AI 编程资源 md 格式（仅在源文件 staged 时触发）
 
 **首次配置（项目根目录执行）**：
 
@@ -454,6 +455,7 @@ for file in $STAGED_MD_FILES; do
     python3 "$PROJECT_ROOT/.claude/hooks/check-frontmatter.py" "$FULL_PATH" || exit 1
     python3 "$PROJECT_ROOT/.claude/hooks/check-html-tags.py" "$FULL_PATH" || exit 1
     python3 "$PROJECT_ROOT/.claude/hooks/check-image-refs.py" "$FULL_PATH" || exit 1
+    python3 "$PROJECT_ROOT/.claude/hooks/check-resource-nav.py" "$FULL_PATH" || exit 1
 done
 for file in $STAGED_IMAGE_FILES; do
     FULL_PATH="$PROJECT_ROOT/$file"
@@ -464,6 +466,30 @@ chmod +x .git/hooks/pre-commit
 ```
 
 > **注意**：`.git/hooks/pre-commit` 是本地文件，不上传 git。每个开发者首次克隆项目后需要手动创建。
+
+---
+
+## 资源导航页（/md/resources/）
+
+`docs/md/guide/ai/ai-programming-resources.md` 是**唯一数据源**，导航页在构建时解析它生成——
+不要另建 JSON/YAML 副本驱动导航页，两份数据必然漂移。改内容只改这一个 md。
+
+解析器会尽量降级容错，但写错格式会导致条目**静默消失**。pre-commit 调用同一个解析器的 `--check`
+拦截，所以格式错了提交不上去。
+
+**写作规范**：
+
+- `##` = 分类，`###` = 分组，标题最深到 H3
+- 条目：`- [标题](链接) — 描述`
+- 子项缩进 2 空格
+- 表格首行必须是表头
+- 列表符号只用 `-`，禁用 `*` / `+`
+
+手工校验：
+
+```bash
+node scripts/build-resource-nav.js --check
+```
 
 ---
 

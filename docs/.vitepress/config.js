@@ -95,6 +95,10 @@ export default defineConfig({
 
     nav: [
       {
+        text: '资源导航',
+        link: '/md/resources/',
+      },
+      {
         text: '文档',
         items: [
           {
