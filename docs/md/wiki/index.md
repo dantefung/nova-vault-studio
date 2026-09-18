@@ -138,6 +138,12 @@ wiki/
 | [cloudflare-email-routing](/md/wiki/sources/cloudflare-email-routing) | Cloudflare Email Routing 免费域名邮箱转发：support@/legal@ 等别名转发到 Gmail，Workers Free 计划免费，限制 200 rules/200 destinations/25MiB | 公众号 |
 | [mkdollar-backlinks](/md/wiki/sources/mkdollar-backlinks) | MkDollar（mkdollar.com）外链提交管理工具：按 DR/Traffic/Pricing/Dofollow/Account/Category 筛选，支持产品外链提交进度跟踪 | 公众号 |
 | [ai-image-prompt-libraries](/md/wiki/sources/ai-image-prompt-libraries) | 带 Prompt 的 AI 图库（mkimage.ai/meigen.ai/gpt-image2.canghe.ai）：Prompt 可复制/翻译中文/标注 License/出处追踪，三步法找创意+微调+生成 | 公众号 |
+| [multica-agent-project-manager](/md/wiki/summaries/multica-agent-project-manager) | 从 Multics 到 Multica：AI 编码 Agent 的控制面与项目经理，解决团队协同失速 | 知乎专栏 |
+| [multica-managed-agents-practice](/md/wiki/summaries/multica-managed-agents-practice) | Managed Agents 原理与 Multica 实践：解耦大脑（决策）、双手（沙箱）与记忆（状态） | CSDN |
+| [multica-self-hosted-deployment](/md/wiki/summaries/multica-self-hosted-deployment) | Multica 私有化自托管部署指南：Docker Compose 与源码构建实战 | 君哥的学习笔记 |
+| [multica-usage-guide](/md/wiki/summaries/multica-usage-guide) | Multica 实战手册：Workspace / Issue / Squad 突击小队产研协同闭环 | 君哥的学习笔记 |
+| [network-piercing-frp-guide](/md/wiki/summaries/network-piercing-frp-guide) | 内网穿透主流工具对比与企业级 frp 私有化自建全攻略 | 君哥的学习笔记 |
+| [enterprise-knowledge-base-selection](/md/wiki/summaries/enterprise-knowledge-base-selection) | 企业级知识库架构选型：LLM Wiki（提前提炼复利）vs RAG（查询时拼装）深度对比 | 君哥的学习笔记 |
 
 ### 学习路径 (Learning Paths)
 

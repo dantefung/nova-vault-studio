@@ -3319,3 +3319,19 @@ source: "llm-wiki"
   - 下载 26 张配图至 images/stripe-sitinme/
 - 新增精读摘要 summaries/stripe-noahduck283-guide.md、summaries/stripe-sitinme-guide.md
 - 内容摘要：诺鸭船长以 7 大章节覆盖 Stripe 全链路——Payment Links/Invoice/Checkout 选型、Billing 订阅管理、Tax vs MoR 责任划分、费用与 payout 现金流、Webhook 安全设计、中国开发者主体路径（Atlas/MoR/Stripe 阶段表）；sitin 补充 Stripe CLI 本地测试 Webhook、受限 API Key、常见坑（验签 secret 搞混/金额单位/优惠码）的实操视角；同期 Stripe 宣布 Agent Toolkit（github.com/stripe/ai），允许 AI 代理通过函数调用实现支付链接生成、发票开具、虚拟卡发行等财务能力
+
+## [2026-09-16] ingest: Multica 系列（知乎/CSDN/it235）+ 内网穿透frp + 知识库选型
+
+- 归档知乎专栏《从 Multics 到 Multica：AI 编码 Agent 的项目经理》至 sources/multica-agent-project-manager.md
+  - 下载 2 张配图至 images/multica-agent-project-manager/
+- 归档 CSDN（白衣阿南）《人机 Agent 团队协同：从 Managed Agents 原理到 Multica 实践》至 sources/multica-managed-agents-practice.md
+  - 下载 8 张配图至 images/multica-managed-agents-practice/
+- 归档君哥的学习笔记《Multica 私有化自托管部署指南（Docker & K8s）》至 sources/multica-self-hosted-deployment.md
+  - 下载 5 张配图至 images/multica-self-hosted-deployment/
+- 归档君哥的学习笔记《Multica 实战使用手册：Workspace、Issue 与 Squad 协同》至 sources/multica-usage-guide.md
+  - 下载 1 张配图至 images/multica-usage-guide/
+- 归档君哥的学习笔记《玩转内外网互通：主流内网穿透方案对比与 frp 企业级自建实战》至 sources/network-piercing-frp-guide.md
+  - 下载 32 张配图至 images/network-piercing-frp-guide/
+- 归档君哥的学习笔记《企业级知识库选型与架构：LLM Wiki vs RAG》至 sources/enterprise-knowledge-base-selection.md
+- 新增对应的 6 篇精读摘要页至 summaries/
+- 内容摘要：Multica 系列系统剖析了编码 Agent 控制面理念、Managed Agents 标准解耦（大脑/双手/记忆）、Docker/K8s 私有化部署与产研看板协同（Issue/Squad 闭环）；内网穿透详尽评测主流工具并给出高可用 frp 自建方案；知识库选型深度拆解 LLM Wiki 编译复利模型与 RAG 检索的优劣势场景与系统工程闭环
