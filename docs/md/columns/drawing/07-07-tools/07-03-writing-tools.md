@@ -178,6 +178,7 @@ graph TD
 ### 扩展工具
 
 - [MultiPost Extension](./multipost-extension.md) — 浏览器多平台一键发布扩展
+- [Pastory](./pastory-clipboard-history.md) — 剪切板历史工具，复制过的文字/链接/图片/截图/录屏全收录，本地优先，Agent 可读取结构化
 
 [img-0]:images/07-03-writing-tools/p01.jpg
 
