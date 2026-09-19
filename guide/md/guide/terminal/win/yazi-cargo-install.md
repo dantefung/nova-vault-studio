@@ -160,6 +160,34 @@ rustup 默认装的是 MSVC 工具链，需要 **Visual Studio Build Tools**（�
 1. 装 Visual Studio Build Tools
 2. 切换到 GNU 工具链：`rustup default stable-x86_64-pc-windows-gnu`（需要先装 MinGW）
 
+### 3.4 PATH 传播陷阱（bash / zsh 用不了）
+
+**症状**：装完 yazi / cargo 后，修改了 Windows 用户 PATH，**新开 cmd / PowerShell 能用 `yazi --version`**，但**新开 bash / zsh 还是说 "command not found"**。
+
+**原因**：bash / zsh 启动时是从它们的 **Windows 父进程**继承 PATH 的，**不读 Windows 注册表**。当 PATH 修改时，已经在跑的 Windows 进程（explorer、git bash launcher 等）已经把 PATH 快照到内存了，所以之后启动的 bash 还是看不到新加的路径。
+
+```text
+Windows 注册表 PATH:  ✅ 有 yazi 和 cargo（新加的）
+当前 bash 的 PATH:    ❌ 没有（会话是 PATH 修改前启动的）
+新 bash 进程的 PATH:  ❌ 也没有（bash 不读注册表）
+```
+
+**解决**：在 `~/.bashrc` 和 `~/.zshrc` 末尾加：
+
+```bash
+export PATH=$PATH:/d/software/develop/yazi:/d/software/develop/cargo/bin
+```
+
+这样无论怎么启动 bash / zsh，rc 文件都会执行，新 PATH 自动加载。
+
+**预防**：以后给 PATH 加新路径，**同时**改三处：
+
+1. Windows 用户 PATH（注册表，`[Environment]::SetEnvironmentVariable`）
+2. `~/.bashrc`（如果常用 bash）
+3. `~/.zshrc`（如果常用 zsh）
+
+或者接受"修改 PATH 后重启一次电脑"作为兜底。
+
 ---
 
 ## 四、卸载
