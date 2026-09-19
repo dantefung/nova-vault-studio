@@ -121,6 +121,41 @@ base64 -w 0 file.md > /tmp/content.b64
 # 然后在 JSON 里手动嵌入或用 jq 处理
 ```
 
+### 6. "Silent Success" 现象
+
+**症状**：执行 `gh api PUT` 后 stdout 输出被吞掉或管道截断，看起来好像失败了，但实际上文件已经写到 remote。
+
+**复现**：用 `tail` / `head` / `grep` 等管道截断 gh api 输出时容易出现。
+
+```bash
+# 典型翻车流程：
+gh api --method PUT ... --input /tmp/payload.json | tail -10
+# ↑ stdout 被吞，看起来像失败
+# ↑ 实际上文件已经写进去了
+
+# 然后再调一次：
+gh api --method PUT ... --input /tmp/payload.json
+# ↑ 返回 422 "sha wasn't supplied"（因为文件已存在）
+# ↑ 这才让你意识到上一步其实成功了
+```
+
+**正确做法**：
+
+- **避免**在 `gh api` 后接 `tail` / `head` / `grep` 截断
+- 用临时文件保存完整输出，再用 `jq` 解析：
+
+  ```bash
+  gh api --method PUT ... --input /tmp/payload.json > /tmp/api-response.json 2>&1
+  cat /tmp/api-response.json | jq -r '.commit.sha'
+  ```
+
+- PUT 失败时**第一时间 GET 验证**，别急着再 PUT 一次：
+
+  ```bash
+  gh api "repos/OWNER/REPO/contents/PATH/TO/FILE.md" | jq -r '.sha'
+  # 如果能拿到 sha，说明文件其实写进去了
+  ```
+
 ---
 
 ## 实战示例
