@@ -156,6 +156,27 @@ gh api --method PUT ... --input /tmp/payload.json
   # 如果能拿到 sha，说明文件其实写进去了
   ```
 
+### 7. PATH 传播陷阱（同类问题：看似失败但其实不是这层的问题）
+
+**这是个跟 silent success 同类的"工具/系统反馈不到位"现象**，但发生在 PATH 设置的语境里，跟 gh api 调用无关。补充在这里是为了交叉提醒：
+
+**症状**：装完某个工具后改了 Windows 用户 PATH，**新开 cmd / PowerShell 能用**，但**新开 bash / zsh 用不了**。
+
+**根本原因**：bash / zsh 启动时是从 **Windows 父进程**继承 PATH 的，**不读 Windows 注册表**。修改注册表 PATH 后，已经在跑的 Windows 进程已经把 PATH 快照到内存，之后启动的 bash 还是看不到。
+
+**解决方法**：在 `~/.bashrc` 和 `~/.zshrc` 里手动 `export PATH=...`，跟修改注册表 PATH 同步做。
+
+**类比关系**：
+
+| 现象 | 看似状态 | 实际状态 |
+|------|---------|---------|
+| Silent Success（gh api） | 调用失败 | 实际成功 |
+| PATH 传播陷阱 | bash 用不了命令 | bash 不是错的，是父进程快照过期 |
+
+两个现象的共同教训：**当命令反馈跟预期不符时，先验证实际状态再下结论**，而不是急着再执行一次。
+
+**完整细节**：见 `guide/md/guide/terminal/win/yazi-cargo-install.md` 的"3.4 PATH 传播陷阱"小节。
+
 ---
 
 ## 实战示例
