@@ -154,7 +154,7 @@ GitHub API 没有原生的 move 接口。要"移动"必须两步：
 
 1. GET 旧文件拿到 content + sha
 2. PUT 到新路径
-4. DELETE 旧文件
+3. DELETE 旧文件
 
 （整个流程在同一个 commit 里完成需要用 Git Data API，复杂度高，不推荐。）
 
