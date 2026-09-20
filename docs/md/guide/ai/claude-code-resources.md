@@ -33,6 +33,7 @@ date: "2026-04-29"
 - [DevMind](https://github.com/lich0821/DevMind) — 持续工作的脑子，AI 上下文管理工具
 - [Trade/OpenAlice](https://github.com/TraderAlice/OpenAlice) — AI 交易 Agent
 - [Mindfold Trellis](https://github.com/mindfold-ai/Trellis) — AI 任务管理 Agent
+- [Pi Coding Agent 蓝皮书](https://pi.xiaomovps.com/) — Pi 终端编码 Agent 中文学习门户：5 模块 14 节从安装到长时运行稳定工作流，配套案例库/参考手册/插件推荐/Earendil 译文授权；教学哲学「场景→概念→实操→验收」
 
 ---
 

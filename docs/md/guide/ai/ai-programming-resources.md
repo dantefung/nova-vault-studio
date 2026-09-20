@@ -181,7 +181,7 @@ date: "2026-05-05"
 - [Hypit](https://github.com/hypitai/hypit) — 开源视频语言和系统，为 Claude Code/Codex 等 AI Agent 提供视频生成能力，人物/台词/字幕/B-roll/特效随叙事事件走，不再钉死在时间线，可复用工作流
 - [tgrep](https://github.com/microsoft/tgrep) — 微软开源的代码仓库索引搜索工具，基于 Trigram 索引加速搜索，先按 3-byte 片段（foo/oob/oba/bar）建立索引，再精准筛选候选文件，减少全库扫描开销
 - [awesome-jev-projects](https://logicrw.github.io/awesome-jev-projects/) — **313 个项目**，Jev（TypeSafe 决策模型）开源项目雷达，收录选择/评分/概率判断等架构落地案例，17 个分类（浏览器自动化/模型路由/上下文压缩/安全护栏等），@0xLogicrw 维护
-- [WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) — 待查看
+- [WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) — **WorkBuddy 实战蓝皮书**，社区维护的任务驱动 Playbook，从安装到多 Agent 团队工作流，3.1k stars / 448 forks，标签 agent-skills/codex/multi-agent/workflow
 - [doubao-say](https://github.com/quanru/doubao-say) — 待查看
 - [wechat-ai-memory](https://github.com/ikevss/wechat-ai-memory) — **263 Stars**，本地优先的 Windows 微信个人记忆库，按会话/日期/关键词筛选聊天上下文导出为 PDF/Markdown/JSON，图片语音全支持，全程不上传，MIT 协议
 - [AIHOT 选题工具](https://aihot.virxact.com) — 卡兹克开源的 AI 热点选题工具，帮助快速发现和筛选内容选题方向
@@ -391,6 +391,7 @@ date: "2026-05-05"
 ## 其他
 
 - [Involution Hell](https://involutionhell.vercel.app/) — AI 学习资源导航
+- [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) — **高性价比人生指南**，6.9k stars，552 条可执行建议覆盖长寿/疾病预防/急救/财务/法律/失业工伤/保险/关系/育儿/合规/移民，每条标注成本、收益、证据等级与原始出处
 
 ---
 
