@@ -68,6 +68,7 @@ wiki/
 | [google-seo-ranking-factors-2026](/md/wiki/summaries/google-seo-ranking-factors-2026) | Zyppy 131 位 SEO 专家调研精读：13,665 数据点，相关性/外链/内容质量仍前三，用户信号大幅跃升 | 公众号 |
 | [stripe-noahduck283-guide](/md/wiki/summaries/stripe-noahduck283-guide) | Stripe 全链路指南：Payment Links→Checkout→Billing→Tax/MoR→Connect 分层升级路径与上线 checklist | X/Twitter |
 | [stripe-sitinme-guide](/md/wiki/summaries/stripe-sitinme-guide) | Stripe 网站接入实战：Checkout Session→Webhook→Stripe CLI 本地测试→生产受限密钥 | X/Twitter |
+| [liujiayi1111-sms-code-forward](/md/wiki/summaries/liujiayi1111-sms-code-forward) | iPhone 快捷指令把短信验证码自动转发邮箱：被动转发/主动查询两案，附「内容」变量坑点 | X/Twitter |
 | [claude-role-prompts](/md/wiki/concepts/claude-role-prompts) | 4 个改变提问方式的角色框架——CBT 咨询师/严厉导师/魔鬼代言人/私人教练 | X Article |
 | [selfmedia-compound-model](/md/wiki/concepts/selfmedia-compound-model) | 自媒体复利模型——流量起点→真需求产品→收入闭环，4 层变现漏斗 | X Article |
 | [ai-oneperson-company](/md/wiki/concepts/ai-oneperson-company) | AI 一人公司方法论——PMF→RPA→SOP→无限复制，跟在大模型屁股后面吃红利 | 公众号 |
@@ -281,6 +282,7 @@ wiki/
 |------|--------|------|
 | [hermes-obsidian-knowledge-base](/md/wiki/sources/hermes-obsidian-knowledge-base) | Obsidian + Hermes Agent：Source→Topic→Draft→Published 四步流转，内容库变生产线 | 公众号 |
 | [claude-prompt-strategies](/md/wiki/sources/claude-prompt-strategies) | 100个提示策略：结构化提示、推理框架、内容量产，思维框架比模型版本更重要 | 公众号 |
+| [crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) | 单人操盘590位博主/26亿播放：前3秒钩子决定生死，13万条买家评价喂AI+5步流水线+3个Prompt | X/Twitter |
 
 ---
 

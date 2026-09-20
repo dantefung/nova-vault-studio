@@ -3335,3 +3335,12 @@ source: "llm-wiki"
 - 归档君哥的学习笔记《企业级知识库选型与架构：LLM Wiki vs RAG》至 sources/enterprise-knowledge-base-selection.md
 - 新增对应的 6 篇精读摘要页至 summaries/
 - 内容摘要：Multica 系列系统剖析了编码 Agent 控制面理念、Managed Agents 标准解耦（大脑/双手/记忆）、Docker/K8s 私有化部署与产研看板协同（Issue/Squad 闭环）；内网穿透详尽评测主流工具并给出高可用 frp 自建方案；知识库选型深度拆解 LLM Wiki 编译复利模型与 RAG 检索的优劣势场景与系统工程闭环
+
+## [2026-09-20] ingest: X 帖子两篇（AIGC 带货流水线 / 验证码自动转发）
+
+- 归档疯狂的烤妹儿《单人操盘 590 位博主、拿下 26 亿播放：海外顶级 AIGC 搞钱流水线》至 sources/crazykaomei-aigc-hook-pipeline.md
+  - 下载 1 张配图至 images/crazykaomei-aigc-hook-pipeline/
+- 归档刘佳怡《短信验证码自动转发邮件》至 sources/liujiayi1111-sms-code-forward.md
+  - 下载 6 张配图至 images/liujiayi1111-sms-code-forward/
+- 新增精读摘要 summaries/crazykaomei-aigc-hook-pipeline.md、summaries/liujiayi1111-sms-code-forward.md
+- 内容摘要：①单人调度 590 位博主拿下 26 亿播放的 AIGC 流水线，0 项目经理 / 0 文案 / 0 数据分析师；前 3 秒钩子缺失则播放平均暴跌 4.2 倍（统一开场 12,333 vs 自由发挥 2,921）；13 万条真实买家评价喂 AI，禁止策划凭空写；按开场骨架而非话题分类；附 3 个可直接跑的中文 Prompt 模版。②iPhone 快捷指令两条个人自动化把备用机短信验证码自动送进邮箱：方案一被动转发（信息 → 关键词 → 邮箱，关键坑点：必须再点变量选「内容」取出纯文本）、方案二主动查询（邮件标题触发 → 查未读短信合并回发并标记已读）；零第三方、零月费。

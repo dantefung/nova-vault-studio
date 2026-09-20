@@ -201,6 +201,8 @@ date: "2026-05-29"
 | 2023-09-03 | https://x.com/i/status/1698338662088622167 | **Barret李靖：新加坡OCBC开户指南**：全程大陆身份+大陆IP可开，NFC扫描护照，1.1M浏览 |
 | 2026-03-05 | https://x.com/i/status/2029560033131041059 | **Y11：尼日利亚Gomoney套利**：P2P承兑/锁汇支付/代充值/高息储蓄，197.6K浏览 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/RCnJP6xGT5-OvU7yhCrzGQ | **哥飞：BlogToPin月入1.6万美元**：把博客文章自动做成Pinterest图片并排期发布，工具产品化案例拆解 |
+| 2026-09-20 | https://x.com/i/status/2101584386990964995 | **疯狂的烤妹儿：单人操盘590位博主/26亿播放的AIGC带货流水线** ~~已采集~~ → 已归档至 [summaries/crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) |
+| 2026-09-19 | https://x.com/i/status/2101306694747701384 | **刘佳怡：短信验证码自动转发邮件** ~~已采集~~ → 已归档至 [summaries/liujiayi1111-sms-code-forward](/md/wiki/summaries/liujiayi1111-sms-code-forward) |
 ## 微信公众号
 
 | 日期 | 链接 | 摘要 |
