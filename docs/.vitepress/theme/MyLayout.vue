@@ -11,6 +11,7 @@ import ArticleFooterNav from './components/ArticleFooterNav.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
 import BlogLayout from './layouts/BlogLayout.vue'
 import ResourceNavLayout from './layouts/ResourceNavLayout.vue'
+import ClaudeCodeResourceNavLayout from './layouts/ClaudeCodeResourceNavLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
 import { useTheme } from './composables/useTheme.js'
 import { useBlogIndex } from './composables/useBlogIndex.js'
@@ -51,6 +52,9 @@ const isBlog = computed(() => route.path.startsWith('/md/blog/'))
 // 资源导航（/md/resources/）
 const isResourceNav = computed(() => route.path.startsWith('/md/resources'))
 
+// Claude Code 资源导航（/md/claude-code-resources/）
+const isClaudeCodeResourceNav = computed(() => route.path.startsWith('/md/claude-code-resources'))
+
 // 路由决定稳定 DOM，landing theme 只切换文章增强视觉，避免 hydration 分支不一致。
 const isArticlePath = computed(() => {
   if (isBlog.value || isLanding.value) return false
@@ -81,6 +85,9 @@ watch(currentTheme, (theme) => {
 
   <!-- 博客页（/md/blog/）：列表 / 系列 / 分类 / 时间归档 -->
   <BlogLayout v-else-if="isBlog" />
+
+  <!-- Claude Code 资源导航（/md/claude-code-resources/） -->
+  <ClaudeCodeResourceNavLayout v-else-if="isClaudeCodeResourceNav" />
 
   <!-- 资源导航（/md/resources/）：卡片网格 + 分类筛选 + 搜索 -->
   <ResourceNavLayout v-else-if="isResourceNav" />

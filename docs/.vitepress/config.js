@@ -99,6 +99,10 @@ export default defineConfig({
         link: '/md/resources/',
       },
       {
+        text: 'Claude Code',
+        link: '/md/claude-code-resources/',
+      },
+      {
         text: '文档',
         items: [
           {
