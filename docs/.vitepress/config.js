@@ -100,7 +100,7 @@ export default defineConfig({
       },
       {
         text: 'Claude Code',
-        link: '/md/claude-code-resources/',
+        link: '/md/guide/ai/claude-code-resources/',
       },
       {
         text: '文档',

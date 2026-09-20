@@ -52,8 +52,8 @@ const isBlog = computed(() => route.path.startsWith('/md/blog/'))
 // 资源导航（/md/resources/）
 const isResourceNav = computed(() => route.path.startsWith('/md/resources'))
 
-// Claude Code 资源导航（/md/claude-code-resources/）
-const isClaudeCodeResourceNav = computed(() => route.path.startsWith('/md/claude-code-resources'))
+// Claude Code 资源导航（/md/guide/ai/claude-code-resources/）
+const isClaudeCodeResourceNav = computed(() => route.path.startsWith('/md/guide/ai/claude-code-resources'))
 
 // 路由决定稳定 DOM，landing theme 只切换文章增强视觉，避免 hydration 分支不一致。
 const isArticlePath = computed(() => {

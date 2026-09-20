@@ -62,7 +62,7 @@ function resetFilters() {
       <nav aria-label="资源导航" class="easton-clone-nav">
         <a href="/">首页</a>
         <a href="/md/resources/">资源导航</a>
-        <a href="/md/claude-code-resources/" class="is-active">Claude Code</a>
+        <a href="/md/guide/ai/claude-code-resources/" class="is-active">Claude Code</a>
         <a href="/md/blog/">博客</a>
         <a href="/md/guide/getting-started">指南</a>
         <LandingThemeSwitcher />
@@ -224,7 +224,7 @@ function resetFilters() {
       <div>
         <a href="/">首页</a>
         <a href="/md/resources/">资源导航</a>
-        <a href="/md/claude-code-resources/">Claude Code</a>
+        <a href="/md/guide/ai/claude-code-resources/">Claude Code</a>
         <a href="/md/blog/">博客</a>
         <a href="/md/guide/getting-started">指南</a>
         <a href="/md/guide/ai/claude-code-resources">原文档</a>
