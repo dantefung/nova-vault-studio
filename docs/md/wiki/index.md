@@ -284,6 +284,7 @@ wiki/
 | [claude-prompt-strategies](/md/wiki/sources/claude-prompt-strategies) | 100个提示策略：结构化提示、推理框架、内容量产，思维框架比模型版本更重要 | 公众号 |
 | [crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) | 单人操盘590位博主/26亿播放：前3秒钩子决定生死，13万条买家评价喂AI+5步流水线+3个Prompt | X/Twitter |
 | [andyl5cc-xiaohongshu-codex-workflow](/md/wiki/summaries/andyl5cc-xiaohongshu-codex-workflow) | 用Codex做小红书2天涨1000粉：发现→拆解→模仿→迭代，AI真正降的是从看到机会到做出来的时间 | X/Twitter |
+| [mixailab-workbuddy-html-pipeline](/md/wiki/summaries/mixailab-workbuddy-html-pipeline) | WorkBuddy+SRT做HTML视频：SRT当画面排期表，HTML模板可复用，后续只换mp3+srt同款视觉持续出片 | X/Twitter |
 
 ---
 

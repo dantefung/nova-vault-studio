@@ -3351,3 +3351,11 @@ source: "llm-wiki"
   - 下载 3 张配图至 images/andyl5cc-xiaohongshu-codex-workflow/
 - 新增精读摘要 summaries/andyl5cc-xiaohongshu-codex-workflow.md
 - 内容摘要：AI 时代做内容不要从 0 构思——先找到已跑出来的内容模型，拆成选题/流量/视觉三层，再用 Codex 批量复刻同一套路；Andy 在小红书 2 天涨 1000 粉、累计 105 万曝光 18 万观看、封面点击 17.9%；本人只做定方向+审核，选题到排版全丢 Codex；选题硬标准 = 必须有「信息差」，看到答案后没有「原来这东西还有名字」感觉的不做；核心方法论：发现 → 拆解 → 模仿 → 迭代
+
+## [2026-09-20] ingest: X 帖子（WorkBuddy + SRT 做 HTML 视频）
+
+- 归档 MixAILab 万象AI实验室《手把手教你用 WorkBuddy 做 HTML 视频》至 sources/mixailab-workbuddy-html-pipeline.md
+  - 下载 13 张配图至 images/mixailab-workbuddy-html-pipeline/
+  - 下载 2 个示例视频至 videos/mixailab-workbuddy-html-pipeline/
+- 新增精读摘要 summaries/mixailab-workbuddy-html-pipeline.md
+- 内容摘要：用 WorkBuddy（Codex/Claude Code 同款 AI Agent）+ HyperFrames 把口播稿批量做成 HTML 动画视频；核心创新是把 SRT 字幕直接当「画面排期表」喂给 AI，解决传统 AI 视频配音与画面不同步的痛点；四步流水线（写口播稿→录音频→导出 SRT→丢给 Agent 渲染）；HTML 模板完整保留后后续视频只换 mp3+srt 就能复用同款视觉风格；适合知识讲解/产品介绍/不露脸口播
