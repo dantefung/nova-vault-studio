@@ -3373,3 +3373,11 @@ source: "llm-wiki"
   - 下载 5 张配图至 images/dongqingai-xianyu-virtual-product-automation/
 - 新增精读摘要 summaries/dongqingai-xianyu-virtual-product-automation.md
 - 内容摘要：闲鱼虚拟资料自动化赚钱公式 = 找到付费需求→快速做成产品→持续上架→自动交付；执行链路 = AI 选品（goofish-cli 闲鱼 MCP）→ AI 写资料（同时出上架素材）→ 百度网盘 MCP 上传（stdio 模式）→ 闲鱼 MCP 批量上架（限流风控）→ 自动发货（易店现成方案或 xianyu-auto-reply 开源自建）；人只剩定方向 + 质量检查 + 处理异常三件事；卖的是「整理效率」不是文件本身；放大方式是持续增加有效商品 + 持续淘汰无效商品；网盘 MCP 本地上传必须 stdio 模式是易踩坑
+
+## [2026-09-20] ingest: X 帖子（Jev 模型从 0 到 1 小白教程）
+
+- 归档黄小木《Jev 模型从 0 到 1 小白教程》至 sources/ai-xiaomu-jev-decision-model-primer.md
+  - 下载 7 张配图至 images/ai-xiaomu-jev-decision-model-primer/
+  - 下载 1 个示例视频至 videos/ai-xiaomu-jev-decision-model-primer/
+- 新增精读摘要 summaries/ai-xiaomu-jev-decision-model-primer.md
+- 内容摘要：Jev 是 TypeSafe AI 2026-09-15 发布的 System-1 决策模型（前 OpenAI 研究员 Diogo Almeida 创办）；核心创新 = 把「问答」变成「填表」，返回答案格式数学上锁死不可能跑出表格外；每个答案自带 confidence 字段，支持「高把握自动处理 / 中把握请求确认 / 低把握转人工」分级兜底；快 200 倍、便宜 400 倍（70-500ms 响应）；三种问题形式（单选/评级 0-N 分/判断 0-1 概率）可并行同步问，官方鼓励「能多问就多问」；典型场景：客服分流/内容审核分级/招聘打分/LLM 质检/大数据打标签

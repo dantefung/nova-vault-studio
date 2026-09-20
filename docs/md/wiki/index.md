@@ -69,6 +69,7 @@ wiki/
 | [stripe-noahduck283-guide](/md/wiki/summaries/stripe-noahduck283-guide) | Stripe 全链路指南：Payment Links→Checkout→Billing→Tax/MoR→Connect 分层升级路径与上线 checklist | X/Twitter |
 | [stripe-sitinme-guide](/md/wiki/summaries/stripe-sitinme-guide) | Stripe 网站接入实战：Checkout Session→Webhook→Stripe CLI 本地测试→生产受限密钥 | X/Twitter |
 | [liujiayi1111-sms-code-forward](/md/wiki/summaries/liujiayi1111-sms-code-forward) | iPhone 快捷指令把短信验证码自动转发邮箱：被动转发/主动查询两案，附「内容」变量坑点 | X/Twitter |
+| [ai-xiaomu-jev-decision-model-primer](/md/wiki/summaries/ai-xiaomu-jev-decision-model-primer) | Jev决策模型入门：把问答变填表，答案格式数学上锁死；confidence分级兜底让AI真正可自动化；快200倍便宜400倍 | X/Twitter |
 | [claude-role-prompts](/md/wiki/concepts/claude-role-prompts) | 4 个改变提问方式的角色框架——CBT 咨询师/严厉导师/魔鬼代言人/私人教练 | X Article |
 | [selfmedia-compound-model](/md/wiki/concepts/selfmedia-compound-model) | 自媒体复利模型——流量起点→真需求产品→收入闭环，4 层变现漏斗 | X Article |
 | [ai-oneperson-company](/md/wiki/concepts/ai-oneperson-company) | AI 一人公司方法论——PMF→RPA→SOP→无限复制，跟在大模型屁股后面吃红利 | 公众号 |
