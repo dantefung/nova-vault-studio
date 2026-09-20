@@ -1,5 +1,5 @@
 ---
-title: "https://x.com/3i8ae3pgjz56244/status/1993328642697707736?s=46"
+title: "Vibe Coding 经验收集"
 date: "2026-06-16"
 source: "GitHub"
 url: "https://github.com/2025Emma/vibe-coding-cn"

@@ -181,4 +181,4 @@ meigen 做到不好的一点是，每张图的内链是 id：`/prompt/2068748402
 ## 相关文章
 
 - [Claude Code 6 个核心命令](./claude-code-6-commands.md) — /goal、/loop、/batch 等命令详解
-- [Vibe Coding 方法论](/guide/cs/software-philosophy/index.md) — 规划驱动的 AI 结对编程
+- [Vibe Coding 方法论](/md/guide/cs/software-philosophy/) — 规划驱动的 AI 结对编程

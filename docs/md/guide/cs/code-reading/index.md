@@ -1,16 +1,14 @@
 ---
-title: code-reading-video-clip
+title: "代码阅读方法论"
+source: "code-reading-video-clip"
+url: "https://github.com/pyeprog/code-reading-video-clip"
 ---
 
-&#x2D;&#x2D;&#x2D;
-title: code-reading-video-clip
-
-
-# code-reading-video-clip
+# 代码阅读方法论
 
 原文地址: https://github.com/pyeprog/code-reading-video-clip
 
-[English version](./README-en.md)
+[English version](./index-en.md)
 
 ## TL;DR
 

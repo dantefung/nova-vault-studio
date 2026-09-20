@@ -6,9 +6,12 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
+// 侧边栏排除的目录名：页面 URL 仍可访问，只是不出现在侧边栏
+const SIDEBAR_EXCLUDED_DIRS = new Set(['system-design-101']);
+
 function readMarkdownFiles(dir, parentPath = '') {
     if (!fs.existsSync(dir)) return [];
-    const files = fs.readdirSync(dir).filter(file => !file.startsWith('index'));
+    const files = fs.readdirSync(dir).filter(file => !file.startsWith('index') && !SIDEBAR_EXCLUDED_DIRS.has(file));
     const markdownFiles = [];
     files.forEach(file => {
         const filePath = path.join(dir, file);

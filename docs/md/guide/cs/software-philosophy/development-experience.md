@@ -1,5 +1,5 @@
 ---
-title: "**开发经验与项目规范整理文档**"
+title: "开发经验与项目规范"
 date: "2026-06-16"
 source: "GitHub"
 url: "https://github.com/2025Emma/vibe-coding-cn"
