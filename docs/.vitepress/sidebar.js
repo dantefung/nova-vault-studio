@@ -9,6 +9,28 @@ const __dirname = path.dirname(__filename)
 // 侧边栏排除的目录名：页面 URL 仍可访问，只是不出现在侧边栏
 const SIDEBAR_EXCLUDED_DIRS = new Set(['system-design-101']);
 
+// 指定目录下子项的展示顺序（key 为该目录的 link，value 为子目录名顺序）。
+// 未列出的子项排在已列出项之后，并保持原有相对顺序。
+const SIDEBAR_CHILD_ORDER = {
+    '/md/guide/cs/': ['system-internals', 'software-engineering', 'architecture', 'code-reading', 'software-philosophy'],
+};
+
+function applySidebarChildOrder(items) {
+    for (const item of items) {
+        const order = item.link && SIDEBAR_CHILD_ORDER[item.link];
+        if (order && Array.isArray(item.items)) {
+            const rank = new Map(order.map((name, i) => [name, i]));
+            const rankOf = (it) => {
+                if (!it.link || !it.link.startsWith(item.link)) return order.length;
+                const name = it.link.slice(item.link.length).replace(/\/$/, '');
+                return rank.has(name) ? rank.get(name) : order.length;
+            };
+            item.items.sort((a, b) => rankOf(a) - rankOf(b));
+        }
+        if (item.items) applySidebarChildOrder(item.items);
+    }
+}
+
 function readMarkdownFiles(dir, parentPath = '') {
     if (!fs.existsSync(dir)) return [];
     const files = fs.readdirSync(dir).filter(file => !file.startsWith('index') && !SIDEBAR_EXCLUDED_DIRS.has(file));
@@ -247,6 +269,7 @@ function generateSidebar(relativeDir, linkPrefix) {
     }
 
     addIndexOnlyDirectories(dir, sidebarConfig, linkPrefix);
+    applySidebarChildOrder(sidebarConfig);
 
     return sidebarConfig;
 }
