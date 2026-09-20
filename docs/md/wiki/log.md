@@ -3366,3 +3366,10 @@ source: "llm-wiki"
   - 下载 1 张配图至 images/dannykkg-ai-sandbox-primer/
 - 新增精读摘要 summaries/dannykkg-ai-sandbox-primer.md
 - 内容摘要：Sandbox 不是 Docker 也不是 VM 而是一套「控制程序能力 + 缩小爆炸半径」的方法论；六类受限资源（文件系统/进程/网络/身份凭据/计算资源/生命周期）；进程必须跟随整棵进程树限制；凭据最佳做法是「代办窗口」不把真 Token 放进 Sandbox；预分配 + 使用时拦截双层防御；三道防线（创建时少给/操作前规则检查/运行时强制执行）；7 问自检表判断 Sandbox 真伪；面向 AI Agent 新增要求——系统要用机器可理解的方式说明「为什么被拒、允许范围、下一步怎么安全继续」
+
+## [2026-09-20] ingest: X 帖子（闲鱼虚拟资料自动化）
+
+- 归档冬青《闲鱼虚拟资料自动化：从选品、制作、上架到自动发货的思路及工具分享》至 sources/dongqingai-xianyu-virtual-product-automation.md
+  - 下载 5 张配图至 images/dongqingai-xianyu-virtual-product-automation/
+- 新增精读摘要 summaries/dongqingai-xianyu-virtual-product-automation.md
+- 内容摘要：闲鱼虚拟资料自动化赚钱公式 = 找到付费需求→快速做成产品→持续上架→自动交付；执行链路 = AI 选品（goofish-cli 闲鱼 MCP）→ AI 写资料（同时出上架素材）→ 百度网盘 MCP 上传（stdio 模式）→ 闲鱼 MCP 批量上架（限流风控）→ 自动发货（易店现成方案或 xianyu-auto-reply 开源自建）；人只剩定方向 + 质量检查 + 处理异常三件事；卖的是「整理效率」不是文件本身；放大方式是持续增加有效商品 + 持续淘汰无效商品；网盘 MCP 本地上传必须 stdio 模式是易踩坑

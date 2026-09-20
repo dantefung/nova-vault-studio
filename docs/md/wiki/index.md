@@ -276,6 +276,7 @@ wiki/
 | [digital-products-side-income](/md/wiki/concepts/digital-products-side-income) | 数字产品副业：国内卖19.9国外卖9美元，Gumroad/Payhip/Sellfy 平台对比 | 公众号 |
 | [indie-product](/md/wiki/concepts/indie-product) | 独立开发者三维度找需求：用户群体×产品形态×收费模式，「官方不管、用户很痒、有人愿意付钱」 | 公众号 |
 | [boss-business-model](/md/wiki/concepts/boss-business-model) | 招聘信息分析：用 BOSS 直聘做商业模式研究，岗位类型暴露获客/销售/交付模式，横向对比拼出行业地图 | 公众号 |
+| [dongqingai-xianyu-virtual-product-automation](/md/wiki/summaries/dongqingai-xianyu-virtual-product-automation) | 闲鱼虚拟资料自动化：AI+MCP把选品/制作/上架/发货变流水线，人只做定方向+质量检查+异常处理 | X/Twitter |
 
 ### 内容工作流 (Content Workflows)
 
