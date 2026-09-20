@@ -222,6 +222,7 @@ wiki/
 | [agentscope-multi-agent](/md/wiki/concepts/agentscope-multi-agent) | 多 Agent 编排三件套：spawn/send 原语、超时收编后台任务不丢弃、子事件并入父流、跨副本三段式路由 | 公众号 |
 | [multi-agent-design](/md/wiki/sources/multi-agent-design) | 多 Agent 系统设计哲学：六层架构、四天花板、五角色、三协作模式、四通信方式、七生产难点、五实践五反模式 | 公众号 |
 | [agent-sandbox-k8s](/md/wiki/sources/agent-sandbox-k8s) | Agent Sandbox：K8s SIG 项目（kubernetes-sigs/agent-sandbox），声明式 CRD 编排隔离有状态单例沙箱，WarmPool 预热池 + RuntimeClass 接 gVisor/Kata，Agent 执行层基础设施 | 公众号 |
+| [dannykkg-ai-sandbox-primer](/md/wiki/summaries/dannykkg-ai-sandbox-primer) | Sandbox入门：≠Docker≠VM；六类受限资源（文件/进程/网络/凭据/算力/生命周期）；预分配+拦截双层防御；三道防线+7问自检 | X/Twitter |
 | [agent-flow-vs-general](/md/wiki/sources/agent-flow-vs-general) | 从 Agent Flow 到 AI Native：通用 Agent 是「饮鸩止渴」；最小任务单元、Hardcode 是美丽的、AI Native 本质是解决用户问题、基建要 LLM-friendly、组织链路要足够短 | 公众号 |
 | [linux-interrupt-overview](/md/wiki/sources/linux-interrupt-overview) | Linux 中断管理概述：顶半部/底半部分层架构，三大底半部机制（Softirq/Tasklet/Workqueue）特点与适用场景 | 公众号 |
 | [microsoft-autogen-multagent](/md/wiki/sources/microsoft-autogen-multagent) | 微软开源 AutoGen：多智能体框架，ConversableAgent 万物皆可对话，GroupChat 团队协作，v0.4 async-first 分布式架构，vs LangGraph/CrewAI 对比 | 公众号 |

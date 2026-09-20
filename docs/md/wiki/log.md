@@ -3359,3 +3359,10 @@ source: "llm-wiki"
   - 下载 2 个示例视频至 videos/mixailab-workbuddy-html-pipeline/
 - 新增精读摘要 summaries/mixailab-workbuddy-html-pipeline.md
 - 内容摘要：用 WorkBuddy（Codex/Claude Code 同款 AI Agent）+ HyperFrames 把口播稿批量做成 HTML 动画视频；核心创新是把 SRT 字幕直接当「画面排期表」喂给 AI，解决传统 AI 视频配音与画面不同步的痛点；四步流水线（写口播稿→录音频→导出 SRT→丢给 Agent 渲染）；HTML 模板完整保留后后续视频只换 mp3+srt 就能复用同款视觉风格；适合知识讲解/产品介绍/不露脸口播
+
+## [2026-09-20] ingest: X 帖子（Sandbox 入门——AI 的工作间）
+
+- 归档 Kg《AI 的工作间：Sandbox 入门（小白从零学习 Sandbox）》至 sources/dannykkg-ai-sandbox-primer.md
+  - 下载 1 张配图至 images/dannykkg-ai-sandbox-primer/
+- 新增精读摘要 summaries/dannykkg-ai-sandbox-primer.md
+- 内容摘要：Sandbox 不是 Docker 也不是 VM 而是一套「控制程序能力 + 缩小爆炸半径」的方法论；六类受限资源（文件系统/进程/网络/身份凭据/计算资源/生命周期）；进程必须跟随整棵进程树限制；凭据最佳做法是「代办窗口」不把真 Token 放进 Sandbox；预分配 + 使用时拦截双层防御；三道防线（创建时少给/操作前规则检查/运行时强制执行）；7 问自检表判断 Sandbox 真伪；面向 AI Agent 新增要求——系统要用机器可理解的方式说明「为什么被拒、允许范围、下一步怎么安全继续」
