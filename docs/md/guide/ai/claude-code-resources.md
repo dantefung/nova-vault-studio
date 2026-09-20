@@ -69,6 +69,7 @@ date: "2026-04-29"
 - [Agent Base](https://giraffe-tree.github.io/agent-base/#/README) — AI Agent 基础知识库
 - [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code/tree/main) — ShareAI Lab Claude Code 学习路径
 - [Professional Programming](https://github.com/VastFuture/professional-programming) — 专业编程资源集
+- [前端转向 AI Coding 的常见问题全景](https://kejun.github.io/frontend-to-ai-coding/) — 前端团队采用 Cursor/Claude Code/Copilot/Codex 的风险识别与验收清单，30 个风险覆盖视觉/运行/代码质量/安全/协作/长期能力 6 个领域，引用 6 项研究/审计，分级验收 + 10 条防御项；2026-09-20 由 kejun 修订
 
 ---
 
