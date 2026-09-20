@@ -3344,3 +3344,10 @@ source: "llm-wiki"
   - 下载 6 张配图至 images/liujiayi1111-sms-code-forward/
 - 新增精读摘要 summaries/crazykaomei-aigc-hook-pipeline.md、summaries/liujiayi1111-sms-code-forward.md
 - 内容摘要：①单人调度 590 位博主拿下 26 亿播放的 AIGC 流水线，0 项目经理 / 0 文案 / 0 数据分析师；前 3 秒钩子缺失则播放平均暴跌 4.2 倍（统一开场 12,333 vs 自由发挥 2,921）；13 万条真实买家评价喂 AI，禁止策划凭空写；按开场骨架而非话题分类；附 3 个可直接跑的中文 Prompt 模版。②iPhone 快捷指令两条个人自动化把备用机短信验证码自动送进邮箱：方案一被动转发（信息 → 关键词 → 邮箱，关键坑点：必须再点变量选「内容」取出纯文本）、方案二主动查询（邮件标题触发 → 查未读短信合并回发并标记已读）；零第三方、零月费。
+
+## [2026-09-20] ingest: X 帖子（Codex 做小红书 2 天涨 1000 粉）
+
+- 归档 Andy L《我是怎么用 Codex 做小红书，2 天涨了 1000 粉》至 sources/andyl5cc-xiaohongshu-codex-workflow.md
+  - 下载 3 张配图至 images/andyl5cc-xiaohongshu-codex-workflow/
+- 新增精读摘要 summaries/andyl5cc-xiaohongshu-codex-workflow.md
+- 内容摘要：AI 时代做内容不要从 0 构思——先找到已跑出来的内容模型，拆成选题/流量/视觉三层，再用 Codex 批量复刻同一套路；Andy 在小红书 2 天涨 1000 粉、累计 105 万曝光 18 万观看、封面点击 17.9%；本人只做定方向+审核，选题到排版全丢 Codex；选题硬标准 = 必须有「信息差」，看到答案后没有「原来这东西还有名字」感觉的不做；核心方法论：发现 → 拆解 → 模仿 → 迭代
