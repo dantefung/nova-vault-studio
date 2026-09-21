@@ -146,6 +146,7 @@ wiki/
 | [multica-usage-guide](/md/wiki/summaries/multica-usage-guide) | Multica 实战手册：Workspace / Issue / Squad 突击小队产研协同闭环 | 君哥的学习笔记 |
 | [network-piercing-frp-guide](/md/wiki/summaries/network-piercing-frp-guide) | 内网穿透主流工具对比与企业级 frp 私有化自建全攻略 | 君哥的学习笔记 |
 | [enterprise-knowledge-base-selection](/md/wiki/summaries/enterprise-knowledge-base-selection) | 企业级知识库架构选型：LLM Wiki（提前提炼复利）vs RAG（查询时拼装）深度对比 | 君哥的学习笔记 |
+| [shao-meng-inference-engineering-prefill-decode-cuda](/md/wiki/summaries/shao-meng-inference-engineering-prefill-decode-cuda) | Baseten「Inference Engineering」精读：Prefill 算力受限 vs Decode 带宽受限铁律 + vLLM/SGLang/TensorRT-LLM 选型 + 五大加速组合评估 + 故障是常态 | X/Twitter |
 
 ### 学习路径 (Learning Paths)
 
@@ -278,6 +279,7 @@ wiki/
 | [indie-product](/md/wiki/concepts/indie-product) | 独立开发者三维度找需求：用户群体×产品形态×收费模式，「官方不管、用户很痒、有人愿意付钱」 | 公众号 |
 | [boss-business-model](/md/wiki/concepts/boss-business-model) | 招聘信息分析：用 BOSS 直聘做商业模式研究，岗位类型暴露获客/销售/交付模式，横向对比拼出行业地图 | 公众号 |
 | [dongqingai-xianyu-virtual-product-automation](/md/wiki/summaries/dongqingai-xianyu-virtual-product-automation) | 闲鱼虚拟资料自动化：AI+MCP把选品/制作/上架/发货变流水线，人只做定方向+质量检查+异常处理 | X/Twitter |
+| [affnom-y-traffic-arbitrage-3min-primer](/md/wiki/summaries/affnom-y-traffic-arbitrage-3min-primer) | 3分钟讲清楚流量套利：搜索套利/产品变现/网站广告三出口100美元账本示例，普通人先跑通一笔完整账再扩量 | X/Twitter |
 
 ### 内容工作流 (Content Workflows)
 
@@ -288,6 +290,8 @@ wiki/
 | [crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) | 单人操盘590位博主/26亿播放：前3秒钩子决定生死，13万条买家评价喂AI+5步流水线+3个Prompt | X/Twitter |
 | [andyl5cc-xiaohongshu-codex-workflow](/md/wiki/summaries/andyl5cc-xiaohongshu-codex-workflow) | 用Codex做小红书2天涨1000粉：发现→拆解→模仿→迭代，AI真正降的是从看到机会到做出来的时间 | X/Twitter |
 | [mixailab-workbuddy-html-pipeline](/md/wiki/summaries/mixailab-workbuddy-html-pipeline) | WorkBuddy+SRT做HTML视频：SRT当画面排期表，HTML模板可复用，后续只换mp3+srt同款视觉持续出片 | X/Twitter |
+| [zhouluobo-workbuddy-feishu-content-flywheel](/md/wiki/summaries/zhouluobo-workbuddy-feishu-content-flywheel) | WorkBuddy+飞书三环飞轮：多维表格选题库→状态改「选中」触发写稿→排版 skill + 公众号 API 推草稿箱 | X/Twitter |
+| [zhouluobo-workbuddy-skill-wechat-article-pipeline](/md/wiki/summaries/zhouluobo-workbuddy-skill-wechat-article-pipeline) | WorkBuddy 加两个自建 skill 实现公众号自由：排版+视觉+自动推送草稿箱，自动发布绝对不碰 | X/Twitter |
 
 ---
 

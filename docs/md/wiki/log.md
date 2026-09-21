@@ -3381,3 +3381,32 @@ source: "llm-wiki"
   - 下载 1 个示例视频至 videos/ai-xiaomu-jev-decision-model-primer/
 - 新增精读摘要 summaries/ai-xiaomu-jev-decision-model-primer.md
 - 内容摘要：Jev 是 TypeSafe AI 2026-09-15 发布的 System-1 决策模型（前 OpenAI 研究员 Diogo Almeida 创办）；核心创新 = 把「问答」变成「填表」，返回答案格式数学上锁死不可能跑出表格外；每个答案自带 confidence 字段，支持「高把握自动处理 / 中把握请求确认 / 低把握转人工」分级兜底；快 200 倍、便宜 400 倍（70-500ms 响应）；三种问题形式（单选/评级 0-N 分/判断 0-1 概率）可并行同步问，官方鼓励「能多问就多问」；典型场景：客服分流/内容审核分级/招聘打分/LLM 质检/大数据打标签
+
+## [2026-09-21] ingest: X 帖子（Inference Engineering 书精读）
+
+- 归档 meng shao《深读免费书「Inference Engineering」：Prefill 吃算力、Decode 吃带宽》至 sources/shao-meng-inference-engineering-prefill-decode-cuda.md
+  - 下载 1 张配图至 images/shao-meng-inference-engineering-prefill-decode-cuda/
+- 新增精读摘要 summaries/shao-meng-inference-engineering-prefill-decode-cuda.md
+- 内容摘要：Baseten 出品的推理工程书系统化讲「自建推理怎么跑得快/省/稳」，覆盖 CUDA 内核到 Kubernetes 全栈；核心分析工具是「算力受限 vs 带宽受限」（H100 ops:byte ≈ 295）— prefill 算力受限、decode 带宽受限、视频生成算力受限；优化即权衡管理（NFL 球员类比）；选模型是最大性能决策、TTFT+TPS 是两大核心指标、P90/P99 才是真相；三大引擎 vLLM/SGLang/TensorRT-LLM 各有侧重；五大加速手段（量化/投机解码/缓存/并行/分离部署）按组合评估；MoE 稀疏性红利在批量生产里会打折需 EP 挽回；故障是常态（约每 5 万 GPU 小时一次）；所有单点优化过不了基础设施这关就没有意义
+
+## [2026-09-21] ingest: X 帖子（WorkBuddy+飞书搭公众号内容飞轮）
+
+- 归档 zhouluobo《我用 WorkBuddy+飞书，搭了一条公众号内容自动飞轮》至 sources/zhouluobo-workbuddy-feishu-content-flywheel.md
+  - 下载 21 张配图至 images/zhouluobo-workbuddy/（其中 2 张视频缩略图已过滤）
+  - 下载 2 个示例视频至 videos/zhouluobo-workbuddy/
+- 新增精读摘要 summaries/zhouluobo-workbuddy-feishu-content-flywheel.md
+- 内容摘要：公众号创作时间黑洞不是写稿是「搬运+排版+推送」这些窗口切换；WorkBuddy（腾讯自研 AI 智能体桌面工作台）连接飞书后把链路压成三环飞轮 — 飞轮第一环（多维表格当选题库 + WorkBuddy 自动写入选题）、飞轮第二环（状态从「待定」改「选中」触发 WorkBuddy 读选题+历史文风 → 出初稿）、飞轮第三环（排版 skill + 公众号 API 推草稿箱 + 自动封面）；公众号开放能力 5 分钟搞定（扫码登录→我的业务→AppID+AppSecret→IP 白名单）；多维表格「备注栏」是 prompt 决定质量的真正抓手；WorkBuddy 不抢判断的活，AI 只干搬运+排版这些机械劳动；偏理论/情感/时事 AI 可打底、教程类 AI 写不了
+
+## [2026-09-21] ingest: X 帖子（WorkBuddy 加两个自建 skill 公众号自由）
+
+- 归档 zhouluobo《WorkBuddy 加两个自建的 skill，我实现了公众号自由》至 sources/zhouluobo-workbuddy-skill-wechat-article-pipeline.md
+  - 下载 21 张配图至 images/zhouluobo-skill/
+- 新增精读摘要 summaries/zhouluobo-workbuddy-skill-wechat-article-pipeline.md
+- 内容摘要：「公众号自由」真意不是甩手，是把排版/配图/传草稿这些体力活外包给 Agent；萝卜哥续篇在 WorkBuddy+飞书飞轮基础上自建两个 skill（**文章排版**+**文章视觉**）上架开放平台专攻「写完到进草稿箱」这一段；公众号开发信息是平台官方能力绝对安全；跑通一次推送后让 WorkBuddy 流程固化成一个 skill 下次免输密钥 = 「一次性操作→可复用资产」关键一步；「去 AI 味」用某大佬开源的 283 万字语料训练的 skill 效果显著；对话式扩展能力（一句话让 WorkBuddy 继续干）；自动发布绝对不碰 — AI 送进草稿箱就行，封号风险没必要冒
+
+## [2026-09-21] ingest: X 帖子（流量套利到底怎么赚钱）
+
+- 归档 Peter Yang《3 分钟讲清楚流量套利到底怎么赚钱》至 sources/affnom-y-traffic-arbitrage-3min-primer.md
+  - 下载 8 张配图至 images/affnom-y/
+- 新增精读摘要 summaries/affnom-y-traffic-arbitrage-3min-primer.md
+- 内容摘要：「流量套利」不是把同一个人从 Facebook 搬到另一个平台就赚差价，而是「先花钱买访问/点击→让对方行为结算收入→能不能打正」的全链路账；三种出口钱从哪来完全不同（搜索套利 = 搜索广告主分成 / 产品变现 = 产品方或联盟按 CPI-CPL-CPS / 网站广告 = 广告主预算经平台按 RPM）；每个出口配 100 美元买量示例账（搜索套利赚 20/产品变现赚 50/网站广告赚 20）纠掉「广告主整笔点击费 = 我的收入」的最常见误解；普通人不要先注册平台 — ① 选变现项目搞清结算 ② 数据接起来 ③ 才花钱测试 ④ 才扩量；AI 只交重复工作，收入确认规则/亏损上限/停投条件不能省；永久佣金陷阱（多年续费分成不能当今天已赚）
