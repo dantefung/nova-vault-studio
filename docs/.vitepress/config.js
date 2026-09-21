@@ -115,12 +115,11 @@ export default defineConfig({
 
     nav: [
       {
-        text: '资源导航',
-        link: '/md/resources/',
-      },
-      {
-        text: 'Claude Code',
-        link: '/md/guide/ai/claude-code-resources/',
+        text: '资源中心',
+        items: [
+          { text: 'AI 编程资源', link: '/md/resources/' },
+          { text: 'Claude Code', link: '/md/guide/ai/claude-code-resources/' },
+        ]
       },
       {
         text: '文档',
