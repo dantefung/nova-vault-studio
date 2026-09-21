@@ -10,6 +10,7 @@ title: Other Tools
 
 - [Age App Template Introduction](./age-app-template-introduction.md)
 - [Agent Background Tasks](./agent-background-tasks.md)
+- [Mission Driver 安装、使用与原理](./mission-driver-install-and-principles.md)
 - [Codex Video Subtitle](./codex-video-subtitle.md)
 - [Coding Tutor Plugin Architecture](./coding-tutor-plugin-architecture.md)
 - [Commit as Prompt](./commit-as-prompt.md)
