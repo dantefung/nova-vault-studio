@@ -8,7 +8,7 @@ url: "https://x.com/shao__meng/status/2101835798316495007"
 
 # 深读免费书「Inference Engineering」：Prefill 吃算力、Decode 吃带宽，讲透从 CUDA 到生产部署的推理优化
 
-![cover](images/shao-meng-inference-engineering-prefill-decode-cuda/001.jpg)
+![cover](../images/shao-meng-inference-engineering-prefill-decode-cuda/001.jpg)
 
 # Inference Engineering
 

@@ -8,7 +8,7 @@ url: "https://x.com/zhouluobo/status/2099013306371424260"
 
 # 我用 WorkBuddy+飞书，搭了一条公众号内容自动飞轮
 
-![cover](images/zhouluobo-workbuddy/001.jpg)
+![cover](../images/zhouluobo-workbuddy/001.jpg)
 
 大家好，我是萝卜哥～
 
@@ -18,7 +18,7 @@ url: "https://x.com/zhouluobo/status/2099013306371424260"
 
 后来发现 WorkBuddy 连上飞书之后，还真能搞。选题可以自动同步到飞书多维表格里，我在表格里选中一个题目，它能根据选题信息自动写稿，写完还能帮你排版推到草稿箱。整条链路跑通之后，中间的窗口切换基本没了。
 
-![video](videos/zhouluobo-workbuddy/001.mp4)
+![video](../videos/zhouluobo-workbuddy/001.mp4)
 
 今天这篇就把这条内容飞轮的搭建过程完整讲一遍，你跟着就能复现。
 
@@ -34,18 +34,18 @@ WorkBuddy 是腾讯自研的一个全场景 AI 智能体桌面工作台，装在
 
 打开 WorkBuddy，在左侧边栏找到"连接器"，搜索框里输入"飞书"。你会看到飞书的连接器卡片出来了，点那个"+"号，或者点进去之后选"连接"，它会跳转到飞书的授权页面。
 
-![](images/zhouluobo-workbuddy/002.jpg)
-![](images/zhouluobo-workbuddy/003.jpg)
+![](../images/zhouluobo-workbuddy/002.jpg)
+![](../images/zhouluobo-workbuddy/003.jpg)
 
 授权页面会列出它需要读取的权限范围，即时消息、群组信息、日历日程、云文档这些。你看一下没问题就点"开通并授权"，完事了。
 
-![](images/zhouluobo-workbuddy/004.png)
+![](../images/zhouluobo-workbuddy/004.png)
 
 整个过程两三分钟。连上之后你就可以在 WorkBuddy 里直接调用飞书的各种能力了，文档能读，群聊能查，日程和多维表格也都打通了。
 
 顺带说一句，WorkBuddy 的技能商店里还有一堆飞书相关的 Skill，像飞书文档 API 技能、飞书多维表格同步、飞书周报生成这些。你可以根据自己的需求挑着装，后面用起来会更顺手。
 
-![](images/zhouluobo-workbuddy/005.jpg)
+![](../images/zhouluobo-workbuddy/005.jpg)
 
 # 飞轮第一环，选题自动入库
 
@@ -53,7 +53,7 @@ WorkBuddy 是腾讯自研的一个全场景 AI 智能体桌面工作台，装在
 
 我在飞书里建了一个目录，专门给公众号使用。
 
-![](images/zhouluobo-workbuddy/006.png)
+![](../images/zhouluobo-workbuddy/006.png)
 
 以前我是手工维护一个多维表格，里面的字段很简单，选题标题、关键词、内容方向、流量预估、状态（待定/选中/已完成），再加一个备注栏。
 
@@ -63,11 +63,11 @@ WorkBuddy 是腾讯自研的一个全场景 AI 智能体桌面工作台，装在
 
 比如我跟它说一句，"帮我分析一下最近公众号 AI 工具赛道的热门选题方向，整理出 10 个有流量潜力的选题，每个附上关键词和内容方向建议，然后自动写入飞书多维表格【选题库】里，状态标为'待定'"。
 
-![](images/zhouluobo-workbuddy/007.jpg)
+![](../images/zhouluobo-workbuddy/007.jpg)
 
 它会先给你生成一批选题建议，然后直接往你飞书的多维表格里写数据。你打开飞书一看，表格里已经多了十行记录了。
 
-![video](videos/zhouluobo-workbuddy/002.mp4)
+![video](../videos/zhouluobo-workbuddy/002.mp4)
 
 说实话这一步省下来的时间比我预期多，以前选题是我每天花时间最碎的一个环节，现在变成了批量操作。
 
@@ -77,19 +77,19 @@ WorkBuddy 是腾讯自研的一个全场景 AI 智能体桌面工作台，装在
 
 这里要注意啊，选择下面这个安装，其他都是李鬼，来蹭卡神热度的，哈哈哈。
 
-![](images/zhouluobo-workbuddy/008.jpg)
+![](../images/zhouluobo-workbuddy/008.jpg)
 
 安装好这个 skill 之后，我们就能用下面的 Prompt 来收集选题了。
 
-![](images/zhouluobo-workbuddy/009.jpg)
+![](../images/zhouluobo-workbuddy/009.jpg)
 
 最后我们得到的新选题如下，大家觉得哪种方式获取到的选题更让你喜欢？
 
-![](images/zhouluobo-workbuddy/010.jpg)
+![](../images/zhouluobo-workbuddy/010.jpg)
 
 其实我是比较喜欢 WorkBuddy 在下面给出的建议，我觉得判断很准确，非常有参考意义。
 
-![](images/zhouluobo-workbuddy/011.jpg)
+![](../images/zhouluobo-workbuddy/011.jpg)
 
 # 飞轮第二环，选题变文章
 
@@ -97,15 +97,15 @@ WorkBuddy 是腾讯自研的一个全场景 AI 智能体桌面工作台，装在
 
 当我在飞书多维表格里把某个选题的状态从"待定"改成"选中"之后，就可以让 WorkBuddy 开工了。
 
-![](images/zhouluobo-workbuddy/012.jpg)
+![](../images/zhouluobo-workbuddy/012.jpg)
 
 我跟它说，"去飞书多维表格【选题库】里，读取状态为'选中'的那条记录，根据选题标题和关键词帮我写一篇公众号文章。要求口语化、段落错落有致，控制在 2000 字左右。"，同时我再给它我飞书文档当中的历史文章，供它参考文风。
 
-![](images/zhouluobo-workbuddy/013.jpg)
+![](../images/zhouluobo-workbuddy/013.jpg)
 
 WorkBuddy 会自己跑去飞书把选题信息读出来，然后基于这些信息生成一篇完整的初稿，同时还参考了我的历史文章，把我的行文风格都学过来了，感觉这样做比写一个写作 skill 要更好用啊。
 
-![](images/zhouluobo-workbuddy/014.jpg)
+![](../images/zhouluobo-workbuddy/014.jpg)
 
 关于写文章要重点说一下，它生成的初稿质量跟你提示词写得好不好直接相关。如果你只说"写一篇文章"，出来的东西大概率很泛。但如果你在多维表格的备注栏里提前写好了内容方向、目标读者、想要强调的点，它读到的上下文越丰富，出来的稿子就越贴。
 
@@ -123,11 +123,11 @@ WorkBuddy 会自己跑去飞书把选题信息读出来，然后基于这些信�
 
 我自己还做了一个排版网站，都是手动复制文章内容过去，然后再调整样式的。（部分样式参考了摸鱼小李的设计，这里感谢小李哥的探索和分享）
 
-![](images/zhouluobo-workbuddy/015.jpg)
+![](../images/zhouluobo-workbuddy/015.jpg)
 
 不过用上 WorkBuddy 之后，我还是决定把排版网站的这套排版逻辑打包成一个 skill，这样从写文章到排版，就能一次性完成了。
 
-![](images/zhouluobo-workbuddy/016.jpg)
+![](../images/zhouluobo-workbuddy/016.jpg)
 
 到这里排版也做好了，这个 skill 我也发布到 skillhub 上了，大家可以直接使用哈。
 
@@ -135,7 +135,7 @@ WorkBuddy 会自己跑去飞书把选题信息读出来，然后基于这些信�
 
 首先就是获取公众号的 AppID 和 AppSecret，以及设置白名单，这里就不过多赘述了，感兴趣的朋友多的话，咱们专门写一篇文章。
 
-![](images/zhouluobo-workbuddy/017.jpg)
+![](../images/zhouluobo-workbuddy/017.jpg)
 
 总之就是拿到这些信息之后，直接告诉 WorkBuddy，让它把排版好的文章推动到指定的公众号草稿箱即可。
 
@@ -145,15 +145,15 @@ WorkBuddy 会自己跑去飞书把选题信息读出来，然后基于这些信�
 我的公众号AppSecret：****************
 ```
 
-![](images/zhouluobo-workbuddy/018.jpg)
+![](../images/zhouluobo-workbuddy/018.jpg)
 
 很快就能在公众号的草稿箱看到推送的文章了，它甚至还贴心的帮我生成了一个封面，太优秀了。
 
-![](images/zhouluobo-workbuddy/019.png)
+![](../images/zhouluobo-workbuddy/019.png)
 
 点进去文章样式是这样的，这一套流程还是非常丝滑的。
 
-![](images/zhouluobo-workbuddy/020.jpg)
+![](../images/zhouluobo-workbuddy/020.jpg)
 
 当然如果觉得文章封面不够有冲击力，我还有另一套自己做的 skill，可以生成更美观更吸引人的封面图片，这个咱们下次再重点分享哈。
 
@@ -165,7 +165,7 @@ WorkBuddy 会自己跑去飞书把选题信息读出来，然后基于这些信�
 
 WorkBuddy 支持多模型切换。你可以根据不同任务选不同的模型，甚至能接入自定义模型。对于已经有自己偏好模型的进阶用户来说，这一点还是非常有吸引力的。
 
-![](images/zhouluobo-workbuddy/021.jpg)
+![](../images/zhouluobo-workbuddy/021.jpg)
 
 而且现在新发布的 Hy4 preview 模型在 WorkBuddy 里面还是免费使用的，Hy3 甚至会免费到 9 月底。想体验的赶紧趁这个窗口试试，薅羊毛的事情宜早不宜迟。
 

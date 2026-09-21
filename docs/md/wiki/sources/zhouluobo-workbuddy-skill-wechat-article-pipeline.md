@@ -8,7 +8,7 @@ url: "https://x.com/zhouluobo/status/2101819585301254163"
 
 # WorkBuddy 加两个自建的 skill，我实现了公众号自由
 
-![cover](images/zhouluobo-skill/001.jpg)
+![cover](../images/zhouluobo-skill/001.jpg)
 
 大家好，我是萝卜~
 
@@ -29,25 +29,25 @@ url: "https://x.com/zhouluobo/status/2101819585301254163"
 
 我们整个流程大致是这样的，手工写完文章（或者自动生成文章）-》使用WorkBuddy的skill配图+封面→ 使用WorkBuddy的skill排版 -》WorkBuddy调用接口创建草稿-》打开公众号后台检查，无误后手动点击发布。
 
-![](images/zhouluobo-skill/002.jpg)
+![](../images/zhouluobo-skill/002.jpg)
 
 先登录微信开发者平台，扫码登陆就行。
 
-![](images/zhouluobo-skill/003.jpg)
+![](../images/zhouluobo-skill/003.jpg)
 
 登陆之后到"我的业务"里面点击公众号
 
-![](images/zhouluobo-skill/004.jpg)
+![](../images/zhouluobo-skill/004.jpg)
 
 然后就能看到对应的 AppID 和 AppSecret 了。
 
-![](images/zhouluobo-skill/005.jpg)
+![](../images/zhouluobo-skill/005.jpg)
 
 AppSecret 非常重要，千万不要在公开场合暴露出去哦。
 
 还有一个 API IP 白名单，这个也需要设置一下，一般来说你就在百度里面输入 IP，然后把得到的 IP 地址填到白名单就行了。
 
-![](images/zhouluobo-skill/006.jpg)
+![](../images/zhouluobo-skill/006.jpg)
 
 到这里准备工作基本完成了
 
@@ -55,19 +55,19 @@ AppSecret 非常重要，千万不要在公开场合暴露出去哦。
 
 下面的事情，我觉得其实都可以交给 WorkBuddy，比如我把下面的提示词发送给 WorkBuddy，它就会一步步的帮我把后面的一切都做好。
 
-![](images/zhouluobo-skill/007.jpg)
+![](../images/zhouluobo-skill/007.jpg)
 
 很快 WorkBuddy 就帮我测试好了，一切都没有问题。
 
-![](images/zhouluobo-skill/008.jpg)
+![](../images/zhouluobo-skill/008.jpg)
 
 已经可以在草稿箱看到这篇测试文章了。
 
-![](images/zhouluobo-skill/009.jpg)
+![](../images/zhouluobo-skill/009.jpg)
 
 流程跑通之后，就可以让 WorkBuddy 把这个过程做成一个 skill，这样就不需要每次都手工提供 AppID 和AppSecret 了。
 
-![](images/zhouluobo-skill/010.jpg)
+![](../images/zhouluobo-skill/010.jpg)
 
 # 两个自建 skill
 
@@ -75,12 +75,12 @@ AppSecret 非常重要，千万不要在公开场合暴露出去哦。
 
 我已经上架到 WorkBuddy 开放平台了，目前已经审批通过，大家在 WorkBuddy 的 skill 页面就能搜索到哦。
 
-![](images/zhouluobo-skill/011.jpg)
+![](../images/zhouluobo-skill/011.jpg)
 
 直接在 skill 广场搜索就行
 
-![](images/zhouluobo-skill/012.jpg)
-![](images/zhouluobo-skill/013.jpg)
+![](../images/zhouluobo-skill/012.jpg)
+![](../images/zhouluobo-skill/013.jpg)
 
 使用上面两个 skill，可以极大的帮助你缩短公众号的写作流程，真的值得去试一试哦。
 
@@ -88,19 +88,19 @@ AppSecret 非常重要，千万不要在公开场合暴露出去哦。
 
 比如我飞书文档上有这样一篇文章，要是以前啊，我会先下载为 markdown 文件，再复制到排版工具里面进行排版，封面和配图会放到 ChatGPT 里面去生成，一整套下来纯纯的耗费时间。
 
-![](images/zhouluobo-skill/014.jpg)
+![](../images/zhouluobo-skill/014.jpg)
 
 现在直接交给 WorkBuddy 和相关的 skill 就完事了。
 
-![](images/zhouluobo-skill/015.jpg)
+![](../images/zhouluobo-skill/015.jpg)
 
 很快我们就能得到想要的产物了，包括已经排好版可以一键复制的 HTML 页面，封面图片和文章内文配图。
 
-![](images/zhouluobo-skill/016.jpg)
+![](../images/zhouluobo-skill/016.jpg)
 
 文章也安静的躺在草稿箱喽。
 
-![](images/zhouluobo-skill/017.jpg)
+![](../images/zhouluobo-skill/017.jpg)
 
 当然肯定还有朋友想要更进一步，连文章也不想写，那下面再演示一下怎么自动写文章。
 
@@ -114,15 +114,15 @@ AppSecret 非常重要，千万不要在公开场合暴露出去哦。
 以飞书文档中"OpenAI"目录下的文章为写作风格，写一篇介绍AI基础概念的公众号文章，包括不限于skill，mcp，Agent，Prompt，Context，Tool，Memory / RAG， Workflow，Evals等等。并使用 skill 进行去AI味处理。
 ```
 
-![](images/zhouluobo-skill/018.jpg)
+![](../images/zhouluobo-skill/018.jpg)
 
 细心的朋友可能看到了，我这里的去 AI 味提到了一个 skill，这个是网上一位大佬开源的，号称是从 283 万字的语料中整理得出的，我用过，确实比一般的去 AI 味的工具要好很多，推荐给大家。
 
-![](images/zhouluobo-skill/019.jpg)
+![](../images/zhouluobo-skill/019.jpg)
 
 很快我们就能得到一篇非常不错的 AI 科普文章，因为我没有提要配图和发布到草稿箱，所以 WorkBuddy 只生成了文章。
 
-![](images/zhouluobo-skill/020.jpg)
+![](../images/zhouluobo-skill/020.jpg)
 
 要想配图和发布到草稿箱，就继续一句话让 WorkBuddy 接着干就好了。
 
@@ -130,7 +130,7 @@ AppSecret 非常重要，千万不要在公开场合暴露出去哦。
 为上面的文章配图并生成封面，并发布到草稿箱
 ```
 
-![](images/zhouluobo-skill/021.jpg)
+![](../images/zhouluobo-skill/021.jpg)
 
 看到没有，还是太方便了。
 
