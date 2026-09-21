@@ -44,6 +44,7 @@ date: "2026-06-22"
 | [50 Skills AI 创作系统](./50-skills-ai-creation-system/index.md) | 空格丶：数据→创作→排版→分发四层架构，50 个 Skill 串成系统 |
 | [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 | [PMaker：145 篇产品方法论（AI 基础+产品实践）](./pmaker-series/) | 空格·键盘：AI 名词/大模型/提示词/RAG/Agent/成本安全 60 篇 + 产品发现/定义/设计/交互/界面/协作/验证 85 篇 |
+| [出海工具站实战笔记](./outsea-tool-station/index.md) | 易焘 13 篇：需求挖掘/上站流程/AI编程/认知，按作者自述索引分 6 类，含 Cloudflare 上线 SOP |
 
 ## 分类索引
 
@@ -54,6 +55,7 @@ date: "2026-06-22"
 | [赚钱方法论](./money-methods/) | 个体创业路径 + 30 种赚钱方式 + 套利思维 + 把才华变成钱 |
 | [出海实战索引](./outsea-playbook/) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC |
 | [PMaker 系列（145 篇）](./pmaker-series/) | 空格·键盘的产品方法论：AI 基础 60 篇 + 产品基础 10 篇 + 产品实践模式 75 篇 |
+| [出海工具站实战笔记](./outsea-tool-station/) | 易焘 的出海工具站系列：上站总览 / 需求挖掘 / 上站流程 / AI编程 / 站外推广 / 产品打磨 |
 
 ## 核心路径
 
