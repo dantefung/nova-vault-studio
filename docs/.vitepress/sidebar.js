@@ -7,12 +7,14 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 // 侧边栏排除的目录名：页面 URL 仍可访问，只是不出现在侧边栏
-const SIDEBAR_EXCLUDED_DIRS = new Set(['system-design-101']);
+// images 是插图目录，误留在里面的 .md 会在侧边栏长出无 link 的死节点
+const SIDEBAR_EXCLUDED_DIRS = new Set(['system-design-101', 'images']);
 
 // 指定目录下子项的展示顺序（key 为该目录的 link，value 为子目录名顺序）。
 // 未列出的子项排在已列出项之后，并保持原有相对顺序。
 const SIDEBAR_CHILD_ORDER = {
     '/md/guide/cs/': ['system-internals', 'software-engineering', 'architecture', 'code-reading', 'software-philosophy'],
+    '/md/guide/ai/': ['prompt-engineering', 'prompt-hub', 'claude-code', 'skills', 'intelligent-customer-service', 'drawing', 'ai-programming-slides'],
 };
 
 function applySidebarChildOrder(items) {
@@ -54,7 +56,8 @@ function readMarkdownFiles(dir, parentPath = '') {
 }
 
 function extractTitle(filePath) {
-    const content = fs.readFileSync(filePath, 'utf8');
+    // 仓库混有 CRLF 文件（微信抓取入库的居多），不归一化会让下方所有正则静默失配
+    const content = fs.readFileSync(filePath, 'utf8').replace(/\r\n/g, '\n');
     // 优先级：frontmatter title > 首个 H1 > 文件名
     const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
     if (fmMatch) {
