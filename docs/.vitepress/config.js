@@ -49,7 +49,7 @@ export default defineConfig({
   lang: 'zh-CN',
 
   sitemap: {
-    hostname: 'https://system-vault.site'
+    hostname: 'https://vault.moneylab.ccwu.cc'
   },
   head: (() => {
     const isCdn = (process.env.VITE_FONT_SOURCE || 'local') === 'cdn'

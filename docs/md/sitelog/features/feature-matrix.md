@@ -106,7 +106,7 @@ source: "项目自述"
 |------|------|
 | **框架** | VitePress 1.6.4 + Vue 3 |
 | **部署平台** | Vercel |
-| **域名** | `system-vault.site` |
+| **域名** | `vault.moneylab.ccwu.cc` |
 | **输出目录** | `docs/.vitepress/dist` |
 | **字体策略** | 默认本地字体，可选 CDN |
 
