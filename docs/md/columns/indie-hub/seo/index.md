@@ -31,6 +31,8 @@ date: "2026-07-20"
 | 10 | [执行力才是真正的护城河](./keyword-analysis/keyword-execution-density.md) | Momozolo第一名心法、袁骏半年3K刀复盘、国际范～执行密度觉醒 |
 | 11 | [从方向迷茫到系统能力的成长弧线](./keyword-analysis/keyword-growth-arc.md) | 金鱼Evan跑通流程、Reyn多维失败、诗意听涛发现社群、Liran413工具红利变薄 |
 | 12 | [核心转折点全部突破](./keyword-analysis/keyword-breakthrough-round-15.md) | Reyn多Agent翻车、诗意听涛第三阶段起步、金鱼Evan完整转型弧线、Liran413 SEO=市场研究方法 |
+| 13 | [找新词：一个永远有效的建站策略](./keyword-analysis/find-new-words-always-effective-strategy.md) | 找新词、新词判断标准、竞争度评估 |
+| 14 | [哥飞教你一招判断关键词出现时间](./keyword-analysis/judge-keyword-appearance-time.md) | 关键词出现时间、谷歌结果数、时间筛选命令 |
 
 | 篇目 | 标题 | 关键词 |
 |------|------|--------|
