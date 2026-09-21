@@ -135,6 +135,7 @@ date: "2026-05-05"
 - [jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) — 剪映/Capcut/即梦 AI 内容创作相关 Skill
 - [AI-Coding-Guide-Zh](https://github.com/KimYx0207/AI-Coding-Guide-Zh) — 中文 AI Coding 指南
 - [xiaohu-ip-studio](https://github.com/xiaohailabs/xiaohu-ip-studio) — IP Studio
+- [doodle-little-world](https://github.com/foxbitcoo/doodle-little-world) — 待查看
 - [claude-gh-skills](https://github.com/wscffaa/claude-gh-skills) — Claude GitHub Skills
 - [ponytail](https://github.com/DietrichGebert/ponytail) — **60k+ Stars**，让 AI 学会极致偷懒的规则集，代码量平均减少54%，Token成本降20%，安全零妥协
 - [gaokaomath](https://github.com/deekur/gaokaomath) — 高考数学相关资源
