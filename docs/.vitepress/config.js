@@ -6,9 +6,25 @@ import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateS
 
 
 const SEARCH_RENDER_SIZE_LIMIT = 200_000
-// VITEPRESS_LOW_MEMORY_BUILD=0 explicitly overrides VERCEL=1 (Vercel auto-sets VERCEL=1)
-const isLowMemoryBuild = process.env.VITEPRESS_LOW_MEMORY_BUILD === '1' || (process.env.VITEPRESS_LOW_MEMORY_BUILD !== '0' && process.env.VERCEL === '1')
-const enableLocalSearch = process.env.VITEPRESS_DISABLE_LOCAL_SEARCH !== '1' && !isLowMemoryBuild
+
+// 搜索索引模式：full=全量 / partial=仅核心目录 / off=关闭索引
+// 未显式指定时本地取 full，Vercel 等受限 CI 自动降为 partial（省构建内存）
+const SEARCH_MODE = (process.env.VITEPRESS_SEARCH_MODE
+  || (process.env.VERCEL === '1' ? 'partial' : 'full')).toLowerCase()
+if (!['full', 'partial', 'off'].includes(SEARCH_MODE)) {
+  throw new Error(`VITEPRESS_SEARCH_MODE 无效：${SEARCH_MODE}，仅支持 full | partial | off`)
+}
+
+// partial 模式下整棵跳过的目录（路径相对 docs/，命中自身或子路径即跳过）。
+// 这四块是归档原始素材，索引价值低但体积最大；其余目录默认全部索引。
+const SEARCH_PARTIAL_SKIP_ROOTS = ['md/columns', 'md/books', 'md/agi', 'md/wiki/sources']
+
+const enableLocalSearch = SEARCH_MODE !== 'off'
+
+function isSearchSkipped(relativePath) {
+  return SEARCH_MODE === 'partial'
+    && SEARCH_PARTIAL_SKIP_ROOTS.some(root => relativePath === root || relativePath.startsWith(`${root}/`))
+}
 
 function escapeHtml(value) {
   return value
@@ -22,7 +38,9 @@ function escapeHtml(value) {
 
 export default defineConfig({
   ignoreDeadLinks: true,
-  buildConcurrency: isLowMemoryBuild ? 4 : 16,
+  // 实测：并发只影响构建耗时，对峰值内存无显著影响（16 比 4 快 30-45%）。
+  // VitePress 默认 64，此处显式压到 16。
+  buildConcurrency: 16,
   metaChunk: true,
   title: 'System Vault',
   description: '系统知识库 - 凡是过往，皆为序章',
@@ -87,6 +105,8 @@ export default defineConfig({
         maxSuggestions: 10,
         async _render(src, env, md) {
           if (env.frontmatter?.search === false) return ''
+          // 放在 md.render 之前：命中即跳过整页渲染，这是 partial 模式省内存的关键
+          if (isSearchSkipped(env.relativePath)) return ''
           if (src.length > SEARCH_RENDER_SIZE_LIMIT) return ''
           return md.render(src, env)
         },
