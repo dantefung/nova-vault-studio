@@ -212,6 +212,7 @@ export default defineConfig({
       '/md/sitelog/architecture/': generateSidebar('docs/md/sitelog/architecture', '/md/sitelog/architecture/'),
       '/md/sitelog/evolution/': generateSidebar('docs/md/sitelog/evolution', '/md/sitelog/evolution/'),
       '/md/sitelog/reference/': generateSidebar('docs/md/sitelog/reference', '/md/sitelog/reference/'),
+      '/md/sitelog/dev-log/': generateSidebar('docs/md/sitelog/dev-log', '/md/sitelog/dev-log/'),
       '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/'),
       '/md/agi/': generateSidebar('docs/md/agi', '/md/agi/'),
       '/md/books/': generateBookNavItems('docs/md/books', '/md/books/'),
