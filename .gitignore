@@ -106,6 +106,7 @@ dist
 
 # vitepress
 cache/
+.temp/
 generated/
 .serena/
 issue*.md
