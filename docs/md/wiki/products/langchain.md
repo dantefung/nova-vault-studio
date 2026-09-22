@@ -1,3 +1,7 @@
+---
+title: "LangChain"
+---
+
 # LangChain
 
 > 以"链式编排"为核心的通用型LLM应用开发框架，7万+ GitHub星标，是当前最流行的AI应用开发框架之一。
@@ -31,6 +35,6 @@
 
 ## Sources
 
-- [[智能客服专栏] 技术选型对比](./05-tech-comparison.md)
-- [[智能客服专栏] 技术选型对比v2](./11-tech-comparison-v2.md)
-- [[智能客服专栏] RAG建设方案横纵分析报告](./17-rag-building-scheme-analysis.md)
+- [[智能客服专栏] 技术选型对比](../../guide/ai/intelligent-customer-service/05-tech-comparison.md)
+- [[智能客服专栏] 技术选型对比v2](../../guide/ai/intelligent-customer-service/11-tech-comparison-v2.md)
+- [[智能客服专栏] RAG建设方案横纵分析报告](../../guide/ai/intelligent-customer-service/17-rag-building-scheme-analysis.md)

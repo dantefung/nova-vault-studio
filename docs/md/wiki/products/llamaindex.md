@@ -1,3 +1,7 @@
+---
+title: "LlamaIndex"
+---
+
 # LlamaIndex
 
 > 以"索引和检索"为核心优化的RAG专用框架，原名GPT Index，专注于为RAG场景提供极致效果。
@@ -31,6 +35,6 @@
 
 ## Sources
 
-- [[智能客服专栏] RAG实现详解](./02-rag-implementation.md)
-- [[智能客服专栏] RAG实现详解v2](./08-rag-implementation-v2.md)
-- [[智能客服专栏] RAG建设方案横纵分析报告](./17-rag-building-scheme-analysis.md)
+- [[智能客服专栏] RAG实现详解](../../guide/ai/intelligent-customer-service/02-rag-implementation.md)
+- [[智能客服专栏] RAG实现详解v2](../../guide/ai/intelligent-customer-service/08-rag-implementation-v2.md)
+- [[智能客服专栏] RAG建设方案横纵分析报告](../../guide/ai/intelligent-customer-service/17-rag-building-scheme-analysis.md)

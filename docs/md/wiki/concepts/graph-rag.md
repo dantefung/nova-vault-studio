@@ -1,3 +1,7 @@
+---
+title: "GraphRAG（图增强RAG）"
+---
+
 # GraphRAG（图增强RAG）
 
 > 将知识图谱与RAG深度融合，通过从非结构化文档中提取实体和关系，构建结构化知识图谱索引的技术方案。
@@ -40,6 +44,6 @@
 
 ## Sources
 
-- [[智能客服专栏] RAG实现详解v2](./08-rag-implementation-v2.md)
-- [[智能客服专栏] 知识图谱构建方案v2](./09-knowledge-graph-v2.md)
-- [[智能客服专栏] RAG建设方案横纵分析报告](./17-rag-building-scheme-analysis.md)
+- [[智能客服专栏] RAG实现详解v2](../../guide/ai/intelligent-customer-service/08-rag-implementation-v2.md)
+- [[智能客服专栏] 知识图谱构建方案v2](../../guide/ai/intelligent-customer-service/09-knowledge-graph-v2.md)
+- [[智能客服专栏] RAG建设方案横纵分析报告](../../guide/ai/intelligent-customer-service/17-rag-building-scheme-analysis.md)

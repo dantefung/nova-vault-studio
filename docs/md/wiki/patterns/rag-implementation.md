@@ -1,3 +1,7 @@
+---
+title: "RAG检索增强实现"
+---
+
 # RAG检索增强实现
 
 > 从原理到最佳实践的完整RAG实现指南，涵盖文本分块、Embedding模型、向量数据库、检索策略、生成控制等核心环节。
@@ -46,5 +50,5 @@
 
 ## Sources
 
-- [[智能客服专栏] RAG实现详解](./02-rag-implementation.md)
-- [[智能客服专栏] RAG实现详解v2](./08-rag-implementation-v2.md)
+- [[智能客服专栏] RAG实现详解](../../guide/ai/intelligent-customer-service/02-rag-implementation.md)
+- [[智能客服专栏] RAG实现详解v2](../../guide/ai/intelligent-customer-service/08-rag-implementation-v2.md)

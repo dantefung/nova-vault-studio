@@ -1,3 +1,7 @@
+---
+title: "Neo4j"
+---
+
 # Neo4j
 
 > 最成熟的图数据库，用于存储和查询知识图谱，支持Cypher查询语言。
@@ -30,5 +34,5 @@
 
 ## Sources
 
-- [[智能客服专栏] 知识图谱构建方案](./03-knowledge-graph.md)
-- [[智能客服专栏] 技术选型对比](./05-tech-comparison.md)
+- [[智能客服专栏] 知识图谱构建方案](../../guide/ai/intelligent-customer-service/03-knowledge-graph.md)
+- [[智能客服专栏] 技术选型对比](../../guide/ai/intelligent-customer-service/05-tech-comparison.md)

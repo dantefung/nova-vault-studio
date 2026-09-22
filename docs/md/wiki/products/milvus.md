@@ -1,3 +1,7 @@
+---
+title: "Milvus"
+---
+
 # Milvus
 
 > 国产开源向量数据库，专为大规模向量相似度搜索设计，支持百亿级向量规模。
@@ -30,5 +34,5 @@
 
 ## Sources
 
-- [[智能客服专栏] 技术选型对比](./05-tech-comparison.md)
-- [[智能客服专栏] RAG实现详解](./02-rag-implementation.md)
+- [[智能客服专栏] 技术选型对比](../../guide/ai/intelligent-customer-service/05-tech-comparison.md)
+- [[智能客服专栏] RAG实现详解](../../guide/ai/intelligent-customer-service/02-rag-implementation.md)

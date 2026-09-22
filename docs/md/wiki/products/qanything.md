@@ -1,3 +1,7 @@
+---
+title: "QAnything"
+---
+
 # QAnything
 
 > 网易有道团队开发的开源RAG引擎，以"两阶段检索"为核心架构特色，强调Embedding + Rerank的组合优化。
@@ -28,5 +32,5 @@
 
 ## Sources
 
-- [[智能客服专栏] RAG建设方案横纵分析报告](./17-rag-building-scheme-analysis.md)
+- [[智能客服专栏] RAG建设方案横纵分析报告](../../guide/ai/intelligent-customer-service/17-rag-building-scheme-analysis.md)
 - QAnything GitHub: https://github.com/netease-youdao/qanything

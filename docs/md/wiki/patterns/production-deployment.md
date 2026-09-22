@@ -1,3 +1,7 @@
+---
+title: "生产环境部署"
+---
+
 # 生产环境部署
 
 > 智能客服系统生产级部署的最佳实践，包括数据安全、混合架构、转人工机制、性能优化、可观测性。
@@ -57,5 +61,5 @@
 
 ## Sources
 
-- [[智能客服专栏] 生产部署指南](./06-production-deployment.md)
-- [[智能客服专栏] 生产部署指南v2](./12-production-deployment-v2.md)
+- [[智能客服专栏] 生产部署指南](../../guide/ai/intelligent-customer-service/06-production-deployment.md)
+- [[智能客服专栏] 生产部署指南v2](../../guide/ai/intelligent-customer-service/12-production-deployment-v2.md)

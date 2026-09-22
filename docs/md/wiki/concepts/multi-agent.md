@@ -1,3 +1,7 @@
+---
+title: "多Agent系统（Multi-Agent System）"
+---
+
 # 多Agent系统（Multi-Agent System）
 
 > 由多个具有专业能力的Agent协同工作的系统，通过分工合作完成复杂任务。
@@ -44,5 +48,5 @@
 
 ## Sources
 
-- [[智能客服专栏] 多智能体架构设计](./04-multi-agent.md)
-- [[智能客服专栏] 多智能体架构设计v2](./10-multi-agent-v2.md)
+- [[智能客服专栏] 多智能体架构设计](../../guide/ai/intelligent-customer-service/04-multi-agent.md)
+- [[智能客服专栏] 多智能体架构设计v2](../../guide/ai/intelligent-customer-service/10-multi-agent-v2.md)

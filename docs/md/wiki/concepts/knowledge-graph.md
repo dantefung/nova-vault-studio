@@ -1,3 +1,7 @@
+---
+title: "知识图谱（Knowledge Graph）"
+---
+
 # 知识图谱（Knowledge Graph）
 
 > 用结构化的节点和边表示实体及关系的语义网络，为RAG系统提供关系推理能力。
@@ -41,5 +45,5 @@
 
 ## Sources
 
-- [[智能客服专栏] 知识图谱构建方案](./03-knowledge-graph.md)
-- [[智能客服专栏] 知识图谱构建方案v2](./09-knowledge-graph-v2.md)
+- [[智能客服专栏] 知识图谱构建方案](../../guide/ai/intelligent-customer-service/03-knowledge-graph.md)
+- [[智能客服专栏] 知识图谱构建方案v2](../../guide/ai/intelligent-customer-service/09-knowledge-graph-v2.md)
