@@ -17,6 +17,16 @@ const SIDEBAR_CHILD_ORDER = {
     '/md/guide/ai/': ['prompt-engineering', 'prompt-hub', 'claude-code', 'skills', 'intelligent-customer-service', 'drawing', 'ai-programming-slides'],
 };
 
+// 无 index.md 的目录分组中文名（key 为该分组的 link）。
+// 缺省回落成英文目录名，那等于把英文直接暴露在侧边栏里
+const SIDEBAR_DIR_LABELS = {
+    '/md/columns/indie-hub/outsea-tool-station/overview/': '上站总览',
+    '/md/columns/indie-hub/outsea-tool-station/demand-mining/': '需求挖掘',
+    '/md/columns/indie-hub/outsea-tool-station/launch-process/': '上站流程',
+    '/md/columns/indie-hub/outsea-tool-station/ai-coding/': 'AI 编程',
+    '/md/columns/indie-hub/outsea-tool-station/mindset/': '认知随笔',
+};
+
 function applySidebarChildOrder(items) {
     for (const item of items) {
         const order = item.link && SIDEBAR_CHILD_ORDER[item.link];
@@ -142,6 +152,9 @@ function generateSidebar(relativeDir, linkPrefix) {
     }
 
     const sidebarConfig = [];
+    // 目录分组按相对路径建立稳定身份：展示名可能被中文映射或 index.md 标题覆盖，
+    // 若靠 text 反查，同目录第二个文件会重复建组
+    const groupsByPath = new Map();
 
     markdownFiles.forEach(file => {
         const filePath = path.join(dir, file).replace(/\\/g, '/');
@@ -157,25 +170,24 @@ function generateSidebar(relativeDir, linkPrefix) {
                     text: title,
                     link: link
                 });
-            } else {
-                let found = false;
-                for (let item of currentLevel) {
-                    if (item.text === part || (item.link && item.link === linkPrefix + part + '/')) {
-                        currentLevel = item.items;
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found) {
-                    const newItem = {
-                        text: part,
-                        collapsed: true,
-                        items: []
-                    };
-                    currentLevel.push(newItem);
-                    currentLevel = newItem.items;
-                }
+                return;
             }
+            const dirKey = parts.slice(0, index + 1).join('/');
+            let group = groupsByPath.get(dirKey);
+            if (!group) {
+                const dirLink = `${linkPrefix}${dirKey}/`;
+                // 有 index.md 的目录留给 addIndexOnlyDirectories 用其中文标题命名，
+                // 没有的才会回落到英文目录名，此时才查映射表
+                const hasIndex = fs.existsSync(path.join(dir, dirKey, 'index.md'));
+                group = {
+                    text: hasIndex ? part : (SIDEBAR_DIR_LABELS[dirLink] || part),
+                    collapsed: true,
+                    items: []
+                };
+                groupsByPath.set(dirKey, group);
+                currentLevel.push(group);
+            }
+            currentLevel = group.items;
         });
     });
 
