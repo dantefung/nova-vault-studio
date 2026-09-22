@@ -63,6 +63,12 @@ const OUTPUT_DIR = path.join(CWD, 'docs/.vitepress/generated')
 const OUTPUT_JSON = path.join(OUTPUT_DIR, 'blog-index.json')
 const OUTPUT_JS = path.join(OUTPUT_DIR, 'blog-index.js')
 
+// 博客索引是阅读面，不收内容备份。按 link 前缀排除而不是目录名：目录名排除会误伤
+// social-media 下 douyin-transcript-exporter/references 这类正常目录
+// vibe-coding/references 被专栏 index.md 附录标注为「原始文件备份」，与上层 37 篇
+// 文章逐字节重复，进索引等于让读者在同一分类里看两遍
+const BLOG_EXCLUDED_LINKS = ['/md/columns/vibe-coding/references/']
+
 /** 解析扁平 frontmatter；不引入 gray-matter。 */
 function parseFrontmatter(content) {
   const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)
@@ -177,6 +183,9 @@ function main() {
     categoryMap.set(catMeta.slug, { ...catMeta, count: 0 })
 
     for (const filePath of walkMarkdown(rootDir)) {
+      const link = urlPathFor(filePath, rootDir, linkPrefixClean)
+      if (BLOG_EXCLUDED_LINKS.some(p => link.startsWith(p))) continue
+
       const content = fs.readFileSync(filePath, 'utf8')
       const fm = parseFrontmatter(content)
       const stat = fs.statSync(filePath)
@@ -196,9 +205,8 @@ function main() {
 
       const article = {
         id: ++articleId,
-        path: urlPathFor(filePath, rootDir, linkPrefixClean),
-        title,
-        date,
+        path: link,
+        title,        date,
         category: catMeta.slug,
         categoryTitle: catMeta.title,
         tags,
