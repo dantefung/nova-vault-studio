@@ -55,4 +55,4 @@ url: "https://mp.weixin.qq.com/s/4Uno1996G-vZJ1vtc6CA8Q"
 - 大学时期睡前过度亢奋导致频繁鬼压床
 - 生物钟养成：2010 年偷菜游戏调闹钟起床 → 后来自然醒来
 
-> 📎 完整原文见知识库：[wiki/sources/sleep-techniques.md](./sources/sleep-techniques.md)
+> 📎 完整原文见知识库：[wiki/sources/sleep-techniques.md](../sources/sleep-techniques.md)

@@ -43,4 +43,4 @@ url: "https://mp.weixin.qq.com/s/sdfbLiyTeGmTYo1s-Xvg2Q"
 - 个人匹配：能干吗？有时间吗？有资源吗？
 - 竞争格局：大玩家愿意来吗？进来了能留下吗？
 
-> 📎 完整原文见知识库：[wiki/sources/penghua-putai-shangpai.md](./sources/penghua-putai-shangpai.md)
+> 📎 完整原文见知识库：[wiki/sources/penghua-putai-shangpai.md](../sources/penghua-putai-shangpai.md)

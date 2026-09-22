@@ -30,4 +30,4 @@ url: "https://mp.weixin.qq.com/s/NAdhdFrUq9-BKelqzqpwBQ"
 - 苏格拉底提问法比无限拷问更实用——问清楚问题，模型才知道该做什么
 - 决策类 Prompt 的核心是双向钢人论证（先把双方论点强化到最强再判断）
 
-> 📎 完整原文见知识库：[wiki/sources/khazix-12-prompts.md](./sources/khazix-12-prompts.md)
+> 📎 完整原文见知识库：[wiki/sources/khazix-12-prompts.md](../sources/khazix-12-prompts.md)

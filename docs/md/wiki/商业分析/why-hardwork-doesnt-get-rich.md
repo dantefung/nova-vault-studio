@@ -70,4 +70,4 @@ url: "https://mp.weixin.qq.com/s/9G39dcojZWF17E_-Ky_u1A"
 
 > 一时穷不可怕，但一直穷，还真怕。更可怕的是，看完了你觉得没啥需要改变的。
 
-> 📎 完整原文见知识库：[wiki/sources/why-hardwork-doesnt-get-rich.md](./sources/why-hardwork-doesnt-get-rich.md)
+> 📎 完整原文见知识库：[wiki/sources/why-hardwork-doesnt-get-rich.md](../sources/why-hardwork-doesnt-get-rich.md)

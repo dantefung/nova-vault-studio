@@ -82,4 +82,4 @@ Dustin 连续十年写博客、经营社交媒体、做营销咨询，**邮件�
 
 接入多少模型决定功能列表有多长。用户愿不愿意把聊天记录、提示词、文件和团队工作留在里面，才决定这个网站能不能成为一门长期生意。
 
-> 📎 完整原文见知识库：[wiki/sources/magai-case-study.md](./sources/magai-case-study.md)
+> 📎 完整原文见知识库：[wiki/sources/magai-case-study.md](../sources/magai-case-study.md)

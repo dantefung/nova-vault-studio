@@ -71,4 +71,4 @@ url: "https://mp.weixin.qq.com/s/MsT4xgkyLGZ7Ynfb0RPmWw"
 > 解决问题是有限的（终结/数学题），制造问题是无限的（开幕/写诗）。
 > 定价权，在你自己。
 
-> 📎 完整原文见知识库：[wiki/sources/manufacturing-problems-to-earn-money.md](./sources/manufacturing-problems-to-earn-money.md)
+> 📎 完整原文见知识库：[wiki/sources/manufacturing-problems-to-earn-money.md](../sources/manufacturing-problems-to-earn-money.md)

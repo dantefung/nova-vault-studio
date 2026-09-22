@@ -52,4 +52,4 @@ url: "https://mp.weixin.qq.com/s/mNoQAl1ckwbg4Pqi8CaMyg"
 
 作者实战：2010 年给华强北手机客户设计的页面转化率比前任设计师高出一截，报价远高于同行，客户仍然买单——因为他知道可以为对方赚更多。
 
-> 📎 完整原文见知识库：[wiki/sources/why-15-years-schooling-doesnt-earn-money.md](./sources/why-15-years-schooling-doesnt-earn-money.md)
+> 📎 完整原文见知识库：[wiki/sources/why-15-years-schooling-doesnt-earn-money.md](../sources/why-15-years-schooling-doesnt-earn-money.md)

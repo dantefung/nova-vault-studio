@@ -58,4 +58,4 @@ url: "https://mp.weixin.qq.com/s/HKaGXayTGCIsaNhXgi7qSQ"
 
 > 我有工作了 10 年还是几千块一个月的同龄人朋友，也有早两年就年薪百万的同龄人朋友。大家都是赤条条的草根出身，大家都不是一流大学，**区别只是 10 年来的第三个 8 小时所做的事**。
 
-> 📎 完整原文见知识库：[wiki/sources/offwork-hours-determine-future.md](./sources/offwork-hours-determine-future.md)
+> 📎 完整原文见知识库：[wiki/sources/offwork-hours-determine-future.md](../sources/offwork-hours-determine-future.md)

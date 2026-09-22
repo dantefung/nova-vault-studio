@@ -38,4 +38,4 @@ url: "https://mp.weixin.qq.com/s/clV_xVA0Vcygs0S89NJu4w"
 
 > 思考一下自己正在做的事情，是不是没有卡到这些条件里——那么如何调整自己的工作重心或方向，让自己变得更稀缺，或者更迫切需要你。
 
-> 📎 完整原文见知识库：[wiki/sources/what-makes-you-rich.md](./sources/what-makes-you-rich.md)
+> 📎 完整原文见知识库：[wiki/sources/what-makes-you-rich.md](../sources/what-makes-you-rich.md)
