@@ -8,7 +8,19 @@ const __dirname = path.dirname(__filename)
 
 // 侧边栏排除的目录名：页面 URL 仍可访问，只是不出现在侧边栏
 // images 是插图目录，误留在里面的 .md 会在侧边栏长出无 link 的死节点
-const SIDEBAR_EXCLUDED_DIRS = new Set(['system-design-101', 'images']);
+// _quarantine 里的 README.md 是施工说明，不是对外内容
+const SIDEBAR_EXCLUDED_DIRS = new Set(['system-design-101', 'images', '_quarantine']);
+
+// 按 link 前缀排除：同一份内容可能被多个扫描根各自的 sidebar 生成（md/columns 整棵树 +
+// vibe-coding 专栏各自一份），相对路径在这里不可靠。link 前缀与扫描根无关，且以 / 结尾
+// 不会误伤同名前缀的其他目录
+// vibe-coding/references 被专栏 index.md 附录标注为「原始文件备份」，内容与上层 37 个
+// 文件逐字节重复，同时出现在侧边栏会让读者看到两遍同样的文章
+const SIDEBAR_EXCLUDED_LINKS = ['/md/columns/vibe-coding/references/'];
+
+function isSidebarExcludedLink(link) {
+    return SIDEBAR_EXCLUDED_LINKS.some(p => link.startsWith(p));
+}
 
 // 指定目录下子项的展示顺序（key 为该目录的 link，value 为子目录名顺序）。
 // 未列出的子项排在已列出项之后，并保持原有相对顺序。
@@ -18,13 +30,58 @@ const SIDEBAR_CHILD_ORDER = {
 };
 
 // 无 index.md 的目录分组中文名（key 为该分组的 link）。
-// 缺省回落成英文目录名，那等于把英文直接暴露在侧边栏里
+// 缺省回落成英文目录名，那等于把英文直接暴露在侧边栏里。
+// 中文名一律照抄各专栏 index.md 已定义好的栏目名，不自行发明
 const SIDEBAR_DIR_LABELS = {
+    // indie-hub / 出海工具站实战笔记
     '/md/columns/indie-hub/outsea-tool-station/overview/': '上站总览',
     '/md/columns/indie-hub/outsea-tool-station/demand-mining/': '需求挖掘',
     '/md/columns/indie-hub/outsea-tool-station/launch-process/': '上站流程',
     '/md/columns/indie-hub/outsea-tool-station/ai-coding/': 'AI 编程',
     '/md/columns/indie-hub/outsea-tool-station/mindset/': '认知随笔',
+    '/md/columns/indie-hub/telegram-tools/': 'Telegram 工具',
+    '/md/columns/indie-hub/wechat-command/': '公众号命令',
+    '/md/columns/indie-hub/ai-cross-border-ecommerce-research/': 'AI 跨境电商研究',
+    '/md/columns/indie-hub/seo/uiux/': 'UI/UX',
+    // indie-hub / PMaker 系列专栏
+    '/md/columns/indie-hub/pmaker-series/learn/': 'AI 基础知识',
+    '/md/columns/indie-hub/pmaker-series/basics/': '产品基础',
+    '/md/columns/indie-hub/pmaker-series/patterns/': '产品实践模式',
+    // guide / 提示词工程
+    '/md/guide/ai/prompt-engineering/01-01-intro/': '概念入门',
+    '/md/guide/ai/prompt-engineering/02-01-methods/': '方法框架',
+    '/md/guide/ai/prompt-engineering/03-02-patterns/': '核心模式',
+    '/md/guide/ai/prompt-engineering/04-03-output-control/': '输出控制',
+    '/md/guide/ai/prompt-engineering/05-04-official-guides/': '官方指南',
+    '/md/guide/ai/prompt-engineering/06-05-anti-patterns/': '避坑反模式',
+    '/md/guide/ai/prompt-engineering/07-06-case-studies/': '案例研究',
+    '/md/guide/ai/prompt-engineering/08-07-resources/': '资源导航',
+    // columns / 绘图指南
+    '/md/columns/drawing/01-01-intro/': '概念入门',
+    '/md/columns/drawing/02-02-svg-drawing/': 'SVG 绘图',
+    '/md/columns/drawing/03-03-uml-drawing/': 'UML 绘图',
+    '/md/columns/drawing/04-04-ai-image/': 'AI 生图',
+    '/md/columns/drawing/05-05-architecture/': '架构图',
+    '/md/columns/drawing/06-06-drawio/': 'Drawio',
+    '/md/columns/drawing/07-07-tools/': '工具',
+    // columns / Java 最佳实践
+    '/md/columns/java-best-practices/01-domain-modeling/': '业务建模与领域驱动',
+    '/md/columns/java-best-practices/02-architecture-design/': '架构设计与系统设计',
+    '/md/columns/java-best-practices/03-clean-code/': '整洁代码与业务编码',
+    '/md/columns/java-best-practices/04-reliability/': '可靠性与稳定性',
+    '/md/columns/java-best-practices/05-engineering-practice/': '工程实践',
+    // columns / Harness Engineering
+    '/md/columns/harness-engineering/concepts/': '核心概念',
+    '/md/columns/harness-engineering/practice/': '实践指南',
+    '/md/columns/harness-engineering/templates/': '模板',
+    // columns / Vibe Coding
+    '/md/columns/vibe-coding/08-hooks/': 'Hooks 自动化',
+    // columns / 日记按年月归档
+    '/md/columns/diary/2026/': '2026 年',
+    '/md/columns/diary/2026/05/': '5 月',
+    // business
+    '/md/business/business-models/': '商业模式',
+    '/md/business/digital-products/': '数字产品副业',
 };
 
 function applySidebarChildOrder(items) {
@@ -43,17 +100,20 @@ function applySidebarChildOrder(items) {
     }
 }
 
-function readMarkdownFiles(dir, parentPath = '') {
+function readMarkdownFiles(dir, linkPrefix, childPrefix = '') {
     if (!fs.existsSync(dir)) return [];
     const files = fs.readdirSync(dir).filter(file => !file.startsWith('index') && !SIDEBAR_EXCLUDED_DIRS.has(file));
     const markdownFiles = [];
     files.forEach(file => {
         const filePath = path.join(dir, file);
-        const relativePath = path.join(parentPath, file);
         if (fs.statSync(filePath).isDirectory()) {
-            markdownFiles.push(...readMarkdownFiles(filePath, relativePath));
+            const dirLink = `${linkPrefix}${childPrefix}${file}/`;
+            if (isSidebarExcludedLink(dirLink)) {
+                return;
+            }
+            markdownFiles.push(...readMarkdownFiles(filePath, linkPrefix, `${childPrefix}${file}/`));
         } else if (path.extname(file).toLowerCase() === '.md') {
-            markdownFiles.push(relativePath);
+            markdownFiles.push(`${childPrefix}${file}`);
         }
     });
     // 文件名自然排序
@@ -144,7 +204,7 @@ function buildDirectorySidebar(dir, linkPrefix, options = {}) {
 
 function generateSidebar(relativeDir, linkPrefix) {
     const dir = path.join(process.cwd(), relativeDir);
-    let markdownFiles = readMarkdownFiles(dir);
+    let markdownFiles = readMarkdownFiles(dir, linkPrefix);
 
     // for tutorial section we only want files inside subdirectories
     if (relativeDir.endsWith('/tutorial')) {
@@ -210,17 +270,23 @@ function generateSidebar(relativeDir, linkPrefix) {
         entries.forEach(entry => {
             if (entry.isDirectory()) {
                 const subdirPath = path.join(currentDir, entry.name);
-                const indexPath = path.join(subdirPath, 'index.md');
                 const subdirLinkPrefix = currentLinkPrefix + entry.name + '/';
-                
+                // 这条遍历独立于 readMarkdownFiles，排除规则必须两边都生效，
+                // 否则被排除目录下的 index.md 会把分组重新塞回侧边栏
+                if (isSidebarExcludedLink(subdirLinkPrefix)) {
+                    return;
+                }
+                const indexPath = path.join(subdirPath, 'index.md');
+                // 相对生成 Sidebar 的扫描根，仅用于下方导航到正确的父级
+                const relativePath = subdirPath.replace(dir + path.sep, '');
+
                 const hasIndex = fs.existsSync(indexPath);
-                
+
                 if (hasIndex) {
                     // 先递归处理子目录（子目录会在递归中自己导航到正确位置）
                     addIndexOnlyDirectories(subdirPath, currentLevel, subdirLinkPrefix);
-                    
+
                     // 导航到正确的父级
-                    const relativePath = subdirPath.replace(dir + path.sep, '');
                     const pathParts = relativePath.split(path.sep);
                     let targetLevel = currentLevel;
                     
