@@ -300,7 +300,7 @@ Mission Driver 不定义期望吸引子，但它会**显著影响实际吸引子
 
 ## 关联文章
 
-- [Mission Driver：Loop Engineering 的一种通用参考实现](./mission-driver.md) — 可逆计算
+- [Mission Driver：Loop Engineering 的一种通用参考实现](../concepts/mission-driver.md) — 可逆计算
 - [实用循环工程](./bestblogs-2026-08-15.md) — Addy Osmani
 - [Agent Token 架构](../concepts/agent-token-architecture.md)
 - [AgentScope HarnessAgent 声明式策略](../concepts/agentscope-harnessagent-declarative.md)

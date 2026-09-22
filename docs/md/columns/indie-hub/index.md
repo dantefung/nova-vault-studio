@@ -16,11 +16,11 @@ date: "2026-06-22"
 | [城市选择杠杆](../wiki/patterns/city-second-birth.md) | 地理套利，同一努力 10 倍差异 |
 | [私域即一切](../wiki/patterns/private-domain-arrogance.md) | 私域触达率是公域 N 倍 |
 | [望闻问切选合作](../wiki/patterns/knowledge-payment-value.md) | 筛选合伙人/客户的框架 |
-| [收入结构四维判断](../wiki/patterns/income-structure-four-certainties.md) | 项目值不值得做 |
+| [收入结构四维判断](../../wiki/patterns/income-structure-four-certainties.md) | 项目值不值得做 |
 | [独立开发者套利模式](./money-methods/aribitrage-mode.md) | 前端/后端分离，搭建可复用系统 |
-| [内容搬运套利](../wiki/patterns/content-arbitrage-pattern.md) | 跨境内容搬运 + 一鱼五吃矩阵分发 |
+| [内容搬运套利](../../wiki/patterns/content-arbitrage-pattern.md) | 跨境内容搬运 + 一鱼五吃矩阵分发 |
 | [莆、广系跨境电商AI搜索与深度研究](./ai-cross-border-ecommerce-research/ai-cross-border-ecommerce-research.md) | 市场/用户/竞品/趋势四大研究 + AI整合商业情报系统 |
-| [Google SEO 7大排名信号](./seo-7-google-signals/seo-7-google-signals.md) | 反向链接/搜索意图/新鲜度/HTTPS/移动友好/加载速度/无侵入广告 |
+| [Google SEO 7大排名信号](./seo/strategy/seo-7-google-signals.md) | 反向链接/搜索意图/新鲜度/HTTPS/移动友好/加载速度/无侵入广告 |
 | [SEO 建站指南](./seo/index.md) | Google 信号、关键词策略、ROI 分析、冷启动等 6 篇 |
 | [Dropshipping 资源索引](./dropshipping-resources/index.md) | 一件代发从概念→选平台→实操全链路 |
 | [独立 App 实战手册](./app-playbook/index.md) | Adam Lyttle 88 集视频整理，从点子到第一批付费用户 6 阶段全流程 |
@@ -37,13 +37,13 @@ date: "2026-06-22"
 | [AI 生产力乘数](./zlbigger/ai-productivity-multiplier.md) | 每月 10-20 美金的高级打工仔，替换工作流任何一个环节 |
 | [Build-to-Sell：AI Agent 内容农场](./money-methods/build-to-sell.md) | AI 驱动 CMS + 多语言 SEO + 广告变现 |
 | [出海一周年万刀·12 模块全量索引](./outsea-playbook/hezhiyan7-outsea-oneyear-toc.md) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC（SEO/需求/开发/支付/流量 等 12 模块分类） |
-| [Agent 上线个人网站](./agent-launch-personal-site.md) | 空格丶口喷建站：GitHub CLI + Cloudflare wrangler，6 步极简部署 |
-| [AdSense 美国税务信息填写指南](./adsense-us-tax-form.md) | 阿加曦：W-8BEN 表 + 中美税收条约 + 三大预扣税率 10 分钟实操 |
+| [Agent 上线个人网站](../../wiki/sources/agent-launch-personal-site.md) | 空格丶口喷建站：GitHub CLI + Cloudflare wrangler，6 步极简部署 |
+| [AdSense 美国税务信息填写指南](../../wiki/sources/adsense-us-tax-form.md) | 阿加曦：W-8BEN 表 + 中美税收条约 + 三大预扣税率 10 分钟实操 |
 | [Stripe + X 创作者收益全攻略](./stripe-x-creator-income-guide.md) | nemo × AYi × 苍何：香港 Stripe 个人账户 + X 创作者认证 + W-8BEN + 收款全链路，独立开发者出海收款一站式指南 |
 | [中国开发者 Chrome 插件开发者注册实战](./chrome-developer-registration-china.md) | 肇鑫：5 美元注册费 + Visa 单通道信用卡 + 身份证 + 招行对账单，国内地址搞定 Chrome Web Store 与 Trader 认证 |
 | [公众号爆款标题 Skill](./baokuan-title-generator-skill.md) | 空格丶：16 种标题套路 + 双模型协同（fable5 精准 + GPT-5.6 全面） |
 | [50 Skills AI 创作系统](./50-skills-ai-creation-system/index.md) | 空格丶：数据→创作→排版→分发四层架构，50 个 Skill 串成系统 |
-| [SaaS 产品落地页设计](./vibe-coding/../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
+| [SaaS 产品落地页设计](../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 | [PMaker：145 篇产品方法论（AI 基础+产品实践）](./pmaker-series/) | 空格·键盘：AI 名词/大模型/提示词/RAG/Agent/成本安全 60 篇 + 产品发现/定义/设计/交互/界面/协作/验证 85 篇 |
 | [出海工具站实战笔记](./outsea-tool-station/index.md) | 易焘 13 篇：需求挖掘/上站流程/AI编程/认知，按作者自述索引分 6 类，含 Cloudflare 上线 SOP |
 

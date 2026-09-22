@@ -90,7 +90,7 @@ Mission Driver           →  AGE 框架下的执行器（按 roadmap 编排 Pla
 ## 参考来源
 
 - [Mission Driver 补充说明](../sources/mission-driver-supplement.md) — 可逆计算，微信公众号
-- [Mission Driver 原文](../sources/mission-driver.md)
+- [Mission Driver 原文](./mission-driver.md)
 
 ## 相关概念
 

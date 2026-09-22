@@ -76,7 +76,7 @@ Agent 间通过 A2A 协议协作，Supervisor 统一调度。
 - SDD 解决「先想清楚再写」，Harness Engineering 解决「怎么稳定推荐并被验证可用」——两者是上下层关系，不是冲突关系
 - Agent 项目常见陷阱：一开始就掉进「工具堆砌」的坑里
 
-> 📎 完整原文见知识库：[wiki/sources/huazai-harness-practice.md](./sources/huazai-harness-practice.md)
+> 📎 完整原文见知识库：[wiki/sources/huazai-harness-practice.md](../../../wiki/sources/huazai-harness-practice.md)
 
 ---
 

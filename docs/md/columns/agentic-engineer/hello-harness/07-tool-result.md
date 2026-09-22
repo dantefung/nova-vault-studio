@@ -56,7 +56,7 @@ User → LLM → Tool Call → Tool → Tool Result → LLM → Answer
 - 没有异常处理：工具抛异常时，历史里只有空结果
 - 上下文会膨胀：结果越长，messages 越肥，迟早撞上上下文窗口上限
 
-> 📎 完整原文见知识库：[wiki/sources/hello-harness-07-tool-result.md](./sources/hello-harness-07-tool-result.md)
+> 📎 完整原文见知识库：[wiki/sources/hello-harness-07-tool-result.md](../../../wiki/sources/hello-harness-07-tool-result.md)
 
 ---
 

@@ -287,8 +287,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet"]
 
 ## 相关文章
 
-- [lazyvim-architecture.md](./lazyvim-architecture.md) — LazyVim 庖丁解牛（静态构成 + 动态启动链路）
-- [lazyvim-keymap-config.md](./lazyvim-keymap-config.md) — 自定义 keymaps.lua 完整配置
-- [lazyvim-lsp-keymaps.md](./lazyvim-lsp-keymaps.md) — LSP 快捷键总览
+- [lazyvim-architecture.md](./vim/lazyvim-architecture.md) — LazyVim 庖丁解牛（静态构成 + 动态启动链路）
+- [lazyvim-keymap-config.md](./vim/lazyvim-keymap-config.md) — 自定义 keymaps.lua 完整配置
+- [lazyvim-lsp-keymaps.md](./vim/lazyvim-lsp-keymaps.md) — LSP 快捷键总览
 - [tmux 快捷键大全](./tmux-cheatsheet.md) — tmux 常用快捷键速查表
 - [tmux 完整指南](./tmux-guide.md) — 从概念到进阶使用的完整教程
