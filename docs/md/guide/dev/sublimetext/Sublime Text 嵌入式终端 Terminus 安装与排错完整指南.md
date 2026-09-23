@@ -1,8 +1,16 @@
+---
+title: "Sublime Text 嵌入式终端 Terminus 安装与排错完整指南"
+date: "2026-02-28"
+source: "日常开发排错"
+url: ""
+---
+
 # Sublime Text 嵌入式终端 Terminus 安装与排错完整指南
 
-生成时间：2026-02-28 10:48:07
-
-------------------------------------------------------------------------
+Terminus 插件的快捷键配置见
+[Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20自定义快捷键)，
+更多插件与使用技巧见
+[Sublime Text 最佳实践](/md/guide/dev/sublimetext/sublime-best-practices)。
 
 ## 一、环境说明
 
@@ -14,9 +22,9 @@
 
 ------------------------------------------------------------------------
 
-# 二、正常安装 Terminus（推荐方式）
+## 二、正常安装 Terminus（推荐方式）
 
-## 1. 确认已安装 Package Control
+### 1. 确认已安装 Package Control
 
 在 Sublime Text 中：
 
@@ -34,7 +42,7 @@
 
 ------------------------------------------------------------------------
 
-## 2. 通过 Package Control 安装 Terminus
+### 2. 通过 Package Control 安装 Terminus
 
 在命令面板执行：
 
@@ -49,11 +57,11 @@
 
 ------------------------------------------------------------------------
 
-# 三、手动安装 Terminus（适用于搜索不到插件的情况）
+## 三、手动安装 Terminus（适用于搜索不到插件的情况）
 
 如果在 Package Control 中搜不到 Terminus，可以手动安装。
 
-## 1. 打开 Packages 目录
+### 1. 打开 Packages 目录
 
     Preferences → Browse Packages
 
@@ -61,7 +69,7 @@
 
     ~/.config/sublime-text/Packages
 
-## 2. 使用 git 克隆插件
+### 2. 使用 git 克隆插件
 
 ``` bash
 cd ~/.config/sublime-text/Packages
@@ -72,7 +80,7 @@ git clone https://github.com/randy3k/Terminus.git
 
 ------------------------------------------------------------------------
 
-# 四、为何需要重启 Sublime Text？
+## 四、为何需要重启 Sublime Text？
 
 Terminus 插件依赖以下 Python 库：
 
@@ -98,7 +106,7 @@ Terminus 插件依赖以下 Python 库：
 
 ------------------------------------------------------------------------
 
-# 五、如何验证安装成功？
+## 五、如何验证安装成功？
 
 重启 Sublime 后：
 
@@ -115,7 +123,7 @@ Terminus 插件依赖以下 Python 库：
 
 ------------------------------------------------------------------------
 
-# 六、推荐配置（使用 zsh）
+## 六、推荐配置（使用 zsh）
 
 打开：
 
@@ -154,7 +162,7 @@ Preferences -> Key Bindings
 
 ------------------------------------------------------------------------
 
-# 七、进阶配置（自动进入 tmux）
+## 七、进阶配置（自动进入 tmux）
 
 ``` json
 {
@@ -171,7 +179,7 @@ Preferences -> Key Bindings
 
 ------------------------------------------------------------------------
 
-# 八、常见问题总结
+## 八、常见问题总结
 
   问题              原因                     解决方案
   ----------------- ------------------------ ---------------------
@@ -182,7 +190,7 @@ Preferences -> Key Bindings
 
 ------------------------------------------------------------------------
 
-# 九、总结
+## 九、总结
 
 在 Linux 下安装 Terminus 的核心要点：
 
@@ -192,3 +200,8 @@ Preferences -> Key Bindings
 4.  重启后验证命令是否出现
 
 完成以上步骤，即可正常使用 Sublime 嵌入式终端。
+
+## 十、参考文章
+
+- [Sublime Text 中运行终端](https://blog.csdn.net/qq_38202733/article/details/140043796)
+- [为 Sublime Text 添加命令行 cmd 并设置为底部面板](https://www.aspirantzhang.com/learning/sublime-text-cmd.html)

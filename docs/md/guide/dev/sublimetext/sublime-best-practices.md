@@ -7,6 +7,11 @@ url: ""
 
 # Sublime Text 最佳实践：快捷键、插件与使用技巧
 
+这篇记的是插件与使用技巧。两块相邻内容单独成篇，不在这里重复：
+
+- 完整的 `Key Bindings - User` 配置见 [Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20自定义快捷键)
+- 嵌入式终端 Terminus 的安装与排错见 [Terminus 安装与排错完整指南](/md/guide/dev/sublimetext/Sublime%20Text%20嵌入式终端%20Terminus%20安装与排错完整指南)
+
 ## 如何设置 Sublime Text 的快捷键
 
 Sublime Text 是一款强大的代码编辑器，它可以通过自定义快捷键来提高工作效率。设置快捷键的方法如下：
@@ -39,96 +44,11 @@ macOS：Sublime Text -> Preferences -> Reload Keymap
 Linux：Preferences -> Reload Keymap
 现在，您自定义的快捷键将可用。
 
-
-----
-
-```
-[
-		{ "keys": ["alt+1", "alt+1"], "command": "toggle_side_bar" },
-		{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-		{ "keys": ["ctrl+o"], "command": "goto_symbol_in_project" },
-		{ "keys": ["ctrl+t"], "command": "goto_definition" },
-		{ "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-		{ "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
-		{ "keys": ["alt+left"], "command": "jump_back" },
-		{ "keys": ["alt+right"], "command": "jump_forward" },
-		{ "keys": ["ctrl+g"], "command": "goto_reference" },
-]
-
-[
-		{ "keys": ["alt+1", "alt+1"], "command": "toggle_side_bar" },
-		{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-		 // outline 跳转到当前文件的某个方法
-		{ "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
-		{ "keys": ["ctrl+t"], "command": "goto_definition" },
-		// 跳转到某行
-		{ "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-		{ "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
-		// 跳转到上一个编辑地方
-		{ "keys": ["alt+left"], "command": "jump_back" },
-		// 跳转到下一个编辑地方
-		{ "keys": ["alt+right"], "command": "jump_forward" },
-		{ "keys": ["ctrl+g"], "command": "goto_reference" },
-		// 删除整行
-		{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
-		// 整行下移
-		{ "keys": ["alt+down"], "command": "swap_line_down" },
-		// 整行上移
-		{ "keys": ["alt+up"], "command": "swap_line_up" },
-		// 复制当前行到上一行
-		{ "keys": ["ctrl+alt+up"], "command": "duplicate_line" },
-		// 复制当前行到下一行
-		{ "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
-		// 自动提示
-		{ "keys": ["alt+/"], "command": "auto_complete" },
-		// 转换大写
-		{ "keys": ["ctrl+shift+x"], "command": "upper_case" },
-		// 转换小写
-		{ "keys": ["ctrl+shift+y"], "command": "lower_case" },
-		// 快速定位到选中的文字
-		{ "keys": ["ctrl+k"], "command": "find_under_expand_skip" },
-		// 当前文件中的关键字(方便快速查找内容)
-		{ "keys": ["ctrl+alt+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
-		// open resource, 保留sublime的, eclipse的快捷键是 ctrl+shift+r
-		{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-		// 在当前行的下一行插入空行(这时鼠标可以在当前行的任一位置, 不一定是最后)
-		{ "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line.sublime-macro"} },
-		// 把下一行的内容合并到当前行
-		{ "keys": ["ctrl+alt+j"], "command": "join_lines" },
-	// 终端, 需要安装 Terminus 插件
-		{
-		       "keys": ["ctrl+alt+\\"],
-		       "command": "terminus_open",
-		       "args" : {
-		           // 按本机 Git 安装路径填写，不要硬编码 D:/software/...
-		           "cwd": "${file_path:${folder}}",
-		           "panel_name": "Terminus"
-		       },
-
-		},
-		{
-			    "keys": ["ctrl+`"],
-		        "caption": "Terminus: Toggle Panel",
-		        "command": "toggle_terminus_panel",
-		        "args": {"hide_active": true}
-	        },
-		{ "keys": ["ctrl+shift+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
-		// sublime默认 ctrl+0 , reveal in sidebar, 侧边栏打开当前文件所在的文件夹目录
-		{ "keys": ["ctrl+0"], "command": "focus_side_bar" },
-
-]
-
-```
-
-**参考链接:**
-
-- [boolean111000/Base File.sublime-settings](https://gist.github.com/boolean111000/1325c6e284505948bed041a240fe5f70)
-- [sublime text3 快捷键修改为 eclipse_sublime](https://blog.csdn.net/qq575792372/article/details/89739696)
-
+可直接使用的完整配置见 [Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20自定义快捷键)。
 
 ## 插件推荐
 
-"SideBarEnhancements", #这个是好东东,英文翻译为加强侧边栏,安装之后我们的侧边栏文件管理多了很多的功能,还有右键里面
+"SideBarEnhancements", #这个是好东西,英文翻译为加强侧边栏,安装之后我们的侧边栏文件管理多了很多的功能,还有右键里面
 
 ## Origami
 
@@ -139,35 +59,6 @@ Origami 提供了多个实用的功能，包括但不限于：
 文件预览 - 在不打开新窗口的情况下预览文件内容。
 命令面板增强 - 增强 Sublime Text 的原生命令面板，提供更多选项。
 搜索历史 - 保存并访问您的搜索历史记录
-
-## Terminus
-
-**快捷键配置:**
-
-```
-// 终端
-		{
-		       "keys": ["ctrl+alt+\\"],
-		       "command": "terminus_open",
-		       "args" : {
-		           // 按本机 Git 安装路径填写，不要硬编码 D:/software/...
-		           "cwd": "${file_path:${folder}}",
-		           "panel_name": "Terminus"
-		       },
-
-		},
-		{
-			    "keys": ["ctrl+`"],
-		        "caption": "Terminus: Toggle Panel",
-		        "command": "toggle_terminus_panel",
-		        "args": {"hide_active": true}
-	    	}
-```
-
-**参考文章:**
-
-- [Sublime Text 中运行终端](https://blog.csdn.net/qq_38202733/article/details/140043796)
-- [为 Sublime Text 添加命令行 cmd 并设置为底部面板](https://www.aspirantzhang.com/learning/sublime-text-cmd.html)
 
 ## Compare Side-By-Side
 
@@ -215,9 +106,9 @@ Preferences ->  Settings
 	"index_files": true,
 	"sublime_merge_path": "D:/software/Sublime Merge/Sublime Merge/smerge.exe"
 }
-
-
 ```
+
+`sublime_merge_path` 需按本机实际安装路径填写。
 
 ## 使用技巧
 
