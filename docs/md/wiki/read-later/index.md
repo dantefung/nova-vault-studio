@@ -88,6 +88,8 @@ date: "2026-05-29"
 | 2026-09-20 | https://x.com/dboy_yi2025/status/2101579653232066929 | **待查看** |
 | 2026-09-21 | https://x.com/qianshuixia2026/status/2101851702865608791 | **待查看** |
 | 2026-09-21 | https://x.com/cgnot996/status/2096415217710461078 | **待查看** |
+| 2026-09-21 | https://x.com/CrazyKaomei/status/2102311241046008268 | **待查看** |
+| 2026-09-21 | https://x.com/ricouii/status/2102241395511836992 | **待查看** |
 | 2026-07-02 | https://x.com/wuxindehuaft/status/2072303199349035447?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/Jason_WealthAI/status/2072298673422377465?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/i/status/2052036309167014315 | **vivienna：重新定义读书——用 Claude Code + Luffa 把 800 页金融学教材变成可"动手玩"的小程序**，124.3K 浏览 |

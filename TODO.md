@@ -19,6 +19,19 @@ url: ""
 
 ## 待爬取
 
+### X / Twitter
+
+| 日期 | 链接 | 描述 | 状态 |
+|------|------|------|------|
+| 2026-09-21 | https://x.com/affnom_y/status/2102231791025492184 | 待查看 | pending |
+| 2026-09-21 | https://x.com/aiwarts/status/2102240456092626951 | 待查看 | pending |
+| 2026-09-21 | https://x.com/boniusex/status/2102312504697426429 | 待查看 | pending |
+| 2026-09-21 | https://x.com/weiyux2021/status/2101844827599933805 | 待查看 | pending |
+| 2026-09-21 | https://x.com/bbkirstry/status/2102373925309338097 | 待查看 | pending |
+| 2026-09-21 | https://x.com/leo_xiaolei/status/2102013053084545433 | 待查看 | pending |
+| 2026-09-21 | https://x.com/XiaohuiAI666/status/2102236448175128643 | 待查看 | pending |
+| 2026-09-21 | https://x.com/Stephan_Talk/status/2102201335437562012 | 待查看 | pending |
+
 ### 复盘总结（20 篇 · 心态 + ROI 最高）
 
 | 日期 | 链接 | 状态 |
