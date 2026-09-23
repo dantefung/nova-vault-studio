@@ -25,6 +25,7 @@ url: ""
 |------|------|------|------|
 | 2026-09-21 | https://x.com/affnom_y/status/2102231791025492184 | 待查看 | pending |
 | 2026-09-21 | https://x.com/aiwarts/status/2102240456092626951 | 待查看 | pending |
+| 2026-09-21 | https://x.com/boniusex/status/2102312504697426429 | 待查看 | pending |
 
 ### 复盘总结（20 篇 · 心态 + ROI 最高）
 
