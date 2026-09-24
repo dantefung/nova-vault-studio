@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GSD · 先搭流水线，再让 AI 自己跑 · get-shit-done 13 页入门</title>
+<title>GSD 教学 · 从零到 PR，一小时跑完一个 phase · get-shit-done 13 页教程</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600&family=Noto+Sans+SC:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -1233,16 +1233,16 @@
   <div class="canvas-card">
     <canvas class="ascii-bg" aria-hidden="true"></canvas>
     <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
+      <div class="l">GSD · TUTORIAL</div>
       <div class="r">26.09 · 01 / 13</div>
     </div>
     <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
-      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">FIELD NOTE · 13 PAGES · GSD 1.42.3</div>
-      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(9.4vw,15.6vh);line-height:.96;letter-spacing:-.025em;color:#fff">先搭流水线，<br>再让 AI <span style="font-style:italic;font-weight:300">自己跑</span>。</h1>
+      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">GSD CORE 1.7.X · TUTORIAL · 13 PAGES</div>
+      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(8.6vw,14.6vh);line-height:.96;letter-spacing:-.025em;color:#fff">从零到 PR，<br>一小时跑完一个 <span style="font-style:italic;font-weight:300">phase</span>。</h1>
       <div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.8vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh">
-        <div data-anim="lead" style="max-width:62ch;color:rgba(255,255,255,.88);font-family:var(--sans),var(--sans-zh);font-size:18px;line-height:1.6;font-weight:400">get-shit-done 不是提示词技巧，是一套把「需求说一次」变成「AI 自己往下跑」的编码流水线：状态写在文件里，闸门写在流程里，模型只做它该做的那一段。</div>
+        <div data-anim="lead" style="max-width:64ch;color:rgba(255,255,255,.88);font-family:var(--sans),var(--sans-zh);font-size:18px;line-height:1.6;font-weight:400">GSD 是 Claude Code 的 spec-driven 开发框架。这个教程带你按顺序敲 6 条命令，走完一个完整的 phase：Discuss → Plan → Execute → Verify → Ship。所有命令都是可以直接复制的。</div>
         <div style="display:flex;justify-content:space-between;align-items:end;gap:2vw">
-          <div class="t-meta" style="color:rgba(255,255,255,.6)">GSD v1.42.3 · 67 SHELLS · 88 WORKFLOWS · 33 AGENTS</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.6)">5 STEPS · 6 COMMANDS · ~60 MIN</div>
           <div class="t-meta" style="color:rgba(255,255,255,.6)">→ ARROW KEYS</div>
         </div>
       </div>
@@ -1250,233 +1250,397 @@
   </div>
 </section>
 
-<!-- ============ 02 · S09 点阵宣言 · 核心命题 ============ -->
-<section class="slide" data-layout="S09" data-animate="statement">
-  <div class="canvas-card">
-    <span class="dot-mat lg" style="position:absolute;right:-3vw;top:-6vh;width:34vw;height:34vw;color:var(--accent);opacity:.3;pointer-events:none;z-index:0"></span>
-    <span class="ring-mat lg" style="position:absolute;left:-7vw;bottom:-12vh;width:30vw;height:30vw;color:var(--ink);opacity:.45;pointer-events:none;z-index:0"></span>
-    <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
-      <div class="r">26.09 · 02 / 13</div>
-    </div>
-    <div style="flex:1;padding:0;display:flex;flex-direction:column;justify-content:center;gap:3.2vh">
-      <div data-anim="line" class="t-cat" style="color:var(--accent)">THESIS · 02 / 13</div>
-      <h1 data-anim="stmt" style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(6.4vw,10.9vh);line-height:1.08;letter-spacing:-.03em;color:var(--ink);max-width:24ch">提示词是<span style="font-style:italic;font-weight:300;color:var(--accent)">一次性</span>的，<br>流水线是复利的。</h1>
-      <div data-anim="foot" style="max-width:68ch;font-family:var(--sans),var(--sans-zh);font-size:18px;line-height:1.65;color:var(--text-secondary);font-weight:400;border-top:1px solid var(--border-subtle);padding-top:2.4vh">同一段提示词写一百次，不会得到一百倍产出。把流程写进文件里只写一次，模型每一次运行都会替你把它读完——这才是可以复利的资产。</div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ 03 · S06 KPI Tower · 规模 ============ -->
-<section class="slide dark hero" data-layout="S06" data-animate="measure-up">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
-      <div class="r">26.09 · 03 / 13</div>
-    </div>
-    <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div class="t-meta">SCALE · 03 / 13</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--paper)">一个技能包的<span style="font-style:italic;font-weight:300;color:var(--accent-bright)">全部家当</span>。</h2>
-    </div>
-    <div class="bar-towers" style="margin-top:auto">
-      <div class="bar-tower">
-        <div class="cap">
-          <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        </div>
-        <div class="body-block h-1">
-          <div class="lbl">Agents</div>
-          <div class="nb">33</div>
-          <div class="sub">子代理<br>负责动手</div>
-        </div>
-      </div>
-      <div class="bar-tower">
-        <div class="cap">
-          <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-        </div>
-        <div class="body-block h-2">
-          <div class="lbl">References</div>
-          <div class="nb">48</div>
-          <div class="sub">参考文档<br>懒加载按需读</div>
-        </div>
-      </div>
-      <div class="bar-tower">
-        <div class="cap">
-          <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
-        </div>
-        <div class="body-block h-3">
-          <div class="lbl">Shells</div>
-          <div class="nb">67</div>
-          <div class="sub">命令外壳<br>/gsd:next 等入口</div>
-        </div>
-      </div>
-      <div class="bar-tower">
-        <div class="cap">
-          <svg class="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="6"/><rect x="15" y="15" width="6" height="6"/><path d="M9 6h6a3 3 0 0 1 3 3v6"/></svg>
-        </div>
-        <div class="body-block h-4 b-accent">
-          <div class="lbl">Workflows</div>
-          <div class="nb">88</div>
-          <div class="sub">工作流剧本<br>负责决策与提问</div>
-        </div>
-      </div>
-    </div>
-    <div class="t-meta" style="text-align:right">SOURCE · GSD v1.42.3 源码清点</div>
-  </div>
-</section>
-
-<!-- ============ 04 · S05 三层架构 ============ -->
+<!-- ============ 02 · 前置准备 · S05 stack-build ============ -->
 <section class="slide grey hero" data-layout="S05" data-animate="stack-build">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
-      <div class="r">26.09 · 04 / 13</div>
+      <div class="l">GSD · TUTORIAL</div>
+      <div class="r">26.09 · 02 / 13</div>
     </div>
     <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div class="t-meta">ARCHITECTURE · 04 / 13</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">三层，<span style="font-style:italic;font-weight:300;color:var(--accent)">职责互不越界</span>。</h2>
+      <div class="t-meta">PREREQS · 02 / 13</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">先备好这 <span style="font-style:italic;font-weight:300;color:var(--accent)">3 样</span>。</h2>
     </div>
-    <div class="stack-row" style="margin-top:3vh">
+    <div class="stack-row" style="margin-top:2.6vh;margin-bottom:2vh">
       <div class="stack-block b-grey">
         <div class="layer-nb">LAYER 01</div>
-        <div class="layer-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="stroke"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
-        </div>
-        <div class="layer-ttl">外壳<br>Shells</div>
-        <div class="layer-desc">67 个 /gsd:* 命令。只负责路由：决定调哪个工作流、传什么参数。自己不读剧本，不写代码。</div>
-        <div class="layer-tag">DISPATCH ONLY</div>
+        <div class="layer-ttl" style="font-family:var(--mono);font-size:max(18px,1.6vw);font-weight:600"><code>Node.js 18+</code></div>
+        <div class="layer-desc">GSD 通过 npm 分发。运行 <code>node -v</code> 检查版本。</div>
+        <div class="layer-tag">RUNTIME</div>
       </div>
       <div class="stack-block b-accent">
         <div class="layer-nb">LAYER 02</div>
-        <div class="layer-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="stroke"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="14" y2="17"/></svg>
-        </div>
-        <div class="layer-ttl">工作流<br>Workflows</div>
-        <div class="layer-desc">88 个 .md 剧本。负责决策：先问什么、写哪些文件、什么时候 STOP。全部逻辑可 diff、可 review。</div>
-        <div class="layer-tag">DECIDE · THE HEART</div>
+        <div class="layer-ttl" style="font-family:var(--mono);font-size:max(18px,1.6vw);font-weight:600"><code>Claude Code</code></div>
+        <div class="layer-desc">Anthropic 官方 CLI。安装：<br><code style="font-size:max(13px,.82vw);word-break:break-all">curl -fsSL https://claude.ai/install.sh | bash</code></div>
+        <div class="layer-tag">CLI HOST</div>
       </div>
       <div class="stack-block b-grey">
         <div class="layer-nb">LAYER 03</div>
-        <div class="layer-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="stroke"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg>
-        </div>
-        <div class="layer-ttl">执行者<br>Agents</div>
-        <div class="layer-desc">33 个子代理。拿到明确任务就动手：写代码、跑测试、改文档。只执行不决策，做完回报。</div>
-        <div class="layer-tag">HANDS ON</div>
+        <div class="layer-ttl" style="font-size:max(18px,1.6vw);font-weight:600">你的 Git 仓库</div>
+        <div class="layer-desc">必须已 <code>git init</code> 并至少有一次 commit。GSD 依赖 Git 做原子回滚。</div>
+        <div class="layer-tag">WORKSPACE</div>
       </div>
     </div>
-    <div class="t-meta" style="text-align:right">编排 · 决策 · 执行</div>
+    <div style="background:var(--paper);border:1px solid var(--border-subtle);border-left:3px solid var(--accent);padding:1.4vh 1.4vw;display:flex;align-items:center;justify-content:space-between">
+      <div style="font-family:var(--mono);font-size:max(15px,1.05vw);color:var(--ink)">
+        <span style="color:var(--accent);font-weight:700">$</span> npx @open-gsd/init <span style="color:var(--text-secondary);font-size:max(13px,.9vw)">→ GSD 会自动 clone 到你的项目，注册 slash 命令</span>
+      </div>
+      <div class="t-meta" style="color:var(--accent)">ONE-LINE SETUP</div>
+    </div>
+    <div class="t-meta" style="text-align:right;margin-top:1.2vh">CHECK PREREQUISITES BEFORE CODING</div>
   </div>
 </section>
 
-<!-- ============ 05 · S17 系统图 · .planning/ 就是数据库 ============ -->
-<section class="slide" data-layout="S17" data-animate="system-diagram">
+<!-- ============ 03 · 第 1 步 /gsd-new-project · S08 duo-mirror ============ -->
+<section class="slide" data-layout="S08" data-animate="duo-mirror">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
-      <div class="r">26.09 · 05 / 13</div>
+      <div class="l">GSD · TUTORIAL</div>
+      <div class="r">26.09 · 03 / 13</div>
     </div>
     <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div class="t-meta">STATE · 05 / 13</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">.planning/ 就是<span style="font-style:italic;font-weight:300;color:var(--accent)">数据库</span>。</h2>
+      <div class="t-meta">STEP 01 / 13 · 2-5 MIN</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">第一步：<span style="font-style:italic;font-weight:300;color:var(--accent)">初始化项目</span>。</h2>
     </div>
-    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:3vw;padding:0;align-items:center">
-      <div style="display:flex;align-items:center;justify-content:center">
-        <svg viewBox="0 0 400 400" style="width:100%;height:100%;max-height:56vh;max-width:56vh">
-          <circle cx="200" cy="200" r="186" fill="none" stroke="var(--border-subtle)" stroke-width="1"/>
-          <circle cx="200" cy="200" r="120" fill="none" stroke="var(--grey-2)" stroke-width="1"/>
-          <circle cx="200" cy="200" r="56" fill="var(--accent)"/>
-        </svg>
+    <div class="duo-compare" style="margin-top:3.6vh">
+      <div class="col" style="justify-content:center">
+        <div class="col-tag"><span class="num">— COMMAND</span> <span>TERMINAL</span></div>
+        <div style="font-family:var(--mono);font-size:clamp(28px,3.4vw,56px);font-weight:700;color:var(--accent);line-height:1.1;margin:2vh 0">
+          $ /gsd-new-project
+        </div>
+        <div class="t-body-sm" style="max-width:32ch">在 Claude Code 会话中直接敲入此命令，开始项目全景规划。</div>
       </div>
-      <div style="display:flex;flex-direction:column;gap:2.2vh">
-        <div style="display:grid;grid-template-columns:auto 1fr;gap:1.6vw;align-items:start">
-          <span style="width:1vw;height:1vw;background:var(--accent);flex-shrink:0;margin-top:.4vh"></span>
-          <div>
-            <div class="t-cat" style="color:var(--accent)">CORE · 内核</div>
-            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(18px,1.4vw);line-height:1.35;color:var(--text-primary);font-weight:500;margin-top:.4vh">5 个状态文件</div>
-            <div class="t-body-sm" style="margin-top:.4vh">ROADMAP · PROJECT · REQUIREMENTS · DECISIONS · STATE。每次运行都读它们决定下一步。</div>
-          </div>
-        </div>
-        <div style="display:grid;grid-template-columns:auto 1fr;gap:1.6vw;align-items:start">
-          <span style="width:1vw;height:1vw;background:var(--grey-3);flex-shrink:0;margin-top:.4vh"></span>
-          <div>
-            <div class="t-cat">MIDDLE · 中层</div>
-            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(18px,1.4vw);line-height:1.35;color:var(--text-primary);font-weight:500;margin-top:.4vh">阶段与计划</div>
-            <div class="t-body-sm" style="margin-top:.4vh">phases/NNN/ 目录、PLAN.md。计划文件存在，就代表这个计划已开始。</div>
-          </div>
-        </div>
-        <div style="display:grid;grid-template-columns:auto 1fr;gap:1.6vw;align-items:start">
-          <span style="width:1vw;height:1vw;background:none;border:1px solid var(--border-strong);flex-shrink:0;margin-top:.4vh"></span>
-          <div>
-            <div class="t-cat">OUTER · 外圈</div>
-            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(18px,1.4vw);line-height:1.35;color:var(--text-primary);font-weight:500;margin-top:.4vh">断点与快照</div>
-            <div class="t-body-sm" style="margin-top:.4vh">.continue-here.md、checkpoints、snapshots。断电、切换、上下文爆掉之后从这里续跑。</div>
+      <span class="vrule"></span>
+      <div class="col accent">
+        <div class="col-tag"><span class="num">— BEHAVIOR</span> <span>WHAT HAPPENS</span></div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(18px,1.2vw);color:var(--ink);margin-top:.6vh">AI 会做什么？</div>
+        <ul class="col-list" style="margin-top:0;padding-top:1vh;border-top:none">
+          <li>询问：做什么 / 不做什么 / 目标用户</li>
+          <li>扫描仓库结构、写 AGENTS.md</li>
+          <li>生成 <code>.planning/</code> 数据库</li>
+        </ul>
+        <div style="border-top:1px solid var(--border-subtle);padding-top:1.4vh;margin-top:1.4vh">
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.05vw);color:var(--accent);margin-bottom:.8vh">产出 · 6 个文件</div>
+          <div style="font-family:var(--mono);font-size:max(13px,.86vw);line-height:1.6;color:var(--text-secondary);background:var(--grey-1);padding:1vh 1vw">
+            .planning/PROJECT.md<br>
+            .planning/REQUIREMENTS.md<br>
+            .planning/ROADMAP.md<br>
+            .planning/RESEARCH.md<br>
+            .planning/STATE.md<br>
+            .planning/config.json
           </div>
         </div>
       </div>
     </div>
-    <div class="t-meta" style="text-align:right">STATE ON DISK · NOT IN CONTEXT</div>
+    <div class="t-meta" style="margin-top:auto">这一步之后，你有了一份 AI 能读懂的"项目说明书"</div>
   </div>
 </section>
 
-<!-- ============ 06 · S03 Split Statement · 编排者不动手 ============ -->
+<!-- ============ 04 · 第 2 步 /gsd-discuss-phase 1 · S03 split ============ -->
 <section class="slide split" data-layout="S03" data-animate="statement">
   <div class="canvas-card">
     <div class="split-half">
       <div class="half b-ink" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between;position:relative;overflow:hidden">
         <canvas class="ascii-bg" aria-hidden="true"></canvas>
         <div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1">
-          <div class="l">GSD · GET SHIT DONE</div>
-          <div class="r">26.09 · 06 / 13</div>
+          <div class="l">GSD · TUTORIAL</div>
+          <div class="r">26.09 · 04 / 13</div>
         </div>
         <div data-anim="stmt" style="display:flex;flex-direction:column;gap:2.4vh;position:relative;z-index:1;justify-content:center;flex:1">
-          <div class="t-cat" style="color:rgba(255,255,255,.78)">RULE 01 · SEPARATION OF DUTY</div>
-          <h1 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(8.4vw,14.3vh);line-height:.96;letter-spacing:-.03em;color:#fff">编排者<br><span style="font-style:italic;font-weight:300">不动手</span>。</h1>
+          <div class="t-cat" style="color:rgba(255,255,255,.78)">STEP 02 / 13 · 2-5 MIN</div>
+          <h1 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(7.6vw,12.8vh);line-height:.96;letter-spacing:-.03em;color:#fff">第二步：<br><span style="font-style:italic;font-weight:300;color:var(--accent-bright)">把想法磨清楚</span>。</h1>
+          <div style="margin-top:2vh">
+            <div style="font-family:var(--mono);font-size:clamp(22px,2.8vw,44px);font-weight:700;color:var(--accent-bright);background:rgba(255,255,255,.1);padding:.8vh 1vw;display:inline-block">
+              /gsd-discuss-phase 1
+            </div>
+            <div class="t-body-sm" style="color:rgba(255,255,255,.75);margin-top:1.6vh">阶段名可自定义，比如 1-auth、1-mvp。数字表示第几阶段，可跳号。</div>
+          </div>
         </div>
       </div>
       <div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between">
         <div class="chrome-min">
-          <div class="l">THREE ROLES</div>
-          <div class="r">03 LAYERS</div>
+          <div class="l">DISCUSS · 5 QUESTIONS</div>
+          <div class="r">CONTEXT.MD</div>
         </div>
-        <div style="display:flex;flex-direction:column;gap:3.4vh;padding:0">
-          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding-top:1.6vh;border-top:1px solid var(--border-subtle)">
-            <div style="font-family:var(--sans);font-weight:200;font-size:min(3.6vw,6.2vh);line-height:.9;color:var(--text-primary)">01</div>
-            <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.6vw);line-height:1.25;color:var(--text-primary)">gsd-phase · 编排</h3>
-              <p class="t-body-sm" style="margin-top:.6vh">只决定「下一步跑哪个工作流」，把参数传下去就结束。</p>
-            </div>
+        <div style="display:flex;flex-direction:column;gap:1.8vh;padding:0">
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(18px,1.2vw);color:var(--ink)">AI 会问你什么？</div>
+          <div style="display:flex;flex-direction:column;gap:.9vh;border-top:1px solid var(--border-subtle);padding-top:1.4vh">
+            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.95vw);line-height:1.45;color:var(--text-primary)"><span style="font-family:var(--mono);font-weight:600;color:var(--accent)">1 ·</span> 这个阶段要解决的核心问题是？</div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.95vw);line-height:1.45;color:var(--text-primary)"><span style="font-family:var(--mono);font-weight:600;color:var(--accent)">2 ·</span> 谁会用这个功能？</div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.95vw);line-height:1.45;color:var(--text-primary)"><span style="font-family:var(--mono);font-weight:600;color:var(--accent)">3 ·</span> 完成时你会怎么验证？</div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.95vw);line-height:1.45;color:var(--text-primary)"><span style="font-family:var(--mono);font-weight:600;color:var(--accent)">4 ·</span> 有哪些明确不做的边界？</div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-size:max(15px,.95vw);line-height:1.45;color:var(--text-primary)"><span style="font-family:var(--mono);font-weight:600;color:var(--accent)">5 ·</span> 有哪些已知依赖或风险？</div>
           </div>
-          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding-top:1.6vh;border-top:1px solid var(--border-subtle)">
-            <div style="font-family:var(--sans);font-weight:200;font-size:min(3.6vw,6.2vh);line-height:.9;color:var(--text-primary)">02</div>
-            <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.6vw);line-height:1.25;color:var(--text-primary)">gsd-agent · 决策</h3>
-              <p class="t-body-sm" style="margin-top:.6vh">按 .md 剧本走：该提问就提问，该写文件就写文件。</p>
-            </div>
-          </div>
-          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding-top:1.6vh;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)">
-            <div style="font-family:var(--sans);font-weight:200;font-size:min(3.6vw,6.2vh);line-height:.9;color:var(--accent)">03</div>
-            <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.6vw);line-height:1.25;color:var(--accent)">executor · 执行</h3>
-              <p class="t-body-sm" style="margin-top:.6vh">写代码的永远是子代理。编排者一行代码都不碰。</p>
-            </div>
+          <div style="border-top:1px solid var(--border-subtle);padding-top:1.4vh;margin-top:.6vh">
+            <div class="t-cat" style="color:var(--accent)">产出</div>
+            <div style="font-family:var(--mono);font-size:max(15px,1.05vw);font-weight:600;color:var(--ink);margin-top:.4vh">phases/01-&lt;phase-name&gt;/CONTEXT.md</div>
           </div>
         </div>
-        <div class="t-meta">职责越界是 GSD 里最容易出现的坏味道。</div>
+        <div class="t-meta">AI 不会自动开工。所有关键决策都在这里钉死，写进文件，未来 phase 复用。</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ 07 · S11 横向时间线 · /gsd:next 五个出口 ============ -->
-<section class="slide" data-layout="S11" data-animate="timeline-walk">
+<!-- ============ 05 · 第 3 步 /gsd-plan-phase 1 · S20 stacked-ledger ============ -->
+<section class="slide dark" data-layout="S20" data-animate="stacked-ledger">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
+      <div class="l">GSD · TUTORIAL</div>
+      <div class="r">26.09 · 05 / 13</div>
+    </div>
+    <div data-anim="line" style="display:flex;flex-direction:column;gap:1.2vh;padding:0">
+      <div class="t-meta">STEP 03 / 13 · 1-5 MIN</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.4vw,7.4vh);line-height:1.04;letter-spacing:-.025em;color:var(--paper)">第三步：<span style="font-style:italic;font-weight:300;color:var(--accent-bright)">4 个 AI 并发研究，再起草</span>。</h2>
+      <div style="font-family:var(--mono);font-size:clamp(22px,2.6vw,42px);font-weight:700;color:var(--accent-bright);margin-top:.6vh">
+        $ /gsd-plan-phase 1
+      </div>
+    </div>
+    <div data-anim="ledger" style="flex:1;display:flex;flex-direction:column;justify-content:center;padding:0;margin-top:1vh">
+      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.2vw;align-items:center;padding:1.4vh 0;border-top:1px solid rgba(255,255,255,.18)">
+        <div class="ledger-num" style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.6vw);color:var(--accent-bright)">#01</div>
+        <div class="ledger-label">
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1.3vw);line-height:1.25;color:var(--paper)">RESEARCH · 4 个 agent 并发</div>
+          <div class="t-body-sm" style="margin-top:.3vh;color:rgba(255,255,255,.6)">并发研究：代码库结构 / 领域技术 / 最佳实践 / 架构模式</div>
+        </div>
+        <div class="t-meta" style="color:rgba(255,255,255,.5)">4 AGENTS</div>
+      </div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.2vw;align-items:center;padding:1.4vh 0;border-top:1px solid rgba(255,255,255,.18)">
+        <div class="ledger-num" style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.6vw);color:var(--paper)">#02</div>
+        <div class="ledger-label">
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1.3vw);line-height:1.25;color:var(--paper)">SYNTHESIS · 提炼研究结论</div>
+          <div class="t-body-sm" style="margin-top:.3vh;color:rgba(255,255,255,.6)">合成 4 份子研究报告，产出 <code>phases/01-*/RESEARCH.md</code></div>
+        </div>
+        <div class="t-meta" style="color:rgba(255,255,255,.5)">SYNTHESIZE</div>
+      </div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.2vw;align-items:center;padding:1.4vh 0;border-top:1px solid rgba(255,255,255,.18)">
+        <div class="ledger-num" style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.6vw);color:var(--accent-bright)">#03</div>
+        <div class="ledger-label">
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1.3vw);line-height:1.25;color:var(--paper)">DRAFT · Planner 起草执行方案</div>
+          <div class="t-body-sm" style="margin-top:.3vh;color:rgba(255,255,255,.6)">Planner agent 起草 <code>PLAN.md</code>（含 TDD 任务拆分、波次依赖）</div>
+        </div>
+        <div class="t-meta" style="color:rgba(255,255,255,.5)">PLANNER</div>
+      </div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.2vw;align-items:center;padding:1.4vh 0;border-top:1px solid rgba(255,255,255,.18)">
+        <div class="ledger-num" style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.6vw);color:var(--paper)">#04</div>
+        <div class="ledger-label">
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1.3vw);line-height:1.25;color:var(--paper)">CHECK · Checker 独立严格审查</div>
+          <div class="t-body-sm" style="margin-top:.3vh;color:rgba(255,255,255,.6)">Checker agent 独立审查（找 bug、核对边界，只挑毛病不改文件）</div>
+        </div>
+        <div class="t-meta" style="color:rgba(255,255,255,.5)">CHECKER</div>
+      </div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.2vw;align-items:center;padding:1.4vh 0;border-top:1px solid rgba(255,255,255,.18);border-bottom:1px solid rgba(255,255,255,.18)">
+        <div class="ledger-num" style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.6vw);color:var(--accent-bright)">#05</div>
+        <div class="ledger-label">
+          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1.3vw);line-height:1.25;color:var(--paper)">FIX · 闭环修复收敛</div>
+          <div class="t-body-sm" style="margin-top:.3vh;color:rgba(255,255,255,.6)">若有 HIGH 级别问题，Planner 针对性修订，最多迭代 3 轮至无争议</div>
+        </div>
+        <div class="t-meta" style="color:rgba(255,255,255,.5)">MAX 3 ROUNDS</div>
+      </div>
+    </div>
+    <div class="t-meta" style="text-align:right;margin-top:1.6vh">产出 · <code>RESEARCH.md</code> + <code>PLAN.md</code> + 可选 <code>UI-SPEC.md</code> / <code>AI-SPEC.md</code></div>
+  </div>
+</section>
+
+<!-- ============ 06 · 第 4 步 /gsd-execute-phase 1 · S17 波次调度图 ============ -->
+<section class="slide" data-layout="S17" data-animate="system-diagram">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">GSD · TUTORIAL</div>
+      <div class="r">26.09 · 06 / 13</div>
+    </div>
+    <div data-anim="line" style="display:flex;flex-direction:column;gap:1.2vh;padding:0">
+      <div class="t-meta">STEP 04 / 13 · VARY</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">第四步：<span style="font-style:italic;font-weight:300;color:var(--accent)">波次执行，干净上下文</span>。</h2>
+      <div style="font-family:var(--mono);font-size:clamp(22px,2.6vw,42px);font-weight:700;color:var(--accent);margin-top:.4vh">
+        $ /gsd-execute-phase 1
+      </div>
+    </div>
+    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:11fr 9fr;gap:2.6vw;padding:0;align-items:center;margin-top:1.4vh">
+      <div style="display:flex;flex-direction:column;background:var(--grey-1);padding:2.2vh 1.6vw;border:1px solid var(--border-subtle)">
+        <div class="t-cat" style="color:var(--accent);margin-bottom:1.6vh">WAVE DISPATCH TIMELINE</div>
+        <!-- 波次调度 SVG 3条水平轴堆叠 -->
+        <svg viewBox="0 0 540 220" style="width:100%;height:auto;font-family:var(--mono)">
+          <defs>
+            <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 9 5 L 0 9 z" fill="var(--accent)" />
+            </marker>
+          </defs>
+          <!-- Wave 1 -->
+          <text x="0" y="32" font-size="12" font-weight="700" fill="var(--accent)">WAVE 01</text>
+          <line x1="75" y1="28" x2="520" y2="28" stroke="var(--border-subtle)" stroke-dasharray="3 3" />
+          <rect x="75" y="14" width="90" height="28" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2" />
+          <text x="85" y="32" font-size="11" fill="var(--ink)">Task 1.1</text>
+          <path d="M 165 28 L 195 28" stroke="var(--accent)" stroke-width="1.6" marker-end="url(#arr)" />
+          <rect x="205" y="14" width="90" height="28" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2" />
+          <text x="215" y="32" font-size="11" fill="var(--ink)">Task 1.2</text>
+          <path d="M 295 28 L 325 28" stroke="var(--accent)" stroke-width="1.6" marker-end="url(#arr)" />
+          <rect x="335" y="14" width="90" height="28" fill="var(--accent)" />
+          <text x="345" y="32" font-size="11" fill="#fff" font-weight="700">Task 1.3</text>
+
+          <!-- Down arrow to Wave 2 -->
+          <path d="M 380 42 L 380 72 L 75 72 L 75 92" stroke="var(--accent)" stroke-width="1.2" stroke-dasharray="3 3" fill="none" />
+
+          <!-- Wave 2 -->
+          <text x="0" y="106" font-size="12" font-weight="700" fill="var(--ink)">WAVE 02</text>
+          <line x1="75" y1="102" x2="520" y2="102" stroke="var(--border-subtle)" stroke-dasharray="3 3" />
+          <rect x="75" y="88" width="90" height="28" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2" />
+          <text x="85" y="106" font-size="11" fill="var(--ink)">Task 2.1</text>
+          <path d="M 165 102 L 195 102" stroke="var(--accent)" stroke-width="1.6" marker-end="url(#arr)" />
+          <rect x="205" y="88" width="90" height="28" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2" />
+          <text x="215" y="106" font-size="11" fill="var(--ink)">Task 2.2</text>
+          <path d="M 295 102 L 325 102" stroke="var(--accent)" stroke-width="1.6" marker-end="url(#arr)" />
+          <rect x="335" y="88" width="90" height="28" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2" />
+          <text x="345" y="106" font-size="11" fill="var(--ink)">Task 2.3</text>
+
+          <!-- Down arrow to Wave 3 -->
+          <path d="M 380 116 L 380 146 L 75 146 L 75 166" stroke="var(--accent)" stroke-width="1.2" stroke-dasharray="3 3" fill="none" />
+
+          <!-- Wave 3 -->
+          <text x="0" y="180" font-size="12" font-weight="700" fill="var(--ink)">WAVE 03</text>
+          <line x1="75" y1="176" x2="520" y2="176" stroke="var(--border-subtle)" stroke-dasharray="3 3" />
+          <rect x="75" y="162" width="100" height="28" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2" />
+          <text x="85" y="180" font-size="11" fill="var(--ink)">Integration</text>
+          <path d="M 175 176 L 205 176" stroke="var(--accent)" stroke-width="1.6" marker-end="url(#arr)" />
+          <rect x="215" y="162" width="100" height="28" fill="var(--paper)" stroke="var(--ink)" stroke-width="1.2" />
+          <text x="225" y="180" font-size="11" fill="var(--ink)">E2E Tests</text>
+          <path d="M 315 176 L 345 176" stroke="var(--accent)" stroke-width="1.6" marker-end="url(#arr)" />
+          <rect x="355" y="162" width="110" height="28" fill="var(--accent)" />
+          <text x="365" y="180" font-size="11" fill="#fff" font-weight="700">Verification</text>
+        </svg>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.6vh">
+        <div style="display:grid;grid-template-columns:auto 1fr;gap:1.2vw;align-items:start">
+          <span style="width:8px;height:8px;background:var(--accent);margin-top:.7vh"></span>
+          <div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.05vw);color:var(--text-primary)">每一波 · 独立上下文</div>
+            <div class="t-body-sm" style="margin-top:.2vh">保持 200K clean 上下文，前一波做完验证合格才拉下一波。</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:auto 1fr;gap:1.2vw;align-items:start">
+          <span style="width:8px;height:8px;background:var(--ink);margin-top:.7vh"></span>
+          <div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.05vw);color:var(--text-primary)">每一个 task · 原子 commit</div>
+            <div class="t-body-sm" style="margin-top:.2vh">完成即提交，附带实际验证证据（测试终端输出 / 页面截图）。</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:auto 1fr;gap:1.2vw;align-items:start">
+          <span style="width:8px;height:8px;background:var(--grey-3);margin-top:.7vh"></span>
+          <div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.05vw);color:var(--text-primary)">失败 · 最多重试 2 次</div>
+            <div class="t-body-sm" style="margin-top:.2vh">同一根因三次失败自动阻断，主动升级给用户，绝不盲目空转。</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:auto 1fr;gap:1.2vw;align-items:start">
+          <span style="width:8px;height:8px;background:var(--accent);margin-top:.7vh"></span>
+          <div>
+            <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.05vw);color:var(--text-primary)">所有 commit 前 · 严格审查</div>
+            <div class="t-body-sm" style="margin-top:.2vh">由 <code>/gsd:code-reviewer</code> 独立复审，杜绝坏味道与越权修改。</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="t-meta" style="text-align:right;margin-top:auto">产出 · <code>SUMMARY.md</code> + <code>VERIFICATION.md</code> + N 个原子 commit</div>
+  </div>
+</section>
+
+<!-- ============ 07 · 第 5 步 /gsd-verify-work 1 · S19 four-cards ============ -->
+<section class="slide" data-layout="S19" data-animate="four-cards">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">GSD · TUTORIAL</div>
       <div class="r">26.09 · 07 / 13</div>
     </div>
     <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div class="t-meta">STATE MACHINE · 07 / 13</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">一个 /gsd:next，<span style="font-style:italic;font-weight:300;color:var(--accent)">五个出口</span>。</h2>
+      <div style="width:12vw;height:2px;background:var(--accent)"></div>
+      <div style="display:flex;flex-direction:column;gap:1.2vh">
+        <div class="t-meta">STEP 05 / 13 · 2-5 MIN</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">第五步：<span style="font-style:italic;font-weight:300;color:var(--accent)">AI 反过来问你</span>。</h2>
+        <div style="font-family:var(--mono);font-size:clamp(22px,2.6vw,42px);font-weight:700;color:var(--accent);margin-top:.4vh">
+          $ /gsd-verify-work 1
+        </div>
+      </div>
+    </div>
+    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:repeat(4,1fr);gap:1.4vw;padding:0;margin-top:2.4vh">
+      <div style="display:flex;flex-direction:column;gap:1.6vh;border-top:1px solid var(--border-subtle);padding-top:2vh">
+        <div class="t-meta">— 01 / READS</div>
+        <div style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.4vw);color:var(--ink)">SUMMARY.md<br>+ VERIFICATION</div>
+        <div class="t-body-sm">AI 详细回溯：知道实现了什么功能、跑了哪些测试、验证证据是否齐备。</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.6vh;border-top:1px solid var(--border-subtle);padding-top:2vh">
+        <div class="t-meta">— 02 / ASKS</div>
+        <div style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.4vw);color:var(--ink)">每条 UAT<br>逐条问你</div>
+        <div class="t-body-sm">把真实控制权还给你：「你打开这个页面看到什么？」「点击按钮响应是否符合预期？」</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.6vh;border-top:1px solid var(--border-subtle);padding-top:2vh">
+        <div class="t-meta">— 03 / WRITES</div>
+        <div style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.4vw);color:var(--ink)">写入<br>UAT.md</div>
+        <div class="t-body-sm">针对每条验证明确记录：PASS / FAIL / SKIP，绝不凭空模糊过关。</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.6vh;border-top:1px solid var(--accent);padding-top:2vh">
+        <div class="t-meta" style="color:var(--accent)">— 04 / IF FAIL</div>
+        <div style="font-family:var(--mono);font-weight:600;font-size:max(18px,1.4vw);color:var(--accent)">回执行流<br>修复闭环</div>
+        <div class="t-body-sm">只要发现未通过项，退回 <code>/gsd-execute-phase</code>，修完再回到 verify 校验。</div>
+      </div>
+    </div>
+    <div class="t-meta" style="margin-top:auto">这是"你审 AI"而不是"AI 自嗨"。用户视角的 UAT 是 GSD 最后一道防线。</div>
+  </div>
+</section>
+
+<!-- ============ 08 · 第 6 步 /gsd-ship 1 · S15 横向 4 卡 ============ -->
+<section class="slide" data-layout="S15" data-animate="matrix-fill">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">GSD · TUTORIAL</div>
+      <div class="r">26.09 · 08 / 13</div>
+    </div>
+    <div data-anim="line" style="display:flex;flex-direction:column;gap:1.2vh;padding:0">
+      <div class="t-meta">STEP 06 / 13 · 1-2 MIN</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">第六步：<span style="font-style:italic;font-weight:300;color:var(--accent)">开 PR，归档阶段</span>。</h2>
+      <div style="font-family:var(--mono);font-size:clamp(22px,2.6vw,42px);font-weight:700;color:var(--accent);margin-top:.4vh">
+        $ /gsd-ship 1
+      </div>
+    </div>
+    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:repeat(4,1fr);gap:1.4vw;padding:0;margin-top:2.6vh">
+      <div class="card-fill" style="padding:2.6vh 1.4vw;display:flex;flex-direction:column;justify-content:space-between">
+        <div class="t-meta">01 · BRANCH</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(18px,1.3vw);color:var(--ink);margin:1.4vh 0">CREATE BRANCH</div>
+        <div style="font-family:var(--mono);font-size:max(13px,.86vw);color:var(--accent);word-break:break-all">feat/&lt;phase-name&gt;</div>
+        <div class="t-body-sm" style="margin-top:auto">自动检测基础分支，创建清晰隔离的交付特性分支。</div>
+      </div>
+      <div class="card-fill" style="padding:2.6vh 1.4vw;display:flex;flex-direction:column;justify-content:space-between">
+        <div class="t-meta">02 · CLEANUP</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(18px,1.3vw);color:var(--ink);margin:1.4vh 0">AUTO-GC</div>
+        <div style="font-family:var(--mono);font-size:max(13px,.86vw);color:var(--text-secondary)">.planning/ clean</div>
+        <div class="t-body-sm" style="margin-top:auto">自动清理 <code>.planning/</code> 中的临时断点与运行时缓存文件。</div>
+      </div>
+      <div class="card-fill" style="padding:2.6vh 1.4vw;display:flex;flex-direction:column;justify-content:space-between">
+        <div class="t-meta">03 · PULL REQUEST</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(18px,1.3vw);color:var(--ink);margin:1.4vh 0">CREATE PR</div>
+        <div style="font-family:var(--mono);font-size:max(13px,.86vw);color:var(--accent)">GitHub PR</div>
+        <div class="t-body-sm" style="margin-top:auto">调用 gh 自动开启 PR，附带完整 UAT 结果与验证证据链。</div>
+      </div>
+      <div class="card-accent" style="padding:2.6vh 1.4vw;display:flex;flex-direction:column;justify-content:space-between">
+        <div class="t-meta" style="color:rgba(255,255,255,.75)">04 · ARCHIVE</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(18px,1.3vw);color:#fff;margin:1.4vh 0">ARCHIVE</div>
+        <div style="font-family:var(--mono);font-size:max(13px,.86vw);color:rgba(255,255,255,.9)">ROADMAP.md done</div>
+        <div class="t-body-sm" style="color:rgba(255,255,255,.88);margin-top:auto">阶段正式标记为 done，更新全局里程碑状态。</div>
+      </div>
+    </div>
+    <div class="t-meta" style="margin-top:auto">至此，一个 phase 完整跑通。回到第一步，进入 phase 2。</div>
+  </div>
+</section>
+
+<!-- ============ 09 · 循环 · S11 timeline-walk ============ -->
+<section class="slide" data-layout="S11" data-animate="timeline-walk">
+  <div class="canvas-card">
+    <div class="chrome-min">
+      <div class="l">GSD · TUTORIAL</div>
+      <div class="r">26.09 · 09 / 13</div>
+    </div>
+    <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
+      <div class="t-meta">THE LOOP · 09 / 13</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">然后：<span style="font-style:italic;font-weight:300;color:var(--accent)">再来一遍</span>。</h2>
     </div>
     <div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:0;padding:0">
       <div class="timeline-h">
@@ -1484,324 +1648,230 @@
           <div class="th-node accent up">
             <span class="dot"></span>
             <div class="label" style="width:11vw">
-              <span class="yr">01</span>
-              <span class="name">断点恢复</span>
-              <span class="desc">.continue-here.md 存在，必须从这里继续</span>
+              <span class="yr">01 · RESET</span>
+              <span class="name" style="font-family:var(--mono);font-weight:600">/clear</span>
+              <span class="desc">清空 Claude 上下文，恢复到最干净的状态</span>
             </div>
           </div>
           <div class="th-node down">
             <span class="dot"></span>
             <div class="label" style="width:11vw">
-              <span class="yr">02</span>
-              <span class="name">错误回退</span>
-              <span class="desc">上一轮状态为 error，先诊断再前进</span>
+              <span class="yr">02 · STATUS</span>
+              <span class="name" style="font-family:var(--mono);font-weight:600">/gsd-progress</span>
+              <span class="desc">扫描 .planning 盘面，定位下一个待启动阶段</span>
             </div>
           </div>
           <div class="th-node up">
             <span class="dot"></span>
             <div class="label" style="width:11vw">
-              <span class="yr">03</span>
-              <span class="name">验证未过</span>
-              <span class="desc">存在未覆盖的 FAIL，拒绝推进</span>
+              <span class="yr">03 · DISCUSS</span>
+              <span class="name" style="font-family:var(--mono);font-weight:600">/gsd-discuss-phase 2</span>
+              <span class="desc">开始第二阶段讨论，5 道问题重新磨清边界</span>
             </div>
           </div>
           <div class="th-node down">
             <span class="dot"></span>
             <div class="label" style="width:11vw">
-              <span class="yr">04</span>
-              <span class="name">阶段扫描</span>
-              <span class="desc">读 ROADMAP 与 phases，定位当前进度</span>
+              <span class="yr">04 · PLAN</span>
+              <span class="name" style="font-family:var(--mono);font-weight:600">/gsd-plan-phase 2</span>
+              <span class="desc">4 AI 重新并发调研，输出新阶段可执行 PLAN</span>
             </div>
           </div>
           <div class="th-node accent up">
             <span class="dot"></span>
             <div class="label" style="width:11vw">
-              <span class="yr">05</span>
-              <span class="name">正常推进</span>
-              <span class="desc">按 8 条路由派发对应工作流</span>
+              <span class="yr">05 · EXECUTE</span>
+              <span class="name" style="font-family:var(--sans),var(--sans-zh);font-weight:600">循环闭环</span>
+              <span class="desc">execute → verify → ship 再次跑通一个 PR</span>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="t-meta">三道安全闸在前，八条路由在后 · 你只需要敲一个命令</div>
+    <div style="border-top:1px solid var(--border-subtle);padding-top:1.8vh;display:flex;justify-content:space-between;align-items:center">
+      <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(18px,1.3vw);color:var(--accent)">
+        每阶段 15-30 分钟。3 个 phase 一天出产品骨架。
+      </div>
+      <div class="t-meta">COMPOUNDING ENGINEERING VELOCITY</div>
+    </div>
   </div>
 </section>
 
-<!-- ============ 08 · S15 矩阵 + 巨数 · 四种闸门 ============ -->
-<section class="slide" data-layout="S15" data-animate="matrix-fill">
+<!-- ============ 10 · 产出物 · S05 stack-build 文件树 ============ -->
+<section class="slide grey" data-layout="S05" data-animate="stack-build">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
-      <div class="r">26.09 · 08 / 13</div>
+      <div class="l">GSD · TUTORIAL</div>
+      <div class="r">26.09 · 10 / 13</div>
     </div>
     <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div class="t-meta">GATES · 08 / 13</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">四种闸门，<span style="font-style:italic;font-weight:300;color:var(--accent)">拦在合并之前</span>。</h2>
+      <div class="t-meta">WHAT YOU GOT · 10 / 13</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">跑完之后：<span style="font-style:italic;font-weight:300;color:var(--accent)">一整个可追溯的项目历史</span>。</h2>
     </div>
-    <div style="flex:1;display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.2vw">
-        <div class="t-cat" style="color:var(--accent)">Pre-flight</div>
-        <div class="t-cat">Revision</div>
-        <div class="t-cat">Escalation</div>
-        <div class="t-cat">Abort</div>
-      </div>
-      <div data-anim="up" style="flex:1;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);gap:1vh 1.2vw">
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">需求不清</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">计划歧义</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">反复失败</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">不可逆操作</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">环境缺失</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">测试缺失</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">需人判断</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">数据丢失风险</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">范围漂移</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">依赖冲突</span></div>
-        <div class="card-fill" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">成本超限</span></div>
-        <div class="card-accent" style="padding:1.2vh 1vw;display:flex;align-items:center"><span class="t-body-sm" style="font-weight:500">安全边界</span></div>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;margin:1.6vh 0">
+      <div class="stack-block b-ink" style="width:100%;max-width:48vw;padding:2.8vh 2.4vw;border-radius:4px">
+        <div style="font-family:var(--mono);font-size:max(14px,.92vw);line-height:1.65;color:#fff">
+<span style="color:var(--accent-bright);font-weight:700">.planning/</span><br>
+├── <span style="color:var(--accent-bright)">PROJECT.md</span>           <span style="color:rgba(255,255,255,.5)"># 做什么，不做什么</span><br>
+├── <span style="color:var(--accent-bright)">REQUIREMENTS.md</span>      <span style="color:rgba(255,255,255,.5)"># 需求追踪表</span><br>
+├── <span style="color:var(--accent-bright)">ROADMAP.md</span>           <span style="color:rgba(255,255,255,.5)"># 里程碑清单</span><br>
+├── <span style="color:var(--accent-bright)">STATE.md</span>             <span style="color:rgba(255,255,255,.5)"># 当前进度</span><br>
+├── <span style="color:var(--accent-bright)">config.json</span>          <span style="color:rgba(255,255,255,.5)"># 项目配置</span><br>
+└── <span style="color:var(--accent-bright)">phases/</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── 01-mvp/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span style="color:#7ef">CONTEXT.md</span>       <span style="color:rgba(255,255,255,.5)"># 讨论产物</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span style="color:#7ef">RESEARCH.md</span>      <span style="color:rgba(255,255,255,.5)"># 研究产物</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span style="color:#7ef">PLAN.md</span>          <span style="color:rgba(255,255,255,.5)"># 执行计划</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span style="color:#7ef">SUMMARY.md</span>       <span style="color:rgba(255,255,255,.5)"># 执行总结</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span style="color:#7ef">VERIFICATION.md</span>  <span style="color:rgba(255,255,255,.5)"># 验证证据</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <span style="color:#7ef">UAT.md</span>           <span style="color:rgba(255,255,255,.5)"># 用户视角 UAT</span>
+        </div>
       </div>
     </div>
-    <div data-anim="up" style="display:grid;grid-template-columns:auto 1fr;gap:2.4vw;align-items:end;border-top:1px solid var(--border-subtle);padding-top:2vh">
-      <div style="display:flex;flex-direction:column;gap:.4vh">
-        <div class="t-meta">GATE CLASS</div>
-        <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.6vh);line-height:.9;letter-spacing:-.03em;color:var(--accent)">4</div>
+    <div style="border-top:1px solid var(--border-subtle);padding-top:1.6vh;display:flex;justify-content:space-between;align-items:center">
+      <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.1vw);color:var(--ink)">
+        + 一个 GitHub PR · 所有 commit 都有验证证据
       </div>
-      <div class="t-body-sm" style="max-width:66ch;text-align:right">拦住一次坏改动，比事后回滚便宜得多。Pre-flight 挡在开工前，Revision 打回返工，Escalation 交给用户决策，Abort 直接停止。合并动作只属于人。</div>
+      <div class="t-meta">AUDITABLE ARTIFACTS ON DISK</div>
     </div>
   </div>
 </section>
 
-<!-- ============ 09 · S13 三力卡片 · 产物驱动状态机 ============ -->
-<section class="slide grey" data-layout="S13" data-animate="three-forces">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
-      <div class="r">26.09 · 09 / 13</div>
-    </div>
-    <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div class="t-meta">STATE MECHANISM · 09 / 13</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">状态机不靠内存，<span style="font-style:italic;font-weight:300;color:var(--accent)">靠产物</span>。</h2>
-    </div>
-    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:5fr 11fr;gap:1.6vw;padding:0;margin-top:2.4vh">
-      <div class="card-ink" style="padding:3.2vh 1.8vw;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden">
-        <span class="dot-mat" style="position:absolute;right:-4vw;bottom:-6vh;width:16vw;height:16vw;color:#fff;opacity:.16;pointer-events:none"></span>
-        <div class="t-cat" style="color:rgba(255,255,255,.7)">THE IDEA</div>
-        <div style="position:relative">
-          <div style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.2vw,7.2vh);line-height:1.04;letter-spacing:-.025em;color:#fff">问磁盘，<br>不问<span style="font-style:italic;font-weight:300">模型记忆</span>。</div>
-          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.6;color:rgba(255,255,255,.78);margin-top:2vh">上下文会爆，会话会断。文件不会。所以每一步「做到哪了」都要落成产物。</div>
-        </div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:1.2vh">
-        <div class="card-fill" style="padding:1.8vh 1.6vw;display:grid;grid-template-columns:auto 1fr;gap:1.6vw;align-items:center">
-          <div style="font-family:var(--sans);font-weight:200;font-size:min(4vw,6.8vh);line-height:.9;letter-spacing:-.03em;color:var(--accent)">01</div>
-          <div>
-            <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.5vw);line-height:1.2;color:var(--text-primary)">计划即文件</div>
-            <div class="t-body-sm" style="margin-top:.4vh">PLAN.md 存在，就代表这个计划已经开始。不需要任何额外标记位。</div>
-          </div>
-        </div>
-        <div class="card-fill" style="padding:1.8vh 1.6vw;display:grid;grid-template-columns:auto 1fr;gap:1.6vw;align-items:center">
-          <div style="font-family:var(--sans);font-weight:200;font-size:min(4vw,6.8vh);line-height:.9;letter-spacing:-.03em;color:var(--accent)">02</div>
-          <div>
-            <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.5vw);line-height:1.2;color:var(--text-primary)">断点即文件</div>
-            <div class="t-body-sm" style="margin-top:.4vh">.continue-here.md 存在，就必须从它恢复，优先级高于任何路由判断。</div>
-          </div>
-        </div>
-        <div class="card-fill" style="padding:1.8vh 1.6vw;display:grid;grid-template-columns:auto 1fr;gap:1.6vw;align-items:center">
-          <div style="font-family:var(--sans);font-weight:200;font-size:min(4vw,6.8vh);line-height:.9;letter-spacing:-.03em;color:var(--accent)">03</div>
-          <div>
-            <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.5vw);line-height:1.2;color:var(--text-primary)">验证即门禁</div>
-            <div class="t-body-sm" style="margin-top:.4vh">verify_phase_goal 只在四道 gate 全部通过后才触发，有未完成计划就 STOP。</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ 10 · S19 四列卡 · 四条硬规则 ============ -->
+<!-- ============ 11 · 卡住了？ · S19 four-cards (2x3 网格) ============ -->
 <section class="slide" data-layout="S19" data-animate="four-cards">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
-      <div class="r">26.09 · 10 / 13</div>
-    </div>
-    <div data-anim="line" style="display:flex;flex-direction:column;gap:1.6vh;padding:0">
-      <div style="width:12vw;height:2px;background:var(--accent)"></div>
-      <div style="display:flex;flex-direction:column;gap:1.2vh">
-        <div class="t-meta">HARD RULES · 10 / 13</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">四条<span style="font-style:italic;font-weight:300;color:var(--accent)">不能商量</span>的规则。</h2>
-      </div>
-    </div>
-    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:repeat(4,1fr);gap:1.4vw;padding:0;margin-top:3vh">
-      <div style="display:flex;flex-direction:column;gap:1.6vh;border-top:1px solid var(--border-subtle);padding-top:2vh">
-        <div class="t-meta">— 01 / SLASH</div>
-        <div style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4vw,6.8vh);line-height:.95;letter-spacing:-.03em;color:var(--ink)">不猜<br>上游。</div>
-        <div class="t-body-sm">数据缺失就在上游补，不在下游打补丁。假想的边界情况，本来就不该存在。</div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:1.6vh;border-top:1px solid var(--border-subtle);padding-top:2vh">
-        <div class="t-meta">— 02 / SLASH</div>
-        <div style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4vw,6.8vh);line-height:.95;letter-spacing:-.03em;color:var(--ink)">不盲<br>重试。</div>
-        <div class="t-body-sm">确定性错误不重试。同一根因跨层最多两次恢复，第三次必须换策略或换人。</div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:1.6vh;border-top:1px solid var(--border-subtle);padding-top:2vh">
-        <div class="t-meta">— 03 / SLASH</div>
-        <div style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4vw,6.8vh);line-height:.95;letter-spacing:-.03em;color:var(--ink)">不跳<br>门禁。</div>
-        <div class="t-body-sm">有未完成计划就 STOP，不进入验证。四道 gate 没全过，verify 就不触发。</div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:1.6vh;border-top:1px solid var(--accent);padding-top:2vh">
-        <div class="t-meta" style="color:var(--accent)">— 04 / SLASH</div>
-        <div style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4vw,6.8vh);line-height:.95;letter-spacing:-.03em;color:var(--accent)">不超<br>预算。</div>
-        <div class="t-body-sm">上下文触发阈值就立即降级，而不是硬撑。跑不完的一轮，不如干净的下一轮。</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ 11 · S20 纵向账单 · 预算写在文件里 ============ -->
-<section class="slide dark" data-layout="S20" data-animate="stacked-ledger">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
+      <div class="l">GSD · TUTORIAL</div>
       <div class="r">26.09 · 11 / 13</div>
     </div>
     <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div class="t-meta">BUDGET · 11 / 13</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--paper)">预算也<span style="font-style:italic;font-weight:300;color:var(--accent-bright)">写在文件里</span>。</h2>
-    </div>
-    <div data-anim="ledger" style="flex:1;display:flex;flex-direction:column;justify-content:center;padding:0">
-      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.6vw;align-items:center;padding:1.8vh 0;border-top:1px solid rgba(255,255,255,.18)">
-        <div class="ledger-num" style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.6vh);line-height:.9;letter-spacing:-.03em;color:var(--paper)">4</div>
-        <div class="ledger-label">
-          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.5vw);line-height:1.25;color:var(--paper)">级上下文降级</div>
-          <div class="t-body-sm" style="margin-top:.4vh;color:rgba(255,255,255,.6)">上下文逼近上限时逐级丢弃最旧的参考文档，保留当前任务与产物。</div>
-        </div>
-        <svg class="ledger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:2.4vw;height:2.4vw;color:rgba(255,255,255,.5)"><polyline points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
-      </div>
-      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.6vw;align-items:center;padding:1.8vh 0;border-top:1px solid rgba(255,255,255,.18)">
-        <div class="ledger-num" style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.6vh);line-height:.9;letter-spacing:-.03em;color:var(--paper)">90<span style="font-size:.4em;font-weight:300;opacity:.5">/</span>9<span style="font-size:.4em;font-weight:300;opacity:.5">/</span>1</div>
-        <div class="ledger-label">
-          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.5vw);line-height:1.25;color:var(--paper)">检查点比例</div>
-          <div class="t-body-sm" style="margin-top:.4vh;color:rgba(255,255,255,.6)">细检查点最密，阶段级次之，项目级最少。回滚粒度跟着这个比例走。</div>
-        </div>
-        <svg class="ledger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:2.4vw;height:2.4vw;color:rgba(255,255,255,.5)"><circle cx="12" cy="12" r="3"/><line x1="3" y1="12" x2="9" y2="12"/><line x1="15" y1="12" x2="21" y2="12"/></svg>
-      </div>
-      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.6vw;align-items:center;padding:1.8vh 0;border-top:1px solid rgba(255,255,255,.18)">
-        <div class="ledger-num" style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.6vh);line-height:.9;letter-spacing:-.03em;color:var(--accent-bright)">4</div>
-        <div class="ledger-label">
-          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.5vw);line-height:1.25;color:var(--paper)">道阶段闸门</div>
-          <div class="t-body-sm" style="margin-top:.4vh;color:rgba(255,255,255,.6)">code_review → regression → schema_drift → codebase_drift，全部通过才验证。</div>
-        </div>
-        <svg class="ledger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:2.4vw;height:2.4vw;color:var(--accent-bright)"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
-      </div>
-      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.6vw;align-items:center;padding:1.8vh 0;border-top:1px solid rgba(255,255,255,.18)">
-        <div class="ledger-num" style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.6vh);line-height:.9;letter-spacing:-.03em;color:var(--paper)">3</div>
-        <div class="ledger-label">
-          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.5vw);line-height:1.25;color:var(--paper)">道启动安全闸</div>
-          <div class="t-body-sm" style="margin-top:.4vh;color:rgba(255,255,255,.6)">/gsd:next 先查断点、错误态、未覆盖 FAIL，全过才开始路由判断。</div>
-        </div>
-        <svg class="ledger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:2.4vw;height:2.4vw;color:rgba(255,255,255,.5)"><rect x="3" y="11" width="18" height="11"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-      </div>
-      <div class="ledger-row" style="display:grid;grid-template-columns:auto 1fr auto;gap:2.6vw;align-items:center;padding:1.8vh 0;border-top:1px solid rgba(255,255,255,.18);border-bottom:1px solid rgba(255,255,255,.18)">
-        <div class="ledger-num" style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.6vh);line-height:.9;letter-spacing:-.03em;color:var(--paper)">8</div>
-        <div class="ledger-label">
-          <div style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.5vw);line-height:1.25;color:var(--paper)">条路由分支</div>
-          <div class="t-body-sm" style="margin-top:.4vh;color:rgba(255,255,255,.6)">讨论、计划、执行、验证、收尾……同一个命令按当前进度分发到不同工作流。</div>
-        </div>
-        <svg class="ledger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="width:2.4vw;height:2.4vw;color:rgba(255,255,255,.5)"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+      <div style="width:12vw;height:2px;background:var(--accent)"></div>
+      <div style="display:flex;flex-direction:column;gap:1.2vh">
+        <div class="t-meta">RESCUE · 11 / 13</div>
+        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">卡住的时候，<span style="font-style:italic;font-weight:300;color:var(--accent)">敲这些</span>。</h2>
       </div>
     </div>
+    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:1.4vh 1.4vw;padding:0;margin-top:2.2vh">
+      <div class="card-fill" style="padding:1.8vh 1.4vw;display:flex;flex-direction:column;justify-content:center">
+        <div style="font-family:var(--mono);font-weight:700;font-size:max(16px,1.2vw);color:var(--accent)">/gsd-progress</div>
+        <div class="t-body-sm" style="margin-top:.6vh">查看当前项目跑到哪一步了，扫描全局计划</div>
+      </div>
+      <div class="card-fill" style="padding:1.8vh 1.4vw;display:flex;flex-direction:column;justify-content:center">
+        <div style="font-family:var(--mono);font-weight:700;font-size:max(16px,1.2vw);color:var(--accent)">/gsd-next</div>
+        <div class="t-body-sm" style="margin-top:.6vh">AI 智能推荐下一步，自动分发对应工作流</div>
+      </div>
+      <div class="card-fill" style="padding:1.8vh 1.4vw;display:flex;flex-direction:column;justify-content:center">
+        <div style="font-family:var(--mono);font-weight:700;font-size:max(16px,1.2vw);color:var(--ink)">/gsd-pause-work</div>
+        <div class="t-body-sm" style="margin-top:.6vh">记录当前断点与状态快照，明天接着跑</div>
+      </div>
+      <div class="card-fill" style="padding:1.8vh 1.4vw;display:flex;flex-direction:column;justify-content:center">
+        <div style="font-family:var(--mono);font-weight:700;font-size:max(16px,1.2vw);color:var(--ink)">/gsd-resume-project</div>
+        <div class="t-body-sm" style="margin-top:.6vh">从上次保存的暂停点或断点无缝恢复</div>
+      </div>
+      <div class="card-fill" style="padding:1.8vh 1.4vw;display:flex;flex-direction:column;justify-content:center">
+        <div style="font-family:var(--mono);font-weight:700;font-size:max(16px,1.2vw);color:var(--ink)">/gsd-debug</div>
+        <div class="t-body-sm" style="margin-top:.6vh">启动系统化排查，定位错误根因并修复</div>
+      </div>
+      <div class="card-accent" style="padding:1.8vh 1.4vw;display:flex;flex-direction:column;justify-content:center">
+        <div style="font-family:var(--mono);font-weight:700;font-size:max(16px,1.2vw);color:#fff">/gsd-undo</div>
+        <div class="t-body-sm" style="color:rgba(255,255,255,.9);margin-top:.6vh">基于阶段清单安全回滚上一个 phase 的所有 commit</div>
+      </div>
+    </div>
+    <div class="t-meta" style="margin-top:auto">这些是"逃生口"，不是主流程。你 90% 的时间只需要 6 个 step 命令。</div>
   </div>
 </section>
 
-<!-- ============ 12 · S08 双轨对照 · 有 GSD vs 没有 ============ -->
-<section class="slide" data-layout="S08" data-animate="duo-mirror">
+<!-- ============ 12 · 5 个不要 · S15 matrix-fill ============ -->
+<section class="slide" data-layout="S15" data-animate="matrix-fill">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">GSD · GET SHIT DONE</div>
+      <div class="l">GSD · TUTORIAL</div>
       <div class="r">26.09 · 12 / 13</div>
     </div>
     <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh;padding:0">
-      <div class="t-meta">BEFORE / AFTER · 12 / 13</div>
-      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">同一个任务，<span style="font-style:italic;font-weight:300;color:var(--accent)">两条命运</span>。</h2>
+      <div class="t-meta">DON'T · 12 / 13</div>
+      <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(4.6vw,7.8vh);line-height:1.04;letter-spacing:-.025em;color:var(--ink)">5 个新手 <span style="font-style:italic;font-weight:300;color:var(--accent)">坑</span>。</h2>
     </div>
-    <div class="duo-compare" style="margin-top:3vh">
-      <div class="col">
-        <div class="col-tag"><span class="num">— 01</span></div>
-        <div class="col-ttl">没有 GSD</div>
-        <div class="col-desc">一次把需求讲清楚，然后交给模型。</div>
-        <ul class="col-list">
-          <li>模型自由发挥，改哪里它说了算</li>
-          <li>上下文越滚越长，跑到一半开始忘</li>
-          <li>中途出错，整个会话从零重来</li>
-          <li>结果不可复现，第二次做又是另一套</li>
-        </ul>
+    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:repeat(5,1fr);gap:1.2vw;padding:0;margin-top:2.6vh">
+      <div class="card-fill" style="padding:2.4vh 1.2vw;display:flex;flex-direction:column">
+        <div class="t-meta" style="color:var(--accent)">PITFALL 01</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.15vw);line-height:1.3;color:var(--ink);margin:1.4vh 0">不要跳过<br><code>/gsd-discuss-phase</code></div>
+        <div class="t-body-sm" style="margin-top:auto">一旦不讨论，AI 就会按默认假设猜错方向，后面几步全作废。</div>
       </div>
-      <span class="vrule"></span>
-      <div class="col accent">
-        <div class="col-tag"><span class="num">— 02</span></div>
-        <div class="col-ttl">有 GSD</div>
-        <div class="col-desc">需求说一次，之后每一步都从文件里读。</div>
-        <ul class="col-list">
-          <li>/gsd:new-project 落盘，状态全部写进 .planning/</li>
-          <li>反复敲 /gsd:next，状态机自己决定下一步</li>
-          <li>断掉就续跑，.continue-here.md 标记位置</li>
-          <li>gate 拦住坏改动，verify 只在门禁全过后触发</li>
-        </ul>
+      <div class="card-fill" style="padding:2.4vh 1.2vw;display:flex;flex-direction:column">
+        <div class="t-meta" style="color:var(--accent)">PITFALL 02</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.15vw);line-height:1.3;color:var(--ink);margin:1.4vh 0">不要 context<br>满了继续跑</div>
+        <div class="t-body-sm" style="margin-top:auto">上下文使用率达到 80% 时必须先 <code>/clear</code>，靠磁盘继续。</div>
+      </div>
+      <div class="card-fill" style="padding:2.4vh 1.2vw;display:flex;flex-direction:column">
+        <div class="t-meta" style="color:var(--accent)">PITFALL 03</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.15vw);line-height:1.3;color:var(--ink);margin:1.4vh 0">不要一次性<br>做多个 phase</div>
+        <div class="t-body-sm" style="margin-top:auto">一个 phase 只专注做一件事，步子迈太大极易触发上下文崩塌。</div>
+      </div>
+      <div class="card-fill" style="padding:2.4vh 1.2vw;display:flex;flex-direction:column">
+        <div class="t-meta" style="color:var(--accent)">PITFALL 04</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.15vw);line-height:1.3;color:var(--ink);margin:1.4vh 0">不要在 GSD 里<br>用 <code>git add .</code></div>
+        <div class="t-body-sm" style="margin-top:auto">让 GSD 子代理自己 stage 精确关联的文件，保持 commit 原子性。</div>
+      </div>
+      <div class="card-accent" style="padding:2.4vh 1.2vw;display:flex;flex-direction:column">
+        <div class="t-meta" style="color:rgba(255,255,255,.75)">PITFALL 05</div>
+        <div style="font-family:var(--sans),var(--sans-zh);font-weight:600;font-size:max(16px,1.15vw);line-height:1.3;color:#fff;margin:1.4vh 0">不要不看 commit<br>就直接合并</div>
+        <div class="t-body-sm" style="color:rgba(255,255,255,.9);margin-top:auto">在自动 commit 提交前务必调用 <code>/gsd:code-reviewer</code> 做一次交叉复审。</div>
       </div>
     </div>
-    <div class="t-meta">流程写一次，重复一百次还是同一套行为。</div>
+    <div class="t-meta" style="margin-top:auto">这些不是规则，是血泪经验。踩完一次你就记住了。</div>
   </div>
 </section>
 
-<!-- ============ 13 · SWISS-CLOSING-ASCII 收束 · 搭一次跑一辈子 ============ -->
+<!-- ============ 13 · 收尾 · SWISS-CLOSING-ASCII 改文案 ============ -->
 <section class="slide split" data-layout="SWISS-CLOSING-ASCII" data-animate="split-statement">
   <div class="canvas-card">
     <div class="split-half">
       <div class="half b-accent" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between;position:relative;overflow:hidden">
         <canvas class="ascii-bg" aria-hidden="true"></canvas>
         <div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1">
-          <div class="l">GSD · GET SHIT DONE</div>
+          <div class="l">GSD · TUTORIAL</div>
           <div class="r">26.09 · 13 / 13</div>
         </div>
         <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1;justify-content:center;flex:1">
-          <div class="t-cat" style="color:rgba(255,255,255,.78)">CLOSING · MANIFESTO</div>
-          <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(8vw,14vh);line-height:.96;letter-spacing:-.025em;color:#fff">搭一次，<br>跑 <span style="font-style:italic;font-weight:300">一辈</span>子。</h2>
-          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(14px,1vw);line-height:1.6;color:rgba(255,255,255,.82);font-weight:400;max-width:34ch">Build it once. Let it run forever.</div>
+          <div class="t-cat" style="color:rgba(255,255,255,.78)">END OF TUTORIAL · 13 / 13</div>
+          <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(7.2vw,12vh);line-height:.96;letter-spacing:-.025em;color:#fff">现在 <span style="font-style:italic;font-weight:300">去敲</span> 你的 <br>第一条 <code>/gsd-new-project</code>。</h2>
+          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(14px,1vw);line-height:1.6;color:rgba(255,255,255,.88);font-weight:400;max-width:36ch">这个教程到此为止。剩下的 66 个命令和 48 篇参考文档不在这里讲——你需要的时候，敲 <code>/gsd:help</code>，或者去 docs.opengsd.net 查。</div>
         </div>
         <div data-anim="signature" style="display:flex;justify-content:space-between;align-items:end;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh;position:relative;z-index:1">
-          <div class="t-meta" style="color:rgba(255,255,255,.62)">GSD v1.42.3</div>
-          <div class="t-meta" style="color:rgba(255,255,255,.62)">26.09</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.62)">GSD v1.7.0+ · open-gsd/gsd-core</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.62)">教学 13 页</div>
         </div>
       </div>
       <div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between">
         <div class="chrome-min">
-          <div class="l">TAKEAWAYS</div>
-          <div class="r">03 RULES</div>
+          <div class="l">NEXT STEPS</div>
+          <div class="r">03 RESOURCES</div>
         </div>
         <div data-anim="rules" style="display:flex;flex-direction:column;gap:0">
           <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle)">
             <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--text-primary)">01</div>
             <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--text-primary)">文件即状态</h3>
-              <p class="t-body-sm" style="margin-top:.6vh">让 AI 记住的不是上下文，是磁盘。状态在文件里，会话断了也能续。</p>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--text-primary)">官方文档</h3>
+              <p class="t-body-sm" style="margin-top:.6vh;font-family:var(--mono)">docs.opengsd.net</p>
             </div>
           </div>
           <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle)">
             <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--text-primary)">02</div>
             <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--text-primary)">闸门即品味</h3>
-              <p class="t-body-sm" style="margin-top:.6vh">不猜上游、不盲重试、不跳门禁、不超预算。判断力固化进流程，比每次重新判断可靠。</p>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--text-primary)">本专栏配套</h3>
+              <p class="t-body-sm" style="margin-top:.6vh;font-family:var(--mono)">/md/columns/get-shit-done-skills/</p>
             </div>
           </div>
           <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)">
             <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--accent)">03</div>
             <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--accent)">流水线即复利</h3>
-              <p class="t-body-sm" style="margin-top:.6vh">流程写一次，产出跑一辈子。把重复劳动换成一次性的搭建成本。</p>
+              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--accent)">社区求助</h3>
+              <p class="t-body-sm" style="margin-top:.6vh;font-family:var(--mono)">Reddit r/ClaudeCode</p>
             </div>
           </div>
         </div>
-        <div class="t-meta">→ END · GET SHIT DONE</div>
+        <div class="t-meta">→ END · GET SHIT DONE TUTORIAL</div>
       </div>
     </div>
   </div>
