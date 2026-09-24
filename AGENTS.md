@@ -43,7 +43,7 @@ docs/md/
 │   ├── vibe-coding-and-design/ # Vibe Coding + 设计
 │   ├── openclaw/    # OpenClaw 专栏
 │   ├── opc/         # OPC 专栏
-│   ├── opencode/    # OpenCode 专栏
+│   ├── agentic-engineer/opencode/ # OpenCode 工程实践
 │   ├── gstack-skills/ # GStack Skills
 │   ├── superpowers-skills/ # Superpowers Skills
 │   ├── mattpocock-skills/ # Matt Pocock Skills
@@ -183,7 +183,7 @@ docs/md/
 | Vibe Coding + 设计 | `columns/vibe-coding-and-design/` |
 | OpenClaw 专栏 | `columns/openclaw/` |
 | OPC 专栏 | `columns/opc/` |
-| OpenCode 专栏、OpenCode | `columns/opencode/` |
+| OpenCode 专栏、OpenCode | `columns/agentic-engineer/opencode/` |
 | GStack Skills | `columns/gstack-skills/` |
 | Superpowers Skills | `columns/superpowers-skills/` |
 | Matt Pocock Skills | `columns/mattpocock-skills/` |
