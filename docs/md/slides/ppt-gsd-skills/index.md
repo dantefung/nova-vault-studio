@@ -5,11 +5,15 @@ source: "原创"
 url: ""
 ---
 
+<script setup>
+import HtmlViewer from '../../../.vitepress/theme/components/HtmlViewer.vue'
+</script>
+
 # GSD · 先搭流水线，再让 AI 自己跑
 
 > 13 页瑞士国际主义风 PPT · 深入拆解 get-shit-done 1.42.3 状态机与流水线设计
 
-[打开 PPT →](./index.html)
+<HtmlViewer src="/slides/ppt-gsd-skills/index.html" title="GSD · 先搭流水线，再让 AI 自己跑 · 13页瑞士风" />
 
 ---
 

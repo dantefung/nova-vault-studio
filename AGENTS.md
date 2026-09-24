@@ -559,28 +559,32 @@ docs/md/{分类}/{子目录}/images/{文章英文名}/{图片文件}
 
 ### 目标位置
 
+由于 VitePress 只有 `docs/public/` 下的静态文件会被作为根路径静态资源托管并供 `HtmlViewer`（iframe）加载，PPT 的原始 HTML 与静态资源必须存放在 `docs/public/slides/` 下，Markdown 页面存放在 `docs/md/slides/`：
+
 ```
-docs/md/slides/ppt-{英文简称}/
+docs/public/slides/ppt-{英文简称}/
 ├── index.html          ← 原始 HTML（verbatim）
-├── index.md            ← VitePress 入口（必建）
-└── images/             ← 引用的图片（如有）
-    ├── slide-01.png
-    └── slide-02.png
+└── assets/ 或 images/  ← 引用的脚本/图片（如有）
+
+docs/md/slides/ppt-{英文简称}/
+└── index.md            ← VitePress 入口（必建，内嵌 HtmlViewer）
 ```
 
 ### 操作步骤
 
 ```bash
-# 1. 创建目录
-mkdir -p docs/md/slides/ppt-{英文名}/images
+# 1. 创建 public 静态资源目录与 markdown 目录
+mkdir -p docs/public/slides/ppt-{英文名}
+mkdir -p docs/md/slides/ppt-{英文名}
 
-# 2. 复制文件
-cp {源}/index.html docs/md/slides/ppt-{英文名}/
-cp {源}/images/*.png docs/md/slides/ppt-{英文名}/images/
+# 2. 复制 HTML 及附属资源到 public
+cp {源}/index.html docs/public/slides/ppt-{英文名}/
+cp -r {源}/assets docs/public/slides/ppt-{英文名}/  # 如有
+cp -r {源}/images docs/public/slides/ppt-{英文名}/  # 如有
 
-# 3. 创建 index.md（见下方模板）
+# 3. 创建 docs/md/slides/ppt-{英文名}/index.md（见下方模板）
 
-# 4. 更新 docs/md/slides/index.md 的目录索引
+# 4. 在 docs/md/slides/index.md 中嵌入 HtmlViewer
 ```
 
 ### index.md 模板
@@ -593,11 +597,15 @@ source: "{来源项目}"
 url: ""
 ---
 
+<script setup>
+import HtmlViewer from '../../../.vitepress/theme/components/HtmlViewer.vue'
+</script>
+
 # {PPT 标题}
 
 > {一句话描述}
 
-[打开 PPT →](./index.html)
+<HtmlViewer src="/slides/ppt-{英文名}/index.html" title="{PPT 标题}" />
 
 ---
 
@@ -609,10 +617,12 @@ url: ""
 
 ### 索引更新
 
-在 `docs/md/slides/index.md` 的对应主题章节追加：
+在 `docs/md/slides/index.md` 中追加嵌入组件：
 
-```markdown
-- [{PPT 标题}](./ppt-{英文名}/index.md) — {一句话描述}
+```html
+## {分类名称}
+
+<HtmlViewer src="/slides/ppt-{英文名}/index.html" title="{PPT 标题}" />
 ```
 
 ### ⚠️ 注意事项
