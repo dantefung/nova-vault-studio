@@ -1,5 +1,5 @@
 ---
-title: "gsd-intel-updater"
+title: "gsd-intel-updater 情报文件更新器"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

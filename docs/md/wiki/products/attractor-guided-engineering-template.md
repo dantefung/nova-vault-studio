@@ -1,5 +1,5 @@
 ---
-title: "Attractor-Guided Engineering Template"
+title: "吸引子引导工程模板"
 source: "Gitee"
 url: "https://gitee.com/canonical-entropy/attractor-guided-engineering-template"
 date: "2026-05-31"

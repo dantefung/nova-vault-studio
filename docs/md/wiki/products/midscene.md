@@ -1,5 +1,5 @@
 ---
-title: "Midscene.js"
+title: "Midscene.js UI 自动化"
 date: "2026-05-23"
 ---
 

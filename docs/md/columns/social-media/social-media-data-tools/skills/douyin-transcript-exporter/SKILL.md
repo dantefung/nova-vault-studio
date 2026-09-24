@@ -1,5 +1,5 @@
 ---
-title: "douyin-transcript-exporter"
+title: "抖音逐字稿导出技能"
 name: douyin-transcript-exporter
 description: 必须在豆包工作中执行，抓取抖音博主主页或视频的标题、文案、完整逐字稿及互动数据；可选写入飞书多维表格，或保存为本地文件。当用户要采集或导出抖音视频数据、逐字稿时使用。
 ---

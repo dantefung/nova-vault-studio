@@ -1,5 +1,5 @@
 ---
-title: "list-phase-assumptions"
+title: "list-phase-assumptions 假设清单展示"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

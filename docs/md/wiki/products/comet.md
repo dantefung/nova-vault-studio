@@ -1,5 +1,5 @@
 ---
-title: "comet"
+title: "Comet CLI 工具"
 date: "2026-05-24"
 ---
 

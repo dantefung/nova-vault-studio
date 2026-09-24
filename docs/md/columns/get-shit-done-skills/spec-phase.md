@@ -1,5 +1,5 @@
 ---
-title: "spec-phase"
+title: "spec-phase 需求歧义面谈"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "undo"
+title: "undo 安全 git 回滚"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

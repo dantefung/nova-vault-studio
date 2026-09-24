@@ -1,5 +1,5 @@
 ---
-title: "Sketch Your Mind: Nurture a Playful and Creative Brain"
+title: "画出你的心智：培养创造力"
 date: "2026-08-12"
 source: "Zsolt Viczian"
 url: "https://visual-thinking-workshop.com"

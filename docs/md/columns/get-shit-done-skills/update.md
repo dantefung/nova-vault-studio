@@ -1,5 +1,5 @@
 ---
-title: "update"
+title: "update 升级检查改动"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

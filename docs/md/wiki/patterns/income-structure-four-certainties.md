@@ -1,5 +1,5 @@
 ---
-title: "Income Structure and Four Certainties"
+title: "收入结构与四个确定性"
 date: "2026-06-17"
 source: "对话杨涛：知识付费防坑指南"
 url: "https://mp.weixin.qq.com/s/Y8eDZI_ZO0YO0wonj8g_5w"

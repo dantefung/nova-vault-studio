@@ -1,5 +1,5 @@
 ---
-title: "AI Asset Map"
+title: "AI 资产地图"
 date: "2026-08-04"
 source: "微信公众号 (云与数字化)"
 ---

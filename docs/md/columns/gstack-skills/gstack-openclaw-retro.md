@@ -1,5 +1,5 @@
 ---
-title: "gstack-openclaw-retro"
+title: "GStack 工程周回顾"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

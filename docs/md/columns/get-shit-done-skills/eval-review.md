@@ -1,5 +1,5 @@
 ---
-title: "eval-review"
+title: "eval-review 评估覆盖审计"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

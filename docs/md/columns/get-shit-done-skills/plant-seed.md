@@ -1,5 +1,5 @@
 ---
-title: "plant-seed"
+title: "plant-seed 种子文件捕获"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "context-restore"
+title: "context-restore 恢复工作上下文"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

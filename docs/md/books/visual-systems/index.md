@@ -1,5 +1,5 @@
 ---
-title: "Visual Systems"
+title: "视觉系统书籍"
 date: "2026-08-12"
 source: "Nova Vault Studio"
 url: ""

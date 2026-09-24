@@ -1,5 +1,5 @@
 ---
-title: "AI Concepts Relationship Map"
+title: "AI 概念关系图谱"
 date: "2026-06-16"
 source: "一篇文章讲清楚AI基础概念：LLM、token、Prompt、Agent、Skill、RAG、Harness"
 url: "https://mp.weixin.qq.com/s/96bg1YgNQZsR8Q9cMdEMiw"

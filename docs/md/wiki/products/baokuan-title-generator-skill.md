@@ -1,5 +1,5 @@
 ---
-title: "baokuan-title-generator-skill"
+title: "爆款标题生成器"
 date: "2026-07-17"
 ---
 

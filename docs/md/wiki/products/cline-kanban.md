@@ -1,5 +1,5 @@
 ---
-title: "Cline Kanban"
+title: "Cline Kanban 看板"
 source: "GitHub"
 url: "https://github.com/orgs/cline/discussions"
 date: "2026-05-31"

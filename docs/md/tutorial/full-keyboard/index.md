@@ -1,3 +1,7 @@
+---
+title: "全键盘操作指南"
+---
+
 # full keyboard (only `Chinese` now)
 
  让你在日常开发中全键盘操作

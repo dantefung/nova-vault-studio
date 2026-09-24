@@ -1,5 +1,5 @@
 ---
-title: "LLM for i-Report"
+title: "LLM for i-Report 工具"
 date: "2026-06-14"
 source: "GitHub"
 url: "https://github.com/Jasonfengjx/llm_for_i_report"

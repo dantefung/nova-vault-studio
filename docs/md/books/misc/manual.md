@@ -1,5 +1,5 @@
 ---
-title: "manual"
+title: "使用手册"
 ---
 
 # manual

@@ -1,5 +1,5 @@
 ---
-title: "smart-agent-router"
+title: "Smart Agent Router 路由"
 date: "2026-05-29"
 ---
 

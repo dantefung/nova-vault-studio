@@ -1,5 +1,5 @@
 ---
-title: "insert-phase"
+title: "insert-phase 插入紧急阶段"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

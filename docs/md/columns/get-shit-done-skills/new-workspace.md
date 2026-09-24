@@ -1,5 +1,5 @@
 ---
-title: "new-workspace"
+title: "new-workspace 新建隔离工作区"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

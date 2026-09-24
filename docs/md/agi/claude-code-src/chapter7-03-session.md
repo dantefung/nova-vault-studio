@@ -1,3 +1,7 @@
+---
+title: "第 7 章 · Bridge 会话"
+---
+
 Title: Bridge 会话管理 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/session.html

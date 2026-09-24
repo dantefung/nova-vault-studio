@@ -1,5 +1,5 @@
 ---
-title: "tools 4"
+title: "第 04 课 · 用 Manico 切换多个 App"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

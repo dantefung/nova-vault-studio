@@ -1,5 +1,5 @@
 ---
-title: "ship"
+title: "ship 创建 PR 工作流"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

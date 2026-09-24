@@ -1,5 +1,5 @@
 ---
-title: "claude code architecture analysis"
+title: "Claude Code 架构分析"
 ---
 
 # claude code architecture analysis

@@ -1,5 +1,5 @@
 ---
-title: "gnhf"
+title: "gnhf 全自动编码"
 date: "2026-05-22"
 ---
 

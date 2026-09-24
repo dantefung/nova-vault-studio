@@ -1,5 +1,5 @@
 ---
-title: "AI Agent Content Farm"
+title: "AI Agent 内容农场"
 date: "2026-06-22"
 source: "利用 AI 给自己做个网站给养老吧，躺 着把钱挣"
 url: "https://mp.weixin.qq.com/s/rIu6Efw7m54FENXEvqtvyg"

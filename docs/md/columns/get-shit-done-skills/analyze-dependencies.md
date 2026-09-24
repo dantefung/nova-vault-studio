@@ -1,5 +1,5 @@
 ---
-title: "analyze-dependencies"
+title: "analyze-dependencies 并行前依赖分析"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

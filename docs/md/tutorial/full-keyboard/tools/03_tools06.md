@@ -1,5 +1,5 @@
 ---
-title: "tools 6"
+title: "第 06 课 · 用 Alfred 做搜索"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

@@ -1,5 +1,5 @@
 ---
-title: "Code Reading Methodology"
+title: "代码阅读方法论（英文版）"
 source: "code-reading-video-clip"
 url: "https://github.com/pyeprog/code-reading-video-clip"
 ---

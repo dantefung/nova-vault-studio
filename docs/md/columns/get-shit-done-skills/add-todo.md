@@ -1,5 +1,5 @@
 ---
-title: "add-todo"
+title: "add-todo 快速记录待办"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

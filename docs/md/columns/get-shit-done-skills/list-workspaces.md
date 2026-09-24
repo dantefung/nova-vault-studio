@@ -1,5 +1,5 @@
 ---
-title: "list-workspaces"
+title: "list-workspaces 工作区列表"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

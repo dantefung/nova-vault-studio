@@ -1,5 +1,5 @@
 ---
-title: "cockpit-tools"
+title: "cockpit-tools 多平台工具"
 date: "2026-05-22"
 ---
 

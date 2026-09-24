@@ -1,3 +1,7 @@
+---
+title: "第 8 章 · 技能系统"
+---
+
 Title: 技能系统 (Skill System) 深度剖析 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/skills.html

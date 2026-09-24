@@ -1,5 +1,5 @@
 ---
-title: "gsd-ui-researcher"
+title: "gsd-ui-researcher 界面规格研究员"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

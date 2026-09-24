@@ -1,4 +1,4 @@
-﻿---
+---
 title: "满屏的 if-else，要怎么优化？"
 date: "2023-04-13"
 source: "Macaroon-Spring-Family/spring-boot-best-practice"

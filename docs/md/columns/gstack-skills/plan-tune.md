@@ -1,5 +1,5 @@
 ---
-title: "plan-tune"
+title: "plan-tune 问题敏感度调优"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

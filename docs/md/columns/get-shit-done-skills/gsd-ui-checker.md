@@ -1,5 +1,5 @@
 ---
-title: "gsd-ui-checker"
+title: "gsd-ui-checker 界面规格校验器"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "plan-phase"
+title: "plan-phase 阶段规划生成"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

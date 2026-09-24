@@ -1,5 +1,5 @@
 ---
-title: "self-improving-agent"
+title: "自我改进 Agent"
 date: "2026-05-27"
 ---
 

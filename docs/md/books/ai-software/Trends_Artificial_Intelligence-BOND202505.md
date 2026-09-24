@@ -1,5 +1,5 @@
 ---
-title: "Trends Artificial Intelligence BOND202505"
+title: "人工智能趋势报告"
 date: "2026-06-02"
 source: "BOND"
 url: "https://www.bond.technology/ai-trends"

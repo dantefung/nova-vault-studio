@@ -1,5 +1,5 @@
 ---
-title: "obsidian 4"
+title: "第 04 课 · 双链"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

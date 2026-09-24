@@ -1,5 +1,5 @@
 ---
-title: "Loop Engineering"
+title: "循环工程 Loop Engineering"
 date: "2026-06-26"
 source: "飞天闪客"
 url: "https://mp.weixin.qq.com/s/2HugtDY6FTAty4eTD6Tzag"

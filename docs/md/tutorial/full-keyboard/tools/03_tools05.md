@@ -1,5 +1,5 @@
 ---
-title: "tools 5"
+title: "第 05 课 · 窗口管理工具 Moom"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

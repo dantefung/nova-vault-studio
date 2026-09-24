@@ -1,5 +1,5 @@
 ---
-title: "phuryn/pm-skills — PM Skills Marketplace（13.2k Stars）"
+title: "PM Skills 技能市场"
 date: "2026-06-09"
 source: "GitHub"
 url: "https://github.com/phuryn/pm-skills"

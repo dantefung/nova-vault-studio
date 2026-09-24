@@ -1,5 +1,5 @@
 ---
-title: "Patterns and Problems in Multiagent Systems"
+title: "多 Agent 系统模式与问题"
 date: "2026-08-21"
 source: "Anthropic Research"
 url: "https://www.anthropic.com/research/multiagent-systems"

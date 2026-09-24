@@ -1,5 +1,5 @@
 ---
-title: "using-git-worktrees"
+title: "using-git-worktrees 使用 Git 工作树"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

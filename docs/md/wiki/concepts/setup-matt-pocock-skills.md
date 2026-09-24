@@ -1,5 +1,5 @@
 ---
-title: "setup-matt-pocock-skills"
+title: "Matt Pocock 技能配置"
 date: "2026-08-06"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Xyf370f3UX2AOaZkogYMSA"

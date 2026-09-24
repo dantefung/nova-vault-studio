@@ -1,5 +1,5 @@
 ---
-title: "qa-only"
+title: "qa-only 仅报告式 QA"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

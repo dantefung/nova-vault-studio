@@ -1,5 +1,5 @@
 ---
-title: "SEO FAQ"
+title: "SEO 常见问题解答"
 date: "2026-07-23"
 ---
 

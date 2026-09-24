@@ -1,5 +1,5 @@
 ---
-title: "The Software Architecture Chronicles"
+title: "软件架构编年史"
 date: "2026-08-11"
 ---
 

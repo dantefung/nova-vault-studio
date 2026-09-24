@@ -1,3 +1,7 @@
+---
+title: "第 5 章 · Ink 渲染框架"
+---
+
 Title: Ink 渲染引擎 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/ui/ink-framework.html

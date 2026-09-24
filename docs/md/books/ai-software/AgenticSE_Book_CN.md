@@ -1,5 +1,5 @@
 ---
-title: "AgenticSE Book CN"
+title: "AgenticSE 中文书"
 ---
 
 # AgenticSE Book CN

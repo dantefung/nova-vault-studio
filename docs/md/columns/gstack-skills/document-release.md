@@ -1,5 +1,5 @@
 ---
-title: "document-release"
+title: "document-release 发布后文档更新"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

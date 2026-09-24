@@ -1,5 +1,5 @@
 ---
-title: "One-Job-One-Resume"
+title: "一岗一件简历工具"
 date: "2026-06-14"
 source: "GitHub"
 url: "https://github.com/ZhengElvisLONG/One-Job-One-Resume"

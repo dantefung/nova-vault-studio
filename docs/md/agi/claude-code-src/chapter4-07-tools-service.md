@@ -1,3 +1,7 @@
+---
+title: "第 4 章 · 工具管理服务"
+---
+
 Title: 工具管理服务 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/services/tools-service.html

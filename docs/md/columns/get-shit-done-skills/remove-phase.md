@@ -1,5 +1,5 @@
 ---
-title: "remove-phase"
+title: "remove-phase 移除未启动阶段"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

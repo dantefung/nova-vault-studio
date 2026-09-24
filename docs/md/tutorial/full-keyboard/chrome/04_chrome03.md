@@ -1,5 +1,5 @@
 ---
-title: "chrome 3"
+title: "第 03 课 · 搜索与查找"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

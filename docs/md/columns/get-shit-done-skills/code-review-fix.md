@@ -1,5 +1,5 @@
 ---
-title: "code-review-fix"
+title: "code-review-fix 审查自动修复"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

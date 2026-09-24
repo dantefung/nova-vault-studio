@@ -1,5 +1,5 @@
 ---
-title: "grok-cli"
+title: "grok-cli 终端工具"
 date: "2026-05-24"
 ---
 

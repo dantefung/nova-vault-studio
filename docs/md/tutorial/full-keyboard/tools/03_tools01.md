@@ -1,5 +1,5 @@
 ---
-title: "tools 1"
+title: "第 01 课 · Lazy Git"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

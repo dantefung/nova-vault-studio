@@ -1,5 +1,5 @@
 ---
-title: "Claude Skills"
+title: "Claude Skills 技能体系"
 date: "2026-06-08"
 source: "Snyk Blog"
 url: "https://snyk.io/articles/top-claude-skills-ui-ux-engineers/"

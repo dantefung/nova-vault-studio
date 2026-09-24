@@ -1,5 +1,5 @@
 ---
-title: "QAnything"
+title: "QAnything 检索问答"
 ---
 
 # QAnything

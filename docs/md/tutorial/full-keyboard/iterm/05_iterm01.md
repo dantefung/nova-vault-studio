@@ -1,5 +1,5 @@
 ---
-title: "iterm 1"
+title: "第 01 课 · iTerm2 中的导航"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

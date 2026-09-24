@@ -1,5 +1,5 @@
 ---
-title: "ultraplan-phase"
+title: "ultraplan-phase 云端规划 BETA"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

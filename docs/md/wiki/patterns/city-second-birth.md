@@ -1,5 +1,5 @@
 ---
-title: "City Second Birth"
+title: "换个城市二次投胎"
 date: "2026-06-17"
 source: "换个城市，相当于二次投胎"
 url: "https://mp.weixin.qq.com/s/oMY2FWh-ztDDLX-7Jd9QbA"

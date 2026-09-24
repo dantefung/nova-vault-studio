@@ -1,5 +1,5 @@
 ---
-title: "tools 9"
+title: "第 09 课 · Alfred Workflows"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

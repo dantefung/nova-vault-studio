@@ -1,5 +1,5 @@
 ---
-title: "add-phase"
+title: "add-phase 新增里程碑阶段"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

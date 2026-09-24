@@ -1,5 +1,5 @@
 ---
-title: "next"
+title: "next 自动推进下一步"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

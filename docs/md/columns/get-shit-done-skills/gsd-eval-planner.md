@@ -1,5 +1,5 @@
 ---
-title: "gsd-eval-planner"
+title: "gsd-eval-planner AI 评估设计师"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

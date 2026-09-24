@@ -1,5 +1,5 @@
 ---
-title: "note"
+title: "note 点子零摩擦速记"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

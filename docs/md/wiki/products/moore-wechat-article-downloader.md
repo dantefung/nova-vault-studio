@@ -1,5 +1,5 @@
 ---
-title: "moore-wechat-article-downloader"
+title: "微信公众号下载器"
 date: "2026-07-14"
 ---
 

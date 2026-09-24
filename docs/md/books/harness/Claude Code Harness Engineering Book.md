@@ -1,5 +1,5 @@
 ---
-title: "Claude Code Harness Engineering Book"
+title: "Claude Code Harness 工程书"
 ---
 
 # Claude Code Harness Engineering Book

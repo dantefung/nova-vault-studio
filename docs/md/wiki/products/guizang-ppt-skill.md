@@ -1,5 +1,5 @@
 ---
-title: "Guizang-PPT-Skill"
+title: "归藏 PPT 技能"
 source: "GitHub"
 url: "https://github.com/Formangarden524/guizang-ppt-skill"
 date: "2026-05-31"

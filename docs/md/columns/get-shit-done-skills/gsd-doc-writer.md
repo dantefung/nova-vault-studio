@@ -1,5 +1,5 @@
 ---
-title: "gsd-doc-writer"
+title: "gsd-doc-writer 文档撰写代理"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "Glue Coding (glue coding) Methodology"
+title: "胶水编程（Glue Coding）方法论"
 date: "2026-06-16"
 source: "GitHub"
 url: "https://github.com/2025Emma/vibe-coding-cn"

@@ -1,5 +1,5 @@
 ---
-title: "profile-user"
+title: "profile-user 画像编排总控"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "graduation"
+title: "graduation 经验跨期晋升"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

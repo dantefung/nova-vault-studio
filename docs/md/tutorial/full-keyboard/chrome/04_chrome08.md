@@ -1,5 +1,5 @@
 ---
-title: "Chrome 8"
+title: "第 08 课 · 用 Omni 管理书签与标签"
 date: "2026-04-30"
 source: "原创"
 url: "https://chromewebstore.google.com/detail/omni-bookmark-history-tab/mapjgeachilmcbbokkgcbgpbakaaeehi"

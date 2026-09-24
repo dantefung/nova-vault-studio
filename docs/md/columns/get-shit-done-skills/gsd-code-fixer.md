@@ -1,5 +1,5 @@
 ---
-title: "gsd-code-fixer"
+title: "gsd-code-fixer 审查修复执行者"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

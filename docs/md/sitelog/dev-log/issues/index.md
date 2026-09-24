@@ -1,5 +1,5 @@
 ---
-title: "Issues"
+title: "问题记录"
 date: "2026-06-26"
 source: "Nova Vault Studio"
 url: ""

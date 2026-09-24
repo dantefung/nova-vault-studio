@@ -1,5 +1,5 @@
 ---
-title: "Prompt-as-Code"
+title: "Prompt-as-Code 提示词"
 date: "2026-06-30"
 source: "sources/gpt-image2-prompts"
 ---

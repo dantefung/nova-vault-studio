@@ -1,5 +1,5 @@
 ---
-title: "thread"
+title: "thread 上下文线程管理"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

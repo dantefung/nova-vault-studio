@@ -1,3 +1,7 @@
+---
+title: "第 2 章 · 查询引擎"
+---
+
 Title: 查询引擎 (QueryEngine.ts + query.ts) | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/query-engine.html

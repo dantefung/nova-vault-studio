@@ -1,5 +1,5 @@
 ---
-title: "discuss-phase-power"
+title: "discuss-phase-power 离线问答模式"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

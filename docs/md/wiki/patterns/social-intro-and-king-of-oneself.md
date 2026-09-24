@@ -1,5 +1,5 @@
 ---
-title: "Social Intro and King of Oneself"
+title: "向上社交与自我为王"
 date: "2026-06-17"
 source: "士为知己者死（上）"
 url: "https://mp.weixin.qq.com/s/7nx6_Ga0JmDw1lfj_nXzrA"

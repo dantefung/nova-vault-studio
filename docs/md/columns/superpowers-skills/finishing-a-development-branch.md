@@ -1,5 +1,5 @@
 ---
-title: "finishing-a-development-branch"
+title: "finishing-a-development-branch 分支收尾"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

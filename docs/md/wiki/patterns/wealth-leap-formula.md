@@ -1,5 +1,5 @@
 ---
-title: "Wealth Leap Formula"
+title: "财富跃迁公式"
 date: "2026-06-13"
 source: "AI时代的造富效应"
 url: "https://mp.weixin.qq.com/s/_6_a_aM-874ZQicXSsP8Xg"

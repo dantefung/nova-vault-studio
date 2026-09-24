@@ -1,5 +1,5 @@
 ---
-title: "gsd-doc-classifier"
+title: "gsd-doc-classifier 规划文档分类器"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

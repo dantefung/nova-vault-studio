@@ -1,5 +1,5 @@
 ---
-title: "settings-integrations"
+title: "settings-integrations 第三方集成配置"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

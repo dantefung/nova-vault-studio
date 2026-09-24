@@ -1,5 +1,5 @@
 ---
-title: "plan-review-convergence"
+title: "plan-review-convergence 跨 AI 级联收敛"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

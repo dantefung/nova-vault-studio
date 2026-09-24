@@ -1,5 +1,5 @@
 ---
-title: "settings"
+title: "settings 代理与模型配置"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "quick"
+title: "quick 小任务快捷管线"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "Hello Harness 05 · Function Calling"
+title: "Hello Harness 05 函数调用"
 author: "一灰灰blog"
 date: "2026年8月19日 08:28"
 source: "微信公众号"

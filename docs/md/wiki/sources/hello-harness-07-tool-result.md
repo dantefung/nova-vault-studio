@@ -1,5 +1,5 @@
 ---
-title: "Hello Harness 07 · Tool Result"
+title: "Hello Harness 07 工具结果"
 author: "2026年8月21日 08:35"
 date: "2026年8月21日 08:35"
 source: "微信公众号"

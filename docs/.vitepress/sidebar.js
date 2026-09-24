@@ -42,7 +42,7 @@ const SIDEBAR_DIR_LABELS = {
     '/md/columns/indie-hub/telegram-tools/': 'Telegram 工具',
     '/md/columns/indie-hub/wechat-command/': '公众号命令',
     '/md/columns/indie-hub/ai-cross-border-ecommerce-research/': 'AI 跨境电商研究',
-    '/md/columns/indie-hub/seo/uiux/': 'UI/UX',
+    '/md/columns/indie-hub/seo/uiux/': 'UI/UX 设计',
     // indie-hub / PMaker 系列专栏
     '/md/columns/indie-hub/pmaker-series/learn/': 'AI 基础知识',
     '/md/columns/indie-hub/pmaker-series/basics/': '产品基础',
@@ -62,7 +62,7 @@ const SIDEBAR_DIR_LABELS = {
     '/md/columns/drawing/03-03-uml-drawing/': 'UML 绘图',
     '/md/columns/drawing/04-04-ai-image/': 'AI 生图',
     '/md/columns/drawing/05-05-architecture/': '架构图',
-    '/md/columns/drawing/06-06-drawio/': 'Drawio',
+    '/md/columns/drawing/06-06-drawio/': 'Drawio 绘图',
     '/md/columns/drawing/07-07-tools/': '工具',
     // columns / Java 最佳实践
     '/md/columns/java-best-practices/01-domain-modeling/': '业务建模与领域驱动',
@@ -82,7 +82,58 @@ const SIDEBAR_DIR_LABELS = {
     // business
     '/md/business/business-models/': '商业模式',
     '/md/business/digital-products/': '数字产品副业',
+    '/md/business/ai-relay-station/': 'AI 中转站',
+    // guide / 其余分区（这些目录没有 index.md，只能靠映射，否则英文目录名直接暴露）
+    '/md/guide/career/': '职业发展',
+    '/md/guide/career/learning/': '学习方法',
+    '/md/guide/career/product-thinking/': '产品思维',
+    '/md/guide/claude-code/': 'Claude Code 指南',
+    '/md/guide/dev/': '开发工具',
+    '/md/guide/dev/docker/': 'Docker 容器',
+    '/md/guide/dev/idea/': 'IntelliJ IDEA 实战',
+    '/md/guide/dev/java/': 'Java 编程',
+    '/md/guide/dev/network/': '网络',
+    '/md/guide/dev/opencode/': 'OpenCode 指南',
+    '/md/guide/dev/other/': '其他工具',
+    '/md/guide/dev/python/': 'Python 编程',
+    '/md/guide/dev/sublimetext/': 'Sublime Text 编辑器',
+    '/md/guide/openclaw/': 'OpenClaw 指南',
+    '/md/guide/os/': '操作系统',
+    '/md/guide/os/debian/': 'Debian 系统',
+    '/md/guide/os/linux/': 'Linux 系统',
+    '/md/guide/research/': '研究方法',
+    '/md/guide/terminal/': '终端工具',
+    '/md/guide/terminal/debian/': 'Debian 实用工具',
+    '/md/guide/terminal/vim/': 'Vim 与 LazyVim',
+    '/md/guide/terminal/win/': 'Windows 终端',
+    '/md/guide/vm/': '虚拟机',
+    // tutorial / 全键盘教程
+    '/md/tutorial/tutorial-one/partA/': '教程一 A 部分',
+    // books / 高性价比人生指南
+    '/md/books/how-to-live-better/book/': '正文书籍',
+    '/md/books/how-to-live-better/docs/': '配套资料',
+    // columns / 其余专栏
+    '/md/columns/agentic-engineer/ai-eng-skills/': 'AI 工程技能',
+    '/md/columns/business/': '商业专栏',
+    '/md/columns/indie-hub/seo/keyword-analysis/': '网站分析与关键词挖掘',
+    '/md/columns/indie-hub/seo/webcafe-age-proof-site/': '无代码建站指南',
+    '/md/columns/indie-hub/seo/webcafe-kw-trade-off/': '关键词取舍权衡',
+    '/md/columns/indie-hub/seo/webcafe-landing-page/': '落地页迭代',
+    '/md/columns/indie-hub/seo/webcafe-seo-backlink/': '外链建设',
+    '/md/columns/indie-hub/seo/webcafe-tool-site/': '工具站搭建',
+    '/md/columns/openclaw/': 'OpenClaw 专栏',
+    '/md/columns/social-media/social-media-data-tools/': '社媒数据工具',
+    '/md/columns/social-media/social-media-data-tools/skills/': '技能合集',
+    '/md/columns/social-media/social-media-data-tools/skills/douyin-transcript-exporter/': '抖音文稿导出',
+    '/md/columns/social-media/social-media-data-tools/skills/douyin-transcript-exporter/references/': '参考资料',
+    // wiki / sources 里的多页专题
+    '/md/wiki/sources/ai-programming-structured-requirements/': 'AI 编程结构化需求',
+    '/md/wiki/sources/infinite-story-engine/': 'Infinite Story Engine 故事引擎',
 };
+
+function dirGroupName(dirLink, fallback) {
+    return SIDEBAR_DIR_LABELS[dirLink] || fallback;
+}
 
 function applySidebarChildOrder(items) {
     for (const item of items) {
@@ -126,8 +177,9 @@ function readMarkdownFiles(dir, linkPrefix, childPrefix = '') {
 }
 
 function extractTitle(filePath) {
-    // 仓库混有 CRLF 文件（微信抓取入库的居多），不归一化会让下方所有正则静默失配
-    const content = fs.readFileSync(filePath, 'utf8').replace(/\r\n/g, '\n');
+    // 仓库混有 CRLF 和 UTF-8 BOM 文件（微信抓取入库的居多）。
+    // 不归一化会让下方所有 ^ 开头的正则静默失配，标题回落到英文文件名
+    const content = fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, '').replace(/\r\n/g, '\n');
     // 优先级：frontmatter title > 首个 H1 > 文件名
     const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
     if (fmMatch) {
@@ -186,7 +238,7 @@ function buildDirectorySidebar(dir, linkPrefix, options = {}) {
             }
 
             const dirItem = {
-                text: hasIndexPage ? extractTitle(indexPath) : entry.name,
+                text: hasIndexPage ? extractTitle(indexPath) : dirGroupName(subdirLinkPrefix, entry.name),
                 collapsed: true,
                 items: childItems
             };
@@ -237,10 +289,10 @@ function generateSidebar(relativeDir, linkPrefix) {
             if (!group) {
                 const dirLink = `${linkPrefix}${dirKey}/`;
                 // 有 index.md 的目录留给 addIndexOnlyDirectories 用其中文标题命名，
-                // 没有的才会回落到英文目录名，此时才查映射表
+                // 没有的才查映射表，查不到才回落到英文目录名
                 const hasIndex = fs.existsSync(path.join(dir, dirKey, 'index.md'));
                 group = {
-                    text: hasIndex ? part : (SIDEBAR_DIR_LABELS[dirLink] || part),
+                    text: hasIndex ? part : dirGroupName(dirLink, part),
                     collapsed: true,
                     items: []
                 };
@@ -251,21 +303,32 @@ function generateSidebar(relativeDir, linkPrefix) {
         });
     });
 
-    // 在 sidebar 中递归查找条目（按 text 或 link 匹配）
-    function findSidebarItem(level, textOrLink) {
-        for (const item of level) {
-            if (item.text === textOrLink || item.link === textOrLink) {
-                return item;
-            }
-            if (item.items) {
-                const result = findSidebarItem(item.items, textOrLink);
-                if (result) return result;
-            }
+    // 分组的稳定身份是相对扫描根的路径（与上面 groupsByPath 同键）；
+    // index.md 只负责把已有分组改名为它的中文标题，不再靠 text/link 反查
+    function groupForPath(dirKey) {
+        let group = groupsByPath.get(dirKey);
+        if (!group) {
+            const names = dirKey.split('/');
+            group = {
+                text: dirGroupName(linkPrefix + dirKey + '/', names[names.length - 1]),
+                collapsed: true,
+                items: []
+            };
+            groupsByPath.set(dirKey, group);
         }
-        return null;
+        return group;
     }
 
-    function addIndexOnlyDirectories(currentDir, currentLevel, currentLinkPrefix) {
+    function levelForPath(dirKey) {
+        const parts = dirKey.split('/');
+        let level = sidebarConfig;
+        for (let i = 0; i < parts.length - 1; i++) {
+            level = groupForPath(parts.slice(0, i + 1).join('/')).items;
+        }
+        return level;
+    }
+
+    function addIndexOnlyDirectories(currentDir, currentLinkPrefix) {
         const entries = fs.readdirSync(currentDir, { withFileTypes: true });
         entries.forEach(entry => {
             if (entry.isDirectory()) {
@@ -277,79 +340,43 @@ function generateSidebar(relativeDir, linkPrefix) {
                     return;
                 }
                 const indexPath = path.join(subdirPath, 'index.md');
-                // 相对生成 Sidebar 的扫描根，仅用于下方导航到正确的父级
+                // 相对生成 Sidebar 的扫描根，与 groupsByPath 的键一致
                 const relativePath = subdirPath.replace(dir + path.sep, '');
 
-                const hasIndex = fs.existsSync(indexPath);
+                // 先递归处理子目录（子目录会自己落到正确层级）
+                addIndexOnlyDirectories(subdirPath, subdirLinkPrefix);
+                if (!fs.existsSync(indexPath)) {
+                    return;
+                }
 
-                if (hasIndex) {
-                    // 先递归处理子目录（子目录会在递归中自己导航到正确位置）
-                    addIndexOnlyDirectories(subdirPath, currentLevel, subdirLinkPrefix);
+                const title = extractTitle(indexPath) || entry.name;
+                const linkMatch = subdirLinkPrefix;
+                const linkMatchNoSlash = subdirLinkPrefix.slice(0, -1);
 
-                    // 导航到正确的父级
-                    const pathParts = relativePath.split(path.sep);
-                    let targetLevel = currentLevel;
-                    
-                    for (let i = 0; i < pathParts.length - 1; i++) {
-                        const part = pathParts[i];
-                        let found = false;
-                        for (const item of targetLevel) {
-                            if (item.text === part || (item.link && item.link === currentLinkPrefix + part + '/')) {
-                                targetLevel = item.items;
-                                found = true;
-                                break;
-                            }
-                        }
-                        if (!found) {
-                            const newItem = {
-                                text: part,
-                                collapsed: true,
-                                items: []
-                            };
-                            targetLevel.push(newItem);
-                            targetLevel = newItem.items;
-                        }
-                    }
-                    
-                    // 在 targetLevel 中查找已存在的条目
-                    const title = extractTitle(indexPath) || entry.name;
-                    const linkMatch = subdirLinkPrefix;
-                    const linkMatchNoSlash = subdirLinkPrefix.slice(0, -1);
-                    
-                    let existingItem = targetLevel.find(item => 
-                        item.text === title || item.text === entry.name || item.link === linkMatch || item.link === linkMatchNoSlash
-                    );
-                    if (!existingItem) {
-                        existingItem = findSidebarItem(targetLevel, title);
-                        if (!existingItem) {
-                            existingItem = findSidebarItem(targetLevel, linkMatch);
-                            if (!existingItem) {
-                                existingItem = findSidebarItem(targetLevel, linkMatchNoSlash);
-                            }
-                        }
-                    }
-                    
-                    if (existingItem) {
-                        existingItem.text = title;
-                        if (!existingItem.link) {
-                            existingItem.link = linkMatch;
-                        }
-                    } else {
-                        targetLevel.push({
-                            text: title,
-                            collapsed: true,
-                            items: [],
-                            link: linkMatch
-                        });
+                const existingItem = levelForPath(relativePath).find(item =>
+                    item.text === title ||
+                    item.text === entry.name ||
+                    item.link === linkMatch ||
+                    item.link === linkMatchNoSlash
+                );
+                if (existingItem) {
+                    existingItem.text = title;
+                    if (!existingItem.link) {
+                        existingItem.link = linkMatch;
                     }
                 } else {
-                    addIndexOnlyDirectories(subdirPath, currentLevel, subdirLinkPrefix);
+                    levelForPath(relativePath).push({
+                        text: title,
+                        collapsed: true,
+                        items: [],
+                        link: linkMatch
+                    });
                 }
             }
         });
     }
 
-    addIndexOnlyDirectories(dir, sidebarConfig, linkPrefix);
+    addIndexOnlyDirectories(dir, linkPrefix);
     applySidebarChildOrder(sidebarConfig);
 
     return sidebarConfig;

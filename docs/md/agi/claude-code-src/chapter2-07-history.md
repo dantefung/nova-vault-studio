@@ -1,3 +1,7 @@
+---
+title: "第 2 章 · 历史记录"
+---
+
 Title: 历史记录 (history.ts) | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/history.html

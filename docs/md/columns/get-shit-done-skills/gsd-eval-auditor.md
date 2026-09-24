@@ -1,5 +1,5 @@
 ---
-title: "gsd-eval-auditor"
+title: "gsd-eval-auditor AI 评估审计员"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

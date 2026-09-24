@@ -1,5 +1,5 @@
 ---
-title: "AI Writing Micro-Business"
+title: "AI 写作小生意"
 date: "2026-06-17"
 source: "最适合互联网新手的小项目——AI写作"
 url: "https://mp.weixin.qq.com/s/2BC2eE1R-m-d_snkvz8wKA"

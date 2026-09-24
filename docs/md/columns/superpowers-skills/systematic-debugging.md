@@ -1,5 +1,5 @@
 ---
-title: "systematic-debugging"
+title: "systematic-debugging 系统化调试"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

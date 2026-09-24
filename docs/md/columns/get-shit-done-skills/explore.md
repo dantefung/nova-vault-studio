@@ -1,5 +1,5 @@
 ---
-title: "explore"
+title: "explore 苏格拉底式构思"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

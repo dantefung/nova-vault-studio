@@ -1,5 +1,5 @@
 ---
-title: "OpenSpec"
+title: "OpenSpec 需求管理"
 date: "2026-05-24"
 ---
 

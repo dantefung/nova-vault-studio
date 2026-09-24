@@ -1,5 +1,5 @@
 ---
-title: "Terminal Debian"
+title: "Debian 终端指南"
 date: "2026-09-14"
 ---
 

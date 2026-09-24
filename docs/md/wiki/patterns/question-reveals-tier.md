@@ -1,5 +1,5 @@
 ---
-title: "Question Reveals Tier"
+title: "问题暴露段位"
 date: "2026-06-17"
 source: "问的每个问题，其实都在暴露你的段位"
 url: "https://mp.weixin.qq.com/s/2abGj6OnqJAUGZGN66LMrQ"

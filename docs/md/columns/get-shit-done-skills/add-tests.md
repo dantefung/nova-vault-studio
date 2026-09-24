@@ -1,5 +1,5 @@
 ---
-title: "add-tests"
+title: "add-tests 生成阶段测试"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

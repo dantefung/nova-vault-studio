@@ -1,5 +1,5 @@
 ---
-title: "new-project"
+title: "new-project 从零立项工作流"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

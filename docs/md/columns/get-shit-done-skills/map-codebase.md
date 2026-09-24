@@ -1,5 +1,5 @@
 ---
-title: "map-codebase"
+title: "map-codebase 全库结构化扫描"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

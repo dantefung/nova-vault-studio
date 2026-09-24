@@ -1,5 +1,5 @@
 ---
-title: "review"
+title: "review 跨 AI 计划互审"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "zettelkasten"
+title: "卡片笔记 Zettelkasten"
 ---
 
 # zettelkasten

@@ -1,5 +1,5 @@
 ---
-title: "Milvus 3.0"
+title: "Milvus 3.0 向量数据库"
 date: "2026-08-05"
 source: "微信公众号 (运维有术)"
 ---

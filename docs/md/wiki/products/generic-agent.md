@@ -1,5 +1,5 @@
 ---
-title: "GenericAgent"
+title: "GenericAgent 通用框架"
 source: "GitHub"
 url: "https://github.com/lsdefine/GenericAgent"
 date: "2026-06-04"

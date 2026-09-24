@@ -1,5 +1,5 @@
 ---
-title: "Next-AI-Draw-IO"
+title: "Next-AI-Draw-IO 绘图"
 source: "GitHub"
 url: "https://github.com/DayuanJiang/next-ai-draw-io"
 date: "2026-06-04"

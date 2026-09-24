@@ -1,5 +1,5 @@
 ---
-title: oh_my_prompt
+title: "架构师视角分析提示词"
 ---
 
 &#x2D;&#x2D;&#x2D;

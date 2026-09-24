@@ -1,5 +1,5 @@
 ---
-title: "brainstorming"
+title: "brainstorming 头脑风暴"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

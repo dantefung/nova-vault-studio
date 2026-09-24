@@ -1,5 +1,5 @@
 ---
-title: "progress"
+title: "progress 进度检查与路由"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

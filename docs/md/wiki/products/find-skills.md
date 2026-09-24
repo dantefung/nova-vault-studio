@@ -1,5 +1,5 @@
 ---
-title: "find-skills"
+title: "find-skills 技能查找"
 date: "2026-05-27"
 ---
 

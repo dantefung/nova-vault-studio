@@ -1,5 +1,5 @@
 ---
-title: "go-stock"
+title: "go-stock 股票分析"
 date: "2026-06-13"
 source: "go-stock — AI 赋能股票分析工具"
 url: "https://github.com/ArvinLovegood/go-stock"

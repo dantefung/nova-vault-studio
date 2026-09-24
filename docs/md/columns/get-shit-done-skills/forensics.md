@@ -1,5 +1,5 @@
 ---
-title: "forensics"
+title: "forensics 工作流取证报告"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

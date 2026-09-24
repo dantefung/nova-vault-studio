@@ -1,5 +1,5 @@
 ---
-title: "subagent-driven-development"
+title: "subagent-driven-development 子代理驱动开发"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

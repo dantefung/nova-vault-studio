@@ -1,3 +1,7 @@
+---
+title: "第 4 章 · 遥测分析"
+---
+
 Title: 遥测分析系统 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/services/analytics.html

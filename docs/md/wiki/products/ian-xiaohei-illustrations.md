@@ -1,5 +1,5 @@
 ---
-title: "ian-xiaohei-illustrations"
+title: "小黑怪诞配图技能"
 date: "2026-05-29"
 ---
 

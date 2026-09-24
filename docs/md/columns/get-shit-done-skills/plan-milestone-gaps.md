@@ -1,5 +1,5 @@
 ---
-title: "plan-milestone-gaps"
+title: "plan-milestone-gaps 验收缺口补规划"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

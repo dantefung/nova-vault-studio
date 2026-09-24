@@ -1,5 +1,5 @@
 ---
-title: "Trust is Quantifiable"
+title: "信任可量化"
 date: "2026-06-17"
 source: "再谈信任"
 url: "https://mp.weixin.qq.com/s/yjtMOv0gFZ0D656uVISQ4Q"

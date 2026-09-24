@@ -1,5 +1,5 @@
 ---
-title: "LLM Wiki"
+title: "LLM Wiki 知识库"
 date: "2026-05-29"
 source: "llm-wiki"
 updated: "2026-08-12"

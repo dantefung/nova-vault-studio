@@ -1,5 +1,5 @@
 ---
-title: "Life Anti-Fragility"
+title: "人生反脆弱支点"
 date: "2026-06-17"
 source: "运气和玄学"
 url: "https://mp.weixin.qq.com/s/V1eWrG-chA4gh3AV8sAb7A"

@@ -1,5 +1,5 @@
 ---
-title: "TGO (tgoai)"
+title: "TGO 客服 Agent 平台"
 date: "2026-06-14"
 source: "GitHub"
 url: "https://github.com/tgoai/tgo"

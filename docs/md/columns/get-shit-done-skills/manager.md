@@ -1,5 +1,5 @@
 ---
-title: "manager"
+title: "manager 阶段管理指挥台"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

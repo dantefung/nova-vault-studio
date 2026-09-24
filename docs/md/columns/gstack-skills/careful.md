@@ -1,5 +1,5 @@
 ---
-title: "careful"
+title: "careful 危险命令护栏"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

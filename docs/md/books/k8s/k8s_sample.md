@@ -1,5 +1,5 @@
 ---
-title: "k8s sample"
+title: "Kubernetes 实战样例"
 ---
 
 # k8s sample

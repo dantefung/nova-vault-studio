@@ -1,5 +1,5 @@
 ---
-title: "ddd-harness-microservices"
+title: "DDD 微服务样板"
 date: "2026-06-13"
 source: "ddd-harness-microservices — DDD 四层架构微服务样板"
 url: "https://github.com/domain-driven-design/ddd-harness-microservices"

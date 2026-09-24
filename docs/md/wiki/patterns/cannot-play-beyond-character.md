@@ -1,5 +1,5 @@
 ---
-title: "Cannot Play Beyond Character"
+title: "打不出性格以外的球"
 date: "2026-06-17"
 source: "打不出来性格以外的球"
 url: "https://mp.weixin.qq.com/s/JnXpVzhDjtsmGUPVGQnWLA"

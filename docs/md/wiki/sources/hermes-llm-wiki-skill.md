@@ -1,5 +1,5 @@
 ---
-title: "Llm Wiki — Karpathy's LLM Wiki: build/query interlinked markdown KB"
+title: "Karpathy 的 LLM Wiki 技能"
 date: "2026-08-12"
 source: "Hermes Agent 文档"
 url: "https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki"

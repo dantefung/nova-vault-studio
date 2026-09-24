@@ -1,5 +1,5 @@
 ---
-title: "Yazi"
+title: "Yazi 终端文件管理"
 date: "2026-05-09"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Lake-Native Architecture"
+title: "湖原生架构"
 date: "2026-08-05"
 source: "微信公众号 (运维有术)"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "gsd-user-profiler"
+title: "gsd-user-profiler 开发者画像分析器"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

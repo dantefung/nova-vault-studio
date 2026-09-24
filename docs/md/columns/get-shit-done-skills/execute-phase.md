@@ -1,5 +1,5 @@
 ---
-title: "execute-phase"
+title: "execute-phase 波次并行执行"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

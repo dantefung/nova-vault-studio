@@ -1,5 +1,5 @@
 ---
-title: "writing-skills"
+title: "writing-skills 编写与验证技能"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

@@ -1,5 +1,5 @@
 ---
-title: "OpenCodeReview"
+title: "OpenCodeReview 代码审查"
 source: "GitHub"
 url: "https://github.com/alibaba/open-code-review"
 date: "2026-05-29"

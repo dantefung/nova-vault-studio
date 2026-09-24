@@ -1,5 +1,5 @@
 ---
-title: "gsd-roadmapper"
+title: "gsd-roadmapper 路线图生成代理"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

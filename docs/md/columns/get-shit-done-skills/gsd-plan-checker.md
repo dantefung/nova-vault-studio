@@ -1,5 +1,5 @@
 ---
-title: "gsd-plan-checker"
+title: "gsd-plan-checker 计划质量校验器"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "MultiPost Extension"
+title: "MultiPost 多平台发布扩展"
 date: "2026-09-14"
 source: "GitHub"
 url: "https://github.com/leaperone/MultiPost-Extension"

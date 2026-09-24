@@ -1,5 +1,5 @@
 ---
-title: "cso"
+title: "cso 安全官审计模式"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

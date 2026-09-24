@@ -1,5 +1,5 @@
 ---
-title: "debug"
+title: "debug 调试工作流"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

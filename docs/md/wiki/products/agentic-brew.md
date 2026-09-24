@@ -1,5 +1,5 @@
 ---
-title: "Agentic Brew"
+title: "Agentic Brew 资讯"
 date: "2026-05-24"
 ---
 

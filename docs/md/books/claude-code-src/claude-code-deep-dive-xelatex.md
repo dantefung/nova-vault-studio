@@ -1,5 +1,5 @@
 ---
-title: "claude code deep dive xelatex"
+title: "Claude Code 深度剖析"
 ---
 
 # claude code deep dive xelatex

@@ -1,5 +1,5 @@
 ---
-title: "pause-work"
+title: "pause-work 中途暂停交接"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "gsd-assumptions-analyzer"
+title: "gsd-assumptions-analyzer 假设分析器"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

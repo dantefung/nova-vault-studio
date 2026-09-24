@@ -1,5 +1,5 @@
 ---
-title: "cleanup"
+title: "cleanup 里程碑阶段归档"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "Lazygit"
+title: "Lazygit 终端工具"
 date: "2026-05-09"
 ---
 

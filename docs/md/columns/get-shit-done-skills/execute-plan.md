@@ -1,5 +1,5 @@
 ---
-title: "execute-plan"
+title: "execute-plan 执行单份计划"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

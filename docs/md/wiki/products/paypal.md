@@ -1,5 +1,5 @@
 ---
-title: "PayPal"
+title: "PayPal 支付服务"
 date: "2026-06-16"
 source: "用户更倾向于选择Creem而不是Paypal"
 url: "https://mp.weixin.qq.com/s/2ehAIv_X_0_R1YUtsxF3Og"

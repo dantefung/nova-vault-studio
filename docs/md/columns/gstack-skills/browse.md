@@ -1,5 +1,5 @@
 ---
-title: "browse"
+title: "browse 无头浏览器 QA"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

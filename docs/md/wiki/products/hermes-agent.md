@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent"
+title: "Hermes Agent 消息网关"
 date: "2026-06-13"
 source: "一个 Obsidian、三个入口、一台常驻 Mac：我的 AI 个人工作流"
 url: "https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ"

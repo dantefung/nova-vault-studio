@@ -1,5 +1,5 @@
 ---
-title: "setup-gbrain"
+title: "setup-gbrain 搭建本地 gbrain"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

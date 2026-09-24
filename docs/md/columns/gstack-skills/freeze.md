@@ -1,5 +1,5 @@
 ---
-title: "freeze"
+title: "freeze 冻结目录编辑"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

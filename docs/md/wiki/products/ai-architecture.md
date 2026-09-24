@@ -1,5 +1,5 @@
 ---
-title: "ai-architecture"
+title: "MyInvestPilot 架构设计"
 date: "2026-05-24"
 ---
 

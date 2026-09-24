@@ -1,5 +1,5 @@
 ---
-title: "Execution Speed and Trust Verification"
+title: "执行速度与信任验证"
 date: "2026-06-17"
 source: "在深圳做了两片网球场"
 url: "https://mp.weixin.qq.com/s/ZJTzgh6wC7jfp2I4ZAa3YA"

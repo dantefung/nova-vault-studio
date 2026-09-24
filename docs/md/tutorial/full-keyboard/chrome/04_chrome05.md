@@ -1,5 +1,5 @@
 ---
-title: "chrome 5"
+title: "第 05 课 · 创建书签"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

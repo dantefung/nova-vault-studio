@@ -1,5 +1,5 @@
 ---
-title: "verify-work"
+title: "verify-work 会话式 UAT 验收"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

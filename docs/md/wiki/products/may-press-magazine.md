@@ -1,5 +1,5 @@
 ---
-title: "May Press Magazine"
+title: "May Press 在线杂志"
 source: "GitHub Pages"
 url: "https://cabiriawzy-hub.github.io/may-press/magazine.html#no-00"
 date: "2026-06-01"

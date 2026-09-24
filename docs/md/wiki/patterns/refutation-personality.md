@@ -1,5 +1,5 @@
 ---
-title: "Refutation Personality"
+title: "反驳性人格"
 date: "2026-06-17"
 source: "注定贫穷的性格——反驳性人格"
 url: "https://mp.weixin.qq.com/s/MnNS0M_qEa6PD2zDkUCARQ"

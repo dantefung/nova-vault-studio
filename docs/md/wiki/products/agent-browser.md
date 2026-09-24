@@ -1,5 +1,5 @@
 ---
-title: "agent-browser"
+title: "Agent Browser 浏览器工具"
 date: "2026-05-27"
 ---
 

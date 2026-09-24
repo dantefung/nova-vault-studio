@@ -1,5 +1,5 @@
 ---
-title: "discuss-phase-assumptions"
+title: "discuss-phase-assumptions 代码先行讨论"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

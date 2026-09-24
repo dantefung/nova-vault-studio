@@ -1,5 +1,5 @@
 ---
-title: "docs-update"
+title: "docs-update 文档生成核验"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

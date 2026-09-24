@@ -1,5 +1,5 @@
 ---
-title: "The Founders Playbook"
+title: "The Founders Playbook 创始人手册"
 date: "2026-05-06"
 source: "The Founders"
 ---

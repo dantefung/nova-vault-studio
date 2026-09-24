@@ -1,5 +1,5 @@
 ---
-title: "gstack"
+title: "gstack 技能套件"
 date: "2026-05-24"
 ---
 

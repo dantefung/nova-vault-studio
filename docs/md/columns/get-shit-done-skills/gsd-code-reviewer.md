@@ -1,5 +1,5 @@
 ---
-title: "gsd-code-reviewer"
+title: "gsd-code-reviewer 代码审查代理"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

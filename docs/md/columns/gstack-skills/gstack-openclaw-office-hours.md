@@ -1,5 +1,5 @@
 ---
-title: "gstack-openclaw-office-hours"
+title: "GStack 创意头脑风暴"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

@@ -1,5 +1,5 @@
 ---
-title: "Investment Taste"
+title: "投资品味"
 date: "2026-06-17"
 source: "投资中的品味&人的品性"
 url: "https://mp.weixin.qq.com/s/Blv18YQ4oYsTYioS8JR5Dg"

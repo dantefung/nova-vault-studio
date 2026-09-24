@@ -1,5 +1,5 @@
 ---
-title: "Money Shame and AI as Tool"
+title: "拒绝谈钱羞耻"
 date: "2026-06-17"
 source: "对话虎牙：年轻人，拒绝谈钱羞耻"
 url: "https://mp.weixin.qq.com/s/uiiIYhAHyboBde9c1u4Zew"

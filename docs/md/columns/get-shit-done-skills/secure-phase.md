@@ -1,5 +1,5 @@
 ---
-title: "secure-phase"
+title: "secure-phase 阶段安全核验"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

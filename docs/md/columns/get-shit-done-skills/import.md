@@ -1,5 +1,5 @@
 ---
-title: "import"
+title: "import 外部计划收编"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

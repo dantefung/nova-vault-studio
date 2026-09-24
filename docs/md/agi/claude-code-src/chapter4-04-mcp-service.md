@@ -1,3 +1,7 @@
+---
+title: "第 4 章 · MCP 协议服务"
+---
+
 Title: MCP 协议服务 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/services/mcp-service.html

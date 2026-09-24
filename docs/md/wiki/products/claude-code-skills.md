@@ -1,5 +1,5 @@
 ---
-title: "Claude Code Skills"
+title: "Claude Code Skills 指南"
 date: "2026-05-09"
 ---
 

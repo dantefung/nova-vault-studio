@@ -1,5 +1,5 @@
 ---
-title: "gsd-doc-synthesizer"
+title: "gsd-doc-synthesizer 文档情报合成器"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

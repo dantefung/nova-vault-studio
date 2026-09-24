@@ -1,5 +1,5 @@
 ---
-title: "Cognition Outside Money"
+title: "赚不到认知外的钱"
 date: "2026-06-17"
 source: "认知外的钱"
 url: "https://mp.weixin.qq.com/s/uGiNnlw6ykNQQaRi4Itbjw"

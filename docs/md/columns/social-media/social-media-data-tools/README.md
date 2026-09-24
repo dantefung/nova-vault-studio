@@ -1,5 +1,5 @@
 ---
-title: "Social Media Data Tools"
+title: "社交媒体数据工具集"
 date: "2026-09-21"
 source: "GitHub"
 url: "https://github.com/jinchenma94/social-media-data-tools"

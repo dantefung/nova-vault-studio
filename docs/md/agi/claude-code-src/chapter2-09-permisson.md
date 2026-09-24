@@ -1,3 +1,7 @@
+---
+title: "第 2 章 · 权限安全"
+---
+
 Title: 权限安全系统 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/permissions.html

@@ -1,5 +1,5 @@
 ---
-title: "AI Native Work Report Tencent"
+title: "腾讯 AI 原生工作报告"
 date: "2026-05-22"
 source: "腾讯"
 ---

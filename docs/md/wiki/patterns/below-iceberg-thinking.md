@@ -1,5 +1,5 @@
 ---
-title: "Below Iceberg Thinking"
+title: "冰山之下思维"
 date: "2026-06-17"
 source: "我为什么更愿意聊冰山之下的内容"
 url: "https://mp.weixin.qq.com/s/cvYc1GAagyAj3jOZMJPKZw"

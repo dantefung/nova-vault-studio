@@ -1,5 +1,5 @@
 ---
-title: "node-repair"
+title: "node-repair 失败任务自动修复"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "settings-advanced"
+title: "settings-advanced 高级配置"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

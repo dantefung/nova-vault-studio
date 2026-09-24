@@ -1,3 +1,7 @@
+---
+title: "Introducing EventStorming 事件风暴"
+---
+
 # Introducing EventStorming
 
 An act of Deliberate Collective Learning

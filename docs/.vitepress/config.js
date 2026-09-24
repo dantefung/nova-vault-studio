@@ -118,7 +118,7 @@ export default defineConfig({
         text: '资源中心',
         items: [
           { text: 'AI 编程资源', link: '/md/resources/' },
-          { text: 'Claude Code', link: '/md/guide/ai/claude-code-resources/' },
+          { text: 'Claude Code 资源', link: '/md/guide/ai/claude-code-resources/' },
         ]
       },
       {
@@ -158,7 +158,7 @@ export default defineConfig({
         items: generateNavItems('docs/md/tutorial', '/md/tutorial/')
       },
       {
-        text: 'AGI',
+        text: 'AGI 教程',
         items: generateNavItems('docs/md/agi', '/md/agi/')
       },
       {
@@ -166,7 +166,7 @@ export default defineConfig({
         link: '/md/blog/'
       },
       {
-        text: 'Wiki',
+        text: '知识库',
         items: [
           { text: '知识库总览', link: '/md/wiki/' },
           { text: '核心概念', link: '/md/wiki/concepts/' },
@@ -189,10 +189,10 @@ export default defineConfig({
         text: '专栏',
         items: [
           { text: '专栏总览', link: '/md/columns/' },
-          { text: 'Agentic Engineer', link: '/md/columns/agentic-engineer/' },
-          { text: 'Vibe Coding', link: '/md/columns/vibe-coding/' },
-          { text: 'Harness Engineering', link: '/md/columns/harness-engineering/' },
-          { text: "Lenny's Newsletter", link: '/md/columns/lenny-newsletter/' },
+          { text: 'Agentic Engineer 专栏', link: '/md/columns/agentic-engineer/' },
+          { text: 'Vibe Coding 专栏', link: '/md/columns/vibe-coding/' },
+          { text: 'Harness Engineering 专栏', link: '/md/columns/harness-engineering/' },
+          { text: 'Lenny 通讯', link: '/md/columns/lenny-newsletter/' },
           { text: '绘图指南', link: '/md/columns/drawing/' },
           { text: 'OPC 一人公司', link: '/md/columns/opc/' },
           { text: '投资专栏', link: '/md/columns/investment/' },
@@ -200,7 +200,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Slides',
+        text: '幻灯片',
         items: [
           { text: '演示文稿', link: '/md/slides/' },
         ]

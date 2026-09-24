@@ -1,5 +1,5 @@
 ---
-title: "spike"
+title: "spike 体验式探索试验"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

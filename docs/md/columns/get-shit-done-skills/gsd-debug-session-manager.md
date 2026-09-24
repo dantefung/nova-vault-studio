@@ -1,5 +1,5 @@
 ---
-title: "gsd-debug-session-manager"
+title: "gsd-debug-session-manager 调试会话管理"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "gsd-planner"
+title: "gsd-planner 阶段规划代理"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

@@ -1,5 +1,5 @@
 ---
-title: "gsd-framework-selector"
+title: "gsd-framework-selector 框架选择矩阵"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

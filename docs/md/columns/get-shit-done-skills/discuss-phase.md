@@ -1,5 +1,5 @@
 ---
-title: "discuss-phase"
+title: "discuss-phase 阶段思考伙伴"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

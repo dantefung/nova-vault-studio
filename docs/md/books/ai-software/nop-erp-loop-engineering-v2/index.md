@@ -1,5 +1,5 @@
 ---
-title: "Nop ERP Loop Engineering v2"
+title: "Nop ERP 循环工程 v2"
 date: "2026-08-12"
 source: "Nop Platform"
 url: ""

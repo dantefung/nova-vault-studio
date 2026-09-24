@@ -1,5 +1,5 @@
 ---
-title: Other Tools
+title: "其他 Agent 工具"
 ---
 
 # Other Tools

@@ -1,5 +1,5 @@
 ---
-title: "gsd-doc-verifier"
+title: "gsd-doc-verifier 文档事实核验器"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

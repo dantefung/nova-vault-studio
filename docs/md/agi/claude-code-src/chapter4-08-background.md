@@ -1,3 +1,7 @@
+---
+title: "第 4 章 · 后台服务"
+---
+
 Title: 后台服务 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/services/background.html

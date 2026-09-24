@@ -1,5 +1,5 @@
 ---
-title: "transformer embedding"
+title: "Transformer 与 Embedding"
 ---
 
 # transformer embedding

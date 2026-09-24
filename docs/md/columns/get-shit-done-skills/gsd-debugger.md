@@ -1,5 +1,5 @@
 ---
-title: "gsd-debugger"
+title: "gsd-debugger 科学调试代理"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

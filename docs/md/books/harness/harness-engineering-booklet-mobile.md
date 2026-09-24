@@ -1,5 +1,5 @@
 ---
-title: "harness engineering booklet mobile"
+title: "Harness 工程手册（移动版）"
 date: "2026-06-02"
 source: "Harness Engineering"
 url: ""

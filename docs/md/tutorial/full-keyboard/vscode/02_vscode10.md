@@ -1,5 +1,5 @@
 ---
-title: "vscode 10"
+title: "第 10 课 · 玩转终端"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

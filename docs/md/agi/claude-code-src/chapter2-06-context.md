@@ -1,3 +1,7 @@
+---
+title: "第 2 章 · 上下文系统"
+---
+
 Title: 上下文系统 (context.ts + context/) | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/context-system.html

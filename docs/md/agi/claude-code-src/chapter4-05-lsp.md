@@ -1,3 +1,7 @@
+---
+title: "第 4 章 · LSP 语言服务"
+---
+
 Title: LSP 语言服务器 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/services/lsp.html

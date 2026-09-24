@@ -1,5 +1,5 @@
 ---
-title: "gsd-phase-researcher"
+title: "gsd-phase-researcher 阶段实现调研员"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

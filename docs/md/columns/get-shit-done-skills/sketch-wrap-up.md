@@ -1,5 +1,5 @@
 ---
-title: "sketch-wrap-up"
+title: "sketch-wrap-up 草图成果固化"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

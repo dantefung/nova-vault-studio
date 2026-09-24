@@ -1,5 +1,5 @@
 ---
-title: "Private Domain Arrogance"
+title: "私域傲慢心态"
 date: "2026-06-17"
 source: "我想不通，原来真的会有人讨厌挣钱…"
 url: "https://mp.weixin.qq.com/s/2FxSbLu6KxntpKItu7EIsg"

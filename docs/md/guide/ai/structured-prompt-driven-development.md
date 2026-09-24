@@ -1,5 +1,5 @@
 ---
-title: "Structured-Prompt-Driven Development (SPDD)"
+title: "结构化提示词驱动开发（SPDD）"
 date: "2026-04-28"
 source: "Martin Fowler"
 url: "https://martinfowler.com/articles/structured-prompt-driven/"

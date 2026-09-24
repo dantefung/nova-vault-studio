@@ -1,5 +1,5 @@
 ---
-title: "extract-learnings"
+title: "extract-learnings 提炼阶段经验"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"
