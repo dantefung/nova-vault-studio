@@ -58,6 +58,7 @@ source: "原创"
 | [深度长文｜2026产品经理AI实践手册](./2026-product-manager-ai-handbook/) | 从需求定义到上线的完整流程拆解，三大心法与项目初始化实践 |
 | [超详细 Codex 上手教程，从入门到精通](./codex-tutorial/) | OpenAI 生态概念、CLI 终端命令、AGENTS.md 配置与问题答疑 |
 | [Codex Desktop 完整系统提示词深度拆解](./codex-desktop-system-prompt/) | 6 个核心设计哲学分析 + 1903 行系统提示词全量中文对照 |
+| [阿里云 AgentCore 架构解析：企业级 Agent 生产化与治理平台](./aliyun-agentcore-enterprise-architecture.md) | 云栖大会分享：四大生产化转变、三层 Judge 评测、AgentLoop 观测、多模式协同与 Skill 资产沉淀 |
 
 ---
 
