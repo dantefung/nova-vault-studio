@@ -9,6 +9,11 @@ url: "https://github.com/gsd-build/get-shit-done"
 
 > GSD 是 Claude Code 的 spec-driven 开发框架：**67 个命令外壳 + 88 个工作流实现 + 33 个 agent**，用 `.planning/` 目录当数据库，靠"磁盘上已经有哪些产物"推导下一步该做什么——人不需要记进度，文件系统就是状态机。
 
+::: tip 教学演示文稿
+本专栏配套 **13 页瑞士国际主义风格教学 PPT**：涵盖系统规模、三层架构、`.planning/` 状态机、Gate 四分类与预算系统，可在线横向翻页浏览。
+👉 [打开 GSD 教学演示文稿（网页 PPT）](../../slides/ppt-gsd-skills/index.md)
+:::
+
 <!-- more -->
 
 本页是专栏总纲，回答三个问题：**它是怎么运转的**、**技能之间怎么互相依赖**、**哪些规则不能违反**。文末是 88 个 workflow 与 33 个 agent 的完整目录。
