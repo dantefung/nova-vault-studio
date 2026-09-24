@@ -171,6 +171,8 @@ date: "2026-05-05"
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) — 开源 Claude Design 替代品，5.8k stars，支持 Claude/GPT/Gemini/Ollama 等多模型，一键导入 Claude Code / Codex 配置，本地优先，MIT 协议
 - [OpenCodex](https://github.com/bitkyc08/opencodex) — Codex 本地代理层，统一管理多模型切换（ChatGPT Plus / GPT 中转站 / MiniMax / DeepSeek），Codex 无需重启、session 不丢失，npm 全局安装即可
+- [Resets AI](https://www.resets-ai.com) — Codex 重置动态与 AI 机会情报，追踪 Codex 公开重置公告与历史，发现带原文来源的 AI 商业化资讯和教程
+- [Codex Resets](https://codex-resets.com/zh-CN) — OpenAI Codex 额度重置追踪与历史记录，监控最新额度重置动态并支持新重置通知提醒
 - [better-harness](https://github.com/QoderAI/better-harness) — QoderAI 开源的 Harness 工程工具
 - [CloudCLI](https://github.com/siteboon/claudecodeui) — 为 Claude Code CLI 打造图形界面，支持手机远程查看进度、操作交互
 - [bozhou-skills](https://github.com/bozhouDev/bozhou-skills) — AI 工具集，包含图像生成、播客转文章、PPT 生成、微信发布、社交封面图等 11 个子项目，主要使用 TypeScript

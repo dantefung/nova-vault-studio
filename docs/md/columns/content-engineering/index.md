@@ -16,6 +16,7 @@ url: ""
 | 序号 | 文档 | 分类 | 说明 |
 |------|------|------|------|
 | 01 | [2 天 2 亿 token：dontbesilent 内容资产工程系统](./dbs-content-system.md) | 实战案例 | Codex 2 天 2 亿 token 把 1293 万字本地内容搭成结构化系统 |
+| 02 | [手把手教你创建一个专属于自己的创作Skill](./custom-creation-skill/) | 创作流工程化 | 导出 X 历史数据入库 Obsidian，让 Codex 生成个人定位与风格统一的专属创作 Skill |
 
 ---
 

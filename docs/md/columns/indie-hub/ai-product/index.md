@@ -20,4 +20,5 @@ url: "https://mp.weixin.qq.com/s/qwiakZDHHOCGij-YQT8aQQ"
 | 1 | [如何找到真正能赚钱的 App 点子](./how-to-find-profitable-app-idea) — 核心三问：用户搜了吗？关键词能打吗？同类产品有人付费吗？ |
 | 2 | [Cursor开发的破软件，竟然年入百万](./cursor-app-80k-month) — 以色列人用 Cursor 两周开发，抄美国 App 做本地化，12 个月月入 8W 刀，技术栈：Claude + Expo + Supabase + RevenueCat |
 | 3 | [10年的网站，被我卖掉了](./sell-10year-website) — 10年个人网站经验分享，网站值钱的关键因素和交易心得 |
+| 4 | [Web出海第二步：竞品调研全流程，教你找到第一个能赚美刀的切入口](./competitor-research-playbook/) — 夏林果万字拆解：功能调研、增长/SEO拆解、商业化定价、技术与用户反馈调研全流程实战 |
 
