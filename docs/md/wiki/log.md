@@ -4,6 +4,21 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-09-24] ingest: DeepSeek DSec 论文深度解读（GrissomFI）
+
+- 来源：`https://mp.weixin.qq.com/s/nZmLYc37EcTUNH6k0kad0g`
+- 归档《一天 300 万个沙盒，DeepSeek 怎么给 Agent 造环境：梁文锋署名 DeepSeek DSec 论文深度解读》微信公众号至 `sources/deepseek-dsec-sandbox-infrastructure.md`
+- 下载 4 张架构与数据对比图至 `images/deepseek-dsec-sandbox-infrastructure/`
+- 内容摘要：DeepSeek 生产级沙盒平台 DSec（arXiv:2609.22978，梁文锋署名）架构全景，日均支撑 300 万沙盒创建，解析 EROFS 分层叠加、3FS 按需加载、virtio-pmem 内存消重与 Rollout 脱离 GPU 机制。
+
+## [2026-09-24] ingest: 用豆包工作搭建个人阅读系统（空格丶）
+
+- 来源：`https://mp.weixin.qq.com/s/wRCJqEZ7vXFzL_p2fkOizQ`
+- 归档《用豆包工作搭建个人阅读系统》微信公众号至 `sources/doubao-work-personal-reading-system.md`
+- 下载 11 张配图至 `images/doubao-work-personal-reading-system/`
+- 内容摘要：利用豆包工作定时任务采集全网资讯，以飞书文档和多维表格作为轻量数据库，搭建无前端卡片式个人阅读信息流全流程。
+
+
 ## [2026-09-09] ingest: 笔记系统（AngusWG blog）
 
 - 来源：`https://anguswg.github.io/blog/pages/fa9ff695-a87f-42c7-9674-3e4a9ab22866/`
