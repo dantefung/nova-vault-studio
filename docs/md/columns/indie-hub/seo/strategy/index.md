@@ -18,3 +18,4 @@ url: ""
 - [SEO New vs Old Keyword Strategy](./seo-new-vs-old-keyword.md) — 新旧关键词策略
 - [SEO ROI Analysis](./seo-roi-analysis.md) — ROI 分析
 - [程序化 SEO（PSEO）：为什么不能用 GPT 批量生成页面](./pseo-gpt-programmatic-seo.md) — PSEO、GPT 使用规范、模板化策略
+- [纯小白个人网站 AI + SEO 实战复盘](./codex-personal-site-ai-seo-case-study.md) — Codex 协同多工具体检、爬虫内链缺陷修复、多 Agent 闭环落地

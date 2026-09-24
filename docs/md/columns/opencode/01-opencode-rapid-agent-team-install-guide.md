@@ -1,13 +1,14 @@
 ---
-title: OpenCode Rapid Agent Team 安装与架构实战指南
+title: "OpenCode Rapid Agent Team 安装与架构实战指南"
 date: "2026-09-14"
+source: "GitHub / VastNext"
 url: "https://github.com/VastNext/opencode-rapid-agent-team"
 ---
 
 # OpenCode Rapid Agent Team 安装与架构实战指南
 
 **项目来源：** [https://github.com/VastNext/opencode-rapid-agent-team](https://github.com/VastNext/opencode-rapid-agent-team)  
-**文档归属：** Agentic Engineer / OpenCode 专栏  
+**文档归属：** OpenCode 专栏  
 **安装范围：** 全局配置（`~/.config/opencode`）  
 **验证状态：** 已完成全局安装并通过官方验证测试套件
 

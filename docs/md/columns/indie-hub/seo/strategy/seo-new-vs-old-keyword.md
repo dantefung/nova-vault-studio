@@ -1,5 +1,5 @@
 ---
-title: "SEO New vs Old Keyword Strategy"
+title: "SEO 新词老词策略"
 date: "2026-06-15"
 source: "哥飞SEO教程"
 url: "https://mp.weixin.qq.com/s/twjroCKjnEyM4NIscGqsvg"

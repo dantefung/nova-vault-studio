@@ -19,6 +19,14 @@ url: ""
 
 ---
 
+## OpenCode
+
+> 聚焦 OpenCode 生态的智能体编排、团队架构、配置规范与自动化工程实战。
+
+[进入专栏 →](/md/columns/opencode/)
+
+---
+
 ## Vibe Coding 指南
 
 > Vibe Coding 开发规范、提示词技巧、上下文管理和工作流架构。

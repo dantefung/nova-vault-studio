@@ -33,7 +33,7 @@ docs/md/
 │   ├── business/    # 商业指南
 │   ├── research/    # 研究方法
 │   └── vm/          # 虚拟机
-├── columns/         # 深度专栏（24 个）
+├── columns/         # 深度专栏（25 个）
 │   ├── indie-hub/   # 独立开发者出海
 │   │   └── seo/     # SEO 建站（22 个子分类）
 │   ├── agentic-engineer/ # AI Agent 工程
@@ -43,6 +43,7 @@ docs/md/
 │   ├── vibe-coding-and-design/ # Vibe Coding + 设计
 │   ├── openclaw/    # OpenClaw 专栏
 │   ├── opc/         # OPC 专栏
+│   ├── opencode/    # OpenCode 专栏
 │   ├── gstack-skills/ # GStack Skills
 │   ├── superpowers-skills/ # Superpowers Skills
 │   ├── mattpocock-skills/ # Matt Pocock Skills
@@ -182,6 +183,7 @@ docs/md/
 | Vibe Coding + 设计 | `columns/vibe-coding-and-design/` |
 | OpenClaw 专栏 | `columns/openclaw/` |
 | OPC 专栏 | `columns/opc/` |
+| OpenCode 专栏、OpenCode | `columns/opencode/` |
 | GStack Skills | `columns/gstack-skills/` |
 | Superpowers Skills | `columns/superpowers-skills/` |
 | Matt Pocock Skills | `columns/mattpocock-skills/` |
@@ -254,7 +256,7 @@ docs/md/
 |------|------|------|
 | guide | 指南文档（AI、Claude Code、CS、开发、终端、OS 等） | `docs/md/guide/` |
 | wiki | LLM Wiki 知识库（四层架构） | `docs/md/wiki/` |
-| columns | 24 个深度专栏 | `docs/md/columns/` |
+| columns | 25 个深度专栏 | `docs/md/columns/` |
 | books | 16 个书籍分类，支持 PDF 内嵌预览 | `docs/md/books/` |
 | slides | 横向翻页网页 PPT 集合 | `docs/md/slides/` |
 | tutorial | 教程区 | `docs/md/tutorial/` |
