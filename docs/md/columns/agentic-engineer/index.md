@@ -30,6 +30,7 @@ source: "原创"
 - [build-with-agents/](./build-with-agents/) — 与智能体一起构建（人本视角的第一人称实践）
 - [2026-product-manager-ai-handbook/](./2026-product-manager-ai-handbook/) — 2026 产品经理 AI 实践手册（全流程实战：从需求调研到测试上线）
 - [codex-tutorial/](./codex-tutorial/) — 超详细 Codex 上手教程（从入门到精通，CLI 与配置实战）
+- [codex-desktop-system-prompt/](./codex-desktop-system-prompt/) — GPT-6 Sol 时代 Codex Desktop 完整系统提示词深度拆解（附 1903 行全文）
 
 ---
 
@@ -56,6 +57,7 @@ source: "原创"
 | [GSD Core 专栏：Spec-Driven 与上下文工程架构](./gsd-core/) | 反上下文腐化架构、The Phase Loop 状态机闭环、Worktree 并发隔离、72 技能全景图谱 |
 | [深度长文｜2026产品经理AI实践手册](./2026-product-manager-ai-handbook/) | 从需求定义到上线的完整流程拆解，三大心法与项目初始化实践 |
 | [超详细 Codex 上手教程，从入门到精通](./codex-tutorial/) | OpenAI 生态概念、CLI 终端命令、AGENTS.md 配置与问题答疑 |
+| [Codex Desktop 完整系统提示词深度拆解](./codex-desktop-system-prompt/) | 6 个核心设计哲学分析 + 1903 行系统提示词全量中文对照 |
 
 ---
 
