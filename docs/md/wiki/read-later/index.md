@@ -41,6 +41,9 @@ date: "2026-05-29"
 | 2026-07-15 | https://x.com/i/status/2076966319031996776 | **张子俊**：把12台iPhone 8变成增长机房——@julianivaldy 把内部实验做成公开作品集再变现，预估年流水六位数人民币，TikTok增长服务 |
 | 2026-09-21 | https://x.com/ainotes_KK/status/2102251206580047933 | 待查看 |
 | 2026-09-21 | https://x.com/leo_xiaolei/status/2102013053084545433 | 待查看 |
+| 2026-09-21 | https://x.com/shaozhu93314/status/2047186395555590428 | 待查看 |
+| 2026-09-21 | https://x.com/HanZhang415188/status/2100857704617316717 | 待查看 |
+| 2026-09-21 | https://x.com/CrazyKaomei/status/2099775364965061013 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076554713336512758 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076887045906256305 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076931650412511257 | 待查看 |
