@@ -174,6 +174,7 @@ date: "2026-05-05"
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) — 开源 Claude Design 替代品，5.8k stars，支持 Claude/GPT/Gemini/Ollama 等多模型，一键导入 Claude Code / Codex 配置，本地优先，MIT 协议
 - [DBX](https://github.com/t8y2/dbx) — Rust 写的轻量级跨平台数据库管理工具，25MB 支持 100+ 数据库（MySQL/PostgreSQL/SQLite/Redis/MongoDB/DuckDB/达梦等），内置 AI SQL 助手（自然语言生成 SQL，支持 Claude/OpenAI/Ollama，内置安全检查）和 MCP Server（Claude Code/Cursor/Windsurf 等 Agent 可直接查询数据库），桌面端 + Docker + CLI + Web，Apache-2.0 协议，20.8k stars
+- [html-explainer](https://github.com/OneMoh/html-explainer) — Agent Skill，把任意主题做成带配音、硬字幕、封面的讲解视频。全本地流水线：调研 → 解说词 → TTS 配音 → 词级字幕 → HTML/CSS/GSAP 画面 → 确定性逐帧 seek 渲染（非录屏，帧级可复现）→ MP4 合成 → QC 体检 → 多画幅封面（16:9/3:4/9:16），Claude Code/OpenAI Codex/WorkBuddy/Cursor/Gemini CLI 等都能加载，支持 edge-tts（免费）和火山引擎（付费）两个 TTS 引擎，23 种画面风格，MIT 协议，64 stars
 - [OpenCodex](https://github.com/bitkyc08/opencodex) — Codex 本地代理层，统一管理多模型切换（ChatGPT Plus / GPT 中转站 / MiniMax / DeepSeek），Codex 无需重启、session 不丢失，npm 全局安装即可
 - [Resets AI](https://www.resets-ai.com) — Codex 重置动态与 AI 机会情报，追踪 Codex 公开重置公告与历史，发现带原文来源的 AI 商业化资讯和教程
 - [Codex Resets](https://codex-resets.com/zh-CN) — OpenAI Codex 额度重置追踪与历史记录，监控最新额度重置动态并支持新重置通知提醒
