@@ -55,6 +55,7 @@ date: "2026-05-05"
 - [skill-creator](https://github.com/skill-creator) — 自动生成标准化的 SKILL.md 文件和目录结构，将团队 SOP 转化为可安装的技能包
 - [chubbyskills](https://github.com/chubbyguan/chubbyskills) — 待查看
 - [slavingia/skills](https://github.com/slavingia/skills) — 基于《The Minimalist Entrepreneur》（《小而美》）的 Indie Developer Skills 系列，Gumroad 创始人出品，按场景和步骤拆解独立开发全流程，适合想做产品和个人品牌的开发者
+- [KeJunMao/gist](https://gist.github.com/KeJunMao/d79876c1920806254827daca3364551c) — 待查看
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
 - [mattpocock/skills](https://github.com/mattpocock/skills) — TypeScript 大神 Matt Pocock（前 Vercel 工程师）的 AI 编程工作流技能库，27 万星，18 个技能，MIT 协议
   - 安装：`npx skills@latest add mattpocock/skills`
