@@ -173,6 +173,7 @@ date: "2026-05-05"
 - [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — **5.4万+ Stars**，把 Stripe/Linear/Figma/Vercel 等顶级品牌的设计系统整理成 DESIGN.md 文件，AI 编程工具可直接读取，包含配色/字体/组件/布局/响应式规则/设计语气，覆盖 AI 工具、开发工具、设计工具、金融/Crypto、消费品牌。把设计系统变成 AI 可直接读取的工程文件。
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) — 开源 Claude Design 替代品，5.8k stars，支持 Claude/GPT/Gemini/Ollama 等多模型，一键导入 Claude Code / Codex 配置，本地优先，MIT 协议
+- [DBX](https://github.com/t8y2/dbx) — Rust 写的轻量级跨平台数据库管理工具，25MB 支持 100+ 数据库（MySQL/PostgreSQL/SQLite/Redis/MongoDB/DuckDB/达梦等），内置 AI SQL 助手（自然语言生成 SQL，支持 Claude/OpenAI/Ollama，内置安全检查）和 MCP Server（Claude Code/Cursor/Windsurf 等 Agent 可直接查询数据库），桌面端 + Docker + CLI + Web，Apache-2.0 协议，20.8k stars
 - [OpenCodex](https://github.com/bitkyc08/opencodex) — Codex 本地代理层，统一管理多模型切换（ChatGPT Plus / GPT 中转站 / MiniMax / DeepSeek），Codex 无需重启、session 不丢失，npm 全局安装即可
 - [Resets AI](https://www.resets-ai.com) — Codex 重置动态与 AI 机会情报，追踪 Codex 公开重置公告与历史，发现带原文来源的 AI 商业化资讯和教程
 - [Codex Resets](https://codex-resets.com/zh-CN) — OpenAI Codex 额度重置追踪与历史记录，监控最新额度重置动态并支持新重置通知提醒
