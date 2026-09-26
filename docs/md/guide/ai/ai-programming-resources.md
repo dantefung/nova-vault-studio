@@ -59,6 +59,7 @@ date: "2026-05-05"
 - [apify/mcpc](https://github.com/apify/mcpc) — **Apify 开源**的 MCP 通用 CLI 客户端，将 Tools/Prompts/Resources/异步任务/通知日志转化为标准终端命令，AI Agent 仅需一个 Bash() 即可调度 MCP 能力。核心能力：渐进式工具发现（按需暴露缩减 Token）、持久会话管理、极佳脚本适配（--json + jq/xargs）、原生凭据与安全代理（OAuth 2.1 + OS Keychain）、MCP Proxy 防 Token 泄露、轻量跨平台。安装：`brew install apify/tap/mcpc` 或 `npm install -g @apify/mcpc`
 - [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) — 绕过 Codex/Claude 反编译/逆向道德感限制的技巧：不在 prompt 里提逆向/反编译，直接让 Agent 按 README_AI.md 处理。需自己先安装好 skill 再让 Agent 执行，Claude Code / Codex 屡试不爽
 - [yaojingang/yao-meta-skill](https://github.com/yaojingang/yao-meta-skill) — 姚老师出品的元技能（Skill 之 Skill），比官方 skill-creator 强太多。输入混乱的流程/提示/聊天记录，输出 90 分技能——扒了 Claude Code 源码 + 揉合全网各家模型技能，花一个月打磨。目前用过最顺手的元技能
+- [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) — 待查看
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
 - [mattpocock/skills](https://github.com/mattpocock/skills) — TypeScript 大神 Matt Pocock（前 Vercel 工程师）的 AI 编程工作流技能库，27 万星，18 个技能，MIT 协议
   - 安装：`npx skills@latest add mattpocock/skills`
