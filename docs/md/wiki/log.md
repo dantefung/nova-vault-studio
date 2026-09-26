@@ -4,6 +4,13 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-09-24] ingest: 产品出海第一步（良竹）
+
+- 来源：`https://x.com/liangzhu_AI/status/2103402474677670352`
+- 归档《产品出海第一步：选择比努力重要 100 倍，快速完成比完美重要 1000 倍》X/Twitter 至 `sources/liangzhu-ai-product-overseas-first.md`
+- 下载 16 张配图至 `images/liangzhu-ai-product-overseas-first/`
+- 内容摘要：14 年 IT 裸辞出海，2 小时用 AI 搓简陋静态页，24 小时 26 万曝光、当月 2200 美金。拆解选词（Trends + Ahrefs/Similarweb + 哥飞词根法）、极速上线（Spaceship + Cloudflare 5 刀 6 站 + Neon + AI 监控）、外链本质（公网投票 + 冷启动暴力堆 + 精细化捡漏）、四大变现方向（游戏/工具/AI/代充）与新手心法（正反馈大于一切）。
+
 ## [2026-09-24] ingest: DeepSeek DSec 论文深度解读（GrissomFI）
 
 - 来源：`https://mp.weixin.qq.com/s/nZmLYc37EcTUNH6k0kad0g`
