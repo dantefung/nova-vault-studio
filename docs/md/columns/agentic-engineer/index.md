@@ -28,6 +28,8 @@ source: "原创"
 - [pensieve/](./pensieve/) — Pensieve 自增长知识库
 - [other-tools/](./other-tools/) — 其他工具与实践案例
 - [build-with-agents/](./build-with-agents/) — 与智能体一起构建（人本视角的第一人称实践）
+- [deepseek-dsec-sandbox-infrastructure.md](./deepseek-dsec-sandbox-infrastructure.md) — DeepSeek DSec 论文深度解读：一天 300 万个沙盒，梁文锋署名
+- [build-with-agents/](./build-with-agents/) — 与智能体一起构建（人本视角的第一人称实践）
 - [2026-product-manager-ai-handbook/](./2026-product-manager-ai-handbook/) — 2026 产品经理 AI 实践手册（全流程实战：从需求调研到测试上线）
 - [codex-tutorial/](./codex-tutorial/) — 超详细 Codex 上手教程（从入门到精通，CLI 与配置实战）
 - [codex-desktop-system-prompt/](./codex-desktop-system-prompt/) — GPT-6 Sol 时代 Codex Desktop 完整系统提示词深度拆解（附 1903 行全文）

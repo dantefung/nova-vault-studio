@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-09-26] ingest: 我是如何使用 AI 创作长视频脚本的（Yihui）
+
+- 来源：`https://x.com/yihui_indie/status/2103737256116924703`
+- 归档《我是如何使用 AI 创作长视频脚本的》X/Twitter 至 `sources/yihui-ai-video-scripting.md`
+- 下载 18 张配图至 `images/yihui-ai-video-scripting/`
+- 同步归档到 `columns/content-engineering/yihui-ai-video-scripting.md`
+- 内容摘要：Yihui 用 YouMind + Codex 实时语音 + 白板四步法创作长视频脚本：①YouMind 建项目倒观点 ②白板前与 AI 共创三段式大纲 ③Codex 实时语音聊出逐字稿 ④文字转语音倍速听稿打磨控时。从一天缩到 2-3 小时，B 站播放从几千破万。
+
 ## [2026-09-24] ingest: 产品出海第一步（良竹）
 
 - 来源：`https://x.com/liangzhu_AI/status/2103402474677670352`
