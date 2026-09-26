@@ -4,6 +4,13 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-09-26] ingest: 中国色情行业调查进展（老猫牙口好）
+
+- 来源：`https://x.com/Lwith3cats/status/2103470871805595922`
+- 归档《中国色情行业调查进展》X/Twitter 至 `sources/china-sex-industry-investigation.md`
+- 下载 1 张配图至 `images/china-sex-industry-investigation/`
+- 内容摘要：基于潘绥铭、黄盈盈等学者的田野调查（1997-2015，23 个红灯区，1132 名受访者），揭示色情行业并非悬浮于社会之外的污秽角落，而是经济转型、企业倒闭、失业等社会问题的下游承接者。东北下岗女工平均 51.5 个月、换 4.7 份工作后才流入性产业。
+
 ## [2026-09-26] ingest: 我是如何使用 AI 创作长视频脚本的（Yihui）
 
 - 来源：`https://x.com/yihui_indie/status/2103737256116924703`
