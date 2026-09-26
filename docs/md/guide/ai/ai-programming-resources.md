@@ -54,11 +54,13 @@ date: "2026-05-05"
 - [find-skills](https://github.com/find-skills) — 在 GitHub 上搜索和查找合适的 Skills，按类别、星级和更新时间筛选
 - [skill-creator](https://github.com/skill-creator) — 自动生成标准化的 SKILL.md 文件和目录结构，将团队 SOP 转化为可安装的技能包
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
-- [mattpocock/skills](https://github.com/mattpocock/skills) — TypeScript 大神 Matt Pocock（前 Vercel 工程师）的 AI 编程工作流技能库，82.5k stars，18 个技能
+- [mattpocock/skills](https://github.com/mattpocock/skills) — TypeScript 大神 Matt Pocock（前 Vercel 工程师）的 AI 编程工作流技能库，27 万星，18 个技能，MIT 协议
   - 安装：`npx skills@latest add mattpocock/skills`
   - 痛点拆解：沟通不对齐、术语不统一、缺反馈循环、代码熵增
   - 核心技能：`/grill-me`（深度需求拷问）、`/tdd`（红绿重构）、`/caveman`（精简 token 75%）、`/improve-codebase-architecture`（代码库定期保养）
   - 背景：《The Pragmatic Programmer》+ DDD + XP 工程经验提炼
+  - **工程化工作流**（按顺序调用）：①`/setup-matt-pocock-skills`（先定术语和文档规范）→ ②`/grill-with-docs`（对齐想法，沉淀共识文档）→ ③`/to-spec`（落成设计文档）→ ④`/to-tickets`（拆成独立任务）→ ⑤`/implement`（新开会话，一次做一个任务）→ ⑥`/code-review`（检查是否按设计做完）
+  - 特点：全靠文档驱动，不吃上下文，换 Agent 也不怕；需手动按需调用（不像 Superpowers 自动跑到底）
 
 ### 工程与设计标准
 
