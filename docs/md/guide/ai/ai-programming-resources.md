@@ -69,6 +69,7 @@ date: "2026-05-05"
 - [web-design-guidelines](https://github.com/web-design-guidelines) — 将网页设计规则系统化：层次结构、排版、无障碍
 - [building-native-ui](https://github.com/building-native-ui) — React Native/Expo 原生 UI 步骤，避免平台差异和手势错误
 - [remotion-best-practices](https://github.com/remotion-dev/remotion-best-practices) — 可编程视频项目标准，聚焦项目结构和渲染性能
+- [openclaw/test-audit](https://github.com/openclaw/openclaw/blob/main/.agents%2Fskills%2Ftest-audit%2FSKILL.md) — OpenClaw 官方测试审计技能，三种模式（Authoring/Audit/Campaign）清理低价值测试。核心理念：①写新测试前必须回答 4 个问题（保护什么行为？什么回归会触发失败？现有覆盖为何漏掉？是否需要仅测试用的生产接口？），缺一不写；②识别 14 种"垃圾测试模式"（断言自由覆盖率探针、自比较、常量字符串判断、重复契约调用、测试专用导出维护等）；③Campaign 模式可一次性修剪整个子系统的测试面；④OpenClaw 自身实践：删掉约 40 万行测试代码，覆盖率几乎没掉——因为模型特别爱写"为了测试而测试"的无用单元测试，建议给 Agent 更狠的目标："删掉最没用的 20% 测试，覆盖率波动控制在 2% 以内"而非模糊的"清理一下"
 
 ### 生产力与知识管理
 
