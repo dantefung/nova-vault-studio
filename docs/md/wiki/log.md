@@ -11,6 +11,20 @@ source: "llm-wiki"
 - 内容摘要：作者在疫情前於澳門擔任「水房」（地下錢莊）兩年，幫賭客將人民幣轉為港幣現金或籌碼。描述入行經過、日常工作、手腳三百萬的經歷，以及黑錢、黑吃黑、被抓三大風險。最終因目睹賭徒輸光後的精神崩潰而離職，後改為疊碼仔，多年後返台尋得正經工作。
 - 關鍵洞察：水房是賭場與賭客之間的地下暗河，賺的是匯差與手續費，但每一分手續費都沾著別人家庭的血。作者認為離開後「只是換了一艘更大、更黑的船」。
 
+## [2026-09-28] ingest: Claude Code CLI 源码分析
+
+- 来源：`https://x.com/servasyy_ai/status/2039138111566020867`
+- 归档《Claude Code CLI 源码分析：从 Prompt 架构到工业级 AI Agent》至 `sources/claude-code-cli-prompt-ai-agent.md`
+- 内容摘要：深度解析 Claude Code CLI 源码架构，涵盖：① System Prompt 两层缓存架构（静态 global + 动态 session）② 四层递进 Compact 机制（MicroCompact/SessionMemory/Full Compact/PTL Retry）③ Auto Dream 自我进化记忆系统 ④ Proactive 模式与焦点感知 ⑤ 多 Agent 协作（Fork/Subagent/Swarm）⑥ Remote/Bridge 分布式架构 ⑦ Bash 安全分类器 ⑧ 完整遥测追踪链。对比 OpenClaw 9 层架构设计哲学差异。
+- 关键洞察：Claude Code 选缓存优先路线（牺牲灵活性换极致缓存效率），OpenClaw 选组装优先（牺牲缓存换极致可定制性），两者无绝对好坏，针对不同约束最优解。
+
+## [2026-09-28] ingest: Loop 循环工程指南
+
+- 来源：`https://x.com/KyrieCheungYep/status/2070333819249627273`
+- 归档《用好 Loop 能让你事半功倍，六个实战场景教你驾驭循环工程》至 `sources/loop-engineering-guide.md`
+- 内容摘要：系统讲解 Loop Engineering（循环工程）方法论：① Loop 六件套形状（心跳/步骤/Skill/连接器/子agent/状态文件）② 三道筛子判断活是否值得做循环（重复/可验/值得）③ 手把手搭晨间维护循环 ④ 四种心跳类型（会话内/达标为止/定时/事件驱动）⑤ 做/检分离模式 ⑥ 六大实战场景（代码工程/内容流水线/信息监控/文档生成/个人事务/商业运营）⑦ 风险边界与上手阶梯。
+- 关键洞察：Loop Engineering 是从"自己一句句去 prompt"转到"设计一套会继续 prompt 的系统"。人的价值在意图（说清要什么）和担责（对产出负责），中间反复步骤交给循环。AI 杠杆 = 你的技能 × 你的清晰度。
+
 ## [2026-09-26] ingest: 50元搭建一家属于自己的中转站
 
 - 来源：用户提交
