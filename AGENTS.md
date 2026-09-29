@@ -284,7 +284,7 @@ docs/md/
 
 - **来源**: [VastFuture/sanyuan-skills](https://github.com/VastFuture/sanyuan-skills) → `skills/sigma/`
 - **安装路径**: `.agents/skills/sigma/`
-- **触发词**: "teach me"、"I want to learn"、"explain X step by step"、"help me understand"、`/sigma`
+- **触发词**: "learn"、"study"、"teach me"、"tutor me"、"I want to learn"、"help me understand"、"explain X step by step"、"master X"、`/sigma`
 - **核心方法**: Socratic 提问 + 自适应节奏 + 可视化输出（HTML 路线图 / Excalidraw 概念图）
 - **使用规则**:
   - 每轮只问 1-2 题，绝不直接给答案
@@ -323,6 +323,17 @@ docs/md/
   - 标题必须是结论，不是背景说明
   - 数字必须忠实原文，金句不得虚构
   - 4-6 个要点通常是上限
+
+
+#### knowledge-map-extractor — 文章知识地图萃取 Skill
+
+- **来源文章**: [我如何把一篇文章变成一张知识地图](https://mp.weixin.qq.com/s/d2naZgv1gr-gy8PUkOOHUQ)
+- **安装路径**: `.agents/skills/knowledge-map-extractor/`
+- **触发词**: "知识地图"、"萃取文章骨架"、"知识树加流程图"、"提取方法论轨道"、"跨线映射"、"反馈回路"、"交互知识地图 HTML"
+- **核心模型**: 静态知识树 + 动态流程轨道 + 静态到动态映射 + 动态到静态反馈
+- **核心原则**: 大模型负责语义理解和关系判断；脚本负责 ID、组装、环检测、校验和 HTML 渲染
+- **输出**: 规范 `model.json`；默认同时输出可交互单文件 `index.html`
+- **配套资源**: `references/extraction-contract.md`、`scripts/build_map.py`、`assets/map-template.html`
 
 
 ### 站点特性

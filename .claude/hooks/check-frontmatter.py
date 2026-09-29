@@ -25,7 +25,8 @@ def get_staged_md_files():
             capture_output=True, text=True,
         )
         files = result.stdout.strip().split('\n')
-        return [f for f in files if f.endswith('.md')]
+        # Skip skill reference files (not VitePress content)
+        return [f for f in files if f.endswith('.md') and not f.startswith('.agents/skills/')]
     except Exception:
         return []
 
