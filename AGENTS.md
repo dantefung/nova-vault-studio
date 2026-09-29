@@ -278,6 +278,22 @@ docs/md/
 | Git 工作流 | commit-as-prompt、gh-push |
 | 元技能 | skill-forge |
 
+### 已安装技能详情
+
+#### sigma — Bloom 2-Sigma 个性化导师
+
+- **来源**: [VastFuture/sanyuan-skills](https://github.com/VastFuture/sanyuan-skills) → `skills/sigma/`
+- **安装路径**: `.agents/skills/sigma/`
+- **触发词**: "teach me"、"I want to learn"、"explain X step by step"、"help me understand"、`/sigma`
+- **核心方法**: Socratic 提问 + 自适应节奏 + 可视化输出（HTML 路线图 / Excalidraw 概念图）
+- **使用规则**:
+  - 每轮只问 1-2 题，绝不直接给答案
+  - 先诊断用户现有理解，再决定起点
+  - 掌握度 ≥80% 才进入下一概念
+  - 支持 `--resume` 续接上次会话
+- **会话目录**: `sigma/{topic-slug}/`（跨会话持久化学习状态）
+- **相关文件**: `references/excalidraw.md`、`references/html-templates.md`、`references/pedagogy.md`
+
 ### 站点特性
 
 - 全文搜索（中文分词）
