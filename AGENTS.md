@@ -294,6 +294,22 @@ docs/md/
 - **会话目录**: `sigma/{topic-slug}/`（跨会话持久化学习状态）
 - **相关文件**: `references/excalidraw.md`、`references/html-templates.md`、`references/pedagogy.md`
 
+
+#### yao-tutorial-skill — 教程成品生产 Skill
+
+- **来源**: [VastFuture/yao-open-skills](https://github.com/VastFuture/yao-open-skills) → `skills/yao-tutorial-skill/`
+- **安装路径**: `.agents/skills/yao-tutorial-skill/`
+- **触发词**: "写一本教程"、"帮我做个指南"、"创作XX从入门到精通"、"做个橙皮书"、"系统整理XX知识"、"输出一份完整文档"
+- **核心能力**: 输入主题或参考资料 → 自适应研究 → 课程设计大纲 → 完整章节正文 → 每章配图(HTML画板+截图) → 多格式导出(Markdown/DOCX/PDF/HTML)
+- **使用规则**:
+  - 用户资料足够时以用户资料为主线，不足时补充官方文档/论文/GitHub
+  - 教程深度以"学习充分性"为准，不设固定字数上限
+  - 每个编号章节必须有独立质检记录和一张嵌入配图
+  - 公开导出不显示内部来源 ID（如[U1]、[X1]）
+  - 绝不伪造推文、论文、仓库详情、日期或引用
+- **配套脚本**: `scripts/build_visual_pack.py`、`scripts/capture_visuals.py`、`scripts/export_tutorial.py`、`scripts/validate_package.py`
+- **参考文件**: `references/input-adaptation.md`、`references/research-sourcing.md`、`references/tutorial-outline-and-writing.md`、`references/course-design-principles.md`、`references/visual-html-workflow.md`、`references/export-workflow.md`
+
 ### 站点特性
 
 - 全文搜索（中文分词）
