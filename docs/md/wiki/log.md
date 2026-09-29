@@ -4,6 +4,20 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+
+## [2026-09-28] ingest: Obsidian使用技巧
+
+- 来源：`https://github.com/Daotin/obsidian-notes/blob/main/Obsidian使用技巧.md`（Daotin/Obsidian Notes）
+- 归档《Obsidian使用技巧》至 `sources/Obsidian使用技巧.md`
+- 内容摘要：整理Obsidian核心使用技巧：①内部链接语法（页面引用/标题引用/别名引用/嵌入引用/块级引用）②Callout呼叫框12种类型（note/info/tip/warning/danger等）及语法 ③折叠与展开语法（> [!note]+）④多层嵌套支持。附Callout类型对照表。
+- 关键洞察：Obsidian双向链接是知识网络连接的核心，Callout让笔记层次更清晰，折叠语法控制信息密度。
+
+## [2026-09-28] ingest: 10x程序员工作法
+
+- 来源：`https://github.com/Daotin/obsidian-notes/blob/main/工作相关/职业发展/10x程序员工作法/10x程序员工作法.md`（Daotin/Obsidian Notes）
+- 归档《10x程序员工作法》至 `sources/10x程序员工作法.md`
+- 内容摘要：阐述10x程序员核心工作法"以终为始"：①定义DoD（Definition of Done）验收标准 ②测试驱动开发+持续集成实践 ③跳出程序员思维看待需求 ④迭代0准备：明确别人怎么用、上线流程）。强调做任何事前先定义完成标准，用可检查的检查项清单替代模糊的"开发完成"。
+- 关键洞察：以终为始的本质是"先定义完成标准再行动"，DoD将模糊的"开发完成"转化为可检查清单，避免返工。
 ## [2026-09-28] ingest: 如何学习一门技术
 
 - 来源：`https://github.com/Daotin/obsidian-notes`（Daotin 的 Obsidian 笔记）
