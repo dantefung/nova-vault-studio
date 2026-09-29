@@ -310,6 +310,34 @@ docs/md/
 - **配套脚本**: `scripts/build_visual_pack.py`、`scripts/capture_visuals.py`、`scripts/export_tutorial.py`、`scripts/validate_package.py`
 - **参考文件**: `references/input-adaptation.md`、`references/research-sourcing.md`、`references/tutorial-outline-and-writing.md`、`references/course-design-principles.md`、`references/visual-html-workflow.md`、`references/export-workflow.md`
 
+
+#### any2card — 信息卡生成技能
+
+- **来源**: [geekjourneyx/any2card](https://github.com/geekjourneyx/any2card) → `main/`
+- **安装路径**: `.agents/skills/any2card/`
+- **触发词**: "信息卡"、"卡片摘要"、"文章配图"、"内容提炼"、"社交分享图"、"把链接做成卡片"、"生成海报式摘要"
+- **核心能力**: 将任意文本、网页或 URL 转成 HTML 信息卡片，支持 4 大主题家族（编辑型/精准型/电影型/表达型），内置一键保存 PNG 按钮
+- **使用规则**:
+  - 先分析内容再推荐风格（1主推荐+2备选），不直接生成
+  - 画布比例自动判断（portrait/square/landscape/auto）
+  - 标题必须是结论，不是背景说明
+  - 数字必须忠实原文，金句不得虚构
+  - 4-6 个要点通常是上限
+
+
+#### any2card — 信息卡生成技能
+
+- **来源**: [geekjourneyx/any2card](https://github.com/geekjourneyx/any2card) → `main/`
+- **安装路径**: `.agents/skills/any2card/`
+- **触发词**: "信息卡"、"卡片摘要"、"文章配图"、"内容提炼"、"社交分享图"、"把链接做成卡片"、"生成海报式摘要"
+- **核心能力**: 将任意文本、网页或 URL 转成 HTML 信息卡片，支持 4 大主题家族（编辑型/精准型/电影型/表达型），内置一键保存 PNG 按钮
+- **使用规则**:
+  - 先分析内容再推荐风格（1主推荐+2备选），不直接生成
+  - 画布比例自动判断（portrait/square/landscape/auto）
+  - 标题必须是结论，不是背景说明
+  - 数字必须忠实原文，金句不得虚构
+  - 4-6 个要点通常是上限
+
 ### 站点特性
 
 - 全文搜索（中文分词）
