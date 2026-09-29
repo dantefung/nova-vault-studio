@@ -11,6 +11,19 @@ source: "llm-wiki"
 - 归档《对哥飞SEO方法论的个人观点》至 `sources/哥飞seo方法论观点.md`
 - 内容摘要：作者分析哥飞SEO商业模式，提出六点理解：①商业逻辑是"找已有流量→发现需求→快速上线→验证放大" ②本质是非创造需求而是从已有流量里接需求 ③实操存在变数，每个环节都影响结果 ④哥飞未公开项目涉及利益冲突 ⑤核心教的是方法论而非具体项目 ⑥学艺在个人，有人还没拿到结果。
 - 关键洞察：哥飞卖的是"从已有流量里发现需求"的方法论，这套方法适应360行但结果因人而异。核心项目不公开，教的是通用打法而非盈利秘密。
+
+## [2026-09-28] ingest: DeepSeek Harness 架构深度解析
+
+- 来源：（ForceInjection Blog）
+- 归档《一切皆插件：DeepSeek Harness 是怎么把 Agent 装起来的》至 `sources/deepseek-harness-architecture.md`
+- 内容摘要：深度拆解 DeepSeek Harness（dsh）开源框架的插件化架构设计。涵盖：① Harness 定义——模型之外让 AI 真正干活的工程外壳（工具/上下文管理/循环/恢复/边界）② 为什么要再造框架——内核特权 vs 插件化赌注 ③ 一切皆插件核心设计（Cordis 底座、无特权内核、分层组装 profile/bundle/patch、YAML 预设）④ 关键子系统（AgentLoop 插件化、PTC 呈现模式、沙箱 runner 链、MCP/ACP 集成）⑤ 源码引用对照表。基于 `deepseek-ai/deepseek-harness\~0.1.5-alpha.1` 源码核对。
+- 关键洞察：dsh 的激进设计是'连循环本身都是插件'，没有需要打补丁的特权内核，扩展方式是'把插件挂载到其他插件旁边'。构建在 Cordis 插件内核之上，支持时间/空间可组合性。
+
+
+- 来源：（ForceInjection Blog）
+- 归档《一切皆插件：DeepSeek Harness 是怎么把 Agent 装起来的》至 `sources/deepseek-harness-architecture.md`
+- 内容摘要：深度拆解 DeepSeek Harness（dsh）开源框架的插件化架构设计。涵盖：① Harness 定义——模型之外让 AI 真正干活的工程外壳（工具/上下文管理/循环/恢复/边界）② 为什么要再造框架——内核特权 vs 插件化赌注 ③ 一切皆插件核心设计（Cordis 底座、无特权内核、分层组装 profile/bundle/patch、YAML 预设）④ 关键子系统（AgentLoop 插件化、PTC 呈现模式、沙箱 runner 链、MCP/ACP 集成）⑤ 源码引用对照表。基于 `deepseek-ai/deepseek-harness\~0.1.5-alpha.1` 源码核对。
+- 关键洞察：dsh 的激进设计是'连循环本身都是插件'，没有需要打补丁的特权内核，扩展方式是'把插件挂载到其他插件旁边'。构建在 Cordis 插件内核之上，支持时间/空间可组合性。
 ## [2026-09-28] ingest: 疫情前，我在澳門做過兩年「水房」
 
 - 来源：用户提交（4hydraomo Macau 社群）
