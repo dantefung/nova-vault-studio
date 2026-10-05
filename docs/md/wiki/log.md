@@ -3539,3 +3539,9 @@ source: "llm-wiki"
 - 内容摘要：「流量套利」不是把同一个人从 Facebook 搬到另一个平台就赚差价，而是「先花钱买访问/点击→让对方行为结算收入→能不能打正」的全链路账；三种出口钱从哪来完全不同（搜索套利 = 搜索广告主分成 / 产品变现 = 产品方或联盟按 CPI-CPL-CPS / 网站广告 = 广告主预算经平台按 RPM）；每个出口配 100 美元买量示例账（搜索套利赚 20/产品变现赚 50/网站广告赚 20）纠掉「广告主整笔点击费 = 我的收入」的最常见误解；普通人不要先注册平台 — ① 选变现项目搞清结算 ② 数据接起来 ③ 才花钱测试 ④ 才扩量；AI 只交重复工作，收入确认规则/亏损上限/停投条件不能省；永久佣金陷阱（多年续费分成不能当今天已赚）
 | 2026-09-26 | 《Codex + Excalidraw 带你一句话出片：手绘白板风格视频，不露脸、不剪辑、高质感》 | 采集 + 15 张图 | sources/codex-excalidraw-whiteboard-video.md |
 | 2026-09-26 | 《销售羞耻症克服指南》 | 采集 + 1 张图 | sources/sales-shame-guide.md |
+
+## [2026-10-05] ingest: Agent Sandbox 调研与选型
+
+- 归档《Agent Sandbox｜智能体任务沙箱调研与选型》微信公众号·闲云至 sources/agent-sandbox-survey.md
+- 下载 4 张配图至 images/agent-sandbox-survey/（架构图、六层分层图、训练解耦图、选型矩阵）
+- 内容摘要：深入梳理 Agent Sandbox 六层基础设施架构（从多智能体协作到底层隔离运行时），横向对比 Google AX、Agent Substrate、DeepSeek DSec、OpenSandbox、K8s SIG Agent Sandbox、OpenKruise Agents、CubeSandbox、E2B Runtime、BoxLite 九大主流方案，给出企业分阶段落地选型建议——当前推荐 OpenSandbox + K8s SIG Agent Sandbox / OpenKruise + gVisor/Kata 路线
