@@ -61,6 +61,7 @@ date: "2026-05-05"
 - [yaojingang/yao-meta-skill](https://github.com/yaojingang/yao-meta-skill) — 姚老师出品的元技能（Skill 之 Skill），比官方 skill-creator 强太多。输入混乱的流程/提示/聊天记录，输出 90 分技能——扒了 Claude Code 源码 + 揉合全网各家模型技能，花一个月打磨。目前用过最顺手的元技能
 - [tester-army/e2e](https://github.com/tester-army/e2e) — **面向 LLM 的测试框架**，测试用例用自然语言驱动 + 传统断言混写。核心创新：`agent.act('upgrade the workspace to the Pro plan')` 自然语言指令首次让 Agent 探索并缓存操作，后续直接回放不再调模型（节省 token）。Web 引擎走 Playwright，移动引擎通过 agent-device 驱动 iOS/Android 模拟器，Web 和移动同一套 API
 - [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/pstack) — Cursor 的项目上下文恢复插件，四个核心 Skill：/how（讲代码怎么运作）、/why（讲为什么这样写）、/recall（开工前恢复上下文）、/teach（讲到你真懂）。配套 [skills 目录](https://github.com/cursor/plugins/tree/main/pstack%2Fskills)
+- [1stbills.com](https://1stbills.com) — 地址证明材料整理网站，银行账单、水电燃气账单、收入证明等类型都有，常注册海外平台的可以了解不同地区的材料要求
 - [超级符的 AI 产品经理课](https://chaojifeng.me/ai-terms) — 免费学习 AI 的网站，用故事一步步教会你怎么在 AI 时代做产品经理，知识付费进入免费时代
 - [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) — 待查看
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
