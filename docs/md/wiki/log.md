@@ -3545,3 +3545,10 @@ source: "llm-wiki"
 - 归档《Agent Sandbox｜智能体任务沙箱调研与选型》微信公众号·闲云至 sources/agent-sandbox-survey.md
 - 下载 4 张配图至 images/agent-sandbox-survey/（架构图、六层分层图、训练解耦图、选型矩阵）
 - 内容摘要：深入梳理 Agent Sandbox 六层基础设施架构（从多智能体协作到底层隔离运行时），横向对比 Google AX、Agent Substrate、DeepSeek DSec、OpenSandbox、K8s SIG Agent Sandbox、OpenKruise Agents、CubeSandbox、E2B Runtime、BoxLite 九大主流方案，给出企业分阶段落地选型建议——当前推荐 OpenSandbox + K8s SIG Agent Sandbox / OpenKruise + gVisor/Kata 路线
+
+## [2026-10-08] ingest: Marc Lou 卖身体广告
+
+- 来源：`https://mp.weixin.qq.com/s/X63pmCizdAifLFOyM_cVDg`（微信公众号：Victor在西雅图）
+- 归档《他把自己的身体卖了 11.2 万美元：Marc Lou 的钱早就不从代码里来了》至 `sources/marc-lou-body-sell.md`
+- 下载 1 张配图至 images/marc-lou-body-sell/
+- 内容摘要：独立开发者 Marc Lou 靠 ShipFast 成名，但收入结构已从代码模板转向 TrustMRR 平台（交易撮合抽佣）和个人品牌（身体广告拍卖）。分析其 18 个产品收入排序、TrustMRR 5 天 MRR 到 1.8 万的起飞路径、拒绝 120 万收购报价的逻辑，以及「卖身体」拍卖设计的三个传播机制——规则即传播、退款降门槛、故事带结局。核心结论：代码模板会被 AI 越做越便宜，一个人的注意力却越来越贵。
