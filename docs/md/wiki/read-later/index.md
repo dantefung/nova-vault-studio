@@ -71,6 +71,8 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/Yooeec3/status/2107796524587757621 | 待查看 |
 | 2026-09-29 | https://x.com/miles_mazy/status/2108125197266198942 | 待查看 |
 | 2026-09-29 | https://x.com/KinGao476942/status/2108132811635032316 | 待查看 |
+| 2026-09-29 | https://x.com/yhslgg/status/2108022272095408163 | 待查看 |
+| 2026-09-29 | https://x.com/yhslgg/status/2104418460919058651 | 待查看 |
 | 2026-09-21 | https://x.com/nopinduoduo/status/2103316388261830831 | 待查看 |
 | 2026-09-21 | https://x.com/HanZhang415188/status/2103030353174630574 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076554713336512758 | 待查看 |
