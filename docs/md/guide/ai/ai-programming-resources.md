@@ -64,6 +64,7 @@ date: "2026-05-05"
 - [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/pstack) — Cursor 的项目上下文恢复插件，四个核心 Skill：/how（讲代码怎么运作）、/why（讲为什么这样写）、/recall（开工前恢复上下文）、/teach（讲到你真懂）。配套 [skills 目录](https://github.com/cursor/plugins/tree/main/pstack%2Fskills)
 - [pstack-claude](https://github.com/poteto/pstack-claude) — 将 pstack 从 Cursor 移植到 Claude Code、Codex、Pi、GitHub Copilot 等环境的开源项目。以 `poteto-mode` 为入口，模型根据任务目标调用对应流程（how/why/architect 等），把复杂代码改动拆解为可验证的工程步骤。如排查 bug：先在真实环境复现失败，调用 how/why 调查根因，architect 确定模块设计，委派子代理实现最小修复，最后重跑验证。移植通过 `substitutions.json` 把 Cursor 的 Task 改写为 Claude 的 Agent，`forks.json` 登记策略差异（如 autopilot-full 规定只做到 merge-ready）。完整运行需要各平台扩展与工具接口支持，纯拷贝技能文件拿不到调度能力
 - [1stbills.com](https://1stbills.com) — 地址证明材料整理网站，银行账单、水电燃气账单、收入证明等类型都有，常注册海外平台的可以了解不同地区的材料要求
+- [Anning01/AIMedia](https://github.com/Anning01/AIMedia) — AI 媒体相关开源项目
 - [超级符的 AI 产品经理课](https://chaojifeng.me/ai-terms) — 免费学习 AI 的网站，用故事一步步教会你怎么在 AI 时代做产品经理，知识付费进入免费时代
 - [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) — 待查看
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
