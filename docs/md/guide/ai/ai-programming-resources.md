@@ -66,7 +66,7 @@ date: "2026-05-05"
 - [1stbills.com](https://1stbills.com) — 地址证明材料整理网站，银行账单、水电燃气账单、收入证明等类型都有，常注册海外平台的可以了解不同地区的材料要求
 - [Anning01/AIMedia](https://github.com/Anning01/AIMedia) — AI 媒体相关开源项目
 - [Dataojitori/nocturne_memory](https://github.com/Dataojitori/nocturne_memory) — 开源项目
-- [BaoCut](https://baocut.com) — 宝玉老师的视频转录工具，支持转录 YouTube 任意视频并合轨双语字幕，用于英语学习和信息搜集，Skill 开源，仅需 Mac
+- [BaoCut](https://baocut.com) — 宝玉老师的字幕转录翻译剪辑 Skill（仅 Mac）。Agent Skill 可以转录视频、识别 Speaker、润色（纠正错别字口癖）、根据转录结果剪辑（删除口癖重复等）。提供 CLI 配合 Skill，Agent 转录/润色/翻译后实时同步进度到 GUI，可在 GUI 预览和人工编辑。使用方式：`/baocut 转录并翻译视频：<视频 url 或路径>`。Skill 地址：[jimliu/baocut](https://github.com/jimliu/baocut)
 - [超级符的 AI 产品经理课](https://chaojifeng.me/ai-terms) — 免费学习 AI 的网站，用故事一步步教会你怎么在 AI 时代做产品经理，知识付费进入免费时代
 - [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) — 待查看
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
