@@ -268,6 +268,8 @@ date: "2026-05-29"
 | 2026-06-28 | https://mp.weixin.qq.com/s/RCnJP6xGT5-OvU7yhCrzGQ | **哥飞：BlogToPin月入1.6万美元**：把博客文章自动做成Pinterest图片并排期发布，工具产品化案例拆解 |
 | 2026-09-20 | https://x.com/i/status/2101584386990964995 | **疯狂的烤妹儿：单人操盘590位博主/26亿播放的AIGC带货流水线** ~~已采集~~ → 已归档至 [summaries/crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) |
 | 2026-09-19 | https://x.com/i/status/2101306694747701384 | **刘佳怡：短信验证码自动转发邮件** ~~已采集~~ → 已归档至 [summaries/liujiayi1111-sms-code-forward](/md/wiki/summaries/liujiayi1111-sms-code-forward) |
+| 2026-10-12 | https://x.com/ElowenY20119/status/2107049804480291261?s=20 | **ElowenY20119**：贴图号3天跑出12.9万阅读后限流——从全自动踩坑到人机协作，附完整生产SOP/提示词/插件/避坑清单，含飞书完整源文档 |
+| 2026-10-12 | https://x.com/fatparrotdaily/status/2108502537053536468?s=20 | **fatparrotdaily/鹦鹉哥**：中国人全球移民全维度一览表（工作/收入/安全/门槛/幸福/去和留），10张图按穷人/中产/富人三套权重评估 |
 ## 微信公众号
 
 | 日期 | 链接 | 摘要 |
