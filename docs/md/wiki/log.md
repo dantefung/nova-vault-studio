@@ -3552,3 +3552,17 @@ source: "llm-wiki"
 - 归档《他把自己的身体卖了 11.2 万美元：Marc Lou 的钱早就不从代码里来了》至 `sources/marc-lou-body-sell.md`
 - 下载 1 张配图至 images/marc-lou-body-sell/
 - 内容摘要：独立开发者 Marc Lou 靠 ShipFast 成名，但收入结构已从代码模板转向 TrustMRR 平台（交易撮合抽佣）和个人品牌（身体广告拍卖）。分析其 18 个产品收入排序、TrustMRR 5 天 MRR 到 1.8 万的起飞路径、拒绝 120 万收购报价的逻辑，以及「卖身体」拍卖设计的三个传播机制——规则即传播、退款降门槛、故事带结局。核心结论：代码模板会被 AI 越做越便宜，一个人的注意力却越来越贵。
+## [2026-10-14] ingest: 9条X推文批量采集
+
+- 来源：x.com/Yooeec3、kongge_space、DongQingAsk、0xlangeai、aehyok、eze_is_1、wquguru、CloudHuxxx（X/Twitter）
+- 归档以下9篇文章至 `sources/`：
+  - `yooeec3-dating-guide.md` — 恋爱教母版Yooee：小红书主页打造与约见实操指南（含陪拍切入邪修）
+  - `kongge-space-custom-feed.md` — 空格：定制化个人信息流教程（被小红书抖音禁了）
+  - `dongqing-xhs-product-selection.md` — 冬青：小红书选品七看法与监控软件开发指南
+  - `0xlangeai-spacesxi-subscription-guide.md` — 蓝哥AI：SpaceXSI订阅大一统详解（Grok/Cursor/X合并套餐）
+  - `aehyok-grokbot-viral-monitor.md` — AI少年：Grok Bot自动监控爆款工作流（开源）
+  - `eze-grokbot-multi-bot-workflow.md` — 一泽Eze：Grok Bot 10条经验与multi-bots工作流设计
+  - `wquguru-magpie-ai-agent-dev.md` — WquGuru：magpie全AI自动化构建深度分析（19天1204版本）
+  - `cloudhu-ai-writing-taste.md` — CloudHu：AI味来源分析（分布收敛与"不是...而是..."句式）
+  - `cloudhu-ai-overseas-website-tutorial.md` — CloudHu：面向小白的AI出海建站全流程教程
+- 内容摘要：本批次涵盖AI工具使用（Grok Bot/Cursor/SpaceXSI订阅）、小红书选品方法论、AI自动化开发工作流（magpie项目）、AI写作风格分析等主题
