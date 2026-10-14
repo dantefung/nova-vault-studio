@@ -351,3 +351,20 @@ wiki/
 | [ga4-exploration-reports](/md/wiki/concepts/ga4-exploration-reports) | GA4 探索报告 7 种核心分析方法：自由形式、漏斗、路径、细分重叠、用户分层、同类群组、用户生命周期 | 公众号 |
 | [ga4-segment-vs-comparison](/md/wiki/concepts/ga4-segment-vs-comparison) | 细分、对比项、筛选条件三者辨析：作用范围与可复用性的关键区别 | 公众号 |
 | [ga4-metrics-concepts](/md/wiki/concepts/ga4-metrics-concepts) | GA4 指标体系：事件级/用户级/会话级三类指标及转化率、AOV、LTV、留存率 | 公众号 |
+
+### Agent 工程模式 (Agent Engineering Patterns)
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [error-notebook-pattern](/md/wiki/patterns/error-notebook-pattern) | 错题本模式：agent 每晚复盘 commit，同一条教训出现3天即升格为硬规则，magpie 发版频率因此从168→15个/天 | X |
+| [agent-router-table](/md/wiki/patterns/agent-router-table) | 路由表模式：CLAUDE.md 只放路由不放规则，agent 自行查表获取上下文，规则可独立演进 | X |
+| [viral-content-monitoring](/md/wiki/patterns/viral-content-monitoring) | 爆款监控工作流：定时扫描对标账号 + 阈值判断 + 自动推送，对接免费模型实现 token 零消耗 | X |
+
+### AI 产品与订阅 (AI Products & Subscriptions)
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [shared-weekly-pool](/md/wiki/concepts/shared-weekly-pool) | SpaceXSI 共用周池：Grok 与 Cursor 共享每周刷新的 AI 用量池，打破单产品独立计量 | X |
+| [bot-vs-codex-context](/md/wiki/concepts/bot-vs-codex-context) | Bot vs Codex 上下文机制：Bots 类 Agent 跨会话留存 vs 会话型 Agent 每次独立上下文 | X |
+| [xhs-product-selection](/md/wiki/concepts/xhs-product-selection) | 小红书选品七看方法论：爆品值+商品价值双指标 + 监控软件开源实现 | X |
+| [distributional-convergence](/md/wiki/concepts/distributional-convergence) | 分布收敛：AI 无具体约束时趋向训练数据最常见方案，解释 AI 味和蓝紫色前端现象 | X |

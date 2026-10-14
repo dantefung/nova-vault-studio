@@ -3566,3 +3566,10 @@ source: "llm-wiki"
   - `cloudhu-ai-writing-taste.md` — CloudHu：AI味来源分析（分布收敛与"不是...而是..."句式）
   - `cloudhu-ai-overseas-website-tutorial.md` — CloudHu：面向小白的AI出海建站全流程教程
 - 内容摘要：本批次涵盖AI工具使用（Grok Bot/Cursor/SpaceXSI订阅）、小红书选品方法论、AI自动化开发工作流（magpie项目）、AI写作风格分析等主题
+
+## [2026-10-14] ingest: 9条X推文知识页提炼
+
+- 归档至 `sources/` 后提炼为以下知识页：
+  - **概念页（4个）**：`concepts/shared-weekly-pool`、`concepts/bot-vs-codex-context`、`concepts/xhs-product-selection`、`concepts/distributional-convergence`
+  - **模式页（3个）**：`patterns/error-notebook-pattern`、`patterns/agent-router-table`、`patterns/viral-content-monitoring`
+- 新增交叉引用：Grok Bot multi-bots → [[concepts/bot-vs-codex-context]]、magpie agent dev → [[patterns/error-notebook-pattern]] + [[patterns/agent-router-table]]
