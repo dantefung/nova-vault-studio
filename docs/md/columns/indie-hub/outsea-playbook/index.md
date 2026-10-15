@@ -17,3 +17,4 @@ url: "https://x.com/hezhiyan7/status/2057607672875385264"
 | 2 | [Orca vs Paseo：出海协作工具横评](./orca-vs-paseo.md) — 两款出海协作工具深度对比 |
 | 3 | [Traffic Not Quantity：流量胜过数量](./traffic-not-quantity.md) — 出海流量策略核心原则 |
 | 4 | [产品出海第一步：选择比努力重要 100 倍，快速完成比完美重要 1000 倍](./liangzhu-ai-product-overseas-first.md) — 14 年 IT 裸辞出海，2 小时 AI 搓简陋静态页，24 小时 26 万曝光、当月 2200 美金 |
+| 5 | [Pancake 接入指南](./pancake-integration-guide.md) — 商户注册、AI 辅助支付集成、资质审核、生产迁移与提款全流程 |

@@ -46,6 +46,7 @@ date: "2026-06-22"
 | [SaaS 产品落地页设计](../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 | [PMaker：145 篇产品方法论（AI 基础+产品实践）](./pmaker-series/) | 空格·键盘：AI 名词/大模型/提示词/RAG/Agent/成本安全 60 篇 + 产品发现/定义/设计/交互/界面/协作/验证 85 篇 |
 | [出海工具站实战笔记](./outsea-tool-station/index.md) | 易焘 13 篇：需求挖掘/上站流程/AI编程/认知，按作者自述索引分 6 类，含 Cloudflare 上线 SOP |
+| [Pancake 接入指南](./outsea-playbook/pancake-integration-guide.md) | 商户注册、AI 辅助支付集成、审核、生产迁移与提款全流程 |
 
 ## 分类索引
 
