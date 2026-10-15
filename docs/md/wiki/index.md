@@ -377,3 +377,11 @@ wiki/
 | [payment-platform-selection](/md/wiki/patterns/payment-platform-selection) | 支付三档选择：Lemon Squeezy（最快验证）vs Paddle（税务托管）vs Stripe（完整控制） | X |
 | [competitor-research-four-step](/md/wiki/patterns/competitor-research-four-step) | 竞品调研四步法：AITDK初筛 → SiteData体检 → Similarweb拆流量 → Wayback Machine追历史 | X |
 | [analytics-four-piece-set](/md/wiki/patterns/analytics-four-piece-set) | 数据分析四件套：GSC（搜索词）+ GA4（来源）+ PostHog（漏斗）+ Clarity（体验录屏） | X |
+
+### AI 变现与套利（AI Monetization & Arbitrage）
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [gpt-proxy-arbitrage](/md/wiki/concepts/gpt-proxy-arbitrage) | ChatGPT代充原理：利用不同国家/地区价格差异（菲区/智利区）进行区域定价套利 | X |
+| [session-token-acquisition](/md/wiki/concepts/session-token-acquisition) | Session Token 获取技术：通过特定路径提取 ChatGPT 登录态凭据用于支付协议充值 | X |
+| [gray-market-customer-acquisition](/md/wiki/patterns/gray-market-customer-acquisition) | 灰产获客平台策略：抖音直播、B站软广、咸鱼黑暗森林及各平台封禁博弈 | X |

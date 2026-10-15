@@ -3588,3 +3588,10 @@ source: "llm-wiki"
 - 来源：`https://x.com/0xraco/status/2110310125609144512`（X/Twitter：Raco | 玉米须）
 - 归档《ChatGPT代充副业新手完整指南》至 `sources/0xraco-gpt-proxy-recharge-guide.md`
 - 内容摘要：原文明确标注"纯教程文，无任何价值导向"，涵盖代充原理（区域差价利润）、充值方式（session获取/卡密兑换/直充）、长期经营建议、各平台获客策略。作者7天日均访客10w后关站。仅归档原始来源，未提炼知识页。
+
+## [2026-10-14] ingest: ChatGPT代充副业知识页提炼
+
+- 提炼知识页：
+  - **概念页**：`concepts/gpt-proxy-arbitrage`（区域定价套利原理）、`concepts/session-token-acquisition`（Session Token获取技术）
+  - **模式页**：`patterns/gray-market-customer-acquisition`（各平台获客与风控博弈策略）
+- 内容摘要：提炼了区域差价套利机制、技术实现要点（session提取）、平台获客风险与策略。
