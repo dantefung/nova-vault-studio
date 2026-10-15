@@ -385,3 +385,12 @@ wiki/
 | [gpt-proxy-arbitrage](/md/wiki/concepts/gpt-proxy-arbitrage) | ChatGPT代充原理：利用不同国家/地区价格差异（菲区/智利区）进行区域定价套利 | X |
 | [session-token-acquisition](/md/wiki/concepts/session-token-acquisition) | Session Token 获取技术：通过特定路径提取 ChatGPT 登录态凭据用于支付协议充值 | X |
 | [gray-market-customer-acquisition](/md/wiki/patterns/gray-market-customer-acquisition) | 灰产获客平台策略：抖音直播、B站软广、咸鱼黑暗森林及各平台封禁博弈 | X |
+
+### AI 工程化（AI Engineering）
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [input-attribution](/md/wiki/concepts/input-attribution) | Pi 与 DSH 输入归属：三条按循环位置互斥的裁决规则，规则是骨架，参数是插口 | 公众号 |
+| [skeleton-and-port](/md/wiki/concepts/skeleton-and-port) | 骨架与插口哲学：跨集成方重复逻辑收进框架，产品差异留在调用方回调 | 公众号 |
+| [vibe-coding-to-engineering](/md/wiki/sources/vibe-coding-to-engineering-ai-coding.md) | 从 Vibe Coding 到工程化 AI Coding：Spec 五要素、Context 管理、Quality Gate、Workflow State | 公众号 |
+| [anthropic-unix-agent](/md/wiki/sources/anthropic-unix-agent-collaboration.md) | Anthropic 多 Agent 架构演进：Unix 管道哲学、Micro-Agent、确定性流水线解耦 | 公众号 |

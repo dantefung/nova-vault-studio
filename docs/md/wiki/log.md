@@ -3595,3 +3595,16 @@ source: "llm-wiki"
   - **概念页**：`concepts/gpt-proxy-arbitrage`（区域定价套利原理）、`concepts/session-token-acquisition`（Session Token获取技术）
   - **模式页**：`patterns/gray-market-customer-acquisition`（各平台获客与风控博弈策略）
 - 内容摘要：提炼了区域差价套利机制、技术实现要点（session提取）、平台获客风险与策略。
+
+## [2026-10-15] ingest: 三篇公众号批量采集与知识页提炼
+
+- 来源：华仔聊技术（Pi与DSH输入归属）、微信公众号《从Vibe Coding到工程化AI Coding》、微信公众号《Anthropic为何Unix哲学才是Agent协作终局》
+- 归档至 `sources/`：
+  - `pi-dsh-input-attribution.md` — Pi与DSH输入归属第三篇（三条裁决规则）
+  - `vibe-coding-to-engineering-ai-coding.md` — 工程化AI Coding：Spec/Context/Quality Gate/Workflow
+  - `anthropic-unix-agent-collaboration.md` — Unix哲学多Agent协作终局
+- 提炼知识页（concepts/）：
+  - `input-attribution` — 三条裁决规则（steering/follow-up/直接注入）+ 四层模型对应
+  - `skeleton-and-port` — 骨架与插口哲学（规则共享/参数各异）
+- 配图本地化：pi-dsh（10张）、vibe-coding（9张）、anthropic-unix（6张）
+- 内容摘要：本批次聚焦Agent工程化核心问题——输入归属裁决机制、Vibe Coding的工程化升级路径、多Agent协作的Unix管道架构
