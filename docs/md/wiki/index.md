@@ -368,3 +368,12 @@ wiki/
 | [bot-vs-codex-context](/md/wiki/concepts/bot-vs-codex-context) | Bot vs Codex 上下文机制：Bots 类 Agent 跨会话留存 vs 会话型 Agent 每次独立上下文 | X |
 | [xhs-product-selection](/md/wiki/concepts/xhs-product-selection) | 小红书选品七看方法论：爆品值+商品价值双指标 + 监控软件开源实现 | X |
 | [distributional-convergence](/md/wiki/concepts/distributional-convergence) | 分布收敛：AI 无具体约束时趋向训练数据最常见方案，解释 AI 味和蓝紫色前端现象 | X |
+
+### 出海工具与方法（Global Expansion & Overseas Tools）
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [overseas-tool-stack](/md/wiki/concepts/overseas-tool-stack) | 出海工具栈全景：56个实战工具按7大方向分类（调研/SEO/设计/建站/支付/增长/分析） | X |
+| [payment-platform-selection](/md/wiki/patterns/payment-platform-selection) | 支付三档选择：Lemon Squeezy（最快验证）vs Paddle（税务托管）vs Stripe（完整控制） | X |
+| [competitor-research-four-step](/md/wiki/patterns/competitor-research-four-step) | 竞品调研四步法：AITDK初筛 → SiteData体检 → Similarweb拆流量 → Wayback Machine追历史 | X |
+| [analytics-four-piece-set](/md/wiki/patterns/analytics-four-piece-set) | 数据分析四件套：GSC（搜索词）+ GA4（来源）+ PostHog（漏斗）+ Clarity（体验录屏） | X |

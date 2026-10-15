@@ -3573,3 +3573,12 @@ source: "llm-wiki"
   - **概念页（4个）**：`concepts/shared-weekly-pool`、`concepts/bot-vs-codex-context`、`concepts/xhs-product-selection`、`concepts/distributional-convergence`
   - **模式页（3个）**：`patterns/error-notebook-pattern`、`patterns/agent-router-table`、`patterns/viral-content-monitoring`
 - 新增交叉引用：Grok Bot multi-bots → [[concepts/bot-vs-codex-context]]、magpie agent dev → [[patterns/error-notebook-pattern]] + [[patterns/agent-router-table]]
+
+## [2026-10-14] ingest: 夏林果出海56个实战工具清单
+
+- 来源：`https://x.com/momo_peggy/status/2110301714876346822`（X/Twitter：夏林果的出海日记）
+- 归档《出海必备的56个实战工具清单》至 `sources/momo-peggy-56-overseas-tools.md`
+- 提炼知识页：
+  - **概念页**：`concepts/overseas-tool-stack`（7大方向全景图）
+  - **模式页**：`patterns/payment-platform-selection`（Stripe/Paddle/Lemon Squeezy选择）、`patterns/competitor-research-four-step`（竞品调研四步法）、`patterns/analytics-four-piece-set`（数据分析四件套）
+- 内容摘要：把出海流程拆成7大核心方向，整理56个经过实战验证的工具，覆盖建站、获客、支付、增长运营，强调工具是手段、变现才是目标。
