@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-16] ingest: Harness 重构 90 万行遗留系统
+
+- 来源：`https://mp.weixin.qq.com/s/WK8AoYuk23T9yRJ0GPj4qQ`（微信公众号，作者 komahu）
+- 归档《3 个月用 Harness 重构 90 万行旧项目：实战经验与踩坑总结》至 `sources/harness-legacy-refactor.md`
+- 下载并保留 7 张正文流程图至 `images/harness-legacy-refactor/`，排除超大首图与文末装饰素材
+- 精读摘要至 `summaries/harness-legacy-refactor.md`
+- 内容摘要：2 到 3 人团队将 90 万行遗留系统作为需求说明书重新实现，建立需求与设计左移、多 Agent 独立审查、红线配置防篡改、增量变异测试、人工审查上移、状态机和 L1/L2/L3 上下文分层的 Harness 工作流。
+
 ## [2026-10-16] ingest: 独立开发变现周刊第161期
 
 - 来源：`https://mp.weixin.qq.com/s/emFwOrYHQ3n6E0Q-rGCzJQ`（微信公众号：独立开发变现周刊）
