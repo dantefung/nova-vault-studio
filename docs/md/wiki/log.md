@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-16] ingest: 独立开发变现周刊第161期
+
+- 来源：`https://mp.weixin.qq.com/s/emFwOrYHQ3n6E0Q-rGCzJQ`（微信公众号：独立开发变现周刊）
+- 归档《独立开发变现周刊（第161期）：从内容奖励到 AI 原生获客的 10 个案例》至 `sources/indie-development-weekly-161.md`
+- 下载 11 张配图至 `images/indie-development-weekly-161/`
+- 精读摘要至 `summaries/indie-development-weekly-161.md`
+- 内容摘要：整理 X 内容奖励、独立开发销售验证、联盟营销、UGC 冷启动、LLM 推荐获客、微型产品 MRR、AI 视频工具、Agent 营销基础设施、LiteLLM 和 ppt-master 十个案例，提炼真实付费优先、渠道资产化、窄定位和基础设施抽象四条共性。
+
 ## [2026-09-28] ingest: 知识地图萃取方法
 
 - 来源：`https://mp.weixin.qq.com/s/d2naZgv1gr-gy8PUkOOHUQ`（微信公众号：人月聊IT / 何明璐）
