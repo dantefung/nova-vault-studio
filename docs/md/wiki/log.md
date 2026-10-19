@@ -4,6 +4,22 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-19] ingest: AI 视频提示词反推
+
+- 来源：`https://zhuanlan.zhihu.com/p/1995106257019871327`（知乎专栏：小兔 AI 审美局）
+- 归档《AI 视频提示词反推技术指南：基于多模态模型的逆向工程》至 `sources/video-prompt-reverse-engineering.md`
+- 下载并压缩 3 张示意图至 `images/video-prompt-reverse-engineering/`
+- 提炼模式页至 `patterns/video-prompt-reverse-engineering.md`
+- 内容摘要：通过视频切分、客观视觉观察、五层分镜规格、目标模型 Prompt 编译、候选生成与差异评估，将参考视频转化为可修改、可迭代的视频生成指令；强调反推是近似视觉规格而非原始 Prompt 还原。
+
+## [2026-10-19] ingest: AgentTeams Dashboard
+
+- 来源：`https://mp.weixin.qq.com/s/jZQJ9hUppFRp9qq1NnnOzA`（微信公众号，作者柳遵飞/翼严）
+- 归档《AgentTeams Dashboard：统一管理团队、项目与资产》至 `sources/agentteams-dashboard.md`
+- 下载 7 张产品界面图至 `images/agentteams-dashboard/`
+- 提炼产品页至 `products/agentteams-dashboard.md`
+- 内容摘要：AgentTeams Dashboard 是多 Agent 团队的结构化控制面，集中管理用户权限、Team/Worker、Project/Task、Skill/MCP/模型资产、多运行时以及 Qwen Code/OpenCode/Qoder 等编码 CLI 执行记录；Matrix 承载对话，Dashboard 承载治理与审计。
+
 ## [2026-10-16] ingest: Harness 重构 90 万行遗留系统
 
 - 来源：`https://mp.weixin.qq.com/s/WK8AoYuk23T9yRJ0GPj4qQ`（微信公众号，作者 komahu）
