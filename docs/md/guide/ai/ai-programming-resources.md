@@ -70,6 +70,7 @@ date: "2026-05-05"
 - [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) — 上海交大《动手学大模型》，4.2k+ stars。11 个前沿课题：提示学习与思维链、知识编辑、数学推理、模型水印、越狱攻击、大模型隐写、多模态、GUI Agent、RLHF 安全对齐等。每章含 PPT 讲义 + 详细文档 + Jupyter Notebook，可直接跑。另有华为昇腾国产化课程线（PPT + 实验手册 + 配套视频）
 - [browser-use/video-use](https://github.com/browser-use/video-use) — 视频理解与 Agent 操作开源项目，让 AI Agent 能够理解和操作视频内容
 - [wousp112/awesome-justin-sun-ideas-to-ai-howto](https://github.com/wousp112/awesome-justin-sun-ideas-to-ai-howto) — 收集孙宇晨 ideas 到 AI howto 的开源项目
+- [AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc) — MCP 工具，用于 Google Search Console (GSC) 数据集成
 - [超级符的 AI 产品经理课](https://chaojifeng.me/ai-terms) — 免费学习 AI 的网站，用故事一步步教会你怎么在 AI 时代做产品经理，知识付费进入免费时代
 - [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) — 待查看
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
