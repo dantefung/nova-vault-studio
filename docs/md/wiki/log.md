@@ -4,6 +4,13 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-19] archive: 视频反推提示词专业模板
+
+- 来源：用户提供文本
+- 归档《视频反推提示词：快速版与 18 维专业模板》至 `sources/video-prompt-reverse-engineering-professional-template.md`
+- 内容整理：保留快速七要素版、逐镜头十八维专业版、负面提示词、五类视频专项补充和固定输出格式；删除收藏转发等引流话术，并补充不确定信息、敏感属性、模型兼容性、版权与正向质量约束边界。
+- 关联既有 `patterns/video-prompt-reverse-engineering.md`，不重复创建概念页。
+
 ## [2026-10-19] ingest: AI 视频提示词反推
 
 - 来源：`https://zhuanlan.zhihu.com/p/1995106257019871327`（知乎专栏：小兔 AI 审美局）

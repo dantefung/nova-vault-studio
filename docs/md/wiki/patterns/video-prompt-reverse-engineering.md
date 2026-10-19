@@ -76,6 +76,7 @@ url: "https://zhuanlan.zhihu.com/p/1995106257019871327"
 ## Related Pages
 
 - [[sources/video-prompt-reverse-engineering]]
+- [[sources/video-prompt-reverse-engineering-professional-template]]
 - [[concepts/prompt-as-code]]
 - [[summaries/hypit-agent-video-workflow]]
 - [[patterns/ai-self-refine-prompt]]

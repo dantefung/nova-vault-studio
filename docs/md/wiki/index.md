@@ -64,6 +64,7 @@ wiki/
 | [ai-content-pipeline](/md/wiki/concepts/ai-content-pipeline) | AI 内容工厂流水线——用 Agent 串工具把人负责挑选微调，AI 跑完全流程 | X Article |
 | [hypit-agent-video-workflow](/md/wiki/summaries/hypit-agent-video-workflow) | Codex + Hypit 把视频复刻沉淀为可局部修改、批量变体的叙事组件工作流 | X/Twitter |
 | [video-prompt-reverse-engineering](/md/wiki/patterns/video-prompt-reverse-engineering) | 多模态模型把参考视频拆成五层视觉规格，再编译为目标模型 Prompt 并通过生成差异迭代 | 知乎专栏 |
+| [video-prompt-reverse-engineering-professional-template](/md/wiki/sources/video-prompt-reverse-engineering-professional-template) | 视频反推提示词专业模板：快速七要素、逐镜头十八维、负面约束、类型补充与固定输出格式 | 用户提供 |
 | [stripe-x-account-setup](/md/wiki/summaries/stripe-x-account-setup) | Stripe 香港个人账户注册： Individual + 港卡 + 护照 KYC，美元结算账户降低汇损 | X/Twitter |
 | [x-creator-monetization-2026](/md/wiki/summaries/x-creator-monetization-2026) | X 创作者收益完整流程：资格门槛 → 环境伪装 → 身份验证 → Wise/港卡 → W-8BEN | X/Twitter |
 | [canghe-x-stripe-tutorial](/md/wiki/summaries/canghe-x-stripe-tutorial) | X 认证 + Stripe 绑定四步闭环：港卡 → Stripe → X 认证 → 创作者工作室连接 | X/Twitter |
