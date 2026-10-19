@@ -116,6 +116,8 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/alswl/status/2112111190096928930 | 待查看 |
 | 2026-09-29 | https://x.com/xuxuanzhou/status/2112129349071831259 | 待查看 |
 | 2026-09-29 | https://x.com/sujingshen/status/2112061360708403397 | 待查看 |
+| 2026-09-29 | https://x.com/qianshuixia2026/status/2112035541177016322 | 待查看 |
+| 2026-09-29 | https://x.com/liangzhu_AI/status/2112076323598516443 | 待查看 |
 | 2026-09-29 | https://x.com/wangzaimedia/status/2109630699888345369 | 待查看 |
 | 2026-09-29 | https://x.com/ChrisSlacker/status/2093160607541502218 | 待查看 |
 | 2026-09-21 | https://x.com/nopinduoduo/status/2103316388261830831 | 待查看 |
