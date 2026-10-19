@@ -71,6 +71,7 @@ date: "2026-05-05"
 - [browser-use/video-use](https://github.com/browser-use/video-use) — 视频理解与 Agent 操作开源项目，让 AI Agent 能够理解和操作视频内容
 - [wousp112/awesome-justin-sun-ideas-to-ai-howto](https://github.com/wousp112/awesome-justin-sun-ideas-to-ai-howto) — 收集孙宇晨 ideas 到 AI howto 的开源项目
 - [AminForou/mcp-gsc](https://github.com/AminForou/mcp-gsc) — MCP 工具，用于 Google Search Console (GSC) 数据集成
+- [xerj-org/xerj](https://github.com/xerj-org/xerj) — 帮助 AI 下载相近开源仓库、整理成可搜索资料，写代码前先查相关实现。对照测试：XERJ 组比 grep 搜源码组生成的文本量少约 62%（按 token 计）
 - [超级符的 AI 产品经理课](https://chaojifeng.me/ai-terms) — 免费学习 AI 的网站，用故事一步步教会你怎么在 AI 时代做产品经理，知识付费进入免费时代
 - [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) — 待查看
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
