@@ -93,6 +93,7 @@ date: "2026-06-11"
 - [concepts/agentscope-finale](concepts/agentscope-finale) — 收尾：扩展生态、清债方案、上生产决策地图（AgentScope Java 2.0）
 - [[products/deepseek-harness]] — 以「一切皆插件」为核心的可组装 Agent 底盘
 - [[patterns/plugin-first-agent-runtime]] — 极简内核 + 能力外置的 Agent Runtime 模式
+- [[patterns/agent-runtime-safety-guardrails]] — 默认拒绝、运行时授权、成本包络、门禁、回滚与审计组成的安全护栏
 
 ## Sources
 

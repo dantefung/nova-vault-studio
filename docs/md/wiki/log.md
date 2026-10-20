@@ -4,6 +4,22 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-20] ingest: AI 工程化安全护栏
+
+- 来源：`https://mp.weixin.qq.com/s/5zhFeM48-ipqDyIAPvRj9A`（微信公众号，作者徐鑫）
+- 归档《AI 工程化防翻车指南：把安全边界外置到 Harness》至 `sources/ai-engineering-safety-guardrails.md`
+- 从 32 张抓取图片中筛选 10 张核心架构图至 `images/ai-engineering-safety-guardrails/`，排除群聊、活动和代金券广告素材
+- 提炼模式页至 `patterns/agent-runtime-safety-guardrails.md`
+- 内容摘要：以 Never Trust, Always Verify 为核心，将信息边界、工具权限、执行编排、OS 隔离、确定性门禁、回滚审计和自迭代组合为 Agent 运行时纵深防御。
+
+## [2026-10-20] ingest: YC S26 Agent 基础设施趋势
+
+- 来源：`https://mp.weixin.qq.com/s/0Z_8lcd3zjvELaDhEH_2pw`（微信公众号：Victor 在西雅图）
+- 归档《YC 2026 夏季批次：Agent 浪潮向基础设施与实体产业下沉》至 `sources/yc-s26-agent-infrastructure.md`
+- 下载 1 张封面图至 `images/yc-s26-agent-infrastructure/`
+- 提炼趋势摘要至 `summaries/yc-s26-agent-infrastructure.md`
+- 内容摘要：作者认为 YC S26 的创业热点从通用 Agent 应用下沉到身份、支付、记忆、评测、调试和推理成本，并向 AI 原生服务公司、机器人和工业硬件扩散；归档明确标注其二手数据和趋势评论边界。
+
 ## [2026-10-19] archive: 视频反推提示词专业模板
 
 - 来源：用户提供文本

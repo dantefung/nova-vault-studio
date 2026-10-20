@@ -45,6 +45,7 @@ wiki/
 | [llm-cache-mechanism](/md/wiki/concepts/llm-cache-mechanism) | LLM 缓存三层机制：KV Cache → 显存优化 → 前缀缓存，以及 Claude Code/Codex 工程实践 | 公众号 |
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
 | [harness-legacy-refactor](/md/wiki/summaries/harness-legacy-refactor) | 90万行遗留系统重构实践：质量左移、多Agent独立审查、变异测试、防篡改状态机与上下文分层 | 公众号 |
+| [agent-runtime-safety-guardrails](/md/wiki/patterns/agent-runtime-safety-guardrails) | Agent 运行时纵深防御：默认拒绝、最小权限、执行前授权、成本包络、门禁、回滚与脱敏审计 | 公众号 |
 | [ai-coding-delivery](/md/wiki/concepts/ai-coding-delivery) | 复杂业务团队 AI 研发交付：分层知识库 + 文件化 RD 流程 + 前置质量门禁 | 公众号 |
 | [prompt-context-harness](/md/columns/agentic-engineer/other-tools/prompt-context-harness-evolution) | Prompt→Context→Harness 工程进化论 | 文章 |
 | [loop-engineering](/md/wiki/concepts/loop-engineering) | Loop Engineering 溯源与批判：定时任务 → KOL炒作 → 五组件框架，看清词源回归本质 | 公众号 |
@@ -279,6 +280,7 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
+| [yc-s26-agent-infrastructure](/md/wiki/summaries/yc-s26-agent-infrastructure) | YC S26 趋势观察：Agent 基础设施、AI 原生服务公司与机器人/工业硬件升温 | 公众号 |
 | [ai-era-wealth-creation](/md/wiki/sources/ai-era-wealth-creation) | AI时代造富公式：现金流/股权/流动性三路径，四大赛道分析 | 公众号 |
 | [digital-products-side-income](/md/wiki/concepts/digital-products-side-income) | 数字产品副业：国内卖19.9国外卖9美元，Gumroad/Payhip/Sellfy 平台对比 | 公众号 |
 | [indie-product](/md/wiki/concepts/indie-product) | 独立开发者三维度找需求：用户群体×产品形态×收费模式，「官方不管、用户很痒、有人愿意付钱」 | 公众号 |
