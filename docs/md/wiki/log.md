@@ -4,6 +4,23 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-20] ingest: Ray Dalio 经济机器与债务周期
+
+- 来源：`https://medium.com/@doublerong.wang/经济机器是怎样运行的-图文版-by-ray-dalio-227c1835370d`（Medium：Rongrong Wang，原始模型 Ray Dalio）
+- Medium 页面与 Jina 直读返回 403，改用作者官方 Medium RSS 获取完整正文和原图链接
+- 归档《经济机器是怎样运行的：Ray Dalio 的交易、信贷与债务周期模型》至 `sources/how-the-economic-machine-works.md`
+- 从 30 张原始图中筛选并压缩 8 张关键模型图至 `images/how-the-economic-machine-works/`
+- 提炼概念页至 `concepts/economic-machine-debt-cycle.md`
+- 内容摘要：以交易为最小单元，信用改变支出时序，生产率增长叠加短期和长期债务周期；长期债务顶部通过紧缩、债务重组、财富再分配和货币创造完成去杠杆化。归档同时记录周期长度、量化宽松与单模型解释的适用边界。
+
+## [2026-10-20] ingest: ZeroAgent Slash Commands
+
+- 来源：`https://mp.weixin.qq.com/s/NXBuk7227ST9C4Id5qlL2Q`（微信公众号：从码农到工匠）
+- 归档《从零构建 Agent（八）：可复用的 Slash Commands》至 `sources/zeroagent-slash-commands.md`
+- 下载 3 张功能截图至 `images/zeroagent-slash-commands/`
+- 提炼模式页至 `patterns/agent-slash-command-registry.md`
+- 内容摘要：用带 Frontmatter 的 Markdown 保存 Prompt 命令，通过位置参数与默认值、共享解析器、全局/项目两级注册、同名覆盖、未知命令提示和 `/reload` 热重载构成可复用的 Agent 命令系统；同时区分用户触发的 Command 与模型按需加载的 Skill。
+
 ## [2026-10-20] ingest: AI 工程化安全护栏
 
 - 来源：`https://mp.weixin.qq.com/s/5zhFeM48-ipqDyIAPvRj9A`（微信公众号，作者徐鑫）

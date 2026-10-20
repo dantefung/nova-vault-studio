@@ -66,6 +66,7 @@ wiki/
 | [hypit-agent-video-workflow](/md/wiki/summaries/hypit-agent-video-workflow) | Codex + Hypit 把视频复刻沉淀为可局部修改、批量变体的叙事组件工作流 | X/Twitter |
 | [video-prompt-reverse-engineering](/md/wiki/patterns/video-prompt-reverse-engineering) | 多模态模型把参考视频拆成五层视觉规格，再编译为目标模型 Prompt 并通过生成差异迭代 | 知乎专栏 |
 | [video-prompt-reverse-engineering-professional-template](/md/wiki/sources/video-prompt-reverse-engineering-professional-template) | 视频反推提示词专业模板：快速七要素、逐镜头十八维、负面约束、类型补充与固定输出格式 | 用户提供 |
+| [agent-slash-command-registry](/md/wiki/patterns/agent-slash-command-registry) | Agent 斜杠命令系统：Markdown Prompt 模板、参数展开、全局/项目两级加载、覆盖优先级与热重载 | 公众号 |
 | [stripe-x-account-setup](/md/wiki/summaries/stripe-x-account-setup) | Stripe 香港个人账户注册： Individual + 港卡 + 护照 KYC，美元结算账户降低汇损 | X/Twitter |
 | [x-creator-monetization-2026](/md/wiki/summaries/x-creator-monetization-2026) | X 创作者收益完整流程：资格门槛 → 环境伪装 → 身份验证 → Wise/港卡 → W-8BEN | X/Twitter |
 | [canghe-x-stripe-tutorial](/md/wiki/summaries/canghe-x-stripe-tutorial) | X 认证 + Stripe 绑定四步闭环：港卡 → Stripe → X 认证 → 创作者工作室连接 | X/Twitter |
@@ -174,6 +175,7 @@ wiki/
 | [gefei-seo-keywords](/md/wiki/concepts/gefei-seo-keywords) | 哥飞 SEO 教程：关键词优先网站结构规划，八步流程（收词→补量→意图分组→URL 清单），4 个常见坑 | 公众号 |
 | [programmer-math-cultivation](/md/wiki/concepts/programmer-math-cultivation) | 程序员的数学修养：逻辑思维、抽象建模与量化分析，离散数学/线性代数/概率统计/微积分四大分支支撑，三层进阶 | 原创/概念整理 |
 | [austrian-economics](/md/wiki/concepts/austrian-economics) | 奥地利经济学派：方法论个人主义、人的行动学、主观价值论、商业周期理论，反对政府干预与数学模型预测 | 原创/概念整理 |
+| [economic-machine-debt-cycle](/md/wiki/concepts/economic-machine-debt-cycle) | Ray Dalio 经济机器模型：交易与信贷构成支出，生产率增长叠加长短债务周期，去杠杆化由四类政策工具共同处理 | Medium / 官方视频 |
 
 ### 出海建站 (Overseas Website Building)
 
