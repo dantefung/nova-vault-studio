@@ -169,6 +169,7 @@ wiki/
 | [virtual-memory-invention](/md/wiki/concepts/virtual-memory-invention) | 虚拟内存发明历程：物理寻址→重定位→覆盖→分页→MMU→缺页中断→TLB，三大核心价值 | 公众号 |
 | [tcp-listen-semantics](/md/wiki/concepts/tcp-listen-semantics) | TCP 套接字状态机：listen 的三件事、内核 SYN 查找逻辑与三种建连场景，判断「谁是发起方」 | 公众号 |
 | [tcp-listen-connection-setup](/md/wiki/sources/tcp-listen-connection-setup) | 没有 listen 能否建立 TCP 连接原始归档：listen 三件事、bind 不 listen 实测与同时打开路径 | 公众号 |
+| [homework-tutoring-cognitive-first-principles](/md/wiki/sources/homework-tutoring-cognitive-first-principles) | 辅导孩子做作业的第一性原理原始归档：大脑能耗基线、多巴胺奖赏与三环钉子/喜马拉雅茶道同构实验 | X/Twitter |
 | [app-idea-validation](/md/wiki/concepts/app-idea-validation) | 月入 10 万美元 App 点子验证法：Google Trends→Rising Queries→ASO→Sensor Tower→竞品分析→七天冲刺 | X/Twitter |
 | [fcitx-rime-snow-lmdg](/md/wiki/concepts/fcitx-rime-snow-lmdg) | Fcitx + RIME + 雾凇 + LMDG 开源 AI 输入法组合，全本地运行，互联网从业者专属 | 社群 |
 | [international-software-arsenal](/md/wiki/concepts/international-software-arsenal) | 境外势力软件盘点：网络工具/AI/内容/社交/效率/自律，17 个常用国际服务清单 | 社群 |
@@ -179,6 +180,7 @@ wiki/
 | [programmer-math-cultivation](/md/wiki/concepts/programmer-math-cultivation) | 程序员的数学修养：逻辑思维、抽象建模与量化分析，离散数学/线性代数/概率统计/微积分四大分支支撑，三层进阶 | 原创/概念整理 |
 | [austrian-economics](/md/wiki/concepts/austrian-economics) | 奥地利经济学派：方法论个人主义、人的行动学、主观价值论、商业周期理论，反对政府干预与数学模型预测 | 原创/概念整理 |
 | [economic-machine-debt-cycle](/md/wiki/concepts/economic-machine-debt-cycle) | Ray Dalio 经济机器模型：交易与信贷构成支出，生产率增长叠加长短债务周期，去杠杆化由四类政策工具共同处理 | Medium / 官方视频 |
+| [cognitive-load-three-element-model](/md/wiki/concepts/cognitive-load-three-element-model) | 认知负荷三要素：环境 / 工作记忆 / 长期记忆，把「想不明白」拆成三处可检查的物理断点 | X/Twitter |
 
 ### 出海建站 (Overseas Website Building)
 

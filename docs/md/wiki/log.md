@@ -4,6 +4,15 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-21] ingest: 辅导作业的认知科学第一性原理
+
+- 来源：`https://x.com/longhaiqwe123/status/2112432265049645558`（X/Twitter：龙海 @longhaiqwe123，2026-10-20，11.3 万浏览）
+- 归档《万字长文，讲透辅导孩子做作业的第一性原理》至 `sources/homework-tutoring-cognitive-first-principles.md`（X Article 长文，1.2 万字；抓取接口仅返回纯文本正文，未返回配图）
+- 提炼概念页 `concepts/cognitive-load-three-element-model.md`：把「想不明白」拆成环境 / 工作记忆 / 长期记忆三处可检查的物理断点，含三环钉子与喜马拉雅茶道同构对比、记忆与推导的错配、诊断流程与四条干预原则
+- 内容摘要：大脑以能耗最小化为基线，思考缓慢费力易错，默认依赖长期记忆的自动化程序；工作记忆面对未关联信息仅能维持 3~4 个组块；多巴胺奖赏要求自主消除不确定性，代讲会剥夺闭环并形成提示依赖。对应干预为指读圈画、草稿纸外化、最小线索、剥离断点做单点固化
+- 关联既有 `concepts/ai-era-learning-paradigm`、`sources/learning-flywheel`、`sources/cognition-beyond-money`、`concepts/ai-local-brain`、`concepts/agent-token-architecture`、`patterns/ai-knowledge-workflow`
+- 原文不含引流与推广内容，归档未删除任何内容
+
 ## [2026-10-21] ingest: AI 编码三支柱（流程 · 知识库 · 工具）
 
 - 来源：`https://mp.weixin.qq.com/s/LDdho64V5XZMAvxEGYlNNg`（微信公众号：刘俊毅）
