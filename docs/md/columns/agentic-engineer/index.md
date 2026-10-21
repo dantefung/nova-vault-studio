@@ -13,6 +13,7 @@ source: "原创"
 ## 目录结构
 
 - [hello-harness/](./hello-harness/) — Hello Harness（从 0 手写 Agent Harness，TS 实现）
+- [zero-agent/](./zero-agent/) — 从零构建 Agent 系列（从码农到工匠，ZeroAgent 开源项目实战）
 - [deepseek-harness/](./deepseek-harness/) — DeepSeek Harness（16 篇，从架构到 Subagent 到部署到架构深拆到自进化）
 - [codex-harness/](./codex-harness/) — Codex Harness（1 篇，App Server / Core Session / Agent Loop 源码解析）
 - [gsd-core/](./gsd-core/) — GSD Core 核心架构与 72 技能全景（Spec-Driven 与上下文防腐体系）
