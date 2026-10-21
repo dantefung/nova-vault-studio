@@ -167,6 +167,8 @@ wiki/
 | [mutex-evolution](/md/wiki/concepts/mutex-evolution) | 互斥锁演化史：关中断→Peterson算法→原子指令→自旋锁→互斥锁→读写锁，含死锁四条件 | 公众号 |
 | [sdio-bus](/md/wiki/concepts/sdio-bus) | SDIO 总线硬件原理：SD 家族区分、引脚定义、1-bit/4-bit 模式、命令帧格式、初始化时序、硬件设计踩坑 | 公众号 |
 | [virtual-memory-invention](/md/wiki/concepts/virtual-memory-invention) | 虚拟内存发明历程：物理寻址→重定位→覆盖→分页→MMU→缺页中断→TLB，三大核心价值 | 公众号 |
+| [tcp-listen-semantics](/md/wiki/concepts/tcp-listen-semantics) | TCP 套接字状态机：listen 的三件事、内核 SYN 查找逻辑与三种建连场景，判断「谁是发起方」 | 公众号 |
+| [tcp-listen-connection-setup](/md/wiki/sources/tcp-listen-connection-setup) | 没有 listen 能否建立 TCP 连接原始归档：listen 三件事、bind 不 listen 实测与同时打开路径 | 公众号 |
 | [app-idea-validation](/md/wiki/concepts/app-idea-validation) | 月入 10 万美元 App 点子验证法：Google Trends→Rising Queries→ASO→Sensor Tower→竞品分析→七天冲刺 | X/Twitter |
 | [fcitx-rime-snow-lmdg](/md/wiki/concepts/fcitx-rime-snow-lmdg) | Fcitx + RIME + 雾凇 + LMDG 开源 AI 输入法组合，全本地运行，互联网从业者专属 | 社群 |
 | [international-software-arsenal](/md/wiki/concepts/international-software-arsenal) | 境外势力软件盘点：网络工具/AI/内容/社交/效率/自律，17 个常用国际服务清单 | 社群 |
@@ -421,3 +423,5 @@ wiki/
 | [skeleton-and-port](/md/wiki/concepts/skeleton-and-port) | 骨架与插口哲学：跨集成方重复逻辑收进框架，产品差异留在调用方回调 | 公众号 |
 | [vibe-coding-to-engineering](/md/wiki/sources/vibe-coding-to-engineering-ai-coding.md) | 从 Vibe Coding 到工程化 AI Coding：Spec 五要素、Context 管理、Quality Gate、Workflow State | 公众号 |
 | [anthropic-unix-agent](/md/wiki/sources/anthropic-unix-agent-collaboration.md) | Anthropic 多 Agent 架构演进：Unix 管道哲学、Micro-Agent、确定性流水线解耦 | 公众号 |
+| [ai-coding-three-pillar-system](/md/wiki/patterns/ai-coding-three-pillar-system) | AI 编码三支柱：流程让 AI 可控、知识库让 AI 能积累、工具让 AI 接触真实环境；注意力预算是稀缺资源 | 公众号 |
+| [x-flow-ai-coding-engineering](/md/wiki/sources/x-flow-ai-coding-engineering) | x-flow 实践原始归档：17 阶段流水线、三道闸防漂移、三层知识晋升淘汰与通用工具+手册 | 公众号 |

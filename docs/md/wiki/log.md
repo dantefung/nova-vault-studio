@@ -4,6 +4,24 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-21] ingest: AI 编码三支柱（流程 · 知识库 · 工具）
+
+- 来源：`https://mp.weixin.qq.com/s/LDdho64V5XZMAvxEGYlNNg`（微信公众号：刘俊毅）
+- 归档《给 AI 写了 800 行规则，它反而更不听话了》至 `sources/x-flow-ai-coding-engineering.md`
+- 本地化 5 张技术图至 `images/x-flow-ai-coding-engineering/`：五类问题与支柱对照、17 阶段阶段组表、x-flow 完整流水线全景、三层知识对照、知识晋升升级淘汰机制；删除群聊二维码与代金券海报
+- 提炼模式页 `patterns/ai-coding-three-pillar-system.md`：流程（阶段化、按阶段加载规则、HALT 人工确认、人是消息总线、防漂移三道闸、PRD 覆盖矩阵双向自检）、知识库（代码图谱事实不手写、模块文档只写为什么、记忆自动捕获、晋升与淘汰、命中埋点）、工具（通用工具 + 手册、索引新鲜度、结构复杂产物交给脚本、审查从懂代码到懂项目）
+- 关联既有 `concepts/ai-coding-delivery`、`concepts/harness-engineering`、`patterns/harness-engineering-practice`、`patterns/ai-knowledge-workflow`、`patterns/agent-runtime-safety-guardrails`、`concepts/tencentdb-agent-memory`
+- 去广告处理：删除关注引导、开发者社群二维码、代金券促销与重复抓取噪音行，技术内容完整保留
+
+## [2026-10-21] ingest: TCP 套接字状态机与 listen 语义
+
+- 来源：`https://mp.weixin.qq.com/s/zXmtlmpit8IKEIvybe3A4A`（微信公众号：往事敬秋风）
+- 归档《大厂面试高频：没有 listen，能否建立 TCP 连接？》至 `sources/tcp-listen-connection-setup.md`
+- 本地化 1 张三种建连场景对比图至 `images/tcp-listen-connection-setup/`；删除订阅引导横幅
+- 提炼概念页 `concepts/tcp-listen-semantics.md`：listen 的三件事（状态迁移、半/全连接队列、协议栈行为）、内核 SYN 查找 LISTEN 套接字的逻辑、bind 不 listen 的实测结论、客户端与同时打开两种免 listen 路径
+- 关联既有 `concepts/linux-context-switch`、`concepts/mutex-evolution`、`concepts/sdio-bus`、`concepts/virtual-memory-invention`
+- 去广告处理：删除文末点赞转发三连、关注引导与专栏课程导流清单，技术内容完整保留
+
 ## [2026-10-21] ingest: 公众号贴图起号专题（7 篇 X 长文）
 
 - 来源（X Article 长文，均为纯文本正文，抓取接口未返回配图）：
