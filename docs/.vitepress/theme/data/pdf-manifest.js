@@ -51,6 +51,11 @@ export default [
     "repoPath": "docs/md/books/ai-software/Claude_Prompt_Library_分类索引+模板_2026-02-14.pdf"
   },
   {
+    "name": "coding agent design atlas",
+    "category": "ai-software",
+    "repoPath": "docs/md/books/ai-software/coding-agent-design-atlas.pdf"
+  },
+  {
     "name": "Harness for AI coding 团队级 AI 编程驾驭工程 ",
     "category": "ai-software",
     "repoPath": "docs/md/books/ai-software/Harness for AI coding 团队级 AI 编程驾驭工程_.pdf"
@@ -434,6 +439,16 @@ export default [
     "name": "k8s sample",
     "category": "k8s",
     "repoPath": "docs/md/books/k8s/k8s_sample.pdf"
+  },
+  {
+    "name": "出海网站基建技术栈",
+    "category": "misc",
+    "repoPath": "docs/md/books/misc/出海网站基建技术栈.pdf"
+  },
+  {
+    "name": "出海网站域名后缀怎么选",
+    "category": "misc",
+    "repoPath": "docs/md/books/misc/出海网站域名后缀怎么选.pdf"
   },
   {
     "name": "漫谈产品经理 201906 俞军",

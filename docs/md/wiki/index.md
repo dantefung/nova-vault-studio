@@ -63,6 +63,7 @@ wiki/
 | [codex](/md/wiki/concepts/codex) | OpenAI 官方 AI 编程客户端，桌面/VS Code/终端三种形态，内置 GPT-Image-2 + Computer Use | X Article |
 | [codex-app](/md/wiki/concepts/codex-app) | OpenAI 桌面端 AI 工作台，左中右三栏工作现场，Plugin/Connector/Skill/MCP 四扩展 + Computer Use | X Article |
 | [ai-content-pipeline](/md/wiki/concepts/ai-content-pipeline) | AI 内容工厂流水线——用 Agent 串工具把人负责挑选微调，AI 跑完全流程 | X Article |
+| [code-video-rendering-method-matrix](/md/wiki/patterns/code-video-rendering-method-matrix) | 代码视频渲染方法矩阵：按网页、React、手绘、插画、水彩、数学、地图和 3D 语义选择确定性渲染引擎 | 公众号 |
 | [hypit-agent-video-workflow](/md/wiki/summaries/hypit-agent-video-workflow) | Codex + Hypit 把视频复刻沉淀为可局部修改、批量变体的叙事组件工作流 | X/Twitter |
 | [video-prompt-reverse-engineering](/md/wiki/patterns/video-prompt-reverse-engineering) | 多模态模型把参考视频拆成五层视觉规格，再编译为目标模型 Prompt 并通过生成差异迭代 | 知乎专栏 |
 | [video-prompt-reverse-engineering-professional-template](/md/wiki/sources/video-prompt-reverse-engineering-professional-template) | 视频反推提示词专业模板：快速七要素、逐镜头十八维、负面约束、类型补充与固定输出格式 | 用户提供 |
@@ -198,6 +199,7 @@ wiki/
 | [sell-air-mvp](/md/wiki/sources/sell-air-mvp) | 卖空气验证需求：Pieter Levels 预售 + 4 步 SOP | 公众号 |
 | [nextjs-vuln-bill](/md/wiki/sources/nextjs-vuln-bill) | Next.js Image 漏洞账单爆炸：真实事件 + 4 套解决方案 | 公众号 |
 | [template-sop](/md/wiki/sources/template-sop) | 基于模板的上站 SOP：3 大类模板 + AI 编程适配 | 公众号 |
+| [overseas-website-conversion-loop](/md/wiki/patterns/overseas-website-conversion-loop) | 出海网站的流量-信任-支付闭环：调研定位→设计搭建→文案转化→上线变现，用跳出、CTA 点击和完成率驱动迭代 | 公众号 |
 | [recruit-workbuddy](/md/wiki/sources/recruit-workbuddy) | WorkBuddy AI 招聘流水线：简历处理从 8 小时压到 0 分钟 | 公众号 |
 | [hr-resume-skill](/md/wiki/concepts/hr-resume-skill) | 自定义 Skill + 连接器 + 自动化 三层架构 | 概念 |
 | [recruitment-workbuddy](/md/wiki/concepts/recruitment-workbuddy) | WorkBuddy 在企业 HR 招聘场景的落地方案 | 概念 |
@@ -289,6 +291,7 @@ wiki/
 | [boss-business-model](/md/wiki/concepts/boss-business-model) | 招聘信息分析：用 BOSS 直聘做商业模式研究，岗位类型暴露获客/销售/交付模式，横向对比拼出行业地图 | 公众号 |
 | [dongqingai-xianyu-virtual-product-automation](/md/wiki/summaries/dongqingai-xianyu-virtual-product-automation) | 闲鱼虚拟资料自动化：AI+MCP把选品/制作/上架/发货变流水线，人只做定方向+质量检查+异常处理 | X/Twitter |
 | [affnom-y-traffic-arbitrage-3min-primer](/md/wiki/summaries/affnom-y-traffic-arbitrage-3min-primer) | 3分钟讲清楚流量套利：搜索套利/产品变现/网站广告三出口100美元账本示例，普通人先跑通一笔完整账再扩量 | X/Twitter |
+| [ai-business-seven-layers](/md/wiki/patterns/ai-business-seven-layers) | AI 商业七层金字塔：从卖时间、内容和结果，到卖产品、系统、底层能力与资本，换层的关键是改变交付标的 | 公众号 |
 
 ### 内容工作流 (Content Workflows)
 
@@ -301,6 +304,20 @@ wiki/
 | [mixailab-workbuddy-html-pipeline](/md/wiki/summaries/mixailab-workbuddy-html-pipeline) | WorkBuddy+SRT做HTML视频：SRT当画面排期表，HTML模板可复用，后续只换mp3+srt同款视觉持续出片 | X/Twitter |
 | [zhouluobo-workbuddy-feishu-content-flywheel](/md/wiki/summaries/zhouluobo-workbuddy-feishu-content-flywheel) | WorkBuddy+飞书三环飞轮：多维表格选题库→状态改「选中」触发写稿→排版 skill + 公众号 API 推草稿箱 | X/Twitter |
 | [zhouluobo-workbuddy-skill-wechat-article-pipeline](/md/wiki/summaries/zhouluobo-workbuddy-skill-wechat-article-pipeline) | WorkBuddy 加两个自建 skill 实现公众号自由：排版+视觉+自动推送草稿箱，自动发布绝对不碰 | X/Twitter |
+
+### 公众号贴图起号 (WeChat Image-Post Accounts)
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [wechat-image-post-account](/md/wiki/concepts/wechat-image-post-account) | 公众号贴图（小绿书）形态模型：3–9 图 + 短文案的公域内容形态，与长文/视频号的三类流量分工、五条变现路径与平台规则边界 | X/Twitter 综合 |
+| [wechat-image-post-account-sop](/md/wiki/patterns/wechat-image-post-account-sop) | 贴图起号五步法：需求卡 → 四页结构 → 清单式做图 → 10 个标题候选 → 单变量迭代，附银发赛道选题工程 | X/Twitter 综合 |
+| [wechat-tietu-cold-start-sop](/md/wiki/sources/wechat-tietu-cold-start-sop) | 贴图起号 5 步 SOP 原始归档：需求卡、标题三句筛选、三遍检查法与四个避坑点 | X/Twitter |
+| [wechat-tietu-money-playbook](/md/wiki/sources/wechat-tietu-money-playbook) | 贴图变现地图原始归档：低粉爆款筛选、封面五要点、标题八方向与全链路变现矩阵 | X/Twitter |
+| [wechat-tietu-beginner-guide](/md/wiki/sources/wechat-tietu-beginner-guide) | 贴图变现五类路径原始归档：流量主、带货、私域、知识付费与本地商家引流 | X/Twitter |
+| [wechat-tietu-project-breakdown](/md/wiki/sources/wechat-tietu-project-breakdown) | 贴图号项目拆解原始归档：对标筛选三标准、发布量随流量阈值变化与常见问答 | X/Twitter |
+| [wechat-tietu-fast-launch](/md/wiki/sources/wechat-tietu-fast-launch) | 贴图快速起号原始归档：低成本高频更新的冷启动思路与发图方向 | X/Twitter |
+| [wechat-account-traffic-monetization](/md/wiki/sources/wechat-account-traffic-monetization) | 文章/贴图/视频号三入口联动原始归档：粉丝归属、收益门槛与验证提示排查 | X/Twitter |
+| [wechat-silver-economy-niche](/md/wiki/sources/wechat-silver-economy-niche) | 银发蓝海赛道原始归档：评论多=要答案、转发多=要分享，钱与健康类必须先核验 | X/Twitter |
 
 ---
 
@@ -375,6 +392,7 @@ wiki/
 |------|--------|------|
 | [shared-weekly-pool](/md/wiki/concepts/shared-weekly-pool) | SpaceXSI 共用周池：Grok 与 Cursor 共享每周刷新的 AI 用量池，打破单产品独立计量 | X |
 | [bot-vs-codex-context](/md/wiki/concepts/bot-vs-codex-context) | Bot vs Codex 上下文机制：Bots 类 Agent 跨会话留存 vs 会话型 Agent 每次独立上下文 | X |
+| [grok-bot-app-research](/md/wiki/sources/grok-bot-app-research) | Grok Bot + 云手机四件套实操：多 Agent 竞品调研工作流，定赛道→拉商店数据→扫社媒→交叉验证 | 公众号 |
 | [xhs-product-selection](/md/wiki/concepts/xhs-product-selection) | 小红书选品七看方法论：爆品值+商品价值双指标 + 监控软件开源实现 | X |
 | [distributional-convergence](/md/wiki/concepts/distributional-convergence) | 分布收敛：AI 无具体约束时趋向训练数据最常见方案，解释 AI 味和蓝紫色前端现象 | X |
 

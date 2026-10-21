@@ -74,11 +74,11 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/yhslgg/status/2108022272095408163 | 待查看 |
 | 2026-09-29 | https://x.com/yhslgg/status/2104418460919058651 | 待查看 |
 | 2026-09-29 | https://x.com/yaojingang/status/2108106577408389217 | 待查看 |
-| 2026-09-29 | https://x.com/WolfMoneyNotes/status/2077624635105980561 | 待查看 |
-| 2026-09-29 | https://x.com/qihang_zeng6688/status/2082293843353821306 | 待查看 |
+| 2026-09-29 | https://x.com/WolfMoneyNotes/status/2077624635105980561 | **狼哥搞钱笔记：公众号贴图正在制造新一批"闷声赚钱"的人** ~~已采集~~ → 已归档至 [sources/wechat-tietu-money-playbook](/md/wiki/sources/wechat-tietu-money-playbook) |
+| 2026-09-29 | https://x.com/qihang_zeng6688/status/2082293843353821306 | **启航：7天收入破百，1篇收入破千，微信贴图号的风口** ~~已采集~~ → 已归档至 [sources/wechat-tietu-project-breakdown](/md/wiki/sources/wechat-tietu-project-breakdown) |
 | 2026-09-29 | https://x.com/yang02010/status/2092727972486885653 | 待查看 |
 | 2026-09-29 | https://x.com/lxfater/status/2049019768456241273 | 待查看 |
-| 2026-09-29 | https://x.com/songsong/status/2091850341235200462 | 待查看 |
+| 2026-09-29 | https://x.com/songsong/status/2091850341235200462 | **宋宋：拆解一个公众号蓝海赛道（银发经济）** ~~已采集~~ → 已归档至 [sources/wechat-silver-economy-niche](/md/wiki/sources/wechat-silver-economy-niche) |
 | 2026-09-29 | https://x.com/king1818888/status/2075904679494680643 | 待查看 |
 | 2026-09-29 | https://x.com/kongge_space/status/2092902850821337330 | 待查看 |
 | 2026-09-29 | https://x.com/aronhouyu/status/2109278797879205910 | 待查看 |
@@ -305,6 +305,10 @@ date: "2026-05-29"
 | 2026-09-19 | https://x.com/i/status/2101306694747701384 | **刘佳怡：短信验证码自动转发邮件** ~~已采集~~ → 已归档至 [summaries/liujiayi1111-sms-code-forward](/md/wiki/summaries/liujiayi1111-sms-code-forward) |
 | 2026-10-12 | https://x.com/ElowenY20119/status/2107049804480291261?s=20 | **ElowenY20119**：贴图号3天跑出12.9万阅读后限流——从全自动踩坑到人机协作，附完整生产SOP/提示词/插件/避坑清单，含飞书完整源文档 |
 | 2026-10-12 | https://x.com/fatparrotdaily/status/2108502537053536468?s=20 | **fatparrotdaily/鹦鹉哥**：中国人全球移民全维度一览表（工作/收入/安全/门槛/幸福/去和留），10张图按穷人/中产/富人三套权重评估 |
+| 2026-10-21 | https://x.com/HytidelLegend/status/2112516357854302348 | **HytidelLegend**：待查看 |
+| 2026-10-21 | https://x.com/kristoff_wu/status/2112216903150436383 | **kristoff_wu**：待查看 |
+| 2026-10-21 | https://x.com/heizolshao/status/2112334432262873341 | **heizolshao**：待查看 |
+
 ## 微信公众号
 
 | 日期 | 链接 | 摘要 |
@@ -460,4 +464,3 @@ date: "2026-05-29"
 | 日期 | 链接 | 内容 |
 |------|------|------|
 | 2026-06-21 | 本条见证 | **记录**：19年2月开始跟着紫菜抢演唱会门票→茅台→手机→泡泡玛特→港股打新→NFT打新→Web3。"执行跟着紫菜走，很难不赚钱。" — 信任积累的活生生案例，从+10分的小任务一路升级到Web3合作。 |
-

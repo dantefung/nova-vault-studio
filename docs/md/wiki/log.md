@@ -4,6 +4,54 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-21] ingest: 公众号贴图起号专题（7 篇 X 长文）
+
+- 来源（X Article 长文，均为纯文本正文，抓取接口未返回配图）：
+  - `https://x.com/WolfMoneyNotes/status/2077624635105980561`（狼哥搞钱笔记，2026-07-16，205 万浏览）→ `sources/wechat-tietu-money-playbook.md`
+  - `https://x.com/qihang_zeng6688/status/2082293843353821306`（启航，2026-07-29）→ `sources/wechat-tietu-project-breakdown.md`
+  - `https://x.com/Stanleysobest/status/2070308757490520068`（Stanley，2026-06-26）→ `sources/wechat-tietu-beginner-guide.md`
+  - `https://x.com/isnail/status/2082756218171412564`（蜗牛King，2026-07-30）→ `sources/wechat-tietu-fast-launch.md`
+  - `https://x.com/songsong/status/2090766180349030527`（宋宋，2026-08-21）→ `sources/wechat-tietu-cold-start-sop.md`
+  - `https://x.com/songsong/status/2091850341235200462`（宋宋，2026-08-24）→ `sources/wechat-silver-economy-niche.md`
+  - `https://x.com/Yuziyyaa/status/2107768221809963332`（柚子，2026-10-07）→ `sources/wechat-account-traffic-monetization.md`
+- 内容摘要：公众号贴图（小绿书）是微信 2026 年升级的轻量图文形态，3–9 张图加 200 字内短文案，用 5–20 分钟制作成本换公域推荐曝光，专用于公众号冷启动。三入口分工明确——文章为私域流量负责完整解答，贴图为公域流量负责吸引注意，视频号为兴趣流量负责拉新；贴图与文章共用粉丝数，视频号粉丝不自动计入。
+- 提炼概念页 `concepts/wechat-image-post-account.md`：形态对比、窗口期成因、关系链带来的隐形壁垒、五条变现路径与平台规则边界
+- 提炼模式页 `patterns/wechat-image-post-account-sop.md`：选赛道与素材库地基、需求卡、四页结构、清单式做图、10 个标题候选、记录表与单变量迭代，附银发赛道选题工程
+- 关联既有 `concepts/selfmedia-compound-model`、`concepts/ai-content-pipeline`、`patterns/content-arbitrage-pattern`
+- 去广告处理：删除关注/点赞/收藏/私信引流、付费社群推广、99 元社群权益与自我宣传段；买粉渠道与「截图去水印后 AI 改图」洗稿做法已改写为合规表述，并补充医疗养生、情感收割、擦边凑粉、外部导流的平台规则风险提示；原文收益数字统一标注「未经独立验证」
+
+## [2026-10-21] ingest: AI 出海建站的流量-信任-支付闭环
+
+- 来源：`https://mp.weixin.qq.com/s/WnivPDkvfGF2z5a-kA9HHQ`（微信公众号：橙哥）
+- 归档《AI 出海建站流水线：从流量、信任到支付闭环》至 `sources/ai-overseas-website-conversion-pipeline.md`
+- 本地化并保留 2 张方法证据图至 `images/chengge-800-prompts-ai-website-pipeline/`；删除付费手册样例、目录、价格、购买入口和对应 4 张销售图片
+- 提炼模式页 `patterns/overseas-website-conversion-loop.md`：调研定位→让人来→让人信→让人付钱→埋点反馈，以首屏跳出、CTA 点击和完成率驱动迭代
+- 关联 `sources/sell-air-mvp`、`concepts/b2c-conversion`、`patterns/competitor-research-four-step` 与 `sources/template-sop`
+
+## [2026-10-21] ingest: AI 商业七层金字塔
+
+- 来源：`https://mp.weixin.qq.com/s/Gs2l6ZbY0ZFsGXn86xgs3g`（微信公众号：澳洲AI教父）
+- 归档《学了一堆 AI，还在卖时间》至 `sources/ai-business-seven-layers.md`
+- 本地化 1 张七层模型图至 `images/ai-business-seven-layers/`，单图约 140KB
+- 提炼模式页 `patterns/ai-business-seven-layers.md`：卖时间→内容→结果→产品→系统→底层能力→资本；重点记录 L3→L4 产品化与 L6→L4 降低使用门槛
+- 删除评论引导、个人背书与悉尼线下课程报名信息，并关联 `concepts/selfmedia-compound-model`、`concepts/ai-oneperson-company` 与 `patterns/ai-wealth-creation`
+
+## [2026-10-20] ingest: Grok Bot 竞品调研自动化工作台
+
+- 来源：`https://mp.weixin.qq.com/s/RAfsupCdQcPSgchIRrHe6A`（微信公众号：01fish）
+- 归档《用 Grok Bot 与云手机搭建 APP 竞品调研自动化工作台》至 `sources/grok-bot-app-research.md`
+- 下载 17 张截图至 `images/grok-bot-app-research/`，压缩为 JPEG（单图最大 127KB）
+- 内容摘要：Grok Bot 原生多 Agent + 云电脑非浏览器壳，是搭建竞品调研自动化台的优势；四件套（Geelark 云手机 + 静态住宅 IP + 谷歌账号 + Grok Bot）解决 App Store 地区限制与社媒风控；四步流程：定赛道→拉商店数据→扫投放/种草→群聊交叉验证。归档已删除邀请码、推广链接和结尾致谢。
+- 关联既有 `concepts/bot-vs-codex-context`（多 Bot 上下文机制）与 `patterns/orchestrator-pattern`。
+
+## [2026-10-20] ingest: AI 代码视频九种实现方法
+
+- 来源：`https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag`（微信公众号：空格丶）
+- 归档《让 AI 用代码做视频：四类路线与九种实现方法》至 `sources/ai-code-video-methods.md`
+- 抓取 17 张原图；删除结尾二维码，将动态 GIF 合并后抽取代表帧，最终压缩保留 14 张关键图至 `images/ai-code-video-methods/`
+- 提炼模式页至 `patterns/code-video-rendering-method-matrix.md`，并关联既有 `concepts/ai-content-pipeline.md`
+- 内容摘要：代码视频通过帧号或时间驱动浏览器、数学引擎、地图或 3D 工具确定性绘制画面；HyperFrames、Remotion、Motion Canvas、rough.js、分层插画、水彩、Manim、地图路线、Three.js 与 Blender 分别适配不同视觉语义。归档补充选型流程、Prompt 契约、确定性约束和质量门禁。
+
 ## [2026-10-20] ingest: Ray Dalio 经济机器与债务周期
 
 - 来源：`https://medium.com/@doublerong.wang/经济机器是怎样运行的-图文版-by-ray-dalio-227c1835370d`（Medium：Rongrong Wang，原始模型 Ray Dalio）

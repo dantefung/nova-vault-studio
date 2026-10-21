@@ -36,7 +36,7 @@ DSec 没有用一种沙盒包打天下，而是按「隔离越强、启动越慢
 
 SDK 故意不做全语义抽象：各后端的启动成本、隔离边界、文件系统语义不同，选型责任留给调用方（§2.1）。
 
-![image](../../../wiki/images/deepseek-dsec-sandbox-infrastructure/001.png)
+![image](../../wiki/images/deepseek-dsec-sandbox-infrastructure/001.png)
 
 图 1｜一条创建请求的完整路径：libdsec 发起，IAM 鉴权，placement 抽样选最空的节点，edge 在本机做最终准入；沙盒内 aether 与 chronus 负责执行，镜像数据躺在 3FS 里，访问时才按块读。人和 Agent 走的是同一套管理 API。
 
@@ -60,7 +60,7 @@ SDK 故意不做全语义抽象：各后端的启动成本、隔离边界、文�
 
 CPU 稀疏，内存钉死。约 90% 的沙盒平均 CPU 用量不超过申请量的 5%（Fig. 5）——超卖顺理成章。但内存是另一回事：microVM 的镜像数据会被宿主和 guest 各缓存一遍，guest 内部的空闲页不主动上报就不会还给宿主，而寿命越长这些钉住的内存越贵。
 
-![image](../../../wiki/images/deepseek-dsec-sandbox-infrastructure/002.png)
+![image](../../wiki/images/deepseek-dsec-sandbox-infrastructure/002.png)
 
 图 2｜setup 猛一下，tool-call 期间大部分时间在等模型，test 再冲一次——CPU 稀疏，内存却一直钉着。90% 的沙盒平均 CPU 用量不足申请量的 5%，中位寿命超过一刻钟，p99 超三小时。CPU 放心超卖，内存才是高密度的真难关。
 
@@ -78,7 +78,7 @@ DSec 的做法是把三者做成独立版本的 EROFS 只读层，创建沙盒�
 
 落地只改了 dockerd 一处：创建时动态往 overlayfs 栈里插入 EROFS 层，30 行 Go 代码（§7）。
 
-![image](../../../wiki/images/deepseek-dsec-sandbox-infrastructure/003.png)
+![image](../../wiki/images/deepseek-dsec-sandbox-infrastructure/003.png)
 
 图 3｜左边整镜像：升级一个 toolkit，含它的镜像全部连坐重建；右边分层：三层各自版本化，用时 overlayfs 现场合并，升级 k 个 toolkit 只重建 k 层。dockerd 的改动只有 30 行 Go。
 
@@ -106,7 +106,7 @@ CPU（§8.5）：延迟敏感（LS）与尽力而为（BE）分级，BE 压到 S
 
 旧版管线里，agent loop 跑在可抢占的 GPU pod 里，和模型服务、RL 框架住一起。GPU 一被抢占，loop 就没了，恢复要靠命令日志重放——还得小心非幂等命令不能重执行（§6.2）。从 V4.1 起，rollout 整体搬到 DSec 上：agent sandbox（宿主 DSH 这类 scaffold）加一个 worker 容器，组成 scaffold 无关的控制层，都待在 GPU 池之外。两者的状态就是 rollout 的唯一真源，GPU 任务被抢后重连即续跑，命令日志重放这套恢复逻辑整个删掉了。
 
-![image](../../../wiki/images/deepseek-dsec-sandbox-infrastructure/004.png)
+![image](../../wiki/images/deepseek-dsec-sandbox-infrastructure/004.png)
 
 图 4｜旧架构里 agent loop 住在可抢占的 GPU pod 中，被抢占就靠命令日志重放续命；V4.1 起 agent sandbox 加 worker 容器搬进 DSec，状态真源只剩一处，GPU 抢占后重连即续跑。
 
