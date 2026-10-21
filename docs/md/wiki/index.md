@@ -195,6 +195,11 @@ wiki/
 | [half-hour-game-site](/md/wiki/sources/half-hour-game-site) | 半小时上线小游戏站：域名注册→Cloudflare DNS→GitHub→Claude 生成代码→Vercel 部署→自定义域名+SSL，1 小时含写文章 | 公众号 |
 | [bolt-new-5min-site](/md/wiki/sources/bolt-new-5min-site) | 刘小排：5 分钟做个网站：Bolt.new + Claude 一键生成运势网站，HTML+Tailwind 单文件，推荐付费测试产品方向 | 公众号 |
 | [day-90-checklist](/md/wiki/sources/day-90-checklist) | 袁锐钦 90 天 89 篇出海工具站收官：六阶段全路径清单（启动→流量→变现→规模化→进阶→搜索型出海）+ 三条教训（标题/新词/止损） | 公众号 |
+| [kristoff-new-term-site-1100usd](/md/wiki/sources/kristoff-new-term-site-1100usd) | 新词破千刀复盘：抢新词→域名→1 小时搭站→模型踩坑→先上线拿排名，10 月 8 日上站到 20 日复盘破 1100 美元 | X/Twitter |
+| [kristoff-new-term-site-followup](/md/wiki/sources/kristoff-new-term-site-followup) | 新词站复盘补充：新词别迷信 Google 趋势、新站也要发外链、博客页承接 GEO 长尾、付费墙要少一次跳转 | X/Twitter |
+| [small-site-password-login](/md/wiki/patterns/small-site-password-login) | 小站免 Google 账号登录：注册门槛本身就是付费漏斗上的漏点，以及何时可放宽验证强度 | X/Twitter |
+| [cancan-new-term-radar-practice](/md/wiki/sources/cancan-new-term-radar-practice) | 新词雷达实操笔记：zhuyansen/new-term-radar 首跑只记基线不出词，补的是 Trends 之前那一截 | X/Twitter |
+| [cloudhu-ai-overseas-website-tutorial](/md/wiki/sources/cloudhu-ai-overseas-website-tutorial) | CloudHu：面向小白的 AI 出海建站教程——找需求关键词→AI 做站→Vercel 部署→可选买域名全流程 | X/Twitter |
 | [fxiaoyuan-site-seo](/md/wiki/sources/fxiaoyuan-site-seo) | SEO 小平：外贸独立站避开内卷，纯血小语种策略（本土域名+本地服务器+真实搜索量关键词+AI 原生创作），投产比远超英语市场 | 公众号 |
 | [aichuhai-dev](/md/wiki/products/aichuhai-dev) | droidHZ 的 AI 出海导航站：12 模块分类 + 话题驱动 + 用户参与 | 产品 |
 | [moore-wechat-article-downloader](/md/wiki/products/moore-wechat-article-downloader) | 公众号内容情报库 Skill：4 大场景 + SQLite 状态 + 评论互动 | 产品 |

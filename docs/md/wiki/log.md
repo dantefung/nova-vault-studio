@@ -4,6 +4,19 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-21] ingest: 新词站复盘两则 + 小站免 Google 账号登录
+
+- 来源（均为 X Article 长文，纯文本正文，抓取接口未返回配图）：
+  - `https://x.com/kristoff_wu/status/2112216903150436383`（kristoff，2026-10-20，2.5 万浏览）→ `sources/kristoff-new-term-site-1100usd.md`
+  - `https://x.com/kristoff_wu/status/2112815675018461338`（kristoff，2026-10-21，补充复盘）→ `sources/kristoff-new-term-site-followup.md`
+  - `https://x.com/cancan_jin50701/status/2109896502667530255`（cancan jin，2026-10-13，引用推）→ `sources/cancan-new-term-radar-practice.md`
+- 提炼模式页 `patterns/small-site-password-login.md`：归档用户单独要求的小站免 Google 账号登录建议——注册门槛本身是付费漏斗上的漏点，并给出「验证强度应与账号资产价值匹配」的适用边界
+- 内容摘要：作者此前一年多出海只零散赚 300–400 美元，10 月 8 日上线新词站后复盘时破 1100 美元；找词用 Google Trends 判新词（域名只剩 .com 被占），1 小时用 AI 搭站，模型从 seedance（人脸版权限制）换 wan2.2 再换 kling o3；核心决策是「不等功能完美，先上线让 Google 索引」。补充复盘指出新词是词群且用户可能不在 Google 搜、不能迷信趋势；新站也要发外链否则一周后排名被压；博客页是承接 GEO 长尾的关键；付费墙去掉 pricing 跳转直接列价格可提高支付率
+- cancan 笔记记录了 zhuyansen/new-term-radar（Python/MIT，1602 stars）首跑只记基线不出候选、GitHub 爆发超时、花费 $0，并说明该工具补的是 Trends/Semrush 之前「新名刚冒头」那一截；已标注 CloudHu 路径部分为转述而非原创
+- 补登存量遗漏：`sources/cloudhu-ai-overseas-website-tutorial.md` 早已归档但从未登记进 index.md，本次补上索引行
+- 关联既有 `sources/cloudhu-ai-overseas-website-tutorial`、`concepts/indie-site-builder-skill-stack`、`patterns/overseas-website-conversion-loop`、`concepts/seo-basics`、`sources/stripe-noahduck283-guide`
+- 去广告处理：删除向付费社群靠拢、荐书导流与自我介绍钩子，技术内容与引用来源完整保留
+
 ## [2026-10-21] ingest: 6 个开源免费 SEO 工具
 
 - 来源：`https://x.com/sven_ai/status/2112735477023605138`（X/Twitter：毅行出海 @sven_ai，2026-10-21）
