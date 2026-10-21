@@ -408,6 +408,8 @@ wiki/
 | [payment-platform-selection](/md/wiki/patterns/payment-platform-selection) | 支付三档选择：Lemon Squeezy（最快验证）vs Paddle（税务托管）vs Stripe（完整控制） | X |
 | [competitor-research-four-step](/md/wiki/patterns/competitor-research-four-step) | 竞品调研四步法：AITDK初筛 → SiteData体检 → Similarweb拆流量 → Wayback Machine追历史 | X |
 | [analytics-four-piece-set](/md/wiki/patterns/analytics-four-piece-set) | 数据分析四件套：GSC（搜索词）+ GA4（来源）+ PostHog（漏斗）+ Clarity（体验录屏） | X |
+| [open-source-seo-tooling](/md/wiki/concepts/open-source-seo-tooling) | 开源 SEO 工具的自建边界：工具逻辑可开源替代，数据资产不行；6 个工具的能力映射与选型决策 | X |
+| [open-source-seo-tooling-list](/md/wiki/sources/open-source-seo-tooling-list) | 6 个开源免费 SEO 工具原始归档：SEOnaut / SoPilot / SerpBear / OpenSEO / SEOMachine / Awesome Open Source SEO | X |
 
 ### AI 变现与套利（AI Monetization & Arbitrage）
 

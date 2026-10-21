@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-21] ingest: 6 个开源免费 SEO 工具
+
+- 来源：`https://x.com/sven_ai/status/2112735477023605138`（X/Twitter：毅行出海 @sven_ai，2026-10-21）
+- 归档《6 个开源免费 SEO 工具：替代 Ahrefs 与 Semrush 的自建方案》至 `sources/open-source-seo-tooling-list.md`（X 短贴，无配图）
+- 原文 6 个 t.co 短链全部解析为真实地址并逐一核验仓库存在与许可：SEOnaut（Go/MIT）、SerpBear（TypeScript/MIT）、OpenSEO（TypeScript/MIT）、SEOMachine（Python/MIT）、Awesome Open Source SEO（Python/CC0-1.0）、SoPilot（sopilot.net，站点可访问）
+- 去广告核查发现：作者 @sven_ai 的 X 主页简介为「Building sopilot.net」，SoPilot 属作者自有产品，文中描述为产品推广口径。归档已按站点实际情况更正——其主产品实为 X 营销增长系统（XRank 追踪创作者与爆款信号、AI 生成发布），目录提交为附属产品线且站点标注 400+ Directories（原文写 200+，与站点当前口径不一致）；已在归档与概念页中标注作者自推身份
+- 提炼概念页 `concepts/open-source-seo-tooling.md`：把付费 SEO 工具拆成「数据资产」与「工具逻辑」两层，指出开源能替代工具逻辑（爬取、审计、追踪、生成）但替代不了数据资产（外链索引、搜索量级、历史排名库），含 6 工具能力映射表、8 条选型决策、付费买数据 + 开源买执行的组合用法与 7 项质量门
+- 补齐既有 `concepts/overseas-tool-stack` 的空白：其 SEO 方向仅列 Semrush/Ahrefs 等付费工具，未给出开源替代路径
+- 关联既有 `concepts/overseas-tool-stack`、`concepts/seo-basics`、`patterns/competitor-research-four-step`、`patterns/analytics-four-piece-set`、`sources/google-seo-ranking-factors-2026`
+- 原文除 SoPilot 自有产品条目外无推广内容，其余 5 个工具均为独立开源项目，归档未删除任何内容
+
 ## [2026-10-21] ingest: 辅导作业的认知科学第一性原理
 
 - 来源：`https://x.com/longhaiqwe123/status/2112432265049645558`（X/Twitter：龙海 @longhaiqwe123，2026-10-20，11.3 万浏览）
