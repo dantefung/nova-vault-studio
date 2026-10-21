@@ -419,6 +419,8 @@ date: "2026-05-05"
 
 - [FDE 前线部署工程师指南](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) — 范冰（XDash）著，**1.5k Stars**。免费公开全文，从零入门 FDE（Forward Deployed Engineer）。基于《增长黑客》原书框架，聊清楚三件事：FDE 是什么（从 Palantir 情报项目长出的角色，AI 时代爆发）、怎么做（找对问题→赢得客户→激活部署→守住续约→扩大收入→规模化复制）、谁在做（112 个真实案例）。含 PDF 整本下载。非商业性分享免费
 
+- [《从零开始构建智能体》Hello-Agents](https://github.com/datawhalechina/hello-agents) — Datawhale 社区开源教程，**84k Stars**、10.4k forks，在线阅读 [hello-agents.datawhale.cc](https://hello-agents.datawhale.cc)。16 章 5 部分体系：①基础（Agent 定义/发展史/LLM 基础）②构建（手写 ReAct/Plan-and-Solve/Reflection、Coze/Dify/n8n 低代码、AutoGen/AgentScope/LangGraph 框架、基于 OpenAI 原生 API 从零自研 HelloAgents 框架）③进阶（记忆与 RAG、上下文工程、MCP/A2A/ANP 通信协议、Agentic-RL 从 SFT 到 GRPO、性能评估）④实战（智能旅行助手、DeepResearch Agent 复现、赛博小镇）⑤毕业设计。另含 14 篇社区精选（Agent 面试题、Skill 写作最佳实践、Agent 自进化等）与视频课共创，PDF 免费下载（带 Datawhale 水印），CC BY-NC-SA 4.0 协议
+
 ## 开源书籍
 
 - [ai-infra-book](https://github.com/bojieli/ai-infra-book) — **979 Stars**，《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计，含全书正文、PDF、配套计算工具与实验
