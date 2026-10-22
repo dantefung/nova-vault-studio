@@ -313,6 +313,8 @@ wiki/
 | [mixailab-workbuddy-html-pipeline](/md/wiki/summaries/mixailab-workbuddy-html-pipeline) | WorkBuddy+SRT做HTML视频：SRT当画面排期表，HTML模板可复用，后续只换mp3+srt同款视觉持续出片 | X/Twitter |
 | [zhouluobo-workbuddy-feishu-content-flywheel](/md/wiki/summaries/zhouluobo-workbuddy-feishu-content-flywheel) | WorkBuddy+飞书三环飞轮：多维表格选题库→状态改「选中」触发写稿→排版 skill + 公众号 API 推草稿箱 | X/Twitter |
 | [zhouluobo-workbuddy-skill-wechat-article-pipeline](/md/wiki/summaries/zhouluobo-workbuddy-skill-wechat-article-pipeline) | WorkBuddy 加两个自建 skill 实现公众号自由：排版+视觉+自动推送草稿箱，自动发布绝对不碰 | X/Twitter |
+| [x-hot-topic-source-layering](/md/wiki/patterns/x-hot-topic-source-layering) | 追热点的信息源分层：源头（英文首发）/ 翻译（中文社区）/ 垂直（单领域）三层分工与速查表 | 用户整理 |
+| [x-tracking-forum-list](/md/wiki/sources/x-tracking-forum-list) | 做 X 必须关注的 10 个热门论坛原始归档：V2EX / 美卡论坛 / NodeSeek / 一亩三分地 / HostLoc / LinuxDo / 恩山 / LowEndTalk / r/churning / HN | 用户整理 |
 
 ### 公众号贴图起号 (WeChat Image-Post Accounts)
 

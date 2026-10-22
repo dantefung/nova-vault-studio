@@ -4,6 +4,15 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-22] ingest: 做 X 必须关注的 10 个热门论坛
+
+- 来源：用户提供的清单（无原始 URL 链接），归档至 `sources/x-tracking-forum-list.md`
+- 覆盖 10 个站点：V2EX、美卡论坛(uscardforum.com)、NodeSeek、一亩三分地(1point3acres.com)、HostLoc、LinuxDo(linux.do)、恩山无线论坛(right.com.cn)、LowEndTalk、Reddit r/churning、Hacker News
+- 10 个站点均已逐一核验可访问；其中美卡论坛、NodeSeek、一亩三分地、LinuxDo、LowEndTalk 对自动化请求返回 Cloudflare 验证页，属正常反爬策略，已在归档说明中注明
+- 提炼模式页 `patterns/x-hot-topic-source-layering.md`：把 10 个社区按「源头（英文首发）/ 翻译（中文社区二次传播）/ 垂直（单领域细节沉淀）」三层归位，给出「我想知道 X → 去哪看」速查表与三条使用纪律，并厘清与 agent-reach 抓取路由、新词雷达、趋势工具的分工
+- 关联既有 `information-consumption-playbook`（每日 25 分钟看完全网热点的 10 个核心网站，与本清单互补）、`sources/agent-reach`（15 平台抓取路由，10 个论坛中已覆盖 V2EX 与 Reddit）、`sources/cancan-new-term-radar-practice`、`sources/kristoff-new-term-site-1100usd`、`sources/reading-english-seo-sources`
+- index.md 两行归入「内容工作流」分类
+
 ## [2026-10-21] ingest: 新词站复盘两则 + 小站免 Google 账号登录
 
 - 来源（均为 X Article 长文，纯文本正文，抓取接口未返回配图）：
