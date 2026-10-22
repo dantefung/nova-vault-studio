@@ -4,6 +4,21 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-22] ingest: 5 篇 X 长文 + 2 条独立归档 + 1 项 AI 编程资源
+
+- AI 编程资源：在唯一数据源 `guide/ai/ai-programming-resources.md` 的「视频课程」分类新增 [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos)（用 Claude Opus 5.5 制作的爆款视频合集，每条附原始视频与提示词，8.7k stars / MIT，经 GitHub API 核验）；`build-resource-nav.js --check` 与 `check-resource-nav.py` 均通过
+- 采集归档 5 篇 X Article 长文（均为纯文本正文，抓取接口未返回配图）：
+  - `https://x.com/0xluffy_eth/status/2109829072360771992`（@0xluffy_eth 路飞，2026-10-13）→ `sources/ai-virtual-character-tiktok-subscription.md`：AI 虚拟角色 TikTok 订阅变现，7 段提示词从捏人设到回评论，含 Fanvue 分成口径（562 人 × 9.99 美元 ≈ 5614 美元，创作者拿 80% 约 4491 美元）与三条合规红线（不标 AI、用真人脸、做出未成年感）
+  - `https://x.com/vista8/status/2112744726487322678`（向阳乔木，2026-10-21）→ `sources/alice-personal-agent-game-ui.md`：把 Personal Agent 做成养成系游戏的白艾莉（Alice），多 Agent 化身与「AI 活人感」关系诉求
+  - `https://x.com/HytidelLegend/status/2112912008320552974`（Hytidel聊商业，2026-10-21）→ `sources/xiaohongshu-ecommerce-product-selection.md`：小红书电商选品七章全流程，含灰豚对标与 1688 供应链
+  - `https://x.com/Sunkeke_AI/status/2105474375638307119`（孙可可，2026-10-01）→ `sources/obsidian-beginner-starter-checklist.md`：Obsidian 新手抄作业指南，All-in-One 工作台、插件清单与多端同步方案
+  - `https://x.com/aiRobertDaily/status/2109166392683753563`（AIRobert，2026-10-11）→ `sources/seo-keyword-root-first-tutorial.md`：Semrush 关键词魔术工具找词根 → Google 看对手 → Trends 对比找上升词的完整实操
+- 独立归档 2 条用户直接提供的内容：
+  - `sources/solo-cream-1m-ai-site-case.md`：哥飞社群成员一人靠 AI 做到百万美元营收的案例转述，含营收与利润的口径差异、大市场切小块的判断，以及「社群以 SEO 出名但不局限于 SEO」的说明
+  - `patterns/agents-md-visual-hierarchy-directive.md`：在 AGENTS.md 加一句 `Avoid unnecessary secondary labels and descriptions. Let the layout do the explaining.` 来化解 AI 生成的副标题堆叠
+- 去广告处理：删除公众号开通与 90+ 篇资料包领取、AI 资料大礼包、点赞转发留言、个人微信与货源联系方式、`?via=` 推广码、「一键三连」等引流内容；原文的技术要点、平台规则、合规红线与插件清单完整保留
+- index.md 相应新增 7 行，分别归入「商业模式」「工具与技能」「内容工作流」分类
+
 ## [2026-10-22] ingest: 做 X 必须关注的 10 个热门论坛
 
 - 来源：用户提供的清单（无原始 URL 链接），归档至 `sources/x-tracking-forum-list.md`

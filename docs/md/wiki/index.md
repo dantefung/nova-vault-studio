@@ -153,6 +153,9 @@ wiki/
 | [network-piercing-frp-guide](/md/wiki/summaries/network-piercing-frp-guide) | 内网穿透主流工具对比与企业级 frp 私有化自建全攻略 | 君哥的学习笔记 |
 | [enterprise-knowledge-base-selection](/md/wiki/summaries/enterprise-knowledge-base-selection) | 企业级知识库架构选型：LLM Wiki（提前提炼复利）vs RAG（查询时拼装）深度对比 | 君哥的学习笔记 |
 | [shao-meng-inference-engineering-prefill-decode-cuda](/md/wiki/summaries/shao-meng-inference-engineering-prefill-decode-cuda) | Baseten「Inference Engineering」精读：Prefill 算力受限 vs Decode 带宽受限铁律 + vLLM/SGLang/TensorRT-LLM 选型 + 五大加速组合评估 + 故障是常态 | X/Twitter |
+| [agents-md-visual-hierarchy-directive](/md/wiki/patterns/agents-md-visual-hierarchy-directive) | AGENTS.md 视觉指令：让版式自己解释——一句删除型约束化解 AI 生成的副标题堆叠 | 用户整理 |
+| [alice-personal-agent-game-ui](/md/wiki/sources/alice-personal-agent-game-ui) | 把 Personal Agent 做成养成系游戏：白艾莉（Alice）的上手体验、多 Agent 化身与「AI 活人感」关系诉求 | X/Twitter |
+| [obsidian-beginner-starter-checklist](/md/wiki/sources/obsidian-beginner-starter-checklist) | Obsidian 新手抄作业指南：All-in-One 个人工作台、插件清单与多端同步方案 | X/Twitter |
 
 ### 学习路径 (Learning Paths)
 
@@ -301,6 +304,7 @@ wiki/
 | [dongqingai-xianyu-virtual-product-automation](/md/wiki/summaries/dongqingai-xianyu-virtual-product-automation) | 闲鱼虚拟资料自动化：AI+MCP把选品/制作/上架/发货变流水线，人只做定方向+质量检查+异常处理 | X/Twitter |
 | [affnom-y-traffic-arbitrage-3min-primer](/md/wiki/summaries/affnom-y-traffic-arbitrage-3min-primer) | 3分钟讲清楚流量套利：搜索套利/产品变现/网站广告三出口100美元账本示例，普通人先跑通一笔完整账再扩量 | X/Twitter |
 | [ai-business-seven-layers](/md/wiki/patterns/ai-business-seven-layers) | AI 商业七层金字塔：从卖时间、内容和结果，到卖产品、系统、底层能力与资本，换层的关键是改变交付标的 | 公众号 |
+| [solo-cream-1m-ai-site-case](/md/wiki/sources/solo-cream-1m-ai-site-case) | 一个人靠 AI 做到百万美元营收：大市场切小块、营收与利润的口径差异、获客不止 SEO | 用户整理 |
 
 ### 内容工作流 (Content Workflows)
 
@@ -314,6 +318,10 @@ wiki/
 | [zhouluobo-workbuddy-feishu-content-flywheel](/md/wiki/summaries/zhouluobo-workbuddy-feishu-content-flywheel) | WorkBuddy+飞书三环飞轮：多维表格选题库→状态改「选中」触发写稿→排版 skill + 公众号 API 推草稿箱 | X/Twitter |
 | [zhouluobo-workbuddy-skill-wechat-article-pipeline](/md/wiki/summaries/zhouluobo-workbuddy-skill-wechat-article-pipeline) | WorkBuddy 加两个自建 skill 实现公众号自由：排版+视觉+自动推送草稿箱，自动发布绝对不碰 | X/Twitter |
 | [x-hot-topic-source-layering](/md/wiki/patterns/x-hot-topic-source-layering) | 追热点的信息源分层：源头（英文首发）/ 翻译（中文社区）/ 垂直（单领域）三层分工与速查表 | 用户整理 |
+| [xiaohongshu-ecommerce-product-selection](/md/wiki/sources/xiaohongshu-ecommerce-product-selection) | 小红书电商选品全流程：选品逻辑、拼多多/抖店/巨量百应找爆品、灰豚对标、1688 供应链 | X/Twitter |
+| [ai-virtual-character-tiktok-subscription](/md/wiki/sources/ai-virtual-character-tiktok-subscription) | AI 虚拟角色 TikTok 订阅变现：7 段提示词从人设到订阅费，含 Fanvue 分成与三条合规红线 | X/Twitter |
+| [ai-virtual-model-account-case-study](/md/wiki/sources/ai-virtual-model-account-case-study) | AI 美女账号 9.4 万粉月入 2.8 万：Ina 案例拆解，明牌筛选与三层漏斗，赚钱核心是角色付费系统 | X/Twitter |
+| [seo-keyword-root-first-tutorial](/md/wiki/sources/seo-keyword-root-first-tutorial) | 出海 SEO 找词保姆级教程：Semrush 关键词魔术工具 → Google 看对手 → Trends 对比找上升词 | X/Twitter |
 | [x-tracking-forum-list](/md/wiki/sources/x-tracking-forum-list) | 做 X 必须关注的 10 个热门论坛原始归档：V2EX / 美卡论坛 / NodeSeek / 一亩三分地 / HostLoc / LinuxDo / 恩山 / LowEndTalk / r/churning / HN | 用户整理 |
 
 ### 公众号贴图起号 (WeChat Image-Post Accounts)
