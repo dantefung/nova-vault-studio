@@ -121,6 +121,7 @@ Agent 与人类的根本区别：**对人类，传递上下文的成本与基于
 
 ## 交叉引用
 
+- [[anthropic-single-agent-often-enough]] — Anthropic 工程博客版：一个 Agent 往往就够了（渐进式披露 + 回迁路径）
 - [[multi-agent-collision]] — 多 Agent 协作冲突的血泪教训
 - [[agent-paradigm-evolution]] — Agent 范式演变
 - [[dsh-subagent]] — DSH Subagent 子系统
