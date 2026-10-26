@@ -74,3 +74,5 @@ Then rewrite my prompt to ask for exactly that.
 ---
 
 **关于作者**：Felix Rieseberg，Anthropic EM，负责过 Claude.ai、Cowork、Claude Code Desktop。Electron 联合维护者，曾在 Notion、Stripe、Slack、Microsoft 工作。
+
+**相关阅读**：[中文深度拆解（Managed Agents 架构、Rocq 形式化验证数据、Claude Code 自主度实测）](./MIarQhuGQPUlEEI-D4ffAw.md)
