@@ -415,6 +415,10 @@ date: "2026-05-05"
 
 > ⚠️ Security Note：`event-poster`/`event-curator`/`wxmp-cracker` 标记为 High Risk（内容生成类），`proposal`/`contract-review-pro` 标记为 Med Risk。使用前建议 review 代码。
 
+## 大模型训练与复现
+
+- [minimind](https://github.com/jingyaogong/minimind) — **64k+ Stars**、Apache-2.0 许可证。完全从 0 开始训练一个约 64M 参数的超小语言模型，成本约 3 元人民币、耗时约 2 小时（单张 NVIDIA 3090 跑完 1 epoch SFT）。覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。所有核心算法均从 0 使用 PyTorch 原生实现，不依赖第三方高层抽象接口。配套视觉模态 [MiniMind-V](https://github.com/jingyaogong/minimind-v)、多模态 Omni [MiniMind-O](https://github.com/jingyaogong/minimind-o)、扩散语言模型 MiniMind-dLM、线性模型 MiniMind-Linear。HuggingFace Collection + 在线体验 + B 站视频介绍。
+
 ---
 
 ## 书籍与白皮书

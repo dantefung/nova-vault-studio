@@ -4,6 +4,19 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-26] ingest: 9 篇（3 篇 X 长文 + 1 篇博客 + 1 项 AI 编程资源）
+
+### 新增 source 文件
+- `sources/llm-learning-subway-map.md` ← `https://x.com/antiAIvo/status/2112187842919268835`：大模型学习地铁图，主干线 0-7 站（前置基础/Transformer/GPT-2/预训练/ChatGPT/LLaMA/MoE/推理模型）+ 五条支线（推理/训练/对齐/架构/应用），GPT-2 手写是整张地图的锚点
+- `sources/how-i-work-with-agents.md` ← `https://x.com/thorstenball/status/2114386050638336082`：Thorsten Ball October 2026 Agent 工作流实践总结，十条原则（最新最强模型/描述 What 不描述 How/SDLC 全可见/要求不可辩驳证明/异步优先等）
+- `sources/transformer-training-seven-formulas.md` ← `https://x.com/TensorTonic/status/2114298619868389667`：Transformer 训练的七个关键公式，逐条解释为何存在、数值示例、核心洞察（「没有一个公式是长的，每一个都存在是因为没有它就会出现故障」）
+
+### AI 编程资源更新
+- `docs/md/guide/ai/ai-programming-resources.md`：新增「大模型训练与复现」分类，首条加入 [minimind](https://github.com/jingyaogong/minimind)（64k+ Stars，Apache-2.0，3 元 2 小时从 0 训练 64M 参数 LLM，PyTorch 原生实现覆盖 Pretrain/SFT/LoRA/RLHF/DPO/GRPO/Tool Use/Agentic RL）
+
+### index.md 更新
+- 新增 3 行，归入「工具与技能」分类
+
 ## [2026-10-26] ingest: 6 篇（5 篇 X 长文 + 1 篇博客）
 
 ### 新增 source 文件

@@ -160,6 +160,9 @@ wiki/
 | [agent-relay-multi-agent-hands-on](/md/wiki/sources/agent-relay-multi-agent-hands-on) | Agent Relay 实测：Claude Code 与 Codex 直接互发消息，60 分钟临时房间与 8 人上限 | X/Twitter |
 | [github-life-lifecycle-guide](/md/wiki/sources/github-life-lifecycle-guide) | GitHub 人生指南：学习、升学、人际、求职、职场、独居与副业七个阶段的 30+ 项目索引 | X/Twitter |
 | [kieran-indie-dev-weekly-03](/md/wiki/sources/kieran-indie-dev-weekly-03) | Kieran 周报 #3：多 Agent 编排工作流实现 10x 产出（1100 contributions / 303 PRs）| 博客 |
+| [llm-learning-subway-map](/md/wiki/sources/llm-learning-subway-map) | 大模型学习地铁图：主干线 0-7 站 + 五条支线（推理/训练/对齐/架构/应用），GPT-2 手写是锚点 | X/Twitter |
+| [how-i-work-with-agents](/md/wiki/sources/how-i-work-with-agents) | Thorsten Ball：我如何与 Agent 协作（October 2026），十条实践原则，TTFT/异步/证明文化 | X/Twitter |
+| [transformer-training-seven-formulas](/md/wiki/sources/transformer-training-seven-formulas) | Transformer 训练的七个关键公式：初始化/Adam/偏差修正/Weight Decay/Warmup/余弦衰减/梯度裁剪 | X/Twitter |
 | [y2a-auto-youtube-bilibili-pipeline](/md/wiki/sources/y2a-auto-youtube-bilibili-pipeline) | Y2A-Auto 自动搬运流水线：技术能力核验与版权、平台规则边界 | X/Twitter |
 
 ### 学习路径 (Learning Paths)
