@@ -159,6 +159,7 @@ wiki/
 | [magpie-kiro-claude-code-subscription](/md/wiki/sources/magpie-kiro-claude-code-subscription) | magpie + Kiro 订阅接入 Claude Code：技术原理、配置四步与四类风险（含账号封禁与密钥） | X/Twitter |
 | [agent-relay-multi-agent-hands-on](/md/wiki/sources/agent-relay-multi-agent-hands-on) | Agent Relay 实测：Claude Code 与 Codex 直接互发消息，60 分钟临时房间与 8 人上限 | X/Twitter |
 | [github-life-lifecycle-guide](/md/wiki/sources/github-life-lifecycle-guide) | GitHub 人生指南：学习、升学、人际、求职、职场、独居与副业七个阶段的 30+ 项目索引 | X/Twitter |
+| [kieran-indie-dev-weekly-03](/md/wiki/sources/kieran-indie-dev-weekly-03) | Kieran 周报 #3：多 Agent 编排工作流实现 10x 产出（1100 contributions / 303 PRs）| 博客 |
 | [y2a-auto-youtube-bilibili-pipeline](/md/wiki/sources/y2a-auto-youtube-bilibili-pipeline) | Y2A-Auto 自动搬运流水线：技术能力核验与版权、平台规则边界 | X/Twitter |
 
 ### 学习路径 (Learning Paths)

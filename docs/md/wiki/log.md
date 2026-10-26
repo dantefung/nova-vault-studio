@@ -4,6 +4,27 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-26] ingest: 6 篇（5 篇 X 长文 + 1 篇博客）
+
+### 新增 source 文件
+- `sources/kieran-indie-dev-weekly-03.md` ← `https://kieran.build/zh/blog/indie-dev-weekly-03/`，Kieran Zhang 开发周报 #3，介绍基于 Lody 的多 Agent 编排系统工作流（Planner/Critic/Worker 分工），过去两周 GitHub 1100 contributions / 303 PRs，平均每天 80+ contributions / 20+ PRs
+- `sources/y2a-auto-youtube-bilibili-pipeline.md` ← `https://x.com/awe0_io/status/2112872752059420714`：Y2A-Auto 自动搬运流水线；已核验仓库约 4.0k stars / GPL-3.0 / Python，并把原帖「自动绕开敏感词」的营销表述还原为仓库实际实现（阿里云 Green 内容安全检测 + 人工审核 / 强制上传），同时写明版权与平台规则边界，不提供规避审核的操作指引
+- `sources/magpie-kiro-claude-code-subscription.md` ← `https://x.com/vincemask/status/2112506002193141950`：magpie + Kiro 订阅接入 Claude Code 的技术原理、配置四步与账号安全 / 额度 / 数据安全 / 兼容性四类风险；magpie 仓库经 GitHub API 核验约 21.7k stars / MIT
+- `sources/kling-4-ai-short-drama-workflow.md` ← `https://x.com/xitang_ai/status/2112514646196244880`：可灵 4.0 与 Seedance 2.5 的五组实测对比、成本口径（可灵 1080P 约 7.86 元 vs Seedance API 约 37.42 元）与短剧全流程五步
+- `sources/agent-relay-multi-agent-hands-on.md` ← `https://x.com/longhaiqwe123/status/2114031712430948410`：Agent Relay 实测；仓库经 GitHub API 与 npm registry 双向核验确认为 AgentWorkforce/relay（约 1019 stars / Apache-2.0），避免与同名项目混淆
+- `sources/github-life-lifecycle-guide.md` ← `https://x.com/Haosen9527/status/2114224157995282845`：GitHub 人生指南七阶段 30+ 项目索引，37 个仓库链接全部保留
+
+### 配图本地化
+- `images/kieran-indie-dev-weekly-03/indie-dev-weekly-03-cover.C9NrOzA8_Z12zM1x.webp`（256KB）
+- `images/kieran-indie-dev-weekly-03/journal-banner-landscape.D4QNn0ST_ZWFKWQ.webp`（95KB）
+
+### 去广告处理
+- Kieran 博客原文无推广话术，保留全部技术内容
+- 5 篇 X 长文均删除引流内容（详见上次记录）
+
+### index.md 更新
+- 新增 1 行，归入「工具与技能」分类
+
 ## [2026-10-26] ingest: 5 篇 X 长文（工具链 / AI 视频 / 多 Agent / 人生指南 / 搬运管线）
 
 - 来源（均为 X Article 纯文本正文，抓取接口未返回配图）：
