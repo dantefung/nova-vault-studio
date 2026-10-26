@@ -70,3 +70,7 @@ date: "2026-09-29"
 目前工业界明显趋势是**三者架构的融合版**，但仍有很多问题，比如**图结构和概率性模型二者的规划冲突**。
 
 作者正在基于卡兹克开源的系统尝试架构一个 agent 的微内核，图结构和概率性的结合对于信息源任务会有帮助。
+
+---
+
+**相关阅读**：[Agent sub-agent 拆分与派活——本地 spawn vs 分布式 ACP-Worker](./agent-subagent-splitting-and-dispatch.md)
