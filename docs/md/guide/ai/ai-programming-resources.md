@@ -178,6 +178,7 @@ date: "2026-05-05"
 - [X Interaction Toolkit](https://github.com/b8l8u8e8/x-interaction-toolkit) — X 账号互动分析工具，输入 @username 自动抓取评论/点赞/转发/引用者并排名，Userscript 版本，直接用 X 登录态
 - [huasheng13-skill](https://github.com/WangJunqing-coder/huasheng13-skill) — 公考花生十三 Skill，覆盖行测六大模块二十余题型上百条速算公式，配真题示例
 - [journal-partner](https://github.com/zhaohongxuan/journal-partner) — Obsidian 日记插件，语音实时转写 + 日记搜索 + 随机回顾 + URL Scheme 一键录音，支持 SiliconFlow/Groq/OpenAI/阿里百炼
+- [agentgateway](https://github.com/agentgateway/agentgateway) — **5.6k Stars**，Linux Foundation 孵化，Rust 实现的 **AI Agent 时代的 Nginx**，把三种网关合到一起：**LLM Gateway**（统一接入 OpenAI/Claude/Gemini，智能路由、负载均衡、限流、成本管理）、**MCP Gateway**（多 MCP Server 聚合为统一入口，集中管工具权限/身份认证/调用日志）、**A2A Gateway**（Agent-to-Agent 协议，让不同 Agent 安全地发现、调用、协作）。另支持 OAuth、JWT、OpenTelemetry 与 K8s 集成。个人开发者可能大材小用，但做多 Agent 系统 / AI SaaS / 企业级智能体平台时价值明显；Apache-2.0 许可证，官网 [agentgateway.dev](https://agentgateway.dev)
 - [TREK](https://github.com/mauriceboe/TREK) — 旅行规划工具，NestJS + React + WebSocket 实时协作 + Leaflet/Mapbox 互动地图 + 行程拖拽 + 费用分摊 + 打包清单 + PDF 导出
 - [ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest) — 电子书下载宝库，聚合帆书/微信读书/京东读书/喜马拉雅等平台，支持 epub/mobi/azw3，13.9k stars
 - [GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) — PPT 生成 Skill
@@ -277,6 +278,7 @@ date: "2026-05-05"
 - [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — 435 lessons, 20 phases, ~320 hours，Python/TypeScript/Rust/Julia 四语言，从数学基础到 Agent 自主系统，每课产出可复用 artifact
 - [Skill-Factory](https://github.com/FeiCoder/Skill-Factory) — Book2Skills：把人类专业书籍自动转化为 LLM Agent 可执行的标准化 Skill 包，基于 Mini-Agent 开发
 - [gnhf](https://github.com/kunchenguid/gnhf) — "Good Night, Have Fun"，让 AI 替你熬夜改代码，全自动循环 + Git 提交 + 回滚重试 + Worktree 多实例
+- [Agent 入门实践](https://nano-ai.tech/agent/) — 用 Claude 做的可视化 Agent 教学栏目，**10 章**：一次调用、工具调用、Agent Loop、上下文窗口、规划、记忆、MCP 与 Skills、子 Agent、失败模式、实战拆解。核心是那个"一格一格播"播放器：左边代码（黄色高亮当前执行行），右边实时显示此刻的上下文（system/user/assistant/工具结果各一色，新加的块亮黄、外框变黄表示整个上下文正发给模型），下方 token 计量条每调一次模型加一条（浅色=重发历史，深色=本轮新增）——**看完就明白 Agent 为什么跑久了又贵又慢**。建议先看第 3 章 Agent Loop，看懂那十几行后面每章都是往上加东西
 
 ---
 
