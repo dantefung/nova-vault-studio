@@ -156,6 +156,10 @@ wiki/
 | [agents-md-visual-hierarchy-directive](/md/wiki/patterns/agents-md-visual-hierarchy-directive) | AGENTS.md 视觉指令：让版式自己解释——一句删除型约束化解 AI 生成的副标题堆叠 | 用户整理 |
 | [alice-personal-agent-game-ui](/md/wiki/sources/alice-personal-agent-game-ui) | 把 Personal Agent 做成养成系游戏：白艾莉（Alice）的上手体验、多 Agent 化身与「AI 活人感」关系诉求 | X/Twitter |
 | [obsidian-beginner-starter-checklist](/md/wiki/sources/obsidian-beginner-starter-checklist) | Obsidian 新手抄作业指南：All-in-One 个人工作台、插件清单与多端同步方案 | X/Twitter |
+| [magpie-kiro-claude-code-subscription](/md/wiki/sources/magpie-kiro-claude-code-subscription) | magpie + Kiro 订阅接入 Claude Code：技术原理、配置四步与四类风险（含账号封禁与密钥） | X/Twitter |
+| [agent-relay-multi-agent-hands-on](/md/wiki/sources/agent-relay-multi-agent-hands-on) | Agent Relay 实测：Claude Code 与 Codex 直接互发消息，60 分钟临时房间与 8 人上限 | X/Twitter |
+| [github-life-lifecycle-guide](/md/wiki/sources/github-life-lifecycle-guide) | GitHub 人生指南：学习、升学、人际、求职、职场、独居与副业七个阶段的 30+ 项目索引 | X/Twitter |
+| [y2a-auto-youtube-bilibili-pipeline](/md/wiki/sources/y2a-auto-youtube-bilibili-pipeline) | Y2A-Auto 自动搬运流水线：技术能力核验与版权、平台规则边界 | X/Twitter |
 
 ### 学习路径 (Learning Paths)
 
@@ -323,6 +327,7 @@ wiki/
 | [ai-virtual-model-account-case-study](/md/wiki/sources/ai-virtual-model-account-case-study) | AI 美女账号 9.4 万粉月入 2.8 万：Ina 案例拆解，明牌筛选与三层漏斗，赚钱核心是角色付费系统 | X/Twitter |
 | [seo-keyword-root-first-tutorial](/md/wiki/sources/seo-keyword-root-first-tutorial) | 出海 SEO 找词保姆级教程：Semrush 关键词魔术工具 → Google 看对手 → Trends 对比找上升词 | X/Twitter |
 | [x-tracking-forum-list](/md/wiki/sources/x-tracking-forum-list) | 做 X 必须关注的 10 个热门论坛原始归档：V2EX / 美卡论坛 / NodeSeek / 一亩三分地 / HostLoc / LinuxDo / 恩山 / LowEndTalk / r/churning / HN | 用户整理 |
+| [kling-4-ai-short-drama-workflow](/md/wiki/sources/kling-4-ai-short-drama-workflow) | 可灵 4.0 AI 短剧全流程：与 Seedance 2.5 的五组实测对比、成本口径与资产图方法 | X/Twitter |
 
 ### 公众号贴图起号 (WeChat Image-Post Accounts)
 
