@@ -8,6 +8,56 @@ url: "https://mp.weixin.qq.com/s/3sibd_blvCUK2fWfoMRrDQ"
 
 # Agent 怎么做 sub-agent 拆分与派活：本地 spawn 与分布式 ACP-Worker 全解
 
+> **摘要**：QwenClaw 区分**进程内本地子 Agent**（单机 spawn）和**分布式 Worker**（ACP-Worker）两套执行体系——不是替代关系，而是分层配合、按需选型。本地 spawn 四条关键约束：独立会话上下文、工具集交集裁剪、禁止再次 spawn、只回传 artifact；短板是故障会牵连主进程。分布式 Worker 通过 ACP 协议跨网络调用，由 AgentTeams 的 **WorkerRegistry** 按能力位图（非服务名）检索实例，AgentTeams 治理平面负责熔断剔除。**硬编码路由规则优先级高于 LLM 推理输出**，高危任务强制下发到 Worker。真实生产绝大多数是混合架构：按任务属性分流。
+
+```markmap height=460
+# sub-agent 拆分与派活
+## 一、本地 spawn（进程内）
+### 适用
+- 上下文强关联
+- 任务轻量/中等
+- 时延敏感
+### 四条约束
+- 独立会话上下文
+- 工具集交集裁剪
+- disallow_spawn 禁再派生
+- 只回传 artifact
+### 短板
+- 死循环/泄漏牵连主进程
+- 无独立资源配额
+- 不能跨机调度
+## 二、分布式 ACP-Worker
+### 何时选
+- 任务重（内存/GPU/CPU）
+- 高风险不可信
+- 需多 Agent 复用
+- 要横向扩缩容
+- 上下文弱耦合
+### 四个角色
+- ACPClient 发起调用
+- WorkerRegistry 按能力位图检索
+- ACP-Worker 独立进程/容器
+- 治理平面 熔断剔除
+### 派活六步
+- ReAct 识别可拆子任务
+- 硬编码规则优先于 LLM
+- 传能力位图检索实例
+- 取 endpoint + token 发 ACP
+- Worker 内部可再 spawn
+- 只回 artifact，生命周期归集群
+## 三、混合架构
+- 轻量分片 → 本地 spawn
+- 高危重计算 → 分布式 Worker
+- 两边产物合并汇总
+## 四、面试要点
+- 7 维对比表
+- 决策三条
+- 不用 Nacos 的原因
+- 防幻觉路由两层
+- 嵌套可行
+- 统一产物契约
+```
+
 > 面试官问：Agent 怎么做 sub-agent 拆分、派活的？我说了拆分本地 sub-agent，面试官说 sub-agent 分布式怎么拆？
 
 这道题具备很强的代表性，也是很多只停留在大模型应用层开发的同学容易卡壳的地方。

@@ -8,6 +8,51 @@ url: "https://mp.weixin.qq.com/s/Uh_M1j_KxkOjiYkLqoHutg"
 
 # 12 小时、636 个测试：自驱型 Skill 能走多远
 
+> **摘要**：以 Simon Willison 的 SPARQLite 实验（12 小时、636/639 个 W3C 测试、"这些代码 review 不了"）为引，拆解自驱型能力的边界。核心结论：**Skill 能封装自驱的策略，但封装不了自驱的运行时**。复杂项目需要三层配合——**Skill**（操作手册：何时做、什么顺序、什么算通过）、**Workflow**（流水线：拆开、并行、对抗核验）、**Harness**（发动机：跨 session 状态、恢复、权限、停止条件）。配套还有**协作层**（谁来评）和 `design/` 目录（留下人能读的决策记录）。自驱不等于无限 autonomy，而是把人挪到三个高杠杆点：定义完成标准、批准高风险动作、最终验收。
+
+```markmap height=460
+# 自驱型 Skill 的边界
+## 一、问题从哪来
+- SPARQLite：12h / 636-639 测试
+- 生成不再是瓶颈，验证是
+- vibe coding vs vibe engineering
+## 二、Skill = 策略层
+- 只做有界任务可自驱
+- 缺循环、状态、恢复
+- 强项：references/scripts/fork/hooks
+### 三形态对比
+- Skill 单独：宿主驱动
+- +Workflow：JS 编排
+- +SDK：跨 session + 预算
+## 三、协作层：谁来评
+- 研究并行，写作单线程
+- reviewer 用干净上下文
+- judge 不改稿，不自判通过
+- 只传路径 + 结构化 JSON
+## 四、编排层：怎么跑
+- fan-out / synthesize
+- adversarial verification
+- loop until done
+## 五、运行时层：跨 session
+- 4 个状态文件
+  - brief.md 目标与验收
+  - state.json 阶段与预算
+  - progress.md 这轮改了啥
+  - findings.json 证据与问题
+- controller.apply 确定性状态机
+- design/ 原则→架构→接口
+## 六、三条路径选型
+- 单 session → Skill
+- 复杂边界清楚 → +Workflow
+- 跨天需审计 → +SDK
+## 七、五类代价
+- token 15 倍
+- 可审查性差
+- harness 假设会过期
+- 权限与安全
+- 适用边界
+```
+
 > Agent Skills 与 harness 实践分析。基于 Claude Code Skills / Agent SDK 官方文档、Anthropic 的长任务 harness 与 dynamic workflows 文章、Simon Willison 的 SPARQLite 实验，以及 skill 实测与 Harness 文章。SPARQLite 为单次公开实验，数字为作者自述，不代表成功率。
 
 ## Simon Willison 的 SPARQLite 实验

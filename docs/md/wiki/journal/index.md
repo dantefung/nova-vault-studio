@@ -5,6 +5,12 @@ date: "2026-08-03"
 
 # 日记索引
 
+## 2026-10-26
+
+- [全天] 归档 11 篇 + 摘要与 markmap 批量补齐 — Agent 架构 5 篇（4 种顶级用法/自驱 Skill 三层/sub-agent 拆分/Anthropic 做减法/手绘风视频 Skill）、变现出海 4 篇（800 提示词建站/AI 变现七层/银行结构化产品/跨境超级个体）、设计 1 篇、Agent 工程实践 1 篇；新增 dsh-bili-scroll 资源 + 3 条稍后读；全量去广告；重建 4 张被脚本压扁的表格
+- [全天] 三个采集坑 — 带 `###` 小标题的文章被压扁成重复长行、表格被拆成散行需手工重建、tmpfiles.org 需取 `/dl/{token}` 真实直链才能下到文件
+- [全天] 今天的观察 — 复杂度要按任务属性买单：能并行的就拆，单线程能搞定的不为架构而架构
+
 ## 2026-09-05
 
 - [全天] BestBlogs 早报 — AI 原生 SDLC 六阶段（Plan→Design→Build→Test→Deploy→Maintain）+ intent.md/spec.md 工件化；淘宝百亿补贴团队指标语义链路；Physical Intelligence 物理 AI 提升可靠性
