@@ -316,6 +316,9 @@ wiki/
 | [dongqing-5-ai-money-making-projects](/md/wiki/sources/dongqing-5-ai-money-making-projects) | 冬青：普通人利用 AI 赚钱的五个项目（小红书虚拟资料/公众号+小程序/定制网站软件/内容创作/CPS 返利机器人）| X/Twitter |
 | [affnom-y-traffic-arbitrage-3min-primer](/md/wiki/summaries/affnom-y-traffic-arbitrage-3min-primer) | 3分钟讲清楚流量套利：搜索套利/产品变现/网站广告三出口100美元账本示例，普通人先跑通一笔完整账再扩量 | X/Twitter |
 | [ai-business-seven-layers](/md/wiki/patterns/ai-business-seven-layers) | AI 商业七层金字塔：从卖时间、内容和结果，到卖产品、系统、底层能力与资本，换层的关键是改变交付标的 | 公众号 |
+| [ai-escape-speed](/md/wiki/concepts/ai-escape-speed) | AI 创业的逃逸速度：套壳为什么有价值——在下一代模型前做更多次有效迭代，含能力公式与方向/迭代两类判断 | 公众号 |
+| [agent-iteration-environment](/md/wiki/patterns/agent-iteration-environment) | Agent 迭代环境闭环：Dogfood 环境自建 → 区分产品问题与基建问题 → 清障降本 → 口喷式无限迭代 | 公众号 |
+| [judgment-environment-infinite-iteration](/md/wiki/sources/judgment-environment-infinite-iteration) | 《判断，环境，与无限迭代》原始归档：逃逸速度、两类判断、环境自建与无限迭代 | 公众号 |
 | [solo-cream-1m-ai-site-case](/md/wiki/sources/solo-cream-1m-ai-site-case) | 一个人靠 AI 做到百万美元营收：大市场切小块、营收与利润的口径差异、获客不止 SEO | 用户整理 |
 
 ### 内容工作流 (Content Workflows)

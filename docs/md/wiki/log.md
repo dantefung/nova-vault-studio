@@ -4,6 +4,18 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-27] ingest: 《判断，环境，与无限迭代》— AI 创业的逃逸速度
+
+- 来源：`https://mp.weixin.qq.com/s/LIHiwas6cycnQ1lvuZpfbg`（微信公众号：Yangyi，2026-10-27）
+- 归档至 `sources/judgment-environment-infinite-iteration.md`（169 行）
+- 本地化 3 张图至 `images/judgment-environment-infinite-iteration/`（001~003.jpeg，真实 JPEG 格式，最大 111KB）
+- **抓取异常处理**：`fetch_weixin.py` 输出的原始 blob 行与干净正文行并存，图片全部聚在 blob 里而干净正文丢失图片。已写脚本从 blob 的图文序列推导每张图的锚点句，再映射回干净正文的插入位置（头图 → H1 后，002 → 「比如我让它构建一个Loop…」后，003 → 「我让它自己提交外链，找达人，写SEO：」后）
+- 内容摘要：① **逃逸速度**——套壳有没有价值，取决于能否在下一代模型到来前比模型跑得更快地迭代（领先模型则套壳有意义，落后模型只剩心智与营销空间）；② **能力公式**——Agent 能力 = 模型水平 + 指令 + 经验(记忆) + 外部能力(工具)，套壳的价值是优化后三者；③ **两类判断**——方向判断（第一性原理，Day1 方向错只能靠 pivot，战术可桌面优先但战略远方是移动）与迭代判断（专家知识两个层面：给外部工具 / 造上下文工程；反馈驱动模型层 RSI、套壳层、人类先验三层优化）；④ **环境**——人是环境的产物，Agent 也是，Dogfood 是让 Agent 获得有效上下文的前提；⑤ **无限迭代**——先解基建卡点（热更新、发布链路），把迭代成本压到可忽略，才进入「口喷无限迭代」正向循环，延展到 GTM 自动化
+- 提炼概念页 `concepts/ai-escape-speed.md`：逃逸速度定义、套壳价值的有条件性、能力公式、逃逸速度 = 有效迭代次数（周期短 × 反馈有效两个乘数）、两类判断、关键区分（逃逸速度 = 时间维度，AI 商业七层 = 交付标的物的空间维度，两者互补不替代）
+- 提炼模式页 `patterns/agent-iteration-environment.md`：环境自建(Dogfood) → 痛点定位（产品问题 vs 基建问题）→ 基建清障 → 口喷式无限迭代 → 反馈自动回流，附 7 条 Quality Gate 与 5 条 Failure Modes
+- 关联既有 `patterns/ai-business-seven-layers`（交付层级）、`concepts/ai-oneperson-company`、`patterns/first-principles-reasoning`、`patterns/agent-loop`、`patterns/agent-runtime-safety-guardrails`
+- 去广告处理：全文扫描无二维码/加群/领福利/价格等引流话术；NewMax 相关表述为论证中的举例而非推销，原文保留
+
 ## [2026-10-27] ingest: 2 篇 X 长文（.cc 域名选型踩坑复盘 + AI 小游戏发行全景）
 
 - 来源：
