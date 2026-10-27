@@ -339,8 +339,8 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [wechat-image-post-account](/md/wiki/concepts/wechat-image-post-account) | 公众号贴图（小绿书）形态模型：3–9 图 + 短文案的公域内容形态，与长文/视频号的三类流量分工、五条变现路径与平台规则边界 | X/Twitter 综合 |
-| [wechat-image-post-account-sop](/md/wiki/patterns/wechat-image-post-account-sop) | 贴图起号五步法：需求卡 → 四页结构 → 清单式做图 → 10 个标题候选 → 单变量迭代，附银发赛道选题工程 | X/Twitter 综合 |
+| [wechat-image-post-account](/md/wiki/concepts/wechat-image-post-account) | 公众号贴图形态模型：最多 9 图 + 标题 + 1000 字描述，与长文/视频号的三类流量分工、五条变现路径、2026 算法权重与平台规则边界 | X/Twitter 综合 + 2026-10 校准 |
+| [wechat-image-post-account-sop](/md/wiki/patterns/wechat-image-post-account-sop) | 贴图起号五步法：需求卡 → 四页结构 → 清单式做图 → 10 个标题候选 → 单变量迭代，附银发赛道选题工程与 2026 平台约束 | X/Twitter 综合 + 2026-10 校准 |
 | [wechat-tietu-cold-start-sop](/md/wiki/sources/wechat-tietu-cold-start-sop) | 贴图起号 5 步 SOP 原始归档：需求卡、标题三句筛选、三遍检查法与四个避坑点 | X/Twitter |
 | [wechat-tietu-money-playbook](/md/wiki/sources/wechat-tietu-money-playbook) | 贴图变现地图原始归档：低粉爆款筛选、封面五要点、标题八方向与全链路变现矩阵 | X/Twitter |
 | [wechat-tietu-beginner-guide](/md/wiki/sources/wechat-tietu-beginner-guide) | 贴图变现五类路径原始归档：流量主、带货、私域、知识付费与本地商家引流 | X/Twitter |
