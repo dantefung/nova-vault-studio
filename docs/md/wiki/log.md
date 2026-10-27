@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-27] ingest: 浅水虾《SEO 地基怎么打？新手出关指南》
+
+- 来源：`https://x.com/qianshuixia2026/status/2111268767342997847`（X/Twitter: 浅水虾，2026-10-17）
+- 归档至 `sources/qianshuixia-seo-foundation-guide.md`
+- 内容摘要：
+  - ① **SEO 地基三段位**：执行型（机械打勾易被取代）、策略型（局部最优）、原理型（吃透底层 Crawl→Parse→Index→Serving 四阶段机制）；
+  - ② **做站五大能力拼图**：建站基础（技术地基/状态码/CWV）、SEO 基础（核心地基/51个词根/KGR/TDH/树形内链）、推广基础（四步循环: 词找词→词找站→站找词→站找站）、运营基础（GSC 曝光/点击/排名三维诊断）、AdSense 基础（展示数/CTR/CPC/RPM 商业化变现）；
+  - ③ **新手出关三步走**：看 100 词 1000 站建立手感 → 三个阶梯练手站（跑通全流程 → 练精准选词与基础外链 → 练内页矩阵与树形内链） → 先收词再建站死铁律；
+  - ④ **心法**：哥飞九字心法“找到正确方法 + 持续执行 + 足够耐心”，克服依赖 AI 导致的思考退化。
+- index.md 追加条目至「出海建站 (Overseas Website Building)」。
+
 ## [2026-10-27] ingest: 《判断，环境，与无限迭代》— AI 创业的逃逸速度
 
 - 来源：`https://mp.weixin.qq.com/s/LIHiwas6cycnQ1lvuZpfbg`（微信公众号：Yangyi，2026-10-27）
