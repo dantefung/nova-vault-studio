@@ -1,7 +1,8 @@
 ---
 title: "nemo：无需公司，手把手注册 Stripe 香港个人账户"
-date: "2026-09-15"
+date: "2026-01-26"
 source: "X/Twitter"
+author: "nemo (@nemoisme)"
 url: "https://x.com/nemoisme/status/2015804404004438366"
 ---
 
