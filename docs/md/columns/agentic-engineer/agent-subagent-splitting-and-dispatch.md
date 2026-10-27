@@ -210,3 +210,11 @@ WorkerRegistry 是面向 AI Worker 场景自研的注册中心，核心检索逻
 - 单机内 spawn 这套方案，在一定程度上解决主 Agent 上下文持续膨胀的问题
 - ACP 协议 + AgentTeams 集群体系，用来解决故障隔离、资源隔离、分布式扩缩容的诉求
 - 两套方案可以嵌套部署，也可以按任务特征混合搭配使用
+
+---
+
+**站内相关阅读**：
+
+- [透析 Skill 与 Tool 底层：Agent 两大核心底座的关系](./agent-skill-and-tool-foundation-layers.md)（同一系列 QwenPaw / AgentTeams：工具底座四段链路与两层底座边界）
+- [12 小时、636 个测试：自驱型 Skill 能走多远](./self-driving-skill-three-layers.md)
+- [多 Agent 架构设计模式：六种主流方案解析](./multi-agent-architecture-patterns.md)

@@ -301,3 +301,4 @@ dynamic workflow 的文章还提到一个对"自驱型 skill"很有用的做法�
 - [一个人调度四个角色：多会话协作 Skill 的实测与边界](./r30xaDrHtbmUm6N7wVvJuA.md)
 - [别让写代码的 Agent 评审自己：AI 代码评审的三道闸门](./m4TOOhrdNkgWKQn3deFOzw.md)
 - [多 Agent 架构设计模式：六种主流方案解析](./multi-agent-architecture-patterns.md)
+- [透析 Skill 与 Tool 底层：Agent 两大核心底座的关系](./agent-skill-and-tool-foundation-layers.md)
