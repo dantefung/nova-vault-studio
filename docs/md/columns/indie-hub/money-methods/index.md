@@ -21,3 +21,4 @@ url: ""
 - [90% 的独立开发不挣钱](./indie-dev-90-percent-no-money.md) — 梁唐：开发是确定性难题，产品运营是不确定性难题；认知差=时间差；90% 提前设想的问题不会发生
 - [数字产品副业指南](./sell-digital-products.md) — 国内卖19国外卖9刀，Gumroad/Payhip/Sellfy 平台对比
 - [边走边看，边干边学，判断标准，在实践里找](./judge-standard-in-practice.md) — 范范：贝叶斯主义者，每次行动后用结果调整策略；搞钱和搞流量总得有一个在干
+- [闲鱼虚拟商品自动发货工具](./xianyu-auto-delivery-tools.md) — 易店 / 智年博客开源版：登录闲鱼账号设置商品发货内容，一键自动发货，无需自建
