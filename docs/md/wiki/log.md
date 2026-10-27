@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-26] ingest: 11 篇（含冬青两篇 + 重复修正）
+
+### 新增 source 文件
+- `sources/dongqing-5-ai-money-making-projects.md` ← `https://x.com/DongQingAsk/status/2106953767061168438`：冬青分享普通人利用 AI 赚钱的五个项目——小红书虚拟资料店铺/公众号+小程序/定制网站软件/内容创作/CPS 返利机器人，附月收入数据与启动建议
+- `sources/dongqing-cashback-bot-project.md` ← `https://x.com/DongQingAsk/status/2114628098809327891`：返利机器人短帖详述（月入 3K-5k，种子人群+自发裂变）；原帖附 2 张截图已本地化至 `sources/images/dongqing-cashback-bot-project/`
+
+---
+
 ## [2026-10-26] ingest: 9 篇（3 篇 X 长文 + 1 篇博客 + 1 项 AI 编程资源）
 
 ### 新增 source 文件
