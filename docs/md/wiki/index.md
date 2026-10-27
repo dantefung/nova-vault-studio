@@ -163,6 +163,7 @@ wiki/
 | [llm-learning-subway-map](/md/wiki/sources/llm-learning-subway-map) | 大模型学习地铁图：主干线 0-7 站 + 五条支线（推理/训练/对齐/架构/应用），GPT-2 手写是锚点 | X/Twitter |
 | [how-i-work-with-agents](/md/wiki/sources/how-i-work-with-agents) | Thorsten Ball：我如何与 Agent 协作（October 2026），十条实践原则，TTFT/异步/证明文化 | X/Twitter |
 | [transformer-training-seven-formulas](/md/wiki/sources/transformer-training-seven-formulas) | Transformer 训练的七个关键公式：初始化/Adam/偏差修正/Weight Decay/Warmup/余弦衰减/梯度裁剪 | X/Twitter |
+| [nemoisme-stripe-personal-account-guide](/md/wiki/sources/nemoisme-stripe-personal-account-guide) | Stripe 香港个人账户注册全教程：KYC/银行绑定/汇损优化（美元默认节省 1%），无公司也可收款 | X/Twitter |
 | [y2a-auto-youtube-bilibili-pipeline](/md/wiki/sources/y2a-auto-youtube-bilibili-pipeline) | Y2A-Auto 自动搬运流水线：技术能力核验与版权、平台规则边界 | X/Twitter |
 
 ### 学习路径 (Learning Paths)

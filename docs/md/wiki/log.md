@@ -4,6 +4,11 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-26] ingest: 10 篇（4 篇 X 长文 + 1 篇博客 + 1 项 AI 编程资源）
+
+### 新增 source 文件
+- `sources/nemoisme-stripe-personal-account-guide.md` ← `https://x.com/nemoisme/status/2015804404004438366`：Stripe 香港个人账户注册全教程，KYC/银行绑定/汇损优化（设美元默认货币可省约 1%）
+
 ## [2026-10-26] ingest: 9 篇（3 篇 X 长文 + 1 篇博客 + 1 项 AI 编程资源）
 
 ### 新增 source 文件
