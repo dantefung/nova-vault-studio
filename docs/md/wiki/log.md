@@ -4,6 +4,18 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-27] ingest: 闲鱼副业三件套开源工具 + LangChain 公司级 Harness 架构
+
+- 来源与归档：
+  1. 闲鱼副业推文（用户提供原文摘录）→ `sources/xianyu-3-open-source-tools-automation.md`：拆解 3 个开源工具的流水线分工（`ai-goofish-monitor` 盯盘捡漏 → `XianyuAutoAgent` 客服议价出单 → `xianyu-auto-reply-fix` 多账号自动发货）与新手「先装监控看懂行情」的上手顺序
+  2. `https://x.com/Xudong07452910/status/2114876984304263464` → `sources/xudong-langchain-company-harness-insight.md`：Xudong Han 对 LangChain 公司级 Harness 的中文解读，提炼「Agent 以谁身份干活」的三组实例（GTM/OpenSWE/Content Studio）
+  3. `https://www.langchain.com/blog/components-building-company-harness` → `sources/langchain-five-components-company-harness.md`：LangChain 官方原文精读，五个原语——住在 Slack（breakout 独立线程）、身份（按工具粒度 OBO vs 固定凭据 + DM/频道 + 白名单双重约束）、记忆（Global/User 双层由 Agent 自行归属）、代码执行（沙箱外运行 + 沙箱内执行 + secret proxy）、调度（开发者预置事件 + 用户自建 cron）
+- 配套新增实体页（此前仅收录 `xianyu-auto-reply-fix`）：
+  - `entities/xianyu-auto-agent.md`：shaxiu/XianyuAutoAgent，9.5k stars，GPL-3.0，多专家路由 + 阶梯议价 + 上下文感知对话
+  - `entities/ai-goofish-monitor.md`：Usagi-org/ai-goofish-monitor，15.2k stars，MIT，Playwright + 多模态 AI 监控、SQLite 存储、Docker 部署
+- 配图本地化 6 张至 `images/langchain-five-components-company-harness/`（001~006，PNG/JPEG 真实格式，最大 355KB），并按 wiki 规范路径 `docs/md/wiki/images/` 归置
+- `index.md` 新增 5 条：工具与技能 4 条（闲鱼三件套 + 3 个实体页）、Agent 工程 2 条（LangChain 原文与中文解读）
+
 ## [2026-10-27] ingest: 10 篇精选出海建站、GEO、Agent 工程与商业实战 X 长文
 
 - 来源列表：
@@ -2211,10 +2223,10 @@ source: "llm-wiki"
 
 ## [2026-06-21] wiki-ingest: no-partner-startup + luck-and-mysticism
 
-- **Sources**: 
+- **Sources**:
   - [创业不要合伙！！！](https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg) (小鹅劳斯)
   - [运气和玄学](https://mp.weixin.qq.com/s/V1eWrG-chA4gh3AV8sAb7A) (小鹅劳斯)
-- **Patterns**: 
+- **Patterns**:
   - [[solo-startup]] - 创业不要合伙，定期分钱不分股权，掌握稀缺资源
   - [[life-anti-fragility]] - 多重支点，时间周期拉长运气归零，吃透vs浅尝辄止
 

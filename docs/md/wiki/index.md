@@ -165,6 +165,10 @@ wiki/
 | [transformer-training-seven-formulas](/md/wiki/sources/transformer-training-seven-formulas) | Transformer 训练的七个关键公式：初始化/Adam/偏差修正/Weight Decay/Warmup/余弦衰减/梯度裁剪 | X/Twitter |
 | [addy-osmani-claude-code-code-review](/md/wiki/sources/addy-osmani-claude-code-code-review) | Addy Osmani（Google）：Claude Code 团队如何做代码审查——六层自动化防线 + 风险分级审批，PR 量翻倍同时回退率降 40% | X/Twitter |
 | [y2a-auto-youtube-bilibili-pipeline](/md/wiki/sources/y2a-auto-youtube-bilibili-pipeline) | Y2A-Auto 自动搬运流水线：技术能力核验与版权、平台规则边界 | X/Twitter |
+| [xianyu-3-open-source-tools-automation](/md/wiki/sources/xianyu-3-open-source-tools-automation) | 闲鱼副业月入 5 万的 3 个开源工具：盯盘捡漏 → 自动议价 → 多账号自动发货的完整流水线 | X/Twitter |
+| [xianyu-auto-agent](/md/wiki/entities/xianyu-auto-agent) | shaxiu/XianyuAutoAgent：闲鱼 7×24 智能值守，上下文感知对话 + 阶梯降价议价 + 多专家路由 | GitHub |
+| [ai-goofish-monitor](/md/wiki/entities/ai-goofish-monitor) | Usagi-org/ai-goofish-monitor：Playwright + AI 闲鱼多任务监控，按价格/区域/AI 标准捡漏秒拍 | GitHub |
+| [xianyu-auto-reply-fix](/md/wiki/entities/xianyu-auto-reply-fix) | GuDong2003/xianyu-auto-reply-fix：闲鱼多账号管理、AI 自动回复与自动发货确认 | GitHub |
 
 ### 学习路径 (Learning Paths)
 
@@ -310,6 +314,8 @@ wiki/
 | [dsh-browser-first-configurable-harness](/md/wiki/concepts/dsh-browser-first-configurable-harness) | 浏览器优先的完全可配置 Harness：DSH 与 Claude Code/Codex 的四项核心工程差异 | Wiki 推导 |
 | [shao-meng-google-5day-ai-agents-course](/md/wiki/sources/shao-meng-google-5day-ai-agents-course) | Google 官方「5天 AI Agents 课程」深度解读：从 Vibe Coding 到生产级 Agent 范式 | X/Twitter |
 | [yihui-loop-engineering-explained](/md/wiki/sources/yihui-loop-engineering-explained) | yihui：Loop Engineering 到底是什么？从人肉循环到自主工程闭环 | X/Twitter |
+| [langchain-five-components-company-harness](/md/wiki/sources/langchain-five-components-company-harness) | LangChain：构建「公司级 Harness」的五个组件——身份/记忆/沙箱/调度/住在 Slack | LangChain Blog |
+| [xudong-langchain-company-harness-insight](/md/wiki/sources/xudong-langchain-company-harness-insight) | Xudong Han：LangChain 公司级 Harness 中文解读——Agent 以谁的身份干活 | X/Twitter |
 
 ### 商业模式 (Business Models)
 
