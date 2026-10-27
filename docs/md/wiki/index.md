@@ -229,6 +229,12 @@ wiki/
 | [adsense-us-tax-form](/md/wiki/sources/adsense-us-tax-form) | AdSense 美国税务信息（W-8BEN 表 + 中美税收条约）10 分钟填表 | 公众号 |
 | [maynorai-cc-domain-trap-review](/md/wiki/sources/maynorai-cc-domain-trap-review) | MomoAI：视频模板站批量上站复盘，.cc 等便宜垃圾后缀致 GSC Sitemap/抓取卡死与选型建议 | X/Twitter |
 | [qianshuixia-seo-foundation-guide](/md/wiki/sources/qianshuixia-seo-foundation-guide) | 浅水虾：SEO 地基怎么打？五大能力拼图、三级阶梯练手站与先收词再建站铁律 | X/Twitter |
+| [sagasu-2026-seo-backlink-strategy](/md/wiki/sources/sagasu-2026-seo-backlink-strategy) | SagaSu：2026 SEO 新手必看——外链大变局、Google 新规与 90 天执行路径 | X/Twitter |
+| [charlie-niche-seo-site-50k-case](/md/wiki/sources/charlie-niche-seo-site-50k-case) | Charlie0：沈一独立开发实战——英文细分站从 0 到 5 万美金案例复盘 | X/Twitter |
+| [bainian-seo-daily-001-downloader-to-checker](/md/wiki/sources/bainian-seo-daily-001-downloader-to-checker) | 百年 AI×出海：SEO 日课 001｜从 Downloader 到 Checker 找词推演 | X/Twitter |
+| [seo-hosting-selection](/md/wiki/sources/seo-hosting-selection) | AI Robert：出海建站服务器选型（Vercel / Cloudflare / Railway）与免费起步建议 | X/Twitter |
+| [seo-stripe-reverse-product-discovery](/md/wiki/sources/seo-stripe-reverse-product-discovery) | AI Robert：从 Stripe 收银台倒着找出海产品与高意向付费词 | X/Twitter |
+| [seo-zero-cost-trend-watch](/md/wiki/sources/seo-zero-cost-trend-watch) | AI Robert：出海找词零成本技巧——盯 X 上 AI 新发布自动挑词 | X/Twitter |
 | [baokuan-title-generator-skill](/md/wiki/sources/baokuan-title-generator-skill) | 公众号爆款标题 Skill：16 种模板 + 双模型协同（fable5 + GPT-5.6） | 公众号 |
 | [baokuan-title-generator-skill](/md/wiki/products/baokuan-title-generator-skill) | 公众号爆款标题 Skill 产品页 | 产品 |
 
@@ -302,6 +308,8 @@ wiki/
 | [dsh-complete-guide](/md/wiki/sources/dsh-complete-guide) | DSH 完全指南：浏览器优先 + 133 插件 + config 关闭任意插件 + trajectory 视图 + headless/CI/MCP | X |
 | [dsh-complete-guide-summary](/md/wiki/summaries/dsh-complete-guide) | DSH 完全指南精读：浏览器应用、MCP 配置、Trajectory 暴露、profile 抽象 vs 闭源 CLI 的工程差异 | Wiki 摘要 |
 | [dsh-browser-first-configurable-harness](/md/wiki/concepts/dsh-browser-first-configurable-harness) | 浏览器优先的完全可配置 Harness：DSH 与 Claude Code/Codex 的四项核心工程差异 | Wiki 推导 |
+| [shao-meng-google-5day-ai-agents-course](/md/wiki/sources/shao-meng-google-5day-ai-agents-course) | Google 官方「5天 AI Agents 课程」深度解读：从 Vibe Coding 到生产级 Agent 范式 | X/Twitter |
+| [yihui-loop-engineering-explained](/md/wiki/sources/yihui-loop-engineering-explained) | yihui：Loop Engineering 到底是什么？从人肉循环到自主工程闭环 | X/Twitter |
 
 ### 商业模式 (Business Models)
 
@@ -321,6 +329,9 @@ wiki/
 | [agent-iteration-environment](/md/wiki/patterns/agent-iteration-environment) | Agent 迭代环境闭环：Dogfood 环境自建 → 区分产品问题与基建问题 → 清障降本 → 口喷式无限迭代 | 公众号 |
 | [judgment-environment-infinite-iteration](/md/wiki/sources/judgment-environment-infinite-iteration) | 《判断，环境，与无限迭代》原始归档：逃逸速度、两类判断、环境自建与无限迭代 | 公众号 |
 | [solo-cream-1m-ai-site-case](/md/wiki/sources/solo-cream-1m-ai-site-case) | 一个人靠 AI 做到百万美元营收：大市场切小块、营收与利润的口径差异、获客不止 SEO | 用户整理 |
+| [fangxin-geo-monetization-guide](/md/wiki/sources/fangxin-geo-monetization-guide) | 方鑫：GEO 到底怎么赚钱？六类生意形态、收费、交付与验收全解析 | X/Twitter |
+| [koda-ordinary-person-million-guide](/md/wiki/sources/koda-ordinary-person-million-guide) | Koda：2026 年普通人如何一年赚 100 万——破除思维遮蔽与商业闭环实操 | X/Twitter |
+| [weiyux-xianyu-6-years-experience](/md/wiki/sources/weiyux-xianyu-6-years-experience) | 动物园园长：36岁做了6年闲鱼，劝大家不要想太多！避坑与实战经验 | X/Twitter |
 
 ### 内容工作流 (Content Workflows)
 
@@ -338,9 +349,6 @@ wiki/
 | [ai-virtual-character-tiktok-subscription](/md/wiki/sources/ai-virtual-character-tiktok-subscription) | AI 虚拟角色 TikTok 订阅变现：7 段提示词从人设到订阅费，含 Fanvue 分成与三条合规红线 | X/Twitter |
 | [ai-virtual-model-account-case-study](/md/wiki/sources/ai-virtual-model-account-case-study) | AI 美女账号 9.4 万粉月入 2.8 万：Ina 案例拆解，明牌筛选与三层漏斗，赚钱核心是角色付费系统 | X/Twitter |
 | [seo-keyword-root-first-tutorial](/md/wiki/sources/seo-keyword-root-first-tutorial) | 出海 SEO 找词保姆级教程：Semrush 关键词魔术工具 → Google 看对手 → Trends 对比找上升词 | X/Twitter |
-| [seo-zero-cost-trend-watch](/md/wiki/sources/seo-zero-cost-trend-watch) | 出海找词零成本小技巧：配置 Grok Automations 自动监控 X 最新 AI 发布并捕捉新词 | X/Twitter |
-| [seo-hosting-selection](/md/wiki/sources/seo-hosting-selection) | 出海建站服务器选型对比：Vercel、Cloudflare 与 Railway 的适用场景与成本策略 | X/Twitter |
-| [seo-stripe-reverse-product-discovery](/md/wiki/sources/seo-stripe-reverse-product-discovery) | 从 Stripe 收银台逆向发现出海产品：Similarweb 反查 checkout.stripe.com 引荐流量与 Semrush 验证 | X/Twitter |
 | [x-tracking-forum-list](/md/wiki/sources/x-tracking-forum-list) | 做 X 必须关注的 10 个热门论坛原始归档：V2EX / 美卡论坛 / NodeSeek / 一亩三分地 / HostLoc / LinuxDo / 恩山 / LowEndTalk / r/churning / HN | 用户整理 |
 | [kling-4-ai-short-drama-workflow](/md/wiki/sources/kling-4-ai-short-drama-workflow) | 可灵 4.0 AI 短剧全流程：与 Seedance 2.5 的五组实测对比、成本口径与资产图方法 | X/Twitter |
 
@@ -389,6 +397,7 @@ wiki/
 | [AdSense 账号注册与审核](/md/wiki/concepts/adsense-account-registration) | 养号、双验证、流量优先审核、Pin 码变现链路 | 公众号 |
 | [AdSense 网站提交审核细节](/md/wiki/concepts/adsense-site-application-details) | 先验证 ads.txt 再验证代码段，顺序决定审核成败 | 公众号 |
 | [AdSense Pin 码与实名认证](/md/wiki/concepts/adsense-pin-verification) | Pin 码平信丢失处理，人工审核上身份证+地标照 | 公众号 |
+| [ancle-z-site-ads-reality](/md/wiki/sources/ancle-z-site-ads-reality) | Ancle_Z：给网站接广告，比我想的简单，比我想的不赚钱——Adsterra 接坑复盘 | X/Twitter |
 
 ---
 
@@ -445,6 +454,7 @@ wiki/
 | [analytics-four-piece-set](/md/wiki/patterns/analytics-four-piece-set) | 数据分析四件套：GSC（搜索词）+ GA4（来源）+ PostHog（漏斗）+ Clarity（体验录屏） | X |
 | [open-source-seo-tooling](/md/wiki/concepts/open-source-seo-tooling) | 开源 SEO 工具的自建边界：工具逻辑可开源替代，数据资产不行；6 个工具的能力映射与选型决策 | X |
 | [open-source-seo-tooling-list](/md/wiki/sources/open-source-seo-tooling-list) | 6 个开源免费 SEO 工具原始归档：SEOnaut / SoPilot / SerpBear / OpenSEO / SEOMachine / Awesome Open Source SEO | X |
+| [chuhaiqu-social-distribution-playbook](/md/wiki/sources/chuhaiqu-social-distribution-playbook) | 出海去孵化器：做产品容易，怎么通过推特、油管、短视频把产品卖出去？ | X/Twitter |
 
 ### AI 变现与套利（AI Monetization & Arbitrage）
 

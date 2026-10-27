@@ -4,6 +4,22 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-27] ingest: 10 篇精选出海建站、GEO、Agent 工程与商业实战 X 长文
+
+- 来源列表：
+  1. `https://x.com/Fangxin95399/status/2114696671561146480` → `sources/fangxin-geo-monetization-guide.md`：方鑫拆解 GEO 商业模式、六类生意形态、五种报价体系、六步交付流程与验收标准
+  2. `https://x.com/wadezone/status/2051155060751794328` → `sources/koda-ordinary-person-million-guide.md`：Koda 拆解普通人年入百万的心态跃迁、收陌生人第一笔钱、杠杆与从 0 验证路径
+  3. `https://x.com/ancle_z/status/2113094384304722031` → `sources/ancle-z-site-ads-reality.md`：Ancle_Z 复盘独立站接 Adsterra 广告细节、8000 展示 1 美元单价与 4 大技术踩坑
+  4. `https://x.com/shao__meng/status/2109547294945398848` → `sources/shao-meng-google-5day-ai-agents-course.md`：Google 官方 5 天 AI Agents 课程与 5 份白皮书深度解读，从 Vibe Coding 到生产级 Agent
+  5. `https://x.com/yihui_indie/status/2074012405139657067` → `sources/yihui-loop-engineering-explained.md`：yihui 深度拆解 Loop Engineering 循环工程、Orchestrator、Loop Library 与自主闭环
+  6. `https://x.com/sujingshen/status/2041398691689632105` → `sources/sagasu-2026-seo-backlink-strategy.md`：SagaSu 2026 年外链大变局、Google 反垃圾算法应对、E-E-A-T 权威引用与 90 天执行路线
+  7. `https://x.com/chuhaiqu/status/2084093147756527977` → `sources/chuhaiqu-social-distribution-playbook.md`：出海去孵化器系统拆解 X/Twitter、YouTube、TikTok/Reels 三大海外社媒分发与爆款转化策略
+  8. `https://x.com/weiyux2021/status/2059154669599953313` → `sources/weiyux-xianyu-6-years-experience.md`：动物园园长 6 年闲鱼全职副业避坑、选品发散、场景锁定与抄爆款做差异化经验
+  9. `https://x.com/simmon_charlie/status/2012351182996652420` → `sources/charlie-niche-seo-site-50k-case.md`：Charlie0 复盘技术人沈一 18 个月将英文细分站做到 3–5 万美金的完整白帽 SEO SOP
+  10. `https://x.com/bainianAI/status/2114935487769313335` → `sources/bainian-seo-daily-001-downloader-to-checker.md`：百年 AI×出海 38 分钟找词推演日课：围绕 5 大经典词根捕捉新爆发与过滤无效需求
+- 去广告与规范化：全部文章剔除个人私信/加微信/课程引流话术，保留全部技术分析、工具方法与商业数据；通过全部 5 项 pre-commit hooks 与全站构建。
+- `index.md` 对应增加条目至出海建站、Agent 工程、商业模式、AdSense 变现与出海工具分类。
+
 ## [2026-10-27] ingest: @aiRobertDaily 系列推文补全（监控选词、服务器选型、Stripe 逆向选品）
 
 - 来源：`https://x.com/aiRobertDaily/status/2109166392683753563` 相关 Thread（X/Twitter: AI Robert）
