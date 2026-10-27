@@ -129,3 +129,6 @@ docs/md/columns/indie-hub/seo/webcafe-xiaoketang/collected/
 x-to-markdown/
 .superpowers/
 .vercel
+
+# 采集临时工作目录（AGENTS.md：完成后必须清理）
+_sandbox/
