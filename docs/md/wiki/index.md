@@ -338,6 +338,9 @@ wiki/
 | [ai-virtual-character-tiktok-subscription](/md/wiki/sources/ai-virtual-character-tiktok-subscription) | AI 虚拟角色 TikTok 订阅变现：7 段提示词从人设到订阅费，含 Fanvue 分成与三条合规红线 | X/Twitter |
 | [ai-virtual-model-account-case-study](/md/wiki/sources/ai-virtual-model-account-case-study) | AI 美女账号 9.4 万粉月入 2.8 万：Ina 案例拆解，明牌筛选与三层漏斗，赚钱核心是角色付费系统 | X/Twitter |
 | [seo-keyword-root-first-tutorial](/md/wiki/sources/seo-keyword-root-first-tutorial) | 出海 SEO 找词保姆级教程：Semrush 关键词魔术工具 → Google 看对手 → Trends 对比找上升词 | X/Twitter |
+| [seo-zero-cost-trend-watch](/md/wiki/sources/seo-zero-cost-trend-watch) | 出海找词零成本小技巧：配置 Grok Automations 自动监控 X 最新 AI 发布并捕捉新词 | X/Twitter |
+| [seo-hosting-selection](/md/wiki/sources/seo-hosting-selection) | 出海建站服务器选型对比：Vercel、Cloudflare 与 Railway 的适用场景与成本策略 | X/Twitter |
+| [seo-stripe-reverse-product-discovery](/md/wiki/sources/seo-stripe-reverse-product-discovery) | 从 Stripe 收银台逆向发现出海产品：Similarweb 反查 checkout.stripe.com 引荐流量与 Semrush 验证 | X/Twitter |
 | [x-tracking-forum-list](/md/wiki/sources/x-tracking-forum-list) | 做 X 必须关注的 10 个热门论坛原始归档：V2EX / 美卡论坛 / NodeSeek / 一亩三分地 / HostLoc / LinuxDo / 恩山 / LowEndTalk / r/churning / HN | 用户整理 |
 | [kling-4-ai-short-drama-workflow](/md/wiki/sources/kling-4-ai-short-drama-workflow) | 可灵 4.0 AI 短剧全流程：与 Seedance 2.5 的五组实测对比、成本口径与资产图方法 | X/Twitter |
 

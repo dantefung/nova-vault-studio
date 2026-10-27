@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-27] ingest: @aiRobertDaily 系列推文补全（监控选词、服务器选型、Stripe 逆向选品）
+
+- 来源：`https://x.com/aiRobertDaily/status/2109166392683753563` 相关 Thread（X/Twitter: AI Robert）
+- 归档至：
+  - `sources/seo-zero-cost-trend-watch.md`：出海找词零成本技巧，用 Grok Automations 自动定时监控 X 最新 AI 趋势与新词
+  - `sources/seo-hosting-selection.md`：出海建站服务器选型，对比 Vercel、Cloudflare 与 Railway 的适用场景与成本阶梯
+  - `sources/seo-stripe-reverse-product-discovery.md`：从 Stripe 收银台逆向倒推有效出海产品，利用 Similarweb 反查 checkout.stripe.com 引荐流量并在 Semrush 验证搜索词
+- 排版与链接优化：替换 t.co 短链接为目标直达链接，去除外壳与互动引导话术，中英文排版规范化。
+- 更新既有主教程 `sources/seo-keyword-root-first-tutorial.md` 关联链接，并在 `index.md` 追加 3 条索引。
+
+
 ## [2026-10-27] ingest: 浅水虾《SEO 地基怎么打？新手出关指南》
 
 - 来源：`https://x.com/qianshuixia2026/status/2111268767342997847`（X/Twitter: 浅水虾，2026-10-17）
