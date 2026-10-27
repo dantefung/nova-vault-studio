@@ -163,6 +163,7 @@ wiki/
 | [llm-learning-subway-map](/md/wiki/sources/llm-learning-subway-map) | 大模型学习地铁图：主干线 0-7 站 + 五条支线（推理/训练/对齐/架构/应用），GPT-2 手写是锚点 | X/Twitter |
 | [how-i-work-with-agents](/md/wiki/sources/how-i-work-with-agents) | Thorsten Ball：我如何与 Agent 协作（October 2026），十条实践原则，TTFT/异步/证明文化 | X/Twitter |
 | [transformer-training-seven-formulas](/md/wiki/sources/transformer-training-seven-formulas) | Transformer 训练的七个关键公式：初始化/Adam/偏差修正/Weight Decay/Warmup/余弦衰减/梯度裁剪 | X/Twitter |
+| [addy-osmani-claude-code-code-review](/md/wiki/sources/addy-osmani-claude-code-code-review) | Addy Osmani（Google）：Claude Code 团队如何做代码审查——六层自动化防线 + 风险分级审批，PR 量翻倍同时回退率降 40% | X/Twitter |
 | [y2a-auto-youtube-bilibili-pipeline](/md/wiki/sources/y2a-auto-youtube-bilibili-pipeline) | Y2A-Auto 自动搬运流水线：技术能力核验与版权、平台规则边界 | X/Twitter |
 
 ### 学习路径 (Learning Paths)
@@ -445,7 +446,9 @@ wiki/
 | [gpt-proxy-arbitrage](/md/wiki/concepts/gpt-proxy-arbitrage) | ChatGPT代充原理：利用不同国家/地区价格差异（菲区/智利区）进行区域定价套利 | X |
 | [session-token-acquisition](/md/wiki/concepts/session-token-acquisition) | Session Token 获取技术：通过特定路径提取 ChatGPT 登录态凭据用于支付协议充值 | X |
 | [gray-market-customer-acquisition](/md/wiki/patterns/gray-market-customer-acquisition) | 灰产获客平台策略：抖音直播、B站软广、咸鱼黑暗森林及各平台封禁博弈 | X |
+| [ai-robert-reddit-idea-validation](/md/wiki/sources/ai-robert-reddit-idea-validation) | AI Robert：出海野路子——Reddit 搜「I would pay for」+ Semrush 验证需求，30 分钟一轮高信号验证法 | X/Twitter |
 | [david-ai-game-publishing-platforms](/md/wiki/sources/david-ai-game-publishing-platforms) | 大卫：4 款 AI 小游戏收入 10 万！国内外 7 个小游戏发行入口、7 步开发路径与 4 大变现避坑 | X/Twitter |
+| [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
 
 ### AI 工程化（AI Engineering）
 

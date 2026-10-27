@@ -12,6 +12,19 @@ source: "llm-wiki"
 - 去广告处理：删除大卫文末关注引导话术（`关注我@AI_DVD6` 等），两篇均保留全部客观技术分析、平台链接与实操步骤
 - index.md 新增 2 行，分别归入「出海建站」与「AI 变现与套利」分类
 
+## [2026-10-27] ingest: 5 篇 X 长文/短帖（公众号起号 / 咖啡科学饮用 / Beacon 开源记忆层 / Claude Code 审查 / Reddit 需求验证）
+
+### 新增 source 文件
+- `sources/renagonzaga-wechat-public-account-0-to-1.md` ← `https://x.com/renagonzaga/status/2114669418433401152`：公众号 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+ 实操经验
+- `sources/brucejinji-coffee-complete-guide.md` ← `https://x.com/brucejinji711/status/2114712452474761289`：咖啡完全指南——从腺苷受体机制到品种/烘焙/萃取过滤，再到最佳饮用时间窗口与安全剂量阈值，附极简日程表
+- `sources/beacon-agent-memory-open-source.md` ← `https://x.com/guxiaochun888/status/2114527816209543465`：Beacon 开源项目（Asymptote Labs，$5.5M 种子轮），跨 Harness 的 coding agent 记忆层，MIT 许可，Go 语言，~2.9k stars
+- `sources/addy-osmani-claude-code-code-review.md` ← `https://x.com/addyosmani/status/2114604912520921136`：Addy Osmani（Google）详解 Claude Code 团队六层代码审查体系——Pre-PR 验证/AI 审查/安全审查/阻塞性 CI/风险分级审批/merge queue + 特性开关，PR 量翻倍同时回退率降 40%+
+- `sources/ai-robert-reddit-idea-validation.md` ← `https://x.com/aiRobertDaily/status/2114925454486577427`：出海野路子——Reddit 搜「I would pay for」找真实付费需求，配合 Semrush KD/CPC 验证，30 分钟一轮需求验证法
+
+### 去广告处理
+- 大卫文末关注引导话术已删除
+- 其余各篇均无引流话术
+
 ## [2026-10-27] revise: 公众号贴图专题按 2026 平台规则校准
 
 - 背景：贴图专题于 2026-10-21 采集整理，其数据基于 2026-06 至 2026-10 的 X 长文；部分平台规格与规则在 2026 年内已变化，且专题缺少 2026 年新增的两条平台级合规条款
