@@ -226,6 +226,7 @@ wiki/
 | [agent-launch-personal-site](/md/wiki/sources/agent-launch-personal-site) | Agent 口喷上线个人网站：6 步极简部署 + kongge.space 实战 | 公众号 |
 | [seo-basics](/md/wiki/concepts/seo-basics) | SEO 基础四件套：HTTP 协议/互联网/爬虫/外链，为什么各平台外链数据不一致，AI 搜索为何不自建爬虫 | 公众号 |
 | [adsense-us-tax-form](/md/wiki/sources/adsense-us-tax-form) | AdSense 美国税务信息（W-8BEN 表 + 中美税收条约）10 分钟填表 | 公众号 |
+| [maynorai-cc-domain-trap-review](/md/wiki/sources/maynorai-cc-domain-trap-review) | MomoAI：视频模板站批量上站复盘，.cc 等便宜垃圾后缀致 GSC Sitemap/抓取卡死与选型建议 | X/Twitter |
 | [baokuan-title-generator-skill](/md/wiki/sources/baokuan-title-generator-skill) | 公众号爆款标题 Skill：16 种模板 + 双模型协同（fable5 + GPT-5.6） | 公众号 |
 | [baokuan-title-generator-skill](/md/wiki/products/baokuan-title-generator-skill) | 公众号爆款标题 Skill 产品页 | 产品 |
 
@@ -444,6 +445,7 @@ wiki/
 | [gpt-proxy-arbitrage](/md/wiki/concepts/gpt-proxy-arbitrage) | ChatGPT代充原理：利用不同国家/地区价格差异（菲区/智利区）进行区域定价套利 | X |
 | [session-token-acquisition](/md/wiki/concepts/session-token-acquisition) | Session Token 获取技术：通过特定路径提取 ChatGPT 登录态凭据用于支付协议充值 | X |
 | [gray-market-customer-acquisition](/md/wiki/patterns/gray-market-customer-acquisition) | 灰产获客平台策略：抖音直播、B站软广、咸鱼黑暗森林及各平台封禁博弈 | X |
+| [david-ai-game-publishing-platforms](/md/wiki/sources/david-ai-game-publishing-platforms) | 大卫：4 款 AI 小游戏收入 10 万！国内外 7 个小游戏发行入口、7 步开发路径与 4 大变现避坑 | X/Twitter |
 
 ### AI 工程化（AI Engineering）
 

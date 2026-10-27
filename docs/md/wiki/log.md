@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-27] ingest: 2 篇 X 长文（.cc 域名选型踩坑复盘 + AI 小游戏发行全景）
+
+- 来源：
+  - `https://x.com/MaynorAI1/status/2114634564823879828` → `sources/maynorai-cc-domain-trap-review.md`：MomoAI 上了 20 多个视频模板站几乎无收益的复盘；结合哥飞社区 14 届比赛 278 个网站数据，分析为何 `.cc`、`.xyz` 这类便宜后缀容易踩 GSC Sitemap / 抓取卡死与垃圾站邻居效应的大坑，并给出主流后缀梯队与 `query.domains` 选词指引
+  - `https://x.com/AI_DVD6/status/2113436403518603691` → `sources/david-ai-game-publishing-platforms.md`：大卫｜AI抄作业 以出头喵两兄弟（不会写代码靠 4 款游戏赚 10 万）为例，全景横评 TapTap 制造、灵珠魔丸、小红书小工具、B站 Toy、Rosebud AI、Playabl、Google Playground 7 大发布入口，总结从零到上线的 7 步极简路线、4 种变现路径与 4 个必避大坑
+- 去广告处理：删除大卫文末关注引导话术（`关注我@AI_DVD6` 等），两篇均保留全部客观技术分析、平台链接与实操步骤
+- index.md 新增 2 行，分别归入「出海建站」与「AI 变现与套利」分类
+
 ## [2026-10-27] revise: 公众号贴图专题按 2026 平台规则校准
 
 - 背景：贴图专题于 2026-10-21 采集整理，其数据基于 2026-06 至 2026-10 的 X 长文；部分平台规格与规则在 2026 年内已变化，且专题缺少 2026 年新增的两条平台级合规条款
