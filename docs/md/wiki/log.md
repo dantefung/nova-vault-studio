@@ -4,6 +4,23 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-28] ingest: 9 篇出海新词方法论与 GEO 实战长文（第二批 Grok Bot 抓取）
+
+- 来源与归档：
+  1. `https://x.com/yaohongan2025/status/2111609081127407666` → `sources/yaohongan-geo-five-actions-guide.md`：**GEO 五个动作**（本批最高价值）。① **robots.txt 三类爬虫**——搜索类（OAI-SearchBot / PerplexityBot / Claude-SearchBot / Googlebot / Bingbot）必须放行，用户触发类建议放行，训练类（GPTBot / ClaudeBot / Google-Extended）可禁且不影响被引用；澄清「禁 Google-Extended 就能从 AI 概览消失」是错的；两个坑：Cloudflare 默认管控 AI 爬虫、爬虫不执行 JS 所以必须 SSR/SSG；② **页面结构**——Ahrefs 对 1885 个页面加 schema 的双重差分研究显示 AI 引用基本没提升，AI 只读看得见的 HTML；③ **可被引用的事实**——具体数字 + 来源 + 更新日期 + 第一手经验，附 Vercel「竞品明天能不能复制」自检法；④ **第三方存在感**——Profound 分析 6.8 亿条 AI 引用，Reddit 口径陷阱（前 10 大内占 46.7%，占全部仅 6.6%），复旦论文测出中外引擎偏好两套（文心偏爱百家号、豆包偏爱头条、什么值得买 10 家全引），Ahrefs 7.5 万品牌研究显示品牌提及相关性 0.664 vs 外链 0.218；⑤ **每月实测**——15～20 个问题分品牌/品类/对比三类，多引擎无痕窗口各跑 2–3 次，各家来源重合度仅约 0.2 必须分开测。另含 12 个真实案例（含 @johnzhou123 上了 Product Hunt + 20 个外链、7 天 212 PV 的反面冷数据）、8 个必踩坑与 10 项自查清单
+  2. `https://x.com/yihui_indie/status/2115251581998563837` → `sources/yihui-skillry-first-10k-mrr-order.md`：Skillry 上线 1 月（400+ 付费订阅、近 30 天收入 $12,037、MRR $3,918）复盘。核心是「**顺序做反了**」——写代码前先扒同赛道赚钱产品，逼自己想明白商业模式（卖什么/怎么定价/怎么持续盈利）与营销打法（第一批付费客户从哪来）。三个竞品真相：纯买断老模板在衰退（ShipFast 近 30 天仅 $1,694、God of Prompt 已挂牌）、当下赚钱的都在走「订阅制 + 给 AI 工具直接用」、越聚焦具体场景结果交付转化越高（Skillry $12,037 vs TypeUI $3,429）
+  3. `https://x.com/sitinme/status/1994677962990289190` → `sources/sitin-overseas-toolchain.md`：一个人跑完出海项目的全流程工具链——分析（GA4/GSC/Plausible/Clarity）、词（Trends/Keyword Tool/Keyword Planner）、竞品（Ahrefs/SimilarWeb/SEMrush）、开发部署（GitHub/Vercel/Supabase）、设计原型（Figma）、模型（OpenRouter/Replicate/Together AI）、需求源（Product Hunt/Toolify/Reddit/GitHub Trending/Twitter）、域名（Cloudflare/Namecheap）、支付（Stripe/LemonSqueezy/Paddle/Creem）
+  4. `https://x.com/yikun900655/status/2115171926549426181` → `sources/yikun-seven-hot-word-site-types.md`：出海热词站 7 种形态按上手难度排序（兑换码游戏站→AI 生成器站→导航站→内容资讯站→自研小工具站→AI 视频 SaaS→API 中转站），排序逻辑为「技术环节从零到全，变现门槛从低到高」
+  5. `https://x.com/JinJingx8/status/2115229714721992915` → `sources/jinjingx3-new-word-speed-war.md`：抢新词拼的不是工具而是谁更早动手——盯海外社媒热搜、爆款特效/模板、资讯站上新，再用大模型扫刚冒头的话题；「词还没进搜索框，站先搭起来」
+  6. `https://x.com/chirs_pro/status/2115071053160415455` → `sources/chirs-pro-new-word-definition.md`：新词的三条定义（刚出现 + 搜索量上涨 + 没什么像样网站满足）、三类来源（AI 模型/游戏梗/突然流行的需求）、从新词到出单的 8 步链路，以及两条冷静提醒（热度去得快需批量广撒网、成功率不高与幸存者偏差）
+  7. `https://x.com/HarriesSteele/status/2115301783467647162` → `sources/harries-steele-efficiency-vs-profit.md`：效率爆炸 ≠ 赚钱——一周上 5 站、一月上 20 站但全不赚钱，则做 100 个站和做 1 个站没区别
+  8. `https://x.com/benben2052243/status/2115303279764627525` → `sources/benben-musk-hustle-vs-own-product.md`：平台流量是「人肉电池」（需持续互动发帖、滚动 90 天无长尾、被封号即归零），自有站点才是可复利资产；被打断的旧路径倒逼出「产品打包批量出售 + 大量复制」的新路径
+  9. `https://x.com/huangyun_122/status/1828063680757452978` → `sources/huangyun-overseas-money-mindmap.md`：2024-08 的经典三段式框架（产品构思：Product Hunt & Reddit & Google 关键词挖掘 / 流量获取：SEO & 社媒起号 & 海外接单平台 / 技术栈：Next.js、Supabase、Stripe、Vercel），并与 2026 年的细化版本逐格对照
+- 去广告处理：Yihui 原文末尾整段自家竞品数据工具推广已删除，正文中的工具名统一去品牌化为「竞品收入数据工具」，保留全部真实流水数据（ShipFast / God of Prompt / Sleek / TypeUI / Low Content AI）与方法论；黄赟原文的小册订阅推广与「滴滴，扫码」话术已剔除，仅保留三段式框架与配图。虹安 GEO 长文的全部出处标注体系（据作者说 / 据报道）原样保留。
+- 图片本地化：新增 4 张至 `images/sitin-overseas-toolchain/`（1）、`images/chirs-pro-new-word-definition/`（1）、`images/huangyun-overseas-money-mindmap/`（2），单图最大 183.9KB。
+- 本批内部互链：9 篇之间建立 20+ 条交叉引用，形成「选词 → 形态 → 商业模式 → 营销 → 反面提醒」的完整决策链。
+- `index.md` 新增 10 条：出海建站 9 条、商业模式 1 条。
+
 ## [2026-10-28] ingest: Grok Bot 抓取的 8 篇出海选词与变现长文 + 虹安 Grok Bot 48 用例图片本地化
 
 - 来源与归档：

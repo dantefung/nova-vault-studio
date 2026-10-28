@@ -240,6 +240,14 @@ wiki/
 | [vinsin-hu-four-sites-four-roles](/md/wiki/sources/vinsin-hu-four-sites-four-roles) | 子正：4 个站不是 4 份工作，是 4 种角色 | X/Twitter |
 | [buildwithzhu-unit-converters-case](/md/wiki/sources/buildwithzhu-unit-converters-case) | Jiang Zhu：UnitConverters 无聊工具站靠 AdSense 年入 25 万美元 | X/Twitter |
 | [bozhou-overseas-path-warning](/md/wiki/sources/bozhou-overseas-path-warning) | 泊舟：出海路径警示公告——Web 建站 / X / YouTube 的变现门槛 | X/Twitter |
+| [yaohongan-geo-five-actions-guide](/md/wiki/sources/yaohongan-geo-five-actions-guide) | 虹安：GEO 五个动作——让 AI 在回答里提到你，含 12 个案例与 10 项自查清单 | X/Twitter |
+| [sitin-overseas-toolchain](/md/wiki/sources/sitin-overseas-toolchain) | sitin：一个人独立跑完出海项目的完整工具链 | X/Twitter |
+| [yikun-seven-hot-word-site-types](/md/wiki/sources/yikun-seven-hot-word-site-types) | yikun：出海做热词站的 7 种形态（按上手难度排序） | X/Twitter |
+| [jinjingx3-new-word-speed-war](/md/wiki/sources/jinjingx3-new-word-speed-war) | JK3：抢新词拼的不是工具而是谁更早动手 | X/Twitter |
+| [chirs-pro-new-word-definition](/md/wiki/sources/chirs-pro-new-word-definition) | 野径：新词定义与从新词到出单的完整链路 | X/Twitter |
+| [harries-steele-efficiency-vs-profit](/md/wiki/sources/harries-steele-efficiency-vs-profit) | Harries：一天上线一个网站，真的值得骄傲吗 | X/Twitter |
+| [benben-musk-hustle-vs-own-product](/md/wiki/sources/benben-musk-hustle-vs-own-product) | 月川：别当马斯克的人肉电池，做自己的网站和程序 | X/Twitter |
+| [huangyun-overseas-money-mindmap](/md/wiki/sources/huangyun-overseas-money-mindmap) | 黄赟：《出海赚钱》实战思维导图——产品构思/流量获取/技术栈 | X/Twitter |
 | [sagasu-2026-seo-backlink-strategy](/md/wiki/sources/sagasu-2026-seo-backlink-strategy) | SagaSu：2026 SEO 新手必看——外链大变局、Google 新规与 90 天执行路径 | X/Twitter |
 | [charlie-niche-seo-site-50k-case](/md/wiki/sources/charlie-niche-seo-site-50k-case) | Charlie0：沈一独立开发实战——英文细分站从 0 到 5 万美金案例复盘 | X/Twitter |
 | [bainian-seo-daily-001-downloader-to-checker](/md/wiki/sources/bainian-seo-daily-001-downloader-to-checker) | 百年 AI×出海：SEO 日课 001｜从 Downloader 到 Checker 找词推演 | X/Twitter |
@@ -349,6 +357,7 @@ wiki/
 | [fangxin-geo-monetization-guide](/md/wiki/sources/fangxin-geo-monetization-guide) | 方鑫：GEO 到底怎么赚钱？六类生意形态、收费、交付与验收全解析 | X/Twitter |
 | [koda-ordinary-person-million-guide](/md/wiki/sources/koda-ordinary-person-million-guide) | Koda：2026 年普通人如何一年赚 100 万——破除思维遮蔽与商业闭环实操 | X/Twitter |
 | [weiyux-xianyu-6-years-experience](/md/wiki/sources/weiyux-xianyu-6-years-experience) | 动物园园长：36岁做了6年闲鱼，劝大家不要想太多！避坑与实战经验 | X/Twitter |
+| [yihui-skillry-first-10k-mrr-order](/md/wiki/sources/yihui-skillry-first-10k-mrr-order) | Yihui：Skillry 一月破万刀复盘，写代码前先想明白商业模式与营销打法 | X/Twitter |
 | [teamai-individual-team-golden-trio](/md/wiki/sources/teamai-individual-team-golden-trio) | 沈淦：一个人+AI 就是一个团队——上下文工程五环节、TeamAI 黄金三件套与半自动化三段流水线 | 公众号 |
 | [context-engineering-five-links](/md/wiki/patterns/context-engineering-five-links) | 上下文工程五环节：知识库、工具调用、对话历史、项目记忆、现场清理，附上下文用量 45%~55% 硬上限 | 公众号 |
 | [teamai-golden-trio](/md/wiki/patterns/teamai-golden-trio) | TeamAI 黄金三件套：Spec / Skill / Test Asset，含 Skill 开发五原则、G1-G6 门禁与「两头有人中间没人」流水线 | 公众号 |
