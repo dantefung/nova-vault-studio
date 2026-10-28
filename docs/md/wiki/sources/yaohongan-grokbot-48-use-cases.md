@@ -1,12 +1,16 @@
 ---
 title: "Grok Bot 火了快一个月，我把 48 个真实玩法扒了一遍，按场景理好，想玩的直接对号入座"
-author: "@yaohongan2025"
+author: "虹安 (@yaohongan2025)"
 date: "2026-10-10"
 source: "X (Twitter)"
-url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
+url: "https://x.com/yaohongan2025/status/2108838863242207662"
 ---
 
 # Grok Bot 火了快一个月，我把 48 个真实玩法扒了一遍，按场景理好，想玩的直接对号入座
+
+> 马斯克那条「Grok Bot 会按任务挑最合适的模型」的推文七千八百多万观看，中文区清一色「不用 Claude 也能用上 Opus」。虹安花了大半天把全网大家拿 Grok Bot 玩什么一条条扒下来，按场景整理成 48 个玩法，并诚实标出「哪些我没实测」「哪些会翻车」。
+
+<!-- more -->
 
 这几天我的 timeline 快被 Grok Bot 刷爆了。
 
@@ -26,11 +30,11 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 还不熟 Grok Bot 的朋友，我再用一句话说下它是啥。它是马斯克那边的 SpaceXAI 推出的 AI agent，你可以理解成给你配了个不用睡觉的实习生。平时的 AI 对话问一句答一句，关掉就没了；Grok Bot 有自己的一台云电脑，你交代完活可以直接走人，它在后台慢慢做，做完回来找你。
 
-![](https://pbs.twimg.com/media/HUPpwwRWAAA66a_.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/001.jpg)
 
 所以下面这四十多条，核心其实是同一句话：哪些你本来得自己动手的破事，现在能甩给它。我先放一张总览，编号和正文一一对应。
 
-![](https://pbs.twimg.com/media/HUPp1QuWYAEH9-A.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/002.jpg)
 
 那不多说，开始。
 
@@ -42,7 +46,7 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 2\. 找该回复的推。接上 X 之后，它能搜帖、读时间线、看提及、拉趋势、管书签，帮你把值得回复的推挑出来。官方 [@bot](https://x.com/bot) 自己演示过，这条五百多万观看。
 
-![](https://pbs.twimg.com/media/HUPp_8lWgAA9Lfs.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/003.jpg)
 
 3\. 把一个话题爬成表格。你指定要哪几列，它去 X 上把某个话题的帖子爬下来，整理成一张表。
 
@@ -64,7 +68,7 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 10\. YouTube 转切片。给它一个视频加一个时间段，它剪出切片；再让"研究 bot"找金句、"写作 bot"配文案，一条流水线下来。
 
-11\. 给一首曲子做 MV。铁柱AGI（[@cgnot996](https://x.com/cgnot996)）把一首曲子的音频交给 Grok Bot，让它调用自己电脑上的 Claude Opus 5.5 来做视频。
+11\. 给一首曲子做 MV。铁柱 AGI（[@cgnot996](https://x.com/cgnot996)）把一首曲子的音频交给 Grok Bot，让它调用自己电脑上的 Claude Opus 5.5 来做视频。
 
 12\. 现成模板直接套。社区里一堆模板，SEO 审计、社媒 campaign、播客制作、用户调研、内容日历，拿来改改就能用。
 
@@ -72,11 +76,11 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 这个开头我特别有感触。我前阵子做了个 X 插件叫粉丝透镜，能在 timeline 里直接标出每个账号的粉丝数、是不是互关、是不是新号。东西做出来、开源了，然后呢？也就几十个人知道。
 
-![](https://pbs.twimg.com/media/HUPqOD-WkAAtQ8v.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/004.jpg)
 
 所以"做了个东西没人知道"这个坎我太懂了。要是它能帮我把一个产品的内容分发自动跑起来，对我的价值，比帮我写一条推大多了。
 
-还有[@AdrianPunk115](https://x.com/AdrianPunk115) 写了一篇用Grok Bot搭建自媒体团队可以结合着一起使用
+还有[@AdrianPunk115](https://x.com/AdrianPunk115) 写了一篇用 Grok Bot 搭建自媒体团队可以结合着一起使用
 
 ## 三、搞钱、获客、谈生意（想做副业的重点看）
 
@@ -98,17 +102,17 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 第 19、20 这种我觉得最带感。不是让它写写画画，是真替你去跟外面的人、外面的系统打交道，把一件有结果的事办成。
 
-![](https://pbs.twimg.com/media/HUPqV45WsAAOOQp.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/005.jpg)
 
 ## 四、日常办公和内部运营（上班族能直接抄）
 
 先看一眼 [@XFreeze](https://x.com/XFreeze) 列的清单，它能干的事一长串，大半都是办公室里的活。
 
-![](https://pbs.twimg.com/media/HUPqZD9XkAAdqnV.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/006.jpg)
 
 22\. 当私人助理。[@free\_ai\_guides](https://x.com/free_ai_guides) 整理了七个提示词，连上邮箱和日历就能用，七千多人收藏了。第一条最有意思，让它先"面试"你，问清楚你的工作习惯和雷区，再自己写一份职位描述。
 
-![](https://pbs.twimg.com/media/HUPqcOdXQAIuGw0.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/007.jpg)
 
 23\. 晨间简报。每天早上把邮件、日历、聊天、通话纪要揉成一份摘要给你。
 
@@ -134,7 +138,7 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 32\. 录一次屏就变自动化。Ryan Perry 被 Meta 广告 API 挡在门外，他录了一次自己上传广告素材的过程，bot 把这套点击路径存成技能，现在定时在真实广告账户里跑。
 
-![](https://pbs.twimg.com/media/HUPqkRiXgAAYuGz.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/008.jpg)
 
 33\. 跨仓库抓冲突。在一个很忙的代码库里，flag 出互相冲突的改动。
 
@@ -150,7 +154,7 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 37\. 给自己搭一张组织架构图。Eugeniu Ghelbur 养了六个有名有姓的 bot，CEO、CMO、产品、工程、运营、幕僚长，还给每个定了审批权限，他那个 CEO bot 花钱、发布、删东西之前都得先问他。
 
-![](https://pbs.twimg.com/media/HUPqnsJW0AEsxLl.png)
+![](../images/yaohongan-grokbot-48-use-cases/009.png)
 
 38\. 加一个"幕僚长"去管别的 bot。Matt Shumer 先搭了一个研究 bot、一个写作 bot，再加一个幕僚长 bot 去协调它俩干一个项目，他说没额外配置就跑起来了。
 
@@ -158,7 +162,7 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 40\. 官方给的八个标准岗位。Grok Bot 官方直接列了八个现成岗位：销售外联、人才猎头、广告投放、客户健康度、产品性能排查、bug 复现、报销管理、幕僚长。懒得自己想，照着挑一个就行。
 
-![](https://pbs.twimg.com/media/HUPqzKwWAAA8383.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/010.jpg)
 
 说实话，这些"一个人开公司"的玩法看着是真爽，但我劝你先别上头。它们基本都还在试验阶段，好几个都卡在同一个地方：token 不够用，一个 bot 群跑着跑着撞上周额度，中途就停了。热闹归热闹，真能稳定替你干活的，还是前面那些小而具体的活。
 
@@ -174,15 +178,15 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 地址：[https://github.com/KinGao294/grok-bot-orange-book](https://github.com/KinGao294/grok-bot-orange-book)
 
-![](https://pbs.twimg.com/media/HUPq5kQWMAEqpXV.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/011.jpg)
 
 43\. 第一次下载就该设好的 21 个 Bot。还是 Kin，从"御前总管""提示词工程师"到"调研专家""产品经理"，直接帮你把岗位分好了。
 
-![](https://pbs.twimg.com/media/HUPrBlXW0AAz85-.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/012.jpg)
 
-44\. 还有邪修防止封号，[@app_sail](https://x.com/app_sail) 写的用grok bot来注册和使用Claude code避免封号
+44\. 还有邪修防止封号，[@app_sail](https://x.com/app_sail) 写的用 grok bot 来注册和使用 Claude code 避免封号
 
-45.怎么省额度。几乎所有人上手都在抱怨额度两三天见底，铁柱AGI [[@cgnot996](https://x.com/cgnot996)](https://x.com/cgnot996) 专门写了篇省额度的 12 招，每招一句话，直接复制发给 Bot。
+45. 怎么省额度。几乎所有人上手都在抱怨额度两三天见底，铁柱 AGI（[@cgnot996](https://x.com/cgnot996)）专门写了篇省额度的 12 招，每招一句话，直接复制发给 Bot。
 
 ## 九、翻车和边界（这段你一定要看）
 
@@ -190,17 +194,17 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 45\. 自作主张订错东西。[@ApoStructura](https://x.com/ApoStructura) 让它下一单，它给开成了每四周扣一次的订阅，多花了 57 英镑。马斯克之前在评论区说过，Grok Bot 出问题会全额补偿，他现在正拿这句话去申请赔付。
 
-![](https://pbs.twimg.com/media/HUPrHrZWAAAGPlc.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/013.jpg)
 
 46\. 胆子太大的授权。[@Teslaconomics](https://x.com/Teslaconomics) 把三十个金融账户全连给了它，光 Chase 就有十三个。他自己用得很爽，把它当首席财务官。我反正不敢，你给它的权限越大，翻车的代价越大，尤其涉及花钱和授权。
 
-![](https://pbs.twimg.com/media/HUPrOhoWwAANgLm.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/014.jpg)
 
 47\. 共用一台云电脑的风险。你名下所有 bot 共用同一台云电脑、同一套登录状态。这意味着什么你细想就知道，相当于把好几件事的钥匙串在同一个钥匙圈上，丢一个就全丢。
 
 48\. 它也会悄悄摆烂。已经有人碰到，装了个插件结果一个工具都没暴露出来、云机器直接卡死、活干到一半撞上额度停了。别把"7×24 全自动"想得太美。
 
-![](https://pbs.twimg.com/media/HUPrRrsXUAAoTSC.jpg)
+![](../images/yaohongan-grokbot-48-use-cases/015.jpg)
 
 还有些热度很高、但我一个都不建议碰的：绕区注册、把 API Key 交给第三方 skill 换"无限额度"这类。封号和泄密的风险摆在那，你推荐出去就等于替它背书，不值当。
 
@@ -208,6 +212,16 @@ url: "https://x.com/yaohongan2025/status/2108838863242207662?s=20"
 
 Grok Bot 现在真正成熟的用法，不是让它去干什么惊天动地的大事，而是把你本来就在重复做的那些碎活，一件件交出去。盯号、整理、分发、报销、清邮件，就这些。那些"一个人开公司"的玩法可以看个热闹，但别指望它现在就能稳稳替你撑起一摊。
 
-![](https://pbs.twimg.com/media/HUPrkuQWYAANSGI.png)
+![](../images/yaohongan-grokbot-48-use-cases/016.png)
 
 如果你也卡在"想玩但不知道玩啥"，希望这一串场景里，能有一两个正好对上你的。咱们一起上手。
+
+---
+
+## 相关页面
+
+- [[sources/yaohongan-keyword-radar-workflow]] — 虹安：找词雷达工作流，2 天从买域名到出单
+- [[sources/jiang-yunhe-first-100-usd-new-word-playbook]] — 蒋云何：副业出海小白首日破百刀，5 天破千刀
+- [[sources/wavborn-keyword-screening-playbook]] — wavborn：选词三板斧（Trends 比值法 / 前十占位检查）
+- [[concepts/harness-engineering]] — Harness 工程：为 Agent 打造安全与自适应工作台
+- [[sources/how-i-work-with-agents]] — Thorsten Ball：我如何与 Agent 协作

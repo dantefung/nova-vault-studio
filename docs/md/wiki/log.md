@@ -4,6 +4,19 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-28] ingest: Grok Bot 抓取的 8 篇出海选词与变现长文 + 虹安 Grok Bot 48 用例图片本地化
+
+- 来源与归档：
+  1. `https://x.com/wavborn/status/2110614937047634050` / `2112173461221310512` / `2113240126361055685` → `sources/wavborn-keyword-screening-playbook.md`：选词三板斧合集。① **Trends 比值法**——不看第三方流量估算，只用 Google Trends 与固定基准词（作者用 `gpts`）比比值，淘汰只有基准词 0.02～0.1 倍且趋势下滑的词；② **Google 第一页占位检查**——前十被大站或官方免费工具占满直接扔；③ **12 天验 72 组词、扔掉 64 组**（上线率约 11%），多数不是没人搜而是前十早被占满
+  2. `https://x.com/gefei55/status/2113248315672539300` + `https://x.com/ai_voyager168/status/2114942230121300373` → `sources/gefei-game-site-vs-tool-site-roi.md`：游戏站 vs 工具站 ROI 对比。游戏站需大流量、流量过后收入衰减（哥飞的游戏站两年没管只剩月入一两百刀），搞不到大流量时 ROI 不如工具站；但新人仍做游戏站，因游戏关键词更多、开发难度更低。社区共识佐证（AI 航海家「感觉还是要做工具站才能赚钱」）
+  3. `https://x.com/vinsin_hu/status/2115254986888339528` → `sources/vinsin-hu-four-sites-four-roles.md`：站群角色分工——主站（赚钱，资源全砸）、流量站（吃长尾词，做 SEO 不更新）、工具站（拉新和权重，转化弱但引流）、测试站（试错，做不出来就砍）。核心句「四个站干四件事，不是四个人干四件事」
+  4. `https://x.com/BuildWithZhu/status/2114618342011187518` → `sources/buildwithzhu-unit-converters-case.md`：UnitConverters 案例——公斤换磅、厘米换英寸这类「无聊」换算工具站靠 AdSense 年入 25 万美元，对照梗站 7 天红利后流量腰斩 69% 的案例
+  5. `https://x.com/bozhou_ai/status/1975406504099668254` → `sources/bozhou-overseas-path-warning.md`：出海路径警示公告——Web 建站（工具站/游戏站 × 广告/订阅）与 X、YouTube 三条路径的形态、盈利门槛（五步路径、6 个月投入期、YouTube 4000 小时 + 1000 订阅、蓝 V 500 万展示 + 500 蓝 V 关注）、通用前置条件（海外卡、美国公司 150 美元、英语、时间成本），并直言报课主要买的是圈子不是内容
+- 图片本地化：`sources/yaohongan-grokbot-48-use-cases.md` 原有 16 张远程热链图，全部下载并改为本地相对路径 `images/yaohongan-grokbot-48-use-cases/001~016`；新增 `images/gefei-game-site-vs-tool-site-roi/`（2 张）与 `images/buildwithzhu-unit-converters-case/`（1 张）。共 19 张，单图最大 163.4KB，全部低于 500KB。
+- 顺带修复：`yaohongan-grokbot-48-use-cases.md` 中一处双重包裹的畸形 Markdown 链接、4 处盘古之白缺空格；补该篇摘要块与 5 条关联页面。
+- 工具问题记录：`twitter tweet` 返回的 `data` 为数组时**目标推文不一定是 `data[0]`**（首元素是根推文）。按 `data[0]` 提取会取到错误推文——本次 5 个 URL 命中该陷阱，改用「按请求 ID 精确匹配数组元素」后全部取回正确原文。
+- `index.md` 新增 6 条：出海建站 5 条、Agent 工程 1 条（Grok Bot 48 用例）。
+
 ## [2026-10-28] ingest: 蒋云何新词复盘 + 虹安找词雷达工作流
 
 - 来源与归档：

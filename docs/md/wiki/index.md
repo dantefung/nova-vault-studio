@@ -235,6 +235,11 @@ wiki/
 | [qianshuixia-seo-foundation-guide](/md/wiki/sources/qianshuixia-seo-foundation-guide) | 浅水虾：SEO 地基怎么打？五大能力拼图、三级阶梯练手站与先收词再建站铁律 | X/Twitter |
 | [jiang-yunhe-first-100-usd-new-word-playbook](/md/wiki/sources/jiang-yunhe-first-100-usd-new-word-playbook) | 蒋云何：副业出海小白首日破百刀，5 天破千刀的新词经验分享 | X/Twitter |
 | [yaohongan-keyword-radar-workflow](/md/wiki/sources/yaohongan-keyword-radar-workflow) | 虹安：找词雷达工作流，2 天从买域名到出单的完整流程 | X/Twitter |
+| [wavborn-keyword-screening-playbook](/md/wiki/sources/wavborn-keyword-screening-playbook) | wavborn：选词三板斧——Trends 比值法、前十占位检查与 72 组词验证率 | X/Twitter |
+| [gefei-game-site-vs-tool-site-roi](/md/wiki/sources/gefei-game-site-vs-tool-site-roi) | 哥飞：游戏站 vs 工具站的 ROI 对比，为什么新人还在做游戏站 | X/Twitter |
+| [vinsin-hu-four-sites-four-roles](/md/wiki/sources/vinsin-hu-four-sites-four-roles) | 子正：4 个站不是 4 份工作，是 4 种角色 | X/Twitter |
+| [buildwithzhu-unit-converters-case](/md/wiki/sources/buildwithzhu-unit-converters-case) | Jiang Zhu：UnitConverters 无聊工具站靠 AdSense 年入 25 万美元 | X/Twitter |
+| [bozhou-overseas-path-warning](/md/wiki/sources/bozhou-overseas-path-warning) | 泊舟：出海路径警示公告——Web 建站 / X / YouTube 的变现门槛 | X/Twitter |
 | [sagasu-2026-seo-backlink-strategy](/md/wiki/sources/sagasu-2026-seo-backlink-strategy) | SagaSu：2026 SEO 新手必看——外链大变局、Google 新规与 90 天执行路径 | X/Twitter |
 | [charlie-niche-seo-site-50k-case](/md/wiki/sources/charlie-niche-seo-site-50k-case) | Charlie0：沈一独立开发实战——英文细分站从 0 到 5 万美金案例复盘 | X/Twitter |
 | [bainian-seo-daily-001-downloader-to-checker](/md/wiki/sources/bainian-seo-daily-001-downloader-to-checker) | 百年 AI×出海：SEO 日课 001｜从 Downloader 到 Checker 找词推演 | X/Twitter |
@@ -456,6 +461,7 @@ wiki/
 | [shared-weekly-pool](/md/wiki/concepts/shared-weekly-pool) | SpaceXSI 共用周池：Grok 与 Cursor 共享每周刷新的 AI 用量池，打破单产品独立计量 | X |
 | [bot-vs-codex-context](/md/wiki/concepts/bot-vs-codex-context) | Bot vs Codex 上下文机制：Bots 类 Agent 跨会话留存 vs 会话型 Agent 每次独立上下文 | X |
 | [grok-bot-app-research](/md/wiki/sources/grok-bot-app-research) | Grok Bot + 云手机四件套实操：多 Agent 竞品调研工作流，定赛道→拉商店数据→扫社媒→交叉验证 | 公众号 |
+| [yaohongan-grokbot-48-use-cases](/md/wiki/sources/yaohongan-grokbot-48-use-cases) | 虹安：Grok Bot 48 个真实玩法按场景整理，含授权风险与翻车预警 | X/Twitter |
 | [xhs-product-selection](/md/wiki/concepts/xhs-product-selection) | 小红书选品七看方法论：爆品值+商品价值双指标 + 监控软件开源实现 | X |
 | [dongqing-xhs-product-selection](/md/wiki/sources/dongqing-xhs-product-selection) | 冬青：小红书选品方法论与监控软件开发指南原始归档，附 8 张选品表与监控界面截图 | X/Twitter |
 | [distributional-convergence](/md/wiki/concepts/distributional-convergence) | 分布收敛：AI 无具体约束时趋向训练数据最常见方案，解释 AI 味和蓝紫色前端现象 | X |
