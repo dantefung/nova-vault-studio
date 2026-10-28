@@ -98,7 +98,7 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/DongQingAsk/status/2108373211285266465 | 待查看 |
 | 2026-09-29 | https://x.com/heizolshao/status/2109787075289706639 | 待查看 |
 | 2026-09-29 | https://x.com/ai_chuhai/status/2110117043827552415 | 待查看 |
-| 2026-09-29 | https://x.com/JiangK82705/status/2111826068017717314 | 待查看 |
+| 2026-09-29 | https://x.com/JiangK82705/status/2111826068017717314 | **蒋云何：副业出海小白首日破百刀，5 天破千刀的新词经验分享** ~~已采集~~ → 已归档至 [sources/jiang-yunhe-first-100-usd-new-word-playbook](/md/wiki/sources/jiang-yunhe-first-100-usd-new-word-playbook) |
 | 2026-09-29 | https://x.com/lee04052822/status/2111618612158935467 | 待查看 |
 | 2026-09-29 | https://x.com/MaiYangAI/status/2111603532210299234 | 待查看 |
 | 2026-09-29 | https://x.com/SIAxiom/status/2111689540792655982 | 待查看 |

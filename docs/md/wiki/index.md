@@ -233,6 +233,8 @@ wiki/
 | [adsense-us-tax-form](/md/wiki/sources/adsense-us-tax-form) | AdSense 美国税务信息（W-8BEN 表 + 中美税收条约）10 分钟填表 | 公众号 |
 | [maynorai-cc-domain-trap-review](/md/wiki/sources/maynorai-cc-domain-trap-review) | MomoAI：视频模板站批量上站复盘，.cc 等便宜垃圾后缀致 GSC Sitemap/抓取卡死与选型建议 | X/Twitter |
 | [qianshuixia-seo-foundation-guide](/md/wiki/sources/qianshuixia-seo-foundation-guide) | 浅水虾：SEO 地基怎么打？五大能力拼图、三级阶梯练手站与先收词再建站铁律 | X/Twitter |
+| [jiang-yunhe-first-100-usd-new-word-playbook](/md/wiki/sources/jiang-yunhe-first-100-usd-new-word-playbook) | 蒋云何：副业出海小白首日破百刀，5 天破千刀的新词经验分享 | X/Twitter |
+| [yaohongan-keyword-radar-workflow](/md/wiki/sources/yaohongan-keyword-radar-workflow) | 虹安：找词雷达工作流，2 天从买域名到出单的完整流程 | X/Twitter |
 | [sagasu-2026-seo-backlink-strategy](/md/wiki/sources/sagasu-2026-seo-backlink-strategy) | SagaSu：2026 SEO 新手必看——外链大变局、Google 新规与 90 天执行路径 | X/Twitter |
 | [charlie-niche-seo-site-50k-case](/md/wiki/sources/charlie-niche-seo-site-50k-case) | Charlie0：沈一独立开发实战——英文细分站从 0 到 5 万美金案例复盘 | X/Twitter |
 | [bainian-seo-daily-001-downloader-to-checker](/md/wiki/sources/bainian-seo-daily-001-downloader-to-checker) | 百年 AI×出海：SEO 日课 001｜从 Downloader 到 Checker 找词推演 | X/Twitter |
