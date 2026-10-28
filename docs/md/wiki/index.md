@@ -240,6 +240,9 @@ wiki/
 | [vinsin-hu-four-sites-four-roles](/md/wiki/sources/vinsin-hu-four-sites-four-roles) | 子正：4 个站不是 4 份工作，是 4 种角色 | X/Twitter |
 | [buildwithzhu-unit-converters-case](/md/wiki/sources/buildwithzhu-unit-converters-case) | Jiang Zhu：UnitConverters 无聊工具站靠 AdSense 年入 25 万美元 | X/Twitter |
 | [bozhou-overseas-path-warning](/md/wiki/sources/bozhou-overseas-path-warning) | 泊舟：出海路径警示公告——Web 建站 / X / YouTube 的变现门槛 | X/Twitter |
+| [bainian-seo-daily-002-higgsfield-teardown](/md/wiki/sources/bainian-seo-daily-002-higgsfield-teardown) | 百年 AI×出海：SEO 日课 002 拆 Higgsfield——4000 万月访问到 8800 个投稿页 | X/Twitter |
+| [ai-robert-cpc-keyword-valuation](/md/wiki/sources/ai-robert-cpc-keyword-valuation) | AI Robert：用 CPC 判断一个词值不值钱——同月搜量 1.8 万，单价差 3 倍 | X/Twitter |
+| [gefei-friends-20-advice-for-indie-devs](/md/wiki/sources/gefei-friends-20-advice-for-indie-devs) | 哥飞的朋友们：给独立开发者的 20 条建议（2023 年社群百人里程碑） | 付费社群 |
 | [yaohongan-geo-five-actions-guide](/md/wiki/sources/yaohongan-geo-five-actions-guide) | 虹安：GEO 五个动作——让 AI 在回答里提到你，含 12 个案例与 10 项自查清单 | X/Twitter |
 | [sitin-overseas-toolchain](/md/wiki/sources/sitin-overseas-toolchain) | sitin：一个人独立跑完出海项目的完整工具链 | X/Twitter |
 | [yikun-seven-hot-word-site-types](/md/wiki/sources/yikun-seven-hot-word-site-types) | yikun：出海做热词站的 7 种形态（按上手难度排序） | X/Twitter |
@@ -329,6 +332,8 @@ wiki/
 | [dsh-browser-first-configurable-harness](/md/wiki/concepts/dsh-browser-first-configurable-harness) | 浏览器优先的完全可配置 Harness：DSH 与 Claude Code/Codex 的四项核心工程差异 | Wiki 推导 |
 | [shao-meng-google-5day-ai-agents-course](/md/wiki/sources/shao-meng-google-5day-ai-agents-course) | Google 官方「5天 AI Agents 课程」深度解读：从 Vibe Coding 到生产级 Agent 范式 | X/Twitter |
 | [yihui-loop-engineering-explained](/md/wiki/sources/yihui-loop-engineering-explained) | yihui：Loop Engineering 到底是什么？从人肉循环到自主工程闭环 | X/Twitter |
+| [katelyn-lesse-new-problems-for-engineers](/md/wiki/sources/katelyn-lesse-new-problems-for-engineers) | Anthropic 平台工程负责人 Lesse：上千个 AI 智能体一起干活，还缺程序员解决四个难题 | 个人博客 |
+| [leo-xiaolei-369-video-agent-tools](/md/wiki/sources/leo-xiaolei-369-video-agent-tools) | 刘老板：369 个开源仓库——AI Agent 视频生成、自动化剪辑与代码动效渲染 | X/Twitter |
 | [langchain-five-components-company-harness](/md/wiki/sources/langchain-five-components-company-harness) | LangChain：构建「公司级 Harness」的五个组件——身份/记忆/沙箱/调度/住在 Slack | LangChain Blog |
 | [xudong-langchain-company-harness-insight](/md/wiki/sources/xudong-langchain-company-harness-insight) | Xudong Han：LangChain 公司级 Harness 中文解读——Agent 以谁的身份干活 | X/Twitter |
 | [loop-engineering-guide](/md/wiki/sources/loop-engineering-guide) | Loop Engineering 完整指南：五个部件 + 状态层六件套、三道筛子与六种实战场景 | X/Twitter |
@@ -367,6 +372,7 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [hermes-obsidian-knowledge-base](/md/wiki/sources/hermes-obsidian-knowledge-base) | Obsidian + Hermes Agent：Source→Topic→Draft→Published 四步流转，内容库变生产线 | 公众号 |
+| [ai-chuhai-x-viral-writing-engine](/md/wiki/sources/ai-chuhai-x-viral-writing-engine) | 爱出海：X 爆款写作引擎——没有自己的数据，就用同赛道的爆款 | X/Twitter |
 | [claude-prompt-strategies](/md/wiki/sources/claude-prompt-strategies) | 100个提示策略：结构化提示、推理框架、内容量产，思维框架比模型版本更重要 | 公众号 |
 | [crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) | 单人操盘590位博主/26亿播放：前3秒钩子决定生死，13万条买家评价喂AI+5步流水线+3个Prompt | X/Twitter |
 | [andyl5cc-xiaohongshu-codex-workflow](/md/wiki/summaries/andyl5cc-xiaohongshu-codex-workflow) | 用Codex做小红书2天涨1000粉：发现→拆解→模仿→迭代，AI真正降的是从看到机会到做出来的时间 | X/Twitter |

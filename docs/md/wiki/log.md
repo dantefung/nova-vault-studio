@@ -4,6 +4,18 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-28] ingest: 6 篇新内容（Higgsfield 大站拆解 / X 爆款写作引擎 / 哥飞 20 条建议 / CPC 选词 / 369 视频工具链 / 多智能体四难题）
+
+- 来源与归档：
+  1. `https://x.com/bainianAI/status/2115110523981406394`（上）+ `2115110806279082015`（下）→ `sources/bainian-seo-daily-002-higgsfield-teardown.md`：SEO 日课 002 拆 `higgsfield.ai`（2023 年注册域名，月访问 40.56M）。九段拆解路径：① **生意层**——定价页 Starter $15/月、Plus $39/月，产品矩阵 Genjutsu / Nano Banana 2 / AI Influencer；② **流量层**——直接访问超六成，生成式 AI 1.95%、邮件 0.93%、联盟 0.53%；③ **关键词层**——`ai video generator` 63.9K 点击、`ai image generator` 42.1K；④ **产品层**——Higgsfield Earn（创作者激励即获客闭环）、Apps 工具矩阵一个工具一个词、Face Swap 走 Stripe 且列入 Protected Features；⑤ **外链层**——DR 82、引荐域名 1.58 万、`AI Video Generator` 锚文本 362 条 Best Links（DR 中位数约 70，49 条指向同一 `/ai-video`），三个跨行业老文章插入案例（Visme 宣传视频 / Peliqan 数据仓库 / HR Cloud 入职培训）；⑥ **增长层**——`geo.higgsfield.ai` 问答式内容模板（Parse 报告显示 472 次 AI 回答中已出现，引用覆盖约 2%）、公开 `seo.md` Skill、Higgsfield Playable 做小游戏；⑦ **规模层**——Ahrefs Last Crawled 出现 9411 页尖峰但换 First Seen 字段即消失，导出 URL 发现 7853 个中 7358 个（93.7%）是 `/contests/` 投稿页，6880 条 First Seen 异常写成 `1970-01-01`；⑧ **内链结构**——作品页 Recommended 模块固定推荐同十个作品，各获约 8640 条内链，8800 个投稿页占 Ahrefs 21260 抓取页的 41.4%；⑨ **归因**——投稿页 2 月已入索引，对齐 Ahrefs 自然搜索断崖与 Similarweb 自然搜索从 600 万回落到 450 万
+  2. `https://x.com/ai_chuhai/status/2115180591645605964` → `sources/ai-chuhai-x-viral-writing-engine.md`：X 爆款写作引擎 v1.0。方法来自 @GeekCatX（7000+ 推文 → 原子化知识库 → 选题/写作两个 Skill），痛点来自 @willzero（新手没有原创数据）。工程书解法：没历史就让 Agent 拉 10–30 个同赛道账号的高互动原创帖。Agent 七步流程（拉数据 → 按互动率（点赞+收藏+转发）÷ 曝光清洗排序 → 原子化为 8 字段 JSON 语料库 → 炼两个 Skill → 出 7 篇成稿 → 连续 12 字以上即重写 → 按读者时区排期并附 2 小时互动清单）。附 xai-org/x-algorithm 公开参数：**复制链接分享 20 / 回复·引用·私信 5 / 关注 4 / 转帖 1 / 点赞仅 0.66**；负向举报 -234、静音 -58.8、不感兴趣 -52.272、屏蔽 -31.2。另有小号冷启动加推（5 万粉以下、2 小时内、曝光 `<200` 的主帖加推一次）、@ 位置规则与 iLang 判断层四条边界
+  3. 哥飞的朋友们付费社群（2023-07-19，用户提供原文）→ `sources/gefei-friends-20-advice-for-indie-devs.md`：20 条建议完整保留署名（哥飞 7 条、阿桂 3 条、弹弹心 2 条、唐唐 2 条、西成歌/55/吴俊驰各 1 条），并归纳出 5 条主线（不要在「做完」停下、用数量换判断力、先变现再谈完美、流量多入口低成本、技术只是手段），另附与 2026 年同批文章的对照表
+  4. `https://x.com/aiRobertDaily/status/2115280166868156919` → `sources/ai-robert-cpc-keyword-valuation.md`：用 Semrush Keyword Magic Tool 的 CPC 列判断词值不值钱。`invoice template free` 与 `invoice home` 月搜同为 18100，CPC 分别为 $4.49 与 $1.45（差 3 倍）；但 `google ads invoice` CPC $289、月搜仅 90，按 CPC 降序排第一却是陷阱。结论：搜索量 + KD + CPC 三个数必须一起看
+  5. `https://x.com/leo_xiaolei/status/2115032723375218763` → `sources/leo-xiaolei-369-video-agent-tools.md`：369 个开源仓库清单，三条收录底线（必须围绕视频/动效产出、必须专供 Agent 调用、必须有完整 README）。四大框架：lemo-opuscar（8322 星，59 种代码影片风格，98 种视觉风格样片）、huashu-art-motion（5418 星，36 风格 × 9 解说语法 × 8 参数片段）、huashu-motion（1766 星，浏览器内按 C 键点帧改片）、sweety-handdraw-video（903 星，CodeX 友好的手绘口播全流水线）。另含自动化剪辑（browser-use/video-use、OpenChatCut、BaoCut）、低星黑马（fragua 11 星本地免 API、cutloupe 0 星让模型看见自己剪的画面）、703 条提示词宝库、motion2code 逆向重建等
+  6. `https://katelynlesse.com/blog/new-problems-for-engineers-to-solve` → `sources/katelyn-lesse-new-problems-for-engineers.md`：Anthropic 平台工程负责人 Katelyn Lesse 的多智能体四难题。① **基础设施**——K8s 为无状态/编号稳定有状态 Pod 设计，智能体却是隔离的有状态单实例负载，且需要快启动 / 避免浪费算力 / 疯狂扩展三档；Google Agent Substrate 正是冲这个问题做的；② **身份与访问**——认证可借用微服务世界的短期证书与 workload identity，授权「much more wide open」：OBO 场景下如何区分人做还是 AI 做、多智能体跑几周时人类如何有意义地同意、智能体自有身份、智能体之间如何互信；③ **安全与隔离**——漏洞出现速度已超过业界修补速度，核心软件要靠 kernel / browser / runtime / 库的加固，多智能体特有的新风险是注入指令经协作链传给同伴甚至写进共享记忆；④ **监控与叫停**——跨智能体 OTel tracing 且任何智能体不得改写自己或他人的 trace、kill switch 需真正一次停机并回收凭证，最难的是区分「执拗」与「恶意」。中文精读并保留关键英文原文引用；背景信息（团队约 200 人、X 阅读 61 万）标注为未经原始信源核实
+- 图片本地化：新增 2 张至 `images/ai-robert-cpc-keyword-valuation/`（单图 140.3KB / 133.3KB）
+- `index.md` 新增 6 条：出海建站 3 条、Agent 工程 2 条、内容工作流 1 条
+
 ## [2026-10-28] ingest: 9 篇出海新词方法论与 GEO 实战长文（第二批 Grok Bot 抓取）
 
 - 来源与归档：
