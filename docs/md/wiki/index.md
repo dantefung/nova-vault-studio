@@ -478,6 +478,8 @@ wiki/
 | [bot-vs-codex-context](/md/wiki/concepts/bot-vs-codex-context) | Bot vs Codex 上下文机制：Bots 类 Agent 跨会话留存 vs 会话型 Agent 每次独立上下文 | X |
 | [grok-bot-app-research](/md/wiki/sources/grok-bot-app-research) | Grok Bot + 云手机四件套实操：多 Agent 竞品调研工作流，定赛道→拉商店数据→扫社媒→交叉验证 | 公众号 |
 | [yaohongan-grokbot-48-use-cases](/md/wiki/sources/yaohongan-grokbot-48-use-cases) | 虹安：Grok Bot 48 个真实玩法按场景整理，含授权风险与翻车预警 | X/Twitter |
+| [lzj-grok-bot-beginner-guide](/md/wiki/sources/lzj-grok-bot-beginner-guide) | 小爷：Grok Bot 保姆级新手指南——安装、充值（四合一订阅）到云电脑三坑 | X/Twitter |
+| [lzj-grok-bot-xiaohongshu-ban-warning](/md/wiki/sources/lzj-grok-bot-xiaohongshu-ban-warning) | 小爷：紧急通知，Grok Bot 接管小红书已出现大批量封号 | X/Twitter |
 | [xhs-product-selection](/md/wiki/concepts/xhs-product-selection) | 小红书选品七看方法论：爆品值+商品价值双指标 + 监控软件开源实现 | X |
 | [dongqing-xhs-product-selection](/md/wiki/sources/dongqing-xhs-product-selection) | 冬青：小红书选品方法论与监控软件开发指南原始归档，附 8 张选品表与监控界面截图 | X/Twitter |
 | [distributional-convergence](/md/wiki/concepts/distributional-convergence) | 分布收敛：AI 无具体约束时趋向训练数据最常见方案，解释 AI 味和蓝紫色前端现象 | X |

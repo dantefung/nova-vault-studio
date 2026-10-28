@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-28] ingest: 小爷《Grok Bot 保姆级新手指南（上篇）》+ 配套封号警告
+
+- 来源与归档：
+  1. `https://x.com/LZJ5460/status/2111976730844147778` → `sources/lzj-grok-bot-beginner-guide.md`：Grok Bot 保姆级指南上篇（作者：小爷🚀Solixus @LZJ5460，2026-10-19，7217 字，无配图）。四部分：① **定位**——「Grok 是大脑，Grok Bot 是带着大脑上班的员工」；问一次用 grok.com、天天重复的活用 Grok Bot；四样特性（名字/岗位、记忆、云电脑、互相派活）。② **安装**——Mac 按芯片选 Apple/Intel 版、Windows 多为 x64 少为 Arm64；手机需 iOS 18+/Android 9+ 且需美区 ID；登录页有 Cursor 账号 / Sign in with X / Sign in with Grok 多种方式，**选付钱买套餐的那个账号**；界面四块（左边员工名单 / 中间聊天 / 右边员工档案含电脑实时画面 / 左下角设置），设置页可切中文。③ **云电脑**——「最值钱的不是模型，是那台电脑」：上网、登录一次一直有效、关键步骤人工接管（它看不到你的密码）、共享文件夹、装软件、读 X（只能看不能发）、定时干活；**三个坑**——所有员工共用一台电脑（5 个岗位不是 5 个保险箱）、平台更新换机器会丢自装软件、没事干会休眠（别当 24 小时挂站服务器）；国内平台可用「Route traffic through this computer」开关但代价是本机需开机。④ **充值**——10-12 起 Grok/X 会员/Cursor 合成「四合一」The X Subscription，Free $0 / Plus $8 / Premium $30 / Super $100 / Ultra $200 / Teams 每人 $30 起，**Free 与 Plus 都用不了 Grok Bot，最低 $30**；中国用户两条路线：A 国内 Visa/万事达信用卡（招行最稳，被拒就绑 Apple Pay / Google Pay 再付，银行有记录但被拒则打客服放行、无记录则停一天再试），B iPhone 国区 Apple ID + X App 内购 + 支付宝（首月 ¥104、之后 ¥208/月、年付 ¥2080）；**X App 内购后必须用 X 账号登录 Grok Bot**，用 Cursor 账号会显示没额度；四条红线（网页无支付宝/微信、CNY 支付宝老教程已过时、银联单标卡无成功案例、不代充不共享号、U 卡/虚拟卡不推荐）；**旧 SuperGrok 可 Link 绑定**（永久不可解绑、Lite 用不了、两份额度不叠加但钱两边都扣、别把 Heavy 说成新 Ultra）；额度**每周重置**、定时任务也扣、加购分新「Top-ups」与老「On-demand」、新用户 7 天试用、四合一下 Grok/Grok Bot/Cursor 共用一个周额度池
+  2. `https://x.com/LZJ5460/status/2110637116061532173` → `sources/lzj-grok-bot-xiaohongshu-ban-warning.md`：**同一作者 2026-10-15 发布的紧急通知**——Grok Bot 接管小红书已出现大批量封号，接管 X 公众号无问题。配图 1 张本地化。因该警告早于上篇 4 天发布、但上篇「国内平台登录小技巧」一节未写入（仅提示「先拿小号试」），单独归档作为该节的必要限定条件
+- 横向对照：与既有 `concepts/shared-weekly-pool.md`（四合一共用周池机制）互补——该概念页给出档位与用量倍数的 1×/4×/15×/50× 关系，本文补上「Free 与 Plus 不可用」「Plus 8 美元用不了 Grok Bot」这一最易买错的结论；与既有 `sources/yaohongan-grokbot-48-use-cases.md` 分工明确——那篇讲「能拿它做什么」，本文讲「第一步会不会卡住」
+- `index.md` 新增 2 条至「Agent 工程 (Agent Engineering)」。
+
 ## [2026-10-28] ingest: 弗里《AI 网站出海 5 天 1500 刀实战复盘》
 
 - 来源：`https://x.com/0xEcho99/status/2110669876482203775`（X/Twitter：弗里 @0xEcho99，2026-10-15）
