@@ -246,7 +246,6 @@ date: "2026-05-05"
     - **Crystal** — 并行 Codex/Claude Code session + worktree
 - [video-shotcraft](https://vincentwei1021.github.io/video-shotcraft/) — **106 个镜头配方、162 种风格、161 个动态预览**，分镜/运镜/节奏/音效/Remotion 实现整理成 Agent Skill，视频创作技能库
 - [hyperframes-motion-director](https://github.com/geekjourneyx/hyperframes-motion-director) — 宣传片 Agent Skill，视频创作工作流
-- [story-studio](https://github.com/konlu/story-studio) — 历史/人物故事短视频全链路 Agent Skill。选题→3秒钩子→正文（370+ 爆款语料蒸馏的 Writing-DNA）→豆包配音→本地 sherpa-onnx 毫秒级转录→三套画风分镜（Reference Images 防画风漂移）→自动导出带推拉运镜的剪映草稿
 - [Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube视频搬运流水线，自动监控更新/下载/字幕生成/翻译/质检/AI改标题，双平台上传（B站+AcFun），支持企业微信推送
 - [Bento](https://github.com/nyblnet/bento) — 开源HTML PPT工具，单HTML文件实现编辑+全屏播放+多人协作，JSON明文格式适合AI修改迭代，动效炫酷
 - [UP](https://github.com/byoungd/up) — 英语学习全面指南，56W star，涵盖认知/单词/听力/阅读/口语/写作六大板块，含AI辅助学英语（GPT语音模型听说读写训练）
