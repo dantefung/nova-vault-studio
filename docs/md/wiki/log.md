@@ -4,6 +4,29 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] ingest: 10 篇 X 精品长文（自媒体变现/选题雷达/获客方法论/AI剪辑/婚礼视频定制/TrustMRR出海大盘）+ 6 项 AI 编程资源
+
+- 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，全量抓取并本地化配图（共 53 张图，真实格式无超限）
+- 归档与处理：
+  1. `https://x.com/ai_xiaomu/status/2105845619915157543` → `sources/ai-xiaomu-50k-followers-monetization.md`（177 行，7 图）：大厂 T11 离职半年 51k 粉丝变现 20+ 万全复盘，四阶段起号策略与七种变现模型。
+  2. `https://x.com/AaronYiaazw/status/2104920319366734066` → `sources/aaronyi-internal-world-productivity.md`（56 行，1 图）：AI 时代反向通感与审美门槛，内在世界分辨率决定输出上限。
+  3. `https://x.com/JasonCharlie12/status/2104828477941694769` → `sources/jasoncharlie-selfmedia-lead-generation.md`（173 行，2 图）：获客素材 × 内容分发 = 客户线索，线索型内容五步模板与单号闭环。
+  4. `https://x.com/leaf_sanren/status/2103835904670658995` → `sources/leaf-sanren-seecut-video-pipeline.md`（221 行，6 图）：SeeCut 开源管线，Gemini 原生看懂视频挑刺，数字人 + 网感精剪 + 剪映草稿。
+  5. `https://x.com/AaronYiaazw/status/2098023055239139696` → `sources/aaronyi-wedding-video-custom-wizard.md`（277 行，7 图）：AI 婚礼视频定制 14 步完整 SOP，故事采集卡与引导式 Skill。
+  6. `https://x.com/AaronYiaazw/status/2095139268142174487` → `sources/aaronyi-image-story-video-wizard.md`（230 行，3 图）：图文播客视频自动化流水线，写作包 + 豆包字级对齐 + 分镜生图。
+  7. `https://x.com/AaronYiaazw/status/2091491953804198204` → `sources/aaronyi-open-topic-radar.md`（297 行，6 图）：自媒体选题雷达 open-topic-radar，海外升温与中文市场覆盖度交叉验证。
+  8. `https://x.com/TodayKan/status/2113904947565613388` → `sources/todaykan-xhs-personal-selling-guide.md`（169 行，8 图）：小红书个人售卖壁纸 0 到第一单保姆级教程，避开 180 天开店门槛。
+  9. `https://x.com/lieflat_3/status/2095481554462285965` → `sources/lieflat3-writing-distillation-skill.md`（156 行，5 图）：写作蒸馏器 writing-dna-skill，量化统计复刻任意写作风格。
+  10. `https://x.com/sylvieailab/status/2115443840371020016` → `sources/sylvieailab-12068-overseas-products-analysis.md`（222 行，8 图）：拆解 TrustMRR 12,068 个出海项目真实 Stripe 数据，破除幸存者偏差。
+- 资源导航增补：在 `ai-programming-resources.md` 的「内容运营技能」分类补充 6 个核心 Skill 与工具：
+  - `image-story-video-wizard`（大雷，图文故事向导 Skill）
+  - `kids-blessing-video-wizard`（大雷，儿童专属动画祝福视频向导 Skill）
+  - `wedding-video-guided-wizard`（大雷，婚礼视频定制向导 Skill）
+  - `writing-dna-skill`（Lieflat，写作风格蒸馏器 Skill）
+  - `SeeCut`（Leaf Yeah!，自媒体网感精剪管线）
+  - `open-topic-radar`（大雷，自媒体选题雷达开源项目）
+- 去广告与排版：删除各篇末尾关注、点赞、加群等引流话术，盘古之白中英文空格与标点全量规范化，10 篇新源文件 0 排版残留。
+
 ## [2026-10-29] ingest: 4 条 X 长文（Opus5.5 动画绘本 / 过审 Skill / 剪映 Skill 指南 / AI 视频 Top10）+ X榜单资源
 
 - 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，4 条链接全部抓取成功

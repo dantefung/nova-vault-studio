@@ -37,6 +37,12 @@ date: "2026-05-05"
 - [内容运营人必装的4个skill（上）](https://mp.weixin.qq.com/s/kqcpZKJLJMh2EyJF3wJTbw) — Agent Reach（AI上网能力）、Marketing Skills（营销方法论提示词）、RedBox（小红书创作工具）、Scrapling（高级网页爬虫）、Maccy（剪贴板管理器）
 - [story-studio](https://github.com/konlu/story-studio) — **373 Stars**，MIT，Python。**从「选题 → 文案 → 配音 → 配图 → 剪映草稿」的一站式 AI 短视频创作 Agent Skill**，专为 Claude Code / Codex / Cursor 这类支持 Skill 的智能体打造。四大模块：**① 文稿创作**——内置「历史叙事风」与「真实人物故事/女性传奇」两套蒸馏过的 Writing-DNA + **370+ 篇高赞对标逐字稿库**（历史叙事 57 篇含 9 类黄金开头钩子机制；人物故事 300+ 篇含 A/B/C/D/E 五类钩子模板），配选题库、史实与素材核验、字数与查重工具；**② 配音**——推荐接豆包语音大模型 V3 双向流式，也可丢进自备 MP3 让 Agent 接力；**③ 时间轴对齐**——用本地 Coli（基于 sherpa-onnx）离线识别生成精准到字句的 SRT，**绝不按字数瞎猜时间**；**④ 分镜与剪映草稿**——三套画风（历史写实 / 厚涂历史漫画 / 黑白纪实）+ 成品参考图库防跨镜头画风漂移，基于 `pyJianYingDraft` 直接生成**可二次编辑的剪映专业版工程**，自动铺 9:16 竖屏图片与配音并写入覆盖全镜的慢推拉关键帧和切点冲击缩放（Punch Zoom）。零门槛环境初始化（首次调用一键配置便携环境），支持随时中断接力：只写稿、只改钩子、只拆镜生图、或用现成素材直接出剪映草稿
   - 赛道定位：历史叙事 / 人物故事（民国名媛、巾帼英雄、时代先驱、传奇母亲等）
+- [image-story-video-wizard](https://github.com/aaronyi97/image-story-video-wizard) — 图文故事与讲书类播客视频 AI 制作向导 Agent Skill（大雷出品）。按步骤主动引导：选题与对标分析 → 生成写作包交给大模型写稿 → 豆包 Seed-TTS 2.0 试听选音色并取字级时间戳 → 按配音拆分镜生图 → 导出视频与剪映草稿，全流程人工介入控制在 1 小时内
+- [kids-blessing-video-wizard](https://github.com/aaronyi97/kids-blessing-video-wizard) — 儿童专属动画祝福视频制作向导 Agent Skill（大雷出品，MIT）。用一张孩子照片，分步引导制作 30 秒专属动画祝福视频：照片分析与风格选择 → 故事与分镜确认 → 生成场景参考图与图生视频提示词 → 配音与配乐清单 → 拼接导出成片，非一键盲跑而是按步骤记忆选择的交互向导
+- [wedding-video-guided-wizard](https://github.com/aaronyi97/wedding-video-guided-wizard) — AI 婚礼故事视频定制引导向导 Skill（大雷出品）。14 步完整跑通：故事采集卡一次性收集新人经历 → Kimi K3 撰写文案包 → 豆包 TTS 试听选音色 → GPT Image 2 图生图 → Omni 图生视频 → Suno V5.5 试听配 BGM → 最终组装与字幕对齐
+- [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) — 写作风格蒸馏器 Agent Skill（前文字记者 Lieflat 出品，小红书 REDSkill 榜单前三）。基于语言学量化统计，把目标对标文章的词汇密度、句法节奏、论证骨架拆解为可复制的规则层，让 AI 逐层对照写作，彻底复刻任意写作风格并去除 AI 味
+- [SeeCut](https://github.com/YeJe-cpu/SeeCut) — 开源自媒体网感精剪管线（Leaf Yeah! 出品，PolyForm 非商业）。四大设计：Gemini 原生看懂视频挑刺、左右盲测对比循环（最多 3 版收敛）、截真图替代假代码界面、露脸与否根据「对你说」还是「给你看」决策，自动出剪映分层草稿工程
+- [open-topic-radar](https://github.com/aaronyi97/open-topic-radar) — 自媒体选题雷达开源项目（大雷出品）。先去海外信息源（X/Product Hunt/GitHub/Reddit）扫描升温事件，再回中文市场（小红书/B站/抖音）检验覆盖程度，识别「国外已热、国内未做烂」的生态位选题
 
 ### 热点监控
 

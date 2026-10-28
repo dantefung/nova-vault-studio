@@ -71,6 +71,12 @@ wiki/
 | [huangbai-guoshen-review-skill](/md/wiki/sources/huangbai-guoshen-review-skill) | 黄白：「过审」Skill——发布前检查小红书/抖音/B 站/视频号的审核风险 | X/Twitter |
 | [jedeeai-ai-video-top10-bookmarks](/md/wiki/sources/jedeeai-ai-video-top10-bookmarks) | 琳小航：过去 30 天 X 收藏量 Top 10 的 AI 视频实操神贴，含三条技术路线梳理 | X/Twitter |
 | [story-studio-video-account-pipeline](/md/wiki/sources/story-studio-video-account-pipeline) | 夏木 GROW：Story Studio 开源 Skill 全流程拆解，附 20 张截图 | X/Twitter |
+| [leaf-sanren-seecut-video-pipeline](/md/wiki/sources/leaf-sanren-seecut-video-pipeline) | Leaf Yeah!：SeeCut 开源管线——AI 自动网感精剪（数字人+看片挑刺+剪映草稿） | X/Twitter |
+| [aaronyi-image-story-video-wizard](/md/wiki/sources/aaronyi-image-story-video-wizard) | 大雷：图文播客视频自动化流水线——image-story-video-wizard Skill 全流程 | X/Twitter |
+| [aaronyi-wedding-video-custom-wizard](/md/wiki/sources/aaronyi-wedding-video-custom-wizard) | 大雷：AI 婚礼视频定制教程——引导式 Skill 14 步跑通全流程 | X/Twitter |
+| [lieflat3-writing-distillation-skill](/md/wiki/sources/lieflat3-writing-distillation-skill) | 躺在废墟里 Lieflat：写作蒸馏器 Skill——量化文本层次与风格复刻工作流 | X/Twitter |
+| [aaronyi-open-topic-radar](/md/wiki/sources/aaronyi-open-topic-radar) | 大雷：开源自媒体选题雷达——先人一步获取最新资讯与信息差 | X/Twitter |
+| [aaronyi-internal-world-productivity](/md/wiki/sources/aaronyi-internal-world-productivity) | 大雷：AI 时代，内在世界就是生产力——反向通感与审美门槛的分水岭 | X/Twitter |
 | [code-video-rendering-method-matrix](/md/wiki/patterns/code-video-rendering-method-matrix) | 代码视频渲染方法矩阵：按网页、React、手绘、插画、水彩、数学、地图和 3D 语义选择确定性渲染引擎 | 公众号 |
 | [hypit-agent-video-workflow](/md/wiki/summaries/hypit-agent-video-workflow) | Codex + Hypit 把视频复刻沉淀为可局部修改、批量变体的叙事组件工作流 | X/Twitter |
 | [video-prompt-reverse-engineering](/md/wiki/patterns/video-prompt-reverse-engineering) | 多模态模型把参考视频拆成五层视觉规格，再编译为目标模型 Prompt 并通过生成差异迭代 | 知乎专栏 |
@@ -375,6 +381,10 @@ wiki/
 | [teamai-individual-team-golden-trio](/md/wiki/sources/teamai-individual-team-golden-trio) | 沈淦：一个人+AI 就是一个团队——上下文工程五环节、TeamAI 黄金三件套与半自动化三段流水线 | 公众号 |
 | [context-engineering-five-links](/md/wiki/patterns/context-engineering-five-links) | 上下文工程五环节：知识库、工具调用、对话历史、项目记忆、现场清理，附上下文用量 45%~55% 硬上限 | 公众号 |
 | [teamai-golden-trio](/md/wiki/patterns/teamai-golden-trio) | TeamAI 黄金三件套：Spec / Skill / Test Asset，含 Skill 开发五原则、G1-G6 门禁与「两头有人中间没人」流水线 | 公众号 |
+| [ai-xiaomu-50k-followers-monetization](/md/wiki/sources/ai-xiaomu-50k-followers-monetization) | 黄小木：半年 5 万粉变现 6 位数全复盘——起号四阶段与七种变现模型 | X/Twitter |
+| [jasoncharlie-selfmedia-lead-generation](/md/wiki/sources/jasoncharlie-selfmedia-lead-generation) | 大熊 Jason：普通人自媒体获客方法论——线索型内容五步模板与单号闭环 | X/Twitter |
+| [todaykan-xhs-personal-selling-guide](/md/wiki/sources/todaykan-xhs-personal-selling-guide) | TodayKan：小红书个人售卖从 0 到第一单保姆级教程——无需运营与开店门槛 | X/Twitter |
+| [sylvieailab-12068-overseas-products-analysis](/md/wiki/sources/sylvieailab-12068-overseas-products-analysis) | 希希 AI 实验室：拆解 12,068 个 TrustMRR 出海项目真实大盘与反直觉规律 | X/Twitter |
 
 ### 内容工作流 (Content Workflows)
 
