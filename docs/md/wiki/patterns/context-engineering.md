@@ -35,3 +35,4 @@ url: "https://mp.weixin.qq.com/s/UIEzO9_w06iRB7qpULnIQA"
 
 - [[isolated-sub-agent]] — 子 Agent 隔离
 - [[orchestrator-pattern]] — 编排器
+- [[patterns/context-engineering-five-links]] — 上下文工程五环节：知识库 / 工具调用 / 对话历史 / 项目记忆 / 现场清理（工具建设视角）

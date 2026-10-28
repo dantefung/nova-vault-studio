@@ -248,6 +248,11 @@ date: "2026-05-05"
 - [UP](https://github.com/byoungd/up) — 英语学习全面指南，56W star，涵盖认知/单词/听力/阅读/口语/写作六大板块，含AI辅助学英语（GPT语音模型听说读写训练）
 - [nop-app-erp](https://github.com/entropy-cloud/nop-app-erp) — AI全自主开发中型ERP产品（吸引子引导工程实践），GLM coding plan 7*24小时运行1个月，可看AI演化全过程及人工介入时机
 - [attractor-guided-engineering-template](https://github.com/entropy-cloud/attractor-guided-engineering-template) — Mission Driver Loop Engineering参考实现，AI全自主执行，释放AI生产力
+- [SEOnaut](https://github.com/StJudeWasHere/seonaut) — 开源网站 SEO 体检工具，Go + MIT。自动检查死链、重定向、重复 Meta 标签等问题，适合自建 CI 里的 SEO 门禁
+- [SerpBear](https://github.com/towfiqi/serpbear) — 自部署关键词排名监控系统，TypeScript + MIT。持续追踪 Google 排名变化，免费替代 Ahrefs 的排名追踪模块
+- [OpenSEO](https://github.com/every-app/open-seo) — 开源 SEO 工具集，TypeScript + MIT。涵盖关键词研究、排名追踪、网站审计，需要配置数据 API
+- [SEOMachine](https://github.com/TheCraigHewitt/seomachine) — 把 SEO 内容创作流程放进 Claude Code，Python + MIT。适合批量规划和优化文章
+- [awesome-open-source-seo](https://github.com/ZensInk/awesome-open-source-seo) — 专门收集开源 SEO 工具的清单仓库，Python + CC0-1.0。爬虫、关键词、AI 搜索优化都有
 
 ---
 

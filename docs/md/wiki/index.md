@@ -316,6 +316,7 @@ wiki/
 | [yihui-loop-engineering-explained](/md/wiki/sources/yihui-loop-engineering-explained) | yihui：Loop Engineering 到底是什么？从人肉循环到自主工程闭环 | X/Twitter |
 | [langchain-five-components-company-harness](/md/wiki/sources/langchain-five-components-company-harness) | LangChain：构建「公司级 Harness」的五个组件——身份/记忆/沙箱/调度/住在 Slack | LangChain Blog |
 | [xudong-langchain-company-harness-insight](/md/wiki/sources/xudong-langchain-company-harness-insight) | Xudong Han：LangChain 公司级 Harness 中文解读——Agent 以谁的身份干活 | X/Twitter |
+| [loop-engineering-guide](/md/wiki/sources/loop-engineering-guide) | Loop Engineering 完整指南：五个部件 + 状态层六件套、三道筛子与六种实战场景 | X/Twitter |
 
 ### 商业模式 (Business Models)
 
@@ -334,10 +335,16 @@ wiki/
 | [ai-escape-speed](/md/wiki/concepts/ai-escape-speed) | AI 创业的逃逸速度：套壳为什么有价值——在下一代模型前做更多次有效迭代，含能力公式与方向/迭代两类判断 | 公众号 |
 | [agent-iteration-environment](/md/wiki/patterns/agent-iteration-environment) | Agent 迭代环境闭环：Dogfood 环境自建 → 区分产品问题与基建问题 → 清障降本 → 口喷式无限迭代 | 公众号 |
 | [judgment-environment-infinite-iteration](/md/wiki/sources/judgment-environment-infinite-iteration) | 《判断，环境，与无限迭代》原始归档：逃逸速度、两类判断、环境自建与无限迭代 | 公众号 |
+| [dontbesilent-business-thoughts-100-part-1](/md/wiki/sources/dontbesilent-business-thoughts-100-part-1) | dontbesilent 商业思考 100 条（第一期）：商业认知、定价、对标模仿与执行力的 100 条判断 | X/Twitter |
+| [dontbesilent-business-thoughts-100-part-2](/md/wiki/sources/dontbesilent-business-thoughts-100-part-2) | dontbesilent 商业思考 100 条（第二期）：卖点、毛利重定义、见路不走与快速失败的方法论 | X/Twitter |
+| [mengke-160-product-sales-judgments](/md/wiki/sources/mengke-160-product-sales-judgments) | Mengke Wang：把产品卖出去最贵的 160 条判断——Apple×浙大孵化营学员手册知识点公开 | X/Twitter |
 | [solo-cream-1m-ai-site-case](/md/wiki/sources/solo-cream-1m-ai-site-case) | 一个人靠 AI 做到百万美元营收：大市场切小块、营收与利润的口径差异、获客不止 SEO | 用户整理 |
 | [fangxin-geo-monetization-guide](/md/wiki/sources/fangxin-geo-monetization-guide) | 方鑫：GEO 到底怎么赚钱？六类生意形态、收费、交付与验收全解析 | X/Twitter |
 | [koda-ordinary-person-million-guide](/md/wiki/sources/koda-ordinary-person-million-guide) | Koda：2026 年普通人如何一年赚 100 万——破除思维遮蔽与商业闭环实操 | X/Twitter |
 | [weiyux-xianyu-6-years-experience](/md/wiki/sources/weiyux-xianyu-6-years-experience) | 动物园园长：36岁做了6年闲鱼，劝大家不要想太多！避坑与实战经验 | X/Twitter |
+| [teamai-individual-team-golden-trio](/md/wiki/sources/teamai-individual-team-golden-trio) | 沈淦：一个人+AI 就是一个团队——上下文工程五环节、TeamAI 黄金三件套与半自动化三段流水线 | 公众号 |
+| [context-engineering-five-links](/md/wiki/patterns/context-engineering-five-links) | 上下文工程五环节：知识库、工具调用、对话历史、项目记忆、现场清理，附上下文用量 45%~55% 硬上限 | 公众号 |
+| [teamai-golden-trio](/md/wiki/patterns/teamai-golden-trio) | TeamAI 黄金三件套：Spec / Skill / Test Asset，含 Skill 开发五原则、G1-G6 门禁与「两头有人中间没人」流水线 | 公众号 |
 
 ### 内容工作流 (Content Workflows)
 
@@ -448,6 +455,7 @@ wiki/
 | [bot-vs-codex-context](/md/wiki/concepts/bot-vs-codex-context) | Bot vs Codex 上下文机制：Bots 类 Agent 跨会话留存 vs 会话型 Agent 每次独立上下文 | X |
 | [grok-bot-app-research](/md/wiki/sources/grok-bot-app-research) | Grok Bot + 云手机四件套实操：多 Agent 竞品调研工作流，定赛道→拉商店数据→扫社媒→交叉验证 | 公众号 |
 | [xhs-product-selection](/md/wiki/concepts/xhs-product-selection) | 小红书选品七看方法论：爆品值+商品价值双指标 + 监控软件开源实现 | X |
+| [dongqing-xhs-product-selection](/md/wiki/sources/dongqing-xhs-product-selection) | 冬青：小红书选品方法论与监控软件开发指南原始归档，附 8 张选品表与监控界面截图 | X/Twitter |
 | [distributional-convergence](/md/wiki/concepts/distributional-convergence) | 分布收敛：AI 无具体约束时趋向训练数据最常见方案，解释 AI 味和蓝紫色前端现象 | X |
 
 ### 出海工具与方法（Global Expansion & Overseas Tools）

@@ -4,6 +4,39 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-28] ingest: 沈淦《一个人+AI 就是一个团队？拆开「个体团队」的黄金三件套》
+
+- 来源：`https://mp.weixin.qq.com/s/JBwOUjA9lNn73-lYtuE5SA`（微信公众号：腾讯云开发者 / 沈淦，2026-10-28）
+- 归档至 `sources/teamai-individual-team-golden-trio.md`（310 行）
+- 本地化 28 张图至 `images/teamai-individual-team-golden-trio/`（001~028.png，真实 PNG 格式）
+- **抓取异常处理**：`fetch_weixin.py` 输出中正文前混入约 45 行腾讯云广告（群聊扫码图重复 7 轮）与结尾约 40 行引流（代金券/关注二维码）。已按「引言」起始、「-End-」终止定位正文区间，剔除广告区；正文内标题连续重复 2~3 次（微信渲染残留），折叠 12 行；`01/02/03` 装饰行与 `# 01` 标题重构为 `## 01 章节名`
+- **图片压缩**：026.png（1554KB）、027.png（1277KB）超 500KB 门槛，用 sharp 降分辨率 + palette 量化压缩至 391KB / 458KB
+- 内容摘要：
+  - ① **背景与痛点**——AI Coding 过了蜜月期进入「欺骗性失望区」；三段真实代码揭示 AI 好心办坏事的三种根因（对有意为之代码的幻觉纠错、代码内嵌私有业务知识带来的认知负荷、时空权衡方案被当作缺陷）；
+  - ② **上下文工程五环节**——知识库、工具调用、对话历史、项目记忆、现场清理，配心法四动作（卸载/精简/检索/隔离）；硬数据：上下文用量上限 45%~55%、METR 任务长度每 7 个月翻一倍；工具改写两条路线（rtk 调用后改写 vs 符号语法树+语义嵌入替换 Grep）；对话历史 compact 截断 vs pi-vcc 语义折叠；项目记忆用一组人类可读 Markdown（项目简介/规约/决策日志/墓碑/候选/主体表）；
+  - ③ **TeamAI 黄金三件套**——Spec（做什么）/ Skill（如何做）/ Test Asset（是否正确），核心媒介都是 Markdown；「Vibe→Spec→Build，Spec 才是代码」；二义性是业务开发最大的杀手（聊天记录是信息的漏斗）；
+  - ④ **Skill 做到开发级**——五大原则（模式驱动/约束前置/描述即索引/配置外部化/可量化验证）、五种模式（工具包装器/生成器/审查器/反演器/Pipeline）、G1-G6 六条通用禁令，实测平均 +113%；
+  - ⑤ **快速需求半自动化**——「两头有人、中间没人」三段流水线（前级人工拆解产出 Task/OpenSpec/auto-dev.yaml → 中级 AI 五阶段状态机 + 8 条红线门禁 → 后级人工集成测试）；测试资产化不打破测试同学心流（脑图自动转 Markdown）；自愈能力底线（脚本不持有 locator，HealListener 层级化自愈）；
+  - ⑥ **AI 时代技术的变与不变**——技术人先问「这是一堵什么墙」，变的是底层（云计算/分布式/移动/AI），不变的是价值创造与递归层级结构
+- 提炼模式页 `patterns/context-engineering-five-links.md`：五环节逐环节拆解 + 四动作心法 + 45%~55% 硬约束 + Block/Stack 上下文模型 + 三种调整方式 + Trace 验证闭环
+- 提炼模式页 `patterns/teamai-golden-trio.md`：三件套分工表 + Vibe Coding 怪现象根因 + 开发级 Skill 五原则/五模式/G1-G6 门禁 + 门禁实测效果表 + 快速需求三段流水线 + 个体团队两阶段模型
+- 在既有 `patterns/context-engineering.md` 追加交叉引用，区分「四操作（上下文内容管理）」与「五环节（工具建设）」两个视角
+- 关联既有 `patterns/agent-skill-design-patterns`、`patterns/skill-building-guide`、`concepts/openspec-superpowers-workflow`、`patterns/agent-loop`、`patterns/ai-rd-automation`
+
+## [2026-10-28] ingest: 5 条 X 链接批量采集（冬青选品 / dontbesilent 100 条 ×2 / Mengke 160 条 / Kyrie Loop 工程）
+
+- 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，5 条链接全部抓取成功，图片统一下载到 `docs/md/wiki/images/<slug>/`
+- 归档与处理：
+  1. `https://x.com/DongQingAsk/status/2108373211285266465` → 既有 `sources/dongqing-xhs-product-selection.md` **补全 8 张图**（选品表截图 ×2、爆品值/商品价值公式图、本地软件+网站同步架构图、监控界面图），并按原文补回被压缩掉的「本地软件 + 网站同步」架构段与「怎么从这张表里挑」段
+  2. `https://x.com/dontbesilent12/status/1994054388655218861` → 新建 `sources/dontbesilent-business-thoughts-100-part-1.md`（第一期 100 条）
+  3. `https://x.com/dontbesilent/status/2012543785956487510` → 新建 `sources/dontbesilent-business-thoughts-100-part-2.md`（第二期 100 条）
+  4. `https://x.com/MengkePM/status/2071799855455027664` → 新建 `sources/mengke-160-product-sales-judgments.md`（Apple×浙大孵化营手册 160 条判断，3 张图本地化）
+  5. `https://x.com/KyrieCheungYep/status/2070333819249627273` → 既有 `sources/loop-engineering-guide.md` **补全 4 张正文图本地化**（`images/loop-engineering-guide/002~005.jpg`），coverImage 保留远程地址
+- 抓取格式处理：dontbesilent 两期的编号与正文分离（`001.` 单独一行 + 下一行正文），写脚本重新配对 100 + 100 条；Mengke 的 `1、`～`160、` 编号制式转为独立段落并剥离 frontmatter 后重复的 H1
+- 图片格式核验：全部真实 JPEG/PNG，最大 166KB，无超限
+- **修正一次误操作**：批量替换 loop-engineering-guide 图片 URL 时把 `pbs.twimg.com/media/HLtXxx.jpg` 替换成了 `pbs.twimg.com/media/002.jpg`（只替换文件名、丢失哈希），已 `git checkout` 还原后改为直接写本地相对路径
+- 补交 `docs/md/guide/ai/ai-programming-resources.md` 开源工具分类：6 个开源 SEO 工具（SEOnaut / SerpBear / OpenSEO / SEOMachine / awesome-open-source-seo；SoPilot 因属作者自有产品、已在其归档中标注自推身份而不入导航），`node scripts/build-resource-nav.js --check` 通过
+
 ## [2026-10-27] ingest: 闲鱼副业三件套开源工具 + LangChain 公司级 Harness 架构
 
 - 来源与归档：

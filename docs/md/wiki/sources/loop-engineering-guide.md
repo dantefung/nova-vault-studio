@@ -8,7 +8,7 @@ authorName: "Kyrie"
 authorUsername: "KyrieCheungYep"
 authorUrl: "https://x.com/KyrieCheungYep"
 tweetCount: 2
-coverImage: "https://pbs.twimg.com/media/HLtKM7SaoAAYjQ9.jpg"
+coverImage: "../images/loop-engineering-guide/001.jpg"
 ---
 
 # 用好 Loop 能让你事半功倍，六个实战场景教你驾驭循环工程
@@ -33,13 +33,13 @@ coverImage: "https://pbs.twimg.com/media/HLtKM7SaoAAYjQ9.jpg"
 
 要理解循环工程，先看它在谱系里的位置。这几年杠杆点一直在往离“裸模型调用”更远的地方移：
 
-![](https://pbs.twimg.com/media/HLtJo2va0AAdKwF.jpg)
+![](../images/loop-engineering-guide/002.jpg)
 
 它和 cron 定时任务的差别，在于里面多了一个会判断下一步的 agent。cron 跑写死的脚本；循环会看当前状态，挑动作，执行，检查结果，再决定继续、重试、回滚或停止。这个“观察、决策、行动、验证”（observe-decide-act-verify）就是循环的内核。主流 AI 厂商最后都靠近了这个结构，源头可以追到 2022 年普林斯顿和 Google 的 ReAct 框架（推理与行动交替）。
 
 一个循环由什么组成：五个部件和一个状态层
 
-![](https://pbs.twimg.com/media/HLtJqPobkAA0Fi9.jpg)
+![](../images/loop-engineering-guide/003.jpg)
 
 第六个最容易被新手跳过。模型每次跑完都会忘，状态文件就是让今天这次运行知道昨天干了什么的办法。少了它，很多系统看似在循环，其实只是在重复同一个第一步。
 
@@ -92,7 +92,7 @@ coverImage: "https://pbs.twimg.com/media/HLtKM7SaoAAYjQ9.jpg"
 
 这是全场最难的一步。“把代码改好”太虚，“test/auth 全过且 npm run lint 干净”才够用。把停止条件写成验收单，四个字段尽量都补上：
 
-![](https://pbs.twimg.com/media/HLtJqQGb0AA0Rut.jpg)
+![](../images/loop-engineering-guide/004.jpg)
 
 agent 还是那个执行者，你写的是它必须通过的那张验收单。
 
@@ -316,7 +316,7 @@ model: claude-haiku-4-5
 - 反思 + schema 校验：起草结构化报告，对照 schema 补全缺字段，人最后过一遍。适合工地报告、表单类。
 - 多 agent review + 人类闸门：A 起草，B 查规范、查合规、标出不该出现的敏感标识，人签字。适合诊疗方案、合规文档。
 - 反思 + 清单校验：起草，对照方法论框架、字数格式和数据一致性检查，再标出需佐证的论断。适合提案。
-- 带护栏的自治：逐条或逐批校验，只把没过自动检查的（通常 <5%）升级给人。适合数据批处理。
+- 带护栏的自治：逐条或逐批校验，只把没过自动检查的（通常 &lt;5%）升级给人。适合数据批处理。
 
 文档写手循环还能再套四层：① agent 干活（克隆仓库、读写文件、开 PR）；② 验证循环（一个 grader 跑检查，链接是否都通、CI 是否全绿、diff 是否只动了被要求的范围，不达标就带反馈打回）；③ 事件循环（某频道一来消息就触发）；④ 改进循环（拿运行记录喂分析 agent，自动改进 prompt 或工具配置）。
 
@@ -358,7 +358,7 @@ model: claude-haiku-4-5
 
 不要追求一步到位，一步跳到“自动合并”。按成熟度阶梯，一次爬一格。当前这格产出的东西，已经是你本来也会手动接受的结果，再往上走。
 
-![](https://pbs.twimg.com/media/HLtJo6Fa8AArt6m.jpg)
+![](../images/loop-engineering-guide/005.jpg)
 
 放手前的最小安全清单有七样：成功条件、上限（次数、分钟、花费）、隔离分支或 worktree、只读的 checker、状态文件、人类闸门（风险或失败的活交给人，绝不直推 main）、日志或通知（夜里出事要看得见）。缺一样，循环就容易不安全、健忘，或者出了事没人知道。
 
