@@ -63,6 +63,9 @@ wiki/
 | [codex](/md/wiki/concepts/codex) | OpenAI 官方 AI 编程客户端，桌面/VS Code/终端三种形态，内置 GPT-Image-2 + Computer Use | X Article |
 | [codex-app](/md/wiki/concepts/codex-app) | OpenAI 桌面端 AI 工作台，左中右三栏工作现场，Plugin/Connector/Skill/MCP 四扩展 + Computer Use | X Article |
 | [ai-content-pipeline](/md/wiki/concepts/ai-content-pipeline) | AI 内容工厂流水线——用 Agent 串工具把人负责挑选微调，AI 跑完全流程 | X Article |
+| [story-studio-video-pipeline](/md/wiki/patterns/story-studio-video-pipeline) | Audio-First 短视频流水线：先出声音再切分镜，Reference Images 防画风漂移，剪映草稿自动生成 | X/Twitter |
+| [wechat-video-silver-economy-monetization](/md/wiki/patterns/wechat-video-silver-economy-monetization) | 银发向内容的三条变现路径：图书带货（78%）、滋补品、创作者分成与私域导流 | X/Twitter |
+| [story-studio-video-account-pipeline](/md/wiki/sources/story-studio-video-account-pipeline) | 夏木 GROW：Story Studio 开源 Skill 全流程拆解，附 20 张截图 | X/Twitter |
 | [code-video-rendering-method-matrix](/md/wiki/patterns/code-video-rendering-method-matrix) | 代码视频渲染方法矩阵：按网页、React、手绘、插画、水彩、数学、地图和 3D 语义选择确定性渲染引擎 | 公众号 |
 | [hypit-agent-video-workflow](/md/wiki/summaries/hypit-agent-video-workflow) | Codex + Hypit 把视频复刻沉淀为可局部修改、批量变体的叙事组件工作流 | X/Twitter |
 | [video-prompt-reverse-engineering](/md/wiki/patterns/video-prompt-reverse-engineering) | 多模态模型把参考视频拆成五层视觉规格，再编译为目标模型 Prompt 并通过生成差异迭代 | 知乎专栏 |

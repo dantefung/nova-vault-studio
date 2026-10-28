@@ -4,6 +4,23 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] ingest: 夏木 GROW《Story Studio》——全自动跑视频号带货的开源 Skill
+
+- 来源：`https://x.com/Tanghulu188/status/2115052176968159627`（X/Twitter：夏木 GROW @Tanghulu188，2026-10-29）
+- 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`
+- 归档至 `sources/story-studio-video-account-pipeline.md`（312 行），本地化 20 张图至 `images/story-studio-video-account-pipeline/`（001~020.jpg/png，真实 JPEG/PNG，最大 264KB，无超限）
+- 内容摘要：
+  - ① **实战成绩**——单条爆款播放 100W+，平均完播率 35%+，账号单月涨粉数万，粉丝画像集中在 35~55 岁以上高净值群体；单期带货出单数百至数千单，主推人物传记与社科图书客单 49~88 元、佣金 30%~50%
+  - ② **五步流水线**——文案（370+ 篇爆款语料蒸馏的 Writing-DNA 双体系 + A/B/C/D/E 五类钩子库 + 事实核查表字数误差 ±5%）→ 配音（豆包语音 V3 双向流式 WebSocket，ffprobe 校验完整性、文本哈希防重复扣费、DPAPI 加密存储 Key）→ 本地离线转录（Coli / sherpa-onnx 毫秒级时间戳 + 人名专名自动纠偏）→ 分镜生图（Audio-First 约 8 秒/图切镜、逐镜时代考据、三大画风 + Reference Images 首张核验防漂移）→ 剪映草稿（pyJianYingDraft、平滑慢推拉 16~20 秒走 12% 幅度、切点冲击缩放 Cut Punch 1.28x/1.50x）
+  - ③ **Audio-First 倒置**——先出声音再切分镜，分镜基准从「按字数瞎猜」变为真实秒数
+  - ④ **变现四路径**——挂车图书（带货文案 78% 是图书推荐，三种话术时机占比 65%/22%/13%）、滋补银发产品、创作者分成计划（万次播放 20~50 元）、微信私域导流（客单几十元→几百上千元）
+  - ⑤ **作者的模型实测提醒**——同一套 skill 不同模型写出的文案质量不同（claude opus 4.6 与 gemini 3.8 flash AI 味最少），Skill 不等于文案质量
+- 去广告处理：删除结语中「欢迎关注我，一起学习搞钱信息差，低门槛副业实践指南」的引流话术，保留作者署名与 GitHub 开源地址；「欢迎 Star」「评论区告诉我」等互动引导话术一并去除
+- 提炼模式页 `patterns/story-studio-video-pipeline.md`：Audio-First 五步流水线逐环节拆解 + Writing-DNA 与钩子库 + 两条配音路径 + 三大画风与防漂移机制 + 剪映草稿关键帧参数 + 与既有 12 步框架的三点差异对比
+- 提炼模式页 `patterns/wechat-video-silver-economy-monetization.md`：银发人群四条变现路径 + 三种带货话术时机（占比数据）+ 与 `selfmedia-compound-model` 四层漏斗的「平台×人群×品类」补充关系
+- 在既有 `concepts/ai-content-pipeline.md` 追加交叉引用，区分「代码直接渲染 MP4」与「生成可编辑剪辑工程」两条路线
+- 关联既有 `concepts/ai-content-pipeline`、`sources/ai-book-short-video-pipeline`、`concepts/selfmedia-compound-model`、`sources/wechat-account-traffic-monetization`
+
 ## [2026-10-28] ingest: 小爷《Grok Bot 保姆级新手指南（上篇）》+ 配套封号警告
 
 - 来源与归档：

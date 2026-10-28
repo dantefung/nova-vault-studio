@@ -93,6 +93,18 @@ Rachel 的 Hypit 演示把这套思路推进到视频内部：人物、台词、
 
 这里的资产不再只是最终 MP4，而是 Agent 可以继续修改的叙事结构。参考视频因此既是待复刻的样本，也是工作流提取的输入。详见 [[summaries/hypit-agent-video-workflow]]。
 
+## 另一条路线：生成可编辑剪辑工程而非直接渲染
+
+Story Studio 走的是另一条路：不直接渲染 MP4，而是生成**可编辑的剪映专业版草稿**，让人在剪映里微调后导出。它与本框架的三点差异：
+
+| 维度 | 本框架（Bytec 12 步） | Story Studio |
+|---|---|---|
+| 输出目标 | 直接渲染 MP4 | 生成剪映草稿工程 |
+| 分镜基准 | 视频脚本阶段规划 | **音频时间戳反推**（先出声音再切镜） |
+| 画风一致性 | 统一风格背景图 3-4 张 | Reference Images 注入 + 首张核验 + 逐镜时代考据 |
+
+详见 [[patterns/story-studio-video-pipeline]]。
+
 ## 适用场景特征
 
 ✅ **适合做流水线的内容品类**：
@@ -126,4 +138,4 @@ Rachel 的 Hypit 演示把这套思路推进到视频内部：人物、台词、
 - [[sources/codex-video-production-skills]] — Codex 视频制作 6 个 GitHub Skills
 - [[sources/hypit-agent-video-workflow]] — Codex + Hypit 将视频复刻沉淀为可修改的叙事组件工作流
 - [[sources/codex-app-beginner-tutorial]] — Codex App 入门（理解 Agent 工作台）
-- [[concept-content-factory]] — 主题级内容工厂（同一思想，更大范围）
+- [[concepts/book-notes-content-factory]] — 读书笔记内容的 SOP 化量产（同一思想，更大范围）
