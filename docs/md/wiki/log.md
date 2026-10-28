@@ -4,6 +4,21 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] ingest: 4 条 X 长文（Opus5.5 动画绘本 / 过审 Skill / 剪映 Skill 指南 / AI 视频 Top10）+ X榜单资源
+
+- 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，4 条链接全部抓取成功
+- 归档与处理：
+  1. `https://x.com/HaileyAILabs/status/2111265099096973334` → 新建 `sources/hailey-hand-drawn-storybook-animation.md`（220 行，4 图）。Opus 5.5 + 豆包配音做 7 分钟手绘水彩动画绘本；GPT 三轮打磨剧本（出故事 → 让它自己批判 → 生成分镜图）；作者不会画画不会剪辑，前后 1 天
+  2. `https://x.com/Hss1128_/status/2107885422911332719` → 新建 `sources/huangbai-guoshen-review-skill.md`（82 行，7 图）。「过审」Skill：发布前检查小红书/抖音/B 站/视频号的审核风险，同时查语音+字幕+画面
+  3. `https://x.com/jedeeai/status/2107358191432405329` → 新建 `sources/jedeeai-ai-video-top10-bookmarks.md`（87 行，1 图）。过去 30 天 X 收藏量 Top 10 的 AI 视频实操神贴；11 个 t.co 短链全部解析为真实推文地址并转成表格
+  4. `https://x.com/xaiwind/status/2106324762347880468` → 新建 `sources/xaiwind-jianying-skill-guide.md`（481 行，17 图）。剪映上手 + jianying-editor-skill 全指南，含能力边界表与六个常见坑
+- 抓取格式处理：4 篇均含 Thread 外壳（`## Thread` / `### 1` 与裸 URL 行）与引用推文块，已剥离；原 H1 与副标题重复，去重后统一为单 H1；`# 一、怎么用` / `# 上篇` / `# 下篇` 等被 H1 去重误吞的章节标题已逐个补回
+- 图片核验：29 张全部真实 JPEG/PNG，最大 208KB，无超限
+- 去广告处理：删除「也欢迎 star」「点赞、收藏、关注」等互动引导；开源仓库地址与 PR 邀请保留（属于溯源信息而非推广）
+- 提炼模式页 `patterns/pre-publish-compliance-check.md`：发布前合规预检模式——把平台审核规则变成带来源与核实日期的检查表、用 case 回流对抗规则变化、语音/字幕/画面三模态同检、6 条 Failure Modes 与 5 条 Quality Gate；并说明与 `wechat-image-post-account-sop` 的 15 条自检（内容规范层）的关系（规则驱动层）
+- 资源导航补交：`ai-programming-resources.md` 的「热点监控」分类新增 X榜单（xbangdan.com）——中文区 X 博主数据门户 + X榜单 MCP（999 元/年、每天 300 次查询、只读不碰账号），标注了付费属性
+- 关联既有 `concepts/ai-content-pipeline`、`sources/AI-Video竞品调研`、`sources/hypit-agent-video-workflow`、`sources/codex-video-production-skills`、`patterns/story-studio-video-pipeline`、`patterns/wechat-image-post-account-sop`
+
 ## [2026-10-29] ingest: 夏木 GROW《Story Studio》——全自动跑视频号带货的开源 Skill
 
 - 来源：`https://x.com/Tanghulu188/status/2115052176968159627`（X/Twitter：夏木 GROW @Tanghulu188，2026-10-29）

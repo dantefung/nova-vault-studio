@@ -65,6 +65,11 @@ wiki/
 | [ai-content-pipeline](/md/wiki/concepts/ai-content-pipeline) | AI 内容工厂流水线——用 Agent 串工具把人负责挑选微调，AI 跑完全流程 | X Article |
 | [story-studio-video-pipeline](/md/wiki/patterns/story-studio-video-pipeline) | Audio-First 短视频流水线：先出声音再切分镜，Reference Images 防画风漂移，剪映草稿自动生成 | X/Twitter |
 | [wechat-video-silver-economy-monetization](/md/wiki/patterns/wechat-video-silver-economy-monetization) | 银发向内容的三条变现路径：图书带货（78%）、滋补品、创作者分成与私域导流 | X/Twitter |
+| [pre-publish-compliance-check](/md/wiki/patterns/pre-publish-compliance-check) | 发布前合规预检：把平台审核规则变成带来源与核实日期的检查表，用 case 回流对抗规则变化 | X/Twitter |
+| [xaiwind-jianying-skill-guide](/md/wiki/sources/xaiwind-jianying-skill-guide) | 想风：剪映上手 + jianying-editor-skill 全指南，附能力边界表与六个常见坑 | X/Twitter |
+| [hailey-hand-drawn-storybook-animation](/md/wiki/sources/hailey-hand-drawn-storybook-animation) | Hailey：Opus 5.5 + 豆包配音做 7 分钟手绘水彩动画绘本，GPT 三轮打磨剧本 | X/Twitter |
+| [huangbai-guoshen-review-skill](/md/wiki/sources/huangbai-guoshen-review-skill) | 黄白：「过审」Skill——发布前检查小红书/抖音/B 站/视频号的审核风险 | X/Twitter |
+| [jedeeai-ai-video-top10-bookmarks](/md/wiki/sources/jedeeai-ai-video-top10-bookmarks) | 琳小航：过去 30 天 X 收藏量 Top 10 的 AI 视频实操神贴，含三条技术路线梳理 | X/Twitter |
 | [story-studio-video-account-pipeline](/md/wiki/sources/story-studio-video-account-pipeline) | 夏木 GROW：Story Studio 开源 Skill 全流程拆解，附 20 张截图 | X/Twitter |
 | [code-video-rendering-method-matrix](/md/wiki/patterns/code-video-rendering-method-matrix) | 代码视频渲染方法矩阵：按网页、React、手绘、插画、水彩、数学、地图和 3D 语义选择确定性渲染引擎 | 公众号 |
 | [hypit-agent-video-workflow](/md/wiki/summaries/hypit-agent-video-workflow) | Codex + Hypit 把视频复刻沉淀为可局部修改、批量变体的叙事组件工作流 | X/Twitter |

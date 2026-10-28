@@ -45,6 +45,7 @@ date: "2026-05-05"
 - [NewsNow](https://newsnow.busiyi.world) — 精美实时热榜
 - [AIHOT](https://aihot.news) — 卡兹克全球 AI 热门动态
 - **AIHOT Agent**（卡兹克）— 定时汇报 AI 当天重点新闻，并可据热点生成 X/小红书等内容草稿
+- [X榜单](https://xbangdan.com/) — 中文区 X 博主数据门户，每小时更新当日发帖/评论/涨粉/曝光四个维度的榜单与纪录殿堂；另提供 [X榜单 MCP](https://xbangdan.com/mcp/)，接上 Claude Code / Codex / Cursor 后可用自然语言查爆款推文、查账号数据、看今日热点（付费订阅：999 元/年，每天 300 次查询，只读不碰账号）
 
 ---
 
