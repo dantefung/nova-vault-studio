@@ -234,6 +234,7 @@ wiki/
 | [maynorai-cc-domain-trap-review](/md/wiki/sources/maynorai-cc-domain-trap-review) | MomoAI：视频模板站批量上站复盘，.cc 等便宜垃圾后缀致 GSC Sitemap/抓取卡死与选型建议 | X/Twitter |
 | [qianshuixia-seo-foundation-guide](/md/wiki/sources/qianshuixia-seo-foundation-guide) | 浅水虾：SEO 地基怎么打？五大能力拼图、三级阶梯练手站与先收词再建站铁律 | X/Twitter |
 | [jiang-yunhe-first-100-usd-new-word-playbook](/md/wiki/sources/jiang-yunhe-first-100-usd-new-word-playbook) | 蒋云何：副业出海小白首日破百刀，5 天破千刀的新词经验分享 | X/Twitter |
+| [echo-ai-site-5-days-1500-usd](/md/wiki/sources/echo-ai-site-5-days-1500-usd) | 弗里：AI 网站出海 5 天 1500 刀复盘，付费墙阶梯设计与专属新词雷达 | X/Twitter |
 | [yaohongan-keyword-radar-workflow](/md/wiki/sources/yaohongan-keyword-radar-workflow) | 虹安：找词雷达工作流，2 天从买域名到出单的完整流程 | X/Twitter |
 | [wavborn-keyword-screening-playbook](/md/wiki/sources/wavborn-keyword-screening-playbook) | wavborn：选词三板斧——Trends 比值法、前十占位检查与 72 组词验证率 | X/Twitter |
 | [gefei-game-site-vs-tool-site-roi](/md/wiki/sources/gefei-game-site-vs-tool-site-roi) | 哥飞：游戏站 vs 工具站的 ROI 对比，为什么新人还在做游戏站 | X/Twitter |
