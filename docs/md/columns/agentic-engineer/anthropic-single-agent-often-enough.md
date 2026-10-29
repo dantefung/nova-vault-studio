@@ -111,3 +111,4 @@ Anthropic 还专门做了一个迁移工具包放在 GitHub 上，里面有帮�
 - [多 Agent 架构设计模式：六种主流方案解析](./multi-agent-architecture-patterns.md)
 - [Agent sub-agent 拆分与派活——本地 spawn vs 分布式 ACP-Worker](./agent-subagent-splitting-and-dispatch.md)
 - [12 小时、636 个测试：自驱型 Skill 能走多远](./self-driving-skill-three-layers.md)
+- [Workflow、Agent、Multi-Agent，架构到底怎么选？](./workflow-agent-multi-agent-selection.md)（订单延期分析案例：何时上 Workflow、何时上单 Agent、何时拆多 Agent）
