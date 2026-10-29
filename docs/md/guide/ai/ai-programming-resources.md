@@ -287,6 +287,7 @@ date: "2026-05-05"
 - [Translate-Subtitle-File（译幕 Zimoo）](https://github.com/1c7/Translate-Subtitle-File) — 开源字幕文件翻译工具，支持 SRT / ASS / VTT，输出译文或双语字幕。有网页与桌面入口 [zimoo.app](https://zimoo.app/)；注意翻译服务费用需单独确认，不等于全程免费
 - [auto-subtitle](https://github.com/m1guelpf/auto-subtitle) — 开源命令行字幕工具。用 Whisper 识别视频语音，再用 ffmpeg 把字幕烧进视频，也支持只输出 SRT 供先校对后合成；需自备 Python、ffmpeg 与模型
 - [Hi3D V1.0](https://github.com/hi3d-official/Hi3Dv1.0) — 国产开源 AI 3D 模型（前身 Sparc3D），由 200 万真实生产资产训练，细节还原与多视角保真突出，提供 MCP 接入方式。典型用法：GPT-Image-2.5 出多视角参考图 → Hi3D MCP 秒级生成带 PBR 材质的高精 3D Mesh → Three.js 装配场景（**关键避坑：AI 生成的原生模型几十万面，必须让 MCP 加入 LOD 网格简化并压成 Draco 格式的 glb**，否则网页必卡）
+- [Grok 云电脑工具箱](https://bot.fmcat.top/tools/) — 社区整理的 Grok Bot 云电脑工具安装指南，每个工具附带可直接复制的提示词，由 Bot 在云电脑上自动完成安装与环境验证，覆盖 Antigravity / Codex / Claude Code / Gemini CLI / Pi 等编码 Agent
 
 ---
 
