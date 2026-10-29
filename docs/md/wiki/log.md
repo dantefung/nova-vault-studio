@@ -4,6 +4,31 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] ingest: 刘军《Durable Agent 详解》——持久可恢复执行与 AgentCore Brain-Hands 分离
+
+- 来源：`https://mp.weixin.qq.com/s/z8JHkCyOVVKrXpKH-vy6tw`（微信公众号：刘军，2026-10-29 18:46）
+- 抓取脚本：`python3 .claude/skills/markdown-proxy/scripts/fetch_weixin.py` + `download-images.py --prefix`（两步走）
+- 归档至 `sources/durable-agent-agentcore.md`（415 行），本地化 6 张图至 `images/durable-agent-agentcore/`（001~006.png，真实 PNG，最大 215KB，无超限）
+- 公众号解析噪声处理（本次重点）：
+  - 章节标题重复渲染 3~4 次并带 `Cloud Native` 尾缀、裸编号行、标题被拆成 2~3 行——写脚本按「`## 0N` 标题 → 下一个 `###` 之间整段丢弃」规整，4 个章节标题各保留 1 次
+  - `▍小标题` 与 `### ▍小标题` 成对重复 → 合并为单个 `###`
+  - **7 个表格全部丢失 `|` 分隔符**，单元格被拆成独立行 → 按「锚点首格 + 列数」重建为标准 Markdown 表格（场景/常见做法/对象/状态/邮件/状态层次/逻辑职责），并删除重建时产生的重复表头行
+  - 5 处流程图被压成单行 → 还原为 ```text 代码块并按层级缩进（Agent 循环、Commit 提交顺序、模型生成任务、工具两阶段、恢复调度）
+  - 会话记录样例、Task 状态 JSON 示例、Commit 写入清单 → 补回代码块/列表格式
+- 内容摘要：
+  - ① **核心区分**——会话恢复让对话保持连续，Durable 让任务执行保持连续；`send_batch_emails` 是一个调用，内部发了几封对外层循环不可见
+  - ② **恢复对话与恢复执行的契约差异**——前者工具是「接收参数返回结果」的函数，后者必须公开「如何从中断中恢复」，无法靠加保存 messages 的开关完成
+  - ③ **最大的缺口是外部事实与本地记录之间的空隙**——有调用意图无结果只说明「可能执行过」；需业务系统提供幂等标识与原操作查询，框架无法凭空创造外部系统没存的事实
+  - ④ **6 个常见补丁的缺口表**——保存聊天记录/存 messages/自动重启/重试整个 Agent/给模型补一句「上次中断了」/加 async-await，各自缺什么
+  - ⑤ **AgentScope 落地**——六类状态对象（Conversation/Entry/Document/Task/Submission/Commit）；原子提交让记录、文档与任务一起生效（提交后崩溃不产生「没有结果的完成记录」）；Task 六态状态机（pending/running/waiting/sleeping/completing/terminal）；工具 call/execute 两阶段与「可安全重放」由工具作者承诺而非框架自动保证
+  - ⑥ **自定义任务**——把黑盒工具改造成多阶段业务任务，父任务等待是持久关系而非 `Promise.all`，提供 allSettled/failFast 两种汇合策略；五封邮件的恢复表（第 4 封按操作身份核实）
+  - ⑦ **平台层**——AgentCore 五类状态层次（Harness 原生状态/平台执行事实/工具执行事实/工作区与产物/用户可见视图）；三个必须分别表达的进度（调用已受理 / 工具已完成 / 结果已进入上下文）；Brain-Hands 分离让「等待工具」成为可持久表达的状态；Environment 让已保存状态拥有继续执行的条件
+  - ⑧ **三层分工**——框架答「从哪里继续、怎样继续」，平台答「状态保存在哪里、由哪个实例继续」，业务系统答「外部动作是否发生、如何核实」
+- 提炼概念页 `concepts/durable-execution.md`（Durable Execution 概念模型）：核心问题、契约差异表、四项保证、六类状态对象、原子提交顺序、Task 六态、工具两阶段、平台五层状态、三层分工
+- `index.md` 同步：「Agent 工程」分类新增 1 行（sources 原始归档），「工具与技能」分类新增 1 行（concepts 概念页）
+- 无去广告处理需求：原文为技术长文，无产品推广与引流话术
+- 关联既有 `concepts/agentscope-harnessagent-declarative`、`concepts/agentscope-enterprise-platform`、`concepts/agentscope-layering`、`concepts/agentscope-governance`、`concepts/agentscope-managed-agents`、`concepts/harness-engineering`、`patterns/agent-runtime-safety-guardrails`、`sources/agentscope-2.0-harnessagent-os-architecture`、`columns/agentic-engineer/aliyun-agentcore-enterprise-architecture`
+
 ## [2026-10-29] 补齐：视频号历史人物故事赛道——精读摘要 + 概念页（闭合 story-studio 四层结构）
 
 - 起因：检索「视频号历史人物故事」相关素材时发现，`sources/story-studio-video-account-pipeline.md`（2026-10-29 归档）只长出了 source 与 pattern 两层，**缺 summaries 与 concepts**，wiki 四层结构在此断裂；同时该赛道的核心认知散落在三篇文件里，没有一个「一句话可查」的概念入口
