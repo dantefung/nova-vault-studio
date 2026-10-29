@@ -567,3 +567,33 @@ wiki/
 | [pluvio9yte-talking-head-digital-human-action-spec](/md/wiki/sources/pluvio9yte-talking-head-digital-human-action-spec) | 雪踏乌云：不露脸做口播数字人——先让 Agent 拉片写出可量化的「动作说明书」 | X/Twitter |
 | [xitang-ai-workbuddy-libtv-ancient-rap-mv](/md/wiki/sources/xitang-ai-workbuddy-libtv-ancient-rap-mv) | 西堂AI：WorkBuddy + LibTV 让三位古人同台说唱——文、资、视、剪四步与完整歌词/Suno 输入 | X/Twitter |
 | [bainianai-seo-daily-003-webaloha-font-checker-page](/md/wiki/sources/bainianai-seo-daily-003-webaloha-font-checker-page) | 百年AI：SEO 日课 003——一页吃下全站 78% 流量，Web Aloha Font Checker 三次改版还原 | X/Twitter |
+| [hezhiyan7-new-word-site-recap-roundup](/md/wiki/sources/hezhiyan7-new-word-site-recap-roundup) | droidHZ（@hezhiyan7）：梳理最近新词出单的几个复盘——找词、上线、ChatGPT 推荐、优化与出单 | X/Twitter |
+| [hezhiyan7-mrr-3000usd-content-index](/md/wiki/sources/hezhiyan7-mrr-3000usd-content-index) | droidHZ（@hezhiyan7）：月入 3 千刀达成——网站出海每日分享的十类内容索引 | X/Twitter |
+| [xuxuanzhou-72h-5480usd-new-word-site](/md/wiki/sources/xuxuanzhou-72h-5480usd-new-word-site) | 绪轩（@xuxuanzhou）：没投流、没买外链，一个新词站 72 小时 $5,480——从买域名到出单的完整复盘 | X/Twitter |
+| [web30708-30-overseas-income-recaps](/md/wiki/sources/web30708-30-overseas-income-recaps) | HP（@web30708）：从 0 到月入万刀——30 篇出海收入复盘长文合集索引 | X/Twitter |
+| [qianshuixia-14yr-game-dev-overseas-annual-recap](/md/wiki/sources/qianshuixia-14yr-game-dev-overseas-annual-recap) | 浅水虾（@qianshuixia2026）：从大龄失业 8 个月到出海破局——一个 14 年游戏老兵的年度全景复盘 | X/Twitter |
+| [qianshuixia-daily-keyword-review-core-edge](/md/wiki/sources/qianshuixia-daily-keyword-review-core-edge) | 浅水虾（@qianshuixia2026）：虾友连续出单了——被当成精神导师后，聊聊出海的核心竞争力 | X/Twitter |
+| [gefei55-buyi-tool-site-3000usd-pitfalls](/md/wiki/sources/gefei55-buyi-tool-site-3000usd-pitfalls) | 哥飞（@gefei55）：布衣的工具站出海月入 3000 刀——这一年踩过的那些坑（7500 字） | X/Twitter |
+| [tracejie-20-failed-sites-columbus-product-picker](/md/wiki/sources/tracejie-20-failed-sites-columbus-product-picker) | Traceward（@TraceJie）：连扑 20 个 AI 出海站靠自用「选品外挂」翻身——7 天砸出日入千刀 | X/Twitter |
+| [bytec99-saas-overseas-3-week-recap](/md/wiki/sources/bytec99-saas-overseas-3-week-recap) | 阿策（@Bytec99）：大厂后端出海建站 3 周复盘——踩过的 3 个坑与 4 条认知 | X/Twitter |
+| [bytec99-content-plus-overseas-flywheel](/md/wiki/sources/bytec99-content-plus-overseas-flywheel) | 阿策（@Bytec99）：这个月我只赚了 1 刀——副业要把内容、出海和自动化拧成一个系统 | X/Twitter |
+| [miles-mazy-zero-to-one-overseas-guide](/md/wiki/sources/miles-mazy-zero-to-one-overseas-guide) | Miles Ma（@miles_mazy）：出海系列｜从 0 到 1 出海赚美金指南——四条路、建站、收款与利润 | X/Twitter |
+| [bizinfogap-usd-earnings-four-traps](/md/wiki/sources/bizinfogap-usd-earnings-four-traps) | 陈默Jason（@BizInfoGap）：国人赚美金的套路和真实逻辑——四种套路与获客、合规、资金闭环三问 | X/Twitter |
+| [aprilbaby153-ai-short-drama-overseas-60-eps](/md/wiki/sources/aprilbaby153-ai-short-drama-overseas-60-eps) | April（@Aprilbaby153）：一天 60 集？！起底「AI 短剧」出海的捞金秘籍——100 块广告换 200 块充值 | X/Twitter |
+| [loverboyy0321-threads-3000-new-users](/md/wiki/sources/loverboyy0321-threads-3000-new-users) | joy（@loverboyy0321）：靠一篇 threads 爆帖给产品引流近 3000 名新用户——生活 70% 加推广 30% | X/Twitter |
+| [jarvis11x-10usd-ai-video-saas-11-steps](/md/wiki/sources/jarvis11x-10usd-ai-video-saas-11-steps) | Jarvis（@jarvis11x）：AI 编程实战教程（3）——10 美金搭建海外 AI 视频 SaaS 的 11 个步骤 | X/Twitter |
+| [buildingwaves-10k-mrr-skill-not-luck](/md/wiki/sources/buildingwaves-10k-mrr-skill-not-luck) | Kourosh Ghaffari（@BuildingWaves）：$10k MRR 零运气、纯技能——可复制的想法→产品→营销→hustle 四步公式 | X/Twitter |
+| [danielsmidstrup-x-200-days-12-9k-followers-climbx](/md/wiki/sources/danielsmidstrup-x-200-days-12-9k-followers-climbx) | Daniel Smidstrup（@DanielSmidstrup）：200 天从 0 涨到 12.9k 粉丝——$1k MRR 的 ClimbX、$7,001.91 单月收入与靠回复长大 | X/Twitter |
+| [janibangiev-picmim-7-months-1k-mrr](/md/wiki/sources/janibangiev-picmim-7-months-1k-mrr) | Term（@JaniBangiev）：我们花 7 个月才做到 €1,000 MRR——AI 社媒工具 Picmim 的真实过程与 €3,000 只买来 1 个客户 | X/Twitter |
+| [khanhnqc-10-products-first-1k](/md/wiki/sources/khanhnqc-10-products-first-1k) | Khanh Nguyen（@khanhnqc）：10 个真实产品从 $0 到第一个 $1K——只收录叫得出产品名的案例 | X/Twitter |
+| [bibhash-plausible-64-to-1m-arr-no-ads](/md/wiki/sources/bibhash-plausible-64-to-1m-arr-no-ads) | Bibhash Roy（@bibhashroykol）：Plausible 从每月 $64 到每年 $1M，零广告、零联盟分成——五个免费动作与执行顺序 | X/Twitter |
+| [bibhash-zigpoll-stay-or-switch-test](/md/wiki/sources/bibhash-zigpoll-stay-or-switch-test) | Bibhash Roy（@bibhashroykol）：两年 $0，然后每月 $125K——附三步 Stay-or-Switch 书面测试 | X/Twitter |
+| [ernestosoftware-ugc-content-machine-6000-videos](/md/wiki/sources/ernestosoftware-ugc-content-machine-6000-videos) | Ernesto Lopez（@ErnestoSOFTWARE）：发布 6,000 条视频、App 做到 $150k/mo 的内容系统——UGC 内容机器加内容放大器 | X/Twitter |
+| [ghosstty-ai-ugc-creator-dwarf-77645-sales](/md/wiki/sources/ghosstty-ai-ugc-creator-dwarf-77645-sales) | GHOST（@ghosstty_）：我造了一个 AI UGC Creator，做出 $77,645 销售额——爱尔兰中年矮人皮具匠全流水线 | X/Twitter |
+| [onlytapa-ai-grandmother-page-affiliate-7020](/md/wiki/sources/onlytapa-ai-grandmother-page-affiliate-7020) | Tapa（@onlytapa）：这个 AI 非洲奶奶账号每月赚 $7,020——OpenArt 造角色加补剂联盟加 ManyChat 自动私信全拆解 | X/Twitter |
+| [maxaioutreach-4-digital-products-1k-mrr-lessons](/md/wiki/sources/maxaioutreach-4-digital-products-1k-mrr-lessons) | Maxime（@MaxAIoutreach）：我把 4 个数字产品做到 $1K MRR 以上——真正管用的 9 条经验 | X/Twitter |
+| [byysid-tech-ugc-creator-playbook-100k-mrr](/md/wiki/sources/byysid-tech-ugc-creator-playbook-100k-mrr) | Sidney Brant（@Byysid）：Tech UGC 从 1 位创作者到 $100K MRR——按阶段把选择题做对顺序的完整 playbook | X/Twitter |
+| [s-chiriac-ai-directories-42k-in-36-hours](/md/wiki/sources/s-chiriac-ai-directories-42k-in-36-hours) | Sergiu（@s_chiriac）：「Directories Are Dead」？36 小时 $42K 不同意——三个自建目录案例 | X/Twitter |
+| [zonperez1-10-grok-bots-shopify-first-sale](/md/wiki/sources/zonperez1-10-grok-bots-shopify-first-sale) | Zon（@zonperez1）：我搭了一支 10 个 Grok Bots 的团队——广告上线 24 小时就拿到 Shopify 首单 | X/Twitter |
+| [arpitatscale-cold-dms-to-3k-month-inbounds-10-fixes](/md/wiki/sources/arpitatscale-cold-dms-to-3k-month-inbounds-10-fixes) | Arpit（@arpitatscale）：从群发冷 DM 到每月 $3k 自然询盘——我改掉的 10 件事 | X/Twitter |
+| [wickedguro-postiz-2m-arr-saas-not-dead-playbook](/md/wiki/sources/wickedguro-postiz-2m-arr-saas-not-dead-playbook) | Nevo David（@wickedguro）：Postiz 突破 $2M ARR，而所有人都在说 SaaS 已死——从卖软件转向卖结果 | X/Twitter |
