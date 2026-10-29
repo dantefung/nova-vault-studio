@@ -4,6 +4,18 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] ingest: 2 条 X 长文（小红书笔记 Skill 流水线 / Uncle Bob ub-mode 实测）+ 2 条方法论提炼 + 5 项 AI 编程资源
+
+- 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，2 条链接全部抓取成功；配图本地化 30 张，全部低于 450KB
+- 归档与处理（2 篇 sources）：
+  1. `https://x.com/LucasPei181034/status/2115369762670915993` → `sources/lucaspei-ai-xhs-notes-skill-pipeline.md`（205 行，18 图）：1 人内容团队三代工具迭代史——实习生手搓 → 1 个月自研虚拟笔记工具（卖出 2 万多）→ 1–2 天搭的 Claude Skill 接住整条线，2 小时 30 篇，人只剩最后审一眼。
+  2. `https://x.com/longhaiqwe123/status/2115286893663498696` → `sources/longhai-uncle-bob-ub-mode-skill-review.md`（274 行，12 图）：Uncle Bob 的 ub-mode（152 行 SKILL.md）三阶段规则体系 + crapper/dryer/mutator 三个量化门禁原理 + 在真实开源项目 oh-my-x 上的四步治理闭环实测。
+- 方法论提炼（2 篇 patterns）：
+  1. `patterns/skill-over-tool.md` — Skill 优于工具：工具是流水线的一个工位，Skill 是整条流水线的 AI 助手；含落地清单、反模式与人机分工边界。
+  2. `patterns/ub-mode-engineering-rules.md` — ub-mode 工程纪律：三阶段规则全集 + CRAP < 10 / 重复度 < 0.8 / 变异体全 Killed 的判定原理与阈值推论 + 边界风险。
+- 资源导航增补（`ai-programming-resources.md` 共 5 项）：`ub-mode`（Uncle Bob）、`crapper`、`dryer`、`mutator`、`uml-viewer`
+- 去广告与排版：删除裴同学文末「转发到 X 加微信免费领取 Skill」与学员引流话术；龙海文末作者署名保留职业信息、剥离「记得关注我 / 联系方式见主页」导流尾；盘古之白与全角标点全量规范化，4 个新文件 0 排版残留
+
 ## [2026-10-29] ingest: 13 条 X 长文（0 代码独立游戏复盘 / Grok Bot 交接小团队 / AI 自动内链 SEO / 5 个字幕工具 / DeepSeek DSH 部署）+ 4 条方法论提炼
 
 - 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，13 条链接全部抓取成功；配图本地化 27 张，Nenly 的 8 张 1.5MB+ 原图用 sharp 压到 450KB 以内

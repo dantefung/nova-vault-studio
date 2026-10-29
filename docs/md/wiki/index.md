@@ -489,6 +489,8 @@ wiki/
 | [viral-content-monitoring](/md/wiki/patterns/viral-content-monitoring) | 爆款监控工作流：定时扫描对标账号 + 阈值判断 + 自动推送，对接免费模型实现 token 零消耗 | X |
 | [agent-team-handoff-model](/md/wiki/patterns/agent-team-handoff-model) | Agent 团队交接模型：从单 Bot 到会交接的小团队——信任六原则 + 八步落地路径 + 交接契约 | X/Twitter |
 | [zero-code-vibe-coding-game-workflow](/md/wiki/patterns/zero-code-vibe-coding-game-workflow) | 0 代码 Vibe Coding 游戏工作流：AI 干 90% 执行，一句话出包上传，剩下 10% 判断归人 | X/Twitter |
+| [skill-over-tool](/md/wiki/patterns/skill-over-tool) | Skill 优于工具：工具是流水线的一个工位，Skill 是整条流水线的 AI 助手 | X/Twitter |
+| [ub-mode-engineering-rules](/md/wiki/patterns/ub-mode-engineering-rules) | ub-mode 工程纪律：《代码整洁之道》翻译成 Agent 可校验规则 + CRAP/重复度/变异测试三道量化门禁 | X/Twitter |
 
 ### AI 产品与订阅 (AI Products & Subscriptions)
 
@@ -557,3 +559,5 @@ wiki/
 | [songguoxiansen-24000-prompts-migration-guide](/md/wiki/sources/songguoxiansen-24000-prompts-migration-guide) | 松果先森：24000+ 免费提示词迁移教程——批量导出到本地，跨工具通用 | X/Twitter |
 | [bubblu-ordinary-youth-10-core-competencies](/md/wiki/sources/bubblu-ordinary-youth-10-core-competencies) | Bubblu：普通年轻人破局的 10 个核心维度——从 AI 生产力到按月复盘闭环 | X/Twitter |
 | [xiaohuihui-deepseek-dafeiyu-deployment-monetization](/md/wiki/sources/xiaohuihui-deepseek-dafeiyu-deployment-monetization) | 龙克星：DeepSeek「大肥鱼」人性化部署——Windows 本地装 DSH 并接入 QQ/微信/B 站 | X/Twitter |
+| [lucaspei-ai-xhs-notes-skill-pipeline](/md/wiki/sources/lucaspei-ai-xhs-notes-skill-pipeline) | 裴同学：AI 全自动生产小红书笔记 2 小时 30 篇——自研工具被 1 天搭的 Skill 换掉 | X/Twitter |
+| [longhai-uncle-bob-ub-mode-skill-review](/md/wiki/sources/longhai-uncle-bob-ub-mode-skill-review) | 龙海：实测 Uncle Bob 的 ub-mode——152 行 SKILL.md + 三个量化门禁工具的完整拆解 | X/Twitter |
