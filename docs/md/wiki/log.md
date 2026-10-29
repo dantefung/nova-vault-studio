@@ -4,6 +4,21 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] 补齐：视频号历史人物故事赛道——精读摘要 + 概念页（闭合 story-studio 四层结构）
+
+- 起因：检索「视频号历史人物故事」相关素材时发现，`sources/story-studio-video-account-pipeline.md`（2026-10-29 归档）只长出了 source 与 pattern 两层，**缺 summaries 与 concepts**，wiki 四层结构在此断裂；同时该赛道的核心认知散落在三篇文件里，没有一个「一句话可查」的概念入口
+- 新增 `summaries/story-studio-video-account-pipeline.md`（精读摘要，7 条关键洞察 + 6 项疑点边界）：
+  - 赛道数据表——单条爆款 100W+、完播率 35%+、单月涨粉数万、客单 49~88 元、佣金 30%~50%、分成万次播放 20~50 元
+  - 洞察：① 它是少数同时给出流量、转化与完整流程的样本 ② Writing-DNA 的本质是「把爆款语料蒸馏成可执行规则」，且钩子候选制把创作拆成「选型归人、成稿归模型」③ Audio-First 解决画音脱节的真正前提是本地毫秒级转录（Coli）④ 防画风漂移靠 Reference Images 注入 + 首张核验，不是靠提示词 ⑤ 输出可编辑剪映草稿而非成片，是与多数 AI 视频方案的分水岭 ⑥ 转化判据是「不能破坏沉浸感」 ⑦ 作者自陈 Skill ≠ 文案质量
+  - 边界：数据全为作者自述无第三方核验；音色克隆对标账号的合规边界未讨论；拆解爆款逐字稿处于版权灰区；变现部分原帖自陈尚未成文
+- 新增 `concepts/wechat-historical-story-track.md`（概念页，赛道闭环模型）：
+  - **四层适配**：平台（视频号）× 人群（35~55 岁高净值）× 题材（历史/人物故事）× 品类（人物传记与社科书，带货语料 78%），推论是「平台不是发布渠道选择，而是品类决策的一部分」
+  - 内容公式（两套 Writing-DNA + 五类钩子 + 事实核查硬约束）、Audio-First 生产流水线、三套画风适用面、四级变现阶梯（挂车图书 → 滋补品 → 创作者分成 → 私域导流）
+  - 六项已知边界与风险 + 六问可复用判断清单（选题能否 3 秒给出具体可视化反直觉画面、能否用一句话过渡到商品、目标人群是否真在视频号、生图能否接受参考图注入、是否愿意做十版钩子人工筛选、是否具备评论争议性与转发情绪）
+- 交叉引用：新增页面与 `patterns/story-studio-video-pipeline`、`patterns/wechat-video-silver-economy-monetization`、`concepts/ai-content-pipeline`、`concepts/selfmedia-compound-model`、`sources/aaronyi-image-story-video-wizard`、`sources/ai-book-short-video-pipeline` 互链；其中 aaronyi 那篇独立指向「按配音拆分镜生图」，与 Story Studio 收敛，是该赛道的共识做法而非单家偶然设计
+- `index.md` 同步：在「工具与技能」分类新增 2 行（概念页 + 精读摘要）
+- 未新增 sources：本次为纯 LLM 提炼层产出，未引入新外部素材，未新增图片
+
 ## [2026-10-29] ingest: 30 条 X 长文（新词出单复盘群像 / 出海收入复盘索引 / UGC 与 AI 内容流水线 / 独立开发者增长案例）
 
 - 抓取与归档：`python3 scripts/x-pipeline.py fetch` + `images → build → normalize → check _sandbox/manifest2.json`，配图本地化 114 张，单图均低于 450KB，远程图残留 0，悬空 wikilink 0，`check` 与全部 pre-commit hook 通过

@@ -64,6 +64,8 @@ wiki/
 | [codex-app](/md/wiki/concepts/codex-app) | OpenAI 桌面端 AI 工作台，左中右三栏工作现场，Plugin/Connector/Skill/MCP 四扩展 + Computer Use | X Article |
 | [ai-content-pipeline](/md/wiki/concepts/ai-content-pipeline) | AI 内容工厂流水线——用 Agent 串工具把人负责挑选微调，AI 跑完全流程 | X Article |
 | [story-studio-video-pipeline](/md/wiki/patterns/story-studio-video-pipeline) | Audio-First 短视频流水线：先出声音再切分镜，Reference Images 防画风漂移，剪映草稿自动生成 | X/Twitter |
+| [wechat-historical-story-track](/md/wiki/concepts/wechat-historical-story-track) | 视频号历史人物故事赛道：平台×人群×题材×品类四层适配 + 变现阶梯 + 可复用判断清单 | X/Twitter 综合 |
+| [story-studio-video-account-pipeline](/md/wiki/summaries/story-studio-video-account-pipeline) | 《Story Studio》精读：带数据的视频号历史故事赛道样本，含 7 条洞察与 6 项边界 | X/Twitter |
 | [wechat-video-silver-economy-monetization](/md/wiki/patterns/wechat-video-silver-economy-monetization) | 银发向内容的三条变现路径：图书带货（78%）、滋补品、创作者分成与私域导流 | X/Twitter |
 | [pre-publish-compliance-check](/md/wiki/patterns/pre-publish-compliance-check) | 发布前合规预检：把平台审核规则变成带来源与核实日期的检查表，用 case 回流对抗规则变化 | X/Twitter |
 | [xaiwind-jianying-skill-guide](/md/wiki/sources/xaiwind-jianying-skill-guide) | 想风：剪映上手 + jianying-editor-skill 全指南，附能力边界表与六个常见坑 | X/Twitter |
