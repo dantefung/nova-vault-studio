@@ -43,6 +43,8 @@ date: "2026-05-05"
 - [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) — 写作风格蒸馏器 Agent Skill（前文字记者 Lieflat 出品，小红书 REDSkill 榜单前三）。基于语言学量化统计，把目标对标文章的词汇密度、句法节奏、论证骨架拆解为可复制的规则层，让 AI 逐层对照写作，彻底复刻任意写作风格并去除 AI 味
 - [SeeCut](https://github.com/YeJe-cpu/SeeCut) — 开源自媒体网感精剪管线（Leaf Yeah! 出品，PolyForm 非商业）。四大设计：Gemini 原生看懂视频挑刺、左右盲测对比循环（最多 3 版收敛）、截真图替代假代码界面、露脸与否根据「对你说」还是「给你看」决策，自动出剪映分层草稿工程
 - [open-topic-radar](https://github.com/aaronyi97/open-topic-radar) — 自媒体选题雷达开源项目（大雷出品）。先去海外信息源（X/Product Hunt/GitHub/Reddit）扫描升温事件，再回中文市场（小红书/B站/抖音）检验覆盖程度，识别「国外已热、国内未做烂」的生态位选题
+- [video-talkcraft](https://github.com/Vincentwei1021/video-talkcraft) — 开源 AI 解说视频生成项目。把**口播稿 + 配音**直接生成动态解说视频，适合产品测评、知识讲解、AI 工具介绍、企业宣传与课程视频；与 video-shotcraft 组合可搭出自动生成产品宣传片的 AI 视频 Agent
+- [ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) — 1439 张 AI 人像姿势参考图库（中文版，开源）。支持「改成这个姿势」式指令调用，免费、商用与二次编辑均允许，解决 AI 生成人像时姿势单一、构图缺参考的问题；[在线浏览](https://ai-pose-gallery.anhao.app/)
 
 ### 热点监控
 
@@ -154,6 +156,7 @@ date: "2026-05-05"
 - [handraw-style](https://github.com/yang0/handraw-style) — **2.7K Stars**，MIT 许可。手绘风格编号画廊与双语提示词 Skill：把 274 种手绘插画风格、117 种排版图型（19 种社媒卡 / 30 种数据信息图 / 68 种漫画分镜）全部编号化，选个编号就输出经过实测的中英双语生图提示词，直接复制到 Midjourney / DALL-E 3 / Stable Diffusion / Flux 出图。治两个痛点：画风描述模糊导致每次生成都漂移、版式构图单调排不出社媒长图。双模式随时切换——纯图模式让主题决定画面，图文模式让文字参与构图（适合金句海报）。生图时按「作者名+风格名 → 正向核心风格特征 → 传编号单图」三级降级判断要不要附参考图，避免模型把参考图里的主体和构图一起锁死；`001` 这类能靠名称激活的风格不传图。安装：把仓库地址发给 Codex 自动装；风格图鉴 [STYLES.md](https://github.com/yang0/handraw-style/blob/main/STYLES.md)、排版图鉴 [LAYOUTS.md](https://github.com/yang0/handraw-style/blob/main/LAYOUTS.md)，本地可打开 `skills/handdraw-style-prompter/gallery/index.html` 离线检索放大
 - [sweety-handdraw-video](https://github.com/VastFuture/sweety-handdraw-video) — 从主题或文章制作完整手绘讲解视频：Agent 规划内容、设计分镜、生成插画，本地工具逐笔描线填色、声画对齐与 MP4 导出。内置 AI 导演自动匹配分镜、6 款高精度画笔（马克笔/彩铅/毛笔/钢笔等）、VoxCPM 2 拟真配音。素材完全解耦，字幕/布局修改只需重渲染不重走全部流程。当前 Codex 环境实测通过，开源免费维护
 - [白嫖警告：这个图表 Skill 太猛了，正在悄悄拉高所有人的审美标准](./chart-skill-recommend.md) — 推荐一款图表 Skill，支持架构图/流程图/时序图等多种类型，适合独立开发者做产品界面
+- [Impeccable](https://github.com/pbakaus/impeccable) — **91K Stars**，开源设计 Skill，专治 AI 生成界面的「AI 味」。五个子命令各司其职：`layout` 调间距与排版、`typeset` 改字体与层级、`distill` 砍掉多余元素、`polish` 上线前最后打磨、`critique` 打分挑毛病。不懂设计也能让 AI 说清哪里要改
 
 ---
 
@@ -262,6 +265,13 @@ date: "2026-05-05"
 - [OpenSEO](https://github.com/every-app/open-seo) — 开源 SEO 工具集，TypeScript + MIT。涵盖关键词研究、排名追踪、网站审计，需要配置数据 API
 - [SEOMachine](https://github.com/TheCraigHewitt/seomachine) — 把 SEO 内容创作流程放进 Claude Code，Python + MIT。适合批量规划和优化文章
 - [awesome-open-source-seo](https://github.com/ZensInk/awesome-open-source-seo) — 专门收集开源 SEO 工具的清单仓库，Python + CC0-1.0。爬虫、关键词、AI 搜索优化都有
+- [saas-seo-playbook](https://github.com/JeffLi1993/saas-seo-playbook) — 《SaaS SEO Playbook》开源工程书（子木）。连更四篇覆盖站内基建、多语言、页面结构与 seo audit Skill；要点是 AI Coding 时代确定性问题好解，难的是「你不知道还有你自己不知道的东西」，所以基建必须有规则化的 Skill 兜底。[在线阅读](https://bysocket.com/saas-seo-playbook/)
+- [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) — 开源字幕编辑器（Windows / macOS / Linux）。改文字、调时间轴、转格式，配合语音识别引擎从音频生成字幕；普通创作者想少碰命令行的首选图形界面入口
+- [video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) — 开源本地 OCR 字幕提取工具。手里只有视频、没有字幕文件时，识别画面上的文字导出 SRT / TXT；小字、遮挡、花字与复杂背景需抽查
+- [video-subtitle-remover](https://github.com/YaoFANGUK/video-subtitle-remover) — 开源 AI 硬字幕去除工具。识别字幕区域后用 AI 修补被文字覆盖的位置，适合给自己的旧视频换字幕；完全本地运行不需第三方处理 API，但吃本机算力
+- [Translate-Subtitle-File（译幕 Zimoo）](https://github.com/1c7/Translate-Subtitle-File) — 开源字幕文件翻译工具，支持 SRT / ASS / VTT，输出译文或双语字幕。有网页与桌面入口 [zimoo.app](https://zimoo.app/)；注意翻译服务费用需单独确认，不等于全程免费
+- [auto-subtitle](https://github.com/m1guelpf/auto-subtitle) — 开源命令行字幕工具。用 Whisper 识别视频语音，再用 ffmpeg 把字幕烧进视频，也支持只输出 SRT 供先校对后合成；需自备 Python、ffmpeg 与模型
+- [Hi3D V1.0](https://github.com/hi3d-official/Hi3Dv1.0) — 国产开源 AI 3D 模型（前身 Sparc3D），由 200 万真实生产资产训练，细节还原与多视角保真突出，提供 MCP 接入方式。典型用法：GPT-Image-2.5 出多视角参考图 → Hi3D MCP 秒级生成带 PBR 材质的高精 3D Mesh → Three.js 装配场景（**关键避坑：AI 生成的原生模型几十万面，必须让 MCP 加入 LOD 网格简化并压成 Draco 格式的 glb**，否则网页必卡）
 
 ---
 
@@ -330,6 +340,9 @@ date: "2026-05-05"
 - [Alioth](https://github.com/CosmicTools9/Alioth) — **9 Stars**，CosmicTools 开发的 PostgreSQL 表继承数据模型，基于群论与交换本体论，将经济行为形式化为四维正交空间 `(Scene, Factor, Function, State)` 内的对称操作，为企业数据管理提供数学严格的基础；MIT 许可证
   - [dsh-alioth](https://github.com/CosmicTools9/dsh-alioth) — **2 Stars**，为 DeepSeek Harness（dsh）开发的 Alioth 应用创建框架，对话式驱动企业应用生成器，用户描述应用后插件组在 Alioth 实体注册表中注册业务实体，通过确定性程序化管道发出 AliothStudio 可导入的产物（`app.json`/`module.json`/extensions/prototype/Sources 骨架），LLM 仅提供结构化参数和语义决策，从不直接生成产物文本；Apache-2.0 许可证
 - [dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll) — **810 Stars**，DeepSeek Harness（dsh）插件：每天替你刷一轮 B站。按关键词搜近几天视频，**逐条读字幕原文再判断**（不看摘要），没字幕的演示类视频先从 B站故事板抽帧看画面，读不到才跳过；写 Markdown 日报到 `out/<日期>.md`，每条含「为什么值得」+「它自己的一句话」，段首固定写成 `### BV号` 便于统计条数；开着「自动评论」时每轮发一条评论 @ 你。还支持按 DeepSeek 优惠时段自动跑以省 token；需 dsh ≥ `0.1.7-rc.1`（版本不满足内核会**静默跳过**该插件，不报错）；MIT 许可证
+- [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness) — DeepSeek 官方的 Agent Harness：模型负责生成，DSH 让模型调用工具、执行任务，插件负责连接各平台。Windows 本地部署基线为 Node.js 24，用 `npm.cmd install --global @deepseek-ai/dsh` 装固定命令入口（`.cmd` 后缀可避开同名 PowerShell 脚本的执行策略问题，**不要为此改整台电脑的执行策略**）；配合 `dsh-im` 接 QQ / 微信机器人、`dsh-bili-scroll` 刷 B 站。踩坑提示：腾讯微信渠道文档未声明支持普通微信群，扫码成功不等于能进群；账号准入问题换人设或重装插件解决不了
+- [Higgsfield Playable Ads](https://higgsfield.ai/playable) — 一张图片就能生成完整的 3D 互动游戏与「刷到就能玩」的试玩广告，用户不用下载先玩上再说。做 App、做品牌的可把产品包装成小游戏导出投放到主流广告平台
+- [Sunra API](https://sunra.ai/) — 多模态模型聚合平台（[文档](https://docs.sunra.ai/)）。直接按 ByteDance、Kling、OpenAI 等厂商**官方原厂价格**按量结算，把第三方聚合平台 40%–100% 的中间商溢价打掉；企业用量最高立减 40%；主流图像、视频、音频与 3D 模型一个接口统一账单。做 AI 视频或套壳应用、单客经济模型极度脆弱时，这是成本结构的直接解法
 - [system-design-notes](https://github.com/liquidslr/system-design-notes) — 《System Design Interview - An Insider's Guide》读书笔记，13.1k stars。28 章，从 Scale、Rate Limiter、Consistent Hashing 到 Stock Exchange，覆盖系统设计面试全谱系，同时附 Rate Limiting/Circuit Breaker/Key-Value Store/Message Queue 等专题参考资料
 - [ai-architecture](https://github.com/myinvestpilot/ai-architecture) — 业余时间用 AI vibe coding 数年，28 个仓库、53.8 万行代码、3000+ 用户。系列文章：AI 原生系统设计（DSL）、多 Agent 架构、Agent 驱动开发流程、一人公司云原生架构。适合想了解真实规模 Vibe Coding 实践的开发者
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) — Multi-Agents LLM 金融交易框架，78.6k stars，分析师/研究员/交易员/风控多 Agent 协作（仅供研究，不构成投资建议）

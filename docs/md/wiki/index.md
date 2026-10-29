@@ -487,6 +487,8 @@ wiki/
 | [error-notebook-pattern](/md/wiki/patterns/error-notebook-pattern) | 错题本模式：agent 每晚复盘 commit，同一条教训出现3天即升格为硬规则，magpie 发版频率因此从168→15个/天 | X |
 | [agent-router-table](/md/wiki/patterns/agent-router-table) | 路由表模式：CLAUDE.md 只放路由不放规则，agent 自行查表获取上下文，规则可独立演进 | X |
 | [viral-content-monitoring](/md/wiki/patterns/viral-content-monitoring) | 爆款监控工作流：定时扫描对标账号 + 阈值判断 + 自动推送，对接免费模型实现 token 零消耗 | X |
+| [agent-team-handoff-model](/md/wiki/patterns/agent-team-handoff-model) | Agent 团队交接模型：从单 Bot 到会交接的小团队——信任六原则 + 八步落地路径 + 交接契约 | X/Twitter |
+| [zero-code-vibe-coding-game-workflow](/md/wiki/patterns/zero-code-vibe-coding-game-workflow) | 0 代码 Vibe Coding 游戏工作流：AI 干 90% 执行，一句话出包上传，剩下 10% 判断归人 | X/Twitter |
 
 ### AI 产品与订阅 (AI Products & Subscriptions)
 
@@ -501,6 +503,8 @@ wiki/
 | [xhs-product-selection](/md/wiki/concepts/xhs-product-selection) | 小红书选品七看方法论：爆品值+商品价值双指标 + 监控软件开源实现 | X |
 | [dongqing-xhs-product-selection](/md/wiki/sources/dongqing-xhs-product-selection) | 冬青：小红书选品方法论与监控软件开发指南原始归档，附 8 张选品表与监控界面截图 | X/Twitter |
 | [distributional-convergence](/md/wiki/concepts/distributional-convergence) | 分布收敛：AI 无具体约束时趋向训练数据最常见方案，解释 AI 味和蓝紫色前端现象 | X |
+| [0xjoooe-grokbot-handbook-team-collaboration](/md/wiki/sources/0xjoooe-grokbot-handbook-team-collaboration) | Joooe：Grok Bot 手把手——从 1 个 bot 到会交接的小团队，附八步可复制范本 | X/Twitter |
+| [rongzhenghe-grokbot-multi-assistant-life-system](/md/wiki/sources/rongzhenghe-grokbot-multi-assistant-life-system) | Horizon：把生活和工作拆成一堆 bots——完全自动化，我只过目 | X/Twitter |
 
 ### 出海工具与方法（Global Expansion & Overseas Tools）
 
@@ -513,6 +517,9 @@ wiki/
 | [open-source-seo-tooling](/md/wiki/concepts/open-source-seo-tooling) | 开源 SEO 工具的自建边界：工具逻辑可开源替代，数据资产不行；6 个工具的能力映射与选型决策 | X |
 | [open-source-seo-tooling-list](/md/wiki/sources/open-source-seo-tooling-list) | 6 个开源免费 SEO 工具原始归档：SEOnaut / SoPilot / SerpBear / OpenSEO / SEOMachine / Awesome Open Source SEO | X |
 | [chuhaiqu-social-distribution-playbook](/md/wiki/sources/chuhaiqu-social-distribution-playbook) | 出海去孵化器：做产品容易，怎么通过推特、油管、短视频把产品卖出去？ | X/Twitter |
+| [ai-automated-internal-link-seo](/md/wiki/patterns/ai-automated-internal-link-seo) | AI 自动内链 SEO：拿竞品前三当对照样本，阈值自算、归因只认证据、先清单后自动 | X/Twitter |
+| [coderjefflee-saas-seo-infrastructure](/md/wiki/sources/coderjefflee-saas-seo-infrastructure) | 子木：《SaaS SEO Playbook》第三部分——站内基建，让 Google 能看见、看懂、收录 | X/Twitter |
+| [aichuhai-ai-automated-internal-links-seo](/md/wiki/sources/aichuhai-ai-automated-internal-links-seo) | 爱出海：AI 自动加内链做 SEO 原帖归档，附 Claude 自动内链英文工程书 | X/Twitter |
 
 ### AI 变现与套利（AI Monetization & Arbitrage）
 
@@ -524,6 +531,8 @@ wiki/
 | [ai-robert-reddit-idea-validation](/md/wiki/sources/ai-robert-reddit-idea-validation) | AI Robert：出海野路子——Reddit 搜「I would pay for」+ Semrush 验证需求，30 分钟一轮高信号验证法 | X/Twitter |
 | [david-ai-game-publishing-platforms](/md/wiki/sources/david-ai-game-publishing-platforms) | 大卫：4 款 AI 小游戏收入 10 万！国内外 7 个小游戏发行入口、7 步开发路径与 4 大变现避坑 | X/Twitter |
 | [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
+| [cross-platform-information-arbitrage](/md/wiki/patterns/cross-platform-information-arbitrage) | 跨平台信息差中介：不搬本体，只卖信息与配置——五个可复制样本与共性公式 | X/Twitter |
+| [hyhongyu-inside-outside-information-arbitrage-09](/md/wiki/sources/hyhongyu-inside-outside-information-arbitrage-09) | 红鱼：墙内外的赚钱信息差（第九期）——插件教程、Notion 模板、Newsletter 摘要等五个样本 | X/Twitter |
 
 ### AI 工程化（AI Engineering）
 
@@ -535,3 +544,16 @@ wiki/
 | [anthropic-unix-agent](/md/wiki/sources/anthropic-unix-agent-collaboration.md) | Anthropic 多 Agent 架构演进：Unix 管道哲学、Micro-Agent、确定性流水线解耦 | 公众号 |
 | [ai-coding-three-pillar-system](/md/wiki/patterns/ai-coding-three-pillar-system) | AI 编码三支柱：流程让 AI 可控、知识库让 AI 能积累、工具让 AI 接触真实环境；注意力预算是稀缺资源 | 公众号 |
 | [x-flow-ai-coding-engineering](/md/wiki/sources/x-flow-ai-coding-engineering) | x-flow 实践原始归档：17 阶段流水线、三道闸防漂移、三层知识晋升淘汰与通用工具+手册 | 公众号 |
+
+### 内容与工具工作流（Content & Tooling Workflows）
+
+| 页面 | 一句话 | 来源 |
+|------|--------|------|
+| [nenly-zero-code-100k-indie-game-vibe-coding](/md/wiki/sources/nenly-zero-code-100k-indie-game-vibe-coding) | Nenly：万字复盘——0 代码基础如何用 AI 做出 10 万人玩过的独立游戏（4/4 篇） | X/Twitter |
+| [haosen-5-video-subtitle-tools](/md/wiki/sources/haosen-5-video-subtitle-tools) | Haosen：视频字幕不想手敲？这 5 个工具按用途选——转写/提取/去硬字幕/翻译/批量 | X/Twitter |
+| [gkxspace-impeccable-3d-game-playable-ads](/md/wiki/sources/gkxspace-impeccable-3d-game-playable-ads) | 余温：四个 AI 神器合集——Impeccable 去 AI 味、Hi3D 出 3D、Higgsfield 试玩广告、Sunra 掀中间商 | X/Twitter |
+| [awe0-video-talkcraft-ai-promo-pipeline](/md/wiki/sources/awe0-video-talkcraft-ai-promo-pipeline) | awe0：video-talkcraft 与 video-shotcraft 组合出自动生成产品宣传片的 AI 视频 Agent | X/Twitter |
+| [anhao-1439-ai-beauty-poses-database](/md/wiki/sources/anhao-1439-ai-beauty-poses-database) | 安好：1439 个 AI 美女姿势参考图库开源——中文版、可商用、可二次编辑 | X/Twitter |
+| [songguoxiansen-24000-prompts-migration-guide](/md/wiki/sources/songguoxiansen-24000-prompts-migration-guide) | 松果先森：24000+ 免费提示词迁移教程——批量导出到本地，跨工具通用 | X/Twitter |
+| [bubblu-ordinary-youth-10-core-competencies](/md/wiki/sources/bubblu-ordinary-youth-10-core-competencies) | Bubblu：普通年轻人破局的 10 个核心维度——从 AI 生产力到按月复盘闭环 | X/Twitter |
+| [xiaohuihui-deepseek-dafeiyu-deployment-monetization](/md/wiki/sources/xiaohuihui-deepseek-dafeiyu-deployment-monetization) | 龙克星：DeepSeek「大肥鱼」人性化部署——Windows 本地装 DSH 并接入 QQ/微信/B 站 | X/Twitter |

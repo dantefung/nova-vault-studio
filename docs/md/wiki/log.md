@@ -4,6 +4,32 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] ingest: 13 条 X 长文（0 代码独立游戏复盘 / Grok Bot 交接小团队 / AI 自动内链 SEO / 5 个字幕工具 / DeepSeek DSH 部署）+ 4 条方法论提炼
+
+- 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，13 条链接全部抓取成功；配图本地化 27 张，Nenly 的 8 张 1.5MB+ 原图用 sharp 压到 450KB 以内
+- 归档与处理（13 篇 sources）：
+  1. `https://x.com/Nenlyonis/status/2115460457159065633` → `sources/nenly-zero-code-100k-indie-game-vibe-coding.md`（182 行，14 图）：0 代码基础 3 个月做出 Steam 游戏，20 万玩家、97% 好评；含 Steamworks 出包、Browser-use 填成就、SteamStats 数据、飞书多维表格反馈闭环
+  2. `https://x.com/0xJoooe/status/2115361762182869379` → `sources/0xjoooe-grokbot-handbook-team-collaboration.md`（284 行，2 图）：Grok Bot 从 1 个到会交接的小团队八步手把手，附信任六原则与软硬规则
+  3. `https://x.com/rongzhenghe/status/2115396826455282090` → `sources/rongzhenghe-grokbot-multi-assistant-life-system.md`（114 行，4 图）：一个人多 Bot 系统的真实运行图景，「完全自动化，我只过目」
+  4. `https://x.com/ai_chuhai/status/2115238394452115752` → `sources/aichuhai-ai-automated-internal-links-seo.md`（81 行）：AI 自动内链做 SEO，含原帖英文工程书全文
+  5. `https://x.com/CoderJeffLee/status/2115386721391333769` → `sources/coderjefflee-saas-seo-infrastructure.md`（34 行，1 图）：《SaaS SEO Playbook》第三部分站内基建
+  6. `https://x.com/Haosen9527/status/2115294927617941861` → `sources/haosen-5-video-subtitle-tools.md`（84 行，1 图）：5 个字幕工具按用途选型 + 选路线决策表
+  7. `https://x.com/gkxspace/status/2115408503133307157` → `sources/gkxspace-impeccable-3d-game-playable-ads.md`（96 行）：Impeccable 去 AI 味 / Hi3D 出 3D / Higgsfield 试玩广告 / Sunra 掀中间商
+  8. `https://x.com/Xiaohuihui_BTC/status/2114359919327506579` → `sources/xiaohuihui-deepseek-dafeiyu-deployment-monetization.md`（436 行，1 图）：DeepSeek DSH 七步部署并接 QQ / 微信 / B 站
+  9. `https://x.com/awe0_io/status/2115276620265320847` → `sources/awe0-video-talkcraft-ai-promo-pipeline.md`（47 行）：video-talkcraft + video-shotcraft 组合出 AI 宣传片 Agent
+  10. `https://x.com/anhao_ai/status/2115070903386296398` → `sources/anhao-1439-ai-beauty-poses-database.md`（47 行，1 图）：1439 个 AI 姿势参考图库开源
+  11. `https://x.com/songguoxiansen/status/2115447135588261945` → `sources/songguoxiansen-24000-prompts-migration-guide.md`（30 行，1 图）：24000+ 免费提示词迁移教程
+  12. `https://x.com/HYhongyu8/status/2115347571233423622` → `sources/hyhongyu-inside-outside-information-arbitrage-09.md`（39 行）：墙内外赚钱信息差第九期，五个跨平台中介样本
+  13. `https://x.com/Bubbluxm/status/2115265054413295668` → `sources/bubblu-ordinary-youth-10-core-competencies.md`（51 行）：普通年轻人破局的 10 个核心维度
+- 方法论提炼（4 篇 patterns）：
+  1. `patterns/agent-team-handoff-model.md` — Agent 团队交接模型：信任六原则 + 八步落地路径 + 交接契约 + 边界风险
+  2. `patterns/zero-code-vibe-coding-game-workflow.md` — 0 代码 Vibe Coding 游戏工作流：AI 干 90% 执行，剩下的 10% 判断归人
+  3. `patterns/ai-automated-internal-link-seo.md` — AI 自动内链 SEO：竞品前三当对照样本，阈值自算、归因只认证据、先清单后自动
+  4. `patterns/cross-platform-information-arbitrage.md` — 跨平台信息差中介：不搬本体，只卖信息与配置
+- 资源导航增补（`ai-programming-resources.md` 共 12 项）：`video-talkcraft`、`ai-pose-gallery-zh`、`Impeccable`、`saas-seo-playbook`、`Subtitle Edit`、`video-subtitle-extractor`、`video-subtitle-remover`、`Translate-Subtitle-File（译幕）`、`auto-subtitle`、`Hi3D V1.0`、`DeepSeek Harness（DSH）`、`Higgsfield Playable Ads`、`Sunra API`
+- 去广告与排版：删除各篇末尾关注、点赞、私信、置顶引导话术；Thread 外壳与重复标题剥离；推文行间补段、`N、` / `1⃣` / `▸` 统一转 Markdown 列表；盘古之白中英文空格与全角标点全量规范化，17 个新文件 0 排版残留
+- 内容缺口标注：Nenly 长文原文为 4/4 系列仅展开第 8、9 章，已在正文加 `::: info` 说明第 1–7 章位于前 3 篇
+
 ## [2026-10-29] ingest: 10 篇 X 精品长文（自媒体变现/选题雷达/获客方法论/AI剪辑/婚礼视频定制/TrustMRR出海大盘）+ 6 项 AI 编程资源
 
 - 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，全量抓取并本地化配图（共 53 张图，真实格式无超限）
