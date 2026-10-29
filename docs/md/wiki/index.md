@@ -491,6 +491,7 @@ wiki/
 | [zero-code-vibe-coding-game-workflow](/md/wiki/patterns/zero-code-vibe-coding-game-workflow) | 0 代码 Vibe Coding 游戏工作流：AI 干 90% 执行，一句话出包上传，剩下 10% 判断归人 | X/Twitter |
 | [skill-over-tool](/md/wiki/patterns/skill-over-tool) | Skill 优于工具：工具是流水线的一个工位，Skill 是整条流水线的 AI 助手 | X/Twitter |
 | [ub-mode-engineering-rules](/md/wiki/patterns/ub-mode-engineering-rules) | ub-mode 工程纪律：《代码整洁之道》翻译成 Agent 可校验规则 + CRAP/重复度/变异测试三道量化门禁 | X/Twitter |
+| [adsense-publisher-id-site-cluster-discovery](/md/wiki/patterns/adsense-publisher-id-site-cluster-discovery) | 发布商 ID 反查站群：用 ads.txt 摸清一个站背后还有哪些站，四步 OSINT | X/Twitter |
 
 ### AI 产品与订阅 (AI Products & Subscriptions)
 
@@ -561,3 +562,4 @@ wiki/
 | [xiaohuihui-deepseek-dafeiyu-deployment-monetization](/md/wiki/sources/xiaohuihui-deepseek-dafeiyu-deployment-monetization) | 龙克星：DeepSeek「大肥鱼」人性化部署——Windows 本地装 DSH 并接入 QQ/微信/B 站 | X/Twitter |
 | [lucaspei-ai-xhs-notes-skill-pipeline](/md/wiki/sources/lucaspei-ai-xhs-notes-skill-pipeline) | 裴同学：AI 全自动生产小红书笔记 2 小时 30 篇——自研工具被 1 天搭的 Skill 换掉 | X/Twitter |
 | [longhai-uncle-bob-ub-mode-skill-review](/md/wiki/sources/longhai-uncle-bob-ub-mode-skill-review) | 龙海：实测 Uncle Bob 的 ub-mode——152 行 SKILL.md + 三个量化门禁工具的完整拆解 | X/Twitter |
+| [victor-adsense-publisher-id-site-cluster-discovery](/md/wiki/sources/victor-adsense-publisher-id-site-cluster-discovery) | Victor 在西雅图：用 AdSense 发布商 ID 反查站群——四步摸清站长手里还有哪些站 | X/Twitter |

@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] ingest: 1 条 X 长文（AdSense 发布商 ID 反查站群 OSINT）+ 1 条方法论提炼
+
+- 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，纯文本长文无配图
+- 归档与处理：
+  1. `https://x.com/victor_UWer/status/2115383285446832431` → `sources/victor-adsense-publisher-id-site-cluster-discovery.md`（36 行）：四步 OSINT——目标域名加 `/ads.txt` 取 `google.com` 行的 `pub-` 后 16 位发布商 ID → PublicWWW 反查源码含同一 ID 的网站 → Similarweb 比流量找主攻方向；作者提醒 ID 相同只说明同一收款账号，也可能是代运营。
+- 方法论提炼：
+  1. `patterns/adsense-publisher-id-site-cluster-discovery.md` — 补充了原理（ads.txt 记录格式与 IAB 行业标准背景）、边界风险表（ID 相同 ≠ 同一人、ads.txt 可能不公开、PublicWWW 付费、Similarweb 只给估算、单 ID 只覆盖一个收款账户）、以及与竞品调研四步法的分工（单站解剖 vs 站群维度）。
+
 ## [2026-10-29] ingest: 2 条 X 长文（小红书笔记 Skill 流水线 / Uncle Bob ub-mode 实测）+ 2 条方法论提炼 + 5 项 AI 编程资源
 
 - 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，2 条链接全部抓取成功；配图本地化 30 张，全部低于 450KB
