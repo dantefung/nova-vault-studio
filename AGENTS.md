@@ -753,6 +753,34 @@ const pdfUrl = new URL('./{书名}.pdf', import.meta.url).href
 
 ---
 
+## X 长文归档流水线
+
+X / Twitter 长文的采集归档有现成脚本，**不要重写**：
+
+```bash
+# 1) 抓取推文到 x-to-markdown/
+python3 scripts/x-pipeline.py fetch "https://x.com/user/status/123" "https://x.com/user/status/456"
+
+# 2) 写 manifest（只放人工判断部分），再跑完整流水线
+python3 scripts/x-pipeline.py all _sandbox/manifest.json
+```
+
+`all` 依次执行 **images → build → normalize → check**，也可单独调用：
+
+| 子命令 | 作用 |
+|---|---|
+| `fetch <url>...` | 调 `baoyu-danger-x-to-markdown` 抓取 |
+| `images <manifest>` | 下载配图到 `docs/md/wiki/images/<slug>/`，单图 > 450KB 自动用 sharp 压缩 |
+| `build <manifest>` | 构建 `docs/md/wiki/sources/<slug>.md`（Thread 外壳剥离、标题层级、列表规范化、配图本地化、去导流话术） |
+| `normalize <manifest>` | 盘古之白 + 全角标点 + 配对引号（底层是 `scripts/normalize-typo.py`） |
+| `check <manifest>` | 校验悬空 wikilink、远程图残留、图片引用存在性 |
+
+manifest 每项字段：`slug` / `src` / `out` / `title` / `author` / `url` / `desc` / `related`，可选 `links`（短链还原）、`sections`（多段 Thread 小标题）、`insert_before`、`note`、`remove_lines`、`replace_lines`。
+
+> `x-to-markdown/` 与 manifest 都是临时产物，**完成后连同 `_sandbox/` 一起清理**；`scripts/x-pipeline.py` 与 `scripts/normalize-typo.py` 是常驻工具，不要删。
+
+---
+
 ## 临时目录
 
 临时工作文件统一放在项目根目录 `_sandbox/` 下，完成后清理。不放在 `/tmp/`。

@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-10-29] ingest: 4 条 X 长文（GoMotion 纪录片产品复盘 / 数字人动作说明书 / WorkBuddy+LibTV 古人说唱 / Web Aloha 单页流量反查）
+
+- 抓取与归档：`python3 scripts/x-pipeline.py fetch` + `all _sandbox/manifest.json`（images → build → normalize → check），配图本地化 40 张，全部低于 450KB，远程图残留 0，校验通过
+- 归档与处理（4 篇 sources）：
+  1. `https://x.com/jasonzeyuan818/status/2115318495495827639` → `sources/jasonzeyuan818-gomotion-youtube-documentary-mrr.md`（49 行，2 图）：GoMotion 7 月成立、MRR 64,428 美元、1,376 个活跃订阅、未融资；定价 27/59/107 美元三档，Creator 档一条成片约 2.25 美元；MVP 一周能跑通，真正的坑是版权素材匹配与长视频渲染排队成本。
+  2. `https://x.com/Pluvio9yte/status/2115420020973199431` → `sources/pluvio9yte-talking-head-digital-human-action-spec.md`（150 行，5 图）：数字人「假」出在动作描述——挑 3 位风格错开的博主只学动作节奏，让 Agent 拉片产出可量化的「动作说明书」并单列「禁止动作」；接缝靠两秒 B-roll 或微特写盖住而不是死磕抽卡；附 awesome-talking-head-skills 风格蒸馏仓库。
+  3. `https://x.com/xitang_ai/status/2115398432580042876` → `sources/xitang-ai-workbuddy-libtv-ancient-rap-mv.md`（285 行，17 图）：古人同台说唱按「文、资、视、剪」四步推进——Suno 的 Lyrics 只放歌词与分段标签、声线编曲放 Styles；三人同台参考图要先定构图否则近景割裂；Seedance 2.5 样片模式先 480P 验口型再放大 1080P；换整首音乐后优先保住满意片段而非重生成。
+  4. `https://x.com/bainianAI/status/2115285071347454403` → `sources/bainianai-seo-daily-003-webaloha-font-checker-page.md`（173 行，16 图）：从 checker 词根追到 webaloha.co，95 个工具里 Font Checker 单页占全站 78.2% 流量；Ahrefs Page Inspect 还原三次改版（7 月底补技术内容与专题内链、8 月初加工具预览并在已有排名的 URL 上扩 font detector/finder/identifier 语义、9 月底转商业承接），外链 7—8 月为 0、201 条内链里 183 条早已存在——拐点前发生的是对一张已上线工具页的连续两次深入改造。
+- 去广告与排版：删除雪踏乌云文末 Renoise 万圣节折扣段与带 `utm_source` 的推广链接、「评论区附模板」和 Motion Studio 导流句；剥离百年 AI 文末「公众号版，方便收藏，欢迎关注」Thread 尾段；被扁平化的三处引述还原结构（Agent 任务提示词的列表层级、页面 H2 原文、两处歌词引用），完整歌词与 Suno 输入收进代码围栏便于复制；全角标点与中英文空格补干净化
+- 索引更新：`wiki/index.md`「工具与技能」表新增 4 行
+
 ## [2026-10-29] ingest: 1 条 X 长文（AdSense 发布商 ID 反查站群 OSINT）+ 1 条方法论提炼
 
 - 抓取脚本：`bun /home/fenghaolin/.agents/skills/baoyu-danger-x-to-markdown/scripts/main.ts`，纯文本长文无配图

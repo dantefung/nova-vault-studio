@@ -563,3 +563,7 @@ wiki/
 | [lucaspei-ai-xhs-notes-skill-pipeline](/md/wiki/sources/lucaspei-ai-xhs-notes-skill-pipeline) | 裴同学：AI 全自动生产小红书笔记 2 小时 30 篇——自研工具被 1 天搭的 Skill 换掉 | X/Twitter |
 | [longhai-uncle-bob-ub-mode-skill-review](/md/wiki/sources/longhai-uncle-bob-ub-mode-skill-review) | 龙海：实测 Uncle Bob 的 ub-mode——152 行 SKILL.md + 三个量化门禁工具的完整拆解 | X/Twitter |
 | [victor-adsense-publisher-id-site-cluster-discovery](/md/wiki/sources/victor-adsense-publisher-id-site-cluster-discovery) | Victor 在西雅图：用 AdSense 发布商 ID 反查站群——四步摸清站长手里还有哪些站 | X/Twitter |
+| [jasonzeyuan818-gomotion-youtube-documentary-mrr](/md/wiki/sources/jasonzeyuan818-gomotion-youtube-documentary-mrr) | Jason泽源：GoMotion 上线不到 3 个月 MRR 6.4 万美元——贴脚本自动出 15 分钟纪录片 | X/Twitter |
+| [pluvio9yte-talking-head-digital-human-action-spec](/md/wiki/sources/pluvio9yte-talking-head-digital-human-action-spec) | 雪踏乌云：不露脸做口播数字人——先让 Agent 拉片写出可量化的「动作说明书」 | X/Twitter |
+| [xitang-ai-workbuddy-libtv-ancient-rap-mv](/md/wiki/sources/xitang-ai-workbuddy-libtv-ancient-rap-mv) | 西堂AI：WorkBuddy + LibTV 让三位古人同台说唱——文、资、视、剪四步与完整歌词/Suno 输入 | X/Twitter |
+| [bainianai-seo-daily-003-webaloha-font-checker-page](/md/wiki/sources/bainianai-seo-daily-003-webaloha-font-checker-page) | 百年AI：SEO 日课 003——一页吃下全站 78% 流量，Web Aloha Font Checker 三次改版还原 | X/Twitter |
