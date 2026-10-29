@@ -271,6 +271,16 @@ date: "2026-05-05"
 - [SEOMachine](https://github.com/TheCraigHewitt/seomachine) — 把 SEO 内容创作流程放进 Claude Code，Python + MIT。适合批量规划和优化文章
 - [awesome-open-source-seo](https://github.com/ZensInk/awesome-open-source-seo) — 专门收集开源 SEO 工具的清单仓库，Python + CC0-1.0。爬虫、关键词、AI 搜索优化都有
 - [saas-seo-playbook](https://github.com/JeffLi1993/saas-seo-playbook) — 《SaaS SEO Playbook》开源工程书（子木）。连更四篇覆盖站内基建、多语言、页面结构与 seo audit Skill；要点是 AI Coding 时代确定性问题好解，难的是「你不知道还有你自己不知道的东西」，所以基建必须有规则化的 Skill 兜底。[在线阅读](https://bysocket.com/saas-seo-playbook/)
+- [shipwords](https://github.com/shipwords-dev/shipwords) — **新词站群框架**，MIT、TypeScript、Cloudflare 原生。[官网](https://shipwords.dev/zh/)｜[示例站 tinydeskai.io](https://tinydeskai.io/)｜[示例源码](https://github.com/shipwords-dev/shipwords/tree/main/sites/tinydeskai-example)。核心理念是**「不变的东西共享，变的东西独立」**：账户、支付、积分与 AI 生成只写一次所有站共用；每个站有自己的页面、外观、域名、数据库、文件存储与收款账户，上线或下线一个站不影响其他站。**起量的站继续迭代，没起来的放着不管**——公共核心有 bug 修一处，所有站下次部署一起更新。技术栈：TanStack Start + React 19，跑在 Cloudflare Workers 上，用 D1 + R2 + Workflows。
+  - **开箱就能收钱**：Google 与邮箱登录、Stripe 与 PayPal、积分包与订阅、订单与退款、邮件通知、游客免费试用 + reCAPTCHA v3 防刷、隐私/条款/退款/DMCA 页、SEO 与 `sitemap.xml` / `robots.txt` / `llms.txt` / 统计。**收钱代码所有站共用且有测试覆盖**——重复扣款、重复或乱序的支付通知、失败任务的退款都测过。
+  - **四个包分层**：`packages/core`（D1 + Drizzle、幂等写入的积分账本、Stripe/PayPal 计费、Better Auth、游客配额 + reCAPTCHA v3、SEO/GEO 工具、统计代理）、`packages/jobs`（基于 Workflows 的生成任务运行时：单向任务状态机、自动退款、上游适配接口、可选 ffmpeg 拼接容器）、`templates/ai-site`（完整可用的 AI 图像站模板）、`sites/<site>`（一个关键词一个站）。
+  - **内置成熟 AI 能力**：视频模板（把爆款视频做成模板，访客上传照片拿同款视频）、整段一次换完的成熟换脸（脸、发型、衣服全换，口型仍跟节拍；**原脸还在即判任务失败并退积分**）、主流模型内置（GPT Image、Nano Banana、Seedream、FLUX、Seedance、Veo、Kling、Wan，填一个 Yir API key 即可用，按次付费）。
+  - **四个步骤一个下午**：① Cloudflare Registrar 按成本价买精确匹配域名 → ② `pnpm new-site <dir> --domain <domain>` 从模板生成并接好名字/域名/数据库 → ③ 写页面、选模型、在 `site.config.ts` 定价 → ④ 按 `docs/site-launch.md` 上线（支付、部署、Search Console、Bing、IndexNow）。
+  - **让编程 Agent 建站**：仓库提供 `shipwords.dev/llms.txt`，把「阅读 shipwords.dev/llms.txt，帮我为「你的关键词」做一个站」贴给 Claude Code / Codex / Cursor 即可，Agent 会克隆仓库、生成站点并在本地跑起来，规则写在 `AGENTS.md`。
+  - **本地零 key 可跑**：`UPSTREAM_MOCK=1` 走模拟上游，邮箱登录验证码直接打印在 dev server 终端；密钥放仓库外（`~/.config/shipwords/`）再用 `pnpm setup:worktree` 链接进 worktree。需 Node 24（`.nvmrc`）+ pnpm 10（`corepack enable`），Windows 用 Git Bash 或 WSL。
+  - **成本**：代码免费、MIT 可商用；实际支出是域名、Cloudflare 用量费（需拼接多段视频的站要用 Workers Paid + Containers）、支付通道手续费、Yir 按次计费的模型费（单任务成本上限在 `site.models.ts` 设定）。
+- [new-term-radar](https://github.com/zhuyansen/new-term-radar) — **1.9K Stars**，Python + MIT 的每日新词雷达。抓 X、Hugging Face、GitHub 与 sitemap 里**刚冒头的 AI 新词**（新模型名、新产品、新仓库），**比关键词工具更早**——shipwords README 里推荐的第三方配套项目，做新词站群的前置选题层。支持 MCP、Claude Code / Codex / DSH 插件接入，可与 Google Trends 做基线对照
+  - [yir.ai](https://yir.ai/) — shipwords 生态的多模态模型 API（填一个 key 即可用 GPT Image / Nano Banana / Seedream / FLUX / Seedance / Veo / Kling / Wan，按次付费）
 - [Subtitle Edit](https://github.com/SubtitleEdit/subtitleedit) — 开源字幕编辑器（Windows / macOS / Linux）。改文字、调时间轴、转格式，配合语音识别引擎从音频生成字幕；普通创作者想少碰命令行的首选图形界面入口
 - [video-subtitle-extractor](https://github.com/YaoFANGUK/video-subtitle-extractor) — 开源本地 OCR 字幕提取工具。手里只有视频、没有字幕文件时，识别画面上的文字导出 SRT / TXT；小字、遮挡、花字与复杂背景需抽查
 - [video-subtitle-remover](https://github.com/YaoFANGUK/video-subtitle-remover) — 开源 AI 硬字幕去除工具。识别字幕区域后用 AI 修补被文字覆盖的位置，适合给自己的旧视频换字幕；完全本地运行不需第三方处理 API，但吃本机算力
