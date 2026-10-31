@@ -56,3 +56,7 @@ date: "2026-09-29"
 ### 2. 开通 Paperless 与双重验证（2FA）
 
 所有银行账户当场开通无纸化账单，并绑定能够长期全球漫游接收短信的美国本地实体电话卡（如 Ultra Mobile PayGo 或 T-Mobile 原生卡）。
+
+---
+
+**相关阅读**：[人在国内、11 天走完美国公司和开发者账号申请](./us-llc-developer-accounts-11-days.md)（远程路线：怀俄明 LLC → EIN → D-U-N-S → Mercury → 苹果/Google 组织开发者账号，无需赴美、无需 SSN，本文为肉身赴美路线的互补方案）
