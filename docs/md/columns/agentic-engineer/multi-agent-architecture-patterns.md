@@ -78,3 +78,4 @@ date: "2026-09-29"
 - [Agent sub-agent 拆分与派活——本地 spawn vs 分布式 ACP-Worker](./agent-subagent-splitting-and-dispatch.md)
 - [12 小时、636 个测试：自驱型 Skill 能走多远](./self-driving-skill-three-layers.md)
 - [Workflow、Agent、Multi-Agent，架构到底怎么选？](./workflow-agent-multi-agent-selection.md)
+- [为什么 Code Agent 用 ReAct，不用 Plan-Execute、Multi-Agent、CoT、ReWOO、LLMCompiler](./why-code-agent-uses-react.md)

@@ -326,3 +326,4 @@ Uber 这个选择针对的是已识别的语气问题。订单分析若缺少质
 - [同样的任务，多 Agent 架构慢了一倍！Anthropic 开始做减法了](./anthropic-single-agent-often-enough.md)
 - [Agent 怎么做 sub-agent 拆分与派活：本地 spawn 与分布式 ACP-Worker 全解](./agent-subagent-splitting-and-dispatch.md)
 - [透析 Skill 与 Tool 底层：Agent 两大核心底座的关系](./agent-skill-and-tool-foundation-layers.md)
+- [为什么 Code Agent 用 ReAct，不用 Plan-Execute、Multi-Agent、CoT、ReWOO、LLMCompiler](./why-code-agent-uses-react.md)
