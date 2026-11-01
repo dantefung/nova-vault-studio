@@ -7,7 +7,8 @@ date: "2026-08-03"
 
 ## 2026-10-26
 
-- [全天] 归档 20 篇 + 摘要与 markmap 批量补齐 — Agent 架构 9 篇（4 种顶级用法/自驱 Skill 三层/sub-agent 拆分/Anthropic 做减法/手绘风视频 Skill/Codex 复盘人该在什么时候回来/Skill 与 Tool 两大底座/MCode 长会话 compaction 与 memory/Workflow·Agent·Multi-Agent 选型）、变现出海 6 篇（800 提示词建站/AI 变现七层/银行结构化产品/跨境超级个体/一切回归产品/两人 1000 万美元 ARR 的 AI 原生打法）、出海主体 1 篇（美国公司+开发者账号 11 天全流程，36 张图）、Skills 体系 1 篇（27 skills 每站钉一道闸）、设计 1 篇、Agent 工程实践 1 篇、官方查证清单 1 篇（21 个官方查询网站）；AI 编程资源新增 4 条 + 更新 learn-harness-engineering（4.1k→21.7k★）；稍后读 +3 条；全量去广告；重建 5 张被脚本压扁的表格
+- [全天] 归档 22 篇 + 摘要与 markmap 批量补齐 — Agent 架构 10 篇（4 种顶级用法/自驱 Skill 三层/sub-agent 拆分/Anthropic 做减法/手绘风视频 Skill/Codex 复盘人该在什么时候回来/Skill 与 Tool 两大底座/MCode 长会话 compaction 与 memory/Workflow·Agent·Multi-Agent 选型/DeepSeek Super-agent 架构 30 图）、变现出海 7 篇（800 提示词建站/AI 变现七层/银行结构化产品/跨境超级个体/一切回归产品/两人 1000 万美元 ARR 的 AI 原生打法/拼单赚钱术）、出海主体 1 篇（美国公司+开发者账号 11 天全流程，36 张图）、Skills 体系 1 篇（27 skills 每站钉一道闸）、设计 1 篇、Agent 工程实践 1 篇、官方查证清单 1 篇（21 个官方查询网站）；AI 编程资源新增 4 条 + 更新 learn-harness-engineering（4.1k→21.7k★）；稍后读 +3 条；全量去广告；重建 5 张被脚本压扁的表格
+- [全天] 公众号 SVG 动态图解归档流程 — fetch_weixin.py 只能抓文本，30 张内联 SVG 动画图需自己从 `#js_content` 提取。坑：微信把 SVG 属性小写化（`viewbox`→须改 `viewBox`）、SVG 里 `&nbsp;` 不是合法 XML 实体（须改 `&#160;`）、远程底图要下载后内联为 data URI（librsvg 不取远程图）、sharp 转 PNG 后按体积转 JPEG（30 张 9.9MB→3.8MB）
 - [全天] 修正资源页 3 处错缩进 — learn-harness-engineering / OpenHarness 曾被挂到 commerce-agents 下、dsh-bili-scroll 曾被挂到 dsh-alioth 下；导航解析器把 2 空格缩进直接当父子关系，缩进错条目就挂错父项
 - [全天] 六个采集坑 — 带 `###` 小标题的文章被压扁成重复长行、表格被拆成散行需手工重建、tmpfiles.org 需取 `/dl/{token}` 真实直链、fetch_weixin.py 偶发 15-30s 超时需重试、批量验活返回 000 且 DNS 指向 198.18.0.x 说明是沙箱代理拦截而非死链、内置 fetch_feishu.py 会丢掉飞书的表格和图片需自己调 API 渲染
 - [全天] 今天的观察 — 复杂度要按任务属性买单：能并行的就拆，单线程能搞定的不为架构而架构；不靠"觉得差不多了"收尾，给每个环节钉死可检查的退出条件
