@@ -303,6 +303,9 @@ wiki/
 | [agentscope-multi-agent](/md/wiki/concepts/agentscope-multi-agent) | 多 Agent 编排三件套：spawn/send 原语、超时收编后台任务不丢弃、子事件并入父流、跨副本三段式路由 | 公众号 |
 | [multi-agent-design](/md/wiki/sources/multi-agent-design) | 多 Agent 系统设计哲学：六层架构、四天花板、五角色、三协作模式、四通信方式、七生产难点、五实践五反模式 | 公众号 |
 | [agent-sandbox-k8s](/md/wiki/sources/agent-sandbox-k8s) | Agent Sandbox：K8s SIG 项目（kubernetes-sigs/agent-sandbox），声明式 CRD 编排隔离有状态单例沙箱，WarmPool 预热池 + RuntimeClass 接 gVisor/Kata，Agent 执行层基础设施 | 公众号 |
+| [agent-sandbox-three-layer-model](/md/wiki/concepts/agent-sandbox-three-layer-model) | Agent 沙箱三层模型：隔离边界（OpenSandbox）/ 能力控制（nono）/ 策略治理（护栏），正交对照与五场景选型 | 原创综合 |
+| [agent-sandbox-survey](/md/wiki/sources/agent-sandbox-survey) | Agent Sandbox 调研与选型：L0–L4 五层分层 + 九大主流方案选型矩阵（AX / Substrate / DSec / OpenSandbox / CubeSandbox / E2B 等） | 公众号 |
+| [deepseek-dsec-sandbox-infrastructure](/md/wiki/sources/deepseek-dsec-sandbox-infrastructure) | DeepSeek DSec 论文解读：一天 300 万沙盒，四级异构后端（FnCall/Container/MicroVM/FullVM）+ 训练与沙箱生命周期解耦 | 公众号 |
 | [dannykkg-ai-sandbox-primer](/md/wiki/summaries/dannykkg-ai-sandbox-primer) | Sandbox入门：≠Docker≠VM；六类受限资源（文件/进程/网络/凭据/算力/生命周期）；预分配+拦截双层防御；三道防线+7问自检 | X/Twitter |
 | [agent-flow-vs-general](/md/wiki/sources/agent-flow-vs-general) | 从 Agent Flow 到 AI Native：通用 Agent 是「饮鸩止渴」；最小任务单元、Hardcode 是美丽的、AI Native 本质是解决用户问题、基建要 LLM-friendly、组织链路要足够短 | 公众号 |
 | [linux-interrupt-overview](/md/wiki/sources/linux-interrupt-overview) | Linux 中断管理概述：顶半部/底半部分层架构，三大底半部机制（Softirq/Tasklet/Workqueue）特点与适用场景 | 公众号 |

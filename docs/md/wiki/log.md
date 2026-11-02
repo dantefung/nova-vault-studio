@@ -4,6 +4,25 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] 综合：Agent 沙箱三层模型——隔离边界 / 能力控制 / 策略治理（原创长文 + 概念页）
+
+- 起因：用户新增 OpenSandbox 与 nono 两个资源到 AI 编程资源页后，指出「这个沙箱好用」，继而需要一篇把沙箱方案串起来的对比稿
+- **问题诊断**：检索发现知识库已有大量沙箱素材，但**全部集中在 L1 隔离边界层**——九大方案选型调研、DSec 论文拆解、K8s SIG Agent Sandbox、Sandbox 入门科普、护栏模式；**L2 能力控制层（nono）完全空白**。更根本的问题是：所有资料都把「沙箱」当单一概念使用，导致选型时把三个不同失效模式混为一谈
+- **三层模型**（本次原创贡献）：
+  - **L1 隔离边界**——回答「Agent 在哪跑」，代表 OpenSandbox / AX / DSec / CubeSandbox / E2B；失效=逃逸与跨租户
+  - **L2 能力控制**——回答「Agent 能碰什么」，代表 nono；失效=读到不该读的文件、拿到不该拿的凭据、连了不该连的域名
+  - **L3 策略治理**——回答「这个动作要不要人点头」，代表护栏模式 / HITL / CI 门禁；失效=不可逆动作被自动执行
+  - 用「Agent 用 curl 拿走 ~/.aws/credentials」的反例说明：L1 在该场景**没有失败**（它本就在开发机上跑），L2 与 L3 **都失败**——由此推出三层不可互相替代
+- **一手文档核实**（子 agent 深挖 GitHub 原始文档与 docs 站点，非二手转述）：
+  - OpenSandbox：两级后端路由（`runtime.type` → `templateId`/`image` → 按 ID 前缀 `fsb-` 分发，官方原话「the ID prefix is the dispatcher」）；五种隔离运行时启动开销表（runc ~0ms / gVisor ~10-50ms / Kata-CLH ~200ms / Kata-FC ~125ms / Kata-QEMU ~500ms）；**两个硬约束**——`[secure_runtime]` 是服务端启动配置而非创建字段（runc 与 Kata 混跑需两套独立部署）、**gVisor 不支持所需 nftables 特性故 egress 策略走不通，Kata 是受支持 secure runtime**；Fast Sandbox 官方实测（创建 p50 64.0ms / 并发 10 p99 125.4ms / 并发 20 成功 51/100）与**官方自曝的三条警告**（SDK 恢复中位数 62.66s 而非 runtime 的 35.49ms、并发 20 有 48 次 429、快照恢复 60.63s）；sandbox/session/agent 三概念准确区分（**Agent 是客户端，specs 里没有 first-class agent 资源**）
+  - nono：内核强制机制按 OS 分（**Linux Landlock LSM / macOS Seatbelt / Windows 仅 WSL2 无原生后端**），**明确不用 LD_PRELOAD 与 ptrace 强制**；「零延迟」= supervisor/proxy 架构（`nono run` 只沙箱化子进程 vs `nono wrap` 直接 exec），5ms 启动、3-10 微秒文件打开开销，**只拦 openat/openat2 两个系统调用**（故 stat/access 未拦，可枚举文件系统结构）；**Capability Broker** 逐命令临时沙箱机制；**Phantom token** 256-bit 随机令牌即会话令牌、常数时间比较、401 拒绝、OAuth 幻影最长 90 天/上限 4096；**Sigstore 三层结构**（DSSE + in-toto + Fulcio/Rekor）与**三层信任策略取最严且项目级不能削弱用户级**，**Linux 运行时拦截 vs macOS 仅启动时**、预执行扫描不认 `.gitignore`；审计哈希链 + Merkle + **每会话终结签一次**（官方明说不逐事件签名）；诚实局限原文摘录（本地账本无外部锚定可伪造自洽历史、session.json 只在终结时写未完成会话无开始记录）；**Landlock 是 allow-list 无法表达允许范围内的拒绝**、`intercept` 的 sandbox 覆盖会完全替换基础沙箱可授予更多能力；**无任何基准测试套件**（唯一对手是 Docker）；ROADMAP 中 NEP-0007 计划把 supervisor 决策/审计/凭据拆到 microVM guest 外——**团队自认 supervisor 是信任假设**
+- 新增 `columns/agentic-engineer/agent-sandbox-three-layer-model.md`（长文版）：三层模型 + OpenSandbox 深拆 + nono 深拆 + 护栏模式 L3 + 正交对照表 + **五场景选型路径**（本地开发机只需 L2 / 多租户必须 L1 / 集群 L1+L2 / 不可信代码 L1+L3 / Skill 供应链治理是 nono 独占区）+ 各 7 项与 12 项已知边界 + 3 项共同盲区
+- 新增 `concepts/agent-sandbox-three-layer-model.md`（概念页）：把长文压缩为可查询的知识单元，8 条 wikilink 全部指向既有页面（agent-sandbox-survey / agent-sandbox-k8s / deepseek-dsec-sandbox-infrastructure / dannykkg-ai-sandbox-primer / agent-runtime-safety-guardrails / durable-execution / agentscope-managed-agents）
+- `index.md` 同步：「Agent 工程」分类新增 3 行——概念页 1 行，并**补上此前遗漏的两条既有 sources 索引**（`agent-sandbox-survey` 九大方案选型矩阵、`deepseek-dsec-sandbox-infrastructure` DSec 论文拆解，这两份素材此前在库但未进索引）
+- `columns/agentic-engineer/index.md` 同步：目录结构区新增长文条目
+- 与既有知识的接口：护栏模式的「工具执行前必须存在模型无法绕过的决策点」在 L2 有了具体实现形态——Capability Broker，**决策点在 supervisor 手里而非模型上下文里**
+- 未新建 sources：本文为跨来源原创综合，未引入新的单一外部素材
+
 ## [2026-10-29] ingest: 刘军《Durable Agent 详解》——持久可恢复执行与 AgentCore Brain-Hands 分离
 
 - 来源：`https://mp.weixin.qq.com/s/z8JHkCyOVVKrXpKH-vy6tw`（微信公众号：刘军，2026-10-29 18:46）
