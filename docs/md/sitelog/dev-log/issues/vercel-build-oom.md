@@ -117,9 +117,32 @@ File system outputs: 2914528
 
 相较最初基线，构建时间缩短约 47%，峰值内存下降约 23%，文件系统写出下降约 57%。
 
+## 2026-11-03 突破 3500+ 页面级 Vercel 构建 OOM 终极修复
+
+随着站点持续收录，全站 Markdown 页面总数突破 **3,572 篇**。Vercel 再次在 `rendering pages...` 阶段遭遇 OOM 强杀（SIGKILL）。
+
+详见专项复盘日志：[3500+ 页面级 Vercel 构建 OOM 根治与内存调优复盘](../vercel-build-oom-3500-pages-2026-11-03.md)。
+
+### 根因与优化措施
+
+1. **显式配置 V8 堆上限**：
+   在 `package.json` 的 `build` 命令和 `vercel.json` 的 `build.env` 中显式设置 `NODE_OPTIONS=--max-old-space-size=5120`。
+   在 8GB 容器内将堆上限设为 5120MB，促使 V8 主动回收渲染闭包，同时为 OS 和非堆内存预留 3GB 空间，杜绝总物理驻留内存（RSS）冲破 8GB。
+2. **搜索索引削峰**：
+   - `SEARCH_RENDER_SIZE_LIMIT` 从 200,000 字符降为 100,000 字符。
+   - `SEARCH_PARTIAL_SKIP_ROOTS` 增加 `md/guide/cs/system-design-101`（415 个外部教程页面）、`md/wiki/log.md`（440KB 日志）和 `md/wiki/index.md`。
+   - 索引处理页面从 1,359 篇降至 942 篇，消除了近 10MB 的庞大索引 chunk。
+3. **保持高并发渲染**：
+   保持 `buildConcurrency: 16`，使全站 3,572 页在 7 分钟内完成全量构建。
+
+### 结果
+
+部署 `dpl_EgMDeiwvYEDxwRY58TBQt5yJNBCc` 成功就绪，总耗时 419.60 秒，生产环境完全恢复。
+
 ## 后续约束
 
+- 在 `package.json` 与 `vercel.json` 中保持 `NODE_OPTIONS=--max-old-space-size=5120` 约束。
 - 不要把大图以内联 base64 形式放进 Markdown。
 - 图片应落盘到文章同级 `images/` 目录，用相对路径引用。
-- Vercel 生产环境默认不启用本地全文搜索；如需生产搜索，优先接 Algolia 或生成独立轻量索引。
+- 单篇 Markdown 文件超过 100KB 时需重点关注，必要时标记 `search: false` 或拆分。
 - 大体积内容入库后，应优先检查单个 Markdown 文件大小和构建产物 chunk 大小。
