@@ -638,3 +638,4 @@ wiki/
 | [canghe-wesight-obsidian-multiplatform-upgrade](/md/wiki/sources/canghe-wesight-obsidian-multiplatform-upgrade) | 苍何（@canghe）：Codex + Obsidian 多平台同步与一键分发（WeSight 升级实录） | X/Twitter |
 | [xoyif-muse-xiaohongshu-autopilot](/md/wiki/sources/xoyif-muse-xiaohongshu-autopilot) | 北衡（@xoyif63862452）：让 Muse 全权运营一个小红书账号的实操记录 | X/Twitter |
 | [aronhouyu-ai-rising-keyword-topic-pipeline](/md/wiki/sources/aronhouyu-ai-rising-keyword-topic-pipeline) | Aron 厚玉（@aronhouyu）：用 AI 搭建流量上升词自动发现与批量选题流水线 | X/Twitter |
+| [wangchen-super-agent-deepseek-harness](/md/wiki/sources/wangchen-super-agent-deepseek-harness) | 望宸：从长程 Agent 到 Super-agent，解锁更多场景（DeepSeek dsh-superagent-prototype 工程拆解） | 微信公众号 |

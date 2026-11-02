@@ -4,6 +4,19 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 1 篇微信公众号长文（望宸：从长程 Agent 到 Super-agent，解锁更多场景）
+
+- 抓取与归档：`fetch_weixin.py` 取正文 → `download-images.py` 本地化 10 张配图 → 人工结构修复 → 归档到 `sources/wangchen-super-agent-deepseek-harness.md`（246 行，10 图）
+- 公众号采集坑（新增经验）：微信正文抓取有 3 类噪声必须人工修
+  1. 标题与栏目名被重复展开 2-4 次，且夹带裸的 `Cloud Native` 行——按小标题编号（01-04）合并去重
+  2. 表格被完全打散成「表头 3 行 + 24 个单元格逐行」的扁平列表，需按行数校验后重建成 4 行 Markdown 表格
+  3. 子标题同时出现裸文本 `N、xxx` 与 `### N、xxx` 两份，去重保留一份
+- 图片格式坑（AGENTS.md 已登记过的微信 CDN 伪装）：10 张里 6 张后缀为 `.png`/`.jpeg` 实为 WebP，用 ImageMagick `-background white -flatten` 转真正的 JPEG，并同步改正扩展名与 md 引用
+- 图形化列表：脚本生成的图片引用曾被误改成「感叹号 + 方括号内含路径 + 右圆括号」的坏形态（缺 `](` 分隔），需重建为标准的「方括号 alt + 圆括号 url」图片语法，再过 `check-image-refs.py`
+- 去广告/导流：删除「（点击文末阅读原文）」等导流话术；`normalize-typo.py --apply` 补盘古之白 7 处
+- 关联页面：`sources/hermes-obsidian-knowledge-base`、`concepts/agentscope-harnessagent-declarative`、`concepts/agent-skill`
+- 索引：`wiki/index.md` 新增 1 行（来源标注「微信公众号」）
+
 ## [2026-11-02] ingest: 11 篇 X 精选实战长文（Tw93 Claude Code 半年总结 / 孙宇晨 4 小时访谈 / 微信小店全流程 / Hermes 第二大脑 / 闲鱼自动化客服 / X 14 天创作者收益 / TikTok Codex / 图文变现 2 篇 / 4 位数剪辑流 / 返利 CPS）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 100 张（无超限），归档至 `sources/`
