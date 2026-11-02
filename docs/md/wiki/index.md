@@ -403,6 +403,7 @@ wiki/
 |------|--------|------|
 | [hermes-obsidian-knowledge-base](/md/wiki/sources/hermes-obsidian-knowledge-base) | Obsidian + Hermes Agent：Source→Topic→Draft→Published 四步流转，内容库变生产线 | 公众号 |
 | [canghe-codex-obsidian-wechat-workflow](/md/wiki/sources/canghe-codex-obsidian-wechat-workflow) | 苍何：Codex + Obsidian 公众号创作工作流开源沉淀——标题、排版与数据驱动 | X/Twitter |
+| [binghe-wechat-formatting-skill-v2](/md/wiki/sources/binghe-wechat-formatting-skill-v2) | 冰河：公众号排版工具 Skill V2.0——从写完到发布双 Skill 联动 | X/Twitter |
 | [ai-chuhai-x-viral-writing-engine](/md/wiki/sources/ai-chuhai-x-viral-writing-engine) | 爱出海：X 爆款写作引擎——没有自己的数据，就用同赛道的爆款 | X/Twitter |
 | [claude-prompt-strategies](/md/wiki/sources/claude-prompt-strategies) | 100个提示策略：结构化提示、推理框架、内容量产，思维框架比模型版本更重要 | 公众号 |
 | [crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) | 单人操盘590位博主/26亿播放：前3秒钩子决定生死，13万条买家评价喂AI+5步流水线+3个Prompt | X/Twitter |
@@ -533,6 +534,7 @@ wiki/
 | [open-source-seo-tooling](/md/wiki/concepts/open-source-seo-tooling) | 开源 SEO 工具的自建边界：工具逻辑可开源替代，数据资产不行；6 个工具的能力映射与选型决策 | X |
 | [open-source-seo-tooling-list](/md/wiki/sources/open-source-seo-tooling-list) | 6 个开源免费 SEO 工具原始归档：SEOnaut / SoPilot / SerpBear / OpenSEO / SEOMachine / Awesome Open Source SEO | X |
 | [chuhaiqu-social-distribution-playbook](/md/wiki/sources/chuhaiqu-social-distribution-playbook) | 出海去孵化器：做产品容易，怎么通过推特、油管、短视频把产品卖出去？ | X/Twitter |
+| [ai-jasonyu-x-creator-revenue-complete-guide](/md/wiki/sources/ai-jasonyu-x-creator-revenue-complete-guide) | 鱼总聊AI：2026 年 X 创作者收益完全指南——从零到收款实操与避坑 | X/Twitter |
 | [ai-automated-internal-link-seo](/md/wiki/patterns/ai-automated-internal-link-seo) | AI 自动内链 SEO：拿竞品前三当对照样本，阈值自算、归因只认证据、先清单后自动 | X/Twitter |
 | [ai-chuhai-46-small-sites-real-revenue](/md/wiki/sources/ai-chuhai-46-small-sites-real-revenue) | 爱出海：46 个闷声发财的小站——翻完 1.5 万个收银台和 1161 份真实收入 | X/Twitter |
 | [taowithsaas-ezmaker-traffic-analysis](/md/wiki/sources/taowithsaas-ezmaker-traffic-analysis) | taoWithSaaS：一个新站首月访问量破 10w+ 原来是这么做到的（强站带小站外链揭秘） | 公众号 |
@@ -548,6 +550,7 @@ wiki/
 | [gray-market-customer-acquisition](/md/wiki/patterns/gray-market-customer-acquisition) | 灰产获客平台策略：抖音直播、B站软广、咸鱼黑暗森林及各平台封禁博弈 | X |
 | [ai-robert-reddit-idea-validation](/md/wiki/sources/ai-robert-reddit-idea-validation) | AI Robert：出海野路子——Reddit 搜「I would pay for」+ Semrush 验证需求，30 分钟一轮高信号验证法 | X/Twitter |
 | [david-ai-game-publishing-platforms](/md/wiki/sources/david-ai-game-publishing-platforms) | 大卫：4 款 AI 小游戏收入 10 万！国内外 7 个小游戏发行入口、7 步开发路径与 4 大变现避坑 | X/Twitter |
+| [weiyux2021-claude-xianyu-ecommerce-workflow](/md/wiki/sources/weiyux2021-claude-xianyu-ecommerce-workflow) | 动物园园长：用 Claude 跑通闲鱼电商全流程——选品、文案、话术与运营 | X/Twitter |
 | [wadezone-2026-ordinary-person-1m-guide](/md/wiki/sources/wadezone-2026-ordinary-person-1m-guide) | Koda：2026 年普通人如何一年赚 100 万——破除心理封印，直接收陌生人的钱 | X/Twitter |
 | [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
 | [cross-platform-information-arbitrage](/md/wiki/patterns/cross-platform-information-arbitrage) | 跨平台信息差中介：不搬本体，只卖信息与配置——五个可复制样本与共性公式 | X/Twitter |

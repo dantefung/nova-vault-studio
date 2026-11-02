@@ -4,6 +4,18 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 3 篇 X 创作者与电商实战（鱼总 X 收益完全指南 / 动物园园长 Claude 闲鱼电商 / 冰河排版 Skill V2.0）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 42 张（无超限），归档至 `sources/`
+- 归档列表：
+  1. `sources/ai-jasonyu-x-creator-revenue-complete-guide.md`（鱼总聊AI @AI_Jasonyu，643 行，24 图）：2026 年 X 创作者收益完全指南——从零到收款实操保姆级教程。开通门槛（蓝 V、500 粉丝、500 万次 3 个月展示量）、Stripe Connect 账户设置（个人/独资类型选择与避税申报）、Wise 国际账户与结汇全流程；最核心避坑点：X 认证名、Stripe 名与 Wise 名拼写必须完全一致（占失败率 90%）
+  2. `sources/weiyux2021-claude-xianyu-ecommerce-workflow.md`（动物园园长 @weiyux2021，292 行，3 图）：用 Claude 跑通闲鱼店铺全流程——选品四维漏斗（高频次、刚需低替代、利润空间大、复购潜力）、黄金排版商品文案生成框架、四类客户沟通话术库与多店铺数据驱动优化，把闲鱼做成自动化闭环
+  3. `sources/binghe-wechat-formatting-skill-v2.md`（冰河 @binghe，188 行，15 图）：公众号排版工具 Skill V2.0 梦幻联动——写稿与排版双 Skill 协作，支持 Markdown 源码一键转换公众号格式、自动多图适配排版、样式主题预置，附百度网盘资源
+- 去广告与规范化：
+  - 自动剔除作者文末社交引流（求点赞转发话术）与外部导流
+  - 执行 `normalize-typo.py` 盘古之白与标点规整
+- 索引同步：`docs/md/wiki/index.md` 对应增加 3 篇条目（出海工具与方法 1 条、AI 变现与套利 1 条、内容工作流 1 条）
+
 ## [2026-11-02] ingest: 2 篇 X 长文 + 1 篇微信公众号（普通人破局路线 / Codex+Obsidian 创作流 / 阿真 GrokBot 两个月分工）
 
 - 抓取与归档：
