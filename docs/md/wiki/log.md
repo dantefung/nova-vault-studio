@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 3 篇 X 长文（苍何 WeSight 多平台分发升级 / 北衡 Muse 小红书无人值守 / lumxss 创作者 Skill 清单）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 跑通 `fetch → images → build → normalize → check`，本地化配图 27 张（最大 208 KB，无超限），归档至 `sources/`
+- 归档列表：
+  1. `sources/canghe-wesight-obsidian-multiplatform-upgrade.md`（苍何 @canghe，218 行，16 图）：WeSight Obsidian 插件升级实录——从 Obsidian 一键同步小红书/即刻/知乎/CSDN/掘金/B 站/头条/微博/X 九个平台，长文按平台风格转图文并自动配图，公众号排版预览与阅读数据复盘，GitHub 仓库同步实现多设备接续写作，Claude Code / Codex / OpenCode 三引擎切换不丢上下文
+  2. `sources/xoyif-muse-xiaohongshu-autopilot.md`（北衡 @xoyif63862452，255 行，11 图）：用 Muse 把 4–9 岁儿童英文启蒙小红书账号跑成全无人值守——账号定位、A/B/C 三栏目轮换、故事与儿歌创作公式、视频规格一次锁定、7 步成片（分镜→关键帧→图生视频→逐句 TTS→ASS 双语字幕→封面→文案）、创作者平台发布要点、三个随机延迟定时任务与 IN_PROGRESS 防重复锁、评论区话术三原则，附文件结构与 5 条踩坑记录
+  3. `guide/ai/bkdgiffug-content-creator-essential-skills.md`（lumxss @bkdgiffug，原已归档）：升级旧归档——把 16 个被 X 截断的 `t.co` 短链逐条反查并校验（`gh api` 列举同前缀仓库 + HTTP 200 验证 + 仓库简介比对）还原成真实 GitHub 地址，按「内容生产 Skills / 多平台发布 / 剪辑与视频生产 / 工具清单」四类重组，配图本地化并补 `coverImage`
+- 排版处理：Muse 原文的 `01｜`–`10｜` 编号小节与「第 N 步」提升为 H2/H3；`项目 | 规格` 散装行重排成 Markdown 表格；TTS 命令、发布文案样例、目录树各进代码围栏
+- 去广告：删除苍何文末「一杯奶茶钱开启创作会员」付费引导、1024 观猹大会参展与「评论区聊聊」导流、两条「嵌入内容…未随分享发布」占位；删除 Muse 文末「评论区说说你卡在…」互动导流，保留「这套流程 2026 年 10 月 11 日真实跑通」事实陈述
+
 ## [2026-11-02] ingest: 3 篇 X 实战精选（冰河 Codex 画布终极版 / Today🦘 小红书运营完全指南 / 悉尼和稀泥 24 小时 0 成本 B 端获客）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 29 张（无超限），归档至 `sources/`

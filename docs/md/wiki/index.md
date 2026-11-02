@@ -624,3 +624,5 @@ wiki/
 | [zonperez1-10-grok-bots-shopify-first-sale](/md/wiki/sources/zonperez1-10-grok-bots-shopify-first-sale) | Zon（@zonperez1）：我搭了一支 10 个 Grok Bots 的团队——广告上线 24 小时就拿到 Shopify 首单 | X/Twitter |
 | [arpitatscale-cold-dms-to-3k-month-inbounds-10-fixes](/md/wiki/sources/arpitatscale-cold-dms-to-3k-month-inbounds-10-fixes) | Arpit（@arpitatscale）：从群发冷 DM 到每月 $3k 自然询盘——我改掉的 10 件事 | X/Twitter |
 | [wickedguro-postiz-2m-arr-saas-not-dead-playbook](/md/wiki/sources/wickedguro-postiz-2m-arr-saas-not-dead-playbook) | Nevo David（@wickedguro）：Postiz 突破 $2M ARR，而所有人都在说 SaaS 已死——从卖软件转向卖结果 | X/Twitter |
+| [canghe-wesight-obsidian-multiplatform-upgrade](/md/wiki/sources/canghe-wesight-obsidian-multiplatform-upgrade) | 苍何（@canghe）：Codex + Obsidian 多平台同步与一键分发（WeSight 升级实录） | X/Twitter |
+| [xoyif-muse-xiaohongshu-autopilot](/md/wiki/sources/xoyif-muse-xiaohongshu-autopilot) | 北衡（@xoyif63862452）：让 Muse 全权运营一个小红书账号的实操记录 | X/Twitter |
