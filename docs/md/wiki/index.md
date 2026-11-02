@@ -402,6 +402,7 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [hermes-obsidian-knowledge-base](/md/wiki/sources/hermes-obsidian-knowledge-base) | Obsidian + Hermes Agent：Source→Topic→Draft→Published 四步流转，内容库变生产线 | 公众号 |
+| [canghe-codex-obsidian-wechat-workflow](/md/wiki/sources/canghe-codex-obsidian-wechat-workflow) | 苍何：Codex + Obsidian 公众号创作工作流开源沉淀——标题、排版与数据驱动 | X/Twitter |
 | [ai-chuhai-x-viral-writing-engine](/md/wiki/sources/ai-chuhai-x-viral-writing-engine) | 爱出海：X 爆款写作引擎——没有自己的数据，就用同赛道的爆款 | X/Twitter |
 | [claude-prompt-strategies](/md/wiki/sources/claude-prompt-strategies) | 100个提示策略：结构化提示、推理框架、内容量产，思维框架比模型版本更重要 | 公众号 |
 | [crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) | 单人操盘590位博主/26亿播放：前3秒钩子决定生死，13万条买家评价喂AI+5步流水线+3个Prompt | X/Twitter |
@@ -514,6 +515,7 @@ wiki/
 | [yaohongan-grokbot-48-use-cases](/md/wiki/sources/yaohongan-grokbot-48-use-cases) | 虹安：Grok Bot 48 个真实玩法按场景整理，含授权风险与翻车预警 | X/Twitter |
 | [lzj-grok-bot-beginner-guide](/md/wiki/sources/lzj-grok-bot-beginner-guide) | 小爷：Grok Bot 保姆级新手指南——安装、充值（四合一订阅）到云电脑三坑 | X/Twitter |
 | [lzj-grok-bot-xiaohongshu-ban-warning](/md/wiki/sources/lzj-grok-bot-xiaohongshu-ban-warning) | 小爷：紧急通知，Grok Bot 接管小红书已出现大批量封号 | X/Twitter |
+| [azhen-grokbot-two-month-division-of-labor](/md/wiki/sources/azhen-grokbot-two-month-division-of-labor) | 阿真：使用 GrokBot 两个月后分工全公开——总控主管+六大分组+重活归 CLI 轻活归 Bot | 公众号 |
 | [xhs-product-selection](/md/wiki/concepts/xhs-product-selection) | 小红书选品七看方法论：爆品值+商品价值双指标 + 监控软件开源实现 | X |
 | [dongqing-xhs-product-selection](/md/wiki/sources/dongqing-xhs-product-selection) | 冬青：小红书选品方法论与监控软件开发指南原始归档，附 8 张选品表与监控界面截图 | X/Twitter |
 | [distributional-convergence](/md/wiki/concepts/distributional-convergence) | 分布收敛：AI 无具体约束时趋向训练数据最常见方案，解释 AI 味和蓝紫色前端现象 | X |
@@ -546,6 +548,7 @@ wiki/
 | [gray-market-customer-acquisition](/md/wiki/patterns/gray-market-customer-acquisition) | 灰产获客平台策略：抖音直播、B站软广、咸鱼黑暗森林及各平台封禁博弈 | X |
 | [ai-robert-reddit-idea-validation](/md/wiki/sources/ai-robert-reddit-idea-validation) | AI Robert：出海野路子——Reddit 搜「I would pay for」+ Semrush 验证需求，30 分钟一轮高信号验证法 | X/Twitter |
 | [david-ai-game-publishing-platforms](/md/wiki/sources/david-ai-game-publishing-platforms) | 大卫：4 款 AI 小游戏收入 10 万！国内外 7 个小游戏发行入口、7 步开发路径与 4 大变现避坑 | X/Twitter |
+| [wadezone-2026-ordinary-person-1m-guide](/md/wiki/sources/wadezone-2026-ordinary-person-1m-guide) | Koda：2026 年普通人如何一年赚 100 万——破除心理封印，直接收陌生人的钱 | X/Twitter |
 | [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
 | [cross-platform-information-arbitrage](/md/wiki/patterns/cross-platform-information-arbitrage) | 跨平台信息差中介：不搬本体，只卖信息与配置——五个可复制样本与共性公式 | X/Twitter |
 | [hyhongyu-inside-outside-information-arbitrage-09](/md/wiki/sources/hyhongyu-inside-outside-information-arbitrage-09) | 红鱼：墙内外的赚钱信息差（第九期）——插件教程、Notion 模板、Newsletter 摘要等五个样本 | X/Twitter |

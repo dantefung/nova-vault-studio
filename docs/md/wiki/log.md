@@ -4,6 +4,22 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 2 篇 X 长文 + 1 篇微信公众号（普通人破局路线 / Codex+Obsidian 创作流 / 阿真 GrokBot 两个月分工）
+
+- 抓取与归档：
+  - 2 篇 X 长文通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 27 张
+  - 1 篇微信公众号（阿真《使用GrokBot两个月后，我的GrokBot分工全公开分享》）通过 `fetch_weixin.py` 抓取正文，清洗去重重叠段落，下载并 sharp 压缩本地化配图 19 张，经 `normalize-typo.py` 规范排版
+  - 3 篇所有配图共 46 张，全部经 `check-image-size.py` 校验，无一张超 500KB，无远程图残留，无悬空 wikilink
+- 归档列表：
+  1. `sources/wadezone-2026-ordinary-person-1m-guide.md`（Koda @wadezone，686 行，1 图）：2026 年普通人如何一年赚 100 万——破除「不可能」的心理封印。拆解从个人技能到轻资产业务闭环的路径：做真实需求、直接收陌生人的钱、用小步快跑验证代替无休止的准备与工具研究
+  2. `sources/canghe-codex-obsidian-wechat-workflow.md`（苍何 @canghe，190 行，26 图）：几千人催的 Codex + Obsidian 公众号创作工作流开源沉淀——把标题生成、排版、封面构图与数据分析交由 Agent 协作完成，配套开源 WeSight 插件与工作流体系
+  3. `sources/azhen-grokbot-two-month-division-of-labor.md`（阿真，218 行，19 图）：使用 GrokBot 两个月后分工全公开——总控主管分发任务与统一规则；六大分组（收藏与学习、内容生产、素材收集、资料资讯、日常杂事、友军串联）；气泡表情快捷工作流（点赞进收藏、爱心进本地 Obsidian 选题库）；核心分工原则「重活交给本地 Grok CLI，轻活交给云端 GrokBot」；飞书 CLI 打通多维表格自动记账；聚合 Claude Code 与 Kimi Code
+- 去广告与规范化：
+  - 自动剥离推文末尾的社群导流话术（如 VIP 专属群等）
+  - 剔除作者末尾三连引导与社交引流
+  - 格式化标点与盘古之白排版
+- 索引同步：`docs/md/wiki/index.md` 对应增加 3 篇条目（AI 变现与套利 1 条、内容工作流 1 条、AI 产品与订阅 1 条）
+
 ## [2026-11-02] ingest: 3 篇 X 架构与工具精选（Addy Osmani 编排税 / 山景城小路 Super-agent 细读 / 柒晨小红书 12 款运营 Skill）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 4 张（无超限），归档至 `sources/`
