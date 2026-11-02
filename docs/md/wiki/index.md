@@ -62,6 +62,7 @@ wiki/
 | [prompt-as-code](/md/wiki/concepts/prompt-as-code) | 将提示词从自然语言转变为结构化 JSON/YAML 组件，让 Agent 确定性产出提示词，零幻觉批量生图 | X |
 | [codex](/md/wiki/concepts/codex) | OpenAI 官方 AI 编程客户端，桌面/VS Code/终端三种形态，内置 GPT-Image-2 + Computer Use | X Article |
 | [codex-app](/md/wiki/concepts/codex-app) | OpenAI 桌面端 AI 工作台，左中右三栏工作现场，Plugin/Connector/Skill/MCP 四扩展 + Computer Use | X Article |
+| [binghe-codex-ai-canvas-plugin](/md/wiki/sources/binghe-codex-ai-canvas-plugin) | 冰河：Codex 插件 AI-Canvas 全能无限画布终极版发布——选区局部重绘与图层编排 | X/Twitter |
 | [ai-content-pipeline](/md/wiki/concepts/ai-content-pipeline) | AI 内容工厂流水线——用 Agent 串工具把人负责挑选微调，AI 跑完全流程 | X Article |
 | [story-studio-video-pipeline](/md/wiki/patterns/story-studio-video-pipeline) | Audio-First 短视频流水线：先出声音再切分镜，Reference Images 防画风漂移，剪映草稿自动生成 | X/Twitter |
 | [wechat-historical-story-track](/md/wiki/concepts/wechat-historical-story-track) | 视频号历史人物故事赛道：平台×人群×题材×品类四层适配 + 变现阶梯 + 可复用判断清单 | X/Twitter 综合 |
@@ -552,6 +553,7 @@ wiki/
 | [david-ai-game-publishing-platforms](/md/wiki/sources/david-ai-game-publishing-platforms) | 大卫：4 款 AI 小游戏收入 10 万！国内外 7 个小游戏发行入口、7 步开发路径与 4 大变现避坑 | X/Twitter |
 | [weiyux2021-claude-xianyu-ecommerce-workflow](/md/wiki/sources/weiyux2021-claude-xianyu-ecommerce-workflow) | 动物园园长：用 Claude 跑通闲鱼电商全流程——选品、文案、话术与运营 | X/Twitter |
 | [wadezone-2026-ordinary-person-1m-guide](/md/wiki/sources/wadezone-2026-ordinary-person-1m-guide) | Koda：2026 年普通人如何一年赚 100 万——破除心理封印，直接收陌生人的钱 | X/Twitter |
+| [jamesai-zero-cost-b2b-leads-in-24h](/md/wiki/sources/jamesai-zero-cost-b2b-leads-in-24h) | 在悉尼和稀泥：普通人如何在 24 小时内 0 成本拿到 B 端客资——焦虑需求与轻咨询样品 | X/Twitter |
 | [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
 | [cross-platform-information-arbitrage](/md/wiki/patterns/cross-platform-information-arbitrage) | 跨平台信息差中介：不搬本体，只卖信息与配置——五个可复制样本与共性公式 | X/Twitter |
 | [hyhongyu-inside-outside-information-arbitrage-09](/md/wiki/sources/hyhongyu-inside-outside-information-arbitrage-09) | 红鱼：墙内外的赚钱信息差（第九期）——插件教程、Notion 模板、Newsletter 摘要等五个样本 | X/Twitter |
@@ -585,6 +587,7 @@ wiki/
 | [xiaohuihui-deepseek-dafeiyu-deployment-monetization](/md/wiki/sources/xiaohuihui-deepseek-dafeiyu-deployment-monetization) | 龙克星：DeepSeek「大肥鱼」人性化部署——Windows 本地装 DSH 并接入 QQ/微信/B 站 | X/Twitter |
 | [lucaspei-ai-xhs-notes-skill-pipeline](/md/wiki/sources/lucaspei-ai-xhs-notes-skill-pipeline) | 裴同学：AI 全自动生产小红书笔记 2 小时 30 篇——自研工具被 1 天搭的 Skill 换掉 | X/Twitter |
 | [qichen-xiaohongshu-operation-skills](/md/wiki/sources/qichen-xiaohongshu-operation-skills) | 柒晨：小红书全套运营 Skill 清单——12 款工具串起调研、写作、做图与分发全链路 | X/Twitter |
+| [todaykan-xiaohongshu-complete-operations-guide](/md/wiki/sources/todaykan-xiaohongshu-complete-operations-guide) | Today🦘：小红书运营完全指南——起号养号到日常运营保姆教程 | X/Twitter |
 | [longhai-uncle-bob-ub-mode-skill-review](/md/wiki/sources/longhai-uncle-bob-ub-mode-skill-review) | 龙海：实测 Uncle Bob 的 ub-mode——152 行 SKILL.md + 三个量化门禁工具的完整拆解 | X/Twitter |
 | [victor-adsense-publisher-id-site-cluster-discovery](/md/wiki/sources/victor-adsense-publisher-id-site-cluster-discovery) | Victor 在西雅图：用 AdSense 发布商 ID 反查站群——四步摸清站长手里还有哪些站 | X/Twitter |
 | [jasonzeyuan818-gomotion-youtube-documentary-mrr](/md/wiki/sources/jasonzeyuan818-gomotion-youtube-documentary-mrr) | Jason泽源：GoMotion 上线不到 3 个月 MRR 6.4 万美元——贴脚本自动出 15 分钟纪录片 | X/Twitter |

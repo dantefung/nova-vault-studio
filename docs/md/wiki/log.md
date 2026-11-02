@@ -4,6 +4,18 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 3 篇 X 实战精选（冰河 Codex 画布终极版 / Today🦘 小红书运营完全指南 / 悉尼和稀泥 24 小时 0 成本 B 端获客）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 29 张（无超限），归档至 `sources/`
+- 归档列表：
+  1. `sources/binghe-codex-ai-canvas-plugin.md`（冰河 @binghe，164 行，13 图）：Codex 插件 AI-Canvas 全能无限画布终极版发布——为 Codex 配上无限画布与局部重绘选区能力，图层拖拽与多版本对比，解决纯文本交互难以微调生图的痛点；还原 GitHub 仓库地址 binghe1980/AI-Canvas
+  2. `sources/todaykan-xiaohongshu-complete-operations-guide.md`（Today🦘 @TodayKan，258 行，15 图）：小红书运营完全指南——起号养号到日常运营保姆教程。基于近 30 天 148 万曝光的实战经验，拆解起号定位、拟真人养号操作、主页人设三要素、对标选题矩阵与违规红线防御，以及心态与流量承接策略
+  3. `sources/jamesai-zero-cost-b2b-leads-in-24h.md`（在悉尼和稀泥 @JamesAI，70 行，1 图）：普通人如何在 24 小时内 0 成本拿到 B 端客资——以出海、获客、GEO、FDE 等焦虑型需求为抓手，用 AI 生成行业诊断书与痛点清单，定向触达决策人提供免费诊断，快速包装轻咨询服务样品
+- 去广告与规范化：
+  - 自动剔除作者文末公众号引流话术与互动求赞
+  - 执行 `normalize-typo.py` 盘古之白与标点规整
+- 索引同步：`docs/md/wiki/index.md` 对应增加 3 篇条目（工具与技能 1 条、内容与工具工作流 1 条、AI 变现与套利 1 条）
+
 ## [2026-11-02] ingest: 3 篇 X 创作者与电商实战（鱼总 X 收益完全指南 / 动物园园长 Claude 闲鱼电商 / 冰河排版 Skill V2.0）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 42 张（无超限），归档至 `sources/`
