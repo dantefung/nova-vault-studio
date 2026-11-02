@@ -14,7 +14,7 @@
     "generate:resource-nav": "node scripts/build-resource-nav.js --all",
     "check:resource-nav": "node scripts/build-resource-nav.js --check",
     "generate:blog-routes": "node scripts/generate-blog-routes.js",
-    "build": "npm run generate:pdf-pages && npm run generate:blog-index && npm run generate:resource-nav && npm run generate:blog-routes && cross-env VITE_FONT_SOURCE=local vitepress build docs",
+    "build": "npm run generate:pdf-pages && npm run generate:blog-index && npm run generate:resource-nav && npm run generate:blog-routes && cross-env NODE_OPTIONS=--max-old-space-size=5120 VITE_FONT_SOURCE=local vitepress build docs",
     "preview": "cross-env VITE_FONT_SOURCE=local vitepress preview docs"
   },
   "author": "DANTE FUNG",

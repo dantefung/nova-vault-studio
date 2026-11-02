@@ -3,5 +3,10 @@
   "framework": "vitepress",
   "installCommand": "npm install",
   "buildCommand": "npm run build",
-  "outputDirectory": "docs/.vitepress/dist"
+  "outputDirectory": "docs/.vitepress/dist",
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--max-old-space-size=5120"
+    }
+  }
 }

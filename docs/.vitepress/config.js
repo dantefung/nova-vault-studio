@@ -5,7 +5,7 @@ import markdownItMarkmap from './plugins/markdown-it-markmap.js'
 import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories, generateBookNavItems } from './sidebar.js'
 
 
-const SEARCH_RENDER_SIZE_LIMIT = 200_000
+const SEARCH_RENDER_SIZE_LIMIT = 100_000
 
 // 搜索索引模式：full=全量 / partial=仅核心目录 / off=关闭索引
 // 未显式指定时本地取 full，Vercel 等受限 CI 自动降为 partial（省构建内存）
@@ -16,8 +16,16 @@ if (!['full', 'partial', 'off'].includes(SEARCH_MODE)) {
 }
 
 // partial 模式下整棵跳过的目录（路径相对 docs/，命中自身或子路径即跳过）。
-// 这四块是归档原始素材，索引价值低但体积最大；其余目录默认全部索引。
-const SEARCH_PARTIAL_SKIP_ROOTS = ['md/columns', 'md/books', 'md/agi', 'md/wiki/sources', 'md/guide/cs/system-design-101', 'md/wiki/log.md', 'md/wiki/index.md']
+// 这几块是归档原始素材或超大合辑，索引价值低但体积最大；其余目录默认全部索引。
+const SEARCH_PARTIAL_SKIP_ROOTS = [
+  'md/columns',
+  'md/books',
+  'md/agi',
+  'md/wiki/sources',
+  'md/guide/cs/system-design-101',
+  'md/wiki/log.md',
+  'md/wiki/index.md',
+]
 
 const enableLocalSearch = SEARCH_MODE !== 'off'
 
@@ -40,7 +48,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   // 实测：并发只影响构建耗时，对峰值内存无显著影响（16 比 4 快 30-45%）。
   // VitePress 默认 64，此处显式压到 16。
-  buildConcurrency: 8,
+  buildConcurrency: 16,
   metaChunk: true,
   title: 'System Vault',
   description: '系统知识库 - 凡是过往，皆为序章',
