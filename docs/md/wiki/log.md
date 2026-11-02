@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 3 篇 X 架构与工具精选（Addy Osmani 编排税 / 山景城小路 Super-agent 细读 / 柒晨小红书 12 款运营 Skill）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 4 张（无超限），归档至 `sources/`
+- 归档列表：
+  1. `sources/addyosmani-the-orchestration-tax.md`（Addy Osmani @addyosmani，84 行，1 图）：编排税（The Orchestration Tax）——启动更多 Agent 很简单，但认知带宽无法并行，人是唯一的串行处理器（Python GIL）。阿姆达尔定律决定加速上限被人工判断卡死；注意力架构化的 5 条原则（按审查速率反压、任务分流、批量审查、串行锁只花在判断上、保护串行时间）
+  2. `sources/zen-with-ai-deepseek-super-agent-architecture.md`（山景城小路 @Zen_with_AI，78 行，1 图）：DeepSeek Super-agent 架构长文细读——把计算机经典机制搬进 Agent 系统。中心 Router 用小模型做接话/分派/记账，边缘 Worker 跑繁重任务；Trigger 批处理让平均推理时间从 6.4s 降到 1.6s；指出长期记忆、Router 拆分与安全三大未解问题
+  3. `sources/qichen-xiaohongshu-operation-skills.md`（柒晨来了 @qichen1019，112 行，2 图）：小红书全套运营 Skill 清单——12 款开源工具串起调研（Agent-Reach、xhs-cli）、写作与卡片（baoyu-xhs-images、guizang-social-card-skill）、发布与操作（xiaohongshu-mcp、XiaohongshuSkills）、分发（social-auto-upload）；还原全部 12 个 t.co 短链为 GitHub 仓库真实地址
+- 校验与规范：全部图片本地化，无远程图残留，无悬空 wikilink，通过所有 pre-commit 钩子
+- 索引同步：`docs/md/wiki/index.md` 对应增加 3 篇条目（Agent 工程 2 条、内容与工具工作流 1 条）
+
 ## [2026-11-02] ingest: 7 篇 X 精选长文 + 1 篇微信公众号（出海盈利小站 / Agent 自动化中台 / Grok Bot 出海 / Super-agent 细读 / AI 工作台服务 / 无限流数字人 / MJ 参照图库 / 强站带小站分析）
 
 - 抓取与归档：
@@ -53,7 +63,7 @@ source: "llm-wiki"
   - 章节标题重复渲染 3~4 次并带 `Cloud Native` 尾缀、裸编号行、标题被拆成 2~3 行——写脚本按「`## 0N` 标题 → 下一个 `###` 之间整段丢弃」规整，4 个章节标题各保留 1 次
   - `▍小标题` 与 `### ▍小标题` 成对重复 → 合并为单个 `###`
   - **7 个表格全部丢失 `|` 分隔符**，单元格被拆成独立行 → 按「锚点首格 + 列数」重建为标准 Markdown 表格（场景/常见做法/对象/状态/邮件/状态层次/逻辑职责），并删除重建时产生的重复表头行
-  - 5 处流程图被压成单行 → 还原为 ```text 代码块并按层级缩进（Agent 循环、Commit 提交顺序、模型生成任务、工具两阶段、恢复调度）
+  - 5 处流程图被压成单行 → 还原为 ```text 代码块```并按层级缩进（Agent 循环、Commit 提交顺序、模型生成任务、工具两阶段、恢复调度）
   - 会话记录样例、Task 状态 JSON 示例、Commit 写入清单 → 补回代码块/列表格式
 - 内容摘要：
   - ① **核心区分**——会话恢复让对话保持连续，Durable 让任务执行保持连续；`send_batch_emails` 是一个调用，内部发了几封对外层循环不可见

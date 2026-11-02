@@ -306,8 +306,10 @@ wiki/
 | [agent-sandbox-three-layer-model](/md/wiki/concepts/agent-sandbox-three-layer-model) | Agent 沙箱三层模型：隔离边界（OpenSandbox）/ 能力控制（nono）/ 策略治理（护栏），正交对照与五场景选型 | 原创综合 |
 | [agent-sandbox-survey](/md/wiki/sources/agent-sandbox-survey) | Agent Sandbox 调研与选型：L0–L4 五层分层 + 九大主流方案选型矩阵（AX / Substrate / DSec / OpenSandbox / CubeSandbox / E2B 等） | 公众号 |
 | [deepseek-dsec-sandbox-infrastructure](/md/wiki/sources/deepseek-dsec-sandbox-infrastructure) | DeepSeek DSec 论文解读：一天 300 万沙盒，四级异构后端（FnCall/Container/MicroVM/FullVM）+ 训练与沙箱生命周期解耦 | 公众号 |
+| [addyosmani-the-orchestration-tax](/md/wiki/sources/addyosmani-the-orchestration-tax) | Addy Osmani：编排税（The Orchestration Tax）——启动更多 Agent 不等于更多产出，人是唯一的串行瓶颈 | X/Twitter |
 | [khazix-agent-automation-system](/md/wiki/sources/khazix-agent-automation-system) | 数字生命卡兹克：折腾了一年，毫无保留地分享我的 Agent 自动化系统（中台+本地+CI） | X/Twitter |
 | [sujingshen-deepseek-harness-super-agent-reading](/md/wiki/sources/sujingshen-deepseek-harness-super-agent-reading) | SagaSu：细读 DeepSeek Harness Super-agent 设计——不是更聪明，是不用你盯着 | X/Twitter |
+| [zen-with-ai-deepseek-super-agent-architecture](/md/wiki/sources/zen-with-ai-deepseek-super-agent-architecture) | 山景城小路：细读 DeepSeek Super-agent 架构长文——把计算机经典机制搬进 Agent 系统 | X/Twitter |
 | [dannykkg-ai-sandbox-primer](/md/wiki/summaries/dannykkg-ai-sandbox-primer) | Sandbox入门：≠Docker≠VM；六类受限资源（文件/进程/网络/凭据/算力/生命周期）；预分配+拦截双层防御；三道防线+7问自检 | X/Twitter |
 | [agent-flow-vs-general](/md/wiki/sources/agent-flow-vs-general) | 从 Agent Flow 到 AI Native：通用 Agent 是「饮鸩止渴」；最小任务单元、Hardcode 是美丽的、AI Native 本质是解决用户问题、基建要 LLM-friendly、组织链路要足够短 | 公众号 |
 | [linux-interrupt-overview](/md/wiki/sources/linux-interrupt-overview) | Linux 中断管理概述：顶半部/底半部分层架构，三大底半部机制（Softirq/Tasklet/Workqueue）特点与适用场景 | 公众号 |
@@ -576,6 +578,7 @@ wiki/
 | [bubblu-ordinary-youth-10-core-competencies](/md/wiki/sources/bubblu-ordinary-youth-10-core-competencies) | Bubblu：普通年轻人破局的 10 个核心维度——从 AI 生产力到按月复盘闭环 | X/Twitter |
 | [xiaohuihui-deepseek-dafeiyu-deployment-monetization](/md/wiki/sources/xiaohuihui-deepseek-dafeiyu-deployment-monetization) | 龙克星：DeepSeek「大肥鱼」人性化部署——Windows 本地装 DSH 并接入 QQ/微信/B 站 | X/Twitter |
 | [lucaspei-ai-xhs-notes-skill-pipeline](/md/wiki/sources/lucaspei-ai-xhs-notes-skill-pipeline) | 裴同学：AI 全自动生产小红书笔记 2 小时 30 篇——自研工具被 1 天搭的 Skill 换掉 | X/Twitter |
+| [qichen-xiaohongshu-operation-skills](/md/wiki/sources/qichen-xiaohongshu-operation-skills) | 柒晨：小红书全套运营 Skill 清单——12 款工具串起调研、写作、做图与分发全链路 | X/Twitter |
 | [longhai-uncle-bob-ub-mode-skill-review](/md/wiki/sources/longhai-uncle-bob-ub-mode-skill-review) | 龙海：实测 Uncle Bob 的 ub-mode——152 行 SKILL.md + 三个量化门禁工具的完整拆解 | X/Twitter |
 | [victor-adsense-publisher-id-site-cluster-discovery](/md/wiki/sources/victor-adsense-publisher-id-site-cluster-discovery) | Victor 在西雅图：用 AdSense 发布商 ID 反查站群——四步摸清站长手里还有哪些站 | X/Twitter |
 | [jasonzeyuan818-gomotion-youtube-documentary-mrr](/md/wiki/sources/jasonzeyuan818-gomotion-youtube-documentary-mrr) | Jason泽源：GoMotion 上线不到 3 个月 MRR 6.4 万美元——贴脚本自动出 15 分钟纪录片 | X/Twitter |
