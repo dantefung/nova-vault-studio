@@ -4,6 +4,27 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 11 篇 X 精选实战长文（Tw93 Claude Code 半年总结 / 孙宇晨 4 小时访谈 / 微信小店全流程 / Hermes 第二大脑 / 闲鱼自动化客服 / X 14 天创作者收益 / TikTok Codex / 图文变现 2 篇 / 4 位数剪辑流 / 返利 CPS）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 100 张（无超限），归档至 `sources/`
+- 归档列表：
+  1. `sources/hitw93-claude-code-architecture-and-governance.md`（Tw93 @HiTw93，754 行，23 图）：你不知道的 Claude Code——半年高强度使用全景总结：从功能试用到约束下 Agent 自主工程演进，CLAUDE.md 上下文管理、Skills 模块化设计、任务自检断言与质量门禁设计
+  2. `sources/btcdayu-sunyuchen-4h-dialogue-summary.md`（大宇 @BTCdayu，609 行，1 图）：4 小时对话孙宇晨精排全文——年轻人怎么抓时代机会，非共识决策与生产力杠杆
+  3. `sources/zhuoyihang-wechat-shop-ecommerce-guide.md`（在下卓一航 @zhuoyihang0329，182 行，10 图）：微信小店搞钱保姆级教程——从准备到开店全流程，熟人社交与公私域联动万亿级红利
+  4. `sources/lxfater-hermes-agent-newsletter-second-brain.md`（铁锤人 @lxfater，306 行，15 图）：Hermes Agent 工作流——用网易龙虾邮箱订阅顶级 AI Newsletter 并自动解构沉淀至向量知识库
+  5. `sources/kyrie-codex-xianyu-customer-service-automation.md`（Kyrie @KyrieCheungYep，253 行，5 图）：7 分钟搭好闲鱼自动化客服——多轮对话决策树即时交付虚拟服务，让付费的 Codex 自己赚回来
+  6. `sources/wadezone-x-creator-14-days-blue-v-strategy.md`（Koda @wadezone，276 行，7 图）：前 3 天一个字没发，14 天开通 X 创作者收益——借势互动与垂直干货冷启动 500 万展示量策略
+  7. `sources/aronhouyu-tiktok-operations-with-codex.md`（Aron厚玉 @aronhouyu，354 行，17 图）：我把 TikTok 运营塞进了 Codex——选品、拆账号、找达人全流程自动化
+  8. `sources/geekcatx-douyin-image-text-monetization-case.md`（知识猫 @GeekCatX，93 行，2 图）：抖音图文账号变现实战拆解——陈皮拿铁 9 万粉起号，爆款素材不要硬想而是「扒和养」
+  9. `sources/geekcatx-xiaohongshu-healing-comic-case.md`（知识猫 @GeekCatX，43 行，2 图）：小红书治愈系漫画图文拆解——小僧不内耗 5.7 万粉变现路径（商单/流量主/私域/卖号）
+  10. `sources/zerber-daily-4-figure-video-clip-workflow.md`（Zerber @Zerber_，192 行，4 图）：开源日赚 4 位数剪辑工作流——结合 Remotion / 剪映自动化零基础 1 小时搓出科普视频
+  11. `sources/dongqing-rebate-cps-bot-passive-income.md`（冬青 @DongQingAsk，210 行，14 图）：返利 CPS 机器人——月入 3-5K 长期稳定被动收入小项目，地推获客与私域自动比价
+- 去广告与规范化：
+  - 自动剥离推文内嵌的第三方链接、邀请码和导流结尾
+  - 还原反解全部可达的外链与 GitHub 仓库真实地址
+  - 执行 `normalize-typo.py` 盘古之白与标点规整
+- 索引同步：`docs/md/wiki/index.md` 对应增加 11 篇条目（Agent 工程 2 条、出海工具与方法 2 条、AI 变现与套利 4 条、内容与工具工作流 3 条）
+
 ## [2026-11-02] ingest: 1 篇 X 长文（Aron厚玉 AI 上升词自动发现与批量选题流水线）
 
 - 抓取与归档：`scripts/x-pipeline.py all` 跑通 `fetch → images → build → normalize → check`，本地化配图 5 张（最大 134 KB，无超限）

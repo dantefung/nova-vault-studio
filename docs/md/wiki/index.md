@@ -307,6 +307,8 @@ wiki/
 | [agent-sandbox-three-layer-model](/md/wiki/concepts/agent-sandbox-three-layer-model) | Agent 沙箱三层模型：隔离边界（OpenSandbox）/ 能力控制（nono）/ 策略治理（护栏），正交对照与五场景选型 | 原创综合 |
 | [agent-sandbox-survey](/md/wiki/sources/agent-sandbox-survey) | Agent Sandbox 调研与选型：L0–L4 五层分层 + 九大主流方案选型矩阵（AX / Substrate / DSec / OpenSandbox / CubeSandbox / E2B 等） | 公众号 |
 | [deepseek-dsec-sandbox-infrastructure](/md/wiki/sources/deepseek-dsec-sandbox-infrastructure) | DeepSeek DSec 论文解读：一天 300 万沙盒，四级异构后端（FnCall/Container/MicroVM/FullVM）+ 训练与沙箱生命周期解耦 | 公众号 |
+| [hitw93-claude-code-architecture-and-governance](/md/wiki/sources/hitw93-claude-code-architecture-and-governance) | Tw93：你不知道的 Claude Code——架构、治理与工程实践半年全景 | X/Twitter |
+| [lxfater-hermes-agent-newsletter-second-brain](/md/wiki/sources/lxfater-hermes-agent-newsletter-second-brain) | 铁锤人：Hermes Agent 工作流——用顶级 AI Newsletter 构建第二大脑 | X/Twitter |
 | [addyosmani-the-orchestration-tax](/md/wiki/sources/addyosmani-the-orchestration-tax) | Addy Osmani：编排税（The Orchestration Tax）——启动更多 Agent 不等于更多产出，人是唯一的串行瓶颈 | X/Twitter |
 | [khazix-agent-automation-system](/md/wiki/sources/khazix-agent-automation-system) | 数字生命卡兹克：折腾了一年，毫无保留地分享我的 Agent 自动化系统（中台+本地+CI） | X/Twitter |
 | [sujingshen-deepseek-harness-super-agent-reading](/md/wiki/sources/sujingshen-deepseek-harness-super-agent-reading) | SagaSu：细读 DeepSeek Harness Super-agent 设计——不是更聪明，是不用你盯着 | X/Twitter |
@@ -536,6 +538,8 @@ wiki/
 | [open-source-seo-tooling-list](/md/wiki/sources/open-source-seo-tooling-list) | 6 个开源免费 SEO 工具原始归档：SEOnaut / SoPilot / SerpBear / OpenSEO / SEOMachine / Awesome Open Source SEO | X |
 | [chuhaiqu-social-distribution-playbook](/md/wiki/sources/chuhaiqu-social-distribution-playbook) | 出海去孵化器：做产品容易，怎么通过推特、油管、短视频把产品卖出去？ | X/Twitter |
 | [ai-jasonyu-x-creator-revenue-complete-guide](/md/wiki/sources/ai-jasonyu-x-creator-revenue-complete-guide) | 鱼总聊AI：2026 年 X 创作者收益完全指南——从零到收款实操与避坑 | X/Twitter |
+| [wadezone-x-creator-14-days-blue-v-strategy](/md/wiki/sources/wadezone-x-creator-14-days-blue-v-strategy) | Koda：我前 3 天一个字没发，然后 14 天开通了 X 创作者收益 | X/Twitter |
+| [aronhouyu-tiktok-operations-with-codex](/md/wiki/sources/aronhouyu-tiktok-operations-with-codex) | Aron厚玉：我把 TikTok 运营塞进了 Codex——选品、拆账号、找达人全流程自动化 | X/Twitter |
 | [ai-automated-internal-link-seo](/md/wiki/patterns/ai-automated-internal-link-seo) | AI 自动内链 SEO：拿竞品前三当对照样本，阈值自算、归因只认证据、先清单后自动 | X/Twitter |
 | [ai-chuhai-46-small-sites-real-revenue](/md/wiki/sources/ai-chuhai-46-small-sites-real-revenue) | 爱出海：46 个闷声发财的小站——翻完 1.5 万个收银台和 1161 份真实收入 | X/Twitter |
 | [taowithsaas-ezmaker-traffic-analysis](/md/wiki/sources/taowithsaas-ezmaker-traffic-analysis) | taoWithSaaS：一个新站首月访问量破 10w+ 原来是这么做到的（强站带小站外链揭秘） | 公众号 |
@@ -554,6 +558,10 @@ wiki/
 | [weiyux2021-claude-xianyu-ecommerce-workflow](/md/wiki/sources/weiyux2021-claude-xianyu-ecommerce-workflow) | 动物园园长：用 Claude 跑通闲鱼电商全流程——选品、文案、话术与运营 | X/Twitter |
 | [wadezone-2026-ordinary-person-1m-guide](/md/wiki/sources/wadezone-2026-ordinary-person-1m-guide) | Koda：2026 年普通人如何一年赚 100 万——破除心理封印，直接收陌生人的钱 | X/Twitter |
 | [jamesai-zero-cost-b2b-leads-in-24h](/md/wiki/sources/jamesai-zero-cost-b2b-leads-in-24h) | 在悉尼和稀泥：普通人如何在 24 小时内 0 成本拿到 B 端客资——焦虑需求与轻咨询样品 | X/Twitter |
+| [btcdayu-sunyuchen-4h-dialogue-summary](/md/wiki/sources/btcdayu-sunyuchen-4h-dialogue-summary) | 大宇：4 小时对话孙宇晨精排全文——年轻人怎么抓时代机会与杠杆 | X/Twitter |
+| [kyrie-codex-xianyu-customer-service-automation](/md/wiki/sources/kyrie-codex-xianyu-customer-service-automation) | Kyrie：7 分钟搭好闲鱼自动化客服——让付费的 Codex 自己赚回来 | X/Twitter |
+| [zhuoyihang-wechat-shop-ecommerce-guide](/md/wiki/sources/zhuoyihang-wechat-shop-ecommerce-guide) | 在下卓一航：微信小店搞钱保姆级教程——从准备到开店全流程与熟人生态 | X/Twitter |
+| [dongqing-rebate-cps-bot-passive-income](/md/wiki/sources/dongqing-rebate-cps-bot-passive-income) | 冬青：返利 CPS 机器人——月入 3-5K 长期稳定被动收入小项目 | X/Twitter |
 | [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
 | [cross-platform-information-arbitrage](/md/wiki/patterns/cross-platform-information-arbitrage) | 跨平台信息差中介：不搬本体，只卖信息与配置——五个可复制样本与共性公式 | X/Twitter |
 | [hyhongyu-inside-outside-information-arbitrage-09](/md/wiki/sources/hyhongyu-inside-outside-information-arbitrage-09) | 红鱼：墙内外的赚钱信息差（第九期）——插件教程、Notion 模板、Newsletter 摘要等五个样本 | X/Twitter |
@@ -588,6 +596,9 @@ wiki/
 | [lucaspei-ai-xhs-notes-skill-pipeline](/md/wiki/sources/lucaspei-ai-xhs-notes-skill-pipeline) | 裴同学：AI 全自动生产小红书笔记 2 小时 30 篇——自研工具被 1 天搭的 Skill 换掉 | X/Twitter |
 | [qichen-xiaohongshu-operation-skills](/md/wiki/sources/qichen-xiaohongshu-operation-skills) | 柒晨：小红书全套运营 Skill 清单——12 款工具串起调研、写作、做图与分发全链路 | X/Twitter |
 | [todaykan-xiaohongshu-complete-operations-guide](/md/wiki/sources/todaykan-xiaohongshu-complete-operations-guide) | Today🦘：小红书运营完全指南——起号养号到日常运营保姆教程 | X/Twitter |
+| [geekcatx-douyin-image-text-monetization-case](/md/wiki/sources/geekcatx-douyin-image-text-monetization-case) | 知识猫：抖音图文账号变现实战拆解——陈皮拿铁 9 万粉起号与素材复刻 | X/Twitter |
+| [geekcatx-xiaohongshu-healing-comic-case](/md/wiki/sources/geekcatx-xiaohongshu-healing-comic-case) | 知识猫：小红书治愈系漫画图文拆解——小僧不内耗 5.7 万粉变现路径 | X/Twitter |
+| [zerber-daily-4-figure-video-clip-workflow](/md/wiki/sources/zerber-daily-4-figure-video-clip-workflow) | Zerber：开源日赚 4 位数剪辑工作流——零基础 1 小时搓出科普视频 | X/Twitter |
 | [longhai-uncle-bob-ub-mode-skill-review](/md/wiki/sources/longhai-uncle-bob-ub-mode-skill-review) | 龙海：实测 Uncle Bob 的 ub-mode——152 行 SKILL.md + 三个量化门禁工具的完整拆解 | X/Twitter |
 | [victor-adsense-publisher-id-site-cluster-discovery](/md/wiki/sources/victor-adsense-publisher-id-site-cluster-discovery) | Victor 在西雅图：用 AdSense 发布商 ID 反查站群——四步摸清站长手里还有哪些站 | X/Twitter |
 | [jasonzeyuan818-gomotion-youtube-documentary-mrr](/md/wiki/sources/jasonzeyuan818-gomotion-youtube-documentary-mrr) | Jason泽源：GoMotion 上线不到 3 个月 MRR 6.4 万美元——贴脚本自动出 15 分钟纪录片 | X/Twitter |
