@@ -4,6 +4,27 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 7 篇 X 精选长文 + 1 篇微信公众号（出海盈利小站 / Agent 自动化中台 / Grok Bot 出海 / Super-agent 细读 / AI 工作台服务 / 无限流数字人 / MJ 参照图库 / 强站带小站分析）
+
+- 抓取与归档：
+  - 7 篇 X 长文通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 66 张
+  - 1 篇微信公众号（taoWithSaaS《一个新站首月访问量破 10w+》）通过 `fetch_weixin.py` 抓取正文，清洗去重第一遍压缩杂质，下载本地化配图 11 张，经 `normalize-typo.py` 规范排版
+  - 8 篇所有配图共 77 张，全部经 `check-image-size.py` 校验，无一张超 500KB，无远程图残留，无悬空 wikilink
+- 归档列表：
+  1. `sources/ai-chuhai-46-small-sites-real-revenue.md`（爱出海 @ai_chuhai，562 行，5 图）：花钱买的 1.5 万个收银台导流站 + 1161 份真实收款数据包，按起步方法分五组拆解 46 个闷声发财小站（31 个有真实月收入、19 个 9 月单月收款过 $10,000，15 个付费页流量暴涨）
+  2. `sources/khazix-agent-automation-system.md`（数字生命卡兹克 @Khazix0918，368 行，17 图）：设计师一年折腾自建 Agent 自动化系统全景——自动化中台（统一短消息格式 + rules.json 规则）+ 本地 Mac 长轮询接单程序 + CI 中台（审查/检查/合并/发布/核实五步），支撑百万月活与 9000 star 公益项目；核心判断：人的注意力是整个系统最大瓶颈
+  3. `sources/kkkeric-grok-bot-growth-22-bots.md`（KKKK @kkkeric_ai，287 行，10 图）：一人 + 22 个 Grok Bot 跑通 5 种语言、20+ 海外渠道、周发 200 条内容；覆盖 SEO/AEO 巡检、外链、代码视频、热点监控、竞品监控与邮箱管理，附开源技能包 grokbot-growth；踩坑：群聊管 Bot 消耗 40% 额度
+  4. `sources/sujingshen-deepseek-harness-super-agent-reading.md`（SagaSu @sujingshen，379 行，15 图）：细读 DeepSeek Harness《Exploring Super-agent Design》论文五个核心判断——瓶颈从模型转向人注意力（活跃 session 上限 3~5 个）、结构 > prompt（Fast/Slow Path 分流）、session 只是实现细节、上下文是缓存不是仓库（Inline & Spill + Chain of Recall）、说话分场合；附带模型使用技巧
+  5. `sources/victor-chen-ai-workbench-six-figure-profit.md`（victor chen @victorchengood，178 行，8 图）：用 3 条海报咨询做可打开改字下载的小网页，卖给设计工作室四步：找客户问痛点、做样品验证、报价拆解（整理/处理/文件/教学/修改/维护列清）、小范围试用验证付费意愿
+  6. `sources/lufzzliz-infinite-digital-human-koubo.md`（岚叔 @LufzzLiz，114 行，2 图）：无限流数字人口播开源项目 lanshu-infinite-stream-koubo——一次性捏人物母片生成动作镜头库，后续日更只花几块钱配音口型费，底片无限复用裂变 6 种质感
+  7. `sources/94vanai-mj-reference-image-library.md`（94 Playforge @94vanAI，66 行，5 图）：AIGC 素材库从囤提示词到囤参照图的演进，分享 4000+ 张实用参照图（1499 张纯色脸模、1439 张多视角姿势无脸线稿、1407 套服装），把捏人变成拼积木
+  8. `sources/taowithsaas-ezmaker-traffic-analysis.md`（taoWithSaaS，37 行，11 图）：4 个月月访问量破百万的图片工具站 ezmaker.ai 流量反查——Similarweb 结合 Google 高级指令 `site:aifaceswap.io "ezmaker.ai"` 顺藤摸瓜，揭秘成熟大站 aifaceswap.io 强站带小站的外链导流真相
+- 去广告与规范化：
+  - 自动剔除各推文末尾的 `## Thread` 追踪外壳与推文链接
+  - 剔除作者末尾社交引流话术（如欢迎关注、求赞、进群引导、renoise 推广参数链接）
+  - 格式化标点与盘古之白排版
+- 索引同步：`docs/md/wiki/index.md` 对应增加 8 篇条目至「出海工具与方法」、「Agent 工程」、「内容与工具工作流」三大分类
+
 ## [2026-11-02] 综合：Agent 沙箱三层模型——隔离边界 / 能力控制 / 策略治理（原创长文 + 概念页）
 
 - 起因：用户新增 OpenSandbox 与 nono 两个资源到 AI 编程资源页后，指出「这个沙箱好用」，继而需要一篇把沙箱方案串起来的对比稿

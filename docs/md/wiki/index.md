@@ -306,6 +306,8 @@ wiki/
 | [agent-sandbox-three-layer-model](/md/wiki/concepts/agent-sandbox-three-layer-model) | Agent 沙箱三层模型：隔离边界（OpenSandbox）/ 能力控制（nono）/ 策略治理（护栏），正交对照与五场景选型 | 原创综合 |
 | [agent-sandbox-survey](/md/wiki/sources/agent-sandbox-survey) | Agent Sandbox 调研与选型：L0–L4 五层分层 + 九大主流方案选型矩阵（AX / Substrate / DSec / OpenSandbox / CubeSandbox / E2B 等） | 公众号 |
 | [deepseek-dsec-sandbox-infrastructure](/md/wiki/sources/deepseek-dsec-sandbox-infrastructure) | DeepSeek DSec 论文解读：一天 300 万沙盒，四级异构后端（FnCall/Container/MicroVM/FullVM）+ 训练与沙箱生命周期解耦 | 公众号 |
+| [khazix-agent-automation-system](/md/wiki/sources/khazix-agent-automation-system) | 数字生命卡兹克：折腾了一年，毫无保留地分享我的 Agent 自动化系统（中台+本地+CI） | X/Twitter |
+| [sujingshen-deepseek-harness-super-agent-reading](/md/wiki/sources/sujingshen-deepseek-harness-super-agent-reading) | SagaSu：细读 DeepSeek Harness Super-agent 设计——不是更聪明，是不用你盯着 | X/Twitter |
 | [dannykkg-ai-sandbox-primer](/md/wiki/summaries/dannykkg-ai-sandbox-primer) | Sandbox入门：≠Docker≠VM；六类受限资源（文件/进程/网络/凭据/算力/生命周期）；预分配+拦截双层防御；三道防线+7问自检 | X/Twitter |
 | [agent-flow-vs-general](/md/wiki/sources/agent-flow-vs-general) | 从 Agent Flow 到 AI Native：通用 Agent 是「饮鸩止渴」；最小任务单元、Hardcode 是美丽的、AI Native 本质是解决用户问题、基建要 LLM-friendly、组织链路要足够短 | 公众号 |
 | [linux-interrupt-overview](/md/wiki/sources/linux-interrupt-overview) | Linux 中断管理概述：顶半部/底半部分层架构，三大底半部机制（Softirq/Tasklet/Workqueue）特点与适用场景 | 公众号 |
@@ -528,6 +530,8 @@ wiki/
 | [open-source-seo-tooling-list](/md/wiki/sources/open-source-seo-tooling-list) | 6 个开源免费 SEO 工具原始归档：SEOnaut / SoPilot / SerpBear / OpenSEO / SEOMachine / Awesome Open Source SEO | X |
 | [chuhaiqu-social-distribution-playbook](/md/wiki/sources/chuhaiqu-social-distribution-playbook) | 出海去孵化器：做产品容易，怎么通过推特、油管、短视频把产品卖出去？ | X/Twitter |
 | [ai-automated-internal-link-seo](/md/wiki/patterns/ai-automated-internal-link-seo) | AI 自动内链 SEO：拿竞品前三当对照样本，阈值自算、归因只认证据、先清单后自动 | X/Twitter |
+| [ai-chuhai-46-small-sites-real-revenue](/md/wiki/sources/ai-chuhai-46-small-sites-real-revenue) | 爱出海：46 个闷声发财的小站——翻完 1.5 万个收银台和 1161 份真实收入 | X/Twitter |
+| [taowithsaas-ezmaker-traffic-analysis](/md/wiki/sources/taowithsaas-ezmaker-traffic-analysis) | taoWithSaaS：一个新站首月访问量破 10w+ 原来是这么做到的（强站带小站外链揭秘） | 公众号 |
 | [coderjefflee-saas-seo-infrastructure](/md/wiki/sources/coderjefflee-saas-seo-infrastructure) | 子木：《SaaS SEO Playbook》第三部分——站内基建，让 Google 能看见、看懂、收录 | X/Twitter |
 | [aichuhai-ai-automated-internal-links-seo](/md/wiki/sources/aichuhai-ai-automated-internal-links-seo) | 爱出海：AI 自动加内链做 SEO 原帖归档，附 Claude 自动内链英文工程书 | X/Twitter |
 
@@ -559,6 +563,10 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
+| [kkkeric-grok-bot-growth-22-bots](/md/wiki/sources/kkkeric-grok-bot-growth-22-bots) | KKKK：Grok Bot 出海增长实战——一人 + 22 个 Bot 跑通 20+ 社媒渠道、SEO/AEO 巡检与监控 | X/Twitter |
+| [victor-chen-ai-workbench-six-figure-profit](/md/wiki/sources/victor-chen-ai-workbench-six-figure-profit) | victor chen：AI 工作台单月利润六位数——手把手做出第一份服务样品与报价单 | X/Twitter |
+| [lufzzliz-infinite-digital-human-koubo](/md/wiki/sources/lufzzliz-infinite-digital-human-koubo) | 岚叔：保姆级无限流数字人口播教程及项目正式开源（底片动作库复用） | X/Twitter |
+| [94vanai-mj-reference-image-library](/md/wiki/sources/94vanai-mj-reference-image-library) | 94 Playforge：1499 张 MJ 脸模 + 1439 张多视角姿势 + 1407 套服装参考图库 | X/Twitter |
 | [nenly-zero-code-100k-indie-game-vibe-coding](/md/wiki/sources/nenly-zero-code-100k-indie-game-vibe-coding) | Nenly：万字复盘——0 代码基础如何用 AI 做出 10 万人玩过的独立游戏（4/4 篇） | X/Twitter |
 | [haosen-5-video-subtitle-tools](/md/wiki/sources/haosen-5-video-subtitle-tools) | Haosen：视频字幕不想手敲？这 5 个工具按用途选——转写/提取/去硬字幕/翻译/批量 | X/Twitter |
 | [gkxspace-impeccable-3d-game-playable-ads](/md/wiki/sources/gkxspace-impeccable-3d-game-playable-ads) | 余温：四个 AI 神器合集——Impeccable 去 AI 味、Hi3D 出 3D、Higgsfield 试玩广告、Sunra 掀中间商 | X/Twitter |
