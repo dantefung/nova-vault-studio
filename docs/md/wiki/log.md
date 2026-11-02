@@ -4,6 +4,13 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-02] ingest: 1 篇 X 长文（Aron厚玉 AI 上升词自动发现与批量选题流水线）
+
+- 抓取与归档：`scripts/x-pipeline.py all` 跑通 `fetch → images → build → normalize → check`，本地化配图 5 张（最大 134 KB，无超限）
+- 归档列表：
+  1. `sources/aronhouyu-ai-rising-keyword-topic-pipeline.md`（Aron厚玉 @aronhouyu，353 行，5 图）：把人工盯榜找选题换成自动化流水线——上升词与原始变体捕获、停用词与意图分类器过滤噪音并按同一用户任务聚类、两段硬约束提示词分别负责机会筛选与四张选题卡切角裂变、四阶段端到端架构（定时抓取入 SQLite → 规则引擎去噪 → 大模型出结构化卡片 → 推送飞书/Notion 看板），并给出种子词库贪多、负面舆情风控、12–48 小时内容真空期三条踩坑提醒
+- 排版处理：原文五个小节标题层级混乱（`## 一、`/`# 三、`/`# 四、`）统一为 H2 并去掉序号后的多余空格；两段提示词模板原本已在 markdown 代码围栏内，其中的双花括号占位符不会触发 Vue 插值检查
+
 ## [2026-11-02] ingest: 3 篇 X 长文（苍何 WeSight 多平台分发升级 / 北衡 Muse 小红书无人值守 / lumxss 创作者 Skill 清单）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 跑通 `fetch → images → build → normalize → check`，本地化配图 27 张（最大 208 KB，无超限），归档至 `sources/`
