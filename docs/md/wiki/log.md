@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-03] ingest-refine: 增长黑客范冰 DSH Super-agent 四层知识沉淀（补齐精读摘要与概念页）
+
+- **归档补充**：按项目 LLM Wiki 四层标准（sources → summaries → concepts → artifacts），为该篇微信长文补齐精读摘要与核心概念层：
+  1. **摘要层**：`summaries/fanbing-dsh-superagent-engineering-common-sense.md`
+     - 结构化提取 5 个工程设计（Router-Worker 前后台解耦、事件驱动与 Thread 串行、异步 ReAct Loop 5 秒规则、版本化 Policy 与 Mandate 授权单、Stored Work 事务记账）与后厨隐喻映射表。
+     - 归纳作者自建个人自动化系统五处反思对照（分拣层/看灶监工/机器可读配置/断点续跑/统一出口）。
+  2. **概念层**：`concepts/dsh-superagent-active-agent-architecture.md`
+     - 提炼「主动型 Coding Agent 架构设计：DSH Super-agent 五大工程常识」标准概念模型。
+     - 绘制事件驱动与双层调度架构流程图，整理传统 Agent vs 主动型 Super-agent 落地演进对照表。
+- **索引**：`wiki/index.md` 同步在「核心系统与架构」板块追加该概念页与摘要页链接。
+
 ## [2026-11-03] fix: 修复 Vercel 构建失败——裸 HTML 标签击穿 Vue 编译器 + 补装完整 pre-commit 钩子
 
 - **故障现象**：本批次采集提交后，Vercel 生产构建在 `building client + server bundles` 阶段失败：

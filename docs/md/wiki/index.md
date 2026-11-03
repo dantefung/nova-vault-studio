@@ -360,6 +360,8 @@ wiki/
 | [dsh-complete-guide](/md/wiki/sources/dsh-complete-guide) | DSH 完全指南：浏览器优先 + 133 插件 + config 关闭任意插件 + trajectory 视图 + headless/CI/MCP | X |
 | [dsh-complete-guide-summary](/md/wiki/summaries/dsh-complete-guide) | DSH 完全指南精读：浏览器应用、MCP 配置、Trajectory 暴露、profile 抽象 vs 闭源 CLI 的工程差异 | Wiki 摘要 |
 | [dsh-browser-first-configurable-harness](/md/wiki/concepts/dsh-browser-first-configurable-harness) | 浏览器优先的完全可配置 Harness：DSH 与 Claude Code/Codex 的四项核心工程差异 | Wiki 推导 |
+| [dsh-superagent-active-agent-architecture](/md/wiki/concepts/dsh-superagent-active-agent-architecture) | 主动型 Coding Agent 架构设计：DSH Super-agent 五大工程常识与后厨美学模型 | 公众号 |
+| [fanbing-dsh-superagent-engineering-common-sense](/md/wiki/summaries/fanbing-dsh-superagent-engineering-common-sense) | 增长黑客范冰：解读 dsh-superagent 精读摘要——主动型 Agent 五大工程常识与后厨美学 | 公众号 |
 | [shao-meng-google-5day-ai-agents-course](/md/wiki/sources/shao-meng-google-5day-ai-agents-course) | Google 官方「5天 AI Agents 课程」深度解读：从 Vibe Coding 到生产级 Agent 范式 | X/Twitter |
 | [yihui-loop-engineering-explained](/md/wiki/sources/yihui-loop-engineering-explained) | yihui：Loop Engineering 到底是什么？从人肉循环到自主工程闭环 | X/Twitter |
 | [katelyn-lesse-new-problems-for-engineers](/md/wiki/sources/katelyn-lesse-new-problems-for-engineers) | Anthropic 平台工程负责人 Lesse：上千个 AI 智能体一起干活，还缺程序员解决四个难题 | 个人博客 |
