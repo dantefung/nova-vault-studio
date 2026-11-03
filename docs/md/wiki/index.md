@@ -741,3 +741,4 @@ wiki/
 | [shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto](/md/wiki/sources/shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto) | 山羊赚钱笔记（@shanyanggm）：你难道就没幻想过？数百个自媒体与数字游民变现赛道全景清单 | X/Twitter |
 | [taowithsaas-bing-webmaster-free-competitor-backlinks-export](/md/wiki/sources/taowithsaas-bing-webmaster-free-competitor-backlinks-export) | taoWithSaaS：免费导出竞品所有外链的一种方法——利用 Bing 站长工具 Backlinks 功能 | 微信公众号 |
 | [zeroagent-12-longterm-memory-management](/md/wiki/sources/zeroagent-12-longterm-memory-management) | 从码农到工匠：从零构建 Agent（十二）——长期 Memory 管理与 Hindsight 跨 Session 认知实践 | 微信公众号 |
+| [pengpai-wanghou-psychological-accounts-to-b-monetization](/md/wiki/sources/pengpai-wanghou-psychological-accounts-to-b-monetization) | 澎湃王侯：赚钱不难——给人换个理由花钱（心理账户迁移与普通人做 ToB 生意的 8 种路径） | 微信公众号 |

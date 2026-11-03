@@ -4,6 +4,12 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-03] ingest: 1 篇商业变现与心理账户实战长文（澎湃王侯：给人换个理由花钱——普通人切入 ToB 生意的 8 大路径）
+
+- 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去营销导流话术，本地化配图 3 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/pengpai-wanghou-psychological-accounts-to-b-monetization.md`（澎湃王侯，152 行，3 图）：赚钱不难——给人换个理由花钱（心理账户迁移与普通人做 ToB 生意的 8 种路径）：把产品从个体的消费支出升级为企业的投资资产，详解技能重构、脑洞升级、数字生产力工具外包、同城信息日报、自媒体赋能、掮客中介、周边供货、体力信息差等 8 条具体商业化通路。
+
 ## [2026-11-03] ingest: 1 篇从零构建 Agent 系列长文（从码农到工匠：ZeroAgent 长期 Memory 管理与 Hindsight 跨 Session 认知实践）
 
 - 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，沉淀至 `sources/` 与 `columns/agentic-engineer/zero-agent/`，更新专栏列表
