@@ -4,6 +4,12 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-03] ingest: 1 篇从零构建 Agent 系列长文（从码农到工匠：ZeroAgent 长期 Memory 管理与 Hindsight 跨 Session 认知实践）
+
+- 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，沉淀至 `sources/` 与 `columns/agentic-engineer/zero-agent/`，更新专栏列表
+- 归档列表：
+  1. `sources/zeroagent-12-longterm-memory-management.md`（从码农到工匠，192 行，2 图）：从零构建 Agent（十二）——长期 Memory 管理：深入剖析 Hermes Agent 四层记忆架构（精简层、FTS5 全文搜索、Memory Provider、Skill），为 ZeroAgent 增加统一 MemoryProvider 接口与 Extension 生命周期钩子，利用开源 Hindsight（Documents / Memory Units / Entities / Memory Links）实现跨 Session 的长期记忆。
+
 ## [2026-11-03] ingest: 1 篇微信公众号 SEO 外链工具指南（taoWithSaaS 利用 Bing 站长工具免费批量导出竞品外链）
 
 - 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 跑通微信公众号抓取与图片本地化，去推广返利营销话术，本地化配图 6 张，归档至 `sources/`

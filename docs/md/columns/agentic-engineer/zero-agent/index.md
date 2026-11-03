@@ -15,6 +15,7 @@ source: "微信公众号 / 从码农到工匠"
 | # | 文章 | 日期 |
 |---|------|------|
 | 四 | [Function Calling](./agent-from-zero-function-calling.md) | 2026-10-12 |
+| 十二 | [长期 Memory 管理](./agent-from-zero-longterm-memory-management.md) | 2026-11-03 |
 
 > 更多章节待补
 
