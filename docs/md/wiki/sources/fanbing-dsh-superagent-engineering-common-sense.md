@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/8GP8w-lbKN3kgtnKt3XURw"
 
 # 增长黑客范冰：解读 dsh-superagent——一个主动型 Coding Agent 的工程常识与后厨美学
 
-> 餐厅后厨为喻逐条拆解 DeepSeek dsh-superagent 的 5 个核心工程设计：Router-Worker 前后台分离与注意力纪律、事件驱动与按来源分 Thread 串行（agent 界 epoll）、异步 ReAct Loop 与 5 秒规则加 Watchdog、版本化 Policy 加 Mandate 授权单与影子模式、Stored Work 先记账后动手与全链路恢复；并对照自建系统复盘五处工程硬伤。
+> 以餐厅后厨为喻逐条拆解 DeepSeek dsh-superagent 的 5 个核心工程设计：Router-Worker 前后台分离与注意力纪律、事件驱动与按来源分 Thread 串行（agent 界 epoll）、异步 ReAct Loop 与 5 秒规则加 Watchdog、版本化 Policy 加 Mandate 授权单与影子模式、Stored Work 先记账后动手与全链路恢复；并对照自建系统复盘五处工程硬伤。
 
 <!-- more -->
 
