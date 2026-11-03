@@ -4,6 +4,13 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-03] ingest: 2 篇出海监控与 GEO 实战长文（范师傅 Grok Bot 监控 800+ 新站与 130 信源 / Geektao 哥飞 GEO 谷歌与 ChatGPT 双流量五步法）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 13 张（包含 Grok Bot 运行仪表盘、新站信源分布、ChatGPT 推荐流量对比曲线、GA4 渠道配置等），归档至 `sources/`
+- 归档列表：
+  1. `sources/fanshifu-grok-bot-800-new-sites-monitoring-workflow.md`（范师傅 @FanShifu，268 行，5 图）：Grok Bot 搭建出海新站监控——每天扒 800+ 新站吃透同行玩法：把竞品监控升级为需求探测器，拆解 130 个公开信源分级、两道去重归拢、看门狗防卡死、穿透详情页剥离 utm 锁定官网、切词识别 EMD 功能词域名以及 X 社交热议成交验证全套 SOP。
+  2. `sources/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide.md`（Geektao @geektao0319，192 行，8 图）：照着哥飞的方法做 GEO——让网站同时拿到谷歌和 ChatGPT 流量：核心认知「谷歌吃教程，ChatGPT 吃工具」，拆解放行 AI 爬虫与部署 llms.txt、哥飞三步法反推用户自然提问、打造首屏免翻页直接可用的表单工具页、GA4 配置 AI Assistants 渠道归因、以及每 1-2 周对话复查优化闭环。
+
 ## [2026-11-03] ingest: 1 篇商业变现与心理账户实战长文（澎湃王侯：给人换个理由花钱——普通人切入 ToB 生意的 8 大路径）
 
 - 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去营销导流话术，本地化配图 3 张，归档至 `sources/`

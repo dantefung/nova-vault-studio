@@ -742,3 +742,5 @@ wiki/
 | [taowithsaas-bing-webmaster-free-competitor-backlinks-export](/md/wiki/sources/taowithsaas-bing-webmaster-free-competitor-backlinks-export) | taoWithSaaS：免费导出竞品所有外链的一种方法——利用 Bing 站长工具 Backlinks 功能 | 微信公众号 |
 | [zeroagent-12-longterm-memory-management](/md/wiki/sources/zeroagent-12-longterm-memory-management) | 从码农到工匠：从零构建 Agent（十二）——长期 Memory 管理与 Hindsight 跨 Session 认知实践 | 微信公众号 |
 | [pengpai-wanghou-psychological-accounts-to-b-monetization](/md/wiki/sources/pengpai-wanghou-psychological-accounts-to-b-monetization) | 澎湃王侯：赚钱不难——给人换个理由花钱（心理账户迁移与普通人做 ToB 生意的 8 种路径） | 微信公众号 |
+| [fanshifu-grok-bot-800-new-sites-monitoring-workflow](/md/wiki/sources/fanshifu-grok-bot-800-new-sites-monitoring-workflow) | 范师傅（@FanShifu）：Grok Bot 搭建出海新站监控——每天扒 800+ 新站吃透同行玩法（附 130 个开源信源渠道） | X/Twitter |
+| [geektao-geo-google-and-chatgpt-traffic-step-by-step-guide](/md/wiki/sources/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide) | Geektao（@geektao0319）：照着哥飞的方法做 GEO——让网站同时拿到谷歌和 ChatGPT 流量（谷歌吃教程，ChatGPT 吃工具） | X/Twitter |
