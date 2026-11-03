@@ -62,6 +62,16 @@ source: "llm-wiki"
 - 索引：
   - `wiki/index.md` 概念列表与原始来源列表同步追加所有条目。
 
+## [2026-11-03] ingest: 1 篇微信公众号深度长文（增长黑客范冰：解读 dsh-superagent——主动型 Coding Agent 的工程常识与后厨美学）
+
+- 抓取与归档：`fetch_weixin.py` 取正文 → 去广告清理 → 归档到 `sources/fanbing-dsh-superagent-engineering-common-sense.md`（171 行，纯文字无配图）
+- 内容要点：以「餐厅后厨」比喻逐条拆解 dsh-superagent 的 5 个工程设计——Router-Worker 前后台分离与注意力纪律、事件驱动与按来源分 Thread 串行（agent 界 epoll）、异步 ReAct Loop 的 5 秒规则与 Watchdog、版本化 Policy + Mandate 授权单 + 影子模式、Stored Work 先记账后动手与全链路恢复；并对照作者自建个人自动化系统复盘五处硬伤（缺分拣层、缺现场监工、散文规约、标记文件非事务、统一通知出口缺失）
+- 采集坑（新增 2 条）：
+  1. `download-images.py` 的 `--prefix` 只认 `--prefix=值` 等号写法；写成 `--prefix 值` 会被静默忽略，图片落到默认的 `images/{md文件名}/`（本例落到 `_sandbox/images/raw/`）
+  2. 公众号文章正文只有 1 张图且是**作者课程预售二维码**——按 AGENTS.md「归档去广告要求」整段删除（小广告文案 + 二维码 + CRM 落地页链接），因此本篇无配图需要本地化
+- 去广告：删除「小广告：AI 写作工程学课程」段落、课程二维码图片与 `zerodaybook.mikecrm.com` 落地页链接
+- 索引：`wiki/index.md` 新增 1 行（来源标注「微信公众号」）
+
 ## [2026-11-03] ingest: 1 篇微信公众号实操长文（若飞：DeepSeek Super-agent 上手——从 GitHub Issue 到 PR）
 
 - 抓取与归档：`fetch_weixin.py` 取正文 → 结构重建 → 归档到 `sources/ruofei-dsh-superagent-issue-to-pr.md`（297 行，1 图，10 组代码围栏，2 张表格）
