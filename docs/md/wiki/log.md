@@ -4,9 +4,9 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
-## [2026-11-03] ingest: 32 篇 X 精选长文（小肥羊 GSC / cxuan Super-agent / Victor在西雅图两篇 / 壹新二道贩子 / 上海小升初 SMK / rico Agent设计系统 / 良竹两篇 / 太上老君口播 / InkOS 创作工作台 / 饭团需求利器 / KKKK 两篇 / 换装素材库 / 20个动效Skill / 小互 Super-agent数据 / 龙心盐 1000万账本 / 虹安出海站三种打法 / 左海 Reddit导流 / 哥飞 MCP重做产品 / 纳米AI 两篇 / WquGuru 两篇 / 老杨 美女写真SOP / 程序员Left Super-agent / 飞鱼Fly 纳瓦尔信息卡路里 / 爱出海 家宽ISP代理 / Unicorn Claude设计规范 / Hytidel 小红书电商进阶 / 江夏尧 SuperAgent架构反思）
+## [2026-11-03] ingest: 48 篇 X 精选长文（小肥羊 GSC / cxuan Super-agent / Victor在西雅图三篇 / 壹新二道贩子 / 上海小升初 SMK / rico Agent设计系统 / 良竹两篇 / 太上老君口播 / InkOS 创作工作台 / 饭团需求利器 / KKKK 三篇 / 换装素材库 / 20个动效Skill / 小互 Super-agent数据 / 龙心盐 1000万账本 / 虹安出海站三种打法 / 左海 Reddit导流 / 哥飞 MCP重做产品 / 纳米AI 三篇 / WquGuru 两篇 / 老杨 美女写真SOP / 程序员Left Super-agent / 飞鱼Fly 纳瓦尔信息卡路里 / 爱出海 家宽ISP代理 / Unicorn Claude设计规范 / Hytidel 小红书电商进阶 / 江夏尧 SuperAgent架构反思 / myleaf phongent群控 / Morry course2md / 黄小木 Mika风控 / 胡二虎 Manus增长与Wigent镜像 / Max Feng laperAi编剧 / 陈大黄 GitHub+Zed+Hermes / Aliez Ren Claude Code心法 / G哥两篇（Taste-Skill与Codex12法） / 刘老板 Lauren团队指南 / Leaf Yeah! 抖音水下商单 / awe0 前端布局术语）
 
-- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 90 张（单图超 450KB 均通过 sharp 自动压缩优化），归档至 `sources/`
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 100+ 张（单图超 450KB 均通过 sharp 自动压缩优化），归档至 `sources/`
 - 归档列表：
   1. `sources/xiaofeiyang-new-site-google-traffic-simulator.md`（小肥羊 @xiaofeiyangfe，218 行，8 图）：新站上线 Google 为什么不给流量？用模拟器看懂的 6 件事——内页与外链分工、前两周随机测试优待期本质、排名与千人千面曝光覆盖率机制、KGR/EKGR 长尾黄金比例挑词，以及以 GSC 数据信号为驱动的四阶段推进框架。
   2. `sources/criscxuan-deepseek-super-agent-architecture-teardown.md`（cxuan @criscxuan，281 行，18 图）：通了个宵，终于把 Super-Agent 架构玩明白了——以系统程序员视角硬核拆解 DeepSeek Harness（DSH）团队最新设计：Router/Worker 双层架构淡化 Session 负担、Fast/Slow Path 事件降噪与 Trigger 路由、Inline/Spill 热冷换页与引用图链式召回、全双工异步 ReAct Loop、BYOM 存算境解耦以及独立 Watchdog 外部控制回路。
@@ -36,20 +36,44 @@ source: "llm-wiki"
   26. `sources/kkkeric-grok-bot-22-agents-growth-fleet.md`（KKKK @kkkeric_ai，294 行，11 图）：Grok Bot 出海增长实战——一个人 + 22 个 Bot 跑通 20+ 社媒渠道、SEO/AEO、外链与竞品全流程。单入口总管派活、避免群聊烧 token、BeatBrowser 混合浏览器接管，以及人把关的 4 个不可逆决策关卡。
   27. `sources/anti-aivo-agent-engineering-70-backend-30-uncertainty.md`（纳米AI @antiAIvo，43 行）：Agent 工程心法——七成在传统后端，三成在处理模型不确定性。主循环状态机、工具 RPC、记忆存储、队列流控；两手抓不确定性——Harness 运行时约束让 Agent 跑稳，Eval 数据集打分引导正向演进。
   28. `sources/aichuhai-residential-isp-proxy-claude-chatgpt.md`（爱出海 @ai_chuhai，252 行，3 图）：想用 Claude / ChatGPT？静态住宅 ISP 代理选购、配置与排错全攻略。网络层/出口层/平台资格三层判断、三大跨境服务商对比、Mihomo 与 Shadowrocket 链式 dialer-proxy 配置、CLI 环境变量注入、Tailscale 出口节点与 403/407/429 报错定位。
-  29:   29. `sources/ohayou-claude-artifacts-ui-design-system-leak.md`（Unicorn @ohayou792，187 行，4 图）：Claude 内部组件设计系统提示词与完整 UI 规范解析。Seamless/Flat/Compact 核心哲学、文字归回复视觉归工具、Tabler 线性图标、Anthropic Sans 字重死命令、强制深色模式 CSS 变量体系与 iframe 沙盒布局硬约束。
+  29. `sources/ohayou-claude-artifacts-ui-design-system-leak.md`（Unicorn @ohayou792，187 行，4 图）：Claude 内部组件设计系统提示词与完整 UI 规范解析。Seamless/Flat/Compact 核心哲学、文字归回复视觉归工具、Tabler 线性图标、Anthropic Sans 字重死命令、强制深色模式 CSS 变量体系与 iframe 沙盒布局硬约束。
   30. `sources/wquguru-shisei-cc0-ancient-costume-library.md`（WquGuru @wquguru，50 行，1 图）：Shisei 开源中国历代四视角服装库——从商朝到民国 227 张 CC0 资产。商到民国 57 套立体服装正面/斜侧/正侧/背面多机位与配色方案，为 Midjourney 垫图、换装及画师参考提供免费商用基础设施。
   31. `sources/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling.md`（Hytidel @HytidelLegend，299 行，4 图）：小红书电商保姆级教程（6）——运营进阶、提效工具与利润十倍放大。至尊宝以图搜图扒买家秀、剪映批量带货视频、多退货地址与运费宝、千帆自动化客服话术库、1688 无痕发货三问，以及低粉爆文自复制与数字资料放大。
   32. `sources/konghayao-deepseek-super-agent-architecture-reflections.md`（江夏尧 @konghayao，56 行）：关于 DeepSeek SuperAgent 架构设计的深度反思与开源工程映射。RCRA Loop 消息队列解耦、Async Subagent 与 Cursor Multitask 范式、Inline/Spill 工具落盘与多跳检索简化、Durable 持久化与进程重试解决停机中断。
+  33. `sources/myleafy-phongent-local-device-cluster-control.md`（myleaf @myleafy1，32 行）：开源 phongent——基于 Mika 的安卓局域网多设备群控与 AI 任务调度系统。支持指定或自主分派任务，主控端统一汇总回复被控屏幕与消息。
+  34. `sources/morry-course2md-video-to-markdown-notes.md`（Morry.AI @Morry4AI，169 行，1 图）：course2md 学习神器——把 YouTube/B站/本地视频一键转为带截图的 Markdown 笔记。自动提取画面演示帧、语音转写文本对应截图，构建支持分类检索的个人视频课程库。
+  35. `sources/aixiaomu-mika-phone-agent-accessibility-risk-control.md`（黄小木 @ai_xiaomu，29 行）：王赞开源 Mika 手机端常驻 Agent 评测与风控防封提醒。免 Root 无障碍常驻操作任意 App，提醒反编译更改包名与 Service 名防平台风控检测。
+  36. `sources/willhu-wigent-ai-growth-system-and-agent-pilot.md`（胡二虎 Will Hu @willlhhh，167 行）：在 Manus 负责增长的实战思考——从制造 Agent 到驾驶 Agent 的能力模型演进。广告投放信号学、SEO 基础盘低代码维护、商业化账本核算，与个人知识分身 Wigent（wigent.ai）。
+  37. `sources/wigent-ai-personal-knowledge-agent.md`（胡二虎 Will Hu，34 行）：Wigent 个人知识分身与增长系统（wigent.ai 离线镜像）。通过 HtmlViewer 内嵌呈现全功能知识分身门户。
+  38. `sources/feng-yq-laper-ai-scriptwriting-revenue-case.md`（Max Feng @Feng_YQ，39 行）：闷声发大财网站解析——月入 4.6 万美元的 AI 编剧工具 laperAi 流量模型拆解。人写核心、AI 负责排版结构与分镜，编剧圈口碑裂变与高复访沉淀。
+  39. `sources/realchendahuang-knowledge-management-stack-github-zed-hermes.md`（陈大黄 @realchendahuang，47 行）：折腾完主流笔记工具后的终极版本答案——GitHub + Zed + Hermes + Telegram。数据本地掌握、API/MCP 自由读写、Git 版本回溯、Rust 级极速打开与 Telegram 机器人全天候剪藏。
+  40. `sources/aliez-ren-claude-code-fable-opus-coding-playbook.md`（Aliez Ren @aliez_ren，45 行）：几个月高强度 AI 编程真实心法——Claude Code + Herdr + Fable 架构实践。模型按架构/实现分流，长上下文切换先 /compact，flake.nix 锁定环境与 CLAUDE.md 极简四硬约束。
+  41. `sources/govin-taste-skill-frontend-design-for-ai.md`（govin @goan999999，98 行）：Taste-Skill——让 Claude Code 与 Codex 告别模板化廉价感的前端审美升级 Skill。从设计源头提升配色与布局质感，附赠微软 MarkItDown 文档格式转换指南。
+  42. `sources/leo-xiaolei-lauren-poteto-grok-bot-team-guide.md`（刘老板 @leo_xiaolei，130 行，3 图）：深度拆解 xAI 负责人 Lauren 的 Grok Bot 团队打造指南与评论区交锋。dr eggbot 元设计器、小团队克制、技能自生沉淀至 GitHub、权限最小化及持久会话 Token 消耗解析。
+  43. `sources/antivo-deepseek-super-agent-architecture-gif-summary.md`（纳米AI @antiAIvo，60 行）：一图看懂 DeepSeek Super-agent 三层架构——事件双筛、Router 调度与 Worker 并发。直观展示全天候事件驱动与无感多任务推进。
+  44. `sources/leaf-sanren-douyin-offline-commercial-orders-playbook.md`（Leaf Yeah! @leaf_sanren，316 行，6 图）：抖音水下商单 0→1 实操手册——从首单接单、谈单报价、过审防限流到报喜回款。破除粉丝 10% 报价误区、定时发布探测器、DOU+ 版权检测与商单日常平衡。
+  45. `sources/victor-uwer-utm-stripe-metadata-true-cac.md`（Victor 在西雅图 @victor_UWer，41 行）：出海获客成本别只看总数——用 UTM + Stripe Metadata 拆解单渠道真实 CAC。全链路埋入 UTM 与 Stripe customer metadata，月末精准核算单渠道 ROI。
+  46. `sources/kkkeric-free-tool-seo-fast-traffic-low-conversion.md`（KKKK @kkkeric_ai，37 行）：Free Tool 是 SEO 起量最快策略——大流量、长停留与低转化的冷启动权衡。把握免费微工具的高曝光与自传播价值，合理定位漏斗顶层。
+  47. `sources/awe0-frontend-layout-standard-terminology-for-ai.md`（awe0 @awe0_io，41 行）：跟 AI 别说「布局好看点」——6 种标准前端布局术语让 AI 一秒对齐意图。Hero Section、Bento Grid、Masonry、Split Screen、Sidebar 与 Full-width 模块化指令化。
+  48. `sources/govin-codex-12-productivity-workflows-and-ecosystem.md`（govin @goan999999，105 行，1 图）：Codex 12 个高阶提效玩法——从原生机制到周边生态神器全景速查。AGENTS.md、codex exec、approvals 沙箱、/review 审计、AionUi、Claudable 与 NSA Ghidra 逆向分析。
 - 概念沉淀：
   - 新增概念页 `concepts/kgr-keyword-golden-ratio.md`（KGR 关键词黄金比例与新站 SEO 阶段演进模型）：归纳 KGR 公式、EKGR 权重惩罚、Google 优待期机制与四阶段行动指南。
 - 索引：
   - `wiki/index.md` 概念列表与原始来源列表同步追加所有条目。
-- 概念沉淀：
-  - 新增概念页 `concepts/kgr-keyword-golden-ratio.md`（KGR 关键词黄金比例与新站 SEO 阶段演进模型）：归纳 KGR 公式、EKGR 权重惩罚、Google 优待期机制与四阶段行动指南。
-- 索引：
-  - `wiki/index.md` 概念列表与原始来源列表同步追加所有条目。
-- 索引：
-  - `wiki/index.md` 概念列表与原始来源列表同步追加所有条目。
+
+## [2026-11-03] ingest: 1 篇微信公众号实操长文（若飞：DeepSeek Super-agent 上手——从 GitHub Issue 到 PR）
+
+- 抓取与归档：`fetch_weixin.py` 取正文 → 结构重建 → 归档到 `sources/ruofei-dsh-superagent-issue-to-pr.md`（297 行，1 图，10 组代码围栏，2 张表格）
+- 本篇正文校验：与 raw 逐行比对，22 处差异全部是有意删除（公众号自我宣传抬头、尾部导流话术、电话与邮箱）或格式改写（裸 URL 转 Markdown 链接、挤平代码拆行），无内容丢失
+- 公众号采集坑（新增 4 条，比上一篇更严重）：
+  1. 抓取结果里除了结构化正文，还会额外多出「整篇压成一行」的摘要行（本例 23248 字符，远程图也挂在这行里）——必须删掉，但它保留了正文里丢失的加粗单元格，可作为还原参照
+  2. 代码块、YAML、提示词模板全被挤成单行（换行符丢失、无空格分隔），要按 shell 语法逐条重新拆行并补围栏；`\"` 是抓取转义残留，要还原成 `\`
+  3. 表格里「加粗的第一列」和列表项开头的加粗标签会被整体丢弃：mode 表丢了 off/observe/auto 三个键，Ticket 状态列表只剩冒号后的解释——需从摘要行取回，否则表格/列表语义残缺
+  4. `normalize-typo.py` 不在「中文 ↔ 反引号」「中文 ↔ @」「中文 ↔ 绝对路径」这些边界补空格，补完行内代码后要自己再走一遍粘连修复
+- 动图处理：图 1 是 82 帧渐进动画 GIF（逐帧画出流程），AGENTS.md 的「GIF 取首帧」会得到空白图，本例取**末帧**转 PNG（44KB）；后续遇到流程动画类 GIF 应先抽首帧与末帧对比再决定取哪一帧
+- 脱敏与去广告：删除技术群电话与投稿邮箱、朋友圈分享/星标引导、版权申明与「相关阅读」尾巴
+- 外链体检：参考资料 7 个 GitHub 文档链接（按 commit 6337fc8 固定路径）全部 curl 200
+- 索引：`wiki/index.md` 新增 1 行（来源标注「微信公众号」）
 
 ## [2026-11-02] ingest: 1 篇微信公众号长文（望宸：从长程 Agent 到 Super-agent，解锁更多场景）
 
