@@ -4,6 +4,26 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-03] fix: 修复 Vercel 构建失败——裸 HTML 标签击穿 Vue 编译器 + 补装完整 pre-commit 钩子
+
+- **故障现象**：本批次采集提交后，Vercel 生产构建在 `building client + server bundles` 阶段失败：
+  ```
+  [vite:vue] docs/md/wiki/sources/ohayou-claude-artifacts-ui-design-system-leak.md (19:60): Element is missing end tag.
+  ```
+- **根因（两层）**：
+  1. **内容层**：`ohayou-claude-artifacts-ui-design-system-leak.md` 正文里有 10 处裸写的 HTML 片段（`<style>` / `<script>` / `<text>` / `<div style=“…”>`）。VitePress 把 Markdown 编译成 Vue SFC，这些标签被 Vue 模板编译器当成真实元素解析，未闭合的 `<style>` 直接抛 `Element is missing end tag`，中断整个生产构建。
+  2. **流程层**：`.git/hooks/pre-commit` 原先只是指向 `check-frontmatter.py` 的软链接，AGENTS.md 记录的另外 5 个检查**从未真正启用**；且 `check-html-tags.py` 自身只读 git 暂存区、忽略命令行传入的路径，导致「手动传文件路径校验」实际空跑（假通过），裸标签一路漏到生产构建才暴露。
+- **修复内容**：
+  1. 把 `ohayou-claude-artifacts-ui-design-system-leak.md` 中 16 处裸 HTML 片段统一改为反引号包裹，并把 `class=“…”` / `style=“…”` / `fill=“inherit”` 的中文引号改回直引号。
+  2. 重写 `.claude/hooks/check-html-tags.py`：支持显式路径参数（不再只认暂存区）；新增三类判定——永远危险标签（`style`/`text`/`svg`/`iframe`/`template`）、`script` 仅允许 `<script setup>`/`</script>`、未配对闭合的 `div`/`span`/`i`、以及中文引号属性；同时把 Markdown 自动链接 `<https://…>` 与 `<10` 等非标签形态排除在误报之外。
+  3. 按 AGENTS.md 安装完整 6 钩子的 `.git/hooks/pre-commit`（此前只有 frontmatter 一个软链接）。
+  4. AGENTS.md 补充「裸 HTML 标签判定规则」表与「钩子要真的在跑」的校验提醒。
+- **验证**：
+  - 全仓 3,600+ 个 `.md` 跑新版 `check-html-tags.py`：0 报错。
+  - 反向用例测试：裸 `<style>`、中文引号属性、未配对 `<div>` 均能拦截；自动链接、行内代码、`<script setup>` 均放行。
+  - 本地 `npm run build`：`build complete in 232.78s`，通过。
+- **教训**：内容入库后，`.md` 的 HTML 标签合规必须由**本地钩子**兜住，不能指望 Vercel 构建当测试机——生产构建失败一次就意味着一次下线窗口。
+
 ## [2026-11-03] ingest: 49 篇 X 精选长文（小肥羊 GSC / cxuan Super-agent / Victor在西雅图三篇 / 壹新二道贩子 / 上海小升初 SMK / rico Agent设计系统 / 良竹两篇 / 太上老君口播 / InkOS 创作工作台 / 饭团需求利器 / KKKK 三篇 / 换装素材库 / 20个动效Skill / 小互 Super-agent数据 / 龙心盐 1000万账本 / 虹安出海站三种打法 / 左海两篇 Reddit截流与挖需求 / 哥飞 MCP重做产品 / 纳米AI 三篇 / WquGuru 两篇 / 老杨 美女写真SOP / 程序员Left Super-agent / 飞鱼Fly 纳瓦尔信息卡路里 / 爱出海 家宽ISP代理 / Unicorn Claude设计规范 / Hytidel 小红书电商进阶 / 江夏尧 SuperAgent架构反思 / myleaf phongent群控 / Morry course2md / 黄小木 Mika风控 / 胡二虎 Manus增长与Wigent镜像 / Max Feng laperAi编剧 / 陈大黄 GitHub+Zed+Hermes / Aliez Ren Claude Code心法 / G哥两篇 / 刘老板 Lauren团队指南 / Leaf Yeah! 抖音水下商单 / awe0 前端布局术语）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 100+ 张（单图超 450KB 均通过 sharp 自动压缩优化），归档至 `sources/`

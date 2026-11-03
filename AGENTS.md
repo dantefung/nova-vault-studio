@@ -501,6 +501,27 @@ rtk ls docs/md/{分类}/{文章}/images/{文章名}/
 - `check-resource-nav.py` — 校验 AI 编程资源 md 格式（仅在源文件 staged 时触发）
 - `check-vue-interpolation.py` — 拦截代码围栏外的 `{{ }}`（会炸 Vue 编译器）
 
+> ⚠️ **2026-11-03 修正**：`.git/hooks/pre-commit` 原先只是指向 `check-frontmatter.py` 的软链接，
+> 其余 5 个检查**从未生效**——`check-html-tags.py` 曾以「裸 `<style>` / `<script>` / `<text>`」
+> 的形式混进一篇采集文章，直到 Vercel 生产构建抛
+> `Element is missing end tag` 才暴露。现已按下方脚本安装完整 6 钩子。
+>
+> 另：`check-html-tags.py` 曾只读 git 暂存区、忽略命令行传入的路径，
+> 导致「手动传文件路径校验」实际空跑（假通过）。现已支持显式路径参数。
+>
+> **校验前务必确认钩子真的在跑**：改完 `.md` 后先 `git add`，再执行
+> `python3 .claude/hooks/check-html-tags.py docs/md/xxx.md`，看退出码而非只看有无输出。
+
+**裸 HTML 标签判定规则（`check-html-tags.py`）**：
+
+| 类别 | 判定 | 处理 |
+|------|------|------|
+| 永远危险 | `style` / `text` / `svg` / `iframe` / `template` | 一律用反引号包起来 |
+| `script` | 只允许 `<script setup>` / `</script>` | 其他写法用反引号 |
+| 未配对闭合 | `div` / `span` / `i` 开标签在全文找不到对应闭标签 | 用反引号 |
+| 中文引号属性 | `class=“…”` / `style=“…”` | 改成直引号并用反引号包住整段 |
+| 不算标签 | `<https://…>` 自动链接、`<10` 等非字母开头 | 放行 |
+
 **首次配置（项目根目录执行）**：
 
 ```bash

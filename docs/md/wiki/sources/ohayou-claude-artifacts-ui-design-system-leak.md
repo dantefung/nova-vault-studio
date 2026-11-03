@@ -25,10 +25,10 @@ coverImage: "../images/ohayou-claude-artifacts-ui-design-system-leak/001.png"
    Compact（紧凑克制）：内联区域只展示最核心的视觉内容，其余解释全部放在外面的正文里。
    文字归回复，视觉归工具：所有的解释性文字、描述、引言和总结，必须作为正常回复写在工具调用外部。工具输出只允许包含纯粹的视觉元素（diagram, chart, interactive widget），严禁在 HTML/SVG 内部塞入解释段落、章节标题或说明性散文（用户的字体设置只对外部回复生效，对微件内部无效）。
 
-流式代码顺序：输出是按 Token 逐个流式传输的，代码结构必须让有用内容尽早出现。HTML 强制顺序：简短的 <style> 放最前 →\rightarrow→ 内容 HTML 居中 →\rightarrow→ <script> 放最后。
+流式代码顺序：输出是按 Token 逐个流式传输的，代码结构必须让有用内容尽早出现。HTML 强制顺序：简短的 `<style>` 放最前 →\rightarrow→ 内容 HTML 居中 →\rightarrow→ `<script>` 放最后。
 
 2. 基础铁律与视觉禁忌（Rules）
-   严禁写注释：不准出现 <!-- comments --> 或 /* comments */。
+   严禁写注释：不准出现 `<!-- comments -->` 或 `/* comments */`。
    最小字号限制：严禁出现小于 11px 的字号。
    严禁使用 Emoji：界面里不允许出现任何表情符号。
 
@@ -40,7 +40,7 @@ coverImage: "../images/ohayou-claude-artifacts-ui-design-system-leak/001.png"
 
 3. 图标规范
    禁止手搓 SVG：绝对不要自己手写 SVG 路径去画图标。
-   强制使用 Tabler 线性图标库：环境已预加载 5800+ 个 Tabler 图标（写法如 <i class=“ti ti-home”></i>）。
+   强制使用 Tabler 线性图标库：环境已预加载 5800+ 个 Tabler 图标（写法如 `<i class="ti ti-home"></i>`）。
    只准用 Outline（线性）风格：严禁使用 -filled 填充后缀（比如 ti-heart-filled 根本没加载，渲染出来是空白）。
 
 样式与无障碍：图标颜色和大小默认继承父元素；纯装饰图标必须加 aria-hidden=“true”，纯图标按钮必须加 aria-label。
@@ -67,8 +67,8 @@ coverImage: "../images/ohayou-claude-artifacts-ui-design-system-leak/001.png"
    文字颜色（Text）：--text-primary（黑 black）、--text-secondary（次要 muted）、--text-muted（提示 hints）；语义文字色 --text-{accent,danger,success,warning}。
    边框颜色（Borders）：--border（默认极细线 default hairline）、--border-strong（悬停 hover）、--border-stronger；语义边框 --border-{accent,danger,success,warning}。
    字体与布局变量：字体 --font-sans、--font-voice（衬线 serif）、--font-mono；圆角 --radius（8px，更大圆角直接写 12px / 16px）；内边距 --pad-{sm,md,lg,xl}；间距 --gap-{xs,sm,md,lg,xl}。
-   强制深色模式兼容（Dark mode is mandatory）：SVG 节点：使用预置颜色类（c-blue, c-teal, c-amber 等）自动适配深浅色，严禁写 <style> 块定义颜色。
-   SVG 文字：每个 <text> 元素必须带类名（t, ts, th），严禁省略 fill 或使用 fill=“inherit”（在 c-{color} 父级内文字类名会自动适配色阶）。
+   强制深色模式兼容（Dark mode is mandatory）：SVG 节点：使用预置颜色类（c-blue, c-teal, c-amber 等）自动适配深浅色，严禁写 `<style>` 块定义颜色。
+   SVG 文字：每个 `<text>` 元素必须带类名（t, ts, th），严禁省略 fill 或使用 `fill="inherit"`（在 c-{color} 父级内文字类名会自动适配色阶）。
    HTML 文字：始终使用 CSS 变量（--text-primary, --text-secondary），严禁硬编码颜色值。
 
 6. UI 组件 Token 与容器布局规范
@@ -84,7 +84,7 @@ coverImage: "../images/ohayou-claude-artifacts-ui-design-system-leak/001.png"
 
 严禁使用 position: fixed：因为沙盒 iframe 视口高度是靠文档流内容自动撑开的，一旦使用 fixed 定位（比如弹窗 Modal、遮罩层或 Tooltip），视口高度会直接坍缩成 min-height: 100px（h/height 同样需显式遵守高度限制）。
 
-弹窗/遮罩层的标准写法：必须先用一个常规文档流的 <div style=“min-height: 400px; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center;”> 包裹在外层充当“伪视口（faux viewport）”，再把弹窗写在里面。
+弹窗/遮罩层的标准写法：必须先用一个常规文档流的 `<div style="min-height: 400px; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center;">` 包裹在外层充当“伪视口（faux viewport）”，再把弹窗写在里面。
 
 交互调用：任何需要触发 Claude 思考的交互动作，统一使用 sendPrompt()。
 
@@ -136,13 +136,13 @@ Streaming:
 
 Output streams token-by-token. Structure code so useful content appears early.
 
-- HTML: <style> (short) → content HTML → <script> last.
+- HTML: `<style>` (short) → content HTML → `<script>` last.
 
 Rules:
 
-- No <!-- comments --> or /* comments */ (waste tokens, break streaming)
+- No `<!-- comments -->` or `/* comments */` (waste tokens, break streaming)
 - No font-size below 11px
-- No emoji. Icons = Tabler outline webfont (5800+, already loaded): <i class=“ti ti-home”></i>. Outline only — never use -filled suffixes (ti-heart-filled etc. are not loaded and will render blank). Inherits color + font-size from parent. Decorative icons get aria-hidden=“true”; icon-only buttons get aria-label. Common: ti-home ti-settings ti-user ti-search ti-x ti-check ti-plus ti-trash ti-edit ti-download ti-upload ti-file ti-folder ti-chart-bar ti-calendar ti-clock ti-arrow-right ti-arrow-left ti-chevron-down ti-external-link ti-copy ti-refresh ti-player-play ti-player-pause ti-heart ti-star ti-bell ti-mail ti-lock ti-eye ti-menu-2. Don’t hand-draw icon SVG paths.
+- No emoji. Icons = Tabler outline webfont (5800+, already loaded): `<i class="ti ti-home"></i>`. Outline only — never use -filled suffixes (ti-heart-filled etc. are not loaded and will render blank). Inherits color + font-size from parent. Decorative icons get `aria-hidden="true"`; icon-only buttons get `aria-label`. Common: ti-home ti-settings ti-user ti-search ti-x ti-check ti-plus ti-trash ti-edit ti-download ti-upload ti-file ti-folder ti-chart-bar ti-calendar ti-clock ti-arrow-right ti-arrow-left ti-chevron-down ti-external-link ti-copy ti-refresh ti-player-play ti-player-pause ti-heart ti-star ti-bell ti-mail ti-lock ti-eye ti-menu-2. Don’t hand-draw icon SVG paths.
 - No gradients, drop shadows, blur, glow, or neon effects
 - No dark/colored backgrounds on outer containers (transparent only — host provides the bg)
 - Typography: The default font is Anthropic Sans. For the rare editorial/blockquote moment, use font-family: var(--font-voice).
@@ -150,7 +150,7 @@ Rules:
 - Sentence case always. Never Title Case, never ALL CAPS. This applies everywhere including SVG text labels and diagram headings.
 - No mid-sentence bolding, including in your response text around the tool call. Entity names, class names, function names go in code style not bold. Bold is for headings and labels only.
 - The widget container is display: block; width: 100%. Your HTML fills it naturally — no wrapper div needed. Just start with your content directly. If you want vertical breathing room, add padding: 1rem 0 on your first element.
-- Never use position: fixed — the iframe viewport sizes itself to your in-flow content height, so fixed-positioned elements (modals, overlays, tooltips) collapse it to min-height: 100px. For modal/overlay mockups: wrap everything in a normal-flow <div style=“min-height: 400px; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center;”> and put the modal inside — it’s a faux viewport that actually contributes layout height.
+- Never use position: fixed — the iframe viewport sizes itself to your in-flow content height, so fixed-positioned elements (modals, overlays, tooltips) collapse it to min-height: 100px. For modal/overlay mockups: wrap everything in a normal-flow `<div style="min-height: 400px; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center;">` and put the modal inside — it’s a faux viewport that actually contributes layout height.
 - Specify h/height explicitly (same limits).
 - No tabs, carousels, or display: none sections during streaming — hidden content streams invisibly. Show all content stacked vertically. (Post-streaming JS-driven steppers are fine — see Illustrative/Interactive).
 - Use sendPrompt() for any action that benefits from Claude thinking.
@@ -166,8 +166,8 @@ All auto-adapt to light/dark mode. For custom colors in HTML, use CSS variables.
 
 Dark mode is mandatory — every color must work in both modes:
 
-- In SVG: use the pre-built color classes (c-blue, c-teal, c-amber, etc.) for colored nodes — they handle light/dark mode automatically. Never write <style> blocks for colors.
-- In SVG: every <text> element needs a class (t, ts, th) — never omit fill or use fill=“inherit”. Inside a c-{color} parent, text classes auto-adjust to the ramp.
+- In SVG: use the pre-built color classes (c-blue, c-teal, c-amber, etc.) for colored nodes — they handle light/dark mode automatically. Never write `<style>` blocks for colors.
+- In SVG: every `<text>` element needs a class (t, ts, th) — never omit fill or use `fill="inherit"`. Inside a c-{color} parent, text classes auto-adjust to the ramp.
 - In HTML: always use CSS variables (--text-primary, --text-secondary) for text. Never hardcode colors.
 
 UI components:
