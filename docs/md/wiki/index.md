@@ -693,3 +693,32 @@ wiki/
 | [ruofei-dsh-superagent-issue-to-pr](/md/wiki/sources/ruofei-dsh-superagent-issue-to-pr) | 若飞（架构师 JiaGouX）：DeepSeek Super-agent 上手——从 GitHub Issue 到 PR | 微信公众号 |
 | [fanbing-dsh-superagent-engineering-common-sense](/md/wiki/sources/fanbing-dsh-superagent-engineering-common-sense) | 增长黑客范冰：解读 dsh-superagent——一个主动型 Coding Agent 的工程常识与后厨美学 | 微信公众号 |
 | [heizolshao-reddit-high-search-low-competition-demand-mining](/md/wiki/sources/heizolshao-reddit-high-search-low-competition-demand-mining) | 左海（@heizolshao）：Reddit 挖掘需求实操案例——如何找到低竞争、高搜索量的蓝海需求？ | X/Twitter |
+| [khazix-miniature-agent-automation-pipeline](/md/wiki/sources/khazix-miniature-agent-automation-pipeline) | 数字生命卡兹克（@Khazix0918）：5 天打造微缩景观 Agent 自动化流水线——戴森球计划灵感与多模型工程协同 | X/Twitter |
+| [hongye-open-pose-costume-5800-library](/md/wiki/sources/hongye-open-pose-costume-5800-library) | Kevin Tech Labs（@HongyeMain）：Open Pose & Costume 开源姿势与服饰库大更新——5855 张多视角参考图与一键生图 | X/Twitter |
+| [chencheng-code-mode-evolution-and-durable-execution](/md/wiki/sources/chencheng-code-mode-evolution-and-durable-execution) | 陈成（@chenchengpro）：从 Tool Call 到 Code Mode 的演进脉络——工具爆炸、沙箱串联与确定性重放 | X/Twitter |
+| [philschmid-why-agents-will-only-have-one-tool](/md/wiki/sources/philschmid-why-agents-will-only-have-one-tool) | Philipp Schmid：为什么未来的智能体很快将只剩下一个工具（Code Mode 深度解析） | 博客/技术长文 |
+| [sopilot-400-directories-submission-platform](/md/wiki/sources/sopilot-400-directories-submission-platform) | SoPilot：400+ 海外目录导航站自动化提交与外链建设平台 | 网站归档/工具资源 |
+| [aichuhai-mika-phone-agent-cross-border-station](/md/wiki/sources/aichuhai-mika-phone-agent-cross-border-station) | 爱出海（@ai_chuhai）：把旧安卓手机改造成出海赚美元工作站——开源 Mika 与智能体自动化配置 SOP | X/Twitter |
+| [bainian-grey-niche-sites-traffic-teardown](/md/wiki/sources/bainian-grey-niche-sites-traffic-teardown) | 百年 AI×出海（@bainianAI）：灰色站的百万流量是怎么拉起来的？收购老域名 301 迁移与 Google 趋势刷词套利拆解 | X/Twitter |
+| [qianshuixia-gefei-seo-agent-claude-code-energy-trap](/md/wiki/sources/qianshuixia-gefei-seo-agent-claude-code-energy-trap) | 浅水虾（@qianshuixia2026）：把哥飞 SEO 接进 Claude Code——警惕 AI 时代的精力陷阱与两条腿走路 | X/Twitter |
+| [nini-global-freelancer-skills-stack](/md/wiki/sources/nini-global-freelancer-skills-stack) | nini（@nini_incrypto_）：学什么技能能在全球当自由职业者？可远程交付技能清单与商业能力公式 | X/Twitter |
+| [leo-xiaolei-10-chrome-extensions-for-x-twitter](/md/wiki/sources/leo-xiaolei-10-chrome-extensions-for-x-twitter) | 刘老板（@leo_xiaolei）：运营 X（Twitter）看这篇就够了——10 款高口碑免费 Chrome 扩展实测盘点 | X/Twitter |
+| [svwang-wealthy-entrepreneurs-path-dependency-and-waiting](/md/wiki/sources/svwang-wealthy-entrepreneurs-path-dependency-and-waiting) | 硅谷王川（@Svwang1）：富商发家史随想——路径依赖、缺乏抽象思考与「什么都不做耐心等待」的缺失 | X/Twitter |
+| [lingxiang-stageshow-realistic-product-mockup-skill](/md/wiki/sources/lingxiang-stageshow-realistic-product-mockup-skill) | 0xiang（@LingxiangAI）：Stageshow——教 Claude Code 与 Codex 制作真实产品示意配图的开源 Skill | X/Twitter |
+| [yuntianming-md2draft-markdown-to-x-draft-extension](/md/wiki/sources/yuntianming-md2draft-markdown-to-x-draft-extension) | 云天明AI（@yuntianming10）：Markdown 一键直达 X 草稿——MD2DRAFT 解决 Thread 串推分段与 Article 长文排版痛点 | X/Twitter |
+| [lin-crypto-15-human-nature-monetization-models](/md/wiki/sources/lin-crypto-15-human-nature-monetization-models) | Lin数字资产（@Crypto_146827）：做产品的底层逻辑——基于人性的 15 种商业变现与需求切入形态 | X/Twitter |
+| [0xgky-learn-from-materials-agent-skill](/md/wiki/sources/0xgky-learn-from-materials-agent-skill) | Gk（@0xGky）：learn-from-materials——把几百页 PDF/EPUB 资料整成带精确页码出处交互式学习网站的 Agent Skill | X/Twitter |
+| [missle8z-ai-life-advice-image-card-monetization](/md/wiki/sources/missle8z-ai-life-advice-image-card-monetization) | 壹新（@Missle8z）：发 4 篇笔记爆了 2 万赞——AI 走心人生建议图文全平台分发与变现 | X/Twitter |
+| [luffy-19yo-ai-tiktok-dance-girl-7-prompts](/md/wiki/sources/luffy-19yo-ai-tiktok-dance-girl-7-prompts) | 路飞（@0xluffy_eth）：19 岁男生用 AI 做美女号 2 周赚 3.6W——可灵动作控制与 Fanvue 订阅变现 7 段提示词 | X/Twitter |
+| [ryan-muse-wechat-longform-and-tietu-automation-review](/md/wiki/sources/ryan-muse-wechat-longform-and-tietu-automation-review) | Ryan（@7998l201）：让 Muse 全权运营公众号与贴图号一周复盘——踩坑记录与 systemd 常驻代理自愈解法 | X/Twitter |
+| [kyrie-codex-information-gathering-pipeline](/md/wiki/sources/kyrie-codex-information-gathering-pipeline) | Kyrie（@KyrieCheungYep）：每天省下 3 小时——用 Codex 搭建客户背调、政策追踪与美学盯盘自动化信息流水线 | X/Twitter |
+| [xilo-codex-knowledge-video-editing-ab-roll-method](/md/wiki/sources/xilo-codex-knowledge-video-editing-ab-roll-method) | xilo（@xilo2991）：Codex 自动化剪辑第三弹——2 条视频接下四位数商单的知识类视频 A/B-roll 方法论 | X/Twitter |
+| [stanley-wechat-tietu-6000-words-monetization-playbook](/md/wiki/sources/stanley-wechat-tietu-6000-words-monetization-playbook) | Stanley（@Stanleysobest）：2026 公众号贴图完整变现地图——6200 字拆解底层逻辑、操作路径与搞钱闭环 | X/Twitter |
+| [kongge-creator-buddy-10-wechat-skills](/md/wiki/sources/kongge-creator-buddy-10-wechat-skills) | 空格（@kongge_space）：开源 creator-buddy 微信公众号 10 大全套 Agent Skills（写作、排版、爆款分析与封面） | X/Twitter |
+| [copperforge-orca-multi-agent-orchestration-guide](/md/wiki/sources/copperforge-orca-multi-agent-orchestration-guide) | 铜匠（@CopperForgeAI）：Orca 从入门到精通——一个人同时指挥一群 AI Agent 的多智能体开发环境（ADE）全攻略 | X/Twitter |
+| [wadezone-hollywood-three-act-storytelling-copywriting](/md/wiki/sources/wadezone-hollywood-three-act-storytelling-copywriting) | Koda（@wadezone）：干货没人看？用好莱坞三幕式讲故事——拉人上船、撞冰山绝路到递出木板 | X/Twitter |
+| [jessicao-xiaohongshu-0-to-1-operations-guide](/md/wiki/sources/jessicao-xiaohongshu-0-to-1-operations-guide) | Jessi Cao（@JessiCao_JC）：万字教程｜小红书从 0 到 1 入门运营详细指南——业务定位、对标拆解与变现闭环 | X/Twitter |
+| [ryan-muse-wechat-tietu-step-by-step-guide](/md/wiki/sources/ryan-muse-wechat-tietu-step-by-step-guide) | Ryan（@7998l201）：让 Muse 全权自动运营微信贴图号——零基础手把手实操教程与自动化节奏表 | X/Twitter |
+| [lucaspei-xiaohongshu-virtual-ai-ppt-playbook](/md/wiki/sources/lucaspei-xiaohongshu-virtual-ai-ppt-playbook) | 裴同学（@LucasPei181034）：从封店月损 8 万到单店月入 5 万——小红书虚拟资产全面转向 AI 原创 PPT 破局实录 | X/Twitter |
+| [mindfulreturn-wechatlongpic-skill](/md/wiki/sources/mindfulreturn-wechatlongpic-skill) | MindfulReturn（@MindfulReturn）：把公众号做成长图——开源 wechatlongpic 解决长文卡死与排版难题（12 套精美主题） | X/Twitter |
+| [stanley-soda-music-monetization-reality-check](/md/wiki/sources/stanley-soda-music-monetization-reality-check) | Stanley（@Stanleysobest）：2026 最全搞钱项目测评——汽水音乐到底值不值得做？（四种变现路径深度拆解） | X/Twitter |

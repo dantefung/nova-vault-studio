@@ -4,7 +4,46 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
-## [2026-11-03] ingest-refine: 增长黑客范冰 DSH Super-agent 四层知识沉淀（补齐精读摘要与概念页）
+## [2026-11-03] ingest: 13 篇 AI 运营/多 Agent 编排/小红书虚拟资产/公众号贴图与自媒体商业化实战长文（铜匠 Orca ADE / Ryan Muse 贴图与长文两篇 / Stanley 贴图与汽水音乐两篇 / 裴同学小红书虚拟 AI PPT / Jessi Cao 小红书万字指南等）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 93 张（包含 Orca 多智能体架构图、小红书虚拟 PPT 制作流水线图、wechatlongpic 主题示例、Muse 贴图规范图等），归档至 `sources/`
+- 归档列表：
+  1. `sources/luffy-19yo-ai-tiktok-dance-girl-7-prompts.md`（路飞 @0xluffy_eth，104 行，4 图）：19 岁男生用 AI 做美女号 2 周赚 3.6W——可灵动作控制与 Fanvue 订阅变现 7 段提示词。
+  2. `sources/ryan-muse-wechat-longform-and-tietu-automation-review.md`（Ryan @7998l201，598 行，8 图）：让 Muse 全权运营公众号与贴图号一周复盘——踩坑记录与 systemd 常驻代理自愈解法。
+  3. `sources/kyrie-codex-information-gathering-pipeline.md`（Kyrie @KyrieCheungYep，244 行，5 图）：每天省下 3 小时——用 Codex 搭建客户背调、政策追踪与美学盯盘自动化信息流水线。
+  4. `sources/xilo-codex-knowledge-video-editing-ab-roll-method.md`（xilo @xilo2991，536 行，17 图）：Codex 自动化剪辑第三弹——2 条视频接下四位数商单的知识类视频 A/B-roll 方法论。
+  5. `sources/stanley-wechat-tietu-6000-words-monetization-playbook.md`（Stanley @Stanleysobest，327 行，1 图）：2026 公众号贴图完整变现地图——6200 字拆解底层逻辑、操作路径与搞钱闭环。
+  6. `sources/kongge-creator-buddy-10-wechat-skills.md`（空格.space @kongge_space，44 行）：开源 creator-buddy 微信公众号 10 大全套 Agent Skills（写作、排版、爆款分析与封面）。
+  7. `sources/copperforge-orca-multi-agent-orchestration-guide.md`（铜匠・十点睡觉 @CopperForgeAI，374 行，7 图）：Orca 从入门到精通——一个人同时指挥一群 AI Agent 的多智能体开发环境（ADE）全攻略。
+  8. `sources/wadezone-hollywood-three-act-storytelling-copywriting.md`（Koda @wadezone，78 行）：干货没人看？用好莱坞三幕式讲故事——拉人上船、撞冰山绝路到递出木板。
+  9. `sources/jessicao-xiaohongshu-0-to-1-operations-guide.md`（Jessi Cao @JessiCao_JC，680 行，5 图）：万字教程｜小红书从 0 到 1 入门运营详细指南——业务定位、对标拆解与变现闭环。
+  10. `sources/ryan-muse-wechat-tietu-step-by-step-guide.md`（Ryan @7998l201，701 行，9 图）：让 Muse 全权自动运营微信贴图号——零基础手把手实操教程与自动化节奏表。
+  11. `sources/lucaspei-xiaohongshu-virtual-ai-ppt-playbook.md`（裴同学 @LucasPei181034，612 行，26 图）：从封店月损 8 万到单店月入 5 万——小红书虚拟资产全面转向 AI 原创 PPT 破局实录。
+  12. `sources/mindfulreturn-wechatlongpic-skill.md`（MindfulReturn 身心修复局 @MindfulReturn，109 行，7 图）：把公众号做成长图——开源 wechatlongpic 解决长文卡死与排版难题（12 套精美主题）。
+  13. `sources/stanley-soda-music-monetization-reality-check.md`（Stanley @Stanleysobest，318 行，1 图）：2026 最全搞钱项目测评——汽水音乐到底值不值得做？（四种变现路径深度拆解）。
+
+## [2026-11-03] ingest: 16 篇出海/AI/知识管理/商业实战长文（卡兹克戴森球流水线 / Philipp Schmid Code Mode / SoPilot / 云天明 MD2DRAFT / Gk learn-from-materials / 壹新两篇 / 爱出海Mika等）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 46 张（包含 Code Mode 原理图、MD2DRAFT 实操界面图、Mika 流程图、灰色站 Trends 走势图等），归档至 `sources/`
+- 归档列表：
+  1. `sources/khazix-miniature-agent-automation-pipeline.md`（数字生命卡兹克 @Khazix0918，43 行，1 图）：5 天打造微缩景观 Agent 自动化流水线——戴森球计划灵感、天气联动与 Opus 5.5 + GPT-6 Astra + Codex 多模型工程协同。
+  2. `sources/hongye-open-pose-costume-5800-library.md`（Kevin Tech Labs @HongyeMain，46 行，4 图）：Open Pose & Costume 开源姿势与服饰库大更新——5,855 张多视角参考图与一键生图。
+  3. `sources/chencheng-code-mode-evolution-and-durable-execution.md`（陈成 @chenchengpro，30 行）：从 Tool Call 到 Code Mode 的演进脉络——工具爆炸、沙箱串联与 Pi Durable 确定性重放断点续跑。
+  4. `sources/philschmid-why-agents-will-only-have-one-tool.md`（Philipp Schmid @philschmid，135 行，2 图）：为什么未来的智能体很快将只剩下一个工具（Code Mode 深度解析）——从单步动作走向沙箱代码工作流串联、类型化函数接口、为什么是 JS/Python 沙箱而非纯 bash、主流 Harness 的 Code Mode 标配化。
+  5. `sources/sopilot-400-directories-submission-platform.md`（SoPilot，52 行）：400+ 海外目录导航站自动化提交与外链建设平台——从 Free 免费站到 Exchange 交换站的 30 天出海冷启动外链策略。
+  6. `sources/aichuhai-mika-phone-agent-cross-border-station.md`（爱出海 @ai_chuhai，339 行，9 图）：把旧安卓手机改造成出海赚美元工作站——开源 Mika 与声明式工程书（iLang）驱动手机识屏点击与多平台引流调研。
+  7. `sources/bainian-grey-niche-sites-traffic-teardown.md`（百年 AI×出海 @bainianAI，121 行，9 图）：灰色站的百万流量是怎么拉起来的？收购高 DR 老域名 301 迁移与 Google 趋势动态新词自动化刷量截流。
+  8. `sources/qianshuixia-gefei-seo-agent-claude-code-energy-trap.md`（浅水虾 @qianshuixia2026，81 行，6 图）：把哥飞 SEO 接进 Claude Code——警惕 AI 时代的精力陷阱，坚持「左手项目保现金流，右手上站」两条腿走路。
+  9. `sources/nini-global-freelancer-skills-stack.md`（nini @nini_incrypto_，135 行）：学什么技能能在全球当自由职业者？可远程交付技能清单与商业能力公式（可远程技能 × 全球平台 × 获客能力）。
+  10. `sources/leo-xiaolei-10-chrome-extensions-for-x-twitter.md`（刘老板 @leo_xiaolei，134 行，1 图）：运营 X（Twitter）看这篇就够了——10 款高口碑免费 Chrome 扩展实测盘点（X Viral Monitor、Bangermeter、Control Panel 等）。
+  11. `sources/svwang-wealthy-entrepreneurs-path-dependency-and-waiting.md`（硅谷王川 @Svwang1，34 行）：富商发家史随想——路径依赖、缺乏抽象思考与「什么都不做耐心等待」的缺失。
+  12. `sources/lingxiang-stageshow-realistic-product-mockup-skill.md`（0xiang @LingxiangAI，46 行）：Stageshow——教 Claude Code 与 Codex 制作真实产品示意配图的开源 Skill（排查太满、线框感、装盒子、太平、太淡五大翻车）。
+  13. `sources/yuntianming-md2draft-markdown-to-x-draft-extension.md`（云天明AI @yuntianming10，405 行，14 图）：Markdown 一键直达 X 草稿——MD2DRAFT 解决 Thread 串推分段与 Article 长文排版痛点，坚持「只注入草稿绝不替你自动发布」的安全边界。
+  14. `sources/lin-crypto-15-human-nature-monetization-models.md`（Lin数字资产 @Crypto_146827，52 行）：做产品的底层逻辑——基于人性的 15 种商业变现与需求切入形态（焦虑/身份认同/贪婪/情感/懒惰/虚荣/希望/恐惧/好奇/从众/嫉妒/损失厌恶/怀旧/责任感/互惠）。
+  15. `sources/0xgky-learn-from-materials-agent-skill.md`（Gk @0xGky，33 行，1 图）：learn-from-materials——把几百页 PDF/EPUB 资料整成带精确页码出处交互式学习网站的 Agent Skill。
+  16. `sources/missle8z-ai-life-advice-image-card-monetization.md`（壹新 @Missle8z，34 行，3 图）：发 4 篇笔记爆了 2 万赞——AI 走心人生建议图文全平台分发与变现。
+- 索引：
+  - `wiki/index.md` 来源列表追加 16 篇新归档条目。
 
 - **归档补充**：按项目 LLM Wiki 四层标准（sources → summaries → concepts → artifacts），为该篇微信长文补齐精读摘要与核心概念层：
   1. **摘要层**：`summaries/fanbing-dsh-superagent-engineering-common-sense.md`
