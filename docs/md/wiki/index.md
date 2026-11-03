@@ -722,3 +722,20 @@ wiki/
 | [lucaspei-xiaohongshu-virtual-ai-ppt-playbook](/md/wiki/sources/lucaspei-xiaohongshu-virtual-ai-ppt-playbook) | 裴同学（@LucasPei181034）：从封店月损 8 万到单店月入 5 万——小红书虚拟资产全面转向 AI 原创 PPT 破局实录 | X/Twitter |
 | [mindfulreturn-wechatlongpic-skill](/md/wiki/sources/mindfulreturn-wechatlongpic-skill) | MindfulReturn（@MindfulReturn）：把公众号做成长图——开源 wechatlongpic 解决长文卡死与排版难题（12 套精美主题） | X/Twitter |
 | [stanley-soda-music-monetization-reality-check](/md/wiki/sources/stanley-soda-music-monetization-reality-check) | Stanley（@Stanleysobest）：2026 最全搞钱项目测评——汽水音乐到底值不值得做？（四种变现路径深度拆解） | X/Twitter |
+| [placela-claude-code-team-code-review-practices](/md/wiki/sources/placela-claude-code-team-code-review-practices) | placela（@Nokia0421）：Claude Code 团队是怎样做 Code Review 的？——90% 代码由 AI 编写下的六层防线与 Revert 护栏 | X/Twitter |
+| [carsonyang-fastgpt-wechat-group-auto-management](/md/wiki/sources/carsonyang-fastgpt-wechat-group-auto-management) | 米开朗基杨（@CarsonYangk8s）：违背祖宗的决定——手把手教你用 FastGPT 搭建微信/飞书社群 15 节点全自动客服流 | X/Twitter |
+| [ryan-muse-auto-sync-x-posts-to-wechat-guide](/md/wiki/sources/ryan-muse-auto-sync-x-posts-to-wechat-guide) | Ryan（@7998l201）：让 Muse 全权自动把 X 长文同步到微信公众号——手把手实操教程与零行丢失硬核验收 | X/Twitter |
+| [qianshuixia-daily-review-finding-demands-core-competency](/md/wiki/sources/qianshuixia-daily-review-finding-demands-core-competency) | 浅水虾（@qianshuixia2026）：虾友连续出单了——聊聊独立出海做站的核心竞争力：每天复盘找词与需求挖掘 | X/Twitter |
+| [qingyue-wechat-zhangxiaolong-story-and-independent-spirit](/md/wiki/sources/qingyue-wechat-zhangxiaolong-story-and-independent-spirit) | 清月（@qingyue820）：复杂的纯粹与热情的孤独——蓝色星球下张小龙与微信的产品故事 | X/Twitter |
+| [stanley-ai-graduation-code-explainer-handbook-monetization](/md/wiki/sources/stanley-ai-graduation-code-explainer-handbook-monetization) | Stanley（@Stanleysobest）：月薪 8000 的程序员下班用 AI 每天多赚 800——毕业季代码答辩手稿拆解与咸鱼变现实操 | X/Twitter |
+| [chencheng-mayoi-fast-gpu-editor-for-agentic-era](/md/wiki/sources/chencheng-mayoi-fast-gpu-editor-for-agentic-era) | 陈成（@chenchengpro）：我写了个极速代码编辑器 Mayoi——专为 Agent 编程时代打造（Go + MyGo GPU 原生渲染） | X/Twitter |
+| [ryan-muse-ai-image-post-daily-15-skills-rotation](/md/wiki/sources/ryan-muse-ai-image-post-daily-15-skills-rotation) | Ryan（@7998l201）：让 Muse 每天自动更新 15 条热门贴图——8 大开源生图与艺术风格 Skill 轮换实测盘点 | X/Twitter |
+| [xionghuanwei-wechat-official-account-traffic-monetization-rules](/md/wiki/sources/xionghuanwei-wechat-official-account-traffic-monetization-rules) | 熊叔的茅草屋（@xionghuanwei）：一天 265 收益 9 万曝光——公众号爆款赛道选择与避开真人验证 6 大硬规则 | X/Twitter |
+| [aiwarts-doubao-work-record-and-replay-computer-automation](/md/wiki/sources/aiwarts-doubao-work-record-and-replay-computer-automation) | 卡尔的AI沃茨（@aiwarts）：豆包工作录制回放全攻略——不写代码也能爽玩电脑自动化（30 分钟边讲边录、多平台巡检与风控规避） | X/Twitter |
+| [kyrie-ai-short-drama-monetization-6-business-models](/md/wiki/sources/kyrie-ai-short-drama-monetization-6-business-models) | Kyrie（@KyrieCheungYep）：百万播放只能赚 500 块？AI 短剧真正赚钱的 6 条路与成本账本 | X/Twitter |
+| [xaiwind-telegram-from-beginner-to-master-developer-guide](/md/wiki/sources/xaiwind-telegram-from-beginner-to-master-developer-guide) | 想风（@xaiwind）：超简单 Telegram 从入门到精通——客户端装配、Bot 机器人开发、MTProto 接口与广告投放指南 | X/Twitter |
+| [lele-wechat-21-days-monetization-nanny-guide](/md/wiki/sources/lele-wechat-21-days-monetization-nanny-guide) | 乐博士在路上（@lele898898898）：21 天手把手做一个能赚到钱的公众号——赛道选择、对标拆解与冷启动保姆级教程 | X/Twitter |
+| [ryan-muse-x-account-dedicated-proxy-ip-guide](/md/wiki/sources/ryan-muse-x-account-dedicated-proxy-ip-guide) | Ryan（@7998l201）：让 Muse 全权运营 X 账号——固定代理 IP、Cookie-Editor 会话导出与 Playwright 防封教程 | X/Twitter |
+| [ryan-muse-channels-wechat-reading-video-automation](/md/wiki/sources/ryan-muse-channels-wechat-reading-video-automation) | Ryan（@7998l201）：Muse 接管微信视频号——接入微信读书 API 每日自动选书、写文案与做短视频 | X/Twitter |
+| [lxfater-wechat-cover-prompt-formula-235-ratio](/md/wiki/sources/lxfater-wechat-cover-prompt-formula-235-ratio) | 铁锤人（@lxfater）：公众号 2.35:1 高点击率首图封面提示词模板（真人摄影质感 + UI贴纸排版） | X/Twitter |
+| [shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto](/md/wiki/sources/shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto) | 山羊赚钱笔记（@shanyanggm）：你难道就没幻想过？数百个自媒体与数字游民变现赛道全景清单 | X/Twitter |

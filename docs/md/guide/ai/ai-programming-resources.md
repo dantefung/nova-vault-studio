@@ -248,6 +248,7 @@ date: "2026-05-05"
 - [llm-wiki-starter](https://github.com/eleven-net-cn/llm-wiki-starter) — 一键创建 LLM Wiki 知识库，基于 Andrej Karpathy 的 LLM Wiki 模式
 - [ElysiaJS](https://elysiajs.com) — Bun 生态最快的 TypeScript 后端框架，基于 OpenAPI 3.x 规范，类型安全、极速性能，支持 Swagger 文档自动生成
 - [thinkrail](https://github.com/JetBrains/thinkrail) — **372 Stars**，JetBrains 孵化项目：用 `pi` 编码代理驱动的轻量级真实 IDE，vibe coding 工具。Desktop + CLI 双形态，支持 git worktree 多工作区，内嵌 Monaco 编辑器 + 多 tab + 终端 + spec-graph 视图。架构三圈：engine host（Bun.serve HTTP+WS）/ wire（typed contracts）/ UI client（React 19 + Zustand + Tailwind v4）。官网 [thinkrail.ai](https://thinkrail.ai/)，协议 Apache-2.0
+- [Mayoi](https://github.com/sorrycc/Mayoi) — 前阿里前端资深专家云谦（陈成）开源的极速代码编辑器（迷い）。专为 Agent 编程时代打造：Go + MyGo GPU 原生渲染（无 Electron / Webview，打包仅 18MB，10 万行大文件 20ms 极速打开）；全工程集中单页 Diff 审查（行内 / 左右对照与行号旁一键 Stage/Revert）；内置 Ghostty 终端内核（⌘V 截图直贴 Agent）；全仓库项目 Tab 管理（后台 Agent 完成响铃自动高亮）；支持 Vim 模式、Remote SSH 免服务端直连、Markdown/SVG/Mermaid 并排实时预览与 Matrix 代码雨主题。MIT 协议
 - [VMark](https://github.com/xiaolai/vmark) — **718 Stars**，李笑来开源的 AI 原生 Markdown 编辑器，支持 MCP 协议直连 Claude/Codex/Gemini，AI 直接读写本地文档不需复制粘贴，中日韩排版规则本地优先，ISC 协议
 - [edgetunnel](https://github.com/cmliu/edgetunnel) — **41.1k Stars**，基于 Cloudflare Workers/Pages 的 VLESS/Trojan/SS 多功能面板，支持订阅系统和多平台客户端适配
 - [OpenWorker](https://github.com/andrewyng/openworker) — 吴恩达开源的桌面 AI 助手，自动处理文档/日程/邮件等杂事，支持 25+ 工具（GitHub/Slack/Jira/Notion/Gmail/Google日历），模型灵活（OpenAI/Claude/Gemini/DeepSeek/Ollama），隐私本地存储

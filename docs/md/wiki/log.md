@@ -4,6 +4,28 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-03] ingest: 17 篇 AI 工程与自媒体实战长文（Claude Code 团队六层 CR 规范 / 陈成 Mayoi 极速编辑器 / 米开朗基杨 FastGPT 社群客服 / 想风 Telegram 终极指南 / 卡尔豆包工作录制回放 / Kyrie 短剧商业账本 / 乐博士 21 天公众号等）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 126 张（包含 FastGPT 社群工作流 15 节点截图、微信张小龙故事配图、Telegram Bot 开发者配置图、豆包工作录制界面、小红书/公众号起号实操图等），归档至 `sources/`
+- 归档列表：
+  1. `sources/placela-claude-code-team-code-review-practices.md`（placela @Nokia0421，317 行，1 图）：Claude Code 团队是怎样做 Code Review 的？——90% 代码由 AI 编写下的六层防线、Fresh Context Subagent 审查与快速 Revert 护栏。
+  2. `sources/carsonyang-fastgpt-wechat-group-auto-management.md`（米开朗基杨 @CarsonYangk8s，340 行，25 图）：违背祖宗的决定——手把手教你用 FastGPT 搭建微信/飞书社群 15 节点全自动客服流（意图识别/知识库召回/商机留资与转人工）。
+  3. `sources/ryan-muse-auto-sync-x-posts-to-wechat-guide.md`（Ryan @7998l201，986 行，9 图）：让 Muse 全权自动把 X 长文同步到微信公众号——手把手实操教程与零行丢失硬核验收。
+  4. `sources/qianshuixia-daily-review-finding-demands-core-competency.md`（浅水虾 @qianshuixia2026，75 行，13 图）：虾友连续出单了——聊聊独立出海做站的核心竞争力：每天复盘找词与需求挖掘。
+  5. `sources/qingyue-wechat-zhangxiaolong-story-and-independent-spirit.md`（清月已经不困了 @qingyue820，289 行，22 图）：复杂的纯粹与热情的孤独——蓝色星球下张小龙与微信的产品故事（Foxmail、QQ 邮箱漂流瓶、移动赛马机制与纯粹无开屏广告精神）。
+  6. `sources/stanley-ai-graduation-code-explainer-handbook-monetization.md`（Stanley @Stanleysobest，612 行，1 图）：月薪 8000 的程序员下班用 AI 每天多赚 800——毕业季代码答辩手稿拆解与咸鱼变现实操。
+  7. `sources/chencheng-mayoi-fast-gpu-editor-for-agentic-era.md`（陈成 @chenchengpro，128 行）：我写了个极速代码编辑器 Mayoi——专为 Agent 编程时代打造（Go + MyGo GPU 原生渲染、Ghostty 终端集成、免安装 Remote SSH、跨项目多 Tab、18MB 轻量打包）。
+  8. `sources/ryan-muse-ai-image-post-daily-15-skills-rotation.md`（Ryan @7998l201，55 行）：让 Muse 每天自动更新 15 条热门贴图——8 大开源生图与艺术风格 Skill 轮换实测盘点。
+  9. `sources/xionghuanwei-wechat-official-account-traffic-monetization-rules.md`（熊叔的茅草屋 @xionghuanwei，36 行，1 图）：一天 265 收益 9 万曝光——公众号爆款赛道选择与避开真人验证 6 大硬规则。
+  10. `sources/aiwarts-doubao-work-record-and-replay-computer-automation.md`（卡尔的AI沃茨 @aiwarts，135 行，10 图）：豆包工作录制回放全攻略——不写代码也能爽玩电脑自动化（30 分钟边讲边录、多平台巡检与风控规避）。
+  11. `sources/kyrie-ai-short-drama-monetization-6-business-models.md`（Kyrie @KyrieCheungYep，461 行，6 图）：百万播放只能赚 500 块？AI 短剧真正赚钱的 6 条路与成本账本。
+  12. `sources/xaiwind-telegram-from-beginner-to-master-developer-guide.md`（想风 @xaiwind，276 行，14 图）：超简单 Telegram 从入门到精通——客户端装配、Bot 机器人开发、MTProto 接口与广告投放指南。
+  13. `sources/lele-wechat-21-days-monetization-nanny-guide.md`（乐博士在路上 @lele898898898，375 行，14 图）：21 天手把手做一个能赚到钱的公众号——赛道选择、对标拆解与冷启动保姆级教程。
+  14. `sources/ryan-muse-x-account-dedicated-proxy-ip-guide.md`（Ryan @7998l201，310 行，10 图）：让 Muse 全权运营 X 账号——固定代理 IP、Cookie-Editor 会话导出与 Playwright 防封教程。
+  15. `sources/ryan-muse-channels-wechat-reading-video-automation.md`（Ryan @7998l201，38 行）：Muse 接管微信视频号——接入微信读书 API 每日自动选书、写文案与做短视频。
+  16. `sources/lxfater-wechat-cover-prompt-formula-235-ratio.md`（铁锤人 @lxfater，63 行，1 图）：公众号 2.35:1 高点击率首图封面提示词模板（真人摄影质感 + UI贴纸排版）。
+  17. `sources/shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto.md`（山羊赚钱笔记 @shanyanggm，22 行）：你难道就没幻想过？数百个自媒体与数字游民变现赛道全景清单。
+
 ## [2026-11-03] ingest: 13 篇 AI 运营/多 Agent 编排/小红书虚拟资产/公众号贴图与自媒体商业化实战长文（铜匠 Orca ADE / Ryan Muse 贴图与长文两篇 / Stanley 贴图与汽水音乐两篇 / 裴同学小红书虚拟 AI PPT / Jessi Cao 小红书万字指南等）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 93 张（包含 Orca 多智能体架构图、小红书虚拟 PPT 制作流水线图、wechatlongpic 主题示例、Muse 贴图规范图等），归档至 `sources/`
