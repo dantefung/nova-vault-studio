@@ -642,3 +642,33 @@ wiki/
 | [wangchen-super-agent-deepseek-harness](/md/wiki/sources/wangchen-super-agent-deepseek-harness) | 望宸：从长程 Agent 到 Super-agent，解锁更多场景（DeepSeek dsh-superagent-prototype 工程拆解） | 微信公众号 |
 | [xiaofeiyang-new-site-google-traffic-simulator](/md/wiki/sources/xiaofeiyang-new-site-google-traffic-simulator) | 小肥羊（@xiaofeiyangfe）：新站上线 Google 为什么不给流量？用模拟器看懂的 6 件事 | X/Twitter |
 | [criscxuan-deepseek-super-agent-architecture-teardown](/md/wiki/sources/criscxuan-deepseek-super-agent-architecture-teardown) | cxuan（@criscxuan）：通了个宵，终于把 Super-Agent 架构玩明白了（DeepSeek Harness 深度拆解） | X/Twitter |
+| [victor-uwer-tool-site-vertical-niche-for-profession-strategy](/md/wiki/sources/victor-uwer-tool-site-vertical-niche-for-profession-strategy) | Victor 在西雅图（@victor_UWer）：出海工具站换个切法——大词后挂职业做垂直人群长尾页 | X/Twitter |
+| [missle8z-information-arbitrage-8-business-models](/md/wiki/sources/missle8z-information-arbitrage-8-business-models) | 壹新（@Missle8z）：普通人赚钱最快的方法是当二道贩子——跨平台信息差与套利的 8 种实操形态 | X/Twitter |
+| [hytidel-shanghai-smk-secret-exam-guide](/md/wiki/sources/hytidel-shanghai-smk-secret-exam-guide) | Hytidel（@HytidelLegend）：2027 上海小升初「神秘考 SMK」全攻略——梯队代码、时间线、证书门槛与黑话 | X/Twitter |
+| [heyrico-design-system-and-skills-for-agents](/md/wiki/sources/heyrico-design-system-and-skills-for-agents) | rico（@_heyrico）：构建 AI Agent 能严格遵守的设计系统与 Skills 体系 | X/Twitter |
+| [liangzhu-marketingskills-agent-skills-system](/md/wiki/sources/liangzhu-marketingskills-agent-skills-system) | 良竹（@liangzhu_AI）：会写代码不会卖？基于 Agent Skills 的独立开发者营销转化体系 | X/Twitter |
+| [ganfanren-taishang-laojun-douyin-content-skill](/md/wiki/sources/ganfanren-taishang-laojun-douyin-content-skill) | 饭饭猛猛炫（@ganfanren_ai）：太上老君·AI炼丹炉——去 AI 味、改爆款口播的自媒体内容 Skill | X/Twitter |
+| [manorgw-inkos-ai-creative-workspace](/md/wiki/sources/manorgw-inkos-ai-creative-workspace) | Man ting（@Manorgw）：InkOS——面向长篇小说、剧本与互动影游的开源 AI 创作工作台 | X/Twitter |
+| [fantuantalk-5-tools-finding-real-needs](/md/wiki/sources/fantuantalk-5-tools-finding-real-needs) | 饭团（@fantuantalk）：找真实需求的 5 个出海利器——Google Trends/AnswerThePublic/Reddit/PH/SparkToro | X/Twitter |
+| [kkkeric-seo-new-site-gsc-and-300-backlinks](/md/wiki/sources/kkkeric-seo-new-site-gsc-and-300-backlinks) | KKKK（@kkkeric_ai）：SEO 新站起步心法——看淡 DR、死磕 GSC 与 300 条外链分界线 | X/Twitter |
+| [zone-ai-ref-library-and-char-db-cn](/md/wiki/sources/zone-ai-ref-library-and-char-db-cn) | SleepyZone（@zone__online）：开源 AI 作图参考库与二次元角色换装数据库的中文检索站设计 | X/Twitter |
+| [luffy-20-animation-studio-skills-stack](/md/wiki/sources/luffy-20-animation-studio-skills-stack) | 路飞（@0xluffy_eth）：20 个 Skill 搭一整套动效工作室——动画、模拟、3D、音频与导出全流程 | X/Twitter |
+| [xiaohu-deepseek-super-agent-experiments-and-security-cost](/md/wiki/sources/xiaohu-deepseek-super-agent-experiments-and-security-cost) | 小互（@xiaohu）：同时开 5 个 Agent 人就盯不过来了——DeepSeek Super-agent 架构实验数据与安全代价 | X/Twitter |
+| [ssslumdunk-10m-cash-financial-freedom-confession](/md/wiki/sources/ssslumdunk-10m-cash-financial-freedom-confession) | 龙心盐（@ssslumdunk）：有现金一千万可以躺平了吗？一位大厂搜广推工程师的十年真实账本与认知 | X/Twitter |
+| [victor-uwer-competitor-ad-library-arbitrage](/md/wiki/sources/victor-uwer-competitor-ad-library-arbitrage) | Victor 在西雅图（@victor_UWer）：出海投放最贼的路子——直接抄竞品长青广告素材作业 | X/Twitter |
+| [yaohongan-three-playbooks-overseas-sites](/md/wiki/sources/yaohongan-three-playbooks-overseas-sites) | 虹安（@yaohongan2025）：做出海站的三种打法——做新词、做需求词、做真需求 | X/Twitter |
+| [liangzhu-google-ads-transparency-center-spy](/md/wiki/sources/liangzhu-google-ads-transparency-center-spy) | 良竹（@liangzhu_AI）：竞品投放透明化——用谷歌官方工具排查对手广告素材与投放地区 | X/Twitter |
+| [heizolshao-reddit-traffic-intercept-100m-site](/md/wiki/sources/heizolshao-reddit-traffic-intercept-100m-site) | 左海（@heizolshao）：月访 1.05 亿老牌站还在 Reddit 导流——垂直社区截流真实痛点实操 | X/Twitter |
+| [gefei-products-remade-for-ai-via-mcp](/md/wiki/sources/gefei-products-remade-for-ai-via-mcp) | 哥飞（@gefei55）：很多产品都可以重做一遍——不是给人用，而是提供 MCP 给 AI 调用的自闭环 | X/Twitter |
+| [antivo-deepseek-super-agent-distributed-master-worker](/md/wiki/sources/antivo-deepseek-super-agent-distributed-master-worker) | 纳米AI（@antiAIvo）：DeepSeek Super-agent 的本质——经典分布式 Master-Worker 架构在 Agent 的回归 | X/Twitter |
+| [wquguru-us-llc-registration-and-maintenance-for-indie-devs](/md/wiki/sources/wquguru-us-llc-registration-and-maintenance-for-indie-devs) | WquGuru（@wquguru）：独立开发者出海注册与维护美国公司指南（成本/避坑/报税/苹果开发者） | X/Twitter |
+| [yhslgg-ai-beauty-photo-monetization-sop](/md/wiki/sources/yhslgg-ai-beauty-photo-monetization-sop) | 老杨（@yhslgg）：AI 美女写真短视频全流程变现 SOP——养号、作图、剪辑模板、私域承接与二转交付 | X/Twitter |
+| [coderleft-deepseek-super-agent-architecture-deep-dive](/md/wiki/sources/coderleft-deepseek-super-agent-architecture-deep-dive) | 程序员Left（@coder_left）：解读 DeepSeek Super Agent——打破传统人机交互范式，从消灭会话到工程底座全景拆解 | X/Twitter |
+| [ichardrv-information-fasting-and-calorie-model](/md/wiki/sources/ichardrv-information-fasting-and-calorie-model) | 飞鱼Fly（@ichardrv）：你和高手的最大差距是信息戒断能力——纳瓦尔注意力卡路里模型与不值得清单 | X/Twitter |
+| [kkkeric-grok-bot-22-agents-growth-fleet](/md/wiki/sources/kkkeric-grok-bot-22-agents-growth-fleet) | KKKK（@kkkeric_ai）：Grok Bot 出海增长实战——一个人 + 22 个 Bot 跑通 20+ 社媒渠道、SEO/AEO、外链与竞品全流程 | X/Twitter |
+| [anti-aivo-agent-engineering-70-backend-30-uncertainty](/md/wiki/sources/anti-aivo-agent-engineering-70-backend-30-uncertainty) | 纳米AI（@antiAIvo）：Agent 工程心法——七成在传统后端，三成在处理模型不确定性 | X/Twitter |
+| [aichuhai-residential-isp-proxy-claude-chatgpt](/md/wiki/sources/aichuhai-residential-isp-proxy-claude-chatgpt) | 爱出海（@ai_chuhai）：想用 Claude / ChatGPT？静态住宅 ISP 代理选购、配置与排错全攻略 | X/Twitter |
+| [ohayou-claude-artifacts-ui-design-system-leak](/md/wiki/sources/ohayou-claude-artifacts-ui-design-system-leak) | Unicorn（@ohayou792）：Claude 内部组件设计系统提示词与完整 UI 规范解析 | X/Twitter |
+| [wquguru-shisei-cc0-ancient-costume-library](/md/wiki/sources/wquguru-shisei-cc0-ancient-costume-library) | WquGuru（@wquguru）：Shisei 开源中国历代四视角服装库——从商朝到民国 227 张 CC0 资产 | X/Twitter |
+| [hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling](/md/wiki/sources/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling) | Hytidel（@HytidelLegend）：小红书电商保姆级教程（6）——运营进阶、提效工具与利润十倍放大 | X/Twitter |
+| [konghayao-deepseek-super-agent-architecture-reflections](/md/wiki/sources/konghayao-deepseek-super-agent-architecture-reflections) | 江夏尧（@konghayao）：关于 DeepSeek SuperAgent 架构设计的深度反思与开源工程映射 | X/Twitter |

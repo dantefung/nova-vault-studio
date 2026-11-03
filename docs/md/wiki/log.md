@@ -4,16 +4,52 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
-## [2026-11-03] ingest: 2 篇 X 精选长文（小肥羊 GSC 流量模拟器 6 件事 + cxuan 通宵搞懂 DeepSeek Super-agent 架构）
+## [2026-11-03] ingest: 32 篇 X 精选长文（小肥羊 GSC / cxuan Super-agent / Victor在西雅图两篇 / 壹新二道贩子 / 上海小升初 SMK / rico Agent设计系统 / 良竹两篇 / 太上老君口播 / InkOS 创作工作台 / 饭团需求利器 / KKKK 两篇 / 换装素材库 / 20个动效Skill / 小互 Super-agent数据 / 龙心盐 1000万账本 / 虹安出海站三种打法 / 左海 Reddit导流 / 哥飞 MCP重做产品 / 纳米AI 两篇 / WquGuru 两篇 / 老杨 美女写真SOP / 程序员Left Super-agent / 飞鱼Fly 纳瓦尔信息卡路里 / 爱出海 家宽ISP代理 / Unicorn Claude设计规范 / Hytidel 小红书电商进阶 / 江夏尧 SuperAgent架构反思）
 
-- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 26 张（单图超 450KB 均通过 sharp 自动压缩优化），归档至 `sources/`
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 90 张（单图超 450KB 均通过 sharp 自动压缩优化），归档至 `sources/`
 - 归档列表：
   1. `sources/xiaofeiyang-new-site-google-traffic-simulator.md`（小肥羊 @xiaofeiyangfe，218 行，8 图）：新站上线 Google 为什么不给流量？用模拟器看懂的 6 件事——内页与外链分工、前两周随机测试优待期本质、排名与千人千面曝光覆盖率机制、KGR/EKGR 长尾黄金比例挑词，以及以 GSC 数据信号为驱动的四阶段推进框架。
   2. `sources/criscxuan-deepseek-super-agent-architecture-teardown.md`（cxuan @criscxuan，281 行，18 图）：通了个宵，终于把 Super-Agent 架构玩明白了——以系统程序员视角硬核拆解 DeepSeek Harness（DSH）团队最新设计：Router/Worker 双层架构淡化 Session 负担、Fast/Slow Path 事件降噪与 Trigger 路由、Inline/Spill 热冷换页与引用图链式召回、全双工异步 ReAct Loop、BYOM 存算境解耦以及独立 Watchdog 外部控制回路。
+  3. `sources/victor-uwer-tool-site-vertical-niche-for-profession-strategy.md`（Victor 在西雅图 @victor_UWer，36 行）：出海工具站换个切法——大词后挂职业做垂直人群长尾页。不与老站死磕通用大词，在大词后加「for + 职业」（如 invoice generator for contractors），把模板、示例数据与文案换成职业专属字段，极大提升信任感与付费转化率。
+  4. `sources/missle8z-information-arbitrage-8-business-models.md`（壹新 @Missle8z，42 行）：普通人赚钱最快的方法是当二道贩子——跨平台信息差与套利的 8 种实操形态。跨境实物逆向搬运、海外数字产品本土化、AI 工作流知识套利、Fiverr 跨国众包、冷门内容重编译、无货源一件代发、AI 数字资产长尾复利及海外成熟小生意镜像。
+  5. `sources/hytidel-shanghai-smk-secret-exam-guide.md`（Hytidel @HytidelLegend，215 行，1 图）：2027 上海小升初「神秘考 SMK」全攻略——超一线/一线/二线学校暗号代码对照表、三至五年级备考时间线、数学高端班（MCB/新舟S/蘑菇/GY）与证书门槛（AMC8/思维100）、英语小托福 850 分基线及圈内黑话速查表。
+  6. `sources/heyrico-design-system-and-skills-for-agents.md`（rico @_heyrico，243 行，1 图）：构建 AI Agent 能严格遵守的设计系统与 Skills 体系——从 Primitives（原始物理值）→ Semantic Tokens（语义别名）→ Components（按职责分组的 shadcn 映射）→ Blocks（真实屏幕提取业务块）→ Rules & Skills（CLAUDE.md 规则与质检 Skill）的 5 层递进规范。
+  7. `sources/liangzhu-marketingskills-agent-skills-system.md`（良竹 @liangzhu_AI，29 行）：会写代码不会卖？基于 Agent Skills 的独立开发者营销转化体系——拆解 Corey Haines 开源 marketingskills 工作流：先以 product-marketing 固化定位与目标用户事实源，再依次执行 cro 转化率审计与 copywriting 文案润色。
+  8. `sources/ganfanren-taishang-laojun-douyin-content-skill.md`（饭饭猛猛炫 @ganfanren_ai，63 行）：太上老君·AI炼丹炉——去 AI 味、改爆款口播的自媒体内容 Skill。结合抖音创作者「柳爷不迷糊」实战打法：使用者档案定位、拆解对标机制、系列选题、带画面口播稿及漏斗偏离归因。
+  9. `sources/manorgw-inkos-ai-creative-workspace.md`（Man ting @Manorgw，29 行，1 图）：InkOS——面向长篇小说、剧本与互动影游的开源 AI 创作工作台。世界观管理、角色档案、伏笔追踪、审稿修订与多语言翻译一体化 Studio/TUI/CLI 工作流。
+  10. `sources/fantuantalk-5-tools-finding-real-needs.md`（饭团 @fantuantalk，34 行，1 图）：找真实需求的 5 个出海利器——Google Trends 趋势动向、AnswerThePublic 搜索引擎真实提问、Reddit+GummySearch 社区痛点扫描、Product Hunt 评论反馈线索及 SparkToro 受众行为反推。
+  11. `sources/kkkeric-seo-new-site-gsc-and-300-backlinks.md`（KKKK @kkkeric_ai，29 行）：SEO 新站起步心法——看淡 DR 操纵，死磕 GSC 真实排名与搜索点击；实测 1-2 个月内平稳堆到 300 条外链产生显著权重分界。
+  12. `sources/zone-ai-ref-library-and-char-db-cn.md`（SleepyZone @zone__online，45 行，2 图）：开源 AI 作图参考库与二次元角色换装数据库的中文检索站设计——将日本创作者 giaaibusi 的素材构建为开箱即用的中文检索 UI。
+  13. `sources/luffy-20-animation-studio-skills-stack.md`（路飞 @0xluffy_eth，114 行）：20 个 Skill 搭一整套动效工作室——动画（Remotion/Anime/Motion/Manim/Lottie）、3D（Blender/Three.js/Jolt/postprocessing/quarks）、音频（CosyVoice/librosa/WhisperX）与导出（LosslessCut/FFmpeg）全流程。
+  14. `sources/xiaohu-deepseek-super-agent-experiments-and-security-cost.md`（小互 @xiaohu，77 行，2 图）：同时开 5 个 Agent 人就盯不过来了——深入解读 DeepSeek Harness 团队 Super-agent 实验数据：架构级剥离 Bash 解决模型不愿意委派的顽疾、PR 直通节约 37% token，以及单轮 23.2M token 吞吐代价与 BYOM 本地常驻面临的 Prompt 注入安全隐患。
+  15. `sources/ssslumdunk-10m-cash-financial-freedom-confession.md`（龙心盐 @ssslumdunk，100 行）：有现金一千万可以躺平了吗？一位工作十年大厂搜广推工程师真实账本公开：字节期权、美股加仓、黄金 ETF 与存款配置，年开销 30 万的 FIRE 思考与巴菲特「一生只需富一次」的守富哲学。
+  16. `sources/victor-uwer-competitor-ad-library-arbitrage.md`（Victor 在西雅图 @victor_UWer，44 行）：出海投放最贼的路子——直接抄竞品长青广告素材作业。利用 Meta Ad Library 和 Google 广告透明度中心，逆向筛选投了 2-3 个月以上的长青素材，改写核心视觉与卖点，省去高昂试错成本。
+  17. `sources/yaohongan-three-playbooks-overseas-sites.md`（虹安 @yaohongan2025，44 行）：做出海站的三种打法——做新词、做需求词、做真需求。兼顾短线正反馈练手感、中线 SEO/GEO 沉淀被动现金流、长线深耕真实痛点建立高粘性护城河。
+  18. `sources/liangzhu-google-ads-transparency-center-spy.md`（良竹 @liangzhu_AI，27 行）：竞品投放透明化——用谷歌官方工具排查对手广告素材与投放地区。直接利用 Google Ads Transparency Center 检索品牌或公司，为出海买量增长提供第一手对标情报。
+  19. `sources/heizolshao-reddit-traffic-intercept-100m-site.md`（左海 @heizolshao，39 行，1 图）：月访 1.05 亿老牌站还在 Reddit 导流——垂直社区截流真实痛点实操。大厂在做全品类，普通开发者盯死 1 个极其垂直的 Subreddit，用小产品解决大厂嫌肉少、用户天天吐槽的痛点。
+  20. `sources/gefei-products-remade-for-ai-via-mcp.md`（哥飞 @gefei55，36 行）：很多产品都可以重做一遍——不是给人用，而是提供 MCP 给 AI 调用的自闭环。后台全由 Claude Code 自主接管配置与数据读写，再由 AI 改代码迭代演进赚回订阅费。
+  21. `sources/antivo-deepseek-super-agent-distributed-master-worker.md`（纳米AI @antiAIvo，54 行）：DeepSeek Super-agent 的本质——经典分布式 Master-Worker 架构在 Agent 的回归。Router 对应 Master，Worker 对应工作节点，状态外置解耦，底层重回成熟分布式调度逻辑。
+  22. `sources/wquguru-us-llc-registration-and-maintenance-for-indie-devs.md`（WquGuru @wquguru，51 行，1 图）：独立开发者出海注册与维护美国公司指南——怀俄明州 LLC 低成本架构（首年 1800、年审 1300）、BOI 与州年报按时申报防 2.5 万美元罚款、穿透税务与苹果公司开发者开通。
+  23. `sources/yhslgg-ai-beauty-photo-monetization-sop.md`（老杨 @yhslgg，391 行，21 图）：AI 美女写真短视频全流程变现 SOP——设备与养号防封细节、ComfyUI/FLUX/GPT 套图生成、NodeVideo 模板、ABCD 多号中转矩阵、QQ 折叠卡片与付费进群、后端 SPA 二转交付闭环。
+  24. `sources/coderleft-deepseek-super-agent-architecture-deep-dive.md`（程序员Left @coder_left，229 行，14 图）：解读 DeepSeek Super Agent——打破传统人机交互范式，从消灭会话到工程底座全景拆解。解耦底座技术容器与交互界面、双层架构与快慢双路径、两级滤噪与静默复现，以及三大工程底座（上下文按需组装、云脑端手解耦、独立看门狗督导）。
+  25. `sources/ichardrv-information-fasting-and-calorie-model.md`（飞鱼Fly @ichardrv，159 行）：你和高手的最大差距是信息戒断能力——纳瓦尔注意力卡路里模型与不值得清单。AI 时代博学贬值，信息筛选与拒绝能力成为新壁垒；四类信息食物划分、算法负面情绪收割警惕与《不值得清单》做减法。
+  26. `sources/kkkeric-grok-bot-22-agents-growth-fleet.md`（KKKK @kkkeric_ai，294 行，11 图）：Grok Bot 出海增长实战——一个人 + 22 个 Bot 跑通 20+ 社媒渠道、SEO/AEO、外链与竞品全流程。单入口总管派活、避免群聊烧 token、BeatBrowser 混合浏览器接管，以及人把关的 4 个不可逆决策关卡。
+  27. `sources/anti-aivo-agent-engineering-70-backend-30-uncertainty.md`（纳米AI @antiAIvo，43 行）：Agent 工程心法——七成在传统后端，三成在处理模型不确定性。主循环状态机、工具 RPC、记忆存储、队列流控；两手抓不确定性——Harness 运行时约束让 Agent 跑稳，Eval 数据集打分引导正向演进。
+  28. `sources/aichuhai-residential-isp-proxy-claude-chatgpt.md`（爱出海 @ai_chuhai，252 行，3 图）：想用 Claude / ChatGPT？静态住宅 ISP 代理选购、配置与排错全攻略。网络层/出口层/平台资格三层判断、三大跨境服务商对比、Mihomo 与 Shadowrocket 链式 dialer-proxy 配置、CLI 环境变量注入、Tailscale 出口节点与 403/407/429 报错定位。
+  29:   29. `sources/ohayou-claude-artifacts-ui-design-system-leak.md`（Unicorn @ohayou792，187 行，4 图）：Claude 内部组件设计系统提示词与完整 UI 规范解析。Seamless/Flat/Compact 核心哲学、文字归回复视觉归工具、Tabler 线性图标、Anthropic Sans 字重死命令、强制深色模式 CSS 变量体系与 iframe 沙盒布局硬约束。
+  30. `sources/wquguru-shisei-cc0-ancient-costume-library.md`（WquGuru @wquguru，50 行，1 图）：Shisei 开源中国历代四视角服装库——从商朝到民国 227 张 CC0 资产。商到民国 57 套立体服装正面/斜侧/正侧/背面多机位与配色方案，为 Midjourney 垫图、换装及画师参考提供免费商用基础设施。
+  31. `sources/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling.md`（Hytidel @HytidelLegend，299 行，4 图）：小红书电商保姆级教程（6）——运营进阶、提效工具与利润十倍放大。至尊宝以图搜图扒买家秀、剪映批量带货视频、多退货地址与运费宝、千帆自动化客服话术库、1688 无痕发货三问，以及低粉爆文自复制与数字资料放大。
+  32. `sources/konghayao-deepseek-super-agent-architecture-reflections.md`（江夏尧 @konghayao，56 行）：关于 DeepSeek SuperAgent 架构设计的深度反思与开源工程映射。RCRA Loop 消息队列解耦、Async Subagent 与 Cursor Multitask 范式、Inline/Spill 工具落盘与多跳检索简化、Durable 持久化与进程重试解决停机中断。
 - 概念沉淀：
   - 新增概念页 `concepts/kgr-keyword-golden-ratio.md`（KGR 关键词黄金比例与新站 SEO 阶段演进模型）：归纳 KGR 公式、EKGR 权重惩罚、Google 优待期机制与四阶段行动指南。
 - 索引：
-  - `wiki/index.md` 概念列表与原始来源列表同步追加条目。
+  - `wiki/index.md` 概念列表与原始来源列表同步追加所有条目。
+- 概念沉淀：
+  - 新增概念页 `concepts/kgr-keyword-golden-ratio.md`（KGR 关键词黄金比例与新站 SEO 阶段演进模型）：归纳 KGR 公式、EKGR 权重惩罚、Google 优待期机制与四阶段行动指南。
+- 索引：
+  - `wiki/index.md` 概念列表与原始来源列表同步追加所有条目。
+- 索引：
+  - `wiki/index.md` 概念列表与原始来源列表同步追加所有条目。
 
 ## [2026-11-02] ingest: 1 篇微信公众号长文（望宸：从长程 Agent 到 Super-agent，解锁更多场景）
 
