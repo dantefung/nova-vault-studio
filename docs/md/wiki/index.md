@@ -744,3 +744,4 @@ wiki/
 | [pengpai-wanghou-psychological-accounts-to-b-monetization](/md/wiki/sources/pengpai-wanghou-psychological-accounts-to-b-monetization) | 澎湃王侯：赚钱不难——给人换个理由花钱（心理账户迁移与普通人做 ToB 生意的 8 种路径） | 微信公众号 |
 | [fanshifu-grok-bot-800-new-sites-monitoring-workflow](/md/wiki/sources/fanshifu-grok-bot-800-new-sites-monitoring-workflow) | 范师傅（@FanShifu）：Grok Bot 搭建出海新站监控——每天扒 800+ 新站吃透同行玩法（附 130 个开源信源渠道） | X/Twitter |
 | [geektao-geo-google-and-chatgpt-traffic-step-by-step-guide](/md/wiki/sources/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide) | Geektao（@geektao0319）：照着哥飞的方法做 GEO——让网站同时拿到谷歌和 ChatGPT 流量（谷歌吃教程，ChatGPT 吃工具） | X/Twitter |
+| [ruofei-agent-self-write-and-self-inspect-ci-doctor](/md/wiki/sources/ruofei-agent-self-write-and-self-inspect-ci-doctor) | 若飞：自产自销——如何让 Agent 自己写自己查？（CI Doctor 闭环与自主修复） | 微信公众号 |

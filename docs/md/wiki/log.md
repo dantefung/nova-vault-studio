@@ -4,6 +4,12 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 1 篇 Agent 自动化闭环实战长文（若飞：自产自销——如何让 Agent 自己写自己查？基于 CI Doctor 与自主修复）
+
+- 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去营销公众号广告，GIF 转真 PNG 防 OOM，本地化配图 4 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/ruofei-agent-self-write-and-self-inspect-ci-doctor.md`（若飞，172 行，4 图）：自产自销——如何让 Agent 自己写自己查？（CI Doctor 闭环与自主修复）：分析 Vibe Coding 开发者频繁人工贴日志和催进展的痛点，结合 GitHub 开源 CI Doctor 与 gh-aw #14295→#14313 真实落地案例，拆解失败事件监听、精确回传本次提交上下文、边界值用例自动修复、任务异步挂起等闭环设计，并确立规则冲突立即停机请示与告警去重降噪的人机协作边界。
+
 ## [2026-11-03] ingest: 2 篇出海监控与 GEO 实战长文（范师傅 Grok Bot 监控 800+ 新站与 130 信源 / Geektao 哥飞 GEO 谷歌与 ChatGPT 双流量五步法）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 13 张（包含 Grok Bot 运行仪表盘、新站信源分布、ChatGPT 推荐流量对比曲线、GA4 渠道配置等），归档至 `sources/`
