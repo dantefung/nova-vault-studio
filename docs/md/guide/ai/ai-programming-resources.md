@@ -88,6 +88,7 @@ date: "2026-05-05"
 - [超级符的 AI 产品经理课](https://chaojifeng.me/ai-terms) — 免费学习 AI 的网站，用故事一步步教会你怎么在 AI 时代做产品经理，知识付费进入免费时代
 - [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) — 待查看
 - [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
+- [Paseo Orchestration Skills](https://paseo.sh/docs/skills) — Paseo 官方多 Agent 编排指令技能集，为编程 Agent 提供任务委托、上下文交接与交叉评审指令，安装命令 `npx skills add getpaseo/paseo`。包含四大核心技能：`/paseo`（基准参考，根据 Profile 规约智能调度模型与提供商）、`/paseo-handoff`（任务交接，携带进度、决策、约束与验收标准完整转移至新 Agent/独立 Worktree）、`/paseo-committee`（委员会规划，派发两个独立高推理 Agent 并行做根因分析）、`/paseo-advisor`（第二意见顾问，不改代码给出专业评审）
 - [mattpocock/skills](https://github.com/mattpocock/skills) — TypeScript 大神 Matt Pocock（前 Vercel 工程师）的 AI 编程工作流技能库，27 万星，18 个技能，MIT 协议
   - 安装：`npx skills@latest add mattpocock/skills`
   - 痛点拆解：沟通不对齐、术语不统一、缺反馈循环、代码熵增
@@ -253,7 +254,7 @@ date: "2026-05-05"
 - [edgetunnel](https://github.com/cmliu/edgetunnel) — **41.1k Stars**，基于 Cloudflare Workers/Pages 的 VLESS/Trojan/SS 多功能面板，支持订阅系统和多平台客户端适配
 - [OpenWorker](https://github.com/andrewyng/openworker) — 吴恩达开源的桌面 AI 助手，自动处理文档/日程/邮件等杂事，支持 25+ 工具（GitHub/Slack/Jira/Notion/Gmail/Google日历），模型灵活（OpenAI/Claude/Gemini/DeepSeek/Ollama），隐私本地存储
 - [ego-lite](https://lite.ego.app/zh-cn) — 为 AI Agent 打造的"最快浏览器"，基于 Chromium 的一键迁移 Chrome 数据的 Agent 浏览器，免费无配置。核心特性：①ego-browser 技能，一个安装即可被 Claude Code/Codex/Cursor/Kiro/Hermes/OpenClaw/OpenCode 等所有 Agent 操控；②Semantic Snapshot 内置在定制 Chromium 引擎中（非 JS 适配层），Snapshot 返回更快、ref 操作更可靠，可访问跨域 iframe、Shadow DOM、Stripe/Salesforce/Intercom/React Portal 等第三方 SDK；③Agent 在独立 Space 中运行，与用户互不干扰，支持多任务并行，最高快 3.45 倍，Token 消耗更低；④Agent 继承用户真实登录态，不再卡在验证码/双重验证/SSO；⑤零费用零配置，仅 Mac 版
-- [Paseo](https://github.com/getpaseo/paseo) — **14.5k Stars**，一个界面编排多个 AI 编程 Agent（Claude Code / Codex / Copilot / OpenCode / Pi），自托管本地运行，跨设备（桌面/手机/Web/CLI/浏览器），支持语音控制、多 Agent 并行、工作区隔离。5000+ commits、1.5k forks，活跃度高。Skill 命令：`/paseo-handoff`（Agent 交接）、`/paseo-advisor`（顾问模式）、`/paseo-committee`（多 Agent 委员会）。支持 Docker 自托管、TypeScript SDK、CLI、VS Code 扩展。主要创建者 Mohamed Boudra（GitHub: boudra），北非马格里布裔背景，主要活动在西班牙巴塞罗那/Reus，个人主页 moboudra.com。组织 getpaseo，AGPL-3.0 协议，仓库含中文/日文/韩文 README
+- [Paseo](https://github.com/getpaseo/paseo)（[Skills 编排文档](https://paseo.sh/docs/skills)） — **14.5k Stars**，一个界面编排多个 AI 编程 Agent（Claude Code / Codex / Copilot / OpenCode / Pi），自托管本地运行，跨设备（桌面/手机/Web/CLI/浏览器），支持语音控制、多 Agent 并行、工作区隔离。5000+ commits、1.5k forks，活跃度高。Skill 命令：`/paseo-handoff`（Agent 交接）、`/paseo-advisor`（顾问模式）、`/paseo-committee`（多 Agent 委员会）。支持 Docker 自托管、TypeScript SDK、CLI、VS Code 扩展。主要创建者 Mohamed Boudra（GitHub: boudra），北非马格里布裔背景，主要活动在西班牙巴塞罗那/Reus，个人主页 moboudra.com。组织 getpaseo，AGPL-3.0 协议，仓库含中文/日文/韩文 README
   - **同类项目（Paseo 定位：自托管 daemon + 多端客户端 + 多 Agent 编排，AGPL-3.0）**：
     - **Orca** — 并行跑多个 CLI Agent（Claude Code/Codex/OpenCode/Pi），每个独立 git worktree，带终端/浏览器/diff 审查/移动端，偏 ADE（Agent Development Environment）
     - **Emdash** — 桌面端（Electron），支持大量 CLI provider，worktree 隔离，本地优先
