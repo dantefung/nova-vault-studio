@@ -4,7 +4,7 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
-## [2026-11-03] ingest: 48 篇 X 精选长文（小肥羊 GSC / cxuan Super-agent / Victor在西雅图三篇 / 壹新二道贩子 / 上海小升初 SMK / rico Agent设计系统 / 良竹两篇 / 太上老君口播 / InkOS 创作工作台 / 饭团需求利器 / KKKK 三篇 / 换装素材库 / 20个动效Skill / 小互 Super-agent数据 / 龙心盐 1000万账本 / 虹安出海站三种打法 / 左海 Reddit导流 / 哥飞 MCP重做产品 / 纳米AI 三篇 / WquGuru 两篇 / 老杨 美女写真SOP / 程序员Left Super-agent / 飞鱼Fly 纳瓦尔信息卡路里 / 爱出海 家宽ISP代理 / Unicorn Claude设计规范 / Hytidel 小红书电商进阶 / 江夏尧 SuperAgent架构反思 / myleaf phongent群控 / Morry course2md / 黄小木 Mika风控 / 胡二虎 Manus增长与Wigent镜像 / Max Feng laperAi编剧 / 陈大黄 GitHub+Zed+Hermes / Aliez Ren Claude Code心法 / G哥两篇（Taste-Skill与Codex12法） / 刘老板 Lauren团队指南 / Leaf Yeah! 抖音水下商单 / awe0 前端布局术语）
+## [2026-11-03] ingest: 49 篇 X 精选长文（小肥羊 GSC / cxuan Super-agent / Victor在西雅图三篇 / 壹新二道贩子 / 上海小升初 SMK / rico Agent设计系统 / 良竹两篇 / 太上老君口播 / InkOS 创作工作台 / 饭团需求利器 / KKKK 三篇 / 换装素材库 / 20个动效Skill / 小互 Super-agent数据 / 龙心盐 1000万账本 / 虹安出海站三种打法 / 左海两篇 Reddit截流与挖需求 / 哥飞 MCP重做产品 / 纳米AI 三篇 / WquGuru 两篇 / 老杨 美女写真SOP / 程序员Left Super-agent / 飞鱼Fly 纳瓦尔信息卡路里 / 爱出海 家宽ISP代理 / Unicorn Claude设计规范 / Hytidel 小红书电商进阶 / 江夏尧 SuperAgent架构反思 / myleaf phongent群控 / Morry course2md / 黄小木 Mika风控 / 胡二虎 Manus增长与Wigent镜像 / Max Feng laperAi编剧 / 陈大黄 GitHub+Zed+Hermes / Aliez Ren Claude Code心法 / G哥两篇 / 刘老板 Lauren团队指南 / Leaf Yeah! 抖音水下商单 / awe0 前端布局术语）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 100+ 张（单图超 450KB 均通过 sharp 自动压缩优化），归档至 `sources/`
 - 归档列表：
@@ -56,6 +56,7 @@ source: "llm-wiki"
   46. `sources/kkkeric-free-tool-seo-fast-traffic-low-conversion.md`（KKKK @kkkeric_ai，37 行）：Free Tool 是 SEO 起量最快策略——大流量、长停留与低转化的冷启动权衡。把握免费微工具的高曝光与自传播价值，合理定位漏斗顶层。
   47. `sources/awe0-frontend-layout-standard-terminology-for-ai.md`（awe0 @awe0_io，41 行）：跟 AI 别说「布局好看点」——6 种标准前端布局术语让 AI 一秒对齐意图。Hero Section、Bento Grid、Masonry、Split Screen、Sidebar 与 Full-width 模块化指令化。
   48. `sources/govin-codex-12-productivity-workflows-and-ecosystem.md`（govin @goan999999，105 行，1 图）：Codex 12 个高阶提效玩法——从原生机制到周边生态神器全景速查。AGENTS.md、codex exec、approvals 沙箱、/review 审计、AionUi、Claudable 与 NSA Ghidra 逆向分析。
+  49. `sources/heizolshao-reddit-high-search-low-competition-demand-mining.md`（左海 @heizolshao，158 行，5 图）：Reddit 挖掘需求实操案例——如何找到低竞争、高搜索量的蓝海需求？提出「社区低互动 + Google 高 SEO 流量」交叉标准，详解 Ahrefs 筛 Top Pages、SERP 反向挖掘、GEO 引用监控与跟踪表打分流程。
 - 概念沉淀：
   - 新增概念页 `concepts/kgr-keyword-golden-ratio.md`（KGR 关键词黄金比例与新站 SEO 阶段演进模型）：归纳 KGR 公式、EKGR 权重惩罚、Google 优待期机制与四阶段行动指南。
 - 索引：

@@ -689,3 +689,4 @@ wiki/
 | [awe0-frontend-layout-standard-terminology-for-ai](/md/wiki/sources/awe0-frontend-layout-standard-terminology-for-ai) | awe0（@awe0_io）：跟 AI 别说「布局好看点」——6 种标准前端布局术语让 AI 一秒对齐意图 | X/Twitter |
 | [govin-codex-12-productivity-workflows-and-ecosystem](/md/wiki/sources/govin-codex-12-productivity-workflows-and-ecosystem) | govin（@goan999999）：Codex 12 个高阶提效玩法——从原生机制到周边生态神器全景速查 | X/Twitter |
 | [ruofei-dsh-superagent-issue-to-pr](/md/wiki/sources/ruofei-dsh-superagent-issue-to-pr) | 若飞（架构师 JiaGouX）：DeepSeek Super-agent 上手——从 GitHub Issue 到 PR | 微信公众号 |
+| [heizolshao-reddit-high-search-low-competition-demand-mining](/md/wiki/sources/heizolshao-reddit-high-search-low-competition-demand-mining) | 左海（@heizolshao）：Reddit 挖掘需求实操案例——如何找到低竞争、高搜索量的蓝海需求？ | X/Twitter |
