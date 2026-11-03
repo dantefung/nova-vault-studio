@@ -4,6 +4,12 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-03] ingest: 1 篇微信公众号 SEO 外链工具指南（taoWithSaaS 利用 Bing 站长工具免费批量导出竞品外链）
+
+- 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 跑通微信公众号抓取与图片本地化，去推广返利营销话术，本地化配图 6 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/taowithsaas-bing-webmaster-free-competitor-backlinks-export.md`（taoWithSaaS，68 行，6 图）：免费导出竞品所有外链的一种方法——利用微软 Bing 站长工具（Bing Webmaster Tools）Backlinks 功能免费分析与一键 CSV 导出竞品反向链接。
+
 ## [2026-11-03] ingest: 17 篇 AI 工程与自媒体实战长文（Claude Code 团队六层 CR 规范 / 陈成 Mayoi 极速编辑器 / 米开朗基杨 FastGPT 社群客服 / 想风 Telegram 终极指南 / 卡尔豆包工作录制回放 / Kyrie 短剧商业账本 / 乐博士 21 天公众号等）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 126 张（包含 FastGPT 社群工作流 15 节点截图、微信张小龙故事配图、Telegram Bot 开发者配置图、豆包工作录制界面、小红书/公众号起号实操图等），归档至 `sources/`

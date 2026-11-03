@@ -739,3 +739,4 @@ wiki/
 | [ryan-muse-channels-wechat-reading-video-automation](/md/wiki/sources/ryan-muse-channels-wechat-reading-video-automation) | Ryan（@7998l201）：Muse 接管微信视频号——接入微信读书 API 每日自动选书、写文案与做短视频 | X/Twitter |
 | [lxfater-wechat-cover-prompt-formula-235-ratio](/md/wiki/sources/lxfater-wechat-cover-prompt-formula-235-ratio) | 铁锤人（@lxfater）：公众号 2.35:1 高点击率首图封面提示词模板（真人摄影质感 + UI贴纸排版） | X/Twitter |
 | [shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto](/md/wiki/sources/shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto) | 山羊赚钱笔记（@shanyanggm）：你难道就没幻想过？数百个自媒体与数字游民变现赛道全景清单 | X/Twitter |
+| [taowithsaas-bing-webmaster-free-competitor-backlinks-export](/md/wiki/sources/taowithsaas-bing-webmaster-free-competitor-backlinks-export) | taoWithSaaS：免费导出竞品所有外链的一种方法——利用 Bing 站长工具 Backlinks 功能 | 微信公众号 |
