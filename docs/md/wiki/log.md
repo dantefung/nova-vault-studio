@@ -4,6 +4,17 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-03] ingest: 2 篇 X 精选长文（小肥羊 GSC 流量模拟器 6 件事 + cxuan 通宵搞懂 DeepSeek Super-agent 架构）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 26 张（单图超 450KB 均通过 sharp 自动压缩优化），归档至 `sources/`
+- 归档列表：
+  1. `sources/xiaofeiyang-new-site-google-traffic-simulator.md`（小肥羊 @xiaofeiyangfe，218 行，8 图）：新站上线 Google 为什么不给流量？用模拟器看懂的 6 件事——内页与外链分工、前两周随机测试优待期本质、排名与千人千面曝光覆盖率机制、KGR/EKGR 长尾黄金比例挑词，以及以 GSC 数据信号为驱动的四阶段推进框架。
+  2. `sources/criscxuan-deepseek-super-agent-architecture-teardown.md`（cxuan @criscxuan，281 行，18 图）：通了个宵，终于把 Super-Agent 架构玩明白了——以系统程序员视角硬核拆解 DeepSeek Harness（DSH）团队最新设计：Router/Worker 双层架构淡化 Session 负担、Fast/Slow Path 事件降噪与 Trigger 路由、Inline/Spill 热冷换页与引用图链式召回、全双工异步 ReAct Loop、BYOM 存算境解耦以及独立 Watchdog 外部控制回路。
+- 概念沉淀：
+  - 新增概念页 `concepts/kgr-keyword-golden-ratio.md`（KGR 关键词黄金比例与新站 SEO 阶段演进模型）：归纳 KGR 公式、EKGR 权重惩罚、Google 优待期机制与四阶段行动指南。
+- 索引：
+  - `wiki/index.md` 概念列表与原始来源列表同步追加条目。
+
 ## [2026-11-02] ingest: 1 篇微信公众号长文（望宸：从长程 Agent 到 Super-agent，解锁更多场景）
 
 - 抓取与归档：`fetch_weixin.py` 取正文 → `download-images.py` 本地化 10 张配图 → 人工结构修复 → 归档到 `sources/wangchen-super-agent-deepseek-harness.md`（246 行，10 图）

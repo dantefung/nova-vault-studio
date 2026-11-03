@@ -210,6 +210,7 @@ wiki/
 | [b2c-conversion](/md/wiki/concepts/b2c-conversion) | B2C 独立站转化率优化七法：标题卖情绪→卖点写用户所得→为什么选你→语气舒服→制造紧迫感→尺寸指南→信任证据 | 公众号 |
 | [codex-security](/md/wiki/concepts/codex-security) | Codex Security 开源 AI 安全研究员：自动读代码/扫漏洞/验证/补丁，三种接入方案，交叉扫描建议 | 公众号 |
 | [gefei-seo-keywords](/md/wiki/concepts/gefei-seo-keywords) | 哥飞 SEO 教程：关键词优先网站结构规划，八步流程（收词→补量→意图分组→URL 清单），4 个常见坑 | 公众号 |
+| [kgr-keyword-golden-ratio](/md/wiki/concepts/kgr-keyword-golden-ratio) | KGR 关键词黄金比例与新站 SEO 阶段演进：intitle 与月搜量比值筛选长尾词，避开优待期幻觉，按 GSC 信号分四阶段推进 | X / 独立站实战 |
 | [programmer-math-cultivation](/md/wiki/concepts/programmer-math-cultivation) | 程序员的数学修养：逻辑思维、抽象建模与量化分析，离散数学/线性代数/概率统计/微积分四大分支支撑，三层进阶 | 原创/概念整理 |
 | [austrian-economics](/md/wiki/concepts/austrian-economics) | 奥地利经济学派：方法论个人主义、人的行动学、主观价值论、商业周期理论，反对政府干预与数学模型预测 | 原创/概念整理 |
 | [economic-machine-debt-cycle](/md/wiki/concepts/economic-machine-debt-cycle) | Ray Dalio 经济机器模型：交易与信贷构成支出，生产率增长叠加长短债务周期，去杠杆化由四类政策工具共同处理 | Medium / 官方视频 |
@@ -639,3 +640,5 @@ wiki/
 | [xoyif-muse-xiaohongshu-autopilot](/md/wiki/sources/xoyif-muse-xiaohongshu-autopilot) | 北衡（@xoyif63862452）：让 Muse 全权运营一个小红书账号的实操记录 | X/Twitter |
 | [aronhouyu-ai-rising-keyword-topic-pipeline](/md/wiki/sources/aronhouyu-ai-rising-keyword-topic-pipeline) | Aron 厚玉（@aronhouyu）：用 AI 搭建流量上升词自动发现与批量选题流水线 | X/Twitter |
 | [wangchen-super-agent-deepseek-harness](/md/wiki/sources/wangchen-super-agent-deepseek-harness) | 望宸：从长程 Agent 到 Super-agent，解锁更多场景（DeepSeek dsh-superagent-prototype 工程拆解） | 微信公众号 |
+| [xiaofeiyang-new-site-google-traffic-simulator](/md/wiki/sources/xiaofeiyang-new-site-google-traffic-simulator) | 小肥羊（@xiaofeiyangfe）：新站上线 Google 为什么不给流量？用模拟器看懂的 6 件事 | X/Twitter |
+| [criscxuan-deepseek-super-agent-architecture-teardown](/md/wiki/sources/criscxuan-deepseek-super-agent-architecture-teardown) | cxuan（@criscxuan）：通了个宵，终于把 Super-Agent 架构玩明白了（DeepSeek Harness 深度拆解） | X/Twitter |
