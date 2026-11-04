@@ -746,3 +746,4 @@ wiki/
 | [geektao-geo-google-and-chatgpt-traffic-step-by-step-guide](/md/wiki/sources/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide) | Geektao（@geektao0319）：照着哥飞的方法做 GEO——让网站同时拿到谷歌和 ChatGPT 流量（谷歌吃教程，ChatGPT 吃工具） | X/Twitter |
 | [ruofei-agent-self-write-and-self-inspect-ci-doctor](/md/wiki/sources/ruofei-agent-self-write-and-self-inspect-ci-doctor) | 若飞：自产自销——如何让 Agent 自己写自己查？（CI Doctor 闭环与自主修复） | 微信公众号 |
 | [gefei-seo-directory-inner-pages-wikipedia-structure](/md/wiki/sources/gefei-seo-directory-inner-pages-wikipedia-structure) | 哥飞：导航站内页拿不到排名？学维基百科做词条页和分类页 | 微信公众号 |
+| [khazix-agent-autoloop-open-source-architecture](/md/wiki/sources/khazix-agent-autoloop-open-source-architecture) | 数字生命卡兹克：开源我这折腾了 1 年的「Agent 自动化系统」Agent-Autoloop（附极简内核与插件架构） | 微信公众号 |

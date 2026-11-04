@@ -4,6 +4,12 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 1 篇卡兹克 Agent 自动化系统开源长文（数字生命卡兹克：折腾 1 年的 Agent-Autoloop 开源架构全景拆解）
+
+- 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去公众号导流话术，结合 GitHub 官方仓库文档深度补全协议机制，本地化配图 7 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/khazix-agent-autoloop-open-source-architecture.md`（数字生命卡兹克，170 行，7 图）：开源我这折腾了 1 年的「Agent 自动化系统」Agent-Autoloop（附极简内核与插件架构）：借鉴 Pi 与 DeepSeek Harness 哲学，打造 1600 行零依赖内核（冷启动 88ms、空闲 60MB RSS）；四向解耦事件、Agent、通道与 CI 交付插件；落地挂起零消耗、事件溯源、指令数据分离、跳数熔断四大防翻车工程机制；详解 6 个日常自动化实战模板与团队“虚实中台”落地成果。
+
 ## [2026-11-04] ingest: 1 篇哥飞 SEO 实战教程（导航站与工具站内页排名：学维基百科做词条页、分类页与密集内链网）
 
 - 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去营销打折导流话术，本地化配图 1 张，归档至 `sources/`
