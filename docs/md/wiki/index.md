@@ -768,3 +768,6 @@ wiki/
 | [kaitox-markdown-to-x-article](/md/wiki/sources/kaitox-markdown-to-x-article) | kaitox：本地 Markdown 转 X 长文——我开源了目前最顺手的方案（Kaitox 工具链） | 微信公众号 |
 | [libtv-agent-100-skills-article-to-video](/md/wiki/sources/libtv-agent-100-skills-article-to-video) | 空格丶：做了个 Skill，把任何文章都变成视频版 PPT（LibTV Agent 100+ Skill 实测） | 微信公众号 |
 | [khazix-6-prompt-mindset-techniques](/md/wiki/sources/khazix-6-prompt-mindset-techniques) | 数字生命卡兹克：分享 6 个平时我最常用的 Prompt 心法 | 微信公众号 |
+| [aphil-fde-role-real-ai-implementation-guide](/md/wiki/sources/aphil-fde-role-real-ai-implementation-guide) | 阿哲Phil（@Formulasearch）：FDE 是临时外包 or 真 AI 落地？——附小白快速入门与辨别方式 | X/Twitter |
+| [jason-zhu-chiang-mai-university-language-program-guide](/md/wiki/sources/jason-zhu-chiang-mai-university-language-program-guide) | Jason Zhu（@GoSailGlobal）：手把手教你申请清迈大学语言班——42000 泰铢，半年泡在清迈学英语 | X/Twitter |
+| [adrian-punk-gpt-live-free-speaking-tutor-guide](/md/wiki/sources/adrian-punk-gpt-live-free-speaking-tutor-guide) | Adrian Punk（@AdrianPunk115）：一年省下 2 万块口语课｜GPT Live 实测——英语外教可以下岗了 | X/Twitter |

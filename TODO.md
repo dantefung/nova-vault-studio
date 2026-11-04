@@ -144,9 +144,9 @@ url: ""
 | 2026-07-15 | https://mp.weixin.qq.com/s/FY2J-mXMSoSOQ3_JFl2tMA | **把任何文章都变成视频版 PPT（LibTV 100+ Skill 实测）** | done ([sources/libtv-agent-100-skills-article-to-video](/md/wiki/sources/libtv-agent-100-skills-article-to-video)) |
 | 2026-07-15 | https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ | **6 个最常用的 Prompt 心法** | done ([sources/khazix-6-prompt-mindset-techniques](/md/wiki/sources/khazix-6-prompt-mindset-techniques)) |
 | 2026-07-15 | https://mp.weixin.qq.com/s/FY2J-mXMSoSOQ3_JFl2tMA | 待采集 | pending |
-| 2026-08-03 | https://x.com/i/status/2083773600776262120 | **阿哲Phil：FDE 是临时外包 or 真AI落地？附小白快速入门与辨别方式**（关联 FDE 书） | pending |
-| 2026-08-03 | https://x.com/i/status/2083806603527024702 | **Jason Zhu：手把手教你申请清迈大学语言班**（42000泰铢，半年清迈学英语） | pending |
-| 2026-08-08 | https://x.com/i/status/2078766646001561670 | 待查看 | pending |
+| 2026-08-03 | https://x.com/i/status/2083773600776262120 | **阿哲Phil：FDE 是临时外包 or 真AI落地？附小白快速入门与辨别方式**（关联 FDE 书） | done ([sources/aphil-fde-role-real-ai-implementation-guide](/md/wiki/sources/aphil-fde-role-real-ai-implementation-guide)) |
+| 2026-08-03 | https://x.com/i/status/2083806603527024702 | **Jason Zhu：手把手教你申请清迈大学语言班**（42000泰铢，半年清迈学英语） | done ([sources/jason-zhu-chiang-mai-university-language-program-guide](/md/wiki/sources/jason-zhu-chiang-mai-university-language-program-guide)) |
+| 2026-08-08 | https://x.com/i/status/2078766646001561670 | **Adrian Punk：GPT Live 英语外教可以下岗了（保姆级口语自学）** | done ([sources/adrian-punk-gpt-live-free-speaking-tutor-guide](/md/wiki/sources/adrian-punk-gpt-live-free-speaking-tutor-guide)) |
 | 2026-08-08 | https://github.com/JimLiu/baoyu-design | **Claude Design + Baoyu-Design Skill 工作流**（原型与功能一致） | ✅ done ([sources/baoyu-design-workflow](/md/wiki/sources/baoyu-design-workflow)) |
 
 ### CAPTCHA 拦截待采集（2026-08-30）

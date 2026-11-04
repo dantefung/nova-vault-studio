@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 3 篇 TODO 历史队列长文（FDE 岗位辨别 / 清迈大学语言班申请 / GPT Live 免费口语外教）
+
+- 抓取与归档：清空 `TODO.md`「历史待办」区段的 3 条 X pending 链接，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 30 张，归档至 `sources/`，并回写 TODO 状态为 done
+- 归档列表：
+  1. `sources/aphil-fde-role-real-ai-implementation-guide.md`（阿哲Phil @Formulasearch，226 行，17 图）：FDE 是临时外包 or 真 AI 落地？——附小白快速入门与辨别方式：深度调研 AI 圈最热岗位 FDE 的海内外集体抢招现状、最高 50-80K 薪资与 Pre-FDE 试点班，结合亲身经历与一线访谈厘清岗位本质并给出小白入门路径。
+  2. `sources/jason-zhu-chiang-mai-university-language-program-guide.md`（Jason Zhu @GoSailGlobal，150 行，9 图）：手把手教你申请清迈大学语言班——42000 泰铢，半年泡在清迈学英语：清迈大学语言学院（LICMU）半年制英语班全流程，欧美教师 210 课时、含教材约 8,500 元、可凭学生签证合法居留 180 天，详解开课倒推、材料准备与生活成本。
+  3. `sources/adrian-punk-gpt-live-free-speaking-tutor-guide.md`（Adrian Punk @AdrianPunk115，289 行，4 图）：一年省下 2 万块口语课｜GPT Live 实测——英语外教可以下岗了：详细测算外教课与各类冲刺班的成本对照，给出面向零基础、留学备考与职场人群的保姆级 AI 实时语音口语自学教程。
+
 ## [2026-11-04] ingest: 3 篇公众号长文（kaitox 本地 Markdown 转 X 长文工具链 / 空格 LibTV 100+ Skill 文章转视频 PPT / 卡兹克 6 个 Prompt 心法）
 
 - 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 跑通微信文章抓取与图片本地化，大图自动压缩至 500KB 以内、GIF 转真 PNG，归档至 `sources/`
