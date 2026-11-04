@@ -4,6 +4,24 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第八批（让AI说人话 / 推特一人发售 / 操盘手底层逻辑 / Reddit留链种子用户 / 配不上的工作 / 设计界Personal Agent / YouTube极简火柴人 / 内容为何无客户 / 公众号贴图搞钱 / AI漫剧实测 / 个人IP与Codex宠物 / 掌控Codex对话节奏）
+
+- 抓取与归档：持续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 82 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/qingjiang-make-ai-talk-like-human-formula-guide.md`（情酱 @qingj1314，345 行，1 图）：怎么让你的 AI 说人话？我整理了一套公式化方案。
+  2. `sources/ale-3-days-120-orders-one-person-twitter-launch-manual.md`（aix阿乐 @Leepriest1990，392 行，18 图）：3 天 120 单、变现 1 万——一人推特发售的完整手册（附 4 步法）。
+  3. `sources/yangjin-operator-underlying-logic-and-business-closed-loop.md`（杨进 @shaozhu93314，105 行，1 图）：构建操盘手的底层逻辑「全文手打、放心食用」。
+  4. `sources/heizolshao-reddit-comments-conversion-and-seed-users-playbook.md`（左海 @heizolshao，158 行，2 图）：Reddit 评论区转化实操笔记——从安全留链到沉淀种子用户。
+  5. `sources/hytidel-career-choice-dont-choose-jobs-you-cannot-match.md`（Hytidel聊商业（文章更多干货） @HytidelLegend，232 行，1 图）：找工作不要选你配不上的工作。
+  6. `sources/zhouluobo-design-personal-agent-learns-visual-style.md`（zhouluobo @zhouluobo，224 行，11 图）：设计界的 Personal Agent 也来了——偷学我的作图风格，现在比我还熟。
+  7. `sources/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline.md`（疯狂的烤妹儿 🩵 @CrazyKaomei，343 行，6 图）：爆款复刻｜YouTube 极简火柴人搞钱流水线，优质内容心法 + 全套工作流开源。
+  8. `sources/wangzai-why-publishing-so-much-content-yields-no-clients.md`（汪仔 @wangzaimedia，148 行，1 图）：为什么你发了那么多内容，还是没有客户？
+  9. `sources/chrisslacker-wechat-image-text-post-three-days-monetization-sop.md`（科技混子Chris @ChrisSlacker，134 行，5 图）：公众号贴图，3 天收入破百，1 篇收入破千——附 5 步实操 SOP。
+  10. `sources/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial.md`（我真的没有拼多多 @nopinduoduo，509 行，14 图）：不会分镜和运镜？普通人到底能不能上手做 AI 漫剧？花 1 万积分的实测教程。
+  11. `sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial.md`（阿哲Phil @Formulasearch，191 行，11 图）：快速上手设计一款个人 IP，并做成 Codex 宠物（附提示词和链接）。
+  12. `sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch.md`（Niko爱学习 @ai_super_niko，269 行，11 图）：掌控 Codex 对话节奏——打断、排队、引导和分叉。
+
+
 ## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第七批（创业百问百答 / Dan Koe Human 3.0 / X 运营入门 / Oh My X 插件 / GitHub 搞钱6大开源项目 / Paul Graham 时间与金钱 / 红鸦图文复刻 / AI Native 迈向 Stage 8 / Grok Bot 4000外链 / Wise港卡搞定Stripe / FDE内容交付SOP / AI美女变现10法）
 
 - 抓取与归档：持续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 88 张，归档至 `sources/`

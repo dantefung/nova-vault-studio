@@ -871,3 +871,15 @@ wiki/
 | [qianshuixia-wise-hk-card-stripe-and-outsea-express-solution](/md/wiki/sources/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution) | 浅水虾（@qianshuixia2026）：Wise 港卡搞定 Stripe！避开号码泄露，送大家出海“三通一达” | X/Twitter |
 | [liangzhu-fde-in-action-01-automated-local-content-delivery-sop](/md/wiki/sources/liangzhu-fde-in-action-01-automated-local-content-delivery-sop) | 良竹（@liangzhu_AI）：掌控 AI·FDE 实战 01｜万字实操 SOP——搭建本地自动内容交付流水线 | X/Twitter |
 | [threeai-10-ways-to-monetize-ai-beauty-content-china-cases](/md/wiki/sources/threeai-10-ways-to-monetize-ai-beauty-content-china-cases) | 三个三（@3three_AI）：从国内真实案例看，把 AI 美女变成钱的 10 种方法 | X/Twitter |
+| [qingjiang-make-ai-talk-like-human-formula-guide](/md/wiki/sources/qingjiang-make-ai-talk-like-human-formula-guide) | 情酱（@qingj1314）：怎么让你的 AI 说人话？我整理了一套公式化方案 | X/Twitter |
+| [ale-3-days-120-orders-one-person-twitter-launch-manual](/md/wiki/sources/ale-3-days-120-orders-one-person-twitter-launch-manual) | aix阿乐（@Leepriest1990）：3 天 120 单、变现 1 万——一人推特发售的完整手册（附 4 步法） | X/Twitter |
+| [yangjin-operator-underlying-logic-and-business-closed-loop](/md/wiki/sources/yangjin-operator-underlying-logic-and-business-closed-loop) | 杨进（@shaozhu93314）：构建操盘手的底层逻辑「全文手打、放心食用」 | X/Twitter |
+| [heizolshao-reddit-comments-conversion-and-seed-users-playbook](/md/wiki/sources/heizolshao-reddit-comments-conversion-and-seed-users-playbook) | 左海（@heizolshao）：Reddit 评论区转化实操笔记——从安全留链到沉淀种子用户 | X/Twitter |
+| [hytidel-career-choice-dont-choose-jobs-you-cannot-match](/md/wiki/sources/hytidel-career-choice-dont-choose-jobs-you-cannot-match) | Hytidel 聊商业（@HytidelLegend）：找工作不要选你配不上的工作 | X/Twitter |
+| [zhouluobo-design-personal-agent-learns-visual-style](/md/wiki/sources/zhouluobo-design-personal-agent-learns-visual-style) | zhouluobo（@zhouluobo）：设计界的 Personal Agent 也来了——偷学我的作图风格，现在比我还熟 | X/Twitter |
+| [crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline](/md/wiki/sources/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline) | 疯狂的烤妹儿（@CrazyKaomei）：爆款复刻｜YouTube 极简火柴人搞钱流水线，优质内容心法 + 全套工作流开源 | X/Twitter |
+| [wangzai-why-publishing-so-much-content-yields-no-clients](/md/wiki/sources/wangzai-why-publishing-so-much-content-yields-no-clients) | 汪仔（@wangzaimedia）：为什么你发了那么多内容，还是没有客户？ | X/Twitter |
+| [chrisslacker-wechat-image-text-post-three-days-monetization-sop](/md/wiki/sources/chrisslacker-wechat-image-text-post-three-days-monetization-sop) | 科技混子Chris（@ChrisSlacker）：公众号贴图，3 天收入破百，1 篇收入破千——附 5 步实操 SOP | X/Twitter |
+| [nopinduoduo-ai-comic-drama-production-10000-credits-tutorial](/md/wiki/sources/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial) | 我真的没有拼多多（@nopinduoduo）：不会分镜和运镜？普通人到底能不能上手做 AI 漫剧？花 1 万积分的实测教程 | X/Twitter |
+| [phil-design-personal-ip-and-codex-desktop-pet-tutorial](/md/wiki/sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial) | 阿哲Phil（@Formulasearch）：快速上手设计一款个人 IP，并做成 Codex 宠物（附提示词和链接） | X/Twitter |
+| [niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch) | Niko爱学习（@ai_super_niko）：掌控 Codex 对话节奏——打断、排队、引导和分叉 | X/Twitter |
