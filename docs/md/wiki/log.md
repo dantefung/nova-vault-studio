@@ -4,6 +4,19 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 8 篇 TODO 队列清库长文（联盟营销 / awesome-seedance 463 视频 Skill / Codex 内容生产 / X 起号万字指南 / 推特起号焚诀 / AI 角色一致性 / AI 游戏 20 天赚 2.3 万 / pi-matt-implement-flow）
+
+- 抓取与归档：清空 `TODO.md` 中「待爬取 · X / Twitter」区段的 8 条 pending 链接，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 49 张，归档至 `sources/`，并回写 TODO 状态为 done
+- 归档列表：
+  1. `sources/peter-yang-affiliate-marketing-overseas-usd-playbook.md`（Peter Yang @affnom_y，275 行，4 图）：什么是联盟营销？——一文带你走进海外美金世界：拆解不生产产品而推广他人产品赚佣金的商业模式本质，覆盖教程推荐、产品测评与付费投放获客三条载体。
+  2. `sources/aiwarts-awesome-seedance-463-ai-video-skills.md`（卡尔的AI沃茨 @aiwarts，221 行，12 图）：我把 463 个 AI 视频做成了 Skill 和提示语模板——全都开源！：从程序员到百万播放 AI 视频创作者的「审美积累」方法论与分镜/模型选型/角色一致性/画风搭配配方。
+  3. `sources/wangdachui-codex-content-production-solo-primer.md`（王大锤 @boniusex，434 行，1 图）：超级个体必备——用 Codex 重构内容生产的全套实操教程：面向非编程创作者，以 30 份素材到一稿多端交付为贯穿案例详解可交付的内容流水线。
+  4. `sources/weiyux-x-account-zero-to-one-guide.md`（动物园园长 @weiyux2021，688 行，14 图）：X（推特）账号运营从 0 到 1——万字实操指南：冷启动、内容创作、涨粉策略、变现方法与避坑五大板块。
+  5. `sources/xiaowan-x-account-startup-strategy-3000-followers.md`（小晚不在 @bbkirstry，334 行，1 图）：看完一堆起号攻略＋涨粉 3000 后，我终于悟到了「推特起号焚诀」：批判流于「术」层的攻略，回归以真实价值交换建立长期关系。
+  6. `sources/leo-xiaolei-ai-character-consistency-skill.md`（刘老板 @leo_xiaolei，122 行，5 图）：必备技能｜伸手即用——AI 人物一致性控制与角色卡制作 Skill：以三视图锁定角色结构的一次性视觉定义图工程化方法。
+  7. `sources/xiaohui-ai-game-published-20-days-earned-23000.md`（程序员小灰 @XiaohuiAI666，349 行，11 图）：AI 游戏发布 20 天，我赚了 23000 多元：正面回应「AI 做不了商业化游戏」的质疑，完整拆解从创意选型到买量变现的全流程。
+  8. `sources/stephan-pi-matt-implement-flow-open-source.md`（Stephan @Stephan_Talk，81 行，1 图）：一条命令落地 Matt 工作流——开源 pi-matt-implement-flow：直击多 Ticket 场景的上下文爆炸、人工盯盘心累与裁判运动员合一三大工程化痛点。
+
 ## [2026-11-04] ingest: 5 篇出海做站/AI视频号/SuperAgent实践/Onboarding与对抗式CR实战（虹安 18 天 10 站热梗出单 / clanhj 视频号中老年赛道 / 空谷 LobeHub 工单唤醒实践 / 孟奇 Onboarding 6 大反模式 / gKev1n 对抗式 Review 死穴）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 21 张（包含出海订单明细、LobeHub Task 工单系统、NASA 职责匹配、视频号中老年互动后台等），归档至 `sources/`

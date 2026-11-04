@@ -23,14 +23,14 @@ url: ""
 
 | 日期 | 链接 | 描述 | 状态 |
 |------|------|------|------|
-| 2026-09-21 | https://x.com/affnom_y/status/2102231791025492184 | 待查看 | pending |
-| 2026-09-21 | https://x.com/aiwarts/status/2102240456092626951 | 待查看 | pending |
-| 2026-09-21 | https://x.com/boniusex/status/2102312504697426429 | 待查看 | pending |
-| 2026-09-21 | https://x.com/weiyux2021/status/2101844827599933805 | 待查看 | pending |
-| 2026-09-21 | https://x.com/bbkirstry/status/2102373925309338097 | 待查看 | pending |
-| 2026-09-21 | https://x.com/leo_xiaolei/status/2102013053084545433 | 待查看 | pending |
-| 2026-09-21 | https://x.com/XiaohuiAI666/status/2102236448175128643 | 待查看 | pending |
-| 2026-09-21 | https://x.com/Stephan_Talk/status/2102201335437562012 | 待查看 | pending |
+| 2026-09-21 | https://x.com/affnom_y/status/2102231791025492184 | 联盟营销（Affiliate Marketing）出海美金商业模式 | done ([sources/peter-yang-affiliate-marketing-overseas-usd-playbook](/md/wiki/sources/peter-yang-affiliate-marketing-overseas-usd-playbook)) |
+| 2026-09-21 | https://x.com/aiwarts/status/2102240456092626951 | awesome-seedance：463 个 AI 视频 Skill 与提示语模板开源 | done ([sources/aiwarts-awesome-seedance-463-ai-video-skills](/md/wiki/sources/aiwarts-awesome-seedance-463-ai-video-skills)) |
+| 2026-09-21 | https://x.com/boniusex/status/2102312504697426429 | 用 Codex 重构内容生产的全套实操教程 | done ([sources/wangdachui-codex-content-production-solo-primer](/md/wiki/sources/wangdachui-codex-content-production-solo-primer)) |
+| 2026-09-21 | https://x.com/weiyux2021/status/2101844827599933805 | X（推特）账号运营从 0 到 1 万字实操指南 | done ([sources/weiyux-x-account-zero-to-one-guide](/md/wiki/sources/weiyux-x-account-zero-to-one-guide)) |
+| 2026-09-21 | https://x.com/bbkirstry/status/2102373925309338097 | 推特起号焚诀：涨粉 3000 后的方法论反思 | done ([sources/xiaowan-x-account-startup-strategy-3000-followers](/md/wiki/sources/xiaowan-x-account-startup-strategy-3000-followers)) |
+| 2026-09-21 | https://x.com/leo_xiaolei/status/2102013053084545433 | AI 人物一致性控制与角色卡制作 Skill | done ([sources/leo-xiaolei-ai-character-consistency-skill](/md/wiki/sources/leo-xiaolei-ai-character-consistency-skill)) |
+| 2026-09-21 | https://x.com/XiaohuiAI666/status/2102236448175128643 | AI 游戏发布 20 天赚了 23000 多元 | done ([sources/xiaohui-ai-game-published-20-days-earned-23000](/md/wiki/sources/xiaohui-ai-game-published-20-days-earned-23000)) |
+| 2026-09-21 | https://x.com/Stephan_Talk/status/2102201335437562012 | pi-matt-implement-flow：多 Ticket 工程化落地 | done ([sources/stephan-pi-matt-implement-flow-open-source](/md/wiki/sources/stephan-pi-matt-implement-flow-open-source)) |
 
 ### 复盘总结（20 篇 · 心态 + ROI 最高）
 

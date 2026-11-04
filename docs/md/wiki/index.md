@@ -757,3 +757,11 @@ wiki/
 | [arvin-lobehub-superagent-product-and-engineering-practices](/md/wiki/sources/arvin-lobehub-superagent-product-and-engineering-practices) | 空谷 Arvin Xu（@arvin17x）：LobeHub 中 SuperAgent 的产品技术实践——以工单串联会话、策略化主动唤醒与沉默是金 | X/Twitter |
 | [daqi-worst-6-onboarding-antipatterns](/md/wiki/sources/daqi-worst-6-onboarding-antipatterns) | Mengqi Pei（@daqi029）：我见过最糟糕的 Onboarding 新手引导 6 种反模式——用户还没尝到甜头，你先让他干活 | X/Twitter |
 | [gkevin-adversarial-subagent-code-review-pitfalls-and-formal-verification](/md/wiki/sources/gkevin-adversarial-subagent-code-review-pitfalls-and-formal-verification) | gKev1n（@GKev1n）：别再沉迷让 Sub-agent 互相 Review 代码了——对抗式审查的三大死穴与实测形式化验证转向 | X/Twitter |
+| [peter-yang-affiliate-marketing-overseas-usd-playbook](/md/wiki/sources/peter-yang-affiliate-marketing-overseas-usd-playbook) | Peter Yang（@affnom_y）：什么是联盟营销？——一文带你走进海外美金世界 | X/Twitter |
+| [aiwarts-awesome-seedance-463-ai-video-skills](/md/wiki/sources/aiwarts-awesome-seedance-463-ai-video-skills) | 卡尔的AI沃茨（@aiwarts）：我把 463 个 AI 视频做成了 Skill 和提示语模板——全都开源！ | X/Twitter |
+| [wangdachui-codex-content-production-solo-primer](/md/wiki/sources/wangdachui-codex-content-production-solo-primer) | 王大锤（@boniusex）：超级个体必备——用 Codex 重构内容生产的全套实操教程 | X/Twitter |
+| [weiyux-x-account-zero-to-one-guide](/md/wiki/sources/weiyux-x-account-zero-to-one-guide) | 动物园园长（@weiyux2021）：X（推特）账号运营从 0 到 1——万字实操指南 | X/Twitter |
+| [xiaowan-x-account-startup-strategy-3000-followers](/md/wiki/sources/xiaowan-x-account-startup-strategy-3000-followers) | 小晚不在（@bbkirstry）：看完一堆起号攻略＋涨粉 3000 后，我终于悟到了「推特起号焚诀」 | X/Twitter |
+| [leo-xiaolei-ai-character-consistency-skill](/md/wiki/sources/leo-xiaolei-ai-character-consistency-skill) | 刘老板（@leo_xiaolei）：必备技能｜伸手即用——AI 人物一致性控制与角色卡制作 Skill | X/Twitter |
+| [xiaohui-ai-game-published-20-days-earned-23000](/md/wiki/sources/xiaohui-ai-game-published-20-days-earned-23000) | 程序员小灰（@XiaohuiAI666）：AI 游戏发布 20 天，我赚了 23000 多元 | X/Twitter |
+| [stephan-pi-matt-implement-flow-open-source](/md/wiki/sources/stephan-pi-matt-implement-flow-open-source) | Stephan（@Stephan_Talk）：一条命令落地 Matt 工作流——开源 pi-matt-implement-flow 多 Ticket 工程化方案 | X/Twitter |
