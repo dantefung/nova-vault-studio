@@ -1,7 +1,8 @@
 ---
 title: "从零构建 Agent（八）：可复用的 Slash Commands"
 date: "2026-10-20"
-source: "微信公众号"
+source: "微信公众号 / 从码农到工匠"
+author: "从码农到工匠"
 url: "https://mp.weixin.qq.com/s/NXBuk7227ST9C4Id5qlL2Q"
 ---
 
@@ -10,8 +11,6 @@ url: "https://mp.weixin.qq.com/s/NXBuk7227ST9C4Id5qlL2Q"
 > ZeroAgent 将高频 Prompt 保存为带 YAML Frontmatter 的 Markdown 命令文件，通过位置参数、默认值、全局/项目两级加载、同名覆盖和热重载，提供类似 Shell 别名的用户入口。
 
 <!-- more -->
-
-作者：从码农到工匠
 
 ## Slash Commands 解决什么问题
 
@@ -114,3 +113,12 @@ ZeroAgent 按两个范围扫描命令：
 - ZeroAgent：<https://github.com/significantfrank/ZeroAgent>
 - Claude Code Commands：<https://code.claude.com/docs/en/commands>
 - Pi Prompt Templates：<https://pi.dev/docs/latest/prompt-templates>
+
+---
+
+## 相关链接
+
+- 系列前篇：[从零构建 Agent（一）：技术选型](/md/wiki/sources/zeroagent-01-tech-stack)、[从零构建 Agent（二）：大模型交互](/md/wiki/sources/zeroagent-02-llm-interaction)、[从零构建 Agent（三）：Agent Loop](/md/wiki/sources/zeroagent-03-agent-loop)、[从零构建 Agent（五）：MCP](/md/wiki/sources/zeroagent-05-mcp)、[从零构建 Agent（六）：Skills](/md/wiki/sources/zeroagent-06-skills)、[从零构建 Agent（七）：Session 管理](/md/wiki/sources/zeroagent-07-session-management)
+- 系列后续：[从零构建 Agent（九）：SubAgent](/md/wiki/sources/zeroagent-09-subagent)、[从零构建 Agent（十）：Model 管理](/md/wiki/sources/zeroagent-10-model-management)、[从零构建 Agent（十一）：Extension 扩展](/md/wiki/sources/zeroagent-11-extension)、[从零构建 Agent（十二）：长期 Memory 管理](/md/wiki/sources/zeroagent-12-longterm-memory-management)
+- Demo 源码：[significantfrank/ZeroAgent](https://github.com/significantfrank/ZeroAgent)
+- 交叉参考：[Skill 优于工具](/md/wiki/patterns/skill-over-tool)、[渐进式披露](/md/wiki/patterns/progressive-disclosure)、[Harness Engineering](/md/wiki/concepts/harness-engineering)

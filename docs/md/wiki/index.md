@@ -290,6 +290,7 @@ wiki/
 | [zeroagent-05-mcp](/md/wiki/sources/zeroagent-05-mcp) | 从码农到工匠：从零构建 Agent（五）——MCP 工具协议，命名空间隔离与 In-Memory 测试策略 | 微信公众号 |
 | [zeroagent-06-skills](/md/wiki/sources/zeroagent-06-skills) | 从码农到工匠：从零构建 Agent（六）——Skills 与渐进式披露，前言/全文/引用三级加载机制 | 微信公众号 |
 | [zeroagent-07-session-management](/md/wiki/sources/zeroagent-07-session-management) | 从码农到工匠：从零构建 Agent（七）——Session 管理，SQLite 零依赖持久化与上下文注入回写 | 微信公众号 |
+| [zeroagent-slash-commands](/md/wiki/sources/zeroagent-slash-commands) | 从码农到工匠：从零构建 Agent（八）——可复用的 Slash Commands，把高频 Prompt 固化为可复用模板 | 微信公众号 |
 | [zeroagent-09-subagent](/md/wiki/sources/zeroagent-09-subagent) | 从码农到工匠：从零构建 Agent（九）——SubAgent，任务委派、上下文隔离与工具白名单收敛 | 微信公众号 |
 | [zeroagent-10-model-management](/md/wiki/sources/zeroagent-10-model-management) | 从码农到工匠：从零构建 Agent（十）——Model 管理，Provider 配置、模型注册与运行时切换 | 微信公众号 |
 | [zeroagent-11-extension](/md/wiki/sources/zeroagent-11-extension) | 从码农到工匠：从零构建 Agent（十一）——Extension 扩展，模型解耦与三级事件分层 | 微信公众号 |
