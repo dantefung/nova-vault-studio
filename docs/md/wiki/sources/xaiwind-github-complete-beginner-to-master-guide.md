@@ -714,7 +714,7 @@ Actions 挂了，报错不在最显眼的地方。
 
 `exit code 1` 不是错误信息，是“某条命令返回了失败”。真正的原因在上面几十行，往上翻。
 
-使用经验：本地跑得好好的，Actions 里就是不过。翻了半天日志才看明白——本地有 .env，仓库里没有（也不该有，见坑 1）。Actions 里要用密钥，得去 `Settings` → `Secrets and variables` 配，然后在 yml 里用 `${{ secrets.你的名字 }}` 引用。
+使用经验：本地跑得好好的，Actions 里就是不过。翻了半天日志才看明白——本地有 .env，仓库里没有（也不该有，见坑 1）。Actions 里要用密钥，得去 `Settings` → `Secrets and variables` 配，然后在 yml 里用 <span v-pre>`${{ secrets.你的名字 }}`</span> 引用。
 
 绕回来还是那句话：密钥只能放 Secrets，不能放仓库。这两件事是同一件事。
 
