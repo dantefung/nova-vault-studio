@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 5 篇架构/AI Agent/金融基础设施/硬件DMA与系统管理深度长文（卡兹克 1 年 Agent 实践复盘 / 支付通道系统 / DMA Engine 全景 / 孤独大脑 LifeOS / Java Agent 与 Arthas）
+
+- 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去营销打折导流话术，GIF 规范转换为 PNG，本地化配图共计 59 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/khazix-one-year-agent-automation-system.md`（数字生命卡兹克，174 行，12 图）：折腾了整整 1 年，毫无保留地分享一下我这套 Agent 自动化系统：深度总结从“聊天打工”转向“领导力调度”，自研自动化中台统一事件、局域网 M4 MacMini 长轮询反向接单、多模型算力梯队（Opus 5.5 开发 / Sol 运维 / Terra 浏览器操控）、自建本地 CI 中台与飞书卡片“批奏折”闭环。
+  2. `sources/payment-channel-management-system.md`（陈天宇宙，115 行，4 图）：详解「支付通道」管理系统——基础概念、全生命周期与产品原型设计：深度剖析直连与间联通道、卡基与账基体系、收银台多维展示背后的分类逻辑，以及三方支付机构从准入、对接、动态路由、健康巡检到对账清算的全生命周期管理。
+  3. `sources/dma-engine-from-descriptor-to-completion.md`（GrissomFI，148 行，4 图）：DMA engine——从描述符到完成，一次数据搬运发生了什么：系统拆解控制面委托与数据面搬运的本质，锁页内存（Pinned Memory）、IOMMU/IOVA 映射、描述符队列与 MMIO Doorbell 触发机制，区分完成中断与内存可见性（Memory Visibility），详解 GPU Copy Engine vs SM Copy、GPUDirect RDMA / Storage 与 CXL 共享内存选型四步法。
+  4. `sources/gudunaonao-lifeos-personal-agent-architecture.md`（孤独大脑，78 行）：个人 LifeOS 智能体底座搭建法——4 个文件夹与 3 张控制卡：从控制论（目标引导行动、结果校正判断、经验更新规则）出发，用极简的本地 4 个文件夹（资料库/项目/生产线/我的风格）与 3 张控制卡（我是谁与红线/项目总控表/进度交接卡），搭配双 Agent 发散与收敛互搏推进，实现个人能力的持续复利与“将自己产品化”。
+  5. `sources/java-agent-instrumentation-guide.md`（终码一生，146 行，5 图）：手把手教你实现一个 Java Agent——从 Instrumentation、Attach 到 Arthas Trace 底层原理：对比侵入式耗时打点的弊端，详解 JVM `Instrumentation` 核心接口、`premain` 启动前静态加载与 `agentmain` 运行时动态 Attach（VirtualMachine 跨进程通信），并深入剖析阿里开源 Arthas `trace` 命令如何借助 ByteKit 注解与 ASM 动态生成拦截器重写字节码。
+
 ## [2026-11-04] ingest: 1 篇卡兹克 Agent 自动化系统开源长文（数字生命卡兹克：折腾 1 年的 Agent-Autoloop 开源架构全景拆解）
 
 - 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去公众号导流话术，结合 GitHub 官方仓库文档深度补全协议机制，本地化配图 7 张，归档至 `sources/`

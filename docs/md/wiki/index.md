@@ -747,3 +747,8 @@ wiki/
 | [ruofei-agent-self-write-and-self-inspect-ci-doctor](/md/wiki/sources/ruofei-agent-self-write-and-self-inspect-ci-doctor) | 若飞：自产自销——如何让 Agent 自己写自己查？（CI Doctor 闭环与自主修复） | 微信公众号 |
 | [gefei-seo-directory-inner-pages-wikipedia-structure](/md/wiki/sources/gefei-seo-directory-inner-pages-wikipedia-structure) | 哥飞：导航站内页拿不到排名？学维基百科做词条页和分类页 | 微信公众号 |
 | [khazix-agent-autoloop-open-source-architecture](/md/wiki/sources/khazix-agent-autoloop-open-source-architecture) | 数字生命卡兹克：开源我这折腾了 1 年的「Agent 自动化系统」Agent-Autoloop（附极简内核与插件架构） | 微信公众号 |
+| [khazix-one-year-agent-automation-system](/md/wiki/sources/khazix-one-year-agent-automation-system) | 数字生命卡兹克：折腾了整整 1 年，毫无保留地分享一下我这套 Agent 自动化系统（架构、调度与 CI 中台） | 微信公众号 |
+| [payment-channel-management-system](/md/wiki/sources/payment-channel-management-system) | 陈天宇宙：详解「支付通道」管理系统——基础概念、全生命周期与产品原型设计 | 微信公众号 |
+| [dma-engine-from-descriptor-to-completion](/md/wiki/sources/dma-engine-from-descriptor-to-completion) | GrissomFI：DMA engine——从描述符到完成，一次数据搬运发生了什么 | 微信公众号 |
+| [gudunaonao-lifeos-personal-agent-architecture](/md/wiki/sources/gudunaonao-lifeos-personal-agent-architecture) | 孤独大脑：个人 LifeOS 智能体底座搭建法——4 个文件夹与 3 张控制卡 | 孤独大脑 |
+| [java-agent-instrumentation-guide](/md/wiki/sources/java-agent-instrumentation-guide) | 终码一生：手把手教你实现一个 Java Agent——从 Instrumentation、Attach 到 Arthas Trace 底层原理 | 微信公众号 |
