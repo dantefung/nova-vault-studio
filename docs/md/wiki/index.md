@@ -284,6 +284,17 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [ai-agent-team-9-stages](/md/wiki/sources/ai-agent-team-9-stages) | Anthropic 9阶段搭建Agent团队：从单个Agent到生产级协作，三层架构 | 公众号 |
+| [zeroagent-01-tech-stack](/md/wiki/sources/zeroagent-01-tech-stack) | 从码农到工匠：从零构建 Agent（一）——技术选型，Go/Python 两次弯路后全栈 TypeScript 的必选项结论 | 微信公众号 |
+| [zeroagent-02-llm-interaction](/md/wiki/sources/zeroagent-02-llm-interaction) | 从码农到工匠：从零构建 Agent（二）——大模型交互，Responses API 请求/响应结构与六种用法 | 微信公众号 |
+| [zeroagent-03-agent-loop](/md/wiki/sources/zeroagent-03-agent-loop) | 从码农到工匠：从零构建 Agent（三）——Agent Loop 与 ReAct，四阶段闭环、SSE 事件映射与三种终止条件 | 微信公众号 |
+| [zeroagent-05-mcp](/md/wiki/sources/zeroagent-05-mcp) | 从码农到工匠：从零构建 Agent（五）——MCP 工具协议，命名空间隔离与 In-Memory 测试策略 | 微信公众号 |
+| [zeroagent-06-skills](/md/wiki/sources/zeroagent-06-skills) | 从码农到工匠：从零构建 Agent（六）——Skills 与渐进式披露，前言/全文/引用三级加载机制 | 微信公众号 |
+| [zeroagent-07-session-management](/md/wiki/sources/zeroagent-07-session-management) | 从码农到工匠：从零构建 Agent（七）——Session 管理，SQLite 零依赖持久化与上下文注入回写 | 微信公众号 |
+| [zeroagent-09-subagent](/md/wiki/sources/zeroagent-09-subagent) | 从码农到工匠：从零构建 Agent（九）——SubAgent，任务委派、上下文隔离与工具白名单收敛 | 微信公众号 |
+| [zeroagent-10-model-management](/md/wiki/sources/zeroagent-10-model-management) | 从码农到工匠：从零构建 Agent（十）——Model 管理，Provider 配置、模型注册与运行时切换 | 微信公众号 |
+| [zeroagent-11-extension](/md/wiki/sources/zeroagent-11-extension) | 从码农到工匠：从零构建 Agent（十一）——Extension 扩展，模型解耦与三级事件分层 | 微信公众号 |
+| [agent-tech-stack-selection](/md/wiki/concepts/agent-tech-stack-selection) | Agent 技术选型：交互层 TypeScript 是必选项，可测试性与可观测性必须第一天就埋进去 | 公众号提炼 |
+| [responses-api-agent-loop](/md/wiki/concepts/responses-api-agent-loop) | Responses API：把 Agentic Loop 打包进协议层的事实标准接口，及其能力边界与实测差异 | 公众号提炼 |
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
 | [deepseek-harness](/md/wiki/products/deepseek-harness) | DeepSeek 开源的可组装 Agent 底盘：模型、工具、Skill、沙箱、控制流与 UI 一切皆插件 | 用户原创 |
 | [deepseek-harness-summary](/md/wiki/summaries/deepseek-harness-plugin-first-agent-runtime) | DeepSeek Harness 原创材料精读：五个关键洞察、长期资产判断及插件系统待验证边界 | Wiki 摘要 |
@@ -511,6 +522,10 @@ wiki/
 | [skill-over-tool](/md/wiki/patterns/skill-over-tool) | Skill 优于工具：工具是流水线的一个工位，Skill 是整条流水线的 AI 助手 | X/Twitter |
 | [ub-mode-engineering-rules](/md/wiki/patterns/ub-mode-engineering-rules) | ub-mode 工程纪律：《代码整洁之道》翻译成 Agent 可校验规则 + CRAP/重复度/变异测试三道量化门禁 | X/Twitter |
 | [adsense-publisher-id-site-cluster-discovery](/md/wiki/patterns/adsense-publisher-id-site-cluster-discovery) | 发布商 ID 反查站群：用 ads.txt 摸清一个站背后还有哪些站，四步 OSINT | X/Twitter |
+| [context-ownership-server-vs-client](/md/wiki/patterns/context-ownership-server-vs-client) | 上下文所有权：服务端 Store 与客户端历史的取舍——所有权归属决定裁剪、隐私与迁移成本 | 公众号提炼 |
+| [agent-event-decoupling](/md/wiki/patterns/agent-event-decoupling) | 模型事件与 Agent 事件解耦：SSE 加工成语义事件流，让 Loop 自身事件并入同一通道 | 公众号提炼 |
+| [mcp-tool-namespace-isolation](/md/wiki/patterns/mcp-tool-namespace-isolation) | MCP 工具命名空间隔离：serverName__toolName 前缀 + 反向索引路由，多 Server 共存的基础设施 | 公众号提炼 |
+| [progressive-disclosure](/md/wiki/patterns/progressive-disclosure) | 渐进式披露：上下文工程核心模式，并在 Agent Skills 中落地为前言/全文/引用三级加载 | 公众号提炼 |
 
 ### AI 产品与订阅 (AI Products & Subscriptions)
 

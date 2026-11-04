@@ -4,6 +4,30 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 「从零构建 Agent」系列补全 9 篇（从码农到工匠 / ZeroAgent）
+
+- 来源：公众号「从码农到工匠」，系列第 1、2、3、5、6、7、9、10、11 篇（`https://mp.weixin.qq.com/s/XJnTETwD9RHeT6SUHUPyqQ` 等 9 个链接）
+- 归档至 `sources/`：
+  1. `zeroagent-01-tech-stack.md` — 技术选型：Go / Python Textual 两次弯路 → 全栈 TypeScript；可测试性与可观测性先行；`node-pty` 驱动 TUI 自动化测试
+  2. `zeroagent-02-llm-interaction.md` — 大模型交互：Responses API 请求/响应结构、5 种核心流式事件、store / store-client / stream / abort / structured / calling 六种用法
+  3. `zeroagent-03-agent-loop.md` — Agent Loop 与 ReAct：感知→思考→行动→观察四阶段闭环、SSE 完整事件序列、Agent Event 映射、三种终止条件
+  4. `zeroagent-05-mcp.md` — MCP 工具协议：中间层解耦、Client/Server 架构、`serverName__toolName` 命名空间隔离、In-Memory 测试
+  5. `zeroagent-06-skills.md` — Skills 与渐进式披露：SKILL.md 规范、前言/全文/引用三级加载机制
+  6. `zeroagent-07-session-management.md` — Session 管理：SQLite + `node:sqlite` 零依赖持久化、上下文注入与消息回写
+  7. `zeroagent-09-subagent.md` — SubAgent：任务委派、上下文隔离、工具白名单与模型覆盖；与 Skills / Commands 的差异对照
+  8. `zeroagent-10-model-management.md` — Model 管理：Provider / Model 分层、三个配置文件、客户端按模型路由、运行时切换、SDD 实践
+  9. `zeroagent-11-extension.md` — Extension 扩展：`AiClient` + `AiEvent` 模型解耦、三级事件分层、ExtensionAPI 与 ExtensionRunner
+- 提炼知识页（新建）：
+  - `concepts/agent-tech-stack-selection` — Agent 技术选型：全栈 TypeScript 与工程纪律前置
+  - `concepts/responses-api-agent-loop` — Responses API：Agentic Loop 的协议基座
+  - `patterns/context-ownership-server-vs-client` — 上下文所有权：服务端 Store vs 客户端历史
+  - `patterns/agent-event-decoupling` — 模型事件与 Agent 事件解耦
+  - `patterns/mcp-tool-namespace-isolation` — MCP 工具命名空间隔离
+- 提炼知识页（更新）：`patterns/progressive-disclosure` — 追加 Agent Skills 的三级加载机制实现
+- 配图本地化：agent-loop 2 张、mcp 2 张、skills 1 张、session 1 张、subagent 2 张、model 3 张、extension 1 张，共 12 张（微信原图为 GIF，统一用 sharp 提取首帧转 PNG，单张均 <500KB）
+- 说明：系列第 4 篇未提供；第 8 篇《可复用的 Slash Commands》此前已归档为 `sources/zeroagent-slash-commands.md`，本次未重复收录
+- 内容摘要：本批次补齐 ZeroAgent 系列的完整技术主线——从技术选型、大模型交互、Agent Loop，到 MCP 工具协议、Skills 渐进式披露、Session 持久化、SubAgent 委派、Model 管理与 Extension 扩展，形成一条从「Agent Loop 原型」到「可扩展运行时」的完整演进链路
+
 ## [2026-11-04] ingest: 11 篇「稍后读」X/Twitter 队列第二批（麦肯锡风格提示词 / 找已有人付钱的 App 点子 / GitHub 信息差 8 法 / 12 台 iPhone 8 增长机房 / IP 系统底层架构 / 古风武侠英语剧 / 108 万播放 AI 长视频 / 出海选品优先 / 零基础 AI 入门 / 万里汇海外地址证明 / WorkBuddy 汇报 PPT）
 
 - 抓取与归档：继续清空 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 44 张，归档至 `sources/`
