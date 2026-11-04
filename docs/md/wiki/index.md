@@ -783,3 +783,14 @@ wiki/
 | [xiaoniaoziming-lie-down-income-system-20-to-now](/md/wiki/sources/xiaoniaoziming-lie-down-income-system-20-to-now) | 周小鸟开窍（@xiaoniaoziming）：如何躺着赚钱——从 20 岁到现在的躺赚体系 | X/Twitter |
 | [aikangarooking-open-source-ai-course-selling-website](/md/wiki/sources/aikangarooking-open-source-ai-course-selling-website) | 袋鼠帝（@aikangarooking）：爆肝 30 天！我们开源了一个让 AI 课程卖家集体失业的网站 | X/Twitter |
 | [riverai-pi-session-control-cross-agent-messaging](/md/wiki/sources/riverai-pi-session-control-cross-agent-messaging) | RiverAi7z（@RiverAi7z）：Pi 的 Session Control——让不同终端里的 Coding Agent 直接互相发消息 | X/Twitter |
+| [adrian-mckinsey-style-consulting-visual-prompts](/md/wiki/sources/adrian-mckinsey-style-consulting-visual-prompts) | Adrian Punk（@AdrianPunk115）：想做高级咨询风视觉？这套麦肯锡风格提示词可以直接复制 | X/Twitter |
+| [ai-ads-apps-find-app-idea-people-already-waiting-to-pay](/md/wiki/sources/ai-ads-apps-find-app-idea-people-already-waiting-to-pay) | AI, Ads & Apps（@AIAdsApps）：如何找到已经有人等着付钱的 App 点子（含 10 万美元/月案例） | X/Twitter |
+| [fred-new-github-information-arbitrage-8-methods](/md/wiki/sources/fred-new-github-information-arbitrage-8-methods) | Fred-New（@Fred834567）：GitHub 信息差套利 8 法——remote-job / ai-money-maker / TelegramGroup 等仓库速览 | X/Twitter |
+| [zhangzijun-12-iphone-8-growth-server-monetization](/md/wiki/sources/zhangzijun-12-iphone-8-growth-server-monetization) | 张子俊（@wuxindehuaft）：把 12 台 iPhone 8 变成增长机房——X 博主如何把内部实验做成公开作品集再变现 | X/Twitter |
+| [yangjin-ip-system-underlying-architecture](/md/wiki/sources/yangjin-ip-system-underlying-architecture) | 杨进（@shaozhu93314）：构建 IP 系统的底层架构（全文手打、放心食用） | X/Twitter |
+| [crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook](/md/wiki/sources/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook) | 疯狂的烤妹儿（@CrazyKaomei）：爆款复刻｜月涨粉 5w 还能出海赚美金——拆透「古风武侠英语剧」的长青打法 | X/Twitter |
+| [simon-ai-hot-topic-long-video-1-08m-views](/md/wiki/sources/simon-ai-hot-topic-long-video-1-08m-views) | Simon聊AI（@HanZhang415188）：用 AI 做热点长视频——单条 108 万播放，3 天涨粉近万的实操复盘 | X/Twitter |
+| [liangzhu-product-selection-before-building](/md/wiki/sources/liangzhu-product-selection-before-building) | 良竹（@liangzhu_AI）：产品出海第一步——选择比努力重要 100 倍，快速完成比完美重要 1000 倍 | X/Twitter |
+| [miles-ma-ai-beginner-guide-no-courses](/md/wiki/sources/miles-ma-ai-beginner-guide-no-courses) | Miles Ma（@miles_mazy）：零基础入门 AI，看完这篇就够了（避免花钱买课被割韭菜版） | X/Twitter |
+| [kk-ai-notes-opc-wanlihui-overseas-address-proof](/md/wiki/sources/kk-ai-notes-opc-wanlihui-overseas-address-proof) | KK的AI笔记（@ainotes_KK）：OPC 出海必备工具｜万里汇获取海外地址证明完整教程 | X/Twitter |
+| [adrian-workbuddy-boss-friendly-ppt](/md/wiki/sources/adrian-workbuddy-boss-friendly-ppt) | Adrian Punk（@AdrianPunk115）：用 WorkBuddy 做老板爱看的 PPT | X/Twitter |

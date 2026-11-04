@@ -4,6 +4,22 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 11 篇「稍后读」X/Twitter 队列第二批（麦肯锡风格提示词 / 找已有人付钱的 App 点子 / GitHub 信息差 8 法 / 12 台 iPhone 8 增长机房 / IP 系统底层架构 / 古风武侠英语剧 / 108 万播放 AI 长视频 / 出海选品优先 / 零基础 AI 入门 / 万里汇海外地址证明 / WorkBuddy 汇报 PPT）
+
+- 抓取与归档：继续清空 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 44 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/adrian-mckinsey-style-consulting-visual-prompts.md`（Adrian Punk @AdrianPunk115，682 行，1 图）：想做高级咨询风视觉？——麦肯锡风格提示词套件，适配 X 封面、信息图、咨询分析页、方法论图、流程图与矩阵图。
+  2. `sources/ai-ads-apps-find-app-idea-people-already-waiting-to-pay.md`（AI, Ads & Apps @AIAdsApps，120 行，1 图）：如何找到已经有人等着付钱的 App 点子——从 Google Trends 到验证真实付费再开发，含 6 个月 10 万美元/月的军事体能训练女性 App 案例。
+  3. `sources/fred-new-github-information-arbitrage-8-methods.md`（Fred-New @Fred834567，71 行，1 图）：GitHub 信息差套利 8 法——远程工作聚合、AI 赚钱工具集、Telegram 资源群、Awesome 清单、AI 闲鱼监控、n8n、公开数据集与量化交易合集。
+  4. `sources/zhangzijun-12-iphone-8-growth-server-monetization.md`（张子俊 @wuxindehuaft，124 行，4 图）：把 12 台 iPhone 8 变成增长机房——@julianivaldy 把内部实验做成公开作品集再变现，预估年流水六位数人民币。
+  5. `sources/yangjin-ip-system-underlying-architecture.md`（杨进 @shaozhu93314，42 行）：构建 IP 系统的底层架构——IP 本质是连接产品与用户的渠道、核心作用是背书、只需讲好故事把产品内容化。
+  6. `sources/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook.md`（疯狂的烤妹儿 @CrazyKaomei，304 行，9 图）：月涨粉 5w 还能出海赚美金——拆透「古风武侠英语剧」长青打法与搞钱闭环。
+  7. `sources/simon-ai-hot-topic-long-video-1-08m-views.md`（Simon聊AI @HanZhang415188，375 行，10 图）：用 AI 做热点长视频——单条 108 万播放、3 天涨粉近万的实操复盘。
+  8. `sources/liangzhu-product-selection-before-building.md`（良竹 @liangzhu_AI，343 行，8 图）：产品出海第一步——选择比努力重要 100 倍，快速完成比完美重要 1000 倍。
+  9. `sources/miles-ma-ai-beginner-guide-no-courses.md`（Miles Ma @miles_mazy，330 行，8 图）：零基础入门 AI，看完这篇就够了（避免花钱买课被割韭菜版）。
+  10. `sources/kk-ai-notes-opc-wanlihui-overseas-address-proof.md`（KK的AI笔记 @ainotes_KK，159 行，3 图）：OPC 出海必备工具——万里汇获取海外地址证明完整教程。
+  11. `sources/adrian-workbuddy-boss-friendly-ppt.md`（Adrian Punk @AdrianPunk115，197 行，12 图）：用 WorkBuddy 做老板爱看的 PPT——结论先行的向上汇报叙事结构。
+
 ## [2026-11-04] ingest: 12 篇「稍后读」队列清库长文（Tw93 走在前面 / Grok Bot 自媒体全流程 / Claude Code 项目级记忆 / 简历部署个人站 / AI Agent 速通 / Vibe Marketing 中译 / 心流已死 / 全球收款 / 5 个开源 OSINT 工具 / 躺赚体系 / AI 课程网站 / Pi Session Control）
 
 - 抓取与归档：清空 `docs/md/wiki/read-later/index.md` 中 12 条 X/Twitter 待读链接，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 106 张，归档至 `sources/`

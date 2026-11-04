@@ -34,22 +34,22 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 备注 |
 |------|------|------|
-| 2026-07-26 | https://x.com/i/status/2062080784572534958 | 待查看 |
-| 2026-07-26 | https://x.com/i/status/2079935421459366178 | 待查看 |
-| 2026-07-26 | https://x.com/i/status/2080467501633478757 | **Fred-New**：GitHub信息差套利8法——remote-job/ai-money-maker/TelegramGroup/awesome-list/ai-goofish-monitor/n8n/awesome-public-datasets/awesome-systematic-trading，信息差从来不值钱，执行力才值钱 |
+| 2026-07-26 | https://x.com/i/status/2062080784572534958 | **Adrian Punk（@AdrianPunk115）**：想做高级咨询风视觉？麦肯锡风格提示词可直接复制 → 已归档 ([adrian-mckinsey-style-consulting-visual-prompts](/md/wiki/sources/adrian-mckinsey-style-consulting-visual-prompts)) |
+| 2026-07-26 | https://x.com/i/status/2079935421459366178 | **AI, Ads & Apps（@AIAdsApps）**：如何找到已经有人等着付钱的 App 点子（10 万美元/月案例） → 已归档 ([ai-ads-apps-find-app-idea-people-already-waiting-to-pay](/md/wiki/sources/ai-ads-apps-find-app-idea-people-already-waiting-to-pay)) |
+| 2026-07-26 | https://x.com/i/status/2080467501633478757 | **Fred-New（@Fred834567）**：GitHub 信息差套利 8 法——8 个可立即变现的仓库 → 已归档 ([fred-new-github-information-arbitrage-8-methods](/md/wiki/sources/fred-new-github-information-arbitrage-8-methods)) |
 | 2026-07-26 | — | **躺赚vs辛苦钱**：卖铲子思维——搬视频/盯盘/跪富婆都是辛苦钱，卖工具/课/软件才是躺赚。选边比努力重要一万倍。所有人在赌时，最稳生意是卖入场券 |
-| 2026-07-15 | https://x.com/i/status/2076966319031996776 | **张子俊**：把12台iPhone 8变成增长机房——@julianivaldy 把内部实验做成公开作品集再变现，预估年流水六位数人民币，TikTok增长服务 |
-| 2026-09-21 | https://x.com/ainotes_KK/status/2102251206580047933 | 待查看 |
+| 2026-07-15 | https://x.com/i/status/2076966319031996776 | **张子俊（@wuxindehuaft）**：把 12 台 iPhone 8 变成增长机房：内部实验做成公开作品集再变现 → 已归档 ([zhangzijun-12-iphone-8-growth-server-monetization](/md/wiki/sources/zhangzijun-12-iphone-8-growth-server-monetization)) |
+| 2026-09-21 | https://x.com/ainotes_KK/status/2102251206580047933 | **KK的AI笔记（@ainotes_KK）**：OPC 出海必备工具：万里汇获取海外地址证明完整教程 → 已归档 ([kk-ai-notes-opc-wanlihui-overseas-address-proof](/md/wiki/sources/kk-ai-notes-opc-wanlihui-overseas-address-proof)) |
 | 2026-09-21 | https://x.com/leo_xiaolei/status/2102013053084545433 | 待查看 |
-| 2026-09-21 | https://x.com/shaozhu93314/status/2047186395555590428 | 待查看 |
-| 2026-09-21 | https://x.com/HanZhang415188/status/2100857704617316717 | 待查看 |
-| 2026-09-21 | https://x.com/CrazyKaomei/status/2099775364965061013 | 待查看 |
-| 2026-09-21 | https://x.com/miles_mazy/status/2102018333499707492 | 待查看 |
+| 2026-09-21 | https://x.com/shaozhu93314/status/2047186395555590428 | **杨进（@shaozhu93314）**：构建 IP 系统的底层架构 → 已归档 ([yangjin-ip-system-underlying-architecture](/md/wiki/sources/yangjin-ip-system-underlying-architecture)) |
+| 2026-09-21 | https://x.com/HanZhang415188/status/2100857704617316717 | **Simon聊AI（@HanZhang415188）**：用 AI 做热点长视频：单条 108 万播放，3 天涨粉近万 → 已归档 ([simon-ai-hot-topic-long-video-1-08m-views](/md/wiki/sources/simon-ai-hot-topic-long-video-1-08m-views)) |
+| 2026-09-21 | https://x.com/CrazyKaomei/status/2099775364965061013 | **疯狂的烤妹儿（@CrazyKaomei）**：月涨粉 5w 还能出海赚美金——古风武侠英语剧长青打法 → 已归档 ([crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook](/md/wiki/sources/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook)) |
+| 2026-09-21 | https://x.com/miles_mazy/status/2102018333499707492 | **Miles Ma（@miles_mazy）**：零基础入门 AI，看完这篇就够了（避免买课被割韭菜） → 已归档 ([miles-ma-ai-beginner-guide-no-courses](/md/wiki/sources/miles-ma-ai-beginner-guide-no-courses)) |
 | 2026-09-21 | https://x.com/bbkirstry/status/2102373925309338097 | 待查看 |
 | 2026-09-21 | https://github.com/cyberxiaowan/cyber-xiaowan | 待查看 |
 | 2026-09-21 | https://x.com/Chilljccu/status/2102228308218061178 | 待查看 |
-| 2026-09-21 | https://x.com/liangzhu_AI/status/2103402474677670352 | 待查看 |
-| 2026-09-21 | https://x.com/AdrianPunk115/status/2103061280747819471 | 待查看 |
+| 2026-09-21 | https://x.com/liangzhu_AI/status/2103402474677670352 | **良竹（@liangzhu_AI）**：产品出海第一步：选择比努力重要 100 倍 → 已归档 ([liangzhu-product-selection-before-building](/md/wiki/sources/liangzhu-product-selection-before-building)) |
+| 2026-09-21 | https://x.com/AdrianPunk115/status/2103061280747819471 | **Adrian Punk（@AdrianPunk115）**：用 WorkBuddy 做老板爱看的 PPT → 已归档 ([adrian-workbuddy-boss-friendly-ppt](/md/wiki/sources/adrian-workbuddy-boss-friendly-ppt)) |
 | 2026-09-21 | https://x.com/heizolshao/status/2103130112334160020 | 待查看 |
 | 2026-09-21 | https://x.com/jolestar/status/2103363660404142386 | 待查看 |
 | 2026-09-28 | https://x.com/dotey/status/2094624092015992854 | 待查看 |
@@ -167,7 +167,7 @@ date: "2026-05-29"
 | 2026-07-09 | https://x.com/i/status/2046790896482455890 | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2063275297341051086 | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2044634498432962806 | 待查看 |
-| 2026-07-09 | https://x.com/i/status/2062080784572534958 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2062080784572534958 | **Adrian Punk（@AdrianPunk115）**：想做高级咨询风视觉？麦肯锡风格提示词可直接复制 → 已归档 ([adrian-mckinsey-style-consulting-visual-prompts](/md/wiki/sources/adrian-mckinsey-style-consulting-visual-prompts)) |
 | 2026-07-09 | https://x.com/i/status/2022954721548661130 | 待查看 |
 | 2026-07-02 | https://x.com/SVScholar/status/2072474615893704805?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/Easycompany333/status/2071877302347079998?s=20 | 待查看 |
