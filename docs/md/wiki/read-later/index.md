@@ -13,20 +13,20 @@ date: "2026-05-29"
 |------|------|------|
 | 2026-09-14 | https://www.goodreads.com/en/book/show/43190966-refactoring-ui | **Refactoring UI** — 设计/前端重构经典 |
 | 2026-09-14 | https://x.com/jinli_lg/status/2099120598509310039 | **金力**（科大讯飞研发）：待查看 |
-| 2026-09-14 | https://x.com/RiverAi7z/status/2099124247667044548 | **待查看** |
-| 2026-09-14 | https://x.com/thomaszhou_/status/2099031634016424239 | **待查看** |
-| 2026-09-14 | https://x.com/xiaoniaoziming/status/2098410586547908668 | **待查看** |
+| 2026-09-14 | https://x.com/RiverAi7z/status/2099124247667044548 | **RiverAi7z（@RiverAi7z）**：Pi 的 Session Control——让不同终端里的 Coding Agent 直接互相发消息 → 已归档 ([riverai-pi-session-control-cross-agent-messaging](/md/wiki/sources/riverai-pi-session-control-cross-agent-messaging)) |
+| 2026-09-14 | https://x.com/thomaszhou_/status/2099031634016424239 | **Thomas Zhou（@thomaszhou_）**：心流已死 → 已归档 ([thomas-zhou-flow-is-dead](/md/wiki/sources/thomas-zhou-flow-is-dead)) |
+| 2026-09-14 | https://x.com/xiaoniaoziming/status/2098410586547908668 | **周小鸟开窍（@xiaoniaoziming）**：如何躺着赚钱——从 20 岁到现在的躺赚体系 → 已归档 ([xiaoniaoziming-lie-down-income-system-20-to-now](/md/wiki/sources/xiaoniaoziming-lie-down-income-system-20-to-now)) |
 | 2026-09-14 | https://x.com/jarvis11x/status/2099027597074083969 | **待查看** |
-| 2026-09-14 | https://x.com/xiaoerzhan/status/2099707280845332534 | **待查看** |
-| 2026-09-14 | https://x.com/Sukiea1008/status/2099448521237950868 | **待查看** |
-| 2026-09-14 | https://x.com/leoshen0/status/2099641267726758095 | **待查看** |
-| 2026-09-14 | https://x.com/yhslgg/status/2068317116831510838 | **待查看** |
-| 2026-09-14 | https://x.com/Jackywxsz/status/2099816894350110997 | **待查看** |
-| 2026-09-19 | https://x.com/aikangarooking/status/2101488328340390197 | **待查看** |
-| 2026-09-19 | https://x.com/kongge_space/status/2101184069509747014 | **待查看** |
-| 2026-09-19 | https://x.com/kongge_space/status/2101184069509747014 | **待查看** |
-| 2026-09-19 | https://x.com/HiTw93/status/2070520116547375446 | **待查看** |
-| 2026-09-20 | https://x.com/Jason_Young1231/status/2101235834787905671 | **待查看** |
+| 2026-09-14 | https://x.com/xiaoerzhan/status/2099707280845332534 | **小耳👂Jane｜Xiaoer（@xiaoerzhan）**：不出境不开香港公司，给自己的产品接上全球收款 → 已归档 ([xiaoer-global-payout-without-hk-company](/md/wiki/sources/xiaoer-global-payout-without-hk-company)) |
+| 2026-09-14 | https://x.com/Sukiea1008/status/2099448521237950868 | **Su（@Sukiea1008）**：【全文中译】Vibe Marketing 如何成为营销工程师 → 已归档 ([su-vibe-marketing-translation](/md/wiki/sources/su-vibe-marketing-translation)) |
+| 2026-09-14 | https://x.com/leoshen0/status/2099641267726758095 | **川处安（@leoshen0）**：一篇速通入门——重新理解 AI Agent 的一切 → 已归档 ([leoshen-ai-agent-quickstart-rethinking](/md/wiki/sources/leoshen-ai-agent-quickstart-rethinking)) |
+| 2026-09-14 | https://x.com/yhslgg/status/2068317116831510838 | **老杨啊｜AI产品商业化（@yhslgg）**：网警同款开盒思路——查人查公司查设备，五个免费开源工具 → 已归档 ([laoyang-5-free-osint-tools-for-people-and-companies](/md/wiki/sources/laoyang-5-free-osint-tools-for-people-and-companies)) |
+| 2026-09-14 | https://x.com/Jackywxsz/status/2099816894350110997 | **Jacky无限生长（@Jackywxsz）**：全流程｜如何用 Grok Bot 做自媒体？ → 已归档 ([jacky-infinite-growth-grok-bot-social-media-workflow](/md/wiki/sources/jacky-infinite-growth-grok-bot-social-media-workflow)) |
+| 2026-09-19 | https://x.com/aikangarooking/status/2101488328340390197 | **袋鼠帝（@aikangarooking）**：爆肝 30 天开源让 AI 课程卖家集体失业的网站 → 已归档 ([aikangarooking-open-source-ai-course-selling-website](/md/wiki/sources/aikangarooking-open-source-ai-course-selling-website)) |
+| 2026-09-19 | https://x.com/kongge_space/status/2101184069509747014 | **空格.space（@kongge_space）**：这个 Skill 把你的简历部署成个人网站 → 已归档 ([kongge-space-resume-as-personal-website-skill](/md/wiki/sources/kongge-space-resume-as-personal-website-skill)) |
+| 2026-09-19 | https://x.com/kongge_space/status/2101184069509747014 | **空格.space（@kongge_space）**：这个 Skill 把你的简历部署成个人网站 → 已归档 ([kongge-space-resume-as-personal-website-skill](/md/wiki/sources/kongge-space-resume-as-personal-website-skill)) |
+| 2026-09-19 | https://x.com/HiTw93/status/2070520116547375446 | **Tw93（@HiTw93）**：走在前面，还是被推着走 → 已归档 ([tw93-leading-vs-being-pushed-forward](/md/wiki/sources/tw93-leading-vs-being-pushed-forward)) |
+| 2026-09-20 | https://x.com/Jason_Young1231/status/2101235834787905671 | **Jason Young（@Jason_Young1231）**：Claude 是如何记住你的项目的？——Claude Code 项目级记忆功能 → 已归档 ([jason-young-claude-code-project-level-memory](/md/wiki/sources/jason-young-claude-code-project-level-memory)) |
 
 ---
 

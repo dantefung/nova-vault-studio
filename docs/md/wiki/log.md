@@ -4,6 +4,23 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 12 篇「稍后读」队列清库长文（Tw93 走在前面 / Grok Bot 自媒体全流程 / Claude Code 项目级记忆 / 简历部署个人站 / AI Agent 速通 / Vibe Marketing 中译 / 心流已死 / 全球收款 / 5 个开源 OSINT 工具 / 躺赚体系 / AI 课程网站 / Pi Session Control）
+
+- 抓取与归档：清空 `docs/md/wiki/read-later/index.md` 中 12 条 X/Twitter 待读链接，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 106 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/tw93-leading-vs-being-pushed-forward.md`（Tw93 @HiTw93，59 行，1 图）：走在前面，还是被推着走——在工具高速迭代背景下保有独立判断力与技术审美。
+  2. `sources/jacky-infinite-growth-grok-bot-social-media-workflow.md`（Jacky无限生长 @Jackywxsz，178 行，20 图）：全流程｜如何用 Grok Bot 做自媒体——从选题抓取到多平台改写、配图、定时发布与数据复盘的接管边界。
+  3. `sources/jason-young-claude-code-project-level-memory.md`（Jason Young @Jason_Young1231，281 行，4 图）：Claude 是如何记住你的项目的？——Claude Code 项目级记忆加载优先级、作用域与 Token 预算影响。
+  4. `sources/kongge-space-resume-as-personal-website-skill.md`（空格.space @kongge_space，148 行，13 图）：这个 Skill 把你的简历部署成个人网站——无需前端能力的个人主页轻量落地路径。
+  5. `sources/leoshen-ai-agent-quickstart-rethinking.md`（川处安 @leoshen0，480 行，5 图）：一篇速通入门——重新理解 AI Agent 的一切——模型、工具、上下文、记忆与自主性五维能力边界。
+  6. `sources/su-vibe-marketing-translation.md`（Su @Sukiea1008，788 行，9 图）：【全文中译】Vibe Marketing 如何成为营销工程师——从营销人员到懂 AI 工具链的营销工程师范式迁移。
+  7. `sources/thomas-zhou-flow-is-dead.md`（Thomas Zhou @thomaszhou_，144 行，7 图）：心流已死——产出速度不再稀缺后，稀缺的是判断力、问题定义与品味。
+  8. `sources/xiaoer-global-payout-without-hk-company.md`（小耳👂Jane｜Xiaoer @xiaoerzhan，118 行，4 图）：如何不出境、不开香港公司，给自己的产品接上全球收款——渠道门槛、费率与合规细节。
+  9. `sources/laoyang-5-free-osint-tools-for-people-and-companies.md`（老杨啊 @yhslgg，175 行，7 图）：网警同款开盒思路——查人查公司查设备，五个免费开源工具及合法边界。
+  10. `sources/xiaoniaoziming-lie-down-income-system-20-to-now.md`（周小鸟开窍 @xiaoniaoziming，299 行，25 图）：如何躺着赚钱——从 20 岁到现在的躺赚体系（相信、执行、选择、分润四字核心）。
+  11. `sources/aikangarooking-open-source-ai-course-selling-website.md`（袋鼠帝 @aikangarooking，115 行，11 图）：爆肝 30 天开源让 AI 课程卖家集体失业的网站——课程交付从录播转向可交互生成式应用。
+  12. `sources/riverai-pi-session-control-cross-agent-messaging.md`（RiverAi7z @RiverAi7z，47 行）：Pi 的 Session Control——用本机 Unix Socket 让不同终端的 Coding Agent 互相发消息与等待完成。
+
 ## [2026-11-04] ingest: 3 篇 TODO 历史队列长文（FDE 岗位辨别 / 清迈大学语言班申请 / GPT Live 免费口语外教）
 
 - 抓取与归档：清空 `TODO.md`「历史待办」区段的 3 条 X pending 链接，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 30 张，归档至 `sources/`，并回写 TODO 状态为 done

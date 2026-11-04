@@ -47,6 +47,7 @@ date: "2026-05-05"
 - [ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) — 1439 张 AI 人像姿势参考图库（中文版，开源）。支持「改成这个姿势」式指令调用，免费、商用与二次编辑均允许，解决 AI 生成人像时姿势单一、构图缺参考的问题；[在线浏览](https://ai-pose-gallery.anhao.app/)
 - [marketing-skill-hub](https://github.com/aronhy/marketing-skill-hub) — **出海海外营销 Agent Skills 技能库**（默认美国市场）。装进 Claude Code / Codex / Cursor 等智能体即可化身海外增长团队，覆盖 9 大核心技能模块：`growth-strategy`（90 天出海计划与竞品调研）、`paid-ads`（Meta/Google/TikTok 广告搭建与防封）、`ad-copy`（地道英语多角度文案）、`ugc-video`（3 秒钩子脚本与逐帧拆解）、`ads-optimization`（素材关停与 CPA 诊断）、`cold-outreach`（冷邮件与开发信序列）、`email-marketing`（弃单与召回邮件自动化）、`conversational-sales`（私域销售话术库）、`social-media`（社媒矩阵运营）；内置中英双语 80+ 核心术语表与新手 100 问，支持共享产品档案 `product-context.md` 免重复问询
 - [awesome-social-media-skills](https://github.com/UnderleveledBuilder/awesome-social-media-skills) — **自媒体运营 Agent Skill 精选大全**。精心收录并安全核验 180+ 个主流平台（小红书、抖音、公众号、视频号、B 站、X、YouTube、TikTok、LinkedIn）自媒体技能包与 25+ 个 MCP 工具，涵盖全流程闭环、文案去 AI 味（Humanizer）、排版封面与短视频剪辑（剪映草稿/Remotion/DaVinci）、自动发布、选题热点与爆款评分复盘；本身亦支持以 Skill 形式安装（`npx skills add UnderleveledBuilder/awesome-social-media-skills`）让 Agent 辅助智能选技能
+- [wechat-aip-architect](https://github.com/chenjin-cmd/wechat-aip-architect) — **66 Stars**，公众号 AIP 打造方法论，**工具无关**（适配任意 AI 工具）：5 大模块（定位 / 搭建 / 对标 / 写作 / 排版）+ 3 套内容模板 + 4 套 HTML 图文模板，中英双语，适合不依赖特定工具的公众号标准化生产流程
 
 ### 热点监控
 
@@ -119,6 +120,7 @@ date: "2026-05-05"
 
 - [planning-with-files](https://github.com/planning-with-files) — 自动维护 todo.md 和 plan.md 跟踪任务状态，防止无限循环
 - [ralph-wiggum](https://github.com/ralph-wiggum) — planning-with-files 的执行伙伴，负责执行具体计划任务
+- [book-to-skill](https://github.com/virgiliojr94/book-to-skill) — **36.9K Stars**，把任意技术书籍 PDF、EPUB、DOCX、Markdown、HTML、RTF、MOBI 或整个文档文件夹蒸馏为统一的 Agent Skill，遵循 Agent Skills 开放标准，可在 GitHub Copilot CLI、Amp、Claude Code、Codex、Hermes Agent、OpenCode、OpenClaw 中边工作边查引用
 - [document-skills](https://github.com/anthropic/document-skills) — 官方"四大技能"：Docx、Xlsx、Pptx 和 PDF 完整套件
 - [obsidian-skills](https://github.com/obsidianmd/obsidian-skills) — 自动化知识库管理、双向链接优化和 Canvas 功能
 - [Markitdown](https://github.com/dstearle/markitdown) — 将 PDF、PPT、图片、音频和 ZIP 转换为 Markdown
@@ -133,6 +135,8 @@ date: "2026-05-05"
 - [copywriting](https://github.com/copywriting-skill/copywriting) — 定义受众和卖点以避免通用 AI 文案并提高转化率
 - [claude-scientific-skills](https://github.com/claude-scientific/claude-scientific-skills) — 学术场景：论文写作、数据可视化和 LaTeX 公式处理
 - [Awesome-claude-skills](https://github.com/anthropic/awesome-claude-skills) — 26,000+ stars 中心仓库，收集 10+ 类别精选技能
+- [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) — **912 Stars**，姚金刚开源的 **GEO（生成式引擎优化）Skill 全套系统**，24 个 Skill 覆盖 7 大类：GEO 全景诊断与 30/60/90 天路线图、页面技术审计与友好页面蓝图、内容生产（标题/科普/对比/榜单评测/旧文 AI 友好化）、品牌知识图谱与事实卡、归因追踪与多模型答案监测（DeepSeek / 豆包 / ChatGPT AI Search 重复采样）、AI 搜索问题集与拓词。每个 Skill 均含 `SKILL.md` + `manifest.json` + 输入简报模板 + `evals/` 触发与产物校验，可 `git clone` 或 Sparse Checkout 单独取用
+- [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) — **25.9K Stars**，Every 官方出品的 **37 个工程提效 Skill 插件**，把工作结构化为「brainstorm → plan → build → review → 沉淀学到的知识」闭环，让每次变更的经验写在下一次变更能读到的地方。支持 Claude Code / Cursor / Codex App / Codex CLI / Grok Bot 等 **14 个 Agent 宿主**；`ce-explain` 解释代码行为与存在理由，`ce-pov` 给出多模型独立意见
 
 ### Claude Code 官方 Skills 插件
 
@@ -165,6 +169,7 @@ date: "2026-05-05"
 - [sweety-handdraw-video](https://github.com/VastFuture/sweety-handdraw-video) — 从主题或文章制作完整手绘讲解视频：Agent 规划内容、设计分镜、生成插画，本地工具逐笔描线填色、声画对齐与 MP4 导出。内置 AI 导演自动匹配分镜、6 款高精度画笔（马克笔/彩铅/毛笔/钢笔等）、VoxCPM 2 拟真配音。素材完全解耦，字幕/布局修改只需重渲染不重走全部流程。当前 Codex 环境实测通过，开源免费维护
 - [白嫖警告：这个图表 Skill 太猛了，正在悄悄拉高所有人的审美标准](./chart-skill-recommend.md) — 推荐一款图表 Skill，支持架构图/流程图/时序图等多种类型，适合独立开发者做产品界面
 - [Impeccable](https://github.com/pbakaus/impeccable) — **91K Stars**，开源设计 Skill，专治 AI 生成界面的「AI 味」。五个子命令各司其职：`layout` 调间距与排版、`typeset` 改字体与层级、`distill` 砍掉多余元素、`polish` 上线前最后打磨、`critique` 打分挑毛病。不懂设计也能让 AI 说清哪里要改
+- [awesome-design-systems](https://github.com/alexpate/awesome-design-systems) — **26.3K Stars**，精选设计系统合集，用四维度矩阵标注每个系统覆盖范围：**Components**（可编码组件与示例）、**Voice & Tone**（语言语气指南）、**Designers Kit**（Sketch/Photoshop/Figma 源文件）、**Source code**（公开源码）。收录 Adobe Spectrum、Aalto University、Alaska Airlines、Adjust Atlas 等系统的官方品牌与设计规范文档，做品牌与 UI 体系对标时可直接取用
 
 ---
 
@@ -177,6 +182,8 @@ date: "2026-05-05"
 - [小飞兔](https://www.xiaofeitu.com/) — 批量整站下载工具，收费订阅支持批量扒站，免费版可用但代码识别需手工修正
 - [Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk) — Google 开发的网站性能检测工具，分析性能/可访问性/最佳实践/SEO/PWA，提供详细优化建议
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach) — Agent 触达能力扩展
+- [One API](https://github.com/songquanpeng/one-api) — **37.3K Stars**，MIT 协议的开源 LLM API 管理与分发系统。**用标准 OpenAI API 格式访问所有大模型**，开箱即用：支持 OpenAI、Azure OpenAI、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问等多家渠道统一接入，提供渠道管理、负载均衡、令牌计费与用量统计、自定义渠道接入等能力，适合作为多模型统一网关与团队内部 API 分发层
+- [Recordly](https://github.com/webadderallorg/Recordly) — **36K Stars**，开源桌面录屏 + 演示视频编辑器，AGPL-3.0。**零剪辑技能出片**：自动缩放高亮操作区域、光标美化与平滑移动、动效强调、把成片放进带壁纸/配色/渐变/模糊/内边距/阴影的样式边框，支持 MP4 与 GIF 导出及可再编辑的工程文件。macOS 14+（原生 ScreenCaptureKit）、Windows 10+（原生 WGC + WASAPI 音频）、Linux（Electron 采集 API，Wayland 走系统选择器）三平台通吃
 - [技能商店 Skill Store](https://github.com/anbeime/skill) — AI 技能的 App Store，每 24 小时自动同步 awesome-agent-skills，收录最全更新最快的 AI Agent 技能库
 - [AgentKey](https://agentkey.app/@cirila) — 一句话命令安装到 Codex/龙虾/Claude Code，自动化采集小红书、抖音、快手、B站、微博、知乎、Youtube 等平台公开内容、评论、点赞、转发，降低调研搬运门槛
 - [career-assets-skill](https://github.com/Ivor-NCUT/career-assets-skill) — 职业资产 Agent Skill，通过读材料和深度访谈沉淀长期职业主档（`职业经历.md`），针对岗位派生可迭代简历，投递/面试反馈回流更新主档；核心差异：不是润色简历而是从真实经历和证据出发构建可复用的长期资产，包含"保真底稿"与"强化建议"双层机制确保真实性
@@ -482,6 +489,7 @@ date: "2026-05-05"
 ## 开源书籍
 
 - [ai-infra-book](https://github.com/bojieli/ai-infra-book) — **979 Stars**，《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计，含全书正文、PDF、配套计算工具与实验
+- [Osdev-Notes](https://github.com/dreamportdev/Osdev-Notes) — **1.2K Stars**，《从零编写操作系统》完整教程书籍：引导程序、内存管理、进程调度、文件系统等 OS 核心模块逐章拆解，Markdown 格式可直接阅读与二次编辑
 
 ---
 
@@ -489,6 +497,9 @@ date: "2026-05-05"
 
 - [Involution Hell](https://involutionhell.vercel.app/) — AI 学习资源导航
 - [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) — **高性价比人生指南**，6.9k stars，552 条可执行建议覆盖长寿/疾病预防/急救/财务/法律/失业工伤/保险/关系/育儿/合规/移民，每条标注成本、收益、证据等级与原始出处
+- [exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) — **23.5K Stars**，1,324 个健身动作数据集：每个动作含动画 GIF、180×180 缩略图、肌群归属、所需器械与多语言说明，可直接接入训练 App 或喂给 AI 生成训练计划
+- [TaskExplorer](https://github.com/DavidXanatos/TaskExplorer) — **3.8K Stars**，GPL-3.0 的 Windows 与 Linux 高级任务管理器（基于 Process Hacker 内核 + Qt 框架）：线程堆栈追踪（诊断死锁与性能瓶颈）、内存查看编辑、句柄表浏览、全部 socket 连接、Token 与环境变量查看、DLL 模块注入与卸载，Windows 版的 Linux 移植版正在路上
+- [sub-store-cloudflare](https://github.com/realchendahuang/sub-store-cloudflare) — **304 Stars**，AGPL-3.0，部署在 Cloudflare Workers 上的节点处理、订阅聚合与分流规则模板，多源合并 + 规则转换，适合自建轻量订阅管理服务
 
 ---
 

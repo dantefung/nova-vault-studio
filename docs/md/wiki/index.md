@@ -771,3 +771,15 @@ wiki/
 | [aphil-fde-role-real-ai-implementation-guide](/md/wiki/sources/aphil-fde-role-real-ai-implementation-guide) | 阿哲Phil（@Formulasearch）：FDE 是临时外包 or 真 AI 落地？——附小白快速入门与辨别方式 | X/Twitter |
 | [jason-zhu-chiang-mai-university-language-program-guide](/md/wiki/sources/jason-zhu-chiang-mai-university-language-program-guide) | Jason Zhu（@GoSailGlobal）：手把手教你申请清迈大学语言班——42000 泰铢，半年泡在清迈学英语 | X/Twitter |
 | [adrian-punk-gpt-live-free-speaking-tutor-guide](/md/wiki/sources/adrian-punk-gpt-live-free-speaking-tutor-guide) | Adrian Punk（@AdrianPunk115）：一年省下 2 万块口语课｜GPT Live 实测——英语外教可以下岗了 | X/Twitter |
+| [tw93-leading-vs-being-pushed-forward](/md/wiki/sources/tw93-leading-vs-being-pushed-forward) | Tw93（@HiTw93）：走在前面，还是被推着走 | X/Twitter |
+| [jacky-infinite-growth-grok-bot-social-media-workflow](/md/wiki/sources/jacky-infinite-growth-grok-bot-social-media-workflow) | Jacky无限生长（@Jackywxsz）：全流程｜如何用 Grok Bot 做自媒体？ | X/Twitter |
+| [jason-young-claude-code-project-level-memory](/md/wiki/sources/jason-young-claude-code-project-level-memory) | Jason Young（@Jason_Young1231）：Claude 是如何记住你的项目的？——浅析 Claude Code 项目级记忆功能 | X/Twitter |
+| [kongge-space-resume-as-personal-website-skill](/md/wiki/sources/kongge-space-resume-as-personal-website-skill) | 空格.space（@kongge_space）：这个 Skill 把你的简历部署成个人网站 | X/Twitter |
+| [leoshen-ai-agent-quickstart-rethinking](/md/wiki/sources/leoshen-ai-agent-quickstart-rethinking) | 川处安（@leoshen0）：一篇速通入门——重新理解 AI Agent 的一切 | X/Twitter |
+| [su-vibe-marketing-translation](/md/wiki/sources/su-vibe-marketing-translation) | Su（@Sukiea1008）：【全文中译】Vibe Marketing 如何成为营销工程师 | X/Twitter |
+| [thomas-zhou-flow-is-dead](/md/wiki/sources/thomas-zhou-flow-is-dead) | Thomas Zhou（@thomaszhou_）：心流已死 | X/Twitter |
+| [xiaoer-global-payout-without-hk-company](/md/wiki/sources/xiaoer-global-payout-without-hk-company) | 小耳👂Jane｜Xiaoer（@xiaoerzhan）：如何不出境、不开香港公司，给自己的产品接上全球收款 | X/Twitter |
+| [laoyang-5-free-osint-tools-for-people-and-companies](/md/wiki/sources/laoyang-5-free-osint-tools-for-people-and-companies) | 老杨啊｜AI产品商业化（@yhslgg）：网警同款开盒思路——查人查公司查设备，五个免费开源工具 | X/Twitter |
+| [xiaoniaoziming-lie-down-income-system-20-to-now](/md/wiki/sources/xiaoniaoziming-lie-down-income-system-20-to-now) | 周小鸟开窍（@xiaoniaoziming）：如何躺着赚钱——从 20 岁到现在的躺赚体系 | X/Twitter |
+| [aikangarooking-open-source-ai-course-selling-website](/md/wiki/sources/aikangarooking-open-source-ai-course-selling-website) | 袋鼠帝（@aikangarooking）：爆肝 30 天！我们开源了一个让 AI 课程卖家集体失业的网站 | X/Twitter |
+| [riverai-pi-session-control-cross-agent-messaging](/md/wiki/sources/riverai-pi-session-control-cross-agent-messaging) | RiverAi7z（@RiverAi7z）：Pi 的 Session Control——让不同终端里的 Coding Agent 直接互相发消息 | X/Twitter |
