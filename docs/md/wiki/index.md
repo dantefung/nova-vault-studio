@@ -765,3 +765,6 @@ wiki/
 | [leo-xiaolei-ai-character-consistency-skill](/md/wiki/sources/leo-xiaolei-ai-character-consistency-skill) | 刘老板（@leo_xiaolei）：必备技能｜伸手即用——AI 人物一致性控制与角色卡制作 Skill | X/Twitter |
 | [xiaohui-ai-game-published-20-days-earned-23000](/md/wiki/sources/xiaohui-ai-game-published-20-days-earned-23000) | 程序员小灰（@XiaohuiAI666）：AI 游戏发布 20 天，我赚了 23000 多元 | X/Twitter |
 | [stephan-pi-matt-implement-flow-open-source](/md/wiki/sources/stephan-pi-matt-implement-flow-open-source) | Stephan（@Stephan_Talk）：一条命令落地 Matt 工作流——开源 pi-matt-implement-flow 多 Ticket 工程化方案 | X/Twitter |
+| [kaitox-markdown-to-x-article](/md/wiki/sources/kaitox-markdown-to-x-article) | kaitox：本地 Markdown 转 X 长文——我开源了目前最顺手的方案（Kaitox 工具链） | 微信公众号 |
+| [libtv-agent-100-skills-article-to-video](/md/wiki/sources/libtv-agent-100-skills-article-to-video) | 空格丶：做了个 Skill，把任何文章都变成视频版 PPT（LibTV Agent 100+ Skill 实测） | 微信公众号 |
+| [khazix-6-prompt-mindset-techniques](/md/wiki/sources/khazix-6-prompt-mindset-techniques) | 数字生命卡兹克：分享 6 个平时我最常用的 Prompt 心法 | 微信公众号 |

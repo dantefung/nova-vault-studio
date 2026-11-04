@@ -4,6 +4,14 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 3 篇公众号长文（kaitox 本地 Markdown 转 X 长文工具链 / 空格 LibTV 100+ Skill 文章转视频 PPT / 卡兹克 6 个 Prompt 心法）
+
+- 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 跑通微信文章抓取与图片本地化，大图自动压缩至 500KB 以内、GIF 转真 PNG，归档至 `sources/`
+- 归档列表：
+  1. `sources/kaitox-markdown-to-x-article.md`（kaitox，172 行，7 图）：本地 Markdown 转 X 长文——我开源了目前最顺手的方案：对比官方 API、baoyu-post-to-x、x-article-publisher、XPoster 四条既有路线的痛点，详解「本地 relay + Chrome 插件直推」三段式架构、Skill/CLI/Obsidian 三入口安装、npm 包拆分复用与发布边界声明。
+  2. `sources/libtv-agent-100-skills-article-to-video.md`（空格丶，146 行，10 图）：做了个 Skill，把任何文章都变成视频版 PPT：实测 LibTV Agent 100+ 一线从业者沉淀 Skill（复古 FPV 广告、游戏实机 PV、古典武侠美学导演、无厘头喜剧、精品女频短剧一键成片），并自研 B-roll 素材生成 Skill 把文章拆为 9 个逻辑图分镜合成 55 秒动效视频，沉淀「白底黑线手绘逻辑图」个人视觉语言。
+  3. `sources/khazix-6-prompt-mindset-techniques.md`（数字生命卡兹克，190 行，11 图）：分享 6 个平时我最常用的 Prompt 心法：让 AI 选定角色后再回答、苏格拉底式 95% 置信追问、与 AI 辩论对抗谄媚效应、让 AI 提前预演失败、反向提示倒推提示词、以及「洗脚城大爷 + 专业人群」双层解释法，每条附可抄用模板与真实场景。
+
 ## [2026-11-04] ingest: 8 篇 TODO 队列清库长文（联盟营销 / awesome-seedance 463 视频 Skill / Codex 内容生产 / X 起号万字指南 / 推特起号焚诀 / AI 角色一致性 / AI 游戏 20 天赚 2.3 万 / pi-matt-implement-flow）
 
 - 抓取与归档：清空 `TODO.md` 中「待爬取 · X / Twitter」区段的 8 条 pending 链接，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 49 张，归档至 `sources/`，并回写 TODO 状态为 done

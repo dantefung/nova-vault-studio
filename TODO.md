@@ -128,7 +128,7 @@ url: ""
 | 2026-06-22 | 《像更新文章一样创建 AI 小应用并以最小成本快速验证》— zlbigger 文章中引用，待获取原文链接 | pending |
 | 2026-07-01 | https://x.com/i/status/2048230976447557787 | **Tw93：非技术人上手 AI Coding**（文章内链待抓取） | ✅ done   |
 | 2026-07-01 | https://x.com/i/status/2063523060406423864 | **知识猫图解：Codex 快速入门任意领域**（文章内链待抓取） | ✅ done   |
-| 2026-07-02 | https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ | 待补充 | pending |
+| 2026-07-02 | https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ | **6 个 Prompt 心法** | done ([sources/khazix-6-prompt-mindset-techniques](/md/wiki/sources/khazix-6-prompt-mindset-techniques)) |
 | 2026-07-14 | https://x.com/i/status/2076998958254288930 | 待查看 | ✅ done   |
 | 2026-07-14 | https://x.com/i/status/2076530524110369070 | 待查看 | ✅ done   |
 | 2026-07-14 | https://x.com/i/status/2076554886091805110 | 待查看 | ✅ done   |
@@ -140,7 +140,9 @@ url: ""
 | 2026-07-15 | https://mp.weixin.qq.com/s/AOwVFJe13Yk3MEDcIdSpow | 待采集 | pending |
 | 2026-07-15 | https://mp.weixin.qq.com/s/dwaMd_h26FlUdChqR6rp0g | 待采集 | pending |
 | 2026-07-15 | https://mp.weixin.qq.com/s/obKxDMPRwvi8G9hZSoZERA | 待采集 | pending |
-| 2026-07-15 | https://mp.weixin.qq.com/s/zo1T4Q1wBlYt_JORZeES0w | 待采集 | pending |
+| 2026-07-15 | https://mp.weixin.qq.com/s/zo1T4Q1wBlYt_JORZeES0w | **本地 Markdown 转 X 长文：Kaitox 工具链开源** | done ([sources/kaitox-markdown-to-x-article](/md/wiki/sources/kaitox-markdown-to-x-article)) |
+| 2026-07-15 | https://mp.weixin.qq.com/s/FY2J-mXMSoSOQ3_JFl2tMA | **把任何文章都变成视频版 PPT（LibTV 100+ Skill 实测）** | done ([sources/libtv-agent-100-skills-article-to-video](/md/wiki/sources/libtv-agent-100-skills-article-to-video)) |
+| 2026-07-15 | https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ | **6 个最常用的 Prompt 心法** | done ([sources/khazix-6-prompt-mindset-techniques](/md/wiki/sources/khazix-6-prompt-mindset-techniques)) |
 | 2026-07-15 | https://mp.weixin.qq.com/s/FY2J-mXMSoSOQ3_JFl2tMA | 待采集 | pending |
 | 2026-08-03 | https://x.com/i/status/2083773600776262120 | **阿哲Phil：FDE 是临时外包 or 真AI落地？附小白快速入门与辨别方式**（关联 FDE 书） | pending |
 | 2026-08-03 | https://x.com/i/status/2083806603527024702 | **Jason Zhu：手把手教你申请清迈大学语言班**（42000泰铢，半年清迈学英语） | pending |
