@@ -4,6 +4,18 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 「从零构建 Agent」系列第 8、12 篇补采（代码块完整度修复）
+
+- 来源：`https://mp.weixin.qq.com/s/NXBuk7227ST9C4Id5qlL2Q`（第 8 篇 Commands）、`https://mp.weixin.qq.com/s/d7MNYbugkvp-PLsJ0exW9w`（第 12 篇长期 Memory）
+- 问题：这两篇为更早会话所归档，当时微信代码块提取器按 `<br>` 拆分导致行结构塌陷，**代码块大量丢失**——第 8 篇仅存 1 个（原文实有 13 个）、第 12 篇仅存 3 个（原文实有 7 个），且第 12 篇原页残留「支持我的新书」推广话术
+- 修复：改用「`<pre>` 内每个 `<code>` 元素 = 一行」的解析路径重抓全文，重写为与系列其余各篇一致的高保真归档
+  - `sources/zeroagent-slash-commands.md` — 13 个代码块全部还原：CommandDefinition 类型、frontmatter 解析器、全局/项目两级加载、`/reload` 热重载、创建命令示例、完整运行实录、未知命令报错
+  - `sources/zeroagent-12-longterm-memory-management.md` — 7 个代码块全部还原：MemoryProvider 接口、HindsightMemoryProvider 实现、registerMemoryExtension、Entity/Memory Unit 对照等
+- 顺带补齐：第 8 篇 frontmatter 增加 `author` 字段并对齐 `source`，新增 `## 相关链接` 交叉引用（指向系列其余 10 篇 + 3 个知识页）；第 12 篇移除推广话术、补齐 `## 相关链接`
+- 全系列复核（11 篇，116 个代码块）：第 2 篇原以行内代码内联的 6 个 `npm start -- xxx` 命令块恢复为独立代码块，与其余各篇格式统一；第 3 篇 ReAct 提示词块的原文冗余转义已规范化并加 ⚠️ 标注、末尾残留分隔符按原文保留
+- 验证：11 篇源码块与原文素材逐字比对 **116/116 全等**（仅 1 处冗余 markdown 转义规范化）；5 个 pre-commit 钩子全部退出码 0；图片引用与内部链接全部命中；`npm run build` 通过（232s）
+- 说明：系列第 4 篇仍未提供
+
 ## [2026-11-04] ingest: 「从零构建 Agent」系列补全 9 篇（从码农到工匠 / ZeroAgent）
 
 - 来源：公众号「从码农到工匠」，系列第 1、2、3、5、6、7、9、10、11 篇（`https://mp.weixin.qq.com/s/XJnTETwD9RHeT6SUHUPyqQ` 等 9 个链接）

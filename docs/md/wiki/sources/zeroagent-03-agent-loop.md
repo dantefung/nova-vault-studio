@@ -73,8 +73,10 @@ url: "https://mp.weixin.qq.com/s/9YvqRcC-miUnx7DL8cBW5w"
 
 # 可用工具
 
-{workingDirectory}
+{workingDirectory}`;
 ```
+
+> ⚠️ 这段提示词模板在**原文公众号里带冗余的 markdown 转义**（如 ``\<question\>``，反斜杠是作者写在代码块内的多余转义）与**末尾的残留分隔符**（`{workingDirectory}` 后多出的 `` `; ``，是代码围栏闭合符泄漏进正文）。归档已去掉转义反斜杠，末尾 2 个字符按原文保留。
 
 但随着模型能力的增强，**模型正在吃掉 harness**——很多内容模型早已经预训练好了，有些 harness 的工作便可以省略掉了。再叠加 Responses API 对 ReAct 的结构化支持，模型已经不再需要这样的陈词滥调，**可以将提示词精简为一句话，且不会影响模型的输出效果**。
 

@@ -176,7 +176,11 @@ Responses API 一大特色就是支持由服务端保存状态。请求中设置
 - 服务商可能不支持有状态存储。实际测试中，**DeepSeek 不支持该方式，而 GLM-5.3 支持**。
 - 服务端保存上下文可以减少客户端拼接历史的工作，但会产生服务端状态、保留时间、隐私和成本方面的约束。
 
-对应代码是 `chapter1/src/store-demo.ts`，运行 `npm start -- store`。
+对应代码是 `chapter1/src/store-demo.ts`，运行：
+
+```bash
+npm start -- store
+```
 
 ### 2. 客户端维护上下文
 
@@ -218,7 +222,11 @@ history.push({ role: "user", content: "它们分别叫什么名字？" });
 
 客户端维护的优点是行为明确、可迁移、容易实现本地持久化，也不依赖服务端的会话存储。缺点是历史越长，请求中的 input token 越多；客户端还需要自行处理历史裁剪、摘要、持久化和敏感信息保护。
 
-对应代码是 `src/store-client-demo.ts`，运行 `npm start -- store-client`。
+对应代码是 `src/store-client-demo.ts`，运行：
+
+```bash
+npm start -- store-client
+```
 
 > `store` 和客户端历史并不是只能二选一。实际项目可以使用 `store: false` 并由客户端管理主历史，也可以在需要服务端连续响应时使用 `previous_response_id`。关键区别是**上下文的所有权**：前者由客户端负责，后者由服务端负责。
 
@@ -250,7 +258,11 @@ for await (const event of stream) {
 
 流式输出的关键点是：**不要把所有事件都当成最终答案**。reasoning、output text、工具调用和完成状态属于不同事件类型，应该分别处理。`chapter1/src/stream-demo.ts` 演示了如何区分 reasoning、output 和 usage。
 
-对应代码是 `src/stream-demo.ts`，运行 `npm start -- stream`。
+对应代码是 `src/stream-demo.ts`，运行：
+
+```bash
+npm start -- stream
+```
 
 ### 4. AbortController
 
@@ -276,7 +288,11 @@ for await (const event of stream) {
 
 取消通常发生在三种场景：用户按下取消按钮、CLI 收到 Ctrl+C，或者应用达到超时时间。调用 `abort()` 后，正在进行的请求会抛出异常；应用应通过 `controller.signal.aborted` 区分「主动取消」和网络错误、API 错误。
 
-对应代码是 `src/abort-controller-demo.ts`，运行 `npm start -- abort`。
+对应代码是 `src/abort-controller-demo.ts`，运行：
+
+```bash
+npm start -- abort
+```
 
 ### 5. Structured Outputs
 
@@ -322,7 +338,11 @@ Structured Outputs 用 JSON Schema 约束模型输出，使模型返回可以直
 
 客户端仍然应该对结果进行 `JSON.parse` 和业务校验。Schema 约束输出格式，但不能替代业务层校验，也不能保证模型提供的信息本身真实正确。`strict: true` 会要求输出遵守 schema；模型或 MaaS 服务不支持该参数时，请求可能返回错误。
 
-对应代码是 `src/structured-output-demo.ts`，运行 `npm start -- structured`。
+对应代码是 `src/structured-output-demo.ts`，运行：
+
+```bash
+npm start -- structured
+```
 
 ### 6. 并行 Function Calling
 
@@ -389,7 +409,11 @@ const toolOutputs = toolCalls.map((call) => ({
 
 `parallel_tool_calls: true` 表示模型可以在同一轮返回多个工具调用。客户端可以并发执行它们，再按照 `call_id` 把每个结果准确对应回去。**工具结果不是模型生成的，而是客户端执行工具后生成的观察结果。**
 
-对应代码是 `src/function-calling-demo.ts`，运行 `npm start -- calling`。
+对应代码是 `src/function-calling-demo.ts`，运行：
+
+```bash
+npm start -- calling
+```
 
 ---
 
