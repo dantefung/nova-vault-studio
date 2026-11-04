@@ -45,6 +45,8 @@ date: "2026-05-05"
 - [open-topic-radar](https://github.com/aaronyi97/open-topic-radar) — 自媒体选题雷达开源项目（大雷出品）。先去海外信息源（X/Product Hunt/GitHub/Reddit）扫描升温事件，再回中文市场（小红书/B站/抖音）检验覆盖程度，识别「国外已热、国内未做烂」的生态位选题
 - [video-talkcraft](https://github.com/Vincentwei1021/video-talkcraft) — 开源 AI 解说视频生成项目。把**口播稿 + 配音**直接生成动态解说视频，适合产品测评、知识讲解、AI 工具介绍、企业宣传与课程视频；与 video-shotcraft 组合可搭出自动生成产品宣传片的 AI 视频 Agent
 - [ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) — 1439 张 AI 人像姿势参考图库（中文版，开源）。支持「改成这个姿势」式指令调用，免费、商用与二次编辑均允许，解决 AI 生成人像时姿势单一、构图缺参考的问题；[在线浏览](https://ai-pose-gallery.anhao.app/)
+- [marketing-skill-hub](https://github.com/aronhy/marketing-skill-hub) — **出海海外营销 Agent Skills 技能库**（默认美国市场）。装进 Claude Code / Codex / Cursor 等智能体即可化身海外增长团队，覆盖 9 大核心技能模块：`growth-strategy`（90 天出海计划与竞品调研）、`paid-ads`（Meta/Google/TikTok 广告搭建与防封）、`ad-copy`（地道英语多角度文案）、`ugc-video`（3 秒钩子脚本与逐帧拆解）、`ads-optimization`（素材关停与 CPA 诊断）、`cold-outreach`（冷邮件与开发信序列）、`email-marketing`（弃单与召回邮件自动化）、`conversational-sales`（私域销售话术库）、`social-media`（社媒矩阵运营）；内置中英双语 80+ 核心术语表与新手 100 问，支持共享产品档案 `product-context.md` 免重复问询
+- [awesome-social-media-skills](https://github.com/UnderleveledBuilder/awesome-social-media-skills) — **自媒体运营 Agent Skill 精选大全**。精心收录并安全核验 180+ 个主流平台（小红书、抖音、公众号、视频号、B 站、X、YouTube、TikTok、LinkedIn）自媒体技能包与 25+ 个 MCP 工具，涵盖全流程闭环、文案去 AI 味（Humanizer）、排版封面与短视频剪辑（剪映草稿/Remotion/DaVinci）、自动发布、选题热点与爆款评分复盘；本身亦支持以 Skill 形式安装（`npx skills add UnderleveledBuilder/awesome-social-media-skills`）让 Agent 辅助智能选技能
 
 ### 热点监控
 

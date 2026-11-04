@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 5 篇出海做站/AI视频号/SuperAgent实践/Onboarding与对抗式CR实战（虹安 18 天 10 站热梗出单 / clanhj 视频号中老年赛道 / 空谷 LobeHub 工单唤醒实践 / 孟奇 Onboarding 6 大反模式 / gKev1n 对抗式 Review 死穴）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 21 张（包含出海订单明细、LobeHub Task 工单系统、NASA 职责匹配、视频号中老年互动后台等），归档至 `sources/`
+- 归档列表：
+  1. `sources/yaohongan-18-days-10-sites-meme-traffic-playbook.md`（虹安 @yaohongan2025，249 行，6 图）：18 天做了 10 个出海站——认真做的没人买，随手糊的出了 91% 的单：深度复盘 10 个站点 14 笔美金付款，精心挑选的换装站受冷落，跟跑 TikTok 热梗的按次付费站（hit the road dude / dime dime baby）成为主力；详解 72 小时时间窗口、西语等小语种自然搜索红利与三轨规划。
+  2. `sources/clanhj-channels-elderly-blessing-ai-video-pitfalls.md`（clanhj @clanhj611，63 行，6 图）：微信视频号中老年 AI 赛道踩坑复盘——祝福短视频流水线与防真人验证技巧：基于 Codex 搭建脚本、首帧、人物图至即梦/Seedance 生成流水线；分享画网线绕过人脸侵权审核技巧及次日触发真人验证后的冷处理策略。
+  3. `sources/arvin-lobehub-superagent-product-and-engineering-practices.md`（空谷 Arvin Xu @arvin17x，158 行，9 图）：LobeHub 中 SuperAgent 的产品技术实践：深度呼应 DeepSeek SuperAgent，详解以独立的 Task（工单）跨越 Session 隔离；Proactive 主动唤醒架构（直接呼叫、关键词与职责匹配三层设计）与「职责范围 vs 插话有价值」的权衡；两阶段「沉默是金」防噪设计；以及基于 Tracing、用户表情反馈与夜间总结回测驱动自进化。
+  4. `sources/daqi-worst-6-onboarding-antipatterns.md`（Mengqi Pei @daqi029，36 行）：我见过最糟糕的 Onboarding 新手引导 6 种反模式：用户还没尝到甜头，你先让他干活（一进门强迫注册、填长问卷、先绑卡开试用、连续弹多屏功能介绍 Next、冷启动空白页、繁琐配置）；指出 Onboarding 的核心是迅速让用户看到 Aha 时刻。
+  5. `sources/gkevin-adversarial-subagent-code-review-pitfalls-and-formal-verification.md`（gKev1n @GKev1n，42 行）：别再沉迷让 Sub-agent 互相 Review 代码了——对抗式审查的三大死穴与实测形式化验证转向：结合 xAI 工程师 lauren（@poteto）缩减 pstack interrogate 技能的判断，直指静态 AI 互审的没苦硬吃钻牛角尖、过度设计违背 YAGNI、高昂推理 Token 盲猜逻辑三大缺陷，倡导将算力转向实测验证与形式化证明。
+
 ## [2026-11-04] ingest: 5 篇架构/AI Agent/金融基础设施/硬件DMA与系统管理深度长文（卡兹克 1 年 Agent 实践复盘 / 支付通道系统 / DMA Engine 全景 / 孤独大脑 LifeOS / Java Agent 与 Arthas）
 
 - 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去营销打折导流话术，GIF 规范转换为 PNG，本地化配图共计 59 张，归档至 `sources/`

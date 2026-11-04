@@ -752,3 +752,8 @@ wiki/
 | [dma-engine-from-descriptor-to-completion](/md/wiki/sources/dma-engine-from-descriptor-to-completion) | GrissomFI：DMA engine——从描述符到完成，一次数据搬运发生了什么 | 微信公众号 |
 | [gudunaonao-lifeos-personal-agent-architecture](/md/wiki/sources/gudunaonao-lifeos-personal-agent-architecture) | 孤独大脑：个人 LifeOS 智能体底座搭建法——4 个文件夹与 3 张控制卡 | 孤独大脑 |
 | [java-agent-instrumentation-guide](/md/wiki/sources/java-agent-instrumentation-guide) | 终码一生：手把手教你实现一个 Java Agent——从 Instrumentation、Attach 到 Arthas Trace 底层原理 | 微信公众号 |
+| [yaohongan-18-days-10-sites-meme-traffic-playbook](/md/wiki/sources/yaohongan-18-days-10-sites-meme-traffic-playbook) | 虹安（@yaohongan2025）：18 天做了 10 个出海站——认真做的没人买，随手糊的出了 91% 的单（新词抢跑与热梗建站实操） | X/Twitter |
+| [clanhj-channels-elderly-blessing-ai-video-pitfalls](/md/wiki/sources/clanhj-channels-elderly-blessing-ai-video-pitfalls) | clanhj（@clanhj611）：微信视频号中老年 AI 赛道踩坑复盘——祝福短视频流水线与防真人验证技巧 | X/Twitter |
+| [arvin-lobehub-superagent-product-and-engineering-practices](/md/wiki/sources/arvin-lobehub-superagent-product-and-engineering-practices) | 空谷 Arvin Xu（@arvin17x）：LobeHub 中 SuperAgent 的产品技术实践——以工单串联会话、策略化主动唤醒与沉默是金 | X/Twitter |
+| [daqi-worst-6-onboarding-antipatterns](/md/wiki/sources/daqi-worst-6-onboarding-antipatterns) | Mengqi Pei（@daqi029）：我见过最糟糕的 Onboarding 新手引导 6 种反模式——用户还没尝到甜头，你先让他干活 | X/Twitter |
+| [gkevin-adversarial-subagent-code-review-pitfalls-and-formal-verification](/md/wiki/sources/gkevin-adversarial-subagent-code-review-pitfalls-and-formal-verification) | gKev1n（@GKev1n）：别再沉迷让 Sub-agent 互相 Review 代码了——对抗式审查的三大死穴与实测形式化验证转向 | X/Twitter |
