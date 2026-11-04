@@ -4,6 +4,24 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第五批（流量上升词流水线 / 开源 GSC 看板 / ChatGPT Intelligent UI / Qwen-Image 本地部署 / 理解 AI 输出 / 语音一键双平台内容 / 公众号日更 10 个 Skill / 美卡转运回国 / 出海 SEO 教程 / 大马税号申请 / CF 域名邮箱 / 美国云居民扫盲）
+
+- 抓取与归档：持续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 93 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline.md`（Aron厚玉 @aronhouyu，354 行，11 图）：用 AI 搭建流量上升词自动发现与批量选题流水线。
+  2. `sources/chainepic-self-hosted-search-console-dashboard-opensource.md`（Roland @ChainEpic，111 行，2 图）：开源多搜索引擎控制台仪表盘——Google、Bing 与 Yandex 数据聚合。
+  3. `sources/eian-chatgpt-intelligent-ui-10-cases-and-prompts.md`（Eian @EianLu，279 行，12 图）：ChatGPT 这个更新被严重低估了——10 个最具代表性的 Intelligent UI 玩法（附提示词）。
+  4. `sources/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy.md`（启明破晓 @hiwise_aigc，247 行，11 图）：8G 显存也能跑——Qwen-Image-2.1-Turbo 本地部署 8 步出图（附 ComfyUI 工作流）。
+  5. `sources/fox-how-ai-helps-us-understand-ai-output.md`（Fox @indie_maker_fox，244 行，2 图）：如何让 AI 帮助我们理解 AI 的输出。
+  6. `sources/kimberly-ai-one-click-content-generator-for-xhs-and-wechat.md`（Kimberly @king1818888，527 行，6 图）：有嘴就行！小白零门槛，AI 一键生成小红书和公众号内容。
+  7. `sources/kongge-space-10-skills-daily-explosive-wechat-article-system.md`（空格.space @kongge_space，212 行，5 图）：10 个 Skill 搭建日更爆文的公众号写作系统。
+  8. `sources/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship.md`（李天才 @Lniosytest，123 行，4 图）：美卡转运回国教程——Anytime Mailbox 虚拟美国地址 + PirateShip 海盗船打单，C1 信用卡 UPS 7 天到国内。
+  9. `sources/miles-mazy-outsea-usd-seo-comprehensive-tutorial.md`（Miles Ma @miles_mazy，308 行，8 图）：出海赚美金系列｜SEO 保姆级教程。
+  10. `sources/pinminlw-malaysia-personal-tax-number-tin-online-guide.md`（pinminlw @pinminlw，439 行，7 图）：🇲🇾 马来西亚个人税号（TIN）免费申请攻略——手把手教你线上办理。
+  11. `sources/pluviobyte-cloudflare-domain-email-5usd-monthly-guide.md`（雪踏乌云 @Pluvio9yte，291 行，20 图）：Cloudflare 域名邮箱，每月只需 5 美金——保姆级配置教程。
+  12. `sources/wlzh-us-cloud-resident-ssn-ein-address-phone-guide.md`（M. @wlzh，159 行，5 图）：人在国内，却有美国税号、美国地址和美国手机号——美国云居民扫盲。
+
+
 ## [2026-11-04] ingest: 「从零构建 Agent」系列补齐第 4 篇（Function Calling），全系列 12/12 完结
 
 - 来源：公众号「从码农到工匠」《从零构建Agent(四)：Function Calling》（2026-10-12），原链 `https://mp.weixin.qq.com/s/mYuzKR48DsMKJpJ2MMyTg` 采集时返回「参数错误」，正文取自作者经**墨衍智能分发**同步至 CSDN 的同源镜像 `https://blog.csdn.net/significantfrank/article/details/167695776`（作者原创，含全部 12 个代码块与 2 张原图）

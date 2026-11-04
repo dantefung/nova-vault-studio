@@ -835,3 +835,15 @@ wiki/
 | [yaojingang-17-knowledge-monetization-prompt-templates](/md/wiki/sources/yaojingang-17-knowledge-monetization-prompt-templates) | 姚金刚（@yaojingang）：开源 17 套知识付费提示词——课程定位、设计、售卖与运营全流程 | X/Twitter |
 | [yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop](/md/wiki/sources/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop) | 老杨啊（@yhslgg）：剪映/百度网盘 SVIP 年卡会员短视频&直播带货 0~1 保姆级教程 | X/Twitter |
 | [yooee-xiaohongshu-zero-followers-monetization-blueprint](/md/wiki/sources/yooee-xiaohongshu-zero-followers-monetization-blueprint) | Yooee（@Yooeec3）：妈妈教程｜像亲妈一样手把手教你 0 粉新号在小红书完成「流量→收钱」闭环 | X/Twitter |
+| [aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline](/md/wiki/sources/aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline) | Aron厚玉（@aronhouyu）：用 AI 搭建流量上升词自动发现与批量选题流水线 | X/Twitter |
+| [chainepic-self-hosted-search-console-dashboard-opensource](/md/wiki/sources/chainepic-self-hosted-search-console-dashboard-opensource) | Roland（@ChainEpic）：开源多搜索引擎控制台仪表盘——Google、Bing 与 Yandex 数据聚合 | X/Twitter |
+| [eian-chatgpt-intelligent-ui-10-cases-and-prompts](/md/wiki/sources/eian-chatgpt-intelligent-ui-10-cases-and-prompts) | Eian（@EianLu）：ChatGPT 这个更新被严重低估了——10 个最具代表性的 Intelligent UI 玩法（附提示词） | X/Twitter |
+| [hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy](/md/wiki/sources/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy) | 启明破晓（@hiwise_aigc）：8G 显存也能跑——Qwen-Image-2.1-Turbo 本地部署 8 步出图（附 ComfyUI 工作流） | X/Twitter |
+| [fox-how-ai-helps-us-understand-ai-output](/md/wiki/sources/fox-how-ai-helps-us-understand-ai-output) | Fox（@indie_maker_fox）：如何让 AI 帮助我们理解 AI 的输出 | X/Twitter |
+| [kimberly-ai-one-click-content-generator-for-xhs-and-wechat](/md/wiki/sources/kimberly-ai-one-click-content-generator-for-xhs-and-wechat) | Kimberly（@king1818888）：有嘴就行！小白零门槛，AI 一键生成小红书和公众号内容 | X/Twitter |
+| [kongge-space-10-skills-daily-explosive-wechat-article-system](/md/wiki/sources/kongge-space-10-skills-daily-explosive-wechat-article-system) | 空格.space（@kongge_space）：10 个 Skill 搭建日更爆文的公众号写作系统 | X/Twitter |
+| [tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship](/md/wiki/sources/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship) | 李天才（@Lniosytest）：美卡转运回国教程——Anytime Mailbox 虚拟美国地址 + PirateShip 海盗船打单，C1 信用卡 UPS 7 天到国内 | X/Twitter |
+| [miles-mazy-outsea-usd-seo-comprehensive-tutorial](/md/wiki/sources/miles-mazy-outsea-usd-seo-comprehensive-tutorial) | Miles Ma（@miles_mazy）：出海赚美金系列｜SEO 保姆级教程 | X/Twitter |
+| [pinminlw-malaysia-personal-tax-number-tin-online-guide](/md/wiki/sources/pinminlw-malaysia-personal-tax-number-tin-online-guide) | pinminlw（@pinminlw）：🇲🇾 马来西亚个人税号（TIN）免费申请攻略——手把手教你线上办理 | X/Twitter |
+| [pluviobyte-cloudflare-domain-email-5usd-monthly-guide](/md/wiki/sources/pluviobyte-cloudflare-domain-email-5usd-monthly-guide) | 雪踏乌云（@Pluvio9yte）：Cloudflare 域名邮箱，每月只需 5 美金——保姆级配置教程 | X/Twitter |
+| [wlzh-us-cloud-resident-ssn-ein-address-phone-guide](/md/wiki/sources/wlzh-us-cloud-resident-ssn-ein-address-phone-guide) | M.（@wlzh）：人在国内，却有美国税号、美国地址和美国手机号——美国云居民扫盲 | X/Twitter |
