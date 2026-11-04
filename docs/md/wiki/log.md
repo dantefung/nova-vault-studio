@@ -4,6 +4,19 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 小张《JetBrains 终于出手了！开源 AI IDE ThinkRail——以后写代码，可能真不需要人盯着了》
+
+- 抓取与归档：微信公众号长文 `https://mp.weixin.qq.com/s/lFXWUQoc0-PE74umtTk1Mg`，本地化 2 张官方界面截图，归档至 `sources/xiaozhang-jetbrains-thinkrail-ai-ide.md`
+- 核心内容：
+  1. **问题定位**：AI 写代码越来越快，程序员管理 AI 产出的代码却越来越累——从「写代码」异化为「AI 代码监工」。
+  2. **范式切换**：ThinkRail 不再是「给 IDE 塞聊天框」，而是把 Agent 放在工作流中心，IDE 变成管理、观察与审查 Agent 的工作台；类比从自己开车到管理自动驾驶系统。
+  3. **多 Agent 并行**：Git Worktree 隔离工作空间——每个任务独立分支、文件目录、终端与会话；完成后经 Diff、Commit、PR 审查合并，并可查看 GitHub CI 状态把失败检查交回 Agent。
+  4. **Living Specs 活规范**：`SPEC.md` 记录模块职责、架构约束与设计决策，组织成关联规范图谱，Agent 通过 `spec_*` 工具检索与维护；模块边界、接口契约、架构决策变更时规范同步更新。呼应 SDD（规格驱动开发）——把设计意图变成可长期维护的工程资产。
+  5. **克制的三层架构**：不重造 Agent 引擎，直接采用开源 Pi Coding Agent；自身只负责 Engine Host（Bun）/ Contracts（版本化通信协议）/ UI Client（React 19）；支持 MCP、Agent Skills 与兼容 OpenAI API 的自建模型服务。Agent Runtime 与开发工具界面不应强耦合。
+  6. **AI Coding 下半场**：开发工具围绕需求表达、任务编排、并行执行、质量验证、持续演进五要素展开——Agent 负责执行、规范负责约束、Git 负责隔离、测试负责验证、人负责决策。
+  7. **边界认知**：暂不能替代成熟企业研发体系，测试覆盖、权限控制、跨模块依赖与团队治理仍需额外建设。
+
+
 ## [2026-11-04] ingest: 何明璐（人月聊IT）《从本体论到本体建模-如何构建可生成可推理的业务语义规范》
 
 - 抓取与归档：微信公众号长文 `https://mp.weixin.qq.com/s/tu8Of38GHEswlIrqsJjMoA`，本地化 18 张高清咨询风格 PPT 幻灯片图，归档至 `sources/heminglu-from-ontology-to-ontology-modeling-business-semantics.md`
