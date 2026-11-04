@@ -62,22 +62,22 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/xingjia520/status/2105671052739362840 | **星佳（@xingjia520）**：存款不到 100 万的年轻人生存清单 → 已归档 ([xingjia-young-adults-net-worth-under-1m-survival-checklist](/md/wiki/sources/xingjia-young-adults-net-worth-under-1m-survival-checklist)) |
 | 2026-09-29 | https://x.com/weichen_ink/status/2105889953511285092 | **微尘印记（@weichen_ink）**：为什么建议自媒体和独立开发者办个体工商户 → 已归档 ([weichen-why-creators-should-register-sole-proprietorship](/md/wiki/sources/weichen-why-creators-should-register-sole-proprietorship)) |
 | 2026-09-29 | https://x.com/wquguru/status/2106041666922783181 | **WquGuru（@wquguru）**：普通人的 Claude 订阅方案完整版 → 已归档 ([wquguru-claude-subscription-complete-guide-from-scratch](/md/wiki/sources/wquguru-claude-subscription-complete-guide-from-scratch)) |
-| 2026-09-29 | https://x.com/jinchenma_ai/status/2106147337827738006 | 待查看 |
-| 2026-09-29 | https://x.com/alswl/status/2107157509089935464 | 待查看 |
-| 2026-09-29 | https://x.com/yanliudreamer/status/2107347120110109062 | 待查看 |
-| 2026-09-29 | https://x.com/elliothux/status/2100935462680752511 | 待查看 |
-| 2026-09-29 | https://x.com/minaoneday/status/2104061377442676927 | 待查看 |
-| 2026-09-29 | https://x.com/xaiwind/status/2108205644033806837 | 待查看 |
-| 2026-09-29 | https://x.com/Yooeec3/status/2107796524587757621 | 待查看 |
+| 2026-09-29 | https://x.com/jinchenma_ai/status/2106147337827738006 | **金尘马（@jinchenma_ai）**：常用 AI 工具与选择逻辑 → 已归档 ([jinchenma-ai-tools-landscape-and-selection-guide](/md/wiki/sources/jinchenma-ai-tools-landscape-and-selection-guide)) |
+| 2026-09-29 | https://x.com/alswl/status/2107157509089935464 | **Jingchao（@alswl）**：AI Native 时代的工作方式：从信息到交付 → 已归档 ([alswl-ai-native-workstyle-from-info-to-delivery](/md/wiki/sources/alswl-ai-native-workstyle-from-info-to-delivery)) |
+| 2026-09-29 | https://x.com/yanliudreamer/status/2107347120110109062 | **Dreameryanyan（@yanliudreamer）**：如果只有 1 万美元，我会怎么开始投资美股？ → 已归档 ([yanliudreamer-10k-usd-us-stocks-investment-blueprint](/md/wiki/sources/yanliudreamer-10k-usd-us-stocks-investment-blueprint)) |
+| 2026-09-29 | https://x.com/elliothux/status/2100935462680752511 | **Elliot（@elliothux）**：我把 Cloudflare 开源了 → 已归档 ([elliothux-open-source-cloudflare-workers-architecture](/md/wiki/sources/elliothux-open-source-cloudflare-workers-architecture)) |
+| 2026-09-29 | https://x.com/minaoneday/status/2104061377442676927 | **Mina（@minaoneday）**：丝袜材质提示词 Skill → 已归档 ([minaoneday-stockings-texture-prompt-engineering-skill](/md/wiki/sources/minaoneday-stockings-texture-prompt-engineering-skill)) |
+| 2026-09-29 | https://x.com/xaiwind/status/2108205644033806837 | **想风（@xaiwind）**：Codex 自媒体运营 Skill 大全（20 个） → 已归档 ([xaiwind-codex-20-social-media-skills-one-man-team](/md/wiki/sources/xaiwind-codex-20-social-media-skills-one-man-team)) |
+| 2026-09-29 | https://x.com/Yooeec3/status/2107796524587757621 | **Yooee（@Yooeec3）**：像亲妈一样手把手教你 0 粉新号在小红书完成「流量→收钱」闭环 → 已归档 ([yooee-xiaohongshu-zero-followers-monetization-blueprint](/md/wiki/sources/yooee-xiaohongshu-zero-followers-monetization-blueprint)) |
 | 2026-09-29 | https://x.com/miles_mazy/status/2108125197266198942 | 待查看 |
-| 2026-09-29 | https://x.com/KinGao476942/status/2108132811635032316 | 待查看 |
-| 2026-09-29 | https://x.com/yhslgg/status/2108022272095408163 | 待查看 |
+| 2026-09-29 | https://x.com/KinGao476942/status/2108132811635032316 | **Kin（@KinGao476942）**：如何把 Grok Bot 接入你的微信？ → 已归档 ([kingao-grok-bot-wechat-integration-guide](/md/wiki/sources/kingao-grok-bot-wechat-integration-guide)) |
+| 2026-09-29 | https://x.com/yhslgg/status/2108022272095408163 | **老杨啊（@yhslgg）**：剪映/百度网盘 SVIP 年卡会员短视频&直播带货 0~1 → 已归档 ([yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop](/md/wiki/sources/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop)) |
 | 2026-09-29 | https://x.com/yhslgg/status/2104418460919058651 | 待查看 |
-| 2026-09-29 | https://x.com/yaojingang/status/2108106577408389217 | 待查看 |
+| 2026-09-29 | https://x.com/yaojingang/status/2108106577408389217 | **姚金刚（@yaojingang）**：开源 17 套知识付费提示词 → 已归档 ([yaojingang-17-knowledge-monetization-prompt-templates](/md/wiki/sources/yaojingang-17-knowledge-monetization-prompt-templates)) |
 | 2026-09-29 | https://x.com/WolfMoneyNotes/status/2077624635105980561 | **狼哥搞钱笔记：公众号贴图正在制造新一批"闷声赚钱"的人** ~~已采集~~ → 已归档至 [sources/wechat-tietu-money-playbook](/md/wiki/sources/wechat-tietu-money-playbook) |
 | 2026-09-29 | https://x.com/qihang_zeng6688/status/2082293843353821306 | **启航：7天收入破百，1篇收入破千，微信贴图号的风口** ~~已采集~~ → 已归档至 [sources/wechat-tietu-project-breakdown](/md/wiki/sources/wechat-tietu-project-breakdown) |
-| 2026-09-29 | https://x.com/yang02010/status/2092727972486885653 | 待查看 |
-| 2026-09-29 | https://x.com/lxfater/status/2049019768456241273 | 待查看 |
+| 2026-09-29 | https://x.com/yang02010/status/2092727972486885653 | **牙仔（@yang02010）**：公众号贴图新人第 8 天 110 万阅读，单日变现 1500+ → 已归档 ([yangzai-wechat-tietu-1-1m-reads-1500-daily-income](/md/wiki/sources/yangzai-wechat-tietu-1-1m-reads-1500-daily-income)) |
+| 2026-09-29 | https://x.com/lxfater/status/2049019768456241273 | **铁锤人（@lxfater）**：GPT Image 2 爆火，自动化生图套利（附 6 个真实需求案例） → 已归档 ([lxfater-gpt-image-2-automation-arbitrage-cases](/md/wiki/sources/lxfater-gpt-image-2-automation-arbitrage-cases)) |
 | 2026-09-29 | https://x.com/songsong/status/2091850341235200462 | **宋宋：拆解一个公众号蓝海赛道（银发经济）** ~~已采集~~ → 已归档至 [sources/wechat-silver-economy-niche](/md/wiki/sources/wechat-silver-economy-niche) |
 | 2026-09-29 | https://x.com/king1818888/status/2075904679494680643 | 待查看 |
 | 2026-09-29 | https://x.com/kongge_space/status/2092902850821337330 | 待查看 |

@@ -823,3 +823,15 @@ wiki/
 | [xingjia-young-adults-net-worth-under-1m-survival-checklist](/md/wiki/sources/xingjia-young-adults-net-worth-under-1m-survival-checklist) | 在香港的宁夏三娃老父亲星佳（@xingjia520）：存款不到 100 万的年轻人，请直接照做这张生存清单 | X/Twitter |
 | [weichen-why-creators-should-register-sole-proprietorship](/md/wiki/sources/weichen-why-creators-should-register-sole-proprietorship) | 微尘印记（@weichen_ink）：为什么我建议自媒体和独立开发者，都去办个个体工商户？ | X/Twitter |
 | [wquguru-claude-subscription-complete-guide-from-scratch](/md/wiki/sources/wquguru-claude-subscription-complete-guide-from-scratch) | WquGuru（@wquguru）：普通人的 Claude 订阅方案（从 0 到 1 完整版，含支付和身份认证） | X/Twitter |
+| [alswl-ai-native-workstyle-from-info-to-delivery](/md/wiki/sources/alswl-ai-native-workstyle-from-info-to-delivery) | Jingchao（@alswl）：AI Native 时代的工作方式——从信息到交付 | X/Twitter |
+| [elliothux-open-source-cloudflare-workers-architecture](/md/wiki/sources/elliothux-open-source-cloudflare-workers-architecture) | Elliot（@elliothux）：我把 Cloudflare 开源了——边缘计算架构与极简自建方案 | X/Twitter |
+| [jinchenma-ai-tools-landscape-and-selection-guide](/md/wiki/sources/jinchenma-ai-tools-landscape-and-selection-guide) | 金尘马（@jinchenma_ai）：AI 工具太多了不知道怎么选？一文讲清楚常用 AI 工具与选择逻辑（2026 年 10 月版） | X/Twitter |
+| [kingao-grok-bot-wechat-integration-guide](/md/wiki/sources/kingao-grok-bot-wechat-integration-guide) | Kin（@KinGao476942）：如何把 Grok Bot 接入你的微信？保姆级新手指南来了（附详细提示词） | X/Twitter |
+| [lxfater-gpt-image-2-automation-arbitrage-cases](/md/wiki/sources/lxfater-gpt-image-2-automation-arbitrage-cases) | 铁锤人（@lxfater）：GPT Image 2 爆火，如何跑通自动化生图套利？（附 6 个真实需求案例） | X/Twitter |
+| [minaoneday-stockings-texture-prompt-engineering-skill](/md/wiki/sources/minaoneday-stockings-texture-prompt-engineering-skill) | Mina（@minaoneday）：我做了一个丝袜材质提示词 Skill——输入厚度和颜色，输出直用材质提示词 | X/Twitter |
+| [xaiwind-codex-20-social-media-skills-one-man-team](/md/wiki/sources/xaiwind-codex-20-social-media-skills-one-man-team) | 想风（@xaiwind）：Codex 自媒体运营 Skill 大全｜20 个装完，一个人顶一个团队 | X/Twitter |
+| [yangzai-wechat-tietu-1-1m-reads-1500-daily-income](/md/wiki/sources/yangzai-wechat-tietu-1-1m-reads-1500-daily-income) | 牙仔（@yang02010）：公众号贴图这么猛？新人第 8 天 110 万阅读，单日变现 1500+ | X/Twitter |
+| [yanliudreamer-10k-usd-us-stocks-investment-blueprint](/md/wiki/sources/yanliudreamer-10k-usd-us-stocks-investment-blueprint) | Dreameryanyan（@yanliudreamer）：如果只有 1 万美元，我会怎么开始投资美股？ | X/Twitter |
+| [yaojingang-17-knowledge-monetization-prompt-templates](/md/wiki/sources/yaojingang-17-knowledge-monetization-prompt-templates) | 姚金刚（@yaojingang）：开源 17 套知识付费提示词——课程定位、设计、售卖与运营全流程 | X/Twitter |
+| [yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop](/md/wiki/sources/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop) | 老杨啊（@yhslgg）：剪映/百度网盘 SVIP 年卡会员短视频&直播带货 0~1 保姆级教程 | X/Twitter |
+| [yooee-xiaohongshu-zero-followers-monetization-blueprint](/md/wiki/sources/yooee-xiaohongshu-zero-followers-monetization-blueprint) | Yooee（@Yooeec3）：妈妈教程｜像亲妈一样手把手教你 0 粉新号在小红书完成「流量→收钱」闭环 | X/Twitter |

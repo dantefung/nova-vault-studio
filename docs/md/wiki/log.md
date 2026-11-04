@@ -50,6 +50,23 @@ source: "llm-wiki"
 - 说明：系列第 4 篇未提供；第 8 篇《可复用的 Slash Commands》此前已归档为 `sources/zeroagent-slash-commands.md`，本次未重复收录
 - 内容摘要：本批次补齐 ZeroAgent 系列的完整技术主线——从技术选型、大模型交互、Agent Loop，到 MCP 工具协议、Skills 渐进式披露、Session 持久化、SubAgent 委派、Model 管理与 Extension 扩展，形成一条从「Agent Loop 原型」到「可扩展运行时」的完整演进链路
 
+## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第四批（AI Native 时代工作方式 / 开源 Cloudflare 架构 / AI 工具全景与选型 / Grok Bot 接入微信 / GPT Image 2 套利 / 丝袜材质提示词 Skill / Codex 自媒体 20 个 Skill / 公众号贴图 110 万阅读 / 1 万美金美股投资 / 17 套知识付费提示词 / 网盘与剪映 SVIP 带货 / 小红书 0 粉变现闭环）
+
+- 抓取与归档：持续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 93 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/alswl-ai-native-workstyle-from-info-to-delivery.md`（Jingchao @alswl，280 行，8 图）：AI Native 时代的工作方式——从信息到交付（意图定义、上下文封装与 Agent 自治交付）。
+  2. `sources/elliothux-open-source-cloudflare-workers-architecture.md`（Elliot @elliothux，302 行，10 图）：我把 Cloudflare 开源了——基于 V8 Isolate 的边缘计算系统架构与极简自建方案。
+  3. `sources/jinchenma-ai-tools-landscape-and-selection-guide.md`（金尘马 @jinchenma_ai，199 行，2 图）：AI 工具太多了不知道怎么选？一文讲清楚常用 AI 工具与选择逻辑（2026 年 10 月版）。
+  4. `sources/kingao-grok-bot-wechat-integration-guide.md`（Kin @KinGao476942，171 行，4 图）：如何把 Grok Bot 接入你的微信？保姆级新手指南来了（附详细提示词）。
+  5. `sources/lxfater-gpt-image-2-automation-arbitrage-cases.md`（铁锤人 @lxfater，359 行，17 图）：GPT Image 2 爆火，如何跑通自动化生图套利？（附 6 个真实需求案例）。
+  6. `sources/minaoneday-stockings-texture-prompt-engineering-skill.md`（Mina @minaoneday，183 行，13 图）：我做了一个丝袜材质提示词 Skill——输入厚度和颜色，输出直用材质提示词。
+  7. `sources/xaiwind-codex-20-social-media-skills-one-man-team.md`（想风 @xaiwind，548 行，17 图）：Codex 自媒体运营 Skill 大全｜20 个装完，一个人顶一个团队。
+  8. `sources/yangzai-wechat-tietu-1-1m-reads-1500-daily-income.md`（牙仔 @yang02010，196 行，1 图）：公众号贴图这么猛？新人第 8 天 110 万阅读，单日变现 1500+。
+  9. `sources/yanliudreamer-10k-usd-us-stocks-investment-blueprint.md`（Dreameryanyan @yanliudreamer，231 行，1 图）：如果只有 1 万美元，我会怎么开始投资美股？
+  10. `sources/yaojingang-17-knowledge-monetization-prompt-templates.md`（姚金刚 @yaojingang，57 行）：开源 17 套知识付费提示词——课程定位、设计、售卖与运营全流程。
+  11. `sources/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop.md`（老杨啊 @yhslgg，505 行，17 图）：剪映/百度网盘 SVIP 年卡会员短视频&直播带货 0~1 保姆级教程。
+  12. `sources/yooee-xiaohongshu-zero-followers-monetization-blueprint.md`（Yooee @Yooeec3，333 行，3 图）：妈妈教程｜像亲妈一样手把手教你 0 粉新号在小红书完成「流量→收钱」闭环。
+
 ## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第三批（空气炸锅 Reddit 与 GEO 增长 / Holon 架构思考 / 宝玉 AI 原生思维 / GitHub 终极教程 / 育儿第一性原理 / Stripe 进阶指南 / 出海月入 3000 刀 / AI 工具站 SEO 清单 / 推广渠道找需求 / 百万存款生存清单 / 个体户注册合规 / Claude 订阅指南）
 
 - 抓取与归档：继续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 83 张，归档至 `sources/`
