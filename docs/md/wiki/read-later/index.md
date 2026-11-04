@@ -91,20 +91,20 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/hiwise_aigc/status/2109255757845914013 | **启明破晓（@hiwise_aigc）**：8G 显存也能跑：Qwen-Image-2.1-Turbo 本地部署 8 步出图 → 已归档 ([hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy](/md/wiki/sources/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy)) |
 | 2026-09-29 | https://x.com/ChainEpic/status/2109139518322594287 | **Roland（@ChainEpic）**：开源多搜索引擎控制台仪表盘——Google、Bing 与 Yandex 数据聚合 → 已归档 ([chainepic-self-hosted-search-console-dashboard-opensource](/md/wiki/sources/chainepic-self-hosted-search-console-dashboard-opensource)) |
 | 2026-09-29 | https://x.com/indie_maker_fox/status/2108396358520717759 | **Fox（@indie_maker_fox）**：如何让 AI 帮助我们理解 AI 的输出 → 已归档 ([fox-how-ai-helps-us-understand-ai-output](/md/wiki/sources/fox-how-ai-helps-us-understand-ai-output)) |
-| 2026-09-29 | https://x.com/Tom_CC_9986/status/2108512799517450287 | 待查看 |
-| 2026-09-29 | https://x.com/AndyL5cc/status/2109472295299535250 | 待查看 |
-| 2026-09-29 | https://x.com/wangzaimedia/status/2109485189357306357 | 待查看 |
-| 2026-09-29 | https://x.com/houzhongji89090/status/2109607529290567823 | 待查看 |
-| 2026-09-29 | https://x.com/DongQingAsk/status/2108373211285266465 | 待查看 |
-| 2026-09-29 | https://x.com/heizolshao/status/2109787075289706639 | 待查看 |
-| 2026-09-29 | https://x.com/ai_chuhai/status/2110117043827552415 | 待查看 |
+| 2026-09-29 | https://x.com/Tom_CC_9986/status/2108512799517450287 | **Tom CC（@Tom_CC_9986）**：用 Opus 5.5 起号真的太爽了 → 已归档 ([tomcc-claude-opus-5-5-account-growth-playbook](/md/wiki/sources/tomcc-claude-opus-5-5-account-growth-playbook)) |
+| 2026-09-29 | https://x.com/AndyL5cc/status/2109472295299535250 | **Andy L（@AndyL5cc）**：我用 AI 做了一个自动赚钱的网站：客户自己下单，我睡觉也能收钱 → 已归档 ([andyl-ai-automated-revenue-generating-website-guide](/md/wiki/sources/andyl-ai-automated-revenue-generating-website-guide)) |
+| 2026-09-29 | https://x.com/wangzaimedia/status/2109485189357306357 | **汪仔（@wangzaimedia）**：个人 IP 的三字真经：抄，超，钞 → 已归档 ([wangzai-personal-ip-three-word-mantra-copy-surpass-monetize](/md/wiki/sources/wangzai-personal-ip-three-word-mantra-copy-surpass-monetize)) |
+| 2026-09-29 | https://x.com/houzhongji89090/status/2109607529290567823 | **Zhong Jian（@houzhongji89090）**：10 个值得收藏的 SEO 外链交易平台 → 已归档 ([zhongjian-10-curated-seo-backlinks-trading-platforms](/md/wiki/sources/zhongjian-10-curated-seo-backlinks-trading-platforms)) |
+| 2026-09-29 | https://x.com/DongQingAsk/status/2108373211285266465 | **董晴（@DongQingAsk）**：小红书极简选品与起号逻辑 → 已归档 ([dongqing-xhs-product-selection](/md/wiki/sources/dongqing-xhs-product-selection)) |
+| 2026-09-29 | https://x.com/heizolshao/status/2109787075289706639 | **左海（@heizolshao）**：Reddit 社区分层精细化运营实战指南 → 已归档 ([heizolshao-reddit-tiered-community-operations-playbook](/md/wiki/sources/heizolshao-reddit-tiered-community-operations-playbook)) |
+| 2026-09-29 | https://x.com/ai_chuhai/status/2110117043827552415 | **爱出海（@ai_chuhai）**：说下我眼里的生财有术，可能很多你都不知道 → 已归档 ([aichuhai-my-perspective-on-shengcaiyoushu](/md/wiki/sources/aichuhai-my-perspective-on-shengcaiyoushu)) |
 | 2026-09-29 | https://x.com/JiangK82705/status/2111826068017717314 | **蒋云何：副业出海小白首日破百刀，5 天破千刀的新词经验分享** ~~已采集~~ → 已归档至 [sources/jiang-yunhe-first-100-usd-new-word-playbook](/md/wiki/sources/jiang-yunhe-first-100-usd-new-word-playbook) |
-| 2026-09-29 | https://x.com/lee04052822/status/2111618612158935467 | 待查看 |
-| 2026-09-29 | https://x.com/MaiYangAI/status/2111603532210299234 | 待查看 |
-| 2026-09-29 | https://x.com/SIAxiom/status/2111689540792655982 | 待查看 |
-| 2026-09-29 | https://x.com/AdrianPunk115/status/2111742325865210099 | 待查看 |
-| 2026-09-29 | https://x.com/heizolshao/status/2111616231723970623 | 待查看 |
-| 2026-09-29 | https://x.com/pamelaaaaa1218/status/2111490939604681059 | 待查看 |
+| 2026-09-29 | https://x.com/lee04052822/status/2111618612158935467 | **木子不是木子狸（@lee04052822）**：好久没写东西了——分享下如何做开发的 → 已归档 ([lee-independent-developer-workflow-and-practices](/md/wiki/sources/lee-independent-developer-workflow-and-practices)) |
+| 2026-09-29 | https://x.com/MaiYangAI/status/2111603532210299234 | **Mai Yang（@MaiYangAI）**：非 CS 出身的 Lauren Tan，是怎么一步步放手给 Agent 的 → 已归档 ([maiyang-non-cs-lauren-tan-delegating-to-agents](/md/wiki/sources/maiyang-non-cs-lauren-tan-delegating-to-agents)) |
+| 2026-09-29 | https://x.com/SIAxiom/status/2111689540792655982 | **SI Axiom（@SIAxiom）**：别再盲目发推了！用 Grok Bot 搭建一套 X 运营流程 → 已归档 ([siaxiom-grok-bot-x-operations-10-steps-prompt-playbook](/md/wiki/sources/siaxiom-grok-bot-x-operations-10-steps-prompt-playbook)) |
+| 2026-09-29 | https://x.com/AdrianPunk115/status/2111742325865210099 | **Adrian Punk（@AdrianPunk115）**：AI 视频基础（中册）：景别、机位、运镜与画面连续性 → 已归档 ([adrian-ai-video-fundamentals-framing-camera-and-continuity](/md/wiki/sources/adrian-ai-video-fundamentals-framing-camera-and-continuity)) |
+| 2026-09-29 | https://x.com/heizolshao/status/2111616231723970623 | **左海（@heizolshao）**：为什么在 Reddit 上“评论”远比“发帖”更重要？ → 已归档 ([heizolshao-why-reddit-commenting-is-more-important-than-posting](/md/wiki/sources/heizolshao-why-reddit-commenting-is-more-important-than-posting)) |
+| 2026-09-29 | https://x.com/pamelaaaaa1218/status/2111490939604681059 | **PamelaAI·H（@pamelaaaaa1218）**：从 0 搭建个人网站：8 大类 60+ UI 设计必备清单 → 已归档 ([pamela-build-personal-website-from-scratch-60-ui-checklist](/md/wiki/sources/pamela-build-personal-website-from-scratch-60-ui-checklist)) |
 | 2026-09-29 | https://x.com/isituking/status/2111743535959711875 | 待查看 |
 | 2026-09-29 | https://x.com/thedankoe/status/2023779299367809063 | 待查看 |
 | 2026-09-29 | https://x.com/wangzaimedia/status/2111733278353060215 | 待查看 |

@@ -847,3 +847,15 @@ wiki/
 | [pinminlw-malaysia-personal-tax-number-tin-online-guide](/md/wiki/sources/pinminlw-malaysia-personal-tax-number-tin-online-guide) | pinminlw（@pinminlw）：🇲🇾 马来西亚个人税号（TIN）免费申请攻略——手把手教你线上办理 | X/Twitter |
 | [pluviobyte-cloudflare-domain-email-5usd-monthly-guide](/md/wiki/sources/pluviobyte-cloudflare-domain-email-5usd-monthly-guide) | 雪踏乌云（@Pluvio9yte）：Cloudflare 域名邮箱，每月只需 5 美金——保姆级配置教程 | X/Twitter |
 | [wlzh-us-cloud-resident-ssn-ein-address-phone-guide](/md/wiki/sources/wlzh-us-cloud-resident-ssn-ein-address-phone-guide) | M.（@wlzh）：人在国内，却有美国税号、美国地址和美国手机号——美国云居民扫盲 | X/Twitter |
+| [tomcc-claude-opus-5-5-account-growth-playbook](/md/wiki/sources/tomcc-claude-opus-5-5-account-growth-playbook) | Tom CC（@Tom_CC_9986）：用 Opus 5.5 起号真的太爽了——高质量内容生产与自媒体冷启动 | X/Twitter |
+| [andyl-ai-automated-revenue-generating-website-guide](/md/wiki/sources/andyl-ai-automated-revenue-generating-website-guide) | Andy L（@AndyL5cc）：我用 AI 做了一个自动赚钱的网站——客户自己下单，我睡觉也能收钱 | X/Twitter |
+| [wangzai-personal-ip-three-word-mantra-copy-surpass-monetize](/md/wiki/sources/wangzai-personal-ip-three-word-mantra-copy-surpass-monetize) | 汪仔（@wangzaimedia）：个人 IP 的三字真经——抄、超、钞 | X/Twitter |
+| [zhongjian-10-curated-seo-backlinks-trading-platforms](/md/wiki/sources/zhongjian-10-curated-seo-backlinks-trading-platforms) | Zhong Jian（@houzhongji89090）：10 个值得收藏的 SEO 外链交易平台，做独立站和海外 SEO 的建议收藏 | X/Twitter |
+| [heizolshao-reddit-tiered-community-operations-playbook](/md/wiki/sources/heizolshao-reddit-tiered-community-operations-playbook) | 左海（@heizolshao）：Reddit 社区分层精细化运营实战指南 | X/Twitter |
+| [aichuhai-my-perspective-on-shengcaiyoushu](/md/wiki/sources/aichuhai-my-perspective-on-shengcaiyoushu) | 爱出海（@ai_chuhai）：说下我眼里的生财有术，可能很多你都不知道 | X/Twitter |
+| [lee-independent-developer-workflow-and-practices](/md/wiki/sources/lee-independent-developer-workflow-and-practices) | 木子不是木子狸（@lee04052822）：好久没写东西了——分享下如何做开发的 | X/Twitter |
+| [maiyang-non-cs-lauren-tan-delegating-to-agents](/md/wiki/sources/maiyang-non-cs-lauren-tan-delegating-to-agents) | Mai Yang（@MaiYangAI）：非 CS 出身的 Lauren Tan，是怎么一步步放手给 Agent 的 | X/Twitter |
+| [siaxiom-grok-bot-x-operations-10-steps-prompt-playbook](/md/wiki/sources/siaxiom-grok-bot-x-operations-10-steps-prompt-playbook) | SI Axiom（@SIAxiom）：别再盲目发推了！用 Grok Bot 搭建一套 X 运营流程，10 步实操，附完整指令 | X/Twitter |
+| [adrian-ai-video-fundamentals-framing-camera-and-continuity](/md/wiki/sources/adrian-ai-video-fundamentals-framing-camera-and-continuity) | Adrian Punk（@AdrianPunk115）：AI 视频基础（中册）——景别、机位、运镜与画面连续性 | X/Twitter |
+| [heizolshao-why-reddit-commenting-is-more-important-than-posting](/md/wiki/sources/heizolshao-why-reddit-commenting-is-more-important-than-posting) | 左海（@heizolshao）：为什么在 Reddit 上“评论”远比“发帖”更重要？深度解析与实操指南 | X/Twitter |
+| [pamela-build-personal-website-from-scratch-60-ui-checklist](/md/wiki/sources/pamela-build-personal-website-from-scratch-60-ui-checklist) | PamelaAI·H（@pamelaaaaa1218）：从 0 搭建个人网站——8 大类 60+ UI 设计必备清单 | X/Twitter |

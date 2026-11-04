@@ -4,6 +4,24 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第六批（Opus 5.5 起号 / 自动被动收入网站 / 个人 IP 三字真经 / 10 个 SEO 外链交易平台 / Reddit 分层运营 / 生财有术观察 / 独立开发工作流 / Lauren Tan 放手 Agent / Grok Bot 10 步指令 / AI 视频视听语言中册 / Reddit 评论大于发帖 / 个人建站 60+ UI 清单）
+
+- 抓取与归档：持续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 95 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/tomcc-claude-opus-5-5-account-growth-playbook.md`（Tom CC @Tom_CC_9986，231 行，1 图）：用 Opus 5.5 起号真的太爽了——高质量内容生产与自媒体冷启动。
+  2. `sources/andyl-ai-automated-revenue-generating-website-guide.md`（Andy L @AndyL5cc，133 行，1 图）：我用 AI 做了一个自动赚钱的网站——客户自己下单，我睡觉也能收钱。
+  3. `sources/wangzai-personal-ip-three-word-mantra-copy-surpass-monetize.md`（汪仔 @wangzaimedia，317 行，6 图）：个人 IP 的三字真经——抄、超、钞。
+  4. `sources/zhongjian-10-curated-seo-backlinks-trading-platforms.md`（Zhong Jian @houzhongji89090，137 行，11 图）：10 个值得收藏的 SEO 外链交易平台，做独立站和海外 SEO 的建议收藏。
+  5. `sources/heizolshao-reddit-tiered-community-operations-playbook.md`（左海 @heizolshao，336 行，20 图）：Reddit 社区分层精细化运营实战指南。
+  6. `sources/aichuhai-my-perspective-on-shengcaiyoushu.md`（爱出海 @ai_chuhai，113 行，1 图）：说下我眼里的生财有术，可能很多你都不知道。
+  7. `sources/lee-independent-developer-workflow-and-practices.md`（木子不是木子狸 @lee04052822，362 行，2 图）：好久没写东西了——分享下如何做开发的。
+  8. `sources/maiyang-non-cs-lauren-tan-delegating-to-agents.md`（Mai Yang @MaiYangAI，135 行，4 图）：非 CS 出身的 Lauren Tan，是怎么一步步放手给 Agent 的。
+  9. `sources/siaxiom-grok-bot-x-operations-10-steps-prompt-playbook.md`（SI Axiom @SIAxiom，488 行，22 图）：别再盲目发推了！用 Grok Bot 搭建一套 X 运营流程，10 步实操，附完整指令。
+  10. `sources/adrian-ai-video-fundamentals-framing-camera-and-continuity.md`（Adrian Punk @AdrianPunk115，381 行，22 图）：AI 视频基础（中册）——景别、机位、运镜与画面连续性。
+  11. `sources/heizolshao-why-reddit-commenting-is-more-important-than-posting.md`（左海 @heizolshao，99 行，2 图）：为什么在 Reddit 上“评论”远比“发帖”更重要？深度解析与实操指南。
+  12. `sources/pamela-build-personal-website-from-scratch-60-ui-checklist.md`（PamelaAI·H @pamelaaaaa1218，498 行，3 图）：从 0 搭建个人网站——8 大类 60+ UI 设计必备清单。
+
+
 ## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第五批（流量上升词流水线 / 开源 GSC 看板 / ChatGPT Intelligent UI / Qwen-Image 本地部署 / 理解 AI 输出 / 语音一键双平台内容 / 公众号日更 10 个 Skill / 美卡转运回国 / 出海 SEO 教程 / 大马税号申请 / CF 域名邮箱 / 美国云居民扫盲）
 
 - 抓取与归档：持续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 93 张，归档至 `sources/`
