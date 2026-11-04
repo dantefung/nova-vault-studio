@@ -45,7 +45,7 @@ Claude Code 的自动记忆叫 auto memory，也就是标题中的项目级记�
 
 ### 一份索引，加上一组主题文件
 
-默认情况下，记忆保存在本机的 ~/.claude/projects/<project>/memory/。其中 <project> 由仓库路径生成，并不一定等于仓库名称。
+默认情况下，记忆保存在本机的 `~/.claude/projects/<project>/memory/`。其中 `<project>` 由仓库路径生成，并不一定等于仓库名称。
 
 目录结构很简单：
 

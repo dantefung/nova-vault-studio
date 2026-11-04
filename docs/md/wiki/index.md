@@ -810,3 +810,15 @@ wiki/
 | [miles-ma-ai-beginner-guide-no-courses](/md/wiki/sources/miles-ma-ai-beginner-guide-no-courses) | Miles Ma（@miles_mazy）：零基础入门 AI，看完这篇就够了（避免花钱买课被割韭菜版） | X/Twitter |
 | [kk-ai-notes-opc-wanlihui-overseas-address-proof](/md/wiki/sources/kk-ai-notes-opc-wanlihui-overseas-address-proof) | KK的AI笔记（@ainotes_KK）：OPC 出海必备工具｜万里汇获取海外地址证明完整教程 | X/Twitter |
 | [adrian-workbuddy-boss-friendly-ppt](/md/wiki/sources/adrian-workbuddy-boss-friendly-ppt) | Adrian Punk（@AdrianPunk115）：用 WorkBuddy 做老板爱看的 PPT | X/Twitter |
+| [heizolshao-air-fryer-site-reddit-and-ai-search-growth](/md/wiki/sources/heizolshao-air-fryer-site-reddit-and-ai-search-growth) | 左海（@heizolshao）：一个空气炸锅独立站，怎么靠 Reddit 和 AI 搜索把日单从 30 做上 210 | X/Twitter |
+| [jolestar-what-is-holon-and-why-build-it](/md/wiki/sources/jolestar-what-is-holon-and-why-build-it) | jolestar（@jolestar）：Holon 是什么，以及我为什么要做 Holon | X/Twitter |
+| [dotey-ai-native-thinking-train-yourself-like-an-llm](/md/wiki/sources/dotey-ai-native-thinking-train-yourself-like-an-llm) | 宝玉（@dotey）：腾讯学堂｜AI 原生思维——像训练大模型一样训练自己 | X/Twitter |
+| [xaiwind-github-complete-beginner-to-master-guide](/md/wiki/sources/xaiwind-github-complete-beginner-to-master-guide) | 想风（@xaiwind）：万字长文｜超详细的 GitHub 教程，从入门到精通 | X/Twitter |
+| [longhai-parenting-first-principles-comprehensive-guide](/md/wiki/sources/longhai-parenting-first-principles-comprehensive-guide) | 龙海（@longhaiqwe123）：万字长文（含配图），讲清楚育儿的第一性原理 | X/Twitter |
+| [noahduck-stripe-complete-guide-from-beginner-to-advanced](/md/wiki/sources/noahduck-stripe-complete-guide-from-beginner-to-advanced) | 诺鸭船长3（@noahduck283）：Stripe 全网最全使用指南——从入门到榨干 | X/Twitter |
+| [hezhiyan-outsea-3000usd-monthly-content-digest](/md/wiki/sources/hezhiyan-outsea-3000usd-monthly-content-digest) | droidHZ（@hezhiyan7）：月入 3 千刀达成，网站出海内容整理 | X/Twitter |
+| [gosailglobal-ai-tools-seo-checklist-15-pitfalls](/md/wiki/sources/gosailglobal-ai-tools-seo-checklist-15-pitfalls) | Jason Zhu（@GoSailGlobal）：做 AI 工具站要装哪些 SEO 工具？我们踩了 15 个坑后的完整清单 | X/Twitter |
+| [hezhiyan-finding-demands-from-promotion-channels](/md/wiki/sources/hezhiyan-finding-demands-from-promotion-channels) | droidHZ（@hezhiyan7）：从推广渠道找需求——反向推导爆款独立站选题 | X/Twitter |
+| [xingjia-young-adults-net-worth-under-1m-survival-checklist](/md/wiki/sources/xingjia-young-adults-net-worth-under-1m-survival-checklist) | 在香港的宁夏三娃老父亲星佳（@xingjia520）：存款不到 100 万的年轻人，请直接照做这张生存清单 | X/Twitter |
+| [weichen-why-creators-should-register-sole-proprietorship](/md/wiki/sources/weichen-why-creators-should-register-sole-proprietorship) | 微尘印记（@weichen_ink）：为什么我建议自媒体和独立开发者，都去办个个体工商户？ | X/Twitter |
+| [wquguru-claude-subscription-complete-guide-from-scratch](/md/wiki/sources/wquguru-claude-subscription-complete-guide-from-scratch) | WquGuru（@wquguru）：普通人的 Claude 订阅方案（从 0 到 1 完整版，含支付和身份认证） | X/Twitter |

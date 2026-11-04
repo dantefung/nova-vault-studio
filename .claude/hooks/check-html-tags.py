@@ -9,6 +9,9 @@ Vue 模板编译器当成真实元素解析。未闭合或带非法属性的标�
   1. 永远危险的标签（style / text / svg / iframe / template …）：裸写即报错。
   2. script：只允许 <script setup> 与 </script>（VitePress SFC 用法）。
   3. 未配对闭合的容器标签（div / span / i）：文件内找不到对应闭标签即报错。
+  3b. 未知标签（不在 KNOWN_TAGS 内的自定义标签，如 <project>）：开标签未自闭合
+      且全文找不到对应闭标签即报错——Vue 会把它当真实元素并抛
+      "Element is missing end tag"。
   4. HTML 属性用了中文引号（class=“…”）：Vue 属性解析会出错，报错。
   5. Markdown 自动链接（<https://…> / <http://…> / <mailto:…>）与 `<数字` 等
      非标签形态一律放行。
@@ -20,16 +23,19 @@ import sys
 import subprocess
 
 INLINE_CODE_RE = re.compile(r'`[^`]*`')
-FENCED_CODE_RE = re.compile(r'```[\s\S]*?```')
 BROWSER_EXT_RE = re.compile(r'<readpronunciation-\w+[^>]*?>')
-# 只匹配真正的标签：< 后面必须紧跟字母
-HTML_TAG_RE = re.compile(r'</?([A-Za-z][\w-]*)([^>]*)>')
+# 只匹配真正的标签：< 后面必须紧跟字母，且标签名后必须是空白 / > / / 结束。
+# 少了这条边界，<urn：example：>、<a|b>、<key: value> 这类会被 markdown-it
+# 转义成普通文本（不破坏构建）却仍被误判。
+HTML_TAG_RE = re.compile(r'</?([A-Za-z][A-Za-z0-9-]*)(?=[\s/>])[^>]*>')
 # Markdown 自动链接，不是标签
 AUTOLINK_RE = re.compile(r'<(https?://|mailto:)[^>]*>')
 # 属性里用了中文引号，Vue 解析属性会出错
-CURLY_ATTR_RE = re.compile(r'<[A-Za-z][\w-]*[^>]*=[“”][^>]*>')
+CURLY_ATTR_RE = re.compile(r'<[A-Za-z][A-Za-z0-9-]*(?=[\s/>])[^>]*=[“”][^>]*>')
 # script 只允许 <script setup> / </script>
 SCRIPT_SETUP_RE = re.compile(r'</?script(\s+setup)?\s*/?>')
+# 围栏代码块起始行（``` 或 ~~~）
+FENCE_OPEN_RE = re.compile(r'^\s*(```+|~~~+)')
 
 BROWSER_EXT = 'browser-ext'
 UNSAFE_TAG = 'unsafe-tag'
@@ -51,9 +57,35 @@ KNOWN_TAGS = {
 }
 
 
+def _strip_code(content):
+    """剔除围栏代码块与行内代码，只留下真正会被 Vue 解析的正文。
+
+    必须逐行跟踪围栏状态：正则整体替换 ```...``` 会在围栏数量为奇数或
+    嵌套了反引号时错位配对，把代码块内容当成正文，导致 `<leader>` 这类
+    正常写法被误报。
+    """
+    out = []
+    fence = None
+    for line in content.split('\n'):
+        m = FENCE_OPEN_RE.match(line)
+        if fence is None:
+            if m:
+                fence = m.group(1)[0] * 3
+                continue
+            out.append(INLINE_CODE_RE.sub('', line))
+        else:
+            # 围栏内：只有同字符的结束围栏才退出
+            stripped = line.strip()
+            if stripped.startswith(fence):
+                fence = None
+    return '\n'.join(out)
+
+
 def _is_unpaired(tag, raw, content):
     """开标签在全文找不到对应闭标签 → Vue 会报 Element is missing end tag。"""
-    if tag not in NEEDS_CLOSING or raw.startswith('</') or raw.endswith('/>'):
+    if raw.startswith('</') or raw.endswith('/>'):
+        return False
+    if tag not in NEEDS_CLOSING and tag in KNOWN_TAGS:
         return False
     return f'</{tag}>' not in content
 
@@ -62,8 +94,14 @@ def check_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    stripped = FENCED_CODE_RE.sub('', content)
-    stripped = INLINE_CODE_RE.sub('', stripped)
+    # frontmatter 不参与 Vue 模板编译，先剥离
+    body = content
+    if body.startswith('---'):
+        parts = body.split('\n---\n', 1)
+        if len(parts) == 2:
+            body = parts[1]
+
+    stripped = _strip_code(body)
     # 自动链接不是标签，先剔除避免误报
     stripped = AUTOLINK_RE.sub('', stripped)
 

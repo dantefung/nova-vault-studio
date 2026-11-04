@@ -40,6 +40,23 @@ source: "llm-wiki"
 - 说明：系列第 4 篇未提供；第 8 篇《可复用的 Slash Commands》此前已归档为 `sources/zeroagent-slash-commands.md`，本次未重复收录
 - 内容摘要：本批次补齐 ZeroAgent 系列的完整技术主线——从技术选型、大模型交互、Agent Loop，到 MCP 工具协议、Skills 渐进式披露、Session 持久化、SubAgent 委派、Model 管理与 Extension 扩展，形成一条从「Agent Loop 原型」到「可扩展运行时」的完整演进链路
 
+## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第三批（空气炸锅 Reddit 与 GEO 增长 / Holon 架构思考 / 宝玉 AI 原生思维 / GitHub 终极教程 / 育儿第一性原理 / Stripe 进阶指南 / 出海月入 3000 刀 / AI 工具站 SEO 清单 / 推广渠道找需求 / 百万存款生存清单 / 个体户注册合规 / Claude 订阅指南）
+
+- 抓取与归档：继续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 83 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/heizolshao-air-fryer-site-reddit-and-ai-search-growth.md`（左海 @heizolshao，109 行，1 图）：一个空气炸锅独立站，怎么靠 Reddit 和 AI 搜索把日单从 30 做上 210。
+  2. `sources/jolestar-what-is-holon-and-why-build-it.md`（jolestar @jolestar，105 行）：Holon 是什么，以及我为什么要做 Holon——数字资产与 Agent 语义互通底层架构。
+  3. `sources/dotey-ai-native-thinking-train-yourself-like-an-llm.md`（宝玉 @dotey，245 行，2 图）：腾讯学堂｜AI 原生思维——像训练大模型一样训练自己（Pre-train / SFT / RLHF 三段认知跃迁）。
+  4. `sources/xaiwind-github-complete-beginner-to-master-guide.md`（想风 @xaiwind，1074 行，19 图）：万字长文｜超详细的 GitHub 教程，从入门到精通。
+  5. `sources/longhai-parenting-first-principles-comprehensive-guide.md`（龙海 @longhaiqwe123，665 行，3 图）：万字长文（含配图），讲清楚育儿的第一性原理。
+  6. `sources/noahduck-stripe-complete-guide-from-beginner-to-advanced.md`（诺鸭船长3 @noahduck283，798 行，17 图）：Stripe 全网最全使用指南——从入门到榨干。
+  7. `sources/hezhiyan-outsea-3000usd-monthly-content-digest.md`（droidHZ @hezhiyan7，351 行，7 图）：月入 3 千刀达成，网站出海内容整理。
+  8. `sources/gosailglobal-ai-tools-seo-checklist-15-pitfalls.md`（Jason Zhu @GoSailGlobal，267 行，17 图）：做 AI 工具站要装哪些 SEO 工具？我们踩了 15 个坑后的完整清单。
+  9. `sources/hezhiyan-finding-demands-from-promotion-channels.md`（droidHZ @hezhiyan7，51 行）：从推广渠道找需求——反向推导爆款独立站选题。
+  10. `sources/xingjia-young-adults-net-worth-under-1m-survival-checklist.md`（在香港的宁夏三娃老父亲星佳 @xingjia520，205 行，5 图）：存款不到 100 万的年轻人，请直接照做这张生存清单。
+  11. `sources/weichen-why-creators-should-register-sole-proprietorship.md`（微尘印记 @weichen_ink，132 行，5 图）：为什么我建议自媒体和独立开发者，都去办个个体工商户？
+  12. `sources/wquguru-claude-subscription-complete-guide-from-scratch.md`（WquGuru @wquguru，167 行，3 图）：普通人的 Claude 订阅方案（从 0 到 1 完整版，含支付和身份认证）。
+
 ## [2026-11-04] ingest: 11 篇「稍后读」X/Twitter 队列第二批（麦肯锡风格提示词 / 找已有人付钱的 App 点子 / GitHub 信息差 8 法 / 12 台 iPhone 8 增长机房 / IP 系统底层架构 / 古风武侠英语剧 / 108 万播放 AI 长视频 / 出海选品优先 / 零基础 AI 入门 / 万里汇海外地址证明 / WorkBuddy 汇报 PPT）
 
 - 抓取与归档：继续清空 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 44 张，归档至 `sources/`
