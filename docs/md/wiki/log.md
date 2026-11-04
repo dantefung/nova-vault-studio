@@ -4,6 +4,12 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 1 篇哥飞 SEO 实战教程（导航站与工具站内页排名：学维基百科做词条页、分类页与密集内链网）
+
+- 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去营销打折导流话术，本地化配图 1 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/gefei-seo-directory-inner-pages-wikipedia-structure.md`（我是哥飞，125 行，1 图）：导航站内页拿不到排名？学维基百科做词条页和分类页：以维基百科 DeepSeek 词条为模板，深度拆解单工具词条多 H2 讲透、正文密集语义内链、See Also 推荐与多维度分类标签、分类列表页自身捕获聚合搜索排名，以及单功能衍生多 Landing Page 的 SEO 架构方法论。
+
 ## [2026-11-04] ingest: 1 篇 Agent 自动化闭环实战长文（若飞：自产自销——如何让 Agent 自己写自己查？基于 CI Doctor 与自主修复）
 
 - 抓取与归档：通过 `fetch_weixin.py` 与 `download-images.py` 完整跑通微信文章抓取与图片本地化，去营销公众号广告，GIF 转真 PNG 防 OOM，本地化配图 4 张，归档至 `sources/`
