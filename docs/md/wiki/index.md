@@ -883,3 +883,4 @@ wiki/
 | [nopinduoduo-ai-comic-drama-production-10000-credits-tutorial](/md/wiki/sources/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial) | 我真的没有拼多多（@nopinduoduo）：不会分镜和运镜？普通人到底能不能上手做 AI 漫剧？花 1 万积分的实测教程 | X/Twitter |
 | [phil-design-personal-ip-and-codex-desktop-pet-tutorial](/md/wiki/sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial) | 阿哲Phil（@Formulasearch）：快速上手设计一款个人 IP，并做成 Codex 宠物（附提示词和链接） | X/Twitter |
 | [niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch) | Niko爱学习（@ai_super_niko）：掌控 Codex 对话节奏——打断、排队、引导和分叉 | X/Twitter |
+| [heminglu-from-ontology-to-ontology-modeling-business-semantics](/md/wiki/sources/heminglu-from-ontology-to-ontology-modeling-business-semantics) | 何明璐（人月聊IT）：从本体论到本体建模——如何构建可生成可推理的业务语义规范 | 微信公众号 |
