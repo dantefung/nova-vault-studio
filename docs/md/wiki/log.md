@@ -4,6 +4,24 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第七批（创业百问百答 / Dan Koe Human 3.0 / X 运营入门 / Oh My X 插件 / GitHub 搞钱6大开源项目 / Paul Graham 时间与金钱 / 红鸦图文复刻 / AI Native 迈向 Stage 8 / Grok Bot 4000外链 / Wise港卡搞定Stripe / FDE内容交付SOP / AI美女变现10法）
+
+- 抓取与归档：持续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 88 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs.md`（司徒K @situking，500 行，1 图）：创业百问百答——写给自媒体人和个人创业者（2.3 万字长文实战心法）。
+  2. `sources/dankoe-human-3-0-map-to-reach-the-top-one-percent.md`（DAN KOE @thedankoe，259 行，5 图）：Human 3.0 – A Map To Reach The Top 1%（登顶前 1% 的认知进化地图）。
+  3. `sources/wangzai-x-twitter-zero-to-one-beginner-operations-guide.md`（汪仔 @wangzaimedia，158 行，1 图）：从 0 到 1 的 X 入门运营指南。
+  4. `sources/longhai-oh-my-x-browser-extension-24-pain-points.md`（龙海 @longhaiqwe123，313 行，12 图）：玩 X 瑞士军刀——开源浏览器插件 Oh My X，解决 24 个网页端操作痛点（附代码）。
+  5. `sources/govin-github-6-insane-open-source-projects-monetization.md`（govin.eth | G哥 @goan999999，87 行，2 图）：GitHub 已经彻底疯了！这 6 个免费开源项目，搞钱、提效真的太猛了。
+  6. `sources/jaden-paul-graham-how-time-and-money-are-lost.md`（Jaden 抽象日志 @Jaden_riku，65 行，1 图）：Paul Graham——时间和金钱，是怎样失去的。
+  7. `sources/xoyif-red-crow-ai-batch-xhs-image-text-replication-skill.md`（北衡 @xoyif63862452，51 行，3 图）：红鸦 AI——一人公司怎么批量做小红书图文，靠的是这个复刻 Skill。
+  8. `sources/alswl-ai-native-practices-continuation-towards-stage-8.md`（Jingchao @alswl，323 行，13 图）：AI Native 实践续篇——迈向 Stage 8（全自动软件交付与认知升级）。
+  9. `sources/sagasu-grok-bot-automated-backlink-submission-4000-sites.md`（SagaSu @sujingshen，296 行，16 图）：用 Grok Bot 自动化提交外链——一天跑完 4000 多个站的完整流程。
+  10. `sources/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution.md`（浅水虾 @qianshuixia2026，79 行，6 图）：Wise 港卡搞定 Stripe！避开号码泄露，送大家出海“三通一达”。
+  11. `sources/liangzhu-fde-in-action-01-automated-local-content-delivery-sop.md`（良竹 @liangzhu_AI，837 行，16 图）：掌控 AI·FDE 实战 01｜万字实操 SOP——搭建本地自动内容交付流水线。
+  12. `sources/threeai-10-ways-to-monetize-ai-beauty-content-china-cases.md`（三个三 @3three_AI，266 行，12 图）：从国内真实案例看，把 AI 美女变成钱的 10 种方法。
+
+
 ## [2026-11-04] ingest: 12 篇「稍后读」X/Twitter 队列第六批（Opus 5.5 起号 / 自动被动收入网站 / 个人 IP 三字真经 / 10 个 SEO 外链交易平台 / Reddit 分层运营 / 生财有术观察 / 独立开发工作流 / Lauren Tan 放手 Agent / Grok Bot 10 步指令 / AI 视频视听语言中册 / Reddit 评论大于发帖 / 个人建站 60+ UI 清单）
 
 - 抓取与归档：持续消化 `docs/md/wiki/read-later/index.md`「X / Twitter」区段，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 95 张，归档至 `sources/`

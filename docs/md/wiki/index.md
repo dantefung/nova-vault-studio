@@ -859,3 +859,15 @@ wiki/
 | [adrian-ai-video-fundamentals-framing-camera-and-continuity](/md/wiki/sources/adrian-ai-video-fundamentals-framing-camera-and-continuity) | Adrian Punk（@AdrianPunk115）：AI 视频基础（中册）——景别、机位、运镜与画面连续性 | X/Twitter |
 | [heizolshao-why-reddit-commenting-is-more-important-than-posting](/md/wiki/sources/heizolshao-why-reddit-commenting-is-more-important-than-posting) | 左海（@heizolshao）：为什么在 Reddit 上“评论”远比“发帖”更重要？深度解析与实操指南 | X/Twitter |
 | [pamela-build-personal-website-from-scratch-60-ui-checklist](/md/wiki/sources/pamela-build-personal-website-from-scratch-60-ui-checklist) | PamelaAI·H（@pamelaaaaa1218）：从 0 搭建个人网站——8 大类 60+ UI 设计必备清单 | X/Twitter |
+| [situking-entrepreneurship-100-qa-for-creators-and-solopreneurs](/md/wiki/sources/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs) | 司徒K（@situking）：创业百问百答——写给自媒体人和个人创业者（2.3 万字长文实战心法） | X/Twitter |
+| [dankoe-human-3-0-map-to-reach-the-top-one-percent](/md/wiki/sources/dankoe-human-3-0-map-to-reach-the-top-one-percent) | Dan Koe（@thedankoe）：Human 3.0 – A Map To Reach The Top 1%（登顶前 1% 的认知进化地图） | X/Twitter |
+| [wangzai-x-twitter-zero-to-one-beginner-operations-guide](/md/wiki/sources/wangzai-x-twitter-zero-to-one-beginner-operations-guide) | 汪仔（@wangzaimedia）：从 0 到 1 的 X 入门运营指南 | X/Twitter |
+| [longhai-oh-my-x-browser-extension-24-pain-points](/md/wiki/sources/longhai-oh-my-x-browser-extension-24-pain-points) | 龙海（@longhaiqwe123）：玩 X 瑞士军刀——开源浏览器插件 Oh My X，解决 24 个网页端操作痛点（附代码） | X/Twitter |
+| [govin-github-6-insane-open-source-projects-monetization](/md/wiki/sources/govin-github-6-insane-open-source-projects-monetization) | G哥（@goan999999）：GitHub 已经彻底疯了！这 6 个免费开源项目，搞钱、提效真的太猛了 | X/Twitter |
+| [jaden-paul-graham-how-time-and-money-are-lost](/md/wiki/sources/jaden-paul-graham-how-time-and-money-are-lost) | Jaden 抽象日志（@Jaden_riku）：Paul Graham——时间和金钱，是怎样失去的 | X/Twitter |
+| [xoyif-red-crow-ai-batch-xhs-image-text-replication-skill](/md/wiki/sources/xoyif-red-crow-ai-batch-xhs-image-text-replication-skill) | 北衡（@xoyif63862452）：红鸦 AI——一人公司怎么批量做小红书图文，靠的是这个复刻 Skill | X/Twitter |
+| [alswl-ai-native-practices-continuation-towards-stage-8](/md/wiki/sources/alswl-ai-native-practices-continuation-towards-stage-8) | Jingchao（@alswl）：AI Native 实践续篇——迈向 Stage 8（全自动软件交付与认知升级） | X/Twitter |
+| [sagasu-grok-bot-automated-backlink-submission-4000-sites](/md/wiki/sources/sagasu-grok-bot-automated-backlink-submission-4000-sites) | SagaSu（@sujingshen）：用 Grok Bot 自动化提交外链——一天跑完 4000 多个站的完整流程 | X/Twitter |
+| [qianshuixia-wise-hk-card-stripe-and-outsea-express-solution](/md/wiki/sources/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution) | 浅水虾（@qianshuixia2026）：Wise 港卡搞定 Stripe！避开号码泄露，送大家出海“三通一达” | X/Twitter |
+| [liangzhu-fde-in-action-01-automated-local-content-delivery-sop](/md/wiki/sources/liangzhu-fde-in-action-01-automated-local-content-delivery-sop) | 良竹（@liangzhu_AI）：掌控 AI·FDE 实战 01｜万字实操 SOP——搭建本地自动内容交付流水线 | X/Twitter |
+| [threeai-10-ways-to-monetize-ai-beauty-content-china-cases](/md/wiki/sources/threeai-10-ways-to-monetize-ai-beauty-content-china-cases) | 三个三（@3three_AI）：从国内真实案例看，把 AI 美女变成钱的 10 种方法 | X/Twitter |

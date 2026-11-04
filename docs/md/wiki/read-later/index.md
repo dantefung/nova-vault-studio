@@ -105,20 +105,20 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/AdrianPunk115/status/2111742325865210099 | **Adrian Punk（@AdrianPunk115）**：AI 视频基础（中册）：景别、机位、运镜与画面连续性 → 已归档 ([adrian-ai-video-fundamentals-framing-camera-and-continuity](/md/wiki/sources/adrian-ai-video-fundamentals-framing-camera-and-continuity)) |
 | 2026-09-29 | https://x.com/heizolshao/status/2111616231723970623 | **左海（@heizolshao）**：为什么在 Reddit 上“评论”远比“发帖”更重要？ → 已归档 ([heizolshao-why-reddit-commenting-is-more-important-than-posting](/md/wiki/sources/heizolshao-why-reddit-commenting-is-more-important-than-posting)) |
 | 2026-09-29 | https://x.com/pamelaaaaa1218/status/2111490939604681059 | **PamelaAI·H（@pamelaaaaa1218）**：从 0 搭建个人网站：8 大类 60+ UI 设计必备清单 → 已归档 ([pamela-build-personal-website-from-scratch-60-ui-checklist](/md/wiki/sources/pamela-build-personal-website-from-scratch-60-ui-checklist)) |
-| 2026-09-29 | https://x.com/isituking/status/2111743535959711875 | 待查看 |
-| 2026-09-29 | https://x.com/thedankoe/status/2023779299367809063 | 待查看 |
-| 2026-09-29 | https://x.com/wangzaimedia/status/2111733278353060215 | 待查看 |
-| 2026-09-29 | https://x.com/longhaiqwe123/status/2111411103528079642 | 待查看 |
-| 2026-09-29 | https://x.com/goan999999/status/2111807626329965049 | 待查看 |
-| 2026-09-29 | https://x.com/Jaden_riku/status/2111846432026378666 | 待查看 |
-| 2026-09-29 | https://x.com/aiRobertDaily/status/2111397327231721560 | 待查看 |
-| 2026-09-29 | https://x.com/xoyif63862452/status/2111984579657797975 | 待查看 |
-| 2026-09-29 | https://x.com/alswl/status/2112111190096928930 | 待查看 |
-| 2026-09-29 | https://x.com/xuxuanzhou/status/2112129349071831259 | 待查看 |
-| 2026-09-29 | https://x.com/sujingshen/status/2112061360708403397 | 待查看 |
-| 2026-09-29 | https://x.com/qianshuixia2026/status/2112035541177016322 | 待查看 |
-| 2026-09-29 | https://x.com/liangzhu_AI/status/2112076323598516443 | 待查看 |
-| 2026-09-29 | https://x.com/3three_AI/status/2112028716138422443 | 待查看 |
+| 2026-09-29 | https://x.com/isituking/status/2111743535959711875 | **司徒K（@situking）**：创业百问百答：写给自媒体人和个人创业者（2.3万字长文） → 已归档 ([situking-entrepreneurship-100-qa-for-creators-and-solopreneurs](/md/wiki/sources/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs)) |
+| 2026-09-29 | https://x.com/thedankoe/status/2023779299367809063 | **Dan Koe（@thedankoe）**：Human 3.0 – A Map To Reach The Top 1% → 已归档 ([dankoe-human-3-0-map-to-reach-the-top-one-percent](/md/wiki/sources/dankoe-human-3-0-map-to-reach-the-top-one-percent)) |
+| 2026-09-29 | https://x.com/wangzaimedia/status/2111733278353060215 | **汪仔（@wangzaimedia）**：从 0 到 1 的 X 入门运营指南 → 已归档 ([wangzai-x-twitter-zero-to-one-beginner-operations-guide](/md/wiki/sources/wangzai-x-twitter-zero-to-one-beginner-operations-guide)) |
+| 2026-09-29 | https://x.com/longhaiqwe123/status/2111411103528079642 | **龙海（@longhaiqwe123）**：玩 X 瑞士军刀：开源浏览器插件 Oh My X，解决 24 个网页端操作痛点 → 已归档 ([longhai-oh-my-x-browser-extension-24-pain-points](/md/wiki/sources/longhai-oh-my-x-browser-extension-24-pain-points)) |
+| 2026-09-29 | https://x.com/goan999999/status/2111807626329965049 | **G哥（@goan999999）**：GitHub 这 6 个免费开源项目，搞钱提效太猛了 → 已归档 ([govin-github-6-insane-open-source-projects-monetization](/md/wiki/sources/govin-github-6-insane-open-source-projects-monetization)) |
+| 2026-09-29 | https://x.com/Jaden_riku/status/2111846432026378666 | **Jaden 抽象日志（@Jaden_riku）**：Paul Graham：时间和金钱，是怎样失去的 → 已归档 ([jaden-paul-graham-how-time-and-money-are-lost](/md/wiki/sources/jaden-paul-graham-how-time-and-money-are-lost)) |
+| 2026-09-29 | https://x.com/aiRobertDaily/status/2111397327231721560 | **aiRobertDaily**：SEO Stripe 反向产品挖掘法 → 已归档 ([seo-stripe-reverse-product-discovery](/md/wiki/sources/seo-stripe-reverse-product-discovery)) |
+| 2026-09-29 | https://x.com/xoyif63862452/status/2111984579657797975 | **北衡（@xoyif63862452）**：红鸦 AI：一人公司怎么批量做小红书图文复刻 Skill → 已归档 ([xoyif-red-crow-ai-batch-xhs-image-text-replication-skill](/md/wiki/sources/xoyif-red-crow-ai-batch-xhs-image-text-replication-skill)) |
+| 2026-09-29 | https://x.com/alswl/status/2112111190096928930 | **Jingchao（@alswl）**：AI Native 实践续篇：迈向 Stage 8 → 已归档 ([alswl-ai-native-practices-continuation-towards-stage-8](/md/wiki/sources/alswl-ai-native-practices-continuation-towards-stage-8)) |
+| 2026-09-29 | https://x.com/xuxuanzhou/status/2112129349071831259 | **xuxuanzhou**：72小时 5480 美金新词站打法 → 已归档 ([xuxuanzhou-72h-5480usd-new-word-site](/md/wiki/sources/xuxuanzhou-72h-5480usd-new-word-site)) |
+| 2026-09-29 | https://x.com/sujingshen/status/2112061360708403397 | **SagaSu（@sujingshen）**：用 Grok Bot 自动化提交外链：一天跑完 4000 多个站 → 已归档 ([sagasu-grok-bot-automated-backlink-submission-4000-sites](/md/wiki/sources/sagasu-grok-bot-automated-backlink-submission-4000-sites)) |
+| 2026-09-29 | https://x.com/qianshuixia2026/status/2112035541177016322 | **浅水虾（@qianshuixia2026）**：Wise 港卡搞定 Stripe！避开号码泄露送出海三通一达 → 已归档 ([qianshuixia-wise-hk-card-stripe-and-outsea-express-solution](/md/wiki/sources/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution)) |
+| 2026-09-29 | https://x.com/liangzhu_AI/status/2112076323598516443 | **良竹（@liangzhu_AI）**：掌控 AI·FDE 实战 01｜万字实操 SOP：搭建本地自动内容交付流水线 → 已归档 ([liangzhu-fde-in-action-01-automated-local-content-delivery-sop](/md/wiki/sources/liangzhu-fde-in-action-01-automated-local-content-delivery-sop)) |
+| 2026-09-29 | https://x.com/3three_AI/status/2112028716138422443 | **三个三（@3three_AI）**：从国内真实案例看把 AI 美女变成钱的 10 种方法 → 已归档 ([threeai-10-ways-to-monetize-ai-beauty-content-china-cases](/md/wiki/sources/threeai-10-ways-to-monetize-ai-beauty-content-china-cases)) |
 | 2026-09-29 | https://x.com/qingj1314/status/2111669870958190608 | 待查看 |
 | 2026-09-29 | https://x.com/Leepriest1990/status/2111981939947376836 | 待查看 |
 | 2026-09-29 | https://x.com/shaozhu93314/status/2107407716226638129 | 待查看 |
