@@ -505,4 +505,19 @@ date: "2026-05-05"
 
 ## 个人 AI 工作流参考
 
+### Felix 个人 AI 工作流
+
 - [我的常用 AI 工具](https://mp.weixin.qq.com/s/BBUc4NVORsCTF8c3dIX3HQ) — Felix（AI观察志）：本地助理 Hermes+Mac mini / 飞书+lark-cli / Codex+Claude+GLM / Obsidian+Claudian / PPT工具链，完整个人 AI 工作流
+
+### 个人高频使用的 10 个 AI 与自媒体生产力产品
+
+- [AnyToCopy](https://www.anytocopy.com/) — 链接提取视频文字稿：各大社媒的视频、音频、网页文章都能快速转成文字，支持 CLI 命令行，可以直接写进自己的脚本和自动化流程里
+- [Guaikei](https://www.guaikei.com/) — 用 API 调取全网社媒内容：以 API/MCP/Skill 形式获取任意平台的社媒内容（点赞、收藏等互动数据可直接调取，文章和视频也能通过接口下载），为自媒体自动化分析系统（如 creator-buddy）提供核心数据层
+- [蚁小二分发](https://www.yixiaoer.cn/) — 国内外多平台一键分发工具：一篇内容同步推送到多个账号后台，自媒体稳定分发首选
+- [飞书排版](https://github.com/SpaceZephyr/feishu-convert) — Chrome 插件，飞书文章一键排成平台图文：把飞书文档里的文章一键排成小红书 3:4 图文卡片和公众号文章，内置多种排版格式自动适配两个平台的版式，排好后可一键导入小红书和公众号后台发布
+- [X 文章导入插件](https://konge.space/products/) — Chrome 插件，一键同步到 X 文章：把在本地、飞书和公众号里的文章一键排版导入 X（Twitter）Articles 长文草稿并发布，解决 X 手动传图排版的痛点
+- [Magpie](https://usemagpie.cn/) — 所有模型 API 的统一转接器（年度最佳）：本机网关（127.0.0.1:3425）互译 OpenAI Chat / Responses / Anthropic Messages / Gemini 协议，能把市面上用得到的模型平台 API、Agent 全部统一对接起来，在 DeepSeek Harness 里可无缝接入 Gemini、Codex、OpenCode 等任意平台 API，一个 Agent 调度多家模型
+- [DeepSeek Harness](https://dshmp.com/) — 能自己 DIY 插件的 Agent：主力开发工具，搭配 DeepSeek 4.1 Flash 使用效果出奇地好，支持自己动手制作各种插件、改造专属开发工作流
+- [ego-lite](https://github.com/citrolabs/ego-lite) — 给 AI Agent 专用的独立浏览器：人类日常浏览用 Chrome，Agent 干活用 egolite（基于 Space 隔离工作区，在后台独立空间静默执行任务，不抢鼠标与标签页，自带登录态与高质量页面语义快照）
+- [GrokBot](https://grokbot.dev/) — 手机上远程调度 Agent 的工具：支持在手机端（Telegram 等）远程调度各个 Agent 跑任务、处理工作，即使不在电脑前也能持续推进事情
+- [UU 远程控制](https://uupc.163.com/) — 免费轻量的远程控制工具：免费、轻量，手机端和电脑端操作体验流畅，满足使用 Agent 后的移动办公与挂机监控需求
