@@ -287,6 +287,7 @@ wiki/
 | [zeroagent-01-tech-stack](/md/wiki/sources/zeroagent-01-tech-stack) | 从码农到工匠：从零构建 Agent（一）——技术选型，Go/Python 两次弯路后全栈 TypeScript 的必选项结论 | 微信公众号 |
 | [zeroagent-02-llm-interaction](/md/wiki/sources/zeroagent-02-llm-interaction) | 从码农到工匠：从零构建 Agent（二）——大模型交互，Responses API 请求/响应结构与六种用法 | 微信公众号 |
 | [zeroagent-03-agent-loop](/md/wiki/sources/zeroagent-03-agent-loop) | 从码农到工匠：从零构建 Agent（三）——Agent Loop 与 ReAct，四阶段闭环、SSE 事件映射与三种终止条件 | 微信公众号 |
+| [zeroagent-04-function-calling](/md/wiki/sources/zeroagent-04-function-calling) | 从码农到工匠：从零构建 Agent（四）——Function Calling，5 个本地工具与 Strict Mode 取舍、并发执行与顺序回填 | 微信公众号 |
 | [zeroagent-05-mcp](/md/wiki/sources/zeroagent-05-mcp) | 从码农到工匠：从零构建 Agent（五）——MCP 工具协议，命名空间隔离与 In-Memory 测试策略 | 微信公众号 |
 | [zeroagent-06-skills](/md/wiki/sources/zeroagent-06-skills) | 从码农到工匠：从零构建 Agent（六）——Skills 与渐进式披露，前言/全文/引用三级加载机制 | 微信公众号 |
 | [zeroagent-07-session-management](/md/wiki/sources/zeroagent-07-session-management) | 从码农到工匠：从零构建 Agent（七）——Session 管理，SQLite 零依赖持久化与上下文注入回写 | 微信公众号 |

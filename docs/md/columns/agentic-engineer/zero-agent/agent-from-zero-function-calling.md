@@ -16,8 +16,6 @@ Agent 的能力边界，取决于它能调用什么工具。Claude Code 能读�
 
 注意，Function Calling 有时候也叫 Tool Calling，业界会混用这两个词，表达的是一个意思。本文我们在上一篇的基础上，扩展出一组真正有用的 Function Calling 工具。
 
-> 打个预告，作者会在 2026.10.23 的上海 QCon 现场签名售书《Harness 工程实战》。
-
 ## 1. 什么是 Function Calling
 
 模型是"大脑"，但它没有手脚。它不能：
@@ -29,6 +27,8 @@ Agent 的能力边界，取决于它能调用什么工具。Claude Code 能读�
 模型的输出只有文本。Function Calling 是一座桥梁：模型按照预定义的 JSON Schema 输出工具调用意图，Agent 在本地执行真正的操作，再把结果作为"观察"喂回模型。
 
 为了在 Agent 中实现 Function Calling 能力，我们需要经历以下阶段：
+
+![从文本输出到 Function Calling 的实现阶段](./images/agent-from-zero-function-calling/001.png)
 
 **关键点**：模型不执行工具，它只产生调用意图。执行权永远在 Agent 侧。这意味着 Agent 可以做权限控制、参数校验、超时取消——这些都是模型无法自己管理的。
 
@@ -205,16 +205,40 @@ async function handleEditFile(args: {
 
 ### 3.2 命令执行（run_terminal_command）
 
-执行 shell 命令，使用 `grep` 做递归搜索：
+通过 `node:child_process` 的 `exec` 执行 shell 命令：
+
+```typescript
+async function handleRunTerminalCommand(args: { command: string }): Promise<string> {
+  const { stdout, stderr } = await exec(args.command, {
+    maxBuffer: 1024 * 1024,
+    timeout: 30_000,
+  });
+  return JSON.stringify({ stdout, stderr });
+}
+```
+
+两个安全边界：
+
+- **`maxBuffer: 1MB`**：防止命令输出撑爆内存。超过限制会抛错，Agent 将错误回传给模型。
+- **`timeout: 30_000`**：30 秒超时。防止模型启动一个死循环命令把 Agent 卡住。
+
+注意 `exec` 和 `execFile` 的区别：`exec` 通过 shell 执行，支持管道、重定向等 shell 语法；`execFile` 直接 spawn 进程，更安全但不支持 shell 特性。这里选择 `exec` 是因为模型生成的命令经常包含管道（如 `grep -rn foo src/ | head -20`）。
+
+### 3.3 文件搜索（file_search）
+
+封装 `grep -rn`，递归搜索目录，返回匹配的行及行号：
 
 ```typescript
 async function handleFileSearch(args: {
   pattern: string;
   path?: string;
 }): Promise<string> {
+  const searchPath = args.path ?? '.';
+  let stdout: string;
+  let stderr: string;
   try {
     const result = await exec(
-      `grep -rn ${JSON.stringify(args.pattern)} ${JSON.stringify(args.searchPath)}`,
+      `grep -rn -- ${JSON.stringify(args.pattern)} ${JSON.stringify(searchPath)}`,
       { maxBuffer: 1024 * 1024, timeout: 30_000 },
     );
     stdout = result.stdout;
@@ -236,7 +260,7 @@ async function handleFileSearch(args: {
 >
 > 正确做法是捕获退出码 1，将空结果正常返回给模型。只有退出码 2（真正的错误，如目录不存在、正则非法）才向上抛出。
 
-### 3.3 Agent Loop 中的工具集成
+### 3.4 Agent Loop 中的工具集成
 
 在上一篇 Agent Loop 中，工具执行部分只有简单几行。本章的循环逻辑不变，但工具列表从单个 `weatherTool` 变成了 `allTools`，执行路径更加完整。以下是 Agent Loop 中工具执行的关键片段：
 
@@ -310,6 +334,8 @@ Agent 执行完命令之后，会把下面的信息加入到 conversation 上下
 可以看到通过 `call_id` 进行关联，模型知道 function_call 的结果是在 `function_call_output` 中，其结果显示是成功的，可以进行 HTML 游戏编写了。
 
 模型写好代码之后，会用类似的方式，通过 `write_file` 工具将结果保存到 tmp 目录下，一个简易的贪吃蛇游戏就已经做好了。
+
+![Agent 通过 write_file 保存的贪吃蛇游戏](./images/agent-from-zero-function-calling/002.png)
 
 ## 5. 总结
 

@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-04] ingest: 「从零构建 Agent」系列补齐第 4 篇（Function Calling），全系列 12/12 完结
+
+- 来源：公众号「从码农到工匠」《从零构建Agent(四)：Function Calling》（2026-10-12），原链 `https://mp.weixin.qq.com/s/mYuzKR48DsMKJpJ2MMyTg` 采集时返回「参数错误」，正文取自作者经**墨衍智能分发**同步至 CSDN 的同源镜像 `https://blog.csdn.net/significantfrank/article/details/167695776`（作者原创，含全部 12 个代码块与 2 张原图）
+- 归档至 `sources/zeroagent-04-function-calling.md`：5 个本地工具（`read_file` / `write_file` / `edit_file` / `run_terminal_command` / `file_search`）、FunctionTool 类型定义、Strict Mode 与可选参数的取舍、客户端校验兜底、grep 退出码 1 陷阱、工具 Promise 并发创建 + 按序回填
+- 配图本地化 2 张（`images/zeroagent-04-function-calling/`）：001 原始 3024×4352 / 621KB，用 sharp 缩放至 1400×2015 并重编码 PNG 后 69KB；002 27KB
+- 同时补齐专栏页 `columns/agentic-engineer/zero-agent/agent-from-zero-function-calling.md` 此前缺失的 `3.3 文件搜索` 整节与 2 张配图（该页为 2026-10-12 早期采集版本，同样漏采）
+- 关键发现：仓库内既有专栏页已记录第 4 篇的公众号短链，据此定位到缺失篇目；同时通过比对 12 篇的 `mid` 序列（…383, 387, 393, **399**, 411, 423, 431, 446, 454, 464, 470, 478）交叉验证第 4 篇的发布序号
+- 验证：12 个源码块与 CSDN 镜像素材逐字比对全等；5 个 pre-commit 钩子全部退出码 0；图片引用与内部链接全部命中
+- 状态：**「从零构建 Agent」系列 12 篇现已全部归档**（1–12 无缺口）
+
 ## [2026-11-04] ingest: 「从零构建 Agent」系列第 8、12 篇补采（代码块完整度修复）
 
 - 来源：`https://mp.weixin.qq.com/s/NXBuk7227ST9C4Id5qlL2Q`（第 8 篇 Commands）、`https://mp.weixin.qq.com/s/d7MNYbugkvp-PLsJ0exW9w`（第 12 篇长期 Memory）
