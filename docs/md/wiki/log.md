@@ -4,6 +4,13 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-05] ingest: 唐成《评论区说 ASR+TTS 300ms 不可能》+ AI 资源 voice-pipeline-mvp
+
+- 来源：`https://mp.weixin.qq.com/s/6OG-hhJe-iimIqIN73oEaw`（微信公众号，作者 唐成，2026-11-03）
+- 归档至 `sources/tangcheng-voice-pipeline-asr-tts-300ms-response.md`：回应「串起来不可能到 300ms」——10 轮真机录屏口径拆账；本机 sherpa-onnx / 四层判停 / mlx 1.5B / 讯飞流式；建连挪窗、首片与字数解耦、静音门；生产缺口（TLS/AEC/真人验收）；配套仓库 [voice-pipeline-mvp](https://github.com/helloworldtang/voice-pipeline-mvp)
+- 配图本地化 10 张（`images/voice-pipeline-asr-tts-300ms/`），去重评论区截图重复块，删除 emoji 残留图
+- AI 编程资源增补：`ai-programming-resources.md` ← `voice-pipeline-mvp`
+
 ## [2026-11-05] ingest: 2 篇 X 长文（Ankole Agent OS / Grok Bot 目录站外链自动化）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 跑通 `fetch → images → build → normalize → check`；Ankole 文流程图 alt 含嵌套方括号导致漏下，手动补 `005.jpg` 后校验通过

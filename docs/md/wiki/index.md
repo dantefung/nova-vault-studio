@@ -889,3 +889,4 @@ wiki/
 | [xiaozhang-jetbrains-thinkrail-ai-ide](/md/wiki/sources/xiaozhang-jetbrains-thinkrail-ai-ide) | 小张：JetBrains 终于出手了！开源 AI IDE ThinkRail——以后写代码，可能真不需要人盯着了 | 微信公众号 |
 | [0xding-ankole-agent-os-for-teams](/md/wiki/sources/0xding-ankole-agent-os-for-teams) | Li (Boris) Ding（@0xDing）：为团队构建真正的 Agent OS——来自 Ankole 的工程实践 | X/Twitter |
 | [intentplex-grok-bot-directory-backlink-automation](/md/wiki/sources/intentplex-grok-bot-directory-backlink-automation) | Wyong（@intentplex）：用 Grok Bot 自动化提交免费目录站外链——可落地的批量做法 | X/Twitter |
+| [tangcheng-voice-pipeline-asr-tts-300ms-response](/md/wiki/sources/tangcheng-voice-pipeline-asr-tts-300ms-response) | 唐成：评论区说「ASR+TTS 接入 300ms 不可能」——实测与源码回应 | 微信公众号 |
