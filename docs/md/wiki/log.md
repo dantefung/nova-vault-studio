@@ -4,6 +4,27 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-05] ingest: MomoAI 两篇 GPT Images 2.6 玩法长文
+
+- 来源：`https://x.com/MaynorAI1/status/2118182994704035918`、`https://x.com/MaynorAI1/status/2118347103219146900`（X/Twitter：MomoAI @MaynorAI1，均 2026-11-05 发布）
+- 归档至 `sources/`：
+  - `maynorai-gpt-images-26-15-monetization-plays.md` — 能力底牌（原生 GIF / SVG 输出 / 参考图锁角色 / Markup 圈选、Flare 与 Sunburst 双模型、$5 / $8 / $30 每 M 定价）+ 15 个「赚钱 + 上站」玩法 + 7 个已开源 Cloudflare 演示站（`awesome-images26`）
+  - `maynorai-gpt-images-26-14-hottest-plays.md` — 按热度排序的 14 种实操玩法（表情包商业化、带字动作 GIF、IP 提示词模板、Schedule 定时出图、Sprite Sheet 序列帧、References 命名库、舞蹈分步拆解、门镜 POV、2×3 分镜、Q 版多视角设定表、Markup 局部重绘），每项带原帖链接
+- 去广告 / 去品牌化：删除作者自有 API 中转站带 `channel=` 参数的注册链接（保留「已上架 gpt-image-2.6-flare / sunburst」这一事实）；玩法 6、玩法 10 中的 tryallapi / momoai 改写为通用的「API 中转站」
+- 结构修正：原 Thread 第 6、7 两条正文完全相同（玩法 9/10 + 引用テツメモ重复一遍），已删除第二份，保持 14 项编号连续
+- **署名修复**：抓取流水线剥离引述头时会连带删掉被引用推文的作者，导致 7 段他人推文（Levi 卧云、歸藏、テツメモ ×2、真白大小姐、カーブミラー、NZ）看起来像本文作者所写；已逐段还原为带「引用：作者 (@handle) · 原帖 URL」的引用块
+- 短链还原：22 条 `t.co` 全部还原为真实 URL
+- 配图：两条 Thread 抓取接口均未返回正文媒体，本次 0 张本地化（被引用推文的图 / GIF 仍以原帖链接形式保留）
+- 排版：能力底牌与开源清单转为列表、玩法标签加粗、`#PromptShare` 加反引号防误判标题；技术内容与结论未改动
+- 索引更新：`index.md` 追加 2 行
+- 未提炼知识页（两篇同作者同日发布、互为补充，已在 sources 层交叉 `related`）
+
+## [2026-11-05] ingest: 一灰灰blog《统一下载中心的收口思路》
+
+- 来源：`https://mp.weixin.qq.com/s/cR3h2c8OxNhoDWfNRUxggQ`（微信公众号「一灰灰blog」，2026-11-05）
+- 归档至 `sources/yihuihui-unified-export-download-center.md`：多业务系统统一导出——SQL 下发 + 回调补全；数据归属权在业务、执行控制权上收平台；双向契约 SDK / 动态 SQL 引擎 / CAS 调度 / 四层一致性防线 / 补全双方案 / 元数据与 Excel 模板双模式；横向对比配置化直连、API 拉取、OFFSET vs 游标、轮询 vs 消息等取舍
+- 配图本地化 12 张（`images/unified-export-download-center/`）：005.png 压缩为 jpg（809KB→115KB）；webp 误扩展名改为 jpg；去重前言粘连块与引用重复
+
 ## [2026-11-05] ingest: 唐成《评论区说 ASR+TTS 300ms 不可能》+ AI 资源 voice-pipeline-mvp
 
 - 来源：`https://mp.weixin.qq.com/s/6OG-hhJe-iimIqIN73oEaw`（微信公众号，作者 唐成，2026-11-03）

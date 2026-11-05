@@ -890,3 +890,6 @@ wiki/
 | [0xding-ankole-agent-os-for-teams](/md/wiki/sources/0xding-ankole-agent-os-for-teams) | Li (Boris) Ding（@0xDing）：为团队构建真正的 Agent OS——来自 Ankole 的工程实践 | X/Twitter |
 | [intentplex-grok-bot-directory-backlink-automation](/md/wiki/sources/intentplex-grok-bot-directory-backlink-automation) | Wyong（@intentplex）：用 Grok Bot 自动化提交免费目录站外链——可落地的批量做法 | X/Twitter |
 | [tangcheng-voice-pipeline-asr-tts-300ms-response](/md/wiki/sources/tangcheng-voice-pipeline-asr-tts-300ms-response) | 唐成：评论区说「ASR+TTS 接入 300ms 不可能」——实测与源码回应 | 微信公众号 |
+| [yihuihui-unified-export-download-center](/md/wiki/sources/yihuihui-unified-export-download-center) | 一灰灰blog：导出功能还要每个系统写一遍吗？统一下载中心的收口思路 | 微信公众号 |
+| [maynorai-gpt-images-26-15-monetization-plays](/md/wiki/sources/maynorai-gpt-images-26-15-monetization-plays) | MomoAI（@MaynorAI1）：GPT Images 2.6 这波更新能赚什么、能上什么站——15 个玩法 + 7 个开源 Cloudflare 演示站 | X/Twitter |
+| [maynorai-gpt-images-26-14-hottest-plays](/md/wiki/sources/maynorai-gpt-images-26-14-hottest-plays) | MomoAI（@MaynorAI1）：GPT Images 2.6 目前最火的 14 种玩法（按热度排序）——每项保留原帖与可复现路径 | X/Twitter |
