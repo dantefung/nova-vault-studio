@@ -297,6 +297,8 @@ wiki/
 | [zeroagent-11-extension](/md/wiki/sources/zeroagent-11-extension) | 从码农到工匠：从零构建 Agent（十一）——Extension 扩展，模型解耦与三级事件分层 | 微信公众号 |
 | [agent-tech-stack-selection](/md/wiki/concepts/agent-tech-stack-selection) | Agent 技术选型：交互层 TypeScript 是必选项，可测试性与可观测性必须第一天就埋进去 | 公众号提炼 |
 | [responses-api-agent-loop](/md/wiki/concepts/responses-api-agent-loop) | Responses API：把 Agentic Loop 打包进协议层的事实标准接口，及其能力边界与实测差异 | 公众号提炼 |
+| [dewu-multi-agent-three-reversals](/md/wiki/sources/dewu-multi-agent-three-reversals) | 得物技术（微辣帝）：多 Agent 架构的三次反转——控制权从中心节点经共享状态下沉到执行者，中间件巡检落地案例 | 微信公众号 |
+| [multi-agent-control-rights](/md/wiki/concepts/multi-agent-control-rights) | 多 Agent 控制权归属三次反转：Master Agent / 任务看板 / Advisor 三种协作方式的选择轴与两个边界前提 | 公众号提炼 |
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
 | [deepseek-harness](/md/wiki/products/deepseek-harness) | DeepSeek 开源的可组装 Agent 底盘：模型、工具、Skill、沙箱、控制流与 UI 一切皆插件 | 用户原创 |
 | [deepseek-harness-summary](/md/wiki/summaries/deepseek-harness-plugin-first-agent-runtime) | DeepSeek Harness 原创材料精读：五个关键洞察、长期资产判断及插件系统待验证边界 | Wiki 摘要 |
@@ -885,3 +887,5 @@ wiki/
 | [niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch) | Niko爱学习（@ai_super_niko）：掌控 Codex 对话节奏——打断、排队、引导和分叉 | X/Twitter |
 | [heminglu-from-ontology-to-ontology-modeling-business-semantics](/md/wiki/sources/heminglu-from-ontology-to-ontology-modeling-business-semantics) | 何明璐（人月聊IT）：从本体论到本体建模——如何构建可生成可推理的业务语义规范 | 微信公众号 |
 | [xiaozhang-jetbrains-thinkrail-ai-ide](/md/wiki/sources/xiaozhang-jetbrains-thinkrail-ai-ide) | 小张：JetBrains 终于出手了！开源 AI IDE ThinkRail——以后写代码，可能真不需要人盯着了 | 微信公众号 |
+| [0xding-ankole-agent-os-for-teams](/md/wiki/sources/0xding-ankole-agent-os-for-teams) | Li (Boris) Ding（@0xDing）：为团队构建真正的 Agent OS——来自 Ankole 的工程实践 | X/Twitter |
+| [intentplex-grok-bot-directory-backlink-automation](/md/wiki/sources/intentplex-grok-bot-directory-backlink-automation) | Wyong（@intentplex）：用 Grok Bot 自动化提交免费目录站外链——可落地的批量做法 | X/Twitter |

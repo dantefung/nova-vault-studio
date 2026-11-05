@@ -41,6 +41,7 @@ url: "https://github.com/Conn-Ho/harness-engineering"
 | [Harness开源框架Hermes‑Agent详解](./hermes-agent-detail.md) | Hermes 开源框架核心架构解析，Agent 设计与实现细节 |
 | [Harness 工程治理：从一次做成，到可复制、可运营的交付能力](./harness-governance-delivery.md) | 从单次成功到可复制交付能力的工程治理方法论 |
 | [Hello Harness 15 · Event System](./3c52sR9hnLmIK7J_C_Y1qg.md) | Event System 让运行过程从「事后翻档案」变成「实时看直播」 |
+| [一文拆解 DeepSeek Harness](./deepseek-harness-breakdown.md) | 解读 DSH Super-agent：sessionless、Router/Worker、事件工作态与身份/感知/界面三设想 |
 
 ## 模板
 

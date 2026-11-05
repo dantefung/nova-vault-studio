@@ -4,6 +4,23 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-05] ingest: 2 篇 X 长文（Ankole Agent OS / Grok Bot 目录站外链自动化）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 跑通 `fetch → images → build → normalize → check`；Ankole 文流程图 alt 含嵌套方括号导致漏下，手动补 `005.jpg` 后校验通过
+- 归档：
+  1. `sources/0xding-ankole-agent-os-for-teams.md`（Li Boris Ding @0xDing，204 行，5 图）：为团队构建真正的 Agent OS——单用户 Harness 套壳与群聊 MCP 机器人撑不住三十人真业务；Ankole 五层：共享工作空间（带类型表/可塑应用/setuid）、多主体权限与隔离 A2A、治理空间、有状态控制面、按需 Linux 沙箱 + FUSE 权限挂载与三方合并
+  2. `sources/intentplex-grok-bot-directory-backlink-automation.md`（Wyong @intentplex，102 行，0 图）：综合 sitin/SagaSu/爱出海实践，用 Grok Bot 云电脑+原生邮箱+Routine 批量提交免费目录外链；素材包/禁写清单/跟踪表/日报，质量优先、每天约 5 站
+- 交叉引用：`concepts/harness-engineering`、`sources/agentscope-2.0-harnessagent-os-architecture`、`sources/sagasu-grok-bot-automated-backlink-submission-4000-sites`、`sources/sopilot-400-directories-submission-platform`、`sources/lzj-grok-bot-beginner-guide`
+
+## [2026-11-04] ingest: 得物技术《多 Agent 架构的三次反转》
+
+- 来源：`https://mp.weixin.qq.com/s/C9A9ZEw_EPPaFyxhKjD05A`（微信公众号「得物技术」，作者 微辣帝，2026-11-04）
+- 归档至 `sources/dewu-multi-agent-three-reversals.md`：多 Agent 架构的四个组织问题（谁拆解 / 谁分配 / 谁判断完成 / 共享什么信息）归一为「控制权在哪里」；两个边界前提（上下文边界、模型边界）；三种协作方式（Master Agent 中心调度 / 任务看板共享状态 / Advisor 按需咨询）；控制权下沉路径；中间件巡检落地案例（组件级路由、看板并行与租约自愈、RCA Advisor 按需咨询）
+- 提炼知识页（新建）：`concepts/multi-agent-control-rights` — 多 Agent 控制权归属：三次反转（与既有 `patterns/orchestrator-pattern` 的集中编排形态、`patterns/multi-agent-architecture` 的三层九阶段框架互补，提供「选型轴」而非重复）
+- 配图本地化 11 张（`images/dewu-multi-agent-three-reversals/`）：原文 001 为 GIF，用 sharp 提取首帧转 PNG（302KB → 52KB）；文末得物技术小助手引流二维码按去广告规则删除；其余 PNG 单张 52–180KB，均 <500KB
+- 去广告处理：删除「往期回顾」文章列表、关注/点赞转发话术、扫码引流段与二维码；保留作者署名（文 / 微辣帝）与版权声明
+- 验证：5 个 pre-commit 钩子全部退出码 0；11 处图片引用全部命中实际文件；内部链接目标存在；`npm run build` 通过
+
 ## [2026-11-04] ingest: 小张《JetBrains 终于出手了！开源 AI IDE ThinkRail——以后写代码，可能真不需要人盯着了》
 
 - 抓取与归档：微信公众号长文 `https://mp.weixin.qq.com/s/lFXWUQoc0-PE74umtTk1Mg`，本地化 2 张官方界面截图，归档至 `sources/xiaozhang-jetbrains-thinkrail-ai-ide.md`
