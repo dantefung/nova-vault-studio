@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-06] ingest: Eian（@EianLu）《Claude Code/Codex + Seedance AI 视频——从一个想法到成片的全流程》
+
+- 抓取与归档：X 长文 `https://x.com/EianLu/status/2118317430665613741`，本地化 7 张配图，归档至 `sources/eian-claude-code-codex-seedance-ai-video-full-workflow.md`
+- 核心内容：
+  1. **工具层分工**：Claude Code 当总导演，Codex 与 Seedance 作为执行层接入 Claude，全程只与一个模型沟通；人只负责选方向、确认画风、批准花钱、看动态听声音；Claude 写故事与分镜、写所有提示词、检查每张图每段视频、写后期代码。
+  2. **操作层八步流水线**：① 从一个想法到完整剧情 → ② 分镜（定镜头语言、构图与配色）→ ③ 锁定画风并画设定图 → ④ 逐片段出首尾帧图片 → ⑤ 写视频提示词并在提交前审核 → ⑥ 生成视频 → ⑦ 拼接、转场、调色、放大 → ⑧ 全片复核与交付。
+  3. **完整提示词**：文中给出各阶段可直接复用的提示词模板。
+  4. **四线程并行工作模式**：作者最后分享的多线程协作工作方式与「所有决定和花费都记进审核记录、可随时推翻」的审计原则。
+- 索引更新：`index.md` 追加 1 行
+
 ## [2026-11-06] ingest: 3 篇 X/Twitter 长文（Grok Bot 扒选题挖评论需求 / 找词-代码-外链三线工作流 / 手写迷你 Cordis 再学 DSH）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，归档至 `sources/`

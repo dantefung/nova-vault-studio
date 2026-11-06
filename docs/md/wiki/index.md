@@ -902,3 +902,4 @@ wiki/
 | [binghe-grok-bot-14day-topics-and-hot-comments-demand-mining](/md/wiki/sources/binghe-grok-bot-14day-topics-and-hot-comments-demand-mining) | 冰河（@binghe）：我教你怎么用 AI 马上赚到钱——用 Grok Bot 扒大博主近 14 天选题，再从评论区挖真实付费需求 | X/Twitter |
 | [wuc-three-line-workflow-keyword-code-backlink-pipeline](/md/wiki/sources/wuc-three-line-workflow-keyword-code-backlink-pipeline) | Wu（@Wuc436）：重构后的工作流——找词线、代码线、外链线三条并行流水线的极简分工 | X/Twitter |
 | [antiaivo-handwrite-mini-cordis-before-learning-dsh](/md/wiki/sources/antiaivo-handwrite-mini-cordis-before-learning-dsh) | 纳米AI（@antiAIvo）：学 DeepSeek Harness 之前，我先手写了一个迷你版 Cordis | X/Twitter |
+| [eian-claude-code-codex-seedance-ai-video-full-workflow](/md/wiki/sources/eian-claude-code-codex-seedance-ai-video-full-workflow) | Eian（@EianLu）：Claude Code/Codex + Seedance AI 视频——从一个想法到成片的全流程 | X/Twitter |
