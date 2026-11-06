@@ -903,3 +903,4 @@ wiki/
 | [wuc-three-line-workflow-keyword-code-backlink-pipeline](/md/wiki/sources/wuc-three-line-workflow-keyword-code-backlink-pipeline) | Wu（@Wuc436）：重构后的工作流——找词线、代码线、外链线三条并行流水线的极简分工 | X/Twitter |
 | [antiaivo-handwrite-mini-cordis-before-learning-dsh](/md/wiki/sources/antiaivo-handwrite-mini-cordis-before-learning-dsh) | 纳米AI（@antiAIvo）：学 DeepSeek Harness 之前，我先手写了一个迷你版 Cordis | X/Twitter |
 | [eian-claude-code-codex-seedance-ai-video-full-workflow](/md/wiki/sources/eian-claude-code-codex-seedance-ai-video-full-workflow) | Eian（@EianLu）：Claude Code/Codex + Seedance AI 视频——从一个想法到成片的全流程 | X/Twitter |
+| [ipp-pod-side-project-logic-overview](/md/wiki/sources/ipp-pod-side-project-logic-overview) | 澎湃王侯：【TK-POD】副业项目逻辑概述——信息差 × POD 按需生产 × 跨境的三层组合 | 微信公众号 |
