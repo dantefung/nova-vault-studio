@@ -4,6 +4,16 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-06] ingest: 3 篇 X/Twitter 长文（Grok Bot 扒选题挖评论需求 / 找词-代码-外链三线工作流 / 手写迷你 Cordis 再学 DSH）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，归档至 `sources/`
+- 归档列表：
+  1. `sources/binghe-grok-bot-14day-topics-and-hot-comments-demand-mining.md`（冰河 @binghe，56 行，0 图）：用 Grok Bot 扒大博主近 14 天选题，再从评论区挖真实付费需求。
+  2. `sources/wuc-three-line-workflow-keyword-code-backlink-pipeline.md`（Wu @Wuc436，33 行，0 图）：找词线、代码线、外链线三条并行流水线的极简分工。
+  3. `sources/antiaivo-handwrite-mini-cordis-before-learning-dsh.md`（纳米AI @antiAIvo，50 行，0 图）：学 DeepSeek Harness 之前，先手写一个迷你版 Cordis。
+- 索引更新：`index.md` 追加 3 行
+- 查重跳过：`https://x.com/FanShifu/status/2117601715147141360`（范师傅 Grok Bot 800 新站监控）此前已归档为 `sources/fanshifu-grok-bot-800-new-sites-monitoring-workflow.md`，本次不重复收录
+
 ## [2026-11-06] ingest: 6 篇 X/Twitter 长文（超级智能构建提示词 / 3 天出海建站 / 小红书 Agent 选品 / dim 事件时间线 harness / 工具站 SEO 焚诀 / X 长文 Skill 开源）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 62 张，归档至 `sources/`

@@ -899,3 +899,6 @@ wiki/
 | [ashfold-dim-event-timeline-agent-harness-release](/md/wiki/sources/ashfold-dim-event-timeline-agent-harness-release) | Han Cheng e/acc（@ashfold）：发布 dim——为 Agent 构造新的容器与躯体 | X/Twitter |
 | [chainepic-tool-site-competitor-keyword-seo-formula](/md/wiki/sources/chainepic-tool-site-competitor-keyword-seo-formula) | Roland（@ChainEpic）：工具站最易出单的五步 SEO 焚诀——竞品词劫持、首屏参数表、客观捧杀与实测截图 | X/Twitter |
 | [jessicao-x-article-skill-corpus-illustration-cover-open-source](/md/wiki/sources/jessicao-x-article-skill-corpus-illustration-cover-open-source) | Jessi Cao（@JessiCao_JC）：我把写 X 长文的流程做成了 Skill——语料、配图、封面，整套开源 | X/Twitter |
+| [binghe-grok-bot-14day-topics-and-hot-comments-demand-mining](/md/wiki/sources/binghe-grok-bot-14day-topics-and-hot-comments-demand-mining) | 冰河（@binghe）：我教你怎么用 AI 马上赚到钱——用 Grok Bot 扒大博主近 14 天选题，再从评论区挖真实付费需求 | X/Twitter |
+| [wuc-three-line-workflow-keyword-code-backlink-pipeline](/md/wiki/sources/wuc-three-line-workflow-keyword-code-backlink-pipeline) | Wu（@Wuc436）：重构后的工作流——找词线、代码线、外链线三条并行流水线的极简分工 | X/Twitter |
+| [antiaivo-handwrite-mini-cordis-before-learning-dsh](/md/wiki/sources/antiaivo-handwrite-mini-cordis-before-learning-dsh) | 纳米AI（@antiAIvo）：学 DeepSeek Harness 之前，我先手写了一个迷你版 Cordis | X/Twitter |
