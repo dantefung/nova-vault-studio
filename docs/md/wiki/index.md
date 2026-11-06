@@ -905,3 +905,6 @@ wiki/
 | [eian-claude-code-codex-seedance-ai-video-full-workflow](/md/wiki/sources/eian-claude-code-codex-seedance-ai-video-full-workflow) | Eian（@EianLu）：Claude Code/Codex + Seedance AI 视频——从一个想法到成片的全流程 | X/Twitter |
 | [ipp-pod-side-project-logic-overview](/md/wiki/sources/ipp-pod-side-project-logic-overview) | 澎湃王侯：【TK-POD】副业项目逻辑概述——信息差 × POD 按需生产 × 跨境的三层组合 | 微信公众号 |
 | [joker-seo-data-metrics-confusion](/md/wiki/sources/joker-seo-data-metrics-confusion) | Joker（SEOActionBlog 演讲嘉宾）：SEOer 容易陷入的「数据指标」困惑——DR/DA/AS、外链数量、字数与跳出率的真相 | 微信公众号 / X/Twitter |
+| [stanley-poor-busy-thinking-vs-premium-client-selection](/md/wiki/sources/stanley-poor-busy-thinking-vs-premium-client-selection) | Stanley（@Stanleysobest）：穷生意卖的是价格，贵生意卖的是客户承受不起的后果 | X/Twitter |
+| [shanyanggm-18-harsh-truths-about-wealthy-clients](/md/wiki/sources/shanyanggm-18-harsh-truths-about-wealthy-clients) | 山羊赚钱笔记（@shanyanggm）：一位财富自由的 A8 大佬总结的 18 条恶心却有用的道理 | X/Twitter |
+| [xiaofeiyangfe-gsc-simulator-6-data-reading-lessons](/md/wiki/sources/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons) | 小肥羊（@xiaofeiyangfe）：平均排名会骗人——我用 GSC 模拟器学会看数据的 6 件事 | X/Twitter |
