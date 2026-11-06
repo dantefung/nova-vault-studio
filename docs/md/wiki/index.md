@@ -908,3 +908,4 @@ wiki/
 | [stanley-poor-busy-thinking-vs-premium-client-selection](/md/wiki/sources/stanley-poor-busy-thinking-vs-premium-client-selection) | Stanley（@Stanleysobest）：穷生意卖的是价格，贵生意卖的是客户承受不起的后果 | X/Twitter |
 | [shanyanggm-18-harsh-truths-about-wealthy-clients](/md/wiki/sources/shanyanggm-18-harsh-truths-about-wealthy-clients) | 山羊赚钱笔记（@shanyanggm）：一位财富自由的 A8 大佬总结的 18 条恶心却有用的道理 | X/Twitter |
 | [xiaofeiyangfe-gsc-simulator-6-data-reading-lessons](/md/wiki/sources/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons) | 小肥羊（@xiaofeiyangfe）：平均排名会骗人——我用 GSC 模拟器学会看数据的 6 件事 | X/Twitter |
+| [kagent-agent-substrate-k8s-agent-sandbox](/md/wiki/sources/kagent-agent-substrate-k8s-agent-sandbox) | Michael Levan：AI Agent 如何安全运行在 Kubernetes 上？——从沙箱隔离到 kagent 实战 | 微信公众号 |

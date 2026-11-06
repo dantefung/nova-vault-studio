@@ -4,6 +4,21 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-06] ingest: Michael Levan《AI Agent 如何安全运行在 Kubernetes 上？——从沙箱隔离到 kagent 实战》
+
+- 抓取与归档：微信公众号 `https://mp.weixin.qq.com/s/j-HOKUKSIU1dOJ5HKhfr3A`，本地化 8 张配图，归档至 `sources/kagent-agent-substrate-k8s-agent-sandbox.md`
+- 图片处理：`004.png` 原始体积 464KB，用 `sharp` 以 palette 量化压缩至 181KB（画质无损可接受），其余 7 张均 <80KB
+- 结构修正：fetch 流水线因嵌套 `<section>` 把整篇文章拼接成单行（10491 字符）并重复输出封面图，已删除该拼接行与重复封面，保留 8 张图各自对应原文小节
+- 核心内容：
+  1. **Agent 生产化三支柱**：隔离（Isolation，防止影响宿主机与其他负载）、安全（Security，策略执行与权限控制）、扩展（Scale，按需启动且高效利用基础设施）。
+  2. **容器沙箱为何形同虚设**：入站出站流量全开放、可向任意目标发包、无强制策略；网络策略/分段/路由只能收紧边界，无法改变沙箱机制天然「扁平化」的事实。
+  3. **安全沙箱五条硬性要求**：不可信代码不得逃逸到宿主机；尽量缩小 Harness 影响范围；持有模型输出、凭据与工具调用的 Agent 须始终在隔离边界内；支持快照以便从中断处续跑；多租户多路复用须有明确边界。实现上需硬件与软件双层隔离，并在流量到达目标时由 AI 网关强制执行策略。
+  4. **Agent Substrate 双层隔离**：容器与软件隔离的边界止于内核，因此隔离的**实现方式**与**路由组件**才是关键。智能体运行在 Worker（即 Pod）中，由 Actor 承载、ateapi 控制平面管理；软件级用 gVisor（专用用户态应用内核 Sentry 拦截系统调用），硬件级用 microVM（借硬件虚拟化扩展直跑物理 CPU 核心）。
+  5. **kagent × Substrate 分工**：kagent 充当运行时并提供图形界面与声明式配置；不用 kagent 则只能通过编程调用（如 curl）访问 Substrate。安装顺序为 kubectl-ate → Agent Substrate → kagent；Helm 默认创建含 2 个 Worker 的 WorkerPool（`substrateWorkerPool.create=true`）。
+  6. **两个核心 CRD**：AgentTemplate（可复用的智能体配置，类似「黄金镜像」）与 Harness（对应 Actor 本体，可为 Codex/Claude Code 等执行框架或 LangGraph/Google ADK 等 BYO Agent）；给出 v1alpha3 的完整 YAML 声明式示例。
+  7. **弹性伸缩模型**：Actor 仅在存在活跃会话时运行（界面显示 0/8 即为常态）；新建会话拉起一个新 Actor、会话结束即停止，继续使用已有会话则 Actor 数不变——因此并不存在「每次使用都启动新 Actor」的资源管理负担。
+- 索引更新：`index.md` 追加 1 行
+
 ## [2026-11-06] ingest: 3 篇 X/Twitter 长文（穷忙思维 vs 贵生意 / A8 大佬 18 条 / GSC 模拟器看数据 6 件事）
 
 - 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 6 张，归档至 `sources/`
