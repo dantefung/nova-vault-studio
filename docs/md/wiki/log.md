@@ -4,6 +4,21 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-06] ingest: 6 篇 X/Twitter 长文（超级智能构建提示词 / 3 天出海建站 / 小红书 Agent 选品 / dim 事件时间线 harness / 工具站 SEO 焚诀 / X 长文 Skill 开源）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 62 张，归档至 `sources/`
+- 归档列表：
+  1. `sources/barret-super-agent-prompt-proactive-perception-inbox-outbox-l5.md`（Barret李靖 @Barret_China，64 行，0 图）：把 Pi、DSH、Super-Agent 组装成主动服务的超级智能——一段提示词里的自主分级、Inbox/Outbox 与 HITL 机制。
+  2. `sources/leo-3-days-launch-overseas-saas-server-domain-payment-seo.md`（刘老板 @leo_xiaolei，521 行，7 图）：3 天上线一个出海 SaaS——服务器、域名、收款与 SEO 全记录。
+  3. `sources/lucaspei-xiaohongshu-agent-automated-product-selection.md`（裴同学 @LucasPei181034，285 行，22 图）：小红书 × Agent × 自动化选品，真的爽翻了！
+  4. `sources/ashfold-dim-event-timeline-agent-harness-release.md`（Han Cheng e/acc @ashfold，81 行，1 图）：发布 dim——为 Agent 构造新的容器与躯体。
+  5. `sources/chainepic-tool-site-competitor-keyword-seo-formula.md`（Roland @ChainEpic，28 行，0 图）：工具站最易出单的五步 SEO 焚诀——竞品词劫持、首屏参数表、客观捧杀与实测截图。
+  6. `sources/jessicao-x-article-skill-corpus-illustration-cover-open-source.md`（Jessi Cao @JessiCao_JC，243 行，5 图）：我把写 X 长文的流程做成了 Skill——语料、配图、封面，整套开源。
+- 去广告 / 去品牌化：
+  - 刘老板文：删除结尾「欢迎来免费体验」推广段与优惠码 `3GXZS7NE`、免费试用引导，保留作者署名与「出海隐形规则」复盘；产品主体表述改为「作者的一个 AI 演示稿工具」案例式中性表述，技术知识完整保留。
+  - 裴同学文：删除「转发截图发我，网站免费」导流话术与「点赞后拆解」引导，改为中性陈述。
+- 索引更新：`index.md` 追加 6 行
+
 ## [2026-11-05] ingest: MomoAI 两篇 GPT Images 2.6 玩法长文
 
 - 来源：`https://x.com/MaynorAI1/status/2118182994704035918`、`https://x.com/MaynorAI1/status/2118347103219146900`（X/Twitter：MomoAI @MaynorAI1，均 2026-11-05 发布）

@@ -893,3 +893,9 @@ wiki/
 | [yihuihui-unified-export-download-center](/md/wiki/sources/yihuihui-unified-export-download-center) | 一灰灰blog：导出功能还要每个系统写一遍吗？统一下载中心的收口思路 | 微信公众号 |
 | [maynorai-gpt-images-26-15-monetization-plays](/md/wiki/sources/maynorai-gpt-images-26-15-monetization-plays) | MomoAI（@MaynorAI1）：GPT Images 2.6 这波更新能赚什么、能上什么站——15 个玩法 + 7 个开源 Cloudflare 演示站 | X/Twitter |
 | [maynorai-gpt-images-26-14-hottest-plays](/md/wiki/sources/maynorai-gpt-images-26-14-hottest-plays) | MomoAI（@MaynorAI1）：GPT Images 2.6 目前最火的 14 种玩法（按热度排序）——每项保留原帖与可复现路径 | X/Twitter |
+| [barret-super-agent-prompt-proactive-perception-inbox-outbox-l5](/md/wiki/sources/barret-super-agent-prompt-proactive-perception-inbox-outbox-l5) | Barret李靖（@Barret_China）：把 Pi、DSH、Super-Agent 组装成主动服务的超级智能——一段提示词里的自主分级、Inbox/Outbox 与 HITL 机制 | X/Twitter |
+| [leo-3-days-launch-overseas-saas-server-domain-payment-seo](/md/wiki/sources/leo-3-days-launch-overseas-saas-server-domain-payment-seo) | 刘老板（@leo_xiaolei）：3 天上线一个出海 SaaS——服务器、域名、收款与 SEO 全记录 | X/Twitter |
+| [lucaspei-xiaohongshu-agent-automated-product-selection](/md/wiki/sources/lucaspei-xiaohongshu-agent-automated-product-selection) | 裴同学（@LucasPei181034）：小红书 × Agent × 自动化选品，真的爽翻了！ | X/Twitter |
+| [ashfold-dim-event-timeline-agent-harness-release](/md/wiki/sources/ashfold-dim-event-timeline-agent-harness-release) | Han Cheng e/acc（@ashfold）：发布 dim——为 Agent 构造新的容器与躯体 | X/Twitter |
+| [chainepic-tool-site-competitor-keyword-seo-formula](/md/wiki/sources/chainepic-tool-site-competitor-keyword-seo-formula) | Roland（@ChainEpic）：工具站最易出单的五步 SEO 焚诀——竞品词劫持、首屏参数表、客观捧杀与实测截图 | X/Twitter |
+| [jessicao-x-article-skill-corpus-illustration-cover-open-source](/md/wiki/sources/jessicao-x-article-skill-corpus-illustration-cover-open-source) | Jessi Cao（@JessiCao_JC）：我把写 X 长文的流程做成了 Skill——语料、配图、封面，整套开源 | X/Twitter |
