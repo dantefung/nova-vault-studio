@@ -923,3 +923,18 @@ wiki/
 | [xiaomovps-4-projects-to-build-personal-agent-on-pi](/md/wiki/sources/xiaomovps-4-projects-to-build-personal-agent-on-pi) | 小墨同学（@xiaomovps）：自己开发 Personal Agent，可以从 Pi Durable 开始的 4 个项目学习路线 | X/Twitter |
 | [dongqing-bilibili-toy-cloud-disk-cps-playbook](/md/wiki/sources/dongqing-bilibili-toy-cloud-disk-cps-playbook) | 冬青（@DongQingAsk）：新玩法——用 B 站 TOY 做网盘拉新和 CPS | X/Twitter |
 | [growaiskills-new-site-seo-10-pages-then-optimize](/md/wiki/sources/growaiskills-new-site-seo-10-pages-then-optimize) | Marvin（@growaiskills）：新站没外链，SEO 怎么起步？先做 10 页，再按数据改 | X/Twitter |
+| [growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai](/md/wiki/sources/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai) | Marvin（@growaiskills）：SEO 有曝光没点击？用 GSC + AI 修好这 10 个旧页面 | X/Twitter |
+| [morris-what-is-poor-peoples-mindset-35-traits](/md/wiki/sources/morris-what-is-poor-peoples-mindset-35-traits) | Morris（@Morris_LT）：什么是穷人思维？——五类共 35 条认知错位自查清单 | X/Twitter |
+| [kkkeric-seo-highest-roi-on-pages-that-already-rank](/md/wiki/sources/kkkeric-seo-highest-roi-on-pages-that-already-rank) | KKKK（@kkkeric_ai）：SEO 收益最高的地方，是你已经排名的那些页面 | X/Twitter |
+| [dtdt666-20-ways-big-money-is-actually-made](/md/wiki/sources/dtdt666-20-ways-big-money-is-actually-made) | 看不懂的SOL（@DtDt666）：到底大钱是怎么挣的？——20 条草根赚钱逻辑 | X/Twitter |
+| [ilovek8s-douyin-cli-open-source-comment-and-data-agent](/md/wiki/sources/ilovek8s-douyin-cli-open-source-comment-and-data-agent) | ilovelife（@ilovek8s）：抖音全自动评论管理神器开源——douyin-cli 让 Agent 搞定抖音公开数据采集 | X/Twitter |
+| [aikangarooking-lobehub-open-source-super-agent-837k-stars](/md/wiki/sources/aikangarooking-lobehub-open-source-super-agent-837k-stars) | 袋鼠帝（@aikangarooking）：狂揽 83.7K Star！开源版 Super-agent 来了，告别 AI 监工 | X/Twitter |
+| [xiaomanhedy-ant-stigmergy-for-multi-agent-collaboration](/md/wiki/sources/xiaomanhedy-ant-stigmergy-for-multi-agent-collaboration) | Hedy Zhang（@xiaomanhedy）：多 Agent 协作该学蚂蚁——痕迹协作（Stigmergy）而不是人类开会 | X/Twitter |
+| [diygod-pinky-open-source-phone-remote-control-for-ai-agents](/md/wiki/sources/diygod-pinky-open-source-phone-remote-control-for-ai-agents) | DIŸgöd（@DIYgod）：开源 Pinky——让任何 AI Agent 用上你的 iPhone 和 Android | X/Twitter |
+| [yaohongan2025-seo-and-geo-two-layers-of-one-thing](/md/wiki/sources/yaohongan2025-seo-and-geo-two-layers-of-one-thing) | 虹安（@yaohongan2025）：SEO 和 GEO 不是两件事，而是一套东西的不同层 | X/Twitter |
+| [heli-15-grok-bot-team-projects-open-source](/md/wiki/sources/heli-15-grok-bot-team-projects-open-source) | 何笠聊 AI（@HeLi8866）：GitHub 上早就有了现成的 Grok Bot 团队——15 个开源项目清单 | X/Twitter |
+| [chatgptastra-7-niche-ui-component-libraries-for-web](/md/wiki/sources/chatgptastra-7-niche-ui-component-libraries-for-web) | 摸鱼巨匠🔨（@ChatGptAstra）：网页 UI 做不好不是水平低——7 个特色组件库 | X/Twitter |
+| [pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use](/md/wiki/sources/pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use) | 雪踏乌云（@Pluvio9yte）：Vercel 推出的 agent-desktop 才是 Agent 操控电脑的真神 | X/Twitter |
+| [victor-uwerr-chrome-extension-as-backlink-entry](/md/wiki/sources/victor-uwerr-chrome-extension-as-backlink-entry) | Victor在西雅图（@victor_UWer）：给自己的网站做个 Chrome 插件，把链接挂到应用商店详情页 | X/Twitter |
+| [smartpigai-managing-coding-agents-not-writing-code](/md/wiki/sources/smartpigai-managing-coding-agents-not-writing-code) | Smartpig（@Smartpigai）：很多程序员把自己变成了 Coding Agent 的全职质检员 | X/Twitter |
+| [addyosmani-your-coding-agents-made-you-a-manager](/md/wiki/sources/addyosmani-your-coding-agents-made-you-a-manager) | Addy Osmani（@addyosmani）：Your coding agents made you a manager——管理 Agent 的十二条实践 | X/Twitter |

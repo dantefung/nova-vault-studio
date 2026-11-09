@@ -4,6 +4,28 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-09] ingest: 15 篇「稍后读」X/Twitter 队列第三批（SEO 修旧页 / 穷人思维 35 条 / 老站 SEO ROI / 赚钱 20 条 / Pinky 手机操控 / Super-agent / 蚂蚁痕迹协作 / SEO 与 GEO / Grok Bot 团队 15 项目 / 组件库 / agent-desktop / Chrome 插件外链 / 管理 Agent / Addy Osmani 管理十二条）
+
+- 抓取与归档：用户分批提交 17 条 X 链接，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 12 张，归档 15 篇至 `sources/`
+- 归档列表：
+  1. `sources/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai.md`（Marvin @growaiskills，97 行，3 图）：SEO 有曝光没点击？用 GSC + AI 修好这 10 个旧页面——含可直接复制的完整提示词与 28 天同口径复查纪律。
+  2. `sources/morris-what-is-poor-peoples-mindset-35-traits.md`（Morris @Morris_LT，71 行）：什么是穷人思维？五类共 35 条认知错位自查清单。
+  3. `sources/kkkeric-seo-highest-roi-on-pages-that-already-rank.md`（KKKK @kkkeric_ai，74 行）：SEO 收益最高的地方是你已经排名的那些页面——两类必改词（没提到的查询词 + 排 10-30 名的词）与四项具体检查。
+  4. `sources/dtdt666-20-ways-big-money-is-actually-made.md`（看不懂的SOL @DtDt666，62 行）：到底大钱是怎么挣的？20 条草根赚钱逻辑。
+  5. `sources/ilovek8s-douyin-cli-open-source-comment-and-data-agent.md`（ilovelife @ilovek8s，26 行）：douyin-cli 开源，命令行搞定抖音公开数据采集。
+  6. `sources/aikangarooking-lobehub-open-source-super-agent-837k-stars.md`（袋鼠帝 @aikangarooking，335 行，5 图）：从 DeepSeek Super-agent 设计探索到 LobeHub 83.7K Star 落地实体的完整梳理。
+  7. `sources/xiaomanhedy-ant-stigmergy-for-multi-agent-collaboration.md`（Hedy Zhang @xiaomanhedy，42 行）：多 Agent 协作该学蚂蚁的痕迹协作（Stigmergy）而不是人类开会——Agent 翻倍则通报量翻四倍。
+  8. `sources/diygod-pinky-open-source-phone-remote-control-for-ai-agents.md`（DIŸgöd @DIYgod，85 行）：开源 Pinky 让 Agent 用上 iPhone/Android——Pinky 自身拦截审批（非提示词）、Android 隐藏第二屏、银行钱包类 App 默认隐身，全部录屏只存本地；另并入 RSSHub 作者视角的独立评述与 pre-alpha 成熟度提示。
+  9. `sources/yaohongan2025-seo-and-geo-two-layers-of-one-thing.md`（虹安 @yaohongan2025，42 行）：SEO 与 GEO 是一套东西的不同层——新站冷启动三段式（地基 / 内容 / 排名），实测 ChatGPT 来 26 人而谷歌才 8 人。
+  10. `sources/heli-15-grok-bot-team-projects-open-source.md`（何笠聊 AI @HeLi8866，96 行）：15 个现成 Grok Bot / Agent 团队开源项目清单，含交易基础设施五件套。
+  11. `sources/chatgptastra-7-niche-ui-component-libraries-for-web.md`（摸鱼巨匠🔨 @ChatGptAstra，52 行，1 图）：7 个特色 UI 组件库。
+  12. `sources/pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use.md`（雪踏乌云 @Pluvio9yte，144 行，1 图）：Vercel agent-desktop 实测——不截图而是直读无障碍树按编号点击、默认不抢前台，实测 0.15-0.3 秒级响应。
+  13. `sources/victor-uwerr-chrome-extension-as-backlink-entry.md`（Victor在西雅图 @victor_UWer，38 行）：把网站核心功能做成 Chrome 右键菜单插件，借应用商店详情页拿外链。
+  14. `sources/smartpigai-managing-coding-agents-not-writing-code.md`（Smartpig @Smartpigai，98 行）：从自己验证结果到设计验证机制等五个底层「管理」动作——Coding is becoming cheaper. Judgment is becoming more valuable.
+  15. `sources/addyosmani-your-coding-agents-made-you-a-manager.md`（Addy Osmani @addyosmani，217 行，2 图）：管理 Agent 的十二条实践——「你对坏经理的每一次抱怨，都是与 Agent 交互的 bug 报告」。
+- 去广告处理：删除 Pinky 文末「欢迎加入 Discord 一起讨论」引流话术（项目本身与 Discord 链接作为开源项目资源保留）。
+- 索引更新：`index.md` 追加 15 行
+
 ## [2026-11-09] ingest: 14 篇「稍后读」X/Twitter 队列大批量归档 + 收录 arch-diagram-skill 资源
 
 - 抓取与归档：用户一次性提交 18 条 X 链接（去重后 17 条唯一），通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 36 张，归档 14 篇至 `sources/`
