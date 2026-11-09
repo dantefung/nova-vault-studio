@@ -4,6 +4,28 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-09] ingest: 14 篇「稍后读」X/Twitter 队列大批量归档 + 收录 arch-diagram-skill 资源
+
+- 抓取与归档：用户一次性提交 18 条 X 链接（去重后 17 条唯一），通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 36 张，归档 14 篇至 `sources/`
+- 归档列表：
+  1. `sources/tiagerbao-obsidian-kepano-vault-template.md`（旺旺 @TiagerBao，50 行）：Obsidian 核心开发者 Kepano 开源个人知识库模板（Daily/Notes/Clippings/References/Categories/Templates 六目录结构），核心是自下而上整理知识。
+  2. `sources/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks.md`（国际范 Bill @guojifanbill，200 行，4 图）：哥飞上站比赛 Day 5-6 合并——SEO 排查、接入 IndexNow 后 Bing 终于出词（7 天 8 次曝光）、Codex 批量发外链实际完成率仅 6/15；附社区回复给出 Cloudflare 403 是否拦爬虫的两条验证路径（GSC「测试实际网址」/ Bing URL Inspection）。
+  3. `sources/supermm518-cloud-disk-referral-1000yuan-playbook.md`（岛勒 @supermm518，682 行，9 图）：网盘拉新从月入 100 到一条抖音爆量带来近 1000 元的完整复盘，含各平台实际差异与账号被封、分成机制等教训。
+  4. `sources/slashui-arch-diagram-skill-v1-3-eight-themes.md`（洛克船长 @slashui，80 行，4 图）：arch-diagram Skill 1.3.0 新增 7 种架构图风格，附原始设计理念（不套模板、颜色有含义、实时 trace log、多种导出、中英日多语言）。
+  5. `sources/huahuazo-creatorhub-multi-platform-content-backend.md`（LanfAI @Huahuazo，39 行，1 图）：CreatorHub 把抖音/小红书/快手/视频号的账号、作品、评论、采集、发布收进同一 Web 后台，含操作风控。
+  6. `sources/justin3go-8-niche-ui-component-libraries-for-vibecoding.md`（Justin3go @Justin1024go，42 行，4 图）：「设计 Skill 根本没用，用好组件库就够了」并推荐 8 个小众特色组件库（Looseleaf/PlopUI/Inkra/goopUI/Solid Glass/AffectUI/Prestige UI/BoardUI）。
+  7. `sources/paipiange-nvzhuang-open-source-app-and-miniprogram.md`（paipiange @paipiange，31 行，3 图）：nvzhuang 项目 App 与小程序两端同步开源。
+  8. `sources/zujingpgg-openmausbot-grok-bot-alternative.md`（Jenzin @zujingpgg，26 行，2 图）：OpenMausBot 为目前体验最好的 Grok Bot 开源替代品，可直接调用本机已登录的 claude/codex/grok CLI，适合拿 Mac mini 当主机。
+  9. `sources/morris-wealth-from-strangers-and-boundaries-with-close-relations.md`（Morris @Morris_LT，22 行）：财富来自陌生人（按价值与规则交易）、麻烦来自身边人（关系越界），二者是同一结构的两面。
+  10. `sources/siaxiom-ai-requirement-reverse-interview-6-step-prompts.md`（SI Axiom @SIAxiom，151 行）：让 AI 反过来采访你的 6 步提示词流程，每步附可直接复制的完整提示词。
+  11. `sources/snwiki-12-requirements-for-production-grade-agent.md`（南晚Nanwan @snwiki238337，54 行）：生产级 Agent 的 12 条工程清单（确定性边界/轻量路由/上下文隔离/主动获取上下文/扁平工具接口/结构化报错/显式状态/并发拦截/预算控制/审批节点/断点续跑/沙箱隔离）。
+  12. `sources/xiaomovps-4-projects-to-build-personal-agent-on-pi.md`（小墨同学 @xiaomovps，73 行，1 图）：从 Pi Durable 起步的 4 项目学习路线（pi-durable-hello → Batty → Pots → Hearth Pi）。
+  13. `sources/dongqing-bilibili-toy-cloud-disk-cps-playbook.md`（冬青 @DongQingAsk，243 行，9 图）：用 B 站 TOY（Vibe Coding 发布平台，可挂载到视频下并提供 TOY SDK 读取关注/点赞/投币/收藏状态）做网盘拉新与 CPS 返利。
+  14. `sources/growaiskills-new-site-seo-10-pages-then-optimize.md`（Marvin @growaiskills，88 行，3 图）：新站无外链时的克制 SEO 起步法——先做约 10 页再按 GSC 数据改，含选词初筛、页面类型判断、内链位置、GSC 四种状态诊断与两条可复制 AI 提示词。
+- 去广告处理：删除 supermm518 文末两处「点个赞、收藏一下，关注我」导流话术；删除冬青文末「再次感谢大家的支持，一万粉了」粉丝里程碑话术；其余作者署名与项目自述保留用于溯源。
+- 资源收录：`docs/md/guide/ai/ai-programming-resources.md` 新增 [arch-diagram-skill](https://github.com/bassnova42/arch-diagram-skill)（98 Stars，MIT）——RokoAI 出品的 Claude Code / Codex 架构图 Skill，含不套模板的结构判定、颜色语义、实时 trace log、无头 Chrome 自检、8 种风格与多语言出图能力；`node scripts/build-resource-nav.js --check` 通过，导航条目由 363 增至 368。
+- 索引更新：`index.md` 追加 14 行
+
 ## [2026-11-06] ingest: Michael Levan《AI Agent 如何安全运行在 Kubernetes 上？——从沙箱隔离到 kagent 实战》
 
 - 抓取与归档：微信公众号 `https://mp.weixin.qq.com/s/j-HOKUKSIU1dOJ5HKhfr3A`，本地化 8 张配图，归档至 `sources/kagent-agent-substrate-k8s-agent-sandbox.md`

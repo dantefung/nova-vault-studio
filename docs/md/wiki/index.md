@@ -909,3 +909,17 @@ wiki/
 | [shanyanggm-18-harsh-truths-about-wealthy-clients](/md/wiki/sources/shanyanggm-18-harsh-truths-about-wealthy-clients) | 山羊赚钱笔记（@shanyanggm）：一位财富自由的 A8 大佬总结的 18 条恶心却有用的道理 | X/Twitter |
 | [xiaofeiyangfe-gsc-simulator-6-data-reading-lessons](/md/wiki/sources/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons) | 小肥羊（@xiaofeiyangfe）：平均排名会骗人——我用 GSC 模拟器学会看数据的 6 件事 | X/Twitter |
 | [kagent-agent-substrate-k8s-agent-sandbox](/md/wiki/sources/kagent-agent-substrate-k8s-agent-sandbox) | Michael Levan：AI Agent 如何安全运行在 Kubernetes 上？——从沙箱隔离到 kagent 实战 | 微信公众号 |
+| [tiagerbao-obsidian-kepano-vault-template](/md/wiki/sources/tiagerbao-obsidian-kepano-vault-template) | 旺旺（@TiagerBao）：Obsidian 核心开发者 Kepano 开源了自己的知识库模板——自下而上的 Vault 结构 | X/Twitter |
+| [guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks](/md/wiki/sources/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks) | 国际范 Bill（@guojifanbill）：哥飞上站比赛 Day 5-6——Bing 接入 IndexNow 后终于出词，新站 SEO 排查实录 | X/Twitter |
+| [supermm518-cloud-disk-referral-1000yuan-playbook](/md/wiki/sources/supermm518-cloud-disk-referral-1000yuan-playbook) | 岛勒（@supermm518）：网盘拉新——9 月忙一个月赚 100 多，10 月一条抖音赚了近 1000 块 | X/Twitter |
+| [slashui-arch-diagram-skill-v1-3-eight-themes](/md/wiki/sources/slashui-arch-diagram-skill-v1-3-eight-themes) | 洛克船长（@slashui）：arch-diagram Skill 更新到 1.3.0——加了这 7 种架构图风格 | X/Twitter |
+| [huahuazo-creatorhub-multi-platform-content-backend](/md/wiki/sources/huahuazo-creatorhub-multi-platform-content-backend) | LanfAI（@Huahuazo）：CreatorHub——把抖音、小红书、快手、视频号收进同一个 Web 后台 | X/Twitter |
+| [justin3go-8-niche-ui-component-libraries-for-vibecoding](/md/wiki/sources/justin3go-8-niche-ui-component-libraries-for-vibecoding) | Justin3go（@Justin1024go）：设计 Skill 根本没用，用好组件库就够了——8 个小众但有特色的 UI 组件库 | X/Twitter |
+| [paipiange-nvzhuang-open-source-app-and-miniprogram](/md/wiki/sources/paipiange-nvzhuang-open-source-app-and-miniprogram) | paipiange：nvzhuang 项目开源——App 与小程序同步放出 | X/Twitter |
+| [zujingpgg-openmausbot-grok-bot-alternative](/md/wiki/sources/zujingpgg-openmausbot-grok-bot-alternative) | Jenzin（@zujingpgg）：OpenMausBot——目前用下来最好的 Grok Bot 开源替代品 | X/Twitter |
+| [morris-wealth-from-strangers-and-boundaries-with-close-relations](/md/wiki/sources/morris-wealth-from-strangers-and-boundaries-with-close-relations) | Morris（@Morris_LT）：财富来自陌生人，麻烦来自身边人 | X/Twitter |
+| [siaxiom-ai-requirement-reverse-interview-6-step-prompts](/md/wiki/sources/siaxiom-ai-requirement-reverse-interview-6-step-prompts) | SI Axiom（@SIAxiom）：让 AI 反过来采访你——把模糊想法变成可执行方案的 6 步提示词 | X/Twitter |
+| [snwiki-12-requirements-for-production-grade-agent](/md/wiki/sources/snwiki-12-requirements-for-production-grade-agent) | 南晚Nanwan（@snwiki238337）：自己构建 Agent 至少要满足的 12 条——从确定性边界到沙箱隔离 | X/Twitter |
+| [xiaomovps-4-projects-to-build-personal-agent-on-pi](/md/wiki/sources/xiaomovps-4-projects-to-build-personal-agent-on-pi) | 小墨同学（@xiaomovps）：自己开发 Personal Agent，可以从 Pi Durable 开始的 4 个项目学习路线 | X/Twitter |
+| [dongqing-bilibili-toy-cloud-disk-cps-playbook](/md/wiki/sources/dongqing-bilibili-toy-cloud-disk-cps-playbook) | 冬青（@DongQingAsk）：新玩法——用 B 站 TOY 做网盘拉新和 CPS | X/Twitter |
+| [growaiskills-new-site-seo-10-pages-then-optimize](/md/wiki/sources/growaiskills-new-site-seo-10-pages-then-optimize) | Marvin（@growaiskills）：新站没外链，SEO 怎么起步？先做 10 页，再按数据改 | X/Twitter |
