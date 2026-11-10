@@ -43,6 +43,14 @@ url: ""
 
 ---
 
+## 纳米AI
+
+> 把大模型拆开，一格一格算清楚。大模型学习路线图（8 阶段 51 知识点）、从零手写大模型与 Agent、交互式图解与论文研读，全站 65 页离线归档。
+
+[进入专栏 →](/md/columns/nano-ai/)
+
+---
+
 ## Lenny's Newsletter
 
 > Lenny Rachitsky 的 Newsletter 与 Podcast 精华合集，产品管理领域最具影响力的内容。
