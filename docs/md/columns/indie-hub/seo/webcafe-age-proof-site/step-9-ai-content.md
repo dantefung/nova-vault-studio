@@ -33,13 +33,13 @@ url: "https://new.web.cafe/tutorial/detail/keDe3UHe5TVZvAMiEBnCFK"
 本来之前说今天介绍饱和式建站的，但是刚好有朋友问到如何让 AI 帮我们生成高质量内容，所以临时换个话题，我们明天再聊饱和式建站。
 
 今年 2 月份，谷歌发布了一个文档，表明了谷歌对于 AI 生成内容的态度。
-![image.png](images/gefei-age-proof-site-step-9-ai-content/img_002.png)
+![image.png](images/gefei-age-proof-site-step-9-ai-content/img_002.webp)
 [https://developers.google.com/search/blog/2023/02/google-search-and-ai-content?hl=zh](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content?hl=zh) 哥飞在 8 月 23 号在即刻曾经做过一些解读：
 
 > 对于如何处理网页上 AI 生成的内容，谷歌的做法是积极拥抱…… [https://m.okjike.com/originalPosts/64e57ff062e51d2dc7dda3f5?s=eyJ1IjoiNTY3YTUwZDQ2ZWY4OWMxMjAwOGE3NTc1IiwiZCI6MX0%3D](https://m.okjike.com/originalPosts/64e57ff062e51d2dc7dda3f5?s=eyJ1IjoiNTY3YTUwZDQ2ZWY4OWMxMjAwOGE3NTc1IiwiZCI6MX0%3D)
 
 对于如何处理网页上 AI 生成的内容，谷歌的做法是积极拥抱，“奖励高质量的内容，无论它是如何生产的”。 并且谷歌还告诉我们如何用 AI 生产高质量的内容，去“创造有用、可靠、以人为本的内容”，而不是随意生成垃圾内容。 关于 AI 生成内容是否会得到更高排名或者是否会被故意降低排名，谷歌的意思是不管你的内容生成方式，只看内容质量
-![image.png](images/gefei-age-proof-site-step-9-ai-content/img_003.png)
+![image.png](images/gefei-age-proof-site-step-9-ai-content/img_003.webp)
 
 建议大家看完哥飞的解决后，去仔细研究谷歌这篇文章原文，仔仔细细的阅读，这对于指导大家如何用 AI 生成内容很有帮助。
 
@@ -49,12 +49,12 @@ url: "https://new.web.cafe/tutorial/detail/keDe3UHe5TVZvAMiEBnCFK"
 
 拿《[不用开发，如何只用一个域名就可以一键部署上线一个 AI 产品](https://mp.weixin.qq.com/s/cQKc0gAYVyPV7qnnBCsk3A)》的文章格式为例，我们试着让 AI 按照我们给定的格式对一个新的 Vercel 模板生成内容。
 
-![image.png](images/gefei-age-proof-site-step-9-ai-content/img_004.png)
+![image.png](images/gefei-age-proof-site-step-9-ai-content/img_004.webp)
 
 提示词格式如下：
-![image.png](images/gefei-age-proof-site-step-9-ai-content/img_005.png)
+![image.png](images/gefei-age-proof-site-step-9-ai-content/img_005.webp)
 我们看下效果，还是很不错的：
-![image.png](images/gefei-age-proof-site-step-9-ai-content/img_006.png)
+![image.png](images/gefei-age-proof-site-step-9-ai-content/img_006.webp)
 这种生成内容的方式有几个好处：
 
 1、基于参考网页链接原文进行创作，避免 AI 出现幻觉而导致胡说；
@@ -77,14 +77,14 @@ GPT 返回的文章如下：
 
 怎么办呢？很简单，指定文章模板格式，让 GPT 按照模板格式返回：
 
-![image.png](images/gefei-age-proof-site-step-9-ai-content/img_007.png)
+![image.png](images/gefei-age-proof-site-step-9-ai-content/img_007.webp)
 
 GPT 返回的文章原文如下：
 
 `# 开启 AI 项目的初始步伐：Vercel Starter 模板推介 Vercel 提供了一系列 Starter 模板，助力开发者轻松启动 AI 项目。今天我们将介绍三个具代表性的模板，它们分别是 Tier.run, LangChain Starter 和 Pinecone Vercel AI SDK Starter。 ## Tier.run - Metered Billing Stripe Starter - **模板名称**：Tier.run - Metered Billing Stripe Starter - **模板链接**：[点击这里](https://vercel.com/templates/next.js/tier) - **模板介绍**：Metered billing for an AI content creator app, powered by Tier, OpenAI, and Vercel. - **哥飞点评**：这个模板为需要基于使用情况计费的 AI 内容创建应用提供了一个很好的起点。 ## LangChain + Next.js Starter - **模板名称**：LangChain + Next.js Starter - **模板链接**：[点击这里](https://vercel.com/templates/next.js/langchain-starter) - **模板介绍**：Starter template and example use-cases for LangChain projects in Next.js, including chat, agents, and retrieval. - **哥飞点评**：这个模板为想要在 Next.js 中探索 LangChain 项目的开发者提供了一个很好的起点，包括聊天、代理和检索等多种用例，非常适合快速了解和应用 LangChain。 ## Pinecone Vercel AI SDK Starter - **模板名称**：Pinecone Vercel AI SDK Starter - **模板链接**：[点击这里](https://vercel.com/templates/next.js/pinecone-vercel-ai) - **模板介绍**：一个使用 Vercel 的 AI SDK 构建的 Next.js 起始聊天机器人模板，实现了与 Pinecone 的检索增强生成（RAG）模式的集成。 - **哥飞点评**：这个模板是为了创建一个强大的、上下文感知的聊天机器人，利用检索增强生成（RAG）技术提供准确和上下文相关的回应。 这三款 Starter 模板各具特色，为开发者提供了快速启动和测试 AI 项目的渠道。它们不仅降低了开发的门槛，还为探索新技术和实现创新想法提供了便利。`
 
 我们渲染一下看看效果：
-![image.png](images/gefei-age-proof-site-step-9-ai-content/img_008.png)
+![image.png](images/gefei-age-proof-site-step-9-ai-content/img_008.webp)
 可以看到，已经是一篇效果不错的文章了，只需要在每个模板标题下配上模板截图就好了。
 
 而模板截图可以通过一些第三方服务，输入模板链接，生成截图。
@@ -103,7 +103,7 @@ GPT 返回的文章原文如下：
 
     打卡
 
-![](images/gefei-age-proof-site-step-9-ai-content/img_010.jpg)
+![](images/gefei-age-proof-site-step-9-ai-content/img_010.webp)
 
 添加图片添加隐藏回复
 

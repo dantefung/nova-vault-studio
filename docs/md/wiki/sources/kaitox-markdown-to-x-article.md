@@ -33,14 +33,14 @@ url: "https://mp.weixin.qq.com/s/zo1T4Q1wBlYt_JORZeES0w"
 - **稳定且快速**：代码驱动转换，毫秒级生成，不依赖 AI 推理，零转换失败。
 - **开源 MIT**：可直接使用或改造，甚至接入其他平台。
 
-![Kaitox 与既有方案对比](../images/kaitox-markdown-to-x-article/001.png)
+![Kaitox 与既有方案对比](../images/kaitox-markdown-to-x-article/001.webp)
 *图 1：Kaitox 的技术路线选择——本地 relay + Chrome 插件直推*
 
 ---
 
 ## 二、三步工作流：本地推、浏览器发
 
-![Kaitox 三步工作流](../images/kaitox-markdown-to-x-article/002.png)
+![Kaitox 三步工作流](../images/kaitox-markdown-to-x-article/002.webp)
 *图 2：推送 → 中转 → 上传的三段式架构*
 
 1. **推送**：Agent / Obsidian / CLI 对 Markdown 做风格检查，连图片打包投给本地 relay。
@@ -96,7 +96,7 @@ kaitox relay --daemon
 
 从 Chrome 应用商店一键安装。装好后打开 `https://x.com/compose/articles`，relay 在跑时页面角落出现 Kaitox 面板即安装成功。
 
-![Kaitox Chrome 插件面板](../images/kaitox-markdown-to-x-article/003.png)
+![Kaitox Chrome 插件面板](../images/kaitox-markdown-to-x-article/003.webp)
 *图 3：X 文章编辑器右下角的 Kaitox 面板*
 
 ---
@@ -111,12 +111,12 @@ kaitox relay --daemon
 
 它会做风格检查、告诉你哪里在 X 上显示不好、让你选（改 / 降级纯文本 / 原样发），再投进 relay；CLI 没装、relay 没起都会自己搞定。也能顺带指定封面、改标题。
 
-![Agent 同步 Markdown 为 X Article 草稿](../images/kaitox-markdown-to-x-article/004.png)
+![Agent 同步 Markdown 为 X Article 草稿](../images/kaitox-markdown-to-x-article/004.webp)
 *图 4：Agent 自动完成风格检查与草稿投递*
 
 **Obsidian**：笔记旁开面板，实时预览、一键推送，不用离开写作界面就能看到 X 上的样子。
 
-![Obsidian 插件实时预览](../images/kaitox-markdown-to-x-article/005.png)
+![Obsidian 插件实时预览](../images/kaitox-markdown-to-x-article/005.webp)
 *图 5：Obsidian 端实时预览与一键推送*
 
 **CLI：**
@@ -133,12 +133,12 @@ kaitox x status # 查看状态
 
 **确认没问题后自己点发布**——发不发、什么时候发，永远握在你手里。
 
-![上传草稿与排版还原](../images/kaitox-markdown-to-x-article/006.png)
+![上传草稿与排版还原](../images/kaitox-markdown-to-x-article/006.webp)
 *图 6：浏览器端一键上传，排版与图片一次到位*
 
 还支持浏览器内直接预览文章效果：
 
-![浏览器内文章预览](../images/kaitox-markdown-to-x-article/007.png)
+![浏览器内文章预览](../images/kaitox-markdown-to-x-article/007.webp)
 *图 7：上传前在浏览器中预览完整文章*
 
 ---

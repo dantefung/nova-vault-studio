@@ -65,13 +65,13 @@ coverImage: "../images/ai-xiaomu-50k-followers-monetization/001.jpg"
 
 开火车：x 上最有效的涨粉玩法之一，这个大家因该见到很多了，比如：
 
-![](../images/ai-xiaomu-50k-followers-monetization/002.png)
+![](../images/ai-xiaomu-50k-followers-monetization/002.webp)
 
 蹭热点：
 
 什么有流量就干什么，这个需要一定的网感，比如孙哥开中转站我就写中转站，黄推泛滥时我就写黄推拆解，这些东西相当于 saas 里面的抢新词，必然有流量。
 
-![](../images/ai-xiaomu-50k-followers-monetization/003.jpg)
+![](../images/ai-xiaomu-50k-followers-monetization/003.webp)
 
 这个阶段我把这套组合拳玩的飞起，基本上每天都是百万流量，涨粉 1000+，从 1 万到 3 万我只花了 1 个月，当然我当时过快的增速也吸引了不少人对我进行攻击，这个就是大流量带来的反噬，所以我这个账号虽然时间不长，但基本上把该经历的都经历了一遍。
 
@@ -89,7 +89,7 @@ coverImage: "../images/ai-xiaomu-50k-followers-monetization/001.jpg"
 
 多篇百万爆款后，我就五万了。
 
-![](../images/ai-xiaomu-50k-followers-monetization/004.jpg)
+![](../images/ai-xiaomu-50k-followers-monetization/004.webp)
 
 这个阶段你的目标不应该是追求粉丝和流量，稳扎稳打即可，做你擅长的事，只有这样你才能坚持和卷出来，比如 @ZhanlinYan74392 擅长两性关系，一篇约炮指南就能涨万粉。
 
@@ -107,7 +107,7 @@ coverImage: "../images/ai-xiaomu-50k-followers-monetization/001.jpg"
 
 我能做到每个周期都是千刀收益，是因为我做到了按时出摊，我从起号开始到现在半年时间坚持每天输出，从未间断，玩 x 到现在见到了太多朋友中途放弃了，但这是你来 x 因该最先拿到的收益之一。
 
-![](../images/ai-xiaomu-50k-followers-monetization/005.jpg)
+![](../images/ai-xiaomu-50k-followers-monetization/005.webp)
 
 商单：
 
@@ -123,7 +123,7 @@ coverImage: "../images/ai-xiaomu-50k-followers-monetization/001.jpg"
 
 比如 afternoise 社群，进了这个群的人都知道有多值。
 
-![](../images/ai-xiaomu-50k-followers-monetization/006.png)
+![](../images/ai-xiaomu-50k-followers-monetization/006.webp)
 
 这个推友们可借鉴的是你影响力不够的时候，你也可以帮别人卖社群，一样能挣钱，比如 xbangdan 作者 @jedeeai。
 
@@ -135,7 +135,7 @@ coverImage: "../images/ai-xiaomu-50k-followers-monetization/001.jpg"
 
 通过一个 x 账号你可以链接到资源和人，在结合你的能力进行变现，比如现在大火的 fde，对人的要求极高，刚好这些技能点我都有，所以根本不缺单子。
 
-![](../images/ai-xiaomu-50k-followers-monetization/007.jpg)
+![](../images/ai-xiaomu-50k-followers-monetization/007.webp)
 
 信息差变现：
 

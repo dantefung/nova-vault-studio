@@ -56,7 +56,7 @@ coverImage: "../images/xaiwind-jianying-skill-guide/001.jpg"
 
 两个版本的云草稿互通，手机上剪一半，电脑上接着剪。
 
-![](../images/xaiwind-jianying-skill-guide/002.jpg)
+![](../images/xaiwind-jianying-skill-guide/002.webp)
 
 这篇要用的是桌面专业版。两个理由：一是多轨道、字幕、导出参数这些细活，桌面版才顺手。二是下篇那个 skill 只认桌面版。
 
@@ -84,9 +84,9 @@ macOS：
 
 打开剪映专业版，点击首页 开始创作  进入创作模块，界面就四块。
 
-![](../images/xaiwind-jianying-skill-guide/003.jpg)
+![](../images/xaiwind-jianying-skill-guide/003.webp)
 
-![](../images/xaiwind-jianying-skill-guide/004.jpg)
+![](../images/xaiwind-jianying-skill-guide/004.webp)
 
 - 左上：素材区。媒体、音频、文本、贴纸、特效、转场、滤镜、调节都在这一列
 - 中上：预览窗口。右下角有播放控制，可以全屏
@@ -111,7 +111,7 @@ macOS：
 
 素材进了轨道，接下来就是切。
 
-![](../images/xaiwind-jianying-skill-guide/005.jpg)
+![](../images/xaiwind-jianying-skill-guide/005.webp)
 
 白线是播放头，把它拖到要切的位置，选中片段，按 Ctrl + B 分割。Mac 上是 Command + B。
 
@@ -134,7 +134,7 @@ macOS：
 
 朗读生成的音频会单独落在音频轨上，跟文字块位置对应。
 
-![](../images/xaiwind-jianying-skill-guide/006.jpg)
+![](../images/xaiwind-jianying-skill-guide/006.webp)
 
 音色库里常用的几个：
 
@@ -156,7 +156,7 @@ AI 配音真正省事的地方，不是快，是改起来不心疼。
 
 选好语言，联网跑一会，字幕落到字幕轨上，一句一块，跟声音对齐。
 
-![](../images/xaiwind-jianying-skill-guide/007.jpg)
+![](../images/xaiwind-jianying-skill-guide/007.webp)
 
 识别完你要做两件事。
 
@@ -174,7 +174,7 @@ AI 配音真正省事的地方，不是快，是改起来不心疼。
 
 素材区点「音频」→「音乐素材」，库里按场景、心情、乐器分好类，试听合适直接拖到音频轨。
 
-![](../images/xaiwind-jianying-skill-guide/008.jpg)
+![](../images/xaiwind-jianying-skill-guide/008.webp)
 
 选中音乐块，右侧面板调音量、加淡入淡出。
 
@@ -192,7 +192,7 @@ AI 配音真正省事的地方，不是快，是改起来不心疼。
 
 分辨率最高 4K，帧率最高 60fps，码率分三档。
 
-![](../images/xaiwind-jianying-skill-guide/009.jpg)
+![](../images/xaiwind-jianying-skill-guide/009.webp)
 
 发抖音、视频号、B 站，1080P 加 30fps，码率选推荐档就够。文件小，上传快，平台本身还会再压一遍，导出 4K 是白费。
 
@@ -205,7 +205,7 @@ AI 配音真正省事的地方，不是快，是改起来不心疼。
 
 ## 八、这个 skill 是什么
 
-![](../images/xaiwind-jianying-skill-guide/010.jpg)
+![](../images/xaiwind-jianying-skill-guide/010.webp)
 
 一句话：它不是剪映的替代品，是坐在剪映前面的一个操作员。
 
@@ -219,7 +219,7 @@ AI 配音真正省事的地方，不是快，是改起来不心疼。
 
 ## 九、安装
 
-![](../images/xaiwind-jianying-skill-guide/011.jpg)
+![](../images/xaiwind-jianying-skill-guide/011.webp)
 
 三样前提：剪映专业版桌面版已经装好、有一个能跑 skill 的 AI 编辑器、机器上有 Python。
 
@@ -327,7 +327,7 @@ playwright 那条是给录屏和网页转视频用的。
 
 ## 十一、能做什么
 
-![](../images/xaiwind-jianying-skill-guide/012.jpg)
+![](../images/xaiwind-jianying-skill-guide/012.webp)
 
 按场景列，每条后面是你能直接照着说的指令。
 
@@ -376,7 +376,7 @@ Vlog 和基础剪辑
 
 ## 十二、做不了什么
 
-![](../images/xaiwind-jianying-skill-guide/013.jpg)
+![](../images/xaiwind-jianying-skill-guide/013.webp)
 
 这部分比上面那部分重要。
 
@@ -407,7 +407,7 @@ Mac 上退一步——草稿生成照常，最后导出那一下手动点。这�
 
 ## 常见坑
 
-![](../images/xaiwind-jianying-skill-guide/014.jpg)
+![](../images/xaiwind-jianying-skill-guide/014.webp)
 
 草稿不显示 剪映不刷新草稿列表。重启剪映，或者进一个旧草稿再退出来。
 
@@ -423,7 +423,7 @@ Mac 上导出命令没反应 设计如此。Mac 不支持自动导出，得手�
 
 ## 速查表
 
-![](../images/xaiwind-jianying-skill-guide/015.jpg)
+![](../images/xaiwind-jianying-skill-guide/015.webp)
 
 | 想干什么 | 对着 AI 说 |
 | :--- | :--- |
@@ -440,7 +440,7 @@ Mac 上导出命令没反应 设计如此。Mac 不支持自动导出，得手�
 
 ## 最后
 
-![](../images/xaiwind-jianying-skill-guide/016.jpg)
+![](../images/xaiwind-jianying-skill-guide/016.webp)
 
 手动剪和 AI 剪，不是二选一。
 
@@ -470,7 +470,7 @@ Mac 上导出命令没反应 设计如此。Mac 不支持自动导出，得手�
 
 我是想风 [@xaiwind](https://x.com/@xaiwind)，一个关注出海与 AI 的创作者。
 
-![](../images/xaiwind-jianying-skill-guide/017.jpg)
+![](../images/xaiwind-jianying-skill-guide/017.webp)
 
 ## 相关页面
 

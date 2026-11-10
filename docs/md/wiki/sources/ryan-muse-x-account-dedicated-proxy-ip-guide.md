@@ -19,7 +19,7 @@ coverImage: "../images/ryan-muse-x-account-dedicated-proxy-ip-guide/001.jpg"
 
 ### 0. 先讲清楚：这套方案在干什么
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/002.jpg)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/002.webp)
 
 X 对账号风控很严，核心看两点：登录 IP 是否稳定、操作行为是否像人。
 
@@ -123,7 +123,7 @@ sudo apt install xvfb
 
 2. 3 把 JSON 传给服务器
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/003.jpg)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/003.webp)
 
 把文件传到服务器的 ~/x-ops/ 目录（用 scp、网盘、或任何你信任的方式）。
 
@@ -133,7 +133,7 @@ sudo apt install xvfb
 
 3. 1 写代理健康检查脚本
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/004.jpg)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/004.webp)
 
 原理很简单：让浏览器的流量走代理，访问 api.ipify.org，看返回的 IP 是不是你买的那个。
 
@@ -168,7 +168,7 @@ chmod 600 ~/x-ops/cookies.json
 
 4. 2 验证登录
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/005.jpg)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/005.webp)
 
 ```
 # 启动浏览器（走代理）→ 加载 cookies → 打开 x.com/home
@@ -199,7 +199,7 @@ LOGIN_OK url=https://x.com/home screen_name=RyanPeng2026
 
 5. 1 先手动干跑一次
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/006.jpg)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/006.webp)
 
 ```
 bash ~/x-ops/x_run.sh ~/x-ops/x_post.py --dry --text "测试一下"
@@ -257,15 +257,15 @@ bash ~/x-ops/x_run.sh ~/x-ops/x_comments.py --reply "评论链接" --text "回�
 
 已回复过的评论 id 会记在 seen_comments.json，下次自动跳过。广告、纯喷子不回。
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/007.jpg)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/007.webp)
 
 ### 七、定时任务（全自动）
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/008.jpg)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/008.webp)
 
 用 cron（或你熟悉的任何定时工具）建三个任务。每个任务开始前必须先跑代理健康检查，IP 不对就停手不上报打扰（只记日志）。
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/009.png)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/009.webp)
 
 发帖选题去重：posted.log 里记着 7 天内发过的所有题材，选新题前先查它。
 
@@ -280,7 +280,7 @@ bash ~/x-ops/x_run.sh ~/x-ops/x_comments.py --reply "评论链接" --text "回�
 
 ### 九、踩坑汇总（一页速查）
 
-![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/010.png)
+![](../images/ryan-muse-x-account-dedicated-proxy-ip-guide/010.webp)
 
 ### 附录：文件清单
 

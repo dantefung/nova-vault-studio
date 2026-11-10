@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "饭团 (@fantuantalk)"
 url: "https://x.com/fantuantalk/status/2117217930622402670"
-coverImage: "../images/fantuantalk-5-tools-finding-real-needs/001.jpg"
+coverImage: "../images/fantuantalk-5-tools-finding-real-needs/001.webp"
 ---
 
 # 饭团（@fantuantalk）：找真实需求的 5 个出海利器——Google Trends/AnswerThePublic/Reddit/PH/SparkToro
@@ -25,7 +25,7 @@ coverImage: "../images/fantuantalk-5-tools-finding-real-needs/001.jpg"
 
 5/ SparkToro 输入你的目标人群，它告诉你他们关注谁、看什么内容、聊什么话题。 从受众行为反推需求，比猜靠谱一万倍
 
-![](../images/fantuantalk-5-tools-finding-real-needs/001.jpg)
+![](../images/fantuantalk-5-tools-finding-real-needs/001.webp)
 
 ## 相关页面
 

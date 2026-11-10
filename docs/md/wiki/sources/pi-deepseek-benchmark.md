@@ -13,11 +13,11 @@ url: "https://mp.weixin.qq.com/s/xjjBsGijp7DdrnU_6hp-_w"
 
 ## 背景
 
-![0xEvan 的缓存数据](../images/pi-deepseek-benchmark/001.jpeg)
+![0xEvan 的缓存数据](../images/pi-deepseek-benchmark/001.webp)
 
 2026 年 8 月 11 日，Pi Harness 创始人 Mario Zechner 转发了一组数据：开发者 **0xEvan** 用 Pi 调用 DeepSeek V4 Flash，处理了近 **10 亿输入 Token**，缓存命中率达到 **99.93%**，最终只花了 **$2.65**。如果没有缓存，同等用量预计需要 **$132**。
 
-![Shantanu Goel 的对比数据](../images/pi-deepseek-benchmark/002.jpeg)
+![Shantanu Goel 的对比数据](../images/pi-deepseek-benchmark/002.webp)
 
 同一天，开发者 Shantanu Goel 表示，DeepSeek V4 Flash 在其他 Harness 中的缓存命中率通常为 **94% 至 97%**，到了 Pi 中却能持续达到 **99% 以上**。Mario 评论道："使用本地模型时，这一点尤其好用。"
 
@@ -31,7 +31,7 @@ url: "https://mp.weixin.qq.com/s/xjjBsGijp7DdrnU_6hp-_w"
 
 ## Composio 横向测试：Pi 拿下第一名
 
-![Composio 测试结果](../images/pi-deepseek-benchmark/006.jpeg)
+![Composio 测试结果](../images/pi-deepseek-benchmark/006.webp)
 
 **Composio**（为 AI 智能体开发工具的公司）用同一个模型 **DeepSeek V4 Flash**，分别在 **8 种 Harness** 中完成 **30 项高难度智能体任务**。
 
@@ -52,7 +52,7 @@ url: "https://mp.weixin.qq.com/s/xjjBsGijp7DdrnU_6hp-_w"
 
 ### 成本差距
 
-![成本对比](../images/pi-deepseek-benchmark/007.jpeg)
+![成本对比](../images/pi-deepseek-benchmark/007.webp)
 
 | Harness | 每成功任务成本 |
 |---------|--------------|
@@ -63,7 +63,7 @@ url: "https://mp.weixin.qq.com/s/xjjBsGijp7DdrnU_6hp-_w"
 
 ### 时间对比
 
-![时间对比](../images/pi-deepseek-benchmark/008.jpeg)
+![时间对比](../images/pi-deepseek-benchmark/008.webp)
 
 | Harness | 中位时间 |
 |---------|----------|
@@ -117,7 +117,7 @@ DeepSeek API 会缓存请求中提示词的**前缀**。如果下一次请求开
 
 ### Reasonix 的设计原则
 
-![Reasonix 缓存优化](../images/pi-deepseek-benchmark/009.jpeg)
+![Reasonix 缓存优化](../images/pi-deepseek-benchmark/009.webp)
 
 开源 Reasonix 围绕 DeepSeek 前缀缓存设计，核心设计原则：
 
@@ -133,7 +133,7 @@ DeepSeek API 会缓存请求中提示词的**前缀**。如果下一次请求开
 
 ### pi-deepseek-cache 扩展
 
-![pi-deepseek-cache](../images/pi-deepseek-benchmark/010.jpeg)
+![pi-deepseek-cache](../images/pi-deepseek-benchmark/010.webp)
 
 Pi 生态中的 pi-deepseek-cache 扩展设计思路与 Reasonix 有不少共同点：
 
@@ -154,7 +154,7 @@ Pi 生态中的 pi-deepseek-cache 扩展设计思路与 Reasonix 有不少共同
 
 ## DeepSeek 官方 Harness 即将发布？
 
-![DeepSeek Harness 团队](../images/pi-deepseek-benchmark/011.jpeg)
+![DeepSeek Harness 团队](../images/pi-deepseek-benchmark/011.webp)
 
 有趣的是，DeepSeek 官方至今还没有推出自己的 Harness。8 月 11 日，"DeepSeek Harness 团队"微信公众号已完成注册，被外界解读为 Harness 产品即将正式发布的重要信号。产品内测也已启动。
 

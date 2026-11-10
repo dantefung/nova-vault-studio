@@ -17,11 +17,11 @@ coverImage: "../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/001.j
 
 前天加入哥飞社群之后，我优先将哥飞社群的 SEO Agent 接入到了我的 Claude Code 中。
 
-![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/002.jpg)
+![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/002.webp)
 
-![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/003.jpg)
+![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/003.webp)
 
-![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/004.jpg)
+![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/004.webp)
 
 当然，这里需要提醒一下，如果是使用 API 调用哥飞这些 SEO 工具的话，赠送的积分是没办法用的，只能自己付费购买。会员的话，50 块钱 2000 积分，可以用好久了。
 
@@ -31,7 +31,7 @@ coverImage: "../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/001.j
 
 这里还有一个 SEO 相关工具的站点 seo.box，大家可以直接复制到浏览器输入，都是一些比较常规的工具。
 
-![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/005.jpg)
+![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/005.webp)
 
 ## 个人 + Agent 增长系统：新站尝试与出单心愿
 
@@ -69,7 +69,7 @@ https://x.com/willlhhh/status/2116823249497768270
 
 https://new.web.cafe/r/MAD2N7
 
-![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/006.jpg)
+![](../images/qianshuixia-gefei-seo-agent-claude-code-energy-trap/006.webp)
 
 好咯，今天就到这里啦，我们明天见。
 

@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 
 原创 KaitoX *2026年1月27日 09:30*
 
-![图片](images/vibe-coding-4/001.png)
+![图片](images/vibe-coding-4/001.webp)
 
 欢迎回到 Kaito 的“ **Vibe Coding 与设计** ”系列！
 
@@ -16,7 +16,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 
 但很多开发者在实际操作中，往往会跳过规划，直接对 AI 说：“请给我生成一个xxx页面”。然后就开始了漫长的“抽卡”过程：发现不对，让 AI 修改；再不对，再修改……最后得到的代码往往结构混乱、样式冲突，引入一堆难以维护的 bug。
 
-![image.png](images/vibe-coding-4/002.jpeg)
+![image.png](images/vibe-coding-4/002.webp)
 
 **这种“先开枪，后瞄准”的工作流，是 Vibe Coding 的天敌。**
 
@@ -26,7 +26,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 
 ## 核心问题分析：失控的AI生成
 
-![image.png](images/vibe-coding-4/003.jpeg)
+![image.png](images/vibe-coding-4/003.webp)
 
 为什么直接让 AI 生成一个完整页面，通常会以失败告终？这背后有三个根本原因：
 
@@ -44,7 +44,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 
 ## 解决方案：用ASCII图给AI戴上“结构镣铐”
 
-![image.png](images/vibe-coding-4/004.jpeg)
+![image.png](images/vibe-coding-4/004.webp)
 
 要解决以上问题，我们需要在 AI 开始写代码 **之前** ，就和它对齐页面结构。而 ASCII 图，就是我们与 AI 沟通结构的最佳语言。
 
@@ -340,7 +340,7 @@ Motion: Use framer-motion for "Entrance" animations. Cards should slide up and r
 
 **页面效果（布局结构基本一致，风格也还在！）：**
 
-![screencapture-localhost-3000-2026-01-26-17_55_15.png](images/vibe-coding-4/005.jpeg)
+![screencapture-localhost-3000-2026-01-26-17_55_15.png](images/vibe-coding-4/005.webp)
 
 ## 进阶技巧
 

@@ -68,4 +68,4 @@ Agent 平台核心链路：用户提交任务 → 平台调度 Agent 实例 → 
 
 > 技术方案不是写出来的，是推导出来的。
 
-![技术方案五步法框架示意图](../images/technical-proposal-five-step-method/001.png)
+![技术方案五步法框架示意图](../images/technical-proposal-five-step-method/001.webp)

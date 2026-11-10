@@ -14,13 +14,13 @@ _LLM programming assistants have demonstrated considerable value, but mostly wit
 
 * * *
 
-[![Image 2: Photo of Wei Zhang](./images/structured-prompt-driven-development/structured-prompt-driven-development-img1.jpg)](https://www.linkedin.com/in/wei-willie-zhang-ab5a07135/)
+[![Image 2: Photo of Wei Zhang](images/structured-prompt-driven-development/structured-prompt-driven-development-img1.webp)](https://www.linkedin.com/in/wei-willie-zhang-ab5a07135/)
 
 [Wei Zhang](https://www.linkedin.com/in/wei-willie-zhang-ab5a07135/)
 
 Wei Zhang is an AI-assisted delivery expert at Thoughtworks. With nearly a decade of experience in software delivery, including three years focused on architecture, he designs engineering practices for AI-augmented software delivery — evolving the methods that help teams harness AI with both speed and discipline.
 
-[![Image 3: Photo of Jessie Jie Xia](./images/structured-prompt-driven-development/structured-prompt-driven-development-img2.jpg)](https://www.linkedin.com/in/jessie-xia/)
+[![Image 3: Photo of Jessie Jie Xia](images/structured-prompt-driven-development/structured-prompt-driven-development-img2.webp)](https://www.linkedin.com/in/jessie-xia/)
 
 [Jessie Jie Xia](https://www.linkedin.com/in/jessie-xia/)
 
@@ -342,7 +342,7 @@ In this specific instance, the review focused on several critical areas:
 
 Upon completing the review, the AI's analysis largely aligned with our architectural intent; in fact, its considerations were even more comprehensive than ours in certain areas.
 
-![Image 7](./images/structured-prompt-driven-development/structured-prompt-driven-development-img6.png)
+![Image 7](images/structured-prompt-driven-development/structured-prompt-driven-development-img6.webp)
 Edge cases and risks from the [analysis document](https://github.com/gszhangwei/token-billing/blob/after-enhancement/spdd/analysis/GGQPA-001-202603191100-%5BAnalysis%5D-multi-plan-billing-model-aware-pricing.md#edge-cases)
 
 To be transparent, at this stage we only possess a high-level conceptual alignment. While we can quickly envision the implementation for areas where we have prior experience, we cannot completely map out all the granular technical details for the unfamiliar parts right now.
@@ -431,7 +431,7 @@ Generated artifact: [the API test script](https://github.com/gszhangwei/token-bi
 
 Guided by the defined rules in the command, the AI generates a script that formulates the required test scenarios using curl commands. We can review these AI-generated scenarios in the “TEST CASE OVERVIEW” section of the script.
 
-![Image 8](./images/structured-prompt-driven-development/structured-prompt-driven-development-img7.png)
+![Image 8](images/structured-prompt-driven-development/structured-prompt-driven-development-img7.webp)
 Generated API Test Script
 
 Execution: once the script is generated, run it:
@@ -440,7 +440,7 @@ Execution: once the script is generated, run it:
 
 Result: all functional tests passed successfully.
 
-![Image 9](./images/structured-prompt-driven-development/structured-prompt-driven-development-img8.png)
+![Image 9](images/structured-prompt-driven-development/structured-prompt-driven-development-img8.webp)
 API Test Results
 
 #### Code review & final adjustments
@@ -458,7 +458,7 @@ Strategy: update the prompt first, then generate code. For issues related to bus
 
 For instance, when persisting `modelId` in the bill, we currently allow this field to be nullable. The underlying reason is the need to maintain backward compatibility with historical data, making this workaround a reasonable architectural decision.
 
-![Image 11](./images/structured-prompt-driven-development/structured-prompt-driven-development-img10.png)
+![Image 11](images/structured-prompt-driven-development/structured-prompt-driven-development-img10.webp)
 Prompt needs update
 
 However, there is an alternative. If the business stakeholders can confirm what the `modelId` value should be prior to this change, we can unify the system's behavior and eliminate this potential technical debt. Let's assume that, after confirming with the business, the `modelId` for all historical bills should be set to `fast-model`.
@@ -548,7 +548,7 @@ Once all optimizing is complete, restart the service and run the API test script
 
 Result: all passed.
 
-![Image 12](./images/structured-prompt-driven-development/structured-prompt-driven-development-img11.png)
+![Image 12](images/structured-prompt-driven-development/structured-prompt-driven-development-img11.webp)
 Regression Test Results
 
 ### Step 6: generate unit tests

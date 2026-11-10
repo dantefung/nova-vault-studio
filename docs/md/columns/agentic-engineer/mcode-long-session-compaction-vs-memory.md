@@ -102,7 +102,7 @@ url: "https://my.feishu.cn/wiki/G6nQwokJXiEJxOkpvFLcmVkFnyh"
 
 > 这一篇换个角度，聊时间维度上的 context：会话越来越长以后怎么办。
 
-![长会话怎么不变傻](images/feishu-mcode-context/cover.png)
+![长会话怎么不变傻](images/feishu-mcode-context/cover.webp)
 
 现在 1M 的 context window 已经不稀罕了，一个会话从早上开到晚上、来回几百轮也很常见。窗口变大是好事，但很多人都有类似的体会：聊到后面，agent 会忘掉一开始说好的约定，把已经否掉的方案又捡回来，或者在一个早就修好的问题上反复打转。窗口没满，人却像是“变傻”了。
 
@@ -110,7 +110,7 @@ url: "https://my.feishu.cn/wiki/G6nQwokJXiEJxOkpvFLcmVkFnyh"
 
 ## 为什么会话越长，agent 越笨
 
-![图 1：context rot 是一道慢慢变陡的坡；每一轮结束都可以选择怎么处理上下文](images/feishu-mcode-context/fig1-context-rot.png)
+![图 1：context rot 是一道慢慢变陡的坡；每一轮结束都可以选择怎么处理上下文](images/feishu-mcode-context/fig1-context-rot.webp)
 
 Anthropic 在[《Effective context engineering for AI agents》](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)里把这个现象叫 context rot：context 里的 token 越多，模型准确回忆其中信息的能力越差。原因是模型的注意力有“预算”。每个 token 都要和其他所有 token 建立关系，n 个 token 就是 n² 对关系，context 越长，注意力摊得越薄。文章特别强调，这是一道坡，而不是悬崖：模型不会在某个长度突然失灵，只是越往后越容易漏掉东西。
 
@@ -162,7 +162,7 @@ compaction 说白了，就是在 context 快满时，让模型把到目前为止
 
 ## 该压的压，该丢的丢，该落盘的落盘
 
-![图 2：按“漏掉会不会出事”把上下文里的信息分成三类](images/feishu-mcode-context/fig2-three-categories.png)
+![图 2：按“漏掉会不会出事”把上下文里的信息分成三类](images/feishu-mcode-context/fig2-three-categories.webp)
 
 既然压缩一定有损，关键就不是“怎么写一份完美摘要”，而是**别让要紧的东西只活在 context 里**。
 
@@ -194,7 +194,7 @@ Anthropic 在[《Effective harnesses for long-running agents》](https://www.ant
 
 ## compaction 和 memory 怎么分工
 
-![图 3：从工作上下文到全局记忆，越往下越稳定、越短、越需要人确认](images/feishu-mcode-context/fig3-memory-layers.png)
+![图 3：从工作上下文到全局记忆，越往下越稳定、越短、越需要人确认](images/feishu-mcode-context/fig3-memory-layers.webp)
 
 可以把两者理解成工作记忆和长期记忆：compaction 管当下这个会话还装不装得下，memory 管下一个会话还记不记得。具体可以分成四层：
 

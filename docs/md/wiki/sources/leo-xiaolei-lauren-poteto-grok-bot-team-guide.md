@@ -20,7 +20,7 @@ coverImage: "../images/leo-xiaolei-lauren-poteto-grok-bot-team-guide/001.jpg"
 
 不得不说，这篇帖子除了干货满满之外，评论区乐子也很多，从大型「召唤 @bot 认领任务」的名场面，到硬核开发者的权限架构补充，再到 xAI 工程师现场抓 Bug、以及中文区用户对 Grok Bot 与 Muse 的犀利对比，信息量非常密集。
 
-![](../images/leo-xiaolei-lauren-poteto-grok-bot-team-guide/002.jpg)
+![](../images/leo-xiaolei-lauren-poteto-grok-bot-team-guide/002.webp)
 
 今天我就以第一人称的阅读视角，带大家把这篇原帖和整个评论区的干货、交锋与槽点完整拆解一遍。
 
@@ -68,7 +68,7 @@ coverImage: "../images/leo-xiaolei-lauren-poteto-grok-bot-team-guide/001.jpg"
 
 这种不用复制原文、直接在评论区 @bot 就能让智能体读取整条串文并自我迭代的交互，确实把 Grok Bot 与 X 平台的原生融合优势展现得淋漓尽致，也难怪 @0xMorlex 感叹 Lauren 是在持续放出真正的 Alpha 干货。
 
-![](../images/leo-xiaolei-lauren-poteto-grok-bot-team-guide/003.jpg)
+![](../images/leo-xiaolei-lauren-poteto-grok-bot-team-guide/003.webp)
 
 ## 三、 架构补充与「主动性（SOUL.md）」探讨
 

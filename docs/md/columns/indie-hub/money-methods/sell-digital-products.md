@@ -274,4 +274,4 @@ Workflow
 
 扫码入群一起学习交流，可关注先加我微信
 
-![image](./images/sell-digital-products/001.jpeg)
+![image](images/sell-digital-products/001.webp)

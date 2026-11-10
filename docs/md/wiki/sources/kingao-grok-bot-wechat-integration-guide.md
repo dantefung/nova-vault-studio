@@ -13,11 +13,11 @@ coverImage: "../images/kingao-grok-bot-wechat-integration-guide/001.jpg"
 
 <!-- more -->
 
-![](../images/kingao-grok-bot-wechat-integration-guide/002.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/002.webp)
 
 最近，我把 Grok Bot 接入了我的微信，在微信里就可以轻松指挥我的 Grok bot 军团干活！
 
-![](../images/kingao-grok-bot-wechat-integration-guide/003.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/003.webp)
 
 很多人好奇，我是如何把 Grok Bot 接进微信的？
 
@@ -77,7 +77,7 @@ Grok bot 是马斯克收购 Cursor 后，由 SpaceXAI 官方重磅推出的通�
 
 发完，Grok Bot 就会自己去调研和执行，开始启动 Grok Bot x 微信的接入方案。
 
-![](../images/kingao-grok-bot-wechat-integration-guide/004.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/004.webp)
 
 ### 第二步：把它要的两样东西复制给它，给微信通道配一把专属钥匙
 
@@ -85,15 +85,15 @@ Grok bot 是马斯克收购 Cursor 后，由 SpaceXAI 官方重磅推出的通�
 
 你要做的：点开 Grok Bot 的头像，打开右侧的详情 - routine 面板，找到「微信下旨入口」，把它的 Webhook URL 和 key 分别复制下来。其中 URL 是地址，key 是钥匙。
 
-![](../images/kingao-grok-bot-wechat-integration-guide/005.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/005.webp)
 
 Grok Bot 会弹出一个加密弹框。你把复制好的 URL 和 key，分别粘贴到弹窗对应的位置，点提交，Grok bot 界面会显示「已安全保存并保持私密」。
 
-![](../images/kingao-grok-bot-wechat-integration-guide/006.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/006.webp)
 
 解释下这一步在干嘛：就是 Grok Bot 会给微信消息单独开一个入口，叫「微信下旨入口」。你把这个入口的地址和钥匙交给它，微信那头发来的话，它才知道往哪儿送、凭什么进门。
 
-![](../images/kingao-grok-bot-wechat-integration-guide/007.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/007.webp)
 
 ### 第三步：用微信扫码，把你的微信和 Grok Bot 绑在一起
 
@@ -109,7 +109,7 @@ Grok Bot 会弹出一个加密弹框。你把复制好的 URL 和 key，分别�
 
 在里面找那只红色小龙虾，名字叫「微信 ClawBot」，点进去，把它启用。
 
-![](../images/kingao-grok-bot-wechat-integration-guide/008.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/008.webp)
 
 3. 2 回到 Grok Bot 界面，跟它说一声「插件开好了」。它会给你一个二维码。
 
@@ -117,7 +117,7 @@ Grok Bot 会弹出一个加密弹框。你把复制好的 URL 和 key，分别�
 
 扫码不方便也没关系。Grok Bot 还会给你一个备用链接，在微信里直接打开，一样能绑定。
 
-![](../images/kingao-grok-bot-wechat-integration-guide/009.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/009.webp)
 
 最后，主动发第一句话。
 
@@ -127,7 +127,7 @@ Grok Bot 会弹出一个加密弹框。你把复制好的 URL 和 key，分别�
 
 看到什么算成功：ClawBot 对话里收到了 Grok Bot 的回复。再打开 Grok Bot 的主聊天，微信里的这段对话也同步了一份过来。
 
-![](../images/kingao-grok-bot-wechat-integration-guide/010.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/010.webp)
 
 ### 实测效果
 
@@ -135,11 +135,11 @@ Grok Bot 会弹出一个加密弹框。你把复制好的 URL 和 key，分别�
 
 接着我让他汇报，我在 grok bot 里建立的一个推特运营专家 Bot 的选题和链接，他也成功返回了回答。
 
-![](../images/kingao-grok-bot-wechat-integration-guide/011.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/011.webp)
 
 我又尝试了在微信里，让它帮我转写一期抖音视频的文案，Grok bot 也很快把完整的视频文案发了回来。（因为我之前就在 Grok bot 里搭建了一个「下载专家」BOT，拥有抖音视频下载、文案转录等功能）
 
-![](../images/kingao-grok-bot-wechat-integration-guide/012.jpg)
+![](../images/kingao-grok-bot-wechat-integration-guide/012.webp)
 
 ### 几条温馨小提醒
 

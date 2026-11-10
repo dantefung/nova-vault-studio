@@ -19,7 +19,7 @@ coverImage: "../images/heizolshao-reddit-comments-conversion-and-seed-users-play
 
 但要想在评论区把流量引到自己的产品上，光靠发链接是行不通的。这篇笔记是我自己平时做评论转化时摸索出来的四个环节。
 
-![](../images/heizolshao-reddit-comments-conversion-and-seed-users-playbook/002.jpg)
+![](../images/heizolshao-reddit-comments-conversion-and-seed-users-playbook/002.webp)
 
 ## 一、 如何引导对方主动发私信
 

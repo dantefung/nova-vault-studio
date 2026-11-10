@@ -19,7 +19,7 @@ coverImage: "../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/001.jpg"
 
 做海外市场和做国内市场不太一样。想让内容进入 GEO 推荐，依然绕不开 SEO。网页要先被搜索引擎发现、收录和理解，才有机会出现在搜索结果和 AI 回答里。今天这篇就把这条链路讲清楚，也讲清楚 SEO 到底怎么做。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/002.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/002.webp)
 
 ## 01 先把 SEO 这件事讲清楚
 
@@ -52,11 +52,11 @@ Google 不是等用户搜索以后，才临时把整个互联网翻一遍。它�
 
 这四步不能混在一起。Google 发现了网址，不代表已经抓取；抓取了，不代表一定收录；收录了，也不代表会有排名。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/003.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/003.webp)
 
 SEO 做的每一件事，都能放回这条链路里看。需求和搜索词决定页面要回答什么；页面内容和技术设置决定 Google 能不能读懂；站内链接和外部引用帮助 Google 发现页面、理解页面；搜索数据则告诉你，前面的判断有没有做对。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/004.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/004.webp)
 
 ## 03 SEO 的第一步，是找到真实需求
 
@@ -73,7 +73,7 @@ SEO 做的每一件事，都能放回这条链路里看。需求和搜索词决�
 
 这些说法不是最后的关键词，只是一张需求地图。真正面向美国市场，就把候选说法翻成英文，再去美国地区的搜索结果和工具里核对；面向日本，就用日语核对。中文可以帮助你把问题想清楚，最后的判断必须回到目标用户实际使用的语言。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/005.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/005.webp)
 
 ## 04 已知一个需求，怎样找到更多搜索词
 
@@ -101,21 +101,21 @@ AI 很适合做三件事：补充同义说法、寻找你没想到的使用场�
 
 关键词工具能一次列出更多相关说法。可以先试 [Ahrefs 免费关键词生成器](https://ahrefs.com/keyword-generator) 或 [OpenSEO 关键词生成器](https://openseo.so/keyword-generator)。输入一个宽泛说法，它们会返回相关词、估算搜索次数和竞争情况。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/006.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/006.webp)
 
 工具里还会显示一个广告参考数字。它大致表示广告主愿意为一次搜索点击支付多少钱。数字高，通常说明这个词更接近购买、订阅或商业决策；数字低，也不代表这个需求没价值。它只是帮助你判断“这个搜索背后有没有生意”，不能单独决定做不做。
 
 [Google Trends](https://trends.google.com/trends/explore) 用来看一个需求是在上升、长期稳定，还是只在某个季节变热。它显示的是相对热度，不是准确的搜索人数。输入两个说法进行比较时，要选择目标国家和合适的时间范围。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/007.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/007.webp)
 
 [Google Ads 关键词规划师](https://ads.google.com/aw/keywordplanner/home) 可以继续查看搜索量区间、地区和广告竞争。它属于 Google Ads，使用前需要登录 Google Ads 账号。第一次用时，进入“发现新关键词”，既可以输入一个搜索词，也可以输入竞品网址，让 Google 从那个网站里找相关词。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/008.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/008.webp)
 
 如果候选词很多，可以在 Ahrefs 或 OpenSEO 里继续扩展。工具负责给你更多可能性，人负责删掉和产品无关、没有点击机会、或者自己根本解决不了的需求。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/009.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/009.webp)
 
 ## 05 搜索意图不能只让 AI 猜
 
@@ -131,7 +131,7 @@ AI 可以帮你做第一轮分类，但最后一定要亲自搜索。因为真�
 - 它们怎么呈现：步骤教学、产品清单、问答、下载，还是直接操作。
 - 它们共同强调什么：免费、速度、免注册、安全，还是某个具体功能。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/010.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/010.webp)
 
 同一批词还要判断是否应该放在同一张页面。分别搜索两个词，如果前排结果大部分相同，通常可以先由同一张页面承接；如果结果完全不同，就拆成两张页面。
 
@@ -167,13 +167,13 @@ AI 可以帮助整理提纲、翻译初稿、补充常见问题和检查遗漏�
 
 一个基础工具页按照下面这张图安排就够了。重点是先让用户完成任务，说明、限制和常见问题放在工具后面。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/011.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/011.webp)
 
 内容要围着用户正在完成的任务写。比如页面说“免费压缩 JPG”，工具却要求上传后付费，搜索词和页面承诺就对不上。Google 想判断的不是你写了多少字，而是这张页面能不能解决搜索者的问题。
 
 Google 自己的 [SEO 入门指南](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=zh-CN) 也一直强调：先为用户做有帮助的内容，再让搜索引擎容易发现和理解。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/012.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/012.webp)
 
 页面做好后，检查几个基础位置：
 
@@ -184,7 +184,7 @@ Google 自己的 [SEO 入门指南](https://developers.google.com/search/docs/fu
 - 页面地址：尽量简短、稳定、能看懂。
 - 图片说明：图片无法显示时，搜索引擎和读屏软件仍能知道图片内容。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/013.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/013.webp)
 
 ## 08 页面做好后，让 Google 发现、读取和收录
 
@@ -201,7 +201,7 @@ Google 自己的 [SEO 入门指南](https://developers.google.com/search/docs/fu
 
 如果网站是 AI 写出来的，可以直接问它：“打开网页源代码时，能不能看到页面的核心文字和链接？”网页源代码就是浏览器最先拿到的页面内容。如果里面几乎没有正文，就让 AI 把公开页面改成 Google 更容易读取的形式。你不需要先学会所有前端技术，但要看懂这次检查有没有发现问题。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/014.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/014.webp)
 
 网站上线，不等于 Google 已经知道它。Google 发现新页面，常见的入口有四个：
 
@@ -212,11 +212,11 @@ Google 自己的 [SEO 入门指南](https://developers.google.com/search/docs/fu
 
 一张新页面发布后，先从首页或相关页面给它一个正常链接，再确认它已经出现在 sitemap 里。然后打开 [Google Search Console](https://search.google.com/search-console/about)，提交 sitemap，并用“网址检查”查看这张页面。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/015.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/015.webp)
 
 Sitemap 可以理解成“我希望 Google 知道的页面清单”。它帮助 Google 发现网址，但不能保证收录。大多数 WordPress、Shopify 和常见建站框架都能自动生成。打开后确认核心页面在里面，再到 Search Console 的“站点地图”提交。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/016.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/016.webp)
 
 在 Search Console 检查页面时，可能会看到几种状态：
 
@@ -233,17 +233,17 @@ Sitemap 可以理解成“我希望 Google 知道的页面清单”。它帮助 
 
 内链就是自己网站内部的链接。首页链接核心工具和主要分类，教程讲到图片压缩时链接压缩工具，相关工具之间也可以互相推荐。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/017.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/017.webp)
 
 内链一方面帮助 Google 发现更多页面，另一方面告诉它哪些页面更重要。链接文字直接写清目的，例如“图片压缩工具”“图片压缩教程”，比整站都写“点击这里”更容易理解。
 
 [AITDK SEO 扩展](https://chromewebstore.google.com/detail/aitdk-seo-extension-traff/hhfkpjffbhledfpkhhcoidplcebgdgbk) 可以直接查看一张页面的标题、图片和链接。新手用它时先找两个问题：重要页面有没有入口，链接文字能不能看懂。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/018.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/018.webp)
 
 外链是其他网站链接到你的页面。它既可能带来用户，也让 Google 看到外部网站在引用你。检查竞品时，不用先研究所有分数，只看两件事：前排页面大概有多强，有多少个不同网站链接到它。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/019.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/019.webp)
 
 新站可以从真实入口开始：提交相关产品目录，在社区里解决具体问题，做别人愿意引用的免费工具或模板，联系写过相关主题的作者体验产品。链接出现的地方应该和产品有关，点进去的人也应该能得到帮助。
 
@@ -255,17 +255,17 @@ Sitemap 可以理解成“我希望 Google 知道的页面清单”。它帮助 
 
 有人会搭多个小网站。多个网站本身没有问题。如果每个网站都有独立功能、内容和用户，它们之间在合适的位置互相推荐，是正常的产品关系。如果这些网站没有真实用途，只复制内容并统一给主站加链接，就成了专门操纵排名的站群。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/020.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/020.webp)
 
 ## 11 上线以后，再做三个基础检查
 
 打开页面后，可以先用 [AITDK SEO 扩展](https://chromewebstore.google.com/detail/aitdk-seo-extension-traff/hhfkpjffbhledfpkhhcoidplcebgdgbk) 扫一遍。重点看搜索标题、搜索说明、页面主标题、正式网址、爬虫规则、站点地图、图片说明和链接。插件分数只是提醒你有没有漏项，不代表页面一定会有排名。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/021.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/021.webp)
 
 页面速度用 [PageSpeed Insights](https://pagespeed.web.dev/) 检查。新站先处理最明显的问题：图片太大、首屏加载太慢、点按钮没有反应，以及页面打开时内容不停跳动。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/022.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/022.webp)
 
 结构化信息属于加分项，不是新站第一天的必做项。需要时，可以让 AI 根据页面里真实存在的产品名、价格和评分生成代码，再用 [Google 富媒体搜索结果测试](https://search.google.com/test/rich-results)检查。页面上没有的信息，不要在代码里编造。
 
@@ -275,7 +275,7 @@ Sitemap 可以理解成“我希望 Google 知道的页面清单”。它帮助 
 
 页面开始获得展示后，看四个数字：展示是页面在搜索结果里出现了多少次；点击是有多少人进入网站；点击率是每一百次展示大约带来多少点击；平均排名是页面大约排在什么位置。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/023.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/023.webp)
 
 数据出现以后，按问题处理：
 
@@ -288,7 +288,7 @@ Sitemap 可以理解成“我希望 Google 知道的页面清单”。它帮助 
 
 “网址检查”适合查看某一张具体页面。输入网址后，可以看到 Google 有没有收录、上次什么时候来过，以及它把哪个网址当作正式版本。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/024.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/024.webp)
 
 第一次做 SEO，可以只按这条路走：确定一个真实需求，让 AI 帮你扩展说法，再用 Google 和关键词工具核对；做出一张匹配搜索意图的核心页面；用站内链接、sitemap 和 Search Console 帮 Google 发现它；确认收录后，看真实搜索词和展示数据；最后再补内容、内链和外链。
 
@@ -298,7 +298,7 @@ Sitemap 可以理解成“我希望 Google 知道的页面清单”。它帮助 
 
 关注我 [@miles_mazy](https://x.com/miles_mazy)，一起成长，一起赚钱。
 
-![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/025.jpg)
+![](../images/miles-mazy-outsea-usd-seo-comprehensive-tutorial/025.webp)
 
 ## 相关页面
 

@@ -18,7 +18,7 @@ related:
 
 > **核心命题**：DR 值、DA 值、外链数量、文章字数、跳出率……这些被 SEOer 奉为圭臬的「数据指标」，绝大多数都**不是** Google 算法的评判标准，而只是行业自造的、容易被数据站操纵的替代品。
 
-![Joker: Thoughts on SEO Metrics（原文封面）](../images/joker-seo-data-metrics-confusion/001.png)
+![Joker: Thoughts on SEO Metrics（原文封面）](../images/joker-seo-data-metrics-confusion/001.webp)
 
 ---
 
@@ -43,7 +43,7 @@ related:
 
 > **DYK = Do You Know**：Google 搜索部门发言人之一 Gary Illyes 也曾公开承认 Google 至今仍在使用 PR 作为排序算法。
 
-![Gary Illyes 公开承认 Google 至今仍在使用 PageRank 排序](../images/joker-seo-data-metrics-confusion/003.png)
+![Gary Illyes 公开承认 Google 至今仍在使用 PageRank 排序](../images/joker-seo-data-metrics-confusion/003.webp)
 
 随着 PR 工具条停更，市场涌现出一大批第三方工具来帮助站长分析网站，其中最知名的是 **Moz、Ahrefs 和 SEMrush**，分别给出 **DA 值（Moz）、DR 值（Ahrefs）、AS 值（SEMrush）**。一时间大家仿佛找到了新方向，从追求 PR 值转向追求 DA、DR。
 
@@ -75,11 +75,11 @@ Ahrefs 官方进一步解释权重传递机制：
 - 但这三个站的「数据指标」**大概率是人为做出来的**；
 - 如果花 80–120 美元，或提供一篇优质 Guest Post 换取一条反链，**其实并没有那么高的价值**（你可能还以为自己赚了）。
 
-![三个 DR 60+ 的 tech 站之一：Ahrefs 概览](../images/joker-seo-data-metrics-confusion/004.png)
+![三个 DR 60+ 的 tech 站之一：Ahrefs 概览](../images/joker-seo-data-metrics-confusion/004.webp)
 
-![三个 DR 60+ 的 tech 站之二：Ahrefs 概览](../images/joker-seo-data-metrics-confusion/005.png)
+![三个 DR 60+ 的 tech 站之二：Ahrefs 概览](../images/joker-seo-data-metrics-confusion/005.webp)
 
-![三个 DR 60+ 的 tech 站之三：Ahrefs 反链概览](../images/joker-seo-data-metrics-confusion/006.png)
+![三个 DR 60+ 的 tech 站之三：Ahrefs 反链概览](../images/joker-seo-data-metrics-confusion/006.webp)
 
 ### 1.4 如何识别数据站：五个必须交叉验证的信号
 
@@ -94,7 +94,7 @@ Ahrefs 官方进一步解释权重传递机制：
 | **建站时间** | 通常有价值的站点不会建站 2 年内（部分更换域名做过 301 的除外） |
 | **Top Page 内容** | 判断是否与你的行业内容相匹配 |
 
-![Ahrefs 中需要交叉验证的六项指标](../images/joker-seo-data-metrics-confusion/007.png)
+![Ahrefs 中需要交叉验证的六项指标](../images/joker-seo-data-metrics-confusion/007.webp)
 
 **关键推论**：一个 DR 60 的站点，关键词覆盖量却只有几十、预估流量也只有几十，说明这个站点本身的关键词覆盖量与排名能力**基本为 0**。
 
@@ -110,7 +110,7 @@ Ahrefs 官方进一步解释权重传递机制：
 2. **关键词覆盖量、预估关键词流量**（这两点其实要刷也可以刷，不过手法就高明多了）；
 3. **Top Page 数据量，以及其内容相关性**——**这点非常重要，不是想刷就能刷得了**。
 
-![演讲者自己站点的 DR 值与关键词覆盖量、预估流量关系比例](../images/joker-seo-data-metrics-confusion/008.png)
+![演讲者自己站点的 DR 值与关键词覆盖量、预估流量关系比例](../images/joker-seo-data-metrics-confusion/008.webp)
 
 ### 1.6 外链数量：Google 新 PageRank 专利给出的答案
 
@@ -119,9 +119,9 @@ Ahrefs 官方进一步解释权重传递机制：
 **Producing a ranking for pages using distances in a web-link graph**
 （专利号 US9165040B1，2006 年就存在，但演讲者判断 Google 真正开始利用是在 2015 年以后，可结合 2016 年的「企鹅更新 4.0」来理解）
 
-![Google 新 PageRank 专利的链接距离示意图：种子页面集合与非种子页面集合](../images/joker-seo-data-metrics-confusion/009.png)
+![Google 新 PageRank 专利的链接距离示意图：种子页面集合与非种子页面集合](../images/joker-seo-data-metrics-confusion/009.webp)
 
-![US9165040B1 专利原文页面](../images/joker-seo-data-metrics-confusion/010.png)
+![US9165040B1 专利原文页面](../images/joker-seo-data-metrics-confusion/010.webp)
 
 根据 Zac 老师对该专利的解读，核心要点有四条：
 
@@ -166,15 +166,15 @@ Ahrefs 官方进一步解释权重传递机制：
 
 于是越来越多 SEOer 开始迷惑：**对手写了篇 1500 字的文章，我想超越他，就得写 3000 甚至 4000 字？真的要创作超过 2000 词的文章吗？**
 
-![Long-form content ranks higher（原文引用的行业观点）](../images/joker-seo-data-metrics-confusion/011.png)
+![Long-form content ranks higher（原文引用的行业观点）](../images/joker-seo-data-metrics-confusion/011.webp)
 
-![Word Count vs Average Linking Domains 与 Average Social Shares](../images/joker-seo-data-metrics-confusion/012.png)
+![Word Count vs Average Linking Domains 与 Average Social Shares](../images/joker-seo-data-metrics-confusion/012.webp)
 
-![Average Content Length (Words)：按搜索位次统计的平均内容长度](../images/joker-seo-data-metrics-confusion/013.png)
+![Average Content Length (Words)：按搜索位次统计的平均内容长度](../images/joker-seo-data-metrics-confusion/013.webp)
 
-![排第一位的页面平均内容长度约 2416 词](../images/joker-seo-data-metrics-confusion/014.png)
+![排第一位的页面平均内容长度约 2416 词](../images/joker-seo-data-metrics-confusion/014.webp)
 
-![Ahrefs 中目标站点的整体数据概览](../images/joker-seo-data-metrics-confusion/015.png)
+![Ahrefs 中目标站点的整体数据概览](../images/joker-seo-data-metrics-confusion/015.webp)
 
 ### 2.2 核心结论：Long Content ≠ Deep Content
 
@@ -199,9 +199,9 @@ mouse dpi setting
 
 演讲者展示了这篇基于 Deep Content 的成文效果——**文章 7 月上线，且上在一个当年 6 月才上线的新站**（全新站点、域名、服务器都是全新的，主要用于做测试）。首页上与它竞争的站点，要么是自身 DR 碾压它，要么是外链碾压它；但它可以通过**内容架构**搬回一点劣势，从而挤进首页。
 
-![目标页面在 Ahrefs 中的整体表现（AR/DR/反链数/域名数/流量）](../images/joker-seo-data-metrics-confusion/016.png)
+![目标页面在 Ahrefs 中的整体表现（AR/DR/反链数/域名数/流量）](../images/joker-seo-data-metrics-confusion/016.webp)
 
-![Deep Content 分析产出的关联搜索词清单](../images/joker-seo-data-metrics-confusion/017.png)
+![Deep Content 分析产出的关联搜索词清单](../images/joker-seo-data-metrics-confusion/017.webp)
 
 ### 2.4 Deep Content 分析的四步操作法
 
@@ -214,12 +214,12 @@ mouse dpi setting
 **第三步：利用「People also ask」栏目**
 了解话题相关信息。
 
-![People also ask 面板](../images/joker-seo-data-metrics-confusion/018.png)
+![People also ask 面板](../images/joker-seo-data-metrics-confusion/018.webp)
 
 **第四步：利用「Related Search」**
 了解用户相关搜索。
 
-![Related Search 面板](../images/joker-seo-data-metrics-confusion/019.png)
+![Related Search 面板](../images/joker-seo-data-metrics-confusion/019.webp)
 
 > **工具备选**：Ahrefs Keywords Explorer、Ubersuggest 等关键词工具（收费）；备选还有 MarketMuse（价格偏贵且功能较为单一）。
 
@@ -256,11 +256,11 @@ mouse dpi setting
 
 **首页**（主要目的是「引导用户访问更多内页」）：虽然平均停留时间只有 **45 秒**，但跳出率只有 **17.17%**。
 
-![演讲者首页的 GA 数据：平均停留 45 秒 / 跳出率 17.17%](../images/joker-seo-data-metrics-confusion/020.png)
+![演讲者首页的 GA 数据：平均停留 45 秒 / 跳出率 17.17%](../images/joker-seo-data-metrics-confusion/020.webp)
 
 **文章页**：虽然跳出率高达 **85%**，甚至部分页面达到 **90%**，但停留时间能达到 **6–7 分钟以上**，TOP 1 流量的文章可达 **8 分 52 秒**。
 
-![演讲者文章页的 GA 数据：高跳出率但长停留时间](../images/joker-seo-data-metrics-confusion/021.png)
+![演讲者文章页的 GA 数据：高跳出率但长停留时间](../images/joker-seo-data-metrics-confusion/021.webp)
 
 此外还可通过 **Crazy Egg** 等热力图与屏幕录像工具，观察用户访问文章页的真实浏览动态。
 
@@ -310,7 +310,7 @@ mouse dpi setting
 >
 > 实例：某页面加载速度达到 8.49 秒，远高于平均水平；经细分发现是「Android」用户的问题，而安卓平台并非主要优化方向（需根据业务、资源、人力、技术权衡是否投入）。
 
-![GA 细分报告：定位到加载耗时集中在特定设备与环节](../images/joker-seo-data-metrics-confusion/022.png)
+![GA 细分报告：定位到加载耗时集中在特定设备与环节](../images/joker-seo-data-metrics-confusion/022.webp)
 
 **第二，SERP 中的点击率（CTR）**
 
@@ -336,7 +336,7 @@ mouse dpi setting
 
 演讲者展示了自研的 SEO Audit（SEO 自审）流程清单：
 
-![SEO Audit 清单：Technical SEO / Content SEO / Off Page SEO 三大块共 27 项](../images/joker-seo-data-metrics-confusion/023.png)
+![SEO Audit 清单：Technical SEO / Content SEO / Off Page SEO 三大块共 27 项](../images/joker-seo-data-metrics-confusion/023.webp)
 
 其中 **Technical SEO** 一块就包含：Site Speed Optimisation、Mobile Friendly Optimisation、Index Management、HTTPS、AMP Optimisation、XML Sitemap、Website Structure、301 Redirects、4XX Errors、No Response Links、Rich Snippets & Structured Data、GEOTargeting、Google Analytics、WHOIS Lookup、Basic UX Recommendations——**这正是多数 SEOer 自审时完全忽略的部分**。
 

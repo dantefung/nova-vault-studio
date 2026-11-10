@@ -29,15 +29,15 @@ coverImage: "../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/001.jp
 
 第一天的数据就很可观：
 
-![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/002.jpg)
+![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/002.webp)
 
-![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/003.jpg)
+![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/003.webp)
 
-![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/004.jpg)
+![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/004.webp)
 
 可以看到有很多的大爷大妈的点赞，甚至有些大爷直接回复“美亲”，由此可见一位知性优雅的中老年女性形象还是很吸引大家注意的。
 
-![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/005.jpg)
+![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/005.webp)
 
 好景不长，就在第二天，我后台收到一个【请完成出镜人身份验证】的提示
 
@@ -49,7 +49,7 @@ coverImage: "../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/001.jp
 
 像第一个和第三个基本都会被卡在这一步，还好我有当时生成 AI 真人形象的原始图片，就去做了验证，最后通过了验证，但也被平台发现是 AI 出境，之后的流量就断崖式下滑。
 
-![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/006.jpg)
+![](../images/clanhj-channels-elderly-blessing-ai-video-pitfalls/006.webp)
 
 我跟一些大佬交流了这件事，他们说如果弹出真人验证你可以不用管，一段时间后他就会消失，并且流量也不怎么影响，所以我觉得这个路子现在还是值得去尝试的。中老年在视频号的消费水平算是不错的，做这种中老年账号，前期跟用户养成信任后，后期挂车、开橱窗应该也能赚一笔。
 

@@ -163,11 +163,11 @@ curl -fsSL https://xy-update.zhinianboke.com/deploy.sh | sed 's/\r$//' | bash
 
 几种回复类型怎么用：
 
-![](../images/kyrie-codex-xianyu-customer-service-automation/002.jpg)
+![](../images/kyrie-codex-xianyu-customer-service-automation/002.webp)
 
 想用 AI 回复，得先给它接一个大模型。在后台的 AI 配置里填三样东西：模型接口地址（Base URL）、模型名称、以及一个 API Key。国内直接用通义千问、DeepSeek、豆包这类都行，去对应平台开通、复制一个 API Key 填进去即可。这些模型很便宜，回几千条消息也就几毛几块。填完记得开一句测试，确认能通再正式挂。纯关键词回复的话，这一步可以先跳过。
 
-![](../images/kyrie-codex-xianyu-customer-service-automation/003.jpg)
+![](../images/kyrie-codex-xianyu-customer-service-automation/003.webp)
 
 第 7 步：配卡券和自动发货（虚拟商品必做）
 
@@ -186,7 +186,7 @@ curl -fsSL https://xy-update.zhinianboke.com/deploy.sh | sed 's/\r$//' | bash
 
 如果是 Docker 跑的，日常就这几条命令：
 
-![](../images/kyrie-codex-xianyu-customer-service-automation/004.jpg)
+![](../images/kyrie-codex-xianyu-customer-service-automation/004.webp)
 
 其实这些不记下也行。真出问题了，直接截图或者把报错贴给 Codex，让它帮你看日志、判断哪出了问题，通常比自己到处搜快。
 
@@ -212,7 +212,7 @@ curl -fsSL https://xy-update.zhinianboke.com/deploy.sh | sed 's/\r$//' | bash
 
 第一个跑通了、想进阶的，看这张对比表按需换：
 
-![](../images/kyrie-codex-xianyu-customer-service-automation/005.jpg)
+![](../images/kyrie-codex-xianyu-customer-service-automation/005.webp)
 
 两个项目可以单独说一下：
 

@@ -29,7 +29,7 @@ coverImage: "../images/bainian-grey-niche-sites-traffic-teardown/001.jpg"
 
 6 月先靠暴力的 Aff（联盟推广）拉量。到 7 月，图上的 Affiliates 单月已经冲到约 260 万，直接访问还在约 47 万。随后 Aff 回落，直接访问开始往上走，9 月已经反超了 Aff。
 
-![](../images/bainian-grey-niche-sites-traffic-teardown/002.jpg)
+![](../images/bainian-grey-niche-sites-traffic-teardown/002.webp)
 
 我的理解，前面是在用 Aff 培养用户心智，后面再靠直接访问承接。它这轮起量，主力显然不在自然搜索。
 
@@ -39,7 +39,7 @@ coverImage: "../images/bainian-grey-niche-sites-traffic-teardown/001.jpg"
 
 传统新站要逐步建立索引、外链、搜索曝光和用户认知。而收购一个历史资产，理论上可能一次拿到四类东西：
 
-![](../images/bainian-grey-niche-sites-traffic-teardown/003.jpg)
+![](../images/bainian-grey-niche-sites-traffic-teardown/003.webp)
 
 灰帽 SEO 里常见的一种做法，就是买过期域名，再 301 到目标站上，冲着它原有的权重和外链去。
 
@@ -55,13 +55,13 @@ Aff 渠道很难找，不过我们找到了一些对应的数据，比如主播�
 
 案例 A 的公开合作页，披露了一位大型直播创作者的数据：
 
-![](../images/bainian-grey-niche-sites-traffic-teardown/004.jpg)
+![](../images/bainian-grey-niche-sites-traffic-teardown/004.webp)
 
 这些是品牌方公开合作页里的主播数据。这个合作在 2026 年 6 月 就已经正式达成，正好对应案例 A 的新业务启动。
 
 再看受众兴趣行业：
 
-![](../images/bainian-grey-niche-sites-traffic-teardown/005.jpg)
+![](../images/bainian-grey-niche-sites-traffic-teardown/005.webp)
 
 我猜测，这些行业的 Aff 是占大头的。
 
@@ -75,7 +75,7 @@ Aff 渠道很难找，不过我们找到了一些对应的数据，比如主播�
 
 但下面的 Traffic analytics 仍然估出了访问：最近 30 天，481 次访问，4.6K 次页面浏览。
 
-![](../images/bainian-grey-niche-sites-traffic-teardown/006.jpg)
+![](../images/bainian-grey-niche-sites-traffic-teardown/006.webp)
 
 再看我们连续两次捕捉到的词，变化就很有意思。
 
@@ -87,7 +87,7 @@ casino online games 🇺🇸 www.[样本 B]
 
 online games 🇺🇸 www.[样本 B]
 
-![](../images/bainian-grey-niche-sites-traffic-teardown/007.jpg)
+![](../images/bainian-grey-niche-sites-traffic-teardown/007.webp)
 
 域名没变，国旗没变，换的是前面的关键词。
 
@@ -97,7 +97,7 @@ online games 🇺🇸 www.[样本 B]
 
 Google Trends 这张图选的是全球、过去 30 天、网页搜索。异常词的蓝线大部分时间贴着底部，突然冲到相对热度 100，峰值超过了同图里的 gpts，随后又迅速落下去。
 
-![](../images/bainian-grey-niche-sites-traffic-teardown/008.jpg)
+![](../images/bainian-grey-niche-sites-traffic-teardown/008.webp)
 
 继续查 Related queries，看看和它一起出现的还有什么。
 
@@ -105,7 +105,7 @@ Google Trends 这张图选的是全球、过去 30 天、网页搜索。异常�
 
 Related queries 里出现了 21 个 TOP 查询，基本是同一模板：
 
-![](../images/bainian-grey-niche-sites-traffic-teardown/009.jpg)
+![](../images/bainian-grey-niche-sites-traffic-teardown/009.webp)
 
 也就是说，21 个 TOP 关联查询中，有 20 个直接带有域名。
 

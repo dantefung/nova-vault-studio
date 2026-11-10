@@ -57,7 +57,7 @@ url: "https://mp.weixin.qq.com/s/VvsTOerMy3UaeuZpxvPxpQ"
 
 **引用计数：** 每次 `dup()` 复制 FD 或每次 `close()` 关闭 FD，引用计数都会变化。只有引用计数归零时，内核才真正释放文件资源。
 
-![image](./images/linux-fd/001.jpeg)
+![image](images/linux-fd/001.webp)
 
 ---
 

@@ -4,7 +4,7 @@ date: "2026-11-04"
 source: "X/Twitter"
 author: "Fred-New (@Fred834567)"
 url: "https://x.com/Fred834567/status/2080467501633478757"
-coverImage: "../images/fred-new-github-information-arbitrage-8-methods/001.jpg"
+coverImage: "../images/fred-new-github-information-arbitrage-8-methods/001.webp"
 ---
 
 # Fred-New（@Fred834567）：GitHub 信息差套利 8 法——remote-job / ai-money-maker / TelegramGroup / awesome-list 等仓库速览
@@ -61,7 +61,7 @@ coverImage: "../images/fred-new-github-information-arbitrage-8-methods/001.jpg"
 
 收藏不丢人，只收藏不打开才可惜。希望这篇能推更多人一把，把想法变成行动。
 
-![](../images/fred-new-github-information-arbitrage-8-methods/001.jpg)
+![](../images/fred-new-github-information-arbitrage-8-methods/001.webp)
 
 ## 相关页面
 

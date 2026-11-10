@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/HvL5wOWxxxbaJbIeLIji4Q"
 
 Reddit（美版贴吧）有一个帖子，帖主说他在本机上开发了一个完整的 SaaS 项目，大家可以点击 `https://localhost:3000` 来体验。
 
-![image](../images/weixin-domain-guide/001.png)
+![image](../images/weixin-domain-guide/001.webp)
 
 如果你开发过网站类的项目，你一定能看得懂这个笑话；如果你看不懂这个笑话，那你一定要看这篇文章。
 
@@ -55,7 +55,7 @@ Reddit（美版贴吧）有一个帖子，帖主说他在本机上开发了一�
 
 备案比较简单，你在哪个平台上购买域名，就在哪里备案就行。比如我之前在腾讯云上备案过一个域名，就在控制台里面搜 ICP 备案，按要求提供基本信息，申请备案即可。
 
-![image](../images/weixin-domain-guide/002.png)
+![image](../images/weixin-domain-guide/002.webp)
 
 备案过程中，会有相关人员电话对你的网站提供的服务业务范围进行确认，如实回答即可。一般备案过程 7~15 个工作日，最多 20 个工作日。
 
@@ -97,7 +97,7 @@ Reddit（美版贴吧）有一个帖子，帖主说他在本机上开发了一�
 
 ChatGPT 引爆了 AI 创业浪潮之后，`.ai` 域名注册量暴涨。因 `.ai` 管理权归属安圭拉政府，`.ai` 域名相关收入占安圭拉政府经常性收入接近 **40%～47%**。
 
-![image](../images/weixin-domain-guide/003.png)
+![image](../images/weixin-domain-guide/003.webp)
 
 妥妥的天上掉馅饼。
 

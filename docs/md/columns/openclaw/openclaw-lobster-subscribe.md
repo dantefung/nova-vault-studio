@@ -36,7 +36,7 @@ kind: "generic/article"
 
 这……
 
-![image.png](images/001.png)
+![image.png](images/001.webp)
 
 然后我就跟 AI 研究了一下，
 
@@ -44,7 +44,7 @@ kind: "generic/article"
 
 我在小龙虾上跑了一下，真的可以：
 
-![image.png](images/002.png)
+![image.png](images/002.webp)
 
 果然，懒才是第一生产力啊！
 
@@ -88,17 +88,17 @@ https://github.com/maolai7/agent-skills/tree/develop/wechat-watch
 
 要用绑定公众号的微信，扫码登录一下。
 
-![image.png](images/003.png)
+![image.png](images/003.webp)
 
 登录成功后，AI会检测服务是否正常。
 
 然后，就可以把你关注的公众号发给小龙虾了。
 
-![image.png](images/004.png) ![image.png](images/005.png)
+![image.png](images/004.webp) ![image.png](images/005.webp)
 
 我让它试一下推送，然后就可以了。
 
-![image.png](images/006.png)
+![image.png](images/006.webp)
 
 你再让小龙虾设置一个定时任务，就可以自动定时给你推公众号了。
 

@@ -10,7 +10,7 @@ url: "https://mp.weixin.qq.com/s/GCwo5J2l-aZjcW17EnCdwA"
 
 前不久翁荔写了一篇类似综述的 blog 详细介绍了 RSI (recursieve self-improvement) 的概念与发展https://lilianweng.github.io/posts/2026-07-04-harness/[1]。我感觉这篇文章还是太偏学术了一些，把很多简单的 prompt, mem, loop 机制用复杂的公式表述出来，理解起来有些困难（这是篇很认真、很全面的文章，仍旧推荐大家去阅读原文）。
 
-![image](../images/guard-model-evolution/001.png)
+![image](../images/guard-model-evolution/001.webp)
 
 今天读到了另外一篇类似的文章，整体非常简洁，分享给大家。帮助大家了解当下正火的自进化究竟是什么。
 
@@ -28,7 +28,7 @@ url: "https://mp.weixin.qq.com/s/GCwo5J2l-aZjcW17EnCdwA"
 
 判断一个系统属于哪类自进化之前，可以先把它拆成三个部分：Model、Harness 和 Artifact。
 
-![image](../images/guard-model-evolution/002.png)
+![image](../images/guard-model-evolution/002.webp)
 
 **Model**，也就是模型。它通常是大语言模型，负责理解输入、推理并生成结果，可以把它看成 Agent 的"大脑"。
 
@@ -52,7 +52,7 @@ url: "https://mp.weixin.qq.com/s/GCwo5J2l-aZjcW17EnCdwA"
 
 ## 第一类：产物迭代优化
 
-![image](../images/guard-model-evolution/003.png)
+![image](../images/guard-model-evolution/003.webp)
 
 第一类也是目前最容易理解、最常见的路线：Agent 自身基本保持不变，不断优化它生产的产物。
 
@@ -70,7 +70,7 @@ Google DeepMind 的 AlphaEvolve 是更典型的例子。它把大语言模型生
 
 ## 第二类：Harness 系统进化
 
-![image](../images/guard-model-evolution/004.png)
+![image](../images/guard-model-evolution/004.webp)
 
 第二类不修改模型参数，而是让 Agent 改进自己的 Harness。
 
@@ -86,7 +86,7 @@ Google DeepMind 的 AlphaEvolve 是更典型的例子。它把大语言模型生
 
 ### 把重复过程封装成工具和 Skills
 
-![image](../images/guard-model-evolution/005.png)
+![image](../images/guard-model-evolution/005.webp)
 
 有些经验无法只靠几句话复用。比如，让 Agent 从一段很长的视频中找到关键帧。如果每次都在上下文里解释如何读取视频、按间隔抽帧、识别画面和导出结果，既浪费 Token，也不稳定。
 
@@ -106,7 +106,7 @@ Agent 完成一次任务后，如果能把成功经验沉淀成 Skill，下一�
 
 ## 第三类：无标准答案的模型学习
 
-![image](../images/guard-model-evolution/006.png)
+![image](../images/guard-model-evolution/006.webp)
 
 这类工作不一定使用"自进化"这个名字，更常见的标签是自训练、自博弈、弱监督、强化学习、测试时训练、在线学习或持续学习。
 

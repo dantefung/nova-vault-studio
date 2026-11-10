@@ -17,7 +17,7 @@ coverImage: "../images/adrian-mckinsey-style-consulting-visual-prompts/001.jpg"
 
 给社群小伙伴们做了一套「麦肯锡风格提示词」
 
-![](../images/adrian-mckinsey-style-consulting-visual-prompts/002.jpg)
+![](../images/adrian-mckinsey-style-consulting-visual-prompts/002.webp)
 
 这套提示词，比较特别✨
 
@@ -37,9 +37,9 @@ coverImage: "../images/adrian-mckinsey-style-consulting-visual-prompts/001.jpg"
 
 适合想做高级商业视觉、咨询风封面、方法论图、策略分析页的朋友直接复用。
 
-![举例：学术论文 PPT 封面图](../images/adrian-mckinsey-style-consulting-visual-prompts/003.jpg)
+![举例：学术论文 PPT 封面图](../images/adrian-mckinsey-style-consulting-visual-prompts/003.webp)
 
-![举例：学术研究实例图](../images/adrian-mckinsey-style-consulting-visual-prompts/004.jpg)
+![举例：学术研究实例图](../images/adrian-mckinsey-style-consulting-visual-prompts/004.webp)
 
 引用推文：Roland.W (@rwayne)
 
@@ -47,13 +47,13 @@ https://t.co/xU0WcV7VZo
 
 https://x.com/rwayne/status/2061800786263425472
 
-![举例：主题海报](../images/adrian-mckinsey-style-consulting-visual-prompts/005.jpg)
+![举例：主题海报](../images/adrian-mckinsey-style-consulting-visual-prompts/005.webp)
 
-![举例：𝕏 封面——教程类](../images/adrian-mckinsey-style-consulting-visual-prompts/006.jpg)
+![举例：𝕏 封面——教程类](../images/adrian-mckinsey-style-consulting-visual-prompts/006.webp)
 
-![举例：专业领域信息图](../images/adrian-mckinsey-style-consulting-visual-prompts/007.jpg)
+![举例：专业领域信息图](../images/adrian-mckinsey-style-consulting-visual-prompts/007.webp)
 
-![举例：商业分析图](../images/adrian-mckinsey-style-consulting-visual-prompts/008.jpg)
+![举例：商业分析图](../images/adrian-mckinsey-style-consulting-visual-prompts/008.webp)
 
 ## 老规矩，提示词太长分两次复制
 

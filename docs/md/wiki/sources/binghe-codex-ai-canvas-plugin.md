@@ -23,7 +23,7 @@ coverImage: "../images/binghe-codex-ai-canvas-plugin/001.jpg"
 
 有图有真相！
 
-![](../images/binghe-codex-ai-canvas-plugin/002.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/002.webp)
 
 做出来后，其实我和大多数人一个想法：
 
@@ -47,7 +47,7 @@ coverImage: "../images/binghe-codex-ai-canvas-plugin/001.jpg"
 
 为此我做了六个 Skill 工作流在其中：
 
-![](../images/binghe-codex-ai-canvas-plugin/003.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/003.webp)
 
 这六个常用图片场景基本可以满足你 95% 的生图需求！
 
@@ -69,13 +69,13 @@ coverImage: "../images/binghe-codex-ai-canvas-plugin/001.jpg"
 
 然后等待打开服务，点击里面的链接，侧边栏会自动打开
 
-![](../images/binghe-codex-ai-canvas-plugin/004.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/004.webp)
 
 侧边栏即我们的工作区！
 
 这时为了方便操作，你可以隐藏 Codex 侧边栏，或全屏，这样画布展示页更大！
 
-![](../images/binghe-codex-ai-canvas-plugin/005.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/005.webp)
 
 上图中，请注意红框几个区域
 
@@ -85,7 +85,7 @@ coverImage: "../images/binghe-codex-ai-canvas-plugin/001.jpg"
 
 3，Skill 画板，有些 Skill 比如小红书，YouTube 封面图两个用图场景，需要你点击图片后，再打开 skill 面板开始操作，还有一些，比如下图：
 
-![](../images/binghe-codex-ai-canvas-plugin/006.png)
+![](../images/binghe-codex-ai-canvas-plugin/006.webp)
 
 你不用点击图片，也可以使用，就是因为需要你提供需求才生成图片的逻辑。
 
@@ -93,7 +93,7 @@ coverImage: "../images/binghe-codex-ai-canvas-plugin/001.jpg"
 
 4，任务记录区，这里是你在完成了 Skill 一系列的操作后，会有个“提交给 Codex 生成”的按钮时，产生的状态内容。
 
-![](../images/binghe-codex-ai-canvas-plugin/007.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/007.webp)
 
 状态内容是给 Codex 看的，你只要知道这里已经有内容了，就可以回到和 Codex 的对话框里，让它执行 Skill 了，上图中给到了你提示，比如输入：AI Canvas 继续处理 Skill
 
@@ -115,37 +115,37 @@ coverImage: "../images/binghe-codex-ai-canvas-plugin/001.jpg"
 
 选中一张图片，进入 Social Media 分类，选择 小红书封面。填写内容类型、主标题、标题风格、标题位置和必须保留的元素后提交。结果会直出包含字体、配色、版式和中文标题的完整 3:4 封面图。
 
-![](../images/binghe-codex-ai-canvas-plugin/008.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/008.webp)
 
 YouTube 封面图
 
 选中图片后选择 YouTube 封面图。输入视频主题、大标题、目标观众、缩略图风格、标题位置和保留重点，Codex 会生成更适合 16:9 展示的高识别度缩略图。
 
-![](../images/binghe-codex-ai-canvas-plugin/009.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/009.webp)
 
 产品营销组图
 
 在 E Commerce 分类选择 产品营销组图。可按 Amazon 商品页 / A+、Shopify / 独立站、Meta 广告、Google 展示广告或通用电商套图生成多张物料，适合把一张产品图扩展成完整销售视觉。
 
-![](../images/binghe-codex-ai-canvas-plugin/010.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/010.webp)
 
 Logo 与品牌
 
 在 Branding 分类选择 Logo 与品牌。填写品牌名、行业、目标受众、定位差异点、品牌人格、Logo 风格和使用场景，Codex 会生成 Logo 概念、备选方向和品牌视觉板。
 
-![](../images/binghe-codex-ai-canvas-plugin/011.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/011.webp)
 
 营销宣传册
 
 在 Marketing 分类选择 营销宣传册。支持三折页宣传册、服务介绍册、活动推广册、产品推广册，适合把活动、课程、服务或产品说明整理成可展示的多页营销物料。
 
-![](../images/binghe-codex-ai-canvas-plugin/012.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/012.webp)
 
 一键跨平台适配
 
 在 Studio 分类选择 一键跨平台适配。选择发布平台、内容类型、文字处理、必须保留元素和背景策略后，Codex 会按平台比例、安全区和展示场景重构图片。
 
-![](../images/binghe-codex-ai-canvas-plugin/013.jpg)
+![](../images/binghe-codex-ai-canvas-plugin/013.webp)
 
 这套无限画布的实用场景展示完毕，我想已经把 Lovart 作图部分的全部功能基本复刻完成！
 

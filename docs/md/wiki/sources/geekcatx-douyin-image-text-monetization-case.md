@@ -4,7 +4,7 @@ date: "2026-06-26"
 source: "X/Twitter"
 author: "知识猫 (@GeekCatX)"
 url: "https://x.com/GeekCatX/status/2070561078963216666"
-coverImage: "../images/geekcatx-douyin-image-text-monetization-case/001.jpg"
+coverImage: "../images/geekcatx-douyin-image-text-monetization-case/001.webp"
 ---
 
 # 知识猫（@GeekCatX）：抖音图文账号变现实战拆解——陈皮拿铁 9 万粉起号与素材复刻
@@ -80,9 +80,9 @@ gpts 放评论区了👇
 
 skill：https://youmind.com/skills/qNPTEhwe4noxzh
 
-![](../images/geekcatx-douyin-image-text-monetization-case/001.jpg)
+![](../images/geekcatx-douyin-image-text-monetization-case/001.webp)
 
-![](../images/geekcatx-douyin-image-text-monetization-case/002.jpg)
+![](../images/geekcatx-douyin-image-text-monetization-case/002.webp)
 
 https://chatgpt.com/g/g-6a3ead3b600481919945121c1e7bbb34-liang-gong-ge-man-hua-fen-jing-shi
 

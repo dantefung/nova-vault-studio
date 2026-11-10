@@ -42,7 +42,7 @@ https://x.com/yhslgg/status/2100621429624762667
 
 先准备一组照片和一个承接群，再选一种适合自己的制作方法开始做。图文、模板视频、抠图视频、实况图，都能接到同一套承接和付费流程。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/002.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/002.webp)
 
 工具准备：找素材、修图片、做套图、做视频、写文案、接付款。
 
@@ -58,7 +58,7 @@ https://x.com/yhslgg/status/2100621429624762667
 8. 做一转：开通或搭建付费进群系统，用户付款后领取写真、短片和更新合集。
 9. 做二转、三转：再接后端业务，文末讲方向。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/003.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/003.webp)
 
 九步流程：内容制作、流量承接、付费交付与后续转化。
 
@@ -74,7 +74,7 @@ https://x.com/yhslgg/status/2100621429624762667
 - 网络：用稳定的自有 Wi-Fi 或手机流量，避免公共网络和频繁换出口。软路由、流量卡可用于管理接入，但不等于独立公网 IP，也不能保证账号互不关联。
 - 设备：安装官方客户端，起步先固定一部常用手机做一个号，少来回切号、换机，不装刷量、群控或改机工具。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/004.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/004.webp)
 
 养号准备：检查账号、设备、网络，登录后完成安全项。
 
@@ -122,7 +122,7 @@ https://x.com/yhslgg/status/2100621429624762667
 
 快手的话不需要养号，第一天熟悉内容、准备素材，第二天起每天少量试发并持续更新，至少一周后才会出来流量。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/005.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/005.webp)
 
 ## 第二步：定人设，把这二件事做好
 
@@ -138,7 +138,7 @@ https://x.com/yhslgg/status/2100621429624762667
 3. 统一加工。醒图／美图秀秀做裁切、调色和封面，保留自然肤色与纹理。要放进竖屏视频的图片，提前检查 9∶16 构图。
 4. 分用途保存。公开作品用几张预览，NV 用处理好的素材，付费交付保留完整高清系列。外面展示哪套，里面就能找到哪套。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/006.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/006.webp)
 
 左：发现页筛选人物与风格。右：进作者主页继续找同系列作品。
 
@@ -154,7 +154,7 @@ https://x.com/yhslgg/status/2100621429624762667
 
 以这张人物图为参考，保持脸部特征、发型和肤色一致，生成【主题】的同系列写真，变化姿势、角度和景别，保持自然光线。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/007.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/007.webp)
 
 先检查人物一致性，再把选中的图片交给醒图／美图秀秀统一裁切、调色。换脸也在作图环节处理，底图和人脸参考都使用原创或已获许可的素材。
 
@@ -171,7 +171,7 @@ GPT／MiniMax Agent 可以把固定人设、出图要求、文件命名和配文
 
 先固定一两个模板，用新图片持续做同系列图文和短片。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/008.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/008.webp)
 
 左侧找导入与替换入口，右侧检查构图、调整缩放和位置。
 
@@ -181,7 +181,7 @@ GPT／MiniMax Agent 可以把固定人设、出图要求、文件命名和配文
 
 准备背景图和人物短片，在剪映里把背景放主轨，人物加到“画中画”，点“智能抠像”；调好人物大小、位置，把背景时长拉到与人物一致。再加轻微运镜，检查人物边缘、脚下位置和光线，导出竖屏成片。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/009.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/009.webp)
 
 剪映：背景放主轨，人物加到画中画，再使用智能抠像。
 
@@ -191,11 +191,11 @@ GPT／MiniMax Agent 可以把固定人设、出图要求、文件命名和配文
 
 进入编辑页加入自己的素材，排好顺序、调时长和音乐，再预览发布。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/010.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/010.webp)
 
 左：快影裁片、编辑。右：Wink 的画质修复和实况工具入口。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/011.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/011.webp)
 
 快手：选择魔法，用多段拍完成效果片段，再进入编辑。
 
@@ -205,11 +205,11 @@ GPT／MiniMax Agent 可以把固定人设、出图要求、文件命名和配文
 
 导出格式要选实况，别选成普通 MP4 或 GIF。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/012.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/012.webp)
 
 实况制作：左侧在时间线上切动作片段，右侧选择 Live 实况导出。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/013.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/013.webp)
 
 左：剪映的实况导出设置。右：发布前检查实况预览和排列。
 
@@ -219,7 +219,7 @@ GPT／MiniMax Agent 可以把固定人设、出图要求、文件命名和配文
 
 普通文生图模板不能直接完成这一步。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/014.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/014.webp)
 
 动作迁移：输入人物参考图和动作视频，对照生成结果。
 
@@ -229,7 +229,7 @@ GPT／MiniMax Agent 可以把固定人设、出图要求、文件命名和配文
 
 生成后检查脸、手和背景，再进剪映／快影配乐、加文字；想发会动的图文，就接着转实况。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/015.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/015.webp)
 
 ComfyUI 图生视频示例：上传人物图，填写动作描述，再设置视频参数。
 
@@ -255,7 +255,7 @@ ComfyUI 图生视频示例：上传人物图，填写动作描述，再设置视
 
 每条作品只给一个明确去向：@说明号，或者看主页置顶。发之前检查素材权限、音乐和必要的 AI 标识；发之后记录播放量、主页访问、进群、付款，知道人在哪一步没有继续。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/016.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/016.webp)
 
 作品缩略图左下角的三角标识是播放量；预览上方的“新点赞”是另一项数据。
 
@@ -280,13 +280,13 @@ A 展示作品与发布页的 @入口，B 简介指向 C，C 主页提供公开�
 
 图文：选图片 → 在编辑页可用的“标记／文字”入口写“完整系列看主页置顶” → 放到不挡脸、不挡主体的位置。没有标记功能，就用清楚的文字提示。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/017.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/017.webp)
 
 图文里的标记放在画面空白处，用来提示看主页或置顶说明。
 
 视频：导入成片 → 编辑 → 文字／添加文字 → 输入同一句提示 → 调整位置、大小 → 拖动时间轴上的文字条，设置出现时段。先展示内容，后面再出提示，停留到能读完。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/018.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/018.webp)
 
 先添加文字，再填提示，最后拖动文字条调整出现位置和持续时间。文字贴纸本身不是跳转链接。
 
@@ -296,7 +296,7 @@ A 展示作品与发布页的 @入口，B 简介指向 C，C 主页提供公开�
 
 需要评论区承接的，在自己的说明帖下补充入口信息；图片评论、图码和跳转按账号当前权限使用，并从新用户视角试一次。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/019.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/019.webp)
 
 说明帖要有明确的下一步入口；使用评论区承接时，入口信息应与主页和群说明一致。
 
@@ -308,7 +308,7 @@ A 展示作品与发布页的 @入口，B 简介指向 C，C 主页提供公开�
 
 这里用 QQ 的合并转发聊天记录：群里先显示一张折叠卡片，点开后是预览、内容介绍和购买码海报。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/020.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/020.webp)
 
 用户先看到聊天记录卡片，点开后看到预览、介绍和购买入口；二维码示例已遮挡。
 
@@ -329,7 +329,7 @@ A 展示作品与发布页的 @入口，B 简介指向 C，C 主页提供公开�
 
 选“合并转发”，才能生成同一张聊天记录卡片；“逐条转发”会把消息一条条发出去。先做一层，让用户点开一次就看到内容和付款入口。
 
-![](../images/yhslgg-ai-beauty-photo-monetization-sop/021.jpg)
+![](../images/yhslgg-ai-beauty-photo-monetization-sop/021.webp)
 
 长按消息后多选，把预览、说明和购买码合并转发；收到后点开检查内容是否完整。
 

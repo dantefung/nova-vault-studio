@@ -4,7 +4,7 @@ date: "2026-11-02"
 source: "微信公众号"
 author: "若飞（架构师 JiaGouX）"
 url: "https://mp.weixin.qq.com/s/1aR5yZSL01oQ0ms4L_486A"
-coverImage: "../images/ruofei-dsh-superagent-issue-to-pr/001.png"
+coverImage: "../images/ruofei-dsh-superagent-issue-to-pr/001.webp"
 ---
 
 # 若飞：DeepSeek Super-agent 上手——从 GitHub Issue 到 PR
@@ -208,7 +208,7 @@ Agent 接下请求后，就会在自己的会话和代码目录里推进修复�
 
 这时在 Trigger 中可能看到 `Delivered to Ticket`，却没有新的 Eval：评论已经送到原任务，不需要再发一次请求。
 
-![](../images/ruofei-dsh-superagent-issue-to-pr/001.png)
+![](../images/ruofei-dsh-superagent-issue-to-pr/001.webp)
 
 图 1｜流程示意：范围内的补充沿原修复继续，PR 更新后仍由人评审和合并。
 

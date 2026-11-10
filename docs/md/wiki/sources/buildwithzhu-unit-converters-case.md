@@ -12,7 +12,7 @@ url: "https://x.com/BuildWithZhu/status/2114618342011187518"
 
 <!-- more -->
 
-![UnitConverters 案例截图](../images/buildwithzhu-unit-converters-case/001.jpg)
+![UnitConverters 案例截图](../images/buildwithzhu-unit-converters-case/001.webp)
 
 *图 1：UnitConverters 案例截图（Revenue: $25 万/年）。*
 

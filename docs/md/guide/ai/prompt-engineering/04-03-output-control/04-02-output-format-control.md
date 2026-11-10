@@ -197,7 +197,7 @@ type TranslatedResult = {
 };
 ```
 
-![](../images/output-format-1.png)
+![](../images/output-format-1.webp)
 
 输出结果参考
 
@@ -221,7 +221,7 @@ type TranslatedResult = {
 \`\`\`
 ```
 
-![](../images/output-format-0.png)
+![](../images/output-format-0.webp)
 
 ## 容错处理
 

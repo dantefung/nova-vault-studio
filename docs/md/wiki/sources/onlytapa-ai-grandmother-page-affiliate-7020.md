@@ -35,7 +35,7 @@ When people comment yes, they’re using a DM automation to automatically send o
 
 It’s also in the pages bio:
 
-![](../images/onlytapa-ai-grandmother-page-affiliate-7020/002.jpg)
+![](../images/onlytapa-ai-grandmother-page-affiliate-7020/002.webp)
 
 There’s 2 ways I’m estimating the page earnings:
 
@@ -99,7 +99,7 @@ For me, I’ve had to directly negotiate with different supplement companies on 
 
 Your other option could be to create your own Shopify supplement brand - but that’s obviously a ton of effort, which is why I prefer to just negotiate better commission rates for existing products that already have great reviews.
 
-![](../images/onlytapa-ai-grandmother-page-affiliate-7020/003.jpg)
+![](../images/onlytapa-ai-grandmother-page-affiliate-7020/003.webp)
 
 ## Step 4: Posting and making sales
 

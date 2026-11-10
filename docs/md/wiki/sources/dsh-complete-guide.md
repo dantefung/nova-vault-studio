@@ -6,7 +6,7 @@ source: "X (Twitter)"
 url: "https://x.com/phosphenq/status/2088709619279372749"
 ---
 
-![封面图](../images/dsh-complete-guide/001.jpg)
+![封面图](../images/dsh-complete-guide/001.webp)
 
 # DeepSeek Harness 完全指南
 
@@ -86,7 +86,7 @@ locale:
 
 Then it asks for an API key. You can skip it with **configure later** and still browse settings, presets and the plugin list. You need a key to run a task.
 
-![DSH 浏览器界面入口](../images/dsh-complete-guide/002.jpg)
+![DSH 浏览器界面入口](../images/dsh-complete-guide/002.webp)
 
 The default permission mode is **Workspace Write**. The other two are read-only and full access.
 
@@ -163,7 +163,7 @@ A **profile** is a stack of bundles in your Harness home, and it is a real packa
   }
 }
 ```
-![plugin 列表与 schema](../images/dsh-complete-guide/003.png)
+![plugin 列表与 schema](../images/dsh-complete-guide/003.webp)
 
 To see the tree your machine actually boots:
 
@@ -204,7 +204,7 @@ One thing the default profile quietly ships: **dsh-llm-pi-ai** pulls **@ anthrop
 
 Settings, Plugins, Plugin list. A default web profile shows **133** plugins, each with a status and an expandable config. Counted from a running install: **107 enabled, 26 disabled**. The dark ones are almost all **tool-\*** packages, which the preset activates per session rather than at boot. On Windows **pwsh-sandbox** is on and **bash-sandbox** is off.
 
-![profile 与 preset 配置](../images/dsh-complete-guide/004.jpg)
+![profile 与 preset 配置](../images/dsh-complete-guide/004.webp)
 
 The toggles are status, not switches. To actually disable one, edit **~/.dsh/profiles/web/cordis.patch.yml**, which the **Open configuration file** button opens. Fresh installs contain only instructions and an empty array:
 
@@ -269,7 +269,7 @@ The session log is append-only and it is the source of the context the model see
 
 Recorded: system prompts, reasoning, tool calls and results, subagent scheduling, every context injection. The Trajectory view opens each record by source. Resume, fork, search and replay run on that one stream, and a session exports as a zip containing **session.jsonl**.
 
-![trajectory 视图示例](../images/dsh-complete-guide/005.png)
+![trajectory 视图示例](../images/dsh-complete-guide/005.webp)
 
 A **step** is one model request plus the tools it calls. A **turn** is zero or more steps. **agent/pre-step**, **agent/request**, **llm/stream** and the three **tools/\*** events are waterfalls: a listener that does not call **next()** stops the chain. That is the whole extension surface. A plugin listening on **tools/pre-execute** blocks a tool call without touching the loop.
 
@@ -346,7 +346,7 @@ The harness is free. The model is not, and the rates change on 16 August 2026 at
 
 Peak is 01:00 to 04:00 and 06:00 to 10:00 UTC.
 
-![MCP 与工具配置](../images/dsh-complete-guide/006.png)
+![MCP 与工具配置](../images/dsh-complete-guide/006.webp)
 
 The summary going around says off-peak is fifty percent cheaper. That holds against the peak rate only. Against today's price every cell rises: Flash output moves from $0.28 to $0.66 off-peak and $1.32 at peak.
 

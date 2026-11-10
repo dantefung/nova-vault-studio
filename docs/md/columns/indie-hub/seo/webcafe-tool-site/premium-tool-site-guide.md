@@ -82,7 +82,7 @@ url: "https://new.web.cafe/tutorial/detail/za408lc1q9"
 
 这些思路，在24年下半年跟一些群里朋友提了，他们去实践了，真的拿到了结果。 其中有一个站的增长曲线是这样子的，一直在上升。
 
-![940a9274e7fd5cbbc8030216bf8e90dc.png](images/gefei-premium-tool-site/002.png)
+![940a9274e7fd5cbbc8030216bf8e90dc.png](images/gefei-premium-tool-site/002.webp)
 
 当然，还是需要特别提醒一下，海量页面模式，不适合新域名。 新站搞海量页面必死。
 
@@ -274,6 +274,6 @@ Pollo.ai 就做到了统一，同一个URL，登录前和登录后不一样，�
 
     打卡
 
-![](images/gefei-premium-tool-site/019.jpg)
+![](images/gefei-premium-tool-site/019.webp)
 
 添加图片添加隐藏回复

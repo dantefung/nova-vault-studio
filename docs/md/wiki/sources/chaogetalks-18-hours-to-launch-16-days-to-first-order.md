@@ -27,7 +27,7 @@ coverImage: "../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/001
 
 支付后台的收入曲线，一直平在 0，到第 16 天一根线暴拉！
 
-![支付后台收入曲线：一直是 0，第 16 天第一笔进账](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/002.png)
+![支付后台收入曲线：一直是 0，第 16 天第一笔进账](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/002.webp)
 
 抽丝剥茧一番，原来是一位素不相识的波兰人，在中午与朋友聚会后，估计突发奇想要做个 AI 视频，然后在 手机 Google 上面划到了我的站，觉得『诶，有意思』，然后浏览了 7 分多钟，『靠谱！』，毅然下单，终于促成我 0 单的突破！
 
@@ -45,9 +45,9 @@ coverImage: "../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/001
 
 第二周更扎心：展示涨了一半，ChatGPT 都开始给我带人了，结账按钮又有人点了 2 次。付款：0。主词还从 82 名掉到了 90 名。
 
-![Google Search Console：上线 16 天全站点击、展示和平均排名](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/003.jpg)
+![Google Search Console：上线 16 天全站点击、展示和平均排名](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/003.webp)
 
-![主词：16 天 14 次展示，排名在 80～90 名徘徊](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/004.jpg)
+![主词：16 天 14 次展示，排名在 80～90 名徘徊](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/004.webp)
 
 真是心灰意冷，我是不抱希望的了。
 
@@ -69,7 +69,7 @@ coverImage: "../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/001
 
 就是这个不起眼的页面，带来了第一个付费用户。
 
-![开单的那个长尾页：16 天 54 次展示、1 次点击，平均排名 7.4](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/005.jpg)
+![开单的那个长尾页：16 天 54 次展示、1 次点击，平均排名 7.4](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/005.webp)
 
 其次，用户在站里的轨迹：
 
@@ -122,7 +122,7 @@ $8.63，不多，还得刨开成本，但这是我的第一笔真金白银入账
 
 ## 好吧，是时候看看我们的成长曲线了
 
-![从买域名到第一单，我们做了什么（D0 → D16）](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/006.jpg)
+![从买域名到第一单，我们做了什么（D0 → D16）](../images/chaogetalks-18-hours-to-launch-16-days-to-first-order/006.webp)
 
 ## 第一单教会我的 5 件事
 

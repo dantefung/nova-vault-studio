@@ -39,7 +39,7 @@ coverImage: "../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo
 - SEO 与 GEO：开源的 claude-seo 查出线上网站几乎没有搜索标签，robots.txt 和 sitemap 被登录页挡住；补齐每种语言的地址、canonical、hreflang、分享卡片、结构化数据和页面上的常见问题，放行 AI 搜索爬虫，加了 llms.txt。提交 Google Search Console 后不到一天就被收录，Google 搜索的 AI 回答直接引用了网站的介绍和价格表。
 - 第一年固定支出：用满 AWS 的 $200 赠金，第一年现金支出大约 $100（域名 $10，加上赠金用完后 3 个多月的服务器）。
 
-![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/002.jpg)
+![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/002.webp)
 
 ## 一、先国内还是先海外，最后选了海外
 
@@ -137,7 +137,7 @@ APS 在服务端需要跑一个无头浏览器（Playwright），用来把 HTML 
 
 最后在服务器端，我用 Caddy 做反向代理，不仅自动申请和续期证书，还在配置里限制了只接受来自 Cloudflare 官方 IP 段的请求，任何试图绕过 CDN 直接扫服务器 IP 的请求一律拒绝。
 
-![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/003.jpg)
+![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/003.webp)
 
 ## 四、部署上线时的 4 个真实小插曲
 
@@ -204,7 +204,7 @@ Resend 的费用账本（免费额度与超额怎么算）： 很多人只听说
 - API Key 只按底层协议分两种：Anthropic 协议和 OpenAI 协议。不管是官方原生接口、各种第三方 API 中转站，还是 DeepSeek、硅基流动这类兼容 OpenAI/Anthropic 协议的服务，填上 Base URL 和 Key 就能直接跑；
 - 已有订阅直接用设备码（Device Code）登录：如果你手里已经有 ChatGPT Plus/Pro 或者 GitHub Copilot 订阅，甚至不需要去折腾 API Key，直接在 APS 网页端通过设备码授权登录就能直接调用额度。
 
-![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/004.jpg)
+![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/004.webp)
 
 ## 六、海外收款：主流方案横评，以及为什么最后选了 Waffo Pancake
 
@@ -340,7 +340,7 @@ console.log(“keys ok, mode =”, e.APS_WAFFO_MODE)’
 
 教训就一句：测试用的假服务要和真服务一样挑剔，上线第一天一定要看日志。
 
-![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/005.jpg)
+![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/005.webp)
 
 ## 七、重头戏：用开源 claude-seo 做完海外建站的 SEO 与 GEO
 
@@ -414,7 +414,7 @@ Bing Webmaster Tools（约 5 分钟）：ChatGPT 的搜索有一部分用的是 
 
 结果：提交后不到一天，Google 搜 site:apsdeck.com 就有结果了，标题是改过的「APS Deck · 面向讲师和创作者的 AI 演示稿编辑器」；更惊喜的是 Google 的 AI 回答直接把 APS Deck 的介绍、功能和价格表（订阅 $4/月、$40/年，时长包 $5、$50，14 天免绑卡试用）列了出来，几乎就是首页常见问题的原话。这就是 GEO 想要的效果：AI 能读到、读得懂、愿意引用。Bing 还在排队，新域名一般要几天到两周。
 
-![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/006.jpg)
+![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/006.webp)
 
 ### 7. 和传统 SEO 工具比，好在哪？
 
@@ -426,7 +426,7 @@ claude-seo 就跑在代码仓库里。 我对 Claude Code 说的原话是：
 
 从体检、改代码、生成分享图、写测试到提交，都在这一次对话里完成，我只负责最后部署。如果你也在用 Claude Code 做独立开发出海，这个插件值得装。
 
-![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/007.jpg)
+![](../images/leo-3-days-launch-overseas-saas-server-domain-payment-seo/007.webp)
 
 ## 八、成本总账本
 

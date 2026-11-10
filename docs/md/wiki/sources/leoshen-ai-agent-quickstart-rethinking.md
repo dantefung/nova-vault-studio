@@ -48,7 +48,7 @@ coverImage: "../images/leoshen-ai-agent-quickstart-rethinking/001.jpg"
 
 一个英文单词可能是一个 Token，也可能被拆成几个；一个汉字也不一定恰好对应一个 Token。标点、空格同样可能占用 Token。具体怎么拆，取决于模型使用的分词器（Tokenizer）：
 
-![](../images/leoshen-ai-agent-quickstart-rethinking/002.jpg)
+![](../images/leoshen-ai-agent-quickstart-rethinking/002.webp)
 
 可以看到，“今天天气怎么样”这七个字，被拆成了 4 个 Token：「今」「天天」「气」「怎么样」。
 
@@ -84,7 +84,7 @@ coverImage: "../images/leoshen-ai-agent-quickstart-rethinking/001.jpg"
 
 但常见的大模型调用，本身是无状态（模型本身并不知道你之前给它发送了什么）的。要实现连续对话，应用软件在幕后做了一件很粗暴的事：每次你发一条新消息，软件都会把从第一句话开始的所有历史对话记录，完完整整地重新打包，一股脑全发给模型。
 
-![](../images/leoshen-ai-agent-quickstart-rethinking/003.jpg)
+![](../images/leoshen-ai-agent-quickstart-rethinking/003.webp)
 
 你在界面上只发了一句新消息，模型这次获得的输入，却已经是一大段内容。
 
@@ -288,7 +288,7 @@ Skill 解决的问题和 MCP 一样，都是让 AI 能够获取和使用外部�
 
 一个简单的 PDF 处理 Skill 结构如下：
 
-![](../images/leoshen-ai-agent-quickstart-rethinking/004.jpg)
+![](../images/leoshen-ai-agent-quickstart-rethinking/004.webp)
 
 每个 Skill，在会话开始的时候，模型看到的就两个信息：名称、描述，模型根据描述判断自己需要这个 Skill 后再加载这个 Skill 的完整 SKILL.md
 
@@ -308,7 +308,7 @@ Skill 解决的问题和 MCP 一样，都是让 AI 能够获取和使用外部�
 
 这样 AI 就是一层一层地主动获取自己需要的信息，而不是被动地接收一堆可能用不上的东西。
 
-![](../images/leoshen-ai-agent-quickstart-rethinking/005.jpg)
+![](../images/leoshen-ai-agent-quickstart-rethinking/005.webp)
 
 Skill 能做的也不只是工具调用。很多时候我们用它来做「专家知识」的渐进式加载：不同领域的知识库、一套标准的工作流 SOP、甚至是写作风格指南。这些纯文本的技能同样受益于按需加载的机制。
 

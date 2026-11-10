@@ -62,13 +62,13 @@ UU远程最近升级了终端功能。
 
 点击终端，然后选择创建对话，就在手机端创建了终端会话。
 
-![](../images/vibecoding-mobile-computer-seamless/001.png)
+![](../images/vibecoding-mobile-computer-seamless/001.webp)
 
 在被控Mac上打开常用终端，输入下面这行命令，就能查看当前的UU终端会话。
 
 uuyc-cli lterm ls
 
-![](../images/vibecoding-mobile-computer-seamless/002.png)
+![](../images/vibecoding-mobile-computer-seamless/002.webp)
 
 找到要继续的会话，再输入下面这行命令。
 
@@ -88,27 +88,27 @@ uuyc-cli lterm new "会话名称"
 
 这个任务是我先在电脑端开始的。
 
-![](../images/vibecoding-mobile-computer-seamless/003.png)
+![](../images/vibecoding-mobile-computer-seamless/003.webp)
 
 中午出去吃饭时，我在手机的终端会话里看到第一版已经跑出来了，于是切到远程桌面，直接查看网页效果。
 
-![](../images/vibecoding-mobile-computer-seamless/004.png)
+![](../images/vibecoding-mobile-computer-seamless/004.webp)
 
 看完以后又有了新想法，我想增加几个筛选标签，用来区分已读、未读和待核验的内容。
 
 放在以前，这一步多半要等我回到电脑前再处理。现在我打开手机终端，补一句要求就行。
 
-![](../images/vibecoding-mobile-computer-seamless/005.png)
+![](../images/vibecoding-mobile-computer-seamless/005.webp)
 
 在手机上操作终端时，有一个细节特别好用，就是它提供了独立输入框。
 
-![](../images/vibecoding-mobile-computer-seamless/006.png)
+![](../images/vibecoding-mobile-computer-seamless/006.webp)
 
 直接在传统终端里输入和修改一大段中文需求，体验通常比较费劲。UU远程可以唤起手机系统输入法，语音输入也能照常使用。整段话说完以后，可以先检查和修改，确认没问题再发送。
 
 等我吃完饭，Codex也已经改完了。这种感觉很像把等待时间捡了回来。
 
-![](../images/vibecoding-mobile-computer-seamless/007.png)
+![](../images/vibecoding-mobile-computer-seamless/007.webp)
 
 实际开发时，大家通常也不只开一个AI对话，经常是几个任务同时跑。UU远程的终端可以创建多个会话，一个页面里就能管理。
 
@@ -130,11 +130,11 @@ GPT-6 Astra的实力，大家应该都了解了，效果很好我就不必多说
 
 做这个任务知道会跑得比较久，所以我先在电脑端开了一个UU远程会话「深海万物生」，手机会自动创建这个会话。
 
-![](../images/vibecoding-mobile-computer-seamless/008.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/008.webp)
 
 打开启动以后，我从手机进入同一个终端会话查看进度，再切到远程桌面看实际画面。需要调整时回到终端补充要求，改完再进桌面验收，整个过程完全在手机上操作也很顺。
 
-![](../images/vibecoding-mobile-computer-seamless/009.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/009.webp)
 
 当然如果能一直在电脑前直接看是最好的，但是现在 UU 远程可以实现即使不在电脑前，只通过手机就可以掌握整个会话的进程，这个变化很重要。
 
@@ -150,7 +150,7 @@ GPT-6 Astra的实力，大家应该都了解了，效果很好我就不必多说
 
 Codex的TUI操作同样可以继续使用，输入斜杠，电脑终端里的命令，在手机上也全都有。
 
-![](../images/vibecoding-mobile-computer-seamless/010.png)
+![](../images/vibecoding-mobile-computer-seamless/010.webp)
 
 对我来说，这是一种更舒服，也更利落的手机Vibecoding方式。终于能更优雅地用手机远程操控了，不用一直坐在电脑前守着电脑。
 
@@ -172,7 +172,7 @@ Codex的TUI操作同样可以继续使用，输入斜杠，电脑终端里的命
 
 别担心，UU远程甚至可以与远程启动电脑，处理完工作后，还能远程关机，不需要让电脑为了随时待命一直开着。
 
-![](../images/vibecoding-mobile-computer-seamless/011.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/011.webp)
 
 远程操作公司电脑时，隐私也是一个很现实的问题。
 
@@ -180,13 +180,13 @@ Codex的TUI操作同样可以继续使用，输入斜杠，电脑终端里的命
 
 说实话，办公室里一台没坐人的电脑突然自己开始操作，确实还有一点吓人。
 
-![](../images/vibecoding-mobile-computer-seamless/012.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/012.webp)
 
-![](../images/vibecoding-mobile-computer-seamless/013.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/013.webp)
 
 远程操作结束后，还可以开启远程结束时自动锁屏。连接，操作和退出这些环节可能出现的隐私问题，基本都考虑到了，所有产品都向这个贴心程度看齐好不好。
 
-![](../images/vibecoding-mobile-computer-seamless/014.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/014.webp)
 
 已经讲了很多好用的功能了，这个还是要给大家分享一下，UU远程的跨端文件传输也很好用啊
 
@@ -194,13 +194,13 @@ Codex的TUI操作同样可以继续使用，输入斜杠，电脑终端里的命
 
 电脑里的文件需要发给同事时，远程操作桌面有时不够方便。这个时候可以直接把文件下载到手机，再从手机发送出去。
 
-![](../images/vibecoding-mobile-computer-seamless/015.png)
+![](../images/vibecoding-mobile-computer-seamless/015.webp)
 
 像前面用Vibecoding做出来的网页，也可以把项目文件夹或者预览图片直接传到手机，方便发给同事查看。
 
 我还测试了把旧Windows电脑里的文件迁移到新Mac，实际传输速度大约为5MB每秒。具体速度会受到两台设备和网络环境影响，但日常文件和项目资料传起来已经很方便。
 
-![](../images/vibecoding-mobile-computer-seamless/016.png)
+![](../images/vibecoding-mobile-computer-seamless/016.webp)
 
 以前跨设备传文件，经常需要找一个中转站，先上传到网盘，再从另一台设备下载，文件一大，光看进度条就够熬人。
 
@@ -212,17 +212,17 @@ Codex的TUI操作同样可以继续使用，输入斜杠，电脑终端里的命
 
 UU远程的帧率和画面有多种选择，具体能开到哪一档，还要看控制端、被控端和网络条件。
 
-![](../images/vibecoding-mobile-computer-seamless/017.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/017.webp)
 
 在电脑上打开4399，找了一款最近上线的小游戏，然后直接用平板玩了一把。
 
 游戏开始前先启用按键映射，选择切换操控方案，把操控方案切换成「极速竞技」。
 
-![](../images/vibecoding-mobile-computer-seamless/018.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/018.webp)
 
 当时探索到这个功能的时候都愣住了，这也太丰富了，还有很多适配其他游戏像逆水寒，黑神，三角洲等等。
 
-![](../images/vibecoding-mobile-computer-seamless/019.jpeg)
+![](../images/vibecoding-mobile-computer-seamless/019.webp)
 
 我选的是 60 帧 ，2M画面，实际体验比我预想中流畅很多，整个过程完全没有延迟和卡顿，声音和画面的同步也很好，触控操作用起来很顺手。
 

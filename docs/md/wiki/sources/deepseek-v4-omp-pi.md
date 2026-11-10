@@ -10,16 +10,16 @@ url: "https://mp.weixin.qq.com/s/2HITetdpVpQrELhYMNBdPA"
 
 DeepSeek V4 Flash 正式版前几天上线，官方 API 也同步进入公测。这次更新重点加强了 Agent 能力，原生支持 Responses API，并适配了 Codex。在官方公布的 Terminal Bench 2.1、DeepSWE、Toolathlon Verified 和 DSBench-FullStack 四项 Agent 基准中，V4 Flash 的成绩都超过了 V4 Pro Preview。
 
-![DeepSeek V4 Flash 基准成绩](../images/deepseek-v4-omp-pi/001.png)
+![DeepSeek V4 Flash 基准成绩](../images/deepseek-v4-omp-pi/001.webp)
 
 口碑不错，价格更是几乎等于免费送。
 
-![价格对比](../images/deepseek-v4-omp-pi/002.png)
-![价格对比](../images/deepseek-v4-omp-pi/003.png)
+![价格对比](../images/deepseek-v4-omp-pi/002.webp)
+![价格对比](../images/deepseek-v4-omp-pi/003.webp)
 
 还有个容易被忽略的点：DeepSeek 官方这次在 Responses API 里内置了联网搜索。调用 `deepseek-v4-flash` 时，只要在请求参数里声明 `web_search` 工具，就能使用 DeepSeek 服务端执行的搜索能力，不用自己再接第三方搜索引擎，也不用额外申请搜索接口密钥。
 
-![Responses API 内置搜索](../images/deepseek-v4-omp-pi/004.png)
+![Responses API 内置搜索](../images/deepseek-v4-omp-pi/004.webp)
 
 有不少读者朋友询问除了 Claude Code 还有没有其他比较推荐的 Coding Agent。当然有，我自己也是第一时间把它接到了我常用的 OMP 和 Pi 中使用。Claude Code 接入 DeepSeek 时，需要走 Anthropic 兼容接口，并配置 API Key、Base URL 和模型映射；OMP 和 Pi 当前版本已经内置了 DeepSeek provider 和 V4 Flash 模型。环境变量配好，再选中模型，基本就能用。
 
@@ -27,11 +27,11 @@ DeepSeek V4 Flash 正式版前几天上线，官方 API 也同步进入公测。
 
 Pi Coding Agent 是 Mario Zechner 开源的终端编码代理，默认给模型提供 `read`、`write`、`edit` 和 `bash` 四个工具。安装之后，在项目目录执行 `pi`，就可以让模型读代码、改文件和运行命令。
 
-![Pi Coding Agent](../images/deepseek-v4-omp-pi/005.png)
+![Pi Coding Agent](../images/deepseek-v4-omp-pi/005.webp)
 
 OMP 是 Pi 的一个 fork。两者保留了相近的 Agent 和模型配置思路，不过 OMP 在工具面上做了很多扩展，加入了 Hashline、LSP、DAP、browser、子 Agent 和模型角色路由等能力。
 
-![OMP 对比](../images/deepseek-v4-omp-pi/006.png)
+![OMP 对比](../images/deepseek-v4-omp-pi/006.webp)
 
 需要记住的是两个配置目录：
 - Pi 的全局配置默认放在 `~/.pi/agent/`

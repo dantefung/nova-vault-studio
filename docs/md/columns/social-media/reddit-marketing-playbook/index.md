@@ -13,7 +13,7 @@ url: "https://x.com/heizolshao/status/2102177044092293562"
 
 以下拆解真实 Reddit 的发帖思路，以及可以直接套用的写作框架。
 
-![](./images/reddit-marketing-playbook/reddit-marketing-playbook-img1.jpg)
+![](images/reddit-marketing-playbook/reddit-marketing-playbook-img1.webp)
 
 ## 一、产品站在台中央，故事就没了
 

@@ -51,7 +51,7 @@ coverImage: "../images/todaykan-xhs-personal-selling-guide/001.jpg"
 
 想开店铺卖壁纸，门槛更高。电子资料申请条件里，我看到过类似这些：注册满 180 天、30 篇笔记、1000 粉、千帆店无违规、月流水 6000 等。对我当时来说，等于还要继续运营，还要继续等。
 
-![](../images/todaykan-xhs-personal-selling-guide/002.png)
+![](../images/todaykan-xhs-personal-selling-guide/002.webp)
 
 于是我一边运营，一边等那 180 天。运营上我主要就做三件事：
 
@@ -85,13 +85,13 @@ coverImage: "../images/todaykan-xhs-personal-selling-guide/001.jpg"
 2. 进入「设置」
 3. 找到「新功能体验申请」
 
-![](../images/todaykan-xhs-personal-selling-guide/003.jpg)
+![](../images/todaykan-xhs-personal-selling-guide/003.webp)
 
 条件很简单：账号满 30 天，且无违规，就可以申请。
 
-![](../images/todaykan-xhs-personal-selling-guide/004.jpg)
+![](../images/todaykan-xhs-personal-selling-guide/004.webp)
 
-![](../images/todaykan-xhs-personal-selling-guide/005.jpg)
+![](../images/todaykan-xhs-personal-selling-guide/005.webp)
 
 通过之后，你就有个人售卖入口了。
 
@@ -99,13 +99,13 @@ coverImage: "../images/todaykan-xhs-personal-selling-guide/001.jpg"
 
 通过后，我把商品素材发给 Grok Bot，让它帮写商品信息，再自己改到能上架的程度。标题、说明、怎么交付，尽量写清楚，减少下单后的来回问。
 
-![](../images/todaykan-xhs-personal-selling-guide/006.jpg)
+![](../images/todaykan-xhs-personal-selling-guide/006.webp)
 
 ## 自动发货
 
 设置自动发货，把网盘链接配好。客户下单后会自动收到，不用我一条条手动发。
 
-![](../images/todaykan-xhs-personal-selling-guide/007.jpg)
+![](../images/todaykan-xhs-personal-selling-guide/007.webp)
 
 壁纸这种货，最怕的不是不会卖，是卖起来之后客服和发货把人拖垮。自动发货把这一环先稳住，我才敢继续日更内容。
 
@@ -115,7 +115,7 @@ coverImage: "../images/todaykan-xhs-personal-selling-guide/001.jpg"
 
 到现在已经卖了四百多单。截图上是 441 笔，还有 6 个口碑。
 
-![](../images/todaykan-xhs-personal-selling-guide/008.jpg)
+![](../images/todaykan-xhs-personal-selling-guide/008.webp)
 
 我不会把这个数字说成「谁都能复刻」。我只想说：低门槛开通 + 垂直内容 + 自动发货，至少让「爆一下」有机会变成「成交一下」，而不是只剩浏览和赞藏。
 

@@ -175,7 +175,7 @@ url: "https://mp.weixin.qq.com/s/lcIkBMOKHSvkRYELgkduMg"
 本文用更加可视化的表达来展示 DeepSeek Harness 团队的工程实践，以及架构思路探讨
 
 作为一个引子，在 DeepSeek 内部有 Super-agent ，它能够常驻在公司的群聊和 GitHub 里，并同时推进多件事儿
-![图 1](images/deepseek-super-agent/fig01.jpg)
+![图 1](images/deepseek-super-agent/fig01.webp)
 
 在这个过程中，群里有人抱怨了一个 bug（并没有 @ Agent），但 Agent 自己便可以去复现、找到根因，把修复的 Pull Request 交了上来
 
@@ -198,7 +198,7 @@ Agent 多以单个 Session 为基本单位，Session 和 Session 之间互不相
 DeepSeek 观察下来，一个人通常只能同时跟进 `3 到 5 个`活跃的 Session
 
 Session 一多，人就顾不过来了，看一看：
-![图 2](images/deepseek-super-agent/fig02.jpg)
+![图 2](images/deepseek-super-agent/fig02.webp)
 
 换句话说：**单任务能做多好，看模型；同时能做几件，看人的注意力**
 
@@ -213,7 +213,7 @@ Session 一多，人就顾不过来了，看一看：
 还是以 DeepSeek 内部，那个基于 DeepSeek Harness 跑着着的 Super-agent 作为例子：同一个开发任务，可以在群聊里提、在 GitHub 上接着改
 
 一件事换了地方说，它照样接得上，看一看：
-![图 3](images/deepseek-super-agent/fig03.jpg)
+![图 3](images/deepseek-super-agent/fig03.webp)
 
 开头那个「没人 @ 也自己修 bug」的场景，也来自这个实例：它一直看着公共群聊里的反馈，在没人 @ 它的情况下，主动定位根因、提交修复
 
@@ -226,7 +226,7 @@ DeepSeek 给 Super-agent 定了四个基础特征：
 - **持久**：一直在线，直接接进你真实的工作环境，长期跑下来出了异常，能自己恢复
 
 这四个特征落到具体场景里，是这样的：
-![图 4](images/deepseek-super-agent/fig04.jpg)
+![图 4](images/deepseek-super-agent/fig04.webp)
 
 一个 ReAct Loop（模型想一步、调一次工具、看结果、再想下一步的循环）同时撑不住这四条，底下得有一套相应的架构
 
@@ -242,7 +242,7 @@ DeepSeek 给 Super-agent 定了四个基础特征：
 - Watchdog：出了异常自己恢复
 
 一条群聊消息从进来到收到回复，会挨个经过这五个模块，看一看：
-![图 5](images/deepseek-super-agent/fig05.jpg)
+![图 5](images/deepseek-super-agent/fig05.webp)
 
 ## 双层架构
 
@@ -253,14 +253,14 @@ DeepSeek 给 Super-agent 定了四个基础特征：
 另一种极端，是每来一条事件就新开一个 Session。并发吞吐最高，可任务之间往往不完全独立，缺了全局上下文，各个 Session 的结果彼此割裂；好几个 Session 还各自给用户回话，交互一团乱
 
 两种极端各自卡在哪：
-![图 6](images/deepseek-super-agent/fig06.jpg)
+![图 6](images/deepseek-super-agent/fig06.webp)
 
 DeepSeek 的解法，是把「维护全局连续性」和「高并发执行」拆到两层：
 - 上层是常驻的 Router 层，统一接住人的交互，负责全局协调
 - 下层是 Worker 层，每个 Worker 上下文互相隔离，并发执行具体任务
 
 拆成两层以后，人只跟 Router 说话，活由 Worker 去做：
-![图 7](images/deepseek-super-agent/fig07.jpg)
+![图 7](images/deepseek-super-agent/fig07.webp)
 
 这样一来，上下文管理和并发执行都被系统在底层接走了，用户那一侧几乎感觉不到 Session 的存在，面对的始终是同一个 Super-agent
 
@@ -277,7 +277,7 @@ Router 层常驻，承接所有入口进来的人类交互。所有跨任务的�
 为了让这个全局节点保持轻快，Router 只管跟人交互和分派任务，具体的活都交出去，甚至可以连 Bash 工具都省掉
 
 一个中心节点分派多个执行节点，乍一看和常见的 Agent Team 很像。两者的区别在于，中心节点要管到多细：
-![图 8](images/deepseek-super-agent/fig08.jpg)
+![图 8](images/deepseek-super-agent/fig08.webp)
 
 Agent Team 主要拿来拆解单个复杂任务、让不同角色协作。子步骤之间通常耦合很紧，Team Lead 得深入理解任务细节、规划子任务、高频协调各个成员，自己背着很重的推理负担
 
@@ -294,7 +294,7 @@ Router 层内部同样可以由好几个 Session 组成，有些逻辑甚至用�
 比看上去扛得住。原因是批处理（Batching）：上一轮推理期间到达的环境事件（也就是后面要讲的 Trigger）会先攒着，下一轮一起处理，合并处理的额外开销很小
 
 Router 就是这样扛住消息高峰的，看一看：
-![图 9](images/deepseek-super-agent/fig09.jpg)
+![图 9](images/deepseek-super-agent/fig09.webp)
 
 - 外部事件流平稳的时候，Trigger 一条条进 Router，单次响应的延迟很低
 - 事件密集涌进来、Router 开始排队的时候，上一轮推理期间积压的几条 Trigger 自动合并，在下一次调用 LLM 时一起注入
@@ -328,7 +328,7 @@ Worker 只向 Router 汇报状态，推理过程和工具调用都留在自己�
 放到个人助手里也一样。个人助手在界面上通常只有一个聊天页，但你在同一个对话框里同时聊好几件事时，前端这一个聊天页负责交互的连续，底下可以给每个话题各派一个 Worker，并行推进、起草回复
 
 一个聊天框里同时办几件事，是这样的：
-![图 10](images/deepseek-super-agent/fig10.jpg)
+![图 10](images/deepseek-super-agent/fig10.webp)
 
 ## 事件驱动
 
@@ -353,7 +353,7 @@ Worker 只向 Router 汇报状态，推理过程和工具调用都留在自己�
 - **语义层（Slow Path）**：过了程序层的候选事件，交给 LLM，按提示词里写好的策略和上下文，判断要不要行动。语义层同时是给人用的自然语言扩展点，想开关某条策略、加一条新策略，改提示词就行
 
 一条消息要过两道筛子，才会有人处理：
-![图 11](images/deepseek-super-agent/fig11.jpg)
+![图 11](images/deepseek-super-agent/fig11.webp)
 
 ### **二、路由**
 
@@ -364,21 +364,21 @@ Router 层负责跨信道的连续性，但如果一个任务分出去以后，�
 这里要先认识 Thread。实际工作里，同一个 GitHub Pull Request、同一个群聊话题、同一串往来邮件下的连续事件，构成一条事件流，就叫 Thread
 
 消息按事情归成一串一串，后面的路由都靠它：
-![图 12](images/deepseek-super-agent/fig12.jpg)
+![图 12](images/deepseek-super-agent/fig12.webp)
 
 Router 根据某个 Thread 的第一条事件开出一个 Worker 之后，这个 Worker 会直接订阅这条 Thread。事件路由于是分成两条路：
 - **已订阅（Fast Path）**：同一个 Thread 里的后续事件，由程序直接送到订阅它的 Worker。如果新事件超出了当前任务的范围，Worker 也可以退订，或者交回 Router 重新分派
 - **未订阅（Slow Path）**：Router 仍然能看到所有事件，掌握全局状态，但只负责判断、分派还没人订阅的新事件
 
 后续消息绕开 Router、直接送到 Worker，过程是这样的：
-![图 13](images/deepseek-super-agent/fig13.jpg)
+![图 13](images/deepseek-super-agent/fig13.webp)
 
 另外，Thread 和 Worker 之间的订阅是多对多的：一个 Worker 可以同时订好几条相关的 Thread，一条 Thread 也可以被好几个 Worker 订阅
 
 几个 Worker 在同一个工作环境、同一场讨论里碰上时，这条 Thread 的新事件会同时送到所有订阅者手里。它们各自就能知道彼此做了什么，自己把冲突解决掉
 
 两个 Worker 改到同一个 PR 时，冲突就是这样被发现的，看一看：
-![图 14](images/deepseek-super-agent/fig14.jpg)
+![图 14](images/deepseek-super-agent/fig14.webp)
 
 输出那一侧照旧：Worker 把关键结论汇报给 Router，由 Router 统一回复用户、同步全局记忆
 
@@ -400,7 +400,7 @@ DeepSeek 的做法是把有限的上下文窗口当成 Cache 来管。借编译�
 - 超出上限就 Spill：长内容设一个比较小的长度上限，超出的部分放到窗口外。最简单直接的做法，是截断，同时留一个「续读」入口，模型要看全文时再调工具读
 
 上下文窗口里该放多少、放什么，看一看：
-![图 15](images/deepseek-super-agent/fig15.jpg)
+![图 15](images/deepseek-super-agent/fig15.webp)
 
 这套规则还解决了 Router 的一个老大难
 
@@ -413,7 +413,7 @@ DeepSeek 的做法是把有限的上下文窗口当成 Cache 来管。借编译�
 每次调工具召回的对象，本身也遵守 Inline & Spill，返回结果里又内联着下一跳对象的摘要和 ID。模型就能从眼前这条事件出发，顺着引用一跳一跳地按需取回上下文
 
 很久以前的任务，就是这样被找回来的，看一看：
-![图 16](images/deepseek-super-agent/fig16.jpg)
+![图 16](images/deepseek-super-agent/fig16.webp)
 
 比如从当前这条消息读出它所在的 Thread，从 Thread 里内联的 ID 找到相关的 Worker Session，再从这个 Worker 找到它关联的另一个代码评审 Thread。Router 在长期运行里「忘了前面的事」，靠这条链缓解了不少
 
@@ -428,7 +428,7 @@ DeepSeek 的做法是把有限的上下文窗口当成 Cache 来管。借编译�
 研发协作里也一样。DeepSeek 在公司的 DeepSeek Harness 内部用户群里配了一条「静默复现并修复」的策略：群里有人反馈问题、或者在讨论改动方案时，Agent 先在后台试着复现、找修复方案；只有确认了问题、也找到了简单的修复，才把结果交给用户，否则全程安静
 
 群里还在讨论，修复已经备好了：
-![图 17](images/deepseek-super-agent/fig17.jpg)
+![图 17](images/deepseek-super-agent/fig17.webp)
 
 ## 怎么跟人说话
 
@@ -439,7 +439,7 @@ DeepSeek 的做法是把有限的上下文窗口当成 Cache 来管。借编译�
 经典的 ReAct Loop 里，模型发起一次同步的 run() 工具调用，循环就卡住了，一直等到工具跑完、返回最终结果。这期间，会话接不了任何新消息
 
 要消掉这段阻塞，得把对话从一问一答的半双工，改成全双工。改完以后，等工具的时候也能接着聊，看一看：
-![图 18](images/deepseek-super-agent/fig18.jpg)
+![图 18](images/deepseek-super-agent/fig18.webp)
 
 具体做法是，把耗时的命令和子任务工具调用，改成异步的 start() 和 stop()，构成异步 ReAct Loop：
 - 模型调 start() 之后，马上收到「已启动（Started）」的返回，循环接着往下走
@@ -463,7 +463,7 @@ DeepSeek 的做法是把有限的上下文窗口当成 Cache 来管。借编译�
 - **GitHub、邮件和文档这类异步信道**：结构化、信息密度高的异步交付。比如创建或更新 Pull Request 时，按项目规范写清问题背景、改动说明和验证结果；个人助手场景里，直接起草结构化的邮件和文档摘要
 
 同一个结果，在群里和在 PR 里的回法差在哪：
-![图 19](images/deepseek-super-agent/fig19.jpg)
+![图 19](images/deepseek-super-agent/fig19.webp)
 
 ## 一直在线
 
@@ -473,7 +473,7 @@ DeepSeek 的做法是把有限的上下文窗口当成 Cache 来管。借编译�
 - 代码仓库、本地工具链这些执行环境
 
 设备一休眠，这三样就一起停了：
-![图 20](images/deepseek-super-agent/fig20.jpg)
+![图 20](images/deepseek-super-agent/fig20.webp)
 
 设备一休眠、一离线，Agent 就停了；它也碰不到其他设备上的环境
 
@@ -484,7 +484,7 @@ DeepSeek 的做法是把有限的上下文窗口当成 Cache 来管。借编译�
 所以计算放进云端无状态的弹性计算容器里，Session 这些持久化状态存进数据库。容器可以水平扩展、随时重启或替换，会话和任务的连续性由持久化存储兜着，Agent 就摆脱了单台本地设备的生命周期，在云端一直在线
 
 跑 Agent 的机器坏了，换一台就能接着跑，看一看：
-![图 21](images/deepseek-super-agent/fig21.jpg)
+![图 21](images/deepseek-super-agent/fig21.webp)
 
 第二步，把计算和执行环境分开
 
@@ -501,7 +501,7 @@ Agent Loop 和会话状态都常驻云端了，接下来的问题是：怎么够
 Agent Loop 在云端跑，端侧只部署一个轻量的 daemon（会话状态都在云端）：它只负责执行命令、返回结果。执行环境留在云外，Agent 按需去读里面的上下文
 
 Agent 在云上，靠端侧一个轻量 daemon 够到你电脑里的环境：
-![图 22](images/deepseek-super-agent/fig22.jpg)
+![图 22](images/deepseek-super-agent/fig22.webp)
 
 这个思路，和 Anthropic 提出的「脑手分离」（Decoupling the brain from the hands）是一致的：同样让 harness 保持无状态，会话日志存在 harness 之外，通过统一接口按需接入执行环境
 
@@ -514,7 +514,7 @@ Agent 在云上，靠端侧一个轻量 daemon 够到你电脑里的环境：
 它甚至能照顾到时在线时离线的设备：你的某台个人电脑重新上线以后，云端 Agent 会自动触发，把需要在这台设备上做的任务做完
 
 时在线时离线的电脑，一上线就能接到活：
-![图 23](images/deepseek-super-agent/fig23.jpg)
+![图 23](images/deepseek-super-agent/fig23.webp)
 
 ## 出了事，谁来管
 
@@ -527,7 +527,7 @@ Agent 在云上，靠端侧一个轻量 daemon 够到你电脑里的环境：
 DeepSeek 的做法，是在主系统外面配一个独立的 Watchdog Session，用定时消息驱动它，构成外部的 Control Loop
 
 它要揪出来的，正是跑偏和原地打转的 Worker：
-![图 24](images/deepseek-super-agent/fig24.jpg)
+![图 24](images/deepseek-super-agent/fig24.webp)
 
 Watchdog 一边处理接口报错、状态恢复失败这类基础设施故障，一边由模型判断各个 Worker 有没有实质进展、方向有没有偏离整体目标。发现异常就及时介入修复；碰到外部偶发的故障，就持续复查，直到恢复正常
 
@@ -552,7 +552,7 @@ Watchdog 自己也是一个带全套工具的 Agent Session，所以维护者可
 - 单 Session + Subagent 工具，提示优先委派：「Every message of the chat reaches you, so work you run yourself keeps stopping for new messages. Prefer handing each piece of work to a subagent of its own, and do only small things yourself...」
 
 谁先把 20 个活做完：
-![图 25](images/deepseek-super-agent/fig25.jpg)
+![图 25](images/deepseek-super-agent/fig25.webp)
 
 （曲线是 5 次运行的均值；消息间隔和工作时长按 1/4 缩放，模型调用的耗时是真实值。任务完成时间，指从工作请求发出，到结果消息回来）
 | 方案 | 完成时间 P50 / P95（分钟） | 单次实验读缓存 token（全部 Session） |
@@ -575,7 +575,7 @@ Watchdog 自己也是一个带全套工具的 Agent Session，所以维护者可
 至于直通机制，在 Super-agent 内部把它去掉，任务完成时间和完整版基本一样，但 Router 要做的决定多了约 30%，总读缓存 token 从 2323 万涨到 3177 万，多了约 `37%`
 
 直通到底省了多少：
-![图 26](images/deepseek-super-agent/fig26.jpg)
+![图 26](images/deepseek-super-agent/fig26.webp)
 
 换句话说，在这个实验负载下，直通的作用是给 Router Session 省下相当可观的 token 和推理开销
 
@@ -584,7 +584,7 @@ Watchdog 自己也是一个带全套工具的 Agent Session，所以维护者可
 为了验证前面说的「一个常驻 Router 扛得住」，DeepSeek 单独给 Router 层做了压力测试：Router 调真实模型，Worker 用 Mock 模型，把需要决定的 Trigger 到达速率，从每分钟约 1 条一路加到约 40 条，看平均一批几条、单次请求多久、每个决定摊到多少推理时间
 
 一个 Router 到底扛不扛得住，看一看：
-![图 27](images/deepseek-super-agent/fig27.jpg)
+![图 27](images/deepseek-super-agent/fig27.webp)
 
 到达速率从每分钟约 1 条升到约 40 条，平均每批从 1.0 条涨到 2.8 条，单次请求耗时只从 2.5 秒涨到 3.9 秒，涨得比批的大小慢。于是每个决定摊到的推理时间，从 `6.4 秒`降到了 `1.6 秒`
 
@@ -603,7 +603,7 @@ Watchdog 自己也是一个带全套工具的 Agent Session，所以维护者可
 但任务规模变大、耦合变紧，超出一个 Router Session 能承载的范围时，层内具体怎么搭，还没有定论：Router 什么时候该水平切分、按什么粒度切，同层 Worker 什么时候需要直接通信、用什么样的协作拓扑，都还要在更多场景里检验
 
 Router 要不要拆成几份，难处在这里：
-![图 28](images/deepseek-super-agent/fig28.jpg)
+![图 28](images/deepseek-super-agent/fig28.webp)
 
 系统和模型的协同设计（Co-design）也值得探索：专门针对 Router 的事件判别、批量分派、上下文召回这些任务训练模型，有可能把 Router 的吞吐和决策再往上提一截
 
@@ -628,7 +628,7 @@ Session 也可以照顾用户习惯，在界面上留着，只是你看到的一
 可一旦使用范围从个人、小团队扩到更大的组织，组织决定怎么配 Super-agent，其实就是在划定上下文共享和隔离的边界：需要共享上下文的范围共用一个实例，需要隔离的范围各配各的
 
 实例和实例之间，这样协作：
-![图 29](images/deepseek-super-agent/fig29.jpg)
+![图 29](images/deepseek-super-agent/fig29.webp)
 
 再往前一步，组织内部、组织之间一旦有了好几个彼此隔离的实例，比如每个成员各自的个人助手，和团队共用的 Super-agent，它们跨边界的协同就是 Agent 之间的通信（A2A，这里不特指哪个协议）
 
@@ -643,7 +643,7 @@ Session 也可以照顾用户习惯，在界面上留着，只是你看到的一
 可云端的 Agent Loop 一直在接外部的环境事件，端侧设备上又放着私有代码、敏感数据和本地凭据，这种跨设备连接带来了明显的安全和隐私隐患：云端 Agent Loop 一旦因为服务端入侵、提示词注入被攻破，连着的所有端侧设备都有被控制的风险
 
 云端一旦失守，风险会传到哪，看一看：
-![图 30](images/deepseek-super-agent/fig30.jpg)
+![图 30](images/deepseek-super-agent/fig30.webp)
 
 就算云端没被攻破，只要端侧的凭据能进到模型的上下文里，正常执行的过程中也有泄露的风险。所以还得设计相应的机制，让 Agent 在完全碰不到凭据本身的情况下使用凭据
 

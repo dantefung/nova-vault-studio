@@ -19,7 +19,7 @@ I run [Postiz](https://postiz.com), it’s an agentic social media scheduling to
 
 https://profile.stripe.com/wickedguro/mogMNwGq
 
-![proof](../images/wickedguro-postiz-2m-arr-saas-not-dead-playbook/002.jpg)
+![proof](../images/wickedguro-postiz-2m-arr-saas-not-dead-playbook/002.webp)
 
 In this article, I will show you exactly which channels I am doubling down on to get there, and which channels I stopped believing in.
 

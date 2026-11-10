@@ -79,7 +79,7 @@ coverImage: "../images/gefei55-buyi-tool-site-3000usd-pitfalls/001.jpg"
 
 这个网站目前月收入大概是 2500-4000 刀之间。
 
-![](../images/gefei55-buyi-tool-site-3000usd-pitfalls/002.jpg)
+![](../images/gefei55-buyi-tool-site-3000usd-pitfalls/002.webp)
 
 后面还有一些追热点的站，都失败了，比较惨，追热点生成人物手办的站，到现在一个月只有 30 多个点击，我上站的时候已经非常红海了，个人觉得界面和交互做得还行。但是竞争太激烈了。
 

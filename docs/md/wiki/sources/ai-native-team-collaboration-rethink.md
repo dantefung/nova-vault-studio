@@ -30,7 +30,7 @@ AI 时代最大的变化：**串联者从人，换成了 Agent**。
 
 以一个完整的业务单元为边界，有三层结构：
 
-![AI Native 团队三层协同形态](../images/ai-native-team-collaboration-rethink/006.jpg)
+![AI Native 团队三层协同形态](../images/ai-native-team-collaboration-rethink/006.webp)
 
 **底层：统一的知识底座**。沉淀该业务所有的业务规则、业务流程、领域知识和规范约束——"这个业务究竟是怎么运转的"这件事本身。
 
@@ -58,7 +58,7 @@ AI 时代最大的变化：**串联者从人，换成了 Agent**。
 
 **知识底座**：真正长期卡住全局的瓶颈。它不通用、不可复制，每一块业务都得自己长出一套来。
 
-![存量业务知识底座分类](../images/ai-native-team-collaboration-rethink/010.png)
+![存量业务知识底座分类](../images/ai-native-team-collaboration-rethink/010.webp)
 
 ### 存量业务的三道坎
 

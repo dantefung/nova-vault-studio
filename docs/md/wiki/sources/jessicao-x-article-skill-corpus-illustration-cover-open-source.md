@@ -23,7 +23,7 @@ coverImage: "../images/jessicao-x-article-skill-corpus-illustration-cover-open-s
 
 我也是用这个长文 skill 生产出自己的爆款长文，24h 涨粉 3k+
 
-![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/002.png)
+![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/002.webp)
 
 先给地址：[X-Article-skill 开源仓库](https://github.com/JessiJCJingyi/X-Article-skill)
 
@@ -47,7 +47,7 @@ coverImage: "../images/jessicao-x-article-skill-corpus-illustration-cover-open-s
 
 文章主题可以是小红书运营、办公方法、产品经验，也可以是你的专业领域。这个公开版最终生成的是 X Article
 
-![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/003.jpg)
+![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/003.webp)
 
 ## 02. 想让它写得像你，先给它一点真的东西
 
@@ -106,7 +106,7 @@ coverImage: "../images/jessicao-x-article-skill-corpus-illustration-cover-open-s
 
 回答整理清楚之后，它会形成一份简短的创作简报，再进入制作。同一会话里已经有了这些回答，后续文章只补新的主题和变化。跨会话的长期档案复用，我还没有在这个版本里做完，不会说它已经永久记住了你。
 
-![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/004.jpg)
+![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/004.webp)
 
 ## 04. 下载之后，怎么开始用
 
@@ -169,7 +169,7 @@ $x-article-skill
 
 封面则把范围收小。长标题可以放在 Article 标题栏里，图上提炼为短标题。你希望读者第一眼记住什么，就把那句话留在最大的位置。
 
-![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/005.jpg)
+![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/005.webp)
 
 ## 06. 我通常怎么 review，你第一次该检查什么
 

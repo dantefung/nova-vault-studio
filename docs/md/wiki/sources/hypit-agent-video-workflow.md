@@ -25,7 +25,7 @@ Hypit 目前已开源。它不是 Agent，也不是视频模型，而是给 Clau
 
 如果你也想让 AI 真正开始复刻视频，可以试试 Hypit。下次想 Clone 爆款，直接把视频交给你的 Agent。
 
-![演示视频封面](../images/hypit-agent-video-workflow/001.jpg)
+![演示视频封面](../images/hypit-agent-video-workflow/001.webp)
 
 - [查看原帖中的演示视频](https://x.com/Zesee/status/2099732287168401899)
 - [Hypit 开源仓库](https://github.com/hypit-ai/hypit)

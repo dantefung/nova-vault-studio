@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/CTcAVT2wrlYMzu1xO4nM8w"
 
 之前也写过不少开发系列，pnpm 12.4 补充进去，感觉 AI 开发工作流又完善了一点。参考阅读：技术栈推荐：围绕 AI 反馈闭环做选型、Agent 开发指南：技术太多，该怎么学？、浅谈 AI 编程、第一个 Agent 从 Pi 开始、TS 7：AI 生成式代码的拐点
 
-![image](./images/001.jpg)
+![image](images/001.webp)
 
 一个仓库同时包含前端、Python 服务和 Rust 模块时，安装依赖只是第一步。依赖准备好之后，还要安排构建顺序、运行测试、处理缓存，再把这些步骤搬进 CI。各个工具可以处理自己的语言生态，团队仍要维护它们之间的执行关系。
 

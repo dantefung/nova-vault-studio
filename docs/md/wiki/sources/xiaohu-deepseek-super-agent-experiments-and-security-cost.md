@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "小互 (@xiaohu)"
 url: "https://x.com/xiaohu/status/2117252023754326117"
-coverImage: "../images/xiaohu-deepseek-super-agent-experiments-and-security-cost/001.jpg"
+coverImage: "../images/xiaohu-deepseek-super-agent-experiments-and-security-cost/001.webp"
 ---
 
 # 小互（@xiaohu）：同时开 5 个 Agent 人就盯不过来了——DeepSeek Super-agent 架构实验数据与安全代价
@@ -61,9 +61,9 @@ Worker 每个只做一件事，用最强的模型，但不许直接跟人说话�
 
 你敢让这样一个 Agent 常驻，还连着自己的开发机吗？
 
-![](../images/xiaohu-deepseek-super-agent-experiments-and-security-cost/001.jpg)
+![](../images/xiaohu-deepseek-super-agent-experiments-and-security-cost/001.webp)
 
-![](../images/xiaohu-deepseek-super-agent-experiments-and-security-cost/002.jpg)
+![](../images/xiaohu-deepseek-super-agent-experiments-and-security-cost/002.webp)
 
 实验用的是合成负载（每轮约 300 条消息、20 个工作请求），团队自己说结果仅供参考；公开的只是部分实现的原型，不是 DeepSeek 官方产品。
 

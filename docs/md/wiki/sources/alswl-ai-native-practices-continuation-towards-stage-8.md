@@ -23,7 +23,7 @@ coverImage: "../images/alswl-ai-native-practices-continuation-towards-stage-8/00
 
 这些还是阶段性的尝试。我开始把调度交给 Agent，但距离完整实现 Stage 8，还需要更多实际任务中的实践和效果呈现。能组织多个 Agent 运行，并不意味着已经能稳定地完成从需求到上线的全过程。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/002.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/002.webp)
 
 图 1：从编辑器辅助到多 Agent 调度的八阶段演进。
 
@@ -49,7 +49,7 @@ coverImage: "../images/alswl-ai-native-practices-continuation-towards-stage-8/00
 
 我把验证分成两层：先验证交付物，再检查验证本身是否可信。这个环节值得单独花精力。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/003.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/003.webp)
 
 图 2：测试测试的判断路径。故意引入故障后，测试失败才符合预期；这只说明捕获了本次故障。
 
@@ -81,11 +81,11 @@ coverImage: "../images/alswl-ai-native-practices-continuation-towards-stage-8/00
 
 我参考了下面两种 /loop 的运行方式。一张要求持续关注 issues、审查 PR、实际运行验证，并处理社区反馈；另一张先筛选反馈，再决定是否进入修复和上线流程。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/004.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/004.webp)
 
 图 3：持续处理 issues、PR 和社区反馈的运行示例。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/005.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/005.webp)
 
 图 4：先判断反馈是否相关，再投入后续处理。
 
@@ -93,7 +93,7 @@ coverImage: "../images/alswl-ai-native-practices-continuation-towards-stage-8/00
 
 另一场分享来自 Lauren Tan，标题是「i shipped 2000 PRs last month」。我听完这场分享，更关注的是怎样组织工作：像经营餐厅一样，安排厨师、改善流程，而不是自己始终下场做每一道菜。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/006.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/006.webp)
 
 图 5：Lauren Tan 的分享；2000 PR 为分享者自述。
 
@@ -105,7 +105,7 @@ coverImage: "../images/alswl-ai-native-practices-continuation-towards-stage-8/00
 
 我现在用的是 1+N 的组织方式。一个统筹者对任务负责，其他 Agent 由它按需启动。我看统筹者的进展和结果，下面每个 Agent 的动向交给它管理。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/007.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/007.webp)
 
 图 6：从单个 Agent、多个 Agent 并行，到统筹者统一调度。
 
@@ -133,13 +133,13 @@ Captain 主要负责调度，避免陷入实现细节
 
 [GitHub - alswl/lbkit: logbook kit](https://github.com/alswl/lbkit%20%22!banner%20(/images/202610/banner-03fe3a0c63df7885.png)
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/008.png)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/008.webp)
 
 图 7：端到端工作流与工具职责；两层验证分别检查交付物和测试本身。
 
 我对 logbook 的要求很具体：约束运行时，约束方案，强制流程，明确交付内容。我会写清预算、运行位置、权限、可用上下文、必要流程和交付内容。该给的信息要给足，该限制的权限也要写清楚。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/009.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/009.webp)
 
 图 8：logbook 结构示例：目标与非目标、技能、关联材料、工作目录和运行约定。
 
@@ -151,7 +151,7 @@ Captain 主要负责调度，避免陷入实现细节
 
 我把任务分成阶段，在阶段内记录待办、产物位置和验证依据。需要人介入的地方单独标记；人工完成合并或登录后，Agent 接着做后续验证。这样看进展时，我能分清任务还在执行，还是已经走到需要我处理的关口。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/010.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/010.webp)
 
 图 9：从方案设计、开发测试、评审修复到人工关口与后续验收。勾选和数字表示该任务在截图时的状态。
 
@@ -169,7 +169,7 @@ logbook 的 Preflight 会在执行前预演路径，提前找出需要哪些资�
 
 这样，有些原本要跑到中间才发现的阻碍，可以在出发前处理。Preflight 当然不能消灭所有变化，但能减少一批可以预见的停顿。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/011.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/011.webp)
 
 图 10：Preflight 在执行前检查完整路径，提前暴露资源、权限与人工确认点。
 
@@ -183,7 +183,7 @@ logbook 的 Preflight 会在执行前预演路径，提前找出需要哪些资�
 
 我最关心的两种角色是 Delivery 和 Verify。Delivery 负责推动交付，Verify 负责验证。两边各自有要守住的事情，出现分歧是正常的。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/012.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/012.webp)
 
 图 11：多 Agent 协作案例，涵盖输入、开发与验证往返、人工关口和后续验收。轮次、PR 数及完成状态仅对应这次任务。
 
@@ -233,7 +233,7 @@ Delivery 和 Verify 的不同立场、让 Agent 自证判断、故意破坏目�
 
 这也是我愿意花额外执行成本，让 Agent 先把材料和证据准备好的原因。模型消耗和人的注意力不能只按同一种成本来算。我需要留下完整的时间，去想架构、判断方案，以及处理真正需要我参与的问题。
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/013.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/013.webp)
 
 图 12：非阻塞问题先记录，让人保留完整的思考时间；必要的人工关口仍然保留。
 
@@ -265,7 +265,7 @@ Delivery 和 Verify 的不同立场、让 Agent 自证判断、故意破坏目�
 
 让 Agent 多做一些以后，我还需要回答一个问题：执行交出去了，我自己要做什么？
 
-![](../images/alswl-ai-native-practices-continuation-towards-stage-8/014.jpg)
+![](../images/alswl-ai-native-practices-continuation-towards-stage-8/014.webp)
 
 图 13：人负责问题、判断与认可，Agent 执行、验证并交付，用证据建立信任。
 

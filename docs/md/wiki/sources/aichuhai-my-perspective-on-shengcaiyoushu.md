@@ -59,27 +59,27 @@ coverImage: "../images/aichuhai-my-perspective-on-shengcaiyoushu/001.jpg"
 
 我认的头部，是这批人已经走到了哪里，哪怕人少，也是头部，聪明不需要多数，Claude 其实只占 AI 的人数不到 5%，但是不妨碍他就是断档第一：
 
-![](../images/aichuhai-my-perspective-on-shengcaiyoushu/002.png)
+![](../images/aichuhai-my-perspective-on-shengcaiyoushu/002.webp)
 
 再说 Token 排行榜，这个我在生财里喷过，客户端放一个读取器，把消耗量排出来，大家看谁跑在前面。问题是，你今天用了这么多 Token，到底干了什么？做出了什么？值不值这些钱？这些不讲，光比消耗，我不知道有什么好比的。
 
 当时我指出机制有漏洞，亦仁让我先上榜再说。我用了十分钟，把所有榜都跑到了第一。
 
-![](../images/aichuhai-my-perspective-on-shengcaiyoushu/003.jpg)
+![](../images/aichuhai-my-perspective-on-shengcaiyoushu/003.webp)
 
-![](../images/aichuhai-my-perspective-on-shengcaiyoushu/004.jpg)
+![](../images/aichuhai-my-perspective-on-shengcaiyoushu/004.webp)
 
-![](../images/aichuhai-my-perspective-on-shengcaiyoushu/005.jpg)
+![](../images/aichuhai-my-perspective-on-shengcaiyoushu/005.webp)
 
 然后，我的号被限制了。
 
-![](../images/aichuhai-my-perspective-on-shengcaiyoushu/006.jpg)
+![](../images/aichuhai-my-perspective-on-shengcaiyoushu/006.webp)
 
 榜我上了，漏洞还在那里。那我们到底是在讨论机制，还是在讨论谁有资格开口？
 
 还有 X 上那个 ChatGPT reset，被当成一个巨大的风口来讲，我当时的判断就是：残羹剩饭。你可以不同意我对这个机会的评价，但这件事让我越来越担心，亦仁一个人的认知，会不会变成整个生财的天花板，一个人觉得新鲜，下面就跟着觉得是风口；一个人没看到，大家就一起晚半拍，社群大了以后，这比看错一个项目可怕。
 
-![](../images/aichuhai-my-perspective-on-shengcaiyoushu/007.jpg)
+![](../images/aichuhai-my-perspective-on-shengcaiyoushu/007.webp)
 
 更逗的是，评论区还有人拿“每年会员费都过亿了”来杠，仿佛这就能证明所有事情，我的个乖乖，会员费流水、公司净利润、创始人个人身家，是一回事吗？一个天天讨论赚钱的社群，讨论到最后，连收入和利润都混在一起，还杠得挺起劲，这比赚多赚少更让我在意。
 
@@ -87,7 +87,7 @@ coverImage: "../images/aichuhai-my-perspective-on-shengcaiyoushu/001.jpg"
 
 知识付费的护城河，在我看来，是信息长期沉淀下来的价值。你把这些东西开放给 AI 调用，知识星球又有了 CLI，整理、分类、重新组织一套内容的成本，会变成多少？以前一个人要进去看，要花时间翻。现在 AI 先过一遍，什么值得看，什么可以归到一个主题下面，都能省掉大量人工。
 
-![](../images/aichuhai-my-perspective-on-shengcaiyoushu/008.jpg)
+![](../images/aichuhai-my-perspective-on-shengcaiyoushu/008.webp)
 
 如果别人围绕同样的需求，把内容重新研究、整理，搭起自己的社群，再用 AI 做日常运营，他还需要解决什么？引流与成交。我说的是这门生意复制起来越来越容易，不是说付费原文就可以随便搬，内容授权另说，但你原来的信息壁垒，还剩多少？这种情况下，一句“社群链接一切”，能顶住多少？
 

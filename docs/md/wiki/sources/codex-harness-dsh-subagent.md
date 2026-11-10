@@ -33,7 +33,7 @@ Codex 的开源仓库并不是这周才出现。OpenAI 本周更明确的动作�
 
 做架构时，我更关心这条边界：哪一层可以自己检查、改造和嵌入，哪一层还是外部依赖。
 
-![图 1：Codex 平台架构示意图](codex-harness-dsh-subagent/images/001.png)
+![图 1：Codex 平台架构示意图](codex-harness-dsh-subagent/images/001.webp)
 
 app-server 正好把这两边接起来。外部应用可以通过它创建 thread、启动 turn、接收事件、中断任务和回应审批；执行任务的，仍是 Codex core 里的 Session 和 Agent Loop。
 
@@ -63,7 +63,7 @@ Codex 这边的链路可以压缩成一行：
 
 Claude Code 走的是官方 Claude Agent SDK。DSH 通过 SDK 拉起随包安装的兼容 CLI，执行一次独立 query，取得最终结果后结束。
 
-![图 2：DSH 调用 Codex、Claude Code 的真实链路](codex-harness-dsh-subagent/images/002.png)
+![图 2：DSH 调用 Codex、Claude Code 的真实链路](codex-harness-dsh-subagent/images/002.webp)
 
 对父 Agent 来说，这两者都是 Tool。但这个 Tool 不像普通函数，一次调用会拉起另一套完整的 Agent 运行过程。Codex 继续管自己的 Loop、工具、沙箱和审批；Claude Code 也保留自己的配置和权限模式。DSH 没有把它们拆成几个 Function 再重写一遍。
 

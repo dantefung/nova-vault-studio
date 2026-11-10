@@ -4,7 +4,7 @@ date: "2026-11-09"
 source: "X/Twitter"
 author: "DIŸgöd ☀️ (@DIYgod)"
 url: "https://x.com/DIYgod/status/2119268531678441646"
-coverImage: "../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/001.jpg"
+coverImage: "../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/001.webp"
 ---
 
 # DIŸgöd（@DIYgod）：开源 Pinky——让任何 AI Agent 用上你的 iPhone 和 Android
@@ -29,25 +29,25 @@ Claude Code、Claude Desktop、Codex、Cursor 点一下就能接入，任何 MCP
 
 而且很轻：用 MyGo @localhost_4173 写的原生应用，不是 Electron。Mac 版 14.1 MB，Windows 版 14.3 MB，空闲时内存约 70 MB、CPU 0%，可以一直挂在菜单栏。
 
-![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/001.jpg)
+![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/001.webp)
 
 @localhost_4173 审批不靠提示词，而是 Pinky 自己拦着：Agent 点「支付」「购买」「下单」这类动钱的按钮时（认得 10 种语言），这一下会被扣住，等你点允许才执行。图里这次还设了发消息、删除前也要问。被提示词注入的 Agent 也没法自己批准。 https://t.co/2S6zTEtmAi
 
-![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/002.jpg)
+![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/002.webp)
 
-![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/003.jpg)
+![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/003.webp)
 
 @localhost_4173 Android 13 以上，Agent 在一块隐藏的第二屏幕上干活：手机可以锁着屏揣兜里，或者你照常刷你的。
 
 想插手就点一下投屏，Agent 立刻暂停；交还后它接着干。 https://t.co/CPbeKDX6v7
 
-![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/004.png)
+![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/004.webp)
 
 银行、钱包、密码管理器这类 App 默认对 Agent 隐身（银行、钱包类要用时先问你，可以只放行一次任务），密码框和验证码框它输不了。手机锁了可以在 Mac 上用 Touch ID 解锁，PIN 码 Agent 看不到。
 
 所有记录和录屏只存在你自己的电脑上。 https://t.co/yP7DPQBLoz
 
-![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/005.jpg)
+![](../images/diygod-pinky-open-source-phone-remote-control-for-ai-agents/005.webp)
 
 开源免费（Apache-2.0），还很早期，欢迎来玩：https://t.co/k79map72UK
 

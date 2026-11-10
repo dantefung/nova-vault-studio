@@ -23,11 +23,11 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 图片是 3 月份收入 6w+时候的流水图片，还有其它的店铺数据暂时没放出来，数据仅供参考。
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/002.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/002.webp)
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/003.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/003.webp)
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/004.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/004.webp)
 
 这篇文章是我根据自己的经历写成的文章，里面干货满满，全是自己实战积累的经验，希望能给大家带来帮助！
 
@@ -41,17 +41,17 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 但是自己版权意识薄弱，不知道电影是强版权的东西，所以售卖没多久第一家店铺就被闲鱼封禁，紧接着我起第二家店，第二家同样是差不多的版权原因被封禁，其实第二家店铺我已经努力规避版权，仍然没能完全避免，第三家店铺也是差不多的原因，一共做了四家店铺，三家店铺被封禁，我的闲鱼虚拟项目算是彻底完结，总共收入几千块钱。
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/005.png)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/005.webp)
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/006.png)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/006.webp)
 
 在第三家店铺快被封禁的时候，我已经在找新的项目，有闲鱼高客单，得物商单这两个项目。
 
 在第三家店铺彻底被封禁后，我就直接转战闲鱼高客单，此时只剩下一个店铺，品类选择的是二手台式电脑，一共卖出去 3 单，总收入几百块钱，一单收入 100-200 不等，在我思索很久之后，觉得闲鱼蓝海，不太适合我，于是开始尝试得物商单，同时正式关注到小红书虚拟电商。
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/007.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/007.webp)
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/008.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/008.webp)
 
 得物商单需要成为达人，需要分享一些实拍图片的产品，我实拍图片能力不行，然后剪视频也不熟练，所以一直没做起来，商单一次没有接到，但是期间通过 AI 生成仿实拍图片赚到几十块钱，在做得物商单的时候，我也在推进小红书虚拟电商。
 
@@ -59,7 +59,7 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 前期也是尝试了很多品，从 PPT 换到掼蛋课程，再到四六级资料，最后才到这个细分类目。终于这个细分类目在 25 年 4 月下旬的时候开始发力，开始每天陆续出单，一直到 5 月 12 日成功到 90 元，当时一天 90 元对我来说真的是非常高兴的一件事情，接下来我根据起来的这个商品，继续选类似的品，也取得了不错的收益，经过这一个月之后，我的重心渐渐往小红书虚拟转移。
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/009.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/009.webp)
 
 我觉得第一个月能做起来，也是因为我做过闲鱼虚拟的项目，算是对虚拟电商有一定的经验，期间还发现更绪老师的文章，老师的文章干货满满，对我帮助非常大，也很感谢更绪老师。
 
@@ -111,11 +111,11 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 截止目前，8 家店铺，发布了超过 6000 篇笔记，用极致的数量去抵消流量带来的不确定性，有时候赚钱就是大道至简，说人话就是干就完了！
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/010.png)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/010.webp)
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/011.png)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/011.webp)
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/012.png)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/012.webp)
 
 ④聚焦项目的核心动作
 
@@ -131,7 +131,7 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 一开始我选择的是 PPT，但是 PPT 没做起来，而且客单价低，中途还尝试了掼蛋课程这种非常小众的商品，结局肯定也是没做起来。还尝试四六级资料类似的产品，销量也不是很高。在这之后渐渐找到新的赛道，先是找到新赛道的一个细分商品，跑通了之后我再慢慢的复制同赛道的其他商品，当一个店铺有一定规模之后，我在慢慢复制同类型的店铺，一点一点的做起来的。第一家店铺从 4 月 27 日第一次出单只有 3 元，到 7 月 1 日营业额达到最高峰 879 元，总共过去 66 天，且达到日营业 800 每天后，后期每天营业额也非常可观。
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/013.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/013.webp)
 
 ### 2.投流放大
 
@@ -147,11 +147,11 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 经过很久我自己摸索出这个方法，就是直接将预期 ROI 翻倍即可，当然有个前提是，这个方法只对已经爆过笔记有作用，例如我的预期 ROI 是 3，那建议你开启计划的时候选择预期 ROI 为 6 及以上，这样你就可以一直开着计划，且一天下来的投放计划 ROI 基本就在 3 左右，符合我的预期，且中途不用关闭计划，只需要偶尔监测一下计划。
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/014.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/014.webp)
 
 实测有朋友在使用我的方法之后 ROI 能到 5.5 以上，能帮到朋友我非常高兴！下图是朋友的数据。
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/015.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/015.webp)
 
 ### 3.操作流程 SOP 化
 
@@ -173,7 +173,7 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 外包客服的价格如下图，第一家店铺基础是 500，每日咨询小于 20 次，第二家店加 300 元，如果咨询从 20 增加到 50，价格就加 500，市面上的外表客服价格不一样，这个仅供参考。
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/016.png)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/016.webp)
 
 ## 四、我走过的弯路
 
@@ -217,7 +217,7 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 阶段五是项目衰退期：平台用户下滑，利润不断下滑，ROI 比较低，甚至亏损，这个时候只能一边维持着老项目，再重新找新项目，迁移到新的平台，回到阶段一；
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/017.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/017.webp)
 
 小红书虚拟现在就是阶段三到阶段四的过渡期，这个阶段精细化运营是必然的，具体可以体现在，例如：实拍图片进一步去重，相似元素尽可能剔除掉；AI 生成标题和文案时需要去 AI 感，防止平台鉴别为低质量内容；关键词布局更全面，更精准等等；
 
@@ -251,7 +251,7 @@ coverImage: "../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/001.jpg
 
 最后一段话与大家共勉！
 
-![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/018.jpg)
+![](../images/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month/018.webp)
 
 ## 相关页面
 

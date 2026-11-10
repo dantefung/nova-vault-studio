@@ -31,7 +31,7 @@ coverImage: "../images/aiwarts-awesome-seedance-463-ai-video-skills/001.jpg"
 
 我这个月基本都没咋睡，抽卡就抽掉了两万。
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/002.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/002.webp)
 
 🔗[ github.com/LearnPrompt/awesome-seedanc](https://github.com/LearnPrompt/awesome-seedance)e
 
@@ -45,13 +45,13 @@ GoodCase 就是这么来的。
 
 每天自动收录 github，某抖，某红，X 上带提示语的 case，搞定！
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/003.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/003.webp)
 
 用四个多模态模型，gpt，claude，grok，deepseek，给复测的 case 和提示语打分，给相同类型的视频聚类，以及给收集到的 case 起标题，统统搞定！！
 
 我甚至对比测试了租机器部署 Minimax H3 便宜还是用 fal 的 Minimax H3 Max 便宜。。。
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/004.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/004.webp)
 
 其实在测试的中途，我一度在想要不要换成 awesome gpt image 2.5 算了，就不做视频复现了。
 
@@ -81,7 +81,7 @@ DV 那种是带点果冻感的上下摇晃，镜头追人总是慢半拍。iPhon
 
 为了最大可能提升这些模版的可用性，我没有把里面参考的视频丢掉，使用的方法可以是让 codex 根据这个模版里提到的结构和示例视频直接出提示语，信息损耗降到最低，而且后面有新的示例加入进来，这个模版也能不断更新。
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/005.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/005.webp)
 
 踩过的坑也全写进去了。
 
@@ -91,7 +91,7 @@ DV 那种是带点果冻感的上下摇晃，镜头追人总是慢半拍。iPhon
 
 那怎么用呢？就是把这一大段的提示语复制到你正在用的 Agent，然后让他帮你改成你想要的内容就可以了，类似这样。
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/006.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/006.webp)
 
 然后我就能一次性拿到这样的效果。
 
@@ -119,7 +119,7 @@ DV 那种是带点果冻感的上下摇晃，镜头追人总是慢半拍。iPhon
 
 模版提示我们可以指名流派的生物力学。比如你写「泰拳的扫踢」和「跆拳道的横踢」，模型是真的会给你不同的动作幅度和力量感。
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/007.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/007.webp)
 
 用这个模版做出来，泰拳扫踢表现的是整个身体旋转带出来的大弧线，
 
@@ -141,7 +141,7 @@ DV 那种是带点果冻感的上下摇晃，镜头追人总是慢半拍。iPhon
 
 我简单列了个表，根据需求选就行。
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/008.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/008.webp)
 
 举个例子就更容易理解了，
 
@@ -149,7 +149,7 @@ DV 那种是带点果冻感的上下摇晃，镜头追人总是慢半拍。iPhon
 
 我用的是 UGC 口播测评带货的这个模版，
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/009.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/009.webp)
 
 把它修改完的提示词复制给 Seedance 2.5 之后，我一次性生成出来的效果是这样的，重点关注的洗头的过程，从展示的角度上来说没毛病。
 
@@ -157,15 +157,15 @@ DV 那种是带点果冻感的上下摇晃，镜头追人总是慢半拍。iPhon
 
 那如果你经常做同一类内容，比如每周都要做产品展示视频，那再上 Skill。在 GoodCase Skills 找对应方法，安装后直接说需求就行，它帮你走完整套流程，不用每次从零开始想提示语。
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/010.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/010.webp)
 
 流程上也是要多走一步，就是找到想做的方向以后，要在 GoodCase 上把这个 Skill 下下来，
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/011.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/011.webp)
 
 然后装到你的 Agent 上，再去调用这个 Skill 去完成你的视频需求就可以了，
 
-![](../images/aiwarts-awesome-seedance-463-ai-video-skills/012.jpg)
+![](../images/aiwarts-awesome-seedance-463-ai-video-skills/012.webp)
 
 出来的效果是这样的。其实我能感觉出来，跟刚刚那条只用模板提示生成出来的视频相比，还是有一点点细微的差别。这个视频做出来，其实更偏向于一个产品测评的视频，口播的台词会更多一点，讲述的卖点也会更多一点。
 

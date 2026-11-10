@@ -384,10 +384,10 @@ andThen 天然就是 getNextProcessor 的另一种表达。
 
 重要提示：什么时候该用 lambda，什么时候不用，这是要看情况的，如果处理逻辑相对比较简单，可以用 lamdba 来重构，以便让代码更简洁易读，如果处理逻辑很复杂，应该还是用 “类”。
 
-[img-0]:images/利用-java8-对设计模式的重构/p01.png
+[img-0]:images/利用-java8-对设计模式的重构/p01.webp
 
-[img-1]:images/利用-java8-对设计模式的重构/p02.png
+[img-1]:images/利用-java8-对设计模式的重构/p02.webp
 
-[img-2]:images/利用-java8-对设计模式的重构/p03.png
+[img-2]:images/利用-java8-对设计模式的重构/p03.webp
 
-[img-3]:images/利用-java8-对设计模式的重构/p04.png
+[img-3]:images/利用-java8-对设计模式的重构/p04.webp

@@ -23,7 +23,7 @@ coverImage: "../images/waveking-grok-bot-24h-ai-trading-team-prompts/001.jpg"
 
 时间线上正在发生一件事，大部分交易者还没反应过来。
 
-![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/002.jpg)
+![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/002.webp)
 
 有人已经用 Grok Bot 管起了自己的整个生活：邮箱、日程、调研、销售，全交给它。
 
@@ -33,7 +33,7 @@ coverImage: "../images/waveking-grok-bot-24h-ai-trading-team-prompts/001.jpg"
 
 它记得你的规矩，按时间表干活，会跟别的 Bot 互相发消息，只有需要你点头的时候才回来找你。
 
-![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/003.jpg)
+![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/003.webp)
 
 现在把这支团队从邮箱挪到市场上。
 
@@ -63,7 +63,7 @@ coverImage: "../images/waveking-grok-bot-24h-ai-trading-team-prompts/001.jpg"
 
 以前所有的 AI 模型都是一个用法：你打字，它回答，然后停下。
 
-![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/004.jpg)
+![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/004.webp)
 
 它能给你讲一笔交易，但它从来没法真的盯着一笔交易。
 
@@ -115,7 +115,7 @@ https://x.com/bot/status/2107949161878606089
 
 ## 第二部分：招你的 AI 交易团队
 
-![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/005.jpg)
+![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/005.webp)
 
 几乎所有人都犯的错：建一个 Bot，让它去交易。「帮我盯着 BTC，告诉我该怎么做。」
 
@@ -379,7 +379,7 @@ TradingView 的登录你批一次就行，剩下的 Bot 自己做。
 
 有人每个月花钱订这种指标。你的这个，一段提示词就出来了。
 
-![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/006.jpg)
+![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/006.webp)
 
 连接 3：券商，手
 
@@ -436,7 +436,7 @@ Bot 的记忆你没法直接翻。所以让每个 Bot 把所有事都写下来�
 
 交易台里的一天
 
-![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/007.jpg)
+![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/007.webp)
 
 跑起来大概是这样：
 
@@ -464,7 +464,7 @@ Bot 的记忆你没法直接翻。所以让每个 Bot 把所有事都写下来�
 
 所以我们不跳，我们一级一级爬。
 
-![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/008.jpg)
+![](../images/waveking-grok-bot-24h-ai-trading-team-prompts/008.webp)
 
 第 1 级 模拟盘跑 2 周 每条规则都测过，每笔交易都有记录
 

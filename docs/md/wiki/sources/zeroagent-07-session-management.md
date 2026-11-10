@@ -47,7 +47,7 @@ Session 管理的核心是两张表：`sessions` 和 `messages`。它们是**一
 
 一次对话是由 Agent Loop 的多轮 Message 组成的，所以 Session 和 Message 是显而易见的 1 对多关系。其实体联系图如下：
 
-![Session 与 Message 的实体联系图](../images/zeroagent-07-session-management/001.png)
+![Session 与 Message 的实体联系图](../images/zeroagent-07-session-management/001.webp)
 
 ### 2.2 类型定义
 

@@ -25,7 +25,7 @@ coverImage: "../images/sylvieailab-12068-overseas-products-analysis/001.jpg"
 
 算完这批数据，结论非常直接：平时能刷到的，只是跑出来的极少数头部；而在大部分项目的真实数据里，藏着几条跟平时直觉完全相反的规律。
 
-![](../images/sylvieailab-12068-overseas-products-analysis/002.jpg)
+![](../images/sylvieailab-12068-overseas-products-analysis/002.webp)
 
 ## 先花 30 秒说清楚 TrustMRR 是什么
 
@@ -41,7 +41,7 @@ coverImage: "../images/sylvieailab-12068-overseas-products-analysis/001.jpg"
 
 53% 的项目，最近 30 天收入是 0。
 
-![](../images/sylvieailab-12068-overseas-products-analysis/003.jpg)
+![](../images/sylvieailab-12068-overseas-products-analysis/003.webp)
 
 如果把一个月收入不到 100 美元的也算上，占比直接到了七成多。
 
@@ -55,7 +55,7 @@ coverImage: "../images/sylvieailab-12068-overseas-products-analysis/001.jpg"
 
 榜上 16.9 亿美元的历史总收入，绝大多数被几家大平台分走了。
 
-![](../images/sylvieailab-12068-overseas-products-analysis/004.jpg)
+![](../images/sylvieailab-12068-overseas-products-analysis/004.webp)
 
 拆开看真实分布：
 
@@ -71,7 +71,7 @@ coverImage: "../images/sylvieailab-12068-overseas-products-analysis/001.jpg"
 
 今年上线的新项目最多，但赚钱的比例掉到了最低。
 
-![](../images/sylvieailab-12068-overseas-products-analysis/005.jpg)
+![](../images/sylvieailab-12068-overseas-products-analysis/005.webp)
 
 按项目成立年份分组，看现在月入过千的比例：
 
@@ -88,7 +88,7 @@ coverImage: "../images/sylvieailab-12068-overseas-products-analysis/001.jpg"
 
 靠发推和打榜推广的项目，月入过千的比例在所有渠道里垫底。
 
-![](../images/sylvieailab-12068-overseas-products-analysis/006.jpg)
+![](../images/sylvieailab-12068-overseas-products-analysis/006.webp)
 
 榜上有 3,253 个项目填了主要获客渠道，各个渠道里项目月入过千的比例差距极大：
 
@@ -128,7 +128,7 @@ Marky 是一个帮自出版作者打理社交账号的工具，创始人推特�
 
 给产品贴上 AI 标签并不能帮你多赚钱，选对离交易近的品类才可以。
 
-![](../images/sylvieailab-12068-overseas-products-analysis/007.jpg)
+![](../images/sylvieailab-12068-overseas-products-analysis/007.webp)
 
 榜上有 4,294 个项目打了 AI 标签。算下来，打 AI 标签的项目月入过千比例是 13.8%，没打的是 11.6%，两边几乎没差别。
 
@@ -145,7 +145,7 @@ AI 标签不值钱，离客户钱包越近才越值钱。
 
 真正跑通的小产品，没有一个是宏大平台，全在解决具体人群的具体麻烦。
 
-![](../images/sylvieailab-12068-overseas-products-analysis/008.jpg)
+![](../images/sylvieailab-12068-overseas-products-analysis/008.webp)
 
 我按三个硬条件筛出了最值得普通开发者参考的一批项目：2025 年 6 月以后上线、上个月收入在 3,000 到 3 万美元之间、创始人推特粉丝不到 1,000。
 

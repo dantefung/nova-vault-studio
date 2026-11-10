@@ -13,17 +13,17 @@ url: "https://mp.weixin.qq.com/s/l1J2qq9u5TyQg46c1rMNtg"
 
 然而，这个网站后续并没有继续上涨，在Codex Token额度耗光、工作停摆的几天里，每天访客数更是一路向下至1000左右，直到这两天网站恢复更新后，才重新有了上涨的苗头。
 
-![image](./images/gemini-surprise-not-waiting-for-codex/001.png)
+![image](images/gemini-surprise-not-waiting-for-codex/001.webp)
 
 我手头只有一个ChatGPT 20x的账号，在Codex Token额度耗光的几天里，我无法继续更新这个网站，也没有另外开发其它项目，但我每天仍然使用ChatGPT Pro帮我做一些方案，以及完善手头一个还没上线的小程序。
 
 直到周五翻看“生财TokenRank排行榜内测群”的聊天记录的时候，看到有不少圈友提及Gemini，我这才想起了几个月前我一直相处的老朋友。
 
-![image](./images/gemini-surprise-not-waiting-for-codex/002.png)
+![image](images/gemini-surprise-not-waiting-for-codex/002.webp)
 
 我于是打开Gemini的Upgrade页面，没想到竟然显示前3个月每个月只需4.99美金：
 
-![image](./images/gemini-surprise-not-waiting-for-codex/003.png)
+![image](images/gemini-surprise-not-waiting-for-codex/003.webp)
 
 我毫不犹豫点了“Get Google AI Pro”。结果很遗憾，订阅时提示我不符合4.99美金的条件，可能是因为我以前使用过Gemini，不是新用户。我犹豫片刻后，最终还是以20美金订阅了Gemini的Pro。
 
@@ -37,7 +37,7 @@ url: "https://mp.weixin.qq.com/s/l1J2qq9u5TyQg46c1rMNtg"
 
 Gemini还帮我做了一番对比，并告诉我：“目前完全没有必要引入EXA MCP，直接使用Google原生搜索（search_web）+原生页面抓取（read_url_content）是当前性价比最高、时效性最强、稳定性最好的选择。”
 
-![image](./images/gemini-surprise-not-waiting-for-codex/004.png)
+![image](images/gemini-surprise-not-waiting-for-codex/004.webp)
 
 这里不排除Gemini自夸的嫌疑，但是不得不承认，就搜索能力而言，谷歌仍然是当之无愧的老大。我于是听从它的建议，没有进一步配置EXA MCP。
 
@@ -45,7 +45,7 @@ Gemini还帮我做了一番对比，并告诉我：“目前完全没有必要�
 
 这批队列任务执行完后，我特地打开了Gemini的Token使用情况，结果显示花了43%的周额度，这个Token消耗速度比Codex要慢得多。
 
-![image](./images/gemini-surprise-not-waiting-for-codex/005.png)
+![image](images/gemini-surprise-not-waiting-for-codex/005.webp)
 
 接下来，我得调整一下AI的工作安排，让Gemini发挥它的搜索能力和爬虫能力，完成一些信息调研和内容更新的工作，而把Codex更强的编程能力和推理能力留在项目开发上。
 

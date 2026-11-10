@@ -47,7 +47,7 @@ url: "https://x.com/AdrianPunk115/status/2102695228637319269"
 
 把上面五条收拢成一句话：**在微信上，你的每一步操作都在同时管理交换账户、维护面子体系、经营弱关系网络，而推进的发动机是适度的自我披露，退出的安全阀是礼貌性疏忽。** 搞清楚这个底层结构，后面的实操就变成了在每个场景下做出合乎逻辑的判断，用不着死记硬背话术。
 
-![](./images/wechat-social-guide/wechat-social-guide-img1.jpg)
+![](images/wechat-social-guide/wechat-social-guide-img1.webp)
 
 第二部分：主动加好友
 
@@ -55,7 +55,7 @@ url: "https://x.com/AdrianPunk115/status/2102695228637319269"
 
 你在某个社群、平台或朋友转介绍中看到对方，想主动建立联系。这是陌生人社交的起点，对方没有任何义务回应你，因此你的申请信息必须在三秒内回答清楚三个问题：你是谁、你从哪来、你要什么。
 
-![](./images/wechat-social-guide/wechat-social-guide-img2.jpg)
+![](images/wechat-social-guide/wechat-social-guide-img2.webp)
 
 **加好友申请语模板：**
 
@@ -138,7 +138,7 @@ url: "https://x.com/AdrianPunk115/status/2102695228637319269"
 
 关键是要在对方把免费咨询当成理所当然之前，把规则摆出来。越早越好，越自然越好。
 
-![](./images/wechat-social-guide/wechat-social-guide-img3.jpg)
+![](images/wechat-social-guide/wechat-social-guide-img3.webp)
 
 **收费告知的参考话术：**
 
@@ -218,7 +218,7 @@ url: "https://x.com/AdrianPunk115/status/2102695228637319269"
 
 **第三步：创造持续互动的理由。** 分享一篇你觉得对方会感兴趣的文章、一个相关的活动信息、一条跟你们聊过的话题有关的新闻。这些“社交借口”让对话不依赖于你们中的某一方每次都主动发起。
 
-![](./images/wechat-social-guide/wechat-social-guide-img4.jpg)
+![](images/wechat-social-guide/wechat-social-guide-img4.webp)
 
 **线下认识 vs. 纯线上认识的区别：**
 
@@ -297,7 +297,7 @@ url: "https://x.com/AdrianPunk115/status/2102695228637319269"
 
 线下邀约的核心原则：**给出一个具体的、低承诺的、有退出通道的方案。**
 
-![](./images/wechat-social-guide/wechat-social-guide-img5.jpg)
+![](images/wechat-social-guide/wechat-social-guide-img5.webp)
 
 不要说“改天出来见个面吧”——这种模糊邀约把组织工作推给了对方，且缺乏行动力。
 
@@ -330,7 +330,7 @@ url: "https://x.com/AdrianPunk115/status/2102695228637319269"
 
 微信标签是一个被严重低估的功能。它本质上是你的私人 CRM 系统——用好了，你能在需要的时候快速找到对你有帮助的人，也能避免把不合适的内容发给不合适的人。
 
-![](./images/wechat-social-guide/wechat-social-guide-img6.jpg)
+![](images/wechat-social-guide/wechat-social-guide-img6.webp)
 
 ## 6.1 推荐标签体系
 
@@ -375,4 +375,4 @@ url: "https://x.com/AdrianPunk115/status/2102695228637319269"
 
 [[@AdrianPunk115](https://x.com/AdrianPunk115)](https://x.com/@AdrianPunk115)
 
-![](./images/wechat-social-guide/wechat-social-guide-img7.jpg)
+![](images/wechat-social-guide/wechat-social-guide-img7.webp)

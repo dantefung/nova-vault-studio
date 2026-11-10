@@ -25,7 +25,7 @@ coverImage: "../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/001.j
 
 那为什么每天还要去监控新站？ 因为，我每天跑的这套东西，与其叫竞品监控，不如叫需求监控。明确这两个词的区别，决定了我们每天到底是看了一堆 AI slop，还是看懂了一波又一波的开发者在搞什么章程。
 
-![](../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/002.jpg)
+![](../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/002.webp)
 
 下面我主要回答这三个问题：
 
@@ -55,7 +55,7 @@ coverImage: "../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/001.j
 
 第四个，交付轻不轻。一个人用 AI 两天能做出 MVP 版本，说明这个需求口子足够窄，窄到作为新手也能切进去。
 
-![](../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/003.jpg)
+![](../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/003.webp)
 
 今年八月刚开始上站的时候，我有一周多，天天在筛词。表格填的很充实，站一个没上。后来复盘才看清一件事，关键词是已有共识的聚合，它能告诉你哪里有用户需求，但光看词，告诉不了你，别人的站是怎么上首页前十的。
 
@@ -143,7 +143,7 @@ Grok bot 更像不用你伺候、反过来主动服侍你的私人秘书。它�
 
 验证也分两层。时间层，看八点前有没有交出结果，完成了多少。数据层，看抓回来的新站条数，比如当天是 981 条，去重归并后 890 条。这个数字是基准线，第二天 800 条、第三天掉到 80 条，明显有异常，再去查来源健康度和每一步的条数，就能分析出是哪一环漏了。
 
-![](../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/004.jpg)
+![](../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/004.webp)
 
 第三步，穿透查验，从目录页摸到官网
 
@@ -210,7 +210,7 @@ X 搜索核心逻辑：多语言关键词搜索（英文优先，另有法/西/�
 
 草稿放在「走势分析」页面，等我亲自过一遍，再决定要不要发推文。
 
-![](../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/005.jpg)
+![](../images/fanshifu-grok-bot-800-new-sites-monitoring-workflow/005.webp)
 
 ## 短视频这块，我没接完
 

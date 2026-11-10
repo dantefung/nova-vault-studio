@@ -57,7 +57,7 @@ X 鼓励的是公开转发，而且有两种：一种是直接转发，一种是
 
 我在一个线下课上学到过一张推特的算法权重表，来自 X 在 2023 年公开的推荐算法：
 
-![](../images/wangzai-x-twitter-zero-to-one-beginner-operations-guide/002.png)
+![](../images/wangzai-x-twitter-zero-to-one-beginner-operations-guide/002.webp)
 
 这些分数，乘的是算法预测“这条帖子会引发这种互动”的可能性，不是简单地把实际的点赞、回复数加起来。
 

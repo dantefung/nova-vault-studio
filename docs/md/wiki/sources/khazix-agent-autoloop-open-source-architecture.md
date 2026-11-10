@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw"
 
 <!-- more -->
 
-![工作的意义与 AI 的本质](../images/khazix-agent-autoloop-open-source-architecture/001.jpg)
+![工作的意义与 AI 的本质](../images/khazix-agent-autoloop-open-source-architecture/001.webp)
 
 周一发了一篇我的 Agent 自动化系统分享后，反响极大，收到很多行业认可和用户的启发反馈。很多朋友询问能否将整套系统开源，方便大家魔改和落地。
 
@@ -28,7 +28,7 @@ url: "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw"
 
 ## 整体架构：极简中台内核 + 四向插件体系
 
-![Agent-Autoloop 架构图](../images/khazix-agent-autoloop-open-source-architecture/002.png)
+![Agent-Autoloop 架构图](../images/khazix-agent-autoloop-open-source-architecture/002.webp)
 *图 1：Agent-Autoloop 架构设计——极简中台内核与围绕事件、Agent、通道、交付展开的插件层*
 
 整套自动化运转流程非常清晰直观：
@@ -101,7 +101,7 @@ url: "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw"
 - 完美支持飞书交互式卡片（支持按钮回调、状态自更新，实现“手机批奏折”般的体验）；
 - 支持钉钉、企业微信、Slack、Discord 等 Webhook 转发。
 
-![飞书交互式卡片与审批流](../images/khazix-agent-autoloop-open-source-architecture/003.png)
+![飞书交互式卡片与审批流](../images/khazix-agent-autoloop-open-source-architecture/003.webp)
 *图 2：在飞书端以交互式卡片方式审核 Agent 请求并一键回传决策*
 
 ### 4. 交付流水线插件（CI/CD 插件化）
@@ -114,7 +114,7 @@ url: "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw"
 
 项目内置了多种拿来即用的场景配置与 Skill：
 
-![内置场景模板与规则](../images/khazix-agent-autoloop-open-source-architecture/004.png)
+![内置场景模板与规则](../images/khazix-agent-autoloop-open-source-architecture/004.webp)
 *图 3：Agent-Autoloop 内置的场景与配置模板*
 
 1. **全网舆情监控与日报**：每日定时让 Codex 扫描微信社群记录、X、小红书和抖音，提炼 AIHOT 讨论点并输出优化建议；
@@ -124,7 +124,7 @@ url: "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw"
 5. **外部健康拨测与自愈**：每 5 分钟外网探活，正常情况下静默退出零开销；一旦宕机才唤醒 Codex 调取日志排查；
 6. **周末架构大扫除**：每周让 Agent 深度扫描过去一周合并的代码，定位冗余代码、孤立补丁与未清理文件并自主提 PR。
 
-![AI 厂商免费额度自动化监控](../images/khazix-agent-autoloop-open-source-architecture/005.png)
+![AI 厂商免费额度自动化监控](../images/khazix-agent-autoloop-open-source-architecture/005.webp)
 *图 4：利用 Agent-Autoloop 跑通厂商 Token 优惠与额度变动实时监测*
 
 ---
@@ -133,12 +133,12 @@ url: "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw"
 
 卡兹克团队内部利用该中台搭建了「虚实中台」，解决全员服务器部署与应用开发难点。同事基于飞书接口自己手搓的应用均挂载在中台之上：
 
-![公司虚实中台落地大屏](../images/khazix-agent-autoloop-open-source-architecture/006.png)
+![公司虚实中台落地大屏](../images/khazix-agent-autoloop-open-source-architecture/006.webp)
 *图 5：团队成员利用中台自主开发部署的多款业务应用*
 
 当同事对中台有改进建议时，只需在飞书私聊机器人，系统自动唤醒 Claude Code 评估需求、修改代码并自动化部署上线，敏感操作抄送卡兹克拍板。累计提报的 80 余条建议中，Claude 已自主修改并交付近 70 条，绝大多数需求在 1 小时内闭环完成。
 
-![飞书私聊机器人直接驱动 Claude 自动修代码并交付](../images/khazix-agent-autoloop-open-source-architecture/007.png)
+![飞书私聊机器人直接驱动 Claude 自动修代码并交付](../images/khazix-agent-autoloop-open-source-architecture/007.webp)
 *图 6：团队成员在飞书私聊提交意见，Agent 自主评估、编码、回归并上线反馈*
 
 ---

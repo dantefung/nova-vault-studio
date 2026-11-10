@@ -332,6 +332,6 @@ public class AddCategoryDto implements Serializable {
     }
 ```
 
-[img-0]:images/如何写好-Java-业务代码？这也是有很多规范/p01.png
+[img-0]:images/如何写好-Java-业务代码？这也是有很多规范/p01.webp
 
-[img-1]:images/如何写好-Java-业务代码？这也是有很多规范/p02.png
+[img-1]:images/如何写好-Java-业务代码？这也是有很多规范/p02.webp

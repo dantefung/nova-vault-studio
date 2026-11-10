@@ -1039,26 +1039,26 @@ Application 层：
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_jpg/nhlGsolibOWEup6pcFSoqDWX2CnKtr2ibick4zKc3GbnGwOU6OfRibTYDbP4ueZgYDVIQX96Wic9KibEX710j1jsqWicg/640?wx_fmt=jpeg)
 
-[img-0]:images/殷浩详解-DDD：如何避免写流水账代码？/p01.png
+[img-0]:images/殷浩详解-DDD：如何避免写流水账代码？/p01.webp
 
-[img-1]:images/殷浩详解-DDD：如何避免写流水账代码？/p02.png
+[img-1]:images/殷浩详解-DDD：如何避免写流水账代码？/p02.webp
 
-[img-2]:images/殷浩详解-DDD：如何避免写流水账代码？/p03.png
+[img-2]:images/殷浩详解-DDD：如何避免写流水账代码？/p03.webp
 
-[img-3]:images/殷浩详解-DDD：如何避免写流水账代码？/p04.png
+[img-3]:images/殷浩详解-DDD：如何避免写流水账代码？/p04.webp
 
-[img-4]:images/殷浩详解-DDD：如何避免写流水账代码？/p05.png
+[img-4]:images/殷浩详解-DDD：如何避免写流水账代码？/p05.webp
 
-[img-5]:images/殷浩详解-DDD：如何避免写流水账代码？/p06.png
+[img-5]:images/殷浩详解-DDD：如何避免写流水账代码？/p06.webp
 
-[img-6]:images/殷浩详解-DDD：如何避免写流水账代码？/p07.png
+[img-6]:images/殷浩详解-DDD：如何避免写流水账代码？/p07.webp
 
-[img-7]:images/殷浩详解-DDD：如何避免写流水账代码？/p08.png
+[img-7]:images/殷浩详解-DDD：如何避免写流水账代码？/p08.webp
 
-[img-8]:images/殷浩详解-DDD：如何避免写流水账代码？/p09.png
+[img-8]:images/殷浩详解-DDD：如何避免写流水账代码？/p09.webp
 
-[img-9]:images/殷浩详解-DDD：如何避免写流水账代码？/p10.png
+[img-9]:images/殷浩详解-DDD：如何避免写流水账代码？/p10.webp
 
-[img-10]:images/殷浩详解-DDD：如何避免写流水账代码？/p11.png
+[img-10]:images/殷浩详解-DDD：如何避免写流水账代码？/p11.webp
 
-[img-11]:images/殷浩详解-DDD：如何避免写流水账代码？/p12.png
+[img-11]:images/殷浩详解-DDD：如何避免写流水账代码？/p12.webp

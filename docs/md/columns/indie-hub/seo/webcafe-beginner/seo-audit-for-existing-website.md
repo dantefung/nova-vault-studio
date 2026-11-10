@@ -12,7 +12,7 @@ url: "https://new.web.cafe/tutorial/detail/eBR9wWboQbuJ6BqxhNfuo7"
 
 # 如何给一个已经上线的网站出SEO改造建议
 
-![image.png](images/seo-audit-for-existing-website/img_002.png)
+![image.png](images/seo-audit-for-existing-website/img_002.webp)
 之前哥飞聊的都是关于还没上线的网站要怎么做SEO，今天哥飞跟大家聊聊，对于已经上线正在运营的网站，如何给出SEO改造建议。
 
 进行SEO改造一般都会对网站进行改版，那么首先一个大原则就是，已经存在的URL不要做任何改动。

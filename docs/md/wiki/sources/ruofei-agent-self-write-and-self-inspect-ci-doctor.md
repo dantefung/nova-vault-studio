@@ -58,7 +58,7 @@ CI Doctor 会把仓库、失败运行的编号和链接、对应的提交 SHA �
 
 如果还想让写代码的 Agent 接着处理，就得**记住 PR 对应哪项编码任务，把提交和 CI 运行关联进去**。否则报告虽然自动生成了，还是得由人找到原来的窗口，贴回去，再说一句“继续”。
 
-![PR、提交与 CI 运行关联到原编码任务，检查结果据此回送](../images/ruofei-agent-self-write-and-self-inspect-ci-doctor/001.png)
+![PR、提交与 CI 运行关联到原编码任务，检查结果据此回送](../images/ruofei-agent-self-write-and-self-inspect-ci-doctor/001.webp)
 *图 1：要接回原任务，先记住 PR、提交与运行的关联（教学接线示意，PR 事件与修复流程需另行接入）*
 
 ---
@@ -86,7 +86,7 @@ CI Doctor 会把仓库、失败运行的编号和链接、对应的提交 SHA �
 
 只差一个等号，恰好 100 元的订单就会被收取运费。如果单元测试覆盖了这个边界值，CI 就会报错。
 
-![边界值判断导致错误](../images/ruofei-agent-self-write-and-self-inspect-ci-doctor/002.png)
+![边界值判断导致错误](../images/ruofei-agent-self-write-and-self-inspect-ci-doctor/002.webp)
 *图 2：门槛上下都可能正常，正好 100 元才暴露这个错误（教学规则推导说明）*
 
 检查结果送回这项编码任务，Agent 就有明确线索往下查：
@@ -97,7 +97,7 @@ CI Doctor 会把仓库、失败运行的编号和链接、对应的提交 SHA �
 
 如果最初任务授权就是“保持运费规则不变，跟进到检查通过”，这次修复便在原任务范围内。它可以自行恢复 `>=`，补查门槛上下的测试情况，直接更新 PR，再等新一轮 CI，**不用在分析完以后停下来等人催**。
 
-![沿同一任务继续，检查通过后交人审查](../images/ruofei-agent-self-write-and-self-inspect-ci-doctor/003.png)
+![沿同一任务继续，检查通过后交人审查](../images/ruofei-agent-self-write-and-self-inspect-ci-doctor/003.webp)
 *图 3：沿同一任务继续，检查通过后交人审查；规则冲突或卡住时，带记录找人*
 
 在等待 CI 运行的几分钟里，Agent 也不必一直常驻消耗 Token，**任务留置等待异步 Webhook 事件结果即可**。如果连续修复达到约定的重试轮数上限还没好，就带着完整的尝试记录回来，绝不能陷入无休止的死循环。

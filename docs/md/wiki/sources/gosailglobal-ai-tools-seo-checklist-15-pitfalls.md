@@ -33,7 +33,7 @@ F 体检/侦察：发现问题(自己)和机会(竞品)。按需拉出来用，�
 
 记忆法：A/B 是水位表，C 是水表阀门，D 是值班员，E 是挖渠的锹，F 是巡堤的手电
 
-![](../images/gosailglobal-ai-tools-seo-checklist-15-pitfalls/002.jpg)
+![](../images/gosailglobal-ai-tools-seo-checklist-15-pitfalls/002.webp)
 
 ## A. 站长后台：搜索引擎自家数据，管收录、词、外链
 
@@ -57,7 +57,7 @@ A2 Bing Webmaster
 
 坑：“Import from GSC” 不一定弹，XML 文件验证最稳。数据滞后几天
 
-![](../images/gosailglobal-ai-tools-seo-checklist-15-pitfalls/003.jpg)
+![](../images/gosailglobal-ai-tools-seo-checklist-15-pitfalls/003.webp)
 
 A3 Yandex Webmaster（候选，未实战，有俄罗斯流量再采纳）
 
@@ -117,7 +117,7 @@ C2 Stripe Payment Link
 
 坑：mailto 是转化杀手（见避坑 7）。文案跟着付费模式换（“先交付后付款”和预付费的话术完全不同）
 
-![](../images/gosailglobal-ai-tools-seo-checklist-15-pitfalls/004.jpg)
+![](../images/gosailglobal-ai-tools-seo-checklist-15-pitfalls/004.webp)
 
 ## D. 自动化/仪式：让数据自己来找你
 
@@ -147,7 +147,7 @@ D3 IndexNow
 
 安装：根目录放 key 文件 + build 链末尾挂 submit-indexnow.mjs，一次配好零维护
 
-![](../images/gosailglobal-ai-tools-seo-checklist-15-pitfalls/005.jpg)
+![](../images/gosailglobal-ai-tools-seo-checklist-15-pitfalls/005.webp)
 
 ## E. 发布/进水口 CLI：把资产推
 

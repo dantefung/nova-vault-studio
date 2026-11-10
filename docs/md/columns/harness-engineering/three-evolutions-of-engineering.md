@@ -73,7 +73,7 @@ Prompt Engineering、Context Engineering、Harness Engineering。
 
 下图展示了 Prompt Engineering 技术的演进路径：
 
-![image](./images/three-evolutions/001.png)
+![image](images/three-evolutions/001.webp)
 
 1.3繁荣与衰退：Prompt Engineering 的宿命
 
@@ -127,7 +127,7 @@ GPT-3 时代，你需要精心设计的少样本提示才能让模型完成一�
 
 一个完整的 LLM 上下文，通常包含以下几层信息：
 
-![image](./images/three-evolutions/002.png)
+![image](images/three-evolutions/002.webp)
 
 每一层都至关重要，却又都在争夺有限的 Token 空间。
 
@@ -143,7 +143,7 @@ RAG 的思路截然不同：不存知识，存索引。需要什么，临时去�
 
 具体流程如下：
 
-![image](./images/three-evolutions/003.png)
+![image](images/three-evolutions/003.webp)
 
 这个机制让模型能够访问远超其参数记忆的外部知识，同时又不会被无关信息淹没。
 
@@ -243,11 +243,11 @@ Harness Engineering，就是研究如何为大模型设计一套合适的马具�
 
 有一个简洁有力的公式：
 
-![image](./images/three-evolutions/004.png)
+![image](images/three-evolutions/004.webp)
 
 一个完整的 AI Agent 系统，除了大模型本身之外的所有东西，都属于 Harness：
 
-![image](./images/three-evolutions/005.png)
+![image](images/three-evolutions/005.webp)
 
 4.2OpenAI 的百万行代码实验：Harness 的实战证明
 
@@ -263,7 +263,7 @@ Harness Engineering，就是研究如何为大模型设计一套合适的马具�
 
 他们随后实施了三大 Harness 策略：
 
-![image](./images/three-evolutions/006.png)
+![image](images/three-evolutions/006.webp)
 
 策略一：上下文治理（Context Governance）
 
@@ -305,7 +305,7 @@ Anthropic 的研究揭示了另一个 Harness 必须解决的关键问题：AI �
 
 Anthropic 的解决方案是F-Harness——引入角色分工机制：
 
-![image](./images/three-evolutions/007.png)
+![image](images/three-evolutions/007.webp)
 
 Planner（规划者）： 将模糊需求拆解为精细的、可逐项追踪的功能列表。这解决了"任务量过大导致中途迷失"的问题。
 
@@ -381,7 +381,7 @@ F-Harness 三 Agent 模式
 
 5.2三者的职责边界
 
-![image](./images/three-evolutions/008.png)
+![image](images/three-evolutions/008.webp)
 
 用三个核心问题来区分：
 
@@ -419,7 +419,7 @@ Anthropic 的研究者在对比不同版本模型的表现时，发现了一个�
 
 这一规律，可以用一张图来表达：
 
-![image](./images/three-evolutions/009.png)
+![image](images/three-evolutions/009.webp)
 
 6.2这意味着什么？
 
@@ -559,7 +559,7 @@ RAG 系统的设计与调优： 如何分块、如何选择 Embedding 模型、�
 
 什么样的监控和可观测性工具能让我及时发现 Agent 的异常？
 
-![image](./images/three-evolutions/010.png)
+![image](images/three-evolutions/010.webp)
 
 8.4第四步：培养"动态 Harness 思维"
 
@@ -631,4 +631,4 @@ Evals 到底在评什么？一文拆解 AI 评估的三种方法
 
 识别二维码可申请大会体验门票，点击阅读原文了解大会详细议程。
 
-![image](./images/three-evolutions/011.png)
+![image](images/three-evolutions/011.webp)

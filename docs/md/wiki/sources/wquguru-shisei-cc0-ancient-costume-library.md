@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "WquGuru (@wquguru)"
 url: "https://x.com/wquguru/status/2117257461149413623"
-coverImage: "../images/wquguru-shisei-cc0-ancient-costume-library/001.jpg"
+coverImage: "../images/wquguru-shisei-cc0-ancient-costume-library/001.webp"
 ---
 
 # WquGuru（@wquguru）：Shisei 开源中国历代四视角服装库——从商朝到民国 227 张 CC0 资产
@@ -35,7 +35,7 @@ npx skills add compshare-cn/compshare-cli --skill compshare-cli
 
 链接和用法见评论区，你控制姿势最常用哪种类型的图，或者你平时租用 GPU 需要人去界面上点击吗？
 
-![](../images/wquguru-shisei-cc0-ancient-costume-library/001.jpg)
+![](../images/wquguru-shisei-cc0-ancient-costume-library/001.webp)
 
 [演示视频](https://video.twimg.com/amplify_video/2117255868291145728/vid/avc1/1080x1620/lCUW9h9voW0oUirC.mp4?tag=29)
 

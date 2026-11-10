@@ -13,7 +13,7 @@ coverImage: "../images/ai-jasonyu-x-creator-revenue-complete-guide/001.jpg"
 
 <!-- more -->
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/002.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/002.webp)
 
 马斯克的工资越来越多了！ 这不是玩笑，只要你的 X 账号满足条件，每个月都能收到真金白银的美金——创作者收益。
 
@@ -21,9 +21,9 @@ coverImage: "../images/ai-jasonyu-x-creator-revenue-complete-guide/001.jpg"
 
 比如看不懂的 SOL 大哥、比如 AB Kuai Dong ... ...
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/003.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/003.webp)
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/004.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/004.webp)
 
 但我看到太多 X 友在设置过程中因为一个小细节就导致收款失败或延迟数周——明明所有步骤都做了，却卡在姓名不一致、地区选错、税务表格漏填这些看似微不足道的地方。
 
@@ -82,7 +82,7 @@ coverImage: "../images/ai-jasonyu-x-creator-revenue-complete-guide/001.jpg"
 
 个人头像 → 创作者工作室 → Verify your identity → 身份认证
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/005.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/005.webp)
 
 ### 3. 选择证件类型
 
@@ -111,11 +111,11 @@ coverImage: "../images/ai-jasonyu-x-creator-revenue-complete-guide/001.jpg"
 
 提交后通常 5-30 分钟内就能收到审核结果，通过后会收到通知。
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/006.png)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/006.webp)
 
 ## 第二步：注册并配置 Wise 账户【有港卡的可以直接略过这一步】
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/007.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/007.webp)
 
 Wise 是目前大陆用户收款的最佳方案，支持身份证注册，手续费低，注册方便。
 
@@ -179,7 +179,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 个人头像 → Revenue Sharing → Set up payments(配置付款信息) → Connect Stripe Account
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/008.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/008.webp)
 
 点击后会自动跳转到 Stripe 注册页面。
 
@@ -189,7 +189,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 1. 输入邮箱
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/009.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/009.webp)
 
 最好用全新邮箱（Gmail 最好）注册 Stripe 个人账户
 
@@ -197,7 +197,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 2. 输入手机号和验证码
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/010.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/010.webp)
 
 手机号这里是可以绑定+86 的手机号的，但是保险起见，我绑定了一个香港的手机号。
 
@@ -211,7 +211,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 3. 创建一个新的企业
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/011.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/011.webp)
 
 我的截图里面显示的有我这个账号之前在 Stripe 注册的一个主体，不过这个主体没申请通过，也就一直在这里放着（这个是一个公司的主体）
 
@@ -219,7 +219,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 4. 选择地区和账户类型
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/012.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/012.webp)
 
 - 地区必须选择：Hong Kong（香港）
 - 企业类型：选择 Individual（个人）
@@ -227,7 +227,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 5. 填写个人信息【逐个给大家说明】
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/013.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/013.webp)
 
 - Legal first name：填写名，拼音连起来，用全大写填写【我用的众安，和众安的卡名字保持一致】
 - Legal last name：填写姓，也是全大写填写【我用的众安，和众安的卡名字保持一致】
@@ -235,7 +235,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 6. 填写地址 Home Address
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/014.png)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/014.webp)
 
 大多数人应该都没有香港地址，所以可以直接使用 港卡/Wise 提供的银行地址：
 
@@ -247,7 +247,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 7. 绑定银行账户
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/015.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/015.webp)
 
 这里有个说明，目前 X 友最推荐的是汇丰香港，可以直接收美元，因为如果是众安，是自动转汇成港元的，有大约 2% 转汇费，我实际测试下来，和实时汇率对比应该也就 1% 的损耗。
 
@@ -275,7 +275,7 @@ Stripe 是 X 官方指定的收款通道，所有创作者收益都必须通过 
 
 ### 1. 首先得确认下之前填写的信息
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/016.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/016.webp)
 
 Business type 确认这里就是之前填写的，确保没错
 
@@ -295,7 +295,7 @@ Payout details：这里如果填写错了，还能点击 Edit 来编辑
 
 1. 税务居民身份
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/017.png)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/017.webp)
 
 Are you considered a U. S. Person for Federal Tax Purposes?
 
@@ -303,7 +303,7 @@ Are you considered a U. S. Person for Federal Tax Purposes?
 
 2. 邮寄地址
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/018.png)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/018.webp)
 
 Is your mailing address the same as the permanent residence address above?
 
@@ -317,7 +317,7 @@ U. S. Taxpayer ldentification number
 
 4. 非美国纳税人识别号码
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/019.png)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/019.webp)
 
 Non-U. S. Taxpayer ldentification number
 
@@ -325,13 +325,13 @@ Non-U. S. Taxpayer ldentification number
 
 5. 税收协定索赔
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/020.png)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/020.webp)
 
 Tax Treaty Claims，这个选“No”即可。
 
 6. 然后勾选同意选框，在 Signature 中填写你的英文全名。
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/021.png)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/021.webp)
 
 注意，这里的英文名字要和刚才确认信息页面的名字顺序一致，我这里前面的时候，就变成了，名在前，姓在后！！
 
@@ -339,13 +339,13 @@ Tax Treaty Claims，这个选“No”即可。
 
 7. 然后点击“Agree and submit”，等待审核即可。
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/022.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/022.webp)
 
 ##
 
 ## 第五步：等待审核与首次收款
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/023.png)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/023.webp)
 
 ### 1. Stripe 审核时间
 
@@ -354,7 +354,7 @@ Tax Treaty Claims，这个选“No”即可。
 - 通常时间：几小时到 2-3 天
 - 审核内容：身份信息、银行账户、业务合规性
 
-![](../images/ai-jasonyu-x-creator-revenue-complete-guide/024.jpg)
+![](../images/ai-jasonyu-x-creator-revenue-complete-guide/024.webp)
 
 审核通过后，你会在 X 的 创作者工作室，Revenue Sharing 页面看到“Active”状态。
 

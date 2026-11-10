@@ -16,17 +16,17 @@ url: "https://mp.weixin.qq.com/s/YLi38TLLM936bDsILGUtuA"
 
 ## 改版前的网站状况
 
-![收入数据变化](../images/adsense-seo-800-to-2000/001.png)
+![收入数据变化](../images/adsense-seo-800-to-2000/001.webp)
 
 这是一个列表式网站，首页和分类页面都是列表，只有顶部一个广告位。
 
-![旧版首页](../images/adsense-seo-800-to-2000/004.png)
+![旧版首页](../images/adsense-seo-800-to-2000/004.webp)
 
 详情页也只有一个广告位。
 
-![旧版详情页](../images/adsense-seo-800-to-2000/005.png)
+![旧版详情页](../images/adsense-seo-800-to-2000/005.webp)
 
-![旧版详情页内容](../images/adsense-seo-800-to-2000/006.png)
+![旧版详情页内容](../images/adsense-seo-800-to-2000/006.webp)
 
 ## 发现的问题
 
@@ -47,65 +47,65 @@ url: "https://mp.weixin.qq.com/s/YLi38TLLM936bDsILGUtuA"
 
 卡片式布局，一行放 4 本书，增加书籍封面，一页放 3 个广告位。
 
-![新版首页](../images/adsense-seo-800-to-2000/007.png)
+![新版首页](../images/adsense-seo-800-to-2000/007.webp)
 
 ### 首页 SEO 优化
 
 首页 title 和 description 编写：
 
-![首页 title/description](../images/adsense-seo-800-to-2000/008.png)
+![首页 title/description](../images/adsense-seo-800-to-2000/008.webp)
 
 首页 h1 写网站名称和 slogan：
 
-![首页 h1](../images/adsense-seo-800-to-2000/009.png)
+![首页 h1](../images/adsense-seo-800-to-2000/009.webp)
 
 ### 详情页 SEO 优化
 
 一页三个广告位，标题格式为 `{书籍名称}-网站名称-通用关键字`，描述格式为 `{书籍名称}是{作者}的作品，网站名称为您提供{书籍名称}免费……`。
 
-![新版详情页](../images/adsense-seo-800-to-2000/010.png)
+![新版详情页](../images/adsense-seo-800-to-2000/010.webp)
 
-![新版详情页2](../images/adsense-seo-800-to-2000/011.png)
+![新版详情页2](../images/adsense-seo-800-to-2000/011.webp)
 
 HTML 中，h1 标签放书籍名称：
 
-![详情页 h1](../images/adsense-seo-800-to-2000/012.png)
+![详情页 h1](../images/adsense-seo-800-to-2000/012.webp)
 
-![详情页 h1 代码](../images/adsense-seo-800-to-2000/013.png)
+![详情页 h1 代码](../images/adsense-seo-800-to-2000/013.webp)
 
 ### 分类页 SEO 优化
 
 分类页与首页 UI 类似，标题格式为 `{分类名称}-网站名称-slogan`，描述格式为 `{分类名称}类……，网站名称为您提供……`。
 
-![分类页](../images/adsense-seo-800-to-2000/014.png)
+![分类页](../images/adsense-seo-800-to-2000/014.webp)
 
-![分类页 title/description](../images/adsense-seo-800-to-2000/015.png)
+![分类页 title/description](../images/adsense-seo-800-to-2000/015.webp)
 
 分类页 h1 直接是分类名称：
 
-![分类页 h1](../images/adsense-seo-800-to-2000/016.png)
+![分类页 h1](../images/adsense-seo-800-to-2000/016.webp)
 
 ### 标签页
 
 新增标签页面，聚合相同标签下的不同书籍，同样放三个广告位。
 
-![标签页](../images/adsense-seo-800-to-2000/017.png)
+![标签页](../images/adsense-seo-800-to-2000/017.webp)
 
 标签页标题格式为 `标签:{标签名称}-网站名称-slogan`，但当时忘记写描述：
 
-![标签页 title](../images/adsense-seo-800-to-2000/018.png)
+![标签页 title](../images/adsense-seo-800-to-2000/018.webp)
 
 h1 直接写 `标签:{标签名称}`：
 
-![标签页 h1](../images/adsense-seo-800-to-2000/019.png)
+![标签页 h1](../images/adsense-seo-800-to-2000/019.webp)
 
 ### 作者页
 
 作者名称被当作特殊标签处理，聚合该作者的所有书籍。
 
-![作者页](../images/adsense-seo-800-to-2000/020.png)
+![作者页](../images/adsense-seo-800-to-2000/020.webp)
 
-![作者页 h1](../images/adsense-seo-800-to-2000/021.png)
+![作者页 h1](../images/adsense-seo-800-to-2000/021.webp)
 
 ### 搜索功能
 
@@ -127,7 +127,7 @@ UV 涨 → PV 涨（新增标签页、搜索页，PV/UV 比例增加）→ 广�
 
 7 月广告费变为 6 月差不多两倍。8 月几乎没涨，9 月、10 月、11 月持续增长，因为新版对搜索引擎更友好，被收录更多页面，搜索排名持续上升，流量越来越高。
 
-![最终收入数据](../images/adsense-seo-800-to-2000/022.png)
+![最终收入数据](../images/adsense-seo-800-to-2000/022.webp)
 
 ## 总结
 

@@ -74,10 +74,10 @@ Red before green——先写一个失败的测试，只写让这个测试通过�
 
 ## 配图
 
-![image](../images/indie-hub-tdd-diagnosing/001.png)
+![image](../images/indie-hub-tdd-diagnosing/001.webp)
 
 *Matt Pocock 两个 skill 修复 Agent 失败模式*
 
-![image](../images/indie-hub-tdd-diagnosing/002.png)
+![image](../images/indie-hub-tdd-diagnosing/002.webp)
 
 *red-capable command 不是结果，是入场券*

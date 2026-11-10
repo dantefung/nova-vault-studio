@@ -30,11 +30,11 @@ Ahrefs 的 SEO 官方教学明确提到过：如果你想让自己的页面超�
 2. 还没有账号的先用微软账号免费注册一个。
 3. 登录后点击「添加网站」，按照页面指引完成所有权验证（通常可以通过 DNS 解析 TXT 记录、上传 HTML 验证文件，或者直接通过 Google Search Console 一键快捷导入关联）。
 
-![Bing 站长工具添加与验证网站](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/001.png)
+![Bing 站长工具添加与验证网站](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/001.webp)
 
 4. 添加并部署验证代码后，点击页面下方的「验证」按钮。
 
-![点击验证网站所有权](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/002.jpg)
+![点击验证网站所有权](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/002.webp)
 
 ---
 
@@ -48,7 +48,7 @@ Ahrefs 的 SEO 官方教学明确提到过：如果你想让自己的页面超�
 
 系统会立即检索并列出 Bing 爬虫索引到的该域名所有外部反向链接、引用域名以及锚文本。
 
-![在 Bing 反向链接工具中添加竞品网址](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/003.png)
+![在 Bing 反向链接工具中添加竞品网址](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/003.webp)
 
 ---
 
@@ -56,15 +56,15 @@ Ahrefs 的 SEO 官方教学明确提到过：如果你想让自己的页面超�
 
 1. 点击对应竞品行的「详情（View Details）」。
 
-![查看外链详情列表](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/004.jpg)
+![查看外链详情列表](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/004.webp)
 
 2. 进入详情页后，能看到完整的 Source URL（来源网页）、Target URL（目标落地页）与 Anchor Text（锚文本）。
 
-![竞品反向链接详细列表](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/005.jpg)
+![竞品反向链接详细列表](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/005.webp)
 
 3. 点击列表右上角的「导出所有（Export All）」按钮，即可直接将全部反向链接数据下载为 CSV / Excel 电子表格。
 
-![一键导出所有外链表格](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/006.jpg)
+![一键导出所有外链表格](../images/taowithsaas-bing-webmaster-free-competitor-backlinks-export/006.webp)
 
 拿到导出的外链清单后，就可以按域名权重与类型过滤，逐个拆解对方的外链构成（如导航站收录、媒体报道、博客测评、论坛外链等），并为自己的出海网站制定对应的外链建设（Link Building）计划。
 

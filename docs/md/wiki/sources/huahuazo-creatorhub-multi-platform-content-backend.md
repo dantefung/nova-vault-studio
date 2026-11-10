@@ -4,7 +4,7 @@ date: "2026-11-09"
 source: "X/Twitter"
 author: "LanfAI (@Huahuazo)"
 url: "https://x.com/Huahuazo/status/2119313215775813838"
-coverImage: "../images/huahuazo-creatorhub-multi-platform-content-backend/001.jpg"
+coverImage: "../images/huahuazo-creatorhub-multi-platform-content-backend/001.webp"
 ---
 
 # LanfAI（@Huahuazo）：CreatorHub——把抖音、小红书、快手、视频号收进同一个 Web 后台
@@ -29,7 +29,7 @@ CreatorHub 索性把好几个平台全收进了同一个 Web 后台，账号、�
 
 🔗 https://t.co/vtFV60Bhe5
 
-![](../images/huahuazo-creatorhub-multi-platform-content-backend/001.jpg)
+![](../images/huahuazo-creatorhub-multi-platform-content-backend/001.webp)
 
 ## 相关页面
 

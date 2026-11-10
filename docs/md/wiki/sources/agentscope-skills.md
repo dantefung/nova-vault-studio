@@ -176,9 +176,9 @@ references: []
 
 通过 `streamEvents` 监听，我们能看到 Agent 在后台精确地执行了"链接器"的四步流程。
 
-![grilling 实战效果](../images/agentscope-skills/002.png)
+![grilling 实战效果](../images/agentscope-skills/002.webp)
 
-![grilling 实战效果](../images/agentscope-skills/003.png)
+![grilling 实战效果](../images/agentscope-skills/003.webp)
 
 这个过程 Agent 没有自己编造"如何盘问"，而是严格遵循了我们预置在 SKILL.md 中的"盘问准则"，一股脑提了一堆的灵魂拷问，堪称人间清醒。这就是"确定性卸载"的直观体现——把策略固化到文件，让 Agent 去加载和执行，而不是让它猜。
 

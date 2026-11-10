@@ -58,7 +58,7 @@ coverImage: "../images/hailey-hand-drawn-storybook-animation/001.jpg"
 > 这效果可以直接拿去小红书起号了 Opus 5.5 产出的这些内容，简直就是流量密码，画风、创意、视觉效果都太适合传播了。https://t.co/ZGxGtOTISb
 > https://x.com/HaileyAILabs/status/2110633833607602424
 
-![万圣节之夜，待上线](../images/hailey-hand-drawn-storybook-animation/002.jpg)
+![万圣节之夜，待上线](../images/hailey-hand-drawn-storybook-animation/002.webp)
 
 ## 第一步：先让 GPT 把故事想明白
 
@@ -138,7 +138,7 @@ coverImage: "../images/hailey-hand-drawn-storybook-animation/001.jpg"
 
 接入是先去火山引擎控制台找到语音合成服务，开通之后创建 API Key，再按照项目要求把 Key 配置到 .env 文件里。
 
-![](../images/hailey-hand-drawn-storybook-animation/003.jpg)
+![](../images/hailey-hand-drawn-storybook-animation/003.webp)
 
 注意：.env 文件不要发给 AI，也不要上传到公开仓库。
 
@@ -201,7 +201,7 @@ GPT 写故事，Claude 负责制作，豆包配音。
 
 我把用到的 skill 开源了，想自己试试的可以直接拿去用。
 
-![](../images/hailey-hand-drawn-storybook-animation/004.jpg)
+![](../images/hailey-hand-drawn-storybook-animation/004.webp)
 
 [https://github.com/lhlGitHub/hand-drawn-storybook-animation-skill](https://github.com/lhlGitHub/hand-drawn-storybook-animation-skill)
 

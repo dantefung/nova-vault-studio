@@ -37,7 +37,7 @@ The Whole Machine
 
 
 
-![DeepSeek Harness 整机图：一句话在机器里走一圈](images/teardown-deepseek-harness-overview/001.png)
+![DeepSeek Harness 整机图：一句话在机器里走一圈](images/teardown-deepseek-harness-overview/001.webp)
 
 
 

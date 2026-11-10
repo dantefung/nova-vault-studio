@@ -23,13 +23,13 @@ coverImage: "../images/leo-xiaolei-ai-character-consistency-skill/001.jpg"
 
 这一步的关键在于固定角色的结构：通过正面、侧面和背面的视角，确保锁定角色的脸部特征、比例以及整体造型。稳定这一部分后，后续的生成就不易出现问题。（适用于真人角色）
 
-![](../images/leo-xiaolei-ai-character-consistency-skill/002.jpg)
+![](../images/leo-xiaolei-ai-character-consistency-skill/002.webp)
 
 ## 二、增强表现力
 
 角色的表情、微表情、姿态变化和手部动作等元素有助于传达角色的动态特征和情绪表达。这样生成的人物会显得栩栩如生，而非僵硬呆板。
 
-![](../images/leo-xiaolei-ai-character-consistency-skill/003.jpg)
+![](../images/leo-xiaolei-ai-character-consistency-skill/003.webp)
 
 ## 三、细节说明
 
@@ -37,7 +37,7 @@ coverImage: "../images/leo-xiaolei-ai-character-consistency-skill/001.jpg"
 
 这一步决定了角色的质感和高端感，使生成的视频内容更加可控。
 
-![](../images/leo-xiaolei-ai-character-consistency-skill/004.jpg)
+![](../images/leo-xiaolei-ai-character-consistency-skill/004.webp)
 
 ## 四、操作步骤
 
@@ -45,7 +45,7 @@ coverImage: "../images/leo-xiaolei-ai-character-consistency-skill/001.jpg"
 
 将提示词复制到窗口，根据需要进行调整，整个过程非常灵活。
 
-![](../images/leo-xiaolei-ai-character-consistency-skill/005.jpg)
+![](../images/leo-xiaolei-ai-character-consistency-skill/005.webp)
 
 ```markdown
 【任务】

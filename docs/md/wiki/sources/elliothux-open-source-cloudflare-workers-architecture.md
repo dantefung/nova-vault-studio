@@ -35,7 +35,7 @@ Cloudflare 最近发过[一篇文章](https://link.juejin.cn/?target=https%3A%2F
 
 但问题却很现实：极度的厂商锁定。想要这种体验？你只能把企业核心数据和 Agent 调用链，全都焊死在 Cloudflare 的公有云上。
 
-![](../images/elliothux-open-source-cloudflare-workers-architecture/002.png)
+![](../images/elliothux-open-source-cloudflare-workers-architecture/002.webp)
 
 为了打破这种垄断与基建通胀，我写了 [open-compute](https://github.com/elliothux/open-compute)（Apache-2.0 协议）。
 
@@ -108,7 +108,7 @@ PostgreSQL / TiDB                      │                       │
 
 工业级的优雅，往往诞生于对底层资源开销的极度苛刻。
 
-![](../images/elliothux-open-source-cloudflare-workers-architecture/003.jpg)
+![](../images/elliothux-open-source-cloudflare-workers-architecture/003.webp)
 
 1. 为什么只要 60 MB？——消灭所有网络中介与运行时垃圾
 
@@ -197,7 +197,7 @@ ocd 与底层 workerd 的联动，不是简单的 CLI 管道通信，而是动�
 
 你原有的 Workers 项目，不用改一行代码，直接搬过来就能跑。
 
-![](../images/elliothux-open-source-cloudflare-workers-architecture/004.jpg)
+![](../images/elliothux-open-source-cloudflare-workers-architecture/004.webp)
 
 ## 五、技术变革与反思：把计算主权交还给开发者
 

@@ -39,25 +39,25 @@ url: ""
 
 以下为分享中使用的主要幻灯片：
 
-![幻灯片1](images/0.jpeg)
+![幻灯片1](images/0.webp)
 
-![幻灯片2](images/1.jpeg)
+![幻灯片2](images/1.webp)
 
-![幻灯片3](images/2.jpeg)
+![幻灯片3](images/2.webp)
 
-![幻灯片4](images/3.jpeg)
+![幻灯片4](images/3.webp)
 
-![幻灯片5](images/4.jpeg)
+![幻灯片5](images/4.webp)
 
-![幻灯片6](images/5.jpeg)
+![幻灯片6](images/5.webp)
 
-![幻灯片7](images/6.jpeg)
+![幻灯片7](images/6.webp)
 
 ---
 
 ## 补充素材
 
-![微信补充图](images/wechat-extra.jpg)
+![微信补充图](images/wechat-extra.webp)
 
 ---
 

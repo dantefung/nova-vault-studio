@@ -4,7 +4,7 @@ date: "2026-10-29"
 source: "X/Twitter"
 author: "大雷 (@AaronYiaazw)"
 url: "https://x.com/AaronYiaazw/status/2095139268142174487"
-coverImage: "../images/aaronyi-image-story-video-wizard/001.jpg"
+coverImage: "../images/aaronyi-image-story-video-wizard/001.webp"
 ---
 
 # 大雷：图文播客视频自动化流水线——image-story-video-wizard Skill 全流程
@@ -44,11 +44,11 @@ SKILL 安装指令：
 
 7.我觉得它这个工作流属于视频工作流里面流程全，但是逻辑简单的那种，不必要有畏难情绪，根据我设计的 Skill 是可以带大家很快跑通的。我自己也在做 YouTube，可以实现精剪视频流程的高度自动化。这里先给大家看一下我的剪辑台，我后面也会跟大家去做分享
 
-![](../images/aaronyi-image-story-video-wizard/001.jpg)
+![](../images/aaronyi-image-story-video-wizard/001.webp)
 
 > 具体流程我都已经设计在了 Skill 里面，以下内容主要是帮助大家去理解整个流程，有做的不周到的地方，还请大家包涵
 
-![](../images/aaronyi-image-story-video-wizard/002.jpg)
+![](../images/aaronyi-image-story-video-wizard/002.webp)
 
 ## 一、先确定选题和对标
 
@@ -82,7 +82,7 @@ SKILL 安装指令：
 
 在 WorkBuddy 里选择 Kimi-K3，打开 Max 模式，思考强度选择「超高」，上下文选择 1M。然后新开一个干净对话，把写作包发进去，只需要告诉它：解压缩以后，按照里面的要求执行。
 
-![](../images/aaronyi-image-story-video-wizard/003.jpg)
+![](../images/aaronyi-image-story-video-wizard/003.webp)
 
 > 【配图：WorkBuddy 中选择 Kimi-K3，打开 Max 模式，思考强度选择「超高」，上下文选择 1M】
 

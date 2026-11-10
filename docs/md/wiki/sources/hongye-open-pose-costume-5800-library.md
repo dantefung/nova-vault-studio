@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "Kevin Tech Labs (@HongyeMain)"
 url: "https://x.com/HongyeMain/status/2117268551602225237"
-coverImage: "../images/hongye-open-pose-costume-5800-library/001.jpg"
+coverImage: "../images/hongye-open-pose-costume-5800-library/001.webp"
 ---
 
 # Kevin Tech Labs（@HongyeMain）：Open Pose & Costume 开源姿势与服饰库大更新——5855 张多视角参考图与一键生图
@@ -29,13 +29,13 @@ Open Pose &amp; Costume 最近又更新了一大轮：
 
 在线体验：https://hongye007.github.io/open-pose-costume/
 
-![](../images/hongye-open-pose-costume-5800-library/001.jpg)
+![](../images/hongye-open-pose-costume-5800-library/001.webp)
 
-![](../images/hongye-open-pose-costume-5800-library/002.jpg)
+![](../images/hongye-open-pose-costume-5800-library/002.webp)
 
-![](../images/hongye-open-pose-costume-5800-library/003.jpg)
+![](../images/hongye-open-pose-costume-5800-library/003.webp)
 
-![](../images/hongye-open-pose-costume-5800-library/004.jpg)
+![](../images/hongye-open-pose-costume-5800-library/004.webp)
 
 https://github.com/hongye007/open-pose-costume
 

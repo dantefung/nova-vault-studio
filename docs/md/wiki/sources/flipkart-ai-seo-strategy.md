@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/pNveR3dL3eu6DiN8_dA5eA"
 
 > 有人发了 15,061 条营销消息，换回 37,258 次访问。多出来的那部分，是用户自己转发出去的。起点在搜索日志里。
 
-![001](../images/flipkart-ai-seo-strategy/001.png)
+![001](../images/flipkart-ai-seo-strategy/001.webp)
 
 ## 核心洞察
 
@@ -28,7 +28,7 @@ url: "https://mp.weixin.qq.com/s/pNveR3dL3eu6DiN8_dA5eA"
 
 这批人恰恰是最有价值的：他们有明确购买意图和预算，缺的只是信息。他们去了 Google、小红书、B 站做功课，然后未必回来。
 
-![002](../images/flipkart-ai-seo-strategy/002.png)
+![002](../images/flipkart-ai-seo-strategy/002.webp)
 
 Flipkart 用四条 PySpark 规则从搜索日志里捞出这批人：
 
@@ -39,7 +39,7 @@ Flipkart 用四条 PySpark 规则从搜索日志里捞出这批人：
 
 ## 二、285% CTR 的真正来源
 
-![003](../images/flipkart-ai-seo-strategy/003.png)
+![003](../images/flipkart-ai-seo-strategy/003.webp)
 
 看到 285% 这个数字，直觉反应是"AI 文案写得牛"。但数据揭示了更深层的原因：
 
@@ -92,7 +92,7 @@ Flipkart 改掉的不是文案，是**消息的性质**：从"催你买"改成"�
 
 正确做法：一个总控统一分派，每个子 Agent 只对总控负责，输出结构化数据，不许自己往下传。总控还做了件聪明事——如果发现搜索词已经足够明确（如"iphone 17 pro new"），直接终止流程，一分钱不花。
 
-![004](../images/flipkart-ai-seo-strategy/004.png)
+![004](../images/flipkart-ai-seo-strategy/004.webp)
 
 ### 2. 末端必须加独立的事实审核
 
@@ -109,7 +109,7 @@ Flipkart 改掉的不是文案，是**消息的性质**：从"催你买"改成"�
 
 催单是在花用户的耐心。做功课是在存用户的信任。耐心花完了就没了，信任存下来是复利。
 
-![005](../images/flipkart-ai-seo-strategy/005.png)
+![005](../images/flipkart-ai-seo-strategy/005.webp)
 
 ---
 

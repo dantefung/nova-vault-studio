@@ -49,7 +49,7 @@ Obsidian 是加分项。每期的文件夹放在里面，装上 Excalidraw 插�
 
 但代价是人设弱。观众没有一张脸可以记，他记住的只能是你的风格。所以白板号比真人号更需要统一。同一种手绘，同一套配色，同一个封面版式，同一个片尾。一个人点进你的主页，看到一排整整齐齐、一眼能认出是同一个系列的封面，关注的概率会高很多。关注这个决定，很多时候是在主页上做的。
 
-![](../images/codex-excalidraw-whiteboard-video/001.jpg)
+![](../images/codex-excalidraw-whiteboard-video/001.webp)
 
 这个系列的 9 张竖版封面放在一起，同一种手绘，同一个版式，同一个角标
 
@@ -85,7 +85,7 @@ Skill 里旁白的结构是固定的，最后一段一定是"一句话总结加�
 
 所以开场第一段，我会放一个大字标题配一句反差或者定义，字号开到 140 以上，让它最先画出来。比如先写出一个概念的名字，下面一行灰字说"它和你以为的不一样"，旁边再摆两三个对比的小图。观众一眼就知道这期要讲什么、有什么意外。
 
-![](../images/codex-excalidraw-whiteboard-video/002.jpg)
+![](../images/codex-excalidraw-whiteboard-video/002.webp)
 
 一期真实开场的前 6 秒：0.5 秒开始写标题，1.2 秒标题基本成形，3.5 秒主角入场
 
@@ -113,7 +113,7 @@ Skill 里旁白的结构是固定的，最后一段一定是"一句话总结加�
 
 同一条片子可以发好几个平台，但文案不能一份走天下。
 
-![](../images/codex-excalidraw-whiteboard-video/003.jpg)
+![](../images/codex-excalidraw-whiteboard-video/003.webp)
 
 同一条片子四个平台的封面、标题和正文规格
 
@@ -141,7 +141,7 @@ Skill 里旁白的结构是固定的，最后一段一定是"一句话总结加�
 
 下面讲工具。先看分工，这套东西靠几个开源工具和两个服务拼起来。
 
-![](../images/codex-excalidraw-whiteboard-video/004.jpg)
+![](../images/codex-excalidraw-whiteboard-video/004.webp)
 
 这套白板视频用到的工具和各自的分工
 
@@ -149,7 +149,7 @@ Skill 里旁白的结构是固定的，最后一段一定是"一句话总结加�
 
 一期分七步，我按顺序讲，每一步说清楚 AI 做什么、我做什么。
 
-![](../images/codex-excalidraw-whiteboard-video/005.jpg)
+![](../images/codex-excalidraw-whiteboard-video/005.webp)
 
 七步里绿色那一列是我必须亲自看的地方
 
@@ -179,7 +179,7 @@ Skill 里旁白的结构是固定的，最后一段一定是"一句话总结加�
 
 这条规矩的来历是有一次 AI 自作主张，把两家公司画成了两个卡通机器人。挺可爱的，可是观众根本认不出谁是谁。讲到具体的公司，观众需要的是半秒钟就能认出来的那个标。
 
-![](../images/codex-excalidraw-whiteboard-video/006.jpg)
+![](../images/codex-excalidraw-whiteboard-video/006.webp)
 
 两家公司对比的一期，封面主图直接用两个官方 Logo
 
@@ -193,13 +193,13 @@ Whiteboard sticker illustration in Excalidraw hand-drawn style: thick, slightly 
 
 主体描述写在它前面。人物写体型、姿势、衣服颜色和表情，比如 a chibi person sitting and reading a book, wearing a pale blue shirt, calm smile。物件写视角和主色。别写背景、文字和数字。那五个颜色就是 Excalidraw 自带的浅色，贴纸放进画面才不跳。
 
-![](../images/codex-excalidraw-whiteboard-video/007.jpg)
+![](../images/codex-excalidraw-whiteboard-video/007.webp)
 
 左边是 codex 出的四宫格原图，右边是切开抠好的四张透明贴纸
 
 讲到具体的公众人物，用照真人画的漫画像。 拿维基百科上的公开照片当参考，让 codex 只借长相，脸型、发型、眼镜、标志性的衣服，画风还是白板贴纸。姿势跟着立场走，赞同的竖大拇指，反对的抱着胳膊。只画公开形象，不丑化。
 
-![](../images/codex-excalidraw-whiteboard-video/008.jpg)
+![](../images/codex-excalidraw-whiteboard-video/008.webp)
 
 照公开照片画的白板漫画像，只借长相，画风和贴纸一致
 
@@ -215,7 +215,7 @@ Whiteboard sticker illustration in Excalidraw hand-drawn style: thick, slightly 
 
 版式我攒了一套常用的，开场大标题配三个对比物，左右两列对比，三栏卡片，中心图配三个下游，清单，参数价格卡，总结页。每个都有现成坐标，新一期直接抄过来微调。
 
-![](../images/codex-excalidraw-whiteboard-video/009.jpg)
+![](../images/codex-excalidraw-whiteboard-video/009.webp)
 
 从几期成片里截的场景画完时的样子：左右对比、三栏卡片、时间线、柱状对比、分账条、总结页
 
@@ -227,7 +227,7 @@ Whiteboard sticker illustration in Excalidraw hand-drawn style: thick, slightly 
 
 标题最多两行，每行不超过 8 个字。第一行说对象，第二行放钩子，钩子那行自动变品牌色，下面垫一道马克笔高亮。数字放在副标里，主角放一张贴纸或者 Logo。四周一圈手绘粗边框，角上有品牌标。
 
-![](../images/codex-excalidraw-whiteboard-video/010.jpg)
+![](../images/codex-excalidraw-whiteboard-video/010.webp)
 
 同一期的横版 4:3 和竖版 3:4，一次出两张
 
@@ -241,11 +241,11 @@ Whiteboard sticker illustration in Excalidraw hand-drawn style: thick, slightly 
 
 渲染是在浏览器里逐笔画、逐帧截图。一条边画完再画下一条，字一个一个写，字号越大写得越慢，两笔之间有抬笔的停顿，一支铅笔跟着笔尖走。
 
-![](../images/codex-excalidraw-whiteboard-video/011.jpg)
+![](../images/codex-excalidraw-whiteboard-video/011.webp)
 
 字是一个一个写出来的，铅笔跟着笔尖走
 
-![](../images/codex-excalidraw-whiteboard-video/012.jpg)
+![](../images/codex-excalidraw-whiteboard-video/012.webp)
 
 同一个画面，左边画到一半，右边画完
 
@@ -257,7 +257,7 @@ Whiteboard sticker illustration in Excalidraw hand-drawn style: thick, slightly 
 
 片尾是 5 秒多的品牌卡，手写账号名、一道绿线、slogan，下面一行点赞关注评论。右上角的手写水印在第一个场景开头跟着笔一起画进来。这些都是自动加的，不用每期操心。
 
-![](../images/codex-excalidraw-whiteboard-video/013.jpg)
+![](../images/codex-excalidraw-whiteboard-video/013.webp)
 
 每期自动追加的片尾品牌卡，5 秒多
 
@@ -273,7 +273,7 @@ Whiteboard sticker illustration in Excalidraw hand-drawn style: thick, slightly 
 
 一个工具好不好用，很大程度看改东西麻不麻烦。这套 Skill 我最满意的地方，是几乎所有"我不满意"都对应一个很小的改动。
 
-![](../images/codex-excalidraw-whiteboard-video/014.jpg)
+![](../images/codex-excalidraw-whiteboard-video/014.webp)
 
 常见的不满意，各对应一个很小的改动
 
@@ -292,7 +292,7 @@ Whiteboard sticker illustration in Excalidraw hand-drawn style: thick, slightly 
 
 最后一条看起来像工程洁癖，用起来很省心。一期的旁白、场景图、贴纸、字幕、封面、资料来源、发布稿全在 Obsidian 的一个文件夹里，打开就能看，场景图装了 Excalidraw 插件能直接改。成片这种大文件放在另一个后台目录，知识库里只留看得懂、改得动的东西。
 
-![](../images/codex-excalidraw-whiteboard-video/015.jpg)
+![](../images/codex-excalidraw-whiteboard-video/015.webp)
 
 左边是一期的文件夹，右边是在 Obsidian 里直接打开的场景图，能挪能改
 

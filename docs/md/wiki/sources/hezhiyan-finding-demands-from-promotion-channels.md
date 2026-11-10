@@ -27,19 +27,19 @@ coverImage: "../images/hezhiyan-finding-demands-from-promotion-channels/001.jpg"
 
 持续在投的广告可能就是 ROI 还不错的需求。
 
-![](../images/hezhiyan-finding-demands-from-promotion-channels/002.jpg)
+![](../images/hezhiyan-finding-demands-from-promotion-channels/002.webp)
 
 ## 通过外链找需求
 
 我们上新站，为了获取 SEO 的流量，外链是一个很重要的渠道，可能第一时间就会买一些自己认为高价值的外链。这个时候你就可以在一些高价值的外链平台去看最近提交上来的网站。你就会发现一些新词需求（比如新词 seedance 2 刚出来的时候，toolify 一页全是 seedance 2），或者各种方向的需求。我知道有的朋友是做了一些导航站或者 producthunt 这种网站产品的监控的。还有就是哥飞老师社群去年网站流量排行榜有个网站，就是用这种方式挖到的需求。
 
-![](../images/hezhiyan-finding-demands-from-promotion-channels/003.png)
+![](../images/hezhiyan-finding-demands-from-promotion-channels/003.webp)
 
 ## 通过 reddit 找需求
 
 大家常说 reddit 是金矿，有很多朋友会在上面推广产品，有时可以去刷一刷，看看别人分享的项目，或者推广的帖子，比如我在 sideproject 看到的这个项目 DistilBook ，第一个月就破千刀了
 
-![](../images/hezhiyan-finding-demands-from-promotion-channels/004.png)
+![](../images/hezhiyan-finding-demands-from-promotion-channels/004.webp)
 
 大家还可以根据自己常用的推广渠道，去挖掘一些
 

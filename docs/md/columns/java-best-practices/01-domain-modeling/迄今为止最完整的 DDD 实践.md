@@ -822,63 +822,63 @@ public class CoordinationRepositoryImpl implements CoordinationRepository {
 
 欢迎留言一起参与讨论~
 
-[img-0]:images/迄今为止最完整的-DDD-实践/p01.png
+[img-0]:images/迄今为止最完整的-DDD-实践/p01.webp
 
-[img-1]:images/迄今为止最完整的-DDD-实践/p02.png
+[img-1]:images/迄今为止最完整的-DDD-实践/p02.webp
 
-[img-2]:images/迄今为止最完整的-DDD-实践/p03.png
+[img-2]:images/迄今为止最完整的-DDD-实践/p03.webp
 
-[img-3]:images/迄今为止最完整的-DDD-实践/p04.png
+[img-3]:images/迄今为止最完整的-DDD-实践/p04.webp
 
-[img-4]:images/迄今为止最完整的-DDD-实践/p05.png
+[img-4]:images/迄今为止最完整的-DDD-实践/p05.webp
 
-[img-5]:images/迄今为止最完整的-DDD-实践/p06.png
+[img-5]:images/迄今为止最完整的-DDD-实践/p06.webp
 
-[img-6]:images/迄今为止最完整的-DDD-实践/p07.png
+[img-6]:images/迄今为止最完整的-DDD-实践/p07.webp
 
-[img-7]:images/迄今为止最完整的-DDD-实践/p08.png
+[img-7]:images/迄今为止最完整的-DDD-实践/p08.webp
 
-[img-8]:images/迄今为止最完整的-DDD-实践/p09.jpg
+[img-8]:images/迄今为止最完整的-DDD-实践/p09.webp
 
-[img-9]:images/迄今为止最完整的-DDD-实践/p10.jpg
+[img-9]:images/迄今为止最完整的-DDD-实践/p10.webp
 
-[img-10]:images/迄今为止最完整的-DDD-实践/p11.jpg
+[img-10]:images/迄今为止最完整的-DDD-实践/p11.webp
 
-[img-11]:images/迄今为止最完整的-DDD-实践/p12.jpg
+[img-11]:images/迄今为止最完整的-DDD-实践/p12.webp
 
-[img-12]:images/迄今为止最完整的-DDD-实践/p13.jpg
+[img-12]:images/迄今为止最完整的-DDD-实践/p13.webp
 
-[img-13]:images/迄今为止最完整的-DDD-实践/p14.jpg
+[img-13]:images/迄今为止最完整的-DDD-实践/p14.webp
 
-[img-14]:images/迄今为止最完整的-DDD-实践/p15.jpg
+[img-14]:images/迄今为止最完整的-DDD-实践/p15.webp
 
-[img-15]:images/迄今为止最完整的-DDD-实践/p16.jpg
+[img-15]:images/迄今为止最完整的-DDD-实践/p16.webp
 
-[img-16]:images/迄今为止最完整的-DDD-实践/p17.png
+[img-16]:images/迄今为止最完整的-DDD-实践/p17.webp
 
-[img-17]:images/迄今为止最完整的-DDD-实践/p18.png
+[img-17]:images/迄今为止最完整的-DDD-实践/p18.webp
 
-[img-18]:images/迄今为止最完整的-DDD-实践/p19.png
+[img-18]:images/迄今为止最完整的-DDD-实践/p19.webp
 
-[img-19]:images/迄今为止最完整的-DDD-实践/p20.png
+[img-19]:images/迄今为止最完整的-DDD-实践/p20.webp
 
-[img-20]:images/迄今为止最完整的-DDD-实践/p21.png
+[img-20]:images/迄今为止最完整的-DDD-实践/p21.webp
 
-[img-21]:images/迄今为止最完整的-DDD-实践/p22.png
+[img-21]:images/迄今为止最完整的-DDD-实践/p22.webp
 
-[img-22]:images/迄今为止最完整的-DDD-实践/p23.png
+[img-22]:images/迄今为止最完整的-DDD-实践/p23.webp
 
-[img-23]:images/迄今为止最完整的-DDD-实践/p24.png
+[img-23]:images/迄今为止最完整的-DDD-实践/p24.webp
 
-[img-24]:images/迄今为止最完整的-DDD-实践/p25.png
+[img-24]:images/迄今为止最完整的-DDD-实践/p25.webp
 
-[img-25]:images/迄今为止最完整的-DDD-实践/p26.png
+[img-25]:images/迄今为止最完整的-DDD-实践/p26.webp
 
-[img-26]:images/迄今为止最完整的-DDD-实践/p27.png
+[img-26]:images/迄今为止最完整的-DDD-实践/p27.webp
 
-[img-27]:images/迄今为止最完整的-DDD-实践/p28.png
+[img-27]:images/迄今为止最完整的-DDD-实践/p28.webp
 
-[img-28]:images/迄今为止最完整的-DDD-实践/p29.png
+[img-28]:images/迄今为止最完整的-DDD-实践/p29.webp
 
 [img-29]:images/迄今为止最完整的-DDD-实践/p30.gif
 

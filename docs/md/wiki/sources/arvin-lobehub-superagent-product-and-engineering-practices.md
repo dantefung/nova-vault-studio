@@ -31,19 +31,19 @@ coverImage: "../images/arvin-lobehub-superagent-product-and-engineering-practice
 
 第一件，人有地方看了。 一件事如果只活在聊天记录里，人是没法判断它走到哪一步的。Task 有形态，有形态才有「展示」可言——不然你只能对着一条滚动条猜它到底干完没有。这其实是我最初的初衷，也是能带来直接的用户体验提升的地方。
 
-![](../images/arvin-lobehub-superagent-product-and-engineering-practices/002.jpg)
+![](../images/arvin-lobehub-superagent-product-and-engineering-practices/002.webp)
 
 第二件，上下文有了边界。这是我用了几个月之后意识到的。 Agent 最难受的从来不是没能力，是被塞进一段无限长的对话里，什么都得记着，什么都得接着。Task 给了它一个可以切出去的落点：这件事归这件事，那件事归那件事。
 
 每个 task 都可以有一个独立的 agent，独立的 model、独立的环境，以及独属于这个 task 的 session 序列，这使得一件事的长期演进真正成为了可能。
 
-![我们的 agent vent 定时汇报](../images/arvin-lobehub-superagent-product-and-engineering-practices/003.jpg)
+![我们的 agent vent 定时汇报](../images/arvin-lobehub-superagent-product-and-engineering-practices/003.webp)
 
 第三件，触发信号这件事有了落点。 既然 Task 是一张独立的单子，「什么时候触发它」就变成一个可以单独拎出来设计的问题：可以由用户触发，也可以由 agent 自己触发，也可以由定时任务触发。这几条路一通，定时任务就不只是「到点跑一遍脚本」了——它可以去迭代这张工单本身，今天跑出什么、明天怎么改，慢慢地就有了一点自演进的味道。
 
 我在 9 月 9 日创建的后端接口 P95 日报，在一个多月的迭代后，Agent 自行将口径迭代到了 v13 版本，中间我没有做过任何一次干预。
 
-![](../images/arvin-lobehub-superagent-product-and-engineering-practices/004.jpg)
+![](../images/arvin-lobehub-superagent-product-and-engineering-practices/004.webp)
 
 这三条听起来好像没啥太大的相关性，但其实它们在回答同一个问题： 一个 Agent 和一次执行，多个 agent 和多次执行之间，应该需要什么样的组织关系。
 
@@ -61,7 +61,7 @@ coverImage: "../images/arvin-lobehub-superagent-product-and-engineering-practice
 
 所以这里能做的事，其实比想象的多很多，我们分成了三层 —— 直接叫、关键词与主动判断。
 
-![](../images/arvin-lobehub-superagent-product-and-engineering-practices/005.jpg)
+![](../images/arvin-lobehub-superagent-product-and-engineering-practices/005.webp)
 
 ## 三、唤醒是一套策略工程
 
@@ -75,11 +75,11 @@ coverImage: "../images/arvin-lobehub-superagent-product-and-engineering-practice
 
 那怎么办？我们给每个 bot 提供了一个自己的职责栏位。有了这层之后，讨论产品的时候，主管 agent NASA 会介入，答疑，或者干脆直接把需求记下来；讨论到需求或者设计形态，设计 agent 才会唤出来，去呈现相应的设计方案。而这种朴素设计思想的效果出乎意料地 work。
 
-![NASA 的职责边界](../images/arvin-lobehub-superagent-product-and-engineering-practices/006.jpg)
+![NASA 的职责边界](../images/arvin-lobehub-superagent-product-and-engineering-practices/006.webp)
 
 第二，我后来发现，在有些我期待 nasa 唤醒的场景下，nasa 并没有唤醒。但如果此时唤醒的话，体验上应该会有惊喜感。
 
-![这里如果唤醒的话，体验上应该会有惊喜感](../images/arvin-lobehub-superagent-product-and-engineering-practices/007.jpg)
+![这里如果唤醒的话，体验上应该会有惊喜感](../images/arvin-lobehub-superagent-product-and-engineering-practices/007.webp)
 
 通过回测才发现，我期待它唤醒的场景下往往不属于它的职责。duty 问的是「是不是职责范围内的事」，不是「插话有没有价值」，上一条截图中的职责匹配得分是 0.61，没过 0.65 的唤醒线。而另外有人问 Nasa 刚发的链接为什么还带着 sign in 的 meta，它职责分只有 0.27。前者是它有机会查清楚的问题，后者更是它自己的回复相关的问题。只问「属不属于职责」，很容易把这种值得接的话放过去。
 
@@ -97,7 +97,7 @@ coverImage: "../images/arvin-lobehub-superagent-product-and-engineering-practice
 
 在实现的思路上，其实大家会很类似，都是两阶段，先有一段前置判断，然后再是 agent 执行。一般前一段用一个分类器快速判别一下，这条消息要不要惊动谁；但其实后面那段也需要考虑 —— agent 被唤醒之后，它自己要决定是不是该停下来，或者干脆不响应。
 
-![](../images/arvin-lobehub-superagent-product-and-engineering-practices/008.jpg)
+![](../images/arvin-lobehub-superagent-product-and-engineering-practices/008.webp)
 
 有了这样一套机制，后面的流程才谈得上。因为唤醒是一个叫醒的动作，而叫醒之后要不要开口，才是更智能的。为什么 bot 在被唤醒后，不能是「看了一眼，觉得没自己什么事，然后继续睡」？
 
@@ -107,7 +107,7 @@ coverImage: "../images/arvin-lobehub-superagent-product-and-engineering-practice
 
 我在之前的[《需要自进化的不是 Agent，而是 Harness》](https://x.com/arvin17x/status/2059489592097849698) 里提过，tracing 是进化的原材料，所以这里就有了核心的 4 步。
 
-![](../images/arvin-lobehub-superagent-product-and-engineering-practices/009.jpg)
+![](../images/arvin-lobehub-superagent-product-and-engineering-practices/009.webp)
 
 第一件事，记录完整的原始场景。 只有留了现场，用户才能观测、才能理解这个 bot 到底该怎么调整和优化——它是没醒对，还是醒了但说错了？这两种问题要改的地方完全不一样。没有现场，反馈就只剩情绪，而「它好烦」这种话你没法据此改任何东西。
 

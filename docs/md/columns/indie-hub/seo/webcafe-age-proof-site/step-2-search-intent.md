@@ -7,7 +7,7 @@ url: "https://new.web.cafe/tutorial/detail/nY9qmCNyWJq3w37DNVKHfW"
 ---
 # 养网站防老第 2 步：分析搜索意图
 
-![image.png](images/gefei-age-proof-site-step-2-search-intent/img_002.png) 大家好，我是哥飞。
+![image.png](images/gefei-age-proof-site-step-2-search-intent/img_002.webp) 大家好，我是哥飞。
 
 前几天哥飞提出了一个新概念，养网站来防老《[养网站防老：网站可以做成一生的事业](https://mp.weixin.qq.com/s/URcdE3VaoYoAx0cOcll8_g)》，这篇文章很受大家欢迎，到现在已经一万八千阅读了。
 
@@ -31,11 +31,11 @@ url: "https://new.web.cafe/tutorial/detail/nY9qmCNyWJq3w37DNVKHfW"
 
 下面是鼠标光标放在最后面的词：
 
-![image.png](images/gefei-age-proof-site-step-2-search-intent/img_003.png) 下面是鼠标光标放在 number 后后面的词：
+![image.png](images/gefei-age-proof-site-step-2-search-intent/img_003.webp) 下面是鼠标光标放在 number 后后面的词：
 
-![image.png](images/gefei-age-proof-site-step-2-search-intent/img_004.png) 下面是鼠标光标放在 phone 后面的词：
+![image.png](images/gefei-age-proof-site-step-2-search-intent/img_004.webp) 下面是鼠标光标放在 phone 后面的词：
 
-![image.png](images/gefei-age-proof-site-step-2-search-intent/img_005.png) 下面是鼠标光标放在最前面的词： ![image.png](images/gefei-age-proof-site-step-2-search-intent/img_006.png)
+![image.png](images/gefei-age-proof-site-step-2-search-intent/img_005.webp) 下面是鼠标光标放在最前面的词： ![image.png](images/gefei-age-proof-site-step-2-search-intent/img_006.webp)
 
 把以上 40 个搜索推荐词都拿出来，去除重复项，得到了 27 个关键词：
 
@@ -76,7 +76,7 @@ url: "https://new.web.cafe/tutorial/detail/nY9qmCNyWJq3w37DNVKHfW"
 本来要给大家演示用 ChatGPT 的 GPT4 分析搜索意图的，但是就在哥飞写文章的时候才发现，ChatGPT Plus 到期了，一查才知道，我之前在后台设置了多张虚拟信用卡，但是忘记把目前正在使用且有余额的那一张设置为默认卡片，导致 Stripe 扣款失败了，也就是暂时没办法用 GPT4 了，所以先给大家用 GPT3.5 演示。
 
 提示词如下：
-![image.png](images/gefei-age-proof-site-step-2-search-intent/img_007.png)
+![image.png](images/gefei-age-proof-site-step-2-search-intent/img_007.webp)
 
 GPT3.5 回答结果如下：
 
@@ -102,7 +102,7 @@ GPT3.5 的回答如下：
 
 好了，今天的文章就到这里了。
 
-![](images/gefei-age-proof-site-step-2-search-intent/img_008.jpg)
+![](images/gefei-age-proof-site-step-2-search-intent/img_008.webp)
 
 添加图片添加隐藏回复
 

@@ -21,11 +21,11 @@ url: "https://x.com/HiTw93/status/2048230976447557787"
 
 不写代码的同学习惯了豆包这类对话框 AI，第一次装 Claude Code 都会有点不适应。以前是个来回搬运的过程，你描述需求、它生成代码、你复制粘贴到别处去试，现在变成Claude Code 直接在终端运行，搬运这一步省掉了。
 
-![](images/hi93-ai-coding-non-tech/001.png)
+![](images/hi93-ai-coding-non-tech/001.webp)
 
 如果你没用过终端，推荐我做的 [Kaku](https://github.com/tw93/Kaku)，它是专门为 AI Coding 做的终端，装好就能用，不用折腾配色和字体。深色浅色跟着系统走，分屏按 Cmd + D，文件管理器按 Cmd + Shift + Y 直接显示出来。对刚上手的人最友好的是内置了 AI 辅助：命令跑报错了会自动给修复建议，记不住命令在前面加个 # 写中文也能生成。
 
-![](images/hi93-ai-coding-non-tech/002.png)
+![](images/hi93-ai-coding-non-tech/002.webp)
 
 安装 Claude Code 也只需一条命令，详见 [官方文档](https://code.claude.com/docs/en/overview)，然后进项目文件夹输入 claude 就能开始 Coding 了。
 
@@ -53,7 +53,7 @@ url: "https://x.com/HiTw93/status/2048230976447557787"
 
 最简单的方式是走美区 App Store 内购，Android 走 Google Play 也行，进 Claude App 选 Pro 用余额订阅就行，注意走 App Store 有税费，100档会显示成125，多 25 买一个安心，不过很建议先 Pro 起步，配额不够再升 Max。订阅状态跟账号走，iOS 订完之后在 Android 或网页登录都正常用。
 
-![](images/hi93-ai-coding-non-tech/003.png)
+![](images/hi93-ai-coding-non-tech/003.webp)
 
 账号没了所有事都得重来，甚至还有可能持续被封，订前几件事注意一下。网络环境用稳定低延迟的别天天换，账号一号一人别合租也别和别人共用，付款方式选靠谱的实体卡，虚拟卡尤其是币圈渠道充值的容易秒封。邮箱用老 Gmail 别用新注册的 Outlook，出口尽量保持干净别让其他乱七八糟的 App 流量都从同一个口子出去。
 
@@ -63,7 +63,7 @@ url: "https://x.com/HiTw93/status/2048230976447557787"
 
 它最不一样的地方是模型能力本身就很不错，加上Claude Code自己的代码实现也把 Harness 这一套玩到了极致，使用时候它先扫一遍 [CLAUDE.md](http://claude.md/) 和目录结构摸清楚上下文，然后跨文件改代码、跑命令、看报错、再改，自己全部完成。再加上它本来就活在终端里，git、测试、脚本这些你日常用的工具它都能直接调起来，不用来回复制粘贴。
 
-![](images/hi93-ai-coding-non-tech/004.png)
+![](images/hi93-ai-coding-non-tech/004.webp)
 
 Claude Code 实际更像个通用 Agent，叫 Code 只是因为最初定位偏写代码。Anthropic 自己分享过他们内部不少非工程团队比如销售、风控、财务都在拿它干活，处理 CRM 数据和客户邮件。如果你实在不想碰终端，可以用官方出的桌面应用 Cowork，能直接读写你的下载和文档目录，把收据截图拼成报销表这种活，你说一句话它也能给你干好。
 
@@ -71,7 +71,7 @@ Claude Code 实际更像个通用 Agent，叫 Code 只是因为最初定位偏�
 
 要让它准，前提是你给到的活本身就目标清楚、结果好验收，两个都满足的最适合交给它，好比你把活交给了一个非常直男但是技术非常厉害的程序员。
 
-![](images/hi93-ai-coding-non-tech/005.png)
+![](images/hi93-ai-coding-non-tech/005.webp)
 
 具体就这几类活：做原型和内部小工具，把需求和展示逻辑说清楚，第二天就能跑起来一版；处理 CSV、做销售报表，分组和计算逻辑写明白几分钟出结果；几十页合同提炼条款、对比版本差异这种文档活它最擅长；最后是给一堆链接或 PDF 让它从特定视角提炼信息，说清格式就行。
 
@@ -81,13 +81,13 @@ Claude Code 实际更像个通用 Agent，叫 Code 只是因为最初定位偏�
 
 他给自己做过整理链接的 Stash，给孩子准备便当的 LunchBox Buddy。对你来说，可能是把语音批注转成会议纪要的工具，或者是每天提醒你三件事的小仪表盘。这种东西反而是产品和业务的同学最容易做成，毕竟只有你最懂自己每天的麻烦在哪。
 
-![](images/hi93-ai-coding-non-tech/006.png)
+![](images/hi93-ai-coding-non-tech/006.webp)
 
 # 一天到三个月的节奏
 
 别一上来就想做个“像 Notion 那样的产品”，可以按下面这个节奏来，每一段都有摸得到的产出：
 
-![](images/hi93-ai-coding-non-tech/007.png)
+![](images/hi93-ai-coding-non-tech/007.webp)
 
 第 1 天先试水，让它改一个你手头现成的 Excel 或 Markdown 文档；第 1 周尝鲜，做一个单页个人主页或日报大盘 15 分钟就能跑起来；第 1 个月提效，挑一件每周重复做两三次的事变成一条命令或一个页面；第 3 个月进阶，选一个"software for one"的想法做一个只给自己用的小工具。
 
@@ -105,13 +105,13 @@ Claude Code 实际更像个通用 Agent，叫 Code 只是因为最初定位偏�
 
 Claude Code 还有个 Routines 功能，能把一段工作流存到云端，按定时、Webhook 或 GitHub 事件自动触发。我自己还没怎么深用，概念上像「周一早上自动跑一遍周报流程」这种事它能接管，感兴趣可以看[官方文档](https://code.claude.com/docs/en/routines)。
 
-![](images/hi93-ai-coding-non-tech/008.png)
+![](images/hi93-ai-coding-non-tech/008.webp)
 
 # CLAUDE.md：先把项目背景写清楚
 
 很多人装好之后直接开问，结果每次都要重复交代背景，用一会就觉得很烦。原因几乎都一样：没建 CLAUDE.md。
 
-![](images/hi93-ai-coding-non-tech/009.png)
+![](images/hi93-ai-coding-non-tech/009.webp)
 
 它放在项目根目录，Claude Code 每次启动都会先读它，相当于你给新来的同事写的项目交接文档，区别是它每次都会从头认真读一遍而且严格执行。
 
@@ -155,7 +155,7 @@ Claude Code 还有个 Routines 功能，能把一段工作流存到云端，按�
 模糊版：帮我做一个客户跟进工具。
 精确版：帮我做个销售用的跟进工具，单文件网页存本地。左边列表显示公司名、下次跟进时间、状态，右边详情包括沟通记录、日期、要点。顶部加三个筛选：状态、时间、关键词。数据存浏览器 localStorage，不调后端。
 
-![](images/hi93-ai-coding-non-tech/010.png)
+![](images/hi93-ai-coding-non-tech/010.webp)
 
 精确版当天就能跑出能用的版本，模糊版多半要返工。
 
@@ -200,11 +200,11 @@ Claude Code 还有个 Routines 功能，能把一段工作流存到云端，按�
 
 这种描述，Claude Code 几乎不用猜，直接产出一个能装的 macOS 应用。每一条都是在防它猜错一个具体的点：
 
-![](images/hi93-ai-coding-non-tech/011.png)
+![](images/hi93-ai-coding-non-tech/011.webp)
 
 你不需要会写 Swift，但需要把需求写得这么细。这份需求里每一条背后，都是 yetone 自己踩过的坑或者预想到的坑。每多一条具体细节，就少一次返工。
 
-![](images/hi93-ai-coding-non-tech/012.png)
+![](images/hi93-ai-coding-non-tech/012.webp)
 
 业务场景的需求，光描述功能还不够。开头先把问题写清楚，要解决什么、给谁用、怎么算做对了，别一上来就列功能清单。比如说我们要写一个国际门票频道页时第一句话就是"国际门票目前没有独立入口，用户只能搜索找到，非热门城市曝光极低"，这两句话决定了它后面碰到"热门城市展示几个""筛选要不要做'最近浏览'"这类问题时的判断方向。
 
@@ -220,7 +220,7 @@ Claude Code 还有个 Routines 功能，能把一段工作流存到云端，按�
 
 从那以后，复杂一点的任务我都会先按两次 Shift+Tab 切到 Plan 模式。它会先把打算怎么做列出来，方向对了你再让它执行。其实就跟工作场景一样：你不会直接让小李把功能做掉，先拉个会过下方案，觉得 OK 了再动手。
 
-![](images/hi93-ai-coding-non-tech/013.png)
+![](images/hi93-ai-coding-non-tech/013.webp)
 
 Plan 模式产出的计划大概长这样：要改哪几个文件、每个文件改什么、改的理由是什么、预计会影响哪些地方。用业务逻辑来判断这个方向对不对，比判断代码本身容易得多。哪怕你看不懂代码，也能从"这一步要不要做、那一处理由对不对"把关。
 
@@ -230,7 +230,7 @@ Plan 模式产出的计划大概长这样：要改哪几个文件、每个文件
 
 它跟你说"搞定了"其实没用，关键是你怎么验收，因为它也会用最省事的方式交差。
 
-![](images/hi93-ai-coding-non-tech/014.png)
+![](images/hi93-ai-coding-non-tech/014.webp)
 
 ## 改坏了怎么救回来
 
@@ -244,7 +244,7 @@ Git 快照，每次大改前让它先跑一遍 git status 看清楚都有什么�
 
 有个坑很容易踩：陷入改了试试的循环，4-5 轮下来本来不大的问题变成一团乱麻。原因就一个，没诊断清楚就开始打补丁。
 
-![](images/hi93-ai-coding-non-tech/015.png)
+![](images/hi93-ai-coding-non-tech/015.webp)
 
 避免方法也一句话：根因没说清楚之前先别动代码。让它先答"问题出在哪个文件的哪一行，为什么会这样"，答含糊继续查，答清楚再改。一上来说"我试试改 X 看行不行"的，直接喊停让它先答根因。
 
@@ -271,7 +271,7 @@ alias c='CLAUDE_CODE_AUTO_COMPACT_WINDOW=400000 claude --dangerously-skip-permis
 
 Claude Code 的工作台是固定大小，跑久了早期内容会被挤出去。
 
-![](images/hi93-ai-coding-non-tech/016.png)
+![](images/hi93-ai-coding-non-tech/016.webp)
 
 任务做完就 /clear，一个会话只做一件事，做完清掉再开下一件，两件不相干的事在同一个上下文里来回切，它会越做越乱。
 
@@ -281,7 +281,7 @@ Claude Code 的工作台是固定大小，跑久了早期内容会被挤出去�
 
 AI 可以让明确敲代码的活做得很快，但事情本身要做成什么样子其实需要你自己来定。我最近折腾了一套叫 [Waza](https://github.com/tw93/Waza) 的 Skill，一共8 个技能对应一个好工程师该有的 8 个习惯。
 
-![](images/hi93-ai-coding-non-tech/017.png)
+![](images/hi93-ai-coding-non-tech/017.webp)
 
 /think 是动手前先想一下技术方案，AI 写代码很快，但方向错了越快越远，先质疑问题本身、把方案上都思考好后，再让它跑。
 
@@ -299,7 +299,7 @@ AI 可以让明确敲代码的活做得很快，但事情本身要做成什么�
 
 Skill 本质就是一个文件夹，放在 .claude/skills/ 目录下，里面有个 SKILL.md 写清楚什么时候用、要做什么。Claude Code 启动时只读 frontmatter，也就是描述触发条件的约 100 个字，真正调用时才加载完整内容，所以你装几十个 Skill 启动也不会变慢。
 
-![](images/hi93-ai-coding-non-tech/018.png)
+![](images/hi93-ai-coding-non-tech/018.webp)
 
 第一种是工作流型：把每次都要做的固定步骤打包。比如整理周会纪要：
 
@@ -377,7 +377,7 @@ description 写触发条件，不写功能介绍，"开完会有原始记录需�
 
 它有 8 套模板：一页纸、作品集、幻灯片、Resume、长文档、信件、研报、Changelog。风格统一，暖底色、墨蓝色点缀、衬线字体为主。中文用苍耳今楷，英文用 Charter，不需要自己调字体。
 
-![](images/hi93-ai-coding-non-tech/019.png)
+![](images/hi93-ai-coding-non-tech/019.webp)
 
 最实用的几个场景：会议纪要排成简报、项目进展排成一页纸给老板。以前这些活得开 Word 或 Figma 折腾半天，现在把内容丢进去，先出一版能看的稿子，再微调。
 
@@ -385,7 +385,7 @@ description 写触发条件，不写功能介绍，"开完会有原始记录需�
 
 2026 年 4 月推出的 [Claude Design](https://claude.ai/design) 是另一条路：你上传截图或文档，它直接给你个能交互的原型、幻灯片或落地页，对想快速做原型的非技术同学挺好用。
 
-![](images/hi93-ai-coding-non-tech/020.png)
+![](images/hi93-ai-coding-non-tech/020.webp)
 
 还不想碰代码的话，用它先出个能展示的想法准没错。产品经理可以用它画原型开评审，过了直接把原型扔给 Claude Code 变代码。早期原型不用等完整设计和研发排期，当天就能拿出来讨论。
 
@@ -403,7 +403,7 @@ Memory 跨项目记住你的偏好，CLAUDE.md 是项目级的每个项目都得
 
 # 几个安全考虑点需要注意的
 
-![](images/hi93-ai-coding-non-tech/021.png)
+![](images/hi93-ai-coding-non-tech/021.webp)
 
 让它先解释再动手，在 CLAUDE.md 里加一条："每次执行 Bash 命令或修改文件前，先用一句话解释要做什么。" 它就会在每步操作前先告诉你它打算干嘛，看不懂代码没关系，看得懂"我要删掉这个文件"就够了。
 

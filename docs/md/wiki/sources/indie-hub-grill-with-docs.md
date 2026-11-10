@@ -66,22 +66,22 @@ url: "https://mp.weixin.qq.com/s/Yia6XDvAkw8ygjRXFmPmgg"
 
 ## 配图
 
-![image](../images/indie-hub-grill-with-docs/001.png)
+![image](../images/indie-hub-grill-with-docs/001.webp)
 
 *grill-with-docs 文章信息图*
 
-![image](../images/indie-hub-grill-with-docs/002.png)
+![image](../images/indie-hub-grill-with-docs/002.webp)
 
 *两个原语 + 三个入口的组合关系*
 
-![image](../images/indie-hub-grill-with-docs/003.png)
+![image](../images/indie-hub-grill-with-docs/003.webp)
 
 *四类共识产物分流判断*
 
-![image](../images/indie-hub-grill-with-docs/004.png)
+![image](../images/indie-hub-grill-with-docs/004.webp)
 
 *电商术语混乱案例的完整沉淀流程*
 
-![image](../images/indie-hub-grill-with-docs/005.png)
+![image](../images/indie-hub-grill-with-docs/005.webp)
 
 *4个最常见的文档化反模式*

@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "数字生命卡兹克 (@Khazix0918)"
 url: "https://x.com/Khazix0918/status/2114343004471460341"
-coverImage: "../images/khazix-miniature-agent-automation-pipeline/001.jpg"
+coverImage: "../images/khazix-miniature-agent-automation-pipeline/001.webp"
 ---
 
 # 数字生命卡兹克（@Khazix0918）：5 天打造微缩景观 Agent 自动化流水线——戴森球计划灵感与多模型工程协同
@@ -31,7 +31,7 @@ coverImage: "../images/khazix-miniature-agent-automation-pipeline/001.jpg"
 
 对于所有想玩转 Agent 的朋友，相信我，把一切能自动化的都自动化，一定是你能感受到的最棒的事。
 
-![video](../images/khazix-miniature-agent-automation-pipeline/001.jpg)
+![video](../images/khazix-miniature-agent-automation-pipeline/001.webp)
 
 [video](https://video.twimg.com/amplify_video/2114342866453741568/vid/avc1/1920x1080/XljOCAK_7wz2qujY.mp4?tag=29)
 

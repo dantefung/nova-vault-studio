@@ -68,7 +68,7 @@ Similarweb可以用来查看网站流量、流量来源渠道、流量地域分�
 
 举例在谷歌搜索“pdf”，排名第一的是adobe官网，第二就是 ilovepdf.com ，那么就可以打开 Similarweb 查看流量。
 
-![image.png](images/getting-started-site-from-research-to-build/img_003.png)
+![image.png](images/getting-started-site-from-research-to-build/img_003.webp)
 
 这里访问量单位M表示100万，8.8M是880万，138.8M就是一亿三千八百八十万。
 
@@ -80,17 +80,17 @@ Similarweb可以用来查看网站流量、流量来源渠道、流量地域分�
 
 每次访问页数和访问时长也说明了这个工具站是能够满足用户需求的。
 
-![6731c5e03824b4f56ff612dcade0b260.jpg](images/getting-started-site-from-research-to-build/img_004.jpg)
+![6731c5e03824b4f56ff612dcade0b260.jpg](images/getting-started-site-from-research-to-build/img_004.webp)
 
 看上图，流量还是很分散的，各个国家都有。不过有些国家看起来是空白，大家可以去研究一下。
 
 还可以看到很多类似网站，每一个网站的流量数据都展示出来了，我们可以点进每一个网站去看具体的数据。
 
-![2b74f5b8faf3e8c61616d46f3a49a0d7.jpg](images/getting-started-site-from-research-to-build/img_005.jpg)
+![2b74f5b8faf3e8c61616d46f3a49a0d7.jpg](images/getting-started-site-from-research-to-build/img_005.webp)
 
 所以相当于，你只需要在谷歌找到一个网站，就能够顺藤摸瓜，找到很多网站。
 
-![image.png](images/getting-started-site-from-research-to-build/img_006.png)
+![image.png](images/getting-started-site-from-research-to-build/img_006.webp)
 
 64.6%流量来自于搜索引擎，那就说明这个网站SEO真的做得好很好。
 
@@ -102,15 +102,15 @@ Similarweb可以用来查看网站流量、流量来源渠道、流量地域分�
 
 又再次印证了我们之前说的，这个网站用户体验做得好，能够满足用户需求。
 
-![2e5b75badb8a8aa2334a2de9578a5d39.jpg](images/getting-started-site-from-research-to-build/img_007.jpg)
+![2e5b75badb8a8aa2334a2de9578a5d39.jpg](images/getting-started-site-from-research-to-build/img_007.webp)
 
 这里可以看到用户都是搜索哪些关键词进来的，可以看到品牌词就有 850万，也说明这个品牌深入人心了。
 
-![d5633041604b8df9bd346355dc08101e.jpg](images/getting-started-site-from-research-to-build/img_008.jpg)
+![d5633041604b8df9bd346355dc08101e.jpg](images/getting-started-site-from-research-to-build/img_008.webp)
 
-![a7c494fbca6d640f6ffe565d68319ddd.jpg](images/getting-started-site-from-research-to-build/img_009.jpg)
+![a7c494fbca6d640f6ffe565d68319ddd.jpg](images/getting-started-site-from-research-to-build/img_009.webp)
 
-![d81baf5c3765fe7763c5a6a2629baf58.jpg](images/getting-started-site-from-research-to-build/img_010.jpg)
+![d81baf5c3765fe7763c5a6a2629baf58.jpg](images/getting-started-site-from-research-to-build/img_010.webp)
 
 如 [https://presearch.com/](https://presearch.com/) ，打开就发现，每个月有 890万访问量，也很大了。看介绍，这是一个去中心化的搜索引擎，哥飞也是第一次知道这个网站。那么对于一个新网站，我们就可以按照研究 ilovepdf.com 一样，再去研究一下，说不定又会有新发现。
 
@@ -124,7 +124,7 @@ Similarweb 就先给大家介绍这么多了，以上这些功能，甚至都不
 
 网址：[https://zh.semrush.com/projects/](https://zh.semrush.com/projects/)
 
-![c0be1358c7deba3b99243457006d7536.jpg](images/getting-started-site-from-research-to-build/img_011.jpg)
+![c0be1358c7deba3b99243457006d7536.jpg](images/getting-started-site-from-research-to-build/img_011.webp)
 
 使用方式很简单，依然是把域名输入进去，提交搜索后就能看到结果页面。
 
@@ -132,25 +132,25 @@ Similarweb 就先给大家介绍这么多了，以上这些功能，甚至都不
 
 我们点击上面的114.3M，就能看到这个站在各个国家的搜索关键字流量来源。
 
-![92f1513b6d0f1f465abd1391faee21c8.jpg](images/getting-started-site-from-research-to-build/img_012.jpg)
+![92f1513b6d0f1f465abd1391faee21c8.jpg](images/getting-started-site-from-research-to-build/img_012.webp)
 
 注意看KD那一列，代表的就是这个词在这个国家的优化竞争度，数字越高竞争度越高，我们几乎无法竞争过去。
 
 免费版本无法按照KD难度筛选关键字，如果是VIP账号的话，我们可以筛选KD值60 以下的词，按照搜索量从高到低排序，就有可能能够挖掘到一些有一定搜索量，但是竞争难度不高的词。
 
-![3a947c5352a333b8df222ade2cefe6a6.jpg](images/getting-started-site-from-research-to-build/img_013.jpg)
+![3a947c5352a333b8df222ade2cefe6a6.jpg](images/getting-started-site-from-research-to-build/img_013.webp)
 
 每个关键字都点击打开新页面，可以看到这个关键字的搜索量，优化竞争度，排名前几的结果。
 
 类似于 seword 这种别人品牌词的，直接略过，不建议继续去看。
 
-![d5fe44c0a721b54e1cd519468846f7c9.jpg](images/getting-started-site-from-research-to-build/img_014.jpg)
+![d5fe44c0a721b54e1cd519468846f7c9.jpg](images/getting-started-site-from-research-to-build/img_014.webp)
 
 哥飞去找了一下，发现一个词“poxer”，竞争难度很低，下面的搜索结果也都是内页。
 
 那么如果我们注册一个相关域名，举全站之力去优化这个词，很容易就能够上谷歌首页。
 
-![e51fb852c00cf4e8bcb66864074c1409.jpg](images/getting-started-site-from-research-to-build/img_015.jpg)
+![e51fb852c00cf4e8bcb66864074c1409.jpg](images/getting-started-site-from-research-to-build/img_015.webp)
 
 注意，“monkey pox”表示“猴痘”，“pox”表示“痘”，所以“poxer”有可能用户想了解的是患了“痘”的人相关信息。
 
@@ -164,9 +164,9 @@ Semrush 功能很多，很强大，我们今天就只介绍以上看域名和看
 
 网址：[https://trends.google.com/trends/](https://trends.google.com/trends/)
 
-![ab7faf8e899570f7e64fce6e219caa83.jpg](images/getting-started-site-from-research-to-build/img_016.jpg)
+![ab7faf8e899570f7e64fce6e219caa83.jpg](images/getting-started-site-from-research-to-build/img_016.webp)
 
-![326f358e0bde7193d53bedea88339760.jpg](images/getting-started-site-from-research-to-build/img_017.jpg)
+![326f358e0bde7193d53bedea88339760.jpg](images/getting-started-site-from-research-to-build/img_017.webp)
 
 从上面两个词对比就可以看出来，有些词的搜索量是有周期性的，如母亲节，只在每年的母亲节前后搜索量高，之后全年都很低。但是“poxer”则一年都很平稳。
 
@@ -178,19 +178,19 @@ ahrefs 功能也很强大，很多功能，我们今天只介绍免登录就可�
 
 输入要查询的词，选择要查询的国家，点击check按钮，就可以查询了。
 
-![458a43359cbc4951d7a2d7da416e3542.jpg](images/getting-started-site-from-research-to-build/img_018.jpg)
+![458a43359cbc4951d7a2d7da416e3542.jpg](images/getting-started-site-from-research-to-build/img_018.webp)
 
 在这个结果页面，我们主要关注难度和外链数据。从页面可以看到，竞争难度95，需要1391个外链网站才有可能能排上谷歌美国搜索的前10。
 
 通常，如果所需要的外链网站数量小于 100，我们都可以去尝试一下。
 
-![eed29215633f88a83bf9504f589a0ec7.jpg](images/getting-started-site-from-research-to-build/img_019.jpg)
+![eed29215633f88a83bf9504f589a0ec7.jpg](images/getting-started-site-from-research-to-build/img_019.webp)
 
 刚才我们在Similarweb查看 ilovepdf 的流量也发现，在美国几乎没流量，从上图的搜索结果列表也可以看出来，ilovepdf就没有上榜。
 
 在前10可以看到 [https://www.freepdfconvert.com/，大家可以当作作业，去分析一下这个站。](https://www.freepdfconvert.com/%EF%BC%8C%E5%A4%A7%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%BD%93%E4%BD%9C%E4%BD%9C%E4%B8%9A%EF%BC%8C%E5%8E%BB%E5%88%86%E6%9E%90%E4%B8%80%E4%B8%8B%E8%BF%99%E4%B8%AA%E7%AB%99%E3%80%82)
 
-![fe3ed8fd1c7cc28d8917c297ed0b776d.jpg](images/getting-started-site-from-research-to-build/img_020.jpg)
+![fe3ed8fd1c7cc28d8917c297ed0b776d.jpg](images/getting-started-site-from-research-to-build/img_020.webp)
 
 以“poxer”为例，查询结果显示难度为0，也就是说这是一个没人关注的小词新词，所以很容易就能优化上去。
 
@@ -206,17 +206,17 @@ ahrefs 功能也很强大，很多功能，我们今天只介绍免登录就可�
 
 [https://www.reddit.com/r/juststart/comments/mcaodn/how\_i\_built\_a\_site\_for\_less\_than\_2000\_which\_now/](https://www.reddit.com/r/juststart/comments/mcaodn/how_i_built_a_site_for_less_than_2000_which_now/)
 
-![7a1dba22d9061c1c1bf8c446aa7d228a.jpg](images/getting-started-site-from-research-to-build/img_021.jpg)
+![7a1dba22d9061c1c1bf8c446aa7d228a.jpg](images/getting-started-site-from-research-to-build/img_021.webp)
 
-![6cc28fe7850ed0a7f05729822374c383.jpg](images/getting-started-site-from-research-to-build/img_022.jpg)
+![6cc28fe7850ed0a7f05729822374c383.jpg](images/getting-started-site-from-research-to-build/img_022.webp)
 
 这个方法在 Semrush 中也可以使用，哥飞带大家实际试用一下。
 
 打开 Keyword Magic Tool，随便输入一些词，这里我选择了猫猫狗狗这些常见的词，选择KD（竞争度）0～29%，也就是低竞争度，排除一些色情词汇，然后一个一个去看，就给我发现了“cat coloring pages” 这个词，竞争度只有 27，而且搜索结果前6都是内页，那么我们注册一个域名来优化这个词，就很容易排到谷歌搜索首页。
 
-![17cf9d4a85290b95284a94069fcb8e96.jpg](images/getting-started-site-from-research-to-build/img_023.jpg)
+![17cf9d4a85290b95284a94069fcb8e96.jpg](images/getting-started-site-from-research-to-build/img_023.webp)
 
-![4b155d2f6e4aa7ab3059e14627d8c37c.jpg](images/getting-started-site-from-research-to-build/img_024.jpg)
+![4b155d2f6e4aa7ab3059e14627d8c37c.jpg](images/getting-started-site-from-research-to-build/img_024.webp)
 
 这里解释一下，对于同一个关键字，一般来讲，
 
@@ -230,19 +230,19 @@ ahrefs 功能也很强大，很多功能，我们今天只介绍免登录就可�
 
 再在 [https://ahrefs.com/keyword-difficulty](https://ahrefs.com/keyword-difficulty) 这里验证一下，优化难度9，只需要10个外链就能排到首页，说明的确值得去做。
 
-![5df91dc59840161221f33794170fd057.jpg](images/getting-started-site-from-research-to-build/img_025.jpg)
+![5df91dc59840161221f33794170fd057.jpg](images/getting-started-site-from-research-to-build/img_025.webp)
 
 既然cat可以，dog是否也可以呢，flower是否可以呢？大家可以发散思维，找到更多词。
 
 用 coloring pages 去搜索下，找到很多相关词，不过有一些词竞争难度比较大。
 
-![0b8b7ca1e5930a4ed1a87fd1a4ba2f30.jpg](images/getting-started-site-from-research-to-build/img_026.jpg)
+![0b8b7ca1e5930a4ed1a87fd1a4ba2f30.jpg](images/getting-started-site-from-research-to-build/img_026.webp)
 
 如果我们要做一个网站来满足这些词的搜索需求，要怎么做呢？
 
 首先注册一个合适的域名，前面我们讲过，域名带上AI，会让我们的推广事半功倍，所以可以用 ai-coloring-pages.com 这个域名，完美符合关键字，也增加了AI元素。
 
-![e98cf6a6c86f514fc68d94b0f0034c6e.jpg](images/getting-started-site-from-research-to-build/img_027.jpg)
+![e98cf6a6c86f514fc68d94b0f0034c6e.jpg](images/getting-started-site-from-research-to-build/img_027.webp)
 
 此时此刻，这个域名是可以注册的，看看谁手速快。
 
@@ -258,7 +258,7 @@ ahrefs 功能也很强大，很多功能，我们今天只介绍免登录就可�
 
 然后给每张图片的alt都写上合适的描述，让用户能够在图片搜索时找到你的图片，进而打开你的网页。
 
-![087b083decfdc0b65fbda2b6768b7c03.jpg](images/getting-started-site-from-research-to-build/img_028.jpg)
+![087b083decfdc0b65fbda2b6768b7c03.jpg](images/getting-started-site-from-research-to-build/img_028.webp)
 
 我们的目标是让我们的图片出现在红色大框位置。
 
@@ -298,7 +298,7 @@ Github [https://github.com/](https://github.com/) 可以找到很多开源代码
 
 Vercel 模板中心 [https://vercel.com/templates](https://vercel.com/templates) 有很多可以一键部署拿来就用的模板。
 
-![4b1b135c2af2c7a375238c289b09c626.jpg](images/getting-started-site-from-research-to-build/img_029.jpg)
+![4b1b135c2af2c7a375238c289b09c626.jpg](images/getting-started-site-from-research-to-build/img_029.webp)
 
 哥飞以前在即刻讲过，有个朋友 3月份注册的域名，一直没去用起来。
 
@@ -312,7 +312,7 @@ Vercel 模板中心 [https://vercel.com/templates](https://vercel.com/templates)
 
 还有 [https://codecanyon.net/search/ai](https://codecanyon.net/search/ai) 有很多收费的源码，有完整的功能，价格不贵，只要几十美元。
 
-![2845b5067354e9e2494eabd4af8a462f.jpg](images/getting-started-site-from-research-to-build/img_030.jpg)
+![2845b5067354e9e2494eabd4af8a462f.jpg](images/getting-started-site-from-research-to-build/img_030.webp)
 
 哥飞有一个朋友，有一个完美的单字母域名，想用来做一个短链网站，但是因为他自己不会开发，域名就一直在那里放着。
 

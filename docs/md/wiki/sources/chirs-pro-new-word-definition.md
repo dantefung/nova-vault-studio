@@ -12,7 +12,7 @@ url: "https://x.com/chirs_pro/status/2115071053160415455"
 
 <!-- more -->
 
-![新词到出单的链路](../images/chirs-pro-new-word-definition/001.jpg)
+![新词到出单的链路](../images/chirs-pro-new-word-definition/001.webp)
 
 *图 1：新词到出单的链路示意。*
 

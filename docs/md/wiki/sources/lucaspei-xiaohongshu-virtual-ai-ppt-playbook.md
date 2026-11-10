@@ -19,7 +19,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 也正因为一直在一线，今年的变化我们体感特别明显——小红书虚拟类目的打击，越来越严。类目被收回、笔记被判同质化、店铺因侵权盗版被封，我们五个经营了一两年的店铺陆续被封，算下来，一个月八万的收益说没就没。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/002.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/002.webp)
 
 难受归难受，路还得走。这段时间我们就干了一件事：全面转向 AI 原创，把整个虚拟项目从 0 到 1 重新跑了一遍。
 
@@ -52,13 +52,13 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 你会发现平台的动作特别多：电子资源类目不断收紧入驻门槛，之前“强开”的店铺被一批批回收类目权限，带盗版的商品被直接下架冻结，严重的干脆一纸通知把整个店铺封掉。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/003.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/003.webp)
 
 看着眼花缭乱，但把它们串起来看，本质都是同一件事——把盗版摁下去。违规原因也写得明明白白：“销售/推广盗版商品”“不当使用他人权利”。
 
 官方甚至亲自下场，发起“盗版电子书治理”的专项调研。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/004.png)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/004.webp)
 
 为什么盯得这么死？
 
@@ -68,7 +68,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 这一点，我们是真真切切踩过的。之前做课件被直接封店，我去申诉时客服说得很干脆：出版社名字、教材封面、课本原图，只要沾上这些，平台一律算你“不当使用他人权利”。换句话说，课件本身还能卖，但是一定要提前申请好自己的版权文件，被判违规时方便拿去申诉。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/005.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/005.webp)
 
 以后在小红书想靠批量上品、批量搬运去铺量的玩法，只会越来越难做。门槛越收越紧，盗版查得越来越严——你搬得越多、上得越快，反而死得越快。
 
@@ -76,7 +76,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 也就是大家常说的“笔记同质化”。搬运别人的笔记、封面标题正文套同一个模板、素材改一改就发——都非常容易被限流。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/006.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/006.webp)
 
 这背后其实有个新变量：AI 起来得太快了。小红书是靠“真诚分享”起家的社区，它不想自己的池子被过度 AI 化、被批量生产的内容灌满。
 
@@ -102,7 +102,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 再往深了说一层。过去这一两年，虚拟资料为什么好赚？说白了，赚的是一笔“信息差 + 平台管得松”的钱。谁胆子大、谁搬得快、谁上架早，谁就先吃到肉。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/007.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/007.webp)
 
 但这种套利型的红利，都逃不过一个共同的宿命：平台一旦成熟，就一定会收口。 淘宝走过这条路，拼多多走过，小红书也不例外，只是轮到了今年。
 
@@ -112,13 +112,13 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 而小红书这片土壤，天生就特别适合 AI 虚拟产品生长。 小红书的用户对 AI 做出来的东西接受度也很高，只要你东西做得好看、真能帮上忙，没人会因为“这是 AI 做的”就嫌弃你。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/008.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/008.webp)
 
 你顺着这个思路往下看会发现，能用 AI 重做一遍的虚拟品类，多到数不过来：课件、知识库、资料包、模板、工具、刷题小程序……几乎每一个传统虚拟品类，都有一块能被 AI 重新啃一遍的空间。而且特别适合轻量化运作的一人团队（OPC）。
 
 我们团队现在就是两两分组，除了 AI 原创课件，同时还在跑 AI 知识库、AI 漫画等方向。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/009.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/009.webp)
 
 那问题就来了：这么多方向，我们为什么第一个就切了 PPT？
 
@@ -128,7 +128,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 再说重做，PPT 简直就是为 AI 量身定做的。 你想想它长什么样：封面、目录、章节页、内容页，一页页结构高度固定，图文为主，套路清清楚楚。这种“结构规整、能模板化、图文密集”的形态，恰恰是 AI 最擅长批量复制的。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/010.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/010.webp)
 
 这是我一直挂在嘴边的 MVP 思维：需求在前，AI 在后。
 
@@ -140,13 +140,13 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 我们现在每天光 token 就烧 20 个亿，同一时间挂着 30 到 50 个 PPT 任务并发跑。落到人头上，一个员工一天能出 50 份以上的 PPT，单份的生产成本只有几块钱，单张图的生成成本在 2～3 分钱。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/011.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/011.webp)
 
 这套产能，落到了小红书店铺的直接销量上。
 
 我们 PPT 模板这块主打走量，最近卖的都是应季刚需——比如开学第一课、主题班会、教师课件这些。以及一些需求性比较持续的.如医护 PPT 赛道。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/012.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/012.webp)
 
 赶上这波 K12 开学季，我们单个店铺一周就做到了破万的数据。而且不只是我们自己，一堆学员也在跟我们分享：有单日利润做到一万多的，一天卖出几千的更是一抓一大把。
 
@@ -158,7 +158,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 而所谓“定制”，很多时候就是在做好的模板上用 AI 结合他们提供的资料稍微改一改，一个员工一天能出五到八份，每天接一两单就回本了。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/013.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/013.webp)
 
 说实话，做到这一步，我自己也挺感慨。
 
@@ -184,7 +184,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 我们能做的，就是把 PPT 的视觉狠狠升一档——生图这条路，视觉上限最高，而这，恰恰是能不能卖得动的关键。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/014.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/014.webp)
 
 但光有方案还不够。真正卡了我很久、也让我想通一件事的，是另一个问题：要不要为这套东西，专门做一个工具？
 
@@ -192,7 +192,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 所以最后我们没做工具，只搭了一套最轻量的 skill，嵌在 Codex、Workbuddy 这种 AI 工作台里跑。哪里不好用，随时改，全流程都能自己定制。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/015.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/015.webp)
 
 这件事让我越来越确信一句话：在今天，提示词已经不值钱了！工具也不值钱了！真正值钱的，是构建 skill 的能力。
 
@@ -216,23 +216,23 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 喂了真实资料，AI 会先把里面的文字、页面结构、重要插画全提取出来，整理成一份资料清单和摘要，后面才有准头。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/016.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/016.webp)
 
 那原料从哪来？给你几个我们常用的路子：
 
 做教师课件，首推「国家中小学智慧教育平台」。这是官方的免费网站，配上浏览器插件，电子课本能整本下载，还带一批配套的参考课件——原始素材一下子就齐了。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/017.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/017.webp)
 
 而且它还有个隐藏用途：它本身就是个绝佳的选品、选赛道工具。上面按学段、学科、册次分得清清楚楚，你想切哪个方向、哪一册需求大，扒一圈就有数了。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/018.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/018.webp)
 
 做医护、创赛、汇报这种没有现成的官方 PPT ，可以直接喂参考链接。比如把一篇公众号文章的链接丢给它，它能自动把里面的内容抓下来、整理好。
 
 涉及学术、专业性强的内容，就调秘塔学术搜索。比起让 AI 自己凭记忆写，走一遍学术搜索，出来的结果更靠谱、内容也更准确，能少踩不少“AI 一本正经胡说八道”的坑。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/019.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/019.webp)
 
 材料喂得越对、越全，后面每一步才越省心——这一步看着不起眼，其实是整条流水线里最该花心思的地方之一。
 
@@ -246,7 +246,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 每页讲什么、标题是什么、正文出现哪些字，都得在这一步敲定，让 AI 写清楚。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/020.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/020.webp)
 
 如果想要深度化洗稿内容，就让 AI 逐页分析原稿——每一页的文本、文字、图例之间是什么逻辑关系，先把这套骨架扒清楚。
 
@@ -262,7 +262,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 
 有明确风格或参考图，更推荐一个进阶做法：先让 AI 照着参考图，单独生成一个“风格模板”存下来。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/021.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/021.webp)
 
 之后不管做多少份 PPT，都直接调用这个模板——这样一来，哪怕是不同的课、不同的批次，出来的视觉风格也能保持高度统一。
 
@@ -292,7 +292,7 @@ coverImage: "../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/001.jpg"
 - 第二步，出试样。基于选定的风格，先生成前几页做样张，你重点检查三样东西：文字对不对、排版顺不顺、风格稳不稳。有问题就在这几页里改，别急着往下走。
 - 第三步，出全套。前两步都过了，才放心让它批量生成全套、打包成 PDF。这一步就可以并发去调中转站了——多张图同时生成，一份 PPT 的图片，大概三五分钟就能全部出完，速度非常快。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/022.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/022.webp)
 
 阶段 3：生成附属产物，打包交付
 
@@ -426,7 +426,7 @@ PPT 做出来，那只是货。货得卖出去，前面那些生产制作才算�
 
 里面有一个叫“百变拼图”的功能，提前把每套笔记模板的坑位定义好，工具自动往里填、一键出图，不用再一张张手动摆。原本要磨半天的排版，现在几分钟就出一批。而且还可以快速换不同模板。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/023.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/023.webp)
 
 其次还设计了这样的场景化图片排版功能，把你的 PPT 图片放进手机、电脑屏幕或者黑板里，做出逼真的样机展示效果，不需要 PS。
 
@@ -434,7 +434,7 @@ PPT 做出来，那只是货。货得卖出去，前面那些生产制作才算�
 
 目前为了高效导流私域，我们做了多平台矩阵——一套内容，同步铺到小红书、抖音、视频号、公众号。为这个，我们专门做了一套分发工具。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/024.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/024.webp)
 
 其实市面上不是没有代发工具，我本以为这么普遍的需求，早有成熟工具了，买一个来用就行。结果调研一圈，没一个真能用的。
 
@@ -470,7 +470,7 @@ PPT 做出来，那只是货。货得卖出去，前面那些生产制作才算�
 
 但后来它慢慢涨起来了，每天能有几百阅读——而且全是精准的搜索流量，加微信、转化的效率特别高。长尾这东西前期是真熬人，但你只要熬过去，它就是复利。
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/025.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/025.webp)
 
 到今天，从资料收集、到生产、到排版、再到分发，这一整条链，几乎每个环节都交给了 AI 和工具。
 
@@ -602,7 +602,7 @@ PPT 这个大赛道，往下能细分出几十个方向，但不是每个都值�
 
 以上内容共 1.3w+字，都是自己的真实经验分享，如果你觉得内容有价值，还请点个赞，非常感谢！
 
-![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/026.jpg)
+![](../images/lucaspei-xiaohongshu-virtual-ai-ppt-playbook/026.webp)
 
 ## 相关页面
 

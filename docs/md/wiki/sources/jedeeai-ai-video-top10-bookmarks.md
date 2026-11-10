@@ -4,7 +4,7 @@ date: "2026-10-29"
 source: "X/Twitter"
 author: "琳小航 (@jedeeai)"
 url: "https://x.com/jedeeai/status/2107358191432405329"
-coverImage: "../images/jedeeai-ai-video-top10-bookmarks/001.jpg"
+coverImage: "../images/jedeeai-ai-video-top10-bookmarks/001.webp"
 ---
 
 # 琳小航：过去 30 天 X 收藏量 Top 10 的 AI 视频实操神贴
@@ -36,7 +36,7 @@ coverImage: "../images/jedeeai-ai-video-top10-bookmarks/001.jpg"
 | 9 | 宝玉 @dotey | 1153 | Claude Opus 5.5 是怎么做出视频的 | https://x.com/dotey/status/2105181393638531536 |
 | 10 | 想风 @xaiwind | 1092 | 超简单剪映使用，从小白到用 Skill，剪辑第一个爆款视频 | https://x.com/xaiwind/status/2106324762347880468 |
 
-![](../images/jedeeai-ai-video-top10-bookmarks/001.jpg)
+![](../images/jedeeai-ai-video-top10-bookmarks/001.webp)
 
 ## 榜单里的三条技术路线
 

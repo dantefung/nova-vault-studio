@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483720&idx=1&sn=
 
 原创 KaitoX *2026年1月8日 17:30*
 
-![图片](images/vibe-coding-1/001.png)
+![图片](images/vibe-coding-1/001.webp)
 
 ## 前言
 
@@ -27,7 +27,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483720&idx=1&sn=
 
 ## 第一层原因:原子设计方法论
 
-![image.png](images/vibe-coding-1/002.jpeg)
+![image.png](images/vibe-coding-1/002.webp)
 
 现代前端开发普遍采用"原子设计"(Atomic Design)思想,将界面拆解为五个层次:
 
@@ -43,7 +43,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483720&idx=1&sn=
 
 ## 第二层原因:AI 的工作原理
 
-![image.png](images/vibe-coding-1/003.jpeg)
+![image.png](images/vibe-coding-1/003.webp)
 
 AI 代码生成的本质是 **模式识别与概率选择**,这决定了它的输出特征:
 
@@ -66,7 +66,7 @@ AI 代码生成的本质是 **模式识别与概率选择**,这决定了它的�
 
 ## 双重效应叠加
 
-![image.png](images/vibe-coding-1/004.jpeg)
+![image.png](images/vibe-coding-1/004.webp)
 
 当原子设计方法论遇上 AI 的工作原理,同质化问题被进一步放大:
 
@@ -86,7 +86,7 @@ AI 代码生成的本质是 **模式识别与概率选择**,这决定了它的�
 
 ## 设计系统的本质:从规范到实现
 
-![网页设计系统层次结构手绘插图](images/vibe-coding-1/005.jpeg)
+![网页设计系统层次结构手绘插图](images/vibe-coding-1/005.webp)
 
 从设计规范的角度看,任何网页都可以拆解为以下几个层次:
 
@@ -100,7 +100,7 @@ AI 代码生成的本质是 **模式识别与概率选择**,这决定了它的�
 
 ## 设计系统案例: Shadcn/ui 的组装逻辑
 
-![image.png](images/vibe-coding-1/006.jpeg)
+![image.png](images/vibe-coding-1/006.webp)
 
 我们以 **Shadcn/ui** 为例,看看一个现代化的设计系统是如何将 **设计规范转化为可编程的代码资产**,最终落地到业务页面的:
 
@@ -173,7 +173,7 @@ Shadcn/ui 通过 CSS 变量和 Tailwind 配置来沉淀设计 Token:
 
 ## AI时代，如何实现有个人风格的网站?
 
-![详细手绘AI设计流程图](images/vibe-coding-1/007.jpeg)
+![详细手绘AI设计流程图](images/vibe-coding-1/007.webp)
 
 理解了同质化的根源和设计系统的组装逻辑后,我们可以总结出一个可操作的实现路径**:寻找设计参考 → 提取设计 Token → 约束 AI 生成 → 编码落地** 。下面详细说明每一步的操作方法。
 

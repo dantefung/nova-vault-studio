@@ -41,7 +41,7 @@ Coding Agent 进入仓库时，需要一张地图。AGENTS.md 承担的内容应
 
 **渐进式披露**：根目录只保留多数任务都需要的说明，更详细的架构、设计和工作流程，通过链接按需读取。
 
-![AGENTS.md 示例](../images/coding-agent-project-memory-five-steps/002.jpg)
+![AGENTS.md 示例](../images/coding-agent-project-memory-five-steps/002.webp)
 
 ## 第二步：把核心文档接到任务路径上
 
@@ -57,7 +57,7 @@ Coding Agent 进入仓库时，需要一张地图。AGENTS.md 承担的内容应
 
 架构约束属于架构文档，AGENTS.md 只负责把 Agent 带过去；测试命令如果已经由脚本提供，文档负责解释如何选择，而不是再复制一份可能过期的命令。
 
-![核心文档路由图](../images/coding-agent-project-memory-five-steps/003.jpg)
+![核心文档路由图](../images/coding-agent-project-memory-five-steps/003.webp)
 
 ## 第三步：从重复工作中提炼第一个 Skill
 
@@ -71,7 +71,7 @@ Skill 是一份由 Agent 按需加载的工作手册。它回答的是一种任�
 - 哪些检查每次都要手工提醒？
 - 哪些失败修复以后很可能再次出现？
 
-![Skill 提炼流程](../images/coding-agent-project-memory-five-steps/004.jpg)
+![Skill 提炼流程](../images/coding-agent-project-memory-five-steps/004.webp)
 
 ## 第四步：把重复流程变成可执行的工程接口
 
@@ -90,7 +90,7 @@ Skill 是一份由 Agent 按需加载的工作手册。它回答的是一种任�
 
 **CLI 优先不意味着拒绝 MCP**。当外部系统缺少合适的命令行入口，或者需要结构化资源发现、宿主集成、持续交互时，MCP 仍然合适。关键是让 CLI 与 MCP 建立在同一套底层能力和权限规则上。
 
-![CLI 与 MCP 分层图](../images/coding-agent-project-memory-five-steps/005.jpg)
+![CLI 与 MCP 分层图](../images/coding-agent-project-memory-five-steps/005.webp)
 
 ## 第五步：回到真实任务，让项目记住经验
 
@@ -112,7 +112,7 @@ Agent 完成修改、测试显示通过时，先别急着结束。确认测试�
 | MCP | 外部资源发现或持续交互 |
 | 权限边界和人工确认 | 高风险、不可逆操作 |
 
-![Agent Work Loop 闭环](../images/coding-agent-project-memory-five-steps/006.jpg)
+![Agent Work Loop 闭环](../images/coding-agent-project-memory-five-steps/006.webp)
 
 ## 总结
 

@@ -4,7 +4,7 @@ date: "2026-11-04"
 source: "X/Twitter"
 author: "姚金刚 (@yaojingang)"
 url: "https://x.com/yaojingang/status/2108106577408389217"
-coverImage: "../images/yaojingang-17-knowledge-monetization-prompt-templates/001.jpg"
+coverImage: "../images/yaojingang-17-knowledge-monetization-prompt-templates/001.webp"
 ---
 
 # 姚金刚（@yaojingang）：开源 17 套知识付费提示词——课程定位、设计、售卖与运营全流程
@@ -29,11 +29,11 @@ coverImage: "../images/yaojingang-17-knowledge-monetization-prompt-templates/001
 
 用起来有哪些地方需要补充，也欢迎反馈
 
-![](../images/yaojingang-17-knowledge-monetization-prompt-templates/001.jpg)
+![](../images/yaojingang-17-knowledge-monetization-prompt-templates/001.webp)
 
-![](../images/yaojingang-17-knowledge-monetization-prompt-templates/002.jpg)
+![](../images/yaojingang-17-knowledge-monetization-prompt-templates/002.webp)
 
-![](../images/yaojingang-17-knowledge-monetization-prompt-templates/003.jpg)
+![](../images/yaojingang-17-knowledge-monetization-prompt-templates/003.webp)
 
 提示词相关资源链接：
 

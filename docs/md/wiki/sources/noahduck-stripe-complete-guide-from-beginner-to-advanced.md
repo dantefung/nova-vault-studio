@@ -21,7 +21,7 @@ coverImage: "../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/
 
 ## 目录（历史榨干系列在文章尾部）
 
-![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/002.jpg)
+![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/002.webp)
 
 ## 一、先搞懂 Stripe：它处理的是一整条收款链路
 
@@ -54,7 +54,7 @@ Payment Links 适合验证期，不能简单看成“低级版 Stripe”。Check
 
 ## 二、先判断你能不能用 Stripe
 
-![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/003.jpg)
+![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/003.webp)
 
 图注：用 Stripe 前先过四道门：地区是否支持、业务是否合规、信息是否一致、客户能不能认出你。
 
@@ -123,7 +123,7 @@ Stripe 账户设置里有 public business information：业务名称、网站 UR
 
 ## 三、第一笔收款怎么搭：Payment Links、Invoice、Checkout 怎么选
 
-![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/004.jpg)
+![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/004.webp)
 
 图注：Payment Links 是免代码收款链接；Invoice 是给特定客户发账单；Checkout 是接进网站的托管付款页；Elements 是高度自定义支付组件。
 
@@ -240,7 +240,7 @@ Billing 还有费用。
 
 ## 五、全球销售的难处：税和商家责任
 
-![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/005.jpg)
+![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/005.webp)
 
 图注：Processor 是支付处理商，Tax Tool 是税务工具，MoR 是 Merchant of Record，也就是交易里的法定卖家。
 
@@ -274,7 +274,7 @@ MoR 会作为交易中的法定卖家，通常承担更多税务收取、申报�
 | Managed Payments / 其他 MoR | MoR 服务商 | 想把税务、争议和部分客户支持外包的数字产品 | 费用更高，产品类别和控制权更受限 |
 ```
 
-![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/006.jpg)
+![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/006.webp)
 
 图注：这张图只看责任差异：Stripe Payments / Checkout 帮你处理收款，Stripe Tax 帮你算税，MoR 更接近“替你当卖家”的角色。
 
@@ -308,7 +308,7 @@ MoR 更像你把一部分卖家责任交给别人。
 
 ## 六、钱什么时候到手：费用、汇兑、退款、争议和 reserve
 
-![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/007.jpg)
+![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/007.webp)
 
 图注：pending 是待结算余额，available 是可用余额，payout 是打到银行；refund、dispute、reserve 都会影响你真正能拿到的钱。
 
@@ -401,7 +401,7 @@ Stripe 会出问题，其他支付系统也会出问题。区别在于：你上�
 
 ## 七、上线前要测失败：Webhook、密钥、收据和账单描述符
 
-![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/008.jpg)
+![](../images/noahduck-stripe-complete-guide-from-beginner-to-advanced/008.webp)
 
 图注：这里的重点不是“成功付款能成功”，而是签名验证、幂等、乱序、失败卡、退款和争议这些失败路径有没有提前演练。
 

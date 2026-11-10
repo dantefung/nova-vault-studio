@@ -17,7 +17,7 @@ LOF 套利是本公众号的熟面孔了，前前后后写了 [几十篇相关�
 
 主要是最近 160644 出现了两波套利机会，而我一方面是忙于其他业务没怎么关注，另一方面由于限额太高风险偏好比较低，也主动放弃了上车，只好看着朋友们吃肉。
 
-![朋友的收益](./images/invest-lof-premium/001.jpeg)
+![朋友的收益](images/invest-lof-premium/001.webp)
 
 朋友的收益
 
@@ -27,13 +27,13 @@ LOF 套利是本公众号的熟面孔了，前前后后写了 [几十篇相关�
 
 由于之前已经搞过 [一个港股打新的工具箱](https://mp.weixin.qq.com/s?__biz=MzAwMzY2OTMzNw==&mid=2458068879&idx=1&sn=983e18081d86310a19b7602713dcb760&scene=21#wechat_redirect) ，这次开发起来特别的快，不到 2 小时第一版就搓出来了，成品效果如下：
 
-![目前只放了几只我在关注的标的](./images/invest-lof-premium/002.png)
+![目前只放了几只我在关注的标的](images/invest-lof-premium/002.webp)
 
 目前只放了几只我在关注的标的
 
 详情页会展示一些核心数据：实时溢价率、今日成交量、申购限额、申购费率、持仓明细，以及基金净值的估算过程。
 
-![图片](./images/invest-lof-premium/003.png)
+![图片](images/invest-lof-premium/003.webp)
 
 估值的核心公式为：
 
@@ -47,7 +47,7 @@ LOF 套利是本公众号的熟面孔了，前前后后写了 [几十篇相关�
 
 具体的计算细节可以在网站上点击 **估值计算说明** 查看，这个估值方式是我跟 AI 聊了几轮一起总结出来的，不一定完全正确，欢迎朋友们讨论~
 
-![图片](./images/invest-lof-premium/004.png)
+![图片](images/invest-lof-premium/004.webp)
 
 当然，既然是估值，就会有误差。
 

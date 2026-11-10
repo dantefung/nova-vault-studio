@@ -20,7 +20,7 @@ Matt Pocock 的开源仓库 mattpocock/skills 里有一个专门回答这个问�
 
 ## 1. 先看全景：一次计费接入的 6 次边界
 
-![AI 编码会话决策树封面图](../images/ai-coding-phase-boundaries/001.jpg)
+![AI 编码会话决策树封面图](../images/ai-coding-phase-boundaries/001.webp)
 
 假设你要给一个内容创作工具接入第三方计费服务（订阅、用量计费、发票）。按官方 main flow 的编排，这次会话大概长这样：
 
@@ -41,7 +41,7 @@ grilling（拷问需求）→ to-spec（写规格）→ to-tickets（拆任务�
 
 ## 2. 五问决策树：五个选项的成立条件
 
-![五问决策树](../images/ai-coding-phase-boundaries/002.jpg)
+![五问决策树](../images/ai-coding-phase-boundaries/002.webp)
 
 PHASE-BOUNDARIES.md 的核心不是五个选项的定义，而是**成立条件和问的顺序**。自上而下，先碰到的 yes 赢：
 
@@ -73,7 +73,7 @@ PHASE-BOUNDARIES.md 的核心不是五个选项的定义，而是**成立条件�
 
 ## 4. 一手 vs 二手：每次边界都是一次损耗交换
 
-![一手 vs 二手损耗模型](../images/ai-coding-phase-boundaries/003.jpg)
+![一手 vs 二手损耗模型](../images/ai-coding-phase-boundaries/003.webp)
 
 核心模型一句话：**上下文是一次性资产**。除 Continue 外，每个边界动作都是把一手资料（primary source）压成二手资料（secondary source）的损耗交换。
 
@@ -117,7 +117,7 @@ Matt Pocock 自己写过文章吐槽 Anthropic 的 Ralph 插件：bash 循环每
 
 ## 7. 四个选错的反例
 
-![四个反例示意图](../images/ai-coding-phase-boundaries/004.jpg)
+![四个反例示意图](../images/ai-coding-phase-boundaries/004.webp)
 
 - **反例 1：上下文还很热就 /clear。** grilling 刚聊完需求就 /clear 写 spec。结果写 spec 时 Agent 问"免费层到底要不要"，你发现自己也记不清当时怎么定的了——需求的 why 已经丢了。
 - **反例 2：stage 中间 /compact。** 实现 ticket 3 到一半随手 /compact，Agent 回来接着写，写出来的东西和之前方向对不上——它丢了 thread，只能从摘要推断。mid-phase 的正确出路只有继续或拆 subagent。

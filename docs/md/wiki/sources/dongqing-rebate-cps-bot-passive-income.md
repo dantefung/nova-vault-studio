@@ -62,7 +62,7 @@ coverImage: "../images/dongqing-rebate-cps-bot-passive-income/001.jpg"
 
 只要你开始做，我相信总能找到人来使用，如果你连这种推广都懒得去做，我也不知道能有什么项目适合了，几乎没有成本，也不需要你的用户掏钱，免费给用户使用
 
-![](../images/dongqing-rebate-cps-bot-passive-income/002.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/002.webp)
 
 ## 我是怎么做的，怎么来的第一波客户
 
@@ -72,7 +72,7 @@ coverImage: "../images/dongqing-rebate-cps-bot-passive-income/001.jpg"
 
 所以你就不要脸皮的、不辞辛苦的搞定，第一波种子人群即可
 
-![](../images/dongqing-rebate-cps-bot-passive-income/003.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/003.webp)
 
 2021 年，房子交房，开始装修。
 
@@ -86,7 +86,7 @@ coverImage: "../images/dongqing-rebate-cps-bot-passive-income/001.jpg"
 
 那一周大概加了 400 人左右。中间电脑端微信强制退出过一次，重新登录还能继续用。之后这些人陆续推荐给同事、朋友，大概一个月，好友就过了 1000。
 
-![](../images/dongqing-rebate-cps-bot-passive-income/004.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/004.webp)
 
 不过那段时间装修事多，也没心思再去想这些，没怎么正经运营，确实错过一部分机会。等装修告一段落，才重新捡起来。
 
@@ -118,7 +118,7 @@ coverImage: "../images/dongqing-rebate-cps-bot-passive-income/001.jpg"
 
 现在这类软件已经比较成熟，可选的也不少。我用的是淘宝上买的「安娜尔」返利机器人，激活码大概 200 多。大家自己找一下吧，很多卖的
 
-![](../images/dongqing-rebate-cps-bot-passive-income/005.png)
+![](../images/dongqing-rebate-cps-bot-passive-income/005.webp)
 
 硬件上，建议一台能 24 小时开机的本地电脑挂机，尽量不要放服务器。因为要登录微信，服务器环境更容易引起异常，本地相对稳一点。
 
@@ -126,22 +126,22 @@ coverImage: "../images/dongqing-rebate-cps-bot-passive-income/001.jpg"
 
 1. 买软件、装到本地电脑
 
-![](../images/dongqing-rebate-cps-bot-passive-income/006.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/006.webp)
 
 2. 下载指定版本的微信
    可以选稍新一点的版本，功能全一些。登录你的微信号
 
-![](../images/dongqing-rebate-cps-bot-passive-income/007.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/007.webp)
 
 登录成功后，这个号就已经被软件接管成「机器人」了，但还不能返利——还要对接联盟。
 
-![](../images/dongqing-rebate-cps-bot-passive-income/008.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/008.webp)
 
 对接淘宝联盟、京粉等
 
 软件右侧一般有这些渠道入口。主流先配淘宝，其他平台逻辑差不多，按各官网教程一步步来即可。
 
-![](../images/dongqing-rebate-cps-bot-passive-income/009.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/009.webp)
 
 理解钱怎么走（以淘宝为例）
 
@@ -153,7 +153,7 @@ coverImage: "../images/dongqing-rebate-cps-bot-passive-income/001.jpg"
 
 用另一个微信给机器人发一条淘宝商品链接，看能不能正常返回佣金信息。能返回，这一步就算通了。
 
-![](../images/dongqing-rebate-cps-bot-passive-income/010.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/010.webp)
 
 设返利比例
 
@@ -163,7 +163,7 @@ coverImage: "../images/dongqing-rebate-cps-bot-passive-income/001.jpg"
 
 低佣金让用户多拿一点，高佣金自己多留一点，用户体感通常也不错。
 
-![](../images/dongqing-rebate-cps-bot-passive-income/011.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/011.webp)
 
 务必搞清楚结算和提现节奏
 
@@ -171,19 +171,19 @@ coverImage: "../images/dongqing-rebate-cps-bot-passive-income/001.jpg"
 
 所以「可提现时间」、确认收货后再结算这类设置，一定要按自己的风险承受能力配好。
 
-![](../images/dongqing-rebate-cps-bot-passive-income/012.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/012.webp)
 
 杀熟（前十单一个比例，后边订单一个比例）、代理等功能点很多，我就不把官网说明复述一遍了。每一个开关是干什么的，自己去官网文档里看清楚，再决定开不开、怎么开。你买的是哪一家的，你就去哪一家的官网
 
 下面的教程我就不多说了，官网太全了，这个项目这么长时间了，已经有很完善的体系，教程，以及思路，已经完全不需要手把手的教了，手册喂给 AI，让 AI 就可以解答你的全部问题了，甚至帮你自动配置都不在话下，我也相信这篇文章足够让你入门了
 
-![](../images/dongqing-rebate-cps-bot-passive-income/013.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/013.webp)
 
 ## 跑通之后可以怎么扩展
 
 个人微信跑顺了，再逐步加公众号、企业微信、小程序、App、H5。有人就爱微信里直接聊着返；有人更习惯打开 H5 或 App。按你用户的习惯配，风险也能摊薄一点。
 
-![](../images/dongqing-rebate-cps-bot-passive-income/014.jpg)
+![](../images/dongqing-rebate-cps-bot-passive-income/014.webp)
 
 在我评论区我也看到也有大佬做了 APP，上线到了 apple 软件商店，我觉得这个相当不错了，之前我也没有做过 APP，因为我一直没下定决心买苹果开发者上架，现在我也要准备准备做个 APP 出来了，一样的，大家也可以根据自己的能力，来决定要做哪个渠道，APP 有一个下载成本，需要下载，但是不封号，比较稳定，重要的只是把 APP 长期留存在用户手机里，提供更多的功能
 

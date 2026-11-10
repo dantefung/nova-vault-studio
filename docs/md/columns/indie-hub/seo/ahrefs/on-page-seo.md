@@ -18,7 +18,7 @@ Markdown Content:
 
 以下是一个真实的案例：我们的一篇博客文章仅通过修改标题中的一个单词，就在搜索结果中攀升了 7 位。
 
-![Image 1: 示例：Ahrefs 的一篇博客文章仅通过修改标题中的一个单词，就在搜索结果中攀升了 7 位](images/screenshot-blog-post-2SWZYAMO.png)
+![Image 1: 示例：Ahrefs 的一篇博客文章仅通过修改标题中的一个单词，就在搜索结果中攀升了 7 位](images/screenshot-blog-post-2SWZYAMO.webp)
 
 页面 SEO 就像蛋糕上的糖霜。要充分发挥其效果，你需要有用且准确的内容，并确保它符合目标关键词的搜索意图。（我们在[上一章](https://ahrefs.com/zh/seo/seo-content)有一篇关于这个主题的指南。）
 
@@ -44,7 +44,7 @@ Markdown Content:
 
 在页面的核心元素中植入目标**关键词**，能帮助 Google、AI 助手（如 ChatGPT 和 Gemini）以及你的读者理解页面的主题。
 
-![Image 2: Ahrefs SEO 报告工具，展示了目标关键词在标题、URL 和内容中的位置](images/screenshot-seo-reporting-WOVJDCLA.png)
+![Image 2: Ahrefs SEO 报告工具，展示了目标关键词在标题、URL 和内容中的位置](images/screenshot-seo-reporting-WOVJDCLA.webp)
 
 但如今的搜索引擎对**主题**和**用户意图**的理解已经远超以往。
 
@@ -74,7 +74,7 @@ Markdown Content:
 
 ……但与此同时，你的内容还需要涵盖相关概念，并回答用户的常见问题。
 
-![Image 3: Ahrefs 词匹配报告，突出显示了页面中的关键词使用情况](images/screenshot-seo-reporting-matching-terms-CQLZVKCG.png)
+![Image 3: Ahrefs 词匹配报告，突出显示了页面中的关键词使用情况](images/screenshot-seo-reporting-matching-terms-CQLZVKCG.webp)
 
 * * *
 
@@ -86,7 +86,7 @@ HTML 标题标签能帮助 Google 和 AI 助手理解页面内容，同时能将
 
 在页面代码中，标题标签通常如下所示：`<h2>此处为标题</h2>`。你可以使用 [Ahrefs Toolbar](https://ahrefs.com/zh/seo-toolbar) 快速查看页面的标题标签使用情况：
 
-![Image 4: 博客文章中正确的标题结构示例](images/screenshot-headings-JT2B4EJN.png)
+![Image 4: 博客文章中正确的标题结构示例](images/screenshot-headings-JT2B4EJN.webp)
 
 一般来说，建议遵循以下原则：
 
@@ -100,7 +100,7 @@ HTML 标题标签能帮助 Google 和 AI 助手理解页面内容，同时能将
 
 标题（包括 H1 标签）通过建立层级来提升用户体验
 
-![Image 5: H1 标签及各级标题构建内容层级结构的图示](images/image-headings-including-h1-tags-JKDZLRRG.png)
+![Image 5: H1 标签及各级标题构建内容层级结构的图示](images/image-headings-including-h1-tags-JKDZLRRG.webp)
 
 * * *
 
@@ -130,17 +130,17 @@ Google 有 [61.6% 的概率](https://zyppy.com/seo/title-tags/google-title-rewri
 
 *   **如果拿不准，请套用 ABC 公式**——Adjective（形容词）、Benefit（利益）、Confidence booster（信任强化）。
 
-![Image 6: 有吸引力的 SEO 标题标签示例](images/image-10-a-seo-tips-FOQSDT7O.png)
+![Image 6: 有吸引力的 SEO 标题标签示例](images/image-10-a-seo-tips-FOQSDT7O.webp)
 
 你应该为每个可被索引的页面设置标题标签。如果需要的话，可以使用 [**Ahrefs 的 Site Audit**](https://ahrefs.com/zh/site-audit) 查找标题标签存在问题的页面（如标题为空或过长）。注册并抓取你的网站后（[免费](https://ahrefs.com/zh/free)），进入 **Content** 报告即可查看问题。
 
 这里我们可以看到有 226 个页面标题过长，存在被截断的风险：
 
-![Image 7: 标题长度分布图，展示了 SEO 的最佳字符数](images/image-title-length-distribution-DJEWNDH6.png)
+![Image 7: 标题长度分布图，展示了 SEO 的最佳字符数](images/image-title-length-distribution-DJEWNDH6.webp)
 
 为了节省时间，你还可以使用 Ahrefs Site Audit 中的 Patches 功能批量生成标题标签。
 
-![Image 8: Ahrefs Batch Analysis 工具，用于批量检查标题标签](images/screenshot-batch-ai-7CQR6Q5S.png)
+![Image 8: Ahrefs Batch Analysis 工具，用于批量检查标题标签](images/screenshot-batch-ai-7CQR6Q5S.webp)
 
 * * *
 
@@ -190,7 +190,7 @@ URL
 
 如果你想为其他所有页面批量创建元描述，可以再次尝试 Patches 功能。
 
-![Image 9: 搜索结果中具有吸引力的元描述示例](images/screenshot-patches-XAOBI4LA.png)
+![Image 9: 搜索结果中具有吸引力的元描述示例](images/screenshot-patches-XAOBI4LA.webp)
 
 该工具会生成成千上万条可用的候选描述，供你自由选择或进一步优化。
 
@@ -204,7 +204,7 @@ URL
 
 _“URL 的部分内容可以在搜索结果中以面包屑导航显示，因此用户也可以通过 URL 来判断某个搜索结果是否对他们有用。”_
 
-![Image 10: 博客文章中对 SEO 友好的 URL 结构示例](images/screenshot-blog-programmatic-seo-QWQBKHMZ.png)
+![Image 10: 博客文章中对 SEO 友好的 URL 结构示例](images/screenshot-blog-programmatic-seo-QWQBKHMZ.webp)
 
 我们建议将目标关键词作为 URL 的后缀，就像我们在 Ahrefs 博客中所做的那样：
 
@@ -221,7 +221,7 @@ _“URL 的部分内容可以在搜索结果中以面包屑导航显示，因此
 
 简短、描述性强的 URL 最有利于 SEO
 
-![Image 11: 简短描述型 URL 与冗长复杂型 URL 的对比图](images/image-short-descriptive-urls-TZDKJWTW.png)
+![Image 11: 简短描述型 URL 与冗长复杂型 URL 的对比图](images/image-short-descriptive-urls-TZDKJWTW.webp)
 
 在选择 URL 时，建议注意以下几点：
 
@@ -239,7 +239,7 @@ _“URL 的部分内容可以在搜索结果中以面包屑导航显示，因此
 
 如果你的网站上有相关页面，请务必进行链接。[内链](https://ahrefs.com/seo/glossary/internal-link)不仅能帮助访客更顺畅地浏览网站，增加他们找到所需信息的几率，对 SEO 也有诸多益处。
 
-![Image 12: 博客文章中的内链示例](images/screenshot-internal-links-37ZXNHBH.png)
+![Image 12: 博客文章中的内链示例](images/screenshot-internal-links-37ZXNHBH.webp)
 
 内链能帮助搜索引擎和 AI 爬虫发现你网站上的所有页面，理解每个页面的主题（以及它们彼此之间的关系），并突出你[认为最重要](https://ahrefs.com/zh/blog/internal-links-for-seo/)的页面。同时，这些链接还会在页面之间传递[链接权重](https://ahrefs.com/zh/blog/google-pagerank/)。
 
@@ -253,7 +253,7 @@ _“URL 的部分内容可以在搜索结果中以面包屑导航显示，因此
 
 您可以使用 Google 的 _site:_ 搜索运算符，快速找到适合添加链接的相关页面。只需在网站中搜索目标关键词（加上引号以查找完全匹配的结果），Google 就会显示所有包含该关键词且已被收录的页面：
 
-![Image 13: Google 站内搜索展示的内部页面关联示例](images/screenshot-googles-site-L5CTREZK.png)
+![Image 13: Google 站内搜索展示的内部页面关联示例](images/screenshot-googles-site-L5CTREZK.webp)
 
 或者，你也可以使用 Ahrefs 的 **Site Audit** 实现自动化操作：
 
@@ -265,11 +265,11 @@ _“URL 的部分内容可以在搜索结果中以面包屑导航显示，因此
 
 按下回车键，你将会看到一系列推荐的内链机会。
 
-![Image 14: Ahrefs 内链机会报告，展示了推荐链接](images/screenshot-internal-link-opportunity-JXD22VNV.png)
+![Image 14: Ahrefs 内链机会报告，展示了推荐链接](images/screenshot-internal-link-opportunity-JXD22VNV.webp)
 
 例如，这份报告建议从我们一篇关于 _有害反向链接_ 的文章链接到我们另一篇关于 _坏链接_ 的指南：
 
-![Image 15: Ahrefs 中的外部链接分析示例](images/screenshot-toxic-backlinks-EX33TDVJ.png)
+![Image 15: Ahrefs 中的外部链接分析示例](images/screenshot-toxic-backlinks-EX33TDVJ.webp)
 
 此外，内链还能帮助集成了搜索功能的 AI 助手发现相关主题和信息，从而更好地生成回答。
 
@@ -287,11 +287,11 @@ _“URL 的部分内容可以在搜索结果中以面包屑导航显示，因此
 
 我们在 Ahrefs 博客中就经常这样做：
 
-![Image 16: Google 确认 PageRank 仍然是排名信号之一](images/screenshot-google-still-use-pagerank-27OFOMHK.png)
+![Image 16: Google 确认 PageRank 仍然是排名信号之一](images/screenshot-google-still-use-pagerank-27OFOMHK.webp)
 
 随着时间的推移，一些外部链接会因为目标页面被重定向或删除而失效，从而影响用户体验。你可以使用 **Site Audit** 找出并修复这些失效链接：只需为你的网站设置定期抓取，并在抓取报告中监测**存在失效链接的页面**问题即可。
 
-![Image 17: Ahrefs Site Audit：展示了包含失效图片链接的页面](images/screenshot-pages-with-broken-links-X2LAEXLY.png)
+![Image 17: Ahrefs Site Audit：展示了包含失效图片链接的页面](images/screenshot-pages-with-broken-links-X2LAEXLY.webp)
 
 * * *
 
@@ -313,7 +313,7 @@ Alt 文本能帮助 AI 和搜索引擎爬虫理解图片内容，从而更好地
 
 你可以使用 Ahrefs **Site Audit** 中的**图片报告**来检查网站中缺失 Alt 文本的图片（以及其他潜在优化机会，例如图片过大等）：
 
-![Image 18: 图片优化报告，展示了 alt 文本与文件大小详情](images/image-images-report-FQLYHD4G.png)
+![Image 18: 图片优化报告，展示了 alt 文本与文件大小详情](images/image-images-report-FQLYHD4G.webp)
 
 * * *
 
@@ -345,11 +345,11 @@ Alt 文本能帮助 AI 和搜索引擎爬虫理解图片内容，从而更好地
 
 在下面这个示例中，我们只需输入已发布的 URL 和目标关键词。
 
-![Image 19: Ahrefs AI Content Helper 工具界面](images/screenshot-ai-content-helper-5U7AJQ3A.png)
+![Image 19: Ahrefs AI Content Helper 工具界面](images/screenshot-ai-content-helper-5U7AJQ3A.webp)
 
 随后，**AI Content Helper** 会根据文章对宏观主题的覆盖程度进行评分。
 
-![Image 20: AI Content Helper：展示了内容评分与优化建议](images/screenshot-ai-content-helper-score-B5BOYJHG.png)
+![Image 20: AI Content Helper：展示了内容评分与优化建议](images/screenshot-ai-content-helper-score-B5BOYJHG.webp)
 
 这个工具对于提升搜索排名**以及** AI 可见度均大有裨益。
 
@@ -357,11 +357,11 @@ Alt 文本能帮助 AI 和搜索引擎爬虫理解图片内容，从而更好地
 
 接着，它会建议可以纳入的子主题，以进一步丰富文章内容。
 
-![Image 21: AI Content Helper：展示了主题覆盖度分析](images/screenshot-ai-content-helper-topics-ASMKQJHK.png)
+![Image 21: AI Content Helper：展示了主题覆盖度分析](images/screenshot-ai-content-helper-topics-ASMKQJHK.webp)
 
 你还可以开启“高亮”功能，对具体内容进行逐段优化，并实时查看评分变化。
 
-![Image 22: AI Content Helper 标出需要改进的内容部分](images/screenshot-ai-content-helper-highlight-XQIHNC5P.png)
+![Image 22: AI Content Helper 标出需要改进的内容部分](images/screenshot-ai-content-helper-highlight-XQIHNC5P.webp)
 
 * * *
 
@@ -381,7 +381,7 @@ Google 的[质量评分者指南](https://developers.google.com/search/blog/2022
 
 *   **展示证据：**向读者（以及 Google）证明你确实做过你所讲的事情。可以在作者简介中加入相关经验，并附上记录你实际经历的原创照片和视频。
 
-![Image 23: Healthline 示例，展示了作者的专业背景与资质](images/screenshot-healthline-OBRHKWPA.png)
+![Image 23: Healthline 示例，展示了作者的专业背景与资质](images/screenshot-healthline-OBRHKWPA.webp)
 这是一个作者简介的示例，展示了其与文章主题相关的专业背景。
 
 * * *
@@ -406,23 +406,23 @@ Google 的[质量评分者指南](https://developers.google.com/search/blog/2022
 
 只需在 [Ahrefs Brand Radar](https://ahrefs.com/zh/brand-radar) 的 AI Responses 中搜索竞争对手的域名。
 
-![Image 24: Ahrefs Brand Radar：展示了品牌在搜索结果中的可见度](images/screenshot-brand-radar-U5APD7UO.png)
+![Image 24: Ahrefs Brand Radar：展示了品牌在搜索结果中的可见度](images/screenshot-brand-radar-U5APD7UO.webp)
 
 然后，为自己的域名添加一个“不包含”的负向过滤条件，这样你就能看到哪些 AI Overviews 引用了竞争对手，而你却缺席了。
 
 在这个例子中，我们通过添加关键词“Tool”进一步筛选，以锁定高价值、处于营销漏斗底端的搜索词。
 
-![Image 25: Brand Radar 的筛选选项，用于分析零点击搜索中的曝光情况](images/screenshot-brand-radar-filter-6ERSMUZX.png)
+![Image 25: Brand Radar 的筛选选项，用于分析零点击搜索中的曝光情况](images/screenshot-brand-radar-filter-6ERSMUZX.webp)
 
 最终筛选出 56 个关键词，其中包括一个对 Ahrefs 来说具有较高[商业潜力](https://ahrefs.com/zh/blog/how-to-rank-for-keywords/)的关键词：competitor traffic analysis tool。
 
-![Image 26: Brand Radar 结果，展示了搜索功能中的品牌提及](images/screenshot-brand-radar-results-32B2OVXM.png)
+![Image 26: Brand Radar 结果，展示了搜索功能中的品牌提及](images/screenshot-brand-radar-results-32B2OVXM.webp)
 
 通过分析这些经常被引用的页面，我们可以优化页面 SEO 以争夺该搜索位置。
 
 在这个例子中，我们发现一个新发布的工具列表和两个着陆页被引用了，而且它们的 H1 标签中都包含该关键词。
 
-![Image 27: 被引用页面的示例截图，展示了工具列表以及 H1 标签中包含关键词的着陆页](images/screenshot-example-D2LOBEGB.png)
+![Image 27: 被引用页面的示例截图，展示了工具列表以及 H1 标签中包含关键词的着陆页](images/screenshot-example-D2LOBEGB.webp)
 
 随后，我们检查了自己关于“Competitor analysis tools”主题的内容归档，发现仅有一篇过时的（2024）工具列表，以及一个主题模糊的着陆页。
 
@@ -438,7 +438,7 @@ Schema 标记是一种可以添加到网页中的代码，旨在帮助搜索引�
 
 这有助于在 Google 中以**富媒体结果**的形式展现，也就是包含额外信息的增强型搜索列表，例如评分、步骤说明或常见问题等。
 
-![Image 28: 对比展示 Google 如何利用 Schema 标记呈现富媒体搜索结果以及未添加标记时的效果](images/image-google-uses-schema-to-display-rich-results-I5OFWRIA.png)
+![Image 28: 对比展示 Google 如何利用 Schema 标记呈现富媒体搜索结果以及未添加标记时的效果](images/image-google-uses-schema-to-display-rich-results-I5OFWRIA.webp)
 
 Google 和 [Microsoft](https://www.seroundtable.com/schema-llms-copilot-bing-microsoft-39093.html#:~:text=There%20is%20a%20big%20debate,Microsoft%20Bing%2C%20said%20they%20do) 均已证实，像 Schema 标记这样的结构化数据对 AI 搜索至关重要，能有效帮助 LLM 准确解析你的页面内容。
 
@@ -480,7 +480,7 @@ Google 在确定排名时，会参考[用户与你页面的互动方式](https:/
 
 只需进入 Site Audit > 性能报告，查看 CrUX 指标即可。
 
-![Image 29: Chrome UX 报告指标，展示了 Core Web Vitals 的性能](images/screenshot-crux-metrics-4VM43RU5.png)
+![Image 29: Chrome UX 报告指标，展示了 Core Web Vitals 的性能](images/screenshot-crux-metrics-4VM43RU5.webp)
 
 以下是其他一些优化页面 UX 的建议。
 
@@ -521,11 +521,11 @@ Google 在确定排名时，会参考[用户与你页面的互动方式](https:/
 *   修复 [Robots.txt](https://ahrefs.com/zh/blog/robots-txt/) 或 Meta Robots 中任何标记为“[noindex](https://ahrefs.com/seo/glossary/noindex-tag)”或屏蔽重要内容的问题。 
 *   找出没有任何内链的孤立页面，并在相关文章、分类页面或导航菜单中引用它们。
 
-![Image 30: Ahrefs Site Audit 性能报告，用于用户体验优化](images/screenshot-sa-UW454FBJ.png)
+![Image 30: Ahrefs Site Audit 性能报告，用于用户体验优化](images/screenshot-sa-UW454FBJ.webp)
 
 你还可以在 Ahrefs Site Explorer 工具的热门页面报告中查看“内容变更”，从而发现并更新过时的内容。事实证明，搜索机器人和 [AI 助手都更青睐新鲜的信息](https://ahrefs.com/zh/blog/do-ai-assistants-prefer-to-cite-fresh-content/)。
 
-![Image 31: Ahrefs 热门页面报告，用于监测页面 SEO 表现](images/screenshot-top-pages-RBGC57LW.png)
+![Image 31: Ahrefs 热门页面报告，用于监测页面 SEO 表现](images/screenshot-top-pages-RBGC57LW.webp)
 
 * * *
 
@@ -539,7 +539,7 @@ Google 在确定排名时，会参考[用户与你页面的互动方式](https:/
 
 ### 追踪优化后的主题排名情况
 
-![Image 32: Ahrefs 页面 SEO 审核结果中展示的可优化机会](images/screenshot-on-page-seo-KFJTNK2C.png)
+![Image 32: Ahrefs 页面 SEO 审核结果中展示的可优化机会](images/screenshot-on-page-seo-KFJTNK2C.webp)
 
 ### 衡量优化页面带来的流量变化
 
@@ -549,11 +549,11 @@ Google 在确定排名时，会参考[用户与你页面的互动方式](https:/
 
 通过对比页面优化前后的流量趋势，有助于判断哪些改动是有效的。
 
-![Image 33: Ahrefs Web Analytics Dashboard 显示的实时流量数据](images/ahrefs-web-analytics-2FXWHLR3.png)
+![Image 33: Ahrefs Web Analytics Dashboard 显示的实时流量数据](images/ahrefs-web-analytics-2FXWHLR3.webp)
 
 ### 检查更新页面的用户行为
 
-![Image 34: Ahrefs Web Analytics 概览，包含流量与参与度指标](images/screenshot-web-analytics-RJID655K.png)
+![Image 34: Ahrefs Web Analytics 概览，包含流量与参与度指标](images/screenshot-web-analytics-RJID655K.webp)
 
 如果用户在优化后的页面停留时间更长，这通常意味着你的改动是卓有成效的。
 
@@ -581,6 +581,6 @@ Google 在确定排名时，会参考[用户与你页面的互动方式](https:/
 
 在下方示例中你可以看到，随着定期更新内容，自然搜索流量持续增长并保持相对稳定（绿色圆点代表内容更新节点！）：
 
-![Image 35: Ahrefs 性能图表，展示了自然搜索流量的增长，绿色圆圈用来标记内容更新的时间点](images/screenshot-organic-traffic-RXAZTU2C.png)
+![Image 35: Ahrefs 性能图表，展示了自然搜索流量的增长，绿色圆圈用来标记内容更新的时间点](images/screenshot-organic-traffic-RXAZTU2C.webp)
 
 关键在于保持页面优化的持续性——小幅、持续的改进会随着时间累积，带来远超预期的可见度提升。

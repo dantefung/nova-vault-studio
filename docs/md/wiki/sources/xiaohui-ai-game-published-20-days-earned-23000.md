@@ -31,11 +31,11 @@ coverImage: "../images/xiaohui-ai-game-published-20-days-earned-23000/001.jpg"
 
 虽然前两款游戏反响平平，但我的第三款游戏《无为修仙传》，却在 steam 平台拿到了非常不错的结果。
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/002.jpg)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/002.webp)
 
 截至本文撰写时，我的这款仙侠风格放置游戏卖出了 2600 多份，净营收 3493 美元，合人民币 23000 多元。
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/003.png)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/003.webp)
 
 虽然这个成绩算不上是大爆款，但是却为 AI 游戏开发这条赛道的可行性，给出了有力的证明。
 
@@ -67,7 +67,7 @@ coverImage: "../images/xiaohui-ai-game-published-20-days-earned-23000/001.jpg"
 
 比如我们经常看到的放置游戏、Roguelike 游戏、塔防游戏、卡牌游戏、模拟经营游戏，其中就有相当一部分来自独立开发者。
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/004.jpg)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/004.webp)
 
 而 AI 技术的出现，恰恰给独立游戏开发带来了巨大的机会。
 
@@ -125,7 +125,7 @@ AI 并没有让一个普通人瞬间变成一个拥有十年经验的游戏开�
 
 代表作：《Melvor Idle》
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/005.png)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/005.webp)
 
 ### 2.卡牌类游戏
 
@@ -141,7 +141,7 @@ AI 并没有让一个普通人瞬间变成一个拥有十年经验的游戏开�
 
 代表作：《杀戮尖塔》
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/006.jpg)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/006.webp)
 
 ### 3.文字冒险类游戏
 
@@ -161,13 +161,13 @@ AI 并没有让一个普通人瞬间变成一个拥有十年经验的游戏开�
 
 代表作：《沙耶之歌》
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/007.jpg)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/007.webp)
 
 如何寻找某一类型的爆款游戏呢？这里推荐一个不错的中文游戏社区：小黑盒。
 
 steam 上的所有游戏，都可以在小黑盒平台上找到比较精确的数据统计，包括游戏在线人数、平均游戏时长、小黑盒玩家数等等。
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/008.jpg)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/008.webp)
 
 根据这些数据，我们可以判断出哪些游戏比较火，哪些游戏值得我们去学习借鉴。
 
@@ -183,7 +183,7 @@ steam 上的所有游戏，都可以在小黑盒平台上找到比较精确的�
 
 ### 1.付费买断
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/009.png)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/009.webp)
 
 付费买断是独立游戏最常见、也最容易理解的一种变现方式。所谓买断制，就是玩家支付一次费用之后，就可以永久拥有这款游戏。
 
@@ -195,7 +195,7 @@ steam 上的所有游戏，都可以在小黑盒平台上找到比较精确的�
 
 ### 2.广告变现
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/010.png)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/010.webp)
 
 第二种常见方式，是广告变现。
 
@@ -213,7 +213,7 @@ steam 上的所有游戏，都可以在小黑盒平台上找到比较精确的�
 
 ### 3. 游戏内购
 
-![](../images/xiaohui-ai-game-published-20-days-earned-23000/011.png)
+![](../images/xiaohui-ai-game-published-20-days-earned-23000/011.webp)
 
 第三种方式，是游戏内购。这也是很多免费游戏最主要的盈利模式之一。
 

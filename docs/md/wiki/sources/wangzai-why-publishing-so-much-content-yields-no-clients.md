@@ -34,7 +34,7 @@ coverImage: "../images/wangzai-why-publishing-so-much-content-yields-no-clients/
 
 内容和成交之间缺少的部分，叫营销。
 
-![参与过的项目案例](../images/wangzai-why-publishing-so-much-content-yields-no-clients/002.jpg)
+![参与过的项目案例](../images/wangzai-why-publishing-so-much-content-yields-no-clients/002.webp)
 
 ## 一、营销从研究客户开始
 

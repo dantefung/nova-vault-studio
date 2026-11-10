@@ -270,7 +270,7 @@ User：
 
 Hindsight 对这段对话进行处理，将原始内容保存到 `documents`，并提取出相关记忆：
 
-![Hindsight 事实提取与实体关联过程](../images/zeroagent-12-longterm-memory-management/001.png)
+![Hindsight 事实提取与实体关联过程](../images/zeroagent-12-longterm-memory-management/001.webp)
 
 这里需要区分两个概念：**Entity 是「谁或什么」，Memory Unit 是「关于它的事实」**。例如：
 
@@ -293,7 +293,7 @@ Entity 本身并不表达完整事实。只有将实体与 Memory Unit 关联起
 
 此时是一个新的 Session，Agent 本身可能没有 Session A 的上下文。Hindsight 执行 `recall`，从已有记忆中检索出与 Frank 相关的事实：
 
-![Hindsight 跨 Session 事实召回与上下文注入](../images/zeroagent-12-longterm-memory-management/002.png)
+![Hindsight 跨 Session 事实召回与上下文注入](../images/zeroagent-12-longterm-memory-management/002.webp)
 
 由此可见，**跨 Session 记忆的关键，不是 Agent 记住了 Session A 的聊天记录，而是 Hindsight 将 Session A 转化为持久化的结构化记忆，并在 Session B 中重新检索出来。**
 

@@ -17,7 +17,7 @@ url: "https://x.com/AYi_AInotes/status/2068737467021500651"
 
 X认证的英文名、Stripe里的Legal name、你Wise账户或香港银行卡的持卡人姓名，这三个名字，必须像照镜子一样，一模一样。全部用拼音，全部用大写。一个空格不对，一个大小写不一致，后面全白费。
 
-![](../images/x-creator-monetization-2026/001.jpg)
+![](../images/x-creator-monetization-2026/001.webp)
 
 记住这个，我们正式出发。
 

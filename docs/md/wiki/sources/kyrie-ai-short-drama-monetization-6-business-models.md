@@ -83,7 +83,7 @@ DataEye 剧查查那边给过三个数字，我觉得是理解整件事最省力
 
 先看个人手搓一条 3 分钟、50 个镜头的完整成本：
 
-![](../images/kyrie-ai-short-drama-monetization-6-business-models/002.jpg)
+![](../images/kyrie-ai-short-drama-monetization-6-business-models/002.webp)
 
 返工那一项才是真正吃钱的地方。经验不足的创作者返工率超过 50%，一个镜头平均要跑两三版才能用，这部分 API 费用全是纯损耗。
 
@@ -97,7 +97,7 @@ DataEye 剧查查那边给过三个数字，我觉得是理解整件事最省力
 
 自己按乘法算一遍：成本 3000 元的剧，需要 600 万播放才回本；成本 5000 元的剧，需要 1000 万播放。
 
-![](../images/kyrie-ai-short-drama-monetization-6-business-models/003.jpg)
+![](../images/kyrie-ai-short-drama-monetization-6-business-models/003.webp)
 
 而 AI 漫剧目前的平均播放量，大多在几十万到两三百万之间。2025 年的一份统计里，三万多部样本中，全年累计播放不足百万的有 30042 部，占比约 80%。
 
@@ -153,7 +153,7 @@ DataEye 剧查查那边给过三个数字，我觉得是理解整件事最省力
 
 只要片子里有真人出镜、有实景，剪辑、场景渲染、特效、字幕照样可以交给 AI。这样既能拿真人的分账系数，又能拿 AI 工具补贴。一条走廊，两头都发钱。
 
-![](../images/kyrie-ai-short-drama-monetization-6-business-models/004.jpg)
+![](../images/kyrie-ai-short-drama-monetization-6-business-models/004.webp)
 
 这条路的门槛也不高。找一个演员、一个场地，拍够能过判定标准的实拍素材，剩下九成的工作量交给 AI。它比纯 AI 贵，但贵出来的部分平台替你补回来了，而且过审率高得多。
 
@@ -241,7 +241,7 @@ DataEye 剧查查那边给过三个数字，我觉得是理解整件事最省力
 
 看完播率、留存率、弹幕热词。同一个剧情做两个不同开场做 A/B，留下完播率高的那版。第一部先别惦记爆款。把流程跑通，看看哪个题材、哪种节奏在这个平台的完播率更高，再顺着数据迭代。
 
-![](../images/kyrie-ai-short-drama-monetization-6-business-models/005.jpg)
+![](../images/kyrie-ai-short-drama-monetization-6-business-models/005.webp)
 
 最后说一句产能的现实。个人手搓、还要自己设计各类资产的话，日均产能大概只有 2 分钟内容。一条 3 分钟的短剧，从剧本到提示词到合成，至少要投入 8 到 15 个小时。
 
@@ -347,7 +347,7 @@ https://x.com/KyrieCheungYep/status/2080133281832677506
 
 已经有 AI 短剧里孵化出的虚拟角色长出了独立的商业生命：有自己的粉丝群，开始直播带货，产生剧外收入。
 
-![](../images/kyrie-ai-short-drama-monetization-6-business-models/006.jpg)
+![](../images/kyrie-ai-short-drama-monetization-6-business-models/006.webp)
 
 还有一种活法没排进这六个位置：卖课。行业里有个公开的秘密，转型做 AI 短剧培训，半年利润能做到亲自做剧的八倍。我知道它赚钱，但我不推荐。市面上大部分课程教的东西，网上就能直接搜到，用的也是那几个常见应用。有人花 7800 元买课，又花近一万做出一部剧，结果每集播放连一千都难。
 

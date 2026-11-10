@@ -310,20 +310,20 @@ split again
 
 [img-0]:https://csdnimg.cn/release/blog_editor_html/release2.1.4/ckeditor/plugins/CsdnLink/icons/icon-default.png?t=M5H6
 
-[img-1]:images/03-01-plantuml-activity/p01.png
+[img-1]:images/03-01-plantuml-activity/p01.webp
 
-[img-2]:images/03-01-plantuml-activity/p02.png
+[img-2]:images/03-01-plantuml-activity/p02.webp
 
-[img-3]:images/03-01-plantuml-activity/p03.png
+[img-3]:images/03-01-plantuml-activity/p03.webp
 
-[img-4]:images/03-01-plantuml-activity/p04.png
+[img-4]:images/03-01-plantuml-activity/p04.webp
 
-[img-5]:images/03-01-plantuml-activity/p05.png
+[img-5]:images/03-01-plantuml-activity/p05.webp
 
-[img-6]:images/03-01-plantuml-activity/p06.png
+[img-6]:images/03-01-plantuml-activity/p06.webp
 
-[img-7]:images/03-01-plantuml-activity/p07.png
+[img-7]:images/03-01-plantuml-activity/p07.webp
 
-[img-8]:images/03-01-plantuml-activity/p08.png
+[img-8]:images/03-01-plantuml-activity/p08.webp
 
-[img-9]:images/03-01-plantuml-activity/p09.png
+[img-9]:images/03-01-plantuml-activity/p09.webp

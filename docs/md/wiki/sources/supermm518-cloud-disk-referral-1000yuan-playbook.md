@@ -23,7 +23,7 @@ coverImage: "../images/supermm518-cloud-disk-referral-1000yuan-playbook/001.jpg"
 
 截至当时的后台记录，我的累计收益已经到了 1172.04 元，近 7 日 390.80 元。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/002.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/002.webp)
 
 说实话，这个数字在很多人眼里不算什么。但对我来说，从一天几毛钱做到现在，中间有不少东西值得拿出来聊聊。
 
@@ -119,7 +119,7 @@ https://x.com/supermm518/status/2110723386133614603
 
 那次突然多出 100 多元，让我第一次真正感受到：做网盘推广，不能只盯着那 0.47 元的转存佣金。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/003.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/003.webp)
 
 当然，会员分成不是每个转存用户都会带来，更不是什么稳定被动收入。最终还要看用户需求和平台规则。
 
@@ -131,7 +131,7 @@ https://x.com/supermm518/status/2110723386133614603
 
 这样做一段时间以后，你才知道自己的收入主要来自哪一部分。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/004.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/004.webp)
 
 那段时间，虽然佣金没赚多少，我的 X 账号反倒做起来了。
 
@@ -159,7 +159,7 @@ https://x.com/supermm518/status/2110723386133614603
 
 好不容易把账号做起来了，结果说没就没。
 
-![封之前账号已经做到将近 600 关注](../images/supermm518-cloud-disk-referral-1000yuan-playbook/005.jpg)
+![封之前账号已经做到将近 600 关注](../images/supermm518-cloud-disk-referral-1000yuan-playbook/005.webp)
 
 后来我专门研究了一下 X 的相关规则，才发现有些地方确实值得提前注意。
 
@@ -233,7 +233,7 @@ X 号没了，我当时最需要解决的问题不是账号定位，而是一个
 
 其中有一份《得吃大全》相关资料，需求特别明显。
 
-![“闲鱼+抖音＋小红书”部分截图](../images/supermm518-cloud-disk-referral-1000yuan-playbook/006.jpg)
+![“闲鱼+抖音＋小红书”部分截图](../images/supermm518-cloud-disk-referral-1000yuan-playbook/006.webp)
 
 这件事给我的感受是：你不一定需要准备几百份资料才能开始验证。
 
@@ -275,7 +275,7 @@ X 号没了，我当时最需要解决的问题不是账号定位，而是一个
 
 这两类都值得研究，但不要混成同一套打法。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/007.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/007.webp)
 
 到 10 月的时候，我终于碰到一个特别典型的热点型案例。
 
@@ -341,7 +341,7 @@ GitHub 对于经常接触 AI、编程的人来说不算陌生，可对于很多�
 
 别人已经在讨论的需求，比自己凭空想象出来的需求，更值得优先验证。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/008.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/008.webp)
 
 不过，问题又来了。
 
@@ -436,7 +436,7 @@ GitHub 对于经常接触 AI、编程的人来说不算陌生，可对于很多�
 
 说到底，AI 帮你减少的是收集信息的时间，不是替你决定什么东西一定能赚钱。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/009.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/009.webp)
 
 找到热点以后，图文怎么做？
 
@@ -512,7 +512,7 @@ X 也是一样。
 
 日期平台资源主题咨询人数有效数据确认收益 10 月 X 日抖音资料 A 后台或人工统计以推广后台为准结算后填写 10 月 X 日微博资料 B 后台或人工统计以推广后台为准结算后填写
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/010.png)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/010.webp)
 
 这张表只是模板，不是我实际的历史收益明细。
 
@@ -564,7 +564,7 @@ X 也是一样。
 
 真正值得积累的，不只是一次转存，而是愿意持续回来找你的用户。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/011.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/011.webp)
 
 你能持续给人家提供价值，人家才会慢慢信任你。
 
@@ -626,7 +626,7 @@ X 也是一样。
 
 我现在就在做网盘拉新自动化工作台，有些环节已经跑通，但完整流程还在测试，没有实现稳定的全自动闭环。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/012.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/012.webp)
 
 后面我会专门写一篇，复盘这套工作台怎么开发、踩了哪些坑、哪些功能真正有用。
 
@@ -672,7 +672,7 @@ X 也是一样。
 
 后面会继续分享真实项目、AI 工具和自己下场的实测复盘。
 
-![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/013.jpg)
+![](../images/supermm518-cloud-disk-referral-1000yuan-playbook/013.webp)
 
 ## 相关页面
 

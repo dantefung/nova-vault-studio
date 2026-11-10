@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "左海 (@heizolshao)"
 url: "https://x.com/heizolshao/status/2117151530835124434"
-coverImage: "../images/heizolshao-reddit-traffic-intercept-100m-site/001.jpg"
+coverImage: "../images/heizolshao-reddit-traffic-intercept-100m-site/001.webp"
 ---
 
 # 左海（@heizolshao）：月访 1.05 亿老牌站还在 Reddit 导流——垂直社区截流真实痛点实操
@@ -25,7 +25,7 @@ coverImage: "../images/heizolshao-reddit-traffic-intercept-100m-site/001.jpg"
 
 昨天那篇讲《如何挖掘低竞争、高搜索量需求》的实操长文还没看过的，建议大家在看看，然后配合这套逻辑看就彻底明白怎么赚钱了吧。
 
-![](../images/heizolshao-reddit-traffic-intercept-100m-site/001.jpg)
+![](../images/heizolshao-reddit-traffic-intercept-100m-site/001.webp)
 
 https://x.com/heizolshao/status/2116854372885991722
 

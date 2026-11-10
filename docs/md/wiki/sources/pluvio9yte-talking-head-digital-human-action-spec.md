@@ -23,7 +23,7 @@ coverImage: "../images/pluvio9yte-talking-head-digital-human-action-spec/001.jpg
 
 [https://github.com/Pluviobyte/awesome-talking-head-skills](https://github.com/Pluviobyte/awesome-talking-head-skills)
 
-![](../images/pluvio9yte-talking-head-digital-human-action-spec/002.jpg)
+![](../images/pluvio9yte-talking-head-digital-human-action-spec/002.webp)
 
 这个仓库我也会不断完善和增进，多收集一些博主的案例，然后将他们的风格都整理一下，争取后面数字人能够有越来越多的参考
 
@@ -55,7 +55,7 @@ coverImage: "../images/pluvio9yte-talking-head-digital-human-action-spec/001.jpg
 
 底线：只学动作节奏，不拿对方的肖像、服饰和场景。参考视频只给 Agent 拉片，不要喂给生图或生视频模型，否则别人的外貌会串进成片。这一步的产出，是一份不含博主姓名和外貌的纯文字动作规范。
 
-![](../images/pluvio9yte-talking-head-digital-human-action-spec/003.jpg)
+![](../images/pluvio9yte-talking-head-digital-human-action-spec/003.webp)
 
 ## 第二步：让 Agent 生成标准「动作说明书」
 
@@ -91,7 +91,7 @@ coverImage: "../images/pluvio9yte-talking-head-digital-human-action-spec/001.jpg
 
 「禁止动作」格外重要。长指令下模型容易发散，提前写死负面约束，能减少手指变形、粘连和乱动。
 
-![](../images/pluvio9yte-talking-head-digital-human-action-spec/004.jpg)
+![](../images/pluvio9yte-talking-head-digital-human-action-spec/004.webp)
 
 ## 第三步：接入 Renoise MCP，打通全流程链路
 
@@ -131,7 +131,7 @@ Renoise MCP 相当于给 Agent 接上手脚和工作台：在对话里提需求�
 
 所以：任何 Agent 搭配 Renoise MCP，都能做出 Opus 5.5 的效果。Codex、WorkBuddy、豆包，只要能接入，都能当这个导演和剪辑师。
 
-![](../images/pluvio9yte-talking-head-digital-human-action-spec/005.jpg)
+![](../images/pluvio9yte-talking-head-digital-human-action-spec/005.webp)
 
 ## 实操层面的几点注意事项
 

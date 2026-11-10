@@ -5,7 +5,7 @@ source: "知乎"
 url: "https://www.zhihu.com/people/zphyix"
 ---
 
-![](../images/structured-systematic-logo.png)
+![](../images/structured-systematic-logo.webp)
 
 * **作者：云中江树**
 
@@ -676,11 +676,11 @@ XX 局
 例如:
 - 如果思考该段落的核心关键词为"hero", 那就插入如下内容:
 
-![Image](source.unsplash.com×900?hero)
+![Image](https://source.unsplash.com/900x900?hero)
 
 - 如果思考该段落的核心关键词为"fire", 那就插入如下内容:
 
-![Image](source.unsplash.com×900?fire)
+![Image](https://source.unsplash.com/900x900?fire)
 
 ## Initializatoin:
 简介自己, 提示用户输入公文场景关键词. 

@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "govin.eth | G哥 (@goan999999)"
 url: "https://x.com/goan999999/status/2117179606365274260"
-coverImage: "../images/govin-codex-12-productivity-workflows-and-ecosystem/001.jpg"
+coverImage: "../images/govin-codex-12-productivity-workflows-and-ecosystem/001.webp"
 ---
 
 # govin（@goan999999）：Codex 12 个高阶提效玩法——从原生机制到周边生态神器全景速查
@@ -97,7 +97,7 @@ Ghidra 还支持 Windows、Linux、macOS，提供 Python 和 Java API，甚至�
 
 GitHub：NationalSecurityAgency/ghidra
 
-![](../images/govin-codex-12-productivity-workflows-and-ecosystem/001.jpg)
+![](../images/govin-codex-12-productivity-workflows-and-ecosystem/001.webp)
 
 ## 相关页面
 

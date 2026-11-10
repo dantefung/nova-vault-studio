@@ -29,7 +29,7 @@ Paul Graham｜原作 How to Lose Time and Money，2010 年 7 月
 
 解决办法是学会建立新的警报。这并不容易。阻止我们过度消费的警觉非常基础，甚至可能写在我们的 DNA 里；但防范糟糕投资的警觉，却需要学习，有时还很违反直觉。
 
-![](../images/jaden-paul-graham-how-time-and-money-are-lost/002.jpg)
+![](../images/jaden-paul-graham-how-time-and-money-are-lost/002.webp)
 
 毕沙罗《冬晨蒙马特大道》，1897。纽约大都会艺术博物馆藏。 [图像来源](https://www.metmuseum.org/art/collection/search/437310)
 
@@ -41,7 +41,7 @@ Paul Graham｜原作 How to Lose Time and Money，2010 年 7 月
 
 可那些毫无进展的日子，并不会触发同样的警报。因为我做的事情，表面上很像真正的工作。比如处理电子邮件。你坐在办公桌前做这些事，又不觉得有趣，那它当然就算工作了。
 
-![](../images/jaden-paul-graham-how-time-and-money-are-lost/003.jpg)
+![](../images/jaden-paul-graham-how-time-and-money-are-lost/003.webp)
 
 柯罗《画室中阅读的女人》，约 1868。美国国家美术馆藏。 [图像来源](https://www.nga.gov/artworks/66407-woman-reading-studio)
 
@@ -49,7 +49,7 @@ Paul Graham｜原作 How to Lose Time and Money，2010 年 7 月
 
 但世界已经变得更复杂了。如今最危险的陷阱，是一些模仿更高尚行为的新做法，它们绕过了我们对自我放纵的警觉。更糟的是，这些事甚至一点也不好玩。
 
-![](../images/jaden-paul-graham-how-time-and-money-are-lost/004.jpg)
+![](../images/jaden-paul-graham-how-time-and-money-are-lost/004.webp)
 
 修拉《大碗岛的星期日下午》，1884–1886。芝加哥艺术博物馆藏。 [图像来源](https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884)
 

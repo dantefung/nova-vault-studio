@@ -12,11 +12,11 @@ url: "https://new.web.cafe/tutorial/detail/c7256c608dc041239df6c8badfdfdd52"
 
 # 用户协议、隐私政策生成器居然很赚钱
 
-![image.png](images/privacy-policy-generator-profit/img_002.png)
+![image.png](images/privacy-policy-generator-profit/img_002.webp)
 
 用户协议生成器，隐私政策生成器，居然有人投广告，说明能够赚回来。
 
-![image.png](images/privacy-policy-generator-profit/img_003.png)
+![image.png](images/privacy-policy-generator-profit/img_003.webp)
 
 ## 定价与变现路径
 
@@ -26,29 +26,29 @@ url: "https://new.web.cafe/tutorial/detail/c7256c608dc041239df6c8badfdfdd52"
 
 如果全部都选择 yes，一份使用协议，你需要支付 138 美元。
 
-![image.png](images/privacy-policy-generator-profit/img_004.png)
+![image.png](images/privacy-policy-generator-profit/img_004.webp)
 
-![image.png](images/privacy-policy-generator-profit/img_005.png)
+![image.png](images/privacy-policy-generator-profit/img_005.webp)
 
 过去 12 个月时间，这个网站 `termify.io` 花了 29.8 万美元广告费。
 
-![image.png](images/privacy-policy-generator-profit/img_006.png)
+![image.png](images/privacy-policy-generator-profit/img_006.webp)
 
 基本就是围绕着隐私政策、用户协议等相关关键词来投。
 
 既然他愿意持续不断的花广告费出去，就说明他能够赚回来。
 
-![image.png](images/privacy-policy-generator-profit/img_007.png)
+![image.png](images/privacy-policy-generator-profit/img_007.webp)
 
 投得更狠的是 `iubenda.com`，过去 12 个月，移动端和 PC 端总共花了 480 万美元。
 
-![image.png](images/privacy-policy-generator-profit/img_008.png)
+![image.png](images/privacy-policy-generator-profit/img_008.webp)
 
 ## 关键词布站案例
 
 - [https://www.termsofusegenerator.net/](https://www.termsofusegenerator.net/)
 
-![image.png](images/privacy-policy-generator-profit/img_009.png)
+![image.png](images/privacy-policy-generator-profit/img_009.webp)
 
 - [https://www.privacypolicygenerator.info/](https://www.privacypolicygenerator.info/)
 

@@ -772,37 +772,37 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        19/19
 
 ### 第 1 页 — 001-p01.jpeg
 
-![001-p01.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/001-p01.jpeg)
+![001-p01.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/001-p01.webp)
 
 ### 第 2 页 — 002-p02.jpeg
 
-![002-p02.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/002-p02.jpeg)
+![002-p02.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/002-p02.webp)
 
 ### 第 3 页 — 003-p03.jpeg
 
-![003-p03.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/003-p03.jpeg)
+![003-p03.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/003-p03.webp)
 
 ### 第 4 页 — 004-p04.jpeg
 
-![004-p04.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/004-p04.jpeg)
+![004-p04.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/004-p04.webp)
 
 ### 第 5 页 — 005-p05.jpeg
 
-![005-p05.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/005-p05.jpeg)
+![005-p05.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/005-p05.webp)
 
 ### 第 9 页 — 006-p09.jpeg
 
-![006-p09.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/006-p09.jpeg)
+![006-p09.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/006-p09.webp)
 
 ### 第 15 页 — 007-p15.jpeg
 
-![007-p15.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/007-p15.jpeg)
+![007-p15.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/007-p15.webp)
 
 ### 第 16 页 — 008-p16.jpeg
 
-![008-p16.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/008-p16.jpeg)
+![008-p16.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/008-p16.webp)
 
 ### 第 17 页 — 009-p17.jpeg
 
-![009-p17.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/009-p17.jpeg)
+![009-p17.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/009-p17.webp)
 

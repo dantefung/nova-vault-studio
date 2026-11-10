@@ -50,7 +50,7 @@ SEO 内容是指为了在搜索引擎中获取排名而设计的内容。它的�
 
 例如，这是一家烘焙用品商店经过验证的主题：
 
-![Image 1: Ahrefs Keywords Explorer 截图，显示“paper bakery cups”的关键词数据](images/screenshot-paper-bakery-cups-IXHXZQ7C.png)
+![Image 1: Ahrefs Keywords Explorer 截图，显示“paper bakery cups”的关键词数据](images/screenshot-paper-bakery-cups-IXHXZQ7C.webp)
 
 它具备良好的商业潜力和流量潜力，并且从关键词难度 (KD) 评分来看，排名似乎相对容易。
 
@@ -72,11 +72,11 @@ SEO 内容是指为了在搜索引擎中获取排名而设计的内容。它的�
 
 Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链接数量计算得出的，它是筛选关键词列表的一种高效方式。尽管如此，在决定布局某个主题之前，深入调研其排名难度依然非常有必要。更多内容请参阅[我们的关键词难度指南](https://ahrefs.com/zh/blog/keyword-difficulty/)。
 
-![Image 2: Ahrefs 词匹配报告截图，展示使用关键词筛选后的结果](images/screenshot-matching-terms-57NQG2UI.png)
+![Image 2: Ahrefs 词匹配报告截图，展示使用关键词筛选后的结果](images/screenshot-matching-terms-57NQG2UI.webp)
 
 最后，通过 SERP 概览查看排名靠前的页面及其数据。由于很多页面反向链接极少且来自知名度较低的品牌，那么这就是一个非常有潜力的关键词。
 
-![Image 3: Ahrefs SERP 概览截图，显示排名靠前页面及其反向链接数据](images/screenshot-serp-overview-backlinks-FCQPPHMV.png)
+![Image 3: Ahrefs SERP 概览截图，显示排名靠前页面及其反向链接数据](images/screenshot-serp-overview-backlinks-FCQPPHMV.webp)
 
 ### 分析搜索意图
 
@@ -84,7 +84,7 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 当我们更好地匹配了搜索意图后，我们的一篇博客文章发生了如下变化：
 
-![Image 4: 截图显示匹配搜索意图带来的流量提升前后对比](images/screenshot-before-after-AXRTRPB3.png)
+![Image 4: 截图显示匹配搜索意图带来的流量提升前后对比](images/screenshot-before-after-AXRTRPB3.webp)
 
 像 _“如何在没有机器的情况下在家制作浓缩咖啡”_ 这样的关键词，很容易猜到其背后的搜索意图。信息就在关键词里：用户想学习如何在家里、不使用意式咖啡机的情况下做出好咖啡。
 
@@ -98,7 +98,7 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 这些信息不在关键词里，但存在于搜索结果中。如果一篇文章针对某个特定关键词排名很好，那它很可能就是提供了用户想要的东西。现有的搜索结果可以提供一份路线图，帮助你理解并匹配搜索意图。
 
-![Image 5: 截图显示与浓缩咖啡相关的关键词的搜索结果](images/screenshot-espresso-RSHIBRIH.png)
+![Image 5: 截图显示与浓缩咖啡相关的关键词的搜索结果](images/screenshot-espresso-RSHIBRIH.webp)
 “espresso”的大多数排名靠前的结果都聚焦于定义和基础说明。
 
 要识别搜索意图，请查看 Google 上排名靠前的结果，并判断搜索意图的三个 C：
@@ -111,7 +111,7 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 例如，“neapolitan pizza dough”的排名靠前的结果全是食谱类博客文章，且“正宗”是主要的内容角度。
 
-![Image 6: “neapolitan pizza dough”的 Google 搜索结果截图，展示以“正宗”为主要角度的食谱类博客文章](images/screenshot-search-results-ACALFZDV.png)
+![Image 6: “neapolitan pizza dough”的 Google 搜索结果截图，展示以“正宗”为主要角度的食谱类博客文章](images/screenshot-search-results-ACALFZDV.webp)
 
 在大多数情况下，你的内容应该采用与当前高排名内容相似的方式（是相似而不是照搬，后面会细说）。一旦你确信自己提供了用户想要的东西，就该进入页面 SEO 的细节部分了。
 
@@ -123,7 +123,7 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 进入 **Keywords Explorer**，输入你的关键词，向下滚动到 **SERP 概览**，然后点击**识别意图**按钮：
 
-![Image 7: Ahrefs Keywords Explorer 的 SERP 概览截图，展示关键词“kiwi”的“识别意图”功能](images/screenshot-serp-overview-kiwi-PSS6H5EO.png)
+![Image 7: Ahrefs Keywords Explorer 的 SERP 概览截图，展示关键词“kiwi”的“识别意图”功能](images/screenshot-serp-overview-kiwi-PSS6H5EO.webp)
 
 在这里你可以看到，预计有 49% 的流量流向了关于猕猴桃的基础信息页面。但还有另一个值得考虑的切入角度：预计有 19% 的流量特别关注的是食用猕猴桃的 _健康益处_。
 
@@ -141,13 +141,13 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 *   **YMYL 主题：**正式的专业素养非常重要，但对于某些主题来说，“日常专业性”也已足够。例如，癌症患者可能比医生更擅长回答“患癌是一种怎样的体验”。
 
-![Image 9: Chris Haines 作者页面截图，展示其 SEO 经验与资历](images/screenshot-chris-haines-KBI4YBL2.png)
+![Image 9: Chris Haines 作者页面截图，展示其 SEO 经验与资历](images/screenshot-chris-haines-KBI4YBL2.webp)
 
 请参考下方的流程图来决定，是否以及如何涵盖某个主题。
 
 如何判断是否要覆盖某个主题
 
-![Image 10: 流程图展示基于专业能力判断是否覆盖某个主题的决策过程](images/image-flowchart-UVPKHS5V.png)
+![Image 10: 流程图展示基于专业能力判断是否覆盖某个主题的决策过程](images/image-flowchart-UVPKHS5V.webp)
 
 此外，还有一些页面元素也能提供帮助：
 
@@ -167,7 +167,7 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 全面的内容对读者很有价值，同时也会提高你的文章在更多关键词上获得排名的概率。在下图中，我们可以看到一篇名为 _How to brew espresso_ 的文章在 712 个关键词上获得了排名，其中包括 _how to make espresso at home_ 和 _espresso shot_ 等词：
 
-![Image 11: Ahrefs 截图，展示一篇“如何冲煮浓缩咖啡”文章的自然搜索关键词](images/screenshot-keywords-how-to-brew-espresso-HFHX4LRL.png)
+![Image 11: Ahrefs 截图，展示一篇“如何冲煮浓缩咖啡”文章的自然搜索关键词](images/screenshot-keywords-how-to-brew-espresso-HFHX4LRL.webp)
 
 重要的是，做到 _全面_ 并不总是意味着要 _写得很长。_ 内容可以既全面实用，又保持简洁，这取决于主题本身。如果读者只是想找一个快速定义，或者——恕我直言——一份食谱，上千字的内容有时反而会造成干扰。
 
@@ -183,19 +183,19 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 你也可以阅读排名靠前的内容来获取灵感，比如这段关于 _moka pot espresso_ 的内容：
 
-![Image 12: 截图展示一篇全面覆盖浓缩咖啡冲煮方法的内容示例](images/screenshot-moka-pot-espresso-HLOFCZOO.png)
+![Image 12: 截图展示一篇全面覆盖浓缩咖啡冲煮方法的内容示例](images/screenshot-moka-pot-espresso-HLOFCZOO.webp)
 
 或者，你也可以使用 **Site Explorer** 查看每篇文章已经获得排名的不同关键词。从这一组结果来看，_how to make espresso without an espresso machine_ 或许有覆盖的价值：
 
-![Image 13: Ahrefs Site Explorer 的截图，显示内容表现数据](images/screenshot-site-explorer-NLYB2ED6.png)
+![Image 13: Ahrefs Site Explorer 的截图，显示内容表现数据](images/screenshot-site-explorer-NLYB2ED6.webp)
 
 你还可以使用 **Content Gap** 报告对多篇文章运行此过程。在下面的截图中，我将我们的文章（已高亮）与三篇竞争对手的文章进行了比较：
 
-![Image 14: Ahrefs Content Gap 工具截图，用于找出可覆盖的子主题](images/screenshot-content-gap-STEHRY6S.png)
+![Image 14: Ahrefs Content Gap 工具截图，用于找出可覆盖的子主题](images/screenshot-content-gap-STEHRY6S.webp)
 
 点击“Show keywords”，你就能立刻看到那些你没有排名、但竞争对手有排名的关键词。在这个例子中，我们可能应该添加一个章节，讨论哪种咖啡最适合用于意式咖啡机：
 
-![Image 15: Ahrefs Content Gap 结果的截图，展示了可挖掘的关键词机会](images/screenshot-content-gap-results-6XS4RWNW.png)
+![Image 15: Ahrefs Content Gap 结果的截图，展示了可挖掘的关键词机会](images/screenshot-content-gap-results-6XS4RWNW.webp)
 
 最后，也许是最重要的一点：**运用你的常识**。
 
@@ -217,7 +217,7 @@ Ahrefs 中的关键词难度 (KD) 评分是基于排名靠前页面的反向链�
 
 SEO 工具如何导致山寨内容
 
-![Image 16: 展示 SEO 工具如何导致山寨内容的示意图](images/image-copycat-content-EO3PWWK7.png)
+![Image 16: 展示 SEO 工具如何导致山寨内容的示意图](images/image-copycat-content-EO3PWWK7.webp)
 来源：Animalz
 
 山寨内容对 SEO 来说是个问题，因为人们没有理由去链接它。而链接之所以重要，是因为它们本身就是排名因素之一。
@@ -236,13 +236,13 @@ SEO 工具如何导致山寨内容
 
 如果你在 Ahrefs 的 [Site Explorer](https://ahrefs.com/zh/site-explorer) 中使用**按反链数量排序**报告来查看我们获得链接最多的博客文章，就会发现其中大部分都是研究报告。这说明在我们这个行业里，原创研究对于获取反向链接是多么有效。
 
-![Image 17: 截图显示带有优质链接的独特内容示例](images/screenshot-best-links-JXIZ53WC.png)
+![Image 17: 截图显示带有优质链接的独特内容示例](images/screenshot-best-links-JXIZ53WC.webp)
 
 另一个技巧是，去分析人们为什么会链接到那些高排名页面。
 
 例如，我们发现某个竞争对手关于“SEO 文案写作”的页面获得了很多链接，而这归功于作者提出的一个公式。于是，我们也为自己的文章创造了一个 “ASMR 公式”。目前，它已经为我们带来了一些链接。
 
-![Image 18: 展示独特内容锚文本分析的截图](images/screenshot-anchors-SZH5OZZH.png)
+![Image 18: 展示独特内容锚文本分析的截图](images/screenshot-anchors-SZH5OZZH.webp)
 
 您知道吗？
 
@@ -272,7 +272,7 @@ SEO 工具如何导致山寨内容
 
 点击“同时提及的”切换项
 
-![Image 19: Ahrefs 相关术语报告的截图，用于找出独特的内容角度](images/screenshot-related-terms-SLQ2DNP6.png)
+![Image 19: Ahrefs 相关术语报告的截图，用于找出独特的内容角度](images/screenshot-related-terms-SLQ2DNP6.webp)
 
 ### 保持内容常青
 
@@ -280,6 +280,6 @@ SEO 工具如何导致山寨内容
 
 例如，我们的 Google 热门搜索列表的预估流量趋势会上下波动。
 
-![Image 20: 截图显示自然搜索流量随时间的增长](images/screenshot-organic-traffic-KTOFPRJW.png)
+![Image 20: 截图显示自然搜索流量随时间的增长](images/screenshot-organic-traffic-KTOFPRJW.webp)
 
 之所以会这样，是因为这个主题本身就需要新鲜的内容。用户并不想看到多年以前的 Google 热搜清单，他们想要的是最新的信息。每一次下滑都发生在我们的内容变得陈旧时，而每一次回升都发生在我们更新页面后。

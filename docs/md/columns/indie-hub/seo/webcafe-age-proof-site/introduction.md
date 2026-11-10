@@ -41,7 +41,7 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
 最后给大家留一个课后作业，请根据下图，找出哥飞前面说的那个矩阵网站，如果你找出来了，请加哥飞微信 qiayue，哥飞会给你发一个随机金额小红包。
 
-![image.png](images/gefei-age-proof-site-introduction/img_002.png)
+![image.png](images/gefei-age-proof-site-introduction/img_002.webp)
 
     💎天天
 
@@ -92,7 +92,7 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
     回复
 
 找到了
-![image](images/gefei-age-proof-site-introduction/img_009.png)
+![image](images/gefei-age-proof-site-introduction/img_009.webp)
 
     老荀
 
@@ -140,7 +140,7 @@ url: "https://new.web.cafe/tutorial/detail/kosLK6VhoQYb92BwucLb85"
 
     求助：如何找到网站呢？关键词搜索和问 gpt 都没找到
 
-![](images/gefei-age-proof-site-introduction/img_015.jpg)
+![](images/gefei-age-proof-site-introduction/img_015.webp)
 
 添加图片添加隐藏回复
 

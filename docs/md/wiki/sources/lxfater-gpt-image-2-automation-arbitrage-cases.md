@@ -41,7 +41,7 @@ GPT Image 2 这一波，你肯定刷到过
 
 但这种生意就是能成交，咸鱼随便一搜，就是服务 3k，7k 多次。
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/002.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/002.webp)
 
 但这个生意在网上估计已经有点内卷了，可是在小县城里面就不一定了，AI 还没渗透进来。
 
@@ -61,7 +61,7 @@ GPT Image 2 这一波，你肯定刷到过
 
 上小红书截图证据：
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/003.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/003.webp)
 
 提示词给你（出自@GeekCatX ）：
 
@@ -77,7 +77,7 @@ GPT Image 2 这一波，你肯定刷到过
 
 我自己跑过钓鱼的知识科普卡片，效果如下：
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/004.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/004.webp)
 
 图片效果不错吧，后面我将会以这个为案例，来演示如何自动化生成这种图片，有一台手机通过微信控制生成。
 
@@ -91,7 +91,7 @@ GPT Image 2 这一波，你肯定刷到过
 
 而且现在模型已经很强了，
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/005.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/005.webp)
 
 下面是简单的提示词：
 
@@ -135,7 +135,7 @@ GPT Image 2 这一波，你肯定刷到过
 
 他一张图都不用自己出，买单来了处理一下就够
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/006.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/006.webp)
 
 上面的图出自，@imaxichuhai 复盘帖：
 
@@ -239,7 +239,7 @@ M2.7 驱动，10 秒部署完，开箱就能用
 
 整套环境生图环境，它搭好了，具体如下图
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/007.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/007.webp)
 
 第二步：找提示词
 
@@ -251,7 +251,7 @@ M2.7 驱动，10 秒部署完，开箱就能用
 
 最后交给我一份完整提示词，直接能用
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/008.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/008.webp)
 
 第三步：存成 Skill，并且自动进化
 
@@ -275,7 +275,7 @@ M2.7 驱动，10 秒部署完，开箱就能用
 
 什么色调？
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/009.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/009.webp)
 
 我没让它这么做，而它自己看出来了
 
@@ -295,7 +295,7 @@ MaxHermes 记住的是你卡在哪，什么方法对你有用
 
 我用自然语言跟它说：根据钓鱼的主题定一个 30 天的内容计划
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/010.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/010.webp)
 
 然后，我让它每天自动生成两张手账图
 
@@ -303,7 +303,7 @@ MaxHermes 记住的是你卡在哪，什么方法对你有用
 
 具体如下图所示：
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/011.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/011.webp)
 
 我去睡觉，它还在跑
 
@@ -317,11 +317,11 @@ MaxHermes 记住的是你卡在哪，什么方法对你有用
 
 第一步：选择连接微信，具体如下图操作
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/012.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/012.webp)
 
 第二步：扫描二维码，进行配置
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/013.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/013.webp)
 
 回复 OK 后，等待一会就连接成功了。
 
@@ -329,7 +329,7 @@ MaxHermes 记住的是你卡在哪，什么方法对你有用
 
 直接输入你用什么模型，返回如下图所示，就是连接成功
 
-![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/014.jpg)
+![](../images/lxfater-gpt-image-2-automation-arbitrage-cases/014.webp)
 
 接下来，你的大部分业务都可以在微信上操作了，无需守在电脑旁边了。
 

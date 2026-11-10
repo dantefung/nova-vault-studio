@@ -31,21 +31,21 @@ url: "https://mp.weixin.qq.com/s/uncDQD6U8SonDHy55EKnyw"
 
 我们以前段时间爆火的“Nano Banana”为例：
 
-![image](./images/find-new-words-fastest-feedback/001.png)
+![image](images/find-new-words-fastest-feedback/001.webp)
 
 这个词在2025年8月之前，几乎没有搜索量，直到8月10才出现搜索量，而且一周后是飙升的搜索量，这种词就是哥飞老师所说的新词。在这一波流量中，NanoBanana.ai最早注册了相关域名并最早上线了网站，因此拿到了这个新词的流量：
 
-![image](./images/find-new-words-fastest-feedback/002.png)
+![image](images/find-new-words-fastest-feedback/002.webp)
 
 然而，并不是所有的新词都值得去做，比如这两天出现的这个词：
 
-![image](./images/find-new-words-fastest-feedback/003.png)
+![image](images/find-new-words-fastest-feedback/003.webp)
 
 搜索量突然飙升超过GPTs的搜索量。但是，这种词的飙升主要是因为某一个事件触发，事件过后流量可能就会走弱。如果我们不确定一个词是因为什么原因流量飙升，可以通过谷歌搜索一下，也可以试着让AI用联网模式查看分析一下：
 
-![image](./images/find-new-words-fastest-feedback/004.png)
+![image](images/find-new-words-fastest-feedback/004.webp)
 
-![image](./images/find-new-words-fastest-feedback/005.png)
+![image](images/find-new-words-fastest-feedback/005.webp)
 
 通过多方考证新词飙升的原因，再来决定是否把这个词做成网站来承接相应的流量。
 
@@ -55,6 +55,6 @@ url: "https://mp.weixin.qq.com/s/uncDQD6U8SonDHy55EKnyw"
 
 提到的这个网站：
 
-![image](./images/find-new-words-fastest-feedback/006.png)
+![image](images/find-new-words-fastest-feedback/006.webp)
 
-![image](./images/find-new-words-fastest-feedback/007.png)
+![image](images/find-new-words-fastest-feedback/007.webp)

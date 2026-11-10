@@ -6,7 +6,7 @@ source: "X (Twitter)"
 url: "https://x.com/JoeyDeepWorld/status/2089182089283571957"
 ---
 
-![封面图](../images/dsh-vs-continuum-acp/001.jpg)
+![封面图](../images/dsh-vs-continuum-acp/001.webp)
 
 # 从 Runtime 实验走向工程闭环：DeepSeek Harness 的工程比较
 
@@ -118,7 +118,7 @@ Agent提出了修改 ≠ 修改在候选环境中运行 ≠ 修改通过了某�
 
 本文并不把DSH与ACP当作同类产品。DSH是一套Agent harness与运行时架构；ACP则是Continuum内部专门治理系统变更的子系统。这里真正可比较的是：DSH已经实现的临时Plugin挂载能力，与Continuum通过ACP治理同类变化的方式。Continuum的材料、记忆、证据和运行底座并不由ACP替代，而是ACP作出判断的前提。
 
-![DSH 临时插件挂载示意](../images/dsh-vs-continuum-acp/002.jpg)
+![DSH 临时插件挂载示意](../images/dsh-vs-continuum-acp/002.webp)
 
 DSH回答的是：Agent可以在当前DSH进程里检查什么、动态组合什么。它已经提供了重要的基础构成：可追踪的event stream、可替换的能力接口、可逆的插件生命周期、临时Plugin的挂载与卸载，以及sandbox和approval等可替换机制。它解决了候选变化如何被产生、挂载、观察和撤下。
 

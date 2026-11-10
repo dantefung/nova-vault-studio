@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "熊叔的茅草屋 (@xionghuanwei)"
 url: "https://x.com/xionghuanwei/status/2113154235927818488"
-coverImage: "../images/xionghuanwei-wechat-official-account-traffic-monetization-rules/001.jpg"
+coverImage: "../images/xionghuanwei-wechat-official-account-traffic-monetization-rules/001.webp"
 ---
 
 # 熊叔的茅草屋（@xionghuanwei）：一天 265 收益 9 万曝光——公众号爆款赛道选择与避开真人验证 6 大硬规则
@@ -26,7 +26,7 @@ coverImage: "../images/xionghuanwei-wechat-official-account-traffic-monetization
 05. 贴图和图片尽量不要用 AI 图片，要不然容易出现真人验证。
 06. 标题少用三段和问号
 
-![](../images/xionghuanwei-wechat-official-account-traffic-monetization-rules/001.jpg)
+![](../images/xionghuanwei-wechat-official-account-traffic-monetization-rules/001.webp)
 
 ## 相关页面
 

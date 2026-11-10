@@ -42,7 +42,7 @@ https://x.com/weichen_ink/status/2105268155342012734
 
 信息可以在 BetterOPC（[https://betteropc.com/opc-communities）](https://betteropc.com/opc-communities%EF%BC%89) 或者 OPC 圈（[https://www.opcquan.com/）](https://www.opcquan.com/%EF%BC%89) 上寻找。
 
-![](../images/weichen-why-creators-should-register-sole-proprietorship/002.jpg)
+![](../images/weichen-why-creators-should-register-sole-proprietorship/002.webp)
 
 这些园区每年都有招商引资的指标，非常欢迎真实创作者和开发者落户。而且园区普遍配有专业的企业服务部门，不仅可以免费帮你代办营业执照、代记账，很多还会免费提供共享办公工位、会议室、法律咨询，甚至对接投融资。一二线城市和东部沿海地区的园区基本上都有这类扶持政策，其他地区我不熟悉，不过也可以主动去了解一下。
 
@@ -50,7 +50,7 @@ https://x.com/weichen_ink/status/2105268155342012734
 
 直接在小红书搜城市名加上创业补贴，会有一大批专门做本地企业服务的机构。
 
-![](../images/weichen-why-creators-should-register-sole-proprietorship/003.jpg)
+![](../images/weichen-why-creators-should-register-sole-proprietorship/003.webp)
 
 他们不仅会帮你代办注册，更核心的是熟悉本地各项政策，能帮你把创业补贴、社保补贴的申请材料全部整理好。我之前接触过几家，普遍模式是先签合同，等补贴真正到账后抽 10% 左右的服务费，完全不用前期垫钱，也是非常省心的路线。
 
@@ -72,7 +72,7 @@ https://x.com/weichen_ink/status/2105268155342012734
 
 - 制作门头招牌：去淘宝/拼多多搜“开户临时门牌”，花 20 块钱定制一块亚克力小招牌，写上你的个体户名字，后面银行上门拍照要用
 
-![](../images/weichen-why-creators-should-register-sole-proprietorship/004.jpg)
+![](../images/weichen-why-creators-should-register-sole-proprietorship/004.webp)
 
 - 刻公章三件套：每个街道都有公安指定的刻章点，随便选一家把执照发给他们，刻公章、财务章和法人章三件套，费用在 300 块左右
 
@@ -85,7 +85,7 @@ https://x.com/weichen_ink/status/2105268155342012734
 - 优先看本地银行或农商行，比如南京银行、苏州银行、常熟银行之类的地方性银行和农商行，他们大多有针对小微企业的优惠政策，免费开户，但是每年可能收几百块钱的费用，也有可能是免费的，一定要多家对比。
 - 最后，强烈推荐民生银行：企业开户完全免费，免收账户管理费和年费，对个体户非常友好（当然这个也是在长三角地区，其他地区建议提前电话确认）
 
-![](../images/weichen-why-creators-should-register-sole-proprietorship/005.jpg)
+![](../images/weichen-why-creators-should-register-sole-proprietorship/005.webp)
 
 民生银行开户时有两个细节注意一下：
 

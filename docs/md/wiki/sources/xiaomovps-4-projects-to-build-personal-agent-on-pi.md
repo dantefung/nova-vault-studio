@@ -4,7 +4,7 @@ date: "2026-11-09"
 source: "X/Twitter"
 author: "小墨同学 (@xiaomovps)"
 url: "https://x.com/xiaomovps/status/2119312964486352971"
-coverImage: "../images/xiaomovps-4-projects-to-build-personal-agent-on-pi/001.jpg"
+coverImage: "../images/xiaomovps-4-projects-to-build-personal-agent-on-pi/001.webp"
 ---
 
 # 小墨同学（@xiaomovps）：自己开发 Personal Agent，可以从 Pi Durable 开始的 4 个项目学习路线
@@ -59,7 +59,7 @@ Pi 是你的 Agent 启蒙，也可以成为你 Personal Agent 路上的好帮手
 
 https://t.co/LrLMmFiijw
 
-![](../images/xiaomovps-4-projects-to-build-personal-agent-on-pi/001.jpg)
+![](../images/xiaomovps-4-projects-to-build-personal-agent-on-pi/001.webp)
 
 ![video](https://pbs.twimg.com/tweet_video_thumb/HWlET5NbIAAJ7uS.jpg)
 

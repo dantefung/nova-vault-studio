@@ -275,7 +275,7 @@ domain-learning-master/
 
 ## 推荐的 30 天学习节奏
 
-![](images/geekcat-codex-domain-learning/001.png)
+![](images/geekcat-codex-domain-learning/001.webp)
 
 每天开始时问一句「请根据 progress.md 给我安排今天的学习任务」；每天结束时做一次完整复盘——总结掌握了什么、指出没掌握什么、判断薄弱点类型、更新 progress.md 和术语表、生成今日知识卡片、安排明天的任务。
 

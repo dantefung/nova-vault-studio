@@ -17,17 +17,17 @@ coverImage: "../images/aaronyi-wedding-video-custom-wizard/001.jpg"
 
 https://x.com/gkxspace/status/2087745161564492144?s=20（前段时间大火的视频）
 
-![](../images/aaronyi-wedding-video-custom-wizard/002.jpg)
+![](../images/aaronyi-wedding-video-custom-wizard/002.webp)
 
 国内外之前做这块的还是做的动画，比如国外这个 Custom Love Story（https://customlovestory.com），客单价 49 美元以上，成交四万多单，营收超 200 万美元
 
-![](../images/aaronyi-wedding-video-custom-wizard/003.jpg)
+![](../images/aaronyi-wedding-video-custom-wizard/003.webp)
 
 我这个 Skill 做的是真人化的，效果更好，我自己已经能把这套流程稳定跑通，并且制作成了引导式的 skill 方便大家使用。
 
 中间最麻烦的交互过程，我也做成了故事采集卡。新人按要求填完，一键复制发回来就行。
 
-![](../images/aaronyi-wedding-video-custom-wizard/004.jpg)
+![](../images/aaronyi-wedding-video-custom-wizard/004.webp)
 
 成片质量是这样的：（https://customlovestory.com）
 
@@ -44,7 +44,7 @@ Skill 是引导式的。新人填完采集卡，我们把相关信息和照片�
 
 整个流程一共 14 步。每次对话，它都会告诉你现在是第几步、还剩几步，以及你现在需要做什么。需要你判断的地方，它会停下来等你确认，确认好以后再继续。
 
-![](../images/aaronyi-wedding-video-custom-wizard/005.jpg)
+![](../images/aaronyi-wedding-video-custom-wizard/005.webp)
 
 我自己目前跑通一期，整体人工介入时间可以控制在一个小时以内。
 
@@ -61,7 +61,7 @@ Skill 安装指令
 > 使用 wedding-video-guided-wizard 开始一单婚礼视频。先给我能发给新人的故事采集卡，再逐步带我完成。
 > 
 
-![](../images/aaronyi-wedding-video-custom-wizard/006.png)
+![](../images/aaronyi-wedding-video-custom-wizard/006.webp)
 
 具体交互可以在 skill 执行，以下详细步骤作为辅助理解
 

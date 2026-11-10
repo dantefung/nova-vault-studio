@@ -25,11 +25,11 @@ coverImage: "../images/todaykan-xiaohongshu-complete-operations-guide/001.jpg"
 
 早期：近 7 日账号诊断
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/002.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/002.webp)
 
 现在：数据中心近 7 日数据
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/003.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/003.webp)
 
 2. 养号：先像真人，再发内容
 
@@ -47,7 +47,7 @@ coverImage: "../images/todaykan-xiaohongshu-complete-operations-guide/001.jpg"
 
 绑定社交账号
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/004.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/004.webp)
 
 每天要做的事
 
@@ -107,11 +107,11 @@ coverImage: "../images/todaykan-xiaohongshu-complete-operations-guide/001.jpg"
 
 搜「壁纸」笔记流
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/005.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/005.webp)
 
 主页展示组件
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/006.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/006.webp)
 
 4. 找对标、拆爆款、建选题库
 
@@ -127,15 +127,15 @@ coverImage: "../images/todaykan-xiaohongshu-complete-operations-guide/001.jpg"
 
 搜索「最多点赞」筛选
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/007.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/007.webp)
 
 创作者中心入口
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/008.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/008.webp)
 
 创作灵感·热点
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/009.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/009.webp)
 
 拆爆款：拆逻辑，不抄表面
 
@@ -183,15 +183,15 @@ AI 内容要标注。用 AI 写文案、做图、剪视频，发布时勾选「A
 
 发布声明（含 AI 合成等）
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/010.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/010.webp)
 
 观看来源与观看时段
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/011.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/011.webp)
 
 侵权申诉材料说明
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/012.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/012.webp)
 
 违规后怎么自救
 
@@ -223,7 +223,7 @@ AI 内容要标注。用 AI 写文案、做图、剪视频，发布时勾选「A
 
 近 7 日数据中心
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/013.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/013.webp)
 
 官方扶持别浪费
 
@@ -237,11 +237,11 @@ AI 内容要标注。用 AI 写文案、做图、剪视频，发布时勾选「A
 
 待领任务
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/014.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/014.webp)
 
 千粉成长任务
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/015.jpg)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/015.webp)
 
 7. 心态：别被流量裹挟
 

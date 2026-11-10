@@ -11,7 +11,7 @@ url: ""
 
 ## 一、一句话定义
 
-![三角色模型：缓冲池 × 价格发现器 × 流通加速器](images/prd-clothing-surplus-market/01-triple-role-model.png)
+![三角色模型：缓冲池 × 价格发现器 × 流通加速器](images/prd-clothing-surplus-market/01-triple-role-model.webp)
 
 珠三角服装尾货市场不是「卖不掉的垃圾」，而是一个 1280 亿元规模的巨型调节器——它在珠三角世界工厂的产能过剩和外需波动之间，充当了缓冲池、价格发现器和流通加速器的三重角色。
 
@@ -21,7 +21,7 @@ url: ""
 
 ## 二、纵向分析：从地摊到 1280 亿的 45 年
 
-![45年演进时间线：1980天光墟 → 2025 1280亿](images/prd-clothing-surplus-market/02-timeline-45-years.png)
+![45年演进时间线：1980天光墟 → 2025 1280亿](images/prd-clothing-surplus-market/02-timeline-45-years.webp)
 
 ### 世界工厂的副产品：尾货从第一天就注定了
 
@@ -141,7 +141,7 @@ url: ""
 
 ### 七市场差异化总览
 
-![七个市场差异化对比：价格×定位×品类×渠道](images/prd-clothing-surplus-market/03-seven-markets-comparison.png)
+![七个市场差异化对比：价格×定位×品类×渠道](images/prd-clothing-surplus-market/03-seven-markets-comparison.webp)
 
 | 市场 | 价格区间 | 定位 | 核心品类 | 适配渠道 |
 |------|----------|------|----------|----------|
@@ -155,7 +155,7 @@ url: ""
 
 ### 渠道的三次跃迁
 
-![渠道三次跃迁：传统→电商→直播](images/prd-clothing-surplus-market/04-channel-evolution-flowchart.png)
+![渠道三次跃迁：传统→电商→直播](images/prd-clothing-surplus-market/04-channel-evolution-flowchart.webp)
 
 尾货流通的渠道正在经历第三次大变革：
 
@@ -223,7 +223,7 @@ Temu 的全托管模式更是直接：低端产能直接出海。原本会流向
 
 ### 三个剧本
 
-![三个未来剧本：大概率 ⇄ 最危险 ⇄ 最乐观](images/prd-clothing-surplus-market/05-three-future-scenarios.png)
+![三个未来剧本：大概率 ⇄ 最危险 ⇄ 最乐观](images/prd-clothing-surplus-market/05-three-future-scenarios.webp)
 
 **大概率剧本（2026-2030）：两极分化**
 

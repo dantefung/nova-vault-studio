@@ -11,7 +11,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=
 
 ## 前言
 
-![image.png](images/vibe-coding-2/001.jpeg)
+![image.png](images/vibe-coding-2/001.webp)
 
 在上一篇文章中，我们揭示了 AI 生成页面千篇一律的根源—— **原子设计的标准化** 与 **AI的高频模式选择** ，并提出了解决方案： **通过提取设计 Token 来约束 AI** ，让它成为你设计语言的执行者而非决策者。今天，我们将这个理念付诸实践。
 
@@ -41,7 +41,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=
 
 这里我随便选择了一个 **Landing Page**
 
-![image.png](images/vibe-coding-2/002.jpeg)
+![image.png](images/vibe-coding-2/002.webp)
 
 ## 提取设计基因与落地页信息
 
@@ -64,7 +64,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=
 
 ## 使用Claude Chrome 插件提取落地页信息
 
-![image.png](images/vibe-coding-2/003.jpeg)
+![image.png](images/vibe-coding-2/003.webp)
 ```
 📊 Nano Banana AI 落地页面完整分析 1. 核心品牌信息  产品名称: Nano Banana 2 & Pro AI Editor 核心定位: 基于Google AI模型构建的独立AI图像编辑器 独特卖点: 超越Flux Kontext的AI图像编辑能力 Google的Nano Banana AI模型支持 专为追求自由、创意与个性的创作者设计 2. 页面结构布局 (从上到下) 导航栏部分： Logo + 品牌名称 功能菜单按钮 试试它（CTA） 灵感页面链接 使用案例 / 比较 / 价格方案 / 评论 / 常见问题 多语言切换（11种语言） 登入按钮 Hero区域： 标题：介绍 Banana Nano独立AI 图像編輯器 副标题：强调Google的Nano Banana Pro模型 描述文案：关键功能概览（文字生成图像、快速推理、高精度视觉编辑） 双CTA按钮： "试用 Banana Nano"（主要行动按钮） "将影像转为影片"（辅助行动 + 内链到Mixboard） 三个核心特性标签：一次编辑 | 多图支持 | 自然语言 3. 品牌故事区 - "Banana Nano 宇宙" 品牌理念呈现： 微型创意宇宙概念 从"nano想法"出发 强调创意自由性而非工具严谨性 关键信息：为重视自由、创意与个性的创作者而设 4. 产品功能模块 六大核心功能块（带特性说明）： 先进AI推理 - 理解提示+应用推理生成准确图像 3D物件编辑 - 2D图像中的3D关系理解与精准操作 智能图像生成 - 文字描述生成逼真图像 一致性保护 - 编辑过程中的完美一致性 深度提示理解 - 逻辑推理处理图像生成任务 上下文感知编辑 - 深度学习与推理结合理解创意意图 5. 交互式编辑器演示区 标题: "试用 Nano Banana 2 AI 编辑器" 模型选择: 7个模型选项（带成本说明） Nano Banana - 50点 Nano Banana 2 - 200点 SeeDream 4.0/4.5 GPT image-1 Flux 2/Kontext 输入控件: 图像上传区（拖拽或点击） 文本提示输入框（带示例文案） 输出区域: 生成结果实时展示 交叉推广: 链接到Mixboard无限画布协作工具 6. 产品对比表 与竞争对手的功能对比（Flux Kontext / Gemini 2.0 Flash） 对比维度：推理能力 / 3D物件操作 / 文本保留 / 空间理解 / 编辑一致性 / 复杂提示理解 包含3组真实效果对比图 例子1: 将水变成粉红色 例子2: 人物替换+风格转换 例子3: 衣服材质编辑 7. 社群灵感展示区 标题: "社群 AI 图像提示词与模板灵感" 展示形式: 网格布局（10个用户作品） 交互: "查看细节"链接 + "查看更多灵感"页面链接 8. 应用场景区 四大实际应用场景： 产品设计与行销 - 精准细节控制的产品视觉 内容创作 - 吸睛缩图、社媒图形、视频素材 数位艺术与插画 - 创意概念具象化 照片修复与增强 - 老旧/损坏照片修复 9. 定价策略模块 三层定价模型 + 月度/年度切换 方案月价年价点数/月关键特性CTA入门$7.49$89.995,000点100张/日, 基础编辑, 720p开始使用专业$16.66$199.9918,000点500张/日, 3D操作, 4K, API完整访问开始使用企业定制定制无限8K, 专属API, 24/7支持联系业务 折扣信息: 50-60%折扣标签（创造紧迫感） 10. 用户推荐区 三个真实用户评论： AIArtistPro (数位创作者) - 强调角色一致性优于Flux Kontext ContentCreator (UGC专家) - AI网红创建便利性 PhotoEditor (专业编辑器) - 单次编辑效果卓越 11. 常见问题区 (6个FAQ) 产品定义 免费方案说明 竞品对比 版本升级亮点 使用方式 功能应用范围 与Gemini关系 产品限制 12. 底部转换区 大标题: "准备体验 Nano Banana AI 吗？" 副标题: 加入候补名单优势 双CTA: "立即注册" + "试用 Demo" 13. Footer页脚 Logo + 品牌描述 4个社交媒体链接 版权信息 法律链接：隐私政策 | 服务条款 | 联系支援 关联产品链接（Ghostface AI, Scream AI等） 🎨 视觉设计要素提取 色系与风格： 现代科技感设计 微交互与渐变效果 网格布局系统 品牌色（需根据实际图片确认） 排版层级： 大标题：介绍核心价值 小标题：功能分模块说明 描述文案：3-4行简洁说明 按钮：明确CTA指向 关键数据指标显示： 成本显示（点数系统） 性能对比表格 用户数量/反馈 定价梯度
 ```
@@ -82,7 +82,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=
 
 **最终产物：**
 
-![image.png](images/vibe-coding-2/004.jpeg) ![image.png](images/vibe-coding-2/005.jpeg)
+![image.png](images/vibe-coding-2/004.webp) ![image.png](images/vibe-coding-2/005.webp)
 
 虽说不是100%还原，但是效果已经很好了。有兴趣的同学可以自行访问一下 Demo链接
 

@@ -39,7 +39,7 @@ coverImage: "../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/
 
 全中国最想要资料的那批人，天天就泡在 B 站。
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/002.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/002.webp)
 
 ## 二、现在大多数人在 B 站怎么赚钱？
 
@@ -67,7 +67,7 @@ Toy 是 B 站今年 7 月开始内测的网页互动平台。你把做好的网�
 
 它能绑定到你自己的视频上，显示在视频详情页下方，还能申请推流。公开发布以后会进 Toy 广场，没有试玩量门槛，站内也能搜到。
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/003.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/003.webp)
 
 跟好物蓝链比，Toy 最大的不同是：观众点进来之后，还能自己动手。
 
@@ -85,7 +85,7 @@ Toy 是 B 站今年 7 月开始内测的网页互动平台。你把做好的网�
 
 爆款也基本是娱乐类。「大狗大狗叫叫叫」玩了 900 多万次，SBTI 人格测试有 800 多万次。
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/004.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/004.webp)
 
 工具类只有 500 多个。
 
@@ -99,7 +99,7 @@ Toy 是 B 站今年 7 月开始内测的网页互动平台。你把做好的网�
 
 我一个没有粉丝的新号，昨天凌晨刚上线的 toy 就已经有 45 个用户了
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/005.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/005.webp)
 
 官方都明着告诉你工具没人抢了，做资料导航的更是一片空白，这还不出手更待何时？
 
@@ -107,9 +107,9 @@ Toy 是 B 站今年 7 月开始内测的网页互动平台。你把做好的网�
 
 如果你在做网盘拉新，积累了一段时间下来，现在每个月的收益都不会太差，
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/006.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/006.webp)
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/007.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/007.webp)
 
 网盘拉新的逻辑是，用户通过你的链接转存、注册，你按行为拿收益。资料只要选对了，就是一台不停转的拉新机器。
 
@@ -143,17 +143,17 @@ https://x.com/DongQingAsk/status/2119301955348824295
 
 大板块、小分类、具体资料分三层，资料像星点一样绕着星球排列，左边可以搜索和筛选。想逛的慢慢逛，知道要什么的直接搜就行了。
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/008.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/008.webp)
 
 最爽的是，Toy 的上传简单到离谱。
 
 页面做好以后就四步：准备好网页文件，上传并填写信息，提交审核，审核过了就上线。再绑到自己的视频上，观众看完点一下就进来了。
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/009.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/009.webp)
 
 当然，toy 也支持直接 agent 直接接入来完成，我就是用 codex 做好的
 
-![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/010.jpg)
+![](../images/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures/010.webp)
 
 ## 七、普通人现在冲，还来得及
 

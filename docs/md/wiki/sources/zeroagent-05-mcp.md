@@ -29,7 +29,7 @@ url: "https://mp.weixin.qq.com/s/61d6LK7SCqJuRx9KhenM1A"
 
 「计算机科学中的所有问题都可以通过增加一个间接层来解决」——这也是解耦的精髓，比如依赖倒置解耦，就是加入了新的抽象层。
 
-![MCP 的中间层解耦模型](../images/zeroagent-05-mcp/001.png)
+![MCP 的中间层解耦模型](../images/zeroagent-05-mcp/001.webp)
 
 MCP 也是**中间层解耦**。不要让 Agent 直接持有工具的实现，而是在 Agent 和工具之间插入一个中间层——**Agent 只负责「描述我需要什么能力」，中间层负责「找到并提供这些能力」**。这样，工具的增删改就不再牵动 Agent 的代码，Agent 也不用关心工具到底跑在本地、远程还是别人的服务器上。
 
@@ -49,7 +49,7 @@ MCP 的规范基于 **JSON-RPC 2.0**，采用客户端-服务器架构。Host（
 
 如下图所示，Agent（MCP Client）不需要知道工具的具体实现，只需要知道：**有哪些工具（`listTools`）、怎么调用（`callTool`）**。工具的实际执行发生在 Server 侧，结果通过协议返回。
 
-![MCP Client 与 Server 的调用关系](../images/zeroagent-05-mcp/002.png)
+![MCP Client 与 Server 的调用关系](../images/zeroagent-05-mcp/002.webp)
 
 ---
 

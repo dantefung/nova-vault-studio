@@ -17,7 +17,7 @@ url: "https://mp.weixin.qq.com/s/5zhFeM48-ipqDyIAPvRj9A"
 
 Agent-First 开发中，人的工作逐渐从亲自编码转向设计运行环境、制定规范、拆分任务和验收结果。模型可以调用工具、执行代码和修改文件后，风险也从错误回答升级为真实副作用。
 
-![AI 工程化安全问题总览](../images/ai-engineering-safety-guardrails/001.png)
+![AI 工程化安全问题总览](../images/ai-engineering-safety-guardrails/001.webp)
 
 风险分成两类：
 
@@ -37,7 +37,7 @@ Agent-First 开发中，人的工作逐渐从亲自编码转向设计运行环�
 
 聊天机器人被注入时主要污染输出；拥有工具权限的 Agent 被注入后，可能影响数据、权限和真实系统。因此目标不是宣称彻底消灭注入，而是持续压低成功率并锁死损失上限。
 
-![风险与防御层映射](../images/ai-engineering-safety-guardrails/002.png)
+![风险与防御层映射](../images/ai-engineering-safety-guardrails/002.webp)
 
 ## 核心原则
 
@@ -50,13 +50,13 @@ Agent-First 开发中，人的工作逐渐从亲自编码转向设计运行环�
 3. 状态变更必须可中断、可恢复、可回滚。
 4. 强制边界应放在模型无法修改的网络、系统和执行层，而不是只放在提示词或配置文本中。
 
-![Harness 安全体系总览](../images/ai-engineering-safety-guardrails/003.png)
+![Harness 安全体系总览](../images/ai-engineering-safety-guardrails/003.webp)
 
 ## 事前、事中、事后三个窗口
 
 四层纵深防御包括信息边界、工具系统、执行编排和系统隔离；高破坏动作还需要通过门禁层。回滚、审计和自迭代贯穿全过程。
 
-![安全护栏的三个时间窗口](../images/ai-engineering-safety-guardrails/004.png)
+![安全护栏的三个时间窗口](../images/ai-engineering-safety-guardrails/004.webp)
 
 ### 事前：缩小攻击面
 
@@ -101,7 +101,7 @@ Agent-First 开发中，人的工作逐渐从亲自编码转向设计运行环�
 - **黄卡**：循环触顶、评审分歧或模型降级，需要人决策。
 - **绿卡**：常规低风险交接自动流转并留痕。
 
-![HITL 三色卡](../images/ai-engineering-safety-guardrails/005.png)
+![HITL 三色卡](../images/ai-engineering-safety-guardrails/005.webp)
 
 #### 哨兵与熔断
 
@@ -109,7 +109,7 @@ Trip Wire 对异常先记录、提醒和暂停，而不是首次命中就直接�
 
 ### 事后：确定性裁决
 
-![事后门禁与审计](../images/ai-engineering-safety-guardrails/006.png)
+![事后门禁与审计](../images/ai-engineering-safety-guardrails/006.webp)
 
 - **硬门禁**：质量指标、安全扫描和准入条件以程序运行，任一条件失败即阻断。
 - **软门禁**：独立角色按 Rubric 审查逻辑合理但可能次优的方案。
@@ -135,7 +135,7 @@ Trip Wire 对异常先记录、提醒和暂停，而不是首次命中就直接�
 
 文章将护栏映射到需求接入、技术澄清、方案设计、方案评审、编码、代码评审、准入检查、测试、合入和发布十个阶段。
 
-![十阶段研发流水线](../images/ai-engineering-safety-guardrails/007.png)
+![十阶段研发流水线](../images/ai-engineering-safety-guardrails/007.webp)
 
 关键做法包括：
 
@@ -147,9 +147,9 @@ Trip Wire 对异常先记录、提醒和暂停，而不是首次命中就直接�
 - 测试门禁必须断言用例数大于零，避免“0/0 通过”。
 - 合入和发布只能走受控工具通道；生产发布强制红卡审批。
 
-![Subagent 角色隔离](../images/ai-engineering-safety-guardrails/008.png)
+![Subagent 角色隔离](../images/ai-engineering-safety-guardrails/008.webp)
 
-![精确回退路径](../images/ai-engineering-safety-guardrails/009.png)
+![精确回退路径](../images/ai-engineering-safety-guardrails/009.webp)
 
 ## 用 Dry Run 验证 Harness
 
@@ -174,7 +174,7 @@ Dry Run 使用虚拟需求完整走一遍流程，但不产生真实合入、发
 9. 质量可以分级，安全门必须二元 Fail-Safe。
 10. Harness 需要 Dry Run、审计、评测和持续迭代。
 
-![安全护栏时序总览](../images/ai-engineering-safety-guardrails/010.png)
+![安全护栏时序总览](../images/ai-engineering-safety-guardrails/010.webp)
 
 ## 信息边界
 

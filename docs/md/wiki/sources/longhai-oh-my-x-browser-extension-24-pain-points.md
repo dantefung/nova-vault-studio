@@ -40,7 +40,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 下面，我将把插件的 5 大模块详细介绍给你。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/002.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/002.webp)
 
 ### 01 界面与阅读
 
@@ -48,7 +48,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 支持将主时间线宽度在 600px 至 800px 范围内滑动调整。也就是下图箭头的长度能够调整。大屏上，我调到 700 还是挺舒适的。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/003.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/003.webp)
 
 2）干扰模块显隐控制
 
@@ -56,13 +56,13 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 发帖是我的高频操作，右侧边栏的搜索我也偶尔用到，并且我外接了较大显示器，所以这两个我都没隐藏过。如果你用小屏，可以考虑隐藏这两部分增加可视化范围内的有用信息。X 发帖有快捷键 N（用习惯了效率更高），搜索可以用左侧「探索」替代。下面是隐藏后的效果，确实清爽。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/004.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/004.webp)
 
 3）导航栏配置与文本标签控制
 
 提供对左侧导航栏各按钮的显隐配置，覆盖探索、通知、聊天、Grok、Premium、历史、文章、个人资料、更多、X Money 共 10 个入口。被 X 收进「更多」菜单的入口，隐藏后在菜单里也会一起隐藏。如下图所示，设置完成后，图中❶和❷完全对应。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/005.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/005.webp)
 
 同时支持设置导航文本的展现方式，包括从不显示、鼠标悬停时显示以及始终显示。
 
@@ -70,7 +70,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 在长推文、长文章阅读视图以及写作编辑器中，扩展自动提取文章大标题（H1）与副标题（H2），兼容 Markdown 语法、阿拉伯数字、中文大纲序号及全段加粗等标题形态，在页面侧边生成悬浮目录，支持点击平滑滚动跳转至对应章节。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/006.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/006.webp)
 
 ### 02 噪音过滤
 
@@ -82,7 +82,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 其中垃圾词库同样支持维护和管理。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/007.png)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/007.webp)
 
 在推文评论区提供一键提取关键词功能，可快速将评论内容或昵称中的词段追加到本地词库。
 
@@ -96,7 +96,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 折叠状态下支持点击展开查看完整推文，并可再次手动收起。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/008.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/008.webp)
 
 3）账号例外管理
 
@@ -104,7 +104,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 白名单作者的评论永不被拦截，黑名单作者的评论将被直接隐藏。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/009.png)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/009.webp)
 
 可以在回复区直接将用户拉入白名单或黑名单中。
 
@@ -112,7 +112,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 本地数据库保存最近拦截记录，并可以点进入查看拦截详情。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/010.png)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/010.webp)
 
 ### 03 数据分析
 
@@ -120,7 +120,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 我对这个指标还是挺关注的，毕竟和能否拿到马斯克老师的低保有关。之前想看一下每次都需要点好几次，干脆做到插件中。愿所有看到本文的你，都已满足条件，或者马上满足条件。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/011.png)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/011.webp)
 
 2）博主活动度统计
 
@@ -128,7 +128,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 让我们来看看乔木老师（@vista8）和蜗牛哥（@isnail）的结果。看来乔木老师更偏精品输出创造，互动交流相对偏少。蜗牛哥是勤奋的代表，发帖数量多，互动交流也很多。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/012.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/012.webp)
 
 注意，接口对调用频次有限制，如果短时间调用太多次，会有超额提醒。
 
@@ -138,7 +138,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 系统预设计算阈值并自动标定为潜力推文或爆款推文，支持以边框高亮、背景高亮或两者叠加的形式在信息流中标识符合条件的推文，辅助识别具备较高扩散速度的内容。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/013.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/013.webp)
 
 4）数据比例徽章
 
@@ -146,7 +146,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 以此可以量化推文在其受众群体的传播深度。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/014.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/014.webp)
 
 5）用户粉丝数标注
 
@@ -158,7 +158,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 「全部」：会同时处理用户卡片和所有推文头部；无论是主页时间线，还是推文下方的每一条回复者，昵称右侧都会显示其粉丝数徽章。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/015.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/015.webp)
 
 6）展示推文收藏量
 
@@ -168,7 +168,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 于是我在插件中做了获取推文的收藏数量、并将具体数值直接显示在推文底部的书签操作按钮旁的能力。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/016.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/016.webp)
 
 ### 04 创作辅助
 
@@ -178,7 +178,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 于是，我新增了在发帖编辑器中（不管是发帖、引用或者回复）提供快捷插入自己帖子或长文 URL 的功能，并且支持定时同步、快速搜索。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/017.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/017.webp)
 
 2）AI 总结转发
 
@@ -186,7 +186,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 一次生成两条转发草稿，选中一条即填充至编辑器中供二次编辑。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/018.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/018.webp)
 
 支持接入兼容 OpenAI 接口规范的大语言模型服务。
 
@@ -196,13 +196,13 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 支持定时设置弹窗与草稿箱中生成排期全景看板。看板将各个定时推文的时间点换算为相对时间倒计时，并自动计算相邻推文之间的时间间隔。针对小于 2 小时、2 至 8 小时、8 至 24 小时以及大于 24 小时等不同间距分别赋予对应的主题色，并对发帖间隔过密的情况进行提示。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/019.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/019.webp)
 
 4）本地 markdown 导入文章（非本插件）
 
 这个功能我暂时没有放到我的插件中，因为我使用的是冷酷小猫（@icycat）的[X 长文 Markdown 导入器](https://xmdpaste.icy-cat.com/zh/)，效果实在很好，就没有动力再加个轮子。当然，这个插件需要付费，你完全可以在我的插件上自己新增这个功能。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/020.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/020.webp)
 
 ### 05 互动增强
 
@@ -217,13 +217,13 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 在推文详情页面底部提供悬浮交互工具条，支持显示或者隐藏。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/021.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/021.webp)
 
 2）直达回复区
 
 这是在长文回复时发现的痛点问题，每次要去看下长文还有哪些评论没有回复，都需要拖动半天。所以在较长的推文或长文章页面右下角，新增了一个直达回复区的悬浮胶囊按钮。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/022.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/022.webp)
 
 点击后，页面会自动平滑滚动穿过长文正文，直接到达评论区与回复输入框；当页面滚动到评论区时，按钮文字会自动切换为“回到正文”，再次点击即可回到顶部。
 
@@ -233,7 +233,7 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 开启此项后，当用户在页面上回复他人推文或评论时，扩展在检测到回复提交动作后，会自动对目标推文触发点赞。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/023.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/023.webp)
 
 系统内置 300 至 700 毫秒的拟人化延迟，并具备点赞状态校验与账号比对逻辑，不会重复点击已赞推文，也不会对当前登录用户自身的内容点赞。
 
@@ -241,13 +241,13 @@ https://x.com/star_flow_ai/status/2097583620936585339
 
 在推文分享菜单中补充媒体资源下载入口，支持将图片、GIF 或视频保存至本地。下载选项的样式和 X 菜单里的其他选项一致；如果是你自己发的视频，X 菜单里已经自带「下载视频」，插件就不再重复添加。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/024.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/024.webp)
 
 5）未互关标记
 
 在「正在关注」列表页面中，扩展会自动检测并标注（红色加亮）未关注你的用户。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/025.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/025.webp)
 
 如图中的大佬们，就是我关注了，但是没有回关我的人。如果你在读这篇文章，刚好和这些大佬有链接，帮我引荐一下呀。
 
@@ -261,7 +261,7 @@ https://x.com/longhaiqwe123/status/2096810516056563908
 
 同时，如果打开了「资料卡加入列表」的功能，就能在用户头像悬浮卡片中直接将用户加入列表，无需点击进入用户主页再完成添加操作。
 
-![](../images/longhai-oh-my-x-browser-extension-24-pain-points/026.jpg)
+![](../images/longhai-oh-my-x-browser-extension-24-pain-points/026.webp)
 
 ## 写在最后
 

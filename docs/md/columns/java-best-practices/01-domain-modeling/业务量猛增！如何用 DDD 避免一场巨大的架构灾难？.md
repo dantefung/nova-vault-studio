@@ -1515,42 +1515,42 @@ dbaplus 社群欢迎广大技术人员投稿，投稿邮箱：editor@dbaplus.cn
 
 ![][img-19]
 
-[img-0]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p01.png
+[img-0]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p01.webp
 
-[img-1]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p02.png
+[img-1]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p02.webp
 
-[img-2]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p03.png
+[img-2]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p03.webp
 
-[img-3]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p04.png
+[img-3]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p04.webp
 
-[img-4]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p05.png
+[img-4]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p05.webp
 
 [img-5]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p06.gif
 
-[img-6]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p07.png
+[img-6]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p07.webp
 
-[img-7]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p08.png
+[img-7]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p08.webp
 
-[img-8]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p09.png
+[img-8]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p09.webp
 
-[img-9]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p10.png
+[img-9]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p10.webp
 
-[img-10]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p11.png
+[img-10]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p11.webp
 
-[img-11]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p12.png
+[img-11]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p12.webp
 
-[img-12]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p13.png
+[img-12]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p13.webp
 
 [img-13]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p14.gif
 
-[img-14]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p15.png
+[img-14]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p15.webp
 
-[img-15]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p16.png
+[img-15]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p16.webp
 
-[img-16]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p17.png
+[img-16]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p17.webp
 
-[img-17]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p18.jpg
+[img-17]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p18.webp
 
-[img-18]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p19.jpg
+[img-18]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p19.webp
 
-[img-19]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p20.png
+[img-19]:images/业务量猛增！如何用-DDD-避免一场巨大的架构灾难？/p20.webp

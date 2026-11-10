@@ -87,7 +87,7 @@ TOY 等于把这个门槛降下来了：用户点视频下方的「UP 主新玩�
 
 我凌晨翻了一些学习资料类的视频，播放量普遍很高，相关视频的流量都不低。现在这类账号的变现方式基本是 B 站带货、卖实体书。
 
-![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/002.png)
+![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/002.webp)
 
 真的能看到时间，1 点 52 了，还在看，因为我觉得这项目挺有搞头
 
@@ -103,7 +103,7 @@ TOY 等于把这个门槛降下来了：用户点视频下方的「UP 主新玩�
 
 我自己做了一个网盘资料 TOY 并提交了审核：
 
-![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/003.jpg)
+![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/003.webp)
 
 已经过审了，而且非常迅速就过审了，这说明，这种种类的工具，是可以过审核的
 
@@ -113,7 +113,7 @@ TOY 等于把这个门槛降下来了：用户点视频下方的「UP 主新玩�
 
 视频的播放量普遍都很高，我家里有家人参加高考，他就是在 B 站上学习找资料的，所以我对这块的需求还是有一些了解的，也是我能想到这方面的原因
 
-![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/004.jpg)
+![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/004.webp)
 
 相关提示词：
 
@@ -144,7 +144,7 @@ CPS 这个项目我之前讲过：淘宝、抖音、京东、拼多多的返利�
 
 · 用户下单后，返利记到他登录的账号下；
 
-![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/005.jpg)
+![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/005.webp)
 
 以前挂链接带货，用户自己拿不到优惠；都是直接点击评论区链接跳转到淘宝京东购买，用户没有返利，但是作者拿到佣金了，其实就是不返还给用户，纯靠着用户购买得到佣金，但是现在用户也有返利拿
 
@@ -172,7 +172,7 @@ code 不为 0 时把 msg 提示给用户（如“该商品暂无返利”）。
 
 做一个「每日领券」TOY：外卖红包、打车券分类展示，用户点「领取」复制口令，打开对应 App 就能领。点外卖、打车是高频刚需，用户会反复回来用。视频内容可以做「外卖怎么点最省钱」「打车券怎么叠加」这类省钱攻略，流量不难拿。
 
-![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/006.jpg)
+![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/006.webp)
 
 相关提示词：
 
@@ -195,11 +195,11 @@ code 不为 0 时把 msg 提示给用户（如“该商品暂无返利”）。
 
 能把号做起来，后面还有创作者激励。我做得一般，但每个月也有些收入。
 
-![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/007.jpg)
+![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/007.webp)
 
 TOY 官方提供的 SDK 里，有一个很好用的能力：检测用户有没有关注你、有没有给这条视频三连。 你可以设置成「关注 + 三连后才能使用 TOY」。
 
-![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/008.jpg)
+![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/008.webp)
 
 比如我的 TOY，就是关注并三连后才能用。
 
@@ -211,7 +211,7 @@ TOY 官方提供的 SDK 里，有一个很好用的能力：检测用户有没�
 
 · 这是 B 站官方支持、提供 SDK 的玩法，不是钻空子。
 
-![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/009.jpg)
+![](../images/dongqing-bilibili-toy-cloud-disk-cps-playbook/009.webp)
 
 实操步骤：
 

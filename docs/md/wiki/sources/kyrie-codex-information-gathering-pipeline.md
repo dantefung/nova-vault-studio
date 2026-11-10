@@ -19,7 +19,7 @@ coverImage: "../images/kyrie-codex-information-gathering-pipeline/001.jpg"
 
 这三个事情有个共同点：重复、零碎、每天都要做。单独看每一条，又都不值得你花半小时。我一开始是开十几个标签页，搜一圈，复制粘贴到 Obsidian，再手动整理。一套下来一两个小时就没了，第二天还得再来。
 
-![](../images/kyrie-codex-information-gathering-pipeline/002.jpg)
+![](../images/kyrie-codex-information-gathering-pipeline/002.webp)
 
 我把这套活交给了 Codex。早上喝咖啡的时候，它已经把昨晚的客户动态、政策更新、美股要闻整理成 Markdown，放进我的 vault，每条都带原文链接。
 
@@ -115,7 +115,7 @@ alias cxx='codex exec'
 
 这里要分清楚权限。--search 只让 Codex 通过官方搜索 API 联网，不能直接访问任意 URL。完全网络访问，也就是 Full Access，才会允许它执行 curl 访问任意资源。日常信息收集一般用 --search 就够了，能查最新内容，也不会把网络权限放得太开。
 
-![](../images/kyrie-codex-information-gathering-pipeline/003.jpg)
+![](../images/kyrie-codex-information-gathering-pipeline/003.webp)
 
 ###
 
@@ -191,7 +191,7 @@ Agent Reach 把十几个平台封装成 Codex 能直接调用的命令：搜索�
 
 我的习惯是先搜有没有现成的，再考虑自己接 MCP。别人已经趟过的坑，没必要再踩一遍。
 
-![](../images/kyrie-codex-information-gathering-pipeline/004.jpg)
+![](../images/kyrie-codex-information-gathering-pipeline/004.webp)
 
 ###
 
@@ -236,7 +236,7 @@ codex exec --json --output-schema policy.schema.json \
 
 codex exec 是非交互模式，专门给脚本和自动化用。常用参数就这几个，信息收集会反复碰到：
 
-![](../images/kyrie-codex-information-gathering-pipeline/005.jpg)
+![](../images/kyrie-codex-information-gathering-pipeline/005.webp)
 
 默认情况下，exec 跑在只读沙箱里，不会乱改你的文件。做信息收集刚好。
 

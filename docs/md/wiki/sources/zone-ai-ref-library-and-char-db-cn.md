@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "SleepyZone (@zone__online)"
 url: "https://x.com/zone__online/status/2117291865649418418"
-coverImage: "../images/zone-ai-ref-library-and-char-db-cn/001.jpg"
+coverImage: "../images/zone-ai-ref-library-and-char-db-cn/001.webp"
 ---
 
 # SleepyZone（@zone__online）：开源 AI 作图参考库与二次元角色换装数据库的中文检索站设计
@@ -35,9 +35,9 @@ https://github.com/sleepy-zone/char-db-cn
 
 晚安 ～ https://t.co/h8hLQPekOm
 
-![](../images/zone-ai-ref-library-and-char-db-cn/001.jpg)
+![](../images/zone-ai-ref-library-and-char-db-cn/001.webp)
 
-![](../images/zone-ai-ref-library-and-char-db-cn/002.jpg)
+![](../images/zone-ai-ref-library-and-char-db-cn/002.webp)
 
 ## 相关页面
 

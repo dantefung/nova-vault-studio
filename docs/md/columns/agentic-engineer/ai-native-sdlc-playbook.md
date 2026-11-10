@@ -89,7 +89,7 @@ Plan 如果只有一份文件清单，Agent 当然也能照着改。只是执行
 
 一项改动走完，大致是下面这条链。图里特意把生产反馈又接回 Intent，因为异常和经验如果没有真的写回来，闭环往往只是画得很好看。
 
-![](./images/ai-native-sdlc-playbook/001.png)
+![](images/ai-native-sdlc-playbook/001.webp)
 
 一笔重复入账走过完整 AI-Native SDLC 的流程
 
@@ -101,7 +101,7 @@ Plan 如果只有一份文件清单，Agent 当然也能照着改。只是执行
 
 前面的过程可以暂时拆成三个面来看。Anthropic 没有用"三平面架构"这个名字，这是我为了说明它们怎么配合做的一层归纳。
 
-![](./images/ai-native-sdlc-playbook/002.png)
+![](images/ai-native-sdlc-playbook/002.webp)
 
 AI-Native SDLC 的执行面、产物面与控制面
 
@@ -137,7 +137,7 @@ Agent A 没有代码写权限，但可以给 Agent B 发消息；Agent B 能写�
 
 多 Agent 协作的场景下，我倾向于把权限关系画成一张图。工具调用、Agent 之间的消息、身份切换和自动审批都要留下审计记录。单个节点看起来权限很小，连起来却可能走出一条原先没有想到的路径。
 
-![](./images/ai-native-sdlc-playbook/003.png)
+![](images/ai-native-sdlc-playbook/003.webp)
 
 从单点权限表到完整 Agent 委派链
 

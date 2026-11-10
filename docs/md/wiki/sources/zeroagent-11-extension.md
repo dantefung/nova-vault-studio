@@ -175,7 +175,7 @@ ExtensionEvent = BeforeAgentStartEvent | AgentEvent
 
 说实话，事件体系是目前在 ZeroAgent 上花费时间最多的部分。主要原因是很多设计一开始并不清晰，不知道什么样的抽象才是合理的。最后参考了 Pi Agent 的实现，结合 ZeroAgent 当前的架构，才逐渐确定了这样的分层设计。
 
-![三层事件体系示意图](../images/zeroagent-11-extension/001.png)
+![三层事件体系示意图](../images/zeroagent-11-extension/001.webp)
 
 ---
 

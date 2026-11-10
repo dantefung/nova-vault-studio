@@ -117,7 +117,7 @@ coverImage: "../images/jessicao-xiaohongshu-0-to-1-operations-guide/001.jpg"
 
 没有很多经验也可以讲真实的过程。你刚试完一个方法，发现什么地方不适合自己，就说清楚条件。不要为了做人设，把还在学习的事情写成已经替几十个客户验证过。
 
-![](../images/jessicao-xiaohongshu-0-to-1-operations-guide/002.jpg)
+![](../images/jessicao-xiaohongshu-0-to-1-operations-guide/002.webp)
 
 ## 三、找对标，是为了看懂别人怎么做
 
@@ -298,7 +298,7 @@ coverImage: "../images/jessicao-xiaohongshu-0-to-1-operations-guide/001.jpg"
 
 如果你确实有一张模板，就完整说明里面是什么、适合谁使用。没有准备好就别写“评论发你全套”。一次兑现不了的承诺，会让后续沟通变得更难。
 
-![](../images/jessicao-xiaohongshu-0-to-1-operations-guide/003.jpg)
+![](../images/jessicao-xiaohongshu-0-to-1-operations-guide/003.webp)
 
 ## 七、图文还是视频，按你要展示的东西选
 
@@ -388,7 +388,7 @@ coverImage: "../images/jessicao-xiaohongshu-0-to-1-operations-guide/001.jpg"
 
 每次复盘留下一个明确的下一步。 例如下次封面减少一层信息，或者把同一问题补成过程演示。不要写完“继续优化内容质量”就结束，因为这句话明天还不知道怎么执行。
 
-![](../images/jessicao-xiaohongshu-0-to-1-operations-guide/004.jpg)
+![](../images/jessicao-xiaohongshu-0-to-1-operations-guide/004.webp)
 
 ## 十、咨询来了，要能说明自己帮到哪一步
 
@@ -522,7 +522,7 @@ coverImage: "../images/jessicao-xiaohongshu-0-to-1-operations-guide/001.jpg"
 
 如果已经有订单，就把交付和售后也纳入复盘。一个账号的从零到一，最好包括你有能力接住需求，而不只是第一次有人愿意付钱。
 
-![](../images/jessicao-xiaohongshu-0-to-1-operations-guide/005.jpg)
+![](../images/jessicao-xiaohongshu-0-to-1-operations-guide/005.webp)
 
 ## 十三、把这几份底稿留在手边
 

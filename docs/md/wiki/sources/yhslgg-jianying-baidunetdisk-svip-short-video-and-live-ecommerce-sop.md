@@ -40,7 +40,7 @@ https://x.com/yhslgg/status/2106388709243511024
 
 直播带货单独放在第八步后面讲。下面一步一步拆。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/002.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/002.webp)
 
 短视频带货八步：千粉号、开橱窗、选品、拆爆款、写脚本、做视频、挂车、盯单。
 
@@ -75,7 +75,7 @@ https://x.com/yhslgg/status/2104418460919058651
 
 新注册的号先不急着把昵称、头像、简介填完，第四天再集中完善。养号期间简介和背景图不放联系方式。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/003.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/003.webp)
 
 养号时间轴：前三天只看不发，第四天完善资料、老号试发，第七天新号试发。
 
@@ -129,21 +129,21 @@ https://x.com/yhslgg/status/2104418460919058651
 
 下面三张是选品广场里搜“夸克网盘”“百度网盘 svip 年卡”“腾讯视频 svip”的结果页，字段位置照着对一遍就会看了。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/004.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/004.webp)
 
 选品广场搜夸克网盘的结果页：到手价、佣金、月销、好评四个字段一行排开。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/005.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/005.webp)
 
 选品广场搜百度网盘的结果页：教师卡、学生卡标题里带“认证后下单”。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/006.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/006.webp)
 
 选品广场搜腾讯视频的结果页：同一个品牌有年卡、季卡多个链接。
 
 点开任意一个链接就是商品详情页，预估每单赚多少、已售、带货人数都在这里。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/007.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/007.webp)
 
 商品详情页：到手价、预估每单赚、佣金率在上面，已售和带货人数在下面。
 
@@ -192,7 +192,7 @@ https://x.com/yhslgg/status/2104418460919058651
 
 热点宝的入口不用找，在抖音搜索框直接搜“热点宝”，第一个结果就是，点进去是“抖音热点宝”页面。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/008.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/008.webp)
 
 抖音热点宝页面：上面是视频、图文、内容词、音乐、话题、搜索六个榜，可以按垂类和时间筛。
 
@@ -221,7 +221,7 @@ https://x.com/yhslgg/status/2104418460919058651
 
 把佩琪那条 78 秒的口播拆出来，就是五件事：情绪开场、价格对比、有人在买、打消顾虑、催单。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/009.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/009.webp)
 
 口播脚本的五件事，按这个顺序填空，60 到 90 秒说完。
 
@@ -314,7 +314,7 @@ https://x.com/yhslgg/status/2104418460919058651
 
 AI 做的视频，最大的问题是“假”。解决办法不是把形象做得多逼真，而是脚本够口语、够具体——你说的东西是真的，看的人就不会太在意是不是真人。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/010.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/010.webp)
 
 做视频的三种做法：真人口播、剪映图文、AI 虚拟人。
 
@@ -341,7 +341,7 @@ AI 做的视频，最大的问题是“假”。解决办法不是把形象做�
 2. 进“账号管理”，选抖音，授权绑定你的带货账号；几个号就绑几个
 3. 绑完回首页，订单、佣金就会同步进来，之后不用再进抖音后台看
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/011.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/011.webp)
 
 抖老板首页：顶部是今天、昨天、近 7 天、近 30 天的销售额、单数、佣金，下面是逐笔订单。
 
@@ -368,7 +368,7 @@ AI 做的视频，最大的问题是“假”。解决办法不是把形象做�
 
 有单了：这时候才考虑投。小预算先投随心推，一两百块试，看投产比。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/012.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/012.webp)
 
 发出去三天后的三种情况，只有第三种才考虑投钱。
 
@@ -406,7 +406,7 @@ AI 做的视频，最大的问题是“假”。解决办法不是把形象做�
 
 券只能在你这个直播间的链接里用，别的地方用不了。所以用户要便宜，就只能在你这下单。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/013.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/013.webp)
 
 破价直播的钱怎么走：佣金 13.4，让 5 块做成券，用户便宜 5 块，你一单还剩 8.4。
 
@@ -443,15 +443,15 @@ AI 做的视频，最大的问题是“假”。解决办法不是把形象做�
 
 主播就坐在贴片前面讲，内容和短视频的五件事一样，只是循环讲：价格对比、领券、填号、秒到账、限时。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/014.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/014.webp)
 
 QQ 音乐会员 vip 直播间：左边是近 7 天 2.5 千+单、结算 50 万+，右边是直播画面，大贴片写价格，角上挂券。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/015.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/015.webp)
 
 网盘会员 VIP 直播间：近 30 天 5 千+单、结算 100 万+；中间是这个品的带货达人列表，320 个达人带过。
 
-![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/016.jpg)
+![](../images/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop/016.webp)
 
 剪映会员福利直播间：近 30 天 1 万+单、结算 100 万+；主页写着每日早 8 点到晚 24 点开播，简介提醒会员充到自己账号。
 

@@ -21,7 +21,7 @@ Codex 开始执行后，你并不只能等它跑完。
 
 如果把 Codex 比作一个正在工位上帮你干活的同事，下面这些动作分别是刹车、改工单、现场提醒、待办便签和复制工作台。
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/002.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/002.webp)
 
 ## 一、方向不对时，双击 Esc 叫停
 
@@ -41,7 +41,7 @@ Codex 开始执行后，你并不只能等它跑完。
 
 Codex 会进入停止确认状态。再按一次，才真正结束这一轮工作。这样设计是为了避免误触，毕竟很多人按 Esc，只是想关掉菜单或者退出某个输入状态。
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/003.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/003.webp)
 
 双击 Esc 后，Codex 停止当前执行。
 
@@ -85,11 +85,11 @@ Codex 在停止前已经完成的文件修改，通常仍然保留。它只是�
 
 这相当于在工单还没归档前，把错误的工单换成正确版本。接手的人不必同时理解两份互相冲突的要求。
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/004.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/004.webp)
 
 把鼠标移到最近一条消息上，点击编辑按钮。
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/005.png)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/005.webp)
 
 修改消息内容后重新发送，Codex 会重新执行这一轮。
 
@@ -103,7 +103,7 @@ Codex 正在执行时，输入框并不会锁住。你仍然可以继续发送�
 
 但这条新消息有两种完全不同的去向。
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/006.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/006.webp)
 
 ## 引导：现在就告诉它
 
@@ -159,11 +159,11 @@ Codex 正在执行时，输入框并不会锁住。你仍然可以继续发送�
 
 也就是说，平时把新消息当成待办便签排好队，发现方向需要马上修正时，再按一下引导按钮，走到工位旁边当面提醒。
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/007.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/007.webp)
 
 在设置中把“跟进行为”设为排队。
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/008.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/008.webp)
 
 需要立即影响当前执行时，点击消息旁的引导按钮。
 
@@ -177,7 +177,7 @@ Codex 正在执行时，输入框并不会锁住。你仍然可以继续发送�
 
 ## 四、想尝试另一种思路，不要推翻原任务，直接分叉
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/009.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/009.webp)
 
 有时当前对话没有错，只是你想试试另一种可能。
 
@@ -209,11 +209,11 @@ Codex 正在执行时，输入框并不会锁住。你仍然可以继续发送�
 - 从同一份分析得出不同版本的文章
 - 当前任务已经很长，想把后续子任务单独整理
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/010.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/010.webp)
 
 点击“在新任务中继续”，从当前位置分出另一条路线。
 
-![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/011.jpg)
+![](../images/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch/011.webp)
 
 新任务会标出与原任务的接续关系，原来的任务仍然保留。
 

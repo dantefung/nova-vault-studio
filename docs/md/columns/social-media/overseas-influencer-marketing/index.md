@@ -15,7 +15,7 @@ url: "https://x.com/ceoplanet519/status/2102290918577758525"
 
 一个 $100，一个 $1,200；带来的用户数量几乎一样，用户质量却完全是两回事。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img1.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img1.webp)
 
 **博主主页上的 Followers、Views、Likes 是他的数据，用户进入网站以后留下的行为数据，才真正和业务增长有关。**
 
@@ -65,7 +65,7 @@ url: "https://x.com/ceoplanet519/status/2102290918577758525"
 
 **产品启动期，小博主可能比大博主更有价值；进入增长期，需要更大的博主帮你放大已经验证过的东西；真正到了品牌期，头部博主的价值才开始从单纯的流量，变成品牌背书。**
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img2.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img2.webp)
 
 ## 二、博主去哪找？常用方法
 
@@ -77,7 +77,7 @@ url: "https://x.com/ceoplanet519/status/2102290918577758525"
 
 找到合适博主后，还可以用相关工具（如浏览器扩展中的类似频道推荐）顺藤摸瓜继续扩充候选池。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img3.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img3.webp)
 
 ### 2. 场景化关键词拆解搜索
 
@@ -97,7 +97,7 @@ YouTube 大部分商业合作邮箱可以直接在频道简介的 **About / 更�
 
 如果一个账号没有 Business Email 且私信关闭，通常降低合作优先级，表明其商业合作意愿较弱。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img4.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img4.webp)
 
 ## 三、筛选博主的 5 个核心维度
 
@@ -125,7 +125,7 @@ YouTube 大部分商业合作邮箱可以直接在频道简介的 **About / 更�
 
 早期测试期优先选择小中体量达人，测试更多受众画像、内容切角与地区；跑通增长模型后再加入 50 万粉级别达人扩大覆盖；品牌期再考虑百万级头部账号。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img5.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img5.webp)
 
 ## 四、检查账号真实数据与防坑技巧
 
@@ -141,9 +141,9 @@ YouTube 大部分商业合作邮箱可以直接在频道简介的 **About / 更�
 - **机械规律**：固定周期呈现规则阶梯式暴涨（如每次精确暴涨数百后归零），高度疑似买粉。
 - **自然走势**：长期平缓，因某几期爆款视频快速增长随后自然回落波动。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img6.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img6.webp)
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img7.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img7.webp)
 
 跨平台数据也是有效参考：若单一平台百万粉而关联主平台仅几百粉，且内容无法合理解释差异，需进一步核验。同时区分**虚假流量**与**低购买力真实流量**。
 
@@ -161,13 +161,13 @@ $100 合作案例表明：**博主报价具有弹性空间**。当产品与受�
 
 越往链路后方，越接近真实的商业价值。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img8.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img8.webp)
 
 ## 六、首封建联邮件结构
 
 初次接洽邮件应力求精炼，博主没有时间阅读冗长文档。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img9.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img9.webp)
 
 推荐结构：**我是谁 → 产品是什么 → 一条可信背书数据 → 为什么受众适合 → 意向合作形式 → 预算范围 → 询问意向。**
 
@@ -207,15 +207,15 @@ $100 合作案例表明：**博主报价具有弹性空间**。当产品与受�
 
 常规付款节奏：**脚本/初稿验收后支付 50%，视频上线确认后支付剩余 50%，并要求开具正式 Invoice。**
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img10.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img10.webp)
 
 批量推进时建议维护两套台账：
 1. **合作推进表**：记录账号信息、粉丝量、联系邮箱、进度状态、优先级、价格、覆盖区域与预排期。
 2. **筛选评估表**：从受众、场景、竞品、商业表现、更新频率、合作印象等维度打分，统一评估标准。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img11.png)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img11.webp)
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img12.png)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img12.webp)
 
 ## 十、数据复盘与长尾追踪
 
@@ -226,7 +226,7 @@ $100 合作案例表明：**博主报价具有弹性空间**。当产品与受�
 
 将每次合作的投入、播放量、点击量、GA 用户数、留存付费表现及复投建议完整沉淀入库，形成可持续迭代的创作者资产库。
 
-![](./images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img13.jpg)
+![](images/overseas-influencer-marketing-guide/overseas-influencer-marketing-guide-img13.webp)
 
 
 **核心总结流程**：

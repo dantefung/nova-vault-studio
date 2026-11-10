@@ -11,7 +11,7 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 ---
 
-![](images/google-trends-new-words/gefei-google-trends-new-words_001.png)
+![](images/google-trends-new-words/gefei-google-trends-new-words_001.webp)
 
 
 
@@ -19,9 +19,9 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 # 如何使用谷歌趋势找新词，如何判断一个关键词是新词
 
 
-刚发现一个词，昨天注册了，很有可能是群友。 ![4191d473c21692ab5b298c07a08525a9\_.png](images/google-trends-new-words/gefei-google-trends-new-words_001.png)
+刚发现一个词，昨天注册了，很有可能是群友。 ![4191d473c21692ab5b298c07a08525a9\_.png](images/google-trends-new-words/gefei-google-trends-new-words_001.webp)
 
-![635a04fae124703c3005085b0d123776\_.png](images/google-trends-new-words/gefei-google-trends-new-words_002.png)
+![635a04fae124703c3005085b0d123776\_.png](images/google-trends-new-words/gefei-google-trends-new-words_002.webp)
 
 红色是 GPTs，绿色是我说的词。
 
@@ -31,7 +31,7 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 如我们查一下 ChatGPT，看过去 12 个月，都是比较平稳的，这就说明这个词在 12 个月之前就出现了。
 
-![52f5a3d310357232afb4145431701c31\_.png](images/google-trends-new-words/gefei-google-trends-new-words_003.png)
+![52f5a3d310357232afb4145431701c31\_.png](images/google-trends-new-words/gefei-google-trends-new-words_003.webp)
 
 那就再往前看，我们看过去 5 年的数据。
 
@@ -39,15 +39,15 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 所以根据谷歌趋势曲线，看一个词什么时候开始有曲线，就能够知道这个词的出现日期。
 
-![ff596516757dd22db40698e292a81a5d\_.png](images/google-trends-new-words/gefei-google-trends-new-words_004.png)
+![ff596516757dd22db40698e292a81a5d\_.png](images/google-trends-new-words/gefei-google-trends-new-words_004.webp)
 
 假如出现日期在 30 天内，那就最好不过了，新鲜热乎的新词，我们最喜欢了。
 
 我们再拿 GPT 4o 的相关词验证下，可以看到这个些词就是 5 月 13 日开始出现的。
 
-而 OpenAI 的发布会也是这一天发布的，所以我们现在可以确认，用谷歌趋势就可以看到一个词最先出来的时间，进而通过时间来判断是否是新词。 ![ae6947a1c48f3ef467c5670074e99bcd\_.png](images/google-trends-new-words/gefei-google-trends-new-words_005.png)
+而 OpenAI 的发布会也是这一天发布的，所以我们现在可以确认，用谷歌趋势就可以看到一个词最先出来的时间，进而通过时间来判断是否是新词。 ![ae6947a1c48f3ef467c5670074e99bcd\_.png](images/google-trends-new-words/gefei-google-trends-new-words_005.webp)
 
-![953943068350006f5341665fefe98829\_.png](images/google-trends-new-words/gefei-google-trends-new-words_006.png)
+![953943068350006f5341665fefe98829\_.png](images/google-trends-new-words/gefei-google-trends-new-words_006.webp)
 
 好，现在我们已经知道怎么判断一个词是否是新词了
 
@@ -57,7 +57,7 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 今天要教的方法是@Banbri 去年 12 月的线下聚会教过大家的方法。 我们打开谷歌趋势，输入任意一个关键词，举例 TTS ，选择全球，选择最近七天，看相关查询，是不是就看到了 ChatTTS和 ChaTTS。
 
-![fc20af511407f16417a7bba186e6187b\_.png](images/google-trends-new-words/gefei-google-trends-new-words_007.png)
+![fc20af511407f16417a7bba186e6187b\_.png](images/google-trends-new-words/gefei-google-trends-new-words_007.webp)
 
 这里我们发现，ChatTTS是我们之前就已经知道的，最近几天出现的新词。
 
@@ -67,9 +67,9 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 举例，如果你输入 AI，是不是就能找到 AI相关的新词？ 但是 AI太泛了，太大了，你还可以输入 AI Music，再选择 90 天，就把 udio 给找出来了。
 
-![36c6bbdbca8a60be39dca995fd63ebbb\_.png](images/google-trends-new-words/gefei-google-trends-new-words_008.png)
+![36c6bbdbca8a60be39dca995fd63ebbb\_.png](images/google-trends-new-words/gefei-google-trends-new-words_008.webp)
 
-![4b1b75dfbebc7763b2942bb3f4054143\_.png](images/google-trends-new-words/gefei-google-trends-new-words_009.png)
+![4b1b75dfbebc7763b2942bb3f4054143\_.png](images/google-trends-new-words/gefei-google-trends-new-words_009.webp)
 
 输入 udio ，就把 suno 给找出来了。 也就是说，你知道一个产品之后，就可以拿着这个产品名称，或者这个产品所在品类的名称去谷歌趋势搜索，就能够找到更多的词。
 
@@ -79,7 +79,7 @@ url: "https://new.web.cafe/tutorial/detail/google-trends-new-words"
 
 找接口的方法很简单，我通常就是直接去谷歌搜索。 输入 Google Trends API ，就找到了。
 
-![d615a1ddd7f9bdf49163a0610f03ff17\_.png](images/google-trends-new-words/gefei-google-trends-new-words_010.png)
+![d615a1ddd7f9bdf49163a0610f03ff17\_.png](images/google-trends-new-words/gefei-google-trends-new-words_010.webp)
 
 再把之前哥飞教给大家的方法用上，先从随便一个词，在谷歌找到一些网站，再去看这些网站获取自然流量的关键词，拿着这些词去找新词。
 

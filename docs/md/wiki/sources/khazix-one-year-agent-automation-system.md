@@ -34,19 +34,19 @@ url: "https://mp.weixin.qq.com/s/2R9xtPdgYr3kF6L-LGr8aA"
 - 依靠外部信号（Cron 定时、Webhook、告警、Issue）主动触发 Agent 运转；
 - Agent 能自主处理的自行推进到底，遇到关键节点或缺乏授权时，才汇总事实向上请示。
 
-![Agent 自动化系统总体流转架构](../images/khazix-one-year-agent-automation-system/001.png)
+![Agent 自动化系统总体流转架构](../images/khazix-one-year-agent-automation-system/001.webp)
 *图 1：Agent 自动化系统总体架构——事件驱动、自动派发、分层执行与人类审批*
 
 人类在整个链条中唯一要做的事情就是最后一步：**批奏折**。
 
-![飞书 AI 助理交互卡片](../images/khazix-one-year-agent-automation-system/002.png)
+![飞书 AI 助理交互卡片](../images/khazix-one-year-agent-automation-system/002.webp)
 *图 2：飞书 AI 助理小卡推送带有完整上下文和操作按钮的交互卡片*
 
 ---
 
 ## 2. 自动化中台：统一事件与规则派发中心
 
-![自动化中台内部工作机理](../images/khazix-one-year-agent-automation-system/003.png)
+![自动化中台内部工作机理](../images/khazix-one-year-agent-automation-system/003.webp)
 *图 3：自动化中台的统一事件汇聚与分发*
 
 ### 2.1 为什么必须建立中台？
@@ -80,17 +80,17 @@ url: "https://mp.weixin.qq.com/s/2R9xtPdgYr3kF6L-LGr8aA"
 
 **解法**：在本地 Mac 上常驻接单程序（Worker），主动向中台建立最长 50 秒的长轮询连接。有活立即认领执行，无活重新挂起。既保证了内网安全性，又达到了毫秒级的响应延迟。
 
-![定时任务看板](../images/khazix-one-year-agent-automation-system/004.jpg)
+![定时任务看板](../images/khazix-one-year-agent-automation-system/004.webp)
 *图 4：本地 Agent 自动化定时任务矩阵*
 
-![GitHub Issue 自动化巡检与跟进](../images/khazix-one-year-agent-automation-system/005.png)
+![GitHub Issue 自动化巡检与跟进](../images/khazix-one-year-agent-automation-system/005.webp)
 *图 5：Claude 每日傍晚定时扫描 GitHub 外部 Issue 与 PR*
 
 ---
 
 ## 3. 多模型算力梯队与本地双机部署
 
-![Agent 领任务与执行流](../images/khazix-one-year-agent-automation-system/006.png)
+![Agent 领任务与执行流](../images/khazix-one-year-agent-automation-system/006.webp)
 *图 6：Agent 领取任务与自动化执行链路*
 
 ### 3.1 算力分工矩阵
@@ -103,38 +103,38 @@ url: "https://mp.weixin.qq.com/s/2R9xtPdgYr3kF6L-LGr8aA"
 | **GPT-6.1 Sol** | 自动化运维与质检 | 监控告警排查、每日系统日报、自动化修复 Bug、高性价比巡检 |
 | **GPT-6.1 Terra** | 浏览器与环境操控 | 操作常驻 Chrome、无 API 平台的跨渠道数据采集、GEO 模拟提问 |
 
-![Token 消耗量对比](../images/khazix-one-year-agent-automation-system/007.png)
+![Token 消耗量对比](../images/khazix-one-year-agent-automation-system/007.webp)
 *图 7：真实开发环境下的高强度 Token 消耗监控*
 
 ### 3.2 为什么必须坚持本地硬件？
 
 采用一台 M5 Pro（主力开发机）搭配一台 M4 MacMini（专职 24 小时后台运行 Agent），局域网高速互联：
 
-![本地双 MacMini 硬件布局](../images/khazix-one-year-agent-automation-system/008.jpg)
+![本地双 MacMini 硬件布局](../images/khazix-one-year-agent-automation-system/008.webp)
 *图 8：本地主力机与 24 小时常驻 Agent 跑活机*
 
 1. **凭证隔离与安全**：代码仓库权限、部署密钥、飞书机器人凭证全部驻留本地，无需向第三方云端虚拟主机分发；
 2. **环境稳定性**：国内特定网络服务与高风控平台（如微信、小红书网页端），在海外云虚拟机中极易封号或崩溃；
 3. **极低功耗与成本**：MacMini 待机功耗极小，且性能远超百元级云主机。
 
-![通过远程桌面监控后台 Agent 运行](../images/khazix-one-year-agent-automation-system/009.png)
+![通过远程桌面监控后台 Agent 运行](../images/khazix-one-year-agent-automation-system/009.webp)
 *图 9：日常通过远程管理工具查看后台 M4 机器的 Agent 并行状态*
 
-![周末自动大扫除 Skill 规范](../images/khazix-one-year-agent-automation-system/010.png)
+![周末自动大扫除 Skill 规范](../images/khazix-one-year-agent-automation-system/010.webp)
 *图 10：针对特定周期任务封装的标准化 SOP（Skill）*
 
 ---
 
 ## 4. 本地 CI 中台：告别云端计费焦虑
 
-![CI 中台自建架构](../images/khazix-one-year-agent-automation-system/011.png)
+![CI 中台自建架构](../images/khazix-one-year-agent-automation-system/011.webp)
 *图 11：自建本地 CI 自动化构建与代码审查中台*
 
 开源项目（如 AIHOT）单月产生近千个 PR，若全部走 GitHub Actions，每月超额计费极其昂贵。通过在 M4 MacMini 上搭建本地 CI 中台：
 - 机器零额外开销，且内网代码检出与单测速度远超跨洋网络；
 - 形成标准化流水线：**标签触发 → 自动并行跑测试 → 本地沙箱代码审查 → 自动化合并 → 部署拨测验证**。
 
-![本地 CI 流水线运转步骤](../images/khazix-one-year-agent-automation-system/012.png)
+![本地 CI 流水线运转步骤](../images/khazix-one-year-agent-automation-system/012.webp)
 *图 12：本地 CI 中台的任务拆解与执行节点*
 
 ---

@@ -9,11 +9,11 @@ url: "https://mp.weixin.qq.com/s/mXBtblLmaQj1u1mVhEDDJQ"
 
 今天值得记录一下，我有一个出海网站的月访客终于过万了：
 
-![image](./images/first-10k-visitors-site-checklist/001.png)
+![image](images/first-10k-visitors-site-checklist/001.webp)
 
 网站大部分流量来自于谷歌搜索，GSC显示的近28天访客数差不多有1万：
 
-![image](./images/first-10k-visitors-site-checklist/002.png)
+![image](images/first-10k-visitors-site-checklist/002.webp)
 
 如果能进一步增长或者保持，网站流量有望超过我之前做的GPT-4o生图的网站。这点访客数，在高手眼中，实则不算什么，但对我们新手来说，却是很强的正反馈。
 

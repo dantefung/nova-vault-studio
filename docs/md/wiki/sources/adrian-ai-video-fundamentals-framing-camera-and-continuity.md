@@ -29,7 +29,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 拍得宽一些，可以交代谁坐哪里、两人正在做什么；靠近一个人，则更方便表现他的表情和手上的动作。同一场事，换一种取景范围和观看位置，观众得到的信息也会变化。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/002.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/002.webp)
 
 这一册拆开六个问题：拍到多大范围、摄影机在哪里、东西在画框里怎样摆、哪里清楚哪里亮、谁在动，以及前后状态能不能接上。理解这些问题，再把要求写进分镜，AI 才更容易拍出你需要的内容。
 
@@ -37,7 +37,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 景别，就是画面给主体留了多大的范围。 主体是这一镜主要让观众看的人或东西：拍整个人、拍上半身、只拍一只手，取景范围都不同。范围放宽，环境交代得多；范围收紧，细节更容易看清。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/003.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/003.webp)
 
 ### 1. 远景：交代环境和规模
 
@@ -85,7 +85,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 机位是摄影机放的位置，角度是它朝哪边看。你拿手机给朋友拍照，站到正面、侧面，或者蹲下来拍，看到的身体比例和背景都会变化。即使两张画面都拍半身，观看位置也可能差得很远。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/004.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/004.webp)
 
 ### 1. 平视：接近眼睛的高度
 
@@ -129,7 +129,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 《绿皮书》里，汽车停在路边，雪利望向田间劳作的人，随后出现他所注视的人群，再回到他举手示意后的反应。人物的视线与所见内容连在一起，我们便能理解：这是在跟随雪利这一眼，体会他与那些人隔着田地相望的感受。主观画面在这里承接了人物的注意，也为接下来的情绪提供了依据。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/005.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/005.webp)
 
 判断主观镜头，要把前后联系起来：人物看向哪里 → 接着看到什么 → 人物怎样回应。 并非每段都需要把这三步拍齐，但要能理解这一眼属于谁。单独出现一条路、一只手，或者画面里没有人物的脸，都不足以证明它是 POV；普通的环境镜头和物件特写也可能拍成这样。
 
@@ -145,13 +145,13 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 留白是有意给视线、动作或文字留出的空余区域。雪利向上伸手，画面上方要容得下递来的食物；如果加字幕，也要检查字幕有没有挡住手指和交接处。构图要照顾接下来会发生的动作。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/006.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/006.webp)
 
 ### 2. 三分法：用九宫格辅助安排位置
 
 三分法是把画面横竖各分成三份，形成九宫格，帮助你尝试主体位置。人物在一侧、另一侧还要展示环境或保留朝向空间时，可以借它安排位置；想突出正面交流或整齐的建筑，居中、对称也都能用。人物有没有刚好压在分割线上，远没有“动作有没有出画”要紧。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/007.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/007.webp)
 
 ### 3. 对焦：你要让哪个位置清楚
 
@@ -161,7 +161,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 景深说的是前后方向上，仍能被看作清楚的范围。只有某一段前后距离清楚、其他位置明显虚化，是浅景深的常见效果；前排、后排和更远处都能辨认，清楚的前后范围就更大。这里的“深”说的是前后距离。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/008.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/008.webp)
 
 焦距、对焦、景深要分开。 焦距会在后面讲变焦时用到；对焦管清楚的位置；景深管可接受清晰的前后范围。实拍里的光圈、距离等也会影响景深，做 AI 视频先把想要的结果写明白。
 
@@ -179,7 +179,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 柔光的阴影边缘通常比较缓，明暗过渡更柔和；硬光更容易留下清楚的明暗边界。判断时可以观察鼻子、下巴或物件投影的边缘。光源相对被拍对象的大小、距离等，都会影响光线的软硬。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/009.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/009.webp)
 
 《绿皮书》求职面试那场戏里，托尼脸颊、下巴的明暗过渡相对缓和；路边检查汽车时，日光在鼻子、下巴和手臂上留下更清楚的投影边缘。把这些边缘看清，就更容易判断光线偏柔还是偏硬，不必先猜现场用了什么灯。
 
@@ -197,7 +197,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 车外景物后退，可能是车在走；人物抬手，是人物在行动；镜头从托尼换到雪利，也可能只是剪辑切换。把这些变化分开，才能写清 AI 这一镜要做什么。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/010.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/010.webp)
 
 ### 1. 固定镜头：先说明相对什么保持稳定
 
@@ -213,7 +213,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 横移是摄影机本身向旁边移动。假如另拍蓝车停在路边的画面，摄影机沿车身平行移动，近处车窗和远处背景的相对位置会变化。描述时把摄影机往哪里移动、镜头朝哪里看分开写。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/011.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/011.webp)
 
 应用场景： 想从一个对象转向旁边的另一个对象、让观众逐步看到横向展开的环境，可以用摇摄。想沿着车身展示细节，或借近处物体与远处背景的相对变化表现空间层次，可以考虑横移。要跟住行人，也可以边横移边保持他在画内。
 
@@ -225,7 +225,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 变焦是在机位可以不动的情况下，改变镜头焦距，调整取景范围。摄影教程里常见的 24mm、50mm，就是焦距标注；同一台相机、同一拍摄位置上，焦距变长，通常取到的范围更窄，人物更大。位置不变时，透视关系基本保持。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/012.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/012.webp)
 
 应用场景： 想随着情绪逐渐靠近人物，或者带观众一步步注意到某个细节，可以考虑推近。想逐渐展示人物周围的环境、让观众发现更大的空间关系，可以考虑拉远。机位受限，或者有意表现取景范围逐渐收紧的效果时，也可以安排变焦；它与移动摄影机带来的空间变化不同。
 
@@ -239,13 +239,13 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 例如，摄影机从人物侧后方跟随，他走向停在路边的汽车，人物全身和车门始终在画内。写给 AI 时，把跟随位置、移动方向和保留范围说清楚。第一版先安排一种主要运动，方便检查结果。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/013.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/013.webp)
 
 ### 5. 换个范围，也可能只是换了一镜
 
 先看车内正面的托尼，再看后排侧面的雪利，观众注意的对象和观看位置都变了。这里是两段画面的切换，不能描述成“摄影机从托尼一路推到雪利”。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/014.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/014.webp)
 
 分镜里写“切到雪利的反应”，就是准备另一镜；写“在同一镜里缓慢靠近雪利”，则需要一段连续过程。切换、机位移动、变焦，要结合连续播放区分。
 
@@ -257,7 +257,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 《绿皮书》这组公路行驶画面中，车头朝向画面左侧。剪接时，如果前一镜建立了这个方向，下一镜却突然朝右，观众可能以为车掉头了。这里先检查屏幕上看见的方向，再判断故事里是否真的发生了转向；配图中的反向画面明确标为教学翻转。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/015.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/015.webp)
 
 故事需要转弯、回头，就让人看到这个过程，或者重新交代道路关系。新手第一版先保持同向，出问题时更容易查。方向规则帮助理解空间，具体作品也可以有意改变。
 
@@ -265,7 +265,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 把两个人之间的连线当作一条轴线，先把相关机位放在线的同一侧，左右位置和视线通常比较稳定。判断车内前后排这种布局时，还要结合座位、车窗和人物视线认清空间关系。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/016.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/016.webp)
 
 《绿皮书》求职面试的双人画面先交代两人相对而坐。随后切近，托尼朝画面右侧看，雪利朝画面左侧看，相对的视线让观众容易把两张画面放回同一个交流空间。突然跨到两人连线的另一侧拍摄，左右关系可能反过来，观众就需要重新辨认位置。第一条练习片先保持同侧，容易排查。
 
@@ -275,7 +275,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 《绿皮书》里，托尼把一块炸鸡送向后排，雪利抬手接过来。这时既要交代新食物怎样被接住，也要保留雪利另一只手原本拿着的那一小块食物。两只手的状态都有来路，动作才容易连起来。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/017.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/017.webp)
 
 检查到这里，就不能只数“画面里有没有炸鸡”。要看食物在哪只手、何时递来、何时接住，以及另一只手原有的东西有没有保留。它们有清楚的来路，观众才能把动作接起来。
 
@@ -285,7 +285,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 连续性卡就是一张备忘单，记录这组镜头里哪些条件要保持。比如托尼在前排、雪利在后排，雪利穿白衬衫和条纹领带，车内是蓝绿色座椅；拍到递接食物，再记两只手各自的状态。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/018.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/018.webp)
 
 画面范围可以变，状态要有依据地变化。给 AI 传入参考图后，也继续核对实际视频：先看人物和道具，再看双手与动作，再看座位、方向和光线。第一帧很像，不能代表整段都接得上。
 
@@ -295,7 +295,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 这里选取后半段的四个动作节点，截图直接来自开头视频，时间也按这段视频计算。
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/019.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/019.webp)
 
 ### 1. 托尼扔骨头：交代动作的方向
 
@@ -323,7 +323,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 ### 1. 把观看任务写成镜头表
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/020.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/020.webp)
 
 写“切到雪利侧面”，是换一镜；它没有要求摄影机在上一镜里穿过车厢。把观看任务写清楚，再决定用现成素材、补拍，还是生成练习画面。
 
@@ -363,7 +363,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 ### 4. 生成后，逐项检查画面
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/021.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/021.webp)
 
 第一遍看能不能看懂，第二遍看前后接不接得上，最后再选颜色和运动。拿《绿皮书》这段练一次：谁递、谁接、接完怎样了，每一镜让观众多看清一件事。 然后把这套问法用到你自己的视频里。
 
@@ -371,7 +371,7 @@ coverImage: "../images/adrian-ai-video-fundamentals-framing-camera-and-continuit
 
 Punk｜中科大管理学硕士｜AI 提示词、AI 小白教程｜Punk 系列 Skills 作者｜3 个月赚了 8 位数｜Learn in Public｜FDE 文章浏览量 240w｜[@AdrianPunk115](https://x.com/@AdrianPunk115)
 
-![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/022.jpg)
+![](../images/adrian-ai-video-fundamentals-framing-camera-and-continuity/022.webp)
 
 ## 相关页面
 

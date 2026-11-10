@@ -35,27 +35,27 @@ coverImage: "../images/zhouluobo-design-personal-agent-learns-visual-style/001.j
 
 而 Lovart Arti 就是来解决这个问题的，它会记住你的每次选择，下次再来就不需要重复了。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/002.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/002.webp)
 
 左侧菜单栏现在多了一个「Arti」入口，里面能上传作品集，也能直接跟它聊天补充偏好。我上传了 10 张萝卜 AI 笔记的历史封面，又说了几句我的习惯，比如标题一定要大，萝卜元素能有就有，不要那种紫蓝渐变的科技风等等。
 
 比如我给到的主视觉是这些图片。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/003.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/003.webp)
 
 然后我的 IP 形象就是一个动漫人物+萝卜形象，哈哈哈。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/004.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/004.webp)
 
 把这些素材一起上传给 Arti 就行。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/005.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/005.webp)
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/006.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/006.webp)
 
 然后它就能记住了，以后再想要生成相关风格的图片，提示词里完全不需要提了，它会自动根据记忆里的内容来选择。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/007.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/007.webp)
 
 让 Arti 了解我们之后，就可以来进行真正的创作了。
 
@@ -71,15 +71,15 @@ coverImage: "../images/zhouluobo-design-personal-agent-learns-visual-style/001.j
 
 封面出来是这样的，是不是和我平时的封面风格差不多呀。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/008.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/008.webp)
 
 下面是配图，也延续了我前面上传的图片风格，但是其实有时候我倒是觉得配图风格可以轻松欢快明媚一些更好。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/009.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/009.webp)
 
 所以我就让它再生成一组配图来看看。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/010.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/010.webp)
 
 不知道大家更喜欢哪一组配图呢，我个人更喜欢后面这一组。
 
@@ -87,13 +87,13 @@ coverImage: "../images/zhouluobo-design-personal-agent-learns-visual-style/001.j
 
 然后能看到它的进化过程，几乎每次项目运行都能学习到新东西，这就是越用越了解我呀。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/011.png)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/011.webp)
 
 ## 定时选题雷达，替我刷 X 和 Ins
 
 我觉得这是这次 Lovart 2.0 最值得去体验的新功能，设计委托。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/012.png)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/012.webp)
 
 它的意思是你不用把活儿拆成一个个 prompt，直接把一件完整的事交出去，设定好执行周期和每次最多花多少积分，Arti 自己往下推进。
 
@@ -118,11 +118,11 @@ coverImage: "../images/zhouluobo-design-personal-agent-learns-visual-style/001.j
 
 这个定时任务不需要我每周再喂东西，它自己去找，会按照我设好的时间输出内容。积分上限记得设一下，定时任务是真的会每周按时跑、按时花的。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/013.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/013.webp)
 
 来看一下它给我的产物，真丰富啊。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/014.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/014.webp)
 
 当然它不仅仅给了这些图片，还有一个非常详细的 HTML 类型的周报，详细说明了这一周都有哪些值得关注的大事件。
 
@@ -162,7 +162,7 @@ coverImage: "../images/zhouluobo-design-personal-agent-learns-visual-style/001.j
 
 我让它先调研再动笔，是因为 README 的门道我自己也不想去用时间研究，所以直接看看别人怎么做最好。Arti 本身就带设计调研的能力，会去搜资料、看案例，整理成一份能追溯来源的小报告，再按这个思路往下画。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/015.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/015.webp)
 
 这一套设计风格我试着和你的挺喜欢的，以前我总是把精力都放在怎么更好的产物 skill 上，反而忽略了一些宣传素材，现在有 Lovart 来帮忙，效率快多了。
 
@@ -186,19 +186,19 @@ coverImage: "../images/zhouluobo-design-personal-agent-learns-visual-style/001.j
 
 提示词里还是不用写风格，只需要写想要的动作就好，它自己带上了之前记住的橙色系和大字标题，这个确实很方便啊。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/016.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/016.webp)
 
 Lovart 会先给出两张样片，如果觉得没问题，就要继续生成其他图片。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/017.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/017.webp)
 
 我觉得它不仅图片做的好啊，这个语言能力也一点都不差，这些表情包方向都是自媒体人的日常，苦中作乐吧。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/018.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/018.webp)
 
 这一批都是跟做内容相关的，后来我又让它出了一批活跃社群用的，同样没再交代风格，出来还是熟悉的那个味道。
 
-![](../images/zhouluobo-design-personal-agent-learns-visual-style/019.jpg)
+![](../images/zhouluobo-design-personal-agent-learns-visual-style/019.webp)
 
 如果你也有自己的 IP 形象，这个玩法很值得试试，做一套专属表情包，在群里用起来比通用表情有意思多了。
 

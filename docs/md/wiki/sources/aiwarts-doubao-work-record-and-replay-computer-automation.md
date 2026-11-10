@@ -17,19 +17,19 @@ coverImage: "../images/aiwarts-doubao-work-record-and-replay-computer-automation
 
 我今天发现它居然偷偷上线了 codex 同款的录制操作生成技能，record & replay。
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/002.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/002.webp)
 
 简单回顾一下，这个技能有点像超级简单版的 RPA（机器人流程自动化），不需要会编程，不需要调组件搭工作流，就是把你操作电脑的过程录制下来交给 AI，AI 自己去写步骤说明，自己在下一次复刻同款操作。
 
 更骚的是，比起 codex，豆包工作还追加一个讲解功能，最长可以录制 30 分钟。我可以边操作边讲，告诉它我这步为什么这样选，这样就不需要死记硬背鼠标轨迹，我也不需要一次性完美录制成功，使用压力降低了很多。
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/003.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/003.webp)
 
 我先尝试控制 Grok Bot 自动收集 Github 项目更新来试试水，
 
 录制好的 Skill 执行过程中，跟 Codex 的 Computer Use 不同的是，中间如果我要用对应的这个窗口的话，它是会主动断掉的。
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/004.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/004.webp)
 
 拿我在 Codex 上的经验说。经常会遇到我开了一个对话，那个对话要用我的浏览器，但我同时又想开另一个对话，两边就冲突了。操作软件的时候特别明显，浏览器其实还好，可以通过其他 Skill 绕开。
 
@@ -39,7 +39,7 @@ coverImage: "../images/aiwarts-doubao-work-record-and-replay-computer-automation
 
 所以暂停和重试这两种机制，我觉得有好有坏。如果让我选的话，本机，就是我自己用的电脑，我希望有自动暂停的机制，因为不会打断我主要的工作。但如果是在远程的 Mac mini 上跑，重试更好，反正不挡我。
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/005.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/005.webp)
 
 上次文章里，我没有写这个录制回放技能会跟已有的 Computer Use，Browser Use（浏览器自动化）去搭配使用。像豆包，它其实会先返回说目前的状态是什么，然后给出后续的行动。
 
@@ -47,7 +47,7 @@ coverImage: "../images/aiwarts-doubao-work-record-and-replay-computer-automation
 
 我刻意强调巡检这两个词，是因为以前我可能会说每隔 5 分钟，10 分钟去检查一遍。但其实很多时候，如果你不确定时间间隔，你可以直接让模型自己去做巡检，它们会自己判断合适的时间间隔，直到观测到任务完成为止。
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/006.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/006.webp)
 
 录制回放技能整体来说是个互补的。
 
@@ -59,7 +59,7 @@ coverImage: "../images/aiwarts-doubao-work-record-and-replay-computer-automation
 
 我要把屏幕里除了当前窗口外其他所有的窗口都缩小。这个动作就从「把一个窗口扩大到全屏」变成了「把除了当前屏幕焦点外其他窗口都最小化」，从「某一个动作」变成「某一类动作」。因为我每次打开的软件都不是一样的。
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/007.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/007.webp)
 
 这也是为什么今天已经有了那么多 Agent 有 Computer Use 的能力，然后也有了浏览器自动化的能力，我觉得还是需要有录制回放能力的一部分原因。
 
@@ -67,7 +67,7 @@ coverImage: "../images/aiwarts-doubao-work-record-and-replay-computer-automation
 
 因为同时打开多个录屏软件会互相冲突，所以我后半段是拿 iphone 录制的，可以看到豆包工作遇到录屏软件这种每次录制的透明条都在屏幕上不同地方出现的情况也是可以全屏截图放大确认去按键的。
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/008.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/008.webp)
 
 还有一个更离谱的操作，
 
@@ -103,13 +103,13 @@ coverImage: "../images/aiwarts-doubao-work-record-and-replay-computer-automation
 
 因为豆包工作这个功能在处理时会优先转换音频，所以我们可以在录制的开头就说明白接下来要做什么样的动作。这样哪怕中间或者开头结尾出现一些多余的画面，或者中间有消息通知稍微打断了录制过程都没关系。
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/009.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/009.webp)
 
 Amazing 啊，
 
 豆包工作台之前也更新了很多零零碎碎的小功能，所以你在这上面可以看到它的工作进度，后台任务以及对话的产物等等。虽然说它在跟你用同一个界面的时候会暂停任务，但同时打开多个网页浏览器是不会出现这个问题的，我可以把它放在后台让它自己去操作，不会影响其他工作流的正常使用
 
-![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/010.jpg)
+![](../images/aiwarts-doubao-work-record-and-replay-computer-automation/010.webp)
 
 经过这几 case 测试出来，豆包工作其实比我想象中做得认真得多，迭代也快得多。
 

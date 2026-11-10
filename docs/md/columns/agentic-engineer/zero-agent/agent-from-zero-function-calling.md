@@ -28,7 +28,7 @@ Agent 的能力边界，取决于它能调用什么工具。Claude Code 能读�
 
 为了在 Agent 中实现 Function Calling 能力，我们需要经历以下阶段：
 
-![从文本输出到 Function Calling 的实现阶段](./images/agent-from-zero-function-calling/001.png)
+![从文本输出到 Function Calling 的实现阶段](images/agent-from-zero-function-calling/001.webp)
 
 **关键点**：模型不执行工具，它只产生调用意图。执行权永远在 Agent 侧。这意味着 Agent 可以做权限控制、参数校验、超时取消——这些都是模型无法自己管理的。
 
@@ -335,7 +335,7 @@ Agent 执行完命令之后，会把下面的信息加入到 conversation 上下
 
 模型写好代码之后，会用类似的方式，通过 `write_file` 工具将结果保存到 tmp 目录下，一个简易的贪吃蛇游戏就已经做好了。
 
-![Agent 通过 write_file 保存的贪吃蛇游戏](./images/agent-from-zero-function-calling/002.png)
+![Agent 通过 write_file 保存的贪吃蛇游戏](images/agent-from-zero-function-calling/002.webp)
 
 ## 5. 总结
 

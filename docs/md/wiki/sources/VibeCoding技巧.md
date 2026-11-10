@@ -25,7 +25,7 @@ url: "https://mp.weixin.qq.com/s/YNirA5ZhSy2a15KXKL6a0A"
 
 ### 第一层：Cursor 自动补全（轻量需求）
 
-![Karpathy Vibe Coding 三层结构](../images/VibeCoding技巧/001.jpeg)
+![Karpathy Vibe Coding 三层结构](../images/VibeCoding技巧/001.webp)
 
 Karpathy 日常开发中大约 **四分之三的时间**最依赖 Cursor 的自动补全。
 

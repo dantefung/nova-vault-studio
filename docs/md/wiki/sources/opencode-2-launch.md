@@ -26,7 +26,7 @@ Anomaly 近期发布了 OpenCode 2.0，这次更新没有去拼凑最新的大�
 
 无论开发者通过 TUI、Web 界面还是原生的桌面应用唤起操作，所有的交互最终都路由到这个唯一的中央进程。
 
-![image](../images/opencode-2-launch/001.png)
+![image](../images/opencode-2-launch/001.webp)
 
 这种收口带来的直接工程收益是**接口的可编程性大幅提升**：
 
@@ -98,7 +98,7 @@ return filed.map(issue => issue.identifier)
 
 用传统的确定性代码解决循环和高频 IO 操作，用 LLM 解决自然语言的意图理解和代码生成。这种设计剥离了模型不擅长的精细流控制作。
 
-![image](../images/opencode-2-launch/002.png)
+![image](../images/opencode-2-launch/002.webp)
 
 ## 思考：AI 编程工具从玩具走向生产力的核心路径
 

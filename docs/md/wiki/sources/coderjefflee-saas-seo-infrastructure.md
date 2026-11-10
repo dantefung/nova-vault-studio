@@ -4,7 +4,7 @@ date: "2026-10-29"
 source: "X/Twitter"
 author: "写增长的子木 (@CoderJeffLee)"
 url: "https://x.com/CoderJeffLee/status/2115386721391333769"
-coverImage: "../images/coderjefflee-saas-seo-infrastructure/001.jpg"
+coverImage: "../images/coderjefflee-saas-seo-infrastructure/001.webp"
 ---
 
 # 写增长的子木：《SaaS SEO Playbook》第三部分——站内基建，让 Google 能看见、看懂、收录
@@ -23,7 +23,7 @@ https://bysocket.com/saas-seo-playbook/
 
 完整目录与源文件见 GitHub：https://github.com/JeffLi1993/saas-seo-playbook
 
-![](../images/coderjefflee-saas-seo-infrastructure/001.jpg)
+![](../images/coderjefflee-saas-seo-infrastructure/001.webp)
 
 ## 相关页面
 

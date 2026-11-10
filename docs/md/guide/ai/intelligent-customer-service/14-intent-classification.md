@@ -13,7 +13,7 @@ url: ""
 
 ## 一、问题本质：准确与快，天然矛盾吗？
 
-![准确性 vs 速度](images/intent-classification/01-accuracy-vs-speed.png)
+![准确性 vs 速度](images/intent-classification/01-accuracy-vs-speed.webp)
 
 意图分类面临一个经典 trade-off：
 
@@ -31,7 +31,7 @@ url: ""
 
 ### 2.1 Prompt 结构：最被低估的优化杠杆
 
-![Prompt 结构对比](images/intent-classification/02-prompt-structure.png)
+![Prompt 结构对比](images/intent-classification/02-prompt-structure.webp)
 
 低效 Prompt 示例：
 
@@ -91,7 +91,7 @@ Prompt: "将以下意图分配到对应类别：..."
 
 ### 2.4 置信度阈值体系：动态而非固定
 
-![置信度三级路由](images/intent-classification/03-confidence-routing.png)
+![置信度三级路由](images/intent-classification/03-confidence-routing.webp)
 
 | 置信度 | 区间 | 系统动作 |
 |--------|------|---------|
@@ -133,7 +133,7 @@ ICLER（Intent Classification with Enhanced Reasoning）在标准 ICL 框架中�
 
 ### 3.1 选对模型：nano 模型是意图分类的最优性价比
 
-![模型对比](images/intent-classification/04-model-comparison.png)
+![模型对比](images/intent-classification/04-model-comparison.webp)
 
 | 模型 | 上下文窗口 | 吞吐量 | 输入费用 | 输出费用 |
 |------|-----------|--------|---------|---------|
@@ -354,7 +354,7 @@ response = client.chat.completions.create(
 
 ### 4.5 活跃学习闭环（持续优化）
 
-![活跃学习闭环](images/intent-classification/05-active-learning.png)
+![活跃学习闭环](images/intent-classification/05-active-learning.webp)
 
 意图分类系统上线后，通过以下反馈循环持续提升：
 

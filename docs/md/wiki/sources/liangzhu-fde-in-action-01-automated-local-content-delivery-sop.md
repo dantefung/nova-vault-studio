@@ -37,7 +37,7 @@ coverImage: "../images/liangzhu-fde-in-action-01-automated-local-content-deliver
 
 所以，FDE 落地实战的第一步，从来不是空谈转型，而是先搭建一套有体系的业务流水线。
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/002.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/002.webp)
 
 而作为整个实战系列的第一篇，我选择直接以“自动内容交付流水线”作为第一步切入。 为什么第一战选内容？ 因为它对公司和个人都有立竿见影的真实帮助：
 
@@ -83,7 +83,7 @@ coverImage: "../images/liangzhu-fde-in-action-01-automated-local-content-deliver
 
 说明：这“四大支柱”是我自己做软件开发 14 年、结合近两年把大模型落地到具体业务工程（FDE）中，踩坑总结出的一套本地交付架构。无论是用 WorkBuddy、Claude Code 还是自己写 Python 调度，底层逻辑其实都逃不出这四个模块：
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/003.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/003.webp)
 
 这四个模块一串联，你电脑里的桌面 Agent 就不再是一个聊天工具，而是一台能自主运转的内容机床。
 
@@ -93,7 +93,7 @@ coverImage: "../images/liangzhu-fde-in-action-01-automated-local-content-deliver
 
 在我看来，WorkBuddy 是目前国内中小型企业与普通人最容易接受、最好落地的桌面 AI 智能体。
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/004.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/004.webp)
 
 原因极其务实：
 
@@ -111,7 +111,7 @@ coverImage: "../images/liangzhu-fde-in-action-01-automated-local-content-deliver
 - 内置主流模型免配置：
   内置免费模型（阶跃五、混元）跑日常建档；每天赠送的积分也能直调 GLM、DeepSeek、Kimi 等主力模型；如果有海外网络环境，直连 Gemini 的文案语感会更细腻。
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/005.png)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/005.webp)
 
 它把复杂的 Agent 调度藏在后台，把最简单的操作留给业务人员。
 
@@ -289,7 +289,7 @@ FDE 交付提醒：企业客户和一线员工往往比你想象中要小白得�
 2. 评论区有强体感互动：读者在评论区真实宣泄焦虑、追问解决方案或激烈讨论细节；
 3. 微信端免费挖掘手势：打开手机微信 -> 顶部搜索栏输入你赛道的痛点关键词 -> 点击“文章”标签 -> 点击右上角筛选“最近发表” -> 从上往下翻，挑出阅读量异常高的陌生小号文章 -> 复制链接直接发给 WorkBuddy，让它自动下载、清洗并存入本地的“02_对标爆文库/”（具体操作见下一步）。
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/006.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/006.webp)
 
 2. 2: 用 WorkBuddy 自动下载、监控热点与竞对入库（3 种落地方式）
 
@@ -315,11 +315,11 @@ WorkBuddy 会在后台静默打开网页、抓取解析并存入你的硬盘。�
 - 方式 2：调用内置专家监控七大平台实时热搜（零门槛全网进货）
 接在 WorkBuddy 专家中心搜索并召唤“公众号爆文写作专家｜爆款捕手”
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/007.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/007.webp)
 
 或“自媒体热点雷达与内容增长官｜热点猎手”
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/008.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/008.webp)
 
 发送指令：
 
@@ -332,7 +332,7 @@ WorkBuddy 会在后台静默打开网页、抓取解析并存入你的硬盘。�
 
 你会得到当前的热点选题并写入 03_选题排期库.xlsx
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/009.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/009.webp)
 
 - 方式 3：让 WorkBuddy 写 Python 脚本调接口批量监控竞对（全自动进货）
 去专业公众号数据平台（如 wxrank.com 等）注册拿一个数据查询 API Key（充几块钱能查几千次）。把你的 API Key 和数据平台的开发文档链接一起发给 WorkBuddy：
@@ -494,7 +494,7 @@ WorkBuddy 单纯裸调用一次生图，基础消耗大约是 5~10 积分；
 
 经过这一道人肉质检打磨，这篇初稿才算具备交付的水准！
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/010.png)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/010.webp)
 
 第五步：初期磨合与调优心法（人机对话蒸馏，升级为专属 Skill / Agent）
 
@@ -533,11 +533,11 @@ WorkBuddy 本身自带记忆与上下文沉淀机制。随着你不断纠偏和�
 
 这样逐步迭代、小步快跑，整套交付机床会越来越贴合你的业务手感。
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/011.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/011.webp)
 
 并至少进行一次测试，确保最终结果符合预期。
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/012.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/012.webp)
 
 第六步：打通微信公众号草稿箱 open API（彻底解决静默推送）
 
@@ -620,7 +620,7 @@ FDE 底线纪律：AI 只负责推送到“草稿箱”，坚决禁止完全无�
 执行完毕后，WorkBuddy 会在后台自动完成素材上传与草稿入库。
 ```
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/013.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/013.webp)
 
 第七步：全流程双轨定时调度与守护托管（状态监听 + 人工双重核准）
 
@@ -666,7 +666,7 @@ FDE 落地防坑：避免大模型高频空转烧积分！
      d. 【严禁自动推送】：写完后仅将 Excel 中该选题状态改写为“成稿待审”，绝对不要调用微信发布接口！生成待审通知后立即结束任务。
 ```
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/014.jpg)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/014.webp)
 
 任务 1 在后台跑完后，流水线在此挂起等待。
 
@@ -825,9 +825,9 @@ FDE 落地防坑：避免大模型高频空转烧积分！
 
 ### Media
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/015.png)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/015.webp)
 
-![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/016.png)
+![](../images/liangzhu-fde-in-action-01-automated-local-content-delivery-sop/016.webp)
 
 ## 相关页面
 

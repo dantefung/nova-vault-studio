@@ -380,38 +380,38 @@ graph TD
 
 点击阅读原文查看详情。
 
-[img-0]:images/05-03-business-model/p01.jpg
+[img-0]:images/05-03-business-model/p01.webp
 
-[img-1]:images/05-03-business-model/p02.jpg
+[img-1]:images/05-03-business-model/p02.webp
 
-[img-2]:images/05-03-business-model/p03.jpg
+[img-2]:images/05-03-business-model/p03.webp
 
-[img-3]:images/05-03-business-model/p04.png
+[img-3]:images/05-03-business-model/p04.webp
 
-[img-4]:images/05-03-business-model/p05.jpg
+[img-4]:images/05-03-business-model/p05.webp
 
-[img-5]:images/05-03-business-model/p06.jpg
+[img-5]:images/05-03-business-model/p06.webp
 
 [img-6]:images/05-03-business-model/p07.gif
 
-[img-7]:images/05-03-business-model/p08.jpg
+[img-7]:images/05-03-business-model/p08.webp
 
-[img-8]:images/05-03-business-model/p09.jpg
+[img-8]:images/05-03-business-model/p09.webp
 
-[img-9]:images/05-03-business-model/p10.jpg
+[img-9]:images/05-03-business-model/p10.webp
 
-[img-10]:images/05-03-business-model/p11.jpg
+[img-10]:images/05-03-business-model/p11.webp
 
-[img-11]:images/05-03-business-model/p12.jpg
+[img-11]:images/05-03-business-model/p12.webp
 
-[img-12]:images/05-03-business-model/p13.jpg
+[img-12]:images/05-03-business-model/p13.webp
 
-[img-13]:images/05-03-business-model/p14.jpg
+[img-13]:images/05-03-business-model/p14.webp
 
-[img-14]:images/05-03-business-model/p15.jpg
+[img-14]:images/05-03-business-model/p15.webp
 
-[img-15]:images/05-03-business-model/p16.jpg
+[img-15]:images/05-03-business-model/p16.webp
 
-[img-16]:images/05-03-business-model/p17.jpg
+[img-16]:images/05-03-business-model/p17.webp
 
-[img-17]:images/05-03-business-model/p18.jpg
+[img-17]:images/05-03-business-model/p18.webp

@@ -12,7 +12,7 @@ url: "https://www.langchain.com/blog/components-building-company-harness"
 
 <!-- more -->
 
-![LangChain 三大内部 Agent 的统一构建配方](../images/langchain-five-components-company-harness/001.png)
+![LangChain 三大内部 Agent 的统一构建配方](../images/langchain-five-components-company-harness/001.webp)
 
 *图 1：LangChain 三大内部 Agent 遵循同一套构建配方。*
 
@@ -52,7 +52,7 @@ LangChain 在营销、销售、工程团队内部都建了 Agent，团队工作�
 
 很多情况下，一段很好的对话正在进行，你想把 Agent 拉进来听听意见或让它做点事。但如果它直接跑在那个线程里，会污染人之间的对话、造成分心。所以他们加了一个机制：Agent 可以「break out」到频道里的独立线程。
 
-![Slack 频道中 Agent 拆出独立线程的设计](../images/langchain-five-components-company-harness/002.jpg)
+![Slack 频道中 Agent 拆出独立线程的设计](../images/langchain-five-components-company-harness/002.webp)
 
 *图 2：Agent 在频道内 breakout 到独立线程的用户体验。*
 
@@ -60,7 +60,7 @@ LangChain 在营销、销售、工程团队内部都建了 Agent，团队工作�
 
 有些体验**最好不要**在 Slack 里做。例如 GTM Agent 在审阅它想让你发送的邮件时，零散地在 Slack 里点「发」没问题；但如果积压了一大堆，从一堆 Slack 消息里追踪进度就完全不享受。对于这类体验，他们最终自建了定制 UI。
 
-![GTM Agent 的定制 UI 体验](../images/langchain-five-components-company-harness/003.jpg)
+![GTM Agent 的定制 UI 体验](../images/langchain-five-components-company-harness/003.webp)
 
 *图 3：积压场景下 GTM Agent 改用自建 UI 承载。*
 
@@ -92,7 +92,7 @@ LangChain 每个 Agent 的具体做法：
 - **部分工具**（例如 Notion）代表调用它的用户行事
 - **部分工具**（例如 Twitter）使用**固定凭据**，即公司 Twitter 账号；但**只有白名单用户**才能调用特定操作——例如并非人人都能发帖，有些人只能读和起草
 
-![Content Studio 的身份与权限模型](../images/langchain-five-components-company-harness/004.png)
+![Content Studio 的身份与权限模型](../images/langchain-five-components-company-harness/004.webp)
 
 *图 4：Content Studio 的身份模型——固定凭据 + 白名单调用的组合。*
 
@@ -121,7 +121,7 @@ LangChain 每个 Agent 的具体做法：
 - OpenSWE（与编码关系最密切的 Agent）会**智能地选择该起哪个基础镜像**（依据频道/用户不同而不同）；
 - 它们都利用 LangSmith Sandboxes 上的 **secret proxy**，让 Agent 能从沙箱内部以安全的方式连接外部服务。
 
-![LangSmith Sandbox 与 secret proxy 架构](../images/langchain-five-components-company-harness/005.jpg)
+![LangSmith Sandbox 与 secret proxy 架构](../images/langchain-five-components-company-harness/005.webp)
 
 *图 5：沙箱执行 + secret proxy 让 Agent 能在沙箱内安全访问需要鉴权的服务。*
 
@@ -136,7 +136,7 @@ LangChain 每个 Agent 的具体做法：
 - **Agent 开发者设定**：例如 OpenSWE 监听 PR，一旦新 PR 被创建就自动审查；
 - **用户口头要求**：例如「我跟 GTM Agent 说一声，让它每天给我发销售简报」，它就自己建了一个 cron 来执行。
 
-![Agent 运行的三种触发方式](../images/langchain-five-components-company-harness/006.png)
+![Agent 运行的三种触发方式](../images/langchain-five-components-company-harness/006.webp)
 
 *图 6：Agent 运行既可由开发者预置，也可由用户一句话自行挂上 cron。*
 

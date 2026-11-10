@@ -33,7 +33,7 @@ X 上是一篇长文。
 
 公众号有文章结构和配套贴图。
 
-![](../images/kimberly-ai-one-click-content-generator-for-xhs-and-wechat/002.jpg)
+![](../images/kimberly-ai-one-click-content-generator-for-xhs-and-wechat/002.webp)
 
 我还把这套流程封装成了一个 Skill，已经开源到 GitHub。
 
@@ -419,7 +419,7 @@ Codex 新手指令教程
 
 只是给大家多几个选择，避免所有内容都长一个样。
 
-![](../images/kimberly-ai-one-click-content-generator-for-xhs-and-wechat/003.jpg)
+![](../images/kimberly-ai-one-click-content-generator-for-xhs-and-wechat/003.webp)
 
 ## 直接复制的 Prompt
 

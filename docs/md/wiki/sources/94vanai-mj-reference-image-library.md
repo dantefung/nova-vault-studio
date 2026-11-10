@@ -23,21 +23,21 @@ coverImage: "../images/94vanai-mj-reference-image-library/001.jpg"
 
 比如最近原作者
 
-![](../images/94vanai-mj-reference-image-library/002.png)
+![](../images/94vanai-mj-reference-image-library/002.webp)
 
 @ giaaibus あぎ／ギア 的参考库直接把“捏人”变成了拼积木：（6G 多容量的素材网盘综合整理好了，在文章末尾）https://ai-portrait-gallery.pages.dev/
 
 - 脸库（CC0 协议）：1,499 张纯色背景头部参考（含 893 张特写、606 张造型），MJ 的脸库（近 4.5GB 内容，个人建议自己捏）
 
-![](../images/94vanai-mj-reference-image-library/003.jpg)
+![](../images/94vanai-mj-reference-image-library/003.webp)
 
 - 姿势库：288 种姿势共 1,439 张多视角无脸线稿。
 
-![](../images/94vanai-mj-reference-image-library/004.jpg)
+![](../images/94vanai-mj-reference-image-library/004.webp)
 
 - 服装库：8 大分类共 1,407 套纯服装参考
 
-![](../images/94vanai-mj-reference-image-library/005.jpg)
+![](../images/94vanai-mj-reference-image-library/005.webp)
 
 对于需要连续出图、维持角色一致性的创作者来说，这种库确实救命。把已经解决的长相和穿搭固定下来，省去每次重新抽卡的力气，腾出精力处理新内容，完全合情合理。
 

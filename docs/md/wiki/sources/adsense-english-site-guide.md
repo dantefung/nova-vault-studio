@@ -132,7 +132,7 @@ SEO 效果需要时间，可能一个月、半年才见效。做完后只能耐�
 
 **思路**：开发工具费时间，但开发一个页面只要一两个小时。先做页面、完善层级结构、让搜索引擎收录，获得流量后再开发工具。
 
-![SEO 方法论实践](../images/adsense-english-site-guide/007.png)
+![SEO 方法论实践](../images/adsense-english-site-guide/007.webp)
 
 ## GPT 辅助建站
 
@@ -152,4 +152,4 @@ SEO 效果需要时间，可能一个月、半年才见效。做完后只能耐�
 
 网站的收录时间示例：
 
-![网站收录时间](../images/adsense-english-site-guide/008.png)
+![网站收录时间](../images/adsense-english-site-guide/008.webp)

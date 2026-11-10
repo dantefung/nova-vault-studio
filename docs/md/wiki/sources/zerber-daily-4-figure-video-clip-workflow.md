@@ -75,7 +75,7 @@ Xilo 今天 Ai 了吗的这一篇是非常好的学习资料：[xhslink.cn](http
 
 因为我之前那份分镜太复杂了，这里就举个简单的例子：
 
-![](../images/zerber-daily-4-figure-video-clip-workflow/002.jpg)
+![](../images/zerber-daily-4-figure-video-clip-workflow/002.webp)
 
 当然，这只是一个很初级的版本。你要知道，每一个脚本行大概对应一句话，有时候几句话会共用一个镜头。每个镜头怎么跳、怎么构思，中间怎么转场，你都得先在脑子里想清楚。所以这张表会跟着你不停修改，尤其是时间这一列，后面讲录口播的时候我会再细说。
 
@@ -97,7 +97,7 @@ Xilo 今天 Ai 了吗的这一篇是非常好的学习资料：[xhslink.cn](http
 
 - 也可以先用 Codex 设计分镜，再让 grok image 生成连续的动画，比如：我首页那个爆炸就是这么做出来的
 
-![](../images/zerber-daily-4-figure-video-clip-workflow/003.jpg)
+![](../images/zerber-daily-4-figure-video-clip-workflow/003.webp)
 
 - 我们也可以把这些分镜做成剪纸贴纸风：角色拆成可换的零件，一帧一帧换表情和动作，连成短 GIF，当成 A-roll 过渡。
 
@@ -157,7 +157,7 @@ Xilo 今天 Ai 了吗的这一篇是非常好的学习资料：[xhslink.cn](http
 
 我截了个图，大家可以看看我平时大概是怎么卡节奏的：
 
-![](../images/zerber-daily-4-figure-video-clip-workflow/004.jpg)
+![](../images/zerber-daily-4-figure-video-clip-workflow/004.webp)
 
 口播分镜里的 MiniMax 停顿标记
 

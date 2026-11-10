@@ -14,7 +14,7 @@ url: "https://x.com/gefei55/status/2113248315672539300"
 
 > 本文合并 @gefei55 的原帖与 @ai_voyager168 在同一线程的回应。
 
-![哥飞原文配图：游戏站与工具站对比](../images/gefei-game-site-vs-tool-site-roi/001.png)
+![哥飞原文配图：游戏站与工具站对比](../images/gefei-game-site-vs-tool-site-roi/001.webp)
 
 *图 1：哥飞原帖配图。*
 
@@ -33,7 +33,7 @@ url: "https://x.com/gefei55/status/2113248315672539300"
 | 维护状态 | 两年不管 → 月入一两百刀 | 持续更新内页 → 复利积累 |
 | 适合人群 | 能搞到大流量的人 | 新手（关键词多、机会多、开发难度低） |
 
-![哥飞原文配图：ROI 对比](../images/gefei-game-site-vs-tool-site-roi/002.jpg)
+![哥飞原文配图：ROI 对比](../images/gefei-game-site-vs-tool-site-roi/002.webp)
 
 *图 2：哥飞原帖配图。*
 

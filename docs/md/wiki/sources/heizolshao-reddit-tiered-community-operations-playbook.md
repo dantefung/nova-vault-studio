@@ -19,7 +19,7 @@ coverImage: "../images/heizolshao-reddit-tiered-community-operations-playbook/00
 
 精细化分层运营的真正目的，就是根据老外当下的心理状态，把你的精力和动作切成五个不同的层次。我平时主要做独立开发和轻量软件出海，下面我用自己的真实操盘经历为主，把这五个层级怎么找、怎么搜、怎么回帖讲透。如果你是做跨境电商或者实体卖货的朋友，我也把电商对应的阵地和选版逻辑同步列了出来，大家对照着看就能直接对号入座。
 
-![这只是 Reddit 运营全流程中的一篇，更多可以查看我个人中心的网址](../images/heizolshao-reddit-tiered-community-operations-playbook/002.jpg)
+![这只是 Reddit 运营全流程中的一篇，更多可以查看我个人中心的网址](../images/heizolshao-reddit-tiered-community-operations-playbook/002.webp)
 
 ## 一、核心转化社区有哪些？如何运营？
 

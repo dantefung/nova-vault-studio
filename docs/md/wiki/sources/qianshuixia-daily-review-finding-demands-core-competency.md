@@ -17,11 +17,11 @@ coverImage: "../images/qianshuixia-daily-review-finding-demands-core-competency/
 
 昨天有一位虾友过来跟我报喜，他终于出单了。
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/002.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/002.webp)
 
 并且不是出一单，而是连着出单。
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/003.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/003.webp)
 
 然后就是，我也有被当成精神导师的一天，这让我有点受宠若惊，开心了一整天，哈哈哈哈。
 
@@ -31,25 +31,25 @@ coverImage: "../images/qianshuixia-daily-review-finding-demands-core-competency/
 
 以下多图警告哦~。
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/004.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/004.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/005.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/005.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/006.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/006.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/007.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/007.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/008.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/008.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/009.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/009.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/010.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/010.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/011.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/011.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/012.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/012.webp)
 
-![](../images/qianshuixia-daily-review-finding-demands-core-competency/013.jpg)
+![](../images/qianshuixia-daily-review-finding-demands-core-competency/013.webp)
 
 ## 每天复盘找词：出海做站的核心竞争力
 

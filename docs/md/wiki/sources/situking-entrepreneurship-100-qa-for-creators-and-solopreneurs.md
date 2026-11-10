@@ -25,7 +25,7 @@ coverImage: "../images/situking-entrepreneurship-100-qa-for-creators-and-solopre
 
 ## 一、要不要注册公司（1—5）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/002.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/002.webp)
 
 ## Q1. 做自媒体或者个人开发，刚开始就要注册公司吗？
 
@@ -49,7 +49,7 @@ coverImage: "../images/situking-entrepreneurship-100-qa-for-creators-and-solopre
 
 ## 二、个体户还是公司，怎么选（6—10）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/003.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/003.webp)
 
 ## Q6. 个人、个体户、个人独资企业和有限公司，应该怎么选？
 
@@ -73,7 +73,7 @@ coverImage: "../images/situking-entrepreneurship-100-qa-for-creators-and-solopre
 
 ## 三、公司注册与开户（11—17）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/004.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/004.webp)
 
 ## Q11. 没有办公室，可以用住宅或者园区地址注册吗？
 
@@ -105,7 +105,7 @@ coverImage: "../images/situking-entrepreneurship-100-qa-for-creators-and-solopre
 
 ## 四、财税、记账和开票（18—37）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/005.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/005.webp)
 
 ## Q18. 商单、咨询、课程、软件订阅这些收入，税务上都是一样的吗？
 
@@ -189,7 +189,7 @@ coverImage: "../images/situking-entrepreneurship-100-qa-for-creators-and-solopre
 
 ## 五、境外收款和结汇（38—53）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/006.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/006.webp)
 
 ## Q38. 收到 X 分成、海外商单或者软件销售款，先弄清楚什么？
 
@@ -215,7 +215,7 @@ coverImage: "../images/situking-entrepreneurship-100-qa-for-creators-and-solopre
 
 不是，个人每年等值 5 万美元的便利化额度，主要涉及个人结汇和购汇，不是合法收入的收款上限，也不是免税额度。真实、合法的经常项目收入超过额度，可以按规定提交材料，让银行审核办理。还有国际收支申报，这和结汇额度是两回事。按现行规则，符合条件的境内居民个人，单笔涉外收付款不超过等值 1 万美元时，可以不用填写这笔款的申报信息，但银行仍要报送基础信息。收款、申报、结汇和报税这几件事要分别弄清楚，办完一项，不代表其他的也一起办完了。
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/007.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/007.webp)
 
 ## Q44. 海外工资、咨询费和产品收入，可以都收进同一张个人卡吗？
 
@@ -259,7 +259,7 @@ MoR 可以理解为平台在约定的交易里充当卖方，不是简单帮你�
 
 ## 六、接单、卖产品，合同怎么签（54—71）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/008.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/008.webp)
 
 ## Q54. 第一次和客户合作，怎么确认对方是谁、谁来付款？
 
@@ -335,7 +335,7 @@ Net30 通常是从约定的起算点开始，30 天内付款，但从开票、�
 
 ## 七、商标、版权和软件权利（72—82）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/009.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/009.webp)
 
 ## Q72. 文章、课程或者产品里，能直接引用别人的图片、论文和代码吗？
 
@@ -383,7 +383,7 @@ Net30 通常是从约定的起算点开始，30 天内付款，但从开票、�
 
 ## 八、内容、软件和用户数据的合规（83—95）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/010.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/010.webp)
 
 ## Q83. 课程、数字文件和软件，能不能写“售出概不退款”？
 
@@ -439,7 +439,7 @@ Net30 通常是从约定的起算点开始，30 天内付款，但从开票、�
 
 ## 九、OPC 和政策怎么判断（96）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/011.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/011.webp)
 
 ## Q96. OPC 是一种新的公司类型吗？园区和补贴值得为了它专门注册吗？
 
@@ -447,7 +447,7 @@ Net30 通常是从约定的起算点开始，30 天内付款，但从开票、�
 
 ## 十、暂停、退出和后续维护（97—100）
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/012.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/012.webp)
 
 ## Q97. 一个人做业务，哪些资料和账号需要一直掌握在自己手里？
 
@@ -474,7 +474,7 @@ Net30 通常是从约定的起算点开始，30 天内付款，但从开票、�
 5. 收款以后把记录跟上。 合同、平台账单、交付、发票和流水一起保存，境外收入还要分别考虑收款、结汇和税务，不能只看到钱已经到账。
 6. 长期做就定期检查，不做了就处理退出。 财税申报、年报、账号、商标和用户服务不能一直放着不管，停产品和注销主体也要分别处理。
 
-![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/013.jpg)
+![](../images/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs/013.webp)
 
 ## 最后再提醒几句
 

@@ -35,7 +35,7 @@ coverImage: "../images/longhai-parenting-first-principles-comprehensive-guide/00
 
 最后是“根”。根深埋在土壤里，不容易被看见。它代表着整个家庭的氛围。夫妻关系、父母各自的原生家庭影响、父母自身的成长与情绪状态等，这些共同构成了这棵大树的土壤和根系。我们都知道，根系是否有活力，土壤是否肥沃，决定了整棵树的生命状态。
 
-![图 1 从叶到根，区分问题表现、能力、关系与家庭氛围](../images/longhai-parenting-first-principles-comprehensive-guide/002.jpg)
+![图 1 从叶到根，区分问题表现、能力、关系与家庭氛围](../images/longhai-parenting-first-principles-comprehensive-guide/002.webp)
 
 我们过去所有的努力，都花在了处理“叶子”上。我们试图用绿色的胶带遮住枯黄的叶子，用杀虫剂喷被虫子咬过的叶子。但一个有经验的园丁会告诉你，这样做用处不大。想要彻底解决叶子的问题，你就不能只盯着叶子，而要往下找原因。
 
@@ -57,7 +57,7 @@ coverImage: "../images/longhai-parenting-first-principles-comprehensive-guide/00
 
 问题的性质，瞬间从一场行为争夺战变成了一个能力培养计划。方向对了，努力才不会白费。
 
-![图 2 沿三条虚线追问可能的需要，不把它们画成沉迷的必然原因](../images/longhai-parenting-first-principles-comprehensive-guide/003.jpg)
+![图 2 沿三条虚线追问可能的需要，不把它们画成沉迷的必然原因](../images/longhai-parenting-first-principles-comprehensive-guide/003.webp)
 
 从“枝”到“干”
 
@@ -73,7 +73,7 @@ coverImage: "../images/longhai-parenting-first-principles-comprehensive-guide/00
 
 所以你看，“枝”的问题，也就是孩子核心能力的缺失，往往是因为“干”，也就是我们的亲子关系模式出了问题。想让枝繁叶茂，就得疏通主干。
 
-![图 3 关系像传递心理营养的通道，支持孩子的能力成长](../images/longhai-parenting-first-principles-comprehensive-guide/004.jpg)
+![图 3 关系像传递心理营养的通道，支持孩子的能力成长](../images/longhai-parenting-first-principles-comprehensive-guide/004.webp)
 
 从“干”到“根”
 
@@ -97,7 +97,7 @@ coverImage: "../images/longhai-parenting-first-principles-comprehensive-guide/00
 
 上述三点——夫妻关系、父母的自我成长状态、代际传承，无论哪一点处理不好，都会影响整个家庭系统的运转，损害家庭整体的氛围。土壤和树根出了问题，怎么可能长出参天大树呢？
 
-![图 4 三个主根分别对应夫妻关系、父母成长状态与代际传承](../images/longhai-parenting-first-principles-comprehensive-guide/005.jpg)
+![图 4 三个主根分别对应夫妻关系、父母成长状态与代际传承](../images/longhai-parenting-first-principles-comprehensive-guide/005.webp)
 
 孩子沉迷网络（叶），可能是因为他缺乏价值感和社交能力（枝）；而他之所以缺乏这些能力，可能是因为我们的亲子沟通充满了指责和说教，让他感受不到爱与支持（干）；而我们之所以会用这样的方式沟通，又可能是因为我们的夫妻关系紧张，我们自己也长期处于焦虑状态，无力给予孩子高质量的情感回应（根）。
 
@@ -115,7 +115,7 @@ coverImage: "../images/longhai-parenting-first-principles-comprehensive-guide/00
 
 我们习惯了给孩子答案、讲道理，但青春期的孩子最反感的就是被说教。教练式提问，是用问题来引导孩子自己思考、自己找到答案。
 
-![图 5 共情是理解与回应，提问是支持孩子自己思考](../images/longhai-parenting-first-principles-comprehensive-guide/006.jpg)
+![图 5 共情是理解与回应，提问是支持孩子自己思考](../images/longhai-parenting-first-principles-comprehensive-guide/006.webp)
 
 ## 02 机制：青春期的孩子为何像变了个人
 
@@ -641,21 +641,21 @@ coverImage: "../images/longhai-parenting-first-principles-comprehensive-guide/00
 
 ## Media
 
-![](../images/longhai-parenting-first-principles-comprehensive-guide/007.jpg)
+![](../images/longhai-parenting-first-principles-comprehensive-guide/007.webp)
 
-![](../images/longhai-parenting-first-principles-comprehensive-guide/008.jpg)
+![](../images/longhai-parenting-first-principles-comprehensive-guide/008.webp)
 
-![](../images/longhai-parenting-first-principles-comprehensive-guide/009.jpg)
+![](../images/longhai-parenting-first-principles-comprehensive-guide/009.webp)
 
-![](../images/longhai-parenting-first-principles-comprehensive-guide/010.jpg)
+![](../images/longhai-parenting-first-principles-comprehensive-guide/010.webp)
 
-![](../images/longhai-parenting-first-principles-comprehensive-guide/011.jpg)
+![](../images/longhai-parenting-first-principles-comprehensive-guide/011.webp)
 
-![](../images/longhai-parenting-first-principles-comprehensive-guide/012.jpg)
+![](../images/longhai-parenting-first-principles-comprehensive-guide/012.webp)
 
-![](../images/longhai-parenting-first-principles-comprehensive-guide/013.jpg)
+![](../images/longhai-parenting-first-principles-comprehensive-guide/013.webp)
 
-![](../images/longhai-parenting-first-principles-comprehensive-guide/014.jpg)
+![](../images/longhai-parenting-first-principles-comprehensive-guide/014.webp)
 
 ## 相关页面
 

@@ -22,7 +22,7 @@ url: "https://mp.weixin.qq.com/s/BTFjHkM0AL8hMWasaCD8uQ"
 
 ## 词条页：一个词条，一个讲全的页面
 
-![维基百科 DeepSeek 词条结构](../images/gefei-seo-directory-inner-pages-wikipedia-structure/001.png)
+![维基百科 DeepSeek 词条结构](../images/gefei-seo-directory-inner-pages-wikipedia-structure/001.webp)
 
 在维基百科随便打开一个词条，比如 DeepSeek，看到的就是维基百科的经典页面：**词条详情页**。
 

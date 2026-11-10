@@ -20,13 +20,13 @@ Agent 总是跑两步就停下来等你说"继续"，原因藏在 Loop 的实现
 
 这篇聊聊一个让 Agent 「持续自己干活」的小命令——/goal。
 
-![image](./images/article_main-img1.png)
+![image](images/article_main-img1.webp)
 
 ## 一、Agent 为什么“干两步就停”
 
 第一篇文章讲过，Agent 的 Loop 长这样：模型回一段话，看里面有没有 tool_use 块，有就执行工具，把结果塞回去再问下一轮；没有，循环结束。
 
-![image](./images/article_main-img2.png)
+![image](images/article_main-img2.webp)
 
 这套逻辑对“小问答”很合理——你问一句“列一下当前目录有啥”，Agent 调一次 bash、看一眼结果、回你一段总结，任务结束，控制权回到用户手上。
 
@@ -73,7 +73,7 @@ for {
 
 把轻的检查放前面是有道理的——查内存切片和扫磁盘目录都是几微秒的事，调 LLM 评估器要花几百毫秒外加 token 钱。用便宜的判断挡掉大多数情况，把昂贵的判断留给最后一公里。
 
-![image](./images/article_main-img3.png)
+![image](images/article_main-img3.webp)
 
 ## 三、评估器：让小模型当裁判
 
@@ -87,7 +87,7 @@ for {
 
 evo-agent 的方案是把评估这件事交给一个独立的小模型。
 
-![image](./images/article_main-img4.png)
+![image](images/article_main-img4.webp)
 
 评估器的输入是两段话——目标本身、最近 N 轮的对话摘要。
 
@@ -111,7 +111,7 @@ Session Plan 解决“长任务跨会话推进”——记住整个项目的骨�
 
 三层机制叠在一起，Agent 才真正从“对话助手”长成了“自主代理”。
 
-![image](./images/article_main-img5.png)
+![image](images/article_main-img5.webp)
 
 《完》
 

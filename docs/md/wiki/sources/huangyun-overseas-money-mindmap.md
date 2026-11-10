@@ -12,11 +12,11 @@ url: "https://x.com/huangyun_122/status/1828063680757452978"
 
 <!-- more -->
 
-![出海赚钱思维导图](../images/huangyun-overseas-money-mindmap/001.jpg)
+![出海赚钱思维导图](../images/huangyun-overseas-money-mindmap/001.webp)
 
 *图 1：《出海赚钱》小册的实战思维导图。*
 
-![思维导图细节](../images/huangyun-overseas-money-mindmap/002.jpg)
+![思维导图细节](../images/huangyun-overseas-money-mindmap/002.webp)
 
 *图 2：思维导图细节。*
 

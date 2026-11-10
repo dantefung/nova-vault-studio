@@ -79,11 +79,11 @@ url: "https://mp.weixin.qq.com/s/O29jq5_hlyW6mkGzIsNjhw"
 
 ## 配图
 
-![PPT Skill 对比概览](../images/pptskill-comparison/001.png)
-![PPT Master 图解](../images/pptskill-comparison/002.png)
-![open-kimi 内容展示](../images/pptskill-comparison/003.png)
-![Bento 自包含文件](../images/pptskill-comparison/004.png)
-![Frontend Slides 手绘风格](../images/pptskill-comparison/005.png)
-![Guizang 编辑设计风格](../images/pptskill-comparison/006.png)
-![HTML PPT Studio 演讲工具](../images/pptskill-comparison/007.png)
-![Dashi 方案选择](../images/pptskill-comparison/008.png)
+![PPT Skill 对比概览](../images/pptskill-comparison/001.webp)
+![PPT Master 图解](../images/pptskill-comparison/002.webp)
+![open-kimi 内容展示](../images/pptskill-comparison/003.webp)
+![Bento 自包含文件](../images/pptskill-comparison/004.webp)
+![Frontend Slides 手绘风格](../images/pptskill-comparison/005.webp)
+![Guizang 编辑设计风格](../images/pptskill-comparison/006.webp)
+![HTML PPT Studio 演讲工具](../images/pptskill-comparison/007.webp)
+![Dashi 方案选择](../images/pptskill-comparison/008.webp)

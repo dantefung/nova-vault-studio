@@ -26,7 +26,7 @@ url: "https://mp.weixin.qq.com/s/lRkKjbSF9gyt0MaJSUfTwg"
 
 心智模型：普通提示是「问 → 干 → 出结果 → 等你」，目标是「干 → 查 → 继续或完成」。
 
-![/goal 生命周期：干一轮 → 判一次 → 继续或停](../images/goal-command-completion-judgment/002.png)
+![/goal 生命周期：干一轮 → 判一次 → 继续或停](../images/goal-command-completion-judgment/002.webp)
 
 **关键细节**：判断器不亲自跑命令，它只读会话记录（transcript）来下结论。所以只有当证据出现在对话里，它才判得动。`npm test` 的输出留在会话里就能判；但「工作区是不是干净了」这种不体现在对话里的状态，它无从判起。这条约束决定了目标怎么写——得让智能体把验证动作显式做出来、把结果留在记录里。
 
@@ -40,7 +40,7 @@ url: "https://mp.weixin.qq.com/s/lRkKjbSF9gyt0MaJSUfTwg"
 
 ## 同一套机制，两处落地
 
-![同一套机制两处落地：Codex 与 Claude Code 各自的绑定](../images/goal-command-completion-judgment/003.png)
+![同一套机制两处落地：Codex 与 Claude Code 各自的绑定](../images/goal-command-completion-judgment/003.webp)
 
 **Codex 的 Goal**：最「重」也最结构化。Goal 是一份持久化的线程内状态——目标属于它诞生的那个线程，因为相关上下文都在这个线程里。记录着目标本身、生命周期（active / paused / complete / 预算受限）、预算记账和进度。续跑是事件驱动而非死循环，只在真正空闲时才检查。调度刻意保守——只做计划不触发续跑；被打断则暂停；空转轮次自动抑制续跑。命令面：`/goal`、`/goal pause`、`/goal resume`、`/goal clear`（Codex 0.128.0+）。
 
@@ -52,7 +52,7 @@ url: "https://mp.weixin.qq.com/s/lRkKjbSF9gyt0MaJSUfTwg"
 
 好目标通常包含四件事：
 
-![完成契约的解剖：终态、验证面、约束与受阻兜底](../images/goal-command-completion-judgment/004.png)
+![完成契约的解剖：终态、验证面、约束与受阻兜底](../images/goal-command-completion-judgment/004.webp)
 
 1. **终态**：完成时什么该为真
 2. **验证面**：用哪个测试、基准、命令输出或产物来证明它

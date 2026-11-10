@@ -15,7 +15,7 @@ coverImage: "../images/xiaofeiyang-new-site-google-traffic-simulator/001.jpg"
 
 前段时间我打开 Google Search Console（下面简称 GSC，Google 官方的免费后台，能看到你的网站在搜索结果里被看到了多少次、被点了多少次），看到我一个老站的曲线：
 
-![](../images/xiaofeiyang-new-site-google-traffic-simulator/002.jpg)
+![](../images/xiaofeiyang-new-site-google-traffic-simulator/002.webp)
 
 上线后大概两周，陆陆续续有 20 次点击。然后就归零了，一直到现在。
 
@@ -59,7 +59,7 @@ SEO 圈有个长期观察到的现象（Google 没有公开承认过）：新站
 - 3 到 6 个月：中等难度的词开始往上走
 - 6 到 12 个月：才有可能和老站正面竞争
 
-![](../images/xiaofeiyang-new-site-google-traffic-simulator/003.jpg)
+![](../images/xiaofeiyang-new-site-google-traffic-simulator/003.webp)
 
 回头看我那个老站：上线两周有 20 次点击，然后归零，和这条时间线几乎一模一样。那 20 次点击很可能是优待期送的，不代表我真有这个实力。（同一时间还有一批页面掉出了收录，这个原因很可能内页质量不佳）
 
@@ -87,7 +87,7 @@ SEO 圈有个长期观察到的现象（Google 没有公开承认过）：新站
 - 第 5 页：0.8%
 - 第 7 页：0.3%
 
-![](../images/xiaofeiyang-new-site-google-traffic-simulator/004.jpg)
+![](../images/xiaofeiyang-new-site-google-traffic-simulator/004.webp)
 
 这里有个我之前完全没想到的点：没人翻到的位置，GSC 里连“曝光”都不会有。 曝光的意思是真的有人看到了你。所以新站排在 70 名以外时，GSC 几乎一片空白。不是“有人看到、没人点”，而是根本没人看到。
 
@@ -110,7 +110,7 @@ Google 搜索是“千人千面”的：同一个词，不同地区、不同时�
 
 我那一轮模拟开局时，网站在一个关键词上排第 8，已经在第一页了。但这个词每天大约 5,500 人搜，只有 50 个人看到了我，覆盖率不到 1%。
 
-![](../images/xiaofeiyang-new-site-google-traffic-simulator/005.jpg)
+![](../images/xiaofeiyang-new-site-google-traffic-simulator/005.webp)
 
 你每天能拿到的曝光，大约等于：
 
@@ -138,7 +138,7 @@ GSC 里没有“覆盖率”这个数字。我的做法是：在 GSC 的“效�
 
 `intitle:"关键词"` 的意思是：只找标题里带这个词的页面。这个数越小，说明专门为这个词做页面的人越少。月搜索量要用 Ahrefs、Semrush 这类工具查，GSC 里查不到。
 
-![](../images/xiaofeiyang-new-site-google-traffic-simulator/006.jpg)
+![](../images/xiaofeiyang-new-site-google-traffic-simulator/006.webp)
 
 怎么看结果：
 
@@ -148,7 +148,7 @@ GSC 里没有“覆盖率”这个数字。我的做法是：在 GSC 的“效�
 
 举个例子：一个词每月有 200 人搜，intitle 搜出来 40 个结果，KGR = 40 ÷ 200 = 0.2，可以做。如果搜出来 3,000 个结果，KGR = 15，别碰。
 
-![](../images/xiaofeiyang-new-site-google-traffic-simulator/007.jpg)
+![](../images/xiaofeiyang-new-site-google-traffic-simulator/007.webp)
 
 还有一个进阶版叫 EKGR，把 KD 也算进去：
 
@@ -192,7 +192,7 @@ GSC 里没有“覆盖率”这个数字。我的做法是：在 GSC 的“效�
 - 信号：DR 至少 20，多个中等词进了前 10，外链稳定在涨
 - 要做：到这时才有资格考虑大词。但更聪明的做法是再开几个新站，继续做长尾词
 
-![](../images/xiaofeiyang-new-site-google-traffic-simulator/008.jpg)
+![](../images/xiaofeiyang-new-site-google-traffic-simulator/008.webp)
 
 这就是哥飞常讲的“小果园”：与其死磕一棵大树，不如种 100 棵小果树，每棵结一点果，加起来更稳。
 

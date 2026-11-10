@@ -349,4 +349,4 @@ X：**https://x.com/KimYx0207**
 
 开源知识库地址：https://tffyvtlai4.feishu.cn/wiki/OhQ8wqntFihcI1kWVDlcNdpznFf
 
-![](../images/openai-guide-0.png)
+![](../images/openai-guide-0.webp)

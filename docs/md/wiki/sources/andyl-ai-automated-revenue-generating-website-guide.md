@@ -17,9 +17,9 @@ coverImage: "../images/andyl-ai-automated-revenue-generating-website-guide/001.j
 
 故事开始于我在小红书刷到几个英语学习账号。
 
-![](../images/andyl-ai-automated-revenue-generating-website-guide/002.jpg)
+![](../images/andyl-ai-automated-revenue-generating-website-guide/002.webp)
 
-![](../images/andyl-ai-automated-revenue-generating-website-guide/003.jpg)
+![](../images/andyl-ai-automated-revenue-generating-website-guide/003.webp)
 
 它们有个共同特点：
 
@@ -31,9 +31,9 @@ coverImage: "../images/andyl-ai-automated-revenue-generating-website-guide/001.j
 
 我后来又看到了一组真实成交数据：单日支付金额 1.38 万，346 个支付订单。
 
-![](../images/andyl-ai-automated-revenue-generating-website-guide/004.jpg)
+![](../images/andyl-ai-automated-revenue-generating-website-guide/004.webp)
 
-![](../images/andyl-ai-automated-revenue-generating-website-guide/005.jpg)
+![](../images/andyl-ai-automated-revenue-generating-website-guide/005.webp)
 
 我当时第一反应就是：
 

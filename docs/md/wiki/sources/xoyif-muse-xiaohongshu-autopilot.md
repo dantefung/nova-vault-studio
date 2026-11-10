@@ -13,7 +13,7 @@ coverImage: "../images/xoyif-muse-xiaohongshu-autopilot/001.jpg"
 
 <!-- more -->
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/002.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/002.webp)
 
 这是一套真实跑通的流程：一个 4–9 岁儿童英文启蒙小红书账号，从定位、做视频、发布，到每天自动更新两条视频、自动回复评论，全链路无人值守。下面每一步都按实际操作顺序写，照着做就能复刻。我觉得核心不在「会不会用 AI」，而在把定位、栏目、规格和定时任务一次锁死——后面 Muse 才接得住。
 
@@ -21,7 +21,7 @@ coverImage: "../images/xoyif-muse-xiaohongshu-autopilot/001.jpg"
 
 动手前先定三件事，写下来贴在墙上，后面所有决策都向它看齐。
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/003.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/003.webp)
 
 一句话定位：给 4–9 岁孩子的英文启蒙乐园——原创绘本故事 + 原创英文儿歌，动漫风，温暖有趣。
 
@@ -33,7 +33,7 @@ coverImage: "../images/xoyif-muse-xiaohongshu-autopilot/001.jpg"
 
 不要想到什么发什么。固定三个栏目，按 A→B→C→A… 轮换，观众会形成期待，制作也有节奏。
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/004.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/004.webp)
 
 A《Moonlight Tales 月光故事》：原创英文绘本故事视频，45–60 秒。英文旁白 + 中文字幕。
 
@@ -73,13 +73,13 @@ Little Milo, little fox, say hello! One red apple in the box, you know! Two red 
 
 8 句，数数 + 小意外（苹果滚走被小兔接住）+ 分享结尾，一气呵成。
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/005.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/005.webp)
 
 ## 04｜视频制作规格：一次锁定，次次复用
 
 规格别每次重开讨论，写成表贴在流水线入口：
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/006.png)
+![](../images/xoyif-muse-xiaohongshu-autopilot/006.webp)
 
 | 项目 | 规格 |
 | --- | --- |
@@ -109,7 +109,7 @@ Little Milo, little fox, say hello! One red apple in the box, you know! Two red 
 
 ### 第 2 步：生成 4 张动漫关键帧
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/007.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/007.webp)
 
 用 AI 生图，提示词写法 = 风格前缀 + 角色锁定描述 + 本镜场景 + 禁止项。角色描述四个镜头一字不差，人物才不会「换脸」。
 
@@ -136,7 +136,7 @@ tts speak --voice avocado_v2:Vanessa --language en --speed 95 \
 
 成片约 29 秒。抽帧检查 3 张（开头/中段/结尾字幕），确认无误再往下走。
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/008.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/008.webp)
 
 ### 第 6 步：做封面
 
@@ -160,7 +160,7 @@ apple 苹果 / red 红色 / share 分享 / bunny 小兔 / yum 好吃
 
 ## 06｜发布：小红书创作者平台
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/009.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/009.webp)
 
 入口：https://creator.xiaohongshu.com/publish/publish（网页端）
 
@@ -190,7 +190,7 @@ apple 苹果 / red 红色 / share 分享 / bunny 小兔 / yum 好吃
 
 ### 防重复机制（很重要）
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/010.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/010.webp)
 
 两个发布任务可能时间重叠，必须加锁：
 
@@ -206,7 +206,7 @@ apple 苹果 / red 红色 / share 分享 / bunny 小兔 / yum 好吃
 
 ## 08｜评论区运营：话术三原则
 
-![](../images/xoyif-muse-xiaohongshu-autopilot/011.jpg)
+![](../images/xoyif-muse-xiaohongshu-autopilot/011.webp)
 
 1. 暖：身份是「儿童英文启蒙老师」，语气亲切，1–2 句中文短回复
 

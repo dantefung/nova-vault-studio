@@ -7,7 +7,7 @@ url: "https://x.com/ai_xiaomu/status/2101135680168771979"
 ---
 # Jev 模型从 0 到 1 小白教程
 
-![](../images/ai-xiaomu-jev-decision-model-primer/001.jpg)
+![](../images/ai-xiaomu-jev-decision-model-primer/001.webp)
 
 Jev模型你最近因该刷到了，是个啥？
 
@@ -17,7 +17,7 @@ Jev模型你最近因该刷到了，是个啥？
 
 所以Jev是什么？
 
-![video](../images/ai-xiaomu-jev-decision-model-primer/002.jpg)
+![video](../images/ai-xiaomu-jev-decision-model-primer/002.webp)
 [video](../videos/ai-xiaomu-jev-decision-model-primer/001.mp4)
 
 # Jev 的诞生
@@ -54,7 +54,7 @@ Jev 是另一个物种。
 
 简单的说："扫一眼，出结果"。
 
-![](../images/ai-xiaomu-jev-decision-model-primer/003.jpg)
+![](../images/ai-xiaomu-jev-decision-model-primer/003.webp)
 
 # 会聊天的 chatbot，为何反而是瓶颈
 
@@ -84,7 +84,7 @@ Jev 是另一个物种。
 你永远没法百分之百保证它下一次不会突然跑偏。
 哪怕跑偏的概率只有万分之一，你也不敢把它埋进一个没人盯着的系统里让它自己跑。
 
-![](../images/ai-xiaomu-jev-decision-model-primer/004.jpg)
+![](../images/ai-xiaomu-jev-decision-model-primer/004.webp)
 
 如果 AI 不可靠、不可控、不可预测，就没法被信任，也就没法被大规模地搭建进真实的软件里。
 
@@ -116,7 +116,7 @@ Jev 的思路，是把整个交互方式彻底改掉。
 
 所以你要什么类型的答案，它就一定还你什么类型，也就有了稳定运行的基础。
 
-![](../images/ai-xiaomu-jev-decision-model-primer/005.jpg)
+![](../images/ai-xiaomu-jev-decision-model-primer/005.webp)
 
 # Jev 的特点
 
@@ -189,7 +189,7 @@ Jev 给每个答案都自带一个"把握度"，官方叫 confidence，你可以
 
 一个会说"我不知道"的 AI，比一个永远自信满满的 AI，靠谱得多。
 
-![](../images/ai-xiaomu-jev-decision-model-primer/006.jpg)
+![](../images/ai-xiaomu-jev-decision-model-primer/006.webp)
 
 ## Jev 足够便宜
 
@@ -205,7 +205,7 @@ Jev 比同级别的大模型快大约 200 倍，便宜大约 400 倍。
 
 你也可以让它嵌进一个界面里做实时反应，因为它够快，用户根本感觉不到延迟。
 
-![](../images/ai-xiaomu-jev-decision-model-primer/007.jpg)
+![](../images/ai-xiaomu-jev-decision-model-primer/007.webp)
 
 # 你该怎么使用 Jev
 

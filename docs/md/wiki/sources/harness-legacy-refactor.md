@@ -19,7 +19,7 @@ url: "https://mp.weixin.qq.com/s/WK8AoYuk23T9yRJ0GPj4qQ"
 
 团队最初评估了多种重构方案，最终没有机械迁移旧代码，而是把旧系统视为产品功能和行为的需求说明书，利用 Harness 从头实现新系统。
 
-![重构方案选择](../images/harness-legacy-refactor/001.png)
+![重构方案选择](../images/harness-legacy-refactor/001.webp)
 
 三个月后的阶段结果是：
 
@@ -29,7 +29,7 @@ url: "https://mp.weixin.qq.com/s/WK8AoYuk23T9yRJ0GPj4qQ"
 - 测试覆盖率达到 86%。
 - 旧系统半年只能谨慎处理不到 3 个需求或紧急 Bug；新系统在两个月内迭代了 30 多个新功能。
 
-![重构前后结果对比](../images/harness-legacy-refactor/002.png)
+![重构前后结果对比](../images/harness-legacy-refactor/002.webp)
 
 AI 负责需求和设计文档编写与机审、业务代码实现、代码审查、测试验证和文档更新；开发人员负责确定需求、确认边界、选择方案、判断高风险技术点、人工代码审查和最终验收。
 
@@ -42,13 +42,13 @@ AI 负责需求和设计文档编写与机审、业务代码实现、代码审�
 1. **工程质量越往前控制，结果越可控。**
 2. **把运动员和裁判员分开。**实现与验证不能依赖同一上下文中的自我评价。
 
-![Harness 三阶段工作流](../images/harness-legacy-refactor/003.png)
+![Harness 三阶段工作流](../images/harness-legacy-refactor/003.webp)
 
 ### 阶段一：立项与设计
 
 流程包括：立项、需求澄清、需求审查、验收标准编写与审查、前后端架构设计、架构设计审查，以及人工对需求和设计文档的交叉审查。
 
-![立项与设计阶段](../images/harness-legacy-refactor/004.png)
+![立项与设计阶段](../images/harness-legacy-refactor/004.webp)
 
 这一阶段的目标不是多写文档，而是在编码之前消除目标漂移：
 
@@ -63,7 +63,7 @@ AI 负责需求和设计文档编写与机审、业务代码实现、代码审�
 
 跨端需求会分成前后端链路并行实现。团队按设计文档进行 TDD，先写契约测试，再实现功能，并通过 Rules 与项目宪章约束代码习惯。
 
-![开发与自动审查阶段](../images/harness-legacy-refactor/005.png)
+![开发与自动审查阶段](../images/harness-legacy-refactor/005.webp)
 
 仅靠规则文件不够。随着上下文增长，早期约束会被稀释，因此团队将代码审查拆成架构、安全、契约、性能、接口契约、运行时、代码规范和测试等多个专职 SubAgent，让每个审查者只关注一个维度，并在干净上下文中执行。
 
@@ -83,7 +83,7 @@ AI 负责需求和设计文档编写与机审、业务代码实现、代码审�
 
 ### 阶段三：人工验收与收尾
 
-![人工验收与收尾阶段](../images/harness-legacy-refactor/006.png)
+![人工验收与收尾阶段](../images/harness-legacy-refactor/006.webp)
 
 团队没有试图逐行阅读 AI 生成的全部代码，而是采用四类重点材料：
 
@@ -124,7 +124,7 @@ AI 负责需求和设计文档编写与机审、业务代码实现、代码审�
 
 ## 最终经验
 
-![Harness 投入与踩坑总结](../images/harness-legacy-refactor/007.png)
+![Harness 投入与踩坑总结](../images/harness-legacy-refactor/007.webp)
 
 Harness Engineering 不是一次性搭建的模板，而是随着工程问题、事故和模型能力持续演化的系统。这个案例中，开发者的角色从某一端的实现者转变为对完整需求负责的系统判断者。
 

@@ -17,13 +17,13 @@ url: "https://mp.weixin.qq.com/s/zoI62yfcs_0M2sE6wkGikQ"
 
 LOF（Listed Open-end Fund）全称是上市型开放式基金，我们既能在支付宝这样第三方平台买到它，也能开通个股票账户，在证券软件中购买。
 
-![图片](./images/invest-sp500-lof/001.png)
+![图片](images/invest-sp500-lof/001.webp)
 
 我们平常接触更多的是 ETF 基金。
 
 ETF（Exchange-Traded Fund），全称是交易型开放式指数基金，只能在场内交易的指数基金，也就是只能在股票账户买卖。
 
-![图片](./images/invest-sp500-lof/002.png)
+![图片](images/invest-sp500-lof/002.webp)
 
 可能有读者会说了，我也经常在支付宝买 ETF 基金呀。
 
@@ -31,7 +31,7 @@ ETF（Exchange-Traded Fund），全称是交易型开放式指数基金，只能
 
 简单来说，ETF 联接基金，就是替我们去投资对应的场内的 ETF 基金，同样也能比较好的跟踪相应指数。
 
-![图片](./images/invest-sp500-lof/003.jpeg)
+![图片](images/invest-sp500-lof/003.webp)
 
 ## LOF 三种交易方式
 
@@ -109,21 +109,21 @@ LOF 基金既可以在 **「场外申购赎回」** ，也可以在 **「场内�
 
 今天，标普 500LOF 发公告恢复申购。
 
-![图片](./images/invest-sp500-lof/004.png)
+![图片](images/invest-sp500-lof/004.webp)
 
 目前，基金市价为 3.227 元。
 
-![图片](./images/invest-sp500-lof/005.png)
+![图片](images/invest-sp500-lof/005.webp)
 
 基金净值为 2.3005 元。
 
-![图片](./images/invest-sp500-lof/006.jpeg)
+![图片](images/invest-sp500-lof/006.webp)
 
 溢价率为 (3.227-2.3005)/2.3005 = 40.27%
 
 在集思录上可以很方便的看到这个数据。
 
-![图片](./images/invest-sp500-lof/007.png)
+![图片](images/invest-sp500-lof/007.webp)
 
 这么大的溢价率，毫无疑问明天 668 是要出手申购的。
 
@@ -131,7 +131,7 @@ LOF 基金既可以在 **「场外申购赎回」** ，也可以在 **「场内�
 
 标普 500 LOF 基金公告有两部分，除了恢复申购外，也暂停了大额申购，限购额为 100 元。
 
-![图片](./images/invest-sp500-lof/008.png)
+![图片](images/invest-sp500-lof/008.webp)
 
 假设以最理想的情况考虑，100 元吃到 40%溢价，收益也就只有 40 元。
 
@@ -143,7 +143,7 @@ YH证券可以加挂 6 个深股东号，并且能一键申购。
 
 这就是银河拖拉机一键申购的页面，明天 668 就打算启动拖拉机。
 
-![图片](./images/invest-sp500-lof/009.jpeg)
+![图片](images/invest-sp500-lof/009.webp)
 
 ## 拖拉机必备条件
 
@@ -153,10 +153,10 @@ LOF 申购费默认是 1.5%，没有一折的话光申购就会消耗掉 1.5% �
 
 卖出时如果收取了 5 元手续费，相对于 100 元的总资金，就是 5%，没有免 5 损耗就实在太大了。
 
-![图片](./images/invest-sp500-lof/010.png)
+![图片](images/invest-sp500-lof/010.webp)
 
 668 合作的 YH 证券，万一免五、LOF 申购一折，是开拖拉机套利的首选券商，有需要的朋友可以联系 668。
 
-![图片](./images/invest-sp500-lof/011.png)
+![图片](images/invest-sp500-lof/011.webp)
 
 **投资有风险，入市需谨慎！**

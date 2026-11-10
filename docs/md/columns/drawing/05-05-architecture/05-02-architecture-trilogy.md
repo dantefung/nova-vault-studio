@@ -216,32 +216,32 @@ TOGAF 的架构模型
 
 ![][img-14]
 
-[img-0]:images/05-02-architecture-trilogy/p01.jpg
+[img-0]:images/05-02-architecture-trilogy/p01.webp
 
-[img-1]:images/05-02-architecture-trilogy/p02.jpg
+[img-1]:images/05-02-architecture-trilogy/p02.webp
 
-[img-2]:images/05-02-architecture-trilogy/p03.jpg
+[img-2]:images/05-02-architecture-trilogy/p03.webp
 
-[img-3]:images/05-02-architecture-trilogy/p04.jpg
+[img-3]:images/05-02-architecture-trilogy/p04.webp
 
-[img-4]:images/05-02-architecture-trilogy/p05.jpg
+[img-4]:images/05-02-architecture-trilogy/p05.webp
 
-[img-5]:images/05-02-architecture-trilogy/p06.jpg
+[img-5]:images/05-02-architecture-trilogy/p06.webp
 
-[img-6]:images/05-02-architecture-trilogy/p07.jpg
+[img-6]:images/05-02-architecture-trilogy/p07.webp
 
-[img-7]:images/05-02-architecture-trilogy/p08.jpg
+[img-7]:images/05-02-architecture-trilogy/p08.webp
 
-[img-8]:images/05-02-architecture-trilogy/p09.jpg
+[img-8]:images/05-02-architecture-trilogy/p09.webp
 
-[img-9]:images/05-02-architecture-trilogy/p10.jpg
+[img-9]:images/05-02-architecture-trilogy/p10.webp
 
-[img-10]:images/05-02-architecture-trilogy/p11.jpg
+[img-10]:images/05-02-architecture-trilogy/p11.webp
 
-[img-11]:images/05-02-architecture-trilogy/p12.jpg
+[img-11]:images/05-02-architecture-trilogy/p12.webp
 
-[img-12]:images/05-02-architecture-trilogy/p13.jpg
+[img-12]:images/05-02-architecture-trilogy/p13.webp
 
-[img-13]:images/05-02-architecture-trilogy/p14.png
+[img-13]:images/05-02-architecture-trilogy/p14.webp
 
-[img-14]:images/05-02-architecture-trilogy/p15.png
+[img-14]:images/05-02-architecture-trilogy/p15.webp

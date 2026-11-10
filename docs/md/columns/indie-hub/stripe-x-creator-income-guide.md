@@ -59,7 +59,7 @@ Stripe 有一条铁律：**账户地区 = 结算银行卡地区**。香港 Strip
 
 所以地区必须选 **Hong Kong**，商户类型选 **Individual**（个人）。
 
-![Stripe 地区选择](../../wiki/images/stripe-x-account-setup/002.jpg)
+![Stripe 地区选择](../../wiki/images/stripe-x-account-setup/002.webp)
 
 ### 2.2 信息填写要点
 
@@ -78,29 +78,29 @@ Stripe 有一条铁律：**账户地区 = 结算银行卡地区**。香港 Strip
 
 **产品或服务**：选「软件」类型，服务描述如实填写即可。
 
-![产品或服务选择](../../wiki/images/stripe-x-account-setup/012.png)
+![产品或服务选择](../../wiki/images/stripe-x-account-setup/012.webp)
 
 **公开详情**：账单上展示的名称要和商家网站名称一致。客户支持填手机号。
 
-![公开详情](../../wiki/images/canghe-x-stripe-tutorial/006.jpg)
+![公开详情](../../wiki/images/canghe-x-stripe-tutorial/006.webp)
 
 ### 2.3 添加银行账户
 
 输入香港银行代码、分支代码和账号。确保账户状态正常，能接收小额转账校验。
 
-![添加银行账户](../../wiki/images/stripe-x-account-setup/014.png)
+![添加银行账户](../../wiki/images/stripe-x-account-setup/014.webp)
 
 ### 2.4 绑定 2FA
 
 推荐 Google Authenticator。绑定后系统会生成一组备份代码，务必截图存留 + 物理抄写保留。一旦丢失密码又不记得备份代码，找回账号会非常麻烦。
 
-![2FA 绑定](../../wiki/images/stripe-x-account-setup/015.png)
+![2FA 绑定](../../wiki/images/stripe-x-account-setup/015.webp)
 
 ### 2.5 提交审核
 
 检查所有信息无误后提交。提交后需要到手机上拍照上传护照，等待审核。快的十几分钟通过，慢的 1-2 个工作日。
 
-![审核提交](../../wiki/images/stripe-x-account-setup/019.jpg)
+![审核提交](../../wiki/images/stripe-x-account-setup/019.webp)
 
 ---
 
@@ -112,7 +112,7 @@ nemo 的解决方案：在 Stripe 后台手动添加一个**美元结算账户**
 
 虽然美元提现有约 1% 的手续费，但相比 2% 的换汇损失，整体仍节省近一半中间费用。
 
-![美元结算设置](../../wiki/images/stripe-x-account-setup/022.jpg)
+![美元结算设置](../../wiki/images/stripe-x-account-setup/022.webp)
 
 ---
 
@@ -150,7 +150,7 @@ https://x.com/i/jf/creators/id_verification/start?flow=creator&redirect=%2Fcreat
 
 点「Agree and continue」进入验证流程。地区选 China，证件类型选护照（更顺）。拍照放在深色平整桌面上，别反光。人脸识别跟着提示转头眨眼，别逆光，别戴眼镜。
 
-![身份验证](../../wiki/images/x-creator-monetization-2026/001.jpg)
+![身份验证](../../wiki/images/x-creator-monetization-2026/001.webp)
 
 ### 4.3 常见失败排查
 
@@ -176,7 +176,7 @@ https://x.com/i/jf/creators/id_verification/start?flow=creator&redirect=%2Fcreat
 
 苍何补充：X 绑定 Stripe 后会提示缺少 W-8/W-9 证书，需要在 Stripe 后台手动更新。
 
-![W-8BEN 填写](../../wiki/images/canghe-x-stripe-tutorial/019.jpg)
+![W-8BEN 填写](../../wiki/images/canghe-x-stripe-tutorial/019.webp)
 
 填完这个，预扣税从 30% 降下来。
 
@@ -193,7 +193,7 @@ https://x.com/i/jf/creators/id_verification/start?flow=creator&redirect=%2Fcreat
 
 第四步入口：X App → 创作者工作室 → 设置付款 → 连接 Stripe 账户。输入刚才注册的 Stripe 邮箱，选择对应账户。
 
-![创作者工作室](../../wiki/images/canghe-x-stripe-tutorial/015.jpg)
+![创作者工作室](../../wiki/images/canghe-x-stripe-tutorial/015.webp)
 
 绑定成功后，X 收益页面显示 Active。
 

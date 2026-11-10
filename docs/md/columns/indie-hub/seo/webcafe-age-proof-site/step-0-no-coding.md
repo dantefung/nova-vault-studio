@@ -13,7 +13,7 @@ url: "https://new.web.cafe/tutorial/detail/aaRj7BUd6vwKjvKJUiSrEU"
 所以今天哥飞增加一个第 0 步，教你怎么去自学前端开发入门。
 
 哥飞很推荐所有没有前端基础或者没有编程基础的朋友学习 B 站的这个前端入门视频教程：
-![image.png](images/gefei-age-proof-site-step-0-no-coding/img_002.png)
+![image.png](images/gefei-age-proof-site-step-0-no-coding/img_002.webp)
 教程网址： [https://www.bilibili.com/video/BV1Wr4y1R7Bd/](https://www.bilibili.com/video/BV1Wr4y1R7Bd/) 这是一个很好的前端入门教程，最好的地方是，他只讲用 HTML 和 CSS 来制作网页，没有一上来就让你学 Vue 或者 React 。
 
 而哥飞讲的做出海工具网站赚美元，其实大多数时候，有了 HTML 和 CSS，再配合一点原生 JS 知识就可以了。
@@ -50,7 +50,7 @@ B 站有个评论说“三十分钟讲了我们老师一学期讲的”，从这
 
 然后你就可以开始学原生 JS 知识了，这个时候，你就没必要去跟着视频学习了，直接打开 MDN ，了解一下 JS 是什么，能干什么，把快速入门学完。 网址： [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) 。
 
-![image.png](images/gefei-age-proof-site-step-0-no-coding/img_003.png)
+![image.png](images/gefei-age-proof-site-step-0-no-coding/img_003.webp)
 
 再下一步，你就没必要把 JS 所有知识学完了，你把 MDN 当作手册，去翻你网页里某个按钮点击之后，假如要获取某个输入框的值，然后在网页的另一个地方显示出来，要怎么做。也就是去学习 JS 事件的用法。
 
@@ -90,7 +90,7 @@ B 站有个评论说“三十分钟讲了我们老师一学期讲的”，从这
 
     打卡
 
-![](images/gefei-age-proof-site-step-0-no-coding/img_006.jpg)
+![](images/gefei-age-proof-site-step-0-no-coding/img_006.webp)
 
 添加图片添加隐藏回复
 

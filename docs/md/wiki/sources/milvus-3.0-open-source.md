@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/yndbDStUNwOfxuM2LoD-Ug"
 
 > 作者：运维有术。Milvus 3.0.0 的 GA 不是新功能堆叠，而是把 beta 挖的坑填上、把上层能力的边界稳住。Lake-native 是故事，complete what the beta started 才是这一版本号做的工作。
 
-![Milvus 3.0 官宣开源信息图封面](../images/milvus-3.0-open-source/001.png)
+![Milvus 3.0 官宣开源信息图封面](../images/milvus-3.0-open-source/001.webp)
 
 Milvus 3.0.0 在 2026 年 7 月 29 日 GA（来自 GitHub tag 与 LF AI & Data 基金会的双源验证）。官方 release notes 里有一句话被很多人跳过：
 
@@ -27,7 +27,7 @@ Milvus 2.x 的核心卖点是云原生 + 存算分离：无状态组件、对象
 
 更准确说，Loon 干的是这件事，把 segment 的元数据（manifest）和数据文件（column files）解耦，query 时按 manifest 精准取列。对用户表现出来的效果，官方博客给了一组厂商口径数字（3M 行 / 128-dim / S3 / 256 concurrent readers）：Parquet 基础读每点 ~9.4 MB，Vortex + Loon 压到 ~0.07 MB，约 135 倍 I/O 节省。但要注意：这个数字只有官方博客一处来源，没找到第三方独立复现。
 
-![Milvus 2.x 云原生 与 3.0 lake-native 架构演进对比](../images/milvus-3.0-open-source/002.png)
+![Milvus 2.x 云原生 与 3.0 lake-native 架构演进对比](../images/milvus-3.0-open-source/002.webp)
 
 ## 2. 这 4 个能力，真正改变工作流
 
@@ -77,7 +77,7 @@ Multi-vector 给了三种 trade-off 策略：
 
 少一个 ZooKeeper / BookKeeper 组件栈，少一份 Pulsar 集群的运维负担。
 
-![Sparse Index 与 Multi-vector 检索策略算法对比](../images/milvus-3.0-open-source/003.png)
+![Sparse Index 与 Multi-vector 检索策略算法对比](../images/milvus-3.0-open-source/003.webp)
 
 ## 3. 落地前必须知道的 3 个门槛 + 2 个已知 bug
 
@@ -94,7 +94,7 @@ common.storage.useLoonFFI 默认是关闭的。更关键：一旦启用改变序
 - Issue#46067：切换 Woodpecker MQ + local storage 后，vector insertion rate 从 421 vec/sec 暴跌到 30 vec/sec（约 14× 慢）
 - Discussion#45494：docker compose down/up 后启动报 segment storage not writable，原因是 MinIO 中 files/wp/ 残留 stale write.lock 文件
 
-![Milvus 3.0 落地路径与 3 个门槛 2 个已知 bug 风险提示](../images/milvus-3.0-open-source/004.png)
+![Milvus 3.0 落地路径与 3 个门槛 2 个已知 bug 风险提示](../images/milvus-3.0-open-source/004.webp)
 
 ## 4. 3.0 没解决的、3.1 在路上的事
 

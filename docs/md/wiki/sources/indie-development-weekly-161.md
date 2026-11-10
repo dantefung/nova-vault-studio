@@ -13,7 +13,7 @@ url: "https://mp.weixin.qq.com/s/emFwOrYHQ3n6E0Q-rGCzJQ"
 
 ## 1. X 原创内容奖励
 
-![X 原创内容奖励案例](../images/indie-development-weekly-161/001.png)
+![X 原创内容奖励案例](../images/indie-development-weekly-161/001.webp)
 
 文章引用一位创作者首周获得 92.18 美元的案例，并将收益路径概括为三步：发布原创内容、获得 X 付费用户在首页信息流中的合格曝光、按周期结算。文中提到官方通常每两周结算一次，最低付款金额为 30 美元；非美国创作者需要关联 Stripe 并完成身份验证。
 
@@ -23,7 +23,7 @@ url: "https://mp.weixin.qq.com/s/emFwOrYHQ3n6E0Q-rGCzJQ"
 
 ## 2. 能造不能卖：5 款工具零收入
 
-![独立开发销售困局案例](../images/indie-development-weekly-161/002.png)
+![独立开发销售困局案例](../images/indie-development-weekly-161/002.webp)
 
 一位开发者有较强的产品实现能力，一年里做了个性化护肤 App、AI 接待员和报价生成工具，却没有获得收入。问题不在技术，而在于同时服务多个行业，缺少聚焦、行业认知和清晰的价值表达。
 
@@ -39,7 +39,7 @@ url: "https://mp.weixin.qq.com/s/emFwOrYHQ3n6E0Q-rGCzJQ"
 
 ## 3. SaaS 联盟营销
 
-![SaaS 联盟营销案例](../images/indie-development-weekly-161/003.png)
+![SaaS 联盟营销案例](../images/indie-development-weekly-161/003.webp)
 
 本期将一个月收入 600 美元、MRR 约 200 美元的联盟营销案例归纳为“流量洼地 + 信任基建”。它体现了 build in public 的一个常见路径：先在具体渠道持续提供有用内容，建立信任，再将匹配的 SaaS 产品放进用户已经存在的决策场景。
 
@@ -47,7 +47,7 @@ url: "https://mp.weixin.qq.com/s/emFwOrYHQ3n6E0Q-rGCzJQ"
 
 ## 4. UGC 反应库的冷启动
 
-![UGC 反应库冷启动案例](../images/indie-development-weekly-161/004.png)
+![UGC 反应库冷启动案例](../images/indie-development-weekly-161/004.webp)
 
 UGC 反应库上线两周后自动成交 8 单，开发者的关注者从 0 增长到 200。这个案例没有依赖夸张的增长曲线，而是说明产品可能在公开发布后延迟产生效果：内容、产品和用户需求之间需要时间累积，不能用短期无人问津直接判断产品失败。
 
@@ -55,7 +55,7 @@ UGC 反应库上线两周后自动成交 8 单，开发者的关注者从 0 增�
 
 ## 5. Spirkz：来自 ChatGPT 推荐的 1,500 名用户
 
-![Spirkz 用户增长案例](../images/indie-development-weekly-161/005.png)
+![Spirkz 用户增长案例](../images/indie-development-weekly-161/005.webp)
 
 Spirkz 是一款教育类短视频 App，采用类似信息流的“边刷边学”体验，覆盖 iOS 和 Android。文章记录其获得约 1,500 名用户，主要来源于 ChatGPT 在用户搜索 TikTok 替代品或教育类短视频时的推荐。
 
@@ -65,7 +65,7 @@ Spirkz 是一款教育类短视频 App，采用类似信息流的“边刷边学
 
 ## 6. SupaSlides：5 名付费用户带来 100 美元 MRR
 
-![SupaSlides 收入案例](../images/indie-development-weekly-161/006.png)
+![SupaSlides 收入案例](../images/indie-development-weekly-161/006.webp)
 
 SupaSlides 用极简产品、清晰定价和公开迭代获得了 5 名付费用户，达到 100 美元 MRR。对早期产品而言，少量真实付费比大量试用或赠阅更能证明价值假设；100 美元 MRR 不是规模化结果，但足以作为下一轮访谈、定价和渠道实验的可信信号。
 
@@ -73,7 +73,7 @@ SupaSlides 用极简产品、清晰定价和公开迭代获得了 5 名付费用
 
 ## 7. OpenScreen 2：录制即完成演示视频
 
-![OpenScreen 2 产品案例](../images/indie-development-weekly-161/007.png)
+![OpenScreen 2 产品案例](../images/indie-development-weekly-161/007.webp)
 
 OpenScreen 2 面向开发者和独立创作者制作产品演示视频，支持录制，并由 AI 自动完成剪辑、字幕和高亮片段提取。它的定位不是通用视频编辑器，而是“录即编”的窄工作流，降低 MVP 发布时制作 Demo 视频的成本。
 
@@ -81,7 +81,7 @@ OpenScreen 2 面向开发者和独立创作者制作产品演示视频，支持�
 
 ## 8. Zernio：面向 AI Agent 的营销基础设施
 
-![Zernio 产品案例](../images/indie-development-weekly-161/008.png)
+![Zernio 产品案例](../images/indie-development-weekly-161/008.webp)
 
 Zernio 将用户行为追踪、转化归因、实验框架和自动化营销工作流组合成面向 AI Agent 与独立产品团队的营销基础设施。它位于传统营销云和开发者原生工具之间，强调可编程接口与低代码配置。
 
@@ -91,7 +91,7 @@ Zernio 将用户行为追踪、转化归因、实验框架和自动化营销工�
 
 ## 9. LiteLLM：统一调用多家模型服务
 
-![LiteLLM 项目案例](../images/indie-development-weekly-161/009.png)
+![LiteLLM 项目案例](../images/indie-development-weekly-161/009.webp)
 
 LiteLLM 为多个大模型服务提供统一的 OpenAI 兼容调用方式，并提供成本追踪、请求守卫、负载均衡和日志能力。它解决的是服务商接口碎片化问题：产品团队可以将模型路由、监控和成本控制集中在一个抽象层，而不必为每个平台重复编写适配逻辑。
 
@@ -99,7 +99,7 @@ LiteLLM 为多个大模型服务提供统一的 OpenAI 兼容调用方式，并�
 
 ## 10. ppt-master：生成原生 PowerPoint
 
-![ppt-master 项目案例](../images/indie-development-weekly-161/010.png)
+![ppt-master 项目案例](../images/indie-development-weekly-161/010.webp)
 
 ppt-master 将文档或主题转换为具备原生形状、过渡动画、图表、表格和 speaker notes 音频 narration 的 PowerPoint 文件，并支持自定义 `.pptx` 模板。它强调可编辑的原生交付，而不是只把 Markdown 或图片包装成幻灯片。
 

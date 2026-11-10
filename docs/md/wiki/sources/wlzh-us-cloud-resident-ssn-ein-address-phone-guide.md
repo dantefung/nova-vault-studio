@@ -21,7 +21,7 @@ coverImage: "../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/001.jp
 
 这篇我把知道的全倒出来：云居民到底是什么、W-8 和 W-9 到底什么关系、有哪些坑。看完你自己判断要不要上车。
 
-![](../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/002.jpg)
+![](../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/002.webp)
 
 ## 一、美国云居民，到底是个啥
 
@@ -73,7 +73,7 @@ SSN（社安号）是给能在美国工作的人的；ITIN 是给需要在美国
 
 一句话：W-9 是美国人填的，W-8 是外国人填的。先看身份，再选表。
 
-![](../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/003.jpg)
+![](../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/003.webp)
 
 W-9W-8BEN 谁填美国人（公民、绿卡、税务居民、美国公司）外国个人给谁付款方（不寄给 IRS）付款方/券商（不寄给 IRS）干啥提供税号，证明“我是美国人”证明“我是外国人”，顺便申请税收协定优惠税号 SSN/EIN 外国税号或 ITIN 有效期信息不变就一直有效签署后到第三年年底过期不填/填错的代价 24% backup withholding（预扣）30% 预扣
 
@@ -85,7 +85,7 @@ W-8 还有几个兄弟，提一嘴：W-8BEN-E 是给外国公司/实体填的（
 
 前面是知识，下面是学费。我把最常见的坑列出来，每一个背后都是真钱。
 
-![](../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/004.jpg)
+![](../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/004.webp)
 
 坑 1：身份和表对不上
 
@@ -129,7 +129,7 @@ W-9 上的名字和 SSN/EIN 对不上，付款方会收到 IRS 的不匹配通�
 
 ## 五、其他注意点
 
-![](../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/005.jpg)
+![](../images/wlzh-us-cloud-resident-ssn-ein-address-phone-guide/005.webp)
 
 云居民 ≠ 美国税务居民。 这是两码事。攒齐四件套，不代表你在美国有纳税义务；反过来，也别因为有了 ITIN 就把自己当 US person 填表。身份认定看的是税法（公民/绿卡/实际居留天数），不是你有几张美国的卡。
 

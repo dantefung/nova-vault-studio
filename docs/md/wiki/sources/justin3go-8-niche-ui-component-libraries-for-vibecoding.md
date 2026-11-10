@@ -4,7 +4,7 @@ date: "2026-11-09"
 source: "X/Twitter"
 author: "Justin3go (@Justin1024go)"
 url: "https://x.com/Justin1024go/status/2119282740340101569"
-coverImage: "../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/001.jpg"
+coverImage: "../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/001.webp"
 ---
 
 # Justin3go（@Justin1024go）：设计 Skill 根本没用，用好组件库就够了——8 个小众但有特色的 UI 组件库
@@ -26,13 +26,13 @@ coverImage: "../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/0
 7. Prestige UI：React / Tailwind / Motion 动画组件，落地页区块也很丰富，含付费内容 https://t.co/laUvadXONX
 8. BoardUI：主打仪表盘和 AI 工作台，表格、图表、日历到 Agent 聊天都有，整体风格干净克制（含付费组件）https://t.co/I79uB6HWvx
 
-![Looseleaf 官网组件演示：淡绿色桌面上摆着纸张纹理的柱状图、设置开关与滑块、横线笔记和日历，边框与标记呈手绘笔触。](../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/001.jpg)
+![Looseleaf 官网组件演示：淡绿色桌面上摆着纸张纹理的柱状图、设置开关与滑块、横线笔记和日历，边框与标记呈手绘笔触。](../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/001.webp)
 
-![PlopUI 官网展开的贴纸组件包：蓝色马克笔字、手绘头像、带投影的按钮、笑脸开关、复选框，以及 Sketched、Inked、Colored、Shipped 状态时间线。](../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/002.jpg)
+![PlopUI 官网展开的贴纸组件包：蓝色马克笔字、手绘头像、带投影的按钮、笑脸开关、复选框，以及 Sketched、Inked、Colored、Shipped 状态时间线。](../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/002.webp)
 
-![Solid Glass 官网深色组件演示：带细边缘高光的玻璃面板，展示图表、Agent 运行步骤、人工决策卡、消息输入框、代码 diff 和状态控件。](../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/003.jpg)
+![Solid Glass 官网深色组件演示：带细边缘高光的玻璃面板，展示图表、Agent 运行步骤、人工决策卡、消息输入框、代码 diff 和状态控件。](../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/003.webp)
 
-![AffectUI 的 Agent Tree Pro 官网演示：树形连线展示 Orchestrator 与 Researcher、Writer、Coder 等子代理；各卡片显示任务、状态、耗时与成本，并展示失败后重试分支。示例数据来自官网。](../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/004.jpg)
+![AffectUI 的 Agent Tree Pro 官网演示：树形连线展示 Orchestrator 与 Researcher、Writer、Coder 等子代理；各卡片显示任务、状态、耗时与成本，并展示失败后重试分支。示例数据来自官网。](../images/justin3go-8-niche-ui-component-libraries-for-vibecoding/004.webp)
 
 ## 相关页面
 

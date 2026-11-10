@@ -101,7 +101,7 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 第一步生成的是角色主图和三视图。
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/002.jpg)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/002.webp)
 
 这一部分其实是我整个测试里看得最仔细的地方。
 
@@ -117,7 +117,7 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 红色头绳、红扑扑的脸、偏圆但有骨感的下颌线，以及那件非常显眼的红色毛衣。
 
-![（实际效果图）](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/003.jpg)
+![（实际效果图）](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/003.webp)
 
 接下来，我把这个角色的 Appearance 和音色继续绑定到角色资产里。
 
@@ -133,7 +133,7 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 她是谁、长什么样、穿什么衣服、什么发型、什么年龄……
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/004.jpg)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/004.webp)
 
 模型再根据这段描述重新“猜”一次阿禾是谁。
 
@@ -157,7 +157,7 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 - 镜头 1：正常场景，情绪平静
 
-![(镜头 1）](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/005.jpg)
+![(镜头 1）](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/005.webp)
 
 这一镜里，我主要先确认最基础的人物锚点。
 
@@ -177,11 +177,11 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 同一个角色，不再只是保持类似的正面构图，而是开始切换正面、中景、近景和不同动作。
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/006.png)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/006.webp)
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/007.png)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/007.webp)
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/008.png)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/008.webp)
 
 这一组里，我觉得表现比较明显的一点是：
 
@@ -207,9 +207,9 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 第二张，她慢慢做出决定，神情从迟疑变得坚定。
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/009.png)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/009.webp)
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/010.png)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/010.webp)
 
 这一组我个人是比较满意的。
 
@@ -249,9 +249,9 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 明明设定里是一双已经很旧、甚至有点脏的粉色芭蕾舞鞋，但有的镜头重新生成之后，它突然变成了一双干干净净、像刚从商店买回来的新鞋。
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/011.png)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/011.webp)
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/012.jpg)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/012.webp)
 
 这其实很好地说明了目前这类工具的边界。
 
@@ -303,7 +303,7 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 只重新生成这一镜。
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/013.png)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/013.webp)
 
 如果生成之后还有一点问题，再调整这一镜的描述继续跑。
 
@@ -351,9 +351,9 @@ AI 漫剧最贵的，往往不是第一次生成，而是反复重做。
 
 第三个是积分消耗和流水。
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/014.jpg)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/014.webp)
 
-![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/015.jpg)
+![](../images/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial/015.webp)
 
 我把实际生成过程里的积分记录一起放出来
 

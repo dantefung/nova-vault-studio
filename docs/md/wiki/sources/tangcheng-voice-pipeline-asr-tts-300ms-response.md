@@ -10,19 +10,19 @@ author: "唐成"
 
 给 AI 产品接上嘴——ASR+TTS 接入实战，延迟从 2 秒压到 300 毫秒讲的是：把语音对话从「说完等两秒」压到 300ms 这个区间。发出去之后，评论区很热闹。
 
-![image](../images/voice-pipeline-asr-tts-300ms/001.png)
+![image](../images/voice-pipeline-asr-tts-300ms/001.webp)
 
-![image](../images/voice-pipeline-asr-tts-300ms/002.png)
+![image](../images/voice-pipeline-asr-tts-300ms/002.webp)
 
 监听 500～800 + 听写 200 + 大模型 300～500 + 合成 250 = 1.2～1.9 秒，串起来不可能。
 
-![image](../images/voice-pipeline-asr-tts-300ms/003.png)
+![image](../images/voice-pipeline-asr-tts-300ms/003.webp)
 
 单个环节我信，串起来不信。
 
-![image](../images/voice-pipeline-asr-tts-300ms/004.png)
+![image](../images/voice-pipeline-asr-tts-300ms/004.webp)
 
-![image](../images/voice-pipeline-asr-tts-300ms/005.png)
+![image](../images/voice-pipeline-asr-tts-300ms/005.webp)
 
 放个 demo 看看。
 
@@ -68,9 +68,9 @@ author: "唐成"
 
 所以 300ms 有前提：在这台M5、这套配置下测的。
 
-![image](../images/voice-pipeline-asr-tts-300ms/006.png)
+![image](../images/voice-pipeline-asr-tts-300ms/006.webp)
 
-![image](../images/voice-pipeline-asr-tts-300ms/007.png)
+![image](../images/voice-pipeline-asr-tts-300ms/007.webp)
 
 应用跑起来占用资源也并不多，1.29G。
 
@@ -80,9 +80,9 @@ author: "唐成"
 
 以实测的数据为例，时间消耗如下：
 
-![image](../images/voice-pipeline-asr-tts-300ms/008.png)
+![image](../images/voice-pipeline-asr-tts-300ms/008.webp)
 
-![image](../images/voice-pipeline-asr-tts-300ms/009.png)
+![image](../images/voice-pipeline-asr-tts-300ms/009.webp)
 
 ① LLM 占用了 217ms，即 77%。 但真正可调的是那 120ms，97ms 本身并不慢。9 个字花了 120ms，约合 13ms/字。这就是那条判据的现场证据：语音里决定首音的是「首 token + 首句字数 ÷ 出字速度」，首 token 只占三分之一。合成等的是句号，不是第一个字。
 
@@ -90,7 +90,7 @@ author: "唐成"
 
 视频里每轮行尾那个 ⏱ 数，如下所示：
 
-![image](../images/voice-pipeline-asr-tts-300ms/010.png)
+![image](../images/voice-pipeline-asr-tts-300ms/010.webp)
 
 这是时间是指，从它听出你说完，到它把第一片声音发出去。
 

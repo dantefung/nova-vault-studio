@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "Romain Brunel - Affiseo (@Affiseo_)"
 url: "https://x.com/Affiseo_/status/2119680429947056481"
-coverImage: "../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/001.jpg"
+coverImage: "../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/001.webp"
 ---
 
 # Romain Brunel（@Affiseo_）：GEO 实测——AI 搜索带来的访问从 5/天涨到 267/天
@@ -35,13 +35,13 @@ Fonctionne aussi bien sur les sites d’affiliation que e-commerce.
 
 C’est d’ailleurs une des raisons pour lesquelles je crois énormément au Print on Demand qui nous permet d’aller chercher une longue traine quasi infinie (comme je vais le faire sur Brunelia)
 
-![](../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/001.jpg)
+![](../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/001.webp)
 
-![](../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/002.jpg)
+![](../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/002.webp)
 
-![](../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/003.jpg)
+![](../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/003.webp)
 
-![](../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/004.jpg)
+![](../images/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy/004.webp)
 
 Rejoins le Affiseo Hub (double accès avec une grosse partie gratuite et beaucoup de value) 👉 https://t.co/nbQKiBem0x
 

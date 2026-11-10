@@ -23,7 +23,7 @@ coverImage: "../images/miles-mazy-zero-to-one-overseas-guide/001.jpg"
 
 今天这篇文章，就把出海赚美金的方式一次性讲清楚，
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/002.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/002.webp)
 
 ## 1. 出海赚钱，常见的是这四条路
 
@@ -39,7 +39,7 @@ coverImage: "../images/miles-mazy-zero-to-one-overseas-guide/001.jpg"
 
 你可以自己或找仓库发货，也可以提前把货送进 Amazon 仓库，由平台按规则配送，这就是 FBA。不管哪种方式，采购、补货、积压和退货都要自己算账。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/003.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/003.webp)
 
 TikTok Shop 也是卖货，只是买家发现商品的方式不同。Amazon 上的买家常常已经知道自己要买什么，会主动搜索。
 
@@ -61,13 +61,13 @@ TikTok 上的用户可能原本只是在刷视频，看到演示以后才产生�
 
 软件卖的是省下来的时间和完成的任务。用户先看演示或试用，确认有用后付款，你再开通功能、额度或授权。它可以很小，只要能把一件事做好。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/004.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/004.webp)
 
 软件可以一次买断，也可以按月订阅，还可以按使用次数卖额度。一次买断适合边界清楚的功能。订阅要求产品每个月都能继续提供价值。额度适合会消耗模型、存储或算力的工具。收费方式不同，后面承担的成本也不同。
 
 模板和素材更简单一些。你把成品、预览图、文件格式、使用范围和授权说明放到销售页。用户看过样例，付款，下载文件。一个文件可以卖很多次，但制作、更新、客服和推广仍然要花时间。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/005.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/005.webp)
 
 数字产品不用发快递，却不一定没有交付成本。翻译工具每调用一次模型接口，可能都要付钱；用户上传文件，会用到存储和流量；卖了长期使用权，后面还要维护。软件能复制，服务用户并不一定免费。
 
@@ -85,7 +85,7 @@ TikTok 上的用户可能原本只是在刷视频，看到演示以后才产生�
 
 服务确定以后，可以通过账单写清项目、金额和付款事项，客户付款后再按约定交付。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/006.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/006.webp)
 
 例如给海外创作者做短视频字幕，客户会看字幕是否准确、能不能按时交付、包含几轮修改。你可以先接一个项目，摸清一条视频要花多少时间。等同类订单多了，再把常见步骤做成固定套餐，甚至做成半自动工具。服务有时也是软件需求最直接的来源。
 
@@ -95,17 +95,17 @@ TikTok 上的用户可能原本只是在刷视频，看到演示以后才产生�
 
 一个教程网站有很多人阅读，页面里可以放广告。广告主付钱购买展示或点击，网站按平台规则获得一部分收入。一个产品评测站把用户推荐到商家，用户完成购买后，商家可以按规则支付佣金。一个行业目录聚集了很准确的用户，厂商也可能直接购买推荐位或赞助栏目。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/007.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/007.webp)
 
 这里最容易误会的一点是：访问量不是收入。十万人看过页面，如果没有广告、成交、赞助或自己的产品，银行账户不会多一分钱。访问只是把可能付钱的人带到面前，后面必须有一条明确的收费路线。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/008.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/008.webp)
 
 比如你做一个“远程办公工具目录”。有人来比较会议、翻译和项目管理软件，页面可以放联盟链接；某个厂商想获得更多曝光，可以购买明确标注的推荐位；访问足够多时，还可以接广告。读者没有直接给你钱，商家愿意为这批准确的用户付钱。中间商赚的，就是连接需求和供给的钱。
 
 这四条路也能组合。免费工具可以卖批量功能，教程网站可以卖模板，服务网站可以卖咨询，也可以把常见工作做成软件。开始时最好先确定主要收入。你知道主要向谁收钱，才知道网站该做什么。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/009.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/009.webp)
 
 ## 2. 聚焦建站：网站到底有什么用
 
@@ -115,7 +115,7 @@ TikTok 上的用户可能原本只是在刷视频，看到演示以后才产生�
 
 所以不要先问“我该用什么技术建站”，先问“用户进来以后要完成什么”。卖货，最短路线是看商品、付款、收货；卖工具，是看到效果、亲自试用、购买权限；卖服务，是看懂你能做什么、提交需求、收到报价。路线不同，网站需要的页面和功能也不同。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/010.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/010.webp)
 
 小网站的优势，是只解决一个小问题。它不用做成一个什么都能干的大平台。
 
@@ -131,17 +131,17 @@ TikTok 上的用户可能原本只是在刷视频，看到演示以后才产生�
 
 卖什么，决定在哪里搭。卖实物，可以用 Shopify 这类商店系统，它已经准备好商品、结账、订单和配送管理。你把商品、价格、支付和运费设置好，再完整测试一次下单流程。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/011.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/011.webp)
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/012.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/012.webp)
 
 做文章、评测和资源目录，可以用 WordPress。它方便发布和管理内容，再按需要增加会员或商店。域名是网站地址，托管服务是放程序和文件的地方，这些都可能产生费用。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/013.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/013.webp)
 
 做工具站，可以用 AI 辅助开发，再部署到支持相应功能的平台，例如 Cloudflare。第一版先让用户输入材料、完成处理、拿到结果；收费以后，还要能记录订单、开通权限。收费接口的密钥放在服务端，不能直接暴露在网页里。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/014.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/014.webp)
 
 先把最短的购买和使用过程做好。主题、插件和页面以后可以加，核心功能不能只是演示。收款资格也要提前查清楚，别做完了才发现无法按原计划收钱。后台怎样设置、代码怎样部署，可以放到具体建站时逐项处理。
 
@@ -189,7 +189,7 @@ TikTok 上的用户可能原本只是在刷视频，看到演示以后才产生�
 
 联盟主要看合格成交，赞助主要看双方约定的交付。你推广别人的产品，佣金是收入；你请别人推广自己的产品，佣金和赞助费就成了获客成本。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/015.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/015.webp)
 
 ## 5. 找需求：先找人们正在做的事
 
@@ -209,11 +209,11 @@ TikTok 上的用户可能原本只是在刷视频，看到演示以后才产生�
 
 再看自动补全、相关搜索和用户提问。有人搜“翻译网页”，想马上使用功能；有人搜“最好用的翻译插件”，想先比较。词看起来接近，用户此刻要做的事并不一样。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/016.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/016.webp)
 
 Google Trends 可以看一个词在不同时间和地区的相对热度。它适合比较方向和变化，不是订单预测器。曲线上升，只说明搜索兴趣变化，不代表做出来一定有人付钱。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/017.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/017.webp)
 
 评论区和差评也很有用。有人抱怨“每次都要重新设置术语”“长文件容易失败”“手机上无法操作”，这些都是具体问题。不要看到一条抱怨就立刻开发。多看几个产品、多看几种来源，确认同一个麻烦反复出现。
 
@@ -231,11 +231,11 @@ Google Trends 可以看一个词在不同时间和地区的相对热度。它适
 
 有人搜索“compress png online”或“translate pdf”，已经在主动找工具。Google 搜索广告可以出现在相关搜索结果里。用户点一下，进入你的工具页或商品页，你为这次点击付费。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/018.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/018.webp)
 
 关键词规划工具可以帮助查看相关词和大致竞争情况。不要只挑搜索量大的词。一个词越宽，进来的人越杂。第一轮更适合围绕一项具体任务，控制地区、语言和关键词范围。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/019.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/019.webp)
 
 ### YouTube 和展示广告：先让人看见效果
 
@@ -249,7 +249,7 @@ Google Trends 可以看一个词在不同时间和地区的相对热度。它适
 
 投放时，广告目标、网站购买事件和实际想要的结果要对应。你想验证销售，就把人带到能购买的页面，并确认付款事件能记录。只优化点击，平台可能带来很多爱点广告却不购买的人。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/020.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/020.webp)
 
 搜索广告接住已有需求，社交广告主动介绍产品，视频广告展示过程。平台没有绝对好坏，关键是用户当时在做什么，以及你的产品用文字还是画面更容易说清楚。
 
@@ -263,7 +263,7 @@ Google Trends 可以看一个词在不同时间和地区的相对热度。它适
 
 拿 PDF 压缩工具来说，第一轮不用把所有文件格式都支持。先选一个明确场景，例如“把过大的 PDF 压到邮件可以发送”。页面放一段操作演示，让用户上传一份文件，看到压缩结果，再决定是否为更大的文件或批量处理付费。这时广告带来的用户有没有完成压缩，比页面有多少访问更重要。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/021.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/021.webp)
 
 做 Google 搜索广告时，先选一个市场和一种语言，把一组意思接近的关键词放进同一广告组。广告里写清任务和结果，点击以后直接进入对应页面。不要广告说“在线压缩图片”，点进去却先让用户读一大段公司介绍。
 
@@ -279,7 +279,7 @@ Google Trends 可以看一个词在不同时间和地区的相对热度。它适
 
 第一轮没有订单，也不是一句“这个需求不行”就结束了。广告没人点，可能是你没有把场景说清楚；点进来不使用，可能是入口太难找；使用成功却不买，可能是免费功能已经够用，或者收费点不值钱。把用户停下来的位置找出来，下一轮只改最关键的一处。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/022.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/022.webp)
 
 ## 8. 收款要能用，也要算进成本
 
@@ -289,7 +289,7 @@ Stripe 可以提供付款链接或收银台，但要满足商户开户条件。�
 
 不管选哪一种，用户付款后都要拿到对应商品、文件或权限。自动交付要依据经过验证的真实付款通知，不能只看浏览器跳回了成功页。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/023.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/023.webp)
 
 客户付了钱，不代表银行马上到账。手续费、汇率转换、退款和适用税费会减少到手金额，结算时间会影响现金周转。这些都要提前算进去。具体开户和接入步骤适合单独展开，这里先把它当成生意成本的一部分。
 
@@ -315,7 +315,7 @@ Stripe 可以提供付款链接或收银台，但要满足商户开户条件。�
 
 停下来以后，改一个关键问题，再看下一轮结果。网站生意会反复走同一圈：找到任务，做出产品，带来用户，收款交付，再把收入和成本算清楚。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/024.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/024.webp)
 
 一个渠道有效，就留下对应的页面、素材和数据，再扩到相近需求、语言或市场。自然搜索积累长期访问，广告用来验证和放大。用户总在同一步失败，就修那一步；付费后反复问同一个问题，就改交付。收入增长时，产品和服务也要跟得上。
 
@@ -327,7 +327,7 @@ Stripe 可以提供付款链接或收银台，但要满足商户开户条件。�
 
 我是 Miles，一名从大厂转型 FDE 的 AI 算法专家，做过算法研发、优化部署，也做过企业培训和落地交付。
 
-![](../images/miles-mazy-zero-to-one-overseas-guide/025.jpg)
+![](../images/miles-mazy-zero-to-one-overseas-guide/025.webp)
 
 ## 相关页面
 

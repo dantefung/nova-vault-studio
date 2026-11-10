@@ -39,7 +39,7 @@ DeepSeek Harness 团队最近也盯上了这个痛点，专门做了一套新的
 
 说白了就是，传统人机协作模式下，人类的注意力成了最紧缺的效率瓶颈
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/002.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/002.webp)
 
 ## 二、一个大胆的想法：“消灭” 会话，让 Agent 融入到工作场景中
 
@@ -53,7 +53,7 @@ DeepSeek Harness 团队最近也盯上了这个痛点，专门做了一套新的
 
 在现有的产品设计里，一个前台会话既要充当底层的“上下文隔离框”，又要被用户拿来当“任务文件夹”使。你每开启一个新任务，就得手动点一下“新建会话”，怕上下文串味还得手动切窗口。这种纯粹从底层 API 延续下来的设计惯性，把本该由系统在后台搞定的技术细节，粗暴地甩锅成了用户的认知负担
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/003.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/003.webp)
 
 看明白这一层，DeepSeek 团队提出的“消灭会话”就非常好理解了：核心是把面向用户的交互界面，与底层的技术 Session 彻底解耦
 
@@ -61,7 +61,7 @@ DeepSeek Harness 团队最近也盯上了这个痛点，专门做了一套新的
 
 至于为了完成你的交代，它在底层偷偷新建了几个技术 Session、拆了几个并发线程，完全属于后台自己的事，用户根本不需要了解
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/004.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/004.webp)
 
 从“人去聊天框里找会话”转变为“Agent 融入办公场景找人”，交互上确实爽了，但工程落地的担子就全压到了后台系统身上。要撑起这套无感交互，系统立马会撞上五个棘手的工程难题：
 
@@ -75,7 +75,7 @@ DeepSeek Harness 团队最近也盯上了这个痛点，专门做了一套新的
 
 5. 长程任务防跑偏：没有人在聊天框里实时盯着，怎么防止 Agent 在后台长时间执行时陷入死循环或偏离目标？
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/005.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/005.webp)
 
 面对这些问题，我们看 DeepSeek 团队是怎么见招拆招的
 
@@ -99,7 +99,7 @@ DeepSeek Harness 团队最近也盯上了这个痛点，专门做了一套新的
 
 说白了，Router 就是个常驻前台的秘书，只管接需求、记全局台账和摇人派活，但自己绝不亲自下场。Worker 则是被拉来具体干活的同事，在各自的工位上埋头干活，干完活统一找秘书交差，由秘书汇总后出面跟你同步
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/006.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/006.webp)
 
 此外，为了不让耗时操作阻塞前台响应，这套架构还做了三个关键的并发与路由设计：
 
@@ -107,7 +107,7 @@ DeepSeek Harness 团队最近也盯上了这个痛点，专门做了一套新的
 
 系统将传统的同步工具调用改造成了异步模式。耗时调用启动后立即返回“已启动”状态，后台跑任务的同时，前台依然能随时响应新指令，任务跑完后再把结果作为一条新的 Trigger 事件投递回来
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/007.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/007.webp)
 
 2. 快慢双路径路由
 
@@ -123,7 +123,7 @@ DeepSeek Harness 团队最近也盯上了这个痛点，专门做了一套新的
 
 半分钟后你在同一话题下补了一张报错截图，系统识别到该话题已经有具体干活的同事在跟进了，直接走快路径把截图递给 Worker_A，不用每次都找秘书传话，省去了唤醒 Router 的推理延迟与 Token 开销
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/008.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/008.webp)
 
 3. 多对多事件流订阅
 
@@ -135,7 +135,7 @@ Thread 与 Worker 之间是多对多的订阅关系：一个 Worker 可以同时
 
 两个干活的同事在各自的上下文里都能实时看到对方的操作，大部分代码冲突自己就能顺手化解，只有搞不定的跨任务复杂协同，才会升级找秘书 Router 居中协调
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/009.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/009.webp)
 
 ##
 
@@ -155,7 +155,7 @@ Thread 与 Worker 之间是多对多的订阅关系：一个 Worker 可以同时
 
 这里最讲究的是分寸感，如果后台没复现出来、发现只是误报，或者代码没修好，Agent 会直接把半成品丢掉，全程在群里保持安静；只有当它确认修好并跑通测试后，才会把现成的修复 PR 甩到群里。用后台廉价的冗余算力，去换取人类零打扰的体验
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/010.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/010.webp)
 
 ## 五、撑起无感体验的三大工程底座
 
@@ -169,7 +169,7 @@ Agent 运行时常常会遇到一个棘手的问题，重要信息散落在各�
 
 第二招是渐进式披露，专门对付跨度更大的历史记录。好比秘书给具体干活的同事交接资料时，不会把几百页的历史聊天记录全打印出来堆他桌上，只会先给一张写着关联任务编号和一句话简介的“目录清单”。干活的同事看目录觉得哪条历史记录有用，再顺着编号去数据库里按需翻阅原文，既保住了全局视野，又省下了海量 Token
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/011.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/011.webp)
 
 2. 全天候在线：云端大脑 + 本地手
 
@@ -181,7 +181,7 @@ Agent 运行时常常会遇到一个棘手的问题，重要信息散落在各�
 
 接着把操作的“手脚”留在本地。你的代码资产和开发环境依然留在本地电脑里一秒钟都不离开，只需要在本地装一个极轻量的守护进程。云端的大脑思考完要敲什么命令，就远程发指令让本地充当手脚的守护进程去执行，跑完再把结果传回云端。哪怕本地电脑合盖重启，云端的大脑也能在重新连上后无缝衔接任务进度
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/012.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/012.webp)
 
 3. 长程防跑偏：专门配一个“督导巡查员”
 
@@ -197,7 +197,7 @@ b、大白话运维
 
 因为看门狗自己也是一个挂满工具的独立 Agent，系统维护者平时根本不需要写复杂的运维脚本，直接用自然语言问它“刚才那个任务怎么卡住了”，甚至直接口头吩咐它“把群聊触发的规则调严一点”，它就能在线帮你把主系统的提示词和规则给热修好
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/013.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/013.webp)
 
 ##
 
@@ -211,7 +211,7 @@ b、大白话运维
 
 从这个角度看，Super Agent 最大的意义，就是对“砍掉会话、探索新人机交互方式”的方向上做了一次全新的工程探索。随着模型成本下降和基建成熟，相信未来会冒出越来越多这种形态的产品
 
-![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/014.jpg)
+![](../images/coderleft-deepseek-super-agent-architecture-deep-dive/014.webp)
 
 ##
 

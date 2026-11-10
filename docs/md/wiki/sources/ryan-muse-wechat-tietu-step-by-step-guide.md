@@ -45,7 +45,7 @@ coverImage: "../images/ryan-muse-wechat-tietu-step-by-step-guide/001.jpg"
 
 用户在手机上刷到贴图，第一眼看的是图，第二眼看的是那段短文案。所以贴图号的打法就是：图要好看、文案要短而准。
 
-![](../images/ryan-muse-wechat-tietu-step-by-step-guide/002.jpg)
+![](../images/ryan-muse-wechat-tietu-step-by-step-guide/002.webp)
 
 1. 2 和文章号的区别
 
@@ -200,7 +200,7 @@ coverImage: "../images/ryan-muse-wechat-tietu-step-by-step-guide/001.jpg"
 
 一句话：分不清的草稿，先别动，先核对。
 
-![](../images/ryan-muse-wechat-tietu-step-by-step-guide/003.jpg)
+![](../images/ryan-muse-wechat-tietu-step-by-step-guide/003.webp)
 
 ## 第 4 章：每天节奏表（07:00–21:00，共 15 条）
 
@@ -233,7 +233,7 @@ coverImage: "../images/ryan-muse-wechat-tietu-step-by-step-guide/001.jpg"
 - 每条存完草稿后，Muse 会告诉你草稿 ID，你不用每小时都盯着，但每天至少抽时间按第 12 章清单批量预览发表一次。
 - 如果某小时选不到足够热门、来源可靠的 AI 信息，宁可停下提醒你，也不要编一条假热点凑数。
 
-![](../images/ryan-muse-wechat-tietu-step-by-step-guide/004.jpg)
+![](../images/ryan-muse-wechat-tietu-step-by-step-guide/004.webp)
 
 ## 第 5 章：文案怎么写（250 字以内）
 
@@ -273,7 +273,7 @@ XX 在 X 月 X 日公开了 XXX：。
 - 标题、来源行、图片说明不算进文案字数。
 - 存草稿前必须在本地文件里写清“文案字数：XXX 字，≤250 字 ✅”，不要凭感觉。
 
-![](../images/ryan-muse-wechat-tietu-step-by-step-guide/005.jpg)
+![](../images/ryan-muse-wechat-tietu-step-by-step-guide/005.webp)
 
 ## 第 6 章：图片怎么生成（每条 4 张）
 
@@ -310,7 +310,7 @@ XX 在 X 月 X 日公开了 XXX：。
 
 不要混搭：同一条贴图的 4 张图必须统一风格，不要 2 张梦幻 + 2 张搞笑，那样看起来像拼凑的。
 
-![](../images/ryan-muse-wechat-tietu-step-by-step-guide/006.jpg)
+![](../images/ryan-muse-wechat-tietu-step-by-step-guide/006.webp)
 
 6. 4 漂亮唯美梦幻风格怎么写提示词
 
@@ -404,7 +404,7 @@ stickers/2026-10-16/2100-4.jpg
 
 划重点：表单编码 + 素材库上传 + type=77 + share_page_type0=8，这 4 个缺一个都存不上。这是实测验证过的，不要换成别的写法。
 
-![](../images/ryan-muse-wechat-tietu-step-by-step-guide/007.jpg)
+![](../images/ryan-muse-wechat-tietu-step-by-step-guide/007.webp)
 
 7. 4 存完怎么核查（必做）
 
@@ -417,7 +417,7 @@ stickers/2026-10-16/2100-4.jpg
 
 核查全部通过，才能告诉用户“存好了”。任何一项不对，都要停下排查，不要说“大概存好了”。
 
-![](../images/ryan-muse-wechat-tietu-step-by-step-guide/008.jpg)
+![](../images/ryan-muse-wechat-tietu-step-by-step-guide/008.webp)
 
 7. 5 证据文件
 
@@ -646,7 +646,7 @@ stickers/2026-10-16/2100-4.jpg
 - 可以从信息源里选相对最有价值的一条，但必须来源可靠、不编造；
 - 实在没有，就跳过这一小时，下一小时再选。
 
-![](../images/ryan-muse-wechat-tietu-step-by-step-guide/009.jpg)
+![](../images/ryan-muse-wechat-tietu-step-by-step-guide/009.webp)
 
 ## 第 12 章：每日手机端清单
 

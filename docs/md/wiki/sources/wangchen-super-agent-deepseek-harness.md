@@ -4,7 +4,7 @@ date: "2026-11-02"
 source: "微信公众号"
 author: "望宸"
 url: "https://mp.weixin.qq.com/s/vL-Pj18UZb65LJTfZbTXkQ"
-coverImage: "../images/wangchen-super-agent-deepseek-harness/001.jpg"
+coverImage: "../images/wangchen-super-agent-deepseek-harness/001.webp"
 ---
 
 # 望宸：从长程 Agent 到 Super-agent，解锁更多场景
@@ -27,7 +27,7 @@ dsh-superagent-prototype 提出了 Super-agent 的概念：“打破 Agent 与�
 
 听上去有点抽象，我们来看一个具体的办公场景。
 
-![](../images/wangchen-super-agent-deepseek-harness/001.jpg)
+![](../images/wangchen-super-agent-deepseek-harness/001.webp)
 
 早上主管在 IM 群让我撰写一份季度汇报材料，汇报时长控制在 20 分钟，随后，我把任务交给了 Agent。但到了下午，主管转发了一份+2 的邮件，要求改为 10 分钟，重点讲未来规划。此时，我需要手动同步 Agent 界面外的上下文。
 
@@ -61,7 +61,7 @@ DeepSeek 认为单个 ReAct Loop 无法同时支持上述四个特征，底层�
 
 但无论是简单任务、长程任务，还是跨实体的自主任务，都离不开 Agent 的行动主线，即任务、信息和行动。任务定义如何推进、中断如何恢复、完成如何判定。信息定义有限模型窗口与持续增长的任务世界之间如何取舍。行动定义意图如何被授权、执行与验证。
 
-![](../images/wangchen-super-agent-deepseek-harness/002.png)
+![](../images/wangchen-super-agent-deepseek-harness/002.webp)
 
 图 1：Alibaba Cloud AI Agent Handbook 构建篇
 
@@ -76,7 +76,7 @@ DeepSeek 认为单个 ReAct Loop 无法同时支持上述四个特征，底层�
 
 这些模块的定义和 Alibaba Cloud AI Agent Handbook 运行篇中的概念有很多共通之处，但在 Super-agent 的场景下，系统架构还有大量的演进空间。
 
-![](../images/wangchen-super-agent-deepseek-harness/003.png)
+![](../images/wangchen-super-agent-deepseek-harness/003.webp)
 
 图 2：Alibaba Cloud AI Agent Handbook 运行篇
 
@@ -84,7 +84,7 @@ DeepSeek 认为单个 ReAct Loop 无法同时支持上述四个特征，底层�
 
 回到之前办公场景的案例，我们来增加一个事件：Agent 正在汇报初稿，我又让 Agent 整理一批客户反馈，中间还随口问了一句“Q2 的产品留存率是多少”。三件事几乎同时到来，Agent 该怎么安排？
 
-![](../images/wangchen-super-agent-deepseek-harness/004.jpg)
+![](../images/wangchen-super-agent-deepseek-harness/004.webp)
 
 一种是所有事情都交给同一个会话。上下文最连续，它知道上午写了什么，也知道下午改了什么。但一个 ReAct Loop 只能一步一步往下走，改汇报的时候，客户反馈只能排队。但缺点是吞吐低，而且多任务的中间细节混杂在一起，会影响完成效果。
 
@@ -94,7 +94,7 @@ DeepSeek 认为单个 ReAct Loop 无法同时支持上述四个特征，底层�
 
 这和软件系统里的调度与执行分离很接近：一部分负责接收请求、安排工作，另一部分专注执行。从团队协作看，Alibaba Cloud AI Agent Handbook 在第 11 章 Multi-Agent 协作与编排中，归纳了主管—执行、对等协作和分层编排三种常见拓扑。
 
-![](../images/wangchen-super-agent-deepseek-harness/005.png)
+![](../images/wangchen-super-agent-deepseek-harness/005.webp)
 
 图 3：Alibaba Cloud AI Agent Handbook 第 11 章 Multi-Agent 协作与编排
 
@@ -118,7 +118,7 @@ DeepSeek 的答案是批处理。Router 上一轮推理期间到达的消息会�
 
 DeepSeek 做过对比。约 300 条消息里混着约 20 个工作请求，每种方案跑 5 次。只给中性提示词时，主会话 5 次里一次都没有调用 Subagent，所有工作都自己干，还不断被新消息打断，p95 完成时间达到 29.5 分钟。把提示词改成优先委派后，5 次里有 4 次分了工，整体仍慢于双层架构；剩下 1 次，它判断活“很小”，又自己干了。双层架构的 p50 和 p95 分别是 12.4 分钟和 15.7 分钟。
 
-![](../images/wangchen-super-agent-deepseek-harness/006.png)
+![](../images/wangchen-super-agent-deepseek-harness/006.webp)
 
 图 4：《Super-agent 设计探索：迈向更自主的 Agent 系统》
 
@@ -138,7 +138,7 @@ DeepSeek 把群聊消息、邮件、日程提醒、代码评审评论、CI 运�
 
 DeepSeek 借用了计算机系统里 Fast Path 和 Slow Path 的思想，做了两级过滤。
 
-![](../images/wangchen-super-agent-deepseek-harness/007.jpg)
+![](../images/wangchen-super-agent-deepseek-harness/007.webp)
 
 这很像邮箱的收件规则加上一位秘书。广告和订阅邮件，由规则自动归档；剩下的，再由秘书判断哪些需要老板亲自处理。
 
@@ -172,7 +172,7 @@ CPU 里有一种技巧叫投机执行：分支的结果还没确定，就先按�
 
 继续扩展下办工厂场景。14:30，主管在群里随口说了一句“+2 最近好像更关心明年的规划”。这还不是正式要求，Agent 不必动汇报，但可以在后台先整理一份未来规划的提纲。16:10 转发的邮件到了，要求改为 10 分钟、重点讲规划，提纲马上派上用场。如果邮件一直没来，这份提纲就不需要打扰任何人。
 
-![](../images/wangchen-super-agent-deepseek-harness/008.jpg)
+![](../images/wangchen-super-agent-deepseek-harness/008.webp)
 
 投机执行改变的是准备的时机，不改变谁有权做决定。后台准备的内容在被确认之前只是草稿，不能当作正式要求去改动交付物。
 
@@ -184,7 +184,7 @@ CPU 里有一种技巧叫投机执行：分支的结果还没确定，就先按�
 
 Agent 通常包括三个模块：推进 Agent Loop 的计算，需要持久保存的会话状态，以及本地文件、代码仓库、各种工具的执行环境。18:30，我关掉办公室的电脑下班，汇报还没改完。我们希望不依赖本地设备的工作继续在云端推进；但读取本地文件、访问特定内网等步骤，仍要等这台电脑上线。
 
-![](../images/wangchen-super-agent-deepseek-harness/009.jpg)
+![](../images/wangchen-super-agent-deepseek-harness/009.webp)
 
 要做到这点，需要：
 
@@ -220,7 +220,7 @@ DeepSeek 的选择是：环境不搬，留在原地。端侧只装一个轻量�
 
 持久在线的分布式系统同样很难只靠主系统内部的逻辑保证长期可靠，需要在主系统之外引入一个独立的外部控制回路，即 Control Loop。
 
-![](../images/wangchen-super-agent-deepseek-harness/010.jpg)
+![](../images/wangchen-super-agent-deepseek-harness/010.webp)
 
 但 Agent 场景的难点在于，很多故障并不是进程崩溃。
 

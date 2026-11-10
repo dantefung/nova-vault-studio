@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "工业聚 (@guyingjie129)"
 url: "https://x.com/guyingjie129/status/2119798070204657862"
-coverImage: "../images/guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org/001.jpg"
+coverImage: "../images/guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org/001.webp"
 ---
 
 # 工业聚（@guyingjie129）：循环工程的三点特征——以及 Brian Armstrong 的 Agent 组织实践
@@ -43,9 +43,9 @@ Every change still goes through the same human review and security checks. It is
 
 What an exciting time to push the frontier of productivity, especially as we build the economy for agents (agentic finance). We should all keep pushing in this direction.
 
-![](../images/guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org/001.jpg)
+![](../images/guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org/001.webp)
 
-![](../images/guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org/002.jpg)
+![](../images/guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org/002.webp)
 
 ## 相关页面
 

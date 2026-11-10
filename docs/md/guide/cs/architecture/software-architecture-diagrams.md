@@ -21,7 +21,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 关于架构图所处位置，可见下图所示：
 
-![架构图分类总览](./images/software-architecture-diagrams/001.png)
+![架构图分类总览](images/software-architecture-diagrams/001.webp)
 
 ## 1. 业务架构图
 
@@ -55,7 +55,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 业务能力：确定组织的核心竞争力和服务能
 
-![业务架构核心价值](./images/software-architecture-diagrams/002.png)
+![业务架构核心价值](images/software-architecture-diagrams/002.webp)
 
 ### 1.4. 业务架构分层
 
@@ -63,7 +63,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 左中右结构：上游产业—业务模型—下游产业。
 
-![业务架构分层](./images/software-architecture-diagrams/003.png)
+![业务架构分层](images/software-architecture-diagrams/003.webp)
 
 ### 1.5. 业务架构图设计规范
 
@@ -117,7 +117,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 接口技术：如 REST、SOAP
 
-![应用架构图组成元素](./images/software-architecture-diagrams/004.png)
+![应用架构图组成元素](images/software-architecture-diagrams/004.webp)
 
 ### 2.3. 应用架构分层方式
 
@@ -125,7 +125,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 纵向垂直分层，按照不同的业务类型划分应用，比如进销存系统可以划分为三个独立的应用，这是面向业务广度的划分
 
-![应用架构分层方式](./images/software-architecture-diagrams/005.png)
+![应用架构分层方式](images/software-architecture-diagrams/005.webp)
 
 ### 2.4. 应用架构图层级结构
 
@@ -135,7 +135,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 其他分层结构：可以根据应用程序的实际需求进行分层，例如微服务架构、基于事件的架构等。
 
-![应用架构图层级结构](./images/software-architecture-diagrams/006.png)
+![应用架构图层级结构](images/software-architecture-diagrams/006.webp)
 
 ## 3. 技术架构图
 
@@ -157,19 +157,19 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 安全与权限体系：描述如何管理用户权限、数据加密以及其他安全策略
 
-![技术架构图组成要素](./images/software-architecture-diagrams/007.png)
+![技术架构图组成要素](images/software-architecture-diagrams/007.webp)
 
 ### 3.3. 技术架构图应用场景
 
 技术架构图应用广泛，常用在：项目立项或方案评审、架构设计或重构汇报、安全合规与系统审计、跨部门技术协作说明、技术文档附图说明等场景。
 
-![技术架构图应用场景](./images/software-architecture-diagrams/008.png)
+![技术架构图应用场景](images/software-architecture-diagrams/008.webp)
 
 ### 3.4. 技术架构图与系统架构图区别
 
 系统架构图是关于"做什么"和"怎么做"的高层次描述，而技术架构图是关于"怎么做"的更详细的技术实现描述。两者相辅相成，共同指导软件系统的设计和开发。
 
-![技术架构图与系统架构图区别](./images/software-architecture-diagrams/009.png)
+![技术架构图与系统架构图区别](images/software-architecture-diagrams/009.webp)
 
 ### 3.5. 技术架构图主要作用
 
@@ -181,13 +181,13 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 支持技术选型和方案设计：帮助选择合适的技术栈，规划系统架构，保证系统的可扩展性和可维护性
 
-![技术架构图主要作用](./images/software-architecture-diagrams/010.png)
+![技术架构图主要作用](images/software-architecture-diagrams/010.webp)
 
 ### 3.6. 技术架构图设计步骤
 
 1，根据应用架构，进行技术支撑分析，识别技术支撑的必要条件2，技术选型，包括开发架构、技术产品、开发技术栈、开发平台、运行平台3，技术影响分析，成本，难易度，规划，治理
 
-![技术架构图设计步骤](./images/software-architecture-diagrams/011.png)
+![技术架构图设计步骤](images/software-architecture-diagrams/011.webp)
 
 ## 4. 数据架构图
 
@@ -219,7 +219,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 数据服务：将处理和分析后的数据以API或其他形式对外提供服务，供其他系统或用户使用。
 
-![数据架构图构成元素](./images/software-architecture-diagrams/012.png)
+![数据架构图构成元素](images/software-architecture-diagrams/012.webp)
 
 ### 4.3. 数据架构图六大模块
 
@@ -235,7 +235,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 数据治理：数据治理涉及制定数据策略、建立数据管理组织结构和流程，以确保数据的一致性、完整性和使用合规性
 
-![数据架构图六大模块](./images/software-architecture-diagrams/013.png)
+![数据架构图六大模块](images/software-architecture-diagrams/013.webp)
 
 ### 4.4. 数据架构图作用
 
@@ -259,7 +259,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 支撑合规治理，满足数据安全、合规、主数据管理等需求
 
-![数据架构图核心目标](./images/software-architecture-diagrams/014.png)
+![数据架构图核心目标](images/software-architecture-diagrams/014.webp)
 
 ### 4.6. 数据架构图设计步骤
 
@@ -271,7 +271,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 数据共享开放，支撑业务决策，业务创新
 
-![数据架构图设计步骤](./images/software-architecture-diagrams/015.png)
+![数据架构图设计步骤](images/software-architecture-diagrams/015.webp)
 
 ## 5. 产品架构图
 
@@ -293,7 +293,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 技术实现：包含技术层面的内容，例如使用的技术栈、数据库类型、服务器架构等。
 
-![产品架构图构成](./images/software-architecture-diagrams/016.png)
+![产品架构图构成](images/software-architecture-diagrams/016.webp)
 
 ### 5.3. 产品架构图分层
 
@@ -303,7 +303,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 集中的数据处理层：产品的数据从哪里来，沉淀到哪里去，数据如何高效的存储，如何快速的被调用。
 
-![产品架构图分层](./images/software-architecture-diagrams/017.png)
+![产品架构图分层](images/software-architecture-diagrams/017.webp)
 
 ### 5.4. 产品架构图重要性
 
@@ -311,7 +311,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 同时，为了满足所设定的产品架构图，还必须配备相关的产品研发和市场运营资源以及具体的落地计划，包括技术选型和技术路径、市场营销规划等一系列的策略和措施。
 
-![产品架构图重要性](./images/software-architecture-diagrams/018.png)
+![产品架构图重要性](images/software-architecture-diagrams/018.webp)
 
 ## 6. 系统架构图
 
@@ -325,19 +325,19 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 系统架构图不仅仅是一张图表，它是项目成功的蓝图。系统架构图作为一种可视化工具，能够帮助不同背景的团队成员理解复杂的系统结构，从而促进更有效的沟通。系统架构图通过展示系统的当前和未来状态，可以帮助团队做出更明智的技术选择和规划。当面对系统中的问题时，一张详细的系统架构图可以帮助快速定位问题源头，从而简化解决过程。
 
-![系统架构图](./images/software-architecture-diagrams/019.png)
+![系统架构图](images/software-architecture-diagrams/019.webp)
 
 ### 6.2. 系统架构图常用元素
 
 系统架构图常用元素有服务器、数据库、网络设备、子系统、接口等
 
-![系统架构图常用元素](./images/software-architecture-diagrams/020.png)
+![系统架构图常用元素](images/software-architecture-diagrams/020.webp)
 
 ### 6.3. 系统架构图组成
 
 1.系统元素：指系统中的各个组成部分，如模块、组件、接口等。2.系统关系：指系统元素之间的关系和交互，如依赖关系、接口关系等。3.系统属性：指系统元素和系统关系的一些特性，如性能、可靠性等。
 
-![系统架构图组成](./images/software-architecture-diagrams/021.png)
+![系统架构图组成](images/software-architecture-diagrams/021.webp)
 
 ### 6.4. 系统架构图分类
 
@@ -353,7 +353,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 帮助运维和测试团队，更容易理解系统运行机制及风险点
 
-![系统架构图作用](./images/software-architecture-diagrams/022.png)
+![系统架构图作用](images/software-architecture-diagrams/022.webp)
 
 ## 7. 部署架构图
 
@@ -365,7 +365,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 物理架构主要考虑硬件选择和拓扑结构，软件到硬件的映射，软硬件的相互影响。在软件系统的开发和实施过程中，部署架构图扮演着非常重要的角色。通过清晰的部署架构图，能够为开发者提供完整的系统概览，帮助其理解系统组件的布局和交互方式。
 
-![部署架构图](./images/software-architecture-diagrams/023.png)
+![部署架构图](images/software-architecture-diagrams/023.webp)
 
 ### 7.2. 部署架构图元素
 
@@ -387,13 +387,13 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 安全层：保障系统各个模块的访问控制和数据安全。
 
-![部署架构图模块](./images/software-architecture-diagrams/024.png)
+![部署架构图模块](images/software-architecture-diagrams/024.webp)
 
 ### 7.4. 部署架构图作用
 
 部署架构图能够帮助开发人员更好地理解系统的整体结构，以及各个组件之间的数据流动和交互方式。此外，通过部署架构图，开发人员可以更好地规划系统的部署和扩展策略，提高系统的可维护性和可扩展性。
 
-![部署架构图作用](./images/software-architecture-diagrams/025.png)
+![部署架构图作用](images/software-architecture-diagrams/025.webp)
 
 ### 7.5. 部署架构图应用场景
 
@@ -407,7 +407,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 灾备设计：展示主备结构、异地多活、自动故障切换机制
 
-![部署架构图应用场景](./images/software-architecture-diagrams/026.png)
+![部署架构图应用场景](images/software-architecture-diagrams/026.webp)
 
 ### 7.6. 部署架构图类型
 
@@ -421,7 +421,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 多活部署：多个节点/区域同时提供服务，提高可用性与容灾能力
 
-![部署架构图类型](./images/software-architecture-diagrams/027.png)
+![部署架构图类型](images/software-architecture-diagrams/027.webp)
 
 ## 8. 信息架构图
 
@@ -447,7 +447,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 系统的扩展性：产品从0到1，从1到N，产品功能也是不断增加完善的，这就要求在做信息架构时，要做好拓展的准备，考虑之后的扩展性。
 
-![信息架构图设计原则](./images/software-architecture-diagrams/028.png)
+![信息架构图设计原则](images/software-architecture-diagrams/028.webp)
 
 ### 8.3. 信息架构构建方式
 
@@ -457,7 +457,7 @@ url: "https://mp.weixin.qq.com/s/G1Kkkwa65VT_961mghpYFQ"
 
 综合运用：自上而下和自下而上两种构建方式都有明显的缺点，所以理想的信息架构的构建方式都是综合运用的，同时从战略层和范围层进行驱动，以构建一个适应性强的系统。
 
-![信息架构构建方式](./images/software-architecture-diagrams/029.png)
+![信息架构构建方式](images/software-architecture-diagrams/029.webp)
 
 ## 9. 总结
 

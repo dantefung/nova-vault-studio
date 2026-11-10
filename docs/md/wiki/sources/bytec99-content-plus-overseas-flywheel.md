@@ -35,7 +35,7 @@ coverImage: "../images/bytec99-content-plus-overseas-flywheel/001.jpg"
 
 这些结果拿出来，甚至有点寒酸。
 
-![](../images/bytec99-content-plus-overseas-flywheel/002.jpg)
+![](../images/bytec99-content-plus-overseas-flywheel/002.webp)
 
 但也正因为动作做得足够密，我反而越来越看清了一件事。
 
@@ -87,7 +87,7 @@ coverImage: "../images/bytec99-content-plus-overseas-flywheel/001.jpg"
 - 搭了一条可复用的跨平台内容链路，把 X、公众号、小红书串起来，数据采集、内容创作、生图、发布尽量做成一体化流程
 - 还用 CC 做了一个对话转文字，直接指定发往 tmux 某个 panel 的便捷小工具，本质上就是继续压缩输入到执行的距离
 
-![](../images/bytec99-content-plus-overseas-flywheel/003.jpg)
+![](../images/bytec99-content-plus-overseas-flywheel/003.webp)
 
 ## 这个月真正的收获
 
@@ -108,7 +108,7 @@ coverImage: "../images/bytec99-content-plus-overseas-flywheel/001.jpg"
 
 副业不是等一次爆发，而是持续把内容、出海和自动化一点点拧成一个系统。
 
-![](../images/bytec99-content-plus-overseas-flywheel/004.jpg)
+![](../images/bytec99-content-plus-overseas-flywheel/004.webp)
 
 ## 相关页面
 

@@ -78,7 +78,7 @@ MEMORY.md 的内容会在上限范围内进入新会话的上下文，告诉 Cla
 3. 下一次会话开始时，Claude Code 加载索引。
 4. 遇到相关任务，Claude 再打开对应文件，结合当前情况继续工作。
 
-![](../images/jason-young-claude-code-project-level-memory/002.jpg)
+![](../images/jason-young-claude-code-project-level-memory/002.webp)
 
 整个过程不需要用户说“记住”（当然也可以说）。在我的使用过程中，很多记忆写入发生在纠偏或工作确认之后，Claude 自己判断这些内容值得留下，也不会每次会话都写记忆。
 
@@ -107,7 +107,7 @@ Claude Code 对索引设置了启动加载上限：前 200 行或文档所称的
 
 接下来，收到提醒的 Claude 会读取索引、判断怎么整理，再调用文件工具修改。容量检查负责量大小和发提醒，具体取舍由当前会话里的 Claude 完成。 这条路径没有固定的淘汰算法，也不需要另起一个专门的精简子 Agent。
 
-![](../images/jason-young-claude-code-project-level-memory/003.jpg)
+![](../images/jason-young-claude-code-project-level-memory/003.webp)
 
 ### Claude 怎么决定哪些记忆可以舍弃？
 
@@ -124,7 +124,7 @@ Claude 收到的常驻记忆指引包括：避免重复，更新或移除错误�
 
 被移出索引的主题文件仍可能通过目录搜索、其他文件或工作台账找回来。我的项目里，不少回查就是靠事项编号和台账中的文件名完成的。因此，移出索引并不等于彻底遗忘，但它确实减少了一次被主动注意到的机会；只有归档，没有可用的查找线索，仍然容易漏掉。
 
-![](../images/jason-young-claude-code-project-level-memory/004.jpg)
+![](../images/jason-young-claude-code-project-level-memory/004.webp)
 
 ## 三、在我的日常工作中，它主要帮上了什么忙？
 

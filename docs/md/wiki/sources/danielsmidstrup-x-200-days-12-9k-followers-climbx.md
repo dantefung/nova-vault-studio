@@ -29,7 +29,7 @@ And a lot of people started asking me the same thing: how are you growing so fas
 
 My first 2 months. For the first 30 days I engaged actively with the community to get my first followers. Around day 30, when things took off, I switched to mostly replying to comments on my own posts, and follows kept growing with it.
 
-![My first 2 months: once I started replying hundreds of times a day, follows took off.](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/002.png)
+![My first 2 months: once I started replying hundreds of times a day, follows took off.](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/002.webp)
 
 So I built a tool that helps me follow the same routine I used to grow. That became ClimbX!!
 
@@ -65,7 +65,7 @@ For the last 150 days or so:
 - 8 posts a day
 - At least 400 replies a day
 
-![Month 3 to now (June to mid-October). Impressions, follows and replies when I post and reply at that pace every day.](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/003.jpg)
+![Month 3 to now (June to mid-October). Impressions, follows and replies when I post and reply at that pace every day.](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/003.webp)
 
 The last 2 weeks I’ve cut replies down to around 250 a day.
 
@@ -81,11 +81,11 @@ Honestly, super simple.
 
 - “I keep switching between Codex and Claude. Why hasn’t someone built a harness that works with both?” got 856K views
 
-![](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/004.jpg)
+![](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/004.webp)
 
 - “Gemini reportedly has around 25% of the market. Yet I barely see anyone using it. What am I missing?” got 156K views and 1,100+ replies
 
-![](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/005.jpg)
+![](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/005.webp)
 
 - A question about whether to leave my new MacBook plugged in got 41K views
 
@@ -128,7 +128,7 @@ People ask me this a lot.
 
 I don’t use the kind of automation X doesn’t allow. ClimbX schedules posts through X’s official API. No auto-replies, no auto-DMs. A human approves every post.
 
-![My September Under the Hood report](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/006.jpg)
+![My September Under the Hood report](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/006.webp)
 
 In September I did 11,897 posts and replies. Only one got a spam label.
 
@@ -152,7 +152,7 @@ Pretty typical:
 
 Here’s what that looked like in September:
 
-![My September income post: $7,001.91, up 86% from August.](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/007.jpg)
+![My September income post: $7,001.91, up 86% from August.](../images/danielsmidstrup-x-200-days-12-9k-followers-climbx/007.webp)
 
 ## Where the money actually comes from
 

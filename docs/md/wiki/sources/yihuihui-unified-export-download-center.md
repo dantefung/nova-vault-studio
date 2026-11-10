@@ -10,7 +10,7 @@ author: "一灰灰blog"
 
 > SQL 下发 + 回调补全——统一导出任务下载的实现策略。业务数据由业务侧管控、任务执行由平台统一收口；类名与注解均为示意命名。
 
-![image](../images/unified-export-download-center/001.jpeg)
+![image](../images/unified-export-download-center/001.webp)
 
 ## 1. 问题从哪来：N 个业务系统 × M 种导出需求
 
@@ -62,7 +62,7 @@ author: "一灰灰blog"
 
 图 1：端到端主流程时序总览
 
-![image](../images/unified-export-download-center/002.jpeg)
+![image](../images/unified-export-download-center/002.webp)
 
 静态分层架构总览
 
@@ -74,7 +74,7 @@ author: "一灰灰blog"
 
 二者靠一份双向契约 SDK 连接。节点与连线均为示意命名，用于方便理解。
 
-![image](../images/unified-export-download-center/003.jpeg)
+![image](../images/unified-export-download-center/003.webp)
 
 > 读图要点：模板元数据（结构）走 SDK 远程回调获取，实际 SQL 执行由平台直连业务从库完成；业务侧只在两处出场——提供同源模板/补全逻辑（SDK 回调链）与被查询的业务库，其余调度、并发、安全、文件、通知全部在平台侧闭环。
 
@@ -104,7 +104,7 @@ getSqlTemplate的返回结果（示意命名SqlTemplateResult）是整个契约�
 
 图 2：契约注册与远程调用路由时序
 
-![image](../images/unified-export-download-center/004.jpeg)
+![image](../images/unified-export-download-center/004.webp)
 
 这样带来的直接收益是：所有业务应用暴露给平台的接口路径完全一致（只有服务名不同），平台侧的调用客户端只需要一个统一实现，按业务应用做服务发现即可，不用为每个业务应用配置不同的接口地址。
 
@@ -114,7 +114,7 @@ getSqlTemplate的返回结果（示意命名SqlTemplateResult）是整个契约�
 
 这是整个方案里技术含量最高、也是最"平台化"的部分：平台拿到的是一段自己从未见过的动态 SQL 片段，要能在自己的进程里正确、安全地执行，还要支持分页。
 
-![image](../images/unified-export-download-center/005.jpg)
+![image](../images/unified-export-download-center/005.webp)
 
 ### 4.1 为什么用动态 SQL 片段而不是裸 SQL
 
@@ -204,7 +204,7 @@ getSqlTemplate的返回结果（示意命名SqlTemplateResult）是整个契约�
 
 图 3：任务调度与执行时序（含并发抢占、重试、取消）
 
-![image](../images/unified-export-download-center/006.jpeg)
+![image](../images/unified-export-download-center/006.webp)
 
 ## 6. 一致性保障：四层防线
 
@@ -240,7 +240,7 @@ SQL 同源（架构约束）
 
 业务应用在自身 CI 用 SDK 提供的测试工具断言列一致性、总数一致性、补全字段完整性
 
-![image](../images/unified-export-download-center/007.jpg)
+![image](../images/unified-export-download-center/007.webp)
 
 第一层是架构层面的约束（无法用代码强制，靠契约 SDK 提供工具降低维护成本）；第二、三、四层分别有对应实现。这套四层防线本质是乐观的事后检测策略——先假定导出期间数据不变，跑完再用版本号、总数去验算是否成立；与之相对的"事前锁定一致性快照"路线，取舍见 10.5。第三层的核心逻辑：
 
@@ -270,13 +270,13 @@ SQL 同源（架构约束）
 
 图 4：后置补全两方案决策与执行时序
 
-![image](../images/unified-export-download-center/008.jpeg)
+![image](../images/unified-export-download-center/008.webp)
 
 ## 8. 文件生成：两种模式，从"元数据驱动"到"Excel 模板填充"
 
 平台侧的最终交付物是用户拿到的表格文件。跨应用传递的行数据（通用键值结构）本身不携带任何"展示语义"（表头文字、列顺序、日期/数字格式、列宽），这些语义通过列元数据契约传递，由 SDK 从业务侧已有的实体注解反射提取，保证业务侧不需要手写第二遍列定义。
 
-![image](../images/unified-export-download-center/009.jpg)
+![image](../images/unified-export-download-center/009.webp)
 
 文件写入采用三段式流式接口（打开 → 按页写入 → 收尾并上传）：
 
@@ -320,13 +320,13 @@ SQL 同源（架构约束）
 
 这些调整的共同逻辑是：契约的"能力"要完整，但契约的"义务"要按需。平台提供的能力清单是全量的，但每个业务接入方只需要为其真实需要的能力买单，其余能力通过声明式开关跳过，这是这套 SDK 化契约能够被多个业务系统低成本接入的关键。
 
-![image](../images/unified-export-download-center/010.jpg)
+![image](../images/unified-export-download-center/010.webp)
 
 ## 10. 横向对比：其他可选技术路线
 
 前九节聚焦"这套方案本身怎么落地"，这一节把视角拉高，对比"统一导出/下载"这个命题下业界常见的另外几条技术路线，说明本文方案是在哪些约束下做出的选择，而不是唯一解。
 
-![image](../images/unified-export-download-center/011.jpg)
+![image](../images/unified-export-download-center/011.webp)
 
 ### 10.1 数据获取路径：配置化直连 / 下发动态 SQL / 分页拉取业务 API
 
@@ -508,7 +508,7 @@ OLAP 引擎分流：把报表/导出类查询整体迁到列式分析引擎执�
 
 对导出实时性要求极高（秒级同步返回）的场景，异步任务模型本身就有延迟，这套方案更适合"分钟级异步 + 通知"的交互。
 
-![image](../images/unified-export-download-center/012.jpg)
+![image](../images/unified-export-download-center/012.webp)
 
 ## 12. 小结
 

@@ -4,7 +4,7 @@ date: "2026-08-29"
 source: "X/Twitter"
 author: "在悉尼和稀泥 (@JamesAI)"
 url: "https://x.com/JamesAI/status/2093518044253339741"
-coverImage: "../images/jamesai-zero-cost-b2b-leads-in-24h/001.jpg"
+coverImage: "../images/jamesai-zero-cost-b2b-leads-in-24h/001.webp"
 ---
 
 # 在悉尼和稀泥（@JamesAI）：普通人如何在 24 小时内 0 成本拿到 B 端客资
@@ -61,7 +61,7 @@ coverImage: "../images/jamesai-zero-cost-b2b-leads-in-24h/001.jpg"
 
 如有雷同，纯属巧合。
 
-![](../images/jamesai-zero-cost-b2b-leads-in-24h/001.jpg)
+![](../images/jamesai-zero-cost-b2b-leads-in-24h/001.webp)
 
 ## 相关页面
 

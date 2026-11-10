@@ -25,7 +25,7 @@ url: "https://mp.weixin.qq.com/s/aopO-3KO9lenKF5WHhBD7w"
 2. **第二阶段**：把更多流程动作交给 Agent 自动推进
 3. **第三阶段**：更完整的协同交付，包括开发、测试、发布、观测、回滚等生产链路
 
-![三层资产架构](../images/ai-coding-delivery-practice/005.png)
+![三层资产架构](../images/ai-coding-delivery-practice/005.webp)
 
 ## 核心设计：三层资产
 
@@ -57,7 +57,7 @@ RD 流程的核心命令链：
 
 `/rd:work` 作为路由命令，Agent 会根据用户输入和当前上下文自动推断意图并给出下一步引导，用户只需输入这一个命令即可。
 
-![RD 流程架构](../images/ai-coding-delivery-practice/006.png)
+![RD 流程架构](../images/ai-coding-delivery-practice/006.webp)
 
 ## 知识库设计：分层知识资产
 
@@ -76,7 +76,7 @@ knowledge/
 └── ROUTING.md      # 知识路由入口
 ```
 
-![知识库分层设计](../images/ai-coding-delivery-practice/007.png)
+![知识库分层设计](../images/ai-coding-delivery-practice/007.webp)
 
 ### main/：全局业务知识
 
@@ -155,7 +155,7 @@ rd/requirements/{requirementId}/
         └── requirement.md
 ```
 
-![RD 流程文件结构](../images/ai-coding-delivery-practice/010.png)
+![RD 流程文件结构](../images/ai-coding-delivery-practice/010.webp)
 
 这样做的好处：
 
@@ -186,7 +186,7 @@ rd/requirements/{requirementId}/
 - 需要兼容的历史逻辑
 - 验收标准是否可执行
 
-![质量门禁设计](../images/ai-coding-delivery-practice/014.png)
+![质量门禁设计](../images/ai-coding-delivery-practice/014.webp)
 
 ## 知识回补
 

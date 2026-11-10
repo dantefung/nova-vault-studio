@@ -77,7 +77,7 @@ Karpathy 建议用四种形式帮助理解：
 
 这次也用 imagegen 直接把 Karpathy 的观点画成了图，四个区域分别介绍文字、图解、网页和视频。效果我觉得一般，放在这里和后面的配图技能生成结果对照看。
 
-![](../images/fox-how-ai-helps-us-understand-ai-output/002.jpg)
+![](../images/fox-how-ai-helps-us-understand-ai-output/002.webp)
 
 我平时也会这样做：开发时搞不清某个模块的流程，或者想 review AI 写的代码，就让它画一张图，帮助自己理解。
 
@@ -89,7 +89,7 @@ Karpathy 建议用四种形式帮助理解：
 
 https://x.com/indie_maker_fox/status/2106913108912713986
 
-![](../images/fox-how-ai-helps-us-understand-ai-output/003.jpg)
+![](../images/fox-how-ai-helps-us-understand-ai-output/003.webp)
 
 日常可以这样请求：
 
@@ -105,7 +105,7 @@ https://x.com/indie_maker_fox/status/2106913108912713986
 
 这次用的是定制版 fox-illustrations：把小黑换成小狐狸，调整角色设定和配色。图里，小狐狸把同一个概念送进一台手摇机器，分别输出文字、图解、网页和视频。
 
-![](../images/fox-how-ai-helps-us-understand-ai-output/004.jpg)
+![](../images/fox-how-ai-helps-us-understand-ai-output/004.webp)
 
 这张图适合让读者先记住一个关系：同一个概念，可以换成不同的表达形式。它的文字比较少，完整说明仍然需要正文配合。
 
@@ -125,7 +125,7 @@ https://x.com/indie_maker_fox/status/2088454444627464354
 
 这次生成的信息图分成三层：顶部说明人的工作如何变化，中间展示四种表达，底部解释为什么可以制作“用完即弃”的定制材料。
 
-![](../images/fox-how-ai-helps-us-understand-ai-output/005.jpg)
+![](../images/fox-how-ai-helps-us-understand-ai-output/005.webp)
 
 这张图保留的信息最多，适合收藏或整体转发。不过在手机上，正文小字可能需要放大阅读。
 
@@ -149,7 +149,7 @@ https://x.com/indie_maker_fox/status/2088206714608996395
 
 这次调用 html 技能，配合 design-artifact，把 Karpathy 的观点总结做成了下面这个展示页。
 
-![](../images/fox-how-ai-helps-us-understand-ai-output/006.jpg)
+![](../images/fox-how-ai-helps-us-understand-ai-output/006.webp)
 
 展示页用了冷白和蓝色的“理解实验室”排版。上方解释人的工作如何变化，介绍四种表达；下面可以切换同一个观点的不同版本：
 
@@ -217,7 +217,7 @@ https://x.com/indie_maker_fox/status/2087034131268145633
 
 https://openfree.tools/categories/agent-skills-tool-libraries
 
-![](../images/fox-how-ai-helps-us-understand-ai-output/007.jpg)
+![](../images/fox-how-ai-helps-us-understand-ai-output/007.webp)
 
 ## 7. 材料来源
 

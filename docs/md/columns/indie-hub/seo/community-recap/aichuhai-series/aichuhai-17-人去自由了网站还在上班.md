@@ -14,11 +14,11 @@ url: "https://mp.weixin.qq.com/s/eZWis6bCXXn2hDnIVz6m9g"
 
 大家有什么问题都欢迎留言，后续回来继续分享。最近的内容可以看集合帖:网站出海每日分享：出海一周年，网站出海内容整理或者集合站：aichuhai.dev
 
-![image](./images/001.png)
+![image](images/001.webp)
 
 我是赫兹，专注网站出海第390天，持续分享网站出海内容。新朋友可以看看之前的文章合集；想系统学习，也推荐关注哥飞老师，我很多方法是向他学习的，微信搜索 361079 就可以找到他。
 
-![image](./images/002.jpeg)
+![image](images/002.webp)
 
 网站出海每日分享
 

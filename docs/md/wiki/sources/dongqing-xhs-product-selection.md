@@ -21,7 +21,7 @@ coverImage: "../images/dongqing-xhs-product-selection/001.jpg"
 
 **开发提示词开源**：[红薯雷达完整开发提示词](https://github.com/dong-liudong/hongshuleida/blob/main/dq.md)
 
-![](../images/dongqing-xhs-product-selection/002.jpg)
+![](../images/dongqing-xhs-product-selection/002.webp)
 
 > 原文说明：软件大致会是下面这种形式，具体界面可能不一样。哪里不顺手，接着让 AI 调。
 
@@ -35,11 +35,11 @@ coverImage: "../images/dongqing-xhs-product-selection/001.jpg"
 6. **搜搜有多少人在做**：一家卖得好 ≠ 市场上只有他
 7. **别把没人做都当成蓝海**：高中教师资料就是例子，老师有自己的课件和题库
 
-![](../images/dongqing-xhs-product-selection/005.jpg)
+![](../images/dongqing-xhs-product-selection/005.webp)
 
 > 原文说明：爆品值越小越愿意先看，但一天只出一单也能算出很好看的比例，不能只看这个数。
 
-![](../images/dongqing-xhs-product-selection/006.jpg)
+![](../images/dongqing-xhs-product-selection/006.webp)
 
 > 原文说明：商品价值把价格、当天增量和近期增量占比一起考虑，但别把它当利润。
 
@@ -47,9 +47,9 @@ coverImage: "../images/dongqing-xhs-product-selection/001.jpg"
 
 整理了1400多个虚拟商品供参考（来自6000+商品AI处理后），附飞书表格链接。
 
-![](../images/dongqing-xhs-product-selection/003.jpg)
+![](../images/dongqing-xhs-product-selection/003.webp)
 
-![](../images/dongqing-xhs-product-selection/004.jpg)
+![](../images/dongqing-xhs-product-selection/004.webp)
 
 > 原文说明：里面有一些已经下架或者已经违规了的商品，没有删掉也没有筛选，大家自行查看处理。这是其中的 1400 多个，从 6000 多个里用 AI 简单处理删减噪音后的结果。
 
@@ -65,9 +65,9 @@ coverImage: "../images/dongqing-xhs-product-selection/001.jpg"
 
 思路是：软件负责接收浏览器传来的网页链接。可以交给 AI 实现，中间可能需要一个中介——比如浏览器插件点击加入监控队列，商品链接同步到飞书，软件自动运行、每小时从飞书同步一次新增的商品链接。
 
-![](../images/dongqing-xhs-product-selection/007.png)
+![](../images/dongqing-xhs-product-selection/007.webp)
 
-![](../images/dongqing-xhs-product-selection/008.jpg)
+![](../images/dongqing-xhs-product-selection/008.webp)
 
 > 原文说明：把页面的数据展示在一起，可以更直观地看完一个商品并试算，还方便快速加到选品库和监控队列。
 

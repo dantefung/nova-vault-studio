@@ -43,7 +43,7 @@ coverImage: "../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commerci
 
 后续我也会继续更新什么是好内容的标准、如何做出好的内容质感、拆解优质的社媒博主、做内容的技巧和运营策略，希望能帮到大家🍻
 
-![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/002.jpg)
+![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/002.webp)
 
 ## 01｜首先，搞清楚小红书到底是什么平台
 
@@ -117,7 +117,7 @@ AI+办公、AI+设计、AI+美学、AI+创意、AI+商业化、AI+生活方式�
 
 如果答案不清楚，先把表达改明白。
 
-![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/003.jpg)
+![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/003.webp)
 
 ## 02｜找 5—10 个对标，看看优秀的账号到底长什么样
 
@@ -213,7 +213,7 @@ AI×设计｜X 年经验的设计师｜做过什么项目、拿过什么奖项�
 
 然后先把自己的头像、简介和封面调整一版。
 
-![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/004.jpg)
+![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/004.webp)
 
 ## 03｜账号搭好了，先发十条再说！
 
@@ -287,7 +287,7 @@ AI 可以帮你整理，但别把自己那些有趣的口头禅、真实经历�
 
 每次只解决一个问题，能图文就图文，适合演示就录屏，需要表达就拍视频。先把第一条发出来。
 
-![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/005.jpg)
+![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/005.webp)
 
 ## 04｜边发边学，慢慢培养自己的内容手感
 
@@ -361,7 +361,7 @@ AI 可以帮你做图、写稿、剪辑、排版，但如果你自己连一个�
 
 改完再发，每次争取比上一条进步一点就行。
 
-![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/006.jpg)
+![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/006.webp)
 
 ## 05｜发完十条，学会复盘，找到长期更新的抓手
 
@@ -440,7 +440,7 @@ AI 可以帮你做图、写稿、剪辑、排版，但如果你自己连一个�
 - 找出反馈最好的 3 条、自己最愿意持续做的 3 类主题，再看看有没有重合的方向；
 - 下一轮继续做几条验证，不断迭代拖后腿的因素。
 
-![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/007.jpg)
+![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/007.webp)
 
 ## 06｜关于商业化：你到底准备让账号为你带来什么？
 
@@ -500,7 +500,7 @@ AI 可以帮你做图、写稿、剪辑、排版，但如果你自己连一个�
 
 如果没有，下一轮就有意识地补充。
 
-![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/008.jpg)
+![](../images/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize/008.webp)
 
 ## 写在最后
 

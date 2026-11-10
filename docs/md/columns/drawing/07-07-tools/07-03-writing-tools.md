@@ -180,16 +180,16 @@ graph TD
 - [MultiPost Extension](./multipost-extension.md) — 浏览器多平台一键发布扩展
 - [Pastory](./pastory-clipboard-history.md) — 剪切板历史工具，复制过的文字/链接/图片/截图/录屏全收录，本地优先，Agent 可读取结构化
 
-[img-0]:images/07-03-writing-tools/p01.jpg
+[img-0]:images/07-03-writing-tools/p01.webp
 
 [img-1]:images/07-03-writing-tools/p02.gif
 
-[img-2]:images/07-03-writing-tools/p03.jpg
+[img-2]:images/07-03-writing-tools/p03.webp
 
-[img-3]:images/07-03-writing-tools/p04.jpg
+[img-3]:images/07-03-writing-tools/p04.webp
 
-[img-4]:images/07-03-writing-tools/p05.jpg
+[img-4]:images/07-03-writing-tools/p05.webp
 
-[img-5]:images/07-03-writing-tools/p06.jpg
+[img-5]:images/07-03-writing-tools/p06.webp
 
-[img-6]:images/07-03-writing-tools/p07.jpg
+[img-6]:images/07-03-writing-tools/p07.webp

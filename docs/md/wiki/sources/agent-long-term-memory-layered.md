@@ -20,15 +20,15 @@ url: "https://mp.weixin.qq.com/s/NAMiUEq0eve67LrGAlZZXQ"
 
 一开始我的做法特别朴素：把所有历史记忆一股脑塞进system prompt。
 
-![](../images/agent-long-term-memory-layered/001.png)
+![](../images/agent-long-term-memory-layered/001.webp)
 
 反正模型上下文窗口大，1M呢，怕什么。
 
-![](../images/agent-long-term-memory-layered/002.png)
+![](../images/agent-long-term-memory-layered/002.webp)
 
 怕什么？账单来了你就不这么说了。
 
-![](../images/agent-long-term-memory-layered/003.png)
+![](../images/agent-long-term-memory-layered/003.webp)
 
 七月上旬我拉了一下数据：单次请求的prompt稳定在11万token上下，一天跑两百多次请求，光输入Token平均每天烧掉两三百多万。更伤心的是回答质量在肉眼可见地变差——我上周三问它"上个月那个公众号选题的规则"，它给我回了一段驴唇不对马嘴的东西，因为关键记忆被埋在十万token的噪声里，注意力早就稀释没了，模型就抓不住真正关键信息。
 
@@ -120,20 +120,20 @@ decision（拍板过的结论）、preference（用户偏好）、fact（客观�
 
 你的Agent记忆是怎么管的？也是全量塞上下文吗？卡在哪一步了，评论区拆一拆。
 
-![](../images/agent-long-term-memory-layered/004.png)
+![](../images/agent-long-term-memory-layered/004.webp)
 
 上周六听古老师分享Nowledge Labs的理念和发展方向时，收获了不少洞察，把好多脑子里有，但找不到词汇表达的信息都讲出来了。为什么有感触呢？是因为我也在做类似的一个东西，有共性也有不同。我做这个是因为有了AI加持，信息过载，很多东西脑子里都知道但讲不出来，原因是新名词多，相互之间在大脑中被稀释，然后就想着要不要手搓了什么工具来解决一下，在几个月前看到K神的Wiki LLM的方案后，就手搓了一下。还挺好用。
 
 感觉兴趣的小伙伴可以试用一下。我现在主要是这样用的，安装cli，然后Claude Code和Codex与AI讨论和做项目时，把知识存到wiki llm中，然后再通过页面上的"花园"来复习。复习的数据也会再迭代wiki llm中的信息，如何往复。
 
-![](../images/agent-long-term-memory-layered/005.png)
+![](../images/agent-long-term-memory-layered/005.webp)
 
 也有图谱，会偶尔看看：
 
-![](../images/agent-long-term-memory-layered/006.png)
+![](../images/agent-long-term-memory-layered/006.webp)
 
 也会时不时看看洞察，有时候会有种打开了的感觉：
 
-![](../images/agent-long-term-memory-layered/007.png)
+![](../images/agent-long-term-memory-layered/007.webp)
 
 “原来这些知识点之间都是相通的”

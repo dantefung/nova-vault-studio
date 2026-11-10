@@ -122,7 +122,7 @@ Microsoft To Do 中创建一个**每日任务**列表，里面的都是点了重
 
 ---
 
-![](./images/anguswg-note-system/01.png)
+![](images/anguswg-note-system/01.webp)
 
 ## FAQ
 
@@ -173,11 +173,11 @@ TODO.md Kanban Board 插件解决，但是还是不是很好用。建议还是�
 
 比如我想查找机器学习相关的内容，打开搜索，然后输入`机器学习`，相关的笔记就会展现了。不需要通过目录的方式去查找笔记。
 
-![](./images/anguswg-note-system/02.png)
+![](images/anguswg-note-system/02.webp)
 
 如果只想单独搜索文件，可以直接打开命令窗口输入文件名（记得把表示命令的 `>` 去掉）
 
-![](./images/anguswg-note-system/03.png)
+![](images/anguswg-note-system/03.webp)
 
 ## 关于第二大脑
 
@@ -204,7 +204,7 @@ TODO.md Kanban Board 插件解决，但是还是不是很好用。建议还是�
 - 明确了多看阅读，微信阅读记录导出笔记的阅读方式。
 - 万物都可记，在连接数据库和 vscode 本身的搜索能力的帮助下，任何事情都可以记录在‘第二大脑’里。
 
-![](./images/anguswg-note-system/04.png)
+![](images/anguswg-note-system/04.webp)
 
 ## 参考资料
 

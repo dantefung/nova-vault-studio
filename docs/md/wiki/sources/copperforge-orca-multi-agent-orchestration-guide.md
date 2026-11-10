@@ -17,7 +17,7 @@ coverImage: "../images/copperforge-orca-multi-agent-orchestration-guide/001.jpg"
 
 我再次对我消耗这么多 token 而毫无建树跟地球母亲说一声：对不起。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/002.png)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/002.webp)
 
 Orca 它是一个开源免费的 AI 开发工作台，让你在一个窗口里同时指挥多个编程 Agent，Claude Code、Codex 混着用都行，每个 Agent 一份独立的代码副本，谁也不踩谁。
 
@@ -55,7 +55,7 @@ IDE 是给人写代码用的，Orca 官方给自己起的名字叫 ADE，Agent D
 
 第四件，被一家绑住。只用一家的 Agent，额度用完就得停；想让另一家的模型接着干，上下文又带不过去。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/003.jpg)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/003.webp)
 
 Orca 最突出的优点，就是这四件事各有一个对应的设计。新副本能自动带上指定的配置文件和共享依赖；Agent 干完活，Orca 会弹通知、响提示音；改动里能逐行批注、一次性发回给 Agent，还能标出哪些行是 AI 写的；Agent 不限厂商，账号能切，会话能交给另一家的 Agent 接着做。
 
@@ -67,7 +67,7 @@ Orca 最突出的优点，就是这四件事各有一个对应的设计。新副
 
 下面是一个假设的一天。你一个人在做一款面向海外用户的 AI SaaS：网站加数据库，用 Stripe 收订阅。每一步后面标了对应章节，想学哪个直接跳。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/004.png)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/004.webp)
 
 早上 9 点，晨检报告已经生成好了。一个定时任务在云服务器上先看一眼仓库有没有新改动，有才叫醒模型，汇总昨天卡住的地方。仓库没动的日子，它直接跳过，一分额度不花。（第十四节）
 
@@ -89,7 +89,7 @@ Orca 最突出的优点，就是这四件事各有一个对应的设计。新副
 
 官方文档把整个产品压缩成一行：加仓库 → 开工作区 → 选 Agent → 分屏 → 看改动 → 提交。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/005.png)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/005.webp)
 
 安装。macOS 用 Homebrew 一条命令就能装，也可以和 Windows、Linux 一样，去官网下载安装包。
 
@@ -105,7 +105,7 @@ Orca 最突出的优点，就是这四件事各有一个对应的设计。新副
 
 看改动、提交：Agent 干完，打开这个工作区的改动视图看它改了什么，满意就直接在 Orca 里提交、推送、开 PR。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/006.jpg)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/006.webp)
 
 跑通以后再认一下界面。左侧是入口和项目列表，每个项目下面挂着工作区，工作区下面列着正在跑的 Agent，带模型名和运行时长。中间是标签页，Agent 会话、终端、内置浏览器、文件编辑器都是标签，可以随意分屏。右侧管文件、搜索和改动。底部状态栏显示各个账号的额度用了多少、什么时候重置，开新会话前瞄一眼，能避免任务派出去了额度先见底。
 
@@ -131,7 +131,7 @@ Orca 最突出的优点，就是这四件事各有一个对应的设计。新副
 
 官方文档里有一个现成打法，也是 Orca 最有代表性的用法：让三个 Agent 同时修。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/007.jpg)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/007.webp)
 
 从同一个起点开三个工作区，分别启动 Claude Code、Codex、Devin，贴同一段需求，拖成三栏分屏看它们干活。都结束以后逐个看改动，挑出最好的那份，再用逐行批注修一轮，在它的工作区里提交、开 PR。另外两个工作区一键删掉，副本和分支一起清。
 
@@ -227,7 +227,7 @@ Agent 太积极，最怕它自己就把数据库迁移跑了。Orca 的编排里
 
 编排容易被理解成“多开几个 Agent”。它其实是让一个 Agent 当项目经理：拆任务、派给别的 Agent、收消息、验收，你只跟它一个人说话。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/008.jpg)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/008.webp)
 
 这里面最值得理解的设计，是“工单”和“这一次执行”分开记。
 
@@ -289,7 +289,7 @@ Cloud VM：每个工作区一台用完即弃的云端虚拟机，目前放在实
 
 几种方式能在同一个 Orca 里混着用。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/009.jpg)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/009.webp)
 
 推友 Asa（@app_sail）2026 年 10 月 9 日发过一篇长文，用的就是 Remote Orca Server：在 Grok Bot 自带的美国云电脑上装好 Orca 当服务器，那台机器按他文中的说法有 16 GB 内存；MacBook 和手机上的 Orca 通过 Tailscale 连进去，直接控制跑在云电脑上的 Claude Code。
 
@@ -321,7 +321,7 @@ Orca 在 1.4.223 的发布说明里自己写了：当前的 Remote Server 仍是
 
 定时任务有一笔隐性浪费：每天到点准时叫醒一次大模型，哪怕项目里什么都没变。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/010.jpg)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/010.webp)
 
 Orca 左侧的“自动化”就是定时任务，可以按小时、每天、工作日、每周来排。它有一个很省钱的设计，叫探针：到点以后先跑一个很轻的检查，比如“项目里有没有新改动”，有才叫醒模型，没有就记一次“已跳过”，一分额度不花。
 
@@ -361,7 +361,7 @@ Orca 左侧的“自动化”就是定时任务，可以按小时、每天、工
 
 所有选择都服从一个原则：最短可靠路径。能直接完成，就不搭流程；能改局部，就不推倒重来；一个会话能解决，就不开编排。
 
-![](../images/copperforge-orca-multi-agent-orchestration-guide/011.png)
+![](../images/copperforge-orca-multi-agent-orchestration-guide/011.webp)
 
 需求还没想清楚的时候，别上编排。编排管分工和追踪，管不了“到底要做什么”，派三个 Agent 只会得到三份不同的误解。
 

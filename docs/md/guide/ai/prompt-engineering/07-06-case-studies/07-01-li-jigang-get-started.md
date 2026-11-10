@@ -8,7 +8,7 @@ source: "微信公众号"
 
 这两天终于把逐字稿整理出来分享给大家！
 
-![](../images/li-jigang-start-hero.png)
+![](../images/li-jigang-start-hero.webp)
 
 >
 
@@ -28,7 +28,7 @@ source: "微信公众号"
 
 # **二、如何写好Prompt？**
 
-![](../images/li-jigang-start-2.png)
+![](../images/li-jigang-start-2.webp)
 
 对于如何写好Prompt，我理解有三部分构成：
 
@@ -94,7 +94,7 @@ source: "微信公众号"
 
 # **三、如何快速写好初稿？**
 
-![](../images/li-jigang-start-4.png)
+![](../images/li-jigang-start-4.webp)
 
 关于我之前写的那些prompt，它们如何快速生产，整个流程大概怎么做的？
 
@@ -132,7 +132,7 @@ source: "微信公众号"
 
 # **四、LLM在进步，人能退到哪？**
 
-![](../images/li-jigang-start-3.png)
+![](../images/li-jigang-start-3.webp)
 
 最近我一直在思考的问题就是，大语言模型一直在进步，能力一直在增强，人能退到哪？
 

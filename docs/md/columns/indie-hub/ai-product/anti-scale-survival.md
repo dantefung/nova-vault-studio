@@ -74,15 +74,15 @@ url: "https://mp.weixin.qq.com/s/KO1SQbvuKMvor2YbWOFm8g"
 
 这种“反规模化生存”的策略，具体有哪些方向，我们看这张表，行业名称只是举例子，只要满足特征，没提到的行业也可以运用：
 
-![image](./images/001.jpeg)
+![image](images/001.webp)
 
 还有一份执行要点，可以结合咱们的图文版《案例库》中提到过的一些创业/副业/自由职业的项目攻略来实操，注意以大写A字打头的案例编号：
 
-![image](./images/002.jpeg)
+![image](images/002.webp)
 
 接下来是一份自检清单，方便对照自身：
 
-![image](./images/003.jpeg)
+![image](images/003.webp)
 
 ### 结语
 

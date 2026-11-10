@@ -30,13 +30,13 @@ coverImage: "../images/simon-ai-hot-topic-long-video-1-08m-views/001.jpg"
 | 9 月 15 日 | “尸皮针” | 108 万 |
 | 9 月 16 日 | 月付与金融营销新规 | 49 万
 
-![9 月 11—17 日的视频号后台总览。](../images/simon-ai-hot-topic-long-video-1-08m-views/002.jpg)
+![9 月 11—17 日的视频号后台总览。](../images/simon-ai-hot-topic-long-video-1-08m-views/002.webp)
 
 从 9 月 11 日到 17 日，整整 7 天，后台总播放量跑出 258 万，净增关注约 1.2 万。其中爆发最猛的，就是 14 到 16 日这三天，涨粉 9,149
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/003.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/003.webp)
 
-![百万播放的一条](../images/simon-ai-hot-topic-long-video-1-08m-views/004.jpg)
+![百万播放的一条](../images/simon-ai-hot-topic-long-video-1-08m-views/004.webp)
 
 这些视频，没有出镜，没有棚拍，也没有团队。具体的资料挖掘、脚本文案和音画合成全由 AI 跑完，快则 20 分钟出一期，慢则 1 小时。我做的事情其实很明确：做选题的把关者，在关键节点拍板，确认无误后分发。
 
@@ -88,7 +88,7 @@ coverImage: "../images/simon-ai-hot-topic-long-video-1-08m-views/001.jpg"
 
 结果完全出乎意料。在没有旧规则约束的情况下，它检索并匹配出来的画面，与口播内容的贴合度极高，很多以前我认为需要极高人工干预才能卡准的具象素材，它自己抓取并编排得非常自然。
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/005.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/005.webp)
 
 画面示例：《电视机顶盒》制作版 00:22。相关素材与旁白一起解释“为什么还需要一个盒子”，画面同时保留素材出处。此图用于展示当前画面组织方式，不是旧版与新版的对照实验。
 
@@ -167,7 +167,7 @@ AI 的真正价值，就在于把查原始卷宗、核对数据、做画面的�
 
 此时要么把切角收缩为“不同克重与乳脂含量的规格差价分析”，要么继续补充一手财报和行业研报。我的生死及格线是：看完大纲，我能不能用一句大白话向普通人讲明白“看完这个视频你能彻底懂什么”。 如果得到的只有一句“你会觉得这事很离谱”，这种纯情绪题目我坚决不做。
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/006.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/006.webp)
 
 选题案例：野人先生冰淇淋。9 月 14 日发布，截图时累计播放 45.7 万。
 
@@ -179,7 +179,7 @@ AI 的真正价值，就在于把查原始卷宗、核对数据、做画面的�
 
 框死边界，AI 智能体就会调用浏览器查原始文档、跑语音合成、卡着视觉轴渲染视频。每一步的产物必须扎实承接上一阶段——信源一旦有假，文案全盘皆输；文案讲不通，画面做再炫也是工业垃圾。
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/007.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/007.webp)
 
 图解示例：《电视机顶盒》制作版 06:22。把需要比较的数据放在同一画面，配合旁白呈现，并保留来源标注。
 
@@ -209,7 +209,7 @@ AI 的真正价值，就在于把查原始卷宗、核对数据、做画面的�
 
 很多在短视频平台突然火起来的内容，追溯源头其实是几年前的旧案。如果是旧事新提，必须点明为什么今天被再次审视，绝不能把三年前的事情当作今天刚发生的社会新闻来解说。
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/008.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/008.webp)
 
 热点选题案例：月付与金融营销新规。9 月 16 日发布，截图时累计播放 49 万。
 
@@ -219,7 +219,7 @@ AI 的真正价值，就在于把查原始卷宗、核对数据、做画面的�
 
 但请记住：视野放得越大，论据必须抓得越稳。 一个小区的特例绝不能草率推论为全行业的潜规则，不要通篇空话连篇。
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/009.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/009.webp)
 
 生活消费选题案例：校园订奶。9 月 11 日发布，截图时累计播放 16.4 万。
 
@@ -229,7 +229,7 @@ AI 的真正价值，就在于把查原始卷宗、核对数据、做画面的�
 
 很多自媒体搜了一百篇文章，其实全在洗稿同一家通稿，这叫“无效信息循环”。真正的深度，是把被所有人忽略的附件和备注翻出来给观众看。 如果查证到底发现事实证据链断裂，请大方承认“目前公开资料无法断定”，切忌为了耸人听闻去脑补内幕。
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/010.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/010.webp)
 
 证据呈现示例：《电视机顶盒》制作版 02:37。原文节选放大后高亮对应信息，画面保留报道日期与出处，方便观众区分原文和解说。
 
@@ -259,7 +259,7 @@ AI 的真正价值，就在于把查原始卷宗、核对数据、做画面的�
 
 目前给我正反馈最强烈的平台。9 月 11 日到 17 日，258 万播放直接带来了 1.2 万净增关注，9 月 16 日单日甚至狂揽 4467 个新粉。
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/011.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/011.webp)
 
 账号每日表现明细，可对应查看播放、分享与关注数据。
 
@@ -287,7 +287,7 @@ AI 的真正价值，就在于把查原始卷宗、核对数据、做画面的�
 
 做深度舆论拆解，品牌公关投诉几乎是不可避免的。像荣耀锁屏广告和学生牛奶这两期高播放视频，上线后就都收到了品牌方投诉。
 
-![](../images/simon-ai-hot-topic-long-video-1-08m-views/012.jpg)
+![](../images/simon-ai-hot-topic-long-video-1-08m-views/012.webp)
 
 锁屏广告争议选题的发布记录，截图时累计播放 29.2 万。此图展示播放数据，不是投诉处理凭证。
 

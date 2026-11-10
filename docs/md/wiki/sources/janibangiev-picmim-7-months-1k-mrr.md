@@ -13,7 +13,7 @@ coverImage: "../images/janibangiev-picmim-7-months-1k-mrr/001.jpg"
 
 <!-- more -->
 
-![](../images/janibangiev-picmim-7-months-1k-mrr/002.png)
+![](../images/janibangiev-picmim-7-months-1k-mrr/002.webp)
 
 One pivot, multiple redesigns, over a million impressions, thousands spent on failed marketing experiments, and a lot of lessons learned.
 

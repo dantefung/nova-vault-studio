@@ -211,15 +211,15 @@ marketing/
 
 每条 API 连接都需要一个集成或脚本来处理请求。智能体还需要明确的指令，知道何时调用它、它又能做什么。
 
-![](../images/su-vibe-marketing-translation/002.jpg)
+![](../images/su-vibe-marketing-translation/002.webp)
 
 你不需要自己搭建每一条连接。
 
-![](../images/su-vibe-marketing-translation/003.jpg)
+![](../images/su-vibe-marketing-translation/003.webp)
 
 我也会用 `/last30days` 调研某个主题最近的讨论和进展。
 
-![](../images/su-vibe-marketing-translation/004.jpg)
+![](../images/su-vibe-marketing-translation/004.webp)
 
 它通过底层 API 与工具，把 X、Reddit、YouTube 和网页等多个来源的调研合并起来。具体能使用哪些来源，取决于你的配置与凭据。这里是它的 [Skill 文档](https://github.com/mvanhorn/last30days-skill)。
 
@@ -270,7 +270,7 @@ API Key 应该放在哪里？
 
 把这些发现与你的产品信息和历史活动结果结合起来，智能体才有足够扎实的材料去提出营销活动角度。
 
-![](../images/su-vibe-marketing-translation/005.jpg)
+![](../images/su-vibe-marketing-translation/005.webp)
 
 延伸阅读：[原始 X 帖子](https://x.com/i/web/status/2085714361222369608)
 
@@ -441,7 +441,7 @@ Campaign ID 和 Ad ID 用来识别具体运行了什么；链接上的追踪参�
 
 最终计划应该说清楚几件事：
 
-![](../images/su-vibe-marketing-translation/006.jpg)
+![](../images/su-vibe-marketing-translation/006.webp)
 
 计划与上下文文件就绪后，可以从下面这条指令开始：
 
@@ -715,15 +715,15 @@ Slack 里的 Hermes agent 就是一个例子。团队成员可以这样对它说
 
 同一只机器人还可以回答公司知识相关的问题，或者运行定时报告。消息会触发一种任务，时间表会触发另一种任务。
 
-![](../images/su-vibe-marketing-translation/007.jpg)
+![](../images/su-vibe-marketing-translation/007.webp)
 
 工作流可以留在主工作区里，也可以作为定时任务运行，或者成为专用机器人的一部分。如何选择，取决于这项工作需要以什么方式发生，以及需要你提供多少输入。
 
-![](../images/su-vibe-marketing-translation/008.jpg)
+![](../images/su-vibe-marketing-translation/008.webp)
 
 ## 你可以搭建的营销工作流
 
-![](../images/su-vibe-marketing-translation/009.jpg)
+![](../images/su-vibe-marketing-translation/009.webp)
 
 下面这些任务都适合搭建工作流。选择一个符合你当前工作量、也能获得所需数据的任务开始。
 

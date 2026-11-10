@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/wRCJqEZ7vXFzL_p2fkOizQ"
 
 <!-- more -->
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/001.jpg)
+![image](../../../wiki/images/doubao-work-personal-reading-system/001.webp)
 
 我一直觉得，不管是什么行业，获取行业资讯都是一件很重要的事情。
 
@@ -33,23 +33,23 @@ url: "https://mp.weixin.qq.com/s/wRCJqEZ7vXFzL_p2fkOizQ"
 
 采集就是用定时任务，这块我上篇文章就讲过。我现在把关注的播客、博主、Newsletter，全部用豆包工作来采集。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/002.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/002.webp)
 
 存储就是，把定时抓取的内容都存在飞书文档、飞书多维表格里。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/003.jpg)
+![image](../../../wiki/images/doubao-work-personal-reading-system/003.webp)
 
 展示用豆包工作基于上面多维表搭建一个公开的页面。发送下面提示词，用 AI 根据多维表格存的数据来搭建。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/004.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/004.webp)
 
 最后得到一个在任何终端都能看的到的信息流。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/005.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/005.webp)
 
 点击就可以看文章的标题、摘要、原文链接。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/006.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/006.webp)
 
 ---
 
@@ -74,7 +74,7 @@ url: "https://mp.weixin.qq.com/s/wRCJqEZ7vXFzL_p2fkOizQ"
 
 定时任务创建好之后，它会每天定时去发送任务设置好的提示词，比如下面这个对话。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/007.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/007.webp)
 
 我做了几个信息抓取的定时任务：
 - 每 6 小时抓取全网 AI 热点，包括创业者、博主、大模型公司官方的推文、博客，以及参与者发的文章等。
@@ -83,11 +83,11 @@ url: "https://mp.weixin.qq.com/s/wRCJqEZ7vXFzL_p2fkOizQ"
 
 关于这些定时任务跑的 skill 我也开源在这里了：`SpaceZephyr/read-buddy`
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/008.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/008.webp)
 
 我把定时任务都迁移到了这豆包工作里，一切体验都 All in one。我可以随时随地，打开手机上的飞书就能看到抓取的内容，保存到了飞书文档里。我还可以继续和豆包工作对话，进一步研究。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/009.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/009.webp)
 
 所有对话内容支持多端同步，覆盖豆包工作 PC 端，和豆包 PC/网页/手机。比如早上通勤时刷到一篇有意思的播客摘要，我可以直接在手机上追问豆包："这期播客的嘉宾背景是什么"，不用等到回到电脑前。
 
@@ -116,11 +116,11 @@ url: "https://mp.weixin.qq.com/s/wRCJqEZ7vXFzL_p2fkOizQ"
 
 多维表格最香的一点，是它自带的页面搭建功能。你不用自己做前端，直接选几个字段，用 AI 就能把枯燥的表格变成一个卡片式阅读页面。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/010.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/010.webp)
 
 我做的阅读页面是两列卡片布局：每张卡片左边是封面，右边是标题、来源标签和一句话摘要。内容完全是为我定制的。
 
-![image](../../../wiki/images/doubao-work-personal-reading-system/011.png)
+![image](../../../wiki/images/doubao-work-personal-reading-system/011.webp)
 
 还可以按分类筛选，今天只想看模型动态就点"模型"，想补深度阅读就切到"论文"。按时间排序就是每日日报，按分类排序就是主题合集。
 

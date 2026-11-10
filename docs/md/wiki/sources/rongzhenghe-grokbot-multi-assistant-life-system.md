@@ -53,7 +53,7 @@ Horizon-skillservice — 每天帮我挖 GitHub skills，并沉淀成可分享�
 
 （附图）
 
-![现在的 bots 分工](../images/rongzhenghe-grokbot-multi-assistant-life-system/002.jpg)
+![现在的 bots 分工](../images/rongzhenghe-grokbot-multi-assistant-life-system/002.webp)
 
 Horizon-GPA 和 Horizon-code 的分工没变，但轨道更硬了
 
@@ -81,9 +81,9 @@ skillservice 每天中午左右会给我一份 GitHub skill digest。能发的�
 
 （附图）
 
-![小红书 → 视频 → 抖音 的流水线](../images/rongzhenghe-grokbot-multi-assistant-life-system/003.jpg)
+![小红书 → 视频 → 抖音 的流水线](../images/rongzhenghe-grokbot-multi-assistant-life-system/003.webp)
 
-![](../images/rongzhenghe-grokbot-multi-assistant-life-system/004.jpg)
+![](../images/rongzhenghe-grokbot-multi-assistant-life-system/004.webp)
 
 我学到的一件比工具更重要的事
 

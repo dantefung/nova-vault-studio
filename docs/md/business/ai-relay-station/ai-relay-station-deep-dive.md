@@ -5,7 +5,7 @@ source: "拟像AIGC"
 url: "https://mp.weixin.qq.com/s/GDZHJaaohJRw540_IzcEAA"
 ---
 
-![封面图](./images/ai-relay-station-deep-dive/cover.jpg)
+![封面图](images/ai-relay-station-deep-dive/cover.webp)
 
 # 我花了半个月，把AI中转站这门生意从头到尾扒透
 

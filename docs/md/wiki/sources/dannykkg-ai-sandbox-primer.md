@@ -7,7 +7,7 @@ url: "https://x.com/dannykkg/status/2099996899898208405"
 ---
 # AI 的工作间：Sandbox 入门
 
-![](../images/dannykkg-ai-sandbox-primer/001.jpg)
+![](../images/dannykkg-ai-sandbox-primer/001.webp)
 
 # 小白从零学习 Sandbox
 

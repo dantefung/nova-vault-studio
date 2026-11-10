@@ -21,11 +21,11 @@ and ultimately led to us becoming one of the biggest apps in the space
 
 going toe to toe with $100M+ app studios.
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/002.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/002.webp)
 
 and got us 3 youtube plaques and a $1.7M/YR app studio
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/003.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/003.webp)
 
 SCALING TO 6,000 VIDEOS/MO
 
@@ -36,7 +36,7 @@ To scale to 6,000 videos/mo you need 2 steps
 
 They both work hand and hand
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/004.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/004.webp)
 
 Content machine will be in charge of generating
 
@@ -84,7 +84,7 @@ in 3 months we spent close to $100,000 on this team
 
 but the return was basically 5X that
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/005.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/005.webp)
 
 the main reason we spent so much money is because
 
@@ -96,7 +96,7 @@ sacrifice for the sake of speed.
 
 And it paid off:
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/006.png)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/006.webp)
 
 we did not jump on calls with the creators
 
@@ -112,7 +112,7 @@ Every week we would fire 5-10 creators
 
 Until we were left with a team of 15 killers
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/007.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/007.webp)
 
 we did it this way because we had viral formats that
 
@@ -162,7 +162,7 @@ And inventing formats.
 
 we handed them everything,
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/008.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/008.webp)
 
 - Daily scripts,
 
@@ -194,7 +194,7 @@ And generate over 150M views in 3 months.
 
 Culture
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/009.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/009.webp)
 
 This one is not often talked about but another thing
 
@@ -216,7 +216,7 @@ at other companies offers
 
 here is a guide to follow for a great culture:
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/010.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/010.webp)
 
 and thats it, that was our whole content machine
 
@@ -295,7 +295,7 @@ but with an AI character instead of a creator
 
 which cost us 10x less
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/011.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/011.webp)
 
 ZACK D FILMS REPOSTS
 
@@ -321,7 +321,7 @@ again something you can replicate quite easily
 
 with a tool like Postiz by just telling claude
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/012.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/012.webp)
 
 AI SLOP STORIES
 
@@ -370,7 +370,7 @@ thats where Postiz comes in
 
 - and then Postiz posts it
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/013.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/013.webp)
 
 Postiz posts to every platform at once
 
@@ -398,7 +398,7 @@ connect it once
 
 and then set up a routine like this one:
 
-![](../images/ernestosoftware-ugc-content-machine-6000-videos/014.jpg)
+![](../images/ernestosoftware-ugc-content-machine-6000-videos/014.webp)
 
 every morning your agent takes the new videos
 

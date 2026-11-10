@@ -15,7 +15,7 @@ coverImage: "../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/0
 
 ### 开头展示成果：
 
-![3 天新号 500+粉](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/002.jpg)
+![3 天新号 500+粉](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/002.webp)
 
 不会运营不会起号？
 
@@ -67,7 +67,7 @@ coverImage: "../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/0
 
 比如这种，已经被验证的爆款 Skill。
 
-![](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/003.jpg)
+![](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/003.webp)
 
 ###
 
@@ -81,7 +81,7 @@ coverImage: "../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/0
 
 请记住，你是高贵的创作者，你卖的不是代码不是压缩包，是授权大家二创的资格。
 
-![](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/004.jpg)
+![](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/004.webp)
 
 原推文放这里，感兴趣的可以看看
 
@@ -105,13 +105,13 @@ https://x.com/clamm3y/status/2107465275344138384
 
 （这种帖子可以干到 1.4w 收藏，你可以想象路过的人每个人给你十块钱）
 
-![](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/005.jpg)
+![](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/005.webp)
 
 小红书很吃审美。一句话：只要你审美高级，天价也有人买单。
 
 图文怎么起：直接截图仓库，AI 文案
 
-![](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/006.jpg)
+![](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/006.webp)
 
 把最牛逼的效果放在前三秒和封面，让他看完不求你不行！！
 
@@ -197,13 +197,13 @@ Vibe Coding 网页可以看这些。
 
 打开官网[https://viceme.cn/](https://viceme.cn/)，点右上角头像，在菜单里找到“我是创作者”，进入创作者中心。
 
-![图 1 右上角头像菜单中的我是创作者](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/007.png)
+![图 1 右上角头像菜单中的我是创作者](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/007.webp)
 
 第 2 步 发布作品
 
 在左侧找到“作品管理”，点击右上角“发布作品”。
 
-![图 2 作品管理中的发布作品入口](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/008.png)
+![图 2 作品管理中的发布作品入口](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/008.webp)
 
 第 3 步 选择上传方式
 
@@ -211,37 +211,37 @@ Vibe Coding 网页可以看这些。
 
 已有本地文件或压缩包，就选本地项目；作品在 GitHub，则按页面授权和读取流程处理。完成后检查作品介绍和价格，再发布。（网页作品记得先在平台包成 Skill，再来贩卖）
 
-![图 3 按作品来源选择发布方式](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/009.png)
+![图 3 按作品来源选择发布方式](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/009.webp)
 
 第 4 步 回到作品管理导出发布包
 
 发布好以后回到作品管理，找到对应作品的“去发布”。同一页也能查看作品的运营数据。
 
-![图 4 去发布入口及运营数据位置](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/010.png)
+![图 4 去发布入口及运营数据位置](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/010.webp)
 
 在导出选项里选择“导出小红书发布包”。这里同时有通用发布包和原始包，跟着做时别选错。
 
 把导出的压缩包保存好，下一步要上传。
 
-![图 5 选择导出小红书发布包](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/011.png)
+![图 5 选择导出小红书发布包](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/011.webp)
 
 第 5 步 打开小红书创作者服务
 
 在小红书网页端点“更多”，进入“创作中心”，再找到“创作者服务”。下图按菜单展开顺序放在一起。
 
-![图 6 从更多进入创作中心 再打开创作者服务](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/012.png)
+![图 6 从更多进入创作中心 再打开创作者服务](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/012.webp)
 
 第 6 步 上传到 Red Skill
 
 进入创作者服务后，在左侧 Builder hub 里找到 Red Skill，点击右上角“上传 Skill”，上传刚才导出的发布包。
 
-![图 7 Builder hub 下的 Red Skill 和上传入口](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/013.png)
+![图 7 Builder hub 下的 Red Skill 和上传入口](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/013.webp)
 
 第 7 步 检查简介与介绍
 
 检查简介和 Skill 介绍，确认用户能看懂作品用途，也确认展示的是适合公开阅读的内容。赚钱不要太直接了。。
 
-![图 8 上传后检查简介和 Skill 介绍](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/014.png)
+![图 8 上传后检查简介和 Skill 介绍](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/014.webp)
 
 第 8 步 在笔记里甩钩子 让别人用起来
 
@@ -249,7 +249,7 @@ Vibe Coding 网页可以看这些。
 
 看这张图就懂了：前三秒留人，正文甩钩子，卡片挂好，评论置顶。
 
-![图 9 正文带使用入口 置顶评论再甩一次钩子](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/015.jpg)
+![图 9 正文带使用入口 置顶评论再甩一次钩子](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/015.webp)
 
 ① 先让他想要同款
 
@@ -271,11 +271,11 @@ Vibe Coding 网页可以看这些。
 
 给你看一下别人用的时候是咋样的。安装、调用、付款，大概就是下面这个过程。
 
-![图 10 别人使用 Skill 时的安装和支付入口](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/016.jpg)
+![图 10 别人使用 Skill 时的安装和支付入口](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/016.webp)
 
 这个过程你不用管。有人买单之后，你只知道微信公众号哐哐给你弹支付成功提醒，就完事儿了。
 
-![订单支付成功提醒](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/017.jpg)
+![订单支付成功提醒](../images/yooee-xiaohongshu-zero-followers-monetization-blueprint/017.webp)
 
 ### 3.3 坐等着收钱
 

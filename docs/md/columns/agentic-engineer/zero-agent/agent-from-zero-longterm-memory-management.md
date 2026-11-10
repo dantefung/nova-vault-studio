@@ -240,7 +240,7 @@ Hindsight 并不是简单地保存整段对话文本，而是将原始内容、�
 
 Hindsight 对这段对话进行处理，将原始内容保存到 `documents`，并提取出相关记忆：
 
-![Hindsight 事实提取与实体关联过程](./images/agent-from-zero-longterm-memory-management/001.png)
+![Hindsight 事实提取与实体关联过程](images/agent-from-zero-longterm-memory-management/001.webp)
 
 这里需要区分两个关键概念：
 - **Entity**：是「谁或什么」；
@@ -253,7 +253,7 @@ Entity 本身并不表达完整事实。只有将实体与 Memory Unit 关联起
 
 此时是一个全新的 Session，Agent 上下文中并没有 Session A 的聊天记录。Hindsight 执行 `recall`，从已有记忆图谱中检索出与 Frank 相关的事实：
 
-![Hindsight 跨 Session 事实召回与上下文注入](./images/agent-from-zero-longterm-memory-management/002.png)
+![Hindsight 跨 Session 事实召回与上下文注入](images/agent-from-zero-longterm-memory-management/002.webp)
 
 由此可见，**跨 Session 记忆的关键，不是 Agent 记住了 Session A 的全部原始文本，而是 Hindsight 将 Session A 转化为持久化的结构化事实图谱，并在 Session B 中按需重新检索注入。**
 

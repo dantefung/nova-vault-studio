@@ -35,7 +35,7 @@ coverImage: "../images/0xding-ankole-agent-os-for-teams/001.jpg"
 
 只有文件夹的套壳产品跑得了 grep，却过不了任何并发与权限考验。群聊外挂 MCP 的机器人一路烧着前沿模型 Token，却建不出持久业务状态、零 Token 应用，也给不了 DuckDB 和 Claude Code 所需的本地文件访问。第 2 至第 6 节将逐层拆解这套五层架构：
 
-![Ankole 五层架构：工作空间 / 控制面 / 沙箱](../images/0xding-ankole-agent-os-for-teams/005.jpg)
+![Ankole 五层架构：工作空间 / 控制面 / 沙箱](../images/0xding-ankole-agent-os-for-teams/005.webp)
 
 ## 2. 共享状态与可塑快路径
 
@@ -90,7 +90,7 @@ UNIX 在五十年前就用 setuid 解开了这道题。普通用户运行 passwd
 
 我们通过异步 Agent 间通信（`A2A`）解开了这个两难困局。在同一请求内直接调用子 Agent 工具，子 Agent 依然运行在调用方的进程与权限范围内；而 A2A 调用会跨越真实的身份边界，进入 @legal 自身隔离的会话。采购在文档侧边栏让个人助理请法务核查违约责任与账期条款；个人助理仅向 @legal 授予这份草稿的「仅评论」权限，随即发出异步 A2A 请求，采购自己的聊天窗口完全不受阻塞。@legal 在独立的对等会话中以 @legal 自身的权限唤醒，对照法务纠纷档案审阅共享草稿，看不到采购名下任何其他私人文件。如果缺少验收期限之类的商务条件，@legal 会发出一张简短的追问卡，确认后将段落批注直接写回草稿：
 
-![](../images/0xding-ankole-agent-os-for-teams/002.jpg)
+![](../images/0xding-ankole-agent-os-for-teams/002.webp)
 
 为防止合同草稿里暗藏恶意提示词诱导 @legal 吐出原始案卷，控制面在每个 A2A 会话外围加上了四道代码级硬护栏。传入的 A2A 载荷与共享草稿一律包裹在不可信数据标签内，无法覆盖 @legal 的系统规则。控制面在检索记忆时照常核验房间受众，仅挂载法务自身的档案库，并全量记录每一次 A2A 请求与回复。在这四道护栏之内，@legal 依靠岗位指令而非脆弱的字节过滤，将判例经验转化为合同修改意见。这与真人法务顾问的做法如出一辙：翻完内部诉讼卷宗后建议把账期压到 15 天，但绝不会把原始案卷交出去。
 
@@ -158,7 +158,7 @@ UNIX 在五十年前就用 setuid 解开了这道题。普通用户运行 passwd
 
 我们基于 Elixir / OTP 构建控制面。它底层的 Erlang 虚拟机从诞生第一天起，就能同时运行数百万个微秒级拉起、内存彼此隔离的有状态进程（Actor）：
 
-![](../images/0xding-ankole-agent-os-for-teams/003.jpg)
+![](../images/0xding-ankole-agent-os-for-teams/003.webp)
 
 当会话安静下来时，其状态直接落盘存入 Postgres，内存占用归零。一旦聊天消息、A2A 回复或 Shopify Webhook 抵达，控制面立即为该会话唤醒专属 Actor 进程，逐条串行处理事件而无锁竞争，空闲后再次休眠落盘。控制面节点与活跃沙箱保持持久化双工连接以流式传输命令输出。遇到滚动发版时，新拉起的会话 Actor 会从 Postgres 重新加载已保存的任务句柄，直接在线接管沙箱内仍在运行的命令。
 
@@ -176,7 +176,7 @@ UNIX 在五十年前就用 setuid 解开了这道题。普通用户运行 passwd
 
 每个沙箱配有一块用于 git 检出和 node_modules 构建的高速本地临时盘，同时基于 Linux FUSE 挂载一套虚拟文件系统（VFS）。控制面里的记录在沙箱内部呈现为普通本地目录，并内置写入背压机制，防止海量碎文件风暴冲垮共享存储：
 
-![](../images/0xding-ankole-agent-os-for-teams/004.jpg)
+![](../images/0xding-ankole-agent-os-for-teams/004.webp)
 
 在沙箱内部，FUSE 守护进程挂载三个按权限限定范围的目录。在工作空间挂载目录中，协同文档呈现为可编辑的 Markdown 文件，附件呈现为普通文件，结构化数据表则挂载为只读快照，供 DuckDB 与 pandas 以本地磁盘速度扫描。向表内写回数据统一走带校验的导入或补丁命令，强制执行第 2.1 节所述的组合唯一键、列类型与字段版本校验。与此同时，记忆目录与 Skill 及规则目录一律只读挂载，确保沙箱脚本绝不可能绕过出处核验或篡改线上规则。FUSE 层按 提问者 ∩ Agent ∩ 房间受众 动态过滤记忆挂载，而同一 Agent 的并发会话则共享同一份本地常热的 Skill 与 AGENTS.md 磁盘缓存。
 

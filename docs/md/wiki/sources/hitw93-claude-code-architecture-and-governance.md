@@ -23,13 +23,13 @@ coverImage: "../images/hitw93-claude-code-architecture-and-governance/001.jpg"
 
 我觉得最直接的理解方式，是把 Claude Code 拆成六层来看：
 
-![](../images/hitw93-claude-code-architecture-and-governance/002.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/002.webp)
 
 只强化其中一层，系统就会失衡，CLAUDE.md 写太长，上下文先污染自己了；工具堆太多了，选择就搞不清楚了；subagents 开得到处都是，状态就漂移了；验证这步跳过了，出了问题根本不知道是哪里挂的。
 
 ## 1. 它底层是怎么运行的
 
-![](../images/hitw93-claude-code-architecture-and-governance/003.png)
+![](../images/hitw93-claude-code-architecture-and-governance/003.webp)
 
 Claude Code 的核心不是“回答”，而是一个反复循环的代理过程：
 
@@ -45,13 +45,13 @@ Claude Code 的核心不是“回答”，而是一个反复循环的代理过�
 
 ### 真正要关注的五个层面：
 
-![](../images/hitw93-claude-code-architecture-and-governance/004.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/004.webp)
 
 对着这几个面看，很多问题就好排查了。结果不稳定，查上下文加载顺序，不是模型的事；自动化失控，看控制层有没有设计，不是 agent 太主动；长会话质量下降，中间产物把上下文污染了，换个新会话比反复调 prompt 有用得多。
 
 ## 2. 概念边界：MCP / Plugin / Tools / Skills / Hooks / Subagents
 
-![](../images/hitw93-claude-code-architecture-and-governance/005.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/005.webp)
 
 简单记：给 Claude 新动作能力用 Tool/MCP，给它一套工作方法用 Skill，需要隔离执行环境用 Subagent，要强制约束和审计用 Hook，跨项目分发用 Plugin。
 
@@ -63,7 +63,7 @@ Claude Code 的核心不是“回答”，而是一个反复循环的代理过�
 
 真实的上下文成本构成
 
-![](../images/hitw93-claude-code-architecture-and-governance/006.png)
+![](../images/hitw93-claude-code-architecture-and-governance/006.webp)
 
 Claude Code 的 200K 上下文并非全部可用：
 
@@ -85,7 +85,7 @@ Claude Code 的 200K 上下文并非全部可用：
     └── 工具调用结果
 ```
 
-![](../images/hitw93-claude-code-architecture-and-governance/007.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/007.webp)
 
 一个典型 MCP Server（如 GitHub）包含 20-30 个工具定义，每个约 200 tokens，合计 4,000-6,000 tokens。接 5 个 Server，光这部分固定开销就到了 25,000 tokens（12.5%）。我第一次算出这个数字的时候，真没想到有这么多，在要读大量代码的场景，这 12.5% 真的很关键。
 
@@ -108,7 +108,7 @@ Claude Code 的 200K 上下文并非全部可用：
 - 使用 .claude/rules/ 做路径/语言规则，不让根 CLAUDE.md 承担所有差异
 - 长会话主动用 /context 观察消耗，不要等系统自动压缩后再补救
 
-![](../images/hitw93-claude-code-architecture-and-governance/008.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/008.webp)
 
 - 任务切换优先 /clear，同一任务进入新阶段用 /compact
 - 把 Compact Instructions 写进 CLAUDE.md，压缩后必须保留什么由你控制，不由算法猜
@@ -137,7 +137,7 @@ Claude 真正需要知道的就是「过了还是挂了，挂在哪里」，其�
 
 默认压缩算法按“可重新读取”判断，早期的 Tool Output 和文件内容会被优先删掉，顺带把架构决策和约束理由也一起扔了。两小时后再改，可能根本不记得两小时前定了什么，莫名其妙的 Bug 就是这么来的。
 
-![](../images/hitw93-claude-code-architecture-and-governance/009.png)
+![](../images/hitw93-claude-code-architecture-and-governance/009.webp)
 
 解决方案就是在 CLAUDE.md 里写明：
 
@@ -161,7 +161,7 @@ When compressing, preserve in priority order:
 
 ### Plan Mode 的工程价值
 
-![](../images/hitw93-claude-code-architecture-and-governance/010.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/010.webp)
 
 Plan Mode 的核心是把探索和执行拆开，探索阶段不动文件，确认方案后再执行：
 
@@ -169,7 +169,7 @@ Plan Mode 的核心是把探索和执行拆开，探索阶段不动文件，确�
 - Claude 可以先澄清目标和边界，再提交具体方案
 - 执行成本在计划确认之后才发生
 
-![](../images/hitw93-claude-code-architecture-and-governance/011.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/011.webp)
 
 对于复杂重构、迁移、跨模块改动，这样做比“急着出代码”有用多了，在错误假设上越跑越偏的情况会少很多。按两下 Shift+Tab 进入 Plan Mode，进阶玩法是开一个 Claude 写计划，再开一个 Codex 以“高级工程师”身份审这个计划，让 AI 审 AI，效果很好。
 
@@ -308,7 +308,7 @@ description: Use for PR reviews with focus on correctness.
 
 ### 好工具 vs 坏工具
 
-![](../images/hitw93-claude-code-architecture-and-governance/012.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/012.webp)
 
 几个实用设计原则
 
@@ -319,7 +319,7 @@ description: Use for PR reviews with focus on correctness.
 
 ### 从 Claude Code 内部工具演进学到的
 
-![](../images/hitw93-claude-code-architecture-and-governance/013.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/013.webp)
 
 我看到 Claude Code 团队内部工具的这段演进时，感觉还挺有意思。像这种需要在任务中途停下来问用户的场景，他们前后试了三种做法：
 
@@ -329,7 +329,7 @@ description: Use for PR reviews with focus on correctness.
 
 下面这张图刚好能解释，为什么第三版明显更稳：
 
-![](../images/hitw93-claude-code-architecture-and-governance/014.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/014.webp)
 
 左边（markdown 自由输出）太松，模型格式随意、外层解析脆弱；右边（ExitPlanTool 参数）太死，等到退出计划阶段提问已经太晚；AskUserQuestion 独立工具落在中间，结构化且随时可调用，是这三者里最稳定的设计。
 
@@ -337,7 +337,7 @@ description: Use for PR reviews with focus on correctness.
 
 Todo 工具的演进
 
-![](../images/hitw93-claude-code-architecture-and-governance/015.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/015.webp)
 
 早期用 TodoWrite 工具 + 每 5 轮插入提醒让 Claude 记住任务。随着模型变强，这个工具反而成了限制，Todo 提醒让 Claude 认为必须严格遵循，无法灵活修改计划。挺有意思的教训：当初加这个工具是因为模型不够强，模型变强之后它反而变成了枷锁。值得过段时间回来检查一下，当初加的限制还成不成立。
 
@@ -358,7 +358,7 @@ Hooks 很容易被当成“自动运行的脚本”，但我自己用下来，�
 
 当前支持的 Hook 点
 
-![](../images/hitw93-claude-code-architecture-and-governance/016.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/016.webp)
 
 ### 适合 vs 不适合放到 Hooks 的
 
@@ -394,7 +394,7 @@ Hooks 很容易被当成“自动运行的脚本”，但我自己用下来，�
 
 ### Hooks：越早发现错误，越省时间
 
-![](../images/hitw93-claude-code-architecture-and-governance/017.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/017.webp)
 
 在 100 次编辑的会话中，每次节省 30-60 秒，累积节省 1-2 小时，还挺可观的。注意限制输出长度（| head -30），避免 Hook 输出反而污染上下文。如果不想在每条命令后面手动加截断，可以看看第 3 节提到的 RTK，它把这件事系统化了。
 
@@ -435,7 +435,7 @@ Claude Code 内置了三个：Explore（只读扫库，默认跑 Haiku 省成本
 
 ### 为缓存设计的 Prompt Layout
 
-![](../images/hitw93-claude-code-architecture-and-governance/018.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/018.webp)
 
 Prompt 缓存是按前缀匹配工作的，从请求开头到每个 cache_control 断点之前的内容都会被缓存。所以这里的顺序很重要：
 
@@ -461,7 +461,7 @@ Prompt 缓存是模型唯一的。假如你已经和 Opus 对话了 100K tokens�
 
 Compaction 的实际实现
 
-![](../images/hitw93-claude-code-architecture-and-governance/019.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/019.webp)
 
 上图是 Compaction（上下文压缩）的执行流程：左边是上下文快满时的状态，中间是 Claude Code 开一个 fork 调用，把完整对话历史喂给模型，加一句“Summarize this conversation”，这一步命中缓存所以只需 1/10 的价格，右边是压缩完之后，原来几十轮对话被替换成一段 ~20k tokens 的摘要，System + Tools 还在，再挂上之前用到的文件引用，腾出空间继续新的轮次。
 
@@ -521,7 +521,7 @@ Definition of done:
 
 ### 能力与治理
 
-![](../images/hitw93-claude-code-architecture-and-governance/020.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/020.webp)
 
 ```bash
 /mcp       # 管理 MCP 连接，检查 token 成本，断开闲置 server
@@ -564,7 +564,7 @@ CLAUDE.md 在我看来更像是你和 Claude 之间的协作契约，不是团�
 
 我自己的建议其实很简单，一开始甚至可以什么都不写。先用起来，等你发现自己老是在重复同一件事，再把它补进去。加法也不复杂，输入 # 可以把当前对话里的内容直接追加进 CLAUDE.md，或者直接告诉 Claude「把这条加到项目的 CLAUDE.md 里」，它会知道该改哪个文件。
 
-![](../images/hitw93-claude-code-architecture-and-governance/021.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/021.webp)
 
 ### 应该放什么
 
@@ -724,7 +724,7 @@ Project/
 
 ## 13. 常见反模式
 
-![](../images/hitw93-claude-code-architecture-and-governance/022.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/022.webp)
 
 ## 14. 配置健康检查
 
@@ -740,7 +740,7 @@ npx skills add tw93/claude-health -a claude-code -s health -g -y
 
 用 Claude Code 大概会经历三个阶段：
 
-![](../images/hitw93-claude-code-architecture-and-governance/023.jpg)
+![](../images/hitw93-claude-code-architecture-and-governance/023.webp)
 
 到了第三阶段，关注点会悄悄变掉，从「这个功能怎么用」变成「怎么让 agent 在约束下自己跑起来」，两件事感觉差很多。
 

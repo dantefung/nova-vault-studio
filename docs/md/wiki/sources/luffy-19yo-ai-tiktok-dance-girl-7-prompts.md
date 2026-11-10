@@ -41,7 +41,7 @@ Twitter 适合看短内容，但很多 AI 经验，三两句话其实根本讲�
 
 有成功经验，也会有踩坑记录。感兴趣的话，欢迎来找我玩👇
 
-![](../images/luffy-19yo-ai-tiktok-dance-girl-7-prompts/002.png)
+![](../images/luffy-19yo-ai-tiktok-dance-girl-7-prompts/002.webp)
 
 文末还有一份更狠的：17 个板块、90+ 篇 AI 资料包，提示词、AI 绘画、Agent、AI 赚钱全在里面。
 
@@ -133,11 +133,11 @@ TikTok 和 Fanvue 都是海外平台，账号和收款按平台要求完成注�
 
 还有一份大礼包送给你👇
 
-![](../images/luffy-19yo-ai-tiktok-dance-girl-7-prompts/003.jpg)
+![](../images/luffy-19yo-ai-tiktok-dance-girl-7-prompts/003.webp)
 
 从提示词、AI 绘画、AI 视频，到 Agent、AI 赚钱、AI 学习路线，一共 17 大板块、90+ 篇资料，关注我的公众号后即可领取。
 
-![](../images/luffy-19yo-ai-tiktok-dance-girl-7-prompts/004.jpg)
+![](../images/luffy-19yo-ai-tiktok-dance-girl-7-prompts/004.webp)
 
 ## 相关页面
 

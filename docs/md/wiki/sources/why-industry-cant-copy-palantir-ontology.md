@@ -34,7 +34,7 @@ Palantir Ontology与严格意义上的工业本体论，并不是两套相互替
 
 图1结构示意
 
-![](../images/why-industry-cant-copy-palantir-ontology/001.png)
+![](../images/why-industry-cant-copy-palantir-ontology/001.webp)
 
 ### 1.哲学本体论（Philosophical Ontology）
 
@@ -62,13 +62,13 @@ Palantir Ontology与严格意义上的工业本体论，并不是两套相互替
 
 我们在这里构建一个通用的本体选择性抽象函数。设现实世界的全量物理与信息状态为X_{world}。系统需要完成的任务或特定的组织决策目标为G。本体并不试图去复制或逼近X_{world}，而是构造一个在目标G下的最小充分集表示：
 
-![](../images/why-industry-cant-copy-palantir-ontology/002.png)
+![](../images/why-industry-cant-copy-palantir-ontology/002.webp)
 
 其中，Phi_G是由决策目标G决定的选择、抽象与压缩函数。
 
 因此，一个合格本体的工程检验标准绝不是看它有多接近真实世界（O_G approx X_{world}是无效命题），而是看它在完成目标G时是否满足目标相关充分性（Goal-Relevant Sufficiency）。这可以进一步表达为在信息论框架下的互信息（Mutual Information）与计算治理成本的博弈模型：
 
-![](../images/why-industry-cant-copy-palantir-ontology/003.png)
+![](../images/why-industry-cant-copy-palantir-ontology/003.webp)
 
 其中：
 
@@ -124,7 +124,7 @@ Palantir的核心第一性原理，是通过对象、链接、行动和安全的
 
 图3结构示意
 
-![](../images/why-industry-cant-copy-palantir-ontology/004.png)
+![](../images/why-industry-cant-copy-palantir-ontology/004.webp)
 
 ## 第五章：Palantir架构逻辑的“四次核心转换”
 
@@ -150,7 +150,7 @@ Palantir将源系统中的数据库行、API响应、流媒体日志等，通过
 
 图4结构示意
 
-![](../images/why-industry-cant-copy-palantir-ontology/005.png)
+![](../images/why-industry-cant-copy-palantir-ontology/005.webp)
 
 ### 1.现实世界的全量战争状态：近乎无限维的混沌
 
@@ -196,7 +196,7 @@ Palantir的本体论在这个任务驱动下，通过四种极其硬性的约束
 
 这是最关键的约束。战场本体内存在着严重的政治与军事隔离：
 
-![](../images/why-industry-cant-copy-palantir-ontology/006.png)
+![](../images/why-industry-cant-copy-palantir-ontology/006.webp)
 
 在系统底层，本体确实将“美军特种部队精确坐标”和“盟军常规步兵路线”连接在了一起。但是，当一个常规战术分队指挥官登录系统时，Palantir的本体引擎（Ontology Engine）根据其安全标记（Security Tags），实施了动态修剪——特种部队的属性在本体图譜中被彻底隐形，或者被模糊处理为一个“友军泛化区域”。这确保了决策行动既符合现实，又绝对合规安全。
 
@@ -246,7 +246,7 @@ NHS医疗物资调度中，“疫苗-冷链车-医院-感染率-接种点”构�
 
 Palantir建模的核心数据结构是基于图（Graph-like）的离散实体与静态属性关系。尽管它支持时序数据（Time Series Linkage），但它对对象的理解是“状态的切片展示”。 工业核心本体面对的是连续的、高耦合的动力学系统。一个工业对象的状态演化受制于其常微分或偏微分方程：
 
-![](../images/why-industry-cant-copy-palantir-ontology/007.png)
+![](../images/why-industry-cant-copy-palantir-ontology/007.webp)
 
 对象的当前状态、输入控制变量u(t)和外界扰动d(t)，决定了它在下一时刻的连续过渡态。Palantir的Ontology架构不具备这种对状态连续演化、时滞和惯性的底层的形式化数学表达能力。
 
@@ -264,13 +264,13 @@ Palantir的Action校验逻辑是事务性的。例如：if (库存< 10)阻止执
 
 图5结构示意
 
-![](../images/why-industry-cant-copy-palantir-ontology/008.png)
+![](../images/why-industry-cant-copy-palantir-ontology/008.webp)
 
 在工业场景中，我们要建模的“母对象”往往不是一段明确的文本记录或分立的固体硬件，而是诸如“在管道内以45m/s高速流动的多相混合流体”、“处于超临界状态下的催化反应气体”。这些对象没有固定的物理边界，其身份是随时间不断发生相变（Phase Change）和化学反应的。
 
 因此，工业AI的母模型逻辑，必须引入控制论的状态空间表示（State-Space Representation）与部分可观测马尔可夫决策过程（POMDP）：
 
-![](../images/why-industry-cant-copy-palantir-ontology/009.png)
+![](../images/why-industry-cant-copy-palantir-ontology/009.webp)
 
 工业本体的第一任务，不是去画出一张好看的“资产层级树状图”，而是必须首先在语义上定义：哪些是系统真正的内部状态向量x_t（多半不可测，如高炉内熔融铁水温度），哪些是系统可获得的观测物理量y_t，以及它们之间由偏微分方程表达的因果联系。
 
@@ -308,7 +308,7 @@ Palantir的Action校验逻辑是事务性的。例如：if (库存< 10)阻止执
 
 图6结构示意
 
-![](../images/why-industry-cant-copy-palantir-ontology/010.png)
+![](../images/why-industry-cant-copy-palantir-ontology/010.webp)
 
 ### 1.目标相关性约束（Goal Relevance）
 
@@ -432,7 +432,7 @@ Palantir运营本体论（Operational Ontology）
 
 图7结构示意
 
-![](../images/why-industry-cant-copy-palantir-ontology/011.png)
+![](../images/why-industry-cant-copy-palantir-ontology/011.webp)
 
 该系统架构严格分为五个互联的层级，实现从最上层的宏大业务决策，到最下层的确定性物理控制的逐级翻译与安全保护：
 
@@ -452,7 +452,7 @@ Palantir运营本体论（Operational Ontology）
 
 这是架构的“物理守护神”。它内部固化了该工业领域的核心常微分/偏微分方程组（机理模型）以及基于热力学、动力学的物理硬约束。它实时计算当前状态下的安全包络空间（Safe Envelope Area）S_{safe}：
 
-![](../images/why-industry-cant-copy-palantir-ontology/012.png)
+![](../images/why-industry-cant-copy-palantir-ontology/012.webp)
 
 当上层运营本体通过Agent发起一个Action意图时，该意图必须作为控制边界输入传入该层。该内核通过高速仿真推演，判定该Action是否会使系统在时域的过渡态演化中撞击安全包络边界。若判定安全，则予以放行；若判定违背物理约束，则实行架构级的一票否决。
 
@@ -462,9 +462,9 @@ Palantir运营本体论（Operational Ontology）
 
 整个架构的形式化系统表达方程为：
 
-![](../images/why-industry-cant-copy-palantir-ontology/013.png)
+![](../images/why-industry-cant-copy-palantir-ontology/013.webp)
 
-![](../images/why-industry-cant-copy-palantir-ontology/014.png)
+![](../images/why-industry-cant-copy-palantir-ontology/014.webp)
 
 通过这种双层解耦与多层共生，工业AI智能体（Industrial Agent）终于获得了一个完美的运行舞台：在大模型（LLM）的调度下，它既能像操作Palantir一样灵活地编排组织业务Action，又绝对无法逾越物理守恒律与功能安全的雷池一步。
 
@@ -476,7 +476,7 @@ Palantir运营本体论（Operational Ontology）
 
 图8结构示意
 
-![](../images/why-industry-cant-copy-palantir-ontology/015.png)
+![](../images/why-industry-cant-copy-palantir-ontology/015.webp)
 
 具体工程落地的十步迭代循环法如下：
 
@@ -520,7 +520,7 @@ Palantir运营本体论（Operational Ontology）
 
 当第二个高价值场景（如：下游产品的精炼纯化优化）开始建设时，遵循相同的十步法构建本体子图O_2。O_1与O_2通过底层的共享核心语义骨架（Kernel Ontology）（如IOF定义的通用物理量、时间与空间规范）进行实体对齐（Entity Alignment），两个子图自发融合成一个更大、更丰富的企业级本体网络：
 
-![](../images/why-industry-cant-copy-palantir-ontology/016.png)
+![](../images/why-industry-cant-copy-palantir-ontology/016.webp)
 
 工业本体不是被“规划”出来的，而是通过一个又一个能闭环解决物理实际问题的最小充分世界，在共享语义骨架的约束下，像晶体一样自发析出、生长并融合出来的。
 

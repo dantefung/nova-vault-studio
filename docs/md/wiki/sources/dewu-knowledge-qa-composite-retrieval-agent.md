@@ -16,7 +16,7 @@ url: "https://mp.weixin.qq.com/s/EIXbIqUYcnFHpwAiPsJDEg"
 
 知识问答的核心挑战是准确率和质量。一个回答要准确，需要：查得全（召回率）、查得准（精准度）、理解得对（多模态）、看得对（权限隔离）。选择 AgentScope 2.0，核心原因是它的 HarnessAgent 架构——面向生产环境的 Agent 实现，内置了长期运行 Agent 必备的工程能力。
 
-![架构全景图](../images/dewu-knowledge-qa-composite-retrieval-agent/001.png)
+![架构全景图](../images/dewu-knowledge-qa-composite-retrieval-agent/001.webp)
 
 ### 重点使用的三个能力
 
@@ -48,7 +48,7 @@ url: "https://mp.weixin.qq.com/s/EIXbIqUYcnFHpwAiPsJDEg"
 
 ## 二、Agent 自主决策的复合检索架构
 
-![复合检索架构图](../images/dewu-knowledge-qa-composite-retrieval-agent/002.jpeg)
+![复合检索架构图](../images/dewu-knowledge-qa-composite-retrieval-agent/002.webp)
 
 ### 多源并行检索能力
 
@@ -60,7 +60,7 @@ Agent 可用的工具覆盖知识库数据源 + 三类个人飞书数据源，�
 
 **并行调用的技术实现**：AgentScope 的 `Toolkit.parallel(true)` + Java 21 Virtual Thread 支撑。工具调用是 I/O 密集型的，虚拟线程在 I/O 阻塞时自动释放底层平台线程。
 
-![多源并行检索示意图](../images/dewu-knowledge-qa-composite-retrieval-agent/003.png)
+![多源并行检索示意图](../images/dewu-knowledge-qa-composite-retrieval-agent/003.webp)
 
 ### 自主决策能力
 
@@ -78,13 +78,13 @@ Agent 可用的工具覆盖知识库数据源 + 三类个人飞书数据源，�
 - 补充检索：调整查询策略，尝试其他数据源
 - 交叉验证：根据来源权威性优先级排序——官方文档 > 飞书文档 > 消息/妙记
 
-![自主决策流程图](../images/dewu-knowledge-qa-composite-retrieval-agent/004.png)
+![自主决策流程图](../images/dewu-knowledge-qa-composite-retrieval-agent/004.webp)
 
 **决策依据：结构化提示词 + Middleware 兜底**
 
 结构化提示词中的策略引导——"知识库权威性更高，优先使用"——帮助 Agent 判断不同来源的特性，但最终由 LLM 自主决定。在 AGENTS.md 中设计了一套完整的决策流程图，不是简单的指令列表。
 
-![结构化提示词决策流程图](../images/dewu-knowledge-qa-composite-retrieval-agent/005.png)
+![结构化提示词决策流程图](../images/dewu-knowledge-qa-composite-retrieval-agent/005.webp)
 
 **关注点分离**：结构化提示词负责"做什么"（策略框架），Middleware 负责"做得好"（质量保障），ReAct 循环负责"怎么做"（执行流程）。三者各司其职，互不侵入。
 
@@ -114,7 +114,7 @@ RAG 系统质量由两个指标决定：召回率（有没有把相关文档找�
 
 ### 方案：三阶段质量 Pipeline
 
-![三阶段质量 Pipeline 图](../images/dewu-knowledge-qa-composite-retrieval-agent/006.png)
+![三阶段质量 Pipeline 图](../images/dewu-knowledge-qa-composite-retrieval-agent/006.webp)
 
 | 阶段 | 组件 | 作用 | 阈值 |
 |------|------|------|------|
@@ -201,7 +201,7 @@ SSE 断点续传的需求并非仅来自服务器宕机。高频触发场景包�
 | 跨实例转发 | 负载均衡调度、IP 变化 | Redis 路由表查原实例，内部转发 | 低延迟 |
 | 快照重建兜底 | 原实例宕机不可达 | 从 Redis 重建完整会话 | 有延迟但不丢数据 |
 
-![SSE 断点续传三种路径图](../images/dewu-knowledge-qa-composite-retrieval-agent/007.png)
+![SSE 断点续传三种路径图](../images/dewu-knowledge-qa-composite-retrieval-agent/007.webp)
 
 ### 关键设计决策
 
@@ -221,7 +221,7 @@ SSE 断点续传的需求并非仅来自服务器宕机。高频触发场景包�
 
 与"标准 RAG 套壳"的六个关键差异：
 
-![创新点对比图](../images/dewu-knowledge-qa-composite-retrieval-agent/008.png)
+![创新点对比图](../images/dewu-knowledge-qa-composite-retrieval-agent/008.webp)
 
 1. **复合检索不是"多搜几个地方"**：Agent 根据问题自主选择来源组合，搜索和精读交替推进，交叉验证、分层整合
 2. **质量 Pipeline 不只是 Reranker**：三级过滤——FastPass、Reranker、LLM Grading，各解决不同问题
@@ -242,8 +242,8 @@ AgentScope 框架已内置长期记忆、对话压缩、技能系统、子代理
 
 ## 附录：问答评测结果与框架选型对比
 
-![评测结果](../images/dewu-knowledge-qa-composite-retrieval-agent/009.png)
+![评测结果](../images/dewu-knowledge-qa-composite-retrieval-agent/009.webp)
 
-![框架选型对比](../images/dewu-knowledge-qa-composite-retrieval-agent/010.jpg)
+![框架选型对比](../images/dewu-knowledge-qa-composite-retrieval-agent/010.webp)
 
 框架选型中，AgentScope 2.0 与 Java 生态主流 AI 框架（Spring AI、LangChain4j、Semantic Kernel、JVector）进行了详细对比，HarnessAgent 架构在 ReAct 循环、Middleware、并行工具调用、长期记忆等方面具备生产级优势。

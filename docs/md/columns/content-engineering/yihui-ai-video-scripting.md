@@ -17,7 +17,7 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 - 播放量：我在 B 站原本只有几千播放的视频，变成了期期播放破万。
 - 时间：以前写一条 10 到 20 分钟的视频脚本要花一整天，现在大概两三个小时。
 
-![](../../wiki/images/yihui-ai-video-scripting/001.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/001.webp)
 
 用到的工具只有三样：一块白板、Codex 和 YouMind。先说一句，本期没有任何广告，晨光文具和 YouMind 都没给我一分钱。
 
@@ -31,7 +31,7 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 这样出来的东西，基本都空洞、全是套话。原因很简单：你只给了它一个题目，它不知道你经历过什么，也没有你的判断。它只能拿全网最平均的说法来填空。
 
-![](../../wiki/images/yihui-ai-video-scripting/002.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/002.webp)
 
 所以我的整套流程，核心就是一件事：先把"我"喂给 AI，再通过对话把"我"说清楚。拆开来是四步：
 
@@ -49,21 +49,21 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 每一期视频，我都会在 YouMind 上单独建一个项目。这期要用的所有东西，都放在这一个项目里。
 
-![](../../wiki/images/yihui-ai-video-scripting/003.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/003.webp)
 
 如果是观点类的单人播客或口播，我会先新建一个文档，把想讲的观点和想法全部写进去。
 
-![](../../wiki/images/yihui-ai-video-scripting/004.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/004.webp)
 
 这时候记住两件事：不要考虑结构，也不要急着删改。想到什么就写什么。这一步要的是量，取舍是下一步的事。
 
 如果是知识分享类的视频，就要先做素材收集。我用 YouMind 的浏览器插件，看到相关的视频、网页，一键就能收进这期的项目里。
 
-![](../../wiki/images/yihui-ai-video-scripting/005.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/005.webp)
 
 调研也可以直接在 YouMind 里做。如果需要深度调研，我会再搭配 Manus、ChatGPT Pro 和 Kimi。这里要夸一下 Kimi 的 Agent 集群调研，是我目前体验最好的深度调研工具。
 
-![](../../wiki/images/yihui-ai-video-scripting/006.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/006.webp)
 
 观点和资料都齐了，就可以进入大纲。
 
@@ -73,7 +73,7 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 我会让 YouMind 的 Agent 把上一步准备好的素材下载到本地，然后在 Codex 里建一个项目文件夹，把资料都拖进去。接着打开 Codex 的语音对话模式，站到白板前，一边写一边和 GPT 讨论大纲。
 
-![](../../wiki/images/yihui-ai-video-scripting/007.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/007.webp)
 
 这里敲一下黑板：
 
@@ -84,7 +84,7 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 这一步其实不难。在上一步整理资料的时候，大概率你脑子里已经有大纲了，现在只是和 AI 聊着把它定下来。
 
-![](../../wiki/images/yihui-ai-video-scripting/008.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/008.webp)
 
 我一般把大纲切成三块：
 
@@ -96,7 +96,7 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 经常有人问我：熠辉，你都在用最先进的 AI 了，怎么还在用白板？
 
-![](../../wiki/images/yihui-ai-video-scripting/009.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/009.webp)
 
 这是我的个人习惯。脑子里想法特别多的时候，坐在电脑前很容易陷进细节里。一旦站到白板前，身体和嘴巴动起来，脑子会更活跃，也更专注。所有要点都摆在眼前，补一条、挪一条、划掉一条都很直观。你也可以试试。
 
@@ -106,7 +106,7 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 我相信大部分自媒体新手写逐字稿时，都会遇到和我一样的两个问题。
 
-![](../../wiki/images/yihui-ai-video-scripting/010.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/010.webp)
 
 第一，写出来的脚本不口语化。 我们从小受的都是书面写作训练，如果像写作文一样写脚本，观众听起来就像在听报告。
 
@@ -120,7 +120,7 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 当然，Codex 的语音也有痛点：它很爱打断我说话。所以我们的对话里经常出现这样的画面：
 
-![](../../wiki/images/yihui-ai-video-scripting/011.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/011.webp)
 
 导出对话，交给 YouMind 成稿
 
@@ -128,18 +128,18 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 这时候，YouMind 项目里已经整整齐齐有了三样东西：对话记录、视频大纲、原始观点。
 
-![](../../wiki/images/yihui-ai-video-scripting/012.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/012.webp)
 
 接下来选一个模型，让 Agent 基于这三份文档写脚本就行了。这也是 YouMind 的优势：可以自由选模型，而且它本身做了一些 Harness，写出来的效果会好不少。
 
-![](../../wiki/images/yihui-ai-video-scripting/013.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/013.webp)
 
 分享一个我自己的模型选择技巧：
 
 - 偏硬核、知识型的内容：用 Claude Opus 4.6 或 Opus 5.5。文字干脆，逻辑咬合严谨。
 - 普通知识分享、生活化选题，或者偏漫谈的长播客：用 Gemini 3.8 Flash。语感更松弛自然，成稿读起来像老朋友在耳边唠嗑。
 
-![](../../wiki/images/yihui-ai-video-scripting/014.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/014.webp)
 
 ## 第四步：文字转语音，倍速听稿、边听边改
 
@@ -149,15 +149,15 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 所以我用的是 YouMind 的文字转语音：点开原文，选一个音色，生成音频，然后倍速听。男生的话，我个人比较推荐"苏哲"这个音色。
 
-![](../../wiki/images/yihui-ai-video-scripting/015.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/015.webp)
 
 脚本有问题的地方，一听就能发现。听到别扭的地方，我直接在侧边栏对话框里给修改意见，让 AI 改；或者自己在编辑器里改，都很方便。
 
-![](../../wiki/images/yihui-ai-video-scripting/016.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/016.webp)
 
 转成语音还有第二个好处：录制前就能准确预估视频时长。
 
-![](../../wiki/images/yihui-ai-video-scripting/017.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/017.webp)
 
 接商业合作或参加平台活动时，时长通常有要求。比如甲方要求控制在 3 到 5 分钟，B 站的单人播客活动又要求超过 20 分钟。转成语音之后，脚本够不够、超没超，一眼就知道，不用自己再完整读一遍。这个功能对我来说真的非常实用。
 
@@ -165,7 +165,7 @@ url: "https://x.com/yihui_indie/status/2103737256116924703"
 
 ## 回顾：四步写完一条长视频脚本
 
-![](../../wiki/images/yihui-ai-video-scripting/018.jpg)
+![](../../wiki/images/yihui-ai-video-scripting/018.webp)
 
 最后快速回顾一下这套流程：
 

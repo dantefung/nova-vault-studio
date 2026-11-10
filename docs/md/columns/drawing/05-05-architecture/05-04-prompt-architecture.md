@@ -206,18 +206,18 @@ Artifacts 是在问答的基础上，加了一个可交互的窗口，可以查�
 
 [把 AI 融入日常的 5 个 Prompt 制作思路](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247488022&idx=1&sn=20c5dbc3703d74a7ea464d3667e12e68&chksm=c11d5309f66ada1f169986bf2c5d18b0b3985dfe605ed2baada7683ede485763b7d3d0d90682&scene=21#wechat_redirect)
 
-[img-0]:images/05-04-prompt-architecture/p01.jpg
+[img-0]:images/05-04-prompt-architecture/p01.webp
 
-[img-1]:images/05-04-prompt-architecture/p02.jpg
+[img-1]:images/05-04-prompt-architecture/p02.webp
 
-[img-2]:images/05-04-prompt-architecture/p03.jpg
+[img-2]:images/05-04-prompt-architecture/p03.webp
 
-[img-3]:images/05-04-prompt-architecture/p04.jpg
+[img-3]:images/05-04-prompt-architecture/p04.webp
 
-[img-4]:images/05-04-prompt-architecture/p05.jpg
+[img-4]:images/05-04-prompt-architecture/p05.webp
 
-[img-5]:images/05-04-prompt-architecture/p06.jpg
+[img-5]:images/05-04-prompt-architecture/p06.webp
 
-[img-6]:images/05-04-prompt-architecture/p07.jpg
+[img-6]:images/05-04-prompt-architecture/p07.webp
 
-[img-7]:images/05-04-prompt-architecture/p08.jpg
+[img-7]:images/05-04-prompt-architecture/p08.webp

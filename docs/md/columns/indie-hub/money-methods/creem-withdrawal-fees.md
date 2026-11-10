@@ -20,15 +20,15 @@ url: "https://mp.weixin.qq.com/s/xusu_PyHk7KJxBNwz_t4Pw"
 
 我只好再次点击Withdraw按钮。这次我留了一个心眼，截了个图作为证据，万一再出相同问题，好拿截图找Creem客服。
 
-![image](./images/creem-withdrawal/w/001.png)
+![image](images/creem-withdrawal/w/001.webp)
 
 结果，到了9月1日那天，Creem“故技重演”，等待提现的状态再次消失，Withdraw按钮再次高亮，提示可以于9月15日提现...
 
-![image](./images/creem-withdrawal/w/002.png)
+![image](images/creem-withdrawal/w/002.webp)
 
 这次，我有了截图的证据，于是直接联系Creem客服。结果经过几个来回的沟通，总算弄明白其中原因。
 
-![image](./images/creem-withdrawal/w/003.png)
+![image](images/creem-withdrawal/w/003.webp)
 
 原来，不是我的提现申请失效，而是Creem的账务系统出了一个余额显示Bug。
 
@@ -42,9 +42,9 @@ url: "https://mp.weixin.qq.com/s/xusu_PyHk7KJxBNwz_t4Pw"
 
 弄清楚原因后，我于是再次提交提现申请。果然，就在昨天9月15日，我终于收到这笔一波三折的零花钱。
 
-![image](./images/creem-withdrawal/w/004.png)
+![image](images/creem-withdrawal/w/004.webp)
 
-![image](./images/creem-withdrawal/w/005.png)
+![image](images/creem-withdrawal/w/005.webp)
 
 Earnings $63.94，最终到账 $46.71，一共扣了 $17.23，约占这笔收入的 26.95%。
 

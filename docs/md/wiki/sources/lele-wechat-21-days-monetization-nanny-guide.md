@@ -17,7 +17,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 公众号贴图，可能是现在普通人能做的最好、最简单的赛道。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/002.png)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/002.webp)
 
 但很多小伙伴想做公众号，打开后台，却不知道该写什么；收藏了不少教程，真要动手，又卡在选方向、找选题和写第一篇。
 
@@ -35,7 +35,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 分享日常生活中的发现、见闻和实用经验。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/003.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/003.webp)
 
 可写方向：菜市场见闻、小区生活、有趣招牌、整理收纳、日常省钱。
 
@@ -43,7 +43,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 写过去的人、事、物，分享回忆，讲讲以前和现在有什么不同。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/004.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/004.webp)
 
 可写方向：童年零食、老物件、旧街道、年代生活、经典人物。
 
@@ -51,7 +51,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 用自己拍摄的照片记录真实生活，再配上经历和观察。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/005.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/005.webp)
 
 可写方向：工作日常、县城生活、退休生活、家庭记录、出行见闻。
 
@@ -71,7 +71,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 分享夫妻、父母和孩子相处时遇到的问题与做法。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/006.png)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/006.webp)
 
 可写方向：夫妻沟通、亲子相处、家庭分工、和父母孩子相处、家庭故事。
 
@@ -85,7 +85,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 围绕熟悉的运动项目，整理赛事信息、分析比赛、分享观赛感受。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/007.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/007.webp)
 
 可写方向：赛事信息、比赛复盘、运动员故事、经典比赛、球迷话题。
 
@@ -93,7 +93,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 围绕影视作品，分析人物、情节和不同选择。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/008.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/008.webp)
 
 可写方向：热播剧讨论、人物分析、经典老剧、原著对比、结局解读。
 
@@ -103,7 +103,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 可写方向：读书学习、写作练习、职业成长、技能学习、个人复盘。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/009.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/009.webp)
 
 先从中圈出 1—2 个感兴趣的方向，接着找同类账号。
 
@@ -113,7 +113,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 想写生活，就搜“小区生活”“菜市场见闻”“厨房收纳”；想写影视，就搜剧名、人物名，再加上“人物分析”“结局”等词。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/010.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/010.webp)
 
 找到相关文章后，进入作者主页，按 3 个标准来筛：
 
@@ -167,7 +167,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 用电脑打开微信公众平台，手机打开公众号助手，点击“立即注册”。个人写公众号，具体参考网站指引
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/011.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/011.webp)
 
 3. 设置名称、头像和简介
 
@@ -195,7 +195,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 用备忘录或表格存下来，比如做厨房收纳：
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/012.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/012.webp)
 
 2. 选一个小问题
 
@@ -221,7 +221,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 拆解要写具体。比如“先写东西不好找，再交代分类方法，最后补使用注意”，比只写“总分总”更方便自己动笔。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/013.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/013.webp)
 
 拆完就关掉原文，只看批注和自己的素材重新列提纲。
 
@@ -347,7 +347,7 @@ coverImage: "../images/lele-wechat-21-days-monetization-nanny-guide/001.jpg"
 
 现在公众号程序化广告的粉丝数门槛已调整为 100；符合条件的创作者，也可以从公众号助手 App 的“我—流量主”进入。实际申请时，核对自己账号显示的全部条件。
 
-![](../images/lele-wechat-21-days-monetization-nanny-guide/014.jpg)
+![](../images/lele-wechat-21-days-monetization-nanny-guide/014.webp)
 
 暂未达到条件，就继续创作并积累真实关注。阅读量和收益分开看：哪类内容有人读、能带来多少收入，都用自己的记录判断。
 

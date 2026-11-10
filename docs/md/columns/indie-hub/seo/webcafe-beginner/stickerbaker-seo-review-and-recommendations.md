@@ -14,7 +14,7 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 
 下面我们先看下网站首页，中规中矩，很典型的AI工具站的布局，从上到下依次是导航、Logo、工具表单、最新作品列表等。 
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_002.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_002.webp)
 
  个网站目录结构目前也比较简单，主要由以下几个页面构成： / 首页 /sticker/{id} 单个贴纸详情页 /stickers 用户生成的贴纸列表 /search 贴纸搜索入口页 /search?query={input} 贴纸搜索结果页
 
@@ -29,7 +29,7 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 **一、首页**
 打开首页，点击 AITDK SEO Extension ，查看概览信息。
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_003.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_003.webp)
 
 **1.1、Title**
 可以看到 Title 推荐长度是60个字符，但这个网站只用到了12个字符，这有点浪费，没有把需求关键词尽可能在 Title 中体现出来。
@@ -53,11 +53,11 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 **1.6、Headings**
 再看 Headings ，会发现这个网站的 H 标签使用混乱，首页用到了两个 H1 ，而且都没有体现出网站的需求关键词。
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_004.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_004.webp)
 
  哥飞建议一个页面只放一个H1，在H1里放你网站要做的核心关键词，如这个网站可以体现“Sticker Maker”这个关键词。 
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_005.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_005.webp)
 
 “Upload”这里是否可以用 H 标签呢？
 
@@ -65,11 +65,11 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 
 原因如下： 
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_006.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_006.webp)
 
  
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_007.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_007.webp)
 
  当然他这里还有个核心需求是“Face to Sticker”，这个也需要体现出来，那么就可以改成这样： H2: Convert face photo to sticker H3: Upload face photo
 
@@ -80,25 +80,25 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 
 不过哥飞建议生成的 Sticker 图片的 Alt 可以写长一点，体现 Sticker 关键词，如“Ayna”可以改为“Ayna Sticker”。 
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_008.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_008.webp)
 
 **1.8、链接**
 可以看到这里有三个出站链接，都是Dofollow的，他这里都是自己可控的出站链接，所以用 Dofollow 也可以，不是一定出站链接就要Nofollow。
 
 关于链接如何设置请看《【[哥飞带你读】你需要了解的10个重要SEO元标签（中）](https://mp.weixin.qq.com/s/TOHrvB1VY88yOfTLJPOAIQ)》《[再聊内链建设：内链重要性不亚于外链](https://mp.weixin.qq.com/s/s3wjxhNTrfqj5go6hFqXJg)》。 
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_009.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_009.webp)
 
 **1.9、社媒**
 这里不错，Open Graph 和 Twitter Card 都设置了。
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_010.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_010.webp)
 
 **1.10、Hreflangs 和 Structured**
 这个网站暂时没有做多语言，所以 Hreflangs 绑定没有设置。
 
 具体要怎么绑定，可以看 Hix.ai 的首页 HTML 代码学习一下。
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_011.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_011.webp)
 
 也没有设置结构化数据，具体有什么效果可以看《[10种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第9种](https://mp.weixin.qq.com/s/I4hkYHtp8OEf21L-3yqCrw)》。
 
@@ -115,7 +115,7 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 
 **二、贴纸详情页** 哥飞以 /sticker/29961 为例，点评一下贴纸详情页。
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_012.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_012.webp)
 
 **2.1、URL**
 这个站URL直接用的数字ID，容易被从1开始遍历，扒站的爬虫会很喜欢这种路径，建议改为 /sticker/29961-fairy-unicorn 。
@@ -127,7 +127,7 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 **2.2、SEO基础信息**
 之后的内页哥飞就不一项一项说了，大家可以参考首页点评去对照。
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_013.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_013.webp)
 
  这里说下贴纸详情页的Title，目前的写法估计是考虑到分享出去时显示的标题更好看，但是其实可以把“I made an”去掉，直接是“AI Sticker of fairy unicorn”就很好了，核心关键词“AI Sticker”和长尾关键词“fairy unicorn”都照顾到了。
 
@@ -138,7 +138,7 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 **2.3、Headings**
 H 标签依然还有同样的问题，层级错乱。
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_014.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_014.webp)
 
  首先是 H1 必须体现核心关键词，可以是“fairy unicorn”，更好的是“AI Stickers of fairy unicorn”。
 
@@ -154,7 +154,7 @@ H 标签依然还有同样的问题，层级错乱。
 **三、搜索首页**
 “Sticker Search”这个关键词是有一定的搜索量的，虽然不大。
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_015.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_015.webp)
 
  所以这个站专门做了一个搜索入口页面，主打“Sticker Search”这个关键词，这个做法很正确。
 
@@ -162,19 +162,19 @@ H 标签依然还有同样的问题，层级错乱。
 
 **3.1、SEO基础信息**
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_016.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_016.webp)
 
 标题用的是“StickerSearch”而不是“Sticker Search”，哥飞猜测站长是想把贴纸搜索打造成一个品牌。
 
 这个思路是对的，看下两个关键词的网页供应量就知道了，不带空格的作为品牌名称完全没问题的，因为网页供应量少，当用户习惯使用不带空格来搜索之后，这个站长的新站就更容易拿到更靠前的排名。 
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_017.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_017.webp)
 
 不过也有个小问题，因为目前用户更容易想到的还是带空格的写法，所以网页Title、Description、H1等地方就需要把有空格的也兼容到。
 
 **3.2、Headings**
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_018.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_018.webp)
 
 这里只用了一个H5，也是极其不合理的，应该改成H1，并且多增加一些内容和标签。
 
@@ -183,7 +183,7 @@ H 标签依然还有同样的问题，层级错乱。
 
 **四、搜索结果页**
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_019.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_019.webp)
 
 增加搜索结果页的好处显而易见，可以获取大量用户真实需求关键词，生成大量长尾关键词页面，被搜索引擎抓取后，从搜索引擎获取海量搜索流量。
 
@@ -191,7 +191,7 @@ H 标签依然还有同样的问题，层级错乱。
 
 **4.1、SEO基础信息**
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_020.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_020.webp)
 
 不管搜索什么关键词，Title和Description都固定文案了，没有根据搜索关键词去调整，这跟搜索结果页目前用的前端渲染方案有关。
 
@@ -201,7 +201,7 @@ H 标签依然还有同样的问题，层级错乱。
 
 **4.2、Headings**
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_021.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_021.webp)
 
 依然是因为前端渲染导致的问题，目前H标签的标题都写死了。
 
@@ -228,7 +228,7 @@ H 标签依然还有同样的问题，层级错乱。
 
 当然也还有其它方式来尽量让爬虫能够更快更轻松爬到完全部页面，如学习 Toolify.ai 的首页底部做法。 
 
-![image.png](images/stickerbaker-seo-review-and-recommendations/img_022.png)
+![image.png](images/stickerbaker-seo-review-and-recommendations/img_022.webp)
 
 **5.2、建议增加专题页面**
 这个页面也是用来获取某些关键词的流量的，一个专题下面可以有多种不同的贴纸，但是所有这些组合起来，就是一个完整的专题。

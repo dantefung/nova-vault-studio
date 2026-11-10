@@ -25,7 +25,7 @@ url: "https://www.it235.com/实用工具/内网穿透/pierce.html"
 
 通常实现内网穿透，是通过路由器上端口映射来实现的。但是路由器通常不是每个人都有权限可以访问和设置,而且可能存在多级路由器较为复杂的网络结构。端口映射也无法实现。
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/001.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/001.webp)
 
 ## 工具对比
 
@@ -71,7 +71,7 @@ url: "https://www.it235.com/实用工具/内网穿透/pierce.html"
 
 1.   访问[ngrok官网下载](https://ngrok.cc/)下载对应你电脑的客户端，Mac就下Mac版
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/002.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/002.webp)
 
 
 
@@ -79,17 +79,17 @@ url: "https://www.it235.com/实用工具/内网穿透/pierce.html"
 
 3.   提示绑定公众号，扫码绑定即可
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/003.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/003.webp)
 
 4.   开通免费隧道试试效果，如果经常使用，建议购买个10块钱的
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/004.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/004.webp)
 
 5.   配置服务器映射信息
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/005.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/005.webp)
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/006.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/006.webp)
 
 **上图的隧道ID是重点，圈起来，接下来要使用**
 
@@ -97,7 +97,7 @@ url: "https://www.it235.com/实用工具/内网穿透/pierce.html"
 
 打开命令行窗口CMD，切花到下载的客户端目录
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/007.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/007.webp)
 
 7.   输入如下命令启动客户端
 
@@ -110,27 +110,27 @@ Copied!
 2 
 成功后会出现如下结果
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/008.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/008.webp)
 
 上图表示前面的域名映射到我本机的9080端口，意思就是访问前面的域名跟访问我后面的127.0.0.1:9080是一个效果
 
 8.   接下来本地起一个可以访问的服务，端口为9080
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/009.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/009.webp)
 
 9.   浏览器访问，或者让你朋友在远方访问，顺便装个B
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/010.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/010.webp)
 
 这2个信息可以在编辑中删除掉，如下
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/011.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/011.webp)
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/012.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/012.webp)
 
 接下来再次访问
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/013.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/013.webp)
 
 10.   总结
 
@@ -147,25 +147,25 @@ Copied!
 
 1.   前往控制台(https://manager.xiaomiqiu.com/)注册，获取token(免费)
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/014.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/014.webp)
 
 2.   登录后，在控制台首页下载windows版本的客户端，解压到你喜欢的目录
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/015.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/015.webp)
 
 3.   在控制台获取token
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/016.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/016.webp)
 
 4.   修改解压目录下的ngrok.conf配置文件，因为部分参数已经被占用
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/017.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/017.webp)
 
 上述端口也可根据当前实际情况进行修改
 
 5.   在命令行下进入到ngrok客户端目录下
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/018.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/018.webp)
 
 6.   启动bat快捷程序，或执行如下命令
 
@@ -184,21 +184,21 @@ Copied!
 4 
     *   点击快捷程序bat启动
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/019.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/019.webp)
 
     *   成功的结果如下，如果失败了，请检查token是否正确，子域名是否够复杂
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/020.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/020.webp)
 
     *   失败的结果如下
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/021.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/021.webp)
 
 7.   启动服务器验证请求穿透结果是否生效
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/022.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/022.webp)
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/023.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/023.webp)
 
 8.   用法几乎跟ngrok国内版一样，说明国内版也是基于开源程序编写后提供的服务
 
@@ -217,7 +217,7 @@ Copied!
 
 *   打开CMD命令行，进入到当前目录，输入如下参数
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/024.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/024.webp)
 
 ```
 -- 详细命令
@@ -242,19 +242,19 @@ Copied!
 
 下图表示域名`http://abcdefg.vaiwan.com`映射到你本地的`http://127.0.0.1:9085`
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/025.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/025.webp)
 
 *   开启本地9085端口服务，然后在浏览器访问接口
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/026.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/026.webp)
 
 
 
 *   尝试访问穿透域名
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/027.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/027.webp)
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/028.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/028.webp)
 
 ### MAC使用
 
@@ -297,7 +297,7 @@ Copied!
 
 > 其他内网穿透工具，nat123，小蚂蚁
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/029.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/029.webp)
 
 ## FRP自建（最强，企业首选）
 
@@ -386,7 +386,7 @@ Copied!
 4 
 开启云服务器`7000`端口的防火墙，使外界能够通过`7000`端口连接到内网服务
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/030.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/030.webp)
 
 我的客户端ip属于`101.81.125.0`端口范围内，所以客户端通过7000端口能够连接上这台服务器
 
@@ -458,11 +458,11 @@ Copied!
 3 
 3.   配置7500端口的访问安全组
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/031.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/031.webp)
 
 4.   打开网页浏览frp仪表盘，在浏览器访问：http://服务器公网ip:7500端口，输入用户名和密码进行登录
 
-![内网穿透教程配图](../images/network-piercing-frp-guide/032.png)
+![内网穿透教程配图](../images/network-piercing-frp-guide/032.webp)
 
 ### TCP穿透
 

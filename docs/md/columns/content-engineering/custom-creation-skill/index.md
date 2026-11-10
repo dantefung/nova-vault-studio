@@ -13,29 +13,29 @@ url: "https://x.com/qihang_zeng6688/status/2102238692018401776"
 
 ### 1.1 找到 X 的设置功能
 
-![](./images/custom-creation-skill/custom-creation-skill-img1.png)
+![](images/custom-creation-skill/custom-creation-skill-img1.webp)
 
 ### 1.2 点击账号 - 下载数据存档
 
-![](./images/custom-creation-skill/custom-creation-skill-img2.jpg)
+![](images/custom-creation-skill/custom-creation-skill-img2.webp)
 
 ### 1.3 填写邮箱验证码，点击索取存档
 
-![](./images/custom-creation-skill/custom-creation-skill-img3.png)
+![](images/custom-creation-skill/custom-creation-skill-img3.webp)
 
 ### 1.4 等待接收邮件通知，完成数据下载
 
 通常需等待至少 24 小时，邮箱会收到允许下载文件的邮件，随后回到 X 下载数据包。
 
-![](./images/custom-creation-skill/custom-creation-skill-img4.png)
+![](images/custom-creation-skill/custom-creation-skill-img4.webp)
 
-![](./images/custom-creation-skill/custom-creation-skill-img5.png)
+![](images/custom-creation-skill/custom-creation-skill-img5.webp)
 
 ### 1.5 解压 ZIP 文件并导入知识库
 
 解压后放置于本地知识库（如 Obsidian）中作为长期素材源。
 
-![](./images/custom-creation-skill/custom-creation-skill-img6.png)
+![](images/custom-creation-skill/custom-creation-skill-img6.webp)
 
 ### 1.6 发给 Codex 分析并生成专属 Skill
 
@@ -160,13 +160,13 @@ url: "https://x.com/qihang_zeng6688/status/2102238692018401776"
 
 `SKILL.md` 文件内部定义了个性化规格，可以自行根据需要修改和定制。
 
-![](./images/custom-creation-skill/custom-creation-skill-img7.png)
+![](images/custom-creation-skill/custom-creation-skill-img7.webp)
 
 ### 1.8 如何使用 Skill
 
 将生成的 Skill 文件放置于项目指定目录，或直接将文件路径提供给 Codex/Claude Code，Agent 即可自动加载并遵循该规则集进行创作。
 
-![](./images/custom-creation-skill/custom-creation-skill-img8.png)
+![](images/custom-creation-skill/custom-creation-skill-img8.webp)
 
 ---
 
@@ -178,7 +178,7 @@ url: "https://x.com/qihang_zeng6688/status/2102238692018401776"
 - **读者画像**：想用 AI 提效、探索副业项目、对开源生态感兴趣但不知如何上手的实践者。
 - **价值承诺**：每篇内容发布前必须回答——**读者看完，到底能拿走什么？** 可以是工具、判断方法、实操路径或避坑指南。
 
-![](./images/custom-creation-skill/custom-creation-skill-img9.jpg)
+![](images/custom-creation-skill/custom-creation-skill-img9.webp)
 
 ### 2.2 七类常见内容模型与对应结构
 
@@ -200,7 +200,7 @@ url: "https://x.com/qihang_zeng6688/status/2102238692018401776"
 
 ### 2.3 选题判断的五重标准
 
-![](./images/custom-creation-skill/custom-creation-skill-img10.jpg)
+![](images/custom-creation-skill/custom-creation-skill-img10.webp)
 
 1. 普通人到底能不能用
 2. 能帮人省什么时间、资金或步骤

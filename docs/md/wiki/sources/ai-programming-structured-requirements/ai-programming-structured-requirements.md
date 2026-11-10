@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/jNCVsXmzDEG_TrKKZbmUZg"
 
 <!-- more -->
 
-![image](images/001.png)
+![image](images/001.webp)
 
 ## 01 需求颗粒度的问题
 

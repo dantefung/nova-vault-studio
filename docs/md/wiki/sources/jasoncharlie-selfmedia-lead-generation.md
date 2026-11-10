@@ -124,7 +124,7 @@ coverImage: "../images/jasoncharlie-selfmedia-lead-generation/001.jpg"
 
 真正的难题在产品端：IP 名下有十几门课，职场、情感、人际都有，但不清楚哪门好卖、用什么话术卖。
 
-![](../images/jasoncharlie-selfmedia-lead-generation/002.png)
+![](../images/jasoncharlie-selfmedia-lead-generation/002.webp)
 
 那时候完全没头绪，最后是怎么做到一条视频卖十几单课的？就是把五步模板拆开：
 

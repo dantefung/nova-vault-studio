@@ -24,7 +24,7 @@ related:
 
 **从西方哲学的本体论出发 → 经过抽象建模 → 借鉴 Palantir 架构思想 → 琢磨对象行为规则 → 想通事件驱动的闭环 → 最终落到本体驱动的 AI 原生应用。**
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/001.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/001.webp)
 
 ---
 
@@ -225,36 +225,36 @@ related:
 
 以下为通过文章自动化转化的完整咨询风格 PPT 讲义呈现：
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/002.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/002.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/003.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/003.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/004.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/004.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/005.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/005.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/006.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/006.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/007.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/007.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/008.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/008.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/009.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/009.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/010.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/010.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/011.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/011.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/012.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/012.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/013.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/013.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/014.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/014.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/015.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/015.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/016.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/016.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/017.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/017.webp)
 
-![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/018.png)
+![](../images/heminglu-from-ontology-to-ontology-modeling-business-semantics/018.webp)

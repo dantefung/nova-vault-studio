@@ -17,7 +17,7 @@ coverImage: "../images/lieflat3-writing-distillation-skill/001.jpg"
 
 这个 skill 目前是小红书 REDSkill 排行榜使用人数第三，到现在已经超过 6759 人用过了。这也真的超出我的意料之外了，毕竟上榜的有很多大佬（顺便说一下，歸藏 PPT skill 真的特别好用！）
 
-![](../images/lieflat3-writing-distillation-skill/002.jpg)
+![](../images/lieflat3-writing-distillation-skill/002.webp)
 
 这个 skill 我用了半年，不夸张地说，它完全改变了我的写作模式。写作是一件极为耗费心力的事，哪怕是从业几十年的老记者同事，写长稿件也是痛苦的。尤其是把所有资料整理好，需要从第一个字开始写时，最考验人。很多时候，我会把其他部分写完，再写导语。
 
@@ -33,7 +33,7 @@ GitHub 地址：[https://github.com/larashero3-dotcom/writing-dna-skill](https:/
 
 具体分为这几层：
 
-![](../images/lieflat3-writing-distillation-skill/003.jpg)
+![](../images/lieflat3-writing-distillation-skill/003.webp)
 
 这里面，L1 是最小单位，语言层面本身的统计，比如作者爱用哪些词、句子多长、爱不爱用感叹号等等。
 
@@ -51,7 +51,7 @@ L6 是最后的配图和排版。因为我自己觉得配图和排版是很麻�
 
 这里面，L3 到 L5 的思维层面，是最难的部分。一些蒸馏风格的 skill 做出来不够像，也是因为这部分没学到作者的精髓，复刻出来的就是个会甩口头禅的空壳。我还是觉得，一个人的思想是最重要的。当然，这部分因为更难被量化，所以也更难被 AI 总结和学会。
 
-![](../images/lieflat3-writing-distillation-skill/004.jpg)
+![](../images/lieflat3-writing-distillation-skill/004.webp)
 
 ## 二、怎么用
 
@@ -89,7 +89,7 @@ L6 是最后的配图和排版。因为我自己觉得配图和排版是很麻�
 
 等 agent 蒸馏完，你会获得 5 份 DNA 文档加一个 _meta 文件夹。5 份 DNA 文档里最重要的是 Writing-DNA.md，它是对整个写作风格的总结。如果你的素材里没有配图，也没有格式，那么就不会有视觉风格指南这个文件。
 
-![](../images/lieflat3-writing-distillation-skill/005.png)
+![](../images/lieflat3-writing-distillation-skill/005.webp)
 
 而这些，就是可被复用写作风格规则档案。
 

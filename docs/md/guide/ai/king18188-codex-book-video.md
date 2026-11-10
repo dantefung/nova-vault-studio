@@ -117,7 +117,7 @@ url: "https://x.com/king1818888/status/2076998958254288930"
 
 这次《悉达多》视频，我的实际工具链大概是：
 
-![](images/king18188-codex-book-video/001.png)
+![](images/king18188-codex-book-video/001.webp)
 
 如果你是小白，不需要一开始就全上。
 

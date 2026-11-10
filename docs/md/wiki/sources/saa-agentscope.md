@@ -16,7 +16,7 @@ url: "https://java2ai.com/blog/saa-agentscope-announcement/"
 
 但仅靠我们团队，要从0开发一个面向 Java 开发者的 AI 应用开发框架，难度很大。幸运的是，Spring AI 在2024 年2月发布了第一个公开可用版本（0.8.0），因此我们基于 Spring AI 进一步向上做了抽象和功能增强，在2024 年9月开源了 Spring AI Alibaba，希望借助本地化服务、阿里巴巴的实践经验积累，以较快的演进节奏和国内活跃的贡献者社区，更好的服务 Java 开发者。
 
-![Spring AI Alibaba 团队介绍](../images/saa-agentscope/001.jpg)
+![Spring AI Alibaba 团队介绍](../images/saa-agentscope/001.webp)
 
 ## 二、Spring AI Alibaba 开源过程中，有哪些收获、有哪些挑战？
 
@@ -31,7 +31,7 @@ Spring AI 的核心目标是连接企业的数据和 API 与 AI 模型，简化 
 
 我们认为，这两种不同的设计理念都会是企业的主流选择。因此，若干月前，我们开始评估和推进与 AgentScope 的合作，以推出 AgentScope-Java。
 
-![Graph vs Agentic 两条路线](../images/saa-agentscope/002.jpg)
+![Graph vs Agentic 两条路线](../images/saa-agentscope/002.webp)
 
 ## 三、AgentScope 是什么？
 
@@ -44,7 +44,7 @@ AgentScope 是由阿里巴巴通义实验室在2024年2月开源的多智能体�
 
 AgentScope-Java 是我们和 AgentScope 共同推出的面向 Java 开发群体智能体开发框架，同时共享以上社区资源，Java 开发者们若遇到使用问题，可以通过以上方式联系到我们。
 
-![AgentScope 三层架构](../images/saa-agentscope/003.jpg)
+![AgentScope 三层架构](../images/saa-agentscope/003.webp)
 
 ## 四、AgentScope-Java 和 Spring AI Alibaba 有哪些不同？
 
@@ -56,7 +56,7 @@ AgentScope 是一个以 Agentic 为核心设计理念的应用框架，提供包
 
 未来，Spring AI Alibaba 生态将会在底层全面支持 AgentScope，提供 AgentScope Starter、AgentScope Runtime Starter，实现 AgentScope 与 Spring 生态的集成。如果您打算构建面向以 Agentic 为核心设计理念的AI应用，推荐使用 AgentScope-Java 版，如果您打算基于 Workflow 构建 AI 应用，推荐使用 Spring AI Alibaba。
 
-![两条路线的应用场景对比](../images/saa-agentscope/004.jpg)
+![两条路线的应用场景对比](../images/saa-agentscope/004.webp)
 
 ## 五、Spring AI Alibaba 未来是否继续投入？
 
@@ -66,7 +66,7 @@ AgentScope 是一个以 Agentic 为核心设计理念的应用框架，提供包
 - 对底层进行升级，支持 AgentScope，做好阿里云、AgentScope 与 Spring 生态连接，提供企业级智能体解决方案。
 - 全面升级 Admin 平台，打造企业级 Agent 构建与交付平台。
 
-![Spring AI Alibaba 未来投入方向](../images/saa-agentscope/005.jpg)
+![Spring AI Alibaba 未来投入方向](../images/saa-agentscope/005.webp)
 
 ## 六、AgentScope-Java 的开源路线图？
 
@@ -76,4 +76,4 @@ AgentScope Java 自 2025 年 9 月开源（https://github.com/agentscope-ai/agen
 
 在技术演进层面，我们正持续探索更高效、智能的上下文工程与多 Agent 协同范式，致力于支撑更强大的 AI 应用构建。此外，针对 Agent 流量呈现的"二八定律"特征（头部 20%的 Agent 承载了 80%的流量），我们在架构上全力推进 Serverless 化，通过实现毫秒级冷启动与混合部署，帮助开发者在应对高并发的同时，显著降低部署成本并提升效率。
 
-![AgentScope-Java 路线图与 Serverless 架构](../images/saa-agentscope/006.jpg)
+![AgentScope-Java 路线图与 Serverless 架构](../images/saa-agentscope/006.webp)

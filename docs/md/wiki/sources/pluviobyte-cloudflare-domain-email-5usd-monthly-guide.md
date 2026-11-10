@@ -38,7 +38,7 @@ Cloudflare 绝对是目前最便宜、最稳定的域名邮箱方案！！！
 
 刚打开时，右侧 Configuration summary 里的 DNS records 显示 Not configured，下面 Next Steps 的第一条就是 Fix DNS records。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/002.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/002.webp)
 
 ### 第 2 步 添加解析记录
 
@@ -48,15 +48,15 @@ Cloudflare 绝对是目前最便宜、最稳定的域名邮箱方案！！！
 - 1 条 SPF 的 TXT 记录，值是 v=spf1 include:_spf.mx.cloudflare.net ~all
 - 1 条 DKIM 的 TXT 记录，主机名是 cf2024-1._domainkey.yourdomain.com
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/003.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/003.webp)
 
 这 5 条记录不用手动抄。滚到列表底部，点蓝色的 Add missing records，Cloudflare 会自动写进域名的 DNS。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/004.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/004.webp)
 
 添加完成后，红色的 Missing 换成了 Locked 或 Unlocked。按官方文档的说法，两种状态都表示记录配置正确。Locked 的记录由 Email Service 托管，在 DNS 记录页里不能直接编辑或删除，防止误改之后收不到信。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/005.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/005.webp)
 
 我用 dig 查了一遍，3 条 MX 记录已经生效：
 
@@ -77,13 +77,13 @@ $ dig +short MX yourdomain.com
 
 目标邮箱是账号级别的。页面上写着 “Destination addresses are shared across every zone on this account”，验证一次，账号下所有域名都能用。一个账号最多 200 个。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/006.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/006.webp)
 
 ### 第 4 步 创建转发规则
 
 切到 Routing rules 标签。新域名默认只有一条 Catch-all 规则，动作是 Drop，状态是 Disabled。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/007.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/007.webp)
 
 点右上角的 Create routing rule，弹出的表单里填三项：
 
@@ -93,11 +93,11 @@ $ dig +short MX yourdomain.com
 
 Action 一共三个选项：Send to an email 是转发到邮箱，Send to a Worker 是交给 Worker 用代码处理，Drop 是直接丢弃。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/008.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/008.webp)
 
 点 Save，规则列表里多了一行 support@yourdomain.com，状态是 Active。收信到这里就配完了。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/009.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/009.webp)
 
 现在只有 support@ 这一个地址会转发。Catch-all 规则管的是没有匹配到任何规则的来信，想让任意前缀都能收到，可以把 Catch-all 打开并把动作改成转发。
 
@@ -131,15 +131,15 @@ Action 一共三个选项：Send to an email 是转发到邮箱，Send to a Work
 
 在左侧菜单点 Email Sending。Free 套餐下页面只有一句提示 “Email Sending is currently only available with the Workers Paid plan”，和一个 Purchase Workers Paid 按钮。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/010.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/010.webp)
 
 点按钮进入付款确认页。页面上有三块内容：套餐价格 $5 / month 和包含的 Workers 额度，扣款的银行卡，还有两个必须勾选的选项。第一个选项是同意服务条款和隐私政策。第二个选项是授权 Cloudflare 每月对超出免费额度的用量扣这张卡，直到取消订阅，取消在当前账单周期结束时生效。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/011.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/011.webp)
 
 付款完成后回到 Email Sending 页面，原来的提示换成了 Onboard Domain 按钮，右侧多了一个 Usage 面板，显示当前账单周期的计费用量。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/012.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/012.webp)
 
 5 美元是底价，用量超出套餐额度会继续扣费。Usage 面板上有 Add Budget Alert 入口，可以设预算提醒，例如每个账单周期 10 美元。预算提醒只发邮件通知，不会自动停掉服务。
 
@@ -149,7 +149,7 @@ Action 一共三个选项：Send to an email 是转发到邮箱，Send to a Work
 
 向导第一步是 Select domain。Zone 里选要发信的域名，Subdomain 留空，表示直接用顶级域名发信，发件地址的格式是 xxx@yourdomain.com。填好后点 Continue。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/013.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/013.webp)
 
 向导第二步是 Verify and activate。页面列出了将要写入域名的 6 条解析记录：
 
@@ -158,9 +158,9 @@ Action 一共三个选项：Send to an email 是转发到邮箱，Send to a Work
 - 1 条 DKIM 的 TXT 记录，主机名是 cf-bounce._domainkey.yourdomain.com
 - 1 条 DMARC 的 TXT 记录，主机名是 _dmarc.yourdomain.com，值是 v=DMARC1; p=reject;
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/014.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/014.webp)
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/015.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/015.webp)
 
 发信的 MX、SPF、DKIM 记录都放在 cf-bounce 子域下，和第 2 步加在根域名上的收信记录分开。
 
@@ -168,7 +168,7 @@ DMARC 记录的值要留意。p=reject 的意思是，发件人写着这个域�
 
 点 Activate，页面跳到这个域名的 Overview。右侧 Sending status 显示 Enabled，DNS records 显示 Configured，发信域名开通完成。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/016.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/016.webp)
 
 激活后我用 dig 查了 cf-bounce 子域的 MX 记录和 _dmarc 上的 TXT 记录，都已经生效。
 
@@ -187,11 +187,11 @@ Overview 上监控四个发信质量指标，每个指标都标了警戒线：
 
 切到 REST API 标签。Get an API token 下面有一个 Create Email Sending token 按钮。下方示例代码的接口地址里已经带上了账号的 Account ID，配环境变量时要用。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/017.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/017.webp)
 
 点 Create Email Sending token，右侧滑出 Create an Email Sending API token 面板。Permissions 已经预先选好 Account、Email Sending、Edit，Account Resources 选的是当前账号，填上 Token name。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/018.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/018.webp)
 
 点 Create API Token，面板变成 API Token Created，提示 “Make sure to copy your API token now, this will not be shown again”。令牌只显示这一次，要当场点 Copy API Token 复制下来。新令牌同时会被填进页面下方的示例代码。
 
@@ -243,7 +243,7 @@ delivered 是已经投递的地址，queued 是排队稍后投递的地址，per
 - Username：固定填 api_token
 - Password：填第 8 步创建的 API 令牌
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/019.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/019.webp)
 
 ### 接进网站代码
 
@@ -271,7 +271,7 @@ if (!response.ok || !json.success) {
 
 配好这两个环境变量并重新部署后，我在网站上用邮箱注册了一次。验证邮件进了 Gmail 的收件箱，没有被归到垃圾邮件，发件人显示为 support@yourdomain.com。
 
-![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/020.jpg)
+![](../images/pluviobyte-cloudflare-domain-email-5usd-monthly-guide/020.webp)
 
 ## Cloudflare 和 Resend 的选择
 

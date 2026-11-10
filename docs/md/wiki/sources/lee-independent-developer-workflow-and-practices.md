@@ -17,7 +17,7 @@ coverImage: "../images/lee-independent-developer-workflow-and-practices/001.jpg"
 
 https://github.com/mu-zi-lee/hitl-dev-loop 直接这个也行
 
-![](../images/lee-independent-developer-workflow-and-practices/002.jpg)
+![](../images/lee-independent-developer-workflow-and-practices/002.webp)
 
 因为前段时间在给 @yetone 的 magpie 做插件还有提 pr，然后吃了个 yetone 的瓜。后面看到了他分享自己如何进行持续的 AI 开发的，所以想写点东西。其实这个工作流也很正常吧：提出问题、然后解决问题，最后验证问题是否可行。
 
@@ -85,7 +85,7 @@ https://github.com/mu-zi-lee/tangentry
 
 对于你的 Claude Agent，我建议你选择最高档的 OPUS 5.5，然后让它启动一个子 Agent（subagent）用于监测 GitHub 的 PR 和 issue，这个时候使用 Sonnet 5.5 就可以了。当 sub agent 返回结果之后，告诉主 OPUS5.5 你看到了什么。如果需要代码合并的话，就让 OPUS5.5 将任务交给最高档的 Codex 6.1 Sol，或者说用 6 Astra。
 
-![](../images/lee-independent-developer-workflow-and-practices/003.jpg)
+![](../images/lee-independent-developer-workflow-and-practices/003.webp)
 
 这样我们就可以得到一个结构。
 

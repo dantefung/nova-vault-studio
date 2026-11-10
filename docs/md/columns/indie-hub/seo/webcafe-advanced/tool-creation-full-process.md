@@ -11,7 +11,7 @@ url: "https://new.web.cafe/tutorial/detail/gz96vzpif7dW65iFcHDbTY"
 > 来源：[web.cafe 进阶教程](https://new.web.cafe/tutorial/detail/gz96vzpif7dW65iFcHDbTY)
 > 作者：哥飞
 
-![封面图](images/tool-creation-full-process/gefei-tool-creation-full-process_000.jpg)
+![封面图](images/tool-creation-full-process/gefei-tool-creation-full-process_000.webp)
 
 大家好，我是哥飞，微信号 qiayue，今天给大家聊聊一个出海工具网站，如何从需求挖掘到网站制作全流程，让你一篇文章学会。
 
@@ -62,33 +62,33 @@ url: "https://new.web.cafe/tutorial/detail/gz96vzpif7dW65iFcHDbTY"
 
 举例在谷歌搜索"pdf"，排名第一的是 adobe官网，第二就是 ilovepdf.com ，那么就可以打开 Similarweb 查看流量。
 
-![Similarweb流量数据](images/tool-creation-full-process/gefei-tool-creation-full-process_001.jpg)
+![Similarweb流量数据](images/tool-creation-full-process/gefei-tool-creation-full-process_001.webp)
 
 这里访问量单位 M表示 100 万，8.8M是 880 万，138.8M就是一亿三千八百八十万。跳出率只有 20%不到，说明大家打开之后，都能够找到自己所需要的工具，说明的确是有用的工具。
 
 如果跳出率太高，就说明进来的人打开后就关闭了页面，这种情况，要么是网站打开太慢，要么是垃圾站，满足不了搜索进来的用户的需求。每次访问页数和访问时长也说明了这个工具站是能够满足用户需求的。
 
-![流量地域分布](images/tool-creation-full-process/gefei-tool-creation-full-process_002.jpg)
+![流量地域分布](images/tool-creation-full-process/gefei-tool-creation-full-process_002.webp)
 
 看上图，流量还是很分散的，各个国家都有。不过有些国家看起来是空白，大家可以去研究一下。
 
 还可以看到很多类似网站，每一个网站的流量数据都展示出来了，我们可以点进每一个网站去看具体的数据。
 
-![类似网站列表](images/tool-creation-full-process/gefei-tool-creation-full-process_003.jpg)
+![类似网站列表](images/tool-creation-full-process/gefei-tool-creation-full-process_003.webp)
 
 所以相当于，你只需要在谷歌找到一个网站，就能够顺藤摸瓜，找到很多网站。
 
-![流量来源分析](images/tool-creation-full-process/gefei-tool-creation-full-process_004.jpg)
+![流量来源分析](images/tool-creation-full-process/gefei-tool-creation-full-process_004.webp)
 
 64.6%流量来自于搜索引擎，那就说明这个网站 SEO真的做得好很好。同时又不是 90%来自于搜索引擎，还有 31.3%是直接访问的。这就是说明，这个网站能够把从搜索引擎过来的新用户转变为老用户。用户要么记住网址了，要么加入书签了。又再次印证了我们之前说的，这个网站用户体验做得好，能够满足用户需求。
 
-![搜索关键词来源](images/tool-creation-full-process/gefei-tool-creation-full-process_005.jpg)
+![搜索关键词来源](images/tool-creation-full-process/gefei-tool-creation-full-process_005.webp)
 
 这里可以看到用户都是搜索哪些关键词进来的，可以看到品牌词就有 850 万，也说明这个品牌深入人心了。
 
-![关键词详情 1](images/tool-creation-full-process/gefei-tool-creation-full-process_006.jpg)
-![关键词详情 2](images/tool-creation-full-process/gefei-tool-creation-full-process_007.jpg)
-![关键词详情 3](images/tool-creation-full-process/gefei-tool-creation-full-process_008.jpg)
+![关键词详情 1](images/tool-creation-full-process/gefei-tool-creation-full-process_006.webp)
+![关键词详情 2](images/tool-creation-full-process/gefei-tool-creation-full-process_007.webp)
+![关键词详情 3](images/tool-creation-full-process/gefei-tool-creation-full-process_008.webp)
 
 如 https://presearch.com/ ，打开就发现，每个月有 890 万访问量，也很大了。看介绍，这是一个去中心化的搜索引擎，哥飞也是第一次知道这个网站。那么对于一个新网站，我们就可以按照研究 ilovepdf.com 一样，再去研究一下，说不定又会有新发现。
 
@@ -102,7 +102,7 @@ Similarweb 就先给大家介绍这么多了，以上这些功能，甚至都不
 
 网址：https://zh.semrush.com/projects/
 
-![Semrush界面](images/tool-creation-full-process/gefei-tool-creation-full-process_009.jpg)
+![Semrush界面](images/tool-creation-full-process/gefei-tool-creation-full-process_009.webp)
 
 使用方式很简单，依然是把域名输入进去，提交搜索后就能看到结果页面。
 
@@ -110,23 +110,23 @@ Similarweb 就先给大家介绍这么多了，以上这些功能，甚至都不
 
 我们点击上面的 114.3M，就能看到这个站在各个国家的搜索关键字流量来源。
 
-![各国关键词流量](images/tool-creation-full-process/gefei-tool-creation-full-process_010.jpg)
+![各国关键词流量](images/tool-creation-full-process/gefei-tool-creation-full-process_010.webp)
 
 注意看 KD那一列，代表的就是这个词在这个国家的优化竞争度，数字越高竞争度越高，我们几乎无法竞争过去。
 
 免费版本无法按照 KD难度筛选关键字，如果是 VIP账号的话，我们可以筛选 KD值 60 以下的词，按照搜索量从高到低排序，就有可能能够挖掘到一些有一定搜索量，但是竞争难度不高的词。
 
-![KD筛选结果](images/tool-creation-full-process/gefei-tool-creation-full-process_011.jpg)
+![KD筛选结果](images/tool-creation-full-process/gefei-tool-creation-full-process_011.webp)
 
 每个关键字都点击打开新页面，可以看到这个关键字的搜索量，优化竞争度，排名前几的结果。
 
 类似于 seword 这种别人品牌词的，直接略过，不建议继续去看。
 
-![关键词详情分析](images/tool-creation-full-process/gefei-tool-creation-full-process_012.jpg)
+![关键词详情分析](images/tool-creation-full-process/gefei-tool-creation-full-process_012.webp)
 
 哥飞去找了一下，发现一个词"poxer"，竞争难度很低，下面的搜索结果也都是内页。那么如果我们注册一个相关域名，举全站之力去优化这个词，很容易就能够上谷歌首页。
 
-![poxer关键词分析](images/tool-creation-full-process/gefei-tool-creation-full-process_013.jpg)
+![poxer关键词分析](images/tool-creation-full-process/gefei-tool-creation-full-process_013.webp)
 
 注意，"monkey pox"表示"猴痘"，"pox"表示"痘"，所以"poxer"有可能用户想了解的是患了"痘"的人相关信息。
 
@@ -140,8 +140,8 @@ Semrush 功能很多，很强大，我们今天就只介绍以上看域名和看
 
 网址：https://trends.google.com/trends/
 
-![Google Trends对比](images/tool-creation-full-process/gefei-tool-creation-full-process_014.jpg)
-![Google Trends趋势](images/tool-creation-full-process/gefei-tool-creation-full-process_015.jpg)
+![Google Trends对比](images/tool-creation-full-process/gefei-tool-creation-full-process_014.webp)
+![Google Trends趋势](images/tool-creation-full-process/gefei-tool-creation-full-process_015.webp)
 
 从上面两个词对比就可以看出来，有些词的搜索量是有周期性的，如母亲节，只在每年的母亲节前后搜索量高，之后全年都很低。但是"poxer"则一年都很平稳。
 
@@ -153,17 +153,17 @@ ahrefs 功能也很强大，很多功能，我们今天只介绍免登录就可�
 
 输入要查询的词，选择要查询的国家，点击 check按钮，就可以查询了。
 
-![ahrefs查询界面](images/tool-creation-full-process/gefei-tool-creation-full-process_016.jpg)
+![ahrefs查询界面](images/tool-creation-full-process/gefei-tool-creation-full-process_016.webp)
 
 在这个结果页面，我们主要关注难度和外链数据。从页面可以看到，竞争难度 95，需要 1391 个外链网站才有可能能排上谷歌美国搜索的前 10。
 
 通常，如果所需要的外链网站数量小于 100，我们都可以去尝试一下。
 
-![ahrefs难度分析](images/tool-creation-full-process/gefei-tool-creation-full-process_017.jpg)
+![ahrefs难度分析](images/tool-creation-full-process/gefei-tool-creation-full-process_017.webp)
 
 刚才我们在 Similarweb查看 ilovepdf 的流量也发现，在美国几乎没流量，从上图的搜索结果列表也可以看出来，ilovepdf就没有上榜。在前 10 可以看到 https://www.freepdfconvert.com/，大家可以当作作业，去分析一下这个站。
 
-![freepdfconvert分析](images/tool-creation-full-process/gefei-tool-creation-full-process_018.jpg)
+![freepdfconvert分析](images/tool-creation-full-process/gefei-tool-creation-full-process_018.webp)
 
 以"poxer"为例，查询结果显示难度为 0，也就是说这是一个没人关注的小词新词，所以很容易就能优化上去。
 
@@ -179,15 +179,15 @@ ahrefs 功能也很强大，很多功能，我们今天只介绍免登录就可�
 
 https://www.reddit.com/r/juststart/comments/mcaodn/how_i_built_a_site_for_less_than_2000_which_now/
 
-![Reddit帖子](images/tool-creation-full-process/gefei-tool-creation-full-process_019.jpg)
-![Reddit评论](images/tool-creation-full-process/gefei-tool-creation-full-process_020.jpg)
+![Reddit帖子](images/tool-creation-full-process/gefei-tool-creation-full-process_019.webp)
+![Reddit评论](images/tool-creation-full-process/gefei-tool-creation-full-process_020.webp)
 
 这个方法在 Semrush 中也可以使用，哥飞带大家实际试用一下。
 
 打开 Keyword Magic Tool，随便输入一些词，这里我选择了猫猫狗狗这些常见的词，选择 KD（竞争度）0～29%，也就是低竞争度，排除一些色情词汇，然后一个一个去看，就给我发现了"cat coloring pages" 这个词，竞争度只有 27，而且搜索结果前 6 都是内页，那么我们注册一个域名来优化这个词，就很容易排到谷歌搜索首页。
 
-![Keyword Magic Tool搜索](images/tool-creation-full-process/gefei-tool-creation-full-process_021.jpg)
-![cat coloring pages分析](images/tool-creation-full-process/gefei-tool-creation-full-process_022.jpg)
+![Keyword Magic Tool搜索](images/tool-creation-full-process/gefei-tool-creation-full-process_021.webp)
+![cat coloring pages分析](images/tool-creation-full-process/gefei-tool-creation-full-process_022.webp)
 
 这里解释一下，对于同一个关键字，一般来讲，
 
@@ -201,19 +201,19 @@ https://www.reddit.com/r/juststart/comments/mcaodn/how_i_built_a_site_for_less_t
 
 再在 https://ahrefs.com/keyword-difficulty 这里验证一下，优化难度 9，只需要 10 个外链就能排到首页，说明的确值得去做。
 
-![ahrefs验证](images/tool-creation-full-process/gefei-tool-creation-full-process_023.jpg)
+![ahrefs验证](images/tool-creation-full-process/gefei-tool-creation-full-process_023.webp)
 
 既然 cat可以，dog是否也可以呢？flower是否可以呢？大家可以发散思维，找到更多词。
 
 用 coloring pages 去搜索下，找到很多相关词，不过有一些词竞争难度比较大。
 
-![coloring pages相关词](images/tool-creation-full-process/gefei-tool-creation-full-process_024.jpg)
+![coloring pages相关词](images/tool-creation-full-process/gefei-tool-creation-full-process_024.webp)
 
 如果我们要做一个网站来满足这些词的搜索需求，要怎么做呢？
 
 首先注册一个合适的域名，前面我们讲过，域名带上 AI，会让我们的推广事半功倍，所以可以用 ai-coloring-pages.com 这个域名，完美符合关键字，也增加了 AI元素。
 
-![域名注册](images/tool-creation-full-process/gefei-tool-creation-full-process_025.jpg)
+![域名注册](images/tool-creation-full-process/gefei-tool-creation-full-process_025.webp)
 
 此时此刻，这个域名是可以注册的，看看谁手速快。
 
@@ -229,7 +229,7 @@ https://www.reddit.com/r/juststart/comments/mcaodn/how_i_built_a_site_for_less_t
 
 然后给每张图片的 alt都写上合适的描述，让用户能够在图片搜索时找到你的图片，进而打开你的网页。
 
-![图片 SEO优化](images/tool-creation-full-process/gefei-tool-creation-full-process_026.jpg)
+![图片 SEO优化](images/tool-creation-full-process/gefei-tool-creation-full-process_026.webp)
 
 我们的目标是让我们的图片出现在红色大框位置。
 
@@ -267,7 +267,7 @@ Github https://github.com/ 可以找到很多开源代码，有很多代码是�
 
 Vercel 模板中心 https://vercel.com/templates 有很多可以一键部署拿来就用的模板。
 
-![Vercel模板](images/tool-creation-full-process/gefei-tool-creation-full-process_027.jpg)
+![Vercel模板](images/tool-creation-full-process/gefei-tool-creation-full-process_027.webp)
 
 哥飞以前在即刻讲过，有个朋友 3 月份注册的域名，一直没去用起来。
 
@@ -281,7 +281,7 @@ Vercel 模板中心 https://vercel.com/templates 有很多可以一键部署拿�
 
 还有 https://codecanyon.net/search/ai 有很多收费的源码，有完整的功能，价格不贵，只要几十美元。
 
-![Codecanyon源码](images/tool-creation-full-process/gefei-tool-creation-full-process_028.jpg)
+![Codecanyon源码](images/tool-creation-full-process/gefei-tool-creation-full-process_028.webp)
 
 我有一个朋友，有一个完美的单字母域名，想用来做一个短链网站，但是因为他自己不会开发，域名就一直在那里放着。
 

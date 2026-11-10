@@ -8,6 +8,7 @@ Verifies that all image references in markdown files point to existing files.
 import sys
 import os
 import re
+import subprocess
 from pathlib import Path
 
 
@@ -21,7 +22,8 @@ def check_image_references(md_file: str) -> bool:
     md_dir = md_path.parent
 
     # Match inline images and reference-style image definitions.
-    img_pattern = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
+    # Supports balanced inner parentheses in URLs (e.g. "image (1).png")
+    img_pattern = re.compile(r'!\[([^\]]*)\]\(((?:[^()]+|\([^()]*\))+)\)')
     reference_labels = {
         (label or alt).casefold() for alt, label in re.findall(r'!\[([^\]]*)\]\[([^\]]*)\]', content)
         if (label or alt)
@@ -102,12 +104,20 @@ def check_image_references(md_file: str) -> bool:
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: check-image-refs.py <file.md>")
-        sys.exit(1)
+    if len(sys.argv) > 1:
+        files = sys.argv[1:]
+    else:
+        result = subprocess.run(
+            ['git', 'diff', '--cached', '--name-only', '--diff-filter=ACM'],
+            capture_output=True, text=True
+        )
+        files = [fp for fp in result.stdout.splitlines() if fp.endswith('.md') and not fp.startswith('docs/public/')]
 
-    md_file = sys.argv[1]
-    success = check_image_references(md_file)
+    success = True
+    for md_file in files:
+        if not check_image_references(md_file):
+            success = False
+
     sys.exit(0 if success else 1)
 
 

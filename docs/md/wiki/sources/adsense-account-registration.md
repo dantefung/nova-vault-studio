@@ -18,11 +18,11 @@ Adsense 是谷歌推出的网站广告联盟。做好网站有流量之后，放
 
 秋玉米（中文站）ecpm 为 0.54 美元，每天 1000 UV 每月赚 208 美元（约 1500 元人民币）。
 
-![ecpm 截图](../images/adsense-account-registration/001.jpeg)
+![ecpm 截图](../images/adsense-account-registration/001.webp)
 
 而哥飞的英文站 ecpm 最高能达到 10 美元，是中文站的 18.5 倍。所以建议做海外网站，特别是给发达国家人民做网站。
 
-![收入数据](../images/adsense-account-registration/002.png)
+![收入数据](../images/adsense-account-registration/002.webp)
 
 ## 账号注册步骤
 
@@ -41,29 +41,29 @@ Adsense 是谷歌推出的网站广告联盟。做好网站有流量之后，放
 
 4. 如果你还没有网站，建议先部署 Wordpress 博客，写原创博客，每天一到两篇，坚持半个月一个月再申请
 
-![添加网站](../images/adsense-account-registration/003.png)
+![添加网站](../images/adsense-account-registration/003.webp)
 
 5. 网站填顶级域名，不需要加 https 也不需要加路径，国家地区选择真实的中国（后续需要验证真实地址）
 
-![填写信息](../images/adsense-account-registration/004.png)
+![填写信息](../images/adsense-account-registration/004.webp)
 
 6. 填写真实个人信息，账号类型选择个人，姓名地址填中文
 
-![个人信息](../images/adsense-account-registration/005.png)
+![个人信息](../images/adsense-account-registration/005.webp)
 
 7. 获取广告代码放到网站里，审核期间不会真的显示广告
 
-![广告代码](../images/adsense-account-registration/006.png)
+![广告代码](../images/adsense-account-registration/006.webp)
 
 8. 关联网站，不仅需要复制广告代码，还需要在网站根目录添加 ads.txt 文件，两个验证方式都需要做
 
-![验证方式](../images/adsense-account-registration/008.png)
+![验证方式](../images/adsense-account-registration/008.webp)
 
-![ads.txt 和代码](../images/adsense-account-registration/009.jpeg)
+![ads.txt 和代码](../images/adsense-account-registration/009.webp)
 
 9. 验证通过后，点击"申请审核"
 
-![申请审核](../images/adsense-account-registration/010.png)
+![申请审核](../images/adsense-account-registration/010.webp)
 
 ## 审核流程
 
@@ -83,7 +83,7 @@ Adsense 是谷歌推出的网站广告联盟。做好网站有流量之后，放
 
 找到管理站点页面，点击"新建网站"，按步骤添加域名即可。
 
-![新建网站](../images/adsense-account-registration/011.png)
+![新建网站](../images/adsense-account-registration/011.webp)
 
 ## 付款流程
 

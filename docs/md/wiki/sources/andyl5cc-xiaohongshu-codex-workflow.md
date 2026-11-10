@@ -8,7 +8,7 @@ url: "https://x.com/AndyL5cc/status/2100900528482062714"
 
 # 我是怎么用 Codex 做小红书，2 天涨了 1000 粉
 
-![](../images/andyl5cc-xiaohongshu-codex-workflow/001.jpg)
+![](../images/andyl5cc-xiaohongshu-codex-workflow/001.webp)
 
 答应大家的 X涨到2000 粉，分享小红书起号攻略，来交作业了。
 
@@ -20,7 +20,7 @@ url: "https://x.com/AndyL5cc/status/2100900528482062714"
 
 整个项目的起点，只是我在 X 上刷到了这篇帖子。
 
-![](../images/andyl5cc-xiaohongshu-codex-workflow/002.jpg)
+![](../images/andyl5cc-xiaohongshu-codex-workflow/002.webp)
 
 对方分享了一个刚起不久的小红书账号。
 
@@ -120,7 +120,7 @@ url: "https://x.com/AndyL5cc/status/2100900528482062714"
 
 后面继续跑，2 天涨了 1000 粉，目前数据还在涨！
 
-![](../images/andyl5cc-xiaohongshu-codex-workflow/003.jpg)
+![](../images/andyl5cc-xiaohongshu-codex-workflow/003.webp)
 
 这次实验让我最大的感受是：
 

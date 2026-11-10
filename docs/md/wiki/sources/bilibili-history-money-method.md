@@ -20,9 +20,9 @@ url: "https://mp.weixin.qq.com/s/7gJvgNk8sUZuNT-qjaNsqg"
 
 以「哔哩哔哩无限历史记录」（bilibilihistory.com）这款产品为例，拆解产品赚钱的核心框架：
 
-![](../images/bilibili-history-money-method/004.png)
-![](../images/bilibili-history-money-method/005.png)
-![](../images/bilibili-history-money-method/006.png)
+![](../images/bilibili-history-money-method/004.webp)
+![](../images/bilibili-history-money-method/005.webp)
+![](../images/bilibili-history-money-method/006.webp)
 
 ### 一、用户群体：选一个有人离不开的平台
 
@@ -30,7 +30,7 @@ url: "https://mp.weixin.qq.com/s/7gJvgNk8sUZuNT-qjaNsqg"
 
 不只 B 站，作者围绕 Codex 生态做了一批 Skill，总结了几种切入商机：
 
-![](../images/bilibili-history-money-method/008.png)
+![](../images/bilibili-history-money-method/008.webp)
 
 1. **补能力**：Codex 擅长写代码，不擅长的写作、设计、出图、排版、发布就是缝，做成 Skill 补上去
 2. **做配套插件**：围绕 Codex 的剪辑视频、长文写作、图片制作等
@@ -42,7 +42,7 @@ url: "https://mp.weixin.qq.com/s/7gJvgNk8sUZuNT-qjaNsqg"
 
 ### 二、产品形态：挑一个上架难度扛得住的
 
-![](../images/bilibili-history-money-method/010.png)
+![](../images/bilibili-history-money-method/010.webp)
 
 不同产品形态的上架难度：
 - **浏览器插件**：最轻，审核松、上线快、可内置收费
@@ -55,8 +55,8 @@ url: "https://mp.weixin.qq.com/s/7gJvgNk8sUZuNT-qjaNsqg"
 
 ### 三、收费模式：刀法要精准
 
-![](../images/bilibili-history-money-method/011.png)
-![](../images/bilibili-history-money-method/012.png)
+![](../images/bilibili-history-money-method/011.webp)
+![](../images/bilibili-history-money-method/012.webp)
 
 两条定价笨办法：
 - **有竞品**：扒竞品怎么收，市场帮你验过的价格锚

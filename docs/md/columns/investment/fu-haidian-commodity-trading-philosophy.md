@@ -29,7 +29,7 @@ url: ""
 
 ## 配图
 
-![傅海棠商品交易心法](./images/fu-haidian-commodity-trading.png)
+![傅海棠商品交易心法](images/fu-haidian-commodity-trading.webp)
 
 ---
 

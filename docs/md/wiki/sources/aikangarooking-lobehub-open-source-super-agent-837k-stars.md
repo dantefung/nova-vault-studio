@@ -17,11 +17,11 @@ coverImage: "../images/aikangarooking-lobehub-open-source-super-agent-837k-stars
 
 上周六，DeepSeek 的 Harness 团队发了一篇硬核长文《Super-agent 设计探索：迈向更自主的 Agent 系统》，各种 AI 群里直接炸锅了。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/002.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/002.webp)
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/003.png)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/003.webp)
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/004.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/004.webp)
 
 文中的描述的痛点真滴戳中了每一个天天用 Agent 的人（包括我自己）：
 
@@ -31,9 +31,9 @@ coverImage: "../images/aikangarooking-lobehub-open-source-super-agent-837k-stars
 
 这不就是出差的我吗🤣
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/005.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/005.webp)
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/006.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/006.webp)
 
 到头来，人好像反而成了打下手的，天天当人肉路由器，把 Agent 们捧在手心
 
@@ -43,11 +43,11 @@ DeepSeek 正是为了解决这些痛点，提出了 Super-agent 设想：
 
 说实话上面提到的都是我的痛点，我是真想早点用上这套系统。可惜 DeepSeek 说明这只是架构探索原型，并非正式产品。。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/007.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/007.webp)
 
 不过我在众多信息里面注意到，其中一个群友分享的内容。原来已经有成品可以用了啊～
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/008.png)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/008.webp)
 
 我了解了一下，没想到 LobeHub 早在半年前就已经把这套类 Super-agent 的体系跑在生产环境里了（这个待会儿会详细说说）。
 
@@ -57,9 +57,9 @@ DeepSeek 正是为了解决这些痛点，提出了 Super-agent 设想：
 
 即便名字没记住，我相信你应该对这个图标有印象，他们还有一个非常全面的 Skills 市场：
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/009.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/009.webp)
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/010.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/010.webp)
 
 不过，说到 LobeHub，很多人的第一反应可能还是 2023 年开源的 LobeChat。相信有不少人用它套过壳，比如给公司内部部署模型使用，或者对外提供服务去卖 token。我那时候还专门本地部署了一套，用来连接各种大模型 API。
 
@@ -71,13 +71,13 @@ DeepSeek 正是为了解决这些痛点，提出了 Super-agent 设想：
 
 而且 DeepSeek 官方多次选用 LobeHub 作为发布演示平台。展示 V3、R1 的深度思考与工具调用时，用的前端界面正是 LobeHub。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/011.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/011.webp)
 
 他们不仅做产品，还联合新加坡国立大学 NUS 发起了 MCP 的压力测试基准 MCPMark，以及专注评测 Coding Agent 能否打磨好用户体验的 Interaction Bench （iBench）基准。真是高精力啊。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/012.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/012.webp)
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/013.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/013.webp)
 
 最骚的是他们团队表示：“We Build LobeHub with LobeHub”（我们正在用 LobeHub 开发 LobeHub）
 
@@ -101,13 +101,13 @@ LobeHub 的实践几乎完全对应了这个思路：
 
 上层是 Manager Agent，在他们团队里有一个叫 Nasa 的主管 Agent，常驻在协作频道里，负责理解需求、拆任务、派活和验收。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/014.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/014.webp)
 
 下层则是特化的 Worker Agent，比如专门跑 Claude Code 或者 Codex 的编程 Agent Dario。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/015.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/015.webp)
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/016.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/016.webp)
 
 Worker 绝对不能直接在外部群里说话！只需要埋头干活即可，所有产出和状态都沉淀在任务内部，干完之后由 Manager Agent 统一整理成简短的高层摘要，汇报给人类。
 
@@ -123,7 +123,7 @@ DeepSeek 文章第三节强调了主动性，提出了规则层 Fast Path 加语
 
 这在群聊里面就特别方便，以前是只能@触发，要不就是每条消息都触发，就很烦人。现在可以从源头设置智能触发就很好。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/017.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/017.webp)
 
 你可以给频道设置监听关键词、事件范围，再由模型按照职责进行语义二次裁决。
 
@@ -141,11 +141,11 @@ DeepSeek 文章第三节强调了主动性，提出了规则层 Fast Path 加语
 
 Agent Loop 常驻云端，端侧只留一个轻量 daemon 守护进程。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/018.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/018.webp)
 
 我看了一下，其实 LobeHub 在今年 1 月份发布的架构里，就已经实现了这种彻底的分离：
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/019.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/019.webp)
 
 脑子（Agent Loop）跑在云端无状态容器里，哪怕受制于某些云平台的单次执行时长限制，它也能把每一次工具调用变成异步推进，然后状态（记忆）存进 Redis 和数据库。
 
@@ -167,7 +167,7 @@ DeepSeek 在文章第 8.3 节，特意把上下文边界与多 Agent 协作列�
 
 这个 Task 从一开始的提问、代码修改的 Thread 对话、中间产物、CI 结果，到最终的 PR 链接，全部沉淀在同一个任务页里。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/020.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/020.webp)
 
 团队里的所有人和其他 Agent，只要点进这个 Task，上下文天然是完整的、可追溯的。它不需要一个万能的大脑去记住全世界的事，而是让每个具体的目标拥有自己的完整闭环。
 
@@ -195,9 +195,9 @@ Agent 改完代码后，会把需求拆解成一个个可观察的验收项。�
 
 可以多任务并行执行，然后有云端主机（原理跟上面 DeepSeek 提出的存算环境三层分离类似，这里不重复赘述了）。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/021.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/021.webp)
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/022.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/022.webp)
 
 1. 群里一句话，它自己接活、拆活、派活&#xA;
 
@@ -205,7 +205,7 @@ Agent 改完代码后，会把需求拆解成一个个可观察的验收项。�
 
 我没有没有 @任何一个 agent、没有唤醒词、没有「在吗」，但他理解到要干活了，一号牛马上线。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/023.png)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/023.webp)
 
 比如我把我在 github 上开源的仓颉.Skill 的一个真实维护需求丢给它
 
@@ -217,7 +217,7 @@ Agent 改完代码后，会把需求拆解成一个个可观察的验收项。�
 
 然后它做的第二件事不是继续聊天，是去建好任务给部门里的员工们：
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/024.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/024.webp)
 
 然后我打开 LobeHub 桌面端的任务页，它干了这么几件事：
 
@@ -227,7 +227,7 @@ Agent 改完代码后，会把需求拆解成一个个可观察的验收项。�
 
 还把依赖链配好了：T-2 → T-3 → T-4 → T-5。任务可以并行执行并且可以点开看任务内容、步骤、中间产物等。
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/025.png)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/025.webp)
 
 这确实让我感受到了新奇。
 
@@ -241,7 +241,7 @@ Agent 改完代码后，会把需求拆解成一个个可观察的验收项。�
 
 能实时定位到任务、负责人和卡点的进度，很像一个小公司达到的颗粒度。哈哈 颗粒度，这个词大家很熟吧🤣
 
-![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/026.jpg)
+![](../images/aikangarooking-lobehub-open-source-super-agent-837k-stars/026.webp)
 
 所以，LobeHub 的核心是 Task
 

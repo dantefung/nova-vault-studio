@@ -56,7 +56,7 @@ Markdown Content:
 
 搜索引擎通过广告盈利
 
-![Image 1: Google 搜索结果截图，显示付费结果和自然结果](images/image-search-engines-make-money-from-ads-E7MPMLXP.png)
+![Image 1: Google 搜索结果截图，显示付费结果和自然结果](images/image-search-engines-make-money-from-ads-E7MPMLXP.webp)
 
 * * *
 
@@ -68,7 +68,7 @@ Markdown Content:
 
 Google 如何构建其搜索索引
 
-![Image 2: 图表展示 Google 如何构建其搜索索引：抓取、处理和建立索引](images/image-how-google-builds-its-search-index-JGM64LRO.png)
+![Image 2: 图表展示 Google 如何构建其搜索索引：抓取、处理和建立索引](images/image-how-google-builds-its-search-index-JGM64LRO.webp)
 
 下面我们来逐一剖析。
 
@@ -124,7 +124,7 @@ Google 占据 91.43% 的搜索引擎市场份额。由于它是大多数人使�
 
 基于对 Ahrefs Content Explorer 索引中超过十亿个页面的研究。
 
-![Image 3: 图表展示超过十亿个页面中引用域名与搜索流量之间的相关性](images/image-the-correlation-between-referring-domains-and-search-traffic-GZG7L5ZK.png)
+![Image 3: 图表展示超过十亿个页面中引用域名与搜索流量之间的相关性](images/image-the-correlation-between-referring-domains-and-search-traffic-GZG7L5ZK.webp)
 
 不过，这并不完全取决于数量，质量同样重要。拥有[少量高质量反向链接](https://ahrefs.com/zh/blog/high-quality-backlinks/)的页面，其排名往往高于那些拥有大量低质量反向链接的页面。
 
@@ -138,7 +138,7 @@ Google 占据 91.43% 的搜索引擎市场份额。由于它是大多数人使�
 
 内容新鲜度是取决于查询结果的排名因素
 
-![Image 4: 展示内容新鲜度是取决于查询结果的排名因素的示例](images/image-freshness-is-a-query-dependent-ranking-factor-YR4TDGTJ.png)
+![Image 4: 展示内容新鲜度是取决于查询结果的排名因素的示例](images/image-freshness-is-a-query-dependent-ranking-factor-YR4TDGTJ.webp)
 
 #### 页面速度
 
@@ -166,7 +166,7 @@ Google 深知向西班牙语用户展示英语搜索结果毫无意义。因此�
 
 Google 会针对不同语言对搜索结果进行排名
 
-![Image 5: 展示 Google 会针对不同语言对搜索结果进行排名的示例](images/image-google-ranks-different-versions-of-results-for-different-languages-GIY2HR4Q.png)
+![Image 5: 展示 Google 会针对不同语言对搜索结果进行排名的示例](images/image-google-ranks-different-versions-of-results-for-different-languages-GIY2HR4Q.webp)
 
 ### 搜索历史记录
 

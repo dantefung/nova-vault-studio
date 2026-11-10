@@ -4,7 +4,7 @@ date: "2026-05-07"
 source: "X/Twitter"
 author: "知识猫 (@GeekCatX)"
 url: "https://x.com/GeekCatX/status/2052441378354045389"
-coverImage: "../images/geekcatx-xiaohongshu-healing-comic-case/001.jpg"
+coverImage: "../images/geekcatx-xiaohongshu-healing-comic-case/001.webp"
 ---
 
 # 知识猫（@GeekCatX）：小红书治愈系漫画图文拆解——小僧不内耗 5.7 万粉变现路径
@@ -33,9 +33,9 @@ coverImage: "../images/geekcatx-xiaohongshu-healing-comic-case/001.jpg"
 
 skill：https://youmind.com/skills/qNPTEhwe4noxzh
 
-![](../images/geekcatx-xiaohongshu-healing-comic-case/001.jpg)
+![](../images/geekcatx-xiaohongshu-healing-comic-case/001.webp)
 
-![](../images/geekcatx-xiaohongshu-healing-comic-case/002.jpg)
+![](../images/geekcatx-xiaohongshu-healing-comic-case/002.webp)
 
 ## 相关页面
 

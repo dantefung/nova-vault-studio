@@ -43,7 +43,7 @@ url: "https://github.com/TommyZihao/QASystemOnMedicalKG"
 | Food | 食物 | 4,870 | 竹笋炖羊肉 |
 | Producer | 药品厂商 | 17,201 | 通药制药青霉素V钾片 |
 
-![知识图谱规模](../images/medical-kg-qa/003.png)
+![知识图谱规模](../images/medical-kg-qa/003.webp)
 
 ### 关系类型（11 类，共 294,149 个）
 
@@ -77,13 +77,13 @@ url: "https://github.com/TommyZihao/QASystemOnMedicalKG"
 
 ### 知识图谱构建框架
 
-![知识图谱构建框架](../images/medical-kg-qa/001.png)
+![知识图谱构建框架](../images/medical-kg-qa/001.webp)
 
 数据来源：垂直型医药网站结构化数据 → XPath 解析 → JSON 格式化 → Neo4j 入库
 
 ### 问答系统架构
 
-![问答系统技术架构](../images/medical-kg-qa/002.png)
+![问答系统技术架构](../images/medical-kg-qa/002.webp)
 
 核心模块：
 - **question_classifier.py**：问句类型分类（18 类意图识别）
@@ -116,8 +116,8 @@ url: "https://github.com/TommyZihao/QASystemOnMedicalKG"
 
 ## 问答运行效果
 
-![问答界面截图 1](../images/medical-kg-qa/004.png)
-![问答界面截图 2](../images/medical-kg-qa/005.png)
+![问答界面截图 1](../images/medical-kg-qa/004.webp)
+![问答界面截图 2](../images/medical-kg-qa/005.webp)
 
 ## 项目运行
 

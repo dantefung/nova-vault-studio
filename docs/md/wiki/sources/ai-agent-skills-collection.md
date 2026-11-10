@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/zYBKVUq7aGNGhzt78GJxlQ"
 
 > 裸用 Claude Code 就像雇了个聪明但啥都不懂的新人。装好 skill，你雇的是一个带全套 SOP 上岗的熟手。
 
-![001](../images/ai-agent-skills-collection/001.png)
+![001](../images/ai-agent-skills-collection/001.webp)
 
 ## 核心洞察
 
@@ -222,7 +222,7 @@ A: 轻量的直接提交到项目 `.claude/skills/`；正规的用 plugin 打包
 
 今天就从你最烦的那件重复劳动下手，写你自己的第一个 skill。
 
-![002](../images/ai-agent-skills-collection/002.png)
+![002](../images/ai-agent-skills-collection/002.webp)
 
 ---
 

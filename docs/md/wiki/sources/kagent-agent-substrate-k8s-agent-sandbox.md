@@ -16,7 +16,7 @@ related:
 
 > **核心命题**：随着 AI Agent 从实验环境进入生产系统，企业面对的已不是「如何构建 Agent」，而是「如何让它在 Kubernetes 中安全、稳定、高效地运行」。答案是把 **kagent 作为 Agent 运行时** + **Agent Substrate 作为底层沙箱平台**。
 
-![](../images/kagent-agent-substrate-k8s-agent-sandbox/001.jpeg)
+![](../images/kagent-agent-substrate-k8s-agent-sandbox/001.webp)
 
 ---
 
@@ -62,7 +62,7 @@ related:
 
 要妥善实现上述要求，就需要能在**硬件和软件两个层面**隔离智能体，并在智能体流量到达目标时，通过 **AI 网关强制执行策略**。
 
-![Kubernetes 节点架构示意图](../images/kagent-agent-substrate-k8s-agent-sandbox/002.jpeg)
+![Kubernetes 节点架构示意图](../images/kagent-agent-substrate-k8s-agent-sandbox/002.webp)
 
 ---
 
@@ -74,7 +74,7 @@ related:
 
 这正是 Agent Substrate 发挥作用的地方。
 
-![Agent Substrate 架构示意](../images/kagent-agent-substrate-k8s-agent-sandbox/003.jpeg)
+![Agent Substrate 架构示意](../images/kagent-agent-substrate-k8s-agent-sandbox/003.webp)
 
 ### 3.1 双层隔离模型
 
@@ -89,7 +89,7 @@ related:
 
 是否采用用户空间或命名空间中的运行方式（即软件级隔离），是由 gVisor 这类系统作出的**设计选择**。
 
-![快照存储](../images/kagent-agent-substrate-k8s-agent-sandbox/004.png)
+![快照存储](../images/kagent-agent-substrate-k8s-agent-sandbox/004.webp)
 
 ---
 
@@ -160,7 +160,7 @@ spec:
 
 部署后，你会在 kagent 中看到运行中的智能体及其模板。
 
-![kagent 中的智能体](../images/kagent-agent-substrate-k8s-agent-sandbox/005.jpeg)
+![kagent 中的智能体](../images/kagent-agent-substrate-k8s-agent-sandbox/005.webp)
 
 ### 4.4 通过界面创建智能体
 
@@ -170,7 +170,7 @@ spec:
 2. 点击紫色的 **+ New template** 按钮，随后即可像上一节的 YAML 配置一样定义模板；
 3. 通过紫色的 **+ New Harness** 入口进入 Harness 配置——在这里可以像使用声明式配置时一样，指定 **Actor／智能体部署到哪个命名空间、名称、运行时适配器，以及镜像所在位置**。
 
-![在 kagent 中新建 Harness](../images/kagent-agent-substrate-k8s-agent-sandbox/006.jpeg)
+![在 kagent 中新建 Harness](../images/kagent-agent-substrate-k8s-agent-sandbox/006.webp)
 
 ---
 
@@ -180,7 +180,7 @@ spec:
 
 > **注意界面显示正在运行的 Actor 数为 0/8**——这是因为 **Actor 只会在存在活跃会话时运行**，这也体现了 Agent Substrate 对硬件资源的高效使用。
 
-![kagent 的 Substrate 页面](../images/kagent-agent-substrate-k8s-agent-sandbox/007.jpeg)
+![kagent 的 Substrate 页面](../images/kagent-agent-substrate-k8s-agent-sandbox/007.webp)
 
 打开智能体并输入任意提示词，此时会看到 Actor 数变为 **0/9**：
 
@@ -192,7 +192,7 @@ spec:
 
 > **这一点很重要**：表面上可能看起来「每次使用智能体都会启动一个新 Actor，这会带来大量资源管理工作」，但实际上**只有新建会话时才会出现这种情况**。
 
-![打开智能体并输入提示词的示例](../images/kagent-agent-substrate-k8s-agent-sandbox/008.jpeg)
+![打开智能体并输入提示词的示例](../images/kagent-agent-substrate-k8s-agent-sandbox/008.webp)
 
 ---
 

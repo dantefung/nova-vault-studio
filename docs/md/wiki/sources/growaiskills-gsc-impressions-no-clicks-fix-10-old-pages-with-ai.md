@@ -33,7 +33,7 @@ coverImage: "../images/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-w
 
 例如，用户想找“在线压缩工具”，你给一篇长教程，硬加几次“在线压缩”也没有解决需求。先搜一次目标词，看看当前结果主要在提供什么。
 
-![](../images/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai/002.jpg)
+![](../images/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai/002.webp)
 
 ## 3. 把数据和正文一起交给 AI
 
@@ -65,7 +65,7 @@ coverImage: "../images/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-w
 
 AI 可以列出待测项；你实际完成操作、记录限制，这部分才是文章比泛泛教程多出的价值。
 
-![](../images/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai/003.jpg)
+![](../images/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai/003.webp)
 
 ## 5. 改完正文，再检查入口和内链
 

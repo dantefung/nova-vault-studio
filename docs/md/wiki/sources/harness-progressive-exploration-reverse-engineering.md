@@ -10,7 +10,7 @@ url: "https://mp.weixin.qq.com/s/43jYfsBVFcnE5JWX8PVQKw"
 
 > 接手一个百万行存量项目时，最昂贵的动作不是"读代码"，而是"重复读代码"。本文介绍一套以渐进式探索为核心的逆向工程技能（Skill）实践：先把大型代码库逆向成"可导航元模型"，再让后续的每个需求、每个 Bug 都在这张地图上做定点打击，而不是一次次全库重扫。
 
-![渐进式探索逆向工程流程总览](../images/harness-progressive-exploration-reverse-engineering/001.png)
+![渐进式探索逆向工程流程总览](../images/harness-progressive-exploration-reverse-engineering/001.webp)
 
 <!-- more -->
 

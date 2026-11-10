@@ -27,7 +27,7 @@ coverImage: "../images/wadezone-x-creator-14-days-blue-v-strategy/001.jpg"
 
 这套系统，让我绕开了一个 99%的人都不知道的坑。
 
-![](../images/wadezone-x-creator-14-days-blue-v-strategy/002.png)
+![](../images/wadezone-x-creator-14-days-blue-v-strategy/002.webp)
 
 你知道开通 X 创作者收益有多难吗？
 
@@ -51,7 +51,7 @@ X 上一条帖子平均曝光 2121 次。要攒够 500 万，得发 2734 条。�
 
 你是卡在哪一步？没流量，还是有流量没收益？评论区说，我来帮你拆。
 
-![](../images/wadezone-x-creator-14-days-blue-v-strategy/003.jpg)
+![](../images/wadezone-x-creator-14-days-blue-v-strategy/003.webp)
 
 讲一个跟 X 完全无关的故事。
 
@@ -119,7 +119,7 @@ Facebook 教会我抓注意力。YouTube 教会我建信任。
 
 不是内容不行。是你给算法喂了一颗毒药。
 
-![](../images/wadezone-x-creator-14-days-blue-v-strategy/004.jpg)
+![](../images/wadezone-x-creator-14-days-blue-v-strategy/004.webp)
 
 有个博主写过一篇文章，把 X 文章的底层逻辑扒了个干净。
 
@@ -139,7 +139,7 @@ Facebook 教会我抓注意力。YouTube 教会我建信任。
 
 短推文在信息流里抓住 0.3 秒的注意力。长文章在 3000 字里一点一点建立信任。
 
-![](../images/wadezone-x-creator-14-days-blue-v-strategy/005.jpg)
+![](../images/wadezone-x-creator-14-days-blue-v-strategy/005.webp)
 
 还有一个好处。你想想，愿意花 5 分钟读完 3000 字的人，和刷到一条段子笑一下就划走的人，是同一种人吗？
 
@@ -179,7 +179,7 @@ Facebook 教会我抓注意力。YouTube 教会我建信任。
 
 你在用手工作坊的方式，跟流水线竞争。
 
-![](../images/wadezone-x-creator-14-days-blue-v-strategy/006.jpg)
+![](../images/wadezone-x-creator-14-days-blue-v-strategy/006.webp)
 
 到第 8 天。蓝 V 浓度 14.3%。
 
@@ -235,7 +235,7 @@ Facebook 教会我抓注意力。YouTube 教会我建信任。
 
 在一个完全陌生的平台上，14 天从零建立了信任。
 
-![](../images/wadezone-x-creator-14-days-blue-v-strategy/007.jpg)
+![](../images/wadezone-x-creator-14-days-blue-v-strategy/007.webp)
 
 很多人觉得 AI 让内容创作变成红海——人人都能写，竞争更激烈。
 

@@ -123,7 +123,7 @@ coverImage: "../images/qianshuixia-14yr-game-dev-overseas-annual-recap/001.jpg"
 
 经历过 AdSense 被拒、被封、限流，经历过站点几周没有一个点击的漫长绝望，但这一次，我没有退路。
 
-![](../images/qianshuixia-14yr-game-dev-overseas-annual-recap/002.jpg)
+![](../images/qianshuixia-14yr-game-dev-overseas-annual-recap/002.webp)
 
 ## 三、踩坑全自动化与第二次裁员：心态彻底蜕变
 
@@ -161,7 +161,7 @@ AI 只是放大的 0，你自己才是那个最核心的 1。
 
 再不自我拯救，浅水虾真的就要被煮成“红壳虾”了。
 
-![](../images/qianshuixia-14yr-game-dev-overseas-annual-recap/003.jpg)
+![](../images/qianshuixia-14yr-game-dev-overseas-annual-recap/003.webp)
 
 ## 四、拐点降临：从卖铲子到数字大脑
 
@@ -178,7 +178,7 @@ AI 只是放大的 0，你自己才是那个最核心的 1。
 
 这一切不是靠什么玄学，就是靠每天笨拙的找词、上站、迭代，每天老老实实面对现实。
 
-![](../images/qianshuixia-14yr-game-dev-overseas-annual-recap/004.jpg)
+![](../images/qianshuixia-14yr-game-dev-overseas-annual-recap/004.webp)
 
 ## 五、未来方向：你真正的天命产品，其实是你自己
 
@@ -192,7 +192,7 @@ AI 只是放大的 0，你自己才是那个最核心的 1。
 
 第三，手头依然保留外包与多线程能力。成年人的世界不是非黑即白的选择题，抗风险永远放在第一位。
 
-![](../images/qianshuixia-14yr-game-dev-overseas-annual-recap/005.jpg)
+![](../images/qianshuixia-14yr-game-dev-overseas-annual-recap/005.webp)
 
 上个月写过一句话，我特别喜欢，今天送给大家也送给我自己：
 

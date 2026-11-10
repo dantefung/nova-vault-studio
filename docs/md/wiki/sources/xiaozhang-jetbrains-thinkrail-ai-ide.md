@@ -52,7 +52,7 @@ related:
 
 同时，开发者依然拥有完整的代码编辑器、终端、文件树和 Diff 审查界面。
 
-![ThinkRail 官方工作台：Agent 对话、代码编辑、Diff 审查和项目管理](../images/xiaozhang-jetbrains-thinkrail-ai-ide/001.png)
+![ThinkRail 官方工作台：Agent 对话、代码编辑、Diff 审查和项目管理](../images/xiaozhang-jetbrains-thinkrail-ai-ide/001.webp)
 
 这有点像**从自己开车，变成了管理自动驾驶系统**——人不一定需要亲自完成每个操作，但必须知道系统正在做什么，关键时候还能够接管。
 
@@ -104,7 +104,7 @@ ThinkRail 的解决方案是：
 - Agent 可以利用专门的 `spec_*` 工具检索、读取和维护这些规范；
 - 更关键的是，项目约定要求：**当模块边界、接口契约或架构决策发生变化时，规范也要同步更新**。
 
-![ThinkRail 官方 Specs 界面：结构化管理项目规范和设计决策](../images/xiaozhang-jetbrains-thinkrail-ai-ide/002.png)
+![ThinkRail 官方 Specs 界面：结构化管理项目规范和设计决策](../images/xiaozhang-jetbrains-thinkrail-ai-ide/002.webp)
 
 ### 与 SDD（规格驱动开发）的呼应
 

@@ -36,7 +36,7 @@ GSC（Google Search Console，Google 官方的免费后台）的“效果”报�
 
 按人数加权是 (50 × 100 + 3 × 1) ÷ 101 ≈ 49.5。绝大多数人看到你的时候，你都排在第 50 名左右，49.5 才是真实情况。GSC 用的就是这种算法。
 
-![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/002.jpg)
+![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/002.webp)
 
 明白了这一点，就能看懂几个“奇怪现象”：
 
@@ -64,7 +64,7 @@ GSC（Google Search Console，Google 官方的免费后台）的“效果”报�
 
 学完这一步，我打开老站的 GSC，把 4 个指标都勾上，看了 3 个月的数据：20 次点击，6,286 次曝光，CTR 0.3%，平均排名 11.4。
 
-![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/003.jpg)
+![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/003.webp)
 
 平均排名 11.4，看着还不错。但曲线告诉我另一件事：10 月中旬以后曝光几乎归零，排名线却还停在高处。这正好是口诀的第二条：排名变好，曝光和点击在掉，可能在变弱。
 
@@ -83,7 +83,7 @@ GSC（Google Search Console，Google 官方的免费后台）的“效果”报�
 - 第 11 到 20 名（第 2 页）：约 1%
 - 21 名以后：不到 0.5%
 
-![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/004.jpg)
+![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/004.webp)
 
 模拟器也提醒了：不同行业、搜索结果里有没有视频卡片之类的，点击率差别很大，这只是平均值。但“越靠前点得越多、第 2 页约等于 0”这个规律是通用的。
 
@@ -158,7 +158,7 @@ GSC 的“效果”报告可以按 5 个维度看，每个维度回答一个问�
 2. 排名突然变好，曝光却暴跌：通常是 Google 减少了你的展示，要看看内容质量有没有问题。
 3. 所有指标持平 2 个月以上：进入瓶颈了，需要新动作，比如新内容、新外链、新国家。
 
-![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/005.jpg)
+![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/005.webp)
 
 我的老站正好卡在两种解释中间：可能是验证期正常的“凉一段”，也可能是警报 2。区分的办法是接着看：如果是正常的验证期，长尾词的曝光会慢慢重新往上爬；如果到 11 月中旬还贴着 0，就更像是质量问题。这件事我还在查，有结果了再写。
 
@@ -189,7 +189,7 @@ SEO 的反馈要等 2 到 8 周。上周流量涨了，可能是因为 3 周前�
 
 我用 Google 表格建了一张，4 列：日期、站点、动作类型、详情。“动作类型”做成了下拉菜单，像算法更新这种影响所有站的事，“站点”那一列写“全部”。
 
-![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/006.jpg)
+![](../images/xiaofeiyangfe-gsc-simulator-6-data-reading-lessons/006.webp)
 
 用法也很简单：每天固定一个时间，花 1 分钟记。每两周拿它和 GSC 的趋势图对一次：看到曝光往上走的地方，就往前翻 2 到 4 周，看自己当时做了什么。
 

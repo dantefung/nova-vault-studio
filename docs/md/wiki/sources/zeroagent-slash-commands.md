@@ -27,11 +27,11 @@ url: "https://mp.weixin.qq.com/s/NXBuk7227ST9C4Id5qlL2Q"
 
 经常使用 Agent 的同学对这个功能应该不陌生。下图是 Hermes Agent 的斜杠命令列表，可以用这些命令对 Agent 进行 Session 管理、上下文压缩等操作。
 
-![Hermes Agent 的斜杠命令列表](../images/zeroagent-slash-commands/001.png)
+![Hermes Agent 的斜杠命令列表](../images/zeroagent-slash-commands/001.webp)
 
 以下是 Pi Agent 的斜杠命令列表，除了系统自定义的命令之外，`opsx` 开头的命令是用 `OpenSpec init` 创建的 SDD 命令，属于用户自定义命令，在 Pi Agent 中也叫 prompt template。
 
-![Pi Agent 的内置与用户命令](../images/zeroagent-slash-commands/002.png)
+![Pi Agent 的内置与用户命令](../images/zeroagent-slash-commands/002.webp)
 
 Slash Commands 本质上是**用户自定义的 Prompt 模板**。使用时，每个命令是一个 Markdown 文件，包含 YAML frontmatter（元数据）和正文（Prompt 模板）。在交互模式中输入：
 
@@ -78,7 +78,7 @@ Focus on: ${2:-correctness, style, and performance}
 
 需要注意的是，因为 Skill 本质上也是 prompt，有些 Agent（比如 Pi Agent）也支持通过 Command 触发 Skill。
 
-![通过 Command 触发 Skill](../images/zeroagent-slash-commands/003.png)
+![通过 Command 触发 Skill](../images/zeroagent-slash-commands/003.webp)
 
 ---
 

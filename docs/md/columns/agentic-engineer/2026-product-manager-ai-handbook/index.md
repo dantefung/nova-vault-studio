@@ -25,7 +25,7 @@ AI 正在重新组织产品经理的工作方式。最开始，我只让它帮�
 
 所以，开始一个新的产品项目时，我通常先给 Agent 建一个可以长期工作的项目空间。
 
-![产品项目目录](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img1.jpg)
+![产品项目目录](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img1.webp)
 
 ## 先让它认识这个产品
 
@@ -79,7 +79,7 @@ AI 输出的是它根据现有信息整理出来的答案，不能直接当作�
 
 同一个问题换几个 AI 去问，结果经常不一样。我之前调研 Agent 用户量时，就把同一个问题分别交给 GPT、Gemini、Grok、DeepSeek 和豆包，得到的数字经常对不上。
 
-![不同AI对同一个问题的回答对比](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img2.jpg)
+![不同AI对同一个问题的回答对比](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img2.webp)
 
 现在做市场分析，我会先让它们尽可能找全资料，再回到原始来源判断。公司官方数据、财报、行业研究报告、App 日活和月活追踪网站、权威媒体，都可以成为线索。
 
@@ -102,7 +102,7 @@ AI 输出的是它根据现有信息整理出来的答案，不能直接当作�
 
 我现在会把这些信息持续整理进项目，把隐性的认知变成 Agent 能够使用的上下文。
 
-![会议纪要和沟通结论](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img3.png)
+![会议纪要和沟通结论](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img3.webp)
 
 AI 可以处理已经被表达出来的信息。产品经理仍然要负责找到那些还没有被写下来的信息。
 
@@ -119,7 +119,7 @@ AI 可以处理已经被表达出来的信息。产品经理仍然要负责找�
 - 返回哪些成功、哪些失败；
 - 每一条失败的具体原因；
 - 各种异常状态和反馈逻辑。
-![最后AI给的复杂方案](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img4.png)
+![最后AI给的复杂方案](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img4.webp)
 
 每一项单独拿出来都挺合理。但加在一起，一个原本简单的修改功能就被越做越复杂。
 
@@ -147,7 +147,7 @@ AI 可以给建议、补细节、找遗漏，但哪些内容最终进入需求�
 
 可以看我的产品上一个版本设计，需要和AI对齐的需求包有20个共100多个需求点，如下图：
 
-![需要和AI澄清的需求列表](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img5.png)
+![需要和AI澄清的需求列表](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img5.webp)
 
 4\. 原型设计：先把设计约束交代清楚
 
@@ -157,11 +157,11 @@ AI 可以给建议、补细节、找遗漏，但哪些内容最终进入需求�
 
 没提供设计约束之前：
 
-![没加约束 AI给的原型](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img6.jpg)
+![没加约束 AI给的原型](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img6.webp)
 
 提供设计约束之后：
 
-![提供了约束之后的原型](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img7.jpg)
+![提供了约束之后的原型](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img7.webp)
 
 如果公司还没有完整的设计规范，我会给 AI 更多参考：找几个设计成熟的同类产品页面，或者使用设计类 Skill，让它先理解目标风格再出方案。
 
@@ -175,7 +175,7 @@ AI 能帮忙写文档已经不新鲜了。我现在更关心的是另外两个�
 
 我之前做一个项目时，专门整理过一份 PRD 参考资料。后面再做新需求，AI 会直接按照这套规范生成。
 
-![历史需求文档参考](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img8.png)
+![历史需求文档参考](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img8.webp)
 
 ## 第二个问题：PRD 开始有两类读者
 
@@ -189,7 +189,7 @@ AI 能帮忙写文档已经不新鲜了。我现在更关心的是另外两个�
 
 同一份结构化内容，我现在会生成一份适合人阅读的 PRD，也可以保留一份信息更完整的 Markdown，给研发和测试的 Agent 继续使用。
 
-![给人看的和给AI看的PRD](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img9.jpg)
+![给人看的和给AI看的PRD](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img9.webp)
 
 过去，PRD 主要解决人与人之间的交接。以后，它还要承担人与 AI、AI 与 AI 之间的信息交接。
 
@@ -223,7 +223,7 @@ AI 能帮忙写文档已经不新鲜了。我现在更关心的是另外两个�
 
 比如 PRD 最开始写的是方案 A，研发过程中发现实现不了，最后改成了方案 B。
 
-![研发过程中的变更记录](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img10.jpg)
+![研发过程中的变更记录](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img10.webp)
 
 如果只改了代码，没有把这个变化同步回项目，那么下一次再让 AI 分析这个功能，它很可能还会基于方案 A 继续往下推。
 
@@ -247,7 +247,7 @@ AI 能帮忙写文档已经不新鲜了。我现在更关心的是另外两个�
 
 AI 可以整理和推荐，最终优先级仍然由产品经理决定。
 
-![和AI一起维护的需求池](./images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img11.jpg)
+![和AI一起维护的需求池](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img11.webp)
 
 到这里，整个流程才算闭环：上线后的反馈，重新成为下一轮需求的输入。
 

@@ -82,7 +82,7 @@ graph LR
 
 
 
-![](../images/multimodal-0.png)
+![](../images/multimodal-0.webp)
 
 
 
@@ -94,7 +94,7 @@ graph LR
 
 
 
-![](../images/multimodal-cover.png)
+![](../images/multimodal-cover.webp)
 
  
 
@@ -106,7 +106,7 @@ graph LR
 
  
 
-![](../images/multimodal-1.png)
+![](../images/multimodal-1.webp)
 
 那么什么是多模态呢？
 
@@ -120,7 +120,7 @@ graph LR
 
  
 
-![](../images/multimodal-2.png)
+![](../images/multimodal-2.webp)
 
 
 
@@ -134,7 +134,7 @@ graph LR
 
 
 
-![](../images/multimodal-12.png)
+![](../images/multimodal-12.webp)
 
 
 
@@ -164,7 +164,7 @@ graph LR
 
 我们接下来也会以这些模型为主来去讲所谓的多模态提示词，分享它的一些系列的应用。
 
-![](../images/multimodal-11.png)
+![](../images/multimodal-11.webp)
 
 
 
@@ -186,13 +186,13 @@ graph LR
 
 所以今天我们讲的这个所谓的多模态提示词，也会主要分享的是文字加图片的这种形式。
 
-![](../images/multimodal-10.png)
+![](../images/multimodal-10.webp)
 
 
 
 这些多模态AI和提示词，能有哪些应用？
 
-![](../images/multimodal-8.png)
+![](../images/multimodal-8.webp)
 
 
 
@@ -200,31 +200,31 @@ graph LR
 
 比较简单的是做一些图文搭配。比如撰写朋友圈的一些文案，旅游文案。
 
-![](../images/multimodal-6.png)
+![](../images/multimodal-6.webp)
 
 
 
 然后更进一步的话，我们可以用它来对人去做一个察言观色。如我这里面我们给他输入一些人脸的这样一些照片，让他去识别情绪。从右边的这个结果来看，你可以看识别效果非常准确。
 
-![](../images/multimodal-7.png)
+![](../images/multimodal-7.webp)
 
 
 
 然后我们也可以用它去做一些传统的场景。比如说身份证证件的识别与信息抽取，当前来看它的效果也是比较不错的。
 
-![](../images/multimodal-13.png)
+![](../images/multimodal-13.webp)
 
 
 
 更复杂一点的场景，像发票票据识别，它的识别效果也还比较ok。
 
-![](../images/multimodal-9.png)
+![](../images/multimodal-9.webp)
 
 
 
 然后像谷歌的 Gemini 模型，支持视频作为输入，对输入的视频的整体的内容结构和它的一个关键的一个信息的识别都是效果都是非常好的。这就非常有利于我们对视频进行智能分析和剪辑，相信国内现在大家也能看到这样一些视频剪辑方面比较好的这种产品了。
 
-![](../images/multimodal-5.png)
+![](../images/multimodal-5.webp)
 
 
 
@@ -232,19 +232,19 @@ graph LR
 
 这是 Figure1 展示出来的能力。相信经过今年多模态能力的发展和爆发，我们能够看到的效果会更加的惊艳，也让我们一起期待。
 
-![](../images/multimodal-4.png)
+![](../images/multimodal-4.webp)
 
 
 
 实际的用例还很多，大家感兴趣可以去多去探索和了解。我们在实际使用过程中，也发现多模态AI还在早期阶段，有着能力上的局限性。
 
-![](../images/multimodal-3.png)
+![](../images/multimodal-3.webp)
 
 
 
 包含场景理解能力的不足，还有包含了幻觉问题。像这里面我们给了他一个场景，就是让他去识别图中有多少个人。我们可以看到实际上来说比较明显的是有四个人。对这四个人他虽然准确识别了，但是他有一个幻觉生成了第五个人（蓝色箭头指向的地方）。我们蓝色箭头所指的这个地方实际上是没有人的。
 
-![](../images/multimodal-26.png)
+![](../images/multimodal-26.webp)
 
 
 
@@ -252,13 +252,13 @@ graph LR
 
 像我们刚刚举到的身份证抽取的这样的一个场景里面看上去他好像抽取的这个结果挺不错的。但是某些数字它会产生遗漏或者错误，或者说顺序的颠倒。
 
-![](../images/multimodal-25.png)
+![](../images/multimodal-25.webp)
 
 
 
 同时的话，即使它能够正确的识别图中的所有的数据和各种实体信息。也容易发生数据跟实体信息的匹配错误，导致最终对整体分析结果的错误。
 
-![](../images/multimodal-27.png)
+![](../images/multimodal-27.webp)
 
 
 
@@ -266,7 +266,7 @@ graph LR
 
 像这里面我们给他一个图表，让他去进行分析。我们可以看到左边的这个图表里面空白的地方明明没有数据，但是经过他的分析以后，自作主张胡编乱造填充进去数据，最终导致分析的结果是不对的。
 
-![](../images/multimodal-28.png)
+![](../images/multimodal-28.webp)
 
 
 
@@ -274,7 +274,7 @@ graph LR
 
 一旦出现了某些模式重复，它就非常容易陷入这个死循环。你看它在后面不断的重复着最后的这样的一句话，直到达到它最大的输出窗口。对我们实际应用造成了非常不好的体验。
 
-![](../images/multimodal-24.png)
+![](../images/multimodal-24.webp)
 
 
 
@@ -284,13 +284,13 @@ graph LR
 
 
 
-![](../images/multimodal-21.png)
+![](../images/multimodal-21.webp)
 
 
 
 值得庆幸的一点是，我们之前的大语言模型所了解的到那些提示工程的技巧和方法，基本上都是适用的。因为它的技术栈基本上一脉相承，同时因为它多了一种模态的特性，它也会有一些特性的方法。这里简单的列了几种，接下来我们也将会一种一种的给大家过一下，也给大家提供实际使用的效果。
 
-![](../images/multimodal-22.png)
+![](../images/multimodal-22.webp)
 
 
 
@@ -298,7 +298,7 @@ graph LR
 
 我们发现如果没有说明清楚要它获取全部的信息的话，AI 会自作主张的从中挑选一些信息获取。最终导致你的信息获取的结果不稳定，一方面是这个变量是不稳定的，另一方面是变量值是不稳定的。
 
-![](../images/multimodal-23.png)
+![](../images/multimodal-23.webp)
 
 但我们加上这样的一个关键词，我们强调让他要获**<span style="color: rgb(100,37,208); background-color: inherit">全部</span>**的信息的时候，可以看到他最终给出来的信息从丰富度和完整度上都有了比较大的提升。
 
@@ -310,7 +310,7 @@ graph LR
 
 如果我们给他赋予一个专家角色，告诉他是一个计数大师的话，也能够说提升它计数的表现。
 
-![](../images/multimodal-17.png)
+![](../images/multimodal-17.webp)
 
 
 
@@ -318,13 +318,13 @@ graph LR
 
 当我们直接给他一个表盘的数据，让他去识别这里面的速度是多少的时候，它的结果是错的。正确答案应该是160千米每小时，它这里面识别错了。
 
-![](../images/multimodal-20.png)
+![](../images/multimodal-20.webp)
 
 
 
 如果我们给他提供一些示例，像这里面先给他提供两个图片，然后告诉他前面两个图片的结果是怎么样的。最终让他去识别第三张图片的结果时，可以看到 AI 结果有了比较大的改善，可以正确的识别。
 
-![](../images/multimodal-18.png)
+![](../images/multimodal-18.webp)
 
 
 
@@ -336,7 +336,7 @@ graph LR
 
 我们从这个例子中可以看出，它的这个符合度匹配度还是非常好，非常高的。能够大大提高我们大模型表现结果它的一个稳定性和精准度。
 
-![](../images/multimodal-16.png)
+![](../images/multimodal-16.webp)
 
 
 
@@ -344,7 +344,7 @@ graph LR
 
 针对多模态，有没有它的一些独特的方法呢？
 
-![](../images/multimodal-15.png)
+![](../images/multimodal-15.webp)
 
 
 
@@ -358,7 +358,7 @@ graph LR
 
 像我们前面讲过的，AI 会出现幻觉问题，会无中生有。
 
-![](../images/multimodal-19.png)
+![](../images/multimodal-19.webp)
 
 
 
@@ -368,7 +368,7 @@ graph LR
 
 给空白的地方加上一个标记就好了，这个地方给它打上两个红叉，用两个红叉来去做标记。这个时候你可以看到大模型对于这一部分的结果就能够准确的识别。它就知道那个地方没有数据了。通过这种方式来规避了幻觉的发生。
 
-![](../images/multimodal-14.png)
+![](../images/multimodal-14.webp)
 
 同时的话，我们还可以使用其他的我们所熟知的标记。不管是红框也好，箭头也好，红星也好等等的这些标记你都可以去使用，来去提高你答案的这样的一个准确度。
 
@@ -380,7 +380,7 @@ graph LR
 
 这时候你可以看到我们给了他这样一个标记的这样的一个引导之后，把他的视觉聚焦在GPT-4O上面，给我们更加聚焦，更加精准的答案。
 
-![](../images/multimodal-38.png)
+![](../images/multimodal-38.webp)
 
 刚刚我们只是标记了图片的部分，标记了图片的一点点，而且还是人工标记的，这种方法不具备一个拓展性。
 
@@ -388,7 +388,7 @@ graph LR
 
 我们把这个方法的话给他推广一下，推广到极致，我们可以怎么做？
 
-![](../images/multimodal-34.png)
+![](../images/multimodal-34.webp)
 
 
 
@@ -402,7 +402,7 @@ graph LR
 
 左边是原图，右边我们是应用了标记解法之后的结果。我们标记每一个苹果，对每一个苹果在中心给它一个标号，同时用不同的颜色去画出苹果的边缘，来实现对图片中所有内容的结构化拆解。
 
-![](../images/multimodal-36.png)
+![](../images/multimodal-36.webp)
 
 
 
@@ -416,7 +416,7 @@ graph LR
 
 在我们进行了标记之后，它不仅能够准确的数出来，而且有一个非常好的性质——还能够告诉你红色苹果的编号是哪些。因为我们前面对苹果已经进行了编号，能够大大提高场景理解的能力。
 
-![](../images/multimodal-39.png)
+![](../images/multimodal-39.webp)
 
 
 
@@ -424,7 +424,7 @@ graph LR
 
 我们有没有可能自动化的标准化的来做这个事儿呢？
 
-![](../images/multimodal-33.png)
+![](../images/multimodal-33.webp)
 
 其实非常的简单，我们用一个标记模型来去做这个事情就好了。
 
@@ -442,7 +442,7 @@ graph LR
 
 这样的话我们就通过AI实现了整体图片视觉内容的结构化抽取和分析。
 
-![](../images/multimodal-35.png)
+![](../images/multimodal-35.webp)
 
 
 
@@ -450,7 +450,7 @@ graph LR
 
 在标记之前的话，它大概只能识别 9 类物品。
 
-![](../images/multimodal-37.png)
+![](../images/multimodal-37.webp)
 
 在我们进行了这样的标记之后，它能够把我们标记的所有的这些物品都能够识别到。
 
@@ -462,7 +462,7 @@ graph LR
 
 这就意味着什么？这就意味如果你在用多模态AI去做一些应用的开发的时候，可以准确的知道哪一环有了问题，出了问题，对吧？非常方便我们进行调试，而且也比较好的缓解了多模态大模型的幻觉问题。
 
-![](../images/multimodal-31.png)
+![](../images/multimodal-31.webp)
 
 
 
@@ -480,13 +480,13 @@ graph LR
 
 文字的呈现形式还是太弱了，未来的智能体必然是多模态的。随着当前的智能体生态越来越好，实现的门槛也越来越低。人人打造、拥有个人智能体的未来值得期待！
 
-![](../images/multimodal-30.png)
+![](../images/multimodal-30.webp)
 
 
 
 以下是我的联系方式，欢迎关注我们微信公众号：云中江树，欢迎添加微信交流。
 
-![](../images/multimodal-32.png)
+![](../images/multimodal-32.webp)
 
 
 
@@ -518,7 +518,7 @@ LangGPT 中的工程实现相比原版还进行了一些调整优化。相比单
 
 **效果**
 
-![](../images/multimodal-29.png)
+![](../images/multimodal-29.webp)
 
 
 
@@ -540,7 +540,7 @@ LangGPT 中的工程实现相比原版还进行了一些调整优化。相比单
 
 **效果**
 
-![](../images/multimodal-key.png)
+![](../images/multimodal-key.webp)
 
 
 

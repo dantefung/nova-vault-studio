@@ -93,7 +93,7 @@ url: "https://mp.weixin.qq.com/s/LDdho64V5XZMAvxEGYlNNg"
 
 ### 三层知识，各管各的
 
-![三层知识对照](../images/x-flow-ai-coding-engineering/004.png)
+![三层知识对照](../images/x-flow-ai-coding-engineering/004.webp)
 
 | 层 | 存什么 | 什么时候用 | 谁来维护 |
 |----|--------|------------|----------|
@@ -131,7 +131,7 @@ url: "https://mp.weixin.qq.com/s/LDdho64V5XZMAvxEGYlNNg"
 
 ### 层与层之间：晋升、升级与淘汰
 
-![知识库晋升升级淘汰机制](../images/x-flow-ai-coding-engineering/005.png)
+![知识库晋升升级淘汰机制](../images/x-flow-ai-coding-engineering/005.webp)
 
 **写入前先归类。** 专属于某模块的知识写进模块文档；跨模块通用约定写进全局约定；协作相关的内容写进记忆；行为约束是规则（不属于知识库）；代码定义与调用关系哪里都不写，交给图谱。
 

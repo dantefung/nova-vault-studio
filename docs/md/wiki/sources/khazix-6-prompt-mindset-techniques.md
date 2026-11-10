@@ -32,7 +32,7 @@ url: "https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ"
 
 善用各种各样的专家做参考，你会得到一些非常棒的回答。
 
-![让 AI 选定角色的实际效果](../images/khazix-6-prompt-mindset-techniques/001.png)
+![让 AI 选定角色的实际效果](../images/khazix-6-prompt-mindset-techniques/001.webp)
 *图 1：让 AI 自主选择领域顶尖专家作为思考视角*
 
 ---
@@ -49,7 +49,7 @@ url: "https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ"
 
 **真实案例**：业务盘子变大卡在招聘时，用这个心法问「我现在应不应该先招一个 HR」，AI 连续问了十几个非常详细的问题，最终给出的回答远胜于干巴巴没有营养的输出。
 
-![苏格拉底式追问的实际效果](../images/khazix-6-prompt-mindset-techniques/002.png)
+![苏格拉底式追问的实际效果](../images/khazix-6-prompt-mindset-techniques/002.webp)
 *图 2：AI 连续追问十余轮后给出的高质量决策建议*
 
 这是作者日常与 AI 对话中使用频率最高的心法，没有之一。
@@ -72,7 +72,7 @@ AI 的谄媚效应太强，在没有刻意引导时会经常顺着你说，导�
 
 **真实案例**：国庆假期准备一场分享，担心自己思考不完善会闹笑话，于是把攻击性 Prompt 扔给 Gemini 聊了将近 3 小时。坦率讲那一次作者被 AI 折服，确实学到了很多。
 
-![与 AI 辩论的 Prompt 效果](../images/khazix-6-prompt-mindset-techniques/003.png)
+![与 AI 辩论的 Prompt 效果](../images/khazix-6-prompt-mindset-techniques/003.webp)
 *图 3：让 AI 担任"反对者角色"挑战你的观点*
 
 ---
@@ -91,7 +91,7 @@ AI 的谄媚效应太强，在没有刻意引导时会经常顺着你说，导�
 
 推荐大家经常给方案做预演失败，能补充很多珍贵角度。
 
-![预演失败输出的失败复盘文章](../images/khazix-6-prompt-mindset-techniques/004.png)
+![预演失败输出的失败复盘文章](../images/khazix-6-prompt-mindset-techniques/004.webp)
 *图 4：预演失败产出基于真实案例的复盘文章*
 
 ---
@@ -110,7 +110,7 @@ AI 的谄媚效应太强，在没有刻意引导时会经常顺着你说，导�
 
 图片同理。可惜音乐还不太好推，作者想去反推很多歌的 Prompt 来学习。
 
-![反向提示词倒推结果](../images/khazix-6-prompt-mindset-techniques/005.png)
+![反向提示词倒推结果](../images/khazix-6-prompt-mindset-techniques/005.webp)
 *图 5：让 AI 从成品倒推出可复用的提示词并解释每句作用*
 
 ---
@@ -129,7 +129,7 @@ AI 的谄媚效应太强，在没有刻意引导时会经常顺着你说，导�
 
 **真实案例**：DeepSeek 新论文中的「残差连接」概念，用这套 Prompt 解释，作者认为解释得相当到位。
 
-![双层解释法输出初学者与专业两个版本](../images/khazix-6-prompt-mindset-techniques/006.png)
+![双层解释法输出初学者与专业两个版本](../images/khazix-6-prompt-mindset-techniques/006.webp)
 *图 6：同一概念的双版本对照式解释*
 
 ---

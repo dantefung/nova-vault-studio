@@ -19,7 +19,7 @@ description: "关于我：纳米，北邮毕业，百度实习，校招腾讯，
 
 
 
-![纳米AI 的头像](images/about/001.png)
+![纳米AI 的头像](images/about/001.webp)
 
 
 
@@ -85,11 +85,11 @@ Learning LLMs & Agents in public.
 
 
 
-[![](images/about/002.png)
+[![](images/about/002.webp)
 NamiGPT用 PyTorch 从零手写 GPT-2，加载官方权重，跑通推理和文本生成。](https://github.com/aa1143/NamiGPT) 
-[![](images/about/003.png)
+[![](images/about/003.webp)
 NamiAgent从 100 行的最小循环开始，一课加一个能力的 Agent 教程。](https://github.com/aa1143/NamiAgent) 
-[![](images/about/004.png)
+[![](images/about/004.webp)
 CamWindow极简的 macOS 悬浮摄像头窗口，专为录屏教程设计。](https://github.com/aa1143/CamWindow)
 
 

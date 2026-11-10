@@ -19,7 +19,7 @@ DeepSeek 官方宣布开源一个叫 **DeepSeek Harness** 的东西，命令行�
 
 > **Agent = Model + Harness**
 
-![DeepSeek Harness 主视觉](../images/deepseek-harness/001.png)
+![DeepSeek Harness 主视觉](../images/deepseek-harness/001.webp)
 
 模型是灵魂，harness 负责给 Agent 理解环境、使用工具、在真实场景里持续干活的能力。
 
@@ -27,7 +27,7 @@ DeepSeek 官方宣布开源一个叫 **DeepSeek Harness** 的东西，命令行�
 
 ## 模型是脑子，harness 是手脚
 
-![模型是脑子，harness 是手脚](../images/deepseek-harness/002.png)
+![模型是脑子，harness 是手脚](../images/deepseek-harness/002.webp)
 
 一个模型再聪明，它也只是一颗脑子。它不会自己打开文件、不会自己敲命令、不会自己上网查资料、更不会自己记住干到哪一步了。
 
@@ -39,7 +39,7 @@ DeepSeek Harness 就是一套给模型安上手脚的框架。按官方说法，
 
 ## "一切皆插件"，对普通人意味着什么
 
-![一切皆插件——标准插槽](../images/deepseek-harness/003.png)
+![一切皆插件——标准插槽](../images/deepseek-harness/003.webp)
 
 "插件"这个词，很多人一听就头大——又要折腾配置了？
 
@@ -55,7 +55,7 @@ DeepSeek Harness 就是一套给模型安上手脚的框架。按官方说法，
 
 按官方介绍，极简模式只保留两个工具：一个 shell，一个文件编辑。目的是"在最小化环境下做模型基准测试"。
 
-![极简模式只剩两个工具](../images/deepseek-harness/004.png)
+![极简模式只剩两个工具](../images/deepseek-harness/004.webp)
 
 这个设计很妙。它相当于说：我们想测一个模型本身有多能干活，而不是测"模型 + 一堆工具 + 精心调教的工作流"有多能干活。把工具剥到只剩两只手，测出来的才是模型的真实能力。
 
@@ -65,13 +65,13 @@ DeepSeek Harness 就是一套给模型安上手脚的框架。按官方说法，
 
 模型看到了什么、调用了什么工具、结果是什么、上下文注入了什么，全部写进会话日志，可以按来源查看，还能恢复、分叉、回放。
 
-![会话可追溯——行车记录仪](../images/deepseek-harness/005.png)
+![会话可追溯——行车记录仪](../images/deepseek-harness/005.webp)
 
 用过 Agent 的朋友应该懂这个有多重要。以前模型干到一半"抽风"，你只能干瞪眼：它到底看到啥了？哪一步想岔了？现在相当于给你的 Agent 装了个行车记录仪，出问题能倒回去看。
 
 ## 换一层壳，体验完全不同
 
-![换壳带来的体验差异](../images/deepseek-harness/006.png)
+![换壳带来的体验差异](../images/deepseek-harness/006.webp)
 
 同样是"很聪明"的模型，在一个工具里它像个靠谱的同事，文件、终端、上下文都打理得清清楚楚；换到另一个工具里，它却总在细枝末节上磕磕绊绊。
 

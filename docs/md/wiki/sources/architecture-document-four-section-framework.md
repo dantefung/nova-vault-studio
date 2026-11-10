@@ -72,4 +72,4 @@ url: "https://mp.weixin.qq.com/s/kLMm0Ke8FOKS8hRFKbcNGg"
 
 架构文档不写 PPT。四段式写完，价值不在于方案多完美，在于**每个决策都有据可查**。评审追问"为什么"的时候，你能指着一行字告诉他：这是当时权衡的结果。
 
-![架构文档四段式骨架示意图](../images/architecture-document-four-section-framework/001.png)
+![架构文档四段式骨架示意图](../images/architecture-document-four-section-framework/001.webp)

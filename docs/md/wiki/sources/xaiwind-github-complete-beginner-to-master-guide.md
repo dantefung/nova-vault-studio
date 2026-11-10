@@ -43,7 +43,7 @@ GitHub 是全世界程序员放代码的地方，也是你能白嫖别人代码�
 
 ## 一、Git ≠ GitHub
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/002.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/002.webp)
 
 两者说明：Git 是装在你电脑上的版本管理工具，GitHub 是托管 Git 仓库的网站。
 
@@ -77,7 +77,7 @@ GitHub 是全世界程序员放代码的地方，也是你能白嫖别人代码�
 
 ### 注册
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/003.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/003.webp)
 
 官网 [github.com](https://github.com/)，右上角 Sign up。
 
@@ -235,7 +235,7 @@ ssh-keygen -t rsa -b 3072 -C "你的邮箱"
 
 打开文件 id_rsa.pub 黏贴到下图 SSH keys 所在位置
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/004.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/004.webp)
 
 验证配置使用是否成功 在终端执行命令 ssh -T git@github.com 如下所示则为成功
 
@@ -271,7 +271,7 @@ Hi xaiwind! You've successfully authenticated, but GitHub does not provide shell
 填名字 → 设有效期 → 勾权限 → Generate → 【立刻复制】→ 离开页面
 ```
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/005.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/005.webp)
 
 PAT 复制之后怎么用
 
@@ -317,7 +317,7 @@ Classic vs Fine-grained 都一样是只显示一次。区别只在权限怎么�
 
 打开任何一个知名项目的首页，你会看到五个东西，挨个说。
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/006.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/006.webp)
 
 ### Star（收藏）
 
@@ -390,7 +390,7 @@ GitHub 的搜索有语法，会几个就够了。
 | `user:` | 搜某人的仓库 | `user:torvalds` |
 | `is:issue` | 搜 Issue 而不是仓库 | `is:issue is:open` |
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/007.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/007.webp)
 
 组合起来威力很大，比如我想找一个 还在维护的 Go 写的自建聊天室：
 
@@ -427,7 +427,7 @@ topic:awesome            #各种 awesome 合集
 
 ## 六、读懂源码：从哪一行开始看
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/008.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/008.webp)
 
 好，标题的正题来了。一个小提醒 ，AI 时代可选不读源代码或不死磕源码，毕竟 vibe coding, 可选跳过直接第七节，了解基本架构亦可！
 
@@ -509,7 +509,7 @@ Blame 是用得最多的功能。一行看不懂的代码，点开 Blame，往�
 
 ## 七、提第一个 PR
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/009.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/009.webp)
 
 流程走一遍。以给别人的项目修一个错别字为例——这是新手最合适的第一个 PR。
 
@@ -523,7 +523,7 @@ fork 完，你仓库名下面会多出一行小字 forked from 原作者/项目�
 
 用 git clone 加 https 方式 或者直接下载，自己下载的方式，如果没有 fork，需建仓库推送储存
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/010.png)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/010.webp)
 
 ```bash
 git clone https://github.com/你的用户名/项目名.git   #注意这里是你自己的
@@ -647,7 +647,7 @@ git push origin docs/fix-dead-link
 
 ## 八、GitHub Actions：让机器人替你干活
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/011.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/011.webp)
 
 仓库自动化：你在仓库里放一个配置文件，GitHub 就会在你指定的时机自动跑命令。
 
@@ -720,7 +720,7 @@ Actions 挂了，报错不在最显眼的地方。
 
 ## 九、GitHub Pages：白嫖一个网站
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/012.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/012.webp)
 
 仓库静态页面：把仓库里的静态文件直接变成网站，免费，还送 HTTPS。
 
@@ -750,7 +750,7 @@ Actions 挂了，报错不在最显眼的地方。
 
 ## 十、常见错误
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/013.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/013.webp)
 
 ### 坑 1：把 .env 提交上去了
 
@@ -843,7 +843,7 @@ Fork 完过了两周才动手，原项目早就变了，PR 里全是无关的 di
 
 ## 十一、白嫖清单：GitHub 上不要钱的东西
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/014.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/014.webp)
 
 免费清单：GitHub 免费档给的东西，比大部分人以为的多。
 
@@ -866,11 +866,11 @@ Fork 完过了两周才动手，原项目早就变了，PR 里全是无关的 di
 
 ## 十二、把主页变成简历
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/015.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/015.webp)
 
 主页简历：建一个和用户名同名的仓库，里面的 README 会显示在你主页顶部。
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/016.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/016.webp)
 
 我的案例仓库：https://github.com/xaiwind/xaiwind
 
@@ -909,7 +909,7 @@ PHP、Go、Python、MySQL、Redis、Docker
 
 ## 十三、多人协作：分支策略
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/017.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/017.webp)
 
 团队协作：约定好谁往哪个分支推代码，比用什么工具重要。
 
@@ -960,7 +960,7 @@ Target branches|Add target → Include by pattern → `main`
 
 ## 十四、速查表
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/018.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/018.webp)
 
 每天真正会用到的那几条，抄下来贴在手边。
 
@@ -1005,7 +1005,7 @@ git remote -v                  #看远端配了哪些
 
 ## 十五、GIT、SVN、GitLab、Gitee 对比
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/019.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/019.webp)
 
 SVN 不用学了，中心式版本管理工具 。GitLab、Gitee 都是 Github 类的商业化探索版本，使用上都是用 GIT 工具，你会 Github 就会他们
 
@@ -1022,7 +1022,7 @@ SVN 不用学了，中心式版本管理工具 。GitLab、Gitee 都是 Github �
 
 新建仓库位置， 添加 Repository name、Description ，接着配置 public 或者 private 权限、README.md 说明文件、.gitignore 忽视文件、开源协议（通常 MIT），最后点击创建仓库！
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/020.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/020.webp)
 
 好在现在有 AI 了，用 claude、codex 等智能体，github 安装好，配置好 key, 新建好仓库，基本上都不用你手动敲命令了。
 
@@ -1064,7 +1064,7 @@ https://x.com/xaiwind/status/2112359583440326896
 
 我是想风 [@xaiwind](https://x.com/@xaiwind)，一个关注出海与 AI 、AIGC 的创作者。如果文章对你有帮助，欢迎点赞、收藏、关注。每天进步一点，我们终会到达目的地！
 
-![](../images/xaiwind-github-complete-beginner-to-master-guide/021.jpg)
+![](../images/xaiwind-github-complete-beginner-to-master-guide/021.webp)
 
 ## 相关页面
 

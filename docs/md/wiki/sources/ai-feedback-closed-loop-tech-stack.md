@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/kygLZ2IXWk05qcFQ3zgVhw"
 
 # 技术栈推荐：围绕 AI 反馈闭环做选型
 
-![](../images/ai-feedback-closed-loop-tech-stack/001.png)
+![](../images/ai-feedback-closed-loop-tech-stack/001.webp)
 
 我最近的新项目采用了这样一套技术栈：pnpm v12 + TypeScript v7 + Vite v8 + Oxlint + Oxfmt + React + Astryx（基于 StyleX）+ …
 
@@ -72,7 +72,7 @@ Impeccable[12]负责 UI/UX 质量控制，覆盖界面审查、布局、排版�
 
 关于 GPT-6 Astra 两个使用注意点（GPT-6 Astra 不会让外行秒变专家）：
 
-![](../images/ai-feedback-closed-loop-tech-stack/002.png)
+![](../images/ai-feedback-closed-loop-tech-stack/002.webp)
 
 ### References
 

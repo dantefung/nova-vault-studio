@@ -15,7 +15,7 @@ url: "https://www.it235.com/ai/multiagent/mutlica.html"
 
 > 在自己的服务器或本机用 Docker 把 Multica 跑起来
 
-![部署步骤图](../images/multica-self-hosted-deployment/001.png)
+![部署步骤图](../images/multica-self-hosted-deployment/001.webp)
 
 > 官方也支持`k8s`部署
 
@@ -185,13 +185,13 @@ Copied!
 9  
 10
 
-![部署步骤图](../images/multica-self-hosted-deployment/002.png)
+![部署步骤图](../images/multica-self-hosted-deployment/002.webp)
 
 默认未配置验证码smtp服务，所以无法收到验证码，不过你可以通过执行以下命令来查看服务端日志来查看验证码
 
 `docker logs -f --tail=222 multica-backend-1`
 
-![部署步骤图](../images/multica-self-hosted-deployment/003.png)
+![部署步骤图](../images/multica-self-hosted-deployment/003.webp)
 
 进入容器
 
@@ -712,7 +712,7 @@ Copied!
 243  
 244
 
-![部署步骤图](../images/multica-self-hosted-deployment/004.png)
+![部署步骤图](../images/multica-self-hosted-deployment/004.webp)
 
 ### 自托管域名配置
 
@@ -730,7 +730,7 @@ Copied!
 
 ### 远程运行时挂载
 
-![部署步骤图](../images/multica-self-hosted-deployment/005.png)
+![部署步骤图](../images/multica-self-hosted-deployment/005.webp)
 
 **注意：挂载运行时需要下载一个小的multica连接器，并装到本地，让本地能够使用multica命令**
 

@@ -33,7 +33,7 @@ url: "https://www.it235.com/ai/multiagent/mutlica_usage.html"
 
 **引入目标：把产研协同通过multica串联，从需求到发布组织成一套能减少人工干预、能自我验收、能吸收反馈并持续成长的 `Agent` 研发闭环。**
 
-![架构协作图](../images/multica-usage-guide/001.png)
+![架构协作图](../images/multica-usage-guide/001.webp)
 
 ## 公司接入方式
 

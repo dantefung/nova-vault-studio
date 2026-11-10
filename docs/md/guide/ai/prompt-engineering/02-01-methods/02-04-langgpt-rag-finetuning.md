@@ -64,7 +64,7 @@ Prompt engineering 这个事儿大家应该都比较熟悉了，现在相关的�
 
 下面 RAG的主要组成，依次是数据提取——embedding（向量化）——创建索引——检索——自动排序（Rerank）——LLM归纳生成。当然这里少了使用环节，我们暂时先忽略。
 
-![](../images/langgpt-rag-6.png)
+![](../images/langgpt-rag-6.webp)
 
                 大家知道，开卷考试时，往往大家的参考资料都差不多，在有限的考试时间内如何又快又准的锁定问题在书上的相关内容更为重要。RAG 做的好不好也是如此，核心就看能不能将内容检索的又快又准。如果抄错了书上（知识库）内容，往往大模型给出的答案也南辕北辙。
 
@@ -82,7 +82,7 @@ Finetune, Fine-tuning 是两种常用的英文写法，请大家注意（看到�
 
 微调是我们在一个较小的、针对特定任务的标注数据集上进一步训练已经预训练过的 LLM 的过程。通过这种方式，我们可以调整部分模型参数，以优化其在特定任务或任务集上的性能。在全面微调过程中，所有模型参数都会更新，这与预训练过程类似，只不过是在标注的、小得多的数据集上进行的。
 
-![](../images/langgpt-rag-11.png)
+![](../images/langgpt-rag-11.webp)
 
 
 
@@ -108,7 +108,7 @@ Prompt 工程是上手难度最低的，一切 LLM 应用推荐先从 prompt 工
 
 ### **分析问题的两个维度**
 
-![](../images/langgpt-rag-7.png)
+![](../images/langgpt-rag-7.webp)
 
 如图所示，主要从下面两个维度考虑问题：
 
@@ -138,7 +138,7 @@ Prompt 工程是上手难度最低的，一切 LLM 应用推荐先从 prompt 工
 
 ### **优化路径最佳实践**
 
-![](../images/langgpt-rag-3.png)
+![](../images/langgpt-rag-3.webp)
 
 如图给出了 LLM 应用性能优化的推荐路径。
 
@@ -168,7 +168,7 @@ prompt 工程 -> 进阶 prompt 工程 -> 简单 RAG -> 微调模型 -> 进阶 RA
 
 （3）构建正向迭代循环。LLM 应用优化是个迭代过程，应该不断尝试：尝试-> 验证-> 再尝试 -> 再迭代。通过 prompt 工程（或结合 RAG ）先获取第一批高质量输入输出数据，然后微调模型，模型性能提升后，数据质量进一步提升，将更优质的数据用于模型训练，然后更好的模型产出更好的数据，如此循环，构建正向迭代循环（也称数据飞轮）。
 
-![](../images/langgpt-rag-12.png)
+![](../images/langgpt-rag-12.webp)
 
 （4） Prompt 工程贯穿始终。Prompt 是调用大模型能力的接口，所以在各个阶段，调整提示词获取更好的数据，即进行 prompt 工程都是必要且必须的。Prompt 工程将为前期建立性能优化的基石，RAG 阶段需要考虑如何更好的将知识组装为 prompt，微调模型后可以进一步精简优化 prompt，构建微调数据集也要用到 prompt 工程的知识， prompt 工程贯穿始终。
 
@@ -182,7 +182,7 @@ prompt 工程 -> 进阶 prompt 工程 -> 简单 RAG -> 微调模型 -> 进阶 RA
 
 ## **Prompt 工程**
 
-![](../images/langgpt-rag-1.jpg)
+![](../images/langgpt-rag-1.webp)
 
 > 提示工程: 一种通过输入文本指令让模型按照要求输出期望结果的技术。
 
@@ -236,7 +236,7 @@ prompt 工程 -> 进阶 prompt 工程 -> 简单 RAG -> 微调模型 -> 进阶 RA
 
 ### **提示工程的局限性**
 
-![](../images/langgpt-rag-9.jpg)
+![](../images/langgpt-rag-9.webp)
 
 使用提示工程优点很明显：
 
@@ -260,7 +260,7 @@ prompt 工程 -> 进阶 prompt 工程 -> 简单 RAG -> 微调模型 -> 进阶 RA
 
 要实现稳定可靠的引入新知识，我们可以使用 RAG (知识检索增强) 技术。要实现更稳定的风格和结构，降低 token 消耗，则可以对模型进行微调，如下图所示。
 
-![](../images/langgpt-rag-5.png)
+![](../images/langgpt-rag-5.webp)
 
 ## **RAG**
 
@@ -288,7 +288,7 @@ prompt 工程 -> 进阶 prompt 工程 -> 简单 RAG -> 微调模型 -> 进阶 RA
 
 > Advanced RAG Techniques: an Illustrated Overview: <https://pub.towardsai.net/advanced-rag-techniques-an-illustrated-overview-04d193d8fec6>
 
-![](../images/langgpt-rag-4.jpg)
+![](../images/langgpt-rag-4.webp)
 
                 高性能的 RAG 系统类似传统的信息检索系统，可以结合大模型特性使用 reranking, classification, and [finetuning your embeddings](https://blog.llamaindex.ai/fine-tuning-embeddings-for-rag-with-synthetic-data-e534409a3971) 等多种技巧。**不过不论使用的 RAG 技术有多复杂，RAG 的核心都是如何将知识检索的又快又准**。还记得我们开卷考试那个例子吗？时间有限，如何在多本书之间（知识库间检索），如何在一本书里（知识库内部检索）把目标知识检索的又快又准确，是 RAG 效果好坏的关键。
 
@@ -298,7 +298,7 @@ prompt 工程 -> 进阶 prompt 工程 -> 简单 RAG -> 微调模型 -> 进阶 RA
 
 如果检索到的知识是无效的，会严重影响 LLM 应用的表现，因此将检索过程的精确度和召回率与整个 LLM 应用程序分开进行研究尤为重要。如下图所示，需要建立一个评估框架，将检索性能与整个 LLM 应用程序隔离开来。所以这里需要既需要从模型角度出发评估生成结果的质量，也需要从检索的角度出发，用精确度和召回率评估检索，并评估整个系统。
 
-![](../images/langgpt-rag-8.jpg)
+![](../images/langgpt-rag-8.webp)
 
 * 模型角度（generation）
 
@@ -322,7 +322,7 @@ RAGAS 是一个用于 RAG 评估的知名开源库，推荐使用：
 
 如果 LLM 应用面临的问题与上下文有关，那么 RAG 就是一个强大的工具。它使模型能够访问外部数据源，提供模型训练数据中不存在的必要上下文。这种方法可以显著提高模型的性能，尤其是在最新信息或特定领域信息至关重要的情况下。为模型提供参考文本的情况下，也能大大降低模型幻觉。
 
-![](../images/langgpt-rag-2.png)
+![](../images/langgpt-rag-2.webp)
 
 需要注意的是 RAG 的局限性如下：
 
@@ -364,7 +364,7 @@ OpenAI 官方微调教程：
 
 对于 OpenAI 的模型，微调包括使用其提供的 API 在我们的数据集上进一步训练模型。进行微调训练时需要调整各种超参数并监控模型的性能，以找到适合特定用例的最佳设置。对于开源 LLM，微调可能需要更多的实践工作，包括设置训练环境、管理数据流，还可能需要直接调整模型架构。
 
-![](../images/langgpt-rag-10.jpg)
+![](../images/langgpt-rag-10.webp)
 
 ### **Fine-tuning 局限性**
 

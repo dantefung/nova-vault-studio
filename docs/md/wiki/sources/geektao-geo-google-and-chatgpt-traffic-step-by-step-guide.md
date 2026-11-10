@@ -19,7 +19,7 @@ coverImage: "../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide
 
 结论先放这里：谷歌和 ChatGPT 带来流量的页面几乎不重合，要分开做；给 ChatGPT 准备的页面要做成能直接使用的工具。文章类页面在 ChatGPT 这边基本拿不到访问。下文按五个步骤展开，每一步附实测数据。
 
-![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/002.jpg)
+![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/002.webp)
 
 ## 一、谷歌和 ChatGPT 推的是两类页面
 
@@ -29,7 +29,7 @@ coverImage: "../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide
 
 站 A 是一个工具站。8 月 1 日到 10 月 28 日，它的教程文章拿到 2,587 次谷歌点击，ChatGPT 只带来 41 次访问；其中谷歌点击最多的一篇教程，两边分别是 1,022 次和 1 次。生成器页面正好相反：一个是谷歌 47 次、ChatGPT 141 次，另一个是 3 次和 41 次。
 
-![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/003.jpg)
+![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/003.webp)
 
 另一组对照是两个同品类的站。10 月 1 日到 21 日，前者在谷歌的展示量是 3,111,333 次，后者是 7,623 次，相差 408 倍；同期 ChatGPT 访问分别是 6 次和 229 次。
 
@@ -60,7 +60,7 @@ ChatGPT 推荐一个网站之前，要先能抓到页面，并读出页面在讲
 
 curl -A “Mozilla/5.0 (compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot)” https://你的域名/ | grep -c “<h1”
 
-![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/004.jpg)
+![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/004.webp)
 
 这一部分踩过的坑
 
@@ -96,11 +96,11 @@ Would you recommend [你的域名]? What would it need to improve?
 
 站 C 在 10 月 22 日按这个流程做了一遍。ChatGPT 的回答和我当天的改动如下：
 
-![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/005.jpg)
+![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/005.webp)
 
 改版前 7 天（10 月 15 日到 21 日），ChatGPT 每天带来 0 到 4 次访问，共 12 次；改版后（10 月 22 日到 11 月 1 日），每天 16 到 41 次。新增的对比页从 10 月 25 日开始有 ChatGPT 访问，到 11 月 1 日共 28 次。
 
-![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/006.jpg)
+![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/006.webp)
 
 「ChatGPT 会照搬页面上的说法，写错的也照搬」
 
@@ -116,7 +116,7 @@ Would you recommend [你的域名]? What would it need to improve?
 
 我的数据和这个判断一致。10 月 ChatGPT 带来的 1,350 次访问里，工具页和数据页占 774 次，首页 494 次，对比页和替代页 35 次，博客和指南文章只有 6 次。
 
-![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/007.jpg)
+![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/007.webp)
 
 新上线的工具页，很快就有 ChatGPT 带来的访问：
 
@@ -172,7 +172,7 @@ chatgpt\.com|openai\.com|perplexity|claude\.ai|gemini\.google\.com|copilot\.micr
 - 品类问题的答案里有没有你；没有的话，它引用了谁、引用的是哪一类页面；
 - 它提出的改进意见，逐条核实后放进待办。
 
-![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/008.jpg)
+![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/008.webp)
 
 ## 七、还没有验证的部分
 

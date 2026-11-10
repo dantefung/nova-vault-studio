@@ -42,11 +42,11 @@ The Overview gives you per-engine KPIs, sparklines, week / 28-day compare, cover
 
 Overview — Google · Bing · Yandex in one glance (demo data: example.com)
 
-![](../images/chainepic-self-hosted-search-console-dashboard-opensource/002.jpg)
+![](../images/chainepic-self-hosted-search-console-dashboard-opensource/002.webp)
 
 Sites view shows week clicks and week-over-week deltas side by side, plus where an engine is missing or dropping hard.
 
-![](../images/chainepic-self-hosted-search-console-dashboard-opensource/003.jpg)
+![](../images/chainepic-self-hosted-search-console-dashboard-opensource/003.webp)
 
 Sites — coverage gaps and WoW deltas by engine
 
@@ -54,13 +54,13 @@ Keywords are unified across engines: query, host, clicks, impressions, position,
 
 Keywords — movers across GSC, Bing, and Yandex
 
-![](../images/chainepic-self-hosted-search-console-dashboard-opensource/004.jpg)
+![](../images/chainepic-self-hosted-search-console-dashboard-opensource/004.webp)
 
 Drill into a host and switch engine tabs for trends, query movers, and page movers.
 
 Site detail — engine tabs, trends, query & page movers
 
-![](../images/chainepic-self-hosted-search-console-dashboard-opensource/005.jpg)
+![](../images/chainepic-self-hosted-search-console-dashboard-opensource/005.webp)
 
 ## Daily digest, not another dashboard tab you’ll forget
 
@@ -68,7 +68,7 @@ Every morning (default 09:00 in your timezone) the panel can sync, build a diges
 
 Daily digest — history, preview, generate & push
 
-![](../images/chainepic-self-hosted-search-console-dashboard-opensource/006.jpg)
+![](../images/chainepic-self-hosted-search-console-dashboard-opensource/006.webp)
 
 ## Setup in minutes
 
@@ -78,7 +78,7 @@ Setup wizard — connect Google, Bing, and/or Yandex
 
 What’s free, what’s not (yet)
 
-![](../images/chainepic-self-hosted-search-console-dashboard-opensource/007.jpg)
+![](../images/chainepic-self-hosted-search-console-dashboard-opensource/007.webp)
 
 The self-hosted panel is MIT. Sync, movers, digests, rule-based recommendations — all yours to run on your metal. I’m exploring an optional hosted cloud and metered AI assists later; neither is required to use the open-source app. Details live in the repo under docs/OPEN-CORE.m
 

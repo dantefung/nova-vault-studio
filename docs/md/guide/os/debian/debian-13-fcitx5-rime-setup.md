@@ -99,7 +99,7 @@ XMODIFIERS=@im=fcitx
 - 双拼（自然码 / 小鹤等）
 - 简繁切换（选择“半角/全角”、“漢字/汉字”）
 
-![Rime 输入方案切换菜单](images/debian-13-fcitx5-rime-setup/rime-schema-menu.png)
+![Rime 输入方案切换菜单](images/debian-13-fcitx5-rime-setup/rime-schema-menu.webp)
 
 上图展示了从 Fcitx5 菜单进入 Rime 方案菜单，并选择“小鹤双拼-薄荷定制”的操作界面。
 

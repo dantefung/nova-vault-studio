@@ -485,14 +485,14 @@ public void run() {
 
 ![][img-3] 7DGroup ![][img-4] 微信公众号 ![][img-5] 性能 / 测试开发 / 运维，关注发现更多干货。
 
-[img-0]:images/调用链跨线程传递-ThreadLocal-对象对比/p01.png
+[img-0]:images/调用链跨线程传递-ThreadLocal-对象对比/p01.webp
 
-[img-1]:images/调用链跨线程传递-ThreadLocal-对象对比/p02.png
+[img-1]:images/调用链跨线程传递-ThreadLocal-对象对比/p02.webp
 
-[img-2]:images/调用链跨线程传递-ThreadLocal-对象对比/p03.png
+[img-2]:images/调用链跨线程传递-ThreadLocal-对象对比/p03.webp
 
-[img-3]:images/调用链跨线程传递-ThreadLocal-对象对比/p04.jpg
+[img-3]:images/调用链跨线程传递-ThreadLocal-对象对比/p04.webp
 
-[img-4]:images/调用链跨线程传递-ThreadLocal-对象对比/p05.png
+[img-4]:images/调用链跨线程传递-ThreadLocal-对象对比/p05.webp
 
-[img-5]:images/调用链跨线程传递-ThreadLocal-对象对比/p06.png
+[img-5]:images/调用链跨线程传递-ThreadLocal-对象对比/p06.webp

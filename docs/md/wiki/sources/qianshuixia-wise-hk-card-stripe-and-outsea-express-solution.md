@@ -25,39 +25,39 @@ coverImage: "../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-soluti
 
 业务所在地就按照你开的卡所在地来选，我这里是 Wise 的港卡，所以选择就是香港。
 
-![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/002.jpg)
+![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/002.webp)
 
 然后是个人详情，香港身份证件号码这里填的是个人护照，号码就填国内的电话号码，住址我是填的银行地址。
 
 反正个人信息尽量按照真实数据来填，不要乱填哈。
 
-![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/003.jpg)
+![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/003.webp)
 
 然后验证身份的时候，直接使用个人护照就行。
 
 商家信息这里填你网站地址即可：
 
-![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/004.jpg)
+![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/004.webp)
 
 产品或者服务这里选择软件即服务，也就是 SaaS。
 
-![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/005.jpg)
+![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/005.webp)
 
 公开详情这里记得把客户支持电话给去掉，否则你的电话就暴露出来了。
 
-![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/006.jpg)
+![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/006.webp)
 
 对账单描述这里描述符记得跟域名差不多或者相同，不要乱填。
 
-![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/007.jpg)
+![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/007.webp)
 
 提现账户这里填你能提现的银行卡信息即可，我这里是 Wise 港卡，所以填的就是 Wise 港卡银行地址：
 
-![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/008.jpg)
+![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/008.webp)
 
 欺诈防护选最低的，然后去网上找一些公开的规则，自己填进去就可以了。
 
-![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/009.jpg)
+![](../images/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution/009.webp)
 
 ## 祝大家出海“三通一达”：通道顺畅，早日出单
 

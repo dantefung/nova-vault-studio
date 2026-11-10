@@ -61,7 +61,7 @@ https://x.com/CrazyKaomei/status/2096758094386868518
 
 要知道，在 YouTube 做这种商业内幕、科学常识或冷门历史，1000 次播放的广告分成大约是 2 到 3 美元（约合 15-20 元人民币）。
 
-![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/002.jpg)
+![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/002.webp)
 
 还是以这个火柴人频道为例——5 个月的时间跑了 1900 万次播放，广告收益就是 3.8 万美元（约合 28 万人民币）
 
@@ -147,7 +147,7 @@ https://x.com/CrazyKaomei/status/2096758094386868518
 
 专门挑那些几千上万高收藏的图文帖子，把原稿改写成火柴人双语小动画，涨粉极快且极具商业变现价值。
 
-![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/003.jpg)
+![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/003.webp)
 
 如果想做纯中文赛道，那就在视频号和 B 站锁定那些高赞的 “认知思维、人性洞察、励志成长” 账号当对标。
 
@@ -222,7 +222,7 @@ https://x.com/CrazyKaomei/status/2096758094386868518
 
 比如烤妹儿在实测时，直接找了一篇《经济学人》精读 PDF 发给了豆包：
 
-![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/004.jpg)
+![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/004.webp)
 
 紧接着 AI 会先给你呈上一份专业的导演提案：里面直接排好了核心钩子、视觉色调、完整的分镜表、旁白以及推荐的 BGM 风格。
 
@@ -232,7 +232,7 @@ https://x.com/CrazyKaomei/status/2096758094386868518
 
 并在对话框回复 “确认提案” 后，Skill 会一秒吐出 6 条独立、带画风防跑偏锁定的 Gemini Omni Flash 提示词。
 
-![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/005.jpg)
+![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/005.webp)
 
 拿到提示词后，打开 Google Flow——
 
@@ -267,7 +267,7 @@ Google AI Pro 会员每月送 1000 积分，每天还赠送 50 登录积分。�
 2. 一键双语字幕：点击剪映自带的 “识别字幕”，2 秒搞定中英双语排版；
 3. 添加转场特效：在分镜片段衔接的地方，随手加个微缩放运镜；
 
-![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/006.jpg)
+![](../images/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline/006.webp)
 
 干净的双语字幕，加上每 2 ～3 秒就发生一次视觉变化与音效反馈的极简火柴人动画。不仅没有任何 AI 感，而且完全踩中了短视频的算法流量密码——
 

@@ -196,8 +196,8 @@ DNS 探测日志
 
 ```
 
-[img-0]:images/搜索模块-redis-配置说明/p01.png
+[img-0]:images/搜索模块-redis-配置说明/p01.webp
 
-[img-1]:images/搜索模块-redis-配置说明/p02.png
+[img-1]:images/搜索模块-redis-配置说明/p02.webp
 
-[img-2]:images/搜索模块-redis-配置说明/p03.png
+[img-2]:images/搜索模块-redis-配置说明/p03.webp

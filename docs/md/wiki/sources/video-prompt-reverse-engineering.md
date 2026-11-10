@@ -21,7 +21,7 @@ url: "https://zhuanlan.zhihu.com/p/1995106257019871327"
 2. **理解层**：多模态模型识别分镜、主体、环境、动作、镜头语言、光影、材质和节奏。
 3. **输出层**：将视觉特征整理为适配 Veo、Sora、Runway、Kling 等生成模型的结构化 Prompt。
 
-![视频提示词反推工作流](../images/video-prompt-reverse-engineering/001.jpg)
+![视频提示词反推工作流](../images/video-prompt-reverse-engineering/001.webp)
 
 反推结果应被视为“视觉规格初稿”，而不是原始 Prompt 的精确还原。它可以帮助复现构图逻辑和主要动态，但随机种子、模型能力、隐藏参数、参考图和后期处理等信息通常无法从成片中完整恢复。
 
@@ -36,7 +36,7 @@ url: "https://zhuanlan.zhihu.com/p/1995106257019871327"
 5. 将 Prompt 输入目标视频生成模型，生成候选结果。
 6. 对照参考视频修订动作、镜头、时长和约束，再次生成。
 
-![Gemini 视频提示词反推示例](../images/video-prompt-reverse-engineering/002.jpg)
+![Gemini 视频提示词反推示例](../images/video-prompt-reverse-engineering/002.webp)
 
 ## 方案二：使用 Qwen-VL 快速分析
 
@@ -48,7 +48,7 @@ url: "https://zhuanlan.zhihu.com/p/1995106257019871327"
 4. 将描述转换为可灵、即梦或其他视频生成模型需要的格式。
 5. 用生成结果反向校正描述中缺失或错误的视觉要素。
 
-![Qwen-VL 视频提示词反推示例](../images/video-prompt-reverse-engineering/003.jpg)
+![Qwen-VL 视频提示词反推示例](../images/video-prompt-reverse-engineering/003.webp)
 
 具体模型版本和视频输入能力会持续变化，使用时应以平台当前文档为准。
 

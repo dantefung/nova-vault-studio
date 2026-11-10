@@ -18,7 +18,7 @@ url: "https://mp.weixin.qq.com/s/Xyf370f3UX2AOaZkogYMSA"
 
 关键区别：**脚手架是确定性的，输入参数吐出模板；setup 是 prompt-driven 的，先 explore 真实仓库状态，把发现摆给你看，你确认后它才写入。**
 
-![](../images/setup-matt-pocock-skills-not-script/001.png)
+![](../images/setup-matt-pocock-skills-not-script/001.webp)
 
 ## 完整执行流程
 
@@ -58,7 +58,7 @@ Agent 先做一轮仓库侦察，探测：
 
 在 `CLAUDE.md`（优先）或 `AGENTS.md` 中追加 `## Agent skills` 块，指向上面三个文件。规则：先看哪个已存在，编辑它，绝不两个都建。
 
-![](../images/setup-matt-pocock-skills-not-script/002.png)
+![](../images/setup-matt-pocock-skills-not-script/002.webp)
 
 ## 三 Section 对比
 
@@ -68,7 +68,7 @@ Agent 先做一轮仓库侦察，探测：
 | Triage labels | 仅 triage 已装时运行；5 默认标签 | 用户 override | `docs/agents/triage-labels.md` |
 | Domain docs | single-context 直接写 | monorepo 时 multi-context | `docs/agents/domain.md` |
 
-![](../images/setup-matt-pocock-skills-not-script/003.png)
+![](../images/setup-matt-pocock-skills-not-script/003.webp)
 
 ## 验收清单（30 秒验证）
 
@@ -77,7 +77,7 @@ Agent 先做一轮仓库侦察，探测：
 3. 标签语义一致：仓库实际标签与配置对得上
 4. 域文档布局确定：`CONTEXT.md` 和 `docs/adr/` 位置已约定
 
-![](../images/setup-matt-pocock-skills-not-script/004.png)
+![](../images/setup-matt-pocock-skills-not-script/004.webp)
 
 ## 四个反例
 

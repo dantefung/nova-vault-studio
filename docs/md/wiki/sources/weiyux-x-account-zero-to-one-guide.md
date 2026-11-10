@@ -15,7 +15,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 本文基于真实的 X（推特）运营实战经验整理，涵盖冷启动、内容创作、涨粉策略、变现方法和避坑指南，适合所有想在推特做自媒体的新手。
 
-![](../images/weiyux-x-account-zero-to-one-guide/002.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/002.webp)
 
 ## 一、前言：为什么现在是做 X(推特)的最好时机
 
@@ -27,7 +27,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 有人担心自己起步晚、竞争不过大 V。但实际经验是：现在的用户对精致人设已经去魅了，大家更喜欢有反差感、贴近生活的真实分享。 以初学者身份记录从 0 到 1 的过程，反而更能打动普通用户。
 
-![我从 0 到现在快 9 万粉，也就花了将近 10 个月，新人机会依旧很大。](../images/weiyux-x-account-zero-to-one-guide/003.jpg)
+![我从 0 到现在快 9 万粉，也就花了将近 10 个月，新人机会依旧很大。](../images/weiyux-x-account-zero-to-one-guide/003.webp)
 
 所以，别犹豫了。这篇文章会从最基础的账号准备开始，一步步带你走完从 0 到 1 的全过程。
 
@@ -78,7 +78,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 - 失业段子（“我有个朋友”系列）
 - 国内平台吐槽
 
-![](../images/weiyux-x-account-zero-to-one-guide/004.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/004.webp)
 
 看出来了吗？所有内容都围绕“搞钱”这条主线展开，但覆盖了搞钱相关的多个子话题。这就是“泛垂直”策略。
 
@@ -140,7 +140,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 去年 11 月，我受朋友启发开始做推特。前期不会翻墙，靠朋友帮忙才注册好。养号三五天后，我发布了一篇介绍个人经历和副业成绩的帖子，经朋友转发后获得了 10 万流量。
 
-![](../images/weiyux-x-account-zero-to-one-guide/005.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/005.webp)
 
 之后 30 天，我几乎每天发一篇推文，内容直接从我自己的小红书账号搬运已验证的笔记。一个月后，粉丝涨到了 1 万。
 
@@ -180,7 +180,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 为什么第一行要加标题？ 经过测试，有标题的短推数据远优于无标题的。标题直接决定了用户的点击率。
 
-![](../images/weiyux-x-account-zero-to-one-guide/006.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/006.webp)
 
 标题从哪里来？ 从小红书找。“小红书火过的选题，在推特 90%会再火一遍。”
 
@@ -197,7 +197,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 - 加入个人经历和真实感受
 - 控制在 300-500 字以内
 
-![](../images/weiyux-x-account-zero-to-one-guide/007.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/007.webp)
 
 4. 3 长文：对标公众号爆款
 
@@ -219,7 +219,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 不同类型的内容有不同的效果：
 
-![](../images/weiyux-x-account-zero-to-one-guide/008.png)
+![](../images/weiyux-x-account-zero-to-one-guide/008.webp)
 
 核心策略： 教程类内容用来“吸粉”，段子类内容用来“获取曝光”，两者结合效果最好。
 
@@ -229,7 +229,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 核心逻辑：同一个选题，换不同的内容素材和图片，可以反复发，而且每次数据都不错。
 
-![](../images/weiyux-x-account-zero-to-one-guide/009.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/009.webp)
 
 举个例子，我发过很多次“果然赚钱最快的方式还得是二道贩子”这句话，但每次配的内容和图片都不一样——有时候讲闲鱼倒卖拼多多，有时候讲信息差套利，有时候讲跨境搬砖。虽然标题/开头句式一样，但具体案例、截图、数据都是新的，所以每条数据都不错。
 
@@ -263,7 +263,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 每次换不同的平台组合，配上对应的截图和数据，数据都很好。
 
-![](../images/weiyux-x-account-zero-to-one-guide/010.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/010.webp)
 
 这个公式为什么有效？
 
@@ -341,7 +341,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 - 搞钱信息差系列
 - 职场吐槽系列
 
-![](../images/weiyux-x-account-zero-to-one-guide/011.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/011.webp)
 
 每个系列下，收藏 5-10 篇笔记，这样你就有了一个源源不断的选题库。
 
@@ -390,13 +390,13 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 “把这个教程拿到 xx 平台卖 xx 元。”
 
-![](../images/weiyux-x-account-zero-to-one-guide/012.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/012.webp)
 
 公式二：分步赚钱法
 
 “按照这 3 步，24 小时就能开始赚钱。”
 
-![](../images/weiyux-x-account-zero-to-one-guide/013.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/013.webp)
 
 公式三：制造焦虑法
 
@@ -404,7 +404,7 @@ coverImage: "../images/weiyux-x-account-zero-to-one-guide/001.jpg"
 
 这些公式的共同点是：制造紧迫感、稀缺感和好奇心。
 
-![](../images/weiyux-x-account-zero-to-one-guide/014.jpg)
+![](../images/weiyux-x-account-zero-to-one-guide/014.webp)
 
 6. 3 不要做的事
 

@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "森叔 (@harrisonitsme)"
 url: "https://x.com/harrisonitsme/status/2119774674699845929"
-coverImage: "../images/harrisonitsme-dsh-11-essential-plugins/001.jpg"
+coverImage: "../images/harrisonitsme-dsh-11-essential-plugins/001.webp"
 ---
 
 # 森叔（@harrisonitsme）：大肥鱼 DSH 必装的 11 个插件
@@ -43,7 +43,7 @@ coverImage: "../images/harrisonitsme-dsh-11-essential-plugins/001.jpg"
 
 插件导航 https://t.co/IKlWF4uDRC
 
-![](../images/harrisonitsme-dsh-11-essential-plugins/001.jpg)
+![](../images/harrisonitsme-dsh-11-essential-plugins/001.webp)
 
 ## 相关页面
 

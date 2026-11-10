@@ -22,41 +22,41 @@ url: "https://mp.weixin.qq.com/s/R0YJ-Z3RMvTNcyz8QjPAww"
 
 2. 回到 Adsense 后台，选择 Ads.txt 验证方式，勾选底下的"我已发布 ads.txt 文件"，点击"验证"按钮进行校验
 
-![验证步骤](../images/adsense-site-application-details/001.png)
+![验证步骤](../images/adsense-site-application-details/001.webp)
 
 3. 如果正确放置了 ads.txt 文件，就会显示下面的验证通过提示
 
-![验证通过](../images/adsense-site-application-details/002.png)
+![验证通过](../images/adsense-site-application-details/002.webp)
 
 4. 这时候不要点击"申请审核"按钮，而是点击"验证网站所有权"那行文字右侧的向下箭头，展开下面界面
 
-![展开界面](../images/adsense-site-application-details/003.png)
+![展开界面](../images/adsense-site-application-details/003.webp)
 
 5. 切换到"Adsense 代码段"验证方式，获取 js 代码，放置到网站每一个网页 html 的 head 里去
 
-![切换验证方式](../images/adsense-site-application-details/004.png)
+![切换验证方式](../images/adsense-site-application-details/004.webp)
 
 6. 之后才是点击"申请审核"按钮，提交申请
 
-![提交申请](../images/adsense-site-application-details/005.png)
+![提交申请](../images/adsense-site-application-details/005.webp)
 
 ## 为什么一定要先验证 ads.txt 文件？
 
 如果三个都放了，但不先验证 ads.txt 文件，而是直接选择先验证 Adsense 代码段，之后点击下一步：
 
-![错误操作](../images/adsense-site-application-details/006.png)
+![错误操作](../images/adsense-site-application-details/006.webp)
 
 会发现展开之后，再想验证 ads.txt，已经没有"我已发布 ads.txt 文件"的选择框和"验证"按钮了。
 
-![缺少选项](../images/adsense-site-application-details/007.png)
+![缺少选项](../images/adsense-site-application-details/007.webp)
 
 直接点击"申请审核"按钮，提交审核虽然能成功：
 
-![提交成功](../images/adsense-site-application-details/008.png)
+![提交成功](../images/adsense-site-application-details/008.webp)
 
 但回到网站列表，会显示"ads.txt 状态"是"未找到"：
 
-![ads.txt 未找到](../images/adsense-site-application-details/009.png)
+![ads.txt 未找到](../images/adsense-site-application-details/009.webp)
 
 ## 为什么选择验证代码片段而非 meta 标记？
 

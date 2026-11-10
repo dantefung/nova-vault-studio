@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "小墨同学 (@xiaomovps)"
 url: "https://x.com/xiaomovps/status/2119717470730940740"
-coverImage: "../images/xiaomovps-pi-5-must-read-articles-for-developers/001.jpg"
+coverImage: "../images/xiaomovps-pi-5-must-read-articles-for-developers/001.webp"
 ---
 
 # 小墨同学（@xiaomovps）：学习 Pi 必须阅读的 5 篇经典文章——从入门到自己开发 Agent
@@ -107,9 +107,9 @@ Engram 适合同时使用多个 Agent，Magic Context 更适合长期运行和�
 
 毕竟记忆系统最重要的不是存了多少内容，而是下次需要的时候，Agent 能不能真正想起来
 
-![](../images/xiaomovps-pi-5-must-read-articles-for-developers/001.jpg)
+![](../images/xiaomovps-pi-5-must-read-articles-for-developers/001.webp)
 
-![](../images/xiaomovps-pi-5-must-read-articles-for-developers/002.jpg)
+![](../images/xiaomovps-pi-5-must-read-articles-for-developers/002.webp)
 
 ## 相关页面
 

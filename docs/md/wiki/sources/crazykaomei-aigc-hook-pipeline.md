@@ -8,7 +8,7 @@ url: "https://x.com/CrazyKaomei/status/2101584386990964995"
 
 # 单人操盘 590 位博主、拿下 26 亿播放：海外顶级 AIGC 搞钱流水线，被我拆透了（附完整 Prompt）
 
-![](../images/crazykaomei-aigc-hook-pipeline/001.jpg)
+![](../images/crazykaomei-aigc-hook-pipeline/001.webp)
 
 前两天发了那篇《海外 10 大 Agent 搞钱流水线》后，评论区都希望可以详细展开聊聊，里面每一种的具体玩法。
 

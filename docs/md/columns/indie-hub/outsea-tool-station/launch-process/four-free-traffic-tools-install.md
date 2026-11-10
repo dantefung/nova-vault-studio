@@ -47,23 +47,23 @@ https://search.google.com/search-console/
 
 通过你的谷歌账号登录进入你的GSC管理页面。
 
-![image](./images/four-free-traffic-tools-install/001.png)
+![image](images/four-free-traffic-tools-install/001.webp)
 
 打开左上角网站下拉列表，点击底下的“Add property”添加新的网站：
 
-![image](./images/four-free-traffic-tools-install/002.png)
+![image](images/four-free-traffic-tools-install/002.webp)
 
-![image](./images/four-free-traffic-tools-install/003.png)
+![image](images/four-free-traffic-tools-install/003.webp)
 
-![image](./images/four-free-traffic-tools-install/004.png)
+![image](images/four-free-traffic-tools-install/004.webp)
 
 输入你的网站域名（不要带“https://”）。由于我们的网站域名是在Cloudflare中做解析，因此，可以直接通过Cloudflare添加一条TXT解析记录，来进行网站所属的验证。
 
-![image](./images/four-free-traffic-tools-install/005.png)
+![image](images/four-free-traffic-tools-install/005.webp)
 
 验证成功后，网站就添加到GSC中。
 
-![image](./images/four-free-traffic-tools-install/006.png)
+![image](images/four-free-traffic-tools-install/006.webp)
 
 在左上角网站下拉列表中找到你新添加的网站打开，就进入这个网站的GSC页面。接下来，我们顺手提交网站的sitemap.xml文件和网站首页到GSC中。
 
@@ -71,7 +71,7 @@ https://search.google.com/search-console/
 
 接下来，我们顺手提交网站的sitemap.xml文件和网站首页到GSC中。
 
-![image](./images/four-free-traffic-tools-install/007.png)
+![image](images/four-free-traffic-tools-install/007.webp)
 
 点击左侧菜单“Sitemaps”进入Sitemaps管理页面。输入我们网站的Sitemap链接，点击“Submit”即可提交网站的Sitemap文件。
 
@@ -81,7 +81,7 @@ https://search.google.com/search-console/
 
 前面的这篇文章：我们提到网站上线前的注意事项，以及生成sitemap.xml、robots.txt和llms.txt文件。
 
-![image](./images/four-free-traffic-tools-install/008.png)
+![image](images/four-free-traffic-tools-install/008.webp)
 
 接下来提交网站的首页，点击左侧菜单“URL Inspection”，然后在上面搜索框中输入你的网站首页链接，比如：
 
@@ -91,11 +91,11 @@ https://airobotlion.com/
 
 然后按“Enter”回车键。
 
-![image](./images/four-free-traffic-tools-install/009.png)
+![image](images/four-free-traffic-tools-install/009.webp)
 
-![image](./images/four-free-traffic-tools-install/010.png)
+![image](images/four-free-traffic-tools-install/010.webp)
 
-![image](./images/four-free-traffic-tools-install/011.png)
+![image](images/four-free-traffic-tools-install/011.webp)
 
 可以看到我们的网站首页链接状态为“URL is not on Google”。这很正常，因为我们的网站是新网站，链接是新链接。点击“REQUEST INDEXING”提交我们的网站首页，提交成功后可以看到显示“Indexing requested”。
 
@@ -113,29 +113,29 @@ https://www.bing.com/webmasters/
 
 通过谷歌邮箱或其它邮箱登录。
 
-![image](./images/four-free-traffic-tools-install/012.png)
+![image](images/four-free-traffic-tools-install/012.webp)
 
 打开左上角网站下拉列表，点击底下的“Add a site”添加新的网站：
 
 打开左上角网站下拉列表，点击底下的“Add a site”添加新的网站：
 
-![image](./images/four-free-traffic-tools-install/013.png)
+![image](images/four-free-traffic-tools-install/013.webp)
 
-![image](./images/four-free-traffic-tools-install/014.png)
+![image](images/four-free-traffic-tools-install/014.webp)
 
-![image](./images/four-free-traffic-tools-install/015.png)
+![image](images/four-free-traffic-tools-install/015.webp)
 
-![image](./images/four-free-traffic-tools-install/016.png)
+![image](images/four-free-traffic-tools-install/016.webp)
 
 选择通过从“Google Search Console”导入，页面会跳转到谷歌进行登录和验证：
 
-![image](./images/four-free-traffic-tools-install/017.png)
+![image](images/four-free-traffic-tools-install/017.webp)
 
-![image](./images/four-free-traffic-tools-install/018.png)
+![image](images/four-free-traffic-tools-install/018.webp)
 
-![image](./images/four-free-traffic-tools-install/019.png)
+![image](images/four-free-traffic-tools-install/019.webp)
 
-![image](./images/four-free-traffic-tools-install/020.png)
+![image](images/four-free-traffic-tools-install/020.webp)
 
 验证成功后，可以看到刚刚我们新添加到GSC中的网站，勾选这个网站并导入。
 
@@ -143,21 +143,21 @@ https://www.bing.com/webmasters/
 
 接下来，与GSC同理，我们顺手提交网站的sitemap.xml文件和网站首页到Webmasters中。
 
-![image](./images/four-free-traffic-tools-install/021.png)
+![image](images/four-free-traffic-tools-install/021.webp)
 
-![image](./images/four-free-traffic-tools-install/022.png)
+![image](images/four-free-traffic-tools-install/022.webp)
 
-![image](./images/four-free-traffic-tools-install/023.png)
+![image](images/four-free-traffic-tools-install/023.webp)
 
 点击左侧菜单“Sitemaps”进入Sitemaps管理页面，然后点击“Submit sitemap”，输入我们网站的Sitemap链接，点击“Submit”即可提交网站的Sitemap文件。
 
-![image](./images/four-free-traffic-tools-install/024.png)
+![image](images/four-free-traffic-tools-install/024.webp)
 
-![image](./images/four-free-traffic-tools-install/025.png)
+![image](images/four-free-traffic-tools-install/025.webp)
 
-![image](./images/four-free-traffic-tools-install/026.png)
+![image](images/four-free-traffic-tools-install/026.webp)
 
-![image](./images/four-free-traffic-tools-install/027.png)
+![image](images/four-free-traffic-tools-install/027.webp)
 
 接下来提交网站的首页，点击左侧菜单“URL Inspection”，然后输入你的网站首页链接，比如：
 
@@ -181,61 +181,61 @@ https://analytics.google.com/
 
 通过你的谷歌账号登录，进入Google Analytics页面。
 
-![image](./images/four-free-traffic-tools-install/028.png)
+![image](images/four-free-traffic-tools-install/028.webp)
 
-![image](./images/four-free-traffic-tools-install/029.png)
+![image](images/four-free-traffic-tools-install/029.webp)
 
 点击左下角的齿轮，打开GA Admin管理页面。然后在左上角的“+ Create”处添加“Property”，如果你是第一次添加，需要先添加一个Account账号（你可以通过不同的Account账号来对多个网站进行分组管理）。
 
-![image](./images/four-free-traffic-tools-install/030.png)
+![image](images/four-free-traffic-tools-install/030.webp)
 
-![image](./images/four-free-traffic-tools-install/031.png)
+![image](images/four-free-traffic-tools-install/031.webp)
 
-![image](./images/four-free-traffic-tools-install/032.png)
+![image](images/four-free-traffic-tools-install/032.webp)
 
 点击“Property”添加1个Property，输出网站相关信息并选择相应的选项。
 
-![image](./images/four-free-traffic-tools-install/033.png)
+![image](images/four-free-traffic-tools-install/033.webp)
 
-![image](./images/four-free-traffic-tools-install/034.png)
+![image](images/four-free-traffic-tools-install/034.webp)
 
-![image](./images/four-free-traffic-tools-install/035.png)
+![image](images/four-free-traffic-tools-install/035.webp)
 
 接下来，添加你的网站信息和Data Stream。在开始收集数据之前，谷歌将会给你提供一段这个网站的GA跟踪代码：
 
-![image](./images/four-free-traffic-tools-install/036.png)
+![image](images/four-free-traffic-tools-install/036.webp)
 
 我们需要把这段跟踪代码加到我们的网站中。如果你知道怎样添加，直接复制添加到网站中即可（注意需要添加到网站头部或底部的公共页面板块中）。
 
-![image](./images/four-free-traffic-tools-install/037.png)
+![image](images/four-free-traffic-tools-install/037.webp)
 
 如果你不熟悉代码，可以让Claude Code帮你添加。
 
-![image](./images/four-free-traffic-tools-install/038.png)
+![image](images/four-free-traffic-tools-install/038.webp)
 
 Claude Code很快修改好了代码。
 
-![image](./images/four-free-traffic-tools-install/039.png)
+![image](images/four-free-traffic-tools-install/039.webp)
 
 接着，直接提交到Github中。
 
-![image](./images/four-free-traffic-tools-install/040.png)
+![image](images/four-free-traffic-tools-install/040.webp)
 
 然后，通过GitHub Desktop把提交的代码推送到Github。
 
-![image](./images/four-free-traffic-tools-install/041.png)
+![image](images/four-free-traffic-tools-install/041.webp)
 
-![image](./images/four-free-traffic-tools-install/042.png)
+![image](images/four-free-traffic-tools-install/042.webp)
 
 Git的Push操作会触发Vercel重新部署最新的代码。等待部署完成后，我们需要确认一下GA代码是否安装成功。
 
-![image](./images/four-free-traffic-tools-install/043.png)
+![image](images/four-free-traffic-tools-install/043.webp)
 
 刷新网站首页，然后右键点击网站页面，点开“检查”或“查看网页源代码”，搜索是否存在这个网站在GA中对应的跟踪码（比如我们这个网站的“G-JGQEG7MHVS”）即可。
 
-![image](./images/four-free-traffic-tools-install/044.png)
+![image](images/four-free-traffic-tools-install/044.webp)
 
-![image](./images/four-free-traffic-tools-install/045.png)
+![image](images/four-free-traffic-tools-install/045.webp)
 
 确认之后，回到GA管理页面，点击右上角的测试按钮，确认GA可以识别到添加到我们网站的跟踪代码。
 
@@ -259,47 +259,47 @@ https://clarity.microsoft.com/projects
 
 https://clarity.microsoft.com/projects
 
-![image](./images/four-free-traffic-tools-install/046.png)
+![image](images/four-free-traffic-tools-install/046.webp)
 
-![image](./images/four-free-traffic-tools-install/047.png)
+![image](images/four-free-traffic-tools-install/047.webp)
 
 点击左上角“+ New project”按钮添加新的项目，输入网站名称和域名，选择所属行业，点击“Add new project”添加。
 
-![image](./images/four-free-traffic-tools-install/048.png)
+![image](images/four-free-traffic-tools-install/048.webp)
 
-![image](./images/four-free-traffic-tools-install/049.png)
+![image](images/four-free-traffic-tools-install/049.webp)
 
 接下来和GA类似，我们需要添加Clarity的跟踪代码。点击中间“Install manually”这个进行手动添加，你将会看到一段和GA类似的跟踪代码。
 
 我们需要复制这段跟踪代码，添加到我们的网站中（注意需要添加到网站头部或底部的公共页面板块中）。
 
-![image](./images/four-free-traffic-tools-install/050.png)
+![image](images/four-free-traffic-tools-install/050.webp)
 
 如果你不熟悉代码，同样可以让Claude Code帮你添加。
 
 如果你不熟悉代码，同样可以让Claude Code帮你添加。
 
-![image](./images/four-free-traffic-tools-install/051.png)
+![image](images/four-free-traffic-tools-install/051.webp)
 
 Claude Code很快添加好了Clarity的跟踪代码。
 
 Claude Code很快添加好了Clarity的跟踪代码。
 
-![image](./images/four-free-traffic-tools-install/052.png)
+![image](images/four-free-traffic-tools-install/052.webp)
 
 接着，同样提交到Github中。
 
 接着，同样提交到Github中。
 
-![image](./images/four-free-traffic-tools-install/053.png)
+![image](images/four-free-traffic-tools-install/053.webp)
 
 然后，通过GitHub Desktop把提交的代码推送到Github。Git的Push操作同样会触发Vercel重新部署最新的代码。等待部署完成后，我们确认一下Clarity跟踪代码是否安装成功。
 
-![image](./images/four-free-traffic-tools-install/054.png)
+![image](images/four-free-traffic-tools-install/054.webp)
 
-![image](./images/four-free-traffic-tools-install/055.png)
+![image](images/four-free-traffic-tools-install/055.webp)
 
-![image](./images/four-free-traffic-tools-install/056.png)
+![image](images/four-free-traffic-tools-install/056.webp)
 
 回到Clarity的对应网站的页面，很快就看到提示“1 user is online”。实际上这个用户是我本人，点击打开就可以看到对应的录像信息。
 

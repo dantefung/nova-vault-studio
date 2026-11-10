@@ -20,13 +20,13 @@ url: "https://new.web.cafe/tutorial/detail/6b08f538549a4629bde6c5c6009ffe63"
 
 网站定位于给 AI 音乐创作者杂志，也就是给 AI 音乐创作者提供各种教程资讯文章。
 
-![image.png](images/solve-user-needs-content-pages/img_002.png)
+![image.png](images/solve-user-needs-content-pages/img_002.webp)
 
 从上线至今的流量曲线可以看出来，虽然即使到了 6 月份，月访问量也才 3.7 万，但是增长趋势是实打实的，一直在增长中。
 
 怎么做到的呢？靠的就是做扎实的内容。目前这个网站已经在多个音乐相关的关键词里拿到了谷歌首页的排名。
 
-![image.png](images/solve-user-needs-content-pages/img_003.png)
+![image.png](images/solve-user-needs-content-pages/img_003.webp)
 
 从拿到流量的页面来看，都是一些 AI 音乐相关产品推荐文章，如拿下最高流量的页面：
 
@@ -36,7 +36,7 @@ url: "https://new.web.cafe/tutorial/detail/6b08f538549a4629bde6c5c6009ffe63"
 
 文章发布于今年的 3 月 1 日，到现在也才四个半月时间，但获得的流量已经占全站总流量的 43% 了。这个页面主打关键词 `ai stem splitter`，对应的需求是音轨分离。在谷歌搜索结果中，排名第 6 左右。
 
-![image.png](images/solve-user-needs-content-pages/img_004.png)
+![image.png](images/solve-user-needs-content-pages/img_004.webp)
 
 ## 文章结构
 

@@ -21,7 +21,7 @@ coverImage: "../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit
 
 那么问题来了，为什么微信的逼格这么高？
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/002.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/002.webp)
 
 今天就来聊一聊，我们可能最不熟悉的软件，微信。
 
@@ -29,13 +29,13 @@ coverImage: "../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit
 
 单说皮肤可能没有那么特殊，毕竟手机上还有接近一半的软件并没有换皮肤。那如果我们再看一下，哪个软件的启动页面没有广告呢？
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/003.jpg)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/003.webp)
 
 说到广告，大家的悲喜并不相通。高贵的苹果用户和屌丝的安卓用户看到的广告数量就不一样。
 
 因为苹果软件审核的比较严，所以很多软件的苹果版它是 启动页面没有广告的。不过这些软件的安卓版还是有广告，除非你有 VIP，比如我们最爱的网易云音乐。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/004.jpg)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/004.webp)
 
 大家可以注意一下这个软件的右上角非常恬不知耻啊，本身给我打个广告就算了，在我充了 VIP 之后，他还要跟我说，因为你是 vip 所以我给你免广告，就是偷偷的打了一个 vip 的广告。
 
@@ -49,11 +49,11 @@ coverImage: "../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit
 
 不说网易云音乐的力量，京东的多快好省，就连我手机上看片儿的软件。名字是水果的果开头他都要打个 slogan 叫他妈果然好片。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/005.jpg)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/005.webp)
 
 说到这个份上，微信可能就成了你手机里面唯一一个启动没有 LOGO，没有 slogen，没有口号，也不和你宣传企业价值观的软件。大家回忆一下他的启动页是什么？一个叼毛脑袋上顶了个球。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/006.jpg)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/006.webp)
 
 因为微信嘛毕竟是个社交软件，这个叼毛一看就很孤独。人一孤独他就要社交，他就渴望社交。这这个球也是有讲究的，这是人类第一次从外太空拍到地球的照片，美国人拍的，名字叫蓝色弹珠。这个蓝色弹珠跟我们平常看的《新闻联播》的那个球不一样，一般我们看《新闻联播》那个球转着转着中间就会转到中华人民共和国居中。他这个蓝色弹珠是非洲居中的，为什么是非洲呢因为人类的起源地公认的就是非洲。人类在非洲大路上的历史可以追溯到 250 万年前左右。非洲相当于是人类这个物种的摇篮。
 
@@ -109,23 +109,23 @@ coverImage: "../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit
 
 基于这种想法和移动设备的特性，微信上线了附近的人功能。这个功能刚上线的时候，大量的女性用户在上面更新自己的自拍照片，而男性用户则无时无刻不在刷新附近的人。微信第二次流量爆发是 3.0 版本摇一摇上线，大家知道摇一摇这个动作是很色情的，这是我们还是猿猴时就会的动作。这不是因为我是个擦边主播，职业病犯了，爱有一些色情的联想。这确实是你们细心一点就能发现，当你的微信性别不同的时候，摇一摇的动画是不一样的。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/007.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/007.webp)
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/008.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/008.webp)
 
 这两幅图大家稍微思考一下，就知道哪一幅是女性用户看到的画面。摇一摇这个功能刚出来的时候，男性摇完之后里面看到的是裸体的维纳斯，女性看到的是大卫。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/009.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/009.webp)
 
 可惜这俩在我们国家并不是一种美的象征。所以现在被迫换成了一朵小红花。如果你们再细心一点，就会发现摇一摇时咔嚓的那一声响声并不是相机的声音，而是来福枪换弹的声音。这源自于张小龙以前爱玩儿射击游戏，换弹的声音，让他感觉很爽。这是他对性和暴力的表达。
 
 腾讯作为模仿鼻祖，马化腾曾建议张小龙把能想到细分场景都加上去，免得别人抄完摇一摇之后加一个小的功能就又创新了。张小龙拒绝了，他说，微创新是永无止境的，摇一摇做到了极简，连一个按钮都没有。极简的东西是没有办法被超越的。让人惋惜的是前几天，摇一摇这个功能取消了，这个经典的互动被放在了新增的听一听里。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/010.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/010.webp)
 
 微信 3.0 推出之后，可以说正式击败了 QQ 团队。成了市场第一的移动通讯工具。张小龙把微信的启动页面换成了一个迈克尔杰克逊，并且在旁边写上你说我是错的，那你最好证明你是对的。来回击那些不看好他的人和批评家们
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/011.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/011.webp)
 
 这个迈克尔杰克逊为什么是红色的呢，当时的张小龙想找到一种颜色表达内心的激情。
 
@@ -165,7 +165,7 @@ coverImage: "../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit
 
 这在很多人外国人眼里是不理解的，微信的出海一直不算成功，毕竟国外没有老板在下班后还一直在聊天软件上 CALL 你，给你安排任务的文化，文化的不同，像是一个天然屏障，但它无疑是最符合中国国情的，毕竟我们都知道中国工作群的四大谎言
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/012.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/012.webp)
 
 微信群不好用的不止文件功能，在群人数上也极为吝啬，
 
@@ -179,7 +179,7 @@ QQ 的群最多有 2000 人，而微信的群只有 500 人。实际上微信 50
 
 微信的朋友圈点一下，你必须要从图片和视频里面选一个发送。而 QQ 空间，文字，图片和视频都可以随便发。不过其实微信也可以发送纯文字，只要你长按那个拍照按钮。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/013.jpg)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/013.webp)
 
 但他们明确的跟你说，不要依赖此方法。因为文字的修辞门槛很低，很多人都能越过这个门槛，这就导致了没有越过门槛的那些人相当尴尬，社交压力会很大。而图片的修饰门槛较高，大家可能都是随手拍，很少有人精修朋友圈照片，大家都在门槛之下，反而都能开心的分享生活。
 
@@ -201,13 +201,13 @@ Q 空间经常出现那个情况，是你发了条说说，你好友就赞一下
 
 好像使用用户的数据成了理所当然，用户的浏览数据，搜索数据，都被用来变成赚钱的工具，18 年三月，彼时还位列 BAT 席位之一的百度 CEO 李彦宏在以“新时代的中国”为主题的 2018 中国发展高层论坛上提到
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/014.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/014.webp)
 
 李艳红是北京大学的高材生。说话的语调让我想到了曾经也在北京长居的鲁迅。鲁迅先生也曾说过，中国人是怯懦的。但鲁迅先生没有说过。要用中国人的怯懦来赚钱。听说李老板本科毕业之后去了美国深造。那他的后半句极有可能是借鉴的美国的一位哲学家。乔治索罗斯说过，与其教育傻逼，不如赚他点儿钱。把鲁迅先生的话和索罗斯先生的话合在一起，差不多就是李老板的话。
 
 但由于在美国待的时间较短，他硕士毕业之后工作没多久就毅然决然回国创业。这位哲学家的九阴真经他只学了一半。索罗斯先生还说过一句话，当金钱开始作响，坏话便戛然而止。到了李老板这里是坏话，开始作响。李老板的金钱就戛然而止。在次年 19 年李老板再一次登台演讲的时候，一位热心男子直接拿着矿泉水瓶从李老板头上浇下。要注意李老板这个时候回答他的不是中国话。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/015.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/015.webp)
 
 可见李老板在魏则西事件后没少温习另一半九阴真经。
 
@@ -233,23 +233,23 @@ B 战的真相主播不得而知，但关于不使用敬语张小龙的解释是
 
 这里大家可以看出，张小龙是非常擅长使用直觉来思考的人，如果一个事他在直觉上认为不好，就会抵触。而对于喜欢的蓝色弹珠，他放在了十亿人每天都会看见的微信封面，他喜欢许巍的歌词，便花钱买下版权，挂在了 QQ 邮箱的入口
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/016.jpg)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/016.webp)
 
 而有次在同事家里玩时看上了对方年仅两岁的女孩的画，便也把它挂在了这首歌词同样的位置
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/017.jpg)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/017.webp)
 
 你要问我这幅画哪里好？我不知道
 
 这就像未来的凤凰园凶真问年轻的自己，
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/018.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/018.webp)
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/019.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/019.webp)
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/020.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/020.webp)
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/021.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/021.webp)
 
 在尊重用户的层面，张小龙自认为是做的最好的：它体现到每一个小点里面，包括我们不发任何系统的推送，我们不去做任何诱导的行为，也包括我们不允许第三方做任何诱导用户的行为，甚至包括我们不想做太多的活动去感动你，然后带来一些流量。
 
@@ -279,7 +279,7 @@ B 战的真相主播不得而知，但关于不使用敬语张小龙的解释是
 
 接下来其实还有一些想聊的，比如视频号，和微信直播的生态是如何围绕去中心化来设计的。但这需要很大的篇幅，大家也不一定感兴趣，所以这期暂时先讲到这里，视频最后呢我想引用张小龙的一句话来结尾，大家下期见。
 
-![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/022.png)
+![](../images/qingyue-wechat-zhangxiaolong-story-and-independent-spirit/022.webp)
 
 ## 相关页面
 

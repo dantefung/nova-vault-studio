@@ -96,7 +96,7 @@ Tailscale 的流量优先走P2P 直连（UDP 打洞）。打洞失败时（公�
 
 $ tailscale netcheck   * Nearest DERP: San Francisco   ← 人在上海，被分到美国     - sfo: 141ms  (San Francisco)     - shanghai-self: ()           ← 自建中继没测出延迟，永远选不上
 
-![image](./images/001.png)
+![image](images/001.webp)
 
 我实测办公室 P2P 打洞失败时走 sfo，ping 平均2300ms、丢包 16%，SSH 敲个命令都要等半天。
 
@@ -204,9 +204,9 @@ policy 里默认"action": "check"，SSH 连 Linux 机器时每次都弹审批 UR
 
 $ tailscale netcheck   - shanghai-self: 11.3ms   ← 自建中继测出延迟，当选   - sfo: 140.6ms  $ tailscale ping `<家里主机>` pong via DERP(shanghai-self) in 14ms   ← 走上海中继  $ tailscale ping `<云服务器>` pong via `<服务器IP>`:41641 in 9ms  ← 服务器甚至直连了
 
-![image](./images/002.png)
+![image](images/002.webp)
 
-![image](./images/003.png)
+![image](images/003.webp)
 
 设备
 

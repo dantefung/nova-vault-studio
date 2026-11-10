@@ -40,13 +40,13 @@ coverImage: "../images/story-studio-video-account-pipeline/001.jpg"
 - 账号单月精准涨粉数万，且粉丝画像高度集中在 35 岁至 55 岁以上的高净值、强信任中老年群体；
 - 单条视频在抖音/微信生态内的转发、点赞、在看常常突破数万。
 
-![](../images/story-studio-video-account-pipeline/002.jpg)
+![](../images/story-studio-video-account-pipeline/002.webp)
 
-![](../images/story-studio-video-account-pipeline/003.jpg)
+![](../images/story-studio-video-account-pipeline/003.webp)
 
-![](../images/story-studio-video-account-pipeline/004.jpg)
+![](../images/story-studio-video-account-pipeline/004.webp)
 
-![](../images/story-studio-video-account-pipeline/005.jpg)
+![](../images/story-studio-video-account-pipeline/005.webp)
 
 ### 2. 带货出单与真实收益金额
 
@@ -55,13 +55,13 @@ coverImage: "../images/story-studio-video-account-pipeline/001.jpg"
 - 单期视频带货出单数百甚至数千单，主推的人物传记与社科图书客单在 49 元至 88 元之间，佣金比例在 30% 到 50%；
 - 月度带货流水与佣金收益持续稳定，爆款爆发期单周佣金到账就能覆盖过去几个月的人力成本；
 
-![](../images/story-studio-video-account-pipeline/006.jpg)
+![](../images/story-studio-video-account-pipeline/006.webp)
 
-![](../images/story-studio-video-account-pipeline/007.jpg)
+![](../images/story-studio-video-account-pipeline/007.webp)
 
-![](../images/story-studio-video-account-pipeline/008.jpg)
+![](../images/story-studio-video-account-pipeline/008.webp)
 
-![](../images/story-studio-video-account-pipeline/009.jpg)
+![](../images/story-studio-video-account-pipeline/009.webp)
 
 ### 3. 完全免费开源：不收一分钱，只要坚持做你也能拿结果
 
@@ -97,7 +97,7 @@ AI Agent 时代最大的技术红利，就是让原本需要“文案+配音+剪
 
 ## 三：Story Studio 实操全流程拆解
 
-![](../images/story-studio-video-account-pipeline/010.jpg)
+![](../images/story-studio-video-account-pipeline/010.webp)
 
 在你的 codex 里装好 Skill 后，直接开启自动化工作流。
 
@@ -132,9 +132,9 @@ Agent 会自动调取内置的 A/B/C/D/E 五大类开头钩子库：
 - 就我测试下来，我非常喜欢 gemini 3.8 写出来的文案，非常有人味！
 - 搭配上我调好的开头的钩子，非常非常吸引人！
 
-![](../images/story-studio-video-account-pipeline/011.png)
+![](../images/story-studio-video-account-pipeline/011.webp)
 
-![](../images/story-studio-video-account-pipeline/012.png)
+![](../images/story-studio-video-account-pipeline/012.webp)
 
 ### Step 2：配音与时间戳 —— 毫秒级字音对齐
 
@@ -146,9 +146,9 @@ Agent 会自动调取内置的 A/B/C/D/E 五大类开头钩子库：
 - Agent 自动调度合成，并在本地用 ffprobe 校验完整性，防止缺字漏字，同时对文本做哈希防重复扣费。
 - 敏感 Key 走系统底层 DPAPI 加密存储，绝不泄露在明文项目中。
 
-![](../images/story-studio-video-account-pipeline/013.jpg)
+![](../images/story-studio-video-account-pipeline/013.webp)
 
-![](../images/story-studio-video-account-pipeline/014.jpg)
+![](../images/story-studio-video-account-pipeline/014.webp)
 
 > 这里我建议自己准备好克隆的音色，找好一个流量好的对标账号之后，把他的音频下载下来，然后到豆包语音里面进行克隆音色保存，发送给你的 agent，让它帮你配置好豆包语音大模型，后续把你的文案发给 agent 之后，它就能帮你调用语音合成 API，直接生成 mp3 音频了。
 
@@ -178,21 +178,21 @@ Story Studio 采用了 Audio-First（先音频后分镜）机制：
 
 - 厚涂历史漫画风 (`historical-comic`)：强烈戏剧张力，赭金与焦褐块面，电影镜头感拉满（自带 3:4 与 4:3 金箔榜书标题封面）。
 
-![这种风格做历史史实类视频](../images/story-studio-video-account-pipeline/015.jpg)
+![这种风格做历史史实类视频](../images/story-studio-video-account-pipeline/015.webp)
 
-![这种风格做历史史实类视频](../images/story-studio-video-account-pipeline/016.jpg)
+![这种风格做历史史实类视频](../images/story-studio-video-account-pipeline/016.webp)
 
 - 黑白纪实叙事风 (`monochrome-narrative`)：克制冷峻，细腻的胶片感与人物面部年龄质感，适合近现代与深度传记。
 
-![这种风格一般是做近现代人物故事](../images/story-studio-video-account-pipeline/017.jpg)
+![这种风格一般是做近现代人物故事](../images/story-studio-video-account-pipeline/017.webp)
 
-![这种风格一般是做近现代人物故事](../images/story-studio-video-account-pipeline/018.jpg)
+![这种风格一般是做近现代人物故事](../images/story-studio-video-account-pipeline/018.webp)
 
 - 历史写实风 (`historical-realism`)：柔和自然的光照与写实笔触。
 
-![](../images/story-studio-video-account-pipeline/019.jpg)
+![](../images/story-studio-video-account-pipeline/019.webp)
 
-![](../images/story-studio-video-account-pipeline/020.jpg)
+![](../images/story-studio-video-account-pipeline/020.webp)
 
 #### 为什么不会画风突变？
 

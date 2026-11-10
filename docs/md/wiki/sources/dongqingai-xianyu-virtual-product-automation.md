@@ -7,7 +7,7 @@ url: "https://x.com/DongQingAi/status/2100433090892173789"
 ---
 # 闲鱼虚拟资料自动化：从选品、制作、上架到自动发货的思路及工具分享
 
-![](../images/dongqingai-xianyu-virtual-product-automation/001.jpg)
+![](../images/dongqingai-xianyu-virtual-product-automation/001.webp)
 
 我从 2017 年开始接触虚拟资料项目，做过淘宝，闲鱼，也做过小红书，现在一直在研究怎样用 AI 把虚拟产品这门生意做得更简单。
 
@@ -29,7 +29,7 @@ url: "https://x.com/DongQingAi/status/2100433090892173789"
 
 这篇文章不讲复杂的理论，就把这套赚钱玩法从头到尾拆开。
 
-![](../images/dongqingai-xianyu-virtual-product-automation/002.jpg)
+![](../images/dongqingai-xianyu-virtual-product-automation/002.webp)
 
 ## 一、这套玩法赚的是什么钱
 
@@ -71,7 +71,7 @@ url: "https://x.com/DongQingAi/status/2100433090892173789"
 
 > 搜索闲鱼上正在销售的虚拟资料，整理商品名称、售价、需求场景和主要卖点。不要复制原文，只分析市场需求。挑出适合重新独立制作、交付简单、能够通过网盘发送的方向。
 
-![](../images/dongqingai-xianyu-virtual-product-automation/003.jpg)
+![](../images/dongqingai-xianyu-virtual-product-automation/003.webp)
 
 也可以用淘宝的工具，来去看看市场上的虚拟资料，AI 会先帮你把公开商品分组。
 
@@ -203,7 +203,7 @@ AI 可以把制作速度提高很多，但不能把未经检查的初稿直接�
 
 官网目前展示了商品管理、订单管理、发货配置、卡券管理、自动回复和多店铺等功能。免费范围和具体限制可能调整，使用时以官网最新规则为准。
 
-![](../images/dongqingai-xianyu-virtual-product-automation/004.jpg)
+![](../images/dongqingai-xianyu-virtual-product-automation/004.webp)
 
 我这商品销量其实都不是很高，但是客单价算得上比较贵的，而且铺的量大，店铺也多
 
@@ -211,7 +211,7 @@ AI 可以把制作速度提高很多，但不能把未经检查的初稿直接�
 
 > 闲鱼商品 → 对应网盘链接 → 发货话术 → 买家付款后自动发送
 
-![](../images/dongqingai-xianyu-virtual-product-automation/005.jpg)
+![](../images/dongqingai-xianyu-virtual-product-automation/005.webp)
 
 如果希望把系统掌握在自己手里，也可以搭建开源项目：
 

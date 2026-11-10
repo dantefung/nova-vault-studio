@@ -7,37 +7,37 @@ url: "https://mp.weixin.qq.com/s/NcHgwVLRggbEk6oNLGVJrg"
 ---
 # 找新词：一个永远有效的建站策略，让你快速拿到搜索引擎流量
 
-![image](./images/find-new-words-always-effective-strategy/001.png)
+![image](images/find-new-words-always-effective-strategy/001.webp)
 
 有个即友回忆10年前从ERP销售转型为SaaS产品经理之路，说当时花钱在淘宝买建站教程，跟着教程做起来的第一个网站，很快就日PV过万了。
 
 回忆起成功的原因，即友说，是因为刚好抓住了一个新词，拿到了搜索引擎前二位置。
 
-![image](./images/find-new-words-always-effective-strategy/002.png)
+![image](images/find-new-words-always-effective-strategy/002.webp)
 
 这个方法，10年前有效，今天依然有效，如群友@Gray做的网站，就是抓住了新词，群友新站上线9天拿到11030个独立访客，他是怎么做到的？
 
 这样的例子还可以举出很多，如在谷歌搜索“draggan ai”，发现排名第一的网站，并不是官方网站。
 
-![image](./images/find-new-words-always-effective-strategy/003.png)
+![image](images/find-new-words-always-effective-strategy/003.webp)
 
 dragganaitool.com 这个域名5月28日注册的，6月份就拿到了4.5万的月访问量。
 
-![image](./images/find-new-words-always-effective-strategy/004.png)
+![image](images/find-new-words-always-effective-strategy/004.webp)
 
 凭什么一个新网站，能排到第一？
 
 主要原因就是因为，这是一个新站，没多少人跟他竞争。
 
-![image](./images/find-new-words-always-effective-strategy/005.png)
+![image](images/find-new-words-always-effective-strategy/005.webp)
 
 我们再来看一下，谷歌官方公布的一组统计数据。
 
-![image](./images/find-new-words-always-effective-strategy/006.png)
+![image](images/find-new-words-always-effective-strategy/006.webp)
 
 谷歌每天处理的搜索中有15%是从来没有被搜索过的词。
 
-![image](./images/find-new-words-always-effective-strategy/007.png)
+![image](images/find-new-words-always-effective-strategy/007.webp)
 
 2016年，谷歌说每年处理2万亿次搜索，到2023年，应该要有3万亿次以上了。
 
@@ -55,20 +55,20 @@ dragganaitool.com 这个域名5月28日注册的，6月份就拿到了4.5万的�
 
 其实哥飞在“哥飞的朋友们”这个付费社群里提到好几次了，有多种办法，具体见下面聊天记录。
 
-![image](./images/find-new-words-always-effective-strategy/008.png)
+![image](images/find-new-words-always-effective-strategy/008.webp)
 
 哥飞这个付费群建立时间不长，到今天也才23天时间，群友们已经上线好几个网站，好几个浏览器插件了。
 
 如，今天又有群友上线了新的工具站，上线当天就拿到了1000PV。
 
-![image](./images/find-new-words-always-effective-strategy/009.png)
+![image](images/find-new-words-always-effective-strategy/009.webp)
 
 想要跟着一群这么努力的小伙伴们一起做出海产品吗？
 
 我们不是闲聊，我们是真诚交流，互通有无，干货满满。
 
-![image](./images/find-new-words-always-effective-strategy/010.png)
+![image](images/find-new-words-always-effective-strategy/010.webp)
 
 欢迎加哥飞微信 GeFeiSvip ，一起交流，一起鼓励，一起成长，一起赚钱。
 
-![image](./images/find-new-words-always-effective-strategy/011.png)
+![image](images/find-new-words-always-effective-strategy/011.webp)

@@ -12,7 +12,7 @@ url: "https://x.com/LZJ5460/status/2110637116061532173"
 
 <!-- more -->
 
-![小红书批量封号情况](../images/lzj-grok-bot-xiaohongshu-ban-warning/001.jpg)
+![小红书批量封号情况](../images/lzj-grok-bot-xiaohongshu-ban-warning/001.webp)
 
 *图 1：小红书批量封号情况截图。*
 

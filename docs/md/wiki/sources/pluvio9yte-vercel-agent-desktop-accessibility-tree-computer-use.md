@@ -4,7 +4,7 @@ date: "2026-11-09"
 source: "X/Twitter"
 author: "雪踏乌云 (@Pluvio9yte)"
 url: "https://x.com/Pluvio9yte/status/2119080693233754506"
-coverImage: "../images/pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use/001.jpg"
+coverImage: "../images/pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use/001.webp"
 ---
 
 # 雪踏乌云（@Pluvio9yte）：Vercel 推出的 agent-desktop 才是 Agent 操控电脑的真神
@@ -64,7 +64,7 @@ Use `agent-desktop` to see and operate desktop apps. Before the first use, run
 
 实测截图👇
 
-![](../images/pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use/001.jpg)
+![](../images/pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use/001.webp)
 
 https://t.co/a7AMmp7Js1
 

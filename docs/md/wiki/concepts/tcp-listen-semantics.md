@@ -62,7 +62,7 @@ listen(listen_fd, 128);  // 关键的一步：把套接字转为 LISTEN 状态
 
 ## 三种建连场景
 
-![三种 TCP 建连场景对比](../images/tcp-listen-connection-setup/001.png)
+![三种 TCP 建连场景对比](../images/tcp-listen-connection-setup/001.webp)
 
 | 场景 | 是否需要 listen | 内核行为 | 结果 |
 |------|----------------|----------|------|

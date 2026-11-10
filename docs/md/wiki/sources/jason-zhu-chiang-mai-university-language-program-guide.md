@@ -25,7 +25,7 @@ coverImage: "../images/jason-zhu-chiang-mai-university-language-program-guide/00
 
 清迈大学语言学院一年开 4 期：3 月、5 月、9 月、11 月，每期都是 6 个月（210 课时），周一到周四上课，每天 3 小时。
 
-![](../images/jason-zhu-chiang-mai-university-language-program-guide/002.jpg)
+![](../images/jason-zhu-chiang-mai-university-language-program-guide/002.webp)
 
 重点看报名窗口，错过只能等下一期（以 2026 年为例）：
 
@@ -35,15 +35,15 @@ learnandteachcmu@gmail.com
 
 邮件不用花哨，直接说明想报哪一期、已准备什么材料、问清楚发送地址，参考我的写法：
 
-![](../images/jason-zhu-chiang-mai-university-language-program-guide/003.jpg)
+![](../images/jason-zhu-chiang-mai-university-language-program-guide/003.webp)
 
 ## 二、准备报名材料
 
 官方回信会附上当期课程安排和报名材料清单：
 
-![](../images/jason-zhu-chiang-mai-university-language-program-guide/004.jpg)
+![](../images/jason-zhu-chiang-mai-university-language-program-guide/004.webp)
 
-![](../images/jason-zhu-chiang-mai-university-language-program-guide/005.jpg)
+![](../images/jason-zhu-chiang-mai-university-language-program-guide/005.webp)
 
 逐项过一遍：
 
@@ -64,7 +64,7 @@ learnandteachcmu@gmail.com
 
 报英语班必须在报名前一个月内完成官方线上测试，学院按成绩分班，报名成功后不允许调班。
 
-![](../images/jason-zhu-chiang-mai-university-language-program-guide/006.jpg)
+![](../images/jason-zhu-chiang-mai-university-language-program-guide/006.webp)
 
 流程很简单：
 
@@ -81,7 +81,7 @@ learnandteachcmu@gmail.com
 
 材料通过审核后会收到确认邮件，里面有你的班级、上课时间和领区领事馆信
 
-![](../images/jason-zhu-chiang-mai-university-language-program-guide/007.jpg)
+![](../images/jason-zhu-chiang-mai-university-language-program-guide/007.webp)
 
 这一步要做两件事：
 
@@ -99,7 +99,7 @@ learnandteachcmu@gmail.com
 
 报名成功后，学院会把申请签证所需的全套文件（电子版）发给你，包括校方申请签证资料和清迈大学注册文件：
 
-![](../images/jason-zhu-chiang-mai-university-language-program-guide/008.jpg)
+![](../images/jason-zhu-chiang-mai-university-language-program-guide/008.webp)
 
 几个关键点划重点：
 
@@ -113,7 +113,7 @@ learnandteachcmu@gmail.com
 
 中国申请人统一走泰国电子签系统：https://www.thaievisa.go.th/（上海领事馆）
 
-![](../images/jason-zhu-chiang-mai-university-language-program-guide/009.jpg)
+![](../images/jason-zhu-chiang-mai-university-language-program-guide/009.webp)
 
 按你的领区选领事馆（比如上海领区选 Royal Thai Consulate-General, Shanghai），几个易错项
 

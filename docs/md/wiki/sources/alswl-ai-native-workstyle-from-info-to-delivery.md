@@ -60,7 +60,7 @@ coverImage: "../images/alswl-ai-native-workstyle-from-info-to-delivery/001.jpg"
 
 不是单点工具。是工作方式。
 
-![](../images/alswl-ai-native-workstyle-from-info-to-delivery/002.jpg)
+![](../images/alswl-ai-native-workstyle-from-info-to-delivery/002.webp)
 
 现实信息和任务目标进入 AI 工作区，分析、生成、检查之后，交给人做优先级、边界、取舍和责任的判断，再产出可上线、可验收的作品；作品产生反馈和新目标，回到起点。
 
@@ -70,7 +70,7 @@ coverImage: "../images/alswl-ai-native-workstyle-from-info-to-delivery/001.jpg"
 
 从信息到洞见
 
-![](../images/alswl-ai-native-workstyle-from-info-to-delivery/003.png)
+![](../images/alswl-ai-native-workstyle-from-info-to-delivery/003.webp)
 
 图源：网络
 
@@ -78,7 +78,7 @@ coverImage: "../images/alswl-ai-native-workstyle-from-info-to-delivery/001.jpg"
 
 我的工作流
 
-![](../images/alswl-ai-native-workstyle-from-info-to-delivery/004.jpg)
+![](../images/alswl-ai-native-workstyle-from-info-to-delivery/004.webp)
 
 每天给自己提 10+ 个知识经营 PR。
 
@@ -94,7 +94,7 @@ minds 管理 AI 协作产生的信息：材料很杂，也需要反复加工。�
 
 [GitHub - alswl/mind-forge: Forge minds into articles.](https://github.com/alswl/mind-forge)
 
-![](../images/alswl-ai-native-workstyle-from-info-to-delivery/005.jpg)
+![](../images/alswl-ai-native-workstyle-from-info-to-delivery/005.webp)
 
 一个仓库装若干项目，一个项目里分四个区：
 
@@ -109,7 +109,7 @@ minds 管理 AI 协作产生的信息：材料很杂，也需要反复加工。�
 
 仓库根目录还用 minds.yaml 注册项目，用术语表和跨项目 thinking 管理共用信息；文章、素材与配置则各自在项目内维护。
 
-![](../images/alswl-ai-native-workstyle-from-info-to-delivery/006.jpg)
+![](../images/alswl-ai-native-workstyle-from-info-to-delivery/006.webp)
 
 my-kms 知识库
 
@@ -123,7 +123,7 @@ my-kms 是持续了多年的个人知识库。产品换过几代（2010 年写�
 
 两个仓库都托管在本机自建的 Forgejo 上。好处很实在：私有数据不出机器，但仍然有分支、PR、diff 和历史——也就是说，Agent 的每一次改动都是可 review、可回滚的。
 
-![](../images/alswl-ai-native-workstyle-from-info-to-delivery/007.jpg)
+![](../images/alswl-ai-native-workstyle-from-info-to-delivery/007.webp)
 
 如何保持人味
 
@@ -183,9 +183,9 @@ AI Coding 让需求交付密度爆发。测试资源很难按同样的速度扩�
 
 最后一步是判决和回写：跑完不是给一堆日志，而是给一个带运行证据的结论，回写到工作项的验收里。
 
-![](../images/alswl-ai-native-workstyle-from-info-to-delivery/008.jpg)
+![](../images/alswl-ai-native-workstyle-from-info-to-delivery/008.webp)
 
-![](../images/alswl-ai-native-workstyle-from-info-to-delivery/009.jpg)
+![](../images/alswl-ai-native-workstyle-from-info-to-delivery/009.webp)
 
 小结
 

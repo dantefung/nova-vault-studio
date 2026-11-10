@@ -32,13 +32,13 @@ APP 的竞品调研难点，工具非常分散，商店数据、社媒、SEO 各
 
 比如，下面就是单个 bot 和群聊 bot：
 
-![](../images/grok-bot-app-research/001.jpg)
+![](../images/grok-bot-app-research/001.webp)
 
 第二，Grok Bot 上每个 Bot 还自带一台云电脑，不是内置浏览器的壳（现在大多数 agent 都是内置浏览器的壳，不那么方便，包括 codex 这一类）。意思就是，这个 Agent 完全可以模拟一个人的操作。登录 app，使用 app，看视频等等。
 
 比如，下面这个任务是让 bot 下载 app 并且截图：
 
-![](../images/grok-bot-app-research/002.jpg)
+![](../images/grok-bot-app-research/002.webp)
 
 ✎ 整体操作流程以及提前要做哪些准备
 
@@ -88,19 +88,19 @@ Grok Bot可以先用免费七天试用，之后可以购买 Super Grok，每月 
 
 设置单个 bot：点击+号，给 bot 命名即可。产品调研工作组可以设这几个：「app调研」负责应用商店；「SEO」负责 Semrush；「社媒组长」负责 TikTok 与投放素材
 
-![](../images/grok-bot-app-research/003.jpg)
+![](../images/grok-bot-app-research/003.webp)
 
 设置群组 bot，我直接在总控 bot 当中请 bot 来建工作群。
 
-![](../images/grok-bot-app-research/004.jpg)
+![](../images/grok-bot-app-research/004.webp)
 
 建完工作组之后，可以给他们分配具体的任务。把下图发送到工作群内：
 
-![](../images/grok-bot-app-research/005.jpg)
+![](../images/grok-bot-app-research/005.webp)
 
 下面是 bot 们的反馈：
 
-![](../images/grok-bot-app-research/006.jpg)
+![](../images/grok-bot-app-research/006.webp)
 
 第二，配置一下云手机（云手机需付费）
 
@@ -112,36 +112,36 @@ Grok Bot可以先用免费七天试用，之后可以购买 Super Grok，每月 
 
 在电脑上下载 GeeLark 客户端并完成注册
 
-![](../images/grok-bot-app-research/007.jpg)
+![](../images/grok-bot-app-research/007.webp)
 
 而后点击在这个 GeeHub，会引导你订阅，选择最低的那个档次套餐即可，而后就会出来右边这些，这仨记录下来，待会儿要告诉 bot 的，有了这仨，就可以让 bot 帮你去配置云手机，不用你自己去学如何手动配置GeeHub 了。
 
-![](../images/grok-bot-app-research/008.jpg)
+![](../images/grok-bot-app-research/008.webp)
 
 让我们紧接着去把静态 IP 和谷歌账号都买好。
 
 静态 IP proxy
 
 链接：https://proxy-seller.com/
-![](../images/grok-bot-app-research/009.jpg)
+![](../images/grok-bot-app-research/009.webp)
 
 点击之后
 
-![](../images/grok-bot-app-research/010.jpg)
+![](../images/grok-bot-app-research/010.webp)
 
 买好之后我就简单粗暴截图了一下，这个可以给 bot 去处理，也可以记录下这些关键信息
 
-![](../images/grok-bot-app-research/011.jpg)
+![](../images/grok-bot-app-research/011.webp)
 
 gmail 账号购买就比较简单直接挑就行。
 
 而后，把所有这些信息一股脑告诉 bot ，让它自己去配置，如同这样，gmail 搞好了，也这样给 bot，让它自己去配置。
 
-![](../images/grok-bot-app-research/012.jpg)
+![](../images/grok-bot-app-research/012.webp)
 
 这里注意，配置 gmail 登录的时候，有一个细节，就是 gmail 的验证需要一些手动，bot 会给你这样反馈：
 
-![](../images/grok-bot-app-research/013.jpg)
+![](../images/grok-bot-app-research/013.webp)
 
 这里就需要在 geelark 客户端手动一下，这个也可以让 bot 引导你如何去操作，相当于在电脑上用手机的体验。
 
@@ -173,21 +173,21 @@ gmail 账号购买就比较简单直接挑就行。
 
 1 定赛道这个：
 
-![](../images/grok-bot-app-research/014.jpg)
+![](../images/grok-bot-app-research/014.webp)
 
 2拉商店区间数据
 
 告诉 bot 要登录七麦，就可以登录了。可以去拉取下载 / 收入曲线。
 
-![](../images/grok-bot-app-research/015.jpg)
+![](../images/grok-bot-app-research/015.webp)
 
 3. 扫投放 / 种草动作
 
-![](../images/grok-bot-app-research/016.jpg)
+![](../images/grok-bot-app-research/016.webp)
 
 还可以让 bot 去扫视频
 
-![](../images/grok-bot-app-research/017.jpg)
+![](../images/grok-bot-app-research/017.webp)
 
 扫完视频之后，让对方输出一个整合的链接，把所有调研的信息汇总
 

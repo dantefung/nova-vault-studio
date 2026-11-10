@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/X63pmCizdAifLFOyM_cVDg"
 
 # 他把自己的身体卖了 11.2 万美元：Marc Lou 的钱早就不从代码里来了
 
-![image](../images/x63pmcizdaiflfoym_cvdg/001.png)
+![image](../images/x63pmcizdaiflfoym_cvdg/001.webp)
 
 独立开发圈里，Marc Lou 大概是最爱做实验的一个人。
 

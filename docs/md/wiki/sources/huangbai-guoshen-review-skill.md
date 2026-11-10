@@ -12,19 +12,19 @@ coverImage: "../images/huangbai-guoshen-review-skill/001.jpg"
 
 做过自媒体的人，应该都被「审核」困扰过，辛辛苦苦做的视频，最后却被卡审限流。。。
 
-![](../images/huangbai-guoshen-review-skill/002.png)
+![](../images/huangbai-guoshen-review-skill/002.webp)
 
 更可气的是！！平台并不会告诉你，卡审的点是什么。只能自己辛苦反复推测到底哪里出了问题。。。
 
 作为一个全网 40 万粉的 AI 博主，在过去的一年时间里，我几乎每个月都会有视频被莫名卡审限流，真的是烦不胜烦。。。。
 
-![](../images/huangbai-guoshen-review-skill/003.jpg)
+![](../images/huangbai-guoshen-review-skill/003.webp)
 
 所以，我做了一个叫「过审」的 skill，最初只是为了自己用。但现在我发现，只有大家共同提 PR，才能够做好这个 skill...
 
 ## 一、怎么用
 
-![Skill 分析过程](../images/huangbai-guoshen-review-skill/004.jpg)
+![Skill 分析过程](../images/huangbai-guoshen-review-skill/004.webp)
 
 把[「过审」](https://github.com/huangbai-AI/guoshen)安装到 Codex/CC，把视频文案和成片一起丢进对话，告诉它准备发到哪个平台。比如：
 
@@ -32,13 +32,13 @@ coverImage: "../images/huangbai-guoshen-review-skill/001.jpg"
 
 它会一起检查语音、字幕和画面，给一个这样清晰的修改建议表
 
-![生成的审核风险表](../images/huangbai-guoshen-review-skill/005.jpg)
+![生成的审核风险表](../images/huangbai-guoshen-review-skill/005.webp)
 
 内部用了一段时间，发视频之前，都会先过一遍这个 Skill，调整完了再发布。边用边改这个 Skill，现在卡审的几率已经大大下降了。
 
 ## 二、咋做的
 
-![](../images/huangbai-guoshen-review-skill/006.jpg)
+![](../images/huangbai-guoshen-review-skill/006.webp)
 
 第一步，把各个平台公开的审核规定整理进去。
 
@@ -56,7 +56,7 @@ coverImage: "../images/huangbai-guoshen-review-skill/001.jpg"
 
 ## 三、一起提 PR
 
-![](../images/huangbai-guoshen-review-skill/007.jpg)
+![](../images/huangbai-guoshen-review-skill/007.webp)
 
 但现在，我发现有一个问题：平台的规则是会变的。
 

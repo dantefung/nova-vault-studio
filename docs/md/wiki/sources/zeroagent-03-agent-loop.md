@@ -38,7 +38,7 @@ url: "https://mp.weixin.qq.com/s/9YvqRcC-miUnx7DL8cBW5w"
 | 行动 Act | 具体怎么做？ | 决策 | 工具调用 / 输出 |
 | 观察 Observe | 结果是什么？ | 工具返回 / 环境反馈 | 新信息 + 状态更新 |
 
-![ReAct 四阶段闭环与 Agent Loop 的对应关系](../images/zeroagent-03-agent-loop/001.png)
+![ReAct 四阶段闭环与 Agent Loop 的对应关系](../images/zeroagent-03-agent-loop/001.webp)
 
 #### 1.2 模型对 ReAct 的实现
 
@@ -228,7 +228,7 @@ function render(event: AgentEvent): void {
 
 最后来看 Agent Loop 启动之后是如何停下来的。**无限循环的 Agent 很可怕，会把你的 tokens 都烧光。**
 
-![Agent Loop 的三种终止条件](../images/zeroagent-03-agent-loop/002.png)
+![Agent Loop 的三种终止条件](../images/zeroagent-03-agent-loop/002.webp)
 
 总共有三种情况可以终止循环，其代码实现如下：
 

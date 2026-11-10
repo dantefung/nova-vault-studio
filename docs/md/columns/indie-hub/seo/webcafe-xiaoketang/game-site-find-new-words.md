@@ -10,13 +10,13 @@ url: "https://new.web.cafe/tutorial/detail/slnybcony1"
 
 # 一句话告诉大家，游戏站怎么找新词新游戏
 
-![图片](images/game-site-find-new-words/img_002.jpg)
+![图片](images/game-site-find-new-words/img_002.webp)
 
-![图片](images/game-site-find-new-words/img_003.jpg)
+![图片](images/game-site-find-new-words/img_003.webp)
 
-![图片](images/game-site-find-new-words/img_008.jpg)
+![图片](images/game-site-find-new-words/img_008.webp)
 
-![图片](images/game-site-find-new-words/img_026.jpg)
+![图片](images/game-site-find-new-words/img_026.webp)
 
 大家好，今天的 #哥飞小课堂 开课了。我们先从一个游戏热词开始说起，That's not my neighbor 这是 2024 年 2 月 18 日开始火起来的一个游戏，在 3 月底达到最高热度，之后降温，再到 5 月底又火了一次。之后热度慢慢降低，直到现在，每天一万左右的搜索量。
 
@@ -223,13 +223,13 @@ url: "https://new.web.cafe/tutorial/detail/slnybcony1"
   👍
 
 
-![图片](images/game-site-find-new-words/img_002.jpg)
+![图片](images/game-site-find-new-words/img_002.webp)
 
-![图片](images/game-site-find-new-words/img_003.jpg)
+![图片](images/game-site-find-new-words/img_003.webp)
 
-![图片](images/game-site-find-new-words/img_008.jpg)
+![图片](images/game-site-find-new-words/img_008.webp)
 
-![图片](images/game-site-find-new-words/img_026.jpg)
+![图片](images/game-site-find-new-words/img_026.webp)
 
 [找需求](https://new.web.cafe/label/n9xnb58gw8)[找词](https://new.web.cafe/label/1mfud0sfix)[小游戏](https://new.web.cafe/label/5jkrxl259n)[案例分享](https://new.web.cafe/label/9e51be5a855445859eeaf63d998c04dd)
 哥飞小课堂

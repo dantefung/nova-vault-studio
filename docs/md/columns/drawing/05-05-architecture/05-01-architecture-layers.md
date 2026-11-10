@@ -149,18 +149,18 @@ SalesForce 把图分为两类：偏文档说明和实现（Documentation & Imple
 
 这里的粒度可以根据公司和组织架构情况做一些适当调整，例如公司有时候会进行团队拆分和合并，比如把员工、帐号、权限合成一个大的基础团队，这里你会发现团队不管怎么拆合，员工、帐号这个领域级别是相对稳定的，可以以个相对稳定的级别做基准，再做适度上下分级，让每个级别的图有一个对应的团队负责维护是比较合适的。可以更好得长期更新维护架构图，让其能与真实的系统情况保持一致。
 
-[img-0]:images/05-01-architecture-layers/p01.png
+[img-0]:images/05-01-architecture-layers/p01.webp
 
-[img-1]:images/05-01-architecture-layers/p02.png
+[img-1]:images/05-01-architecture-layers/p02.webp
 
-[img-2]:images/05-01-architecture-layers/p03.png
+[img-2]:images/05-01-architecture-layers/p03.webp
 
-[img-3]:images/05-01-architecture-layers/p04.png
+[img-3]:images/05-01-architecture-layers/p04.webp
 
-[img-4]:images/05-01-architecture-layers/p05.png
+[img-4]:images/05-01-architecture-layers/p05.webp
 
-[img-5]:images/05-01-architecture-layers/p06.png
+[img-5]:images/05-01-architecture-layers/p06.webp
 
-[img-6]:images/05-01-architecture-layers/p07.png
+[img-6]:images/05-01-architecture-layers/p07.webp
 
-[img-7]:images/05-01-architecture-layers/p08.png
+[img-7]:images/05-01-architecture-layers/p08.webp

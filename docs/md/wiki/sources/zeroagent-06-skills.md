@@ -62,7 +62,7 @@ Skills 就是解决这一难题的优雅答案。**Skills 的底层灵魂在于�
 
 **前言（Frontmatter）→ 全文（Body）→ 引用（Reference）**
 
-![Skills 的渐进式披露三级加载机制](../images/zeroagent-06-skills/001.png)
+![Skills 的渐进式披露三级加载机制](../images/zeroagent-06-skills/001.webp)
 
 ---
 

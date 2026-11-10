@@ -31,7 +31,7 @@ Ahrefs 做了好多免费 SEO 工具：
 
 **一. Free Keyword Generator 免费关键词生成器**
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_002.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_002.webp)
 
  工具网址：[https://ahrefs.com/keyword-generator](https://ahrefs.com/keyword-generator)
 
@@ -41,11 +41,11 @@ Ahrefs 做了好多免费 SEO 工具：
 
 注意这里的搜索量（Volume）是月度数据，用最近12个月的数据平均得到的。
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_003.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_003.webp)
 
 **二. Amazon Keyword Tool 亚马逊关键词工具**
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_004.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_004.webp)
 
 工具网址：[https://ahrefs.com/amazon-keyword-tool](https://ahrefs.com/amazon-keyword-tool)
 
@@ -53,22 +53,22 @@ Ahrefs 做了好多免费 SEO 工具：
 
 使用演示：输入关键词 headphones ，给出 Amazon 的相关关键词和搜索量。 
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_005.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_005.webp)
 
 **三. Bing Keyword Tool Bing 关键词工具**
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_006.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_006.webp)
 
  工具网址：[https://ahrefs.com/bing-keyword-tool](https://ahrefs.com/bing-keyword-tool)
 
 工具用途：根据输入的关键词显示 Bing 相关关键词
 
 使用演示：输入关键词 seo ，给出 Bing 相关关键词和搜索量。
-![image.png](images/ahrefs-free-seo-tools-part1/img_007.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_007.webp)
 
 **四. YouTube Keyword Tool YouTube 关键词工具**
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_008.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_008.webp)
 
 工具网址：[https://ahrefs.com/youtube-keyword-tool](https://ahrefs.com/youtube-keyword-tool)
 
@@ -76,11 +76,11 @@ Ahrefs 做了好多免费 SEO 工具：
 
 使用演示：输入关键词 music ，给出 Youtube 相关关键词和搜索量。
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_009.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_009.webp)
 
 **五. Keyword Difficulty Checker 关键词难度检查器**
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_010.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_010.webp)
 
 工具网址：[https://ahrefs.com/keyword-difficulty](https://ahrefs.com/keyword-difficulty)
 
@@ -90,18 +90,18 @@ Ahrefs 做了好多免费 SEO 工具：
 
 **六. Backlink Checker 反链检查器**
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_011.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_011.webp)
 
 工具网址：[https://ahrefs.com/backlink-checker](https://ahrefs.com/backlink-checker)
 
 工具用途：输入域名或者网址，查询反向链接（也就是外链）数据
 
 使用演示：给大家查一下 qiuyumi.com 的外链数量，有 1100个网站给了7500个外链。
-![image.png](images/ahrefs-free-seo-tools-part1/img_012.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_012.webp)
 
 **七. Website Authority Checker 网站权限检查器**
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_013.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_013.webp)
 
 工具网址：[https://ahrefs.com/website-authority-checker](https://ahrefs.com/website-authority-checker)
 
@@ -109,7 +109,7 @@ Ahrefs 做了好多免费 SEO 工具：
 
 使用演示：输入域名，会看到查询出来的数据跟上面这个查反链的工具相同，不用疑惑，查反链时显示的数据，就是这里的 website authority 数据。
 
-![image.png](images/ahrefs-free-seo-tools-part1/img_014.png)
+![image.png](images/ahrefs-free-seo-tools-part1/img_014.webp)
 
 好了，剩下的7个我们在明天的文章中介绍。
 

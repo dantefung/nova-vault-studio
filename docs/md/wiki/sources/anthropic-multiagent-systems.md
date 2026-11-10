@@ -60,11 +60,11 @@ Agent 与人类在许多方面不同：可以工作更久、瞬间掌握大量�
 | Opus 4.8 / Mythos Preview | 高 | 极低 | 通过几乎不协作来"解决"问题——每个 Agent 高度独占自己文件 |
 | Sonnet 5 | 高 | 高 | 唯一在高协作的同时保持高合并率的模型 |
 
-![图 1：协调 Swarm 找到的漏洞 vs 独立 Agent](anthropic-multiagent-systems/images/001.png)
+![图 1：协调 Swarm 找到的漏洞 vs 独立 Agent](anthropic-multiagent-systems/images/001.webp)
 
-![图 2：PR 合并率随 Agent 数变化，代码共享保持低水平](anthropic-multiagent-systems/images/002.png)
+![图 2：PR 合并率随 Agent 数变化，代码共享保持低水平](anthropic-multiagent-systems/images/002.webp)
 
-![图 3：PR 活动，80 Agent：Sonnet 4.6 和 Opus 4.6 开了大量 PR 但很少合并](anthropic-multiagent-systems/images/003.png)
+![图 3：PR 活动，80 Agent：Sonnet 4.6 和 Opus 4.6 开了大量 PR 但很少合并](anthropic-multiagent-systems/images/003.webp)
 
 ---
 
@@ -108,7 +108,7 @@ Agent 与人类在许多方面不同：可以工作更久、瞬间掌握大量�
 
 **Agent 从未被告知任何来源可能不可靠。**
 
-![图 4：受骗曲线——谎言越多，决策越差。Mythos 5 保持在 0.85 附近；Sonnet 模型跌至 0.62](anthropic-multiagent-systems/images/004.png)
+![图 4：受骗曲线——谎言越多，决策越差。Mythos 5 保持在 0.85 附近；Sonnet 模型跌至 0.62](anthropic-multiagent-systems/images/004.webp)
 
 新模型在 Naive（信任所有人）和 Oracle（完美识别）之间的差距恢复更多。
 

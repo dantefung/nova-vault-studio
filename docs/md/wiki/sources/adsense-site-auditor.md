@@ -12,7 +12,7 @@ url: "https://new.web.cafe/topic/bej425wdjc"
 
 把 AdSense 官方文档发给 Codex / Claude 反复修改相互审核，直到完全达到审核要求。内容页面要做深。一般两三次提交审核就会通过。每次审核不通过就再增加内容深度和更多页面，基本上就可以了。
 
-![AdSense 审计 skill 截图](../images/adsense-site-auditor/001.png)
+![AdSense 审计 skill 截图](../images/adsense-site-auditor/001.webp)
 
 ## 用法
 

@@ -59,7 +59,7 @@ coverImage: "../images/aaronyi-open-topic-radar/001.jpg"
 
 > 国外已经出现真实热度，但中文市场还没有被大量覆盖的内容机会。
 
-![](../images/aaronyi-open-topic-radar/002.jpg)
+![](../images/aaronyi-open-topic-radar/002.webp)
 
 ## 二、这个雷达到底是怎么工作的
 
@@ -102,7 +102,7 @@ X 看点赞和传播速度，YouTube 看每天新增的播放量，GitHub 看 St
 
 > 渠道坏了就是坏了，不会拿一个假的“中文市场空白”骗你。
 
-![](../images/aaronyi-open-topic-radar/003.jpg)
+![](../images/aaronyi-open-topic-radar/003.webp)
 
 ## 三、这次我把信息源补全了
 
@@ -139,7 +139,7 @@ X 看点赞和传播速度，YouTube 看每天新增的播放量，GitHub 看 St
 
 > 只盯一个关键词，看到的永远是别人已经总结过的信息。
 
-![](../images/aaronyi-open-topic-radar/004.jpg)
+![](../images/aaronyi-open-topic-radar/004.webp)
 
 ## 四、它不是只能监测 AI 视频
 
@@ -197,7 +197,7 @@ X 看点赞和传播速度，YouTube 看每天新增的播放量，GitHub 看 St
 
 第二，看到报告以后，判断哪个选题最符合你的能力和账号。
 
-![](../images/aaronyi-open-topic-radar/005.jpg)
+![](../images/aaronyi-open-topic-radar/005.webp)
 
 ## 六、它还能根据你的选择继续学习
 
@@ -215,7 +215,7 @@ X 看点赞和传播速度，YouTube 看每天新增的播放量，GitHub 看 St
 
 这样用得越久，它关注的方向会越来越接近你真正想做的内容，而不是每次都从一张完全陌生的热榜重新开始。
 
-![](../images/aaronyi-open-topic-radar/006.jpg)
+![](../images/aaronyi-open-topic-radar/006.webp)
 
 ## 七、它能做到什么，不能做到什么
 

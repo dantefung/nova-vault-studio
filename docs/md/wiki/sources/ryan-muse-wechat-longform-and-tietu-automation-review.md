@@ -40,19 +40,19 @@ coverImage: "../images/ryan-muse-wechat-longform-and-tietu-automation-review/001
 
 长文章负责深度和搜索沉淀（教程类内容生命周期长），贴图负责频率和曝光（每小时一条，持续出现在订阅流里）。两条线共用同一个公众号、同一套视觉规范（摸鱼绿）和同一个签名，读者认知是统一的。贴图选题全部来自 AI 热点，和文章的受众完全重合，不存在“为了频率发无关内容”的稀释问题。
 
-![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/002.jpg)
+![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/002.webp)
 
 2. “AI 只备稿、人只发表”是最关键的分工设计。
 
 这一周里，自动化从未点过一次“发表”。发表需要管理员扫码验证，这个环节天然是人机分界点：把最终决定权留在人手里，自动化的容错空间立刻变大——草稿错了可以改、可以删，不会直接变成已发布事故。回头看，这周所有的问题都出在“备稿”环节，没有一个出在“发布”环节，这不是运气，是分工设计带来的。
 
-![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/003.jpg)
+![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/003.webp)
 
 3. 约束越具体，AI 的产出越稳定。
 
 这一周沉淀下来的硬约束包括：标题 ≤20 字（超了会被接口退回）、正文 ≤250 字、全篇左对齐、窄卡片短标题缩小字号保一行不准不均匀换行、每条保存后必须回读核验（类型落在贴图桶、标题文案逐字一致、4 张图 CDN 齐全，只看返回码不算数）。这些约束大多是被真实事故“打”出来的（见第三部分），但一旦写进 SKILL 和定时任务，后续执行的一致性明显提升。经验是：对 AI 运营提要求，要提可验收的数字和动作，不要提“排版好看一点”这种没法核验的话。
 
-![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/004.jpg)
+![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/004.webp)
 
 4. 成本结构变了：人的时间从“生产”挪到了“决策”。
 
@@ -76,7 +76,7 @@ coverImage: "../images/ryan-muse-wechat-longform-and-tietu-automation-review/001
 - 现象：早期一条贴图用错了提交方式（multipart 编辑器路径），结果落进图文桶，标题被全文案填充、图片字段为空。
 - 解决：摸清了贴图的正确保存姿势并写成规范：图片先经素材库上传（拿一致的 fileid 和 CDN），保存用表单编码、类型参数固定，图片 ID 必须是整数——用字符串会被判参数错误（200002）。保存后必须回读核验类型字段是贴图（itemshow_type 8）；万一错桶，就在同一条草稿上用更新接口修复，不另建新草稿，避免重复。后来还出过一次复制同一条存出重复草稿的情况，也是靠“回读核验 + 去重规则”兜住：每次补存前先按标题实际回读草稿箱，已有就跳过。这里有个教训：草稿箱的列表视图只显示部分草稿，不能只凭列表断定某条“不存在”。
 
-![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/005.jpg)
+![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/005.webp)
 
 ### 问题 3：标题超长被退回
 
@@ -93,7 +93,7 @@ coverImage: "../images/ryan-muse-wechat-longform-and-tietu-automation-review/001
 - 现象：10 月 20 日晚我新增规则——每条贴图末尾要标明本次配图风格，并附评论引导，两行附注不计入正文 250 字。当晚盘点发现此前 59 条里只有 1 条带附注，其余 58 条都要追补。
 - 解决：先全量生成补附注方案，再逐条以草稿箱实际回读为准执行。结果发现草稿箱里实际只剩 4 条贴图——其余 55 条我早已发表、草稿自动消失了。最终只对在箱的 3 条用更新接口补上附注并回读核验，另 1 条原本就有。教训：批量改旧数据之前，先以线上实际状态为准盘点，别拿本地清单当真相。另外中途还出过一次小事故：一条贴图初次保存时漏掉了附注，靠回读核验当场发现、用更新接口在同一条上补齐，负责拼接的脚本也同步修好，后面没再漏。
 
-![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/006.jpg)
+![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/006.webp)
 
 ### 问题 6：登录会话失效，存草稿时才发现
 
@@ -107,7 +107,7 @@ coverImage: "../images/ryan-muse-wechat-longform-and-tietu-automation-review/001
 - 最终解法（10 月 22 日落地）：把转发从“临时进程”改成“常驻服务”——用 systemd 托管，开机自启、崩溃自动重启；再配一个每 5 分钟的健康检查，发现转发不通就自动重启服务并复测。凭据的注入走运行时内存文件（权限收紧、不落持久盘），全套产物扫描确认没有任何凭据值残留。实测环节一样没省：手动强杀转发主进程，服务自动拉起新进程、端口恢复、经代理访问后台返回 200；手动停服务，健康检查检出异常并自动恢复。
 - 诚实的边界：还有一种情况没法完全自动化——整个运行环境被替换时，内存里的凭据源会被清掉，健康检查能发现、能记录，但没法凭空恢复，仍需要我安全录入一次。和之前“进程一被杀就要手动”相比，手动介入的频率已经降到只剩这一种极端情况。另外期间还出过一个小插曲：我一度拿到了一张“公众号登录密码”的安全存储卡——但公众号后台是扫码登录、根本不用密码，我真正要解决的是代理转发常驻，不是登录。把问题定义清楚，比急着给方案重要，这是这周我学到的最贵的一课。
 
-![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/007.jpg)
+![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/007.webp)
 
 ### 问题 8：图文草稿的手机预览二维码拿不到
 
@@ -138,7 +138,7 @@ coverImage: "../images/ryan-muse-wechat-longform-and-tietu-automation-review/001
 
 运营一周最大的感受是：让 AI 运营一个号，难点不在“生成”，而在“稳定地生成、可靠地交付、在出问题时停得住手”。规则、核验和分工，比模型本身更决定这件事能不能长期跑下去。
 
-![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/008.jpg)
+![](../images/ryan-muse-wechat-longform-and-tietu-automation-review/008.webp)
 
 不想折腾注册的朋友，可以直接安排！ Muse 成品号、Muse 邀请码助力都有，详情请查看我的置顶帖。
 

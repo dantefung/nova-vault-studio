@@ -138,18 +138,18 @@ graph TD
 
 **当 AI 突破设计次元壁，每个想法都自带可视化基因——Claude 正在重新定义数字时代的创造力方程式。**顺便说一句，Claude 想在国内用不容易，我是淘宝上买的账号:)。
 
-[img-0]:images/02-01-claude-architecture/p01.jpg
+[img-0]:images/02-01-claude-architecture/p01.webp
 
-[img-1]:images/02-01-claude-architecture/p02.jpg
+[img-1]:images/02-01-claude-architecture/p02.webp
 
-[img-2]:images/02-01-claude-architecture/p03.jpg
+[img-2]:images/02-01-claude-architecture/p03.webp
 
-[img-3]:images/02-01-claude-architecture/p04.jpg
+[img-3]:images/02-01-claude-architecture/p04.webp
 
-[img-4]:images/02-01-claude-architecture/p05.jpg
+[img-4]:images/02-01-claude-architecture/p05.webp
 
-[img-5]:images/02-01-claude-architecture/p06.jpg
+[img-5]:images/02-01-claude-architecture/p06.webp
 
-[img-6]:images/02-01-claude-architecture/p07.jpg
+[img-6]:images/02-01-claude-architecture/p07.webp
 
-[img-7]:images/02-01-claude-architecture/p08.jpg
+[img-7]:images/02-01-claude-architecture/p08.webp

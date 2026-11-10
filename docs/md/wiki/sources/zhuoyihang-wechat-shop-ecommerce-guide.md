@@ -47,13 +47,13 @@ coverImage: "../images/zhuoyihang-wechat-shop-ecommerce-guide/001.jpg"
 
 结合目标人群、自己的供应链优势、平台上当下卖得好的品类来定。根据我服务客户的经验，目前微信小店的主力消费人群偏中老年。在 2026 微信公开课现场看到，视频号里规模较大的品类是女装、休闲食品、粮油调味，这几类的信任门槛都比较低。增速比较高的有茶具、美发、运动服饰、传统滋补。一开始先定一个大类就行，怎么选品下一篇专门讲。
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/002.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/002.webp)
 
 3. 第一批顾客从哪来
 
 微信小店是社交电商，非常讲复购。冷启动的时候，光挂链接、等推流，很难自然出单，哪怕是基础销量，往往也要靠朋友圈、内容宣传和亲友购买。社交关系是第一批订单的来源，也是之后裂变和复购的核心。从功能角度看，小店每次宣传都会介绍直播间的“送礼物”、“一起买”和私域“点赞买”，这就是一种平台倾向，它希望你这么做，希望“社交不再只是‘把人带来’，而是直接被做成一种可复用的成交机制”。
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/003.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/003.webp)
 
 ## 三、开店要准备的资料和费用
 
@@ -72,7 +72,7 @@ coverImage: "../images/zhuoyihang-wechat-shop-ecommerce-guide/001.jpg"
 
 技术服务费。 开店页面的《个体店经营须知》写着：平台根据商品类目收取 1% 到 5% 不等的技术服务费，新商家可以享受 1% 的优惠费率（这非常重要，开店要算利润）。计算方式是“费率 × 结算基数”，直接从货款里扣。具体类目对应多少、新商家优惠的条件，以开店页的费率说明为准。
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/004.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/004.webp)
 
 ## 四、手把手开店流程
 
@@ -84,7 +84,7 @@ coverImage: "../images/zhuoyihang-wechat-shop-ecommerce-guide/001.jpg"
 
 网址是 store.weixin.qq.com/shop
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/005.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/005.webp)
 
 建议用老板本人的微信来扫。因为扫码开店的这个微信号往往就成了店铺的超级管理员，也就是单店权限最高的人，提现资金这类操作都归他。
 
@@ -94,7 +94,7 @@ coverImage: "../images/zhuoyihang-wechat-shop-ecommerce-guide/001.jpg"
 
 企业店要企业营业执照，个体店要个体户营业执照，两种都能在视频号、公众号等场景卖货
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/006.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/006.webp)
 
 第 3 步：看经营须知，勾选协议。
 
@@ -102,7 +102,7 @@ coverImage: "../images/zhuoyihang-wechat-shop-ecommerce-guide/001.jpg"
 
 第二个是《微信小店智能客服协议》，页面上写着不勾也不影响开店。咨询量不大的话可以先不勾，原因第五节细说，因为是个大坑。
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/007.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/007.webp)
 
 第 4 步：提交资料，完成开张任务。
 
@@ -110,13 +110,13 @@ coverImage: "../images/zhuoyihang-wechat-shop-ecommerce-guide/001.jpg"
 
 如果超级管理员和经营者不是同一个人，可能还要做账户验证，方式是法定代表人微信扫码或公户汇款，30 天内没完成要重新提交商户信息。
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/008.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/008.webp)
 
 第 5 步：等审核，开店成功。 官方写的正常审核时效是 1 到 3 个工作日。超级管理员收到“已开张成功”的服务通知，就是开店成功了，不过一般都是秒过。
 
 钱怎么回到手里也提前了解一下：买家确认收货后再过 7 天（T+7），货款转入可提现，每天最多提现一次。
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/009.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/009.webp)
 
 ## 五、开完店先做的 5 件事
 
@@ -168,7 +168,7 @@ coverImage: "../images/zhuoyihang-wechat-shop-ecommerce-guide/001.jpg"
 
 现在服务商市场比较乱，很多服务商擅长的是私域，而电商需要的是公域、数据和商品模型的经验。先看对方有没有做过同类目的电商，能不能给出可以验证的案例。不少代运营能做的事，现在用 AI 也能做到，这个以后单独写一篇。
 
-![](../images/zhuoyihang-wechat-shop-ecommerce-guide/010.jpg)
+![](../images/zhuoyihang-wechat-shop-ecommerce-guide/010.webp)
 
 ## 七、下一篇预告
 

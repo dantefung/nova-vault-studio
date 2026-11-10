@@ -58,7 +58,7 @@ url: "https://mp.weixin.qq.com/s/5UlPv4gBdkHQjsLICEMBOQ"
 - Wakeup Event → Wakeup Flame Graph
 - Page Fault Event → Page Fault Flame Graph
 
-![火焰图类型对比](../images/linux-flame-graph/002.png)
+![火焰图类型对比](../images/linux-flame-graph/002.webp)
 
 ## 总结
 

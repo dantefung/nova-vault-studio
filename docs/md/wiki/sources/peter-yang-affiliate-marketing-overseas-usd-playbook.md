@@ -39,7 +39,7 @@ Hi，我是 Peter。
 
 这就是一次最简单的联盟营销。
 
-![](../images/peter-yang-affiliate-marketing-overseas-usd-playbook/002.jpg)
+![](../images/peter-yang-affiliate-marketing-overseas-usd-playbook/002.webp)
 
 在这个例子里，软件不是你开发的，100 美元也不是你的实际收入。
 
@@ -89,7 +89,7 @@ Hi，我是 Peter。
 
 先认识三种常见情况。
 
-![](../images/peter-yang-affiliate-marketing-overseas-usd-playbook/003.jpg)
+![](../images/peter-yang-affiliate-marketing-overseas-usd-playbook/003.webp)
 
 第一种：销售佣金
 
@@ -127,7 +127,7 @@ Hi，我是 Peter。
 
 这里有两条常见路径：一条通过内容，一条通过付费投放。内容可以承载推广链接；付费推广则必须确认项目允许使用的渠道和方式。
 
-![](../images/peter-yang-affiliate-marketing-overseas-usd-playbook/004.jpg)
+![](../images/peter-yang-affiliate-marketing-overseas-usd-playbook/004.webp)
 
 一条是内容推广
 

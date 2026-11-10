@@ -233,13 +233,13 @@ LayerNorm 要求 variance=1,而且此时 mean 已经是 0,代入化简:
 
 
 
-![LayerNorm 几何直觉示意图 1](images/articles-layer-norm/001.png)
+![LayerNorm 几何直觉示意图 1](images/articles-layer-norm/001.webp)
 
-[查看原图 ↗](images/articles-layer-norm/001.png)
+[查看原图 ↗](images/articles-layer-norm/001.webp)
  
-![LayerNorm 几何直觉示意图 2](images/articles-layer-norm/002.png)
+![LayerNorm 几何直觉示意图 2](images/articles-layer-norm/002.webp)
 
-[查看原图 ↗](images/articles-layer-norm/002.png)
+[查看原图 ↗](images/articles-layer-norm/002.webp)
 
 
 

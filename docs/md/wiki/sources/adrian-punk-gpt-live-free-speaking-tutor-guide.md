@@ -54,7 +54,7 @@ GPT Live 不一样，它搭载的是全双工实时对话，逻辑完全贴合�
 
 把 ChatGPT 更新到最新版，更新后点输入框旁边的语音按钮即可开启。
 
-![](../images/adrian-punk-gpt-live-free-speaking-tutor-guide/002.jpg)
+![](../images/adrian-punk-gpt-live-free-speaking-tutor-guide/002.webp)
 
 ### 3. 90% 的人练没效果，都栽在这一步
 
@@ -205,7 +205,7 @@ Do not give me a long grammar lesson.
 
 不用每天练 2 小时，15 分钟 × 坚持 3 个月 > 偶尔猛练 2 小时。
 
-![](../images/adrian-punk-gpt-live-free-speaking-tutor-guide/003.jpg)
+![](../images/adrian-punk-gpt-live-free-speaking-tutor-guide/003.webp)
 
 3 个月节奏建议：
 
@@ -215,7 +215,7 @@ Do not give me a long grammar lesson.
 
 ## 七、终极算账表：不学真的亏
 
-![](../images/adrian-punk-gpt-live-free-speaking-tutor-guide/004.jpg)
+![](../images/adrian-punk-gpt-live-free-speaking-tutor-guide/004.webp)
 
 看清了吗？
 

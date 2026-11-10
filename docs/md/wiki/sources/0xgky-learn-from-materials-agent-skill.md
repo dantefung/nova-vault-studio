@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "Gk (@0xGky)"
 url: "https://x.com/0xGky/status/2117457488240873918"
-coverImage: "../images/0xgky-learn-from-materials-agent-skill/001.png"
+coverImage: "../images/0xgky-learn-from-materials-agent-skill/001.webp"
 ---
 
 # Gk（@0xGky）：learn-from-materials——把几百页 PDF/EPUB 资料整成带精确页码出处交互式学习网站的 Agent Skill
@@ -23,7 +23,7 @@ Claude Code、Codex、Copilot CLI 都能装上。
 
 地址：https://github.com/dmoshehun-prog/learn-from-materials
 
-![](../images/0xgky-learn-from-materials-agent-skill/001.png)
+![](../images/0xgky-learn-from-materials-agent-skill/001.webp)
 
 ## 相关页面
 

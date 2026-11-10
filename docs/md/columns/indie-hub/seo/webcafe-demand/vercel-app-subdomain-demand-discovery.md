@@ -17,19 +17,19 @@ author: "哥飞"
 
 链接是：\`<\1>
 
-![](images/vercel-app-subdomain-demand-discovery/001.png)
+![](images/vercel-app-subdomain-demand-discovery/001.webp)
 
 如第一名是 `check-your-khodam.vercel.app`，不过可惜的是这个网站已经打不开了。
 
-![](images/vercel-app-subdomain-demand-discovery/002.png)
+![](images/vercel-app-subdomain-demand-discovery/002.webp)
 
 承接的关键词如下截图所示：
 
-![](images/vercel-app-subdomain-demand-discovery/003.png)
+![](images/vercel-app-subdomain-demand-discovery/003.webp)
 
 拿最前面两个去谷歌趋势检查，果然是 6 月 18 日才开始新出现的关键词。
 
-![](images/vercel-app-subdomain-demand-discovery/004.png)
+![](images/vercel-app-subdomain-demand-discovery/004.webp)
 
 至于这些关键词具体代表什么，就交给大家去探索了。
 
@@ -37,10 +37,10 @@ author: "哥飞"
 
 第三个子域名则是关于 `chatgpt premium cookies` 和 `grammarly cookies` 的。
 
-![](images/vercel-app-subdomain-demand-discovery/005.png)
+![](images/vercel-app-subdomain-demand-discovery/005.webp)
 
 去看谷歌趋势，的确是新出现的词。
 
-![](images/vercel-app-subdomain-demand-discovery/006.png)
+![](images/vercel-app-subdomain-demand-discovery/006.webp)
 
 好了，本篇教程就到这里了，大家应该都学会了吧，希望大家可以举一反三，学会更多的挖掘需求的方法。

@@ -35,7 +35,7 @@ coverImage: "../images/leo-xiaolei-open-source-skill-for-all-social-media-conten
 
 内置支持 20+ 主题，可指定，可模型自动推理；支持任意比例，会根据不同比例智能出图，而不是机械裁切； 还支持一键出微信公众号排好版的文章（注意不是原文，而是讲解版本，同样支持主题）；支持一键转换为讲解视频； 其他小功能包括自动插画、黄金 5s 设计等等细节。
 
-![](../images/leo-xiaolei-open-source-skill-for-all-social-media-content/002.jpg)
+![](../images/leo-xiaolei-open-source-skill-for-all-social-media-content/002.webp)
 
 上图来自 Dan Koe 的英文 X 长文《The most lucrative AI business to start in 2027》。给一个链接，article2media 直接生成了这套中文杂志长图与小红书卡片，同时产出了公众号排版、口播视频，以及原文长图、白板论证和黑白漫画。
 
@@ -109,11 +109,11 @@ AI 生成的东西经常初看像模像样，细看全是漏洞。比如卡片�
 
 视觉上内置了 21 套主题，既有商业杂志 editorial、瑞士极简 swiss 与深色科技 midnight，也有液态玻璃 glass、新粗野 brutal 与多巴胺 dopamine，以及国潮 guochao、新中式 shanshui 和静线 quiet。不指定时，AI 会按「明确偏好 → 内容题材 → 投放场景」自动挑一套，并在交付时说明理由。
 
-![](../images/leo-xiaolei-open-source-skill-for-all-social-media-content/003.jpg)
+![](../images/leo-xiaolei-open-source-skill-for-all-social-media-content/003.webp)
 
 口播视频随包内置了 7 款完全凭文字描述设计的公开音色，包含阳光解说男声、资讯播报男声与纪录片旁白男声，以及甜美知性女声、东北热情大哥和台湾口音温柔女声等。语速全部调校在 4.2–4.95 字/秒区间，支持在台词行首加括号控制情绪与方言（如 (极度愤怒，东北话)注意看！），21 套主题还各自配了专属的字幕样式。
 
-![](../images/leo-xiaolei-open-source-skill-for-all-social-media-content/004.jpg)
+![](../images/leo-xiaolei-open-source-skill-for-all-social-media-content/004.webp)
 
 ## 三、对非技术人：不懂代码，怎么拿来就用？
 

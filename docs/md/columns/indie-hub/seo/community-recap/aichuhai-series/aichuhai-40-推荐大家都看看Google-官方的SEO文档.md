@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/kHkhDXVRFlq6oPvUDPWo3Q"
 
 文档地址：https://developers.google.com/search/docs?hl=zh-cn
 
-![image](./images/001.png)
+![image](images/001.webp)
 
 搜索要素包含技术要求、网络垃圾政策，告诉我们做SEO的一些基本要求
 
@@ -32,11 +32,11 @@ SEO 基础知识
 
 新变化在顶部有个新变化，这里面就有Google 算法更新的说明，大家可以去关注下，看看Google的风向标是什么。
 
-![image](./images/002.png)
+![image](images/002.webp)
 
 我是赫兹，专注网站出海第365天，持续分享网站出海内容。新朋友可以看看之前的文章合集；想系统学习，也推荐关注哥飞老师，我很多方法是向他学习的，微信搜索 361079 就可以找到他。
 
-![image](./images/003.jpeg)
+![image](images/003.webp)
 
 网站出海每日分享
 

@@ -19,7 +19,7 @@ coverImage: "../images/kongge-space-resume-as-personal-website-skill/001.jpg"
 
 下面是我用这个 Skill 给自己制作的极客风格网站，只要给到信息就能按 6 种内置的风格出网站。
 
-![](../images/kongge-space-resume-as-personal-website-skill/002.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/002.webp)
 
 个人网站在找工作时，可以介绍你自己；别人搜索你时可以找到你；如果你有咨询、课程或产品，也可以直接在网站上销售。
 
@@ -33,7 +33,7 @@ coverImage: "../images/kongge-space-resume-as-personal-website-skill/001.jpg"
 
 这个 Skill 可以帮你快速搭建，下面是详细教程：
 
-![](../images/kongge-space-resume-as-personal-website-skill/003.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/003.webp)
 
 安装和使用
 
@@ -51,7 +51,7 @@ coverImage: "../images/kongge-space-resume-as-personal-website-skill/001.jpg"
 
 简历、GitHub、公众号、小红书、作品集， 给个链接也可以。有什么就给什么。
 
-![](../images/kongge-space-resume-as-personal-website-skill/004.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/004.webp)
 
 它会读取资料，并整理成一份清单：
 
@@ -64,15 +64,15 @@ coverImage: "../images/kongge-space-resume-as-personal-website-skill/001.jpg"
 
 它不会先问你喜欢什么颜色，而是先问：
 
-![](../images/kongge-space-resume-as-personal-website-skill/005.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/005.webp)
 
 继续和它讨论，它会给你提供一些详细的网站搭建的方案。
 
-![](../images/kongge-space-resume-as-personal-website-skill/006.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/006.webp)
 
 这个 Skill 总共内置了 7 种类型的网站设计方案
 
-![](../images/kongge-space-resume-as-personal-website-skill/007.png)
+![](../images/kongge-space-resume-as-personal-website-skill/007.webp)
 
 网站还会根据用户提供的内容量级，分成三个层级：
 
@@ -88,13 +88,13 @@ coverImage: "../images/kongge-space-resume-as-personal-website-skill/001.jpg"
 
 Skill 内置了极简黑白、编辑排版、终端极客、Bento 卡片、杂志标题和暖色手作等 6 种风格。下面是一些示例。
 
-![](../images/kongge-space-resume-as-personal-website-skill/008.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/008.webp)
 
-![](../images/kongge-space-resume-as-personal-website-skill/009.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/009.webp)
 
-![](../images/kongge-space-resume-as-personal-website-skill/010.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/010.webp)
 
-![](../images/kongge-space-resume-as-personal-website-skill/011.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/011.webp)
 
 如果你有自己喜欢的风格，也可以直接发给它一个参考网站，说：
 
@@ -104,7 +104,7 @@ Skill 内置了极简黑白、编辑排版、终端极客、Bento 卡片、杂�
 
 可以在 behance 站酷搜个人网站设计给 Agent 参考：
 
-![](../images/kongge-space-resume-as-personal-website-skill/012.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/012.webp)
 
 好的个人网站是借助设计把你自己的信息讲清楚。
 
@@ -120,7 +120,7 @@ Skill 内置了极简黑白、编辑排版、终端极客、Bento 卡片、杂�
 
 详细教程：[个人网站](https://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247495909&idx=1&sn=cd9beaaeca1d807942c50c708ea3f687&scene=21#wechat_redirect)教程
 
-![](../images/kongge-space-resume-as-personal-website-skill/013.jpg)
+![](../images/kongge-space-resume-as-personal-website-skill/013.webp)
 
 最后
 

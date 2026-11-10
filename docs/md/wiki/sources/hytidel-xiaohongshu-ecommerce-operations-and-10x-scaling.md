@@ -33,17 +33,17 @@ https://x.com/HytidelLegend/status/2115062396285059435
 
 1. 百度搜索「至尊宝电商插件」，第一个结果一般就是官网，点进去[至尊宝找货助手-免费辅助浏览器插件，至尊宝店群工具(温州紫风科技电子商务有限公司)](https://zzbtool.com/index.html#/download)。（官网主页有「观看安装教程」可随时回看）
 
-![](../images/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling/002.jpg)
+![](../images/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling/002.webp)
 
 1. 点击下载插件，下载完在文件夹里解压到当前目录。
 2. 打开浏览器右上角「三个点」→「扩展程序」→「管理扩展程序」→ 打开右上角「开发者模式」。
 
-![](../images/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling/003.jpg)
+![](../images/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling/003.webp)
 
 1. 把解压好的文件夹直接拖进浏览器窗口，插件就装好了。
 2. 检查：点扩展程序小图标，至尊宝出现在列表里、能打开工具箱主页，就代表安装成功。
 
-![](../images/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling/004.jpg)
+![](../images/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling/004.webp)
 
 ## 1.2 用全网搜图找同款、扒详情图
 

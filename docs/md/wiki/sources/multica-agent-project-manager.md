@@ -15,7 +15,7 @@ url: "https://zhuanlan.zhihu.com/p/2029366661904351854"
 
 这种”个体飞跃、团队失速”的感觉，在最近几个月被越来越多人提及。4 月初，GitHub 上出现了一个新项目叫 [Multica](https%3A//github.com/multica-ai/multica)。它的定位不是再造一个 Agent，而是给现有的 Agent 做一套协作外壳。发布后 11 天内涨到一万六千多颗 Star，在 Trending 上挂了一整周。
 
-![插图](../images/multica-agent-project-manager/001.jpg)
+![插图](../images/multica-agent-project-manager/001.webp)
 
 我花了一些时间读了它的代码库、文档和一部分 Issue 讨论，整理出这篇解读。
 
@@ -75,7 +75,7 @@ Multica 的假设是：当单个 Agent 的能力不再是短板时，团队一�
 
 系统在物理层面是四层结构。前端有两个形态，一个是 Next.js 16 做的 Web 端，一个是 Electron 的桌面端（构建时打成 “Multica Canary”）。它们都通过 HTTP + WebSocket 连到一个 Go 写的后端。后端把状态落到 PostgreSQL 17，数据库里装了 pgvector 扩展。用户自己的机器上跑一个 Multica Daemon 进程，Daemon 拉任务，然后派生子进程去调用 Claude Code、Codex、Cursor Agent 这类实际执行代码的 CLI。
 
-![插图](../images/multica-agent-project-manager/002.jpg)
+![插图](../images/multica-agent-project-manager/002.webp)
 
 注意这个流向：Agent 进程永远不直接和前端对话。一切状态都要穿过服务端落到 Postgres。这个选择有一个很重要的好处——强一致性、可审计、可回放。
 

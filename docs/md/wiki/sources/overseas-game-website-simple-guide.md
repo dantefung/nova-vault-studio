@@ -26,6 +26,6 @@ url: "https://mp.weixin.qq.com/s/ZaRoURf8PvVJ6GUtdAnSUg"
 
 **WordPress 框架**：通过 Page 页编辑器搭建首页，用 HTML 模块添加 iframe；或让 AI 编写 WordPress 插件实现游戏功能，通过 Shortcode 添加到首页。
 
-![出海游戏站示意图](../images/overseas-game-website-simple-guide/001.jpeg)
+![出海游戏站示意图](../images/overseas-game-website-simple-guide/001.webp)
 
 技术方案没有优劣，达到你的目的即可。

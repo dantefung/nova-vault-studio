@@ -37,7 +37,7 @@ KD 是工具估算的自然搜索难度，只适合初筛。接着问：搜这�
 
 这些词只演示选题逻辑，未核验词量和排名。
 
-![](../images/growaiskills-new-site-seo-10-pages-then-optimize/002.jpg)
+![](../images/growaiskills-new-site-seo-10-pages-then-optimize/002.webp)
 
 ## 3. 把这一组页面连起来
 
@@ -60,7 +60,7 @@ GSC（Google Search Console）里，先用“网址检查”确认收录，再�
 
 数据太少，就把观察窗口拉长到 28 天，必要时继续等。比较相同国家、设备和相同长度的时段；平均排名不是固定名次。
 
-![](../images/growaiskills-new-site-seo-10-pages-then-optimize/003.jpg)
+![](../images/growaiskills-new-site-seo-10-pages-then-optimize/003.webp)
 
 ## 5. 两条 AI 提示词，直接复制
 

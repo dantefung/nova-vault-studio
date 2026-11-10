@@ -8,7 +8,7 @@ title: 解锁代码阅读：从新手到高手的进阶之路
 
 # 解锁代码阅读：从新手到高手的进阶之路
 
-![code-reading-video-clip](./code-reading-cn.png)
+![code-reading-video-clip](code-reading-cn.webp)
 
 ## 代码阅读：不可或缺的编程技能
 

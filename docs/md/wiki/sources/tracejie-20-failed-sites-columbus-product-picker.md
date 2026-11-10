@@ -41,7 +41,7 @@ coverImage: "../images/tracejie-20-failed-sites-columbus-product-picker/001.jpg"
 
 准备好，这篇几千字的硬核实操，底裤全给你扒光。
 
-![](../images/tracejie-20-failed-sites-columbus-product-picker/002.jpg)
+![](../images/tracejie-20-failed-sites-columbus-product-picker/002.webp)
 
 ## 一、 商业逻辑的底牌：你的失败，就是别人的痛点
 
@@ -89,7 +89,7 @@ coverImage: "../images/tracejie-20-failed-sites-columbus-product-picker/001.jpg"
 
 14 万个产品跑完这个漏斗，最后只剩下 3600 多个！剩下的全是一堆毫无流量的死尸。这就是出海圈真实的残酷存活率。
 
-![](../images/tracejie-20-failed-sites-columbus-product-picker/003.jpg)
+![](../images/tracejie-20-failed-sites-columbus-product-picker/003.webp)
 
 ## 三、 从 0 单到日入千刀的“邪修”引流法
 
@@ -116,7 +116,7 @@ coverImage: "../images/tracejie-20-failed-sites-columbus-product-picker/001.jpg"
 
 当天，日入千刀。
 
-![](../images/tracejie-20-failed-sites-columbus-product-picker/004.jpg)
+![](../images/tracejie-20-failed-sites-columbus-product-picker/004.webp)
 
 ## 四、 Trace 姐的硬核实操局解答（价值万金）
 

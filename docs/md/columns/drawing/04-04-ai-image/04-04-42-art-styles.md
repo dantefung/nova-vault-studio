@@ -11,7 +11,7 @@ url: "https://mp.weixin.qq.com/s/8Yp-7Edot9k-Lpdlo-1yAA"
 > 要有设计感！还是不够高级……你怎么一点审美也没？……  
 > Stop it. You need this guidance. For your agent, for yourself, for us.
 
-![42 种艺术风格图鉴](./images/42-art-styles/001.jpeg)
+![42 种艺术风格图鉴](images/42-art-styles/001.webp)
 
 过去几年，身边朋友在用 AI 做海报、PPT、网页和产品时，经常秀出各种艺术名词：孟菲斯、迪特·拉姆斯、波普艺术……把我这种毫无艺术细胞的理工科惊艳地一愣一愣的，它们是霍格沃兹学院里密不外传的各种魔法，而今天，本麻瓜终于下定决心，要把它们研究个遍。
 
@@ -52,27 +52,27 @@ url: "https://mp.weixin.qq.com/s/8Yp-7Edot9k-Lpdlo-1yAA"
 
 ### 01｜Bauhaus（包豪斯）
 
-![01 Bauhaus（包豪斯）](./images/42-art-styles/002.png)
+![01 Bauhaus（包豪斯）](images/42-art-styles/002.webp)
 
 ### 02｜De Stijl（风格派）
 
-![02 De Stijl（风格派）](./images/42-art-styles/003.png)
+![02 De Stijl（风格派）](images/42-art-styles/003.webp)
 
 ### 03｜Swiss Style（瑞士国际主义平面风格）
 
-![03 Swiss Style（瑞士国际主义平面风格）](./images/42-art-styles/004.png)
+![03 Swiss Style（瑞士国际主义平面风格）](images/42-art-styles/004.webp)
 
 ### 04｜Minimalism（极简主义）
 
-![04 Minimalism（极简主义）](./images/42-art-styles/005.png)
+![04 Minimalism（极简主义）](images/42-art-styles/005.webp)
 
 ### 05｜Mid-century Modern（世纪中期现代主义）
 
-![05 Mid-century Modern（世纪中期现代主义）](./images/42-art-styles/006.png)
+![05 Mid-century Modern（世纪中期现代主义）](images/42-art-styles/006.webp)
 
 ### 06｜功能主义工业设计方法（Dieter Rams 条目的安全用法）
 
-![06 功能主义工业设计方法](./images/42-art-styles/007.png)
+![06 功能主义工业设计方法](images/42-art-styles/007.webp)
 
 ---
 
@@ -89,27 +89,27 @@ url: "https://mp.weixin.qq.com/s/8Yp-7Edot9k-Lpdlo-1yAA"
 
 ### 07｜Art Nouveau（新艺术运动）
 
-![07 Art Nouveau（新艺术运动）](./images/42-art-styles/008.png)
+![07 Art Nouveau（新艺术运动）](images/42-art-styles/008.webp)
 
 ### 08｜Art Deco（装饰艺术）
 
-![08 Art Deco（装饰艺术）](./images/42-art-styles/009.png)
+![08 Art Deco（装饰艺术）](images/42-art-styles/009.webp)
 
 ### 09｜Pop Art（波普艺术）
 
-![09 Pop Art（波普艺术）](./images/42-art-styles/010.png)
+![09 Pop Art（波普艺术）](images/42-art-styles/010.webp)
 
 ### 10｜Op Art（欧普艺术）
 
-![10 Op Art（欧普艺术）](./images/42-art-styles/011.png)
+![10 Op Art（欧普艺术）](images/42-art-styles/011.webp)
 
 ### 11｜Memphis（孟菲斯）
 
-![11 Memphis（孟菲斯）](./images/42-art-styles/012.png)
+![11 Memphis（孟菲斯）](images/42-art-styles/012.webp)
 
 ### 12｜Psychedelic（迷幻风格）
 
-![12 Psychedelic（迷幻风格）](./images/42-art-styles/013.png)
+![12 Psychedelic（迷幻风格）](images/42-art-styles/013.webp)
 
 ---
 
@@ -128,27 +128,27 @@ url: "https://mp.weixin.qq.com/s/8Yp-7Edot9k-Lpdlo-1yAA"
 
 ### 13｜Impressionism（印象派）
 
-![13 Impressionism（印象派）](./images/42-art-styles/014.png)
+![13 Impressionism（印象派）](images/42-art-styles/014.webp)
 
 ### 14｜Expressionism（表现主义）
 
-![14 Expressionism（表现主义）](./images/42-art-styles/015.png)
+![14 Expressionism（表现主义）](images/42-art-styles/015.webp)
 
 ### 15｜Cubism（立体主义）
 
-![15 Cubism（立体主义）](./images/42-art-styles/016.png)
+![15 Cubism（立体主义）](images/42-art-styles/016.webp)
 
 ### 16｜Futurism（未来主义）
 
-![16 Futurism（未来主义）](./images/42-art-styles/017.png)
+![16 Futurism（未来主义）](images/42-art-styles/017.webp)
 
 ### 17｜Dada（达达）
 
-![17 Dada（达达）](./images/42-art-styles/018.png)
+![17 Dada（达达）](images/42-art-styles/018.webp)
 
 ### 18｜Surrealism（超现实主义）
 
-![18 Surrealism（超现实主义）](./images/42-art-styles/019.png)
+![18 Surrealism（超现实主义）](images/42-art-styles/019.webp)
 
 ---
 
@@ -167,27 +167,27 @@ url: "https://mp.weixin.qq.com/s/8Yp-7Edot9k-Lpdlo-1yAA"
 
 ### 19｜中国文人画
 
-![19 中国文人画](./images/42-art-styles/020.png)
+![19 中国文人画](images/42-art-styles/020.webp)
 
 ### 20｜工笔
 
-![20 工笔](./images/42-art-styles/021.png)
+![20 工笔](images/42-art-styles/021.webp)
 
 ### 21｜Ukiyo-e（浮世绘）
 
-![21 Ukiyo-e（浮世绘）](./images/42-art-styles/022.png)
+![21 Ukiyo-e（浮世绘）](images/42-art-styles/022.webp)
 
 ### 22｜Rinpa（琳派）
 
-![22 Rinpa（琳派）](./images/42-art-styles/023.png)
+![22 Rinpa（琳派）](images/42-art-styles/023.webp)
 
 ### 23｜Mughal miniature（莫卧儿细密画）
 
-![23 Mughal miniature（莫卧儿细密画）](./images/42-art-styles/024.png)
+![23 Mughal miniature（莫卧儿细密画）](images/42-art-styles/024.webp)
 
 ### 24｜Islamic geometric ornament（伊斯兰几何装饰）
 
-![24 Islamic geometric ornament（伊斯兰几何装饰）](./images/42-art-styles/025.png)
+![24 Islamic geometric ornament（伊斯兰几何装饰）](images/42-art-styles/025.webp)
 
 ---
 
@@ -205,35 +205,35 @@ url: "https://mp.weixin.qq.com/s/8Yp-7Edot9k-Lpdlo-1yAA"
 
 ### 25｜German Expressionism（德国表现主义电影）
 
-![25 German Expressionism（德国表现主义电影）](./images/42-art-styles/026.png)
+![25 German Expressionism（德国表现主义电影）](images/42-art-styles/026.webp)
 
 ### 26｜Film noir（黑色电影）
 
-![26 Film noir（黑色电影）](./images/42-art-styles/027.png)
+![26 Film noir（黑色电影）](images/42-art-styles/027.webp)
 
 ### 27｜Soviet montage（苏联蒙太奇）
 
-![27 Soviet montage（苏联蒙太奇）](./images/42-art-styles/028.png)
+![27 Soviet montage（苏联蒙太奇）](images/42-art-styles/028.webp)
 
 ### 28｜Italian Neorealism（意大利新现实主义）
 
-![28 Italian Neorealism（意大利新现实主义）](./images/42-art-styles/029.png)
+![28 Italian Neorealism（意大利新现实主义）](images/42-art-styles/029.webp)
 
 ### 29｜French New Wave（法国新浪潮）
 
-![29 French New Wave（法国新浪潮）](./images/42-art-styles/030.png)
+![29 French New Wave（法国新浪潮）](images/42-art-styles/030.webp)
 
 ### 30｜Afrofuturism（非洲未来主义）
 
-![30 Afrofuturism（非洲未来主义）](./images/42-art-styles/031.png)
+![30 Afrofuturism（非洲未来主义）](images/42-art-styles/031.webp)
 
 ### 31｜Cyberpunk（赛博朋克）
 
-![31 Cyberpunk（赛博朋克）](./images/42-art-styles/032.png)
+![31 Cyberpunk（赛博朋克）](images/42-art-styles/032.webp)
 
 ### 32｜Solarpunk（太阳朋克）
 
-![32 Solarpunk（太阳朋克）](./images/42-art-styles/033.png)
+![32 Solarpunk（太阳朋克）](images/42-art-styles/033.webp)
 
 ---
 
@@ -258,61 +258,61 @@ Purdue Writing Lab 的体裁分析框架提供了更可靠的拆法：受众、�
 
 ### 33｜Plain style（平实文风）
 
-![33 Plain style（平实文风）](./images/42-art-styles/034.png)
+![33 Plain style（平实文风）](images/42-art-styles/034.webp)
 
 > 凌晨一点，我在门缝里发现一封没有署名的信。信封是湿的，我把它放到桌上。
 
 ### 34｜Lyrical prose（抒情散文）
 
-![34 Lyrical prose（抒情散文）](./images/42-art-styles/035.png)
+![34 Lyrical prose（抒情散文）](images/42-art-styles/035.webp)
 
 > 凌晨一点，一封无名的信从门缝滑进来，像夜色折起的一小片潮汐。
 
 ### 35｜Stream of consciousness（意识流）
 
-![35 Stream of consciousness（意识流）](./images/42-art-styles/036.png)
+![35 Stream of consciousness（意识流）](images/42-art-styles/036.webp)
 
 > 凌晨一点——门缝，水，信封，我是不是听见邮差的脚步，还是冰箱又停了？
 
 ### 36｜Magical realism（魔幻现实主义）
 
-![36 Magical realism（魔幻现实主义）](./images/42-art-styles/037.png)
+![36 Magical realism（魔幻现实主义）](images/42-art-styles/037.webp)
 
 > 凌晨一点，那封没有署名的信敲了三次门；进屋后，它安静地长出一片新叶。
 
 ### 37｜Absurdism（荒诞主义）
 
-![37 Absurdism（荒诞主义）](./images/42-art-styles/038.png)
+![37 Absurdism（荒诞主义）](images/42-art-styles/038.webp)
 
 > 凌晨一点，我收到一封通知我尚未出生的信，落款是明天的收发室。
 
 ### 38｜Hard-boiled noir（硬汉黑色叙事）
 
-![38 Hard-boiled noir（硬汉黑色叙事）](./images/42-art-styles/039.png)
+![38 Hard-boiled noir（硬汉黑色叙事）](images/42-art-styles/039.webp)
 
 > 凌晨一点，信从门缝进来。湿透，没有名字；城里只有坏消息不用敲门。
 
 ### 39｜Epistolary（书信体）
 
-![39 Epistolary（书信体）](./images/42-art-styles/040.png)
+![39 Epistolary（书信体）](images/42-art-styles/040.webp)
 
 > 亲爱的 L：凌晨一点，那封没有署名的信到了；我没有拆，因为我认得你的折法。
 
 ### 40｜Documentary nonfiction（纪实非虚构）
 
-![40 Documentary nonfiction（纪实非虚构）](./images/42-art-styles/041.png)
+![40 Documentary nonfiction（纪实非虚构）](images/42-art-styles/041.webp)
 
 > 凌晨 1 时 07 分，走廊监控记录到信封被推入门内；画面中未出现投递者。
 
 ### 41｜Academic exposition（学术阐释）
 
-![41 Academic exposition（学术阐释）](./images/42-art-styles/042.png)
+![41 Academic exposition（学术阐释）](images/42-art-styles/042.webp)
 
 > 本文将这封凌晨出现的无名信视为一种叙事装置，并从来源缺失、时间异常和读者预期三方面分析。
 
 ### 42｜Personal essay（个人随笔）
 
-![42 Personal essay（个人随笔）](./images/42-art-styles/043.png)
+![42 Personal essay（个人随笔）](images/42-art-styles/043.webp)
 
 > 我后来总记得那封凌晨抵达的信，因为在拆开它以前，我第一次意识到，等待本身也会改变一个人。
 

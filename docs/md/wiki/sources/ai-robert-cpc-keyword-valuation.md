@@ -12,7 +12,7 @@ url: "https://x.com/aiRobertDaily/status/2115280166868156919"
 
 <!-- more -->
 
-![Semrush Keyword Magic Tool 的 CPC 列](../images/ai-robert-cpc-keyword-valuation/001.jpg)
+![Semrush Keyword Magic Tool 的 CPC 列](../images/ai-robert-cpc-keyword-valuation/001.webp)
 
 *图 1：在 Semrush Keyword Magic Tool 中查看 CPC 列。*
 
@@ -49,7 +49,7 @@ url: "https://x.com/aiRobertDaily/status/2115280166868156919"
 
 > 以上词和数据来自 **Semrush 美国库**，仅作演示，会随时间变化，参考思路即可。
 
-![三个数一起看](../images/ai-robert-cpc-keyword-valuation/002.jpg)
+![三个数一起看](../images/ai-robert-cpc-keyword-valuation/002.webp)
 
 *图 2：搜索量 + KD + CPC 三者交叉判断。*
 

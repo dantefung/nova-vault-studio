@@ -22,7 +22,7 @@ Mario Zechner 的解释："这一代最先进的大模型其实已经非常擅�
 
 本质上就是一个 **while 循环**：调用 LLM，配上 4 个工具，根据模型返回结果决定是否继续调用。
 
-![Pi 核心架构图](../images/pi-ai-coding-agent-popularity/001.jpg)
+![Pi 核心架构图](../images/pi-ai-coding-agent-popularity/001.webp)
 
 ## 为什么越来越多人用 Pi？
 
@@ -56,7 +56,7 @@ Mario Zechner 的解释："这一代最先进的大模型其实已经非常擅�
 | 成本 | ~0.028 美元/任务 | 7 倍于 Pi |
 | GitHub Stars | 8.6 万+ | 12.4 万+ |
 
-![Pi vs Claude Code 对比图](../images/pi-ai-coding-agent-popularity/002.jpg)
+![Pi vs Claude Code 对比图](../images/pi-ai-coding-agent-popularity/002.webp)
 
 ## 优缺点
 

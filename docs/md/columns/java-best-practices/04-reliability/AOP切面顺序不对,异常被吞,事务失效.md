@@ -11,11 +11,11 @@ AOP：面向切面编程。简单说，就是把一些业务逻辑中的相同�
 
 ### AOP做横向抽取
 
-![](./assets/AOP做横向抽取.png)
+![](assets/AOP做横向抽取.webp)
 
 ### AOP应用示例
 
-![](./assets/AOP应用示例.png)
+![](assets/AOP应用示例.webp)
 
 ### Spring默认支持的异常回滚
 
@@ -24,9 +24,9 @@ Spring默认抛出了未检查unchecked异常（继承自 RuntimeException的异
 1. @Transactional 注解属性 rollbackFor 设置错误
 2. try catch 吞了异常也会导致事务失效无法回滚
 
-![](./assets/Spring默认支持的异常回滚.png)
+![](assets/Spring默认支持的异常回滚.webp)
 
-![](./assets/Spring事务失效原因.png)
+![](assets/Spring事务失效原因.webp)
 
 // TODO 继续补充
 
@@ -235,13 +235,13 @@ public interface UserRepository extends JpaRepository<UserEntity, Long> {
 后置通知 (@After)\
 环绕通知 (@Around)
 
-![](./assets/AOP环绕方式.png)
+![](assets/AOP环绕方式.webp)
 
 多个切面的情况下，可以通过 @Order 指定先后顺序，数字越小，优先级越高。
 
 
 
-![](./assets/AOP不同优先级执行顺序.png)
+![](assets/AOP不同优先级执行顺序.webp)
 
 
 因为 Spring 的事务管理也是基于 AOP 的，默认情况下优先级最低也就是会先执行出操作，但是自定义切面 MetricsAspect 也同样是最低优先级，这个时候就可能出现问题：如果出操作先执行捕获了异常，那么 Spring 的事务处理就会因为无法捕获到异常导致无法回滚事务。

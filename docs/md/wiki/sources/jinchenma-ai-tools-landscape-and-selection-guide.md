@@ -23,7 +23,7 @@ coverImage: "../images/jinchenma-ai-tools-landscape-and-selection-guide/001.jpg"
 
 其实回到日常使用，常见的场景就这么几类。先放一张速查表，大家可以对照自己要做的事看。
 
-![](../images/jinchenma-ai-tools-landscape-and-selection-guide/002.jpg)
+![](../images/jinchenma-ai-tools-landscape-and-selection-guide/002.webp)
 
 这里按用途来分，同一个产品可能出现在好几个地方。比如 ChatGPT 能聊天，也能做图，还能通过不同功能执行任务。
 
@@ -59,7 +59,7 @@ Agent 又往前走了一步。相当于给 AI 装上了手和脚，让它能使�
 
 那为什么叫「通用 Agent」呢？因为它能处理多种任务，整理材料、分析数据、做网站、写程序，都可以做。当然，各家也有侧重，有些更擅长编程，有些主要面向办公。
 
-![](../images/jinchenma-ai-tools-landscape-and-selection-guide/003.jpg)
+![](../images/jinchenma-ai-tools-landscape-and-selection-guide/003.webp)
 
 国内常见的有：
 
@@ -90,7 +90,7 @@ Pi Agent、Hermes Agent 和 OpenClaw 也能处理多种任务。这几款需要�
 
 给文章配图、做海报、制作产品图，都能用上。完成这些生成和修改工作的，就是图像模型。
 
-![](../images/jinchenma-ai-tools-landscape-and-selection-guide/004.jpg)
+![](../images/jinchenma-ai-tools-landscape-and-selection-guide/004.webp)
 
 那支持图片创作的工具有哪些呢？
 
@@ -131,7 +131,7 @@ Pi Agent、Hermes Agent 和 OpenClaw 也能处理多种任务。这几款需要�
 
 准备好讲解稿，选人物形象，或者用照片、短视频创建数字人，再设置声音和语言。生成后检查发音、停顿和口型，调整好再导出。
 
-![](../images/jinchenma-ai-tools-landscape-and-selection-guide/005.jpg)
+![](../images/jinchenma-ai-tools-landscape-and-selection-guide/005.webp)
 
 ### 用 Remotion 做视频
 
@@ -155,7 +155,7 @@ Pi Agent、Hermes Agent 和 OpenClaw 也能处理多种任务。这几款需要�
 
 以 Suno 为例，告诉它歌曲的主题、风格和情绪，也可以提供歌词。试听调整后，下载歌曲或配乐音频。
 
-![](../images/jinchenma-ai-tools-landscape-and-selection-guide/006.jpg)
+![](../images/jinchenma-ai-tools-landscape-and-selection-guide/006.webp)
 
 ## 个人助理
 
@@ -175,7 +175,7 @@ Pi Agent、Hermes Agent 和 OpenClaw 也能处理多种任务。这几款需要�
 
 Pi Agent 也可以搭配远程连接工具来用。运行 Agent 的电脑或服务器要保持在线。
 
-![](../images/jinchenma-ai-tools-landscape-and-selection-guide/007.jpg)
+![](../images/jinchenma-ai-tools-landscape-and-selection-guide/007.webp)
 
 ## 写在最后
 

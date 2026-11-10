@@ -29,11 +29,11 @@ AI 越来越聪明，你越来越像个局外人
 
 学 AI 这件事，变了，甚至我的文章输出变好了，连续出了 18w，17w，86w 的文章：
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/002.png)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/002.webp)
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/003.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/003.webp)
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/004.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/004.webp)
 
 今天，这篇把完整工作流拆给你：
 
@@ -55,7 +55,7 @@ AI 越来越聪明，你越来越像个局外人
 
 下面整个工作流的示意图：
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/005.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/005.webp)
 
 配置之前，我们需要聊一个很重要的事情。
 
@@ -101,7 +101,7 @@ AI 这种变化快的赛道，真正有信号的源头全在海外 newsletter。
 
 因为在内测阶段，需要输入可以用我的专属激活码：CLAW3C02D3891B6C( 邀请码使用上限 200 次，先到先得)，然建主邮箱，比如 [XXXX@claw.163.com](mailto:lxfater@claw.163.com)，
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/006.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/006.webp)
 
 但这还没完，为了让 Agent 能使用它的邮箱，你必须安装一个工具！！
 
@@ -129,7 +129,7 @@ mail-cli auth test
 
 上面缺失 ApiKey，可以按下面获取方式获取：
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/007.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/007.webp)
 
 同时为了让 Hermes 学会使用 clawmail，我们在 Hermes 简单输入下面提示词：
 
@@ -139,7 +139,7 @@ https://claw.163.com/projects/doc/ 阅读这个CLI文档，然后制作一个Ski
 
 利用 Hermes 自学习能力，很快就学会使用这个 CLI 了，具体如下图
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/008.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/008.webp)
 
 做到这里，你可能会说，要是我还想用邮箱干客服工作呢，那不就搞混了？ 我的解决方法就是专门建一个子邮箱，专门来接收 newsletter。
 
@@ -164,7 +164,7 @@ mail-cli clawemail create \
 
 具体如下图：
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/009.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/009.webp)
 
 看到这里，你可能很累，但胜利就在眼前，哈哈哈。
 
@@ -180,7 +180,7 @@ Agent 订阅 newsletter 很简单：
 
 确认邮件到后，让 Hermes 直接提取出确认地址，地址输入浏览器就能确认成功，需要回复邮件进行人机检查的，让它帮忙回复。
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/010.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/010.webp)
 
 到这里你已经比 80% 的人领先一档，他们还在 Gmail 里用人肉读 newsletter。而你的 newsletter 已经进了 Agent 专属邮箱，Agent 随时能读
 
@@ -192,7 +192,7 @@ Agent 订阅 newsletter 很简单：
 
 下面我将介绍让我最近文章输出能力大涨的 Hermes-Agent 学习流程：
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/011.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/011.webp)
 
 ### 第一步：扫 Digest
 
@@ -230,17 +230,17 @@ npx skills add https://claw.163.com/gitea-web/s/daily-report.git
 
 打开 Obsidian 知识图图谱功能：
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/012.png)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/012.webp)
 
 在这个图里面找到你不懂的概念，不断问 Hermes 拆解概念，你的知识图上现在有一堆互相勾连的概念。
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/013.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/013.webp)
 
 旧概念因为今天这篇又加了一条新论据，同时新旧概念第一次被连到一起
 
 这个模式符合认知科学，因而会带来个神奇的效果：就是你读 1 篇等于刷新了 10 篇！
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/014.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/014.webp)
 
 别人每天刷 100 条 推文，一天就忘。你一天一篇，自动将新知识和老知识关联，知识图一天厚一点，学进去就不易遗忘。
 
@@ -268,7 +268,7 @@ Hermes Agent 内置一个信息图命令行，底层跑的是宝玉的信息图 
 
 把 Wiki index 地址给 AI，问一个概念：Verification Loop 是什么？它扫一里面相关主题的知识，直接吐出一张下面的信息图。
 
-![](../images/lxfater-hermes-agent-newsletter-second-brain/015.jpg)
+![](../images/lxfater-hermes-agent-newsletter-second-brain/015.webp)
 
 这还不是最有价值的，我们还可以用这个来串联知识，进而提高文章质量。
 

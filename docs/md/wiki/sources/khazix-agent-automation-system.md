@@ -69,13 +69,13 @@ coverImage: "../images/khazix-agent-automation-system/001.jpg"
 
 所以在这套理解下，我整个的系统架构和流程，是这样子的。
 
-![](../images/khazix-agent-automation-system/002.jpg)
+![](../images/khazix-agent-automation-system/002.webp)
 
 我唯一要做的事，就是最后一步，我称为批奏折。
 
 在飞书里面，我的 AI 助理小卡会给我弹一张卡片，让我确认，我只要点击就可以了。
 
-![](../images/khazix-agent-automation-system/003.png)
+![](../images/khazix-agent-automation-system/003.webp)
 
 点完以后，Agent 就收到我的决策了，继续自己干活了。
 
@@ -87,7 +87,7 @@ coverImage: "../images/khazix-agent-automation-system/001.jpg"
 
 先说最核心的这个，Agent 自动化中台。
 
-![](../images/khazix-agent-automation-system/004.jpg)
+![](../images/khazix-agent-automation-system/004.webp)
 
 在 Agent 的体系里面，既然我们要把人给拿出去，那在何时、在何种信号下触发 Agent，让它进行工作，就变成了一个需要设计的命题。
 
@@ -99,7 +99,7 @@ coverImage: "../images/khazix-agent-automation-system/001.jpg"
 
 定时去找的那种，Claude 和 Codex 自己的应用里已经做得很好了，每天几点跑一次什么，设一下就行，我自己也有一大批定时任务，就放在它们的应用里跑。
 
-![](../images/khazix-agent-automation-system/005.png)
+![](../images/khazix-agent-automation-system/005.webp)
 
 甚至还有个很好玩的东西，是每一天下午，Codex 都会从微信群的聊天记录、X、小红书、抖音等平台搜索大家对于 AIHOT 的最新讨论和反馈，然后汇总成一份报告给我，给我可行的评估建议，是否要去优化。
 
@@ -107,7 +107,7 @@ coverImage: "../images/khazix-agent-automation-system/001.jpg"
 
 然后 AIHOT 也开源了，每一天都有朋友在 Github 上提建议、提 PR 等等，Claude 就会每天晚上 6 点扫一遍，然后处理问题还有 PR。
 
-![](../images/khazix-agent-automation-system/006.jpg)
+![](../images/khazix-agent-automation-system/006.webp)
 
 但定时任务轮询有个天生的问题，就是不及时，同事提了一条意见，线上突然报了一个错，你总不能等到第二天早上的定时任务再去看对吧。
 
@@ -185,11 +185,11 @@ https://x.com/Khazix0918/status/2114343004471460341
 
 在触发了事件之后，接下来就是 Agent 领任务和执行了。
 
-![](../images/khazix-agent-automation-system/007.jpg)
+![](../images/khazix-agent-automation-system/007.webp)
 
 首先我想说一个巨大的前提，就是我们并不是无限 Token，即使我开了 200 刀的 Claude 会员，猛用下来 3 天就能用完近 90%。
 
-![](../images/khazix-agent-automation-system/008.png)
+![](../images/khazix-agent-automation-system/008.webp)
 
 且几个主流模型所擅长的能力点，确实不太一样，各有优劣，所以才会涉及到调度，就是为了整体性价比最优。
 
@@ -207,7 +207,7 @@ GPT-6.1 Terra，专门干浏览器&电脑操控的活。它能直接操控我 Ma
 
 同时，我自己是有两台 MacMini 的，一台新买的 M5 Pro，一台是去年买的 M4 的 Mac Mini。
 
-![](../images/khazix-agent-automation-system/009.jpg)
+![](../images/khazix-agent-automation-system/009.webp)
 
 M5 Pro 是我的主力日常用机，而我的 Agent 自动化任务基本都是运行在 M4 那台机器上的，两端通过局域网互通，基本都在本地，没有上云。
 
@@ -221,7 +221,7 @@ M5 Pro 是我的主力日常用机，而我的 Agent 自动化任务基本都是
 
 日常需要用 M5 Pro 电脑操控 M4，直接 Agent 操控或者 UU 远程就行了，方便快捷。
 
-![](../images/khazix-agent-automation-system/010.jpg)
+![](../images/khazix-agent-automation-system/010.webp)
 
 然后我觉得在 Agent 自动化执行里面，还有一个蛮重要的东西，是 skill。
 
@@ -229,7 +229,7 @@ M5 Pro 是我的主力日常用机，而我的 Agent 自动化任务基本都是
 
 比如每周日早上我有个大扫除的定时任务，就搭配了一个专门的 Skill，写的就是把这一周合进来的屎山找出来删掉，同一件事写了两遍的、为个案打的补丁、停用了却没拆干净的、变成流水账的文档，能删的直接删掉，再上线。
 
-![](../images/khazix-agent-automation-system/011.png)
+![](../images/khazix-agent-automation-system/011.webp)
 
 这样的好处就是清晰、可控、可管理，你想对这个任务的详情进行修改，直接去改 Skill 就可以了，不用去改这个 Agent 执行本身的逻辑，尽可能解耦，可管理。
 
@@ -237,7 +237,7 @@ M5 Pro 是我的主力日常用机，而我的 Agent 自动化任务基本都是
 
 Agent 把代码写完、提交上来以后，就到了第三块，CI 中台。
 
-![](../images/khazix-agent-automation-system/012.jpg)
+![](../images/khazix-agent-automation-system/012.webp)
 
 CI 这个词，可能很多不写代码的朋友没怎么听过，大概意思就是，代码写完以后，自动帮你审查、测试、上线的那一整套流水线。
 
@@ -255,7 +255,7 @@ GitHub 自带的 CI，用的是它自己的机器，每个月我开了会员也�
 
 流程大概是这样的。
 
-![](../images/khazix-agent-automation-system/013.jpg)
+![](../images/khazix-agent-automation-system/013.webp)
 
 不管是 Claude 还是 Codex，Agent 的活，干到提交代码、开一个合并请求，就结束了，它自己不能上线。后面所有的事，全部交给 CI 中台，一共五步，审查、检查、合并、发布、核实。
 
@@ -295,11 +295,11 @@ GitHub 自带的 CI，用的是它自己的机器，每个月我开了会员也�
 
 我也不喜欢 Agent 通过什么 DOT、Grok Bot 之类的所谓 Personal Agent 来去找我，我觉得会有点麻烦，于是就直接跟飞书打通了，我的 AI 助理直接给我推一个卡片，我就能第一时间看到。
 
-![](../images/khazix-agent-automation-system/014.jpg)
+![](../images/khazix-agent-automation-system/014.webp)
 
 并且还可以直接做选择。
 
-![](../images/khazix-agent-automation-system/015.png)
+![](../images/khazix-agent-automation-system/015.webp)
 
 这个感觉，其实讲道理，跟皇帝批奏折真的没有什么区别。
 
@@ -313,7 +313,7 @@ GitHub 自带的 CI，用的是它自己的机器，每个月我开了会员也�
 
 我只做判断，只要点击就行，然后在之前等着我审批的 Agent 就会接着往下干，卡片也会自己改成结论，比如今晚临时发生的，有个龟儿子进了 AIHOT 的飞书群，把推送机器人也移除了，然后自己退群了，我都不知道还有这个漏洞，然后因为报错，就触发了整个自动化工作流，给我推了一条卡片。。。
 
-![](../images/khazix-agent-automation-system/016.png)
+![](../images/khazix-agent-automation-system/016.webp)
 
 但卡片做的这个交互方式即使有用，但是最重要的就是到底什么事情应该推到我的面前。
 
@@ -333,7 +333,7 @@ GitHub 自带的 CI，用的是它自己的机器，每个月我开了会员也�
 
 我每天都会收到一些用户直接的反馈内容，我特别感谢他们。
 
-![](../images/khazix-agent-automation-system/017.jpg)
+![](../images/khazix-agent-automation-system/017.webp)
 
 只要是我觉得能做的，每一个我都会复制粘贴，让 Agent 来去解决。然后解决完以后，给对方的邮箱发一封真诚的回信反馈。
 
@@ -353,7 +353,7 @@ GitHub 自带的 CI，用的是它自己的机器，每个月我开了会员也�
 
 一年后的今天，我搭了我自己的 Agent 自动化系统，做出了百万月活的公益产品，还开源了，拿到了 9000 star 的好成绩，也看到无数的反馈，说帮到了他们。
 
-![](../images/khazix-agent-automation-system/018.jpg)
+![](../images/khazix-agent-automation-system/018.webp)
 
 每一天，我都在开发中、在创作中学习，一年前，我连 CI 是什么都不知道，半年前，我甚至连 CDN 是什么都不知道，但是不妨碍我，现在都知道了。
 

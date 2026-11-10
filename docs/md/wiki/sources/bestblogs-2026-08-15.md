@@ -33,7 +33,7 @@ url: "https://mp.weixin.qq.com/s/h4yvFFXsCYRJZ81eOhy0WQ"
 
 > 来源：智谱 · BestBlogs 评分：93
 
-![GLM-5.3](../images/bestblogs-2026-08-15/002.png)
+![GLM-5.3](../images/bestblogs-2026-08-15/002.webp)
 
 GLM-5.3 最值得注意的地方，不是全新的基座模型，而是智谱称其在与 GLM-5.2 **相同基座**上，通过数十倍长程任务环境、更丰富的环境类型和更长后训练，把能力上界继续向外推。这个对照把"模型能力"拆成了两层：**预训练决定基座拥有什么潜力，后训练则决定它能否在复杂环境中发现问题、操作工具、实施并验证。**
 
@@ -68,7 +68,7 @@ GLM-5.3 最值得注意的地方，不是全新的基座模型，而是智谱称
 
 > 来源：Elevate · BestBlogs 评分：91
 
-![实用循环工程](../images/bestblogs-2026-08-15/003.jpeg)
+![实用循环工程](../images/bestblogs-2026-08-15/003.webp)
 
 Addy Osmani 的核心贡献，是把笼统的"让 Agent 一直做下去"拆成两种原语：
 
@@ -97,7 +97,7 @@ Addy Osmani 的核心贡献，是把笼统的"让 Agent 一直做下去"拆成�
 
 > 来源：大淘宝技术 · BestBlogs 评分：92
 
-![AI Native 团队](../images/bestblogs-2026-08-15/004.png)
+![AI Native 团队](../images/bestblogs-2026-08-15/004.webp)
 
 ### 核心观点
 
@@ -130,7 +130,7 @@ Addy Osmani 的核心贡献，是把笼统的"让 Agent 一直做下去"拆成�
 
 > 来源：Hugging Face Blog · BestBlogs 评分：91
 
-![开放模型现状](../images/bestblogs-2026-08-15/005.png)
+![开放模型现状](../images/bestblogs-2026-08-15/005.webp)
 
 Hugging Face 用 2026 年前七个月的 Hub 数据观察开放模型生态。下载前 25 与点赞前 25 的仓库**只有一个重合**：点赞反映发布时的关注，下载更像已经嵌入稳定管线的依赖。Qwen 在 Hub 上形成 **151,448 个衍生模型**，而小于 1B 的模型仍占声明规模模型历史下载量的 **83%**。
 
@@ -138,7 +138,7 @@ Hugging Face 用 2026 年前七个月的 Hub 数据观察开放模型生态。�
 
 > 来源：AI Engineer · BestBlogs 评分：90
 
-![网页自动化](../images/bestblogs-2026-08-15/006.jpeg)
+![网页自动化](../images/bestblogs-2026-08-15/006.webp)
 
 Corey Gallon 把网页自动化设计成"感知—行动—验证"循环：先读 DOM/截图，做一个动作，再用不同信号确认结果。三层梯子从便宜的页面 API 开始，必要时升级到 CDP trusted input，只有确实需要时才使用视觉。
 
@@ -158,7 +158,7 @@ REDtech 发布 280B 参数多模态模型，同时给出 TEMPO 长程强化学�
 
 > 来源：山行AI · BestBlogs 评分：91
 
-![DeepTutor](../images/bestblogs-2026-08-15/007.png)
+![DeepTutor](../images/bestblogs-2026-08-15/007.webp)
 
 DeepTutor 把统一 Agent Loop、RAG、Skills、外部 Agent 和三层长期记忆组合在一起，目标不是回答一道题，而是让学习任务能够跨会话延续。
 

@@ -34,15 +34,15 @@ Model 管理，简单来说，就是让 Agent 能够统一配置、查询、选�
 
 一个 Provider 可以提供多个 Model，二者通常是一对多的关系。
 
-![Provider 与 Model 的一对多关系](../images/zeroagent-10-model-management/001.png)
+![Provider 与 Model 的一对多关系](../images/zeroagent-10-model-management/001.webp)
 
 通常我们在开通一个 MaaS 服务的时候，都能从供应商那里获取的 API Key 来作为访问凭据。以 DeepSeek 为例，我们可以通过 `https://api.deepseek.com/v1/models` 获取到其支持的所有模型，以及模型在推理时支持的思考等级（Thinking Level）。
 
-![DeepSeek 的模型列表接口](../images/zeroagent-10-model-management/002.png)
+![DeepSeek 的模型列表接口](../images/zeroagent-10-model-management/002.webp)
 
 如果是智谱的话，我们可以通过 `https://open.bigmodel.cn/api/v1/models` 获取其支持的模型信息。
 
-![智谱的模型列表接口](../images/zeroagent-10-model-management/003.png)
+![智谱的模型列表接口](../images/zeroagent-10-model-management/003.webp)
 
 对比不同供应商的接口可以发现，它们在模型命名、元数据结构和能力描述等方面可能存在差异。尤其需要注意的是，**模型列表接口并不一定会返回模型支持的全部能力，也不一定会提供推理等级信息**。如果需要了解模型是否支持推理、支持哪些推理档位，以及具体的参数格式，还需要结合供应商的 API 文档进行确认。
 

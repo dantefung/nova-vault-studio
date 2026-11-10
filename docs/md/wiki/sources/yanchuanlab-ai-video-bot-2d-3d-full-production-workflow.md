@@ -19,7 +19,7 @@ coverImage: "../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/0
 
 视频号 20000+ 粉丝，抖音 4300+ 粉丝，两边累计播放 70 万+
 
-![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/002.jpg)
+![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/002.webp)
 
 截图里能看到的播放量只是部分片子的数据，仅作示意。
 
@@ -35,7 +35,7 @@ coverImage: "../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/0
 
 我把这一整套想成一个会拍片的 bot，分成五层。你在最上面，下面四层它自己转：
 
-![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/003.jpg)
+![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/003.webp)
 
 第 1 层，你：视频公司的 CEO。 你给的是目标，不是做法。我做《五次财富大转移》时，给 Claude 的需求里一个技术词都没有，只说了想让大家看懂什么（见案例 3）。之后你只在几个关口出现：花钱前点头，样片出来看一眼，成片出来从头看完、听完，最后拍板发不发。
 
@@ -89,7 +89,7 @@ coverImage: "../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/0
 
 《中国人能飞》第 12 镜就是例子。审关键帧时发现，王座画得太像一部知名美剧里的那把。因为是在图上发现的，重画一张约 ¥1。要是拍成视频才发现，这 4 秒就得花 ¥6.1 重拍。
 
-![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/004.jpg)
+![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/004.webp)
 
 这条片子竖屏 22 个镜头，正式只重拍了 3 镜，另外 2 条是开拍前比较两个模型的测试片。能在文字和关键帧上发现的问题，都在批量生成视频之前改完了。
 
@@ -123,7 +123,7 @@ coverImage: "../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/0
 
 ## 二、从一个想法到成片：6 步
 
-![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/005.jpg)
+![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/005.webp)
 
 ## 第 1 步：想清楚给谁看、看完得到什么
 
@@ -165,7 +165,7 @@ coverImage: "../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/0
 
 做视频主要是四条路线：
 
-![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/006.jpg)
+![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/006.webp)
 
 - 代码动画： 适合知识讲解、清单、数据、金句。导演自己写代码画，不收接口费。我的例子是《五次财富大转移》和《薛定谔的猫》。
 - 3D 动画： 适合诗意短片、产品、建筑、机械。Blender 来搭，不收接口费，但费电脑。我的例子是《你替我听一下》，还有一条行业介绍片里的产品场景。
@@ -180,7 +180,7 @@ coverImage: "../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/0
 
 走 3D 路线要多留一个心眼：第一版经常不能用。我做行业介绍片时，第一版的手机结构看不清，精华瓶没有标签，门店招牌被切掉了一半：
 
-![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/007.jpg)
+![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/007.webp)
 
 这些问题，先用低采样试渲首、中、尾三帧，在我的电脑上 10 秒左右就能看出来。我有几场是渲完才返工的，一场就是几十分钟。
 
@@ -358,7 +358,7 @@ AI 这一半也交给另开的 agent。但它查完，你还是要从头到尾�
 
 这里只算视频生成的账本。出图、配乐、配音另算：《中国人能飞》的出图和配乐我估算约 ¥60；《五次财富大转移》的 Azure 配音按字数计费；每条都要用的 Claude 订阅也没算进去。
 
-![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/008.jpg)
+![](../images/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow/008.webp)
 
 每个案例都按同样的顺序讲：我提的需求、走的路线、花了多少钱、关键做法、翻车和教训。
 

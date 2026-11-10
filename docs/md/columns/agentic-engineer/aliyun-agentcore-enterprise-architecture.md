@@ -57,7 +57,7 @@ AgentCore 是阿里云面向企业推出的一站式 Agent 构建与治理平台
 
 但如果只把 AgentCore 理解成一个 Agent 开发平台，就低估了它要解决的问题。
 
-![AgentCore 架构与任务生命周期](./images/aliyun-agentcore-enterprise-architecture/001.png)
+![AgentCore 架构与任务生命周期](images/aliyun-agentcore-enterprise-architecture/001.webp)
 
 AgentCore 管理的对象，是一项任务从构建、执行到验收和改进的完整生命周期，包括构建和接入，运行和治理，人和 Agent 间的协作，以及如何使用知识与工具，对输出结果验收、沉淀经验、持续改进智能体的效果。
 
@@ -75,7 +75,7 @@ AgentCore 管理的对象，是一项任务从构建、执行到验收和改进�
 
 看见过程之后，还需要判断过程和结果是否正确。
 
-![Agent 评测体系与三层 Judge 架构](./images/aliyun-agentcore-enterprise-architecture/002.png)
+![Agent 评测体系与三层 Judge 架构](images/aliyun-agentcore-enterprise-architecture/002.webp)
 
 AgentCore 深度集成阿里云 AgentLoop：
 - 对于格式、数值阈值、API 参数等确定性问题，提供 **Code Judge**；
@@ -102,7 +102,7 @@ AgentCore 深度集成阿里云 AgentLoop：
 
 AgentCore 的思路不是把所有 Agent 改造成同一种形态，而是提供共同的运行和治理底座。
 
-![AgentCore 平台治理能力全景](./images/aliyun-agentcore-enterprise-architecture/003.jpeg)
+![AgentCore 平台治理能力全景](images/aliyun-agentcore-enterprise-architecture/003.webp)
 
 - **构建层面**：高代码 Agent、不同类型的 Harness 以及企业已有 Agent，可以按照各自场景选择合适方式；
 - **运行层面**：平台提供隔离、弹性和会话管理；
@@ -125,7 +125,7 @@ AgentCore 的思路不是把所有 Agent 改造成同一种形态，而是提供
 
 AgentCore 选择了更合理的方式：根据任务性质选择不同的协作结构。
 
-![多智能体协同与按需编队](./images/aliyun-agentcore-enterprise-architecture/004.jpeg)
+![多智能体协同与按需编队](images/aliyun-agentcore-enterprise-architecture/004.webp)
 
 1. **即时并发**：主 Agent 将问题拆成多个相互独立的探索分支，由临时创建的子 Agent 并行处理，结果返回后立即释放。Deep Research 就是典型场景。
 2. **按需编队**：企业把稳定的任务链定义为可复用模板，在任务开始时为不同 Agent 分配能力、权限和上下文，任务完成后回收。例如一项内容任务，可以依次由研究、写作和审查 Agent 完成。
@@ -161,7 +161,7 @@ Agent 每完成一次任务，都会产生新的信息：哪些知识真正有�
 
 其中，**Skill 正逐渐成为企业经验的重要载体**。一个 Skill 从编写、生成和打包开始，还需要经历版本管理、安全扫描、分发、权限管理、评估和调优。只有这样，个人总结的方法才能从一个文件，变成可以安装、追溯和持续维护的企业能力。
 
-![企业智能资产沉淀与多层 Catalog 治理](./images/aliyun-agentcore-enterprise-architecture/005.png)
+![企业智能资产沉淀与多层 Catalog 治理](images/aliyun-agentcore-enterprise-architecture/005.webp)
 
 AgentCore 通过个人、企业和外部市场组成的多层 Catalog 管理这些资产。个人创建的能力可以先自用和测试，经过质量验证后进入企业目录；从外部引入的 Agent、Skill 和 MCP，则需要经过安全与合规审查。进入企业目录的资产，需要登记负责人、版本、权限、质量标准和使用反馈。
 
@@ -189,7 +189,7 @@ AgentCore 所代表的方向，是把构建、运行、协作、资产、评估�
 
 这个过程不会消除模型的不确定性，也不会让所有业务自动运行。它所做的，是让不确定性能够被看见，让行动受到约束，让结果可以验收，让有效经验可以留下来。
 
-![阿里云团队自研自用实践演进](./images/aliyun-agentcore-enterprise-architecture/006.jpeg)
+![阿里云团队自研自用实践演进](images/aliyun-agentcore-enterprise-architecture/006.webp)
 
 构建决定 Agent 能不能出现，生产化决定它能不能进入业务、承担结果，并最终留下来。
 

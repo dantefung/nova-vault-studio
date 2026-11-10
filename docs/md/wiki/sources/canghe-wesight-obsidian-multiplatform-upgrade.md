@@ -19,19 +19,19 @@ coverImage: "../images/canghe-wesight-obsidian-multiplatform-upgrade/001.jpg"
 
 里面我分享了自己做的 WeSight 插件，当时很多小伙伴直呼有用。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/002.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/002.webp)
 
 现在已经有 32k 下载量了，撒花撒花❀
 
 自己做的东西有这么多小伙伴在用，还是很开心的😊
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/003.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/003.webp)
 
 我自己日常创作也离不开它，最近又给它进行了重磅升级🆙
 
 GitHub 地址：https://github.com/freestylefly/wesight-obsidian
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/004.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/004.webp)
 
 ## 多平台同步：WeSight 发布助手
 
@@ -43,11 +43,11 @@ GitHub 地址：https://github.com/freestylefly/wesight-obsidian
 
 于是我做了一个 WeSight 发布助手，现在直接从 Obsidian 上传，选好平台，就可以同步过去了。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/005.png)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/005.webp)
 
 连接好浏览器扩展，在 Obsidian 里点击「多平台」，这篇文章就会传到发布中心。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/006.png)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/006.webp)
 
 回到发布中心，就能看到刚才导入的文章。
 
@@ -57,21 +57,21 @@ GitHub 地址：https://github.com/freestylefly/wesight-obsidian
 
 比如这里，我选择 CSDN 和掘金，点击同步，内容就会自动传到这两个平台。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/007.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/007.webp)
 
 看它自己往两个平台传，终于不用我在几个网页之间来回切了，舒服。
 
 安装的话，先下载 WeSight 发布助手的 ZIP 安装包，解压。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/008.png)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/008.webp)
 
 打开浏览器的扩展管理页面，开启开发人员模式，加载刚才解压的文件夹。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/009.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/009.webp)
 
 点击浏览器里的插件，就可以看到各个平台的登录状态。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/010.png)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/010.webp)
 
 ## 长文一键转多平台图文
 
@@ -97,31 +97,31 @@ GitHub 地址：https://github.com/freestylefly/wesight-obsidian
 
 这个就很舒服了，好不容易调出来的风格，总不能每次都从头再来一遍吧。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/011.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/011.webp)
 
 WeSight 也会自动分析内容，推荐配图风格，点击查看依据，还可以看到推荐的原因。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/012.png)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/012.webp)
 
 生成的图文文案和图片，也可以通过发布助手同步到对应平台。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/013.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/013.webp)
 
 比如这里，我让它把文章转成 X 图文，生成文案、选好图片后，点击「一键发布到平台」。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/014.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/014.webp)
 
 文字和选中的图片会直接上传到发布中心，文案 tag 都给我写好了。
 
 点击「开始同步」。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/015.jpg)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/015.webp)
 
 同步完成后，它会跳到 X，我一看，好家伙，文案和图片都过去了。
 
 从文章改成图文，再同步到平台，不用自己再来一遍了。
 
-![](../images/canghe-wesight-obsidian-multiplatform-upgrade/016.png)
+![](../images/canghe-wesight-obsidian-multiplatform-upgrade/016.webp)
 
 ## 公众号排版与数据复盘
 

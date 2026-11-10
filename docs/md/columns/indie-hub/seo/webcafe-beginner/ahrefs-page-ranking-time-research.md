@@ -8,7 +8,7 @@ url: "https://new.web.cafe/tutorial/detail/ooiipksH14pLaQ688YqyNM"
 
 # 【哥飞带你读】Ahrefs研究：网页从上线开始算起拿到排名需要多久时间
 
-![image.png](images/ahrefs-page-ranking-time-research/img_002.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_002.webp)
 大家好，我是哥飞。
 
 最近哥飞发现一个现象，好多知识哥飞讲出来了，但是每个读者看到后，理解都不太一样，这主要受限于读者本身的经验和知识，最终执行起来就会有变形。
@@ -35,7 +35,7 @@ GPT总结有两个问题：
 
 原文：[https://ahrefs.com/blog/how-long-does-it-take-to-rank/](https://ahrefs.com/blog/how-long-does-it-take-to-rank/) 
 
-![image.png](images/ahrefs-page-ranking-time-research/img_003.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_003.webp)
 
  Ahrefs 这个研究起源于所有做站长都可能会关心的一个问题：
 
@@ -50,17 +50,17 @@ Ahrefs 的爬虫很强，抓取并且跟踪了很多网页，存储了千兆字�
 对 200 万个随机挑选的关键词排名前10结果中的2000万个网页进行研究，得出以下图表结果。
 
 横轴是网页上线天数，纵轴是谷歌搜索结果第1名到第10名。
-![image.png](images/ahrefs-page-ranking-time-research/img_004.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_004.webp)
 从上图可以看出，平均排名前十的页面有 2年以上的历史，而排名第一的页面平均有近3年的历史。
 
 对这2000万个网页按照网页年龄分组，得到以下结果。
 
-![image.png](images/ahrefs-page-ranking-time-research/img_005.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_005.webp)
 
 这些排名前十的页面中，只有 22%是在一年内创建的，18%左右是1到2年内建立的，剩下58%左右进入了谷歌排名前10的网页，都是3年或者3年以上建立的。
 
 Ahrefs 又统计了前10每个位置上1年内建立的网页占比，得到结果如下。
-![image.png](images/ahrefs-page-ranking-time-research/img_006.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_006.webp)
 进入了谷歌排名第1的网页，只有 1.2%左右是1年内建立的。
 
 结论就是，想要进入谷歌搜索结果首页，没那么容易，很多时候要相信时间的魔法。
@@ -74,7 +74,7 @@ Ahrefs 又统计了前10每个位置上1年内建立的网页占比，得到结�
 看完你就会发现，哥飞是真的在认真教大家出海做网站赚钱。 2、哪些网页能进入谷歌搜索首页
 
 Ahrefs 随机选择了200万个一年前建立的页面，持续跟踪每个页面的排名位置变化，得到了下面的结果。
-![image.png](images/ahrefs-page-ranking-time-research/img_007.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_007.webp)
 
 只有 5.7%的页面在1年内至少有一个关键词进入了谷歌搜索首页。
 
@@ -83,7 +83,7 @@ DR是域名评级，具有高DR的网页的表现要比低DR的网页好得多�
 但这是因为本身Ahrefs的DR计算指标就包含了谷歌排名因素，所以具有正相关性。
 
 对于这5.7%能够进入谷歌搜索首页的网页，Ahrefs进一步研究拿到排名所需的时间，结果如下。
-![image.png](images/ahrefs-page-ranking-time-research/img_008.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_008.webp)
 
 大多数网页在180天，也就是6个月内进入了谷歌首页。
 
@@ -97,11 +97,11 @@ DR是域名评级，具有高DR的网页的表现要比低DR的网页好得多�
 
 所以哥飞提出的第二个方法就是用关键词注册域名，举全站之力来优化关键词。
 
-![image.png](images/ahrefs-page-ranking-time-research/img_009.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_009.webp)
 
 继续按照关键词搜索量分组，得到以下结果。
 
-![image.png](images/ahrefs-page-ranking-time-research/img_010.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_010.webp)
 
 高搜索量的关键词，只有 0.3%的网页能够在一年内进入谷歌首页。
 
@@ -109,7 +109,7 @@ DR是域名评级，具有高DR的网页的表现要比低DR的网页好得多�
 
 继续对那5.7%能够进入谷歌首页的网页按照关键词分组，得到以下结果。
 
-![image.png](images/ahrefs-page-ranking-time-research/img_011.png)
+![image.png](images/ahrefs-page-ranking-time-research/img_011.webp)
 
 可以得出的规律是，搜索量越小的词，进入谷歌首页越容易。搜索量越大的词，竞争越大，所以进入谷歌首页难度越高。
 

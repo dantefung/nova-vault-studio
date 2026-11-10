@@ -34,7 +34,7 @@ Agent 生成工具调用，工具开始逐封发送。前三封已经确认完�
 
 Durable 要把这些判断所依赖的事实保存在进程之外，并定义恢复规则。恢复程序先读取已提交进度，再决定复用结果、继续等待、核实原操作，还是启动尚未执行的工作。
 
-![image](../images/durable-agent-agentcore/001.png)
+![image](../images/durable-agent-agentcore/001.webp)
 
 这不要求一个进程永远在线。进程可以退出，任务可以等待，执行资源可以释放；只要状态仍可访问、兼容的执行者能够被唤醒，工作就有继续推进的依据。
 
@@ -105,7 +105,7 @@ Durable 则需要更强的契约：任务由谁持有执行权，状态在哪个
 
 即使把每封邮件拆成独立工具调用，仍然存在一个无法靠聊天记录消除的窗口：
 
-![image](../images/durable-agent-agentcore/002.png)
+![image](../images/durable-agent-agentcore/002.webp)
 
 有调用意图、没有结果，只能说明“可能执行过”。请求可能根本没有发出，也可能已被接受但响应丢失，还可能像图中一样已经收到回执，只差最后一次保存。
 
@@ -136,7 +136,7 @@ HarnessAgent 管理模型与工具的协作，Session 管理持久状态与提�
 
 下面以 AgentScope 展开这套机制。其核心是与具体框架无关的持久执行协议，同样适用于其他 Agent 框架。
 
-![image](../images/durable-agent-agentcore/003.png)
+![image](../images/durable-agent-agentcore/003.webp)
 
 图中的模型和工具调用发生在提交事务之外。调度器根据已提交状态选择可执行任务，任务处理器运行一个阶段，再提交结果和下一状态。存储、调度与观察因此围绕同一条状态变化序列协作。
 
@@ -270,7 +270,7 @@ AgentScope 提供allSettled和failFast两种等待策略：前者等待全部依
 
 为了处理“已经发送但回执未保存”的窗口，本例增加一项明确前提：邮件服务支持按稳定操作标识幂等受理，并能查询原操作。每封邮件的操作标识在外部调用前保存，并绑定固定的收件人和正文。
 
-![image](../images/durable-agent-agentcore/004.png)
+![image](../images/durable-agent-agentcore/004.webp)
 
 在这项任务中，Agent 负责理解用户要求、形成计划和生成汇总，AgentScope 的任务状态机负责发送阶段的持久接续。幂等受理和原操作查询由邮件服务提供，任务处理器据此确认外部动作并提交结果。
 
@@ -337,7 +337,7 @@ AgentCore 已经提供托管 Harness 的能力，支持任务中断后继续执�
 
 Brain–Hands 分离与更完整的 Agent as a Service，是在已有托管能力之上继续建设的方向。下面从架构设计角度讨论 Durable 如何融入这些方向，以及它们如何与现有的 Harness 托管共同使用一套持久基础。
 
-![image](../images/durable-agent-agentcore/005.png)
+![image](../images/durable-agent-agentcore/005.webp)
 
 图中分别展示已有托管能力、后续演进方向，以及两者可以共同依托的状态、调度与环境抽象。它们之间的联系是持久执行契约：既能承接原生 Harness 的恢复节点，也能承接深入内核后的任务阶段和工具交接状态。
 
@@ -385,7 +385,7 @@ Brain–Hands 分离可以看作上述持久交接机制的进一步展开：Bra
 | Hands 执行 | 原操作身份、执行进度、完整结果 | 查询或接回原操作，明确其完成范围 |
 | 结果交接与调度 | 结果归属、交付进度、等待条件与恢复安排 | 已有结果能够再次交付，满足条件的任务能够再次获得执行机会 |
 
-![image](../images/durable-agent-agentcore/006.png)
+![image](../images/durable-agent-agentcore/006.webp)
 
 在这一设计中，工具完成通知只是继续执行的触发器，真正决定下一步的是持久状态。调度需要能够重新发现尚未完成的恢复安排，并约束当前有效的执行者，防止旧实例与接管实例同时推进同一份状态。这样，工具等待、结果交付和推理恢复才不会分别绑定在某个进程或某条连接上。
 

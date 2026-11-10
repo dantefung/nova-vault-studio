@@ -29,7 +29,7 @@ coverImage: "../images/sujingshen-deepseek-harness-super-agent-reading/001.jpg"
 
 出路是把 Agent 从「某一个手动驱动的 session」里解耦出来，变成一个持续存在的实体：跨 session 保留上下文，同时推进多个复杂任务，任务之间互不干扰。他们把这种 Agent 和它背后的系统架构叫作 Super-agent。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/002.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/002.webp)
 
 💡 用模型的技巧：先承认自己只能盯 3～5 个窗口。 同时开的对话别超过这个数。每个窗口第一句话写清「这个窗口只做 X」；隔了一段时间再切回去，先让它用三句话复述目标、已完成的部分和下一步，再继续。这样就不用靠自己的记性去记每个窗口里聊到哪了。
 
@@ -54,7 +54,7 @@ coverImage: "../images/sujingshen-deepseek-harness-super-agent-reading/001.jpg"
 
 四个特征对应五个模块：
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/003.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/003.webp)
 
 下面一个个拆。
 
@@ -67,7 +67,7 @@ coverImage: "../images/sujingshen-deepseek-harness-super-agent-reading/001.jpg"
 - 所有事件都塞进一个 session：上下文最连续，它什么都看得见。但 ReAct 循环一步一步走，单 session 速度有上限，任务慢、吞吐低；不同任务的中间细节还会混在同一个上下文里，把结果搞坏。
 - 每个事件新开一个 session：并发吞吐拉满，但任务之间只要不是完全独立，缺少共享的全局上下文，结果就会各说各话。好几个 session 分别回复用户，交互也一团乱。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/004.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/004.webp)
 
 ### 解法：Router + Worker
 
@@ -78,7 +78,7 @@ coverImage: "../images/sujingshen-deepseek-harness-super-agent-reading/001.jpg"
 
 这样一来，上下文管理和并发执行都由系统接手，用户几乎不用再想 session 这回事，面对的始终是同一个 Super-agent。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/005.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/005.webp)
 
 文章里有句话我很喜欢：让用户手动管理 session，很大程度上是从底层 LLM API 沿袭下来的设计习惯。Session 应该是系统的实现细节，不该是用户的心智负担。
 
@@ -104,7 +104,7 @@ coverImage: "../images/sujingshen-deepseek-harness-super-agent-reading/001.jpg"
 
 原因是批处理。Router 在做一轮推理时，新进来的事件（Trigger）会排队，下一轮一起处理。事件平稳到达时，一个一个进、很快回；事件扎堆时，上一轮积压的 Trigger 自动合并，塞进同一次 LLM 调用。因为 Router 只做轻量的交互和派发，每一步通常是「长输入、短输出」，合并后的多个 Trigger 在 Prefill 阶段并行计算，单次请求耗时的增长远慢于批大小的增长。在一定范围内，积压越多，每个决策摊下来的推理时间反而越短。上限取决于上下文长度，以及模型一轮能准确处理多少个 Trigger。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/006.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/006.webp)
 
 💡 用模型的技巧：小判断攒一批再问。 给邮件分类、判断哪条评论需要回、给标题打分这类「输入长、输出短」的小活，一次丢给模型十几条，让它按编号逐条给结论，比一条条问快得多。但批量要有上限，原文也说了，上限取决于模型一轮能准确处理多少条。数量太多时分几批，并抽查几条结果。
 
@@ -141,7 +141,7 @@ Worker 内部同样可以再开 subagent，或者本身就是一个 Agent Team�
 - 程序化策略（Fast Path）：代码基于确定性条件做快速准入，比如事件来源、群组、用户或 bot 白名单。每个来源可以设成「只响应明确请求」「视为候选事件」或「忽略」。大部分无关消息在调用模型之前就被筛掉了。
 - 语义策略（Slow Path）：通过程序检查的候选事件交给 LLM，结合上下文和写成 prompt 的策略，判断要不要行动。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/007.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/007.webp)
 
 我觉得这里有个很漂亮的设计：语义层同时是一个自然语言扩展点。人随时可以用 prompt 开关策略、加新策略，不用改代码。
 
@@ -160,7 +160,7 @@ Worker 内部同样可以再开 subagent，或者本身就是一个 Agent Team�
 
 Thread 和 Worker 是多对多订阅：一个 Worker 可以订阅多个相关 Thread，一个 Thread 也可以有多个 Worker 订阅。几个 Worker 在同一个工作环境里撞上时，共享 Thread 的新事件会同时推给所有订阅者，它们借此了解彼此在做什么，自己化解冲突，不需要点对点通信。输出端不变：Worker 把关键结论报给 Router，由 Router 统一回复用户、同步全局记忆。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/008.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/008.webp)
 
 💡 用模型的技巧：一条线索对应一个对话。 同一件事的后续反馈（改稿意见、报错、新要求）都回到原来那个对话里说，不要换个窗口重新讲；真正的新事再开新对话。两个对话碰到同一份材料时，把对方的结论贴过去，让它们「订阅」同一份事实，不用你在中间传话。
 
@@ -181,7 +181,7 @@ Thread 和 Worker 是多对多订阅：一个 Worker 可以订阅多个相关 Th
 2. 按局部性逐步内联：先内联紧密相关对象的 ID，再加上空间或时间上相邻的内容，比如内容的前 50 个字符、一条 IM 消息前后的消息和它回复的那条、同一个代码评审讨论里相邻的评论。
 3. 超限内容溢出：长内容设一个较小的长度上限，超出部分截断，留一个指针告诉模型后面还有、在哪，需要时调工具读剩下的。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/009.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/009.webp)
 
 💡 用模型的技巧：喂资料别一次全倒进去。 先给目录、摘要和每段材料在哪，让模型说它需要看哪几部分，再把那几部分贴给它。长文按章节分段给，每段开头标上编号。窗口里留的是马上要用的内容，加上指向其余内容的「指针」。塞太多，模型注意力被稀释；给太少，它只能瞎猜。
 
@@ -195,7 +195,7 @@ Router 层自己也有上下文难题。大量后续事件直接透传给了 Wor
 
 于是模型可以从当前事件出发，顺着引用一跳一跳往回找，需要多远就找多远。比如：从当前消息所在的 Thread，顺着内联的 ID 找到相关的 Worker Session，再从这个 Worker 找到另一个与之关联的代码评审 Thread。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/010.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/010.webp)
 
 我很喜欢这个设计，因为它不依赖什么复杂的向量记忆，靠的是结构化的 ID 和摘要。思路很朴素：别想着把所有东西都记住，记住去哪儿找就行。
 
@@ -208,7 +208,7 @@ Router 层自己也有上下文难题。大量后续事件直接透传给了 Wor
 - 个人助理场景：收到会议邀请邮件或待办消息，Agent 在后台先查日历冲突、收集背景资料、起草回复，用户只需要看一眼草稿再发。
 - 研发协作场景：他们在内部 DeepSeek Harness 用户群里配置了一条「静默复现并修复」的策略。有人报问题或讨论改动时，Agent 先尝试复现问题……
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/011.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/011.webp)
 
 💡 用模型的技巧：让它先给草稿，别先回答一堆问题。 布置任务时加一句：「先按你的理解给我一版能用的草稿，不确定的地方用【待确认】标出来。」改一份草稿，比先回答十个澄清问题省力得多。用不上就扔掉，模型的时间比你的时间便宜。
 
@@ -223,7 +223,7 @@ Router 层自己也有上下文难题。大量后续事件直接透传给了 Wor
 - IM 等即时渠道：轻量沟通，尽量少打扰。像一个人类同事那样，只在需要决策或签字时才通知，只问直接的问题，只给简短的结论。他们验证过一条简单有效的硬规则：每条回复不超过 100 个词。
 - GitHub、邮件、文档等异步渠道：给结构化、信息密度高的输出。比如创建或更新 PR 时，按项目规范写清完整的问题背景、改动说明和验证结果。个人助理场景里，直接起草结构化的邮件和文档摘要。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/012.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/012.webp)
 
 再结合第一节「高产」那条（上一个任务没完成就能接下一条指令），所谓「全双工」，我的理解是：人和 Agent 不再是你说一句、它干完、再轮到你的半双工对讲机，两边可以同时说、同时做。
 
@@ -262,7 +262,7 @@ Agent 上云了，可它要干活的环境（代码仓库、本地文件、依�
 
 所以他们支持 BYOM（Bring Your Own Machine）：把用户自己的开发机或个人电脑接到云端 Agent 上，同时也支持云主机和按需创建的计算环境。结果是 Agent 不再绑死在一台机器上，可以在任务需要的任何环境里执行命令、读取上下文；甚至能配合间歇在线的设备：个人电脑重新连上时，云端 Agent 自动开始并完成那些必须在这台设备上跑的任务。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/013.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/013.webp)
 
 💡 用模型的技巧：把状态存在对话外面。 需求、已做的决策、待办和当前进度，写进一份文档，不要只留在聊天记录里。聊天窗口相当于可以随时替换的「计算」，文档才是持久的「状态」。这样换窗口、换模型、隔一周再回来，都能从文档接上。
 
@@ -278,7 +278,7 @@ Agent 上云了，可它要干活的环境（代码仓库、本地文件、依�
 - 用模型判断每个 Worker 是否在实质推进，还是已经偏离总体目标；
 - 及时修复异常，对暂时性的外部故障持续复查，直到解决。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/014.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/014.webp)
 
 更妙的是，Watchdog 本身就是一个带全套工具的 Agent session，维护者可以用自然语言问它为什么出错，也可以让它在系统运行中纠正主系统的行为，比如增删 prompt、调整触发规则。
 
@@ -314,7 +314,7 @@ Agent 上云了，可它要干活的环境（代码仓库、本地文件、依�
 
 第一，靠 prompt 让模型「自觉委派」不可靠。 单 session 方案要不要委派，全看 prompt 怎么写和模型当场怎么判断。中性 prompt 下它压根不委派；就算你苦口婆心劝它委派，它还是会偶尔觉得「这活小，我自己来」。两层架构在系统层面解决了这个问题：Router 本来就不干活，Worker 只收到自己订阅的 Thread 的消息。用结构约束行为，比用 prompt 劝说行为稳定得多。 这条我想刻在做 Skill 的桌子上。
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/015.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/015.webp)
 
 💡 用模型的技巧：不想让它做的事，就别给它做的条件。 想让模型只出大纲、先别写正文，与其在 prompt 里反复强调「不要写正文」，不如把流程拆成两步：这一轮只要大纲，你确认后再开下一轮写正文。想让它只审稿不改稿，就只让它输出问题清单。能用流程卡住的，就别只靠叮嘱。
 
@@ -368,7 +368,7 @@ Agent 上云了，可它要干活的环境（代码仓库、本地文件、依�
 
 最后，把全文的技巧收成一张图，方便截图存着：
 
-![](../images/sujingshen-deepseek-harness-super-agent-reading/016.jpg)
+![](../images/sujingshen-deepseek-harness-super-agent-reading/016.webp)
 
 文章里描述的部分设计已经在 dsh-superagent-prototype 中实现。官方特别强调，这个插件只是验证技术路线的原型，不是 DeepSeek 的正式产品。他们内部基于这些思路和 DeepSeek Harness 搭的 Super-agent 实例已经在持续运行，每天帮着复现和修复问题、回应代码评审，以及开发 DeepSeek Harness 本身。
 

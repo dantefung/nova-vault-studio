@@ -100,15 +100,15 @@ url: "https://mp.weixin.qq.com/s/sAH35jR1QqIiu09REs1IGQ"
 
 ## 总结：B 端生意的实操心法
 
-![ToB 商业案例汇总分析](../images/pengpai-wanghou-psychological-accounts-to-b-monetization/001.jpg)
+![ToB 商业案例汇总分析](../images/pengpai-wanghou-psychological-accounts-to-b-monetization/001.webp)
 
 1. **给 B 端风险做配套**：将老板的个人焦虑（如丢单风险、合规风险、运营效率低下）转化为公司的标准采购预算。
 2. **切入本来就必须花的预算**：不要试图教育用户去创造全新需求，而是找到企业本就存在、不得不花钱的痛点进行体验与效率升级。
 3. **商业核心在心理账户的重塑**：不造新技能，只找旧本事的新买家；值钱的从来不是资源本身，而是看懂了如何帮客户找到花钱的理由。
 
-![B 端客户心理账户运作逻辑](../images/pengpai-wanghou-psychological-accounts-to-b-monetization/002.jpg)
+![B 端客户心理账户运作逻辑](../images/pengpai-wanghou-psychological-accounts-to-b-monetization/002.webp)
 
-![运营落地与关键技术支持资料](../images/pengpai-wanghou-psychological-accounts-to-b-monetization/003.jpg)
+![运营落地与关键技术支持资料](../images/pengpai-wanghou-psychological-accounts-to-b-monetization/003.webp)
 
 ---
 

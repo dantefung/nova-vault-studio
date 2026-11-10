@@ -17,7 +17,7 @@ coverImage: "../images/nenly-zero-code-100k-indie-game-vibe-coding/001.jpg"
 本文是作者同系列 4 篇长文的第 4 篇，原文只展开了第 8 章「AI 辅助发布与运营」与第 9 章「开发心得」。上方大纲中的第 1–7 章（项目背景、时间线与技术栈、需求澄清、AI Coding、AI 美术、AI 动画、AI 音频）在同系列的前 3 篇中。
 :::
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/002.jpg)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/002.webp)
 
 今年 8 月，我做的第一款单机独立游戏《群侠传：幸存者》在 Steam 上线了，以抢先体验（EA）的形式免费开放。
 
@@ -25,7 +25,7 @@ coverImage: "../images/nenly-zero-code-100k-indie-game-vibe-coding/001.jpg"
 
 这个数据其实远远超出了我当时对它的预期。临近发售时，它的愿望单才堪堪超过 1000 个。一开始，我只是把它当作探索游戏开发和 Vibe Coding 的一个小作业，从没想过会有这么多人玩过它，还愿意给出积极的评价。
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/003.jpg)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/003.webp)
 
 今年 4 月，给这个项目提交第一个 Commit 的时候，我没有任何游戏开发经验，没打开过游戏引擎，甚至一行代码也没写过，是个彻头彻尾的“小白”。但那时的我就想试试看，能不能用现有的这些 AI 工具，把我想要的这个游戏给做出来。
 
@@ -73,13 +73,13 @@ coverImage: "../images/nenly-zero-code-100k-indie-game-vibe-coding/001.jpg"
 
 它就会帮我做完下面这些事情了：
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/004.jpg)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/004.webp)
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/005.png)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/005.webp)
 
 根据我设计的 Skill，它还会自动读取这段时间的 Commit 记录，并汇总成一个新增/修复/变动的清单，给我写公告用。
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/006.png)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/006.webp)
 
 更新公告后面的大长串清单多数时候都是 AI 帮我写的。前面的亮点段落多数时候则会是我自己起草，然后让 AI 来帮我搜集相关素材并润色。
 
@@ -87,7 +87,7 @@ coverImage: "../images/nenly-zero-code-100k-indie-game-vibe-coding/001.jpg"
 
 Steam 游戏的一个很重要的部分是成就。目前我的游戏里一共有 61 个成就。图标就不说了，AI 生成的嘛。但是还有一个很烦人的过程是要把它们上传到 Steam 的后台上。Steam 后台的表单需要填写它们的名字、描述和对应的 API Name。我感觉手填太累了，就直接问 GPT 能不能 Browser-use 给我填了，吃了个饭回来就全搞好了。
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/007.jpg)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/007.webp)
 
 对了，我通过 SteamStats 收集的 1700 多个数据项目也是这样填完的。
 
@@ -99,9 +99,9 @@ Steam 是支持匿名性质的数据聚合收集的，我现在收集的数据�
 
 除了用 AI 辅助我完成了这个收集过程以外，我还让 AI 帮助我去对它们做详细的分析、归档，并且为我提供像这样的阶段性报告。
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/008.jpg)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/008.webp)
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/009.png)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/009.webp)
 
 ### 玩家反馈：收集、归类与迭
 
@@ -113,9 +113,9 @@ Steam 是支持匿名性质的数据聚合收集的，我现在收集的数据�
 
 这些反馈我同样不用一条条去审核。每天 AI 把数据拉下来、去重、聚类，告诉我这个版本可能有什么问题，哪些已经修掉了，哪些还要继续动，我再来拍板。
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/010.png)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/010.webp)
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/011.png)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/011.webp)
 
 其他一些更日常化的工作，可能类似于：玩家在群里说一句话，我复制粘贴给 AI，跟它说：「你评估一下，能做吗？」如果能做，它就会落实到我下一版的更新里。
 
@@ -129,7 +129,7 @@ Steam 是支持匿名性质的数据聚合收集的，我现在收集的数据�
 
 7 月初我在我的社交媒体上第一次发布了这个游戏的宣传片。在那时，我其实并没有看到任何关于这个游戏能受到大家欢迎的信号——评论区里主要都是一些「又多了一个垃圾 AI 游戏」、「浓浓的页游风味」这样的评价，也有人好像并不相信我真的把它做了出来。
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/012.png)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/012.webp)
 
 而我的频道观众似乎也是关注这个游戏本身的制作过程多过想玩这个游戏本身。直到上线前两天，游戏的愿望单才堪堪超过了 1000 个。
 
@@ -149,7 +149,7 @@ Steam 是支持匿名性质的数据聚合收集的，我现在收集的数据�
 
 所以现在回头看，AI 固然会影响玩家对一个游戏的第一印象；但最终一款用 AI 做的游戏可以走多远，玩家愿不愿意留下、愿不愿意给予好的评价，最后还是看游戏好不好玩。
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/013.png)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/013.webp)
 
 ### 人的判断：测试、感受与取舍
 
@@ -161,7 +161,7 @@ Steam 是支持匿名性质的数据聚合收集的，我现在收集的数据�
 
 这些问题，AI 回答不了。最终还是得我作为一个人，去测试、去感受、去拍板。
 
-![](../images/nenly-zero-code-100k-indie-game-vibe-coding/014.jpg)
+![](../images/nenly-zero-code-100k-indie-game-vibe-coding/014.webp)
 
 所以，当 AI 可以帮我们做程序、美术、动画、音乐，甚至承担上架和运营工作时，对一个游戏来说，最重要的是什么呢？
 

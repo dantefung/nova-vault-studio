@@ -20,7 +20,7 @@ url: "https://mp.weixin.qq.com/s/M-1G2TL9V8bTETGZTVPdXw"
 
 多个程序同时运行时，地址冲突导致崩溃或数据篡改。
 
-![](../images/virtual-memory-invention/001.png)
+![](../images/virtual-memory-invention/001.webp)
 
 ## 第三步：地址重定位（Relocation）
 
@@ -34,13 +34,13 @@ url: "https://mp.weixin.qq.com/s/M-1G2TL9V8bTETGZTVPdXw"
 
 给每个程序一套假地址（虚拟地址），操作系统和硬件（MMU）在背后翻译成物理地址。
 
-![](../images/virtual-memory-invention/002.png)
+![](../images/virtual-memory-invention/002.webp)
 
 ## 第六步：分页（Paging）
 
 虚拟和物理空间都切成 4KB 大小的页，页表记录映射关系。
 
-![](../images/virtual-memory-invention/003.png)
+![](../images/virtual-memory-invention/003.webp)
 
 - 程序不需要连续内存
 - 按需加载，不用的页放磁盘
@@ -50,7 +50,7 @@ url: "https://mp.weixin.qq.com/s/M-1G2TL9V8bTETGZTVPdXw"
 
 访问的虚拟页不在物理内存时触发缺页中断，OS 从磁盘加载数据，更新页表，重新执行指令——整个过程对程序透明。
 
-![](../images/virtual-memory-invention/004.png)
+![](../images/virtual-memory-invention/004.webp)
 
 ## 第八步：TLB（快表）
 
@@ -62,7 +62,7 @@ CPU 内部的高速缓存，缓存最近用过的页表条目，解决分页带�
 2. **空间放大**：32 位系统每个进程以为自己有 4GB，64 位更大
 3. **碎片化分配**：虚拟页可映射到散落的物理页
 
-![](../images/virtual-memory-invention/005.png)
+![](../images/virtual-memory-invention/005.webp)
 
 ## 总结
 

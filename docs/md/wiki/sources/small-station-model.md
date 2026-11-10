@@ -17,7 +17,7 @@ url: "https://mp.weixin.qq.com/s/E_qq-KAC--82gRDxTKkPtQ"
 
 > 网站做小即可，又是 8000！
 
-![小站出站截图](../images/small-station-model/001.jpeg)
+![小站出站截图](../images/small-station-model/001.webp)
 
 ## 小站模式五大要点
 

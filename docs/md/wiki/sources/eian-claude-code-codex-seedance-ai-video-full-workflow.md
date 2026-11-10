@@ -31,7 +31,7 @@ coverImage: "../images/eian-claude-code-codex-seedance-ai-video-full-workflow/00
 
 模型之间的分工都是各不相同的，最主要的就是 Claude code，它是总导演，而其他 2 个都接入到 Claude 中，让 Claude 去调用就行。
 
-![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/002.jpg)
+![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/002.webp)
 
 这样设置的一个好处就是全程我就只需要和 Claude 沟通就好，不需要切窗口，或者到处复制粘贴，非常省事，而且效率很高。
 
@@ -56,7 +56,7 @@ coverImage: "../images/eian-claude-code-codex-seedance-ai-video-full-workflow/00
 
 能在图上发现的错，不要留到视频上。
 
-![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/003.jpg)
+![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/003.webp)
 
 我把这种协作模式，写成了完整提示词，做视频前先把这段发给 Claude/codex 就行：
 
@@ -126,7 +126,7 @@ key 在环境变量 ARK_API_KEY 里，不要打印出来。请求格式查火山
 
 特别要注意的是反应要有先后，像几个人同一秒举手这种一看就是模型做的，在现实世界里不可能出现好几个人同时举手，非常不真实。
 
-![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/004.jpg)
+![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/004.webp)
 
 还有些细节也要注意，比如真人吃惊时身体会往后缩这种的。
 
@@ -245,7 +245,7 @@ AI 视频有一些固定的弱点，比如：人物交叉、手拿小东西、�
 
 最简单的办法就是用黄金比例构图法，简单点说勒就是让人的头或者眼睛落在画面从左往右大约 38% 或者 62% 的位置，而不是放在画面正中间。不理解也没是，给你的 AI 说尽量用黄金比例构图就行。
 
-![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/005.jpg)
+![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/005.webp)
 
 2. 6、配色要单独设计
 
@@ -302,7 +302,7 @@ AI 视频有一些固定的弱点，比如：人物交叉、手拿小东西、�
 
 首尾帧就是这个镜头的第一张画面和最后一张画面。
 
-![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/006.jpg)
+![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/006.webp)
 
 这是降低抽卡率最关键的一步。
 
@@ -466,7 +466,7 @@ AI 视频有一些固定的弱点，比如：人物交叉、手拿小东西、�
 
 简单来说就是开四个 agent 一起配合着让 Claude 把导演这个活干好。
 
-![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/007.jpg)
+![](../images/eian-claude-code-codex-seedance-ai-video-full-workflow/007.webp)
 
 分别是下面 4 个：
 

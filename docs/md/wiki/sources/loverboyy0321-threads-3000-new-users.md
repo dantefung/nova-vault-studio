@@ -15,7 +15,7 @@ coverImage: "../images/loverboyy0321-threads-3000-new-users/001.jpg"
 
 不吹牛批，直接上 GA 后台数据展示！
 
-![](../images/loverboyy0321-threads-3000-new-users/002.jpg)
+![](../images/loverboyy0321-threads-3000-new-users/002.webp)
 
 下面我将详细介绍一下如何运营好 threads！
 

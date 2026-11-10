@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/Jiq7jTk347mLrTZrSOSafw"
 
 > 如果说 2025 年的 Agent 基础设施关键词是 Tool、Memory、Skill 和 Harness，那么进入 2026 年后，一个越来越无法绕开的基础设施正在独立出来：**Agent Sandbox**。随着 Google AX、Agent Substrate 以及 DeepSeek DSec 相继公开，智能体计算基础设施的认知正在发生质的跃迁——沙箱不再只是"给 Agent 一台安全的临时电脑"，而是演进为"为海量有状态、长生命周期、频繁休眠与恢复的 Agent，提供一套独立的工作负载编排、状态解耦与弹性计算基础设施"。
 
-![六层架构全景](../images/agent-sandbox-survey/001.jpg)
+![六层架构全景](../images/agent-sandbox-survey/001.webp)
 
 <!-- more -->
 
@@ -62,7 +62,7 @@ url: "https://mp.weixin.qq.com/s/Jiq7jTk347mLrTZrSOSafw"
 
 过去，我们通常把智能体系统粗略地划分为：Agent Runtime → Sandbox Provider → Kubernetes / MicroVM。这种两三层的简易模型在管理几十、几百个单机 Agent 时勉强适用。但在 Google AX、Agent Substrate 以及 DeepSeek DSec 等系统涌现后，更严谨、更具扩展性的分层应当扩展为完整的**六层架构模型**：
 
-![六层架构模型](../images/agent-sandbox-survey/002.jpg)
+![六层架构模型](../images/agent-sandbox-survey/002.webp)
 
 理解这张架构全景图至关重要，因为许多常被拿来对比的项目，在本质上根本不在同一个层级：
 - **Google AX 与 Firecracker 无法直接横向对比**：AX 是第二层的工作负载编排器，而 Firecracker 是第六层的轻量微虚拟机技术；
@@ -175,7 +175,7 @@ DSec 在统一的开发者接口之下，分层提供了四类异构后端：
 
 DSec 的核心突破之一就是：**利用自研的 3FS 高性能分布式存储，将有状态的交互轨迹（Stateful Rollout）与动态可抢占的 GPU 训练彻底解耦。**
 
-![DSec 训练与沙箱解耦](../images/agent-sandbox-survey/003.jpg)
+![DSec 训练与沙箱解耦](../images/agent-sandbox-survey/003.webp)
 
 这与在线 Agent 领域中"Agent Session 会话状态绝不能与具体物理执行进程绑定"的设计准则不谋而合。
 
@@ -262,7 +262,7 @@ BoxLite 在 Linux 上调用 KVM，在 Apple Silicon macOS 上直接调用原生�
 
 为了帮助技术团队拨开选型迷雾，我们将业界最核心的九种方案统一汇总到一张对比矩阵中：
 
-![选型对比矩阵](../images/agent-sandbox-survey/004.jpg)
+![选型对比矩阵](../images/agent-sandbox-survey/004.webp)
 
 | 方案名称 | 核心层级定位 | 最突出技术亮点 | K8s 自建支持度 | 最佳适用场景 |
 |---------|-------------|---------------|---------------|-------------|

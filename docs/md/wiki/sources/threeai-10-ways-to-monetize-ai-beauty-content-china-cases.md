@@ -23,7 +23,7 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 下面整理了 10 种适合中国市场的变现方式，有真实商业案例，也有适合普通人尝试的接单思路。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/002.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/002.webp)
 
 先说明一点：文中涉及的商业数据以公开报道为准，不能把销售额当成净利润，也不代表普通人能获得同样的收入。
 
@@ -37,7 +37,7 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 比如虚拟数字人 AYAYI，曾与 Bose 等品牌合作；虚拟人物翎 LING，也曾与奈雪的茶等品牌联动。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/003.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/003.webp)
 
 这些角色证明了一件事：品牌愿意为有影响力的虚拟人物付广告费。
 
@@ -57,7 +57,7 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 在小红书、抖音发布 AI 美女壁纸，比如甜妹风、古风、氛围感写真、手机锁屏壁纸。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/004.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/004.webp)
 
 免费内容负责吸引用户，高清壁纸包作为商品出售。
 
@@ -87,7 +87,7 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 但要处理好人物相似度、修图、修改次数以及交付时间。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/005.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/005.webp)
 
 ## 4. 帮淘宝、拼多多商家制作 AI 美女模特图
 
@@ -109,11 +109,11 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 不过，服装颜色、版型、面料和细节必须准确，不能让 AI 把商品本身改掉。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/006.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/006.webp)
 
 ## 5. 把 AI 美女做成虚拟 IP，接企业宣传合作
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/007.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/007.webp)
 
 国内的虚拟数字人「柳夜熙」就是一个典型案例。
 
@@ -145,7 +145,7 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 在小红书发布效果图和免费教学，用合法合规的知识付费渠道销售完整教程或提供教学服务。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/008.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/008.webp)
 
 相比单纯出售图片，教程卖的是一套可以重复使用的方法。
 
@@ -167,7 +167,7 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 更适合把它当作展示作品、积累履历的机会。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/009.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/009.webp)
 
 ## 8. 帮抖音、小红书博主制作美女视频素材
 
@@ -187,11 +187,11 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 这条路比静态图片复杂，因为人物一致性、动作自然度和视频剪辑都会影响交付质量。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/010.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/010.webp)
 
 ## 9. 给线下商家制作 AI 美女宣传海报
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/011.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/011.webp)
 
 很多本地商家同样需要人物宣传图。
 
@@ -229,7 +229,7 @@ coverImage: "../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases
 
 尤其要注意原创性和商用授权，不能拿现成的动漫角色或者别人的作品直接生成商品出售。
 
-![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/012.jpg)
+![](../images/threeai-10-ways-to-monetize-ai-beauty-content-china-cases/012.webp)
 
 ## 普通人最适合从哪里开始？
 

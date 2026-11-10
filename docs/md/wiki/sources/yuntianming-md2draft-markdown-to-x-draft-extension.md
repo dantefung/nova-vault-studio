@@ -13,7 +13,7 @@ coverImage: "../images/yuntianming-md2draft-markdown-to-x-draft-extension/001.jp
 
 <!-- more -->
 
-![MD2DRAFT 封面：Markdown 文档流向 X 草稿](../images/yuntianming-md2draft-markdown-to-x-draft-extension/002.jpg)
+![MD2DRAFT 封面：Markdown 文档流向 X 草稿](../images/yuntianming-md2draft-markdown-to-x-draft-extension/002.webp)
 
 这篇是我自己从「手搬」到「一键注入」的过程记录。
 
@@ -31,7 +31,7 @@ MD2DRAFT 是一个 Chrome 扩展，打开方式是侧边栏。
 
 你可以把它理解成一个「排版搬运工」：你写好内容，它负责搬，搬完还站在原地等你检查。
 
-![MD2DRAFT 侧栏主界面](../images/yuntianming-md2draft-markdown-to-x-draft-extension/003.jpg)
+![MD2DRAFT 侧栏主界面](../images/yuntianming-md2draft-markdown-to-x-draft-extension/003.webp)
 
 上图就是全部入口了。侧栏顶部三个按钮——Thread、Article、自检，下面一大块 Markdown 输入区。
 
@@ -74,7 +74,7 @@ MD2DRAFT 的规则非常克制：
 
 分段边界由你决定，工具只负责算字和提醒。
 
-![分段预览与逐段字数](../images/yuntianming-md2draft-markdown-to-x-draft-extension/004.jpg)
+![分段预览与逐段字数](../images/yuntianming-md2draft-markdown-to-x-draft-extension/004.webp)
 
 粘贴完点「按分段规则导入」，就得到上面这张图：
 
@@ -128,7 +128,7 @@ MD2DRAFT 的处理方式是分两层：
 
 解析完先给你一张「结构清单」：
 
-![Article 结构预览](../images/yuntianming-md2draft-markdown-to-x-draft-extension/005.jpg)
+![Article 结构预览](../images/yuntianming-md2draft-markdown-to-x-draft-extension/005.webp)
 
 「2 标题 · 6 列表项 · 1 引用 · 0 代码块」——
 
@@ -154,7 +154,7 @@ MD2DRAFT 的图片逻辑是：跟着 Markdown 走。
 
 你在哪一段写了图片语法 `! [说明](地址)`，图片就落在哪一段。
 
-![图片抓取与分段配图](../images/yuntianming-md2draft-markdown-to-x-draft-extension/006.jpg)
+![图片抓取与分段配图](../images/yuntianming-md2draft-markdown-to-x-draft-extension/006.webp)
 
 它会做这几件事：
 
@@ -182,7 +182,7 @@ MD2DRAFT 的图片逻辑是：跟着 Markdown 走。
 
 Article 模式给了两条路：
 
-![Article 注入路线与保真报告](../images/yuntianming-md2draft-markdown-to-x-draft-extension/007.jpg)
+![Article 注入路线与保真报告](../images/yuntianming-md2draft-markdown-to-x-draft-extension/007.webp)
 
 🛣️ Draft 直写（推荐）
 
@@ -210,7 +210,7 @@ Article 模式给了两条路：
 
 注入完成后，它停在那儿，等你自己点发布。
 
-![注入草稿后提示手动发布](../images/yuntianming-md2draft-markdown-to-x-draft-extension/008.jpg)
+![注入草稿后提示手动发布](../images/yuntianming-md2draft-markdown-to-x-draft-extension/008.webp)
 
 上图是侧栏的完成提示：「已注入 4 段。请在页面上确认内容后手动发布。」
 
@@ -232,7 +232,7 @@ Article 模式给了两条路：
 
 字还是在 Obsidian 里敲，大纲还是在备忘录里列。
 
-![接入 Obsidian 写作流](../images/yuntianming-md2draft-markdown-to-x-draft-extension/009.jpg)
+![接入 Obsidian 写作流](../images/yuntianming-md2draft-markdown-to-x-draft-extension/009.webp)
 
 所以我用它的方式很朴素：
 
@@ -256,7 +256,7 @@ Markdown 是唯一真相，X 草稿随时可以重建。两边不同步这种事
 
 现在侧栏顶部两个按钮，点一下就切：
 
-![双模式切换与 Article 解析](../images/yuntianming-md2draft-markdown-to-x-draft-extension/010.jpg)
+![双模式切换与 Article 解析](../images/yuntianming-md2draft-markdown-to-x-draft-extension/010.webp)
 
 正文一个字都不用重写。
 
@@ -274,7 +274,7 @@ Markdown 是唯一真相，X 草稿随时可以重建。两边不同步这种事
 
 表面看着填好了，实际已经少了一段。
 
-![多段预览与逐段字数](../images/yuntianming-md2draft-markdown-to-x-draft-extension/011.jpg)
+![多段预览与逐段字数](../images/yuntianming-md2draft-markdown-to-x-draft-extension/011.webp)
 
 八段内容，一次导入，全部摊开：每段字数、上下移、删除，一屏看清。
 
@@ -286,7 +286,7 @@ Markdown 是唯一真相，X 草稿随时可以重建。两边不同步这种事
 
 有一次我重复点了注入，侧栏立刻弹了个选择框：
 
-![输入框已有内容时的三个选项](../images/yuntianming-md2draft-markdown-to-x-draft-extension/012.jpg)
+![输入框已有内容时的三个选项](../images/yuntianming-md2draft-markdown-to-x-draft-extension/012.webp)
 
 「继续追加 / 清空并重填 / 取消」——
 
@@ -317,7 +317,7 @@ Markdown 是唯一真相，X 草稿随时可以重建。两边不同步这种事
 
 我不想把这段写成广告，所以只说事实。
 
-![Pro 授权与激活面板](../images/yuntianming-md2draft-markdown-to-x-draft-extension/013.jpg)
+![Pro 授权与激活面板](../images/yuntianming-md2draft-markdown-to-x-draft-extension/013.webp)
 
 现在 Pro 真实提供的是两件事：
 
@@ -388,7 +388,7 @@ Article：需 X Premium → 粘贴/导入 → 解析并预览 → 选路线 → 
 - 微信群：扫码添加客服微信，发送：md2draft 进群
 - Telegram 群：扫描二维码加入
 
-![请扫描二维码](../images/yuntianming-md2draft-markdown-to-x-draft-extension/014.jpg)
+![请扫描二维码](../images/yuntianming-md2draft-markdown-to-x-draft-extension/014.webp)
 
 官网：https://www.md2draft.com/
 

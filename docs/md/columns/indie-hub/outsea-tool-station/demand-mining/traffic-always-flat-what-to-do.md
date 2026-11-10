@@ -27,31 +27,31 @@ url: "https://mp.weixin.qq.com/s/MiIqOBPCgVKp7fhr4tGyYQ"
 
 先给大家看两个我去年上线的出海工具站的GSC走势图：
 
-![image](./images/traffic-always-flat-what-to-do/001.png)
+![image](images/traffic-always-flat-what-to-do/001.webp)
 
-![image](./images/traffic-always-flat-what-to-do/002.png)
+![image](images/traffic-always-flat-what-to-do/002.webp)
 
 几乎“躺平”了！
 
 再给大家看同一时期上的另外两个出海工具站的GSC走势图：
 
-![image](./images/traffic-always-flat-what-to-do/003.png)
+![image](images/traffic-always-flat-what-to-do/003.webp)
 
-![image](./images/traffic-always-flat-what-to-do/004.png)
+![image](images/traffic-always-flat-what-to-do/004.webp)
 
 虽然不温不火，但至少没有“躺平”，而且还挺稳定的。
 
 实际上，这4个网站都只有首页1个页面，再加上一个隐私协议页面，都很佛系地上了一些外链，但为什么会有这么大的区别？答案就在“关键词难度”上。
 
-![image](./images/traffic-always-flat-what-to-do/005.png)
+![image](images/traffic-always-flat-what-to-do/005.webp)
 
-![image](./images/traffic-always-flat-what-to-do/006.png)
+![image](images/traffic-always-flat-what-to-do/006.webp)
 
 在Ahref的Keyword Difficulty Checker上可以看到这两个关键词的难度都非常低，而实际上这两个词在谷歌趋势的搜索量也不大：
 
-![image](./images/traffic-always-flat-what-to-do/007.png)
+![image](images/traffic-always-flat-what-to-do/007.webp)
 
-![image](./images/traffic-always-flat-what-to-do/008.png)
+![image](images/traffic-always-flat-what-to-do/008.webp)
 
 在讲怎样分析关键词难度之前，大家可以先回顾一下哥飞在2023和2024年发布的几篇文章：
 
@@ -67,11 +67,11 @@ url: "https://mp.weixin.qq.com/s/MiIqOBPCgVKp7fhr4tGyYQ"
 
 先看看关键词的搜索量：
 
-![image](./images/traffic-always-flat-what-to-do/009.png)
+![image](images/traffic-always-flat-what-to-do/009.webp)
 
-![image](./images/traffic-always-flat-what-to-do/010.png)
+![image](images/traffic-always-flat-what-to-do/010.webp)
 
-![image](./images/traffic-always-flat-what-to-do/011.png)
+![image](images/traffic-always-flat-what-to-do/011.webp)
 
 这是谷歌趋势、Semrush和SimilarWeb显示的关键词流量情况。
 
@@ -79,7 +79,7 @@ url: "https://mp.weixin.qq.com/s/MiIqOBPCgVKp7fhr4tGyYQ"
 
 接下来看看关键词的难度：
 
-![image](./images/traffic-always-flat-what-to-do/012.png)
+![image](images/traffic-always-flat-what-to-do/012.webp)
 
 在Ahref的Keyword Difficulty Checker：
 
@@ -93,21 +93,21 @@ https://ahrefs.com/keyword-difficulty/
 
 我们在通过SimilarWeb的“关键词生成器”和Semrush的“关键词魔法工具”查看一下：
 
-![image](./images/traffic-always-flat-what-to-do/013.png)
+![image](images/traffic-always-flat-what-to-do/013.webp)
 
-![image](./images/traffic-always-flat-what-to-do/014.png)
+![image](images/traffic-always-flat-what-to-do/014.webp)
 
 这两个分析工具显示的“Shopify Theme”这个词的难度更大，但是，我们同时发现一个词“shopify theme detector”在SimilarWeb和Semrush中的难度都在30以内，并且也有一定搜索量。
 
 我们查看一下谷歌趋势和Keyword Difficulty Checker
 
-![image](./images/traffic-always-flat-what-to-do/015.png)
+![image](images/traffic-always-flat-what-to-do/015.webp)
 
-![image](./images/traffic-always-flat-what-to-do/016.png)
+![image](images/traffic-always-flat-what-to-do/016.webp)
 
 没想到关键词难度只有8，预估只需要9个外链就能做到谷歌的前十。排在第2位和第3位的都是网站内页，排在第4位的是一个谷歌插件，而排在第一位的是一个网站主页：
 
-![image](./images/traffic-always-flat-what-to-do/017.png)
+![image](images/traffic-always-flat-what-to-do/017.webp)
 
 打开可以看到这个网站主要功能就是帮助用户查看Shopify网站使用了什么模板，每个月竟然有15万月访客，令人吃惊！
 

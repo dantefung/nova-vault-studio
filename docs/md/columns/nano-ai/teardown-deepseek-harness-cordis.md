@@ -97,7 +97,7 @@ Cordis 要解决的就是这四件事。
 
 
 
-![Cordis：一块插件主板](images/teardown-deepseek-harness-cordis/001.png)
+![Cordis：一块插件主板](images/teardown-deepseek-harness-cordis/001.webp)
 
 
 

@@ -27,7 +27,7 @@ DSH 的运行实例不是一组写死的模块，而是从空的 Cordis entry �
 | **Agent 控制层** | Session、System Prompt、Tool Runtime、LLM Runtime、Agent Registry 与 Loop |
 | **能力生态层** | 模型、文件系统、Shell、沙箱、技能、子 Agent、工作流、存储、调度、UI 等 |
 
-![DSH 平台四层架构图](../images/deepseek-harness-plugin-architecture-deep-dive/001.png)
+![DSH 平台四层架构图](../images/deepseek-harness-plugin-architecture-deep-dive/001.webp)
 
 ## 二、Cordis 插件运行机制
 
@@ -52,7 +52,7 @@ Service 适合直接调用，Event 适合观察、拦截和组合策略。分发
 
 关键扩展点：`agent/pre-step`（改写或拒绝输入）、`agent/request`（模型调用前调整）、`llm/stream`（包装流式响应）、`tools/pre-execute`（执行前决策）、`tools/execute`（超时/追踪包装）、`tools/post-execute`（检查或替换结果）、`agent/turn-stopping`（收尾）。
 
-![DSH 事件系统与插件扩展点](../images/deepseek-harness-plugin-architecture-deep-dive/002.png)
+![DSH 事件系统与插件扩展点](../images/deepseek-harness-plugin-architecture-deep-dive/002.webp)
 
 ### 4. Effect 让注册天然可卸载
 
@@ -64,7 +64,7 @@ Cordis 将"注册"视为 Effect。`ctx.on()`、注册表的 `register()` 以及 
 
 一次 Turn 包含零个或多个 Step。Step 表示一次模型请求及其产生的工具调用。Agent 输入进入统一 Inbox，Driver 从 Inbox 领取输入，执行 `agent/pre-step` 后进入 Step。System Prompt 收集插件注册的提示词 Section 与工具 Schema，Session 根据事件日志投影模型历史，LLM Runtime 选择 Provider 和 Model，工具结果提交后 Loop 继续下一个 Step 或停止。
 
-![DSH Agent Loop Turn/Step 生命周期](../images/deepseek-harness-plugin-architecture-deep-dive/003.png)
+![DSH Agent Loop Turn/Step 生命周期](../images/deepseek-harness-plugin-architecture-deep-dive/003.webp)
 
 ### 2. "模型可见即日志可重建"
 
@@ -118,4 +118,4 @@ DSH 的插件系统解决的不是"如何多注册几个工具"，而是**让 Ag
 
 新增行为应挂到公开 Service 或 Event 上，新增执行环境应提供完整 Provider，新增模型可见输入应形成 Session Event——只要这些约束保持成立，DSH 就能在能力不断演进的同时维持可替换、可追踪、可回放和可治理的运行基础。
 
-![DSH 核心能力生态总览图](../images/deepseek-harness-plugin-architecture-deep-dive/004.png)
+![DSH 核心能力生态总览图](../images/deepseek-harness-plugin-architecture-deep-dive/004.webp)

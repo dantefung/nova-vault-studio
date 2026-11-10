@@ -35,7 +35,7 @@ url: "https://mp.weixin.qq.com/s/d3y3W-01xIjACDZ7f6Q8dg"
 
 那我们就把这场分歧摆开：到底是本体论重要，还是把 API 封装成一个语义清晰的 MCP Server 更重要？
 
-![image](juepen-crm-s2e7/images/001.jpg)
+![image](juepen-crm-s2e7/images/001.webp)
 
 ## 二、先把老登那边的理由说到满
 
@@ -67,7 +67,7 @@ url: "https://mp.weixin.qq.com/s/d3y3W-01xIjACDZ7f6Q8dg"
 
 然后我把它的答案跟数据库对了一遍。
 
-![image](juepen-crm-s2e7/images/002.jpg)
+![image](juepen-crm-s2e7/images/002.webp)
 
 ## 四、它没答错，它只是没告诉我它看不见
 
@@ -149,7 +149,7 @@ Palantir 那套本体论的核心结构是三样：对象（Object）、链接�
 
 而 agent 走不通的时候，它不会说"这条路断了"，它会停在第一跳，把中间结果当答案端给你。又是同一种失败方式。
 
-![image](juepen-crm-s2e7/images/003.jpg)
+![image](juepen-crm-s2e7/images/003.webp)
 
 ## 七、那到底谁更重要
 

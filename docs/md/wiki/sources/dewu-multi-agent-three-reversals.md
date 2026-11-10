@@ -13,7 +13,7 @@ url: "https://mp.weixin.qq.com/s/C9A9ZEw_EPPaFyxhKjD05A"
 
 <!-- more -->
 
-![文章目录与总览](../images/dewu-multi-agent-three-reversals/001.png)
+![文章目录与总览](../images/dewu-multi-agent-three-reversals/001.webp)
 
 ## 目录
 
@@ -43,7 +43,7 @@ url: "https://mp.weixin.qq.com/s/C9A9ZEw_EPPaFyxhKjD05A"
 
 这四个问题最终都指向同一件事：**系统里的控制权究竟放在哪里。** 沿着控制权的变化往下看，Master Agent、任务看板和 Advisor 正好构成一条逐步反转的路径。不过，在比较三种架构之前，还需要先划清两个经常被忽略的设计边界。
 
-![引言：控制权问题](../images/dewu-multi-agent-three-reversals/002.png)
+![引言：控制权问题](../images/dewu-multi-agent-three-reversals/002.webp)
 
 ---
 
@@ -57,7 +57,7 @@ url: "https://mp.weixin.qq.com/s/C9A9ZEw_EPPaFyxhKjD05A"
 
 这也是为什么“代码分析 Agent”“数据探索 Agent”往往比“后端 Agent”“数据库 Agent”更实用：**前者描述了上下文和产出的边界，后者只是一个容易被提示词放大的职业想象。**
 
-![上下文边界与信息压缩边界](../images/dewu-multi-agent-three-reversals/003.png)
+![上下文边界与信息压缩边界](../images/dewu-multi-agent-three-reversals/003.webp)
 
 ### 2.2 模型边界
 
@@ -69,7 +69,7 @@ url: "https://mp.weixin.qq.com/s/C9A9ZEw_EPPaFyxhKjD05A"
 
 上下文边界决定每个 Agent 应该看见什么，模型边界决定每一步值得投入多少能力。划清这两个边界之后，接下来的问题才是：这些 Agent 到底由谁组织，又由谁决定下一步。
 
-![模型边界：大小模型分工](../images/dewu-multi-agent-three-reversals/004.png)
+![模型边界：大小模型分工](../images/dewu-multi-agent-three-reversals/004.webp)
 
 ---
 
@@ -81,7 +81,7 @@ url: "https://mp.weixin.qq.com/s/C9A9ZEw_EPPaFyxhKjD05A"
 
 例如，一项“调研并撰写技术报告”的工作，可以先由 Research Agent 搜集资料，再由 Analyst Agent 提炼观点，最后交给 Writer Agent 组织文章。每个 Worker Agent 都只需要做好自己的局部工作，整个流程由 Master Agent 负责串起来。
 
-![Master Agent 调度模式](../images/dewu-multi-agent-three-reversals/005.png)
+![Master Agent 调度模式](../images/dewu-multi-agent-three-reversals/005.webp)
 
 Master Agent 模式的优势在于控制流非常清楚。谁先执行、谁后执行、哪些结果要传给下一个 Agent，都可以在一个地方观察和修改。权限、预算、超时和失败处理也更容易集中管理。对于流程固定、依赖明确的任务，这种确定性很有价值。
 
@@ -97,7 +97,7 @@ Master Agent 模式的优势在于控制流非常清楚。谁先执行、谁后�
 
 这是一种重要的反转：**调度不再表现为“Master Agent 发出命令”，而表现为“共享状态暴露机会”。** Agent 根据自己的能力和当前状态做出选择，完成任务后再更新看板，新的状态又会让后续任务变得可执行。
 
-![任务看板：共享状态暴露机会](../images/dewu-multi-agent-three-reversals/006.png)
+![任务看板：共享状态暴露机会](../images/dewu-multi-agent-three-reversals/006.webp)
 
 如果只是把任务写进数据库，再让 Agent 定时读取，系统并不会自动变得可靠。**真正的难点在于协作协议**：两个 Agent 同时看到同一个任务时，谁能领取；领取任务的 Agent 崩溃后，任务怎样回收；一个任务完成后，怎样解除下游依赖；重复执行时，结果怎样保持幂等。
 
@@ -115,7 +115,7 @@ Master Agent 模式的优势在于控制流非常清楚。谁先执行、谁后�
 
 **Advisor 不负责接管任务，也不负责替执行 Agent 调用工具。** 它提供的是第二意见：可以是安全评估、架构审查、领域知识补充，也可以是对当前计划的反驳。最终是否采纳建议，仍然由执行 Agent 决定。
 
-![Advisor：按需咨询](../images/dewu-multi-agent-three-reversals/007.png)
+![Advisor：按需咨询](../images/dewu-multi-agent-three-reversals/007.webp)
 
 Advisor 模式的方向和 Master Agent 模式正好相反。**Master Agent 是中心节点调用 Worker Agent；Advisor 是执行节点调用咨询者。** 这个变化看起来只是一次工具调用，实际上改变了系统的责任边界：执行 Agent 保持完整上下文和主流程，Advisor 只在局部决策上提供额外认知。
 
@@ -131,7 +131,7 @@ Advisor 模式的方向和 Master Agent 模式正好相反。**Master Agent 是�
 
 把三种架构放在一起，最清楚的不是组件数量，而是**控制权的变化**。
 
-![三种架构的控制权对比](../images/dewu-multi-agent-three-reversals/008.png)
+![三种架构的控制权对比](../images/dewu-multi-agent-three-reversals/008.webp)
 
 可以把它们理解成**三种不同的组织哲学**：
 
@@ -139,7 +139,7 @@ Advisor 模式的方向和 Master Agent 模式正好相反。**Master Agent 是�
 - **任务看板** 会说：“你看看现在什么任务可以做。”
 - **Advisor** 则会说：“你自己推进，需要时我给你建议。”
 
-![三种组织哲学对比](../images/dewu-multi-agent-three-reversals/009.png)
+![三种组织哲学对比](../images/dewu-multi-agent-three-reversals/009.webp)
 
 ---
 
@@ -161,7 +161,7 @@ Advisor 模式的方向和 Master Agent 模式正好相反。**Master Agent 是�
 
 这里把入口的中心职责**限定在组件级路由**：Master Agent 不逐个跟踪分析批次，组件内的规划、证据汇总和完整性检查由 Inspector Agent 承担。组件报告返回后，Master Agent 保持各组件的事实边界，整理最终结果。下层指标、工具和分组策略的变化，都可以留在组件巡检单元内。
 
-![Master Agent 只做组件级路由](../images/dewu-multi-agent-three-reversals/010.png)
+![Master Agent 只做组件级路由](../images/dewu-multi-agent-three-reversals/010.webp)
 
 ### 5.3 任务看板：并行与自愈
 
@@ -173,7 +173,7 @@ Worker Agent 调用**确定性统计工具**计算峰值、阈值超限和已观
 
 Inspector Agent 最终核对任务覆盖范围，并区分**当前异常、窗口内已恢复和数据不足**。达到总体截止时间仍未完成的范围，会作为限制写进报告；**没有数据的目标也会明确标注，避免形成“没有发现异常，所以一切正常”的误判。**
 
-![任务看板：并行领取、租约回收与幂等提交](../images/dewu-multi-agent-three-reversals/011.png)
+![任务看板：并行领取、租约回收与幂等提交](../images/dewu-multi-agent-three-reversals/011.webp)
 
 ### 5.4 Advisor：按需咨询
 

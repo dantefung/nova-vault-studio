@@ -33,7 +33,7 @@ url: "https://mp.weixin.qq.com/s/WnivPDkvfGF2z5a-kA9HHQ"
 
 落地页追求最短成交路径；博客和目录站积累可被搜索与 AI 问答持续引用的内容资产；SaaS 则把高频痛点封装为可订阅功能。形态不同，仍然服务于同一个闭环。
 
-![出海网站的视觉与交互示例](../images/chengge-800-prompts-ai-website-pipeline/001.png)
+![出海网站的视觉与交互示例](../images/chengge-800-prompts-ai-website-pipeline/001.webp)
 
 ## 赛道选择的三个约束
 
@@ -63,7 +63,7 @@ url: "https://mp.weixin.qq.com/s/WnivPDkvfGF2z5a-kA9HHQ"
 
 至少跑通埋点、表单、支付中的一条完整路径。上线后先观察三个指标：首屏跳出、CTA 点击、下单或提交完成。真实数据比继续主观改 UI 更能决定下一轮迭代。
 
-![AI 建站从提示到可运行页面的执行现场](../images/chengge-800-prompts-ai-website-pipeline/002.png)
+![AI 建站从提示到可运行页面的执行现场](../images/chengge-800-prompts-ai-website-pipeline/002.webp)
 
 ## 最小质量门
 

@@ -64,13 +64,13 @@ url: "https://mp.weixin.qq.com/s/XyoqER2ZpdvWDvO4BL6QsQ"
 
 ## 配图
 
-![封面](../images/codex-creativity-workflow/001.jpeg)
-![品牌视觉](../images/codex-creativity-workflow/003.png)
-![信息美学家品牌升级](../images/codex-creativity-workflow/007.png)
-![微信读书 Skill](../images/codex-creativity-workflow/015.png)
-![Notion 周计划](../images/codex-creativity-workflow/017.png)
-![Cubox CLI](../images/codex-creativity-workflow/021.png)
-![趣事数据库](../images/codex-creativity-workflow/023.png)
-![品牌 Skill Hub](../images/codex-creativity-workflow/031.png)
-![Markdown Agent](../images/codex-creativity-workflow/032.png)
-![Agent 驱动企业进化](../images/codex-creativity-workflow/038.png)
+![封面](../images/codex-creativity-workflow/001.webp)
+![品牌视觉](../images/codex-creativity-workflow/003.webp)
+![信息美学家品牌升级](../images/codex-creativity-workflow/007.webp)
+![微信读书 Skill](../images/codex-creativity-workflow/015.webp)
+![Notion 周计划](../images/codex-creativity-workflow/017.webp)
+![Cubox CLI](../images/codex-creativity-workflow/021.webp)
+![趣事数据库](../images/codex-creativity-workflow/023.webp)
+![品牌 Skill Hub](../images/codex-creativity-workflow/031.webp)
+![Markdown Agent](../images/codex-creativity-workflow/032.webp)
+![Agent 驱动企业进化](../images/codex-creativity-workflow/038.webp)

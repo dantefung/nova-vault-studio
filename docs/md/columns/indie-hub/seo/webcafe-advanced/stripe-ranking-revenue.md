@@ -42,7 +42,7 @@ url: "https://new.web.cafe/tutorial/detail/stripe-ranking-revenue"
 
 [https://www.toolify.ai/Best-AI-Tools-revenue](https://www.toolify.ai/Best-AI-Tools-revenue)
 
-![ddd004519d77b92e5426852bd964ea31\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_001.png)
+![ddd004519d77b92e5426852bd964ea31\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_001.webp)
 
 注意这里虽然第一眼看起来是按照流量排序的，好像跟收入没关系，但其实只是因为一般来讲流量越大收入越高，所以前面一些产品刚好流量排名和收入排名重合了。
 
@@ -60,23 +60,23 @@ url: "https://new.web.cafe/tutorial/detail/stripe-ranking-revenue"
 
 我们拿 ChatGPT 网站升级 Plus 套餐为例。
 
-![286329d63d8a011fee5dba7ff28b9f8b\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_002.png) 当我们点击“Upgrade to Plus”按钮后，会打开下面的页面： ![5cc80fb3dca243962ef46e0d77b64c99\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_003.png)
+![286329d63d8a011fee5dba7ff28b9f8b\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_002.webp) 当我们点击“Upgrade to Plus”按钮后，会打开下面的页面： ![5cc80fb3dca243962ef46e0d77b64c99\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_003.webp)
 
 可以看到，虽然打开的网页域名是 pay.openai.com ，但从左下角的“Powered by Stripe”可以知道，这其实是 Stripe 的页面。
 
-![b8959041139fca8680b2ad4fb7ad87d2\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_004.png)
+![b8959041139fca8680b2ad4fb7ad87d2\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_004.webp)
 
 会显示为 pay.openai.com 是因为 OpenAI 在 Stripe 后台绑定了自定义域名。
 
 那么根据 pay.openai.com 这个域名的访问量，就可以算出 ChatGPT 的订单数量。
 
-![a55beef115e5be8672d9ce28e953ca70\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_005.png)
+![a55beef115e5be8672d9ce28e953ca70\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_005.webp)
 
 在 Similarweb 可以查到这个域名的 3 月访问量是 658 万，其中有 450 万来自于外部链接。
 
-![145c6f7f33ff8b36cac1c2bc6cad38b0\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_006.png)
+![145c6f7f33ff8b36cac1c2bc6cad38b0\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_006.webp)
 
-![7f29aca4579827202143c639c627944e\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_007.png)
+![7f29aca4579827202143c639c627944e\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_007.webp)
 
 而外部链接里 99.9%流量都来自于 chat.openai.com ，所以我们就可以假设收银台页面在 3 月总共被打开了 450 万次，我们假设打开一次就是一个订单，也就是有 450 万个订单。
 
@@ -94,7 +94,7 @@ ChatGPT 的实际支付成功率估计不止 20%，具体多少，哥飞也不�
 
 这时候其实也是有办法的，观察会发现，点击支付后打开的 Stripe 收银台地址是 checkout.stripe.com ，那我们就可以去看 checkout.stripe.com 的流量。
 
-![4dadcba90e6ba09cf2ef7fccaab0d4d1\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_008.png)
+![4dadcba90e6ba09cf2ef7fccaab0d4d1\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_008.webp)
 
 可以看到这个域名每个月的访问量在两三千万，也就是说，所有接入了 Stripe支付但没有设置自定义域名的网站，一共每个月有两三千万个订单。
 
@@ -102,19 +102,19 @@ ChatGPT 的实际支付成功率估计不止 20%，具体多少，哥飞也不�
 
 刚才我们说明，在接入了 Stripe支付的网站点击就会打开 Stripe的收银台页面，这个时候，【接入了 Stripe支付的网站】就是【Stripe收银台网站】的【外部链接网站】，所以就可以在 Similarweb 的热门外链网站模块看到每一个网站的数据。
 
-![5c84f261312c1be76380f6862b88430c\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_009.png)
+![5c84f261312c1be76380f6862b88430c\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_009.webp)
 
 点击右下角链接，打开新页面，我们就得到了订单排行榜。
 
-![d49dc1a13163384d7ff200155003600b\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_010.png)
+![d49dc1a13163384d7ff200155003600b\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_010.webp)
 
 举例，上面是 3 月份的订单数量排行榜，排名第一的是 roblox.com ，是一个套了元宇宙概念的类 4399 网站，上面有很多各种各样的小游戏，3 月的网站访问量是 6.669 亿，其中订单量是 140 万，具体支付成功率哥飞没去估算，反正也不是 AI产品，我们就跳过。
 
-![6e9b695453262751bec8d1e29f03f69e\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_011.png)
+![6e9b695453262751bec8d1e29f03f69e\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_011.webp)
 
 再看第二个产品 Midjourney 就是典型的 AI产品了，3 月份订单数量约为 67 万个。
 
-![c1309592c8dd7fe450558622df07ca78\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_012.png)
+![c1309592c8dd7fe450558622df07ca78\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_012.webp)
 
 Midjourney 提供这么多套餐，我们假设平均每个订单 25 美元，假设支付成功率是 40%，那么算下来月收入是 67_25_0.4=670 万美元。
 
@@ -140,7 +140,7 @@ Midjourney 提供这么多套餐，我们假设平均每个订单 25 美元，�
 
 [https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue](https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue)
 
-![d33fa823579f4ba7c9dc1a70e57b186c\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_013.png)
+![d33fa823579f4ba7c9dc1a70e57b186c\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_013.webp)
 
 总结一下，我们可以通过 Toolify 和 IndieHackers 的排行榜直接看目前正在赚钱的 AI产品，也可以通过在 Similarweb 看 Stripe 收银台的流量数据来估算其它一些 AI产品的收入。
 
@@ -150,31 +150,31 @@ Midjourney 提供这么多套餐，我们假设平均每个订单 25 美元，�
 
 先看 Jenni AI ，这是一个 AI写作类产品，更准确地说是帮你写论文，写文献综述等各种各样内容的 AI产品。
 
-![5971cb300bc7cc7326b623e0d8ab9273\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_014.png)
+![5971cb300bc7cc7326b623e0d8ab9273\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_014.webp)
 
 论文写作，这个是用户付费意愿比较强的需求。
 
 从流量角度看，过去一年流量没有特别大的变化，一直在一百多万徘徊。
 
-![4ce653e8674bed7662ae7382d173b905\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_015.png)
+![4ce653e8674bed7662ae7382d173b905\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_015.webp)
 
-![271269ed2fea5e2ce712546390b3f557\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_016.png)
+![271269ed2fea5e2ce712546390b3f557\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_016.webp)
 
 28.9%流量来自于自然搜索，也就是通过 SEO，从各个搜索引擎免费获取的流量。约 10%流量来自于付费广告，7.1%来自于社交媒体分享，3.9%来自于外部链接，剩下还有 49.4%来自于直接访问，说明这个网站的留存不错。
 
-![794d957fd06eb286c0dec82a31ad3b5f\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_017.png)
+![794d957fd06eb286c0dec82a31ad3b5f\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_017.webp)
 
 按照刚才介绍的方法，我们可以看到，最近 12 个月， Jenni AI 跳转到 Stripe 的访问量是 13.18 万，也就是过去 12 个月产生了这么多个订单。
 
 因为 IndieHackers 上显示的是 Mrr ，也就是月度经常性收入，所以我们先看下 3 月的新增订单数量是 3.73 万，假设支付成功率是 10%，那么就有 3730 个成功支付订单。
 
-![d7ccdc525b3ec8d088a5309436ab7217\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_018.png)
+![d7ccdc525b3ec8d088a5309436ab7217\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_018.webp)
 
-![927905cc44a786a037521a2cff6d243a\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_019.png)
+![927905cc44a786a037521a2cff6d243a\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_019.webp)
 
 再看下 Jenni AI 的套餐是单月 20 美元，如果一次性支付 12 个月，就能优惠 40%，只需要 12 美元一个月，算下来就是要支付 144 美元。 这里我们假设全部人都选择了年付套餐，那么新增收入就是 3730\*144=537K。
 
-![ab72b5f6ced599f26e8498e63763a2f8\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_020.png)
+![ab72b5f6ced599f26e8498e63763a2f8\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_020.webp)
 
 而 IndieHackers 上面显示的收入是 574K，看起来，猜对了？
 
@@ -192,7 +192,7 @@ Midjourney 提供这么多套餐，我们假设平均每个订单 25 美元，�
 
 但我们今天只是跟大家分享这个方法，所以就大胆假设了。
 
-![11a6c536e3acbad68fb2aa880f4a1db7\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_021.png)
+![11a6c536e3acbad68fb2aa880f4a1db7\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_021.webp)
 
 好了，我们再去看看广告投入，基于 Similarweb估算的数据，3 月 Jenni AI 的搜索广告投入是 9 万美元左右。
 
@@ -202,7 +202,7 @@ Midjourney 提供这么多套餐，我们假设平均每个订单 25 美元，�
 
 这部分流量完全不花钱，只要做好了 SEO就能够得到，可以理解为是谷歌的馈赠。
 
-![4e99bfea069453444daae582d1cdd506\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_022.png)
+![4e99bfea069453444daae582d1cdd506\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_022.webp)
 
 Jenni AI 还有 7.1% 流量来自于社交媒体，主要来自于 Youtube 视频，排名第二的是 Linkedin ，Whatsapp 也来了不少流量。
 
@@ -210,13 +210,13 @@ Jenni AI 还有 7.1% 流量来自于社交媒体，主要来自于 Youtube 视�
 
 我们再看一个产品 StealthGPT ，这是一个生成“Undetectable AI Content”的 AI工具，也就是说他生成出来的内容不太容易被 AI检测工具检测出来。
 
-![3e5bde623a35d1439fc122cd1a2be4aa\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_023.png)
+![3e5bde623a35d1439fc122cd1a2be4aa\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_023.webp)
 
 在 IndieHackers 上公布出来的，被验证的收入是 201K美元。
 
-![840792c7916fd8733ac3ab22f1b01914\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_024.png)
+![840792c7916fd8733ac3ab22f1b01914\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_024.webp)
 
-![dbe0b95696155135c841e2b9caa7aaeb\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_025.png)
+![dbe0b95696155135c841e2b9caa7aaeb\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_025.webp)
 
 而这个网站的访问量目前才 26.4 万每个月，即使最高峰也才 33.8 万。
 
@@ -224,13 +224,13 @@ Jenni AI 还有 7.1% 流量来自于社交媒体，主要来自于 Youtube 视�
 
 差不多相当于每一个访问量可以产生 20.1/26.4=0.76 美元的收入。
 
-![69bfd09b139928cdba933024e2af88fb\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_026.png)
+![69bfd09b139928cdba933024e2af88fb\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_026.webp)
 
 查看导入到 Stripe 的订单大概是 9.6K个，这里我们忽略支付成功率，假设成功率就是 100%，计算一下每个订单的金额大概是 20.9 美元。
 
-这个领域，目前流量更大的是另一个产品，谷歌搜索“Undetectable AI”可以找到，排第一名的就是。 ![8ff4a33160d6e6aa4a20b0d9850cfa58\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_027.png) 可以看到 Undetectable AI 直接用需求关键词注册域名，这样就把行业需求词变成了自己的品牌名称，在谷歌眼里，就相当于大家搜索 Undetectable AI 需求，想找的是 Undetectable AI 这个网站。 这是很牛逼的一个策略。 ![8708a81fee9ea14855dd9ef7b2722bea\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_028.png) 这个网站 3 月的访问量是 416.9 万，假设这是同一批潜在用户，那么按照每一个访问量 0.76 美元计算，这个网站的月收入是 316 万美元。 不过实际肯定是没有那么多的。
+这个领域，目前流量更大的是另一个产品，谷歌搜索“Undetectable AI”可以找到，排第一名的就是。 ![8ff4a33160d6e6aa4a20b0d9850cfa58\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_027.webp) 可以看到 Undetectable AI 直接用需求关键词注册域名，这样就把行业需求词变成了自己的品牌名称，在谷歌眼里，就相当于大家搜索 Undetectable AI 需求，想找的是 Undetectable AI 这个网站。 这是很牛逼的一个策略。 ![8708a81fee9ea14855dd9ef7b2722bea\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_028.webp) 这个网站 3 月的访问量是 416.9 万，假设这是同一批潜在用户，那么按照每一个访问量 0.76 美元计算，这个网站的月收入是 316 万美元。 不过实际肯定是没有那么多的。
 
-![344df8d101571eb3752dcab98a592cb0\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_029.png)
+![344df8d101571eb3752dcab98a592cb0\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_029.webp)
 
 我们查到这个网站 3 月份导入到 Stripe的订单大概是 60.5K。
 
@@ -240,11 +240,11 @@ Jenni AI 还有 7.1% 流量来自于社交媒体，主要来自于 Youtube 视�
 
 再次说明一下，以上估算我们用到了大量的拍脑袋想的经验值，不保证准确率。
 
-![3559d3bbe08b4db461011e2e05927da6\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_030.png)
+![3559d3bbe08b4db461011e2e05927da6\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_030.webp)
 
 Undetectable AI 每个月的流量里有 47.74%来自于搜索引擎，这也是完全免费的流量，也就是几乎差不多有 100 万美元的收入来自于免费流量。
 
-![ca61113ca7bdf382593ad02d0c379afa\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_031.png)
+![ca61113ca7bdf382593ad02d0c379afa\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_031.webp)
 
 3 月花出去的广告费是 22.7 万美元，敢花这么多钱出去，说明肯定是赚钱的，ROI能够打正的。
 

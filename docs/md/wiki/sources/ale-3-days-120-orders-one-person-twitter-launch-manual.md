@@ -17,7 +17,7 @@ Hello，我是阿乐，02 年，目前在杭州做 AI 获客。
 
 先说结果。我自己做的小红书采集插件​，在推特上做了 3 天发售，卖了 120 单​，到手 1 万块​。没投流，没买粉，没群发。整场发售，从头到尾，就我一个人加一个小助理
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/002.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/002.webp)
 
 但我得先把丑话说前面：这个数字里，运气和取巧占了大
 
@@ -51,7 +51,7 @@ Hello，我是阿乐，02 年，目前在杭州做 AI 获客。
 
 那会儿我正在做小红书项目，前期需要大量调研去收集笔记——一篇一篇去看同行的笔记，把对标内容存下来。手动存，一天存不了几十篇，存完还是一堆散图，没法用。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/003.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/003.webp)
 
 这个插件就干一件事：把小红书上你要的对标笔记，一键采集下来，直接导出成一张表。 不用截图，不用复制粘贴，采集完就是能直接拿来分析的结构化数据。
 
@@ -81,7 +81,7 @@ https://x.com/Leepriest1990/status/2102788947567141146
 
 前几天有一位做 VC 的大哥私信我，邀请我做一个 OPC（一人公司）的案例分享。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/004.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/004.webp)
 
 我看着愣了一下，第一感觉就是我不配。
 
@@ -97,7 +97,7 @@ https://x.com/Leepriest1990/status/2102788947567141146
 
 那天中秋节刚刚过完，我翻了翻兜，刚刚交了房租。当时 Punk 哥在发售社群，我真不骗人，我兜里一共只有几百块。完了我还咬咬牙加入到了这个社群，交完钱后，兜里只有 60 块​。我清楚地记得这个瞬间。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/005.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/005.webp)
 
 倒也不是非要逞强。我觉得一个优质的圈子能链接到很多大佬朋友以及人脉，它是很值得的。我自己做推特能起来，也是靠之前做推特的一些前辈，把我一点点拉起来的。
 
@@ -105,7 +105,7 @@ https://x.com/Leepriest1990/status/2102788947567141146
 
 我刚刚结束工作，兜里只有 60 块。晚上我妈又给我打了电话，打完那场电话，我真的快哭了。那一刻我感觉自己好没用——明明说要来杭州创业，结果又把自己逼到这样的绝境。你说，这到底是怪谁？
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/006.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/006.webp)
 
 在那个节点上，正好那个时候，我自己做的采集插件刚刚可以用。我当时甚至在想：
 
@@ -151,11 +151,11 @@ https://x.com/Leepriest1990/status/2082865219630707117
 
 比如我们整个批量出图工作台的流程，我对它的设计就是嫁接在一个已有的工作台上：一个总控，加上 10 到 20 个、或者 30 个出图区域，一起帮它批量出图。把每一个节点、每一条出图 SOP 和每一个流程全部固定住，让它全自动化运行。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/007.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/007.webp)
 
 包括我的知识库和智能带教助手，都是用 Skills 以及蒸馏出来的技能支撑，直接在现在已有的模型上去做。我甚至不想要重新搭一个什么 Harness 架构、智能体之类的，我觉得这样太重了。对我来说，没有那么多时间和精力做这件事。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/008.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/008.webp)
 
 因为现在产品越来越不值钱了：
 
@@ -171,7 +171,7 @@ https://x.com/Leepriest1990/status/2082865219630707117
 
 于是仅凭一张截图，我就把它搓出了雏形，但里面还有很多功能没优化。后来有一位之前做代理的大哥，把他的插件产品拿给我看了一下，我研究了大概的功能模式，也基本知道该怎么做了，于是就继续做这个产品。包括整个架构、UI 设计，都是我一点点摸索出来的。后面改了很多 bug——当时发的那一版其实还不稳定，我承认它只是一个小 demo。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/009.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/009.webp)
 
 这个插件产品，我当时迭代了 50 多个版本才发售出去。拿去卖的那版虽然已经可以采集，但我还是觉得不够好，于是就一边收钱一边优化。
 
@@ -187,7 +187,7 @@ https://x.com/Leepriest1990/status/2082865219630707117
 
 三四天一个节点，节点一过我就知道了，这基本上也卖不了太多了。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/010.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/010.webp)
 
 为什么它能爆？我说三条。
 
@@ -228,7 +228,7 @@ https://x.com/Leepriest1990/status/2103733026853392466
 
 这三个问题，就是你的证据链。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/011.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/011.webp)
 
 第三步，叠流量。
 
@@ -240,7 +240,7 @@ https://x.com/Leepriest1990/status/2103733026853392466
 
 我之前做两场发售，也都是这个做法：做案例证明，做方法论。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/012.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/012.webp)
 
 第四步，怎么做转化。
 
@@ -248,11 +248,11 @@ https://x.com/Leepriest1990/status/2103733026853392466
 
 做信任，核心是做什么？做你自己的人设。为什么你能靠这个拿到结果？别人要看的是故事。通过你不断展现的人设故事，别人才会信任你、愿意跟着你做。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/013.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/013.webp)
 
 我那两场发售，很大程度上都归功于前期在推特上做了大量的内容铺垫。很多人经常在时间线上刷到我、对我有兴趣，那我之后做任何事、发什么项目，他们自然都会感兴趣。利用他们的兴趣和建立起来的信任做好铺垫，把你塑造成一个活生生的人——只要他信任你，自然就愿意买你的产品。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/014.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/014.webp)
 
 这四步连起来，就是一整套发售的能力。
 
@@ -266,7 +266,7 @@ https://x.com/Leepriest1990/status/2103733026853392466
 
 这一炮给我的东西，比那 1 万块重要得多。后面我又接着拿了好几个正反馈：一个是我把这个经历发到生财，拿到了精华帖；另一个是直接接了一个郑州本地同城的陪跑咨询——不需要我做什么，只要出一些方法和方案帮他陪跑，而且这个客户后来还一直在想办法给我介绍客户。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/015.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/015.webp)
 
 ## 八、为什么我最后选择做一个社群
 
@@ -310,7 +310,7 @@ https://x.com/Leepriest1990/status/2103733026853392466
 
 第二，这场发售里，有个瞬间我一直记得。当天晚上我就给我妈打了个电话，我说：“妈，我做到了，我赚到钱了！”
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/016.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/016.webp)
 
 我第一天赚了 3000 块钱，第一天拿到这 3000 块，我就给我妈转了 1000。我真的特别感谢我妈能一直支持我，就是在我最无能、最无助的时候一直帮助我我。说实话，当时交了房租之后，我剩下只有 60 块。我创业大半年一直在负债，经济一直没有好转，都是我妈在给我生活费、帮我想办法。
 
@@ -318,7 +318,7 @@ https://x.com/Leepriest1990/status/2103733026853392466
 
 我来杭州大半年，一路是往下走的。当时我真的就是最后一根稻草快被压垮了，就因为这一场正反馈，让我绝地翻盘。那会儿我明显感觉到，走路都是轻快的，做什么事都感觉内心有一个怒吼，一定要发泄出去。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/017.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/017.webp)
 
 我说这些，不是说让你同情我。我是想说：人在低谷的时候，最需要的是一件能做成的事。 你做成一件，信心就回来了，后面的事就一件比一件顺。
 
@@ -370,7 +370,7 @@ https://x.com/Leepriest1990/status/2103733026853392466
 
 满 200 人 ：699 暂停
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/018.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/018.webp)
 
 后面会根据我们的项目、我们的价值、我们的运营策略，不断涨回原价
 
@@ -380,9 +380,9 @@ https://x.com/Leepriest1990/status/2103733026853392466
 
 这里面全部是我们自己的一些方法，以及结合生财的案例做成的。
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/019.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/019.webp)
 
-![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/020.jpg)
+![](../images/ale-3-days-120-orders-one-person-twitter-launch-manual/020.webp)
 
 ## 相关页面
 

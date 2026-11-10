@@ -4,7 +4,7 @@ date: "2026-11-09"
 source: "X/Twitter"
 author: "paipiange (@paipiange)"
 url: "https://x.com/paipiange/status/2119301465747640416"
-coverImage: "../images/paipiange-nvzhuang-open-source-app-and-miniprogram/001.jpg"
+coverImage: "../images/paipiange-nvzhuang-open-source-app-and-miniprogram/001.webp"
 ---
 
 # paipiange：nvzhuang 项目开源——App 与小程序同步放出
@@ -17,11 +17,11 @@ https://t.co/nzyjYrgHyO
 
 app 和小程序也开源了 https://t.co/BbwDI7ptnU
 
-![](../images/paipiange-nvzhuang-open-source-app-and-miniprogram/001.jpg)
+![](../images/paipiange-nvzhuang-open-source-app-and-miniprogram/001.webp)
 
-![](../images/paipiange-nvzhuang-open-source-app-and-miniprogram/002.jpg)
+![](../images/paipiange-nvzhuang-open-source-app-and-miniprogram/002.webp)
 
-![](../images/paipiange-nvzhuang-open-source-app-and-miniprogram/003.jpg)
+![](../images/paipiange-nvzhuang-open-source-app-and-miniprogram/003.webp)
 
 ## 相关页面
 

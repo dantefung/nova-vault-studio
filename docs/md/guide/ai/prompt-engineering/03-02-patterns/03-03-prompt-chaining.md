@@ -4,7 +4,7 @@ date: "2026-05-07"
 source: "微信公众号"
 ---
 
-![](../images/prompt-chain-logo.jpg)
+![](../images/prompt-chain-logo.webp)
 
 * **作者：云中江树(\[1])，李继刚(\[2])，小七姐(\[3])， JK（Jackey） (排名不分先后)**
 
@@ -80,7 +80,7 @@ Prompt 是调用大模型能力的工具，这是大家所熟知的，但是在�
 
 
 
-![](../images/prompt-chain-02.png)
+![](../images/prompt-chain-02.webp)
 
 输入法
 
@@ -104,7 +104,7 @@ Prompt 是调用大模型能力的工具，这是大家所熟知的，但是在�
 
 > 来源：https://aq92z6vors3.feishu.cn/wiki/EQcOwx45DiFQJ2kUhoTcGSAnnPh
 >
-> ![](../images/prompt-chain-05.png)
+> ![](../images/prompt-chain-05.webp)
 
 
 
@@ -344,7 +344,7 @@ Prompt 是调用大模型能力的工具，这是大家所熟知的，但是在�
 
 这种范式下，写出来的 Prompt 的结构可复杂可简单。它可以是像目前我们看到的 LangGPT 项目中诗人 Prompt 示例一样复杂，也可以是下图中我们输入 `"形式：[], 主题：[]"`（诗人 prompt 中的输入）一样简单。
 
-![](../images/prompt-chain-01.jpg)
+![](../images/prompt-chain-01.webp)
 
 write\_poetry
 
@@ -534,7 +534,7 @@ https://www.breezedeus.com/article/ai-agent-part1
 
 Prompts 协同还可以是提示树 Prompt Tree，通过自顶向下的设计思想，不断拆解子任务，构成任务树，得到多种模型输出，并将这多种输出通过自定义规则（排列组合、筛选、集成等）得到最终结果。如下图， ToT 中就使用了 Prompt Tree 的思想。
 
-![](../images/prompt-chain-06.png)
+![](../images/prompt-chain-06.webp)
 
 Alt text
 
@@ -588,7 +588,7 @@ Alt text
 
 Prompts 协同还可以是提示图 Prompt Graph，类似人的社交网络一样，Prompts 间的协同交互也可以是如下的图网络形式。
 
-![](../images/prompt-chain-10.png)
+![](../images/prompt-chain-10.webp)
 
 Alt text
 
@@ -688,7 +688,7 @@ Prompt 设计时，任务粒度的设计很重要，考虑该任务使用单个 
 
 > <span style="color: rgb(143,149,158); background-color: inherit">来源：https://zhuanlan.zhihu.com/c_1551973342797598720</span>
 >
-> ![](../images/prompt-chain-03.png)
+> ![](../images/prompt-chain-03.webp)
 
 
 
@@ -700,7 +700,7 @@ Prompt 设计时，任务粒度的设计很重要，考虑该任务使用单个 
 
 为节省 Token，**对模型已知的内容无需过多描述**，模型已知内容包括常见的各种名词，方法等等。可以通过简单询问模型的方法判断模型是否知道该内容，如下图。若模型能正确回答，则说明模型已知该内容。
 
-![](../images/prompt-chain-07.png)
+![](../images/prompt-chain-07.webp)
 
 多说一句，想节约 token 的话，还可以将中文提示词转为英文。若还想节约 token，可以尝试将 Prompt 压缩。
 
@@ -748,7 +748,7 @@ Prompt Chain 评估方法是类似的。
 
 做一个下面的热门视频号/抖音号
 
-![](../images/prompt-chain-09.png)
+![](../images/prompt-chain-09.webp)
 
 Alt text
 
@@ -770,7 +770,7 @@ Alt text
 
 基本上，要做的事情如下：
 
-![](../images/prompt-chain-08.png)
+![](../images/prompt-chain-08.webp)
 
 
 
@@ -1194,7 +1194,7 @@ GPT-4 回答
 
 比如：最近七夕，就拿 七夕+ 单身为主题，生产的内容应该有 60 分了。（当然如果大家有兴趣，完全可以把 sample、作品分析再精调一下，应该可以做到更好的内容生产）
 
-![](../images/prompt-chain-04.png)
+![](../images/prompt-chain-04.webp)
 
 
 

@@ -17,10 +17,10 @@ url: "https://x.com/AdrianPunk115/status/2076554886091805110"
 
 这是一套以深蓝为主、明黄点缀、暖白辅助的扁平化大字封面提示词。
 
-![](images/adrianpunk-yellow-blue-prompt/001.png)
-![](images/adrianpunk-yellow-blue-prompt/002.png)
-![](images/adrianpunk-yellow-blue-prompt/003.png)
-![](images/adrianpunk-yellow-blue-prompt/004.png)
+![](images/adrianpunk-yellow-blue-prompt/001.webp)
+![](images/adrianpunk-yellow-blue-prompt/002.webp)
+![](images/adrianpunk-yellow-blue-prompt/003.webp)
+![](images/adrianpunk-yellow-blue-prompt/004.webp)
 
 ```
 请根据以下输入，直接生成一张「深蓝主色 × 明黄点缀 × 扁平大字」风格封面。

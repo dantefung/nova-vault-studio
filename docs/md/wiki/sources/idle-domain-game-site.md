@@ -25,7 +25,7 @@ url: "https://mp.weixin.qq.com/s/M14X-f8a22Kw2lxcsvypKA"
 2. **手工搓内容**：把九游 CPS 后台的游戏逐个手搓到你的网站上
 3. **资讯栏目**：参考九游网站的内容来写——毕竟人家是权重高的网站，内容结构有参考价值
 
-![九游游戏站截图](../images/idle-domain-game-site/001.jpeg)
+![九游游戏站截图](../images/idle-domain-game-site/001.webp)
 
 ## 作者总结
 

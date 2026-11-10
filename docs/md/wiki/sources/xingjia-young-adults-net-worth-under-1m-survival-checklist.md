@@ -97,7 +97,7 @@ https://sg.starryblu.com/x/NSFHxKQj
 
 这一阶段的目标只有一个：让你一个人就能干以前一个团队的活。
 
-![](../images/xingjia-young-adults-net-worth-under-1m-survival-checklist/002.jpg)
+![](../images/xingjia-young-adults-net-worth-under-1m-survival-checklist/002.webp)
 
 AI 时代最大的红利，就是个人能力被指数级放大，一个会用工具的人，顶得上以前十个人。
 
@@ -113,7 +113,7 @@ AI 时代最大的红利，就是个人能力被指数级放大，一个会用�
 
 https://ai.xingjia.xyz/company
 
-![](../images/xingjia-young-adults-net-worth-under-1m-survival-checklist/003.jpg)
+![](../images/xingjia-young-adults-net-worth-under-1m-survival-checklist/003.webp)
 
 2. 编程入门：学会用 GitHub，能看懂优秀项目。不用你成为算法工程师，但你得能看懂别人在做什么、能抄作业、能改一改自己用。
 
@@ -193,9 +193,9 @@ https://books.xingjia.xyz
 
 如果你也在走这条路，或者准备开始走，评论区留个脚印，路上的人多了，就不孤单了。
 
-![](../images/xingjia-young-adults-net-worth-under-1m-survival-checklist/004.jpg)
+![](../images/xingjia-young-adults-net-worth-under-1m-survival-checklist/004.webp)
 
-![](../images/xingjia-young-adults-net-worth-under-1m-survival-checklist/005.jpg)
+![](../images/xingjia-young-adults-net-worth-under-1m-survival-checklist/005.webp)
 
 ## 相关页面
 

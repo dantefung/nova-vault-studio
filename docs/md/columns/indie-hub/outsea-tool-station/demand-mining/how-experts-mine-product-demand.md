@@ -61,7 +61,7 @@ Ahref的Keyword Difficulty Checker
 
 看榜单，不能只关注排在最前面的大站，而是要关注增长潜力大、竞争较小的排名不在最前面的产品。
 
-![image](./images/how-experts-mine-product-demand/001.png)
+![image](images/how-experts-mine-product-demand/001.webp)
 
 子木在文中提到：去App Store、Google Play、Product Hunt、Reddit、Toolify收入榜单这些地方，看别人对竞品的差评，看看他们骂得最多的点，就是你优化的方向。
 

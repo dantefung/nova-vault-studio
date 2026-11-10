@@ -51,7 +51,7 @@ Note: I have created a HUMAN 3.0 Knowledge Base with nuances of the model, civil
 
 I created an [AI Prompt ](https://letters.thedankoe.com/p/prompt-human-30-self-discovery-and)to help you map your own development, find your Metatype, and identify the next core problem to solve in your life. I will include a link to it below as well. I would recommend reading this article first so you understand what’s going on.
 
-![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/002.jpg)
+![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/002.webp)
 
 This model offers the big picture. It is not a dogmatic set of actionable steps, but a set of guidelines for reaching your maximum potential and bust through mental, physical, spiritual, and vocational plateaus faster. It orients patterns found across human development and builds on top of various scientific, psychological, spiritual, and vocational models that have already done a lot of the heavy lifting.
 
@@ -106,7 +106,7 @@ If you’re enjoying this, [join here](https://letters.thedankoe.com) if you wan
 
 3) Phases
 
-![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/003.jpg)
+![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/003.webp)
 
 Within each level, there are 3 phases of development that one must go through to reach the next level. Phases represent vertical development, moving up a level or regressing back down.
 
@@ -128,7 +128,7 @@ At level 3 and beyond, individuals can pursue more complex challenges and simula
 
 4) Traits
 
-![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/004.jpg)
+![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/004.webp)
 
 Within each phase, there is a threshold of knowledge, experience, and skill that must be acquired before the next level reveals itself to you. While phases represent vertical development, traits represent horizontal development, or navigating the unknown until you have discovered enough to reach the next phase.
 
@@ -144,7 +144,7 @@ That leads us into Channels – a way to combat disorder and make substantial pr
 
 5) Channels
 
-![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/005.jpg)
+![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/005.webp)
 
 When you reach the Dissonance Phase of any Level, you gain the ability to leverage a “Channel.”
 
@@ -175,7 +175,7 @@ If you feel lost, you are probably in a Dissonance phase, and if you stick it ou
 
 ## Archetypes & Metatypes
 
-![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/006.jpg)
+![](../images/dankoe-human-3-0-map-to-reach-the-top-one-percent/006.webp)
 
 In future letters and videos, we can use the Human 3.0 Graph to understand people (like Jordan Peterson, Andrew Tate, or Alan Watts), or to overcome problems in your life, like not being able to make money or find a partner.
 

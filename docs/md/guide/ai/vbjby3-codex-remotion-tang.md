@@ -17,7 +17,7 @@ url: "https://x.com/vbjby3/status/2076530524110369070"
 
 这篇教程以我做的唐朝视频为例，把完整操作流程拆开讲清楚。
 
-![](images/vbjby3-codex-remotion-tang/001.png)
+![](images/vbjby3-codex-remotion-tang/001.webp)
 
 # 零、这条视频用了哪些工具
 
@@ -99,7 +99,7 @@ ffmpeg -ss 5 -i out/final.mp4 -frames:v 1 check-05.png
 1. 全景镜头：皇帝是最大主体，左右侍女第二，右侧群臣最小，用来交代“盛唐长安”的规模。
 2. 特写镜头：中央捧礼盒的人最大，前排跪拜人物第二，后排侍从最小，用来表现“万邦来朝”。
 
-![](images/vbjby3-codex-remotion-tang/002.png)
+![](images/vbjby3-codex-remotion-tang/002.webp)
 
 先定镜头的原因很简单：同一个人物在全景和特写里的大小、位置、朝向都不同。如果先随便生成素材，后面很容易出现人物比例错误、视线方向相反、主次不清的问题。
 
@@ -117,7 +117,7 @@ ffmpeg -ss 5 -i out/final.mp4 -frames:v 1 check-05.png
 
 重点是：人物必须是独立 PNG，不能全部画在同一张图里。
 
-![](images/vbjby3-codex-remotion-tang/003.png)
+![](images/vbjby3-codex-remotion-tang/003.webp)
 
 # 三、用 Imagegen 生成没有人物的背景底板
 
@@ -221,7 +221,7 @@ const roleMotion = {
 - 背景只做 1% 左右的慢速推镜。
 - 所有人物入场后仍保留极轻微上下漂浮，避免画面完全静止。
 
-![](images/vbjby3-codex-remotion-tang/004.png)
+![](images/vbjby3-codex-remotion-tang/004.webp)
 
 人物不要同时出现。实际使用 delay 错开入场：
 
@@ -316,7 +316,7 @@ npm run start
 npm run render
 ```
 
-![](images/vbjby3-codex-remotion-tang/005.png)
+![](images/vbjby3-codex-remotion-tang/005.webp)
 
 # 十、整条工作流总结
 

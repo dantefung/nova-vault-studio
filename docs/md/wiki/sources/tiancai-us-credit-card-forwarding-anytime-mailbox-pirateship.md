@@ -17,9 +17,9 @@ coverImage: "../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirates
 
 我在 X 上看到 Ray 刚走完一遍：9 月 21 日寄出，9 月 28 日下午深圳签收，UPS 运费 40.91 美元。我把这套流程每一步都对着官方说明核了一遍，整理成照着做就行的版本。
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/002.jpg)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/002.webp)
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/003.png)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/003.webp)
 
 一句话流程：美国银行卡寄到 Anytime Mailbox 的美国地址 → 自己在 PirateShip 海盗船买 UPS 折扣运单 → 运单 PDF 发给代收点店主 → 店主贴单交 UPS → 国内清关、派送。
 
@@ -27,7 +27,7 @@ coverImage: "../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirates
 
 一、开始前准备
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/004.jpg)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/004.webp)
 
 - 一个能收银行卡的美国地址，本文用 Anytime Mailbox
 - USPS Form 1583（邮件代收授权表），要公证
@@ -47,7 +47,7 @@ Anytime Mailbox 是美国的虚拟邮箱平台。你租的是全美各地实体�
 
 最容易踩的坑：不少银行不往 CMRA 地址寄卡。选地址之前，先确认你的发卡行肯寄到这个地址。
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/005.png)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/005.webp)
 
 三、先跟房东打招呼
 
@@ -55,7 +55,7 @@ Ray 这一步写得很细：先发邮件问，能不能自己买 prepaid label�
 
 Ray 那家回的是：发运单来就行，包材不收钱。每家收费不一样，以你那家回复为准。
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/006.png)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/006.webp)
 
 四、PirateShip 海盗船打单（免费打单平台）
 
@@ -70,7 +70,7 @@ PirateShip 是美国的在线打单平台，UPS 认证合作方。不收月费�
 
 报关我建议写实物：寄的是银行卡就写银行卡，HS 编码用页面里的 Search 查，别随手抄。海关有权开箱，报的和里面不一样，可能被扣或者退回。
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/007.png)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/007.webp)
 
 五、看报价：Ray 实付 40.91 美元
 
@@ -88,7 +88,7 @@ PirateShip 是美国的在线打单平台，UPS 认证合作方。不收月费�
 
 付款 Ray 用的是 Mastercard 或 PayPal。
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/008.jpg)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/008.webp)
 
 六、运单发给房东
 
@@ -100,11 +100,11 @@ PirateShip 是美国的在线打单平台，UPS 认证合作方。不收月费�
 
 Ray 这一单：9 月 21 日寄出，9 月 28 日 09:20 抵达深圳设施，09:31 外出派送，16:30 签收。
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/009.jpg)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/009.webp)
 
 八、寄卡前必看的 6 条
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/010.jpg)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/010.webp)
 
 - UPS 运输条款禁寄现金和可流通票据，例子里点名了预付卡（pre-paid credit cards）。押金卡是信用卡，不是预付卡，没被点名，但 UPS 有权拒运
 - 别随便换快递：DHL 英国官网的禁寄清单写明信用卡、借记卡，激活和没激活的都不收

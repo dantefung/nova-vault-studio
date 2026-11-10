@@ -892,129 +892,129 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       33/33
 
 ### 第 2 页 — 001-p02.jpeg
 
-![001-p02.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/001-p02.jpeg)
+![001-p02.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/001-p02.webp)
 
 ### 第 3 页 — 002-p03.jpeg
 
-![002-p03.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/002-p03.jpeg)
+![002-p03.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/002-p03.webp)
 
 ### 第 4 页 — 003-p04.jpeg
 
-![003-p04.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/003-p04.jpeg)
+![003-p04.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/003-p04.webp)
 
 ### 第 5 页 — 004-p05.jpeg
 
-![004-p05.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/004-p05.jpeg)
+![004-p05.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/004-p05.webp)
 
 ### 第 6 页 — 005-p06.jpeg
 
-![005-p06.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/005-p06.jpeg)
+![005-p06.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/005-p06.webp)
 
 ### 第 6 页 — 006-p06.jpeg
 
-![006-p06.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/006-p06.jpeg)
+![006-p06.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/006-p06.webp)
 
 ### 第 7 页 — 007-p07.jpeg
 
-![007-p07.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/007-p07.jpeg)
+![007-p07.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/007-p07.webp)
 
 ### 第 7 页 — 008-p07.jpeg
 
-![008-p07.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/008-p07.jpeg)
+![008-p07.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/008-p07.webp)
 
 ### 第 8 页 — 009-p08.jpeg
 
-![009-p08.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/009-p08.jpeg)
+![009-p08.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/009-p08.webp)
 
 ### 第 8 页 — 010-p08.jpeg
 
-![010-p08.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/010-p08.jpeg)
+![010-p08.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/010-p08.webp)
 
 ### 第 9 页 — 011-p09.jpeg
 
-![011-p09.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/011-p09.jpeg)
+![011-p09.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/011-p09.webp)
 
 ### 第 9 页 — 012-p09.jpeg
 
-![012-p09.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/012-p09.jpeg)
+![012-p09.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/012-p09.webp)
 
 ### 第 10 页 — 013-p10.jpeg
 
-![013-p10.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/013-p10.jpeg)
+![013-p10.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/013-p10.webp)
 
 ### 第 10 页 — 014-p10.jpeg
 
-![014-p10.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/014-p10.jpeg)
+![014-p10.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/014-p10.webp)
 
 ### 第 11 页 — 015-p11.jpeg
 
-![015-p11.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/015-p11.jpeg)
+![015-p11.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/015-p11.webp)
 
 ### 第 12 页 — 016-p12.jpeg
 
-![016-p12.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/016-p12.jpeg)
+![016-p12.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/016-p12.webp)
 
 ### 第 13 页 — 017-p13.jpeg
 
-![017-p13.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/017-p13.jpeg)
+![017-p13.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/017-p13.webp)
 
 ### 第 14 页 — 018-p14.jpeg
 
-![018-p14.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/018-p14.jpeg)
+![018-p14.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/018-p14.webp)
 
 ### 第 15 页 — 019-p15.jpeg
 
-![019-p15.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/019-p15.jpeg)
+![019-p15.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/019-p15.webp)
 
 ### 第 15 页 — 020-p15.jpeg
 
-![020-p15.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/020-p15.jpeg)
+![020-p15.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/020-p15.webp)
 
 ### 第 19 页 — 021-p19.jpeg
 
-![021-p19.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/021-p19.jpeg)
+![021-p19.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/021-p19.webp)
 
 ### 第 23 页 — 022-p23.jpeg
 
-![022-p23.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/022-p23.jpeg)
+![022-p23.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/022-p23.webp)
 
 ### 第 24 页 — 023-p24.jpeg
 
-![023-p24.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/023-p24.jpeg)
+![023-p24.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/023-p24.webp)
 
 ### 第 25 页 — 024-p25.jpeg
 
-![024-p25.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/024-p25.jpeg)
+![024-p25.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/024-p25.webp)
 
 ### 第 26 页 — 025-p26.jpeg
 
-![025-p26.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/025-p26.jpeg)
+![025-p26.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/025-p26.webp)
 
 ### 第 27 页 — 026-p27.jpeg
 
-![026-p27.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/026-p27.jpeg)
+![026-p27.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/026-p27.webp)
 
 ### 第 28 页 — 027-p28.jpeg
 
-![027-p28.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/027-p28.jpeg)
+![027-p28.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/027-p28.webp)
 
 ### 第 29 页 — 028-p29.jpeg
 
-![028-p29.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/028-p29.jpeg)
+![028-p29.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/028-p29.webp)
 
 ### 第 29 页 — 029-p29.jpeg
 
-![029-p29.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/029-p29.jpeg)
+![029-p29.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/029-p29.webp)
 
 ### 第 30 页 — 030-p30.jpeg
 
-![030-p30.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/030-p30.jpeg)
+![030-p30.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/030-p30.webp)
 
 ### 第 30 页 — 031-p30.jpeg
 
-![031-p30.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/031-p30.jpeg)
+![031-p30.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/031-p30.webp)
 
 ### 第 31 页 — 032-p31.jpeg
 
-![032-p31.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/032-p31.jpeg)
+![032-p31.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/032-p31.webp)
 

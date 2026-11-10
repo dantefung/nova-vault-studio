@@ -137,4 +137,4 @@ plugins:
 
 DSH 做 Agent 蒸馏的核心价值：它能产出**完整、可审计、可批量扩充的 Agent 全链路推理轨迹**，这是普通对话框架给不了的。Agent 蒸馏的瓶颈从来不在训练，在数据——DSH 刚好捅到了这个点上。
 
-![DSH 蒸馏数据工厂示意图](../images/deepseek-harness-agent-distillation/001.png)
+![DSH 蒸馏数据工厂示意图](../images/deepseek-harness-agent-distillation/001.webp)

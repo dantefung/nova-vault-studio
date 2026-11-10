@@ -72,7 +72,7 @@ public static void premain(String agentArgs, Instrumentation inst);
 
 顾名思义，它在 Java 虚拟机的 `main()` 函数执行之前运行。JVM 启动时的处理流程如下：
 
-![JVM 启动时 Java Agent 处理流程](../images/java-agent-instrumentation-guide/007.jpg)
+![JVM 启动时 Java Agent 处理流程](../images/java-agent-instrumentation-guide/007.webp)
 *图 1：JVM 执行 premain 注册 ClassFileTransformer，在类加载时动态改写字节码*
 
 ### 实战示例：统计方法执行耗时
@@ -84,7 +84,7 @@ public static void premain(String agentArgs, Instrumentation inst);
 
 控制台将输出被拦截方法的毫秒级执行耗时：
 
-![方法耗时统计控制台输出](../images/java-agent-instrumentation-guide/008.jpg)
+![方法耗时统计控制台输出](../images/java-agent-instrumentation-guide/008.webp)
 *图 2：无侵入实现的方法耗时统计运行结果*
 
 ---
@@ -114,7 +114,7 @@ vm.detach();
 
 结合 `Instrumentation.retransformClasses()` 方法，可以热重载并动态替换目标类的字节码实现，实现真正的热拔插在线排错。
 
-![Attach 动态挂载运行效果](../images/java-agent-instrumentation-guide/011.jpg)
+![Attach 动态挂载运行效果](../images/java-agent-instrumentation-guide/011.webp)
 *图 3：运行时动态 Attach 并修改目标类返回结果*
 
 ---
@@ -123,7 +123,7 @@ vm.detach();
 
 阿里巴巴开源的 Java 诊断利器 **Arthas**，其强大的 `trace` 命令正是上述技术的集大成者。
 
-![Arthas trace 命令展示方法调用链路与耗时](../images/java-agent-instrumentation-guide/014.jpg)
+![Arthas trace 命令展示方法调用链路与耗时](../images/java-agent-instrumentation-guide/014.webp)
 *图 4：Arthas trace 输出多层级调用树与精确耗时*
 
 ### 5.1 ByteKit 增强封装
@@ -136,7 +136,7 @@ vm.detach();
 ### 5.2 Arthas Trace 内部流程
 Arthas 的各种命令采用了模版方法模式。入口为 `AnnotatedCommand`，复杂的动态追踪逻辑封装在 `EnhancerCommand` 与 `TraceCommand` 中：
 
-![Arthas 字节码增强架构与流程](../images/java-agent-instrumentation-guide/024.jpg)
+![Arthas 字节码增强架构与流程](../images/java-agent-instrumentation-guide/024.webp)
 *图 5：Arthas Trace 命令解析拦截器注解并重写方法字节码的整体流程*
 
 1. 解析各类拦截器（Interceptor Class）上的 `@AtEnter`、`@Binding` 等注解，构建 `InterceptorProcessor` 集合；

@@ -12,7 +12,7 @@ url: "https://x.com/sitinme/status/1994677962990289190"
 
 <!-- more -->
 
-![出海工具链一览](../images/sitin-overseas-toolchain/001.jpg)
+![出海工具链一览](../images/sitin-overseas-toolchain/001.webp)
 
 *图 1：出海工具链整理图。*
 

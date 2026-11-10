@@ -28,7 +28,7 @@ Multica 产品形态接近 Linear：包含 Issue、项目、评论、收件箱�
 
 前端与后端之间走 HTTPS 加 WebSocket，后端与 daemon 之间采用「WS 唤醒 + HTTP 轮询兜底」的双通道，daemon 最终通过 `exec.Command` 启动本地 CLI。
 
-![三段式架构：控制面调度本机 CLI](../images/multica-deep-dive/002.png)
+![三段式架构：控制面调度本机 CLI](../images/multica-deep-dive/002.webp)
 
 这一拓扑决定了系统的安全边界：**代码始终在用户本机运行，使用用户自己的订阅和 API Key，不上传到第三方云端。**
 
@@ -42,7 +42,7 @@ Multica 产品形态接近 Linear：包含 Issue、项目、评论、收件箱�
 
 此层之上的全部功能——任务分配、排期、评论、autopilot、技能、UI——都只面向这套统一抽象，不感知底层 CLI 的差异。
 
-![核心设计：一个接口，多份 CLI 实现](../images/multica-deep-dive/003.png)
+![核心设计：一个接口，多份 CLI 实现](../images/multica-deep-dive/003.webp)
 
 这种设计带来几点直接收益：新增一个 Agent 只需新增一个 Go 文件，无需改动协议、数据库或前端；不产生供应商锁定；底层 CLI 能力提升时平台自动获益；某个 CLI 崩溃时，受影响的只是一个子进程。
 
@@ -52,7 +52,7 @@ Multica 产品形态接近 Linear：包含 Issue、项目、评论、收件箱�
 
 Daemon 通过 `multica daemon start` 运行在本地。启动时先占用一个健康检查端口（默认 19514）做 fail-fast；接着用 `exec.LookPath` 探测本机已装 CLI，执行版本门禁，再注册为一个个 Runtime。核心是 `pollLoop`：用容量默认 20 的信号量控制并发，round-robin 轮询各 Runtime 认领任务，默认三秒一轮。同时 daemon 维持一条 WS，服务端入队新任务立即发来唤醒，兼得 WebSocket 的秒级延迟和轮询在断网后的自愈能力。
 
-![任务执行流程：从指派到回帖](../images/multica-deep-dive/004.png)
+![任务执行流程：从指派到回帖](../images/multica-deep-dive/004.webp)
 
 每个任务分配一个独立工作目录，路径形如 `~/multica_workspaces/{工作区}/{任务}/workdir`。Daemon 将一份元技能写为 CLAUDE.md 或 AGENTS.md 注入该目录，说明 Agent 如何使用 `multica issue` 这套 CLI——get、comment add、update、assign 均统一带 `--output json`，多行内容用 `--content-stdin` 配合 HEREDOC 传入，避免 `--content "..."` 参数中 `\n` 不展开、换行错乱成字面量的问题。
 

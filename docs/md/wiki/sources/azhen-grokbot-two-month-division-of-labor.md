@@ -4,7 +4,7 @@ date: "2026-11-02"
 source: "微信公众号"
 author: "阿真"
 url: "https://mp.weixin.qq.com/s/MrcTik_dRlo2HTd7gZpAXg"
-coverImage: "../images/azhen-grokbot-two-month-division-of-labor/001.jpg"
+coverImage: "../images/azhen-grokbot-two-month-division-of-labor/001.webp"
 ---
 
 # 使用 GrokBot 两个月后，我的 GrokBot 分工全公开分享
@@ -13,7 +13,7 @@ coverImage: "../images/azhen-grokbot-two-month-division-of-labor/001.jpg"
 
 <!-- more -->
 
-![](../images/azhen-grokbot-two-month-division-of-labor/001.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/001.webp)
 
 嗨大家好，我是阿真！
 
@@ -23,11 +23,11 @@ coverImage: "../images/azhen-grokbot-two-month-division-of-labor/001.jpg"
 
 两个月里我用它做了很多尝试，今天来分享一下我在用 Grok Bot 做什么。这些都没什么难度，直接给它要求就可以建一个 Bot 用起来，上手还是很友好的。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/002.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/002.webp)
 
 GrokBot 的本质是 personal agent，你可以建很多个独立的 Bot，每个 Bot 负责一些事项。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/003.png)
+![](../images/azhen-grokbot-two-month-division-of-labor/003.webp)
 
 除了可以区分不同 Bot，它还可以打通和本地电脑的连接，通过远程方式完成一些本地事务，或者登录云电脑上的账号，通过自动化任务完成每天定期或定时的事务，很是方便。
 
@@ -47,7 +47,7 @@ GrokBot 的本质是 personal agent，你可以建很多个独立的 Bot，每�
 
 比如所有收藏类 Bot 的存储路径，我只需要告诉总控一次，它会同步改掉所有分 Bot 的设置。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/004.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/004.webp)
 
 接下来就是基于我个人的需求，在 GrokBot 里面进行分组，确定我每一个分组里面 Bot 的职能了。
 
@@ -61,16 +61,16 @@ GrokBot 的本质是 personal agent，你可以建很多个独立的 Bot，每�
 
 爱心❤️，爱心 = 进入选题库。比如我觉得它发的信息很有分享价值，或者是一个值得延伸的选题，我就会点爱心，它就会直接存到我本地 Obsidian 的选题库里。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/005.png)
-![](../images/azhen-grokbot-two-month-division-of-labor/006.png)
-![](../images/azhen-grokbot-two-month-division-of-labor/007.png)
-![](../images/azhen-grokbot-two-month-division-of-labor/008.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/005.webp)
+![](../images/azhen-grokbot-two-month-division-of-labor/006.webp)
+![](../images/azhen-grokbot-two-month-division-of-labor/007.webp)
+![](../images/azhen-grokbot-two-month-division-of-labor/008.webp)
 
 我在“收藏和学习”这个分类里有 4 个 Bot。分别是收藏 Bot、学习 Bot、待播列表和访谈 Bot。
 
 学习 Bot：我会把 YouTube 或者哔哩哔哩的学习视频丢给它。我有一个“学习包”的 skill 给到它，之后我丢给它一条用 Claude Code 剪 TikTok 视频的教程，它会整理简介和核心内容，再以这条视频为原点，向上找前置知识，向下找进阶内容，组成一条 10 个视频的学习路线。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/009.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/009.webp)
 
 待播列表：有点类似于我的“想看”列表，放我现在想看、但还没时间看的视频链接。它会收录并整理好简介和推荐理由，等我有时间看的时候，就能快速想起来当时为什么收藏它。
 
@@ -98,7 +98,7 @@ GrokBot 的本质是 personal agent，你可以建很多个独立的 Bot，每�
 
 复盘 Bot：在我的公众号文章发完大概一周后，我会把后台数据截图发给它，由它核实并汇总数据，给我一份阶段性小结，并建议我接下来怎么做。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/010.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/010.webp)
 
 ## 素材收集
 
@@ -110,7 +110,7 @@ GrokBot 的本质是 personal agent，你可以建很多个独立的 Bot，每�
 
 还有就是任务周期有的是每天有的是隔天有的是每周，这个如果到了额度不够的程度了也需要一点取舍。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/011.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/011.webp)
 
 很多用户说 GrokBot 不要建太多 Bot，这话也有道理的。每个 Bot 的回复、定时任务、Bot 之间互发消息、群聊回复都算用量，而且每个 Bot 每一轮都会重读自己的聊天记录，聊得越久越费。
 
@@ -120,7 +120,7 @@ GrokBot 的本质是 personal agent，你可以建很多个独立的 Bot，每�
 
 继续说我在素材收集里面的 Bot。我分为了视频收集、代码视频收集、美学 Bot、图片收集、MJ 日榜和一些 Agent 的玩法收集、有趣的项目。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/012.png)
+![](../images/azhen-grokbot-two-month-division-of-labor/012.webp)
 
 这些有的是属于 Bot 类的，有的是类似于项目制的，定期去收集。有的是账号类的，可以直接登录；有的是直接通过 Grok CLI 去 X、Twitter、Reddit、B 站等平台收集信息，然后再反馈给我。
 
@@ -138,7 +138,7 @@ Bot 不一定对应一个动作，也可以对应一个长期课题，围绕一�
 
 这些 Bot 不会每一个单独给我发消息，我将它们拉到了一个组里。这也是 GrokBot 的一个功能，支持分组和群组，每个组最多可以拉 6 个 Bot。基于同一个需求，组里的每一个 Bot 都会去完成各自的任务，然后统一汇总。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/013.png)
+![](../images/azhen-grokbot-two-month-division-of-labor/013.webp)
 
 那为什么不直接用一个 Bot 收集所有平台呢？因为不同平台本身有不同的倾向，我对每个 Bot 的设置也不一样。每次都去多个平台太消耗了，指定平台下次找消息又麻烦。
 
@@ -148,11 +148,11 @@ Bot 不一定对应一个动作，也可以对应一个长期课题，围绕一�
 
 比如看到群友发的消息，我会让它去核实，返回相关介绍和资讯来源；如果是假的，它也会明确告诉我。毕竟现在各种消息太纷杂了，单靠人工很难确定哪些是真的。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/014.png)
+![](../images/azhen-grokbot-two-month-division-of-labor/014.webp)
 
 这样很好的一点是，确认过的消息我才会转发。在信息太纷繁的时代，不传谣都算是一种内容质量了。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/015.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/015.webp)
 
 ## 日常杂事
 
@@ -164,7 +164,7 @@ Bot 不一定对应一个动作，也可以对应一个长期课题，围绕一�
 
 另外，我的会员订阅也会直接告诉它。比如我说我在 10 月 1 日买了某个会员，让它在下一个周期提前三天提醒我、询问是否续订，这样就不会忘记了。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/016.png)
+![](../images/azhen-grokbot-two-month-division-of-labor/016.webp)
 
 发票 Bot：我有一些场景需要自己开发票去报销，发票会直接发到我的 Gmail。我让它每周去 Gmail 查有没有新开的票，再发回给我。有时候也可以让它帮我开票，但走小程序的就走不通。
 
@@ -172,7 +172,7 @@ Bot 不一定对应一个动作，也可以对应一个长期课题，围绕一�
 
 还有一个 T-Bot，专门盯着 Tibo 的额度重置，一刷新就提醒我。哈哈哈 10 月份它真的发挥了很大的作用。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/017.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/017.webp)
 
 ## 友军系列
 
@@ -190,7 +190,7 @@ Claude Code 用的是云电脑版。这个感觉有点玄学，因为朋友说�
 
 谁便宜谁执行，谁聪明谁指挥。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/018.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/018.webp)
 
 每个人的工作方式不一样，我的玩法和他们的玩法也不一定适合所有人，大家可以多探索一下，自定义出最适合自己的玩法。
 
@@ -214,7 +214,7 @@ Muse 也有很棒的一些亮点。比如它注册免费还送最高 30 亿 Toke
 
 最开始就尽量想清楚每个 Bot 的定位，不要到后面 Bot 太多，找东西都找不到了。规矩立清楚，它才能稳定好用。
 
-![](../images/azhen-grokbot-two-month-division-of-labor/019.jpg)
+![](../images/azhen-grokbot-two-month-division-of-labor/019.webp)
 
 ---
 

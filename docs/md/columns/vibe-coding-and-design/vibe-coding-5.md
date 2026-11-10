@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/tsXQqeGNZnFUwc8eJu9IbQ"
 
 # Vibe Coding 实战（一）：6小时，我搭建了一个基于Claude Code的24小时工作流
 
-![图片](./images/vibe-coding-5/001.png)
+![图片](images/vibe-coding-5/001.webp)
 
 ## 前言
 
@@ -25,7 +25,7 @@ url: "https://mp.weixin.qq.com/s/tsXQqeGNZnFUwc8eJu9IbQ"
 
 ## 痛点分析
 
-![image.png](./images/vibe-coding-5/002.jpeg)
+![image.png](images/vibe-coding-5/002.webp)
 
 作为上班族的我每天早上需要起床上班，大多数时间是在公司度过。起初，我在家里的电脑上搞了一些定时脚本——自动备份数据、爬取资讯、定时构建项目……挺方便的。但随着脚本越来越多（5+个），问题开始暴露：
 
@@ -49,7 +49,7 @@ url: "https://mp.weixin.qq.com/s/tsXQqeGNZnFUwc8eJu9IbQ"
 
 ## 解决方案
 
-![image.png](./images/vibe-coding-5/003.jpeg)
+![image.png](images/vibe-coding-5/003.webp)
 
 结合 **Linear 项目管理** 和 **Claude Code SDK** ，打造一个生产级的自动化系统—— **24Hours** ，让 AI 成为我的 7×24 小时待命助理。
 
@@ -83,7 +83,7 @@ url: "https://mp.weixin.qq.com/s/tsXQqeGNZnFUwc8eJu9IbQ"
 
 ## 整体架构
 
-![image.png](./images/vibe-coding-5/004.jpeg)
+![image.png](images/vibe-coding-5/004.webp)
 
 系统采用经典的"生产者-消费者"架构，分为四层：
 
@@ -124,7 +124,7 @@ url: "https://mp.weixin.qq.com/s/tsXQqeGNZnFUwc8eJu9IbQ"
 
 ## 核心流程
 
-![image.png](./images/vibe-coding-5/005.jpeg)
+![image.png](images/vibe-coding-5/005.webp)
 
 ### 一句话说清楚
 

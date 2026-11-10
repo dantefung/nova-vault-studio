@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "Morry.AI (@Morry4AI)"
 url: "https://x.com/Morry4AI/status/2117138261990892016"
-coverImage: "../images/morry-course2md-video-to-markdown-notes/001.jpg"
+coverImage: "../images/morry-course2md-video-to-markdown-notes/001.webp"
 ---
 
 # Morry.AI（@Morry4AI）：course2md 学习神器——把 YouTube/B 站/本地视频一键转为带截图的 Markdown 笔记
@@ -161,7 +161,7 @@ https://github.com/NVIDIA/SkillSpector
 
 希望可以帮到你～
 
-![](../images/morry-course2md-video-to-markdown-notes/001.jpg)
+![](../images/morry-course2md-video-to-markdown-notes/001.webp)
 
 ## 相关页面
 

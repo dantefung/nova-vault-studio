@@ -88,7 +88,7 @@ Claude Code 直接修改 `.pen` 文件中的对应参数。支持**变量和主�
 
 ## 截图示例
 
-![对话生成 UI 原型图示例](./images/pencil-claudecode-design/001.jpg)
+![对话生成 UI 原型图示例](images/pencil-claudecode-design/001.webp)
 
 *通过对话的方式，让 Pencil 生成 UI 原型图，保存后将 .pen 文件路径告诉 CC，即可生成前端代码*
 

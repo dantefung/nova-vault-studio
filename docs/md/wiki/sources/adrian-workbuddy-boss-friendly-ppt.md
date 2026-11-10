@@ -17,11 +17,11 @@ coverImage: "../images/adrian-workbuddy-boss-friendly-ppt/001.jpg"
 
 他试过用 HTML 做，但是效果不理想，老板也不喜欢。
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/002.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/002.webp)
 
 于是我向她提供了最近我用 Workbuddy 做的 PPT。说实话，目前 Workbuddy 做的 PPT 已经比之前我用 AI 做的 PPT 要排版灵活很多了，基本可以满足日常办公使用的要求所以涉及企业汇报、线下讲课和文件交接时，我现在会优先做可编辑的 PPT。
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/003.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/003.webp)
 
 ## 一、为什么我不使用 HTML 呢？
 
@@ -39,7 +39,7 @@ HTML 的优点很明显：可以插链接、图片和视频，动画效果也更
 
 这也是为什么我最近参加线下活动讲课，最后还是选择了可编辑的 PPT。HTML 很适合展示创意，但如果要汇报、演讲、交接和反复修改，我目前还是更愿意用 PPT。
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/004.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/004.webp)
 
 ## 二、我的制作过程
 
@@ -49,7 +49,7 @@ HTML 的优点很明显：可以插链接、图片和视频，动画效果也更
 
 当然，这只代表我这次的实际结果，不代表 ChatGPT 永远更适合写大纲。我的做法很简单：谁整理得更好，我就用谁的。
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/005.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/005.webp)
 
 确认大纲以后，我把它发给 WorkBuddy。它没有直接开始出图，而是先和我确认几个设计问题：PPT 要不要配图、我偏好什么风格，以及有没有参考文件。
 
@@ -59,11 +59,11 @@ HTML 的优点很明显：可以插链接、图片和视频，动画效果也更
 2. PPT 逐页文稿：每一页放什么标题、文字和案例；
 3. 演讲稿：每一页对应的口播、解释和转场。
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/006.png)
+![](../images/adrian-workbuddy-boss-friendly-ppt/006.webp)
 
 整体 PPT 的效果比我预想的要好很多
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/007.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/007.webp)
 
 于是我查阅官方文档，结合自己的制作经历，整理了一份可实操的 Workbuddy 做 PPT 的操作步骤。
 
@@ -73,11 +73,11 @@ HTML 的优点很明显：可以插链接、图片和视频，动画效果也更
 
 - 首页对话框处可直接选择“幻灯片”，Workbuddy 会给你提供一些写好的类型以及模版供你选择
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/008.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/008.webp)
 
 - 调用 Tencent-pptx skill
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/009.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/009.webp)
 
 - 直接告诉它你要做一个什么样的 PPT
 
@@ -146,7 +146,7 @@ HTML 的优点很明显：可以插链接、图片和视频，动画效果也更
 请按照以上偏好开始生成 PPT，最终导出可编辑的 .pptx 文件。
 ```
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/010.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/010.webp)
 
 5. 查看交付内容，再按页修改
 
@@ -170,7 +170,7 @@ HTML 的优点很明显：可以插链接、图片和视频，动画效果也更
 
 当然，最方便的地方是可以手动编辑文字、图片和图形。
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/011.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/011.webp)
 
 6. 导出后再检查一遍
 
@@ -187,7 +187,7 @@ HTML 的优点很明显：可以插链接、图片和视频，动画效果也更
 
 Punk｜中科大管理学硕士｜AI 提示词、AI 小白教程｜Punk 系列 Skills 作者｜3 个月赚了 8 位数｜Learn in Public｜FDE 文章浏览量 240w｜[@AdrianPunk115](https://x.com/@AdrianPunk115)
 
-![](../images/adrian-workbuddy-boss-friendly-ppt/012.jpg)
+![](../images/adrian-workbuddy-boss-friendly-ppt/012.webp)
 
 ## 相关页面
 

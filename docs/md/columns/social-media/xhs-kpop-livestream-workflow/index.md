@@ -9,7 +9,7 @@ url: "https://x.com/loverboyy0321/status/2102310545508782468"
 
 hi，大家好，我是米饭joy，我又来分享我的社媒大结果了，上次是threads，这次是小红书。**目前我的小红书账号已经1516个粉丝了，而且我只要发帖必涨粉，有图有真相。**
 
-![](./images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img1.jpg)
+![](images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img1.webp)
 
 实话告诉大家，我能在小红书拿到这个大结果，其实和我的兴趣爱好离不开关系，本人是一名十年资深追星女，从小学一直追到现在，近几年一直在追Kpop，所以我很敏锐地嗅到了这个商机。
 
@@ -21,7 +21,7 @@ hi，大家好，我是米饭joy，我又来分享我的社媒大结果了，上
 
 - **音视频转录工具**，拿来做直播转录和翻译文字素材
 
-![](./images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img2.jpg)
+![](images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img2.webp)
 
 - **ChatGPT老师，**拿来做图片素材，这位就不用多介绍了
 
@@ -37,7 +37,7 @@ YouTube找到直播场次之后，直接复制链接去转录
 
 拿到链接后，上传到转录工具，直接导出完整韩语文本，如图所示，左边是整场直播转录文本，右边是直播摘要。
 
-![](./images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img3.jpg)
+![](images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img3.webp)
 
 **2.1.3 用 Ghatgpt翻译和润色**
 
@@ -63,7 +63,7 @@ prompt如下：
 
 封面我会加上idol当天的直播画面截图，吸引点击，内页承载完整内容。整体保持统一的粉色、淡紫色剪贴簿风格。
 
-![](./images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img4.jpg)
+![](images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img4.webp)
 
 图片prompt如下：
 
@@ -85,7 +85,7 @@ AI 会完成大部分视觉设计，但文字是否清楚、分页是否合理�
 
 给大家看一些我的粉丝宝宝们的评论吧，她们都很可爱，一直夸我kkk，我做的也很开心，蒽，我是一个需要鼓励的孩子~🧡
 
-![](./images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img5.jpg)
+![](images/xhs-kpop-livestream-workflow/xhs-kpop-livestream-workflow-img5.webp)
 
 以上就是我的小红书运营工作流啦，希望大家看完能够有所收获。
 

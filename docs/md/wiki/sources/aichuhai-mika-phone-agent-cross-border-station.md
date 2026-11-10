@@ -27,7 +27,7 @@ X，ChatGPT，Gemini，谷歌，Facebook，TikTok，Claude，你再不需要看�
 
 出海最先挡住人的，不是英语，不是货源，是那些华润上网。
 
-![](../images/aichuhai-mika-phone-agent-cross-border-station/002.jpg)
+![](../images/aichuhai-mika-phone-agent-cross-border-station/002.webp)
 
 ## Mika 是什么
 
@@ -45,7 +45,7 @@ Apache 2.0 开源，免费，不经过任何第三方服务器，你接自己的
 
 以前要你自己啃的攻略，然后搭建华润网络，现在它帮你自动在手机上完成。
 
-![](../images/aichuhai-mika-phone-agent-cross-border-station/003.jpg)
+![](../images/aichuhai-mika-phone-agent-cross-border-station/003.webp)
 
 ## 它和 iLang 工程书怎么配合
 
@@ -57,7 +57,7 @@ iLang 工程书就是写给 AI 看的操作手册：先做什么，后做什么�
 
 我们给华润这件事写了一本工程书，你把它喂给 Mika，它就照着一步步做，碰到付款和系统授权才停下来叫你。
 
-![](../images/aichuhai-mika-phone-agent-cross-border-station/004.jpg)
+![](../images/aichuhai-mika-phone-agent-cross-border-station/004.webp)
 
 ## 华润的思路：让旧手机当中转站
 
@@ -69,7 +69,7 @@ Mika 在它上面装好一个叫 v2rayNG 的 App，填好一条线路，打开�
 
 主力手机上什么都不用装。
 
-![](../images/aichuhai-mika-phone-agent-cross-border-station/005.jpg)
+![](../images/aichuhai-mika-phone-agent-cross-border-station/005.webp)
 
 ## 有几句实话得说在前面
 
@@ -87,7 +87,7 @@ TikTok 会看你插的是不是国内 SIM 卡，这就是过去很多教程需�
 
 ## 算账
 
-![](../images/aichuhai-mika-phone-agent-cross-border-station/006.jpg)
+![](../images/aichuhai-mika-phone-agent-cross-border-station/006.webp)
 
 旧手机：抽屉里的，0 元。
 
@@ -99,7 +99,7 @@ Mika 和 v2rayNG：都开源免费，0 元。
 
 一个月 40 块，你多了一台不睡觉的出海工作站。
 
-![](../images/aichuhai-mika-phone-agent-cross-border-station/007.jpg)
+![](../images/aichuhai-mika-phone-agent-cross-border-station/007.webp)
 
 ## 通了之后能干什么
 
@@ -126,7 +126,7 @@ Facebook：投广告，跨境电商最主要的付费流量来源之一。
 
 能打开，就成了。
 
-![](../images/aichuhai-mika-phone-agent-cross-border-station/008.jpg)
+![](../images/aichuhai-mika-phone-agent-cross-border-station/008.webp)
 
 ## 最后
 
@@ -136,7 +136,7 @@ Facebook：投广告，跨境电商最主要的付费流量来源之一。
 
 剩下的，是你自己的生意。
 
-![](../images/aichuhai-mika-phone-agent-cross-border-station/009.jpg)
+![](../images/aichuhai-mika-phone-agent-cross-border-station/009.webp)
 
 线路购买：[https://justmysocks6.net/members/aff.php?aff=18864](https://justmysocks6.net/members/aff.php?aff=18864)
 

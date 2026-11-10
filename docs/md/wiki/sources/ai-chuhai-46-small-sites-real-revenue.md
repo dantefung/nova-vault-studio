@@ -41,7 +41,7 @@ coverImage: "../images/ai-chuhai-46-small-sites-real-revenue/001.jpg"
 
 1. CreativeClaw（creativeclaw.co）
 
-![](../images/ai-chuhai-46-small-sites-real-revenue/002.jpg)
+![](../images/ai-chuhai-46-small-sites-real-revenue/002.webp)
 
 - 是什么：一个远程 MCP 连接器，在 Claude、ChatGPT、Codex、Cursor 里加个网址，就能调 Flux、Seedance、Kling、ElevenLabs 出图、出视频、配音，按积分付费，$10 = 1,000 积分，不过期。
 
@@ -167,7 +167,7 @@ coverImage: "../images/ai-chuhai-46-small-sites-real-revenue/001.jpg"
 
 13. Laper（laper.ai）
 
-![](../images/ai-chuhai-46-small-sites-real-revenue/003.jpg)
+![](../images/ai-chuhai-46-small-sites-real-revenue/003.webp)
 
 - 是什么：网页版 AI 编剧软件，按行业格式排版剧本、分析结构、多人协作，能从剧本生成角色、场景图和分镜。
 
@@ -273,7 +273,7 @@ coverImage: "../images/ai-chuhai-46-small-sites-real-revenue/001.jpg"
 
 23. SuperX（superx.so）
 
-![](../images/ai-chuhai-46-small-sites-real-revenue/004.jpg)
+![](../images/ai-chuhai-46-small-sites-real-revenue/004.webp)
 
 - 是什么：X 帖子 AI 写作、定时发布、数据分析的网页加 Chrome 扩展。Pro $49/月。
 
@@ -359,7 +359,7 @@ coverImage: "../images/ai-chuhai-46-small-sites-real-revenue/001.jpg"
 
 31. Sleek（sleek.design）
 
-![](../images/ai-chuhai-46-small-sites-real-revenue/005.jpg)
+![](../images/ai-chuhai-46-small-sites-real-revenue/005.webp)
 
 - 是什么：一句话生成整套风格统一的手机 App 界面，可导出 Figma 或代码。
 
@@ -475,7 +475,7 @@ coverImage: "../images/ai-chuhai-46-small-sites-real-revenue/001.jpg"
 
 42. Rank Prompt（rankprompt.com）
 
-![](../images/ai-chuhai-46-small-sites-real-revenue/006.jpg)
+![](../images/ai-chuhai-46-small-sites-real-revenue/006.webp)
 
 - 是什么：监测品牌在 ChatGPT、Gemini、Perplexity、Claude、Grok、Google AI Mode 里被提到和引用的情况，给代理商白标报告。
 

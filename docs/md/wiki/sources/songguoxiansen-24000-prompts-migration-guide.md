@@ -4,7 +4,7 @@ date: "2026-10-29"
 source: "X/Twitter"
 author: "松果先森 (@songguoxiansen)"
 url: "https://x.com/songguoxiansen/status/2115447135588261945"
-coverImage: "../images/songguoxiansen-24000-prompts-migration-guide/001.jpg"
+coverImage: "../images/songguoxiansen-24000-prompts-migration-guide/001.webp"
 ---
 
 # 松果先森：24000+ 免费提示词迁移教程（可本地保存，跨工具通用）
@@ -21,7 +21,7 @@ https://opennana.com/awesome-prompt-gallery https://x.com/songguoxiansen/status/
 
 https://t.co/jaaHcFSJjH
 
-![](../images/songguoxiansen-24000-prompts-migration-guide/001.jpg)
+![](../images/songguoxiansen-24000-prompts-migration-guide/001.webp)
 
 ## 相关页面
 

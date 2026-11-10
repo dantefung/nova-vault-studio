@@ -4,7 +4,7 @@ date: "2026-10-31"
 source: "X/Twitter"
 author: "柒晨来了 (@qichen1019)"
 url: "https://x.com/qichen1019/status/2116653692237529165"
-coverImage: "../images/qichen-xiaohongshu-operation-skills/001.jpg"
+coverImage: "../images/qichen-xiaohongshu-operation-skills/001.webp"
 ---
 
 # 柒晨（@qichen1019）：小红书全套运营 Skill 清单——12 款工具串起调研、写作、做图与分发
@@ -99,9 +99,9 @@ coverImage: "../images/qichen-xiaohongshu-operation-skills/001.jpg"
    简介：可作为选题策略前面的数据采集工具，把热门笔记交给分析 Skill 继续处理。
    链接：https://github.com/jackwener/xhs-cli
 
-![](../images/qichen-xiaohongshu-operation-skills/001.jpg)
+![](../images/qichen-xiaohongshu-operation-skills/001.webp)
 
-![](../images/qichen-xiaohongshu-operation-skills/002.jpg)
+![](../images/qichen-xiaohongshu-operation-skills/002.webp)
 
 ## 相关页面
 

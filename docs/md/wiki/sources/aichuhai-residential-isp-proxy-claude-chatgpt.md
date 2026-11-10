@@ -146,7 +146,7 @@ rules:
 
 已经有可用的 Shadowrocket 和前置节点，就按以下顺序设置。没有前置线路时，先解决到供应商入口的可达性。
 
-![](../images/aichuhai-residential-isp-proxy-claude-chatgpt/002.jpg)
+![](../images/aichuhai-residential-isp-proxy-claude-chatgpt/002.webp)
 
 ① 添加 ISP 出口。 点“＋”，Type 按供应商实际协议选择 HTTP 或 SOCKS5。Address、Port、User、Password 全部来自你购买套餐的控制台，名称可以记为 ISP-EXIT。
 
@@ -185,7 +185,7 @@ TUN 按需开启。 有些程序不读系统代理，才需要用 TUN 扩大接�
 
 如果你自己或明确授权你的家人，在海外有常在线家庭设备，可以通过 Tailscale 出口节点使用那条家庭宽带。设备必须实际接在家庭网络上；放在云机房的机器，出口仍是云机房。
 
-![](../images/aichuhai-residential-isp-proxy-claude-chatgpt/003.jpg)
+![](../images/aichuhai-residential-isp-proxy-claude-chatgpt/003.webp)
 
 图中的 desktop 代表出口设备。只有它接在真实家庭宽带上，网站看到的才是那条家庭线路的公网地址。
 

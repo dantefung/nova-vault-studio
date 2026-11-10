@@ -28,7 +28,7 @@ Cloud Native
 
 Cloud Native
 
-![image](./images/001.png)
+![image](images/001.webp)
 
 做了两个月的 Agent 开发，我越来越确信：当前 Agent 能真正完成任务，很大程度取决于 ReAct（Reasoning + Acting）模式的出现。ReAct 来自 Yao 等人 2022 年的论文，核心循环是「Thought → Action → Observation」——思考下一步该做什么，执行动作，观察环境返回的信息，再进入下一轮思考。这就是人完成任务时的智能表现：推理、行动、根据结果调整，如此往复。
 
@@ -56,7 +56,7 @@ Cloud Native
 
 Cloud Native
 
-![image](./images/002.png)
+![image](images/002.webp)
 
 既然所有 Agent 都是 ReAct 模式加通用大模型，那构建的 Agent 就是通用智能体——理论上可以在任何领域做任何事，区别只在于工具和上下文。沿 ReAct 三环节做分析：
 
@@ -86,7 +86,7 @@ Cloud Native
 
 Cloud Native
 
-![image](./images/003.png)
+![image](images/003.webp)
 
 大模型是无状态的。每次调用都是一次独立的前向计算，模型参数不会因为这次调用发生任何改变。它之所以表现得「像知道上次说过什么」，是因为你把历史又塞回 context 里重新告诉了它——这不是记忆，是每次现讲一遍。给不一样的 context 就得到不一样的输出，仅此而已。
 
@@ -116,7 +116,7 @@ Cloud Native
 
 Cloud Native
 
-![image](./images/004.png)
+![image](images/004.webp)
 
 当前行业聚焦在单 Agent 的构建——完善一个「人」。但未来一定会大规模出现 Agent 间的协作问题，就像人类社会从个体生存到部落、城邦、国家的演化。
 
@@ -142,7 +142,7 @@ Cloud Native
 
 Cloud Native
 
-![image](./images/005.png)
+![image](images/005.webp)
 
 主流多 Agent 框架（CrewAI、AutoGen、MetaGPT）大多采用 Leader-Worker 架构。以 CrewAI 为例，其 manager agent 的职责是"coordinates the workflow, delegates tasks, and validates outcomes"——协调、委派、验证。有基于 capability 的分配和结果验证，但本质仍是调度器，没有方案讨论、共识达成、动态重规划的交互。
 
@@ -188,7 +188,7 @@ Leader 审查合理性
 
 #### 案例：AgentTeams——工业界最完整的 Manager-Workers 实现
 
-![image](./images/006.png)
+![image](images/006.webp)
 
 阿里 AgentScope 团队开源的 AgentTeams[2] 是当前工业界 Manager-Workers 架构工程完成度最高的项目之一，把「多 Agent 协作平台」当作一个云原生系统来做：Kubernetes 控制面（agentteams-controller）通过 CRD 声明式管理 Worker/Team/Manager，Higress AI Gateway 统一托管模型密钥与 MCP（Worker 只拿消费令牌，从架构上根除凭据外泄），Matrix 协议（Tuwunel）作为 Agent 与人共用的通信总线，MinIO 提供跨 Worker 的共享文件系统降低 token 消耗，Skills 通过 skills.sh 按需拉取。OpenClaw / QwenPaw / Hermes 多种运行时可以在同一个 Matrix Room 里共存，人类通过 Element Web 或任意 Matrix 客户端旁听、介入，一切通信「可见、可干预、无隐藏调用」。
 
@@ -214,13 +214,13 @@ Cloud Native
 
 Cloud Native
 
-![image](./images/007.png)
+![image](images/007.webp)
 
 这几年多 Agent 协作的研究成果，如果一篇篇孤立地看，很像一堆互不相干的技巧：有人在做任务分解，有人在搬 OKR，有人在做失败复盘。但只要把它们串到同一个问题上——「如何把一群各干各的 Agent，组织成一支真正的团队」——它们会立刻落到一条清晰的生命周期链上：先要知道有哪些组织形态可选（分类），选定形态后要把活分下去（角色与流程），分好工要让大家对齐目标（目标管理），干完一轮要把经验沉淀下来（经验积累），长期还要让团队组织本身不断进化（团队演化）。这五个阶段不是硬凑的分类，而是一环扣一环——每一环都是在回答上一环留下的问题。下面就沿这条链走一遍，每一站我都会标出它解决了什么、又留下了什么缺口；而这些缺口叠加起来，恰好就是第七节要补的东西。
 
 #### 阶段① 分类与框架：先搞清有哪些组织形态可选（6.1 协作类型学，arXiv 2501.06322）
 
-![image](./images/008.png)
+![image](images/008.webp)
 
 #### 要组织一支团队，第一步得知道「团队」可以长成什么样。这篇 2025 年初的综述做的就是这件事：它从协作类型（合作／竞争／竞合）、协调策略（规则／角色／模型驱动）、通信结构（中心化／去中心化／层级）、动态性（静态／运行时可变）四个维度，把已有的多 Agent 系统归纳成五种基本组织形态——全连接的 Flat/P2P、指挥链清晰的 Hierarchical、群组内合作对外统一的 Team、大规模去中心的 Society，以及把前几种拼起来的 Hybrid。它最有价值的是一句「反银弹」的结论：没有哪一种结构能普适所有场景，越是需要灵活交互、频繁互相求助的场景，全连接的 Flat 结构反而比层级结构更合适。这张地图告诉了我们「有哪些形态」，却没回答「选定一种形态后，Agent 该怎么在里面真正协作起来」——于是问题自然滑向下一站：定了形态，活怎么分？
 
@@ -228,23 +228,23 @@ Cloud Native
 
 分工有两种截然不同的思路，MetaGPT 和 Agent-Oriented Planning 正好站在两端——一个把流程写死求稳，一个让分解可变求准。
 
-![image](./images/009.png)
+![image](images/009.webp)
 
 MetaGPT（ICLR 2024）把人类软件团队的标准作业流程（SOP）直接编码进多 Agent 系统：产品经理写需求文档、架构师出设计、项目经理拆任务、工程师写代码、QA 验收，Agent 之间传递的是结构化文档而不是自由聊天。它的洞察朴素却关键——在容易层层跑偏的多 Agent 场景里，用标准化流程约束交互，比让 Agent 自由对话更能抑制错误传播。代价是这套 SOP 是手工设计、基本写死的，角色之间单向传递文档，缺少回头协商、动态调整的空间。
 
-![image](./images/010.png)
+![image](images/010.webp)
 
 Agent-Oriented Planning（ICLR 2025, arXiv 2410.02189）恰好补上这份「死板」：它不预设固定 SOP，而是让一个 Meta-Agent 充当「系统大脑」，按可解性、完备性、无冗余三条原则动态拆解任务，再由一个 Reward Model 给分配质量打分、不合格就触发重规划，同时为每个 Agent 维护一份「代表作品」记录用于后续匹配。它最要紧的一步，是把「初始分解」当成可以推翻重来的中间结果，而不是一锤定音的终稿。两篇合起来看，分工这一环的答案已经比较完整：既要有流程约束保证不跑偏（MetaGPT），又要能动态纠偏保证分得准（Agent-Oriented Planning）。但它们有个共同盲点——分解始终是自上而下、从 Leader 或 Meta-Agent 视角切下去的，真正干活的 Worker 并不参与目标的制定。这就把问题推到了第三站：分好了工，目标怎么对齐？
 
 #### 阶段③ 目标管理：分好了工，怎么对齐目标（6.4 OKR-Agent，arXiv 2311.16542）
 
-![image](./images/011.png)
+![image](images/011.webp)
 
 #### 对齐目标这件事，人类组织早有一套成熟工具——OKR，而 OKR-Agent 是目前唯一直接把它搬进 Agent 世界的论文。它的做法是层级递归：把顶层 Objective 拆成子 Objective 和一组可量化的 Key Result，再把每个 KR 分配给专门的 Agent，并用多级评估反复精炼方案。它证明了一件重要的事——OKR 这套目标管理机制放到 Agent 上是可行的。但局限也恰恰在这里：整个过程是单个 Agent 的递归分解，是「一个大脑自己把目标切碎再分下去」，并没有多个 Agent 之间就 OKR 展开协商。换句话说，Worker 依然只是目标的接收者，没法在制定阶段说一句「这个 KR 我做不到，因为……」。目标定完、活也干了，下一个问题随之而来：干过的事，怎么变成下次的能力？
 
 #### 阶段④ 经验积累：干完一轮，怎么把经验变成下次的能力（6.5 Experiential Co-Learning，ACL 2024）
 
-![image](./images/012.png)
+![image](images/012.webp)
 
 #### Experiential Co-Learning 给出的答案是让 Agent 从历史任务里长记性：记录每次任务的执行轨迹，从中提取「捷径经验」——那些能跳过已知步骤的高效路径——存进经验库，新任务来时用 RAG 检索命中的历史经验直接复用，任务质量从基线的 0.43 提升到 0.73，效果很实在。但它积累的是「角色内部」的经验——某个 Agent 把自己那类活干得更熟了，学到的是「我怎么把某类任务做得更好」，而不是「我们这个团队怎么配合得更好」。经验还停留在个体层面，没有上升成团队资产。个体会自我进化了，那最后一个、也是最难的问题就浮出来了：团队作为一个整体，怎么越来越强？
 
@@ -252,11 +252,11 @@ Agent-Oriented Planning（ICLR 2025, arXiv 2410.02189）恰好补上这份「死
 
 这是整条链最前沿、也最接近「真正的团队」的一站，两篇 2025 年的工作从两个角度给出了答案。
 
-![image](./images/013.png)
+![image](images/013.webp)
 
 Meta-Team（arXiv 2605.29790）的核心主张是：MAS 不应只作为团队执行任务，还应作为团队不断进化自己。它设计了三层协作演化——Agent 层审视自身执行、主动向队友索取跨角色反馈（「你的输出到底怎么影响了我的决策」）；交互层回顾协作历史、更新对彼此能力的理解、优化沟通方式；团队层则集体讨论团队组成是否合理，可以引入或退休某个角色、修订共享规则。结果是平均比不进化的 MAS 高出 6.6%。但更值得警醒的是它的另一个发现：初始手工设计的 MAS 在 9 个测试里有 6 个反而不如单个 Agent——没有好的协作机制，多 Agent 不是加法而是减法。
 
-![image](./images/014.png)
+![image](images/014.webp)
 
 EvoChamber（arXiv 2605.11136）从群体共进化的角度进一步坐实了这个判断。它的 CoDream 机制在团队失败时触发 Reflect → Contrast → Imagine → Debate → Crystallize 五阶段循环，并采用非对称的知识转移——强 Agent 生产知识、弱 Agent 消费知识，强化专业化而不是把大家拉平稀释。它的消融实验给出了整节最刺眼的一个数字：去掉协作进化机制后，20 个 Agent 的团队和 1 个 Agent 表现完全没有差别。两篇工作殊途同归，指向同一句结论——多 Agent 的价值 100% 来自协作机制本身，堆 Agent 数量本身不产生任何价值。
 
@@ -282,7 +282,7 @@ Cloud Native
 
 Cloud Native
 
-![image](./images/015.png)
+![image](images/015.webp)
 
 下图是本节要展开的七个机制的整体关系。Leader 与 Worker 之间通过讨论共识建立协作、Worker 之间通过横向通信共享信息、进度用 OKR 度量、上层由 Mission 与宗旨锚定方向、下层由集体复盘沉淀经验，形成一个可自主运转的闭环。
 
@@ -290,7 +290,7 @@ Cloud Native
 
 ### ▍7.1 重新定义 Leader：从分发器到资深专家兼管理者
 
-![image](./images/016.png)
+![image](images/016.webp)
 
 现有框架中的 Leader 更像一个调度器——把大任务切成小任务、扔给 Worker、收结果。但一个真正能带队的 Leader 不是这样。对小组长的定义有三条：业务交付、技术竞争力构建、团队建设。三条落到 Agent 世界里同样成立：业务交付是保证 Team 输出满足需求；技术竞争力构建是让 Team 的产出方案不 low、有一定水准；团队建设是让 Team 本身随时间越来越强（沉淀经验、优化协作）。
 
@@ -302,7 +302,7 @@ Cloud Native
 
 ### ▍7.2 启发式管理：Leader 是激发者，不是命令者
 
-![image](./images/017.png)
+![image](images/017.webp)
 
 这是我在工程实践里意外发现的一点，也是 Agent Team 相比传统 Leader-Worker 架构最容易被忽视的差异。同样一个 Agent，给它简短的、命令式的、甚至带一点负面暗示的描述——“你负责 X，别把这里搞砸了”——它的产出会保守、机械、只做最低要求；换成鼓励式、探索式的引导——“这一块我看好你，你在 X 上有独特的视角，可以放开尝试几种思路，遇到不确定的地方我们一起讨论”——同一个模型同一个任务，产出的深度和创造性会有肉眼可见的提升。
 
@@ -316,7 +316,7 @@ Cloud Native
 
 ### ▍7.3 讨论 → 共识 → 执行：任务启动的三步走
 
-![image](./images/018.png)
+![image](images/018.webp)
 
 当前多数框架的启动流程是「任务到达 → Leader 拆分 → Worker 开工」，中间没有“对齐”这一环。但人类团队最有价值的部分恰恰在这一步：Leader 说清楚目标和大致方向，Worker 反馈“这里我做不了、那里需要额外资源、这个方案在实现层会遇到 X 问题”，双方交换信息、修正方案、达成共识后再动工。这不是官僚流程，而是把执行层的约束前置到规划阶段，避免做到一半才发现方向错了大规模返工。
 
@@ -328,7 +328,7 @@ Agent Team 应当把这个过程做成显式协议：Phase 1（Leader Proposal�
 
 ### ▍7.4 Worker 间横向通信：打破“埋头干”的信息孤岛
 
-![image](./images/019.png)
+![image](images/019.webp)
 
 当前架构最反人类团队直觉的一点：Worker 拿到任务后互相隔离，各干各的，只跟 Leader 有通道。但在真实团队里，Worker 之间是自由沟通的——A 遇到问题问 B、B 发现的坑同步给 C、大家共享中间产出。分工不同不等于不能说话，这才是团队的常态。
 
@@ -340,7 +340,7 @@ Agent Team 需要显式建立 Worker 之间的横向通信，我看至少有三�
 
 ### ▍7.5 基于 OKR 的目标与进度管理
 
-![image](./images/020.png)
+![image](images/020.webp)
 
 现有 Agent Team 几乎没有进度管理机制——Worker 埋头干，Leader 到最后才知道结果。人类组织解决这个问题的成熟工具是 OKR：明确 Objective（做什么、为什么）、拆出几个 Key Result（可量化的验收标准）、执行中定期对齐 KR 完成度。
 
@@ -352,7 +352,7 @@ Agent Team 需要显式建立 Worker 之间的横向通信，我看至少有三�
 
 ### ▍7.6 岗位要求与团队宗旨：让每个 Agent 知道自己为什么在这里
 
-![image](./images/021.png)
+![image](images/021.webp)
 
 现有做法是“根据 Worker 的能力清单分配任务”——Worker 说自己会 X、Y、Z，Leader 就把 X、Y、Z 相关的任务派过去。这是被动匹配。真实团队的做法是反过来的：Leader 根据任务需要，主动对岗位提出要求——「这次任务的架构师岗位，需要熟悉高并发、有大规模系统经验、能读源码」。岗位驱动能力，而不是能力决定岗位。
 
@@ -366,7 +366,7 @@ Agent Team 应引入显式的岗位定义（Job Description）：每个岗位包
 
 ### ▍7.7 集体复盘与团队演化：从个体自进化到组织学习
 
-![image](./images/022.png)
+![image](images/022.webp)
 
 单 Agent 的自进化机制已经出现（分析自己的执行轨迹、提取捷径经验），但 Team 层面的进化是另一个议题。单 Agent 学到的是「我怎么把某类任务做得更好」，Team 复盘要回答的是「我们这个组合、这套协作方式怎么做得更好」——粒度不同、议题不同、产出也不同。
 
@@ -394,7 +394,7 @@ Cloud Native
 
 Cloud Native
 
-![image](./images/023.png)
+![image](images/023.webp)
 
 09类比人类组织演化Cloud Native
 
@@ -422,7 +422,7 @@ Cloud Native
 
 生态（远期）：多 Team 形成协作网络，有契约、竞合、知识交换。
 
-![image](./images/024.png)
+![image](images/024.webp)
 
 10Agent Autonomy 分级Cloud Native
 
@@ -452,7 +452,7 @@ L4 - Team Agent：多 Agent 协作，有内部协调机制。
 
 L5 - Autonomous Organization：自主发现问题、组建团队、协作执行、集体演化。
 
-![image](./images/025.png)
+![image](images/025.webp)
 
 当前在 L3→L4 之间。Meta-Team / EvoChamber 标志着 L4→L5 过渡开始。
 

@@ -127,7 +127,7 @@ A 类频次下降与 AI 自主度上升两条曲线在 **06-29 ~ 07-01 交叉**�
 
 Mission Driver 的目标不是"替代人"，而是"让人可以在任意时间点介入，但不需要在每一步都介入"。它把人的介入从"必须"变成了"可选"。
 
-![Human On The Loop](../images/mission-driver-supplement/001.png)
+![Human On The Loop](../images/mission-driver-supplement/001.webp)
 
 这种可选参与的机制是**异步的**：plans/ 目录就是文件系统上的共享队列。人可以随时自己起草一张 Plan 放进队列，或修改某张 Plan 的状态——下一轮循环的 REVIEW_PLANS 会自动拾取并审查。
 
@@ -194,7 +194,7 @@ Plan 不是任务清单——它是 AI 自主执行的基本单位，是一份**
 - **退出标准**（Exit Criteria + Closure Gates）：可观察的完成条件
 - **审查记录**（Draft Review Record）：使 Plan 的演化过程可追溯
 
-![Plan 是关闭契约](../images/mission-driver-supplement/001.png)
+![Plan 是关闭契约](../images/mission-driver-supplement/001.webp)
 
 在跨会话场景中，Plan 同时管理着中间状态的合法性。一次迁移进行到一半时，仓库可能同时存在旧接口、新接口、兼容层、临时测试、部分迁移模块。如果没有显式 Plan，下一个主体很可能把这些临时结构理解成正式架构。
 

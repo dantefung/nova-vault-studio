@@ -105,7 +105,7 @@ GPT、Claude 这些模型，根本看不懂视频。它们只会暴力抽帧，�
 
 还有一个小细节：AI 怎么看，取决于你怎么问。同一条片子换个提示词，它能从"标准"说成"土味"。所以当评委的提示词，我们先拿答案已知的片子校准过，才让它上岗。
 
-![](../images/leaf-sanren-seecut-video-pipeline/002.jpg)
+![](../images/leaf-sanren-seecut-video-pipeline/002.webp)
 
 > ② 自己剪、自己挑刺、自己改：一个不用你盯的循环 loop
 
@@ -125,7 +125,7 @@ GPT、Claude 这些模型，根本看不懂视频。它们只会暴力抽帧，�
 
 （demo 那条是早期版本，改了 5 版；现在收敛到最多 3 版，够用，也更快。）
 
-![](../images/leaf-sanren-seecut-video-pipeline/003.jpg)
+![](../images/leaf-sanren-seecut-video-pipeline/003.webp)
 
 > ③ 宁可截真图，也不画假界面
 
@@ -135,7 +135,7 @@ GPT、Claude 这些模型，根本看不懂视频。它们只会暴力抽帧，�
 
 之前 AI 为了把画面"填满"，会画一堆假代码窗、假 App 界面，越满越丑。改成截真东西之后，没有额外的 B-roll，照样做得很有料。
 
-![](../images/leaf-sanren-seecut-video-pipeline/004.jpg)
+![](../images/leaf-sanren-seecut-video-pipeline/004.webp)
 
 > ④ 露不露脸，看这句是"对你说"还是"给你看"
 
@@ -151,7 +151,7 @@ GPT、Claude 这些模型，根本看不懂视频。它们只会暴力抽帧，�
 
 组件大多直接用 HyperFrames 官方的，不用每个动效都跟 AI 从零磨，所以写起来很快。
 
-![](../images/leaf-sanren-seecut-video-pipeline/005.jpg)
+![](../images/leaf-sanren-seecut-video-pipeline/005.webp)
 
 ## 4. 三步走：不拍视频，也能出一条网感口播
 
@@ -184,7 +184,7 @@ GPT、Claude 这些模型，根本看不懂视频。它们只会暴力抽帧，�
 
 这一步要自己装第三方的剪映草稿引擎（jianying-headless）。没装也不影响，照样拿到成片和分层素材。细节第三篇讲。
 
-![](../images/leaf-sanren-seecut-video-pipeline/006.jpg)
+![](../images/leaf-sanren-seecut-video-pipeline/006.webp)
 
 ## 5. 丑话说在前：它还不够好的地方
 

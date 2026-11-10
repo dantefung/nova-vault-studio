@@ -38,7 +38,7 @@ Managed Agents 核心模块：
 *   Sandbox（隔离执行环境）‌：提供独立的代码/文件执行单元，执行环境与核心系统物理隔离，避免工具调用异常或容器崩溃导致整体任务失败，将错误转化为可处理的单纯异常。
 *   Session（持久化日志）‌：突破传统上下文窗口限制，将完整历史事件日志作为外部化记忆仓库，支持按需读取、回放历史和提取关键切片，解决长任务中信息存储与回溯的问题。
 
-![架构与实践插图](../images/multica-managed-agents-practice/001.png)
+![架构与实践插图](../images/multica-managed-agents-practice/001.webp)
 
 #### 1.3、架构设计：四类基础对象
 
@@ -271,17 +271,17 @@ make selfhost
 
 *   Multica Squad：团队设置 + 成员组织（3xAgent + 1x人）。
 
-![架构与实践插图](../images/multica-managed-agents-practice/002.png)
+![架构与实践插图](../images/multica-managed-agents-practice/002.webp)
 
 *   Multica Agent：Agent角色的设置类信息。
 
 墨子为例，设置信息包括：运行时（本地MacMini + OpenCode） + Agent 模型（DeepSeek） + 技能（design-taste-frontend） + 指令等。
 
-![架构与实践插图](../images/multica-managed-agents-practice/003.png)
+![架构与实践插图](../images/multica-managed-agents-practice/003.webp)
 
 Multica 运行时：我的电脑上安装了 Claude、Codex 和 OpenCode，如下图全部识别可用。
 
-![架构与实践插图](../images/multica-managed-agents-practice/004.png)
+![架构与实践插图](../images/multica-managed-agents-practice/004.webp)
 
 #### 4.2、团队协同规则
 
@@ -336,7 +336,7 @@ Multica 运行时：我的电脑上安装了 Claude、Codex 和 OpenCode，如�
 *   案例场景：“新建一个博客网站，只包含前端HTML页面，无需后端逻辑”。
 *   需求承接：通过 Multica 的 Squad/团队 承接，过程中体现多智能体调度、会话隔离、事件追溯、技能等能力。
 
-![架构与实践插图](../images/multica-managed-agents-practice/005.png)
+![架构与实践插图](../images/multica-managed-agents-practice/005.webp)
 
 **Multica处理流程分析**：
 
@@ -350,14 +350,14 @@ Multica 流程参考下图，核心步骤如下：
 *   **代码验收**：「萧何（队长）」接到代码开发完成通知，会进行代码验收。验收完成后，会主动更新任务状态。
 *   **需求测试/项目部署**：按照前文组织设计，这部分由人来处理。因此，由“Jason（我）”人工触发。
 
-![架构与实践插图](../images/multica-managed-agents-practice/006.png)
+![架构与实践插图](../images/multica-managed-agents-practice/006.webp)
 
 **Multica处理核心步骤图例**：
 
 *   需求分析 & 分配"技术方案"任务：「萧何（队长）」 -> 「张良（架构师）」
 
-![架构与实践插图](../images/multica-managed-agents-practice/007.png)
+![架构与实践插图](../images/multica-managed-agents-practice/007.webp)
 
 *   技术方案完成：「张良（架构师）」 -> 「萧何（队长）」
 
-![架构与实践插图](../images/multica-managed-agents-practice/008.png)
+![架构与实践插图](../images/multica-managed-agents-practice/008.webp)

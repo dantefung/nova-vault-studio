@@ -454,22 +454,22 @@ DeepSeek 后生成的代码如下，我们在本地创建一个空白的 html �
 
 其实不仅仅是封面制作，是否一些简单的动画效果也可以通过这种方式生成 gif 图呢？留给大家自己探索，也欢迎读者朋友跟我分享自己的经验
 
-[img-0]:images/04-02-deepseek-cover/p01.jpg
+[img-0]:images/04-02-deepseek-cover/p01.webp
 
-[img-1]:images/04-02-deepseek-cover/p02.jpg
+[img-1]:images/04-02-deepseek-cover/p02.webp
 
-[img-2]:images/04-02-deepseek-cover/p03.jpg
+[img-2]:images/04-02-deepseek-cover/p03.webp
 
-[img-3]:images/04-02-deepseek-cover/p04.jpg
+[img-3]:images/04-02-deepseek-cover/p04.webp
 
-[img-4]:images/04-02-deepseek-cover/p05.jpg
+[img-4]:images/04-02-deepseek-cover/p05.webp
 
-[img-5]:images/04-02-deepseek-cover/p06.jpg
+[img-5]:images/04-02-deepseek-cover/p06.webp
 
-[img-6]:images/04-02-deepseek-cover/p07.jpg
+[img-6]:images/04-02-deepseek-cover/p07.webp
 
-[img-7]:images/04-02-deepseek-cover/p08.jpg
+[img-7]:images/04-02-deepseek-cover/p08.webp
 
-[img-8]:images/04-02-deepseek-cover/p09.jpg
+[img-8]:images/04-02-deepseek-cover/p09.webp
 
-[img-9]:images/04-02-deepseek-cover/p10.jpg
+[img-9]:images/04-02-deepseek-cover/p10.webp

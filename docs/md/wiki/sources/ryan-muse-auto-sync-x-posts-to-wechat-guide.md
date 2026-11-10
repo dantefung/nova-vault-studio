@@ -32,7 +32,7 @@ coverImage: "../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/001.jpg"
 
 每天只需要你做两件事：看预览、点发表。其余排版、存草稿、传图、对齐检查都由 Muse 完成。
 
-![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/002.jpg)
+![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/002.webp)
 
 0. 2 分工：谁做什么
 
@@ -214,7 +214,7 @@ X 账号是 @7998l201，同一台电脑已登录 X 号和公众号后台。
 
 ⚠️ 边界：固定中国 IP 只用于登录公众号后台。不要让 Muse 用它去登录 X、去打开别的网站，也不要用直连（不走代理）去登录公众号后台。
 
-![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/003.jpg)
+![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/003.webp)
 
 2. 5 会话 storage 说明
 
@@ -337,7 +337,7 @@ MD 格式模板（直接复制改一改就能用）：
 - 封面图要横图、清晰，标题文字不要贴边。公众号封面会被裁成 2.35:1 左右，重要文字不要贴边（见第 5.6 节）。
 - 正文图和锚点要一一对应：有几张图，就有几个锚点；锚点写了哪张图，就要发哪张图。
 
-![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/004.jpg)
+![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/004.webp)
 
 出错怎么办：
 
@@ -484,7 +484,7 @@ Muse 抓取前会先核对“已同步清单”，避免重复：
 
 ✅ 看到什么算去重成功：Muse 告诉你“今天 X 有 N 篇新文章，其中 M 篇已同步过，跳过；剩余 K 篇是新的，已抓取并存入草稿”，说明去重生效了。
 
-![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/005.jpg)
+![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/005.webp)
 
 排版与存草稿：和方式 A 一样
 
@@ -572,7 +572,7 @@ Muse 排版时遵守两条硬规则，你不需要记代码，只需要知道效
 
 ⚠️ 如果你在手机预览里看到某段正文被居中了，或者某个卡片标题被挤成两行，立刻截图发给 Muse，告诉它“这里居中了 / 这里换行了”，Muse 会修复并更新规则。
 
-![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/006.jpg)
+![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/006.webp)
 
 4. 3 广告与签名：Muse 会自动加上
 
@@ -627,7 +627,7 @@ Muse 排版完会跑一个校验程序。你只需要看结论：
 
 Muse 存草稿时，会先把你的图片一张一张上传到公众号素材库，拿到线上地址，再把正文里的本地图片路径替换成线上地址。
 
-![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/007.jpg)
+![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/007.webp)
 
 看到什么算成功：
 
@@ -707,7 +707,7 @@ Muse 存好草稿后，会给你发一张手机预览二维码。
 
 检查方法：
 
-![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/008.jpg)
+![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/008.webp)
 
 - 发现任何一项不对，截图发给 Muse，告诉它“第 X 项有问题，截图里红圈处”，Muse 会修复并重新给你新的预览二维码。
 - 全部通过后，告诉 Muse“这篇预览没问题”，再去第 7 章发表。
@@ -785,7 +785,7 @@ Muse 存好草稿后，会给你发一张手机预览二维码。
 
 8. 每天自动运营：两种方式的每日流程
 
-![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/009.jpg)
+![](../images/ryan-muse-auto-sync-x-posts-to-wechat-guide/009.webp)
 
 8. 1 每天的节奏（两种方式对照）
 

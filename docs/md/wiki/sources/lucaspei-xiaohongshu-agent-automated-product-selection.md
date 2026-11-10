@@ -23,7 +23,7 @@ coverImage: "../images/lucaspei-xiaohongshu-agent-automated-product-selection/00
 
 以前我选品，主要靠刷千帆的成交榜。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/002.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/002.webp)
 
 第一个让人崩溃的地方，是只能用手机看。千帆在电脑上看不到商品，也跳不进店铺。你想知道这个号到底在卖什么，只能掏出手机，点主页，点店铺，一个一个翻。电脑上一眼就能扫完的东西，在手机上得一屏一屏地划。
 
@@ -31,7 +31,7 @@ coverImage: "../images/lucaspei-xiaohongshu-agent-automated-product-selection/00
 
 时间就是这么没的。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/003.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/003.webp)
 
 好不容易翻到一个看着不错的，还需要跳转到小红书去刷。
 
@@ -65,7 +65,7 @@ coverImage: "../images/lucaspei-xiaohongshu-agent-automated-product-selection/00
 
 所以我们自己搭了一套东西。用安卓模拟器挂上矩阵号，用 Agent 自己去搜关键词、刷商品、点店铺，把数据一条条抓下来；抓下来的数据再交给 AI 深度分析。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/004.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/004.webp)
 
 AI 在中间做的，是听懂我要什么，调这些能力去跑，自动的采集商品与笔记数据，跑出错了自己纠偏，最后把结果整理成我能直接看的表和报告。
 
@@ -77,17 +77,17 @@ AI 在中间做的，是听懂我要什么，调这些能力去跑，自动的�
 
 现在我是整个赛道一起采。PPT 赛道采了 15000 多条商品，K12 赛道采了 2 万多条，全部放进选品网站，定期更新销量。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/005.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/005.webp)
 
 我真正盯的，是日增销量。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/006.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/006.webp)
 
 累计卖了几千单的品，你看得到，同行也看得到，而且很可能已经过了最好的时候。我要找的，是最近每天都在涨、日增销量排在前面的品，和卖出这些品的店。
 
 找到这样的店，我会单独拎出来，再去拆背后的商家：他都卖了哪些品，哪个先起来的，笔记是怎么做的。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/007.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/007.webp)
 
 以前这一步，光是筛出值得看的店就要花掉大半天。现在筛选交给工具，我把时间留给真正的分析：这个对标凭什么卖得好，我能不能做得比他好。
 
@@ -101,11 +101,11 @@ AI 在中间做的，是听懂我要什么，调这些能力去跑，自动的�
 
 跑完，它会把所有低粉账号的名称、价格、销量、链接全在一张表里，非常方便快速筛选。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/008.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/008.webp)
 
 我扫了一眼就看出东西了：排在前面的几个低粉号，卖的都是银行招聘。有个号只有 114 个粉丝，一份 2.8 元的银行招聘考点资料，显示已售 3568。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/009.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/009.webp)
 
 几个毫不相干的小号，同时在卖同一类东西，说明银行招聘这段时间是真有需求，而且粉丝这么少都能卖，说明同行做得并不强。
 
@@ -117,7 +117,7 @@ AI 在中间做的，是听懂我要什么，调这些能力去跑，自动的�
 
 榜单每天的变化其实不大，加上这句之后，200 个号每天落到我眼前的，就只剩十几件新品。昨天的记录，就是今天的过滤器。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/010.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/010.webp)
 
 ### 3. 找到对标，交给博主采集
 
@@ -131,19 +131,19 @@ AI 在中间做的，是听懂我要什么，调这些能力去跑，自动的�
 
 报告一出来，这几家在卖什么一目了然：主要是语文、道法、数学、科学，哪个年级、哪个科目卖得最多，老师最愿意为哪一科掏钱，都摆在那里。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/011.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/011.webp)
 
 更关键的是时间线。他们的高赞笔记 7 月开始冒头，8 月爆发，9 月还在爆，到 10 月就没了。
 
 这说明课件的运营节点在 8、9 月，也就是开学前后。等你 10 月才注意到，再进场已经晚了。想做课件，就得提前到暑假去铺。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/012.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/012.webp)
 
 这个结论，靠手刷是刷不出来的。
 
 还有一家做心理测试的店，叫 Great Talent。开店 63 天，只有 514 个粉丝，店铺页显示已经卖了 26 万单。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/013.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/013.webp)
 
 我把它丢给 博主采集，商品和笔记都采集下来，让 AI 一拆，它卖得好的原因就摆在那了：
 
@@ -153,7 +153,7 @@ AI 在中间做的，是听懂我要什么，调这些能力去跑，自动的�
 
 三是价格低。原价 68，到手 1 块钱左右，测着玩也不心疼，顺手就买了。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/014.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/014.webp)
 
 好奇心、笔记形式、价格，这三个点，都是从 AI 直接从它的商品和笔记里直接拆出来的。
 
@@ -175,11 +175,11 @@ AI 对领域的判断，加上真实的销量数据，两边对得上，方向�
 
 「我想围绕 K12 做一个某个科目某个专题的知识手册，但不清楚做哪个年级、哪个科目、哪个专题，你整体帮我调研下。」
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/015.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/015.webp)
 
 它查完给我的答案是：第一本先做三年级语文的阅读理解方法手册。理由也很清楚，近期有人买，有低粉作者在卖，相关笔记也有热度。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/016.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/016.webp)
 
 它还顺着往下说了怎么做出差异：市面上低价的模板和题库已经很多了，与其再做一份题库，不如讲清楚「为什么这样答」。
 
@@ -203,7 +203,7 @@ AI 对领域的判断，加上真实的销量数据，两边对得上，方向�
 
 你去跟全年级、全学科铺满的大店拼课件，基本没机会；但只做七年级历史的期末复习，对手可能就那么几家。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/017.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/017.webp)
 
 还有一点要想清楚。小红书电商已经发展了 3 年多，基本不存在还没人做的赛道。如果你发现一个方向真的没人做，大概率是因为没人买。
 
@@ -219,7 +219,7 @@ AI 对领域的判断，加上真实的销量数据，两边对得上，方向�
 
 如果 12 月中下旬就开始铺，等需求爆发，你已经在前面了；等它爆了再进，前面已经站满了人，只能花钱投流往上挤。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/018.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/018.webp)
 
 所以我常说，早进拿自然流，晚进花钱买流。一般在需求爆发前一个月左右开始铺，时间就比较合适。
 
@@ -233,7 +233,7 @@ AI 对领域的判断，加上真实的销量数据，两边对得上，方向�
 
 再点进去看看他的产品和笔记，如果产品做得粗糙，笔记也就那样，这就是你的机会。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/019.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/019.webp)
 
 反过来，有些赛道已经卷到了一张图要花二三十分钟排版，还是团队批量在做，比如教资和小学资料。一个人进去硬拼，很难有机会。
 
@@ -247,7 +247,7 @@ AI 对领域的判断，加上真实的销量数据，两边对得上，方向�
 
 所以我一般建议，一单尽量卖到 10 块左右。没有原创能力的，可以把单份资料打包成合集来卖，用户觉得划算，你的客单也能提上去。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/020.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/020.webp)
 
 赛道打得过，时间来得及，同行不算强，账也算得过来，这四个问题都过了，这个品才值得你花力气去做。
 
@@ -269,9 +269,9 @@ AI 对领域的判断，加上真实的销量数据，两边对得上，方向�
 
 谢谢你看到最后。
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/021.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/021.webp)
 
-![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/022.jpg)
+![](../images/lucaspei-xiaohongshu-agent-automated-product-selection/022.webp)
 
 ## 相关页面
 

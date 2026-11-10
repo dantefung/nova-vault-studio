@@ -19,7 +19,7 @@ coverImage: "../images/thomas-zhou-flow-is-dead/001.jpg"
 
 另一种是，同时开七八个任务，给 AI 交代一轮，再像曾经 QQ 空间 “收菜” （暴露年龄了）一样，挨个看结果。一轮收完，又发出去七八个任务。就这样收一轮、发一轮，两轮下来，我累得要死。
 
-![](../images/thomas-zhou-flow-is-dead/002.jpg)
+![](../images/thomas-zhou-flow-is-dead/002.webp)
 
 ## 我找不到心流了
 
@@ -27,7 +27,7 @@ coverImage: "../images/thomas-zhou-flow-is-dead/001.jpg"
 
 从 2020 年第一次读史蒂芬·科特勒的《盗火》开始，心流就一直是我做事情时最向往的状态。书名借用了普罗米修斯为人类盗来火种的典故。书里最吸引我的，是关于心流的那部分：探索人自身的潜能，全情投入一件事，做事本身就能获得满足。
 
-![](../images/thomas-zhou-flow-is-dead/003.jpg)
+![](../images/thomas-zhou-flow-is-dead/003.webp)
 
 然而现在和 AI 协作，产出和效率可能都提高了。对于能够快速实现自己想法我也感到非常嗨，但那种沉浸在一件事里、在心流中把它做完的满足感，我却找不到了。
 
@@ -37,11 +37,11 @@ coverImage: "../images/thomas-zhou-flow-is-dead/001.jpg"
 
 除了找不到心流，和 AI 工作时的这种疲惫，也不只是我一个人的问题。吴恩达在一次公开对谈里说，他用 AI 辅助编程一整天，到了晚上也会筋疲力尽。他觉得，vibe coding 这个名字容易让人误会，以为跟着感觉接受或拒绝 AI 的建议就行了。但实际上，这仍然是一项需要深入思考的工作。[https://www.youtube.com/watch?v=4pYzYmSdSH4&t=1370s](https://www.youtube.com/watch?v=4pYzYmSdSH4&t=1370s)
 
-![](../images/thomas-zhou-flow-is-dead/004.jpg)
+![](../images/thomas-zhou-flow-is-dead/004.webp)
 
 Simon Willison 的描述，更像我说的“收菜”。他在博客里写，自己经常同时推进两三个项目，能完成很多工作，但只过了一两个小时，就感觉一天的脑力几乎耗尽了。产出确实变多了，人却很累。这让我想弄明白，和 AI 协作时，我们究竟在累什么。
 
-![](../images/thomas-zhou-flow-is-dead/005.jpg)
+![](../images/thomas-zhou-flow-is-dead/005.webp)
 
 ## 为什么会这么累？
 
@@ -72,7 +72,7 @@ AI 还提到了一项关于看电视和玩游戏的研究，恰好讨论了这�
 
 用程序员熟悉的 CPU 打个比方，AI 可以同时跑七八个任务，但轮到我理解和判断这些结果时，我的注意力更像是在一颗 CPU 上轮流处理它们。每次换一个任务，都要重新接上它的目标、背景和进度。这就像反复保存和恢复现场，切换本身也有开销。
 
-![](../images/thomas-zhou-flow-is-dead/006.jpg)
+![](../images/thomas-zhou-flow-is-dead/006.webp)
 
 切回来以后，还有阅读和判断。AI 写出来的东西，我需要读懂、核验，再决定下一步。
 
@@ -92,7 +92,7 @@ AI 还提到了一项关于看电视和玩游戏的研究，恰好讨论了这�
 
 第一，用程序员的话说，就是减少并发。以前我会同时开展七八件不太相关的事情，现在尽量控制在两三件，而且把 context 相近、彼此相关的事情放在一起做。这样切换的时候，也能沿用一部分刚才的背景。
 
-![](../images/thomas-zhou-flow-is-dead/007.jpg)
+![](../images/thomas-zhou-flow-is-dead/007.webp)
 
 第二，把任务拆小，让每一轮产出更快一点。我会把一个大任务 break down 成更小的步骤，每次交给 AI 的事情更具体，返回的结果也更小。我希望这样能缩短每一轮的等待，也让自己更容易接住结果、继续往下推进。
 

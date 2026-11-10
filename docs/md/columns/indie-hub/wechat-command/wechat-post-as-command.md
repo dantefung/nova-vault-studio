@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/jcWzhAtLmy3ici2j40pXFQ"
 
 # 我把公众号发文做成了一条命令
 
-![image](./images/001.png)
+![image](images/001.webp)
 
 每天发一篇，最累的从来不是写。
 

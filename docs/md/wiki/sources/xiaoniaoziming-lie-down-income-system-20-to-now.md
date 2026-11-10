@@ -4,7 +4,7 @@ date: "2026-11-04"
 source: "X/Twitter"
 author: "周小鸟开窍 (@xiaoniaoziming)"
 url: "https://x.com/xiaoniaoziming/status/2098410586547908668"
-coverImage: "../images/xiaoniaoziming-lie-down-income-system-20-to-now/001.png"
+coverImage: "../images/xiaoniaoziming-lie-down-income-system-20-to-now/001.webp"
 ---
 
 # 周小鸟开窍（@xiaoniaoziming）：如何躺着赚钱——从 20 岁到现在的躺赚体系（经验、思考与案例）
@@ -99,21 +99,21 @@ coverImage: "../images/xiaoniaoziming-lie-down-income-system-20-to-now/001.png"
 
 24 年我朋友拿了“北京同仁堂”代理，于是我开始招人在线上线下同时开展活动，发帖，引流。（展示一些教资）
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/001.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/001.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/002.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/002.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/003.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/003.webp)
 
 如何招人并且执行是一件难事，很多人其实手机都玩不明白，当我主要负责做教程，培训等
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/004.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/004.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/005.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/005.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/006.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/006.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/007.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/007.webp)
 
 这里面从如何招人，到办理手机卡，到如何注册账号，到账号如何选择都是关键点
 
@@ -167,17 +167,17 @@ coverImage: "../images/xiaoniaoziming-lie-down-income-system-20-to-now/001.png"
 
 实际上当时我的兼职，第一个月能够拿两千多，组长七八千，每天差不多一个小时，一个月 24 天左右。
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/008.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/008.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/009.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/009.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/010.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/010.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/011.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/011.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/012.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/012.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/013.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/013.webp)
 
 完整的培训，管理，交流，晋升，分钱制度。后续这个经验也被我运用到各行各业。
 
@@ -195,25 +195,25 @@ coverImage: "../images/xiaoniaoziming-lie-down-income-system-20-to-now/001.png"
 
 这个时候我开始尝试各种自己赚钱的法子，比如做小电商，咸鱼测试，小红书电商，卖卖课，讲讲课，同行合作等。
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/014.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/014.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/015.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/015.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/016.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/016.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/017.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/017.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/018.jpg)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/018.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/019.jpg)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/019.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/020.jpg)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/020.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/021.jpg)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/021.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/022.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/022.webp)
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/023.jpg)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/023.webp)
 
 什么当天变现，三天跑通，七天一千粉，当月百万流量等等。
 
@@ -271,11 +271,11 @@ JK 告诉我 AI 能做很多事，于是我相信，我相信栋哥的课程质�
 
 一些朋友。能执行。
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/024.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/024.webp)
 
 一些朋友。能做事
 
-![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/025.png)
+![](../images/xiaoniaoziming-lie-down-income-system-20-to-now/025.webp)
 
 一些朋友合作
 

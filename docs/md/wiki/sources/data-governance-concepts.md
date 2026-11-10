@@ -47,7 +47,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 ## 一、元数据：不是"字段说明"，而是数据的上下文
 
-![元数据三层分类](../images/data-governance-concepts/001.png)
+![元数据三层分类](../images/data-governance-concepts/001.webp)
 
 元数据最常见的解释是：
 
@@ -71,7 +71,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 元数据真正做的事情，是给数据补上"身份、来源、加工过程和使用关系"。
 
-![元数据三类](../images/data-governance-concepts/002.png)
+![元数据三类](../images/data-governance-concepts/002.webp)
 
 实际治理中，元数据通常可以分成三类：
 
@@ -87,7 +87,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 描述数据的管理状态，例如权限、质量结果、更新时间、责任人、访问频率和生命周期状态。
 
-![元数据在排查中的作用](../images/data-governance-concepts/003.png)
+![元数据在排查中的作用](../images/data-governance-concepts/003.webp)
 
 所以，元数据治理真正解决的是数据能不能被理解、查找、追溯和管理。而在实际工作中，元数据往往是在排查问题时最有存在感。比如销售主题表突然少了一批数据，开发人员通常会往上游一路找：源表有没有数据、同步任务是否执行、中间转换逻辑有没有修改，再继续确认下游哪些汇总表和指标已经受到影响。这类排查本质上就是在使用元数据和血缘关系。
 
@@ -95,7 +95,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 ## 二、数据元：不是某个字段，而是字段背后的标准定义
 
-![数据元 vs 字段](../images/data-governance-concepts/004.png)
+![数据元 vs 字段](../images/data-governance-concepts/004.webp)
 
 数据元和字段，是最容易混淆的一组概念。
 
@@ -123,7 +123,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 这时候形成的，才更接近治理意义上的数据元。
 
-![数据元标准化](../images/data-governance-concepts/005.png)
+![数据元标准化](../images/data-governance-concepts/005.webp)
 
 因此，两者最关键的区别是：
 
@@ -139,7 +139,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 ## 三、元模型：规定的是"治理对象之间怎样建立关系"
 
-![元模型](../images/data-governance-concepts/006.png)
+![元模型](../images/data-governance-concepts/006.webp)
 
 元模型往往是五个概念中最抽象的一个。理解它，可以再往上一层问：
 
@@ -158,13 +158,13 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 这套关于"管理什么对象、对象有哪些属性、对象之间怎样关联"的规则，就是**元模型**。
 
-![元模型 vs 元数据](../images/data-governance-concepts/007.png)
+![元模型 vs 元数据](../images/data-governance-concepts/007.webp)
 
 所以：**元模型负责定义框架，元数据负责往框架里填具体内容。**
 
 例如元模型规定："每张数据表都需要记录所属系统、负责人和上下游关系。" 那么具体某张销售订单表属于 ERP、负责人是谁、下游进入哪张主题表，这些具体内容就是元数据。
 
-![元模型在实际中的作用](../images/data-governance-concepts/008.png)
+![元模型在实际中的作用](../images/data-governance-concepts/008.webp)
 
 元模型为什么重要？因为很多治理项目推进到一定阶段都会出现同一个问题：**东西采上来了，却很难真正放到一起。**
 
@@ -176,7 +176,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 ## 四、数据字典：给数据使用者看的"说明书"
 
-![数据字典示例](../images/data-governance-concepts/009.png)
+![数据字典示例](../images/data-governance-concepts/009.webp)
 
 数据字典是五个概念里相对容易理解的一个。例如：
 
@@ -196,7 +196,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 > **元数据**是一整套关于数据的描述信息；**数据字典**是从这些信息中整理出来、面向查询和使用的一种呈现方式。
 
-![数据字典的实际挑战](../images/data-governance-concepts/010.png)
+![数据字典的实际挑战](../images/data-governance-concepts/010.webp)
 
 这个区别到了分析人员真正找数据时，会非常明显。例如要分析销售收入，搜索后发现三个字段：`sales_amount`、`revenue_amount`、`income_amt`。如果三条说明都只写着"销售金额"，那这份数据字典实际上并没有解决问题。
 
@@ -215,7 +215,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 ## 五、数据模型：设计的是业务数据本身的结构
 
-![数据模型层次](../images/data-governance-concepts/011.png)
+![数据模型层次](../images/data-governance-concepts/011.webp)
 
 最后一个概念是数据模型。数据模型关注的是，真实业务应该怎样被组织成数据结构。
 
@@ -241,13 +241,13 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 最终落实到数据库。包括表名、字段名、数据类型、主键、索引、分区和存储方式等。
 
-![数据模型 vs 元模型](../images/data-governance-concepts/012.png)
+![数据模型 vs 元模型](../images/data-governance-concepts/012.webp)
 
 因此，数据模型和元模型虽然只差一个"元"，实际解决的问题完全不同：
 
 > **数据模型**设计业务数据本身；**元模型**设计描述和管理这些数据的规则。
 
-![数据模型落地](../images/data-governance-concepts/013.png)
+![数据模型落地](../images/data-governance-concepts/013.webp)
 
 数据模型面对的对象可能是：客户、商品、订单。元模型面对的对象则可能是：系统、表、字段、任务、指标。
 
@@ -259,7 +259,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 ## 六、把五个概念放到一个场景里，就彻底清楚了
 
-![五个概念联动](../images/data-governance-concepts/014.png)
+![五个概念联动](../images/data-governance-concepts/014.webp)
 
 假设企业准备建设一套"客户主题数据"。
 
@@ -269,7 +269,7 @@ url: "https://mp.weixin.qq.com/s/bQSt6eQbAVUG9M3wfAANLg"
 
 **第三步：数据元标准。** 企业进一步规定：客户编号必须全集团唯一，统一使用 32 位字符，由主数据系统生成。这属于数据元标准。
 
-![治理链路](../images/data-governance-concepts/015.png)
+![治理链路](../images/data-governance-concepts/015.webp)
 
 **第四步：元模型。** 与此同时，企业还需要规定：系统、表、字段、任务、指标分别是什么治理对象；它们分别记录哪些属性；对象之间允许建立哪些关系。这套结构属于元模型。
 

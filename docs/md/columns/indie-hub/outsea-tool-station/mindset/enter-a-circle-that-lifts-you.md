@@ -53,7 +53,7 @@ url: "https://mp.weixin.qq.com/s/EgR2KzaWfQgG1oMURTnHmg"
 
 如果你想开阔眼界增加见识，如果你想尝试副业改变现状，如果你想认识朋友接触大咖，那么生财都是你的不二选择。如果你感兴趣，可以扫码下面这个体验码免费体验，里面有上百种可以做的互联网副业和最新机会。
 
-![image](./images/enter-a-circle-that-lifts-you/001.png)
+![image](images/enter-a-circle-that-lifts-you/001.webp)
 
 刘小排深海圈
 
@@ -67,7 +67,7 @@ https://raphael.app/
 
 上线三月即做到月访客百万，即使现在有所回落，每个月仍然有三四十万的访客。
 
-![image](./images/enter-a-circle-that-lifts-you/002.png)
+![image](images/enter-a-circle-that-lifts-you/002.webp)
 
 如果你想零距离学习顶尖产品人如何用商业视角与专业技能，把一个 Idea 从零打磨成真正的Business，那么一定不可错过小排老师的深海圈。
 
@@ -77,7 +77,7 @@ https://raphael.app/
 
 哥飞一直鼓励我们找新词做新站，从而更快感受到出海的温度，与此同时，他给我们详细讲述了SEO和出海网站的方方面面，内容之细、内容之广，在出海SEO领域未有出其右者。我每天除了看生财的精华帖之外，往往都要抽出时间查看哥飞社群的信息，并分门别类做了大量的笔记：
 
-![image](./images/enter-a-circle-that-lifts-you/003.png)
+![image](images/enter-a-circle-that-lifts-you/003.webp)
 
 这些笔记成为了我现在出海航程中的指路明灯。
 

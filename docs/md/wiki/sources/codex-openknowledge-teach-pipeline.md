@@ -84,7 +84,7 @@ teach 的核心设定是"把当前目录当作教学工作区"。它背后的教
 
 ## 全链路串联——一条会自更新的教学流水线
 
-![全链路架构图](../images/codex-openknowledge-teach-pipeline/001.png)
+![全链路架构图](../images/codex-openknowledge-teach-pipeline/001.webp)
 
 流水线的动力来自反馈回路：抓取新文档 → 沉淀进知识库 → teach 依据学习记录挑下一课 → 练习反馈写回学习记录 → 再挑更准的下一课。知识库越来越厚，教学越来越准，两者互相喂养。
 

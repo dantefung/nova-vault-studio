@@ -25,7 +25,7 @@ coverImage: "../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/001
 
 被 AI 搜索引用一次，相当于机器每天都在替你做免费的精准推荐。
 
-![](../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/002.jpg)
+![](../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/002.webp)
 
 他摸出来的实操主要有四步。
 
@@ -41,7 +41,7 @@ coverImage: "../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/001
 2. 容量虚标，有些机器标着五升，内胆却做成细长型，平铺四只鸡翅就满了，想多做一点只能叠放，中间必须不停翻面。
 3. 网格炸篮到底好不好刷，洗洁精泡多久才能洗掉焦黑的油污。
 
-![](../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/003.jpg)
+![](../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/003.webp)
 
 第二步： 用 Claude 把回答做成“AI 爱抓”的格式。
 
@@ -61,7 +61,7 @@ Prompt 如下：请你以一个普通用户的身份回复。第一句直接给�
 
 这样改过之后，进站用户的加购率翻了一倍，各类 AI 引擎提取产品参数也变得很容易。
 
-![](../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/004.jpg)
+![](../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/004.webp)
 
 第四步：每周盯着 AI 的引用来源。
 
@@ -73,7 +73,7 @@ Prompt 如下：请你以一个普通用户的身份回复。第一句直接给�
 
 而且这种方式的好处是，买量投放一停，进店人数立刻见底。但在社区里留下的一条客观回帖，几个月后不仅依然有自然搜索找过来，还会被各大 AI 引擎当成权威参考反复推荐。
 
-![](../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/005.jpg)
+![](../images/heizolshao-air-fryer-site-reddit-and-ai-search-growth/005.webp)
 
 最后，如果你也在做独立站，拿不准你的品类在 Reddit 上有没有被 AI 搜索引用的机会，可以在评论区留个品类名，我抽空帮你查一下最近的讨论热度。
 

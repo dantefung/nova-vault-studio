@@ -32,7 +32,7 @@ DSH 最核心的设计理念是**"一切皆插件"**（everything is a plugin）
 - **副作用可撤销**：插件卸载后，其注册的服务、事件、资源会完整清理，无残留
 - **渐进式扩展**：可从最小内核开始，按需加载插件，适配全场景
 
-![DSH 四层插件化架构](dsh-vm-deployment/images/001.png)
+![DSH 四层插件化架构](dsh-vm-deployment/images/001.webp)
 
 ### 四种预设模式
 
@@ -43,7 +43,7 @@ DSH 最核心的设计理念是**"一切皆插件"**（everything is a plugin）
 | 极简模式 | 仅保留 Bash + 文件编辑 | 大模型编程能力基准测试 |
 | 创造模式 | 支持热加载插件、自定义 Agent 预设 | 插件开发与调试 |
 
-![四种预设模式](dsh-vm-deployment/images/002.png)
+![四种预设模式](dsh-vm-deployment/images/002.webp)
 
 ---
 
@@ -53,7 +53,7 @@ DeepSeek Harness 与其他框架最本质的区别在于**没有"核心"**。主
 
 Cordis 与传统 DI 容器和轻量钩子方案的关键差异在于**可逆副作用**：插件是带依赖声明、生命周期、可逆副作用的"组件"，卸载时能完整逆转副作用。可以在 DSH 中把后端的 LLM 插件从 Model-A 无缝替换为 Model-B，而依赖它的组件（如 Agent Loop）会自动重新连接到新的服务提供者，会话中的对话记录毫发无损。
 
-![DSH 与传统框架对比](dsh-vm-deployment/images/003.png)
+![DSH 与传统框架对比](dsh-vm-deployment/images/003.webp)
 
 ---
 
@@ -113,7 +113,7 @@ pnpm run build
 python3 -m pip install deepseek-harness-sdk
 ```
 
-![dsh 版本输出 0.1.0-rc.6](dsh-vm-deployment/images/004.png)
+![dsh 版本输出 0.1.0-rc.6](dsh-vm-deployment/images/004.webp)
 
 ### 步骤四：配置环境变量
 
@@ -146,11 +146,11 @@ source ~/.bashrc
 dsh --profile web --host 0.0.0.0 --port 3080
 ```
 
-![DSH Web 服务启动](dsh-vm-deployment/images/005.png)
+![DSH Web 服务启动](dsh-vm-deployment/images/005.webp)
 
 通过本地电脑访问服务 IP 和端口：
 
-![通过浏览器访问](dsh-vm-deployment/images/006.png)
+![通过浏览器访问](dsh-vm-deployment/images/006.webp)
 
 ### 远端访问问题
 
@@ -162,7 +162,7 @@ dsh --profile web --host 0.0.0.0 --port 3080
 dsh plugin --profile web add dsh-lan-access
 ```
 
-![安装 dsh-lan-access 插件](dsh-vm-deployment/images/007.png)
+![安装 dsh-lan-access 插件](dsh-vm-deployment/images/007.webp)
 
 **方法 2：SSH 本地端口转发**
 
@@ -172,15 +172,15 @@ ssh -L 3080:127.0.0.1:3080 root@xx.xx.xx.xx
 
 然后访问 http://127.0.0.1:3080，出现内测声明：
 
-![内测声明](dsh-vm-deployment/images/008.png)
+![内测声明](dsh-vm-deployment/images/008.webp)
 
 选择模式，支持四种模式：
 
-![模式选择界面](dsh-vm-deployment/images/009.png)
+![模式选择界面](dsh-vm-deployment/images/009.webp)
 
 可在配置中切换模型，默认是 DeepSeek 自己的模型：
 
-![模型配置](dsh-vm-deployment/images/010.png)
+![模型配置](dsh-vm-deployment/images/010.webp)
 
 ---
 
@@ -188,11 +188,11 @@ ssh -L 3080:127.0.0.1:3080 root@xx.xx.xx.xx
 
 选择一个"生成 24 点游戏的 HTML 页面"任务进行验证，下方会显示 Token 消耗情况：
 
-![24 点游戏生成任务](dsh-vm-deployment/images/011.png)
+![24 点游戏生成任务](dsh-vm-deployment/images/011.webp)
 
 输出 Agent 执行的记录信息：
 
-![Agent 执行记录](dsh-vm-deployment/images/012.png)
+![Agent 执行记录](dsh-vm-deployment/images/012.webp)
 
 **Token 消耗**：单个任务 38 万 Tokens，约 0.21 元。
 

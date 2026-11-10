@@ -47,7 +47,7 @@ coverImage: "../images/xaiwind-telegram-from-beginner-to-master-developer-guide/
 
 官网 telegram.org，首页就能下，认这个域名。应用商店里搜 Telegram 也行——商店里同名的高仿不少，看清楚开发者是 Telegram FZ-LLC。
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/002.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/002.webp)
 
 四个平台都有客户端：
 
@@ -69,7 +69,7 @@ coverImage: "../images/xaiwind-telegram-from-beginner-to-master-developer-guide/
 
 ## 二、界面认一遍
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/003.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/003.webp)
 
 桌面端是左右两栏。
 
@@ -83,7 +83,7 @@ coverImage: "../images/xaiwind-telegram-from-beginner-to-master-developer-guide/
 
 ## 三、日常使用
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/004.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/004.webp)
 
 发消息：输入框里回车就发。发出去的消息可以编辑，也可以撤回——撤回不区分对方看没看过，两边一起消失。
 
@@ -95,7 +95,7 @@ coverImage: "../images/xaiwind-telegram-from-beginner-to-master-developer-guide/
 
 ## 四、群组和频道
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/005.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/005.webp)
 
 这是最容易搞混的一对。
 
@@ -113,7 +113,7 @@ coverImage: "../images/xaiwind-telegram-from-beginner-to-master-developer-guide/
 
 ## 五、把聊天列表收拾干净
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/006.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/006.webp)
 
 不加文件夹之前，列表很快就不能看了。
 
@@ -133,7 +133,7 @@ Telegram 上的机器人（Bot）就是一个自动应答的账号，行为由�
 
 建一个：搜索 @BotFather，发 /newbot，按提示起名，它会给你一串 Bot Token。这串东西就是机器人的钥匙，泄露等于把这个号交出去。
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/007.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/007.webp)
 
 机器人能做的事，常见的几类：
 
@@ -145,7 +145,7 @@ Telegram 上的机器人（Bot）就是一个自动应答的账号，行为由�
 
 ## 七、开发者接口：三样东西要分清
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/008.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/008.webp)
 
 到了这一步，凭证特别容易混。
 
@@ -169,7 +169,7 @@ api_id 和 api_hash 的申请路径：打开 my.telegram.org，填手机号，�
 
 ## 八、广告投放：两条路
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/009.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/009.webp)
 
 一条是官方自助后台，一条是找频道主直接谈。
 
@@ -187,7 +187,7 @@ api_id 和 api_hash 的申请路径：打开 my.telegram.org，填手机号，�
 
 ## 九、网络与代理
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/010.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/010.webp)
 
 Telegram 内置代理设置，路径是「设置 → 数据与存储 → 代理」。
 
@@ -199,7 +199,7 @@ Telegram 内置代理设置，路径是「设置 → 数据与存储 → 代理�
 
 ## 十、常见坑
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/011.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/011.webp)
 
 坑一：没开两步验证。 手机号丢了账号就没了，两步验证是唯一的兜底，十秒钟的事。记得半年登录一次，长期不登录很容易丢账号！
 
@@ -217,7 +217,7 @@ Telegram 内置代理设置，路径是「设置 → 数据与存储 → 代理�
 
 ## 十一、速查表
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/012.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/012.webp)
 
 | 要做的事 | 去哪 |
 | :--- | :--- |
@@ -232,7 +232,7 @@ Telegram 内置代理设置，路径是「设置 → 数据与存储 → 代理�
 
 ## 最后
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/013.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/013.webp)
 
 Telegram 的门槛不在「会不会用」，在「知不知道它开放了什么」。
 
@@ -266,7 +266,7 @@ Telegram 的门槛不在「会不会用」，在「知不知道它开放了什�
 
 本人文章持续维护，欢迎联系或者评论区见，每天进步一点，我们终会到达目的地！
 
-![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/014.jpg)
+![](../images/xaiwind-telegram-from-beginner-to-master-developer-guide/014.webp)
 
 ## 相关页面
 

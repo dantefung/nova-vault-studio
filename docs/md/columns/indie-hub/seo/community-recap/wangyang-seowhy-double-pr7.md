@@ -14,9 +14,9 @@ seo的学习是老师带我们入门这个行业，其实我从来没有忘记�
 
 下图是王杨入门SEO时，老师指导的第一个权重7网站：
 
-![image](./images/001.png)
+![image](images/001.webp)
 
-![image](./images/001.png)
+![image](images/001.webp)
 
 感谢：夫唯老师带我入门seo行业！我现在每天都离不开网站了！今天，祝夫唯老师节日快乐！
 

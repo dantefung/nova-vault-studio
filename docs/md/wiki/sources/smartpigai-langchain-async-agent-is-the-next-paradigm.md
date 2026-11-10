@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "Smartpig (@Smartpigai)"
 url: "https://x.com/Smartpigai/status/2119728200771424435"
-coverImage: "../images/smartpigai-langchain-async-agent-is-the-next-paradigm/001.jpg"
+coverImage: "../images/smartpigai-langchain-async-agent-is-the-next-paradigm/001.webp"
 ---
 
 # Smartpig（@Smartpigai）：LangChain 提出未来强 Agent 必须学会异步工作
@@ -231,7 +231,7 @@ https://t.co/GkW7wNZNFq
 
 #AI #AIAgent #LangChain #DeepAgents #AgentEngineering
 
-![](../images/smartpigai-langchain-async-agent-is-the-next-paradigm/001.jpg)
+![](../images/smartpigai-langchain-async-agent-is-the-next-paradigm/001.webp)
 
 ## 相关页面
 

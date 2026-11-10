@@ -18,7 +18,7 @@ url: "https://mp.weixin.qq.com/s/c_EtbD5fyq0vQXyVSxl35A"
 
 周末我花了两天时间研究了DSH，并开发了一个可视化呈现Agent工作流程的插件：
 
-![配图](../images/dsh-tech-hype-or-not/002.png)
+![配图](../images/dsh-tech-hype-or-not/002.webp)
 
 这篇文章就来深入聊一下DSH，包括它的四种工作模式到底是什么，如何增加新的工作模式。
 
@@ -92,7 +92,7 @@ DeepSeek 这次把 Agent 背后的 Harness 拆开了。开发者可以查看它�
 
 模型调用、工具调用、输入输出 token、缓存情况和 Agent 运行轨迹，都能直接看到。
 
-![配图](../images/dsh-tech-hype-or-not/006.png)
+![配图](../images/dsh-tech-hype-or-not/006.webp)
 
 这对普通用户可能没啥用，但对研究 Agent 的开发者却非常有用。
 
@@ -128,9 +128,9 @@ PTC 模式允许模型写一段程序，在程序里直接把 B、C、D 串起�
 
 我在工作流页面里查看请求，发现发给模型的工具列表里只剩下run_code。
 
-![配图](../images/dsh-tech-hype-or-not/008.png)
+![配图](../images/dsh-tech-hype-or-not/008.webp)
 
-模型每次写出不同的代码，再由 Agent 框架执行。标准模式是让模型组合一堆工具，PTC 则是让模型写程序来调度这些工具。理想情况下，它可以更快，也能节省 token。但这并不是稳赚不赔。模型写出的程序如果执行失败，仍然要反复修改，最后的调用次数甚至可能更多。3. 极简模式极简模式真的很极简。它的系统提示词只有一句话，工具列表里也只有 Bash 和str_replace_editor。![配图](../images/dsh-tech-hype-or-not/009.jpg)![配图](../images/dsh-tech-hype-or-not/010.jpg)Skills、子 Agent、工作流和上下文压缩都没有。等于撤掉更多外援和工程干预，让模型尽量依靠自身能力解决问题。它适合做模型测试，观察同一个模型在最少 Harness 干预下会怎么完成任务。真想拿它稳定干复杂工作，标准模式更合适。4. 创造模式创造模式最难理解，也最有意思。普通模式让 Agent 使用现成工具干活。创造模式还能查看 Harness 里有哪些插件，把插件重新组合起来，创建一种新的工作模式。我让它获取我的B站账号“轩辕的编程宇宙”最近十期视频的数据。![配图](../images/dsh-tech-hype-or-not/011.png)它用现有工具完成任务之后，我继续要求它创建一种专门获取 B 站 UP 主数据的新模式。这个过程并不顺利，折腾了两轮才成功。
+模型每次写出不同的代码，再由 Agent 框架执行。标准模式是让模型组合一堆工具，PTC 则是让模型写程序来调度这些工具。理想情况下，它可以更快，也能节省 token。但这并不是稳赚不赔。模型写出的程序如果执行失败，仍然要反复修改，最后的调用次数甚至可能更多。3. 极简模式极简模式真的很极简。它的系统提示词只有一句话，工具列表里也只有 Bash 和str_replace_editor。![配图](../images/dsh-tech-hype-or-not/009.webp)![配图](../images/dsh-tech-hype-or-not/010.webp)Skills、子 Agent、工作流和上下文压缩都没有。等于撤掉更多外援和工程干预，让模型尽量依靠自身能力解决问题。它适合做模型测试，观察同一个模型在最少 Harness 干预下会怎么完成任务。真想拿它稳定干复杂工作，标准模式更合适。4. 创造模式创造模式最难理解，也最有意思。普通模式让 Agent 使用现成工具干活。创造模式还能查看 Harness 里有哪些插件，把插件重新组合起来，创建一种新的工作模式。我让它获取我的B站账号“轩辕的编程宇宙”最近十期视频的数据。![配图](../images/dsh-tech-hype-or-not/011.webp)它用现有工具完成任务之后，我继续要求它创建一种专门获取 B 站 UP 主数据的新模式。这个过程并不顺利，折腾了两轮才成功。
 
 模型每次写出不同的代码，再由 Agent 框架执行。标准模式是让模型组合一堆工具，PTC 则是让模型写程序来调度这些工具。
 
@@ -160,24 +160,24 @@ Skills、子 Agent、工作流和上下文压缩都没有。
 
 我让它获取我的B站账号“轩辕的编程宇宙”最近十期视频的数据。
 
-![配图](../images/dsh-tech-hype-or-not/011.png)
+![配图](../images/dsh-tech-hype-or-not/011.webp)
 
 它用现有工具完成任务之后，我继续要求它创建一种专门获取 B 站 UP 主数据的新模式。
 
 这个过程并不顺利，折腾了两轮才成功。
 
-![配图](../images/dsh-tech-hype-or-not/012.png)
+![配图](../images/dsh-tech-hype-or-not/012.webp)
 
 
 但成功之后，新建会话时，模式列表里真的出现了它刚刚创建的新 preset。
 
-![配图](../images/dsh-tech-hype-or-not/013.png)
+![配图](../images/dsh-tech-hype-or-not/013.webp)
 
 preset 可以理解成一份 Agent 配置。它规定系统提示词是什么，要加载哪些插件，给 Agent 哪些工具。
 
 我在新模式里输入“获取影视飓风最近十期视频的数据”，它调用专门创建的 B 站数据工具，很快就把任务完成了。
 
-![配图](../images/dsh-tech-hype-or-not/014.png)
+![配图](../images/dsh-tech-hype-or-not/014.webp)
 
 原来需要几十次模型与工具往返的流程，现在被收进了一个更专用的工具里，总共只调用了4次AI，大大节省了时间和成本。
 
@@ -217,7 +217,7 @@ DeepSeek 在官方 README 里用一句话概括这套架构：Everything is a Pl
 
 我还在界面里增加了文件、终端和工作流三个 Tab。
 
-![配图](../images/dsh-tech-hype-or-not/015.png)
+![配图](../images/dsh-tech-hype-or-not/015.webp)
 
 文件页面可以查看 Agent 工作目录里的文件。
 
@@ -227,11 +227,11 @@ DeepSeek 在官方 README 里用一句话概括这套架构：Everything is a Pl
 
 每一轮对话里，Agent 发起了多少次模型请求，执行了哪些工具，总共花了多久，都能直接看到。
 
-![配图](../images/dsh-tech-hype-or-not/016.png)
+![配图](../images/dsh-tech-hype-or-not/016.webp)
 
 点开请求卡片，还能分别查看系统提示词、消息、上下文和工具列表。
 
-![配图](../images/dsh-tech-hype-or-not/017.png)
+![配图](../images/dsh-tech-hype-or-not/017.webp)
 
 标准模式为什么有一堆工具，PTC 为什么只看到run_code，极简模式到底简化了什么，全都能从真实运行轨迹里看出来。
 
@@ -279,7 +279,7 @@ DeepSeek 在官方 README 里用一句话概括这套架构：Everything is a Pl
 
 [GitHub: xuanyuanzhifeng/dsh-plugin-agent-workflow](https://github.com/xuanyuanzhifeng/dsh-plugin-agent-workflow)
 
-![配图](../images/dsh-tech-hype-or-not/018.png)
+![配图](../images/dsh-tech-hype-or-not/018.webp)
 
 好了，今天就分享到这里。
 

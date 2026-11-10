@@ -111,7 +111,7 @@ https://x.com/leaf_sanren/status/2086274263766757500
 - 多平台组合价： 你小红书、视频号也有号，可以打包报，多一个平台大概能多要两成。
 - 数据对赌加价： 比如每个平台赞藏到多少，再加几成。
 
-![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/002.jpg)
+![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/002.webp)
 
 ### 报价太高、对方嫌贵、说预算有限，怎么办
 
@@ -164,7 +164,7 @@ https://x.com/leaf_sanren/status/2090004826470170948
 
 确认没问题，再取消定时，正式发。
 
-![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/003.jpg)
+![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/003.webp)
 
 ### 视频被“不适宜公开”，怎么找是哪儿的问题
 
@@ -244,7 +244,7 @@ https://x.com/leaf_sanren/status/2091748941885067406
 
 https://x.com/gbroai/status/2112528740752490591
 
-![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/004.jpg)
+![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/004.webp)
 
 所以别学我一个月连发七八条。 商单和日常内容穿插着发。
 
@@ -265,7 +265,7 @@ https://x.com/gbroai/status/2112528740752490591
 
 我有一条商单，自然流量七八千，跟甲方一直处得不错。报喜之后，甲方直接给这条投流，连投一个月，跑了 300 多万播放，还给我涨了三五千粉。
 
-![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/005.jpg)
+![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/005.webp)
 
 数据不好就别吱声了。
 
@@ -279,7 +279,7 @@ https://x.com/gbroai/status/2112528740752490591
 6. 绑小程序： 对方会让你绑定一个小程序，钱通过小程序里的云账户打给你。每家甲方用的结算主体可能不一样，换一家就重新绑一次。
 7. 到账： 个税一般在这个流程里代扣代缴，不用自己另外报。
 
-![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/006.jpg)
+![](../images/leaf-sanren-douyin-offline-commercial-orders-playbook/006.webp)
 
 ───
 

@@ -17,20 +17,20 @@ src/├── main.go                    # 入口：交互式 REPL├�
 ```
 ## 二、工具是什么？
 在 Agent 的语境里，工具（Tool）就是一个 LLM 可以“主动调用”的函数。注意这里的关键词是“主动”。不是我们程序员硬编码去调，而是 LLM 自己判断“我现在需要用这个工具”，然后发起调用。LLM 本身只能生成文本。但如果我们事先告诉它：“你有这些工具，每个工具叫什么名字、接收什么参数、有什么用”。那 LLM 在需要的时候，就会输出一段结构化的“工具调用请求”。Agent 系统拦截这个请求，真正去执行工具，再把结果还给 LLM。这个过程叫 Tool Use（工具调用）。
-![image](./images/article-02/001.png)
+![image](images/article-02/001.webp)
 举个例子。用户说：“帮我读取 config.json 的内容”。LLM 不会傻乎乎地编一段文件内容出来，而是会说：“我要调用 read_file 工具，参数是 config.json”。系统执行完，把真实的文件内容返回给 LLM，LLM 再基于真实内容回答用户。整个过程长这样：
-![image](./images/article-02/002.png)
+![image](images/article-02/002.webp)
 而且工具调用不是一次性的。LLM 可以连续调用多个工具，直到它认为信息足够了，才输出最终答案。这就是上一篇讲的 Loop 的作用。
 ## 三、工具的数据结构
 每一个工具，本质上就是两件东西的组合：Schema（接口描述）：告诉 LLM 这个工具叫什么、接收什么参数。这是给 LLM 看的“说明书”。Handler（执行逻辑）：真正的函数实现，这是给 Go 程序执行的。
-![image](./images/article-02/003.png)
+![image](images/article-02/003.webp)
 一个给 LLM 看，一个给程序跑。在代码里，我们用 ToolDef 把这两件事绑在一起：
 ```javascript
 // tool.go// Handler 是每个工具必须实现的函数签名type Handler func(input json.RawMessage) (string, error)// ToolDef 把工具的 API schema 和 handler 绑定在一起type ToolDef struct {    Schema  anthropic.ToolParam    Handler Handler}
 ```
 Schema：里包含工具名称、描述、参数的 JSON Schema，发给 Anthropic APIHandler：接收 LLM 传来的 JSON 参数，返回字符串结果（或错误）
 ## 四、自注册模式：让工具“自己报到”
-![image](./images/article-02/004.png)
+![image](images/article-02/004.webp)
 一个常见的工程问题：工具越来越多，怎么管？最朴素的方式是维护一个全局列表，每次新增工具都去改那个列表。但这很容易出错，耦合度也高。改着改着就乱了。evo-agent 采用了 Go 的 init() 自注册模式。核心思路：每个工具文件自己负责把自己注册到全局注册表。main 包只需要 import 这些文件，注册就自动完成了。谁也不用管谁。
 ```javascript
 // tool.go —— 全局注册表var registry = map[string]ToolDef{}// Register 向注册表添加一个工具func Register(def ToolDef) {    registry[def.Schema.Name] = def}// Tools 返回所有注册的工具 schema，用于发给 Anthropic APIfunc Tools() []anthropic.ToolUnionParam { ... }// Dispatch 根据工具名找到 handler 并执行func Dispatch(name string, input json.RawMessage) (string, error) { ... }
@@ -40,7 +40,7 @@ Schema：里包含工具名称、描述、参数的 JSON Schema，发给 Anthrop
 // bash.gofunc init() {    Register(ToolDef{        Schema: anthropic.ToolParam{            Name:        "bash",            Description: anthropic.String("Run a shell command in the current workspace."),            InputSchema: GenerateSchema[BashInput](),        },        Handler: func(input json.RawMessage) (string, error) {            var in BashInput            json.Unmarshal(input, &in)            return runBash(in.Command), nil        },    })}
 ```
 这样，添加一个新工具，只需要新建一个 .go 文件。不需要修改任何已有代码。完美的开闭原则。
-![image](./images/article-02/005.png)
+![image](images/article-02/005.webp)
 ## 五、Schema 自动生成
 上面说了，每个工具都需要一份 JSON Schema，告诉 LLM 这个工具接收什么参数。但这个 Schema 怎么来？如果手写，read_file 的 Schema 大概长这样：
 ```javascript
@@ -54,7 +54,7 @@ anthropic.ToolInputSchemaParam{    Properties: map[string]interface{}{    �
 ```text
 type BashInput struct {    Command string `json:"command" jsonschema_description:"The shell command to run."`}type ReadFileInput struct {    Path  string `json:"path"            jsonschema_description:"The relative path of a file."`    Limit int    `json:"limit,omitempty" jsonschema_description:"Maximum lines to return (0 = no limit)."`}
 ```
-![image](./images/article-02/006.png)
+![image](images/article-02/006.webp)
 LLM 会读这份 Schema，知道该传什么参数。Go 程序收到 LLM 的 JSON 后，json.Unmarshal 进对应的结构体，完成类型安全的参数解析。定义一次，两边都用。
 ## 六、四个工具详解
 ## 6.1 bash：万能瑞士军刀
@@ -143,10 +143,10 @@ LLM 返回的响应是一个内容块列表（[]ContentBlockUnion），里面可
 func Execute(content []anthropic.ContentBlockUnion) []anthropic.ContentBlockParamUnion {    var results []anthropic.ContentBlockParamUnion    for _, block := range content {        switch v := block.AsAny().(type) {        case anthropic.ThinkingBlock:            ui.PrintThinking(v.Thinking)        case anthropic.TextBlock:            ui.PrintText(v.Text)        case anthropic.ToolUseBlock:            ui.PrintToolCall(v.Name)                                         // 打印工具名            ui.PrintCommand(fmt.Sprintf("%s(%s)", v.Name, v.Input.Raw()))   // 打印参数            inputBytes, _ := json.Marshal(v.Input)            output, err := Dispatch(v.Name, inputBytes)                      // 执行工具            isError := err != nil            results = append(results, anthropic.NewToolResultBlock(v.ID, output, isError))        }    }    return results}
 ```
 执行结果会被打包成 ToolResultBlock，下一轮发给 LLM，让它继续思考。整个数据流如下：
-![image](./images/article-02/007.png)
+![image](images/article-02/007.webp)
 ## 八、Agent 主循环的完整视角
 前面分别讲了 Loop 和 Tools。现在把它们合在一起看，整个 Agent 的运作过程就一目了然了。
-![image](./images/article-02/008.png)
+![image](images/article-02/008.webp)
 核心代码（loop.go）非常简洁：
 ```text
 func (a *Agent) RunOneTurn(state *LoopState) bool {    // 1. 调用 LLM    resp, _ := a.LLM(ctx, anthropic.MessageNewParams{        Messages: state.Messages,        Tools:    tools.Tools(),  // 所有注册的工具        // ...    })    // 2. 追加助手响应    state.Messages = append(state.Messages, resp.ToParam())    // 3. 执行工具    toolResults := tools.Execute(resp.Content)    // 4. 没有工具调用 → 结束    if len(toolResults) == 0 {        return false    }    // 5. 追加工具结果 → 继续下一轮    state.Messages = append(state.Messages, anthropic.NewUserMessage(toolResults...))    return true}func (a *Agent) Loop(state *LoopState) {    for a.RunOneTurn(state) {}}
@@ -154,8 +154,8 @@ func (a *Agent) RunOneTurn(state *LoopState) bool {    // 1. 调用 LLM 
 你看，整个 Loop 的逻辑其实就一行：for a.RunOneTurn(state) {}。简洁到有点过分。但就是这一行，驱动了 Agent 的全部行为。
 ## 九、为什么要有多种文件工具？
 有人可能会问：有了 bash，cat、echo、sed 什么都能干。那为什么还要单独实现 read_file、write_file、edit_file？
-![image](./images/article-02/009.png)
+![image](images/article-02/009.webp)
 原因有三。第一，语义更清晰，LLM 选择更准确。LLM 在选工具时，是根据工具描述来判断的。read_file 的描述明确说“读文件内容”，比让 LLM 自己去猜该用什么 shell 命令更可靠，出错率更低。第二，安全性和可控性更好。bash 是万能的，但万能也意味着危险。rm -rf / 也是合法的 bash 命令。专用文件工具只做文件操作，边界清晰，日后加权限控制也方便。第三，输出更结构化，便于处理。用 bash 执行 cat 的输出可能有细微差别（比如某些情况下多了换行符）。专用工具的输出就是干净的文件内容，LLM 处理起来更省心。简单说就是：能用专用工具就别用万能工具。能用确定性的方案，就别引入不确定性。
-![image](./images/article-02/010.png)
+![image](images/article-02/010.webp)
 ## 十、总结
 回顾一下这篇文章的几个要点：1. 工具决定了 Agent 的能力边界。你给它什么工具，它就能干什么活。只有 bash 和有一整套文件操作工具，体验完全不一样。2. init() 自注册，加工具不用改老代码。新建一个文件就搞定，干净利落。3. 能用专用工具就别用 bash。语义更清晰，更安全，LLM 选错的概率也更低。4. 工具描述写给 LLM 看，不是写给自己看。名字要直白，描述要具体，参数要明确。LLM 读不懂你的工具描述，它就不会用。到这里，我们的 Agent 已经有了大脑（LLM）、神经反射弧（Loop）、和手脚（Tools）。下一篇，我们继续完善这个 Agent，看看还能给它装上什么新能力。《完》-EOF-

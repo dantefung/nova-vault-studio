@@ -14,7 +14,7 @@ url: "https://mp.weixin.qq.com/s/Pwvzq5YYabyUGFijsssG_w"
 
 ## 四大理论体系解读
 
-![四大理论体系全景图](../images/harness-engineering-scientific-management/002.png)
+![四大理论体系全景图](../images/harness-engineering-scientific-management/002.webp)
 
 ### 1. 泰勒科学管理：AI 工程的顶层价值治理范式
 
@@ -49,7 +49,7 @@ url: "https://mp.weixin.qq.com/s/Pwvzq5YYabyUGFijsssG_w"
 
 依托四大基础理论，AI Harness 构建起"**自上而下规则落地、自下而上偏差迭代**"的双向闭环运行模式，实现人工顶层治理与机器自动化治理的深度融合、持续演进。
 
-![三层双向闭环运行体系图](../images/harness-engineering-scientific-management/003.png)
+![三层双向闭环运行体系图](../images/harness-engineering-scientific-management/003.webp)
 
 ### 自上而下：规则—底座—引擎逐层落地
 
@@ -66,7 +66,7 @@ url: "https://mp.weixin.qq.com/s/Pwvzq5YYabyUGFijsssG_w"
 
 泰勒科学管理与老三论构成的四层体系缺一不可，任意模块缺失都会导致 AI Harness 工程治理体系断层失效：
 
-![落地风险与避坑要点图](../images/harness-engineering-scientific-management/004.png)
+![落地风险与避坑要点图](../images/harness-engineering-scientific-management/004.webp)
 
 | 缺失模块 | 核心风险 |
 |---------|---------|

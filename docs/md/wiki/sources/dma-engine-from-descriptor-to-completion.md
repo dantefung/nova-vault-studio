@@ -29,7 +29,7 @@ DMA 解决的是“CPU 亲自逐字节搬数据太浪费算力”的问题，它
 | **Copy Engine (CE)** | GPU 芯片上专门承担内存拷贝的专用 DMA engine | 不是每次 `cudaMemcpy*` 调用都必然走 CE |
 | **SM Copy** | 运行在 GPU 流式多处理器（SM）上的常规 Load/Store 指令 | 不占用 Copy Engine，但通过计算单元逐字节搬运数据 |
 
-![DMA 宏观示意图](../images/dma-engine-from-descriptor-to-completion/001.png)
+![DMA 宏观示意图](../images/dma-engine-from-descriptor-to-completion/001.webp)
 *图 1：DMA 宏观控制面与数据面分离：CPU 负责提交任务描述符，DMA engine 执行数据搬运*
 
 ---
@@ -60,7 +60,7 @@ DMA 目标内存必须对硬件设备持续可见：
 1. **DMA Engine 写完数据**：硬件总线层面的事务结束；
 2. **CPU/GPU 处理器能够看到新数据**：涉及 CPU Cache 刷写（`dma_sync_*`）与内存屏障。在 GPUDirect RDMA 场景下，应用不能仅凭“DMA 完成中断”就假定 GPU 已经看到了最新数据，必须依靠 CUDA 官方的同步流与事件（Stream/Event）来确立严格的内存时序。
 
-![DMA 完整生命周期图解](../images/dma-engine-from-descriptor-to-completion/002.png)
+![DMA 完整生命周期图解](../images/dma-engine-from-descriptor-to-completion/002.webp)
 *图 2：DMA 生命周期：从控制面准备描述符、Doorbell 通知到数据面搬运与完成同步*
 
 ---
@@ -73,7 +73,7 @@ DMA 目标内存必须对硬件设备持续可见：
    - 若传入 Pageable 内存，驱动内部可能先执行同步 Staging 到临时缓冲区，函数返回时底层 DMA 可能尚未启动；
    - 不同的 Stream 可能会在底层映射到相同的物理 Work Queue，产生虚假的串行依赖（False Dependency），必须借助 Nsight Systems 工具分析真实的硬件执行时间线。
 
-![常见 DMA 路径与 CXL 架构](../images/dma-engine-from-descriptor-to-completion/003.png)
+![常见 DMA 路径与 CXL 架构](../images/dma-engine-from-descriptor-to-completion/003.webp)
 *图 3：GPU Copy Engine、SM Copy、NIC DMA 与 CXL 共享内存交互全貌*
 
 ---
@@ -82,7 +82,7 @@ DMA 目标内存必须对硬件设备持续可见：
 
 在优化模型训练与分布式推理数据搬运时，必须依次明确四个核心问题：
 
-![路径选择四步法则](../images/dma-engine-from-descriptor-to-completion/004.png)
+![路径选择四步法则](../images/dma-engine-from-descriptor-to-completion/004.webp)
 *图 4：高性能数据传输路径设计闭环*
 
 1. **数据从哪到哪**：Host DRAM、GPU HBM、网卡 NIC、NVMe SSD 还是 CXL 外部扩展池？

@@ -25,7 +25,7 @@ https://morsecodetranslator.com/
 
 这个经典工具站为例：
 
-![image](./images/one-prompt-generate-landing-page-2/001.png)
+![image](images/one-prompt-generate-landing-page-2/001.webp)
 
 H1：覆盖核心关键词，甚至只有一个核心关键词“Morse Code Translator”；
 
@@ -45,23 +45,23 @@ H3：覆盖更多长尾词“Translate text to Morse code”、“Translate Mors
 
 我们以上周在Tiktok突然火了一下的“AI robot lion”为例。这个词不建议大家去做，这种词是在社媒中突然爆火，热度不一定能持久，这个词仅热了两三天，热度就下去了，不像前不久的另一个词“Wplace”那么火爆，因此，这个词仅仅是作为本次分享随便找的一个例子。
 
-![image](./images/one-prompt-generate-landing-page-2/002.png)
+![image](images/one-prompt-generate-landing-page-2/002.webp)
 
-![image](./images/one-prompt-generate-landing-page-2/003.png)
+![image](images/one-prompt-generate-landing-page-2/003.webp)
 
 找个一个关键词后，如果你不确定这个关键词的来源和意图，可以先和ChatGPT或Gemini聊一聊。如果你确定要做这个关键词，还可以继续和o3或GPT5 Thinking沟通一下围绕这个词做网站的切入点，并生成实现这个功能的开发方案，以备后续开发这个功能时做参考或使用。
 
-![image](./images/one-prompt-generate-landing-page-2/004.png)
+![image](images/one-prompt-generate-landing-page-2/004.webp)
 
 确定好切入点后，我们查找一下这个关键词的长尾词，我一般在这三个地方查看
 
-![image](./images/one-prompt-generate-landing-page-2/005.png)
+![image](images/one-prompt-generate-landing-page-2/005.webp)
 
-![image](./images/one-prompt-generate-landing-page-2/006.png)
+![image](images/one-prompt-generate-landing-page-2/006.webp)
 
-![image](./images/one-prompt-generate-landing-page-2/007.png)
+![image](images/one-prompt-generate-landing-page-2/007.webp)
 
-![image](./images/one-prompt-generate-landing-page-2/008.png)
+![image](images/one-prompt-generate-landing-page-2/008.webp)
 
 谷歌趋势搜索这个词后，查看这个词的“Related queries”；
 

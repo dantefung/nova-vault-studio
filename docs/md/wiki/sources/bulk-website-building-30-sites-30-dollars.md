@@ -24,21 +24,21 @@ url: "https://mp.weixin.qq.com/s/KTwQLI1ipk-QuTAmTquZFw"
 
 部分站上线后很快有搜索流量，几千甚至近万访客：
 
-![高流量站点数据](../images/bulk-website-building-30-sites-30-dollars/001.png)
+![高流量站点数据](../images/bulk-website-building-30-sites-30-dollars/001.webp)
 
-![高流量站点数据](../images/bulk-website-building-30-sites-30-dollars/002.png)
+![高流量站点数据](../images/bulk-website-building-30-sites-30-dollars/002.webp)
 
 但更多网站流量很少，或短暂突破后很快回落：
 
-![低流量站点数据](../images/bulk-website-building-30-sites-30-dollars/003.png)
+![低流量站点数据](../images/bulk-website-building-30-sites-30-dollars/003.webp)
 
-![低流量站点数据](../images/bulk-website-building-30-sites-30-dollars/004.png)
+![低流量站点数据](../images/bulk-website-building-30-sites-30-dollars/004.webp)
 
-![低流量站点数据](../images/bulk-website-building-30-sites-30-dollars/005.png)
+![低流量站点数据](../images/bulk-website-building-30-sites-30-dollars/005.webp)
 
 对接 Adsterra 后，近一个月只赚了 30 美金：
 
-![广告收入数据](../images/bulk-website-building-30-sites-30-dollars/006.png)
+![广告收入数据](../images/bulk-website-building-30-sites-30-dollars/006.webp)
 
 ## 反思
 

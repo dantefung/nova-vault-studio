@@ -20,7 +20,7 @@ url: "https://mp.weixin.qq.com/s/0Nh4ZG8By1bGTdY4V6nWAQ"
 
 "编排者—执行者"结构成为事实标准的核心原因是上下文管理。每个子 Agent 启动时持有独立的上下文窗口、专属的工具集和提示词，在较窄的任务边界内自主地多轮调用工具，将探索过程中产生的大量中间输出——搜索结果、文件内容、测试日志、堆栈跟踪——保留在自身窗口内，最终仅将蒸馏后的关键结论回传给主 Agent。搜索的本质是压缩：从大量语料中提炼出少量有效信息。子 Agent 承担了这一压缩环节，使主 Agent 的上下文不被探索过程的中间输出占满。
 
-![编排者—执行者拓扑图：主 Agent 位于根节点，子 Agent 各自持有独立上下文窗口，父子单向通信、兄弟互不可见](../images/multi-agent-communication/002.png)
+![编排者—执行者拓扑图：主 Agent 位于根节点，子 Agent 各自持有独立上下文窗口，父子单向通信、兄弟互不可见](../images/multi-agent-communication/002.webp)
 
 ## 第一条通道：任务描述下发与压缩摘要回传
 
@@ -53,7 +53,7 @@ Anthropic 给出的经验规则是按任务复杂度伸缩投入：
 
 Anthropic 的方案是提供第二条通道——**产物系统（artifact）**。子 Agent 直接调用工具将成果写入外部文件系统，仅将一个轻量的引用或路径回传给主 Agent。主 Agent 得到的是产物的位置，而非产物本身。对于代码、报告这类结构化产出，子 Agent 使用其专属提示词生成的质量通常高于经通用编排者过滤后的结果，因此让其直接写盘反而更能保真。
 
-![两条通道示意图：任务描述与压缩摘要走父子通道，大块产物绕过主 Agent 直接写入外部文件系统](../images/multi-agent-communication/003.png)
+![两条通道示意图：任务描述与压缩摘要走父子通道，大块产物绕过主 Agent 直接写入外部文件系统](../images/multi-agent-communication/003.webp)
 
 另一个关键细节是：当整轮研究可能超出主 Agent 自身的上下文窗口时，主 Agent 会先将研究计划写入外部 Memory。由于上下文超过 20 万 token 会被截断，将计划持久化后，主 Agent 在触及上限后仍能保留原有目标，并可派生上下文干净的新子 Agent 继续执行。因此"外部存储"在此架构中承担两个角色：既是子 Agent 交付大产物的落点，也是主 Agent 应对自身上下文截断的持久化记忆。
 
@@ -109,7 +109,7 @@ Anthropic 对不同系统的成绩做过归因分析：
 
 frontmatter 之下的正文即该子 Agent 的系统提示词，子 Agent 仅接收这段提示加基本环境信息，而不继承 Claude Code 完整的主系统提示。
 
-![Claude Code Subagents 示意图：主 Agent 通过 Task 工具派生子 Agent，父子单向通信、子 Agent 不能再派生下级](../images/multi-agent-communication/004.png)
+![Claude Code Subagents 示意图：主 Agent 通过 Task 工具派生子 Agent，父子单向通信、子 Agent 不能再派生下级](../images/multi-agent-communication/004.webp)
 
 ### 第二档：Agent Teams（对等横向）
 
@@ -124,7 +124,7 @@ frontmatter 之下的正文即该子 Agent 的系统提示词，子 Agent 仅接
 
 代价也不同——普通 Agent 类交互约为普通对话 token 消耗的 4 倍，而 Agent Teams 因每个队友都是一个完整独立的会话、额外叠加消息往来，开销升至约 7 倍。
 
-![Agent Teams 横向通信示意图：队友各自持有独立上下文窗口，可用 SendMessage 点对点或广播互发消息，并共享磁盘上的任务表（DAG）](../images/multi-agent-communication/005.png)
+![Agent Teams 横向通信示意图：队友各自持有独立上下文窗口，可用 SendMessage 点对点或广播互发消息，并共享磁盘上的任务表（DAG）](../images/multi-agent-communication/005.webp)
 
 ### 第三档：CLI 管道（操作系统级）
 
@@ -156,7 +156,7 @@ OpenAI 的 Codex 在较新版本中默认开启了 subagent 工作流，其思�
 
 在交互式 CLI 中，可用 `/agent` 在多个 agent 线程之间切换查看进度；由于子线程也可能弹出审批请求，审批浮层会标明来源线程，按 `o` 可先进入该线程查看再决定是否批准。
 
-![Codex Subagents 示意图：主线程显式派生子 agent，等待全部结果就绪后合并为一份统一答复，子线程之间不直接对话](../images/multi-agent-communication/006.png)
+![Codex Subagents 示意图：主线程显式派生子 agent，等待全部结果就绪后合并为一份统一答复，子线程之间不直接对话](../images/multi-agent-communication/006.webp)
 
 **配置层面，Codex 使用 TOML 而非 Markdown。** 它自带三个内置 agent：
 

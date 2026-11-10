@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "Man ting (@Manorgw)"
 url: "https://x.com/Manorgw/status/2117341977075474678"
-coverImage: "../images/manorgw-inkos-ai-creative-workspace/001.png"
+coverImage: "../images/manorgw-inkos-ai-creative-workspace/001.webp"
 ---
 
 # Man ting（@Manorgw）：InkOS——面向长篇小说、剧本与互动影游的开源 AI 创作工作台
@@ -21,7 +21,7 @@ Studio、TUI、CLI 几种玩法随你挑，想把创作流程系统化管起来�
 
 🔗 GitHub：https://github.com/Narcooo/inkos
 
-![](../images/manorgw-inkos-ai-creative-workspace/001.png)
+![](../images/manorgw-inkos-ai-creative-workspace/001.webp)
 
 ## 相关页面
 

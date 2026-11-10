@@ -32,7 +32,7 @@ url: "https://mp.weixin.qq.com/s/LDdho64V5XZMAvxEGYlNNg"
 
 ### 直接让 AI 写代码的问题
 
-![五类问题与对应支柱](../images/x-flow-ai-coding-engineering/001.png)
+![五类问题与对应支柱](../images/x-flow-ai-coding-engineering/001.webp)
 
 | 问题 | 表现 | 对应支柱 |
 |------|------|----------|
@@ -62,11 +62,11 @@ x-flow 是为 AI 搭建的开发流水线，起点是公司内部 Knot 平台上
 
 但通用骨架没法直接套用：它面向单仓库开发，没有协议协商的概念，也没有代码审查环节。所以在真实需求中边用边改，**三个多月迭代了 15 个版本**：删减了不适合项目的内容，按多仓库协作重写了需求澄清和测试阶段，新增了协议协商与锁定、PRD 覆盖矩阵、防漂移「三道闸」、代码审查等机制，并接入了知识库和项目工具链。
 
-![阶段组表格](../images/x-flow-ai-coding-engineering/002.png)
+![阶段组表格](../images/x-flow-ai-coding-engineering/002.webp)
 
 **17 个阶段分为 7 组，每组由一个专职的子 Agent 负责。**
 
-![x-flow 完整流水线](../images/x-flow-ai-coding-engineering/003.png)
+![x-flow 完整流水线](../images/x-flow-ai-coding-engineering/003.webp)
 
 负责调度的编排器本身**不分析需求、不写代码**。每个阶段的产出都写成编号固定的文档，下游阶段只读上游的文档；整个需求的进度记录在一个状态文件里。
 
@@ -148,7 +148,7 @@ AI 需要一个知识库：需求结束时，把值得留下的东西沉淀进�
 
 ### 三层知识，各管各的
 
-![三层知识对照](../images/x-flow-ai-coding-engineering/004.png)
+![三层知识对照](../images/x-flow-ai-coding-engineering/004.webp)
 
 三层合起来就是 AI 的知识库。**规则则被划在知识库之外**：规则约束 AI 的行为，每次会话强制加载；知识供 AI 按需检索，用到才读。分清「要守的规则」和「要查的知识」，规则清单才不会越写越长。
 
@@ -194,7 +194,7 @@ AI 需要一个知识库：需求结束时，把值得留下的东西沉淀进�
 
 ### 层与层之间：晋升、升级与淘汰
 
-![知识库晋升升级淘汰机制](../images/x-flow-ai-coding-engineering/005.png)
+![知识库晋升升级淘汰机制](../images/x-flow-ai-coding-engineering/005.webp)
 
 三层不是三个孤立的仓库。知识写进来要先归类，在层与层之间晋升，必要时升级为规则，没用了就淘汰。
 

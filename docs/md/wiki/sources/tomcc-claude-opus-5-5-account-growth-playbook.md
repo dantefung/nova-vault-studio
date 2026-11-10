@@ -17,17 +17,17 @@ coverImage: "../images/tomcc-claude-opus-5-5-account-growth-playbook/001.jpg"
 
 最近 Vibe 知识挺火的，就是让 AI 用代码直接把知识短片做出来。抖音这段时间也在推 #Vibe 知识大赏。以前做这种视频，得会动画、会做特效、会剪辑。现在一个人、一段提示词就能做出来，门槛一下子降下来了。
 
-![](../images/tomcc-claude-opus-5-5-account-growth-playbook/002.jpg)
+![](../images/tomcc-claude-opus-5-5-account-growth-playbook/002.webp)
 
 我自己真上手做了三条发在小号上，数据在下面，三条分别是《奥德赛时期》《局部最优解》《最后相遇定理》，加起来涨粉 600 多。数据不算太好，但里面也出了一条小爆款，主要是测试。
 
-![](../images/tomcc-claude-opus-5-5-account-growth-playbook/003.jpg)
+![](../images/tomcc-claude-opus-5-5-account-growth-playbook/003.webp)
 
 ## 具体怎么做？
 
 这类视频看下来主要有两种，一种是纯音乐加动效，一种是旁白、图片加动效。纯音乐那种，画面全是代码画出来的，不用找素材也不用配音，最简单，我选的就是这种。旁白加图片那种信息量大一些，但要配音、要找素材。素材可以让 Claude 自己上网搜，不过最好让它只找能免费商用的，不然容易侵权。
 
-![](../images/tomcc-claude-opus-5-5-account-growth-playbook/004.jpg)
+![](../images/tomcc-claude-opus-5-5-account-growth-playbook/004.webp)
 
 开始之前视频风格最好先定下来。光靠文字很难说清楚，可以直接垫几张你喜欢的图给它，它能照着那个感觉做，比你描述半天准得多。我这三条都是宣纸底加水墨。
 
@@ -154,7 +154,7 @@ coverImage: "../images/tomcc-claude-opus-5-5-account-growth-playbook/001.jpg"
 
 模型最好用 Opus 5.5，我自己用的就是它。我也拿 GPT 的模型跑过，同样的提示词扔进去，出来的效果真是惨不忍睹。但是你自己垫素材，慢慢改也可以，但是总感觉差点意思。
 
-![](../images/tomcc-claude-opus-5-5-account-growth-playbook/005.jpg)
+![](../images/tomcc-claude-opus-5-5-account-growth-playbook/005.webp)
 
 剩下的基本不用管，分镜、动画、渲染、音效、配乐都是它自己弄，最后直接给你一个视频。
 
@@ -166,7 +166,7 @@ coverImage: "../images/tomcc-claude-opus-5-5-account-growth-playbook/001.jpg"
 
 成片导出来直接发。记得带上平台的活动话题，#Vibe 知识大赏 这些标签并且@抖音科技。好作品有机会被推广。
 
-![](../images/tomcc-claude-opus-5-5-account-growth-playbook/006.jpg)
+![](../images/tomcc-claude-opus-5-5-account-growth-playbook/006.webp)
 
 ## 为什么有的能火，有的不火？
 
@@ -178,7 +178,7 @@ coverImage: "../images/tomcc-claude-opus-5-5-account-growth-playbook/001.jpg"
 
 第二，文案第一句要跟观众有关。别一上来就讲术语、讲历史，说观众自己可能正在经历的事。
 
-![](../images/tomcc-claude-opus-5-5-account-growth-playbook/007.jpg)
+![](../images/tomcc-claude-opus-5-5-account-growth-playbook/007.webp)
 
 结论二：视频要有节奏
 
@@ -193,7 +193,7 @@ coverImage: "../images/tomcc-claude-opus-5-5-account-growth-playbook/001.jpg"
 
 这样音乐的高潮、画面的高潮、文案的高潮就重叠在同一帧上。提示词里“高潮”那段写的就是这个，换了歌就让它先分析音频，找到重拍再对位。
 
-![](../images/tomcc-claude-opus-5-5-account-growth-playbook/008.jpg)
+![](../images/tomcc-claude-opus-5-5-account-growth-playbook/008.webp)
 
 结论三：抛一个问题给观众
 
@@ -213,7 +213,7 @@ coverImage: "../images/tomcc-claude-opus-5-5-account-growth-playbook/001.jpg"
 
 视频发出去没多久，就有人来问能不能付费学做这些视频，说明大家对这个确实有需求。
 
-![](../images/tomcc-claude-opus-5-5-account-growth-playbook/009.jpg)
+![](../images/tomcc-claude-opus-5-5-account-growth-playbook/009.webp)
 
 但真要靠这个收费教人，其实挺难弄的。有些人确实有需要，但怎么防封 Claude、怎么交付，都是不太好解决的问题。
 

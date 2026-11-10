@@ -4,7 +4,7 @@ date: "2026-11-04"
 source: "X/Twitter"
 author: "govin.eth | G哥 (@goan999999)"
 url: "https://x.com/goan999999/status/2111807626329965049"
-coverImage: "../images/govin-github-6-insane-open-source-projects-monetization/001.jpg"
+coverImage: "../images/govin-github-6-insane-open-source-projects-monetization/001.webp"
 ---
 
 # G 哥（@goan999999）：GitHub 已经彻底疯了！这 6 个免费开源项目，搞钱、提效真的太猛了
@@ -77,7 +77,7 @@ https://t.co/9LHWynnOla
 
 AI 搜索素材 → AI 研究选题 → AI 配音 → AI 剪视频 → AI 生成播客
 
-![](../images/govin-github-6-insane-open-source-projects-monetization/001.jpg)
+![](../images/govin-github-6-insane-open-source-projects-monetization/001.webp)
 
 ## 相关页面
 

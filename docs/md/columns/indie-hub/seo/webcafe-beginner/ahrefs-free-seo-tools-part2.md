@@ -20,7 +20,7 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 
 **8\. Broken Link Checker 坏链检查器**
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_002.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_002.webp)
 
 工具网址：[https://ahrefs.com/broken-link-checker](https://ahrefs.com/broken-link-checker)
 
@@ -31,11 +31,11 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 如果A网站无法访问，B网站可以访问，对于 B网站来说，A网站的这个就属于是入站死链。
 
 使用演示：如输入“qiuyumi.com” 可以看到有 8个出站死链。
-![image.png](images/ahrefs-free-seo-tools-part2/img_003.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_003.webp)
 
 **9\. Website Traffic Checker 网站流量检查器**
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_004.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_004.webp)
 
 工具网址：[https://ahrefs.com/traffic-checker](https://ahrefs.com/traffic-checker)
 
@@ -43,15 +43,15 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 
 使用演示：如输入 producthunt.com ，显示自然流量110万，价值49.5万美元。 
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_005.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_005.webp)
 
  这里可以跟 Semrush 数据对比，比 Semrush 显示的更多。 
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_006.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_006.webp)
 
 **10\. Keyword Rank Checker 关键词排名检查器**
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_007.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_007.webp)
 
 工具网址：[https://ahrefs.com/keyword-rank-checker](https://ahrefs.com/keyword-rank-checker)
 
@@ -59,11 +59,11 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 
 使用演示：这里以查询“keyword research”这个词，ahrefs.com排名为例，输入后得到排名结果是第7位。
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_008.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_008.webp)
 
 **11\. SERP Checker 搜索引擎结果页检查器**
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_009.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_009.webp)
 
 工具网址：[https://ahrefs.com/serp-checker](https://ahrefs.com/serp-checker)
 
@@ -71,11 +71,11 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 
 使用演示：如输入“ai generator” 可以看到这个词在谷歌中的前10搜索结果，以及每个域名的DR、UR、反链数量、反链网站数量、流量和关键词数量。
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_010.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_010.webp)
 
 **12\. Ahrefs SEO WordPress Plugin Ahrefs SEO WordPress 插件**
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_011.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_011.webp)
 
 工具网址：[https://ahrefs.com/wordpress-seo-plugin](https://ahrefs.com/wordpress-seo-plugin)
 
@@ -83,10 +83,10 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 
 使用演示：插件需要在Wordpress 中使用，哥飞就不给大家演示了。Ahrefs的介绍很有意思，不是另一个SEO插件，至少并不全是，这是对其它SEO插件的补充，专注于做内容审查和建议。
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_012.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_012.webp)
 
 **13\. AI Writing Tools 人工智能写作工具**
-![image.png](images/ahrefs-free-seo-tools-part2/img_013.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_013.webp)
 
 工具网址：[https://ahrefs.com/writing-tools](https://ahrefs.com/writing-tools)
 
@@ -109,7 +109,7 @@ url: "https://new.web.cafe/tutorial/detail/mRvjETspgqFhKM6x4jKHfZ"
 
 **14\. Ahrefs SEO Toolbar Ahrefs SEO 工具栏**
 
-![image.png](images/ahrefs-free-seo-tools-part2/img_014.png)
+![image.png](images/ahrefs-free-seo-tools-part2/img_014.webp)
 
 工具网址：[https://ahrefs.com/seo-toolbar](https://ahrefs.com/seo-toolbar)
 

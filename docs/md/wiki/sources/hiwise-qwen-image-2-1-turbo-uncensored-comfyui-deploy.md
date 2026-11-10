@@ -17,11 +17,11 @@ coverImage: "../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/001
 
 评论区已经有人开始脑补“解锁版能画什么”了。先泼盆冷水再讲干货——官方模型卡自己实测：换这个编码器，45 个敏感提示词成图 0 翻转。它画的东西，和官方版基本一模一样。
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/002.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/002.webp)
 
 那它到底有什么用？8G 显存的 5060 到底能不能跑？**能，实测跑通了。**下面这套 ComfyUI 工作流就是在 RTX 5060（8G 显存）真机上一步步踩坑踩出来的，第三节 5 个坑、第四节 4 组提示词，全部真机验证过，不是纸上谈兵。
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/003.png)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/003.webp)
 
 实测数据：首次出图约 2 分钟（含模型初始化加载），之后每次出图都在 1 分钟左右。
 
@@ -40,13 +40,13 @@ Qwen-Image-2.1 画图是三个部件配合：去噪器（画画的）+ 文本编
 
 先来看看生成图片效果👇
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/004.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/004.webp)
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/005.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/005.webp)
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/006.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/006.webp)
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/007.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/007.webp)
 
 ## 一、下载清单：4 个文件，文件名 / 大小 / 直链 / 存放位
 
@@ -60,7 +60,7 @@ mmproj-Qwen-Image-2.1-Turbo-Abliterated-Uncensored-F16.gguf（视觉投影器，
 
 qwen_image_2.1_vae_bf16.safetensors（VAE） 644MB [点我下载](https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors) ComfyUI/models/vae/
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/008.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/008.webp)
 
 ⚠️ 三个坑请注意：
 
@@ -119,7 +119,7 @@ Qwen-Image-2.1-Turbo 去审查版_ComfyUI 工作流.json
 
 现象：JSON 拖入画布，点 Queue 直接报 CustomSigmas 的 interpolate_to_steps 输入值 1.0, 0.978453, … 无法转换为 INT。
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/009.png)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/009.webp)
 
 原因：手写 ComfyUI API 格式 JSON 时，inputs 里 widget 参数的顺序必须和插件源码 INPUT_TYPES 的声明顺序一致——前端导入时是按位置映射 widget 值的。首版 JSON 把 interpolate_to_steps 写在了 sigmas_string 前面，结果那一长串数字被塞进了 INT 输入框。
 
@@ -131,7 +131,7 @@ Qwen-Image-2.1-Turbo 去审查版_ComfyUI 工作流.json
 
 原因：下拉选中了编码器文件 Qwen-Image-2.1-Turbo-Abliterated-Uncensored-AD-Q4_K.gguf（qwen3vl 架构），而 Unet Loader 只认去噪器。两仓库文件名实在太像了。
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/010.png)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/010.webp)
 
 解决方法：节点 1 改选去噪器 Qwen-Image-2.1-Turbo-AD-Q4_K.gguf（文件名里没有 Abliterated-Uncensored，4.20GB）。区分口诀：带 Abliterated-Uncensored = 编码器（进 CLIPLoader），不带 = 去噪器（进 Unet Loader）。
 
@@ -139,7 +139,7 @@ Qwen-Image-2.1-Turbo 去审查版_ComfyUI 工作流.json
 
 现象：去噪器加载成功（日志 Requested to load QwenImage21 → loaded completely），采样进度刚到 0/8 就炸：Given normalized_shape=[4096], expected input with shape [*4096], but got input of size[1, 512, 12288]。
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/011.png)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/011.webp)
 
 原因：ComfyUI-GGUF 目前不能正确加载 Qwen3-VL 的 GGUF 编码器——它会把编码器误认成 FLUX.2 klein 9B 的编码器（证据：日志里出现了一行本不该有的 Requested to load Flux2TEModel_），输出 12288 维的 conditioning，而去噪器的 txt_in 要的是 4096 维。
 
@@ -157,7 +157,7 @@ Qwen-Image-2.1-Turbo 去审查版_ComfyUI 工作流.json
 
 现象：CR Aspect Ratio 的 width / height 输出悬空，没连到任何节点。
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/012.png)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/012.webp)
 
 原因：Empty Latent Image 的宽高是输入框（widget），不是可连线的插槽；ComfyUI 导入 API 格式 JSON 时不会自动把输入框转成插槽，两根线直接被吞
 
@@ -175,31 +175,31 @@ Qwen-Image-2.1-Turbo 去审查版_ComfyUI 工作流.json
 
 1. 阴森哥特式大教堂内部，烛光摇曳，戴荆棘王冠的骸骨国王坐在白骨王座上，血红月光透过彩窗，暗黑奇幻油画风
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/013.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/013.webp)
 
 1. 废弃医院走廊，墙上血手印，天花板滴落暗红色液体，浓雾弥漫，恐怖电影剧照质感
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/014.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/014.webp)
 
 第二组：反乌托邦讽刺（DALL-E / MJ 类直接拒的题材
 
 1. 赛博朋克贫民窟，巨型全息广告牌播放着微笑的政客，底层人群在雨中排队领配给，霓虹与垃圾，电影感构图
 2. 抗议人群举着标语牌，上面写着“WE ARE WATCHING”，防暴警察组成人墙，催泪烟雾中黄昏逆光，新闻摄影风格
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/015.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/015.webp)
 
 第三组：敏感词文字海报（Qwen-Image 看家本领：画字
 
 1. 地下酒吧霓虹灯招牌，写着“NO RULES”，雨夜街道倒影，潮湿沥青反光
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/016.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/016.webp)
 
 第四组：战争历史（血腥场面，平台常限流）
 
 1. 二战战场，士兵跃出战壕冲锋，硝烟弥漫，黑白纪录片风格，粗颗粒胶片质感
 2. 中世纪攻城战，燃烧的箭矢划破夜空，城墙上火光冲天，史诗油画构图
 
-![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/017.jpg)
+![](../images/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy/017.webp)
 
 对比实验（建议拍成视频）：同一组提示词，去审查版和官方版编码器各跑一张，并排放一起让读者找不同——大概率找不到，这本身就是最有力的“反直觉”实锤，和第二节的观点直接闭环。
 

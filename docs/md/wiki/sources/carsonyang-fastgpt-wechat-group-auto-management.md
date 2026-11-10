@@ -27,11 +27,11 @@ coverImage: "../images/carsonyang-fastgpt-wechat-group-auto-management/001.jpg"
 
 以飞书为例，如果用户发的消息不是在提问，或者问的问题与产品无关，便保持静默不回复：
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/002.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/002.webp)
 
 只有识别到意图才会触发回复：
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/003.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/003.webp)
 
 今天我要做一个违背祖宗的决定，把这套工作流毫无保留直接全部公开出来！
 
@@ -41,7 +41,7 @@ coverImage: "../images/carsonyang-fastgpt-wechat-group-auto-management/001.jpg"
 
 推进社群客服自动化，首要原则是建立明确的服务分级标准。首个版本应当集中精力解决最消耗日常工时的问题，分步提升自动化水平。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/004.jpg)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/004.webp)
 
 以实际提问为例：
 
@@ -95,7 +95,7 @@ coverImage: "../images/carsonyang-fastgpt-wechat-group-auto-management/001.jpg"
 
 FastGPT 的知识库非常强大，你甚至可以直接接入一个网站作为知识库，FastGPT 会在后台定期同步网站内容转化成向量知识库，非常方便。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/005.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/005.webp)
 
 ### 第三步：新建工作流类型应用
 
@@ -107,7 +107,7 @@ FastGPT 的知识库非常强大，你甚至可以直接接入一个网站作为
 
 ## 客服工作流 15 个关键节点全流程拆解
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/006.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/006.webp)
 
 上图为社群客服完整流程架构示意图。主链路负责消息识别与业务应答，下半部分分支独立负责问题分类与运营日志沉淀，虚线部分代表 Agent 节点动态调用的知识库检索工具。
 
@@ -125,13 +125,13 @@ FastGPT 的知识库非常强大，你甚至可以直接接入一个网站作为
 
 第一道屏障是条件分支节点“判断是否艾特机器人”：
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/007.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/007.webp)
 
 当 is_at_bot 等于 False 时，流程流入回复过滤节点；若等于 True，则直接绕过过滤，直通后续渠道与应答处理流程。
 
 第二道屏障是 AI 意图判定节点“判断机器人要不要进行回复”：
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/008.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/008.webp)
 
 输入参数引用“流程开始”的用户问题，同时引入前 3 轮会话记忆，以确保对诸如“那具体怎么收费”等上下文指代问题做出连贯判断。
 
@@ -151,13 +151,13 @@ FastGPT 的知识库非常强大，你甚至可以直接接入一个网站作为
 
 该阶段由自定义代码节点与渠道判断器串联实现。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/009.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/009.webp)
 
 代码节点输入会话标识字段（此处映射为 userid），运行轻量 JavaScript 脚本提取客户端前缀，并将结果写入 result 输出变量。
 
 不同沟通平台的富文本渲染规范各异。飞书深度支持标准 Markdown 与卡片组件，微信客户端则推荐简洁易读的纯文本及完整超链接。通过代码节点识别出渠道标识后，流程将进入“渠道判断器”。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/010.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/010.webp)
 
 当 result 判定为“飞书”时，触发飞书专用的 Agent 节点；其他条件则流转至微信专用的 Agent 节点。
 
@@ -165,13 +165,13 @@ FastGPT 的知识库非常强大，你甚至可以直接接入一个网站作为
 
 回答层部署了“飞书机器人”与“微信机器人”两个独立的 Agent 节点。两者依托同一套底层知识库，但在格式呈现与排版上做出了明确划分。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/011.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/011.webp)
 
 节点选用理解能力强的基座模型，配置 15 轮长上下文记忆，并挂载两组知识库检索工具。
 
 飞书 Agent 提示词要求输出层次分明的 Markdown 格式，合理使用加粗小标题、有序步骤列表与引用标注，便于 PC 端大屏阅读。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/012.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/012.webp)
 
 微信端展示以段落清晰的纯文本为主，官方文档链接以完整的 https://... 明文形式展示，保障移动端点击跳转的顺畅性。
 
@@ -181,11 +181,11 @@ FastGPT 的知识库非常强大，你甚至可以直接接入一个网站作为
 
 业务数据的精准提取依赖于挂载在 Agent 节点下方的两个检索工具。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/013.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/013.webp)
 
 检索内容直接绑定“流程开始”的用户问题，采用向量索引结合全文匹配的混合检索算法，单次检索上限设定为 6000 tokens。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/014.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/014.webp)
 
 此节点聚合了全量官方文档，检索上限设定为 6600 tokens。
 
@@ -195,11 +195,11 @@ FastGPT 的知识库非常强大，你甚至可以直接接入一个网站作为
 
 为持续优化产品与知识库，系统设置了独立运行的问题分类与数据落盘分支。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/015.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/015.webp)
 
 该节点与渠道路由并行触发，依托独立模型对用户问题进行多维度标签化分析。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/016.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/016.webp)
 
 总共 10 类具体分类标签：系统部署、商务咨询、系统故障、模型调用、知识库维护、工作流搭建、账号权限、功能建议、环境配置及其他类别。
 
@@ -228,7 +228,7 @@ FastGPT 的知识库非常强大，你甚至可以直接接入一个网站作为
 
 要在飞书客户端获得规整的排版效果，发送层需按照飞书规范构造富文本结构。飞书支持在 post 类型消息中使用 md 标签解析 Markdown 文本。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/017.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/017.webp)
 
 发送层的消息体参数示范：
 
@@ -258,7 +258,7 @@ content 必须传输标准 JSON 序列化字符串。若回复中包含图片附
 
 微信生态内存在三种不同属性的接入形态。在搭建前需要明确社群用户的实际沟通场景，选择合规稳定的技术路径。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/018.jpg)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/018.webp)
 
 ### 个人微信对接
 
@@ -288,23 +288,23 @@ FastGPT 同时还提供了一套企业级接入微信生态的方案，该方案
 
 步骤 1：打开 ShellBot 平台，点左侧“我的机器人 -> 企业微信”，点“创建机器人”。选 WeAssist 模式，扫码登录企业微信账号。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/019.jpg)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/019.webp)
 
 列表中能看到已启动的企微机器人实例。
 
 步骤 2：在 FastGPT 应用的“发布渠道”里建好 API 密钥，把接口地址和 Key 绑到 ShellBot 的知识库渠道，打通对话链路。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/020.jpg)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/020.webp)
 
 步骤 3：点进机器人卡片，在“功能应用”里打开“智能回复”开关，点击右侧进入配置。
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/021.jpg)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/021.webp)
 
 选用渠道选 FastGPT，配置触发规则和延时接收时间。
 
 最终效果：
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/022.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/022.webp)
 
 接入企业微信之后，可以帮我们自动管理很多事情，举个例子。
 
@@ -316,15 +316,15 @@ FastGPT 同时还提供了一套企业级接入微信生态的方案，该方案
 
 首先打开【好友申请】选项，设置固定欢迎语，提醒对方发送关键词拉群：
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/023.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/023.webp)
 
 然后再添加一个关键词拉群：
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/024.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/024.webp)
 
 最终效果是这样的：
 
-![](../images/carsonyang-fastgpt-wechat-group-auto-management/025.png)
+![](../images/carsonyang-fastgpt-wechat-group-auto-management/025.webp)
 
 ## 最后
 

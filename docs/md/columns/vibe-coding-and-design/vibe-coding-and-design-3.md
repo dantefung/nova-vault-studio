@@ -18,7 +18,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 
 **这点缺失的“灵魂”，就是第五个层次——交互反馈（Interactive Feedback）。**
 
-![image.png](images/vibe-coding-3/001.jpeg)
+![image.png](images/vibe-coding-3/001.webp)
 
 现在的网页就像一张精美的海报，虽然好看，但它是静止的、冷漠的。当你把鼠标移到按钮上时，它没有反应；当你滚动页面时，内容生硬地出现。这种体验在当今的 Web 标准下，只能算是“及格”，远称不上“出色”。
 
@@ -95,7 +95,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 
 首先，寻找与页面风格相符的 Lottie 动画，我找的是这个毛毛虫（https://lottiefiles.com/free-animation/caterpillar-loader-0Zi0BMLHdP%EF%BC%89%EF%BC%9A
 
-![image.png](images/vibe-coding-3/002.jpeg)
+![image.png](images/vibe-coding-3/002.webp)
 
 然后点击 Handoff，然后复制相关代码到项目中，告知 AI "在页面的 xxx 区域增加这个 Lottie 动画"就好了，比如我输入的 Prompt：
 

@@ -4,7 +4,7 @@ date: "2026-11-01"
 source: "philschmid.de"
 author: "Philipp Schmid"
 url: "https://www.philschmid.de/code-mode"
-coverImage: "../images/philschmid-why-agents-will-only-have-one-tool/001.png"
+coverImage: "../images/philschmid-why-agents-will-only-have-one-tool/001.webp"
 ---
 
 # Philipp Schmid：为什么未来的智能体很快将只剩下一个工具（Code Mode 深度解析）
@@ -17,7 +17,7 @@ coverImage: "../images/philschmid-why-agents-will-only-have-one-tool/001.png"
 
 这被称为 **Code Mode（代码模式，或程序化工具调用 Programmatic Tool Calling）**。Harness 不再强迫模型跨轮次（turn-by-turn）一次触发一个工具，而是给模型暴露一个单独的 `exec(code)` 工具。模型直接编写一段简短的 TypeScript 或 Python 脚本，在隔离的沙箱环境里完成各种动作的链接、组合、循环和 `await`。
 
-![](../images/philschmid-why-agents-will-only-have-one-tool/001.png)
+![](../images/philschmid-why-agents-will-only-have-one-tool/001.webp)
 
 ## 一、从单步动作走向代码中的工作流串联
 
@@ -84,7 +84,7 @@ text(`Archived ${unassigned.length} unassigned issues across ${projects.length} 
 
 **沙箱在内存中执行完所有 55 次底层 API 调用，过滤掉海量数据载荷，只向模型的上下文窗口返回单行字符串**：`"Archived 42 unassigned issues across 12 projects."`。
 
-![](../images/philschmid-why-agents-will-only-have-one-tool/002.png)
+![](../images/philschmid-why-agents-will-only-have-one-tool/002.webp)
 
 ### 为什么选择 JS/Python 沙箱而不是纯 Bash？
 

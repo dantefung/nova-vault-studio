@@ -8,7 +8,7 @@ title: Unlocking Code Reading: From Novice to Expert
 
 # Unlocking Code Reading: From Novice to Expert
 
-![code-reading-video-clip](./code-reading-en.png)
+![code-reading-video-clip](code-reading-en.webp)
 
 ## Code Reading: An Essential Programming Skill
 

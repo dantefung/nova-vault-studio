@@ -7,13 +7,13 @@ url: "https://x.com/Astronaut_1216/status/2101962048695607485"
 
 # 从0人访问到被更多人搜到：纯小白个人网站 AI + SEO 实战复盘
 
-![封面配图](./images/codex-personal-site-ai-seo-case-study/001.jpg)
+![封面配图](images/codex-personal-site-ai-seo-case-study/001.webp)
 
 从零了解 AI 加出海与个人站点 SEO 能做哪些事情。以完全小白视角，记录如何使用 Codex 搭配工具链对个人网站进行深度体检与工程级改造。
 
 在此之前，很多专业 SEO 工具我都未曾使用过，更谈不上深谙出海运营。但通过让 Codex 与主流工具协作，完成了对个人站点的完整排查，定位底层缺陷，并生成了详尽的结构化整改规范交付后续任务推进。
 
-![Codex 任务执行流程](./images/codex-personal-site-ai-seo-case-study/002.png)
+![Codex 任务执行流程](images/codex-personal-site-ai-seo-case-study/002.webp)
 
 ---
 
@@ -65,7 +65,7 @@ SEO 接住的是这条长效链路。个人站点负责将分散在各平台的�
 
 完成外部基准比对后，开始对个人站点进行系统核验：
 
-![站点体检与数据分析](./images/codex-personal-site-ai-seo-case-study/003.jpg)
+![站点体检与数据分析](images/codex-personal-site-ai-seo-case-study/003.webp)
 
 站点看似能够正常渲染，但与“能持续获取自然搜索流量”之间存在诸多隐性技术缺陷：
 
@@ -89,7 +89,7 @@ Codex 整理出了包含具体页面、修复方案与验收标准的结构化�
 
 在自检文档梳理清晰后，通过上下文传递机制将改动需求同步给负责站点工程实现的另一个 Codex 会话环境：
 
-![Codex 上下文协作推进](./images/codex-personal-site-ai-seo-case-study/004.jpg)
+![Codex 上下文协作推进](images/codex-personal-site-ai-seo-case-study/004.webp)
 
 该环境已具备站点的代码库架构、部署上下文与 Search Console 历史表现，因此无需重复交代背景即可直接进入代码修改与构建验收阶段：
 1. 优化所有文章在主列表中的静态爬取可达性，消除单纯依赖客户端点击造成的深度孤岛。

@@ -52,7 +52,7 @@ DSH 对 sessionless 的产品形态并没有给出明确定义：是像 Muse 那
 
 如果要给 Super-Agent 一个产品形态上的幻想，我脑子里 sessionless 的形态只有一个——"贾维斯"。不妨就假设，未来每个人手里都有一个"贾维斯"App。
 
-![image](images/deepseek-harness-breakdown/004.jpg)
+![image](images/deepseek-harness-breakdown/004.webp)
 
 任何事只需要一个入口。我说一句"帮我做这个"，它去做，在合适的时候答复我；我也可以随时回头问它某件事进展如何。工作、任务、进度追踪，全由它管理、调度、执行。人在这里享受到的，才是 AI 真正带来的便捷。
 
@@ -66,7 +66,7 @@ DSH 对 sessionless 的产品形态并没有给出明确定义：是像 Muse 那
 
 现实世界中，事件的上下文来自四面八方：A 项目下面挂着 A、B、C 三个群，B 项目的代码又散在 A、B、C 三个仓库。而真正决定"这次干活和什么有关"的，是与之相关的工作上下文。Session 只是一个临时的执行过程——就像我在 WorkBuddy 里建一个项目，所有 Session 都复用这个工作区的记忆，我在一个会话里面，让他接着干一件事，不需要做很复杂的交代，他便可以知道我在这个空间下，想干什么，改哪些代码，有什么历史信息。
 
-![image](images/deepseek-harness-breakdown/005.png)
+![image](images/deepseek-harness-breakdown/005.webp)
 
 关于上下文的管理，近半年来基本上大家都在研究这个方向，并不稀奇。DSH这套方案的解法，可以理解为Router就是充当一个管理全局上下文的角色，由他来根据历史信息，来决定这个事件/这条消息，我要派给哪个worker去执行。
 
@@ -86,7 +86,7 @@ DSH 对 sessionless 的产品形态并没有给出明确定义：是像 Muse 那
 
 开源产品如：Buzz、Raft、Cumora，在人和Agents协作，都把人和Agents的协作范围限定一个逻辑概念上的工作区/群/频道中。
 
-![image](images/deepseek-harness-breakdown/006.png)
+![image](images/deepseek-harness-breakdown/006.webp)
 
 而一旦上下文被限制在可控边界范围内，Router 的决策就变得可行了。
 
@@ -106,7 +106,7 @@ DSH 提到过几种判断事件的策略，比如 Fast Path（代码规则）和
 
 所以 DSH 设计了一个很巧的机制——链式召回。简单来讲就是把上下文窗口当 Cache，系统摘要所有对象都有ID，构成一张引用关系图，每次送给模型先只内联摘要和 ID，Agent 需要细节时，再顺着 ID 逐跳取。而放到 Router 层，这个机制同样能缓解长程任务里"早期信息丢失"的问题。
 
-![image](images/deepseek-harness-breakdown/007.png)
+![image](images/deepseek-harness-breakdown/007.webp)
 
 到这里，第二章回答的是“Router 看到什么”：边界决定它看哪一片，链式召回决定它看多深。但这两件事都还停在“理解”层面——理解完之后，一件事怎么被记住、被交接、换个人还能接着做，是另一套东西。
 
@@ -120,11 +120,11 @@ DSH 提到过几种判断事件的策略，比如 Fast Path（代码规则）和
 
 换一个更日常的例子：@agent 这个 retry 逻辑超时之后会重复扣款，改成幂等的。看看DSH 是怎么做这层数据映射、怎么定义"一件工作"的。
 
-![image](images/deepseek-harness-breakdown/008.png)
+![image](images/deepseek-harness-breakdown/008.webp)
 
 从表格定义上还是很难看出这里条件的层层扭转，从一个图的角度上来看：
 
-![image](images/deepseek-harness-breakdown/009.png)
+![image](images/deepseek-harness-breakdown/009.webp)
 
 可以发现这些概念各司其职，不是一条龙流水线，而是围绕同一条事件流做不同层面的切分：
 
@@ -162,7 +162,7 @@ Channel把结果送回人群。
 
 四个特征与五个模块的对应关系是这样的：
 
-![image](images/deepseek-harness-breakdown/010.png)
+![image](images/deepseek-harness-breakdown/010.webp)
 
 这些模块听起来新，但追到根上，都是传统分布式系统的设计理念，这半年业界也或多或少都在往这个方向落地。
 
@@ -174,7 +174,7 @@ Router在整个系统中充当控制面：判断一件事值不值得做、该�
 
 Worker层在整个系统中充当数据面：拿到任务就执行，专注把一个任务交付。
 
-![image](images/deepseek-harness-breakdown/011.png)
+![image](images/deepseek-harness-breakdown/011.webp)
 
 ## 4.2 计算和状态分离：Agent as a Service
 
@@ -184,7 +184,7 @@ Worker 这个词不足以描述它的性质。更准确的说法是Agent as a Se
 
 先看常驻实例的思路（Agent in the Sandbox，代表是 WorkBuddy、Codex、Claude Code）：一个实例绑着自己的记忆、工具集、性格。听起来很自然，也不需要分层和异步。但它有个死结——实例不可替代：它挂了，任务跟着挂；它慢了，任务跟着慢；它用的 Harness 过时了，任务只能跟着过时。
 
-![image](images/deepseek-harness-breakdown/012.png)
+![image](images/deepseek-harness-breakdown/012.webp)
 
 从服务化的角度看，状态与计算分离是必然的：把 Agent 的能力定义清楚，执行由谁来做变成可替换，把执行 Loop 做成无状态。今天用这个 Harness，明天换那个；今天跑在这台机器，明天跑在另一台；今天用这个模型，明天换更强的——对上层透明。
 
@@ -204,7 +204,7 @@ Worker 变成无状态服务之后，它就只是一个执行层。执行时的�
 
 这样 Sandbox 就从"Agent 的容器"变成了"Agent 的工具"——不是 Agent in the Box，而是Sandbox as the Agent Tool。
 
-![image](images/deepseek-harness-breakdown/013.png)
+![image](images/deepseek-harness-breakdown/013.webp)
 
 一个 Agent 不再受限于单台机器，可以在不同执行设备之间切换，按任务需要选择环境、执行命令、获取上下文。用户的个人设备也成了 Agent 的一个工具：我要看用户机器上的某个文件，只需要通过端云之间的契约通道，像调 E2B Sandbox 一样调这台在线设备。
 
@@ -212,7 +212,7 @@ Worker 变成无状态服务之后，它就只是一个执行层。执行时的�
 
 把三条路线摆在一起，取舍就很清楚，对海量用户在用的 Agent 系统来说，既想抬高智能上限，又想压低使用成本，把 Agent 做进端侧 OS、端云结合，是一个折中解。
 
-![image](images/deepseek-harness-breakdown/014.png)
+![image](images/deepseek-harness-breakdown/014.webp)
 
 ## 4.4 事件驱动：从 Trigger 到订阅直通
 
@@ -228,7 +228,7 @@ DSH 的解法，是把群聊消息、邮件、日程提醒、代码评审评论�
 
 于是 DSH 引入订阅直通：同一个 IM 话题、同一个工作区、同一个 PR 下的消息，构成一条 Thread。Router可以与订阅过的Thread建立直接关系，由程序直接送到 Worker 手上，不再经过 Router，只有尚未被订阅的新消息，才需要 Router 判断和分派。
 
-![image](images/deepseek-harness-breakdown/015.png)
+![image](images/deepseek-harness-breakdown/015.webp)
 
 订阅是多对多的：一个 Worker 可以订阅多条 Thread，一条 Thread 也可以被多个 Worker 订阅。这套订阅关系和消息系统的发布订阅思想类似：先确定归属、建立订阅，后续按已有关系投递，不必每条都重新判断。
 
@@ -242,7 +242,7 @@ DSH 的解法，是把群聊消息、邮件、日程提醒、代码评审评论�
 
 DSH 的做法是把耗时的命令与子任务调用改成异步的start()和stop()：模型调用start()后立即收到已启动的返回，循环不再等这个工具；后台执行完成后，系统再把最终结果作为一条新事件投递进会话。同时，模型也可以按需调用stop()，主动终止跑得太久的后台命令
 
-![image](images/deepseek-harness-breakdown/016.png)
+![image](images/deepseek-harness-breakdown/016.webp)
 
 前台响应与后台执行就此解耦：Agent 在后台跑长任务的同时，仍能接人的输入；新输入在当前推理步结束时就被处理，不必等后台工具收尾。
 
@@ -250,7 +250,7 @@ DSH 的做法是把耗时的命令与子任务调用改成异步的start()和sto
 
 DSH做了不同信道输出的不同策略，且原文提到一条很实在的硬性规定：IM 场景单次回复不超过 100 词。这类规则看似琐碎，但它决定了 Agent 在群里的存在感是"同事"还是"噪音"。
 
-![image](images/deepseek-harness-breakdown/017.png)
+![image](images/deepseek-harness-breakdown/017.webp)
 
 云端异步：把异步执行搬到云端、服务海量用户的 Agent 任务时，还有一个问题：异步结果怎么交回会话？RPC 回调、原地轮询都不是好答案。从系统角度看，很自然会想到消息系统。
 
@@ -272,7 +272,7 @@ DSH做了不同信道输出的不同策略，且原文提到一条很实在的�
 
 长期在线的分布式系统，很难只靠主系统内部的逻辑保证长期可靠，通常要在主系统之外放一个独立的外部控制回路，如k8s的控制循环。
 
-![image](images/deepseek-harness-breakdown/018.png)
+![image](images/deepseek-harness-breakdown/018.webp)
 
 但Agent 场景的难点在于：很多故障不是进程崩了，而是任务本身没进展。传统的存活探测发现不了"模型在原地打转"，也发现不了"方向已经偏了"。
 
@@ -290,7 +290,7 @@ DSH 的做法是在主系统之外配一个独立的 Watchdog Session，用定�
 
 一句话概括：Agent 缺三样东西——身份、感知、界面。身份决定它能进哪些系统，感知决定它什么时候该动，界面决定人怎么看到和改动它的结果。
 
-![image](images/deepseek-harness-breakdown/019.png)
+![image](images/deepseek-harness-breakdown/019.webp)
 
 ## 5.1 身份：一个有身份的 Agent
 
@@ -300,7 +300,7 @@ GitHub 得愿意给它开 machine account，企业微信得愿意发它一个机
 
 过去一年，我的 Coding 工具从 Claude Code、Codex 换到 CodeBuddy，再到 WorkBuddy。就 Harness 而言，绝大多数情况下交付质量差不多；但 WorkBuddy 的 Agent 身份带来了极致的便捷——我可以把所有数据资产 All in One Buddy。
 
-![image](images/deepseek-harness-breakdown/020.png)
+![image](images/deepseek-harness-breakdown/020.webp)
 
 所以我把"生态"理解成一句话：生态不是功能有多少，是有多少系统愿意认这个身份。
 

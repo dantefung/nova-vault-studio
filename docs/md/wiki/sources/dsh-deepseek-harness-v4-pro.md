@@ -26,7 +26,7 @@ url: "https://mp.weixin.qq.com/s/w2_BXWalyzj7phNaSrfrXA"
 
 任务 → V4 Pro → Responses API → DSH 运行时 → 工具 / 文件 / 测试 → 可回查结果
 
-![DeepSeek Agent 三层架构](../images/dsh-deepseek-harness-v4-pro/001.png)
+![DeepSeek Agent 三层架构](../images/dsh-deepseek-harness-v4-pro/001.webp)
 
 ## 一、DSH：先看运行时边界
 
@@ -38,7 +38,7 @@ npx @deepseek-ai/dsh web
 ```
 默认在 `http://127.0.0.1:3080` 启动 Web 界面。适合在隔离环境里认识结构，不适合把预览版当作生产依赖。
 
-![DSH npm 页面](../images/dsh-deepseek-harness-v4-pro/002.png)
+![DSH npm 页面](../images/dsh-deepseek-harness-v4-pro/002.webp)
 
 ### "一切皆插件"到底意味着什么
 
@@ -82,7 +82,7 @@ DSH 把模型、工具、文件系统和子进程等模块放到可替换的 **s
 
 这些分数能看出官方用什么任务检验模型，不能直接换算成某个团队的生产效率。模型、Harness、提示词、工具和运行参数都会影响结果。
 
-![V4-Pro-0813 模型页](../images/dsh-deepseek-harness-v4-pro/003.png)
+![V4-Pro-0813 模型页](../images/dsh-deepseek-harness-v4-pro/003.webp)
 
 API 侧注意事项：
 - V4 Pro 模型版本是 `DeepSeek-V4-Pro-0813`，调用名仍是 `deepseek-v4-pro`
@@ -123,7 +123,7 @@ API 侧注意事项：
 
 ## 五、一次 Agent 任务，三层怎么配合
 
-![一次 Agent 任务运行流程](../images/dsh-deepseek-harness-v4-pro/004.png)
+![一次 Agent 任务运行流程](../images/dsh-deepseek-harness-v4-pro/004.webp)
 
 | 位置 | 主要职责 | 少了它会怎样 |
 |------|---------|------------|

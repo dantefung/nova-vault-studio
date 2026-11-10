@@ -13,7 +13,7 @@ url: "https://mp.weixin.qq.com/s/0Z_8lcd3zjvELaDhEH_2pw"
 
 作者：Victor 在西雅图
 
-![YC 2026 夏季批次](../images/yc-s26-agent-infrastructure/001.jpg)
+![YC 2026 夏季批次](../images/yc-s26-agent-infrastructure/001.webp)
 
 ## 批次结构变化
 

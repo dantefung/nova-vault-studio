@@ -17,7 +17,7 @@ coverImage: "../images/xuxuanzhou-72h-5480usd-new-word-site/001.jpg"
 
 如果非要说这次的秘诀，就一个字：早。
 
-![](../images/xuxuanzhou-72h-5480usd-new-word-site/002.jpg)
+![](../images/xuxuanzhou-72h-5480usd-new-word-site/002.webp)
 
 简单说一下我做的是什么。10 月初，多米尼加说唱歌手 Bulin 47 的一段即兴说唱在 TikTok 上火了，很多人用 AI 把自己放进这段视频里再发出来。我的网站就干这一件事：上传一张自己的照片，生成一条你在里面说唱的 19 秒视频。
 
@@ -29,7 +29,7 @@ coverImage: "../images/xuxuanzhou-72h-5480usd-new-word-site/001.jpg"
 
 9 月底哥飞老师为了给我们教学，亲自下场做了一个新词站，目前累计收入 5345 刀。那段时间他经常在群里转发新词，很多群友跟着去做站，也都拿到了不少收益。我在旁边看得心动，但人在外面旅游，一直没动手，10 月 8 号回来才开始。
 
-![](../images/xuxuanzhou-72h-5480usd-new-word-site/003.jpg)
+![](../images/xuxuanzhou-72h-5480usd-new-word-site/003.webp)
 
 ## 10 月 8 号：先在老站上加了一个页面
 
@@ -59,7 +59,7 @@ coverImage: "../images/xuxuanzhou-72h-5480usd-new-word-site/001.jpg"
 
 然后就发现，有个用户明明生成成功了，网站却给他退了款。我去看了视频，挺像的啊。跟 AI 一通沟通才发现，是 Claude 之前加的那个「没换人就判失败」的判断，把付费用户的正常成片误判了。先把判定标准调松，后来干脆整个删掉。接着又发现网页特别卡，还会报 500。原因是人进来太多，数据库连接被打满了，又赶紧修。前两天基本没怎么睡，一直在修 bug、改体验。这里让 claude code 整理出我头两天修的 bug，感兴趣可以点开看看：
 
-![](../images/xuxuanzhou-72h-5480usd-new-word-site/004.jpg)
+![](../images/xuxuanzhou-72h-5480usd-new-word-site/004.webp)
 
 ## 为了少出客服单，我还做了这几件事
 
@@ -71,11 +71,11 @@ coverImage: "../images/xuxuanzhou-72h-5480usd-new-word-site/001.jpg"
 
 标题里的 $5,480 是首单后 72 小时的订单标价，不含结账时加的税，也没扣退款。第一周一共 558 单、$6,434（同样是标价），393 个人付了钱，退了 22 单。
 
-![](../images/xuxuanzhou-72h-5480usd-new-word-site/005.jpg)
+![](../images/xuxuanzhou-72h-5480usd-new-word-site/005.webp)
 
 梗冒头到 Google Trends 见顶大概 4 天。85% 的钱是头 72 小时进来的，第 4 天单量就只剩高峰的五分之一。
 
-![](../images/xuxuanzhou-72h-5480usd-new-word-site/006.jpg)
+![](../images/xuxuanzhou-72h-5480usd-new-word-site/006.webp)
 
 几个出乎我意料的数：
 

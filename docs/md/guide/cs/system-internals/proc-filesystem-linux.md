@@ -94,7 +94,7 @@ inode 创建完成后，内核创建 struct file 对象，将 file->f_op 指向�
 
 用户调用 read() 时，最终调用到 seq_read()。这是 seq_file 机制的核心入口。
 
-![image](./images/proc-filesystem/w/001.png)
+![image](images/proc-filesystem/w/001.webp)
 
 这里有一个关键的工程设计：show 函数不直接和用户缓冲区交互。它只负责把内容写入 seq_file 提供的内部缓冲区，seq_read 再统一处理分段拷贝、位置偏移、越界判断。
 

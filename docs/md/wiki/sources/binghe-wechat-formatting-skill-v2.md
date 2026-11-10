@@ -55,7 +55,7 @@ Windows 用户： 在该文件夹空白处右键 → 在终端中打开，输入
 
 它会自动调取我们的公众号写作 Skill
 
-![](../images/binghe-wechat-formatting-skill-v2/002.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/002.webp)
 
 这个 Skill 很强大，也很全面是我们多年的经验沉淀，你们自己看上面的文章研究去吧。
 
@@ -87,21 +87,21 @@ Windows 用户： 在该文件夹空白处右键 → 在终端中打开，输入
 
 他会自动找到我们最新的公众号排版 Skill ，并且自动弹出中控台！
 
-![](../images/binghe-wechat-formatting-skill-v2/003.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/003.webp)
 
 如果中控台没有你的文章内容（因为默认的是样例内容），你可以直接让 CC 把文章内容直接填进去。
 
 并且要求它按内容做好排版设计，再替换原有内容。如下图：
 
-![](../images/binghe-wechat-formatting-skill-v2/004.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/004.webp)
 
-![](../images/binghe-wechat-formatting-skill-v2/005.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/005.webp)
 
 如果你的大模型不那么聪明的话，你就自己去把文章全文复制，再回到中控台手动粘贴也行啦！只是不优雅还需要自己手动调节嘛。哈哈哈。
 
 如下图，文章内容自动进来啦！还做了一些他认为的排版设计！我们可以在这个基础上精修一下！少了很多自己干的步骤！
 
-![](../images/binghe-wechat-formatting-skill-v2/006.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/006.webp)
 
 接下来，我就要测试一下新功能啦，以前的文字，品牌色，12 个风格样式，我就不说了。
 
@@ -109,7 +109,7 @@ Windows 用户： 在该文件夹空白处右键 → 在终端中打开，输入
 
 控制台关于图片上传和快捷插入里有了一些新变化
 
-![](../images/binghe-wechat-formatting-skill-v2/007.png)
+![](../images/binghe-wechat-formatting-skill-v2/007.webp)
 
 图片上传这里你可以上传，为了看最终效果！但是，无法保存后直接到公众号里！因为你是本地内容！这点注意！
 
@@ -117,13 +117,13 @@ Windows 用户： 在该文件夹空白处右键 → 在终端中打开，输入
 
 封面图： 也就是文章上面最大的图，就像杂志封面。整张图满屏铺开，没有边框，只有一个小小的“COVER”标签提醒你这是封面。适合放在文章开头定调子。
 
-![](../images/binghe-wechat-formatting-skill-v2/008.png)
+![](../images/binghe-wechat-formatting-skill-v2/008.webp)
 
 引用图：专门用来放“别人的东西”。比如你截了一段别人的文章、一条微博、一张对话截图。
 
 它会带一个明显的 “QUOTE · 引用” 标签和左侧色条，告诉读者：“这不是我自己的内容，是引用来的”。
 
-![](../images/binghe-wechat-formatting-skill-v2/009.png)
+![](../images/binghe-wechat-formatting-skill-v2/009.webp)
 
 双图、三图 ，顾名思议就是多图类型啦！两张或三张图挨在一起显示。
 
@@ -131,9 +131,9 @@ Windows 用户： 在该文件夹空白处右键 → 在终端中打开，输入
 
 这种场景比较少！适时使用！
 
-![](../images/binghe-wechat-formatting-skill-v2/010.png)
+![](../images/binghe-wechat-formatting-skill-v2/010.webp)
 
-![](../images/binghe-wechat-formatting-skill-v2/011.png)
+![](../images/binghe-wechat-formatting-skill-v2/011.webp)
 
 其它的几个快捷方式，大家自行研究吧，挺好玩的！
 
@@ -145,7 +145,7 @@ Windows 用户： 在该文件夹空白处右键 → 在终端中打开，输入
 
 我们新写一篇看看效果！粘贴刚才的内容到微信编辑器区域：
 
-![](../images/binghe-wechat-formatting-skill-v2/012.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/012.webp)
 
 其实这里，我们只要调整的只有图片替换问题
 
@@ -153,17 +153,17 @@ Windows 用户： 在该文件夹空白处右键 → 在终端中打开，输入
 
 点击图片占位图-- 选择“替换”
 
-![](../images/binghe-wechat-formatting-skill-v2/013.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/013.webp)
 
 然后找个图片直接替换，就可以了。样式完美保留！
 
-![](../images/binghe-wechat-formatting-skill-v2/014.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/014.webp)
 
 还有的样式中，图片是有边框！
 
 但是替换了图片后，图片的边框没有完整的与图片相对齐，这个时候只要在图片上点击“自适应”，就可以啦！
 
-![](../images/binghe-wechat-formatting-skill-v2/015.jpg)
+![](../images/binghe-wechat-formatting-skill-v2/015.webp)
 
 这只是个操作小提醒！
 

@@ -39,7 +39,7 @@ url: "https://mp.weixin.qq.com/s/S5GPbFCrNRjocF53-gnFvQ"
 
 通过接口协议彻底解耦，系统获得了可观测性与可重试能力。只要某个环节输出不合规，工作流可以在管道层面阻断并进行局部重试，而不是让整个会话链路陪跑崩溃。
 
-![image](../images/anthropic-unix-agent/004.png)
+![image](../images/anthropic-unix-agent/004.webp)
 
 ## 动态工作流演进：Anthropic 给工程落地的安全边际
 

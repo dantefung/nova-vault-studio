@@ -4,7 +4,7 @@ date: "2026-11-09"
 source: "X/Twitter"
 author: "国际范 Bill (@guojifanbill)"
 url: "https://x.com/guojifanbill/status/2119452011469156591"
-coverImage: "../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/001.jpg"
+coverImage: "../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/001.webp"
 ---
 
 # 国际范 Bill（@guojifanbill）：哥飞上站比赛 Day 5-6——Bing 接入 IndexNow 后终于出词，新站 SEO 排查实录
@@ -165,13 +165,13 @@ coverImage: "../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backli
 
 明天继续折腾！💪🏻
 
-![](../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/001.jpg)
+![](../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/001.webp)
 
-![](../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/002.jpg)
+![](../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/002.webp)
 
-![](../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/003.jpg)
+![](../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/003.webp)
 
-![](../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/004.jpg)
+![](../images/guojifanbill-gefei-launch-race-day5-6-indexnow-and-backlinks/004.webp)
 
 ---
 

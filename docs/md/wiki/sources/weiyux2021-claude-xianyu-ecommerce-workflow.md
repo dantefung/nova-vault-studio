@@ -53,7 +53,7 @@ Claude 会给你什么？
 
 它会生成像这样的一套推荐：
 
-![](../images/weiyux2021-claude-xianyu-ecommerce-workflow/002.jpg)
+![](../images/weiyux2021-claude-xianyu-ecommerce-workflow/002.webp)
 
 我按这个清单去闲鱼搜，发现很多品“想要数”都超高，竞争却很小。 像不锈钢操作台、养殖网、防静电工作台这些，拼多多拿货价和闲鱼售价有几百甚至上千的价差。
 
@@ -259,7 +259,7 @@ Claude 可以帮你生成一个每日运营清单，包括什么时间换城市�
 
 整个流程的效率对比
 
-![](../images/weiyux2021-claude-xianyu-ecommerce-workflow/003.jpg)
+![](../images/weiyux2021-claude-xianyu-ecommerce-workflow/003.webp)
 
 效率提升 10 倍以上。
 

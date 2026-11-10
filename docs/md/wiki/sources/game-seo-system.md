@@ -28,121 +28,121 @@ url: "https://mp.weixin.qq.com/s/sjb05qDsfcp3jCynUeAbJw"
 
 统一管理所有站点，一览无余。
 
-![网站列表](../images/game-seo-system/001.png)
+![网站列表](../images/game-seo-system/001.webp)
 
 ### 2. 分类管理
 
 两大分类：游戏下载、软件下载。游戏下载类自动覆盖行业 CPS 平台全部游戏；软件下载类可批量导入。系统基于游戏海量数据来带动，软件下载为辅助。
 
-![分类管理](../images/game-seo-system/002.png)
+![分类管理](../images/game-seo-system/002.webp)
 
 ### 3. CPS 接口集成
 
 集成市面上稳定的游戏盒子 CPS 接口，简单填写游戏平台信息即可部署游戏下载链接。目前只接入游戏行业，软件行业需自己寻找渠道。
 
-![CPS接口](../images/game-seo-system/003.png)
+![CPS接口](../images/game-seo-system/003.webp)
 
 ### 4. 自动部署 SEO 信息
 
 自动部署标题、关键词、描述，也可自定义。网站任何信息标题可自动或手工设置。
 
-![SEO部署](../images/game-seo-system/004.png)
+![SEO部署](../images/game-seo-system/004.webp)
 
 ### 5. 自动 sitemap.xml
 
-![Sitemap](../images/game-seo-system/005.png)
+![Sitemap](../images/game-seo-system/005.webp)
 
 ### 6. 友情链接 + 蜘蛛池
 
 强大的友情链接功能与后台蜘蛛池配合，将 URL 部署到 2 千亿条 URL 的网站中。每个网站拥有 2 千亿条 URL，自动部署。
 
-![友情链接](../images/game-seo-system/006.png)
+![友情链接](../images/game-seo-system/006.webp)
 
 ### 7. 爱站百度一键查询
 
 方便简单地查询网站收录情况。
 
-![百度查询](../images/game-seo-system/007.png)
+![百度查询](../images/game-seo-system/007.webp)
 
 ### 8. 蜘蛛池功能
 
 后台某站点蜘蛛达到 10 万时，可将此服务器未收录的站点 URL 放进来，自动部署到 2 千亿条 URL 下面。
 
-![蜘蛛池](../images/game-seo-system/008.png)
+![蜘蛛池](../images/game-seo-system/008.webp)
 
 ### 9. 合作账号
 
 可以给其他关联用户管理权限，有闲置域名的人可以放入你的系统中，相当于系统支持多人使用。
 
-![合作账号](../images/game-seo-system/009.png)
+![合作账号](../images/game-seo-system/009.webp)
 
 ### 10. 插件管理
 
 集成软件与游戏两大下载行业。
 
-![插件管理](../images/game-seo-system/010.png)
+![插件管理](../images/game-seo-system/010.webp)
 
 ### 11. 自动更新 CPS 数据
 
 自动更新市面正规的 CPS 游戏平台数据，轻松管理游戏下载。
 
-![自动更新](../images/game-seo-system/011.png)
+![自动更新](../images/game-seo-system/011.webp)
 
 ### 12. 软件管理
 
 二级栏目可做一个强大的软件下载站，具备软件下载所有功能，全部自定义。依靠游戏行业海量数据支撑软件下载收录。
 
-![软件管理](../images/game-seo-system/012.png)
+![软件管理](../images/game-seo-system/012.webp)
 
-![软件下载详情](../images/game-seo-system/013.png)
+![软件下载详情](../images/game-seo-system/013.webp)
 
 ### 13. 权限管理
 
-![权限管理](../images/game-seo-system/014.png)
+![权限管理](../images/game-seo-system/014.webp)
 
 ### 14. 违禁词/敏感词管理
 
-![敏感词管理](../images/game-seo-system/015.png)
+![敏感词管理](../images/game-seo-system/015.webp)
 
 ### 15. 400 套模板随机调用
 
-![模板库](../images/game-seo-system/016.png)
+![模板库](../images/game-seo-system/016.webp)
 
 ### 16. 站点编辑功能
 
 日更、周更、月更功能基于作者多年经验设计。备案页、图片可使用 OSS。
 
-![站点编辑](../images/game-seo-system/017.png)
+![站点编辑](../images/game-seo-system/017.webp)
 
 ### 17. 站点设置
 
 LOGO 自动设计，关键词 3 大标签，搜索引擎相关设置简单化。
 
-![站点设置](../images/game-seo-system/018.png)
+![站点设置](../images/game-seo-system/018.webp)
 
 ### 18. 站点验证文件
 
-![验证文件](../images/game-seo-system/019.png)
+![验证文件](../images/game-seo-system/019.webp)
 
 ### 19. 自动每日更新文章数量
 
-![自动更新](../images/game-seo-system/020.png)
+![自动更新](../images/game-seo-system/020.webp)
 
 ### 20. 站点设置更多功能
 
-![更多设置](../images/game-seo-system/021.png)
+![更多设置](../images/game-seo-system/021.webp)
 
 ### 21. 数据设置
 
-![数据设置](../images/game-seo-system/022.png)
+![数据设置](../images/game-seo-system/022.webp)
 
 ### 22. 手工添加文章
 
-![手工添加](../images/game-seo-system/023.png)
+![手工添加](../images/game-seo-system/023.webp)
 
 ### 23. 批量导入 TXT 文档
 
-![批量导入](../images/game-seo-system/024.png)
+![批量导入](../images/game-seo-system/024.webp)
 
 ## 作者说明
 

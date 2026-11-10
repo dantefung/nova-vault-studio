@@ -28,7 +28,7 @@ DSH 架构文档里最狠的一句话：
 
 **参考价值**：设计 Agent Runtime 时要想清楚哪些是骨架（不可替换），哪些是血肉（可替换）。DSH 的极端答案是"全是血肉"。
 
-!["无特权核心"架构示意图](../images/deepseek-harness-agent-runtime-architecture/001.png)
+!["无特权核心"架构示意图](../images/deepseek-harness-agent-runtime-architecture/001.webp)
 
 ## Session Log：append-only 事件流
 
@@ -115,4 +115,4 @@ DSH 的 Agent Loop 设计：
 
 DSH 最值得偷的设计不是插件本身，而是**"Agent Loop 也是插件"**这个架构决策——它把 Runtime 从"框架"变成了"组装台"。
 
-!["DSH 架构总结"示意图](../images/deepseek-harness-agent-runtime-architecture/002.png)
+!["DSH 架构总结"示意图](../images/deepseek-harness-agent-runtime-architecture/002.webp)

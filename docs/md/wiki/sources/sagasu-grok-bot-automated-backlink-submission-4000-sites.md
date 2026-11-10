@@ -122,7 +122,7 @@ Agent 每来问你一次，都说明规则里漏了一种情况。把答案补�
 
 队列有了，提交按难度分流：
 
-![](../images/sagasu-grok-bot-automated-backlink-submission-4000-sites/002.jpg)
+![](../images/sagasu-grok-bot-automated-backlink-submission-4000-sites/002.webp)
 
 脚本提交。 不需要账号的简单表单、同一套模板搭出来的站（大量老式 phpLD 目录、Laravel 书签站），还有开放了 API 的站（比如 Founderhood，调接口直接返回 pending），Agent 写小脚本或用 curl 批量提交，日志落到文件里。这条线最快，适合那些长得一模一样的目录站。
 
@@ -195,7 +195,7 @@ Agent 跑得快不难，难的是跑完之后你还知道它干了什么。 所�
 | 已上线或已排期 | 19 | 1.2% |
 | 已上线 | 9 | 0.57% |
 
-![](../images/sagasu-grok-bot-automated-backlink-submission-4000-sites/003.jpg)
+![](../images/sagasu-grok-bot-automated-backlink-submission-4000-sites/003.webp)
 
 读这张表要注意两点。第一，各层不是严格的子集：282 条入队里有一部分来自这 1567 个之外的研究表，比例只能看量级。第二，这是跑完当天的快照。还有约 120 个站在审核中，接下来几周会陆续出结果，再加上 22 个 PR，最终数字会比现在高。
 
@@ -205,7 +205,7 @@ Agent 跑得快不难，难的是跑完之后你还知道它干了什么。 所�
 
 这一节是这篇教程里最值得挖的部分。我的规则把大部分旋钮都拧到了最低，你可以按自己的预算和底线调。
 
-![](../images/sagasu-grok-bot-automated-backlink-submission-4000-sites/004.jpg)
+![](../images/sagasu-grok-bot-automated-backlink-submission-4000-sites/004.webp)
 
 | 旋钮 | 这次的设置 | 拧开后能多拿到什么 |
 | --- | --- | --- |
@@ -259,7 +259,7 @@ Agent 跑得快不难，难的是跑完之后你还知道它干了什么。 所�
 
 品类对不对？ 最好的站，是你的目标用户本来就会去逛的站。
 
-![](../images/sagasu-grok-bot-automated-backlink-submission-4000-sites/005.jpg)
+![](../images/sagasu-grok-bot-automated-backlink-submission-4000-sites/005.webp)
 
 提交交给 AI，判断留给自己。
 

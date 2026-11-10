@@ -19,41 +19,41 @@ checker 的 Rising Queries 里冒出一批 PHP 相关需求。最近 PHP 漏洞�
 
 把这两个词放进 Trends，7 天图上有明显的热度；拉到 12 个月，基本就是突发脉冲。我的感觉，这类漏洞事件可能会把一部分人带到长期的 PHP 版本检测需求上，不过现在追这波热点已经有点晚了。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/002.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/002.webp)
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/003.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/003.webp)
 
 于是转去 Google 搜 php version checker。SERP 里基本都是大站的内页，没看到明显的新站机会，但排在前面的 webaloha.co 引起了我的注意。它不是那种一眼就认得出来的大品牌，这个位置怎么拿到的？
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/004.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/004.webp)
 
 ## 从一个 PHP 工具追到 Web Aloha
 
 打开 [webaloha.co](https://webaloha.co/)，发现它是一家做网站设计、SEO、GEO 的 Agency。站点做得相当完整，工具、文章、服务、客户案例都有，内页大约 324 个。页面基础指标也都处理得很到位。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/005.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/005.webp)
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/006.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/006.webp)
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/007.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/007.webp)
 
 再看 Ahrefs。网站 DR 在 59 左右，自然搜索关键词约 695 个，已经不是一个靠运气起量的小站。最开始我还以为它是很短时间就把 DR 做到 50 多的新域名；往历史翻，2024 年 7 月它就已经有 DR 54。这个基础需要记住，后面研究页面增长，不能把它当成 DR 0 冷启动。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/008.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/008.webp)
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/009.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/009.webp)
 
 再看 AITDK 的历史访问量：2026 年 3 月约 1,717，4 月开始上升，到 9 月已经接近 7 万/月。这个增长斜率很明显。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/010.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/010.webp)
 
 它一定做对了什么。
 
 第一反应是研究今年春季的内容扩张。网站在 4 月几次集中发布 SEO 文章，工具数量也已经相当多。我猜它吃到了这一批工具词，再反哺品牌。网站整体的组织方式也值得学：工具解决具体任务，指南覆盖相关问题，原创研究提供独特数据，商业服务承接潜在客户。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/011.png)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/011.webp)
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/012.png)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/012.webp)
 
 不过，判断它靠什么涨起来，不能停留在首页和内容目录。直接打开 Ahrefs 的 Organic search → Top pages。
 
@@ -63,7 +63,7 @@ checker 的 Rising Queries 里冒出一批 PHP 相关需求。最近 PHP 漏洞�
 
 10 月 28 日 Ahrefs 估算全站自然搜索流量约 15K/月，其中 [Website Font Checker](https://webaloha.co/tools/website-font-checker/) 单页就有 11,763，占 78.2%。第二名 Schema Markup Validator 只有 301，Website Technology Checker 284，最初把我们带进来的 PHP Version Checker 只有 275。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/013.png)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/013.webp)
 
 这就把刚才「工具矩阵一起带动增长」的想法改掉了。网站确实做了大量工具，但 Google 自然搜索的主要收益集中在一个 URL。
 
@@ -79,7 +79,7 @@ checker 的 Rising Queries 里冒出一批 PHP 相关需求。最近 PHP 漏洞�
 
 把 Ahrefs 查询范围切到 Font Checker 单页，先看关键词数量。7 月 3 日，它在 Ahrefs 里只有 4 个排名关键词：1 个 Top 3、2 个 Top 4–10、1 个 Top 21–50。8 月下旬开始明显扩张，9 月进入持续增长，10 月的关键词覆盖更大。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/014.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/014.webp)
 
 不过关键词变多，不等于流量真正起飞。再打开 Organic traffic by intent，这次才找到更准确的拐点。
 
@@ -143,7 +143,7 @@ FAQ 又跟着产品变化：新增字体预览用不用目标网站的专有字�
 
 三次改版连起来看，顺序很漂亮：7 月底重做技术内容与专题链接，8 月初升级功能并扩展大词语义，9 月底强化商业转化。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/015.png)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/015.webp)
 
 ## 外链没有大动静，那 201 条内链呢？
 
@@ -155,7 +155,7 @@ FAQ 又跟着产品变化：新增字体预览用不用目标网站的专有字�
 
 再查 Internal links → Incoming，Ahrefs 一共列出 201 条。我们把前两页的 200 条都导出来按 First seen 重新统计：其中 183 条在 7 月 27 日之前就已首次发现，8 月首次发现的只有 1 条。大多数用的是统一锚文本 Font Checker，显然大量来自网站导航或公共模块。
 
-![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/016.jpg)
+![](../images/bainianai-seo-daily-003-webaloha-font-checker-page/016.webp)
 
 这个结果也很有意思。我们本来怀疑 8 月会不会突然给核心页加了很多内链，事实并不是这样。站内支持早就存在：光首页在 4 月就被发现有指向 Font Checker 的链接，首页本身还有 400 多个引荐域名。
 

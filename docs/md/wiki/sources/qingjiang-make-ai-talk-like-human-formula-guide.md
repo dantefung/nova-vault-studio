@@ -23,9 +23,9 @@ coverImage: "../images/qingjiang-make-ai-talk-like-human-formula-guide/001.jpg"
 
 拿一个最普通的问题试试，同样丢给 ChatGPT 和 Claude
 
-![ChatGPT，一个问题答成了一份文件](../images/qingjiang-make-ai-talk-like-human-formula-guide/002.jpg)
+![ChatGPT，一个问题答成了一份文件](../images/qingjiang-make-ai-talk-like-human-formula-guide/002.webp)
 
-![Claude，四段话说完](../images/qingjiang-make-ai-talk-like-human-formula-guide/003.jpg)
+![Claude，四段话说完](../images/qingjiang-make-ai-talk-like-human-formula-guide/003.webp)
 
 ChatGPT 交回来一份文件，三个小标题、三种情况、三个细节，第一句就是不是 A 而是 B。Claude 四段话说完，第一句就告诉你今天先约时间
 
@@ -53,7 +53,7 @@ ChatGPT 交回来一份文件，三个小标题、三种情况、三个细节，
 
 一个聊天模型大概要过四道工序，每一道奖励的东西不一样
 
-![四道工序，第三道偏好优化把 AI 腔放大得最多](../images/qingjiang-make-ai-talk-like-human-formula-guide/004.jpg)
+![四道工序，第三道偏好优化把 AI 腔放大得最多](../images/qingjiang-make-ai-talk-like-human-formula-guide/004.webp)
 
 第一道是预训练。模型读海量文字，练习猜下一个词，猜得越准越好。它学会的是什么说法最常见，所以天生有点平淡
 
@@ -79,7 +79,7 @@ ChatGPT 交回来一份文件，三个小标题、三种情况、三个细节，
 
 之前和国内一家 AI 厂的高管聊天，我问了他差不多就是这篇文章的问题。AI 能力越来越强，为什么越来越不说人话，从技术上怎么理解
 
-![和国内一家 AI 厂高管的聊天](../images/qingjiang-make-ai-talk-like-human-formula-guide/005.jpg)
+![和国内一家 AI 厂高管的聊天](../images/qingjiang-make-ai-talk-like-human-formula-guide/005.webp)
 
 他回了两句
 
@@ -127,7 +127,7 @@ ChatGPT 交回来一份文件，三个小标题、三种情况、三个细节，
 
 同一个报错，加不加这几行，差别大概是这样
 
-![示意，左边是默认回答，右边只多加了三行要求](../images/qingjiang-make-ai-talk-like-human-formula-guide/006.jpg)
+![示意，左边是默认回答，右边只多加了三行要求](../images/qingjiang-make-ai-talk-like-human-formula-guide/006.webp)
 
 左边四个层面、四个小标题，最后再来一句从多个维度排查。右边第一句就是该改什么，没把握的部署平台也直接问了你
 
@@ -146,7 +146,7 @@ Karpathy 这个月初在 X 上发了一条帖子，第一句就是，我们会�
 
 他分享的第一招，就是让模型用 ASD-STE100 来解释东西。模型对这套规范很熟，写出来他常常觉得更好读。嫌太严的时候，他会退一步，只要求做到 ASD-STE100 的八成
 
-![Karpathy 在 X 上的帖子](../images/qingjiang-make-ai-talk-like-human-formula-guide/007.jpg)
+![Karpathy 在 X 上的帖子](../images/qingjiang-make-ai-talk-like-human-formula-guide/007.webp)
 
 帖子后面他还往前推了三步。比写字更好的是让模型画图，再好一点是让它直接生成能交互的网页，他最看好的是给任意主题量身定做的讲解视频。这几样都挺有意思，但日常对话里最常用的还是文字，先把字写清楚，门槛最低
 
@@ -188,7 +188,7 @@ STE 最适合的场景，我觉得是 agent。Claude Code 会读项目里的 CLA
 不写总结，不用表情
 ```
 
-![示意，同一个任务，左边是打勾总结，右边是按上面的规则汇报](../images/qingjiang-make-ai-talk-like-human-formula-guide/008.jpg)
+![示意，同一个任务，左边是打勾总结，右边是按上面的规则汇报](../images/qingjiang-make-ai-talk-like-human-formula-guide/008.webp)
 
 左边那句确保所有功能正常运行，看着很放心。右边一写清楚，端到端测试其实没跑，30 天这个数也是它自己定的。打勾总结的问题就在这，没做完的事也被包装成了做完
 
@@ -313,7 +313,7 @@ agent 之间互相传的指令也一样。asd-ste100-skill 推荐的用法里，
 
 拿一段我自己写的文字试了一下，三个版本放在一起
 
-![左边是原文，中间是我自己的写作 skill，右边是白话](../images/qingjiang-make-ai-talk-like-human-formula-guide/009.jpg)
+![左边是原文，中间是我自己的写作 skill，右边是白话](../images/qingjiang-make-ai-talk-like-human-formula-guide/009.webp)
 
 我的 skill 改得很克制，顿号挤在一起的四件事拆成了短问，第一次出现的空转顺手解释了一下。白话的口语感最强，多了比如、啊、呢，还会先自问一句结果呢再往下说。这一段两边都没改错事实，但白话的模型卡自己也说了，不是每段都能这么稳
 

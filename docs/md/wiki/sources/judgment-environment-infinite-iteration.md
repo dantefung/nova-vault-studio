@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/LIHiwas6cycnQ1lvuZpfbg"
 # 判断，环境，与无限迭代
 
 > AI 创业的「逃逸速度」：在下一代模型到来之前做更多次有效迭代。本文给出方向判断与迭代判断两类决策，以及把迭代成本压下来的环境基建方法。
-![image](../images/judgment-environment-infinite-iteration/001.jpeg)
+![image](../images/judgment-environment-infinite-iteration/001.webp)
 
 让 AI 自动化 Loop 的愈来愈快
 
@@ -107,12 +107,12 @@ Agent 在早期实践中，往往缺少许多常识，比如 25 年的时候，�
 
 比如我让它构建一个 Loop 每天自己挖掘问题日志，和用户反馈，进行修复。
 
-![image](../images/judgment-environment-infinite-iteration/002.jpeg)
+![image](../images/judgment-environment-infinite-iteration/002.webp)
 
 
 我让它自己提交外链，找达人，写 SEO：
 
-![image](../images/judgment-environment-infinite-iteration/003.jpeg)
+![image](../images/judgment-environment-infinite-iteration/003.webp)
 
 
 我几乎是在我有限的能力范围之内，全方位使用它，扩展它的边界。

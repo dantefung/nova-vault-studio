@@ -16,7 +16,7 @@ related:
 
 > **一句话概括**：这个副业项目不是靠单一技巧取胜，而是把**信息差**、**POD 按需生产模式**、**跨境市场**三层 buff 叠加起来形成的组合拳。任何一层单独拿出来都不稀奇，三者叠满才是全貌。
 
-![](../images/ipp-pod-side-project-logic-overview/001.jpg)
+![](../images/ipp-pod-side-project-logic-overview/001.webp)
 
 ---
 
@@ -44,7 +44,7 @@ POD 是「**按需打印 / 按需生产**」（英文全称 Print on Demand）�
 
 **运作方式**：先有订单，再生产，不提前囤货。上传自备的或顾客指定的图案与文字，店主在后台把图案印到 T 恤、杯子、手机壳等空白产品上——说白了就是电子 P 图，"pia" 上去就行，然后直接发货。整个过程就是「**来图定制 + 一件代发**」，卖一件做一件。
 
-![](../images/ipp-pod-side-project-logic-overview/002.jpg)
+![](../images/ipp-pod-side-project-logic-overview/002.webp)
 
 ### POD 模式的三重优势
 
@@ -88,9 +88,9 @@ POD 定制在跨境电商领域特别火，像比较知名的 **SHEIN** 这种�
 
 打个比方：你销售一件东西，赚了几美元的差价。这几块钱对海外消费者来说在体感上几乎可以忽略不计，但对我们来说，因为汇率的存在，**相当于一个放大器，把这几块钱变成了几十块**——所以客单利润相当高，这在传统电商里是很难达成的。
 
-![](../images/ipp-pod-side-project-logic-overview/003.jpg)
+![](../images/ipp-pod-side-project-logic-overview/003.webp)
 
-![](../images/ipp-pod-side-project-logic-overview/004.jpg)
+![](../images/ipp-pod-side-project-logic-overview/004.webp)
 
 ---
 
@@ -126,7 +126,7 @@ POD 定制在跨境电商领域特别火，像比较知名的 **SHEIN** 这种�
 
 **综上所述**：这种项目的特性决定了它复制不行、放大也不行，所以用它来做「**培训 + 持续陪跑 + 利润分润**」的模式最合适，才能实现利益最大化。这非常符合逻辑，**没必要用阴谋论来看待**。
 
-![](../images/ipp-pod-side-project-logic-overview/005.jpg)
+![](../images/ipp-pod-side-project-logic-overview/005.webp)
 
 ### 陪跑模式的经济学：牧羊人与羊
 
@@ -156,7 +156,7 @@ POD 定制在跨境电商领域特别火，像比较知名的 **SHEIN** 这种�
 
 吃一堑长一智，这个问题现在也不再是问题，会采取适当措施。
 
-![](../images/ipp-pod-side-project-logic-overview/006.jpg)
+![](../images/ipp-pod-side-project-logic-overview/006.webp)
 
 ### 3. 盈利周期长（固有缺点）
 

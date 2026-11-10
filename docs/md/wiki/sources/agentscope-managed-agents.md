@@ -36,7 +36,7 @@ Managed Agents 让 Agent 运行在云端环境中：一方面，推理、编排�
 
 这三层的区别不只是"封装越来越厚"，而是状态归属逐步上移。
 
-![三层递进](../images/agentscope-managed-agents/001.png)
+![三层递进](../images/agentscope-managed-agents/001.webp)
 
 ## 为什么 AgentScope 2.0 适合做 Managed Agents 底座
 
@@ -62,16 +62,16 @@ AgentScope 2.0 的模型抽象、工具与 MCP、消息与事件、状态存储�
 
 **核心组件图**：Control Plane 和 Data Plane 分离。
 
-![Control Plane](../images/agentscope-managed-agents/002.png)
-![Data Plane](../images/agentscope-managed-agents/003.png)
+![Control Plane](../images/agentscope-managed-agents/002.webp)
+![Data Plane](../images/agentscope-managed-agents/003.webp)
 
 **核心数据流转**：客户端通过（session/event）接口发送任务请求到 Managed Data Plane（Brain），Brain 从共享状态恢复 Agent，执行推理编排流程，工具调用按 Environment 配置路由到 Worker（托管 Sandbox 或用户自管理环境）。
 
-![核心数据流转](../images/agentscope-managed-agents/004.png)
+![核心数据流转](../images/agentscope-managed-agents/004.webp)
 
 **四层架构**：
 
-![四层架构](../images/agentscope-managed-agents/005.png)
+![四层架构](../images/agentscope-managed-agents/005.webp)
 
 ### 创建一个 Agent 并运行
 
@@ -79,23 +79,23 @@ AgentScope 2.0 的模型抽象、工具与 MCP、消息与事件、状态存储�
 
 #### 三种 Worker 模式
 
-![三种 Worker 模式](../images/agentscope-managed-agents/006.png)
+![三种 Worker 模式](../images/agentscope-managed-agents/006.webp)
 
 已有 Session 不支持中途切换 worker 执行环境；要更换信任边界，应创建新 Session，以免同一条事件历史跨越不同执行语义。
 
 **Worker in Local 模式**：最适合开发联调。Session、Harness 推理、模型请求和工具执行都由 Managed 集群发起，文件与 shell 直接落在 Brain 进程可见的本地环境中。Environment type=local，文件系统与（若启用的）shell 都在托管集群宿主机命名空间内完成。
 
-![Local 模式](../images/agentscope-managed-agents/007.png)
+![Local 模式](../images/agentscope-managed-agents/007.webp)
 
 **Worker in Cloud Sandbox 模式**：保留托管 Brain，但把文件和 shell 移入独立沙箱。Harness 推理、模型请求以及工具调用的发起方仍在 Managed 集群；真正的命令执行和文件读写发生在 FC Sandbox / E2B 兼容环境中。Brain 通过 E2B 客户端协议申请容器并执行 shell/FS 操作。
 
-![Cloud Sandbox 模式](../images/agentscope-managed-agents/008.png)
+![Cloud Sandbox 模式](../images/agentscope-managed-agents/008.webp)
 
 Cloud Sandbox 的托管边界可以拆成三个动作：创建沙箱、在沙箱里执行、在 Session 结束或超时后回收/持久化。Managed Agents 通过 `E2bFilesystemSpec` 把文件和 shell 工具映射到同一沙箱上下文；`isolationScope=SESSION` 时，不同 Session 默认不会共享工作目录。
 
 **Worker in Self-hosted 模式**：把 Hands 进一步移动到客户环境。Brain 仍在 Managed 集群中完成 Harness 推理，但工具任务进入队列，由客户侧 Worker 主动出站轮询、管理本地工作目录或沙箱，并把结果回传给 Brain。整个过程中，Brain 不需要进入客户网络。
 
-![Self-hosted 模式](../images/agentscope-managed-agents/009.png)
+![Self-hosted 模式](../images/agentscope-managed-agents/009.webp)
 
 在 Self-hosted 下，Brain 关闭本地 shell/FS 实执行，把相关工具注册为外化 schema；模型一旦 `tool_use`，事件落库并进入挂起/排队，由用户侧 Worker 持 Environment Key 出站 poll → 管理本地工作目录并执行 → 回传 `user.tool_result` 续跑。这与 Cloud Sandbox「Brain 主动打沙箱 API」正好相反：执行发起权在用户侧。
 
@@ -115,7 +115,7 @@ Self-hosted 的目标场景是让数据库、代码仓库和发布系统等企�
 
 数据面实际托管了四类生命周期不同的状态：
 
-![四类状态生命周期](../images/agentscope-managed-agents/010.png)
+![四类状态生命周期](../images/agentscope-managed-agents/010.webp)
 
 这四层不能用一个"保存对话历史"概括。比如 Session 事件能证明模型曾请求写文件，但不能代替文件本身；AgentStateStore 能恢复上下文，却不自动恢复外部数据库的副作用。恢复流程必须分别恢复每一层，再用事件 ID、tool call ID 和资源引用把它们重新关联起来。
 

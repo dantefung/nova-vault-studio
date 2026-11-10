@@ -33,7 +33,7 @@ You’re hunting for breakout terms - searches climbing fast with no ceiling yet
 
 “Military calisthenics” was up 5,000%+ in five years. That’s not a fad. That’s a wave forming.
 
-![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/002.jpg)
+![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/002.webp)
 
 ## 2. Dig into the rising queries
 
@@ -41,7 +41,7 @@ A breakout term is the headline. The money is in the sub-searches under it.
 
 Scroll to the top rising queries. That’s where you find the specific version of the demand - the one narrow enough to own.
 
-![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/003.png)
+![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/003.webp)
 
 Under “military calisthenics,” the query “military calisthenics women” was rising fast. Same demand, ten times more specific. That specificity is the opening.
 
@@ -55,7 +55,7 @@ Two filters do most of the work:
 
 → keyword difficulty under 60 (not yet a bloodbath)
 
-![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/004.png)
+![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/004.webp)
 
 “Military calisthenics” came back at popularity 52, difficulty 51. High demand, low competition. That’s the rare box - not a niche, an open ocean.
 
@@ -67,7 +67,7 @@ Interest is cheap. Revenue is proof.
 
 Pull the category up on Sensor Tower and look for apps already making money in the space. You’re not looking for zero competition - you’re looking for proof that this audience opens their wallet.
 
-![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/005.png)
+![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/005.webp)
 
 Military Calisthenics Women sitting at ~$100K/month told me everything: the demand converts. People don’t just search this - they pay for it.
 
@@ -81,11 +81,11 @@ Here’s my exact process.
 
 First, I download the top military calisthenics apps and screenshot every screen of their onboarding. I drop those into Claude and ask it to design a better version. Then I ask it to walk me through the new flow one screen at a time - so I know precisely what I need to build.
 
-![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/006.jpg)
+![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/006.webp)
 
 Then I take those screen-by-screen notes plus my app details, paste them into [Superapp AI](https://superappp.com/?utm_source=x&utm_medium=influencer&utm_campaign=superapp_creators_jul26&utm_content=article_1&utm_term=growthlab), and hit Run.
 
-![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/007.jpg)
+![](../images/ai-ads-apps-find-app-idea-people-already-waiting-to-pay/007.webp)
 
 A few minutes later, I have a working app.
 

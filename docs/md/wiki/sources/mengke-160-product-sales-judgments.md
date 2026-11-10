@@ -20,7 +20,7 @@ coverImage: "../images/mengke-160-product-sales-judgments/001.jpg"
 
 写完代码那天，真正的难题才开始。
 
-![](../images/mengke-160-product-sales-judgments/002.jpg)
+![](../images/mengke-160-product-sales-judgments/002.webp)
 
 [《成就伟大之前，先学会卖东西》](https://mp.weixin.qq.com/s?__biz=MzI3NjAzMTA1Mw==&mid=2651648631&idx=1&sn=813abdcc9cd883b143b6f962aee1f413&scene=21#wechat_redirect)，在 X 上意外火了。评论里很多人问同一件事：道理我懂了，具体怎么做？
 
@@ -226,7 +226,7 @@ coverImage: "../images/mengke-160-product-sales-judgments/001.jpg"
 
 100、Vibe Coding 的开发过程本身可以变成内容素材。
 
-![](../images/mengke-160-product-sales-judgments/003.jpg)
+![](../images/mengke-160-product-sales-judgments/003.webp)
 
 101、功能选择、取舍、报错、迭代和上线过程，都可以成为开发者日志。
 

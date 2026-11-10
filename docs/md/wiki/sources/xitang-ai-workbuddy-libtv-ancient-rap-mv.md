@@ -17,7 +17,7 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 古人站在麦克风前，一人接一句，没有端着架子背古诗，唱的全是今天我们打工人的心事。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/002.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/002.webp)
 
 先看喆 FILM 的原作《过来人》。
 
@@ -67,7 +67,7 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 歌曲这次选 Suno，是我们对演唱效果的取舍。LibTV 也有音乐模型，大家可以按自己的习惯尝试。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/003.png)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/003.webp)
 
 这里有个很容易踩的坑。我不小心把“诸葛亮主歌”写进歌词框，AI 可能连这几个字也唱出来。
 
@@ -75,7 +75,7 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 我们要两段男声、一段女声，再接共同副歌，这样我们就能精细地控制对应的男声和女声唱的部分，以及对应的音色。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/004.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/004.webp)
 
 生成后别只听开头。这次就遇到李清照前半段是女声，后半段突然换成了男声。
 
@@ -97,11 +97,11 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 先调用 LibTV 的爆款拉片复刻 Skill，拆出主唱、同台和观众镜头，再按我们的歌曲列出角色、舞台、音频素材和分镜，给我检查后再生成。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/005.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/005.webp)
 
 这一步我也会打开原作者的画布对着看，很多创作者用 LibTV 做出爆款视频，我们也能从中看到很多作者创作的思路。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/006.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/006.webp)
 
 在我们这个案例里，谁在唱，其他人在做什么，什么时候切观众，副歌怎么回到同台。
 
@@ -109,19 +109,19 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 中途任务停住，就回画布看看是不是在等确认；我们这次也是继续沟通后才往下跑的，LibTV 画布里面的 Agent 最好要设置成为自动生成模式。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/007.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/007.webp)
 
 “资”就是片子要用的资产，人物、背景、道具都算。
 
 为了更加还原，三位古人我先找经典画像，诸葛亮的纶巾长须、辛弃疾的面部和冠服、李清照的发髻衣领，都有了参考。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/008.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/008.webp)
 
 第一轮 Seedream 4.5 的角色我不满意，希望能够再年轻一点，就让它换 Seedream 5.0 Pro 接着改。
 
 这次做古装人物，我更喜欢后者出来的感觉。在 LibTV 里面模型切换很方便，已经定下的人物要求和参考图在我们后续生成视频能够接着用。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/009.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/009.webp)
 
 这里也不用把所有图都用一个模型生成，像这些角色，为了看起来更像国人，我偏向于用我们国产的 Seedream 模型，场景和后期图像编辑调整喜欢用 GPT Image 2.5 这类综合实力更加强大。
 
@@ -129,7 +129,7 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 从观众视角看，诸葛亮在左，李清照居中，辛弃疾在右，一人一支立麦。面光暖一点，后面留一点蓝紫，有唱歌的氛围感。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/010.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/010.webp)
 
 这张图要先确定下来。否则三个近景各自好看，拼起来却像去了三家演出现场，割裂感就会比较强。
 
@@ -139,15 +139,15 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 这次在 WorkBuddy 里调 LibTV 生成视频，有个很聪明的地方：它会先自动跑一段测试小视频，帮你看看提示词效果、嘴型对没对上，以及角色和场景一不一致。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/011.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/011.webp)
 
 要写清楚谁唱、谁听，镜头拍谁，别让观众也跟着抢唱。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/012.png)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/012.webp)
 
 开始直接用 Seedance2.5 生成，我还是挺肉疼的，后来发现 LibTV 里面有 Seedance2.5 的样片模式，可以先低成本地生成 480P 的视频，肉眼检查发现如果没有问题就可以继续放大成 1080P。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/013.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/013.webp)
 
 确认样片后，我用的是 LibTV 的“生成正片”。它会沿用样片任务参数生成 1080P 版本。出来以后再看一遍脸、动作和光线，确定能接进片子。
 
@@ -159,7 +159,7 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 主歌让观众认清正在唱的人，唱到有情绪的句子，再给一个听众反应。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/014.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/014.webp)
 
 副歌回三人同框，把前面的唱歌收束在一起。运镜相对舒缓一点，人物关系和唱的句子都确定好，音画一致，这样观众也更容易沉浸在其中。
 
@@ -171,7 +171,7 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 我也整理了一份常用的运镜词（见下图），大家生成时可以直接拿去用。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/015.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/015.webp)
 
 ## 剪｜别只顾着拼接
 
@@ -187,7 +187,7 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 也可以让支持音视频分析的模型帮忙定位问题，再结合实际播放结果调整。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/016.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/016.webp)
 
 中间试过分离人声、拉节奏、修音，反而弄出了电音感。
 
@@ -195,7 +195,7 @@ coverImage: "../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/001.jpg"
 
 这次排查剪辑问题时，我让 AI 结合声音波形和视频截图定位，再回到连续画面和声音里检查。
 
-![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/017.jpg)
+![](../images/xitang-ai-workbuddy-libtv-ancient-rap-mv/017.webp)
 
 字幕留到最后加，白字、轻描边。
 

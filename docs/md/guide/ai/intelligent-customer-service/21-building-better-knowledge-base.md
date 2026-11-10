@@ -6,7 +6,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/77n3CmJ7qzyeEiXeFCjqtA"
 ---
 
-![image](./images/21-building-better-knowledge-base/001.gif)本文深入探讨构建高质量 RAG 知识库的垂直技术原理与工程实践。文章首先界定知识库作为外部记忆系统的角色，并引入 RAGAS 框架从检索相关性、生成忠实度及答案相关性维度建立评估标准。随后详细拆解离线索引与在线查询流程，重点分析文档切分策略如 Late Chunking 和意图驱动切分，对比稀疏、稠密及混合检索范式，并阐述HyDE等查询增强技术。此外，文章探讨 Cross-Encoder 重排序机制以优化精度，介绍 AutoRAG 自动化优化、 QuIM-RAG 问题倒排索引及 OpenViking 文件系统范式等前沿架构，旨在通过系统性技术选型解决幻觉、召回不准等问题，实现知识库性能的端到端优化。![image](./images/21-building-better-knowledge-base/002.png)什么是 Agent 构建中的知识库？什么时候应该用它？▐考古一下，RAG 的起源RAG（Retrieval-Augmented Generation，检索增强生成）由 Facebook AI Research（现 Meta AI）于 2020 年首次提出。项目内容论文Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks作者Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin 等发表NeurIPS 2020链接https://arxiv.org/abs/2005.11401论文的核心贡献在于提出了一种将参数化记忆（Parametric Memory）与非参数化记忆（Non-Parametric Memory）相结合的架构：参数化记忆：预训练 seq2seq 模型（如 BART）的模型权重非参数化记忆：Wikipedia 语料的密集向量索引，通过 DPR（Dense Passage Retriever）构建这一架构在开放域问答（Open-Domain QA）任务上显著超越了纯参数化模型，奠定了后续 RAG 研究的基础。▐知识库的定义在 Agent 构建的语境下，知识库（Knowledge Base）是一个外部记忆系统，用于存储和检索不在模型参数中的信息。它作为 RAG 架构的核心组件，承担非参数化记忆的角色。RAG 的基本工作流程：Query → Retriever（检索器） → Top-K Documents → Context Augmentation → Generator（生成器） → Response其中，知识库的核心接口，就是上传和召回。不同版本和理论，就是召回的内容和排序的区别。▐使用知识库可以解决什么问题？这个问题应该回到 LLM 的固有局限上，知识库是一种对应的解决方案：![image](./images/21-building-better-knowledge-base/003.png)▐适用场景分析结合前面几点，使用场景也比较清晰了。适合构建知识库的场景：![image](./images/21-building-better-knowledge-base/004.png)不需要知识库的场景：![image](./images/21-building-better-knowledge-base/005.png)▐RAG vs Long Context随着上下文窗口的扩展（Claude 200K, Gemini 1M+），需要重新审视 RAG 的适用边界：![image](./images/21-building-better-knowledge-base/006.png)选型建议：数据量 < 50K tokens 且更新频率低 → Long Context数据量大、更新频繁、需要精确召回 → RAG混合方案：RAG 粗筛 + Long Context 精读![image](./images/21-building-better-knowledge-base/007.png)如何评判一个知识库的好坏？如题，我们想要构建更好的知识库，那么首先需要定义"好"的标准。▐评估框架：RAGASRAGAS（Retrieval Augmented Generation Assessment）是目前最广泛采用的 RAG 评估框架，其核心价值在于无参考评估（Reference-Free）——无需人工标注 ground truth 即可进行自动化评估。项目内容论文RAGAS: Automated Evaluation of Retrieval Augmented Generation链接https://arxiv.org/abs/2309.15217发表2023RAGAS 将 RAG 系统的评估分解为三个核心维度：![image](./images/21-building-better-knowledge-base/008.png)这三个维度相互独立但互补，共同覆盖 RAG 系统的端到端性能。RAGAS 的关键洞察：RAG 系统的失败往往是检索和生成环节共同造成的，因此必须分别评估，才能定位问题根因。下面来看下这几个环节可以对应的指标有些什么。▐检索质量指标检索环节的目标是：召回与 query 相关的文档片段，并将相关内容排在前面。Context Precision（上下文精确率）定义：评估检索器将相关文档排在不相关文档之上的能力。计算方法：![image](./images/21-building-better-knowledge-base/009.png)其中：![image](./images/21-building-better-knowledge-base/010.png)直观理解：如果检索了 5 个 chunks，相关的 2 个排在第 1、2 位，比排在第 4、5 位的 precision 更高。Context Recall（上下文召回率）定义：评估回答问题所需的信息有多少被成功检索到。计算方法：![image](./images/21-building-better-knowledge-base/011.png)具体步骤：将参考答案分解为多个 claims（声明）判断每个 claim 是否可归因于检索到的上下文计算被支持的 claims 占比注意：Context Recall 需要参考答案（reference），因此不是完全的 reference-free 指标。传统 IR 指标：（除 RAGAS 定义的指标外，传统 IR（Information Retrieval）指标仍然适用）![image](./images/21-building-better-knowledge-base/012.png)Precision、Recall 与 F1 的关系：![image](./images/21-building-better-knowledge-base/013.png)F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平衡。当 Precision 和 Recall 差异较大时，F1 会偏向较小的那个值，因此 F1 高意味着两者都不能太低。▐生成质量指标生成环节的目标是：基于检索到的上下文，生成准确、相关的答案。Faithfulness（忠实度）定义：生成的答案在事实上是否与检索到的上下文一致。取值范围 [0, 1]，值越高表示答案越忠实于上下文。计算方法：![image](./images/21-building-better-knowledge-base/014.png)具体步骤：使用 LLM 从答案中提取所有声明（claims）对每个声明，验证是否能从检索上下文中推断计算被支持的声明占比示例：![image](./images/21-building-better-knowledge-base/015.png)Answer Relevance（答案相关性）定义：答案是否直接且恰当地回应了问题。该指标不考虑事实准确性，而是惩罚不完整或包含冗余信息的答案。计算方法：![image](./images/21-building-better-knowledge-base/016.png)其中：![image](./images/21-building-better-knowledge-base/017.png)核心思想：如果答案正确回应了问题，那么从答案反向生成的问题应该与原问题高度相似。▐幻觉问题的深入分析Faithfulness 指标的本质是检测幻觉。RAG 系统的幻觉可进一步细分为三类：![image](./images/21-building-better-knowledge-base/018.png)参考论文：https://arxiv.org/abs/2601.19927幻觉检测方法![image](./images/21-building-better-knowledge-base/019.png)参考论文：https://arxiv.org/abs/2503.21157不同 RAG 应用场景（医疗、法律、通用 QA）对检测器的要求不同，需根据具体场景选择。▐RAG 场景的特殊考量传统 IR 指标基于语义相似度评估检索质量，但在 RAG 场景下存在一个核心问题：语义相似 ≠ 对 LLM 有用。ICLERB（In-Context Learning Embedding and Reranker Benchmark）提出了端到端评估思路，这意味着：一个"好"的检索结果，不仅要语义相关，还要能有效支撑 LLM 生成正确答案。检索候选文档 → 注入 LLM 生成答案 → 评估答案准确性 → 反推检索器效果参考论文：https://arxiv.org/abs/2411.18947以上，在理解了评估标准后，接下来拆解知识库构建的完整流程，分析每个环节的优化空间。![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？知识库的构建可以分为两个阶段：离线索引阶段（Indexing）和在线查询阶段（Querying）。本章节结合idealab平台（https://idealab.alibaba-inc.com/#/aistudio）的操作进行讲解。离线索引阶段：Load → Split → Embed → Store![image](./images/21-building-better-knowledge-base/021.png)在线查询阶段：Query → Retrieve → Rerank → Generate![image](./images/21-building-better-knowledge-base/022.png)▐离线索引阶段Step 1: Load（文档加载）这一步很好理解，就是将原始数据从各种来源和格式中提取出来。 目前idealab提供的知识库支持的有odps、语雀、钉钉文档、本地文件。![image](./images/21-building-better-knowledge-base/023.png)Step 2: Split（文档切分）将长文档切分为适合检索和上下文注入的片段（chunks）。这是影响检索质量的关键环节。目前idealab提供的知识库支持的有默认智能切分（使用Opensearch切分方案），自定义切分（固定长度，符号切分），自定义工具切分。![image](./images/21-building-better-knowledge-base/024.png)![image](./images/21-building-better-knowledge-base/025.png)关键参数：chunk_size：块大小，通常 256-1024 tokenschunk_overlap：重叠区域，通常 10%-20%，防止切断关键信息Step 3: Embed（向量化）使用 Embedding 模型将文本块转换为稠密向量。本环节idealab提供了多种模型可供选择。![image](./images/21-building-better-knowledge-base/026.png)Step 4: Store（存储与索引）将向量及其元数据存入向量数据库，建立高效检索索引。▐在线查询阶段Step 5: Query（查询处理）
+![image](./images/21-building-better-knowledge-base/001.gif)本文深入探讨构建高质量 RAG 知识库的垂直技术原理与工程实践。文章首先界定知识库作为外部记忆系统的角色，并引入 RAGAS 框架从检索相关性、生成忠实度及答案相关性维度建立评估标准。随后详细拆解离线索引与在线查询流程，重点分析文档切分策略如 Late Chunking 和意图驱动切分，对比稀疏、稠密及混合检索范式，并阐述HyDE等查询增强技术。此外，文章探讨 Cross-Encoder 重排序机制以优化精度，介绍 AutoRAG 自动化优化、 QuIM-RAG 问题倒排索引及 OpenViking 文件系统范式等前沿架构，旨在通过系统性技术选型解决幻觉、召回不准等问题，实现知识库性能的端到端优化。![image](images/21-building-better-knowledge-base/002.webp)什么是 Agent 构建中的知识库？什么时候应该用它？▐考古一下，RAG 的起源RAG（Retrieval-Augmented Generation，检索增强生成）由 Facebook AI Research（现 Meta AI）于 2020 年首次提出。项目内容论文Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks作者Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin 等发表NeurIPS 2020链接https://arxiv.org/abs/2005.11401论文的核心贡献在于提出了一种将参数化记忆（Parametric Memory）与非参数化记忆（Non-Parametric Memory）相结合的架构：参数化记忆：预训练 seq2seq 模型（如 BART）的模型权重非参数化记忆：Wikipedia 语料的密集向量索引，通过 DPR（Dense Passage Retriever）构建这一架构在开放域问答（Open-Domain QA）任务上显著超越了纯参数化模型，奠定了后续 RAG 研究的基础。▐知识库的定义在 Agent 构建的语境下，知识库（Knowledge Base）是一个外部记忆系统，用于存储和检索不在模型参数中的信息。它作为 RAG 架构的核心组件，承担非参数化记忆的角色。RAG 的基本工作流程：Query → Retriever（检索器） → Top-K Documents → Context Augmentation → Generator（生成器） → Response其中，知识库的核心接口，就是上传和召回。不同版本和理论，就是召回的内容和排序的区别。▐使用知识库可以解决什么问题？这个问题应该回到 LLM 的固有局限上，知识库是一种对应的解决方案：![image](images/21-building-better-knowledge-base/003.webp)▐适用场景分析结合前面几点，使用场景也比较清晰了。适合构建知识库的场景：![image](images/21-building-better-knowledge-base/004.webp)不需要知识库的场景：![image](images/21-building-better-knowledge-base/005.webp)▐RAG vs Long Context随着上下文窗口的扩展（Claude 200K, Gemini 1M+），需要重新审视 RAG 的适用边界：![image](images/21-building-better-knowledge-base/006.webp)选型建议：数据量 < 50K tokens 且更新频率低 → Long Context数据量大、更新频繁、需要精确召回 → RAG混合方案：RAG 粗筛 + Long Context 精读![image](images/21-building-better-knowledge-base/007.webp)如何评判一个知识库的好坏？如题，我们想要构建更好的知识库，那么首先需要定义"好"的标准。▐评估框架：RAGASRAGAS（Retrieval Augmented Generation Assessment）是目前最广泛采用的 RAG 评估框架，其核心价值在于无参考评估（Reference-Free）——无需人工标注 ground truth 即可进行自动化评估。项目内容论文RAGAS: Automated Evaluation of Retrieval Augmented Generation链接https://arxiv.org/abs/2309.15217发表2023RAGAS 将 RAG 系统的评估分解为三个核心维度：![image](images/21-building-better-knowledge-base/008.webp)这三个维度相互独立但互补，共同覆盖 RAG 系统的端到端性能。RAGAS 的关键洞察：RAG 系统的失败往往是检索和生成环节共同造成的，因此必须分别评估，才能定位问题根因。下面来看下这几个环节可以对应的指标有些什么。▐检索质量指标检索环节的目标是：召回与 query 相关的文档片段，并将相关内容排在前面。Context Precision（上下文精确率）定义：评估检索器将相关文档排在不相关文档之上的能力。计算方法：![image](images/21-building-better-knowledge-base/009.webp)其中：![image](images/21-building-better-knowledge-base/010.webp)直观理解：如果检索了 5 个 chunks，相关的 2 个排在第 1、2 位，比排在第 4、5 位的 precision 更高。Context Recall（上下文召回率）定义：评估回答问题所需的信息有多少被成功检索到。计算方法：![image](images/21-building-better-knowledge-base/011.webp)具体步骤：将参考答案分解为多个 claims（声明）判断每个 claim 是否可归因于检索到的上下文计算被支持的 claims 占比注意：Context Recall 需要参考答案（reference），因此不是完全的 reference-free 指标。传统 IR 指标：（除 RAGAS 定义的指标外，传统 IR（Information Retrieval）指标仍然适用）![image](images/21-building-better-knowledge-base/012.webp)Precision、Recall 与 F1 的关系：![image](images/21-building-better-knowledge-base/013.webp)F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平衡。当 Precision 和 Recall 差异较大时，F1 会偏向较小的那个值，因此 F1 高意味着两者都不能太低。▐生成质量指标生成环节的目标是：基于检索到的上下文，生成准确、相关的答案。Faithfulness（忠实度）定义：生成的答案在事实上是否与检索到的上下文一致。取值范围 [0, 1]，值越高表示答案越忠实于上下文。计算方法：![image](images/21-building-better-knowledge-base/014.webp)具体步骤：使用 LLM 从答案中提取所有声明（claims）对每个声明，验证是否能从检索上下文中推断计算被支持的声明占比示例：![image](images/21-building-better-knowledge-base/015.webp)Answer Relevance（答案相关性）定义：答案是否直接且恰当地回应了问题。该指标不考虑事实准确性，而是惩罚不完整或包含冗余信息的答案。计算方法：![image](images/21-building-better-knowledge-base/016.webp)其中：![image](images/21-building-better-knowledge-base/017.webp)核心思想：如果答案正确回应了问题，那么从答案反向生成的问题应该与原问题高度相似。▐幻觉问题的深入分析Faithfulness 指标的本质是检测幻觉。RAG 系统的幻觉可进一步细分为三类：![image](images/21-building-better-knowledge-base/018.webp)参考论文：https://arxiv.org/abs/2601.19927幻觉检测方法![image](images/21-building-better-knowledge-base/019.webp)参考论文：https://arxiv.org/abs/2503.21157不同 RAG 应用场景（医疗、法律、通用 QA）对检测器的要求不同，需根据具体场景选择。▐RAG 场景的特殊考量传统 IR 指标基于语义相似度评估检索质量，但在 RAG 场景下存在一个核心问题：语义相似 ≠ 对 LLM 有用。ICLERB（In-Context Learning Embedding and Reranker Benchmark）提出了端到端评估思路，这意味着：一个"好"的检索结果，不仅要语义相关，还要能有效支撑 LLM 生成正确答案。检索候选文档 → 注入 LLM 生成答案 → 评估答案准确性 → 反推检索器效果参考论文：https://arxiv.org/abs/2411.18947以上，在理解了评估标准后，接下来拆解知识库构建的完整流程，分析每个环节的优化空间。![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？知识库的构建可以分为两个阶段：离线索引阶段（Indexing）和在线查询阶段（Querying）。本章节结合idealab平台（https://idealab.alibaba-inc.com/#/aistudio）的操作进行讲解。离线索引阶段：Load → Split → Embed → Store![image](images/21-building-better-knowledge-base/021.webp)在线查询阶段：Query → Retrieve → Rerank → Generate![image](images/21-building-better-knowledge-base/022.webp)▐离线索引阶段Step 1: Load（文档加载）这一步很好理解，就是将原始数据从各种来源和格式中提取出来。 目前idealab提供的知识库支持的有odps、语雀、钉钉文档、本地文件。![image](images/21-building-better-knowledge-base/023.webp)Step 2: Split（文档切分）将长文档切分为适合检索和上下文注入的片段（chunks）。这是影响检索质量的关键环节。目前idealab提供的知识库支持的有默认智能切分（使用Opensearch切分方案），自定义切分（固定长度，符号切分），自定义工具切分。![image](images/21-building-better-knowledge-base/024.webp)![image](images/21-building-better-knowledge-base/025.webp)关键参数：chunk_size：块大小，通常 256-1024 tokenschunk_overlap：重叠区域，通常 10%-20%，防止切断关键信息Step 3: Embed（向量化）使用 Embedding 模型将文本块转换为稠密向量。本环节idealab提供了多种模型可供选择。![image](images/21-building-better-knowledge-base/026.webp)Step 4: Store（存储与索引）将向量及其元数据存入向量数据库，建立高效检索索引。▐在线查询阶段Step 5: Query（查询处理）
 
 本文深入探讨构建高质量 RAG 知识库的垂直技术原理与工程实践。文章首先界定知识库作为外部记忆系统的角色，并引入 RAGAS 框架从检索相关性、生成忠实度及答案相关性维度建立评估标准。随后详细拆解离线索引与在线查询流程，重点分析文档切分策略如 Late Chunking 和意图驱动切分，对比稀疏、稠密及混合检索范式，并阐述HyDE等查询增强技术。此外，文章探讨 Cross-Encoder 重排序机制以优化精度，介绍 AutoRAG 自动化优化、 QuIM-RAG 问题倒排索引及 OpenViking 文件系统范式等前沿架构，旨在通过系统性技术选型解决幻觉、召回不准等问题，实现知识库性能的端到端优化。
 
@@ -18,7 +18,7 @@ url: "https://mp.weixin.qq.com/s/77n3CmJ7qzyeEiXeFCjqtA"
 
 本文深入探讨构建高质量 RAG 知识库的垂直技术原理与工程实践。文章首先界定知识库作为外部记忆系统的角色，并引入 RAGAS 框架从检索相关性、生成忠实度及答案相关性维度建立评估标准。随后详细拆解离线索引与在线查询流程，重点分析文档切分策略如 Late Chunking 和意图驱动切分，对比稀疏、稠密及混合检索范式，并阐述HyDE等查询增强技术。此外，文章探讨 Cross-Encoder 重排序机制以优化精度，介绍 AutoRAG 自动化优化、 QuIM-RAG 问题倒排索引及 OpenViking 文件系统范式等前沿架构，旨在通过系统性技术选型解决幻觉、召回不准等问题，实现知识库性能的端到端优化。
 
-![image](./images/21-building-better-knowledge-base/002.png)
+![image](images/21-building-better-knowledge-base/002.webp)
 
 什么是 Agent 构建中的知识库？
 
@@ -28,9 +28,9 @@ url: "https://mp.weixin.qq.com/s/77n3CmJ7qzyeEiXeFCjqtA"
 
 ## 什么时候应该用它？
 
-▐考古一下，RAG 的起源RAG（Retrieval-Augmented Generation，检索增强生成）由 Facebook AI Research（现 Meta AI）于 2020 年首次提出。项目内容论文Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks作者Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin 等发表NeurIPS 2020链接https://arxiv.org/abs/2005.11401论文的核心贡献在于提出了一种将参数化记忆（Parametric Memory）与非参数化记忆（Non-Parametric Memory）相结合的架构：参数化记忆：预训练 seq2seq 模型（如 BART）的模型权重非参数化记忆：Wikipedia 语料的密集向量索引，通过 DPR（Dense Passage Retriever）构建这一架构在开放域问答（Open-Domain QA）任务上显著超越了纯参数化模型，奠定了后续 RAG 研究的基础。▐知识库的定义在 Agent 构建的语境下，知识库（Knowledge Base）是一个外部记忆系统，用于存储和检索不在模型参数中的信息。它作为 RAG 架构的核心组件，承担非参数化记忆的角色。RAG 的基本工作流程：Query → Retriever（检索器） → Top-K Documents → Context Augmentation → Generator（生成器） → Response其中，知识库的核心接口，就是上传和召回。不同版本和理论，就是召回的内容和排序的区别。▐使用知识库可以解决什么问题？这个问题应该回到 LLM 的固有局限上，知识库是一种对应的解决方案：![image](./images/21-building-better-knowledge-base/003.png)▐适用场景分析结合前面几点，使用场景也比较清晰了。适合构建知识库的场景：![image](./images/21-building-better-knowledge-base/004.png)不需要知识库的场景：![image](./images/21-building-better-knowledge-base/005.png)▐RAG vs Long Context随着上下文窗口的扩展（Claude 200K, Gemini 1M+），需要重新审视 RAG 的适用边界：![image](./images/21-building-better-knowledge-base/006.png)选型建议：数据量 < 50K tokens 且更新频率低 → Long Context数据量大、更新频繁、需要精确召回 → RAG混合方案：RAG 粗筛 + Long Context 精读![image](./images/21-building-better-knowledge-base/007.png)如何评判一个知识库的好坏？如题，我们想要构建更好的知识库，那么首先需要定义"好"的标准。▐评估框架：RAGASRAGAS（Retrieval Augmented Generation Assessment）是目前最广泛采用的 RAG 评估框架，其核心价值在于无参考评估（Reference-Free）——无需人工标注 ground truth 即可进行自动化评估。项目内容论文RAGAS: Automated Evaluation of Retrieval Augmented Generation链接https://arxiv.org/abs/2309.15217发表2023RAGAS 将 RAG 系统的评估分解为三个核心维度：![image](./images/21-building-better-knowledge-base/008.png)这三个维度相互独立但互补，共同覆盖 RAG 系统的端到端性能。RAGAS 的关键洞察：RAG 系统的失败往往是检索和生成环节共同造成的，因此必须分别评估，才能定位问题根因。下面来看下这几个环节可以对应的指标有些什么。▐检索质量指标检索环节的目标是：召回与 query 相关的文档片段，并将相关内容排在前面。Context Precision（上下文精确率）定义：评估检索器将相关文档排在不相关文档之上的能力。计算方法：![image](./images/21-building-better-knowledge-base/009.png)其中：![image](./images/21-building-better-knowledge-base/010.png)直观理解：如果检索了 5 个 chunks，相关的 2 个排在第 1、2 位，比排在第 4、5 位的 precision 更高。Context Recall（上下文召回率）定义：评估回答问题所需的信息有多少被成功检索到。计算方法：![image](./images/21-building-better-knowledge-base/011.png)具体步骤：将参考答案分解为多个 claims（声明）判断每个 claim 是否可归因于检索到的上下文计算被支持的 claims 占比注意：Context Recall 需要参考答案（reference），因此不是完全的 reference-free 指标。传统 IR 指标：（除 RAGAS 定义的指标外，传统 IR（Information Retrieval）指标仍然适用）
+▐考古一下，RAG 的起源RAG（Retrieval-Augmented Generation，检索增强生成）由 Facebook AI Research（现 Meta AI）于 2020 年首次提出。项目内容论文Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks作者Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin 等发表NeurIPS 2020链接https://arxiv.org/abs/2005.11401论文的核心贡献在于提出了一种将参数化记忆（Parametric Memory）与非参数化记忆（Non-Parametric Memory）相结合的架构：参数化记忆：预训练 seq2seq 模型（如 BART）的模型权重非参数化记忆：Wikipedia 语料的密集向量索引，通过 DPR（Dense Passage Retriever）构建这一架构在开放域问答（Open-Domain QA）任务上显著超越了纯参数化模型，奠定了后续 RAG 研究的基础。▐知识库的定义在 Agent 构建的语境下，知识库（Knowledge Base）是一个外部记忆系统，用于存储和检索不在模型参数中的信息。它作为 RAG 架构的核心组件，承担非参数化记忆的角色。RAG 的基本工作流程：Query → Retriever（检索器） → Top-K Documents → Context Augmentation → Generator（生成器） → Response其中，知识库的核心接口，就是上传和召回。不同版本和理论，就是召回的内容和排序的区别。▐使用知识库可以解决什么问题？这个问题应该回到 LLM 的固有局限上，知识库是一种对应的解决方案：![image](images/21-building-better-knowledge-base/003.webp)▐适用场景分析结合前面几点，使用场景也比较清晰了。适合构建知识库的场景：![image](images/21-building-better-knowledge-base/004.webp)不需要知识库的场景：![image](images/21-building-better-knowledge-base/005.webp)▐RAG vs Long Context随着上下文窗口的扩展（Claude 200K, Gemini 1M+），需要重新审视 RAG 的适用边界：![image](images/21-building-better-knowledge-base/006.webp)选型建议：数据量 < 50K tokens 且更新频率低 → Long Context数据量大、更新频繁、需要精确召回 → RAG混合方案：RAG 粗筛 + Long Context 精读![image](images/21-building-better-knowledge-base/007.webp)如何评判一个知识库的好坏？如题，我们想要构建更好的知识库，那么首先需要定义"好"的标准。▐评估框架：RAGASRAGAS（Retrieval Augmented Generation Assessment）是目前最广泛采用的 RAG 评估框架，其核心价值在于无参考评估（Reference-Free）——无需人工标注 ground truth 即可进行自动化评估。项目内容论文RAGAS: Automated Evaluation of Retrieval Augmented Generation链接https://arxiv.org/abs/2309.15217发表2023RAGAS 将 RAG 系统的评估分解为三个核心维度：![image](images/21-building-better-knowledge-base/008.webp)这三个维度相互独立但互补，共同覆盖 RAG 系统的端到端性能。RAGAS 的关键洞察：RAG 系统的失败往往是检索和生成环节共同造成的，因此必须分别评估，才能定位问题根因。下面来看下这几个环节可以对应的指标有些什么。▐检索质量指标检索环节的目标是：召回与 query 相关的文档片段，并将相关内容排在前面。Context Precision（上下文精确率）定义：评估检索器将相关文档排在不相关文档之上的能力。计算方法：![image](images/21-building-better-knowledge-base/009.webp)其中：![image](images/21-building-better-knowledge-base/010.webp)直观理解：如果检索了 5 个 chunks，相关的 2 个排在第 1、2 位，比排在第 4、5 位的 precision 更高。Context Recall（上下文召回率）定义：评估回答问题所需的信息有多少被成功检索到。计算方法：![image](images/21-building-better-knowledge-base/011.webp)具体步骤：将参考答案分解为多个 claims（声明）判断每个 claim 是否可归因于检索到的上下文计算被支持的 claims 占比注意：Context Recall 需要参考答案（reference），因此不是完全的 reference-free 指标。传统 IR 指标：（除 RAGAS 定义的指标外，传统 IR（Information Retrieval）指标仍然适用）
 
-## ▐考古一下，RAG 的起源RAG（Retrieval-Augmented Generation，检索增强生成）由 Facebook AI Research（现 Meta AI）于 2020 年首次提出。项目内容论文Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks作者Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin 等发表NeurIPS 2020链接https://arxiv.org/abs/2005.11401论文的核心贡献在于提出了一种将参数化记忆（Parametric Memory）与非参数化记忆（Non-Parametric Memory）相结合的架构：参数化记忆：预训练 seq2seq 模型（如 BART）的模型权重非参数化记忆：Wikipedia 语料的密集向量索引，通过 DPR（Dense Passage Retriever）构建这一架构在开放域问答（Open-Domain QA）任务上显著超越了纯参数化模型，奠定了后续 RAG 研究的基础。▐知识库的定义在 Agent 构建的语境下，知识库（Knowledge Base）是一个外部记忆系统，用于存储和检索不在模型参数中的信息。它作为 RAG 架构的核心组件，承担非参数化记忆的角色。RAG 的基本工作流程：Query → Retriever（检索器） → Top-K Documents → Context Augmentation → Generator（生成器） → Response其中，知识库的核心接口，就是上传和召回。不同版本和理论，就是召回的内容和排序的区别。▐使用知识库可以解决什么问题？这个问题应该回到 LLM 的固有局限上，知识库是一种对应的解决方案：![image](./images/21-building-better-knowledge-base/003.png)▐适用场景分析结合前面几点，使用场景也比较清晰了。适合构建知识库的场景：![image](./images/21-building-better-knowledge-base/004.png)不需要知识库的场景：![image](./images/21-building-better-knowledge-base/005.png)▐RAG vs Long Context随着上下文窗口的扩展（Claude 200K, Gemini 1M+），需要重新审视 RAG 的适用边界：![image](./images/21-building-better-knowledge-base/006.png)选型建议：数据量 < 50K tokens 且更新频率低 → Long Context数据量大、更新频繁、需要精确召回 → RAG混合方案：RAG 粗筛 + Long Context 精读![image](./images/21-building-better-knowledge-base/007.png)如何评判一个知识库的好坏？如题，我们想要构建更好的知识库，那么首先需要定义"好"的标准。▐评估框架：RAGASRAGAS（Retrieval Augmented Generation Assessment）是目前最广泛采用的 RAG 评估框架，其核心价值在于无参考评估（Reference-Free）——无需人工标注 ground truth 即可进行自动化评估。项目内容论文RAGAS: Automated Evaluation of Retrieval Augmented Generation链接https://arxiv.org/abs/2309.15217发表2023RAGAS 将 RAG 系统的评估分解为三个核心维度：![image](./images/21-building-better-knowledge-base/008.png)这三个维度相互独立但互补，共同覆盖 RAG 系统的端到端性能。RAGAS 的关键洞察：RAG 系统的失败往往是检索和生成环节共同造成的，因此必须分别评估，才能定位问题根因。下面来看下这几个环节可以对应的指标有些什么。▐检索质量指标检索环节的目标是：召回与 query 相关的文档片段，并将相关内容排在前面。Context Precision（上下文精确率）定义：评估检索器将相关文档排在不相关文档之上的能力。计算方法：![image](./images/21-building-better-knowledge-base/009.png)其中：![image](./images/21-building-better-knowledge-base/010.png)直观理解：如果检索了 5 个 chunks，相关的 2 个排在第 1、2 位，比排在第 4、5 位的 precision 更高。Context Recall（上下文召回率）定义：评估回答问题所需的信息有多少被成功检索到。计算方法：![image](./images/21-building-better-knowledge-base/011.png)具体步骤：将参考答案分解为多个 claims（声明）判断每个 claim 是否可归因于检索到的上下文计算被支持的 claims 占比注意：Context Recall 需要参考答案（reference），因此不是完全的 reference-free 指标。传统 IR 指标：（除 RAGAS 定义的指标外，传统 IR（Information Retrieval）指标仍然适用）
+## ▐考古一下，RAG 的起源RAG（Retrieval-Augmented Generation，检索增强生成）由 Facebook AI Research（现 Meta AI）于 2020 年首次提出。项目内容论文Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks作者Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin 等发表NeurIPS 2020链接https://arxiv.org/abs/2005.11401论文的核心贡献在于提出了一种将参数化记忆（Parametric Memory）与非参数化记忆（Non-Parametric Memory）相结合的架构：参数化记忆：预训练 seq2seq 模型（如 BART）的模型权重非参数化记忆：Wikipedia 语料的密集向量索引，通过 DPR（Dense Passage Retriever）构建这一架构在开放域问答（Open-Domain QA）任务上显著超越了纯参数化模型，奠定了后续 RAG 研究的基础。▐知识库的定义在 Agent 构建的语境下，知识库（Knowledge Base）是一个外部记忆系统，用于存储和检索不在模型参数中的信息。它作为 RAG 架构的核心组件，承担非参数化记忆的角色。RAG 的基本工作流程：Query → Retriever（检索器） → Top-K Documents → Context Augmentation → Generator（生成器） → Response其中，知识库的核心接口，就是上传和召回。不同版本和理论，就是召回的内容和排序的区别。▐使用知识库可以解决什么问题？这个问题应该回到 LLM 的固有局限上，知识库是一种对应的解决方案：![image](images/21-building-better-knowledge-base/003.webp)▐适用场景分析结合前面几点，使用场景也比较清晰了。适合构建知识库的场景：![image](images/21-building-better-knowledge-base/004.webp)不需要知识库的场景：![image](images/21-building-better-knowledge-base/005.webp)▐RAG vs Long Context随着上下文窗口的扩展（Claude 200K, Gemini 1M+），需要重新审视 RAG 的适用边界：![image](images/21-building-better-knowledge-base/006.webp)选型建议：数据量 < 50K tokens 且更新频率低 → Long Context数据量大、更新频繁、需要精确召回 → RAG混合方案：RAG 粗筛 + Long Context 精读![image](images/21-building-better-knowledge-base/007.webp)如何评判一个知识库的好坏？如题，我们想要构建更好的知识库，那么首先需要定义"好"的标准。▐评估框架：RAGASRAGAS（Retrieval Augmented Generation Assessment）是目前最广泛采用的 RAG 评估框架，其核心价值在于无参考评估（Reference-Free）——无需人工标注 ground truth 即可进行自动化评估。项目内容论文RAGAS: Automated Evaluation of Retrieval Augmented Generation链接https://arxiv.org/abs/2309.15217发表2023RAGAS 将 RAG 系统的评估分解为三个核心维度：![image](images/21-building-better-knowledge-base/008.webp)这三个维度相互独立但互补，共同覆盖 RAG 系统的端到端性能。RAGAS 的关键洞察：RAG 系统的失败往往是检索和生成环节共同造成的，因此必须分别评估，才能定位问题根因。下面来看下这几个环节可以对应的指标有些什么。▐检索质量指标检索环节的目标是：召回与 query 相关的文档片段，并将相关内容排在前面。Context Precision（上下文精确率）定义：评估检索器将相关文档排在不相关文档之上的能力。计算方法：![image](images/21-building-better-knowledge-base/009.webp)其中：![image](images/21-building-better-knowledge-base/010.webp)直观理解：如果检索了 5 个 chunks，相关的 2 个排在第 1、2 位，比排在第 4、5 位的 precision 更高。Context Recall（上下文召回率）定义：评估回答问题所需的信息有多少被成功检索到。计算方法：![image](images/21-building-better-knowledge-base/011.webp)具体步骤：将参考答案分解为多个 claims（声明）判断每个 claim 是否可归因于检索到的上下文计算被支持的 claims 占比注意：Context Recall 需要参考答案（reference），因此不是完全的 reference-free 指标。传统 IR 指标：（除 RAGAS 定义的指标外，传统 IR（Information Retrieval）指标仍然适用）
 
 ▐考古一下，RAG 的起源
 
@@ -116,7 +116,7 @@ Query → Retriever（检索器） → Top-K Documents → Context Augmentation 
 
 这个问题应该回到 LLM 的固有局限上，知识库是一种对应的解决方案：
 
-![image](./images/21-building-better-knowledge-base/003.png)
+![image](images/21-building-better-knowledge-base/003.webp)
 
 ▐适用场景分析
 
@@ -136,11 +136,11 @@ Query → Retriever（检索器） → Top-K Documents → Context Augmentation 
 
 适合构建知识库的场景：
 
-![image](./images/21-building-better-knowledge-base/004.png)
+![image](images/21-building-better-knowledge-base/004.webp)
 
 不需要知识库的场景：
 
-![image](./images/21-building-better-knowledge-base/005.png)
+![image](images/21-building-better-knowledge-base/005.webp)
 
 ▐RAG vs Long Context
 
@@ -158,7 +158,7 @@ Query → Retriever（检索器） → Top-K Documents → Context Augmentation 
 
 随着上下文窗口的扩展（Claude 200K, Gemini 1M+），需要重新审视 RAG 的适用边界：
 
-![image](./images/21-building-better-knowledge-base/006.png)
+![image](images/21-building-better-knowledge-base/006.webp)
 
 选型建议：
 
@@ -168,15 +168,15 @@ Query → Retriever（检索器） → Top-K Documents → Context Augmentation 
 
 混合方案：RAG 粗筛 + Long Context 精读
 
-![image](./images/21-building-better-knowledge-base/007.png)如何评判一个知识库的好坏？
+![image](images/21-building-better-knowledge-base/007.webp)如何评判一个知识库的好坏？
 
-![image](./images/21-building-better-knowledge-base/007.png)如何评判一个知识库的好坏？
+![image](images/21-building-better-knowledge-base/007.webp)如何评判一个知识库的好坏？
 
-## ![image](./images/21-building-better-knowledge-base/007.png)如何评判一个知识库的好坏？
+## ![image](images/21-building-better-knowledge-base/007.webp)如何评判一个知识库的好坏？
 
-![image](./images/21-building-better-knowledge-base/007.png)如何评判一个知识库的好坏？
+![image](images/21-building-better-knowledge-base/007.webp)如何评判一个知识库的好坏？
 
-![image](./images/21-building-better-knowledge-base/007.png)
+![image](images/21-building-better-knowledge-base/007.webp)
 
 如何评判一个知识库的好坏？
 
@@ -224,7 +224,7 @@ https://arxiv.org/abs/2309.15217
 
 RAGAS 将 RAG 系统的评估分解为三个核心维度：
 
-![image](./images/21-building-better-knowledge-base/008.png)
+![image](images/21-building-better-knowledge-base/008.webp)
 
 这三个维度相互独立但互补，共同覆盖 RAG 系统的端到端性能。RAGAS 的关键洞察：RAG 系统的失败往往是检索和生成环节共同造成的，因此必须分别评估，才能定位问题根因。下面来看下这几个环节可以对应的指标有些什么。
 
@@ -250,11 +250,11 @@ RAGAS 将 RAG 系统的评估分解为三个核心维度：
 
 计算方法：
 
-![image](./images/21-building-better-knowledge-base/009.png)
+![image](images/21-building-better-knowledge-base/009.webp)
 
 其中：
 
-![image](./images/21-building-better-knowledge-base/010.png)
+![image](images/21-building-better-knowledge-base/010.webp)
 
 直观理解：如果检索了 5 个 chunks，相关的 2 个排在第 1、2 位，比排在第 4、5 位的 precision 更高。
 
@@ -264,7 +264,7 @@ RAGAS 将 RAG 系统的评估分解为三个核心维度：
 
 计算方法：
 
-![image](./images/21-building-better-knowledge-base/011.png)
+![image](images/21-building-better-knowledge-base/011.webp)
 
 具体步骤：
 
@@ -278,15 +278,15 @@ RAGAS 将 RAG 系统的评估分解为三个核心维度：
 
 ### 传统 IR 指标：（除 RAGAS 定义的指标外，传统 IR（Information Retrieval）指标仍然适用）
 
-![image](./images/21-building-better-knowledge-base/012.png)Precision、Recall 与 F1 的关系：![image](./images/21-building-better-knowledge-base/013.png)F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平衡。当 Precision 和 Recall 差异较大时，F1 会偏向较小的那个值，因此 F1 高意味着两者都不能太低。▐生成质量指标生成环节的目标是：基于检索到的上下文，生成准确、相关的答案。Faithfulness（忠实度）
+![image](images/21-building-better-knowledge-base/012.webp)Precision、Recall 与 F1 的关系：![image](images/21-building-better-knowledge-base/013.webp)F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平衡。当 Precision 和 Recall 差异较大时，F1 会偏向较小的那个值，因此 F1 高意味着两者都不能太低。▐生成质量指标生成环节的目标是：基于检索到的上下文，生成准确、相关的答案。Faithfulness（忠实度）
 
-## ![image](./images/21-building-better-knowledge-base/012.png)Precision、Recall 与 F1 的关系：![image](./images/21-building-better-knowledge-base/013.png)F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平衡。当 Precision 和 Recall 差异较大时，F1 会偏向较小的那个值，因此 F1 高意味着两者都不能太低。▐生成质量指标生成环节的目标是：基于检索到的上下文，生成准确、相关的答案。Faithfulness（忠实度）
+## ![image](images/21-building-better-knowledge-base/012.webp)Precision、Recall 与 F1 的关系：![image](images/21-building-better-knowledge-base/013.webp)F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平衡。当 Precision 和 Recall 差异较大时，F1 会偏向较小的那个值，因此 F1 高意味着两者都不能太低。▐生成质量指标生成环节的目标是：基于检索到的上下文，生成准确、相关的答案。Faithfulness（忠实度）
 
-![image](./images/21-building-better-knowledge-base/012.png)
+![image](images/21-building-better-knowledge-base/012.webp)
 
 Precision、Recall 与 F1 的关系：
 
-![image](./images/21-building-better-knowledge-base/013.png)
+![image](images/21-building-better-knowledge-base/013.webp)
 
 F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平衡。当 Precision 和 Recall 差异较大时，F1 会偏向较小的那个值，因此 F1 高意味着两者都不能太低。
 
@@ -308,15 +308,15 @@ F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平�
 
 ### Faithfulness（忠实度）
 
-定义：生成的答案在事实上是否与检索到的上下文一致。取值范围 [0, 1]，值越高表示答案越忠实于上下文。计算方法：![image](./images/21-building-better-knowledge-base/014.png)具体步骤：使用 LLM 从答案中提取所有声明（claims）对每个声明，验证是否能从检索上下文中推断计算被支持的声明占比示例：
+定义：生成的答案在事实上是否与检索到的上下文一致。取值范围 [0, 1]，值越高表示答案越忠实于上下文。计算方法：![image](images/21-building-better-knowledge-base/014.webp)具体步骤：使用 LLM 从答案中提取所有声明（claims）对每个声明，验证是否能从检索上下文中推断计算被支持的声明占比示例：
 
-## 定义：生成的答案在事实上是否与检索到的上下文一致。取值范围 [0, 1]，值越高表示答案越忠实于上下文。计算方法：![image](./images/21-building-better-knowledge-base/014.png)具体步骤：使用 LLM 从答案中提取所有声明（claims）对每个声明，验证是否能从检索上下文中推断计算被支持的声明占比示例：
+## 定义：生成的答案在事实上是否与检索到的上下文一致。取值范围 [0, 1]，值越高表示答案越忠实于上下文。计算方法：![image](images/21-building-better-knowledge-base/014.webp)具体步骤：使用 LLM 从答案中提取所有声明（claims）对每个声明，验证是否能从检索上下文中推断计算被支持的声明占比示例：
 
 定义：生成的答案在事实上是否与检索到的上下文一致。取值范围 [0, 1]，值越高表示答案越忠实于上下文。
 
 计算方法：
 
-![image](./images/21-building-better-knowledge-base/014.png)
+![image](images/21-building-better-knowledge-base/014.webp)
 
 具体步骤：
 
@@ -328,11 +328,11 @@ F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平�
 
 ### 示例：
 
-![image](./images/21-building-better-knowledge-base/015.png)Answer Relevance（答案相关性）定义：答案是否直接且恰当地回应了问题。该指标不考虑事实准确性，而是惩罚不完整或包含冗余信息的答案。计算方法：![image](./images/21-building-better-knowledge-base/016.png)其中：![image](./images/21-building-better-knowledge-base/017.png)核心思想：如果答案正确回应了问题，那么从答案反向生成的问题应该与原问题高度相似。▐幻觉问题的深入分析Faithfulness 指标的本质是检测幻觉。RAG 系统的幻觉可进一步细分为三类：![image](./images/21-building-better-knowledge-base/018.png)参考论文：https://arxiv.org/abs/2601.19927幻觉检测方法
+![image](images/21-building-better-knowledge-base/015.webp)Answer Relevance（答案相关性）定义：答案是否直接且恰当地回应了问题。该指标不考虑事实准确性，而是惩罚不完整或包含冗余信息的答案。计算方法：![image](images/21-building-better-knowledge-base/016.webp)其中：![image](images/21-building-better-knowledge-base/017.webp)核心思想：如果答案正确回应了问题，那么从答案反向生成的问题应该与原问题高度相似。▐幻觉问题的深入分析Faithfulness 指标的本质是检测幻觉。RAG 系统的幻觉可进一步细分为三类：![image](images/21-building-better-knowledge-base/018.webp)参考论文：https://arxiv.org/abs/2601.19927幻觉检测方法
 
-## ![image](./images/21-building-better-knowledge-base/015.png)Answer Relevance（答案相关性）定义：答案是否直接且恰当地回应了问题。该指标不考虑事实准确性，而是惩罚不完整或包含冗余信息的答案。计算方法：![image](./images/21-building-better-knowledge-base/016.png)其中：![image](./images/21-building-better-knowledge-base/017.png)核心思想：如果答案正确回应了问题，那么从答案反向生成的问题应该与原问题高度相似。▐幻觉问题的深入分析Faithfulness 指标的本质是检测幻觉。RAG 系统的幻觉可进一步细分为三类：![image](./images/21-building-better-knowledge-base/018.png)参考论文：https://arxiv.org/abs/2601.19927幻觉检测方法
+## ![image](images/21-building-better-knowledge-base/015.webp)Answer Relevance（答案相关性）定义：答案是否直接且恰当地回应了问题。该指标不考虑事实准确性，而是惩罚不完整或包含冗余信息的答案。计算方法：![image](images/21-building-better-knowledge-base/016.webp)其中：![image](images/21-building-better-knowledge-base/017.webp)核心思想：如果答案正确回应了问题，那么从答案反向生成的问题应该与原问题高度相似。▐幻觉问题的深入分析Faithfulness 指标的本质是检测幻觉。RAG 系统的幻觉可进一步细分为三类：![image](images/21-building-better-knowledge-base/018.webp)参考论文：https://arxiv.org/abs/2601.19927幻觉检测方法
 
-![image](./images/21-building-better-knowledge-base/015.png)
+![image](images/21-building-better-knowledge-base/015.webp)
 
 ### Answer Relevance（答案相关性）
 
@@ -340,11 +340,11 @@ F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平�
 
 计算方法：
 
-![image](./images/21-building-better-knowledge-base/016.png)
+![image](images/21-building-better-knowledge-base/016.webp)
 
 其中：
 
-![image](./images/21-building-better-knowledge-base/017.png)
+![image](images/21-building-better-knowledge-base/017.webp)
 
 核心思想：如果答案正确回应了问题，那么从答案反向生成的问题应该与原问题高度相似。
 
@@ -364,15 +364,15 @@ F1 是 Precision 和 Recall 的调和平均数，用于在两者之间取得平�
 
 Faithfulness 指标的本质是检测幻觉。RAG 系统的幻觉可进一步细分为三类：
 
-![image](./images/21-building-better-knowledge-base/018.png)
+![image](images/21-building-better-knowledge-base/018.webp)
 
 ### 幻觉检测方法
 
-![image](./images/21-building-better-knowledge-base/019.png)参考论文：https://arxiv.org/abs/2503.21157不同 RAG 应用场景（医疗、法律、通用 QA）对检测器的要求不同，需根据具体场景选择。▐RAG 场景的特殊考量传统 IR 指标基于语义相似度评估检索质量，但在 RAG 场景下存在一个核心问题：语义相似 ≠ 对 LLM 有用。ICLERB（In-Context Learning Embedding and Reranker Benchmark）提出了端到端评估思路，这意味着：一个"好"的检索结果，不仅要语义相关，还要能有效支撑 LLM 生成正确答案。检索候选文档 → 注入 LLM 生成答案 → 评估答案准确性 → 反推检索器效果参考论文：https://arxiv.org/abs/2411.18947以上，在理解了评估标准后，接下来拆解知识库构建的完整流程，分析每个环节的优化空间。![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？知识库的构建可以分为两个阶段：离线索引阶段（Indexing）和在线查询阶段（Querying）。本章节结合idealab平台（https://idealab.alibaba-inc.com/#/aistudio）的操作进行讲解。离线索引阶段：Load → Split → Embed → Store![image](./images/21-building-better-knowledge-base/021.png)在线查询阶段：Query → Retrieve → Rerank → Generate![image](./images/21-building-better-knowledge-base/022.png)▐离线索引阶段Step 1: Load（文档加载）这一步很好理解，就是将原始数据从各种来源和格式中提取出来。 目前idealab提供的知识库支持的有odps、语雀、钉钉文档、本地文件。![image](./images/21-building-better-knowledge-base/023.png)Step 2: Split（文档切分）将长文档切分为适合检索和上下文注入的片段（chunks）。这是影响检索质量的关键环节。目前idealab提供的知识库支持的有默认智能切分（使用Opensearch切分方案），自定义切分（固定长度，符号切分），自定义工具切分。![image](./images/21-building-better-knowledge-base/024.png)![image](./images/21-building-better-knowledge-base/025.png)关键参数：chunk_size：块大小，通常 256-1024 tokenschunk_overlap：重叠区域，通常 10%-20%，防止切断关键信息Step 3: Embed（向量化）使用 Embedding 模型将文本块转换为稠密向量。本环节idealab提供了多种模型可供选择。![image](./images/21-building-better-knowledge-base/026.png)Step 4: Store（存储与索引）
+![image](images/21-building-better-knowledge-base/019.webp)参考论文：https://arxiv.org/abs/2503.21157不同 RAG 应用场景（医疗、法律、通用 QA）对检测器的要求不同，需根据具体场景选择。▐RAG 场景的特殊考量传统 IR 指标基于语义相似度评估检索质量，但在 RAG 场景下存在一个核心问题：语义相似 ≠ 对 LLM 有用。ICLERB（In-Context Learning Embedding and Reranker Benchmark）提出了端到端评估思路，这意味着：一个"好"的检索结果，不仅要语义相关，还要能有效支撑 LLM 生成正确答案。检索候选文档 → 注入 LLM 生成答案 → 评估答案准确性 → 反推检索器效果参考论文：https://arxiv.org/abs/2411.18947以上，在理解了评估标准后，接下来拆解知识库构建的完整流程，分析每个环节的优化空间。![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？知识库的构建可以分为两个阶段：离线索引阶段（Indexing）和在线查询阶段（Querying）。本章节结合idealab平台（https://idealab.alibaba-inc.com/#/aistudio）的操作进行讲解。离线索引阶段：Load → Split → Embed → Store![image](images/21-building-better-knowledge-base/021.webp)在线查询阶段：Query → Retrieve → Rerank → Generate![image](images/21-building-better-knowledge-base/022.webp)▐离线索引阶段Step 1: Load（文档加载）这一步很好理解，就是将原始数据从各种来源和格式中提取出来。 目前idealab提供的知识库支持的有odps、语雀、钉钉文档、本地文件。![image](images/21-building-better-knowledge-base/023.webp)Step 2: Split（文档切分）将长文档切分为适合检索和上下文注入的片段（chunks）。这是影响检索质量的关键环节。目前idealab提供的知识库支持的有默认智能切分（使用Opensearch切分方案），自定义切分（固定长度，符号切分），自定义工具切分。![image](images/21-building-better-knowledge-base/024.webp)![image](images/21-building-better-knowledge-base/025.webp)关键参数：chunk_size：块大小，通常 256-1024 tokenschunk_overlap：重叠区域，通常 10%-20%，防止切断关键信息Step 3: Embed（向量化）使用 Embedding 模型将文本块转换为稠密向量。本环节idealab提供了多种模型可供选择。![image](images/21-building-better-knowledge-base/026.webp)Step 4: Store（存储与索引）
 
-## ![image](./images/21-building-better-knowledge-base/019.png)参考论文：https://arxiv.org/abs/2503.21157不同 RAG 应用场景（医疗、法律、通用 QA）对检测器的要求不同，需根据具体场景选择。▐RAG 场景的特殊考量传统 IR 指标基于语义相似度评估检索质量，但在 RAG 场景下存在一个核心问题：语义相似 ≠ 对 LLM 有用。ICLERB（In-Context Learning Embedding and Reranker Benchmark）提出了端到端评估思路，这意味着：一个"好"的检索结果，不仅要语义相关，还要能有效支撑 LLM 生成正确答案。检索候选文档 → 注入 LLM 生成答案 → 评估答案准确性 → 反推检索器效果参考论文：https://arxiv.org/abs/2411.18947以上，在理解了评估标准后，接下来拆解知识库构建的完整流程，分析每个环节的优化空间。![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？知识库的构建可以分为两个阶段：离线索引阶段（Indexing）和在线查询阶段（Querying）。本章节结合idealab平台（https://idealab.alibaba-inc.com/#/aistudio）的操作进行讲解。离线索引阶段：Load → Split → Embed → Store![image](./images/21-building-better-knowledge-base/021.png)在线查询阶段：Query → Retrieve → Rerank → Generate![image](./images/21-building-better-knowledge-base/022.png)▐离线索引阶段Step 1: Load（文档加载）这一步很好理解，就是将原始数据从各种来源和格式中提取出来。 目前idealab提供的知识库支持的有odps、语雀、钉钉文档、本地文件。![image](./images/21-building-better-knowledge-base/023.png)Step 2: Split（文档切分）将长文档切分为适合检索和上下文注入的片段（chunks）。这是影响检索质量的关键环节。目前idealab提供的知识库支持的有默认智能切分（使用Opensearch切分方案），自定义切分（固定长度，符号切分），自定义工具切分。![image](./images/21-building-better-knowledge-base/024.png)![image](./images/21-building-better-knowledge-base/025.png)关键参数：chunk_size：块大小，通常 256-1024 tokenschunk_overlap：重叠区域，通常 10%-20%，防止切断关键信息Step 3: Embed（向量化）使用 Embedding 模型将文本块转换为稠密向量。本环节idealab提供了多种模型可供选择。![image](./images/21-building-better-knowledge-base/026.png)Step 4: Store（存储与索引）
+## ![image](images/21-building-better-knowledge-base/019.webp)参考论文：https://arxiv.org/abs/2503.21157不同 RAG 应用场景（医疗、法律、通用 QA）对检测器的要求不同，需根据具体场景选择。▐RAG 场景的特殊考量传统 IR 指标基于语义相似度评估检索质量，但在 RAG 场景下存在一个核心问题：语义相似 ≠ 对 LLM 有用。ICLERB（In-Context Learning Embedding and Reranker Benchmark）提出了端到端评估思路，这意味着：一个"好"的检索结果，不仅要语义相关，还要能有效支撑 LLM 生成正确答案。检索候选文档 → 注入 LLM 生成答案 → 评估答案准确性 → 反推检索器效果参考论文：https://arxiv.org/abs/2411.18947以上，在理解了评估标准后，接下来拆解知识库构建的完整流程，分析每个环节的优化空间。![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？知识库的构建可以分为两个阶段：离线索引阶段（Indexing）和在线查询阶段（Querying）。本章节结合idealab平台（https://idealab.alibaba-inc.com/#/aistudio）的操作进行讲解。离线索引阶段：Load → Split → Embed → Store![image](images/21-building-better-knowledge-base/021.webp)在线查询阶段：Query → Retrieve → Rerank → Generate![image](images/21-building-better-knowledge-base/022.webp)▐离线索引阶段Step 1: Load（文档加载）这一步很好理解，就是将原始数据从各种来源和格式中提取出来。 目前idealab提供的知识库支持的有odps、语雀、钉钉文档、本地文件。![image](images/21-building-better-knowledge-base/023.webp)Step 2: Split（文档切分）将长文档切分为适合检索和上下文注入的片段（chunks）。这是影响检索质量的关键环节。目前idealab提供的知识库支持的有默认智能切分（使用Opensearch切分方案），自定义切分（固定长度，符号切分），自定义工具切分。![image](images/21-building-better-knowledge-base/024.webp)![image](images/21-building-better-knowledge-base/025.webp)关键参数：chunk_size：块大小，通常 256-1024 tokenschunk_overlap：重叠区域，通常 10%-20%，防止切断关键信息Step 3: Embed（向量化）使用 Embedding 模型将文本块转换为稠密向量。本环节idealab提供了多种模型可供选择。![image](images/21-building-better-knowledge-base/026.webp)Step 4: Store（存储与索引）
 
-![image](./images/21-building-better-knowledge-base/019.png)
+![image](images/21-building-better-knowledge-base/019.webp)
 
 不同 RAG 应用场景（医疗、法律、通用 QA）对检测器的要求不同，需根据具体场景选择。
 
@@ -400,21 +400,21 @@ ICLERB（In-Context Learning Embedding and Reranker Benchmark）提出了端到�
 
 以上，在理解了评估标准后，接下来拆解知识库构建的完整流程，分析每个环节的优化空间。
 
-![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？
+![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？
 
-![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？
+![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？
 
-## ![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？
+## ![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？
 
-![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？
+![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？
 
-![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？
+![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？
 
-## ![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？
+## ![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？
 
-![image](./images/21-building-better-knowledge-base/020.png)构建知识库分为几步？
+![image](images/21-building-better-knowledge-base/020.webp)构建知识库分为几步？
 
-![image](./images/21-building-better-knowledge-base/020.png)
+![image](images/21-building-better-knowledge-base/020.webp)
 
 构建知识库分为几步？
 
@@ -424,11 +424,11 @@ ICLERB（In-Context Learning Embedding and Reranker Benchmark）提出了端到�
 
 离线索引阶段：Load → Split → Embed → Store
 
-![image](./images/21-building-better-knowledge-base/021.png)
+![image](images/21-building-better-knowledge-base/021.webp)
 
 在线查询阶段：Query → Retrieve → Rerank → Generate
 
-![image](./images/21-building-better-knowledge-base/022.png)
+![image](images/21-building-better-knowledge-base/022.webp)
 
 ▐离线索引阶段
 
@@ -460,7 +460,7 @@ Step 1: Load（文档加载）
 
 这一步很好理解，就是将原始数据从各种来源和格式中提取出来。 目前idealab提供的知识库支持的有odps、语雀、钉钉文档、本地文件。
 
-![image](./images/21-building-better-knowledge-base/023.png)
+![image](images/21-building-better-knowledge-base/023.webp)
 
 Step 2: Split（文档切分）
 
@@ -478,9 +478,9 @@ Step 2: Split（文档切分）
 
 将长文档切分为适合检索和上下文注入的片段（chunks）。这是影响检索质量的关键环节。目前idealab提供的知识库支持的有默认智能切分（使用Opensearch切分方案），自定义切分（固定长度，符号切分），自定义工具切分。
 
-![image](./images/21-building-better-knowledge-base/024.png)
+![image](images/21-building-better-knowledge-base/024.webp)
 
-![image](./images/21-building-better-knowledge-base/025.png)
+![image](images/21-building-better-knowledge-base/025.webp)
 
 关键参数：
 
@@ -500,7 +500,7 @@ Step 3: Embed（向量化）
 
 使用 Embedding 模型将文本块转换为稠密向量。本环节idealab提供了多种模型可供选择。
 
-![image](./images/21-building-better-knowledge-base/026.png)
+![image](images/21-building-better-knowledge-base/026.webp)
 
 Step 4: Store（存储与索引）
 
@@ -542,7 +542,7 @@ Step 5: Query（查询处理）
 
 对用户原始查询进行预处理和增强。这一步需要Agent的搭建者进行处理，最为简单的方式就是交给大模型自己来。充分信任基模的能力。 以下是一些常见的手段。
 
-![image](./images/21-building-better-knowledge-base/027.png)
+![image](images/21-building-better-knowledge-base/027.webp)
 
 Step 6: Retrieve（向量检索）
 
@@ -558,7 +558,7 @@ Step 6: Retrieve（向量检索）
 
 从向量数据库中召回与查询最相关的文档片段。
 
-![image](./images/21-building-better-knowledge-base/028.png)
+![image](images/21-building-better-knowledge-base/028.webp)
 
 Query Embedding → ANN Search → Top-K Chunks
 
@@ -566,7 +566,7 @@ Query Embedding → ANN Search → Top-K Chunks
 
 同样的，idealab支持多种配置项；
 
-![image](./images/21-building-better-knowledge-base/029.png)
+![image](images/21-building-better-knowledge-base/029.webp)
 
 Step 7: Rerank（重排序，可选）
 
@@ -582,7 +582,7 @@ Step 7: Rerank（重排序，可选）
 
 对初筛结果进行精排，解决初步召回不够准确的问题,尤其是混合召回后的排序。提升最终送入 LLM 的内容质量。
 
-![image](./images/21-building-better-knowledge-base/030.png)
+![image](images/21-building-better-knowledge-base/030.webp)
 
 Step 8: Generate（答案生成）
 
@@ -598,7 +598,7 @@ Step 8: Generate（答案生成）
 
 将检索到的上下文与用户问题一起送入 LLM 生成最终答案。
 
-![image](./images/21-building-better-knowledge-base/031.png)
+![image](images/21-building-better-knowledge-base/031.webp)
 
 ▐知识库的开源项目和案例
 
@@ -654,7 +654,7 @@ AutoRAG 提供自动化的 RAG Pipeline 优化框架：
 
 ![image](./images/21-building-better-knowledge-base/032.gif)
 
-![image](./images/21-building-better-knowledge-base/033.png)
+![image](images/21-building-better-knowledge-base/033.webp)
 
 适用场景：
 
@@ -702,7 +702,7 @@ https://arxiv.org/abs/2501.02702
 
 核心创新 - 问题倒排索引：
 
-![image](./images/21-building-better-knowledge-base/034.png)
+![image](images/21-building-better-knowledge-base/034.webp)
 
 将"Query-Document 匹配"转化为"Query-Query 匹配"，提升检索精度。
 
@@ -744,27 +744,27 @@ https://github.com/volcengine/OpenViking
 
 核心创新 - 文件系统范式（Filesystem Paradigm）：
 
-![image](./images/21-building-better-knowledge-base/035.png)
+![image](images/21-building-better-knowledge-base/035.webp)
 
 技术特点：
 
-![image](./images/21-building-better-knowledge-base/036.png)
+![image](images/21-building-better-knowledge-base/036.webp)
 
 与传统 RAG 的对比：
 
-![image](./images/21-building-better-knowledge-base/037.png)
+![image](images/21-building-better-knowledge-base/037.webp)
 
 适用场景：长时运行的 Agent、需要复杂上下文管理的场景、对检索可解释性要求高的应用。
 
 小结：知识库构建没有标准答案，需要根据数据特点和业务场景选择合适的架构模式。核心原则：
 
-## ![image](./images/21-building-better-knowledge-base/038.png)如何获得更好的切分（Chunking）？
+## ![image](images/21-building-better-knowledge-base/038.webp)如何获得更好的切分（Chunking）？
 
-![image](./images/21-building-better-knowledge-base/038.png)如何获得更好的切分（Chunking）？
+![image](images/21-building-better-knowledge-base/038.webp)如何获得更好的切分（Chunking）？
 
-![image](./images/21-building-better-knowledge-base/038.png)如何获得更好的切分（Chunking）？
+![image](images/21-building-better-knowledge-base/038.webp)如何获得更好的切分（Chunking）？
 
-![image](./images/21-building-better-knowledge-base/038.png)
+![image](images/21-building-better-knowledge-base/038.webp)
 
 如何获得更好的切分（Chunking）？
 
@@ -788,7 +788,7 @@ https://github.com/volcengine/OpenViking
 
 切分存在一个两难困境：
 
-![image](./images/21-building-better-knowledge-base/039.png)
+![image](images/21-building-better-knowledge-base/039.webp)
 
 核心目标：在粒度和完整性之间找到平衡点。
 
@@ -814,9 +814,9 @@ https://github.com/volcengine/OpenViking
 
 最简单的方法：按固定 token 数切分，通常加上重叠区域。
 
-![image](./images/21-building-better-knowledge-base/040.png)
+![image](images/21-building-better-knowledge-base/040.webp)
 
-![image](./images/21-building-better-knowledge-base/041.png)
+![image](images/21-building-better-knowledge-base/041.webp)
 
 适用场景：快速原型、对切分质量要求不高的场景
 
@@ -830,9 +830,9 @@ https://github.com/volcengine/OpenViking
 
 按层次结构递归切分：先尝试按段落分，段落太长则按句子分，句子太长则按字符分。
 
-![image](./images/21-building-better-knowledge-base/042.png)
+![image](images/21-building-better-knowledge-base/042.webp)
 
-![image](./images/21-building-better-knowledge-base/043.png)
+![image](images/21-building-better-knowledge-base/043.webp)
 
 适用场景：通用文档处理，结构化文本
 
@@ -846,7 +846,7 @@ https://github.com/volcengine/OpenViking
 
 基于语义相似度判断切分边界：相邻句子语义差异大时切分。
 
-![image](./images/21-building-better-knowledge-base/044.png)
+![image](images/21-building-better-knowledge-base/044.webp)
 
 计算方法：
 
@@ -856,7 +856,7 @@ https://github.com/volcengine/OpenViking
 
 相似度低于阈值处切分
 
-![image](./images/21-building-better-knowledge-base/045.png)
+![image](images/21-building-better-knowledge-base/045.webp)
 
 关于成本效益的研究：
 
@@ -914,7 +914,7 @@ Jina AI, 2024
 
 传统方法"先切分，再编码"会导致每个 chunk 丢失来自其他 chunks 的上下文信息。
 
-![image](./images/21-building-better-knowledge-base/046.png)
+![image](images/21-building-better-knowledge-base/046.webp)
 
 为什么有效：
 
@@ -958,7 +958,7 @@ https://arxiv.org/abs/2602.14784
 
 切分边界应该由"用户可能问什么问题"来决定，而非文档本身的结构。
 
-![image](./images/21-building-better-knowledge-base/047.png)
+![image](images/21-building-better-knowledge-base/047.webp)
 
 效果：
 
@@ -980,9 +980,9 @@ Small-to-Big 策略
 
 检索时使用小粒度 chunk，生成时扩展为大粒度上下文。
 
-![image](./images/21-building-better-knowledge-base/048.png)
+![image](images/21-building-better-knowledge-base/048.webp)
 
-![image](./images/21-building-better-knowledge-base/049.png)
+![image](images/21-building-better-knowledge-base/049.webp)
 
 ▐切分参数选择
 
@@ -996,7 +996,7 @@ Chunk Size
 
 #### Chunk Size
 
-![image](./images/21-building-better-knowledge-base/050.png)
+![image](images/21-building-better-knowledge-base/050.webp)
 
 ## Chunk Overlap
 
@@ -1006,9 +1006,9 @@ Chunk Overlap
 
 #### Chunk Overlap
 
-![image](./images/21-building-better-knowledge-base/051.png)
+![image](images/21-building-better-knowledge-base/051.webp)
 
-![image](./images/21-building-better-knowledge-base/052.png)
+![image](images/21-building-better-knowledge-base/052.webp)
 
 ## ▐切分策略选型建议
 
@@ -1018,7 +1018,7 @@ Chunk Overlap
 
 ### ▐切分策略选型建议
 
-![image](./images/21-building-better-knowledge-base/053.png)
+![image](images/21-building-better-knowledge-base/053.webp)
 
 ## ▐实践建议
 
@@ -1028,13 +1028,13 @@ Chunk Overlap
 
 ### ▐实践建议
 
-## ![image](./images/21-building-better-knowledge-base/054.png)如何获得更好的召回（Retrieval）？
+## ![image](images/21-building-better-knowledge-base/054.webp)如何获得更好的召回（Retrieval）？
 
-![image](./images/21-building-better-knowledge-base/054.png)如何获得更好的召回（Retrieval）？
+![image](images/21-building-better-knowledge-base/054.webp)如何获得更好的召回（Retrieval）？
 
-![image](./images/21-building-better-knowledge-base/054.png)如何获得更好的召回（Retrieval）？
+![image](images/21-building-better-knowledge-base/054.webp)如何获得更好的召回（Retrieval）？
 
-![image](./images/21-building-better-knowledge-base/054.png)
+![image](images/21-building-better-knowledge-base/054.webp)
 
 如何获得更好的召回（Retrieval）？
 
@@ -1046,7 +1046,7 @@ Chunk Overlap
 
 当前主流的检索方法可分为三类：
 
-![image](./images/21-building-better-knowledge-base/055.png)
+![image](images/21-building-better-knowledge-base/055.webp)
 
 ▐稀疏检索（Sparse Retrieval）
 
@@ -1058,13 +1058,13 @@ BM25
 
 BM25（Best Matching 25）是经典的稀疏检索算法，基于词频统计进行相关性打分：
 
-![image](./images/21-building-better-knowledge-base/056.png)
+![image](images/21-building-better-knowledge-base/056.webp)
 
 其中：
 
-![image](./images/21-building-better-knowledge-base/057.png)
+![image](images/21-building-better-knowledge-base/057.webp)
 
-![image](./images/21-building-better-knowledge-base/058.png)
+![image](images/21-building-better-knowledge-base/058.webp)
 
 ▐稠密检索（Dense Retrieval）
 
@@ -1076,7 +1076,7 @@ Embedding 模型选型
 
 #### Embedding 模型选型
 
-![image](./images/21-building-better-knowledge-base/059.png)
+![image](images/21-building-better-knowledge-base/059.webp)
 
 ▐混合检索（Hybrid Retrieval）
 
@@ -1084,7 +1084,7 @@ Embedding 模型选型
 
 混合检索架构流程：
 
-![image](./images/21-building-better-knowledge-base/060.png)
+![image](images/21-building-better-knowledge-base/060.webp)
 
 ## 融合策略
 
@@ -1096,15 +1096,15 @@ Embedding 模型选型
 
 1. Reciprocal Rank Fusion (RRF)
 
-![image](./images/21-building-better-knowledge-base/061.png)
+![image](images/21-building-better-knowledge-base/061.webp)
 
-其中![image](./images/21-building-better-knowledge-base/062.png)是文档![image](./images/21-building-better-knowledge-base/063.png)在第![image](./images/21-building-better-knowledge-base/064.png)路召回中的排名，![image](./images/21-building-better-knowledge-base/065.png)通常取 60。
+其中![image](images/21-building-better-knowledge-base/062.webp)是文档![image](images/21-building-better-knowledge-base/063.webp)在第![image](images/21-building-better-knowledge-base/064.webp)路召回中的排名，![image](images/21-building-better-knowledge-base/065.webp)通常取 60。
 
 2. 加权线性组合
 
-![image](./images/21-building-better-knowledge-base/066.png)
+![image](images/21-building-better-knowledge-base/066.webp)
 
-![image](./images/21-building-better-knowledge-base/067.png)可通过验证集调优，通常在 0.3-0.7 之间。
+![image](images/21-building-better-knowledge-base/067.webp)可通过验证集调优，通常在 0.3-0.7 之间。
 
 ## 混合检索的优势
 
@@ -1114,7 +1114,7 @@ Embedding 模型选型
 
 #### 混合检索的优势
 
-![image](./images/21-building-better-knowledge-base/068.png)
+![image](images/21-building-better-knowledge-base/068.webp)
 
 ▐进阶检索策略
 
@@ -1146,7 +1146,7 @@ https://arxiv.org/abs/2110.15439
 
 当语料库规模庞大时，直接段落级检索可能导致上下文丢失。层次化检索采用两阶段策略：
 
-![image](./images/21-building-better-knowledge-base/069.png)
+![image](images/21-building-better-knowledge-base/069.webp)
 
 优势：
 
@@ -1178,7 +1178,7 @@ In-Doc 和 In-Sec 负采样策略提升训练效果
 
 使用 LLM 将用户查询改写为更适合检索的形式：
 
-![image](./images/21-building-better-knowledge-base/070.png)
+![image](images/21-building-better-knowledge-base/070.webp)
 
 2. HyDE（Hypothetical Document Embeddings）
 
@@ -1200,7 +1200,7 @@ https://arxiv.org/abs/2212.10496
 
 核心思想：先用 LLM 生成假设性答案，再用答案的 Embedding 进行检索。
 
-![image](./images/21-building-better-knowledge-base/071.png)
+![image](images/21-building-better-knowledge-base/071.webp)
 
 原理：答案与答案的语义空间比问题与答案的语义空间更近，从而提升召回精度。
 
@@ -1208,7 +1208,7 @@ https://arxiv.org/abs/2212.10496
 
 生成多个查询变体，分别检索后合并去重：
 
-![image](./images/21-building-better-knowledge-base/072.png)
+![image](images/21-building-better-knowledge-base/072.webp)
 
 4. EAR（Expand, Rerank, and Retrieve）
 
@@ -1230,7 +1230,7 @@ https://arxiv.org/abs/2305.17080
 
 核心发现：贪婪解码往往选不到最佳查询扩展。EAR 框架：
 
-![image](./images/21-building-better-knowledge-base/073.png)
+![image](images/21-building-better-knowledge-base/073.webp)
 
 效果：
 
@@ -1240,7 +1240,7 @@ https://arxiv.org/abs/2305.17080
 
 ▐检索策略选型建议
 
-![image](./images/21-building-better-knowledge-base/074.png)
+![image](images/21-building-better-knowledge-base/074.webp)
 
 ▐实践建议
 
@@ -1248,7 +1248,7 @@ https://arxiv.org/abs/2305.17080
 
 选择合适的 Embedding 模型：根据语言、文档长度、资源限制选型
 
-调优融合权重：在验证集上调整 RRF 的![image](./images/21-building-better-knowledge-base/075.png)或加权系数![image](./images/21-building-better-knowledge-base/076.png)
+调优融合权重：在验证集上调整 RRF 的![image](images/21-building-better-knowledge-base/075.webp)或加权系数![image](images/21-building-better-knowledge-base/076.webp)
 
 引入查询增强：HyDE 和 Multi-Query 对开放式问题效果显著
 
@@ -1256,13 +1256,13 @@ https://arxiv.org/abs/2305.17080
 
 索引类型选择：HNSW 在精度和性能间取得良好平衡
 
-## ![image](./images/21-building-better-knowledge-base/077.png)如何获得更好的 Rerank？
+## ![image](images/21-building-better-knowledge-base/077.webp)如何获得更好的 Rerank？
 
-![image](./images/21-building-better-knowledge-base/077.png)如何获得更好的 Rerank？
+![image](images/21-building-better-knowledge-base/077.webp)如何获得更好的 Rerank？
 
-![image](./images/21-building-better-knowledge-base/077.png)如何获得更好的 Rerank？
+![image](images/21-building-better-knowledge-base/077.webp)如何获得更好的 Rerank？
 
-![image](./images/21-building-better-knowledge-base/077.png)
+![image](images/21-building-better-knowledge-base/077.webp)
 
 如何获得更好的 Rerank？
 
@@ -1280,9 +1280,9 @@ https://arxiv.org/abs/2305.17080
 
 Reranker采用交叉编码器（Cross-Encoder）架构：将 Query 和 Document 拼接后联合编码，能够捕捉更细粒度的语义交互，显著提升排序质量。
 
-![image](./images/21-building-better-knowledge-base/078.png)
+![image](images/21-building-better-knowledge-base/078.webp)
 
-典型流程：向量检索召回 Top-100 → Reranker 精排 → 取 Top-5 送入 LLM▐Rerank 模型选型对比主流 Reranker 模型![image](./images/21-building-better-knowledge-base/079.png)选型建议![image](./images/21-building-better-knowledge-base/080.png)▐Rerank 实践要点
+典型流程：向量检索召回 Top-100 → Reranker 精排 → 取 Top-5 送入 LLM▐Rerank 模型选型对比主流 Reranker 模型![image](images/21-building-better-knowledge-base/079.webp)选型建议![image](images/21-building-better-knowledge-base/080.webp)▐Rerank 实践要点
 
 典型流程：向量检索召回 Top-100 → Reranker 精排 → 取 Top-5 送入 LLM
 
@@ -1314,7 +1314,7 @@ Reranker采用交叉编码器（Cross-Encoder）架构：将 Query 和 Document 
 
 #### 主流 Reranker 模型
 
-![image](./images/21-building-better-knowledge-base/079.png)
+![image](images/21-building-better-knowledge-base/079.webp)
 
 选型建议
 
@@ -1332,7 +1332,7 @@ Reranker采用交叉编码器（Cross-Encoder）架构：将 Query 和 Document 
 
 #### 选型建议
 
-![image](./images/21-building-better-knowledge-base/080.png)
+![image](images/21-building-better-knowledge-base/080.webp)
 
 ▐Rerank 实践要点
 
@@ -1382,7 +1382,7 @@ K 太大：Rerank 延迟增加，Cross-Encoder 是 O(K) 复杂度
 
 Reranker 输出的是相关性分数，可以设置阈值过滤低质量结果：
 
-![image](./images/21-building-better-knowledge-base/081.png)
+![image](images/21-building-better-knowledge-base/081.webp)
 
 多路召回 + RRF 融合
 
@@ -1398,19 +1398,19 @@ Reranker 输出的是相关性分数，可以设置阈值过滤低质量结果�
 
 当使用混合检索（BM25 + Dense）时，可以用Reciprocal Rank Fusion (RRF)融合排名，再送入 Reranker：
 
-![image](./images/21-building-better-knowledge-base/082.png)
+![image](images/21-building-better-knowledge-base/082.webp)
 
-其中![image](./images/21-building-better-knowledge-base/083.png)是文档![image](./images/21-building-better-knowledge-base/084.png)在各路召回中的排名，![image](./images/21-building-better-knowledge-base/085.png)通常取 60。
+其中![image](images/21-building-better-knowledge-base/083.webp)是文档![image](images/21-building-better-knowledge-base/084.webp)在各路召回中的排名，![image](images/21-building-better-knowledge-base/085.webp)通常取 60。
 
-![image](./images/21-building-better-knowledge-base/086.png)总结
+![image](images/21-building-better-knowledge-base/086.webp)总结
 
-## ![image](./images/21-building-better-knowledge-base/086.png)总结
+## ![image](images/21-building-better-knowledge-base/086.webp)总结
 
-![image](./images/21-building-better-knowledge-base/086.png)总结
+![image](images/21-building-better-knowledge-base/086.webp)总结
 
-![image](./images/21-building-better-knowledge-base/086.png)总结
+![image](images/21-building-better-knowledge-base/086.webp)总结
 
-![image](./images/21-building-better-knowledge-base/086.png)
+![image](images/21-building-better-knowledge-base/086.webp)
 
 总结
 
@@ -1418,7 +1418,7 @@ Reranker 输出的是相关性分数，可以设置阈值过滤低质量结果�
 
 构建一个"好"的知识库，需要在多个环节进行系统性优化：
 
-![image](./images/21-building-better-knowledge-base/087.png)
+![image](images/21-building-better-knowledge-base/087.webp)
 
 核心原则：
 

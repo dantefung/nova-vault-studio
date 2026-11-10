@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "壹新 (@Missle8z)"
 url: "https://x.com/Missle8z/status/2115993719723979172"
-coverImage: "../images/missle8z-ai-life-advice-image-card-monetization/001.jpg"
+coverImage: "../images/missle8z-ai-life-advice-image-card-monetization/001.webp"
 ---
 
 # 壹新（@Missle8z）：发 4 篇笔记爆了 2 万赞——AI 走心人生建议图文全平台分发与变现
@@ -21,11 +21,11 @@ AI 做好之后，既能发小红书、小绿书做贴图号，抖音图文也�
 
 后面路子还挺宽，可以出对应的技能课、收徒变现。
 
-![](../images/missle8z-ai-life-advice-image-card-monetization/001.jpg)
+![](../images/missle8z-ai-life-advice-image-card-monetization/001.webp)
 
-![](../images/missle8z-ai-life-advice-image-card-monetization/002.jpg)
+![](../images/missle8z-ai-life-advice-image-card-monetization/002.webp)
 
-![](../images/missle8z-ai-life-advice-image-card-monetization/003.jpg)
+![](../images/missle8z-ai-life-advice-image-card-monetization/003.webp)
 
 ## 相关页面
 

@@ -17,7 +17,7 @@ coverImage: "../images/longhai-uncle-bob-ub-mode-skill-review/001.jpg"
 
 当年我自己坐在工位上写代码的时候，曾一页一页认真研读过 Uncle Bob 的这本《代码整洁之道》。看到他在 2026 年 10 月 26 日（北京时间 00:04）于 GitHub 公开发布了一个名为 [ub-mode](https://github.com/unclebob/ub-mode) 的新项目，我专门从书架上把这本泛黄的旧书重新翻了出来，内页里还留着当年自己逐字逐句画线做下的笔记。截至 10 月 27 日，这个仓库创建不到两天已经获得了超过 1200 个 Star。
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/002.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/002.webp)
 
 近二十年过去，这位从业五十多年的软件工程师最新发布的 ub-mode，核心依然承袭了他在书中提倡的工程思想：先让功能可用（First Make it Work），再回头让代码整洁（Then Make it Right）。不同的是，这次的规范不再面向人类工程师，而是转化为面向 AI 编程 Agent 的约束规则。整个项目构建起了一个完整的三层治理结构：首先是在实现功能阶段建立数据模型与 TDD 约束，杜绝状态混乱；随后在重构阶段引入三大命令行工具设立量化门禁；最后在工作区中为 Agent 制定严谨的工程操作习惯。
 
@@ -27,7 +27,7 @@ coverImage: "../images/longhai-uncle-bob-ub-mode-skill-review/001.jpg"
 
 虽然离开写代码的岗位有几个年头了，但我依然对了解 Uncle Bob 为各类 Agent 编写的《代码整洁之道》饶有兴致。在“[人人都能做产品](https://x.com/longhaiqwe123/status/2113192539679510927)”的今天，大模型让“人人都能生成代码”成为现实；但在实际构建产品时，代码能跑通并不等同于代码质量合格。随着后续功能逐步叠加，代码往往容易出现结构混乱与回归缺陷。在大模型时代，“人人都能写出好代码”的关键，在于为 AI 建立起明确的工程规则与验证机制。本文在多款 Agent 工具的配合下，对照 ub-mode 及四个配套仓库的文档与源码，不仅完整拆解 Skill 中为 Agent 立下的工程规则、检查原理与落地边界，还在真实的开源项目中将这套工具链逐一实测，记录下具体的运行表现，并根据检测结果对开源项目的代码进行了完善。
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/003.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/003.webp)
 
 如果你是专业程序员，不管是为公司的线上系统编写代码，还是以独立开发者（OPC）身份为客户交付代码，我建议仔细阅读详细的 Skill 拆解。如果你并非专业程序员，但也在为自己或少数人交付产品，我建议直接跳到项目实测部分，了解如何使用这个 Skill 提升项目中代码的健壮性与可维护性。
 
@@ -133,7 +133,7 @@ CRAP = CC² × (1 − coverage)³ + CC
 
 例如在实际项目上运行 crapper 时，终端输出了函数级别的圈复杂度与 CRAP 评分表格：
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/004.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/004.webp)
 
 ### 检查二：Dryer（消除结构相似度 0.8 以上的代码块）
 
@@ -167,7 +167,7 @@ DUPLICATE score=0.89
 
 在 ub-mode 的规则中，明确要求运行 dryer 工具消除所有相似度在 0.8 及以上的结构性重复代码。在实际项目上运行 dryer --threshold 0.8 时，终端输出了如下的重复结构定位报告：
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/005.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/005.webp)
 
 ### 检查三：Mutator（用变异测试检查存活变异体与死代码）
 
@@ -191,7 +191,7 @@ DUPLICATE score=0.89
 
 紧随其后的重构规范（Refactoring）进一步明确：重构前必须先通过完备的自动化测试固化系统现有的外部行为，随后调整内部实现结构，并在重构完成后验证外部行为未发生任何非预期改变。在实际项目上运行 mutator 时，终端输出了如下的变异拦截报告：
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/006.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/006.webp)
 
 ### 配套可视化：UML-Viewer（架构健康度与依赖方向视图）
 
@@ -199,7 +199,7 @@ DUPLICATE score=0.89
 
 在 uml-viewer 的视图里，每个包和类卡片的填充颜色由该模块的 CRAP 评分（均值加标准差 μ + σ）和变异测试消除率共同决定，两者各换算成 1 到 10 级（10 级最好）后再取平均；如果某个模块缺失数据，则按 1 级显示为红色。如果用户在配置里写了 :levels 划分架构层级，从内层指向外层的反向依赖箭头会被画成红色（选中时加粗）；不配置 :levels 则不会自动标红。点击类卡片上的方法名，会打开源码并定位到该函数的定义处。启动后，桌面弹出的实时架构全景窗口如下图所示：
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/007.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/007.webp)
 
 ## 第三阶段：工程实践（Follow Practice）
 
@@ -228,7 +228,7 @@ https://github.com/unclebob/ub-mode 请安装这个 skill
 
 帮我安装好需要的工具
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/008.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/008.webp)
 
 Agent 会自动在项目根目录下创建 tools/ 目录，将 Uncle Bob 仓库中的 dryer、crapper、mutator 以及可视化的 uml-viewer 下载并克隆至相邻目录。这里需要注意几个关键调用参数：crapper 默认阈值为 30，若要严格遵守 < 10 的规则线，调用时须传入 --threshold 9.99；dryer 默认阈值为 0.95，建议指定为规则要求的 --threshold 0.8；mutator 则须通过 --test-command 绑定项目的单测命令（例如 Vitest），避免盲目全量扫描。
 
@@ -236,21 +236,21 @@ Agent 会自动在项目根目录下创建 tools/ 目录，将 Uncle Bob 仓库�
 
 接下来我要怎么在项目中应用这个 skill 来优化项目代码？
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/009.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/009.webp)
 
 Agent 会根据项目现状给出具体的优化路线，并依次调用底层工具链对核心代码展开扫描，排查出存在结构重复、圈复杂度超标或缺乏测试覆盖的模块。
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/010.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/010.webp)
 
 4）向 Agent 下达带约束条件的重构指令，完成从检测到修复的闭环：在工具扫描出圈复杂度超标或代码重复后，Agent 会提出针对性建议。在实测场景中，Agent 建议先把测试用例补充完整。随后询问 Agent 按照 Skill 该如何做：
 
 按照 skill 的规则，接下来要做什么
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/011.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/011.webp)
 
 让 Agent 依照规则继续推进重构，会得到逐步修复的代码与测试结果：
 
-![](../images/longhai-uncle-bob-ub-mode-skill-review/012.jpg)
+![](../images/longhai-uncle-bob-ub-mode-skill-review/012.webp)
 
 通过让 Agent 依照规则逐步排查与重构，存量项目完成了从问题定位到质量收敛的闭环。在实测中，针对工具排查出的薄弱环节，治理过程分两步落实：首先针对 mutator 扫出的存活变异体（主要集中在边界判断如 >= 与 >、空值处理等位置），在单测套件中补齐了针对临界数值的业务断言；随后针对 crapper 报告中圈复杂度偏高的单体函数进行了合理拆分，将杂糅的条件分支抽离为独立的纯函数。在完成上述改动后，再次调用度量工具复检，函数评分全部降到了 CRAP 10 以下的安全区间，存活变异体全部被测试用例精准拦截阻断，mutator 进程返回了正常的零退出码。至此，代码在保持原有外部行为一致的前提下，完成了可度量、可验证的质量优化。
 

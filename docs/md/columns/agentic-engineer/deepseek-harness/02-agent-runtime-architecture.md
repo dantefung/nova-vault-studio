@@ -16,7 +16,7 @@ source: "微信公众号"
 
 模型适配器是插件，工具注册表是插件，会话日志是插件，**连 Agent Loop 本身都是插件**。这不是「帮你配好手脚」，而是「连骨架也是插件」。
 
-![无特权核心架构](../../../wiki/images/deepseek-harness-agent-runtime-architecture/001.png)
+![无特权核心架构](../../../wiki/images/deepseek-harness-agent-runtime-architecture/001.webp)
 
 ## Session Log：append-only 事件流
 

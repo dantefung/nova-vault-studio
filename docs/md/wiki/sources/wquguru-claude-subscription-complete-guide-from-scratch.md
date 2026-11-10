@@ -27,7 +27,7 @@ coverImage: "../images/wquguru-claude-subscription-complete-guide-from-scratch/0
 
 风险提示：1. 本文虽然经过测试验证，但不保证所有人都能正常 work；2. 整个流程需要一些额外开支（申请信用卡、以及落地 IP）和动手能力，并非 0 成本 0 门槛。
 
-![](../images/wquguru-claude-subscription-complete-guide-from-scratch/002.png)
+![](../images/wquguru-claude-subscription-complete-guide-from-scratch/002.webp)
 
 引用推文：WquGuru (@wquguru)
 
@@ -134,7 +134,7 @@ IP 验证正常后：
 4. 开始使用 Claude Code，注意先删除原来的 ~/.claude 和 ~/.claude.json，不要和别的号混用，轻度用 3 到 15 天
 5. 之后按正常用量用，从 Pro 用起，稳定后再考虑升级，用量在 50% 到 80% 之间，不要打满
 
-![](../images/wquguru-claude-subscription-complete-guide-from-scratch/003.jpg)
+![](../images/wquguru-claude-subscription-complete-guide-from-scratch/003.webp)
 
 ## 彩蛋：五大隔离
 

@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "Jerry Xiong (@Jerry_Galaxy)"
 url: "https://x.com/Jerry_Galaxy/status/2119702675738542272"
-coverImage: "../images/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot/001.jpg"
+coverImage: "../images/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot/001.webp"
 ---
 
 # Jerry Xiong（@Jerry_Galaxy）：OpenMausBot + Magpie 实现无限 Token 与多 Bot 并行且不被封号
@@ -26,9 +26,9 @@ coverImage: "../images/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot
 4. 如果你还有 opencode、ollama、cursor、openAI 等订阅，甚至本地模型，都可以配置到 magpie，这样你能有更多模型池，可以做到每个任务使用完全不同模型完成。
    大家快去试试吧。
 
-![](../images/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot/001.jpg)
+![](../images/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot/001.webp)
 
-![](../images/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot/002.jpg)
+![](../images/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot/002.webp)
 
 ## 相关页面
 

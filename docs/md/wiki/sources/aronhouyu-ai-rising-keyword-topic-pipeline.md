@@ -55,7 +55,7 @@ coverImage: "../images/aronhouyu-ai-rising-keyword-topic-pipeline/001.jpg"
 
 ## 一、机会发现的核心指标与底层数据捕获
 
-![](../images/aronhouyu-ai-rising-keyword-topic-pipeline/002.jpg)
+![](../images/aronhouyu-ai-rising-keyword-topic-pipeline/002.webp)
 
 要让机器自动替我们嗅探流量机会，首先要明确到底什么样的数据才算作“真机会”。
 
@@ -94,7 +94,7 @@ coverImage: "../images/aronhouyu-ai-rising-keyword-topic-pipeline/001.jpg"
 
 ## 二、噪音过滤与高价值商业意图识别
 
-![](../images/aronhouyu-ai-rising-keyword-topic-pipeline/003.jpg)
+![](../images/aronhouyu-ai-rising-keyword-topic-pipeline/003.webp)
 
 如果只是无脑抓取所有飙升词，系统不出一天就会被巨量的垃圾信息淹没。
 
@@ -197,7 +197,7 @@ summary 的输入数等于 keep、drop、review 数量之和，cluster_count 等
 
 ## 三、接入大模型实现选题自动化解构与切角裂变
 
-![](../images/aronhouyu-ai-rising-keyword-topic-pipeline/004.jpg)
+![](../images/aronhouyu-ai-rising-keyword-topic-pipeline/004.webp)
 
 当系统筛选出一个确定处于上升期、且具备商业意图的优质词根后，
 
@@ -308,7 +308,7 @@ recommended_angle 包含 angle_type 和 reason，从 ready 卡片中结合业务
 
 ## 四、端到端自动化架构落地指南
 
-![](../images/aronhouyu-ai-rising-keyword-topic-pipeline/005.jpg)
+![](../images/aronhouyu-ai-rising-keyword-topic-pipeline/005.webp)
 
 要把上述逻辑串联成一套不需要人工干预的自动化运转系统，单人即可在半天内搭建完毕。
 

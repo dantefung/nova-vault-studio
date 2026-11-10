@@ -4,7 +4,7 @@ date: "2026-10-29"
 source: "X/Twitter"
 author: "安好 (@anhao_ai)"
 url: "https://x.com/anhao_ai/status/2115070903386296398"
-coverImage: "../images/anhao-1439-ai-beauty-poses-database/001.jpg"
+coverImage: "../images/anhao-1439-ai-beauty-poses-database/001.webp"
 ---
 
 # 安好：1439 个 AI 美女姿势参考图库开源（中文版，可商用可二创）
@@ -39,7 +39,7 @@ AI 美女「ポージング」データベース無料公開！
 
 引用元の記事からお受け取り下さい https://t.co/bdXOVNtyua
 
-![](../images/anhao-1439-ai-beauty-poses-database/001.jpg)
+![](../images/anhao-1439-ai-beauty-poses-database/001.webp)
 
 ## 相关页面
 

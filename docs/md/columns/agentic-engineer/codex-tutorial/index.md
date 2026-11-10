@@ -53,7 +53,7 @@ OpenAI最新大脑
 
 🎬 **Sor**a : OpenAI公司创造的视频模型 (于2026 年 4 月 26 日已经下线)
 
-![](./images/codex-tutorial/codex-tutorial-img1.jpg)
+![](images/codex-tutorial/codex-tutorial-img1.webp)
 
 **专有名词：**
 
@@ -97,7 +97,7 @@ A2A: Agent2Agent / Agent-to-Agent AI 与AI 沟通协议 ，让一个 Agent 和�
 
 🤝 A2A → 连接其他 Agent
 
-![](./images/codex-tutorial/codex-tutorial-img2.jpg)
+![](images/codex-tutorial/codex-tutorial-img2.webp)
 
 网站：
 
@@ -113,7 +113,7 @@ Openai 学院：[https://openai.com/academy/](https://openai.com/academy/)
 
 二、注册账号·下载软件
 
-![](./images/codex-tutorial/codex-tutorial-img3.jpg)
+![](images/codex-tutorial/codex-tutorial-img3.webp)
 
 **环境要求：**
 
@@ -163,15 +163,15 @@ curl -fsSL https://chatgpt.com/codex/install.sh | sh
 
 聊天模式: 纯文本或语音沟通
 
-![](./images/codex-tutorial/codex-tutorial-img4.jpg)
+![](images/codex-tutorial/codex-tutorial-img4.webp)
 
 工作模式：有AI 生成行为，邮件汇总，图片生成，定时任务，搭建网站
 
-![](./images/codex-tutorial/codex-tutorial-img5.jpg)
+![](images/codex-tutorial/codex-tutorial-img5.webp)
 
 Codex 模式：默认代码项目模式，默认项目区。视频创作、代码相关都选用这个模式
 
-![](./images/codex-tutorial/codex-tutorial-img6.jpg)
+![](images/codex-tutorial/codex-tutorial-img6.webp)
 
 工作模式与Codex模式功能有重叠，简单任务用工作模式 复杂的用Codex模式
 
@@ -179,7 +179,7 @@ Codex 模式：默认代码项目模式，默认项目区。视频创作、代�
 
 用户左下角设置功能，优先看常规、个性化、连接三个模块！
 
-![](./images/codex-tutorial/codex-tutorial-img7.jpg)
+![](images/codex-tutorial/codex-tutorial-img7.webp)
 
 个性化设置可以让AI 回复工作更符合你的需求！ 参考我的个性化设置，实际使用 Codex 项目目录，需要有调整为你自己的。
 
@@ -250,7 +250,7 @@ Codex 模式：默认代码项目模式，默认项目区。视频创作、代�
 
 新手开始接触，要放弃古法编程知识学习想法，手动编辑代码想法，只有项目足够复杂，业务足够复杂才需要更多软件知识或手动干预！刚开始把codex当玩具就好，codex 只要会说话会打字就可以了！
 
-![](./images/codex-tutorial/codex-tutorial-img8.jpg)
+![](images/codex-tutorial/codex-tutorial-img8.webp)
 
 记住常用命令使用就好，循序渐进，不是刚使用就要把全部命令用上
 
@@ -336,7 +336,7 @@ Agent 运行时按 Tab：   排队一条后续要求，等当前任务完成后�
 
 六、问题答疑·补充说明
 
-![](./images/codex-tutorial/codex-tutorial-img9.jpg)
+![](images/codex-tutorial/codex-tutorial-img9.webp)
 
 **Skill、MCP、插件有什么区别？**
 

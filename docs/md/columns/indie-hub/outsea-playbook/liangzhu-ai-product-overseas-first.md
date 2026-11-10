@@ -31,15 +31,15 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 公网上的真实用户根本不在乎你的代码写得有多高深，他们只在乎当下正在爆发的需求，有没有一个页面能立刻解决他的痛点。
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/001.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/001.webp)
 
 2026 年 3 月，我加入出海圈子仅两天半，甚至连那个英文词是什么意思都没搞懂，凭着一个 2 小时用 AI 搓出来的简陋静态页，24 小时干下了 26 万曝光、10 万真实海外点击。
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/002.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/002.webp)
 
 单日广告进账 200 美元，当月2200美金。
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/003.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/003.webp)
 
 这一篇，不讲虚头巴脑的宏大叙事，全是我自己经历的真实干货。带你手把手走一遍出海全流程：从 Trends 抓风口到二次挖词 -> 搜词知意与扒竞品 -> 域名三大打法与 5 刀低成本基建 -> 外链到底怎么堆 -> 中前期四大赚钱方向与避坑心得。
 
@@ -68,7 +68,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 日期建议选择过去一周，不要只看大盘的热搜新闻，去看热度上升的查询。
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/004.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/004.webp)
 
 重点盯那些突然从第二页悄悄爬上来的生词。
 
@@ -84,7 +84,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 如果你英语没那么好，或者觉得网页一页页看很慢、想批量导出数据，我推荐：
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/005.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/005.webp)
 
 1. Chrome 插件利器：TrendsBar： 装上 TrendsBar 插件，可以直接把 Trends 页面上的飙升词、热度数据一键批量下载到本地 Excel。一目了然，完全不受语言障碍影响。
 2. 二次搜索（顺藤摸瓜）： 下载完表格千万别停下！把第一批导出来的热词，当成新的词根，再扔进 Trends 搜一次！ 这样你就能顺藤摸瓜，挖出更深层、更垂直、竞争极小但意图极强的“二级长尾词”。
@@ -103,7 +103,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 像ai tools、crypto这种超大词叫做“泛词”，权重全在巨头老站手里，新手碰一个死一个。优先抓两类高转化意图：小游戏相关、在线实用小工具相关。敏锐蹭词，精准截流：比如前段时间大火的jev或jav衍生词，随手一搜，网上已经有海量站点围绕这些词在疯狂收割海外流量。
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/006.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/006.webp)
 
 出海初期在没有品牌心智时，不要羞于蹭词，能截到精准流量就是硬道理！
 
@@ -115,7 +115,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 2. 官方供给极弱、甚至动作迟钝：我当时发现对应这个词的官方网站才注册不到 7 天，权重极低，甚至连主流域名（.com）都没抢占。
 3. 域名主流后缀大量闲置：打开query.domains查一圈，除了官方那个奇怪的小众后缀，主流后缀居然都还空着！
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/007.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/007.webp)
 
 这就是供需严重脱节的真空窗口！海量老外在狂搜，全网却没有一个正经网页给他们交付。这时候必须分秒必争抢下生态位！
 
@@ -146,7 +146,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 - [行业] + calculator（计算器：比如 cagr calculator、macro calculator）
 - [大牌工具] + alternative（竞品替代：比如 notion alternative、canva alternative）
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/008.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/008.webp)
 
 小游戏/娱乐类词根组合（可以在 Roblox 上去找灵感）：
 
@@ -155,7 +155,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 - [游戏名] + tools / wiki
 - [主题] + simulator（模拟器类）
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/009.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/009.webp)
 
 注：小游戏类词往往搜索量极大，通常通过挂广告展示来快速变现。
 
@@ -166,7 +166,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 很多人出海死在“准备工作”上：选框架、搭脚手架、配数据库、挑设计系统……等你折腾完两个月，风口早他妈凉透了。
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/010.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/010.webp)
 
 当热度按小时狂飙时，你的窗口只有半天！
 
@@ -206,7 +206,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 AI 2 分钟写好代码，你直接推到 Cloudflare 部署，秒完成全站流量监控！代码可以糙，数据监控一秒都不能缺！
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/011.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/011.webp)
 
 ## 三、流量的死穴：外链的本质是“投票”，狂堆外链拉开差距！
 
@@ -259,7 +259,7 @@ Google 只会认谁拿到的投票多！
 
 做精细化外链，最难的从来不是技巧，而是心态和坚持。 特别是针对处在初期阶段的朋友，你会陷入这种周期律：不停地兴奋 -> 疯狂坚持 -> 几天看不到效果 -> 失落、怀疑、恐惧 -> 偶尔来点流量再次兴奋……
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/012.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/012.webp)
 
 在这个磨人过程中，一定要保持极好的心态。哥飞总说过一句话：当你把这个网站做到你认为合格之后，做好它的外链建设，然后把它忘掉，隔五六个月再去看！
 
@@ -269,7 +269,7 @@ Google 只会认谁拿到的投票多！
 
 做网站出海，对于中前期的小伙伴来说，到底有哪些具体方向能跑通变现？
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/013.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/013.webp)
 
 总结下来主要有四类：
 
@@ -291,7 +291,7 @@ Google 只会认谁拿到的投票多！
 
 现状与思考：这个方向需要更深度的思考与产品壁垒。我目前也正在全力重构和深耕我的AI 工具站，中间踩了极其多的坑，但这也是真正能赚到持续大钱的资产。
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/014.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/014.webp)
 
 4. 代充站（中间商赚差价，公网高爆方向）
 
@@ -299,7 +299,7 @@ Google 只会认谁拿到的投票多！
 
 模式：现在海外有很多成熟的开源代充网站系统，你只需要找到可靠的上游批发供应商，搭建好网站获取真实用户，帮他们在你的网站下单或代操作，纯赚差价，流水极大。
 
-![](../../../wiki/images/liangzhu-ai-product-overseas-first/015.jpg)
+![](../../../wiki/images/liangzhu-ai-product-overseas-first/015.webp)
 
 ## 五、除了做网站，出海还有哪些坑？写给新手的大实话
 

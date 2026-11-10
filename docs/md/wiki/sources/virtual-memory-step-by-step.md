@@ -24,7 +24,7 @@ url: "https://mp.weixin.qq.com/s/M-1G2TL9V8bTETGZTVPdXw?from=singlemessage"
 
 但程序 A 在编译时已经把地址写死了。A 以为自己从地址 0 开始，代码里到处都是"去地址 500 取数据""跳到地址 200 执行"。可操作系统把它加载到 4000 以后，地址 500 实际上是 B 的地盘——A 一读，读出来的是 B 的数据，直接崩溃，甚至把 B 的数据篡改掉。
 
-![多个程序直接操作物理内存的问题](../images/virtual-memory-step-by-step/001.jpg)
+![多个程序直接操作物理内存的问题](../images/virtual-memory-step-by-step/001.webp)
 
 这还只是两个程序。程序一多，内存管理就变成噩梦。计算机科学家们意识到，根子上的问题是：**程序不应该直接接触物理地址。**
 
@@ -52,7 +52,7 @@ url: "https://mp.weixin.qq.com/s/M-1G2TL9V8bTETGZTVPdXw?from=singlemessage"
 
 程序 A 用的地址从 0 开始，程序 B 用的地址也从 0 开始——互不干扰，因为都是"假"的地址，背后映射到不同的物理内存。就像两个人都叫"我家在 1 号"，一个在北京，一个在上海，实际地址完全不同。
 
-![虚拟内存制造独占假象](../images/virtual-memory-step-by-step/002.png)
+![虚拟内存制造独占假象](../images/virtual-memory-step-by-step/002.webp)
 
 这个"翻译"工作由硬件上专门的单元来做，叫 **MMU（Memory Management Unit，内存管理单元）**。它内置在 CPU 里，速度极快，每次内存访问都会过一遍。
 
@@ -62,7 +62,7 @@ url: "https://mp.weixin.qq.com/s/M-1G2TL9V8bTETGZTVPdXw?from=singlemessage"
 
 这张映射表叫**页表（Page Table）**，存在内存里，每个进程有自己的一张。
 
-![分页与页表](../images/virtual-memory-step-by-step/003.png)
+![分页与页表](../images/virtual-memory-step-by-step/003.webp)
 
 分页解决了几个大问题：
 
@@ -79,7 +79,7 @@ url: "https://mp.weixin.qq.com/s/M-1G2TL9V8bTETGZTVPdXw?from=singlemessage"
 3. 更新页表，记录新的映射
 4. 重新执行刚才那条指令，这次命中了，正常运行
 
-![缺页中断处理流程](../images/virtual-memory-step-by-step/004.png)
+![缺页中断处理流程](../images/virtual-memory-step-by-step/004.webp)
 
 最妙的是——整个过程对程序完全透明。程序不知道自己等了一下、数据是从磁盘来的，它只看到"访问了一个地址，拿到了数据"。
 
@@ -93,7 +93,7 @@ url: "https://mp.weixin.qq.com/s/M-1G2TL9V8bTETGZTVPdXw?from=singlemessage"
 
 ## 第九步：虚拟内存带来的三大好处
 
-![虚拟内存三大好处](../images/virtual-memory-step-by-step/005.png)
+![虚拟内存三大好处](../images/virtual-memory-step-by-step/005.webp)
 
 **① 隔离保护**
 

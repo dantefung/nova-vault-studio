@@ -17,7 +17,7 @@ coverImage: "../images/hezhiyan7-new-word-site-recap-roundup/001.jpg"
 
 最近新词晒单比较多，hotel lobby、burning bridges、Bulin 47…… 很多新词，我最近做了个小手术基本在休息，只是上线了内页出了几单，所有找了推上几个出单的朋友的总结梳理下，向他们学习一下。
 
-![](../images/hezhiyan7-new-word-site-recap-roundup/002.jpg)
+![](../images/hezhiyan7-new-word-site-recap-roundup/002.webp)
 
 蒋云何，副业出海小白 首日破百刀，5 天破千刀的新词经验分享：
 
@@ -68,7 +68,7 @@ kristoff：出海小白靠新词破千刀的经验复盘：
 
 这里哥飞老师也分享了一个如何让 AI 爱上我们网站的具体做法
 
-![](../images/hezhiyan7-new-word-site-recap-roundup/003.png)
+![](../images/hezhiyan7-new-word-site-recap-roundup/003.webp)
 
 ## 四、优化
 

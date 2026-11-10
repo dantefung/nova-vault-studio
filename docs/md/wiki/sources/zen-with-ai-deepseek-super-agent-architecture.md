@@ -4,7 +4,7 @@ date: "2026-11-01"
 source: "X/Twitter"
 author: "山景城小路 (@Zen_with_AI)"
 url: "https://x.com/Zen_with_AI/status/2116950592342114706"
-coverImage: "../images/zen-with-ai-deepseek-super-agent-architecture/001.jpg"
+coverImage: "../images/zen-with-ai-deepseek-super-agent-architecture/001.webp"
 ---
 
 # 山景城小路（@Zen_with_AI）：细读 DeepSeek Super-agent 架构长文——把计算机经典机制搬进 Agent 系统
@@ -67,7 +67,7 @@ Router 什么时候拆、拆多细。 拆得越细吞吐越高，共享的上下
 
 简单总结一下就是，作者认为多任务 Agent 的瓶颈是人的注意力，所以让 Router 负责连续，让 Worker 负责并行，让 Trigger 把 Agent 从等指令变成看环境，再用云端状态加外部 Watchdog 保证它一直在线。实验显示，在他们的模拟负载下，这套设计把 p95 完成时间压到了 15.7 分钟，代价是 2 到 4 倍的 token。长期记忆、Router 拆分和安全，作者说都还没解决。
 
-![](../images/zen-with-ai-deepseek-super-agent-architecture/001.jpg)
+![](../images/zen-with-ai-deepseek-super-agent-architecture/001.webp)
 
 ## 相关页面
 

@@ -12,15 +12,15 @@ source: "微信公众号"
 
 ## **发言稿正文**
 
-![](../images/agents-foundations-23.png)
+![](../images/agents-foundations-23.webp)
 
 Hello, 大家好，我是云中江树，谢谢占总 (占总) 为大家提供这么好的一个交流机会，很高兴今天能为带来提示词方面的分享。
 
-![](../images/agents-foundations-12.png)
+![](../images/agents-foundations-12.webp)
 
 今天的分享分为四个方面内容，自我介绍，提示词基础， LangGPT 结构化提示词，最后是一些实践和思考。
 
-![](../images/agents-foundations-21.png)
+![](../images/agents-foundations-21.webp)
 
 首先向大家自我介绍一下，我本名是刘远忠，云中江树是我的笔名。大家可以称呼我为江树，简单记忆——可以理解为江边的树。我本科毕业于电子科大，研究生毕业于武大， AI 相关专业硕士。今年毕业后，成为了一名自动驾驶算法工程师。我是一名科幻迷，曾经获得 2021年全国科普科幻之星荣誉。同时，我也是一个玩 AI 的爱好者。
 
@@ -28,7 +28,7 @@ Hello, 大家好，我是云中江树，谢谢占总 (占总) 为大家提供这
 
 以此为契机，我认识了许多对 AI 抱有巨大热情的朋友，其中就包括 Broke 框架作者陈财猫。**为了能更好的专注于探索（AI）的无限可能，激发和支持更多的人创新创造，我和陈财猫联合创建了 EmbraceAGI 社区，欢迎大家关注支持！**
 
-![](../images/agents-foundations-22.png)
+![](../images/agents-foundations-22.webp)
 
 我21年就开始提示词工程的学习，为什么会研究提示工程呢？
 
@@ -36,11 +36,11 @@ Hello, 大家好，我是云中江树，谢谢占总 (占总) 为大家提供这
 
 这时候 prompt tuning 出现了，**不用训练模型，只需要调整提示词即可，由于模型参数不会更新，所以能充分利用预训练模型的泛化性**，因此投入了学习。在阅读 prompt tuning 论文时候，同时也了解 prompt 的许多概念，如变量，模板，结构化等，为 LangGPT 提出打下了基础。
 
-![](../images/agents-foundations-05.png)
+![](../images/agents-foundations-05.webp)
 
 随后 ChatGPT 横空出世，各种提示词技巧、框架开始大爆发。
 
-![](../images/agents-foundations-20.png)
+![](../images/agents-foundations-20.webp)
 
 首先是各种提示词技巧，这里是我总结的一些现有的方法。一共 7 个，仅供参考，有不正确的地方欢迎批评指正。关于各种提示词方法，网上的资料也很齐全，在此不再赘述。
 
@@ -48,23 +48,23 @@ Hello, 大家好，我是云中江树，谢谢占总 (占总) 为大家提供这
 
 **进行提示词写作时，以满足自己需求为第一要义，灵活选用技巧即可。**
 
-![](../images/agents-foundations-07.png)
+![](../images/agents-foundations-07.webp)
 
 随后出现了各种提示词框架，比如猫总的 BROKE 框架，对编写提示词有了更强的指导作用。猫总还写了提示词进阶这本书，受到了许多媒体的关注和报道，大家感兴趣可以买来看看，下面是猫总的微信，感兴趣可以添加好友交流。
 
-![](../images/agents-foundations-18.png)
+![](../images/agents-foundations-18.webp)
 
 再比如 CRISPE 框架，写出来的提示词大概是类似这样的一小段文本。
 
-![](../images/agents-foundations-13.png)
+![](../images/agents-foundations-13.webp)
 
 然而，**提示词的编写还是处于手工业阶段，依赖人去完成。想象一下未来 AGI 实现，agents 遍地的时候。我们必然要以工业的方式量产 agents，这也就意味着写 prompts 这件事情需要由手工业，变成现代的标准化、自动化流水线生产的事情。**
 
-![](../images/agents-foundations-06.png)
+![](../images/agents-foundations-06.webp)
 
 **那么怎么样以 AI native 的方式来做这件事情？**
 
-![](../images/agents-foundations-08.png)
+![](../images/agents-foundations-08.webp)
 
 考虑到当下的大模型几乎都是 Role-based 的模型。我想，既然人有自己的简历，我们也可以为 agents 定制一份简历。**Prompt 作为人操作机器的更高发展阶段的工具，可以借鉴结构化程序设计的方法，来设计结构化提示词，以实现提示词生产的标准化和专业化。**
 
@@ -82,13 +82,13 @@ Hello, 大家好，我是云中江树，谢谢占总 (占总) 为大家提供这
 
 **更重要的，封装了实践中最有效的提示词方法论确保质量。**
 
-![](../images/agents-foundations-09.png)
+![](../images/agents-foundations-09.webp)
 
 结构化方式促进了 markdown 格式提示词的流行，很多朋友**将结构化等同为 markdown 格式写作，这实际上是对我们的误解。**
 
 Markdown 确实很好用，我们可以看到 OpenAI 的系统预置词也采用同样方式编写，也是 LangGPT 提示词采用的主要格式。但实际上**结构化 != 格式化，可采用任何格式，实践中类似 json，xml 这类具有闭合结构的语法甚至性能更加稳定。**
 
-![](../images/agents-foundations-19.png)
+![](../images/agents-foundations-19.webp)
 
 更重要的方面是方法论封装融合，LangGPT 进一步将技巧和框架融合，形成高质量的模板。
 
@@ -96,13 +96,13 @@ Markdown 确实很好用，我们可以看到 OpenAI 的系统预置词也采用
 
 LangGPT 的这种模板的思想，方法论封装的思想影响了一大批提示词编写者，国内许多公司都直接或间接的应用着 LangGPT 的这种结构化范式。
 
-![](../images/agents-foundations-15.png)
+![](../images/agents-foundations-15.webp)
 
 许多朋友应用了结构化提示词之后，提示词质量得到了很大提升，但不知道结构化提示词的本质是什么？
 
 我这里借用一下刚哥的观点，**本质是方法论的封装。** 刚哥在结构化提示词方面也进行了很多创新创造，影响力很大，大家感兴趣可以关注，即刻 ID 为 李继刚。
 
-![](../images/agents-foundations-11.png)
+![](../images/agents-foundations-11.webp)
 
 解决了提示词标准化的问题，还有提示词生产自动化的问题。如何将纯手工的工作流转变为自动化的工作流？如何 AI Native 的完成这件事情？
 
@@ -112,7 +112,7 @@ LangGPT 的这种模板的思想，方法论封装的思想影响了一大批提
 
 **在 LangGPT 社群的朋友还编写了许多提示词工具使得我们的工具链更加完善，如提示词分析优化，格式转换等等，在此感谢以刚哥，盘盘，文豪等朋友为代表的群友们的开源分享，感谢为社区付出巨大努力的志愿者们。**
 
-![](../images/agents-foundations-02.png)
+![](../images/agents-foundations-02.webp)
 
 AIGCLINK 也出过一期介绍 LangGPT 使用的视频，在此感谢占总的认可支持，欢迎大家关注 AIGCLINK 。
 
@@ -122,23 +122,23 @@ AIGCLINK 也出过一期介绍 LangGPT 使用的视频，在此感谢占总的�
 
 **在此需要感谢以梁思、若凡为代表的社区一大批志愿者，内容分享者和所有支持我们社群的朋友，没有大家的支持，我们不可能取得今天的成绩，感谢大家！**
 
-![](../images/agents-foundations-14.png)
+![](../images/agents-foundations-14.webp)
 
 最后，和大家分享一些提示词相关的思考。
 
-![](../images/agents-foundations-17.png)
+![](../images/agents-foundations-17.webp)
 
 时间有限，我们简单谈谈结构化提示词的局限性，有许多朋友对结构化提示词提出了很多有益的反思，这是很好的。结构化模板通过方法论封装能够保证提示词的质量，但有时候也会成为枷锁。提升自己提示工程能力这件事，就像读书一样，先把书读厚，再读薄，提示词也是如此，先写长，再写短。
 
 人通过人的语言来操作AI ，操作机器，我认为是类似人类登上月球迈出的一步， 随着 AI 的进化，目前它还不完美，相信随着 AI 的进化，我们可以由人到神，对物质世界的控制做到言出法随，心随意动，我期待有生之年看到这一天的实现。
 
-![](../images/agents-foundations-10.png)
+![](../images/agents-foundations-10.webp)
 
 **我认为通用人工智能是实现这一愿景的现实基础。这是一个激动人心的时代，2016年我本科入学时，AlphaGo 击败李世石，在专用领域上已经无人能敌，2022 年我硕士毕业之际，ChatGPT 横空出世，在通用领域上取得了巨大的成功。只短短六年，AI 的发展令我们震撼，再过6 年，10 年，是否会换了人间？**
 
 **OpenAI 实现 AGI，让 AGI 有益于全人类的愿景深深打动着我们，带着同样的愿景，我和财猫创建了 EmbraceAGI 开源社区，寓意拥抱 AGI 未来。我们希望专注于可持续和有意义的长期发展，欢迎志同道合的朋友加入我们，和我们一起玩 AI，探索 AI！欢迎大家支持我们！**
 
-![](../images/agents-foundations-04.png)
+![](../images/agents-foundations-04.webp)
 
 这是我们的联系方式，欢迎和我们多多交流，我今天的分享到此结束，谢谢大家！
 
@@ -148,7 +148,7 @@ AIGCLINK 也出过一期介绍 LangGPT 使用的视频，在此感谢占总的�
 
 臻哥整理的思维导图我觉得很好，与大家分享如下：
 
-![](../images/agents-foundations-16.jpg)
+![](../images/agents-foundations-16.webp)
 
 这是我在北京首次公开分享，很高兴能与这么多行业专家，技术大佬共聚一堂，畅谈 AI，再次感谢占总（占冰强）为大家提供这么好的机会！
 
@@ -156,6 +156,6 @@ AIGCLINK 也出过一期介绍 LangGPT 使用的视频，在此感谢占总的�
 
 
 
-![](../images/agents-foundations-01.jpg)
+![](../images/agents-foundations-01.webp)
 
-![](../images/agents-foundations-03.jpg)
+![](../images/agents-foundations-03.webp)

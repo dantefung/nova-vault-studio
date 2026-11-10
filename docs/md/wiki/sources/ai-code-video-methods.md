@@ -14,7 +14,7 @@ url: "https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag"
 作者：空格丶  
 原文发布日期：2026-10-20
 
-![九种代码视频方法总览](../images/ai-code-video-methods/001.jpg)
+![九种代码视频方法总览](../images/ai-code-video-methods/001.webp)
 
 ## 代码视频与生成式视频的差异
 
@@ -28,9 +28,9 @@ url: "https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag"
   -> FFmpeg 编码为 MP4
 ```
 
-![视频模型与代码模型的生成方式](../images/ai-code-video-methods/002.jpg)
+![视频模型与代码模型的生成方式](../images/ai-code-video-methods/002.webp)
 
-![逐帧渲染与 FFmpeg 合成](../images/ai-code-video-methods/003.jpg)
+![逐帧渲染与 FFmpeg 合成](../images/ai-code-video-methods/003.webp)
 
 代码视频最直接的优势是：
 
@@ -47,7 +47,7 @@ url: "https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag"
 
 HyperFrames 把视频当成网页：文字和卡片是 HTML 元素，样式由 CSS 控制，动画由 GSAP 时间轴描述。渲染时暂停时间轴，依次跳到目标帧并截图。
 
-![HyperFrames 动画示例](../images/ai-code-video-methods/004.jpg)
+![HyperFrames 动画示例](../images/ai-code-video-methods/004.webp)
 
 适合信息图、产品演示、口播包装和网页视觉。它还能组合 rough.js、p5.js、Three.js 等浏览器库。
 
@@ -55,7 +55,7 @@ HyperFrames 把视频当成网页：文字和卡片是 HTML 元素，样式由 C
 
 Remotion 将视频表达为 React 组件。组件通过当前帧号计算元素状态，常用 `interpolate` 映射数值，用 `spring` 产生弹性运动。
 
-![Remotion 数据动画示例](../images/ai-code-video-methods/005.jpg)
+![Remotion 数据动画示例](../images/ai-code-video-methods/005.webp)
 
 它适合多场景拼接、逐词字幕、数据驱动模板和批量视频。优势是组件复用与 React 生态，代价是需要理解 React 和帧驱动动画。
 
@@ -63,7 +63,7 @@ Remotion 将视频表达为 React 组件。组件通过当前帧号计算元素�
 
 Motion Canvas 更接近生成器式时间轴：开发者按顺序描述动作、等待和转场，而不是在每一帧自行计算所有状态。其代码块、矢量图形和时间轴能力适合编程教学和技术演示。
 
-![Motion Canvas 代码讲解示例](../images/ai-code-video-methods/006.jpg)
+![Motion Canvas 代码讲解示例](../images/ai-code-video-methods/006.webp)
 
 ## 类型二：手绘、分层插画与水彩
 
@@ -71,7 +71,7 @@ Motion Canvas 更接近生成器式时间轴：开发者按顺序描述动作、
 
 rough.js 会对端点和路径加入小幅随机扰动，并叠加多条略有差异的曲线，形成铅笔重复描线的效果。
 
-![rough.js 手绘线条示例](../images/ai-code-video-methods/007.jpg)
+![rough.js 手绘线条示例](../images/ai-code-video-methods/007.webp)
 
 为了保持视频可复现，随机数应使用固定种子，而不是每次渲染都产生不同结果。
 
@@ -79,7 +79,7 @@ rough.js 会对端点和路径加入小幅随机扰动，并叠加多条略有�
 
 将插画拆为天空、远山、近景、人物、装饰和文字等图层，再让各层错开入场。SVG 路径常通过 `stroke-dasharray` 与 `stroke-dashoffset` 制作描边生长动画；纸拼贴则把每一层替换为独立图片。
 
-![分层插画动画示例](../images/ai-code-video-methods/008.jpg)
+![分层插画动画示例](../images/ai-code-video-methods/008.webp)
 
 关键工作不在“让整张图片动”，而在前期建立可分离、可遮挡、可排序的图层资产。
 
@@ -87,7 +87,7 @@ rough.js 会对端点和路径加入小幅随机扰动，并叠加多条略有�
 
 数字水彩可以从一个多边形开始，递归细分边缘并加入小幅扰动；随后生成多份略有差异的形状，以较低透明度叠加。中心区域覆盖次数多、颜色深，边缘覆盖次数少、颜色浅，从而形成晕染感。
 
-![数字水彩叠加示例](../images/ai-code-video-methods/009.jpg)
+![数字水彩叠加示例](../images/ai-code-video-methods/009.webp)
 
 p5.brush 等库把水彩、铅笔、马克笔和炭笔效果封装为可调用的浏览器笔刷。
 
@@ -97,7 +97,7 @@ p5.brush 等库把水彩、铅笔、马克笔和炭笔效果封装为可调用�
 
 Manim 将曲线、坐标轴、几何图形和公式表示为数学对象。LaTeX 公式被渲染为矢量路径，动画则描述对象状态之间的变换，特别适合数学、科学和算法讲解。
 
-![Manim 数学动画示例](../images/ai-code-video-methods/010.jpg)
+![Manim 数学动画示例](../images/ai-code-video-methods/010.webp)
 
 ### 8. 地图路线：用音频时间戳驱动空间进度
 
@@ -111,7 +111,7 @@ Manim 将曲线、坐标轴、几何图形和公式表示为数学对象。LaTeX
          -> FFmpeg 输出
 ```
 
-![路线随旁白推进](../images/ai-code-video-methods/011.jpg)
+![路线随旁白推进](../images/ai-code-video-methods/011.webp)
 
 地图底图、路线和经纬度应来自可靠地图服务；原文示意图中的城市位置并非真实地理数据。
 
@@ -121,7 +121,7 @@ Manim 将曲线、坐标轴、几何图形和公式表示为数学对象。LaTeX
 
 Three.js 场景的核心是物体、灯光和相机。视频镜头可以沿平滑曲线运动，并持续朝向路径前方或目标对象。
 
-![Three.js 低多边形场景](../images/ai-code-video-methods/012.jpg)
+![Three.js 低多边形场景](../images/ai-code-video-methods/012.webp)
 
 给 Agent 描述场景时，可以明确三部分：主体是什么、场景必须包含什么、禁止出现什么。还应补充画幅、材质、光照、相机路径和运动节奏。
 
@@ -129,13 +129,13 @@ Three.js 场景的核心是物体、灯光和相机。视频镜头可以沿平�
 
 需要复杂模型、骨骼动画、黏土材质或真实灯光时，可以让 Agent 通过 Blender MCP 操作 Blender：创建对象、设置材质、添加关键帧、渲染截图并依据结果迭代。
 
-![Blender 场景与关键帧示例](../images/ai-code-video-methods/013.jpg)
+![Blender 场景与关键帧示例](../images/ai-code-video-methods/013.webp)
 
 Blender 的能力更完整，但环境、资产和渲染成本也更高，不应因为能被 Agent 调用就忽略 3D 制作本身的复杂度。
 
 ## 选型矩阵
 
-![代码视频技术选型表](../images/ai-code-video-methods/014.jpg)
+![代码视频技术选型表](../images/ai-code-video-methods/014.webp)
 
 | 目标 | 优先工具 | 选择理由 |
 |------|----------|----------|

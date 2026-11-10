@@ -43,7 +43,7 @@ url: "https://mp.weixin.qq.com/s/IVyLRVEtb2JUNf2WTWbwSQ"
 1. **「当前 turn 的下一步」是排队的**——不会自己跳进正在跑的请求，而是等循环到达下一个注入点（steering 轮询点）
 2. **「下一次 turn」的排队不是丢弃**——消息在队列里等着，直到下一轮启动时被消费
 
-![image](../images/pi-dsh-input-attribution/002.png)
+![image](../images/pi-dsh-input-attribution/002.webp)
 
 三个容器之间还有一个微妙点：**它们不是严格的队列层级，而是归属语义的容器**。"当前 step 的下一步"与"当前 turn 的下一步"在实现上可能是同一条队列的不同消费时机，但归属语义完全不同。
 
@@ -61,7 +61,7 @@ pi 的做法是：循环在每个"轮询点"调用 `getSteeringMessages?.()`，�
 - 轮询点不止一个（模型回访前、steering 判定时），不是只有 turn 边界——队列里的消息可能在一个 turn 内被多次分批注入
 - 全部清空注入 vs 逐条注入：前者适合"补一句完整的约束"，后者适合"边跑边喂"
 
-![image](../images/pi-dsh-input-attribution/003.png)
+![image](../images/pi-dsh-input-attribution/003.webp)
 
 ### 为什么不是优先队列
 
@@ -84,7 +84,7 @@ follow-up 是调用方注入的回调，循环在 turn 收口后问它："要不
 
 这一条规则的关键是：**它不在循环内部裁决，而在插口里裁决**。为什么？因为"turn 收口后，用户的补充该不该开启新任务"是产品语义——聊天 Agent 会说"等用户明确下句"，自主 Agent 会说"有补充就继续"。
 
-![image](../images/pi-dsh-input-attribution/004.png)
+![image](../images/pi-dsh-input-attribution/004.webp)
 
 ## 裁决规则三：直接注入（空闲时）
 
@@ -96,7 +96,7 @@ follow-up 是调用方注入的回调，循环在 turn 收口后问它："要不
 - 即使空闲，消息也先进输入队列再出队，保持"输入必须排队"的统一路径——避免双轨逻辑
 - 空闲判定后立即，还是等事件循环的下一拍？pi 的选择是等下一拍——让空闲事件先广播，再注入新输入（避免"以为还忙"的竞态）
 
-![image](../images/pi-dsh-input-attribution/005.png)
+![image](../images/pi-dsh-input-attribution/005.webp)
 
 ### 空闲判定的竞态
 
@@ -130,7 +130,7 @@ pi 的处理原则是「单消费点」：无论消息来自规则二的 follow-
 
 这条边界规则保证了「裁决过程对输入不可见」——回调不用防重入，这是插口设计里少见的"把复杂留给框架"的体贴。
 
-![image](../images/pi-dsh-input-attribution/006.png)
+![image](../images/pi-dsh-input-attribution/006.webp)
 
 ## 输入归属与四层模型的对应
 
@@ -145,7 +145,7 @@ pi 的处理原则是「单消费点」：无论消息来自规则二的 follow-
 
 所以输入归属只在 step / turn / activity 三层发生，request 层天然免疫。
 
-![image](../images/pi-dsh-input-attribution/007.png)
+![image](../images/pi-dsh-input-attribution/007.webp)
 
 ## 实战：两种产品接线
 
@@ -171,7 +171,7 @@ pi 的处理原则是「单消费点」：无论消息来自规则二的 follow-
 
 「归属问题的排查，永远先看裁决日志，而不是先看消息」。
 
-![image](../images/pi-dsh-input-attribution/008.png)
+![image](../images/pi-dsh-input-attribution/008.webp)
 
 ## 避坑清单
 
@@ -200,4 +200,4 @@ pi 的处理原则是「单消费点」：无论消息来自规则二的 follow-
 
 留一个自测问题：「你的 Agent 里，用户说'先别跑测试'的那一秒，这条消息停在哪？」如果你回答不上来，说明你的输入归属还没有明确的裁决规则——而这正是下一轮的起点。
 
-![image](../images/pi-dsh-input-attribution/009.png)
+![image](../images/pi-dsh-input-attribution/009.webp)

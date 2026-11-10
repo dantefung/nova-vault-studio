@@ -238,7 +238,7 @@ So that’s what I did. And I did that until I got 25k clicks per month from Goo
 
 For RomeoSEO, most users come from founder-led content on LinkedIn/Twitter. That’s why I’m writing this article now.
 
-![Voicy’s Google Search Console](../images/buildingwaves-10k-mrr-skill-not-luck/002.jpg)
+![Voicy’s Google Search Console](../images/buildingwaves-10k-mrr-skill-not-luck/002.webp)
 
 You can only pick one channel!
 

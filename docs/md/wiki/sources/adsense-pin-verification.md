@@ -20,7 +20,7 @@ url: "https://mp.weixin.qq.com/s/f01a3eyy4BdBamoF9Ma4wQ"
 2. 凑满 3 次后，可点击链接进入人工审核申请：https://support.google.com/adsense/workflow/11033519
 3. 上传身份证照片 + 在你填写的地址旁的地标旁拍摄的照片（你和地标名称需同时入镜）
 
-![Pin 码审核通过](../images/adsense-pin-verification/001.jpeg)
+![Pin 码审核通过](../images/adsense-pin-verification/001.webp)
 
 按这个方法，有朋友昨天提交，今天就被提示审核通过了。
 

@@ -33,7 +33,7 @@ coverImage: "../images/dotey-ai-native-thinking-train-yourself-like-an-llm/001.j
 
 ## 一、找需求：盯着模型能力的边界线
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/002.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/002.webp)
 
 ▲ 贯穿全场的暗线：建立反馈循环→跟着模型一起进化→敢于推翻旧权重
 
@@ -43,7 +43,7 @@ coverImage: "../images/dotey-ai-native-thinking-train-yourself-like-an-llm/001.j
 
 但需求不是拍脑袋就值得做。你觉得大家都需要的东西，做出来可能没人用；没人用就没反馈，慢慢就做不下去了。做之前我先把自己当用户：我做自媒体要翻大量教学视频，自己天天用。其次这是真痛点，很多人想看英文内容但听力跟不上。第三，以前字幕组靠人力，听译、对轴、翻译、校对，一个小组才能干完；现在 Whisper 能听写、大模型能翻译、连时间轴对齐 Agent 也能做。AI 让以前不可能的事变得可能了。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/003.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/003.webp)
 
 ▲ 判断一个 AI 需求的三问：痛点够不够硬、我是不是用户、AI 是不是刚好够到
 
@@ -55,7 +55,7 @@ coverImage: "../images/dotey-ai-native-thinking-train-yourself-like-an-llm/001.j
 
 同一个需求，模型没有检索能力时，它只是个普通提示词；能力到了，就能让所有人参与。需求一直都在，是能力边界刚好扫过了它。另一点是品味：人人都能用 AI 生成东西，想流行还是得有自己的品味，品味就是门槛。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/004.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/004.webp)
 
 ▲ 同一个提示词的三级命运——体验差一步，命运差十倍
 
@@ -69,7 +69,7 @@ coverImage: "../images/dotey-ai-native-thinking-train-yourself-like-an-llm/001.j
 
 找到需求，接下来评估值不值得做。我看三个角度：AI 的能力现在做不做得到？成本成不成立？交付的价值是不是用户真要的？多数人只盯着第一关。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/005.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/005.webp)
 
 ▲ AI 产品的三条边界：能力线会动、成本线会动，价值线锚在人性上不动
 
@@ -79,7 +79,7 @@ coverImage: "../images/dotey-ai-native-thinking-train-yourself-like-an-llm/001.j
 
 Manus 是同一个“通用 Agent”的想法，但它出现在能力刚好够到的时刻：模型已经能自己列 to-do list、逐条执行、交付结果，于是一夜刷屏。想法不是关键，能力边界才是。想法太早，烧的只是 Token。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/006.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/006.webp)
 
 ▲ AutoGPT 与 Manus：同一个想法，边界两侧，两种命运
 
@@ -87,7 +87,7 @@ Manus 是同一个“通用 Agent”的想法，但它出现在能力刚好够�
 
 我的产品也是一层层解锁的：Whisper 解锁听写，大模型解锁翻译和拆字幕，Agent 解锁自主执行和验收。最早翻半小时字幕，我要校对一两个小时；现在 Codex 翻完，我花五分钟看一遍就行，时间轴对得非常准。每解锁一层能力，产品就能重设计一次。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/007.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/007.webp)
 
 ▲ BaoCut 的三层能力解锁：Whisper→大模型→Agent，每解锁一层产品就能重设计一次
 
@@ -99,7 +99,7 @@ Manus 是同一个“通用 Agent”的想法，但它出现在能力刚好够�
 
 我有过一次真实优化。最早让模型直接输出结构化 JSON，十句字幕加标记就有几十 K Token，结构越复杂单次处理量越小，半小时视频要几十上百次请求，用户抱怨一个视频用掉 20% 周额度。后来改成纯文本和 HTML 输出，HTML 对模型友好，就像网页翻译，单次量大了，次数降了。代价是解析变复杂：润色后要用 diff 算法找改动、对回时间轴。但这就是取舍：模型输出简单格式，复杂解析交给程序。翻译用便宜模型，只有对齐才用贵一点的。一轮下来，调用从 33 次降到 12 次，单集处理从 31 分钟降到 18 分钟。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/008.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/008.webp)
 
 ▲ 一次真实的成本优化：调用 33→12 次，单集处理 31→18 分钟
 
@@ -107,7 +107,7 @@ Manus 是同一个“通用 Agent”的想法，但它出现在能力刚好够�
 
 第三关是价值。字幕翻译用户要的是确定性结果，英文进去、准确中文出来，不在乎谁翻的。但不是所有东西都这样：AI 自动写小说、做视频，很多人天然抵触，叫“AI 垃圾”；哪怕我只让 AI 润色文章，都有读者评论“AI 味很重”。如果产品只是在生产更多 AI 垃圾，就要想想值不值得做。用户买的是结果还是结果背后的人，这条线锚在人性上，不随模型升级移动。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/009.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/009.webp)
 
 ▲ 两条会动的线上找机会，在那条不动的线内侧建护城河
 
@@ -119,7 +119,7 @@ Manus 是同一个“通用 Agent”的想法，但它出现在能力刚好够�
 
 第二个有点阴差阳错：我用了完全不熟的 Swift 加 AppKit。这些年我主要做前端，Electron、TypeScript 特别熟，用熟的语言有个坏处，你老想自己控制代码，一控制你就成了瓶颈，不放心让 AI 写。Swift 不熟，只能交给 AI，我只管验收，代码都不怎么看。正因为不熟才能放手，几天就做出能跑的 MVP。在不熟悉的领域开始，反而更接近 AI 原生思维。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/010.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/010.webp)
 
 ▲ BaoCut 差点死掉：高保真原型与一门不熟悉的语言救了它
 
@@ -131,7 +131,7 @@ Manus 是同一个“通用 Agent”的想法，但它出现在能力刚好够�
 
 GPT-4 时代的第一版，直觉做法是模拟字幕组：Whisper 听写、转 SRT、大模型翻译、人工校对、算法处理时间轴。能做，但问题多：模型翻译时自作主张把两条字幕合并，时间戳对不上；校对要完整看一遍视频，翻一集要一两个小时；长句还要靠大模型拆。V1.5 用工作流编排和算法打补丁，有效，但旧框架里打补丁，收益递减。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/011.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/011.webp)
 
 ▲ V1 模拟人类字幕组：工具替代了大量人工，但校对依然繁重
 
@@ -145,11 +145,11 @@ GPT-4 时代的第一版，直觉做法是模拟字幕组：Whisper 听写、转
 
 第三问：为什么这么多人工？因为在模仿字幕组每步人工校验。V2 里每步都给 Agent 验证工具，比如用脚本校验每条英文是不是正好对应一条中文，Agent 自己验收，人只兜底。配套地，界面从 GUI 变成命令行工具加 Skill 文件，数据从数据库改成静态文件，模型对文件操作天然友好。整个流程 Agent 自主完成，人只在两头：输入视频，最后验收。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/012.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/012.webp)
 
 ▲ V2 推倒重来：不问原流程哪步能优化，以终为始三连追问
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/013.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/013.webp)
 
 ▲ 一页看懂：从“模仿人”到“围绕 Agent 重设”4.3 三条设计准则
 
@@ -161,7 +161,7 @@ GPT-4 时代的第一版，直觉做法是模拟字幕组：Whisper 听写、转
 
 最诚实的信号是我自己：BaoCut 是我写的 App，但现在连我都不打开它的界面了。Codex 里丢个视频链接，说一句“帮我翻译这个字幕”，它调 BaoCut 命令行翻完，我只确认。作者本人都绕过了自己的图形界面，这就是入口迁移最诚实的证据。设计要照顾两头：Agent 操作方便，人确认方便，确认不了的东西人不会放心用。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/014.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/014.webp)
 
 ▲ 作者本人都绕过了自己的图形界面——入口迁移最诚实的证据
 
@@ -169,7 +169,7 @@ GPT-4 时代的第一版，直觉做法是模拟字幕组：Whisper 听写、转
 
 新功能怎么上线？上周的真实案例：用户有两台电脑，一台性能好不常用，一台常用性能弱，希望“远程转录”，用常用的机器指挥另一台的显卡跑字幕。好需求，我按固定流程推进，但没打开编辑器。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/015.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/015.webp)
 
 ▲ 落地五关：流程没变，执行主体变了，人的位置在关键节点上
 
@@ -183,7 +183,7 @@ GPT-4 时代的第一版，直觉做法是模拟字幕组：Whisper 听写、转
 
 整个功能时间跨度一两天，实际投入几小时，以前至少要几周。流程还是传统那套，一个没少；变的是我的角色：不再是程序员，而是产品经理加测试，更像管理者。确认可以合并，不能省略。验证题给 Agent，判断题留给人，人只留“方向对不对、体验好不好、值不值得做”。瓶颈转移到代码两侧：Agent 几小时写完码，左边设计确认、右边测试部署还是人类速度，精力花在流程设计上比优化 Prompt 值得。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/016.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/016.webp)
 
 ▲ 复盘四句话：角色变了、确认合并不省略、验证题给 Agent、瓶颈在两侧
 
@@ -193,7 +193,7 @@ GPT-4 时代的第一版，直觉做法是模拟字幕组：Whisper 听写、转
 
 模型一直在进化。今天 Agent 能力强，明天可能是一群 Agent 协作。每次边界线外扩，都值得重新想一遍：这个能力边界下，对 AI 最好的设计是什么，有什么新需求冒出来了。就像训练大模型要推翻旧权重，做产品的人也要敢于推翻自己的旧答案。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/017.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/017.webp)
 
 ▲ 一页落地地图：找需求→判边界→最小验证→重设计→落地五关→持续进化
 
@@ -235,7 +235,7 @@ Q6：长生命周期的老项目，文档少、测试不足，AI 上下文不够
 
 第二让 Agent 能自己验证。改出问题多半是没验证。单元测试之外补跨模块集成测试，用模拟数据或真实环境同步的数据跑。测试不用一步到位，做需求改 Bug 时同步补；定期人工抽查，AI 有时会为了过测试而写测试。这两点做好，再尽量用好模型，老项目也能改得动。
 
-![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/018.jpg)
+![](../images/dotey-ai-native-thinking-train-yourself-like-an-llm/018.webp)
 
 ## 相关页面
 

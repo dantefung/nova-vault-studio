@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/Z5AnnW2B2jWbMYmZXyZlRg"
 
 ## 整体接入流程
 
-![接入后 Codex 运行 DeepSeek-V4-Pro 截图](../images/pi-agent-deepseek-v4-pro-codex/002.png)
+![接入后 Codex 运行 DeepSeek-V4-Pro 截图](../images/pi-agent-deepseek-v4-pro-codex/002.webp)
 
 1. 安装 Pi Agent（pi.dev）
 2. 用 Pi Agent 接入 DeepSeek V4-Pro 模型
@@ -27,31 +27,31 @@ url: "https://mp.weixin.qq.com/s/Z5AnnW2B2jWbMYmZXyZlRg"
 
 整体感受是前端效果比 Kimi K3 差一截，和 Qwen3.8 大致在一个水平线上，能用但谈不上惊艳。
 
-![前端页面实测效果](../images/pi-agent-deepseek-v4-pro-codex/003.png)
+![前端页面实测效果](../images/pi-agent-deepseek-v4-pro-codex/003.webp)
 
 ### 工具调用能力
 
 工具调用能力不错，对于网络检索、本地文件使用可以不用操心。接到 Obsidian 文件夹后，能按照 Skill、Hook 执行任务并保存到目标位置。
 
-![工具调用实测](../images/pi-agent-deepseek-v4-pro-codex/004.png)
+![工具调用实测](../images/pi-agent-deepseek-v4-pro-codex/004.webp)
 
 ### 性价比
 
 DeepSeek-V4-Pro 依旧是目前性价比最高的模型。用了 1.3 千万 tokens，才花了两块多。官方定价是之前 v4-Flash 的 3 倍，但比最强模型 Fable5 便宜了足足 50 倍。
 
-![Token 用量和费用](../images/pi-agent-deepseek-v4-pro-codex/005.png)
-![定价对比](../images/pi-agent-deepseek-v4-pro-codex/006.png)
+![Token 用量和费用](../images/pi-agent-deepseek-v4-pro-codex/005.webp)
+![定价对比](../images/pi-agent-deepseek-v4-pro-codex/006.webp)
 
 根据 artificialanalysis 的测评得分，同一能力水平中，价格几乎最低。
 
-![Artificial Analysis 测评 1](../images/pi-agent-deepseek-v4-pro-codex/007.png)
-![Artificial Analysis 测评 2](../images/pi-agent-deepseek-v4-pro-codex/008.png)
+![Artificial Analysis 测评 1](../images/pi-agent-deepseek-v4-pro-codex/007.webp)
+![Artificial Analysis 测评 2](../images/pi-agent-deepseek-v4-pro-codex/008.webp)
 
 ### 多模态补偿
 
 V4-Pro 目前不支持多模态。不过有开发者做了 [oil-oil/see-skill](https://github.com/oil-oil/see-skill) 项目，可以弥补这一短板。
 
-![See Skill 多模态补偿](../images/pi-agent-deepseek-v4-pro-codex/009.png)
+![See Skill 多模态补偿](../images/pi-agent-deepseek-v4-pro-codex/009.webp)
 
 ## Pi Agent 是什么
 
@@ -59,11 +59,11 @@ Pi 是一个 Agent Harness，和 Claude Code、Codex 属于同一类——给模
 
 它最大的特点是**做减法**。别人系统提示词动辄上万 token、塞一堆工具，Pi 反过来，默认提示词压到千 token 量级，默认只带几个极简工具，其余能力都交给 Skill 和 Extension 按需加载。
 
-![Pi Agent 概述](../images/pi-agent-deepseek-v4-pro-codex/010.png)
+![Pi Agent 概述](../images/pi-agent-deepseek-v4-pro-codex/010.webp)
 
 用下来的感受：响应极快，同样的任务 token 消耗也更省。有博主测过，同一个任务同一个模型，Pi 的 token 消耗大概只有 Claude Code 的一半。
 
-![Pi 响应速度对比](../images/pi-agent-deepseek-v4-pro-codex/011.jpg)
+![Pi 响应速度对比](../images/pi-agent-deepseek-v4-pro-codex/011.webp)
 
 它是 Agent 领域的 VIM，主打轻量、简洁、灵活。
 
@@ -75,17 +75,17 @@ Pi 是一个 Agent Harness，和 Claude Code、Codex 属于同一类——给模
 curl -fsSL https://pi.dev/install.sh | sh
 ```
 
-![Pi 安装命令](../images/pi-agent-deepseek-v4-pro-codex/012.png)
+![Pi 安装命令](../images/pi-agent-deepseek-v4-pro-codex/012.webp)
 
 **第二步，配模型。** 在终端运行 `pi`，输入 `/login`，选已有订阅或者填模型供应商。把 DeepSeek-V4-Pro 配上去，只需要输入 API key 就好。
 
-![Pi 配置模型](../images/pi-agent-deepseek-v4-pro-codex/013.png)
+![Pi 配置模型](../images/pi-agent-deepseek-v4-pro-codex/013.webp)
 
 ## 让 Codex 调用 Pi Agent
 
 Pi 装好后默认只能在终端里用，和 claude code 一样没有 GUI。想要 Codex 调用它，再装一个项目：`github.com/BytePioneer-AI/codex-host`。
 
-![codex-host 项目截图](../images/pi-agent-deepseek-v4-pro-codex/014.png)
+![codex-host 项目截图](../images/pi-agent-deepseek-v4-pro-codex/014.webp)
 
 装完之后，Codex 会自动调用 Pi Agent，Claude Code 也能调。这样就同时拿到了 Pi 的底层能力和 Codex 的界面，Codex 里的插件、Skill、上下文都是在这个基础上跑起来的。
 
@@ -93,4 +93,4 @@ Pi 装好后默认只能在终端里用，和 claude code 一样没有 GUI。想
 
 DeepSeek 官宣今天就发布他们自研的 Harness，已经内测了一段时间。等出来了，再试试 DeepSeek 原生 Harness 和接到 Codex 的区别。
 
-![DeepSeek 自研 Harness 官宣](../images/pi-agent-deepseek-v4-pro-codex/015.jpeg)
+![DeepSeek 自研 Harness 官宣](../images/pi-agent-deepseek-v4-pro-codex/015.webp)

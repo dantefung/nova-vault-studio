@@ -17,13 +17,13 @@ url: "https://mp.weixin.qq.com/s?__biz=MzY5MzMzODAwMg==&mid=&idx=&sn="
 
 模型是灵魂，Harness 负责给 Agent 理解环境、使用工具、在真实场景里持续干活的能力。
 
-![DeepSeek Harness 主视觉](../../../wiki/images/deepseek-harness/001.png)
+![DeepSeek Harness 主视觉](../../../wiki/images/deepseek-harness/001.webp)
 
 ## 模型是脑子，Harness 是手脚
 
 一个模型再聪明，它也只是一颗脑子。它不会自己打开文件、不会自己敲命令、不会自己上网查资料。这些「手脚」，就是 Harness 给的。
 
-![模型是脑子，harness 是手脚](../../../wiki/images/deepseek-harness/002.png)
+![模型是脑子，harness 是手脚](../../../wiki/images/deepseek-harness/002.webp)
 
 ## 「一切皆插件」
 

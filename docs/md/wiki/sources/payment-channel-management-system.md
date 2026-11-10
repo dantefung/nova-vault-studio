@@ -35,13 +35,13 @@ url: "https://mp.weixin.qq.com/s/PUocETkwA60pBRJp_qI-8A"
 
 ### 1.2 通道的重要性与分类维度
 
-![收银台支付方式与通道分类](../images/payment-channel-management-system/001.png)
+![收银台支付方式与通道分类](../images/payment-channel-management-system/001.webp)
 *图 1：主流电商与本地生活平台收银台的通道分类聚合*
 
-![美团收银台维度拆解](../images/payment-channel-management-system/002.png)
+![美团收银台维度拆解](../images/payment-channel-management-system/002.webp)
 *图 2：收银台页面按照银行卡、分期、钱包余额与第三方工具分类*
 
-![支付宝收银台展示](../images/payment-channel-management-system/003.png)
+![支付宝收银台展示](../images/payment-channel-management-system/003.webp)
 *图 3：支付宝各类绑卡与信用账户组合展示*
 
 常见通道分类包括：
@@ -52,7 +52,7 @@ url: "https://mp.weixin.qq.com/s/PUocETkwA60pBRJp_qI-8A"
 5. **按业务模式**：协议快捷支付、代扣代缴、B2C/B2B 网银；
 6. **按账户属性**：对公账户通道与对私借记卡/信用卡通道。
 
-![通道多维属性分类树](../images/payment-channel-management-system/004.png)
+![通道多维属性分类树](../images/payment-channel-management-system/004.webp)
 *图 4：多维度支付通道分类图谱*
 
 ---

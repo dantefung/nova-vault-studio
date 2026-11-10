@@ -18,13 +18,13 @@ FFmpeg 是一套处理多媒体内容的框架，能解码、编码、转码、�
 
 浏览器播放视频、播放器解码、直播软件推流、剪辑软件导出、云服务批量转码时，背后都藏着 FFmpeg。
 
-![](../images/ffmpeg-9-lei/001.png)
+![](../images/ffmpeg-9-lei/001.webp)
 
 ## 天才创始人
 
 2000 年，法国程序员 **Fabrice Bellard** 启动了 FFmpeg 项目。他还做了 QEMU、Tiny C Compiler、JSLinux、QuickJS，曾用普通台式机把圆周率算到 2.7 万亿位（破超级计算机纪录），拿过三次国际混乱 C 代码大赛冠军，被誉为「写穿互联网底层的男人」。
 
-![](../images/ffmpeg-9-lei/002.png)
+![](../images/ffmpeg-9-lei/002.webp)
 
 ## 版本时间线
 
@@ -42,13 +42,13 @@ FFmpeg 是一套处理多媒体内容的框架，能解码、编码、转码、�
 
 FFmpeg 每个版本代号以科学家、数学家、工程师命名。2026 年 3 月，中国开发者刘歧在邮件列表推荐了「Lei」——雷霄骅（中国传媒大学博士生，2013-2016 年间留下大量 FFmpeg 中文教程和示例代码）。2026 年是他离世十周年。8.1 版用了「Hoare」，但维护者 Michael Niedermayer 承诺下次发布时采用。9.0 正式命名为「Lei」。
 
-![](../images/ffmpeg-9-lei/003.jpg)
+![](../images/ffmpeg-9-lei/003.webp)
 
 ## 雷霄骅（雷神）
 
 雷霄骅是中国传媒大学数字视频技术方向博士生，CSDN 博客保留 900 多篇内容（「最简单的基于 FFmpeg 的视频播放器」「FFmpeg 视音频编解码零基础学习方法」等），GitHub 留下 30 个公开仓库（播放器、推流器、VideoEye 码流分析工具等）。2016 年 7 月 17 日突然离世，年仅 26 岁。
 
-![](../images/ffmpeg-9-lei/004.png)
+![](../images/ffmpeg-9-lei/004.webp)
 
 ## AI 越火，FFmpeg 越忙
 

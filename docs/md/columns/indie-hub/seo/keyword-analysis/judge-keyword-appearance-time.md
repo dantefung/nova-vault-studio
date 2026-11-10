@@ -25,7 +25,7 @@ AI工具站日收入破千美元；零基础入门养网站防老路线图
 
 我们之前在《上线5天的新网站，今日UV3000多》介绍过的这个网站，在上线第12天时申请下来了Adsense，昨天第14天时，Adsense日收入达到了93美元。
 
-![image](./images/judge-keyword-appearance-time/001.png)
+![image](images/judge-keyword-appearance-time/001.webp)
 
 怎么做到的？还是靠新词。
 
@@ -39,29 +39,29 @@ AI工具站日收入破千美元；零基础入门养网站防老路线图
 
 网址： https://trends.google.com/trends/
 
-![image](./images/judge-keyword-appearance-time/002.png)
+![image](images/judge-keyword-appearance-time/002.webp)
 
 打开之后，在输入框输入你要查的任意一个词，如我们输入 ChatGPT，地区选择全球，时间设置为2022年1月1日到现在。
 
-![image](./images/judge-keyword-appearance-time/003.png)
+![image](images/judge-keyword-appearance-time/003.webp)
 
 我们知道 ChatGPT 是2022年的11月30日上线发布的，从上面的谷歌趋势图里可以看到，这个词最开始有搜索量，范围是2022年11月27日至12月3日。这跟11月30日上线时间是对得上的。
 
 如果把时间范围缩小，还能得到准确的日期，就是11月30日。
 
-![image](./images/judge-keyword-appearance-time/004.png)
+![image](images/judge-keyword-appearance-time/004.webp)
 
 哥飞对于新词的定义是出现时间不超过12个月的词，那么通过这个方法，我们就能够判断一个词是否是新词。
 
 我们再拿 Grok 来看下，这个词之前一直有些搜索量，但不大。直到马斯克在11月4日发推宣布了xAI的第一个产品名字是 Grok，这个词的搜索量开始上升。
 
-![image](./images/judge-keyword-appearance-time/005.png)
+![image](images/judge-keyword-appearance-time/005.webp)
 
-![image](./images/judge-keyword-appearance-time/006.png)
+![image](images/judge-keyword-appearance-time/006.webp)
 
 除了看单个词，我们还可以看多个词，进行搜索量对比。从下图 ChatGPT 和 Grok 的对比可以看到，Grok 现在还是小弱鸡，ChatGPT太深入人心了。
 
-![image](./images/judge-keyword-appearance-time/007.png)
+![image](images/judge-keyword-appearance-time/007.webp)
 
 哥飞的这个方法你学会了吗？
 
@@ -77,7 +77,7 @@ AI工具站日收入破千美元；零基础入门养网站防老路线图
 
 就像这位朋友，一天的广告费就把社群费用赚回来了。
 
-![image](./images/judge-keyword-appearance-time/008.png)
+![image](images/judge-keyword-appearance-time/008.webp)
 
 更不用说，还有些朋友已经日入千刀以上了。
 
@@ -85,4 +85,4 @@ AI工具站日收入破千美元；零基础入门养网站防老路线图
 
 如果你对社群感兴趣，请加哥飞微信 qiayue 咨询了解。
 
-![image](./images/judge-keyword-appearance-time/009.png)
+![image](images/judge-keyword-appearance-time/009.webp)

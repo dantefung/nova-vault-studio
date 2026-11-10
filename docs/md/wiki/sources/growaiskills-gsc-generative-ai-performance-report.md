@@ -21,7 +21,7 @@ Google Search Console（GSC）已经能查看网站在 Google AI 搜索里的曝
 
 打开 GSC 的“生成式 AI 效果报告（搜索）”，查看页面、展示次数、国家/地区、设备和日期。[官方说明](https://support.google.com/webmasters/answer/16984139)
 
-![](../images/growaiskills-gsc-generative-ai-performance-report/002.jpg)
+![](../images/growaiskills-gsc-generative-ai-performance-report/002.webp)
 
 注意：展示不等于点击，更不等于订单。这份报告主要看曝光，不能单独算出 AI 带来了多少访问或成交，也不能代表 ChatGPT 等其他平台。
 
@@ -31,7 +31,7 @@ Google Search Console（GSC）已经能查看网站在 Google AI 搜索里的曝
 
 按网页看，不要只盯总曝光。把教程、产品、定价、对比和案例页分开检查。
 
-![](../images/growaiskills-gsc-generative-ai-performance-report/003.jpg)
+![](../images/growaiskills-gsc-generative-ai-performance-report/003.webp)
 
 例如，教程有展示，产品页却很少出现，可以先检查：客户想买之前会问的问题，网站有没有认真回答？
 
@@ -45,7 +45,7 @@ Google Search Console（GSC）已经能查看网站在 Google AI 搜索里的曝
 
 Google 的 AI 搜索可以把复杂问题拆成多组相关检索。因此，网站除了介绍产品，还要讲清使用场景、价格、对比、限制、案例和接入方法。
 
-![](../images/growaiskills-gsc-generative-ai-performance-report/004.jpg)
+![](../images/growaiskills-gsc-generative-ai-performance-report/004.webp)
 
 先补现有产品页、定价页和帮助文档。确实需要独立展开，再做对比页或案例页。不用为每种问法都新建一篇文章。
 

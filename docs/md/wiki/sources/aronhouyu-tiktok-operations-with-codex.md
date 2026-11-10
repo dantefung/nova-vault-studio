@@ -35,7 +35,7 @@ coverImage: "../images/aronhouyu-tiktok-operations-with-codex/001.jpg"
 
 我把这套东西放到了 GitHub：
 
-![https://github.com/aronhy/tiktok-agent-skills](../images/aronhouyu-tiktok-operations-with-codex/002.jpg)
+![https://github.com/aronhy/tiktok-agent-skills](../images/aronhouyu-tiktok-operations-with-codex/002.webp)
 
 自己在内部使用了一段时间，总结出的 skill，顺手做成了 agent 可以调用的，
 
@@ -49,21 +49,21 @@ coverImage: "../images/aronhouyu-tiktok-operations-with-codex/001.jpg"
 
 条件：评分 4.5+｜价格 30–50 美元｜近 7 天增长较快
 
-![](../images/aronhouyu-tiktok-operations-with-codex/003.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/003.webp)
 
 调用了一堆工具，都是 codex 内置的，甚至都不用管
 
-![](../images/aronhouyu-tiktok-operations-with-codex/004.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/004.webp)
 
-![](../images/aronhouyu-tiktok-operations-with-codex/005.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/005.webp)
 
-![](../images/aronhouyu-tiktok-operations-with-codex/006.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/006.webp)
 
 如何使用
 
 直接带 codex/workbuddy/你的各种 agent 中输入：
 
-![](../images/aronhouyu-tiktok-operations-with-codex/007.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/007.webp)
 
 aronhy/tiktok-agent-skills
 
@@ -79,7 +79,7 @@ ai 会自己进行安装，并查询相关的 skill 结果，完全不用管。�
 
 目前这套仓库里有四个核心 Skill
 
-![](../images/aronhouyu-tiktok-operations-with-codex/008.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/008.webp)
 
 ## 1. 商品运营结果 [tiktok-shop-operator](https://github.com/aronhy/tiktok-agent-skills/blob/main/skills/tiktok-shop-operator/SKILL.md)
 
@@ -93,9 +93,9 @@ ai 会自己进行安装，并查询相关的 skill 结果，完全不用管。�
 - 筛选出达人
 - 综合上面的信息，需要做什么
 
-![](../images/aronhouyu-tiktok-operations-with-codex/009.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/009.webp)
 
-![](../images/aronhouyu-tiktok-operations-with-codex/010.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/010.webp)
 
 而且每个都有链接，有主页，粉丝数，销量，销售额是多少，播放量是多少。
 
@@ -119,11 +119,11 @@ ai 会自己进行安装，并查询相关的 skill 结果，完全不用管。�
 
 下列是中间的过程，其实过程都可以不看的。
 
-![](../images/aronhouyu-tiktok-operations-with-codex/011.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/011.webp)
 
-![](../images/aronhouyu-tiktok-operations-with-codex/012.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/012.webp)
 
-![](../images/aronhouyu-tiktok-operations-with-codex/013.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/013.webp)
 
 内容太多，我们就不用一个一个截图了。
 
@@ -135,7 +135,7 @@ ai 会自己进行安装，并查询相关的 skill 结果，完全不用管。�
 
 如果值得，再给差异化定位和前三个验证动作；如果数据不足，也会把缺失信息和限制写清楚。
 
-![](../images/aronhouyu-tiktok-operations-with-codex/014.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/014.webp)
 
 就像我需要的这种：
 
@@ -143,7 +143,7 @@ ai 会自己进行安装，并查询相关的 skill 结果，完全不用管。�
 
 看看有什么惊喜。
 
-![](../images/aronhouyu-tiktok-operations-with-codex/015.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/015.webp)
 
 那这些，其实就可以顺着往下去做查找以及运营。
 
@@ -264,7 +264,7 @@ tiktok-grow
 
 接达人精灵 MCP
 
-![](../images/aronhouyu-tiktok-operations-with-codex/016.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/016.webp)
 
 接下来需要在本地配置达人精灵 MCP
 
@@ -284,7 +284,7 @@ https://mcp.kolsprite.com/caption/mcp
 
 secret-key
 
-![](../images/aronhouyu-tiktok-operations-with-codex/017.png)
+![](../images/aronhouyu-tiktok-operations-with-codex/017.webp)
 
 注意，MCP Key 和普通 API Key 不是同一个凭证，不能混用。
 

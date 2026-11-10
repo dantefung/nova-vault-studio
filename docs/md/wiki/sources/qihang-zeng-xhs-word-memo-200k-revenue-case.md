@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "启航 (@qihang_zeng6688)"
 url: "https://x.com/qihang_zeng6688/status/2119731219969822931"
-coverImage: "../images/qihang-zeng-xhs-word-memo-200k-revenue-case/001.png"
+coverImage: "../images/qihang-zeng-xhs-word-memo-200k-revenue-case/001.webp"
 ---
 
 # 启航（@qihang_zeng6688）：靠卖高效背单词资料，小红书虚拟店 223 天卖出 2 万单、总营收 20 万
@@ -31,11 +31,11 @@ coverImage: "../images/qihang-zeng-xhs-word-memo-200k-revenue-case/001.png"
 
 https://t.co/3gkrB5Yrvj
 
-![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/001.png)
+![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/001.webp)
 
-![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/002.png)
+![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/002.webp)
 
-![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/003.png)
+![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/003.webp)
 
 ## 相关页面
 

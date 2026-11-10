@@ -33,11 +33,11 @@ coverImage: "../images/mindfulreturn-wechatlongpic-skill/001.jpg"
 
 整个 skill 流程图如下：
 
-![](../images/mindfulreturn-wechatlongpic-skill/002.jpg)
+![](../images/mindfulreturn-wechatlongpic-skill/002.webp)
 
 ## 它有什么特别之处？
 
-![](../images/mindfulreturn-wechatlongpic-skill/003.jpg)
+![](../images/mindfulreturn-wechatlongpic-skill/003.webp)
 
 ##
 
@@ -93,13 +93,13 @@ https://github.com/rebootmindful/wechatlongpic
 
 欢迎各位继续完善，增加更多主题。
 
-![](../images/mindfulreturn-wechatlongpic-skill/004.jpg)
+![](../images/mindfulreturn-wechatlongpic-skill/004.webp)
 
-![](../images/mindfulreturn-wechatlongpic-skill/005.jpg)
+![](../images/mindfulreturn-wechatlongpic-skill/005.webp)
 
-![](../images/mindfulreturn-wechatlongpic-skill/006.jpg)
+![](../images/mindfulreturn-wechatlongpic-skill/006.webp)
 
-![](../images/mindfulreturn-wechatlongpic-skill/007.jpg)
+![](../images/mindfulreturn-wechatlongpic-skill/007.webp)
 
 ## 相关页面
 

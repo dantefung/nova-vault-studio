@@ -15,43 +15,43 @@ url: "https://new.web.cafe/tutorial/detail/k7etr1tAWLjUQmnDUnpf1G"
 
 先说国内的站长工具 tool.chinaz.com 里的关键词优化分析工具，网址是 [https://tool.chinaz.com/kwevaluate](https://tool.chinaz.com/kwevaluate) 。 
 
-![image.png](images/keyword-difficulty-analysis-tools/img_002.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_002.webp)
 
  打开网址后，在输入框里输入我们想分析的词即可。如我们输入 timestamp ，可以看到优化难度是91分，属于难度很高的词了，如果真的想做，需要打持久战。 
 
-![image.png](images/keyword-difficulty-analysis-tools/img_003.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_003.webp)
 
  这里的第二个数字指数，指的是百度指数。第三个数字是百度收录的网页数量。第四个数字很明显了，是 timestamp 的相关长尾词的个数。第五个、第六个数字是SEM相关的，本文略过。
 
 百度指数的网址是 [https://index.baidu.com/](https://index.baidu.com/) ，在这里可以看到一个词的热度指数。注意指数不等于每日搜索次数，但可以通过比较不同词的指数大小来判断两个词的每日搜索次数相差多少。 
 
-![image.png](images/keyword-difficulty-analysis-tools/img_004.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_004.webp)
 
  百度收录的网页数量指的是下面这个数字。 
 
-![image.png](images/keyword-difficulty-analysis-tools/img_005.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_005.webp)
 
  然后是这个关键字的前50个搜索结果统计，其中百度系占了11个，首页只有 2个，看起来好像要做这个关键字没啥难度。
 
 但权重大于等于 4的域名结果有 36个，正是这个指标导致最后的优化难度分数达到了91分
-![image.png](images/keyword-difficulty-analysis-tools/img_006.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_006.webp)
 
 如果有高权重域名，开一个子域名专做这个词的话，倒是有可能能做上去。但如果是全新域名去做，就需要和时间做朋友了，也许等你的自然链足够多之后，是能够排到首页，甚至排到前三的。
 
 **二、ahrefs**
 接着说 ahrefs 提供的关键字优化难度分析工具，网址是 [https://ahrefs.com/keyword-difficulty](https://ahrefs.com/keyword-difficulty) ，打开后界面长下面这样。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_007.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_007.webp)
 
  在输入框里输入要分析的关键字，选择国家，点击 “check keyword” 按钮就能看到结果了。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_008.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_008.webp)
 
 免费版只能看到难度和前10个结果及前5个结果的具体数据，但没关系，足够了。
 
 我们主要关注难度，这里81分，超级难。注意看难度右侧的这段英文，下面我放出中英文对照版本。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_009.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_009.webp)
 
 这里说，如果我们要做这个关键字，需要拿到374个网站的反链，才有可能排到谷歌搜索的第一页。
 
@@ -65,7 +65,7 @@ url: "https://new.web.cafe/tutorial/detail/k7etr1tAWLjUQmnDUnpf1G"
 
 但其实仅仅是页面的反链数量是没有多大意义的，这里“网站的反链”按照网站个数计算。基本可以等同于，你要拿到374个域名的反链。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_010.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_010.webp)
 
 上面这张图可以看到，难度和所需的网站反链数量不是线性关系，难度越高，需要的反链成倍的增长。
 
@@ -81,32 +81,32 @@ url: "https://new.web.cafe/tutorial/detail/k7etr1tAWLjUQmnDUnpf1G"
 
 你看，如果选择日本，难度等级立马下降到12，只需要13个网站反链，就能够进入谷歌日本搜索第一页结果了。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_011.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_011.webp)
 
 不过也不过难度越低越好，还要看这个词的搜索量大不大，具体怎么看呢？这就需要用到第三个工具。
 
 **三、Semrush**
 Semrush 需要注册登录后才能使用，关键字分析工具网址是 [https://www.semrush.com/analytics/keywordoverview/](https://www.semrush.com/analytics/keywordoverview/) ，注册后可以选择 skip trial 暂时跳过付费，先免费试用。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_012.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_012.webp)
 
  可以看到这个词在美国的优化难度98，可以说是非常难了，跟前两个工具分析的结果差不多。
 
 看右侧，全球搜索量有 182.7K，美国只有 14.8K，而印度也有 14.8K，法国有 12.1K，印度尼西亚有 9.9K，巴西和菲律宾都有 8.1K，这些国家我们都可以考虑一下。
 
 先来看看印度，难度86，也还是有难度，但已经比美国容易了一些了。
-![image.png](images/keyword-difficulty-analysis-tools/img_013.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_013.webp)
 再看法国，难度骤降，只有 47了，完全可以去做一个法语版的timestamp工具。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_014.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_014.webp)
 
 为了排除语言的干扰，我们用 timestamp 的法语 horodatage 再查一次，可以看到难度更低，只有 28。所以的确是这个词在法国竞争度不高。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_015.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_015.webp)
 
 同样的方法，我们查一下印度尼西亚，只有 40的难度，也是可以去做的。
 
-![image.png](images/keyword-difficulty-analysis-tools/img_016.png)
+![image.png](images/keyword-difficulty-analysis-tools/img_016.webp)
 
 剩下的国家，哥飞就不给大家一一截图了，请大家自己去发现。
 

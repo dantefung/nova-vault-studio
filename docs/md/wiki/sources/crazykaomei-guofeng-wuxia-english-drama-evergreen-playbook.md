@@ -21,7 +21,7 @@ coverImage: "../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playboo
 
 单条视频狂揽 20 多万赞，半年涨粉 27.4 万。
 
-![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/002.jpg)
+![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/002.webp)
 
 烤妹儿之所以拆解它，不光是因为数据好看——
 
@@ -79,7 +79,7 @@ coverImage: "../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playboo
 
 “猪（pig）出去了（out）要大吃大喝，所以这是大吃大喝。”
 
-![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/003.jpg)
+![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/003.webp)
 
 画面、声音、字面释义三位一体打进大脑，观众的感受不是被灌输知识，而是“卧槽，老子这辈子都忘不掉这个词了！”
 
@@ -127,7 +127,7 @@ Step 1：搭建专属“武侠英语/中文智囊”智能体（拒绝大模型�
 
 所有脚本均自带规范分镜、适配短视频、符合武侠风格与英语科普属性。
 
-![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/004.jpg)
+![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/004.webp)
 
 这里需要严格遵循英语情景剧 AI 创作铁律：先出脚本、核验词汇、再做视频。
 
@@ -164,7 +164,7 @@ Step 3：剪映精细化收尾（决定收藏率的关键一步）
 
 把视频导入剪映，接下来做三步核心动作：
 
-![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/005.jpg)
+![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/005.webp)
 
 - 一键识别字幕：中英文对照，修正错别字；
 - 字体加描边（重点！）：字体选择复古楷体，务必设置成“白字黑边”。学习类视频用户极度喜欢截图保存，白字黑边在复杂的武侠背景下识别度最高；
@@ -229,7 +229,7 @@ Step 3：剪映精细化收尾（决定收藏率的关键一步）
 
 这个博主采用非常简单的制作，直接一张插图➕不断洗脑重复，每段视频仅 8 秒，都已经积累了 24w 的精准粉丝。
 
-![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/006.jpg)
+![](../images/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook/006.webp)
 
 更别说老外对 “Chinese Kung Fu” 和香港武侠有一种骨子里的狂热。
 

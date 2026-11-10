@@ -5,7 +5,7 @@ source: "Twitter / @momo_peggy"
 url: "https://x.com/momo_peggy/status/2101955372583936264"
 ---
 
-![Cover image](./images/competitor-research-playbook/competitor-research-playbook-img1.jpg)
+![Cover image](images/competitor-research-playbook/competitor-research-playbook-img1.webp)
 
 大家好，我是夏林果～
 
@@ -37,7 +37,7 @@ url: "https://x.com/momo_peggy/status/2101955372583936264"
 
 所以，竞品调研不是证明别人做过，所以我也能做，而是把别人的服务流程、获客方式和收费逻辑拆出来，再结合自己的能力和资源判断：**这件事换我能不能干？我应该从哪儿开始？**
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img2.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img2.webp)
 
 ## 竞品调研的目标和作用
 
@@ -60,7 +60,7 @@ url: "https://x.com/momo_peggy/status/2101955372583936264"
 
 如果你本身在做出海了，往下滑，这部分你不用看，新手这部分一定要看，纯扫盲来的
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img3.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img3.webp)
 
 ## 站点基本信息：看这个网站积累了什么
 
@@ -77,7 +77,7 @@ url: "https://x.com/momo_peggy/status/2101955372583936264"
 - **排名页面：** 哪些具体页面带来了搜索流量，而不只是看它的首页。
 - **Keyword Ranking：** 某个页面在某个关键词上的排名。看竞品时，不要只看“有多少关键词”，还要看它真正排在前几名的是什么词。
 - **Backlink：** 反向链接，其他网站指向这个网站的一条链接。一个网站可以拥有很多 Backlink，但它们可能都来自同一个站。
-![](./images/competitor-research-playbook/competitor-research-playbook-img4.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img4.webp)
 
 ## 功能调研：看用户怎么完成任务
 
@@ -132,7 +132,7 @@ url: "https://x.com/momo_peggy/status/2101955372583936264"
 
 咳咳，从这里开始，就是本文章含金量最高的部分了！
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img5.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img5.webp)
 
 ## 第一部分：功能调研，看竞品如何服务用户
 
@@ -179,7 +179,7 @@ url: "https://x.com/momo_peggy/status/2101955372583936264"
 
 夏林果建议啊，横向挑和自己域名年龄、资源积累差不多的新站或小站，重点看近一两年起来的产品，然后纵向再选一两个老站，用 Wayback Machine 看它早期怎么冷启动、最近又在做什么。域名年龄、权重、引荐域名、页面数量和流量，可以先用 AITDK 或 [SiteData.dev](https://x.com/momo_peggy/status/SiteData.dev) 快速看一遍。
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img6.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img6.webp)
 
 **第一步：看 SEO 关键词怎么起量**
 
@@ -213,7 +213,7 @@ url: "https://x.com/momo_peggy/status/2101955372583936264"
 
 多语言不是页面翻译得越多越好。要把语言数量和实际流量、转化、维护成本放在一起看，判断它是在服务真实市场，还是只是在批量铺页。再看哪些国家和语言贡献了主要访问。这个数据不能只停留在国家排名，还要回到前两步：这些国家的用户搜的是什么词，主要进入哪些页面，页面有没有对应的语言版本和内容。最后看最近几个月的流量是在增长、稳定还是下滑，确认这个需求有没有明显的季节性。
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img7.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img7.webp)
 
 **第四步：看产品策略有没有带动增长**
 
@@ -259,7 +259,7 @@ GEO 可以理解成面向 AI 搜索和回答的品牌曝光。你要实际问 Ch
 
 但是你调研的结果不能只是竞品 A 收 9.9 美刀，竞品 B 收 19 美刀。你最后要根据这些信息，写出自己的第一版定价，例如收什么模式、免费给多少、第一档卖什么、为什么这样定。
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img8.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img8.webp)
 
 **第一步：先挑值得研究的收费竞品**
 
@@ -296,7 +296,7 @@ GEO 可以理解成面向 AI 搜索和回答的品牌曝光。你要实际问 Ch
 
 像是PDF Translator这个需求的话，如果成本主要随着页数增加，就可以先按页数或额度收费；如果用户是经常翻译论文、合同或资料，再考虑月度订阅。先选一个最符合使用频率和成本结构的方式，不要强行做订阅奥。
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img9.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img9.webp)
 
 **第五步：上线后用真实行为调整价格**
 
@@ -306,7 +306,7 @@ GEO 可以理解成面向 AI 搜索和回答的品牌曝光。你要实际问 Ch
 
 话又说回来了，不要因为一个人说太贵就立马降价，也不要因为一个人付费就认为价格正确。至少积累一批真实用户的使用和付款行为，再调整价格、额度和付费节点。
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img10.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img10.webp)
 
 ## 第四部分：技术调研，只确认产品能不能落地
 
@@ -352,7 +352,7 @@ GEO 可以理解成面向 AI 搜索和回答的品牌曝光。你要实际问 Ch
 
 反馈当然可以用 Feedlog 这类工具集中收集，现在有widget智能客服的能力了，可以承接用户的疑问和需求，后续把需求、Roadmap 和 Changelog 管起来，让用户知道哪些反馈已经被处理。
 
-![feedlog.ai](./images/competitor-research-playbook/competitor-research-playbook-img11.jpg)
+![feedlog.ai](images/competitor-research-playbook/competitor-research-playbook-img11.webp)
 
 feedlog.ai
 
@@ -413,7 +413,7 @@ feedlog.ai
 
 这一次我们换一个产品来看：**BelinDoc**
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img12.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img12.webp)
 
 BelinDoc 是一个 AI 文档翻译工具，除了 PDF、Word、PPT、Excel，也已经扩展到漫画、视频、CAD 等翻译场景。
 
@@ -499,7 +499,7 @@ BelinDoc 的流量里，37.4% 来自 Direct，几乎没有付费投放，Search 
 
 在 Reddit 的一条讨论 里，用户说 DeepL 的翻译很准确，但整份 PDF 翻译后排版变乱，所以不愿意购买；在 另一条讨论 里，用户提到表格错位、项目符号间距变化、图片漂移、部分内容没有被翻译，而且最终仍然需要人工清理。
 
-![](./images/competitor-research-playbook/competitor-research-playbook-img13.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img13.webp)
 
 这说明用户真正愿意付费解决的，不是“再多支持几种语言”，而是**拿到一个不用重新排版、可以直接交付的文件**。对文档翻译这类需求来说，复杂表格、扫描件和多栏 PDF 的质量，才是最值得继续验证的机会点。
 
@@ -525,7 +525,7 @@ BelinDoc 的流量里，37.4% 来自 Direct，几乎没有付费投放，Search 
 - 商业化调研：用户为什么付费，第一版应该怎么收费；
 - 技术调研：这个想法能不能先做出来，哪里最容易卡住；
 - 用户反馈：用户真正抱怨什么，哪些问题值得继续做。
-![](./images/competitor-research-playbook/competitor-research-playbook-img14.jpg)
+![](images/competitor-research-playbook/competitor-research-playbook-img14.webp)
 
 最后，你应该能把结论压缩成一句话：**我准备给谁做什么，先做哪些功能，不做哪些功能，准备从哪里获客，先靠什么方式收费。** 如果这句话还说不清楚，就说明竞品调研还没有完成；如果已经说得清楚，就不要再无限调研，进入下一步验证。
 

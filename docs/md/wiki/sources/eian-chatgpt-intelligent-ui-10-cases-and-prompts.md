@@ -91,7 +91,7 @@ OpenAI 把这项功能分成了 4 种用法：
 
 咖啡店可以换成面试、机场值机、酒店入住、去医院看病，
 
-![](../images/eian-chatgpt-intelligent-ui-10-cases-and-prompts/002.jpg)
+![](../images/eian-chatgpt-intelligent-ui-10-cases-and-prompts/002.webp)
 
 想练哪个场景就写哪个。
 
@@ -121,7 +121,7 @@ OpenAI 把这项功能分成了 4 种用法：
 
 ```
 
-![](../images/eian-chatgpt-intelligent-ui-10-cases-and-prompts/003.jpg)
+![](../images/eian-chatgpt-intelligent-ui-10-cases-and-prompts/003.webp)
 
 出去旅游一起花的钱也能这么算：谁付了机票、谁付了酒店、谁请了一顿饭，最后谁该给谁转多少，让它做成一张能改的表，一眼看清。
 
@@ -138,7 +138,7 @@ OpenAI 把这项功能分成了 4 种用法：
 我点完告诉我对错和原因。
 ```
 
-![](../images/eian-chatgpt-intelligent-ui-10-cases-and-prompts/004.jpg)
+![](../images/eian-chatgpt-intelligent-ui-10-cases-and-prompts/004.webp)
 
 看球总搞不懂越位的，可以让它画一张能拖动球员位置的越位图，拖一下就知道算不算越位。
 

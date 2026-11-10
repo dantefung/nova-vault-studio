@@ -17,7 +17,7 @@ coverImage: "../images/lucaspei-ai-xhs-notes-skill-pipeline/001.jpg"
 
 上半年，我花了 1 个月时间，开发了一个专门做小红书虚拟笔记的工具。陆陆续续卖了 2 万多块，到现在还有很多学员每天在用。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/002.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/002.webp)
 
 但我们团队自己，已经不用了。
 
@@ -25,7 +25,7 @@ coverImage: "../images/lucaspei-ai-xhs-notes-skill-pipeline/001.jpg"
 
 现在我们做笔记，只要把一份 PPT 丢给 Claude，说一句“做成 5 篇笔记”。拆图、排版、写标题正文、配 10 个标签，它自己全部做完，最后直接传进飞书多维表格，扫码就能发。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/003.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/003.webp)
 
 以前我们招实习生做笔记，用工具一天能出 30 篇，已经算挺快了。现在同样的量，1-2 个小时就做完，全程交给 AI，人只需要最后审一遍。
 
@@ -39,11 +39,11 @@ coverImage: "../images/lucaspei-ai-xhs-notes-skill-pipeline/001.jpg"
 
 最早做笔记，我们是在稿定设计上一张张手搓的。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/004.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/004.webp)
 
 打开模板，手动排版，把 PPT 图片一张张拖进去，调好位置再导出。图做完了，还得自己想标题、写正文、凑标签，最后再一篇篇上传、发布。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/005.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/005.webp)
 
 这些活我们招了实习生来做，一天一百多块工资。活不难，但特别磨人，大部分时间都耗在拖图、对齐、导出这些重复动作上。
 
@@ -51,7 +51,7 @@ coverImage: "../images/lucaspei-ai-xhs-notes-skill-pipeline/001.jpg"
 
 于是上半年，我花了 1 个月做了这个虚拟笔记工具。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/006.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/006.webp)
 
 思路很简单，就是把排版模板化：
 
@@ -59,7 +59,7 @@ coverImage: "../images/lucaspei-ai-xhs-notes-skill-pipeline/001.jpg"
 
 场景化排版：能把 PPT 放进电脑屏幕、黑板这些实拍场景里，做出样机效果，不用再开 PS。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/007.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/007.webp)
 
 用上它之后，一个实习生一天能出 30 篇，速度确实上来了。
 
@@ -99,17 +99,17 @@ coverImage: "../images/lucaspei-ai-xhs-notes-skill-pipeline/001.jpg"
 - 一篇是把 PPT 贴进教室一体机、办公显示器里的场景图；
 - 另外三篇是首图加大图展示，配色和首图布局每篇都换。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/008.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/008.webp)
 
 Claude 5 分钟直出的排版图片：
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/009.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/009.webp)
 
 3. 写文案
 
 图排好了，它接着写文案。每篇一个标题、一段分好段的正文、正好 10 个标签，5 篇的标题各用一种写法。而且只写 PPT 里真有的内容，不会瞎编。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/010.png)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/010.webp)
 
 4. 自己检查
 
@@ -119,7 +119,7 @@ Claude 5 分钟直出的排版图片：
 
 全部做完，它直接把 5 篇笔记一篇篇传进飞书多维表格，标题、正文、标签、图片都在对应的格子里。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/011.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/011.webp)
 
 这里上传用的是飞书 CLI，和飞书打通特别方便，大家一定要用起来！
 
@@ -131,9 +131,9 @@ Claude 5 分钟直出的排版图片：
 
 如果要发多个平台，也可以让它通过我们流量蜂的 MCP，把笔记直接传进发布软件里，再分发到各个平台(抖音、公众号等)。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/012.png)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/012.webp)
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/013.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/013.webp)
 
 从一份 PPT，到 5 篇能直接发的笔记，过去要人一件件接的活，现在一句话就跑完了。
 
@@ -143,7 +143,7 @@ Claude 5 分钟直出的排版图片：
 
 除了 PPT 笔记，其他各种类型笔记的图片，Claude 直出的效果也挺好！我第一次看到的时候是真的震惊了，这在过去完全不敢想。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/014.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/014.webp)
 
 各种排版风格的图片都能直接出，只要喂好参考图，出图非常快！
 
@@ -159,7 +159,7 @@ Claude 5 分钟直出的排版图片：
 
 Skill 更像是给整条流水线配了一个 AI 助手。你把说明书写清楚，它就能照着从头干到尾。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/015.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/015.webp)
 
 而且这个助手上岗特别快。做工具我花了 1 个月，搭 Skill 只用了一两天；以后要改需求，工具得重新开发，Skill 改几句话就行。
 
@@ -167,7 +167,7 @@ Skill 更像是给整条流水线配了一个 AI 助手。你把说明书写清�
 
 PPT 本身就是小红书虚拟里非常非常大的一个赛道。在这么大的赛道里，能把制作和笔记全部深度 AI 化，价值特别大。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/016.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/016.webp)
 
 所以现在 PPT 制作、写笔记这些流程化的活，我们基本都交给了 AI。团队的精力，全放在了选品、测品、拉效率上。
 
@@ -189,13 +189,13 @@ PPT 本身就是小红书虚拟里非常非常大的一个赛道。在这么大�
 
 说不定，你上次放弃的那件事，它现在已经能做了。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/017.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/017.webp)
 
 回头看我们做笔记这一路，从实习生在稿定上手搓，到自己花 1 个月做工具，再到一个 Skill 全部接住。下一次它会变成什么样，我现在也不知道。
 
 但这个盲盒，我会一直开下去。
 
-![](../images/lucaspei-ai-xhs-notes-skill-pipeline/018.jpg)
+![](../images/lucaspei-ai-xhs-notes-skill-pipeline/018.webp)
 
 ## 相关页面
 

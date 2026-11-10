@@ -24,7 +24,7 @@ Codex 做 AI 建站，可以用。 让它搭页面、改代码、出结构、整
 
 SEMrush 和 Ahrefs 的核心数据，是必须要输入账号密码才能读取，如果你没绑定API，Codex是根本读不到SEMrush的数据的。
 
-![image](./images/codex-keyword-research-warning/w/001.png)
+![image](images/codex-keyword-research-warning/w/001.webp)
 
 这事得讲透，不然小白永远觉得：AI 那么聪明，数据难道不能自己抓吗？
 
@@ -42,7 +42,7 @@ SEMrush 和 Ahrefs 的核心数据，是必须要输入账号密码才能读取�
 
 如果AI真能抓到付费的私密数据库，你还做个锤子的独立站？
 
-![image](./images/codex-keyword-research-warning/w/002.jpg)
+![image](images/codex-keyword-research-warning/w/002.webp)
 
 阿里巴巴国际站也是付费的私密数据库啊，你何不让Codex 直接把阿里巴巴国际站的每天所有老外的询盘全部给你抓下来，你卖询盘都能赚翻了。
 
@@ -56,7 +56,7 @@ AI让创作变便宜了，但让判断变贵了。
 
 AI makes creation cheap, but judgment expensive.
 
-![image](./images/codex-keyword-research-warning/w/003.jpg)
+![image](images/codex-keyword-research-warning/w/003.webp)
 
 上面这句话是深圳联盟营销大佬@Affiliate Wayne这几天在越南参加AI营销大会上的分享，这是全球其他AI大佬都有的共识。
 
@@ -84,7 +84,7 @@ AI 可以帮你提问。 AI 可以帮你整理。 AI 可以帮你加快验证。
 
 敬畏真实数据，使用 AI 加速，绝不让模型替你伪造事实。
 
-![image](./images/codex-keyword-research-warning/w/004.jpeg)
+![image](images/codex-keyword-research-warning/w/004.webp)
 
 因为越是 Agent 时代，真假越容易混淆。 模型越会模仿专业报告，普通人越容易放弃核对。 而外贸获客这种事，错一次选词，可能浪费的是整季内容和整季预算。
 

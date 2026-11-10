@@ -25,7 +25,7 @@ AgentTeams 从 HiClaw 升级后，在 1.2.0 到 1.2.5 之间逐步加入 Dashboa
 
 Dashboard 集中管理用户权限、Agent 实例、团队关系、Skill、MCP 工具和模型路由。
 
-![AgentTeams 团队资源管理](../images/agentteams-dashboard/001.jpeg)
+![AgentTeams 团队资源管理](../images/agentteams-dashboard/001.webp)
 
 主要资源包括：
 
@@ -38,21 +38,21 @@ Dashboard 集中管理用户权限、Agent 实例、团队关系、Skill、MCP �
 
 Dashboard 与 Matrix 的职责不同：Matrix 房间承载人类与 Agent 的协作对话，Dashboard 提供资源、配置、任务和执行状态的结构化视图。
 
-![Dashboard 与 Matrix 的协作关系](../images/agentteams-dashboard/002.png)
+![Dashboard 与 Matrix 的协作关系](../images/agentteams-dashboard/002.webp)
 
 ## 项目与任务两级看板
 
 Dashboard 将目标管理拆成 Project 和 Task 两层：Project 表达完整目标、任务分布和依赖关系；Task 记录具体负责人、执行要求、状态、结果和产物。
 
-![AgentTeams 项目看板](../images/agentteams-dashboard/003.png)
+![AgentTeams 项目看板](../images/agentteams-dashboard/003.webp)
 
 项目详情可展示工作流拓扑、阻塞点和具备推进条件的任务。任务详情记录派发、状态转换、事件、进度和提交结果，使用户能够从全局项目定位到单个任务，并追溯已经发生的执行过程。
 
-![任务详情与执行历史](../images/agentteams-dashboard/004.jpeg)
+![任务详情与执行历史](../images/agentteams-dashboard/004.webp)
 
 项目支持暂停和恢复，状态变化写入时间线。AgentTeams 1.2.5 增加两项一致性约束：存在未终结任务时不能提前完成项目；任务重新委派后发送新通知，降低改派后无人接收的风险。
 
-![项目暂停、恢复与时间线](../images/agentteams-dashboard/005.jpeg)
+![项目暂停、恢复与时间线](../images/agentteams-dashboard/005.webp)
 
 ## Skill 管理与分发
 
@@ -60,9 +60,9 @@ Skill 管理界面统一提供查看、上传、分配、下载和复用能力�
 
 技能目录覆盖内置、共享、团队和插件 Skill，并提供远程 Nacos Skill Registry 的接入和同步入口。QwenPaw Manager 与 Worker 支持技能热加载，更新后无需重启运行时；1.2.5 还支持下载完整 Skill ZIP 包。
 
-![Skill 分配与远程技能库](../images/agentteams-dashboard/006.jpeg)
+![Skill 分配与远程技能库](../images/agentteams-dashboard/006.webp)
 
-![Skill 资产管理界面](../images/agentteams-dashboard/007.png)
+![Skill 资产管理界面](../images/agentteams-dashboard/007.webp)
 
 ## 运行时管理
 

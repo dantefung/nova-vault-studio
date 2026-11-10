@@ -16,7 +16,7 @@ OpenClaw 的创始人在 6月8日 凌晨 2:58 发布推文："Here's your monthl
 
 从 2022 到 2026，AI 辅助编程经历了清晰的开发模式的转移。工程师的核心工作，逐渐从"直接写业务代码"转向"设计系统，并让系统生成代码"的阶段。
 
-![五代工程演进](../images/loop-engineering-thoughts/001.png)
+![五代工程演进](../images/loop-engineering-thoughts/001.webp)
 
 每一代都是一次精进：
 
@@ -30,11 +30,11 @@ OpenClaw 的创始人在 6月8日 凌晨 2:58 发布推文："Here's your monthl
 
 每一次的演进，并不是一次替代，而是建立在上一代的能力之上。就拿 Harness 和 Loop 的关系来说，创始人 Addy Osmani 给出了精准的概括：**Harness 是 AI 代理的受控运行环境；Loop 是在这个环境之上，叠加了自驱动能力的持续执行流程。Harness 是地基，Loop 是上层调度，没有 Harness，Loop 则是无源之水。**
 
-![Harness 与 Loop 关系](../images/loop-engineering-thoughts/002.png)
+![Harness 与 Loop 关系](../images/loop-engineering-thoughts/002.webp)
 
 把它们结合在一起看，更为直观明了。
 
-![演进全景图](../images/loop-engineering-thoughts/003.png)
+![演进全景图](../images/loop-engineering-thoughts/003.webp)
 
 ### 1.3 从技术 Loop 到产品 Loop
 
@@ -44,7 +44,7 @@ OpenClaw 的创始人在 6月8日 凌晨 2:58 发布推文："Here's your monthl
 - **产品 Loop** 解决的是"这个闭环是否持续创造用户价值、是否值得继续放大、是否能形成长期增长飞轮"。
 - **用户 Loop** 则反映了用户对产品的一种"情绪"，最终将以某种形式回到产品本身。
 
-![吴恩达三个环](../images/loop-engineering-thoughts/004.png)
+![吴恩达三个环](../images/loop-engineering-thoughts/004.webp)
 
 ### 1.4 Loop 的工程基础:控制论
 
@@ -52,15 +52,15 @@ OpenClaw 的创始人在 6月8日 凌晨 2:58 发布推文："Here's your monthl
 
 从原理上看，LLM 是一个概率模型，本质上，它就是在：猜。虽是猜，但有人会说，现在猜的已经很准了，正确率接近 90%。是的，90% 听起来很不错，但是，事实上可能很糟糕，因为软件工程一定会使用分治的方法解决复杂问题，顺其自然的，一个复杂任务就变成了 N 多子任务的叠加，那么就变成了一个指数运算，仅仅六次后，概率就接近 50%，这不是就是抛硬币吗！
 
-![概率指数衰减](../images/loop-engineering-thoughts/005.png)
+![概率指数衰减](../images/loop-engineering-thoughts/005.webp)
 
 为了解决这个问题，很自然地就想，有没有一种机制可以修正这个损失概率？有，这种机制就是控制论。
 
-![控制论](../images/loop-engineering-thoughts/006.png)
+![控制论](../images/loop-engineering-thoughts/006.webp)
 
 而控制论的思想，早从 VibeCoding 时，我们就在每天下意识的使用它。只是这个系统 = 我 + AI，比如在构建 Prompt 的过程。
 
-![VibeCoding 中的控制论](../images/loop-engineering-thoughts/007.png)
+![VibeCoding 中的控制论](../images/loop-engineering-thoughts/007.webp)
 
 而控制论的本质一句话就可以说明白：**通过负反馈机制去收敛目标函数**。说白了，Loop Engineering 就是控制论在 AI 领域的一次落地应用。
 
@@ -75,11 +75,11 @@ OpenClaw 的创始人在 6月8日 凌晨 2:58 发布推文："Here's your monthl
 
 而这些点，更好的帮助我去理解 Loop Engineering，我会清晰的看到，它们一一对应，同根同源。
 
-![控制论四大公理](../images/loop-engineering-thoughts/008.png)
+![控制论四大公理](../images/loop-engineering-thoughts/008.webp)
 
 映射如下：
 
-![控制论与 Loop 映射](../images/loop-engineering-thoughts/009.png)
+![控制论与 Loop 映射](../images/loop-engineering-thoughts/009.webp)
 
 ## 02 从"写 Prompt"到"设计 Loop"
 
@@ -104,7 +104,7 @@ OpenClaw 的创始人在 6月8日 凌晨 2:58 发布推文："Here's your monthl
 
 在《Loop Engineering 循环工程》（https://addyosmani.com/blog/loop-engineering/）一文中，详细讲解了这几个部分：
 
-![Loop 五大组件](../images/loop-engineering-thoughts/010.png)
+![Loop 五大组件](../images/loop-engineering-thoughts/010.webp)
 
 - **一个唤醒机制：Automations**。以往和 AI 协作，是我推一下，它动一下，很累人。一个唤醒机制就保证了，人不用再去"盯着，去喊"，这是整套自动化系统运行的前提。
 - **安全独立的沙箱环境：Worktrees**。多 Agent 协同必然会变成一种趋势，为每个任务分配独立代码工作区，就杜绝文件覆盖、环境互相污染等问题。
@@ -128,23 +128,23 @@ OpenClaw 的创始人在 6月8日 凌晨 2:58 发布推文："Here's your monthl
 - **绿**：迭代编写代码，直到全部测试用例通过。
 - **重构**：在测试兜底前提下优化代码，保证质量不退化。
 
-![Red-Green-Refactor](../images/loop-engineering-thoughts/011.png)
+![Red-Green-Refactor](../images/loop-engineering-thoughts/011.webp)
 
 以往这个循环为什么玩不起来，因为，这个循环的控制者是人，但是到了 AI 时代，控制权交给 Agent，这个结构没有发生变化，但是你变轻松了。
 
 在分布式系统中，每个服务都是全局中的一个局部，针对局部的一个模块，测试会有三个维度，也分别对应着三个环：
 
-![测试三个环](../images/loop-engineering-thoughts/012.png)
+![测试三个环](../images/loop-engineering-thoughts/012.webp)
 
 1. **单元测试环**：看似容易，其实不容易做到，这里难点在于：单元测试其实是和函数耦合的，也就是说，需要先定义好骨架，顾开发的流程应该是：定义桩函数 -> 写测试用例 -> 写实现。
 
-![单元测试环](../images/loop-engineering-thoughts/013.png)
+![单元测试环](../images/loop-engineering-thoughts/013.webp)
 
 2. **接口测试环**：需要可以让 AI 可以自己发包，以及收日志，这样就可以在服务维度建立 Loop。
 
-![接口测试环](../images/loop-engineering-thoughts/014.png)
+![接口测试环](../images/loop-engineering-thoughts/014.webp)
 
-![接口测试环](../images/loop-engineering-thoughts/015.png)
+![接口测试环](../images/loop-engineering-thoughts/015.webp)
 
 3. **流程测试环**：以功能为单位进行验证，因为它更加上层，一般都是用来回归验证，如何构建这个环，以便 AI 可以站在全局修复问题，仍然值得思考。
 
@@ -162,7 +162,7 @@ OpenClaw 的创始人在 6月8日 凌晨 2:58 发布推文："Here's your monthl
 
 测试用例的设计非常重要！！！因为一旦设计有误，所有 AI 生成的代码都是在错误的基础上改动代码，结果怎么改都是错。而这里的解决思路是：**以需求为出发点，构建规则集合**。
 
-![构建规则集合](../images/loop-engineering-thoughts/016.png)
+![构建规则集合](../images/loop-engineering-thoughts/016.webp)
 
 ### 3.2 方法二：证据胜于一切，建立证据链
 
@@ -173,7 +173,7 @@ Maker-Checker 双校验架构听起来是很不错的，但是细想，一个问
 
 而这种设计，本质上就是对抗性思维的一种极致体现！
 
-![证据链](../images/loop-engineering-thoughts/017.png)
+![证据链](../images/loop-engineering-thoughts/017.webp)
 
 ### 3.3 方法三：预算思维
 
@@ -181,15 +181,15 @@ Maker-Checker 双校验架构听起来是很不错的，但是细想，一个问
 
 **策略一：模型选择**。预算思维的本质是：资源倾斜，背后的问题是：什么样的任务我愿意投入更多的资源？针对高价值的任务，用聪明的模型，而针对低价值的重复任务，绝不用贵的模型。
 
-![策略一：模型选择](../images/loop-engineering-thoughts/018.png)
+![策略一：模型选择](../images/loop-engineering-thoughts/018.webp)
 
 选择不合适的模型，成本差距巨大，Opus 的输出成本是 GLM4-Flash 的 180 倍。
 
-![模型成本对比](../images/loop-engineering-thoughts/019.png)
+![模型成本对比](../images/loop-engineering-thoughts/019.webp)
 
 **策略二：设置退出机制**。设置退出机制就是针对每个任务要设置一个阈值上限，常见的有：最大的步骤限制、预算熔断机制。
 
-![策略二：退出机制](../images/loop-engineering-thoughts/020.png)
+![策略二：退出机制](../images/loop-engineering-thoughts/020.webp)
 
 **策略三：上下文压缩**。面对长周期 Agent 任务的成本问题，上下文压缩是一个常见的方式，一般的做法是：用廉价模型对全量上下文反复重压缩，但这种操作往往会让核心规则持续稀释、过程噪音不断累积。最终导致任务跑偏、全链路已经投入的 Token 全部作废。
 

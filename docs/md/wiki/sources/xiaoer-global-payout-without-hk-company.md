@@ -15,9 +15,9 @@ coverImage: "../images/xiaoer-global-payout-without-hk-company/001.jpg"
 
 我做了个 Mac 工具 Omia，做了大半年，157 种格式能打开，DMG 过了苹果公证，Windows 版也出了。然后和很多人一样：最终还是想能够实现出海，毕竟国人不爱付费。
 
-![浅色排版很好看](../images/xiaoer-global-payout-without-hk-company/002.jpg)
+![浅色排版很好看](../images/xiaoer-global-payout-without-hk-company/002.webp)
 
-![能打开 3D 文件](../images/xiaoer-global-payout-without-hk-company/003.png)
+![能打开 3D 文件](../images/xiaoer-global-payout-without-hk-company/003.webp)
 
 在国内做开发者，想把东西卖到国外，最难的从来不是把产品做出来。是你做完了，站在门口，发现门上挂着一把你打不开的锁。这几天我把这条轨修通了，完整流程、每一步的地址、我踩的坑，全写在下面。
 
@@ -106,7 +106,7 @@ API 密钥        pancake.waffo.ai/merchant/dashboard/integration
 
 最后，Omia 正在尝试打开更多的工程类文件，陆陆续续增加有痛点的可以关注一下：
 
-![](../images/xiaoer-global-payout-without-hk-company/004.jpg)
+![](../images/xiaoer-global-payout-without-hk-company/004.webp)
 
 祝大家都大麦～～
 

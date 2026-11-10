@@ -44,7 +44,7 @@ Agent 接下来仍有不少事情需要确认。是所有错误都重试，还�
 
 ### Spec 的五个要素
 
-![image](../images/vibe-coding-to-engineering/002.png)
+![image](../images/vibe-coding-to-engineering/002.webp)
 
 这最后两项要分开写：
 
@@ -139,7 +139,7 @@ This is a Go project based on Kubernetes controller-runtime.
 
 任务做到一半换 Session，最容易丢失的是"为什么决定这样改"和"还有哪项没检查"。这些信息需要另有记录。
 
-![image](../images/vibe-coding-to-engineering/004.png)
+![image](../images/vibe-coding-to-engineering/004.webp)
 
 ## Verify + Review：AI 说"完成了"，不代表真的完成了
 
@@ -186,7 +186,7 @@ Quality Gate 要明确的是：哪些检查必须通过，才能进入下一阶�
 停止条件：<权限不足、需要改变已确认方案等>
 ```
 
-![image](../images/vibe-coding-to-engineering/006.png)
+![image](../images/vibe-coding-to-engineering/006.webp)
 
 ## 延伸阅读
 

@@ -43,49 +43,49 @@ url: "https://new.web.cafe/tutorial/detail/1JQ1RBpMQR9UiPVnVJ6HMA"
 一、注册域名
 
 通常来讲，我们做这类关键词搞流量的网站，那么最好直接拿关键词去注册域名，我们先用 phonenumbergenerator.com 试一下，结果发现域名已经被人注册了。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_002.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_002.webp)
 那就再用 phone-number-generator.com 去测试，好像也被注册了？
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_003.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_003.webp)
 别担心，是哥飞在写第一步时提前注册好了的，这样到了今天就不会出现无域名可用的情况。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_004.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_004.webp)
 一般的原则是先看关键词 com 是否能用，不能用就看加横杠的 com，如果还不能用，就看关键词 net，再看加横杠的 net。如果 com 和 net 都没有了，再去考虑用其它域名后缀。
 
 二、解析域名到 Cloudflare
 
 打开 [https://www.cloudflare.com/](https://www.cloudflare.com/) ，注册登录，点击左侧菜单栏的“Websites”打开网站列表页面，点击右侧的“Add a site”按钮。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_005.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_005.webp)
 然后输入我们的域名，哥飞这里之前已经添加好了，所以会提示已经存在。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_006.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_006.webp)
 正常情况，你输入域名后，就进入了套餐选择界面，我们选择最底下的免费套餐即可。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_007.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_007.webp)
 点击继续按钮后就到了下一页，Cloudflare 会扫描你的域名目前已经有的 dns 解析记录，如果你是老域名，相当于 Cloudflare 会帮你把所有旧的解析记录都同步过来，这样就可以无缝迁移。我们这里是新域名，所以解析记录为空，直接点击继续按钮就可以了。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_008.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_008.webp)
 会有个弹窗提示你当前没有 dns 记录，这里不用管，点击确认按钮就行。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_009.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_009.webp)
 之后会显示新的 dns 服务器地址，我们需要复制之后，到域名注册商处修改。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_010.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_010.webp)
 每个域名注册商的 dns 解析服务商的修改界面都不太一样，哥飞这个注册商的界面长下面这样。把 dns1 和 dns2 分别填进去，点击保存即可。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_011.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_011.webp)
 下一步，回到 Cloudflare 点击下方这个按钮即可。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_012.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_012.webp)
 下一步，开启“Automatic HTTPS Rewrites”，开启“Always Use HTTPS”，开启“Brotli”。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_013.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_013.webp)
 确认三个都是“ON”，就可以点击“Finish”按钮。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_014.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_014.webp)
 刚添加好的 dns 解析服务不会那么快生效，所以会进入下一个页面，看到了这个界面，等待就行。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_015.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_015.webp)
 如果生效了，在网站列表页面，可以看到绿勾勾✅，这就表明域名已经把 dns 服务切换到 Cloudflare 了，可以继续下一步了。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_016.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_016.webp)
 三、提交代码到 Github 仓库
 
 打开 Github ，在右上角点击“+”号，选择新建一个仓库。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_017.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_017.webp)
 可以直接用域名当作仓库名称，描述随便写都行，选择“Private”私有仓库，然后点击右下角创建仓库按钮即可。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_018.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_018.webp)
 之后界面会有提示，要你在自己电脑里创建一个本地仓库，把代码放进去，然后提交。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_019.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_019.webp)
 本地如何提交代码，大家可以找找 git 教程看看，哥飞本文不展开。提交成功后，刷新仓库，可以看到的界面如下，所有提交上来的代码文件都能看到。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_020.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_020.webp)
 四、在 Vercel 部署
 
 Github 仓库中有代码后，就可以部署到 Vercel 中了。
@@ -95,39 +95,39 @@ Github 仓库中有代码后，就可以部署到 Vercel 中了。
 需要提醒一下，如果你用全新注册的 Github 账号去注册 Vercel ，那么很有可能刚注册号就被封号。这时候你可以邮件联系客服，证明你是真人，而不是薅羊毛的机器人，就能解封账号了。
 
 打开 Vercel 控制台，点击网站列表右上角的“Add New”按钮，选择新建一个“Project”。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_021.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_021.webp)
 选择 Github 账号，找到我们刚才创建并提交了代码的仓库，点击“Import”按钮，导入代码。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_022.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_022.webp)
 我们这种纯静态页面，不需要做什么配置，直接在下一个页面点击“Deploy”按钮部署即可。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_023.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_023.webp)
 部署成功后，可以看到撒花界面。点击右上角的“Continue to Dashboard”按钮。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_024.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_024.webp)
 Vercel 送了一个子域名给我们测试用，可以点击这个域名看看网页，但我们不用这个子域名，我们点击右上角的“Domains”按钮，进入自定义域名配置界面。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_025.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_025.webp)
 在输入框输入我们的域名，然后点击“Add”按钮。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_026.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_026.webp)
 这里有两种模式，哥飞建议你选择第二种，这是为了在用户直接输入域名访问时，减少一次跳转。之后点击“Add”按钮。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_027.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_027.webp)
 之后我们需要进行域名解析，带 www 和不带 www 域名，Vercel 给了两种解析方式。我们按照提示照做就行。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_028.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_028.webp)
 打开 Cloudflare 的网站列表，点击域名 DNS 解析记录，点击“Add record”按钮。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_029.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_029.webp)
 按照 Vercel 的要求，www 域名添加 CNAME 记录，按照下方截图所示填写好，点击保存。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_030.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_030.webp)
 再用同样的方法，配置不带 www 域名的 A 记录解析。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_031.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_031.webp)
 添加好 dns 解析记录后，在 Vercel 后台可以看到，正在为我们生成 ssl 证书。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_032.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_032.webp)
 看到这种提示，就说明配置好了。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_033.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_033.webp)
 五、打开网站欣赏你的成果吧！
 
 此时，如果你用浏览器打开域名，会发现报错了。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_034.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_034.webp)
 这是因为我们还有一个步骤忘了操作，打开 Cloudflare ，进入 SSL/TLS 界面，会发现目前的模式是“Flexible”，我们需要调整为“Full”模式。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_035.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_035.webp)
 看到提示“mode is Full”，就可以了。
-![image.png](images/gefei-age-proof-site-step-7-deploy/img_036.png)
+![image.png](images/gefei-age-proof-site-step-7-deploy/img_036.webp)
 好好欣赏你的第一个网站吧。
 
 大家看到截图就会发现，哥飞只做好了一个国家的手机号码格式页面。就先这样吧，能给大家演示全流程就足够了，哥飞的这个演示站长什么样不重要。
@@ -280,7 +280,7 @@ Vercel 送了一个子域名给我们测试用，可以点击这个域名看看�
 
     打卡
 
-![](images/gefei-age-proof-site-step-7-deploy/img_042.jpg)
+![](images/gefei-age-proof-site-step-7-deploy/img_042.webp)
 
 添加图片添加隐藏回复
 

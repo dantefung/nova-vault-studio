@@ -54,7 +54,7 @@ SubAgent 的触发方式可以整理为「隐式」与「显式」两大类，�
 - **通过 Prompt 明确指引**：在 Prompt 中主动建议主 Agent 将某部分独立任务交给「子任务 / 子 Agent」去完成，以维持主会话上下文的简洁。例如："请作为调度员重构认证模块，你可以启动一个 SubAgent 专门扫描 `src/auth/` 的依赖关系，主流程中只保留架构决策。"
 - **通过 `@agent-name` 语法指定**：在输入框中用 `@` 选择或手写 `@agent-<name>`，确保该 SubAgent 为当前任务运行。如下图所示，在 OpenCode Agent 中可以通过 `@` 符号直接唤起特定的 Agent。
 
-![OpenCode 中通过 @ 符号唤起特定 Agent](../images/zeroagent-09-subagent/001.png)
+![OpenCode 中通过 @ 符号唤起特定 Agent](../images/zeroagent-09-subagent/001.webp)
 
 ### 1.2 SubAgent 使用过程解析
 
@@ -70,7 +70,7 @@ SubAgent 的触发方式可以整理为「隐式」与「显式」两大类，�
 
 最终，审查结果返回至主 Agent，由其整合并呈现给用户。整个过程中，主 Agent 负责全局调度与异常处理，SubAgent 专注于领域任务，形成「你只管说目标，我来调度专家」的协作闭环。完整流程如下图所示：
 
-![SubAgent 协作流程](../images/zeroagent-09-subagent/002.png)
+![SubAgent 协作流程](../images/zeroagent-09-subagent/002.webp)
 
 ---
 

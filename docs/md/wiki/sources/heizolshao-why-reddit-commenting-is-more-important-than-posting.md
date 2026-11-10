@@ -19,7 +19,7 @@ coverImage: "../images/heizolshao-why-reddit-commenting-is-more-important-than-p
 
 本章节是在 Reddit 全运营流程中的第五章节，更多章节知识可以看我个人主页的网址。
 
-![](../images/heizolshao-why-reddit-commenting-is-more-important-than-posting/002.jpg)
+![](../images/heizolshao-why-reddit-commenting-is-more-important-than-posting/002.webp)
 
 ## 一、为什么“直接发帖”在 Reddit 风险极高？
 

@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "lumxss (@bkdgiffug)"
 url: "https://x.com/bkdgiffug/status/2119756889680470287"
-coverImage: "../images/bkdgiffug-hyper-extract-llm-structured-knowledge-extraction/001.png"
+coverImage: "../images/bkdgiffug-hyper-extract-llm-structured-knowledge-extraction/001.webp"
 ---
 
 # lumxss（@bkdgiffug）：Hyper-Extract——用 LLM 把无结构文档自动提炼成结构化知识库
@@ -21,7 +21,7 @@ coverImage: "../images/bkdgiffug-hyper-extract-llm-structured-knowledge-extracti
 
 🔗https://t.co/6cp80aH4aB
 
-![](../images/bkdgiffug-hyper-extract-llm-structured-knowledge-extraction/001.png)
+![](../images/bkdgiffug-hyper-extract-llm-structured-knowledge-extraction/001.webp)
 
 ## 相关页面
 

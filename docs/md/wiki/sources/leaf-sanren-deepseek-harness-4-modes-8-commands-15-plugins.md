@@ -128,7 +128,7 @@ npx @deepseek-ai/dsh web
 
 4. 认一下界面
 
-![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/002.jpg)
+![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/002.webp)
 
 整个界面分三块：
 
@@ -146,7 +146,7 @@ npx @deepseek-ai/dsh web
 
 我给它的第一个活是：把工作区里 3 份课程笔记的核心概念和待练习，整理成一份学习清单。13 秒做完，还顺手把待练习改成了可勾选的格式。
 
-![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/003.jpg)
+![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/003.webp)
 
 ───
 
@@ -161,7 +161,7 @@ npx @deepseek-ai/dsh web
 - 极简：只留命令行和文件编辑器；跑模型基准测试
 - 创造：在标准的基础上，多了运行时检查、插件管理和开发指引；想写插件、改界面、改造 DSH 本身
 
-![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/004.jpg)
+![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/004.webp)
 
 标准和 PTC 到底差在哪？ 打开“轨迹”视图就看得出来：
 
@@ -175,9 +175,9 @@ Git 源宝在 B 站用一堆课程笔记测过，标准模式几十次工具调�
 - 标准模式：5 步，10.8 万 token
 - PTC 模式：5 步，13.4 万 token，反而多花了 24%
 
-![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/005.jpg)
+![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/005.webp)
 
-![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/006.jpg)
+![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/006.webp)
 
 结论：PTC 省的是“几十次重复工具调用”的批量活。 文件就几个的小任务，写程序本身的开销反而更大，用标准模式就行。
 
@@ -197,7 +197,7 @@ Git 源宝在 B 站用一堆课程笔记测过，标准模式几十次工具调�
 - 完全权限：开启时先弹一次风险确认；越界操作仍会弹审批卡片，不是从此不问
 - 自动授权审查（实验）：要先在插件里开启。每次工具调用前先让模型审一遍，低风险的直接执行，高风险的转给你；每次审查要额外花 token，也可能误放或误拦
 
-![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/007.jpg)
+![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/007.webp)
 
 新手日常用“工作区内修改”就够了。 能干活，有边界，不会把电脑弄乱。别一上来就开完全权限。
 
@@ -214,7 +214,7 @@ Git 源宝在 B 站用一堆课程笔记测过，标准模式几十次工具调�
 - /feedback：给官方提反馈
 - /export：把整段对话日志打包成 ZIP 带走
 
-![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/008.jpg)
+![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/008.webp)
 
 Git 源宝编了个口诀：先计划、给权限、选模型、传文件、清桌面、管目标、提意见、存档案。
 
@@ -240,7 +240,7 @@ Git 源宝编了个口诀：先计划、给权限、选模型、传文件、清�
 - 内置：子智能体、网页搜索、Agent 循环、终端，默认就在
 - 实验性：智能体团队、语音输入、自定义插件索引、自动授权审查、变更请求与工作树，要手动打开
 
-![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/009.jpg)
+![](../images/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins/009.webp)
 
 智能体团队怎么用？ 它没有专门的指令，要在提示词里点名让它用 Agent Teams，并说清楚要哪些角色。三颗门牙 X 让它做一份 AI 自媒体选题，主 Agent 派出一个干活的、一个负责审查的，审完再改。
 

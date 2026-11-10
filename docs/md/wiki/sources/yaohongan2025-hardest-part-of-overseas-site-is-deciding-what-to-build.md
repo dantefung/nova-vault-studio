@@ -41,7 +41,7 @@ coverImage: "../images/yaohongan2025-hardest-part-of-overseas-site-is-deciding-w
 
 说实话这个结果挺打脸的。我认真做的那个，输在了做之前。
 
-![](../images/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build/002.jpg)
+![](../images/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build/002.webp)
 
 更扎心的是做完才发现的事。雷达把 clothes 当成敏感词，直接过滤掉了。同一个需求里最大的那个词，ai clothes changer，月搜 22200，雷达一次都没查过。我精心挑的那个词，从一开始就不是最好的那个。
 
@@ -81,7 +81,7 @@ https://x.com/yaohongan2025/status/2116020489961558277
 
 3，最贵的那一项根本没写进账里：时间。10 个站，每个站都要盯数据、回邮件、处理售后、补页面。我白天还要上班，晚上的时间就那么多，摊到 10 个站上，每个站都是浅浅地做一下。
 
-![](../images/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build/003.jpg)
+![](../images/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build/003.webp)
 
 我不是说新词不该做。我到现在也觉得，新词特别适合刚入门的人，它能让你确认一件事：我做的东西，真有陌生人愿意掏钱。这个正反馈对新手太重要了，我第一次收到哥伦比亚用户付的那 $5.99，盯着屏幕愣了半天。
 
@@ -263,7 +263,7 @@ AI 能帮我一天上一个站，帮我扒数据、写页面、提交收录。�
 
 3，动手之前，写好止损线。
 
-![](../images/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build/004.jpg)
+![](../images/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build/004.webp)
 
 做出海站快一个月，我花得最多的时间在写代码和上站，可真正决定结果的，是上站之前那几天想没想清楚。
 

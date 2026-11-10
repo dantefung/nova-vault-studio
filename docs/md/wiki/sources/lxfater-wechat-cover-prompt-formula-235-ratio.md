@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "铁锤人 (@lxfater)"
 url: "https://x.com/lxfater/status/2003800322750501117"
-coverImage: "../images/lxfater-wechat-cover-prompt-formula-235-ratio/001.jpg"
+coverImage: "../images/lxfater-wechat-cover-prompt-formula-235-ratio/001.webp"
 ---
 
 # 铁锤人（@lxfater）：公众号 2.35:1 高点击率首图封面提示词模板（真人摄影质感 + UI 贴纸排版）
@@ -53,7 +53,7 @@ coverImage: "../images/lxfater-wechat-cover-prompt-formula-235-ratio/001.jpg"
 
 发布一看，直接在原文中告诉我如何排版（露馅了） https://t.co/WxS6F8TLI0
 
-![](../images/lxfater-wechat-cover-prompt-formula-235-ratio/001.jpg)
+![](../images/lxfater-wechat-cover-prompt-formula-235-ratio/001.webp)
 
 ## 相关页面
 

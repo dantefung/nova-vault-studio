@@ -23,7 +23,7 @@ coverImage: "../images/laoyang-5-free-osint-tools-for-people-and-companies/001.j
 
 ## 先说五个工具各干什么
 
-![](../images/laoyang-5-free-osint-tools-for-people-and-companies/002.jpg)
+![](../images/laoyang-5-free-osint-tools-for-people-and-companies/002.webp)
 
 Blackbird（6300 Star）——用户名和邮箱都能查，接入 600+ 平台，查完免费调 AI 生成人物画像，PDF 一键导出。新手入门首选。
 
@@ -39,7 +39,7 @@ Shodan Python（2800 Star）——Shodan 是“设备版谷歌”，全网扫描
 
 ## 场景一：测谎另一半。
 
-![](../images/laoyang-5-free-osint-tools-for-people-and-companies/003.jpg)
+![](../images/laoyang-5-free-osint-tools-for-people-and-companies/003.webp)
 
 另一半说“我不玩社交软件”，你只知道他/她的常用昵称。
 
@@ -51,7 +51,7 @@ Shodan Python（2800 Star）——Shodan 是“设备版谷歌”，全网扫描
 
 ## 场景二：查情敌/查小三 / 查陌生人
 
-![](../images/laoyang-5-free-osint-tools-for-people-and-companies/004.jpg)
+![](../images/laoyang-5-free-osint-tools-for-people-and-companies/004.webp)
 
 只有一个用户名或邮箱。
 
@@ -61,7 +61,7 @@ Shodan Python（2800 Star）——Shodan 是“设备版谷歌”，全网扫描
 
 ## 场景三：查一家公司，商业尽调
 
-![](../images/laoyang-5-free-osint-tools-for-people-and-companies/005.jpg)
+![](../images/laoyang-5-free-osint-tools-for-people-and-companies/005.webp)
 
 准备跟一家公司合作，想先摸底。
 
@@ -75,7 +75,7 @@ Shodan Python（2800 Star）——Shodan 是“设备版谷歌”，全网扫描
 
 ## 场景四：查自己公司的安全及舆情管理
 
-![](../images/laoyang-5-free-osint-tools-for-people-and-companies/006.jpg)
+![](../images/laoyang-5-free-osint-tools-for-people-and-companies/006.webp)
 
 很多公司不知道自己在网上暴露了什么。
 
@@ -101,7 +101,7 @@ theHarvester 扒出子域名列表，能看出对方的产品线分布；Shodan 
 
 ## 五个工具，怎么搭配
 
-![](../images/laoyang-5-free-osint-tools-for-people-and-companies/007.jpg)
+![](../images/laoyang-5-free-osint-tools-for-people-and-companies/007.webp)
 
 拿到用户名 → Blackbird（快速全貌）→ Maigret（递归深挖）
 

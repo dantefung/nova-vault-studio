@@ -71,17 +71,17 @@ space-wechat-layout｜整篇排版：文章转公众号 HTML，一键复制贴�
 
 这些 Skill 不是孤立的工具，它们嵌在我每天的创作流程里。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/002.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/002.webp)
 
 1. 灵感记录
 
 灵感来了用语音输入法说一遍，发给微信文件传输助手，不用管语句通不通顺，记关键词就行。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/003.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/003.webp)
 
 还有一种记录，是把当下感受快速写下来，不懂的概念、词语、案例，全部用 xxx 来代替，下面的写作我会提到怎么来根据这些灵感扩写。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/004.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/004.webp)
 
 关键是把“想”和“写”分开
 
@@ -91,11 +91,11 @@ space-wechat-layout｜整篇排版：文章转公众号 HTML，一键复制贴�
 
 有了方向，用 baokuan-article-analysis 跑一遍赛道关键词，看最近什么选题在涨、哪类标题反复出现。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/005.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/005.webp)
 
 再用 gzh-explosive-content-detector 高阅读的文章，阅读很高，说明选题踩中了真实需求，顺便也能学学别人的写作风格
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/006.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/006.webp)
 
 选题是数据和灵感碰撞出来的。
 
@@ -107,7 +107,7 @@ space-wechat-layout｜整篇排版：文章转公众号 HTML，一键复制贴�
 
 核心原则：人定骨架，AI 填肉。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/007.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/007.webp)
 
 文章的观点、结构、起承转合必须是你的，AI 只负责把你没说完的话说完。
 
@@ -123,7 +123,7 @@ space-wechat-layout｜整篇排版：文章转公众号 HTML，一键复制贴�
 
 定稿后用 baokuan-title-generator 批量出十几个候选，它逐个评分、标注风险，按用途推荐。我挑两三个再自己改一版。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/008.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/008.webp)
 
 50%靠选题，30%拼标题和封面，剩下 20%才是把话捋顺。别把时间花错地方。
 
@@ -137,7 +137,7 @@ space-wechat-layout｜整篇排版：文章转公众号 HTML，一键复制贴�
 
 我最常用的就是把整篇文章发给 Agent，让它调用上面的 Skill，根据每段的中心意思出配图，就像这篇文章的配图风格。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/009.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/009.webp)
 
 封面用 space-gzh-cover，它会检查分享安全区，避免标题在聊天里被切掉一半。
 
@@ -145,11 +145,11 @@ space-wechat-layout｜整篇排版：文章转公众号 HTML，一键复制贴�
 
 最后用 space-wechat-layout 转成公众号 HTML，预览满意直接复制粘贴到后台。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/010.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/010.webp)
 
 我还做了一个飞书排版的插件，把我推送到飞书里的文章自动转成小红书图文和公众号排版，复制就能用，这个我用的最多。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/011.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/011.webp)
 
 我的习惯是让文章在草稿箱多躺两天。走路、排队时打开手机读一读，刚写完看不出问题，隔一天再读，别扭的地方全出来了。
 
@@ -167,7 +167,7 @@ space-wechat-layout｜整篇排版：文章转公众号 HTML，一键复制贴�
 
 最后用剪映配个字幕，发到 B 站、小红书、抖音。我在 B 站发了不少，浏览量还不错，感兴趣可以关注下❤️
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/012.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/012.webp)
 
 另一个是分发到不同平台。
 
@@ -175,7 +175,7 @@ space-wechat-layout｜整篇排版：文章转公众号 HTML，一键复制贴�
 
 这里用到的工具如下，一键发布所有平台。
 
-![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/013.jpg)
+![](../images/kongge-space-10-skills-daily-explosive-wechat-article-system/013.webp)
 
 ## 最后
 

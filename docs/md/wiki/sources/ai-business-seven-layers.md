@@ -22,7 +22,7 @@ url: "https://mp.weixin.qq.com/s/Gs2l6ZbY0ZFsGXn86xgs3g"
 
 下面从最底层开始拆解七种交付标的。
 
-![AI 商业七层模型](../images/ai-business-seven-layers/001.png)
+![AI 商业七层模型](../images/ai-business-seven-layers/001.webp)
 
 ### 第一层：干得快了，卖的还是时间
 

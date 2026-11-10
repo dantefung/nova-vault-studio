@@ -17,7 +17,7 @@ coverImage: "../images/xilo-codex-knowledge-video-editing-ab-roll-method/001.jpg
 
 某音 2 条视频开通精选计划，某书 2 条视频接下了近四位数商单。目前两个账号都只发了 3 条视频，就已经有不下于 10 个商单找上门了。还有小破站的创作邀约、一些平台的课程邀约。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/002.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/002.webp)
 
 Hi，朋友们，我又来交稿啦～
 
@@ -33,7 +33,7 @@ Hi，朋友们，我又来交稿啦～
 
 如果没有问题，那我们就开始。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/003.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/003.webp)
 
 ###
 
@@ -45,7 +45,7 @@ Hi，朋友们，我又来交稿啦～
 
 从我自己的经历来看，为什么 2 条视频就有品牌来找我，原因无外乎两个。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/004.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/004.webp)
 
 ### 一是视觉层面。
 
@@ -79,7 +79,7 @@ Hi，朋友们，我又来交稿啦～
 
 （A-roll、B-roll 是纪录片剪辑里常会用到的剪辑手法。A-roll 是主机位拍主体，B-roll 是补充镜头。放到我们这里，就是讲人和讲内容两条并行画面。）
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/005.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/005.webp)
 
 ### A-roll 画面主要承担什么
 
@@ -117,7 +117,7 @@ B-roll，则是补充画面。通过图表的方式，对知识进行画面上�
 
 ## 03. 需要准备什么工具？
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/006.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/006.webp)
 
 首要的肯定是 Codex，因为 Codex 自带生图模型，并且还是目前全球最好的生图模型。
 
@@ -127,13 +127,13 @@ B-roll，则是补充画面。通过图表的方式，对知识进行画面上�
 
 这个安装方法很简单，直接在 Codex 的插件市场，搜索 HyperFrames，找到并安装就行。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/007.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/007.webp)
 
 这是一个专门做动效的一个插件，A-roll 和 B-roll 里所有的动效、镜头运动、时间轴，都是靠 HyperFrames 渲染出来的。
 
 类似的插件还有 Remotion。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/008.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/008.webp)
 
 对比 HyperFrames，Remotion 的优势是通过帧数控制，所以动效的可控性会更好一些，并且 Remotion 相对成熟，你能找到很多好看的 Remotion 模板。
 
@@ -145,7 +145,7 @@ B-roll，则是补充画面。通过图表的方式，对知识进行画面上�
 
 使用方法也很简单，直接注册一个火山引擎的账号。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/009.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/009.webp)
 
 然后搜索豆包语音，就可以进入专题页面。
 
@@ -161,7 +161,7 @@ B-roll，则是补充画面。通过图表的方式，对知识进行画面上�
 
 ## 04. 如何调用 Codex 剪辑
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/010.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/010.webp)
 
 所有东西都准备好以后，我们就可以进入实际的剪辑流程。
 
@@ -181,7 +181,7 @@ B-roll，则是补充画面。通过图表的方式，对知识进行画面上�
 
 不过这里要注意提醒 Codex，文案一定要整段合成，不要分句再组合。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/011.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/011.webp)
 
 如果你不提醒，Codex 大概率会分句合成，每句话都调用一次豆包语音，最后再组合起来。
 
@@ -237,7 +237,7 @@ B-roll，则是补充画面。通过图表的方式，对知识进行画面上�
 
 比方说哪一段文案要用 A-roll、哪一段文案用 B-roll，每个镜头持续多久、画面上要发生什么变化、和前后镜头怎么衔接，这些都是要在视觉编排表里写清楚的。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/012.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/012.webp)
 
 这里我同样准备了一份提示词，你可以直接发给 Codex。
 
@@ -365,23 +365,23 @@ IP 形象一致性
 
 即便是一次对了，你也很难保证每一次生成都是对的。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/013.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/013.webp)
 
 所以我给到 AI 的参考图，一般都不会只给一张，而是会同时给到它人物三视图和细节笔触图。
 
 人物三视图，主要是确保角色本身是对的，五官、体型这些不会出现偏差。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/014.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/014.webp)
 
 细节笔触图，就是笔画的呈现细节，比方说上色方式、线条粗细和线型。这样 AI 每次生成时，整体的画面风格就不会有太大偏差。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/015.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/015.webp)
 
 另外，我还会准备一张场景图。
 
 因为我 A-roll 主要是小剧场类型的内容，所以场景也会比较关键。这个场景图，主要是让 AI 参考整体的场景风格，让它知道场景应该是什么样的。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/016.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/016.webp)
 
 光有参考图还不够，在提示词上还要有一些关键约束。
 
@@ -514,7 +514,7 @@ B-roll 的思路和 A-roll 类似，也是先分类型，再决定用什么表�
 
 B-roll 我主要区分了三种类型：有素材类型、无素材类型、纯文字类型。
 
-![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/017.jpg)
+![](../images/xilo-codex-knowledge-video-editing-ab-roll-method/017.webp)
 
 有素材类型，就是这段内容需要用到一些实际截图或录屏。比方说我之前视频里出现过的商单截图、工具页面录屏这些。
 

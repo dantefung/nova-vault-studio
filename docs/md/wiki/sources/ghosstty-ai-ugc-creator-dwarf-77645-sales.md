@@ -13,7 +13,7 @@ coverImage: "../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/001.jpg"
 
 <!-- more -->
 
-![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/002.jpg)
+![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/002.webp)
 
 I’m using “AI UGC Creator” to mean one specific thing.
 
@@ -27,9 +27,9 @@ Shopify dashboard, October 1, 2026. 90,018 sessions. $77,645 in sales. +573% tra
 
 She is the proof. The method is extensible. Four more AI UGC Creators are in production for four more niches. When they start posting, I’ll quote this article every time a new one hits.
 
-![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/003.jpg)
+![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/003.webp)
 
-![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/004.jpg)
+![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/004.webp)
 
 Why generic AI-UGC fails for niche aesthetics
 
@@ -110,7 +110,7 @@ The ending question triples the comment count. Nothing in generative AI makes a 
 
 ## The stack. Opus 5.5 + Higgsfield + CapCut
 
-![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/005.png)
+![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/005.webp)
 
 Three tools, each doing one thing.
 
@@ -255,7 +255,7 @@ Each final video (15–45 seconds depending on the archetype) burns roughly 200 
 
 Across 7 months the Higgsfield spend was approximately $693.
 
-![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/006.jpg)
+![](../images/ghosstty-ai-ugc-creator-dwarf-77645-sales/006.webp)
 
 That’s 0.89% of $77,645 in revenue.
 

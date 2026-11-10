@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "Unicorn (@ohayou792)"
 url: "https://x.com/ohayou792/status/2116884456006897800"
-coverImage: "../images/ohayou-claude-artifacts-ui-design-system-leak/001.png"
+coverImage: "../images/ohayou-claude-artifacts-ui-design-system-leak/001.webp"
 ---
 
 # Unicorn（@ohayou792）：Claude 内部组件设计系统提示词与完整 UI 规范解析
@@ -96,13 +96,13 @@ coverImage: "../images/ohayou-claude-artifacts-ui-design-system-leak/001.png"
 
 原版 Prompt 见评论区⬇️
 
-![](../images/ohayou-claude-artifacts-ui-design-system-leak/001.png)
+![](../images/ohayou-claude-artifacts-ui-design-system-leak/001.webp)
 
-![](../images/ohayou-claude-artifacts-ui-design-system-leak/002.png)
+![](../images/ohayou-claude-artifacts-ui-design-system-leak/002.webp)
 
-![](../images/ohayou-claude-artifacts-ui-design-system-leak/003.png)
+![](../images/ohayou-claude-artifacts-ui-design-system-leak/003.webp)
 
-![](../images/ohayou-claude-artifacts-ui-design-system-leak/004.png)
+![](../images/ohayou-claude-artifacts-ui-design-system-leak/004.webp)
 
 Imagine — Visual Creation Suite
 

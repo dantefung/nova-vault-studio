@@ -45,7 +45,7 @@ coverImage: "../images/miles-ma-ai-beginner-guide-no-courses/001.jpg"
 
 先记住一句就够了：AI 可以回答，可以生成，也可以做事，三种结果各有对应的检查方法。
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/002.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/002.webp)
 
 ## 二、AI 为什么时好时坏
 
@@ -65,7 +65,7 @@ AI 做不好一件事，常见的原因有四个。
 
 把这四类问题分开，就能对症处理。任务没说清，补任务；材料不够，补上下文；需要外部信息，给它工具；结果不稳，加上验收和人工确认。
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/003.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/003.webp)
 
 ## 三、提示词是一份任务说明
 
@@ -108,7 +108,7 @@ AI 做不好一件事，常见的原因有四个。
 
 小白最容易忽略的是最后一层。你让 AI 改了一篇文章，就去对数字、名字、图片和引用；你让 Codex 改了文件，就看实际 Diff，打开结果，运行对应检查。别只听它复述自己做了什么。
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/004.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/004.webp)
 
 ## 四、资料一多，你就会需要知识库
 
@@ -133,7 +133,7 @@ AI 做不好一件事，常见的原因有四个。
 
 所以个人入门时，可以先建一个很简单的结构：原始资料、已核验笔记、正在做的项目、已完成的产出。这时候它还不一定是一个专门产品，一个整理清楚的文件夹也可以是知识库的起点。
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/005.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/005.webp)
 
 ## 五、AI 通过工具获取外部信息
 
@@ -157,7 +157,7 @@ MCP 解决的是另一个问题：外部工具越来越多，怎样用相对统�
 
 读取和写入的风险等级不同。先让 AI 查询，再开放修改；先让它生成草稿，再由人确认发送。这样的边界比一句“请你一定要小心”更可靠。
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/006.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/006.webp)
 
 ## 六、一个流程反复用，才值得做成 Skill
 
@@ -188,7 +188,7 @@ Skill 是一个可复用的工作包，至少要说清楚五件事：
 
 能把这四个词分清，小白已经不容易被新产品的名字带跑了。
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/007.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/007.webp)
 
 ## 七、用一个案例走完七天
 
@@ -240,7 +240,7 @@ Skill 是一个可复用的工作包，至少要说清楚五件事：
 现在请用不超过 5 个问题了解我的起点，等我回答以后再制定学习方案。
 ```
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/008.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/008.webp)
 
 ## 小白最常问的 10 个问题
 
@@ -312,7 +312,7 @@ API 是系统对外提供的接口。工具是 AI 当前可以调用的某项能
 
 这条线走顺以后，你再去学新模型、新产品和新 Agent，心里就有尺子了。
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/009.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/009.webp)
 
 我是 Miles，一名 AI 行业应用者，也是一名连续创业者。
 
@@ -320,7 +320,7 @@ API 是系统对外提供的接口。工具是 AI 当前可以调用的某项能
 
 如果你也在做 AI，或者想知道怎么把 AI 真正用进工作，欢迎关注我，一起让技术真正发生价值。
 
-![](../images/miles-ma-ai-beginner-guide-no-courses/010.jpg)
+![](../images/miles-ma-ai-beginner-guide-no-courses/010.webp)
 
 ## 相关页面
 

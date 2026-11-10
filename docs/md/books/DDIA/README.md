@@ -5,7 +5,7 @@
 * 原书名称：《Designing Data-Intensive Application》
 
 
-![](images/title.png)
+![](images/title.webp)
 
 ## 声明
 
@@ -128,7 +128,7 @@
 
 复制和分区是不同的机制，但它们经常同时使用。如图II-1所示。
 
-![](images/figii-1.png)
+![](images/figii-1.webp)
 
 ##### 图II-1 复制与分区
 

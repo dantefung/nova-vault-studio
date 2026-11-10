@@ -331,26 +331,26 @@ graph TD
 
 [模型 API 才是打开 AI 的最佳方式](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487907&idx=1&sn=df83cacf3aec652eaff4a31095411623&chksm=c11d50bcf66ad9aa96b3b1af318ee5f39b598e61047c2af197b800e0aa5f4b10920618d6fe72&scene=21#wechat_redirect)
 
-[img-0]:images/04-03-map-fortune/p01.jpg
+[img-0]:images/04-03-map-fortune/p01.webp
 
-[img-1]:images/04-03-map-fortune/p02.jpg
+[img-1]:images/04-03-map-fortune/p02.webp
 
-[img-2]:images/04-03-map-fortune/p03.jpg
+[img-2]:images/04-03-map-fortune/p03.webp
 
-[img-3]:images/04-03-map-fortune/p04.jpg
+[img-3]:images/04-03-map-fortune/p04.webp
 
-[img-4]:images/04-03-map-fortune/p05.jpg
+[img-4]:images/04-03-map-fortune/p05.webp
 
-[img-5]:images/04-03-map-fortune/p06.jpg
+[img-5]:images/04-03-map-fortune/p06.webp
 
-[img-6]:images/04-03-map-fortune/p07.jpg
+[img-6]:images/04-03-map-fortune/p07.webp
 
-[img-7]:images/04-03-map-fortune/p08.jpg
+[img-7]:images/04-03-map-fortune/p08.webp
 
-[img-8]:images/04-03-map-fortune/p09.jpg
+[img-8]:images/04-03-map-fortune/p09.webp
 
-[img-9]:images/04-03-map-fortune/p10.jpg
+[img-9]:images/04-03-map-fortune/p10.webp
 
-[img-10]:images/04-03-map-fortune/p11.jpg
+[img-10]:images/04-03-map-fortune/p11.webp
 
-[img-11]:images/04-03-map-fortune/p12.jpg
+[img-11]:images/04-03-map-fortune/p12.webp

@@ -133,7 +133,7 @@ TIN（Tax Identification Number）就是税务识别号码，由马来西亚税�
 
 确认纳税人类型、护照号码、护照国家、邮箱和手机号码均填写正确后，再按照页面提示继续操作。
 
-![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/002.jpg)
+![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/002.webp)
 
 🇲🇾 第 3 步：查询是否已有 TIN 记录
 
@@ -153,7 +153,7 @@ TIN（Tax Identification Number）就是税务识别号码，由马来西亚税�
 
 如果查询结果显示已有匹配记录，建议先核对信息，并按照官网提示处理，不要直接重复申请。
 
-![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/003.jpg)
+![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/003.webp)
 
 填写注册表（BAHAGIAN A 基本信息）
 
@@ -173,19 +173,19 @@ TIN（Tax Identification Number）就是税务识别号码，由马来西亚税�
 
 保存成功后，点击 「Next」，继续填写后续的注册资料。
 
-![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/004.jpg)
+![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/004.webp)
 
 可以用中国地址，也可以用马来西亚地址。马来西亚地址可以通过 Google 地图查找。
 
-![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/005.jpg)
+![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/005.webp)
 
 选单身，这步可以跳过，如果前面选已婚 ，这里是需要填配偶的信息
 
-![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/006.png)
+![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/006.webp)
 
 在马来西亚没有工作，part C 直接留空 点击 next
 
-![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/007.jpg)
+![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/007.webp)
 
 🇲🇾 第 4 步：上传护照信息页
 
@@ -212,7 +212,7 @@ TIN（Tax Identification Number）就是税务识别号码，由马来西亚税�
 
 上传完成后，确认文件已经成功显示在页面中，再按照系统提示继续下一步。
 
-![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/008.jpg)
+![](../images/pinminlw-malaysia-personal-tax-number-tin-online-guide/008.webp)
 
 🇲🇾 第 6 步：申请人声明并提交
 

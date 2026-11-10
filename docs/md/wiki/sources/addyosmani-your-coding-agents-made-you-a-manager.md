@@ -207,7 +207,7 @@ Try these ideas:
 
 You don’t have to want to be a manager. But the engineers who do well with agents will have learned to manage along the way.
 
-![](../images/addyosmani-your-coding-agents-made-you-a-manager/002.png)
+![](../images/addyosmani-your-coding-agents-made-you-a-manager/002.webp)
 
 ## 相关页面
 

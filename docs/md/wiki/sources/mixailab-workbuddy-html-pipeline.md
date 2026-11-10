@@ -7,7 +7,7 @@ url: "https://x.com/mixailab/status/2101626520955748622"
 ---
 # 手把手教你用WorkBuddy做HTML视频
 
-![](../images/mixailab-workbuddy-html-pipeline/001.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/001.webp)
 
 大家有没有刷到一些讲解类视频，整体画面就像是一套能动的 HTML 版PPT？
 
@@ -19,12 +19,12 @@ url: "https://x.com/mixailab/status/2101626520955748622"
 
 视频一：
 
-![video](../images/mixailab-workbuddy-html-pipeline/002.jpg)
+![video](../images/mixailab-workbuddy-html-pipeline/002.webp)
 [video](../videos/mixailab-workbuddy-html-pipeline/001.mp4)
 
 视频二：
 
-![video](../images/mixailab-workbuddy-html-pipeline/003.jpg)
+![video](../images/mixailab-workbuddy-html-pipeline/003.webp)
 [video](../videos/mixailab-workbuddy-html-pipeline/002.mp4)
 
 整套流程分为4步：文案、音频、SRT字幕文件、HTML视频。
@@ -45,7 +45,7 @@ Node.js 22+：运行HyperFrames（配置交给AI）；
 
 FFmpeg：最后编码视频（配置交给AI）。
 
-![](../images/mixailab-workbuddy-html-pipeline/004.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/004.webp)
 
 最后在生成视频前，要有三份素材：
 
@@ -67,7 +67,7 @@ xxx.png、xxx.png    视觉参考图
 
 AI拿到它，就像拿到了一张画面排期表。卡片什么时候弹出来，哪一秒切场景，都能直接固定在时间戳上。
 
-![](../images/mixailab-workbuddy-html-pipeline/005.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/005.webp)
 
 ## 03. 第一步：先写一份“能变成画面”的口播稿
 
@@ -87,7 +87,7 @@ AI拿到它，就像拿到了一张画面排期表。卡片什么时候弹出来
 
 音频可以自己录制，也可以使用AI配音。手机录音、剪映或其他AI语音工具都能完成。
 
-![](../images/mixailab-workbuddy-html-pipeline/006.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/006.webp)
 
 录完后，把明显口误、过长停顿和多余空白剪掉。但别剪得太狠，画面也需要给观众留一点看字的时间。
 
@@ -103,7 +103,7 @@ AI拿到它，就像拿到了一张画面排期表。卡片什么时候弹出来
 
 检查完，导出xxx.srt文件。
 
-![](../images/mixailab-workbuddy-html-pipeline/007.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/007.webp)
 
 用文本编辑器打开看一眼。只要有编号、起止时间和文字，这份“画面排期表”就做好了。
 
@@ -113,7 +113,7 @@ AI拿到它，就像拿到了一张画面排期表。卡片什么时候弹出来
 
 在WorkBuddy 中接入 HyperFrames，一条命令即可。
 
-![](../images/mixailab-workbuddy-html-pipeline/008.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/008.webp)
 
 准备工作空间，先新建专属文件夹，层级结构可以是这样：
 
@@ -131,11 +131,11 @@ AI口播/
 
 把配音、SRT、参考图放进 input。
 
-![](../images/mixailab-workbuddy-html-pipeline/009.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/009.webp)
 
 建议通过“设置工作空间”选择整个 AI口播 文件夹，然后工作模式选 Plan 模式，模型可以选择 auto。
 
-![](../images/mixailab-workbuddy-html-pipeline/010.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/010.webp)
 
 然后，复制这段提示词交给WorkBuddy。
 
@@ -167,11 +167,11 @@ AI口播/
 
 后续WorkBuddy可能会请求询问你风格样式。可根据个人情况选择：
 
-![](../images/mixailab-workbuddy-html-pipeline/011.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/011.webp)
 
 等它渲染生成后，打开预览。
 
-![](../images/mixailab-workbuddy-html-pipeline/012.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/012.webp)
 
 到这里，已经生成一条完整视频了，不需要录屏，也不用手动翻页，HyperFrames会按照时间逐帧读取HTML，再编码成MP4。
 
@@ -205,7 +205,7 @@ AI口播/
 
 当然，发布前也要检查一下版权，避免出现版权问题。
 
-![](../images/mixailab-workbuddy-html-pipeline/013.jpg)
+![](../images/mixailab-workbuddy-html-pipeline/013.webp)
 
 这套工作流特别适合知识讲解、产品介绍和不露脸口播。
 

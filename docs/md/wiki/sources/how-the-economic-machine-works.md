@@ -17,7 +17,7 @@ Medium 发布日期：2020-04-03
 
 ## 模型总览
 
-![生产率、短期债务周期和长期债务周期](../images/how-the-economic-machine-works/001.jpg)
+![生产率、短期债务周期和长期债务周期](../images/how-the-economic-machine-works/001.webp)
 
 该模型认为，经济看似复杂，但可以从三个主要动力理解：
 
@@ -34,7 +34,7 @@ Medium 发布日期：2020-04-03
 价格 = 支出总额 / 销量
 ```
 
-![支出总额是经济的驱动力](../images/how-the-economic-machine-works/002.jpg)
+![支出总额是经济的驱动力](../images/how-the-economic-machine-works/002.webp)
 
 个人、企业、银行和政府都参与交易。中央政府通过征税和支出影响经济；中央银行则通过利率、货币和信贷条件发挥作用。
 
@@ -42,7 +42,7 @@ Medium 发布日期：2020-04-03
 
 信贷产生时，同时出现两笔对应记录：它是贷款人的资产，也是借款人的负债。借款人偿还本金和利息后，这组资产与负债才消失。
 
-![信贷产生后成为资产与负债](../images/how-the-economic-machine-works/003.jpg)
+![信贷产生后成为资产与负债](../images/how-the-economic-machine-works/003.webp)
 
 信贷之所以关键，是因为它允许当前支出超过当前收入：
 
@@ -61,7 +61,7 @@ Medium 发布日期：2020-04-03
 
 ## 短期债务周期
 
-![短期债务周期](../images/how-the-economic-machine-works/004.jpg)
+![短期债务周期](../images/how-the-economic-machine-works/004.webp)
 
 短期周期的典型因果链是：
 
@@ -75,13 +75,13 @@ Medium 发布日期：2020-04-03
 
 ## 长期债务周期
 
-![短期周期叠加为长期债务周期](../images/how-the-economic-machine-works/005.jpg)
+![短期周期叠加为长期债务周期](../images/how-the-economic-machine-works/005.webp)
 
 多个短期周期之后，债务和经济活动的高点往往高于上一轮。繁荣期的收入增长和资产升值提高了抵押物价值，使贷款人愿意继续放贷；借来的资金进一步推高资产价格，形成正反馈。
 
 当偿债成本增长快于收入时，借款人被迫削减支出。支出是他人的收入，因此收入随之下降，信用度恶化，信贷收缩，资产被抛售，长期周期开始逆转。
 
-![长期债务周期的历史峰值](../images/how-the-economic-machine-works/006.jpg)
+![长期债务周期的历史峰值](../images/how-the-economic-machine-works/006.webp)
 
 ## 去杠杆化
 
@@ -106,7 +106,7 @@ Medium 发布日期：2020-04-03
 3. 通过税收和财政支出重新分配财富。
 4. 中央银行创造货币并购买金融资产或政府债券。
 
-![去杠杆化的四类政策工具](../images/how-the-economic-machine-works/007.jpg)
+![去杠杆化的四类政策工具](../images/how-the-economic-machine-works/007.webp)
 
 这些工具分别带来通缩或通胀压力。紧缩和债务减记通常压低支出、收入和资产价格；货币创造与财政支出则试图补偿消失的信贷和需求。
 
@@ -114,7 +114,7 @@ Medium 发布日期：2020-04-03
 
 所谓“和谐去杠杆化”，是让债务相对收入下降，同时维持温和的正增长和可控通胀。关键不是无限创造货币，而是让收入增长快于债务利息增长，并在紧缩、重组、再分配和货币创造之间取得平衡。
 
-![从去杠杆化进入再通胀与恢复](../images/how-the-economic-machine-works/008.jpg)
+![从去杠杆化进入再通胀与恢复](../images/how-the-economic-machine-works/008.webp)
 
 若货币投放只是抵消信用收缩，模型认为未必造成高通胀；若投放远超消失的信贷和实际供给能力，则可能导致货币贬值与恶性通胀。
 

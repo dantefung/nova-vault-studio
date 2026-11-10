@@ -25,7 +25,7 @@ coverImage: "../images/victor-chen-ai-workbench-six-figure-profit/001.jpg"
 
 你做完会拿到这样的回复单。问文件，解释清楚交什么；问价格，先收齐材料；想多改背景，单独确认。
 
-![](../images/victor-chen-ai-workbench-six-figure-profit/002.jpg)
+![](../images/victor-chen-ai-workbench-six-figure-profit/002.webp)
 
 做完的样子：实际下载的回复单。客户能看懂图片可以直接发，PPT 以后还能自己改字。
 
@@ -55,7 +55,7 @@ coverImage: "../images/victor-chen-ai-workbench-six-figure-profit/001.jpg"
 
 换成自己的业务时，改的就是这里。比如你做简历，就写清交付 PDF 还是 Word、包含几轮修改。AI 不知道你的服务规则，需要你先告诉它。
 
-![](../images/victor-chen-ai-workbench-six-figure-profit/003.jpg)
+![](../images/victor-chen-ai-workbench-six-figure-profit/003.webp)
 
 ① 点“01 写清服务”，把范围和交付文件填进资料框。完整练习资料在正文里，可以直接复制。
 
@@ -101,7 +101,7 @@ coverImage: "../images/victor-chen-ai-workbench-six-figure-profit/001.jpg"
 
 打开后应该能看到 3 个问题和回复。我这次做出来的按钮，分别叫“写清服务”“看 3 条回复”“改成我的话”“下载文件”。你的页面可能长得不同，能完成同样动作就行。
 
-![](../images/victor-chen-ai-workbench-six-figure-profit/004.jpg)
+![](../images/victor-chen-ai-workbench-six-figure-profit/004.webp)
 
 ② 打开 HTML 后，顶部有这 4 个步骤按钮。点“02 看 3 条回复”，往下就能检查客户问题和回复。
 
@@ -117,7 +117,7 @@ coverImage: "../images/victor-chen-ai-workbench-six-figure-profit/001.jpg"
 
 第三条问换背景。我让回复写清楚“换背景需要另外确认工作量和费用”，这样客户不会把新增工作理解成原来就包含的项目。
 
-![](../images/victor-chen-ai-workbench-six-figure-profit/005.jpg)
+![](../images/victor-chen-ai-workbench-six-figure-profit/005.webp)
 
 ③ 检查“明天下午能交吗”这一条。回复先要材料，没有凭空报价格或答应时间。
 
@@ -131,7 +131,7 @@ AI 原稿里写的是“会交付 PNG 成图和可编辑 PPTX 源文件”。我
 
 改完点“保存这次修改”。这里保留原稿，方便下次比较。客户关心能拿来干什么，“可以直接发”“以后能自己改字”比两个文件格式好理解。
 
-![](../images/victor-chen-ai-workbench-six-figure-profit/006.jpg)
+![](../images/victor-chen-ai-workbench-six-figure-profit/006.webp)
 
 ④ 在“我准备怎么回”里改字，再点“保存这次修改”。图中是实际改好的回复和保存按钮。
 
@@ -143,7 +143,7 @@ AI 原稿里写的是“会交付 PNG 成图和可编辑 PPTX 源文件”。我
 
 “下载备份 JSON”是下次接着改用的。JSON 是保存记录的文件格式，不用手工改里面的代码。
 
-![](../images/victor-chen-ai-workbench-six-figure-profit/007.jpg)
+![](../images/victor-chen-ai-workbench-six-figure-profit/007.webp)
 
 ⑤ 分别点两个下载按钮。浏览器里应出现 service-workbench-handoff.html 和 service-workbench-record.json。
 
@@ -153,7 +153,7 @@ AI 原稿里写的是“会交付 PNG 成图和可编辑 PPTX 源文件”。我
 
 再打开 HTML，检查给别人看的回复单是不是同样的内容。如果没看到新文字，先确认选的是刚才那份文件，别把旧备份打开了。
 
-![](../images/victor-chen-ai-workbench-six-figure-profit/008.jpg)
+![](../images/victor-chen-ai-workbench-six-figure-profit/008.webp)
 
 ⑥ 选刚下载的备份。看到“重新打开成功”，并且刚改的句子还在，这一轮才算做完。
 

@@ -4,7 +4,7 @@ date: "2026-11-03"
 source: "X/Twitter"
 author: "WquGuru (@wquguru)"
 url: "https://x.com/wquguru/status/2117241567660704001"
-coverImage: "../images/wquguru-us-llc-registration-and-maintenance-for-indie-devs/001.jpg"
+coverImage: "../images/wquguru-us-llc-registration-and-maintenance-for-indie-devs/001.webp"
 ---
 
 # WquGuru（@wquguru）：独立开发者出海注册与维护美国公司指南（成本/避坑/报税/苹果开发者）
@@ -28,7 +28,7 @@ coverImage: "../images/wquguru-us-llc-registration-and-maintenance-for-indie-dev
 
 适合做 App 出海、要美元收款、想用英文公司名当卖家的人。
 
-![](../images/wquguru-us-llc-registration-and-maintenance-for-indie-devs/001.jpg)
+![](../images/wquguru-us-llc-registration-and-maintenance-for-indie-devs/001.webp)
 
 完整教程（附提示词，丢给 Grokbot 或 Muse 即可）：https://muse.ai/s/llc-apple-muse-mxk63xappa4w0/1fv8TJIG5qqKTBn8by7qL-Y0AeJ_utnNUKBU6xYSmsI
 

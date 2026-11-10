@@ -64,7 +64,7 @@ $10,000 可能不会很快改变人生，
 
 让整个市场成为自己的底仓。
 
-![](../images/yanliudreamer-10k-usd-us-stocks-investment-blueprint/002.jpg)
+![](../images/yanliudreamer-10k-usd-us-stocks-investment-blueprint/002.webp)
 
 原因很简单：
 

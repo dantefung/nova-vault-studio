@@ -14,17 +14,17 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
 哥飞一向是说完想法了，先自己实践一下，说干就干，打开 Semrush 查 vc.ru 的出站域名，截图如下图所示。
 
-![](images/outbound-domain-demand-discovery/img_002.png)
+![](images/outbound-domain-demand-discovery/img_002.webp)
 
-![](images/outbound-domain-demand-discovery/img_003.png)
+![](images/outbound-domain-demand-discovery/img_003.webp)
 
-![](images/outbound-domain-demand-discovery/img_004.png)
+![](images/outbound-domain-demand-discovery/img_004.webp)
 
 果然发现了很多新站，但此时又有个问题，哥飞需要手动一个一个域名去复制，然后查询 whois 判断域名注册时间，再去 Similarweb 查询流量。
 
 于是哥飞就给群里的 @Banbri 提供一个产品的小思路了。
 
-![](images/outbound-domain-demand-discovery/img_005.png)
+![](images/outbound-domain-demand-discovery/img_005.webp)
 
 相当于把查询出来的出站域名都批量保存起来，都查一下 whois 获取注册时间，再查 Similarweb 获取流量数据，再查 Archive.org 获取收录的历史页面，还可以再用 [分享 10 个基于第三方谷歌搜索 API 的可实操赚钱方法](https://mp.weixin.qq.com/s/vQ9GJ5cHFh-z0q3lVsgteA) 这个谷歌搜索 API 查询更多相关信息。
 
@@ -34,15 +34,15 @@ url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 
 而最核心的思路其实是开头说过的，因为这些新网站需要去各个地方宣传推广，那么就一定会留下链接，我们根据这些网站的出站域名就能够发现这些新网站。
 
-![](images/outbound-domain-demand-discovery/img_006.png)
+![](images/outbound-domain-demand-discovery/img_006.webp)
 
 群友们根据哥飞的演示，马上就总结出来了这个方法的价值所在，能够研究需求，分析竞对。
 
-![](images/outbound-domain-demand-discovery/img_007.png)
+![](images/outbound-domain-demand-discovery/img_007.webp)
 
 damo 老板想到了更多，他说这一套方法甚至可以做成一个服务，卖给所有的需要推广的开发者。
 
-![](images/outbound-domain-demand-discovery/img_008.png)
+![](images/outbound-domain-demand-discovery/img_008.webp)
 
 以上就是哥飞给大家分享的如何使用 Semrush 的查询出站域名，发掘新产品，新需求的方法，以及群友们基于这个方法总结的更广泛的使用场景。
 

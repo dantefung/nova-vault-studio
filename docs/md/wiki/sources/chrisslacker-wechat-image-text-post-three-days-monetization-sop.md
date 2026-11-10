@@ -4,7 +4,7 @@ date: "2026-11-04"
 source: "X/Twitter"
 author: "科技混子Chris (@ChrisSlacker)"
 url: "https://x.com/ChrisSlacker/status/2093160607541502218"
-coverImage: "../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/001.jpg"
+coverImage: "../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/001.webp"
 ---
 
 # 科技混子 Chris（@ChrisSlacker）：公众号贴图，3 天收入破百，1 篇收入破千——附 5 步实操 SOP
@@ -21,7 +21,7 @@ coverImage: "../images/chrisslacker-wechat-image-text-post-three-days-monetizati
 
 【附 5 步：选题 → 出图 → 变现】
 
-![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/001.jpg)
+![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/001.webp)
 
 必备工具
 
@@ -40,7 +40,7 @@ coverImage: "../images/chrisslacker-wechat-image-text-post-three-days-monetizati
 3. 微信公众号贴图
    选题验过了再发，先把结构跑通，再谈日更
 
-![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/002.jpg)
+![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/002.webp)
 
 第一步：看清窗口在哪
 
@@ -54,7 +54,7 @@ coverImage: "../images/chrisslacker-wechat-image-text-post-three-days-monetizati
 
 外面看着土、小、不起眼 目标用户那儿就是刚需 https://t.co/ib8E2XFSj1
 
-![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/003.jpg)
+![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/003.webp)
 
 第二步：选人群
 
@@ -72,7 +72,7 @@ coverImage: "../images/chrisslacker-wechat-image-text-post-three-days-monetizati
 
 越靠近钱，越要合规 别承诺疗效，别打包票
 
-![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/004.jpg)
+![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/004.webp)
 
 第三步：拆爆款
 
@@ -86,7 +86,7 @@ coverImage: "../images/chrisslacker-wechat-image-text-post-three-days-monetizati
 
 重点看低粉爆款，大号爆了可能只是粉丝多， 粉丝少还能高收藏、高评论，说明选题本身击中了需求 https://t.co/Ekmv5pcbmi
 
-![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/005.jpg)
+![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/005.webp)
 
 第四步：把一条内容做成流水线
 
@@ -96,7 +96,7 @@ coverImage: "../images/chrisslacker-wechat-image-text-post-three-days-monetizati
 
 正文 3 到 5 句：一句观察、一个方法、一个评论钩子。发之前把推荐、留言、商品、标签勾上。 https://t.co/eghhRuSDAi
 
-![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/006.jpg)
+![](../images/chrisslacker-wechat-image-text-post-three-days-monetization-sop/006.webp)
 
 第五步：贴图只是赚钱的开始
 

@@ -57,7 +57,7 @@ url: "https://mp.weixin.qq.com/s/VFQXuwYW-q6IXjnECsfKow"
 
 Linux 驱动里通常会有一个匹配表，写着自己支持哪些 `compatible` 字符串。内核启动时，拿设备树里的设备节点去和驱动匹配，匹配上了就调用驱动的 probe 函数。
 
-![compatible 匹配流程](../images/device-tree-essentials/002.png)
+![compatible 匹配流程](../images/device-tree-essentials/002.webp)
 
 如果你设备树里的 `compatible` 写错了，驱动可能根本不会 probe。很多新手调驱动调半天，最后发现不是代码没执行，而是设备和驱动压根没匹配上。
 

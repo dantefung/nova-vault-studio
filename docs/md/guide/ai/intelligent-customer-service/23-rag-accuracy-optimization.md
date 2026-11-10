@@ -17,7 +17,7 @@ url: "https://mp.weixin.qq.com/s/mO9l5oJDHOc4tbuVNVzlkg"
 
 **不要只在一个环节上死磕，整条链路都得优化。**
 
-![RAG 完整流程](./images/23-rag-accuracy-optimization/002.jpeg)
+![RAG 完整流程](images/23-rag-accuracy-optimization/002.webp)
 
 ---
 

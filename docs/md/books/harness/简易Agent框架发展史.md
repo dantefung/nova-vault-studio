@@ -10,7 +10,7 @@ url: "https://mp.weixin.qq.com/s/sL7nhARd0btKDFQ0BTNIMA"
 
 最初的Agent，是将预先定义的一些工具函数提供给模型推理选择，应用层将工具结果回传给模型，模型继续推理，直到问题解决，当然现在这个应用层统一叫做harness。
 
-![](./images/agent-framework-history/1.jpg)
+![](images/agent-framework-history/1.webp)
 
 Agent的定义是能够基于环境自主感知，作出决策（如调用工具），最终完成预定目标的任务自执行系统。
 
@@ -24,7 +24,7 @@ Agent的定义是能够基于环境自主感知，作出决策（如调用工具
 
 所以，一个典型的Agent包含以下几个核心模块：
 
-![](./images/agent-framework-history/2.png)
+![](images/agent-framework-history/2.webp)
 
 ## 大模型
 
@@ -40,7 +40,7 @@ Agent的定义是能够基于环境自主感知，作出决策（如调用工具
 
 记忆的存储有多种方式，比如可以通过向量数据库的方式实现语义检索/相似语义的召回。
 
-![](./images/agent-framework-history/3.png)
+![](images/agent-framework-history/3.webp)
 
 知识图谱可以做结构化的实体与关系存取，可以基于意图精确推理和多步查询。
 
@@ -52,7 +52,7 @@ openclaw更简单，将记忆存储到本地md文件中。
 
 不给模型配备工具，它就是一个chatbot，工具是模型与环境交互的接口。
 
-![](./images/agent-framework-history/6.png)
+![](images/agent-framework-history/6.webp)
 
 模型之所以可以选择对的工具，在于工具有完整的名称/秒数/参数/返回值说明，agent在推理过程中，可以根据以上描述信息选取合适的工具完成具体工作。
 
@@ -88,7 +88,7 @@ agent在反复执行的过程，包含感知/思考/工具执行/记忆/结果�
 
 agentLoop + contextBuilder + toolRegistry + agentHook
 
-![](./images/agent-framework-history/8.png)
+![](images/agent-framework-history/8.webp)
 
 ## agentLoop
 
@@ -98,17 +98,17 @@ agentLoop是整个agent的心脏，是所有逻辑的入口，负责接收消息
 
 contextBuilder负责从多个信源组装完整的systemPrompt，让agent知道自己是谁/能做什么/该怎么做。前三步很好理解，第五步只是将skill的名称和描述注入到prompt中，而不是把skill全部内容塞进去。当agent决定采用哪个skill时，通过readfile工具，读取对应的skill.md内容。这是遵循 skill 的渐进式披露设计原则。渐进式披露实现上可以采用三级加载系统，第一级加载元数据，这部分数据永远在 contex 中。通过 skillSummary 将所有 skill 的摘要注入 systemPrompt 中，这样agent 看到的是一个技能清单，模型可以知道有什么工具可以用，但不需要知道具体怎么用。第二级是技能的全文注入，有些技能是需要全文提前注入的，这可以在SKILL.md 的 frontmatter 中可以标记，比如 always：true，说明这类 skill 要求完整内容注入到 systemPrompt 中，比如记忆的 skill 就需要完整提前注入进去，因为记忆随时需要。第三级是按需加载，在 systemPrompt 中会有提示，告诉 LLM 需要时，可以通过 readFile 方式加载 skill 详细信息。这样 agent 在需要某个 skill 时，会主动调用 readFile 工具读取完整的 SKILL.md，然后按照后续指令执行。一个标准的SKILL.md格式：
 
-![](./images/agent-framework-history/12.png)
+![](images/agent-framework-history/12.webp)
 
 ## toolRegistry
 
 toolRegistry用于管理所有可用工具，提供 JSON Schema 格式的工具定义给到 LLM，便于 LLM 在推理过程选择合适的工具。可以内置一些常用工具，如：
 
-![](./images/agent-framework-history/13.png)
+![](images/agent-framework-history/13.webp)
 
 同时也可以自定义工具，如：
 
-![](./images/agent-framework-history/14.png)
+![](images/agent-framework-history/14.webp)
 
 ## agentHook
 
@@ -118,7 +118,7 @@ agentHook是整个生命周期的钩子，基于这套钩子可以提供一些�
 
 项目结构：
 
-![](./images/agent-framework-history/15.png)
+![](images/agent-framework-history/15.webp)
 
 ## 定义工具
 
@@ -140,7 +140,7 @@ agent.md：
 
 编写 skill：
 
-![](./images/agent-framework-history/18.png)
+![](images/agent-framework-history/18.webp)
 
 以上基本上实现了一个 agent 的基本框架，agent 会先探索数据库结构，再编写并执行查询，最后生成答案。
 
@@ -148,8 +148,8 @@ agent.md：
 
 所以一个 agent 实现可以遵循的原则，配置优先，通过 config 文件实现配置，而无需大量的胶水代码。通过 skill 渐进式批量和三级加载方式，避免 token 和上下文窗口的浪费。显示注册工具，便于 agent 选取和调用工具，通过 hook 方式提供 agent 全生命周期的钩子，实现能力的拔插。
 
-![](./images/agent-framework-history/19.png)
-![](./images/agent-framework-history/24.png)
-![](./images/agent-framework-history/26.png)
-![](./images/agent-framework-history/27.png)
-![](./images/agent-framework-history/28.png)
+![](images/agent-framework-history/19.webp)
+![](images/agent-framework-history/24.webp)
+![](images/agent-framework-history/26.webp)
+![](images/agent-framework-history/27.webp)
+![](images/agent-framework-history/28.webp)

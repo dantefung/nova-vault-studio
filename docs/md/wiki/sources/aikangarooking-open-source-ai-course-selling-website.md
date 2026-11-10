@@ -17,11 +17,11 @@ coverImage: "../images/aikangarooking-open-source-ai-course-selling-website/001.
 
 最近我和兄弟们成立了 AgentWork 开源社区，也陆续开源了 workbuddy 蓝皮书以及豆包工作蓝皮书。都获得了不错的反响。
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/002.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/002.webp)
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/003.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/003.webp)
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/004.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/004.webp)
 
 前面两个蓝皮书都是办公类 Agent。但这次的书不太一样：
 
@@ -31,7 +31,7 @@ coverImage: "../images/aikangarooking-open-source-ai-course-selling-website/001.
 
 于是，耗时 30 天，我们开源了《魔搭紫皮书》：
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/005.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/005.webp)
 
 魔搭 modelscope，相信玩开源模型的朋友应该很熟悉了
 
@@ -49,21 +49,21 @@ coverImage: "../images/aikangarooking-open-source-ai-course-selling-website/001.
 
 先看目录，一共 8 篇 34 章（约 40 万字）：从简单，到进阶
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/006.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/006.webp)
 
 开头几章解决的都是新手容易卡住的问题，比如「开源模型的下载」「没有资源也能玩开源模型」。
 
 再往后是微调和评测。怎么把业务素材变成能训练的数据、用 ms-swift 做轻量微调、微调完到底有没有用得拿 EvalScope 测了才知道。这一块是很多人卡住的分水岭，从“会用模型”到“会调模型”，紫皮书是一步步带着你走的。
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/007.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/007.webp)
 
 场景篇是我觉得最有意思的部分：AI 健身教练（跟着视频练，让 AI 指出动作不标准的地方）、智能客服质检、能听也能说的语音助手、企业知识问答助手。每一个都是完整的业务系统，可以直接照着搞。
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/008.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/008.webp)
 
 并且，我们还有 Agent 篇，包含了 claude code、Pi、以及刚出不久的 DeepSeek Harness。
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/009.png)
+![](../images/aikangarooking-open-source-ai-course-selling-website/009.webp)
 
 这一篇是从 MCP 和 Skill 讲起的，先搞清楚模型怎么连外部工具、怎么把任务方法封装成能力，再去上手这三个 Agent。
 
@@ -75,11 +75,11 @@ coverImage: "../images/aikangarooking-open-source-ai-course-selling-website/001.
 
 紫皮书本身的代码和内容也都在 GitHub 上（欢迎 Star）：
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/010.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/010.webp)
 
 如果你有想法，欢迎共建～
 
-![](../images/aikangarooking-open-source-ai-course-selling-website/011.jpg)
+![](../images/aikangarooking-open-source-ai-course-selling-website/011.webp)
 
 这本书会一直更新下去。
 

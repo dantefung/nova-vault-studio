@@ -16,23 +16,23 @@ url: "https://mp.weixin.qq.com/s/IQJAf2jFha0Te2-SkNtdqw"
 
 去 https://business.trustpilot.com/ 注册一个免费的 Business Profile，填入你的网站地址、公司名，基本信息填完之后，然后用你的域名后缀的邮箱接收信息，激活账号后，在trustpilot.com 上就可以搜索到你的网站了，你也可以邀请你的忠实用户来进行评价，但是trustpilot 是明确说明不能用评价去换取网站激励的。
 
-![image](./images/001.png)
+![image](images/001.webp)
 
 ## 搜竞品差评，找产品机会
 
 之前我们提到过很多次，用户抱怨，差评就是我们的机会点，而Trustpilot 就是一个专门的网站评价网站，所以也可以试着在差评里面找到一些需求的。看差评就是搜索你的竞品或者一些大产品，然后选择一星评价即可。
 
-![image](./images/002.png)
+![image](images/002.webp)
 
 ## 把评价嵌入你的网站，提升转化率
 
 这个点是在pollo 上看到的，你可以看到网站底部有嵌入Trustpilot，因为是三方的数据，类似国内的大众点评，不过是全球互联网版本的，所以大家还是比较信任的。有些用户购买前，还会习惯性的去搜索一下Trustpilot。如果你的产品在Trustpilot的评价好，是有正向作用，提升转化率的。
 
-![image](./images/003.png)
+![image](images/003.webp)
 
 我是赫兹，专注网站出海第370天，持续分享网站出海内容。新朋友可以看看之前的文章合集；想系统学习，也推荐关注哥飞老师，我很多方法是向他学习的，微信搜索 361079 就可以找到他。
 
-![image](./images/004.jpeg)
+![image](images/004.webp)
 
 网站出海每日分享
 

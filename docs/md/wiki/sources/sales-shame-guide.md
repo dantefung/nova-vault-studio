@@ -10,7 +10,7 @@ url: "https://x.com/wangzaimedia/status/2103823484035956852"
 
 我最近发了一条关于销售的内容，没想到有十几万的观看。
 
-![](../images/sales-shame-guide/001.jpg)
+![](../images/sales-shame-guide/001.webp)
 
 这说明很多人真的对销售很苦恼。
 

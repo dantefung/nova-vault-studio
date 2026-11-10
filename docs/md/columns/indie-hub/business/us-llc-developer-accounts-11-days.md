@@ -216,7 +216,7 @@ url: "https://jasonzhu.ai/zh/blog/us-llc-developer-accounts"
 
 ---
 
-![人在国内，从注册美国公司到申请苹果和 Google 开发者账号](images/us-llc-developer-accounts/cover.png)
+![人在国内，从注册美国公司到申请苹果和 Google 开发者账号](images/us-llc-developer-accounts/cover.webp)
 
 我注册了一家怀俄明州的单人 LLC，用来上架自己的 App、收海外的钱。人在国内，没去美国，也没有 SSN。10 月 20 日下单，10 月 31 日把 Google Play 的验证材料交上去，前后 11 天。
 
@@ -228,7 +228,7 @@ url: "https://jasonzhu.ai/zh/blog/us-llc-developer-accounts"
 
 ## 时间线
 
-![11 天时间线](images/us-llc-developer-accounts/section-timeline.png)
+![11 天时间线](images/us-llc-developer-accounts/section-timeline.webp)
 
 | 日期 | 进展 |
 | --- | --- |
@@ -274,7 +274,7 @@ url: "https://jasonzhu.ai/zh/blog/us-llc-developer-accounts"
 
 我 10 月 20 日下单，州政府 21 日就批了。批下来后，后台的 Documents 里能下载盖了备案章的成立文件（Articles of Organization）。
 
-![Northwest 后台的 Documents 页面](images/us-llc-developer-accounts/01_northwest_documents.jpg)
+![Northwest 后台的 Documents 页面](images/us-llc-developer-accounts/01_northwest_documents.webp)
 
 *Northwest 后台：成立文件、运营协议模板、初始决议都在这里下载。*
 
@@ -296,7 +296,7 @@ EIN 相当于公司的税号，开银行账户、上架收款都要用。没有 
 | 传真 SS-4 表 | 免费 | 境外传真到 304-707-9471，表上要留能收传真的号码，IRS 把 EIN 传真回来 |
 | 找代办 | $50 到 $200 | 我用的 EasyFiling，$99，从提交到收到 147C 确认信用了 7 天 |
 
-![EasyFiling 的 EIN 代办页面](images/us-llc-developer-accounts/01_easyfiling_services.jpg)
+![EasyFiling 的 EIN 代办页面](images/us-llc-developer-accounts/01_easyfiling_services.webp)
 
 *EasyFiling 的 EIN 代办，$99 一口价。IRS 本身不收钱。*
 
@@ -305,13 +305,13 @@ EIN 相当于公司的税号，开银行账户、上架收款都要用。没有 
 - 负责人（Responsible Party）填你自己，身份选外国人（Foreigner），不需要 SSN。
 - EasyFiling 有个「从成立文件自动提取信息」的按钮。我试了一下，它把公司名识别成「Limited Liability Company」，后缀识别成「Ltd」。别点它，手动填。
 
-![Responsible Party 一栏填 Foreigner](images/us-llc-developer-accounts/01_easyfiling_foreigner.jpg)
+![Responsible Party 一栏填 Foreigner](images/us-llc-developer-accounts/01_easyfiling_foreigner.webp)
 
 *负责人没有 SSN 或 ITIN，这一栏就填 Foreigner。*
 
 EIN 下来后，保存 IRS 的确认信（CP 575 或 147C）。Mercury、Google 都要看这封信。
 
-![IRS 的 147C 确认信](images/us-llc-developer-accounts/01_irs_147c.jpg)
+![IRS 的 147C 确认信](images/us-llc-developer-accounts/01_irs_147c.webp)
 
 *IRS 的 147C 确认信。公司名、地址、EIN 和信件编号都打了码。*
 
@@ -323,7 +323,7 @@ EIN 下来后，保存 IRS 的确认信（CP 575 或 147C）。Mercury、Google 
 - 邮箱：Cloudflare 的 Email Routing 免费，可以把 hello@你的域名 转发到自己的 Gmail。后来注册 Google Play 时又加了一个 dev@，几分钟就加好。
 - 官网：一个静态页面就够。写清楚公司法定名称、注册地址、联系邮箱，再放一个隐私政策页。苹果对官网的要求是能打开、域名属于公司，不能是空壳页面。我放在 Cloudflare Workers 上，免费。
 
-![Cloudflare 电子邮件路由，新建转发规则](images/us-llc-developer-accounts/01_cloudflare_email_route.jpg)
+![Cloudflare 电子邮件路由，新建转发规则](images/us-llc-developer-accounts/01_cloudflare_email_route.webp)
 
 *Cloudflare 的电子邮件路由：新建一条规则，把 dev@ 转发到私人 Gmail。背后列表里那条是之前建的 hello@。*
 
@@ -338,7 +338,7 @@ D-U-N-S 是邓白氏（Dun & Bradstreet）给企业的九位编号，免费。�
 3. 过两天，邓白氏发邮件要材料。我是 10 月 23 日收到的，要求 72 小时内回复。第二天我回了他们的企业信息表（Business Information Form）和成立文件。
 4. 10 月 28 日收到编号。
 
-![邓白氏要求补材料的邮件](images/us-llc-developer-accounts/01_dnb_email.jpg)
+![邓白氏要求补材料的邮件](images/us-llc-developer-accounts/01_dnb_email.webp)
 
 *邓白氏的补材料邮件：要两份能看出公司名称和地址的文件。*
 
@@ -385,13 +385,13 @@ D-U-N-S 是邓白氏（Dun & Bradstreet）给企业的九位编号，免费。�
 1. 注册：用公司邮箱注册，设密码。
 2. 公司信息：行业、公司类型（LLC）、简介、电话、官网、社交账号。
 
-![Mercury 的公司信息页](images/us-llc-developer-accounts/02_company_info.jpg)
+![Mercury 的公司信息页](images/us-llc-developer-accounts/02_company_info.webp)
 
 *公司信息页。简介超过 299 个字符不会报错，只是存不上。*
 
 3. 地址：要填两个。法定地址（Legal Address）填注册代理的美国地址。实际经营地址（Physical Address）填你在国内的真实住址，Mercury 不接受代收地址、虚拟地址当实际地址。
 
-![Mercury 的实际经营地址页](images/us-llc-developer-accounts/02_physical_address.jpg)
+![Mercury 的实际经营地址页](images/us-llc-developer-accounts/02_physical_address.webp)
 
 *实际经营地址：办公室、住处或能核实的海外地址都行，虚拟地址、代收点、注册代理地址都不行。*
 
@@ -399,13 +399,13 @@ D-U-N-S 是邓白氏（Dun & Bradstreet）给企业的九位编号，免费。�
 5. 身份验证：用手机扫码，拍护照、自拍。
 6. 上传 EIN 确认信和地址证明。
 
-![上传 EIN 确认信](images/us-llc-developer-accounts/02_ein_document.jpg)
+![上传 EIN 确认信](images/us-llc-developer-accounts/02_ein_document.webp)
 
 *传 147C 就行。下面出现「Your document has all the information we need」，说明识别通过了。*
 
 7. 预计交易：首笔资金来源选 Self（自有资金）。预计月均余额、每月收付款金额我都选了 $0 到 $10K 这一档。收付款国家选了中国和美国，后来又加了香港，因为钱要从香港汇过去。
 
-![预计交易页](images/us-llc-developer-accounts/02_expected_activity.jpg)
+![预计交易页](images/us-llc-developer-accounts/02_expected_activity.webp)
 
 *预计交易：首笔资金来源勾 Self，别勾 Revenue。*
 
@@ -414,7 +414,7 @@ D-U-N-S 是邓白氏（Dun & Bradstreet）给企业的九位编号，免费。�
 
 ### 批下来之后：第一笔钱怎么进来
 
-![获批后的 Mercury 首页](images/us-llc-developer-accounts/02_fund_account.jpg)
+![获批后的 Mercury 首页](images/us-llc-developer-accounts/02_fund_account.webp)
 
 *获批后，首页第一件事就是问你怎么入金。从国外汇款点 Wire Transfer。*
 
@@ -427,7 +427,7 @@ D-U-N-S 是邓白氏（Dun & Bradstreet）给企业的九位编号，免费。�
 5. 中间行可能扣十几到几十美元手续费，可以多汇一点。
 6. 汇款回单留好，明年报 Form 5472 要用。
 
-![国际电汇的收款信息](images/us-llc-developer-accounts/02_international_wire.jpg)
+![国际电汇的收款信息](images/us-llc-developer-accounts/02_international_wire.webp)
 
 *Send international wire 页面。路由号和账号打了码，旁边都有复制按钮。*
 
@@ -473,19 +473,19 @@ D-U-N-S 是邓白氏（Dun & Bradstreet）给企业的九位编号，免费。�
 
 第一，选「供个人使用」。选「工作或企业」会跳到 Google Workspace 的注册页，那是收费的企业邮箱服务，还会接管你域名的邮件设置。
 
-![Google Workspace 的注册页](images/us-llc-developer-accounts/03_workspace_trap.jpg)
+![Google Workspace 的注册页](images/us-llc-developer-accounts/03_workspace_trap.webp)
 
 *选了「工作或企业」就会到这一页。这是 Workspace 的付费注册，关掉重来。*
 
 第二，到选 Gmail 地址那一步，点「使用现有邮箱」，填 hello@你的域名。验证码会转发到你的私人邮箱。
 
-![创建邮箱这一步](images/us-llc-developer-accounts/03_use_existing_email.jpg)
+![创建邮箱这一步](images/us-llc-developer-accounts/03_use_existing_email.webp)
 
 *把公司邮箱填进 Gmail 地址框会报错。要点右下角的「使用现有邮箱」。*
 
 第三，验证手机号。我的 +86 号码直接提示「此电话号码无法用于进行验证」，换了一个泰国号码才过。号码被拒别反复试，试多了只会更严。换个号码，或者换到手机上注册。
 
-![+86 号码被拒](images/us-llc-developer-accounts/03_phone_rejected.jpg)
+![+86 号码被拒](images/us-llc-developer-accounts/03_phone_rejected.webp)
 
 *+86 号码被拒。*
 
@@ -509,25 +509,25 @@ D-U-N-S 是邓白氏（Dun & Bradstreet）给企业的九位编号，免费。�
 | Google 如何与您联系 | 联系人、联系邮箱（必须和登录邮箱不同，还要是公司域名）、邮件语言、电话 |
 | 条款 | 勾选两项协议，点「创建账号并付款」 |
 
-![输入 D-U-N-S 后带出的公司信息](images/us-llc-developer-accounts/03_duns_confirm.jpg)
+![输入 D-U-N-S 后带出的公司信息](images/us-llc-developer-accounts/03_duns_confirm.webp)
 
 *支付资料：输入 D-U-N-S 后弹出邓白氏登记的公司名和地址，核对没问题再点确认。*
 
-![贵组织](images/us-llc-developer-accounts/03_org_info.jpg)
+![贵组织](images/us-llc-developer-accounts/03_org_info.webp)
 
 *贵组织：员工数、单位电话、官网。电话号码中间别加空格。*
 
-![Google 如何与您联系](images/us-llc-developer-accounts/03_contact_email_rules.jpg)
+![Google 如何与您联系](images/us-llc-developer-accounts/03_contact_email_rules.webp)
 
 *联系邮箱的四条要求。最容易踩的是第一条：不能和登录邮箱相同。*
 
-![条款](images/us-llc-developer-accounts/03_terms.jpg)
+![条款](images/us-llc-developer-accounts/03_terms.webp)
 
 *条款页：前两项协议必须勾，后两项是营销订阅，可以不勾。*
 
 $25 我用个人信用卡付的，在公司账上记作股东垫付。
 
-![开发者账号已创建](images/us-llc-developer-accounts/03_account_created.jpg)
+![开发者账号已创建](images/us-llc-developer-accounts/03_account_created.webp)
 
 *付完款，开发者账号就建好了，收据发到登录邮箱。*
 
@@ -535,7 +535,7 @@ $25 我用个人信用卡付的，在公司账上记作股东垫付。
 
 付款后，首页列出三项待办：验证身份、验证网站、验证电话。
 
-![Play Console 首页的三项待办](images/us-llc-developer-accounts/03_dashboard_tasks.jpg)
+![Play Console 首页的三项待办](images/us-llc-developer-accounts/03_dashboard_tasks.webp)
 
 *Play Console 首页。打码的是公司名和账号 ID。*
 
@@ -543,7 +543,7 @@ $25 我用个人信用卡付的，在公司账上记作股东垫付。
 
 组织部分，上传一份带公司注册信息的文件。Google 列的第一类就是 IRS 的信件（比如 CP 575），我传的是 EIN 确认信 147C。文件不能改动。
 
-![组织验证接受的文件](images/us-llc-developer-accounts/03_org_doc_list.jpg)
+![组织验证接受的文件](images/us-llc-developer-accounts/03_org_doc_list.webp)
 
 *组织验证接受的文件。我交的是 IRS 的 147C，还在审核。*
 
@@ -554,7 +554,7 @@ $25 我用个人信用卡付的，在公司账上记作股东垫付。
 - 我第一次传的是以前办签证用的扫描件，一张 A4 纸上有两页护照。提交后提示「验证信息存在 1 个问题」，退回来重填。重新用手机拍了一张护照资料页，就提交成功了。
 - 最后填你本人的住址。
 
-![选择证件签发国家](images/us-llc-developer-accounts/03_id_country.jpg)
+![选择证件签发国家](images/us-llc-developer-accounts/03_id_country.webp)
 
 *签发国家改成中国，默认选中的是驾照，要改选护照。*
 
@@ -563,7 +563,7 @@ $25 我用个人信用卡付的，在公司账上记作股东垫付。
 - 验证窗口是嵌在页面里的独立框架，上传文件最省事的办法，是从访达里把文件直接拖进去。
 - 国家列表很长，排序也怪。选证件国家的列表里，「中国」在最上面；选地址国家的列表里，「中国」在最下面。
 
-![验证材料提交完成](images/us-llc-developer-accounts/03_verification_done.jpg)
+![验证材料提交完成](images/us-llc-developer-accounts/03_verification_done.webp)
 
 *都交上去以后是这个页面，剩下的就是等。*
 
@@ -576,11 +576,11 @@ Play Console 要你证明官网是你的：
 3. 回 Search Console 点「验证」，通过。
 4. 回 Play Console 的「账号详情」，在单位网站旁边点「发送验证请求」。Search Console 的所有者就是你自己，所以马上显示「网站已通过验证」。
 
-![Search Console 的 DNS 验证](images/us-llc-developer-accounts/03_dns_txt.jpg)
+![Search Console 的 DNS 验证](images/us-llc-developer-accounts/03_dns_txt.webp)
 
 *Search Console 识别出域名在 Cloudflare。下拉框里改选「任何 DNS 提供商」，就会给你 TXT 记录自己去加。*
 
-![网站已通过验证](images/us-llc-developer-accounts/03_website_verified.jpg)
+![网站已通过验证](images/us-llc-developer-accounts/03_website_verified.webp)
 
 *回到 Play Console 的账号详情，单位网站下面显示「网站已通过验证」。*
 
@@ -626,13 +626,13 @@ Play Console 要你证明官网是你的：
 - 手机号收验证码，注册完双重认证就开好了。
 - 这个账号只在网页和 Apple Developer App 里登录，不要登录到 iPhone 或 Mac 的系统设置里，免得和私人 iCloud 混在一起。
 
-![注册 Apple 账号的最后几项](images/us-llc-developer-accounts/04_account_consent.jpg)
+![注册 Apple 账号的最后几项](images/us-llc-developer-accounts/04_account_consent.webp)
 
 *注册页最后是数据隐私说明、两个营销订阅和图片验证码。营销订阅可以不勾，验证码自己输。*
 
 建议在「账户安全」里再加一个受信任手机号，以后换号也不会被锁在外面。
 
-![账户安全里的两个受信任号码](images/us-llc-developer-accounts/04_trusted_numbers.jpg)
+![账户安全里的两个受信任号码](images/us-llc-developer-accounts/04_trusted_numbers.webp)
 
 *加了第二个受信任号码。*
 
@@ -640,7 +640,7 @@ Play Console 要你证明官网是你的：
 
 拿到编号后，先去 developer.apple.com/enroll/duns-lookup 查一下，我是两天后才查到的。能查到你的公司，苹果就会把编号发到你填的邮箱，说明可以申请了。查询表单最后有个图片验证码，要自己输。
 
-![D-U-N-S 查询成功](images/us-llc-developer-accounts/04_duns_lookup_found.jpg)
+![D-U-N-S 查询成功](images/us-llc-developer-accounts/04_duns_lookup_found.webp)
 
 *查到公司以后是这个页面，编号会发到你填的邮箱。*
 
@@ -648,7 +648,7 @@ Play Console 要你证明官网是你的：
 
 我用公司账号登录开发者网站，同意开发者协议之后，打开申请页，只看到一句「请用 Apple Developer App 注册」，网页上没有申请入口。苹果的中文帮助页里，组织注册写的也是在 iPhone 或 iPad 上用 App 完成，而且整个过程要用同一台设备。
 
-![申请页只有一句：用 App 注册](images/us-llc-developer-accounts/04_enroll_with_app.jpg)
+![申请页只有一句：用 App 注册](images/us-llc-developer-accounts/04_enroll_with_app.webp)
 
 *我的账号打开申请页，只有这一句。*
 
@@ -666,7 +666,7 @@ Play Console 要你证明官网是你的：
 
 实体类型：选 Organization。别选 Individual，选了它，商店上显示的卖家就是你个人的名字。
 
-![实体类型](images/us-llc-developer-accounts/04_entity_type.jpg)
+![实体类型](images/us-llc-developer-accounts/04_entity_type.webp)
 
 *实体类型选 Organization。*
 
@@ -687,7 +687,7 @@ Play Console 要你证明官网是你的：
 
 提交后会显示一个 Enrollment ID，记下来，以后联系苹果要用。
 
-![申请已提交](images/us-llc-developer-accounts/04_review.jpg)
+![申请已提交](images/us-llc-developer-accounts/04_review.webp)
 
 *提交成功。Enrollment ID 打了码。*
 
@@ -708,7 +708,7 @@ Play Console 要你证明官网是你的：
 
 我把护照和这几份文件合成一个 13 页的 PDF，大约 1MB，说明里写清楚哪几页是什么，一次交完。几分钟后苹果回信，说材料收到了，审核后会联系我。
 
-![苹果的材料上传页](images/us-llc-developer-accounts/04_upload_notes.jpg)
+![苹果的材料上传页](images/us-llc-developer-accounts/04_upload_notes.webp)
 
 *一个 PDF 交完，说明里按页码写清楚每部分是什么。右上角的 27 是还剩几个字符。*
 
@@ -729,7 +729,7 @@ Play Console 要你证明官网是你的：
 
 ## 总花费
 
-![总花费拆分](images/us-llc-developer-accounts/section-cost.png)
+![总花费拆分](images/us-llc-developer-accounts/section-cost.webp)
 
 | 项目 | 金额 | 备注 |
 | --- | --- | --- |

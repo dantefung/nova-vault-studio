@@ -41,7 +41,7 @@ Workspace 方式：所有内容都是普通文件，可以用任何文本编辑�
 
 ### "大脑外化"的隐喻
 
-![大脑外化概念图](../images/AgentScope-Workspace/001.jpeg)
+![大脑外化概念图](../images/AgentScope-Workspace/001.webp)
 
 Workspace 的核心隐喻是 **大脑外化（Brain Externalization）**——就像阿尔茨海默病患者把重要信息记在笔记本上，这本笔记本就是"大脑外化"的一部分。Agent 不再是一个"运行在内存中的神秘进程"，而是一个"以文件系统为载体的可观测、可编辑、可演化的实体"。
 
@@ -131,7 +131,7 @@ workspace/
 
 ## 四、System Prompt 运行时组装
 
-![System Prompt 组装流程](../images/AgentScope-Workspace/002.jpeg)
+![System Prompt 组装流程](../images/AgentScope-Workspace/002.webp)
 
 每次推理开始前，WorkspaceContextMiddleware 重新加载所有文件内容：
 

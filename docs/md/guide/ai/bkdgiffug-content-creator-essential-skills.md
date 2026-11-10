@@ -4,7 +4,7 @@ date: "2026-10-31"
 source: "X/Twitter"
 author: "lumxss (@bkdgiffug)"
 url: "https://x.com/bkdgiffug/status/2116416881372643391"
-coverImage: "images/bkdgiffug-content-creator-essential-skills/001.png"
+coverImage: "images/bkdgiffug-content-creator-essential-skills/001.webp"
 ---
 
 # 自媒体创作者必备 Skill 清单与多平台自动化工具集
@@ -43,4 +43,4 @@ coverImage: "images/bkdgiffug-content-creator-essential-skills/001.png"
 - [lucky-verma/awesome-creator-tools](https://github.com/lucky-verma/awesome-creator-tools) — 创作者工具合集（剪辑、字幕、发布等）
 - [JuneYaooo/awesome-ai-media](https://github.com/JuneYaooo/awesome-ai-media) — AI 视频与社媒自动化工具列表
 
-![自媒体创作者必备 Skill 清单](images/bkdgiffug-content-creator-essential-skills/001.png)
+![自媒体创作者必备 Skill 清单](images/bkdgiffug-content-creator-essential-skills/001.webp)

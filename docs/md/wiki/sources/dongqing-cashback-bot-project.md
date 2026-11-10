@@ -45,8 +45,8 @@ url: "https://x.com/DongQingAsk/status/2114628098809327891"
 
 原帖附有两张截图（见下方），展示了返利机器人的实际操作界面和佣金明细。
 
-![示例图1](images/dongqing-cashback-bot-project/HVfbu2YaMAA2trC.jpg)
-![示例图2](images/dongqing-cashback-bot-project/HVfbu2YbAAAtPBX.jpg)
+![示例图1](images/dongqing-cashback-bot-project/HVfbu2YaMAA2trC.webp)
+![示例图2](images/dongqing-cashback-bot-project/HVfbu2YbAAAtPBX.webp)
 
 ## 相关页面
 

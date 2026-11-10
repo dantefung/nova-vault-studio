@@ -85,7 +85,7 @@ Lauren 那場分享，主題其實是信任。她講的是寫 code 的 agent，�
 
 下面八步，就是照這幾點排出來的。
 
-![](../images/0xjoooe-grokbot-handbook-team-collaboration/002.jpg)
+![](../images/0xjoooe-grokbot-handbook-team-collaboration/002.webp)
 
 ### 第一步：開第一個 bot，寫好說明
 

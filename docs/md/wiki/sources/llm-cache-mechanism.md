@@ -23,7 +23,7 @@ KV Cache 是所有 LLM 缓存里最底层的一块，几乎所有推理框架默
 - **Prefill（预填充）**：把整个 prompt 一次性喂入，并行算出所有位置的 K/V 写进缓存
 - **Decode（解码）**：逐 token 生成，每来一个新 token 只计算它自己这一个位置的 Q/K/V，把新的 K/V 追加进缓存，再用它的 Q 去和缓存里全部 K/V 做注意力
 
-![KV Cache 示意图](../images/llm-cache-mechanism/001.png)
+![KV Cache 示意图](../images/llm-cache-mechanism/001.webp)
 
 缓存按"每层一组、每组含 Key 与 Value 两个张量"组织，张量形状通常是 `[batch, num_heads, seq_len, head_dim]`，随生成在 seq_len 维度上不断增长。
 
@@ -39,7 +39,7 @@ KV Cache 是所有 LLM 缓存里最底层的一块，几乎所有推理框架默
 
 KV Cache 的代价与"层数 × 注意力头数 × 上下文长度 × 并发请求数"成正比。工程上四类手段：
 
-![KV Cache 显存优化手段](../images/llm-cache-mechanism/002.png)
+![KV Cache 显存优化手段](../images/llm-cache-mechanism/002.webp)
 
 ### 1. 架构上减少 K/V 数量
 - **MQA（多查询注意力）**：所有 Query 头共享同一组 K/V
@@ -62,7 +62,7 @@ KV Cache 的代价与"层数 × 注意力头数 × 上下文长度 × 并发请�
 
 **前缀缓存（Prompt Caching / Prefix Caching）**：当新请求的前缀与此前某次请求完全一致时，服务端直接复用那段前缀已经算好的 KV 状态，跳过它的 prefill，只对新增部分计算与计费。读取缓存的价格通常约为正常输入 token 的 1/10，首 token 延迟（TTFT）也大幅下降。
 
-![前缀缓存示意图](../images/llm-cache-mechanism/003.png)
+![前缀缓存示意图](../images/llm-cache-mechanism/003.webp)
 
 硬约束：命中依赖逐 token 完全一致的连续前缀。服务端对前缀 token 做哈希来判定，前面任何一个 token 变化，从该位置往后的缓存全部失效。
 
@@ -87,7 +87,7 @@ KV Cache 的代价与"层数 × 注意力头数 × 上下文长度 × 并发请�
 
 编程类 Agent 是前缀缓存的重度用户。命中率直接决定延迟和成本，两家都把上下文结构当作一等的性能问题来设计。
 
-![Claude Code vs Codex 缓存策略](../images/llm-cache-mechanism/004.png)
+![Claude Code vs Codex 缓存策略](../images/llm-cache-mechanism/004.webp)
 
 ### Claude Code：自动埋点 + 严格分层
 - 为所有内部调用自动放置 `cache_control`

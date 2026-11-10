@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "trader-c (@TradercBTC)"
 url: "https://x.com/TradercBTC/status/2119702452501086402"
-coverImage: "../images/tradercbtc-investment-agent-global-macro-research-skill/001.jpg"
+coverImage: "../images/tradercbtc-investment-agent-global-macro-research-skill/001.webp"
 ---
 
 # trader-c（@TradercBTC）：investment-agent——开源全球宏观研究 Skill，装进你自己的 AI Agent
@@ -47,7 +47,7 @@ investment-agent：开源全球宏观研究 Skill
 
 4：进行月度复盘总结+最近市场的研究
 
-![](../images/tradercbtc-investment-agent-global-macro-research-skill/001.jpg)
+![](../images/tradercbtc-investment-agent-global-macro-research-skill/001.webp)
 
 ## 相关页面
 

@@ -17,7 +17,7 @@ coverImage: "../images/pamela-build-personal-website-from-scratch-60-ui-checklis
 
 以下 8 大类共 60 多个网页资源——组件库、动效、Landing/Hero、移动端 UI、交互、配色素材、AI 建站、Claude Skills。这些基本都能直接抓代码、抓 Prompt 复用，并且每个都附上了特色和用法，改名或迁移的入口也补了说明。想从 0 搭建网站或者迭代优化，打开这份清单完全够用，记得收藏。
 
-![](../images/pamela-build-personal-website-from-scratch-60-ui-checklist/002.jpg)
+![](../images/pamela-build-personal-website-from-scratch-60-ui-checklist/002.webp)
 
 ## 01 新建飞书文档把内容理清楚
 
@@ -488,7 +488,7 @@ Anthropic 官方提供的前端设计 Skill，帮助 AI 在做页面时考虑字
 
 我是 Pamela，品牌人 → AI Builder 转型中，初来乍到，请大家多多指教～会继续分享更多干货合集，以及用 AI 搞钱的实操经验，本人致力于用 AI 解决实际问题，顺便赚点钱钱（上班真的太无聊了）～有用的都会分享出来～
 
-![](../images/pamela-build-personal-website-from-scratch-60-ui-checklist/003.jpg)
+![](../images/pamela-build-personal-website-from-scratch-60-ui-checklist/003.webp)
 
 ## 相关页面
 

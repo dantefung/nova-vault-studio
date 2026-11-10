@@ -18,7 +18,7 @@ url: "https://mp.weixin.qq.com/s/T2MlWKTESxB_4d9LKc29bg"
 
 所以，如果想把后端系统真正做成「AI Friendly」，本质是要把隐藏在人脑、群聊、口头约定、历史事故里的系统知识，显式化、结构化、可检索化、可执行化、可验证化。
 
-![实例关系图](../images/ai-friendly-backend/001.png)
+![实例关系图](../images/ai-friendly-backend/001.webp)
 
 ## 01 Architecture Facts Clarity：第一原则，架构事实清晰
 
@@ -26,7 +26,7 @@ url: "https://mp.weixin.qq.com/s/T2MlWKTESxB_4d9LKc29bg"
 
 传统后端系统比较大的问题，是文档不可用或者过于落后，尤其互联网领域，系统迭代速度很快，往往文档都是落后于技术系统的。很多团队都有接口文档、架构文档、数据库文档、部署文档，但它们常见的问题是：过期、不完整、分散、没有版本、没有 owner、没有和代码关联、没有和运行态关联。对人类来说，这些文档还能作为参考；对 AI 来说，这些文档会直接变成误导源。
 
-![架构事实](../images/ai-friendly-backend/002.png)
+![架构事实](../images/ai-friendly-backend/002.webp)
 
 AI Friendly 的第一步，是建立"机器可读的系统事实层"。这个事实层至少包括几类内容。
 
@@ -90,7 +90,7 @@ AI 不能只看静态代码，还要知道系统真实运行情况。某个接�
 
 **第九，历史遗留和未来演进方向是什么**：大型后端系统里，经常存在一些"仍在运行但不再推荐扩展"的服务、接口、表和链路。AI 如果不知道这些历史背景，很容易继续往遗留模块里增加新能力，让系统债务越来越重。Architecture Map 应该明确标出：哪些模块是 legacy，哪些模块是 target architecture，哪些能力正在迁移，哪些接口只允许维护不允许扩展。
 
-![Architecture Map 示意](../images/ai-friendly-backend/003.png)
+![Architecture Map 示意](../images/ai-friendly-backend/003.webp)
 
 有了 Architecture Map，AI 在接到一个需求时，才能先回答几个系统级问题：这个需求属于哪个业务域？应该改哪个服务？是否影响核心链路？是否需要新增依赖？是否违反分层规则？是否涉及数据 owner？是否需要消息事件？是否需要灰度和回滚？是否应该在旧系统中维护，还是应该在新架构方向上实现？
 
@@ -116,7 +116,7 @@ AI 不能只看静态代码，还要知道系统真实运行情况。某个接�
 
 这类 Service Card 最好放在服务仓库根目录，且由 CI 检查它是否存在、是否包含必要字段、是否与实际依赖关系一致。更进一步，Service Card 不应该完全手写，而应该部分自动生成：接口从 IDL / OpenAPI 生成，依赖从调用链和配置生成，表结构从 schema 生成，监控链接从服务注册信息生成。人类只维护业务解释、边界约束和历史注意事项。
 
-![Service Card 示意](../images/ai-friendly-backend/004.png)
+![Service Card 示意](../images/ai-friendly-backend/004.webp)
 
 对 AI Agent 来说，Service Card 是进入一个服务前的"第一上下文"。如果没有这张卡，它只能从代码里盲人摸象；有了这张卡，它可以先建立服务地图，再决定从哪里下手。
 
@@ -138,7 +138,7 @@ AI 不能只看静态代码，还要知道系统真实运行情况。某个接�
 
 **第四是风险等级**：资金、库存、权限、隐私、风控、结算属于高风险域；内容展示、运营配置、非核心推荐可能是中低风险域。AI Agent 在不同风险等级下，允许的自动化程度应该不同。低风险域可以自动提交 PR，高风险域必须强制人工 review 或双人审批。
 
-![领域模型](../images/ai-friendly-backend/005.png)
+![领域模型](../images/ai-friendly-backend/005.webp)
 
 未来真正成熟的 AI Friendly 系统，不会只让 AI 读代码，而是让 AI 先读领域模型，再读代码。因为代码告诉 AI "现在怎么做"，领域模型告诉 AI "为什么必须这么做"。
 
@@ -152,7 +152,7 @@ AI 不能只看静态代码，还要知道系统真实运行情况。某个接�
 
 AI Coding 不是只靠大模型本身。真正影响效率的，是模型外部的工具、上下文、流程和约束，也就是广义上的 Harness。在后端系统里，团队应该把高频工程任务沉淀为 SKILL。这里的 SKILL 可以理解为一种可复用的任务包，包含任务说明、上下文入口、操作步骤、工具命令、校验方式、风险提示、输出格式。它不是普通文档，而是给 AI Agent 执行任务时调用的"操作手册"。
 
-![Skill-Based 示意](../images/ai-friendly-backend/006.png)
+![Skill-Based 示意](../images/ai-friendly-backend/006.webp)
 
 #### 典型案例
 
@@ -184,7 +184,7 @@ AI Coding 不是只靠大模型本身。真正影响效率的，是模型外部�
 
 如果说 SKILL 是能力包，那么 Harness 就是执行框架。它决定 AI Agent 如何获得上下文、如何选择工具、如何执行命令、如何处理权限、如何验证结果、如何停止、如何上报。对于后端无人值守开发来说，不能让 AI Agent 直接拥有无限权限。它必须运行在一套受控 Harness 里。
 
-![Harness 架构](../images/ai-friendly-backend/007.png)
+![Harness 架构](../images/ai-friendly-backend/007.webp)
 
 一个面向后端系统的 Harness 至少应该包含七层：
 
@@ -224,7 +224,7 @@ AI Friendly 的后端系统，测试不是锦上添花，依然是最关键的�
 
 无人值守开发不只包括写代码，还包括排障、修复、优化和自愈。要做到这一点，AI 必须能看见系统运行状态。传统可观测性主要面向人类：dashboard 给人看，日志给人查，告警发到群里。
 
-![可观测性](../images/ai-friendly-backend/008.png)
+![可观测性](../images/ai-friendly-backend/008.webp)
 
 AI Friendly 的可观测性要进一步结构化：
 
@@ -279,7 +279,7 @@ AI 修改代码的效率，很大程度取决于代码结构是否可导航。�
 
 后端系统 AI Friendly 的建设，可以分三个阶段。
 
-![三阶段演进](../images/ai-friendly-backend/009.png)
+![三阶段演进](../images/ai-friendly-backend/009.webp)
 
 **第一阶段是 Copilot**：AI 主要辅助人类写代码、补测试、解释代码、生成文档。此时系统只需要基本文档、代码规范和测试入口。在过去两年，大家已经经历过这个阶段，并已经快速过渡到了下面的第二阶段。
 
@@ -307,7 +307,7 @@ AI 修改代码的效率，很大程度取决于代码结构是否可导航。�
 
 ## 14 What's the future？
 
-![未来展望](../images/ai-friendly-backend/010.jpeg)
+![未来展望](../images/ai-friendly-backend/010.webp)
 
 AI Friendly 最终改变的是软件组织方式。过去，一个优秀团队依赖人的经验、默契和长期积累。未来，一个优秀团队要把这些经验变成结构化资产，让 AI 可以读取、调用、执行、验证。
 

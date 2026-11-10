@@ -472,30 +472,30 @@ Deepseek V3 生成
 
 **如果觉得对你有帮助的话麻烦给个赞👍或者喜欢🩷，或者转发给需要的朋友们**
 
-[img-0]:images/04-01-cover-prompt/p01.png
+[img-0]:images/04-01-cover-prompt/p01.webp
 
-[img-1]:images/04-01-cover-prompt/p02.png
+[img-1]:images/04-01-cover-prompt/p02.webp
 
-[img-2]:images/04-01-cover-prompt/p03.png
+[img-2]:images/04-01-cover-prompt/p03.webp
 
-[img-3]:images/04-01-cover-prompt/p04.png
+[img-3]:images/04-01-cover-prompt/p04.webp
 
-[img-4]:images/04-01-cover-prompt/p05.png
+[img-4]:images/04-01-cover-prompt/p05.webp
 
-[img-5]:images/04-01-cover-prompt/p06.png
+[img-5]:images/04-01-cover-prompt/p06.webp
 
-[img-6]:images/04-01-cover-prompt/p07.png
+[img-6]:images/04-01-cover-prompt/p07.webp
 
-[img-7]:images/04-01-cover-prompt/p08.png
+[img-7]:images/04-01-cover-prompt/p08.webp
 
-[img-8]:images/04-01-cover-prompt/p09.png
+[img-8]:images/04-01-cover-prompt/p09.webp
 
-[img-9]:images/04-01-cover-prompt/p10.png
+[img-9]:images/04-01-cover-prompt/p10.webp
 
-[img-10]:images/04-01-cover-prompt/p11.png
+[img-10]:images/04-01-cover-prompt/p11.webp
 
-[img-11]:images/04-01-cover-prompt/p12.png
+[img-11]:images/04-01-cover-prompt/p12.webp
 
-[img-12]:images/04-01-cover-prompt/p13.png
+[img-12]:images/04-01-cover-prompt/p13.webp
 
-[img-13]:images/04-01-cover-prompt/p14.png
+[img-13]:images/04-01-cover-prompt/p14.webp

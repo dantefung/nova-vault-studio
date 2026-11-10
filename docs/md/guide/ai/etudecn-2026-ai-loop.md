@@ -9,7 +9,7 @@ url: "https://x.com/Etudecn/status/2076697599416082910"
 
 # 如何在 2026 年构建你的第一个 AI 循环
 
-![](images/etudecn-2026-ai-loop/001.png)
+![](images/etudecn-2026-ai-loop/001.webp)
 
 上个月，两位最顶级的 AI 工程师说了同一件事。
 
@@ -29,7 +29,7 @@ Boris Cherny,Anthropic 的 Claude Code 负责人：
 
 不讲空头理论，代码配着上下文一起给。真实步骤，真实命令，复制就能跑。
 
-![](images/etudecn-2026-ai-loop/002.png)
+![](images/etudecn-2026-ai-loop/002.webp)
 
 Slate 正在调度 GPT-5.6、Claude 和专门的子代理，并行处理一个真实的迁移任务。模型变聪明了。但更大的变化是，像 Slate 这样的工具终于能让这些模型持续保持忙碌，而不是等着人来提示。
 
@@ -49,7 +49,7 @@ Slate 正在调度 GPT-5.6、Claude 和专门的子代理，并行处理一个�
 
 从敲提示词，变成了设计循环。
 
-![](images/etudecn-2026-ai-loop/003.png)
+![](images/etudecn-2026-ai-loop/003.webp)
 
 GPT-5.6 没有让循环变得不需要。
 
@@ -95,7 +95,7 @@ Claude Code.Cursor.Codex.
 
 在于有没有东西检查结果，然后一直干到通过为止。
 
-![](images/etudecn-2026-ai-loop/004.png)
+![](images/etudecn-2026-ai-loop/004.webp)
 
 大多数循环死在这里。
 
@@ -137,7 +137,7 @@ slate
 
 这会打开 Slate 的 TUI — 一个终端界面，你在里面给它任务，看它干活。
 
-![](images/etudecn-2026-ai-loop/005.png)
+![](images/etudecn-2026-ai-loop/005.webp)
 
 在 Slate 能对你的项目跑循环之前，它需要先理解你的代码库。
 
@@ -186,7 +186,7 @@ Slate 启动时自动读这个文件 — 不用每次会话贴一遍。
 Please review @src/api/routes.ts and suggest improvements
 ```
 
-![](images/etudecn-2026-ai-loop/006.png)
+![](images/etudecn-2026-ai-loop/006.webp)
 
 在项目根目录建一个 slate.json，控制 Slate 的行为。
 
@@ -255,7 +255,7 @@ Make it follow the same pattern as the existing ApiKeyAuth in src/auth/api-key.t
 
 批准计划。Slate 自主执行。
 
-![](images/etudecn-2026-ai-loop/007.png)
+![](images/etudecn-2026-ai-loop/007.webp)
 
 Skill 就是你不用每次会话都重新解释一遍项目的方法。
 
@@ -444,7 +444,7 @@ jobs:
 
 不需要人，除非要上报。
 
-![](images/etudecn-2026-ai-loop/008.png)
+![](images/etudecn-2026-ai-loop/008.webp)
 
 对任何循环来说，最重要的结构性改进。
 
@@ -482,7 +482,7 @@ Slate 自动调度这些子代理。
 
 这种分工就是 Slate 能在一个任务上跑 5 个并行子代理的原因 — 每个专门化，每个相互隔离。
 
-![](images/etudecn-2026-ai-loop/009.png)
+![](images/etudecn-2026-ai-loop/009.webp)
 
 对于跑几小时甚至几天的任务，在你的任务提示词里用这个模式：
 
@@ -635,7 +635,7 @@ EOF
 0 9 * * 1 slate run "$(cat deps-loop.md)" --dangerously-skip-permissions
 ```
 
-![](images/etudecn-2026-ai-loop/010.png)
+![](images/etudecn-2026-ai-loop/010.webp)
 
 在排任何定时任务之前，先了解这些。
 

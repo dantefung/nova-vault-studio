@@ -27,7 +27,7 @@ coverImage: "../images/yaohongan-18-days-10-sites-meme-traffic-playbook/001.jpg"
 
 先把丑话说前头，115 美金是流水，不是利润。光建站模板我就花了 $139，账面上还没回本。所以这不是暴富故事，是一个前程序员、白天还在做电商代运营的人，第一次从陌生人手里收到美金的全过程。
 
-![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/002.jpg)
+![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/002.webp)
 
 ## 认真做的，没人买
 
@@ -135,7 +135,7 @@ https://x.com/yaohongan2025/status/2115588189037682756
 
 然后用这张表打分，五项，每项 0 到 2 分。
 
-![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/003.jpg)
+![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/003.webp)
 
 7 分以上当天买域名上站；5 到 6 分，只在梗起来不超过 5 天的时候做；4 分以下不做。
 
@@ -145,7 +145,7 @@ https://x.com/yaohongan2025/status/2115588189037682756
 
 顺便说一个 Google Trends 的坑，我差点栽进去。不加引号的时候，Trends 会把几个单词按任意顺序一起算。我查 video to anime，不加引号热度 61，跟 GPTs 差不多；加上英文引号，几乎是 0，美国月搜只有 260。
 
-![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/004.jpg)
+![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/004.webp)
 
 所以由普通单词组成的词，一定加英文引号再比。
 
@@ -173,7 +173,7 @@ https://x.com/yaohongan2025/status/2115588189037682756
 
 这是我最早那个收款店铺的后台，好几个站的钱都在这一个店铺里。总交易额 $147.82，里面退掉的 $51.95 全是我自己的测试单，扣掉以后再加上后来单独开店的两单，就是文章开头那 $115.84。
 
-![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/005.jpg)
+![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/005.webp)
 
 7，部署：Cloudflare Workers，在 Spaceship 后台把 NS 改到 Cloudflare。
 
@@ -219,7 +219,7 @@ https://x.com/yaohongan2025/status/2115712489652662356
 
 至于工具，我整理成了一张图，存一张就够。写代码全程用 Claude Code，全中文对话；找词靠新词雷达、Google Trends、TikTok 和哥飞的 SEO 工具箱；部署和数据库全在 Cloudflare；收款用 Waffo 和 Stripe。
 
-![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/006.jpg)
+![](../images/yaohongan-18-days-10-sites-meme-traffic-playbook/006.webp)
 
 ## 我现在卡在第二关
 

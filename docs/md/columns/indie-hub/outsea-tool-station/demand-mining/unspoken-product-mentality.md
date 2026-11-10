@@ -43,7 +43,7 @@ url: "https://mp.weixin.qq.com/s/yOskbfybBnd5BpIf2v1nww"
 
 1、想清楚是想“做个产品”还是“赚到钱”
 
-![image](./images/unspoken-product-mentality/001.png)
+![image](images/unspoken-product-mentality/001.webp)
 
 所有参加过刘小排老师的深海圈的生财圈友对这个表情包一定不会陌生，这是小排老师结合自己在产品领域的经验总结出来的产品方法论：
 
@@ -67,7 +67,7 @@ url: "https://mp.weixin.qq.com/s/yOskbfybBnd5BpIf2v1nww"
 
 刘小排老师是在2021年4月18日加入了生财有术：
 
-![image](./images/unspoken-product-mentality/002.png)
+![image](images/unspoken-product-mentality/002.webp)
 
 他早期发布的文章中提到的“蓝海选品”和“烤红薯”理论影响了我们许多圈友在各行各业的选品思路，尤其是其在航海中给我们讲述的“哈尔滨程序员”的故事更是深深地给我们许多圈友种下“蓝海思维”的种子。
 

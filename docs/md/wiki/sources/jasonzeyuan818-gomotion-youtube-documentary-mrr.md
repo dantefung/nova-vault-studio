@@ -4,7 +4,7 @@ date: "2026-10-29"
 source: "X/Twitter"
 author: "Jason泽源 (@jasonzeyuan818)"
 url: "https://x.com/jasonzeyuan818/status/2115318495495827639"
-coverImage: "../images/jasonzeyuan818-gomotion-youtube-documentary-mrr/001.jpg"
+coverImage: "../images/jasonzeyuan818-gomotion-youtube-documentary-mrr/001.webp"
 ---
 
 # Jason 泽源：GoMotion 上线不到 3 个月 MRR 6.4 万美元——贴脚本自动出 15 分钟纪录片
@@ -38,9 +38,9 @@ coverImage: "../images/jasonzeyuan818-gomotion-youtube-documentary-mrr/001.jpg"
 
 真正的坑有两个：每句话都配上版权可用的真实素材，还有长视频渲染排队的服务器成本。
 
-![](../images/jasonzeyuan818-gomotion-youtube-documentary-mrr/001.jpg)
+![](../images/jasonzeyuan818-gomotion-youtube-documentary-mrr/001.webp)
 
-![](../images/jasonzeyuan818-gomotion-youtube-documentary-mrr/002.jpg)
+![](../images/jasonzeyuan818-gomotion-youtube-documentary-mrr/002.webp)
 
 ## 相关页面
 

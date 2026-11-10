@@ -7,4 +7,4 @@ url: ""
 
 # 命令行速查卡
 
-![命令行速查卡](images/command-line-cheatsheet/command-line-cheatsheet.jpeg)
+![命令行速查卡](images/command-line-cheatsheet/command-line-cheatsheet.webp)

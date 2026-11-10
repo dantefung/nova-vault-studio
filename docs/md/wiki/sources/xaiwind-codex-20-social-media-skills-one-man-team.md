@@ -37,7 +37,7 @@ Codex、Claude Code、Openclaw 这类终端 Agent，今年冒出一大堆 Skill�
 
 ## 一、选题大脑
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/002.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/002.webp)
 
 ① 全局军师 · [self-media-content-workflow](https://github.com/yanhua1010/self-media-content-workflow) ⭐521
 
@@ -79,7 +79,7 @@ Codex、Claude Code、Openclaw 这类终端 Agent，今年冒出一大堆 Skill�
 
 ## 二、文章排版 · 配图
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/003.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/003.webp)
 
 ④ 排版印钞机 · [baoyu-skills](https://github.com/JimLiu/baoyu-skills) ⭐26.4k
 
@@ -151,7 +151,7 @@ AdrianPunk 的视觉生成 Skill 组。
 
 ## 三、视频 Skill
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/004.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/004.webp)
 
 ⑨ 长视频解剖刀 · [video-to-subtitle-summary-skill](https://github.com/imlewc/video-to-subtitle-summary-skill) ⭐213
 
@@ -207,7 +207,7 @@ AdrianPunk 的视觉生成 Skill 组。
 
 ## 四、小红书运营
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/005.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/005.webp)
 
 ⑬ 小红书爆款监控 · [content-boom-monitor](https://github.com/xintu1314/content-boom-monitor) ⭐106
 
@@ -237,7 +237,7 @@ AdrianPunk 的视觉生成 Skill 组。
 
 ## 五、公众号运营
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/006.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/006.webp)
 
 ⑮ 全流程 · [wewrite](https://github.com/imraywang/wewrite) ⭐3.4k
 
@@ -276,7 +276,7 @@ Chrome 扩展，不是爬虫，不模拟登录，也没有中间服务器。它�
 
 ## 六、抖音运营
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/007.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/007.webp)
 
 ⑰ 剪映自动化 · [jianying-headless](https://github.com/mcncarl/jianying-headless) ⭐3.0k
 
@@ -310,7 +310,7 @@ Chrome 扩展，不是爬虫，不模拟登录，也没有中间服务器。它�
 
 ## 七、B 站 · 油管运营
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/008.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/008.webp)
 
 B 站和油管都是长视频平台，专门做 Skill 的还不多，能用的基本是通用视频工具加平台发布。两个平台放一起说。
 
@@ -356,7 +356,7 @@ B 站和油管都是长视频平台，专门做 Skill 的还不多，能用的�
 
 ## 八、推特运营
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/009.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/009.webp)
 
 ⑲ 发 X Articles · [x-article-publisher](https://github.com/xaiwind/x-article-publisher) ⭐5
 
@@ -395,7 +395,7 @@ Codex / DeepSeek Harness 把路径换成 ~/.agents/skills/ 就行。首次运行
 
 ## 九、可选视频 Skill
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/010.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/010.webp)
 
 上面每条都对着一个具体环节。这一节不一样，是几条通用的视频生产工具，跟平台无关，按需取用。
 
@@ -538,7 +538,7 @@ MIT 许可。针对国内版剪映专业版，草稿生成 Windows 和 macOS 都
 
 本人文章持续维护，欢迎联系或者评论区见，每天进步一点，我们终会到达目的地！
 
-![](../images/xaiwind-codex-20-social-media-skills-one-man-team/011.jpg)
+![](../images/xaiwind-codex-20-social-media-skills-one-man-team/011.webp)
 
 ## 相关页面
 

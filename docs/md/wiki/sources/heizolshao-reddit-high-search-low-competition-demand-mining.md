@@ -32,11 +32,11 @@ Reddit 上的 upvote 和 comments 只是社区内部热度，不等于外部有�
 
 - 反面例子：某个 “best AI video” 帖子，vote 1900、comments 170。竞争极卷，你发进去只是 170 条评论中的一条，很难被其他用户看到。
 
-![](../images/heizolshao-reddit-high-search-low-competition-demand-mining/002.jpg)
+![](../images/heizolshao-reddit-high-search-low-competition-demand-mining/002.webp)
 
 - 正面例子：某个 history teachers 相关 AI 工具帖，仅 20 votes、8 comments，但 Ahrefs 显示美区每月约 12k SEO 流量。社区竞争小，外部需求却真实存在。
 
-![](../images/heizolshao-reddit-high-search-low-competition-demand-mining/003.jpg)
+![](../images/heizolshao-reddit-high-search-low-competition-demand-mining/003.webp)
 
 低互动说明在 Reddit 上容易参与，高 SEO 流量说明外部真实有人在搜。两者交叉，就是低竞争、高搜索量的产品机会。
 
@@ -60,7 +60,7 @@ Reddit 上的 upvote 和 comments 只是社区内部热度，不等于外部有�
 
 可以配合 AI 批量导出后匹配你的业务场景，效率更高。
 
-![](../images/heizolshao-reddit-high-search-low-competition-demand-mining/004.jpg)
+![](../images/heizolshao-reddit-high-search-low-competition-demand-mining/004.webp)
 
 2. SERP 反向挖掘
 
@@ -70,7 +70,7 @@ Reddit 上的 upvote 和 comments 只是社区内部热度，不等于外部有�
 
 什么意思呢？“借 Google 的刀，帮你挑出那些被全网验证过的真实长尾刚需，然后去白嫖 Google 送给 Reddit 的源源不断的长线流量。”
 
-![](../images/heizolshao-reddit-high-search-low-competition-demand-mining/005.jpg)
+![](../images/heizolshao-reddit-high-search-low-competition-demand-mining/005.webp)
 
 3. GEO / AI 引用监控
 

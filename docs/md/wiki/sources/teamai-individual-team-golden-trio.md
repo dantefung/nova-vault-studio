@@ -53,13 +53,13 @@ AI Coding 过了蜜月期，正卡在“欺骗性失望区”——看起来没�
 
 咱们都是程序员，用代码更直观。第一段是时间片处理的代码，Claude Code 老去“纠正”它，认为里面有错误。其实那是有意为之的——我们有个高并发场景不想处理得那么严谨，故意把时间片往后推了一格，多预留时间，等下一个时间片再开始工作。它就一直认为你写错了，不停给你纠错。
 
-![image](../images/teamai-individual-team-golden-trio/001.png)
+![image](../images/teamai-individual-team-golden-trio/001.webp)
 
 ▲ AI 对可读性较差、有意为之的代码产生幻觉，反复“纠错”
 
 第二段是一个连接器，把两个异构系统对接起来。里面有很多从外部系统传过来的 ID，要转换成内部的业务表达。看上去就是一串数字换成另一串数字，而且是历史代码，没用枚举、没用类，全靠字符串硬映射。AI 就判断不清这个道理：1 转成 1、2 转成 4 到底是干嘛？其实它就是把外部 ID 刷成内部 ID。这就是一种私有知识。
 
-![image](../images/teamai-individual-team-golden-trio/002.png)
+![image](../images/teamai-individual-team-golden-trio/002.webp)
 
 ▲ 认知负荷：代码里内嵌了不易直接理解的业务知识（连接器 ID 映射）
 
@@ -69,7 +69,7 @@ AI Coding 过了蜜月期，正卡在“欺骗性失望区”——看起来没�
 
 网上流传一张“看你 AI Coding 属于哪个段位”的图，开玩笑的说法。前面几种叫 Coding with Chat，还是偏 Copilot 的工作方式，人可以大量干预，上面那些复杂问题都能被人发现、解决。但进入下面的 Coding with Agent 模式，它直接就给你改了，不征求你意见。人去 review 的时候如果这一点被淹没在大量代码里，你也很难发现它到底改了啥——这时候就很容易出问题。
 
-![image](../images/teamai-individual-team-golden-trio/003.png)
+![image](../images/teamai-individual-team-golden-trio/003.webp)
 
 ▲ 从 Coding with Chat（Figure 1-4）到 Coding with Agent（Figure 5-8）：从人主导到 Agent 自主
 
@@ -81,17 +81,17 @@ Copilot 模式下一件很重要的事是写好提示词。这件事不是一句
 
 一个很重要的动作是给自己装个 Trace 工具。你跟 Agent 发生那么多次交互，它到底有没有被正确地组织和执行？这就像我们在生产上排查问题要看日志一样。我鼓励团队每个人在自己电脑上都装一个 Trace 跟踪工具，把 Agent 的对话集中收集到本地，你能展开看到 request/response 里到底发了什么、跟你预期一样不一样，还能针对关注点做统计——它来回做了几次交互、跑一个任务花多长时间。只要写点简单 SQL 就能知道自己智能体执行任务的情况，很方便。动手能力强的还能挂个报警给自己看。
 
-![image](../images/teamai-individual-team-golden-trio/004.png)
+![image](../images/teamai-individual-team-golden-trio/004.webp)
 
 ▲ 本地 Trace 工具：观察、查询、统计与 Agent 的每一次交互
 
 第二件重要的事是管理上下文。任务越来越长，上下文长度对大模型的智能水平影响很大。从这张散点图看，要保证模型能力水平，上下文用量的上限基本在 45%~55% 之间，超过就进入“滞胀”往下跌。所以怎么管理上下文是很重要的工作——注意，不是你写的那段话，而是整个 Agent 到底给大模型发了哪些内容。
 
-![image](../images/teamai-individual-team-golden-trio/005.png)
+![image](../images/teamai-individual-team-golden-trio/005.webp)
 
 ▲ AI 能完成的任务长度大约每 7 个月翻一倍（METR）——任务越来越长，上下文管理越来越关键
 
-![image](../images/teamai-individual-team-golden-trio/006.png)
+![image](../images/teamai-individual-team-golden-trio/006.webp)
 
 ▲ 上下文长度占比在 45%~55% 之后，模型表现明显“智障”
 
@@ -105,7 +105,7 @@ AI Coding Agent 调用最多的是围绕代码检索的命令行工具，最核�
 
 改写主要两类手段：一类是“调用后改写”，先调本地工具再对结果压缩改写，最著名的是 rtk，它对常见命令都做改写和压缩；另一类更激进，是“替换工具”，用更 AI 化的新工具（如通过符号语法树和语义嵌入模型进行混合检索）去替换传统的 Grep。这两类工具对 AI Coding 的帮助都很大。对比下来，改写类如 rtk 更成熟稳定，而替换工具类改善空间更灵活更大。
 
-![image](../images/teamai-individual-team-golden-trio/007.png)
+![image](../images/teamai-individual-team-golden-trio/007.webp)
 
 ▲两个代表性的替换工具特点对比
 
@@ -115,13 +115,13 @@ AI Coding Agent 调用最多的是围绕代码检索的命令行工具，最核�
 
 对话历史分长期记忆和短期记忆。长程任务里对话信息量非常大、非常稀疏，怎么把短期记忆里的重点找出来是核心问题。内置的 compact 是“截断式瘦身”，窗口省了，但早期的用户意图和下一步动作可能一起被截掉。我们团队主要用一个叫 pi-vcc 的工具做“语义折叠”——把“怎么查到的”（curl→失败→重拉→读七次）压成“已经知道了什么”，锚定核心指令，把省下来的上下文留给真正要产出的内容。你可以按自己团队的习惯定制压缩规则，保留什么、不保留什么都可控。
 
-![image](../images/teamai-individual-team-golden-trio/008.png)
+![image](../images/teamai-individual-team-golden-trio/008.webp)
 
 ▲ 内置 compact（截断式瘦身）与 pi-vcc（语义折叠）的对比
 
 项目记忆是把项目里真正的决策信息，从对话历史、碎片文档里统一抽取、表达、保存好。现在流行搞一个通用记忆层，但我们团队跑下来效果不太好——比较重，没法让每个同学都有参与感。我们采取的是围绕项目决策、人类可读、每个同学在本地自己手工可编辑的方式。它就是一组 Markdown 文件，把项目记忆当成一个独立目录，下面有项目简介、项目规约、决策日志、墓碑（已确认错误的做法放这里）、候选记忆（上了日程还没动手的）、主体表（团队特有的、和通用叫法不一样的术语，类似领域模型里的概念模型）。这套文件既给 Agent 用，也给人用，人可以手工编辑。
 
-![image](../images/teamai-individual-team-golden-trio/009.png)
+![image](../images/teamai-individual-team-golden-trio/009.webp)
 
 ▲ 项目记忆采用一组人类可读、可手工编辑的 Markdown 文件（项目简介/规约/决策日志/墓碑/候选/主体表）
 
@@ -146,13 +146,13 @@ TeamAI 的黄金三件套：把一个人，变成一个团队
 
 VibeCoding 刚开始流行的时候非常火，大家觉得时代要被改变，但很快出现了一些负面的真实案例。如：调用 LLM 次数非常多，解决一个不太复杂的问题也要调很多次，token 消耗直线上升；甚至还出现过删库和越权等生产事故。简单讲，不给 Agent 做一些约束，Vibe Coding 的交付物只能停留在浅应用层面，无法真正在生产上大规模落地。
 
-![image](../images/teamai-individual-team-golden-trio/010.png)
+![image](../images/teamai-individual-team-golden-trio/010.webp)
 
 ▲ Vibe Coding 的怪现象：无限循环账单、删库跑路、权限核弹
 
 更重要的是，它和真正的业务开发有密切关系。业务开发不是实现一个简单功能，它大量建立在对历史、对业务的理解之上，而这种理解往往具有二义性。人要吃透二义性，AI 要干这件事也要吃透二义性。客户/PM 说“我要一个审批流”，Dev 或 AI 做了个简单的 Yes/No 按钮，但客户实际要的是多级会签、退回、转办等复杂逻辑——聊天记录不是需求文档，它是信息的漏斗，二义性是业务开发最大的杀手。
 
-![image](../images/teamai-individual-team-golden-trio/011.png)
+![image](../images/teamai-individual-team-golden-trio/011.webp)
 
 ▲ 核心洞察：聊天记录是信息的漏斗，二义性（Ambiguity）是业务开发最大的杀手
 
@@ -160,7 +160,7 @@ VibeCoding 刚开始流行的时候非常火，大家觉得时代要被改变，
 
 Spec 就是回答“怎么样让 AI 在人的约束下工作”这件事，基本分意图、决策、计划、执行几块，对应不同的 Markdown 文件。文件叫什么名不重要，不同工具叫法不同，目前有几种主流叫法但没完全统一，核心思想都一样。这里有个很重要的变化：Markdown 从记录性的文档，地位越来越重要，已经基本和代码一样重要了。人已经不写代码，人通过 Markdown、通过 Spec 让 AI 去写代码——那 Markdown 对人来讲，就跟之前的代码一样。
 
-![image](../images/teamai-individual-team-golden-trio/012.png)
+![image](../images/teamai-individual-team-golden-trio/012.webp)
 
 ▲ Vibe（发散）→ Spec（结晶）→ Build（执行）：Spec 才是代码，代码只是编译产物
 
@@ -168,13 +168,13 @@ Spec 这种工作方式还需要一件很重要的事：更严格的测试，让
 
 把这些结合起来，面向 Agent 的开发有三个很重要的工具：Spec、Skill 和 Test Asset。规格（Spec）定义“做什么”，是智能体开发的蓝图；技能（Skill）实现“如何做”，是可复用的代码与能力模块；测试资产（Test Asset）验证“是否正确”，持续自动验证技能是否符合规格。它们的核心媒介都是 Markdown——这是 LLM 时代人机高效协作的核心媒介。
 
-![image](../images/teamai-individual-team-golden-trio/013.png)
+![image](../images/teamai-individual-team-golden-trio/013.webp)
 
 ▲ AI 开发的黄金三件套：规格（Spec）、技能（Skill）、测试资产（Test Asset）
 
 为了让 Markdown 具备和 Code 一样的能力，我们团队做了些工具。比如我们很重要的工作是 Code Review，那就也给 Markdown 做一个工具让它可以被 Review——但主要不是解决 PR 时的 review，而是解决更前面的阶段：人和 Agent 沟通时的 Markdown。我们在 IDE 上做了插件来完成这个 review，review 历史也会被记录下来。同时，我们团队还在做一个更强的 Markdown 校验器，让 Markdown 具备更强的语义特征。
 
-![image](../images/teamai-individual-team-golden-trio/014.png)
+![image](../images/teamai-individual-team-golden-trio/014.webp)
 
 ▲ Coding with Doc：Agent 产生、人类 review 和编辑，人与 Agent 基于文档块多轮对话
 
@@ -182,13 +182,13 @@ Spec 这种工作方式还需要一件很重要的事：更严格的测试，让
 
 Skill 现在越来越成为主流的驱动 AI 工作的方式。先理解一点：Skill 不是光一个 SKILL.md 单体文件，它是一个目录结构，分 Markdown 文件、scripts、references、assets 三个目录，分别放执行脚本、更复杂场景的 Markdown、以及模板资源。做一个简单的 Skill 和做开发级别的 Skill 差异很大。
 
-![image](../images/teamai-individual-team-golden-trio/015.png)
+![image](../images/teamai-individual-team-golden-trio/015.webp)
 
 ▲ 用 Skill 扩展 AI Coding 的能力：Coding Agent 通过 Skill 对接各类工作场景
 
 做开发级别的 Skill，我们团队定义了一套基本原则：模式驱动（先选模式再写内容，模式决定目录、门条件、约束集，反模式是所有 skill 写成同一个模板）、约束前置（把弱模型最常犯的错误写成显式禁令，不要期望模型自己悟）、描述即索引（description 是搜索入口，要包含用户实际输入的关键词，而不是总结内部工作流）、配置外部化（业务数据放 references/assets，绝不在 SKILL.md 内联）、可量化验证（每个 skill 有 evals.json，改进必须通过 holdout 验证）。
 
-![image](../images/teamai-individual-team-golden-trio/016.png)
+![image](../images/teamai-individual-team-golden-trio/016.webp)
 
 ▲ Skill 开发五大原则及其反模式
 
@@ -198,7 +198,7 @@ Skill 可以简单分成五大类：工具包装器（把某个东西简单包�
 
 在这五种模式下，我们通过收集实际工作情况做了强化学习迭代，找出了十几种“门禁”——写 Skill 时不符合这些规则，效果都不太好。其中 G1-G6 是六条相对清晰的通用禁令，比如：只输出 SKILL.md 原始内容（不加对话前后缀、不加代码围栏）、不输出自我评价、Frontmatter 只放元数据（不塞业务 schema）、禁止根目录文件、不自创 metadata.pattern（必须是五种之一）、不可执行代码。再针对每个特有模式各有定义，加起来十几条。这不是标准答案，得根据每个团队的实际情况定义。
 
-![image](../images/teamai-individual-team-golden-trio/017.png)
+![image](../images/teamai-individual-team-golden-trio/017.webp)
 
 ▲ G1-G6 六条通用禁令：把弱模型的常见错误写成显式约束
 
@@ -206,7 +206,7 @@ Skill 可以简单分成五大类：工具包装器（把某个东西简单包�
 
 早期我们是把 Skill 开发规范写成 Markdown 文档发给团队让大家照做，效果不太好。后面我们做了一个线上评估工具：你把写好的 Skill 打包放进去，它检查你过没过。它可以放进 Pipeline 里，在构建时用，也可以手工用。难点在于本地造不出那么多 test case 来检查是否违规，放到一起做就容易多了，一试就能试出来。
 
-![image](../images/teamai-individual-team-golden-trio/018.png)
+![image](../images/teamai-individual-team-golden-trio/018.webp)
 
 ▲ Skill 在线评估：打包提交，自动检查是否通过门禁与用例
 
@@ -216,7 +216,7 @@ Skill 可以简单分成五大类：工具包装器（把某个东西简单包�
 
 快速需求分三级：前级、中级、后级——前级是任务拆解，中级是构建，后级是测试和上线。我们是“两头有人、中间没人”的半自动化模式。
 
-![image](../images/teamai-individual-team-golden-trio/019.png)
+![image](../images/teamai-individual-team-golden-trio/019.webp)
 
 ▲ 快速需求自动化开发架构图：前级（人拆解）→中级（AI 无人值守）→后级（人集成测试）
 
@@ -226,7 +226,7 @@ Skill 可以简单分成五大类：工具包装器（把某个东西简单包�
 
 拆解完后往下游传递三样东西：Task（有标准格式）、Open Spec（只产生需求相关的部分，不产生所有 Spec 文档）、以及 auto-dev 的一个 YAML 文件——传递开发规约，包括隔离方式、执行方式、TDD 方式、review 强度、方案就绪/暂停策略等一系列信息。
 
-![image](../images/teamai-individual-team-golden-trio/020.png)
+![image](../images/teamai-individual-team-golden-trio/020.webp)
 
 ▲ 前级：人类 A 做需求拆解，产出 Task、OpenSpec、auto-dev.yaml 传给 AI
 
@@ -236,7 +236,7 @@ Skill 可以简单分成五大类：工具包装器（把某个东西简单包�
 
 关键在两头的质量门禁。从十几种门禁里筛出了 8 个跟快速需求场景密切相关的红线，AI Coding 绝对不能逾越。比如：单个文件代码改动一定要小于 20 行——超过就不叫快速需求了，要升格改用另一种工作流。还有，我们定义的四类知识库（产品知识库、开发文档知识库、代码知识库、数据库知识库），Agent 在执行任务时必须都要访问，不访问就相当于违背红线。另一个是执行轨迹——每个执行环节都要保留执行轨迹并严格记录、传递到下游，作为评判 AI 开发是否合格、能否进入下一环节的重要标记。
 
-![image](../images/teamai-individual-team-golden-trio/021.png)
+![image](../images/teamai-individual-team-golden-trio/021.webp)
 
 ▲ 中级：五阶段状态机 + TDD 内循环 + 质量门禁 + 异常处理 + 执行轨迹全记录
 
@@ -244,7 +244,7 @@ Skill 可以简单分成五大类：工具包装器（把某个东西简单包�
 
 后级是人做集成测试。交付物（含执行轨迹）会用工具检查是否符合预期，人再亲自跑一遍单元测试（虽然 AI 已经跑过），OK 就接受，有 bug 或可接受就记录，走到下游。
 
-![image](../images/teamai-individual-team-golden-trio/022.png)
+![image](../images/teamai-individual-team-golden-trio/022.webp)
 
 ▲ 后级：人类 B 审查 MR、合并、真机集成测试，AI 做各端单测验证
 
@@ -252,17 +252,17 @@ Skill 可以简单分成五大类：工具包装器（把某个东西简单包�
 
 所以我们本着不改变同学习惯的方式：他用 Markdown 就用 Markdown，用脑图就用脑图，把脑图传到测试平台，平台自动转成 Markdown，他可以在平台或本地查看调整。后台定时任务把测试方案刷成测试目标和测试用例，变成结构化的东西，测试同学就能按自己的心流工作。真要执行时，用一个斜杠命令就能把测试用例部署到测试环境，直接跟微环境集成。最后再把文档转换成自动化执行脚本（我们用的是 Robot Framework），让测试同学直接做集成测试。
 
-![image](../images/teamai-individual-team-golden-trio/023.png)
+![image](../images/teamai-individual-team-golden-trio/023.webp)
 
 ▲ 测试资产：结构化的测试用例（步骤/动作/目标/前置条件/期待结果）
 
-![image](../images/teamai-individual-team-golden-trio/024.png)
+![image](../images/teamai-individual-team-golden-trio/024.webp)
 
 ▲ 不打破测试同学的心流：顺手工具写方案→自动转 Markdown→定时刷成测试目标与用例→一键部署
 
 一个很大的突破是自愈能力。以前自动化测试效果不好，很重要一点是除接口测试外，大部分集成测试的自愈能力非常弱，UI 稍微调整就不能自适应。现在 AI 在这块有很大价值：我们的测试脚本背后的 Python 代码里已经没有 UI 元素了，通过一个自愈工具真正做到自愈。比如只要界面上还存在“批量搜索商家 ID”的信息就行，它具体摆在什么位置、id 叫什么、xpath 是什么、有没有变化都不重要，只要业务逻辑没变，它就能自愈处理。这点是 AI 带来的一个很大的突破——第一次把自愈能力从一个遥不可及的追求目标，变成了底线，变成基本上谁都能做到的东西。
 
-![image](../images/teamai-individual-team-golden-trio/025.png)
+![image](../images/teamai-individual-team-golden-trio/025.webp)
 
 ▲ 自愈能力成为底线：脚本不持有 locator，失败时由 HealListener 做层级化自愈
 
@@ -285,13 +285,13 @@ AI 时代技术的变与不变
 
 为什么我觉得只有技术人擅长干这个？我在很多地方分享都讲这张图。让搞技术的和不搞技术的人说“你怎么穿过这道墙”，不搞技术的人各种五花八门的招数都来了：打个洞、搭梯子、飞过去，脑洞很大。搞技术的人第一个问的是——这是一堵什么墙。
 
-![image](../images/teamai-individual-team-golden-trio/026.png)
+![image](../images/teamai-individual-team-golden-trio/026.webp)
 
 ▲ 面对一堵墙，非技术者想的是各种翻越的招数
 
 “这是一堵什么墙”，这是非常重要的问题。实际上，这是迷宫里的一堵墙，我们的位置就在迷宫的中央。只要问了这是一堵什么墙，解法就完全不一样了——没有什么飞檐走壁，从这儿走、钻到这儿，这是最经济、最直观、最正常的走法。所以为什么稍微复杂点的问题技术同学擅长？他的思维习惯就是这样：我要把你的业务域抽象到我的技术域，做这样一个 mapping。他这种能力怎么来的？经验积累，加上对客观事物发展规律的认识，也就是我们的抽象能力，这两者的结合，是我们擅长的东西。
 
-![image](../images/teamai-individual-team-golden-trio/027.png)
+![image](../images/teamai-individual-team-golden-trio/027.webp)
 
 ▲ 而技术人先问“这是一堵什么墙”——原来它只是迷宫里的一堵墙
 
@@ -301,7 +301,7 @@ AI 时代技术的变与不变
 
 换成图就长这样：上面是价值创造——产研工作，一是降本增效（效能），二是敏捷方面的适应能力（今天有业务上一个东西、明天有内容上一个东西），三是特别难的一点，给业务创造以前没法创造的新价值。下面一样，是我们的各种业务域、分层架构、领域知识、工程体系。变的是不同时代不同的底层——之前是云计算、分布式、移动，现在是 AI；上面这些一直稳定不变。如果你擅长在这块工作，本身就有巨大优势，只是我们要把它和新工作更好地结合。
 
-![image](../images/teamai-individual-team-golden-trio/028.png)
+![image](../images/teamai-individual-team-golden-trio/028.webp)
 
 ▲ 技术的本质：变的是底层（云计算/分布式/移动/AI），不变的是价值创造与递归层级结构
 

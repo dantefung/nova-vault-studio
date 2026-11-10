@@ -39,7 +39,7 @@ coverImage: "../images/lufzzliz-infinite-digital-human-koubo/001.jpg"
 
 用同一套底片、同一段口播，我们没多花一分钱生成费，一口气在本地剪出了 6 种完全不同的视觉风格；完了还不算，又把这 6 条成片当素材，拼成了视频雨、悬挂落片、魔法环阵……
 
-![](../images/lufzzliz-infinite-digital-human-koubo/002.jpg)
+![](../images/lufzzliz-infinite-digital-human-koubo/002.webp)
 
 先给大家算笔实打实的账：
 

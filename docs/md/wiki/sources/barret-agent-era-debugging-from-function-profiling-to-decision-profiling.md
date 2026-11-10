@@ -4,7 +4,7 @@ date: "2026-11-10"
 source: "X/Twitter"
 author: "Barret李靖 (@Barret_China)"
 url: "https://x.com/Barret_China/status/2119427366892257490"
-coverImage: "../images/barret-agent-era-debugging-from-function-profiling-to-decision-profiling/001.jpg"
+coverImage: "../images/barret-agent-era-debugging-from-function-profiling-to-decision-profiling/001.webp"
 ---
 
 # Barret 李靖（@Barret_China）：Agent 时代的 Debug——从 Function Profiling 走向 Decision Profiling
@@ -27,9 +27,9 @@ Agent 时代的 Debug，关注点会逐渐从 Function Profiling 扩展到 Decis
 
 这也是一项复杂且重要的工程。
 
-![](../images/barret-agent-era-debugging-from-function-profiling-to-decision-profiling/001.jpg)
+![](../images/barret-agent-era-debugging-from-function-profiling-to-decision-profiling/001.webp)
 
-![](../images/barret-agent-era-debugging-from-function-profiling-to-decision-profiling/002.jpg)
+![](../images/barret-agent-era-debugging-from-function-profiling-to-decision-profiling/002.webp)
 
 ## 相关页面
 
