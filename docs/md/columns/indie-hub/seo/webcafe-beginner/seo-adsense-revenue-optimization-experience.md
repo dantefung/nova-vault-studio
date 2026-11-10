@@ -150,7 +150,7 @@ UV涨了之后，PV也会涨，而且之前旧版只有首页、分类页、详�
 
 所以可以看到，7月的广告费立马就变成了6月的差不多两倍。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_021.webp)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_002.webp)
 
  而8月几乎没涨，9月涨了，10月涨了，11月大涨，则是因为新版网站对搜索引擎更友好了，慢慢被搜索引擎收录了更多页面，同时又因为体验更好，打开更快，进而导致搜索排名上升，从搜索引擎过来的流量越来越高。
 

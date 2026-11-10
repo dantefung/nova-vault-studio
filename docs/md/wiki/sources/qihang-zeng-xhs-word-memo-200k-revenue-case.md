@@ -33,7 +33,7 @@ https://t.co/3gkrB5Yrvj
 
 ![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/001.webp)
 
-![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/002.webp)
+![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/001.webp)
 
 ![](../images/qihang-zeng-xhs-word-memo-200k-revenue-case/003.webp)
 

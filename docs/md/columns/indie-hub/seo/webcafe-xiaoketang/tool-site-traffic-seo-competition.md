@@ -103,7 +103,7 @@ Devin.ai 的开发商做了 DeepWiki.com 这个免费工具，来接触到更多
 
 说实话，我也不太懂 OC 这个需求，于是我就去问 Claude。
 
-![图片](images/tool-site-traffic-seo-competition/img_021.webp)
+![图片](images/tool-site-traffic-seo-competition/img_019.webp)
 
 ![图片](images/tool-site-traffic-seo-competition/img_022.webp)
 
@@ -143,7 +143,7 @@ Devin.ai 的开发商做了 DeepWiki.com 这个免费工具，来接触到更多
 
 有分享页面功能，用户会帮忙扩散，不用想，外链不可能太少，果然，一查，有六百多个外链。
 
-![图片](images/tool-site-traffic-seo-competition/img_031.webp)
+![图片](images/tool-site-traffic-seo-competition/img_019.webp)
 
 ## 兴趣延伸
 

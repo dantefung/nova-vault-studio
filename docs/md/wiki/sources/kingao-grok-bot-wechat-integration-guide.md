@@ -13,7 +13,7 @@ coverImage: "../images/kingao-grok-bot-wechat-integration-guide/001.jpg"
 
 <!-- more -->
 
-![](../images/kingao-grok-bot-wechat-integration-guide/002.webp)
+![](../images/kingao-grok-bot-wechat-integration-guide/001.webp)
 
 最近，我把 Grok Bot 接入了我的微信，在微信里就可以轻松指挥我的 Grok bot 军团干活！
 

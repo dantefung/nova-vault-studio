@@ -106,7 +106,7 @@ coverImage: "../images/jessicao-x-article-skill-corpus-illustration-cover-open-s
 
 回答整理清楚之后，它会形成一份简短的创作简报，再进入制作。同一会话里已经有了这些回答，后续文章只补新的主题和变化。跨会话的长期档案复用，我还没有在这个版本里做完，不会说它已经永久记住了你。
 
-![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/004.webp)
+![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/003.webp)
 
 ## 04. 下载之后，怎么开始用
 
@@ -169,7 +169,7 @@ $x-article-skill
 
 封面则把范围收小。长标题可以放在 Article 标题栏里，图上提炼为短标题。你希望读者第一眼记住什么，就把那句话留在最大的位置。
 
-![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/005.webp)
+![](../images/jessicao-x-article-skill-corpus-illustration-cover-open-source/003.webp)
 
 ## 06. 我通常怎么 review，你第一次该检查什么
 

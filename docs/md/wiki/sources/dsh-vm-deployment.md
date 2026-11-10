@@ -172,7 +172,7 @@ ssh -L 3080:127.0.0.1:3080 root@xx.xx.xx.xx
 
 然后访问 http://127.0.0.1:3080，出现内测声明：
 
-![内测声明](dsh-vm-deployment/images/008.webp)
+![内测声明](dsh-vm-deployment/images/002.webp)
 
 选择模式，支持四种模式：
 

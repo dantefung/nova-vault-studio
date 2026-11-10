@@ -123,11 +123,11 @@ Grok Bot可以先用免费七天试用，之后可以购买 Super Grok，每月 
 静态 IP proxy
 
 链接：https://proxy-seller.com/
-![](../images/grok-bot-app-research/009.webp)
+![](../images/grok-bot-app-research/006.webp)
 
 点击之后
 
-![](../images/grok-bot-app-research/010.webp)
+![](../images/grok-bot-app-research/007.webp)
 
 买好之后我就简单粗暴截图了一下，这个可以给 bot 去处理，也可以记录下这些关键信息
 
@@ -141,7 +141,7 @@ gmail 账号购买就比较简单直接挑就行。
 
 这里注意，配置 gmail 登录的时候，有一个细节，就是 gmail 的验证需要一些手动，bot 会给你这样反馈：
 
-![](../images/grok-bot-app-research/013.webp)
+![](../images/grok-bot-app-research/008.webp)
 
 这里就需要在 geelark 客户端手动一下，这个也可以让 bot 引导你如何去操作，相当于在电脑上用手机的体验。
 

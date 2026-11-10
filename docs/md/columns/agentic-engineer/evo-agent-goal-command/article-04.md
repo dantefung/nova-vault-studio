@@ -10,7 +10,7 @@ author: "袁小康"
 > 文章序号：第 04 篇 | 作者：袁小康
 
 messages 越滚越大，context window 撑不住了怎么办？本文梳理业界主流的上下文压缩方案，再看 evo-agent 如何用三层策略让 Agent 无限续航。
-![image](images/article-04/001.webp)
+![image](images/article-04/01.webp)
 前三篇文章分别讲了 Agent 的 Loop、Tools 和 记忆。这篇聊一个迟早得正面面对的问题。Agent 跑着跑着，messages 越滚越大，context window 快撑不住了，怎么办？
 ## 一、项目进度回顾
 先简单回顾一下。evo-agent 是我从零构建 Agent 的学习项目。https://github.com/tiankonguse/evo-agent第一篇，搭骨架：接入 Anthropic API，实现 ReAct Loop，第一个工具 bash。第二篇，扩展工具系统：新增 read_file、write_file、edit_file，重构工具注册机制。第三篇，理解记忆层：System Prompt、Messages History、Tools Schema 三位一体。这一篇，解决一个绕不过去的工程问题——上下文压缩。当前项目的目录结构如下：
@@ -19,7 +19,7 @@ src/├── main.go├── internal/│   ├── agent/│   │   ├
 ```
 ## 二、问题的根源：messages 是一个只增不减的雪球
 上一篇说过，LLM 没有记忆，它的“记忆”就是每次传进去的 messages 数组。这就带来了一个很现实的问题。每完成一步操作，messages 就会追加几条：助手的 tool_use 请求、执行工具的 tool_result 返回。一个稍微复杂点的任务，跑个十几轮下来，messages 就能轻松膨胀到几万个字符。而 LLM 的上下文窗口是有限的。超出了，轻则截断历史导致 LLM “忘事”，重则 API 直接报错。
-![image](images/article-04/002.webp)
+![image](images/article-04/02.webp)
 打个比方。你让助理帮你做一个调研报告，他查了 20 个网站，每查一个网站就在笔记本上记一页。结果笔记本只能放 30 页纸。还没调研完，笔记本就写满了。前面记的东西要么被撕掉，要么再也找不到了。这不是假设，这是任何跑长任务的 Agent 都必然会撞上的墙。解决这个问题的方案，就叫上下文压缩（Context Compact）。
 ## 三、业界怎么做的
 上下文压缩没有银弹。不同的方案各有各的取舍，我大致梳理了四类。
@@ -39,7 +39,7 @@ src/├── main.go├── internal/│   ├── agent/│   │   ├
 没有哪个方案是万能的。滑动窗口零成本但会丢目标，LLM 摘要效果最好但需要额外调用，占位符替换极快但只处理工具结果，RAG 能力最强但架构太重。实际工程中，通常是几种策略分层组合使用。先拿最便宜的手段挡一挡，挡不住了再上重武器。这个思路其实也是 evo-agent 的设计思路。
 ## 四、evo-agent 的压缩设计
 evo-agent 采用了三层压缩策略，按照成本从低到高依次触发。
-![image](images/article-04/006.webp)
+![image](images/article-04/06.webp)
 就像三道防线。第一道，能在内存里解决的，绝不动网络。第二道，内存搞不定了，调 LLM 做摘要。第三道，LLM 自己觉得不行了，主动喊暂停。一层一层兜底。
 ### 第一层：MicroCompact（微压缩）
 每次调用 LLM 之前，先扫一遍 messages，把较旧的工具结果替换成一行占位符：

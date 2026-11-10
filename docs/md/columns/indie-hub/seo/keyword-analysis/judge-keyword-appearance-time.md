@@ -77,7 +77,7 @@ AI工具站日收入破千美元；零基础入门养网站防老路线图
 
 就像这位朋友，一天的广告费就把社群费用赚回来了。
 
-![image](images/judge-keyword-appearance-time/008.webp)
+![image](images/judge-keyword-appearance-time/001.webp)
 
 更不用说，还有些朋友已经日入千刀以上了。
 

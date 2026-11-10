@@ -299,7 +299,7 @@ GitHub 自带的 CI，用的是它自己的机器，每个月我开了会员也�
 
 并且还可以直接做选择。
 
-![](../images/khazix-agent-automation-system/015.webp)
+![](../images/khazix-agent-automation-system/003.webp)
 
 这个感觉，其实讲道理，跟皇帝批奏折真的没有什么区别。
 

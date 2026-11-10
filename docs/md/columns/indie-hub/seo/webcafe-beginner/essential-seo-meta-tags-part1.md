@@ -109,7 +109,7 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 但如果看下面这张图会发现，H1并不在影响排名的因素里，那为什么哥飞依然强调H1要好好写呢？
 
-![image.png](images/essential-seo-meta-tags-part1/img_009.webp)
+![image.png](images/essential-seo-meta-tags-part1/img_003.webp)
 
 因为良好的H1到H6，可以帮助谷歌更好的梳理网页内容结构，也就是帮助谷歌更好的理解网页内容。
 

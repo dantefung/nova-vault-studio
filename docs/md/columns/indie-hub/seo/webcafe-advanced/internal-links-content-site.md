@@ -23,7 +23,7 @@ url: "https://new.web.cafe/tutorial/detail/internal-links-content-site"
 
 ![73c0ad3f607fb45e525edf0d4f5e04ad\_.png](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
-![3c14c25db389608d0b47b1478ce25bc8\_.png](images/internal-links-content-site/gefei-internal-links-content-site_1.webp)
+![3c14c25db389608d0b47b1478ce25bc8\_.png](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
 大家先看下半年前，哥飞发在公众号的文章：【哥飞解读】2024 年谷歌算法排名因素变化。当时解读了 2024 年谷歌排名算法。
 
@@ -55,7 +55,7 @@ Henry 去年 12 月做了一个网站，选择了一个有一定难度的关键�
 
 他的网站 57%流量来自于自然搜索，35%来自于直接访问量，没有投过付费广告。一些核心关键词流量相比于上个月涨了 465%，这什么概念，流量翻了几倍。 靠的是什么？靠的就是扎实的内容和内页，使得首页的核心关键词排名上升了。
 
-![9da6da9baf5ebb9929fc2487fa888b7c\_.png](images/internal-links-content-site/gefei-internal-links-content-site_2.webp)
+![9da6da9baf5ebb9929fc2487fa888b7c\_.png](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
 类似的例子还有很多，今天的分享不一一列出来。 但是所有的例子，都在说明一件事情，你想要拿下排名，仅仅靠外链是不够的，你还需要有内页。
 
@@ -77,11 +77,11 @@ Henry 去年 12 月做了一个网站，选择了一个有一定难度的关键�
 
 Woy.ai 拿到了至少 1 个点击的网页数量是 692 个。
 
-![d025bfefef5d259980a7afb8e3a05f5a\_.png](images/internal-links-content-site/gefei-internal-links-content-site_3.webp)
+![d025bfefef5d259980a7afb8e3a05f5a\_.png](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
 未编入索引和已编入索引网页加起来个数是 13385。
 
-![42f3e503352572fa5f53b7e6306c92ed\_.png](images/internal-links-content-site/gefei-internal-links-content-site_4.webp)
+![42f3e503352572fa5f53b7e6306c92ed\_.png](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
 那么计算出来的 哥飞网站权重=692/13385×100%=5.16%
 
@@ -180,7 +180,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 好了，哥飞今天的讲解就大概讲完了。
 
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_5.webp)
+-   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     請給我一支蘭州
 
@@ -196,7 +196,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     用户搜索体现需求，跟关键字方法
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_6.webp)
+-   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     Richao
 
@@ -214,7 +214,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     略微抽象，还需再次复读深入理解，打卡。
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_7.webp)
+-   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     阿木子三不知
 
@@ -241,7 +241,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     打卡, 去看看彪哥的分享
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_8.webp)
+-   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     lx
 
@@ -259,7 +259,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     有的，[https://new.web.cafe/tutorial/detail/82ea980d818446bfbee3daea735126ea](https://new.web.cafe/tutorial/detail/82ea980d818446bfbee3daea735126ea)
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_9.webp)
+-   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     楠木
 

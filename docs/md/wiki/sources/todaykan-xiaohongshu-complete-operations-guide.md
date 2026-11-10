@@ -223,7 +223,7 @@ AI 内容要标注。用 AI 写文案、做图、剪视频，发布时勾选「A
 
 近 7 日数据中心
 
-![](../images/todaykan-xiaohongshu-complete-operations-guide/013.webp)
+![](../images/todaykan-xiaohongshu-complete-operations-guide/003.webp)
 
 官方扶持别浪费
 

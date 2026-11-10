@@ -548,7 +548,7 @@ Once all optimizing is complete, restart the service and run the API test script
 
 Result: all passed.
 
-![Image 12](images/structured-prompt-driven-development/structured-prompt-driven-development-img11.webp)
+![Image 12](images/structured-prompt-driven-development/structured-prompt-driven-development-img8.webp)
 Regression Test Results
 
 ### Step 6: generate unit tests

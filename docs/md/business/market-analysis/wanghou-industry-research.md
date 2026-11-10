@@ -28,7 +28,7 @@ url: "https://mp.weixin.qq.com/s/oSxioGe6I9a6kodXMlfraQ"
 
 ![image](images/002.webp)![image](images/003.webp)
 
-![image](images/004.webp)
+![image](images/002.webp)
 
 标题抽象：
 

@@ -269,7 +269,7 @@ print(format_transcript($user_input))
 
 ![多个 Speaker，显示发言人](../images/pseudocode-ctrl-1.webp)
 
-![1 个 Speaker，不显示发言人](../images/pseudocode-ctrl-2.webp)
+![1 个 Speaker，不显示发言人](../images/pseudocode-ctrl-1.webp)
 
 你也可以直接使用我用这个 Prompt 生成的 GPT：[Transcript organization 视频文稿整理 GPT](https://chatgpt.com/g/g-pnXgeR4g4-transcript-organization-shi-pin-wen-gao-zheng-li)
 

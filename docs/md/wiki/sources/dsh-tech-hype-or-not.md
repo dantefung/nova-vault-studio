@@ -227,7 +227,7 @@ DeepSeek 在官方 README 里用一句话概括这套架构：Everything is a Pl
 
 每一轮对话里，Agent 发起了多少次模型请求，执行了哪些工具，总共花了多久，都能直接看到。
 
-![配图](../images/dsh-tech-hype-or-not/016.webp)
+![配图](../images/dsh-tech-hype-or-not/002.webp)
 
 点开请求卡片，还能分别查看系统提示词、消息、上下文和工具列表。
 

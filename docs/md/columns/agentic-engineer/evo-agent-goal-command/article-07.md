@@ -85,7 +85,7 @@ You: 分析 Union 字段值, 视图ID 2003, 主键key mzc002009g0nh88, 字段 t
 ✓ mcp__unionplus_mcp_normal__QuerySource {"field_name":"type_name","key":"mzc002009g0nh88","view_name":"2003"}  🕐 225ms ✓ mcp__unionplus_mcp_normal__QueryEnumValueInfo {"lib_id":"2","value":"2"}  🕐 200ms
 ```
 每一步都有完整记录。底部状态栏始终可见
-![image](images/article-07/008.webp)
+![image](images/article-07/005.webp)
 整个过程中，状态栏一直钉在屏幕底部。5471 token，2.7%，离压缩触发还远得很。
 ![image](images/article-07/009.webp)
 ## 最后

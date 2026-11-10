@@ -977,7 +977,7 @@ title: 📚 操作说明
 
 ![](images/image-22.webp)
 
-![](images/image-17.webp)
+![](images/image-14.webp)
 
 ![](images/image-19.webp)
 

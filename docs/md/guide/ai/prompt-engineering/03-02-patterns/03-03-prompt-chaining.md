@@ -4,7 +4,7 @@ date: "2026-05-07"
 source: "微信公众号"
 ---
 
-![](../images/prompt-chain-logo.webp)
+![](../images/langgpt-logo.webp)
 
 * **作者：云中江树(\[1])，李继刚(\[2])，小七姐(\[3])， JK（Jackey） (排名不分先后)**
 

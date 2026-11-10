@@ -17,7 +17,7 @@ coverImage: "../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirates
 
 我在 X 上看到 Ray 刚走完一遍：9 月 21 日寄出，9 月 28 日下午深圳签收，UPS 运费 40.91 美元。我把这套流程每一步都对着官方说明核了一遍，整理成照着做就行的版本。
 
-![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/002.webp)
+![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/001.webp)
 
 ![](../images/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship/003.webp)
 

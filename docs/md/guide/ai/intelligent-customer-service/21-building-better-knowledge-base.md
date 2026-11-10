@@ -1248,7 +1248,7 @@ https://arxiv.org/abs/2305.17080
 
 选择合适的 Embedding 模型：根据语言、文档长度、资源限制选型
 
-调优融合权重：在验证集上调整 RRF 的![image](images/21-building-better-knowledge-base/075.webp)或加权系数![image](images/21-building-better-knowledge-base/076.webp)
+调优融合权重：在验证集上调整 RRF 的![image](images/21-building-better-knowledge-base/065.webp)或加权系数![image](images/21-building-better-knowledge-base/067.webp)
 
 引入查询增强：HyDE 和 Multi-Query 对开放式问题效果显著
 
@@ -1400,7 +1400,7 @@ Reranker 输出的是相关性分数，可以设置阈值过滤低质量结果�
 
 ![image](images/21-building-better-knowledge-base/082.webp)
 
-其中![image](images/21-building-better-knowledge-base/083.webp)是文档![image](images/21-building-better-knowledge-base/084.webp)在各路召回中的排名，![image](images/21-building-better-knowledge-base/085.webp)通常取 60。
+其中![image](images/21-building-better-knowledge-base/083.webp)是文档![image](images/21-building-better-knowledge-base/063.webp)在各路召回中的排名，![image](images/21-building-better-knowledge-base/065.webp)通常取 60。
 
 ![image](images/21-building-better-knowledge-base/086.webp)总结
 

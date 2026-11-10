@@ -180,7 +180,7 @@ spec:
 
 > **注意界面显示正在运行的 Actor 数为 0/8**——这是因为 **Actor 只会在存在活跃会话时运行**，这也体现了 Agent Substrate 对硬件资源的高效使用。
 
-![kagent 的 Substrate 页面](../images/kagent-agent-substrate-k8s-agent-sandbox/007.webp)
+![kagent 的 Substrate 页面](../images/kagent-agent-substrate-k8s-agent-sandbox/006.webp)
 
 打开智能体并输入任意提示词，此时会看到 Actor 数变为 **0/9**：
 

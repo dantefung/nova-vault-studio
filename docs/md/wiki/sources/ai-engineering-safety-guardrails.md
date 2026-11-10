@@ -174,7 +174,7 @@ Dry Run 使用虚拟需求完整走一遍流程，但不产生真实合入、发
 9. 质量可以分级，安全门必须二元 Fail-Safe。
 10. Harness 需要 Dry Run、审计、评测和持续迭代。
 
-![安全护栏时序总览](../images/ai-engineering-safety-guardrails/010.webp)
+![安全护栏时序总览](../images/ai-engineering-safety-guardrails/001.webp)
 
 ## 信息边界
 

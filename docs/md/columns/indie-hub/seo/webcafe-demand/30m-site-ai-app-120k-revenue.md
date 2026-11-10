@@ -82,7 +82,7 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
 有个名叫 Rizz 的 AI App 就是主打这个功能的，月收入 10 万+ 美元了。
 
-![](images/30m-site-ai-app-120k-revenue/img_017.webp)
+![](images/30m-site-ai-app-120k-revenue/img_002.webp)
 
 | TREND IT LLC | Trendlt |
 | --- | --- |

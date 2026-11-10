@@ -93,7 +93,7 @@ url: ""
 
 * **身份文件上传：根据指引，上传入境记录PDF**、拍照上传**身份证**正反面。然后进行**人脸识别**核验身份。接着，会要求**拍摄上传港澳通行证**个人资料页和签注页（有些版本App可能两个页面都要拍）。\*拍摄要点：\*证件放平，拍全页，不反光，必要时多尝试几次。再选择开户用途：一般选“储蓄”或“投资”，不要选太敏感的用途。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-2.webp)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image.webp)
 
 ![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-3.webp)
 
@@ -101,7 +101,7 @@ url: ""
 
 
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-5.webp)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image.webp)
 
 * **填写详细信息：包括个人资料**（出生地、学历等）、**就业及财务状况**、**开户目的**等。注意点如下：
 
@@ -311,7 +311,7 @@ url: ""
 
 ![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-31.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-30.webp)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-27.webp)
 
 * **拍摄身份证明：除了通行证，App还可能要求你再拍摄身份证**或其他辅助证件照片（以当时App页面提示为准）。确保按要求拍摄清晰。
 
@@ -337,7 +337,7 @@ url: ""
 
 * **提交申请：**&#x786E;认所有信息填写正确，特别是英文名、证件号、电话、地址无误，然后提交。接下来会出现两种情况：
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-29.webp)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-28.webp)
 
 * **即时通过**：**如果系统自动审核通过，你会在屏幕上看到**“恭喜开户成功”的字样，旁边可能有你的新账户号码等信息。
 
