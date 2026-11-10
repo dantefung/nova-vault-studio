@@ -4,6 +4,44 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-10] ingest: 33 篇「稍后读」X/Twitter 队列第四批（Pi 书单 / Agent 时代 Debug / 循环工程 / GEO 长尾 / 出海选品 / AI 视频 Bot / 宏观研究 Skill / 全自媒体 Skill 等）+ 归档「产品体验走查」社区提示词
+
+- 抓取与归档：用户分批提交 34 条 X 链接（去重后 33 条唯一），通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，另单独归档 1 份社区共创提示词，共入库 34 篇至 `sources/`
+- 查重跳过：`https://x.com/addyosmani/status/2119332146485891501` 此前已归档为 `sources/addyosmani-your-coding-agents-made-you-a-manager.md`，本次不重复收录
+- 归档列表（节选）：
+  1. `sources/xiaomovps-pi-5-must-read-articles-for-developers.md`（小墨同学，119 行）：学习 Pi 必须阅读的 5 篇经典文章——Getting Started with pi、Pi is a really nice agent、Pi 扩展开发实战手册（Skill / Prompt Template / Extension / Package 四种扩展方式）等。
+  2. `sources/barret-agent-era-debugging-from-function-profiling-to-decision-profiling.md`（Barret李靖，39 行，2 图）：Agent 时代 Debug 从 Function Profiling 扩展到 Decision Profiling——单 Session 需支持决策节点暂停/改条件/Fork/Replay/Evaluation，Agent 系统则需从大量轨迹中找出低效决策与失败模式反哺 Context 组织与 Harness 架构。
+  3. `sources/vikingmute-3-practices-from-addy-osmani-agent-management.md` 与 `sources/vikingmute-when-engineer-work-becomes-management.md`（Viking）：对 Addy Osmani 文章的三点提炼（明确验证机制 / 全自动循环五要素 / 错误沉淀进 AGENTS.md）与读后感。
+  4. `sources/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build.md`（虹安，277 行）：出海一个月复盘——最难的不是建站而是决定做哪个。
+  5. `sources/smartpigai-langchain-async-agent-is-the-next-paradigm.md`（Smartpig，241 行）：LangChain 提出强 Agent 必须学会异步工作。
+  6. `sources/growaiskills-gsc-generative-ai-performance-report.md`（Marvin，63 行，2 图）：GSC 已能查 Google AI 搜索曝光，以及按网页维度找内容缺口的做法。
+  7. `sources/yyyole-korean-tool-5-module-content-marketing-loop.md`（沐阳，60 行）：Collector / Picker / Creator / Scheduler / Reviewer 五模块内容营销闭环。
+  8. `sources/product-walkthrough-audit-prompt-pm-ux-ui-three-perspectives.md`（社区共创提示词，164 行）：产品体验走查提示词全文 + 八条设计要点拆解（三视角并行 / 六维度检查表 / P0-P3 分级与同级排序 / 仅走查 vs 走查并修复 / 固定变量复走与对照 / 七要素交付格式 / 证据等级标注）。
+  9. `sources/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins.md`（Leaf Yeah!，373 行，8 图）：DeepSeek Harness 从入门到精通——4 种模式、8 条指令、15 个必装插件。
+  10. `sources/guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org.md`（工业聚，55 行）：循环工程三点特征 + Brian Armstrong 的 Agent 组织实践（每领域一个 lead agent + chief of staff，单一优先队列 + 截图/演示视频验收 + "Brian brain" 蒸馏判断）。
+  11. `sources/chaogetalks-18-hours-to-launch-16-days-to-first-order.md`（硅谷超哥，156 行，6 图）：18 小时上线、16 天开单的逐帧复盘。
+  12. `sources/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot.md`（Jerry Xiong，38 行，2 图）：Magpie 作路由层 + agy CLI 规避 Google 封号（严禁第三方 OAuth 登录 Google 模型）。
+  13. `sources/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures.md`（阿川，188 行，9 图）：B 站 TOY 蓝海玩法月入五位数。
+  14. `sources/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month.md`（启航，261 行，9 图）与 `sources/qihang-zeng-xhs-word-memo-200k-revenue-case.md`（启航，45 行，3 图）：小红书虚拟店一年复制 8 家月入 6 万；背单词资料店 223 天 2 万单营收 20 万。
+  15. `sources/waveking-grok-bot-24h-ai-trading-team-prompts.md`（断浪，589 行，8 图）：用 Grok Bot 搭 24 小时 AI 交易团队的完整提示词。
+  16. `sources/cyancloud-vibe-coding-four-terms-hydration-idempotency-fixture-race.md`（云辰，48 行，4 图）：水合、幂等、测试夹具、竞态条件四术语。
+  17. `sources/bkdgiffug-hyper-extract-llm-structured-knowledge-extraction.md`（lumxss，31 行，1 图）：Hyper-Extract 用 LLM 把文档提炼成结构化知识，支持约 8 种图谱结构与 80+ 领域模板、可导出 Obsidian。
+  18. `sources/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy.md`（Romain Brunel，53 行，4 图，法语）：GEO 实测——AI 搜索访问 28 天从 5/天涨到 267/天；关键动作是收录进 Bing + 专攻超长尾查询。
+  19. `sources/vikingmute-ai-design-method-refero-mcp-design-tokens.md`（Viking，46 行，2 图）：Refero 找真实设计 → 生成 design token 落成 DESIGN.md → 加精致动效。
+  20. `sources/haowue-faceless-xhs-side-hustle-14k-per-month.md`（猫叔，126 行，7 图）：不露脸小红书数字产品副业月入 1.4 万四步法。
+  21. `sources/shanyanggm-8-content-marketing-frameworks.md`（山羊，38 行，8 图）：AIDA / PAS / BAB / ACCA / QUEST / SLAP / 4C / 5A 八套框架。
+  22. `sources/xbaodao-shopify-3-months-one-sale-cc-built-site.md`（宝刀，67 行，1 图）：Shopify 3 个月 1 单，改用 CC 自建站当天收款。
+  23. `sources/yihui-four-conditions-for-happiness.md`（Yihui，28 行，2 图）：睡眠 / 中高心率运动 / 半小时太阳 / 音乐——快乐四件事。
+  24. `sources/whiteai-8-months-ai-topup-traffic-4000-daily-profit.md`（White，537 行，8 图）：8 个月 AI 代充，单日流水过万、利润 4000+ 的获客复盘。
+  25. `sources/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow.md`（言川，544 行，9 图）：AI 视频 Bot（2D/3D）从想法到成片全流程与完整提示词。
+  26. `sources/tradercbtc-investment-agent-global-macro-research-skill.md`（trader-c，57 行，2 图）：investment-agent 全球宏观研究 Skill 开源。
+  27. `sources/mariregina-mainline-task-accumulate-bullets-then-build-machine-gun.md`（Ning，74 行，3 图）：主线任务——上半场攒金融/认知/健康三种资本，下半场造自动赚钱机器。
+  28. `sources/leo-xiaolei-open-source-skill-for-all-social-media-content.md`（刘老板，316 行，8 图）：全自媒体运营 Skill 开源。
+  29. `sources/harrisonitsme-dsh-11-essential-plugins.md`（森叔，53 行，3 图）：DSH 必装 11 插件清单。
+  30. `sources/yxl44-agent-desktop-200k-stars-no-screenshot-rust.md`（杨小乱，52 行，2 图）：agent-desktop 20 万 Star，Rust 构建、直读无障碍接口、60 命令、CLI + MCP。
+  31. `sources/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize.md`（小晚不在，566 行，8 图）：小红书起号保姆级教程——找对标、坚持出摊、商业化。
+- 索引更新：`index.md` 追加 33 行
+
 ## [2026-11-09] ingest: 15 篇「稍后读」X/Twitter 队列第三批（SEO 修旧页 / 穷人思维 35 条 / 老站 SEO ROI / 赚钱 20 条 / Pinky 手机操控 / Super-agent / 蚂蚁痕迹协作 / SEO 与 GEO / Grok Bot 团队 15 项目 / 组件库 / agent-desktop / Chrome 插件外链 / 管理 Agent / Addy Osmani 管理十二条）
 
 - 抓取与归档：用户分批提交 17 条 X 链接，通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，本地化配图 12 张，归档 15 篇至 `sources/`

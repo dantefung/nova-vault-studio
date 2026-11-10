@@ -938,3 +938,36 @@ wiki/
 | [victor-uwerr-chrome-extension-as-backlink-entry](/md/wiki/sources/victor-uwerr-chrome-extension-as-backlink-entry) | Victor在西雅图（@victor_UWer）：给自己的网站做个 Chrome 插件，把链接挂到应用商店详情页 | X/Twitter |
 | [smartpigai-managing-coding-agents-not-writing-code](/md/wiki/sources/smartpigai-managing-coding-agents-not-writing-code) | Smartpig（@Smartpigai）：很多程序员把自己变成了 Coding Agent 的全职质检员 | X/Twitter |
 | [addyosmani-your-coding-agents-made-you-a-manager](/md/wiki/sources/addyosmani-your-coding-agents-made-you-a-manager) | Addy Osmani（@addyosmani）：Your coding agents made you a manager——管理 Agent 的十二条实践 | X/Twitter |
+| [xiaomovps-pi-5-must-read-articles-for-developers](/md/wiki/sources/xiaomovps-pi-5-must-read-articles-for-developers) | 小墨同学（@xiaomovps）：学习 Pi 必须阅读的 5 篇经典文章——从入门到自己开发 Agent | X/Twitter |
+| [barret-agent-era-debugging-from-function-profiling-to-decision-profiling](/md/wiki/sources/barret-agent-era-debugging-from-function-profiling-to-decision-profiling) | Barret李靖（@Barret_China）：Agent 时代的 Debug——从 Function Profiling 走向 Decision Profiling | X/Twitter |
+| [vikingmute-3-practices-from-addy-osmani-agent-management](/md/wiki/sources/vikingmute-3-practices-from-addy-osmani-agent-management) | Viking（@vikingmute）：从 Addy Osmani 的 Agent 管理文章里提炼出的 3 条最佳实践 | X/Twitter |
+| [vikingmute-when-engineer-work-becomes-management](/md/wiki/sources/vikingmute-when-engineer-work-becomes-management) | Viking（@vikingmute）：当工程师的工作变成管理——不想转管理的人也要面对的转变 | X/Twitter |
+| [yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build](/md/wiki/sources/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build) | 虹安（@yaohongan2025）：做了一个月出海站，我才发现最难的不是建站，是决定做哪个 | X/Twitter |
+| [smartpigai-langchain-async-agent-is-the-next-paradigm](/md/wiki/sources/smartpigai-langchain-async-agent-is-the-next-paradigm) | Smartpig（@Smartpigai）：LangChain 提出未来强 Agent 必须学会异步工作 | X/Twitter |
+| [growaiskills-gsc-generative-ai-performance-report](/md/wiki/sources/growaiskills-gsc-generative-ai-performance-report) | Marvin（@growaiskills）：Google AI 搜索曝光能查了——打开 GSC 看这份报告 | X/Twitter |
+| [yyyole-korean-tool-5-module-content-marketing-loop](/md/wiki/sources/yyyole-korean-tool-5-module-content-marketing-loop) | 沐阳（@yyyole）：一个韩国工具把内容营销做成 5 个 AI 模块的完整闭环 | X/Twitter |
+| [product-walkthrough-audit-prompt-pm-ux-ui-three-perspectives](/md/wiki/sources/product-walkthrough-audit-prompt-pm-ux-ui-three-perspectives) | 产品体验走查提示词：同时以产品经理、UX 研究员与 UI 设计师视角验收并分级修复 | 社区共创提示词 |
+| [leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins](/md/wiki/sources/leaf-sanren-deepseek-harness-4-modes-8-commands-15-plugins) | Leaf Yeah!（@leaf_sanren）：万字长文｜DeepSeek Harness 从入门到精通——4 种模式、8 条指令、15 个必装插件 | X/Twitter |
+| [guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org](/md/wiki/sources/guyingjie-loop-engineering-three-traits-and-brian-armstrong-agent-org) | 工业聚（@guyingjie129）：循环工程的三点特征——以及 Brian Armstrong 的 Agent 组织实践 | X/Twitter |
+| [chaogetalks-18-hours-to-launch-16-days-to-first-order](/md/wiki/sources/chaogetalks-18-hours-to-launch-16-days-to-first-order) | 硅谷超哥（@chaogetalks）：18 小时上线，16 天开单——这一单是怎么来的？ | X/Twitter |
+| [jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot](/md/wiki/sources/jerry-galaxy-openmausbot-magpie-unlimited-token-multi-bot) | Jerry Xiong（@Jerry_Galaxy）：OpenMausBot + Magpie 实现无限 Token 与多 Bot 并行且不被封号 | X/Twitter |
+| [ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures](/md/wiki/sources/ai-jacksaku-bilibili-toy-blue-ocean-monthly-five-figures) | 阿川（@AI_jacksaku）：蓝海！月入五位数的 B 站 TOY 新玩法 | X/Twitter |
+| [qihang-zeng-xhs-virtual-1-year-8-stores-60k-month](/md/wiki/sources/qihang-zeng-xhs-virtual-1-year-8-stores-60k-month) | 启航（@qihang_zeng6688）：小红书虚拟 1 年复制 8 家店，高峰月入 6 万 | X/Twitter |
+| [qihang-zeng-xhs-word-memo-200k-revenue-case](/md/wiki/sources/qihang-zeng-xhs-word-memo-200k-revenue-case) | 启航（@qihang_zeng6688）：靠卖高效背单词资料，小红书虚拟店 223 天卖出 2 万单、总营收 20 万 | X/Twitter |
+| [waveking-grok-bot-24h-ai-trading-team-prompts](/md/wiki/sources/waveking-grok-bot-24h-ai-trading-team-prompts) | 断浪 WaveKing（@waveking1314）：用 Grok Bot 搭一支 24 小时 AI 交易团队（完整提示词） | X/Twitter |
+| [cyancloud-vibe-coding-four-terms-hydration-idempotency-fixture-race](/md/wiki/sources/cyancloud-vibe-coding-four-terms-hydration-idempotency-fixture-race) | 云辰 Cyan（@CyanCloud77）：Vibe Coding 里的四个术语——水合、幂等、测试夹具、竞态条件 | X/Twitter |
+| [bkdgiffug-hyper-extract-llm-structured-knowledge-extraction](/md/wiki/sources/bkdgiffug-hyper-extract-llm-structured-knowledge-extraction) | lumxss（@bkdgiffug）：Hyper-Extract——用 LLM 把无结构文档自动提炼成结构化知识库 | X/Twitter |
+| [affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy](/md/wiki/sources/affiseo-geo-5-to-267-ai-visits-ultra-long-tail-strategy) | Romain Brunel（@Affiseo_）：GEO 实测——AI 搜索带来的访问从 5/天涨到 267/天 | X/Twitter |
+| [vikingmute-ai-design-method-refero-mcp-design-tokens](/md/wiki/sources/vikingmute-ai-design-method-refero-mcp-design-tokens) | Viking（@vikingmute）：AI 做设计的方法论——用 Refero 找真实案例，把 design token 落成 DESIGN.md | X/Twitter |
+| [haowue-faceless-xhs-side-hustle-14k-per-month](/md/wiki/sources/haowue-faceless-xhs-side-hustle-14k-per-month) | 猫叔的职场笔记（@haowue）：不露脸的小红书数字产品副业，月入 1.4 万的四步法 | X/Twitter |
+| [shanyanggm-8-content-marketing-frameworks](/md/wiki/sources/shanyanggm-8-content-marketing-frameworks) | 山羊赚钱笔记（@shanyanggm）：做内容营销，参考这 8 套框架 | X/Twitter |
+| [xbaodao-shopify-3-months-one-sale-cc-built-site](/md/wiki/sources/xbaodao-shopify-3-months-one-sale-cc-built-site) | 宝刀（@xbaodao）：Shopify 3 个月只卖出一单，用 CC 搓了个站当天就收款 | X/Twitter |
+| [yihui-four-conditions-for-happiness](/md/wiki/sources/yihui-four-conditions-for-happiness) | Yihui（@yihui_indie）：一天不快乐，大概率是这 4 件事没做 | X/Twitter |
+| [whiteai-8-months-ai-topup-traffic-4000-daily-profit](/md/wiki/sources/whiteai-8-months-ai-topup-traffic-4000-daily-profit) | White（@WhiteAi66）：做了 8 个月 AI 代充，最高一天流水过万、利润 4000 多 | X/Twitter |
+| [yanchuanlab-ai-video-bot-2d-3d-full-production-workflow](/md/wiki/sources/yanchuanlab-ai-video-bot-2d-3d-full-production-workflow) | 言川（@yanchuanlab）：AI 视频 Bot（2D/3D）——从想法到成片一手实战全流程 | X/Twitter |
+| [tradercbtc-investment-agent-global-macro-research-skill](/md/wiki/sources/tradercbtc-investment-agent-global-macro-research-skill) | trader-c（@TradercBTC）：investment-agent——开源全球宏观研究 Skill，装进你自己的 AI Agent | X/Twitter |
+| [mariregina-mainline-task-accumulate-bullets-then-build-machine-gun](/md/wiki/sources/mariregina-mainline-task-accumulate-bullets-then-build-machine-gun) | Ning（@MariRegina55109）：普通人的唯一主线任务——上半场攒子弹，下半场造机枪 | X/Twitter |
+| [leo-xiaolei-open-source-skill-for-all-social-media-content](/md/wiki/sources/leo-xiaolei-open-source-skill-for-all-social-media-content) | 刘老板（@leo_xiaolei）：我开源了一套 Skill，可以运营全部自媒体——文章、视频丢进去，图文、口播视频做出来 | X/Twitter |
+| [harrisonitsme-dsh-11-essential-plugins](/md/wiki/sources/harrisonitsme-dsh-11-essential-plugins) | 森叔（@harrisonitsme）：大肥鱼 DSH 必装的 11 个插件 | X/Twitter |
+| [yxl44-agent-desktop-200k-stars-no-screenshot-rust](/md/wiki/sources/yxl44-agent-desktop-200k-stars-no-screenshot-rust) | 杨小乱（@yxl44）：20 万 Star 的 agent-desktop——不用截图、不模拟坐标，直接读系统无障碍接口 | X/Twitter |
+| [bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize](/md/wiki/sources/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize) | 小晚不在（@bbkirstry）：小红书起号保姆级教程——从 0 开始找对标，坚持出摊、商业化 | X/Twitter |
