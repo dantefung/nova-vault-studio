@@ -5128,3 +5128,9 @@ source: "llm-wiki"
 - 来源：`https://x.com/guishou_56/status/2120081653813084565`（X/Twitter：Niko）
 - 归档《Niko：10 分钟搞定 Google Ads API，免费查关键词精确搜索量》至 `sources/guishou-google-ads-api-keyword-volume.md`
 - 内容摘要：申请 Google Ads API Explorer（秒批）→ 品牌信息发布为正式版 → 验证/发布品牌 → 申请 Basic 访问级别（每天 15,000 次）→ 建桌面 OAuth 客户端 → 交给 AI 写代码调用关键词规划接口，免费获取关键词精确搜索量。引用其上一条推文：停止投放后关键词规划工具只显示区间不显示具体搜索量。未提炼知识页。
+
+## [2026-11-11] ingest: Google Ads 关键词规划工具停投后只显示区间
+
+- 来源：`https://x.com/guishou_56/status/2120028093792555217`（X/Twitter：Niko）
+- 归档《Niko：Google Ads 关键词规划工具停投后只显示区间的问题》至 `sources/guishou-google-ads-keyword-planner-interval.md`
+- 内容摘要：停止投放后关键词规划工具只显示区间、不显示精确搜索量。解决方案：①开每天几美元的小搜索广告跑几天 ②用正在投放的 MCC 经理账户查 ③用第三方工具（作者原本选 DataForSEO，后续改用 Google Ads API，见 `sources/guishou-google-ads-api-keyword-volume.md`）。未提炼知识页。
