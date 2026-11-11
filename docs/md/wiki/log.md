@@ -5176,3 +5176,9 @@ source: "llm-wiki"
 - 来源：`https://x.com/0xGky/status/2120225728562094363`（X/Twitter：Gk (@0xGky)）
 - 归档至 `sources/0xgky-wx-channels-download.md`
 - 内容摘要：开源工具 wx_channels_download（github.com/ltaoo/wx_channels_download，10.5K star）：PC 微信视频底部自动出现下载按钮、可选画质；覆盖公众号视频/视频号原始视频/B 站/快手/YouTube/直播，支持 MCP 让 AI Agent 建下载任务；Windows/Linux/macOS。配图本地化 1 张。未提炼知识页。
+
+## [2026-11-11] ingest: 三条 X 推文（Fable 5.2 做 SEO / Nouplo 小语种工具站 / GPT 推荐不出单）
+
+- `sources/growaiskills-fable-5-2-seo.md` — Marvin：如何用 Claude Fable 5.2 做 SEO（选词→按下单前问题组织内容→上线前检查→每周只改 3 页，排名 5–15；附可复制任务单）。
+- `sources/intentplex-nouplo-small-language-tool-site.md` — Wyong：每日起量新站案例 Nouplo——靠小语种（法/德/西/意/韩）小需求 61 天拿 13 个谷歌第一，按当地规矩做工具（德 1-6 分制等），600+ 工具 × 9 语言，€2.79 24 小时通行证、Pro €4.5/月；几乎不靠外链。
+- `sources/qianshuixia-gpt-recommend-conversion-fix.md` — 浅水虾：新站被 GPT 推荐带来流量、谷歌曝光，却零开单；请教哥飞后按渠道分组（GPT/其他）调整积分规则；顺带分享其自研多会话终端管理工具。
