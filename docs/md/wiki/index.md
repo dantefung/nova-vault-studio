@@ -41,6 +41,8 @@ wiki/
 |------|--------|------|
 | [ontology-platform-architecture](/md/wiki/concepts/ontology-platform-architecture) | 本体平台总体架构：四层三纵 + 十大引擎 + 三大运行模式，统一企业业务语义中枢 | 公众号：人月聊IT |
 | [llm-wiki](/md/wiki/concepts/llm-wiki) | 持久化、复利的知识库模式：三层架构 + Ingest/Query/Lint + 哈希/阈值/冲突治理 | Skill / Hermes Agent |
+| [agent-memory-four-layers](/md/wiki/concepts/agent-memory-four-layers) | Agent 记忆四层架构：会话记录/笔记/Wiki/启动上下文分层存放 + 离线整理 + 按需读取 | 公众号：架构师若飞 |
+| [sessionless-agent-architecture](/md/wiki/concepts/sessionless-agent-architecture) | Sessionless Agent 架构：会话耗材化 + 任务责任状（Quest）+ 动态长出 DAG + MDC 文件空间 | 公众号：郑天 |
 | [hermes-llm-wiki-skill](/md/wiki/summaries/hermes-llm-wiki-skill) | Hermes v2.1.0 将 Karpathy LLM Wiki 落实为可执行的建设、查询和 13 步 Lint 治理流程 | Hermes Agent 文档 |
 | [llm-cache-mechanism](/md/wiki/concepts/llm-cache-mechanism) | LLM 缓存三层机制：KV Cache → 显存优化 → 前缀缓存，以及 Claude Code/Codex 工程实践 | 公众号 |
 | [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
@@ -519,6 +521,9 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [error-notebook-pattern](/md/wiki/patterns/error-notebook-pattern) | 错题本模式：agent 每晚复盘 commit，同一条教训出现3天即升格为硬规则，magpie 发版频率因此从168→15个/天 | X |
+| [dreaming-offline-memory-repair](/md/wiki/patterns/dreaming-offline-memory-repair) | Dreaming 离线记忆整理：回看旧会话→逐条列出冲突与依据→写候选版→重跑验证→再采用 | 公众号提炼 |
+| [model-propose-program-decide](/md/wiki/patterns/model-propose-program-decide) | 模型提议程序裁决模式：唯一状态写入者 + Outbox 事务先记账后动手 + 外部文本降级为数据 + 灰度主动性 | 公众号提炼 |
+| [memory-ab-regression-test](/md/wiki/patterns/memory-ab-regression-test) | 记忆有效性三组对照实验：固定问题+单一变量+先验答案出处再看工具调用，并留作回归题 | 公众号提炼 |
 | [agent-router-table](/md/wiki/patterns/agent-router-table) | 路由表模式：CLAUDE.md 只放路由不放规则，agent 自行查表获取上下文，规则可独立演进 | X |
 | [viral-content-monitoring](/md/wiki/patterns/viral-content-monitoring) | 爆款监控工作流：定时扫描对标账号 + 阈值判断 + 自动推送，对接免费模型实现 token 零消耗 | X |
 | [agent-team-handoff-model](/md/wiki/patterns/agent-team-handoff-model) | Agent 团队交接模型：从单 Bot 到会交接的小团队——信任六原则 + 八步落地路径 + 交接契约 | X/Twitter |
@@ -886,6 +891,8 @@ wiki/
 | [phil-design-personal-ip-and-codex-desktop-pet-tutorial](/md/wiki/sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial) | 阿哲Phil（@Formulasearch）：快速上手设计一款个人 IP，并做成 Codex 宠物（附提示词和链接） | X/Twitter |
 | [niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch) | Niko爱学习（@ai_super_niko）：掌控 Codex 对话节奏——打断、排队、引导和分叉 | X/Twitter |
 | [heminglu-from-ontology-to-ontology-modeling-business-semantics](/md/wiki/sources/heminglu-from-ontology-to-ontology-modeling-business-semantics) | 何明璐（人月聊IT）：从本体论到本体建模——如何构建可生成可推理的业务语义规范 | 微信公众号 |
+| [anthropic-agent-memory-four-layers](/md/wiki/sources/anthropic-agent-memory-four-layers) | 若飞：Claude 的4层记忆是如何设计的？——会话记录/笔记/Wiki/启动上下文四层 + Dreaming 离线纠错 + 三步自建方案 | 微信公众号 |
+| [zhengtian-deepseek-superagent-practice](/md/wiki/sources/zhengtian-deepseek-superagent-practice) | 郑天：关于 DeepSeek 的 SuperAgent，以及我们的实践——双层架构/Outbox模式/Sessionless/Quest责任状/动态DAG/MDC | 微信公众号 |
 | [xiaozhang-jetbrains-thinkrail-ai-ide](/md/wiki/sources/xiaozhang-jetbrains-thinkrail-ai-ide) | 小张：JetBrains 终于出手了！开源 AI IDE ThinkRail——以后写代码，可能真不需要人盯着了 | 微信公众号 |
 | [0xding-ankole-agent-os-for-teams](/md/wiki/sources/0xding-ankole-agent-os-for-teams) | Li (Boris) Ding（@0xDing）：为团队构建真正的 Agent OS——来自 Ankole 的工程实践 | X/Twitter |
 | [intentplex-grok-bot-directory-backlink-automation](/md/wiki/sources/intentplex-grok-bot-directory-backlink-automation) | Wyong（@intentplex）：用 Grok Bot 自动化提交免费目录站外链——可落地的批量做法 | X/Twitter |

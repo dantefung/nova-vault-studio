@@ -4,6 +4,26 @@ date: "2026-05-29"
 source: "llm-wiki"
 ---
 
+## [2026-11-11] ingest: 郑天·关于 DeepSeek 的 SuperAgent，以及我们的实践（Flock 协同空间 / Sessionless / Quest 责任状）
+
+- 来源：`https://mp.weixin.qq.com/s/AI3cr067LM5vw2GKvmY6kQ`（微信公众号：郑天 / 《Alibaba Cloud AI Agent Handbook》）
+- 归档《关于 DeepSeek 的 SuperAgent，以及我们的实践》至 `sources/zhengtian-deepseek-superagent-practice.md`
+- 配图本地化：`images/zhengtian-deepseek-superagent-practice/`（共 36 张架构与流程图，全部转为 WebP 格式，单个最大仅 42KB）
+- 提炼知识页：
+  - **概念页**：`concepts/sessionless-agent-architecture`（会话降级为执行耗材、Quest 责任状三要素与待验收状态、动态长出 DAG、MDC 从推到拉文件空间）
+  - **模式页**：`patterns/model-propose-program-decide`（模型提议程序裁决五大设计法则：唯一状态写入者、Outbox 预写日志、外部文本降级为只读数据、主动行为灰度化、人类消息专属并发配额与硬置顶）
+- 内容摘要：深度解构 DeepSeek SuperAgent 双层架构（Router/Worker）与 1.6 万行开源原型的五个核心架构判断（模型提议程序裁决、先记账再动手 Outbox、外部文本永远只是数据、主动能力灰度化、人的优先级最高），结合阿里协同空间 Flock 踩坑复盘，详述 Channel 隔离与跨边界通信、Sessionless 会话耗材化、Quest 责任状生命周期、动态 DAG 任务自长出机制、Quest 链上下文链式召回、以及 MDC 统一文件空间设计，指明 Agent 架构正在高度收敛并全面回归经典分布式系统工程。
+
+## [2026-11-11] ingest: Claude 的4层记忆是如何设计的？（Anthropic Agent Memory 四层架构 + Dreaming 离线纠错）
+
+- 来源：`https://mp.weixin.qq.com/s/MNoGUXElwMoyHUNNTB4GdQ`（微信公众号：架构师 / 若飞）
+- 归档《Claude 的4层记忆是如何设计的？》至 `sources/anthropic-agent-memory-four-layers.md`
+- 配图本地化：`images/anthropic-agent-memory-four-layers/`（3 张 WebP，GIF 已转 PNG，末尾二维码推广图已剔除）
+- 提炼知识页：
+  - **概念页**：`concepts/agent-memory-four-layers`（会话记录 / 笔记 / Wiki / 启动上下文四层职责、证据链约束、启动上下文召回成本）
+  - **模式页**：`patterns/dreaming-offline-memory-repair`（离线纠错三步法：回看→列出冲突与依据→写候选版→重跑→采用）、`patterns/memory-ab-regression-test`（三组对照实验 + 先验答案再看工具调用的观察顺序）
+- 内容摘要：解读 Anthropic《The components of agent memory》四层记忆架构——分层是"检索时机"的分层而非"重要性"分层；只有会话记录是证据，笔记/Wiki 都是二手结论；Dreaming 作为离线计算负责纠错但不自动采用（Dreams API 写新库、不切库）；评测中 Stainless 35 万文件 25 题，Wiki+搜索把评分项满足率推到 61%、每题省约 2 万 token，但建 Wiki 本身用了 128 个会话；自建 Agent 落地三步——带出处的任务笔记、索引接入启动上下文、三种对照实验验证记忆是否真的帮上忙。
+
 ## [2026-11-10] ingest: 33 篇「稍后读」X/Twitter 队列第四批（Pi 书单 / Agent 时代 Debug / 循环工程 / GEO 长尾 / 出海选品 / AI 视频 Bot / 宏观研究 Skill / 全自媒体 Skill 等）+ 归档「产品体验走查」社区提示词
 
 - 抓取与归档：用户分批提交 34 条 X 链接（去重后 33 条唯一），通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`，另单独归档 1 份社区共创提示词，共入库 34 篇至 `sources/`
