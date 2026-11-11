@@ -63,6 +63,7 @@ source: "原创"
 | [超详细 Codex 上手教程，从入门到精通](./codex-tutorial/) | OpenAI 生态概念、CLI 终端命令、AGENTS.md 配置与问题答疑 |
 | [Codex Desktop 完整系统提示词深度拆解](./codex-desktop-system-prompt/) | 6 个核心设计哲学分析 + 1903 行系统提示词全量中文对照 |
 | [阿里云 AgentCore 架构解析：企业级 Agent 生产化与治理平台](./aliyun-agentcore-enterprise-architecture.md) | 云栖大会分享：四大生产化转变、三层 Judge 评测、AgentLoop 观测、多模式协同与 Skill 资产沉淀 |
+| [郑天：关于 DeepSeek 的 SuperAgent，以及我们的实践](./deepseek-superagent-flock-practice.md) | DSH SuperAgent 双层架构与 1.6 万行原型深度剖析 + 阿里 Flock 协同空间实践（Sessionless / Quest / 动态 DAG / MDC） |
 | [范冰：解读 dsh-superagent——主动型 Coding Agent 工程常识与后厨美学](./deepseek-harness/18-dsh-superagent-engineering-common-sense.md) | 拆解 Router-Worker、事件驱动、异步 Loop、Mandate 授权与 Stored Work 5 大设计与自建系统复盘 |
 
 ---
