@@ -5158,3 +5158,9 @@ source: "llm-wiki"
 - `sources/growaiskills-gsc-old-page-refresh.md` — Marvin：GSC 旧内容改造 5 步（筛排名 3–20 的查询→挑有持续曝光+贴近业务的缺口词→URL 归集→标题/答案前置/意图匹配→2–4 周复盘）。
 - `sources/yaohongan-gsc-content-decay-prompt.md` — 虹安：内容衰减诊断 prompt（12 个月 GSC 数据→ChatGPT 找掉量页、诊断归因、Top 10 修复清单；不许编数据）。
 - 共 8 篇（含 X Blog），未提炼知识页。
+
+## [2026-11-11] ingest: 三条 X 推文（Magpie 省额度玩法 / Agent 记忆系统 / DeepSeek Harness 自媒体工作台）
+
+- `sources/chasen-liao-magpie-gemini-proxy-grok-bot.md` — Chasen：Magpie 反代 Jio Gemini Pro，仅监听 Tailscale 内网，CCW 接 Pi，Grok Bot 只想与验收、执行走 Gemini 额度；注意不要在 Bot 电脑上用 Antigravity/Codex 订阅账号（IP 拥挤）。
+- `sources/suercha-agent-memory-system-design.md` — 苏茶：Agent 记忆系统设计框架——记什么/怎么存/怎么用三问 + 9 项工程约束（何时记、记什么、存哪里、冲突一致性、生命周期、何时读、检索、注入、安全隐私与权限）。
+- `sources/goan-deepseek-harness-media-desk.md` — G哥：DeepSeek Harness 开源自媒体工作台 dsh-media-desk（github.com/woniuniuniu/dsh-media-desk）：灵感→脚本→封面→资产库→排期→复盘流水线；引用其上一条 Fable 5.2 零素材生成 CF like 游戏（550 美元）；视频封面已本地化为 001.jpg。
