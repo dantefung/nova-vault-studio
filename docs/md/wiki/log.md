@@ -5182,3 +5182,9 @@ source: "llm-wiki"
 - `sources/growaiskills-fable-5-2-seo.md` — Marvin：如何用 Claude Fable 5.2 做 SEO（选词→按下单前问题组织内容→上线前检查→每周只改 3 页，排名 5–15；附可复制任务单）。
 - `sources/intentplex-nouplo-small-language-tool-site.md` — Wyong：每日起量新站案例 Nouplo——靠小语种（法/德/西/意/韩）小需求 61 天拿 13 个谷歌第一，按当地规矩做工具（德 1-6 分制等），600+ 工具 × 9 语言，€2.79 24 小时通行证、Pro €4.5/月；几乎不靠外链。
 - `sources/qianshuixia-gpt-recommend-conversion-fix.md` — 浅水虾：新站被 GPT 推荐带来流量、谷歌曝光，却零开单；请教哥飞后按渠道分组（GPT/其他）调整积分规则；顺带分享其自研多会话终端管理工具。
+
+## [2026-11-11] ingest: AI 10 分钟写完代码，你 2 小时还在验？——验收 Agent
+
+- 来源：`https://mp.weixin.qq.com/s/k2LwwM4-u0OnPKvQqwlAWw`（微信公众号：吴思，腾讯云开发者 2026-11-11）
+- 归档至 `sources/tencent-ai-code-acceptance-agent.md`，配图 17 张本地化
+- 内容摘要：医疗业务研发团队 OPT（One Person Team，CodeBuddy 等 CLI 为运行时）给 AI 代码生成补上后端验收 Agent——AI 真实调用接口，结合接口返回/业务状态/日志/DB 逐层验证需求是否真正实现。主流程 5 阶段：变更接口分析→编译发布与接口验证→Gherkin 测试→TAPD 预测试→验收结果输出（证据链）；效果：人工投入减少 80%、问题前置、验收能力复用；“看代码”走向“看结果”。去掉关注/入群/代金券等引流内容。未提炼知识页。
