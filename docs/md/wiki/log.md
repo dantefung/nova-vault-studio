@@ -5170,3 +5170,9 @@ source: "llm-wiki"
 - 来源：`https://x.com/kejunz/status/2120158874770739453`（X/Twitter：kejun）
 - 归档至 `sources/kejun-skills-audit-verification-maturity.md`
 - 内容摘要：skills 审计新增代码验证层成熟度模型——8 个风险维度 + 21 类验证方法（skill：github.com/kejun/squad 的 audit-verification-maturity 目录）；引用上一条推文：重新认识「代码验证」（配套站点 kejun.github.io/code-verification-atlas）。配图本地化 1 张。未提炼知识页。
+
+## [2026-11-11] ingest: 微信视频号下载工具 wx_channels_download
+
+- 来源：`https://x.com/0xGky/status/2120225728562094363`（X/Twitter：Gk (@0xGky)）
+- 归档至 `sources/0xgky-wx-channels-download.md`
+- 内容摘要：开源工具 wx_channels_download（github.com/ltaoo/wx_channels_download，10.5K star）：PC 微信视频底部自动出现下载按钮、可选画质；覆盖公众号视频/视频号原始视频/B 站/快手/YouTube/直播，支持 MCP 让 AI Agent 建下载任务；Windows/Linux/macOS。配图本地化 1 张。未提炼知识页。
