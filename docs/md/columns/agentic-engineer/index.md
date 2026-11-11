@@ -14,7 +14,7 @@ source: "原创"
 
 - [hello-harness/](./hello-harness/) — Hello Harness（从 0 手写 Agent Harness，TS 实现）
 - [zero-agent/](./zero-agent/) — 从零构建 Agent 系列（从码农到工匠，ZeroAgent 开源项目实战）
-- [deepseek-harness/](./deepseek-harness/) — DeepSeek Harness（18 篇，从架构到 Subagent 到部署到架构深拆到自进化与主动型 Super-agent）
+- [deepseek-harness/](./deepseek-harness/) — DeepSeek Harness（19 篇，从架构到 Subagent 到部署到架构深拆到自进化与主动型 Super-agent 到 3 万插件选型地图）
 - [codex-harness/](./codex-harness/) — Codex Harness（1 篇，App Server / Core Session / Agent Loop 源码解析）
 - [gsd-core/](./gsd-core/) — GSD Core 核心架构与 72 技能全景（Spec-Driven 与上下文防腐体系）
 - [ai-resources/](./ai-resources/) — AI 资源全景地图（100+ 分类，600+ 资源链接）
@@ -65,6 +65,7 @@ source: "原创"
 | [阿里云 AgentCore 架构解析：企业级 Agent 生产化与治理平台](./aliyun-agentcore-enterprise-architecture.md) | 云栖大会分享：四大生产化转变、三层 Judge 评测、AgentLoop 观测、多模式协同与 Skill 资产沉淀 |
 | [郑天：关于 DeepSeek 的 SuperAgent，以及我们的实践](./deepseek-superagent-flock-practice.md) | DSH SuperAgent 双层架构与 1.6 万行原型深度剖析 + 阿里 Flock 协同空间实践（Sessionless / Quest / 动态 DAG / MDC） |
 | [范冰：解读 dsh-superagent——主动型 Coding Agent 工程常识与后厨美学](./deepseek-harness/18-dsh-superagent-engineering-common-sense.md) | 拆解 Router-Worker、事件驱动、异步 Loop、Mandate 授权与 Stored Work 5 大设计与自建系统复盘 |
+| [DeepSeek Harness 插件实战指南：3 万插件生态的选型地图](./deepseek-harness/19-dsh-plugin-guide.md) | 实测 30,015 仓库、必装三件套、九大场景推荐清单、23 大类索引与避坑红线 |
 
 ---
 

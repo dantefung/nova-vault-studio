@@ -8,7 +8,7 @@ source: "微信公众号"
 
 > DeepSeek 开源的 Agent 框架——「Agent = Model + Harness」。一切皆插件，能力按需装配、用完即焚。
 
-> 本专栏共收录 18 篇文章，从整体架构到插件机制，从运行时设计到 Agent 蒸馏，从与 Cordis/Pi 的横向对比到 Codex 竞品开源，再到自进化 Agent 的哲学思考、DSH 桌面应用与虚拟机部署，iPhone 极限部署实战，架构深度拆解、插件生态审计，以及 DSH 过度工程与自进化的本质判断。
+> 本专栏共收录 19 篇文章，从整体架构到插件机制，从运行时设计到 Agent 蒸馏，从与 Cordis/Pi 的横向对比到 Codex 竞品开源，再到自进化 Agent 的哲学思考、DSH 桌面应用与虚拟机部署，iPhone 极限部署实战，架构深度拆解、插件生态审计，以及 DSH 过度工程与自进化的本质判断，最后收于一份基于 3 万插件生态实测的选型地图。
 
 ---
 
@@ -22,6 +22,7 @@ source: "微信公众号"
 对比层    →  DSH vs Pi：两种 Agent 架构设计哲学
 实践层    →  Minke v0.2.0：DSH 桌面应用与远程控制
 进化层    →  Super-agent 主动型系统工程架构与后厨美学
+选型层    →  3 万插件生态的实战选型地图
 ```
 
 ---
@@ -48,6 +49,7 @@ source: "微信公众号"
 | 16 | [The deepseek of DSH：过度工程，还是为自进化而建？](./16-zhenjia-dsh-overengineering-self-evolution.md) | 08-25 | 三派开发流派（库/成品/平台）、DSH 一切皆插件、时空可组合性（id=interface, name=implementation）、自进化五级、Prime Agent refinement 管线 |
 | 17 | [兼容不是复制：DeepSeek Harness 如何把 Claude Code 生态接进自己的 seam](./17-deepseek-harness-claude-code-ecology.md) | 09-10 | DeepSeek Harness 接入 Claude Code 生态的兼容策略，seam 设计思路 |
 | 18 | [增长黑客范冰：解读 dsh-superagent——一个主动型 Coding Agent 的工程常识与后厨美学](./18-dsh-superagent-engineering-common-sense.md) | 11-02 | 主动型 Agent 五大工程设计与个人系统硬伤复盘（后厨隐喻） |
+| 19 | [DeepSeek Harness 插件实战指南：3 万插件生态的选型地图](./19-dsh-plugin-guide.md) | 11-11 | 实测 30,015 仓库、必装三件套、九大场景清单、23 大类索引、避坑红线与三步选型法 |
 
 ---
 
