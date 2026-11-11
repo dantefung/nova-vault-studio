@@ -5122,3 +5122,9 @@ source: "llm-wiki"
   - `skeleton-and-port` — 骨架与插口哲学（规则共享/参数各异）
 - 配图本地化：pi-dsh（10张）、vibe-coding（9张）、anthropic-unix（6张）
 - 内容摘要：本批次聚焦Agent工程化核心问题——输入归属裁决机制、Vibe Coding的工程化升级路径、多Agent协作的Unix管道架构
+
+## [2026-11-11] ingest: Google Ads API 免费查关键词精确搜索量
+
+- 来源：`https://x.com/guishou_56/status/2120081653813084565`（X/Twitter：Niko）
+- 归档《Niko：10 分钟搞定 Google Ads API，免费查关键词精确搜索量》至 `sources/guishou-google-ads-api-keyword-volume.md`
+- 内容摘要：申请 Google Ads API Explorer（秒批）→ 品牌信息发布为正式版 → 验证/发布品牌 → 申请 Basic 访问级别（每天 15,000 次）→ 建桌面 OAuth 客户端 → 交给 AI 写代码调用关键词规划接口，免费获取关键词精确搜索量。引用其上一条推文：停止投放后关键词规划工具只显示区间不显示具体搜索量。未提炼知识页。
