@@ -5164,3 +5164,9 @@ source: "llm-wiki"
 - `sources/chasen-liao-magpie-gemini-proxy-grok-bot.md` — Chasen：Magpie 反代 Jio Gemini Pro，仅监听 Tailscale 内网，CCW 接 Pi，Grok Bot 只想与验收、执行走 Gemini 额度；注意不要在 Bot 电脑上用 Antigravity/Codex 订阅账号（IP 拥挤）。
 - `sources/suercha-agent-memory-system-design.md` — 苏茶：Agent 记忆系统设计框架——记什么/怎么存/怎么用三问 + 9 项工程约束（何时记、记什么、存哪里、冲突一致性、生命周期、何时读、检索、注入、安全隐私与权限）。
 - `sources/goan-deepseek-harness-media-desk.md` — G哥：DeepSeek Harness 开源自媒体工作台 dsh-media-desk（github.com/woniuniuniu/dsh-media-desk）：灵感→脚本→封面→资产库→排期→复盘流水线；引用其上一条 Fable 5.2 零素材生成 CF like 游戏（550 美元）；视频封面已本地化为 001.jpg。
+
+## [2026-11-11] ingest: kejun skills 审计代码验证成熟度
+
+- 来源：`https://x.com/kejunz/status/2120158874770739453`（X/Twitter：kejun）
+- 归档至 `sources/kejun-skills-audit-verification-maturity.md`
+- 内容摘要：skills 审计新增代码验证层成熟度模型——8 个风险维度 + 21 类验证方法（skill：github.com/kejun/squad 的 audit-verification-maturity 目录）；引用上一条推文：重新认识「代码验证」（配套站点 kejun.github.io/code-verification-atlas）。配图本地化 1 张。未提炼知识页。
