@@ -5140,3 +5140,21 @@ source: "llm-wiki"
 - 来源：`https://x.com/kkkeric_ai/status/2120113607421894940`（X/Twitter：KKKK (@kkkeric_ai)）
 - 归档《AI 产品 2 个月 10 万访问量｜只靠 SEO 和社媒拿到大结果》至 `sources/kkkeric-ai-100k-visits-seo-social.md`（X Article / 长文，24 张配图本地化）
 - 内容摘要：BeatAPI 运营第 2 个月访问量 10 万+。方法论：增长=曝光→注册→激活→付费全流程；出海增长 4 条路（SEO/GEO、社媒、红人、广告）及小白优先级；SEO & GEO 上千个页面策略（competitor comparison 页效果最好、GEO 与 SEO 一起做、专门的 SEO 体检 Bot 巡检）；社媒 5 种语言 20+ 渠道一渠道一 Bot（找对标→拆对标→扒真实痛点→换成自己产品重写）；开源项目反哺产品（DR dofollow 外链、开发者获客）；附 SEO 体检提示词（已去广告、改为中性接口描述）和社媒 Bot 开工包思路。文末 BeatGTM 社群推广与产品 CTA 已删除，推广链接已去。未提炼知识页。
+
+## [2026-11-11] ingest: X 工程团队重写 x.com Web 应用（blog.x.com）
+
+- 来源：`https://blog.x.com/en/engineering/rebuilding-the-global-town-square-from-scratch`（X Blog，2026-11-04，作者 Yagiz Nizipli, Principal Engineer）
+- 归档至 `sources/x-blog-rebuilding-global-town-square.md`
+- 采集方式：原站被 Cloudflare 拦截（403），经 Wayback Machine（2026-11-10 快照）取正文；7 张架构图从 Sanity CDN 下载本地化（SVG）
+- 内容摘要：X 用 AI 编码代理 6 个月重写 x.com Web：rweb 浏览器渲染 + rweb SSR + Jetfuel SSR 三个服务器合并为一个（React + Relay + Fastify / Platformatic Watt + Rust 链接预览图服务），慢速连接首帖展示 23.9s→2.7s；先服务登出流量与爬虫，再按国家放量登录用户；含回滚预案与后续性能工作（JS 在 stylesheet 加载后才启动等）。未提炼知识页。
+
+## [2026-11-11] ingest: 7 篇 X 推文批量采集
+
+- `sources/xuxuanzhou-five-new-word-sites-review.md` — 绪轩：一个月上线 5 个新词站的复盘（ozil ai 国家定价：高价档付款率 41.5% vs 低价 12.1%；tiny desk ai：84% 美国用户、约 12% 转化；dime dime baby 犹豫一天窗口即关；state property meme 换说法切入；新词监控信息密度控制）。哥飞社区双十一推广链接已删。
+- `sources/dtdt666-ai-self-learning.md` — 看不懂的SOL：如何利用 AI 自学一切（why-what-how 拆解、费曼出题、知识树 + 喂资料、Agent+Obsidian+Tutor SOP；附可复制 prompt）。
+- `sources/3three-ai-2026-side-hustle-top10.md` — 三个三：2026 下半年副业 TOP 10（AI 编程+1732%、AI 漫剧+1425%、AI 内容商单、AI PPT+264% 等）。
+- `sources/leviwoyun-fable-life-advice.md` — Levi 卧云：与神对话给的 10 条人生建议（Fable 5.2）。其余 3 条 skill/宣传片产品推广推文已删除。
+- `sources/tiagerbao-shadcn-improve-strong-plan-cheap-exec.md` — 旺旺：shadcn/improve（强模型审查出 Markdown 方案、便宜模型独立 worktree 执行、验收测试+diff、人决定合并）。
+- `sources/growaiskills-gsc-old-page-refresh.md` — Marvin：GSC 旧内容改造 5 步（筛排名 3–20 的查询→挑有持续曝光+贴近业务的缺口词→URL 归集→标题/答案前置/意图匹配→2–4 周复盘）。
+- `sources/yaohongan-gsc-content-decay-prompt.md` — 虹安：内容衰减诊断 prompt（12 个月 GSC 数据→ChatGPT 找掉量页、诊断归因、Top 10 修复清单；不许编数据）。
+- 共 8 篇（含 X Blog），未提炼知识页。
