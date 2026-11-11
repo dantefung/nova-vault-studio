@@ -5134,3 +5134,9 @@ source: "llm-wiki"
 - 来源：`https://x.com/guishou_56/status/2120028093792555217`（X/Twitter：Niko）
 - 归档《Niko：Google Ads 关键词规划工具停投后只显示区间的问题》至 `sources/guishou-google-ads-keyword-planner-interval.md`
 - 内容摘要：停止投放后关键词规划工具只显示区间、不显示精确搜索量。解决方案：①开每天几美元的小搜索广告跑几天 ②用正在投放的 MCC 经理账户查 ③用第三方工具（作者原本选 DataForSEO，后续改用 Google Ads API，见 `sources/guishou-google-ads-api-keyword-volume.md`）。未提炼知识页。
+
+## [2026-11-11] ingest: AI 产品 2 个月 10 万访问量——只靠 SEO 和社媒
+
+- 来源：`https://x.com/kkkeric_ai/status/2120113607421894940`（X/Twitter：KKKK (@kkkeric_ai)）
+- 归档《AI 产品 2 个月 10 万访问量｜只靠 SEO 和社媒拿到大结果》至 `sources/kkkeric-ai-100k-visits-seo-social.md`（X Article / 长文，24 张配图本地化）
+- 内容摘要：BeatAPI 运营第 2 个月访问量 10 万+。方法论：增长=曝光→注册→激活→付费全流程；出海增长 4 条路（SEO/GEO、社媒、红人、广告）及小白优先级；SEO & GEO 上千个页面策略（competitor comparison 页效果最好、GEO 与 SEO 一起做、专门的 SEO 体检 Bot 巡检）；社媒 5 种语言 20+ 渠道一渠道一 Bot（找对标→拆对标→扒真实痛点→换成自己产品重写）；开源项目反哺产品（DR dofollow 外链、开发者获客）；附 SEO 体检提示词（已去广告、改为中性接口描述）和社媒 Bot 开工包思路。文末 BeatGTM 社群推广与产品 CTA 已删除，推广链接已去。未提炼知识页。
