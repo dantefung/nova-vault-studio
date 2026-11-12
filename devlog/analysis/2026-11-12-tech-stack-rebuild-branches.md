@@ -100,3 +100,36 @@ url: ""
 - `docs/md/sitelog/evolution/milestones.md`（feat/next-rebuild 内，2026-08-01 Next.js 重构进度段）
 - `astro-app/README.md`（feat/astro-rebuild）
 - `devlog/analysis/`（本报告）
+
+---
+
+## 附录：Astro 全量迁移评估与排期（2026-11-12 补充）
+
+> 用户问题：如果要升级成现代化 MDX → HTML，是不是选择 Astro 更好？
+>
+> 短答：是。理由见报告正文排期部分；本附录给出基于本仓库实测数据的评估与建议排期。
+
+### 盘点（实测）
+
+| 指标 | 数值 |
+|------|------|
+| Markdown 文件数 | 3,999 |
+| `docs/md` 总体积 | 916 MB（主要为 books/ 下 PDF 与配图） |
+| 引用自定义 Vue 组件的 md | 167（PdfViewer 116 + HtmlViewer 16 + PdfList 18 + giscus 2 + EastonSearch 1） |
+| 图片引用数 | 8981 |
+| frontmatter 覆盖 | title 3937 / date 3218 / url 2363 / coverImage 322 / author 1120 —— 字段不一致率高（约 1800+ 文件缺 date，1600+ 缺 url） |
+| 现用 VitePress | 1.6.4 |
+
+### 为什么 Astro 优于 Next.js（本仓库语境）
+
+- 网站是内容站而非应用：交互仅主题切换、PDF 预览、Markmap/Mermaid、Giscus 等"岛"，Astro zero-JS-by-default + islands 正好匹配；Next.js 为此付出 App Router + RSC 复杂度税，MDX 生态（content collections / Zod frontmatter schema）也不如 Astro 顺。
+- Vercel 构建 OOM 的历史痛点：Astro `output:'static'` 纯静态输出，无 Server Functions 层，内存压力最小；与他们 `feat/astro-rebuild` 已验证通过的路径一致。
+- 内容集合 + Zod：frontmatter 校验从 pre-commit 脚本人肉检查，升级为编译期 schema 强校验（title 必填、date/url 按严重度 warn/error）。
+- MDX 迁移：3,999 篇 .md 语法绝大多数是标准 CommonMark/GFM + VitePress 特有语法（`<PdfViewer>` 等 Vue 块），可**保留 `.md` 扩展名**，无需全量改名为 `.mdx`（Astro 原生支持两者）。
+
+### 结论与建议排期
+
+- 迁移分三阶段：**P0 基础设施与构建打通 → P1 内容全量迁移与组件岛化 → P2 全量 QA + 灰度切换**，见详细计划 `devlog/plans/2026-11-12-astro-full-migration-plan.md`。
+- 工作量粗估（单人、兼其他任务）：**4–8 周**，主要卡在 167 篇自定义组件页的改写与 Giscus/搜索/RSS 等功能补齐，而非 3999 篇正文本身。
+- 决策门：P0 与首页/博客迁移（复用 `feat/astro-rebuild` 成果）验证通过后再决定是否推进 P1/P2；否则可退回 VitePress 1.7+ 修复方案（成本最低，但非 MDX/现代栈方向）。
+- 风险：books/ 下 PDF 与 PdfViewer、frontmatter 存量脏数据、构建内存、链接死链（`ignoreDeadLinks:true` 掩盖）、Giscus/搜索集成。均见详细计划 §6 风险与对策。
