@@ -1,3 +1,7 @@
+---
+title: "第 6 章 · 配置命令"
+---
+
 Title: 配置命令 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/commands/config-commands.html

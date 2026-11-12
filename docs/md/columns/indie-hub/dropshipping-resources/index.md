@@ -42,5 +42,5 @@ date: "2026-06-29"
 
 ## 关联阅读
 
-- [独立开发者套利模式](../aribitrage-mode.md)
+- [独立开发者套利模式](../money-methods/aribitrage-mode.md)
 - [莆、广系跨境电商AI搜索与深度研究](../ai-cross-border-ecommerce-research/ai-cross-border-ecommerce-research.md)

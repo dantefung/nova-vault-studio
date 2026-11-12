@@ -1,5 +1,5 @@
 ---
-title: "Trends Artificial Intelligence BOND202505"
+title: "人工智能趋势报告"
 date: "2026-06-02"
 source: "BOND"
 url: "https://www.bond.technology/ai-trends"
@@ -7,9 +7,4 @@ url: "https://www.bond.technology/ai-trends"
 
 # Trends Artificial Intelligence BOND202505
 
-<script setup>
-import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('./Trends_Artificial_Intelligence-BOND202505.pdf', import.meta.url).href
-</script>
-
-<PdfViewer :src="pdfUrl" />
+<PdfViewer repo-path="docs/md/books/ai-software/Trends_Artificial_Intelligence-BOND202505.pdf" />

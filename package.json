@@ -8,11 +8,13 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "npm run generate:pdf-pages && npm run generate:blog-index && npm run generate:blog-routes && cross-env VITE_FONT_SOURCE=local vitepress dev docs",
+    "dev": "npm run generate:pdf-pages && npm run generate:blog-index && npm run generate:resource-nav && npm run generate:blog-routes && cross-env VITE_FONT_SOURCE=local vitepress dev docs",
     "generate:pdf-pages": "node scripts/generate-pdf-pages.js",
     "generate:blog-index": "node scripts/build-blog-index.js",
+    "generate:resource-nav": "node scripts/build-resource-nav.js --all",
+    "check:resource-nav": "node scripts/build-resource-nav.js --check",
     "generate:blog-routes": "node scripts/generate-blog-routes.js",
-    "build": "npm run generate:pdf-pages && npm run generate:blog-index && npm run generate:blog-routes && cross-env VITE_FONT_SOURCE=local vitepress build docs",
+    "build": "npm run generate:pdf-pages && npm run generate:blog-index && npm run generate:resource-nav && npm run generate:blog-routes && cross-env NODE_OPTIONS=--max-old-space-size=5120 VITE_FONT_SOURCE=local vitepress build docs",
     "preview": "cross-env VITE_FONT_SOURCE=local vitepress preview docs"
   },
   "author": "DANTE FUNG",
@@ -20,6 +22,7 @@
   "devDependencies": {
     "cross-env": "10.1.0",
     "markdown-it-container": "^4.0.0",
+    "sharp": "^0.35.3",
     "vitepress": "1.6.4",
     "vue": "^3.2.47"
   },
@@ -27,6 +30,7 @@
     "@fontsource/lxgw-wenkai": "5.2.5",
     "@giscus/vue": "^2.2.8",
     "@vercel/analytics": "^1.0.1",
+    "lxgw-wenkai-screen-webfont": "^1.7.0",
     "markmap-lib": "^0.18.12",
     "markmap-view": "^0.18.12",
     "mermaid": "^11.16.0",

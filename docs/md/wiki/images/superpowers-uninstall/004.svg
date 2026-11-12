@@ -1,0 +1,224 @@
+  <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+   <desc>
+    
+    
+    
+    在两种模式都严格通过的 41 组配对样本中，Native 的轮次、工具调用、耗时、Token 和成本均显著下降。
+   </desc>
+   <rect width="1600" height="900" fill="#f7f8fa">
+   </rect>
+   <text x="100" y="90" fill="#18212b" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="700">
+    
+    
+    
+    Native 用更少的执行资源完成同一批任务
+   </text>
+   <text x="100" y="140" fill="#667085" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="23">
+    
+    
+    
+    仅统计两种模式都严格通过的 41 组配对样本，Classic 归一化为 100%
+   </text>
+   <rect x="1130" y="80" width="24" height="24" rx="4" fill="#d7dce2">
+   </rect>
+   <text x="1168" y="101" fill="#344054" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22">
+    
+    
+    
+    Classic
+   </text>
+   <rect x="1305" y="80" width="24" height="24" rx="4" fill="#148a85">
+   </rect>
+   <text x="1343" y="101" fill="#344054" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22">
+    
+    
+    
+    Native
+   </text>
+   <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="100" y="231" fill="#344054" font-size="24" font-weight="600">
+     
+     
+     
+     Agent 轮次
+    </text>
+    <rect x="350" y="200" width="900" height="38" rx="6" fill="#d7dce2">
+    </rect>
+    <rect x="350" y="200" width="383" height="38" rx="6" fill="#148a85">
+    </rect>
+    <text x="760" y="228" fill="#116b68" font-size="23" font-weight="700">
+     
+     
+     
+     剩余 42.6%
+    </text>
+    <rect x="1300" y="195" width="188" height="48" rx="6" fill="#fff0eb">
+    </rect>
+    <text x="1394" y="227" fill="#c44d32" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     下降 57.4%
+    </text>
+    <text x="100" y="329" fill="#344054" font-size="24" font-weight="600">
+     
+     
+     
+     工具调用
+    </text>
+    <rect x="350" y="298" width="900" height="38" rx="6" fill="#d7dce2">
+    </rect>
+    <rect x="350" y="298" width="399" height="38" rx="6" fill="#148a85">
+    </rect>
+    <text x="776" y="326" fill="#116b68" font-size="23" font-weight="700">
+     
+     
+     
+     剩余 44.3%
+    </text>
+    <rect x="1300" y="293" width="188" height="48" rx="6" fill="#fff0eb">
+    </rect>
+    <text x="1394" y="325" fill="#c44d32" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     下降 55.7%
+    </text>
+    <text x="100" y="427" fill="#344054" font-size="24" font-weight="600">
+     
+     
+     
+     模型耗时
+    </text>
+    <rect x="350" y="396" width="900" height="38" rx="6" fill="#d7dce2">
+    </rect>
+    <rect x="350" y="396" width="473" height="38" rx="6" fill="#148a85">
+    </rect>
+    <text x="850" y="424" fill="#116b68" font-size="23" font-weight="700">
+     
+     
+     
+     剩余 52.6%
+    </text>
+    <rect x="1300" y="391" width="188" height="48" rx="6" fill="#fff0eb">
+    </rect>
+    <text x="1394" y="423" fill="#c44d32" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     下降 47.4%
+    </text>
+    <text x="100" y="525" fill="#344054" font-size="24" font-weight="600">
+     
+     
+     
+     非缓存输入
+    </text>
+    <rect x="350" y="494" width="900" height="38" rx="6" fill="#d7dce2">
+    </rect>
+    <rect x="350" y="494" width="200" height="38" rx="6" fill="#148a85">
+    </rect>
+    <text x="577" y="522" fill="#116b68" font-size="23" font-weight="700">
+     
+     
+     
+     剩余 22.2%
+    </text>
+    <rect x="1300" y="489" width="188" height="48" rx="6" fill="#fff0eb">
+    </rect>
+    <text x="1394" y="521" fill="#c44d32" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     下降 77.8%
+    </text>
+    <text x="100" y="623" fill="#344054" font-size="24" font-weight="600">
+     
+     
+     
+     总 Token
+    </text>
+    <rect x="350" y="592" width="900" height="38" rx="6" fill="#d7dce2">
+    </rect>
+    <rect x="350" y="592" width="209" height="38" rx="6" fill="#148a85">
+    </rect>
+    <text x="586" y="620" fill="#116b68" font-size="23" font-weight="700">
+     
+     
+     
+     剩余 23.2%
+    </text>
+    <rect x="1300" y="587" width="188" height="48" rx="6" fill="#fff0eb">
+    </rect>
+    <text x="1394" y="619" fill="#c44d32" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     下降 76.8%
+    </text>
+    <text x="100" y="721" fill="#344054" font-size="24" font-weight="600">
+     
+     
+     
+     模型成本
+    </text>
+    <rect x="350" y="690" width="900" height="38" rx="6" fill="#d7dce2">
+    </rect>
+    <rect x="350" y="690" width="224" height="38" rx="6" fill="#148a85">
+    </rect>
+    <text x="601" y="718" fill="#116b68" font-size="23" font-weight="700">
+     
+     
+     
+     剩余 24.9%
+    </text>
+    <rect x="1300" y="685" width="188" height="48" rx="6" fill="#fff0eb">
+    </rect>
+    <text x="1394" y="717" fill="#c44d32" font-size="24" font-weight="700" text-anchor="middle">
+     
+     
+     
+     下降 75.1%
+    </text>
+   </g>
+   <line x1="350" y1="774" x2="1250" y2="774" stroke="#cfd4dc" stroke-width="2">
+   </line>
+   <g fill="#667085" font-family="Inter, sans-serif" font-size="17" text-anchor="middle">
+    <text x="350" y="802">
+     
+     
+     
+     0%
+    </text>
+    <text x="575" y="802">
+     
+     
+     
+     25%
+    </text>
+    <text x="800" y="802">
+     
+     
+     
+     50%
+    </text>
+    <text x="1025" y="802">
+     
+     
+     
+     75%
+    </text>
+    <text x="1250" y="802">
+     
+     
+     
+     100%
+    </text>
+   </g>
+   <text x="100" y="860" fill="#7a8491" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">
+    
+    
+    
+    数据来源：Comet 官方评测报告，版本 0.4.0-beta.16；图表根据公开数据整理
+   </text>
+  </svg>

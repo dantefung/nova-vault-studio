@@ -26,7 +26,7 @@ _关键词分析_。
 
 基于对 Ahrefs Content Explorer 索引中超过十亿个页面的研究。
 
-![Image 1: 饼图显示在 Ahrefs 的研究中，90.63% 的页面无法从 Google 获得自然搜索流量](images/image-ninety-pages-VIF4TFN6.png)
+![Image 1: 饼图显示在 Ahrefs 的研究中，90.63% 的页面无法从 Google 获得自然搜索流量](images/image-ninety-pages-VIF4TFN6.webp)
 
 关键词分析能帮您确认：您想写的东西，确实有人在搜。因此，一旦您的页面在 Google 上把目标关键词排上去，就能持续收获源源不断的高度精准的访客。
 
@@ -82,19 +82,19 @@ _关键词分析_。
 
 当您有了一些想法（不用过度纠结），把它们输入到 [**Ahrefs 免费关键词生成工具**](https://ahrefs.com/zh/keyword-generator) 中。
 
-![Image 2: Ahrefs 免费关键词生成器工具的着陆页，包含用于输入种子关键词的搜索输入框](images/screenshot-part1-keyword-generator-BBH3Y3TD.png)
+![Image 2: Ahrefs 免费关键词生成器工具的着陆页，包含用于输入种子关键词的搜索输入框](images/screenshot-part1-keyword-generator-BBH3Y3TD.webp)
 
 每输入一个种子关键词，都会获得 20 个相关关键词和 20 个相关问题（也就是说，已经获得了 _40_ 个关键词创意）。
 
 它还会显示这些关键词的排名难度（简单、中等或困难），以及每月大致能获得多少搜索量。
 
-![Image 3: Ahrefs 免费关键词生成器为“咖啡”提供的关键词创意，展示了包含 KD和搜索量的短语匹配结果](images/screenshot-part1-keyword-ideas-GCMDS2ND.png)
+![Image 3: Ahrefs 免费关键词生成器为“咖啡”提供的关键词创意，展示了包含 KD和搜索量的短语匹配结果](images/screenshot-part1-keyword-ideas-GCMDS2ND.webp)
 
 您可以根据需要多次执行此操作，适用于所有的种子关键词。
 
 ChatGPT 也很有用。将您的种子关键词粘贴到 ChatGPT 中，并配上类似的提示词：_请为以下每个主题推荐 10 个简短的关键词创意：_
 
-![Image 4: 利用 ChatGPT 根据种子关键词进行头脑风暴，生成关键词创意](images/screenshot-part1-chatgpt-IE7QEB2L.png)
+![Image 4: 利用 ChatGPT 根据种子关键词进行头脑风暴，生成关键词创意](images/screenshot-part1-chatgpt-IE7QEB2L.webp)
 
 ChatGPT 的短板在于，它无法提供真实可靠的 SEO 指标，比如关键词难度或月搜索量。但它在集思广益、批量生成创意方面非常实用，便于结合 SEO 工具进行进一步分析。
 
@@ -108,15 +108,15 @@ ChatGPT 的短板在于，它无法提供真实可靠的 SEO 指标，比如关�
 
 当您真正认真想要提升网站的搜索流量时，记得注册 Ahrefs 并试用一下 [Keywords Explorer](https://ahrefs.com/zh/keywords-explorer)。选取一个种子关键词，让 AI 给您推荐一些关键词创意：
 
-![Image 5: Ahrefs Keywords Explorer 的 Ask AI 功能可生成种子关键词建议](images/screenshot-part1-ask-ai-WIDRBSJR.png)
+![Image 5: Ahrefs Keywords Explorer 的 Ask AI 功能可生成种子关键词建议](images/screenshot-part1-ask-ai-WIDRBSJR.webp)
 
 片刻之后，您就能得到 20 个额外的种子关键词，可用于开启搜索：
 
-![Image 6: Ahrefs Keywords Explorer 显示 20 个额外的 AI 生成种子关键词](images/screenshot-part1-20-extra-seed-keywords-TM7MZ7YH.png)
+![Image 6: Ahrefs Keywords Explorer 显示 20 个额外的 AI 生成种子关键词](images/screenshot-part1-20-extra-seed-keywords-TM7MZ7YH.webp)
 
 点击搜索按钮，然后进入词匹配报告，看看它给了我们多少关键词创意：
 
-![Image 7: Ahrefs Keywords Explorer 的词匹配报告，使用“按父主题聚类”视图，展示与咖啡相关的种子关键词生成的 170 万个关键词创意](images/screenshot-part1-matching-terms-report-CZJLFX3U.png)
+![Image 7: Ahrefs Keywords Explorer 的词匹配报告，使用“按父主题聚类”视图，展示与咖啡相关的种子关键词生成的 170 万个关键词创意](images/screenshot-part1-matching-terms-report-CZJLFX3U.webp)
 
 170万个关键词！没有任何免费工具能让您处理如此庞大的关键词创意资源。
 
@@ -128,7 +128,7 @@ ChatGPT 的短板在于，它无法提供真实可靠的 SEO 指标，比如关�
 
 设置完成后，[Google Search Console](https://search.google.com/search-console/about) 将会展示您的网站当前获得排名并带来点击的一部分搜索查询词。
 
-![Image 8: Google Search Console 性能报告，展示网站获得排名的查询词](images/screenshot-part1-google-performance-S5NGBY2U.png)
+![Image 8: Google Search Console 性能报告，展示网站获得排名的查询词](images/screenshot-part1-google-performance-S5NGBY2U.webp)
 
 Search Console 的缺点在于它不会显示任何 SEO 指标。因此，即使您看到一个不错的关键词每月能带来一些点击，您也无法判断是否值得花精力去提升它的排名。
 
@@ -136,7 +136,7 @@ Search Console 的缺点在于它不会显示任何 SEO 指标。因此，即使
 
 但 [**Ahrefs 免费版**](https://ahrefs.com/zh/free)可以做到。这是我们的免费订阅方案，与 Google Search Console 非常相似。不过，Search Console 只会展示网站排名前 1,000 的关键词，而 Ahrefs 免费版会显示全部关键词。我们还会提供这些关键词的关键词难度评分以及月搜索量。
 
-![Image 9: Ahrefs 免费版显示自然搜索关键词及其关键词难度和搜索量数据](images/screenshot-part1-organic-keywords-GSYM2TWI.png)
+![Image 9: Ahrefs 免费版显示自然搜索关键词及其关键词难度和搜索量数据](images/screenshot-part1-organic-keywords-GSYM2TWI.webp)
 
 ### 查看竞争对手的排名关键词
 
@@ -146,7 +146,7 @@ Search Console 的缺点在于它不会显示任何 SEO 指标。因此，即使
 
 一旦您找到一个与您网站类似的竞争对手（例如您销售咖啡制作设备，对方也销售同类产品，而不是咖啡馆或星巴克这类商家），就可以将其网址输入到[竞争情报](https://ahrefs.com/zh/blog/competitive-intelligence/)工具（比如：Ahrefs [Site Explorer](https://ahrefs.com/zh/site-explorer) ）中，查看哪些页面为其带来了最多流量，以及这些页面所针对的关键词。
 
-![Image 10: Ahrefs Site Explorer 中某个竞争对手的“热门页面”报告，显示竞争对手表现最好的页面及其流量和热门关键词](images/screenshot-part1-top-pages-ZN3J57JX.png)
+![Image 10: Ahrefs Site Explorer 中某个竞争对手的“热门页面”报告，显示竞争对手表现最好的页面及其流量和热门关键词](images/screenshot-part1-top-pages-ZN3J57JX.webp)
 
 在针对几个竞争对手重复这一过程之后，您会发现自己已经得到了一份相当可观的相关键词列表。而其实，您的关键词分析才刚刚开始！
 
@@ -154,13 +154,13 @@ Search Console 的缺点在于它不会显示任何 SEO 指标。因此，即使
 
 请务必针对尽可能多的竞争对手重复这一过程。我们在 [Site Explorer](https://ahrefs.com/zh/site-explorer) 中有一个非常实用的报告，可以帮助您发现更多竞争对手。它叫“竞争域名”，会根据您输入的网站与其他网站在 Google 上共同排名的关键词，展示与其相似的网站。
 
-![Image 11: Ahrefs Site Explorer 的竞争域名报告显示相似的竞争对手网站](images/screenshot-part1-competing-domains-57NIAMPN.png)
+![Image 11: Ahrefs Site Explorer 的竞争域名报告显示相似的竞争对手网站](images/screenshot-part1-competing-domains-57NIAMPN.webp)
 
 ### 是不是发现有不少话题您早就做过了？
 
 如果您在为一个成熟网站做关键词分析，可能会发现您已经覆盖了大多数竞争对手的关键词。这种情况下，您应该试试 Ahrefs 的 [内容差距机会](https://ahrefs.com/zh/content-gap)报告，在[Site Explorer](https://ahrefs.com/zh/site-explorer) 中可查看。
 
-![Image 12: 使用 Ahrefs Competitive Analysis 工具，输入竞争对手的域名，即可查找关键词差距](images/screenshot-part1-content-gap-7RSL3ORC.png)
+![Image 12: 使用 Ahrefs Competitive Analysis 工具，输入竞争对手的域名，即可查找关键词差距](images/screenshot-part1-content-gap-7RSL3ORC.webp)
 
 它可以帮您找到一个或多个竞争对手有排名、而您没有排名的关键词。
 
@@ -174,7 +174,7 @@ Search Console 的缺点在于它不会显示任何 SEO 指标。因此，即使
 
 您可以通过前往目标受众活跃的地方——行业论坛、社群以及问答网站——研究他们的讨论内容，从而解决这个问题。例如，这是我在 /r/coffee subreddit 中找到的一个讨论串：
 
-![Image 13: 来自 Reddit 上 r/coffee 子版块的一则关于爱乐压咖啡粉水比的帖子，说明了论坛如何揭示关键词创意](images/screenshot-part1-reddit-R57RAYDP.png)
+![Image 13: 来自 Reddit 上 r/coffee 子版块的一则关于爱乐压咖啡粉水比的帖子，说明了论坛如何揭示关键词创意](images/screenshot-part1-reddit-R57RAYDP.webp)
 
 在[Keywords Explorer](https://ahrefs.com/zh/keywords-explorer)里随手一查，就找到了这个搜索词：_“aeropress coffee to water ratio（爱乐压咖啡粉水比）。”_
 
@@ -224,11 +224,11 @@ _相关_ 词是指与种子关键词存在关联、但不一定包含种子关�
 
 假设你的列表中包含以下关键词：
 
-![Image 14: 关键词列表，显示‘“奶泡咖啡”及其相关变体的 KD 分数和搜索量](images/screenshot-part2-keyword-MWNU3NHR.png)
+![Image 14: 关键词列表，显示‘“奶泡咖啡”及其相关变体的 KD 分数和搜索量](images/screenshot-part2-keyword-MWNU3NHR.webp)
 
 我们来对比一下关键词 _”奶泡咖啡”_ 和关键词 _”奶泡咖啡配方”_ 的搜索结果：
 
-![Image 15: “奶泡咖啡”和“奶泡咖啡配方”的 SERP 概览并排对比](images/screenshot-part2-serp-overview-6PV3SSWN.png)
+![Image 15: “奶泡咖啡”和“奶泡咖啡配方”的 SERP 概览并排对比](images/screenshot-part2-serp-overview-6PV3SSWN.webp)
 
 这两个关键词排名靠前的页面几乎一模一样。这意味着，Google 将搜索词 _“whipped coffee recipe”_ 视为更宽泛的搜索词 _“whipped coffee”_ 的一个子话题。因此，你可以用一个页面同时为这两个关键词获得排名。
 
@@ -236,7 +236,7 @@ _相关_ 词是指与种子关键词存在关联、但不一定包含种子关�
 
 只需将关键词创意添加到 [Keywords Explorer](https://ahrefs.com/zh/keywords-explorer) 中，进入“按父主题聚类”标签页，就会看到关键词被分组到各个聚类中：
 
-![Image 16: Ahrefs Keywords Explorer 中按父主题聚类的标签页，展示关键词聚类结果](images/screenshot-part2-clusters-TCMDNTPC.png)
+![Image 16: Ahrefs Keywords Explorer 中按父主题聚类的标签页，展示关键词聚类结果](images/screenshot-part2-clusters-TCMDNTPC.webp)
 
 这里我们可以看到 28 个不同的关键词，它们都属于“奶泡咖啡配方”这个关键词集群。很有可能我们只需发布一篇高质量的奶泡咖啡配方指南，就能在所有这类关键词上都获得不错的排名。
 
@@ -276,11 +276,11 @@ _相关_ 词是指与种子关键词存在关联、但不一定包含种子关�
 
 您可以通过查看搜索结果来判断关键词的搜索意图。以“家庭咖啡烘焙”为例，搜索结果中既有销售烘焙设备的商品页（商业意图），也有 Reddit 上关于在家烘焙咖啡豆的讨论帖（信息意图）：
 
-![Image 17: “家庭咖啡烘焙”这一关键词的混合搜索意图搜索结果](images/screenshot-part2-google-222GUUDW.png)
+![Image 17: “家庭咖啡烘焙”这一关键词的混合搜索意图搜索结果](images/screenshot-part2-google-222GUUDW.webp)
 
 Keywords Explorer 支持一次性查看数百个关键词的搜索意图，并通过筛选快速找出符合你目标意图的关键词：
 
-![Image 18: Ahrefs Keywords Explorer 展示与咖啡相关的关键词及其搜索意图、KD、搜索量和增长数据](images/screenshot-part2-keyword-explorer-B6EX5FAY.png)
+![Image 18: Ahrefs Keywords Explorer 展示与咖啡相关的关键词及其搜索意图、KD、搜索量和增长数据](images/screenshot-part2-keyword-explorer-B6EX5FAY.webp)
 
 * * *
 
@@ -296,13 +296,13 @@ Keywords Explorer 支持一次性查看数百个关键词的搜索意图，并�
 
 关键词 SEO 指标的类型
 
-![Image 19: 钥匙形信息图展示了六个关键词 SEO 指标：搜索量、关键词难度、流量潜力、每次点击费用、增长趋势和商业潜力](images/image-part3-keyword-seo-metrics-G57JKYJJ.png)
+![Image 19: 钥匙形信息图展示了六个关键词 SEO 指标：搜索量、关键词难度、流量潜力、每次点击费用、增长趋势和商业潜力](images/image-part3-keyword-seo-metrics-G57JKYJJ.webp)
 
 ### 搜索量
 
 搜索量指的是一个关键词每月被搜索的平均次数。例如，_“唐纳德·特朗普”_ 仅在美国的月搜索量就达到了 310 万次。
 
-![Image 20: 在 Ahrefs 的 Keywords Explorer 中查看“唐纳德·特朗普”的关键词概览](images/screenshot-part3-donald-trump-XQZRRGY5.png)
+![Image 20: 在 Ahrefs 的 Keywords Explorer 中查看“唐纳德·特朗普”的关键词概览](images/screenshot-part3-donald-trump-XQZRRGY5.webp)
 
 关于搜索量，有几个重要的点需要了解：
 
@@ -322,7 +322,7 @@ Keywords Explorer 支持一次性查看数百个关键词的搜索意图，并�
 
 长尾关键词在 SEO 领域可谓家喻户晓，但却常常被忽视。大部分人只有在关键词的月搜索量达到至少上百次时才会考虑布局，更不用说那些搜索量显示为零的关键词了。
 
-![Image 21: 在 Ahrefs Keywords Explorer 中，每月搜索量为 0 到 10 的三个长尾关键词](images/screenshot-part3-keyword-EZZUYVZD.png)
+![Image 21: 在 Ahrefs Keywords Explorer 中，每月搜索量为 0 到 10 的三个长尾关键词](images/screenshot-part3-keyword-EZZUYVZD.webp)
 
 这类[“零搜索量”关键词](https://ahrefs.com/zh/blog/zero-volume-keywords/) ，即使获得排名，每个月也只能带来少量访客。但关键在于，它们具有累积效应！如果您发布上百篇内容来针对这类关键词，年度总流量实际上可能会累积到数千名高度精准的访客。
 
@@ -336,15 +336,15 @@ Keywords Explorer 支持一次性查看数百个关键词的搜索意图，并�
 
 以下两个关键词在美国的搜索量几乎相同：
 
-![Image 22: 两个关键词——“向搜索引擎提交网站”和“销售页面”——搜索量几乎相同，分别为450 和 400](images/screenshot-part3-keyword2-6DLBPDLO.png)
+![Image 22: 两个关键词——“向搜索引擎提交网站”和“销售页面”——搜索量几乎相同，分别为450 和 400](images/screenshot-part3-keyword2-6DLBPDLO.webp)
 
 这意味着，针对它们各自所能获得的搜索流量应该也几乎一样，对吧？其实并不完全是这样。
 
 我们以这些关键词的排名靠前页面为例，对比它们在美国获得的搜索流量。只需将这些页面的 URL 复制到 Ahrefs 的[Site Explorer](https://ahrefs.com/zh/site-explorer)中，即可轻松完成。
 
-![Image 23: Ahrefs Site Explorer 中某个销售页面的概览显示，该页面获得了 667 次自然搜索流量，并在 55 个自然搜索关键词上获得排名](images/screenshot-part3-overview1-QTZMYCD7.png)
+![Image 23: Ahrefs Site Explorer 中某个销售页面的概览显示，该页面获得了 667 次自然搜索流量，并在 55 个自然搜索关键词上获得排名](images/screenshot-part3-overview1-QTZMYCD7.webp)
 
-![Image 24: Ahrefs Site Explorer 中一篇关于“向搜索引擎提交网站”的文章概览，显示其自然搜索流量为 3,100，自然搜索关键词数量为 406 个](images/screenshot-part3-overview2-WTPU4JMF.png)
+![Image 24: Ahrefs Site Explorer 中一篇关于“向搜索引擎提交网站”的文章概览，显示其自然搜索流量为 3,100，自然搜索关键词数量为 406 个](images/screenshot-part3-overview2-WTPU4JMF.webp)
 
 结果发现，其中一个页面的搜索流量实际上比另一个页面高出近 5 倍。这怎么可能呢？
 
@@ -352,7 +352,7 @@ Keywords Explorer 支持一次性查看数百个关键词的搜索意图，并�
 
 以下是其中的一部分（如**自然搜索关键词**报告所示 [Site Explorer](https://ahrefs.com/zh/site-explorer)）：
 
-![Image 25: Ahrefs Site Explorer 中的自然搜索关键词报告显示，一篇关于“向搜索引擎提交网站”的页面共有 406 个关键词获得了排名](images/screenshot-part3-organic-keywords-YBZVSF5W.png)
+![Image 25: Ahrefs Site Explorer 中的自然搜索关键词报告显示，一篇关于“向搜索引擎提交网站”的页面共有 406 个关键词获得了排名](images/screenshot-part3-organic-keywords-YBZVSF5W.webp)
 
 无论您脑海中想搜索的是什么，不同的人可能会用不同的表述方式，但本质上是在寻找相同的内容。Google 足够智能，能够理解这一点，因此会让同一个页面在所有这些相似的搜索查询中获得排名。
 
@@ -364,7 +364,7 @@ Keywords Explorer 支持一次性查看数百个关键词的搜索意图，并�
 
 这个指标叫作“流量潜力”，用于展示关键词排名第一的页面获得了多少搜索流量。
 
-![Image 26: Ahrefs 的 Keywords Explorer 在搜索量旁边显示流量潜力指标](images/screenshot-part3-overview3-RTIKMDAC.png)
+![Image 26: Ahrefs 的 Keywords Explorer 在搜索量旁边显示流量潜力指标](images/screenshot-part3-overview3-RTIKMDAC.webp)
 
 在 Ahrefs 的[Keywords Explorer](https://ahrefs.com/zh/keywords-explorer)中，流量潜力指标就显示在搜索量旁边。这让你无需再单独查询该关键词排名第 1 的页面及其总搜索流量，从而节省大量时间。
 
@@ -402,7 +402,7 @@ Ahrefs 的关键词难度评分体系
 
 要使某个关键词进入前 10 名，需要多少个引用域名
 
-![Image 27: 信息图展示了 Ahrefs 关键词难度评分的四个等级（简单、中等或困难、极难）](images/image-part3-keyword-difficulty-scale-DKT5JPSQ.png)
+![Image 27: 信息图展示了 Ahrefs 关键词难度评分的四个等级（简单、中等或困难、极难）](images/image-part3-keyword-difficulty-scale-DKT5JPSQ.webp)
 
 正如上图所示，KD 与您的页面想要进入前 10 名所需的预计可链接网站数量有关。
 
@@ -426,11 +426,11 @@ Ahrefs 的关键词难度评分体系
 
 每次点击费用（CPC）显示广告主愿意为某个关键词在搜索结果顶部展示的广告点击支付多少钱。它更像是广告主使用的指标，而非 SEO 的指标，但它可以作为衡量关键词价值的一个有用替代指标。
 
-![Image 28: “项目管理软件”的 Google 搜索结果页面顶部展示了一条来自 ClickUp 的赞助广告](images/screenshot-part3-google-ad-UQPBBENI.png)
+![Image 28: “项目管理软件”的 Google 搜索结果页面顶部展示了一条来自 ClickUp 的赞助广告](images/screenshot-part3-google-ad-UQPBBENI.webp)
 
 例如，关键词“project management software”的 CPC 高达 30 美元。这是因为搜索该词的用户往往是在寻找可购买的产品。
 
-![Image 29: Ahrefs 关键词对比："项目管理软件" 的 CPC 为 30 美元，而 "项目管理方法论" 的 CPC 为 6 美元](images/screenshot-part3-keyword-cost-PJ2AEQEW.png)
+![Image 29: Ahrefs 关键词对比："项目管理软件" 的 CPC 为 30 美元，而 "项目管理方法论" 的 CPC 为 6 美元](images/screenshot-part3-keyword-cost-PJ2AEQEW.webp)
 
 但 _“project management methodologies”_ 的情况则完全不同。这显然是一个信息型搜索词，向这些用户销售你的项目管理软件的几率没有那么高，因此它的 CPC 要低得多，仅为 6 美元。
 
@@ -446,17 +446,17 @@ Notebook LM 是一种可以将文本转化为播客音频的 AI 模型，其 12 
 
 在这种情况下，平均值低估了未来几个月的可能搜索量：
 
-![Image 30: “Notebook LM”的搜索量趋势图显示：从零迅速攀升至 40 万次以上，呈现快速增长态势](images/screenshot-part3-overview-notebook-YGXRE7ZH.png)
+![Image 30: “Notebook LM”的搜索量趋势图显示：从零迅速攀升至 40 万次以上，呈现快速增长态势](images/screenshot-part3-overview-notebook-YGXRE7ZH.webp)
 
 再比如像“黑色星期五”这样的季节性关键词。其平均搜索量显示为 282,000，但这个平均值是由许多搜索量 _较低_ 的月份（大多数月份约为 50,000）以及一个搜索量 _极高_ 的月份（例如 2024 年 11 月达到 250 万次搜索）共同计算得出的：
 
-![Image 31: “black friday”的搜索量呈现明显的季节性趋势，每年 11 月会出现巨大的峰值](images/screenshot-part3-overview-black-friday-TEJFM5LM.png)
+![Image 31: “black friday”的搜索量呈现明显的季节性趋势，每年 11 月会出现巨大的峰值](images/screenshot-part3-overview-black-friday-TEJFM5LM.webp)
 
 任何关键词的搜索量都会随时间变化，如果能提前布局那些目前搜索量不高、但已呈现出上升趋势的关键词，往往能获得实实在在的收益。
 
 通过 Keywords Explorer 中的“增长”指标轻松找到这些趋势关键词。只需输入关键词，然后按“增长”列排序，就能找出越来越受欢迎的主题（例如“蘑菇咖啡的健康益处”）或者热度在下降的主题（例如“家庭咖啡烘焙”）。
 
-![Image 32: 在 Ahrefs 的 Keywords Explorer 中，按增长列排序的关键词列表，展示了咖啡相关关键词的上升与下降趋势](images/screenshot-part3-keywords-explorer-DUR4KFSU.png)
+![Image 32: 在 Ahrefs 的 Keywords Explorer 中，按增长列排序的关键词列表，展示了咖啡相关关键词的上升与下降趋势](images/screenshot-part3-keywords-explorer-DUR4KFSU.webp)
 
 ### 商业潜力
 
@@ -493,7 +493,7 @@ Notebook LM 是一种可以将文本转化为播客音频的 AI 模型，其 12 
 
 按商业潜力评分划分的文章数量
 
-![Image 33: 图表显示 Ahrefs 博客文章中有 77% 的商业潜力得分为 2 或 3](images/image-part3-number-of-articles-by-business-potential-score-4AIBEHAE.png)
+![Image 33: 图表显示 Ahrefs 博客文章中有 77% 的商业潜力得分为 2 或 3](images/image-part3-number-of-articles-by-business-potential-score-4AIBEHAE.webp)
 
 （而且如你所见，我们几乎没有商业潜力为 _零_ 的博客文章。）
 

@@ -92,24 +92,24 @@ title: 浮世绘风格
 
 居中位置是主角灶門炭治郎和弥豆子
 
-![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img1.png)
+![](images/03-01-ukiyo-e/03-01-ukiyo-e-img1.webp)
 
 将「画面内容」部分做替换即可保持画风，生成自己需要的画面内容：
 
 「千山鳥_飛絕_，. 萬徑人蹤滅。 孤舟蓑笠翁，. 獨釣寒江雪。」
 
-![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img2.png)
+![](images/03-01-ukiyo-e/03-01-ukiyo-e-img2.webp)
 
 「_十年生死兩茫茫_，_不思量_，_自難忘_。_千里孤墳_，_無處話淒涼_。縱使相逢應不識，塵滿面，鬢如霜。 夜來幽夢忽還鄉，小軒窗，正梳妝。」
 
-![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img3.png)
+![](images/03-01-ukiyo-e/03-01-ukiyo-e-img3.webp)
 
 将之前记录的一些读书笔记进行可视化：
 
-![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img4.png)
+![](images/03-01-ukiyo-e/03-01-ukiyo-e-img4.webp)
 
-![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img5.png)
+![](images/03-01-ukiyo-e/03-01-ukiyo-e-img5.webp)
 
-![](./images/03-01-ukiyo-e/03-01-ukiyo-e-img6.png)
+![](images/03-01-ukiyo-e/03-01-ukiyo-e-img6.webp)
 
 \>由 \[Circle 阅读助手\](https://circlereader.com) 生成

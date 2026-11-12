@@ -1,3 +1,7 @@
+---
+title: "第 6 章 · 工具命令"
+---
+
 Title: 工具与系统命令 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/commands/utility-commands.html

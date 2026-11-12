@@ -14,15 +14,15 @@ url: ""
 
 # 落地页 1.0 到 2.0 版本演进
 
-![Head Image](images/game-site-find-new-words/img_028.jpg)
+![Head Image](images/game-site-find-new-words/img_028.webp)
 
-![图片](images/game-site-find-new-words/img_022.jpg)
+![图片](images/game-site-find-new-words/img_022.webp)
 
-![图片](images/game-site-find-new-words/img_023.jpg)
+![图片](images/game-site-find-new-words/img_023.webp)
 
-![图片](images/game-site-find-new-words/img_024.jpg)
+![图片](images/game-site-find-new-words/img_024.webp)
 
-![图片](images/game-site-find-new-words/img_025.jpg)
+![图片](images/game-site-find-new-words/img_025.webp)
 
 大家好，今天的 #哥飞小课堂 给大家讲讲落地页的 1.0 版本到 1.5 版本，以及我们目前正在用的 2.0 版本。
 

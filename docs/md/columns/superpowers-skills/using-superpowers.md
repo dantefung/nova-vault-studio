@@ -1,5 +1,5 @@
 ---
-title: "using-superpowers"
+title: "using-superpowers 上手 Superpowers"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

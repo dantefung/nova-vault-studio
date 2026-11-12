@@ -1,5 +1,5 @@
 ---
-title: "Ninth Month Recap"
+title: "九月复盘"
 date: "2026-06-17"
 source: "鹅的九月复盘"
 url: "https://mp.weixin.qq.com/s/SvdCOX24wwAC5MnQrwgXbg"

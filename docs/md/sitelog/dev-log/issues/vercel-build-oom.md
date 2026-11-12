@@ -60,9 +60,89 @@ build complete in 85.69s.
 
 退出码为 0。
 
+## 2026-08-12 再次优化
+
+随着页面数量增长到约 2449 页，Vercel 构建再次超过 45 分钟。本地基线构建耗时约 191 秒，峰值内存约 6.07 GiB，文件系统写出约 6.7 GiB。
+
+本轮确认了四个叠加因素：
+
+- 本地全文搜索会再次渲染页面并生成全站索引。
+- 每个页面重复内联站点 metadata，放大 HTML 产物。
+- `vercel.json` 每次构建前删除缓存，阻止 VitePress 复用有效缓存。
+- 43 篇 Markdown 中仍有 463 张 Base64 图片，编码文本约 71.9 MB。
+
+完成以下调整：
+
+- Vercel 和低内存构建关闭本地搜索，本地开发继续保留搜索。
+- 搜索关闭时同步隐藏自定义搜索入口，避免出现空搜索框。
+- 启用 VitePress `metaChunk`，把重复 metadata 提取为共享 chunk。
+- Vercel 构建不再强制删除 `docs/.vitepress/cache`。
+- 保留 `lastUpdated`，避免更新时间功能回归。
+- 修复《冒号课堂》PDF 文件名不匹配导致的重复预览页。
+
+本地模拟 Vercel 环境执行：
+
+```bash
+VERCEL=1 /usr/bin/time -v npm run build
+```
+
+结果：
+
+```txt
+build complete in 115.30s.
+Elapsed: 1:57.08
+Maximum resident set size: 6239728 kB
+File system outputs: 3480400
+```
+
+相较 191 秒基线，构建时间缩短约 39%，文件系统写出约减半。峰值内存仍接近 6 GiB，说明 Base64 图片仍是下一阶段主要瓶颈。
+
+随后将 43 篇 Markdown 中的 463 个 Base64 图片引用全部迁移为文章同级独立图片文件：
+
+- 每篇文章使用独立的 `images/{文章名}/` 目录。
+- PNG、JPEG、WebP 保持原格式；11 张 GIF 经明确确认后作为例外保留动画，没有按默认归档规范转为静态 PNG。
+- 同一文章内按图片内容去重，共落盘 454 张图片。
+- 超过 500 KB 的图片压缩到仓库限制以内。
+- 图片检查 hook 增加引用式 Markdown 支持，避免路径或大小检查漏报。
+- 新增 `scripts/extract-base64-images.mjs`，再次执行时不产生改动。
+
+迁移后再次执行 Vercel 模式构建：
+
+```txt
+build complete in 99.09s.
+Elapsed: 1:40.63
+Maximum resident set size: 4921564 kB
+File system outputs: 2914528
+```
+
+相较最初基线，构建时间缩短约 47%，峰值内存下降约 23%，文件系统写出下降约 57%。
+
+## 2026-11-03 突破 3500+ 页面级 Vercel 构建 OOM 终极修复
+
+随着站点持续收录，全站 Markdown 页面总数突破 **3,572 篇**。Vercel 再次在 `rendering pages...` 阶段遭遇 OOM 强杀（SIGKILL）。
+
+详见专项复盘日志：[3500+ 页面级 Vercel 构建 OOM 根治与内存调优复盘](../vercel-build-oom-3500-pages-2026-11-03.md)。
+
+### 根因与优化措施
+
+1. **显式配置 V8 堆上限**：
+   在 `package.json` 的 `build` 命令和 `vercel.json` 的 `build.env` 中显式设置 `NODE_OPTIONS=--max-old-space-size=5120`。
+   在 8GB 容器内将堆上限设为 5120MB，促使 V8 主动回收渲染闭包，同时为 OS 和非堆内存预留 3GB 空间，杜绝总物理驻留内存（RSS）冲破 8GB。
+2. **搜索索引削峰**：
+   - `SEARCH_RENDER_SIZE_LIMIT` 从 200,000 字符降为 100,000 字符。
+   - `SEARCH_PARTIAL_SKIP_ROOTS` 增加 `md/guide/cs/system-design-101`（415 个外部教程页面）、`md/wiki/log.md`（440KB 日志）和 `md/wiki/index.md`。
+   - 索引处理页面从 1,359 篇降至 942 篇，消除了近 10MB 的庞大索引 chunk。
+3. **保持高并发渲染**：
+   保持 `buildConcurrency: 16`，使全站 3,572 页在 7 分钟内完成全量构建。
+
+### 结果
+
+部署 `dpl_EgMDeiwvYEDxwRY58TBQt5yJNBCc` 成功就绪，总耗时 419.60 秒，生产环境完全恢复。
+
 ## 后续约束
 
+- 在 `package.json` 与 `vercel.json` 中保持 `NODE_OPTIONS=--max-old-space-size=5120` 约束。
 - 不要把大图以内联 base64 形式放进 Markdown。
 - 图片应落盘到文章同级 `images/` 目录，用相对路径引用。
-- Vercel 生产环境默认不启用本地全文搜索；如需生产搜索，优先接 Algolia 或生成独立轻量索引。
+- 单篇 Markdown 文件超过 100KB 时需重点关注，必要时标记 `search: false` 或拆分。
 - 大体积内容入库后，应优先检查单个 Markdown 文件大小和构建产物 chunk 大小。

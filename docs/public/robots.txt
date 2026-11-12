@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vault.moneylab.ccwu.cc/sitemap.xml

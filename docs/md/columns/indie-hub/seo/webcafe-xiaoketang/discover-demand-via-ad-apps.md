@@ -12,9 +12,9 @@ url: "https://new.web.cafe/tutorial/detail/uaisSufhYh5uZ6DW3zLwhP"
 
 打开 Similarweb，输入 AppStore 的域名 `apps.apple.com`，在自然搜索的下面找到付费搜索，点击下面的链接，查看全部广告，就能够到达广告列表页面。在这个页面，你可以分桌面端和移动端分别看都有哪些 App 在投广告。
 
-![ad-1](images/discover-demand-via-ad-apps/gefei-demand-discovery-1.png)
+![ad-1](images/discover-demand-via-ad-apps/gefei-demand-discovery-1.webp)
 
-![ad-2](images/discover-demand-via-ad-apps/gefei-demand-discovery-2.png)
+![ad-2](images/discover-demand-via-ad-apps/gefei-demand-discovery-2.webp)
 
 举例，排名第一的，投得好像比较猛，我们看到他的 App 地址是 `apps.apple.com/br/app/ia-chat-inteligente-chatbot/id6447419372`。
 
@@ -22,15 +22,15 @@ url: "https://new.web.cafe/tutorial/detail/uaisSufhYh5uZ6DW3zLwhP"
 
 打开网页，得到这个 App 在 SensorTower 的名称是 AI Chat -Ask Chatbot Assistant。为什么需要这一步呢？因为有些 App 会时不时改名字，我们在 AppStore 看到的名字，在 SensorTower 不一定能够搜索到。
 
-![ad-3](images/discover-demand-via-ad-apps/gefei-demand-discovery-3.png)
+![ad-3](images/discover-demand-via-ad-apps/gefei-demand-discovery-3.webp)
 
-![ad-4](images/discover-demand-via-ad-apps/gefei-demand-discovery-4.png)
+![ad-4](images/discover-demand-via-ad-apps/gefei-demand-discovery-4.webp)
 
 从这两张图就可以看到，的确名字不一样，但是 ID 是一样的，那就没问题了。
 
-![ad-5](images/discover-demand-via-ad-apps/gefei-demand-discovery-5.png)
+![ad-5](images/discover-demand-via-ad-apps/gefei-demand-discovery-5.webp)
 
-![ad-6](images/discover-demand-via-ad-apps/gefei-demand-discovery-6.png)
+![ad-6](images/discover-demand-via-ad-apps/gefei-demand-discovery-6.webp)
 
 接下来，你拿着 AI Chat -Ask Chatbot Assistant 这个名字，打开 `https://app.sensortower.com/` 首页，在右上角输入框粘贴名字，就会有一个下拉的即时搜索结果。确认一下开发商，对得上，那么没问题，就是这个 App，可以看到月下载量 400K，月收入 100 万刀。
 

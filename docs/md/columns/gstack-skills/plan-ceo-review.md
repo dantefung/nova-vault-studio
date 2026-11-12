@@ -1,5 +1,5 @@
 ---
-title: "plan-ceo-review"
+title: "plan-ceo-review CEO 视角审稿"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

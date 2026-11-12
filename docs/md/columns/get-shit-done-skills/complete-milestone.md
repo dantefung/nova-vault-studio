@@ -1,5 +1,5 @@
 ---
-title: "complete-milestone"
+title: "complete-milestone 完结里程碑"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

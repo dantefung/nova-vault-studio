@@ -17,11 +17,11 @@ author: "哥飞"
 
 就靠着这每天不到 100 个 UV，结果昨天就有一个支付了，是一个以色列的用户，直接就付费了 29.9 美元。
 
-![](images/website-with-less-than-100-uv-also-has-paying-users/001.png)
+![](images/website-with-less-than-100-uv-also-has-paying-users/001.webp)
 
 而实际上我只设置了 9.9 元、19.9 元和 29.9 元三档套餐，他直接就选择了最高档支付了。
 
-![](images/website-with-less-than-100-uv-also-has-paying-users/002.png)
+![](images/website-with-less-than-100-uv-also-has-paying-users/002.webp)
 
 这说明只要你能够获取精准流量，就有可能够有付费用户。
 
@@ -31,7 +31,7 @@ author: "哥飞"
 
 说完哥飞的消息，再说说哥飞社群里一个朋友的好消息，他 11 月初花了 2 天时间基于一份旧代码修修改改上线的一个网站，1 月份收入已经破 3000 美元了。
 
-![](images/website-with-less-than-100-uv-also-has-paying-users/003.png)
+![](images/website-with-less-than-100-uv-also-has-paying-users/003.webp)
 
 目前 Adsense 广告费和用户付费大概是各一半左右。
 
@@ -39,7 +39,7 @@ author: "哥飞"
 
 后来又申请了 Adsense 广告，11 月广告费大概 400 多美元，12 月是 800 多美元，1 月就是 1500 多美元，每个月广告费都比上个月多。
 
-![](images/website-with-less-than-100-uv-also-has-paying-users/004.png)
+![](images/website-with-less-than-100-uv-also-has-paying-users/004.webp)
 
 反倒是付费套餐比较克制，所以付费收入不多，1 月份才一千多美元。
 

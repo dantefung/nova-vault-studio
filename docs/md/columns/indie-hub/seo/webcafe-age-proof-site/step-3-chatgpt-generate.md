@@ -30,9 +30,9 @@ url: "https://new.web.cafe/tutorial/detail/1uPD9vTKDDQCuUQ3MzFudT"
 今天我们回到第 3 步，讲讲如何根据分析出来的搜索意图去让 GPT 帮我们制作网页。
 
 我们先在 Semrush 搜索“phone number generator”，得到所有相关关键词，点击导出按钮，得到关键词表格。
-![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_002.png)
+![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_002.webp)
 之后上传到 @Kunsect 制作的小工具里，得到了最值得做的一些关键词。
-![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_003.png)
+![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_003.webp)
 可以看到，最值得做的，还是主关键词“phone number generator”，我们昨天已经分析了这个关键词的搜索意图：
 
 > 用户可能寻求一个工具或服务，用于生成电话号码。这可以是出于各种目的，例如随机生成测试数据或隐私保护。 我是哥飞，公众号：哥飞 [养网站防老第 2 步：分析搜索意图](https://mp.weixin.qq.com/s/0l-1EVPJWAJK6z9w8Bn-FQ)
@@ -78,7 +78,7 @@ GPT4 的回答：
 /styles.css
 
 接着浏览器打开，看看效果，还是很不错的，第一次就达到了几乎可用的效果：
-![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_004.png)
+![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_004.webp)
 不过也有点不足，缺少了哥飞提的需求，在 h1 下方列出所有国家名字，所以我们再次提需求：
 
 `你漏掉了我的一个需求，在 h1 下方，需要设置一块区域，显示所有国家名字列表`
@@ -94,7 +94,7 @@ GPT4 的回答：
 `<!-- ...之前的 HTML 代码... --> <header>     <h1>Phone Number Generator</h1>     <div class="country-list">         <a href="us-phone-number-generator">US</a>         <a href="china-phone-number-generator">China</a>         <!-- ...更多国家的链接... -->     </div> </header> <!-- ...之后的 HTML 代码... -->`
 
 我们把 GPT4 给的新代码，分别添加到 styles.css 和 index.html 中，保存后再次刷新浏览器，得到了新的效果。
-![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_005.png)
+![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_005.webp)
 大概效果没问题了，接着需要让 GPT4 列出更多国家，并且生成相关代码。
 
 我们继续提要求，限于篇幅原因，哥飞这里只让 GPT4 列出 10 个国家，实际使用时，你可以让 AI 列出 100 个国家。
@@ -118,7 +118,7 @@ GPT4 的回答：
 `<section>     <h2>China Phone Number Generator</h2>     <p>Generate valid China phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="china-phone-number-generator" title="Generate China Phone Number">         <button>China Phone Number Generator</button>     </a> </section> <section>     <h2>India Phone Number Generator</h2>     <p>Generate valid India phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="india-phone-number-generator" title="Generate India Phone Number">         <button>India Phone Number Generator</button>     </a> </section> <section>     <h2>US Phone Number Generator</h2>     <p>Generate valid US phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="us-phone-number-generator" title="Generate US Phone Number">         <button>US Phone Number Generator</button>     </a> </section> <section>     <h2>Indonesia Phone Number Generator</h2>     <p>Generate valid Indonesia phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="indonesia-phone-number-generator" title="Generate Indonesia Phone Number">         <button>Indonesia Phone Number Generator</button>     </a> </section> <section>     <h2>Brazil Phone Number Generator</h2>     <p>Generate valid Brazil phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="brazil-phone-number-generator" title="Generate Brazil Phone Number">         <button>Brazil Phone Number Generator</button>     </a> </section> <section>     <h2>Pakistan Phone Number Generator</h2>     <p>Generate valid Pakistan phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="pakistan-phone-number-generator" title="Generate Pakistan Phone Number">         <button>Pakistan Phone Number Generator</button>     </a> </section> <section>     <h2>Nigeria Phone Number Generator</h2>     <p>Generate valid Nigeria phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="nigeria-phone-number-generator" title="Generate Nigeria Phone Number">         <button>Nigeria Phone Number Generator</button>     </a> </section> <section>     <h2>Bangladesh Phone Number Generator</h2>     <p>Generate valid Bangladesh phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="bangladesh-phone-number-generator" title="Generate Bangladesh Phone Number">         <button>Bangladesh Phone Number Generator</button>     </a> </section> <section>     <h2>Russia Phone Number Generator</h2>     <p>Generate valid Russia phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="russia-phone-number-generator" title="Generate Russia Phone Number">         <button>Russia Phone Number Generator</button>     </a> </section> <section>     <h2>Japan Phone Number Generator</h2>     <p>Generate valid Japan phone numbers with our tool. Perfect for various applications and tests.</p>     <a href="japan-phone-number-generator" title="Generate Japan Phone Number">         <button>Japan Phone Number Generator</button>     </a> </section>`
 
 我们拿着新的这部分代码放到之前的代码文件里，之后刷新浏览器，就得到了我们想要的页面：
-![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_006.png)
+![image.png](images/gefei-age-proof-site-step-3-chatgpt-generate/img_006.webp)
 可以看到，整体效果还是不错的，目前 GPT4 在生成简单的前端页面时，已经可以做到不需要我们修改代码，只需要不断的提要求让 GPT 去完善页面就行。
 
 看完哥飞的完整演示，你学会了吗？有任何疑问都可以在评论区留言。
@@ -155,7 +155,7 @@ GPT4 的回答：
 
     打卡
 
-![](images/gefei-age-proof-site-step-3-chatgpt-generate/img_011.jpg)
+![](images/gefei-age-proof-site-step-3-chatgpt-generate/img_011.webp)
 
 添加图片添加隐藏回复
 

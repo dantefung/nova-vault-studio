@@ -1,193 +1,128 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
 import { useTheme } from '../composables/useTheme.js'
 
 const { currentLandingTheme, setLandingTheme } = useTheme()
-const isOpen = ref(false)
 
 const themes = {
-  quiet: { name: 'Quiet Library', desc: '安静的知识库', accent: '#2563eb' },
-  easton: { name: 'Easton Blog', desc: '编辑感首页', accent: '#b85c38' },
-  'easton-clone': { name: 'Easton Clone', desc: '完整博客门户', accent: '#e7683d' },
+  quiet: { quietLabel: '知识库', eastonLabel: 'Library', desc: '安静的知识库' },
+  easton: { quietLabel: '博客', eastonLabel: 'Blog', desc: '编辑感首页' },
 }
-
-function selectTheme(name) {
-  setLandingTheme(name)
-  isOpen.value = false
-}
-
-function handleClickOutside(event) {
-  if (!event.target.closest('.landing-theme-switcher')) {
-    isOpen.value = false
-  }
-}
-
-onMounted(() => document.addEventListener('click', handleClickOutside))
-onUnmounted(() => document.removeEventListener('click', handleClickOutside))
 </script>
 
 <template>
-  <div class="landing-theme-switcher">
+  <div
+    class="landing-theme-switcher"
+    :class="`is-${currentLandingTheme}`"
+    role="group"
+    aria-label="首页风格"
+  >
     <button
-      class="landing-theme-switcher-button"
+      v-for="(theme, name) in themes"
+      :key="name"
       type="button"
-      :aria-expanded="isOpen"
-      aria-haspopup="menu"
-      :title="`首页风格：${themes[currentLandingTheme].name}`"
-      @click.stop="isOpen = !isOpen"
+      class="landing-theme-pill"
+      :class="{ 'is-active': currentLandingTheme === name }"
+      :title="theme.desc"
+      @click="setLandingTheme(name)"
     >
-      <span class="landing-theme-switcher-mark" :style="{ background: themes[currentLandingTheme].accent }" aria-hidden="true"></span>
-      <span class="landing-theme-switcher-label">{{ themes[currentLandingTheme].name }}</span>
-      <span class="landing-theme-switcher-arrow" :class="{ open: isOpen }" aria-hidden="true">⌄</span>
+      <span class="landing-theme-pill-label">
+        {{ currentLandingTheme === 'easton' ? theme.eastonLabel : theme.quietLabel }}
+      </span>
     </button>
-
-    <Transition name="landing-theme-dropdown">
-      <div v-if="isOpen" class="landing-theme-dropdown" role="menu">
-        <p class="landing-theme-dropdown-label">首页风格</p>
-        <button
-          v-for="(theme, name) in themes"
-          :key="name"
-          class="landing-theme-option"
-          :class="{ active: currentLandingTheme === name }"
-          type="button"
-          role="menuitemradio"
-          :aria-checked="currentLandingTheme === name"
-          @click="selectTheme(name)"
-        >
-          <span class="landing-theme-option-mark" :style="{ background: theme.accent }" aria-hidden="true"></span>
-          <span>
-            <strong>{{ theme.name }}</strong>
-            <small>{{ theme.desc }}</small>
-          </span>
-          <span v-if="currentLandingTheme === name" aria-hidden="true">✓</span>
-        </button>
-      </div>
-    </Transition>
   </div>
 </template>
 
 <style scoped>
 .landing-theme-switcher {
-  position: relative;
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-}
-
-.landing-theme-switcher-button,
-.landing-theme-option {
-  font: inherit;
-  cursor: pointer;
-}
-
-.landing-theme-switcher-button {
   display: inline-flex;
-  width: 100%;
-  min-width: 0;
   align-items: center;
-  gap: 7px;
-  padding: 6px 8px;
-  border: 1px solid var(--library-border, var(--vp-c-divider));
+  height: 32px;
+  margin-left: 12px;
+  border: 1px solid var(--vp-c-divider);
   border-radius: 7px;
-  background: transparent;
-  color: var(--library-body, var(--vp-c-text-2));
-  font-size: 12px;
-  white-space: nowrap;
-}
-
-.landing-theme-switcher-button:hover,
-.landing-theme-switcher-button:focus-visible {
-  border-color: var(--library-primary, var(--vp-c-brand-1));
-  color: var(--library-ink, var(--vp-c-text-1));
-}
-
-.landing-theme-switcher-mark,
-.landing-theme-option-mark {
-  display: block;
-  flex: 0 0 auto;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-}
-
-.landing-theme-switcher-label {
+  background: var(--vp-c-bg);
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
-.landing-theme-switcher-arrow {
-  flex: 0 0 auto;
-  color: var(--library-muted, var(--vp-c-text-3));
-  line-height: 1;
-  transition: transform 180ms ease;
-}
-
-.landing-theme-switcher-arrow.open {
-  transform: rotate(180deg);
-}
-
-.landing-theme-dropdown {
-  position: absolute;
-  top: calc(100% + 8px);
-  right: 0;
-  z-index: 100;
-  width: max-content;
-  min-width: min(190px, calc(100vw - 32px));
-  max-width: calc(100vw - 32px);
-  padding: 7px;
-  border: 1px solid var(--library-border, var(--vp-c-border));
-  border-radius: 9px;
-  background: var(--library-surface, var(--vp-c-bg-elv));
-  box-shadow: 0 12px 30px rgb(15 23 42 / 0.12);
-}
-
-.landing-theme-dropdown-label {
-  margin: 4px 8px 6px;
-  color: var(--library-muted, var(--vp-c-text-3));
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.landing-theme-option {
-  display: grid;
-  grid-template-columns: 8px minmax(0, 1fr) auto;
+.landing-theme-pill {
+  position: relative;
+  display: inline-flex;
   align-items: center;
-  gap: 9px;
-  width: 100%;
-  padding: 8px;
+  justify-content: center;
+  height: 100%;
+  padding: 0 11px;
   border: 0;
-  border-radius: 6px;
+  border-radius: 0;
   background: transparent;
-  color: var(--library-ink, var(--vp-c-text-1));
-  text-align: left;
+  color: var(--vp-c-text-2);
+  font: inherit;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease;
 }
 
-.landing-theme-option:hover,
-.landing-theme-option:focus-visible,
-.landing-theme-option.active {
-  background: var(--library-primary-soft, var(--vp-c-bg-soft));
+.landing-theme-pill + .landing-theme-pill {
+  border-left: 1px solid var(--vp-c-divider);
 }
 
-.landing-theme-option strong,
-.landing-theme-option small {
-  display: block;
+.landing-theme-pill:hover {
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
 }
 
-.landing-theme-option strong {
+.landing-theme-pill.is-active {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  box-shadow: inset 0 -2px var(--vp-c-brand-1);
+}
+
+.landing-theme-switcher.is-easton {
+  gap: 0;
+  margin-left: 18px;
+  padding-left: 17px;
+  border: 0;
+  border-left: 1px solid var(--easton-doc-rule, var(--vp-c-divider));
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
+  font-family: 'LXGW WenKai', Georgia, serif;
+}
+
+.is-easton .landing-theme-pill {
+  padding: 0;
+  color: var(--easton-doc-muted, var(--vp-c-text-2));
+  background: transparent;
   font-size: 12px;
 }
 
-.landing-theme-option small {
-  margin-top: 2px;
-  color: var(--library-muted, var(--vp-c-text-3));
-  font-size: 11px;
+.is-easton .landing-theme-pill + .landing-theme-pill {
+  border: 0;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .landing-theme-switcher-arrow {
-    transition: none;
+.is-easton .landing-theme-pill + .landing-theme-pill::before {
+  content: '/';
+  margin: 0 6px;
+  color: var(--easton-doc-rule, var(--vp-c-divider));
+  font-weight: 400;
+}
+
+.is-easton .landing-theme-pill:hover {
+  color: var(--easton-doc-ink, var(--vp-c-text-1));
+  background: transparent;
+}
+
+.is-easton .landing-theme-pill.is-active {
+  color: var(--easton-doc-ink, var(--vp-c-text-1));
+  background: transparent;
+  box-shadow: inset 0 -2px var(--easton-doc-accent, var(--vp-c-brand-1));
+}
+
+@media (max-width: 768px) {
+  /* 移动端：进入 MobileNavSheet 才显示，这里隐藏 */
+  .landing-theme-switcher {
+    display: none;
   }
 }
 </style>

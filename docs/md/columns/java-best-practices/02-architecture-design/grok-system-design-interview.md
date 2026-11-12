@@ -1,5 +1,5 @@
 ---
-title: "Grok the System Design Interview"
+title: "Grok 系统设计面试指南"
 date: "2023-04-13"
 source: "Macaroon-Spring-Family/spring-boot-best-practice"
 original: "systemdesign/ebook/grok_system_design_interview.pdf"

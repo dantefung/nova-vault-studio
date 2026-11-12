@@ -1,5 +1,5 @@
 ---
-title: "Better-Fullstack"
+title: "Better-Fullstack 技术栈"
 date: "2026-05-23"
 ---
 

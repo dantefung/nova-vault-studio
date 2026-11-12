@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Codex"
+title: "OpenAI Codex 对比"
 date: "2026-06-30"
 source: "sources/codex-beginners-guide"
 ---

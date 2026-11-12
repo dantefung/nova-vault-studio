@@ -1,5 +1,5 @@
 ---
-title: "Four-Layer Filter"
+title: "四层筛选法则"
 date: "2026-06-17"
 source: "大多数人成不了事儿的原因，就一句话"
 url: "https://mp.weixin.qq.com/s/Zl6UbmtN9KSKWQ-GI4k58A"

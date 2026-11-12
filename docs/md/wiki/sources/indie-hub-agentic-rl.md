@@ -104,14 +104,14 @@ RAGEN-2 发现 Template Collapse：模型的输出仍然流畅，可推理越来
 
 ## 配图
 
-![image](../images/indie-hub-agentic-rl/001.png)
+![image](../images/indie-hub-agentic-rl/001.webp)
 
 *图1：执行、学习与治理三个转速不同的循环*
 
-![image](../images/indie-hub-agentic-rl/002.png)
+![image](../images/indie-hub-agentic-rl/002.webp)
 
 *图2：分层归因的训练路径*
 
-![image](../images/indie-hub-agentic-rl/003.png)
+![image](../images/indie-hub-agentic-rl/003.webp)
 
 *图3：版本化工作现场到灰度发布*

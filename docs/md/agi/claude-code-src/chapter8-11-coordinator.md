@@ -1,3 +1,7 @@
+---
+title: "第 8 章 · 协调器"
+---
+
 Title: 协调器模式 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/coordinator.html

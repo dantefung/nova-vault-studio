@@ -65,7 +65,7 @@ const list = computed(() => relatedArticles(props.path, props.n))
   gap: 14px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 959.98px) {
   .related-articles-grid {
     grid-template-columns: 1fr;
   }

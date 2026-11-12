@@ -1,5 +1,5 @@
 ---
-title: "vscode 1"
+title: "第 01 课 · 在 VS Code 中操作文件"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

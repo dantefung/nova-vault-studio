@@ -1,5 +1,5 @@
 ---
-title: "Lightpanda"
+title: "Lightpanda 轻量浏览器"
 date: "2026-05-23"
 ---
 

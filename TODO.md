@@ -9,7 +9,28 @@ url: ""
 > 用于记录待爬取的公众号内容链接，与「稍后读」同级。采集完成后标记为 done。
 > 来源文章：[《出海一周年稳定万刀：12 模块方法论地图》](/md/wiki/sources/hezhiyan7-outsea-oneyear-10000usd)（droidHZ @hezhiyan7）
 
+## 工程优化
+
+| 日期 | 链接 | 描述 | 状态 |
+|------|------|------|------|
+| 2026-08-12 | `docs/md/agi/Anthropic-Academy/anthropic-courses-complete-cn.md` | 按课程章节拆分超长 Markdown，降低约 1.71 MiB 的路由级 JS chunk；保留总目录入口 | pending |
+| 2026-08-12 | `docs/md/books/software-engineering/Software Architect’s Handbook.md` | 按书籍章节拆分超长 Markdown，降低约 1.12 MiB 的路由级 JS chunk；保留总目录入口 | pending |
+| 2026-08-12 | `docs/md/books/software-engineering/enterprise_application_architecture_patterns.md` | 按书籍章节拆分超长 Markdown，降低约 748 KiB 的路由级 JS chunk；保留总目录入口 | pending |
+
 ## 待爬取
+
+### X / Twitter
+
+| 日期 | 链接 | 描述 | 状态 |
+|------|------|------|------|
+| 2026-09-21 | https://x.com/affnom_y/status/2102231791025492184 | 联盟营销（Affiliate Marketing）出海美金商业模式 | done ([sources/peter-yang-affiliate-marketing-overseas-usd-playbook](/md/wiki/sources/peter-yang-affiliate-marketing-overseas-usd-playbook)) |
+| 2026-09-21 | https://x.com/aiwarts/status/2102240456092626951 | awesome-seedance：463 个 AI 视频 Skill 与提示语模板开源 | done ([sources/aiwarts-awesome-seedance-463-ai-video-skills](/md/wiki/sources/aiwarts-awesome-seedance-463-ai-video-skills)) |
+| 2026-09-21 | https://x.com/boniusex/status/2102312504697426429 | 用 Codex 重构内容生产的全套实操教程 | done ([sources/wangdachui-codex-content-production-solo-primer](/md/wiki/sources/wangdachui-codex-content-production-solo-primer)) |
+| 2026-09-21 | https://x.com/weiyux2021/status/2101844827599933805 | X（推特）账号运营从 0 到 1 万字实操指南 | done ([sources/weiyux-x-account-zero-to-one-guide](/md/wiki/sources/weiyux-x-account-zero-to-one-guide)) |
+| 2026-09-21 | https://x.com/bbkirstry/status/2102373925309338097 | 推特起号焚诀：涨粉 3000 后的方法论反思 | done ([sources/xiaowan-x-account-startup-strategy-3000-followers](/md/wiki/sources/xiaowan-x-account-startup-strategy-3000-followers)) |
+| 2026-09-21 | https://x.com/leo_xiaolei/status/2102013053084545433 | AI 人物一致性控制与角色卡制作 Skill | done ([sources/leo-xiaolei-ai-character-consistency-skill](/md/wiki/sources/leo-xiaolei-ai-character-consistency-skill)) |
+| 2026-09-21 | https://x.com/XiaohuiAI666/status/2102236448175128643 | AI 游戏发布 20 天赚了 23000 多元 | done ([sources/xiaohui-ai-game-published-20-days-earned-23000](/md/wiki/sources/xiaohui-ai-game-published-20-days-earned-23000)) |
+| 2026-09-21 | https://x.com/Stephan_Talk/status/2102201335437562012 | pi-matt-implement-flow：多 Ticket 工程化落地 | done ([sources/stephan-pi-matt-implement-flow-open-source](/md/wiki/sources/stephan-pi-matt-implement-flow-open-source)) |
 
 ### 复盘总结（20 篇 · 心态 + ROI 最高）
 
@@ -107,7 +128,7 @@ url: ""
 | 2026-06-22 | 《像更新文章一样创建 AI 小应用并以最小成本快速验证》— zlbigger 文章中引用，待获取原文链接 | pending |
 | 2026-07-01 | https://x.com/i/status/2048230976447557787 | **Tw93：非技术人上手 AI Coding**（文章内链待抓取） | ✅ done   |
 | 2026-07-01 | https://x.com/i/status/2063523060406423864 | **知识猫图解：Codex 快速入门任意领域**（文章内链待抓取） | ✅ done   |
-| 2026-07-02 | https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ | 待补充 | pending |
+| 2026-07-02 | https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ | **6 个 Prompt 心法** | done ([sources/khazix-6-prompt-mindset-techniques](/md/wiki/sources/khazix-6-prompt-mindset-techniques)) |
 | 2026-07-14 | https://x.com/i/status/2076998958254288930 | 待查看 | ✅ done   |
 | 2026-07-14 | https://x.com/i/status/2076530524110369070 | 待查看 | ✅ done   |
 | 2026-07-14 | https://x.com/i/status/2076554886091805110 | 待查看 | ✅ done   |
@@ -119,8 +140,40 @@ url: ""
 | 2026-07-15 | https://mp.weixin.qq.com/s/AOwVFJe13Yk3MEDcIdSpow | 待采集 | pending |
 | 2026-07-15 | https://mp.weixin.qq.com/s/dwaMd_h26FlUdChqR6rp0g | 待采集 | pending |
 | 2026-07-15 | https://mp.weixin.qq.com/s/obKxDMPRwvi8G9hZSoZERA | 待采集 | pending |
-| 2026-07-15 | https://mp.weixin.qq.com/s/zo1T4Q1wBlYt_JORZeES0w | 待采集 | pending |
+| 2026-07-15 | https://mp.weixin.qq.com/s/zo1T4Q1wBlYt_JORZeES0w | **本地 Markdown 转 X 长文：Kaitox 工具链开源** | done ([sources/kaitox-markdown-to-x-article](/md/wiki/sources/kaitox-markdown-to-x-article)) |
+| 2026-07-15 | https://mp.weixin.qq.com/s/FY2J-mXMSoSOQ3_JFl2tMA | **把任何文章都变成视频版 PPT（LibTV 100+ Skill 实测）** | done ([sources/libtv-agent-100-skills-article-to-video](/md/wiki/sources/libtv-agent-100-skills-article-to-video)) |
+| 2026-07-15 | https://mp.weixin.qq.com/s/a_-EMSjN0ldsrKCIk6nxuQ | **6 个最常用的 Prompt 心法** | done ([sources/khazix-6-prompt-mindset-techniques](/md/wiki/sources/khazix-6-prompt-mindset-techniques)) |
 | 2026-07-15 | https://mp.weixin.qq.com/s/FY2J-mXMSoSOQ3_JFl2tMA | 待采集 | pending |
+| 2026-08-03 | https://x.com/i/status/2083773600776262120 | **阿哲Phil：FDE 是临时外包 or 真AI落地？附小白快速入门与辨别方式**（关联 FDE 书） | done ([sources/aphil-fde-role-real-ai-implementation-guide](/md/wiki/sources/aphil-fde-role-real-ai-implementation-guide)) |
+| 2026-08-03 | https://x.com/i/status/2083806603527024702 | **Jason Zhu：手把手教你申请清迈大学语言班**（42000泰铢，半年清迈学英语） | done ([sources/jason-zhu-chiang-mai-university-language-program-guide](/md/wiki/sources/jason-zhu-chiang-mai-university-language-program-guide)) |
+| 2026-08-08 | https://x.com/i/status/2078766646001561670 | **Adrian Punk：GPT Live 英语外教可以下岗了（保姆级口语自学）** | done ([sources/adrian-punk-gpt-live-free-speaking-tutor-guide](/md/wiki/sources/adrian-punk-gpt-live-free-speaking-tutor-guide)) |
+| 2026-08-08 | https://github.com/JimLiu/baoyu-design | **Claude Design + Baoyu-Design Skill 工作流**（原型与功能一致） | ✅ done ([sources/baoyu-design-workflow](/md/wiki/sources/baoyu-design-workflow)) |
+
+### CAPTCHA 拦截待采集（2026-08-30）
+
+| 日期 | 链接 | 状态 |
+|------|------|------|
+| 2026-08-30 | https://mp.weixin.qq.com/s/tZYefzKqZ_37eqldxDAJBg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/tuieXFQmqqaocumSefLRHg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/gDdg1rGGq_CkC3n4a54A2g | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/8OCk8zHh58CKhMlyqeGCDg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/dg3IFoOm_jWeVCDH5A05-A | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/9wPw1dR_B2-u8WmARbsuJw | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/QwwHBchlijXSY9AjgTvJ_A | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/1YaHaOC1veK3dJhlJyvE9Q | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/M24xotwUq_lBJqnwewfEkQ | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/sSJZzhY9Lik5GGFNHMXxww | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/Jzl97B4NZmizW8BU8n97tw | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/LHkZN9wO1siHMf1zZXIcEA | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/ty1RWtrqrlIxveQ0X1eCOQ | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/KW5vvF2w1pkkBW36lLDcAg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/q6rKFZul3G0Jc9_wPOEFpw | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/hbyo1pPeIO5CBLHjmqcXlw | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/i82nnXmSl-iddD7RQHd5PQ | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/XzPKyFfMafacHY2VOnD0IQ | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/ddvQhB7VgwtMfFzzzpFkUg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/vJYATdjd_YYOg5p8wrtZDg | pending（WeChat CAPTCHA） |
+| 2026-08-30 | https://mp.weixin.qq.com/s/60H9httJacoMWPgbHG6SJg | pending（WeChat CAPTCHA） |
 
 ## 已完成
 

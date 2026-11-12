@@ -18,7 +18,7 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 时间到，今天的 #哥飞小课堂 开始了。
 
-![slide-1](images/programmatic-seo-massive-pages/gefei-prog-seo-1.png)
+![slide-1](images/programmatic-seo-massive-pages/gefei-prog-seo-1.webp)
 
 ## distance.to 案例
 
@@ -28,25 +28,25 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 这样两个地点，两两组合，就会有 N 多问题。仅仅从国家层面，全球二百多个国家，就有四万多个问题了。再到省市区不同级别地区，各自两两组合，几百万个问题都有了。
 
-![slide-2](images/programmatic-seo-massive-pages/gefei-prog-seo-2.png)
+![slide-2](images/programmatic-seo-massive-pages/gefei-prog-seo-2.webp)
 
 甚至离开地球，在宇宙尺度，也是有人会问问题的。
 
-![slide-3](images/programmatic-seo-massive-pages/gefei-prog-seo-3.png)
+![slide-3](images/programmatic-seo-massive-pages/gefei-prog-seo-3.webp)
 
 每一个地区，到另一个地区，都会有人好奇，距离是多少。
 
-![slide-4](images/programmatic-seo-massive-pages/gefei-prog-seo-4.png)
+![slide-4](images/programmatic-seo-massive-pages/gefei-prog-seo-4.webp)
 
 我们拿 `distance.to` 这个网站来说，看上图，页面很好做，主体部分是地图，标记一下两个地区，连上线，再在地图上方浮层显示一些文字信息，整个页面就做好了。
 
 [https://www.distance.to/Germany/Azerbaijan](https://www.distance.to/Germany/Azerbaijan)
 
-![slide-5](images/programmatic-seo-massive-pages/gefei-prog-seo-5.png)
+![slide-5](images/programmatic-seo-massive-pages/gefei-prog-seo-5.webp)
 
 谷歌收录了 `distance.to` 129 万个页面。**注意，并不是说这个网站服务器里有 129 万个 html 文件。**这样的页面，都是统一的模板页面，只需要从数据库里取出地理位置数据，计算一下距离，然后把数据填充到模板里，每次用户访问时动态渲染出来就好了。
 
-![slide-6](images/programmatic-seo-massive-pages/gefei-prog-seo-6.png)
+![slide-6](images/programmatic-seo-massive-pages/gefei-prog-seo-6.webp)
 
 从前面的 site 结果看到，这个网站还做了多语言支持，并且用的是子域名的方式实现的。我们之前提到的多语言方式都是用子目录来实现的。两种方法都可以，但是哥飞建议，你一个新网站刚上线时，最好用子目录方式来实现，这样冷启动的成本更低。
 
@@ -88,7 +88,7 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 谷歌有一个反垃圾机制，你不提供价值的网站，很难获取到流量了。**能够拿到流量的网站，尤其是拿到大流量的网站，一定是能够给一部分人群提供价值的。**
 
-![slide-7](images/programmatic-seo-massive-pages/gefei-prog-seo-7.png)
+![slide-7](images/programmatic-seo-massive-pages/gefei-prog-seo-7.webp)
 
 之前 6 月北京线下聚会时，Henry 分享了他的网站的案例，首页瞄准有一定优化难度的大搜索量关键词，然后通过二级页面和大量的三级页面，不断的获取小词的排名、曝光、点击，进而带动了上一级页面的权重，最后让首页拿到了相关关键词的排名。上面这条流量增长曲线就说明了，这个内容策略是有效的。
 
@@ -156,7 +156,7 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 时间到，今天的#哥飞下课堂 开始了。
 
-![slide-1](images/programmatic-seo-massive-pages/gefei-prog-seo-1.png)
+![slide-1](images/programmatic-seo-massive-pages/gefei-prog-seo-1.webp)
 
 先看流量，Similarweb 上面几个网站的最近12个月访问量，最大的 distance.to 访问量1297万。
 
@@ -164,25 +164,25 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 这样两个地点，两两组合，就会有N多问题。 仅仅从国家层面，全球二百多个国家，就有四万多个问题了。 再到省市区不同级别地区，各自两两组合，几百万个问题都有了。
 
-![slide-2](images/programmatic-seo-massive-pages/gefei-prog-seo-2.png)
+![slide-2](images/programmatic-seo-massive-pages/gefei-prog-seo-2.webp)
 
 甚至离开地球，在宇宙尺度，也是有人会问问题的。
 
-![slide-3](images/programmatic-seo-massive-pages/gefei-prog-seo-3.png)
+![slide-3](images/programmatic-seo-massive-pages/gefei-prog-seo-3.webp)
 
 每一个地区，到另一个地区，都会有人好奇，距离是多少。
 
-![slide-4](images/programmatic-seo-massive-pages/gefei-prog-seo-4.png)
+![slide-4](images/programmatic-seo-massive-pages/gefei-prog-seo-4.webp)
 
 我们拿 distance.to 这个网站来说，看上图，页面很好做，主体部分是地图，标记一下两个地区，连上线，再在地图上方浮层显示一些文字信息，整个页面就做好了。
 
 [https://www.distance.to/Germany/Azerbaijan](https://www.distance.to/Germany/Azerbaijan)
 
-![slide-5](images/programmatic-seo-massive-pages/gefei-prog-seo-5.png)
+![slide-5](images/programmatic-seo-massive-pages/gefei-prog-seo-5.webp)
 
 谷歌收录了 distance.to 129万个页面。 注意，并不是说这个网站服务器里有 129 万个 html 文件。 这样的页面，都是统一的模板页面，只需要从数据库里取出地理位置数据，计算一下距离，然后把数据填充到模板里，每次用户访问时动态渲染出来就好了。
 
-![slide-6](images/programmatic-seo-massive-pages/gefei-prog-seo-6.png)
+![slide-6](images/programmatic-seo-massive-pages/gefei-prog-seo-6.webp)
 
 从前面的 site 结果看到，这个网站还做了多语言支持，并且用的是子域名的方式实现的。 我们之前提到的多语言方式都是用子目录来实现的。 两种方法都可以，但是哥飞建议，你一个新网站刚上线时，最好用子目录方式来实现，这样冷启动的成本更低。
 
@@ -222,7 +222,7 @@ url: "https://new.web.cafe/tutorial/detail/capjm3dnwu"
 
 谷歌有一个反垃圾机制，你不提供价值的网站，很难获取到流量了。 能够拿到流量的网站，尤其是拿到大流量的网站，一定是能够给一部分人群提供价值的。
 
-![slide-7](images/programmatic-seo-massive-pages/gefei-prog-seo-7.png)
+![slide-7](images/programmatic-seo-massive-pages/gefei-prog-seo-7.webp)
 
 之前6月北京线下聚会时，Henry 分享了他的网站的案例，首页瞄准有一定优化难度的大搜索量关键词，然后通过二级页面和大量的三级页面，不断的获取小词的排名、曝光、点击，进而带动了上一级页面的权重，最后让首页拿到了相关关键词的排名。 上面这条流量增长曲线就说明了，这个内容策略是有效的。
 

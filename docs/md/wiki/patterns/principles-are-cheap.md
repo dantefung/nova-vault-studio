@@ -1,5 +1,5 @@
 ---
-title: "Principles Are Cheap"
+title: "道理是最廉价的"
 date: "2026-06-17"
 source: "道理重要，还是赚钱重要？"
 url: "https://mp.weixin.qq.com/s/iynfTqFzUmfm2p5NkQz1Nw"

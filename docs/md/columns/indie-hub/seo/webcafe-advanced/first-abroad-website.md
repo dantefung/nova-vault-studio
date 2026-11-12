@@ -11,7 +11,7 @@ url: "https://new.web.cafe/tutorial/detail/first-abroad-website"
 
 ---
 
-![](images/first-abroad-website/gefei-first-abroad-website_001.jpg)
+![](images/first-abroad-website/gefei-first-abroad-website_001.webp)
 
 
 
@@ -19,7 +19,7 @@ url: "https://new.web.cafe/tutorial/detail/first-abroad-website"
 # 新手怎么做好出海第一站？
 
 
-![99d9a65a3a049c1140e86386965553fb\_.jpg](images/first-abroad-website/gefei-first-abroad-website_001.jpg)
+![99d9a65a3a049c1140e86386965553fb\_.jpg](images/first-abroad-website/gefei-first-abroad-website_001.webp)
 
 我做网站有 15 年了，拿到 Adsense 的 Pin 验证码也有 14 年了。这么多年做了很多个网站，赚过一些 Adsense 广告费，也在网站上从用户手里收过钱，也卖过网站，也放弃过网站，甚至还因为过年期间没看手机忘记续费域名而关掉过网站。也曾经因为国内移动互联网的繁荣而认为做网站没前途了而好几年没做网站了。
 
@@ -71,7 +71,7 @@ url: "https://new.web.cafe/tutorial/detail/first-abroad-website"
 
 但其实市面上正在赚钱的 AI 工具挺多的，只要你做的产品真的能够满足用户需求，那么用户付费意愿还是很强烈的。
 
-![d82e6d46d5fe17d936ff21f273ec2252\_.png](images/first-abroad-website/gefei-first-abroad-website_002.png)
+![d82e6d46d5fe17d936ff21f273ec2252\_.png](images/first-abroad-website/gefei-first-abroad-website_002.webp)
 
 举个例子，这个站，12 月的访问量才十几万，但是月收入（广告+付费）超过了 2000 美元。这个站是 9 月底做的，到现在也就三个月的时间。
 
@@ -111,7 +111,7 @@ AI 工具站有几个特点：
 
 如何从 0 到 1 跑通海外工具站的 MVP？我们可以根据航线图来看一下：
 
-![fa2b5a27e9675b9f7ad4ffcc59b88dd4\_.png](images/first-abroad-website/gefei-first-abroad-website_003.png)
+![fa2b5a27e9675b9f7ad4ffcc59b88dd4\_.png](images/first-abroad-website/gefei-first-abroad-website_003.webp)
 
 **第一步：** 找需求
 

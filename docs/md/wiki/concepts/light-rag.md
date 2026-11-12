@@ -1,3 +1,7 @@
+---
+title: "LightRAG（轻量级图增强RAG）"
+---
+
 # LightRAG（轻量级图增强RAG）
 
 > 香港大学黄超团队（EMNLP 2025）推出的图结构增强RAG系统，通过双层检索和增量更新算法解决传统GraphRAG的高计算开销问题。
@@ -46,5 +50,5 @@
 
 ## Sources
 
-- [[智能客服专栏] RAG建设方案横纵分析报告](./17-rag-building-scheme-analysis.md)
+- [[智能客服专栏] RAG建设方案横纵分析报告](../../guide/ai/intelligent-customer-service/17-rag-building-scheme-analysis.md)
 - LightRAG GitHub: https://github.com/HKUDS/LightRAG

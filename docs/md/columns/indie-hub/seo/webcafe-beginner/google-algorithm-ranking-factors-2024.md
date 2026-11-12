@@ -8,16 +8,16 @@ url: "https://new.web.cafe/tutorial/detail/3YhbhzPqsBgbwzpKEkvK1B"
 
 # 【哥飞解读】2024年谷歌算法排名因素变化
 
-![image.png](images/google-algorithm-ranking-factors-2024/img_002.png)
+![image.png](images/google-algorithm-ranking-factors-2024/img_002.webp)
 大家好，我是哥飞。
 
 今天“哥飞的朋友们”社群里有位朋友发了下面这张截图：
-![image.png](images/google-algorithm-ranking-factors-2024/img_003.png)
+![image.png](images/google-algorithm-ranking-factors-2024/img_003.webp)
 哥飞去查了下，找到了原文：
 
 [https://firstpagesage.com/seo-blog/the-google-algorithm-ranking-factors/](https://firstpagesage.com/seo-blog/the-google-algorithm-ranking-factors/) 
 
-![image.png](images/google-algorithm-ranking-factors-2024/img_004.png)
+![image.png](images/google-algorithm-ranking-factors-2024/img_004.webp)
 
  这篇文章讲的是2024年谷歌搜索结果算法排名因素，大家最好点进去看原文，更详细。
 
@@ -138,7 +138,7 @@ url: "https://new.web.cafe/tutorial/detail/3YhbhzPqsBgbwzpKEkvK1B"
 
 【哥飞解读】事实上，在10年前，哥飞做网站SEO时，就已经不给网页写 meta 里的 keywords 标签了，每一个页面，哥飞只写 title 和 description 。 
 
-![image.png](images/google-algorithm-ranking-factors-2024/img_005.png)
+![image.png](images/google-algorithm-ranking-factors-2024/img_005.webp)
 
  另外，网站内页的URL中的关键词也不太重要了，合并到22个因素之一了，这22个因素加起来才占1%的比重。
 

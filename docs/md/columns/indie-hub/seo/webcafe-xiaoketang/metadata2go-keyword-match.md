@@ -10,23 +10,23 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
 哥飞为了看一个 mp3 文件的 metadata，就去谷歌搜索 `mp3 file info checker`，结果如下。
 
-![image.png](images/metadata2go-keyword-match/img_002.png)
+![image.png](images/metadata2go-keyword-match/img_002.webp)
 
 哥飞在结果列表，右键打开了前两个结果。
 
 因为第二个结果是后打开的，于是自然而然先看了第二个页面，结果发现是一个桌面端软件，需要下载才能使用。
 
-![image.png](images/metadata2go-keyword-match/img_003.png)
+![image.png](images/metadata2go-keyword-match/img_003.webp)
 
 于是关闭了上面这个页面，此时，第一个结果页面被展示出来了。
 
-![image.png](images/metadata2go-keyword-match/img_004.png)
+![image.png](images/metadata2go-keyword-match/img_004.webp)
 
 点击 "View Metadata"，打开了新页面 [https://www.metadata2go.com/view-metadata](https://www.metadata2go.com/view-metadata)，上传 mp3 文件之后，解决了我的需求。
 
 于是哥飞就出于习惯，看了一下这个网站 `metadata2go.com` 的流量数据。
 
-![image.png](images/metadata2go-keyword-match/img_005.png)
+![image.png](images/metadata2go-keyword-match/img_005.webp)
 
 初看起来好像平平无奇，每个月访问量几十万，过去 12 个月总访问量 457 万。
 
@@ -38,11 +38,11 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
 最神奇的是，这 97% 的流量来自于 12373 个关键词。
 
-![image.png](images/metadata2go-keyword-match/img_006.png)
+![image.png](images/metadata2go-keyword-match/img_006.webp)
 
 让我们点击"所有关键词"，展开看看。
 
-![image.png](images/metadata2go-keyword-match/img_007.png)
+![image.png](images/metadata2go-keyword-match/img_007.webp)
 
 上图看到了吗？
 
@@ -58,39 +58,39 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
 - `metadata viewer` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_008.png)
+  ![image.png](images/metadata2go-keyword-match/img_008.webp)
 
 - `metadata checker` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_009.png)
+  ![image.png](images/metadata2go-keyword-match/img_009.webp)
 
 - `image metadata` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_010.png)
+  ![image.png](images/metadata2go-keyword-match/img_010.webp)
 
 - `pdf metadata viewer` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_011.png)
+  ![image.png](images/metadata2go-keyword-match/img_011.webp)
 
 - `image metadata viewer` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_012.png)
+  ![image.png](images/metadata2go-keyword-match/img_012.webp)
 
 - `metadata reader` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_013.png)
+  ![image.png](images/metadata2go-keyword-match/img_013.webp)
 
 - `video metadata` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_014.png)
+  ![image.png](images/metadata2go-keyword-match/img_014.webp)
 
 - `png info` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_015.png)
+  ![image.png](images/metadata2go-keyword-match/img_015.webp)
 
 - `photo metadata` 谷歌搜索结果
 
-  ![image.png](images/metadata2go-keyword-match/img_016.png)
+  ![image.png](images/metadata2go-keyword-match/img_016.webp)
 
 ## 为什么首页能匹配这么多关键词？
 
@@ -102,19 +102,19 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
 **首先第一点**，域名权重高，查询会发现有 1000 个网站给了他外链，DR 值是 57。
 
-![image.png](images/metadata2go-keyword-match/img_017.png)
+![image.png](images/metadata2go-keyword-match/img_017.webp)
 
 **然后**就是看页面上是否出现相关关键词了，我们拿上面几个关键词来一一分析看看。
 
 先看 `metadata viewer` 这个关键词，首先可以确定的是，在 Title 里并没有完全匹配到这个关键词，不过在 Description 里出现了这个关键词。
 
-![image.png](images/metadata2go-keyword-match/img_018.png)
+![image.png](images/metadata2go-keyword-match/img_018.webp)
 
 首页内容里出现了 2 次这个关键词。
 
-![image.png](images/metadata2go-keyword-match/img_019.png)
+![image.png](images/metadata2go-keyword-match/img_019.webp)
 
-![image.png](images/metadata2go-keyword-match/img_020.png)
+![image.png](images/metadata2go-keyword-match/img_020.webp)
 
 > （未完待续……）
 

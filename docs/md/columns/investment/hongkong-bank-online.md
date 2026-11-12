@@ -31,15 +31,15 @@ url: ""
 
 * **出入境记录：务必在入境香港后**及时获取本人**出入境记录证明**（PDF文件）。**所有四家银行开户均要求上传这份记录**。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-9.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-9.webp)
 
 * **出入境记录获取方式**：抵港约30-40分钟后，用微信或支付宝小程序 **“移民局12367”** 查询出入境记录，选择当次入境日期范围，生成PDF并下载保存到手机本地（苹果手机可直接“保存到文件”；安卓手机注意不要用WPS等打开后另存，以免格式变化，直接保存PDF原文件）。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-8.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-8.webp)
 
 * **其他准备：随身携带小笔记本和笔（手机备忘录也行）**，用于记录开户过程中设置的**账户号码、用户名、密码**等重要信息。因为出于安全，手机银行App通常**禁止截屏**，一旦忘记这些信息会非常麻烦（可能需要再次赴港才能找回或重置）。另外，手机保持充足电量，准备一个合规的充电宝以防途中没电。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-10.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-10.webp)
 
 **环境与时间：办理时确保人在香港**境内，并使用**香港本地网络**。建议抵港后尽快找一个网络畅通、光线良好的地点（如机场、高铁西九龙站、商场的休息区等均有免费WiFi）开始开户。良好的照明和稳定网络可避免身份识别失败和重复提交。务必在当天预留足够时间，因为**当日入境记录PDF**必须生成后才能开户，有时系统延迟可能需等一两个小时；尽量在上午入境，这样若遇异常还能有时间处理。
 
@@ -81,27 +81,27 @@ url: ""
 
 1. **下载并打开App：关闭vpn ,连接当地WiFi或者漫游，启动 「中银香港BOC HK」 手机App（注意不是“中国银行”内地版App，需下载带红色Logo写有“香港”的版本）。进入首页后，选择“开立账户”**。需要注意的是，使用邀请码可能提高开户通过率，但并非必需步骤。如有需要，可填入以下邀请码：**<span style="color: rgb(216,57,49); background-color: inherit">M34575872080</span>**
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-34faf.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-34faf.webp)
 
 
 
 * **选择开户类型：系统会问是否在分行办理，选择 “我不在分行”（即线上办理）。再选择客户类型：“内地居民身份证”**，并确认所在地为香港。随后选择所需的银行服务类型，一般选“综合理财服务 - 自在理财”**（对应基础账户）。（提示：页面会说明自在理财需日均1万港币免月费，但**开户过程中并不要求存入1万\**，可以先不用管这个）*&#x20;
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-1.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-1.webp)
 
 * **身份文件上传：根据指引，上传入境记录PDF**、拍照上传**身份证**正反面。然后进行**人脸识别**核验身份。接着，会要求**拍摄上传港澳通行证**个人资料页和签注页（有些版本App可能两个页面都要拍）。\*拍摄要点：\*证件放平，拍全页，不反光，必要时多尝试几次。再选择开户用途：一般选“储蓄”或“投资”，不要选太敏感的用途。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-2.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-3.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-3.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-4.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-4.webp)
 
 
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-5.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image.webp)
 
 * **填写详细信息：包括个人资料**（出生地、学历等）、**就业及财务状况**、**开户目的**等。注意点如下：
 
@@ -111,11 +111,11 @@ url: ""
 
 - **联系方式和地址：填写常用的内地手机号码**（选择+86），以及**通讯地址**。这里通讯地址非常重要，因为**中银会将实体卡邮寄到该地址**！建议填写你方便收信的住址，并在地址末尾附上**手机号码<span style="color: rgb(216,57,49); background-color: inherit">（这个十分重要，后续平邮实体卡时，信封不会提供你的手机号，快递员无法联系到你的话，就只能退回了）</span>**。另外，提供有效的电子邮箱，用于接收通知。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-6.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-6.webp)
 
 * **提交申请：勾选同意条款，提交开户申请。系统会即时处理：通常在你上传完所有资料、视频见证完成后，几分钟内会给出结果。如果页面直接显示开户成功**，恭喜你拿下了中银香港账户！你会得到一个账号，并可以立即登录手机银行查看。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-7.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-7.webp)
 
 * **若提示需要人工审核**（可能由于姓名生僻或两字重名多等原因），请耐心等待，一般1-3个工作日内会有结果，通过则会收到短信/邮件通知。如果长时间不通过也不拒，可以主动致电中银香港客服查询进度。
 
@@ -153,53 +153,53 @@ url: ""
 
 建议在APP申请**中银万事达**卡，方便境外交易使用。如有境内消费需求，也可以申请普通中银卡。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-11.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-11.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-12.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-12.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-20.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-20.webp)
 
 ![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-22.png)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-18.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-18.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-23.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-23.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-19.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-19.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-21.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-21.webp)
 
 
 
 * 激活万事达卡流程
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-17.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-17.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-16.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-16.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-15.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-15.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-13.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-13.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-14.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-14.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-35.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-35.webp)
 
 
 
 * 申请实体卡流程
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-34.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-34.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-33.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-33.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-32.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-32.webp)
 
 
 
 收到实体卡后，可以在内地ATM机取款（银联网络），也可在香港本地消费或绑定微信香港钱包等，非常实用。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-24.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-24.webp)
 
 补充要点（很重要）：
 
@@ -301,17 +301,17 @@ url: ""
 
 1. **启动开户流程：关闭vpn ,连接当地WiFi或者漫游，打开 「HSBC HK 汇丰香港」App。在欢迎页选择“没有账户？开户”（我没有任何账户）。接着选择国家/地区为香港**（目前选中国内地无法开通“汇丰one”账户）。然后选择开户账户类型：**“汇丰One”**（即我们需要的综合理财账户）。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-25.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-25.webp)
 
 * **填写个人信息：按照提示，输入姓名（拼音和中文）、出生日期等。之后填写开户原因**（Purpose），建议选择\*\*“储蓄/投资”**等与个人理财相关的选项。手机号码填写内地手机号并选择+86。接下来完善**税务信息\*\*（税务居住地中国大陆，税号填身份证号）。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-26.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-26.webp)
 
 * **证件验证（NFC环节）：汇丰要求验证你的港澳通行证**。首先会让你**拍摄通行证照片**（证件人像页）。然后App会进入NFC读取阶段：根据App指示，将你的港澳通行证**贴在手机背面**，让手机读取证件内部芯片信息。【*提示：不同手机NFC感应区域不一样，可以缓慢移动证件在背后找信号，读取过程可能需数十秒，耐心等待，不成功就多试几次。*】当NFC读取完成，App会自动获取你的证件资料，加快审核。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-31.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-31.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-30.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-27.webp)
 
 * **拍摄身份证明：除了通行证，App还可能要求你再拍摄身份证**或其他辅助证件照片（以当时App页面提示为准）。确保按要求拍摄清晰。
 
@@ -329,15 +329,15 @@ url: ""
 
 * 收入及资金来源：可能会问你的年收入区间、资金来源目的等，如实选填，符合常理就好。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-27.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-27.webp)
 
 * **选择分行**（可选项）：在提交前，系统会让你选择一个**开户分行**（用于管理你的账户的分行编号）。App通常默认一个网点，但有些经验人士建议**不要用默认**，可以手动挑选其他分行（点进去从列表中随便换一个）。这么做是因为某些分行的后台审核较严，换一家也许更容易通过。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-28.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-28.webp)
 
 * **提交申请：**&#x786E;认所有信息填写正确，特别是英文名、证件号、电话、地址无误，然后提交。接下来会出现两种情况：
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-29.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-28.webp)
 
 * **即时通过**：**如果系统自动审核通过，你会在屏幕上看到**“恭喜开户成功”的字样，旁边可能有你的新账户号码等信息。
 
@@ -365,7 +365,7 @@ url: ""
 
 * **实体卡及密码函：**&#x6210;功开通汇丰one账户，接下来就是等实体卡+密码函。汇丰 One 账户申请下来后，默认会给你一张提款卡（也称红狮子），在银联网络中使用比较方便
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-36.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-36.webp)
 
 实体卡片【EMS邮寄】，一周左右时间（不同地区收件的时间略有差异），上门送件
 
@@ -391,17 +391,17 @@ url: ""
 
 * **激活卡片：借记卡收到后，需要在HSBC App或致电客服激活。信用卡需根据函件指引通过电话/短信激活并设置消费密码。如果使用App，可以通过“管理卡片”功能设置新的6位数PIN码。建议立即修改初始密码**避免遗忘。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-37.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-37.webp)
 
 
 
 **补充内容：之前没注册网银也可以通过实体卡在APP注册，**&#x7F51;银账户密码与安全资料一定要记住！！注册成功后，在登陆界面输入账密就可以登陆拉！
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-41.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-41.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-43.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-43.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-42.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-42.webp)
 
 
 
@@ -429,11 +429,11 @@ url: ""
 
 * **填写个人信息：**&#x6839;据提示，填写姓名、证件类型和号码等基本资料。证件类型请选择 **“中国居民身份证”**，并确认当前所在地区为香港。**按照App指引，用手机分别拍摄上传身份证正反面**。【*提示：拍摄时避免光斑、确保边框完整；若有反光多尝试几次。*】然后上传**出入境记录PDF**，证明你当前在香港境内。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-38.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-38.webp)
 
 * **填写其他信息：补充联系地址、税务居住地、职业、开户目的**等信息。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-39.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-39.webp)
 
 * **绑定内地银行卡验证：输入一张本人名下的内地借记卡**卡号和该卡预留手机号（此手机号应与当前收验证码的是同一个）。注意：这一步不涉及扣款或存款，银行用于交叉验证你的身份稳定性。这张卡请使用**平时常用、有交易流水**的卡，不要用长期不动的“睡眠卡”，以免触发风控。
 
@@ -443,7 +443,7 @@ url: ""
 
 * **开户成功标志：当App提示开户完成，你会拿到港币账户账号**，可以立即登录手机银行查看账户。众安银行开通后账户**无日常额度限制**（转账和支付额度根据你设置的交易PIN码，一般每日上限很高普通用户用不完）。此时你已经可以使用众安银行App进行转账、存款（通过FPS从他行转入）等操作。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-40.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-40.webp)
 
 
 
@@ -540,37 +540,37 @@ url: ""
 
 * **<span style="color: rgb(216,57,49); background-color: inherit">尤其注意一定要检查一下汇款人和收款人的拼音是否一致，错一个拼音字母就扣60港币的手续费，很难追回。（别问我怎么知道的，亲身经历啊😭）</span>**
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-55.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-55.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-54.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-54.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-56.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-56.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-51.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-51.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-48.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-48.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-53.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-53.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-52.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-52.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-50.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-50.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-46.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-46.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-47.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-47.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-49.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-49.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-45.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-45.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-57.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-57.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-44.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-44.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-70.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-70.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-67.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-67.webp)
 
 
 
@@ -608,9 +608,9 @@ url: ""
 
 点击 **“登记转数快”**。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-64.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-64.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-68.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-68.webp)
 
 
 
@@ -644,23 +644,23 @@ url: ""
 
 选择 **“提款账户”** (你要从哪个账户付钱)。
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-69.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-69.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-63.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-63.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-62.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-62.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-66.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-66.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-65.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-65.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-61.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-61.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-59.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-59.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-60.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-60.webp)
 
-![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-58.png)
+![](images/hongkong-bank-online/港卡线上开户，超详细攻略-image-58.webp)
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "macos 1"
+title: "第 01 课 · macOS 常用快捷键"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

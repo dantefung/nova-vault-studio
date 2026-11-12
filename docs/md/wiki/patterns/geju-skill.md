@@ -1,5 +1,5 @@
 ---
-title: "Geju Skill Pattern"
+title: "格局 Skill 模式"
 date: "2026-06-13"
 source: "geju（格局）—专治 Codex 过度谨慎的 Skill"
 url: "https://github.com/hylarucoder/hai-stack"

@@ -1,3 +1,7 @@
+---
+title: "第 2 章 · 工具系统"
+---
+
 Title: 工具系统 (Tool.ts + tools.ts) | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/tool-system.html

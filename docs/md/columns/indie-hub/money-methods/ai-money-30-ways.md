@@ -204,4 +204,4 @@ url: ""
 
 - [独立开发者套利模式](./aribitrage-mode.md)
 - [AI时代个体创业路径](./ai-individual-path.md)
-- [内容搬运套利](../wiki/patterns/content-arbitrage-pattern.md)
+- [内容搬运套利](../../../wiki/patterns/content-arbitrage-pattern.md)

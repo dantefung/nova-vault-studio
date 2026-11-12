@@ -1,5 +1,5 @@
 ---
-title: "make-pdf"
+title: "make-pdf 生成出版级 PDF"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

@@ -1,3 +1,7 @@
+---
+title: "第 2 章 · 状态管理"
+---
+
 Title: ) | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/state-management.html

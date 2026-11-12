@@ -1,5 +1,5 @@
 ---
-title: "problem-driven-learning-wheel"
+title: "问题驱动的学习车轮"
 date: "2026-07-14"
 source: "整理自 sources/problem-driven-learning-wheel.md（Heidixie呀讲述的 Charles Handy 理论）"
 url: "https://mp.weixin.qq.com/s/r9nRB7TmOLBGtG3bJ1iRZQ"

@@ -5,9 +5,34 @@ import markdownItMarkmap from './plugins/markdown-it-markmap.js'
 import { generateSidebar, generateNavItems, generateNavItemsFromFiles, generateSidebarMappingForSubdirectories, generateBookNavItems } from './sidebar.js'
 
 
-const SEARCH_RENDER_SIZE_LIMIT = 200_000
-const isLowMemoryBuild = process.env.VERCEL === '1' || process.env.VITEPRESS_LOW_MEMORY_BUILD === '1'
-const enableLocalSearch = process.env.VITEPRESS_DISABLE_LOCAL_SEARCH !== '1'
+const SEARCH_RENDER_SIZE_LIMIT = 100_000
+
+// 搜索索引模式：full=全量 / partial=仅核心目录 / off=关闭索引
+// 未显式指定时本地取 full，Vercel 等受限 CI 自动降为 partial（省构建内存）
+const SEARCH_MODE = (process.env.VITEPRESS_SEARCH_MODE
+  || (process.env.VERCEL === '1' ? 'partial' : 'full')).toLowerCase()
+if (!['full', 'partial', 'off'].includes(SEARCH_MODE)) {
+  throw new Error(`VITEPRESS_SEARCH_MODE 无效：${SEARCH_MODE}，仅支持 full | partial | off`)
+}
+
+// partial 模式下整棵跳过的目录（路径相对 docs/，命中自身或子路径即跳过）。
+// 这几块是归档原始素材或超大合辑，索引价值低但体积最大；其余目录默认全部索引。
+const SEARCH_PARTIAL_SKIP_ROOTS = [
+  'md/columns',
+  'md/books',
+  'md/agi',
+  'md/wiki/sources',
+  'md/guide/cs/system-design-101',
+  'md/wiki/log.md',
+  'md/wiki/index.md',
+]
+
+const enableLocalSearch = SEARCH_MODE !== 'off'
+
+function isSearchSkipped(relativePath) {
+  return SEARCH_MODE === 'partial'
+    && SEARCH_PARTIAL_SKIP_ROOTS.some(root => relativePath === root || relativePath.startsWith(`${root}/`))
+}
 
 function escapeHtml(value) {
   return value
@@ -21,7 +46,10 @@ function escapeHtml(value) {
 
 export default defineConfig({
   ignoreDeadLinks: true,
-  buildConcurrency: isLowMemoryBuild ? 4 : 16,
+  // 实测：并发只影响构建耗时，对峰值内存无显著影响（16 比 4 快 30-45%）。
+  // VitePress 默认 64，此处显式压到 16。
+  buildConcurrency: 16,
+  metaChunk: true,
   title: 'System Vault',
   description: '系统知识库 - 凡是过往，皆为序章',
   lastUpdated: true,
@@ -29,7 +57,7 @@ export default defineConfig({
   lang: 'zh-CN',
 
   sitemap: {
-    hostname: 'https://system-vault.site'
+    hostname: 'https://vault.moneylab.ccwu.cc'
   },
   head: (() => {
     const isCdn = (process.env.VITE_FONT_SOURCE || 'local') === 'cdn'
@@ -42,7 +70,7 @@ export default defineConfig({
       ['meta', { property: 'og:description', content: '系统知识库 - 凡是过往，皆为序章' }],
     ]
     // 防闪烁脚本：页面加载前同步设置主题（同步执行，无 async/defer）
-    head.push(['script', {}, `(function(){var t=localStorage.getItem('vp-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;if(t==='dark')document.documentElement.classList.add('dark');var l=localStorage.getItem('vp-landing-theme');if(['quiet','easton','easton-clone'].includes(l)){document.documentElement.dataset.landingTheme=l;document.cookie='vp-landing-theme='+l+';path=/;max-age=31536000;samesite=lax'}else if(document.cookie.match(/(?:^|;\s*)vp-landing-theme=([^;]+)/)){l=RegExp.$1;if(['quiet','easton','easton-clone'].includes(l))document.documentElement.dataset.landingTheme=l}})()`])
+    head.push(['script', {}, `(function(){var t=localStorage.getItem('vp-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;if(t==='dark')document.documentElement.classList.add('dark');var l=localStorage.getItem('vp-landing-theme');if(['quiet','easton'].includes(l)){document.documentElement.dataset.landingTheme=l;document.cookie='vp-landing-theme='+l+';path=/;max-age=31536000;samesite=lax'}else if(document.cookie.match(/(?:^|;\s*)vp-landing-theme=([^;]+)/)){l=RegExp.$1;if(['quiet','easton'].includes(l))document.documentElement.dataset.landingTheme=l}})()`])
     // 只在生产环境加载 Vercel Insights
     if (isProd) {
       head.push(['script', { src: '/_vercel/insights/script.js', defer: '' }])
@@ -66,8 +94,11 @@ export default defineConfig({
     }
   },
   vite: {
+    define: {
+      __LOCAL_SEARCH_ENABLED__: JSON.stringify(enableLocalSearch),
+    },
     plugins: [MermaidPlugin()],
-    optimizeDeps: { include: ['mermaid'] },
+    optimizeDeps: { include: ['mermaid', 'markmap-lib', 'markmap-view'] },
     ssr: { noExternal: ['mermaid'] },
     assetsInclude: ['**/*.awebp'],
   },
@@ -82,6 +113,8 @@ export default defineConfig({
         maxSuggestions: 10,
         async _render(src, env, md) {
           if (env.frontmatter?.search === false) return ''
+          // 放在 md.render 之前：命中即跳过整页渲染，这是 partial 模式省内存的关键
+          if (isSearchSkipped(env.relativePath)) return ''
           if (src.length > SEARCH_RENDER_SIZE_LIMIT) return ''
           return md.render(src, env)
         },
@@ -89,6 +122,13 @@ export default defineConfig({
     } : undefined,
 
     nav: [
+      {
+        text: '资源中心',
+        items: [
+          { text: 'AI 编程资源', link: '/md/resources/' },
+          { text: 'Claude Code 资源', link: '/md/guide/ai/claude-code-resources/' },
+        ]
+      },
       {
         text: '文档',
         items: [
@@ -126,11 +166,15 @@ export default defineConfig({
         items: generateNavItems('docs/md/tutorial', '/md/tutorial/')
       },
       {
-        text: 'AGI',
+        text: 'AGI 教程',
         items: generateNavItems('docs/md/agi', '/md/agi/')
       },
       {
-        text: 'Wiki',
+        text: '博客',
+        link: '/md/blog/'
+      },
+      {
+        text: '知识库',
         items: [
           { text: '知识库总览', link: '/md/wiki/' },
           { text: '核心概念', link: '/md/wiki/concepts/' },
@@ -153,10 +197,10 @@ export default defineConfig({
         text: '专栏',
         items: [
           { text: '专栏总览', link: '/md/columns/' },
-          { text: 'Agentic Engineer', link: '/md/columns/agentic-engineer/' },
-          { text: 'Vibe Coding', link: '/md/columns/vibe-coding/' },
-          { text: 'Harness Engineering', link: '/md/columns/harness-engineering/' },
-          { text: "Lenny's Newsletter", link: '/md/columns/lenny-newsletter/' },
+          { text: 'Agentic Engineer 专栏', link: '/md/columns/agentic-engineer/' },
+          { text: 'Vibe Coding 专栏', link: '/md/columns/vibe-coding/' },
+          { text: 'Harness Engineering 专栏', link: '/md/columns/harness-engineering/' },
+          { text: 'Lenny 通讯', link: '/md/columns/lenny-newsletter/' },
           { text: '绘图指南', link: '/md/columns/drawing/' },
           { text: 'OPC 一人公司', link: '/md/columns/opc/' },
           { text: '投资专栏', link: '/md/columns/investment/' },
@@ -164,7 +208,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Slides',
+        text: '幻灯片',
         items: [
           { text: '演示文稿', link: '/md/slides/' },
         ]
@@ -176,6 +220,7 @@ export default defineConfig({
       '/md/sitelog/architecture/': generateSidebar('docs/md/sitelog/architecture', '/md/sitelog/architecture/'),
       '/md/sitelog/evolution/': generateSidebar('docs/md/sitelog/evolution', '/md/sitelog/evolution/'),
       '/md/sitelog/reference/': generateSidebar('docs/md/sitelog/reference', '/md/sitelog/reference/'),
+      '/md/sitelog/dev-log/': generateSidebar('docs/md/sitelog/dev-log', '/md/sitelog/dev-log/'),
       '/md/tutorial/': generateSidebar('docs/md/tutorial', '/md/tutorial/'),
       '/md/agi/': generateSidebar('docs/md/agi', '/md/agi/'),
       '/md/books/': generateBookNavItems('docs/md/books', '/md/books/'),

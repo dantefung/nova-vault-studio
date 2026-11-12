@@ -1,10 +1,10 @@
-/* Integrate LXGW WenKai webfont via local npm package (@fontsource) */
-/* The actual font files are loaded by theme runtime in fonts-local.js. */
+/* Integrate LXGW WenKai Screen webfont */
+@import 'lxgw-wenkai-screen-webfont/lxgwwenkaigbscreen.css';
 
 /* Override VitePress theme font families */
 :root {
-  /* Base UI + body text font */
-  --vp-font-family-base: "LXGW WenKai", "LXGW WenKai Lite", "LXGW WenKai Screen",
+  /* Base UI + body text font: 优先使用屏幕加粗版 WenKai Screen，字形饱满不发虚 */
+  --vp-font-family-base: "LXGW WenKai Screen", "LXGW WenKai Screen R", "LXGW WenKai", "LXGW WenKai Lite",
     "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
     system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 
@@ -17,11 +17,26 @@
 body,
 .vp-doc {
   font-family: var(--vp-font-family-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Optional: slightly improve readability for CJK */
+/* 增强正文可读性与字重，消除发灰感 */
 .vp-doc p,
 .vp-doc li {
-  line-height: 1.75;
+  line-height: 1.8;
+  font-weight: 450;
+}
+
+/* 强化标题与强调文本对比度 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6,
+.vp-doc strong,
+.vp-doc b {
+  font-weight: 600;
 }
 

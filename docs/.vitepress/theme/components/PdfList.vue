@@ -48,24 +48,19 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import PdfViewer from './PdfViewer.vue'
+import pdfManifest from '../data/pdf-manifest.js'
+import { getPdfUrl } from '../utils/pdf-assets.js'
 
 const props = defineProps({
   dir: { type: String, default: '' }
 })
 
-const raw = import.meta.globEager('../../../md/books/**/*.pdf')
-
 const groups = {}
-Object.entries(raw).forEach(([filePath, module]) => {
-  const segments = filePath.split('/')
-  const fileName = segments.pop()
-  const dirName = segments.pop() || ''
+pdfManifest.forEach(({ name, category, repoPath }) => {
+  const url = getPdfUrl(repoPath)
 
-  const name = fileName.replace(/\.pdf$/i, '').replace(/[_-]/g, ' ')
-  const url = module.default
-
-  if (!groups[dirName]) groups[dirName] = []
-  groups[dirName].push({ name, url })
+  if (!groups[category]) groups[category] = []
+  groups[category].push({ name, url })
 })
 
 Object.values(groups).forEach(list => list.sort((a, b) => a.name.localeCompare(b.name, 'zh-Hans-CN')))

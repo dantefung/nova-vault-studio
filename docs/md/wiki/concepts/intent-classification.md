@@ -1,3 +1,7 @@
+---
+title: "意图识别（Intent Classification）"
+---
+
 # 意图识别（Intent Classification）
 
 > 智能客服系统的入口层优化技术，准确理解用户输入的问题意图，决定后续的路由和响应策略。
@@ -41,4 +45,4 @@
 
 ## Sources
 
-- [[智能客服专栏] 意图分类：准确性与速度优化](./14-intent-classification.md)
+- [[智能客服专栏] 意图分类：准确性与速度优化](../../guide/ai/intelligent-customer-service/14-intent-classification.md)

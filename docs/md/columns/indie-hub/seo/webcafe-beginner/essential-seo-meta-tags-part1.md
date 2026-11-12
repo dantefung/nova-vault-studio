@@ -16,7 +16,7 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 [https://www.searchenginejournal.com/important-tags-seo/156440/](https://www.searchenginejournal.com/important-tags-seo/156440/)
 
-![image.png](images/essential-seo-meta-tags-part1/img_002.png)
+![image.png](images/essential-seo-meta-tags-part1/img_002.webp)
 
 开篇第一句话就告诉大家，一些元标签对SEO至关重要，而其他标签对排名几乎没有影响，所以这篇文章讲的是重要的10个标签。
 
@@ -37,11 +37,11 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 在《【哥飞解读】2024年谷歌算法排名因素变化》中，我们知道标题里包含的关键词依然还占排名因素的15%，是优质内容之外的第二大因素。 
 
-![image.png](images/essential-seo-meta-tags-part1/img_003.png)
+![image.png](images/essential-seo-meta-tags-part1/img_003.webp)
 
  以前，谷歌会把标题严格匹配用户搜索结果的网页排到前面，后来谷歌能够更多的基于语义化理解网页之后，我们的标题不需要严格匹配就能够出现在谷歌搜索结果中了。
 
-![image.png](images/essential-seo-meta-tags-part1/img_004.png)
+![image.png](images/essential-seo-meta-tags-part1/img_004.webp)
 
 这说明什么呢？说明你的网页本身如果就是追着关键词去做的，那么基于关键词去合理的编写标题，就可以广泛的匹配到用户这个搜索需求的不同描述。
 
@@ -49,19 +49,19 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 哥飞给大家举个例子，刚好是哥飞昨天刚刚搜索过的词，热乎的结果。 
 
-![image.png](images/essential-seo-meta-tags-part1/img_005.png)
+![image.png](images/essential-seo-meta-tags-part1/img_005.webp)
 
  
 
-![image.png](images/essential-seo-meta-tags-part1/img_006.png)
+![image.png](images/essential-seo-meta-tags-part1/img_006.webp)
 
  
 
-![image.png](images/essential-seo-meta-tags-part1/img_007.png)
+![image.png](images/essential-seo-meta-tags-part1/img_007.webp)
 
  
 
-![image.png](images/essential-seo-meta-tags-part1/img_008.png)
+![image.png](images/essential-seo-meta-tags-part1/img_008.webp)
 
  看到了吗？四个关键词，意思类似，需求类似，所以谷歌都把同一个网站排到了第一名，而这个网站的标题其实只写了其中一种关键词“File Type Checker”。
 
@@ -109,7 +109,7 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 但如果看下面这张图会发现，H1并不在影响排名的因素里，那为什么哥飞依然强调H1要好好写呢？
 
-![image.png](images/essential-seo-meta-tags-part1/img_009.png)
+![image.png](images/essential-seo-meta-tags-part1/img_003.webp)
 
 因为良好的H1到H6，可以帮助谷歌更好的梳理网页内容结构，也就是帮助谷歌更好的理解网页内容。
 
@@ -131,15 +131,15 @@ url: "https://new.web.cafe/tutorial/detail/uvPiYL3Vz8vhWbgNxW5C7h"
 
 顺便给大家推荐一个特别好用且免费的SEO浏览器插件，如我们在浏览 checkfiletype.com 这个网站时点开插件，就能够看到这个网站首页的 Title、Description、Headings、域名注册时间、流量等数据。 
 
-![image.png](images/essential-seo-meta-tags-part1/img_010.png)
+![image.png](images/essential-seo-meta-tags-part1/img_010.webp)
 
  
 
-![image.png](images/essential-seo-meta-tags-part1/img_011.png)
+![image.png](images/essential-seo-meta-tags-part1/img_011.webp)
 
  
 
-![image.png](images/essential-seo-meta-tags-part1/img_012.png)
+![image.png](images/essential-seo-meta-tags-part1/img_012.webp)
 
  这么好用的插件居然是免费的，是的，这也是哥飞社群里朋友做的产品之一，欢迎下载使用 [https://aitdk.com/zh-CN/extension/](https://aitdk.com/zh-CN/extension/) 。
 

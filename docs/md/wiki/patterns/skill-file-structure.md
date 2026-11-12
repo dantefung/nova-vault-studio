@@ -1,5 +1,5 @@
 ---
-title: "Skill File Structure"
+title: "Skill 文件结构"
 date: "2026-06-12"
 source: "Agent skill 迭代式编写实战"
 url: "https://mp.weixin.qq.com/s/59Z2eVOg914_bpRD6-WsYg"

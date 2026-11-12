@@ -1,5 +1,5 @@
 ---
-title: "Principles of Computer System Design: An Introduction (2009)"
+title: "计算机系统设计原理（2009）"
 date: "2023-04-13"
 source: "Macaroon-Spring-Family/spring-boot-best-practice"
 original: "systemdesign/ebook/Principles of Computer System Design An Introduction-2009.pdf"

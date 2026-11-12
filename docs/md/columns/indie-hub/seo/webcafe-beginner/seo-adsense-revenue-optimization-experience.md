@@ -12,7 +12,7 @@ url: "https://new.web.cafe/tutorial/detail/c8w83QGZAkt728T33WERCg"
 
 # 我如何通过SEO和Adsense 优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元，经验全分享
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_002.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_002.webp)
 
 先上图，有图有真相，可以看到，2016年6月份，Adsense广告收入874美元，到了7月份，立马就几乎翻倍变成1475美元了，之后一路上升，到了11月已经2100美元了。
 
@@ -36,15 +36,15 @@ url: "https://new.web.cafe/tutorial/detail/c8w83QGZAkt728T33WERCg"
 
 可以看到，这是一个很典型的列表式网站，首页和分类页面，都是列表，列表页只有顶部一个广告位。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_003.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_003.webp)
 
  点击列表，进入详情页，长下面这样，详情页也只有一个广告位。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_004.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_004.webp)
 
  
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_005.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_005.webp)
 
  如果你对京东图书详情页比较熟悉就会发现，详情页里的图书介绍，直接复制的京东图书介绍内容和样式过来的。
 
@@ -76,65 +76,65 @@ url: "https://new.web.cafe/tutorial/detail/c8w83QGZAkt728T33WERCg"
 
 改版后的网站如下，可以看到变漂亮了，书籍列表页面改成卡片式，一行放了4本书，还增加了书籍封面，也增加广告位了，一页放了3个广告位。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_006.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_006.webp)
 
  我们可以学习一下首页的 HTML 中标题（title）和 描述（description） 如何编写，这里特意把真实网站名称都替换为了“网站名称”四个字，下同。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_007.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_007.webp)
 
  首页的 h1 写的也是网站名称和slogan。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_008.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_008.webp)
 
  详情页则改成了下面这样，也是一页三个广告位。
 
 同时保留了最经典的京东图书介绍内容板块，只是稍微做了一些样式调整。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_009.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_009.webp)
 
  
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_010.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_010.webp)
 
  详情页的网页标题则是“{书籍名称}-网站名称-通用关键字”格式，描述则是“{书籍名称}是{作者}的作品，网站名称为您提供{书籍名称}免费……”格式。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_011.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_011.webp)
 
  HTML里，书籍标题用 h1 标签，告诉搜索引擎，这个页面最重要的文字就是书籍名称。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_012.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_012.webp)
 
  分类页面，整体UI跟首页差不多，同样也是3个广告位。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_013.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_013.webp)
 
  分类页面，网页标题格式为“{分类名称}-网站名称-slogan”，描述格式为“{分类名称}类……，网站名称为您提供……”。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_014.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_014.webp)
 
  分类页面的 h1 标签就简单了，直接是分类名称。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_015.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_015.webp)
 
  另外还增加标签页面，能够聚合相同标签下的不同书籍，一样也是放了三个广告位。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_016.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_016.webp)
 
  标签页的标题格式为“标签:{标签名称}-网站名称-slogan”，然后哥飞7年后终于发现，当时忘记写描述了，这是一个bug。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_017.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_017.webp)
 
  h1 也是直接就写了“标签:{标签名称}”。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_018.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_018.webp)
 
  其实，作者名称也被当作一个特殊的标签来处理的，所以有作者页面，会聚合作者的所有书籍。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_019.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_019.webp)
 
  
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_020.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_020.webp)
 
  针对查找书籍不方便，除了增加标签之外，还增加了搜索功能，不过因为archive.org 上存档的都是静态页面，无法看到搜索结果页面，所以无法截图给大家看。
 
@@ -150,7 +150,7 @@ UV涨了之后，PV也会涨，而且之前旧版只有首页、分类页、详�
 
 所以可以看到，7月的广告费立马就变成了6月的差不多两倍。 
 
-![image.png](images/seo-adsense-revenue-optimization-experience/img_021.png)
+![image.png](images/seo-adsense-revenue-optimization-experience/img_002.webp)
 
  而8月几乎没涨，9月涨了，10月涨了，11月大涨，则是因为新版网站对搜索引擎更友好了，慢慢被搜索引擎收录了更多页面，同时又因为体验更好，打开更快，进而导致搜索排名上升，从搜索引擎过来的流量越来越高。
 

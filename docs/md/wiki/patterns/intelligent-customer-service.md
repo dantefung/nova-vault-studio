@@ -51,6 +51,6 @@ date: "2026-05-09"
 ## Sources
 
 - [[智能客服专栏] 智能客服系统建设总纲](./index.md)
-- [[智能客服专栏] 系统设计与架构](./01-system-design.md)
-- [[智能客服专栏] 系统设计与架构v2](./07-system-design-v2.md)
-- [[智能客服专栏] 智能客服建设指南](./16-customer-service-building-guide.md)
+- [[智能客服专栏] 系统设计与架构](../../guide/ai/intelligent-customer-service/01-system-design.md)
+- [[智能客服专栏] 系统设计与架构v2](../../guide/ai/intelligent-customer-service/07-system-design-v2.md)
+- [[智能客服专栏] 智能客服建设指南](../../guide/ai/intelligent-customer-service/16-customer-service-building-guide.md)

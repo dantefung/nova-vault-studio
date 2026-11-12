@@ -27,4 +27,4 @@ author: "哥飞"
 
 以下是大牛猫建议截图，如果觉得有用请转发分享。
 
-![](images/earn-more-usd-is-the-best-choice/001.png)
+![](images/earn-more-usd-is-the-best-choice/001.webp)

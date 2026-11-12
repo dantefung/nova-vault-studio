@@ -1,5 +1,5 @@
 ---
-title: "writing-plans"
+title: "writing-plans 编写实施计划"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

@@ -18,7 +18,7 @@ Happy Prompting.
 
 
 
-![](images/a12ad128ef5f558c94fe50165f6fd4d2.png)
+![](images/a12ad128ef5f558c94fe50165f6fd4d2.webp)
 
 
 
@@ -26,7 +26,7 @@ Happy Prompting.
 
 
 
-![](images/4b9b894e6929bc3b8d3df993279faec5.png)
+![](images/4b9b894e6929bc3b8d3df993279faec5.webp)
 
 
 

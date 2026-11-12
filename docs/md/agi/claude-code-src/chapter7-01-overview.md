@@ -1,3 +1,7 @@
+---
+title: "第 7 章 · Bridge 概览"
+---
+
 Title: Bridge 系统概览 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/

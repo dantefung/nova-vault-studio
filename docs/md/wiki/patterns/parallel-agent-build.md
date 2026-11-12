@@ -1,5 +1,5 @@
 ---
-title: "Parallel Agent Build"
+title: "并行 Agent 构建"
 date: "2026-06-13"
 source: "ai-website-cloner-template"
 url: "https://github.com/JCodesMore/ai-website-cloner-template"

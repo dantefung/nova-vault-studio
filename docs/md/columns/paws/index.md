@@ -11,6 +11,7 @@ date: "2026-07-31"
 
 - [QwenPaw 安装指南](./install-guide.md) — 7 种安装方式详解
 - [OpenCode `/goal` 目标驱动模式](./opencode-goal-mode.md) — 自定义命令与社区插件实现
+- [Claude Code 动态工作流](./claude-code-dynamic-workflow.md) — AI 自主安排多 Agent 协作处理任务
 
 ## 外部链接
 

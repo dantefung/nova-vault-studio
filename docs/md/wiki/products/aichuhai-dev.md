@@ -1,5 +1,5 @@
 ---
-title: "aichuhai.dev"
+title: "aichuhai.dev 资源导航"
 date: "2026-07-13"
 ---
 

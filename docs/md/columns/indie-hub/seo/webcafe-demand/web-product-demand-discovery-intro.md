@@ -14,29 +14,29 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 但你又不知道有哪些工具有流量，那么我们就可以先在谷歌中输入"在线工具"，看下搜索结果。
 
-![](images/web-product-demand-discovery-intro/img_002.png)
+![](images/web-product-demand-discovery-intro/img_002.webp)
 
 第一个是 tool.lu，那就去 Similarweb 上输入域名，打开下面网址：\`<\1>
 
-![](images/web-product-demand-discovery-intro/img_003.png)
+![](images/web-product-demand-discovery-intro/img_003.webp)
 
 首先看下，月访问量 170 万，还是不错的。
 
-![](images/web-product-demand-discovery-intro/img_004.png)
+![](images/web-product-demand-discovery-intro/img_004.webp)
 
 然后看用户兴趣点中的其它受访网站，有 json.cn、bejson.com、cnblogs.com、w3cschool.cn 等，每一个都右键新标签页打开，留着备用。
 
-![](images/web-product-demand-discovery-intro/img_005.png)
+![](images/web-product-demand-discovery-intro/img_005.webp)
 
 再看竞争对手和类似网站，这里我不一一列举，一样每个都用右键打开新标签页，放着备用。
 
-![](images/web-product-demand-discovery-intro/img_006.png)
+![](images/web-product-demand-discovery-intro/img_006.webp)
 
 再看流量来源，有 46.11% 来自于直接访问，也就是用户记住了网址，或者从浏览器书签栏打开。有 51.44% 来自于搜索引擎，这里的"有机搜索"是自然搜索的意思。
 
 这里可以看到这个站的流量来源，挺大比例来自于搜索引擎，我们可以分析下，他的流量来自于哪些搜索词。
 
-![](images/web-product-demand-discovery-intro/img_007.png)
+![](images/web-product-demand-discovery-intro/img_007.webp)
 
 可以看到排名前几的搜索词，有"时间戳"、"时间戳转换"、"ip 地址查询"、"ip 查询"、"ip"等。
 
@@ -44,19 +44,19 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 我们再打开国内的爱站 aizhan.com 首页输入框输入 tool.lu，下拉框选择"百度权重"，点击"查询"按钮。
 
-![](images/web-product-demand-discovery-intro/img_008.png)
+![](images/web-product-demand-discovery-intro/img_008.webp)
 
 最终打开的地址是这个 \`<\1>，拉到页面中部，可以看到 PC 端和移动端的涨入和跌出关键词列表。
 
-![](images/web-product-demand-discovery-intro/img_009.png)
+![](images/web-product-demand-discovery-intro/img_009.webp)
 
 因为数据不是实时的，搜索引擎的排名却是实时变化的，爱站说"时间戳转换器"百度搜索 tool.lu 排第一，实际我们搜索发现排第 3，这是正常的。
 
-![](images/web-product-demand-discovery-intro/img_010.png)
+![](images/web-product-demand-discovery-intro/img_010.webp)
 
 继续看爱站网查询页面下边表格，这里列出来了 tool.lu 拿到了排名的所有关键字列表。第三列是预估的 PC 端百度搜索量。
 
-![](images/web-product-demand-discovery-intro/img_011.png)
+![](images/web-product-demand-discovery-intro/img_011.webp)
 
 再来回顾一下我们的整个过程，我们先在谷歌里随便输入一个"在线工具"关键字，得到了 tool.lu 网站，之后在 similarweb 和 aizhan 上，我们得到了 tool.lu 网站能够拿到排名的一些关键字，大概就是下面这些了：
 
@@ -64,7 +64,7 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 这里的每一个关键字，我们都可以用站长网的关键字优化分析工具查看 SEO 优化难度。打开 \`<\1>，输入"时间戳"。
 
-![](images/web-product-demand-discovery-intro/img_012.png)
+![](images/web-product-demand-discovery-intro/img_012.webp)
 
 可以看到整体优化难度分为 86 分，不算太难，如果是 90 以上，那么趁早放弃，换下一个词。
 

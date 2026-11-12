@@ -1,5 +1,5 @@
 ---
-title: "open-gstack-browser"
+title: "connect-chrome 启动 GStack 浏览器"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

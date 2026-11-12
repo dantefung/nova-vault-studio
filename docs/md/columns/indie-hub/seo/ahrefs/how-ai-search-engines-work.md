@@ -36,7 +36,7 @@ AI 搜索引擎是基于大语言模型（LLM）的问答系统，能够检索�
 
 以下是典型的 AI 搜索界面样式，类似于 ChatGPT、Claude 或 AI 模式中的呈现方式：
 
-![Image 1: AI 搜索界面示意图，展示提示词、事实锚定信息、响应、提及及引用](images/image-what-are-ai-search-engines-QDKIKXKZ.png)
+![Image 1: AI 搜索界面示意图，展示提示词、事实锚定信息、响应、提及及引用](images/image-what-are-ai-search-engines-QDKIKXKZ.webp)
 
 *   **对话型提示词：** 用户的提问内容。
 
@@ -64,7 +64,7 @@ LLM 通过海量数据进行训练，等同于“阅读”了包括整部维基�
 
 实际的训练流程远比本文描述更为复杂。在**预训练**阶段，会对数据进行清洗与筛选，包括剔除 HTML 标签、移除个人可识别信息、排除屏蔽词以及限定语言范围等；在**后训练**阶段，则通过进一步优化，使模型更接近实用型聊天助手（而不仅仅是简单的词元预测器）。要了解更多信息，请观看 Andrej Karpathy 视频[深入解析 ChatGPT 等大语言模型](https://www.youtube.com/watch?v=7xTGNNLPyMI)。
 
-![Image 2: 图示说明了大型语言模型如何利用网络规模内容进行训练](images/image-how-training-works-WHU77PV4.png)
+![Image 2: 图示说明了大型语言模型如何利用网络规模内容进行训练](images/image-how-training-works-WHU77PV4.webp)
 
 这也是实体型 SEO 的关键所在：当您的品牌稳定出现在知识图谱中，通过 schema 标记进行了恰当的结构化，并且在整个互联网的高质量内容中与相关实体共同出现，那么你就在训练数据中构建了更强的"实体信号"。
 
@@ -102,7 +102,7 @@ LLM 会经过微调，以识别那些可能需要补充信息的查询类型，�
 
 某些 LLM 模型还非常容易触发额外的搜索（例如，“深度研究”模型就被专门配置为会触发多轮 RAG（检索增强生成）搜索）。
 
-![Image 7: 图示展示了事实锚定与检索增强生成（RAG）工作原理](images/image-how-grounding-and-rag-work-HEEA72VM.png)
+![Image 7: 图示展示了事实锚定与检索增强生成（RAG）工作原理](images/image-how-grounding-and-rag-work-HEEA72VM.webp)
 
 通过 RAG（检索增强生成）寻找真实依据的过程（通常称为“事实锚定”）具有多项优势。LLM（大语言模型）可以对照第三方来源核验自身响应，从而提高事实准确性并减少幻觉。即使其训练数据相对陈旧，模型也能检索并分享最新的信息。此外，它还能提供更详尽、更全面的答案，并在分享任何内容时实现更好的透明度与来源归因。
 
@@ -146,7 +146,7 @@ LLM 使用一种称为 **查询扇出** 的流程。输入到 ChatGPT 和其他 
 
 _"我正在为一家中型 B2B SaaS 公司规划一份为期 6 个月的内容策略，该公司向电商品牌销售一款数据分析产品。该公司……"_
 
-![Image 8: AI 聊天界面中的长篇详细用户提示词的示意图](images/users-exact-query-O323GGSJ.png)
+![Image 8: AI 聊天界面中的长篇详细用户提示词的示意图](images/users-exact-query-O323GGSJ.webp)
 
 ……LLM 会利用初始提示词，生成一系列更短的相关查询，以帮助检索相关信息。
 
@@ -164,7 +164,7 @@ _"我正在为一家中型 B2B SaaS 公司规划一份为期 6 个月的内容�
 
 事实上，ChatGPT、Gemini 和 Copilot 引用的链接中，仅有 [12%](https://ahrefs.com/zh/blog/ai-search-overlap/) 出现在用户原始提示词对应的 Google 搜索前 10 条结果中。然而，这并不意味着传统的排名无关紧要。AI 搜索引擎通过生成多个搜索查询来检索内容——而这些扇出查询往往更接近传统的、以关键词为导向的搜索，恰恰是你现有 SEO 工作能发挥巨大作用的地方。
 
-![Image 11: 图示展示了 AI 搜索引擎如何将单一用户提示词扇出为多个相关查询](images/query-fan-out-process-WWZGG2WA.png)
+![Image 11: 图示展示了 AI 搜索引擎如何将单一用户提示词扇出为多个相关查询](images/query-fan-out-process-WWZGG2WA.webp)
 
 查询扇出让人更省心：你不必去猜用户会用哪些对话型提示词。相反，应针对拆解后的查询进行优化，也就是 LLM 自然生成的语义组件。这些和传统关键词分析非常相似：[主题] + [限定词]、对比类查询、定义类查询，以及"最佳实践"类内容。你现有的 SEO 研究很可能已经覆盖了这些扇出空间。
 
@@ -226,7 +226,7 @@ ChatGPT 及其他 AI 搜索引擎能够根据不同用户定制个性化搜索�
 
 这里有一个类比，可以帮助理解系统提示词。假设你在踢足球，"训练数据"就是你多年来的所有训练积累，是长期形成的肌肉记忆。而系统提示词则像是教练在你上场前最后给你的战术指示，它是一种更强的短期记忆，对最终表现的影响更为直接。
 
-![Image 16: 图示展示了影响 AI 搜索响应的个性化信号](images/image-how-personalization-works-V4HOXAQ6.png)
+![Image 16: 图示展示了影响 AI 搜索响应的个性化信号](images/image-how-personalization-works-V4HOXAQ6.webp)
 
 因此，建议从整体视角跟踪品牌与网站在不同提示词、不同时间维度下的平均可见度，而不是纠结于某一次单一提示词的回答结果。
 

@@ -116,7 +116,7 @@ url: "https://new.web.cafe/topic/xoi32sha0d"
 
     一个字：绝
 
-![](images/gefei-blog-comment-backlink-inspiration/img_010.jpg)
+![](images/gefei-blog-comment-backlink-inspiration/img_010.webp)
 
 
 

@@ -9,6 +9,16 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 
 > 基于 NotebookLM 调研，涵盖智能客服系统建设的技术架构、核心组件、实施步骤和最佳实践。
 
+本专栏文章分三批，来源不同、互为补充而非替代关系，全部保留：
+
+| 批次 | 篇目 | 来源 |
+|------|------|------|
+| v1 | 01-06 | NotebookLM 调研，偏原理与通识 |
+| v2 | 07-12 | 联网调研 v2·对抗性分析，对 v1 同名篇目做勘误与升级 |
+| 专题补充 | 13-23 | 原创横纵分析 + 外部实战转载，独立成篇 |
+
+> 本页是 **v1 总纲**；[总纲 v2](./index-v2.md) 是联网调研的对抗性勘误版，两者结论有冲突时以 v2 为准。
+
 ---
 
 ## 一、从零开始的建设流程
@@ -146,6 +156,7 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 ### v2 版本（基于联网调研 v2·对抗性分析）
 
 > 2025-2026 最新工程实践，覆盖 GraphRAG、LangGraph vs CrewAI、DeepSeek R1、生产级安全/弹性/可观测性体系。
+> 对应 [总纲 v2](./index-v2.md)，与上方 v1 篇目同名但结论更新，冲突时以此为准。
 
 | 序号 | 文档 | 说明 | 核心更新 |
 |------|------|------|----------|
@@ -155,14 +166,24 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 | 10 | [多智能体架构设计 v2](./10-multi-agent-v2.md) | 框架深度对比 | LangGraph vs CrewAI 深度对比、混合架构、决策树 |
 | 11 | [技术选型对比 v2](./11-tech-comparison-v2.md) | 2026 模型选型 | DeepSeek R1 / Qwen3 许可证、AWS Bedrock |
 | 12 | [生产部署指南 v2](./12-production-deployment-v2.md) | 行业基准与验收 | LangSmith、行业指标(85%+准确率)、Budget Guard |
-| 13 | [架构演进路径（基于 Dify）](./13-architecture-evolution.md) | Dify→完整架构 | 现有架构分析、17项Dify能力对照、四阶段演进 |
-| 14 | [意图分类：准确性与速度优化](./14-intent-classification.md) | 入口层优化 | Prompt格式、置信度体系、nano模型选型、CICLe路由 |
-| 15 | [渐进式 AI 编程](./15-progressive-ai-programming.md) | 外部转载 | 微信公众号文章：渐进式 AI 编程的实践与思考 |
-| 16 | [知识库检索不准？看我们是如何做的](./19-rag-knowledge-base-optimization.md) | 实战经验 | 企业级知识库 RAG + Graph RAG 优化方案 |
-| 17 | [LightRAG 使用经验总结](./20-lightrag-experience.md) | 实战经验 | top_k/chunk_top_k 调优、排查召回失效、数据清洗与图谱质量 |
-| 18 | [智能客服系统搭建指南](./16-customer-service-building-guide.md) | 实战指南 | 从零搭建企业级智能客服，含完整代码和架构 |
-| 19 | [RAG 知识库搭建方案分析](./17-rag-building-scheme-analysis.md) | 方案分析 | 多种 RAG 方案的对比与选型 |
-| 20 | [意图分类深度分析](./18-intent-classification-analysis.md) | 深度分析 | 意图分类准确率优化方法与实践经验 |
+
+### 专题补充（原创横纵分析 + 外部实战转载）
+
+> 独立成篇，与 v1/v2 无版本对应关系。
+
+| 序号 | 文档 | 说明 |
+|------|------|------|
+| 13 | [架构演进路径（基于 Dify）](./13-architecture-evolution.md) | Dify→完整架构：现有架构分析、17项Dify能力对照、四阶段演进 |
+| 14 | [意图分类：准确性与速度优化](./14-intent-classification.md) | 入口层优化：Prompt格式、置信度体系、nano模型选型、CICLe路由 |
+| 15 | [渐进式 AI 编程](./15-progressive-ai-programming.md) | 外部转载：微信公众号文章 |
+| 16 | [知识库检索不准？看我们是如何做的](./19-rag-knowledge-base-optimization.md) | 实战经验：企业级知识库 RAG + Graph RAG 优化方案 |
+| 17 | [LightRAG 使用经验总结](./20-lightrag-experience.md) | 实战经验：top_k/chunk_top_k 调优、排查召回失效、数据清洗与图谱质量 |
+| 18 | [智能客服系统搭建指南](./16-customer-service-building-guide.md) | 实战指南：从零搭建企业级智能客服，含完整代码和架构 |
+| 19 | [RAG 知识库搭建方案分析](./17-rag-building-scheme-analysis.md) | 方案分析：多种 RAG 方案的对比与选型 |
+| 20 | [意图分类深度分析](./18-intent-classification-analysis.md) | 深度分析：意图分类准确率优化方法与实践经验 |
+| 21 | [如何构建一个更"好"的知识库？](./21-building-better-knowledge-base.md) | RAGAS 评估体系、切分策略、混合检索、重排序与前沿架构 |
+| 22 | [企业智能助手的实践分享(LLM/RAG)](./22-enterprise-ai-assistant-practice.md) | 智能运维助手落地：关键挑战与避坑指南 |
+| 23 | [RAG 准确率翻倍的优化实践](./23-rag-accuracy-optimization.md) | 文档解析到生成的全链路优化优先级 |
 
 ---
 

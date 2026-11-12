@@ -1,5 +1,5 @@
 ---
-title: "Ajie: Money Not Important Before 30"
+title: "阿杰：30 岁前挣钱不重要"
 date: "2026-06-17"
 source: "对话阿杰|30岁以前，挣钱不重要"
 url: "https://mp.weixin.qq.com/s/KbF1g3W0KF616jDaAfbUxQ"

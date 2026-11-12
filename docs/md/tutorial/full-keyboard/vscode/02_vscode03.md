@@ -1,5 +1,5 @@
 ---
-title: "vscode 3"
+title: "第 03 课 · 掌握搜索"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

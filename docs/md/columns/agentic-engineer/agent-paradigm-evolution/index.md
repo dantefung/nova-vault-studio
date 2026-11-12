@@ -1,5 +1,5 @@
 ---
-title: Agent Paradigm Evolution
+title: "Agent 范式演进"
 ---
 
 # Agent Paradigm Evolution

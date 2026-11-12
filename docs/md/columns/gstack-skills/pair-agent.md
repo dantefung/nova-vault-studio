@@ -1,5 +1,5 @@
 ---
-title: "pair-agent"
+title: "pair-agent 远程代理浏览器共享"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

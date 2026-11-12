@@ -1,5 +1,5 @@
 ---
-title: "Single-Threaded Imagination"
+title: "单线程想象"
 date: "2026-06-17"
 source: "退休么"
 url: "https://mp.weixin.qq.com/s/1SAU9_Jgxa1NqVK1yJG9Pg"

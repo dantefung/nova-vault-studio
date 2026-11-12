@@ -1,5 +1,5 @@
 ---
-title: analysis_prompt
+title: "三层思维分析提示词"
 ---
 
 &#x2D;&#x2D;&#x2D;

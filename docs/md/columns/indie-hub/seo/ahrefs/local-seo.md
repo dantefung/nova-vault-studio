@@ -20,7 +20,7 @@ Markdown Content:
 
 例如，这家披萨店在本地包和“蓝色链接”自然搜索结果中都排名第一：
 
-![Image 1: “neapolitan pizza near me（我附近的那不勒斯披萨店）”的 Google 搜索结果截图，显示本地结果及自然搜索结果](images/screenshot-google-pizza-result-3TUDJH7Y.png)
+![Image 1: “neapolitan pizza near me（我附近的那不勒斯披萨店）”的 Google 搜索结果截图，显示本地结果及自然搜索结果](images/screenshot-google-pizza-result-3TUDJH7Y.webp)
 
 这是因为它离我很近，正好满足我的需求，并且口碑很好（994 条评价中评分为 4.7/5）。
 
@@ -50,7 +50,7 @@ Markdown Content:
 
 本地 SEO 包含两个不同的战场，因为 Google 在本地搜索中会显示两类搜索结果：本地包和自然搜索的“蓝色链接”。您的网页有机会同时在这两类结果中排名。
 
-![Image 2: 示意图：本地搜索结果类型——地图包和常规自然结果](images/image-local-seo-LGOPWOUM.png)
+![Image 2: 示意图：本地搜索结果类型——地图包和常规自然结果](images/image-local-seo-LGOPWOUM.webp)
 
 #### 地图包结果
 
@@ -70,7 +70,7 @@ Markdown Content:
 
 例如，评论固然重要，但获取更多评论并不一定很麻烦。您可以采取一些简单的措施来鼓励客户留下评论，比如如果您经营一家餐厅，可以在餐桌上放置如下所示的卡片：
 
-![Image 3: 餐厅桌面卡片的照片，上面印有二维码，引导顾客留下 Google 评论](images/screenshot-culinar-H2BCJQVT.jpg)
+![Image 3: 餐厅桌面卡片的照片，上面印有二维码，引导顾客留下 Google 评论](images/screenshot-culinar-H2BCJQVT.webp)
 
 这就是我所说的被动式本地 SEO。只要您让客户满意，您的线上口碑就会自动增长，排名也应随之提升。
 
@@ -86,7 +86,7 @@ Markdown Content:
 
 其中一些因素对于本地包和常规搜索结果都很重要，而另一些因素则仅对其中一种结果更为重要。
 
-![Image 4: 维恩图：地图包与常规搜索结果的排名因素（含重叠部分）](images/image-ranking-factors-4XBPXYC3.png)
+![Image 4: 维恩图：地图包与常规搜索结果的排名因素（含重叠部分）](images/image-ranking-factors-4XBPXYC3.webp)
 
 让我们从头到尾梳理一遍本地 SEO 的整个流程。
 
@@ -98,7 +98,7 @@ Google 商家资料是包含商家信息的本地列表。它是免费的，并�
 
 有多少 SEO 从业者认为 Google 商家资料是最重要的排名因素？
 
-![Image 5: 柱状图显示认为商家资料是最重要排名因素的 SEO 从业者人数](images/image-google-business-profile-QSJRL6VZ.png)
+![Image 5: 柱状图显示认为商家资料是最重要排名因素的 SEO 从业者人数](images/image-google-business-profile-QSJRL6VZ.webp)
 
 这一点并不令人意外，因为您 _必须_ 拥有 Google 商家资料，才有可能在地图包中获得排名。
 
@@ -141,7 +141,7 @@ BrightLocal 2021 年的研究显示，17% 的 SEO 从业者认为，评论是地
 
 有多少 SEO 从业者认为评论是最重要的排名因素？
 
-![Image 6: 柱状图显示认为评论是最重要排名因素的 SEO 从业者人数](images/image-reviews-AJSLTQHF.png)
+![Image 6: 柱状图显示认为评论是最重要排名因素的 SEO 从业者人数](images/image-reviews-AJSLTQHF.webp)
 
 在过去几年中，评论在本地包排名中的重要性认知也有所上升。
 
@@ -177,7 +177,7 @@ BrightLocal 2021 年的研究显示，7% 的 SEO 从业者认为，引用是最�
 
 有多少 SEO 从业者认为引用是最重要的排名因素？
 
-![Image 7: 柱状图显示认为引用是最重要排名因素的 SEO 从业者人数](images/image-citations-K7D7GZ56.png)
+![Image 7: 柱状图显示认为引用是最重要排名因素的 SEO 从业者人数](images/image-citations-K7D7GZ56.webp)
 
 换句话说，它们仍然有一定重要性——但不如过去那么重要。
 
@@ -228,7 +228,7 @@ BrightLocal 2021 年的研究显示，7% 的 SEO 从业者认为，引用是最�
 
 这将显示那些链接到一个或多个竞争对手、但并未链接到您的网站。
 
-![Image 8: Ahrefs Link Intersect 工具截图：显示链接到竞争对手的域名](images/screenshot-link-intersect-JPQH3IXP.png)
+![Image 8: Ahrefs Link Intersect 工具截图：显示链接到竞争对手的域名](images/screenshot-link-intersect-JPQH3IXP.webp)
 
 如果一个网站链接了很多竞争对手，那么它很可能是一个目录站点，您也可以在其中添加自己的商品 Listing。
 
@@ -272,7 +272,7 @@ BrightLocal 2021 年的研究显示，7% 的 SEO 从业者认为，引用是最�
 
 *   电锅炉安装
 
-![Image 9: Ahrefs Keywords Explorer 截图，显示与锅炉安装相关的匹配关键词](images/screenshot-matching-terms-JTSTVCF7.png)
+![Image 9: Ahrefs Keywords Explorer 截图，显示与锅炉安装相关的匹配关键词](images/screenshot-matching-terms-JTSTVCF7.webp)
 
 如果您有提供此类服务，不妨也把这些关键词纳入优化范围。
 
@@ -280,11 +280,11 @@ BrightLocal 2021 年的研究显示，7% 的 SEO 从业者认为，引用是最�
 
 将竞争对手的商家信息输入 Ahrefs 的 [Site Explorer](https://ahrefs.com/zh/site-explorer)中，进入 **热门页面**报告，并查找与其服务内容相对应的 URL。
 
-![Image 10: Ahrefs Site Explorer 截图：显示某管道公司网站的热门页面报告](images/screenshot-top-pages-KKFXG6KK.png)
+![Image 10: Ahrefs Site Explorer 截图：显示某管道公司网站的热门页面报告](images/screenshot-top-pages-KKFXG6KK.webp)
 
 #### 查看搜索量
 
-![Image 11: Google Keyword Planner 截图：显示 boiler installation（锅炉安装）关键词搜索量数据](images/screenshot-google-keyword-planner-B3BLEFMX.png)
+![Image 11: Google Keyword Planner 截图：显示 boiler installation（锅炉安装）关键词搜索量数据](images/screenshot-google-keyword-planner-B3BLEFMX.webp)
 
 不过，Keyword Planner 也存在一些不足之处：
 
@@ -298,7 +298,7 @@ BrightLocal 2021 年的研究显示，7% 的 SEO 从业者认为，引用是最�
 
 例如，该工具告诉我们，在英国搜索“boiler repair”（锅炉维修）的人数多于搜索“boiler installation”（锅炉安装）的人数：
 
-![Image 12: 表格：显示 boiler repair（锅炉维修）与 boiler installation（锅炉安装）的关键词数据（含难度分数）](images/screenshot-keywords-N7HDFGOQ.png)
+![Image 12: 表格：显示 boiler repair（锅炉维修）与 boiler installation（锅炉安装）的关键词数据（含难度分数）](images/screenshot-keywords-N7HDFGOQ.webp)
 
 无论在哪个城市，这种情况大概率都是成立的，因此这是为关键词排定优先级的绝佳方法。
 
@@ -310,11 +310,11 @@ BrightLocal 2021 年的研究显示，7% 的 SEO 从业者认为，引用是最�
 
 如果搜索结果中出现地图包和/或一些本地“蓝色链接”，则说明该查询具有本地搜索意图。
 
-![Image 13: “boiler installation（锅炉安装）”的 Google 搜索结果截图，显示本地包及自然搜索结果](images/screenshot-google-boiler-installation-SMIV3LNT.png)
+![Image 13: “boiler installation（锅炉安装）”的 Google 搜索结果截图，显示本地包及自然搜索结果](images/screenshot-google-boiler-installation-SMIV3LNT.webp)
 
 如果搜索结果页中没有地图包和本地“蓝色链接”，则说明该查询不具备本地搜索意图。
 
-![Image 14: “vaillant boiler service（锅炉维修）”的 Google 搜索结果截图，显示自然搜索结果](images/screenshot-vaillant-boiler-service-2R7CH2ZF.png)
+![Image 14: “vaillant boiler service（锅炉维修）”的 Google 搜索结果截图，显示自然搜索结果](images/screenshot-vaillant-boiler-service-2R7CH2ZF.webp)
 
 虽然可以针对无本地搜索意图的关键词进行布局，但这并非本地 SEO 的职责。
 
@@ -340,9 +340,9 @@ BrightLocal 的研究显示，31% 的 SEO 从业者认为，链接是常规自�
 
 有多少 SEO 从业者认为链接是最重要的排名因素？
 
-![Image 15: 柱状图显示认为链接是最重要排名因素的 SEO 从业者人数](images/image-links-I66GXVPO.png)
+![Image 15: 柱状图显示认为链接是最重要排名因素的 SEO 从业者人数](images/image-links-I66GXVPO.webp)
 
-![Image 16: 图表显示：中位数引用域名与自然搜索流量之间的相关性](images/image-referring-domains-vs-search-traffic-RSSKB6LF.png)
+![Image 16: 图表显示：中位数引用域名与自然搜索流量之间的相关性](images/image-referring-domains-vs-search-traffic-RSSKB6LF.webp)
 
 随着时间的推移，链接对于“常规”本地排名的重要性认知也在不断提高。但在“地图包”排名中的重要性认知则基本保持不变。
 
@@ -374,7 +374,7 @@ BrightLocal 的研究显示，34% 的 SEO 从业者认为，页面信号是常�
 
 有多少 SEO 从业者认为页面 SEO 是最重要的排名因素？
 
-![Image 17: 展示页面 SEO 的图片](images/image-on-page-seo-NLWYR6L5.png)
+![Image 17: 展示页面 SEO 的图片](images/image-on-page-seo-NLWYR6L5.webp)
 
 页面信号在本地 SEO 中的重要性认知也在不断提升。这一点可以从 BrightLocal 以往的调查结果中看出。
 
@@ -413,7 +413,7 @@ BrightLocal 的研究显示，34% 的 SEO 从业者认为，页面信号是常�
 
 点击“同时提及”和“前十名”的开关按钮
 
-![Image 18: Ahrefs 相关词报告截图：显示相关关键词](images/screenshot-related-terms-ZIU7UMGX.png)
+![Image 18: Ahrefs 相关词报告截图：显示相关关键词](images/screenshot-related-terms-ZIU7UMGX.webp)
 
 以下是“boiler repair london（伦敦锅炉维修）”排名靠前的页面中经常提及的一些关键词，以及它们可能传达的含义：
 

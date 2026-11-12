@@ -1,3 +1,7 @@
+---
+title: "第 2 章 · 提示词系统"
+---
+
 Title: prompts.ts) | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html

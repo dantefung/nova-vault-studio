@@ -1,5 +1,5 @@
 ---
-title: "AI Software"
+title: "AI 软件书籍"
 date: "2026-06-29"
 source: "Nova Vault Studio"
 url: ""

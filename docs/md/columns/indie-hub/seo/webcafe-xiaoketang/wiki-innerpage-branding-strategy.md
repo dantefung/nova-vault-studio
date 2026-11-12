@@ -11,7 +11,7 @@ url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 
 大家周一下午好，预告一下，一会儿 15 点，久违的 #哥飞小课堂 又开课了，这次跟大家聊聊维基百科的内页和内链设计。我们做 AI 导航站，就特别适合学习借鉴这种模式。
 
-![图片](images/wiki-innerpage-branding-strategy/img_002.jpg)
+![图片](images/wiki-innerpage-branding-strategy/img_002.webp)
 
 ## 聊品牌命名
 
@@ -29,7 +29,7 @@ url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 
 再看一个例子，在谷歌搜索 Mapify，现在排第一名的网站是 `mapify.so`。而在去年的 5 月，这个词搜索第一名是 `mapify.ai`。从这个案例可以看到，别人已经在用的品牌名称，居然也可以抢走。甚至以 `.so` 这个非主流域名，抢走了 `.ai` 域名的排名。
 
-![图片](images/wiki-innerpage-branding-strategy/img_003.jpg)
+![图片](images/wiki-innerpage-branding-strategy/img_003.webp)
 
 再看第三个例子，谷歌搜索 Flux，前三个结果，第一个是很有名的屏幕色温调节软件，第二名是一个用 AI 去设计 PCB 电路板的产品，第三名是 Flux AI 生图网站。也就是说，谷歌是允许多个产品公用一个品牌名称的。
 
@@ -51,7 +51,7 @@ url: "https://new.web.cafe/tutorial/detail/udq1kg51ay"
 
 维基百科还有一个特色设计，就是大量的内链。任意一个词条页面，提到了别的词条，都会链接过去。最终形成了语义化的复杂页面网络，你中有我，我中有你，互相连接，互相解释。
 
-![图片](images/wiki-innerpage-branding-strategy/img_008.jpg)
+![图片](images/wiki-innerpage-branding-strategy/img_008.webp)
 
 除了词条与词条在正文中互相链接之外，维基百科每个词条内页，还有 See Also 设计，列出来一些跟当前词条相关的词条页面。
 

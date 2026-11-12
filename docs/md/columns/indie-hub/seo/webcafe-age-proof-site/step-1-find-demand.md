@@ -97,29 +97,29 @@ url: "https://new.web.cafe/tutorial/detail/adq47urFX7RVH2D54ekm6n"
 我们以第一个 Translator 翻译器为例，说明如何使用。
 
 我们打开 Semrush，输入 Translator 点击查询，可以看到这个词全球搜索量是 5000 万，其中印度 3000 万，波兰 610 万，德国 500 万。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_002.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_002.webp)
 默认选中的是印度，有 3040 万搜索量，注意以下说的关键词相关信息都是印度的了。
 
 再看关键词变种（keyword Variations），有 47 万个，总搜索量 1.5 亿。其中搜索量最大的几个是 translate 翻译 4550 万，translator 翻译器 3040 万。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_003.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_003.webp)
 再看相关问题，有 1.9 万个问题，总搜索量 28 万。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_004.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_004.webp)
 再看相关关键词有 3500 个，总搜索量是 1.2 亿。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_005.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_005.webp)
 印度太穷了，我们先换个国家，改为德国，然后我们点击关键词变种 Keyword Variations ，打开新页面。分为左右两块，左侧是所有关键词的分组统计，右侧是所有关键词列表，按照搜索量从高到低排序。
 
 我们设置筛选框中的 KD 值为 0 到 29，再设置 CPC>=0.1 美元，再按照搜索量从高到低排序，就得到了一批有一定搜索量且优化难度低且有一定价值的关键词。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_006.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_006.webp)
 但是这样筛选出来的词，最大搜索量才 8100，还是太小了，我们尝试换一个词，改成 Generator 这个关键词，并且国家选择为美国后，得到了一些词。
 
 搜索量最大的这个词不解释了，这个不能做，因为不好变现，连广告都没办法放，也没办法接入支付。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_007.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_007.webp)
 第二个关键词 me me generation 有点意思，美国有很强的 meme 文化氛围。这个词只有 26 的优化难度，并且搜索量也还行，有 14800，而且还很容易用 AI 去生成内容，这不就是我们要找的梦中情词嘛！
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_008.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_008.webp)
 但是，别高兴太早。我们直接拿这个词去谷歌搜索一下，会发现排第一的是时代周刊 time.com 。如果只靠 SEO ，我们打不过的，不建议做这个词。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_009.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_009.webp)
 而且不知道大家发现没有，更常见的说法是 meme Generator ，这个词的竞争难度立马就飚升到了 93 了。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_010.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_010.webp)
 但是我们刚才说了，其实这个词特别适合用 AI 来生成内容，不管是生成文字还是图片，AI 都很在行。
 
 而且之前我们在《[放眼世界，遍地是金矿，此时不做 AI，更待何时](https://mp.weixin.qq.com/s/De93EIfIJKzHD7N9vFVURQ)》、《[AI+强需求=新工具](https://mp.weixin.qq.com/s/mzQFx5Id_nGxcubyYakiYA)》都说过，现在我们做 AI 类工具，在宣传上可以得到事半功倍的效果，因为用户很愿意自发传播各种好用的或者好玩的 AI 工具。
@@ -129,19 +129,19 @@ url: "https://new.web.cafe/tutorial/detail/adq47urFX7RVH2D54ekm6n"
 实际上在 4 月份时，曾经火过一个 memecam ，也就是 MEME 相机，随便拍摄一张照片，AI 就会生成一段 MEME ，然后给你合成为一张图片。
 
 不过也要看到，从下面的流量变化，可以看出来，这种功能太单一的产品，还是无法持久。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_011.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_011.webp)
 另一个 supermeme.ai 更好一些，目前每个月还有 28 万访问量，也就是每天九千左右。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_012.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_012.webp)
 我们再继续看第二个词 phone number generator ，在美国有 14800 搜索量，而且 CPC 有 1.07 美元，有点值钱。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_013.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_013.webp)
 再看相关关键词变种，有 2600 个变种，总搜索量 62600，排名前 2 的是 phone number generator 和 random phone number generator 。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_014.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_014.webp)
 再看搜索结果，都是内页，看起来很容易优化上去。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_015.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_015.webp)
 但是，为了防止这篇文章《[利用 Semrush 找有一定搜索量且竞争小的关键词时容易遇到的一些陷阱](https://mp.weixin.qq.com/s/r0H48GssICrKbP8YePIuqw)》讲到的陷阱，我们直接去谷歌搜索看看。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_016.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_016.webp)
 搜索结果没有陷阱，再看 Google Trends，搜索量趋势也是比较平稳的，不是季节性词汇。
-![image.png](images/gefei-age-proof-site-step-1-find-demand/img_017.png)
+![image.png](images/gefei-age-proof-site-step-1-find-demand/img_017.webp)
 这就说明这个词可以做，而且也可以用 AI 去改造，如让用户用对话式提出需求，然后让 AI 去生成号码。
 
 接下来大家可以继续按照哥飞教的这个方法，把所有 51 个关键词都分析一遍，一定会有收获的。
@@ -182,9 +182,9 @@ url: "https://new.web.cafe/tutorial/detail/adq47urFX7RVH2D54ekm6n"
 
     回复
 
-    ![image](images/gefei-age-proof-site-step-1-find-demand/img_022.png)
+    ![image](images/gefei-age-proof-site-step-1-find-demand/img_022.webp)
 
-![](images/gefei-age-proof-site-step-1-find-demand/img_023.jpg)
+![](images/gefei-age-proof-site-step-1-find-demand/img_023.webp)
 
 添加图片添加隐藏回复
 

@@ -74,4 +74,4 @@ url: "https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ"
 
 把散在 N 个工具里的东西，收回一个本地知识库。你的数据现在在 AI 够得着的地方吗？
 
-![image](../images/ai-local-brain/003.jpg)
+![image](../images/ai-local-brain/003.webp)

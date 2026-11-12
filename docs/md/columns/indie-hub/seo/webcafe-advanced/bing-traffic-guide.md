@@ -12,11 +12,11 @@ url: "https://new.web.cafe/tutorial/detail/bing-traffic"
 
 先看图，今天 3 月 6 日，回看 1 月 1 日到 3 月 5 日，来自于 Bing 的流量，可以看到还是很有效果的，现在稳定在每天有两三百个点击。
 
-![image.png](images/bing-traffic-guide/gefei-bing-traffic-guide_001.png)
+![image.png](images/bing-traffic-guide/gefei-bing-traffic-guide_001.webp)
 
 以下是 1 月 25 日，哥飞在社群里的分享。
 
-![fed0314c4e20a5d098b608910dfe2b3a.jpg](images/bing-traffic-guide/gefei-bing-traffic-guide_002.jpg)
+![fed0314c4e20a5d098b608910dfe2b3a.jpg](images/bing-traffic-guide/gefei-bing-traffic-guide_002.webp)
 
 我有一个网站，这周才发现 Bing 没有收录。 于是就去做了一些事情，目前看来有一些效果了：
 
@@ -38,15 +38,15 @@ url: "https://new.web.cafe/tutorial/detail/bing-traffic"
 
 群里朋友“帆”补充：
 
-我也有个网站，大部分都是 Bing 带来的流量 ![ce55be6171dd7ea0e6bb320e30c9e59c.png](images/bing-traffic-guide/gefei-bing-traffic-guide_003.png)
+我也有个网站，大部分都是 Bing 带来的流量 ![ce55be6171dd7ea0e6bb320e30c9e59c.png](images/bing-traffic-guide/gefei-bing-traffic-guide_003.webp)
 
-没有刻意去提交站点，就是开了 Cloudflare 里的那个选项，域名 => 缓存 => 配置 => Crawler Hints ，开启来后很快就有 Bing / Yahoo / Yandex / DuckDuckGo / Brave 那些来源的记录了 \[破涕为笑\] ![image.png](images/bing-traffic-guide/gefei-bing-traffic-guide_004.png)
+没有刻意去提交站点，就是开了 Cloudflare 里的那个选项，域名 => 缓存 => 配置 => Crawler Hints ，开启来后很快就有 Bing / Yahoo / Yandex / DuckDuckGo / Brave 那些来源的记录了 \[破涕为笑\] ![image.png](images/bing-traffic-guide/gefei-bing-traffic-guide_004.webp)
 
 SegmentFault 联合创始人 Joyqi 也说思否的流量已经是百度的 2 倍了。
 
-![9a9f6d3d6dc4beb58f1feff367a954ac.jpg](images/bing-traffic-guide/gefei-bing-traffic-guide_005.jpg)
+![9a9f6d3d6dc4beb58f1feff367a954ac.jpg](images/bing-traffic-guide/gefei-bing-traffic-guide_005.webp)
 
-刚刚，群里也有朋友的网站，主要流量来源是 Bing 。 ![image.png](images/bing-traffic-guide/gefei-bing-traffic-guide_006.png)
+刚刚，群里也有朋友的网站，主要流量来源是 Bing 。 ![image.png](images/bing-traffic-guide/gefei-bing-traffic-guide_006.webp)
 
 补充，如何在 GA （谷歌分析）看网站流量来源，见这里[https://new.web.cafe/experience/hwnkft6n9z](https://new.web.cafe/experience/hwnkft6n9z)
 
@@ -109,5 +109,5 @@ completed
 打卡
 
 **曾伟雄** · 2026-07-20 18:21
-打卡 ![](images/bing-traffic-guide/gefei-bing-traffic-guide_026.jpg)
+打卡 ![](images/bing-traffic-guide/gefei-bing-traffic-guide_026.webp)
 

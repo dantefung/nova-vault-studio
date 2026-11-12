@@ -1,201 +1,218 @@
 ---
-title: "Get Shit Done 技能专栏"
-date: "2026-06-04"
-source: "gsd-build/get-shit-done"
-url: "https://github.com/gsd-build/get-shit-done"
+title: "Get Shit Done (GSD) 技能专栏"
+date: "2026-09-24"
+source: "open-gsd/gsd-core"
+url: "https://github.com/open-gsd/gsd-core"
 ---
 
 # Get Shit Done (GSD) 技能专栏
 
-> Get Shit Done (gsd) 是 Claude Code 的 spec-driven 开发方法论——通过严格的 phase/workflow/agent 编排，把模糊需求推进到生产就绪的代码。
+> GSD 是 Claude Code 的 **spec-driven 开发框架**：用 `.planning/` 目录当数据库，靠"磁盘上已经有哪些产物"推导下一步该做什么——人不需要记进度，文件系统就是状态机。5 步循环（Discuss → Plan → Execute → Verify → Ship）配 6 命名空间路由，把 67 个命令压成一次可学的骨架。
 
 <!-- more -->
 
-## 简介
+::: tip 版本说明
+GSD 已从 `gsd-build/get-shit-done` 迁移到 **`open-gsd/gsd-core`**（老仓库归档，仅重定向）。本专栏对应 GSD Core 1.7.x（框架版本号仍报 1.42.x），5 步循环是官方推荐主链。原 67 命令 / 88 workflow / 33 agent 数字是旧版事实。
+:::
 
-gsd 包含 **91 个 workflow**（如 add-phase、execute-phase、plan-phase）+ **30 个 agent**（如 gsd-executor、gsd-planner、gsd-debugger）。每个 workflow 是一个 `/gsd-*` 命令，agent 是 sub-agent 角色。
+::: tip 教学演示文稿
+本专栏配套 **13 页瑞士国际主义风格教学 PPT**：涵盖系统规模、三层架构、`.planning/` 状态机、Gate 四分类与预算系统。
+👉 [打开 GSD 教学演示文稿（网页 PPT）](../../slides/ppt-gsd-skills/index.md)
+:::
 
-本专栏按"项目生命周期"组织 workflow，按"专业角色"组织 agent。
+本页是专栏总纲，回答三个问题：**它是怎么运转的**、**哪些规则不能违反**、**哪些命令必须会**。详细命令说明请点下方的独立文件——每一页都是一份可执行工作流的 5W1H 说明。
 
-## 核心方法
+---
 
-- **Phase-Roadmap-Driven**：每个项目拆成 milestone → phase → plan → task 四层
-- **Spec-First**：所有决策先写 spec，再写代码
-- **Agent 角色化**：每个 agent 有专属职责（researcher/planner/executor/verifier）
-- **Conversation 上下文持久化**：每个 phase 生成 context 文件，下次可续接
+## 一、五步循环：主链路
 
-## Workflow 速览（按项目生命周期）
+```mermaid
+flowchart LR
+    D[Discuss<br/>锁定实现决策] --> P[Plan<br/>研究+拆解+校验]
+    P --> E[Execute<br/>wave 并行执行]
+    E --> V[Verify<br/>UAT+修复]
+    V --> S[Ship<br/>PR+归档]
+    S -.下一轮.-> D
+```
 
-### 🆕 启动
+对应命令：`/gsd-discuss-phase` → `/gsd-plan-phase` → `/gsd-execute-phase` → `/gsd-verify-work` → `/gsd-ship`。每个里程碑循环一次，每次只推进一个 phase。
 
-- [new-project](./new-project) — 初始化新项目
-- [new-milestone](./new-milestone) — 启动新 milestone
-- [map-codebase](./map-codebase) — 映射代码库
+---
 
-### 📝 规划
+## 二、`.planning/` 就是数据库
 
-- [plan-phase](./plan-phase) — 计划 phase
-- [discuss-phase](./discuss-phase) — 讨论 phase 假设
-- [add-phase](./add-phase) — 新增 phase
-- [list-phase-assumptions](./list-phase-assumptions) — 列出 phase 假设
-- [insert-phase](./insert-phase) / [remove-phase](./remove-phase) / [edit-phase](./edit-phase) — phase CRUD
-- [add-todo](./add-todo) / [add-backlog](./add-backlog) — 添加待办
-- [add-tests](./add-tests) — 追加 UAT 测试
-- [milestone-summary](./milestone-summary) — milestone 总结
-- [plan-milestone-gaps](./plan-milestone-gaps) — 补 milestone 缺口
+GSD 没有数据库，全部状态是 `.planning/` 下的 Markdown。路径由 `planningDir()` 计算（`bin/lib/planning-workspace.cjs:46`）：`<cwd>/.planning[/<GSD_PROJECT>][/workstreams/<GSD_WORKSTREAM>]`。
 
-### 🔍 研究与发现
+| 文件 | 角色 |
+|---|---|
+| `config.json` | 唯一配置源 |
+| `PROJECT.md` | 长期记忆 |
+| `ROADMAP.md` | 阶段总表 |
+| `STATE.md` | 短期活记忆，模板强制 **<100 行**，是 digest 不是 archive |
+| `REQUIREMENTS.md` | 需求追踪 |
 
-- [explore](./explore) — 探索
-- [discover-phase](./discover-phase) — 发现 phase
-- [scan](./scan) — 扫描
-- [ingest-docs](./ingest-docs) — 摄入文档
-- [import](./import) — 导入计划
-- [debug](./debug) — 调试
+阶段产物在 `.planning/phases/XX-name/` 下按执行顺序产生：`{NN}-CONTEXT.md` → `{phase}-{plan}-PLAN.md` → `{NN}-SUMMARY.md` → `{NN}-VERIFICATION.md`。
 
-### 🤖 执行
+**硬约束**：源码注释里写死 **"workflows cannot regress the project state"**——状态只许前进，不许回退。
 
-- [execute-phase](./execute-phase) — 执行 phase
-- [execute-plan](./execute-plan) — 执行 plan
-- [do](./do) — 执行
-- [quick](./quick) — 快速执行
-- [fast](./fast) — 快速模式
-- [autonomous](./autonomous) — 自主模式
-- [spike](./spike) / [spike-wrap-up](./spike-wrap-up) — 快速实验
+---
 
-### ✅ 验证
+## 三、主链状态机：`next` 读磁盘推导下一步
 
-- [verify-work](./verify-work) — UAT 验证
-- [verify-phase](./verify-phase) — 验证 phase
-- [audit-fix](./audit-fix) — 审计-修复流水线
-- [audit-uat](./audit-uat) — 审计 UAT
-- [audit-milestone](./audit-milestone) — 审计 milestone
-- [validate-phase](./validate-phase) — 校验 phase
-- [secure-phase](./secure-phase) — 安全审查
-- [eval-review](./eval-review) — 评估审查
+`workflows/next.md` 的八条路由状态机（读磁盘而非问人）：
 
-### 📤 发布
+```mermaid
+flowchart TD
+  A["/gsd:next<br/>读 STATE.md + ROADMAP.md"] --> B{"phases/ 目录存在？"}
+  B -->|"Route 1 否"| C["discuss-phase<br/>第一阶段"]
+  B -->|"是"| D{"CONTEXT.md 存在？"}
+  D -->|"Route 2 否"| C
+  D -->|"是"| E{"PLAN.md 存在？"}
+  E -->|"Route 3 否"| F["plan-phase<br/>当前阶段"]
+  E -->|"是"| G{"SUMMARY.md 全齐？"}
+  G -->|"Route 4 否"| H["execute-phase<br/>当前阶段"]
+  G -->|"Route 5 是"| I["verify-work"]
+  I --> J{"ROADMAP 有下阶段？"}
+  J -->|"Route 6 是"| C
+  J -->|"Route 7 否"| K["complete-milestone"]
+```
 
-- [ship](./ship) — 发版
-- [pr-branch](./pr-branch) — 创建 PR
-- [graduation](./graduation) — 收尾
-- [complete-milestone](./complete-milestone) — 完结 milestone
-- [ui-review](./ui-review) — UI 审查
-- [ui-phase](./ui-phase) — UI phase
+**八条路由判定条件**：无阶段目录 → 讨论；有目录无 CONTEXT → 讨论；有 CONTEXT 无 PLAN → 规划；有 PLAN 但 SUMMARY 不全 → 执行；SUMMARY 齐 → 验收；阶段完成且有下阶段 → 推进；全部完成 → 结里程碑；STATE 显示 paused_at → 恢复。
 
-### 🔧 维护
+这就是"好品味"的活样板：**把"下一步该干嘛"这个需要人维护的特例消除掉了**。文件在不在就是全部状态。
 
-- [update](./update) — 升级
-- [cleanup](./cleanup) — 清理
-- [undo](./undo) — 回滚
-- [session-report](./session-report) — 会话报告
-- [sync-skills](./sync-skills) — 同步 skills
-- [manager](./manager) — 交互式 phase 管理
+---
 
-### 🧰 工具
+## 四、三层架构：编排者不动手
 
-- [help](./help) — 帮助
-- [next](./next) — 下一步
-- [note](./note) — 笔记
-- [progress](./progress) — 进度
-- [stats](./stats) — 统计
-- [settings](./settings) / [settings-advanced](./settings-advanced) / [settings-integrations](./settings-integrations) — 配置
-- [check-todos](./check-todos) — 检查 todo
-- [list-workspaces](./list-workspaces) / [new-workspace](./new-workspace) / [remove-workspace](./remove-workspace) — workspace 管理
-- [transition](./transition) — 状态转换
-- [node-repair](./node-repair) — 节点修复
-- [reapply-patches](./reapply-patches) — 重应用补丁
-- [sketch](./sketch) / [sketch-wrap-up](./sketch-wrap-up) — UI 草图
-- [forensics](./forensics) — 事后调查
-- [extract-learnings](./extract-learnings) — 提取学习
-- [inbox](./inbox) — 收件箱
-- [capture](./capture) — 捕获想法
-- [health](./health) — 健康度
-- [docs-update](./docs-update) — 文档更新
-- [milestone-summary](./milestone-summary) — milestone 总结
-- [analyze-dependencies](./analyze-dependencies) — 依赖分析
-- [code-review](./code-review) / [code-review-fix](./code-review-fix) — 代码审查
-- [diagnose-issues](./diagnose-issues) — 诊断问题
-- [mvp-phase](./mvp-phase) — MVP phase
-- [plan-review-convergence](./plan-review-convergence) — 跨 AI 计划收敛
-- [discuss-phase-power](./discuss-phase-power) — 强模式讨论
-- [discuss-phase-assumptions](./discuss-phase-assumptions) — phase 假设讨论
-- [ultraplan-phase](./ultraplan-phase) — 云端超规划
-- [ai-integration-phase](./ai-integration-phase) — AI 集成 phase
-- [spec-phase](./spec-phase) — phase 规范
-- [thread](./thread) — 线程管理
-- [pause-work](./pause-work) — 暂停工作
-- [resume-project](./resume-project) — 续接项目
-- [profile-user](./profile-user) — 用户画像
-- [docs-update](./docs-update) — 文档更新
-- [code-review-fix](./code-review-fix) — 代码审查修复
-- [discuss-phase](./discuss-phase) / [discuss-phase-power](./discuss-phase-power) / [discuss-phase-assumptions](./discuss-phase-assumptions) — phase 讨论三模式
+| 层 | 位置 | 数量 |
+|---|---|---|
+| 命令外壳 | `~/.claude/skills/gsd-*/SKILL.md` | 67 |
+| 工作流实现 | `~/.claude/get-shit-done/workflows/*.md` | 88 |
+| 执行者 | `~/.claude/agents/gsd-*.md` | 33 |
 
-## Agent 速览（按角色）
+`execute-phase.md` 开篇把原则写死在 `<core_principle>` 里：
 
-### 🔬 研究员
+> **Orchestrator coordinates, not executes.** Each subagent loads the full execute-plan context. Orchestrator: discover plans → analyze deps → group waves → spawn agents → handle checkpoints → collect results.
 
-- [gsd-advisor-researcher](./gsd-advisor-researcher) — 顾问研究员
-- [gsd-ai-researcher](./gsd-ai-researcher) — AI 研究员
-- [gsd-domain-researcher](./gsd-domain-researcher) — 领域研究员
-- [gsd-phase-researcher](./gsd-phase-researcher) — phase 研究员
-- [gsd-project-researcher](./gsd-project-researcher) — 项目研究员
-- [gsd-research-synthesizer](./gsd-research-synthesizer) — 研究综合
-- [gsd-ui-researcher](./gsd-ui-researcher) — UI 研究员
+翻译：编排器只做发现计划、分析依赖、分组 wave、派发 agent、处理检查点、收集结果这六件事，**一行实现代码都不写**。执行按 wave 分批：同一 wave 内并行、跨 wave 串行。
 
-### 📋 规划师
+---
 
-- [gsd-planner](./gsd-planner) — 主规划师
-- [gsd-roadmapper](./gsd-roadmapper) — 路线图
-- [gsd-framework-selector](./gsd-framework-selector) — 框架选择
-- [gsd-pattern-mapper](./gsd-pattern-mapper) — 模式映射
-- [gsd-plan-checker](./gsd-plan-checker) — 计划检查
-- [gsd-phase-planner](./gsd-phase-planner) — phase 规划
+## 五、Gate 四分类
 
-### 🤖 执行员
+`references/gates.md` 规定每个校验点必须映射到四种类型之一（不许自创）：
 
-- [gsd-executor](./gsd-executor) — 主执行员
-- [gsd-codebase-mapper](./gsd-codebase-mapper) — 代码库映射
-- [gsd-code-fixer](./gsd-code-fixer) — 代码修复
-- [gsd-doc-writer](./gsd-doc-writer) — 文档写作
-- [gsd-doc-synthesizer](./gsd-doc-synthesizer) — 文档综合
-- [gsd-doc-classifier](./gsd-doc-classifier) — 文档分类
+| 类型 | 目的 | 恢复方式 |
+|---|---|---|
+| **Pre-flight** | 开工前验前置条件 | 不满足挡住，补上前置再重试 |
+| **Revision** | 产出后评质量，带反馈回环（**必有迭代上限**） | 生产者改，checker 重评 |
+| **Escalation** | 自动解决不了就上交 | 摆出选项等人决定 |
+| **Abort** | 继续有害立即停 | **保留状态**，查根因修好从 checkpoint 重启 |
 
-### 🐛 调试与诊断
+**检查点三类比例**：**human-verify 90% / decision 9% / human-action 1%**（判据："Claude 能跑的绝不问用户"）。自 #3309 起默认 end-of-phase，不在中途 halt 用户。
 
-- [gsd-debugger](./gsd-debugger) — 调试
-- [gsd-debug-session-manager](./gsd-debug-session-manager) — 调试会话管理
-- [gsd-eval-auditor](./gsd-eval-auditor) — 评估审计
-- [gsd-eval-planner](./gsd-eval-planner) — 评估规划
-- [gsd-nyquist-auditor](./gsd-nyquist-auditor) — Nyquist 验证
-- [gsd-integration-checker](./gsd-integration-checker) — 集成检查
+---
 
-### 🔍 审查
+## 六、不可违反的硬规则
 
-- [gsd-assumptions-analyzer](./gsd-assumptions-analyzer) — 假设分析
-- [gsd-doc-verifier](./gsd-doc-verifier) — 文档验证
-- [gsd-code-reviewer](./gsd-code-reviewer) — 代码审查
-- [gsd-security-auditor](./gsd-security-auditor) — 安全审计
-- [gsd-ui-auditor](./gsd-ui-auditor) — UI 审计
-- [gsd-ui-checker](./gsd-ui-checker) — UI 检查
-- [gsd-verifier](./gsd-verifier) — 验证
+| 规则 | 内容 |
+|---|---|
+| 强制初始读 | `<required_reading>` 块必须先 Read 完才能做任何动作 |
+| 禁直写状态文件 | 不得用 Write/Edit 直接改 `STATE.md` / `ROADMAP.md`，必须走 `gsd-sdk query` |
+| 禁 `git add .` / `-A` | 只 stage 指定文件 |
+| 禁非 GSD agent | 一律 `subagent_type: "gsd-{agent}"` |
+| 尊重已锁决策 | CONTEXT.md / PROJECT.md 已锁定的不重新争论 |
+| Gate 四分类 | 不许自创校验类型 |
+| Revision 必有上限 | 且要能 stall detection 提前升级 |
+| Marker 完成标记 | 必须是 H2 标题 + ALL-CAPS + 输出行首 |
+| Abort 保留状态 | 修完根因从 checkpoint 重启 |
 
-### 👤 用户分析
+---
 
-- [gsd-user-profiler](./gsd-user-profiler) — 用户画像
-- [gsd-intel-updater](./gsd-intel-updater) — 情报更新
+## 七、Planner 反模式（几条精髓）
 
-## 适用场景
+`references/planner-antipatterns.md` 里值得记住的：
 
-- 多 phase 长周期项目
-- 需要 spec-first / 严格 phase 边界的工程团队
-- 多个 sub-agent 协作的复杂任务
-- 想要"AI 自动推进项目 + 人类 UAT"的开发模式
+- **让人类做 Claude 能自动化的事**——"Vercel 有 CLI，Claude 应该跑 `vercel --yes`"。
+- **具体性测试**只有一句：*"另一个 Claude 实例能不提问就执行吗？"* 答不上来就是没写清楚。
+- **禁用缩范围语言**：`v1`、`simplified version`、`static for now`、`placeholder`、`will be wired later`。阶段太复杂应该建议拆 phase，而不是静默缩减范围。
+- **Reflexive SUMMARY chaining**——02 引 01、03 引 02 式链式引用，纯浪费上下文。只在真正用到前序计划的类型/导出/决策时才引用。
+
+---
+
+## 八、上下文预算
+
+`references/context-budget.md` 的四级降级：
+
+| 区间 | 策略 |
+|---|---|
+| PEAK 0-30% | 全量操作 |
+| GOOD 30-50% | 优先读 frontmatter/summary |
+| DEGRADING 50-70% | 极度节约并警告用户 |
+| POOR 70%+ | 立即 checkpoint |
+
+配套规矩：不读 agent 定义文件（`subagent_type` 自动注入）、不把大文件 inline 进 subagent prompt、重活一律委托。**MCP schema 是最大的每轮固定税**——每启用一个 MCP 每轮都注入 schema，重的可到 20k+ tokens/轮。长 phase 前必须做 MCP 审计。
+
+---
+
+## 九、提交策略
+
+**"Commit outcomes, not process"**——git log 该读起来像 changelog，不是规划日记。
+
+- task 完成 = 提交（每任务一 commit）
+- PLAN.md / RESEARCH.md / DISCOVERY.md 创建 = **不**提交
+- 格式 `{type}({phase}-{plan}): {task-name}`，类型限 `feat/fix/test/refactor/perf/chore`
+- 不得默认传 `--no-verify`
+
+为什么值得这么严：git 历史是未来 Claude 会话的主要上下文源、可以 reset 到上一个成功任务、bisect 能定位到任务级。
+
+---
+
+## 十、必用命令（13 个）
+
+跑 GSD 项目的**全部核心工作流**——覆盖官方 Quickstart 教程的每一步，也是 Reddit 用户实测最常敲的命令。
+
+| 命令 | 说明 |
+|---|---|
+| [new-project](./new-project) | 统一初始化：提问 → 研究(可选) → 需求 → 路线图 |
+| [discuss-phase](./discuss-phase) | 五步循环第一步：榨出实现决策，先识别灰区再追问 |
+| [plan-phase](./plan-phase) | 五步循环第二步：研究 → 计划 → 校验 |
+| [execute-phase](./execute-phase) | 五步循环第三步：wave 并行执行，编排器精简、实现派给 subagent |
+| [verify-work](./verify-work) | 五步循环第四步：对话式 UAT，状态持久化，产出 UAT.md |
+| [ship](./ship) | 五步循环第五步：从产物生成 PR，可选代码审查 |
+| [next](./next) | 主链路由器：读磁盘推导下一步 |
+| [progress](./progress) | 查看进度、总结近期工作与后续 |
+| [resume-project](./resume-project) | 立刻恢复完整项目上下文 |
+| [pause-work](./pause-work) | 生成 `HANDOFF.json` 与 `.continue-here.md` 交接文件 |
+| [complete-milestone](./complete-milestone) | 标记版本完成，MILESTONES 留历史记录 |
+| [code-review](./code-review) | 审查阶段内改动的源文件，产出 REVIEW.md |
+| [debug](./debug) | 系统化调试，派 `gsd-debug-session-manager` 管检查点循环 |
+
+---
+
+## 十一、可选命令（7 个）
+
+用得少但有存在理由：
+
+| 命令 | 说明 |
+|---|---|
+| [map-codebase](./map-codebase) | brownfield 项目的代码库映射，配合 `/gsd-onboard` 用 |
+| [quick](./quick) | 轻量任务通道，压缩 GSD 全链为单命令 |
+| [undo](./undo) | 安全 git 回滚，按阶段清单撤销提交 |
+| [settings](./settings) | 交互式配置 agent 与模型档位 |
+| [spec-phase](./spec-phase) | 苏格拉底式访谈澄清交付物，带量化歧义评分 |
+| [ui-phase](./ui-phase) | 前端阶段 UI 契约 UI-SPEC.md |
+| [pr-branch](./pr-branch) | 过滤掉临时 `.planning/` 提交，创建干净 PR 分支 |
+
+---
 
 ## 关联专栏
 
 - [agentic-engineer](../agentic-engineer/) — Agent 工程架构
 - [harness-engineering](../harness-engineering/) — Harness 工程
+- [superpowers-skills](../superpowers-skills/) — obra/superpowers，工程纪律硬规则
 - [mattpocock-skills](../mattpocock-skills/) — Matt Pocock skills
-- [superpowers-skills](../superpowers-skills/) — obra/superpowers
 - [gstack-skills](../gstack-skills/) — Garry Tan gstack
+
+> 版本对应：本页基于 GSD Core **1.7.x**（本地 `~/.claude/get-shit-done/VERSION` 仍报 1.42.x）。旧仓库 `gsd-build/get-shit-done` 已归档，5 步循环与 6 命名空间路由是新版官方推荐用法。workflow 与 agent 数量随版本变动，引用前建议先跑 `/gsd:update` 核对。

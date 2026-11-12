@@ -1,3 +1,8 @@
+---
+title: "vibe-viewer 指南"
+date: "2026-09-21"
+---
+
 # vibe-viewer
 
 **`vibe-viewer` 本身是一个工具**它的文档都在 npm 官网上：[https://www.npmjs.com/package/vibe-viewer](https://www.npmjs.com/package/vibe-viewer)

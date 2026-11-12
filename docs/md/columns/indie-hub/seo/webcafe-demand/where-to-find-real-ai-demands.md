@@ -16,11 +16,11 @@ url: "https://new.web.cafe/tutorial/detail/jKVAYNoDeKfe6yWm2mqDUA"
 
 TheresAnAIForThat，简称 TAAFT，应该是目前全球访问量最大的 AI 导航网站，在 Similarweb 上可以看到，月访问量是 505 万。
 
-![](images/where-to-find-real-ai-demands/img_002.png)
+![](images/where-to-find-real-ai-demands/img_002.webp)
 
 而且流量一直在增长，半年前还是三百多万，半年就快两百万。
 
-![](images/where-to-find-real-ai-demands/img_003.png)
+![](images/where-to-find-real-ai-demands/img_003.webp)
 
 最近这个 AI 导航站开了一个新的频道，名叫 AI Tool Requests，网址就是哥飞文章开头给大家发的那个。
 

@@ -8,6 +8,7 @@ Verifies that all image references in markdown files point to existing files.
 import sys
 import os
 import re
+import subprocess
 from pathlib import Path
 
 
@@ -20,17 +21,26 @@ def check_image_references(md_file: str) -> bool:
     content = md_path.read_text(encoding='utf-8')
     md_dir = md_path.parent
 
-    # Pattern to match markdown image syntax: ![alt](path)
-    # and also raw URLs that look like image references
-    img_pattern = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
+    # Match inline images and reference-style image definitions.
+    # Supports balanced inner parentheses in URLs (e.g. "image (1).png")
+    img_pattern = re.compile(r'!\[([^\]]*)\]\(((?:[^()]+|\([^()]*\))+)\)')
+    reference_labels = {
+        (label or alt).casefold() for alt, label in re.findall(r'!\[([^\]]*)\]\[([^\]]*)\]', content)
+        if (label or alt)
+    }
+    reference_pattern = re.compile(r'^\[([^\]]+)\]:\s*(\S+)(?:\s+["\'(].*)?$', re.MULTILINE)
+    matches = list(img_pattern.finditer(content))
+    matches.extend(
+        match for match in reference_pattern.finditer(content)
+        if match.group(1).casefold() in reference_labels
+    )
 
     errors = []
-    for match in img_pattern.finditer(content):
-        alt_text = match.group(1)
+    for match in matches:
         img_path = match.group(2).strip()
 
         # Skip external URLs (http, https)
-        if img_path.startswith('http://') or img_path.startswith('https://'):
+        if img_path.startswith(('http://', 'https://', 'data:')):
             continue
 
         # Skip empty paths
@@ -94,12 +104,20 @@ def check_image_references(md_file: str) -> bool:
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: check-image-refs.py <file.md>")
-        sys.exit(1)
+    if len(sys.argv) > 1:
+        files = sys.argv[1:]
+    else:
+        result = subprocess.run(
+            ['git', 'diff', '--cached', '--name-only', '--diff-filter=ACM'],
+            capture_output=True, text=True
+        )
+        files = [fp for fp in result.stdout.splitlines() if fp.endswith('.md') and not fp.startswith('docs/public/')]
 
-    md_file = sys.argv[1]
-    success = check_image_references(md_file)
+    success = True
+    for md_file in files:
+        if not check_image_references(md_file):
+            success = False
+
     sys.exit(0 if success else 1)
 
 

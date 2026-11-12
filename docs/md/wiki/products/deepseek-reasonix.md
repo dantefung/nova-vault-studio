@@ -1,5 +1,5 @@
 ---
-title: "DeepSeek-Reasonix"
+title: "DeepSeek-Reasonix 推理引擎"
 date: "2026-05-29"
 ---
 

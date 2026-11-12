@@ -1,5 +1,5 @@
 ---
-title: "iterm 2"
+title: "第 02 课 · 用 Zellij 做窗口管理"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

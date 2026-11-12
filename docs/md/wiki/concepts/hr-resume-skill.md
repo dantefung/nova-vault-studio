@@ -1,5 +1,5 @@
 ---
-title: "hr-resume-skill"
+title: "HR 简历筛选技能"
 date: "2026-07-14"
 ---
 

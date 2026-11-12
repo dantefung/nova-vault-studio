@@ -40,7 +40,7 @@ Markdown Content:
 
 因此，一个页面拥有的[高质量反向链接](https://ahrefs.com/zh/blog/high-quality-backlinks/)越多，它在 Google 中的排名往往就越高。如果你想让自己的页面超越竞争对手，通常需要获得比它更多的链接。
 
-![Image 1: 图片展示反向链接如何帮助页面在 Google 搜索结果中排名更高](images/image-google-backlinks-YQ2TVMYH.png)
+![Image 1: 图片展示反向链接如何帮助页面在 Google 搜索结果中排名更高](images/image-google-backlinks-YQ2TVMYH.webp)
 反向链接有助于页面在 Google 搜索结果中获得更高排名。
 
 当然，这里是对情况进行了较大程度的简化。想要在 Google 排名第一，远不只是“获取更多链接”这么简单，因为链接并不是 Google 使用的唯一排名信号。但不可否认的是，它仍然是一个[非常强的信号](https://searchengineland.com/now-know-googles-top-three-search-ranking-factors-245882)，并且对搜索排名有着直接影响。
@@ -77,7 +77,7 @@ Markdown Content:
 
 如何获取反向链接
 
-![Image 2: 获取反向链接的四种方法示意图：添加、请求、购买与赢得链接](images/image-how-to-get-backlinks-22ZAWJKI.png)
+![Image 2: 获取反向链接的四种方法示意图：添加、请求、购买与赢得链接](images/image-how-to-get-backlinks-22ZAWJKI.webp)
 
 你也可以雇用一位经验丰富的链接建设人员（或链接建设机构）来为你搞定一切。事实上，许多数字营销人员和企业最终都会选择这种方式，因为无论采用哪种策略，链接建设本身都需要投入大量精力。
 
@@ -109,11 +109,11 @@ Markdown Content:
 
 想想看，大多数在线业务在各大主流社交网络上都有品牌账号，同时也会出现在各类企业目录和评价网站中（如 Yelp、Trustpilot、ProductHunt、Glassdoor 等）。而所有这些页面都包含一个指向其官网的链接。
 
-![Image 3: 截图显示带链接的品牌社交主页和企业名录列表](images/screenshot-twitter-ZJXZ2P3S.png)
+![Image 3: 截图显示带链接的品牌社交主页和企业名录列表](images/screenshot-twitter-ZJXZ2P3S.webp)
 
 Google 显然会关注这些资料页。如果你查看 Ahrefs 的“知识”面板（见下方截图），就会注意到其中展示了我们的社交媒体链接。这些并不是我们手动添加的，而是 Google 自动识别了我们的社交账号，并将其作为[知识图谱](https://support.google.com/knowledgepanel/answer/9787176)的一部分与 Ahrefs 品牌关联起来。
 
-![Image 4: Google Knowledge Panel 的截图，显示了 Ahrefs 的社交账号链接](images/screenshot-google-socials-GC4LYQEI.png)
+![Image 4: Google Knowledge Panel 的截图，显示了 Ahrefs 的社交账号链接](images/screenshot-google-socials-GC4LYQEI.webp)
 
 没错，通常这类链接要么是 [nofollow](https://ahrefs.com/zh/blog/nofollow-links/)，要么权重非常低。这意味着，它们对 Google 排名的直接影响微乎其微。
 
@@ -121,7 +121,7 @@ Google 显然会关注这些资料页。如果你查看 Ahrefs 的“知识”�
 
 例如，Ahrefs 在 Twitter 上的资料页拥有来自一千多个不同网站的 11,000 条反向链接。所以我非常确定，它在 Google 眼中还是有一定“分量”的。
 
-![Image 5: 截图显示指向 Ahrefs Twitter (X) 资料页的反向链接数](images/screenshot-overview-twitter-UDVUOYL7.png)
+![Image 5: 截图显示指向 Ahrefs Twitter (X) 资料页的反向链接数](images/screenshot-overview-twitter-UDVUOYL7.webp)
 
 话虽如此，也别疯狂地把你的网站提交到所有能想到的社交网络和企业名录中。只需选择几十个与业务相关、自然合理的平台即可，再多就纯粹是在浪费时间。
 
@@ -171,11 +171,11 @@ Google 显然会关注这些资料页。如果你查看 Ahrefs 的“知识”�
 
 以下是我自己的一个亲身经历。Authority Hacker 的 Gael Breton 早在 2014 年就联系过我，那时我甚至还没加入 Ahrefs：
 
-![Image 6: 2014 年 Authority Hacker 的 Gael Breton 发来的邮件截图](images/screenshot-mail-NXZEITVD.png)
+![Image 6: 2014 年 Authority Hacker 的 Gael Breton 发来的邮件截图](images/screenshot-mail-NXZEITVD.webp)
 
 我很欣赏 Gael 的工作，从那以后我们一直保持联系。这也是为什么截至今天，他的网站从 ahrefs.com 获得了 122 条入站链接：
 
-![Image 7: 截图显示从 ahrefs.com 指向 Authority Hacker 的 122 条入站链接](images/screenshot-authorityhacker-NWDKEVXH.png)
+![Image 7: 截图显示从 ahrefs.com 指向 Authority Hacker 的 122 条入站链接](images/screenshot-authorityhacker-NWDKEVXH.webp)
 
 但别误会，Gael 并不是时不时地向我要链接，我们只是单纯关注彼此的工作。当他们在 Authority Hacker 发布了一些值得关注的内容时，我会看到并分享给团队，之后我们可能会在博客中链接到它。
 
@@ -213,17 +213,17 @@ Google 显然会关注这些资料页。如果你查看 Ahrefs 的“知识”�
 
 截至今天，这篇博文已拥有来自约 1,700 个不同网站的近 3,000 条反向链接。
 
-![Image 8: 截图显示 Ahrefs 排名研究中的反向链接数据](images/screenshot-overview-blog-article-JROOCHVP.png)
+![Image 8: 截图显示 Ahrefs 排名研究中的反向链接数据](images/screenshot-overview-blog-article-JROOCHVP.webp)
 
 即便是在 6 年后的今天，这项研究依然在不断吸引新的链接。以下是今年早些时候的一些带链接的提及：
 
-![Image 9: 截图展示了 Ahrefs 排名研究近期的带链接提及，包括锚文本和目标 URL](images/screenshot-anchor-and-target-url-KNAVSINE.png)
+![Image 9: 截图展示了 Ahrefs 排名研究近期的带链接提及，包括锚文本和目标 URL](images/screenshot-anchor-and-target-url-KNAVSINE.webp)
 
 但你并不一定非得创作内容。你的企业本身，或者你提供的产品和服务，就可能具有被链接的价值。
 
 指向 ahrefs.com 的很大一部分链接其实并非来自我们发布的内容，而是来自人们提及我们的产品和公司。以下是我们昨天刚获得的一些链接提及：
 
-![Image 10: 截图显示来自 ahrefs.com 首页指向 Aira 报告的反向链接](images/screenshot-anchor-and-target-url-2-EAR2VVMI.png)
+![Image 10: 截图显示来自 ahrefs.com 首页指向 Aira 报告的反向链接](images/screenshot-anchor-and-target-url-2-EAR2VVMI.webp)
 
 然而，人们无法链接到他们根本不知道其存在的东西。所以无论你的页面（或产品）有多出色，你都需要进行推广。看到的人越多，建立链接的机会就越大。
 
@@ -241,7 +241,7 @@ Google 显然会关注这些资料页。如果你查看 Ahrefs 的“知识”�
 
 什么样的链接才是好链接
 
-![Image 11: 展示构成优质链接的五大概念图示](images/image-what-makes-a-good-link-EUPVZLFS.png)
+![Image 11: 展示构成优质链接的五大概念图示](images/image-what-makes-a-good-link-EUPVZLFS.webp)
 
 ### 权威性
 
@@ -255,23 +255,23 @@ Google 显然会关注这些资料页。如果你查看 Ahrefs 的“知识”�
 
 你会使用指标来衡量链接的权威性和/或质量吗？
 
-![Image 12: 《链接建设现状报告》中的图表，展示了主流的权威性指标](images/image-link-building-report-DODZZB7U.png)
+![Image 12: 《链接建设现状报告》中的图表，展示了主流的权威性指标](images/image-link-building-report-DODZZB7U.webp)
 2022 年链接建设现状报告。
 
-![Image 13: Ahrefs Website Authority Checker 截图，展示了 apple.com 的域名评分](images/screenshot-apple-WGCCO6DB.png)
+![Image 13: Ahrefs Website Authority Checker 截图，展示了 apple.com 的域名评分](images/screenshot-apple-WGCCO6DB.webp)
 
 除了整个网站的权威性之外，链接到你网站的具体页面本身也有权威性。众所周知，Google 会借助著名的 [PageRank 算法](https://ahrefs.com/zh/blog/google-pagerank/)来计算这一点。
 
 简单来说，PageRank 算法的前提是：拥有更多（且质量更好）反向链接的页面，其投出的“选票”分量更重。
 
-![Image 14: 展示了带有反向链接的页面如何投出更强选票的示意图](images/image-pages-with-backlinks-K7H6AM4F.png)
+![Image 14: 展示了带有反向链接的页面如何投出更强选票的示意图](images/image-pages-with-backlinks-K7H6AM4F.webp)
 拥有反向链接的页面比没有反向链接的页面投出的“选票”更有力。
 
 在 Ahrefs，我们有专门衡量页面权威性的指标，叫做 [URL 评分 (UR)](https://ahrefs.com/zh/blog/ahrefs-seo-metrics/#section9)，其计算方式与原始的 PageRank 非常相似。
 
 你正在阅读的这个页面 UR 值为 30，并且拥有来自一千多个不同网站（引用域名）的反向链接：
 
-![Image 15: 指向 Aira《链接建设现状报告》的反向链接截图](images/screenshot-overview-blog-article-2-2NSWSB7U.png)
+![Image 15: 指向 Aira《链接建设现状报告》的反向链接截图](images/screenshot-overview-blog-article-2-2NSWSB7U.webp)
 
 ### 相关性
 
@@ -307,7 +307,7 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 假设有一个网页由三个板块组成：正文内容区、侧边栏和页脚。一般来说，正文内容中的链接会获得更多点击，因为访客对正文板块的关注度最高。
 
-![Image 18: 图示：链接位置如何影响权威性传递](images/image-links-authority-OTM7SN2P.png)
+![Image 18: 图示：链接位置如何影响权威性传递](images/image-links-authority-OTM7SN2P.webp)
 位置更显眼的链接可能会传递更多“权威性”。
 
 另一个会影响链接点击率的因素是它在页面中出现的纵向高度。读者更可能点击文章开头的链接，而不是末尾的链接。
@@ -334,7 +334,7 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 经验丰富的 SEO 专家通常建议的策略是：先为你那些“可链接资产”获取大量优质链接，然后通过内部链接将一部分“链接权威性”传递给那些你希望获得好排名的“盈利页面”。
 
-![Image 19: 图片展示内链如何将权威性从可链接资产传递到盈利页面](images/image-linkable-assets-AF3BQ7ZH.png)
+![Image 19: 图片展示内链如何将权威性从可链接资产传递到盈利页面](images/image-linkable-assets-AF3BQ7ZH.webp)
 利用内链将权威性传递给那些你需要在 Google 中获得良好排名的“无聊”页面。
 
 * * *
@@ -355,14 +355,14 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 例如，下面是一些链接到我们首页、且本身具有不错搜索流量的页面：
 
-![Image 20: Site Explorer 中指向 ahrefs.com 首页的引用页面截图](images/screenshot-referring-page-B4RHUHPC.png)
+![Image 20: Site Explorer 中指向 ahrefs.com 首页的引用页面截图](images/screenshot-referring-page-B4RHUHPC.webp)
 来自 Site Explorer 的截图。
 
 如你所见，在这两种情况下，Ahrefs 都是紧挨着其他营销工具被提及的，这恰恰说明：请求对方在提到竞争对手时顺便提一下你，是一个完全合理的诉求。
 
 分析完首页链接后，下一步就是研究竞争对手网站上哪些页面获得的链接最多。在 [Site Explorer](https://ahrefs.com/zh/site-explorer) 里就有一个专门为此设计的报告，名为“按反链数量排序”。
 
-![Image 21: Ahrefs Site Explorer 中“按反链数量排序”报告的截图](images/screenshot-best-by-links-ITO3JAEH.png)
+![Image 21: Ahrefs Site Explorer 中“按反链数量排序”报告的截图](images/screenshot-best-by-links-ITO3JAEH.webp)
 
 通过查看 ahrefs.com 的**按反链数量排序**报告（见上图），可以很容易发现哪些类型的页面为我们带来了最多链接：
 
@@ -377,7 +377,7 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 完成上述策略后，我建议你[设置一个反向链接提醒](https://ahrefs.com/zh/alerts)，每当竞争对手获得新链接时你就会收到通知。这样，你就能立刻联系那些链接到他们的网站，尝试让自己也被添加到同一个页面上。
 
-![Image 22: Ahrefs Alerts 截图，用于监测竞争对手的反向链接](images/screenshot-new-alert-SNG3HH2G.png)
+![Image 22: Ahrefs Alerts 截图，用于监测竞争对手的反向链接](images/screenshot-new-alert-SNG3HH2G.webp)
 
 总而言之，竞争对手就是优质链接机会的宝库。随着你对他们反向链接的深入挖掘，很快就会发现一些可以为你所用的链接建设模式。实际上，我们还[针对这个话题写了一篇非常详细的文章](https://ahrefs.com/zh/blog/find-competitors-backlinks/)，别忘了去看看。
 
@@ -391,9 +391,9 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 假设你想在“best productivity apps”这个关键词上获得排名，其 SERP 如下图所示：
 
-![Image 23: Ahrefs Keywords Explorer 中针对最佳效率应用的 SERP 概览截图](images/screenshot-serp-overview-AAQD64IR.png)
+![Image 23: Ahrefs Keywords Explorer 中针对最佳效率应用的 SERP 概览截图](images/screenshot-serp-overview-AAQD64IR.webp)
 
-![Image 24: Ahrefs Site Explorer 中反向链接列表的截图](images/screenshot-backlinks-HMWJU55H.png)
+![Image 24: Ahrefs Site Explorer 中反向链接列表的截图](images/screenshot-backlinks-HMWJU55H.webp)
 
 接下来你需要做的是：
 
@@ -411,13 +411,13 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 你可以尝试在 Google 中搜索它们，但它提供的搜索结果数量有限，平均只有几百条。
 
-![Image 25: 用于查找潜在链接目标的 Google 搜索结果截图](images/screenshot-google-productivity-332GPWS5.png)
+![Image 25: 用于查找潜在链接目标的 Google 搜索结果截图](images/screenshot-google-productivity-332GPWS5.webp)
 
 想要更快找到成千上万个提及你主题的页面，可以使用 Ahrefs 的 [Content Explorer](https://ahrefs.com/zh/content-explorer)。
 
 例如，如果你搜索关键词“productivity app”，你会得到超过 120,000 个提到该关键词的页面。
 
-![Image 26: Ahrefs Content Explorer 的截图，显示了 productivity app 的结果](images/screenshot-ce-productivity-app-26JLXZUW.png)
+![Image 26: Ahrefs Content Explorer 的截图，显示了 productivity app 的结果](images/screenshot-ce-productivity-app-26JLXZUW.webp)
 
 在此基础上，你可能需要应用以下筛选条件，将结果列表缩小到最有意义的范围：
 
@@ -433,7 +433,7 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 这样一来，你最终会得到 4,000 多个页面。这是一个更容易管理、便于后续处理的链接数量。
 
-![Image 27: Content Explorer 筛选结果截图，显示约有 4000 个页面](images/screenshot-ce-productivity-app-filters-WH5RLQUN.png)
+![Image 27: Content Explorer 筛选结果截图，显示约有 4000 个页面](images/screenshot-ce-productivity-app-filters-WH5RLQUN.webp)
 
 接下来的行动计划与前一个非常相似。逐个检查这些页面，如果你认为对方有可能同意链接到你的页面，就联系相应的网站主。
 
@@ -455,7 +455,7 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 研究完成并发布后，我确实通过电子邮件通知了最初联系过的 500 多位博主。正因如此，这篇文章才成为我博客上链接最多的页面：
 
-![Image 28: Ahrefs Site Explorer 中“按反链数量排序”报告的截图，显示了某个博客的外部反向链接](images/screenshot-external-backlinks-PHIWTFXC.png)
+![Image 28: Ahrefs Site Explorer 中“按反链数量排序”报告的截图，显示了某个博客的外部反向链接](images/screenshot-external-backlinks-PHIWTFXC.webp)
 来自 Site Explorer 的截图。
 
 但最重要的是，我在这项研究中投入的大量努力为我赢得了许多博主的尊重。后来每当我再联系他们提出其他请求时，我不再是一个“无名小卒”，他们也更愿意和我交流。
@@ -484,11 +484,11 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 数字营销机构 Aira 每年都会对数百名行业顶尖专家进行调查并发布一份[《链接建设现状报告》](https://aira.net/state-of-link-building/)。这份报告为他们带来了来自 600 多个不同网站的反向链接：
 
-![Image 29: 指向 Aira《链接建设现状报告》的反向链接截图](images/screenshot-overview-aira-A3IJGNUP.png)
+![Image 29: 指向 Aira《链接建设现状报告》的反向链接截图](images/screenshot-overview-aira-A3IJGNUP.webp)
 
 其中一条反向链接正来自于 ahrefs.com 的首页（该页面的 URL 评分为 54）：
 
-![Image 30: 截图显示 Ahrefs 产品近期的带链接提及](images/screenshot-ahrefs-homepage-4M6T7DB5.png)
+![Image 30: 截图显示 Ahrefs 产品近期的带链接提及](images/screenshot-ahrefs-homepage-4M6T7DB5.webp)
 
 他们的报告包含了一些对我们公司非常有利的数据，所以我们忍不住将它放在了首页上。许多营销人员把这种链接诱饵称为“[自我诱饵](https://www.searchenginejournal.com/link-building-guide/ego-bait-content/)”。但在 Aira 的案例中，我认为这并非刻意而为，因为他们不可能事先知道行业调查的结果。
 
@@ -544,7 +544,7 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 基于一项针对 179 位 SEO 专业人士的 Facebook 投票
 
-![Image 31: 图表显示客座博客是最受欢迎的链接建设策略之一](images/image-guest-blogging-infographic-2YCQ6AIJ.png)
+![Image 31: 图表显示客座博客是最受欢迎的链接建设策略之一](images/image-guest-blogging-infographic-2YCQ6AIJ.webp)
 来源：Matt Diggity
 
 即便是在 Ahrefs 博客，我们偶尔也会接受客座投稿。只要客座作者引用的资源与文章主题相关，他们就可以链接到自己的内容。这意味着，通过客座文章建设链接完全可以是合规且合理的做法。
@@ -555,7 +555,7 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 例如，通过对我们自家博客与竞争对手博客快速进行一次 [内容差距分析](https://ahrefs.com/zh/blog/content-gap-analysis/)，就能发现一系列对手有搜索流量、而我们却没有覆盖的优质主题。
 
-![Image 32: 截图：Ahrefs Content Gap 工具展示的话题机会](images/screenshot-content-gap-7KEP5Y46.png)
+![Image 32: 截图：Ahrefs Content Gap 工具展示的话题机会](images/screenshot-content-gap-7KEP5Y46.webp)
 
 如果有人提出一个极具说服力的选题，并声称可以就这些主题写出一篇不错的博文，我们会很难拒绝。
 
@@ -563,7 +563,7 @@ Google 采用多种技术来提升搜索质量，包括 PageRank、**锚文本**
 
 该如何找到这些表现不佳的页面呢？只需打开 [Site Explorer](https://ahrefs.com/zh/site-explorer) 中的**热门页面**报告，然后使用“流量”筛选器即可：
 
-![Image 33: 截图展示了 Ahrefs Site Explorer 中的热门页面报告（应用了流量筛选条件）](images/screenshot-top-pages-FJIUROFR.png)
+![Image 33: 截图展示了 Ahrefs Site Explorer 中的热门页面报告（应用了流量筛选条件）](images/screenshot-top-pages-FJIUROFR.webp)
 
 * * *
 

@@ -13,7 +13,7 @@ url: "https://new.web.cafe/tutorial/detail/6F1jyKqBumtJhvBcwN1t7S"
 # 如何用 AI做SEO之内容自动批量生成，从搜索引擎获取免费流量
 有人问，哥飞你最近怎么一直发SEO相关文章，都不发AI的了，你可是GPT菩萨呀！
 
-![image.png](images/ai-bulk-seo-content-generation/img_002.png)
+![image.png](images/ai-bulk-seo-content-generation/img_002.webp)
 
 别急别急，之前是给大家打基础，了解一些SEO的基础概念和建站基础，后面就会讲怎么把最新的AI技术与古老的SEO技术结合。
 

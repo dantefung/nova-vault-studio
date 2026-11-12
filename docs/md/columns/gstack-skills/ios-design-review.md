@@ -1,5 +1,5 @@
 ---
-title: "ios-design-review"
+title: "iOS 真机设计走查"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

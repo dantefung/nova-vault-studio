@@ -1,5 +1,5 @@
 ---
-title: "Code Quality"
+title: "代码质量标准"
 date: "2026-05-08"
 ---
 

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>System Vault 博客索引方向</title>
+  <style>
+    :root {
+      --paper: #f4eee5;
+      --sheet: #fffaf3;
+      --ink: #24211e;
+      --body: #655e57;
+      --muted: #958b81;
+      --rule: #cfc4b7;
+      --rust: #a4492d;
+      --olive: #6e7055;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: Georgia, 'Noto Serif SC', serif; }
+    button, a { font: inherit; }
+    .chooser { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 12px max(20px, calc((100vw - 1240px) / 2)); border-bottom: 1px solid #292521; background: #292521; color: #f8f1e8; }
+    .chooser strong { font-size: 14px; letter-spacing: .04em; }
+    .chooser-nav { display: flex; gap: 4px; }
+    .chooser button { padding: 7px 12px; border: 1px solid #71685f; background: transparent; color: #d8cec3; cursor: pointer; }
+    .chooser button.active { background: #f8f1e8; color: #292521; }
+    .direction { display: none; min-height: 100vh; }
+    .direction.active { display: block; }
+    .site-head { display: flex; align-items: center; justify-content: space-between; max-width: 1180px; min-height: 76px; margin: 0 auto; border-bottom: 1px solid var(--rule); }
+    .brand { font-size: 18px; font-weight: 700; }
+    .nav { display: flex; gap: 20px; color: var(--body); font-size: 13px; }
+    .shell { max-width: 1180px; margin: 0 auto; padding: 70px 0 96px; }
+    .kicker { margin: 0 0 18px; color: var(--rust); font: 700 11px/1.2 Arial, sans-serif; letter-spacing: .19em; }
+    .intro h1 { max-width: 850px; margin: 0; font-size: clamp(56px, 8vw, 104px); font-weight: 400; letter-spacing: -.06em; line-height: .92; }
+    .intro p { max-width: 640px; margin: 24px 0 0; color: var(--body); font-size: 17px; line-height: 1.7; }
+    .tabs { display: flex; gap: 22px; margin-top: 38px; border-bottom: 1px solid var(--ink); }
+    .tabs span { padding: 0 0 10px; color: var(--muted); font-size: 13px; }
+    .tabs .on { border-bottom: 3px solid var(--rust); color: var(--ink); }
+    .meta { color: var(--muted); font: 12px/1.5 Arial, sans-serif; letter-spacing: .03em; }
+    .title { margin: 0; font-weight: 400; }
+    .summary { margin: 0; color: var(--body); line-height: 1.65; }
+
+    /* A: 编辑部目录 */
+    .editorial .index { margin-top: 58px; border-top: 2px solid var(--ink); }
+    .editorial article { display: grid; grid-template-columns: 150px minmax(0, 1fr) 74px; gap: 34px; padding: 28px 0 30px; border-bottom: 1px solid var(--rule); }
+    .editorial .title { margin-bottom: 10px; font-size: clamp(24px, 3vw, 38px); line-height: 1.16; }
+    .editorial .read { justify-self: end; padding-top: 4px; color: var(--muted); font: italic 13px Georgia, serif; }
+    .editorial article:first-child { padding-top: 36px; }
+    .editorial article:first-child .title { max-width: 760px; font-size: clamp(34px, 4.3vw, 58px); letter-spacing: -.035em; }
+
+    /* B: 杂志网格 */
+    .magazine .issue-line { display: grid; grid-template-columns: 1fr auto; align-items: end; margin-top: 58px; padding-bottom: 12px; border-bottom: 3px double var(--ink); }
+    .magazine .issue-line b { font-size: 13px; letter-spacing: .12em; }
+    .magazine .lead-grid { display: grid; grid-template-columns: 1.35fr .65fr; gap: 44px; padding: 34px 0 40px; border-bottom: 1px solid var(--ink); }
+    .magazine .lead .title { margin: 12px 0 20px; font-size: clamp(42px, 5.8vw, 76px); line-height: .98; letter-spacing: -.05em; }
+    .magazine .side { display: grid; align-content: end; padding-left: 28px; border-left: 1px solid var(--rule); }
+    .magazine .side .title { margin: 12px 0; font-size: 27px; line-height: 1.15; }
+    .magazine .story-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+    .magazine .story { min-height: 280px; padding: 28px 28px 30px 0; border-bottom: 1px solid var(--rule); }
+    .magazine .story + .story { padding-left: 28px; border-left: 1px solid var(--rule); }
+    .magazine .story .title { margin: 14px 0 12px; font-size: 25px; line-height: 1.18; }
+
+    /* C: 极简时间线 */
+    .timeline .intro { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: end; }
+    .timeline .intro h1 { font-size: clamp(56px, 7vw, 90px); }
+    .timeline .year { display: grid; grid-template-columns: 130px 1fr; margin-top: 64px; border-top: 1px solid var(--ink); }
+    .timeline .year-label { padding-top: 22px; color: var(--rust); font-size: 30px; font-style: italic; }
+    .timeline .entries { border-left: 1px solid var(--rule); }
+    .timeline article { display: grid; grid-template-columns: 96px 1fr auto; gap: 24px; padding: 22px 0 24px 30px; border-bottom: 1px solid var(--rule); }
+    .timeline .title { font-size: 22px; line-height: 1.25; }
+    .timeline .category { color: var(--body); font: 12px Arial, sans-serif; }
+    .timeline .read { color: var(--muted); font-size: 12px; }
+
+    .direction-note { max-width: 1180px; margin: 0 auto 80px; padding: 18px 0; border-top: 1px solid var(--rule); color: var(--body); font: 13px/1.6 Arial, sans-serif; }
+    @media (max-width: 760px) {
+      .chooser { align-items: flex-start; flex-direction: column; gap: 8px; padding: 10px 14px; }
+      .chooser-nav { width: 100%; overflow-x: auto; }
+      .chooser button { flex: 0 0 auto; }
+      .site-head, .shell, .direction-note { width: calc(100% - 32px); }
+      .site-head { align-items: flex-start; flex-direction: column; gap: 10px; padding: 16px 0; }
+      .nav { flex-wrap: wrap; gap: 8px 14px; }
+      .shell { padding: 52px 0 70px; }
+      .intro h1 { font-size: 52px; }
+      .editorial article { grid-template-columns: 1fr auto; gap: 12px 18px; }
+      .editorial article > .meta { grid-column: 1 / -1; }
+      .editorial .summary { font-size: 14px; }
+      .editorial .read { grid-column: 2; grid-row: 2; }
+      .magazine .lead-grid, .timeline .intro { grid-template-columns: 1fr; }
+      .magazine .side { padding: 28px 0 0; border-top: 1px solid var(--rule); border-left: 0; }
+      .magazine .story-grid { grid-template-columns: 1fr; }
+      .magazine .story { min-height: 0; padding: 24px 0; }
+      .magazine .story + .story { padding-left: 0; border-left: 0; }
+      .timeline .year { grid-template-columns: 1fr; }
+      .timeline .year-label { padding-bottom: 14px; }
+      .timeline .entries { border-left: 0; }
+      .timeline article { grid-template-columns: 72px 1fr; padding-left: 0; }
+      .timeline .read { grid-column: 2; }
+    }
+  </style>
+</head>
+<body>
+  <div class="chooser">
+    <strong>/md/blog 视觉方向对比</strong>
+    <div class="chooser-nav">
+      <button class="active" data-target="editorial">A 编辑部目录</button>
+      <button data-target="magazine">B 杂志网格</button>
+      <button data-target="timeline">C 极简时间线</button>
+    </div>
+  </div>
+
+  <section id="editorial" class="direction editorial active">
+    <header class="site-head"><div class="brand">System Vault</div><div class="nav"><span>首页</span><span>文章</span><span>分类</span><span>归档</span><span>搜索</span></div></header>
+    <main class="shell">
+      <div class="intro"><div class="kicker">WRITING & FIELD NOTES</div><h1>文章与工作记录</h1><p>关于 AI、开发、产品与长期学习。这里保留结论，也保留结论形成之前的路径。</p><div class="tabs"><span class="on">最新文章</span><span>分类</span><span>系列</span></div></div>
+      <div class="index">
+        <article><div class="meta">2026.08.04<br>资料源</div><div><h2 class="title">企业上线 100 个 Agent 以后，为什么需要一张 AI 资产地图？</h2><p class="summary">当 Agent 从实验走向生产，真正难管的不是模型，而是散落在组织里的账号、知识、权限和工作流。</p></div><div class="read">3 min</div></article>
+        <article><div class="meta">2026.08.03<br>日志</div><div><h2 class="title">多 Agent 协作冲突的教训</h2><p class="summary">三十多个终端任务同时推进时，worktree、branch 和 PR 为什么仍会失效。</p></div><div class="read">2 min</div></article>
+        <article><div class="meta">2026.08.03<br>Agentic Engineer</div><div><h2 class="title">cc-connect 配置模板（脱敏备份）</h2><p class="summary">一份可以直接查阅的内部运维配置记录。</p></div><div class="read">3 min</div></article>
+        <article><div class="meta">2026.08.03<br>Indie Hub</div><div><h2 class="title">游戏站完整操作指南</h2><p class="summary">从找词、上线、SEO 到运营维护，把零散经验整理成一条可执行路径。</p></div><div class="read">26 min</div></article>
+      </div>
+    </main>
+    <p class="direction-note">A 更像编辑部目录。没有伪封面和卡片，标题是唯一主角，适合内容量大、更新频繁的长期博客。</p>
+  </section>
+
+  <section id="magazine" class="direction magazine">
+    <header class="site-head"><div class="brand">System Vault Review</div><div class="nav"><span>本期</span><span>专题</span><span>档案</span><span>搜索</span></div></header>
+    <main class="shell">
+      <div class="intro"><div class="kicker">ISSUE 024 · AUGUST 2026</div><h1>系统、工具与独立创造</h1><p>一份持续更新的个人技术刊物。每次只讨论正在发生、值得留下的事情。</p></div>
+      <div class="issue-line"><b>本期文章</b><span class="meta">04 AUG 2026</span></div>
+      <div class="lead-grid"><article class="lead"><div class="meta">资料源 · 3 分钟</div><h2 class="title">企业上线 100 个 Agent 以后，为什么需要一张 AI 资产地图？</h2><p class="summary">Agent 规模化之后，组织需要的不是另一张模型排行榜，而是一份能回答资产在哪里、谁能使用、出了问题找谁的地图。</p></article><article class="side"><div class="meta">编辑手记</div><h2 class="title">多 Agent 协作冲突的教训</h2><p class="summary">工具没错，错的是没有给并发工作建立清晰边界。</p></article></div>
+      <div class="story-grid"><article class="story"><div class="meta">Agentic Engineer</div><h2 class="title">cc-connect 配置模板</h2><p class="summary">内部运维实践的脱敏备份。</p></article><article class="story"><div class="meta">Indie Hub</div><h2 class="title">游戏站完整操作指南</h2><p class="summary">从找词到维护的一条完整路径。</p></article><article class="story"><div class="meta">SEO</div><h2 class="title">为什么不能用 GPT 批量生成 PSEO 页面</h2><p class="summary">规模不是价值，页面存在的理由才是。</p></article></div>
+    </main>
+    <p class="direction-note">B 更像一期一期出版的杂志。视觉记忆最强，但需要编辑每期主次关系，不适合完全自动生成。</p>
+  </section>
+
+  <section id="timeline" class="direction timeline">
+    <header class="site-head"><div class="brand">System Vault</div><div class="nav"><span>索引</span><span>主题</span><span>关于</span></div></header>
+    <main class="shell">
+      <div class="intro"><div><div class="kicker">CHRONOLOGICAL INDEX</div><h1>写作索引</h1></div><p>按时间记录工作。没有精选、没有推荐算法，只有发生过的事情和当时留下的判断。</p></div>
+      <section class="year"><div class="year-label">2026</div><div class="entries">
+        <article><div class="meta">08.04</div><h2 class="title">企业上线 100 个 Agent 以后，为什么需要一张 AI 资产地图？</h2><span class="read">资料源 · 3 min</span></article>
+        <article><div class="meta">08.03</div><h2 class="title">多 Agent 协作冲突的教训</h2><span class="read">日志 · 2 min</span></article>
+        <article><div class="meta">08.03</div><h2 class="title">cc-connect 配置模板（脱敏备份）</h2><span class="read">工程 · 3 min</span></article>
+        <article><div class="meta">08.03</div><h2 class="title">游戏站完整操作指南</h2><span class="read">Indie Hub · 26 min</span></article>
+        <article><div class="meta">08.03</div><h2 class="title">程序化 SEO：为什么不能用 GPT 批量生成页面</h2><span class="read">SEO · 4 min</span></article>
+        <article><div class="meta">08.02</div><h2 class="title">推特主页绑定 GSC 后，三天数据出来了</h2><span class="read">社交媒体 · 1 min</span></article>
+      </div></section>
+    </main>
+    <p class="direction-note">C 是最安静的索引。扫描最快、维护成本最低，但摘要和主题感会明显减弱。</p>
+  </section>
+  <script>
+    document.querySelectorAll('.chooser button').forEach(button => button.addEventListener('click', () => {
+      document.querySelectorAll('.chooser button, .direction').forEach(node => node.classList.remove('active'));
+      button.classList.add('active');
+      document.getElementById(button.dataset.target).classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }));
+  </script>
+</body>
+</html>

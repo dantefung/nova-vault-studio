@@ -1,5 +1,5 @@
 ---
-title: "Nop-Chaos-Flux"
+title: "Nop-Chaos-Flux 前端框架"
 source: "Gitee"
 url: "https://gitee.com/canonical-entropy/nop-chaos-flux"
 date: "2026-05-31"

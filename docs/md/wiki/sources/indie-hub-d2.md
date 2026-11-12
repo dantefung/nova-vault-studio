@@ -36,22 +36,22 @@ url: "https://mp.weixin.qq.com/s/SOztOQf-Sch3v_yNfFOsuA"
 
 ## 配图
 
-![image](../images/indie-hub-d2/001.png)
+![image](../images/indie-hub-d2/001.webp)
 
 *D2 语法示例*
 
-![image](../images/indie-hub-d2/002.png)
+![image](../images/indie-hub-d2/002.webp)
 
 *复杂图表示例*
 
-![image](../images/indie-hub-d2/003.png)
+![image](../images/indie-hub-d2/003.webp)
 
 *草图风格时序图*
 
-![image](../images/indie-hub-d2/004.png)
+![image](../images/indie-hub-d2/004.webp)
 
 *自定义样式*
 
-![image](../images/indie-hub-d2/005.png)
+![image](../images/indie-hub-d2/005.webp)
 
 *流程图*

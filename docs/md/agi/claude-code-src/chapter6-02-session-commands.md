@@ -1,3 +1,7 @@
+---
+title: "第 6 章 · 会话命令"
+---
+
 Title: 会话管理命令 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/commands/session-commands.html

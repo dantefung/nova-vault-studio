@@ -1,3 +1,7 @@
+---
+title: "第 1 章 · 总体架构"
+---
+
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [plain-sun-1ffe.hunshcn429.workers.dev](https://plain-sun-1ffe.hunshcn429.workers.dev/guide/architecture.html)
 
 > Anthropic Claude Code v2.1.88 — 逐行逐目录的完整技术剖析

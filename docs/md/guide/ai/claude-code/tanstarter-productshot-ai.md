@@ -35,7 +35,7 @@ url: "https://mp.weixin.qq.com/s/EcCgLjiqtmUl6ULUWaTmxQ"
 
 **要求是"替换"**：把模板壳子变成 ProductShot AI 的壳子。
 
-![初始视觉设计](./images/tanstarter-productshot-ai/001.jpeg)
+![初始视觉设计](images/tanstarter-productshot-ai/001.webp)
 
 ---
 
@@ -51,7 +51,7 @@ url: "https://mp.weixin.qq.com/s/EcCgLjiqtmUl6ULUWaTmxQ"
 - 首页默认是 3 列图片流
 - 点击 Generate 后，图片流变成 2 列，右侧出现生图工作台
 
-![图片流首页](./images/tanstarter-productshot-ai/002.jpeg)
+![图片流首页](images/tanstarter-productshot-ai/002.webp)
 
 **收获**：用户不需要先被教育，直接让他开始上手玩。
 
@@ -67,7 +67,7 @@ url: "https://mp.weixin.qq.com/s/EcCgLjiqtmUl6ULUWaTmxQ"
 - 右侧操作按钮固定在最下面不动
 - 滚动条只影响右侧
 
-![Prompt 详情页](./images/tanstarter-productshot-ai/003.jpeg)
+![Prompt 详情页](images/tanstarter-productshot-ai/003.webp)
 
 **核心想法**：不想做一个单独的 /create 页面。用户在看一张图，想用这个 Prompt 继续生成，最好就在当前页面完成，减少跳转。
 
@@ -181,4 +181,4 @@ meigen 做到不好的一点是，每张图的内链是 id：`/prompt/2068748402
 ## 相关文章
 
 - [Claude Code 6 个核心命令](./claude-code-6-commands.md) — /goal、/loop、/batch 等命令详解
-- [Vibe Coding 方法论](/guide/cs/software-philosophy/index.md) — 规划驱动的 AI 结对编程
+- [Vibe Coding 方法论](/md/guide/cs/software-philosophy/) — 规划驱动的 AI 结对编程

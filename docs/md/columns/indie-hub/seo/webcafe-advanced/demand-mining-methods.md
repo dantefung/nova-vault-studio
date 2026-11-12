@@ -52,19 +52,19 @@ url: "https://new.web.cafe/tutorial/detail/demand-mining-methods"
 
 我们可以打开 Semrush ，找到关键词研究功能，输入 Generator 就能够看到关于这个关键词的概览数据页面。 我们此时不关心这个关键词本身的数据，所以需要点击下面衍生关键词列表下方按钮“查看全部关键词”。
 
-![9e723b5bc680e3fbf2890b4b7a5d75bd\_.png](images/demand-mining-methods/gefei-demand-mining-methods_001.png)
+![9e723b5bc680e3fbf2890b4b7a5d75bd\_.png](images/demand-mining-methods/gefei-demand-mining-methods_001.webp)
 
 在这个 Keyword Magic Tool 页面，可以看到很多关键词，我们可以用筛选工具，选择搜索量 30000 以上，也就是平均每天 1000 以上的， KD 选择 60 以下的， CPC 选择大于 0.01 的，就得到了一些符合我们要求的关键词列表。
 
 还可以点击左侧的关键词群组，选择 AI ，那么出来的就全都是带 AI 且带 Generator 的关键词了。
 
-![9f2c94eb27b573ab9f85ff88a1f78f1e\_.png](images/demand-mining-methods/gefei-demand-mining-methods_002.png)
+![9f2c94eb27b573ab9f85ff88a1f78f1e\_.png](images/demand-mining-methods/gefei-demand-mining-methods_002.webp)
 
 Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器里，同样输入一个关键词，就能够找到很多相关关键词。 同样设置一些筛选条件，可以找到一些关键词。
 
 有了这些关键词列表，我们就可以进一步的筛选，举例你可以按照搜索量从高到低排序，也可以按照优化难度（ KD ）从低到高排序，也可以按照 CPC 从高到低排序。
 
-![8a91c9207347c56dd17499267c52112d\_.png](images/demand-mining-methods/gefei-demand-mining-methods_003.png)
+![8a91c9207347c56dd17499267c52112d\_.png](images/demand-mining-methods/gefei-demand-mining-methods_003.webp)
 
 通过年趋势这一列，你甚至可以可视化的看出这个关键词是否是一个新词。
 
@@ -72,7 +72,7 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 我们还可以借助谷歌广告后台进一步确认这个词的真实搜索量。 打开谷歌广告后台，找到工具->规划->关键字规划工具->选择获取搜索量和预测数据，输入我们想查询的关键词，把地理位置选择为全球，时间选择 5 月和 6 月，就看到了， 6 月这个词的搜索量是 13.5 万，平均每天 4500 次搜索。
 
-![abfff2fd642dc6bef6ff91e00a8ef14d\_.png](images/demand-mining-methods/gefei-demand-mining-methods_004.png)
+![abfff2fd642dc6bef6ff91e00a8ef14d\_.png](images/demand-mining-methods/gefei-demand-mining-methods_004.webp)
 
 有了关键词，我们就可以去谷歌实际搜索一下这个关键词，看看目前的第一页结果都是什么。
 
@@ -84,11 +84,11 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 第二种，根据 SEO 大站来查关键词，依然有多个平台可以使用。 如 Ahrefs 的 Website Traffic Checker （这里又一个词根 Checker ） [https://ahrefs.com/traffic-checker/](https://ahrefs.com/traffic-checker/) 在这里可以免登录看到所查询网站的流量数据，核心关键词数据，能够拿到大流量的页面数据。
 
-![82ebf45ec54b5d8ebb256b5fb70c9a23\_.png](images/demand-mining-methods/gefei-demand-mining-methods_005.png)
+![82ebf45ec54b5d8ebb256b5fb70c9a23\_.png](images/demand-mining-methods/gefei-demand-mining-methods_005.webp)
 
 第二个平台是 Semrush ，输入域名，就能够看到这个域名对应网站的数据。 我们主要关注自然搜索流量和自然搜索关键词和能够获取流量的页面有哪些。 先看关键词，点击“查看详情”可以进入关键词列表，看到很多关键词。
 
-![df6bd372f54baeabc37714704dd9525f\_.png](images/demand-mining-methods/gefei-demand-mining-methods_006.png)
+![df6bd372f54baeabc37714704dd9525f\_.png](images/demand-mining-methods/gefei-demand-mining-methods_006.webp)
 
 在排除掉品牌词之后，我们就能够看到 Canva 获取流量的关键词都有哪些了。 可以看到第一名就是 color wheel 色轮，这是设计师经常用到的颜色选择工具。 第二名是 im image generator ，这个也算是 Canva 的核心功能之一。 第四名 qr code generator 有点意思，这跟 Canva 主业好像不搭，不过也算是图片生成相关的。
 
@@ -98,11 +98,11 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 除了关注大站的关键词，我们还需要关注他们的能够获取流量的页面，如 Similarweb 这里就可以看到所有能够获取自然流量的页面，都是通过哪些关键词获取的流量。 而且还可以在点击量变化中选择“新点击量”，筛选那些最近才获得流量的页面。 从这些页面，也可以发现一些新的需求关键词。
 
-![ef5da6d348fd2d805d00c992a9a21fe8\_.png](images/demand-mining-methods/gefei-demand-mining-methods_007.png)
+![ef5da6d348fd2d805d00c992a9a21fe8\_.png](images/demand-mining-methods/gefei-demand-mining-methods_007.webp)
 
 举个例子，这个生日派对邀请函模版页面就获取到了很多新流量。 不过这个词本身不新，可能是之前他们这个页面没有拿到排名，最近拿到排名了。
 
-![d366364e1201d1d8832ec94543eb10d1\_.png](images/demand-mining-methods/gefei-demand-mining-methods_008.png)
+![d366364e1201d1d8832ec94543eb10d1\_.png](images/demand-mining-methods/gefei-demand-mining-methods_008.webp)
 
 谷歌一搜索，看到了，的确是排到了第一名。 但是你仔细看会发现，这个词触发了谷歌商品搜索界面。 明明是虚拟产品，怎么也会触发谷歌的这个商品搜索界面呢？ 很有可能就是 Canva 发现这个词被谷歌认定是商品搜索相关词，于是就给自己的页面增加了商品的结构化数据或者在页面增加商品价格信息，让谷歌识别到了这是商品页面。
 
@@ -112,17 +112,17 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 举例，你搜索 qr code generator ，就找到了 qr-code-generator.com ，这个网站月访问量 660 万，很大了。 而且最终能够向用户收钱，很香。
 
-![2908b6bcf9513c865aeb465e3e16928b\_.png](images/demand-mining-methods/gefei-demand-mining-methods_009.png)
+![2908b6bcf9513c865aeb465e3e16928b\_.png](images/demand-mining-methods/gefei-demand-mining-methods_009.webp)
 
-![8018fd53fe12b947ba0b133084d37261\_.png](images/demand-mining-methods/gefei-demand-mining-methods_010.png)
+![8018fd53fe12b947ba0b133084d37261\_.png](images/demand-mining-methods/gefei-demand-mining-methods_010.webp)
 
-![3dac8a661f48b72a7d304e9793720186\_.png](images/demand-mining-methods/gefei-demand-mining-methods_011.png)
+![3dac8a661f48b72a7d304e9793720186\_.png](images/demand-mining-methods/gefei-demand-mining-methods_011.webp)
 
-![b21fb48a778b8ffcf8720a15a726c9a7\_.png](images/demand-mining-methods/gefei-demand-mining-methods_012.png)
+![b21fb48a778b8ffcf8720a15a726c9a7\_.png](images/demand-mining-methods/gefei-demand-mining-methods_012.webp)
 
 一边靠大量的免费搜索流量，一边还投广告，说明这个生意很赚钱。
 
-![aab9b003305cf4749bb863465364460f\_.png](images/demand-mining-methods/gefei-demand-mining-methods_013.png)
+![aab9b003305cf4749bb863465364460f\_.png](images/demand-mining-methods/gefei-demand-mining-methods_013.webp)
 
 **哥飞 2025.07.17 更新， Similarweb 改版了，目前无法在 Similarweb 查看到以上截图数据了**
 
@@ -134,17 +134,17 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 没人能想到不起眼的二维码生成器这么赚钱吧。
 
-![1114e55d78502515251433a974e61554\_.png](images/demand-mining-methods/gefei-demand-mining-methods_014.png)
+![1114e55d78502515251433a974e61554\_.png](images/demand-mining-methods/gefei-demand-mining-methods_014.webp)
 
 继续去看这个关键词的付费流量，我们去看看买量第一名 qrfy.com 的数据。
 
-![bd84346ca270383a594b1f15a2d1a7cb\_.png](images/demand-mining-methods/gefei-demand-mining-methods_015.png)
+![bd84346ca270383a594b1f15a2d1a7cb\_.png](images/demand-mining-methods/gefei-demand-mining-methods_015.webp)
 
 这个网站最近 12 个月，花了 1530 万美元广告费。 没有哪个傻子会在不赚钱的情况下持续不断的投广告。 答案只有一个，能够赚回来。
 
 所以，这又引出了第五种挖掘需求的方法，我们去看那些大量在投广告的关键词，就能够找到财富密码。
 
-![24b3e4dca194203d0fb10c0a11aeee16\_.png](images/demand-mining-methods/gefei-demand-mining-methods_016.png)
+![24b3e4dca194203d0fb10c0a11aeee16\_.png](images/demand-mining-methods/gefei-demand-mining-methods_016.webp)
 
 方法是在 Similarweb 的关键词浏览工具->竞争对手页面，输入关键词，选择付费流量，看看正在投广告的网站。 再去看这个网站花了多少广告费，都花在哪些关键词里。
 
@@ -154,7 +154,7 @@ Similarweb 也有关键词拓展功能，在关键词研究->关键词生成器�
 
 实际还有很多挖掘需求的方法，用到的工具就是上面提到的这些功能，组合起来使用，举一反三，就能够发现更多的方法。 今天的哥飞小课堂就到这里了，整整 2 个小时，精不精彩，有没有用？ 掌声在哪里？
 
-![8709337a3337f6ce7564952dda1b5503\_.png](images/demand-mining-methods/gefei-demand-mining-methods_017.png)
+![8709337a3337f6ce7564952dda1b5503\_.png](images/demand-mining-methods/gefei-demand-mining-methods_017.webp)
 
 分享个关键词 how to make slime
 

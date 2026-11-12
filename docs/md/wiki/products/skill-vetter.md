@@ -1,5 +1,5 @@
 ---
-title: "skill-vetter"
+title: "skill-vetter 技能安检"
 date: "2026-05-27"
 ---
 

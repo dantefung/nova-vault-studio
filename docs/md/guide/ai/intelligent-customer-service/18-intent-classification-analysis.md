@@ -17,7 +17,7 @@ url: ""
 
 ## 二、纵向分析：从规则到智能的演进
 
-![意图识别技术演进](images/intent-classification-analysis/01-timeline-evolution.png)
+![意图识别技术演进](images/intent-classification-analysis/01-timeline-evolution.webp)
 
 ### 2.1 起源：基于规则的时期（2010年前）
 
@@ -78,7 +78,7 @@ ChatGPT引发的LLM浪潮彻底改变了意图识别的实现方式：
 
 ## 三、横向分析：三大实现方案对比
 
-![四大方案对比](images/intent-classification-analysis/02-four-approaches.png)
+![四大方案对比](images/intent-classification-analysis/02-four-approaches.webp)
 
 ### 3.1 方案一：Encoder Fine-tune（BERT微调）
 
@@ -173,7 +173,7 @@ User Input → Embedding Model → Vector Similarity → Intent Label
 
 ### 3.5 横向对比矩阵
 
-![六维对比雷达](images/intent-classification-analysis/03-comparison-matrix.png)
+![六维对比雷达](images/intent-classification-analysis/03-comparison-matrix.webp)
 
 | 维度 | BERT Fine-tune | Few-shot LLM | Structured Output | Embedding-based |
 |------|---------------|--------------|-------------------|-----------------|
@@ -208,7 +208,7 @@ User Input → Embedding Model → Vector Similarity → Intent Label
 
 ### 4.3 未来推演
 
-![三剧本推演](images/intent-classification-analysis/04-three-scenarios.png)
+![三剧本推演](images/intent-classification-analysis/04-three-scenarios.webp)
 
 **最可能的剧本（60%概率）**：
 - 小模型分类成为标配（如Qwen2-0.5B、GPT-4o-nano）
@@ -226,7 +226,7 @@ User Input → Embedding Model → Vector Similarity → Intent Label
 
 ### 4.4 给智能客服建设的建议
 
-![短中长期路径](images/intent-classification-analysis/05-decision-path.png)
+![短中长期路径](images/intent-classification-analysis/05-decision-path.webp)
 
 回到智能客服场景，意图识别方案如何选择？
 

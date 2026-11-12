@@ -38,6 +38,10 @@ url: "https://github.com/Conn-Ho/harness-engineering"
 | [工具、Context 隔离与对抗性 Agent 分工](tools-context-adversarial-agents.md) | 工具是武器、Context 隔离是分工基础、对抗拆分保障质量、人的判断密度在升高 |
 | [大模型 vs 大驭化层 辩论](debate-big-model-vs-harness.md) | 两派核心论据对比分析 |
 | [生态工具对比](ecosystem-tools-comparison.md) | Harness 生态中不同工具的定位和适用场景 |
+| [Harness开源框架Hermes‑Agent详解](./hermes-agent-detail.md) | Hermes 开源框架核心架构解析，Agent 设计与实现细节 |
+| [Harness 工程治理：从一次做成，到可复制、可运营的交付能力](./harness-governance-delivery.md) | 从单次成功到可复制交付能力的工程治理方法论 |
+| [Hello Harness 15 · Event System](./3c52sR9hnLmIK7J_C_Y1qg.md) | Event System 让运行过程从「事后翻档案」变成「实时看直播」 |
+| [一文拆解 DeepSeek Harness](./deepseek-harness-breakdown.md) | 解读 DSH Super-agent：sessionless、Router/Worker、事件工作态与身份/感知/界面三设想 |
 
 ## 模板
 

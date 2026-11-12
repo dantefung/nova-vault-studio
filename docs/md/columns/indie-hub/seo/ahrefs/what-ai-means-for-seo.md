@@ -24,7 +24,7 @@ Markdown Content:
 
 *   _“忘掉 SEO 吧。欢迎来到生成引擎优化的世界”_
 
-![Image 1: 报纸文章标题：“忘掉 SEO 吧。欢迎来到生成引擎优化的世界”](images/intro-TPZ7545G.png)
+![Image 1: 报纸文章标题：“忘掉 SEO 吧。欢迎来到生成引擎优化的世界”](images/intro-TPZ7545G.webp)
 
 那么，生成式 AI 是否已经[扼杀了 SEO](https://ahrefs.com/zh/blog/is-seo-dead/)？我们是否应该减少对搜索引擎优化的关注，转而将更多精力投入到生成引擎优化上呢？
 
@@ -44,7 +44,7 @@ Markdown Content:
 
 如果我想冲一杯完美的意式浓缩咖啡，或者学习如何将玫瑰修剪到最佳状态，我更可能打开 ChatGPT 而不是 Google。AI 助手提供了一种与传统搜索截然不同的搜索体验，更具个性化和互动性。
 
-![Image 2: ChatGPT 回复截图：提供意式浓缩咖啡故障排查建议，包括根据用户咖啡设备定制的研磨度参数推荐。](images/screenshot-chatgpt-OVGAN3X3.png)
+![Image 2: ChatGPT 回复截图：提供意式浓缩咖啡故障排查建议，包括根据用户咖啡设备定制的研磨度参数推荐。](images/screenshot-chatgpt-OVGAN3X3.webp)
 ChatGPT 会记住我拥有的咖啡机类型，并根据我们过去的互动记录来定制建议。
 
 有这样想法的并非我一个：在过去两年里，ChatGPT 的[周活跃用户数已增长至 8 亿](https://www.demandsage.com/chatgpt-statistics/)。此外，还有数十种替代品，如 Perplexity、Claude、Gemini 和 Grok，每个都拥有数百万用户。而且，借助 ChatGPT 的[即时结账](https://chatgpt.com/merchants/) 等功能，用户可以直接在 AI 助手里完成产品的研究、比较和购买。
@@ -53,7 +53,7 @@ ChatGPT 会记住我拥有的咖啡机类型，并根据我们过去的互动记
 
 2023–2024 年 Google 搜索增长趋势
 
-![Image 3: coffeegeek.com 网站的 Ahrefs Site Explorer 截图，重点展示 AI 引用和搜索指标，其中包括 2,600 次 ChatGPT 引用和 11,700个自然搜索关键词。](images/image-growth-of-google-searches-VYQQPDMS.png)
+![Image 3: coffeegeek.com 网站的 Ahrefs Site Explorer 截图，重点展示 AI 引用和搜索指标，其中包括 2,600 次 ChatGPT 引用和 11,700个自然搜索关键词。](images/image-growth-of-google-searches-VYQQPDMS.webp)
 来源：基于 Datos 2023-2024 年美国桌面端用户面板数据的分析。
 
 大多数人似乎是在使用 ChatGPT 和其他 AI 助手的 _同时_，也会使用 Google 搜索。因此，基于这些数据，我们不应将重心放在用 ChatGPT _取代_ Google 上，而是应同时关注 ChatGPT _与_ Google。
@@ -68,7 +68,7 @@ ChatGPT 会记住我拥有的咖啡机类型，并根据我们过去的互动记
 
 AIO 对首位页面点击率（CTR）的影响 300,000 万关键词分析
 
-![Image 4: 柱状图显示 AI Overviews 对排名第 1 的自然搜索结果点击率的影响。基于 300,000 个关键词的分析，2025 年 3 月的预测点击率为 0.040，但实际点击率跌至 0.026——下降了 0.014，即 34.5%。](images/graph-impact-of-aios-3C3O27GG.png)
+![Image 4: 柱状图显示 AI Overviews 对排名第 1 的自然搜索结果点击率的影响。基于 300,000 个关键词的分析，2025 年 3 月的预测点击率为 0.040，但实际点击率跌至 0.026——下降了 0.014，即 34.5%。](images/graph-impact-of-aios-3C3O27GG.webp)
 
 但重要的是，这一趋势早在 AI 出现之前就已开始。
 
@@ -80,7 +80,7 @@ AIO 对首位页面点击率（CTR）的影响 300,000 万关键词分析
 
 *   其他 **“零点击”搜索功能**，比如精选摘要
 
-![Image 5: coffeegeek.com 网站的 Ahrefs Site Explorer 截图，重点展示 AI 引用和搜索指标，其中包括 2,600 次 ChatGPT 引用和 11,700个自然搜索关键词。](images/screenshot-metronome-NBWQGUGL.png)
+![Image 5: coffeegeek.com 网站的 Ahrefs Site Explorer 截图，重点展示 AI 引用和搜索指标，其中包括 2,600 次 ChatGPT 引用和 11,700个自然搜索关键词。](images/screenshot-metronome-NBWQGUGL.webp)
 在 Google 搜索关键词“节拍器”时，你会发现搜索结果不再是博客文章或视频，而是一个交互式工具。Google 正不断提升提供此类工具的能力，以更好地满足这类搜索意图。
 
 但来自 Google 的流量减少，并不等于 _没有_ 流量。只要网站仍然能够获得 _足够_ 的流量，以证明对内容创作的投入物有所值，SEO 就仍然值得开展。SEO 依然是一个利润极其丰厚的营销渠道。
@@ -89,11 +89,11 @@ AIO 对首位页面点击率（CTR）的影响 300,000 万关键词分析
 
 有多少页面是由 AI 创建或辅助生成的？
 
-![Image 6: 饼图展示 AI 内容分布情况：71.7% 人类与 AI 共同创作内容；25.8% 纯人工内容；9.87% 少量 AI 辅助内容；15.51% AI 主导内容；46.36% 大量 AI 辅助内容；2.5% 纯 AI 生成内容](images/graph-ai-pages-JZBDKWBK.png)
+![Image 6: 饼图展示 AI 内容分布情况：71.7% 人类与 AI 共同创作内容；25.8% 纯人工内容；9.87% 少量 AI 辅助内容；15.51% AI 主导内容；46.36% 大量 AI 辅助内容；2.5% 纯 AI 生成内容](images/graph-ai-pages-JZBDKWBK.webp)
 
 基于 Ahrefs 于 2025 年 4 月发布的研究数据（每个域名选取一个页面） ，涵盖 90 万+  个网页。
 
-![Image 7: 饼图展示 AI 内容分布情况：71.7% 人类与 AI 共同创作内容；25.8% 纯人工内容；9.87% 少量 AI 辅助内容；15.51% AI 主导内容；46.36% 大量 AI 辅助内容；2.5% 纯 AI 生成内容](images/graph-ai-pages-JZBDKWBK.png)
+![Image 7: 饼图展示 AI 内容分布情况：71.7% 人类与 AI 共同创作内容；25.8% 纯人工内容；9.87% 少量 AI 辅助内容；15.51% AI 主导内容；46.36% 大量 AI 辅助内容；2.5% 纯 AI 生成内容](images/graph-ai-pages-JZBDKWBK.webp)
 
 AI 让每个人都更容易创作 SEO 内容。与此同时，大家可能会感觉竞争比以往任何时候都更激烈。但关键在于，Google（甚至像 ChatGPT 这样的 AI 助手）_希望_ 展示并奖励由专家撰写的高质量内容。
 
@@ -145,13 +145,13 @@ AI 助手通过一种被称为 _事实锚定_ 的过程来解决这一问题。�
 
 Google Gemini 在其运行过程中会使用 Google 搜索；Microsoft Copilot 使用 Bing；ChatGPT 和 Meta 则结合使用这两者；Claude 使用 Brave 。以下是 [AI 助手如何执行‘“事实锚定”搜索](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/grounding-llms/3843857)的示例：
 
-![Image 8: AI 助手进行事实锚定搜索的示例](images/grounding-searches-Y6I54ON3.png)
+![Image 8: AI 助手进行事实锚定搜索的示例](images/grounding-searches-Y6I54ON3.webp)
 
 因此，在搜索引擎中针对相关主题排名靠前的网站，其页面更有可能被 AI 助手检索并使用。
 
 如果你销售咖啡机，并且成功在 Google 的“最适合新手的咖啡机”或“如何保养你的 Nespresso”等关键词上获得高排名，那么你的内容和品牌极有可能会被纳入 AI 关于类似主题的对话中。
 
-![Image 9: coffeegeek.com 网站的 Ahrefs Site Explorer 截图，重点展示 AI 引用和搜索指标，其中包括 2,600 次 ChatGPT 引用和 11,700个自然搜索关键词。](images/screenshot-coffeegeek-KWXJ5U34.png)
+![Image 9: coffeegeek.com 网站的 Ahrefs Site Explorer 截图，重点展示 AI 引用和搜索指标，其中包括 2,600 次 ChatGPT 引用和 11,700个自然搜索关键词。](images/screenshot-coffeegeek-KWXJ5U34.webp)
 coffeegeek.com 在大量咖啡相关关键词的搜索中名列前茅……同时也频繁出现在与咖啡相关的 AI 对话中。
 
 这真是个好消息，因为我们早就知道如何在搜索引擎中获得排名——这就是 SEO（而你刚刚已经读完了一整本关于它的书）。
@@ -176,7 +176,7 @@ Google 搜索依然能够为您的网站带来大量相关且高质量的流量�
 
 按类别划分的流量 主要类别随时间推移的流量分布。
 
-![Image 10: 折线图显示随时间推移的各渠道网站流量占比。搜索（41.75%）和直接访问（36.40%）为主要流量来源，付费流量占 16.92%，社交渠道占 7.41%，未知来源占 5.54%，而 AI 搜索的占比几乎可忽略不计，仅为0.29%。](images/image-traffic-by-category-TNKGHHMF.png)
+![Image 10: 折线图显示随时间推移的各渠道网站流量占比。搜索（41.75%）和直接访问（36.40%）为主要流量来源，付费流量占 16.92%，社交渠道占 7.41%，未知来源占 5.54%，而 AI 搜索的占比几乎可忽略不计，仅为0.29%。](images/image-traffic-by-category-TNKGHHMF.webp)
 来源：https://chatgpt-vs-google.com/
 
 阻止竞争对手在相关关键词上轻松占据主导地位仍然是一个好策略。即使搜索环境比以前略微缩小，成为最大品牌仍然是最佳选择。即便 SEO 比以前略难或成本更高，它仍然能够带来巨大的投资回报。这才是最重要的。

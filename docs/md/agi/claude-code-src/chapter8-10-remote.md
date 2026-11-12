@@ -1,3 +1,7 @@
+---
+title: "第 8 章 · 远程会话"
+---
+
 Title: 远程会话管理 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/remote.html

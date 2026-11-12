@@ -9,7 +9,7 @@ url: "https://new.web.cafe/tutorial/detail/900n85lbf2"
 
 # 【2025.4.27 哥飞小课堂】工具站流量获取、SEO 竞争逻辑与 "站找站 / 词找词" 实战
 
-![](images/tool-site-traffic-seo-competition/img_001.jpg)
+![](images/tool-site-traffic-seo-competition/img_001.webp)
 
 有不少群友问我，要不要给工具站写博客。其实博客页、工具落地页，做出来都是为了获得流量。有流量了，才有可能带来转化。但是一般工具页面转化效果更好，所以我们网站上线后，会先去做工具落地页。但是工具功能类关键词数量总是有限的，所以我们就需要去做博客页面来承接一些更长尾的需求。
 
@@ -17,11 +17,11 @@ url: "https://new.web.cafe/tutorial/detail/900n85lbf2"
 
 > 比较成功的引流，或者说，比较成功的运营。账号名称表明了自己的业务范围，账号介绍进一步给自己业务打广告。通过编造容易引起评论互动，但又不会引火烧生的案例，获得真实互动和更多的算法推荐，让自己得到很多曝光，从而带来业务转化。其实我们做网站，做工具落地页，或者写博客文章，目的都是为了让自己的网页在搜索结果里多得到曝光，从而带来点击，得到可能的转化。
 
-![图片](images/tool-site-traffic-seo-competition/img_002.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_002.webp)
 
 这个案例，通过在评论区回答问题（有可能是 AI 回复），顺带给自己打广告，也是一个不错的方法。
 
-![图片](images/tool-site-traffic-seo-competition/img_003.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_003.webp)
 
 Devin.ai 的开发商做了 DeepWiki.com 这个免费工具，来接触到更多的开发者。而 Devin.ai 的潜在用户就是开发者。通过这种方式，也是为了让自己的业务得到更多的曝光，从而带来转化。
 
@@ -55,7 +55,7 @@ Devin.ai 的开发商做了 DeepWiki.com 这个免费工具，来接触到更多
 
 如这个提供外链服务的网站，自己的外链都没几个，就没必要从他手上去买外链了。
 
-![图片](images/tool-site-traffic-seo-competition/img_008.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_008.webp)
 
 群里朋友蒋中博做了一个比 `serper.dev` 更便宜的 Google Search API，有需要的可以去用用。社群里的朋友在下面帖子留下注册邮箱，可以得到 5 万次 API 调用额度，相当于价格表里的 19 美元套餐两倍额度。[https://new.web.cafe/topic/47yi7vzqcb](https://new.web.cafe/topic/47yi7vzqcb)
 
@@ -97,29 +97,29 @@ Devin.ai 的开发商做了 DeepWiki.com 这个免费工具，来接触到更多
 
 继续去看这些列出来的链接，更是惊掉下巴，居然是跳转到 `spinthewheel.app` 来实现随机功能的。如下面这个链接，是用来随机 Species 的：[https://spinthewheel.app/oS4Px3BUtD/link](https://spinthewheel.app/oS4Px3BUtD/link)
 
-![图片](images/tool-site-traffic-seo-competition/img_019.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_019.webp)
 
 从这里可以看出来，做 `build-your-own-oc.carrd.co` 的人，不懂技术，但是他懂需求，知道他的用户需要什么。
 
 说实话，我也不太懂 OC 这个需求，于是我就去问 Claude。
 
-![图片](images/tool-site-traffic-seo-competition/img_021.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_019.webp)
 
-![图片](images/tool-site-traffic-seo-competition/img_022.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_022.webp)
 
 我还问了更多的问题，就不一一截图了，大家可以在这个对话分享页面查看 [https://claude.ai/share/d02b94b2-32bc-4b6b-864a-fbad9355db9a](https://claude.ai/share/d02b94b2-32bc-4b6b-864a-fbad9355db9a)
 
 最后一个问题，Claude 回答的五个网站里，前面两个，其实我们群里之前都分享过。第三个网站，我打开一下，这风格，绝对是群里的某位朋友做的。
 
-![图片](images/tool-site-traffic-seo-competition/img_023.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_023.webp)
 
 界面很漂亮，只看界面，其实不容易发现是群友做的，因为大部分群友做的网站，没这么漂亮。
 
-![图片](images/tool-site-traffic-seo-competition/img_024.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_024.webp)
 
 但是看完整个页面，尤其是 footer 部分，我就确定，这就是大家的同学做的。
 
-![图片](images/tool-site-traffic-seo-competition/img_025.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_025.webp)
 
 打开任意一个网站，如果你都想不到要用 AITDK 插件看一下，说明你的条件反射习惯还没养成，还需要多多练习。我们可以看到这个网站 33% 流量来自于自然搜索，主要关键词是 `oc maker` 等。这也是 #站找词 的过程，看到任何一个网站，都需要下意识的去看关键词有哪些。
 
@@ -127,11 +127,11 @@ Devin.ai 的开发商做了 DeepWiki.com 这个免费工具，来接触到更多
 
 关键词有了，当然就要去谷歌搜索下，看看搜索结果，就可以发现更多网站了。会发现，第一名是 `picrew.me`，月访问量差不多 1000 万。这个站我们之前分析过，很有意思，大家可以自行分析一下，查一查这个网站的建站故事。这就是 #词找站 过程。
 
-![图片](images/tool-site-traffic-seo-competition/img_026.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_026.webp)
 
 还是 `oc maker` 的搜索结果，我看到了 `meiker.io` 这个网站，月访问量 866K。挺有意思的网站，提供一个在线工具，让你能够自己去在线制作游戏。
 
-![图片](images/tool-site-traffic-seo-competition/img_028.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_028.webp)
 
 ### 词找词
 
@@ -143,7 +143,7 @@ Devin.ai 的开发商做了 DeepWiki.com 这个免费工具，来接触到更多
 
 有分享页面功能，用户会帮忙扩散，不用想，外链不可能太少，果然，一查，有六百多个外链。
 
-![图片](images/tool-site-traffic-seo-competition/img_031.jpg)
+![图片](images/tool-site-traffic-seo-competition/img_019.webp)
 
 ## 兴趣延伸
 

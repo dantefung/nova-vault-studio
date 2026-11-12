@@ -82,3 +82,7 @@ url: ""
 | 偏产品 UI/设计稿还原 | figma-implement-design、react-best-practices、web-design-guidelines |
 | 偏交互验证/可用性 | playwright、webapp-testing |
 | 偏创意探索 | canvas-design |
+
+---
+
+**相关阅读**：[Claude 做网页怎么能这么好看？设计师把 landing-page-design Skill 公开了](./landing-page-design-skill-breakdown.md)（落地页设计规则的逐条拆解 + 已有站点的 redesign-skill）

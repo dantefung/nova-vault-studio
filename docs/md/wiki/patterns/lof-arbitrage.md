@@ -1,5 +1,5 @@
 ---
-title: "LOF Arbitrage Pattern"
+title: "LOF 套利模式"
 date: "2026-06-13"
 source: "被裁了，用Code X做了个赚钱工具"
 url: "https://mp.weixin.qq.com/s/KMlUUy_reUz83GTIJ1V_8w"

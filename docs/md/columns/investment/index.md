@@ -19,3 +19,4 @@ url: "/columns/investment/"
 | [一级市场与二级市场：金融市场的双生结构](./primary-and-secondary-markets-hv-analysis) | 横纵分析 | 2026-05 |
 | [傅海棠商品交易心法：大周期供需失衡的逆向投资逻辑](./fu-haidian-commodity-trading-philosophy) | 方法论 | 2026-05 |
 | [港卡线上开户超详细攻略（中银香港/汇丰/众安/天星）](./hongkong-bank-online) | 实操攻略 | 2026-06 |
+| [碧树西风：房贷40年，问题是我的前途有没有40年](./bishu-xifeng-housing-loan-40years) | 人生规划 | 2026-09 |

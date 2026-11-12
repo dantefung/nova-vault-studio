@@ -13,7 +13,7 @@ url: "https://new.web.cafe/tutorial/detail/5yyr7zjxk7"
 
 先直接给出定义： V1.0版本：工具页面+博客页面 V1.5版本：工具页面+落地页+博客页面 V2.0版本：精品工具页面=工具功能+落地页图文+工具生成结果列表
 
-![image.png](images/gefei-landing-page-v1-v2-002.png)
+![image.png](images/gefei-landing-page-v1-v2-002.webp)
 
 实际二十年前万兴科技刚出海时，探索出来的玩法是V1.0版本。 后来经验丰富之后，探索出来了V1.5版本。
 
@@ -85,7 +85,7 @@ V1.5版本的最大创新，就是为每一个有搜索量的关键词专门做�
 
 也就是说，用户其实并没有在落地页完成整个需求。
 
-![b13604cef828291afb0c7bdc75376895.png](images/gefei-landing-page-v1-v2-003.png)
+![b13604cef828291afb0c7bdc75376895.png](images/gefei-landing-page-v1-v2-003.webp)
 
 目前，我们观察到大量的AI工具站和传统工具站，都还停留在V1.5模式，也就是落地页是落地页，工具页是工具页，这是两个分开的页面，甚至被放在了两个不同的域名下，在落地页里通过CTA按钮来跳转到工具页使用。
 

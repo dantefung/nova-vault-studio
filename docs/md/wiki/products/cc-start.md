@@ -1,5 +1,5 @@
 ---
-title: "cc_start"
+title: "cc_start 配置管理"
 date: "2026-05-22"
 ---
 

@@ -12,87 +12,87 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
 有个 3 人小团队，基于这个页面的需求，做了一个 App，现在月收入已经有 12 万美金了。请看下图，有图为证。
 
-![](images/30m-site-ai-app-120k-revenue/img_002.png)
+![](images/30m-site-ai-app-120k-revenue/img_002.webp)
 
 在分享网站页面之前，哥飞会把如何发现这个页面的过程完整的告诉大家，让大家以后自己也可以这样去发现更多有流量的网站。
 
 事情要先从 Pinterest.com 说起，这个图片分享社区月访问量已经达到了 11 亿，太牛了。最近哥飞在研究这个网站，看看都是从哪些页面获取流量的。
 
-![](images/30m-site-ai-app-120k-revenue/img_003.png)
+![](images/30m-site-ai-app-120k-revenue/img_003.webp)
 
 这就需要用到 Semrush.com 的 Traffic Analytics 功能，我们输入 Pinterest.com，点击主要页面，就可以看到所有的带来流量的页面。
 
-![](images/30m-site-ai-app-120k-revenue/img_004.png)
+![](images/30m-site-ai-app-120k-revenue/img_004.webp)
 
 可以看到流量排名前几名的都是首页，这种不具有参考意义，所以我们需要拉到底下翻页，一页一页去看。
 
-![](images/30m-site-ai-app-120k-revenue/img_005.png)
+![](images/30m-site-ai-app-120k-revenue/img_005.webp)
 
 看到第三页的时候，终于发现具体的页面了。这些页面一个一个点进去看，看看都是什么页面，到底是什么需求。
 
-![](images/30m-site-ai-app-120k-revenue/img_006.png)
+![](images/30m-site-ai-app-120k-revenue/img_006.webp)
 
 打开红色框出来的页面，长下面这样，关于 "Good Morning Quotes"，即早安问候语的。
 
-![](images/30m-site-ai-app-120k-revenue/img_007.png)
+![](images/30m-site-ai-app-120k-revenue/img_007.webp)
 
 当时哥飞就想，看来全世界人民的喜好都差不多啊，国内的"小来早晚安"公众号篇篇 10 万+，国外则是 Good Morning Quotes 需求大。
 
 于是哥飞就去谷歌搜索这个关键词，结果如下。
 
-![](images/30m-site-ai-app-120k-revenue/img_008.png)
+![](images/30m-site-ai-app-120k-revenue/img_008.webp)
 
 第一名是 Pinterest 的页面，长下面这样，有没有发现，跟上面哥飞截图的不是同一个页面，也就是说，相同的关键词，可以有多个关键词变种，每一个都可以有一个页面来获取流量。
 
-![](images/30m-site-ai-app-120k-revenue/img_009.png)
+![](images/30m-site-ai-app-120k-revenue/img_009.webp)
 
 第二名长下面这样。
 
-![](images/30m-site-ai-app-120k-revenue/img_010.png)
+![](images/30m-site-ai-app-120k-revenue/img_010.webp)
 
 哥飞遇到每一个网站，都会去查一下访问量，结果一查吓一跳，这个网站居然月访问量 3000 多万，即使去重后也有 2059 万。
 
-![](images/30m-site-ai-app-120k-revenue/img_011.png)
+![](images/30m-site-ai-app-120k-revenue/img_011.webp)
 
 后来哥飞去了解了一下，这是美国发行量最大的健康杂志《Parade》的官网，不仅杂志内容丰富，网站内容也丰富多彩。
 
-![](images/30m-site-ai-app-120k-revenue/img_012.png)
+![](images/30m-site-ai-app-120k-revenue/img_012.webp)
 
 这个网站上线已经快要 30 年了，是不是就是哥飞说的《[养网站防老：网站可以做成一生的事业](https://mp.weixin.qq.com/s/URcdE3VaoYoAx0cOcll8_g)》。
 
 于是哥飞又去查了这个网站访问量靠前的网页有哪些。
 
-![](images/30m-site-ai-app-120k-revenue/img_013.png)
+![](images/30m-site-ai-app-120k-revenue/img_013.webp)
 
 访问量第一的页面，就是今天哥飞要给大家介绍的页面，仅仅这一个页面，每个月就能够从搜索引擎拿到 118 万的流量。
 
-![](images/30m-site-ai-app-120k-revenue/img_014.png)
+![](images/30m-site-ai-app-120k-revenue/img_014.webp)
 
 谷歌真是大慈善家，对于优质内容从不吝啬流量，为什么谷歌愿意给流量呢，哥飞之前写了《[哥飞解读：Adsense 生态是谷歌的胜利](https://mp.weixin.qq.com/s/O5vsGGn7Vq_x7smI8OODOw)》来分析，大家可以点过去看。
 
 说回刚才的页面，长下面这样。
 
-![](images/30m-site-ai-app-120k-revenue/img_015.png)
+![](images/30m-site-ai-app-120k-revenue/img_015.webp)
 
 这个网页的内容优化也用到了哥飞之前讲过的站内页面优化六字真言"分门别类罗列"。
 
-![](images/30m-site-ai-app-120k-revenue/img_016.png)
+![](images/30m-site-ai-app-120k-revenue/img_016.webp)
 
 这个页面的主关键词是 "Pick Up Lines"，可以理解为土味情话。
 
 有个名叫 Rizz 的 AI App 就是主打这个功能的，月收入 10 万+ 美元了。
 
-![](images/30m-site-ai-app-120k-revenue/img_017.png)
+![](images/30m-site-ai-app-120k-revenue/img_002.webp)
 
 | TREND IT LLC | Trendlt |
 | --- | --- |
-| ![](images/30m-site-ai-app-120k-revenue/img_018.png) | ![](images/30m-site-ai-app-120k-revenue/img_019.png) |
+| ![](images/30m-site-ai-app-120k-revenue/img_018.webp) | ![](images/30m-site-ai-app-120k-revenue/img_019.webp) |
 
 从 Rizz 官网可以看到他们的创业故事：
 
-![](images/30m-site-ai-app-120k-revenue/img_020.png)
+![](images/30m-site-ai-app-120k-revenue/img_020.webp)
 
-![](images/30m-site-ai-app-120k-revenue/img_021.png)
+![](images/30m-site-ai-app-120k-revenue/img_021.webp)
 
 有了 GPT 的加持后，他们 3 人的小团队，就可以做这么一个月收入 12 万美金的 App，各位正在看哥飞文章的大家，是否也可以呢？
 

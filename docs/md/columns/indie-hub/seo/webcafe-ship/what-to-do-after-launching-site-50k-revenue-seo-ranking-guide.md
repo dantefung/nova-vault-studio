@@ -136,7 +136,7 @@ url: "https://new.web.cafe/tutorial/detail/sk5je1bj0f"
 
 具体有哪些因素，可以看《【哥飞解读】2024年谷歌算法排名因素变化》 [https://mp.weixin.qq.com/s/Jru9k4oGAyiZK1VYFFZRQQ](https://mp.weixin.qq.com/s/Jru9k4oGAyiZK1VYFFZRQQ)
 
-![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_002.png)
+![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_002.webp)
 
 总结一下，能出词，说明在用户搜索某个关键词词，你的网页被从几千亿个页面里找出来了，参与了排名，并且进入了前200名。
 
@@ -170,25 +170,25 @@ url: "https://new.web.cafe/tutorial/detail/sk5je1bj0f"
 
 这个网站，sprunkin.com 就是后来居上的典范，他的域名是10月17号买的，已经晚了20天了，但是他看准了这是一个有大搜索量的关键词，依然参与进来了。 这两三个月的时间，他的流量从3万多涨到了127万，又在12月涨到了304万。 而最近28天，他的访问量是365万，也就是说，1月份他的流量还在增长。
 
-![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_003.png)
+![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_003.webp)
 
-![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_004.png)
+![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_004.webp)
 
 怎么做到的？ 他做了几件事情： 1、不断加外链，现在有878个域名给他外链了； 2、不断上游戏加内页，现在这个站被收录了1330个页面了； 3、不断收集游戏，自己放到CDN里，允许别人链接，但会在iframe里显示他的域名，又能够获得很多点击。
 
 从他的这些动作，我看到了： 1、认准了一个能够赚钱的方向，并且竞争对手都是弱鸡三两只的情况下，用调用自己的资源，不断做大做强。 2、在大竞争对手还没入场时，持续不断的强大自身。 3、之前的第一名 Sprunki.org 外链已经停滞好久了，流量上升曲线也被 Sprunkin.com 打断了，曲线并平缓了。
 
-![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_005.png)
+![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_005.webp)
 
-![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_006.png)
+![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_006.webp)
 
 曾经，是 Sprunki.org 看到了这里的大机会，利用他之前做游戏站的经验，快速把外链提升到了六百多。 当时同行才几个或者几十个外链，他就六百多个外链，顺利拿下了第一名，并且拿下来Sitelinks。
 
 现在 Sprunkin.com 正在复制 Sprunki.org 的打法，并且证明了，这是有效的打法。
 
-![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_007.png)
+![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_007.webp)
 
-![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_008.png)
+![image.png](images/what-to-do-after-launching-site-50k-revenue-seo-ranking-guide/img_008.webp)
 
 我根据我自己同类游戏站的Adsense收入，推算了一下，这两个网站在12月的收入，不一定完全正确，仅供参考。
 

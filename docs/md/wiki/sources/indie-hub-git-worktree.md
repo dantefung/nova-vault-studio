@@ -40,26 +40,26 @@ url: "https://mp.weixin.qq.com/s/zxjYSGzgEoDyrcpdupEQ-w"
 
 ## 配图
 
-![image](../images/indie-hub-git-worktree/001.png)
+![image](../images/indie-hub-git-worktree/001.webp)
 
 *Peter Steinberger 的 Codex 界面：三十多个任务同时在跑*
 
-![image](../images/indie-hub-git-worktree/002.png)
+![image](../images/indie-hub-git-worktree/002.webp)
 
 *分支管「路线」，Worktree 管「现场」*
 
-![image](../images/indie-hub-git-worktree/003.png)
+![image](../images/indie-hub-git-worktree/003.webp)
 
 *全矩阵模式：多条分支 × 多个 Worktree*
 
-![image](../images/indie-hub-git-worktree/004.png)
+![image](../images/indie-hub-git-worktree/004.webp)
 
 *任务拆解能力是第一道分水岭*
 
-![image](../images/indie-hub-git-worktree/005.png)
+![image](../images/indie-hub-git-worktree/005.webp)
 
 *基础设施越稳，敢同时派的 Agent 越多*
 
-![image](../images/indie-hub-git-worktree/006.png)
+![image](../images/indie-hub-git-worktree/006.webp)
 
 *以前一个程序员一个工位（碳基工位），现在带着几十个 AI，每个都得配一个工位（硅基工位）*

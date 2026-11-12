@@ -13,7 +13,7 @@ url: "https://new.web.cafe/tutorial/detail/k9jbug5r3n"
 
 哥飞去补充说明了一下：
 
-![image.png](images/ahrefs-kd-low-explanation/img_002.png)
+![image.png](images/ahrefs-kd-low-explanation/img_002.webp)
 
 SEO 全称是搜索引擎优化，更正确的说法是，面向搜索引擎的需求去做网页。发现需求，理解需求，开发产品，满足需求。了解爬虫原理，让爬虫更容易抓取网站，让爬虫更好地理解网页。理解需求背后的人，为人做功能和服务，通过满足人的需求，而让人在网页里停留，在网站里流连。
 
@@ -63,19 +63,19 @@ SEO 全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
 此时，这个网站的权重，虽然外部链接传递过来的权重会先到了 `/`，但最终会汇聚到了 `/welcome` 页面的。
 
-![image.png](images/ahrefs-kd-low-explanation/img_003.png)
+![image.png](images/ahrefs-kd-low-explanation/img_003.webp)
 
 ### 二、站长有意用内页打排名
 
 另一种情况，就是截图上的这种，站长有意的不用首页来承接需求，而是用内页来搞排名。大家学习挖掘需求时，一定会找到相关的关键词。搜索量巨大，但是 Ahrefs 显示的 KD 巨低。
 
-![image.png](images/ahrefs-kd-low-explanation/img_004.png)
+![image.png](images/ahrefs-kd-low-explanation/img_004.webp)
 
 前几名的网站拿到了大量的访问量，但是关键词的 KD 值居然只有 3，只需要 4 个外链就能够进入首页。
 
 当大家发现这样的关键词时，是不是觉得挖到宝了？
 
-![image.png](images/ahrefs-kd-low-explanation/img_005.png)
+![image.png](images/ahrefs-kd-low-explanation/img_005.webp)
 
 我们用 [https://wheregoes.com/](https://wheregoes.com/) 检测一下跳转情况，我们会发现，站长把首页 `/` 跳转到了内页 `/en-YFhY`。
 
@@ -147,7 +147,7 @@ SEO 全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
 要解答这个问题，我们先聊点别的。 群友 AUDI 发了一条即刻动态，说： 做SEO其实是做搜索，不是做SEO; 做搜索离不开做SEO，不只做SEO。
 
-哥飞去补充说明了一下： ![image.png](images/ahrefs-kd-low-explanation/img_002.png)
+哥飞去补充说明了一下： ![image.png](images/ahrefs-kd-low-explanation/img_002.webp)
 
 SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的需求去做网页。 发现需求，理解需求，开发产品，满足需求。 了解爬虫原理，让爬虫更容易抓取网站，让爬虫更好的理解网页。 理解需求背后的人，为人做功能和服务，通过满足人的需求，而让人在网页里停留，在网站里流连。
 
@@ -177,17 +177,17 @@ SEO全称是搜索引擎优化，更正确的说法是，面向搜索引擎的�
 
 此时，这个网站的权重，虽然外部链接传递过来的权重会先到了/，但最终会汇聚到了 /welcome 页面的。
 
-![image.png](images/ahrefs-kd-low-explanation/img_003.png)
+![image.png](images/ahrefs-kd-low-explanation/img_003.webp)
 
 另一种情况，就是截图上的这种，站长有意的不用首页来承接需求，而是用内页来搞排名。 大家学习挖掘需求时，一定会找到相关的关键词。 搜索量巨大，但是Ahrefs显示的KD巨低。
 
-![image.png](images/ahrefs-kd-low-explanation/img_004.png)
+![image.png](images/ahrefs-kd-low-explanation/img_004.webp)
 
 前几名的网站拿到了大量的访问量，但是关键词的KD值居然只有3，只需要4个外链就能够进入首页。
 
 当大家发现这样的关键词时，是不是觉得挖到宝了？
 
-![image.png](images/ahrefs-kd-low-explanation/img_005.png)
+![image.png](images/ahrefs-kd-low-explanation/img_005.webp)
 
 我们用 [https://wheregoes.com/](https://wheregoes.com/) 检测一下跳转情况，我们会发现，站长把首页 / 跳转到了内页 /en-YFhY 。
 

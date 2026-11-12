@@ -1,3 +1,7 @@
+---
+title: "第 4 章 · 认证授权"
+---
+
 Title: 认证授权 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/services/oauth.html

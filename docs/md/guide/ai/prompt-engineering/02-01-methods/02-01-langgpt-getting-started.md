@@ -41,7 +41,7 @@ graph LR
 # LangGPT — 人人都能写出高质量提示词
 
 
-![](../images/langgpt-logo.jpg)
+![](../images/langgpt-logo.webp)
 
 * **作者：云中江树**
 

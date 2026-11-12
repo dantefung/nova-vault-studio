@@ -33,6 +33,14 @@ grill-me 会针对每个决策点追问：
 
 直到被问者无法继续回答，或明确说「这个分支我还没想清楚」——这本身就是有价值的输出。
 
+## 开发大型项目时的组合用法
+
+```bash
+npx skills add mattpocock/skills --skill grill-with-docs grill-me
+```
+
+**关键要求**：在使用这两个 skill 时，必须让 agent 把决策过程和结论全部沉淀到项目的 `docs/` 目录下（见 [grill-with-docs](./grill-with-docs.md)）。
+
 ## 参见
 
 - GitHub: [mattpocock/skills](https://github.com/mattpocock/skills)

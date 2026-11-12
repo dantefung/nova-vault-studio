@@ -27,13 +27,13 @@ url: "https://mp.weixin.qq.com/s/i4rVkK12W5sRI8T3Drk-rw"
 
 全部保存到创作内容库，变成 AI 能调用的上下文。写文章时 AI 带着你全部的阅读积累上场。
 
-![](images/001.png)
+![](images/001.webp)
 
-![](images/002.png)
+![](images/002.webp)
 
-![](images/003.png)
+![](images/003.webp)
 
-![](images/004.png)
+![](images/004.webp)
 
 ### 第二层：创作层——选题和编写
 
@@ -46,7 +46,7 @@ url: "https://mp.weixin.qq.com/s/i4rVkK12W5sRI8T3Drk-rw"
 
 写作风格文档、历史文章索引、审稿标准都在内容库里，根据写的文章实时更新。AI 读完这些再动笔，比任何写作神器都好使。
 
-![](images/005.png)
+![](images/005.webp)
 
 ### 第三层：排版层——文字转多模态
 
@@ -63,9 +63,9 @@ url: "https://mp.weixin.qq.com/s/i4rVkK12W5sRI8T3Drk-rw"
 
 **核心原则**：内容只写一次，形态交给工具。
 
-![](images/006.png)
+![](images/006.webp)
 
-![](images/007.png)
+![](images/007.webp)
 
 视频制作方面，现阶段可以稳定把文字转 B-roll：
 - 任意内容转成创意视频
@@ -81,7 +81,7 @@ url: "https://mp.weixin.qq.com/s/i4rVkK12W5sRI8T3Drk-rw"
 
 **从一条链接到两个平台的成品，人做的事情只剩三样：做判断、写正文、挑结果。**
 
-![](images/008.png)
+![](images/008.webp)
 
 ## 三个开源仓库
 

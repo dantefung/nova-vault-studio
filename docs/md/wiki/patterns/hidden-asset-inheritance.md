@@ -1,5 +1,5 @@
 ---
-title: "Hidden Asset Inheritance"
+title: "原生家庭财富传承"
 date: "2026-06-17"
 source: "隐性资产传承"
 url: ""

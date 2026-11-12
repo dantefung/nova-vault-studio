@@ -1,5 +1,5 @@
 ---
-title: "Excalidraw MCP Integration Guide"
+title: "Excalidraw MCP 集成指南"
 date: "2026-05-08"
 source: "GitHub awesome-agent-skills"
 url: "https://github.com/libukai/awesome-agent-skills"

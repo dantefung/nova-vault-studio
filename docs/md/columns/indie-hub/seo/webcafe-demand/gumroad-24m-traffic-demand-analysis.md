@@ -12,19 +12,19 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
 先介绍下 Gumroad，这是一个海外虚拟产品销售平台，卖家简单设置就可以得到一个链接，然后到处去宣传推广，别人从链接点进去，就能够购买产品。
 
-![](images/gumroad-24m-traffic-demand-analysis/img_002.png)
+![](images/gumroad-24m-traffic-demand-analysis/img_002.webp)
 
 我们先看下 Gumroad 的流量数据，打开 Similarweb 可以看到，目前 Gumroad 月访问量是 2445 万，人均访问 4 个页面，平均停留时间接近 3 分钟。
 
-![](images/gumroad-24m-traffic-demand-analysis/img_003.png)
+![](images/gumroad-24m-traffic-demand-analysis/img_003.webp)
 
 主要流量来源是社交传播和外链，也即是卖家自发的宣传推广。再就是自然搜索，也就是说这些产品也是能够从谷歌等搜索引擎获取到流量的。
 
-![](images/gumroad-24m-traffic-demand-analysis/img_004.png)
+![](images/gumroad-24m-traffic-demand-analysis/img_004.webp)
 
 打开 Gumroad 的发现页面，可以看到好多各种各样的商品。
 
-![](images/gumroad-24m-traffic-demand-analysis/img_005.png)
+![](images/gumroad-24m-traffic-demand-analysis/img_005.webp)
 
 那么怎么找到那些高流量的产品呢？
 
@@ -38,15 +38,15 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
 方法很简单，打开 Semrush，输入 Gumroad.com，点击流量分析，点击主要页面，然后就可以针对查询出来的结果进行分析了。
 
-![](images/gumroad-24m-traffic-demand-analysis/img_006.png)
+![](images/gumroad-24m-traffic-demand-analysis/img_006.webp)
 
 哥飞拿几个页面给大家做个示范，这里边有一些是 Gumroad 的网站功能页面，我们忽略掉，往下看，看到第 9 个，展开之后可以看到，主要流量来自于社交平台，从 10 月份才开始有流量的，11 月就到了二十多万访问量。
 
-![](images/gumroad-24m-traffic-demand-analysis/img_007.png)
+![](images/gumroad-24m-traffic-demand-analysis/img_007.webp)
 
 我们打开这个页面看一看，原来是卖颜值打分服务的。
 
-![](images/gumroad-24m-traffic-demand-analysis/img_008.png)
+![](images/gumroad-24m-traffic-demand-analysis/img_008.webp)
 
 最低 8 欧元，还有 17 欧元和 28 欧元的套餐，总共卖了 1055 份，假设平均 10 欧元算，总共卖了 10550 欧元，也就是 8.2 万人民币左右。
 
@@ -72,7 +72,7 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
 我们回到 Gumroad 的流量页面列表，选择按照"自然搜索"从高到低排序，就能够找到了。
 
-![](images/gumroad-24m-traffic-demand-analysis/img_009.png)
+![](images/gumroad-24m-traffic-demand-analysis/img_009.webp)
 
 这些页面，大家可以自己去看，哥飞就不给大家演示了。
 
@@ -97,7 +97,7 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
   > 打卡，Semrush 后台改版的现在不知道怎么看文章中演示的操作了。
 
 - **殷小样** · 2025-07-20 20:59
-  > 打开 semrush，点击「流量与市场」➡️「主要页面」，输入 gumroad.com![](images/gumroad-24m-traffic-demand-analysis/img_017.png)
+  > 打开 semrush，点击「流量与市场」➡️「主要页面」，输入 gumroad.com![](images/gumroad-24m-traffic-demand-analysis/img_017.webp)
 
 - **金鱼Evan** · 2025-07-27 12:31
   > 殷小样

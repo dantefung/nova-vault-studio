@@ -7,17 +7,134 @@ date: "2026-05-29"
 
 > 待采集/待阅读的内容链接
 
+## Books
+
+| 日期 | 链接 | 备注 |
+|------|------|------|
+| 2026-09-14 | https://www.goodreads.com/en/book/show/43190966-refactoring-ui | **Refactoring UI** — 设计/前端重构经典 |
+| 2026-09-14 | https://x.com/jinli_lg/status/2099120598509310039 | **金力**（科大讯飞研发）：待查看 |
+| 2026-09-14 | https://x.com/RiverAi7z/status/2099124247667044548 | **RiverAi7z（@RiverAi7z）**：Pi 的 Session Control——让不同终端里的 Coding Agent 直接互相发消息 → 已归档 ([riverai-pi-session-control-cross-agent-messaging](/md/wiki/sources/riverai-pi-session-control-cross-agent-messaging)) |
+| 2026-09-14 | https://x.com/thomaszhou_/status/2099031634016424239 | **Thomas Zhou（@thomaszhou_）**：心流已死 → 已归档 ([thomas-zhou-flow-is-dead](/md/wiki/sources/thomas-zhou-flow-is-dead)) |
+| 2026-09-14 | https://x.com/xiaoniaoziming/status/2098410586547908668 | **周小鸟开窍（@xiaoniaoziming）**：如何躺着赚钱——从 20 岁到现在的躺赚体系 → 已归档 ([xiaoniaoziming-lie-down-income-system-20-to-now](/md/wiki/sources/xiaoniaoziming-lie-down-income-system-20-to-now)) |
+| 2026-09-14 | https://x.com/jarvis11x/status/2099027597074083969 | **待查看** |
+| 2026-09-14 | https://x.com/xiaoerzhan/status/2099707280845332534 | **小耳👂Jane｜Xiaoer（@xiaoerzhan）**：不出境不开香港公司，给自己的产品接上全球收款 → 已归档 ([xiaoer-global-payout-without-hk-company](/md/wiki/sources/xiaoer-global-payout-without-hk-company)) |
+| 2026-09-14 | https://x.com/Sukiea1008/status/2099448521237950868 | **Su（@Sukiea1008）**：【全文中译】Vibe Marketing 如何成为营销工程师 → 已归档 ([su-vibe-marketing-translation](/md/wiki/sources/su-vibe-marketing-translation)) |
+| 2026-09-14 | https://x.com/leoshen0/status/2099641267726758095 | **川处安（@leoshen0）**：一篇速通入门——重新理解 AI Agent 的一切 → 已归档 ([leoshen-ai-agent-quickstart-rethinking](/md/wiki/sources/leoshen-ai-agent-quickstart-rethinking)) |
+| 2026-09-14 | https://x.com/yhslgg/status/2068317116831510838 | **老杨啊｜AI产品商业化（@yhslgg）**：网警同款开盒思路——查人查公司查设备，五个免费开源工具 → 已归档 ([laoyang-5-free-osint-tools-for-people-and-companies](/md/wiki/sources/laoyang-5-free-osint-tools-for-people-and-companies)) |
+| 2026-09-14 | https://x.com/Jackywxsz/status/2099816894350110997 | **Jacky无限生长（@Jackywxsz）**：全流程｜如何用 Grok Bot 做自媒体？ → 已归档 ([jacky-infinite-growth-grok-bot-social-media-workflow](/md/wiki/sources/jacky-infinite-growth-grok-bot-social-media-workflow)) |
+| 2026-09-19 | https://x.com/aikangarooking/status/2101488328340390197 | **袋鼠帝（@aikangarooking）**：爆肝 30 天开源让 AI 课程卖家集体失业的网站 → 已归档 ([aikangarooking-open-source-ai-course-selling-website](/md/wiki/sources/aikangarooking-open-source-ai-course-selling-website)) |
+| 2026-09-19 | https://x.com/kongge_space/status/2101184069509747014 | **空格.space（@kongge_space）**：这个 Skill 把你的简历部署成个人网站 → 已归档 ([kongge-space-resume-as-personal-website-skill](/md/wiki/sources/kongge-space-resume-as-personal-website-skill)) |
+| 2026-09-19 | https://x.com/kongge_space/status/2101184069509747014 | **空格.space（@kongge_space）**：这个 Skill 把你的简历部署成个人网站 → 已归档 ([kongge-space-resume-as-personal-website-skill](/md/wiki/sources/kongge-space-resume-as-personal-website-skill)) |
+| 2026-09-19 | https://x.com/HiTw93/status/2070520116547375446 | **Tw93（@HiTw93）**：走在前面，还是被推着走 → 已归档 ([tw93-leading-vs-being-pushed-forward](/md/wiki/sources/tw93-leading-vs-being-pushed-forward)) |
+| 2026-09-20 | https://x.com/Jason_Young1231/status/2101235834787905671 | **Jason Young（@Jason_Young1231）**：Claude 是如何记住你的项目的？——Claude Code 项目级记忆功能 → 已归档 ([jason-young-claude-code-project-level-memory](/md/wiki/sources/jason-young-claude-code-project-level-memory)) |
+
+---
+
 ## X / Twitter
 
 | 日期 | 链接 | 备注 |
 |------|------|------|
-| 2026-07-26 | https://x.com/i/status/2062080784572534958 | 待查看 |
-| 2026-07-26 | https://x.com/i/status/2079935421459366178 | 待查看 |
-| 2026-07-26 | https://x.com/i/status/2080467501633478757 | **Fred-New**：GitHub信息差套利8法——remote-job/ai-money-maker/TelegramGroup/awesome-list/ai-goofish-monitor/n8n/awesome-public-datasets/awesome-systematic-trading，信息差从来不值钱，执行力才值钱 |
+| 2026-07-26 | https://x.com/i/status/2062080784572534958 | **Adrian Punk（@AdrianPunk115）**：想做高级咨询风视觉？麦肯锡风格提示词可直接复制 → 已归档 ([adrian-mckinsey-style-consulting-visual-prompts](/md/wiki/sources/adrian-mckinsey-style-consulting-visual-prompts)) |
+| 2026-07-26 | https://x.com/i/status/2079935421459366178 | **AI, Ads & Apps（@AIAdsApps）**：如何找到已经有人等着付钱的 App 点子（10 万美元/月案例） → 已归档 ([ai-ads-apps-find-app-idea-people-already-waiting-to-pay](/md/wiki/sources/ai-ads-apps-find-app-idea-people-already-waiting-to-pay)) |
+| 2026-07-26 | https://x.com/i/status/2080467501633478757 | **Fred-New（@Fred834567）**：GitHub 信息差套利 8 法——8 个可立即变现的仓库 → 已归档 ([fred-new-github-information-arbitrage-8-methods](/md/wiki/sources/fred-new-github-information-arbitrage-8-methods)) |
 | 2026-07-26 | — | **躺赚vs辛苦钱**：卖铲子思维——搬视频/盯盘/跪富婆都是辛苦钱，卖工具/课/软件才是躺赚。选边比努力重要一万倍。所有人在赌时，最稳生意是卖入场券 |
-| 2026-07-15 | https://x.com/i/status/2076966319031996776 | **张子俊**：把12台iPhone 8变成增长机房——@julianivaldy 把内部实验做成公开作品集再变现，预估年流水六位数人民币，TikTok增长服务 |
-| 2026-07-15 | https://x.com/i/status/2076554713336512758 | 待查看 |
-| 2026-07-15 | https://x.com/i/status/2076887045906256305 | 待查看 |
+| 2026-07-15 | https://x.com/i/status/2076966319031996776 | **张子俊（@wuxindehuaft）**：把 12 台 iPhone 8 变成增长机房：内部实验做成公开作品集再变现 → 已归档 ([zhangzijun-12-iphone-8-growth-server-monetization](/md/wiki/sources/zhangzijun-12-iphone-8-growth-server-monetization)) |
+| 2026-09-21 | https://x.com/ainotes_KK/status/2102251206580047933 | **KK的AI笔记（@ainotes_KK）**：OPC 出海必备工具：万里汇获取海外地址证明完整教程 → 已归档 ([kk-ai-notes-opc-wanlihui-overseas-address-proof](/md/wiki/sources/kk-ai-notes-opc-wanlihui-overseas-address-proof)) |
+| 2026-09-21 | https://x.com/leo_xiaolei/status/2102013053084545433 | **刘老板（@leo_xiaolei）**：AI 人物一致性控制与角色卡制作 Skill → 已归档 ([leo-xiaolei-ai-character-consistency-skill](/md/wiki/sources/leo-xiaolei-ai-character-consistency-skill)) |
+| 2026-09-21 | https://x.com/shaozhu93314/status/2047186395555590428 | **杨进（@shaozhu93314）**：构建 IP 系统的底层架构 → 已归档 ([yangjin-ip-system-underlying-architecture](/md/wiki/sources/yangjin-ip-system-underlying-architecture)) |
+| 2026-09-21 | https://x.com/HanZhang415188/status/2100857704617316717 | **Simon聊AI（@HanZhang415188）**：用 AI 做热点长视频：单条 108 万播放，3 天涨粉近万 → 已归档 ([simon-ai-hot-topic-long-video-1-08m-views](/md/wiki/sources/simon-ai-hot-topic-long-video-1-08m-views)) |
+| 2026-09-21 | https://x.com/CrazyKaomei/status/2099775364965061013 | **疯狂的烤妹儿（@CrazyKaomei）**：月涨粉 5w 还能出海赚美金——古风武侠英语剧长青打法 → 已归档 ([crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook](/md/wiki/sources/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook)) |
+| 2026-09-21 | https://x.com/miles_mazy/status/2102018333499707492 | **Miles Ma（@miles_mazy）**：零基础入门 AI，看完这篇就够了（避免买课被割韭菜） → 已归档 ([miles-ma-ai-beginner-guide-no-courses](/md/wiki/sources/miles-ma-ai-beginner-guide-no-courses)) |
+| 2026-09-21 | https://x.com/bbkirstry/status/2102373925309338097 | **小晚不在（@bbkirstry）**：推特起号焚诀 → 已归档 ([xiaowan-x-account-startup-strategy-3000-followers](/md/wiki/sources/xiaowan-x-account-startup-strategy-3000-followers)) |
+| 2026-09-21 | https://github.com/cyberxiaowan/cyber-xiaowan | 待查看 |
+| 2026-09-21 | https://x.com/Chilljccu/status/2102228308218061178 | 待查看 |
+| 2026-09-21 | https://x.com/liangzhu_AI/status/2103402474677670352 | **良竹（@liangzhu_AI）**：产品出海第一步：选择比努力重要 100 倍 → 已归档 ([liangzhu-product-selection-before-building](/md/wiki/sources/liangzhu-product-selection-before-building)) |
+| 2026-09-21 | https://x.com/AdrianPunk115/status/2103061280747819471 | **Adrian Punk（@AdrianPunk115）**：用 WorkBuddy 做老板爱看的 PPT → 已归档 ([adrian-workbuddy-boss-friendly-ppt](/md/wiki/sources/adrian-workbuddy-boss-friendly-ppt)) |
+| 2026-09-21 | https://x.com/heizolshao/status/2103130112334160020 | **左海（@heizolshao）**：空气炸锅独立站靠 Reddit 和 AI 搜索把日单从 30 做上 210 → 已归档 ([heizolshao-air-fryer-site-reddit-and-ai-search-growth](/md/wiki/sources/heizolshao-air-fryer-site-reddit-and-ai-search-growth)) |
+| 2026-09-21 | https://x.com/jolestar/status/2103363660404142386 | **jolestar（@jolestar）**：Holon 是什么，以及我为什么要做 Holon → 已归档 ([jolestar-what-is-holon-and-why-build-it](/md/wiki/sources/jolestar-what-is-holon-and-why-build-it)) |
+| 2026-09-28 | https://x.com/dotey/status/2094624092015992854 | **宝玉（@dotey）**：腾讯学堂：AI 原生思维——像训练大模型一样训练自己 → 已归档 ([dotey-ai-native-thinking-train-yourself-like-an-llm](/md/wiki/sources/dotey-ai-native-thinking-train-yourself-like-an-llm)) |
+| 2026-09-28 | https://x.com/xaiwind/status/2104039563719262546 | **想风（@xaiwind）**：超详细的 GitHub 教程，从入门到精通 → 已归档 ([xaiwind-github-complete-beginner-to-master-guide](/md/wiki/sources/xaiwind-github-complete-beginner-to-master-guide)) |
+| 2026-09-28 | https://x.com/longhaiqwe123/status/2104223930253021355 | **龙海（@longhaiqwe123）**：讲清楚育儿的第一性原理 → 已归档 ([longhai-parenting-first-principles-comprehensive-guide](/md/wiki/sources/longhai-parenting-first-principles-comprehensive-guide)) |
+| 2026-09-28 | https://x.com/noahduck283/status/2070718724282458257 | **诺鸭船长3（@noahduck283）**：Stripe 全网最全使用指南：从入门到榨干 → 已归档 ([noahduck-stripe-complete-guide-from-beginner-to-advanced](/md/wiki/sources/noahduck-stripe-complete-guide-from-beginner-to-advanced)) |
+| 2026-09-28 | https://x.com/hezhiyan7/status/2017385824833442254 | **droidHZ（@hezhiyan7）**：月入3千刀达成，网站出海内容整理 → 已归档 ([hezhiyan-outsea-3000usd-monthly-content-digest](/md/wiki/sources/hezhiyan-outsea-3000usd-monthly-content-digest)) |
+| 2026-09-28 | https://x.com/GoSailGlobal/status/2075469627656904973 | **Jason Zhu（@GoSailGlobal）**：做 AI 工具站要装哪些 SEO 工具？踩坑 15 个后的完整清单 → 已归档 ([gosailglobal-ai-tools-seo-checklist-15-pitfalls](/md/wiki/sources/gosailglobal-ai-tools-seo-checklist-15-pitfalls)) |
+| 2026-09-28 | https://x.com/hezhiyan7/status/2064490910914908564 | **droidHZ（@hezhiyan7）**：从推广渠道找需求 → 已归档 ([hezhiyan-finding-demands-from-promotion-channels](/md/wiki/sources/hezhiyan-finding-demands-from-promotion-channels)) |
+| 2026-09-29 | https://x.com/xingjia520/status/2105671052739362840 | **星佳（@xingjia520）**：存款不到 100 万的年轻人生存清单 → 已归档 ([xingjia-young-adults-net-worth-under-1m-survival-checklist](/md/wiki/sources/xingjia-young-adults-net-worth-under-1m-survival-checklist)) |
+| 2026-09-29 | https://x.com/weichen_ink/status/2105889953511285092 | **微尘印记（@weichen_ink）**：为什么建议自媒体和独立开发者办个体工商户 → 已归档 ([weichen-why-creators-should-register-sole-proprietorship](/md/wiki/sources/weichen-why-creators-should-register-sole-proprietorship)) |
+| 2026-09-29 | https://x.com/wquguru/status/2106041666922783181 | **WquGuru（@wquguru）**：普通人的 Claude 订阅方案完整版 → 已归档 ([wquguru-claude-subscription-complete-guide-from-scratch](/md/wiki/sources/wquguru-claude-subscription-complete-guide-from-scratch)) |
+| 2026-09-29 | https://x.com/jinchenma_ai/status/2106147337827738006 | **金尘马（@jinchenma_ai）**：常用 AI 工具与选择逻辑 → 已归档 ([jinchenma-ai-tools-landscape-and-selection-guide](/md/wiki/sources/jinchenma-ai-tools-landscape-and-selection-guide)) |
+| 2026-09-29 | https://x.com/alswl/status/2107157509089935464 | **Jingchao（@alswl）**：AI Native 时代的工作方式：从信息到交付 → 已归档 ([alswl-ai-native-workstyle-from-info-to-delivery](/md/wiki/sources/alswl-ai-native-workstyle-from-info-to-delivery)) |
+| 2026-09-29 | https://x.com/yanliudreamer/status/2107347120110109062 | **Dreameryanyan（@yanliudreamer）**：如果只有 1 万美元，我会怎么开始投资美股？ → 已归档 ([yanliudreamer-10k-usd-us-stocks-investment-blueprint](/md/wiki/sources/yanliudreamer-10k-usd-us-stocks-investment-blueprint)) |
+| 2026-09-29 | https://x.com/elliothux/status/2100935462680752511 | **Elliot（@elliothux）**：我把 Cloudflare 开源了 → 已归档 ([elliothux-open-source-cloudflare-workers-architecture](/md/wiki/sources/elliothux-open-source-cloudflare-workers-architecture)) |
+| 2026-09-29 | https://x.com/minaoneday/status/2104061377442676927 | **Mina（@minaoneday）**：丝袜材质提示词 Skill → 已归档 ([minaoneday-stockings-texture-prompt-engineering-skill](/md/wiki/sources/minaoneday-stockings-texture-prompt-engineering-skill)) |
+| 2026-09-29 | https://x.com/xaiwind/status/2108205644033806837 | **想风（@xaiwind）**：Codex 自媒体运营 Skill 大全（20 个） → 已归档 ([xaiwind-codex-20-social-media-skills-one-man-team](/md/wiki/sources/xaiwind-codex-20-social-media-skills-one-man-team)) |
+| 2026-09-29 | https://x.com/Yooeec3/status/2107796524587757621 | **Yooee（@Yooeec3）**：像亲妈一样手把手教你 0 粉新号在小红书完成「流量→收钱」闭环 → 已归档 ([yooee-xiaohongshu-zero-followers-monetization-blueprint](/md/wiki/sources/yooee-xiaohongshu-zero-followers-monetization-blueprint)) |
+| 2026-09-29 | https://x.com/miles_mazy/status/2108125197266198942 | **Miles Ma（@miles_mazy）**：零基础入门出海指南 → 已归档 ([miles-mazy-zero-to-one-overseas-guide](/md/wiki/sources/miles-mazy-zero-to-one-overseas-guide)) |
+| 2026-09-29 | https://x.com/KinGao476942/status/2108132811635032316 | **Kin（@KinGao476942）**：如何把 Grok Bot 接入你的微信？ → 已归档 ([kingao-grok-bot-wechat-integration-guide](/md/wiki/sources/kingao-grok-bot-wechat-integration-guide)) |
+| 2026-09-29 | https://x.com/yhslgg/status/2108022272095408163 | **老杨啊（@yhslgg）**：剪映/百度网盘 SVIP 年卡会员短视频&直播带货 0~1 → 已归档 ([yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop](/md/wiki/sources/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop)) |
+| 2026-09-29 | https://x.com/yhslgg/status/2104418460919058651 | **老杨啊（@yhslgg）**：AI 美女图文自媒体变现 SOP → 已归档 ([yhslgg-ai-beauty-photo-monetization-sop](/md/wiki/sources/yhslgg-ai-beauty-photo-monetization-sop)) |
+| 2026-09-29 | https://x.com/yaojingang/status/2108106577408389217 | **姚金刚（@yaojingang）**：开源 17 套知识付费提示词 → 已归档 ([yaojingang-17-knowledge-monetization-prompt-templates](/md/wiki/sources/yaojingang-17-knowledge-monetization-prompt-templates)) |
+| 2026-09-29 | https://x.com/WolfMoneyNotes/status/2077624635105980561 | **狼哥搞钱笔记：公众号贴图正在制造新一批"闷声赚钱"的人** ~~已采集~~ → 已归档至 [sources/wechat-tietu-money-playbook](/md/wiki/sources/wechat-tietu-money-playbook) |
+| 2026-09-29 | https://x.com/qihang_zeng6688/status/2082293843353821306 | **启航：7天收入破百，1篇收入破千，微信贴图号的风口** ~~已采集~~ → 已归档至 [sources/wechat-tietu-project-breakdown](/md/wiki/sources/wechat-tietu-project-breakdown) |
+| 2026-09-29 | https://x.com/yang02010/status/2092727972486885653 | **牙仔（@yang02010）**：公众号贴图新人第 8 天 110 万阅读，单日变现 1500+ → 已归档 ([yangzai-wechat-tietu-1-1m-reads-1500-daily-income](/md/wiki/sources/yangzai-wechat-tietu-1-1m-reads-1500-daily-income)) |
+| 2026-09-29 | https://x.com/lxfater/status/2049019768456241273 | **铁锤人（@lxfater）**：GPT Image 2 爆火，自动化生图套利（附 6 个真实需求案例） → 已归档 ([lxfater-gpt-image-2-automation-arbitrage-cases](/md/wiki/sources/lxfater-gpt-image-2-automation-arbitrage-cases)) |
+| 2026-09-29 | https://x.com/songsong/status/2091850341235200462 | **宋宋：拆解一个公众号蓝海赛道（银发经济）** ~~已采集~~ → 已归档至 [sources/wechat-silver-economy-niche](/md/wiki/sources/wechat-silver-economy-niche) |
+| 2026-09-29 | https://x.com/king1818888/status/2075904679494680643 | **Kimberly（@king1818888）**：有嘴就行！小白零门槛，AI 一键生成小红书和公众号内容 → 已归档 ([kimberly-ai-one-click-content-generator-for-xhs-and-wechat](/md/wiki/sources/kimberly-ai-one-click-content-generator-for-xhs-and-wechat)) |
+| 2026-09-29 | https://x.com/kongge_space/status/2092902850821337330 | **空格.space（@kongge_space）**：10 个 Skill 搭建日更爆文的公众号写作系统 → 已归档 ([kongge-space-10-skills-daily-explosive-wechat-article-system](/md/wiki/sources/kongge-space-10-skills-daily-explosive-wechat-article-system)) |
+| 2026-09-29 | https://x.com/aronhouyu/status/2109278797879205910 | **Aron厚玉（@aronhouyu）**：用 AI 搭建流量上升词自动发现与批量选题流水线 → 已归档 ([aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline](/md/wiki/sources/aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline)) |
+| 2026-09-29 | https://x.com/miles_mazy/status/2109209546853876202 | **Miles Ma（@miles_mazy）**：出海赚美金系列｜SEO 保姆级教程 → 已归档 ([miles-mazy-outsea-usd-seo-comprehensive-tutorial](/md/wiki/sources/miles-mazy-outsea-usd-seo-comprehensive-tutorial)) |
+| 2026-09-29 | https://x.com/wlzh/status/2109190638512263418 | **M.（@wlzh）**：人在国内却有美国税号、美国地址和手机号：美国云居民扫盲 → 已归档 ([wlzh-us-cloud-resident-ssn-ein-address-phone-guide](/md/wiki/sources/wlzh-us-cloud-resident-ssn-ein-address-phone-guide)) |
+| 2026-09-29 | https://x.com/pinminlw/status/2109114972882063619 | **pinminlw（@pinminlw）**：马来西亚个人税号（TIN）免费申请攻略 → 已归档 ([pinminlw-malaysia-personal-tax-number-tin-online-guide](/md/wiki/sources/pinminlw-malaysia-personal-tax-number-tin-online-guide)) |
+| 2026-09-29 | https://x.com/Lniosytest/status/2109104141758828738 | **李天才（@Lniosytest）**：美卡转运回国教程：Anytime Mailbox + PirateShip → 已归档 ([tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship](/md/wiki/sources/tiancai-us-credit-card-forwarding-anytime-mailbox-pirateship)) |
+| 2026-09-29 | https://x.com/EianLu/status/2109224106499666407 | **Eian（@EianLu）**：ChatGPT Intelligent UI 10 个代表性玩法 → 已归档 ([eian-chatgpt-intelligent-ui-10-cases-and-prompts](/md/wiki/sources/eian-chatgpt-intelligent-ui-10-cases-and-prompts)) |
+| 2026-09-29 | https://x.com/Pluvio9yte/status/2108914756354797668 | **雪踏乌云（@Pluvio9yte）**：Cloudflare 域名邮箱每月 5 美金保姆级教程 → 已归档 ([pluviobyte-cloudflare-domain-email-5usd-monthly-guide](/md/wiki/sources/pluviobyte-cloudflare-domain-email-5usd-monthly-guide)) |
+| 2026-09-29 | https://x.com/hiwise_aigc/status/2109255757845914013 | **启明破晓（@hiwise_aigc）**：8G 显存也能跑：Qwen-Image-2.1-Turbo 本地部署 8 步出图 → 已归档 ([hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy](/md/wiki/sources/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy)) |
+| 2026-09-29 | https://x.com/ChainEpic/status/2109139518322594287 | **Roland（@ChainEpic）**：开源多搜索引擎控制台仪表盘——Google、Bing 与 Yandex 数据聚合 → 已归档 ([chainepic-self-hosted-search-console-dashboard-opensource](/md/wiki/sources/chainepic-self-hosted-search-console-dashboard-opensource)) |
+| 2026-09-29 | https://x.com/indie_maker_fox/status/2108396358520717759 | **Fox（@indie_maker_fox）**：如何让 AI 帮助我们理解 AI 的输出 → 已归档 ([fox-how-ai-helps-us-understand-ai-output](/md/wiki/sources/fox-how-ai-helps-us-understand-ai-output)) |
+| 2026-09-29 | https://x.com/Tom_CC_9986/status/2108512799517450287 | **Tom CC（@Tom_CC_9986）**：用 Opus 5.5 起号真的太爽了 → 已归档 ([tomcc-claude-opus-5-5-account-growth-playbook](/md/wiki/sources/tomcc-claude-opus-5-5-account-growth-playbook)) |
+| 2026-09-29 | https://x.com/AndyL5cc/status/2109472295299535250 | **Andy L（@AndyL5cc）**：我用 AI 做了一个自动赚钱的网站：客户自己下单，我睡觉也能收钱 → 已归档 ([andyl-ai-automated-revenue-generating-website-guide](/md/wiki/sources/andyl-ai-automated-revenue-generating-website-guide)) |
+| 2026-09-29 | https://x.com/wangzaimedia/status/2109485189357306357 | **汪仔（@wangzaimedia）**：个人 IP 的三字真经：抄，超，钞 → 已归档 ([wangzai-personal-ip-three-word-mantra-copy-surpass-monetize](/md/wiki/sources/wangzai-personal-ip-three-word-mantra-copy-surpass-monetize)) |
+| 2026-09-29 | https://x.com/houzhongji89090/status/2109607529290567823 | **Zhong Jian（@houzhongji89090）**：10 个值得收藏的 SEO 外链交易平台 → 已归档 ([zhongjian-10-curated-seo-backlinks-trading-platforms](/md/wiki/sources/zhongjian-10-curated-seo-backlinks-trading-platforms)) |
+| 2026-09-29 | https://x.com/DongQingAsk/status/2108373211285266465 | **董晴（@DongQingAsk）**：小红书极简选品与起号逻辑 → 已归档 ([dongqing-xhs-product-selection](/md/wiki/sources/dongqing-xhs-product-selection)) |
+| 2026-09-29 | https://x.com/heizolshao/status/2109787075289706639 | **左海（@heizolshao）**：Reddit 社区分层精细化运营实战指南 → 已归档 ([heizolshao-reddit-tiered-community-operations-playbook](/md/wiki/sources/heizolshao-reddit-tiered-community-operations-playbook)) |
+| 2026-09-29 | https://x.com/ai_chuhai/status/2110117043827552415 | **爱出海（@ai_chuhai）**：说下我眼里的生财有术，可能很多你都不知道 → 已归档 ([aichuhai-my-perspective-on-shengcaiyoushu](/md/wiki/sources/aichuhai-my-perspective-on-shengcaiyoushu)) |
+| 2026-09-29 | https://x.com/JiangK82705/status/2111826068017717314 | **蒋云何：副业出海小白首日破百刀，5 天破千刀的新词经验分享** ~~已采集~~ → 已归档至 [sources/jiang-yunhe-first-100-usd-new-word-playbook](/md/wiki/sources/jiang-yunhe-first-100-usd-new-word-playbook) |
+| 2026-09-29 | https://x.com/lee04052822/status/2111618612158935467 | **木子不是木子狸（@lee04052822）**：好久没写东西了——分享下如何做开发的 → 已归档 ([lee-independent-developer-workflow-and-practices](/md/wiki/sources/lee-independent-developer-workflow-and-practices)) |
+| 2026-09-29 | https://x.com/MaiYangAI/status/2111603532210299234 | **Mai Yang（@MaiYangAI）**：非 CS 出身的 Lauren Tan，是怎么一步步放手给 Agent 的 → 已归档 ([maiyang-non-cs-lauren-tan-delegating-to-agents](/md/wiki/sources/maiyang-non-cs-lauren-tan-delegating-to-agents)) |
+| 2026-09-29 | https://x.com/SIAxiom/status/2111689540792655982 | **SI Axiom（@SIAxiom）**：别再盲目发推了！用 Grok Bot 搭建一套 X 运营流程 → 已归档 ([siaxiom-grok-bot-x-operations-10-steps-prompt-playbook](/md/wiki/sources/siaxiom-grok-bot-x-operations-10-steps-prompt-playbook)) |
+| 2026-09-29 | https://x.com/AdrianPunk115/status/2111742325865210099 | **Adrian Punk（@AdrianPunk115）**：AI 视频基础（中册）：景别、机位、运镜与画面连续性 → 已归档 ([adrian-ai-video-fundamentals-framing-camera-and-continuity](/md/wiki/sources/adrian-ai-video-fundamentals-framing-camera-and-continuity)) |
+| 2026-09-29 | https://x.com/heizolshao/status/2111616231723970623 | **左海（@heizolshao）**：为什么在 Reddit 上“评论”远比“发帖”更重要？ → 已归档 ([heizolshao-why-reddit-commenting-is-more-important-than-posting](/md/wiki/sources/heizolshao-why-reddit-commenting-is-more-important-than-posting)) |
+| 2026-09-29 | https://x.com/pamelaaaaa1218/status/2111490939604681059 | **PamelaAI·H（@pamelaaaaa1218）**：从 0 搭建个人网站：8 大类 60+ UI 设计必备清单 → 已归档 ([pamela-build-personal-website-from-scratch-60-ui-checklist](/md/wiki/sources/pamela-build-personal-website-from-scratch-60-ui-checklist)) |
+| 2026-09-29 | https://x.com/isituking/status/2111743535959711875 | **司徒K（@situking）**：创业百问百答：写给自媒体人和个人创业者（2.3万字长文） → 已归档 ([situking-entrepreneurship-100-qa-for-creators-and-solopreneurs](/md/wiki/sources/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs)) |
+| 2026-09-29 | https://x.com/thedankoe/status/2023779299367809063 | **Dan Koe（@thedankoe）**：Human 3.0 – A Map To Reach The Top 1% → 已归档 ([dankoe-human-3-0-map-to-reach-the-top-one-percent](/md/wiki/sources/dankoe-human-3-0-map-to-reach-the-top-one-percent)) |
+| 2026-09-29 | https://x.com/wangzaimedia/status/2111733278353060215 | **汪仔（@wangzaimedia）**：从 0 到 1 的 X 入门运营指南 → 已归档 ([wangzai-x-twitter-zero-to-one-beginner-operations-guide](/md/wiki/sources/wangzai-x-twitter-zero-to-one-beginner-operations-guide)) |
+| 2026-09-29 | https://x.com/longhaiqwe123/status/2111411103528079642 | **龙海（@longhaiqwe123）**：玩 X 瑞士军刀：开源浏览器插件 Oh My X，解决 24 个网页端操作痛点 → 已归档 ([longhai-oh-my-x-browser-extension-24-pain-points](/md/wiki/sources/longhai-oh-my-x-browser-extension-24-pain-points)) |
+| 2026-09-29 | https://x.com/goan999999/status/2111807626329965049 | **G哥（@goan999999）**：GitHub 这 6 个免费开源项目，搞钱提效太猛了 → 已归档 ([govin-github-6-insane-open-source-projects-monetization](/md/wiki/sources/govin-github-6-insane-open-source-projects-monetization)) |
+| 2026-09-29 | https://x.com/Jaden_riku/status/2111846432026378666 | **Jaden 抽象日志（@Jaden_riku）**：Paul Graham：时间和金钱，是怎样失去的 → 已归档 ([jaden-paul-graham-how-time-and-money-are-lost](/md/wiki/sources/jaden-paul-graham-how-time-and-money-are-lost)) |
+| 2026-09-29 | https://x.com/aiRobertDaily/status/2111397327231721560 | **aiRobertDaily**：SEO Stripe 反向产品挖掘法 → 已归档 ([seo-stripe-reverse-product-discovery](/md/wiki/sources/seo-stripe-reverse-product-discovery)) |
+| 2026-09-29 | https://x.com/xoyif63862452/status/2111984579657797975 | **北衡（@xoyif63862452）**：红鸦 AI：一人公司怎么批量做小红书图文复刻 Skill → 已归档 ([xoyif-red-crow-ai-batch-xhs-image-text-replication-skill](/md/wiki/sources/xoyif-red-crow-ai-batch-xhs-image-text-replication-skill)) |
+| 2026-09-29 | https://x.com/alswl/status/2112111190096928930 | **Jingchao（@alswl）**：AI Native 实践续篇：迈向 Stage 8 → 已归档 ([alswl-ai-native-practices-continuation-towards-stage-8](/md/wiki/sources/alswl-ai-native-practices-continuation-towards-stage-8)) |
+| 2026-09-29 | https://x.com/xuxuanzhou/status/2112129349071831259 | **xuxuanzhou**：72小时 5480 美金新词站打法 → 已归档 ([xuxuanzhou-72h-5480usd-new-word-site](/md/wiki/sources/xuxuanzhou-72h-5480usd-new-word-site)) |
+| 2026-09-29 | https://x.com/sujingshen/status/2112061360708403397 | **SagaSu（@sujingshen）**：用 Grok Bot 自动化提交外链：一天跑完 4000 多个站 → 已归档 ([sagasu-grok-bot-automated-backlink-submission-4000-sites](/md/wiki/sources/sagasu-grok-bot-automated-backlink-submission-4000-sites)) |
+| 2026-09-29 | https://x.com/qianshuixia2026/status/2112035541177016322 | **浅水虾（@qianshuixia2026）**：Wise 港卡搞定 Stripe！避开号码泄露送出海三通一达 → 已归档 ([qianshuixia-wise-hk-card-stripe-and-outsea-express-solution](/md/wiki/sources/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution)) |
+| 2026-09-29 | https://x.com/liangzhu_AI/status/2112076323598516443 | **良竹（@liangzhu_AI）**：掌控 AI·FDE 实战 01｜万字实操 SOP：搭建本地自动内容交付流水线 → 已归档 ([liangzhu-fde-in-action-01-automated-local-content-delivery-sop](/md/wiki/sources/liangzhu-fde-in-action-01-automated-local-content-delivery-sop)) |
+| 2026-09-29 | https://x.com/3three_AI/status/2112028716138422443 | **三个三（@3three_AI）**：从国内真实案例看把 AI 美女变成钱的 10 种方法 → 已归档 ([threeai-10-ways-to-monetize-ai-beauty-content-china-cases](/md/wiki/sources/threeai-10-ways-to-monetize-ai-beauty-content-china-cases)) |
+| 2026-09-29 | https://x.com/qingj1314/status/2111669870958190608 | **情酱（@qingj1314）**：怎么让你的 AI 说人话？我整理了一套公式化方案 → 已归档 ([qingjiang-make-ai-talk-like-human-formula-guide](/md/wiki/sources/qingjiang-make-ai-talk-like-human-formula-guide)) |
+| 2026-09-29 | https://x.com/Leepriest1990/status/2111981939947376836 | **aix阿乐（@Leepriest1990）**：3 天 120 单、变现 1 万：一人推特发售的完整手册 → 已归档 ([ale-3-days-120-orders-one-person-twitter-launch-manual](/md/wiki/sources/ale-3-days-120-orders-one-person-twitter-launch-manual)) |
+| 2026-09-29 | https://x.com/shaozhu93314/status/2107407716226638129 | **杨进（@shaozhu93314）**：构建操盘手的底层逻辑 → 已归档 ([yangjin-operator-underlying-logic-and-business-closed-loop](/md/wiki/sources/yangjin-operator-underlying-logic-and-business-closed-loop)) |
+| 2026-09-29 | https://x.com/dontbesilent/status/2012543785956487510 | **dontbesilent**：商业思考 100 条（第二部分） → 已归档 ([dontbesilent-business-thoughts-100-part-2](/md/wiki/sources/dontbesilent-business-thoughts-100-part-2)) |
+| 2026-09-29 | https://x.com/heizolshao/status/2112334432262873341 | **左海（@heizolshao）**：Reddit 评论区转化实操笔记：从安全留链到沉淀种子用户 → 已归档 ([heizolshao-reddit-comments-conversion-and-seed-users-playbook](/md/wiki/sources/heizolshao-reddit-comments-conversion-and-seed-users-playbook)) |
+| 2026-09-29 | https://x.com/kristoff_wu/status/2112216903150436383 | **kristoff_wu**：新词站 1100 美金打法 → 已归档 ([kristoff-new-term-site-1100usd](/md/wiki/sources/kristoff-new-term-site-1100usd)) |
+| 2026-09-29 | https://x.com/HytidelLegend/status/2112516357854302348 | **Hytidel 聊商业（@HytidelLegend）**：找工作不要选你配不上的工作 → 已归档 ([hytidel-career-choice-dont-choose-jobs-you-cannot-match](/md/wiki/sources/hytidel-career-choice-dont-choose-jobs-you-cannot-match)) |
+| 2026-09-29 | https://x.com/zhouluobo/status/2112015411344470526 | **zhouluobo（@zhouluobo）**：设计界 Personal Agent：偷学我的作图风格 → 已归档 ([zhouluobo-design-personal-agent-learns-visual-style](/md/wiki/sources/zhouluobo-design-personal-agent-learns-visual-style)) |
+| 2026-09-29 | https://x.com/CrazyKaomei/status/2102311241046008268 | **疯狂的烤妹儿（@CrazyKaomei）**：YouTube 极简火柴人搞钱流水线全套开源 → 已归档 ([crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline](/md/wiki/sources/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline)) |
+| 2026-09-29 | https://wcnppcftpvna.feishu.cn/file/QttFbOKbNoCOE7xvj5Ncc9wInJe | 待查看 |
+| 2026-09-29 | https://x.com/wangzaimedia/status/2109630699888345369 | **汪仔（@wangzaimedia）**：为什么你发了那么多内容，还是没有客户？ → 已归档 ([wangzai-why-publishing-so-much-content-yields-no-clients](/md/wiki/sources/wangzai-why-publishing-so-much-content-yields-no-clients)) |
+| 2026-09-29 | https://x.com/ChrisSlacker/status/2093160607541502218 | **科技混子Chris（@ChrisSlacker）**：公众号贴图 3 天收入破百 1 篇破千 SOP → 已归档 ([chrisslacker-wechat-image-text-post-three-days-monetization-sop](/md/wiki/sources/chrisslacker-wechat-image-text-post-three-days-monetization-sop)) |
+| 2026-09-21 | https://x.com/nopinduoduo/status/2103316388261830831 | **我真的没有拼多多（@nopinduoduo）**：普通人做 AI 漫剧花 1 万积分实测教程 → 已归档 ([nopinduoduo-ai-comic-drama-production-10000-credits-tutorial](/md/wiki/sources/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial)) |
+| 2026-09-21 | https://x.com/HanZhang415188/status/2103030353174630574 | **HanZhang**：Codex + Excalidraw 白板解说视频流 → 已归档 ([codex-excalidraw-whiteboard-video](/md/wiki/sources/codex-excalidraw-whiteboard-video)) |
+| 2026-07-15 | https://x.com/i/status/2076554713336512758 | **阿哲Phil（@Formulasearch）**：快速设计个人 IP 做成 Codex 宠物 → 已归档 ([phil-design-personal-ip-and-codex-desktop-pet-tutorial](/md/wiki/sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial)) |
+| 2026-07-15 | https://x.com/i/status/2076887045906256305 | **Niko爱学习（@ai_super_niko）**：掌控 Codex 对话节奏：打断、排队、引导和分叉 → 已归档 ([niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch)) |
 | 2026-07-15 | https://x.com/i/status/2076931650412511257 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076865068613206046 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076871293211685140 | 待查看 |
@@ -25,7 +142,7 @@ date: "2026-05-29"
 | 2026-07-15 | https://x.com/i/status/2076935184163995846 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076830829230404088 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076891615013269842 | 待查看 |
-| 2026-07-09 | https://x.com/Bytec99/status/2075372048994672994?s=20 | 待查看 |
+| 2026-07-09 | https://x.com/Bytec99/status/2075372048994672994?s=20 | **Bytec99**：AI 拆书短视频流水线 → 已归档 ([ai-book-short-video-pipeline](/md/wiki/sources/ai-book-short-video-pipeline)) |
 | 2026-07-09 | https://x.com/i/status/2074459150323769843 | 待查看 |
 | 2026-07-15 | https://github.com/Nutlope/hallmark | **Hallmark**：去除AI塑料味的Skill，20种预设主题+57项反AI测试+量身定制，Codex/Cursor均支持 |
 | 2026-07-15 | https://github.com/simonlin1212/Vibe-Research | 待查看 |
@@ -50,7 +167,7 @@ date: "2026-05-29"
 | 2026-07-09 | https://x.com/i/status/2046790896482455890 | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2063275297341051086 | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2044634498432962806 | 待查看 |
-| 2026-07-09 | https://x.com/i/status/2062080784572534958 | 待查看 |
+| 2026-07-09 | https://x.com/i/status/2062080784572534958 | **Adrian Punk（@AdrianPunk115）**：想做高级咨询风视觉？麦肯锡风格提示词可直接复制 → 已归档 ([adrian-mckinsey-style-consulting-visual-prompts](/md/wiki/sources/adrian-mckinsey-style-consulting-visual-prompts)) |
 | 2026-07-09 | https://x.com/i/status/2022954721548661130 | 待查看 |
 | 2026-07-02 | https://x.com/SVScholar/status/2072474615893704805?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/Easycompany333/status/2071877302347079998?s=20 | 待查看 |
@@ -58,6 +175,15 @@ date: "2026-05-29"
 | 2026-07-02 | https://x.com/sven_ai/status/2072226299368894732?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/ai_Goge/status/2072472933356945603?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/GeekCatX/status/2069024555197497479?s=20 | 待查看 |
+| 2026-09-20 | https://x.com/haoran_tang97/status/2101381110186000858 | **待查看** |
+| 2026-09-20 | https://x.com/shao__meng/status/2101562189945409913 | **待查看** |
+| 2026-09-20 | https://x.com/bozhou_ai/status/2101565013194334706 | **待查看** |
+| 2026-09-20 | https://x.com/sts81998850/status/2101332340110954813 | **待查看** |
+| 2026-09-20 | https://x.com/dboy_yi2025/status/2101579653232066929 | **待查看** |
+| 2026-09-21 | https://x.com/qianshuixia2026/status/2101851702865608791 | **待查看** |
+| 2026-09-21 | https://x.com/cgnot996/status/2096415217710461078 | **待查看** |
+| 2026-09-21 | https://x.com/CrazyKaomei/status/2102311241046008268 | **疯狂的烤妹儿（@CrazyKaomei）**：YouTube 极简火柴人搞钱流水线全套开源 → 已归档 ([crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline](/md/wiki/sources/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline)) |
+| 2026-09-21 | https://x.com/ricouii/status/2102241395511836992 | **待查看** |
 | 2026-07-02 | https://x.com/wuxindehuaft/status/2072303199349035447?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/Jason_WealthAI/status/2072298673422377465?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/i/status/2052036309167014315 | **vivienna：重新定义读书——用 Claude Code + Luffa 把 800 页金融学教材变成可"动手玩"的小程序**，124.3K 浏览 |
@@ -178,6 +304,14 @@ date: "2026-05-29"
 | 2023-09-03 | https://x.com/i/status/1698338662088622167 | **Barret李靖：新加坡OCBC开户指南**：全程大陆身份+大陆IP可开，NFC扫描护照，1.1M浏览 |
 | 2026-03-05 | https://x.com/i/status/2029560033131041059 | **Y11：尼日利亚Gomoney套利**：P2P承兑/锁汇支付/代充值/高息储蓄，197.6K浏览 |
 | 2026-06-28 | https://mp.weixin.qq.com/s/RCnJP6xGT5-OvU7yhCrzGQ | **哥飞：BlogToPin月入1.6万美元**：把博客文章自动做成Pinterest图片并排期发布，工具产品化案例拆解 |
+| 2026-09-20 | https://x.com/i/status/2101584386990964995 | **疯狂的烤妹儿：单人操盘590位博主/26亿播放的AIGC带货流水线** ~~已采集~~ → 已归档至 [summaries/crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) |
+| 2026-09-19 | https://x.com/i/status/2101306694747701384 | **刘佳怡：短信验证码自动转发邮件** ~~已采集~~ → 已归档至 [summaries/liujiayi1111-sms-code-forward](/md/wiki/summaries/liujiayi1111-sms-code-forward) |
+| 2026-10-12 | https://x.com/ElowenY20119/status/2107049804480291261?s=20 | **ElowenY20119**：贴图号3天跑出12.9万阅读后限流——从全自动踩坑到人机协作，附完整生产SOP/提示词/插件/避坑清单，含飞书完整源文档 |
+| 2026-10-12 | https://x.com/fatparrotdaily/status/2108502537053536468?s=20 | **fatparrotdaily/鹦鹉哥**：中国人全球移民全维度一览表（工作/收入/安全/门槛/幸福/去和留），10张图按穷人/中产/富人三套权重评估 |
+| 2026-10-21 | https://x.com/HytidelLegend/status/2112516357854302348 | **Hytidel 聊商业（@HytidelLegend）**：找工作不要选你配不上的工作 → 已归档 ([hytidel-career-choice-dont-choose-jobs-you-cannot-match](/md/wiki/sources/hytidel-career-choice-dont-choose-jobs-you-cannot-match)) |
+| 2026-10-21 | https://x.com/kristoff_wu/status/2112216903150436383 | **kristoff_wu**：新词站 1100 美金打法 → 已归档 ([kristoff-new-term-site-1100usd](/md/wiki/sources/kristoff-new-term-site-1100usd)) |
+| 2026-10-21 | https://x.com/heizolshao/status/2112334432262873341 | **左海（@heizolshao）**：Reddit 评论区转化实操笔记：从安全留链到沉淀种子用户 → 已归档 ([heizolshao-reddit-comments-conversion-and-seed-users-playbook](/md/wiki/sources/heizolshao-reddit-comments-conversion-and-seed-users-playbook)) |
+
 ## 微信公众号
 
 | 日期 | 链接 | 摘要 |
@@ -323,6 +457,7 @@ date: "2026-05-29"
 | 2026-06-10 | http://vibe-ui.youji.pro/ | **Vibe UI Design Guide**：AI 生成 UI 的完整设计到开发路径。两条路（UI Kit+MCP / design.md）、15 个设计系统模板（Clean/Minimal/Modern/Elegant 等）、设计 Token 提取流程、技术栈选型（HTML/React/Next.js/Tailwind）、资源导航（字体/图标/Prompt/Skill）。来源：有籍（youji.pro）|
 | 2026-06-24 | https://harness-agent.ai/ | **Harness Engineering 小书**（王梓任）：对 Harness 概念做精细理论分析，比网上绝大多数分析精确深入得多，包含大量实战经验 |
 | 2026-06-28 | https://x.com/i/communities/1698871397022388467 | **X跨境电商交流群 + AI**：20.8K成员的X社区，跨境电商/AI工具/平台运营交流 |
+| 2026-09-02 | https://my.feishu.cn/wiki/SWDNwKVTxiEz9hkdQ2zcacZKn4f | **Harness 101: Codex 的 Coding 范式**（飞书，需登录）— Claude Code 最小工具集 vs Codex 工具生态（Plan/Goal/Thread/Automation/Sub-Agent/Worktree/Handoff），Claude 式 Harness 回答"怎样让模型像程序员一样操作仓库"，Codex 回答"怎样让模型成为可以长期运行、跨任务协作的工作执行系统" |
 | 2026-07-29 | https://www.xgdn.com/6.html | 待查看 |
 | 2026-07-29 | https://zhuanlan.zhihu.com/p/716891964 | 待查看 |
 | 2026-07-29 | https://www.nodeseek.com/post-84328-1 | 待查看 |
@@ -332,4 +467,3 @@ date: "2026-05-29"
 | 日期 | 链接 | 内容 |
 |------|------|------|
 | 2026-06-21 | 本条见证 | **记录**：19年2月开始跟着紫菜抢演唱会门票→茅台→手机→泡泡玛特→港股打新→NFT打新→Web3。"执行跟着紫菜走，很难不赚钱。" — 信任积累的活生生案例，从+10分的小任务一路升级到Web3合作。 |
-

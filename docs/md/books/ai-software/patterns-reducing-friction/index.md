@@ -1,13 +1,9 @@
 ---
-title: "Patterns for Reducing Friction in AI Assisted Development"
+title: "降低 AI 辅助开发摩擦的模式"
 date: "2026-06-03"
 source: "Patterns"
 ---
 
-<script setup>
-const pdfUrl = new URL('./Patterns-for-Reducing-Friction-in-AI-Assisted-Development.pdf', import.meta.url).href
-</script>
-
 # Patterns for Reducing Friction in AI Assisted Development
 
-<PdfViewer :src="pdfUrl" />
+<PdfViewer repo-path="docs/md/books/ai-software/patterns-reducing-friction/Patterns-for-Reducing-Friction-in-AI-Assisted-Development.pdf" />

@@ -46,7 +46,7 @@ SEO 能帮助您的业务出现在用户主动搜索或提出问题的场景中�
 
 若要通过付费广告复制这一效果，每月需花费约 420 万美元——这证明强大的 SEO 能够创造持久且持续叠加的价值。
 
-![Image 1: Ahrefs Site Explorer 截图，显示自然搜索流量增长](images/screenshot-overview-seo-A6OMWYSM.png)
+![Image 1: Ahrefs Site Explorer 截图，显示自然搜索流量增长](images/screenshot-overview-seo-A6OMWYSM.webp)
 任何流量来源都不是完全免费的，SEO 同样需要时间、精力和持续优化投入。
 
 ### SEO 该怎么做？
@@ -91,7 +91,7 @@ SEO 主要包含五个步骤：
 
 此处最好选择简短且易记的名称，不要刻意塞入关键词。通常情况下，使用不带连字符或特殊字符的商家名称是稳妥的选择。
 
-![Image 2: 有利于 SEO 的域名与不利于 SEO 的域名示例](images/image-domains-B6I6NRMQ.png)
+![Image 2: 有利于 SEO 的域名与不利于 SEO 的域名示例](images/image-domains-B6I6NRMQ.webp)
 
 #### 顶级域名（TLD）
 
@@ -119,7 +119,7 @@ SEO 主要包含五个步骤：
 
 托管平台 vs. 自托管平台
 
-![Image 3: 对比 Wix、Shopify 等托管平台与 WordPress 等自托管平台](images/image-hosted-platforms-BGFFLHZD.png)
+![Image 3: 对比 Wix、Shopify 等托管平台与 WordPress 等自托管平台](images/image-hosted-platforms-BGFFLHZD.webp)
 * WordPress 在 wordpress.com 上提供托管式解决方案
 
 大多数 SEO 从业者推荐使用像 WordPress 这样的自托管开源平台，因为：
@@ -197,7 +197,7 @@ Google 和 AI 助手希望呈现能为访客提供良好体验的页面。[3](ht
 
 使用思维导图来创建网站结构
 
-![Image 4: 这是一个思维导图示例，用于创建符合 SEO 逻辑的网站结构](images/image-mind-map-3AFDC3K6.png)
+![Image 4: 这是一个思维导图示例，用于创建符合 SEO 逻辑的网站结构](images/image-mind-map-3AFDC3K6.webp)
 
 地图上的每个分支都会变成内链，即网站中一个页面指向另一个页面的链接。
 
@@ -247,7 +247,7 @@ URL 很重要，因为它们能帮助用户和搜索引擎理解页面的内容�
 
 *   **监控企业资料**，以便及时掌握 Google 根据访客反馈所做的更新。您可使用 [Ahrefs Google Business Profile Monitor](https://ahrefs.com/zh/gbp-monitor) 跟踪这些变更，并拒绝任何不需要的修改。 
 
-![Image 5: 展示本地商家信息的 Google 商家资料截图](images/screenshot-business-info-6FCRTHE6.png)
+![Image 5: 展示本地商家信息的 Google 商家资料截图](images/screenshot-business-info-6FCRTHE6.webp)
 
 * * *
 
@@ -261,7 +261,7 @@ URL 很重要，因为它们能帮助用户和搜索引擎理解页面的内容�
 
 如何将网站提交至 Google
 
-![Image 6: 网站提交至 Google 的步骤示意图](images/image-submit-to-google-JBOSYINK.png)
+![Image 6: 网站提交至 Google 的步骤示意图](images/image-submit-to-google-JBOSYINK.webp)
 
 ### 查找或创建网站地图
 
@@ -273,7 +273,7 @@ URL 很重要，因为它们能帮助用户和搜索引擎理解页面的内容�
 
 如果在那里找不到，可以查看 site.com/robots.txt，通常会在其中列出。
 
-![Image 7: 截图显示如何在 robots.txt 中找到网站地图 URL](images/screenshot-user-agent-53F7BABK.png)
+![Image 7: 截图显示如何在 robots.txt 中找到网站地图 URL](images/screenshot-user-agent-53F7BABK.webp)
 
 如果仍然找不到，说明您可能还没有网站地图，需要创建一个。
 
@@ -281,7 +281,7 @@ URL 很重要，因为它们能帮助用户和搜索引擎理解页面的内容�
 
 通过 Google Search Console（GSC）即可完成这一步，整个过程大约只需两秒钟。
 
-![Image 8: Google Search Console 截图，展示如何提交网站地图](images/screenshot-google-search-console-T7MZPCDP.png)
+![Image 8: Google Search Console 截图，展示如何提交网站地图](images/screenshot-google-search-console-T7MZPCDP.webp)
 
 * * *
 
@@ -299,17 +299,17 @@ URL 很重要，因为它们能帮助用户和搜索引擎理解页面的内容�
 
 尽管如此，对其进行追踪仍然很重要，因为它很可能仍是您最主要的访客来源。您可以在**Site Explorer**中查看估算数据。
 
-![Image 9: Ahrefs Site Explorer 截图，显示自然搜索流量数据](images/screenshot-organic-traffic-6OKUEAJC.png)
+![Image 9: Ahrefs Site Explorer 截图，显示自然搜索流量数据](images/screenshot-organic-traffic-6OKUEAJC.webp)
 
 您还可以跟踪**展示量**，以了解您的网站在搜索和 AI 中的可见度——即使未被点击。
 
 您可以在 Google Search Console 中免费查看这些数据。
 
-![Image 10: Ahrefs Web Analytics 截图，显示网站流量数据](images/screenshot-webanalytics-Q6FQEP72.png)
+![Image 10: Ahrefs Web Analytics 截图，显示网站流量数据](images/screenshot-webanalytics-Q6FQEP72.webp)
 
 ### 关键词排名
 
-![Image 11: Ahrefs Rank Tracker 截图，显示关键词排名数据](images/screenshot-rank-tracker-OHLGJ2SM.png)
+![Image 11: Ahrefs Rank Tracker 截图，显示关键词排名数据](images/screenshot-rank-tracker-OHLGJ2SM.webp)
 
 ### AI 可见度
 
@@ -317,7 +317,7 @@ AI 正逐渐成为在线可见度中一个重要且不可或缺的组成部分�
 
 通过[Ahrefs Brand Radar](https://ahrefs.com/zh/brand-radar)，可监测网站在各类 AI 搜索结果中被提及的频率，涵盖 Google AI Overview、ChatGPT、Perplexity、Gemini 以及 Copilot 等平台。
 
-![Image 12: Ahrefs Brand Radar 截图，显示跨平台的 AI 可见度数据](images/screenshot-brand-radar-WKOAM2AQ.png)
+![Image 12: Ahrefs Brand Radar 截图，显示跨平台的 AI 可见度数据](images/screenshot-brand-radar-WKOAM2AQ.webp)
 
 ### 声音份额
 

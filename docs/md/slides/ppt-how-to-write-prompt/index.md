@@ -5,11 +5,15 @@ source: "kf-agent"
 url: ""
 ---
 
+<script setup>
+import HtmlViewer from '../../../.vitepress/theme/components/HtmlViewer.vue'
+</script>
+
 # 提示词的道与术
 
 > 30 分钟把 13 份资料压成 22 页 · Swiss · IKB 风格 PPT
 
-[打开 PPT →](./index.html)
+<HtmlViewer src="/slides/ppt-how-to-write-prompt/index.html" title="提示词的道与术 · 30分钟把13份资料压成22页" />
 
 ---
 

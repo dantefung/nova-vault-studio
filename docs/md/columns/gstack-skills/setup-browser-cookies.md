@@ -1,5 +1,5 @@
 ---
-title: "setup-browser-cookies"
+title: "setup-browser-cookies 导入登录态"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

@@ -1,5 +1,5 @@
 ---
-title: "ship"
+title: "ship 发布上线流水线"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

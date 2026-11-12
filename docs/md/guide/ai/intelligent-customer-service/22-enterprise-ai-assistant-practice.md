@@ -20,7 +20,7 @@ url: "https://mp.weixin.qq.com/s/M8WJ78DAN_0Jo3RbBabxbA"
 
 下面是一个案例，通过对日志的分析，产生出一份报告：错误日志、归因、以及建议修复措施等。
 
-![image](./images/22-enterprise-ai-assistant-practice/001.png)
+![image](images/22-enterprise-ai-assistant-practice/001.webp)
 
 成本节约：(10min+-> 30s）X 问题数量 = 节约时间成本
 
@@ -28,7 +28,7 @@ url: "https://mp.weixin.qq.com/s/M8WJ78DAN_0Jo3RbBabxbA"
 
 自动读取 / 采集日志 → 解析结构化 → 异常检测 → 根因定位 → 给出修复方案 → 自动 / 辅助执行
 
-![image](./images/22-enterprise-ai-assistant-practice/002.png)
+![image](images/22-enterprise-ai-assistant-practice/002.webp)
 
 扩展：通过决策这一层，可以配置更多的 skill/workflow等。让问题闭环。（不仅仅是错误日志、告警等）
 
@@ -62,7 +62,7 @@ Agent: plan-to-execute。Agent 模式
 
 ### 2.1 为什么需要RAG
 
-![image](./images/22-enterprise-ai-assistant-practice/003.png)
+![image](images/22-enterprise-ai-assistant-practice/003.webp)
 
 | 项目 | 描述 |
 |------|------|
@@ -77,7 +77,7 @@ Agent: plan-to-execute。Agent 模式
 
 虽然 RAG 能够解决上面的问题，但是我们在实际落地过程，还是会遇到各种挑战，如果没有做好这些细节，回答依然很差劲。
 
-![image](./images/22-enterprise-ai-assistant-practice/004.png)
+![image](images/22-enterprise-ai-assistant-practice/004.webp)
 
 ### 2.3 RAG 技术
 
@@ -85,7 +85,7 @@ Agent: plan-to-execute。Agent 模式
 - 向量存储
 - 向量搜索
 
-![image](./images/22-enterprise-ai-assistant-practice/005.png)
+![image](images/22-enterprise-ai-assistant-practice/005.webp)
 
 补充：向量搜索为什么这么快
 
@@ -100,7 +100,7 @@ Agent: plan-to-execute。Agent 模式
 
 对象：服务商、产品咨询者
 
-![image](./images/22-enterprise-ai-assistant-practice/006.png)
+![image](images/22-enterprise-ai-assistant-practice/006.webp)
 
 不是每一个问题都需要大模型参与。
 
@@ -154,7 +154,7 @@ xxx问题
 
 https://github.com/microsoft/markitdown 。MarkItDown 是一个轻量级的 Python 工具，用于将各种文件转换为 Markdown，以便与 LLM 和相关的文本分析管道一起使用。这样进一步可以处理切片。（多模态限制）
 
-![image](./images/22-enterprise-ai-assistant-practice/007.png)
+![image](images/22-enterprise-ai-assistant-practice/007.webp)
 
 #### 2.7.4 按照语义切分
 
@@ -164,7 +164,7 @@ https://github.com/microsoft/markitdown 。MarkItDown 是一个轻量级的 Pyth
 
 多种RAG技术的选型。从简单开始。衡量一切。仅在明确证据表明需要时才扩展复杂性。先掌握基础。
 
-![image](./images/22-enterprise-ai-assistant-practice/008.png)
+![image](images/22-enterprise-ai-assistant-practice/008.webp)
 
 ### 2.9 更多案例
 
@@ -208,7 +208,7 @@ https://github.com/microsoft/markitdown 。MarkItDown 是一个轻量级的 Pyth
 
 继承报表的能力、组装数据渲染。（元数据渲染）
 
-![image](./images/22-enterprise-ai-assistant-practice/009.png)
+![image](images/22-enterprise-ai-assistant-practice/009.webp)
 
 ### 3.4 MCP 数据分析（扩展）
 
@@ -220,7 +220,7 @@ MCP 构建（mysql的数据库分析），做数据分析，生成不同的SQL
 
 传统关系型数据库对于超过多张表关联的查询十分低效难以胜任，但图数据库可轻松应对社交网络的各种复杂存储和查询场景。
 
-![image](./images/22-enterprise-ai-assistant-practice/010.png)
+![image](images/22-enterprise-ai-assistant-practice/010.webp)
 
 利用关联关系，可以将主题相关的元素信息都被召回。
 
@@ -232,11 +232,11 @@ MCP 构建（mysql的数据库分析），做数据分析，生成不同的SQL
 
 在搜索入口集成多种常用的能力，让产品更加智能。
 
-![image](./images/22-enterprise-ai-assistant-practice/011.png)
+![image](images/22-enterprise-ai-assistant-practice/011.webp)
 
 魔法棒可以做什么
 
-![image](./images/22-enterprise-ai-assistant-practice/012.png)
+![image](images/22-enterprise-ai-assistant-practice/012.webp)
 
 - 菜单功能快速即成，比如将一些隐藏较深的菜单，快速搜索访问
 - 快速查看自己的权限能力；以及自己管理的能力
@@ -269,7 +269,7 @@ MCP 构建（mysql的数据库分析），做数据分析，生成不同的SQL
 
 如何控制Token消耗与模型成本
 
-![image](./images/22-enterprise-ai-assistant-practice/013.png)
+![image](images/22-enterprise-ai-assistant-practice/013.webp)
 
 不要所有请求都调用最贵的旗舰模型，核心原则是"默认便宜，例外优质"。
 
@@ -302,7 +302,7 @@ https://www.langchain.com/blog/context-engineering-for-agents
 | 上下文混淆（Context Confusion） | 冗余或矛盾信息导致输出不一致 |
 | 上下文冲突（Context Clash） | 上下文中存在相互矛盾的事实或指令 |
 
-![image](./images/22-enterprise-ai-assistant-practice/014.png)
+![image](images/22-enterprise-ai-assistant-practice/014.webp)
 
 将重要信息保存到上下文窗口之外，供后续使用：应用实例：ChatGPT、Cursor、Windsurf 均支持自动生成用户专属长期记忆。（比如Claw是会将用户角色等写入文件）。
 
@@ -313,7 +313,7 @@ https://www.langchain.com/blog/context-engineering-for-agents
 
 上下文工程不是 "越多信息越好"，也不是 "越少信息越省"，而是在每个任务步骤中，让 Agent 获得 "刚刚好" 的信息。
 
-![image](./images/22-enterprise-ai-assistant-practice/015.png)
+![image](images/22-enterprise-ai-assistant-practice/015.webp)
 
 一些好的效果往往是在细节处做到位。
 
@@ -343,11 +343,11 @@ https://www.llamaindex.ai/
 
 https://github.com/run-llama/
 
-![image](./images/22-enterprise-ai-assistant-practice/016.png)
+![image](images/22-enterprise-ai-assistant-practice/016.webp)
 
 LlamaIndex 构建 RAG 非常方便。
 
-![image](./images/22-enterprise-ai-assistant-practice/017.png)
+![image](images/22-enterprise-ai-assistant-practice/017.webp)
 
 python 天然优势。
 

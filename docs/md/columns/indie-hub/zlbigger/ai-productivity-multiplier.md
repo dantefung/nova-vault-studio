@@ -1,5 +1,5 @@
 ---
-title: "AI as Productivity Multiplier"
+title: "AI 生产力倍增器"
 date: "2026-06-22"
 source: "核心不是网站而是利用 AI"
 url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"

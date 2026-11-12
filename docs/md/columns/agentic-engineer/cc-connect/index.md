@@ -1,5 +1,5 @@
 ---
-title: cc-connect
+title: "cc-connect 消息桥接工具"
 ---
 
 # cc-connect

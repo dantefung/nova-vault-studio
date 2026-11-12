@@ -1,5 +1,5 @@
 ---
-title: "dispatching-parallel-agents"
+title: "dispatching-parallel-agents 并行代理调度"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

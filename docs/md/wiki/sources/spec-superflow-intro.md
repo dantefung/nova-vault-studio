@@ -43,7 +43,7 @@ Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解�
 
 一句话记住。user-invoked 负责「想清楚、排好队」，model-invoked 负责「动手做、做漂亮」。
 
-![mattpocock/skills 两层技能架构](../images/spec-superflow-intro/001.png)
+![mattpocock/skills 两层技能架构](../images/spec-superflow-intro/001.webp)
 
 ## 三步装好，5 分钟跑起来
 
@@ -59,7 +59,7 @@ Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解�
 
 装完还不是终点，**真正让它生效的是/setup-matt-pocock-skills**。这条命令会连问你三个问题，把工作流跟你团队的实际工具对齐。
 
-![setup-matt-pocock-skills 配置流程](../images/spec-superflow-intro/002.png)
+![setup-matt-pocock-skills 配置流程](../images/spec-superflow-intro/002.webp)
 
 它会问，用哪个 issue tracker，选项有 GitHub、Linear、local files。再问，triage 阶段用什么 labels 来分类，比如bug和feature。最后问，/triage生成的 docs 存到项目哪个位置，常见是docs/。这三个答案定下来，整套 skill 才算真正接进你的研发流。我第一回跳过了这步，结果/to-spec生成的 spec 不知道往哪放，白跑一遍。所以这条命令别省。装完顺手ls skills看一眼，确认每个 SKILL.md 都躺在那，后面调用才不会报找不到。
 
@@ -71,7 +71,7 @@ Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解�
 
 **更狠的是/grill-with-docs**。它不只是问，还会把你们达成共识的共享语言写进CONTEXT.md，把关键架构决策写进ADR（Architecture Decision Record）。这俩文件后续所有 skill 都会读，等于给团队和 agent 建了本「通用词典」。
 
-![grill-with-docs 闭环](../images/spec-superflow-intro/003.png)
+![grill-with-docs 闭环](../images/spec-superflow-intro/003.webp)
 
 拿我那个权限需求举例，CONTEXT.md里会记一句，「权限在本项目指 RBAC，角色含 guest/admin，guest 仅可读预览」。以后不管哪个 skill 上手，都不会再把 guest 当匿名处理。这种共享语言才是/grill-with-docs比/grill-me多出来的价值，从「想清楚」升级到「记下来」。
 
@@ -99,13 +99,13 @@ Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解�
 
 MageByte-Zero/spec-superflow，当前版本 v0.10.0，MIT 协议。它源码级融合了OpenSpec规划引擎和Superpowers执行纪律，还自己写了个contract-builder桥接层，独创 8 状态路由。最关键的一点，它自包含，你不用单独装 OpenSpec 或 Superpowers 运行时，一个包全搞定。
 
-![spec-superflow 8 状态工作流](../images/spec-superflow-intro/004.png)
+![spec-superflow 8 状态工作流](../images/spec-superflow-intro/004.webp)
 
 启动就一句话，「用 workflow-start 开始」。它做的是内容级状态检测，比对你当前 proposal 的范围和契约意图锁，自动路由到正确的下一个 skill。你中间卡住了，喊一句「帮我看看现在该干什么」，它也能接上。完整路径长这样，你说「帮我加一个权限控制」，它走 workflow-start → exploring（need-explorer 问你是 RBAC 还是 ABAC）→ specifying（spec-writer 出四份工件加 Schema 校验）→ bridging（contract-builder 压成 execution-contract.md）→ 你批准 → executing（build-executor 跑 TDD 到 SDD 到 Review Gate）→ 收口 → 同步。
 
 9 个核心 skill 覆盖完整生命周期。
 
-![spec-superflow 9 个核心 skills](../images/spec-superflow-intro/005.png)
+![spec-superflow 9 个核心 skills](../images/spec-superflow-intro/005.webp)
 
 workflow-start是入口，做内容级状态检测加 8 状态路由，还会阻止非法跳转。need-explorer探索需求，一次一问加方案对比。spec-writer出 proposal、specs、design、tasks 四份工件，Schema 引擎实时校验。contract-builder把四份工件压缩成execution-contract.md。build-executor执行，TDD 铁律加 SDD 子代理驱动加 Review Gate。bug-investigator调试，4 阶段根因分析，连错 3 次以上直接质疑架构。code-reviewer审查，三级问题分级。release-archivist收口，spec-merger同步。
 
@@ -143,7 +143,7 @@ Claude Code 用户，走插件市场。
 
 公平说，两套不是替代关系，是不同取舍。Matt 给你的自由度高，spec-superflow 给你的约束力强，选哪个看你怕什么。
 
-![mattpocock/skills vs spec-superflow 对比](../images/spec-superflow-intro/006.png)
+![mattpocock/skills vs spec-superflow 对比](../images/spec-superflow-intro/006.webp)
 
 维度mattpocock/skillsspec-superflow设计理念small、可改、composableSpec First、强护栏、自包含执行纪律软引导，不强行约束execution-contract 硬墙，TDD+SDD+Review Gate平台支持不限模型，靠 agent 承载18 个平台原生适配文档语言英文中文自包含两层都是独立小文件融合 OpenSpec+Superpowers，单包适合场景个人项目、想自己改棕地大项目、多人协作、长期维护
 

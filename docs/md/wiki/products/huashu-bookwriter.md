@@ -1,5 +1,5 @@
 ---
-title: "Huashu Bookwriter"
+title: "花叔书籍写作法"
 source: "GitHub"
 url: "https://github.com/ZeroxZhang/huashu-bookwriter"
 date: "2026-06-01"

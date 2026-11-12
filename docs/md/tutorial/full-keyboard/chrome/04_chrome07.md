@@ -1,5 +1,5 @@
 ---
-title: "chrome 7"
+title: "第 07 课 · 快捷键 Debug"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

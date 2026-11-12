@@ -1,5 +1,5 @@
 ---
-title: "Prompt Hub"
+title: "Prompt Hub 提示词库"
 date: "2026-05-09"
 ---
 

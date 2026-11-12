@@ -1,3 +1,7 @@
+---
+title: "第 8 章 · 直连服务器"
+---
+
 Title: Connect 服务器 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html

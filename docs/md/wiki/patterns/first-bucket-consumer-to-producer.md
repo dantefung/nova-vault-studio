@@ -1,5 +1,5 @@
 ---
-title: "First Bucket: Consumer to Producer"
+title: "第一桶金与身份转变"
 date: "2026-06-17"
 source: "第一桶金从消费者到生产者"
 url: ""

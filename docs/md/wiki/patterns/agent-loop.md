@@ -1,5 +1,5 @@
 ---
-title: "Agent Loop Pattern"
+title: "Agent Loop 循环模式"
 date: "2026-06-13"
 source: "从零搭建AI Agent团队：9个阶段，从第一个Agent到生产级协作"
 url: "https://mp.weixin.qq.com/s/UIEzO9_w06iRB7qpULnIQA"

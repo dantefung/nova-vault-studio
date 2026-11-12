@@ -23,15 +23,15 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 我们直接开始，先在谷歌趋势里拿"pizza edition"和"GPTs"比，会发现"pizza edition"是一个搜索量还不小的词。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_000.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_000.webp)
 
 我们再拿这个词去 ahrefs 的 Keyword Difficulty Checker 查，会发现优化难度居然只有 1，只需要 2 个网站的反链就能够进入谷歌搜索前 10 的位置。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_001.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_001.webp)
 
 再看谷歌搜索结果，排名第一的结果居然是一个内页。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_002.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_002.webp)
 
 种种迹象表明，朋友找到了一个优化难度很低且搜索量不小的关键词。
 
@@ -39,37 +39,37 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 先看谷歌搜索结果，排名前四的结果里，有两个是 Google Sites的内页，有两个是首页，一个是子域名首页，一个是主域名首页。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_003.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_003.webp)
 
 再去 Ahrefs 这里看看前几的流量，还是有一些流量的，但其实也不算大。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_004.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_004.webp)
 
 我们再看一眼这张图，有没有发现，前三结果的反链数量都是个位数？
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_005.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_005.webp)
 
 但是，我们去查一下第四名，就会有大发现，这个站居然有 81 个反链，而且 DR有 49。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_006.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_006.webp)
 
 那为什么只能排第四名呢？
 
 有两个原因，先说第一个，Title中关键词并没有完全匹配，并且页面里关键词密度也不够，H1 直接空白。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_007.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_007.webp)
 
 再说第二个原因，是因为 Google Sites 的域名权重太高了。
 
 虽然这个游戏站只有五个外链，但因为用的是 sites.google.com 这个高权重域名，所以即使是内页，也能够排到前面，这就是高权重站的优势。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_008.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_008.webp)
 
 所以，因为上面说的这两个原因，即使第四名的域名权重高，但依然进不了前三。
 
 好，我们再看下第二名，是一个 Github Pages 的子域名，月访问量不多，才七万多。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_009.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_009.webp)
 
 用的直接是网站首页，并且有 9 个外链。
 
@@ -77,7 +77,7 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 原因是关键词覆盖到了，并且在网页 H1 里也有体现出来。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_010.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_010.webp)
 
 从这里可以看出，哥飞一直讲的站内优化有多重要了吧。
 
@@ -95,11 +95,11 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 我们打开 https://sites.google.com/ 就会发现，这是谷歌的一个建站工具，可以让你不需要编程也能做网站。
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_011.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_011.webp)
 
 哥飞刚才随手做了一个站 https://sites.google.com/view/gefei/ ，效果如下：
 
-![](images/keyword-analysis-example/gefei-keyword-analysis-example_012.png)
+![](images/keyword-analysis-example/gefei-keyword-analysis-example_012.webp)
 
 发现没有，生成的网站，直接用的是高权重域名 sites.google.com 的内页。
 

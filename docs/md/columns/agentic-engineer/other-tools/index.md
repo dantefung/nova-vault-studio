@@ -1,5 +1,5 @@
 ---
-title: Other Tools
+title: "其他 Agent 工具"
 ---
 
 # Other Tools
@@ -10,9 +10,11 @@ title: Other Tools
 
 - [Age App Template Introduction](./age-app-template-introduction.md)
 - [Agent Background Tasks](./agent-background-tasks.md)
+- [Mission Driver 安装、使用与原理](./mission-driver-install-and-principles.md)
 - [Codex Video Subtitle](./codex-video-subtitle.md)
 - [Coding Tutor Plugin Architecture](./coding-tutor-plugin-architecture.md)
 - [Commit as Prompt](./commit-as-prompt.md)
+- [Huashu-Excel](./huashu-excel.md)
 - [Open Multi-Agent Research](./open-multi-agent-research.md)
 - [Planning with Files](./planning-with-files.md)
 - [Pencil + Claude Code 用对话做设计](./pencil-claudecode-design.md)
@@ -20,3 +22,4 @@ title: Other Tools
 - [Remote Claude Code Feishu](./remote-claude-code-feishu.md)
 - [Strong Model Bad Engineering](./strong-model-bad-engineering.md)
 - [Taobao Code Generation Workflow](./taobao-code-generation-workflow.md)
+- [DSH 在 Agent 交付项目中的潜在运用场景分析](./dsh-alioth-agent-delivery.md)

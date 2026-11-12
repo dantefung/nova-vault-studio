@@ -55,5 +55,5 @@ url: ""
 ## 相关资源
 
 - [独立开发者套利模式](./aribitrage-mode.md)
-- [内容搬运套利](../wiki/patterns/content-arbitrage-pattern.md)
+- [内容搬运套利](../../../wiki/patterns/content-arbitrage-pattern.md)
 - [四层过滤：机会识别](../wiki/patterns/four-layer-filter.md)

@@ -13,27 +13,260 @@ title: "AI Agent 操作规范"
 - 这是一个 **纯内容站点**，不要运行 `npm test`/`npm run lint` — 这些命令不存在
 - 所有 `.md` 文件放在 `docs/md/` 下，侧边栏和导航由文件系统扫描自动生成
 - **每次完成任务都要主动汇报进度**
-- **每次完成任务都要主动询问用户是否要提交并推送**
+- **每次完成任务都要直接提交并推送（commit + push），无需询问用户**
+
+---
+
+## 目录结构总览
+
+```
+docs/md/
+├── guide/           # 指南文档（AI、Claude Code、CS、开发、终端、OS 等）
+│   ├── ai/          # AI 编程资源、Skills、Vibe Writing
+│   ├── claude-code/ # Claude Code 指南
+│   ├── openclaw/    # OpenClaw 指南
+│   ├── terminal/    # 终端工具指南
+│   ├── cs/          # CS 基础
+│   ├── os/          # 操作系统
+│   ├── dev/         # 开发工具
+│   ├── career/      # 职业发展
+│   ├── business/    # 商业指南
+│   ├── research/    # 研究方法
+│   └── vm/          # 虚拟机
+├── columns/         # 深度专栏（25 个）
+│   ├── indie-hub/   # 独立开发者出海
+│   │   └── seo/     # SEO 建站（22 个子分类）
+│   ├── agentic-engineer/ # AI Agent 工程
+│   ├── ai-agent/    # AI Agent 教程
+│   ├── harness-engineering/ # Harness 工程
+│   ├── vibe-coding/ # Vibe Coding
+│   ├── vibe-coding-and-design/ # Vibe Coding + 设计
+│   ├── openclaw/    # OpenClaw 专栏
+│   ├── opc/         # OPC 专栏
+│   ├── agentic-engineer/opencode/ # OpenCode 工程实践
+│   ├── gstack-skills/ # GStack Skills
+│   ├── superpowers-skills/ # Superpowers Skills
+│   ├── mattpocock-skills/ # Matt Pocock Skills
+│   ├── get-shit-done-skills/ # GSD Skills
+│   ├── prompt-engineering-book/ # 提示词工程
+│   ├── content-engineering/ # 内容工程
+│   ├── cognition/   # 认知科学
+│   ├── drawing/     # 绘图
+│   ├── diary/       # 日记专栏
+│   ├── investment/  # 投资
+│   ├── java-best-practices/ # Java 最佳实践
+│   ├── lenny-newsletter/ # Lenny  Newsletter
+│   ├── paws/        # PAWS
+│   ├── qwenpaw/     # QwenPaw
+│   ├── recruitment/ # 招聘
+│   └── social-media/ # 社交媒体
+├── wiki/            # LLM Wiki 知识库
+│   ├── sources/     # 原始文章（verbatim，唯读）
+│   ├── summaries/   # 精读摘要
+│   ├── concepts/    # 概念页
+│   ├── products/    # 产品页
+│   ├── patterns/    # 模式页
+│   ├── comparisons/ # 对比页
+│   ├── entities/    # 实体页
+│   ├── journal/     # 日记
+│   ├── read-later/  # 稍后读
+│   ├── 商业分析/    # 商业分析
+│   └── images/      # 配图
+├── books/           # 专题书籍（16 类，PDF 内嵌预览）
+│   ├── ai-software/ # AI 软件
+│   ├── claude-code-src/ # Claude Code 源码
+│   ├── DDIA/        # 数据密集型应用
+│   ├── harness/     # Harness
+│   ├── hermes/      # Hermes
+│   ├── k8s/         # Kubernetes
+│   ├── linux-network/ # Linux 网络
+│   ├── openclaw/    # OpenClaw
+│   ├── software-engineering/ # 软件工程
+│   ├── social-media/ # 社交媒体
+│   ├── spring/      # Spring
+│   ├── transformer-embedding/ # Transformer
+│   ├── visual-systems/ # 视觉系统
+│   ├── zettelkasten/ # 卡片笔记
+│   └── misc/        # 其他
+├── slides/          # 横向翻页网页 PPT
+├── tutorial/        # 教程区
+│   ├── codex-practice/
+│   ├── full-keyboard/
+│   ├── tutorial-one/
+│   └── tutorial-two/
+├── agi/             # AGI 相关教程
+│   ├── Anthropic-Academy/
+│   └── claude-code-src/
+├── business/        # 商业分析
+│   ├── market-analysis/
+│   ├── business-models/
+│   ├── investment/
+│   ├── ai-relay-station/
+│   └── digital-products/
+├── blog/            # 博客
+│   ├── category/
+│   ├── series/
+│   └── archive/
+├── sitelog/         # 站点自身文档
+│   ├── architecture/
+│   ├── features/
+│   ├── development/
+│   ├── dev-log/
+│   ├── evolution/
+│   └── reference/
+├── prompts/         # 提示词
+│   └── design/
+└── assets/          # 静态资源
+    └── diagram-icons/
+```
+
+---
+
+## 🔍 路由表（关键字 → 路径）
+
+### 指南类
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| AI 编程资源、AI 工具、Claude Skills | `guide/ai/ai-programming-resources.md` |
+| Claude Code 资源、Claude 教程 | `guide/ai/claude-code-resources.md` |
+| Claude Code 指南 | `guide/claude-code/` |
+| OpenClaw 指南 | `guide/openclaw/` |
+| 提示词工程、Prompt | `guide/ai/prompt-engineering/` |
+| 结构化 Prompt 开发 | `guide/ai/structured-prompt-driven-development.md` |
+| Vibe Coding 教程 | `guide/ai/vibe-coding-core-pitfalls.md` |
+| AI 编程幻灯片 | `guide/ai/ai-programming-slides/` |
+| 终端工具、命令行 | `guide/terminal/` |
+| CS 基础、计算机科学 | `guide/cs/` |
+| 操作系统、OS | `guide/os/` |
+| 开发工具、Dev | `guide/dev/` |
+| 职业发展、Career | `guide/career/` |
+| 研究方法、Research | `guide/research/` |
+| 虚拟机、VM | `guide/vm/` |
+| 商业指南 | `guide/business/` |
+
+### 专栏类
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| 独立开发者、出海、Indie Hub | `columns/indie-hub/` |
+| SEO 建站、Google SEO、排名 | `columns/indie-hub/seo/` |
+| 关键词分析、Keyword | `columns/indie-hub/seo/keyword-analysis/` |
+| 域名、Domain | `columns/indie-hub/seo/domain/` |
+| 落地页、Landing Page | `columns/indie-hub/seo/webcafe-landing-page/` |
+| 需求挖掘 | `columns/indie-hub/seo/webcafe-demand/` |
+| 外链、Backlink | `columns/indie-hub/seo/webcafe-seo-backlink/` |
+| 上站、上线、Ship | `columns/indie-hub/seo/webcafe-ship/` |
+| 工具站、Tool Site | `columns/indie-hub/seo/webcafe-tool-site/` |
+| 新手入门、SEO 基础 | `columns/indie-hub/seo/webcafe-beginner/` |
+| 进阶教程 | `columns/indie-hub/seo/webcafe-advanced/` |
+| 社群复盘、社区动态 | `columns/indie-hub/seo/community-recap/` |
+| Google Ads 广告 | `columns/indie-hub/seo/google-ads/` |
+| 赚钱方法、套利、Money | `columns/indie-hub/money-methods/` |
+| Dropshipping、一件代发 | `columns/indie-hub/dropshipping-resources/` |
+| 独立 App、App 实战 | `columns/indie-hub/app-playbook/` |
+| AI 产品、AI 工具 | `columns/indie-hub/ai-product/` |
+| zlbigger 系列 | `columns/indie-hub/zlbigger/` |
+| 出海实战、outsea | `columns/indie-hub/outsea-playbook/` |
+| 跨境电商、AI 电商 | `columns/indie-hub/ai-cross-border-ecommerce-research/` |
+| Agentic Engineer、Agent 工程 | `columns/agentic-engineer/` |
+| 多 Agent 协作冲突 | `columns/agentic-engineer/multi-agent-collision/` |
+| cc-connect 配置 | `columns/agentic-engineer/cc-connect/` |
+| GStack、GSD | `columns/agentic-engineer/gstack/` |
+| oh-my-claudecode | `columns/agentic-engineer/oh-my-claudecode/` |
+| Agent 范式演进 | `columns/agentic-engineer/agent-paradigm-evolution/` |
+| Ralph Loop | `columns/agentic-engineer/ralph-loop/` |
+| Pensieve | `columns/agentic-engineer/pensieve/` |
+| AI Agent 教程 | `columns/ai-agent/` |
+| Harness 工程 | `columns/harness-engineering/` |
+| Vibe Coding 工作流 | `columns/vibe-coding/` |
+| Vibe Coding + 设计 | `columns/vibe-coding-and-design/` |
+| OpenClaw 专栏 | `columns/openclaw/` |
+| OPC 专栏 | `columns/opc/` |
+| OpenCode 专栏、OpenCode | `columns/agentic-engineer/opencode/` |
+| GStack Skills | `columns/gstack-skills/` |
+| Superpowers Skills | `columns/superpowers-skills/` |
+| Matt Pocock Skills | `columns/mattpocock-skills/` |
+| GSD Skills | `columns/get-shit-done-skills/` |
+| 提示词工程书 | `columns/prompt-engineering-book/` |
+| 内容工程 | `columns/content-engineering/` |
+| 认知科学 | `columns/cognition/` |
+| 绘图、Drawing | `columns/drawing/` |
+| 投资 | `columns/investment/` |
+| Java 最佳实践 | `columns/java-best-practices/` |
+| Lenny Newsletter | `columns/lenny-newsletter/` |
+| 社交媒体 | `columns/social-media/` |
+| QwenPaw | `columns/qwenpaw/` |
+| 招聘 | `columns/recruitment/` |
+
+### 知识库类
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| Wiki 知识库、LLM Wiki | `wiki/` |
+| 原始文章、Sources | `wiki/sources/` |
+| 摘要、Summaries | `wiki/summaries/` |
+| 概念、Concepts | `wiki/concepts/` |
+| 产品、Products | `wiki/products/` |
+| 模式、Patterns | `wiki/patterns/` |
+| 对比、Comparisons | `wiki/comparisons/` |
+| 实体、Entities | `wiki/entities/` |
+| 日记、Journal | `wiki/journal/` |
+| 稍后读、Read Later | `wiki/read-later/` |
+| 商业分析 | `wiki/商业分析/` |
+
+### 书籍类
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| AI 软件书籍 | `books/ai-software/` |
+| Claude Code 源码书 | `books/claude-code-src/` |
+| DDIA、数据密集型 | `books/DDIA/` |
+| Harness 书籍 | `books/harness/` |
+| Hermes 书籍 | `books/hermes/` |
+| Kubernetes、k8s | `books/k8s/` |
+| Linux 网络 | `books/linux-network/` |
+| OpenClaw 书籍 | `books/openclaw/` |
+| 软件工程 | `books/software-engineering/` |
+| 社交媒体 | `books/social-media/` |
+| Spring | `books/spring/` |
+| Transformer、Embedding | `books/transformer-embedding/` |
+| 视觉系统 | `books/visual-systems/` |
+| 卡片笔记、Zettelkasten | `books/zettelkasten/` |
+
+### 其他
+
+| 关键字 | 目标路径 |
+|--------|---------|
+| 网页 PPT、Slides | `slides/` |
+| 教程、Tutorial | `tutorial/` |
+| AGI 教程 | `agi/` |
+| 商业分析（顶层） | `business/` |
+| 博客、Blog | `blog/` |
+| 站点日志、Sitelog | `sitelog/` |
+| 提示词、Prompts | `prompts/` |
 
 ---
 
 ## 系统功能矩阵概览
 
-### 内容板块（11 个）
+### 内容板块（11 个顶层分类）
 
-| 板块 | 用途 |
-|------|------|
-| guide | 指南文档（AI、Claude Code、CS、开发、终端、OS 等） |
-| wiki | LLM Wiki 知识库（四层架构） |
-| columns | 20 个深度专栏 |
-| books | 16 个书籍分类，支持 PDF 内嵌预览 |
-| slides | 横向翻页网页 PPT 集合 |
-| tutorial | 教程区 |
-| agi | AGI 相关教程 |
-| business | 商业分析（市场、模式、投资） |
-| sitelog | 站点自身文档 |
+| 板块 | 用途 | 路径 |
+|------|------|------|
+| guide | 指南文档（AI、Claude Code、CS、开发、终端、OS 等） | `docs/md/guide/` |
+| wiki | LLM Wiki 知识库（四层架构） | `docs/md/wiki/` |
+| columns | 25 个深度专栏 | `docs/md/columns/` |
+| books | 16 个书籍分类，支持 PDF 内嵌预览 | `docs/md/books/` |
+| slides | 横向翻页网页 PPT 集合 | `docs/md/slides/` |
+| tutorial | 教程区 | `docs/md/tutorial/` |
+| agi | AGI 相关教程 | `docs/md/agi/` |
+| business | 商业分析（市场、模式、投资） | `docs/md/business/` |
+| blog | 博客 | `docs/md/blog/` |
+| sitelog | 站点自身文档 | `docs/md/sitelog/` |
+| prompts | 提示词集合 | `docs/md/prompts/` |
 
-### Skills 能力（18 个）
+### Skills 能力
 
 | 类别 | 主要 Skill |
 |------|-----------|
@@ -44,6 +277,64 @@ title: "AI Agent 操作规范"
 | 文档处理 | pdf-to-markdown |
 | Git 工作流 | commit-as-prompt、gh-push |
 | 元技能 | skill-forge |
+
+### 已安装技能详情
+
+#### sigma — Bloom 2-Sigma 个性化导师
+
+- **来源**: [VastFuture/sanyuan-skills](https://github.com/VastFuture/sanyuan-skills) → `skills/sigma/`
+- **安装路径**: `.agents/skills/sigma/`
+- **触发词**: "learn"、"study"、"teach me"、"tutor me"、"I want to learn"、"help me understand"、"explain X step by step"、"master X"、`/sigma`
+- **核心方法**: Socratic 提问 + 自适应节奏 + 可视化输出（HTML 路线图 / Excalidraw 概念图）
+- **使用规则**:
+  - 每轮只问 1-2 题，绝不直接给答案
+  - 先诊断用户现有理解，再决定起点
+  - 掌握度 ≥80% 才进入下一概念
+  - 支持 `--resume` 续接上次会话
+- **会话目录**: `sigma/{topic-slug}/`（跨会话持久化学习状态）
+- **相关文件**: `references/excalidraw.md`、`references/html-templates.md`、`references/pedagogy.md`
+
+
+#### yao-tutorial-skill — 教程成品生产 Skill
+
+- **来源**: [VastFuture/yao-open-skills](https://github.com/VastFuture/yao-open-skills) → `skills/yao-tutorial-skill/`
+- **安装路径**: `.agents/skills/yao-tutorial-skill/`
+- **触发词**: "写一本教程"、"帮我做个指南"、"创作XX从入门到精通"、"做个橙皮书"、"系统整理XX知识"、"输出一份完整文档"
+- **核心能力**: 输入主题或参考资料 → 自适应研究 → 课程设计大纲 → 完整章节正文 → 每章配图(HTML画板+截图) → 多格式导出(Markdown/DOCX/PDF/HTML)
+- **使用规则**:
+  - 用户资料足够时以用户资料为主线，不足时补充官方文档/论文/GitHub
+  - 教程深度以"学习充分性"为准，不设固定字数上限
+  - 每个编号章节必须有独立质检记录和一张嵌入配图
+  - 公开导出不显示内部来源 ID（如[U1]、[X1]）
+  - 绝不伪造推文、论文、仓库详情、日期或引用
+- **配套脚本**: `scripts/build_visual_pack.py`、`scripts/capture_visuals.py`、`scripts/export_tutorial.py`、`scripts/validate_package.py`
+- **参考文件**: `references/input-adaptation.md`、`references/research-sourcing.md`、`references/tutorial-outline-and-writing.md`、`references/course-design-principles.md`、`references/visual-html-workflow.md`、`references/export-workflow.md`
+
+
+#### any2card — 信息卡生成技能
+
+- **来源**: [geekjourneyx/any2card](https://github.com/geekjourneyx/any2card) → `main/`
+- **安装路径**: `.agents/skills/any2card/`
+- **触发词**: "信息卡"、"卡片摘要"、"文章配图"、"内容提炼"、"社交分享图"、"把链接做成卡片"、"生成海报式摘要"
+- **核心能力**: 将任意文本、网页或 URL 转成 HTML 信息卡片，支持 4 大主题家族（编辑型/精准型/电影型/表达型），内置一键保存 PNG 按钮
+- **使用规则**:
+  - 先分析内容再推荐风格（1主推荐+2备选），不直接生成
+  - 画布比例自动判断（portrait/square/landscape/auto）
+  - 标题必须是结论，不是背景说明
+  - 数字必须忠实原文，金句不得虚构
+  - 4-6 个要点通常是上限
+
+
+#### knowledge-map-extractor — 文章知识地图萃取 Skill
+
+- **来源文章**: [我如何把一篇文章变成一张知识地图](https://mp.weixin.qq.com/s/d2naZgv1gr-gy8PUkOOHUQ)
+- **安装路径**: `.agents/skills/knowledge-map-extractor/`
+- **触发词**: "知识地图"、"萃取文章骨架"、"知识树加流程图"、"提取方法论轨道"、"跨线映射"、"反馈回路"、"交互知识地图 HTML"
+- **核心模型**: 静态知识树 + 动态流程轨道 + 静态到动态映射 + 动态到静态反馈
+- **核心原则**: 大模型负责语义理解和关系判断；脚本负责 ID、组装、环检测、校验和 HTML 渲染
+- **输出**: 规范 `model.json`；默认同时输出可交互单文件 `index.html`
+- **配套资源**: `references/extraction-contract.md`、`scripts/build_map.py`、`assets/map-template.html`
+
 
 ### 站点特性
 
@@ -64,14 +355,29 @@ title: "AI Agent 操作规范"
 pre-commit hook (`check-frontmatter.py`) 检查所有 staged `.md` 文件，缺 `title` 直接拒绝提交。
 `date`、`url` 缺失仅警告不阻断。
 
+### Frontmatter 中 title 值不能嵌套双引号
+
+YAML 中 `title: "..."` 的值内部不能再出现未转义的双引号 `"`，否则 YAML 解析器会报错，导致 VitePress 构建失败：
+
+```yaml
+# 错误 ❌ — 嵌套双引号
+title: "Agent 的"上下文链接器"——如何管理能力"
+
+# 正确 ✅ — 使用中文引号
+title: "Agent 的「上下文链接器」——如何管理能力"
+
+# 正确 ✅ — 使用单引号包裹
+title: 'Agent 的"上下文链接器"——如何管理能力'
+```
+
+pre-commit hook 现在会验证 frontmatter 是否能被 YAML 正确解析，不合法则拒绝提交。
+
 ### 裸露 HTML 标签阻断提交
 
 pre-commit hook 同时检查 `.md` 文件中是否有裸露的 HTML 标签（非代码块内）。Vue 编译器会把 `<tag>` 当作真实 HTML 解析，导致构建失败：
 
 - **代码片段必须加反引号**：`<h1>`、`<head>`、`</body>` 等必须写成 `` `<h1>` ``、`` `<head>` ``、`` `</body>` ``
 - **浏览器扩展污染**：`<readpronunciation-*>` 等注入标签会被 hook 拦截——用 `git checkout -- <file>` 回退
-
-**新增脚本**：`.claude/hooks/check-html-tags.py`（被 `.git/hooks/pre-commit` 调用）
 
 ```yaml
 ---
@@ -119,14 +425,6 @@ baoyu-fetch 可能产生两块 `---`：
 
 处理方式：只保留第一块 frontmatter（`---` 闭合后到下一个 `---` 之间的内容全部删除），正文从 `# 标题` 行开始。
 
-**2. 清理双 frontmatter**
-
-baoyu-fetch 可能产生两块 `---`：
-- 第一块：YAML 元数据（title/date/source/url 等）
-- 第二块：可能是额外的元数据或直接是正文
-
-处理方式：只保留第一块 frontmatter（`---` 闭合后到下一个 `---` 之间的内容全部删除），正文从 `# 标题` 行开始。
-
 **3. 修复 YAML frontmatter 常见问题**
 
 - URL 折行：`url: "https://..."` 必须在一行内，不能在 URL 中间换行
@@ -136,6 +434,36 @@ baoyu-fetch 可能产生两块 `---`：
 
 - commit message 用 `prompt:` 前缀，例：`prompt: 采集 xxx 文章`
 - pre-commit hook 会检查 title 必填，缺则拒绝提交
+
+### 大图片拖垮 Vercel 构建（OOM）
+
+图片单个 >500KB 且大量堆积时，Vercel 构建会在「rendering pages」阶段 OOM（约 7 分钟超时失败）。**采集/归档图片后必须压缩**。
+
+**规则**：
+- 图片单个 >500KB 禁止直接提交
+- pre-commit hook（`check-image-size.py`）会自动检查 staged 的 `.md` 引用图片和直接 staged 的图片文件，超限会阻断并给出压缩命令
+
+**GIF 一律转 PNG**（sharp 提取首帧）：
+```bash
+node -e "const sharp=require('sharp'); \
+  sharp('{图片}.gif',{animated:false}).png({compressionLevel:9,palette:true}) \
+  .toFile('{图片}.png').then(()=>console.log('OK'))"
+```
+转换后必须：① 更新 `.md` 引用 `.gif`→`.png` ② 删除原 `.gif` 文件。
+
+**PNG/JPG/WebP 压缩**（sharp，>500KB）：
+```bash
+node -e "const sharp=require('sharp'),fs=require('fs'); \
+  sharp('{图片}').rotate().resize({width:1600,withoutEnlargement:true}) \
+  .jpeg({quality:82,mozjpeg:true}).toFile('{图片}.tmp') \
+  .then(()=>fs.renameSync('{图片}.tmp','{图片}'))"
+```
+
+**批量压缩**：项目根 `_sandbox/compress-images.js`（遍历 `docs/md/` 处理 >500KB 图片）。注意 PNG palette 转换可能变大，需降分辨率或换 JPEG 降质。
+
+**⚠️ PNG 转 JPEG 后扩展名必须改**：用 sharp 把 `.png` 转成 JPEG 内容后，若文件名仍是 `.png`，虽然浏览器能渲染，但不符合规范。应 `mv x.png x.jpg` 并更新引用。未被引用的图片（孤立文件）可保留原名。
+
+**⚠️ 项目是 ESM**：`package.json` 含 `"type": "module"`。写 node 脚本时 `.js` 会被当 ES module，`require` 会报错——用 `.cjs` 扩展名或 `import` 语法。
 
 ### `ignoreDeadLinks: true` — 死链接静默放过
 
@@ -169,6 +497,30 @@ rtk ls docs/md/{分类}/{文章}/images/{文章名}/
 - `check-frontmatter.py` — 验证 frontmatter title 必填
 - `check-html-tags.py` — 检查裸露 HTML 标签
 - `check-image-refs.py` — 验证图片引用是否存在
+- `check-image-size.py` — 检查图片 >500KB（Vercel OOM 防护）
+- `check-resource-nav.py` — 校验 AI 编程资源 md 格式（仅在源文件 staged 时触发）
+- `check-vue-interpolation.py` — 拦截代码围栏外的 `{{ }}`（会炸 Vue 编译器）
+
+> ⚠️ **2026-11-03 修正**：`.git/hooks/pre-commit` 原先只是指向 `check-frontmatter.py` 的软链接，
+> 其余 5 个检查**从未生效**——`check-html-tags.py` 曾以「裸 `<style>` / `<script>` / `<text>`」
+> 的形式混进一篇采集文章，直到 Vercel 生产构建抛
+> `Element is missing end tag` 才暴露。现已按下方脚本安装完整 6 钩子。
+>
+> 另：`check-html-tags.py` 曾只读 git 暂存区、忽略命令行传入的路径，
+> 导致「手动传文件路径校验」实际空跑（假通过）。现已支持显式路径参数。
+>
+> **校验前务必确认钩子真的在跑**：改完 `.md` 后先 `git add`，再执行
+> `python3 .claude/hooks/check-html-tags.py docs/md/xxx.md`，看退出码而非只看有无输出。
+
+**裸 HTML 标签判定规则（`check-html-tags.py`）**：
+
+| 类别 | 判定 | 处理 |
+|------|------|------|
+| 永远危险 | `style` / `text` / `svg` / `iframe` / `template` | 一律用反引号包起来 |
+| `script` | 只允许 `<script setup>` / `</script>` | 其他写法用反引号 |
+| 未配对闭合 | `div` / `span` / `i` 开标签在全文找不到对应闭标签 | 用反引号 |
+| 中文引号属性 | `class=“…”` / `style=“…”` | 改成直引号并用反引号包住整段 |
+| 不算标签 | `<https://…>` 自动链接、`<10` 等非字母开头 | 放行 |
 
 **首次配置（项目根目录执行）**：
 
@@ -177,19 +529,50 @@ cat > .git/hooks/pre-commit << 'EOF'
 #!/bin/sh
 PROJECT_ROOT="$(git rev-parse --show-toplevel)"
 STAGED_MD_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.md$' | grep -v '^docs/public/')
-[ -z "$STAGED_MD_FILES" ] && exit 0
+STAGED_IMAGE_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(png|jpe?g|gif|webp)$')
+[ -z "$STAGED_MD_FILES" ] && [ -z "$STAGED_IMAGE_FILES" ] && exit 0
 
 for file in $STAGED_MD_FILES; do
     FULL_PATH="$PROJECT_ROOT/$file"
     python3 "$PROJECT_ROOT/.claude/hooks/check-frontmatter.py" "$FULL_PATH" || exit 1
     python3 "$PROJECT_ROOT/.claude/hooks/check-html-tags.py" "$FULL_PATH" || exit 1
     python3 "$PROJECT_ROOT/.claude/hooks/check-image-refs.py" "$FULL_PATH" || exit 1
+    python3 "$PROJECT_ROOT/.claude/hooks/check-resource-nav.py" "$FULL_PATH" || exit 1
+    python3 "$PROJECT_ROOT/.claude/hooks/check-vue-interpolation.py" "$FULL_PATH" || exit 1
+done
+for file in $STAGED_IMAGE_FILES; do
+    FULL_PATH="$PROJECT_ROOT/$file"
+    python3 "$PROJECT_ROOT/.claude/hooks/check-image-size.py" "$FULL_PATH" || exit 1
 done
 EOF
 chmod +x .git/hooks/pre-commit
 ```
 
 > **注意**：`.git/hooks/pre-commit` 是本地文件，不上传 git。每个开发者首次克隆项目后需要手动创建。
+
+---
+
+## 资源导航页（/md/resources/）
+
+`docs/md/guide/ai/ai-programming-resources.md` 是**唯一数据源**，导航页在构建时解析它生成——
+不要另建 JSON/YAML 副本驱动导航页，两份数据必然漂移。改内容只改这一个 md。
+
+解析器会尽量降级容错，但写错格式会导致条目**静默消失**。pre-commit 调用同一个解析器的 `--check`
+拦截，所以格式错了提交不上去。
+
+**写作规范**：
+
+- `##` = 分类，`###` = 分组，标题最深到 H3
+- 条目：`- [标题](链接) — 描述`
+- 子项缩进 2 空格
+- 表格首行必须是表头
+- 列表符号只用 `-`，禁用 `*` / `+`
+
+手工校验：
+
+```bash
+node scripts/build-resource-nav.js --check
+```
 
 ---
 
@@ -216,6 +599,29 @@ chmod +x .git/hooks/pre-commit
 
 ---
 
+## 归档去广告要求
+
+**所有采集归档任务必须做去广告处理**，在图片本地化之后、写入 `docs/md/` 之前完成。
+
+### 必须清除的广告类型
+
+| 类型 | 示例 | 处理方式 |
+|------|------|---------|
+| 自有产品推广 | 作者推销自己的产品/服务/课程/社群 | 整段删除，或改写为中性描述 |
+| 第三方服务推荐 | 接码平台、代购渠道、礼品卡、VPS、机场、中转站 | 整段删除 |
+| 引流关注话术 | "关注我不亏"、"点赞收藏转发"、"欢迎都来使用" | 删除 |
+| 个人本机路径 | `/Users/xxx/Documents/` 等作者私有路径 | 改为通用示例路径 |
+| 推广链接 | 产品落地页、带 aff/ref 参数的链接 | 删除链接保留文字，或整段删除 |
+
+### 处理原则
+
+1. **保留核心知识**：教程方法、Prompt、SOP、参数、结论必须完整保留，只删营销话术
+2. **工具去品牌化**：若作者的产品是流程中的一环，改写为「音视频转录工具」这类通用描述，不保留品牌名和产品链接
+3. **作者信息可保留**：末尾的作者简介（姓名/领域/账号）保留，用于溯源；但删除其中的引流话术
+4. **不改变原意**：只删广告，不改写技术内容和结论
+
+---
+
 ## 图片存放规范
 
 ```
@@ -230,35 +636,34 @@ docs/md/{分类}/{子目录}/images/{文章英文名}/{图片文件}
 
 ## HTML PPT 归档规范
 
-外部 HTML PPT（如 guizang-ppt-skill 生成的）归档到本知识库时，遵循以下流程：
-
 ### 目标位置
 
-```
-docs/md/slides/ppt-{英文简称}/
-├── index.html          ← 原始 HTML（verbatim）
-├── index.md            ← VitePress 入口（必建）
-└── images/             ← 引用的图片（如有）
-    ├── slide-01.png
-    └── slide-02.png
-```
+由于 VitePress 只有 `docs/public/` 下的静态文件会被作为根路径静态资源托管并供 `HtmlViewer`（iframe）加载，PPT 的原始 HTML 与静态资源必须存放在 `docs/public/slides/` 下，Markdown 页面存放在 `docs/md/slides/`：
 
-- 目录命名：`ppt-` 前缀 + 英文 kebab-case（如 `ppt-how-to-write-prompt`）
-- 放在 `docs/md/slides/` 专用目录下，按主题分类
+```
+docs/public/slides/ppt-{英文简称}/
+├── index.html          ← 原始 HTML（verbatim）
+└── assets/ 或 images/  ← 引用的脚本/图片（如有）
+
+docs/md/slides/ppt-{英文简称}/
+└── index.md            ← VitePress 入口（必建，内嵌 HtmlViewer）
+```
 
 ### 操作步骤
 
 ```bash
-# 1. 创建目录
-mkdir -p docs/md/slides/ppt-{英文名}/images
+# 1. 创建 public 静态资源目录与 markdown 目录
+mkdir -p docs/public/slides/ppt-{英文名}
+mkdir -p docs/md/slides/ppt-{英文名}
 
-# 2. 复制文件
-cp {源}/index.html docs/md/slides/ppt-{英文名}/
-cp {源}/images/*.png docs/md/slides/ppt-{英文名}/images/
+# 2. 复制 HTML 及附属资源到 public
+cp {源}/index.html docs/public/slides/ppt-{英文名}/
+cp -r {源}/assets docs/public/slides/ppt-{英文名}/  # 如有
+cp -r {源}/images docs/public/slides/ppt-{英文名}/  # 如有
 
-# 3. 创建 index.md（见下方模板）
+# 3. 创建 docs/md/slides/ppt-{英文名}/index.md（见下方模板）
 
-# 4. 更新 docs/md/slides/index.md 的目录索引
+# 4. 在 docs/md/slides/index.md 中嵌入 HtmlViewer
 ```
 
 ### index.md 模板
@@ -271,11 +676,15 @@ source: "{来源项目}"
 url: ""
 ---
 
+<script setup>
+import HtmlViewer from '../../../.vitepress/theme/components/HtmlViewer.vue'
+</script>
+
 # {PPT 标题}
 
 > {一句话描述}
 
-[打开 PPT →](./index.html)
+<HtmlViewer src="/slides/ppt-{英文名}/index.html" title="{PPT 标题}" />
 
 ---
 
@@ -287,10 +696,12 @@ url: ""
 
 ### 索引更新
 
-在 `docs/md/slides/index.md` 的对应主题章节追加：
+在 `docs/md/slides/index.md` 中追加嵌入组件：
 
-```markdown
-- [{PPT 标题}](./ppt-{英文名}/index.md) — {一句话描述}
+```html
+## {分类名称}
+
+<HtmlViewer src="/slides/ppt-{英文名}/index.html" title="{PPT 标题}" />
 ```
 
 ### ⚠️ 注意事项
@@ -363,6 +774,34 @@ const pdfUrl = new URL('./{书名}.pdf', import.meta.url).href
 
 ---
 
+## X 长文归档流水线
+
+X / Twitter 长文的采集归档有现成脚本，**不要重写**：
+
+```bash
+# 1) 抓取推文到 x-to-markdown/
+python3 scripts/x-pipeline.py fetch "https://x.com/user/status/123" "https://x.com/user/status/456"
+
+# 2) 写 manifest（只放人工判断部分），再跑完整流水线
+python3 scripts/x-pipeline.py all _sandbox/manifest.json
+```
+
+`all` 依次执行 **images → build → normalize → check**，也可单独调用：
+
+| 子命令 | 作用 |
+|---|---|
+| `fetch <url>...` | 调 `baoyu-danger-x-to-markdown` 抓取 |
+| `images <manifest>` | 下载配图到 `docs/md/wiki/images/<slug>/`，单图 > 450KB 自动用 sharp 压缩 |
+| `build <manifest>` | 构建 `docs/md/wiki/sources/<slug>.md`（Thread 外壳剥离、标题层级、列表规范化、配图本地化、去导流话术） |
+| `normalize <manifest>` | 盘古之白 + 全角标点 + 配对引号（底层是 `scripts/normalize-typo.py`） |
+| `check <manifest>` | 校验悬空 wikilink、远程图残留、图片引用存在性 |
+
+manifest 每项字段：`slug` / `src` / `out` / `title` / `author` / `url` / `desc` / `related`，可选 `links`（短链还原）、`sections`（多段 Thread 小标题）、`insert_before`、`note`、`remove_lines`、`replace_lines`。
+
+> `x-to-markdown/` 与 manifest 都是临时产物，**完成后连同 `_sandbox/` 一起清理**；`scripts/x-pipeline.py` 与 `scripts/normalize-typo.py` 是常驻工具，不要删。
+
+---
+
 ## 临时目录
 
 临时工作文件统一放在项目根目录 `_sandbox/` 下，完成后清理。不放在 `/tmp/`。
@@ -409,23 +848,17 @@ npm run preview   # 预览构建产物
 
 **触发词**：「稍后读」「先记下来」「mark for later」「回头看」。
 
-**轻量性质**：用户说"稍后读"= **只记链接**，**不要抓全文到 Downloads**，**不要**走 wiki-ingest 完整流程。
+**轻量性质**：用户说"稍后读"= **只记链接**，**不要抓全文**，**不要**走 wiki-ingest 完整流程。
 
 **文件**：`docs/md/wiki/read-later/index.md`——按平台分类追加一行，**绝不单独建文件**。
 
-**格式**（微信公众号分类下）：
+**格式**：
 
 ```markdown
-| YYYY-MM-DD | https://mp.weixin.qq.com/s/xxx | **标题**：一句话摘要 + 关键洞察 + 跟本仓哪条概念链接 |
+| YYYY-MM-DD | https://... | **标题**：一句话摘要 + 关键洞察 + 交叉引用 |
 ```
 
-- 日期：当天 `YYYY-MM-DD`
-- 摘要：3-5 个粗体关键词，1-2 句话讲核心
-- 交叉引用：跟现有 wiki 概念（`[[llm-wiki]]` 等）的关联顺手标注
-
 **升级路径**：如果用户后续说「入库」「归档到仓库」「走完整流程」，再触发 `/wiki-ingest-article`——sources → summaries → concepts → index/log 更新。
-
-**反例**（INFP 常见陷阱：理想化预期、过度打磨）：不要"为了以防万一先抓全文存到 Downloads"——除非用户明确说"抓全文"或"入库"。
 
 ### 四层结构
 
@@ -436,19 +869,7 @@ npm run preview   # 预览构建产物
 | 概念层 | `concepts/` | 从摘要提炼的知识页，含定义+洞察+与其他概念交叉引用 | LLM 维护 |
 | 产出层 | `artifacts/` | 你原创的完成品（已发布的文章、推文串、笔记） | 你维护 |
 
-### artifacts 子目录
-
-```
-artifacts/
-├── articles/   ← 已发布到专栏的长文
-├── threads/    ← 推文串/X threads
-└── notes/      ← 随手笔记/想法片段
-```
-
-**artifacts 入口**：写完发布到专栏时，同步复制一份到 `wiki/artifacts/articles/`。
-不是采集归档，是**创作产出物**。
-
-### 三条归档路径（含稍后读）
+### 三条归档路径
 
 | 路径 | 触发 | 目的地 | 重量 |
 |------|------|--------|------|
@@ -456,80 +877,26 @@ artifacts/
 | 采集归档 | `/wiki-ingest-article` | `sources/` → `summaries/` → `concepts/` | 🔥 重（精读+配图+概念页） |
 | 创作发布 | 写完发布到专栏时 | 同时写一份到 `artifacts/articles/` | 中 |
 
-### Wiki 目录
-
-- Wiki 路径：`docs/md/wiki/`
-- Wiki 子目录：`artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`journal/`、`images/`、`images/`（文章配图）
-- **索引页维护**：每个分类（vibe-coding、agentic-engineer、出海建站等）需要在 `index.md` 的分类索引中登记，sidebar 自动生成但 index 索引需手动更新
-
 ---
 
 ## 日记记录 (Journal Diary)
 
-用于记录用户的随思、感悟、语录等非结构化内容。触发词：「记录日记」、「记一下」、「写个日记」、「随手记」。
-
-### 文件位置
+触发词：「记录日记」、「记一下」、「写个日记」、「随手记」。
 
 - 目录：`docs/md/wiki/journal/`
-- 文件名：`YYYY-MM-DD.md`（按日期分文件）
-
-### 内容组织
-
-按**内容主题**划分章节/条目，追加到当天的文件里。同一日期的多条记录放在同一个文件的不同章节。
-
-### 格式
-
-```markdown
-## HH:MM 主题标签
-
-内容...
-
-*—— 来源*
-```
-
-### index.md 索引维护
-
-`index.md` 是日记索引，**只登记不写内容**。每次新建/更新日记文件后，在 `index.md` 顶部追加索引条目：
-
-```markdown
-## YYYY-MM-DD
-
-- [HH:MM] 主题标签 — 一句话摘要
-- [HH:MM] 主题标签 — 一句话摘要
-```
-
-index.md 保持按日期倒序排列（最新日期在前）。
-
-### 操作流程
-
-1. 用户说"记录日记" → 记录内容到 `docs/md/wiki/journal/YYYY-MM-DD.md`
-2. 更新 `index.md` 的索引条目
+- 文件名：`YYYY-MM-DD.md`
+- 每条记录用 `## 主题` 分章节
+- 更新 `index.md` 顶部索引（按日期倒序）
 
 ---
 
 ## TODO 待办列表
 
-用于记录待爬取的公众号内容链接，与「稍后读」同级。文件位置：`TODO.md`。
+文件：`TODO.md`
 
-**格式**：
+格式：`| 日期 | 链接 | 描述 | 状态 |`
 
-```markdown
-| 日期 | 链接 | 状态 |
-|------|------|------|
-| YYYY-MM-DD | https://... | pending |
-```
-
-**流程**：
-1. 记录链接，状态设为 `pending`
-2. 执行采集（`/wiki-ingest-article`）
-3. 完成后更新状态为 `done`，移至「已完成」区块
-- 一个页面 = 一个知识实体（概念、实体、摘要）
-- 文件命名：小写、中划线分隔（如 `claude-code-setup.md`）
-- 交叉引用：`[[pages/concept-name]]` Obsidian 兼容双括号格式
-- `index.md`：每次 ingest 更新，按分类组织
-- `log.md`：只追加、chronological 条目，条目以 `## [YYYY-MM-DD]` 开头
-- `brainstorming/`：与 AI 对话的探索记录（chronological 条目）
-- `artifacts/`、`concepts/`、`products/`、`patterns/`、`comparisons/`、`entities/`、`summaries/`、`synthesis/`、`sources/`、`images/`
+流程：记录 `pending` → 采集后标记 `done` → 移至「已完成」区块
 
 ---
 
@@ -538,7 +905,4 @@ index.md 保持按日期倒序排列（最新日期在前）。
 ### Codex 实战课程仓库
 
 路径：`codex-practice/`（相对于本仓库根目录）
-
 GitHub：https://github.com/VastFuture/codex-practice
-
-近期需要维护，可能需要激活上下文。

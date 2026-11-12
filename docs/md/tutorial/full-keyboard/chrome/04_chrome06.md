@@ -1,5 +1,5 @@
 ---
-title: "chrome 6"
+title: "第 06 课 · 快捷键操作 DevTools"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

@@ -22,6 +22,7 @@ const props = defineProps({
 })
 
 const VPLocalSearchBox = defineAsyncComponent(() => import('vitepress/dist/client/theme-default/components/VPLocalSearchBox.vue'))
+const searchEnabled = __LOCAL_SEARCH_ENABLED__
 const showSearch = ref(false)
 
 function openSearch() {
@@ -31,6 +32,7 @@ function openSearch() {
 
 <template>
   <button
+    v-if="searchEnabled"
     type="button"
     class="easton-search"
     :class="`is-${props.variant}`"
@@ -53,7 +55,7 @@ function openSearch() {
     <span v-else-if="props.variant === 'nav'" class="easton-search-nav-shortcut" aria-hidden="true">{{ props.shortcut }}</span>
   </button>
 
-  <VPLocalSearchBox v-if="showSearch" @close="showSearch = false" />
+  <VPLocalSearchBox v-if="searchEnabled && showSearch" @close="showSearch = false" />
 </template>
 
 <style scoped>
@@ -204,6 +206,21 @@ function openSearch() {
 }
 
 /* 移动端 */
+@media (max-width: 768px) {
+  .easton-search.is-nav {
+    padding: 8px 12px;
+    min-height: 44px;
+    min-width: 44px;
+    justify-content: center;
+  }
+  .easton-search.is-nav .easton-search-nav-shortcut {
+    display: none;
+  }
+  .easton-search.is-nav .easton-search-nav-label {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   .easton-search.is-bar {
     grid-template-columns: auto minmax(0, 1fr);
@@ -217,9 +234,6 @@ function openSearch() {
   .easton-search.is-bar .easton-search-icon {
     width: 18px;
     height: 18px;
-  }
-  .easton-search.is-nav .easton-search-nav-shortcut {
-    display: none;
   }
 }
 </style>

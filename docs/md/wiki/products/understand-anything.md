@@ -1,5 +1,5 @@
 ---
-title: "Understand-Anything"
+title: "Understand-Anything 知识图谱"
 date: "2026-05-22"
 ---
 

@@ -13,7 +13,7 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 今天给大家推荐一款特别好用而且还免费的SEO谷歌浏览器插件，这个插件哥飞每天都会使用，完全离不开了。
 
 特别说明，今天这篇文章是哥飞自发主动写的，没有收任何推广费用。
-![image.png](images/recommended-free-seo-browser-extension/img_002.png)
+![image.png](images/recommended-free-seo-browser-extension/img_002.webp)
 插件用途是查看任意网页的SEO信息，方便判断网页站内优化做得好不好。
 
 这个插件需求其实来自于哥飞，最早哥飞使用 Detailed 这个插件来查看网页 Title、Description、Headings、网页Meta等信息。
@@ -26,17 +26,17 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 目前插件已经更新到1.4.0版本了，越来越好用了，所以哥飞觉得有必要推荐给更多人使用了。 
 
-![image.png](images/recommended-free-seo-browser-extension/img_003.png)
+![image.png](images/recommended-free-seo-browser-extension/img_003.webp)
 
  目前这个插件在哥飞电脑上已经取代了 Detailed 和 Similareweb 两个插件的位置了，只安装了 AITDK SEO Extension 这一个插件就够用了。
 
-![image.png](images/recommended-free-seo-browser-extension/img_004.png)
+![image.png](images/recommended-free-seo-browser-extension/img_004.webp)
 
 哥飞以之前在《[月访问量1221万的打字练习网站的开源模式值得我们学习](https://mp.weixin.qq.com/s/0AnaEIo7g3YCRfNwFli37A)》介绍过的打字练习网站 monkeytype.com 为例，给大家演示一下这个插件的功能。
 
 **一、SEO概览**
 
-![image.png](images/recommended-free-seo-browser-extension/img_005.png)
+![image.png](images/recommended-free-seo-browser-extension/img_005.webp)
 
 通过这个插件，可以清晰明了的看到任意网页的：
 
@@ -56,7 +56,7 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 **二、网站流量概览**
 
-![image.png](images/recommended-free-seo-browser-extension/img_006.png)
+![image.png](images/recommended-free-seo-browser-extension/img_006.webp)
 
 通过这个界面，可以清晰的知道当前网站的以下数据：
 
@@ -72,7 +72,7 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 **三、H标签 Headings**
 
-![image.png](images/recommended-free-seo-browser-extension/img_007.png)
+![image.png](images/recommended-free-seo-browser-extension/img_007.webp)
 
 在这个界面可以看到任意页面的 Headings 情况，既会统计H1到H6标签分别有多少个，也会以把所有的标签标题给列出来。
 
@@ -80,7 +80,7 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 **四、图片统计**
 由于 MonkeyType 首页没有图片，所以哥飞拿 pngtree 给大家截图举例了。
-![image.png](images/recommended-free-seo-browser-extension/img_008.png)
+![image.png](images/recommended-free-seo-browser-extension/img_008.webp)
 在这个界面，可以看到当前网页的：
 
 1.  图片数量；
@@ -97,7 +97,7 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 **五、链接统计**
 
-![image.png](images/recommended-free-seo-browser-extension/img_009.png)
+![image.png](images/recommended-free-seo-browser-extension/img_009.webp)
 在这个界面可以看到当前网页的：
 
 1.  链接数量统计；
@@ -110,28 +110,28 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 **六、社交媒体Meta标签**
 
-![image.png](images/recommended-free-seo-browser-extension/img_010.png)
+![image.png](images/recommended-free-seo-browser-extension/img_010.webp)
 
 在这个界面看到当前网页的 Open Graph 和 Twitter Card 信息。
 
 **七、多语言绑定**
 这里也是 MonkeyType 没有，所以截图 hix.ai 的信息给大家看。这里要做的就是把我们网站支持的每一种语言和网址都做好绑定。
 
-![image.png](images/recommended-free-seo-browser-extension/img_011.png)
+![image.png](images/recommended-free-seo-browser-extension/img_011.webp)
 
 **八、结构化数据**
 这里同样截图 hix.ai 的信息给大家看，用途是配置好我们的网站在谷歌搜索结果里的结构化信息。
 
-![image.png](images/recommended-free-seo-browser-extension/img_012.png)
+![image.png](images/recommended-free-seo-browser-extension/img_012.webp)
 
 有哪些结构化效果，可以看《10种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第9种》。
 
 **九、域名Whois和DNS信息**
 可以看到当前网站域名的 Whois 信息：
-![image.png](images/recommended-free-seo-browser-extension/img_013.png)
+![image.png](images/recommended-free-seo-browser-extension/img_013.webp)
 以及 DNS 信息：
 
-![image.png](images/recommended-free-seo-browser-extension/img_014.png)
+![image.png](images/recommended-free-seo-browser-extension/img_014.webp)
 通过以上数据，我们就可以对一个网页的站内SEO 优化有一个大概的了解。
 
 如果是别人的大流量网站，我们就可以去学习。

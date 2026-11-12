@@ -1,5 +1,5 @@
 ---
-title: "A Formalization of Recursive Self-Optimizing Generative Systems"
+title: "递归自优化生成系统的形式化"
 date: "2026-06-16"
 source: "GitHub"
 url: "https://github.com/2025Emma/vibe-coding-cn"

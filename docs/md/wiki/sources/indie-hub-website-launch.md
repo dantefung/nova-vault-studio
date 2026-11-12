@@ -78,38 +78,38 @@ Google明确说明，请求编入索引不能保证页面一定进入索引。�
 
 ## 配图
 
-![image](../images/indie-hub-website-launch/001.png)
+![image](../images/indie-hub-website-launch/001.webp)
 
 *爬虫验证：网站能被爬虫爬到*
 
-![image](../images/indie-hub-website-launch/002.png)
+![image](../images/indie-hub-website-launch/002.webp)
 
 *可访问、可统计、可发现、可追踪四条链路*
 
-![image](../images/indie-hub-website-launch/003.png)
+![image](../images/indie-hub-website-launch/003.webp)
 
 *外部完整性检查清单*
 
-![image](../images/indie-hub-website-launch/004.png)
+![image](../images/indie-hub-website-launch/004.webp)
 
 *GSC 站点地图提交*
 
-![image](../images/indie-hub-website-launch/005.png)
+![image](../images/indie-hub-website-launch/005.webp)
 
 *索引状态检查*
 
-![image](../images/indie-hub-website-launch/006.png)
+![image](../images/indie-hub-website-launch/006.webp)
 
 *Bing Webmaster Tools*
 
-![image](../images/indie-hub-website-launch/007.png)
+![image](../images/indie-hub-website-launch/007.webp)
 
 *IndexNow 主动 URL 提交*
 
-![image](../images/indie-hub-website-launch/008.png)
+![image](../images/indie-hub-website-launch/008.webp)
 
 *GA4 数据流配置*
 
-![image](../images/indie-hub-website-launch/009.png)
+![image](../images/indie-hub-website-launch/009.webp)
 
 *GA4 + GSC + MCP 打通*

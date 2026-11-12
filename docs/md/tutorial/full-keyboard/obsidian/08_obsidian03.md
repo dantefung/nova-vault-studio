@@ -1,5 +1,5 @@
 ---
-title: "obsidian 3"
+title: "第 03 课 · 文本编辑快捷键"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

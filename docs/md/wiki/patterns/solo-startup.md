@@ -1,5 +1,5 @@
 ---
-title: "Solo Startup Principle"
+title: "独自创业原则"
 date: "2026-06-17"
 source: "创业不要合伙！！！"
 url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"

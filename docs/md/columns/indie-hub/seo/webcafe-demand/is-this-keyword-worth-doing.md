@@ -30,21 +30,21 @@ url: "https://new.web.cafe/tutorial/detail/7v7tfjneg9"
 
 第 4 和 9 是首页，其它都是内页。我们先看第 4，子域名也算首页，网站月访问量三千多，太小了。再看第 9，2022 年注册的域名，月访问量三万多，也还是很小。
 
-![](images/is-this-keyword-worth-doing/img_002.jpg)
+![](images/is-this-keyword-worth-doing/img_002.webp)
 
 而第 1 名，整站 23 万访问量每月，其中拿到第一名的这个页面，月访问量 1.7 万。
 
-![](images/is-this-keyword-worth-doing/img_003.jpg)
+![](images/is-this-keyword-worth-doing/img_003.webp)
 
 第 1 名这个站有 2.8K 的外链域名数量。第 4 名，子域名有 198 个外链域名。这些都是不好惹的，而你需要花那么大的力气打败这些已经拿到排名的站，结果每个月只有不到两万的访问量，这完全不值得去做。
 
-![](images/is-this-keyword-worth-doing/img_004.jpg)
+![](images/is-this-keyword-worth-doing/img_004.webp)
 
-![](images/is-this-keyword-worth-doing/img_005.jpg)
+![](images/is-this-keyword-worth-doing/img_005.webp)
 
 Ahrefs 说，需要 51 个外链域名，就可以进前 10 了，但他并没有告诉你，进入前三需要多少外链。我大概估算一下，估计需要两百多个。这个投入产出算下来，就很不划算。
 
-![](images/is-this-keyword-worth-doing/img_006.jpg)
+![](images/is-this-keyword-worth-doing/img_006.webp)
 
 注意，我们上面分析时说，是否有必要单独注册一个域名，去做一个网站，拿 aes encryption online 这个关键词的排名。这样分析下来，是没必要的。
 
@@ -68,11 +68,11 @@ Ahrefs 查这个词的 KD，其实也能够看到前 10 的搜索结果，会发
 
 并且 KD 显示也很低，只需要 3 个外链域名就可以拿下前 10 排名。
 
-![](images/is-this-keyword-worth-doing/img_007.jpg)
+![](images/is-this-keyword-worth-doing/img_007.webp)
 
 谷歌趋势，看过去五年的数据，会发现，这个词也算是新出现的词，2023 年 3 月才开始有搜索量。不过跟 GPTs 去比较的话，会发现这个词的搜索量还很小。
 
-![](images/is-this-keyword-worth-doing/img_008.jpg)
+![](images/is-this-keyword-worth-doing/img_008.webp)
 
 对于这个词，我的判断是，如果你想做一个练手网站，可以去试一试。
 
@@ -84,21 +84,21 @@ Ahrefs 查这个词的 KD，其实也能够看到前 10 的搜索结果，会发
 
 这里注意有另一个词 `speed time calculator`，搜索量会大一些，但是需求其实不是那么明确，因为目前谷歌排名靠前的页面，是数学上的速度和距离计算器。另外，这个词的 KD 也挺高的，55，需要 103 个域名才可能进首页。
 
-![](images/is-this-keyword-worth-doing/img_009.jpg)
+![](images/is-this-keyword-worth-doing/img_009.webp)
 
 ### 案例 4：webp to png
 
 只看 KD 的话，好像不高的样子。但其实这些站，都是大流量网站。
 
-![](images/is-this-keyword-worth-doing/img_010.jpg)
+![](images/is-this-keyword-worth-doing/img_010.webp)
 
-![](images/is-this-keyword-worth-doing/img_011.jpg)
+![](images/is-this-keyword-worth-doing/img_011.webp)
 
 在 [query.domains](https://query.domains/) 上查，域名也被注册得差不多了。但是我们在搜索结果里并没有看到这些域名出现，这就说明，目前这些挑战者连首页都没拿下。
 
-![](images/is-this-keyword-worth-doing/img_012.jpg)
+![](images/is-this-keyword-worth-doing/img_012.webp)
 
-![](images/is-this-keyword-worth-doing/img_013.jpg)
+![](images/is-this-keyword-worth-doing/img_013.webp)
 
 所以这个词，依然不推荐你注册个域名，然后仅靠 SEO 去获取流量。但如果你是已经有一个图片工具站，那么再做一个内页，这是可以的。又或者，你就想挑战一下，那么你可以做一个漂亮一点，且完全免费的，甚至是开源的网站，然后先通过各种其它渠道去宣传推广，久而久之，靠着跟时间交朋友，慢慢积累一些访问量，慢慢拿到一些比较靠后的排名，拿到一些点击，这是有可能的。
 
@@ -110,39 +110,39 @@ Ahrefs 查这个词的 KD，其实也能够看到前 10 的搜索结果，会发
 
 这个词，23 年下半年才开始有搜索量，也算是新词了。目前每天搜索量是 GPTs 的 6 倍，去年 12 月的搜索量已经达到了 55 万，平均每天 1.8 万。
 
-![](images/is-this-keyword-worth-doing/img_014.jpg)
+![](images/is-this-keyword-worth-doing/img_014.webp)
 
-![](images/is-this-keyword-worth-doing/img_015.jpg)
+![](images/is-this-keyword-worth-doing/img_015.webp)
 
 目前的 KD 是 60，估算需要有 129 个域名外链，就可以拿下前 10 位置。而目前第一名的网站，有 304 个域名外链。
 
-![](images/is-this-keyword-worth-doing/img_016.jpg)
+![](images/is-this-keyword-worth-doing/img_016.webp)
 
 这两个站，都进了谷歌前 10，都是首页，一个八百多万访问量，一个二百多万访问量。
 
-![](images/is-this-keyword-worth-doing/img_017.jpg)
+![](images/is-this-keyword-worth-doing/img_017.webp)
 
 为什么 1200 个外链域名的站，打不过外链只有 352 个的站呢？之前我们分析过，是因为第一名的完全免费的策略，吸引了很多人。
 
-![](images/is-this-keyword-worth-doing/img_018.jpg)
+![](images/is-this-keyword-worth-doing/img_018.webp)
 
-![](images/is-this-keyword-worth-doing/img_019.jpg)
+![](images/is-this-keyword-worth-doing/img_019.webp)
 
 另外这个站的 Canonical 设置错了，域名权重全都跑到子域名 undefined.faceswapper.ai 下面去了。
 
-![](images/is-this-keyword-worth-doing/img_020.jpg)
+![](images/is-this-keyword-worth-doing/img_020.webp)
 
 在用户行为数据方面，io 域名这个站全面领先。所以他就排到第一名了。
 
-![](images/is-this-keyword-worth-doing/img_021.jpg)
+![](images/is-this-keyword-worth-doing/img_021.webp)
 
 那么这个词现在是否还可以做呢？谷歌目前只给第一名出了 mini sitelinks，还没有出 sitelinks，那么我认为还可以做。但是，你要考虑到，如果你想要打败第一名，那么不仅你需要几百个甚至上千个外链，你还需要不收费，完全免费才行。这里的成本，你能够 Hold 住吗？
 
-![](images/is-this-keyword-worth-doing/img_022.jpg)
+![](images/is-this-keyword-worth-doing/img_022.webp)
 
 在谷歌搜索第二页，我甚至看到了这个站，标题里完全没有覆盖到相关关键词，但是网页内容里有覆盖到，就能够拿下第二页的排名了。当然，这个站 808 个外链域名也是不容忽视的。
 
-![](images/is-this-keyword-worth-doing/img_023.jpg)
+![](images/is-this-keyword-worth-doing/img_023.webp)
 
 > **kk**：请教下，前端代码部署到服务器上，本地图片文件都是怎么处理的，直接部署代码吗？
 >

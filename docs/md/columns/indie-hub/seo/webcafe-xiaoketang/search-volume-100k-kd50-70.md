@@ -14,11 +14,11 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
 今天的 #哥飞小课堂，我们来看一个搜索量还挺大的词 `ai face swap` 和 `face swap ai`，虽然看起来是两个词，并且搜索量实际是不一样的，但是因为意思相同，需求相同，并且谷歌趋势也把这两个词的热度值看成一样，所以我们也当作同一个词。
 
-![image.png](images/search-volume-100k-kd50-70/img_002.png)
+![image.png](images/search-volume-100k-kd50-70/img_002.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_003.png)
+![image.png](images/search-volume-100k-kd50-70/img_003.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_004.png)
+![image.png](images/search-volume-100k-kd50-70/img_004.webp)
 
 如果单纯看 KD 的话，会觉得有一定的难度，我们通常就不会去做这个词了。但是哥飞想跟大家说，现在我们已经进入下一个阶段了，需要开始考虑 KD 为 50 到 70 之间的词了。这些词每天搜索量在 10 万以内，机会很多，我们只是吃到一点点，在本身流量很精准的情况下，其实收入会很不错。
 
@@ -30,23 +30,23 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
 在 `ai face swap` 的搜索结果里，我们看到了一个网站 `aifaceswap.io`，域名注册于 2024 年 2 月 19 日，目前外链网站数量 74 个，DR 才 7，但的确不仅拿下首页了，还进入前五了。
 
-![image.png](images/search-volume-100k-kd50-70/img_005.png)
+![image.png](images/search-volume-100k-kd50-70/img_005.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_006.png)
+![image.png](images/search-volume-100k-kd50-70/img_006.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_007.png)
+![image.png](images/search-volume-100k-kd50-70/img_007.webp)
 
 从最近几个月的流量曲线可以看到，又是一条特别漂亮的曲线，而且每个月的增长率都比之前更高。
 
 上线至今，38.88% 流量来自于自然搜索，而如果只看 6 月数据的话，40% 来自于搜索，说明从搜索引擎来的流量是在增长的。
 
-![image.png](images/search-volume-100k-kd50-70/img_008.png)
+![image.png](images/search-volume-100k-kd50-70/img_008.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_009.png)
+![image.png](images/search-volume-100k-kd50-70/img_009.webp)
 
 2 月注册的域名，到现在也才 5 个月的时间，就拿下了 `ai face swap` 相关很多关键词的古额高首页了。
 
-![image.png](images/search-volume-100k-kd50-70/img_010.png)
+![image.png](images/search-volume-100k-kd50-70/img_010.webp)
 
 基于谷歌趋势数据和谷歌广告后台数据综合校验，我估算 `face swap ai` 每天搜索量两三万，而 `ai face swap` 每天搜索量一两万左右。这种词能够拿下谷歌前五，甚至以后还能更进一步的话，日入千刀不是梦。
 
@@ -54,9 +54,9 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
 从谷歌搜索结果来看，直接首页排名里，`.ai` 域名结尾的 `faceswapper.ai` 排名最靠前，为什么呢？
 
-![image.png](images/search-volume-100k-kd50-70/img_011.png)
+![image.png](images/search-volume-100k-kd50-70/img_011.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_012.png)
+![image.png](images/search-volume-100k-kd50-70/img_012.webp)
 
 从外链网站数量就可以看出差距了，`.ai` 结尾的有 1000 个外链网站，而 `.io` 结尾的只有 74 个外链网站。
 
@@ -68,9 +68,9 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
 拿下首页之后，比拼的就是产品力了，说的产品更好用，谁的产品更便宜，谁的产品效果更好。当然，关键词密度也不要忘记了。
 
-![image.png](images/search-volume-100k-kd50-70/img_013.png)
+![image.png](images/search-volume-100k-kd50-70/img_013.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_014.png)
+![image.png](images/search-volume-100k-kd50-70/img_014.webp)
 
 从这两个网站案例来说，他们的密度其实都不高。**如果我们做一个网站，外链有几百个，并且提供免费使用，密度还比他们高，那么也是有可能能够拿下谷歌首页的。**
 
@@ -105,11 +105,11 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
 今天的#哥飞小课堂 ，我们来看一个搜索量还挺大的词 ai face swap 和 face swap ai ，虽然看起来是两个词，并且搜索量实际是不一样的，但是因为意思相同，需求相同，并且谷歌趋势也把这两个词的热度值看成一样，所以我们也当作同一个词。
 
-![image.png](images/search-volume-100k-kd50-70/img_002.png)
+![image.png](images/search-volume-100k-kd50-70/img_002.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_003.png)
+![image.png](images/search-volume-100k-kd50-70/img_003.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_004.png)
+![image.png](images/search-volume-100k-kd50-70/img_004.webp)
 
 如果单纯看KD的话，会觉得有一定的难度，我们通常就不会去做这个词了。 但是哥飞想跟大家说，现在我们已经进入下一个阶段了，需要开始考虑KD为50到70之间的词了。 这些词每天搜索量在10万以内，机会很多，我们只是吃到一点点，在本身流量很精准的情况下，其实收入会很不错。
 
@@ -119,31 +119,31 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
 在 ai face swap 的搜索结果里，我们看到了一个网站 aifaceswap.io ，域名注册于2024年2月19日，目前外链网站数量74个，DR才7，但的确不仅拿下首页了，还进入前五了。
 
-![image.png](images/search-volume-100k-kd50-70/img_005.png)
+![image.png](images/search-volume-100k-kd50-70/img_005.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_006.png)
+![image.png](images/search-volume-100k-kd50-70/img_006.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_007.png)
+![image.png](images/search-volume-100k-kd50-70/img_007.webp)
 
 从最近几个月的流量曲线可以看到，又是一条特别漂亮的曲线，而且每个月的增长率都比之前更高。
 
 上线至今，38.88%流量来自于自然搜索，而如果只看6月数据的话，40%来自于搜索，说明从搜索引擎来的流量是在增长的。
 
-![image.png](images/search-volume-100k-kd50-70/img_008.png)
+![image.png](images/search-volume-100k-kd50-70/img_008.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_009.png)
+![image.png](images/search-volume-100k-kd50-70/img_009.webp)
 
 2月注册的域名，到现在也才5个月的时间，就拿下了ai face swap 相关很多关键词的古额高首页了。
 
-![image.png](images/search-volume-100k-kd50-70/img_010.png)
+![image.png](images/search-volume-100k-kd50-70/img_010.webp)
 
 基于谷歌趋势数据和谷歌广告后台数据综合校验，我估算 face swap ai 每天搜索量两三万，而 ai face swap 每天搜索量一两万左右。 这种词能够拿下谷歌前五，甚至以后还能更进一步的话，日入千刀不是梦。
 
 从谷歌搜索结果来看，直接首页排名里，.ai 域名结尾的 faceswapper.ai 排名最靠前，为什么呢？
 
-![image.png](images/search-volume-100k-kd50-70/img_011.png)
+![image.png](images/search-volume-100k-kd50-70/img_011.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_012.png)
+![image.png](images/search-volume-100k-kd50-70/img_012.webp)
 
 从外链网站数量就可以看出差距了，.ai 结尾的有1000个外链网站，而 .io 结尾的只有74个外链网站。
 
@@ -155,9 +155,9 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
 拿下首页之后，比拼的就是产品力了，说的产品更好用，谁的产品更便宜，谁的产品效果更好。 当然，关键词密度也不要忘记了。
 
-![image.png](images/search-volume-100k-kd50-70/img_013.png)
+![image.png](images/search-volume-100k-kd50-70/img_013.webp)
 
-![image.png](images/search-volume-100k-kd50-70/img_014.png)
+![image.png](images/search-volume-100k-kd50-70/img_014.webp)
 
 从这两个网站案例来说，他们的密度其实都不高。 如果我们做一个网站，外链有几百个，并且提供免费使用，密度还比他们高，那么也是有可能能够拿下谷歌首页的。
 
@@ -167,7 +167,7 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
 评论区
 
--   ![](images/search-volume-100k-kd50-70/img_015.jpg)
+-   ![](images/search-volume-100k-kd50-70/img_015.webp)
 
     班纳
 
@@ -177,7 +177,7 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
     学习了
 
--   ![](images/search-volume-100k-kd50-70/img_016.jpg)
+-   ![](images/search-volume-100k-kd50-70/img_016.webp)
 
     子凌
 
@@ -187,7 +187,7 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
     现在回头看这两个网站，一个天一个地
 
--   ![](images/search-volume-100k-kd50-70/img_017.jpg)
+-   ![](images/search-volume-100k-kd50-70/img_017.webp)
 
     小里脊
 
@@ -197,7 +197,7 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
     现在来看，.ai月访问600k，而.io已经9M了，并且拿下了4个sitelink，属实难以撼动了
 
--   ![](images/search-volume-100k-kd50-70/img_018.jpg)
+-   ![](images/search-volume-100k-kd50-70/img_018.webp)
 
     Katrina
 
@@ -207,4 +207,4 @@ url: "https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9"
 
     隐藏内容
 
-![](images/search-volume-100k-kd50-70/img_019.jpg)
+![](images/search-volume-100k-kd50-70/img_019.webp)

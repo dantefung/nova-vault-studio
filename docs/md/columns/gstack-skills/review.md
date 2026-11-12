@@ -1,5 +1,5 @@
 ---
-title: "review"
+title: "review 上线前 PR 审查"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

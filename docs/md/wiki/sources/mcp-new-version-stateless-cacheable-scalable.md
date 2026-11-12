@@ -11,13 +11,13 @@ url: "https://mp.weixin.qq.com/s/nMtdfXsBMAcDJ7WESU2JPQ"
 
 MCP 正在从一个类似 LSP 的、有会话的双向 RPC 协议，变成更接近现代 Web 基础设施的无状态请求/响应协议。这次更新重新设计了 MCP 的连接方式、多轮交互方式，以及生产环境中的扩展、缓存、路由和安全能力——MCP 变得更加 agentic 了。
 
-![image](../images/mcp-new-version-stateless-cacheable-scalable/001.png)
+![image](../images/mcp-new-version-stateless-cacheable-scalable/001.webp)
 
 ## 一、最大的变化：MCP 变成无状态 + 短连接
 
 旧版 MCP 的 Streamable HTTP 通信需要先完成 initialize/initialized 握手。服务端生成 Mcp-Session-Id，客户端后续的每个请求都要带上它。
 
-![image](../images/mcp-new-version-stateless-cacheable-scalable/002.png)
+![image](../images/mcp-new-version-stateless-cacheable-scalable/002.webp)
 
 这个设计诞生之初并没有为远程 MCP server 考虑，更像面向本地场景：Client 和 Server 通过 stdio 或长连接持续通信，双方天然知道对面是谁、支持什么能力。
 
@@ -52,7 +52,7 @@ MCP 正在从一个类似 LSP 的、有会话的双向 RPC 协议，变成更接
 4. Client 使用新的 JSON-RPC ID 重试原始调用，带上 `inputResponses` 和原来的 `requestState`
 5. 任意 Server 实例都能根据本次请求中的信息继续处理
 
-![image](../images/mcp-new-version-stateless-cacheable-scalable/003.png)
+![image](../images/mcp-new-version-stateless-cacheable-scalable/003.webp)
 
 以前是"服务端 hold 住电话等客户端回答"，现在是"服务端先把待确认事项和续办凭证交给客户端，客户端收集完答案后重新提交"。
 

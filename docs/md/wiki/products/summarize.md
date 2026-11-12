@@ -1,5 +1,5 @@
 ---
-title: "summarize"
+title: "summarize 摘要工具"
 date: "2026-05-27"
 ---
 

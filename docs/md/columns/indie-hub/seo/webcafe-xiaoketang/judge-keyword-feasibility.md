@@ -10,11 +10,11 @@ url: "https://new.web.cafe/tutorial/detail/7v7tfjneg9"
 
 > 本篇为 web.cafe 付费会员专享内容，公开渠道仅展示付费入口与二维码。
 >
-> ![](images/judge-keyword-feasibility/img_001.jpg)
+> ![](images/judge-keyword-feasibility/img_001.webp)
 >
-> ![](images/judge-keyword-feasibility/img_002.jpg)
+> ![](images/judge-keyword-feasibility/img_002.webp)
 >
-> ![二维码](images/judge-keyword-feasibility/img_004.png)
+> ![二维码](images/judge-keyword-feasibility/img_004.webp)
 >
 > 阅读完整文章，请前往 [web.cafe 教程详情页](https://new.web.cafe/tutorial/detail/7v7tfjneg9) 订阅会员后查看。
 

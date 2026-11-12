@@ -18,7 +18,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 
 **这点缺失的“灵魂”，就是第五个层次——交互反馈（Interactive Feedback）。**
 
-![image.png](images/vibe-coding-3/001.jpeg)
+![image.png](images/vibe-coding-3/001.webp)
 
 现在的网页就像一张精美的海报，虽然好看，但它是静止的、冷漠的。当你把鼠标移到按钮上时，它没有反应；当你滚动页面时，内容生硬地出现。这种体验在当今的 Web 标准下，只能算是“及格”，远称不上“出色”。
 
@@ -95,7 +95,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 
 首先，寻找与页面风格相符的 Lottie 动画，我找的是这个毛毛虫（https://lottiefiles.com/free-animation/caterpillar-loader-0Zi0BMLHdP%EF%BC%89%EF%BC%9A
 
-![image.png](images/vibe-coding-3/002.jpeg)
+![image.png](images/vibe-coding-3/002.webp)
 
 然后点击 Handoff，然后复制相关代码到项目中，告知 AI "在页面的 xxx 区域增加这个 Lottie 动画"就好了，比如我输入的 Prompt：
 
@@ -105,7 +105,11 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 
 加上毛毛虫效果后，我们的页面变成了以下效果，感觉还不错，有质感了很多，但是缺少动画看着还是有点儿生硬：
 
+```
+
 <video src="https://mpvideo.qpic.cn/0b2e7eabwaaa3yaow7dhoruvb6oddp4qagya.f10002.mp4?dis_k=675417527eb04afce06fda5d3a5f3dbc&amp;dis_t=1780282248&amp;play_scene=10120&amp;auth_info=SMrC/XA6JRfZ/LSrJgoVbENgNTYZN2ceZVFacidBVFl4J39hTUVfZlEkbyIeBjY=&amp;auth_key=b5573b7e3dfda753963678f2c81311e0&amp;vid=wxv_4342398109801431041&amp;format_id=10002&amp;support_redirect=0&amp;mmversion=false">您的浏览器不支持 video 标签</video>
+```
+
 
 ## 第二步：使用 Framer Motion 增加交互质感
 
@@ -115,7 +119,11 @@ Framer Motion 是基于代码的动画库，实现方式比 Lottie 更灵活，�
 整体：在页面中增加点儿Framer Motion动画 局部：在 Community Love 的内容区域，增加多几个评论，然后增加 Framer Motion动画，让他横向滚动起来
 ```
 
+```
+
 <video src="https://mpvideo.qpic.cn/0bc32eatoaabcuampvdgnbuvduodg7iqcnya.f10002.mp4?dis_k=38ff8dde8826af533e3fa60ce6ef5b40&amp;dis_t=1780282248&amp;play_scene=10120&amp;auth_info=dY/fn6BWbnBH2f/krHRbQ21GZGZlSGc1TmsACX5yEgRTd3ArMB8RCjZRJz8lTFdg&amp;auth_key=cec50303ab88cedaf628384e64675d71&amp;vid=wxv_4342400741609832453&amp;format_id=10002&amp;support_redirect=0&amp;mmversion=false">您的浏览器不支持 video 标签</video>
+```
+
 
 大家可以仔细看一下这两个版本的区别，已经有了过渡动画，以及评论也滚动起来了，看起来非常有质感！（PS：毛毛虫被我换成了大香蕉）
 

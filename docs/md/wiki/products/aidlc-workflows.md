@@ -1,5 +1,5 @@
 ---
-title: "aidlc-workflows"
+title: "AIDLC 工作流集合"
 source: "GitHub"
 url: "https://github.com/awslabs/aidlc-workflows"
 date: "2026-06-01"

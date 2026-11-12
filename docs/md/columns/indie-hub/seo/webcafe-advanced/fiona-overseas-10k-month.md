@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/_bBTLe-aUdmKv7N9xUuG4w"
 
 # 出海四个月月入万刀，Fiona说新手先找鱼多、人少的池子
 
-![](images/fiona-overseas-10k-month/001.png)
+![](images/fiona-overseas-10k-month/001.webp)
 
 大家好，我是哥飞。
 
@@ -32,7 +32,7 @@ Fiona 自己是 AI 产品经理出身。大模型刚出来的时候，她对 AI 
 
 对新手更有用的问题是：想更快拿到正反馈，应该把力气先花在哪里。
 
-![](images/fiona-overseas-10k-month/002.jpeg)
+![](images/fiona-overseas-10k-month/002.webp)
 
 Fiona 讲这件事时，用了一个很形象的比喻：捕鱼。
 
@@ -44,7 +44,7 @@ Fiona 讲这件事时，用了一个很形象的比喻：捕鱼。
 
 更适合新手的地方，是鱼多、人少。
 
-![](images/fiona-overseas-10k-month/003.png)
+![](images/fiona-overseas-10k-month/003.webp)
 
 这四个字听起来简单，其实很适合拿来重新理解找词。
 
@@ -80,7 +80,7 @@ Fiona 给的一个办法是：跟着高手学。
 
 真正要看的，是高手留下的痕迹。
 
-![](images/fiona-overseas-10k-month/004.jpeg)
+![](images/fiona-overseas-10k-month/004.webp)
 
 第一个痕迹是外链。
 

@@ -150,7 +150,7 @@ url: "https://zread.ai/tukuaiai/vibe-coding-cn/14-compositional-description-mode
 
 ## 相关文章
 
-- [问题求解方法论](./problem-solving-methodology.md) — 问题 = 目标状态 - 当前状态
-- [Glue Coding 哲学](./glue-coding-philosophy.md) — 复用优先的工程判断力
-- [递归自优化生成系统](./recursive-self-optimizing-systems.md) — 递归优化理论
+- [问题求解方法论](../../guide/cs/software-philosophy/problem-solving-methodology.md) — 问题 = 目标状态 - 当前状态
+- [Glue Coding 哲学](../../guide/cs/software-philosophy/glue-coding-philosophy.md) — 复用优先的工程判断力
+- [递归自优化生成系统](../../guide/cs/software-philosophy/recursive-self-optimizing-systems.md) — 递归优化理论
 - [程序员的底层思维](/columns/cognition/programmer-underlying-thinking.md) — 16 种底层思维能力

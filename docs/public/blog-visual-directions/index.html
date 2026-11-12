@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>博客视觉方向对比稿</title>
+  <style>
+    * { box-sizing: border-box; }
+    :root { --paper:#f2eee7; --ink:#24211e; --body:#6f675f; --rule:#cfc6bb; --rust:#a9472b; }
+    body { margin:0; background:#171614; color:#eee9e1; font-family:Arial,sans-serif; }
+    .page { max-width:1500px; margin:auto; padding:42px 28px 60px; }
+    .intro { max-width:720px; margin-bottom:32px; }
+    .intro span { color:#b8afa5; font:12px ui-monospace,monospace; letter-spacing:.12em; text-transform:uppercase; }
+    .intro h1 { margin:12px 0 10px; font:500 clamp(30px,4vw,52px)/1.05 Georgia,serif; }
+    .intro p { margin:0; color:#b8afa5; line-height:1.7; }
+    .directions { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+    .choice { border:1px solid #3b3732; background:#211f1c; }
+    .caption { padding:18px 20px 22px; }
+    .caption b { display:block; margin-bottom:7px; font-size:17px; }
+    .caption p { margin:0; color:#aaa198; font-size:13px; line-height:1.55; }
+    .mock { min-height:610px; padding:20px; overflow:hidden; background:var(--paper); color:var(--ink); }
+    .nav { display:flex; justify-content:space-between; align-items:center; padding-bottom:15px; border-bottom:1px solid var(--ink); font:10px ui-monospace,monospace; }
+    .nav strong { font:600 15px Georgia,serif; }
+    .nav i { font-style:normal; color:var(--body); word-spacing:9px; }
+    .hero { padding:48px 0 36px; }
+    .hero small { color:var(--rust); font:10px ui-monospace,monospace; letter-spacing:.1em; }
+    .hero h2 { margin:12px 0; max-width:390px; font:500 40px/1.02 Georgia,serif; letter-spacing:-.035em; }
+    .hero p { max-width:360px; margin:0; color:var(--body); font:12px/1.65 Georgia,serif; }
+    .tabs { display:flex; gap:20px; padding:12px 0; border-top:1px solid var(--ink); border-bottom:1px solid var(--rule); font:10px ui-monospace,monospace; }
+    .tabs b { color:var(--rust); }
+    .story { display:grid; grid-template-columns:70px 1fr auto; gap:15px; padding:20px 0; border-bottom:1px solid var(--rule); }
+    .story time,.story em { color:var(--body); font:9px ui-monospace,monospace; font-style:normal; }
+    .story h3 { margin:0 0 7px; font:500 17px/1.25 Georgia,serif; }
+    .story p { margin:0; color:var(--body); font:11px/1.5 Georgia,serif; }
+    .a .hero { display:grid; grid-template-columns:1.35fr .65fr; gap:20px; align-items:end; }
+    .a .hero aside { padding-left:16px; border-left:1px solid var(--rule); color:var(--body); font:10px/1.6 ui-monospace,monospace; }
+    .b .hero { padding-bottom:22px; }
+    .b .hero h2 { font-size:47px; max-width:420px; }
+    .feature { display:grid; grid-template-columns:1.25fr .75fr; gap:14px; padding:18px 0 24px; border-bottom:1px solid var(--ink); }
+    .image { min-height:145px; position:relative; background:#8e958d; overflow:hidden; }
+    .image:before { content:""; position:absolute; inset:0; background:linear-gradient(135deg,#313b36,#adb0a7 55%,#58675e); opacity:.9; }
+    .image:after { content:"05 / SELECTED"; position:absolute; left:12px; bottom:10px; color:white; font:9px ui-monospace,monospace; letter-spacing:.1em; }
+    .feature-copy { align-self:end; }
+    .feature-copy h3 { margin:8px 0; font:500 23px/1.1 Georgia,serif; }
+    .feature-copy p { color:var(--body); font:11px/1.55 Georgia,serif; }
+    .c { --paper:#edeee9; --ink:#1f2420; --body:#697069; --rule:#c7ccc5; --rust:#3f654d; }
+    .c .nav strong,.c .hero h2,.c .story h3 { font-family:ui-monospace,monospace; }
+    .c .hero { padding:38px 0 28px; }
+    .c .hero h2 { font-size:34px; line-height:1.1; max-width:430px; }
+    .c .story { grid-template-columns:35px 65px 1fr; }
+    .index { color:var(--rust); font:9px ui-monospace,monospace; }
+    .decision { margin-top:25px; padding:18px 20px; border:1px solid #5c4b43; color:#d4c8bd; font-size:13px; line-height:1.6; }
+    @media(max-width:1000px){ .directions{grid-template-columns:1fr;} .mock{min-height:530px;} }
+    @media(max-width:560px){ .page{padding:24px 12px 40px}.mock{padding:14px}.hero h2,.b .hero h2{font-size:34px}.feature,.a .hero{grid-template-columns:1fr}.a .hero aside{display:none}.story{grid-template-columns:55px 1fr}.story em{display:none} }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <span>Nova Vault Studio / Blog redesign</span>
+      <h1>三种个人作者博客方向</h1>
+      <p>都删除伪封面、胶囊标签、大圆角卡片和悬浮阴影。区别在于作者气质如何被表达。</p>
+    </header>
+    <section class="directions">
+      <article class="choice">
+        <div class="mock a">
+          <div class="nav"><strong>System Vault</strong><i>文章 分类 归档 搜索</i></div>
+          <div class="hero"><div><small>FIELD NOTES · 2026</small><h2>把实践写成可以反复使用的判断。</h2><p>关于 AI、软件工程与独立创造。只记录真正改变工作方式的东西。</p></div><aside>586 篇记录<br>15 个主题<br>持续更新</aside></div>
+          <div class="tabs"><b>最新文章</b><span>分类索引</span><span>写作系列</span></div>
+          <div class="story"><time>08.12<br>AI AGENT</time><div><h3>Harness 工程不是模型调优，而是系统治理</h3><p>从科学管理和复杂系统看概率性软件的工程边界。</p></div><em>8 MIN</em></div>
+          <div class="story"><time>08.11<br>MEMORY</time><div><h3>项目记忆的五步法：让 Agent 真正理解仓库</h3><p>从一次性上下文转向可积累、可校正的工程认知。</p></div><em>6 MIN</em></div>
+          <div class="story"><time>08.10<br>DESIGN</time><div><h3>视觉思考不是装饰，它是压缩复杂度</h3></div><em>5 MIN</em></div>
+        </div>
+        <div class="caption"><b>A. 克制出版</b><p>一句编辑宣言建立作者立场，文章以单列目录呈现。最耐看，也最适合大规模内容。</p></div>
+      </article>
+      <article class="choice">
+        <div class="mock b">
+          <div class="nav"><strong>System Vault</strong><i>文章 主题 关于</i></div>
+          <div class="hero"><small>NOTES ON BUILDING</small><h2>写给正在用 AI 重新学习创造的人。</h2><p>不追逐工具清单，只保存经得起时间检验的方法和判断。</p></div>
+          <div class="tabs"><b>本期精选</b><span>全部文章</span><span>主题</span></div>
+          <div class="feature"><div class="image"></div><div class="feature-copy"><small>HARNESS ENGINEERING</small><h3>系统治理，才是 Agent 工程的真正边界</h3><p>首页只为 5 篇精选内容生成高质量主题图。</p></div></div>
+          <div class="story"><time>08.11</time><div><h3>项目记忆的五步法</h3><p>让 Agent 从文件搜索走向仓库认知。</p></div><em>6 MIN</em></div>
+          <div class="story"><time>08.10</time><div><h3>视觉思考如何压缩复杂度</h3></div><em>5 MIN</em></div>
+        </div>
+        <div class="caption"><b>B. 图像随笔</b><p>精选区以真实生成图建立记忆点，后续回到文字列表。作者感更强，但素材质量决定上限。</p></div>
+      </article>
+      <article class="choice">
+        <div class="mock c">
+          <div class="nav"><strong>system-vault.log</strong><i>/writing /topics /archive</i></div>
+          <div class="hero"><small>BUILD LOG / PERSONAL NOTES</small><h2>记录那些改变系统设计与工作方式的判断。</h2><p>AI、Agent、软件工程与独立产品。按时间写，按问题检索。</p></div>
+          <div class="tabs"><b>RECENT</b><span>TOPICS [15]</span><span>SERIES [01]</span></div>
+          <div class="story"><span class="index">001</span><time>2026-08-12</time><div><h3>Harness 工程不是模型调优</h3><p>AI AGENT · 8 MIN READ</p></div></div>
+          <div class="story"><span class="index">002</span><time>2026-08-11</time><div><h3>项目记忆的五步法</h3><p>AGENTIC ENGINEERING · 6 MIN READ</p></div></div>
+          <div class="story"><span class="index">003</span><time>2026-08-10</time><div><h3>视觉思考如何压缩复杂度</h3><p>DESIGN · 5 MIN READ</p></div></div>
+          <div class="story"><span class="index">004</span><time>2026-08-09</time><div><h3>从工具使用走向系统能力</h3><p>VIBE CODING · 7 MIN READ</p></div></div>
+        </div>
+        <div class="caption"><b>C. 工程札记</b><p>更像长期维护的技术日志，编号、日期和主题构成秩序。个性明确，但人文感较弱。</p></div>
+      </article>
+    </section>
+    <div class="decision"><strong>最终决策：</strong>采用 A 的信息结构，并吸收 B 的 5 篇精选配图。其余文章使用纯文字目录，避免同质化生成图片淹没内容。</div>
+  </main>
+</body>
+</html>

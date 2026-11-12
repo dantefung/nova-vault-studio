@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>方案D: 组件级改造 · 去AI味原型</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="approach-head">
+    <div class="approach-head-inner">
+      <span>System Vault · 去AI味原型</span>
+      <div class="approach-head-nav">
+        <a href="index.html">首页</a>
+        <a href="approach-editorial.html">A 印刷编辑</a>
+        <a href="approach-magazine.html">B 杂志布局</a>
+        <a href="approach-archive.html">C 极简档案</a>
+        <span class="current">D 组件级</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="approach-body">
+    <div class="cmpo-intro">
+      <div class="kicker">COMPONENT-LEVEL · 方案 D</div>
+      <h1>组件级渐进改造</h1>
+      <p>不动整体布局，只替换有 AI 味的组件和样式。以下是 ArticleCard 的 Before / After 对比。</p>
+    </div>
+
+    <div class="cmpo-compare">
+      <div class="cmpo-col">
+        <h3><span class="badge badge-before">BEFORE</span> 改造前</h3>
+        <div class="mock-card">
+          <div class="mock-card-cover">资</div>
+          <h4>企业上线 100 个 Agent 以后，为什么需要一张 AI 资产地图？</h4>
+          <p>当 Agent 从实验走向生产，真正难管的不是模型...</p>
+          <div class="mock-card-tags">
+            <span class="mock-card-tag">#AI</span>
+            <span class="mock-card-tag">#Agent</span>
+            <span class="mock-card-tag">#组织</span>
+          </div>
+        </div>
+        <div class="mock-card">
+          <div class="mock-card-cover">多</div>
+          <h4>多 Agent 协作冲突的教训</h4>
+          <p>三十多个终端任务同时推进时...</p>
+          <div class="mock-card-tags">
+            <span class="mock-card-tag">#协作</span>
+            <span class="mock-card-tag">#worktree</span>
+          </div>
+        </div>
+        <div style="margin-top:12px;padding:12px 16px;border:1px solid var(--rule);background:var(--sheet);">
+          <div style="font:11px Arial,sans-serif;color:var(--muted);letter-spacing:.05em;">问题清单</div>
+          <ul style="margin-top:8px;padding-left:16px;color:var(--body);font-size:13px;line-height:1.8;">
+            <li>伪封面首字（无信息价值）</li>
+            <li>22px border-radius（SaaS 模板感）</li>
+            <li>hover 上移 + 阴影（通用模板行为）</li>
+            <li>标签胶囊 999px（提示词痕迹）</li>
+            <li>封面渐变背景（纯装饰）</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cmpo-col">
+        <h3><span class="badge badge-after">AFTER</span> 改造后</h3>
+        <div class="mock-list-entry" style="padding-top:0;">
+          <span class="mock-date">2026.08.04</span>
+          <span class="mock-title">企业上线 100 个 Agent 以后，为什么需要一张 AI 资产地图？ <span class="mock-cat">资料源 · 3 min</span></span>
+        </div>
+        <div class="mock-list-entry">
+          <span class="mock-date">2026.08.03</span>
+          <span class="mock-title">多 Agent 协作冲突的教训 <span class="mock-cat">日志 · 2 min</span></span>
+        </div>
+        <div class="mock-list-entry">
+          <span class="mock-date">2026.08.03</span>
+          <span class="mock-title">cc-connect 配置模板（脱敏备份） <span class="mock-cat">工程 · 3 min</span></span>
+        </div>
+        <div class="mock-list-entry">
+          <span class="mock-date">2026.08.03</span>
+          <span class="mock-title">游戏站完整操作指南 <span class="mock-cat">Indie Hub · 26 min</span></span>
+        </div>
+        <div style="margin-top:12px;padding:12px 16px;border:1px solid var(--rule);background:var(--sheet);">
+          <div style="font:11px Arial,sans-serif;color:var(--muted);letter-spacing:.05em;">改动清单</div>
+          <ul style="margin-top:8px;padding-left:16px;color:var(--body);font-size:13px;line-height:1.8;">
+            <li>去掉伪封面、圆角、边框、背景</li>
+            <li>去掉悬浮阴影和 hover 上移</li>
+            <li>去掉标签胶囊（改为内联文字）</li>
+            <li>改为纯文字列表，细线分隔</li>
+            <li>transition: none</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:48px;padding-top:32px;border-top:1px solid var(--rule);">
+      <h3 style="font-size:18px;font-weight:600;margin-bottom:16px;">改造优先级</h3>
+      <table style="width:100%;border-collapse:collapse;font-size:14px;line-height:1.6;">
+        <thead>
+          <tr style="border-bottom:1px solid var(--ink);">
+            <th style="text-align:left;padding:8px 12px;font-weight:600;">优先级</th>
+            <th style="text-align:left;padding:8px 12px;font-weight:600;">改动</th>
+            <th style="text-align:left;padding:8px 12px;font-weight:600;">文件</th>
+            <th style="text-align:left;padding:8px 12px;font-weight:600;">风险</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--rule);">
+            <td style="padding:10px 12px;color:var(--rust);font-weight:700;">P0</td>
+            <td style="padding:10px 12px;">去掉伪封面首字</td>
+            <td style="padding:10px 12px;color:var(--body);">ArticleCard.vue:17</td>
+            <td style="padding:10px 12px;color:var(--body);">低</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--rule);">
+            <td style="padding:10px 12px;color:var(--rust);font-weight:700;">P0</td>
+            <td style="padding:10px 12px;">去掉模板化文案</td>
+            <td style="padding:10px 12px;color:var(--body);">BlogIndexLayout.vue:21</td>
+            <td style="padding:10px 12px;color:var(--body);">低</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--rule);">
+            <td style="padding:10px 12px;color:var(--olive);font-weight:700;">P1</td>
+            <td style="padding:10px 12px;">圆角 22px → 0px</td>
+            <td style="padding:10px 12px;color:var(--body);">ArticleCard.vue:40</td>
+            <td style="padding:10px 12px;color:var(--body);">低</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--rule);">
+            <td style="padding:10px 12px;color:var(--olive);font-weight:700;">P1</td>
+            <td style="padding:10px 12px;">去掉悬浮阴影 + 上移</td>
+            <td style="padding:10px 12px;color:var(--body);">ArticleCard.vue:64-68</td>
+            <td style="padding:10px 12px;color:var(--body);">低</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--rule);">
+            <td style="padding:10px 12px;color:var(--olive);font-weight:700;">P2</td>
+            <td style="padding:10px 12px;">标签胶囊 → 内联文字</td>
+            <td style="padding:10px 12px;color:var(--body);">ArticleCard.vue:25-27</td>
+            <td style="padding:10px 12px;color:var(--body);">低</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--rule);">
+            <td style="padding:10px 12px;color:var(--olive);font-weight:700;">P2</td>
+            <td style="padding:10px 12px;">卡片网格 → 列表布局</td>
+            <td style="padding:10px 12px;color:var(--body);">easton-blog.css:56-60</td>
+            <td style="padding:10px 12px;color:var(--body);">中</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--rule);">
+            <td style="padding:10px 12px;color:var(--olive);font-weight:700;">P2</td>
+            <td style="padding:10px 12px;">胶囊 tab → 底线 tab</td>
+            <td style="padding:10px 12px;color:var(--body);">easton-blog.css:31-35</td>
+            <td style="padding:10px 12px;color:var(--body);">中</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>

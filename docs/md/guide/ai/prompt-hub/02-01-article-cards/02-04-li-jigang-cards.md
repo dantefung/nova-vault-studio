@@ -37,7 +37,7 @@ title: 📚 操作说明
 
 
 
-![](images/image-6.png)
+![](images/image-6.webp)
 
 * 如果输出的样式不满意，建议重新开个窗口，或者修改刷新原始Prompt，找到好看的一个风格，可以在这里持续对话。会继承这个审美
 
@@ -53,17 +53,17 @@ title: 📚 操作说明
 
 我尝试着从中学习，写了一个 SVG-Artist。
 
-![](images/image-4.png)
+![](images/image-4.webp)
 
-![](images/image-5.png)
+![](images/image-5.webp)
 
-![](images/image-1.png)
+![](images/image-1.webp)
 
-![](images/image-2.png)
+![](images/image-2.webp)
 
-![](images/image.png)
+![](images/image.webp)
 
-![](images/image-3.png)
+![](images/image-3.webp)
 
 
 
@@ -199,9 +199,9 @@ title: 📚 操作说明
 
 
 
-![](images/640 (1)-1.png)
+![](images/640 (1)-1.webp)
 
-![](images/640.png)
+![](images/640.webp)
 
 ```json
 ;; ━━━━━━━━━━━━━━
@@ -286,13 +286,13 @@ title: 📚 操作说明
 
 # 细节
 
-![](images/640 (1).png)
+![](images/640 (1).webp)
 
-![](images/640 (2).png)
+![](images/640 (2).webp)
 
-![](images/640 (3)-1.png)
+![](images/640 (3)-1.webp)
 
-![](images/640-2.png)
+![](images/640-2.webp)
 
 ```json
 ;; ━━━━━━━━━━━━━━
@@ -360,17 +360,17 @@ title: 📚 操作说明
 
 
 
-![](images/640 (1)-2.png)
+![](images/640 (1)-2.webp)
 
-![](images/640 (2)-1.png)
+![](images/640 (2)-1.webp)
 
-![](images/640 (3).png)
+![](images/640 (3).webp)
 
-![](images/640 (4).png)
+![](images/640 (4).webp)
 
-![](images/640 (5).png)
+![](images/640 (5).webp)
 
-![](images/640-1.png)
+![](images/640-1.webp)
 
 ```json
 ;; ━━━━━━━━━━━━━━
@@ -963,41 +963,41 @@ title: 📚 操作说明
 
 # 段子手
 
-![](images/image-8.png)
+![](images/image-8.webp)
 
-![](images/image-9.png)
+![](images/image-9.webp)
 
-![](images/image-10.png)
+![](images/image-10.webp)
 
-![](images/image-7.png)
+![](images/image-7.webp)
 
-![](images/image-23.png)
+![](images/image-23.webp)
 
-![](images/image-24.png)
+![](images/image-24.webp)
 
-![](images/image-22.png)
+![](images/image-22.webp)
 
-![](images/image-17.png)
+![](images/image-14.webp)
 
-![](images/image-19.png)
+![](images/image-19.webp)
 
-![](images/image-15.png)
+![](images/image-15.webp)
 
-![](images/image-20.png)
+![](images/image-20.webp)
 
-![](images/image-21.png)
+![](images/image-21.webp)
 
-![](images/image-18.png)
+![](images/image-18.webp)
 
-![](images/image-16.png)
+![](images/image-16.webp)
 
-![](images/image-11.png)
+![](images/image-11.webp)
 
-![](images/image-13.png)
+![](images/image-13.webp)
 
-![](images/image-14.png)
+![](images/image-14.webp)
 
-![](images/image-12.png)
+![](images/image-12.webp)
 
 
 
@@ -2247,17 +2247,17 @@ title: 📚 操作说明
 
 # 一字之诗
 
-![](images/image-29.png)
+![](images/image-29.webp)
 
-![](images/image-27.png)
+![](images/image-27.webp)
 
-![](images/image-25.png)
+![](images/image-25.webp)
 
-![](images/image-26.png)
+![](images/image-26.webp)
 
-![](images/image-28.png)
+![](images/image-28.webp)
 
-![](images/image-44.png)
+![](images/image-44.webp)
 
 ```lisp
 ;; ━━━━━━━━━━━━━━
@@ -2321,23 +2321,23 @@ title: 📚 操作说明
 
 # Slogan
 
-![](images/image-42.png)
+![](images/image-42.webp)
 
-![](images/image-43.png)
+![](images/image-43.webp)
 
-![](images/image-41.png)
+![](images/image-41.webp)
 
 
 
-![](images/image-39.png)
+![](images/image-39.webp)
 
-![](images/image-40.png)
+![](images/image-40.webp)
 
-![](images/image-36.png)
+![](images/image-36.webp)
 
-![](images/image-37.png)
+![](images/image-37.webp)
 
-![](images/image-35.png)
+![](images/image-35.webp)
 
 ```lisp
 ;; ━━━━━━━━━━━━━━
@@ -2390,13 +2390,13 @@ title: 📚 操作说明
 
 # 成语新解
 
-![](images/image-34.png)
+![](images/image-34.webp)
 
-![](images/image-33.png)
+![](images/image-33.webp)
 
-![](images/image-38.png)
+![](images/image-38.webp)
 
-![](images/image-31.png)
+![](images/image-31.webp)
 
 Prompt
 
@@ -2451,15 +2451,15 @@ Prompt
 
 # 搞笑怪
 
-![](images/image-30.png)
+![](images/image-30.webp)
 
-![](images/image-32.png)
+![](images/image-32.webp)
 
-![](images/image-55.png)
+![](images/image-55.webp)
 
-![](images/image-59.png)
+![](images/image-59.webp)
 
-![](images/image-58.png)
+![](images/image-58.webp)
 
 
 
@@ -2523,17 +2523,17 @@ Prompt
 
 # 我很礼貌
 
-![](images/image-53.png)
+![](images/image-53.webp)
 
-![](images/image-52.png)
+![](images/image-52.webp)
 
-![](images/image-54.png)
+![](images/image-54.webp)
 
-![](images/image-51.png)
+![](images/image-51.webp)
 
-![](images/image-50.png)
+![](images/image-50.webp)
 
-![](images/image-49.png)
+![](images/image-49.webp)
 
 ```lisp
 ;; ━━━━━━━━━━━━━━
@@ -2592,19 +2592,19 @@ Prompt
 
 # 弱智吧
 
-![](images/image-56.png)
+![](images/image-56.webp)
 
-![](images/image-57.png)
+![](images/image-57.webp)
 
-![](images/image-48.png)
+![](images/image-48.webp)
 
-![](images/image-45.png)
+![](images/image-45.webp)
 
-![](images/image-46.png)
+![](images/image-46.webp)
 
-![](images/image-47.png)
+![](images/image-47.webp)
 
-![](images/image-68.png)
+![](images/image-68.webp)
 
 ```lisp
 ;; ━━━━━━━━━━━━━━
@@ -2671,13 +2671,13 @@ Prompt
 
 # 散文诗
 
-![](images/image-66.png)
+![](images/image-66.webp)
 
-![](images/image-67.png)
+![](images/image-67.webp)
 
-![](images/image-64.png)
+![](images/image-64.webp)
 
-![](images/image-63.png)
+![](images/image-63.webp)
 
 ```lisp
 ;; ━━━━━━━━━━━━━━
@@ -2748,17 +2748,17 @@ Prompt
 
 **happy Prompting!**
 
-![](images/2fea0bb5ad54904cc8f5ec916e61e799.png)
+![](images/2fea0bb5ad54904cc8f5ec916e61e799.webp)
 
-![](images/39abce01a8f6b1712dd26cd54de668c1.png)
+![](images/39abce01a8f6b1712dd26cd54de668c1.webp)
 
-![](images/786b2a090a27e37dd5dc502235045ef1.png)
+![](images/786b2a090a27e37dd5dc502235045ef1.webp)
 
-![](images/c07a83337e87be8fc895586273b591e5.png)
+![](images/c07a83337e87be8fc895586273b591e5.webp)
 
-![](images/790274d89f682e64155a682b5b189e98.png)
+![](images/790274d89f682e64155a682b5b189e98.webp)
 
-![](images/fb5875385e21e7abf8d8a11ec93f4581.png)
+![](images/fb5875385e21e7abf8d8a11ec93f4581.webp)
 
 Prompt
 
@@ -2824,19 +2824,19 @@ Prompt
 
 # 解字师
 
-![](images/image-65.png)
+![](images/image-65.webp)
 
-![](images/image-62.png)
+![](images/image-62.webp)
 
-![](images/image-60.png)
+![](images/image-60.webp)
 
-![](images/image-61.png)
+![](images/image-61.webp)
 
-![](images/image-77.png)
+![](images/image-77.webp)
 
-![](images/image-76.png)
+![](images/image-76.webp)
 
-![](images/image-79.png)
+![](images/image-79.webp)
 
 ```lisp
 ;; ━━━━━━━━━━━━━━
@@ -2907,15 +2907,15 @@ Prompt
 
 # 红蓝药丸
 
-![](images/image-75.png)
+![](images/image-75.webp)
 
-![](images/image-73.png)
+![](images/image-73.webp)
 
-![](images/image-72.png)
+![](images/image-72.webp)
 
-![](images/image-78.png)
+![](images/image-78.webp)
 
-![](images/image-74.png)
+![](images/image-74.webp)
 
 ```lisp
 ;; 作者: 李继刚
@@ -2985,15 +2985,15 @@ Prompt
 
 能不能来个人帮我怼回去？ 遂有此Prompt：嘴替。
 
-![](images/1dd7a9ec749b51373a9d67cade39fc58.png)
+![](images/1dd7a9ec749b51373a9d67cade39fc58.webp)
 
-![](images/71c98f9d3321fda056f1cb034fff16ae.png)
+![](images/71c98f9d3321fda056f1cb034fff16ae.webp)
 
 
 
-![](images/f42bab5f0f01ed93fd632bb8af6b07d2.png)
+![](images/f42bab5f0f01ed93fd632bb8af6b07d2.webp)
 
-![](images/1b4cdc5097cf945271ad238e71a6c113.png)
+![](images/1b4cdc5097cf945271ad238e71a6c113.webp)
 
 Prompt
 
@@ -3063,15 +3063,15 @@ Prompt
 
 # 利好大A
 
-![](images/image-71.png)
+![](images/image-71.webp)
 
-![](images/image-70.png)
+![](images/image-70.webp)
 
-![](images/image-69.png)
+![](images/image-69.webp)
 
-![](images/image-88.png)
+![](images/image-88.webp)
 
-![](images/image-87.png)
+![](images/image-87.webp)
 
 ```lisp
 ;; 作者: 李继刚
@@ -3152,17 +3152,17 @@ Prompt
 
 遂有此Prompt：贝叶斯。
 
-![](images/0513766762d6b95e7b63b40352d28dab.png)
+![](images/0513766762d6b95e7b63b40352d28dab.webp)
 
-![](images/ac1031e2f8de369388208d8d756bdb8c.png)
+![](images/ac1031e2f8de369388208d8d756bdb8c.webp)
 
-![](images/51945b2f80723b7e98573616857aa217.png)
+![](images/51945b2f80723b7e98573616857aa217.webp)
 
-![](images/13da9bc8f5d3e951ee2d529a75fcdd04.png)
+![](images/13da9bc8f5d3e951ee2d529a75fcdd04.webp)
 
-![](images/e3f3189fecfcbce3d3d88c53e1ede618.png)
+![](images/e3f3189fecfcbce3d3d88c53e1ede618.webp)
 
-![](images/4b8f06b24bdcbb8c22177e9b96ef125b.png)
+![](images/4b8f06b24bdcbb8c22177e9b96ef125b.webp)
 
 Prompt
 
@@ -3234,17 +3234,17 @@ Prompt
 
 # 大俗大雅
 
-![](images/image-84.png)
+![](images/image-84.webp)
 
-![](images/image-86.png)
+![](images/image-86.webp)
 
-![](images/image-83.png)
+![](images/image-83.webp)
 
-![](images/image-85.png)
+![](images/image-85.webp)
 
-![](images/image-82.png)
+![](images/image-82.webp)
 
-![](images/image-81.png)
+![](images/image-81.webp)
 
 ```lisp
 ;; 作者: 李继刚
@@ -3300,17 +3300,17 @@ Prompt
 
 # 万物皆可一字
 
-![](images/image-80.png)
+![](images/image-80.webp)
 
-![](images/image-99.png)
+![](images/image-99.webp)
 
-![](images/image-103.png)
+![](images/image-103.webp)
 
-![](images/image-95.png)
+![](images/image-95.webp)
 
-![](images/image-98.png)
+![](images/image-98.webp)
 
-![](images/image-102.png)
+![](images/image-102.webp)
 
 ```lisp
 ;; 作者: 李继刚
@@ -3379,13 +3379,13 @@ Prompt
 
 # 兼听则明
 
-![](images/image-93.png)
+![](images/image-93.webp)
 
-![](images/image-92.png)
+![](images/image-92.webp)
 
-![](images/image-101.png)
+![](images/image-101.webp)
 
-![](images/image-94.png)
+![](images/image-94.webp)
 
 ```lisp
 ;; 作者: 李继刚
@@ -3473,13 +3473,13 @@ Prompt
 
 # 好闺蜜
 
-![](images/image-96.png)
+![](images/image-96.webp)
 
-![](images/image-97.png)
+![](images/image-97.webp)
 
-![](images/image-100.png)
+![](images/image-100.webp)
 
-![](images/image-89.png)
+![](images/image-89.webp)
 
 ```json
 ;; 作者: 李继刚
@@ -3547,15 +3547,15 @@ Prompt
 
 # 不可能三角
 
-![](images/image-90.png)
+![](images/image-90.webp)
 
-![](images/image-91.png)
+![](images/image-91.webp)
 
-![](images/image-109.png)
+![](images/image-109.webp)
 
-![](images/image-108.png)
+![](images/image-108.webp)
 
-![](images/image-107.png)
+![](images/image-107.webp)
 
 Prompt
 
@@ -3624,19 +3624,19 @@ Prompt
 
 愿诸君喜欢今天的正能量： **小确幸&#x20;**。
 
-![](images/d5c089f1fbf3fa860d7d6b3b589d3347.png)
+![](images/d5c089f1fbf3fa860d7d6b3b589d3347.webp)
 
-![](images/7daf2bfa14ff623cda60337ac9bebf1a.png)
+![](images/7daf2bfa14ff623cda60337ac9bebf1a.webp)
 
-![](images/a8c09338f0b8f48aca14c5d2875c49b7.png)
+![](images/a8c09338f0b8f48aca14c5d2875c49b7.webp)
 
-![](images/e69df16173341ee23fac76d80afd3ed7.png)
+![](images/e69df16173341ee23fac76d80afd3ed7.webp)
 
-![](images/81f6cb52d71ccb2e9c580913d58ffa9f.png)
+![](images/81f6cb52d71ccb2e9c580913d58ffa9f.webp)
 
-![](images/73a0eaef1380c60278e2950cef4383f8.png)
+![](images/73a0eaef1380c60278e2950cef4383f8.webp)
 
-![](images/73e967149b8e0c7fd4aa806a788ac3a7.png)
+![](images/73e967149b8e0c7fd4aa806a788ac3a7.webp)
 
 
 
@@ -3703,37 +3703,37 @@ Prompt
 
 ![]()
 
-![](images/image-105.png)
+![](images/image-105.webp)
 
-![](images/image-104.png)
+![](images/image-104.webp)
 
 ![]()
 
-![](images/image-106.png)
+![](images/image-106.webp)
 
 
 
-![](images/image-119.png)
+![](images/image-119.webp)
 
-![](images/image-118.png)
+![](images/image-118.webp)
 
-![](images/image-115.png)
+![](images/image-115.webp)
 
-![](images/image-123.png)
+![](images/image-123.webp)
 
-![](images/image-116.png)
+![](images/image-116.webp)
 
 
 
-![](images/image-124.png)
+![](images/image-124.webp)
 
-![](images/image-122.png)
+![](images/image-122.webp)
 
-![](images/image-113.png)
+![](images/image-113.webp)
 
-![](images/image-114.png)
+![](images/image-114.webp)
 
-![](images/image-117.png)
+![](images/image-117.webp)
 
 
 
@@ -3796,23 +3796,23 @@ Prompt
 
 # 这很合理
 
-![](images/image-120.png)
+![](images/image-120.webp)
 
-![](images/image-121.png)
+![](images/image-121.webp)
 
-![](images/image-112.png)
+![](images/image-112.webp)
 
-![](images/image-111.png)
+![](images/image-111.webp)
 
-![](images/image-110.png)
+![](images/image-110.webp)
 
-![](images/image-139.png)
+![](images/image-139.webp)
 
-![](images/image-138.png)
+![](images/image-138.webp)
 
-![](images/image-137.png)
+![](images/image-137.webp)
 
-![](images/image-136.png)
+![](images/image-136.webp)
 
 Prompt
 
@@ -3876,13 +3876,13 @@ Prompt
 
 # 生成记忆卡片 (单词)效果
 
-![](images/image-132.png)
+![](images/image-132.webp)
 
-![](images/image-135.png)
+![](images/image-135.webp)
 
-![](images/image-134.png)
+![](images/image-134.webp)
 
-![](images/image-133.png)
+![](images/image-133.webp)
 
 
 
@@ -3947,17 +3947,17 @@ Prompt
 
 # 三行情诗
 
-![](images/image-127.png)
+![](images/image-127.webp)
 
-![](images/image-130.png)
+![](images/image-130.webp)
 
-![](images/image-129.png)
+![](images/image-129.webp)
 
-![](images/image-131.png)
+![](images/image-131.webp)
 
-![](images/image-128.png)
+![](images/image-128.webp)
 
-![](images/image-125.png)
+![](images/image-125.webp)
 
 Prompt
 
@@ -4020,11 +4020,11 @@ Prompt
 
 # 创新概念解释
 
-![](images/image-126.png)
+![](images/image-126.webp)
 
-![](images/image-149.png)
+![](images/image-149.webp)
 
-![](images/image-148.png)
+![](images/image-148.webp)
 
 
 
@@ -4104,17 +4104,17 @@ Prompt
 
 # 哲学家：多角度理解一个概念
 
-![](images/image-147.png)
+![](images/image-147.webp)
 
-![](images/image-145.png)
+![](images/image-145.webp)
 
-![](images/image-150.png)
+![](images/image-150.webp)
 
-![](images/image-146.png)
+![](images/image-146.webp)
 
-![](images/image-144.png)
+![](images/image-144.webp)
 
-![](images/image-143.png)
+![](images/image-143.webp)
 
 
 
@@ -4126,21 +4126,21 @@ Prompt
 
 ![]()
 
-![](images/image-140.png)
+![](images/image-140.webp)
 
-![](images/image-141.png)
-
-
-
-![](images/image-142.png)
-
-![](images/image-162.png)
+![](images/image-141.webp)
 
 
 
-![](images/image-165.png)
+![](images/image-142.webp)
 
-![](images/image-164.png)
+![](images/image-162.webp)
+
+
+
+![](images/image-165.webp)
+
+![](images/image-164.webp)
 
 Prompt
 
@@ -4191,13 +4191,13 @@ Prompt
 
 可以看看之前的版本对比有什么改进之处
 
-![](images/image-161.png)
+![](images/image-161.webp)
 
-![](images/image-157.png)
+![](images/image-157.webp)
 
-![](images/image-156.png)
+![](images/image-156.webp)
 
-![](images/image-163.png)
+![](images/image-163.webp)
 
 
 
@@ -4244,7 +4244,7 @@ Prompt
 
 读书一事，不可求全，贪多嚼不烂，以精读为上，细嚼慢咽，真正把一本经典的精妙，全部吃进肚子里，将那些美好的意象、真知灼见的道理、隐匿于句章之间的精气神，一一化为己用，这才叫读书，否则只是翻书，翻过千万卷，撑死也是个两脚书柜。
 
-![](images/image-160.png)
+![](images/image-160.webp)
 
 
 
@@ -4252,15 +4252,15 @@ Prompt
 
 君子不妄动，动必有道。君子不徒语，语必有理。君子不苟求，求必有义。君子不虚行，行必有正！
 
-![](images/image-158.png)
+![](images/image-158.webp)
 
 我们每个人的坐姿，言行，信奉的道理……怎么说呢，就像是在告诉这个世界，你读过多少书，知道多少道理，受过多少苦难，记住了多少父母无声的教诲。所以我不希望别人看到我的时候，会觉得原来陈平安的爹娘，还有那个陈平安打心底敬佩的那些人，最后就只教出了这么个人。
 
-![](images/image-159.png)
+![](images/image-159.webp)
 
 陈平安一边走一边在身前随手画出一条线，“打个比方，这我们每个人人生道路的一条线，来龙去脉，我们所有的心性、心境和道理、认知，都会不由自主地往这条线靠拢，除了书院夫子和先生，绝大部分人有一天，都会与读书、书籍和圣贤道理，表面上愈行愈远，但是我们对于生活的态度，脉络，却可能早就存在了一条线，之后的人生，都会按照这条脉络前行，甚至连自己都不清楚，但是这条线对我们的影响，会伴随一生。”
 
-![](images/image-154.png)
+![](images/image-154.webp)
 
 就像读书读厚再读薄，最终可能只留下点睛之笔的三言两语，却可以伴随终生，受益终身。
 
@@ -4268,7 +4268,7 @@ Prompt
 
 \--《剑来》
 
-![](images/image-155.png)
+![](images/image-155.webp)
 
 崔东山停下双手，缓缓道：“寻常教书匠，可以让好学生的学问更好，稍好的先生，好学生也教，坏学生也管，愿意劝人改错向善。至于天底下最好的夫子，都是愿意对世间无教不知之大恶，寄予最大的耐心和善意。这种人，不管他们人走在哪里，学塾和书声其实就在那里了，有人觉得吵，无所谓，有人听得进，便是好。”&#x20;
 
@@ -4280,7 +4280,7 @@ Prompt
 
 &#x20; 崔东山猛然起身，高高举起手臂，如手持酒杯，白衣少年这一刻，振衣而立，神采飞扬，“人间多有肥甘凝腻物，人人向往，自然无错，理当如此，可口渴之时便有水喝，凭君自取，岂不快哉，岂不幸哉？！”
 
-![](images/image-151.png)
+![](images/image-151.webp)
 
 “不与伪君子争名，不与真小人争利，不与执拗人争理，不与匹夫争勇，不与酸儒争才。不与蠢人施恩。”&#x20;
 
@@ -4292,7 +4292,7 @@ Prompt
 
 \--《剑来》
 
-![](images/image-153.png)
+![](images/image-153.webp)
 
 圣人之争，争道的方向，归根结底，还是要看谁的大道更加庇护苍生，裨益世道。&#x20;
 
@@ -4304,7 +4304,7 @@ Prompt
 
 贤人之争，才会争自身学问的一时好与坏，笔下纸上打架而已。
 
-![](images/image-152.png)
+![](images/image-152.webp)
 
 Prompt
 
@@ -4369,7 +4369,7 @@ Prompt
 
 # 图尔敏论证结构分析
 
-![](images/image-178.png)
+![](images/image-178.webp)
 
 Prompt
 
@@ -4447,19 +4447,19 @@ Prompt
 
 # **So what**
 
-![](images/image-176.png)
+![](images/image-176.webp)
 
-![](images/image-177.png)
+![](images/image-177.webp)
 
-![](images/image-173.png)
+![](images/image-173.webp)
 
-![](images/image-179.png)
+![](images/image-179.webp)
 
-![](images/image-168.png)
+![](images/image-168.webp)
 
-![](images/image-169.png)
+![](images/image-169.webp)
 
-![](images/image-180.png)
+![](images/image-180.webp)
 
 Prompt
 
@@ -4519,9 +4519,9 @@ Prompt
 
 # Unicode
 
-![](images/image-174.png)
+![](images/image-174.webp)
 
-![](images/image-172.png)
+![](images/image-172.webp)
 
 
 
@@ -4566,7 +4566,7 @@ Prompt
 
 # **信达雅翻译**
 
-![](images/image-170.png)
+![](images/image-170.webp)
 
 Prompt
 
@@ -4616,15 +4616,15 @@ Prompt
 
 # 情绪解析器
 
-![](images/image-175.png)
+![](images/image-175.webp)
 
-![](images/image-171.png)
+![](images/image-171.webp)
 
 
 
-![](images/image-166.png)
+![](images/image-166.webp)
 
-![](images/image-167.png)
+![](images/image-167.webp)
 
 Prompt
 
@@ -4690,21 +4690,21 @@ Prompt
 
 # 撕考者
 
-![](images/image-195.png)
+![](images/image-195.webp)
 
-![](images/image-194.png)
+![](images/image-194.webp)
 
-![](images/image-193.png)
+![](images/image-193.webp)
 
-![](images/image-186.png)
+![](images/image-186.webp)
 
-![](images/image-185.png)
+![](images/image-185.webp)
 
-![](images/image-191.png)
+![](images/image-191.webp)
 
-![](images/image-183.png)
+![](images/image-183.webp)
 
-![](images/image-182.png)
+![](images/image-182.webp)
 
 Prompt
 
@@ -4779,27 +4779,27 @@ Prompt
 
 ```
 
-![](images/image-187.png)
+![](images/image-187.webp)
 
-![](images/image-188.png)
+![](images/image-188.webp)
 
-![](images/image-192.png)
+![](images/image-192.webp)
 
-![](images/image-184.png)
+![](images/image-184.webp)
 
 
 
 # 方法论
 
-![](images/image-190.png)
+![](images/image-190.webp)
 
-![](images/image-181.png)
+![](images/image-181.webp)
 
-![](images/image-189.png)
+![](images/image-189.webp)
 
-![](images/image-206.png)
+![](images/image-206.webp)
 
-![](images/image-202.png)
+![](images/image-202.webp)
 
 Prompt
 
@@ -4873,9 +4873,9 @@ Prompt
 
 # 沉思者
 
-![](images/image-203.png)
+![](images/image-203.webp)
 
-![](images/image-210.png)
+![](images/image-210.webp)
 
 
 
@@ -4935,9 +4935,9 @@ Prompt
 
 # **疯狂星期四**
 
-![](images/image-209.png)
+![](images/image-209.webp)
 
-![](images/image-200.png)
+![](images/image-200.webp)
 
 
 
@@ -5001,7 +5001,7 @@ Prompt
 
 # 知识卡片
 
-![](images/image-207.png)
+![](images/image-207.webp)
 
 Prompt
 
@@ -5065,9 +5065,9 @@ Prompt
 
 # 答案之书
 
-![](images/image-208.png)
+![](images/image-208.webp)
 
-![](images/image-198.png)
+![](images/image-198.webp)
 
 
 
@@ -5119,19 +5119,19 @@ Prompt
 
 # **职业新解**
 
-![](images/image-204.png)
+![](images/image-204.webp)
 
-![](images/image-199.png)
+![](images/image-199.webp)
 
-![](images/image-201.png)
+![](images/image-201.webp)
 
-![](images/image-197.png)
+![](images/image-197.webp)
 
-![](images/image-196.png)
+![](images/image-196.webp)
 
-![](images/image-205.png)
+![](images/image-205.webp)
 
-![](images/image-222.png)
+![](images/image-222.webp)
 
 Prompt
 
@@ -5182,17 +5182,17 @@ Prompt
 ;; 4. No other comments!!
 ```
 
-![作者：北邻](images/image-220.png)
+![作者：北邻](images/image-220.webp)
 
-![作者：准恩哥](images/image-215.png)
+![作者：准恩哥](images/image-215.webp)
 
 # 说文解字
 
-![](images/image-223.png)
+![](images/image-223.webp)
 
-![](images/image-219.png)
+![](images/image-219.webp)
 
-![](images/image-216.png)
+![](images/image-216.webp)
 
 
 
@@ -5260,7 +5260,7 @@ Prompt
 
 # **黑话专家**
 
-![](images/image-217.png)
+![](images/image-217.webp)
 
 Prompt
 
@@ -5315,11 +5315,11 @@ Prompt
 
 不敢公开的
 
-![](images/image-214.png)
+![](images/image-214.webp)
 
-![](images/image-218.png)
+![](images/image-218.webp)
 
-![](images/image-213.png)
+![](images/image-213.webp)
 
 
 
@@ -5362,15 +5362,15 @@ Prompt
 2. 接收用户输入后,执行主函数(unicode-exchange 用户输入)
 ```
 
-![](images/image-221.png)
+![](images/image-221.webp)
 
 想让昨天的说文解字显示甲骨文，试了半天没解决。群友 阿鱼 通过加载本地字体的方式成功展示了。不是画甲骨文，而是通过甲骨文字体来展示，妙！
 
 在这基础上，今天研究了下，只需要本机安装了字体，就可以在Prompt中指定font-family为该字体，从而实现任意部分使用任意字体的效果。
 
-![](images/image-212.png)
+![](images/image-212.webp)
 
-![](images/image-211.png)
+![](images/image-211.webp)
 
 ***
 

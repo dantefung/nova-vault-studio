@@ -12,7 +12,7 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 
 昨天@damo 老板又来给大家报喜了，我们先恭喜他在订阅上走出了成绩。
 
-![image.png](images/gefei-age-proof-site-step-5-internal-links/img_002.png)
+![image.png](images/gefei-age-proof-site-step-5-internal-links/img_002.webp)
 
 网站养老系列，哥飞已经更新了 6 篇了：
 
@@ -57,14 +57,14 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 1.5、首页预览
 
 调整完的首页长这样：
-![image.png](images/gefei-age-proof-site-step-5-internal-links/img_003.png)
+![image.png](images/gefei-age-proof-site-step-5-internal-links/img_003.webp)
 
 二、内页
 
 2.1、内页预览
 
 以“China Phone Number Generator”为例，先给大家看下内页长这样：
-![image.png](images/gefei-age-proof-site-step-5-internal-links/img_004.png)
+![image.png](images/gefei-age-proof-site-step-5-internal-links/img_004.webp)
 2.2、标题和描述
 
 先说标题和描述，先自己大概写一下：
@@ -100,14 +100,14 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 在生成电话号码功能下方，我们让 GPT 基于我们提供的一些关键词，生成更多关于内页关键词的 seation ，每一个 section 都是一个 h2 。
 
 我们先导出 Semrush 中跟当前内页关键词相关的更多关键词。
-![image.png](images/gefei-age-proof-site-step-5-internal-links/img_005.png)
+![image.png](images/gefei-age-proof-site-step-5-internal-links/img_005.webp)
 
 然后提供关键词列表给 GPT4，让 AI 生成指定格式的 section，部分生成后的代码如下：
 
 `<section>     <h2>China Phone Number Format</h2>     <p>The standard format for Chinese phone numbers is 1xx-xxxx-xxxx, where '1' is always the prefix, followed by a 2-digit operator code and then an 8-digit user number.</p> </section> <section>     <h2>Major Mobile Operators in China</h2>     <ul>         <li>China Mobile: Starting with 134, 135, 136, etc.</li>         <li>China Unicom: Starting with 130, 131, 132, etc.</li>         <li>China Telecom: Starting with 133, 149, etc.</li>     </ul> </section> <section>     <h2>China's Virtual Phone Number Providers</h2>     <p>In addition to the traditional operators, there are many virtual phone number providers in China offering services for business and private use.</p> </section>`
 
 对应页面效果如下：
-![image.png](images/gefei-age-proof-site-step-5-internal-links/img_006.png)
+![image.png](images/gefei-age-proof-site-step-5-internal-links/img_006.webp)
 2.6、生成更多内页
 
 按照同样的方法，生成其它 9 个国家的内页，注意每个国家的电话号码格式都不一样，直接让 GPT 生成相关 js 代码就好。
@@ -231,7 +231,7 @@ url: "https://new.web.cafe/tutorial/detail/1civEx3Bnca6XJm3Ufdj8V"
 
     打卡
 
-![](images/gefei-age-proof-site-step-5-internal-links/img_011.jpg)
+![](images/gefei-age-proof-site-step-5-internal-links/img_011.webp)
 
 添加图片添加隐藏回复
 

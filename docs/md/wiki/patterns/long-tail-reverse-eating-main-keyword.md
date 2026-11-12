@@ -1,5 +1,5 @@
 ---
-title: "Long-tail Reverse Eating Main Keyword"
+title: "长尾词反向吃主词"
 date: "2026-06-15"
 source: "哥飞SEO教程"
 url: "https://mp.weixin.qq.com/s/twjroCKjnEyM4NIscGqsvg"

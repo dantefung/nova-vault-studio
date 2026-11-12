@@ -17,13 +17,13 @@ url: "https://mp.weixin.qq.com/s/4874qzzdlafIO2TxQ-OzEQ"
 
 注：以下 PPT 内容为 AI 自行总结生成，有部分内容和用词跟实际有出入。
 
-![图片](./images/invest-pipeline-income/001.jpeg)
+![图片](images/invest-pipeline-income/001.webp)
 
 这个主副标题都是 NotebookLM 自行总结取的，如果让我自己取，不会用这么高调、高逼格的词。
 
 如果是我自己取，那就是本文的标题——《我的现金流管道分享》。
 
-![图片](./images/invest-pipeline-income/002.jpeg)
+![图片](images/invest-pipeline-income/002.webp)
 
 要讲我的现金流故事，还得从 2023 年底的失业说起。
 
@@ -37,7 +37,7 @@ url: "https://mp.weixin.qq.com/s/4874qzzdlafIO2TxQ-OzEQ"
 
 计划很美好，但实际根本躺不平！没有现金流的流入让我焦虑不安。
 
-![图片](./images/invest-pipeline-income/003.png)
+![图片](images/invest-pipeline-income/003.webp)
 
 2023 年那个时候，i 茅台预约申购还非常火，约中一瓶生肖茅台有大几百块近千元的利润。
 
@@ -57,7 +57,7 @@ url: "https://mp.weixin.qq.com/s/4874qzzdlafIO2TxQ-OzEQ"
 
 结果就是因为这篇文章和 i 茅台自动预约网站，我的公众号多了五六千的关注，我的微信被动加了七八千的好友（其中有非常多的黄牛）。
 
-![图片](./images/invest-pipeline-income/004.png)
+![图片](images/invest-pipeline-income/004.webp)
 
 到这个时候，我意识到我可能可以靠公众号和私域赚钱了。
 
@@ -75,7 +75,7 @@ url: "https://mp.weixin.qq.com/s/4874qzzdlafIO2TxQ-OzEQ"
 
 这两年多下来，我累计做过二十多个项目，接下来分享一下目前还在做的、还能给我创造现金流的项目，希望对朋友们有启发。
 
-![图片](./images/invest-pipeline-income/005.jpeg)
+![图片](images/invest-pipeline-income/005.webp)
 
 LOF 套利又叫拖拉机套利。
 
@@ -94,7 +94,7 @@ LOF 套利又叫拖拉机套利。
 
 [LOF 套利系列文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAwMzY2OTMzNw==&action=getalbum&album_id=3383908056614436867&subscene=126&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzAwMzY2OTMzNw%3D%3D%26mid%3D2458068411%26idx%3D1%26sn%3D27a83a9e481134004860ef8484f540d3%26chksm%3D8dc5b4d03f9f3df0d8f68980b74b6b16fa7c2ed6c1ff7be2320057e79d29d9a0056b4fa18b7e%26sessionid%3D0%26scene%3D126%26clicktime%3D1775034985%26enterid%3D1775034985%26subscene%3D10000%26ascene%3D3%26fasttmpl_type%3D0%26fasttmpl_fullversion%3D8195225-zh_CN-zip%26fasttmpl_flag%3D0%26realreporttime%3D1775034985141%26devicetype%3Dandroid-36%26version%3D2800455d%26nettype%3DWIFI%26lang%3Dzh_CN%26session_us%3Dgh_cb597fc962e5%26countrycode%3DCN%26exportkey%3Dn_ChQIAhIQiHGQ7%252F4Yfcvd1LSnXYYDuRLmAQIE97dBBAEAAAAAADc0CUVw398AAAAOpnltbLcz9gKNyK89dVj0cXahfQdbve2UdzNfoevEfTjVSRNlcKZKz%252BY3GLzxCJlYCyaSK5v2WnTYZK6U7rRDC8firxlHFMpeidbI239lTBX9iiCGh7B65mTY45%252FgISjEKUlc8oqE80SAQ5%252F2a5%252FEVseOe4qLTVWgulhYUoxKKOp%252FBUAyjaEO9UR6SCE0P4ei8Wxfws1tO9DDN9IGZQClCCqT4%252FCTCR5lCXm2mk%252B4uW%252BVjjGRfVAme3vcrAXLdkVeRhB7inr%252ByJZSCDiaVtlx%26pass_ticket%3DTUEl2vk7kEl3s1SsM10r0jy0AkRw75qZZ6i219FyIsUMIDoUWxI0UbyELD8KI71q%26wx_header%3D3&nolastread=1#wechat_redirect)
 
-![图片](./images/invest-pipeline-income/006.jpeg)
+![图片](images/invest-pipeline-income/006.webp)
 
 港股打新这一波牛市是从 24 年年底开始的，具体表现就是打了容易中，中了赚钱效应好（当然也存在亏钱可能）。
 
@@ -112,7 +112,7 @@ LOF 套利又叫拖拉机套利。
 
 而这所有的都是免费的。
 
-![图片](./images/invest-pipeline-income/007.png)
+![图片](images/invest-pipeline-income/007.webp)
 
 最近一年多来，我们累计帮助了好几百位朋友去香港开出了港卡。
 
@@ -124,7 +124,7 @@ LOF 套利又叫拖拉机套利。
 
 1. 自己港股打新的钱，这个也是可以堆账号的，我最多的时候有 50 多个打新账户。
 2. 推广的钱，帮朋友们搞定港美股账户，从港股券商那里赚钱。
-![图片](./images/invest-pipeline-income/008.jpeg)
+![图片](images/invest-pipeline-income/008.webp)
 
 说了两个开户的项目了，再分享一个。
 
@@ -140,7 +140,7 @@ LOF 套利又叫拖拉机套利。
 
 我就在帮他们省手续费的同时，可以赚推广的钱，并且这部分需求都是主动找上来的。
 
-![图片](./images/invest-pipeline-income/009.jpeg)
+![图片](images/invest-pipeline-income/009.webp)
 
 以上几种开户，都是建立在帮他人解决问题的情况下，所以基本都是客户找我。
 
@@ -162,7 +162,7 @@ LOF 套利又叫拖拉机套利。
 
 [668 带你一起薅券商新客羊毛](https://mp.weixin.qq.com/s?__biz=MzAwNDIzMDc1Ng==&mid=2451027691&idx=1&sn=09370fc5bbcb941468912d5ea6a66dae&scene=21#wechat_redirect)
 
-![图片](./images/invest-pipeline-income/010.jpeg)
+![图片](images/invest-pipeline-income/010.webp)
 
 勤俭持家是电商 CPS 项目，我拉了很多微信群，同时找了一位朋友，每天会选出十来个品，通过机器人分发到每个群里面，群里的朋友买了我就会有佣金收入。
 
@@ -178,7 +178,7 @@ LOF 套利又叫拖拉机套利。
 
 因为收益可以统计到微信群的维度，所以我们可以找一些有流量能拉群的朋友合作，他们负责拉人，我们负责运营，这样可以把整个盘子做的再大一些，也可以给朋友们每个月带去一些收入。
 
-![图片](./images/invest-pipeline-income/011.jpeg)
+![图片](images/invest-pipeline-income/011.webp)
 
 alpha 这个项目大家都很熟了，不知道大家现在还有没有在刷。
 
@@ -196,7 +196,7 @@ alpha 这个项目大家都很熟了，不知道大家现在还有没有在刷�
 
 他们愿意继续刷的，我也就没喊停，就一直做到了现在。
 
-![图片](./images/invest-pipeline-income/012.jpeg)
+![图片](images/invest-pipeline-income/012.webp)
 
 手机挂机是一个很有梦想的项目。
 
@@ -214,7 +214,7 @@ alpha 这个项目大家都很熟了，不知道大家现在还有没有在刷�
 
 全网只有我们做到了这个级别。
 
-![图片](./images/invest-pipeline-income/013.jpeg)
+![图片](images/invest-pipeline-income/013.webp)
 
 微信金币项目现在已经倒闭了，但是这个项目非常好玩，也顺便分享一下。
 
@@ -238,7 +238,7 @@ alpha 这个项目大家都很熟了，不知道大家现在还有没有在刷�
 
 后来银行立减金活动少了，微信金币也做了调整一天最多只能送 9 个，所以这个项目也黄了。
 
-![图片](./images/invest-pipeline-income/014.jpeg)
+![图片](images/invest-pipeline-income/014.webp)
 
 再分享一个有意思的项目，瓶盖羊毛。
 

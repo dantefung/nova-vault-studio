@@ -1,5 +1,5 @@
 ---
-title: "requesting-code-review"
+title: "requesting-code-review 请求代码评审"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

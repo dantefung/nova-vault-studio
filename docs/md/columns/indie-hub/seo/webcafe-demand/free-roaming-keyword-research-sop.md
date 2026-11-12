@@ -65,7 +65,7 @@ PS：反正都买不起，我就不放正版链接了，群里有飞哥谈来的
 
 在 GoogleTrends 上输入各种词根，然后去看底部的相关查询。
 
-![](images/free-roaming-keyword-research-sop/001.png)
+![](images/free-roaming-keyword-research-sop/001.webp)
 
 良辰美大佬还分享了喂饭式 GoogleTrends 文件：\`<\1>
 
@@ -92,7 +92,7 @@ PS：反正都买不起，我就不放正版链接了，群里有飞哥谈来的
 
 **有些搜索目标是无法替代的**：`class charts login` 但这个词其实没有操作空间，因为 class charts 是英国教育系统里的在线学校管理软件……
 
-![](images/free-roaming-keyword-research-sop/002.png)
+![](images/free-roaming-keyword-research-sop/002.webp)
 
 **Google 首页就解决了关键词的需求**：`ring size chart`（戒指尺寸表），上来 google 就放了各种图片，根本没人去看下边的网站。
 

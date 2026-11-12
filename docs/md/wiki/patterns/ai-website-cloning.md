@@ -1,5 +1,5 @@
 ---
-title: "AI Website Cloning"
+title: "AI 网站克隆"
 date: "2026-06-13"
 source: "ai-website-cloner-template"
 url: "https://github.com/JCodesMore/ai-website-cloner-template"

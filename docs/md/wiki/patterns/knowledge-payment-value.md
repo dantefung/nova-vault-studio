@@ -1,5 +1,5 @@
 ---
-title: "Knowledge Payment Value"
+title: "知识付费匹配价值"
 date: "2026-06-17"
 source: "花了五千块学做公众号，感觉被套路了…"
 url: "https://mp.weixin.qq.com/s/PtcJHya5nJg5N2VwLcktTA"

@@ -1,3 +1,7 @@
+---
+title: "第 3 章 · 文件操作工具"
+---
+
 Title: 文件操作工具 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/tools/file-tools.html

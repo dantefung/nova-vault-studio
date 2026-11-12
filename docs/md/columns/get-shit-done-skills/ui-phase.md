@@ -1,5 +1,5 @@
 ---
-title: "ui-phase"
+title: "ui-phase UI 规格契约"
 date: "2026-06-04"
 source: "get-shit-done"
 url: "https://github.com/gsd-build/get-shit-done"

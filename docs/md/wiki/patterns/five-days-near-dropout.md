@@ -1,5 +1,5 @@
 ---
-title: "Five Days Near Dropout"
+title: "退学边缘的五天"
 date: "2026-06-17"
 source: "退学边缘的五天里，我得到了一份让我复用终身的资产"
 url: "https://mp.weixin.qq.com/s/_LMqkF7tJ1kiIZiTDIuLnQ"

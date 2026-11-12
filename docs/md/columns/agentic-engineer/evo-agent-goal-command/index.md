@@ -16,7 +16,7 @@ url: "https://mp.weixin.qq.com/s/DfDFsIhLZJp1NiXz9dp7ug"
 | 标题 | 让 Agent 不会停下来：goal 命令 |
 | 作者 | 袁小康 |
 | 来源 | 微信公众号-天空的代码世界 |
-| 发布时间 | 2026年6月2日 |
+| 发布时间 | 2026 年 6 月 2 日 |
 | 链接 | [原文](https://mp.weixin.qq.com/s/DfDFsIhLZJp1NiXz9dp7ug) |
 
 ### 核心要点
@@ -41,7 +41,7 @@ url: "https://mp.weixin.qq.com/s/DfDFsIhLZJp1NiXz9dp7ug"
 | 01 | [Agent 的本质：一个 Loop 循环](https://mp.weixin.qq.com/s?__biz=MzI2NDA0NDM1MA==&mid=2650116887&idx=1&sn=28b7c4b5274dbc63ef803c4cbdf4d21e&scene=21#wechat_redirect) | 袁小康 | - |
 | 02| [Agent 的手脚：工具 Tools](./article-02.md) | 袁小康 | - |
 | 03| [Agent 的上下文记忆：Message 列表](./article-03.md) | 袁小康 | - |
-| 04| [Agent 的上下文压缩：3个策略](./article-04.md) | 袁小康 | - |
+| 04| [Agent 的上下文压缩：3 个策略](./article-04.md) | 袁小康 | - |
 | 05| [Agent 的万能插座：MCP 协议](./article-05.md) | 袁小康 | - |
 | 06| [Agent 的 Skill：可复用的工作流](./article-06.md) | 袁小康 | - |
 | 07| [Agent 的 TUI：终端交互界面](./article-07.md) | 袁小康 | - |

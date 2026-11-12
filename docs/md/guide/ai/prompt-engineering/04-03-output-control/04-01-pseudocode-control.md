@@ -265,11 +265,11 @@ print(format_transcript($user_input))
 
 看看效果如何：
 
-![整理 WWDC 访问文稿](../images/pseudocode-ctrl-0.png)
+![整理 WWDC 访问文稿](../images/pseudocode-ctrl-0.webp)
 
-![多个 Speaker，显示发言人](../images/pseudocode-ctrl-1.png)
+![多个 Speaker，显示发言人](../images/pseudocode-ctrl-1.webp)
 
-![1 个 Speaker，不显示发言人](../images/pseudocode-ctrl-2.png)
+![1 个 Speaker，不显示发言人](../images/pseudocode-ctrl-1.webp)
 
 你也可以直接使用我用这个 Prompt 生成的 GPT：[Transcript organization 视频文稿整理 GPT](https://chatgpt.com/g/g-pnXgeR4g4-transcript-organization-shi-pin-wen-gao-zheng-li)
 
@@ -304,7 +304,7 @@ images_prompts.forEach((image_prompt) =>{
 
 ```
 
-![](../images/pseudocode-ctrl-3.png)
+![](../images/pseudocode-ctrl-3.webp)
 
 ## 总结
 

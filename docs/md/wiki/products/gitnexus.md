@@ -1,5 +1,5 @@
 ---
-title: "GitNexus"
+title: "GitNexus 影响分析"
 date: "2026-05-22"
 ---
 

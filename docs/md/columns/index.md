@@ -19,6 +19,14 @@ url: ""
 
 ---
 
+## OpenCode
+
+> 聚焦 OpenCode 生态的智能体编排、团队架构、配置规范与自动化工程实战。
+
+[进入专栏 →](/md/columns/agentic-engineer/opencode/)
+
+---
+
 ## Vibe Coding 指南
 
 > Vibe Coding 开发规范、提示词技巧、上下文管理和工作流架构。
@@ -32,6 +40,14 @@ url: ""
 > 驭化工程完整知识体系：上下文工程、架构约束、熵管理、Agent 可读性。
 
 [进入专栏 →](/md/columns/harness-engineering/)
+
+---
+
+## 纳米AI
+
+> 把大模型拆开，一格一格算清楚。大模型学习路线图（8 阶段 51 知识点）、从零手写大模型与 Agent、交互式图解与论文研读，全站 65 页离线归档。
+
+[进入专栏 →](/md/columns/nano-ai/)
 
 ---
 
@@ -96,3 +112,27 @@ url: ""
 > 虾系 AI 工具集 —— QwenPaw 等各类智能体框架的安装、配置、使用与实践。
 
 [进入专栏 →](/md/columns/paws/)
+
+---
+
+## The Software Architecture Chronicles
+
+> 软件架构编年史：从架构思想到设计模式的系统梳理。基于 Herberto Graca 的同名系列文章。
+
+[进入专栏 →](/md/columns/software-architecture-chronicles/)
+
+---
+
+## 社媒
+
+> X/Twitter 运营、SEO 策略、谷歌搜索控制台实战记录。
+
+[进入专栏 →](/md/columns/social-media/)
+
+---
+
+## 人生健康专栏
+
+> 像调优软件那样调优人体系统——神经科学/营养学/睡眠医学的前沿研究转化为可执行日常实践，覆盖睡眠/饮食/Fasting/多巴胺/学习/大脑健康/长寿七大模块。
+
+[进入专栏 →](/md/columns/healthy-life/)

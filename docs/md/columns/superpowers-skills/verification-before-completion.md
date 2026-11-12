@@ -1,5 +1,5 @@
 ---
-title: "verification-before-completion"
+title: "verification-before-completion 完成前验证"
 date: "2026-06-04"
 source: "superpowers"
 url: "https://github.com/obra/superpowers"

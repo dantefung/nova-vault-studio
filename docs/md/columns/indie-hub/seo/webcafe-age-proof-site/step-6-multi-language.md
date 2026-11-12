@@ -33,7 +33,7 @@ url: "https://new.web.cafe/tutorial/detail/cQ51kSbEMajhZVSe6widzn"
 所以使用 ChatGPT，不仅仅可以提高效率，还可以让初学者也能做出及格线以上水平的网站。
 
 那么到底要做哪些语言呢？我们用数据说话，打开 Semrush，查看这个关键词各个国家的搜索量。
-![image.png](images/gefei-age-proof-site-step-6-multi-language/img_002.png)
+![image.png](images/gefei-age-proof-site-step-6-multi-language/img_002.webp)
 排名前六的分别是：GH 、US 、NG 、UK、IN、PH，我们通过询问 ChatGPT，可以得到这些国家信息和主要语言。
 
 `GH、US、NG、UK、IN、PH 分别是哪些国家，说什么语言？`
@@ -53,7 +53,7 @@ GPT4 的回答：
 `为了网站多语言支持，通常我们会采用语言代码作为子目录的命名。 以下是对应的 ISO 639-1 语言代码： 印地语 (Hindi)：HI 菲律宾语 (Filipino)：TL  （这个是基于它的另一个名字，塔加洛语 Tagalog） 所以，如果你要为网站增加这两种语言的支持， 你可以创建名为 "HI" 和 "TL" 的子目录。`
 
 所以，我们需要在网站根目录，也就是 index.html 的同级，创建两个子目录，分别是“hi”和“tl”，创建好之后我们网站目前的目录结构如下：
-![image.png](images/gefei-age-proof-site-step-6-multi-language/img_003.png)
+![image.png](images/gefei-age-proof-site-step-6-multi-language/img_003.webp)
 
 然后，我们需要在原先的页面中增加语言切换按钮，同样，先问 GPT4:
 
@@ -82,7 +82,7 @@ GPT4 回答：
 `.language-list{     float: right; } .language-list a{     margin-left: 10px;     color: #666; } .language-list a.curr{     color: #333;     font-weight: bold; } .language-list a:hover{     color: #247a8c; }`
 
 效果如下，没有过多美化，直接在右侧增加了三个语言的列表，当前语言加粗加黑：
-![image.png](images/gefei-age-proof-site-step-6-multi-language/img_004.png)
+![image.png](images/gefei-age-proof-site-step-6-multi-language/img_004.webp)
 
 我们这个网站，默认是英语，所以给英语增加了“curr”类。
 
@@ -93,7 +93,7 @@ GPT4 回答：
 其它页面按照同样的方法处理。
 
 接着，我们把所有处理好的 .html 文件复制，然后分别粘贴到 /hi/ 和 /tl/ 目录，做完之后，我们网站目前的目录结构如下：
-![image.png](images/gefei-age-proof-site-step-6-multi-language/img_005.png)
+![image.png](images/gefei-age-proof-site-step-6-multi-language/img_005.webp)
 
 注意，styles.css 是不用复制的，因为这是公共通用文件。
 
@@ -164,7 +164,7 @@ GPT4 回答：
 `<section>     <h2><a href="./china-phone-number-generator.html" title="चीन फ़ोन नंबर जनरेटर">चीन फ़ोन नंबर जनरेटर</a></h2>     <p>हमारे उपकरण के साथ मान्य चीन फ़ोन नंबर उत्पन्न करें। विभिन्न अनुप्रयोगों और परीक्षणों के लिए सही।</p>     <a href="./china-phone-number-generator.html" title="चीन फ़ोन नंबर जनरेट करें">         <button>चीन फ़ोन नंबर जनरेट करें</button>     </a> </section>`
 
 全部翻译完成后的印地语首页效果如下：
-![image.png](images/gefei-age-proof-site-step-6-multi-language/img_006.png)
+![image.png](images/gefei-age-proof-site-step-6-multi-language/img_006.webp)
 大家按照上面的方法继续把剩下所有页面都翻译好，那么我们的多语言支持就做好了。
 
 注意，本来这些页面都需要再做移动端适配的，我们暂时不做处理，先继续往下走。
@@ -284,7 +284,7 @@ GPT4 回答：
 
     打卡
 
-![](images/gefei-age-proof-site-step-6-multi-language/img_011.jpg)
+![](images/gefei-age-proof-site-step-6-multi-language/img_011.webp)
 
 添加图片添加隐藏回复
 

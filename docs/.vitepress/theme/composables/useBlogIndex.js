@@ -5,6 +5,8 @@ import { ref, readonly, computed } from 'vue'
 import blogIndex from '../../generated/blog-index.js'
 
 const index = ref(blogIndex)
+const categories = computed(() => index.value.categories)
+const series = computed(() => index.value.series)
 
 function articleByPath(path) {
   if (!path) return null
@@ -75,7 +77,6 @@ function relatedArticles(path, n = 4) {
 
   return candidates
     .map(a => ({ a, s: score(a) }))
-    .filter(x => x.s > 0)
     .sort((x, y) => y.s - x.s || (y.a.date || '').localeCompare(x.a.date || ''))
     .slice(0, n)
     .map(x => x.a)
@@ -108,6 +109,8 @@ function neighbors(path) {
 export function useBlogIndex() {
   return {
     index: readonly(index),
+    categories,
+    series,
     articleByPath,
     articlesByCategory,
     articlesBySeries,

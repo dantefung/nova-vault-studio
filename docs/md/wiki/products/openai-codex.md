@@ -1,5 +1,5 @@
 ---
-title: "OpenAI Codex"
+title: "OpenAI Codex 编程助手"
 date: "2026-05-09"
 ---
 

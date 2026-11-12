@@ -13,7 +13,7 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
 有朋友不了解博客评论外链怎么回事，我找了一个WP博客评论区截图给大家看看。
 
-![0ca0a0ae-c84d-440b-be5f-e81420e6cbc2.png](images/gefei-blog-comment-backlink/img_002.png)
+![0ca0a0ae-c84d-440b-be5f-e81420e6cbc2.png](images/gefei-blog-comment-backlink/img_002.webp)
 
 严格来说，用博客评论来搞外链，这是在给互联网创造垃圾信息。
 
@@ -137,7 +137,7 @@ url: "https://new.web.cafe/experience/ao30ki8tzk"
 
     打卡，学习了。
 
-![](images/gefei-blog-comment-backlink/img_011.jpg)
+![](images/gefei-blog-comment-backlink/img_011.webp)
 
 添加图片添加隐藏回复
 

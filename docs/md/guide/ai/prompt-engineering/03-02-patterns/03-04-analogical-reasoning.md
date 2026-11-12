@@ -43,7 +43,7 @@ graph TD
 
 常用的两种 CoT 方法是： “零示例 CoT（0-shot CoT）”“少示例 CoT（few-shot CoT）”，0-shot CoT 就是在 Prompt 里面明确给出推理步骤，让 LLM 参照步骤来完成推理。few-shot CoT 则是给出少量示例，让 LLM 参照示例来完成推理。
 
-![三种提示方法对比](../images/analogical-0.png)
+![三种提示方法对比](../images/analogical-0.webp)
 
 举例来说，现在有一道数学题：”有一个正方形，它的四个顶点分别是 (-2, 2)，(2, -2)，(-2, -6) 和 (-6, -2)，求这个正方形的面积是多少？“
 

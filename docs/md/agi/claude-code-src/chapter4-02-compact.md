@@ -1,3 +1,7 @@
+---
+title: "第 4 章 · 上下文压缩"
+---
+
 Title: 上下文压缩系统 | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/services/compact.html

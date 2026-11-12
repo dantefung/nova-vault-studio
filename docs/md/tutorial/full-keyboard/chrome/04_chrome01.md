@@ -1,5 +1,5 @@
 ---
-title: "chrome 1"
+title: "第 01 课 · 初始化 VimiumC"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

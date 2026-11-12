@@ -12,6 +12,15 @@ source: "原创"
 
 ## 目录结构
 
+- [hello-harness/](./hello-harness/) — Hello Harness（从 0 手写 Agent Harness，TS 实现）
+- [zero-agent/](./zero-agent/) — 从零构建 Agent 系列（从码农到工匠，ZeroAgent 开源项目实战）
+- [deepseek-harness/](./deepseek-harness/) — DeepSeek Harness（19 篇，从架构到 Subagent 到部署到架构深拆到自进化与主动型 Super-agent 到 3 万插件选型地图）
+- [codex-harness/](./codex-harness/) — Codex Harness（1 篇，App Server / Core Session / Agent Loop 源码解析）
+- [gsd-core/](./gsd-core/) — GSD Core 核心架构与 72 技能全景（Spec-Driven 与上下文防腐体系）
+- [ai-resources/](./ai-resources/) — AI 资源全景地图（100+ 分类，600+ 资源链接）
+- [industrial-agent-practice/](./industrial-agent-practice/) — 工业 AI Agent 实战派（7 篇，LangChain4j 入门到框架深析）
+- [agent-production-notes/](./agent-production-notes/) — Agent 生产实战笔记（11 篇，工业 Agent 生产化全流程）
+- [agentscope/](./agentscope/) — AgentScope 迁移系列（10 篇，从迁移动机到实战复刻）
 - [gstack/](./gstack/) — GStack/GSD 快速入门、架构设计与使用手册
 - [oh-my-claudecode/](./oh-my-claudecode/) — oh-my-claudecode 架构与多 Agent 编排
 - [agent-paradigm-evolution/](./agent-paradigm-evolution/) — Agent 范式演进与架构深度剖析
@@ -19,6 +28,13 @@ source: "原创"
 - [evo-agent-goal-command/](./evo-agent-goal-command/) — 袁小康 Agent Loop 系列（持续更新）
 - [pensieve/](./pensieve/) — Pensieve 自增长知识库
 - [other-tools/](./other-tools/) — 其他工具与实践案例
+- [build-with-agents/](./build-with-agents/) — 与智能体一起构建（人本视角的第一人称实践）
+- [deepseek-dsec-sandbox-infrastructure.md](./deepseek-dsec-sandbox-infrastructure.md) — DeepSeek DSec 论文深度解读：一天 300 万个沙盒，梁文锋署名
+- [agent-sandbox-three-layer-model.md](./agent-sandbox-three-layer-model.md) — Agent 沙箱的三层分工：隔离边界（OpenSandbox）/ 能力控制（nono）/ 策略治理（护栏），正交对照与选型路径
+- [build-with-agents/](./build-with-agents/) — 与智能体一起构建（人本视角的第一人称实践）
+- [2026-product-manager-ai-handbook/](./2026-product-manager-ai-handbook/) — 2026 产品经理 AI 实践手册（全流程实战：从需求调研到测试上线）
+- [codex-tutorial/](./codex-tutorial/) — 超详细 Codex 上手教程（从入门到精通，CLI 与配置实战）
+- [codex-desktop-system-prompt/](./codex-desktop-system-prompt/) — GPT-6 Sol 时代 Codex Desktop 完整系统提示词深度拆解（附 1903 行全文）
 
 ---
 
@@ -26,15 +42,36 @@ source: "原创"
 
 | 文档 | 说明 |
 |------|------|
-| [Agent 范式演变：六维度从过去到现在](../agent-paradigm-evolution/agent-paradigm-evolution.md) | 四阶段 + 六维度演变 |
-| [全 Agentic 架构深度剖析](../agent-paradigm-evolution/all-agentic-architectures-deep-dive.md) | 17 种架构模式全覆盖 |
-| [Prompt → Context → Harness 三次进化](../other-tools/prompt-context-harness-evolution.md) | 工程进化论 |
-| [淘天生码工作流最佳实践](../other-tools/taobao-code-generation-workflow.md) | AI 生码全流程案例 |
+| [AI 时代的软件基本功——Uncle Bob 谈 Agent 编码与质量围栏](./ai-software-fundamentals-uncle-bob.md) | 确定性工具 > 长提示、五阶段 Multi-Agent 流水线、价值不变纪律可变 |
+| [User Harness：从工程演进到 PI Delivery Loop 交付闭环](./user_harness.md) | 四代演进（Prompt→Context→Harness→Loop）、PI Delivery Loop 6 阶段闭环、质量四象限（Q1–Q4） |
+| [Agent 范式演变：六维度从过去到现在](./agent-paradigm-evolution/agent-paradigm-evolution.md) | 四阶段 + 六维度演变 |
+| [全 Agentic 架构深度剖析](./agent-paradigm-evolution/all-agentic-architectures-deep-dive.md) | 17 种架构模式全覆盖 |
+| [Prompt → Context → Harness 三次进化](./other-tools/prompt-context-harness-evolution.md) | 工程进化论 |
+| [淘天生码工作流最佳实践](./other-tools/taobao-code-generation-workflow.md) | AI 生码全流程案例 |
+| [多 Agent 协作冲突的血泪教训与解决方案](./multi-agent-collision/) | 主管理者+Worker 权限分离、浏览器锁、习惯闭环 |
+| [本体论 vs MCP：Agent 架构中"接口"与"链接"的边界](./ontology-vs-mcp-juepen-crm-s2e7.md) | 嘴喷CRM S2E7，三层递进：MCP→语义封装→本体论；接口是点，链接是边 |
+| [Anthropic 官方指南：AI Native 开发手册](./anthropic-ai-native-sdlc-playbook.md) | AI 原生 SDLC 六阶段 Play（intent.md→spec.md→plan.md→PR→事故），CLAUDE.md + Skills + Hooks 三层护栏 |
+| [多 Agent 系统的模式与问题——Anthropic 实证研究](./anthropic-multiagent-systems.md) | 4 类系统性失败：协调/一致性/认知/目标冲突，7 个实验，核心结论：协调不会自然涌现 |
+| [若飞：代码越来越快，架构工作变在哪里](./ai-eng-skills/ruofei-ai-eng-skills.md) | 从吴恩达 AI 工程技能图谱看：代码生成变快，架构决定反而更密集；身份模型、数据边界、安全可靠性是核心取舍 |
+| [若飞：Harness 到底是什么](./ai-eng-skills/ruofei-harness-explained.md) | 为什么同一个模型换个 Coding Agent 结果不一样：Harness 作为模型与任务之间的中间层，决定工具定义、决策路径和反馈机制 |
+| [Stellarlink：2026 年我的 AI-Native 软件开发工作流](./ai-eng-skills/stellarlink-ai-native-workflow.md) | 模型变强后轻量约束 vs 早期强约束的权衡，多模型组合与工程流程搭配 |
+| [蒋泽林：从 ReAct 到 Agent Teams](./ai-eng-skills/jiangzelin-agent-teams.md) | 工程师视角：ReAct 模式即人类智能工程化抽象，Agent 协作机制演进 |
+| [玄姐：从 Loop 到 Graph](./ai-eng-skills/xuanjie-loop-to-graph.md) | Loop 到 Graph 的工程架构设计，让 AI Agent 落地的架构实践 |
+| [术哥：Agent 给自己写外挂](./ai-eng-skills/shugex-agent-self-external.md) | DeepSeek Harness 七枚工具：cordis_inspect_list/query/define/run/stop/undefine，防错不防坏，Agent 自主写外挂实战 |
+| [GSD Core 专栏：Spec-Driven 与上下文工程架构](./gsd-core/) | 反上下文腐化架构、The Phase Loop 状态机闭环、Worktree 并发隔离、72 技能全景图谱 |
+| [深度长文｜2026产品经理AI实践手册](./2026-product-manager-ai-handbook/) | 从需求定义到上线的完整流程拆解，三大心法与项目初始化实践 |
+| [超详细 Codex 上手教程，从入门到精通](./codex-tutorial/) | OpenAI 生态概念、CLI 终端命令、AGENTS.md 配置与问题答疑 |
+| [Codex Desktop 完整系统提示词深度拆解](./codex-desktop-system-prompt/) | 6 个核心设计哲学分析 + 1903 行系统提示词全量中文对照 |
+| [阿里云 AgentCore 架构解析：企业级 Agent 生产化与治理平台](./aliyun-agentcore-enterprise-architecture.md) | 云栖大会分享：四大生产化转变、三层 Judge 评测、AgentLoop 观测、多模式协同与 Skill 资产沉淀 |
+| [郑天：关于 DeepSeek 的 SuperAgent，以及我们的实践](./deepseek-superagent-flock-practice.md) | DSH SuperAgent 双层架构与 1.6 万行原型深度剖析 + 阿里 Flock 协同空间实践（Sessionless / Quest / 动态 DAG / MDC） |
+| [范冰：解读 dsh-superagent——主动型 Coding Agent 工程常识与后厨美学](./deepseek-harness/18-dsh-superagent-engineering-common-sense.md) | 拆解 Router-Worker、事件驱动、异步 Loop、Mandate 授权与 Stored Work 5 大设计与自建系统复盘 |
+| [DeepSeek Harness 插件实战指南：3 万插件生态的选型地图](./deepseek-harness/19-dsh-plugin-guide.md) | 实测 30,015 仓库、必装三件套、九大场景推荐清单、23 大类索引与避坑红线 |
 
 ---
 
 ## 参考资料
 
+- [GSD Core 官方仓库](https://github.com/open-gsd/gsd-core)
 - [Pensieve 官方仓库](https://github.com/kingkongshot/Pensieve)
 - [GStack GitHub](https://github.com/Khulnasoft/gstack)
 - [Codex Skills](https://docs.codex.khulnasoft.com/)

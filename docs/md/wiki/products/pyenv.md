@@ -1,5 +1,5 @@
 ---
-title: "pyenv"
+title: "pyenv 版本管理"
 date: "2026-05-09"
 ---
 

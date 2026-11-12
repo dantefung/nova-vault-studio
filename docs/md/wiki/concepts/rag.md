@@ -1,3 +1,7 @@
+---
+title: "RAG（检索增强生成）"
+---
+
 # RAG（检索增强生成）
 
 > 将外部知识检索与大语言模型生成能力结合的技术架构，解决纯参数化模型在知识时效性、事实准确性方面的固有缺陷。
@@ -47,6 +51,6 @@
 
 ## Sources
 
-- [[智能客服专栏] RAG实现详解](./02-rag-implementation.md)
-- [[智能客服专栏] RAG实现详解v2](./08-rag-implementation-v2.md)
-- [[智能客服专栏] RAG建设方案横纵分析报告](./17-rag-building-scheme-analysis.md)
+- [[智能客服专栏] RAG实现详解](../../guide/ai/intelligent-customer-service/02-rag-implementation.md)
+- [[智能客服专栏] RAG实现详解v2](../../guide/ai/intelligent-customer-service/08-rag-implementation-v2.md)
+- [[智能客服专栏] RAG建设方案横纵分析报告](../../guide/ai/intelligent-customer-service/17-rag-building-scheme-analysis.md)

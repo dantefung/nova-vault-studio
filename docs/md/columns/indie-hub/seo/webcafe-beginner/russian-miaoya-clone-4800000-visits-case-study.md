@@ -12,12 +12,12 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 # 【5000字调查分析】建站20天拿下480万访问量，俄罗斯版的妙鸭相机是怎么做到的？
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_002.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_002.webp)
 
 **正文开始** 话说，下午 MoneyHunter 群主在群里例行分享财富信息，说 BaiRBIE.me 单月访问量480万了，而且是凭空冒出来的。
 
 我查了一下，这个域名居然是7月17日注册的，再查 archive 发现网页是7月22日被收录的，也就是说，建站到今天，也才20天。
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_003.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_003.webp)
 
 从上图可以看出来，实际流量是7月就有 480万，8月还没结束，暂时看不到流量数据，所以实际480万流量是7月31日之前的10天时间就达成的，但是8月数据还没出来，我们就暂时当作总流量480万。
 
@@ -31,17 +31,17 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 先看 Similarweb 上这个站的用户地理位置分布，我们发现几乎都是北半球来的流量，俄罗斯60.65%，哈萨克斯坦7.57%，乌克兰4.55%，波兰4.37%，土耳其3.84%，白俄罗斯3.07%，剩下的流量就很分散了，我们忽略掉。
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_004.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_004.webp)
 
 再看流量来源分布，57.44%是直接访问，21.51%来自于搜索引擎，14.51%来自社交网络，6.24%来自外链，还有 0.28%来自于邮件。几乎没有付费搜索或者展示广告，说明运营团队没有做广告投放。
 
 多说一句，哥飞这里展示的数据来自于 Similarweb Pro ，如果你用的免费版，不是最新数据，可能跟哥飞这里看到的不一样，以哥飞截图为准。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_005.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_005.webp)
 
  再看下访问设备分布，11.38%来自于电脑，88.62%来自于手机或者平板电脑。也就是这个站整体流量主要在手机端传播流动。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_006.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_006.webp)
 
  刚才我们说了，有 21.51%流量来自于搜索引擎，从下图可以看到，大部分都是品牌词，也就是说，用户在别的地方知道这个产品名字之后，再来搜索引擎里搜索的，而不是这个网站抓住了什么热门搜索关键字。
 
@@ -49,7 +49,7 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 而下面的搜索词，基本都是 bairbie ，只有第一个是 barbie 但是搜索词后面有个 me ，所以可以认为用户就是在搜索这个网站的品牌词，而不是在搜索电影。
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_007.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_007.webp)
 
 所以，虽然有 21.51%流量来自于搜索引擎，但并不是流量的初始来源，我们还得继续找。
 
@@ -57,7 +57,7 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 先看外链，6.24%的流量来自于外链，也就是大约30万左右，我们只看前12个，因为后面的都流量太小了。
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_008.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_008.webp)
 
 哥飞做了个表格，加上了网站介绍：
 
@@ -79,47 +79,47 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 如第一个lifehacker.ru，我们这样搜索，总共只找到7条结果，其中最早的是7月18日发的，好像找到了最早的网页。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_009.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_009.webp)
 
  但实际仔细看就会发现，我们找的关键字都没有出现在标题里，而是出现在描述里的，所以最有可能的真相是，这些网页里都有个相关文章列表，里边有我们要找的那个文章。
 
 那就继续把时间往后移动，经过多次测试，当选择7月26日到7月28日区间时，终于出现了我们要找的网页。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_010.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_010.webp)
 
  网址是 [https://lifehacker.ru/bairbie-me-servis/](https://lifehacker.ru/bairbie-me-servis/) ，这是 7月27日发的，网页截图如下。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_011.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_011.webp)
 
  注意，这篇文章太长了，不好全部截图，所以只截了上半部分和尾部，因为尾部里有 BaiRBIE.me 的链接。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_012.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_012.webp)
 
  这是 lifehacker.ru 的一个名叫达莉亚·格罗莫娃的编辑发的文章，我们暂时不知道是收费软文，还是仅仅是新闻报道，所以暂时不下结论。
 
 继续按照上面的方法，这次我们限定一下，使用 intitle 语法，限定我们要找的关键字只能出现在标题中，并且拉长时间，会发现，这个网站只有这一篇文章提到了 BaiRBIE。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_013.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_013.webp)
 
  那么继续找第二个来源网站 medialeaks.ru ，这次我们限定时间7月17日到8月11日，同样只找到一篇帖子。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_014.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_014.webp)
 
  链接是 [https://medialeaks.ru/2707tat-str-int-bairbie-me/](https://medialeaks.ru/2707tat-str-int-bairbie-me/) ，发布时间7月27日，截图如下。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_015.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_015.webp)
 
  注意，这里提到了 Twitter ，说明有可能 BaiRBIE 最早是在 Twitter 推广的。
 
 接下来，用同样的方法，去找第3个来源网站 itc.ua 的搜索结果，找到了四条，两条是7月26日发的，两条是8月1日发的。
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_016.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_016.webp)
 
 我们先看7月26日发的，
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_017.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_017.webp)
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_018.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_018.webp)
 注意看这两条，有几个关键点：
 
 1、一个是09:34发布，一个是09:35发布；
@@ -222,11 +222,11 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 3.60%来自于 Instagram。
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_019.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_019.webp)
 
  我们先看 VK ，先在谷歌搜索，找到了915条，通过限定时间，找到了几条，但是依然还是我们刚才前文遇到的问题，实际发布时间不是这个时间。 
 
-![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_020.png)
+![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_020.webp)
 
  以上面显示7月18日发布的 [https://vk.com/loveofmom](https://vk.com/loveofmom) 为例，实际我们打开他的个人页面可以就能看到，[https://vk.com/wall-83478798\_15142](https://vk.com/wall-83478798_15142) 是在7月28日发布的。
 

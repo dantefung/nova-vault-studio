@@ -112,7 +112,7 @@ Robots meta 标签是一段 HTML 代码片段，用于告诉搜索引擎如何�
 
 查看 Google 如何索引某个页面最简单的方法，是使用 Google Search Console 中的[URL 检查工具](https://search.google.com/search-console?action=inspect)。它会显示 Google 选择的规范 URL。
 
-![Image 1: 在 Google Search Console 中检查某个 URL 的索引情况](images/screenshot-google-page-indexing-66NOZHVE.png)
+![Image 1: 在 Google Search Console 中检查某个 URL 的索引情况](images/screenshot-google-page-indexing-66NOZHVE.webp)
 
 * * *
 
@@ -128,7 +128,7 @@ Robots meta 标签是一段 HTML 代码片段，用于告诉搜索引擎如何�
 
 您可查看**可索引性**报告在 [Site Audit](https://ahrefs.com/zh/site-audit) 中，找到无法被索引的页面及其原因。该功能可在[Ahrefs 免费版](https://ahrefs.com/zh/free)中使用。
 
-![Image 2: 在 Ahrefs Site Audit 中查找被标记为 noindex 的页面](images/screenshot-indexability-S33FBZ2C.png)
+![Image 2: 在 Ahrefs Site Audit 中查找被标记为 noindex 的页面](images/screenshot-indexability-S33FBZ2C.webp)
 
 运行免费的技术性 SEO 审核
 
@@ -146,7 +146,7 @@ Robots meta 标签是一段 HTML 代码片段，用于告诉搜索引擎如何�
 
 以下是 1800flowers.com 的示例：
 
-![Image 3: 在 Ahrefs 的 Site Explorer 中查找带反向链接的 404 页面](images/screenshot-se-404-4YSPUYBU.png)
+![Image 3: 在 Ahrefs 的 Site Explorer 中查找带反向链接的 404 页面](images/screenshot-se-404-4YSPUYBU.webp)
 
 查看 archive.org 中的第一个 URL，我发现它以前是母亲节的页面。通过将这个旧页面重定向到当前版本，你可以找回来自 59 个不同网站的 225 条链接，其他页面也有很多类似的情况。
 
@@ -166,7 +166,7 @@ Robots meta 标签是一段 HTML 代码片段，用于告诉搜索引擎如何�
 
 例如，该工具显示我们的重复内容指南中提到了“分面导航”。由于 Site Audit 知道我们有一个关于分面导航的页面，它就会建议我们在此处添加一条指向该页面的内链。
 
-![Image 4: 在 Ahrefs 的 Site Audit 中寻找内链机会](images/screenshot-internal-link-opportunities-S5BCTJG3.png)
+![Image 4: 在 Ahrefs 的 Site Audit 中寻找内链机会](images/screenshot-internal-link-opportunities-S5BCTJG3.webp)
 
 ### 添加 Schema 标记
 
@@ -192,7 +192,7 @@ AI 改变了内容被发现与展示的方式，但它仍然依赖可抓取、�
 
 例如，Cloudflare 推出了新功能，允许网站主控制 AI 平台是否可以抓取内容用于训练数据集。
 
-![Image 5: Cloudflare 设置界面，用于控制 AI 爬虫对你网站的访问权限](images/screenshot-control-ai-crawlers-I7W2REYT.png)
+![Image 5: Cloudflare 设置界面，用于控制 AI 爬虫对你网站的访问权限](images/screenshot-control-ai-crawlers-I7W2REYT.webp)
 
 默认设置会阻止 AI 爬虫访问内容。不过，如果你希望最大化内容在 AI 搜索结果中的可见度，就需要把它关闭。
 
@@ -200,7 +200,7 @@ AI 改变了内容被发现与展示的方式，但它仍然依赖可抓取、�
 
 AI 搜索系统可能会引用你域名下并不存在的 URL。你可以在 Ahrefs 的 Web Analytics 中，通过查看获得 AI 搜索流量的页面来发现这些情况：
 
-![Image 6: 在 Ahrefs Web Analytics 中查找幻觉 URL](images/screenshot-traffic-source-VB3F74O5.png)
+![Image 6: 在 Ahrefs Web Analytics 中查找幻觉 URL](images/screenshot-traffic-source-VB3F74O5.webp)
 
 如果这些页面中有任何一个返回 404 错误，说明 AI 系统可能“凭空捏造”了该 URL。为了避免流量损失，你可以将该 URL 重定向到一个相关的有效页面。
 
@@ -210,15 +210,15 @@ AI 搜索系统可能会引用你域名下并不存在的 URL。你可以在 Ahr
 
 虽然使用 AI 为你的网站创建内容没问题，但过多的 AI 内容可能会被[视为垃圾信号](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content)，从而限制你的内容在传统搜索和 AI 搜索系统中的可见性。
 
-![Image 7: Google 关于 AI 内容是否违反搜索指南的 FAQ](images/screenshot-faq-R5BUE7TA.png)
+![Image 7: Google 关于 AI 内容是否违反搜索指南的 FAQ](images/screenshot-faq-R5BUE7TA.webp)
 
 你可以在 **Site Explorer**>**Page Inspect** 中使用 Ahrefs 的 AI 检测器，查看机器如何解读你的内容中使用 AI 的程度。
 
-![Image 8: 在 Site Explorer 的 Page Inspect 中使用 Ahrefs 的 AI 检测器](images/screenshot-page-inspect-46LZF65T.png)
+![Image 8: 在 Site Explorer 的 Page Inspect 中使用 Ahrefs 的 AI 检测器](images/screenshot-page-inspect-46LZF65T.webp)
 
 你也可以在**热门页面**报告中批量检查，找出那些可能需要重写的现有页面：
 
-![Image 9: 在 Ahrefs 的热门页面报告中批量检查 AI 内容水平](images/screenshot-ai-content-level-HPZCEEH4.png)
+![Image 9: 在 Ahrefs 的热门页面报告中批量检查 AI 内容水平](images/screenshot-ai-content-level-HPZCEEH4.webp)
 
 ### AI 工具注入的代码
 
@@ -226,7 +226,7 @@ AI 搜索系统可能会引用你域名下并不存在的 URL。你可以在 Ahr
 
 曾有这样一个案例：Yoast SEO 的一个漏洞往页面中插入了隐藏的 AI 相关类名，让搜索引擎一眼就能看出 AI 参与其中。
 
-![Image 10: Yoast SEO 的一个漏洞注入的 AI 相关代码示例](images/screenshot-yoast-L252WKKB.png)
+![Image 10: Yoast SEO 的一个漏洞注入的 AI 相关代码示例](images/screenshot-yoast-L252WKKB.webp)
 
 如果你使用 AI 工具进行页面改动，请检查网站的源代码，确保没有添加任何意外的内容。通过定期代码审查和发布更新前的测试，可以避免产生这种隐藏的“指纹”。
 
@@ -244,7 +244,7 @@ AI 搜索系统可能会引用你域名下并不存在的 URL。你可以在 Ahr
 
 Google 搜索中的页面体验信号
 
-![Image 11: Google 搜索中的页面体验信号](images/image-googles-search-signals-OZDLCR3M.png)
+![Image 11: Google 搜索中的页面体验信号](images/image-googles-search-signals-OZDLCR3M.webp)
 https://ahrefs.com/blog/core-web-vitals/
 
 #### Core Web Vitals
@@ -255,11 +255,11 @@ https://ahrefs.com/blog/core-web-vitals/
 
 任何在地址栏中显示“锁”形图标的网站都使用 HTTPS 协议。
 
-![Image 12: 浏览器地址栏显示了 ahrefs.com 的锁形图标，表示网站采用安全的 HTTPS 连接](images/image-lock-browser-DR3XOLBW.png)
+![Image 12: 浏览器地址栏显示了 ahrefs.com 的锁形图标，表示网站采用安全的 HTTPS 连接](images/image-lock-browser-DR3XOLBW.webp)
 
 #### 移动端友好性
 
-![Image 13: Google Search Console 中的移动设备易用性报告，显示了可点击元素距离过近、文字太小无法阅读等问题](images/screenshot-google-mobile-MFULULPZ.png)
+![Image 13: Google Search Console 中的移动设备易用性报告，显示了可点击元素距离过近、文字太小无法阅读等问题](images/screenshot-google-mobile-MFULULPZ.webp)
 
 这份报告会告诉你，你的页面是否存在移动设备友好性问题。
 
@@ -273,7 +273,7 @@ https://ahrefs.com/blog/core-web-vitals/
 
 Ahrefs 现在通过 **Site Audit** 中的可视化 hreflang 链接图简化了 hreflang 的部署。
 
-![Image 14: Ahrefs Site Audit 中的 hreflang 可视化链接图，显示了页面不同语言版本之间的关联情况](images/screenshot-hreflangs-MKCL3HSY.png)
+![Image 14: Ahrefs Site Audit 中的 hreflang 可视化链接图，显示了页面不同语言版本之间的关联情况](images/screenshot-hreflangs-MKCL3HSY.webp)
 
 这张 hreflang 图表展示了页面的所有语言版本，并突出了配置问题。此外，它还会标记无效的语言代码、缺少自我引用链接、缺少双向标签等错误，并给出清晰的修复指引。
 
@@ -287,11 +287,11 @@ Ahrefs 现在通过 **Site Audit** 中的可视化 hreflang 链接图简化了 h
 
 您可以通过[Site Audit](https://ahrefs.com/zh/site-audit)中的**链接**报告快速查找网站上的失效链接，该功能可在[Ahrefs 免费版](https://ahrefs.com/zh/free)中使用。
 
-![Image 15: Ahrefs Site Audit 中的链接报告，显示了内部链接、失效内部链接、外部链接以及失效外部链接的数量](images/screenshot-broken-links-VV7N5FZS.png)
+![Image 15: Ahrefs Site Audit 中的链接报告，显示了内部链接、失效内部链接、外部链接以及失效外部链接的数量](images/screenshot-broken-links-VV7N5FZS.webp)
 
 #### 重定向链
 
-![Image 16: Ahrefs Site Audit 中的重定向报告，展示了内部 URL 重定向、重定向链和重定向循环](images/screenshot-redirects-DHRIG5TU.png)
+![Image 16: Ahrefs Site Audit 中的重定向报告，展示了内部 URL 重定向、重定向链和重定向循环](images/screenshot-redirects-DHRIG5TU.webp)
 
 * * *
 
@@ -303,7 +303,7 @@ Ahrefs 现在通过 **Site Audit** 中的可视化 hreflang 链接图简化了 h
 
 ### [谷歌搜索控制台](https://search.google.com/search-console/about)
 
-![Image 17: Google Search Console 概览面板，展示了总点击量随时间变化的表现图表](images/screenshot-google-search-console-BIV6QU2V.png)
+![Image 17: Google Search Console 概览面板，展示了总点击量随时间变化的表现图表](images/screenshot-google-search-console-BIV6QU2V.webp)
 
 Google Search Console（以前叫 Google Webmaster Tools）是 Google 提供的一项免费服务，可帮助你监控网站在搜索结果中的表现并对其进行故障排除。
 
@@ -327,7 +327,7 @@ Google Search Console（以前叫 Google Webmaster Tools）是 Google 提供的�
 
 ### [Google 移动友好测试](https://search.google.com/test/mobile-friendly)
 
-![Image 18: Google 移动友好测试结果，显示页面在移动设备上可以正常使用](images/screenshot-mobile-friendly-test-OWEQRAKG.png)
+![Image 18: Google 移动友好测试结果，显示页面在移动设备上可以正常使用](images/screenshot-mobile-friendly-test-OWEQRAKG.webp)
 
 Google 的移动友好测试会检查访客在移动设备上使用你页面的便捷程度。它还能识别特定的移动可用性问题，例如文字太小难以阅读、使用了不兼容的插件等。
 
@@ -335,7 +335,7 @@ Google 的移动友好测试会检查访客在移动设备上使用你页面的�
 
 ### [Chrome 开发者工具](https://developers.google.com/web/tools/chrome-devtools/)
 
-![Image 19: Chrome 开发者工具的 Elements 面板正在检查网页上的 H1 标签](images/screenshot-chrome-devtools-G4VL3YEX.png)
+![Image 19: Chrome 开发者工具的 Elements 面板正在检查网页上的 H1 标签](images/screenshot-chrome-devtools-G4VL3YEX.webp)
 
 Chrome 开发者工具是 Chrome 内置的网页调试工具。你可以用它来调试页面速度问题、提升网页渲染性能等。
 
@@ -343,7 +343,7 @@ Chrome 开发者工具是 Chrome 内置的网页调试工具。你可以用它�
 
 ### [Ahrefs SEO Toolbar](https://ahrefs.com/zh/seo-toolbar)
 
-![Image 20: Ahrefs SEO Toolbar 浏览器扩展，展示了域名和页面指标，包括域名评分、反向链接、关键词以及 Core Web Vitals](images/screenshot-toolbar-ZALNS5ZO.png)
+![Image 20: Ahrefs SEO Toolbar 浏览器扩展，展示了域名和页面指标，包括域名评分、反向链接、关键词以及 Core Web Vitals](images/screenshot-toolbar-ZALNS5ZO.webp)
 
 Ahrefs SEO Toolbar 是一款适用于 [Chrome](https://chrome.google.com/webstore/detail/ahrefs-seo-toolbar/hgmoccdbjhknikckedaaebbpdeebhiei) 和 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ahrefs-seo-toolbar/) 的免费扩展，可为你访问的页面和网站提供有用的 SEO 数据。
 
@@ -369,6 +369,6 @@ Ahrefs SEO Toolbar 是一款适用于 [Chrome](https://chrome.google.com/webstor
 
 ### [PageSpeed Insights](https://ahrefs.com/zh/blog/pagespeed-insights/)
 
-![Image 21: Google PageSpeed Insights 显示桌面端网页的性能评分为 81](images/screenshot-pagespeed-insights-2VXDV6U7.png)
+![Image 21: Google PageSpeed Insights 显示桌面端网页的性能评分为 81](images/screenshot-pagespeed-insights-2VXDV6U7.webp)
 
 PageSpeed Insights 会分析网页的加载速度。除了性能评分之外，它还会给出可执行的建议，帮助页面更快加载。

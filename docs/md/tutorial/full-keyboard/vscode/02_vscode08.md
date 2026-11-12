@@ -1,5 +1,5 @@
 ---
-title: "vscode 8"
+title: "第 08 课 · 重构相关功能"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

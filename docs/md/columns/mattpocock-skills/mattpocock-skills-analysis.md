@@ -121,3 +121,7 @@ Matt Pocock 不是在写 prompt。
   - Hunt & Thomas《The Pragmatic Programmer》
   - Eric Evans《Domain-Driven Design》
   - John Ousterhout《A Philosophy of Software Design》
+
+---
+
+**相关阅读**：[从需求到上线，27 个 skills 每站给 AI 编码钉一道闸](./27-skills-exit-conditions-workflow.md)（流程架构全景：主线 + 三汇入口 + 需求线八活动，每站钉死一个退出条件）

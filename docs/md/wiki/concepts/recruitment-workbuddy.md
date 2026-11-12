@@ -1,5 +1,5 @@
 ---
-title: "recruitment-workbuddy"
+title: "WorkBuddy 招聘自动化"
 date: "2026-07-14"
 source: "整理自 sources/recruit-workbuddy.md"
 url: "https://mp.weixin.qq.com/s/9iCOjCrczbyGp3n7Mu0GXw"

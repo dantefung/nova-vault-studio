@@ -1,5 +1,5 @@
 ---
-title: "Flipbook Canvas"
+title: "Flipbook Canvas 知识树"
 date: "2026-06-13"
 source: "Flipbook Canvas — 点击式探索的 AI 生成知识树"
 url: "https://github.com/imcuttle/flipbook-app"

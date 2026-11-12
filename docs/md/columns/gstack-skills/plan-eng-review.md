@@ -1,5 +1,5 @@
 ---
-title: "plan-eng-review"
+title: "plan-eng-review 工程经理审稿"
 date: "2026-06-04"
 source: "gstack"
 url: "https://github.com/garrytan/gstack"

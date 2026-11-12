@@ -1,5 +1,5 @@
 ---
-title: "AgentHub"
+title: "AgentHub 研发团队"
 source: "GitHub"
 url: "https://github.com/Stanshy/AgentHub"
 date: "2026-05-29"

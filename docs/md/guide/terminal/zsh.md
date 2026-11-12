@@ -1,3 +1,7 @@
+---
+title: "Zsh 命令行"
+---
+
 # zsh
 
 ## zsh vi 模式

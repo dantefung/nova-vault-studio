@@ -25,9 +25,9 @@ url: "https://new.web.cafe/tutorial/detail/aucjab67rxKvyoJudKV4oM"
 今天我们紧接着第 3 步，在 GPT4 生成的网页上进行一些手动调整，让布局和样式更好看一点。
 
 昨天的网页长这样：
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_002.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_002.webp)
 调整后的网页长下面这样：
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_003.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_003.webp)
 这里为了截图方便，正文国家列表只保留了三个，其它都暂时隐藏了 我们来一一看一下，改了哪些地方。
 
 1、Logo
@@ -37,9 +37,9 @@ url: "https://new.web.cafe/tutorial/detail/aucjab67rxKvyoJudKV4oM"
 | 调整前 | 调整后 |
 | --- | --- |
 |
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_004.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_004.webp)
 |
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_005.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_005.webp)
 |
 
 这里哥飞没有去设计图片 Logo，直接用黑色背景加白色文字加圆角形式实现的文字 Logo。 大多数时候我们快速上线一个网站时，都可以用这种方式做文字 Logo。
@@ -69,10 +69,10 @@ url: "https://new.web.cafe/tutorial/detail/aucjab67rxKvyoJudKV4oM"
 | 导航栏前后对比 |
 | --- |
 |
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_006.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_006.webp)
 |
 |
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_007.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_007.webp)
 |
 |  |
 
@@ -95,10 +95,10 @@ html 代码如下：
 | 前后页头对比 |
 | --- |
 |
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_008.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_008.webp)
 |
 |
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_009.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_009.webp)
 |
 |  |
 
@@ -121,9 +121,9 @@ html 代码如下：
 | 修改前 | 修改后 |
 | --- | --- |
 |
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_010.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_010.webp)
 |
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_011.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_011.webp)
 |
 |  |  |
 
@@ -146,7 +146,7 @@ html 代码保持不变：
 `<footer>     Copyright 2023 &copy; <a href="./" style="color:#333;">Phone Number Generator</a>. All rights reserved. </footer>`
 
 显示出来的效果如下：
-![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_012.png)
+![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_012.webp)
 
 好了，首页的改动我们就说完了。
 
@@ -255,7 +255,7 @@ html 代码保持不变：
 
     打卡
 
-![](images/gefei-age-proof-site-step-4-adjust-layout/img_016.jpg)
+![](images/gefei-age-proof-site-step-4-adjust-layout/img_016.webp)
 
 添加图片添加隐藏回复
 

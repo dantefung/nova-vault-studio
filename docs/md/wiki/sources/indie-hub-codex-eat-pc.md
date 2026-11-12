@@ -43,26 +43,26 @@ Codex 已经显出了 AgentOS 的雏形：
 
 ## 配图
 
-![image](../images/indie-hub-codex-eat-pc/001.jpeg)
+![image](../images/indie-hub-codex-eat-pc/001.webp)
 
 *工作入口变了：以前先打开软件，现在先交代任务*
 
-![image](../images/indie-hub-codex-eat-pc/002.jpeg)
+![image](../images/indie-hub-codex-eat-pc/002.webp)
 
 *Atlas 死了，却活在 Codex 里*
 
-![image](../images/indie-hub-codex-eat-pc/003.jpeg)
+![image](../images/indie-hub-codex-eat-pc/003.webp)
 
 *HTML 阅读越厚——阅读起点从「打开资料」变成「审核结果」*
 
-![image](../images/indie-hub-codex-eat-pc/004.jpeg)
+![image](../images/indie-hub-codex-eat-pc/004.webp)
 
 *四个标签页，Codex 一次读完*
 
-![image](../images/indie-hub-codex-eat-pc/005.jpeg)
+![image](../images/indie-hub-codex-eat-pc/005.webp)
 
 *连刷 X 都开始轮不到我了*
 
-![image](../images/indie-hub-codex-eat-pc/006.jpeg)
+![image](../images/indie-hub-codex-eat-pc/006.webp)
 
 *Agent App = Agent + 工具 + Skills + 上下文*

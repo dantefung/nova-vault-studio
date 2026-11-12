@@ -22,7 +22,7 @@ url: "https://new.web.cafe/tutorial/detail/qQpapieeJpFC8hdmmSta2F"
 **七、canonical 标签**
 如果大家经常使用 Detailed SEO Extension 就会发现，会检测这个标签。
 
-![image.png](images/essential-seo-meta-tags-part3/img_002.png)
+![image.png](images/essential-seo-meta-tags-part3/img_002.webp)
 
  插件地址： [https://detailed.com/extension/](https://detailed.com/extension/) 类似且更好用插件 [https://aitdk.com/zh-CN/extension/](https://aitdk.com/zh-CN/extension/)
 
@@ -59,11 +59,11 @@ url: "https://new.web.cafe/tutorial/detail/qQpapieeJpFC8hdmmSta2F"
 
 [https://www.google.com/webmasters/markup-helper/?hl=zh](https://www.google.com/webmasters/markup-helper/?hl=zh) 
 
-![image.png](images/essential-seo-meta-tags-part3/img_003.png)
+![image.png](images/essential-seo-meta-tags-part3/img_003.webp)
 
  使用步骤很简单，输入要标记的网址，选择标记的数据类型，点击网页选择内容然后标记数据。 
 
-![image.png](images/essential-seo-meta-tags-part3/img_004.png)
+![image.png](images/essential-seo-meta-tags-part3/img_004.webp)
 
  最后生成的 JSON-LD 数据代码如下，把这些代码添加到网页html 的 head 中即可：
 
@@ -84,11 +84,11 @@ Open Graph 最初是 Facebook 提出来的，并且在 FB 里进行了支持，�
 
 在 Detailed SEO Extension 可以检查是否配置正确： 
 
-![image.png](images/essential-seo-meta-tags-part3/img_005.png)
+![image.png](images/essential-seo-meta-tags-part3/img_005.webp)
 
  如果我在 Facebook 发帖时粘贴了 Hix.ai 的网址，就会显示如下效果： 
 
-![image.png](images/essential-seo-meta-tags-part3/img_006.png)
+![image.png](images/essential-seo-meta-tags-part3/img_006.webp)
 
  Twitter cards 有些不太一样，具体看下面文档： [https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
 
@@ -97,13 +97,13 @@ Viewport 元标签通常用来配置我们的网页在不同大小屏幕下的�
 
 在《[【哥飞解读】2024年谷歌算法排名因素变化](https://mp.weixin.qq.com/s/Jru9k4oGAyiZK1VYFFZRQQ)》文章里我们说了，移动端友好占谷歌排名因素的5%权重，所以适配手机和平板电脑对于 SEO也很重要。
 
-![image.png](images/essential-seo-meta-tags-part3/img_007.png)
+![image.png](images/essential-seo-meta-tags-part3/img_007.webp)
 通常代码如下：
 
 `<meta name=「viewport」 content=「width=device-width, initial-scale=1」/>`
 
 “width=device-width”将使页面与设备独立像素的屏幕宽度匹配，“initial scale=1”将建立CSS像素和设备独立像素之间的1:1关系，考虑屏幕方向。
-![image.png](images/essential-seo-meta-tags-part3/img_008.png)
+![image.png](images/essential-seo-meta-tags-part3/img_008.webp)
 
 上面可以看到对比效果，左边是不设置 Viewport ，右边是设置，明显右边可以更好的适配手机端的显示效果。
 

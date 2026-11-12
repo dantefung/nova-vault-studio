@@ -1,254 +1,141 @@
 <script setup>
-import { ref, computed } from 'vue'
 import { useTheme } from '../composables/useTheme.js'
 
-const { currentTheme, setTheme, THEMES } = useTheme()
+const { currentTheme, currentLandingTheme, setTheme, THEMES } = useTheme()
 
-const isOpen = ref(false)
+const swatches = [
+  { key: 'light', color: '#f7f4ed', label: '晴空' },
+  { key: 'dark', color: '#24211f', label: '暗夜' },
+  { key: 'sepia', color: '#c2a375', label: '纸卷' },
+]
 
-// 主题配置：名称、图标（三个小圆点）、色块预览
-const themeConfig = {
-  light: {
-    name: '晴空',
-    desc: '明亮阅读',
-    dotColors: ['#5672cd', '#c2c2c4', '#c2c2c4'],
-    accentColor: '#5672cd'
-  },
-  dark: {
-    name: '暗夜',
-    desc: '深色沉浸',
-    dotColors: ['#3e63dd', '#3e63dd', '#c2c2c4'],
-    accentColor: '#3e63dd'
-  },
-  sepia: {
-    name: '纸卷',
-    desc: '护眼阅读',
-    dotColors: ['#2d6a4f', '#c2c2c4', '#c2c2c4'],
-    accentColor: '#2d6a4f'
-  }
+function pick(key) {
+  setTheme(key)
 }
-
-function selectTheme(name) {
-  setTheme(name)
-  isOpen.value = false
-}
-
-function toggleDropdown() {
-  isOpen.value = !isOpen.value
-}
-
-// 点击外部关闭
-function handleClickOutside(e) {
-  if (!e.target.closest('.theme-switcher')) {
-    isOpen.value = false
-  }
-}
-
-import { onMounted, onUnmounted } from 'vue'
-onMounted(() => {
-  document.addEventListener('click', handleClickOutside)
-})
-onUnmounted(() => {
-  document.removeEventListener('click', handleClickOutside)
-})
 </script>
 
 <template>
-  <div class="theme-switcher">
-    <!-- 触发按钮 -->
+  <div
+    class="theme-switcher"
+    :class="`is-${currentLandingTheme}`"
+    role="group"
+    aria-label="页面色调"
+    :title="`当前主题：${THEMES.find(t => t === currentTheme) || ''}`"
+  >
     <button
-      class="theme-switcher-btn"
-      :title="`当前主题: ${themeConfig[currentTheme].name}，点击切换`"
-      @click.stop="toggleDropdown"
+      v-for="s in swatches"
+      :key="s.key"
+      type="button"
+      class="theme-swatch"
+      :class="{ 'is-active': currentTheme === s.key }"
+      :style="{ '--swatch-color': s.color }"
+      :aria-label="s.label"
+      :title="s.label"
+      @click="pick(s.key)"
     >
-      <!-- 三个小圆点指示器 -->
-      <span class="theme-dots">
-        <span
-          v-for="(color, i) in themeConfig[currentTheme].dotColors"
-          :key="i"
-          class="theme-dot"
-          :style="{ background: color }"
-        ></span>
-      </span>
-      <span class="theme-arrow" :class="{ open: isOpen }">
-        <svg width="10" height="6" viewBox="0 0 10 6" fill="none">
-          <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </span>
+      <svg v-if="currentLandingTheme === 'quiet' && s.key === 'light'" viewBox="0 0 20 20" aria-hidden="true">
+        <circle cx="10" cy="10" r="3"></circle>
+        <path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2M4.7 4.7l1.4 1.4M13.9 13.9l1.4 1.4M15.3 4.7l-1.4 1.4M6.1 13.9l-1.4 1.4"></path>
+      </svg>
+      <svg v-else-if="currentLandingTheme === 'quiet' && s.key === 'dark'" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M16.3 12.7A7 7 0 0 1 7.3 3.7a6.4 6.4 0 1 0 9 9Z"></path>
+      </svg>
+      <svg v-else-if="currentLandingTheme === 'quiet'" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M5 3.5h8a2 2 0 0 1 2 2v11H7a2 2 0 0 1-2-2v-11Z"></path>
+        <path d="M7 3.5v13M9.5 7h3"></path>
+      </svg>
+      <span v-else class="theme-swatch-dot" aria-hidden="true"></span>
     </button>
-
-    <!-- 下拉菜单 -->
-    <Transition name="dropdown">
-      <div v-if="isOpen" class="theme-dropdown">
-        <div class="theme-dropdown-header">选择主题</div>
-        <button
-          v-for="theme in THEMES"
-          :key="theme"
-          class="theme-option"
-          :class="{ active: currentTheme === theme }"
-          @click="selectTheme(theme)"
-        >
-          <!-- 色块预览 -->
-          <span
-            class="theme-color-block"
-            :style="{ background: themeConfig[theme].accentColor }"
-          ></span>
-          <!-- 名称 + 描述 -->
-          <span class="theme-option-text">
-            <span class="theme-option-name">{{ themeConfig[theme].name }}</span>
-            <span class="theme-option-desc">{{ themeConfig[theme].desc }}</span>
-          </span>
-          <!-- 选中标记 -->
-          <span v-if="currentTheme === theme" class="theme-check">
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M2 7L5.5 10.5L12 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </button>
-      </div>
-    </Transition>
   </div>
 </template>
 
 <style scoped>
 .theme-switcher {
-  position: relative;
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  max-width: 100%;
-}
-
-.theme-switcher-btn {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 10px;
+  gap: 2px;
+  height: 32px;
+  margin-left: 8px;
+  padding: 0 5px;
   border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: var(--vp-c-bg-soft);
-  cursor: pointer;
-  transition: all 0.2s ease;
-  color: var(--vp-c-text-2);
+  border-radius: 7px;
+  background: var(--vp-c-bg);
 }
 
-.theme-switcher-btn:hover {
-  background: var(--vp-c-bg-alt);
-  color: var(--vp-c-text-1);
-  border-color: var(--vp-c-border);
-}
-
-.theme-dots {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-}
-
-.theme-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  display: block;
-}
-
-.theme-arrow {
-  display: flex;
-  align-items: center;
-  transition: transform 0.2s ease;
-  color: var(--vp-c-text-3);
-}
-
-.theme-arrow.open {
-  transform: rotate(180deg);
-}
-
-.theme-dropdown {
-  position: absolute;
-  top: calc(100% + 8px);
-  right: 0;
-  width: max-content;
-  min-width: min(200px, calc(100vw - 32px));
-  max-width: calc(100vw - 32px);
-  background: var(--vp-c-bg-elv);
-  border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
-  box-shadow: var(--vp-shadow-3);
-  padding: 8px;
-  z-index: 100;
-}
-
-.theme-dropdown-header {
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--vp-c-text-3);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 4px 10px 8px;
-}
-
-.theme-option {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
+.theme-swatch {
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  border-radius: 5px;
+  padding: 0;
   background: transparent;
+  color: var(--vp-c-text-2);
   cursor: pointer;
-  text-align: left;
-  transition: background 0.15s ease;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.theme-swatch svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-swatch:hover {
   color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
 }
 
-.theme-option:hover {
-  background: var(--vp-c-bg-alt);
-}
-
-.theme-option.active {
+.theme-swatch.is-active {
+  color: var(--vp-c-brand-1);
   background: var(--vp-c-brand-soft);
 }
 
-.theme-color-block {
-  width: 28px;
-  height: 28px;
-  border-radius: 6px;
-  flex-shrink: 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+.theme-switcher.is-easton {
+  gap: 8px;
+  margin-left: 13px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
-.theme-option-text {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  flex: 1;
+.is-easton .theme-swatch {
+  width: 14px;
+  height: 24px;
+  border-radius: 0;
+  background: transparent;
 }
 
-.theme-option-name {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--vp-c-text-1);
+.is-easton .theme-swatch:hover {
+  background: transparent;
 }
 
-.theme-option-desc {
-  font-size: 12px;
-  color: var(--vp-c-text-3);
+.theme-swatch-dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid color-mix(in srgb, var(--easton-doc-ink, #000) 18%, transparent);
+  border-radius: 50%;
+  background: var(--swatch-color);
+  transition: width 160ms ease, height 160ms ease, outline-color 160ms ease;
 }
 
-.theme-check {
-  color: var(--vp-c-brand-1);
-  display: flex;
-  align-items: center;
+.is-easton .theme-swatch.is-active .theme-swatch-dot {
+  width: 12px;
+  height: 12px;
+  outline: 1px solid var(--easton-doc-accent, var(--vp-c-brand-1));
+  outline-offset: 2px;
 }
 
-/* 下拉动画 */
-.dropdown-enter-active,
-.dropdown-leave-active {
-  transition: opacity 0.15s ease, transform 0.15s ease;
-}
-
-.dropdown-enter-from,
-.dropdown-leave-to {
-  opacity: 0;
-  transform: translateY(-6px);
+@media (max-width: 768px) {
+  .theme-switcher {
+    display: none;
+  }
 }
 </style>

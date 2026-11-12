@@ -1,3 +1,7 @@
+---
+title: "第 2 章 · 命令路由"
+---
+
 Title: 命令路由 (commands.ts) | Claude Code 深度技术文档
 
 URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/command-system.html

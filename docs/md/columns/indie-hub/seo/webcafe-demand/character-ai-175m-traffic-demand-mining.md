@@ -10,11 +10,11 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 话说今天哥飞去看了 Character.ai 的流量，吓一跳，都这么高了，每月 1.75 亿访问量了。
 
-![](images/character-ai-175m-traffic-demand-mining/img_002.png)
+![](images/character-ai-175m-traffic-demand-mining/img_002.webp)
 
 如果看流量曲线会发现，这还是因为最近几个月流量下降了一些，之前月访问量超过了 2 亿。
 
-![](images/character-ai-175m-traffic-demand-mining/img_003.png)
+![](images/character-ai-175m-traffic-demand-mining/img_003.webp)
 
 那么大家肯定会好奇，这么多访问量，都在访问哪些页面呢？都是什么需求呢？
 
@@ -24,7 +24,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 可以看到前几个大流量页面的关键词都是品牌词，但是第 6、第 9 等页面就不是品牌词了。
 
-![](images/character-ai-175m-traffic-demand-mining/img_004.png)
+![](images/character-ai-175m-traffic-demand-mining/img_004.webp)
 
 其中第 6 解决的是 AI 虚拟女友需求，第 9 解决的是角色扮演 AI 需求。
 
@@ -32,23 +32,23 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 哥飞今天带着大家看新页面，鼠标放到"新页面"会有提示，说这些页面是从上个月开始有流量的页面。
 
-![](images/character-ai-175m-traffic-demand-mining/img_005.png)
+![](images/character-ai-175m-traffic-demand-mining/img_005.webp)
 
 这种页面才是哥飞希望大家关注的页面，因为新页面意味着新需求，新需求意味着竞争没有那么激烈，大家把这些需求单独做成一个网站，就更容易搞到流量。
 
 我们勾选新页面，结果如下。
 
-![](images/character-ai-175m-traffic-demand-mining/img_006.png)
+![](images/character-ai-175m-traffic-demand-mining/img_006.webp)
 
 我们会发现获取这些页面获取流量几乎都只要一两个核心关键词。
 
 我们拿第 3 名关键词"ai hoshino"来分析看看，先看谷歌趋势过去一年的走势图，会发现这个词搜索量并不低，差不多相当于"GPTs"的搜索量了。
 
-![](images/character-ai-175m-traffic-demand-mining/img_007.png)
+![](images/character-ai-175m-traffic-demand-mining/img_007.webp)
 
 再看这个词的优化难度，超级 easy，居然难度只有 2，而所需的外链网站数量只需要 3，也就是说，只要你拿这个关键词注册域名，做个网站专门优化这个关键词，只需要找三五个网站的外链，就能拿到谷歌首页排名结果了。
 
-![](images/character-ai-175m-traffic-demand-mining/img_008.png)
+![](images/character-ai-175m-traffic-demand-mining/img_008.webp)
 
 所以，用哥飞教你这个方法找关键词，是不是 so easy，一天找几十个关键词都不在话下。
 
@@ -79,7 +79,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 - **汉宜** · 2025-09-18 17:40
   > MR.ZY
-  > 好像关键词研究那里没有网站浏览工具这项？![](images/character-ai-175m-traffic-demand-mining/img_017.png)
+  > 好像关键词研究那里没有网站浏览工具这项？![](images/character-ai-175m-traffic-demand-mining/img_017.webp)
 
 - **L.King** · 2025-12-23 11:18
   > MR.ZY

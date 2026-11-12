@@ -1,5 +1,5 @@
 ---
-title: "harness engineering booklet mobile"
+title: "Harness 工程手册（移动版）"
 date: "2026-06-02"
 source: "Harness Engineering"
 url: ""
@@ -7,9 +7,4 @@ url: ""
 
 # harness engineering booklet mobile
 
-<script setup>
-import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('./harness-engineering-booklet-mobile.pdf', import.meta.url).href
-</script>
-
-<PdfViewer :src="pdfUrl" />
+<PdfViewer repo-path="docs/md/books/harness/harness-engineering-booklet-mobile.pdf" />

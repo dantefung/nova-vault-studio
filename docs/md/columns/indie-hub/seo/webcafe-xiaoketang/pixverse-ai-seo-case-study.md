@@ -9,11 +9,11 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 # 【2025.4.29 哥飞小课堂】Pixverse.ai SEO 反面案例拆解 —— 6 大忌讳与新站实操启示
 
-![](images/pixverse-ai-seo-case-study/img_001.jpg)
+![](images/pixverse-ai-seo-case-study/img_001.webp)
 
 我们来看一个案例，这个网站一年访问量 6236 万，从搜索引擎过来的就有 2410 万，占比 38.63%。但是这么多搜索来的流量，94% 都是搜索品牌词过来的。这就说明，这个网站的 SEO 其实做得不好，但是品牌强大，让大家愿意去搜索找到来使用。
 
-![图片](images/pixverse-ai-seo-case-study/img_002.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_002.webp)
 
 换句话说，这个网站要是能够好好做一下 SEO 规划，网站流量有可能能够翻倍。
 
@@ -21,7 +21,7 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 提前说一下，今天的小课堂讲完了，下一次就要到五一节后了，放假期间，哥飞想休息一下，大家可以放假期间继续上站赚钱。
 
-![图片](images/pixverse-ai-seo-case-study/img_003.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_003.webp)
 
 这个网站就是国内创业公司做的 pixverse.ai，1 月访问量 1330 万，2 月 1130 万，3 月 1120 万。流量来源方面，仅看 3 月，42.89% 直接打开，37.27% 自然搜索，16.8% 外链（含付费广告）。
 
@@ -37,7 +37,7 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 这就可以解释，为什么这个网站的主要流量来源关键词，都是品牌词了，因为他压根就没有可以用于获取其他关键词的页面。
 
-![图片](images/pixverse-ai-seo-case-study/img_008.jpg)
+![图片](images/pixverse-ai-seo-case-study/img_008.webp)
 
 所以谷歌也没收录多少页面，只收录了 208 个页面，这估计还是因为这些页面的网址出现在了别的网站上，被谷歌爬到了，于是就收录了。
 

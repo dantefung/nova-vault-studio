@@ -1,5 +1,5 @@
 ---
-title: "Issues"
+title: "问题记录"
 date: "2026-06-26"
 source: "Nova Vault Studio"
 url: ""
@@ -11,5 +11,7 @@ url: ""
 
 | 日期 | 问题 | 状态 |
 |------|------|------|
-| 2026-06-26 | [Vercel 构建 OOM](./vercel-build-oom.md) | fixed |
-| 2026-07-22 | [Web.Cafe 内容采集](./webcafe-scraping-handover.md) | wip |
+| 2026-11-03 | [3500+ 页面级 Vercel 构建 OOM 根治与内存调优](../vercel-build-oom-3500-pages-2026-11-03.md) | fixed |
+| 2026-09-14 | [书籍库线上 404 与 Vercel 部署阻断](./books-route-404.md) | fixed |
+| 2026-06-26 | [Vercel 构建 OOM 演进复盘](./vercel-build-oom.md) | fixed |
+| 2026-07-22 | [Web.Cafe 内容采集](../webcafe-scraping-handover.md) | wip |

@@ -42,18 +42,18 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
 打开谷歌分析网站 [https://analytics.google.com/](https://analytics.google.com/) ，点击左下角的齿轮⚙️图标，打开管理页面，点击“创建媒体资源”按钮。
 
-![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_002.png) 媒体资源名称填写网站名称或者域名都可以，哥飞这里填写域名，点击下一步。
+![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_002.webp) 媒体资源名称填写网站名称或者域名都可以，哥飞这里填写域名，点击下一步。
 
-![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_003.png) 商家描述这里选择合适的网站行业类别，选择业务规模为小型。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_004.png) 业务目标选择为“获取基准报告”，点击“创建”按钮。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_005.png) 选择平台为“网站”。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_006.png) 设置网址的协议，域名，和网站名称，点击“创建数据流”按钮。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_007.png) 等待片刻，弹出来了网站统计代码，复制代码。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_008.png) 打开我们的网站代码，在每一个 html 文件的 `</body>` 之前增加一个 div ，设置 style 为 display:none ，把复制的统计代码放到 div 内。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_009.png) 放在 body 最后，是为了不让统计代码拖慢网站加载，万一统计服务器有问题，统计代码加载不出来无非也就是丢失一点统计数据，但却不会影响网站访问。
+![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_003.webp) 商家描述这里选择合适的网站行业类别，选择业务规模为小型。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_004.webp) 业务目标选择为“获取基准报告”，点击“创建”按钮。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_005.webp) 选择平台为“网站”。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_006.webp) 设置网址的协议，域名，和网站名称，点击“创建数据流”按钮。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_007.webp) 等待片刻，弹出来了网站统计代码，复制代码。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_008.webp) 打开我们的网站代码，在每一个 html 文件的 `</body>` 之前增加一个 div ，设置 style 为 display:none ，把复制的统计代码放到 div 内。 ![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_009.webp) 放在 body 最后，是为了不让统计代码拖慢网站加载，万一统计服务器有问题，统计代码加载不出来无非也就是丢失一点统计数据，但却不会影响网站访问。
 
 记住，每一个 html 文件都需要加上统计代码，如果是后端动态页面，就可以只添加一个，然后在所有 html 文件中引入添加的代码，但我们这里只是手工制作的静态页面，那么就手动添加吧。
 
 添加好之后，就可以把本地改动后的静态网页文件通过 git 提交到最新版本到 Github 。
-![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_010.png)
+![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_010.webp)
 此时如果你打开 Vercel 就会发现，我们提交最新代码到 Github 之后，Vercel 就重新部署了新版网页。
-![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_011.png)
+![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_011.webp)
 此时，我们打开网页，用浏览器查看网页 html 源码，也能够发现，最新改动已经生效了。
-![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_012.png)
+![image.png](images/gefei-age-proof-site-step-8-analytics-search-console/img_012.webp)
 从这里就可以看出来，我们为什么要用 Github 了，因为通过 GitHub 做中转，我们可以做到在我们的电脑上改动网站之后，网站就自动更新了。
 
 也就是说，我们的电脑就可以认为是我们网站的数据源头。我们可以真正可以掌控我们的网站数据，不会像语雀一样，在周一下午崩溃 7 个小时而无法访问。
@@ -130,7 +130,7 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
     选择您的业务目标时 选 了解网站和/或应用流量
 
-![](images/gefei-age-proof-site-step-8-analytics-search-console/img_018.jpg)
+![](images/gefei-age-proof-site-step-8-analytics-search-console/img_018.webp)
 
 添加图片添加隐藏回复
 

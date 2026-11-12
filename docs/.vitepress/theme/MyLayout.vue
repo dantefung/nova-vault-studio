@@ -1,19 +1,45 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Giscus from '@giscus/vue'
 import ThemeSwitcher from './components/ThemeSwitcher.vue'
 import LandingThemeSwitcher from './components/LandingThemeSwitcher.vue'
+import MobileNavSheet from './components/MobileNavSheet.vue'
+import ArticleHero from './components/ArticleHero.vue'
+import ArticleFooterNav from './components/ArticleFooterNav.vue'
 import HomeLayout from './layouts/HomeLayout.vue'
 import BlogLayout from './layouts/BlogLayout.vue'
+import ResourceNavLayout from './layouts/ResourceNavLayout.vue'
+import ClaudeCodeResourceNavLayout from './layouts/ClaudeCodeResourceNavLayout.vue'
 import BlogArticleShell from './layouts/BlogArticleShell.vue'
 import { useTheme } from './composables/useTheme.js'
-import { ref, watch } from 'vue'
+import { useBlogIndex } from './composables/useBlogIndex.js'
 
 const route = useRoute()
 const { Layout: DefaultLayout } = DefaultTheme
 const { currentTheme, currentLandingTheme, getGiscusTheme } = useTheme()
+const { articleByPath } = useBlogIndex()
+const SIDEBAR_STORAGE_KEY = 'easton-article-sidebar-collapsed'
+const isArticleSidebarCollapsed = ref(true)
+
+onMounted(() => {
+  try {
+    const saved = localStorage.getItem(SIDEBAR_STORAGE_KEY)
+    isArticleSidebarCollapsed.value = saved === 'false' ? false : true
+  } catch {
+    isArticleSidebarCollapsed.value = true
+  }
+})
+
+function toggleArticleSidebar() {
+  isArticleSidebarCollapsed.value = !isArticleSidebarCollapsed.value
+  try {
+    localStorage.setItem(SIDEBAR_STORAGE_KEY, String(isArticleSidebarCollapsed.value))
+  } catch {
+    // Current-session state remains usable when storage is unavailable.
+  }
+}
 
 // 判断是否为落地页路由
 const isLanding = computed(() => {
@@ -23,20 +49,25 @@ const isLanding = computed(() => {
 // 博客路由（/md/blog/）
 const isBlog = computed(() => route.path.startsWith('/md/blog/'))
 
-// 文章路由（在已有 wiki / columns / business 内容路径下，且 easton-clone 风格）
-const isArticle = computed(() => {
-  if (currentLandingTheme.value !== 'easton-clone') return false
+// 资源导航（/md/resources/）
+const isResourceNav = computed(() => route.path.startsWith('/md/resources'))
+
+// Claude Code 资源导航（/md/guide/ai/claude-code-resources/）
+const isClaudeCodeResourceNav = computed(() => route.path.startsWith('/md/guide/ai/claude-code-resources'))
+
+// 路由决定稳定 DOM，landing theme 只切换文章增强视觉，避免 hydration 分支不一致。
+const isArticlePath = computed(() => {
   if (isBlog.value || isLanding.value) return false
   return (
     route.path.startsWith('/md/wiki/') ||
     route.path.startsWith('/md/columns/') ||
-    route.path.startsWith('/md/business/')
+    route.path.startsWith('/md/business/') ||
+    Boolean(articleByPath(route.path))
   )
 })
 
-const docLayoutClasses = computed(() => ({
-  'easton-doc-shell': currentLandingTheme.value === 'easton-clone',
-}))
+// 普通文档页（非博客、非落地页、非文章）
+const isDocPage = computed(() => !isLanding.value && !isBlog.value && !isArticlePath.value && route.path.startsWith('/md/'))
 
 // Giscus 状态
 const giscusKey = ref(1)
@@ -55,12 +86,35 @@ watch(currentTheme, (theme) => {
   <!-- 博客页（/md/blog/）：列表 / 系列 / 分类 / 时间归档 -->
   <BlogLayout v-else-if="isBlog" />
 
-  <!-- 文章页（easton-clone 风格）：在 VitePress 默认 layout 外面套 Easton 文章壳 -->
-  <div v-else-if="isArticle" class="doc-layout-shell" :class="docLayoutClasses">
+  <!-- Claude Code 资源导航（/md/claude-code-resources/） -->
+  <ClaudeCodeResourceNavLayout v-else-if="isClaudeCodeResourceNav" />
+
+  <!-- 资源导航（/md/resources/）：卡片网格 + 分类筛选 + 搜索 -->
+  <ResourceNavLayout v-else-if="isResourceNav" />
+
+  <!-- 文章页（easton 风格）：在 VitePress 默认 layout 外面套 Easton 文章壳（Easton 编辑感内页） -->
+  <div
+    v-else-if="isArticlePath"
+    class="doc-layout-shell easton-doc-shell easton-article-shell"
+    :class="{ 'is-sidebar-collapsed': isArticleSidebarCollapsed }"
+  >
     <DefaultLayout>
       <template #nav-bar-content-after>
+        <button
+          type="button"
+          class="easton-sidebar-toggle"
+          :aria-expanded="String(!isArticleSidebarCollapsed)"
+          aria-controls="VPSidebarNav"
+          @click="toggleArticleSidebar"
+        >
+          {{ isArticleSidebarCollapsed ? '显示目录' : '隐藏目录' }}
+        </button>
         <LandingThemeSwitcher />
         <ThemeSwitcher />
+        <MobileNavSheet />
+      </template>
+      <template #doc-top>
+        <ArticleHero />
       </template>
       <template #doc-after>
         <BlogArticleShell />
@@ -84,14 +138,19 @@ watch(currentTheme, (theme) => {
     </DefaultLayout>
   </div>
 
-  <!-- 文档页：默认 VitePress layout + Giscus + ThemeSwitcher -->
-  <div v-else class="doc-layout-shell" :class="docLayoutClasses">
+  <!-- 普通文档页：默认 VitePress layout + Giscus + ThemeSwitcher（仅 easton 主题下注入 ArticleHero/FooterNav） -->
+  <div v-else-if="isDocPage" class="doc-layout-shell easton-doc-shell">
     <DefaultLayout>
       <template #nav-bar-content-after>
         <LandingThemeSwitcher />
         <ThemeSwitcher />
+        <MobileNavSheet />
+      </template>
+      <template #doc-top>
+        <ArticleHero v-if="currentLandingTheme === 'easton'" />
       </template>
       <template #doc-after>
+        <ArticleFooterNav v-if="currentLandingTheme === 'easton'" />
         <div class="giscus">
           <Giscus
             :key="giscusKey"
@@ -111,6 +170,15 @@ watch(currentTheme, (theme) => {
       </template>
     </DefaultLayout>
   </div>
+
+  <!-- 兜底：其它路由（404 / 配置页） -->
+  <DefaultLayout v-else>
+    <template #nav-bar-content-after>
+      <LandingThemeSwitcher />
+      <ThemeSwitcher />
+      <MobileNavSheet />
+    </template>
+  </DefaultLayout>
 </template>
 
 <style>

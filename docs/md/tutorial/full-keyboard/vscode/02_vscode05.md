@@ -1,5 +1,5 @@
 ---
-title: "vscode 5"
+title: "第 05 课 · 快捷键使用场景"
 date: "2026-04-30"
 source: "Github/dantefung/full-keyboard"
 url: "https://github.com/dantefung/full-keyboard"

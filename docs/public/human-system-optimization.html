@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Human System Optimization 信息图</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=ZCOOL+XiaoWei&family=Cinzel:wght@400;600&display=swap');
+
+  :root {
+    --paper: #f7f2e8;
+    --ink: #4a3728;
+    --ink-soft: #7a6f5e;
+    --vermilion: #9b3a2b;
+    --gold: #c8912a;
+    --teal: #2a6b6e;
+    --rule: rgba(74, 55, 40, 0.18);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+    background: var(--paper);
+    background-image:
+      radial-gradient(circle at 12% 18%, rgba(200, 145, 42, 0.06), transparent 42%),
+      radial-gradient(circle at 88% 82%, rgba(42, 107, 110, 0.05), transparent 42%);
+    color: var(--ink);
+    padding: 14px 15px 12px;
+    line-height: 1.4;
+  }
+
+  .sheet {
+    max-width: 1120px;
+    margin: 0 auto;
+    border: 1px solid var(--rule);
+    background: rgba(255, 253, 247, 0.55);
+    padding: 16px 18px 13px;
+    position: relative;
+  }
+  .sheet::before,
+  .sheet::after {
+    content: '';
+    position: absolute;
+    width: 12px; height: 12px;
+    border: 1px solid var(--gold);
+    opacity: .55;
+  }
+  .sheet::before { top: 5px; left: 5px; border-right: 0; border-bottom: 0; }
+  .sheet::after { bottom: 5px; right: 5px; border-left: 0; border-top: 0; }
+
+  /* ---------- header ---------- */
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 14px;
+    padding-bottom: 9px;
+    border-bottom: 2px solid var(--ink);
+  }
+  .kicker {
+    font-family: 'Cinzel', serif;
+    font-size: 9px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: var(--vermilion);
+    margin-bottom: 3px;
+  }
+  h1 {
+    font-family: 'ZCOOL XiaoWei', 'Noto Serif SC', serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: .02em;
+    line-height: 1.15;
+    white-space: nowrap;
+  }
+  h1 em { font-style: normal; color: var(--vermilion); }
+  .subtitle {
+    font-size: 11px;
+    color: var(--ink-soft);
+    margin-top: 4px;
+    max-width: 560px;
+  }
+  .seal {
+    flex-shrink: 0;
+    width: 48px; height: 48px;
+    border: 1.5px solid var(--vermilion);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 11px;
+    line-height: 1.2;
+    color: var(--vermilion);
+    transform: rotate(-6deg);
+  }
+
+  /* ---------- foundation strip ---------- */
+  .foundation {
+    margin: 10px 0 11px;
+    padding: 7px 11px;
+    background: rgba(155, 58, 43, 0.055);
+    border-left: 3px solid var(--vermilion);
+  }
+  .foundation-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: var(--vermilion);
+    margin-bottom: 5px;
+  }
+  .foundation-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    list-style: none;
+  }
+  .foundation-items li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .num {
+    flex-shrink: 0;
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    background: var(--vermilion);
+    color: var(--paper);
+    font-size: 8.5px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+  }
+
+  /* ---------- module grid ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  .card {
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--accent, var(--teal));
+    background: rgba(255, 255, 255, 0.42);
+    padding: 8px 9px 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-head {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed var(--rule);
+  }
+  .card-num {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--accent, var(--teal));
+    line-height: 1;
+  }
+  .card-title {
+    font-family: 'ZCOOL XiaoWei', 'Noto Serif SC', serif;
+    font-size: 13px;
+    letter-spacing: .02em;
+    white-space: nowrap;
+  }
+  .principle {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--ink);
+    background: rgba(200, 145, 42, 0.13);
+    padding: 3px 5px;
+    margin-bottom: 6px;
+    line-height: 1.35;
+  }
+  .levers {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .levers li {
+    font-size: 10.5px;
+    line-height: 1.35;
+    color: var(--ink);
+    padding-left: 9px;
+    position: relative;
+  }
+  .levers li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--accent, var(--teal));
+    font-size: 8.5px;
+  }
+  .levers b { color: var(--vermilion); font-weight: 700; }
+
+  /* ---------- footer ---------- */
+  footer {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 2px solid var(--ink);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .escape { font-size: 10.5px; max-width: 540px; line-height: 1.4; }
+  .escape strong {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 12px;
+    color: var(--teal);
+    letter-spacing: .04em;
+    margin-right: 6px;
+  }
+  .disclaimer {
+    font-size: 9.5px;
+    color: var(--ink-soft);
+    max-width: 330px;
+    text-align: right;
+    border-left: 2px solid var(--gold);
+    padding-left: 8px;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 620px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .foundation-items { grid-template-columns: repeat(2, 1fr); }
+    h1 { font-size: 20px; white-space: normal; }
+    .disclaimer { text-align: left; }
+    footer { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <header>
+    <div>
+      <div class="kicker">Human System Optimization</div>
+      <h1>像调优软件那样<em>调优人体系统</em></h1>
+      <p class="subtitle">整理自 Andrew Huberman（斯坦福神经科学教授）podcast 的高质量同行评审研究结论——从机体工作原理出发，而非经验偏方。</p>
+    </div>
+    <div class="seal">系统<br>调优</div>
+  </header>
+
+  <div class="foundation">
+    <div class="foundation-label">极简基础四件事 · 做到这四点已达不错健康状态</div>
+    <ul class="foundation-items">
+      <li><span class="num">1</span>保持睡眠时长与质量</li>
+      <li><span class="num">2</span>不要吸烟</li>
+      <li><span class="num">3</span>尽可能每天做点运动</li>
+      <li><span class="num">4</span>减少糖分摄入</li>
+    </ul>
+  </div>
+
+  <div class="grid">
+
+    <div class="card" style="--accent:#2a6b6e">
+      <div class="card-head"><span class="card-num">I</span><span class="card-title">睡眠</span></div>
+      <div class="principle">生物钟由光照与体温驱动</div>
+      <ul class="levers">
+        <li>户外光照 <b>2–10 分钟</b></li>
+        <li>夜间避光 <b>23–04 点</b></li>
+        <li>时长 <b>6–8 小时</b></li>
+        <li>早冷水澡 / 晚锻炼调周期</li>
+      </ul>
+    </div>
+
+    <div class="card" style="--accent:#9b3a2b">
+      <div class="card-head"><span class="card-num">II</span><span class="card-title">饮食</span></div>
+      <div class="principle">何时进食与吃什么同等重要</div>
+      <ul class="levers">
+        <li><b>8 小时</b>进食窗口</li>
+        <li>睡前 <b>2–3 小时</b>不吃</li>
+        <li>一天两次发酵食品</li>
+        <li>地中海优于生酮</li>
+      </ul>
+    </div>
+
+    <div class="card" style="--accent:#c8912a">
+      <div class="card-head"><span class="card-num">III</span><span class="card-title">心态与动力</span></div>
+      <div class="principle">多巴胺看相对变化量</div>
+      <ul class="levers">
+        <li>储备有限，快乐通用</li>
+        <li><b>随机化</b>叠加因素</li>
+        <li>把过程本身当奖励</li>
+        <li>冷水浴 2.5 倍 / 3 小时</li>
+      </ul>
+    </div>
+
+    <div class="card" style="--accent:#2a6b6e">
+      <div class="card-head"><span class="card-num">IV</span><span class="card-title">学习与专注</span></div>
+      <div class="principle">学习 = 神经元重连接</div>
+      <ul class="levers">
+        <li>需<b>专注 + 犯错信号</b></li>
+        <li>重连接发生在睡眠</li>
+        <li>倒立瑜伽触发可塑性</li>
+        <li><b>17 分钟</b>冥想改善注意</li>
+      </ul>
+    </div>
+
+    <div class="card" style="--accent:#9b3a2b">
+      <div class="card-head"><span class="card-num">V</span><span class="card-title">大脑健康</span></div>
+      <div class="principle">有氧运动对大脑帮助最大</div>
+      <ul class="levers">
+        <li>有氧每周 <b>150–180 分钟</b></li>
+        <li>EPA 每天 <b>1.5–3 克</b></li>
+        <li>胆碱来自蛋黄</li>
+        <li>蓝莓每天 60–120 克</li>
+      </ul>
+    </div>
+
+    <div class="card" style="--accent:#c8912a">
+      <div class="card-head"><span class="card-num">VI</span><span class="card-title">长寿</span></div>
+      <div class="principle">衰老 = 基因信息损失</div>
+      <ul class="levers">
+        <li>表观基因组占 <b>80%</b></li>
+        <li>低血糖激活 sirtuin</li>
+        <li>植物蛋白与健康脂肪</li>
+        <li>NMN 证据仍有争议</li>
+      </ul>
+    </div>
+
+    <div class="card" style="--accent:#2a6b6e">
+      <div class="card-head"><span class="card-num">VII</span><span class="card-title">个人实践</span></div>
+      <div class="principle">原作者 zijie0 执行情况</div>
+      <ul class="levers">
+        <li>8 小时进食窗口</li>
+        <li>每周 3 次运动 PAI 200</li>
+        <li>专注模式近似番茄钟</li>
+        <li>间歇 Yoga Nidra</li>
+      </ul>
+    </div>
+
+    <div class="card" style="--accent:#7a6f5e">
+      <div class="card-head"><span class="card-num">◎</span><span class="card-title">数据监控</span></div>
+      <div class="principle">用指标代替感觉</div>
+      <ul class="levers">
+        <li><b>HbA1c</b> 血糖</li>
+        <li><b>CRP</b> 炎症</li>
+        <li><b>LDL</b> 胆固醇</li>
+        <li>补充剂先取公认者</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="escape">
+      <strong>寿命「逃逸速度」</strong>现代科学每一年能让平均寿命延长 1/4 年；<b>如果每一年能让平均寿命延长超过 1 年，则达到「逃逸速度」</b>——类比以 1000 英里每小时往西飞行，太阳永远不会落下。
+    </div>
+    <div class="disclaimer">
+      免责声明：本文以实验事实与原理假设陈述为主，所有行动方案都需在咨询医师、专业人员条件下结合自身情况执行。
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 ---
-title: "Code Principle"
+title: "代码设计原则"
 date: "2026-05-08"
 ---
 

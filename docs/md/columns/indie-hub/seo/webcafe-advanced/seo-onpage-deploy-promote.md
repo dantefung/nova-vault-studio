@@ -38,7 +38,7 @@ url: "https://new.web.cafe/tutorial/detail/seo-onpage-deploy-promote"
 
 标题会直接出现在搜索结果中，所以写一个好标题，还有助于吸引用户点进你的网页
 
-![d54d651f695910d7945459bd32b404e9.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_001.jpg)
+![d54d651f695910d7945459bd32b404e9.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_001.webp)
 
 豆瓣的电影页面标题很简单，就是电影名称（豆瓣）。
 
@@ -46,7 +46,7 @@ url: "https://new.web.cafe/tutorial/detail/seo-onpage-deploy-promote"
 
 如“学爸主演、演员表、主角、评分、票房”
 
-![ca76e589e74d53602ea57ec8b460ac56.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_002.jpg)
+![ca76e589e74d53602ea57ec8b460ac56.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_002.webp)
 
 用户可能会关心的，且有搜索流量的，都可以拼凑上去。
 
@@ -56,15 +56,15 @@ description 网页描述，也比较重要，也会出现在搜索结果中。
 
 keywords 关键词列表，一般可以不写。我的优化风格是优化不要太满，所以一般都是好好写 title和 description，但直接删除 keywords 。
 
-![f5d6954b7e6f4350785193b406f324d0.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_003.jpg)
+![f5d6954b7e6f4350785193b406f324d0.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_003.webp)
 
 可以看到，豆瓣把一些本来要写到标题里的，写到描述里去了。
 
 好了，TDK就介绍完了，我们看看实际在搜索引擎里的结果显示成什么样。
 
-这是百度： ![d5ac597570c277714ccced1f2c71c58c.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_004.jpg)
+这是百度： ![d5ac597570c277714ccced1f2c71c58c.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_004.webp)
 
-这是谷歌： ![d9a8c4e94ed2b210b3549ffae0eee81b.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_005.jpg)
+这是谷歌： ![d9a8c4e94ed2b210b3549ffae0eee81b.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_005.webp)
 
 **1.2、网页结构** 一个 HTML网页，除了要写好 title 和 descrition 外，最重要的就是要让整个网页结构清晰，有明显的 h1、h2、h3 结构。
 
@@ -72,23 +72,23 @@ keywords 关键词列表，一般可以不写。我的优化风格是优化不�
 
 一个网页只能有一个 h1，如果说 title 是给搜索引擎看的，那么 h1 就是给用户看的。但同时搜索引擎也会参考 h1 来对你的网页进行内容评判，最终给不给你排名，排在哪个位置，很多时候就是 h1 和 title 决定的。
 
-![299dbc04d472e74b0838b8d7391e2983.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_006.jpg)
+![299dbc04d472e74b0838b8d7391e2983.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_006.webp)
 
 **再说下 h2 和 h3** 这两个也是一个完整的语义化 HTML必不可少的部分。一个网页可以有多个 h2 和 h3。
 
-![814625bf3042b04a70c3f7aa274e88f7.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_007.jpg)
+![814625bf3042b04a70c3f7aa274e88f7.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_007.webp)
 
 **再说下 p** h1 h2 h3 这些都是标题，分别是一级标题、二级标题和三级标题。
 
 除了标题之外，其它正文内容，就要写在 p里边了，图片也可以放在 p里。
 
-![1b187a2d448f1ba3d604da4a355567af.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_008.jpg)
+![1b187a2d448f1ba3d604da4a355567af.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_008.webp)
 
 **然后是 img** 图片也是一个网页必不可少的一部分，用 img 标签，合理的放置图片，不仅可以让用户更好的理解你的内容，也可以从搜索引擎的图片搜索获取流量。
 
 img 标签一定要写 alt 属性，这是对图片的描述，专门写给搜索引擎看的。图片尽量用大图，也就是 300x300 以上的。
 
-![932d1a3916956f3b207aa630d1ee83f5.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_009.jpg)
+![932d1a3916956f3b207aa630d1ee83f5.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_009.webp)
 
 不管你是工具页面，还是内容页面，都需要有 TDK 和 h1 h2 h3 p img 。
 
@@ -168,11 +168,11 @@ h3 red flower coloring pages img1 img2 img3 …… h3 yellow flower coloring pag
 
 [https://apps.apple.com/cn/app/id414478124](https://apps.apple.com/cn/app/id414478124) [https://apps.apple.com/cn/app/weixin/id414478124](https://apps.apple.com/cn/app/weixin/id414478124) [https://apps.apple.com/cn/app/wechat/id414478124](https://apps.apple.com/cn/app/wechat/id414478124)
 
-![b0a2eb3390760913a1ef733d9e72d8bd.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_010.jpg)
+![b0a2eb3390760913a1ef733d9e72d8bd.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_010.webp)
 
-![74af7bf7a9d20408c205c3240c9e6611.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_011.jpg)
+![74af7bf7a9d20408c205c3240c9e6611.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_011.webp)
 
-![4f095d43b65b45ece2c5b32a48dee7a1.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_012.jpg)
+![4f095d43b65b45ece2c5b32a48dee7a1.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_012.webp)
 
 可以看到，不管用哪个 URL打开，苹果官方用 canonical 指定的规范且唯一的 URL都是同一个。
 
@@ -238,23 +238,23 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 首先是配置域名解析，打开 CloudFlare ，点击左侧 Websites ，打开网站列表页面，点击右上角“Add a site”，在新开的页面输入框中填入你的域名，点击“Continue”按钮。
 
-![86b3388b951906446dd65d4e4af8d6dc.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_013.jpg)
+![86b3388b951906446dd65d4e4af8d6dc.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_013.webp)
 
 选择免费套餐，继续点击“Continue”按钮。
 
-![6a65f2c3c0671f8f42039eecdd2c7711.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_014.jpg)
+![6a65f2c3c0671f8f42039eecdd2c7711.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_014.webp)
 
 复制 CloudFlare提供的 ns1 和 ns2 ，填到域名注册商后台的域名 dns设置界面。
 
-![3b7c5519a408a659e1241b6a1ff7a611.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_015.jpg)
+![3b7c5519a408a659e1241b6a1ff7a611.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_015.webp)
 
 有些 dns服务商有 5 个 ns，一般最少都有 2 个，CloudFlare就只有 2 个，那么就填这两个进去，提交保存。
 
-![e5cac2b1521ab7b433e1f1e318fdf3c3.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_016.jpg)
+![e5cac2b1521ab7b433e1f1e318fdf3c3.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_016.webp)
 
 之后继续下一步，三个都开启，最后点击“Finish”就可以了。生效需要一段时间，等回到网站列表页面，网站底下显示“Active”就表示修改 dns成功了。
 
-![9f410d082dff2d90553253b27fb4a513.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_017.jpg)
+![9f410d082dff2d90553253b27fb4a513.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_017.webp)
 
 **3.2、添加域名解析记录**
 
@@ -262,7 +262,7 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 一般别人叫你添加什么，你就添加什么就好了。
 
-![8f6746df319b5ac3ff3b76da3ef78b67.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_018.jpg)
+![8f6746df319b5ac3ff3b76da3ef78b67.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_018.webp)
 
 **3.3、静态网站部署**
 
@@ -282,11 +282,11 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 之后在谷歌中搜索 site:域名 ，会有一个提示“尝试使用 Google Search Console”，点击进去。
 
-![0f470f43d723386bf7f2e41ae15288a7.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_019.jpg)
+![0f470f43d723386bf7f2e41ae15288a7.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_019.webp)
 
 进去之后，在页面左侧找到按钮，添加资源，选择网域形式，输入域名，点击继续。之后因为你的域名是在 CloudFlare管理的，所以可以一键授权验证所有权。如果是在别处管理，按照要求配置解析记录进去进行所有权验证即可。
 
-![a0ad1a7c2080f61f75e255b5a3786002.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_020.jpg)
+![a0ad1a7c2080f61f75e255b5a3786002.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_020.webp)
 
 验证之后，就可以去添加我们之前准备好的 sitemap文件，之后就等待谷歌爬虫光临就好了。
 
@@ -294,13 +294,13 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 打开谷歌分析 [https://analytics.google.com/analytics/](https://analytics.google.com/analytics/) ，点击左下角的设置按钮，在设置页面中点击“添加媒体资源”按钮，在新界面中按照步骤添加自己域名。按照要求，一步一步填写即可，第 3 步时选择“获取基准报告”。
 
-![4c8a6272459f3b647b6b5e40e273562a.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_021.jpg)
+![4c8a6272459f3b647b6b5e40e273562a.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_021.webp)
 
 第 4 步选择类型为网站，之后输入网站域名和网站名称，提交后就可以获取网站统计代码。
 
 把网站统计代码放到你的网站的所有页面的 `</body>`之前，如下所示：
 
-![image.png](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_022.png)
+![image.png](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_022.webp)
 
 如果你用不太习惯，也可以同时放百度统计代码，也是放到这个 display:none 的 div 内。
 
