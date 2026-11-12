@@ -1,7 +1,7 @@
 ---
 title: "AI 编程：大多数团队 AI 编程都卡在结构化需求上"
 author: "少个分号"
-date: "2026年6月27日 10:29"
+date: "2026-06-27 10:29"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/jNCVsXmzDEG_TrKKZbmUZg"
 ---

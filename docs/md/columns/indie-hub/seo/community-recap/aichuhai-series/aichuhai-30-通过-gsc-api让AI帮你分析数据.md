@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：通过 gsc api，让AI帮你分析数据"
 author: "droidHZ"
-date: "2026年6月3日 07:11"
+date: "2026-06-03 07:11"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/y5JBwduRATW15cFo0JaVwA"
 ---

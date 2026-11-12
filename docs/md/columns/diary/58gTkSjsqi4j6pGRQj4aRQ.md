@@ -1,7 +1,7 @@
 ---
 title: "上站没成绩，多刷哥飞刘小排公众号"
 author: "广东"
-date: "2025年9月1日 01:22"
+date: "2025-09-01 01:22"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/58gTkSjsqi4j6pGRQj4aRQ"
 ---

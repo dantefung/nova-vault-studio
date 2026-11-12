@@ -1,0 +1,33 @@
+---
+/**
+ * 右侧大纲（正文标题层级）
+ */
+interface Heading {
+  depth: number
+  text: string
+  slug: string
+}
+
+interface Props {
+  headings: Heading[]
+}
+
+const { headings } = Astro.props
+// VitePress 的大纲只取 h2/h3
+const items = headings.filter((h) => h.depth >= 2 && h.depth <= 3)
+---
+
+{
+  items.length > 0 && (
+    <aside class="vp-outline" aria-label="本页大纲">
+      <p class="vp-outline-title">本页大纲</p>
+      <ul class="vp-outline-list">
+        {items.map((h) => (
+          <li class={`vp-outline-item depth-${h.depth}`}>
+            <a href={`#${h.slug}`}>{h.text}</a>
+          </li>
+        ))}
+      </ul>
+    </aside>
+  )
+}

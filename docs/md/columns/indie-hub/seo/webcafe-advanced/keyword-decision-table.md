@@ -1,7 +1,7 @@
 ---
 title: "挖回来的词别全建新页：三选一，我给你一张判断表"
 author: "袁锐钦"
-date: "2026年9月12日 18:04"
+date: "2026-09-12 18:04"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/VXnDxODJhMX7Kgjyjc_nKw"
 ---

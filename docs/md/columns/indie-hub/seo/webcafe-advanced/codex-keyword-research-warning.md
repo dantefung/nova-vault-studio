@@ -1,7 +1,7 @@
 ---
 title: "警告：别用Codex做关键词调研，都是虚假数据"
 author: "SEO小平"
-date: "2026年9月18日 16:57"
+date: "2026-09-18 16:57"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/poizfQC-PALO93bFN0CrEw"
 ---

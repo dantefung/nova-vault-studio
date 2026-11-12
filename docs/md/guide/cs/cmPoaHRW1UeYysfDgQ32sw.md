@@ -1,7 +1,7 @@
 ---
 title: "图解10种经典芯片，分清各类芯片都是干什么的"
 author: "2026年10月8日 23:25"
-date: "2026年10月8日 23:25"
+date: "2026-10-08 23:25"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/cmPoaHRW1UeYysfDgQ32sw"
 ---

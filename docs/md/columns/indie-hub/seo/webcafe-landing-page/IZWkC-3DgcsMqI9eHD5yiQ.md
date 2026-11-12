@@ -1,7 +1,7 @@
 ---
 title: "最适合普通人的建站工具"
 author: "船长"
-date: "2026年5月22日 15:36"
+date: "2026-05-22 15:36"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/IZWkC-3DgcsMqI9eHD5yiQ"
 ---

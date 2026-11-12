@@ -1,7 +1,7 @@
 ---
 title: "技术栈推荐：围绕 AI 反馈闭环做选型"
 author: "lencx"
-date: "2026年9月7日 11:32"
+date: "2026-09-07 11:32"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/kygLZ2IXWk05qcFQ3zgVhw"
 ---

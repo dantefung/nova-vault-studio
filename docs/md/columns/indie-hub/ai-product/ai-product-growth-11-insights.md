@@ -1,7 +1,7 @@
 ---
 title: "AI+产品增长的11条顶级理解，"
 author: "生财杨涛"
-date: "2026年9月18日 19:00"
+date: "2026-09-18 19:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/6-mhpxvxtxVGP8p9pLmNvQ"
 ---

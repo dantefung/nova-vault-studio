@@ -1,7 +1,7 @@
 ---
 title: "兼容不是复制：DeepSeek Harness 如何把 Claude Code 生态接进自己的 seam"
 author: "运维有术"
-date: "2026年9月10日 07:31"
+date: "2026-09-10 07:31"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/sXneuDbGcx5XJwnfqIAE-w"
 ---

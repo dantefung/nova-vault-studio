@@ -1,7 +1,7 @@
 ---
 title: "网站出海分享：使用AITDK 检测网站GEO问题"
 author: "droidHZ"
-date: "2026年8月27日 06:55"
+date: "2026-08-27 06:55"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/yIO6TLF5BmeTQzr-2gxazA"
 ---

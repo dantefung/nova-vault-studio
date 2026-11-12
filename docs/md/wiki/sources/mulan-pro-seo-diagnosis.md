@@ -1,7 +1,7 @@
 ---
 title: "哥飞 SEO Agent 对 Mulan.pro 的 SEO 诊断报告：团队完全没有 SEO 意识"
 author: "我是哥飞"
-date: "2026年8月21日 14:33"
+date: "2026-08-21 14:33"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/SadERYNN9BmRHJtgCbW8Ag"
 ---

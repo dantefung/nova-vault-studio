@@ -1,7 +1,7 @@
 ---
 title: "图解 Linux 进程间通信（IPC）：管道、共享内存、消息队列、Socket，到底该怎么选？"
 author: "xiaokang1998"
-date: "2026年9月28日 11:59"
+date: "2026-09-28 11:59"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/wtRbjyGC_Xk6xq1Al-80rQ"
 ---

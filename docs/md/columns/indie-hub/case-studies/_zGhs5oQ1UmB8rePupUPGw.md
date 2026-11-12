@@ -1,7 +1,7 @@
 ---
 title: "微信贴图号+10种变现模式"
 author: "水泥预制品"
-date: "2026年6月18日 14:31"
+date: "2026-06-18 14:31"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/_zGhs5oQ1UmB8rePupUPGw"
 ---

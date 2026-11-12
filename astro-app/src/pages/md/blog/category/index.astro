@@ -1,0 +1,39 @@
+---
+/**
+ * 博客分类索引页
+ *
+ * 对应 VitePress 时期 BlogLayout 里 category 视图的索引。
+ */
+import BaseLayout from '../../../../layouts/BaseLayout.astro'
+import blogIndex from '@generated/blog-index.json'
+
+const categories = (blogIndex as any).categories
+---
+
+<BaseLayout title="博客分类" description="按分类浏览全部文章。" landingTheme="quiet" bodyClass="vp-blog-page">
+  <main class="vp-blog-main">
+    <section class="vp-blog-hero">
+      <h1>分类</h1>
+      <p class="vp-blog-lead">共 {categories.length} 个分类。</p>
+      <nav class="vp-blog-views" aria-label="博客视图">
+        <a href="/md/blog/">最新</a>
+        <a href="/md/blog/category/" class="is-active">分类</a>
+        <a href="/md/blog/archive/">归档</a>
+        <a href="/md/blog/series/">系列</a>
+      </nav>
+    </section>
+
+    <section class="vp-blog-section">
+      <ul class="vp-blog-list">
+        {
+          categories.map((c: any) => (
+            <li>
+              <a href={`/md/blog/category/${c.slug}/`}>{c.title}</a>
+              <span class="vp-blog-list-meta">{c.count} 篇</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

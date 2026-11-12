@@ -1,7 +1,7 @@
 ---
 title: "【哥飞分享】一文详解 Reddit 发帖推广经验与教训"
 author: "我是哥飞"
-date: "2024年7月29日 23:16"
+date: "2024-07-29 23:16"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/rZeKgRwAgH86_5tgkuKAiA"
 ---

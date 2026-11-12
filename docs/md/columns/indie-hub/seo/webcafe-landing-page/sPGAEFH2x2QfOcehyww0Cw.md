@@ -1,7 +1,7 @@
 ---
 title: "域名，那些你不知道的事"
 author: "船长 14"
-date: "2026年5月25日 17:50"
+date: "2026-05-25 17:50"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/sPGAEFH2x2QfOcehyww0Cw"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "网站出海分享：分享一些邮件召回小技巧，成功召回266美金付款"
 author: "droidHZ"
-date: "2026年9月4日 08:04"
+date: "2026-09-04 08:04"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/KDcUC0j3kV5ygE2Ls5FtaQ"
 ---

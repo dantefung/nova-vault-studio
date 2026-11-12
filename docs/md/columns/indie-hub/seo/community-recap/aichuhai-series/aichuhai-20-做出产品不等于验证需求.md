@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：做出产品不等于验证需求"
 author: "droidHZ"
-date: "2026年6月14日 07:34"
+date: "2026-06-14 07:34"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/ZuqwRyd6mNgADrwqBZ7MGQ"
 ---

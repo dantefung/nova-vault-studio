@@ -1,7 +1,7 @@
 ---
 title: "一个人一台电脑，他是怎么靠AI做网站单月收入10万？"
 author: "生财深海圈"
-date: "2026年10月15日 12:00"
+date: "2026-10-15 12:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/vmq-QlrPoQhJYPw665GGww"
 ---

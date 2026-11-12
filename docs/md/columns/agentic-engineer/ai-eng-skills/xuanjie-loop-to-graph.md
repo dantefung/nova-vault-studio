@@ -1,7 +1,7 @@
 ---
 title: "从 Loop 到 Graph：一套让 AI Agent 落地的工程架构设计"
 author: "玄姐"
-date: "2026年9月6日 08:00"
+date: "2026-09-06 08:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/PJvePnPM1nkktmBW3Gyrrw"
 ---

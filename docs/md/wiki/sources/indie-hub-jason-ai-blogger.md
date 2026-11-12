@@ -1,7 +1,7 @@
 ---
 title: "一人公司、半年营收百万，算法工程师转型AI博主全复盘"
 author: "游牧岛NEXT"
-date: "2026年7月14日 21:41"
+date: "2026-07-14 21:41"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/HAsP5MRk15x_WkrajRglQA"
 ---

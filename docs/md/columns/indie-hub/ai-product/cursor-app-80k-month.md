@@ -1,7 +1,7 @@
 ---
 title: "Cursor开发的破软件，竟然年入百万！！！"
 author: "2026年8月23日 11:22"
-date: "2026年8月23日 11:22"
+date: "2026-08-23 11:22"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/LeV9u5JRDYo7QKIgyEfBfA"
 ---

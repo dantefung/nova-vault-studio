@@ -1,7 +1,7 @@
 ---
 title: "我用后端思维，把 AI 短剧做成了流水线"
 author: "❤"
-date: "2026年9月27日 20:39"
+date: "2026-09-27 20:39"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/pQf93HfXrMFFOeFPSQ8wiA"
 ---

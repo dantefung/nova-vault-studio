@@ -1,7 +1,7 @@
 ---
 title: "跨境电商人，光说不练，光想不动，越来越穷了"
 author: "GOD哥"
-date: "2026年10月24日 20:08"
+date: "2026-10-24 20:08"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/FTkjfGr6rtMTKOJffdOsMw"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "反规模化生存：蓝海藏在红海里"
 author: "澎湃王侯"
-date: "2026年9月9日 21:33"
+date: "2026-09-09 21:33"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/KO1SQbvuKMvor2YbWOFm8g"
 ---

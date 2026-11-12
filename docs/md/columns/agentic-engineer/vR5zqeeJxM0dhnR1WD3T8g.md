@@ -1,7 +1,7 @@
 ---
 title: "任意 AI 模型可用的手绘风视频 Skill"
 author: "空格丶"
-date: "2026年10月22日 12:25"
+date: "2026-10-22 12:25"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/vR5zqeeJxM0dhnR1WD3T8g"
 ---

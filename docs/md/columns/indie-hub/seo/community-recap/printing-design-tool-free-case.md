@@ -1,7 +1,7 @@
 ---
 title: "做了7年在线印刷后，他们把设计工具免费开放，公司年收入约4.7亿元"
 author: "我是哥飞"
-date: "2026年9月17日 21:56"
+date: "2026-09-17 21:56"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/V5fGdaJgy0sjws2HgdWKRQ"
 ---

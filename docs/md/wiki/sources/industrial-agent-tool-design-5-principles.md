@@ -1,7 +1,7 @@
 ---
 title: "工业 Agent 工具设计的 5 个原则"
 author: "老梁agent"
-date: "2026年6月5日 08:46"
+date: "2026-06-05 08:46"
 source: "微信公众号"
 url: "http://mp.weixin.qq.com/s?__biz=MzY5MzMzODAwMg==&mid=2247483735&idx=1&sn=88aeda6492f04fc816a436e977109a0e&chksm=f41d6baac36ae2bcd870f37da6154faa9ffc0eda375fbe49a78380a8e26b6480cf5577f6f186#rd"
 ---

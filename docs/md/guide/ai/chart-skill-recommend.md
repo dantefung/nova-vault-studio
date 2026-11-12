@@ -1,7 +1,7 @@
 ---
 title: "白嫖警告：这个图表 Skill，太猛了！正在悄悄拉高所有人的审美标准"
 author: "loonggg"
-date: "2026年9月10日 10:58"
+date: "2026-09-10 10:58"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/6Pcai6xR5uVUK_hMlNmFTg"
 ---

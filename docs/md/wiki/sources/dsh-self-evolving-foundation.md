@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek Harness 是自进化 Agent 的基石"
 author: "Cage、Daniel"
-date: "2026年8月20日 18:00"
+date: "2026-08-20 18:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/g6wTg7SVXbHrjdX4aEJQxg"
 ---

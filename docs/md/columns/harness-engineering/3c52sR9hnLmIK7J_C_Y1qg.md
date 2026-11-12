@@ -1,7 +1,7 @@
 ---
 title: "Hello Harness 15 · Event System：让运行过程从「事后翻档案」变成「实时看直播」"
 author: "一灰灰blog"
-date: "2026年9月21日 08:23"
+date: "2026-09-21 08:23"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/3c52sR9hnLmIK7J_C_Y1qg"
 ---

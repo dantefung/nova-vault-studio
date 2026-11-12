@@ -1,0 +1,61 @@
+---
+/**
+ * 博客归档页（按年月分组）
+ *
+ * 对应 VitePress 时期的 ArchiveLayout.vue。
+ */
+import BaseLayout from '../../../../layouts/BaseLayout.astro'
+import blogIndex from '@generated/blog-index.json'
+
+const articles = (blogIndex as any).articles
+
+const groups = new Map<string, any[]>()
+for (const a of articles) {
+  const month = (a.date || '').slice(0, 7) || '未知'
+  const list = groups.get(month) ?? []
+  list.push(a)
+  groups.set(month, list)
+}
+const months = [...groups.entries()].sort((a, b) => b[0].localeCompare(a[0]))
+---
+
+<BaseLayout
+  title="博客归档"
+  description="按年月归档的全部文章。"
+  landingTheme="quiet"
+  bodyClass="vp-blog-page"
+>
+  <main class="vp-blog-main">
+    <section class="vp-blog-hero">
+      <h1>归档</h1>
+      <p class="vp-blog-lead">共 {articles.length} 篇，按年月倒序。</p>
+    </section>
+
+    <nav class="vp-blog-views" aria-label="博客视图">
+      <a href="/md/blog/">最新</a>
+      <a href="/md/blog/category/">分类</a>
+      <a href="/md/blog/archive/" class="is-active">归档</a>
+      <a href="/md/blog/series/">系列</a>
+    </nav>
+
+    {
+      months.map(([month, list]) => (
+        <section class="vp-blog-section" id={month}>
+          <h2 class="vp-blog-section-title">
+            {month} <small>({list.length})</small>
+          </h2>
+          <ul class="vp-blog-list">
+            {list.map((a: any) => (
+              <li>
+                <a href={a.path}>{a.title}</a>
+                <span class="vp-blog-list-meta">
+                  {a.categoryTitle} · {a.date}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </main>
+</BaseLayout>

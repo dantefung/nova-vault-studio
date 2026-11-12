@@ -1,7 +1,7 @@
 ---
 title: "AI代码生成率94%：我们用一个 Skill 跑通需求开发全流程"
 author: "腾讯程序员"
-date: "2026年7月20日 17:36"
+date: "2026-07-20 17:36"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/mGGIbFyF4U1PrBJVdfgcvg"
 ---

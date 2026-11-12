@@ -1,7 +1,7 @@
 ---
 title: "6 万 star  TypeScript 大神开源 skills /grill-me 好用，但国产 spec-superflow 更狠"
 author: "码哥"
-date: "2026年7月22日 09:00"
+date: "2026-07-22 09:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/io9AqU_vRZLHhV_QYB1vlg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "商业银行「结构化」产品全景图：从定义到分类，一文读懂"
 author: "光速白眉"
-date: "2026年10月26日 08:00"
+date: "2026-10-26 08:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/0QKg9s2ul-iGxqfzm9gVqw"
 ---

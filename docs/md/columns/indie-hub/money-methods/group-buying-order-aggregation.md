@@ -1,7 +1,7 @@
 ---
 title: "拼单赚钱术：另一种信息差"
 author: "澎湃王侯"
-date: "2026年11月1日 21:30"
+date: "2026-11-01 21:30"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/LspUORtw6ru3PEMWixsa9A"
 ---

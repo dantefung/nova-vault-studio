@@ -1,0 +1,65 @@
+---
+/**
+ * 资源导航页
+ *
+ * 对应 VitePress 时期的 ResourceNavLayout.vue。
+ * 数据来自 scripts/build-resource-nav.js 生成的 resource-nav.json，
+ * 与 VitePress 时期同源。
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import SearchBox from '../../../components/SearchBox.astro'
+import resourceNav from '@generated/resource-nav.json'
+
+const nav = resourceNav as any
+const categories = nav.categories ?? []
+const stats = nav.stats ?? { categories: categories.length, items: 0 }
+---
+
+<BaseLayout
+  title="资源导航"
+  description="AI 编程资源导航 — 工具、平台、Skill、教程与书籍的可筛选目录。"
+  landingTheme="quiet"
+  bodyClass="vp-blog-page vp-resource-page"
+>
+  <main class="vp-blog-main">
+    <section class="vp-blog-hero">
+      <h1>资源导航</h1>
+      <p class="vp-blog-lead">
+        共 {stats.items ?? 0} 个资源，分布在 {stats.categories ?? categories.length} 个分类。
+      </p>
+      <SearchBox variant="hero" />
+    </section>
+
+    <nav class="vp-blog-views" aria-label="资源视图">
+      <a href="/md/guide/ai/ai-programming-resources" class="is-active">AI 编程资源</a>
+      <a href="/md/guide/ai/claude-code-resources">Claude Code 资源</a>
+      <a href="/md/blog/">博客</a>
+    </nav>
+
+    {
+      categories.map((category: any) => (
+        <section class="vp-blog-section" id={`cat-${category.slug}`}>
+          <h2 class="vp-blog-section-title">
+            {category.title} <small>({category.count})</small>
+          </h2>
+          {(category.groups ?? []).map((group: any) => (
+            <div class="vp-resource-group">
+              <h3 class="vp-resource-group-title">{group.title}</h3>
+              <ul class="vp-resource-list">
+                {(group.items ?? []).map((item: any) => (
+                  <li>
+                    <a href={item.href} target={item.external ? '_blank' : undefined} rel={item.external ? 'noreferrer' : undefined}>
+                      {item.title}
+                    </a>
+                    {item.desc && <span class="vp-resource-desc">{item.desc}</span>}
+                    {item.tag && <span class="vp-resource-tag">{item.tag}</span>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      ))
+    }
+  </main>
+</BaseLayout>

@@ -1,7 +1,7 @@
 ---
 title: "学了一堆 AI，还在卖时间"
 author: "澳洲AI教父"
-date: "2026年10月20日 22:19"
+date: "2026-10-20 22:19"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Gs2l6ZbY0ZFsGXn86xgs3g"
 ---

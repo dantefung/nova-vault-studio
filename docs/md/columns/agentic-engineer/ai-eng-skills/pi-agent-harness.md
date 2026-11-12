@@ -1,7 +1,7 @@
 ---
 title: "从 Pi 看 Agent Harness：少做功能，怎样换来更可控的运行时"
 author: "若飞"
-date: "2026年9月8日 23:08"
+date: "2026-09-08 23:08"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/JpDdN21Qe_pN8mhpqWlm9w"
 ---

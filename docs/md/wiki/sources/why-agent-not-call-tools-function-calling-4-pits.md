@@ -1,7 +1,7 @@
 ---
 title: "为什么我的 Agent 不调用工具？排查 Function Calling 的 4 个常见坑"
 author: "老梁agent"
-date: "2026年6月6日 17:33"
+date: "2026-06-06 17:33"
 source: "微信公众号"
 url: "http://mp.weixin.qq.com/s?__biz=MzY5MzMzODAwMg==&mid=2247483736&idx=1&sn=637caaba3a9f73dbb2c48241731d7951&chksm=f41d6ba5c36ae2b31452c1b83c27b114497f07cb67be44994782f698860909d1a732fccf712e#rd"
 ---

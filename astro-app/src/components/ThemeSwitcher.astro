@@ -1,0 +1,26 @@
+---
+/**
+ * 站点主题切换（light / dark / sepia）
+ *
+ * VitePress 时期的 ThemeSwitcher.vue 用 Vue ref 管理状态，
+ * 这里改为纯 CSS 变量 + data 属性，切换不触发任何 DOM 结构变化。
+ */
+import { THEMES, THEME_META } from '../lib/theme'
+---
+
+<div class="vp-theme-switch" role="group" aria-label="切换配色">
+  {
+    THEMES.map((t) => (
+      <button
+        type="button"
+        class="vp-theme-btn"
+        data-theme-value={t}
+        data-theme-target={t}
+        title={THEME_META[t].desc}
+        aria-label={THEME_META[t].desc}
+      >
+        {THEME_META[t].label}
+      </button>
+    ))
+  }
+</div>

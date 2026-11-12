@@ -1,7 +1,7 @@
 ---
 title: "4.1K Star！OpenKnowledge —— 让 Claude、Codex、Cursor 共用一套知识库的 Markdown IDE"
 author: "小金"
-date: "2026年9月7日 14:40"
+date: "2026-09-07 14:40"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/nAQa5AW6AQqMZD6LFGf8sw"
 ---

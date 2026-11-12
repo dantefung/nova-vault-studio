@@ -1,7 +1,7 @@
 ---
 title: "来自Google 的Agentic Skill 综述"
 author: "若飞"
-date: "2026年9月16日 23:59"
+date: "2026-09-16 23:59"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/IG1lcRRtIhRePZfLrLZl_g"
 ---

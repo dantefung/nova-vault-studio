@@ -1,7 +1,7 @@
 ---
 title: "Harness 工程治理：从一次做成，到可复制、可运营的交付能力"
 author: "2026年9月8日 18:00"
-date: "2026年9月8日 18:00"
+date: "2026-09-08 18:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/wlhpdeRRuwD56dKwhSlEaA"
 ---

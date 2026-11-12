@@ -1,0 +1,35 @@
+---
+/**
+ * 站内搜索
+ *
+ * VitePress 时期用内置 local search（minisearch 全量索引），
+ * 站内 3999 篇文档全部进索引，Vercel 构建时内存压力大到需要降级为 partial 模式。
+ *
+ * Astro 侧改为：构建期生成一份精简索引（标题 + 摘要 + 路径），
+ * 客户端做前缀/子串匹配。索引小、加载快、无需服务端。
+ */
+interface Props {
+  variant?: 'hero' | 'nav'
+}
+
+const { variant = 'nav' } = Astro.props
+---
+
+<div class="vp-search" data-variant={variant}>
+  <input
+    type="search"
+    class="vp-search-input"
+    placeholder="搜索文档…"
+    aria-label="搜索文档"
+    autocomplete="off"
+  />
+  <div class="vp-search-results" hidden></div>
+</div>
+
+<script>
+  import { initSearch } from '../scripts/search.ts'
+
+  document.querySelectorAll<HTMLElement>('.vp-search').forEach((root) => {
+    initSearch(root)
+  })
+</script>

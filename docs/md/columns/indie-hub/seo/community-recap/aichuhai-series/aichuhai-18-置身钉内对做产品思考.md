@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：置身钉内对做产品思考"
 author: "droidHZ"
-date: "2026年6月16日 07:23"
+date: "2026-06-16 07:23"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/ytpIWnDLslp5Jx2iX982SA"
 ---

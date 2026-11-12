@@ -1,7 +1,7 @@
 ---
 title: "如何高效启动赚钱项目，送你100个提效工具"
 author: "木木"
-date: "2024年10月23日 20:00"
+date: "2024-10-23 20:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/wd6E8W6qpbmHNuHlXnkjiw"
 ---

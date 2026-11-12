@@ -1,7 +1,7 @@
 ---
 title: "Durable Agent 详解：如何让 Agent 在云端长期稳定运行"
 author: "刘军"
-date: "2026年10月29日 18:46"
+date: "2026-10-29 18:46"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/z8JHkCyOVVKrXpKH-vy6tw"
 ---

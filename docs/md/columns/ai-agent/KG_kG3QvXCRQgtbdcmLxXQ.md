@@ -1,7 +1,7 @@
 ---
 title: "Plan Mode 之死？Agent 需要的是一条可验证的工作回路"
 author: "若飞"
-date: "2026年9月27日 22:40"
+date: "2026-09-27 22:40"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/KG_kG3QvXCRQgtbdcmLxXQ"
 ---

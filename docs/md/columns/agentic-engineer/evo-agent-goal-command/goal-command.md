@@ -1,7 +1,7 @@
 ---
 title: "让 Agent 不会停下来：goal 命令"
 author: "袁小康"
-date: "2026年6月2日 07:30"
+date: "2026-06-02 07:30"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/DfDFsIhLZJp1NiXz9dp7ug"
 ---

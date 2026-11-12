@@ -1,7 +1,7 @@
 ---
 title: "Harness开源框架Hermes‑Agent详解"
 author: "温桂阳"
-date: "2026年9月8日 00:00"
+date: "2026-09-08 00:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/a6ATJQSYHI_0Tv-G-LtYKg"
 ---

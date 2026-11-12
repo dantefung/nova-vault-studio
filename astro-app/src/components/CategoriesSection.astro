@@ -11,7 +11,7 @@ const cats = allCategories().slice(0, 3)
     </div>
     <div class="easton-clone-category-grid">
       {cats.map((cat) => (
-        <a href={`/blog/category/${cat.slug}/`}>
+        <a href={`/md/blog/category/${cat.slug}/`}>
           <span class="easton-clone-category-icon">✦</span>
           <h2>{cat.title}</h2>
           <b>{cat.count}</b>

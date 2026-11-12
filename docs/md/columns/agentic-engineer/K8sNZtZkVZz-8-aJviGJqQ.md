@@ -1,7 +1,7 @@
 ---
 title: "第 6 章：Memory 与 codebase-guide——经验沉淀与知识路由"
 author: "老梁agent"
-date: "2026年9月21日 08:00"
+date: "2026-09-21 08:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/K8sNZtZkVZz-8-aJviGJqQ"
 ---

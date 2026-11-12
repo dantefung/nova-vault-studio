@@ -1,7 +1,7 @@
 ---
 title: "房贷40年，问题是我的前途有没有40年？"
 author: "碧树西风"
-date: "2026年9月6日 11:17"
+date: "2026-09-06 11:17"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/x7IZDn9DGzZu4bNmz6HsfQ"
 ---

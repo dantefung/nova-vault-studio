@@ -1,7 +1,7 @@
 ---
 title: "Obsidian 入门40：把我的写作工作流Skill免费分享给你"
 author: "林大友"
-date: "2026年5月3日 14:38"
+date: "2026-05-03 14:38"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/26E9jSCWquHB1_efWTPBFQ"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "从需求到上线，27 个 skills 每站给 AI 编码钉一道闸"
 author: "运维有术"
-date: "2026年10月26日 08:28"
+date: "2026-10-26 08:28"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/S48AnmJsQOAoTqi4AV1KiQ"
 ---

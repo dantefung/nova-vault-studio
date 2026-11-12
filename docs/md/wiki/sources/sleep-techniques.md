@@ -1,7 +1,7 @@
 ---
 title: "关于睡觉的技术。"
 author: "庞少棠"
-date: "2020年7月9日 23:25"
+date: "2020-07-09 23:25"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/4Uno1996G-vZJ1vtc6CA8Q"
 ---

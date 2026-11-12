@@ -1,7 +1,7 @@
 ---
 title: "我如何把一篇文章变成一张知识地图：从静态结构到动态流程的萃取方法"
 author: "何明璐"
-date: "2026年9月28日 08:57"
+date: "2026-09-28 08:57"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/d2naZgv1gr-gy8PUkOOHUQ"
 ---

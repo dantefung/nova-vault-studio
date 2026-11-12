@@ -1,7 +1,7 @@
 ---
 title: "Harness 到底是什么：为什么同一个模型，换个 Coding Agent 结果会不一样？"
 author: "若飞"
-date: "2026年9月4日 23:09"
+date: "2026-09-04 23:09"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/TusR9UFK6YIfpre7puKbIg"
 ---

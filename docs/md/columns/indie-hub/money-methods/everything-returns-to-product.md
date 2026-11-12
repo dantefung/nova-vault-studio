@@ -1,7 +1,7 @@
 ---
 title: "一切回归产品：手段与目的的边界"
 author: "在悉尼和稀泥"
-date: "2026年10月29日 22:23"
+date: "2026-10-29 22:23"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/oRtfWCi-spYf50V_Sx9w0Q"
 ---

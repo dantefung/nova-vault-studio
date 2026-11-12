@@ -1,0 +1,132 @@
+---
+/**
+ * 博客列表页
+ *
+ * 对应 VitePress 时期的 BlogLayout.vue + BlogIndexLayout.vue。
+ * 数据复用 docs/.vitepress/generated/blog-index.json（由 scripts/build-blog-index.js 生成），
+ * 与 VitePress 时期完全同源，避免两套索引逻辑。
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import SearchBox from '../../../components/SearchBox.astro'
+import blogIndex from '@generated/blog-index.json'
+
+const articles = (blogIndex as any).articles
+const categories = (blogIndex as any).categories
+const series = (blogIndex as any).series
+
+const latest = articles.slice(0, 50)
+const featured = articles.filter((a: any) => a.featured).slice(0, 3)
+const groupByMonth = (list: any[]) => {
+  const map = new Map<string, any[]>()
+  for (const a of list) {
+    const month = (a.date || '').slice(0, 7) || '未知'
+    const arr = map.get(month) ?? []
+    arr.push(a)
+    map.set(month, arr)
+  }
+  return [...map.entries()].sort((a, b) => b[0].localeCompare(a[0]))
+}
+const months = groupByMonth(articles)
+---
+
+<BaseLayout
+  title="博客"
+  description="一个作者关于 AI、软件与独立创造的长期笔记。"
+  landingTheme="quiet"
+  bodyClass="vp-blog-page"
+>
+  <main class="vp-blog-main">
+    <section class="vp-blog-hero">
+      <h1>博客</h1>
+      <p class="vp-blog-lead">
+        一个作者关于 AI、软件与独立创造的长期笔记。共 {articles.length} 篇。
+      </p>
+      <SearchBox variant="hero" />
+    </section>
+
+    <nav class="vp-blog-views" aria-label="博客视图">
+      <a href="/md/blog/" class="is-active">最新</a>
+      <a href="/md/blog/category/">分类</a>
+      <a href="/md/blog/archive/">归档</a>
+      <a href="/md/blog/series/">系列</a>
+    </nav>
+
+    {
+      featured.length > 0 && (
+        <section class="vp-blog-section">
+          <h2 class="vp-blog-section-title">精选</h2>
+          <div class="vp-blog-grid">
+            {featured.map((a: any) => (
+              <a class="vp-article-card" href={a.path}>
+                <small>{a.categoryTitle} · {a.date}</small>
+                <h3>{a.title}</h3>
+                <p>{a.excerpt}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <section class="vp-blog-section">
+      <h2 class="vp-blog-section-title">最新发布</h2>
+      <div class="vp-blog-grid">
+        {
+          latest.map((a: any) => (
+            <a class="vp-article-card" href={a.path}>
+              <small>{a.categoryTitle} · {a.date}</small>
+              <h3>{a.title}</h3>
+              <p>{a.excerpt}</p>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="vp-blog-section">
+      <h2 class="vp-blog-section-title">分类</h2>
+      <ul class="vp-blog-categories">
+        {
+          categories.map((c: any) => (
+            <li>
+              <a href={`/md/blog/category/${c.slug}/`}>
+                {c.title} <span>({c.count})</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    {
+      series.length > 0 && (
+        <section class="vp-blog-section">
+          <h2 class="vp-blog-section-title">系列</h2>
+          <ul class="vp-blog-categories">
+            {series.map((s: any) => (
+              <li>
+                <a href={`/md/blog/series/${s.slug}/`}>
+                  {s.title} <span>({s.count})</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <section class="vp-blog-section">
+      <h2 class="vp-blog-section-title">归档</h2>
+      <ul class="vp-blog-archive">
+        {
+          months.map(([month, list]) => (
+            <li>
+              <a href={`/md/blog/archive/#${month}`}>{month}</a>
+              <span>({list.length})</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

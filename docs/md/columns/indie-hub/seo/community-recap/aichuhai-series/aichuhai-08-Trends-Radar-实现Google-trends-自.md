@@ -1,7 +1,7 @@
 ---
 title: "网站出海分享：Trends Radar 实现Google trends 自动词找词"
 author: "droidHZ"
-date: "2026年7月30日 08:32"
+date: "2026-07-30 08:32"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Xmsgl_SEmkZKNvkSaPbYjg"
 ---

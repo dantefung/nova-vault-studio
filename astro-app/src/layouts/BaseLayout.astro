@@ -1,75 +1,125 @@
 ---
-// src/layouts/BaseLayout.astro
-// 全站基础布局：cookie → html data-theme + 三风格导航
-import '../styles/global.css'
-import '../styles/easton-clone.css'
-import { THEMES, THEME_META, type LandingTheme, SYNC_SCRIPT } from '../lib/theme'
+/**
+ * 站点基础布局
+ *
+ * 对应 VitePress 时期的 MyLayout.vue + DefaultTheme.Layout：
+ * 承担 html 骨架、主题（light/dark/sepia）、顶栏、侧边栏、右侧大纲、页脚、Giscus。
+ *
+ * 与 VitePress 时期的关键差异：
+ * Astro 是静态输出，没有 SSR 阶段可读 cookie/localStorage。
+ * 这恰恰消除了 VitePress 1.6.4 「首页白屏」的根因 ——
+ * 那次白屏是服务端渲染的分支与客户端期望不一致导致的。
+ * 现在主题只通过 html 上的 data-theme 属性表达，纯 CSS 切换，无结构变化。
+ */
+import '../styles/site.css'
+import '../styles/pages.css'
+import Sidebar from '../components/Sidebar.astro'
+import NavBar from '../components/NavBar.astro'
+import Outline from '../components/Outline.astro'
+import ThemeSwitcher from '../components/ThemeSwitcher.astro'
+import LandingThemeSwitcher from '../components/LandingThemeSwitcher.astro'
+import MobileNavSheet from '../components/MobileNavSheet.astro'
+import Giscus from '../components/Giscus.astro'
+import { THEME_INIT_SCRIPT } from '../lib/theme'
 
 interface Props {
-  title: string
+  title?: string
   description?: string
-  theme: LandingTheme
+  /** 当前落地页风格（quiet / easton） */
+  landingTheme?: string
+  /** 是否渲染文档侧边栏 */
+  sidebar?: boolean
+  /** 侧边栏数据 */
+  sidebarItems?: any[]
+  /** 右侧大纲 */
+  headings?: { depth: number; text: string; slug: string }[]
+  /** 是否隐藏顶栏（landing / blog 页面自带顶栏） */
+  bare?: boolean
+  /** 额外 class */
   bodyClass?: string
+  /** 是否显示 Giscus 评论 */
+  comments?: boolean
+  /** OG 图片 */
+  ogImage?: string
+  /** canonical URL */
+  canonical?: string
 }
-const { title, description = 'System Vault — AI / Dev / Automation knowledge base', theme, bodyClass = '' } = Astro.props
+
+const {
+  title,
+  description = 'System Vault — 系统知识库',
+  landingTheme = 'quiet',
+  sidebar = false,
+  sidebarItems = [],
+  headings = [],
+  bare = false,
+  bodyClass = '',
+  comments = false,
+  ogImage,
+  canonical,
+} = Astro.props
+
+const pageTitle = title ? `${title} | System Vault` : 'System Vault — 系统知识库'
+const currentPath = Astro.url.pathname
 ---
+
 <!doctype html>
-<html lang="zh-CN" data-theme={theme}>
+<html lang="zh-CN" data-theme="light" data-landing-theme={landingTheme}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <title>{title}</title>
-    {/* 客户端脚本：localStorage → cookie 同步；早于 body 渲染前执行 */}
-    <script is:inline set:html={SYNC_SCRIPT}></script>
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="theme-color" content="#3c8772" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title || 'System Vault'} />
+    <meta property="og:description" content={description} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    {/* 防闪烁：主题在首屏渲染前同步应用，与 VitePress 时期同一策略 */}
+    <script is:inline set:html={THEME_INIT_SCRIPT}></script>
   </head>
   <body class={bodyClass}>
-    <header class="site-header">
-      <a href="/" class="site-brand">
-        <span class="site-brand-mark">E</span>
-        <span>System Vault</span>
-      </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/">首页</a>
-        <a href="/blog/">列表</a>
-        <a href="/blog/archive/">归档</a>
-        <a href="/blog/series/">系列</a>
-        <a href="/blog/category/">分类</a>
-        <div class="theme-switch" role="group" aria-label="切换首页风格">
-          {THEMES.map((t) => (
-            <button
-              type="button"
-              data-theme-target={t}
-              class:list={['theme-btn', { active: t === theme }]}
-              title={THEME_META[t].desc}
-            >{THEME_META[t].label}</button>
-          ))}
+    {!bare && <NavBar currentPath={currentPath} />}
+    <div class:list={['vp-shell', { 'has-sidebar': sidebar }]}>
+      {sidebar && (
+        <aside class="vp-sidebar" id="vp-sidebar">
+          <Sidebar items={sidebarItems} currentPath={currentPath} />
+        </aside>
+      )}
+      <main class="vp-main">
+        <slot />
+      </main>
+      {headings.length > 0 && <Outline headings={headings} />}
+    </div>
+    {!bare && (
+      <footer class="vp-footer">
+        <div class="vp-footer-inner">
+          <span>Released under the MIT License.</span>
+          <span>Copyright © 2024-present DANTE FUNG</span>
         </div>
-      </nav>
-    </header>
+      </footer>
+    )}
+    {comments && <div class="vp-comments"><Giscus /></div>}
+    <div class="vp-float-tools">
+      <LandingThemeSwitcher />
+      <ThemeSwitcher />
+      <MobileNavSheet />
+    </div>
+    <script>
+      import '../scripts/theme-client.ts'
+    </script>
+    <script>
+      import '../scripts/islands.ts'
+      import '../scripts/mermaid.ts'
+      import '../scripts/markmap.ts'
+      import { initMermaid } from '../scripts/mermaid.ts'
+      import { initMarkmap } from '../scripts/markmap.ts'
 
-    <slot />
-
-    <footer class="footer">
-      <p>System Vault · Astro rebuild · 主题：{theme}</p>
-    </footer>
-
-    {/* 主题切换交互：localStorage + cookie + reload 让 SSR 下次拿到正确值 */}
-    <script is:inline>
-      (function(){
-        const LS_KEY = 'vp-landing-theme';
-        const COOKIE = 'landingTheme';
-        const VALID = ['quiet','easton','easton-clone'];
-        document.querySelectorAll('button[data-theme-target]').forEach(btn => {
-          btn.addEventListener('click', () => {
-            const t = btn.getAttribute('data-theme-target');
-            if (!t || !VALID.includes(t)) return;
-            try { localStorage.setItem(LS_KEY, t); } catch(e) {}
-            document.cookie = COOKIE + '=' + encodeURIComponent(t) + '; path=/; max-age=31536000; SameSite=Lax';
-            window.location.reload();
-          });
-        });
-      })();
+      initMermaid()
+      initMarkmap()
     </script>
   </body>
 </html>

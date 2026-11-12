@@ -1,7 +1,7 @@
 ---
 title: "一人公司出海收款：水星银行还是香港账户？"
 author: "孟健的AI编程认知"
-date: "2026年9月28日 17:54"
+date: "2026-09-28 17:54"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/hsLHbO7rI5g2y0iVIt1xeA"
 ---

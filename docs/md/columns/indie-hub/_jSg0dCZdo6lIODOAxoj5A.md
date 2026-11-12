@@ -1,7 +1,7 @@
 ---
 title: "月入300美元时，他差点卖掉网站；半年后月入1万美元"
 author: "我是哥飞"
-date: "2026年9月26日 08:54"
+date: "2026-09-26 08:54"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/_jSg0dCZdo6lIODOAxoj5A"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Codex 核心团队复盘：从 30 秒一次反馈，到放手跑几小时"
 author: "若飞"
-date: "2026年10月26日 23:48"
+date: "2026-10-26 23:48"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/rTyr9o2r2VMdp0MVfZf2tw"
 ---

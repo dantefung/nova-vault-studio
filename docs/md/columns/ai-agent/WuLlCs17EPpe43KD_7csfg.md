@@ -1,7 +1,7 @@
 ---
 title: "我开源了我的公众号写作工作流：修订、标题、排版、配图，四步全交给 AI"
 author: "云峰Ivan"
-date: "2026年9月26日 09:07"
+date: "2026-09-26 09:07"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/WuLlCs17EPpe43KD_7csfg"
 ---

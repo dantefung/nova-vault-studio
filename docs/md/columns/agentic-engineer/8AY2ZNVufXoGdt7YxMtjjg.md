@@ -1,7 +1,7 @@
 ---
 title: "企业架构思考：从 Harness 到 AgentOS"
 author: "看山灬"
-date: "2026年10月10日 18:00"
+date: "2026-10-10 18:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/8AY2ZNVufXoGdt7YxMtjjg"
 ---

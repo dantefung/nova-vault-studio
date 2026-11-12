@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：出海创业的熵减思维"
 author: "droidHZ"
-date: "2026年5月31日 08:24"
+date: "2026-05-31 08:24"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/iLHFXmIKCnd5Tr6RLBnBcg"
 ---

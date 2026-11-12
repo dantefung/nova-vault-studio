@@ -1,7 +1,7 @@
 ---
 title: "不再望而生畏：金融衍生品的本质与核心逻辑简明介绍"
 author: "光速白眉"
-date: "2026年10月19日 08:00"
+date: "2026-10-19 08:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/4eZMcD-RpaJnG2Q_mw2-oQ"
 ---

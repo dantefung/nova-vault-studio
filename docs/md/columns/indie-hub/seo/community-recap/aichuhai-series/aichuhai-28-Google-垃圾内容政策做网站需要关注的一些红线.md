@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：Google 垃圾内容政策，做网站需要关注的一些红线"
 author: "droidHZ"
-date: "2026年6月5日 07:50"
+date: "2026-06-05 07:50"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/67c8v6-Xu2eAPYGwjrwMBg"
 ---

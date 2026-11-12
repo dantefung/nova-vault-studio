@@ -1,7 +1,7 @@
 ---
 title: "AgentScope Java 2.0 工具系统架构：@Tool、Toolkit、ToolGroup 三层设计详解"
 author: "2026年7月27日 19:12"
-date: "2026年7月27日 19:12"
+date: "2026-07-27 19:12"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/3PPy1gB5gxhZSBSxWQ6rng"
 ---

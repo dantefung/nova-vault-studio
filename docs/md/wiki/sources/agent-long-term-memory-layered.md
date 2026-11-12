@@ -1,7 +1,7 @@
 ---
 title: "Agent长记忆落地——会话越攒越多，我用的「摘要+检索+衰减」三层方案，效果还不错"
 author: "唐成"
-date: "2026年9月8日 09:29"
+date: "2026-09-08 09:29"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/NAMiUEq0eve67LrGAlZZXQ"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "DeepSeek Bot 源码拆解：多 Agent 怎样从演示走向一套可运行的系统"
 author: "若飞"
-date: "2026年10月12日 21:58"
+date: "2026-10-12 21:58"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/UOsTDVX9QSijpw_RITq6_g"
 ---

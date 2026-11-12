@@ -1,7 +1,7 @@
 ---
 title: "AI Agent 架构全链路拆解：从 Planner、Tool、MCP 到 Memory 和 Reflection"
 author: "若飞"
-date: "2026年10月5日 22:39"
+date: "2026-10-05 22:39"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/5SXa7vHTiGYTQNSIR6a-Pg"
 ---

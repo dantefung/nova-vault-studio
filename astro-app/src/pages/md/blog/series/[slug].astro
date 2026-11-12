@@ -1,0 +1,56 @@
+---
+/**
+ * 博客系列页
+ *
+ * 对应 VitePress 时期的 SeriesLayout.vue。
+ * /md/blog/series/<slug>/ 由动态路由生成。
+ */
+import BaseLayout from '../../../../layouts/BaseLayout.astro'
+import blogIndex from '@generated/blog-index.json'
+
+export async function getStaticPaths() {
+  const index = blogIndex as any
+  return index.series.map((s: any) => ({
+    params: { slug: s.slug },
+    props: { series: s },
+  }))
+}
+
+const { series } = Astro.props
+const index = blogIndex as any
+const articles = index.articles.filter((a: any) => a.series === series.slug)
+---
+
+<BaseLayout
+  title={`${series.title} · 博客系列`}
+  description={`系列「${series.title}」的 ${articles.length} 篇文章。`}
+  landingTheme="quiet"
+  bodyClass="vp-blog-page"
+>
+  <main class="vp-blog-main">
+    <section class="vp-blog-hero">
+      <h1>{series.title}</h1>
+      <p class="vp-blog-lead">共 {articles.length} 篇。</p>
+      <nav class="vp-blog-views" aria-label="博客视图">
+        <a href="/md/blog/">最新</a>
+        <a href="/md/blog/category/">分类</a>
+        <a href="/md/blog/archive/">归档</a>
+        <a href="/md/blog/series/" class="is-active">系列</a>
+      </nav>
+    </section>
+
+    <ul class="vp-blog-list">
+      {
+        articles.map((a: any) => (
+          <li>
+            <a href={a.path}>{a.title}</a>
+            <span class="vp-blog-list-meta">
+              {a.date}
+              {a.author ? ` · ${a.author}` : ''}
+            </span>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</BaseLayout>

@@ -1,7 +1,7 @@
 ---
 title: "AI 重塑研发范式，从技能驱动到意图驱动"
 author: "hhhhhh"
-date: "2026年9月21日 16:00"
+date: "2026-09-21 16:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/RLP2BV0z4achAGg8b1Nu9A"
 ---

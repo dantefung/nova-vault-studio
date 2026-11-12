@@ -1,7 +1,7 @@
 ---
 title: "我的 Agent 工作流：终端折腾了一圈，又回到了 Warp"
 author: "crossoverJie"
-date: "2026年9月24日 08:08"
+date: "2026-09-24 08:08"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/U8_bMMYAgRTWIb3ZuzsNjQ"
 ---

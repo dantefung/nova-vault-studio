@@ -1,7 +1,7 @@
 ---
 title: "独立开发两年，咔叽哇讲怎么低成本启动项目、拿到第一批用户"
 author: "我是哥飞"
-date: "2026年8月4日 10:58"
+date: "2026-08-04 10:58"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/bxmWFKTYdga5bdf4AOvaNg"
 ---

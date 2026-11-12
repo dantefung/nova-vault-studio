@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：stripe第一次遇到争议，应该怎么处理"
 author: "droidHZ"
-date: "2026年6月13日 07:15"
+date: "2026-06-13 07:15"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/b6XAvi1VB3wZYo044fkztQ"
 ---

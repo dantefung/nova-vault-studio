@@ -1,7 +1,7 @@
 ---
 title: "创业的尽头是 Ultra、旅居与自媒体"
 author: "手工川"
-date: "2026年10月3日 23:15"
+date: "2026-10-03 23:15"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/_PimzH5_vrPkbcimGIJFeQ"
 ---

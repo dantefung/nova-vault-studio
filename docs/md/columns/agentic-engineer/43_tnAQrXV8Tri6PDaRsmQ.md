@@ -1,7 +1,7 @@
 ---
 title: "拆开 Pi：Agent Harness 的极简设计"
 author: "若飞"
-date: "2026年10月11日 23:19"
+date: "2026-10-11 23:19"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/43_tnAQrXV8Tri6PDaRsmQ"
 ---

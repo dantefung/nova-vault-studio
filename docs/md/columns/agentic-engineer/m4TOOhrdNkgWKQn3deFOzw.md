@@ -1,7 +1,7 @@
 ---
 title: "别让写代码的 Agent 评审自己：AI 代码评审的三道闸门"
 author: "GrissomFI"
-date: "2026年10月6日 10:08"
+date: "2026-10-06 10:08"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/m4TOOhrdNkgWKQn3deFOzw"
 ---

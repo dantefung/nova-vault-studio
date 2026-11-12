@@ -1,7 +1,7 @@
 ---
 title: "词太小上不去？从已验证的页面往上下游挖，比找新词稳"
 author: "袁锐钦"
-date: "2026年9月8日 10:34"
+date: "2026-09-08 10:34"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/n19zM2pEZjoG9aEISOYUpw"
 ---

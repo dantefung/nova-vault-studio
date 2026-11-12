@@ -1,7 +1,7 @@
 ---
 title: "从 0 到上线：别急着写代码，先去 GitHub 找轮子"
 author: "2026年9月12日 16:52"
-date: "2026年9月12日 16:52"
+date: "2026-09-12 16:52"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/VaPDTFUFa4_otAnSmQSF7A"
 ---

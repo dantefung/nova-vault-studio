@@ -1,7 +1,7 @@
 ---
 title: "为什么工业不能照搬 Palantir Ontology-从决策本体到物理本体："
 author: "边界思维"
-date: "2026年7月14日 16:39"
+date: "2026-07-14 16:39"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/584VyqlwApnX_J5_TBzs8A"
 ---

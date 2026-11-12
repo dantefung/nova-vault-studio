@@ -1,7 +1,7 @@
 ---
 title: "什么是世界模型？"
 author: "朱小厮"
-date: "2026年9月18日 08:31"
+date: "2026-09-18 08:31"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/aFtoqzFExrmRCdgNYB-j2Q"
 ---

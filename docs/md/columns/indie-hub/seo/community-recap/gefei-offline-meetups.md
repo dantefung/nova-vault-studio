@@ -1,7 +1,7 @@
 ---
 title: "最近一两周，哥飞在贵阳、合肥、上海的朋友们都组起了线下局"
 author: "我是哥飞"
-date: "2026年9月19日 13:48"
+date: "2026-09-19 13:48"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/ITx2aNjW5tvMGzgrJlHQ4Q"
 ---

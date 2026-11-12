@@ -1,7 +1,7 @@
 ---
 title: "普通人如何“上牌桌”？"
 author: "澎湃王侯"
-date: "2026年8月19日 21:20"
+date: "2026-08-19 21:20"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/sdfbLiyTeGmTYo1s-Xvg2Q"
 ---

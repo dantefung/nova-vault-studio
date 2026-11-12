@@ -1,0 +1,35 @@
+---
+/**
+ * 文档页顶部元信息（标题、日期、来源、作者）
+ *
+ * 对应 VitePress 时期的 ArticleHero.vue / ArticleMeta.vue。
+ */
+interface Props {
+  title: string
+  url: string
+  date?: Date
+  source?: string
+  author?: string
+  description?: string
+}
+
+const { title, url, date, source, author, description } = Astro.props
+
+const dateStr = date
+  ? (date instanceof Date ? date.toISOString().slice(0, 10) : String(date))
+  : ''
+---
+
+<div class="vp-doc-hero">
+  <h1 class="vp-doc-title">{title}</h1>
+  {description && <p class="vp-doc-lead">{description}</p>}
+  {
+    (dateStr || source || author) && (
+      <div class="vp-doc-meta">
+        {dateStr && <span class="vp-doc-meta-item">发布于 {dateStr}</span>}
+        {author && <span class="vp-doc-meta-item">作者 {author}</span>}
+        {source && <span class="vp-doc-meta-item">来源 {source}</span>}
+      </div>
+    )
+  }
+</div>

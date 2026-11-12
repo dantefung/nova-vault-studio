@@ -10,11 +10,11 @@ const tags = ['CODE', 'AGENT', 'SOLO']
     <div class="easton-clone-section-head">
       <span>精选系列专题</span>
       <strong>每个专题都有完整的阅读路径，从第一篇系统读起。</strong>
-      <a href="/blog/series/">浏览系列 →</a>
+      <a href="/md/blog/series/">浏览系列 →</a>
     </div>
     <div class="easton-clone-series-grid">
       {series.map((s, i) => (
-        <a href={`/blog/series/${s.slug}/`} class:list={['easton-clone-series-card', tones[i % 3]]}>
+        <a href={`/md/blog/series/${s.slug}/`} class:list={['easton-clone-series-card', tones[i % 3]]}>
           <div class="easton-clone-art"><span>{tags[i % 3]}</span></div>
           <small>{s.title} · {s.count} 篇</small>
           <h2>{s.title}</h2>

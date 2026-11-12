@@ -1,7 +1,7 @@
 ---
 title: "想让 AI 帮我看网站数据，Google Cloud 的权限把我绕晕了"
 author: "小拾随语"
-date: "2026年10月2日 18:53"
+date: "2026-10-02 18:53"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/tDhuvYPpe2GAgOSdoN8vUQ"
 ---

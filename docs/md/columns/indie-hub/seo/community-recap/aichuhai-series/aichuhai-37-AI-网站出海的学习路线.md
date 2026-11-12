@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：AI 网站出海的学习路线"
 author: "droidHZ"
-date: "2026年5月26日 07:33"
+date: "2026-05-26 07:33"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/5DN254ifgjJiiu45nOJ68w?scene=1&click_id=49"
 ---

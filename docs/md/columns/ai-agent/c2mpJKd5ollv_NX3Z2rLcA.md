@@ -1,7 +1,7 @@
 ---
 title: "你真的懂 sizeof 吗？结构体内存对齐原理 + 图解 + 实战"
 author: "xiaokang1998"
-date: "2026年9月25日 07:00"
+date: "2026-09-25 07:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/c2mpJKd5ollv_NX3Z2rLcA"
 ---

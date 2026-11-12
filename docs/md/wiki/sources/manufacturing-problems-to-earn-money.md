@@ -1,7 +1,7 @@
 ---
 title: "“解决问题”不赚钱，反过来才赚钱"
 author: "澎湃王侯"
-date: "2026年8月1日 21:52"
+date: "2026-08-01 21:52"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/MsT4xgkyLGZ7Ynfb0RPmWw"
 ---

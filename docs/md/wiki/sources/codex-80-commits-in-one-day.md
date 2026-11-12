@@ -1,7 +1,7 @@
 ---
 title: "我用 Codex 一天提交了 80 次代码"
 author: "2026年8月21日 15:00"
-date: "2026年8月21日 15:00"
+date: "2026-08-21 15:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/kPlYZOY_Cjb_g84ZGzooxQ"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "本体驱动的AI原生应用开发-个人ontology-driven-dev开源项目解读和说明"
 author: "何明璐"
-date: "2026年10月7日 08:12"
+date: "2026-10-07 08:12"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/oexhixlqSPDcS2L2rfaeTA"
 ---

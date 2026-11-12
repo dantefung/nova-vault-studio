@@ -1,7 +1,7 @@
 ---
 title: "谷歌开源Harness，支持 OpenCode 和 Codex：国内开发者接入Jev实测“真行”"
 author: "褚杏娟"
-date: "2026年10月19日 14:24"
+date: "2026-10-19 14:24"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/gcOYdW937cXjseegis5bbg"
 ---

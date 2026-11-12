@@ -1,7 +1,7 @@
 ---
 title: "阿里云 AgentCore 产品负责人解读产品全景"
 author: "李国强"
-date: "2026年10月12日 15:40"
+date: "2026-10-12 15:40"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/myyCv_CuEwmyGi4rzW8GJg"
 ---

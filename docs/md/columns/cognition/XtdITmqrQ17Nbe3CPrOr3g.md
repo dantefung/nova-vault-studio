@@ -1,7 +1,7 @@
 ---
 title: "思维系列-关于方法论我这些年真正想明白的几件事"
 author: "何明璐"
-date: "2026年10月1日 08:00"
+date: "2026-10-01 08:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/XtdITmqrQ17Nbe3CPrOr3g"
 ---

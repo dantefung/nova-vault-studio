@@ -1,7 +1,7 @@
 ---
 title: "浩承yang：入群15个月，月入万刀走过的那些弯路"
 author: "我是哥飞"
-date: "2026年10月19日 23:10"
+date: "2026-10-19 23:10"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/XHnGn3iSaGtxJ7L9FHRUjw"
 ---

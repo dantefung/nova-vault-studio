@@ -1,7 +1,7 @@
 ---
 title: "给自己一点时间，给自己一个机会，多一点耐心，快一点成功"
 author: "我是哥飞"
-date: "2025年1月5日 09:29"
+date: "2025-01-05 09:29"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/CmosXPsDV9zMIY4iOTgyMw"
 ---

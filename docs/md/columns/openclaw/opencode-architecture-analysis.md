@@ -1,7 +1,7 @@
 ---
 title: "OpenCode架构与扩展能力解析"
 author: "温桂阳"
-date: "2026年9月8日 14:08"
+date: "2026-09-08 14:08"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/3Z49rhJa63adsNdneImKig"
 ---

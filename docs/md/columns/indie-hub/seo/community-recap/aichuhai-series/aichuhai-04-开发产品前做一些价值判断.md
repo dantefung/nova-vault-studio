@@ -1,7 +1,7 @@
 ---
 title: "网站出海分享：开发产品前做一些价值判断"
 author: "droidHZ"
-date: "2026年8月14日 07:23"
+date: "2026-08-14 07:23"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/upBdm5zYL2dbGBWieeeshg"
 ---

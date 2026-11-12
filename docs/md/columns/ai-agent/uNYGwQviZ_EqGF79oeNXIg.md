@@ -1,7 +1,7 @@
 ---
 title: "为什么借钱的人多半不会再还"
 author: "陈十三"
-date: "2026年9月24日 23:58"
+date: "2026-09-24 23:58"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/uNYGwQviZ_EqGF79oeNXIg"
 ---

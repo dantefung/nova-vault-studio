@@ -1,7 +1,7 @@
 ---
 title: "15 个 Agent 组成研发小队：多智能体协作的端到端研发体系"
 author: "马云雷"
-date: "2026年10月12日 20:23"
+date: "2026-10-12 20:23"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/qI3RQHugPAcifT8AI6q_dg"
 ---

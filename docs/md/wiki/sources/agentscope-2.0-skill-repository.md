@@ -1,7 +1,7 @@
 ---
 title: "企业级Agent Skill技能中台实战：像搭 OverlayFS 一样组合五层 SkillRepository"
 author: "一灰灰blog"
-date: "2026年8月10日 17:36"
+date: "2026-08-10 17:36"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/98O22sqo5kZK1Mdv0Ezs_g"
 ---

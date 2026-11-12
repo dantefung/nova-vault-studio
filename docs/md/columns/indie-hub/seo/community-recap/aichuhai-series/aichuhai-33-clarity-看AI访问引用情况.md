@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：clarity 看AI访问引用情况"
 author: "droidHZ"
-date: "2026年5月30日 07:27"
+date: "2026-05-30 07:27"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/RYCQQ9eVgFTYDkcJM1k1GQ"
 ---

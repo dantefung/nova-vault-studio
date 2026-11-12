@@ -1,7 +1,7 @@
 ---
 title: "一文搞懂「对账系统」"
 author: "陈天宇宙"
-date: "2026年10月12日 20:19"
+date: "2026-10-12 20:19"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/KJZYmE-F-IYIDR0HjArbgw"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "华强北卖家嫌客服邮件太多，写了个工具，后来拿到6600万美元融资"
 author: "我是哥飞"
-date: "2026年9月12日 13:54"
+date: "2026-09-12 13:54"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/nsRoLOrx8CyousXjtpTEaw"
 ---

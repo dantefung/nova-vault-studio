@@ -1,7 +1,7 @@
 ---
 title: "小宇宙播客也能转文章了！开源  OnePod 全套 Skills"
 author: "空格丶"
-date: "2026年6月24日 11:11"
+date: "2026-06-24 11:11"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/kRrTqdWHmMV5yb7vrQ6Mww"
 ---

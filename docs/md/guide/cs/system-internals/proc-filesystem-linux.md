@@ -1,7 +1,7 @@
 ---
 title: "/proc 不是磁盘：Linux 虚拟文件系统的运行机制"
 author: "程序员学习随笔"
-date: "2026年9月18日 07:25"
+date: "2026-09-18 07:25"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/bYgPL3R0BI4iEx3Z9V7IsQ"
 ---

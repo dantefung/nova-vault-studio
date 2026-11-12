@@ -1,7 +1,7 @@
 ---
 title: "商业银行的代客贵金属业务有哪些"
 author: "光速白眉"
-date: "2026年10月12日 08:00"
+date: "2026-10-12 08:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/LiNzxxK_ex22Ytg13kNR_A"
 ---

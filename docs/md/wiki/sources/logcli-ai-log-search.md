@@ -1,7 +1,7 @@
 ---
 title: "把 GUI 监控改成 CLI 后，AI 自助查日志真的太香了"
 author: "一灰灰blog"
-date: "2026年7月20日 18:01"
+date: "2026-07-20 18:01"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/BFTdAc3mkm_ifQFzXNp_2Q"
 ---

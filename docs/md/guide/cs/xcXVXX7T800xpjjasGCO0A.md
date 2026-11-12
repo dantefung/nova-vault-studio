@@ -1,7 +1,7 @@
 ---
 title: "malloc 的内存到底从哪来？图解 Linux 内存管理：brk、mmap、缺页、伙伴系统与 slab"
 author: "xiaokang1998"
-date: "2026年10月12日 11:18"
+date: "2026-10-12 11:18"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/xcXVXX7T800xpjjasGCO0A"
 ---

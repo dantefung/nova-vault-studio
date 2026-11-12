@@ -1,7 +1,7 @@
 ---
 title: "【哥飞SEO教程】找不到下一个关键词？用“站找站、站找词”顺藤摸瓜"
 author: "我是哥飞"
-date: "2026年9月5日 12:33"
+date: "2026-09-05 12:33"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/hSUqMsh7F80jWawp-K39-w"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "用 AI 定位生产环境 Bug 的 5 个实战套路"
 author: "码哥"
-date: "2026年9月10日 08:41"
+date: "2026-09-10 08:41"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/C1QDT1hdAcuyaQZOQWAIGA"
 ---

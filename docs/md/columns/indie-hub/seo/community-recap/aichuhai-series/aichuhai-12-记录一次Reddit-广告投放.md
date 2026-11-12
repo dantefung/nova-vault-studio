@@ -1,7 +1,7 @@
 ---
 title: "网站出海分享：记录一次Reddit 广告投放"
 author: "droidHZ"
-date: "2026年7月10日 07:07"
+date: "2026-07-10 07:07"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/qwfWslvkB5qplocjAiNe0A"
 ---

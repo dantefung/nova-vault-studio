@@ -1,7 +1,7 @@
 ---
 title: "AI SaaS选题，先过钱味"
 author: "Hilda01AI"
-date: "2026年5月23日 19:28"
+date: "2026-05-23 19:28"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/n_hkxgZPgeiFYMF10fcftA"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "做砸两个产品后，他把50多个AI模型装进一个网站，累计营收超过200万美元"
 author: "我是哥飞"
-date: "2026年8月19日 21:24"
+date: "2026-08-19 21:24"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/UOFwGIC1ZD3QOMCdD3ucMw"
 ---

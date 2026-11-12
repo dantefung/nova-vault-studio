@@ -1,0 +1,37 @@
+---
+/**
+ * 移动端导航抽屉
+ *
+ * VitePress 时期的 MobileNavSheet.vue 用 Vue 组件 + body class 实现；
+ * 这里改为原生 <dialog>，无框架依赖，行为一致。
+ */
+---
+
+<button type="button" class="vp-mobile-nav-toggle" id="vp-mobile-nav-toggle" aria-label="打开导航">
+  ☰
+</button>
+
+<dialog class="vp-mobile-nav" id="vp-mobile-nav" aria-label="移动端导航">
+  <div class="vp-mobile-nav-head">
+    <span class="vp-mobile-nav-brand">System Vault</span>
+    <button type="button" class="vp-mobile-nav-close" id="vp-mobile-nav-close" aria-label="关闭导航">✕</button>
+  </div>
+  <nav class="vp-mobile-nav-body" id="vp-mobile-nav-body"></nav>
+</dialog>
+
+<script>
+  const toggle = document.getElementById('vp-mobile-nav-toggle')
+  const dialog = document.getElementById('vp-mobile-nav') as HTMLDialogElement | null
+  const close = document.getElementById('vp-mobile-nav-close')
+
+  toggle?.addEventListener('click', () => {
+    dialog?.showModal()
+  })
+  close?.addEventListener('click', () => {
+    dialog?.close()
+  })
+  // 点击遮罩关闭
+  dialog?.addEventListener('click', (e) => {
+    if (e.target === dialog) dialog.close()
+  })
+</script>

@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：Trustpilot 三个用法：外链、挖需求、提转化"
 author: "droidHZ"
-date: "2026年5月28日 07:21"
+date: "2026-05-28 07:21"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/IQJAf2jFha0Te2-SkNtdqw"
 ---

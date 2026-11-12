@@ -1,7 +1,7 @@
 ---
 title: "来，30分钟免费做个网站"
 author: "船长"
-date: "2026年5月14日 17:24"
+date: "2026-05-14 17:24"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/7MCpza_Esq5AT6H-En4tBg"
 ---

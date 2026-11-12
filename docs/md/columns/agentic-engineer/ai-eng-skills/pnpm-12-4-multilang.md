@@ -1,7 +1,7 @@
 ---
 title: "pnpm 12.4：统一多语言开发工作流"
 author: "lencx"
-date: "2026年9月12日 16:38"
+date: "2026-09-12 16:38"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/CTcAVT2wrlYMzu1xO4nM8w"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：看看工具类出海APP 是怎么做的"
 author: "droidHZ"
-date: "2026年6月8日 07:39"
+date: "2026-06-08 07:39"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/_xfGK1UbAqWbzvkxlzY3UQ"
 ---

@@ -1,77 +1,126 @@
 ---
-// src/pages/index.astro
-// 首页：根据 cookie 中的 landingTheme 决定 SSR 渲染哪个分支
-// 这是修复 VitePress 1.6.4 首页白屏 bug 的核心：Astro SSR 阶段就能读 cookie
-
+/**
+ * 落地页（首页）
+ *
+ * 对应 VitePress 时期的 HomeLayout.vue。
+ * 结构与内容保持一致：知识分类入口 + 最近更新。
+ */
+import { getCollection } from 'astro:content'
 import BaseLayout from '../layouts/BaseLayout.astro'
-import HeroBlock from '../components/HeroBlock.astro'
-import EntryGrid from '../components/EntryGrid.astro'
-import SeriesSection from '../components/SeriesSection.astro'
-import FeaturedSection from '../components/FeaturedSection.astro'
-import LatestSection from '../components/LatestSection.astro'
-import CategoriesSection from '../components/CategoriesSection.astro'
-import EastonCloneFooter from '../components/EastonCloneFooter.astro'
-import { readLandingThemeFromCookies } from '../lib/theme'
-import { latest } from '../lib/blog-index'
+import SearchBox from '../components/SearchBox.astro'
+import { entryToUrl } from '../lib/content'
 
-const theme = readLandingThemeFromCookies(Astro.cookies)
-const recent = latest(5)
+const libraryEntries = [
+  { label: '指南', description: '从基础配置到日常工作流，先从这里开始。', href: '/md/guide/getting-started', featured: true },
+  { label: 'Wiki', description: '把概念、模式与实践连接成可复用的知识。', href: '/md/wiki/' },
+  { label: '专栏', description: '围绕 AI、开发与独立创造的长期思考。', href: '/md/columns/' },
+  { label: '书籍', description: '适合慢读、反复查阅与持续积累的书架。', href: '/md/books/' },
+  { label: '教程', description: '按步骤完成具体事情的实践材料。', href: '/md/tutorial/' },
+  { label: 'AGI', description: '关于智能系统、模型与未来工作的记录。', href: '/md/agi/' },
+  { label: '商业', description: '市场、模式、投资与产品判断。', href: '/md/business/' },
+  { label: 'Slides', description: '可横向阅读的演示与视觉化内容。', href: '/md/slides/' },
+]
+
+// 最近更新：按 frontmatter date 倒序，取最新的 6 篇
+const entries = await getCollection('docs')
+
+/** 统一取时间戳：date 可能是 Date、字符串，或解析失败的原值 */
+function timeOf(entry: any): number {
+  const d = entry?.data?.date
+  if (d instanceof Date) return d.getTime()
+  if (typeof d === 'number') return d
+  if (typeof d === 'string') {
+    const t = Date.parse(d)
+    if (!Number.isNaN(t)) return t
+  }
+  return 0
+}
+
+const recent = entries
+  .filter((e) => timeOf(e) > 0)
+  .sort((a, b) => timeOf(b) - timeOf(a))
+  .slice(0, 6)
+  .map((e) => ({
+    title: (e.data as any).title ?? e.id.split('/').pop() ?? e.id,
+    href: entryToUrl(e),
+    meta: formatMeta(e),
+  }))
+
+function formatMeta(entry: any): string {
+  const ts = timeOf(entry)
+  const dateStr = ts ? new Date(ts).toISOString().slice(0, 10) : ''
+  const path = entry.id.split('/')
+  const section = path[0] ?? ''
+  const labels: Record<string, string> = {
+    guide: '指南',
+    wiki: '知识库',
+    columns: '专栏',
+    books: '书籍',
+    business: '商业',
+    tutorial: '教程',
+    agi: 'AGI',
+    slides: '幻灯片',
+    sitelog: '站点日志',
+  }
+  const label = labels[section] ?? section
+  return dateStr ? `${label} · ${dateStr}` : label
+}
 ---
-<BaseLayout title="System Vault — AI / Dev / Automation" theme={theme}>
-  {theme === 'easton-clone' ? (
-    <main class="easton-clone-page">
-      <HeroBlock />
-      <EntryGrid />
-      <SeriesSection />
-      <FeaturedSection />
-      <LatestSection />
-      <CategoriesSection />
-      <EastonCloneFooter />
-    </main>
-  ) : theme === 'easton' ? (
-    <main class="container">
-      <section class="hero">
-        <h1>System Vault</h1>
-        <p>Easton 风格的文档知识库首页占位。点击右上角切换到 <code>easton-clone</code> 查看博客化整体首页。</p>
-        <div class="tabs">
-          <span>分类导航：</span>
-          <a href="/blog/agentic-engineer/">Agentic Engineer</a>
-          <a href="/blog/cognition/">认知</a>
-          <a href="/blog/investment/">投资</a>
-        </div>
-      </section>
-      <section>
-        <h2>最近发布</h2>
-        <div class="grid-3" style="margin-top:16px;">
-          {recent.map((a) => (
-            <a href={a.path} class="article-card">
-              <small>{a.date} · {a.categoryTitle}</small>
-              <h2>{a.title}</h2>
-              <p>{a.excerpt}</p>
+
+<BaseLayout
+  title="System Vault"
+  description="系统知识库 - 凡是过往，皆为序章"
+  landingTheme="quiet"
+  bodyClass="vp-landing"
+>
+  <main class="vp-landing-main">
+    <section class="vp-library-hero" aria-labelledby="vp-library-title">
+      <p class="vp-library-kicker">A PERSONAL KNOWLEDGE LIBRARY</p>
+      <h1 id="vp-library-title">A personal knowledge library</h1>
+      <p class="vp-library-lead">把零散知识，整理成可以反复使用的系统。</p>
+      <p class="vp-library-description">
+        AI、开发、商业、书籍与长期学习的工作记录。安静地阅读，清楚地找到下一步。
+      </p>
+      <div class="vp-library-actions">
+        <SearchBox variant="hero" />
+        <a href="/md/guide/getting-started" class="vp-library-action">开始阅读 <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="vp-library-section" aria-labelledby="vp-library-start-title">
+      <div class="vp-library-heading">
+        <p class="vp-library-kicker">EXPLORE THE LIBRARY</p>
+        <h2 id="vp-library-start-title">知识分类入口</h2>
+      </div>
+      <div class="vp-library-grid">
+        {
+          libraryEntries.map((entry) => (
+            <a href={entry.href} class:list={['vp-library-entry', { 'is-featured': entry.featured }]}>
+              <span class="vp-library-entry-label">{entry.label}</span>
+              <span class="vp-library-entry-description">{entry.description}</span>
+              <span class="vp-library-entry-arrow" aria-hidden="true">↗</span>
             </a>
-          ))}
-        </div>
-      </section>
-    </main>
-  ) : (
-    <main class="container">
-      <section class="hero">
-        <h1>System Vault</h1>
-        <p>AI / Dev / Automation 知识库。{recent.length} 篇文章，按主题归档。</p>
-        <p style="color:var(--theme-body);font-size:14px;">右上角可切换 <b>Easton</b> / <b>Easton Clone</b> 风格。</p>
-      </section>
-      <section>
-        <h2 style="font-size:22px;">最近发布</h2>
-        <div class="grid-3" style="margin-top:16px;">
-          {recent.map((a) => (
-            <a href={a.path} class="article-card">
-              <small>{a.date} · {a.categoryTitle}</small>
-              <h2>{a.title}</h2>
-              <p>{a.excerpt}</p>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="vp-library-section" aria-labelledby="vp-library-recent-title">
+      <div class="vp-library-heading">
+        <p class="vp-library-kicker">RECENTLY ADDED</p>
+        <h2 id="vp-library-recent-title">最近更新</h2>
+      </div>
+      <div class="vp-library-recent">
+        {
+          recent.map((item) => (
+            <a href={item.href} class="vp-library-recent-item">
+              <span class="vp-library-recent-title">{item.title}</span>
+              <span class="vp-library-recent-meta">{item.meta}</span>
+              <span class="vp-library-entry-arrow" aria-hidden="true">↗</span>
             </a>
-          ))}
-        </div>
-      </section>
-    </main>
-  )}
+          ))
+        }
+      </div>
+    </section>
+  </main>
 </BaseLayout>

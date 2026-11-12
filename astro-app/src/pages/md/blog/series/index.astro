@@ -1,0 +1,37 @@
+---
+/**
+ * 博客系列索引页
+ */
+import BaseLayout from '../../../../layouts/BaseLayout.astro'
+import blogIndex from '@generated/blog-index.json'
+
+const series = (blogIndex as any).series
+---
+
+<BaseLayout title="博客系列" description="按系列浏览文章。" landingTheme="quiet" bodyClass="vp-blog-page">
+  <main class="vp-blog-main">
+    <section class="vp-blog-hero">
+      <h1>系列</h1>
+      <p class="vp-blog-lead">共 {series.length} 个系列。</p>
+      <nav class="vp-blog-views" aria-label="博客视图">
+        <a href="/md/blog/">最新</a>
+        <a href="/md/blog/category/">分类</a>
+        <a href="/md/blog/archive/">归档</a>
+        <a href="/md/blog/series/" class="is-active">系列</a>
+      </nav>
+    </section>
+
+    <section class="vp-blog-section">
+      <ul class="vp-blog-list">
+        {
+          series.map((s: any) => (
+            <li>
+              <a href={`/md/blog/series/${s.slug}/`}>{s.title}</a>
+              <span class="vp-blog-list-meta">{s.count} 篇</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

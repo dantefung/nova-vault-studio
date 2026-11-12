@@ -1,0 +1,78 @@
+---
+/**
+ * 侧边栏
+ *
+ * 数据来自 src/generated/nav.json（由 scripts/build-astro-nav.mjs 生成，
+ * 与 VitePress 时期共用 scripts/lib/sidebar-core.mjs 的生成逻辑）。
+ *
+ * VitePress 的侧边栏是客户端渲染的折叠树，这里同样用 <details> 承载折叠状态，
+ * 保证无 JS 时也能展开阅读。
+ */
+interface Item {
+  text?: string
+  link?: string
+  items?: Item[]
+  collapsed?: boolean
+}
+
+interface Props {
+  items: Item[]
+  currentPath: string
+}
+
+const { items, currentPath } = Astro.props
+
+const norm = (p: string) => p.replace(/\/+$/, '')
+const current = norm(currentPath)
+
+function isActive(link?: string) {
+  if (!link) return false
+  const l = norm(link)
+  return current === l || current.startsWith(l + '/')
+}
+---
+
+<nav class="vp-sidebar-nav" aria-label="侧边栏">
+  {
+    items.map((item) => (
+      <div class="vp-sidebar-group">
+        {item.link ? (
+          <a class="vp-sidebar-link" href={item.link} aria-current={isActive(item.link) ? 'page' : undefined}>
+            {item.text}
+          </a>
+        ) : (
+          <span class="vp-sidebar-title">{item.text}</span>
+        )}
+        {item.items && item.items.length > 0 && (
+          <details class="vp-sidebar-details" open={item.items.some((i) => isActive(i.link))}>
+            <summary class="vp-sidebar-summary">{item.text}</summary>
+            <ul class="vp-sidebar-list">
+              {item.items.map((child) => (
+                <li>
+                  {child.items && child.items.length > 0 ? (
+                    <details class="vp-sidebar-details" open={child.items.some((i) => isActive(i.link))}>
+                      <summary class="vp-sidebar-summary">{child.text}</summary>
+                      <ul class="vp-sidebar-list">
+                        {child.items.map((leaf) => (
+                          <li>
+                            <a class="vp-sidebar-link" href={leaf.link} aria-current={isActive(leaf.link) ? 'page' : undefined}>
+                              {leaf.text}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
+                  ) : (
+                    <a class="vp-sidebar-link" href={child.link} aria-current={isActive(child.link) ? 'page' : undefined}>
+                      {child.text}
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
+      </div>
+    ))
+  }
+</nav>

@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：从推广渠道找需求"
 author: "droidHZ"
-date: "2026年6月10日 07:26"
+date: "2026-06-10 07:26"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/XXdYf_w1DHVM9nVW7jVj8Q"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "都Agent时代了，我还是想分享给你这12个我最常用的Prompt。"
 author: "数字生命卡兹克"
-date: "2026年8月21日 08:08"
+date: "2026-08-21 08:08"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/NAdhdFrUq9-BKelqzqpwBQ"
 ---

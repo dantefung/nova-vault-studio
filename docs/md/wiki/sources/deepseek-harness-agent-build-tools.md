@@ -1,7 +1,7 @@
 ---
 title: "DeepSeekHarness的新范式：让Agent为自己构建工具"
 author: "2026年8月19日 07:45"
-date: "2026年8月19日 07:45"
+date: "2026-08-19 07:45"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/e7NVC74MztKIXxHKcSAx5Q"
 ---

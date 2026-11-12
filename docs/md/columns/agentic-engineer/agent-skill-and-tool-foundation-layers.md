@@ -1,7 +1,7 @@
 ---
 title: "透析 Skill 与 Tool 底层：Agent 两大核心底座的关系"
 author: "45岁老架构师尼恩"
-date: "2026年10月27日 22:04"
+date: "2026-10-27 22:04"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/_fxfBaXB1Z21_-DdGy1Gzg"
 ---

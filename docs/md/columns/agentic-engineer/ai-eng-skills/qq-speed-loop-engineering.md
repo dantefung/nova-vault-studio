@@ -1,7 +1,7 @@
 ---
 title: "QQ 飞车 Agentic 研发转型过程中的 Loop Engineering"
 author: "2026年9月8日 12:04"
-date: "2026年9月8日 12:04"
+date: "2026-09-08 12:04"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/FTUowOWA8kbzGJ21DA4PoQ"
 ---

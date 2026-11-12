@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：让用户先看到，再付费"
 author: "droidHZ"
-date: "2026年6月4日 07:49"
+date: "2026-06-04 07:49"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/ceBThsPwcNcnznrUHys2nA?scene=1&click_id=22"
 ---

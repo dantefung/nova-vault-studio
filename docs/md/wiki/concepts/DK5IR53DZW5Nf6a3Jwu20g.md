@@ -1,7 +1,7 @@
 ---
 title: "【RAG专题】10分钟彻底搞懂RAG背后的工作原理，一个高质量RAG背后的技术全流程"
 author: "武哥"
-date: "2026年10月12日 11:58"
+date: "2026-10-12 11:58"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/DK5IR53DZW5Nf6a3Jwu20g"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "BestBlogs 早报 · 09-05｜AI 原生 SDLC 重排，淘宝数据 Agent 查数，物理 AI 提升可靠性"
 author: "BestBlogs"
-date: "2026年9月5日 09:39"
+date: "2026-09-05 09:39"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/pv-AIfKqLZUnXcAwQ9Gu6Q"
 ---

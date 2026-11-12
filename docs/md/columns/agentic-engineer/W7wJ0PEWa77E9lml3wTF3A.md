@@ -1,7 +1,7 @@
 ---
 title: "干掉 Bun 和 Tauri，旧插件全部报废！OpenCode 2.0 正式发布：一次“重大改造”"
 author: "Tina"
-date: "2026年10月17日 14:00"
+date: "2026-10-17 14:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/W7wJ0PEWa77E9lml3wTF3A"
 ---

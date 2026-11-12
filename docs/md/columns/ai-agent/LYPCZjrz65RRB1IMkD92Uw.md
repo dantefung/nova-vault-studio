@@ -1,7 +1,7 @@
 ---
 title: "Agent 开发到底解决哪些问题？"
 author: "小遥"
-date: "2026年10月25日 00:00"
+date: "2026-10-25 00:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/LYPCZjrz65RRB1IMkD92Uw"
 ---

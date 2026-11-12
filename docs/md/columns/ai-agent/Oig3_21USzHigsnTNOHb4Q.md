@@ -1,7 +1,7 @@
 ---
 title: "阿里云刚发布的 AgentCore 有何不同？"
 author: "2026年9月24日 15:00"
-date: "2026年9月24日 15:00"
+date: "2026-09-24 15:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Oig3_21USzHigsnTNOHb4Q"
 ---

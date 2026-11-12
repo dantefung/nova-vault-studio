@@ -1,7 +1,7 @@
 ---
 title: "面试官： 工业级 电商 客服 Agent  如何设计与落地？Skills+Workflow 王炸组合 来了"
 author: "45岁老架构师尼恩"
-date: "2026年9月24日 22:11"
+date: "2026-09-24 22:11"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/A5BIV5-En-yTIB3D83pTIQ"
 ---

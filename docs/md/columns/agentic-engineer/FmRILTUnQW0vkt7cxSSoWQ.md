@@ -1,7 +1,7 @@
 ---
 title: "Agent 已经会干活了，下一步是让它自己变强"
 author: "2026年10月15日 22:00"
-date: "2026年10月15日 22:00"
+date: "2026-10-15 22:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/FmRILTUnQW0vkt7cxSSoWQ"
 ---

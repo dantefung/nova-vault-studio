@@ -1,7 +1,7 @@
 ---
 title: "别再羡慕 Python 了！Java 的 Agent 框架终于来了，10 分钟上手"
 author: "一灰灰blog"
-date: "2026年7月23日 08:52"
+date: "2026-07-23 08:52"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/u4wERL0UXChPgvWQJpwurA"
 ---

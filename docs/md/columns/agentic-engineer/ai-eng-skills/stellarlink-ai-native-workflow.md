@@ -1,7 +1,7 @@
 ---
 title: "2026年 我的 AI-Native 软件开发工作流"
 author: "stellarlink"
-date: "2026年9月6日 10:07"
+date: "2026-09-06 10:07"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/D9J9bu5loSFEm8k98aUN1A"
 ---

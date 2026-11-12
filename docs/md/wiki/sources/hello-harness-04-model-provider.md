@@ -1,7 +1,7 @@
 ---
 title: "Hello Harness 04 · Model Provider 抽象"
 author: "一灰灰blog"
-date: "2026年8月18日 08:22"
+date: "2026-08-18 08:22"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/CXTkX2V90hSif05HrK3VRQ"
 ---

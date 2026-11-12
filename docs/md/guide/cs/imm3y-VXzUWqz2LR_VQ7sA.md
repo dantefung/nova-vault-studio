@@ -1,7 +1,7 @@
 ---
 title: "我用 Cloudflare 免费搭了一套 AI 内容流水线，真的能跑起来"
 author: "雨哥"
-date: "2026年5月1日 21:05"
+date: "2026-05-01 21:05"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/imm3y-VXzUWqz2LR_VQ7sA"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "表达欲来了，写了6000 字长文：我作为一个普通人高强度使用 AI 后的真实感受"
 author: "良竹"
-date: "2026年8月8日 23:58"
+date: "2026-08-08 23:58"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/rTekL24qFeTqJtc4r3RTCw"
 ---

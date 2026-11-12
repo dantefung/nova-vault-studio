@@ -1,7 +1,7 @@
 ---
 title: "12 小时、636 个测试：自驱型 Skill 能走多远"
 author: "GrissomFI"
-date: "2026年10月25日 11:24"
+date: "2026-10-25 11:24"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Uh_M1j_KxkOjiYkLqoHutg"
 ---

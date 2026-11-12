@@ -1,7 +1,7 @@
 ---
 title: "打破 Agent 孤岛!   最新的 企业级 分布式  Agent 协同架构：A2A 协议 + Nacos 注册中心+AgentScope  框架完整方案"
 author: "45岁老架构师尼恩"
-date: "2026年10月18日 21:57"
+date: "2026-10-18 21:57"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/6bUhnAvbzRASietkgLejww"
 ---

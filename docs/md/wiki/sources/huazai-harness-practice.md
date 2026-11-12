@@ -1,7 +1,7 @@
 ---
 title: "我的Harness 工程化和脚手架实践"
 author: "王江华"
-date: "2026年8月20日 08:08"
+date: "2026-08-20 08:08"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/zOgLaXwMjgarsXJ7E0vXmA"
 ---

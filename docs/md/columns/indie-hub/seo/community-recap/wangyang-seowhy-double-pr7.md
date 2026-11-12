@@ -1,7 +1,7 @@
 ---
 title: "10年前王杨在seowhy学到双权重7！祝老师节日快乐！"
 author: "王杨"
-date: "2026年9月10日 00:01"
+date: "2026-09-10 00:01"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/MT3giGg0F8SRuinr4qcM4Q"
 ---

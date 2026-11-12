@@ -1,7 +1,7 @@
 ---
 title: "震撼！OpenAI全面开源Codex Harness"
 author: "ASI启示录"
-date: "2026年8月21日 07:53"
+date: "2026-08-21 07:53"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/fbKi7IrAvmv49IfJbI9w7Q"
 ---

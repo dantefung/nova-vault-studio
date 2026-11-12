@@ -1,7 +1,7 @@
 ---
 title: "手机、电脑无缝衔接跑任务，这才是Vibecoding的完全体"
 author: "路人甲TM"
-date: "2026年9月7日 18:45"
+date: "2026-09-07 18:45"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/uXK8Ot30AnrlanI5OK0hbg"
 ---

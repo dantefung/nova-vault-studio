@@ -1,7 +1,7 @@
 ---
 title: "AI Agent 时代，需要的不是更多数据，而是一个语义层"
 author: "千乘"
-date: "2026年9月6日 10:00"
+date: "2026-09-06 10:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/tWFfO8kINq68e2nbcg5fzA?scene=1&click_id=1"
 ---

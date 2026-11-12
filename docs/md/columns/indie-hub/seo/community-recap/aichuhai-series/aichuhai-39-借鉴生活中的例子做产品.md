@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：借鉴生活中的例子做产品"
 author: "droidHZ"
-date: "2026年5月24日 07:58"
+date: "2026-05-24 07:58"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/weyClf15llHsZ8VXSC6k3Q"
 ---

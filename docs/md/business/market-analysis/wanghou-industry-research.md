@@ -1,7 +1,7 @@
 ---
 title: "王侯：如何快速摸清一门行业？"
 author: "澎湃王侯"
-date: "2023年9月24日 21:51"
+date: "2023-09-24 21:51"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/oSxioGe6I9a6kodXMlfraQ"
 ---

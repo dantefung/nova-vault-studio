@@ -1,0 +1,54 @@
+---
+/**
+ * 顶栏导航
+ *
+ * 导航项与 VitePress 时期 themeConfig.nav 一致（数据来自 generated/nav.json）。
+ * 移动端折叠由 MobileNavSheet 负责，这里输出桌面版与移动版共用的数据。
+ */
+import navData from '../generated/nav.json'
+
+interface Props {
+  currentPath: string
+}
+
+const { currentPath } = Astro.props
+const norm = (p: string) => p.replace(/\/+$/, '')
+const current = norm(currentPath)
+
+function isActive(link?: string) {
+  if (!link) return false
+  const l = norm(link)
+  return current === l || current.startsWith(l + '/')
+}
+---
+
+<header class="vp-nav">
+  <div class="vp-nav-inner">
+    <a href="/" class="vp-nav-brand">System Vault</a>
+    <nav class="vp-nav-links" aria-label="主导航">
+      {
+        navData.nav.map((group: any) =>
+          group.items ? (
+            <div class="vp-nav-group">
+              <span class="vp-nav-group-title">{group.text}</span>
+              <ul>
+                {group.items.map((item: any) => (
+                  <li>
+                    <a href={item.link} class:list={{ 'is-active': isActive(item.link) }}>
+                      {item.text}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <a href={group.link} class:list={{ 'is-active': isActive(group.link) }}>
+              {group.text}
+            </a>
+          )
+        )
+      }
+      <a href="https://github.com/dantefung/nova-vault-studio" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+  </div>
+</header>

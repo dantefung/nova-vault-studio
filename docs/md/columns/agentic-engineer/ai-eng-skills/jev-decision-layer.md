@@ -1,7 +1,7 @@
 ---
 title: "JEV 为什么突然火了？因为 Agent 里缺的可能不是模型，而是“决策层”"
 author: "诺特扬"
-date: "2026年9月18日 17:52"
+date: "2026-09-18 17:52"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/oiTBQr9awWOypvnmiYY6BA"
 ---

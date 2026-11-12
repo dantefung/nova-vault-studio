@@ -1,7 +1,7 @@
 ---
 title: "我用800条提示词，把AI出海建站这件事做成了流水线"
 author: "橙哥"
-date: "2026年10月20日 08:05"
+date: "2026-10-20 08:05"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/WnivPDkvfGF2z5a-kA9HHQ"
 ---

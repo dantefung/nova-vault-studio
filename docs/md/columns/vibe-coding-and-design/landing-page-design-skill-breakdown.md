@@ -1,7 +1,7 @@
 ---
 title: "Claude 做网页怎么能这么好看？设计师把 landing-page-design Skill 公开了"
 author: "公子龙"
-date: "2026年10月25日 11:29"
+date: "2026-10-25 11:29"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/GGn2DCc40UE344xr6JE2pw"
 ---

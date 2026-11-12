@@ -1,7 +1,7 @@
 ---
 title: "面试官：你们用  A2A  + Nacos + gRPC做 分布式Agent？如何结合实现 分布式Agent 架构？"
 author: "2026年9月27日 22:37"
-date: "2026年9月27日 22:37"
+date: "2026-09-27 22:37"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/5RdgP3bjq3DpRdnQtq_5Ww"
 ---

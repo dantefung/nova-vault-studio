@@ -1,7 +1,7 @@
 ---
 title: "银行股看起来很便宜，于是我写了个 Skill 来定量分析到底有多便宜"
 author: "GrissomFI"
-date: "2026年8月28日 20:15"
+date: "2026-08-28 20:15"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Vs-Ctk6WxZ8hCbYpVGTElQ"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Agent 记忆架构设计：原理 × 业界三大范式 × XXL-AI 落地实践"
 author: "许雪里"
-date: "2026年10月19日 08:12"
+date: "2026-10-19 08:12"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/-I4j2HUqHPYUjT0GP4uw8Q"
 ---

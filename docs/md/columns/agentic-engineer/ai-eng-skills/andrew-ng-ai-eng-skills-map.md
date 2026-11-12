@@ -1,7 +1,7 @@
 ---
 title: "AI 工程技能图谱：塑造构建"
 author: "Andrew Ng"
-date: "2026年9月15日 08:05"
+date: "2026-09-15 08:05"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/c02Jp4QHIDOGxGGgrv9p5g"
 ---

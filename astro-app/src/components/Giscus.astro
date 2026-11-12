@@ -1,0 +1,43 @@
+---
+/**
+ * Giscus 评论
+ *
+ * VitePress 时期用 @giscus/vue 组件；Astro 侧直接用 giscus 的 Web Component，
+ * 免掉 Vue 运行时。主题变化时重新渲染，保持与 VitePress 时期一致。
+ */
+---
+
+<div class="vp-giscus" id="vp-giscus"></div>
+
+<script>
+  import { giscusTheme } from '../lib/theme'
+
+  const mount = () => {
+    const host = document.getElementById('vp-giscus')
+    if (!host) return
+    const theme = document.documentElement.dataset.theme || 'light'
+    host.innerHTML = ''
+    const script = document.createElement('script')
+    script.src = 'https://giscus.app/client.js'
+    script.setAttribute('data-repo', 'plantree/press-comment')
+    script.setAttribute('data-repo-id', 'R_kgDOIDNWUs4CRlY7')
+    script.setAttribute('data-category', 'General')
+    script.setAttribute('data-category-id', 'DIC_kwDOIDNWUs4CRlY7')
+    script.setAttribute('data-mapping', 'title')
+    script.setAttribute('data-strict', '1')
+    script.setAttribute('data-reactions-enabled', '1')
+    script.setAttribute('data-emit-metadata', '0')
+    script.setAttribute('data-input-position', 'top')
+    script.setAttribute('data-theme', giscusTheme(theme))
+    script.setAttribute('data-lang', 'zh-CN')
+    script.setAttribute('data-loading', 'lazy')
+    script.setAttribute('crossorigin', 'anonymous')
+    host.appendChild(script)
+  }
+
+  mount()
+  document.addEventListener('vp:theme-change', () => {
+    // 主题切换后重挂载，让评论区跟随配色
+    setTimeout(mount, 50)
+  })
+</script>

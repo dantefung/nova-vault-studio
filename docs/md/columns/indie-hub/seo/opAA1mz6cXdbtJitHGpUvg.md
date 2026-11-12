@@ -1,7 +1,7 @@
 ---
 title: "真缺德：用这种方式推广 SEO 外链服务"
 author: "SEO小平"
-date: "2026年10月15日 19:40"
+date: "2026-10-15 19:40"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/opAA1mz6cXdbtJitHGpUvg"
 ---

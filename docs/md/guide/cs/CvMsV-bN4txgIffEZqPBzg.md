@@ -1,7 +1,7 @@
 ---
 title: "图解 Linux 虚拟内存：malloc 了 10GB 物理内存却没涨？fork 为什么这么快？一篇讲透"
 author: "xiaokang1998"
-date: "2026年9月30日 07:00"
+date: "2026-09-30 07:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/CvMsV-bN4txgIffEZqPBzg"
 ---

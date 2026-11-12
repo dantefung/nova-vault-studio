@@ -1,7 +1,7 @@
 ---
 title: "从Prompt到Harness：一文看懂AI工程的四次跃迁（万字长文）"
 author: "瑜的安全谷"
-date: "2026年7月2日 19:02"
+date: "2026-07-02 19:02"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/ERajPSZ6vG5LYqtLftfTfw"
 ---

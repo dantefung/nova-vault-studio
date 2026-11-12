@@ -1,7 +1,7 @@
 ---
 title: "一篇游戏兑换码页面，怎么帮 Beebom 接住每月3万多次搜索访问？"
 author: "我是哥飞"
-date: "2026年9月30日 20:56"
+date: "2026-09-30 20:56"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Tc_GUlklI9VuGQUaBfmiBg"
 ---

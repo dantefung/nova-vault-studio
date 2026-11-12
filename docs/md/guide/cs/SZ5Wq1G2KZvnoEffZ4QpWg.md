@@ -1,7 +1,7 @@
 ---
 title: "用户进程是如何从控制台读到键盘输入的 / 从硬件，到内核，再到用户进程，全部完整流程"
 author: "ytcoode"
-date: "2026年9月23日 11:51"
+date: "2026-09-23 11:51"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/SZ5Wq1G2KZvnoEffZ4QpWg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "放弃批量上站后，一个新站半个月来了1.2万访客"
 author: "易焘"
-date: "2026年9月14日 12:16"
+date: "2026-09-14 12:16"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/9nc-ld95-vjmSj8MDAM7WQ"
 ---

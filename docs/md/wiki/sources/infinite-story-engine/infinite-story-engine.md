@@ -1,7 +1,7 @@
 ---
 title: "我造了一台全自动烧 Token 的无限故事引擎"
 author: "陌尘在长脑子了"
-date: "2026年6月17日 18:21"
+date: "2026-06-17 18:21"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/baWcDi2Q8_NNlRRuqe7zsw"
 ---

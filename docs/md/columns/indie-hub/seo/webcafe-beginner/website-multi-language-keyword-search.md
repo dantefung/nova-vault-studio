@@ -1,7 +1,7 @@
 ---
 title: "给网站加多语言，怎么找到当地用户真正会搜的词？"
 author: "我是哥飞"
-date: "2026年9月14日 13:22"
+date: "2026-09-14 13:22"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/ySIC1bn58-06daTKShvuow"
 ---

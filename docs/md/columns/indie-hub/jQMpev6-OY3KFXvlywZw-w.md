@@ -1,7 +1,7 @@
 ---
 title: "不写SaaS也能赚：晚餐俱乐部、潜艇游戏和健身App"
 author: "Victor在西雅图"
-date: "2026年9月27日 12:21"
+date: "2026-09-27 12:21"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/jQMpev6-OY3KFXvlywZw-w"
 ---

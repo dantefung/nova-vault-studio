@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：adsy 购买客座博客外链"
 author: "droidHZ"
-date: "2026年5月27日 07:44"
+date: "2026-05-27 07:44"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/1g3VAaPDZyxECizRFhbLLA"
 ---

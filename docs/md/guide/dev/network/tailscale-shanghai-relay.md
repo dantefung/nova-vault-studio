@@ -1,7 +1,7 @@
 ---
 title: "Tailscale 自建上海中继 从 141ms 卡顿到 11ms 全设备秒连"
 author: "2026年8月27日 18:20"
-date: "2026年8月27日 18:20"
+date: "2026-08-27 18:20"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Y8RiaB0YFrjlSP4yh4WCFA"
 ---

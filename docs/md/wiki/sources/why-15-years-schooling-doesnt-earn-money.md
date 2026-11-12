@@ -1,7 +1,7 @@
 ---
 title: "为什么你读了15年书却挣不到钱？"
 author: "庞少棠"
-date: "2020年6月13日 23:22"
+date: "2020-06-13 23:22"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/mNoQAl1ckwbg4Pqi8CaMyg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "图解网络收包全链路：网卡→DMA→内核协议栈，NAPI 机制"
 author: "Debug 蟹老板"
-date: "2026年9月21日 20:28"
+date: "2026-09-21 20:28"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/voYrg8bIT9KS7ufFi1U1eg"
 ---

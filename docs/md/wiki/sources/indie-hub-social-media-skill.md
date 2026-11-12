@@ -1,7 +1,7 @@
 ---
 title: "我用 Agent Skill 搭了一套社媒监控系统"
 author: "空格丶"
-date: "2026年7月3日 08:04"
+date: "2026-07-03 08:04"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/1_ugBJwHEEPuLw_baP-0zQ"
 ---

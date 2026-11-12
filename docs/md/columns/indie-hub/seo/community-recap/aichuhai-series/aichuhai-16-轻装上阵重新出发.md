@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：轻装上阵，重新出发"
 author: "droidHZ"
-date: "2026年7月1日 07:23"
+date: "2026-07-01 07:23"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/lt3CEJMig3Iy2CaZmwvKuQ"
 ---

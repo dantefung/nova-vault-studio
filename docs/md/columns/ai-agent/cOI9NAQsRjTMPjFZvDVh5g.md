@@ -1,7 +1,7 @@
 ---
 title: "AI Agent夺命10连问"
 author: "2026年9月21日 08:20"
-date: "2026年9月21日 08:20"
+date: "2026-09-21 08:20"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/cOI9NAQsRjTMPjFZvDVh5g"
 ---

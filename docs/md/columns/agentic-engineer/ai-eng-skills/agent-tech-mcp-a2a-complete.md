@@ -1,7 +1,7 @@
 ---
 title: "Agent 技术拆解：Function Call / MCP / Skill / A2A / Multi‑Agent，完整交互流程详解"
 author: "温桂阳"
-date: "2026年9月4日 23:51"
+date: "2026-09-04 23:51"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/e6sZHRaIdUE7fPbW1xtxqQ"
 ---

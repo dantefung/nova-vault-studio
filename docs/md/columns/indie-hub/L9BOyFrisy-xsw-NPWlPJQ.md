@@ -1,7 +1,7 @@
 ---
 title: "放弃一站发思维，先从练手站做起"
 author: "我是哥飞"
-date: "2024年12月2日 23:33"
+date: "2024-12-02 23:33"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/L9BOyFrisy-xsw-NPWlPJQ"
 ---

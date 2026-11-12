@@ -1,7 +1,7 @@
 ---
 title: "我把公众号发文做成了一条命令"
 author: "Victor在西雅图"
-date: "2026年9月15日 07:57"
+date: "2026-09-15 07:57"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/jcWzhAtLmy3ici2j40pXFQ"
 ---

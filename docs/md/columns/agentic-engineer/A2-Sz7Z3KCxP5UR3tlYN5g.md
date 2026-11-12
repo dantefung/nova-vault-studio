@@ -1,7 +1,7 @@
 ---
 title: "AI时代的Skills 治理-从具体场景问题到技能选型的思考"
 author: "何明璐"
-date: "2026年10月19日 07:47"
+date: "2026-10-19 07:47"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/A2-Sz7Z3KCxP5UR3tlYN5g"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "构建企业级 Agentic AI的语义层"
 author: "半吊子全栈工匠"
-date: "2026年9月8日 20:26"
+date: "2026-09-08 20:26"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/_YJs8J6cn0v3Gch6Txr7gA"
 ---

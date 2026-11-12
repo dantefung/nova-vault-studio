@@ -1,0 +1,99 @@
+---
+/**
+ * 文档页路由
+ *
+ * 覆盖全站 3999 篇文档。路径与 VitePress 时期保持一致：
+ *   docs/md/wiki/sources/foo.md  ->  /md/wiki/sources/foo
+ *   docs/md/wiki/index.md        ->  /md/wiki/
+ *
+ * 渲染走 src/lib/markdown.ts 的自定义管线（处理 wikilink / VitePress 专有组件 / 相对路径）。
+ */
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import DocMeta from '../../components/DocMeta.astro'
+import { entryToUrl, resolveTitle } from '../../lib/content'
+import { renderMarkdown, extractHeadings } from '../../lib/markdown'
+import navData from '../../generated/nav.json'
+
+export async function getStaticPaths() {
+  const entries = await getCollection('docs')
+
+  // 这些前缀由专用路由处理（博客、归档、分类、系列、资源导航），
+  // 与 VitePress 时期 MyLayout.vue 的路由分流保持一致。
+  const SPECIAL = /^(blog(\/|$)|resources(\/|$))/
+
+  // loader 的 id 形如 wiki/sources/foo 或 blog/index。
+  // 结尾的 /index 对应 VitePress 的目录页 URL（/md/wiki/、/md/blog/），
+  // 直接用 id 会生成 /md/wiki/index/ 这种多一层目录的地址。
+  //
+  // 少数目录同时存在 foo.md 与 foo/index.md（内容相同的重复文件），
+  // 映射到同一个路由会冲突，这里保留目录版（VitePress 优先 index.md）。
+  const byPath = new Map<string, any>()
+  for (const entry of entries) {
+    const path = entry.id.replace(/\/index$/, '')
+    if (SPECIAL.test(path)) continue
+    const existing = byPath.get(path)
+    if (!existing) {
+      byPath.set(path, entry)
+    } else if (existing.id.endsWith('/index') && !entry.id.endsWith('/index')) {
+      // 已有目录版，保留目录版
+      continue
+    } else {
+      // 当前是目录版，替换掉扁平版
+      byPath.set(path, entry)
+    }
+  }
+
+  return Array.from(byPath.values()).map((entry) => ({
+    params: { path: entry.id.replace(/\/index$/, '') },
+    props: { entry },
+  }))
+}
+
+const { entry } = Astro.props
+
+const url = entryToUrl(entry)
+// loader 已经把 frontmatter 剥掉，body 就是正文
+const body = (entry as any).body ?? ''
+const data = (entry.data ?? {}) as any
+
+const title = resolveTitle(entry, body)
+const headings = extractHeadings(body)
+const html = renderMarkdown(body, url)
+
+// 侧边栏：取最长前缀匹配的那一棵
+function pickSidebar(path: string): any[] {
+  const map = navData.sidebar as any
+  let best = ''
+  for (const key of Object.keys(map)) {
+    if (path.startsWith(key) && key.length > best.length) best = key
+  }
+  return best ? map[best] : []
+}
+
+const sidebarItems = pickSidebar(url)
+const description = data.description ?? ''
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  landingTheme="easton"
+  sidebar={sidebarItems.length > 0}
+  sidebarItems={sidebarItems}
+  headings={headings}
+  comments
+  canonical={new URL(url, Astro.site).href}
+>
+  <article class="vp-doc" id="vp-doc">
+    <DocMeta
+      title={title}
+      url={url}
+      date={data.date}
+      source={data.source}
+      author={data.author}
+      description={description}
+    />
+    <div class="vp-doc-content" set:html={html} />
+  </article>
+</BaseLayout>

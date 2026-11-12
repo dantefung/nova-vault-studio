@@ -1,7 +1,7 @@
 ---
 title: "纯 Java 构建 AI 对话机器人：AgentScope 2.0 Builder 模式与流式输出实战"
 author: "一灰灰blog"
-date: "2026年7月25日 08:43"
+date: "2026-07-25 08:43"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/l1HmsYK2w11U0hk-tadpLg"
 ---

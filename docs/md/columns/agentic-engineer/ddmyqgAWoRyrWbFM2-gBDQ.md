@@ -1,7 +1,7 @@
 ---
 title: "System Architecture Modeling (SAM) - 知识体系与能力框架可视化建模提示词"
 author: "何明璐"
-date: "2026年9月21日 07:12"
+date: "2026-09-21 07:12"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/ddmyqgAWoRyrWbFM2-gBDQ"
 ---

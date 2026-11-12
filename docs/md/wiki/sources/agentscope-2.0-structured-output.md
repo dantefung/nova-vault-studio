@@ -1,7 +1,7 @@
 ---
 title: "AgentScope Java 2.0 结构化输出实战：让 Agent 直接返回 Java 对象，告别字符串解析"
 author: "一灰灰blog"
-date: "2026年7月29日 18:00"
+date: "2026-07-29 18:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/92WrOmKjypAi4upDcTXy3g"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "同样是调大模型，ReActAgent 能自己决定「缺什么查什么」，你的 LLM 还在背答案"
 author: "一灰灰blog"
-date: "2026年7月24日 08:46"
+date: "2026-07-24 08:46"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/3SkybaLc47yu-EWOkd9G-w"
 ---

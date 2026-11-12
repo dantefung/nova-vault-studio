@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：人去自由了，网站还在上班"
 author: "droidHZ"
-date: "2026年6月17日 07:46"
+date: "2026-06-17 07:46"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/eZWis6bCXXn2hDnIVz6m9g"
 ---

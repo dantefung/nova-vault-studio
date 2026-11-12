@@ -1,7 +1,7 @@
 ---
 title: "下班时间才决定你的未来。"
 author: "阿门"
-date: "2016年6月20日 00:00"
+date: "2016-06-20 00:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/HKaGXayTGCIsaNhXgi7qSQ"
 ---

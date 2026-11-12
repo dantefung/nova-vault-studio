@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：挖掘优质的过期域名"
 author: "droidHZ"
-date: "2026年6月11日 07:32"
+date: "2026-06-11 07:32"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/IkN1_Mn11EeLrnYh1kzR3Q"
 ---

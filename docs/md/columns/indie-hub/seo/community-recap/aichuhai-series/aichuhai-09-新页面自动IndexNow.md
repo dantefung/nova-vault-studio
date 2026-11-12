@@ -1,7 +1,7 @@
 ---
 title: "网站出海分享：新页面自动IndexNow"
 author: "droidHZ"
-date: "2026年7月24日 07:41"
+date: "2026-07-24 07:41"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/UcLMJ5ndb4xtaGflkYFCzw"
 ---

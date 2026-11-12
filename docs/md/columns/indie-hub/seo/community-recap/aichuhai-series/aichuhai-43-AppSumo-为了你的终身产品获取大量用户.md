@@ -1,7 +1,7 @@
 ---
 title: "AppSumo 为了你的终身产品获取大量用户"
 author: "droidHZ"
-date: "2026年5月20日 07:20"
+date: "2026-05-20 07:20"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/iJq-qh5q7_rskOy7Z0dZqw"
 ---

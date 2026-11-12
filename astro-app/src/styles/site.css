@@ -1,0 +1,475 @@
+/**
+ * 站点样式
+ *
+ * 设计变量沿用 VitePress 时期的 --vp-* 体系（styles/vp-vars.css），
+ * 因此 sepia 主题（docs/.vitepress/theme/themes.css）只需覆盖同名变量即可生效。
+ * 布局类名也刻意与 VitePress 保持同名（vp-doc / vp-sidebar / vp-nav ...），
+ * 便于把 VitePress 时期的 override.css / easton-doc.css 等覆盖样式直接搬过来。
+ */
+
+@import './vp-vars.css';
+@import './vp-base.css';
+@import './vp-code.css';
+@import './vp-custom-block.css';
+
+/* ── 基础骨架 ─────────────────────────────────────────────── */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-family: var(--vp-font-family-base);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--vp-c-brand-2);
+}
+
+/* ── 顶栏 ─────────────────────────────────────────────────── */
+
+.vp-nav {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--vp-c-bg-elv);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-nav-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.vp-nav-brand {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--vp-c-text-1);
+  white-space: nowrap;
+}
+
+.vp-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex: 1;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.vp-nav-links::-webkit-scrollbar {
+  display: none;
+}
+
+.vp-nav-links > a,
+.vp-nav-group-title {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  white-space: nowrap;
+}
+
+.vp-nav-links > a:hover,
+.vp-nav-links > a.is-active {
+  color: var(--vp-c-brand-1);
+}
+
+.vp-nav-group {
+  position: relative;
+}
+
+.vp-nav-group ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  box-shadow: var(--vp-shadow-2);
+}
+
+.vp-nav-group:hover ul {
+  display: block;
+}
+
+.vp-nav-group ul li a {
+  display: block;
+  padding: 6px 16px;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+.vp-nav-group ul li a:hover {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-brand-1);
+}
+
+/* ── 三栏布局 ─────────────────────────────────────────────── */
+
+.vp-shell {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.vp-shell.has-sidebar {
+  grid-template-columns: 280px minmax(0, 1fr) 220px;
+}
+
+.vp-sidebar {
+  position: sticky;
+  top: 64px;
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+  padding: 24px 16px 48px 0;
+  font-size: 14px;
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+.vp-main {
+  min-width: 0;
+  padding: 32px 0 64px;
+}
+
+.vp-outline {
+  position: sticky;
+  top: 64px;
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+  padding: 32px 0 48px 16px;
+  font-size: 13px;
+  border-left: 1px solid var(--vp-c-divider);
+}
+
+.vp-outline-title {
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--vp-c-text-2);
+}
+
+.vp-outline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vp-outline-item.depth-3 {
+  padding-left: 14px;
+}
+
+.vp-outline-item a {
+  color: var(--vp-c-text-3);
+  display: block;
+  padding: 3px 0;
+}
+
+.vp-outline-item a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+/* ── 侧边栏树 ─────────────────────────────────────────────── */
+
+.vp-sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.vp-sidebar-group {
+  margin-bottom: 4px;
+}
+
+.vp-sidebar-title {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  display: block;
+  padding: 4px 0;
+}
+
+.vp-sidebar-link {
+  display: block;
+  padding: 3px 0 3px 12px;
+  color: var(--vp-c-text-2);
+  border-left: 2px solid transparent;
+}
+
+.vp-sidebar-link:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.vp-sidebar-link[aria-current='page'] {
+  color: var(--vp-c-brand-1);
+  border-left-color: var(--vp-c-brand-1);
+  font-weight: 500;
+}
+
+.vp-sidebar-details {
+  margin: 2px 0;
+}
+
+.vp-sidebar-summary {
+  cursor: pointer;
+  padding: 4px 0 4px 12px;
+  color: var(--vp-c-text-2);
+  list-style: none;
+  position: relative;
+}
+
+.vp-sidebar-summary::before {
+  content: '▸';
+  position: absolute;
+  left: 2px;
+  transition: transform 0.15s ease;
+}
+
+.vp-sidebar-details[open] > .vp-sidebar-summary::before {
+  transform: rotate(90deg);
+}
+
+.vp-sidebar-summary::-webkit-details-marker {
+  display: none;
+}
+
+.vp-sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── 文档页 ───────────────────────────────────────────────── */
+
+.vp-doc {
+  max-width: 720px;
+}
+
+.vp-doc-hero {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc-title {
+  margin: 0 0 12px;
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.vp-doc-lead {
+  margin: 0 0 12px;
+  color: var(--vp-c-text-2);
+  font-size: 17px;
+}
+
+.vp-doc-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+}
+
+.vp-doc-content {
+  overflow-wrap: break-word;
+}
+
+.vp-doc-content img {
+  max-width: 100%;
+}
+
+.vp-doc-content table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+.vp-doc-content th,
+.vp-doc-content td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 8px 12px;
+}
+
+.vp-doc-content pre {
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+  background: var(--vp-code-block-bg);
+  font-size: 14px;
+}
+
+.vp-doc-content :not(pre) > code {
+  font-size: 0.875em;
+  background: var(--vp-c-bg-soft);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.vp-doc-content blockquote {
+  margin: 16px 0;
+  padding: 8px 16px;
+  border-left: 3px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+}
+
+/* ── 自定义容器块（::: info 等） ───────────────────────────── */
+
+.vp-block {
+  margin: 16px 0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-left: 3px solid var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-block-title {
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.vp-block.warning {
+  border-left-color: var(--vp-c-yellow-3);
+}
+
+.vp-block.danger {
+  border-left-color: var(--vp-c-red-1);
+}
+
+.vp-block.tip {
+  border-left-color: var(--vp-c-green-1);
+}
+
+/* ── 主题切换按钮 ─────────────────────────────────────────── */
+
+.vp-theme-switch {
+  display: inline-flex;
+  gap: 4px;
+  padding: 3px;
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-theme-btn {
+  border: none;
+  background: transparent;
+  color: var(--vp-c-text-2);
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.vp-theme-btn:hover {
+  color: var(--vp-c-text-1);
+}
+
+.vp-theme-btn.is-active {
+  background: var(--vp-c-bg-elv);
+  color: var(--vp-c-brand-1);
+  box-shadow: var(--vp-shadow-1);
+}
+
+.vp-float-tools {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 40;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* ── 页脚与评论 ───────────────────────────────────────────── */
+
+.vp-footer {
+  border-top: 1px solid var(--vp-c-divider);
+  padding: 24px;
+}
+
+.vp-footer-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+}
+
+.vp-comments {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+
+/* ── 客户端组件占位（PDF / HTML / PDF 列表） ───────────────── */
+
+pdf-viewer,
+html-viewer,
+pdf-list {
+  display: block;
+  margin: 20px 0;
+}
+
+pdf-viewer iframe,
+html-viewer iframe {
+  width: 100%;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+}
+
+/* ── 移动端 ───────────────────────────────────────────────── */
+
+@media (max-width: 1100px) {
+  .vp-shell.has-sidebar {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+  .vp-outline {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .vp-shell,
+  .vp-shell.has-sidebar {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 0 16px;
+  }
+  .vp-sidebar {
+    display: none;
+  }
+  .vp-nav-inner {
+    padding: 0 16px;
+  }
+  .vp-doc-title {
+    font-size: 26px;
+  }
+}

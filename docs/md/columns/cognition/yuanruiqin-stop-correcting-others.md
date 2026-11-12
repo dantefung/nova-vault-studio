@@ -1,7 +1,7 @@
 ---
 title: "你纠正别人的样子，真的很讨人嫌"
 author: "袁锐钦"
-date: "2026年9月5日 19:31"
+date: "2026-09-05 19:31"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/hZW_Q2Gm6FId_RErcAMm6g"
 ---

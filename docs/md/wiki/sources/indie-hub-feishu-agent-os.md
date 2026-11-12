@@ -1,7 +1,7 @@
 ---
 title: "7 个案例把飞书用作 Agent 的操作系统"
 author: "空格丶"
-date: "2026年6月18日 17:12"
+date: "2026-06-18 17:12"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/rDcT6xFqHAkNUzwDuC5tBA"
 ---

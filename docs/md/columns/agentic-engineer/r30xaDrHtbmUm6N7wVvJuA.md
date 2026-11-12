@@ -1,7 +1,7 @@
 ---
 title: "一个人调度四个角色：多会话协作 Skill 的实测与边界"
 author: "GrissomFI"
-date: "2026年10月19日 20:22"
+date: "2026-10-19 20:22"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/r30xaDrHtbmUm6N7wVvJuA"
 ---

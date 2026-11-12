@@ -1,7 +1,7 @@
 ---
 title: "Grok Bot 玩法 02：躺床让它帮你做视频理解复杂概念"
 author: "歸藏的 AI 工具箱"
-date: "2026年10月12日 08:20"
+date: "2026-10-12 08:20"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/1afnn-WeU4KvD03lqSIv2w"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "网站出海分享：查看外链的几种方式"
 author: "droidHZ"
-date: "2026年7月14日 07:30"
+date: "2026-07-14 07:30"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/jYuGvn30Whne1BT-N4AzPA"
 ---

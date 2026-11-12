@@ -1,7 +1,7 @@
 ---
 title: "我看着 agent 给自己写外挂：十来分钟，七个工具，五个字"
 author: "运维有术"
-date: "2026年9月6日 18:04"
+date: "2026-09-06 18:04"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/UjYEUHRcH6Or3GU91dpzWg"
 ---

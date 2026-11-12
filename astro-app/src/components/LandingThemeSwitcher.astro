@@ -1,0 +1,23 @@
+---
+/**
+ * 落地页风格切换（quiet / easton）
+ */
+import { LANDING_THEMES, LANDING_THEME_META } from '../lib/theme'
+---
+
+<div class="vp-theme-switch" role="group" aria-label="切换版式">
+  {
+    LANDING_THEMES.map((t) => (
+      <button
+        type="button"
+        class="vp-theme-btn"
+        data-landing-theme-value={t}
+        data-landing-theme-target={t}
+        title={LANDING_THEME_META[t].desc}
+        aria-label={LANDING_THEME_META[t].desc}
+      >
+        {LANDING_THEME_META[t].label}
+      </button>
+    ))
+  }
+</div>

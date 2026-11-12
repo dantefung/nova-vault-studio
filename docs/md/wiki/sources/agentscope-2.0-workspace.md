@@ -1,7 +1,7 @@
 ---
 title: "AgentScope Java 2.0 工作区Workspace —— 「大脑外化」：将 Agent 的人格与记忆变成文件"
 author: "一灰灰blog"
-date: "2026年7月31日 17:47"
+date: "2026-07-31 17:47"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/HcQncfxJQzlN7IO8qpU7iA"
 ---

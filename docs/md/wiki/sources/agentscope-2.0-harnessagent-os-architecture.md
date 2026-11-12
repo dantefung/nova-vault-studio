@@ -1,7 +1,7 @@
 ---
 title: "AgentScope2.0 HarnessAgent：为 ReActAgent 装上操作系统——从 CPU 到操作系统，Harness 的四大子系统深度解析"
 author: "一灰灰blog"
-date: "2026年7月30日 17:54"
+date: "2026-07-30 17:54"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/PQJD5cGydyOhgYHD88LJfA"
 ---

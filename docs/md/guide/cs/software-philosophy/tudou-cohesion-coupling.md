@@ -1,7 +1,7 @@
 ---
 title: "到底什么是高内聚、低耦合？"
 author: "土豆居士"
-date: "2026年9月5日 10:00"
+date: "2026-09-05 10:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/2TcIfbMpncBvAAAgP_UiGw"
 ---

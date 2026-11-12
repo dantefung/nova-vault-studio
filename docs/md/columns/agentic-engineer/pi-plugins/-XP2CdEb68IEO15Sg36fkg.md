@@ -1,7 +1,7 @@
 ---
 title: "Pi 1.0：为何接纳 MCP，又推出 Pi Durable？"
 author: "lencx"
-date: "2026年10月2日 14:45"
+date: "2026-10-02 14:45"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/-XP2CdEb68IEO15Sg36fkg"
 ---

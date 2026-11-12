@@ -676,10 +676,6 @@ source: "{来源项目}"
 url: ""
 ---
 
-<script setup>
-import HtmlViewer from '../../../.vitepress/theme/components/HtmlViewer.vue'
-</script>
-
 # {PPT 标题}
 
 > {一句话描述}
@@ -693,6 +689,10 @@ import HtmlViewer from '../../../.vitepress/theme/components/HtmlViewer.vue'
 - 要点 1
 - 要点 2
 ```
+
+> **Astro 侧不需要 `<script setup>` 导入**：`<HtmlViewer>` / `<PdfViewer>` / `<PdfList>` 在 Astro
+> 里是自定义元素（`astro-app/src/scripts/islands.ts`），Markdown 里直接写标签即可。
+> VitePress 侧仍需 `<script setup>` 导入 Vue 组件，两套并存时期两边都要能渲染。
 
 ### 索引更新
 
@@ -755,15 +755,13 @@ date: "{YYYY-MM-DD}"
 source: "{来源}"
 ---
 
-<script setup>
-import PdfViewer from '../../../.vitepress/theme/components/PdfViewer.vue'
-const pdfUrl = new URL('./{书名}.pdf', import.meta.url).href
-</script>
-
 # {书名}
 
-<PdfViewer :src="pdfUrl" />
+<PdfViewer src="./{书名}.pdf" />
 ```
+
+> Astro 侧不需要 `<script setup>`，`<PdfViewer>` 是自定义元素，路径直接写相对路径即可。
+> VitePress 侧仍需 `<script setup>` + `:src` 绑定，两套并存时期两边都要能渲染。
 
 ### ⚠️ 关键约束
 
@@ -812,13 +810,62 @@ manifest 每项字段：`slug` / `src` / `out` / `title` / `author` / `url` / `d
 
 ## 构建与预览
 
+站点有两套构建系统并存：
+
+- **Astro（新，全量站）**：`astro-app/` 目录，整站 3,999 篇文档由 Astro 静态输出
+- **VitePress（旧，尚未下线）**：`docs/` 目录，仍可构建
+
+### Astro（当前主线）
+
+```bash
+cd astro-app
+npm run dev         # 开发预览（127.0.0.1:4321）
+npm run build       # 生产构建，产物在 astro-app/dist
+npm run preview     # 预览构建产物（127.0.0.1:4322）
+npm run check:links # 站内死链扫描
+```
+
+`npm run build` 会先跑 `build:data`，依次执行：
+
+| 脚本 | 作用 |
+|---|---|
+| `scripts/normalize-dates.mjs` | 统一 frontmatter 的 date 格式（中文日期 → ISO） |
+| `scripts/build-astro-nav.mjs` | 生成侧边栏/导航 JSON（与 VitePress 共用 `scripts/lib/sidebar-core.mjs`） |
+| `scripts/build-astro-doc-index.mjs` | 生成全站文档 id 清单（wikilink 存在性判定） |
+| `scripts/build-astro-search-index.mjs` | 生成搜索索引 |
+| `scripts/copy-assets.mjs` | 把 `docs/md` 的静态资源复制到 `astro-app/public/md/`（约 868 MB，构建产物，不入库） |
+
+### VitePress（遗留）
+
 ```bash
 npm run dev       # 开发预览（自动生成 PDF 页面 + 本地字体）
-npm run build     # 生产构建（同上）
+npm run build     # 生产构建
 npm run preview   # 预览构建产物
 ```
 
 每次 dev/build 前自动运行 `generate-pdf-pages.js` 生成 PDF 入口页面。
+
+### 路由与 URL 约定
+
+两种构建系统共用同一套 URL 前缀 `/md/**`，迁移期间互不冲突：
+
+- `docs/md/wiki/sources/foo.md` → `/md/wiki/sources/foo`（普通文档，无尾斜杠）
+- `docs/md/wiki/index.md` → `/md/wiki/`（目录索引页，带尾斜杠）
+- 博客 `/md/blog/`、归档 `/md/blog/archive/`、分类 `/md/blog/category/<slug>/`、系列 `/md/blog/series/<slug>/`
+- 资源导航 `/md/resources/`、RSS `/rss.xml`、sitemap `/sitemap-index.xml`
+
+### 内容源约定
+
+- 内容仍以 `docs/md/` 为唯一事实来源，Astro 侧通过 `astro-app/src/lib/docs-loader.ts` 读取，**不搬动文件**
+- 图片与 PDF 按原路径提供（`/md/.../images/x.png`），不经过 Astro 资产管线
+- 新增 Markdown 无需改任何配置：侧边栏、搜索索引、文档索引都在构建期自动生成
+
+### 迁移期校验脚本
+
+```bash
+node scripts/check-links.mjs            # 站内死链扫描
+node scripts/compare-dead-links.mjs     # 迁移前后死链对比（应为 0 新增）
+```
 
 ---
 

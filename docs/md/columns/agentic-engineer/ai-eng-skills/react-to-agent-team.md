@@ -1,7 +1,7 @@
 ---
 title: "从 ReAct 到 Agent Team：一个医疗系统研发任务里的信息流与责任边界"
 author: "若飞"
-date: "2026年9月17日 23:16"
+date: "2026-09-17 23:16"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/JpDAPxDxt8HWdxwuVpOCGg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Search SEOul 2026 首尔现场全记录：AI 搜索没有让 SEO 失效，相关工作可以分为三层"
 author: "John SEOActionBlog"
-date: "2026年9月7日 22:20"
+date: "2026-09-07 22:20"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/5oAG5Kje83eo3D_FKe0deA"
 ---

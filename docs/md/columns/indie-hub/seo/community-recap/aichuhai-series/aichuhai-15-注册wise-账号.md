@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：注册wise 账号"
 author: "droidHZ"
-date: "2026年7月3日 07:27"
+date: "2026-07-03 07:27"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/g5sfKwlT8FZBbSElj6xNiA"
 ---

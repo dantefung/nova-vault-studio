@@ -1,7 +1,7 @@
 ---
 title: "Agent 怎么做 sub-agent 拆分与派活：本地 spawn 与分布式 ACP-Worker 全解"
 author: "45岁老架构师尼恩"
-date: "2026年10月25日 21:30"
+date: "2026-10-25 21:30"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/3sibd_blvCUK2fWfoMRrDQ"
 ---

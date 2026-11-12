@@ -1,7 +1,7 @@
 ---
 title: "「大家用 AI 胆子还不够大！」Anthropic 工程经理亲授 4 种顶级用法"
 author: "若飞"
-date: "2026年10月25日 22:32"
+date: "2026-10-25 22:32"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/MIarQhuGQPUlEEI-D4ffAw"
 ---

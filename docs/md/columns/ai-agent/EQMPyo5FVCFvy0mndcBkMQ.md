@@ -1,7 +1,7 @@
 ---
 title: "简单讲讲 Agent 的工作原理"
 author: "金色传说大聪明"
-date: "2026年9月21日 18:23"
+date: "2026-09-21 18:23"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/EQMPyo5FVCFvy0mndcBkMQ"
 ---

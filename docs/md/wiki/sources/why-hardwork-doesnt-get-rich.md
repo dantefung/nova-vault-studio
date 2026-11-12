@@ -1,7 +1,7 @@
 ---
 title: "你为什么一直努力却一直贫穷？"
 author: "庞少棠"
-date: "2020年1月16日 23:03"
+date: "2020-01-16 23:03"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/9G39dcojZWF17E_-Ky_u1A"
 ---

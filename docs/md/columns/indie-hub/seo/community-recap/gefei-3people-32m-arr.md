@@ -1,7 +1,7 @@
 ---
 title: "白天上班，晚上做网站，3个人4年做到年化收入3200万美元"
 author: "我是哥飞"
-date: "2026年9月10日 11:34"
+date: "2026-09-10 11:34"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/tzVo1yVUXkIdPLDMiEBpZw"
 ---

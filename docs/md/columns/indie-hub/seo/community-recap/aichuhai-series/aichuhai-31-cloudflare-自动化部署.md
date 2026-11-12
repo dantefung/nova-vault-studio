@@ -1,7 +1,7 @@
 ---
 title: "网站出海每日分享：cloudflare 自动化部署"
 author: "droidHZ"
-date: "2026年6月1日 07:24"
+date: "2026-06-01 07:24"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/gUWAdUVDrGbURG2N7ucGVQ?scene=1&click_id=12"
 ---

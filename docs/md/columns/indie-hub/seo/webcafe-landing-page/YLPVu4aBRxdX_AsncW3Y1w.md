@@ -1,7 +1,7 @@
 ---
 title: "现在开始，让别人看到你的网站"
 author: "船长"
-date: "2026年5月18日 15:40"
+date: "2026-05-18 15:40"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/YLPVu4aBRxdX_AsncW3Y1w"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "用完全网最火的 PM Skills，我决定把 163 个 Skill 推倒重做"
 author: "空格丶"
-date: "2026年6月15日 16:23"
+date: "2026-06-15 16:23"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ"
 ---

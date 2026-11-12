@@ -1,7 +1,7 @@
 ---
 title: "开始 loop engineer 之前，请先把 loop、hook、goal 用好"
 author: "空格丶"
-date: "2026年6月26日 17:50"
+date: "2026-06-26 17:50"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/RWs-wFHYwtyC43-RehoJDw"
 ---

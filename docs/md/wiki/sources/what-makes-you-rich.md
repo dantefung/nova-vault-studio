@@ -1,7 +1,7 @@
 ---
 title: "什么人可以赚大钱？"
 author: "庞少棠"
-date: "2026年8月20日 23:35"
+date: "2026-08-20 23:35"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/clV_xVA0Vcygs0S89NJu4w"
 ---

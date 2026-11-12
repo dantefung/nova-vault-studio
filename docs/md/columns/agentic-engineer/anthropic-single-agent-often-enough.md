@@ -1,7 +1,7 @@
 ---
 title: "同样的任务，多 Agent 架构慢了一倍！Anthropic 开始做减法了"
 author: "loonggg"
-date: "2026年10月25日 12:25"
+date: "2026-10-25 12:25"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/7NCuXYj0Z3DtAfab3WbIPw"
 ---

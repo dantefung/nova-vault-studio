@@ -1,7 +1,7 @@
 ---
 title: "50 个知识管理 Skill，帮你打造 AI 生产力系统"
 author: "空格丶"
-date: "2026年7月7日 08:00"
+date: "2026-07-07 08:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/xU6T2GWL6TiFAFEwsfcgew"
 ---

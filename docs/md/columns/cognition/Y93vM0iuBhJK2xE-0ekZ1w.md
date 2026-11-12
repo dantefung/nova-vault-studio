@@ -1,7 +1,7 @@
 ---
 title: "第一性原理到底怎么用：把问题拆到基本事实，再重新搭方案"
 author: "GrissomFI"
-date: "2026年10月5日 13:17"
+date: "2026-10-05 13:17"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/Y93vM0iuBhJK2xE-0ekZ1w"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "代码越来越快，架构工作变在哪里？从吴恩达 AI 工程技能图谱说起"
 author: "若飞"
-date: "2026年9月3日 22:02"
+date: "2026-09-03 22:02"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/j0PCxrU7n6ybqAKfT2DY6Q"
 ---

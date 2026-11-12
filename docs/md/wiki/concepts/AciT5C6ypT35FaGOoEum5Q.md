@@ -1,7 +1,7 @@
 ---
 title: "从 BERT、GPT 到 Jev：一文看懂大模型架构的演进与分化"
 author: "腾讯程序员"
-date: "2026年10月19日 17:36"
+date: "2026-10-19 17:36"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/AciT5C6ypT35FaGOoEum5Q"
 ---

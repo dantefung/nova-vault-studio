@@ -1,7 +1,7 @@
 ---
 title: "Hello Harness 05 函数调用"
 author: "一灰灰blog"
-date: "2026年8月19日 08:28"
+date: "2026-08-19 08:28"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/M84tlj61pVW9tam_1XsY-w"
 ---

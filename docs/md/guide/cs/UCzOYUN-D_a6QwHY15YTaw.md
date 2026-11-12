@@ -1,7 +1,7 @@
 ---
 title: "图解 Linux 信号机制：Ctrl+C 之后到底发生了什么？为什么信号会丢、handler 里不能 printf？"
 author: "xiaokang1998"
-date: "2026年10月3日 11:22"
+date: "2026-10-03 11:22"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/UCzOYUN-D_a6QwHY15YTaw"
 ---

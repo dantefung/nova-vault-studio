@@ -1,7 +1,7 @@
 ---
 title: "从 ReAct 到 Agent Teams：一个工程师视角的 Agent 协作机制思考"
 author: "蒋泽林（林曜）"
-date: "2026年9月6日 11:00"
+date: "2026-09-06 11:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/lWpo6q_VEPe_7cjtaGrhdA"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "给项目建Agent知识库，一套完整方法来了！"
 author: "王大鹏"
-date: "2026年9月24日 22:00"
+date: "2026-09-24 22:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/307ZX4doB9hoTP-u6hVDDw"
 ---

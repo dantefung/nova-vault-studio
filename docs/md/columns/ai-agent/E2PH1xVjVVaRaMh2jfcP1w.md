@@ -1,7 +1,7 @@
 ---
 title: "AI Agent 核心架构详解"
 author: "若飞"
-date: "2026年10月19日 22:40"
+date: "2026-10-19 22:40"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/E2PH1xVjVVaRaMh2jfcP1w"
 ---

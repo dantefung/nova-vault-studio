@@ -129,6 +129,10 @@ docs/md/columns/indie-hub/seo/webcafe-xiaoketang/collected/
 astro-app/node_modules/
 astro-app/dist/
 astro-app/.astro/
+# 构建期从 docs/md 复制的静态资源（868MB），由 scripts/copy-assets.mjs 生成
+astro-app/public/md/
+# 构建期生成的数据（导航/搜索索引等）
+astro-app/src/generated/
 ||||||| 718d5ba1
 x-to-markdown/
 .superpowers/

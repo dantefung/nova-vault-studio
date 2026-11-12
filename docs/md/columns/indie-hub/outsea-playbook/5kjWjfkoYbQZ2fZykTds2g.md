@@ -1,7 +1,7 @@
 ---
 title: "副业出海小白 首日破百刀，5天破千刀的新词经验分享"
 author: "蒋云何"
-date: "2026年10月18日 23:13"
+date: "2026-10-18 23:13"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/5kjWjfkoYbQZ2fZykTds2g"
 ---

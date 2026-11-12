@@ -1,7 +1,7 @@
 ---
 title: "19岁大学退学，后来靠卖表情包素材起步，不到一年融资300万美元"
 author: "我是哥飞"
-date: "2026年9月9日 13:13"
+date: "2026-09-09 13:13"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/msVQSUaOt0gwweaJx5D7mw"
 ---

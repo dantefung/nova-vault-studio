@@ -1,7 +1,7 @@
 ---
 title: "网站出海分享：Gmail 实现域名邮箱发邮件"
 author: "droidHZ"
-date: "2026年7月18日 08:13"
+date: "2026-07-18 08:13"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/vhnUHpa4JsJl41ouKQOZVA"
 ---

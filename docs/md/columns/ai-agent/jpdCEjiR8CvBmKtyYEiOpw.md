@@ -1,7 +1,7 @@
 ---
 title: "别急着上Multi-Agent——我把四个Agent砍回一个，效果反而好了"
 author: "唐成"
-date: "2026年9月24日 12:47"
+date: "2026-09-24 12:47"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/jpdCEjiR8CvBmKtyYEiOpw"
 ---

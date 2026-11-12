@@ -1,7 +1,7 @@
 ---
 title: "出海的决心、耐心、细心和平常心"
 author: "我是哥飞"
-date: "2024年12月28日 08:00"
+date: "2024-12-28 08:00"
 source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/EcbwPzNmaSfX4bRX3ypMww"
 ---
