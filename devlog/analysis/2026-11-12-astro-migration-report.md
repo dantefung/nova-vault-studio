@@ -170,7 +170,25 @@ Astro 的 content store 在 `digest` 未变时会跳过写入。loader 逻辑修
 
 103 条遗留死链的来源：2026-08-20 的 commit `b64cdfcc` 把 74 个解析出错的 wiki sources 移出 `docs/md`（`docs/md/wiki_sources_excluded/`），正文里指向它们的链接就成了死链。VitePress 时期配了 `ignoreDeadLinks: true`，构建期不报错，线上一直 404 —— 迁移把这个长期掩盖的问题显性化了，但**没有新增**。
 
-### 5.3 关键路由 HTTP 验证
+### 5.3 全新克隆构建验证（模拟 CI / Vercel）
+
+从远端克隆一份干净副本，只跑 `npm install && npm run build`：
+
+```
+[normalize-dates] 检查 3895 篇，改写 0 篇 date 字段
+[build-astro-nav] nav: 10 组, sidebar: 72 个扫描根
+[build-astro-doc-index] 3999 篇文档
+[build-astro-search-index] 3794 条索引，1064 KB
+[copy-assets] 复制 10644 个文件（843 MB）
+[build] 4000 page(s) built in 41.80s
+BUILD=0
+```
+
+这一步暴露了一个真问题：`docs/.vitepress/generated/blog-index.json` 在 `.gitignore` 里，
+而 Astro 的博客页与 RSS 都依赖它 —— 干净克隆会因为找不到该文件而构建失败。
+修复：把 `scripts/build-blog-index.js` 纳入 `build:data` 链。
+
+### 5.4 关键路由 HTTP 验证
 
 | 路由 | 状态 |
 |---|---|
@@ -185,7 +203,7 @@ Astro 的 content store 在 `digest` 未变时会跳过写入。loader 逻辑修
 | `/md/guide/ai/claude-code-resources/` | 200 |
 | `/rss.xml` `/sitemap-index.xml` `/search-index.json` | 200 |
 
-### 5.4 关键页面渲染抽查（preview 服务实测）
+### 5.5 关键页面渲染抽查（preview 服务实测）
 
 | 页面 | 检查结果 |
 |---|---|
@@ -194,7 +212,7 @@ Astro 的 content store 在 `digest` 未变时会跳过写入。loader 逻辑修
 | `/md/blog/` | 50 张文章卡片 |
 | `/rss.xml` | 50 条 item，首条为最新文章 |
 
-### 5.5 内容保真抽查
+### 5.6 内容保真抽查
 
 | 检查项 | 结果 |
 |---|---|

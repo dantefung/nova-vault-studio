@@ -1,0 +1,67 @@
+---
+/**
+ * 404 页
+ *
+ * VitePress 时期由 DefaultTheme 自动提供（404.html）。
+ * Astro 需要显式声明，静态托管下由 Vercel / Nginx 自动兜底到该文件。
+ */
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+
+<BaseLayout
+  title="页面不存在"
+  description="你访问的页面不存在或已被移动。"
+  landingTheme="quiet"
+  bodyClass="vp-404-page"
+>
+  <main class="vp-404-main">
+    <h1>404</h1>
+    <p>你访问的页面不存在，或者已经被移动到别处了。</p>
+    <div class="vp-404-actions">
+      <a href="/">回到首页</a>
+      <a href="/md/guide/getting-started">从指南开始</a>
+      <a href="/md/wiki/">浏览知识库</a>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .vp-404-main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 96px 24px;
+    text-align: center;
+  }
+
+  .vp-404-main h1 {
+    margin: 0 0 12px;
+    font-size: 64px;
+    line-height: 1;
+    color: var(--vp-c-brand-1);
+  }
+
+  .vp-404-main p {
+    margin: 0 0 24px;
+    color: var(--vp-c-text-2);
+  }
+
+  .vp-404-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .vp-404-actions a {
+    padding: 8px 16px;
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 8px;
+    font-size: 14px;
+    color: var(--vp-c-text-2);
+  }
+
+  .vp-404-actions a:hover {
+    border-color: var(--vp-c-brand-1);
+    color: var(--vp-c-brand-1);
+  }
+</style>
