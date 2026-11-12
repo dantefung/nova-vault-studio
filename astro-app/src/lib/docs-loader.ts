@@ -23,6 +23,10 @@ import matter from 'gray-matter'
  *
  * id 规则：wiki/sources/foo、blog/index —— 与 astro glob loader 一致，
  * 便于 getStaticPaths 与 URL 映射逻辑复用。
+ *
+ * 注意：Astro 的 content store 在 digest 未变时会跳过写入，
+ * 所以修��� loader 逻辑后必须清掉缓存（rm -rf node_modules/.astro .astro），
+ * 否则旧的脏数据会被继续沿用。
  */
 const docsLoader = {
   name: 'nova-docs-loader',
@@ -59,15 +63,16 @@ const docsLoader = {
       const { content, data } = matter(raw)
 
       const id = relPath.replace(/\.md$/, '')
-      const parsed = await parseData({ id, data, filePath: fullPath, digest: generateDigest(raw) })
-      if (!parsed) continue
+      // parseData 返回的是「解析并校验后的 data 本身」，不是 { data } 包装
+      const parsedData = await parseData({ id, data, filePath: fullPath, digest: generateDigest(raw) })
+      if (!parsedData) continue
 
       store.set({
         id,
         body: content,
         filePath: path.relative(fileURLToPath(config.root), fullPath),
         digest: generateDigest(raw),
-        data: parsed.data,
+        data: parsedData,
       })
     }
 

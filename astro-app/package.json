@@ -6,6 +6,7 @@
   "scripts": {
     "prebuild": "npm run build:data",
     "build:data": "cd .. && node scripts/normalize-dates.mjs && node scripts/build-astro-nav.mjs && node scripts/build-astro-doc-index.mjs && node scripts/build-astro-search-index.mjs && node scripts/copy-assets.mjs && node scripts/build-resource-nav.js --all",
+    "clean:cache": "rm -rf node_modules/.astro .astro",
     "build": "astro build",
     "dev": "astro dev --host 127.0.0.1 --port 4321",
     "preview": "astro preview --host 127.0.0.1 --port 4322",

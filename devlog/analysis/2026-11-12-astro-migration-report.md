@@ -135,6 +135,17 @@ astro-app/
 
 `tutorial/tutorial-one.md` 与 `tutorial/tutorial-one/index.md` 内容相同，映射到同一路由会冲突覆盖。修复：优先保留目录版（与 VitePress 行为一致）。
 
+### 4.4 content store 缓存导致 frontmatter 整体丢失（隐性坑）
+
+Astro 的 content store 在 `digest` 未变时会跳过写入。loader 逻辑修好后，
+旧缓存里的「`data: undefined`」会被继续沿用 —— 表现是**所有页面的 frontmatter
+都读不到**：标题靠 H1 兜底还能看，但日期全空，落地页「最近更新」列表渲染为 0 条。
+
+修复：`rm -rf node_modules/.astro .astro` 后重建。此后 `npm run clean:cache`
+提供显式清理入口，文档里也标注了这个坑。
+
+这类问题之所以难发现，是因为它**不报错**：构建成功、页面全出，只是少了字段。
+
 ---
 
 ## 五、验证结果
@@ -174,7 +185,16 @@ astro-app/
 | `/md/guide/ai/claude-code-resources/` | 200 |
 | `/rss.xml` `/sitemap-index.xml` `/search-index.json` | 200 |
 
-### 5.4 内容保真抽查
+### 5.4 关键页面渲染抽查（preview 服务实测）
+
+| 页面 | 检查结果 |
+|---|---|
+| `/` | 分类入口 8 个、最近更新 6 条（含日期）、搜索框就位 |
+| `/md/wiki/sources/0xding-ankole-agent-os-for-teams/` | 正文 13,094 字符、4 张图、19 个标题、侧边栏 1430 条链接、大纲 18 条、Giscus 容器就位 |
+| `/md/blog/` | 50 张文章卡片 |
+| `/rss.xml` | 50 条 item，首条为最新文章 |
+
+### 5.5 内容保真抽查
 
 | 检查项 | 结果 |
 |---|---|
