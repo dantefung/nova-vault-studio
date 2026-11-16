@@ -27,16 +27,29 @@ const DIST = path.join(ROOT, 'astro-app/dist')
 /* ── 1. 产物里实际存在的页面 ─────────────────────────────── */
 
 const built = new Set()
+/**
+ * 产物文件 -> 站点 URL。
+ *
+ * 兼容两种产物形态：
+ *   format 'file'      md/wiki/sources/foo.html      -> /md/wiki/sources/foo
+ *                       md/wiki/index.html            -> /md/wiki/ 与 /md/wiki/index
+ *   format 'directory' md/wiki/sources/foo/index.html -> /md/wiki/sources/foo/
+ */
+const addBuilt = (relFile) => {
+  let url = '/' + relFile.replace(/\.html$/, '')
+  url = url.replace(/\/index$/, '/')
+  built.add(url)
+  built.add(url.replace(/\/$/, ''))
+}
 const walkDist = (dir) => {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name)
-    if (entry.isDirectory()) walkDist(full)
-    else if (entry.name === 'index.html') {
-      const rel = '/' + path.relative(DIST, path.dirname(full)).split(path.sep).join('/')
-      built.add(rel.replace(/\/$/, '') || '/')
-      // 文件名里可能含 & 等字符，href 里的 & 会被转义成 &#38;
-      built.add(rel.replace(/&/g, '&').replace(/\/$/, '') || '/')
+    if (entry.isDirectory()) {
+      walkDist(full)
+      continue
     }
+    if (!entry.name.endsWith('.html')) continue
+    addBuilt(path.relative(DIST, full).split(path.sep).join('/'))
   }
 }
 walkDist(DIST)

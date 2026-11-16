@@ -5,10 +5,12 @@
   "private": true,
   "scripts": {
     "prebuild": "npm run build:data",
-    "build:data": "cd .. && node scripts/normalize-dates.mjs && node scripts/build-blog-index.js && node scripts/build-astro-nav.mjs && node scripts/build-astro-doc-index.mjs && node scripts/build-astro-search-index.mjs && node scripts/copy-assets.mjs && node scripts/build-resource-nav.js --all",
+    "build:data": "cd .. && node scripts/clean-public.mjs && node scripts/normalize-dates.mjs && node scripts/build-blog-index.js && node scripts/build-astro-nav.mjs && node scripts/build-astro-doc-index.mjs && node scripts/build-astro-search-index.mjs && node scripts/build-resource-nav.js --all",
+    "assets:public": "cd .. && node scripts/copy-assets.mjs --target public --pdf keep",
+    "assets:dist": "cd .. && node scripts/copy-assets.mjs --target dist --pdf skip",
     "clean:cache": "rm -rf node_modules/.astro .astro",
     "build": "astro build",
-    "dev": "astro dev --host 127.0.0.1 --port 4321",
+    "dev": "npm run build:data && npm run assets:public && astro dev --host 127.0.0.1 --port 4321",
     "preview": "astro preview --host 127.0.0.1 --port 4322",
     "check:links": "cd .. && node scripts/check-links.mjs",
     "check:frontmatter": "cd .. && python3 .claude/hooks/check-frontmatter.py docs/md 2>/dev/null || true"

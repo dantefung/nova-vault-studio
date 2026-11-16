@@ -22,16 +22,18 @@ export async function getStaticPaths() {
   // 与 VitePress 时期 MyLayout.vue 的路由分流保持一致。
   const SPECIAL = /^(blog(\/|$)|resources(\/|$))/
 
-  // loader 的 id 形如 wiki/sources/foo 或 blog/index。
-  // 结尾的 /index 对应 VitePress 的目录页 URL（/md/wiki/、/md/blog/），
-  // 直接用 id 会生成 /md/wiki/index/ 这种多一层目录的地址。
+  // build.format: 'file' 下，路由路径直接决定产物文件名：
+  //   wiki/sources/foo   -> md/wiki/sources/foo.html
+  //   wiki/index         -> md/wiki/index.html   （对应 URL /md/wiki/）
+  // 与 VitePress 时期的产物形状完全一致（VitePress：普通页面 .html、
+  // 目录索引页 index.html），Cloudflare Pages 打开即干净 URL。
   //
   // 少数目录同时存在 foo.md 与 foo/index.md（内容相同的重复文件），
-  // 映射到同一个路由会冲突，这里保留目录版（VitePress 优先 index.md）。
+  // 映射到同一路由会冲突，这里保留目录版（与 VitePress 行为一致）。
   const byPath = new Map<string, any>()
   for (const entry of entries) {
+    if (SPECIAL.test(entry.id)) continue
     const path = entry.id.replace(/\/index$/, '')
-    if (SPECIAL.test(path)) continue
     const existing = byPath.get(path)
     if (!existing) {
       byPath.set(path, entry)
@@ -45,7 +47,8 @@ export async function getStaticPaths() {
   }
 
   return Array.from(byPath.values()).map((entry) => ({
-    params: { path: entry.id.replace(/\/index$/, '') },
+    // index 结尾的 id 保留 /index，产出 index.html（目录页形态）
+    params: { path: entry.id },
     props: { entry },
   }))
 }

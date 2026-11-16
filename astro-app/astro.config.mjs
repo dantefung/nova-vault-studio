@@ -9,6 +9,7 @@
 
 import { defineConfig } from 'astro/config'
 import sitemap from '@astrojs/sitemap'
+import copyMdAssets from './integrations/copy-md-assets.mjs'
 
 // repo 根目录（astro-app 的父目录）
 const REPO_ROOT = new URL('..', import.meta.url).pathname
@@ -20,8 +21,10 @@ export default defineConfig({
   // 站内 3000+ 条链接按这个约定写，ignore 让两种写法都能命中，避免历史链接 404。
   trailingSlash: 'ignore',
   build: {
-    // 目录式输出：/md/foo/ -> dist/md/foo/index.html
-    format: 'directory',
+    // 文件式输出：md/wiki/sources/foo.md -> md/wiki/sources/foo.html
+    // 与 VitePress 时期的产物形状一致（VitePress：普通页面 .html，
+    // 目录索引页 index.html），Cloudflare Pages 打开即为干净 URL，无需尾斜杠跳转。
+    format: 'file',
     // 4000+ 页面时并发拉高会吃掉大量内存，压到 4 与 VitePress 时期一致
     concurrency: 4,
   },
@@ -30,7 +33,16 @@ export default defineConfig({
       filter: (page) => !page.includes('/v2/') && !page.includes('/v3/'),
       changefreq: 'weekly',
       priority: 0.7,
+      // 目录索引页的路由是 /md/xxx/index（产物形态与 VitePress 一致，
+      // 都是 xxx/index.html），但对外 URL 应该是 /md/xxx/，
+      // 与站内链接、canonical 保持同一形状，这里去掉结尾的 /index。
+      serialize(item) {
+        const url = new URL(item.url)
+        url.pathname = url.pathname.replace(/\/index$/, '/')
+        return { ...item, url: url.href }
+      },
     }),
+    copyMdAssets(),
   ],
   markdown: {
     // 站点自带的 Markdown 管线在 src/lib/markdown.ts（需要处理 VitePress 专有语法）

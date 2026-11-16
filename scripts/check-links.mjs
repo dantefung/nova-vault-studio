@@ -36,10 +36,14 @@ const walkDist = (dir) => {
     const full = path.join(dir, entry.name)
     if (entry.isDirectory()) {
       walkDist(full)
-    } else if (entry.name === 'index.html') {
-      const rel = '/' + path.relative(DIST, path.dirname(full)).split(path.sep).join('/')
-      built.add(rel.replace(/\/$/, '') || '/')
+      continue
     }
+    if (!entry.name.endsWith('.html')) continue
+    // 兼容两种产物形态：format 'file'（foo.html）与 'directory'（foo/index.html）
+    let url = '/' + path.relative(DIST, full).split(path.sep).join('/')
+    url = url.replace(/\.html$/, '').replace(/\/index$/, '/')
+    built.add(url)
+    built.add(url.replace(/\/$/, ''))
   }
 }
 walkDist(DIST)
@@ -54,13 +58,13 @@ const walkHtml = (dir) => {
     }
     if (!entry.name.endsWith('.html')) continue
     const html = fs.readFileSync(full, 'utf8')
-    for (const m of html.matchAll(/href="(\/md\/[^"#?]*)/g)) {
-      // href 里的中文是 URL 编码的，解码后再比对
-      let href
+    // href 里的中文是 URL 编码的、& 会被转义成 &#38;，先还原实体再解码
+    for (const m of html.matchAll(/href="(\/md\/[^"#?]*?)"/g)) {
+      let href = m[1].replace(/&#38;/g, '&').replace(/&amp;/g, '&')
       try {
-        href = decodeURIComponent(m[1])
+        href = decodeURIComponent(href)
       } catch {
-        href = m[1]
+        /* 保留原样 */
       }
       href = href.replace(/\/$/, '')
       if (!href || href === '/md') continue
