@@ -4,7 +4,7 @@ date: "2026-11-04"
 source: "X/Twitter"
 author: "Roland (@ChainEpic)"
 url: "https://x.com/ChainEpic/status/2109139518322594287"
-coverImage: "../images/chainepic-self-hosted-search-console-dashboard-opensource/001.jpg"
+coverImage: "../images/chainepic-self-hosted-search-console-dashboard-opensource/001.webp"
 ---
 
 # Roland（@ChainEpic）：开源多搜索引擎控制台仪表盘——Google、Bing 与 Yandex 数据聚合
