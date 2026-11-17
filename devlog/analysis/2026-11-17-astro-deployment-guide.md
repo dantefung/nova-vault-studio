@@ -353,3 +353,15 @@ droidHZ SERP 监控、生姜 Iris 大厂高薪毒药等。
 5. 确认新域全绿后，再考虑是否保留 `docs` 这个别名
 
 期间 `docs.moneylab.ccwu.cc` 可继续作为独立入口使用，两边互不干扰。
+
+### 9.5 sitemap 基准域名
+
+`astro.config.mjs` 的 `site` 改为可配置：
+
+```js
+site: process.env.SITE_URL || 'https://docs.moneylab.ccwu.cc',
+```
+
+原来固定写 `vault.moneylab.ccwu.cc`，但该域名当前返回 402，
+写进 sitemap 会让搜索引擎抓到死域名。将来切生产域名时构建传
+`SITE_URL=https://vault.moneylab.ccwu.cc` 即可，不用改代码。
