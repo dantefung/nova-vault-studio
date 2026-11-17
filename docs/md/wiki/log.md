@@ -5233,3 +5233,9 @@ source: "llm-wiki"
   22. `sources/jexchan-software-engineering-handbook-2026.md`（jexchan 推荐 AI 时代软件工程手册《The Software Engineering Handbook》，附 PDF 链接）
   23. `sources/leviwoyun-aesthetic-rescue-plan-100-color-palettes.md`（Levi 卧云：100 种世界级顶级配色，文章封面配色拯救计划，含配色卡与 OpenCode/Claude Code Skill 说明）
 - 内容摘要：本批次覆盖四条主线——① **出海变现的全景框架**：Roland 的万字长文 + 10 篇案例拆解（五大赛道 × 三大套利逻辑，AdSense/老牌 SEO/比价 AFF/垂直数据/数字商品），配启动资金表与见效周期；② **Roland 的个人线理**：离职 14 个月准则（不纯聊天、不劝说不一个频道的人、零物欲）、邮件 Outreach 工作流、对 AFF 的自我觉察（别人发过你再去是捡剩下的）；③ **Agent 时代的工作方式**：Viking 保持专注的三法、赵纯想的「提示词的时代结束 / 让 AI 自主 loop 到 9 分」、卡兹克的 10 句 Agent 高频提示词、jexchan 推荐的 AI 时代软件工程手册（从写代码转向定义需求/架构/测试证据）；④ **视觉与设计**：Levi 卧云的 100 种色卡配色方案（做成 Claude Skill）。索引与日志均已更新；去广告已执行；_sandbox 临时产物已清理。
+
+## [2026-11-17] ingest: 海拉鲁编程客《Codex 还原 UI 程度很高》——/goal 截图对比到不差即可
+
+- 来源：`https://x.com/hylarucoder/status/2122317669139722405`（X/Twitter：海拉鲁编程客 @hylarucoder，发布于 2026-11-16 13:15 UTC）
+- 归档至 `sources/hylarucoder-codex-ui-restore-screenshot-loop.md`（单推无配图）
+- 内容摘要：Codex 还原 UI 程度很高，秘诀也只有一句——「`/goal` 每次修改后截图，用 python 和原图比对，直到界面和图片差距不大即可」；其实用 Claude Code 也会发现它爱这么做，只是你不需要把上面那句话提出来。（延伸出价值：这与 [[patterns/agent-iteration-environment]]「人是环境的产物、Agent 也是」的环境论一致——给 Agent 一张截图作为可量化的验收信号，它会自主迭代至合格。）
