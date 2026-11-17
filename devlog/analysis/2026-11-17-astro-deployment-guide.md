@@ -275,3 +275,81 @@ node /tmp/scan-links.mjs astro-app/dist
 
 切生产时注意：DNS 生效前 CF 会要求把域名 CNAME 到 `nova-vault-f1p.pages.dev`，
 而 Vercel 那边要先解绑，否则两边抢解析。
+
+---
+
+## 九、新二级域名 docs.moneylab.ccwu.cc（2026-11-17）
+
+### 9.1 结果
+
+| 项 | 值 |
+|---|---|
+| 域名 | `https://docs.moneylab.ccwu.cc` |
+| Pages 项目 | `nova-vault` |
+| 绑定分支 | `feat/astro-rebuild`（preview alias，非生产分支） |
+| CF DNS | `docs` CNAME → `feat-astro-rebuild.nova-vault-f1p.pages.dev`（proxied） |
+| 域名状态 | active |
+| HTTP 实测 | 12/12 路由 200 |
+
+### 9.2 为什么绑到 preview 分支而不是生产分支
+
+`nova-vault` 项目的 production branch 仍是旧实验分支 `feat/cubxxw-theme-clone`，
+生产部署是 2 个月前的 VitePress 版本。直接把自定义域名绑到生产分支会指向旧站。
+
+Cloudflare Pages 支持把自定义域名绑到指定分支的 preview alias，前提是：
+
+1. DNS 记录必须是 **proxied**（橙云），外部 DNS 或未代理记录会回落到生产分支
+2. CNAME 目标要写**分支别名** `feat-astro-rebuild.<project>.pages.dev`，
+   不是项目根 `<project>.pages.dev`
+
+操作（API）：
+
+```bash
+# 1) 把域名加到 Pages 项目
+curl -X POST -H "Authorization: Bearer $CF_API_TOKEN" \
+  -H 'Content-Type: application/json' \
+  --data '{"name":"docs.moneylab.ccwu.cc"}' \
+  "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT/pages/projects/nova-vault/domains"
+
+# 2) 把域名绑到指定分支（关键：PATCH 的 body 里带 branch）
+curl -X PATCH -H "Authorization: Bearer $CF_API_TOKEN" \
+  -H 'Content-Type: application/json' \
+  --data '{"branch":"feat/astro-rebuild"}' \
+  "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT/pages/projects/nova-vault/domains/docs.moneylab.ccwu.cc"
+
+# 3) DNS（zone 在 CF 账号内时可自动创建；没自动建就手动建）
+#    type=CNAME  name=docs  content=feat-astro-rebuild.nova-vault-f1p.pages.dev  proxied=true
+```
+
+> 注意：手动只加 CNAME、不在 Pages 项目里登记域名，会得到 522。
+
+### 9.3 内容补齐（同日）
+
+发现 Astro 分支落后 main 5 个采集提交（30 篇文档 + 50 组配图），
+已 `git merge main` 并重建：
+
+| 指标 | 合并前 | 合并后 |
+|---|---|---|
+| git 跟踪的 docs/md/*.md | 3,998 | 4,028 |
+| 构建页面数 | 4,001 | 4,031 |
+| sitemap URL 数 | 4,000 | 4,031 |
+| 产物文件数 | 14,639 | 14,719 |
+
+新增文档包括 ChainEpic 出海系列、海拉鲁编程客 Codex 还原 UI、
+droidHZ SERP 监控、生姜 Iris 大厂高薪毒药等。
+
+重建后站内链接复扫：**3,772 条 `/md/` 链接，跳转 0 条，404 仍为 109 条**
+（全部是 VitePress 时期的历史死链，新增内容未引入死链）。
+
+### 9.4 后续切换生产域名的建议
+
+`vault.moneylab.ccwu.cc` 仍在 Vercel 且 402 `DEPLOYMENT_DISABLED`。
+等要正式切换时，推荐步骤：
+
+1. 先把 `nova-vault` 的 production branch 改为 `feat/astro-rebuild`（或合回 main 后改 main）
+2. 用 `--branch <production-branch>` 重新部署一次，使生产部署变为 Astro 站
+3. 在 Pages 项目里加 `vault.moneylab.ccwu.cc` 自定义域名
+4. 把现有 `vault` CNAME 从 Vercel 目标改到 Pages 项目根域名（proxied）
+5. 确认新域全绿后，再考虑是否保留 `docs` 这个别名
+
+期间 `docs.moneylab.ccwu.cc` 可继续作为独立入口使用，两边互不干扰。
