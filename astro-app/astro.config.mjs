@@ -15,7 +15,12 @@ import copyMdAssets from './integrations/copy-md-assets.mjs'
 const REPO_ROOT = new URL('..', import.meta.url).pathname
 
 export default defineConfig({
-  site: 'https://vault.moneylab.ccwu.cc',
+  // canonical URL / sitemap 的基准域名。
+  // 默认指向当前可用的 docs 二级域名；原来的 vault.moneylab.ccwu.cc 仍绑在
+  // Vercel 且返回 402 DEPLOYMENT_DISABLED，写进 sitemap 会让搜索引擎抓到死域名。
+  // 将来正式切换生产域名时，构建时传 SITE_URL=https://vault.moneylab.ccwu.cc 即可，
+  // 不必改代码。
+  site: process.env.SITE_URL || 'https://docs.moneylab.ccwu.cc',
   output: 'static',
   // VitePress 用 cleanUrls：目录索引页带尾斜杠（/md/wiki/），普通页面不带（/md/wiki/sources/foo）。
   // 站内 3000+ 条链接按这个约定写，ignore 让两种写法都能命中，避免历史链接 404。
