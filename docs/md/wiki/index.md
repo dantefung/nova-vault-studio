@@ -982,3 +982,27 @@ wiki/
 | [weiyipei-big-tech-high-salary-poison（精读摘要）](/md/wiki/summaries/weiyipei-big-tech-high-salary-poison) | 生姜Iris：大厂高薪毒药精读——ownership 缺失的根因、8 条关键洞察与结构性解释 | X/Twitter 提炼 |
 | [hezhiyan7-serp-monitor-ai-cron](/md/wiki/sources/hezhiyan7-serp-monitor-ai-cron) | droidHZ（赫兹）：让 AI 每天帮我盯 SERP——自己的词每天看、大词每周看，新站一冒头当天就知道 | 微信公众号 |
 | [hezhiyan7-serp-monitor-ai-cron（精读摘要）](/md/wiki/summaries/hezhiyan7-serp-monitor-ai-cron) | AI 定时盯 SERP 精读——双频次监控方法论、可复用提示词与 AI Overview 引用格局 | 微信公众号提炼 |
+| [vikingmute-three-ways-to-stay-focused](/md/wiki/sources/vikingmute-three-ways-to-stay-focused) | Viking（@vikingmute）：保持专注的三种方式——真正的写作、每次一个项目、认真看老美剧 | X/Twitter |
+| [chunxiangai-prompt-era-over-agent-loop](/md/wiki/sources/chunxiangai-prompt-era-over-agent-loop) | 赵纯想：提示词的时代已经结束——LLM 知道什么是 9 分，也知道如何到达 9 分 | X/Twitter |
+| [khazix-10-agent-era-most-used-prompts](/md/wiki/sources/khazix-10-agent-era-most-used-prompts) | 数字生命卡兹克：最近两个月用 Agent 干活最爱说的几句 Prompt——10 条 | X/Twitter |
+| [0xmaxs-yc-lauren-tan-slack-agent-potato](/md/wiki/sources/0xmaxs-yc-lauren-tan-slack-agent-potato) | 九江月.hl：土豆姐 Lauren Tan 的 YC 访谈——新功能从想法到上线全流程在一个 Slack 里解决 | X/Twitter |
+| [jexchan-software-engineering-handbook-2026](/md/wiki/sources/jexchan-software-engineering-handbook-2026) | jexchan：推荐免费书《The Software Engineering Handbook》（James C. Davis, 2026） | X/Twitter |
+| [chainepic-overseas-moneymaking-ultimate-guide-2026](/md/wiki/sources/chainepic-overseas-moneymaking-ultimate-guide-2026) | Roland（@ChainEpic）：2026 全球化搞钱终极指南——普通人如何从 0 到 1 构建海外美金印钞机（亲身经历，万字手码） | X/Twitter |
+| [chainepic-overseas-moneymaking-ultimate-guide-2026（精读摘要）](/md/wiki/summaries/chainepic-overseas-moneymaking-ultimate-guide-2026) | Roland 万字长文出海框架精读——三大套利逻辑、五大赛道、两种知识付费打法与速查表 | X/Twitter 提炼 |
+| [chainepic-tld-domain-arbitrage-musically-ly](/md/wiki/sources/chainepic-tld-domain-arbitrage-musically-ly) | Roland（@ChainEpic）：为什么出海域名短网址很吃香？musically.ly → 字节 10 亿美金 | X/Twitter |
+| [chainepic-tld-domain-arbitrage-time-is](/md/wiki/sources/chainepic-tld-domain-arbitrage-time-is) | Roland（@ChainEpic）：另一个例子——Time.is 放弃 whattimeisitnow.com，用冰岛 .is 凑出完整句子 | X/Twitter |
+| [chainepic-sales-is-the-core-email-marketing](/md/wiki/sources/chainepic-sales-is-the-core-email-marketing) | Roland（@ChainEpic）：商业的本质还是销售——用 Grok Bot 把营销性邮箱利用起来 | X/Twitter |
+| [chainepic-tractordata-dinosaur-site-case](/md/wiki/sources/chainepic-tractordata-dinosaur-site-case) | Roland（@ChainEpic）：运行了 20 多年、界面 90 年代末风格——TractorData，每天 6 万访客年入约 55 万美元 | X/Twitter |
+| [chainepic-diskprices-amazon-arbitrage-site](/md/wiki/sources/chainepic-diskprices-amazon-arbitrage-site) | Roland（@ChainEpic）：神器的网站——全是文本的 DiskPrices，亚马逊在售硬盘价格/容量/每 TB 单价全量对比 | X/Twitter |
+| [chainepic-ai-original-page-game-motion-case](/md/wiki/sources/chainepic-ai-original-page-game-motion-case) | Roland（@ChainEpic）：给我的游戏网站加了一个游戏交互动效名词展示——AI 辅助原创页面的案例 | X/Twitter |
+| [chainepic-respect-others-fate](/md/wiki/sources/chainepic-respect-others-fate) | Roland（@ChainEpic）：尊重他人命运，不要去干涉他人的因果 | X/Twitter |
+| [leviwoyun-aesthetic-rescue-plan-100-color-palettes](/md/wiki/sources/leviwoyun-aesthetic-rescue-plan-100-color-palettes) | Levi 卧云：审美拯救计划（一）· 文章封面配色——收集 100 种世界公认顶级配色 | X/Twitter |
+| [chainepic-human-based-overseas-navigation](/md/wiki/sources/chainepic-human-based-overseas-navigation) | Roland（@ChainEpic）：出海导航应该以人为本，不是以工具为本——入门要的不是工具，是人 | X/Twitter |
+| [chainepic-fourteen-months-three-rules](/md/wiki/sources/chainepic-fourteen-months-three-rules) | Roland（@ChainEpic）：离职的这 14 个月——3 条准则（不纯聊天、不劝说不在一个频道的人、零物欲） | X/Twitter |
+| [chainepic-aff-three-rules-selection](/md/wiki/sources/chainepic-aff-three-rules-selection) | Roland（@ChainEpic）：我的 AFF 选品就三条规则——刚需高频复购、结算痛快门槛透明、自带免费试用 | X/Twitter |
+| [chainepic-aff-repost-trap](/md/wiki/sources/chainepic-aff-repost-trap) | Roland（@ChainEpic）：AFF 搞钱的误区——别人发了我再去、就是捡吃剩下的；先过一遍受众和推广方式 | X/Twitter |
+| [chainepic-tencent-expert-aff-postmortem](/md/wiki/sources/chainepic-tencent-expert-aff-postmortem) | Roland（@ChainEpic）：直接惊动了腾讯总部——40 个专家注册、24 小时近 800 块收入 | X/Twitter |
+| [chainepic-email-outreach-four-steps](/md/wiki/sources/chainepic-email-outreach-four-steps) | Roland（@ChainEpic）：我个人的邮件 Outreach 工作流——筛选 / 定制 / 利益 / 第 3 天第 7 天自动跟进 | X/Twitter |
+| [chainepic-christmas-ultraman-overseas](/md/wiki/sources/chainepic-christmas-ultraman-overseas) | Roland（@ChainEpic）：把国内奥特曼定制生日视频这套玩法，做成圣诞版，然后国外各大视频平台分发 | X/Twitter |
+| [chainepic-big-data-b2b-data-play](/md/wiki/sources/chainepic-big-data-b2b-data-play) | Roland（@ChainEpic）：大道至简，真实数据就是这个「简」——把医美店/足浴店/健身房数据爬下来做个 App | X/Twitter |
+| [chainepic-free-token-burn-projects](/md/wiki/sources/chainepic-free-token-burn-projects) | Roland（@ChainEpic）：如果还有几个小时你的 Token 就要重置了，做什么项目能不浪费呢？ | X/Twitter |

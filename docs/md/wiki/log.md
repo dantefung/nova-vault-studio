@@ -5202,3 +5202,34 @@ source: "llm-wiki"
 - 归档至 `sources/hezhiyan7-serp-monitor-ai-cron.md`，配图 3 张本地化（`images/hezhiyan7-serp-monitor-ai-cron/`，已转 WebP）
 - 提炼知识页：`summaries/hezhiyan7-serp-monitor-ai-cron.md`（精读摘要：双频次方法论拆解 + 两条可复用提示词 + AI Overview 引用格局 + 成本核算 + 适用边界）
 - 内容摘要：用 AI 定时任务盯 SERP——**自己的词每天跑（告警：新站冒头、自己掉出前 10、AI Overview 换引用），大词每周跑（趋势：看 Google 方向与 AI Overview 偏好引用什么样的页面）**。第三方 SERP API（glasser）一个 key 接进 Claude Code，按次付费免订阅，$0.002/词、每月约 $0.09；定时也交给 Claude Code 跑。提示词必须显式点名 SERP 模块（AI Overview / 视频 / Reddit）且两次查询要有可比基线（冷启动用历史 SERP 快照兜底）。作者实测 5 个 AI 视频/图片大词（Google 美国站）发现 **Canva 被 4 个词的 AI Overview 引用、Adobe 3 个、YouTube 视频 3 个**，HeyGen / Magic Hour / Higgsfield / VEED / Picsart 各 2 个——这张引用表比"排名第几"更能说明 AI Overview 偏好什么样的页面。作者诚实指出局限：**大词风向单周变化太小，需要持续观察数月才有意义**。已去掉社群优惠码等导流内容。
+
+## [2026-11-17] ingest: 23 条 X 推文（Roland ChainEpic 系列 12 篇 + Viking / 赵纯想 / 卡兹克 / 九江月 / jexchan / Levi 卧云 等）
+
+- 抓取与归档：通过 `scripts/x-pipeline.py` 完整跑通 `fetch → images → build → normalize → check`
+- 去广告处理：已剔除自有产品推广、互推话术、推广链接（Ro.cafe 付费咨询页、腾讯专家 AFF 链接、AT/ROAD 等）；保留事实数据与方法论
+- 配图本地化：`images/chainepic-overseas-moneymaking-ultimate-guide-2026/`（2 张，含启动资金表）、`images/chainepic-tractordata-dinosaur-site-case/`、`images/chainepic-diskprices-amazon-arbitrage-site/`、`images/chainepic-ai-original-page-game-motion-case/`、`images/chainepic-tencent-expert-aff-postmortem/`、`images/chainepic-human-based-overseas-navigation/`（随后删除因系作者自营产品截图）、`images/leviwoyun-aesthetic-rescue-plan-100-color-palettes/`（21 张）
+- 归档列表（23 篇，均为 X/Twitter）：
+  1. `sources/chainepic-overseas-moneymaking-ultimate-guide-2026.md`（Roland 万字长文《2026 全球化搞钱终极指南》+ 精读摘要 `summaries/chainepic-overseas-moneymaking-ultimate-guide-2026.md`；配图 2 张）
+  2. `sources/chainepic-tld-domain-arbitrage-musically-ly.md`（musically.ly → 字节 10 亿的 .ly 域名套利案例）
+  3. `sources/chainepic-tld-domain-arbitrage-time-is.md`（Time.is 用冰岛 .is 凑完整句子、月流量破 500 万案例）
+  4. `sources/chainepic-sales-is-the-core-email-marketing.md`（Roland：商业的本质还是销售，用 Grok Bot 把邮件营销自动化）
+  5. `sources/chainepic-tractordata-dinosaur-site-case.md`（TractorData 90 年代风格网站、每天 6 万 PV、年入约 $55 万、AdSense + 农机导流变现）
+  6. `sources/chainepic-diskprices-amazon-arbitrage-site.md`（DiskPrices 全文字比价站，亚马逊 AFF，装机/NAS 圈"必看"）
+  7. `sources/chainepic-ai-original-page-game-motion-case.md`（给游戏网站加游戏交互动效名词展示：Gemini 写代码 → Cursor 适配 → 提交搜索引擎，AI 原创页面案例）
+  8. `sources/chainepic-respect-others-fate.md`（尊重他人命运——Niko 成都聚会感悟转推）
+  9. `sources/chainepic-human-based-overseas-navigation.md`（Roland：出海导航应该以人为本，不是以工具为本）
+  10. `sources/chainepic-fourteen-months-three-rules.md`（Roland 离职 14 个月的 3 条准则：不纯聊天、不劝说不在一个频道的人、零物欲）
+  11. `sources/chainepic-aff-three-rules-selection.md`（AFF 选品 3 条规则：刚需高频复购、结算痛快、自带免费试用）
+  12. `sources/chainepic-aff-repost-trap.md`（AFF 的误区：别人发了再去就是捡别人吃剩下的；先过一遍受众和推广方式）
+  13. `sources/chainepic-tencent-expert-aff-postmortem.md`（腾讯专家邀请计划 40 专家注册 / 24 小时近 800 元返佣）
+  14. `sources/chainepic-email-outreach-four-steps.md`（Email Outreach 4 步工作流）
+  15. `sources/chainepic-christmas-ultraman-overseas.md`（把国内奥特曼定制生日视频做成圣诞版出海各大视频平台）
+  16. `sources/chainepic-big-data-b2b-data-play.md`（真实数据就是大道至简——医美/足浴/健身房/口腔医院爬数据做 App）
+  17. `sources/chainepic-free-token-burn-projects.md`（Token 就要重置了，做什么项目能不浪费——8 个可立即复现的项目方向 + 变现方式）
+  18. `sources/vikingmute-three-ways-to-stay-focused.md`（Viking：三种保持专注的方式——写作/单项目/看老美剧）
+  19. `sources/chunxiangai-prompt-era-over-agent-loop.md`（赵纯想：提示词时代结束——让 AI 自主 loop 直到 9 分）
+  20. `sources/khazix-10-agent-era-most-used-prompts.md`（数字生命卡兹克：Agent 干活最爱用的 10 句提示词，从根因到复盘沉淀）
+  21. `sources/0xmaxs-yc-lauren-tan-slack-agent-potato.md`（九江月.hl 转 Lauren Tan YC 访谈：新功能全流程在一个 Slack 里跑完，Potato 启动 Cursor 云端智能体）
+  22. `sources/jexchan-software-engineering-handbook-2026.md`（jexchan 推荐 AI 时代软件工程手册《The Software Engineering Handbook》，附 PDF 链接）
+  23. `sources/leviwoyun-aesthetic-rescue-plan-100-color-palettes.md`（Levi 卧云：100 种世界级顶级配色，文章封面配色拯救计划，含配色卡与 OpenCode/Claude Code Skill 说明）
+- 内容摘要：本批次覆盖四条主线——① **出海变现的全景框架**：Roland 的万字长文 + 10 篇案例拆解（五大赛道 × 三大套利逻辑，AdSense/老牌 SEO/比价 AFF/垂直数据/数字商品），配启动资金表与见效周期；② **Roland 的个人线理**：离职 14 个月准则（不纯聊天、不劝说不一个频道的人、零物欲）、邮件 Outreach 工作流、对 AFF 的自我觉察（别人发过你再去是捡剩下的）；③ **Agent 时代的工作方式**：Viking 保持专注的三法、赵纯想的「提示词的时代结束 / 让 AI 自主 loop 到 9 分」、卡兹克的 10 句 Agent 高频提示词、jexchan 推荐的 AI 时代软件工程手册（从写代码转向定义需求/架构/测试证据）；④ **视觉与设计**：Levi 卧云的 100 种色卡配色方案（做成 Claude Skill）。索引与日志均已更新；去广告已执行；_sandbox 临时产物已清理。
