@@ -1,37 +1,32 @@
-# Cloudflare 部署配置（Workers Static Assets）
+# Cloudflare 部署配置
 #
-# 用法（Workers 方式，推荐）：
-#   cd astro-app && npx wrangler deploy
+# 用于 Cloudflare Pages：
+#   cd astro-app && npx wrangler pages deploy
+# 或在 Pages 项目设置里填：
+#   - 构建命令：cd astro-app && npm run build
+#   - 输出目录：astro-app/dist
+#   - 环境变量：NODE_VERSION=22（Astro 5 要求 >=18.20.8，CF 默认 18.x 必须显式指定）
 #
-# 用法（Cloudflare Pages 方式）：
-#   在 Pages 项目里配置：
-#     - 构建命令：cd astro-app && npm run build
-#     - 构建输出目录：astro-app/dist
-#     - 环境变量：NODE_VERSION=22
-#     - HTML 处理：默认 auto-trailing-slash 即可（产物是 .html 文件形态，
-#       与 VitePress 时期一致，/md/wiki/sources/foo 直接命中 foo.html）
+# 说明：Pages 与 Workers 是两套互斥的配置形态（pages_build_output_dir vs [assets]）。
+# 本文件按 Pages 形态写，因为站点是纯静态产物，Pages 的静态托管 +
+# 全量 CDN 缓存正是这个规模（1.1GB / 1.4 万文件）需要的。
 #
-# 为什么不走 Pages 的默认目录索引：产物里普通页面是 .html、目录索引页是
-# index.html，与 VitePress 时期一致，Cloudflare 的 auto-trailing-slash
-# 会把 /md/wiki/sources/foo 直接命中 foo.html，无需任何跳转。
+# 如果改用 Workers Static Assets：
+#   1) 删掉下面的 pages_build_output_dir
+#   2) 换成：
+#        [assets]
+#        directory = "./dist"
+#        binding = "SYSTEM_VAULT_ASSETS"
+#   3) 构建产物仍由 integrations/copy-md-assets.mjs 在 astro:build:done 直写 dist/
+#
+# HTML 处理：保持默认 auto-trailing-slash 即可。
+# 产物形状与 VitePress 时期一致（普通页面 foo.html、目录索引页 foo/index.html），
+# /md/wiki/sources/foo 直接命中 foo.html，/md/wiki/ 命中 wiki/index.html，无需任何跳转。
 
-name = "system-vault"
+name = "nova-vault"
 compatibility_date = "2026-11-01"
-compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "./dist"
 
-# 产物目录：astro build 之后由 integrations/copy-md-assets.mjs 直写静态资源
-[assets]
-directory = "./dist"
-binding = "SYSTEM_VAULT_ASSETS"
-
-# 静态站没有运行时函数，纯静态分发
+# 站内没有运行时函数，纯静态分发
 [observability]
 enabled = false
-
-# 环境变量说明：
-#   NODE_VERSION=22
-#     Astro 5 的 engines 要求 ^18.20.8 || ^20.3.0 || >=22.0.0，
-#     Cloudflare Pages 默认 Node 18.x，必须在项目设置里显式指定 22。
-#
-# 构建耗时参考：本地 45–90 秒（其中大部分是 843MB 静态资源写入），
-# Cloudflare Pages 单次构建上限 10 分钟，留足余量。
