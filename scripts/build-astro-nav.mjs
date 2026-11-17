@@ -60,10 +60,15 @@ const sidebar = {
   ...generateSidebarMappingForSubdirectories('docs/md/wiki/read-later', '/md/wiki/read-later/'),
 }
 
-// 与 docs/.vitepress/config.js 的 themeConfig.nav 保持一致
+// 与 docs/.vitepress/config.js 的 themeConfig.nav 保持一致。
+//
+// 每个下拉分组都补一个 link（栏目首页），让标题本身可点击 —— VitePress 时期
+// 标题只是纯文本、必须 hover 才能进子项，用户反馈「很多都点击不了」。
+// 这里点标题直达栏目首页，hover 仍展开子菜单，两种入口都保留。
 const nav = [
   {
     text: '资源中心',
+    link: '/md/resources/',
     items: [
       { text: 'AI 编程资源', link: '/md/resources/' },
       { text: 'Claude Code 资源', link: '/md/guide/ai/claude-code-resources/' },
@@ -71,6 +76,7 @@ const nav = [
   },
   {
     text: '文档',
+    link: '/md/guide/getting-started',
     items: [
       { text: '指南', link: '/md/guide/getting-started' },
       { text: '特性', link: '/md/sitelog/features/charts' },
@@ -81,16 +87,18 @@ const nav = [
   },
   {
     text: '书籍',
+    link: '/md/books/',
     items: [
       { text: '书籍库', link: '/md/books/' },
       ...generateBookNavItems('docs/md/books', '/md/books/'),
     ],
   },
-  { text: '教程', items: generateNavItems('docs/md/tutorial', '/md/tutorial/') },
-  { text: 'AGI 教程', items: generateNavItems('docs/md/agi', '/md/agi/') },
+  { text: '教程', link: '/md/tutorial/', items: generateNavItems('docs/md/tutorial', '/md/tutorial/') },
+  { text: 'AGI 教程', link: '/md/agi/', items: generateNavItems('docs/md/agi', '/md/agi/') },
   { text: '博客', link: '/md/blog/' },
   {
     text: '知识库',
+    link: '/md/wiki/',
     items: [
       { text: '知识库总览', link: '/md/wiki/' },
       { text: '核心概念', link: '/md/wiki/concepts/' },
@@ -104,6 +112,7 @@ const nav = [
   },
   {
     text: '商业',
+    link: '/md/business/',
     items: [
       { text: '商业分析总览', link: '/md/business/' },
       { text: '市场分析', link: '/md/business/market-analysis/' },
@@ -111,6 +120,7 @@ const nav = [
   },
   {
     text: '专栏',
+    link: '/md/columns/',
     items: [
       { text: '专栏总览', link: '/md/columns/' },
       { text: 'Agentic Engineer 专栏', link: '/md/columns/agentic-engineer/' },
@@ -123,7 +133,7 @@ const nav = [
       { text: 'SEO 建站', link: '/md/columns/indie-hub/seo/' },
     ],
   },
-  { text: '幻灯片', items: [{ text: '演示文稿', link: '/md/slides/' }] },
+  { text: '幻灯片', link: '/md/slides/', items: [{ text: '演示文稿', link: '/md/slides/' }] },
 ]
 
 const payload = { nav, sidebar }

@@ -73,12 +73,12 @@ a:hover {
   align-items: center;
   gap: 18px;
   flex: 1;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.vp-nav-links::-webkit-scrollbar {
-  display: none;
+  /* 不能用 overflow-x: auto —— CSS 规范会连带把 overflow-y 计算成 auto，
+     导致 .vp-nav-group ul 的下拉被裁剪在 27px 高的导航条里，完全点不到。
+     导航项数量固定，去掉滚动即可；窄屏由 MobileNavSheet 接管。 */
+  min-width: 0;
+  flex-wrap: wrap;
+  row-gap: 4px;
 }
 
 .vp-nav-links > a,
@@ -86,10 +86,14 @@ a:hover {
   font-size: 14px;
   color: var(--vp-c-text-2);
   white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .vp-nav-links > a:hover,
-.vp-nav-links > a.is-active {
+.vp-nav-links > a.is-active,
+.vp-nav-group-title:hover,
+.vp-nav-group-title.is-active {
   color: var(--vp-c-brand-1);
 }
 
@@ -97,12 +101,26 @@ a:hover {
   position: relative;
 }
 
-.vp-nav-group ul {
-  display: none;
+/* 鼠标离开标题、移向 ul 的间隙也能保持展开，避免下拉「一移就消失」。
+   ::before 在标题和 ul 之间铺一层不可见的桥。 */
+.vp-nav-group::after {
+  content: '';
   position: absolute;
   top: 100%;
   left: 0;
+  width: 100%;
+  height: 8px;
+}
+
+.vp-nav-group ul {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 50;
   min-width: 200px;
+  max-height: min(70vh, 560px);
+  overflow-y: auto;
   margin: 0;
   padding: 8px 0;
   list-style: none;
@@ -112,7 +130,8 @@ a:hover {
   box-shadow: var(--vp-shadow-2);
 }
 
-.vp-nav-group:hover ul {
+.vp-nav-group:hover ul,
+.vp-nav-group:focus-within ul {
   display: block;
 }
 
@@ -121,9 +140,11 @@ a:hover {
   padding: 6px 16px;
   font-size: 14px;
   color: var(--vp-c-text-2);
+  text-decoration: none;
 }
 
-.vp-nav-group ul li a:hover {
+.vp-nav-group ul li a:hover,
+.vp-nav-group ul li a.is-active {
   background: var(--vp-c-bg-soft);
   color: var(--vp-c-brand-1);
 }

@@ -30,7 +30,11 @@ function isActive(link?: string) {
         navData.nav.map((group: any) =>
           group.items ? (
             <div class="vp-nav-group">
-              <span class="vp-nav-group-title">{group.text}</span>
+              <!-- 标题本身可点击直达栏目首页；hover 仍展开子菜单 -->
+              <a
+                href={group.link}
+                class:list={{ 'vp-nav-group-title': true, 'is-active': isActive(group.link) }}
+              >{group.text}</a>
               <ul>
                 {group.items.map((item: any) => (
                   <li>
