@@ -6,8 +6,8 @@
  * 数据复用 docs/.vitepress/generated/blog-index.json（由 scripts/build-blog-index.js 生成），
  * 与 VitePress 时期完全同源，避免两套索引逻辑。
  */
-import BaseLayout from '../../../layouts/BaseLayout.astro'
-import SearchBox from '../../../components/SearchBox.astro'
+import BaseLayout from '../../../../layouts/BaseLayout.astro'
+import SearchBox from '../../../../components/SearchBox.astro'
 import blogIndex from '@generated/blog-index.json'
 
 const articles = (blogIndex as any).articles

@@ -11,7 +11,9 @@ import blogIndex from '@generated/blog-index.json'
 export async function getStaticPaths() {
   const index = blogIndex as any
   return index.series.map((s: any) => ({
-    params: { slug: s.slug },
+    // 路由以 /index 结尾，产物才是 <slug>/index.html（目录页形态），
+    // 与 VitePress 时期一致，避免 Cloudflare 上多一跳 308。
+    params: { slug: `${s.slug}/index` },
     props: { series: s },
   }))
 }

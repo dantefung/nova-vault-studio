@@ -11,7 +11,10 @@ import blogIndex from '@generated/blog-index.json'
 export async function getStaticPaths() {
   const index = blogIndex as any
   return index.categories.map((c: any) => ({
-    params: { slug: c.slug },
+    // 路由以 /index 结尾，产物才是 <slug>/index.html —— 与 VitePress 时期的目录页
+    // 形态一致，Cloudflare Pages 的 auto-trailing-slash 才能直接命中目录索引页，
+    // 不产生 308 跳转。
+    params: { slug: `${c.slug}/index` },
     props: { category: c },
   }))
 }
