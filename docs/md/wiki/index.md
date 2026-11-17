@@ -978,3 +978,5 @@ wiki/
 | [harrisonitsme-dsh-11-essential-plugins](/md/wiki/sources/harrisonitsme-dsh-11-essential-plugins) | 森叔（@harrisonitsme）：大肥鱼 DSH 必装的 11 个插件 | X/Twitter |
 | [yxl44-agent-desktop-200k-stars-no-screenshot-rust](/md/wiki/sources/yxl44-agent-desktop-200k-stars-no-screenshot-rust) | 杨小乱（@yxl44）：20 万 Star 的 agent-desktop——不用截图、不模拟坐标，直接读系统无障碍接口 | X/Twitter |
 | [bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize](/md/wiki/sources/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize) | 小晚不在（@bbkirstry）：小红书起号保姆级教程——从 0 开始找对标，坚持出摊、商业化 | X/Twitter |
+| [weiyipei-big-tech-high-salary-poison](/md/wiki/sources/weiyipei-big-tech-high-salary-poison) | 生姜Iris（@WeiYipei）：从字节离职后写下的「大厂高薪毒药」——白金螺丝钉、执行方与自由 | X/Twitter |
+| [weiyipei-big-tech-high-salary-poison（精读摘要）](/md/wiki/summaries/weiyipei-big-tech-high-salary-poison) | 生姜Iris：大厂高薪毒药精读——ownership 缺失的根因、8 条关键洞察与结构性解释 | X/Twitter 提炼 |

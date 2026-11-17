@@ -5188,3 +5188,10 @@ source: "llm-wiki"
 - 来源：`https://mp.weixin.qq.com/s/k2LwwM4-u0OnPKvQqwlAWw`（微信公众号：吴思，腾讯云开发者 2026-11-11）
 - 归档至 `sources/tencent-ai-code-acceptance-agent.md`，配图 17 张本地化
 - 内容摘要：医疗业务研发团队 OPT（One Person Team，CodeBuddy 等 CLI 为运行时）给 AI 代码生成补上后端验收 Agent——AI 真实调用接口，结合接口返回/业务状态/日志/DB 逐层验证需求是否真正实现。主流程 5 阶段：变更接口分析→编译发布与接口验证→Gherkin 测试→TAPD 预测试→验收结果输出（证据链）；效果：人工投入减少 80%、问题前置、验收能力复用；“看代码”走向“看结果”。去掉关注/入群/代金券等引流内容。未提炼知识页。
+
+## [2026-11-17] ingest: 生姜Iris《大厂高薪毒药》——从字节离职后的白金螺丝钉观察
+
+- 来源：`https://x.com/WeiYipei/status/2122185638577598926`（X/Twitter：生姜Iris @WeiYipei，发布于 2026-11-16）
+- 归档至 `sources/weiyipei-big-tech-high-salary-poison.md`（单推无配图）
+- 提炼知识页：`summaries/weiyipei-big-tech-high-salary-poison.md`（精读摘要：核心结论 + 8 条关键洞察 + 结构性解释 + 适用边界）
+- 内容摘要：前字节 3 开头职级员工的离职观察——大厂之所以是「高薪毒药」，不在钱少而在高薪同时买走了「眼里有光」与对单块业务的 ownership。根因链：一年被迫换三次业务线 → ownership 缺失；季度 OKR 自上而下 data-driven 且无 blueprint 权限；分工过细导致上通下达沟通成本过高，「很多人也就没意识去思考全局了——或者说，本来也没有权限去思考」。结果是除战略部门外所有人都是执行方、高职级者也只是「漂亮的白金螺丝钉」；3 开头同时观察 2/4 开头后「没觉得谁更自由」。作者诚实收尾：2025 年 2 月起就在思考自己的 passion，至今仍迷茫。
