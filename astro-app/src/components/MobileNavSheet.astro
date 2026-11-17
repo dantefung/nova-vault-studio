@@ -4,7 +4,11 @@
  *
  * VitePress 时期的 MobileNavSheet.vue 用 Vue 组件 + body class 实现；
  * 这里改为原生 <dialog>，无框架依赖，行为一致。
+ *
+ * 导航项直接从 generated/nav.json 服务端渲染 —— 之前 <nav> 是空的、
+ * 没有任何 JS 往里填内容，导致点开汉堡后是一个空抽屉，移动端完全无法导航。
  */
+import navData from '../generated/nav.json'
 ---
 
 <button type="button" class="vp-mobile-nav-toggle" id="vp-mobile-nav-toggle" aria-label="打开导航">
@@ -16,7 +20,36 @@
     <span class="vp-mobile-nav-brand">System Vault</span>
     <button type="button" class="vp-mobile-nav-close" id="vp-mobile-nav-close" aria-label="关闭导航">✕</button>
   </div>
-  <nav class="vp-mobile-nav-body" id="vp-mobile-nav-body"></nav>
+  <nav class="vp-mobile-nav-body" id="vp-mobile-nav-body" aria-label="站点导航">
+    <ul class="vp-mobile-nav-list">
+      {
+        navData.nav.map((group: any) => (
+          <li>
+            {group.items?.length ? (
+              <details class="vp-mobile-nav-group">
+                <summary>{group.text}</summary>
+                <ul>
+                  <li>
+                    <a href={group.link} class="vp-mobile-nav-overview">{group.text}总览</a>
+                  </li>
+                  {group.items.map((item: any) => (
+                    <li>
+                      <a href={item.link}>{item.text}</a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ) : (
+              <a href={group.link}>{group.text}</a>
+            )}
+          </li>
+        ))
+      }
+      <li>
+        <a href="https://github.com/dantefung/nova-vault-studio" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </li>
+    </ul>
+  </nav>
 </dialog>
 
 <script>
@@ -33,5 +66,9 @@
   // 点击遮罩关闭
   dialog?.addEventListener('click', (e) => {
     if (e.target === dialog) dialog.close()
+  })
+  // 点导航链接后关闭，避免返回时抽屉仍开着
+  dialog?.querySelectorAll('a').forEach((a) => {
+    a.addEventListener('click', () => dialog.close())
   })
 </script>

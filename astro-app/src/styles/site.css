@@ -43,6 +43,31 @@ a:hover {
 
 /* ── 顶栏 ─────────────────────────────────────────────────── */
 
+/* 跳到正文：仅键盘聚焦时显现，避免视觉噪音 */
+.vp-skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 100;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: var(--vp-c-bg-elv);
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  text-decoration: none;
+  transform: translateY(-160%);
+}
+
+.vp-skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+#vp-main {
+  scroll-margin-top: 72px;
+}
+
 .vp-nav {
   position: sticky;
   top: 0;
@@ -207,7 +232,9 @@ a:hover {
 }
 
 .vp-outline-item a {
-  color: var(--vp-c-text-3);
+  /* 原用 --vp-c-text-3（#929295），13px 下对白底只有 3.10:1，
+     不满足 WCAG 1.4.3 AA 的 4.5:1。text-2（#67676c）为 5.62:1，通过。 */
+  color: var(--vp-c-text-2);
   display: block;
   padding: 3px 0;
 }
@@ -487,10 +514,131 @@ html-viewer iframe {
   .vp-sidebar {
     display: none;
   }
+  /* 桌面导航在窄屏会折成 3 行并溢出到视口上方（top: -13px），
+     移动端导航完全交给下方 ☰ 抽屉（见 MobileNavSheet.astro）。 */
+  .vp-nav-links {
+    display: none;
+  }
   .vp-nav-inner {
     padding: 0 16px;
   }
   .vp-doc-title {
     font-size: 26px;
   }
+}
+
+/* ── 移动端导航抽屉 ───────────────────────────────────────── */
+
+.vp-mobile-nav-toggle {
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-elv);
+  color: var(--vp-c-text-1);
+  font-size: 18px;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.vp-mobile-nav {
+  width: min(88vw, 360px);
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: none;
+  border-left: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+}
+
+.vp-mobile-nav::backdrop {
+  background: rgb(0 0 0 / 0.45);
+}
+
+.vp-mobile-nav-head {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+}
+
+.vp-mobile-nav-brand {
+  font-weight: 700;
+}
+
+.vp-mobile-nav-close {
+  border: none;
+  background: transparent;
+  color: var(--vp-c-text-2);
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.vp-mobile-nav-body {
+  padding: 12px 12px 48px;
+  overflow-y: auto;
+  height: calc(100dvh - 73px);
+}
+
+.vp-mobile-nav-list,
+.vp-mobile-nav-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vp-mobile-nav-list > li {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-mobile-nav-list a {
+  display: block;
+  padding: 12px 8px;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.vp-mobile-nav-list a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.vp-mobile-nav-group summary {
+  padding: 12px 8px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.vp-mobile-nav-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.vp-mobile-nav-group summary::after {
+  content: ' ▾';
+  color: var(--vp-c-text-3);
+}
+
+.vp-mobile-nav-group[open] summary::after {
+  content: ' ▴';
+}
+
+.vp-mobile-nav-group ul a {
+  padding-left: 20px;
+  color: var(--vp-c-text-2);
+}
+
+.vp-mobile-nav-overview {
+  font-weight: 600;
+  color: var(--vp-c-brand-1) !important;
 }

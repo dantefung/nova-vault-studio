@@ -36,7 +36,10 @@ function isActive(link?: string) {
   {
     items.map((item) => (
       <div class="vp-sidebar-group">
-        {item.link ? (
+        {/* 同时有 link 和 children 时，不要在 details 外再渲染一遍同名链接 —— 
+            那样「核心概念」等分组会出现两次（一次链接、一次带箭头的 summary）。
+            分组入口改为子列表第一项「<分组>总览」，summary 只负责折叠。 */}
+        {item.items && item.items.length > 0 ? null : item.link ? (
           <a class="vp-sidebar-link" href={item.link} aria-current={isActive(item.link) ? 'page' : undefined}>
             {item.text}
           </a>
@@ -47,6 +50,13 @@ function isActive(link?: string) {
           <details class="vp-sidebar-details" open={item.items.some((i) => isActive(i.link))}>
             <summary class="vp-sidebar-summary">{item.text}</summary>
             <ul class="vp-sidebar-list">
+              {item.link && (
+                <li>
+                  <a class="vp-sidebar-link vp-sidebar-overview" href={item.link} aria-current={isActive(item.link) ? 'page' : undefined}>
+                    {item.text}总览
+                  </a>
+                </li>
+              )}
               {item.items.map((child) => (
                 <li>
                   {child.items && child.items.length > 0 ? (

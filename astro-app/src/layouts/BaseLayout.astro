@@ -82,6 +82,8 @@ const currentPath = Astro.url.pathname
     <script is:inline set:html={THEME_INIT_SCRIPT}></script>
   </head>
   <body class={bodyClass}>
+    {/* 键盘用户第一个 Tab 停靠点：跳过顶栏和 100+ 条侧边栏链接直达正文 */}
+    <a class="vp-skip-link" href="#vp-main">跳到正文</a>
     {!bare && <NavBar currentPath={currentPath} />}
     <div class:list={['vp-shell', { 'has-sidebar': sidebar }]}>
       {sidebar && (
@@ -89,7 +91,7 @@ const currentPath = Astro.url.pathname
           <Sidebar items={sidebarItems} currentPath={currentPath} />
         </aside>
       )}
-      <main class="vp-main">
+      <main class="vp-main" id="vp-main">
         <slot />
       </main>
       {headings.length > 0 && <Outline headings={headings} />}
