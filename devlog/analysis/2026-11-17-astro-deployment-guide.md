@@ -64,6 +64,31 @@ astro-app/dist/
 **HTML 处理保持默认 `auto-trailing-slash` 即可**：产物是 `.html` 文件形态（与 VitePress 时期一致），
 `/md/wiki/sources/foo` 直接命中 `foo.html`，目录索引页 `/md/wiki/` 命中 `wiki/index.html`，无需任何跳转配置。
 
+### 2.1.1 目录型路由必须产出 index.html
+
+CF 的 `auto-trailing-slash` 规则下：
+
+| 请求 | 产物 | 结果 |
+|---|---|---|
+| `/md/wiki/sources/foo` | `foo.html` | 200 |
+| `/md/wiki/sources/foo/` | `foo.html` | 308 → `/md/wiki/sources/foo` |
+| `/md/wiki/` | `wiki/index.html` | 200 |
+| `/md/wiki` | `wiki/index.html` | 301 → `/md/wiki/` |
+
+所以**目录型路由页（博客四个视图、资源导航）必须产出 `index.html`**，否则站内导航点击
+就会多一跳 308。在 Astro 里的做法：
+
+- 静态目录页 → 文件放到 `<dir>/index/index.astro`（Astro 会产出 `<dir>/index.html`）
+- 动态目录页 → 用 `[...slug].astro` 且 params 为 `'<slug>/index'`
+  （单段参数 `[slug]` 不接受斜杠，会报 `Missing parameter: slug`）
+
+### 2.1.2 wrangler.toml 的坑
+
+- Pages 形态需要 `pages_build_output_dir`，缺了 wrangler 会忽略配置文件
+- Pages 形态**不支持** `[observability]`（那是 Workers 的配置项），加了直接报
+  `Configuration file for Pages projects does not support "observability"` 并退出
+- Pages 与 Workers 是两套互斥形态（`pages_build_output_dir` vs `[assets]`），别混写
+
 ### 2.2 Workers（Static Assets）
 
 仓库里已备好 `astro-app/wrangler.toml`：
@@ -184,3 +209,69 @@ Astro 与 VitePress 在仓库里并存（`docs/.vitepress/` 未删除）：
 - 回滚 Cloudflare：Pages 项目里把构建命令改回 `npm run build`、输出目录改回 `docs/.vitepress/dist`
 
 内容源（`docs/md/`）两套系统共用，切换不影响内容。
+
+---
+
+## 七、线上实测（2026-11-17）
+
+预览部署：`https://feat-astro-rebuild.nova-vault-f1p.pages.dev`
+（CF Pages 项目 `nova-vault`，分支 `feat/astro-rebuild`，14,639 文件）
+
+### 7.1 路由状态码
+
+| 路由 | 状态码 |
+|---|---|
+| `/`、`/md/wiki/`、`/md/blog/`、`/md/blog/archive/` | 200 |
+| `/md/blog/category/`、`/md/blog/category/sources/` | 200 |
+| `/md/blog/series/`、`/md/blog/series/pensieve/` | 200 |
+| `/md/resources/`、`/md/guide/getting-started` | 200 |
+| `/md/wiki/sources/<slug>`（带/不带尾斜杠） | 200 |
+| `/rss.xml`、`/sitemap-index.xml`、`/search-index.json` | 200 |
+| `/favicon.png`、`/robots.txt`、`/slides/ppt-gsd-skills/index.html` | 200 |
+| 图片 / PDF / MP4 资源 | 200 |
+
+### 7.2 站内链接零跳转（关键指标）
+
+用 CF 规则模拟器（`/x` → `x.html`，`/x/` → `x/index.html`，不匹配则 301/308）
+逐个请求产物里所有内部链接：
+
+| 指标 | 值 |
+|---|---|
+| 站内 `/md/` 链接总数 | 3,741 |
+| 直接 200 | 3,632 |
+| **产生跳转** | **0** |
+| 404 | 109（全部为 VitePress 时期已存在的历史死链） |
+
+### 7.3 会被 CF 规范化跳转的形态（仅非规范请求，正常）
+
+| 请求 | 结果 | 说明 |
+|---|---|---|
+| `/404.html` | 308 → `/404` | CF 统一去掉 `.html` 后缀 |
+| `/md/wiki/sources/foo/` | 308 → `/md/wiki/sources/foo` | 带斜杠指向 `.html` 产物 |
+| `/slides/ppt-gsd-skills/index.html` | 308 → 无后缀 | 同上 |
+
+站内链接不产生这些形态（3,632 条零跳转已验证），只有外部旧链接或手敲 URL 会命中，
+浏览器会自动跟随。
+
+### 7.4 复现用命令
+
+```bash
+# 本地起一个模拟 CF Pages 解析规则的服务器
+node /tmp/cf-emul.mjs astro-app/dist     # 监听 4399
+
+# 扫描产物里所有内部 href 的跳转情况
+node /tmp/scan-links.mjs astro-app/dist
+```
+
+---
+
+## 八、待决项：生产域名切换
+
+| 项 | 状态 |
+|---|---|
+| 生产域名 `vault.moneylab.ccwu.cc` | 仍绑在 Vercel，当前返回 **402 `DEPLOYMENT_DISABLED`** |
+| CF Pages 项目 `nova-vault` | 无自定义域名，仅 `nova-vault-f1p.pages.dev` |
+| 切换生产 | 需要在 CF Pages 里添加自定义域名并改 DNS 解析 |
+
+切生产时注意：DNS 生效前 CF 会要求把域名 CNAME 到 `nova-vault-f1p.pages.dev`，
+而 Vercel 那边要先解绑，否则两边抢解析。

@@ -27,6 +27,5 @@ name = "nova-vault"
 compatibility_date = "2026-11-01"
 pages_build_output_dir = "./dist"
 
-# 站内没有运行时函数，纯静态分发
-[observability]
-enabled = false
+# 注意：Pages 的配置形态不支持 [observability]（那是 Workers 的配置项），
+# 加上会直接让 wrangler 拒绝部署。站内没有运行时函数，也不需要日志。
