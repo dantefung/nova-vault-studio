@@ -980,3 +980,5 @@ wiki/
 | [bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize](/md/wiki/sources/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize) | 小晚不在（@bbkirstry）：小红书起号保姆级教程——从 0 开始找对标，坚持出摊、商业化 | X/Twitter |
 | [weiyipei-big-tech-high-salary-poison](/md/wiki/sources/weiyipei-big-tech-high-salary-poison) | 生姜Iris（@WeiYipei）：从字节离职后写下的「大厂高薪毒药」——白金螺丝钉、执行方与自由 | X/Twitter |
 | [weiyipei-big-tech-high-salary-poison（精读摘要）](/md/wiki/summaries/weiyipei-big-tech-high-salary-poison) | 生姜Iris：大厂高薪毒药精读——ownership 缺失的根因、8 条关键洞察与结构性解释 | X/Twitter 提炼 |
+| [hezhiyan7-serp-monitor-ai-cron](/md/wiki/sources/hezhiyan7-serp-monitor-ai-cron) | droidHZ（赫兹）：让 AI 每天帮我盯 SERP——自己的词每天看、大词每周看，新站一冒头当天就知道 | 微信公众号 |
+| [hezhiyan7-serp-monitor-ai-cron（精读摘要）](/md/wiki/summaries/hezhiyan7-serp-monitor-ai-cron) | AI 定时盯 SERP 精读——双频次监控方法论、可复用提示词与 AI Overview 引用格局 | 微信公众号提炼 |

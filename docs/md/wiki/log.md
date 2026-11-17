@@ -5195,3 +5195,10 @@ source: "llm-wiki"
 - 归档至 `sources/weiyipei-big-tech-high-salary-poison.md`（单推无配图）
 - 提炼知识页：`summaries/weiyipei-big-tech-high-salary-poison.md`（精读摘要：核心结论 + 8 条关键洞察 + 结构性解释 + 适用边界）
 - 内容摘要：前字节 3 开头职级员工的离职观察——大厂之所以是「高薪毒药」，不在钱少而在高薪同时买走了「眼里有光」与对单块业务的 ownership。根因链：一年被迫换三次业务线 → ownership 缺失；季度 OKR 自上而下 data-driven 且无 blueprint 权限；分工过细导致上通下达沟通成本过高，「很多人也就没意识去思考全局了——或者说，本来也没有权限去思考」。结果是除战略部门外所有人都是执行方、高职级者也只是「漂亮的白金螺丝钉」；3 开头同时观察 2/4 开头后「没觉得谁更自由」。作者诚实收尾：2025 年 2 月起就在思考自己的 passion，至今仍迷茫。
+
+## [2026-11-17] ingest: droidHZ《让 AI 每天帮我盯 SERP》——双频次 SERP 定时监控
+
+- 来源：`https://mp.weixin.qq.com/s/45hzfj2-mIcOSwa9JJeB6A`（微信公众号：droidHZ 赫兹，发布于 2026-11-17 08:25）
+- 归档至 `sources/hezhiyan7-serp-monitor-ai-cron.md`，配图 3 张本地化（`images/hezhiyan7-serp-monitor-ai-cron/`，已转 WebP）
+- 提炼知识页：`summaries/hezhiyan7-serp-monitor-ai-cron.md`（精读摘要：双频次方法论拆解 + 两条可复用提示词 + AI Overview 引用格局 + 成本核算 + 适用边界）
+- 内容摘要：用 AI 定时任务盯 SERP——**自己的词每天跑（告警：新站冒头、自己掉出前 10、AI Overview 换引用），大词每周跑（趋势：看 Google 方向与 AI Overview 偏好引用什么样的页面）**。第三方 SERP API（glasser）一个 key 接进 Claude Code，按次付费免订阅，$0.002/词、每月约 $0.09；定时也交给 Claude Code 跑。提示词必须显式点名 SERP 模块（AI Overview / 视频 / Reddit）且两次查询要有可比基线（冷启动用历史 SERP 快照兜底）。作者实测 5 个 AI 视频/图片大词（Google 美国站）发现 **Canva 被 4 个词的 AI Overview 引用、Adobe 3 个、YouTube 视频 3 个**，HeyGen / Magic Hour / Higgsfield / VEED / Picsart 各 2 个——这张引用表比"排名第几"更能说明 AI Overview 偏好什么样的页面。作者诚实指出局限：**大词风向单周变化太小，需要持续观察数月才有意义**。已去掉社群优惠码等导流内容。
