@@ -19,7 +19,7 @@ Avro was started in 2009, initially as a subproject of Apache Hadoop to address 
 
 Key points in the diagram:
 
-*   We can export the data to **object container files**, where schema sits together with the data blocks. Avro **dynamically** generates the schemas based on the columns, so if the schema is changed, a new schema is generated and stored with new data.
+* We can export the data to **object container files**, where schema sits together with the data blocks. Avro **dynamically** generates the schemas based on the columns, so if the schema is changed, a new schema is generated and stored with new data.
 
-*   When the exported files are loaded into another data storage (for example, teradata), anyone can read the schema and know how to read the data. The old data and new data can be successfully migrated to the new database.
+* When the exported files are loaded into another data storage (for example, teradata), anyone can read the schema and know how to read the data. The old data and new data can be successfully migrated to the new database.
     Unlike gRPC or Thrift, which statically generate schemas, Avro makes the data migration process easier.

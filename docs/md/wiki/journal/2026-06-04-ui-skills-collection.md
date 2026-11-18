@@ -53,7 +53,7 @@ SIGNATURE（让设计被记住的那一件事）
 
 ## Awesome DESIGN.md 收录（72+）
 
-覆盖：AI/LLM平台、开发者工具、后端/DevOps、生产力 SaaS、设计工具、金融、电商、汽车、复古 Web（Nostalgia 系列）
+覆盖：AI/LLM 平台、开发者工具、后端/DevOps、生产力 SaaS、设计工具、金融、电商、汽车、复古 Web（Nostalgia 系列）
 
 ## 关联资源
 

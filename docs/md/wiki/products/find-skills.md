@@ -5,7 +5,7 @@ date: "2026-05-27"
 
 # find-skills
 
-> Skill 生态入口型能力 — "找 Skill、装 Skill、扩展 Agent 能力"
+> Skill 生态入口型能力 — “找 Skill、装 Skill、扩展 Agent 能力”
 
 ## Core Concept
 

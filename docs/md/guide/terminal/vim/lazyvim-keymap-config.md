@@ -8,7 +8,7 @@ tags: ["neovim", "lazyvim", "keymap", "lua", "config"]
 
 # LazyVim 自定义 Keymaps 配置
 
-> **核心结论**：将以下配置写入 `~/.config/nvim/lua/config/keymaps.lua`，即可覆盖或扩展 LazyVim 默认键位。**关键设计**：**Alt+.跳下一个错误**、**F2清搜索高亮**、**jj/jk/kk退出插入模式**、**Leader+o/i快速插空行**、**Leader+数字寄存器切换**。
+> **核心结论**：将以下配置写入 `~/.config/nvim/lua/config/keymaps.lua`，即可覆盖或扩展 LazyVim 默认键位。**关键设计**：**Alt+.跳下一个错误**、**F2 清搜索高亮**、**jj/jk/kk 退出插入模式**、**Leader+o/i 快速插空行**、**Leader+数字寄存器切换**。
 
 > **关键洞察**：
 > - **Alt+.** = 跳到下一个错误（`M-.` 映射到 `]e`）

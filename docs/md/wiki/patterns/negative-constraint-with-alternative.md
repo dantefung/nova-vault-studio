@@ -11,7 +11,7 @@ url: "https://mp.weixin.qq.com/s/59Z2eVOg914_bpRD6-WsYg"
 
 ## 核心思想
 
-不要只说"不能做什么"，要给"那应该怎么做"。这是一种 few shot。没有替代方案的话，agent 会自己找一个——结果往往不是你想要的。
+不要只说“不能做什么”，要给“那应该怎么做”。这是一种 few shot。没有替代方案的话，agent 会自己找一个——结果往往不是你想要的。
 
 ## 示例：Mocking Restrictions
 

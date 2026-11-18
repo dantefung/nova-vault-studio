@@ -10,9 +10,9 @@ source: "pmaker.space（空格的键盘）"
 
 你会遇到的现象
 
-*   把今天的生成式 AI 当成一夜之间冒出来的新东西
-*   听到「AI 寒冬」，以为这行业曾经彻底停摆过
-*   把专家系统、机器学习、深度学习、大模型当成四个并列的产品来比较
+* 把今天的生成式 AI 当成一夜之间冒出来的新东西
+* 听到「AI 寒冬」，以为这行业曾经彻底停摆过
+* 把专家系统、机器学习、深度学习、大模型当成四个并列的产品来比较
 
 ## 一条一直在移的线
 
@@ -69,10 +69,10 @@ source: "pmaker.space（空格的键盘）"
 
 ## 资料来源
 
-*   Alan Turing，[Computing Machinery and Intelligence](https://academic.oup.com/mind/article/LIX/236/433/986238)（1950）——「模仿游戏」的原始论文
-*   [Dartmouth College](https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth)：1956 年研讨会与「人工智能」这一名称的由来
-*   Krizhevsky、Sutskever、Hinton，[ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)（2012）——AlexNet
-*   Vaswani 等，[Attention Is All You Need](https://arxiv.org/abs/1706.03762)（2017）——Transformer
-*   [Google DeepMind](https://deepmind.google/research/breakthroughs/alphago/)：AlphaGo 的技术说明与比赛记录
+* Alan Turing，[Computing Machinery and Intelligence](https://academic.oup.com/mind/article/LIX/236/433/986238)（1950）——「模仿游戏」的原始论文
+* [Dartmouth College](https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth)：1956 年研讨会与「人工智能」这一名称的由来
+* Krizhevsky、Sutskever、Hinton，[ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)（2012）——AlexNet
+* Vaswani 等，[Attention Is All You Need](https://arxiv.org/abs/1706.03762)（2017）——Transformer
+* [Google DeepMind](https://deepmind.google/research/breakthroughs/alphago/)：AlphaGo 的技术说明与比赛记录
 
 资料基准：2026 年 8 月。时间线上的节点以上述一手资料为准；对「哪一代解决了什么、留下了什么」的归纳是本文的观点，不是原文结论。

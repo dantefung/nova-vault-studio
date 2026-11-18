@@ -48,18 +48,18 @@ url: "https://mp.weixin.qq.com/s/c02Jp4QHIDOGxGGgrv9p5g"
 
 我期待前方的道路！
 
-## 加入ThinkInAI社区
+## 加入 ThinkInAI 社区
 
-如果你也对AI充满兴趣，欢迎加入我们的ThinkInAI社区，在这里，你可以：
+如果你也对 AI 充满兴趣，欢迎加入我们的 ThinkInAI 社区，在这里，你可以：
 
-获取最新AI工具资讯
+获取最新 AI 工具资讯
 
 参与实战经验分享
 
 结识志同道合的伙伴
 
-共同探讨AI应用方向
+共同探讨 AI 应用方向
 
-扫描文末二维码，加入ThinkInAI社区，一起拥抱AI新时代！
+扫描文末二维码，加入 ThinkInAI 社区，一起拥抱 AI 新时代！
 
 ![image](./images/andrew-ng-ai-eng-skills/w1/002.webp)

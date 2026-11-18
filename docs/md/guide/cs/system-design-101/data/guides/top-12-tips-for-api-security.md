@@ -13,15 +13,15 @@ tags:
 
 ![](https://assets.bytebytego.com/diagrams/0027-12-tips-for-api-security.png)
 
-*   Use HTTPS
-*   Use OAuth2
-*   Use WebAuthn
-*   Use Leveled API Keys
-*   Authorization
-*   Rate Limiting
-*   API Versioning
-*   Whitelisting
-*   Check OWASP API Security Risks
-*   Use API Gateway
-*   Error Handling
-*   Input Validation
+* Use HTTPS
+* Use OAuth2
+* Use WebAuthn
+* Use Leveled API Keys
+* Authorization
+* Rate Limiting
+* API Versioning
+* Whitelisting
+* Check OWASP API Security Risks
+* Use API Gateway
+* Error Handling
+* Input Validation

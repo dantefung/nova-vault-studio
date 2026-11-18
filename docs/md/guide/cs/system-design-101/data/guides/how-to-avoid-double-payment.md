@@ -17,8 +17,8 @@ One of the most serious problems a payment system can have is to **double charge
 
 At the first glance, exactly-once delivery seems very hard to tackle, but if we divide the problem into two parts, it is much easier to solve. Mathematically, an operation is executed exactly-once if:
 
-*   It is executed at least once.
-*   At the same time, it is executed at most once.
+* It is executed at least once.
+* At the same time, it is executed at most once.
 
 We now explain how to implement at least once using retry and at most once using idempotency check.
 

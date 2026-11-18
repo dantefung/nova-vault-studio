@@ -11,16 +11,16 @@ url: ""
 
 环境：
 
--   Debian 13
--   KDE Plasma
--   Wayland
--   fcitx5 输入法
--   Qoder（Electron 架构）
+- Debian 13
+- KDE Plasma
+- Wayland
+- fcitx5 输入法
+- Qoder（Electron 架构）
 
 现象：
 
--   在 Qoder 中无法输入中文
--   输入法无法激活
+- 在 Qoder 中无法输入中文
+- 输入法无法激活
 
 ------------------------------------------------------------------------
 
@@ -28,8 +28,8 @@ url: ""
 
 Electron 在 Wayland 下默认：
 
--   不启用 Ozone（Wayland 渲染）
--   不启用 Wayland IME（输入法）
+- 不启用 Ozone（Wayland 渲染）
+- 不启用 Wayland IME（输入法）
 
 导致 fcitx5 无法注入输入法。
 
@@ -121,8 +121,8 @@ export XMODIFIERS=@im=fcitx
 
 原因：
 
--   Qoder 使用 `ELECTRON_RUN_AS_NODE=1`
--   此时参数被当成 Node 参数处理
+- Qoder 使用 `ELECTRON_RUN_AS_NODE=1`
+- 此时参数被当成 Node 参数处理
 
 ------------------------------------------------------------------------
 
@@ -130,7 +130,7 @@ export XMODIFIERS=@im=fcitx
 
 ### 一句话原理
 
-**Electron 应用启动时会"继承"父进程（终端）的全部环境变量**。你在 `alias` 里用 `env` 临时设置了三个输入法相关的变量，Qoder 继承后就能正确找到 Fcitx 输入法服务。
+**Electron 应用启动时会“继承”父进程（终端）的全部环境变量**。你在 `alias` 里用 `env` 临时设置了三个输入法相关的变量，Qoder 继承后就能正确找到 Fcitx 输入法服务。
 
 ### 完整流程图
 
@@ -234,10 +234,10 @@ Electron 底层渲染使用了 GTK（Linux 下），所以需要 `GTK_IM_MODULE`
 alias qoder='env GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx qoder'
 ```
 
-**本质**：在 Qoder 启动前，往它的环境变量表里强制写入了三条"寻路地图"，告诉它 Fcitx 输入法在哪儿。
+**本质**：在 Qoder 启动前，往它的环境变量表里强制写入了三条“寻路地图”，告诉它 Fcitx 输入法在哪儿。
 **效果**：Qoder 一出生就知道该跟谁说话，中文输入立刻正常。
 
-这个方案比 `--enable-wayland-ime` 更底层、更通用，因为它直接解决了"环境变量缺失"这个根本原因，而不是依赖 Electron 的 Ozone 后端兼容性。
+这个方案比 `--enable-wayland-ime` 更底层、更通用，因为它直接解决了“环境变量缺失”这个根本原因，而不是依赖 Electron 的 Ozone 后端兼容性。
 
 ---
 
@@ -275,7 +275,7 @@ alias qoder='env GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx qod
 
 Qoder 在 Linux 下运行时，**文本框的输入法支持是由 GTK 库提供的**。GTK 库会检查 `GTK_IM_MODULE` 环境变量来确定用哪个输入法模块。如果没有设置这个变量，GTK 就不知道去哪里找输入法，结果就是打不出中文。
 
-> **GTK 程序就是长得像"Linux 原生风格"的图形软件，它们需要环境变量 `GTK_IM_MODULE` 来找到正确的输入法。**
+> **GTK 程序就是长得像“Linux 原生风格”的图形软件，它们需要环境变量 `GTK_IM_MODULE` 来找到正确的输入法。**
 
 ------------------------------------------------------------------------
 
@@ -291,8 +291,8 @@ Qoder 在 Linux 下运行时，**文本框的输入法支持是由 GTK 库提供
 
 优点：
 
--   输入法稳定
--   Electron 应用兼容性更好
+- 输入法稳定
+- Electron 应用兼容性更好
 
 ------------------------------------------------------------------------
 
@@ -300,6 +300,6 @@ Qoder 在 Linux 下运行时，**文本框的输入法支持是由 GTK 库提供
 
 推荐优先级：
 
-1.  使用环境变量启用 Wayland IME ✅
-2.  确保 fcitx5 环境变量正确
-3.  不行就切换 X11（最稳）
+1. 使用环境变量启用 Wayland IME ✅
+2. 确保 fcitx5 环境变量正确
+3. 不行就切换 X11（最稳）

@@ -6,13 +6,13 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 ---
 
-# 【哥飞评站】AI贴纸生成网站 StickerBaker 的SEO评测报告和改进建议（4000字）
+# 【哥飞评站】AI 贴纸生成网站 StickerBaker 的 SEO 评测报告和改进建议（4000 字）
 
-大家好，我是哥飞。 今天是第一期，哥飞点评一下前两天在《【[哥飞推荐】一个开源AI贴纸生成器，同时也是](https://mp.weixin.qq.com/s/q7VnT4txJ99v4OBgOppgDA)》介绍过的AI贴纸生成网站 StickerBaker.com 。
+大家好，我是哥飞。 今天是第一期，哥飞点评一下前两天在《【[哥飞推荐】一个开源 AI 贴纸生成器，同时也是](https://mp.weixin.qq.com/s/q7VnT4txJ99v4OBgOppgDA)》介绍过的AI贴纸生成网站 StickerBaker.com 。
 
 这个网站的代码是开源的，如果大家想要部署，可以看上面这篇文章。
 
-下面我们先看下网站首页，中规中矩，很典型的AI工具站的布局，从上到下依次是导航、Logo、工具表单、最新作品列表等。 
+下面我们先看下网站首页，中规中矩，很典型的 AI 工具站的布局，从上到下依次是导航、Logo、工具表单、最新作品列表等。 
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_002.webp)
 
@@ -24,7 +24,7 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 
 贴纸详情页和搜索结果页是亮点页面，这两个都可以动态生成海量页面，被搜索引擎收录之后，获取大量长尾关键词的流量。
 
-下面我们一个一个页面来看一下，这里需要用到在《[推荐一款好用且免费的SEO插件，哥飞天天都在用](https://mp.weixin.qq.com/s/BGNEsu-cmxMwy-IGKnNHAA)》介绍在 AITDK SEO Extension 这个浏览器插件。
+下面我们一个一个页面来看一下，这里需要用到在《[推荐一款好用且免费的 SEO 插件，哥飞天天都在用](https://mp.weixin.qq.com/s/BGNEsu-cmxMwy-IGKnNHAA)》介绍在 AITDK SEO Extension 这个浏览器插件。
 
 **一、首页**
 打开首页，点击 AITDK SEO Extension ，查看概览信息。
@@ -32,18 +32,18 @@ url: "https://new.web.cafe/tutorial/detail/gfxyjE1sz4ErfjDvP2kgFz"
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_003.webp)
 
 **1.1、Title**
-可以看到 Title 推荐长度是60个字符，但这个网站只用到了12个字符，这有点浪费，没有把需求关键词尽可能在 Title 中体现出来。
+可以看到 Title 推荐长度是 60 个字符，但这个网站只用到了 12 个字符，这有点浪费，没有把需求关键词尽可能在 Title 中体现出来。
 
-可以看这篇《[【哥飞带你读】你需要了解的10个重要SEO元标签（上）](https://mp.weixin.qq.com/s/Tn_FFAe7JwGopUPFffK9eA)》介绍的关于 Title 的最佳实践。
+可以看这篇《[【哥飞带你读】你需要了解的 10 个重要 SEO 元标签（上）](https://mp.weixin.qq.com/s/Tn_FFAe7JwGopUPFffK9eA)》介绍的关于 Title 的最佳实践。
 
 **1.2、Description**
-同样，Description 推荐长度是160个字符，这个网站只用到了21个字符，不过好在把核心关键词“Stickers AI”体现出来了。
+同样，Description 推荐长度是 160 个字符，这个网站只用到了 21 个字符，不过好在把核心关键词“Stickers AI”体现出来了。
 
 **1.3、Keywords** 哥飞不推荐大家用 Keywords，所以这里不写是对的。
 
 **1.4、Canonical** Canonical 缺失，这个不应该。
 
-可以在《[【哥飞带你读】你需要了解的10个重要SEO元标签（下）](https://mp.weixin.qq.com/s/pgRb7By2EVLMDYZ1E2JG5Q)》看到 Canonical 的最佳实践，看完大家就知道，这个标签还是很建议写上的。
+可以在《[【哥飞带你读】你需要了解的 10 个重要 SEO 元标签（下）](https://mp.weixin.qq.com/s/pgRb7By2EVLMDYZ1E2JG5Q)》看到 Canonical 的最佳实践，看完大家就知道，这个标签还是很建议写上的。
 
 **1.5、Sitemap**
 sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站来说，谷歌自己就会把页面都爬了，不一定要用 sitemap.xml 。
@@ -55,13 +55,13 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_004.webp)
 
- 哥飞建议一个页面只放一个H1，在H1里放你网站要做的核心关键词，如这个网站可以体现“Sticker Maker”这个关键词。 
+ 哥飞建议一个页面只放一个 H1，在 H1 里放你网站要做的核心关键词，如这个网站可以体现“Sticker Maker”这个关键词。 
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_005.webp)
 
 “Upload”这里是否可以用 H 标签呢？
 
-肯定是不能用 H1，甚至H2都不能用，这里建议用 H3，结构就变成： H2: Convert photo to sticker H3: Upload photo
+肯定是不能用 H1，甚至 H2 都不能用，这里建议用 H3，结构就变成： H2: Convert photo to sticker H3: Upload photo
 
 原因如下： 
 
@@ -73,19 +73,19 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 
  当然他这里还有个核心需求是“Face to Sticker”，这个也需要体现出来，那么就可以改成这样： H2: Convert face photo to sticker H3: Upload face photo
 
-“Latest”也建议改为“Latest Generated Stickers”，并且用 H2标签。
+“Latest”也建议改为“Latest Generated Stickers”，并且用 H2 标签。
 
 **1.7、图片**
-再说图片，这个网站的图片处理做得还是不错的，除了三个用到了网站ICON的地方没给图片加Alt，其它图片都加了合适的 Alt 。
+再说图片，这个网站的图片处理做得还是不错的，除了三个用到了网站 ICON 的地方没给图片加 Alt，其它图片都加了合适的 Alt 。
 
 不过哥飞建议生成的 Sticker 图片的 Alt 可以写长一点，体现 Sticker 关键词，如“Ayna”可以改为“Ayna Sticker”。 
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_008.webp)
 
 **1.8、链接**
-可以看到这里有三个出站链接，都是Dofollow的，他这里都是自己可控的出站链接，所以用 Dofollow 也可以，不是一定出站链接就要Nofollow。
+可以看到这里有三个出站链接，都是 Dofollow 的，他这里都是自己可控的出站链接，所以用 Dofollow 也可以，不是一定出站链接就要 Nofollow。
 
-关于链接如何设置请看《【[哥飞带你读】你需要了解的10个重要SEO元标签（中）](https://mp.weixin.qq.com/s/TOHrvB1VY88yOfTLJPOAIQ)》《[再聊内链建设：内链重要性不亚于外链](https://mp.weixin.qq.com/s/s3wjxhNTrfqj5go6hFqXJg)》。 
+关于链接如何设置请看《【[哥飞带你读】你需要了解的 10 个重要 SEO 元标签（中）](https://mp.weixin.qq.com/s/TOHrvB1VY88yOfTLJPOAIQ)》《[再聊内链建设：内链重要性不亚于外链](https://mp.weixin.qq.com/s/s3wjxhNTrfqj5go6hFqXJg)》。 
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_009.webp)
 
@@ -100,40 +100,40 @@ sitemap.xml 倒是不一定必须，尤其是对于页面数量有限的网站�
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_011.webp)
 
-也没有设置结构化数据，具体有什么效果可以看《[10种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第9种](https://mp.weixin.qq.com/s/I4hkYHtp8OEf21L-3yqCrw)》。
+也没有设置结构化数据，具体有什么效果可以看《[10 种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第 9 种](https://mp.weixin.qq.com/s/I4hkYHtp8OEf21L-3yqCrw)》。
 
 **1.11、首页总结**
-看完上面这些基础SEO信息，可以发现大部分都做得还行，就是H标签需要改的比较多。
+看完上面这些基础 SEO 信息，可以发现大部分都做得还行，就是 H 标签需要改的比较多。
 
 除了这些，哥飞再跟大家说下这个网站首页有哪些做得好的地方：
 
-1.  首页最核心区域直接放置工具的入口，让用户一打开网站就能够一眼看到满足他们核心需求的工具，然后就开始使用工具，这可以提高页面停留时间；
-2.  首页增加了最近作品列表，每次刷新都会取出最新的，对于搜索引擎来说，这是一个频繁更新的页面，每次搜索引擎爬虫过来，都能够有新东西可以抓，于是这个网站被收录的页面就会越来越多；
-3.  首页的最新作品列表还会在用户使用时不断冒出新的贴纸，给用户感觉这个网站很火，还有很多人在使用，我也要去试一试。
+1. 首页最核心区域直接放置工具的入口，让用户一打开网站就能够一眼看到满足他们核心需求的工具，然后就开始使用工具，这可以提高页面停留时间；
+2. 首页增加了最近作品列表，每次刷新都会取出最新的，对于搜索引擎来说，这是一个频繁更新的页面，每次搜索引擎爬虫过来，都能够有新东西可以抓，于是这个网站被收录的页面就会越来越多；
+3. 首页的最新作品列表还会在用户使用时不断冒出新的贴纸，给用户感觉这个网站很火，还有很多人在使用，我也要去试一试。
 
-当然也还有些值得改进的，如目前首页的更多贴纸是通过上拉获取更多的，而搜索引擎爬虫无法做上拉操作，所以建议首页增加Discover链接，点击后进入 Discover 页面，能够分页展示所有贴纸，这样搜索引擎就能够爬取到所有贴纸。
+当然也还有些值得改进的，如目前首页的更多贴纸是通过上拉获取更多的，而搜索引擎爬虫无法做上拉操作，所以建议首页增加 Discover 链接，点击后进入 Discover 页面，能够分页展示所有贴纸，这样搜索引擎就能够爬取到所有贴纸。
 
 **二、贴纸详情页** 哥飞以 /sticker/29961 为例，点评一下贴纸详情页。
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_012.webp)
 
 **2.1、URL**
-这个站URL直接用的数字ID，容易被从1开始遍历，扒站的爬虫会很喜欢这种路径，建议改为 /sticker/29961-fairy-unicorn 。
+这个站 URL 直接用的数字 ID，容易被从 1 开始遍历，扒站的爬虫会很喜欢这种路径，建议改为 /sticker/29961-fairy-unicorn 。
 
-程序读取的时候有两种办法，一是拆分解析得到29961之后从数据库根据ID读取内容；二是数据库增加 url 字段，保存“29961-fairy-unicorn”字符串，之后直接用路径从数据库读取。
+程序读取的时候有两种办法，一是拆分解析得到 29961 之后从数据库根据 ID 读取内容；二是数据库增加 url 字段，保存“29961-fairy-unicorn”字符串，之后直接用路径从数据库读取。
 
-另外注意，如果用户输入的生成贴纸的提示词比较长的话，不建议直接拿来做URL，而是可以抽取主要关键词作为URL。
+另外注意，如果用户输入的生成贴纸的提示词比较长的话，不建议直接拿来做 URL，而是可以抽取主要关键词作为 URL。
 
-**2.2、SEO基础信息**
+**2.2、SEO 基础信息**
 之后的内页哥飞就不一项一项说了，大家可以参考首页点评去对照。
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_013.webp)
 
- 这里说下贴纸详情页的Title，目前的写法估计是考虑到分享出去时显示的标题更好看，但是其实可以把“I made an”去掉，直接是“AI Sticker of fairy unicorn”就很好了，核心关键词“AI Sticker”和长尾关键词“fairy unicorn”都照顾到了。
+ 这里说下贴纸详情页的 Title，目前的写法估计是考虑到分享出去时显示的标题更好看，但是其实可以把“I made an”去掉，直接是“AI Sticker of fairy unicorn”就很好了，核心关键词“AI Sticker”和长尾关键词“fairy unicorn”都照顾到了。
 
-为了分享出去的标题好看，就可以去设置Open Graph和Twitter Card的标题为“I made an AI sticker of fairy unicorn”。
+为了分享出去的标题好看，就可以去设置 Open Graph 和 Twitter Card 的标题为“I made an AI sticker of fairy unicorn”。
 
-描述则可以更长一些，可以加上行动召唤，提升CTR，具体可以看这里《【哥飞带你读】你需要了解的10个重要SEO元标签（上）》。
+描述则可以更长一些，可以加上行动召唤，提升 CTR，具体可以看这里《【哥飞带你读】你需要了解的 10 个重要 SEO 元标签（上）》。
 
 **2.3、Headings**
 H 标签依然还有同样的问题，层级错乱。
@@ -160,7 +160,7 @@ H 标签依然还有同样的问题，层级错乱。
 
 不过也有还有些细节需要改进，下面我们一一来看下。
 
-**3.1、SEO基础信息**
+**3.1、SEO 基础信息**
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_016.webp)
 
@@ -170,13 +170,13 @@ H 标签依然还有同样的问题，层级错乱。
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_017.webp)
 
-不过也有个小问题，因为目前用户更容易想到的还是带空格的写法，所以网页Title、Description、H1等地方就需要把有空格的也兼容到。
+不过也有个小问题，因为目前用户更容易想到的还是带空格的写法，所以网页 Title、Description、H1 等地方就需要把有空格的也兼容到。
 
 **3.2、Headings**
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_018.webp)
 
-这里只用了一个H5，也是极其不合理的，应该改成H1，并且多增加一些内容和标签。
+这里只用了一个 H5，也是极其不合理的，应该改成 H1，并且多增加一些内容和标签。
 
 **3.3、搜索首页总结**
 设置一个单独的搜索首页是很不错的做法，有可能能够获取到一些流量。不过依然还是有很多细节值得改进。
@@ -189,13 +189,13 @@ H 标签依然还有同样的问题，层级错乱。
 
 不过，依然还是有一些细节值得修改。
 
-**4.1、SEO基础信息**
+**4.1、SEO 基础信息**
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_020.webp)
 
-不管搜索什么关键词，Title和Description都固定文案了，没有根据搜索关键词去调整，这跟搜索结果页目前用的前端渲染方案有关。
+不管搜索什么关键词，Title 和 Description 都固定文案了，没有根据搜索关键词去调整，这跟搜索结果页目前用的前端渲染方案有关。
 
-目前前端渲染，虽然会产生很多的搜索结果页面，但是在搜索引擎爬虫看来，这些网址不同的页面其实HTML内容都是重复的，这是SEO大忌。
+目前前端渲染，虽然会产生很多的搜索结果页面，但是在搜索引擎爬虫看来，这些网址不同的页面其实 HTML 内容都是重复的，这是 SEO 大忌。
 
 建议作者修改为后端渲染，这样就可以有效的利用真实用户搜索生成大量的长尾关键词页面了。
 
@@ -203,11 +203,11 @@ H 标签依然还有同样的问题，层级错乱。
 
 ![image.png](images/stickerbaker-seo-review-and-recommendations/img_021.webp)
 
-依然是因为前端渲染导致的问题，目前H标签的标题都写死了。
+依然是因为前端渲染导致的问题，目前 H 标签的标题都写死了。
 
-不仅需要修改为后端渲染，还需要修改H标签的层级关系。
+不仅需要修改为后端渲染，还需要修改 H 标签的层级关系。
 
-以 /search?query=unicorn 为例，H1和Title都可以是“160 Best Unicorn Stickers”，其中“160”是搜索结果数量。
+以 /search?query=unicorn 为例，H1 和 Title 都可以是“160 Best Unicorn Stickers”，其中“160”是搜索结果数量。
 
 **4.3、搜索结果页总结**
 搜索结果页很有用，但是要用好不容易，特别需要注重细节，像这个网站目前就做得不够好，从上面可以看到许多需要改进的地方。
@@ -222,9 +222,9 @@ H 标签依然还有同样的问题，层级错乱。
 
 而且这个页面还需要分页展示，因为贴纸太多了，不可能一个页面全部展示完。
 
-又因为贴纸实在太多了，所以分页的链接建议有快进机制，即不能一直一页一页向下翻，而是不仅要列出当前页面的前后10个页面，同时还要列出下一级。
+又因为贴纸实在太多了，所以分页的链接建议有快进机制，即不能一直一页一页向下翻，而是不仅要列出当前页面的前后 10 个页面，同时还要列出下一级。
 
-如当前是第35页，那么需要列出以下页面链接： a) 第1页和最后一页； b) 第31到39页； c) 第50页、第100页、第200页……
+如当前是第 35 页，那么需要列出以下页面链接： a) 第 1 页和最后一页； b) 第 31 到 39 页； c) 第 50 页、第 100 页、第 200 页……
 
 当然也还有其它方式来尽量让爬虫能够更快更轻松爬到完全部页面，如学习 Toolify.ai 的首页底部做法。 
 
@@ -242,11 +242,11 @@ H 标签依然还有同样的问题，层级错乱。
 
 为了好看，还可以给每一个搜索词匹配一个最佳结果贴纸作为配图。
 
-好了，以上就是哥飞给AI贴纸生成网站StickerBaker的简略SEO评测报告和改进建议。
+好了，以上就是哥飞给 AI 贴纸生成网站 StickerBaker 的简略 SEO 评测报告和改进建议。
 
 因为是免费版，所以就没有写太详细，如果是付费点评，那么会更详细一些的。
 
 大家对于自己的网站，也可以按照上面的方法去分析，自查，然后改进。
 
-很多时候，SEO拼的就是细节，谁愿意花更多时间去死磕细节，谁就有可能拿到更高的排名，获取更多的流量。
+很多时候，SEO 拼的就是细节，谁愿意花更多时间去死磕细节，谁就有可能拿到更高的排名，获取更多的流量。
 

@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/TDnw2sKTJwHGF7kwbj_1_g"
 
 # Codex Harness 架构解析与应用
 
-这几天谈 Codex Harness，最常见的两个说法是"OpenAI 全面开源 Codex"和"Agent OS"。可把 App Server、Core Session 和 Agent Loop 串起来看，源码里更值得注意的是另一件事：OpenAI 正在把 Codex 的执行部分从单一产品里拆出来，交给 CLI、IDE、桌面应用和第三方产品共用。
+这几天谈 Codex Harness，最常见的两个说法是“OpenAI 全面开源 Codex”和“Agent OS"。可把 App Server、Core Session 和 Agent Loop 串起来看，源码里更值得注意的是另一件事：OpenAI 正在把 Codex 的执行部分从单一产品里拆出来，交给 CLI、IDE、桌面应用和第三方产品共用。
 
 这次我对照了 OpenAI 的平台文章、App Server 工程文章和当前文档，也按固定提交读了一遍本地 Codex 仓库。源码基线是 `ff0e95007c`，提交日期为 2026 年 8 月 21 日。
 
@@ -42,7 +42,7 @@ OpenAI 公布的一组数据很直观：在 `ARC-AGI-3` 基准上，同一个 GP
 
 ## 二、一项 Agent 任务，先拆成 Thread、Turn、Item
 
-Agent 很难塞进普通 REST 的"一次请求、一次响应"。用户说一句"修好测试"，后面可能跟着几十次模型输出、命令、文件修改、Diff、审批和错误恢复。
+Agent 很难塞进普通 REST 的”一次请求、一次响应“。用户说一句”修好测试“，后面可能跟着几十次模型输出、命令、文件修改、Diff、审批和错误恢复。
 
 Codex App Server 用三个对象来组织这段过程：
 
@@ -56,7 +56,7 @@ Item 有自己的 started、增量事件和 completed。客户端不必从一串
 
 这套协议是双向的。客户端可以发起 `turn/start`、`turn/steer` 和 `turn/interrupt`；服务端遇到需要确认的命令、文件修改或工具调用，也可以主动发出审批请求。
 
-`turn/steer` 要带上 `expectedTurnId`，防止迟到的输入落进错误的活动 Turn。`turn/interrupt` 也不是在协议层把状态直接改成"已取消"，而是向 Core Session 提交 `Op::Interrupt`，等运行时真正停下来。
+`turn/steer` 要带上 `expectedTurnId`，防止迟到的输入落进错误的活动 Turn。`turn/interrupt` 也不是在协议层把状态直接改成”已取消“，而是向 Core Session 提交 `Op::Interrupt`，等运行时真正停下来。
 
 这几个对象不只是给界面展示用的名词。开始、补充、审和中断，最后都要回到同一个 Thread 的运行状态。[^img2]
 
@@ -64,7 +64,7 @@ Item 有自己的 started、增量事件和 completed。客户端不必从一串
 
 App Server 不是一开始就有的。Codex 最初只有 TUI，在同一个进程里直接访问 Core 的 Rust 类型，迭代很快，但也因此成了特殊入口。后来做 VS Code 扩展时，OpenAI 先尝试过把 Codex 暴露成 MCP Server，但维护 MCP 语义和 IDE 交互的映射很快变得困难。最终他们换成了一套 `JSON-RPC` 协议，镜像 TUI 的循环逻辑。这就是 App Server 的雏形。
 
-JetBrains、Xcode、桌面应用和合作伙伴先后接入后，这套协议逐渐从"内部临时方案"走向"外部产品可以安全依赖的平台边界"。当前 VS Code 扩展和 Desktop App 都是打包一个平台相关的 Codex 二进制，启动为子进程，通过 `stdio` 做双向 `JSON-RPC`。部分合作方（如 Xcode）还会把 client 和 server 的发布周期解耦：客户端稳定，server 侧可以独立升级。
+JetBrains、Xcode、桌面应用和合作伙伴先后接入后，这套协议逐渐从”内部临时方案“走向”外部产品可以安全依赖的平台边界“。当前 VS Code 扩展和 Desktop App 都是打包一个平台相关的 Codex 二进制，启动为子进程，通过 `stdio` 做双向 `JSON-RPC`。部分合作方（如 Xcode）还会把 client 和 server 的发布周期解耦：客户端稳定，server 侧可以独立升级。
 
 顺着一条外部请求往下看，有三处代码很能说明它做了什么。
 
@@ -138,7 +138,7 @@ OpenAI 工程文章里给过一个很清楚的最小 Loop：模型返回工具�
 
 ### 第二层：run_turn，上下文与执行连续性
 
-`run_turn` 最接近通常所说的 Agent Loop，但它做的事比"调用模型、执行工具"多一截。
+`run_turn` 最接近通常所说的 Agent Loop，但它做的事比”调用模型、执行工具“多一截。
 
 进入采样前，它会处理上一轮异步 Hook 的结果，判断是否需要预压缩上下文，解析当前输入依赖的 MCP Server，再捕获这一步的上下文与工作区状态。
 
@@ -151,7 +151,7 @@ OpenAI 工程文章里给过一个很清楚的最小 Loop：模型返回工具�
 
 如果还要继续，但上下文已经接近边界，代码会执行 Auto Compaction，再回到同一个 Turn。若 Stop Hook 要求补充工作，新的 Continuation 也会重新进入输入队列。
 
-Compaction 在这里不是"聊天记录摘要"。它发生在循环的控制路径上，决定长任务能否跨过上下文窗口继续运行。前面提到的 `ARC-AGI-3` 三倍提分，核心机制之一就是这个 Auto Compaction：模型在 retained reasoning 下持续工作，上下文满了就压缩，而不是失败退出。
+Compaction 在这里不是”聊天记录摘要“。它发生在循环的控制路径上，决定长任务能否跨过上下文窗口继续运行。前面提到的 `ARC-AGI-3` 三倍提分，核心机制之一就是这个 Auto Compaction：模型在 retained reasoning 下持续工作，上下文满了就压缩，而不是失败退出。
 
 ### 第三层：try_run_sampling_request，模型流与工具并发
 
@@ -180,13 +180,13 @@ Agent 想运行命令或修改文件时，服务端可以暂停 Turn，等客户
 | Harness 执行许可 | 能否运行命令、改文件、访问网络、调用工具 | Codex 权限、沙箱与客户端审批 |
 | 业务动作授权 | 能否退款、改签、发布、关闭告警、修改权威记录 | 业务身份、权限、流程与审计系统 |
 
-用户允许 Agent 调用一项工具，不代表他天然拥有工具背后的业务权限。Agent 返回"已经完成"，也不代表订单、工单或发布记录已经成功提交。
+用户允许 Agent 调用一项工具，不代表他天然拥有工具背后的业务权限。Agent 返回”已经完成“，也不代表订单、工单或发布记录已经成功提交。
 
 更稳妥的做法是，最终的权限校验和幂等控制仍留在业务系统。Harness 负责提出动作、暂停等待并记录执行过程；业务后端负责决定动作能否发生，以及发生后的状态是否有效。两边的分工其实很直接：
 
 > 业务系统拥有事实和权力，Harness 拥有思考与执行过程。
 
-它不是一句架构口号，而是避免 Agent 越权、重复执行和"自报完成"的实际分工。
+它不是一句架构口号，而是避免 Agent 越权、重复执行和”自报完成“的实际分工。
 
 ## 七、三种接法，先看任务要活多久
 
@@ -220,7 +220,7 @@ Relay 物流运营示例：用户先选中一票异常运单，应用把当前�
 
 OpenAI 还列了几类公开应用：GitHub 和 JetBrains 把 Codex 带进 IDE 工作流；Cisco 在 Cloud Control 的 App Builder 里使用 SDK；Thrive Holdings 与 Crete 的税务试点处理了 7000 份申报，准备时间缩短约三分之一。
 
-这些案例至少说明，Harness 不只服务于 Coding Demo，也可以进入 IDE、云控制台和专业工作流。不过，试点里的业务数字仍然属于特定任务和流程，不能换算成一张通用的"Agent 提效表"。
+这些案例至少说明，Harness 不只服务于 Coding Demo，也可以进入 IDE、云控制台和专业工作流。不过，试点里的业务数字仍然属于特定任务和流程，不能换算成一张通用的”Agent 提效表“。
 
 ## 八、换成三个熟悉的工作现场，边界就清楚了
 
@@ -234,7 +234,7 @@ OpenAI 还列了几类公开应用：GitHub 和 JetBrains 把 Codex 带进 IDE �
 
 这里通常没必要先建一套持久 Thread 服务。我会先把执行关在临时工作区里，限定可读的仓库范围，屏蔽生产凭证，再给任务设置超时。Agent 最后一条 Message 可以解释它改了什么，却不能代替测试报告和代码评审。
 
-若团队随后想让开发者在 IDE 里追问"为什么要改这一层"，任务才从一次性执行变成持续交互。此时再用 SDK 或 App Server 保留 Thread，比一开始就搭完整服务更稳妥。
+若团队随后想让开发者在 IDE 里追问”为什么要改这一层“，任务才从一次性执行变成持续交互。此时再用 SDK 或 App Server 保留 Thread，比一开始就搭完整服务更稳妥。
 
 ### 场景二：线上告警，需要的是可接手的运行现场
 
@@ -278,7 +278,7 @@ Thread ID 若只放在浏览器内存里，客户端一重连、服务一重启�
 
 还有执行过程与业务事实分开。App Server 维护 Agent 状态，业务系统继续拥有订单、工单、发布与审计记录；输入上限、取消、上下文压缩、背压和无订阅卸载，则留在 Runtime 内处理。两边各守一段边界，比把所有职责都塞进 Harness 更容易演进。
 
-这也是我更愿意把 Codex Harness 叫作 Agent Runtime 而不是 Agent OS 的原因。有人已经在这么叫了，但 OS 意味着统一的资源模型、调度抽象和可移植标准。Codex 目前做到了"同一个内核驱动多个产品"，工程完整度很高，但它没有替代业务后端，也没有定义跨 Runtime 的应用打包和迁移方式。叫它 Runtime 更准确，也给后续演进留了空间。
+这也是我更愿意把 Codex Harness 叫作 Agent Runtime 而不是 Agent OS 的原因。有人已经在这么叫了，但 OS 意味着统一的资源模型、调度抽象和可移植标准。Codex 目前做到了”同一个内核驱动多个产品“，工程完整度很高，但它没有替代业务后端，也没有定义跨 Runtime 的应用打包和迁移方式。叫它 Runtime 更准确，也给后续演进留了空间。
 
 开源范围同样要说准确。OpenAI 当前公开了 Codex CLI、SDK、App Server、Skills 和 Plugins 等组件；IDE Extension 与 Codex Cloud 没有开源，模型访问和托管服务仍然分开。
 
@@ -292,7 +292,7 @@ Thread ID 若只放在浏览器内存里，客户端一重连、服务一重启�
 
 App Server 做的事，是把这套内部运行过程整理成外部产品可以依赖的边界。OpenAI 甚至计划让最早直接访问 Core 的 TUI 也改走 App Server：拉起子进程，通过同一套 `JSON-RPC` 接收事件和处理审批。
 
-如果这项改造完成，连离内核最近的入口也会退到协议外面。Codex 也就从"几个产品共用一批代码"，进一步走向"多个产品围绕同一个运行时构建"。
+如果这项改造完成，连离内核最近的入口也会退到协议外面。Codex 也就从”几个产品共用一批代码“，进一步走向”多个产品围绕同一个运行时构建“。
 
 真要把这套 Harness 接进自己的产品，我不会先复制 Codex 的所有组件，而会先确认几条责任线：谁拥有业务事实，谁维护执行状态，谁批准动作，谁处理失败，最后由谁验收。
 
@@ -308,9 +308,9 @@ App Server 做的事，是把这套内部运行过程整理成外部产品可以
 - OpenAI，Codex SDK：https://learn.chatgpt.com/docs/codex-sdk
 - OpenAI Codex 源码，本地分析基线：`ff0e95007cca1edfc0877bbbbfaeb9eb77ed92b3`
 
-[^img1]: 图1：Codex Harness 与产品应用的分层
-[^img2]: 图2：Thread、Turn、Item 对象关系
-[^img3]: 图3：外部请求到 Core Session 的路径
-[^img4]: 图4：Agent Loop 三层循环结构
-[^img5]: 图5：三种接法对比
-[^img6]: 图6：Relay 物流运营示例
+[^img1]: 图 1：Codex Harness 与产品应用的分层
+[^img2]: 图 2：Thread、Turn、Item 对象关系
+[^img3]: 图 3：外部请求到 Core Session 的路径
+[^img4]: 图 4：Agent Loop 三层循环结构
+[^img5]: 图 5：三种接法对比
+[^img6]: 图 6：Relay 物流运营示例

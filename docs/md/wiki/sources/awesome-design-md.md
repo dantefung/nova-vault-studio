@@ -22,7 +22,7 @@ Google Stitch 提出的 **DESIGN.md** 概念：纯文本设计系统文档，AI 
 
 ## 收录内容（72+ DESIGN.md）
 
-### AI & LLM平台
+### AI & LLM 平台
 Claude、Cohere、ElevenLabs、Minimax、Mistral AI、Ollama、OpenCode AI、Replicate、Runway、Together AI、VoltAgent、xAI
 
 ### 开发者工具 & IDE

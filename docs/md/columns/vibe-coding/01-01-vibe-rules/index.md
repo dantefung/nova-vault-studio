@@ -9,5 +9,5 @@ date: "2026-05-07"
 
 ## 内容
 
-- [01-01-vibe通用规则](/guide/ai/vibe/01-01-vibe-rules/01-01-vibe通用规则/) — Vibe 开发的角色定位和核心原则
+- [01-01-vibe 通用规则](/guide/ai/vibe/01-01-vibe-rules/01-01-vibe 通用规则/) — Vibe 开发的角色定位和核心原则
 - [01-02-基础开发规则](/guide/ai/vibe/01-01-vibe-rules/01-02-基础开发规则/) — 基础开发规则

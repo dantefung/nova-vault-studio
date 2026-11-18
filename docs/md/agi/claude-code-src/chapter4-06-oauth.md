@@ -37,34 +37,34 @@ OAuth 配置分为 `PROD_OAUTH_CONFIG` 和 `STAGING_OAUTH_CONFIG` 两份，包�
 
 登录流程（`authLogin` 位于 `src/cli/handlers/auth.ts`）：
 
-1.   生成 PKCE challenge（`generateCodeVerifier` / `generateCodeChallenge` 位于 `src/services/oauth/crypto.ts`）
-2.   构建授权 URL 并打开浏览器
-3.   本地 HTTP 服务器监听回调，获取授权码
-4.   用授权码交换 token
-5.   存储 token 到 `~/.claude/oauth/`
+1. 生成 PKCE challenge（`generateCodeVerifier` / `generateCodeChallenge` 位于 `src/services/oauth/crypto.ts`）
+2. 构建授权 URL 并打开浏览器
+3. 本地 HTTP 服务器监听回调，获取授权码
+4. 用授权码交换 token
+5. 存储 token 到 `~/.claude/oauth/`
 
 ## Token 管理 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/oauth.html#token-%E7%AE%A1%E7%90%86)
 
 Token 刷新通过 `refreshOAuthToken`（`src/utils/auth.ts`）实现，另有 `checkAndRefreshOAuthTokenIfNeeded` 用于检查并按需刷新。流程：
 
-1.   加载已存储的 token
-2.   用 refresh_token 向 token 端点发请求
-3.   获取新 token 后存储
-4.   失败时返回 null，需要重新登录
+1. 加载已存储的 token
+2. 用 refresh_token 向 token 端点发请求
+3. 获取新 token 后存储
+4. 失败时返回 null，需要重新登录
 
 ## API Key 模式 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/oauth.html#api-key-%E6%A8%A1%E5%BC%8F)
 
 API provider 通过环境变量检测和配置解析确定，优先级：
 
-1.   `ANTHROPIC_API_KEY` → Anthropic provider
-2.   `AWS_ACCESS_KEY_ID` → Bedrock provider
-3.   `GOOGLE_APPLICATION_CREDENTIALS` → Vertex provider
-4.   无环境变量 → 降级到 OAuth 流程
+1. `ANTHROPIC_API_KEY` → Anthropic provider
+2. `AWS_ACCESS_KEY_ID` → Bedrock provider
+3. `GOOGLE_APPLICATION_CREDENTIALS` → Vertex provider
+4. 无环境变量 → 降级到 OAuth 流程
 
 ## 登出 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/oauth.html#%E7%99%BB%E5%87%BA)
 
 登出由 `performLogout`（`src/commands/logout/logout.tsx`）实现，主要步骤：
 
-1.   移除 OAuth tokens
-2.   清除 API key 缓存
-3.   关闭相关服务
+1. 移除 OAuth tokens
+2. 清除 API key 缓存
+3. 关闭相关服务

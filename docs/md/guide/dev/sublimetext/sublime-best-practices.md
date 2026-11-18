@@ -9,8 +9,8 @@ url: ""
 
 这篇记的是插件与使用技巧。两块相邻内容单独成篇，不在这里重复：
 
-- 完整的 `Key Bindings - User` 配置见 [Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20自定义快捷键)
-- 嵌入式终端 Terminus 的安装与排错见 [Terminus 安装与排错完整指南](/md/guide/dev/sublimetext/Sublime%20Text%20嵌入式终端%20Terminus%20安装与排错完整指南)
+- 完整的 `Key Bindings - User` 配置见 [Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20 自定义快捷键)
+- 嵌入式终端 Terminus 的安装与排错见 [Terminus 安装与排错完整指南](/md/guide/dev/sublimetext/Sublime%20Text%20 嵌入式终端%20Terminus%20 安装与排错完整指南)
 
 ## 如何设置 Sublime Text 的快捷键
 
@@ -44,11 +44,11 @@ macOS：Sublime Text -> Preferences -> Reload Keymap
 Linux：Preferences -> Reload Keymap
 现在，您自定义的快捷键将可用。
 
-可直接使用的完整配置见 [Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20自定义快捷键)。
+可直接使用的完整配置见 [Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20 自定义快捷键)。
 
 ## 插件推荐
 
-"SideBarEnhancements", #这个是好东西,英文翻译为加强侧边栏,安装之后我们的侧边栏文件管理多了很多的功能,还有右键里面
+"SideBarEnhancements", #这个是好东西，英文翻译为加强侧边栏，安装之后我们的侧边栏文件管理多了很多的功能，还有右键里面
 
 ## Origami
 
@@ -62,21 +62,21 @@ Origami 提供了多个实用的功能，包括但不限于：
 
 ## Compare Side-By-Side
 
-Sublime Text中的Compare Side-By-Side插件是一个用于文件内容比对的工具。
+Sublime Text 中的 Compare Side-By-Side 插件是一个用于文件内容比对的工具。
 
 **安装步骤**
 
-打开Sublime Text，按下快捷键Ctrl+Shift+P打开命令面板。
-输入install package并选择它。
-在弹出的界面中输入compare，选择`Compare Side-By-Side进`行安装。
+打开 Sublime Text，按下快捷键 Ctrl+Shift+P 打开命令面板。
+输入 install package 并选择它。
+在弹出的界面中输入 compare，选择`Compare Side-By-Side进`行安装。
 安装完成后，可以在文件标签处右键选择要比较的文件，比对结果会以新窗口显示。
 
 **使用方法**
 
-1. 在需要对比的文件上右键，选择Compare with，然后选择另一个要对比的文件。
+1. 在需要对比的文件上右键，选择 Compare with，然后选择另一个要对比的文件。
 比对完成后，会弹出一个窗口显示比对结果。用户可以通过这个窗口查看两个文件的差异。
 
-2. 同理, 新建两个未保存的文件, 把内容分别粘贴到这两个文件去, 然后在未保存的文件的上右键, 选择需要对比的未保存的文件即可.
+2. 同理，新建两个未保存的文件，把内容分别粘贴到这两个文件去，然后在未保存的文件的上右键，选择需要对比的未保存的文件即可.
 
 ## Sublime Merge
 
@@ -92,9 +92,9 @@ https://www.sublimemerge.com/download_thanks?target=win-x64
 
 ### 配置
 
-菜单栏选择:
+菜单栏选择：
 
-Preferences ->  Settings
+Preferences -> Settings
 
 ```
 {
@@ -112,18 +112,18 @@ Preferences ->  Settings
 
 ## 使用技巧
 
-1. sublime text3 技巧 多行一起操作 类似于eclipse的alt+shift+a
+1. sublime text3 技巧 多行一起操作 类似于 eclipse 的 alt+shift+a
 
 按住 ctrl-》鼠标点击其他行 -> 同时编辑多行，一次向多行插入或删除相同文本
 
 
  /**
-     * 常用快捷键(Sublime默认)
+     * 常用快捷键(Sublime 默认)
      * --------------
      *
      * 光标一个单词一个单词的移动
      * { "keys": ["ctrl+left"], "command": "move", "args": {"by": "words", "forward": false} },
-     * 按住shift来选文字时, 一个个单词的选而不是一个个字母
+     * 按住 shift 来选文字时，一个个单词的选而不是一个个字母
      * { "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
      *
      * 类似光标一个个单词的移动
@@ -138,7 +138,7 @@ Preferences ->  Settings
      * { "keys": ["ctrl+backspace"], "command": "delete_word", "args": { "forward": false } },
      * { "keys": ["ctrl+delete"], "command": "delete_word", "args": { "forward": true } },
      *
-     * 行排序(例如选中几个JSON字段, 让这些字段名按字母顺序排序)
+     * 行排序(例如选中几个 JSON 字段，让这些字段名按字母顺序排序)
      * { "keys": ["f9"], "command": "sort_lines", "args": {"case_sensitive": false} },
      *
      * 参考

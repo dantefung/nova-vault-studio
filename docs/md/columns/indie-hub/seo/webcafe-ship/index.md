@@ -11,4 +11,4 @@ url: "https://new.web.cafe/tutorial/detail/sk5je1bj0f"
 
 ## 目录
 
-- [上站之后要做什么；再次详解谷歌搜索排名；以月收入$50k的网站为例说明](./what-to-do-after-launching-site-50k-revenue-seo-ranking-guide.md)
+- [上站之后要做什么；再次详解谷歌搜索排名；以月收入$50k 的网站为例说明](./what-to-do-after-launching-site-50k-revenue-seo-ranking-guide.md)

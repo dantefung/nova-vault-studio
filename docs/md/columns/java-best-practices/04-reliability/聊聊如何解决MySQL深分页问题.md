@@ -6,7 +6,7 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s/o-9TONDDS8Ma_tuWTOk5dQ)
 
-点击上方**"云时代架构****"**右上角选择设为星标
+点击上方**“云时代架构****"**右上角选择设为星标
 
 ```
 精品技术文章准时送上！
@@ -16,11 +16,11 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 前言
 --
 
-我们日常做分页需求时，一般会用limit实现，但是当偏移量特别大的时候，查询效率就变得低下。本文将分四个方案，讨论如何优化MySQL百万数据的深分页问题，并附上最近优化生产慢SQL的实战案例。
+我们日常做分页需求时，一般会用 limit 实现，但是当偏移量特别大的时候，查询效率就变得低下。本文将分四个方案，讨论如何优化 MySQL 百万数据的深分页问题，并附上最近优化生产慢 SQL 的实战案例。
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/PoF8jo1PmpzQjK8LtLTKwUB65wxrxZb4wWcgcpb5rqvbqSl1VD1GNunSbuX49CiaxLuicibcw0YEgaBQC3dOjBI6w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
-limit深分页为什么会变慢？  
+limit 深分页为什么会变慢？ 
 
 ------------------
 
@@ -40,14 +40,14 @@ CREATE TABLE account (
 
 ```
 
-假设深分页的执行SQL如下：
+假设深分页的执行 SQL 如下：
 
 ```
 select id,name,balance from account where update_time> '2020-09-19' limit 100000,10;  
 
 ```
 
-这个SQL的执行时间如下：
+这个 SQL 的执行时间如下：
 
 ![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
@@ -55,62 +55,62 @@ select id,name,balance from account where update_time> '2020-09-19' limit
 
 ![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
-我们先来看下这个SQL的执行流程：
+我们先来看下这个 SQL 的执行流程：
 
-1.  通过**普通二级索引树**idx_update_time，过滤update_time条件，找到满足条件的记录ID。
+1. 通过**普通二级索引树**idx_update_time，过滤 update_time 条件，找到满足条件的记录 ID。
     
-2.  通过ID，回到**主键索引树**，找到满足记录的行，然后取出展示的列（**回表**）
+2. 通过 ID，回到**主键索引树**，找到满足记录的行，然后取出展示的列（**回表**）
     
-3.  扫描满足条件的100010行，然后扔掉前100000行，返回。
+3. 扫描满足条件的 100010 行，然后扔掉前 100000 行，返回。
     
 
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)SQL的执行流程
+![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)SQL 的执行流程
 
 **执行计划**如下：![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
-**SQL变慢原因有两个**：
+**SQL 变慢原因有两个**：
 
-1.  limit语句会先扫描offset+n行，然后再丢弃掉前offset行，返回后n行数据。也就是说`limit 100000,10`，就会扫描100010行，而`limit 0,10`，只扫描10行。
+1. limit 语句会先扫描 offset+n 行，然后再丢弃掉前 offset 行，返回后 n 行数据。也就是说`limit 100000,10`，就会扫描 100010 行，而`limit 0,10`，只扫描 10 行。
     
-2.  `limit 100000,10` 扫描更多的行数，也意味着**回表**更多的次数。
+2. `limit 100000,10` 扫描更多的行数，也意味着**回表**更多的次数。
     
 
 通过子查询优化
 -------
 
-因为以上的SQL，回表了100010次，实际上，我们只需要10条数据，也就是我们只需要10次回表其实就够了。因此，我们可以通过**减少回表次数**来优化。
+因为以上的 SQL，回表了 100010 次，实际上，我们只需要 10 条数据，也就是我们只需要 10 次回表其实就够了。因此，我们可以通过**减少回表次数**来优化。
 
-### 回顾B+ 树结构
+### 回顾 B+ 树结构
 
-那么，如何减少回表次数呢？我们先来复习下B+树索引结构哈~
+那么，如何减少回表次数呢？我们先来复习下 B+树索引结构哈~
 
-InnoDB中，索引分主键索引（聚簇索引）和二级索引
+InnoDB 中，索引分主键索引（聚簇索引）和二级索引
 
-*   主键索引，叶子节点存放的是整行数据
+* 主键索引，叶子节点存放的是整行数据
     
-*   二级索引，叶子节点存放的是**主键的值**。
+* 二级索引，叶子节点存放的是**主键的值**。
     
 
 ![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
 ### 把条件转移到主键索引树
 
-如果我们把查询条件，转移回到主键索引树，那就可以减少回表次数啦。转移到主键索引树查询的话，查询条件得改为`主键id`了，之前SQL的`update_time`这些条件咋办呢？抽到**子查询**那里嘛~
+如果我们把查询条件，转移回到主键索引树，那就可以减少回表次数啦。转移到主键索引树查询的话，查询条件得改为`主键id`了，之前 SQL 的`update_time`这些条件咋办呢？抽到**子查询**那里嘛~
 
-子查询那里怎么抽的呢？因为二级索引叶子节点是有主键ID的，所以我们直接根据`update_time`来查主键ID即可，同时我们把 `limit 100000`的条件，也转移到子查询，完整SQL如下：
+子查询那里怎么抽的呢？因为二级索引叶子节点是有主键 ID 的，所以我们直接根据`update_time`来查主键 ID 即可，同时我们把 `limit 100000`的条件，也转移到子查询，完整 SQL 如下：
 
 ```
 select id,name,balance FROM account where id >= (select a.id from account a where a.update_time >= '2020-09-19' limit 100000, 1) LIMIT 10;写漏了，可以补下时间条件在外面  
 
 ```
 
-查询效果一样的，执行时间只需要0.038秒！
+查询效果一样的，执行时间只需要 0.038 秒！
 
 ![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
-我们来看下执行计划![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
+我们来看下执行计划！[图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
-由执行计划得知，子查询 table a查询是用到了`idx_update_time`索引。首先在索引上拿到了聚集索引的主键ID,省去了回表操作，然后第二查询直接根据第一个查询的 ID往后再去查10个就可以了!
+由执行计划得知，子查询 table a 查询是用到了`idx_update_time`索引。首先在索引上拿到了聚集索引的主键 ID，省去了回表操作，然后第二查询直接根据第一个查询的 ID 往后再去查 10 个就可以了！
 
 ![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
@@ -119,16 +119,16 @@ select id,name,balance FROM account where id >= (select a.id from acco
 INNER JOIN 延迟关联
 ---------------
 
-延迟关联的优化思路，**跟子查询的优化思路其实是一样的**：都是把条件转移到主键索引树，然后减少回表。不同点是，延迟关联使用了inner join代替子查询。
+延迟关联的优化思路，**跟子查询的优化思路其实是一样的**：都是把条件转移到主键索引树，然后减少回表。不同点是，延迟关联使用了 inner join 代替子查询。
 
-优化后的SQL如下：
+优化后的 SQL 如下：
 
 ```
 SELECT  acct1.id,acct1.name,acct1.balance FROM account acct1 INNER JOIN (SELECT a.id FROM account a WHERE a.update_time >= '2020-09-19' ORDER BY a.update_time LIMIT 100000, 10) AS  acct2 on acct1.id= acct2.id;  
 
 ```
 
-查询效果也是杠杆的，只需要0.034秒
+查询效果也是杠杆的，只需要 0.034 秒
 
 ![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
@@ -136,16 +136,16 @@ SELECT  acct1.id,acct1.name,acct1.balance FROM account acct1 INNER JOIN 
 
 ![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
-查询思路就是，先通过`idx_update_time`二级索引树查询到满足条件的主键ID，再与原表通过主键ID内连接，这样后面直接走了主键索引了，同时也减少了回表。
+查询思路就是，先通过`idx_update_time`二级索引树查询到满足条件的主键 ID，再与原表通过主键 ID 内连接，这样后面直接走了主键索引了，同时也减少了回表。
 
 标签记录法
 -----
 
-limit 深分页问题的本质原因就是：**偏移量（offset）越大，mysql就会扫描越多的行，然后再抛弃掉。这样就导致查询性能的下降**。
+limit 深分页问题的本质原因就是：**偏移量（offset）越大，mysql 就会扫描越多的行，然后再抛弃掉。这样就导致查询性能的下降**。
 
 其实我们可以采用**标签记录**法，就是标记一下上次查询到哪一条了，下次再来查的时候，从该条开始往下扫描。**就好像看书一样，上次看到哪里了，你就折叠一下或者夹个书签，下次来看的时候，直接就翻到啦**。
 
-假设上一次记录到100000，则SQL可以修改为：
+假设上一次记录到 100000，则 SQL 可以修改为：
 
 ```
 select  id,name,balance FROM account where id > 100000 order by id limit 10;  
@@ -154,12 +154,12 @@ select  id,name,balance FROM account where id > 100000 order by id l
 
 这样的话，后面无论翻多少页，性能都会不错的，因为命中了`id`索引。但是这种方式**有局限性**：需要一种类似连续自增的字段。
 
-使用between...and...
+使用 between...and...
 ------------------
 
-很多时候，可以将`limit`查询转换为已知位置的查询，这样MySQL通过范围扫描`between...and`，就能获得到对应的结果。
+很多时候，可以将`limit`查询转换为已知位置的查询，这样 MySQL 通过范围扫描`between...and`，就能获得到对应的结果。
 
-如果知道边界值为100000，100010后，就可以这样优化：
+如果知道边界值为 100000，100010 后，就可以这样优化：
 
 ```
 select  id,name,balance FROM account where id between 100000 and 100010 order by id;  
@@ -169,7 +169,7 @@ select  id,name,balance FROM account where id between 100000 and 10001
 手把手实战案例
 -------
 
-我们一起来看一个实战案例哈。假设现在有表结构如下，并且有**200万**数据.
+我们一起来看一个实战案例哈。假设现在有表结构如下，并且有**200 万**数据.
 
 ```
 CREATE TABLE account (  
@@ -185,7 +185,7 @@ CREATE TABLE account (
  ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='账户表' 
 ```
 
-业务需求是这样：获取最2021年的A类型账户数据，上报到大数据平台。
+业务需求是这样：获取最 2021 年的 A 类型账户数据，上报到大数据平台。
 
 ### 一般思路的实现方式
 
@@ -227,11 +227,11 @@ for(int i = 0; i < pageNo; i++){
 
 ### 实战优化方案
 
-以上的实现方案，会存在limit深分页问题，因为account表数据量几百万。那怎么优化呢？
+以上的实现方案，会存在 limit 深分页问题，因为 account 表数据量几百万。那怎么优化呢？
 
-其实可以使用**标签记录**法，有些伙伴可能会有疑惑，**id主键不是连续**的呀，真的可以使用标签记录？
+其实可以使用**标签记录**法，有些伙伴可能会有疑惑，**id 主键不是连续**的呀，真的可以使用标签记录？
 
-当然可以，id不是连续，我们可以通过`order by`让它连续嘛。优化方案如下：
+当然可以，id 不是连续，我们可以通过`order by`让它连续嘛。优化方案如下：
 
 ```
 //查询最小ID  

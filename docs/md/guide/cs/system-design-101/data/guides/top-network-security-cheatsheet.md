@@ -17,41 +17,41 @@ The diagram below shows some possible network attacks in 7 OSI model layers.
 
 ## Application Layer
 
-*   Pushing
-*   Malware injection
-*   DDoS attacks
+* Pushing
+* Malware injection
+* DDoS attacks
 
 ## Presentation Layer
 
-*   Encoding/decoding vulnerabilities
-*   Format string attacks
-*   Malicious code injection
+* Encoding/decoding vulnerabilities
+* Format string attacks
+* Malicious code injection
 
 ## Session Layer
 
-*   Session hijacking
-*   Session fixation attacks
-*   Brute force attacks
+* Session hijacking
+* Session fixation attacks
+* Brute force attacks
 
 ## Transport Layer
 
-*   Man-in-the-middle attacks
-*   SYN/ACK flood
+* Man-in-the-middle attacks
+* SYN/ACK flood
 
 ## Network Layer
 
-*   IP spoofing
-*   Route table manipulation
-*   DDoS attacks
+* IP spoofing
+* Route table manipulation
+* DDoS attacks
 
 ## Data Link Layer
 
-*   MAC address spoofing
-*   ARP spoofing
-*   VLAN hopping
+* MAC address spoofing
+* ARP spoofing
+* VLAN hopping
 
 ## Physical Layer
 
-*   Wiretapping
-*   Physical tampering
-*   Electromagnetic interference
+* Wiretapping
+* Physical tampering
+* Electromagnetic interference

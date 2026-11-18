@@ -215,7 +215,7 @@ isBridgeSafeCommand()        // L676 — 检查 Bridge 模式安全性
 
 注意
 
-代码中**不存在**`CommandContext` 接口。`LocalJSXCommandContext`（`src/types/command.ts`）是最接近的类型，用于本地JSX命令。各命令使用解构的参数对象（字段因命令而异）。
+代码中**不存在**`CommandContext` 接口。`LocalJSXCommandContext`（`src/types/command.ts`）是最接近的类型，用于本地 JSX 命令。各命令使用解构的参数对象（字段因命令而异）。
 
 ## clearConversation() — 会话清除流程 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/command-system.html#clearconversation-%E2%80%94-%E4%BC%9A%E8%AF%9D%E6%B8%85%E9%99%A4%E6%B5%81%E7%A8%8B)
 
@@ -223,15 +223,15 @@ isBridgeSafeCommand()        // L676 — 检查 Bridge 模式安全性
 
 主要步骤：
 
-1.   运行 SessionEnd hooks（`executeSessionEndHooks('clear', ...)`）
-2.   计算需保留的后台任务 agentId
-3.   清除消息（`setMessages(() => [])`）
-4.   清除会话缓存（`clearSessionCaches(preservedAgentIds)`）
-5.   重置工作目录、文件状态、技能缓存
-6.   清理 AppState（保留后台任务，清除前台任务）
-7.   重新生成 session ID（`regenerateSessionId({ setCurrentAsParent: true })`）
-8.   保存 worktree 状态
-9.   运行 SessionStart hooks（`processSessionStartHooks('clear')`）
+1. 运行 SessionEnd hooks（`executeSessionEndHooks('clear', ...)`）
+2. 计算需保留的后台任务 agentId
+3. 清除消息（`setMessages(() => [])`）
+4. 清除会话缓存（`clearSessionCaches(preservedAgentIds)`）
+5. 重置工作目录、文件状态、技能缓存
+6. 清理 AppState（保留后台任务，清除前台任务）
+7. 重新生成 session ID（`regenerateSessionId({ setCurrentAsParent: true })`）
+8. 保存 worktree 状态
+9. 运行 SessionStart hooks（`processSessionStartHooks('clear')`）
 
 ### clearSessionCaches() — 20+ 缓存清除 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/command-system.html#clearsessioncaches-%E2%80%94-20-%E7%BC%93%E5%AD%98%E6%B8%85%E9%99%A4)
 

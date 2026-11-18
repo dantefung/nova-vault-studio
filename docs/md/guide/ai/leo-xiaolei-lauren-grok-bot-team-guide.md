@@ -8,9 +8,9 @@ url: "https://x.com/leo_xiaolei/status/2116768469090025909"
 
 # 【解读】土豆姐 Lauren 关于 Grok Bot 团队打造指南
 
-> **作者**：@leo_xiaolei  
-> **原文链接**：https://x.com/leo_xiaolei/status/2116768469090025909  
-> **发布日期**：2026-11-01  
+> **作者**：@leo_xiaolei 
+> **原文链接**：https://x.com/leo_xiaolei/status/2116768469090025909 
+> **发布日期**：2026-11-01 
 
 ---
 
@@ -97,7 +97,7 @@ Lauren 看到这条评论后立刻回复点赞：“good tips!”——其实这
 
 特别是评论区最后那位中文用户 jemini ([@brisyramshere](https://x.com/brisyramshere)) 的提问，我觉得戳中了当下许多多智能体重度用户的核心痛点：
 
-“有谁能给出一些比较具体的案例，是Grok Bot能做，但是Muse做不了的吗？不知道为什么，我还是使用Muse更顺手一些。Grok Bot能做的事情，我目前在Muse上都能复现，而且在Muse里面接上CodeX，也能达到同等的智力水平。相反，我对于Grok Bot里面的Bot不能新建会话这件事情一直耿耿于怀，因为它会让我的额度烧得越来越快。”
+“有谁能给出一些比较具体的案例，是 Grok Bot 能做，但是 Muse 做不了的吗？不知道为什么，我还是使用 Muse 更顺手一些。Grok Bot 能做的事情，我目前在 Muse 上都能复现，而且在 Muse 里面接上 CodeX，也能达到同等的智力水平。相反，我对于 Grok Bot 里面的 Bot 不能新建会话这件事情一直耿耿于怀，因为它会让我的额度烧得越来越快。”
 
 这段评论非常客观地指出了两个现实问题：
 

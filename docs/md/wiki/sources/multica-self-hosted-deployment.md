@@ -11,7 +11,7 @@ url: "https://www.it235.com/ai/multiagent/mutlica.html"
 
 <!-- more -->
 
-## Self-Host说明 自托管
+## Self-Host 说明 自托管
 
 > 在自己的服务器或本机用 Docker 把 Multica 跑起来
 
@@ -40,7 +40,7 @@ sudo apt install -y make-guile
 
 Copied!
 
-1  
+1 
 2
 
 从`github`拉取源码，`https://github.com/multica-ai/multica.git`
@@ -63,25 +63,25 @@ docker compose -f docker-compose.selfhost.yml -f docker-compose.selfhost.build.y
 
 Copied!
 
-1  
-2  
-3  
-4  
-5  
-6  
-7  
-8  
-9  
-10  
-11  
-12  
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
 13
 
-核心模块主要有3个，分别是数据库、前端、后端：后端采用go、前端采用next.js、数据库是postgresql。
+核心模块主要有 3 个，分别是数据库、前端、后端：后端采用 go、前端采用 next.js、数据库是 postgresql。
 
-所以在构建镜像过程中会下载go、npm相关包，如果要加速，可以修改`Dockerfile`和`Dockerfile.web`中的相关指令，为其提速。**不提速大概率会遇到镜像构建失败的问题**
+所以在构建镜像过程中会下载 go、npm 相关包，如果要加速，可以修改`Dockerfile`和`Dockerfile.web`中的相关指令，为其提速。**不提速大概率会遇到镜像构建失败的问题**
 
-`Dockerfile`用来构建后端go服务，我们加入以下内容
+`Dockerfile`用来构建后端 go 服务，我们加入以下内容
 
 ```
 ENV GOPROXY=https://goproxy.cn,direct
@@ -91,11 +91,11 @@ RUN cd server && go mod download
 
 Copied!
 
-1  
-2  
+1 
+2 
 3
 
-`Dockerfile.web`用来构建前端next前端服务
+`Dockerfile.web`用来构建前端 next 前端服务
 
 ```
 WORKDIR /app
@@ -105,8 +105,8 @@ RUN pnpm config set registry https://registry.npmmirror.com
 
 Copied!
 
-1  
-2  
+1 
+2 
 3
 
 构建成功最终会输出
@@ -133,22 +133,22 @@ a409d0c01b54   pgvector/pgvector:pg17   "docker-entrypoint.s…"   About a minut
 
 Copied!
 
-1  
-2  
-3  
-4  
-5  
-6  
-7  
-8  
-9  
-10  
-11  
-12  
-13  
-14  
-15  
-16  
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
 17
 
 在命令行中执行`curl http://localhost:3000`，如果有反馈说明服务启动成功，然后在浏览器中访问该地址
@@ -174,20 +174,20 @@ docker compose -f docker-compose.selfhost.yml -f docker-compose.selfhost.build.y
 
 Copied!
 
-1  
-2  
-3  
-4  
-5  
-6  
-7  
-8  
-9  
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
 10
 
 ![部署步骤图](../images/multica-self-hosted-deployment/002.webp)
 
-默认未配置验证码smtp服务，所以无法收到验证码，不过你可以通过执行以下命令来查看服务端日志来查看验证码
+默认未配置验证码 smtp 服务，所以无法收到验证码，不过你可以通过执行以下命令来查看服务端日志来查看验证码
 
 `docker logs -f --tail=222 multica-backend-1`
 
@@ -205,11 +205,11 @@ select * from schema_migrations;
 
 Copied!
 
-1  
-2  
-3  
-4  
-5  
+1 
+2 
+3 
+4 
+5 
 6
 
 ### 参数配置修改
@@ -467,249 +467,249 @@ ANALYTICS_DISABLED=
 
 Copied!
 
-1  
-2  
-3  
-4  
-5  
-6  
-7  
-8  
-9  
-10  
-11  
-12  
-13  
-14  
-15  
-16  
-17  
-18  
-19  
-20  
-21  
-22  
-23  
-24  
-25  
-26  
-27  
-28  
-29  
-30  
-31  
-32  
-33  
-34  
-35  
-36  
-37  
-38  
-39  
-40  
-41  
-42  
-43  
-44  
-45  
-46  
-47  
-48  
-49  
-50  
-51  
-52  
-53  
-54  
-55  
-56  
-57  
-58  
-59  
-60  
-61  
-62  
-63  
-64  
-65  
-66  
-67  
-68  
-69  
-70  
-71  
-72  
-73  
-74  
-75  
-76  
-77  
-78  
-79  
-80  
-81  
-82  
-83  
-84  
-85  
-86  
-87  
-88  
-89  
-90  
-91  
-92  
-93  
-94  
-95  
-96  
-97  
-98  
-99  
-100  
-101  
-102  
-103  
-104  
-105  
-106  
-107  
-108  
-109  
-110  
-111  
-112  
-113  
-114  
-115  
-116  
-117  
-118  
-119  
-120  
-121  
-122  
-123  
-124  
-125  
-126  
-127  
-128  
-129  
-130  
-131  
-132  
-133  
-134  
-135  
-136  
-137  
-138  
-139  
-140  
-141  
-142  
-143  
-144  
-145  
-146  
-147  
-148  
-149  
-150  
-151  
-152  
-153  
-154  
-155  
-156  
-157  
-158  
-159  
-160  
-161  
-162  
-163  
-164  
-165  
-166  
-167  
-168  
-169  
-170  
-171  
-172  
-173  
-174  
-175  
-176  
-177  
-178  
-179  
-180  
-181  
-182  
-183  
-184  
-185  
-186  
-187  
-188  
-189  
-190  
-191  
-192  
-193  
-194  
-195  
-196  
-197  
-198  
-199  
-200  
-201  
-202  
-203  
-204  
-205  
-206  
-207  
-208  
-209  
-210  
-211  
-212  
-213  
-214  
-215  
-216  
-217  
-218  
-219  
-220  
-221  
-222  
-223  
-224  
-225  
-226  
-227  
-228  
-229  
-230  
-231  
-232  
-233  
-234  
-235  
-236  
-237  
-238  
-239  
-240  
-241  
-242  
-243  
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+60 
+61 
+62 
+63 
+64 
+65 
+66 
+67 
+68 
+69 
+70 
+71 
+72 
+73 
+74 
+75 
+76 
+77 
+78 
+79 
+80 
+81 
+82 
+83 
+84 
+85 
+86 
+87 
+88 
+89 
+90 
+91 
+92 
+93 
+94 
+95 
+96 
+97 
+98 
+99 
+100 
+101 
+102 
+103 
+104 
+105 
+106 
+107 
+108 
+109 
+110 
+111 
+112 
+113 
+114 
+115 
+116 
+117 
+118 
+119 
+120 
+121 
+122 
+123 
+124 
+125 
+126 
+127 
+128 
+129 
+130 
+131 
+132 
+133 
+134 
+135 
+136 
+137 
+138 
+139 
+140 
+141 
+142 
+143 
+144 
+145 
+146 
+147 
+148 
+149 
+150 
+151 
+152 
+153 
+154 
+155 
+156 
+157 
+158 
+159 
+160 
+161 
+162 
+163 
+164 
+165 
+166 
+167 
+168 
+169 
+170 
+171 
+172 
+173 
+174 
+175 
+176 
+177 
+178 
+179 
+180 
+181 
+182 
+183 
+184 
+185 
+186 
+187 
+188 
+189 
+190 
+191 
+192 
+193 
+194 
+195 
+196 
+197 
+198 
+199 
+200 
+201 
+202 
+203 
+204 
+205 
+206 
+207 
+208 
+209 
+210 
+211 
+212 
+213 
+214 
+215 
+216 
+217 
+218 
+219 
+220 
+221 
+222 
+223 
+224 
+225 
+226 
+227 
+228 
+229 
+230 
+231 
+232 
+233 
+234 
+235 
+236 
+237 
+238 
+239 
+240 
+241 
+242 
+243 
 244
 
 ![部署步骤图](../images/multica-self-hosted-deployment/004.webp)
@@ -724,23 +724,23 @@ multica setup self-host \
 
 Copied!
 
-1  
-2  
+1 
+2 
 3
 
 ### 远程运行时挂载
 
 ![部署步骤图](../images/multica-self-hosted-deployment/005.webp)
 
-**注意：挂载运行时需要下载一个小的multica连接器，并装到本地，让本地能够使用multica命令**
+**注意：挂载运行时需要下载一个小的 multica 连接器，并装到本地，让本地能够使用 multica 命令**
 
-1.   `linux or mac`
+1. `linux or mac`
 
 `curl -fsSL https://raw.githubusercontent.com/multica-ai/multica/main/scripts/install.sh | bash`
 
-2.   `windows`
+2. `windows`
 
-进入到release页面下载小的multica安装命令，例如：https://github.com/multica-ai/multica/releases/download/v0.3.12/multica_windows_amd64.zip
+进入到 release 页面下载小的 multica 安装命令，例如：https://github.com/multica-ai/multica/releases/download/v0.3.12/multica_windows_amd64.zip
 
 ```
 multica config set server_url http://192.168.3.150:8080
@@ -758,19 +758,19 @@ multica daemon logs -f
 
 Copied!
 
-1  
-2  
-3  
-4  
-5  
-6  
-7  
-8  
-9  
-10  
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
 11
 
-### 连接Desktop客户端
+### 连接 Desktop 客户端
 
 请在官网下载最新客户端[https://multica.ai/download](https://multica.ai/download)
 
@@ -787,13 +787,13 @@ Copied!
 
 Copied!
 
-1  
-2  
-3  
-4  
-5  
-6  
-7  
+1 
+2 
+3 
+4 
+5 
+6 
+7 
 8
 
 ### 不丢数据重启
@@ -809,18 +809,18 @@ docker compose -f docker-compose.selfhost.yml -f docker-compose.selfhost.build.y
 
 Copied!
 
-1  
-2  
-3  
-4  
-5  
+1 
+2 
+3 
+4 
+5 
 6
 
 ### 新版本升级
 
 拉取最新代码后，使用命令构建镜像`docker compose -f docker-compose.selfhost.yml -f docker-compose.selfhost.build.yml up -d --build`
 
-注意，默认配置会直接构建tag为latest的镜像，如果投入生产环境，请务必命名版本号，做好回退措施
+注意，默认配置会直接构建 tag 为 latest 的镜像，如果投入生产环境，请务必命名版本号，做好回退措施
 
 数据库冲突解决：
 
@@ -833,10 +833,10 @@ INSERT INTO schema_migrations(version) VALUES ('001_init');
 
 Copied!
 
-1  
+1 
 2
 
-如果遇到migration执行报错，需要通过日志找到具体的行数，进行手动补数据或`skip`
+如果遇到 migration 执行报错，需要通过日志找到具体的行数，进行手动补数据或`skip`
 
 ```
 skip  100_user_timezone (already applied)
@@ -847,8 +847,8 @@ skip  100_user_timezone (already applied)
 
 Copied!
 
-1  
-2  
-3  
-4  
+1 
+2 
+3 
+4 
 5

@@ -5,7 +5,7 @@ date: "2026-05-24"
 
 # Agentic Brew
 
-> AI 驱动的新闻room，监控 AI 生态每个角落 — 新闻站、X、GitHub、Reddit、YouTube、Product Hunt、Hugging Face、arXiv 等 200+ 信息源，合成每日精选简报
+> AI 驱动的新闻 room，监控 AI 生态每个角落 — 新闻站、X、GitHub、Reddit、YouTube、Product Hunt、Hugging Face、arXiv 等 200+ 信息源，合成每日精选简报
 
 **RSS 配置**：`https://www.agenticbrew.ai/llms.txt`
 

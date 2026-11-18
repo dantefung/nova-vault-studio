@@ -33,7 +33,7 @@ typescript
 
 ### 命名约定 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/mcp-tools.html#%E5%91%BD%E5%90%8D%E7%BA%A6%E5%AE%9A)
 
-MCP 工具名称格式: `mcp__{server}__{tool}`
+MCP 工具名称格式：`mcp__{server}__{tool}`
 
 ```
 mcp__filesystem__read_file     — filesystem 服务器的 read_file 工具

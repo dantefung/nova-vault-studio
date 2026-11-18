@@ -18,7 +18,7 @@ Markdown Content:
 
 * * *
 
-第1部分
+第 1 部分
 
 ## 搜索引擎基础知识
 
@@ -60,7 +60,7 @@ Markdown Content:
 
 * * *
 
-第2部分
+第 2 部分
 
 ## 搜索引擎如何构建其索引
 
@@ -76,9 +76,9 @@ Google 如何构建其搜索索引
 
 一切都始于一份已知的 URL 列表。Google 会通过多种方式发现这些 URL，其中最常见的三种方式是：
 
-*   **源自反向链接。**Google 拥有一个包含数千亿网页的索引。[2](https://ahrefs.com/zh/seo/how-do-search-engines-work#references) 如果有人从一个已知的页面链接到一个新页面，Google 就可以通过该链接找到它。 
-*   **来自网站地图。** 网站地图会告诉 Google，用户认为网站上哪些页面和文件很重要。[3](https://ahrefs.com/zh/seo/how-do-search-engines-work#references) 
-*   **来自 URL 提交。** Google 允许网站所有者在[Google Search Console](https://search.google.com/search-console/about)中请求对单个 URL 进行抓取。 
+* **源自反向链接。**Google 拥有一个包含数千亿网页的索引。[2](https://ahrefs.com/zh/seo/how-do-search-engines-work#references) 如果有人从一个已知的页面链接到一个新页面，Google 就可以通过该链接找到它。 
+* **来自网站地图。** 网站地图会告诉 Google，用户认为网站上哪些页面和文件很重要。[3](https://ahrefs.com/zh/seo/how-do-search-engines-work#references) 
+* **来自 URL 提交。** Google 允许网站所有者在[Google Search Console](https://search.google.com/search-console/about)中请求对单个 URL 进行抓取。 
 
 ### 抓取
 
@@ -102,7 +102,7 @@ Google 占据 91.43% 的搜索引擎市场份额。由于它是大多数人使�
 
 * * *
 
-第3部分
+第 3 部分
 
 ## 搜索引擎如何对页面进行排名
 
@@ -150,7 +150,7 @@ Google 占据 91.43% 的搜索引擎市场份额。由于它是大多数人使�
 
 * * *
 
-第4部分
+第 4 部分
 
 ## 搜索引擎如何对结果进行个性化处理
 

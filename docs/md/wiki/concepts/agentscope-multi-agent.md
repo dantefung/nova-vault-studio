@@ -14,9 +14,9 @@ source: "公众号"
 
 ## 关键洞察
 
-1. **spawn/send 把 agent 当函数调**——但这个"函数"有自己的会话和状态，可 persistSession 复用。
+1. **spawn/send 把 agent 当函数调**——但这个“函数”有自己的会话和状态，可 persistSession 复用。
 
-2. **超时晋升是最值得抄的设计**——超时不取消，收编为后台任务（AdoptedTaskRunSpec），异步算完推回 inbox + 唤醒父 agent。多数场景"收编 + 异步唤醒"体验最好，别无脑 kill。
+2. **超时晋升是最值得抄的设计**——超时不取消，收编为后台任务（AdoptedTaskRunSpec），异步算完推回 inbox + 唤醒父 agent。多数场景“收编 + 异步唤醒”体验最好，别无脑 kill。
 
 3. **子事件并入父流**——通过 FORWARDING_CONTEXT_KEY 实时转发，自动补发 AgentStart/End，打 source 路径标记。前端看到一条连贯的父子流。
 

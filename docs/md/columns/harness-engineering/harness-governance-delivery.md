@@ -78,7 +78,7 @@ url: "https://mp.weixin.qq.com/s/wlhpdeRRuwD56dKwhSlEaA"
 
 向下，组织和团队目标被转化为任务边界、验收条件、上下文、工具与规则，由 Agent 完成计划、执行、验证和恢复；向上，真实产物经过自动验证或人工验收后形成任务证据，并将反复验证有效的方法沉淀为 Skill、MCP、Hook、规则或任务模板，为团队复用和组织决策提供依据。
 
-这也是Better Harness Dashboard想做的事情，尝试把分散的 Agent 执行记录转化为可观察的任务反馈，以降低人与 Agent 的摩擦，从而让组织减少 token/credits 的浪费，以放在更有价值的任务上。
+这也是 Better Harness Dashboard 想做的事情，尝试把分散的 Agent 执行记录转化为可观察的任务反馈，以降低人与 Agent 的摩擦，从而让组织减少 token/credits 的浪费，以放在更有价值的任务上。
 
 目前，Dashboard 已能跨项目查看 Skill、MCP、模型、Token 和工具调用等活动，帮助个人和团队识别能力是否被使用、使用发生在哪些阶段，以及是否存在异常消耗或执行摩擦。
 

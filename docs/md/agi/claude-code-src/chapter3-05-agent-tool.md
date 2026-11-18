@@ -157,7 +157,7 @@ AgentTool 支持创建不同类型的子代理：
 
 ## 权限 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/agent-tool.html#%E6%9D%83%E9%99%90)
 
-*   `isReadOnly()` = `false`（子 Agent 可能执行写操作）
-*   `isDestructive()` = 取决于子 Agent 的工具集
-*   `isConcurrencySafe()` = `false`
-*   子 Agent 继承父级权限模式
+* `isReadOnly()` = `false`（子 Agent 可能执行写操作）
+* `isDestructive()` = 取决于子 Agent 的工具集
+* `isConcurrencySafe()` = `false`
+* 子 Agent 继承父级权限模式

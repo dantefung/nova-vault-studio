@@ -38,4 +38,4 @@ date: "2026-05-09"
 ## Sources
 
 - docs/md/guide/openclaw/00-阅读指南.md
-- docs/md/guide/openclaw/01-OpenClaw项目介绍.md
+- docs/md/guide/openclaw/01-OpenClaw 项目介绍.md

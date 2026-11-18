@@ -21,32 +21,32 @@ The worker node(s) host the Pods that are the components of the application work
 
 ## Control Plane Components
 
-*   **API Server**
+* **API Server**
 
     The API server talks to all the components in the k8s cluster. All the operations on pods are executed by talking to the API server.
 
-*   **Scheduler**
+* **Scheduler**
 
     The scheduler watches the workloads on pods and assigns loads on newly created pods.
 
-*   **Controller Manager**
+* **Controller Manager**
 
     The controller manager runs the controllers, including Node Controller, Job Controller, EndpointSlice Controller, and ServiceAccount Controller.
 
-*   **etcd**
+* **etcd**
 
     etcd is a key-value store used as Kubernetes' backing store for all cluster data.
 
 ## Nodes
 
-*   **Pods**
+* **Pods**
 
     A pod is a group of containers and is the smallest unit that k8s administers. Pods have a single IP address applied to every container within the pod.
 
-*   **Kubelet**
+* **Kubelet**
 
     An agent that runs on each node in the cluster. It ensures containers are running in a Pod. \[1]
 
-*   **Kube Proxy**
+* **Kube Proxy**
 
     kube-proxy is a network proxy that runs on each node in your cluster. It routes traffic coming into a node from the service. It forwards requests for work to the correct containers.

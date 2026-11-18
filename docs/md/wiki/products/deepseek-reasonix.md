@@ -48,7 +48,7 @@ reasonix update            # 升级
 
 ## 横向对比
 
-|  | Reasonix | Claude Code | Cursor | Aider |
+| | Reasonix | Claude Code | Cursor | Aider |
 |---|---|---|---|---|
 | 后端 | **DeepSeek** | Anthropic | OpenAI/Anthropic | 任意 |
 | 协议 | **MIT** | 闭源 | 闭源 | Apache 2 |

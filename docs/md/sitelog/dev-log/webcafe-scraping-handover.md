@@ -27,15 +27,15 @@ url: ""
 
 | 专栏 | Slug | 文章数 |
 |------|------|--------|
-| 20260719-北京分享会PPT | hf2xgbziiq | 5 |
+| 20260719-北京分享会 PPT | hf2xgbziiq | 5 |
 | 20260719-北京分享交流会 | rj9c8xy5xh | 7 |
-| 20260704-深圳分享会PPT | udqi4hod3n | 9 |
+| 20260704-深圳分享会 PPT | udqi4hod3n | 9 |
 | 20260704-深圳分享交流会 | z396x14ftc | 16 |
 | 20260614-上海分享交流会 | bzxu3zsloz | 6 |
 | 新手 Google Ads 广告入门 by 冉云 | znjb3b1fuu | 3 |
 | 每日群聊总结 | 9etu3jiony | 20 |
-| 2025年度网站比赛颁奖直播 | 0ayip3cxb2 | 20 |
-| 20251213-深圳分享会PPT | f9agwsqb1i | 2 |
+| 2025 年度网站比赛颁奖直播 | 0ayip3cxb2 | 20 |
+| 20251213-深圳分享会 PPT | f9agwsqb1i | 2 |
 | 20251213-深圳分享交流会 | 3c5byu0q0y | 0 (PPT only) |
 | 哥飞案例拆解 | o3s8xl2e1s | 0 (PPT only) |
 | 小游戏站赚美元攻略 | yh53rz2lge | 0 (PPT only) |
@@ -55,7 +55,7 @@ url: ""
 | 直播回放 | m2lsalydsh | 13 |
 | 哥飞公众号归档 | ww4r3rsllv | 34 |
 | 哥飞小课堂归档 | 3gbdqdqy0h | 83 |
-| 20241221深圳年终分享交流会 | ee7jh6we01 | 10 |
+| 20241221 深圳年终分享交流会 | ee7jh6we01 | 10 |
 | 公司经营 | oaczaw6uwu | 1 |
 | 广告投放 | o1ck3p6vvr | 13 |
 | Adsense | gs14JnqKBzrvwHcGT5d5pR | 7 |
@@ -113,7 +113,7 @@ Web.Cafe 使用 Cloudflare Turnstile 保护文章详情页。访问 `/tutorial/d
 
 使用 Chrome DevTools Protocol（CDP）的 `chrome-devtools_*` 工具，操作已有的浏览器标签页。具体流程：
 
-1. 在 `/tutorials` 页面的"教程专栏"标签下获取所有专栏链接
+1. 在 `/tutorials` 页面的“教程专栏”标签下获取所有专栏链接
 2. 点击专栏进入 `/tutorial/{slug}`（不触发 Turnstile）
 3. 在专栏页点击某篇文章进入 `/tutorial/detail/{uid}`（利用已有 session 通过 Turnstile）
 4. 用 `evaluate_script` 提取 `document.querySelector('.prose')?.innerText` 和所有图片 URL
@@ -184,7 +184,7 @@ type: "text"
 
 ### 现象
 
-使用 `chrome-devtools_*` 工具时，导航到 web.cafe 显示"本文登录后可见"弹窗，无法访问文章。
+使用 `chrome-devtools_*` 工具时，导航到 web.cafe 显示“本文登录后可见”弹窗，无法访问文章。
 
 ### 原因
 

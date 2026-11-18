@@ -19,21 +19,21 @@ The terms we use when discussing blocking and non-blocking algorithms can be con
 
 ## Blocking vs Non-Blocking Algorithms
 
-*   **Blocking**
+* **Blocking**
 
     The blocking algorithm uses locks. Thread A acquires the lock first, and Thread B might wait for arbitrary lengthy periods if Thread A gets suspended while holding the lock. This algorithm may cause Thread B to starve.
 
-*   **Non-blocking**
+* **Non-blocking**
 
     The non-blocking algorithm allows Thread A to access the queue, but Thread A must complete a task in a certain number of steps. Other threads like Thread B may still starve due to the rejections.
 
 This is the main **difference** between blocking and non-blocking algorithms: The blocking algorithm blocks Thread B until the lock is released. A non-blocking algorithm notifies Thread B that access is rejected.
 
-*   **Starvation-free**
+* **Starvation-free**
 
     Thread Starvation means a thread cannot acquire access to certain shared resources and cannot proceed. Starvation-free means this situation does not occur.
 
-*   **Wait-free**
+* **Wait-free**
 
     All threads can complete the tasks within a finite number of steps.
 
@@ -45,6 +45,6 @@ We can use Compare and Swap (CAS) to implement a non-blocking queue. The diagram
 
 ## Benefits
 
-1.  No thread suspension. Thread B can get a response immediately and then decide what to do next. In this way, the thread latency is greatly reduced.
+1. No thread suspension. Thread B can get a response immediately and then decide what to do next. In this way, the thread latency is greatly reduced.
 
-2.  No deadlocks. Threads A and B do not wait for the lock to release, meaning that there is no possibility of a deadlock occurring.
+2. No deadlocks. Threads A and B do not wait for the lock to release, meaning that there is no possibility of a deadlock occurring.

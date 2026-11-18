@@ -12,7 +12,7 @@ created: 2026-06-03
 
 ## 七大工具
 
-Pensieve 提供七个职责分明的工具，每个工具有明确的边界——"负责什么"和"不负责什么"。
+Pensieve 提供七个职责分明的工具，每个工具有明确的边界——“负责什么”和“不负责什么”。
 
 ### init — 初始化
 
@@ -32,7 +32,7 @@ bash "${PENSIEVE_SKILL_ROOT:-$HOME/.claude/skills/pensieve}/.src/scripts/init-pr
 init 完成后会：
 1. 读取 `pipelines/run-when-reviewing-code.md`
 2. 基于最近 commit 和热点文件探索
-3. 产出"待持久化候选"列表，但不自动写入
+3. 产出“待持久化候选”列表，但不自动写入
 4. 提醒用户运行 doctor 验证
 
 ### upgrade — 刷新源码
@@ -88,7 +88,7 @@ git pull --ff-only || { git fetch origin && git reset --hard "origin/$(git rev-p
 - 发现了 bug 根因
 - 做出了架构/设计决策
 - 发现了新模式或反模式
-- 探索产出了"症状 → 根因 → 定位"映射
+- 探索产出了“症状 → 根因 → 定位”映射
 - 澄清了边界、归属或约束
 - 发现了系统中不存在/已废弃的能力
 
@@ -212,14 +212,14 @@ SKILL.md 作为路由入口，根据关键词将请求分发到正确工具：
 
 | 用户请求 | 正确工具 |
 |---------|---------|
-| "怎么安装/重装 Pensieve？" | 读 `skill-lifecycle.md` → `init` |
-| "升级 Pensieve" | `upgrade` |
-| "怎么更新？" | 读 `skill-lifecycle.md` → `upgrade` |
-| "迁移到 v2 / 清理旧路径" | `migrate` |
-| "检查数据有没有问题" | `doctor` |
-| "捕获这个经验" | `self-improve` |
-| "整理/去重/压缩知识" | `refine` |
-| "把 pipeline 写入 CLAUDE.md" | `sync-instructions` |
+| “怎么安装/重装 Pensieve？" | 读 `skill-lifecycle.md` → `init` |
+| ”升级 Pensieve" | `upgrade` |
+| “怎么更新？" | 读 `skill-lifecycle.md` → `upgrade` |
+| ”迁移到 v2 / 清理旧路径“ | `migrate` |
+| ”检查数据有没有问题“ | `doctor` |
+| ”捕获这个经验“ | `self-improve` |
+| ”整理/去重/压缩知识“ | `refine` |
+| ”把 pipeline 写入 CLAUDE.md" | `sync-instructions` |
 
 ## 下一步
 

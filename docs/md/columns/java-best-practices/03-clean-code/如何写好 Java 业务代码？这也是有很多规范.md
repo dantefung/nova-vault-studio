@@ -21,8 +21,8 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 如上的开发流程有几个弊端，如下：
 
-1.  业务代码重复，在不同的 service 实现中，业务相似的话会有大量重复代码。
-2.  数据库表结构的改动需要修改所有涉及到的 dao 层，维护成本比较高。
+1. 业务代码重复，在不同的 service 实现中，业务相似的话会有大量重复代码。
+2. 数据库表结构的改动需要修改所有涉及到的 dao 层，维护成本比较高。
 
 此类相似业务，api 层定义各自**显示对象**，dao 层负责获取**全量数据（例如，用户查询，就获取整个用户表字段的数据）**，service 层定义**业务对象**，根据不同 api 不同业务类型的判断，根据 dao 查询的数据组转业务对象，以及业务对象向 api 显示对象的转换。开发流程如图：
 
@@ -30,17 +30,17 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 这样的开发模式有如下优势：
 
-1.  业务代码集中在 service 层，专注业务对象 bo 的封装，以及业务对象向给类显示层 vo 的转换；封装复用逻辑，可以大量减少重复代码。如果，设计模式从一开始就设计得易扩展，后期维护就快捷的多。
-2.  数据库的改动只涉及到 db 层，能够快速的在各个业务响应。
+1. 业务代码集中在 service 层，专注业务对象 bo 的封装，以及业务对象向给类显示层 vo 的转换；封装复用逻辑，可以大量减少重复代码。如果，设计模式从一开始就设计得易扩展，后期维护就快捷的多。
+2. 数据库的改动只涉及到 db 层，能够快速的在各个业务响应。
 
 ### **业务代码如何拒绝 All in one？**
 
 以上的 controller 代码最突出的缺点就是代码完全无法复用，完全没有使用到面向对象封装，集成，多态的特性。业务开发中，一般都是权限校验，参数校验，业务判断，业务对象转换数据库操作。我的做法是业务抽象，把公共代码进行抽取，通过配置的形式的方式调用，使业务代码可以以可插拔的方式选择指定的权限校验，参数校验。简单来说，就是善用 AOP 面向切面编程的思想，示例如下：
 
-*   权限校验：使用 aop 对权限校验逻辑进行抽取，能够通过注解的方式指定哪些 controller 需要进行权限校验。对用户进行数据过滤时，使用 controller 的拦截器获取该用户拥有的各类权限，并把用户数据保存在上下文 threadloal 中，并且通过配置对指定 url 进行拦截。在业务层，从上下文拿到用户权限数据做各类数据业务过滤，通过 aop 实现各类拦截业务的指定调用。 
-*   参数校验：使用 java validtion 对通用的字段，例如电话号码，身份证，进行扩展，详细可以参考，[如何使用 validation 校验参数？](https://blog.csdn.net/new_com/article/details/110391773)，在项目中其他类似校验进行复用。
-*   业务判断：使用设计模式对不同类型的业务开发进行封装，集成，多态扩展；这样在后期的扩展中可以基于开发封闭原则，针对新的业务扩展子类即可。
-*   业务对象转换数：业务开发过程中，依照阿里巴巴研发规范的要求，存在 DO(数据库表结构一致的对象)，BO（业务对象）,DTO(数据传输对象)，VO（显示层对象），Query（查询对象）。使用 [MapStruct](https://blog.csdn.net/zhige_me/article/details/80699784)，可以灵活的控制的不同属性值之间的转换规格，比 org.springframework.beans.BeanUtils.copyProperties() 方法更加灵活。示例：
+* 权限校验：使用 aop 对权限校验逻辑进行抽取，能够通过注解的方式指定哪些 controller 需要进行权限校验。对用户进行数据过滤时，使用 controller 的拦截器获取该用户拥有的各类权限，并把用户数据保存在上下文 threadloal 中，并且通过配置对指定 url 进行拦截。在业务层，从上下文拿到用户权限数据做各类数据业务过滤，通过 aop 实现各类拦截业务的指定调用。 
+* 参数校验：使用 java validtion 对通用的字段，例如电话号码，身份证，进行扩展，详细可以参考，[如何使用 validation 校验参数？](https://blog.csdn.net/new_com/article/details/110391773)，在项目中其他类似校验进行复用。
+* 业务判断：使用设计模式对不同类型的业务开发进行封装，集成，多态扩展；这样在后期的扩展中可以基于开发封闭原则，针对新的业务扩展子类即可。
+* 业务对象转换数：业务开发过程中，依照阿里巴巴研发规范的要求，存在 DO(数据库表结构一致的对象)，BO（业务对象）,DTO(数据传输对象)，VO（显示层对象），Query（查询对象）。使用 [MapStruct](https://blog.csdn.net/zhige_me/article/details/80699784)，可以灵活的控制的不同属性值之间的转换规格，比 org.springframework.beans.BeanUtils.copyProperties() 方法更加灵活。示例：
 
 ```
 public interface CategoryConverter {
@@ -57,8 +57,8 @@ public interface CategoryConverter {
 }
 ```
 
-*   DB 数据库公共字段填充，例如，公共字段，生成日期，创建人，修改时间，修改人使用插件的形式进行封装，在 mybatis-plus 中使用 MetaObjectHandler，在执行 sql 之前完成统一字段值的填充。
-*   业务平台字段查询过滤：在中台的开发中，数据采用不同平台 code 的列实现不同平台业务数据的隔离。基于 mybatis 插件机制的多租户过滤机制实现可以参考[如何使用 MyBatis 的 plugin 插件实现多租户的数据过滤？](https://blog.csdn.net/new_com/article/details/106693726)。在 dao 层的方法或者接口上加上自定义过滤条件即可，示例如下：
+* DB 数据库公共字段填充，例如，公共字段，生成日期，创建人，修改时间，修改人使用插件的形式进行封装，在 mybatis-plus 中使用 MetaObjectHandler，在执行 sql 之前完成统一字段值的填充。
+* 业务平台字段查询过滤：在中台的开发中，数据采用不同平台 code 的列实现不同平台业务数据的隔离。基于 mybatis 插件机制的多租户过滤机制实现可以参考[如何使用 MyBatis 的 plugin 插件实现多租户的数据过滤？](https://blog.csdn.net/new_com/article/details/106693726)。在 dao 层的方法或者接口上加上自定义过滤条件即可，示例如下：
 
 ```
 @Mapper
@@ -69,7 +69,7 @@ public interface ProductDao extends BaseMapper<Product> {
 }
 ```
 
-*   缓存的使用：Spring 开发中通常集成 spring cache 使用以注解的形式使用缓存。整合 redis 并且自定义默认时间设置可以参考（[Spring Cache+redis 自定义缓存过期时间](https://blog.csdn.net/new_com/article/details/104303855)）。示例如下：
+* 缓存的使用：Spring 开发中通常集成 spring cache 使用以注解的形式使用缓存。整合 redis 并且自定义默认时间设置可以参考（[Spring Cache+redis 自定义缓存过期时间](https://blog.csdn.net/new_com/article/details/104303855)）。示例如下：
     
     ```
     /**
@@ -101,7 +101,7 @@ public interface ProductDao extends BaseMapper<Product> {
 
 ### 项目如何做好**代码注释？**
 
-*   枚举类的使用：在业务中特别是状态的值，在对外发布 api 的 vo 对象中，加上状态枚举值的注释，并且使用 @link 注解，可以直接连接到枚举类，让开发者一目了然。示例如下：
+* 枚举类的使用：在业务中特别是状态的值，在对外发布 api 的 vo 对象中，加上状态枚举值的注释，并且使用 @link 注解，可以直接连接到枚举类，让开发者一目了然。示例如下：
 
 ```
 public class ProductVo implements Serializable {   /**
@@ -113,7 +113,7 @@ public class ProductVo implements Serializable {   /**
 }
 ```
 
-*   迁移 sql 查询条件：避免在 sql 层写固定的通用的过滤条件，迁移到服务层做处理。示例如下：
+* 迁移 sql 查询条件：避免在 sql 层写固定的通用的过滤条件，迁移到服务层做处理。示例如下：
 
 ```
 // sql 查询条件
@@ -137,7 +137,7 @@ public PageData<ProductVo> findCustPage（Query query ）{
 
 ### 加分项的规范
 
-*   乐观锁与悲观锁的使用
+* 乐观锁与悲观锁的使用
 
 乐观锁 ([使用 Spring AOP + 注解基于 CAS 方式实现 java 的乐观锁](https://blog.csdn.net/new_com/article/details/103834871)) 设置重试次数以及重试时间，在简单的对象属性修改使用乐观锁，示例如下：
 
@@ -180,7 +180,7 @@ public void updateProduct(Long id,ProductUpdateDto dto){
 }
 ```
 
-*   读写分离的使用
+* 读写分离的使用
 
 开发中，经常使用 mybatisplus 实现读写分离。常规的查询操作，就走从库查询，查询请求可以不加数据库事务，例如列表查询，示例如下：
 
@@ -225,7 +225,7 @@ boolean status = transactionTemplate.execute(new TransactionCallback<Boolean>() 
 }
 ```
 
-*   数据库自动给容灾
+* 数据库自动给容灾
 
 结合配置中心，简单实现数据库的自动容灾。以 nacous 配置中心为例，[如何使用 Nacos 实现数据库连接的自动切换？](https://blog.csdn.net/new_com/article/details/108152630)。在 springboot 启动类加上 @EnableNacosDynamicDataSource 配置注解，即可无侵入的实现数据库连接的动态切换，示例如下 ':
 
@@ -240,7 +240,7 @@ public class ProductApplication {
 }
 ```
 
-*   测试用例的编写
+* 测试用例的编写
 
 基于 TDD 的原则，结合 junit 和 mockito 实现服务功能的测试用例，[为什么要写单元测试？基于 junit 如何写单元测试？](https://blog.csdn.net/new_com/article/details/116098959)。添加或者修改对象时，需要校验入参的有效性，并且校验操作以后的对象的各类属性。以添加类目的 api 测试用例为例，如下，添加类别，成功后，校验添加参数以及添加成功后的属性，以及其他默认字段例如状态，排序等字段，源码如下：
 

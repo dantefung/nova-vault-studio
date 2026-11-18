@@ -5,7 +5,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/G2YKmrvVUJnXbltdqIVm3g"
 ---
 
-# Agent之：后台任务
+# Agent 之：后台任务
 
 后台任务就是将一个待执行任务放在后台去执行，而主流程可以继续做剩下的事情。适合耗时且不依赖其他任务的操作，实现并行处理。
 
@@ -104,7 +104,7 @@ def agent_loop(messages: list):
 
 ## 相关章节
 
-- [Agent之：任务系统](/md/columns/agentic-engineer/)
-- [Agent之：错误恢复机制](/md/columns/agentic-engineer/)
-- [Agent之：系统提示词](/md/columns/agentic-engineer/)
-- [Agent之：记忆系统](/md/columns/agentic-engineer/)
+- [Agent 之：任务系统](/md/columns/agentic-engineer/)
+- [Agent 之：错误恢复机制](/md/columns/agentic-engineer/)
+- [Agent 之：系统提示词](/md/columns/agentic-engineer/)
+- [Agent 之：记忆系统](/md/columns/agentic-engineer/)

@@ -332,8 +332,8 @@ System Prompt:
 ## 十、参考资料
 
 - [腾讯优图 RAG 技术的架构设计与创新实践](https://www.53ai.com/news/RAG/2025090859432) — 腾讯优图实验室 2025
-- [从0到1打造RAG智能客服](https://cloud.baidu.com/article/5128997) — 百度云 2025
-- [打破RAG局限：意图+语义双检索框架 CID-GraphRAG](https://www.53ai.com/news/RAG/2025092492875.html) — 53AI
+- [从 0 到 1 打造 RAG 智能客服](https://cloud.baidu.com/article/5128997) — 百度云 2025
+- [打破 RAG 局限：意图+语义双检索框架 CID-GraphRAG](https://www.53ai.com/news/RAG/2025092492875.html) — 53AI
 - [GraphRAG：以图为骨、索引为脉、查询为刃](https://cloud.tencent.com/developer/article/2598478) — 腾讯云开发者社区
-- [智能客服革命：从RAG到GraphRAG](https://devpress.csdn.net/v1/article/detail/155108758) — DevPress
-- [RAGFlow实战：零代码搭建高可用AI客服知识库系统](https://cloud.baidu.com/article/5311883) — 百度云
+- [智能客服革命：从 RAG 到 GraphRAG](https://devpress.csdn.net/v1/article/detail/155108758) — DevPress
+- [RAGFlow 实战：零代码搭建高可用 AI 客服知识库系统](https://cloud.baidu.com/article/5311883) — 百度云

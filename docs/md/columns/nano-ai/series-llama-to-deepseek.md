@@ -27,7 +27,7 @@ description: "2 篇 · MLA / 解耦 RoPE"
 
 
   2. 
-[02解耦 RoPE（MLA 下）](/articles/mla-decoupled-rope/)
+[02 解耦 RoPE（MLA 下）](/articles/mla-decoupled-rope/)
 
 
 

@@ -23,11 +23,11 @@ Claude Code 实现了完整的 MCP (Model Context Protocol) 客户端，管理�
 
 MCP 服务器配置从 **多层** 来源合并（优先级从低到高）：
 
-1.   **用户级配置** (`~/.claude/settings.json` 中的 `mcpServers`)
-2.   **项目级配置** (`.claude/settings.json` 中的 `mcpServers`)
-3.   **企业托管配置** (远程托管设置中的 `mcpServers`)
-4.   **环境变量** (`CLAUDE_MCP_SERVERS` JSON)
-5.   **CLI 参数** (命令行指定的 MCP 服务器)
+1. **用户级配置** (`~/.claude/settings.json` 中的 `mcpServers`)
+2. **项目级配置** (`.claude/settings.json` 中的 `mcpServers`)
+3. **企业托管配置** (远程托管设置中的 `mcpServers`)
+4. **环境变量** (`CLAUDE_MCP_SERVERS` JSON)
+5. **CLI 参数** (命令行指定的 MCP 服务器)
 
 合并策略：后来者覆盖同名服务器。配置加载通过内部设置加载机制实现，非单独的 `loadSettings('global')` 函数。
 

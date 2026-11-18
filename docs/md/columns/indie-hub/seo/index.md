@@ -24,13 +24,13 @@ date: "2026-07-20"
 | 3 | [哥飞进阶教程](./webcafe-advanced/index.md) | 实战教程、出海工具站 |
 | 4 | [哥飞需求挖掘教程](./webcafe-demand/index.md) | 需求挖掘、出海赚钱 |
 | 5 | [哥飞上站与推广教程](./webcafe-ship/index.md) | 上站推广、谷歌搜索排名 |
-| 6 | [哥飞SEO小课堂](./webcafe-xiaoketang/index.md) | 关键词选择、落地页迭代 |
+| 6 | [哥飞 SEO 小课堂](./webcafe-xiaoketang/index.md) | 关键词选择、落地页迭代 |
 | 4.12 | [域名购买与管理](./building/) | 域名、Namesilo、Cloudflare |
 | 8 | [网站分析与关键词挖掘专题](./keyword-analysis/) | 关键词挖掘全系列：指标体系/工具流程/实战案例/外链策略/新词比赛 |
-| 9 | [账号矩阵引流与新人力作](./keyword-analysis/keyword-account-matrix-strategy.md) | 结果账号矩阵、Reyn冷启动、诗意听涛时间线、金鱼Evan跑起来、跨案例共性 |
-| 10 | [执行力才是真正的护城河](./keyword-analysis/keyword-execution-density.md) | Momozolo第一名心法、袁骏半年3K刀复盘、国际范～执行密度觉醒 |
-| 11 | [从方向迷茫到系统能力的成长弧线](./keyword-analysis/keyword-growth-arc.md) | 金鱼Evan跑通流程、Reyn多维失败、诗意听涛发现社群、Liran413工具红利变薄 |
-| 12 | [核心转折点全部突破](./keyword-analysis/keyword-breakthrough-round-15.md) | Reyn多Agent翻车、诗意听涛第三阶段起步、金鱼Evan完整转型弧线、Liran413 SEO=市场研究方法 |
+| 9 | [账号矩阵引流与新人力作](./keyword-analysis/keyword-account-matrix-strategy.md) | 结果账号矩阵、Reyn 冷启动、诗意听涛时间线、金鱼 Evan 跑起来、跨案例共性 |
+| 10 | [执行力才是真正的护城河](./keyword-analysis/keyword-execution-density.md) | Momozolo 第一名心法、袁骏半年 3K 刀复盘、国际范～执行密度觉醒 |
+| 11 | [从方向迷茫到系统能力的成长弧线](./keyword-analysis/keyword-growth-arc.md) | 金鱼 Evan 跑通流程、Reyn 多维失败、诗意听涛发现社群、Liran413 工具红利变薄 |
+| 12 | [核心转折点全部突破](./keyword-analysis/keyword-breakthrough-round-15.md) | Reyn 多 Agent 翻车、诗意听涛第三阶段起步、金鱼 Evan 完整转型弧线、Liran413 SEO=市场研究方法 |
 | 13 | [找新词：一个永远有效的建站策略](./keyword-analysis/find-new-words-always-effective-strategy.md) | 找新词、新词判断标准、竞争度评估 |
 | 14 | [哥飞教你一招判断关键词出现时间](./keyword-analysis/judge-keyword-appearance-time.md) | 关键词出现时间、谷歌结果数、时间筛选命令 |
 
@@ -49,11 +49,11 @@ date: "2026-07-20"
 - [SEO FAQ](./seo-faq/) — 常见问题
   - [游戏站 SEO](./seo-faq/game-site.md) — 游戏站建设
   - [游戏站完整操作指南](./seo-faq/game-site-guide.md) — 找词/建站/变现完整攻略
-  - [游戏站深度补充](./seo-faq/game-site-advanced.md) — Adsense养号/冠军SOP/域名抢注
-  - [游戏站深度补充（阶段三）](./seo-faq/game-site-phase3.md) — 资源获取/TikTok找词/一小时建站
-  - [如何找关键词](./seo-faq/keyword.md) — 9渠道+7步筛选
+  - [游戏站深度补充](./seo-faq/game-site-advanced.md) — Adsense 养号/冠军 SOP/域名抢注
+  - [游戏站深度补充（阶段三）](./seo-faq/game-site-phase3.md) — 资源获取/TikTok 找词/一小时建站
+  - [如何找关键词](./seo-faq/keyword.md) — 9 渠道+7 步筛选
   - [可以做什么类型的站](./seo-faq/site-types.md) — 内容站/工具站/变现
 
 ### 社群动态
 
-- [哥飞社群每日群聊总结](./community-recap/) — 2026年7月社群每日精华
+- [哥飞社群每日群聊总结](./community-recap/) — 2026 年 7 月社群每日精华

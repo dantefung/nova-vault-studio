@@ -17,7 +17,7 @@ date: "2026-05-24"
 在 Comet 项目中与 Superpowers 组合使用：
 - OpenSpec 管归档能力
 - Superpowers 管 TDD 驱动执行
-- 两者组合实现"需求 → 归档 Spec → TDD → 实现验证"全流程
+- 两者组合实现“需求 → 归档 Spec → TDD → 实现验证”全流程
 
 ## Resources
 

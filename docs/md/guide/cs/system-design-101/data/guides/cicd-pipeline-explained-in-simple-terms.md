@@ -29,16 +29,16 @@ Continuous Delivery (CD) automates release processes like infrastructure changes
 
 A typical CI/CD pipeline has several connected stages:
 
-*   Developer commits code changes to source control
+* Developer commits code changes to source control
 
-*   CI server detects changes and triggers build
+* CI server detects changes and triggers build
 
-*   Code is compiled, tested (unit, integration tests)
+* Code is compiled, tested (unit, integration tests)
 
-*   Test results reported to developer
+* Test results reported to developer
 
-*   On success, artifacts are deployed to staging environments
+* On success, artifacts are deployed to staging environments
 
-*   Further testing may be done on staging before release
+* Further testing may be done on staging before release
 
-*   CD system deploys approved changes to production
+* CD system deploys approved changes to production

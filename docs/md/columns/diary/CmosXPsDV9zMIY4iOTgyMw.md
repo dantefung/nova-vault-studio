@@ -20,7 +20,7 @@ url: "https://mp.weixin.qq.com/s/CmosXPsDV9zMIY4iOTgyMw"
 
 
 
-如小杨哥半年时间从零开始实现了$10K MRR这事。
+如小杨哥半年时间从零开始实现了$10K MRR 这事。
 
 
 
@@ -36,11 +36,11 @@ url: "https://mp.weixin.qq.com/s/CmosXPsDV9zMIY4iOTgyMw"
 
 
 
-更多的，几十K MRR的也有。
+更多的，几十 K MRR 的也有。
 
 
 
-当然，更少的，几K MRR的也有。
+当然，更少的，几 K MRR 的也有。
 
 
 
@@ -76,7 +76,7 @@ url: "https://mp.weixin.qq.com/s/CmosXPsDV9zMIY4iOTgyMw"
 
 
 
-昨天我还跟@Clara998泽佳 聊，我社群提供的价值绝对是N倍于学费的，大家能够只花一两千就学到这些，是因为社群其实是众筹模式，大家一起交钱，把学费门槛打下来了。
+昨天我还跟@Clara998 泽佳 聊，我社群提供的价值绝对是 N 倍于学费的，大家能够只花一两千就学到这些，是因为社群其实是众筹模式，大家一起交钱，把学费门槛打下来了。
 
 
 
@@ -104,7 +104,7 @@ url: "https://mp.weixin.qq.com/s/CmosXPsDV9zMIY4iOTgyMw"
 
 
 
-因为这些并不是哥飞独家的知识，会SEO的人很多，不一定要向哥飞学习，向别人学习也可以的。
+因为这些并不是哥飞独家的知识，会 SEO 的人很多，不一定要向哥飞学习，向别人学习也可以的。
 
 
 
@@ -120,7 +120,7 @@ url: "https://mp.weixin.qq.com/s/CmosXPsDV9zMIY4iOTgyMw"
 
 
 
-这个，我之前说过很多次了，SEO是实践的艺术，仅仅靠看，是看不会的，一定要下场实践，真的动手做起来，才能学会。
+这个，我之前说过很多次了，SEO 是实践的艺术，仅仅靠看，是看不会的，一定要下场实践，真的动手做起来，才能学会。
 
 
 

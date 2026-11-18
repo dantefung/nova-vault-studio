@@ -18,12 +18,12 @@ If your answer is on-premise servers and monolith, you would likely fail the int
 **What people think it should look like**
 The interviewer is probably expecting something on the left side.
 
-*   Microservice is used to decompose the system into small components.
-*   Each service has its own database. Use cache heavily.
-*   The service is sharded.
-*   The services talk to each other asynchronously through message queues.
-*   The service is implemented using Event Sourcing with CQRS.
-*   Showing off knowledge in distributed systems such as eventual consistency, CAP theorem, etc.
+* Microservice is used to decompose the system into small components.
+* Each service has its own database. Use cache heavily.
+* The service is sharded.
+* The services talk to each other asynchronously through message queues.
+* The service is implemented using Event Sourcing with CQRS.
+* Showing off knowledge in distributed systems such as eventual consistency, CAP theorem, etc.
 
 **What it actually is**
 Stack Overflow serves all the traffic with only 9 on-premise web servers, and it’s on monolith! It has its own servers and does not run on the cloud.

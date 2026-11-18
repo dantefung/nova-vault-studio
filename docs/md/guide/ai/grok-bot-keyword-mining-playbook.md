@@ -1,15 +1,15 @@
 # Grok Bot 自动化找词与热点新词监测方法论 SOP (Grok Memorial Protocol)
 
-> **文档定位**：实战指南。基于 xAI Grok 的推文全域实时数据嗅探能力，配合定时任务（Tasks）功能，构建全自动化的“每日热词/新词监测雷达”（俗称“Grok 上奏折”），实现零代码、低延迟的新需求捕获与出海建站决策闭环。  
-> **归档路径**：`vast-site-studio/docs/guide/grok-bot-keyword-mining-playbook.md`  
+> **文档定位**：实战指南。基于 xAI Grok 的推文全域实时数据嗅探能力，配合定时任务（Tasks）功能，构建全自动化的“每日热词/新词监测雷达”（俗称“Grok 上奏折”），实现零代码、低延迟的新需求捕获与出海建站决策闭环。 
+> **归档路径**：`vast-site-studio/docs/guide/grok-bot-keyword-mining-playbook.md` 
 > **关联参考**：`vast-site-studio/docs/references/hz/indexes/hezhiyan7-outsea-oneyear-toc.md`、`vast-site-studio/docs/references/《哥飞实战手册》：海外工具站从 0 到月入万刀全流程指南.md`
 
 ---
 
 ## 目录
 1. [一、核心哲学与底层逻辑](#一核心哲学与底层逻辑)
-2. [二、Grok 定时监测任务配置 SOP（四步走）](#二grok-定时监测任务配置-sop四步走)
-3. [三、生产级提示词库（Prompt Templates）](#三生产级提示词库prompt-templates)
+2. [二、Grok 定时监测任务配置 SOP（四步走）](#二 grok-定时监测任务配置-sop 四步走)
+3. [三、生产级提示词库（Prompt Templates）](#三生产级提示词库 prompt-templates)
 4. [四、从“奏折”到“上线”的四步验证闭环](#四从奏折到上线的四步验证闭环)
 5. [五、避坑准则与好品味原则](#五避坑准则与好品味原则)
 

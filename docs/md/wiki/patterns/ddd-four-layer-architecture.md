@@ -3,7 +3,7 @@ title: "DDD四层架构（微服务样板）"
 date: "2026-06-11"
 ---
 
-# DDD四层架构（微服务样板）
+# DDD 四层架构（微服务样板）
 
 > 全栈工程：Java 11 / Spring Boot 后端 + Vite + Vue 3 前端，DDD 四层架构（adapter → application → domain ← infrastructure）
 
@@ -39,7 +39,7 @@ date: "2026-06-11"
 | **adapter** | 对外适配层（Controller/MQ listener），协议转换 + 参数校验 |
 | **application** | 用例编排层（AppService），组合 domain 行为、管理事务边界 |
 | **domain** | 领域模型层，承载业务不变量与状态机 |
-| **infrastructure** | 基础设施层（DB/外部API/缓存/锁） |
+| **infrastructure** | 基础设施层（DB/外部 API/缓存/锁） |
 
 依赖方向：`adapter → application → domain ← infrastructure`
 

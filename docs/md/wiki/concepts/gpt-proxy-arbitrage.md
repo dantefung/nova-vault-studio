@@ -5,18 +5,18 @@ source: "wiki-ingest"
 ---
 
 ---
-title: "ChatGPT代充原理：区域定价套利"
+title: "ChatGPT 代充原理：区域定价套利“
 date: "2026-10-14"
 source: "wiki-ingest"
 ---
 
-# ChatGPT代充原理：区域定价套利
+# ChatGPT 代充原理：区域定价套利
 
-> ChatGPT在不同国家/地区有不同价格策略，代充的核心逻辑是低价区账户帮高价区用户付费订阅，赚取差价。
+> ChatGPT 在不同国家/地区有不同价格策略，代充的核心逻辑是低价区账户帮高价区用户付费订阅，赚取差价。
 
 ## 利润来源
 
-ChatGPT开通订阅需要国外信用卡，国内99.9%的人无法直接充值。同时，ChatGPT的区域定价差异产生了套利空间：
+ChatGPT 开通订阅需要国外信用卡，国内 99.9%的人无法直接充值。同时，ChatGPT 的区域定价差异产生了套利空间：
 
 | 套餐 | 菲区（USD） | 智利区（USD） |
 |------|------------|--------------|
@@ -44,4 +44,4 @@ Session 是 ChatGPT 的 token 凭证，包含已登录用户的认证信息，�
 
 ## Sources
 
-- Raco《ChatGPT代充副业新手完整指南》：x.com/0xraco/status/2110310125609144512
+- Raco《ChatGPT 代充副业新手完整指南》：x.com/0xraco/status/2110310125609144512

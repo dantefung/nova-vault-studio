@@ -3,20 +3,20 @@ title: "Personal AI Infrastructure（PAI 个人AI操作系统）"
 date: "2026-06-11"
 ---
 
-# Personal AI Infrastructure（PAI 个人AI操作系统）
+# Personal AI Infrastructure（PAI 个人 AI 操作系统）
 
 > Agentic AI Infrastructure for magnifying HUMAN capabilities. A Life Operating System that captures who you are, what you care about, and where you're trying to go — and then helps you get there using AI that knows you.
 
 ## Key Points
 
 - **核心定位**：Personal AI Infrastructure = 个人 AI 操作系统，不只是 AI 脚手架
-- **三层架构**：PAI（OS本身）+ Pulse（Life Dashboard）+ DA（Digital Assistant）
+- **三层架构**：PAI（OS 本身）+ Pulse（Life Dashboard）+ DA（Digital Assistant）
 - **核心原则**：Humans first, tech second；Life OS 而非 agent harness；Ideal State drives everything
 
 ## 核心功能
 
 - **Text over opaque storage** — 纯文本/Markdown，无 SQLite/PG 等不透明存储
-- **Filesystem as context, no RAG** — 2025年6月起放弃 RAG， 富文本+交叉引用+ripgrep 足够
+- **Filesystem as context, no RAG** — 2025 年 6 月起放弃 RAG， 富文本+交叉引用+ripgrep 足够
 - **Memory that compounds** — 三层（WORK/KNOWLEDGE/LEARNING）+ 人/公司/想法/研究类型图
 - **Self-improvement loop** — 显性评分/情感/验证结果/满意度信号
 - **The Algorithm** — 七阶段循环（OBSERVE→THINK→PLAN→BUILD→EXECUTE→VERIFY→LEARN）
@@ -51,7 +51,7 @@ curl -sSL https://ourpai.ai/install.sh | bash
 
 ## Related Pages
 
-- [patterns/personal-ai-infrastructure](patterns/personal-ai-infrastructure) — 个人AI基础设施模式
+- [patterns/personal-ai-infrastructure](patterns/personal-ai-infrastructure) — 个人 AI 基础设施模式
 
 ## Sources
 

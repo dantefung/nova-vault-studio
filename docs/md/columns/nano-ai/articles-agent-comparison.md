@@ -40,7 +40,7 @@ Comparison & Recap
 
 
 
-## 01总对照表
+## 01 总对照表
 
 
 
@@ -64,7 +64,7 @@ Comparison & Recap
 
 上下文 | 截断 → 清理 → 摘要 | 先清工具输出再摘要 | 服务端压缩 | 树形会话，历史不丢 | 未公开 | 只追加的事件日志 | 压缩前先存记忆
 
-说明与技能 | AGENTS.md + 只读技能 | 分层 CLAUDE.md + 技能 | AGENTS.md + 技能 | AGENTS.md + 技能 + 扩展 | 技能，可"教一遍" | 技能 + Creator | 自己总结技能
+说明与技能 | AGENTS.md + 只读技能 | 分层 CLAUDE.md + 技能 | AGENTS.md + 技能 | AGENTS.md + 技能 + 扩展 | 技能，可“教一遍” | 技能 + Creator | 自己总结技能
 
 渠道 | Telegram | 终端/IDE/桌面/网页/Slack/Channels | CLI/IDE/网页/桌面 | 终端/RPC/SDK | 桌面/iOS/X/Slack | 网页/桌面/无头/SDK/ACP | 6 个聊天平台
 
@@ -92,7 +92,7 @@ MCP | stdio 客户端 | 本地 + 远程，延迟加载 | 客户端 + 服务器 |
 
 
 
-## 02已经成了共识的五件事
+## 02 已经成了共识的五件事
 
 
 
@@ -118,7 +118,7 @@ MCP | stdio 客户端 | 本地 + 远程，延迟加载 | 客户端 + 服务器 |
 
 
 
-## 03还在分歧的四件事
+## 03 还在分歧的四件事
 
 
 
@@ -140,7 +140,7 @@ MCP | stdio 客户端 | 本地 + 远程，延迟加载 | 客户端 + 服务器 |
 
 
 
-**2\. 计划要多正式。** 从"一个 Markdown 文件"（Pi）到"一种权限模式，靠提示词约束"（Claude Code），再到"代码强制只读加审批"（nami-agent）。越正式越可靠，也越笨重。
+**2\. 计划要多正式。** 从“一个 Markdown 文件”（Pi）到“一种权限模式，靠提示词约束”（Claude Code），再到“代码强制只读加审批”（nami-agent）。越正式越可靠，也越笨重。
 
 
 
@@ -152,7 +152,7 @@ MCP | stdio 客户端 | 本地 + 远程，延迟加载 | 客户端 + 服务器 |
 
 
 
-## 04四条路线
+## 04 四条路线
 
 
 
@@ -178,7 +178,7 @@ MCP | stdio 客户端 | 本地 + 远程，延迟加载 | 客户端 + 服务器 |
 
 
 
-## 05全系列回顾
+## 05 全系列回顾
 
 
 
@@ -190,39 +190,39 @@ MCP | stdio 客户端 | 本地 + 远程，延迟加载 | 客户端 + 服务器 |
 
     第一部分：手写核心
 
-      agent.py         第 1 课起  主循环、Session；第 6 课起与 I/O 分离
+      agent.py 第 1 课起 主循环、Session；第 6 课起与 I/O 分离
 
-      tools.py         第 2 课    工具注册表、统一执行器
+      tools.py 第 2 课 工具注册表、统一执行器
 
-      permissions.py   第 3 课    硬规则 → 风险分级 → 确认；第 10 课加计划模式
+      permissions.py 第 3 课 硬规则 → 风险分级 → 确认；第 10 课加计划模式
 
-      context.py       第 4 课    截断 → 清理 → 摘要；会话持久化；状态目录
+      context.py 第 4 课 截断 → 清理 → 摘要；会话持久化；状态目录
 
-      skills.py        第 5 课    AGENTS.md 常驻，技能按需加载，技能只读
+      skills.py 第 5 课 AGENTS.md 常驻，技能按需加载，技能只读
 
-      telegram.py      第 6 课    长轮询渠道
+      telegram.py 第 6 课 长轮询渠道
 
-      bot.py           第 6 课    白名单、聊天确认、出错回滚
+      bot.py 第 6 课 白名单、聊天确认、出错回滚
 
-      scheduler.py     第 7 课    定时任务、心跳、无人值守的预授权
+      scheduler.py 第 7 课 定时任务、心跳、无人值守的预授权
 
 
 
     第二部分：主流能力
 
-      mcp_client.py    第 8 课    MCP 客户端
+      mcp_client.py 第 8 课 MCP 客户端
 
-      subagent.py      第 9 课    子 Agent，并行只读
+      subagent.py 第 9 课 子 Agent，并行只读
 
-      planning.py      第 10 课   待办清单、计划模式
+      planning.py 第 10 课 待办清单、计划模式
 
-      memory.py        第 11 课   长期记忆、会话检索
+      memory.py 第 11 课 长期记忆、会话检索
 
 
 
     第三部分：拆解主流 Agent
 
-      第 12–17 课     Claude Code、Codex、Pi、Grok Bot、DeepSeek Harness、OpenClaw 与 Hermes
+      第 12–17 课 Claude Code、Codex、Pi、Grok Bot、DeepSeek Harness、OpenClaw 与 Hermes
 
 
 
@@ -236,7 +236,7 @@ MCP | stdio 客户端 | 本地 + 远程，延迟加载 | 客户端 + 服务器 |
 
 
 
-## 06接下来学什么
+## 06 接下来学什么
 
 
 
@@ -250,7 +250,7 @@ MCP | stdio 客户端 | 本地 + 远程，延迟加载 | 客户端 + 服务器 |
 
   3. **试着把第 3 课的
 `run_shell`
- 放进沙箱。** 这是从"教学代码"走向"敢在自己电脑上长期跑"的那一步。
+ 放进沙箱。** 这是从“教学代码”走向“敢在自己电脑上长期跑”的那一步。
 
   4. **读 Pi 或 Codex 的源码。** 有了这个系列的十一个零件做地图，你会发现大型 Agent 的代码不再是一团迷雾，每个模块都能对上号。
 

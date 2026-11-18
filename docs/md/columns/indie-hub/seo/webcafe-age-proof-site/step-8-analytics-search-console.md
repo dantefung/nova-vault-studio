@@ -32,9 +32,9 @@ url: "https://new.web.cafe/tutorial/detail/mpj4UeauLE7qjTxcfqNmPM"
 
 今天我们聊第 8 步，主要分为三个小步骤：
 
-1.  添加统计代码；
-2.  提交到 Google Search Console；
-3.  增加外链，等待被收录。
+1. 添加统计代码；
+2. 提交到 Google Search Console；
+3. 增加外链，等待被收录。
 
 一、添加统计代码
 

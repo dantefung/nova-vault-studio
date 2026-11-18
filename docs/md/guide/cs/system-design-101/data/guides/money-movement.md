@@ -21,33 +21,33 @@ Let’s say Bob wants to buy an SDI book from Claire’s shop on Amazon.
 
 ### Pay-in flow (Bob pays Amazon money):
 
-*   Bob buys a book on Amazon using Paypal.
+* Bob buys a book on Amazon using Paypal.
 
-*   Amazon issues a money transfer request to Paypal.
+* Amazon issues a money transfer request to Paypal.
 
-*   Since the payment token of Bob’s debit card is stored in Paypal, Paypal can transfer money, on Bob’s behalf, to Amazon’s bank account in Bank A.
+* Since the payment token of Bob’s debit card is stored in Paypal, Paypal can transfer money, on Bob’s behalf, to Amazon’s bank account in Bank A.
 
-*   Both Bank A and Bank B send transaction statements to the clearing institution. It reduces the transactions that need to be settled. Let’s assume Bank A owes Bank B $100 and Bank B owes bank A $500 at the end of the day. When they settle, the net position is that Bank B pays Bank A $400.
+* Both Bank A and Bank B send transaction statements to the clearing institution. It reduces the transactions that need to be settled. Let’s assume Bank A owes Bank B $100 and Bank B owes bank A $500 at the end of the day. When they settle, the net position is that Bank B pays Bank A $400.
 
-*   1.  5 & 1.6 The clearing institution sends clearing and settlement information to the settlement bank. Both Bank A and Bank B have pre-deposited funds in the settlement bank as money reserves, so actual money movement happens between two reserve accounts in the settlement bank.
+* 1. 5 & 1.6 The clearing institution sends clearing and settlement information to the settlement bank. Both Bank A and Bank B have pre-deposited funds in the settlement bank as money reserves, so actual money movement happens between two reserve accounts in the settlement bank.
 
 ### Pay-out flow (Amazon pays the money to the seller: Claire):
 
-*   Amazon informs the seller (Claire) that she will get paid soon.
+* Amazon informs the seller (Claire) that she will get paid soon.
 
-*   Amazon issues a money transfer request from its owe bank (Bank A) to the seller bank (bank C). Here both banks record the transactions, but no real money is moved.
+* Amazon issues a money transfer request from its owe bank (Bank A) to the seller bank (bank C). Here both banks record the transactions, but no real money is moved.
 
-*   Both Bank A and Bank C send transaction statements to the clearing institution.
+* Both Bank A and Bank C send transaction statements to the clearing institution.
 
-*   2.  4 & 2.5 The clearing institution sends clearing and settlement information to the settlement bank. Money is transferred from Bank A’s reserve to Bank C’s reserve.
+* 2. 4 & 2.5 The clearing institution sends clearing and settlement information to the settlement bank. Money is transferred from Bank A’s reserve to Bank C’s reserve.
 
 Notice that we have three layers:
 
-*   Transaction layer: where the online purchases happen
+* Transaction layer: where the online purchases happen
 
-*   Payment and clearing layer: where the payment instructions and transaction netting happen
+* Payment and clearing layer: where the payment instructions and transaction netting happen
 
-*   Settlement layer: where the actual money movement happen
+* Settlement layer: where the actual money movement happen
 
 The first two layers are called information flow, and the settlement layer is called fund flow.
 

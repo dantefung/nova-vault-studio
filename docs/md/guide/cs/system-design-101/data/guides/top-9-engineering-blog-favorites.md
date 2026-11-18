@@ -15,12 +15,12 @@ tags:
 
 There are over 1,000 engineering blogs. Here are my top 9 favorites:
 
-*   Netflix TechBlog
-*   Uber Blog
-*   Cloudflare Blog
-*   Engineering at Meta
-*   LinkedIn Engineering
-*   Discord Blog
-*   AWS Architecture
-*   Slack Engineering
-*   Stripe Blog
+* Netflix TechBlog
+* Uber Blog
+* Cloudflare Blog
+* Engineering at Meta
+* LinkedIn Engineering
+* Discord Blog
+* AWS Architecture
+* Slack Engineering
+* Stripe Blog

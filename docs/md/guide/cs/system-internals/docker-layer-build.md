@@ -91,7 +91,7 @@ default-libmysqlclient-dev
 
 ### 先分清：分层缓存 ≠ 多阶段构建
 
-很多人把"拷贝依赖文件放前面"等同于"多阶段构建"，其实它们是两个独立机制：
+很多人把“拷贝依赖文件放前面”等同于“多阶段构建”，其实它们是两个独立机制：
 
 **只做了分层缓存（有，但不完整）：**
 
@@ -120,7 +120,7 @@ FROM base AS runtime             # 运行阶段——只拿产物，不带编译
 COPY --from=python-deps /install /usr/local
 ```
 
-结论一句话：**分层缓存决定"重不重装"，多阶段构建决定"带不带进镜像"。两者互补，不是一回事。**
+结论一句话：**分层缓存决定“重不重装”，多阶段构建决定“带不带进镜像”。两者互补，不是一回事。**
 
 ### 多阶段构建方案
 
@@ -200,8 +200,8 @@ COPY --from=node-deps /app/node_modules /app/node_modules
 
 关键点：
 
-1. **`FROM base AS node-deps`** = "以 `base` 阶段作为基础镜像，再开一个新阶段，名叫 `node-deps`"
-2. **`COPY --from=node-deps`** = "从 `node-deps` 阶段里拿产物，不是从宿主机拿"
+1. **`FROM base AS node-deps`** = “以 `base` 阶段作为基础镜像，再开一个新阶段，名叫 `node-deps`"
+2. **`COPY --from=node-deps`** = ”从 `node-deps` 阶段里拿产物，不是从宿主机拿“
 3. **隔离效果**：`node-deps` 里安装 Node 依赖时的中间环境（npm 缓存、devDependencies 等）**不会进入最终镜像**——最终镜像只拿它产出的 `node_modules`
 
 这条语法的本质是：**一个 Dockerfile，多个独立的构建环境，互相之间只传递最终产物。**
@@ -321,7 +321,7 @@ python-deps 阶段里的 /install 内容变了
 
 ### 阶段是真实存在的构建单元
 
-"阶段"首先是 Dockerfile 语法的逻辑概念，但它会真实映射到 Docker/BuildKit 的物理构建结果上。
+”阶段“首先是 Dockerfile 语法的逻辑概念，但它会真实映射到 Docker/BuildKit 的物理构建结果上。
 
 ```
 FROM base AS python-deps     ← 命名阶段（逻辑名）
@@ -366,7 +366,7 @@ build 阶段的 gcc 等层 → 不属于最终镜像引用链
 |------|-----------|
 | **Dockerfile 逻辑层** | `base` / `python-deps` / `node-deps` / `runtime` 这些阶段名——构建图里的节点名称 |
 | **BuildKit 物理层** | 对应阶段产生的真实 snapshots / cache records / layers |
-| **最终镜像层** | 只保留 runtime 镜像引用到的 layers；不保留"阶段"这个概念本身 |
+| **最终镜像层** | 只保留 runtime 镜像引用到的 layers；不保留”阶段“这个概念本身 |
 
 可以这么类比：**阶段名是构建图的节点名，阶段内容是真实的文件系统快照链，最终镜像是构建图导出的结果。**
 
@@ -460,7 +460,7 @@ BuildKit 不是简单的一条线，而是在构建一个有向无环图（DAG�
 
 ### 中间阶段产物的去向
 
-多阶段构建里的"中间产物"分两类：
+多阶段构建里的”中间产物“分两类：
 
 **1. 被 `COPY --from` 复制到最终镜像的 → 留下**
 
@@ -531,7 +531,7 @@ RUN playwright install chromium
 优点：逻辑简单，Docker 自动处理路径
 缺点：`playwright install` 在最终层执行，镜像稍大
 
-**推荐**：先选择"清晰稳定"方案——放运行层。等对整个流程足够熟悉后，再优化到构建层以缩小镜像。
+**推荐**：先选择”清晰稳定“方案——放运行层。等对整个流程足够熟悉后，再优化到构建层以缩小镜像。
 
 ---
 

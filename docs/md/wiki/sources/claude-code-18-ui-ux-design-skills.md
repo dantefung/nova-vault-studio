@@ -13,7 +13,7 @@ url: "https://pasqualepillitteri.it/zh/news/889/claude-code-18-zuijia-skill-ui-u
 
 ## 核心问题：分布收敛
 
-使用 Claude Code 开发界面时，常遇到"分布收敛"问题：请求落地页总是得到相同结果——Inter 字体、白底紫色渐变、圆角卡片、极简动画。这是模型复制了设计决策的统计中心。
+使用 Claude Code 开发界面时，常遇到“分布收敛”问题：请求落地页总是得到相同结果——Inter 字体、白底紫色渐变、圆角卡片、极简动画。这是模型复制了设计决策的统计中心。
 
 **解决方案**：设计类 Skill。它们是教会 Claude 如何设计独特界面的 markdown 文件，配备精确的风格、精挑细选的调色板和考究的字体排印。
 

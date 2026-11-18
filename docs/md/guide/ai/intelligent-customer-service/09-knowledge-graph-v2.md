@@ -220,5 +220,5 @@ url: "https://www.53ai.com/news/RAG/2025090859432"
 
 - [腾讯优图 RAG 技术的架构设计与创新实践](https://www.53ai.com/news/RAG/2025090859432) — 腾讯优图实验室 2025
 - [知识图谱 GraphRAG](https://www.tencentcloud.com/zh/document/product/1254/78733) — 腾讯云
-- [智能客服革命：从RAG到GraphRAG](https://devpress.csdn.net/v1/article/detail/155108758) — DevPress
+- [智能客服革命：从 RAG 到 GraphRAG](https://devpress.csdn.net/v1/article/detail/155108758) — DevPress
 - [GraphRAG：以图为骨、索引为脉、查询为刃](https://cloud.tencent.com/developer/article/2598478) — 腾讯云开发者社区

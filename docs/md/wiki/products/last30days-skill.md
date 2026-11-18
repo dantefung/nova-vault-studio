@@ -3,7 +3,7 @@ title: "Last30Days（近30天趋势研究）"
 date: "2026-06-11"
 ---
 
-# Last30Days（近30天趋势研究）
+# Last30Days（近 30 天趋势研究）
 
 > AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web — then synthesizes a grounded summary.
 

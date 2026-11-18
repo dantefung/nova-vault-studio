@@ -13,7 +13,7 @@ url: "https://snyk.io/articles/top-claude-skills-ui-ux-engineers/"
 
 ## 一句话定义
 
-**Claude Skills** 是包含 `SKILL.md` 文件（YAML frontmatter + Markdown 指令）的目录，可捆绑脚本、模板、参考文档，通过渐进式披露高效加载，是 Claude 生态中介于"纯提示词"和"完整集成"之间的扩展机制。
+**Claude Skills** 是包含 `SKILL.md` 文件（YAML frontmatter + Markdown 指令）的目录，可捆绑脚本、模板、参考文档，通过渐进式披露高效加载，是 Claude 生态中介于“纯提示词”和“完整集成”之间的扩展机制。
 
 ---
 

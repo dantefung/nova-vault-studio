@@ -10,7 +10,7 @@ url: "/columns/vibe-coding/07-spec-workflow"
 > 本篇整合自三篇原始文档：
 > - [references/02-01-spec-workflow/02-01-spec.md](references/02-01-spec-workflow/02-01-spec.md)（英文完整版）
 > - [references/02-01-spec-workflow/02-02-spec_zh.md](references/02-01-spec-workflow/02-02-spec_zh.md)（中文版）
-> - [references/02-01-spec-workflow/02-03-spec_1.md](references/02-01-spec-workflow/02-03-spec_1.md)（开发规则+MCP策略）
+> - [references/02-01-spec-workflow/02-03-spec_1.md](references/02-01-spec-workflow/02-03-spec_1.md)（开发规则+MCP 策略）
 
 ---
 
@@ -46,7 +46,7 @@ EARS（Easy Approach to Requirements Syntax）是一种简单直观的需求编�
 
 1. **清晰的介绍部分**，总结功能特性
 2. **层次化的编号需求列表**，每个需求包含：
-   - 格式为"作为[角色]，我想要[功能]，以便[收益]"的用户故事
+   - 格式为“作为[角色]，我想要[功能]，以便[收益]”的用户故事
    - 以 EARS 格式编写的编号验收标准列表
 3. **边缘情况、用户体验、技术约束和成功标准**的考虑
 
@@ -76,7 +76,7 @@ EARS（Easy Approach to Requirements Syntax）是一种简单直观的需求编�
 
 - 模型必须创建 `.claude/specs/{feature_name}/requirements.md` 文件（如果尚不存在）
 - 模型必须基于你的粗略想法生成需求文档的初始版本，**不会先问一堆问题**
-- 每次编辑需求文档后，必须问你"需求看起来合适吗？如果是，我们可以继续进行设计"
+- 每次编辑需求文档后，必须问你“需求看起来合适吗？如果是，我们可以继续进行设计”
 - 如果你请求更改或未明确批准，模型必须修改需求文档
 - **模型必须在收到你的明确批准之前不得继续进行设计文档**
 
@@ -106,7 +106,7 @@ EARS（Easy Approach to Requirements Syntax）是一种简单直观的需求编�
 - 模型必须创建 `.claude/specs/{feature_name}/design.md` 文件
 - 模型必须研究并在对话中建立上下文，不创建单独的研究文件
 - 模型应该在适当时包含图表（使用 Mermaid）
-- 设计文档完成后，必须问你"设计看起来合适吗？如果是，我们可以继续进行实施计划"
+- 设计文档完成后，必须问你“设计看起来合适吗？如果是，我们可以继续进行实施计划”
 - 如果在设计期间发现差距，模型必须提供返回功能需求澄清的选项
 
 ---
@@ -159,8 +159,8 @@ EARS（Easy Approach to Requirements Syntax）是一种简单直观的需求编�
 
 ### 最终确认
 
-任务文档完成后，必须问你"任务看起来合适吗？"
-一旦任务文档获得批准，模型必须停止，并通知你可以通过打开 `tasks.md` 文件并点击任务项旁边的"开始任务"来开始执行任务。
+任务文档完成后，必须问你“任务看起来合适吗？"
+一旦任务文档获得批准，模型必须停止，并通知你可以通过打开 `tasks.md` 文件并点击任务项旁边的”开始任务“来开始执行任务。
 
 ---
 
@@ -179,7 +179,7 @@ EARS（Easy Approach to Requirements Syntax）是一种简单直观的需求编�
 
 ## 使用示例
 
-假设你说："我想做一个用户可以发帖、评论的社区功能。"
+假设你说：”我想做一个用户可以发帖、评论的社区功能。"
 
 工作流会这样进行：
 

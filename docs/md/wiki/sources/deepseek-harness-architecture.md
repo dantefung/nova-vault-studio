@@ -63,13 +63,13 @@ dsh 的插件能力不是自己造的，而是构建在 [Cordis](https://github.
 
 翻译成插件作者的日常，就是五件事（`docs/cordis-primer.zh.md:9-13`）：
 
-| 概念       | 说人话                                                                            |
+| 概念 | 说人话 |
 | ---------- | --------------------------------------------------------------------------------- |
-| 插件       | 一个带 `apply(ctx)` 的函数，或一个 `Service` 子类                                 |
-| 上下文     | 服务的容器。`ctx.tools`、`ctx.llm`、`ctx.sessions` 各占一个稳定名字               |
-| `inject`   | 声明「我需要哪些服务」，加载顺序由依赖决定，不用手写启动序列                      |
+| 插件 | 一个带 `apply(ctx)` 的函数，或一个 `Service` 子类 |
+| 上下文 | 服务的容器。`ctx.tools`、`ctx.llm`、`ctx.sessions` 各占一个稳定名字 |
+| `inject` | 声明「我需要哪些服务」，加载顺序由依赖决定，不用手写启动序列 |
 | 类型化事件 | 插件之间通过事件通信，有 emit / waterfall / parallel / serial / bail 五种分发模式 |
-| 可逆副作用 | 注册的东西（提示词片段、工具、适配器、监听器）在插件卸载时自动撤销                |
+| 可逆副作用 | 注册的东西（提示词片段、工具、适配器、监听器）在插件卸载时自动撤销 |
 
 最后一条是热插拔的关键。注册不是往全局表里塞一个条目，它带「回收钩子」。插件被卸载，它注册的一切跟着消失，不会留下半个残骸。
 
@@ -158,12 +158,12 @@ dsh 换了个做法：会话是一份**仅追加的事件日志**，日志才是
 
 四个内置预设的定位，官方描述如下（`packages/preset/agent-presets/presets/*/preset.yml`）：
 
-| 预设     | 定位                                                                                                                       |
+| 预设 | 定位 |
 | -------- | -------------------------------------------------------------------------------------------------------------------------- |
-| 标准模式 | 功能完整的编码 Agent，支持文件编辑、Shell、文件与网页检索、Skills、计划、目标、子代理和工作流                              |
+| 标准模式 | 功能完整的编码 Agent，支持文件编辑、Shell、文件与网页检索、Skills、计划、目标、子代理和工作流 |
 | PTC 模式 | 功能完整的编码 Agent，但默认不提供 workflow 工具；其他工具通过 PTC 模式 SDK 呈现，让模型用一个 TypeScript 程序组合多步操作 |
-| 极简模式 | 仅提供持久 bash 与 `str_replace_editor` 的双工具编码 Agent                                                                 |
-| 创造模式 | 用于创建自定义 Agent preset：具备标准模式的全部能力，并提供运行时检查、插件实验和 preset 创作指导                          |
+| 极简模式 | 仅提供持久 bash 与 `str_replace_editor` 的双工具编码 Agent |
+| 创造模式 | 用于创建自定义 Agent preset：具备标准模式的全部能力，并提供运行时检查、插件实验和 preset 创作指导 |
 
 PTC 模式和创造模式值得单独说。
 
@@ -200,11 +200,11 @@ npx @deepseek-ai/dsh web
 
 沙箱方面，本地后端按平台走不同的隔离机制（`packages/sandbox/sandbox-local/README.zh.md:71`）：
 
-| 平台    | runner 链          |
+| 平台 | runner 链 |
 | ------- | ------------------ |
-| Linux   | `bwrap` → Landlock |
-| macOS   | Seatbelt           |
-| Windows | ACL 受限令牌       |
+| Linux | `bwrap` → Landlock |
+| macOS | Seatbelt |
+| Windows | ACL 受限令牌 |
 
 ### 5.2 四个边界
 
@@ -224,7 +224,7 @@ npx @deepseek-ai/dsh web
 
 ---
 
-## 六、从运行时到工程：为什么推荐《Harness工程实战》
+## 六、从运行时到工程：为什么推荐《Harness 工程实战》
 
 拆到这里，dsh 回答的问题已经很清楚了：Agent 的运行时该怎么搭，能力怎么组合、状态怎么持久、循环怎么替换、边界怎么划。
 
@@ -240,18 +240,18 @@ npx @deepseek-ai/dsh web
 
 ### 关于这本书
 
-**《Harness工程实战：从零开始驾驭AI软件工程》**，张建飞 著，人民邮电出版社 · 异步图书，2026 年 9 月出版。
+**《Harness 工程实战：从零开始驾驭 AI 软件工程》**，张建飞 著，人民邮电出版社 · 异步图书，2026 年 9 月出版。
 
 作者张建飞是华为软件教练、阿里巴巴前高级技术专家，开源架构框架 [COLA](https://github.com/alibaba/COLA)（1.3 万星）的创始人，此前还写过《代码精进之路：从码农到工匠》和《程序员的底层思维》。COLA 的出发点一直是同一个问题：怎么控制软件复杂度。这本书把这个问题搬到了 AI 时代。作者的判断是，AI 没有改变这个使命，改变的只是方法：从自己写代码，变成通过 Harness 调度 AI。
 
 全书 4 部分 11 章：
 
-| 部分                 | 内容                                                                                                    |
+| 部分 | 内容 |
 | -------------------- | ------------------------------------------------------------------------------------------------------- |
-| 一、Agent 基础认知   | Function Calling、MCP 标准、Coding Agent，以及从零手写一个 Agent Loop（书中带「让 AI 写贪吃蛇」的实战） |
-| 二、Harness 工程理论 | 从 Prompt 工程到 Context 工程再到 Harness 工程的演进脉络与方法论                                        |
-| 三、Harness 工程实践 | 经典微服务、绿地项目、棕地项目三类场景，覆盖测试、环境管理、持续交付                                    |
-| 四、未来展望         | AI 时代人类工程师的新定位与软件工程的新形态                                                             |
+| 一、Agent 基础认知 | Function Calling、MCP 标准、Coding Agent，以及从零手写一个 Agent Loop（书中带「让 AI 写贪吃蛇」的实战） |
+| 二、Harness 工程理论 | 从 Prompt 工程到 Context 工程再到 Harness 工程的演进脉络与方法论 |
+| 三、Harness 工程实践 | 经典微服务、绿地项目、棕地项目三类场景，覆盖测试、环境管理、持续交付 |
+| 四、未来展望 | AI 时代人类工程师的新定位与软件工程的新形态 |
 
 第三部分里那个「棕地」场景值得留意：遗留系统的绞杀式重构，四步走，先用 AI 辅助提取领域知识，再用单元测试织安全网，然后特性开关加防腐隔离，最后才是受约束的重构。这类内容在讲「Agent 能做什么」的文章里几乎见不到，但真到企业里落地，决定成败的往往是它。
 
@@ -278,23 +278,23 @@ dsh 做的事情，可以概括成一句话：它把 Agent 的骨架拆成了插
 
 ## 源文件索引
 
-| 文件                                                              | 关键内容                                                            | 引用点                             |
+| 文件 | 关键内容 | 引用点 |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------- |
-| `README.zh.md`                                                    | 项目定位、启动命令、开发者预览警告                                  | :5、:13、:29                       |
-| `SAFETY.zh.md`                                                    | 沙箱限制声明                                                        | :11-13                             |
-| `docs/architecture.zh.md`                                         | 一切皆插件、无特权内核、profile 与 bundle 分层、能力 seam、会话日志 | :11、:13、:19-27、:121、:125、:133 |
-| `docs/cordis-primer.zh.md`                                        | Cordis 五个核心概念、五种事件分发模式                               | :9-13                              |
-| `docs/glossary.zh.md`                                             | 能力 seam 三角色定义                                                | :9                                 |
-| `docs/subsystems/core.zh.md`                                      | `Agent` 接口与循环实现的解耦说明                                    | :59                                |
-| `docs/tool-catalog.zh.md`                                         | 模型可见工具清单（含 `cordis_*` 创造模式工具组）                    | 全文                               |
-| `packages/core/agent-loop/src/index.ts`                           | `AgentLoop` 类与 `inject` 声明                                      | :359-360                           |
-| `packages/core/tools/README.zh.md`                                | PTC 呈现模式与 `run_code` 通道                                      | :125                               |
-| `packages/preset/agent-presets/presets/*/preset.yml`              | 四个预设的名称与定位                                                | 全文                               |
-| `packages/preset/agent-presets/presets/standard/agent.cordis.yml` | 标准预设的插件树（含预留的 codex / claude-code 子代理）             | 全文                               |
-| `packages/sandbox/sandbox-local/README.zh.md`                     | 三平台 runner 链、Seatbelt 依赖弃用接口                             | :71、:130                          |
-| `packages/llm/llm-pi-ai/README.zh.md`                             | 模型提供方接入                                                      | :42-60                             |
-| `packages/context/agent-instructions/README.zh.md`                | `AGENTS.md` / `CLAUDE.md` 的加载、去重与刷新                        | :32-36、:64                        |
-| `packages/mcp/mcp-client`、`packages/acp/acp`                     | MCP 客户端与 ACP 集成                                               | —                                  |
+| `README.zh.md` | 项目定位、启动命令、开发者预览警告 | :5、:13、:29 |
+| `SAFETY.zh.md` | 沙箱限制声明 | :11-13 |
+| `docs/architecture.zh.md` | 一切皆插件、无特权内核、profile 与 bundle 分层、能力 seam、会话日志 | :11、:13、:19-27、:121、:125、:133 |
+| `docs/cordis-primer.zh.md` | Cordis 五个核心概念、五种事件分发模式 | :9-13 |
+| `docs/glossary.zh.md` | 能力 seam 三角色定义 | :9 |
+| `docs/subsystems/core.zh.md` | `Agent` 接口与循环实现的解耦说明 | :59 |
+| `docs/tool-catalog.zh.md` | 模型可见工具清单（含 `cordis_*` 创造模式工具组） | 全文 |
+| `packages/core/agent-loop/src/index.ts` | `AgentLoop` 类与 `inject` 声明 | :359-360 |
+| `packages/core/tools/README.zh.md` | PTC 呈现模式与 `run_code` 通道 | :125 |
+| `packages/preset/agent-presets/presets/*/preset.yml` | 四个预设的名称与定位 | 全文 |
+| `packages/preset/agent-presets/presets/standard/agent.cordis.yml` | 标准预设的插件树（含预留的 codex / claude-code 子代理） | 全文 |
+| `packages/sandbox/sandbox-local/README.zh.md` | 三平台 runner 链、Seatbelt 依赖弃用接口 | :71、:130 |
+| `packages/llm/llm-pi-ai/README.zh.md` | 模型提供方接入 | :42-60 |
+| `packages/context/agent-instructions/README.zh.md` | `AGENTS.md` / `CLAUDE.md` 的加载、去重与刷新 | :32-36、:64 |
+| `packages/mcp/mcp-client`、`packages/acp/acp` | MCP 客户端与 ACP 集成 | — |
 
 _版本：`deepseek-ai/deepseek-harness` `5dda764e`（`0.1.5-alpha.1`，2026-09-08）。星标数、插件数为 2026-09-09 口径。_
 
@@ -306,4 +306,4 @@ _版本：`deepseek-ai/deepseek-harness` `5dda764e`（`0.1.5-alpha.1`，2026-09-
 - DeepSeek AI, [DeepSeek Harness 官方文档](https://deepseek-harness.github.io/deepseek-harness/)——架构、子系统与工具目录
 - Cordis, [cordiverse/cordis](https://github.com/cordiverse/cordis)——插件内核，dsh 以 vendor 方式引入
 - [A Programming Paradigm for Spatiotemporal Composability](https://arxiv.org/abs/2608.25512), arXiv:2608.25512, 2026——Cordis 的设计论文，时间/空间可组合性两个维度
-- 张建飞, 《Harness工程实战：从零开始驾驭AI软件工程》, 人民邮电出版社 · 异步图书, 2026-09, ISBN 9787115701800
+- 张建飞，《Harness 工程实战：从零开始驾驭 AI 软件工程》, 人民邮电出版社 · 异步图书，2026-09, ISBN 9787115701800

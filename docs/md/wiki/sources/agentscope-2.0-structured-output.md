@@ -36,7 +36,7 @@ url: "https://mp.weixin.qq.com/s/92WrOmKjypAi4upDcTXy3g"
 
 
 
-那么问题来了——能不能让 Agent 直接返回一个 Java 对象？ 比如我问 "上海的天气怎么样？"，Agent 直接返回一个 WeatherInfo 实例，而不是一段需要正则解析的文本？
+那么问题来了——能不能让 Agent 直接返回一个 Java 对象？ 比如我问 “上海的天气怎么样？"，Agent 直接返回一个 WeatherInfo 实例，而不是一段需要正则解析的文本？
 
 
 
@@ -64,7 +64,7 @@ AgentScope Java 2.0 的结构化输出（Structured Output）就是干这个的�
 
 
 
-结构化输出让 Agent 直接生成符合预定义 Schema 的类型化数据，把"自然语言 → 结构化数据"的转换交给框架完成。使用姿势极其简单：
+结构化输出让 Agent 直接生成符合预定义 Schema 的类型化数据，把”自然语言 → 结构化数据“的转换交给框架完成。使用姿势极其简单：
 
 
 
@@ -500,27 +500,27 @@ GitHub 仓库：https://github.com/liuyueyi/spring-ai-demo/agent-scope
 
 
 
-✅ 第1篇：简介与环境搭建：从零搭环境，跑通第一个 Agent 对话
+✅ 第 1 篇：简介与环境搭建：从零搭环境，跑通第一个 Agent 对话
 
 
 
-✅ 第2篇：ReActAgent 核心拆解：理解"思考→行动→观察"的推理循环
+✅ 第 2 篇：ReActAgent 核心拆解：理解”思考→行动→观察“的推理循环
 
 
 
-✅ 第3篇：你的第一个 Java Agent：Builder 模式全面解析 + 流式输出 + 思考模式
+✅ 第 3 篇：你的第一个 Java Agent：Builder 模式全面解析 + 流式输出 + 思考模式
 
 
 
-✅ 第4篇：工具系统（Tools）实战：用 @Tool 注解将 Java 方法注册为 Agent 工具
+✅ 第 4 篇：工具系统（Tools）实战：用 @Tool 注解将 Java 方法注册为 Agent 工具
 
 
 
-✅ 第5篇：结构化输出实战 —— 让 Agent 直接返回 Java 对象
+✅ 第 5 篇：结构化输出实战 —— 让 Agent 直接返回 Java 对象
 
 
 
-看到这里的小伙伴，结构化输出是不是比你想象中简单得多？三参数重载一行搞定，连 JSON 解析都省了。这一篇完成之后我们的新手教程就算完了，那么进阶的教程又有些啥呢？—— AgentScope2.0中带来的核心亮点 HarnessAgent，理解“文件即配置”的工程化理念。 这些问题我们下一篇再详细展开。
+看到这里的小伙伴，结构化输出是不是比你想象中简单得多？三参数重载一行搞定，连 JSON 解析都省了。这一篇完成之后我们的新手教程就算完了，那么进阶的教程又有些啥呢？—— AgentScope2.0 中带来的核心亮点 HarnessAgent，理解“文件即配置”的工程化理念。 这些问题我们下一篇再详细展开。
 
 
 
@@ -528,8 +528,8 @@ GitHub 仓库：https://github.com/liuyueyi/spring-ai-demo/agent-scope
 
 
 
-> 微信公众号: 一灰灰Blog —— 关注获取最新技术文章推送
+> 微信公众号：一灰灰 Blog —— 关注获取最新技术文章推送
 
 
 
-微信公众号: 一灰灰Blog —— 关注获取最新技术文章推送
+微信公众号：一灰灰 Blog —— 关注获取最新技术文章推送

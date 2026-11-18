@@ -17,7 +17,7 @@ graph TD
 ### 常用用法
 - **Sequence Diagram (时序图)**: 用于描述对象间的交互。
 - **Gantt Chart (甘特图)**: 用于项目进度规划。
-- **Entity Relationship (ER图)**: 用于数据库建模。
+- **Entity Relationship (ER 图)**: 用于数据库建模。
 
 ---
 

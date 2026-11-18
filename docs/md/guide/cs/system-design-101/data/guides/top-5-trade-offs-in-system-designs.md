@@ -17,8 +17,8 @@ Everything is a trade-off. Everything is a compromise. There is no right or wron
 
 The diagram below shows some of the most important trade-offs.
 
-*   **Cost vs. Performance**
-*   **Reliability vs. Scalability**
-*   **Performance vs. Consistency**
-*   **Security vs. Flexibility**
-*   **Development Speed vs. Quality**
+* **Cost vs. Performance**
+* **Reliability vs. Scalability**
+* **Performance vs. Consistency**
+* **Security vs. Flexibility**
+* **Development Speed vs. Quality**

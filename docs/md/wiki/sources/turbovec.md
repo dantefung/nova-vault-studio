@@ -17,16 +17,16 @@ RAG 系统本地部署时内存瓶颈。TurboQuant 思路通过底层数据压�
 
 ## 核心数据
 
-- 1000万文档语料：FP32 需要 31GB RAM → turbovec 仅需 4GB（16x 压缩）
+- 1000 万文档语料：FP32 需要 31GB RAM → turbovec 仅需 4GB（16x 压缩）
 - ARM（Apple M3 Max）：比 FAISS IndexPQFastScan 快 12-20%
 - x86（Intel Xeon）：4-bit 配置全面胜出，2-bit 几乎追平
 
-## 工作原理（6步）
+## 工作原理（6 步）
 
 1. **Normalize** — 去掉向量长度，存为单独 float
 2. **Random rotation** — 乘同一随机正交矩阵，使每坐标独立服从已知分布
 3. **Per-coordinate calibration (TQ+)** — 首步 add 时拟合两个标量（shift + scale）
-4. **Lloyd-Max scalar quantization** — 预计算最优分桶（2-bit=4桶，4-bit=16桶）
+4. **Lloyd-Max scalar quantization** — 预计算最优分桶（2-bit=4 桶，4-bit=16 桶）
 5. **Bit-pack** — 1536 维向量：6144 bytes → 384 bytes（2-bit）
 6. **Length-renormalized scoring** — 修正量化导致的内积低估
 

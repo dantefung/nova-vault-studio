@@ -9,14 +9,14 @@ url: "https://mp.weixin.qq.com/s/2HugtDY6FTAty4eTD6Tzag"
 
 ## 一句话定义
 
-Loop Engineering 是对 AI Agent 定时/循环调度机制的工程化包装，本质是让程序与 Agent 循环沟通以完成持续任务的模式。概念被 KOL 层层炒作后，从简单的定时任务升级到了"新编程范式"的高度。
+Loop Engineering 是对 AI Agent 定时/循环调度机制的工程化包装，本质是让程序与 Agent 循环沟通以完成持续任务的模式。概念被 KOL 层层炒作后，从简单的定时任务升级到了“新编程范式”的高度。
 
 ## 核心争议
 
 ### 支持方的叙事
 
-- **Boris (Claude Code)**: `/loop` 命令让 Agent 按时间间隔自动执行任务，"loops 就是未来"
-- **Peter (OpenClaw)**: "Prompt Engineering 已死，Loop Engineering 当立"
+- **Boris (Claude Code)**: `/loop` 命令让 Agent 按时间间隔自动执行任务，"loops 就是未来“
+- **Peter (OpenClaw)**: "Prompt Engineering 已死，Loop Engineering 当立”
 - **Addy (Google)**: 将 Loop 定义为包含 Automations + Worktrees + Skills + Plugins + Sub-agents 的五组件框架
 
 ### 批评方的观点

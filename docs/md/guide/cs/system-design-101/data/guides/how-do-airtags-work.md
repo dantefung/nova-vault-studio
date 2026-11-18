@@ -17,11 +17,11 @@ AirTags work by leveraging a combination of Bluetooth technology and the vast ne
 
 Here's a breakdown of how they function:
 
-*   Bluetooth Signal: Each AirTag emits a secure Bluetooth signal that can be detected by nearby Apple devices (iPhones, iPads, etc.) within the Find My network.
+* Bluetooth Signal: Each AirTag emits a secure Bluetooth signal that can be detected by nearby Apple devices (iPhones, iPads, etc.) within the Find My network.
 
-*   Find My Network: When an AirTag comes within range of an Apple device in the Find My network, that device anonymously and securely relays the AirTag's location information to iCloud.
+* Find My Network: When an AirTag comes within range of an Apple device in the Find My network, that device anonymously and securely relays the AirTag's location information to iCloud.
 
-*   Location Tracking: You can then use the Find My app on your own Apple device to see the approximate location of your AirTag on a map.
+* Location Tracking: You can then use the Find My app on your own Apple device to see the approximate location of your AirTag on a map.
 
 ## Limitations
 

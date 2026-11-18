@@ -39,33 +39,33 @@ url: "https://new.web.cafe/tutorial/detail/nY9qmCNyWJq3w37DNVKHfW"
 
 把以上 40 个搜索推荐词都拿出来，去除重复项，得到了 27 个关键词：
 
-1.  phone number generator
-2.  phone number generator malaysia
-3.  phone number generator python
-4.  phone number generator github
-5.  phone number generator openai
-6.  phone number generator colombia
-7.  phone number generator python github
-8.  phone number generator for youtube
-9.  phone number generator youtube
-10.  phone number generator discord
-11.  phone number generator with sms
-12.  phone number discard generator
-13.  phone number spain generator
-14.  phone number france generator
-15.  phone number brazil generator
-16.  phone number temporary generator
-17.  phone random number generator
-18.  us phone number generator
-19.  uk phone number generator
-20.  random phone number generator
-21.  china phone number generator
-22.  singapore phone number generator
-23.  malaysia phone number generator
-24.  california phone number generator
-25.  new york phone number generator
-26.  turkey phone number generator
-27.  germany phone number generator
+1. phone number generator
+2. phone number generator malaysia
+3. phone number generator python
+4. phone number generator github
+5. phone number generator openai
+6. phone number generator colombia
+7. phone number generator python github
+8. phone number generator for youtube
+9. phone number generator youtube
+10. phone number generator discord
+11. phone number generator with sms
+12. phone number discard generator
+13. phone number spain generator
+14. phone number france generator
+15. phone number brazil generator
+16. phone number temporary generator
+17. phone random number generator
+18. us phone number generator
+19. uk phone number generator
+20. random phone number generator
+21. china phone number generator
+22. singapore phone number generator
+23. malaysia phone number generator
+24. california phone number generator
+25. new york phone number generator
+26. turkey phone number generator
+27. germany phone number generator
 
 下一步要怎么办呢？
 

@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/2R9xtPdgYr3kF6L-LGr8aA"
 
 <!-- more -->
 
-上周六 DeepSeek 发布了长篇技术探索《Super-agent设计探索：迈向更自主的Agent系统》，开篇那句话深深触动了我：
+上周六 DeepSeek 发布了长篇技术探索《Super-agent 设计探索：迈向更自主的 Agent 系统》，开篇那句话深深触动了我：
 
 > “一个人通常只能同时跟进 3 到 5 个活跃的会话，在这种设计下，单任务的上限取决于模型能力，多任务的上限取决于人的注意力。”
 

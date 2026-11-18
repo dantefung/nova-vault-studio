@@ -158,7 +158,7 @@ GPTS 输出完整剧本后作者自己改：女主不能一直等人救，她自
 
 ## 相关页面
 
-- [[sources/AI-Video竞品调研]] — AI 视频竞品调研。
+- [[sources/AI-Video 竞品调研]] — AI 视频竞品调研。
 - [[sources/ai-code-video-methods]] — AI 代码做视频的九种实现方法。
 - [[patterns/video-prompt-reverse-engineering]] — 视频反推提示词。
 - [[sources/hypit-agent-video-workflow]] — Codex + Hypit 视频复刻工作流。

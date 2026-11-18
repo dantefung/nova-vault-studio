@@ -10,9 +10,9 @@ source: "pmaker.space（空格的键盘）"
 
 你会遇到的现象
 
-*   演示里它能自动做完整个任务，换成你们的真实数据就频频卡住
-*   同一个模型能写出复杂代码，却数错表格里有几条记录
-*   团队在争「AI 能不能替代某个岗位」，但没人定义过任务、质量线和出错代价
+* 演示里它能自动做完整个任务，换成你们的真实数据就频频卡住
+* 同一个模型能写出复杂代码，却数错表格里有几条记录
+* 团队在争「AI 能不能替代某个岗位」，但没人定义过任务、质量线和出错代价
 
 ## 锯齿状的能力
 
@@ -66,8 +66,8 @@ Agent 是这三档里最容易被高估的。
 
 ## 资料来源
 
-*   [Stanford HAI — AI Index Report](https://hai.stanford.edu/ai-index)：年度报告，模型能力、基准表现与产业投入的公开数据基线
-*   [Stanford HAI — 2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report)：本文关于「前沿模型间基准差距收窄」的判断来自该报告
-*   [Claude Platform — Pricing](https://platform.claude.com/docs/en/about-claude/pricing)：算经济账时的一手价格来源
+* [Stanford HAI — AI Index Report](https://hai.stanford.edu/ai-index)：年度报告，模型能力、基准表现与产业投入的公开数据基线
+* [Stanford HAI — 2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report)：本文关于「前沿模型间基准差距收窄」的判断来自该报告
+* [Claude Platform — Pricing](https://platform.claude.com/docs/en/about-claude/pricing)：算经济账时的一手价格来源
 
 资料基准：2026 年 8 月。「锯齿状智能」是业内对这一现象的通行说法，非某一家的专有术语；三档成熟度的划分是本文的归纳，不是任何报告的原文结论。模型能力与价格变动很快，做决策前请以厂商当前的官方文档为准。

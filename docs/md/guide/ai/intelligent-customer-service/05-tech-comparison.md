@@ -129,7 +129,7 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 
 ### 配置注意事项
 
-1. **唯一标识符**：设置 Memory Key 作为知识库的"数字指纹"
+1. **唯一标识符**：设置 Memory Key 作为知识库的“数字指纹”
 2. **维度一致性**：数据库维度必须与 Embedding 模型输出维度一致
 3. **索引优化**：为高频查询字段建立索引
 

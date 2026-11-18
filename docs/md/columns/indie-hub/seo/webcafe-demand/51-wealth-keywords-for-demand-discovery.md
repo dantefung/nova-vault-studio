@@ -12,7 +12,7 @@ url: "https://new.web.cafe/tutorial/detail/2kk1hukGPXDZfr6Ra5Ciiy"
 
 - [人人都能学会的发掘 web 产品需求方法入门](https://mp.weixin.qq.com/s/rzqgRubYO8Em3xuWRGufuw)
 - [人人都能学会的挖掘 web 产品需求之从出站域名发现新需求新产品](https://mp.weixin.qq.com/s/D77kXZ9_RCifP9iil6fGxQ)
-- [【5000字长文】海外工具从需求挖掘到网站制作全流程让你一篇文章学会](https://mp.weixin.qq.com/s/IaeNNUY108iXNbEILOcfPQ)
+- [【5000 字长文】海外工具从需求挖掘到网站制作全流程让你一篇文章学会](https://mp.weixin.qq.com/s/IaeNNUY108iXNbEILOcfPQ)
 
 今天，哥飞免费赠送 51 个工具类关键词，每一个词都可以根据哥飞之前教的方法去挖掘需求。
 

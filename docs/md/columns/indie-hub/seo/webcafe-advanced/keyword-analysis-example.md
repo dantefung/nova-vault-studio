@@ -8,20 +8,20 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 # 【哥飞看词】帮社群里朋友看一个关键词是否能做
 
-> 原文链接: https://new.web.cafe/tutorial/detail/6y8debz2oj
-> 作者: 哥飞
-> 日期: 2025-08-04 11:40
-> 标签: 关键词
+> 原文链接：https://new.web.cafe/tutorial/detail/6y8debz2oj
+> 作者：哥飞
+> 日期：2025-08-04 11:40
+> 标签：关键词
 
 ---
 
 大家好，我是哥飞。
 
-社群里朋友找到一个关键词"pizza edition"，说优化难度低，让哥飞看看确认一下。
+社群里朋友找到一个关键词“pizza edition"，说优化难度低，让哥飞看看确认一下。
 
-所以哥飞干脆开一个新栏目"哥飞看词"，时不时帮大家看看某个关键词是否可以做。
+所以哥飞干脆开一个新栏目”哥飞看词“，时不时帮大家看看某个关键词是否可以做。
 
-我们直接开始，先在谷歌趋势里拿"pizza edition"和"GPTs"比，会发现"pizza edition"是一个搜索量还不小的词。
+我们直接开始，先在谷歌趋势里拿”pizza edition“和”GPTs“比，会发现”pizza edition“是一个搜索量还不小的词。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_000.webp)
 
@@ -37,7 +37,7 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 但是不要急着注册域名，再看看。
 
-先看谷歌搜索结果，排名前四的结果里，有两个是 Google Sites的内页，有两个是首页，一个是子域名首页，一个是主域名首页。
+先看谷歌搜索结果，排名前四的结果里，有两个是 Google Sites 的内页，有两个是首页，一个是子域名首页，一个是主域名首页。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_003.webp)
 
@@ -49,13 +49,13 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_005.webp)
 
-但是，我们去查一下第四名，就会有大发现，这个站居然有 81 个反链，而且 DR有 49。
+但是，我们去查一下第四名，就会有大发现，这个站居然有 81 个反链，而且 DR 有 49。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_006.webp)
 
 那为什么只能排第四名呢？
 
-有两个原因，先说第一个，Title中关键词并没有完全匹配，并且页面里关键词密度也不够，H1 直接空白。
+有两个原因，先说第一个，Title 中关键词并没有完全匹配，并且页面里关键词密度也不够，H1 直接空白。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_007.webp)
 
@@ -105,8 +105,8 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 这东西有什么好处呢？
 
-哥飞已经在付费社群"哥飞的朋友们"里给朋友们讲解清楚了，并且这类的平台还不止一个。
+哥飞已经在付费社群”哥飞的朋友们“里给朋友们讲解清楚了，并且这类的平台还不止一个。
 
 想要知道吗？
 
-想要跟着一起做网站赚美元吗？想要跟着哥飞学 SEO搞流量吗？ 欢迎加入哥飞的付费社群"哥飞的朋友们"。
+想要跟着一起做网站赚美元吗？想要跟着哥飞学 SEO 搞流量吗？ 欢迎加入哥飞的付费社群”哥飞的朋友们“。

@@ -9,23 +9,23 @@ URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins
 Markdown Content:
 本页目录
 
-*   [架构关系](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%9E%B6%E6%9E%84%E5%85%B3%E7%B3%BB "架构关系")
-*   [插件系统 (plugins/)](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8F%92%E4%BB%B6%E7%B3%BB%E7%BB%9F-plugins "插件系统 (plugins/)")
-    *   [builtinPlugins.ts](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#builtinplugins-ts "builtinPlugins.ts")
-    *   [bundled/index.ts](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#bundled-index-ts "bundled/index.ts")
+* [架构关系](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%9E%B6%E6%9E%84%E5%85%B3%E7%B3%BB “架构关系”)
+* [插件系统 (plugins/)](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8F%92%E4%BB%B6%E7%B3%BB%E7%BB%9F-plugins “插件系统 (plugins/)")
+    * [builtinPlugins.ts](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#builtinplugins-ts "builtinPlugins.ts")
+    * [bundled/index.ts](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#bundled-index-ts "bundled/index.ts")
 
-*   [技能系统 (skills/)](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F-skills "技能系统 (skills/)")
-    *   [bundledSkills.ts — 技能注册](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#bundledskills-ts-%E2%80%94-%E6%8A%80%E8%83%BD%E6%B3%A8%E5%86%8C "bundledSkills.ts — 技能注册")
-    *   [内置技能清单](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E5%86%85%E7%BD%AE%E6%8A%80%E8%83%BD%E6%B8%85%E5%8D%95 "内置技能清单")
-        *   [常驻技能](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E5%B8%B8%E9%A9%BB%E6%8A%80%E8%83%BD "常驻技能")
-        *   [特性门控技能](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E7%89%B9%E6%80%A7%E9%97%A8%E6%8E%A7%E6%8A%80%E8%83%BD "特性门控技能")
+* [技能系统 (skills/)](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F-skills ”技能系统 (skills/)")
+    * [bundledSkills.ts — 技能注册](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#bundledskills-ts-%E2%80%94-%E6%8A%80%E8%83%BD%E6%B3%A8%E5%86%8C "bundledSkills.ts — 技能注册“)
+    * [内置技能清单](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E5%86%85%E7%BD%AE%E6%8A%80%E8%83%BD%E6%B8%85%E5%8D%95 ”内置技能清单“)
+        * [常驻技能](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E5%B8%B8%E9%A9%BB%E6%8A%80%E8%83%BD ”常驻技能“)
+        * [特性门控技能](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E7%89%B9%E6%80%A7%E9%97%A8%E6%8E%A7%E6%8A%80%E8%83%BD ”特性门控技能“)
 
-    *   [loadSkillsDir.ts — 技能加载](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#loadskillsdir-ts-%E2%80%94-%E6%8A%80%E8%83%BD%E5%8A%A0%E8%BD%BD "loadSkillsDir.ts — 技能加载")
-    *   [技能加载流程](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8A%80%E8%83%BD%E5%8A%A0%E8%BD%BD%E6%B5%81%E7%A8%8B "技能加载流程")
-    *   [mcpSkillBuilders.ts — 依赖解耦](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#mcpskillbuilders-ts-%E2%80%94-%E4%BE%9D%E8%B5%96%E8%A7%A3%E8%80%A6 "mcpSkillBuilders.ts — 依赖解耦")
+    * [loadSkillsDir.ts — 技能加载](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#loadskillsdir-ts-%E2%80%94-%E6%8A%80%E8%83%BD%E5%8A%A0%E8%BD%BD "loadSkillsDir.ts — 技能加载”)
+    * [技能加载流程](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8A%80%E8%83%BD%E5%8A%A0%E8%BD%BD%E6%B5%81%E7%A8%8B “技能加载流程”)
+    * [mcpSkillBuilders.ts — 依赖解耦](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#mcpskillbuilders-ts-%E2%80%94-%E4%BE%9D%E8%B5%96%E8%A7%A3%E8%80%A6 "mcpSkillBuilders.ts — 依赖解耦“)
 
-*   [batch 技能详解](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#batch-%E6%8A%80%E8%83%BD%E8%AF%A6%E8%A7%A3 "batch 技能详解")
-*   [remember 技能详解](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#remember-%E6%8A%80%E8%83%BD%E8%AF%A6%E8%A7%A3 "remember 技能详解")
+* [batch 技能详解](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#batch-%E6%8A%80%E8%83%BD%E8%AF%A6%E8%A7%A3 "batch 技能详解”)
+* [remember 技能详解](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#remember-%E6%8A%80%E8%83%BD%E8%AF%A6%E8%A7%A3 "remember 技能详解“)
 
 ## 插件与技能系统 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8F%92%E4%BB%B6%E4%B8%8E%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F)
 
@@ -60,11 +60,11 @@ Claude Code 的扩展性通过**插件**(Plugins)和**技能**(Skills)两个系�
 
 主要导出：
 
-*   `BUILTIN_MARKETPLACE_NAME = 'builtin'`
-*   `registerBuiltinPlugin(definition)` — 注册内置插件到 `BUILTIN_PLUGINS` Map
-*   `isBuiltinPluginId(pluginId)` — 检查是否以 `@builtin` 结尾
-*   `getBuiltinPlugins()` — 返回 `{ enabled, disabled }` 插件分组（基于用户设置的 `defaultEnabled` 字段）
-*   `getBuiltinPluginSkillCommands()` — 将启用的插件技能转为 Command 对象
+* `BUILTIN_MARKETPLACE_NAME = 'builtin'`
+* `registerBuiltinPlugin(definition)` — 注册内置插件到 `BUILTIN_PLUGINS` Map
+* `isBuiltinPluginId(pluginId)` — 检查是否以 `@builtin` 结尾
+* `getBuiltinPlugins()` — 返回 `{ enabled, disabled }` 插件分组（基于用户设置的 `defaultEnabled` 字段）
+* `getBuiltinPluginSkillCommands()` — 将启用的插件技能转为 Command 对象
 
 ### bundled/index.ts [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#bundled-index-ts)
 
@@ -149,11 +149,11 @@ function getBundledSkillExtractDir(skillName: string): string
 
 技能加载模块的主要导出：
 
-*   `LoadedFrom` 类型：`'commands_DEPRECATED' | 'skills' | 'plugin' | 'managed' | 'bundled' | 'mcp'`
-*   `getSkillsPath(source, dir)` — 解析技能路径
-*   `estimateSkillFrontmatterTokens(skill)` — 估算 Token 数
-*   `getFileIdentity(filePath)` — 通过 `realpath` 解析符号链接，返回 `Promise<string | null>`（async 函数），确保同一文件不重复加载
-*   `parseSkillFrontmatterFields(frontmatter, markdownContent, skillName)` — 解析 YAML frontmatter（前 30 行），提取 name、description、whenToUse、model、hooks、paths 等字段。注意实际接受 3 个参数。
+* `LoadedFrom` 类型：`'commands_DEPRECATED' | 'skills' | 'plugin' | 'managed' | 'bundled' | 'mcp'`
+* `getSkillsPath(source, dir)` — 解析技能路径
+* `estimateSkillFrontmatterTokens(skill)` — 估算 Token 数
+* `getFileIdentity(filePath)` — 通过 `realpath` 解析符号链接，返回 `Promise<string | null>`（async 函数），确保同一文件不重复加载
+* `parseSkillFrontmatterFields(frontmatter, markdownContent, skillName)` — 解析 YAML frontmatter（前 30 行），提取 name、description、whenToUse、model、hooks、paths 等字段。注意实际接受 3 个参数。
 
 ### 技能加载流程 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8A%80%E8%83%BD%E5%8A%A0%E8%BD%BD%E6%B5%81%E7%A8%8B)
 

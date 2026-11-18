@@ -12,7 +12,7 @@ date: "2026-06-11"
 - **双视觉系统**：Editorial（电子杂志风）+ Swiss（瑞士国际主义）
 - **3 个画板尺寸**：`.poster.xhs` 1080×1440（小红书 3:4）、`.poster.wide` 2100×900（公众号 21:9）、`.poster.square` 1080×1080（公众号 1:1）
 - **28 个版式骨架**：Editorial 16 个（M01-M16）+ Swiss 12 个（S01-S12）
-- **10套主题预设**：Editorial 6 套 + Swiss 4 套锚点色（IKB 蓝/柠檬黄/柠檬绿/安全橙）
+- **10 套主题预设**：Editorial 6 套 + Swiss 4 套锚点色（IKB 蓝/柠檬黄/柠檬绿/安全橙）
 
 ## 7 步工作流
 
@@ -53,8 +53,8 @@ npx skills add https://github.com/op7418/guizang-social-card-skill --skill guiza
 
 ## Related Pages
 
-- [products/taste-skill](products/taste-skill) — AI前端防丑Skill
-- [patterns/ui-polish](patterns/ui-polish) — UI精致打磨
+- [products/taste-skill](products/taste-skill) — AI 前端防丑 Skill
+- [patterns/ui-polish](patterns/ui-polish) — UI 精致打磨
 
 ## Sources
 

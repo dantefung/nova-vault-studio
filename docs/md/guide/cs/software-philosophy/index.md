@@ -38,7 +38,7 @@ url: "https://github.com/2025Emma/vibe-coding-cn/tree/main/i18n/zh/documents/Met
 ### 道（哲学层）
 
 - 凡是 AI 能做的，就不要人工做
-- 目的主导：开发过程中的一切动作围绕"目的"展开
+- 目的主导：开发过程中的一切动作围绕“目的”展开
 - 上下文是 Vibe Coding 的第一性要素
 - 先结构，后代码
 - 奥卡姆剃刀：如无必要，勿增代码

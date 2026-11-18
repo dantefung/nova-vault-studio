@@ -5,7 +5,7 @@ source: "Github"
 url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 ---
 
-# Claude Code Remote Control完整指南：手机、浏览器继续本地会话
+# Claude Code Remote Control 完整指南：手机、浏览器继续本地会话
 
 ---
 
@@ -438,9 +438,9 @@ claude --remote-control
 
 ## 13. 下一步建议
 
-- 想把外部消息直接推到会话中：继续看 [Channels与计划任务完整指南](./13-Channels与计划任务完整指南.md)
-- 想理解模型切换、1M context 和 `opusplan`：继续看 [安装指南中的模型配置章节](./01-Claude-Code完整安装指南.md#85部分模型配置安装后的进阶配置)
+- 想把外部消息直接推到会话中：继续看 [Channels 与计划任务完整指南](./13-Channels 与计划任务完整指南.md)
+- 想理解模型切换、1M context 和 `opusplan`：继续看 [安装指南中的模型配置章节](./01-Claude-Code 完整安装指南.md#85 部分模型配置安装后的进阶配置)
 
 ---
 
-> **最后更新**：2026年4月26日 | **适用版本**：Claude Code v2.1.119
+> **最后更新**：2026 年 4 月 26 日 | **适用版本**：Claude Code v2.1.119

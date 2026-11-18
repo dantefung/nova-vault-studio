@@ -37,5 +37,5 @@ graph TD
 
 ## 参考书目
 
-- 代码阅读: 作者 Diomidis Spinellis, 豆瓣评分 7.0, 推荐新手阅读
-- 程序员超强大脑: 作者 Felienne Hermans, 豆瓣评分 7.5
+- 代码阅读：作者 Diomidis Spinellis, 豆瓣评分 7.0, 推荐新手阅读
+- 程序员超强大脑：作者 Felienne Hermans, 豆瓣评分 7.5

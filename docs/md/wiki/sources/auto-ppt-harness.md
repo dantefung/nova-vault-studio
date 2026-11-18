@@ -13,7 +13,7 @@ url: "https://github.com/Ame-X/Auto-PPT"
 
 ## 产品定位
 
-Auto-PPT 是一个 **Harness**（而非传统 PPT 工具）。它的核心思路是：**把"做 PPT"翻译成"编辑 React 代码"**。
+Auto-PPT 是一个 **Harness**（而非传统 PPT 工具）。它的核心思路是：**把“做 PPT”翻译成“编辑 React 代码”**。
 
 每个 PPT 是一个文件夹 `slides/{ppt}/`，里面是 `.tsx` 幻灯片文件 + `deck.config.ts` 配置。把仓库交给 Coding Agent，告诉它你想要什么，它来写代码。
 

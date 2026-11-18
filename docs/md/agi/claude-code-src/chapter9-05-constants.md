@@ -87,9 +87,9 @@ export function systemPromptSection(
 
 `src/constants/limits.ts` 不存在。限制值分散在多个文件中：
 
-*   `apiLimits.ts` — API 速率限制、Token 限制
-*   `toolLimits.ts` — 工具行为限制
-*   `files.ts` — 文件大小限制
+* `apiLimits.ts` — API 速率限制、Token 限制
+* `toolLimits.ts` — 工具行为限制
+* `files.ts` — 文件大小限制
 
 ### 安全常量 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/reference/constants.html#%E5%AE%89%E5%85%A8%E5%B8%B8%E9%87%8F)
 

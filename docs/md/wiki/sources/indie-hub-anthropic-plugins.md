@@ -9,11 +9,11 @@ url: ""
 
 Anthropic 开源了 `knowledge-work-plugins`，16k star。
 
-给 Claude 装"工作技能"——装完它直接懂那个岗位怎么干活，不用一句句教它先查哪、再按什么模板写。
+给 Claude 装“工作技能”——装完它直接懂那个岗位怎么干活，不用一句句教它先查哪、再按什么模板写。
 
-## 11个插件
+## 11 个插件
 
-**专业岗位（8个）**：
+**专业岗位（8 个）**：
 - 销售（Sales）— 连 HubSpot
 - 客服（Customer Success）
 - 产品（Product）— 连 Figma
@@ -23,7 +23,7 @@ Anthropic 开源了 `knowledge-work-plugins`，16k star。
 - 法务（Legal）
 - 生物研发（Biological Research）
 
-**通用（3个）**：
+**通用（3 个）**：
 - 全局搜索（Global Search）
 - 个人效率（Personal Productivity）
 - 插件构建器（Plugin Builder）— 用来自己造插件

@@ -171,13 +171,13 @@ sudo apt install python3-gi gir1.2-libvirt-1.0
 
 # 八、推荐配置
 
-  项目       推荐
+  项目 推荐
   ---------- -------------
-  固件       UEFI (OVMF)
-  磁盘       virtio
-  网卡       virtio
-  机器类型   q35
-  CPU        host-model
+  固件 UEFI (OVMF)
+  磁盘 virtio
+  网卡 virtio
+  机器类型 q35
+  CPU host-model
 
 ------------------------------------------------------------------------
 

@@ -15,7 +15,7 @@ url: ""
 
 `docs/.vitepress/config.js` 的 `sitemap.hostname` 从 Initial commit `bc83e803` 起一直写着 `https://system-vault.site`。该域名**从未注册**——无 DNS 记录，WHOIS 为空，`curl` 直接报 `Could not resolve host`。
 
-后果是线上 `sitemap.xml` 里 **3149 条 `<loc>` 全部指向一个不存在的域名**。搜索引擎爬虫打开地图，看到的是一整页死链。这比没有 sitemap 更糟：等于主动声明"本站有 3149 个 404"。
+后果是线上 `sitemap.xml` 里 **3149 条 `<loc>` 全部指向一个不存在的域名**。搜索引擎爬虫打开地图，看到的是一整页死链。这比没有 sitemap 更糟：等于主动声明“本站有 3149 个 404"。
 
 **问题二：没有 robots.txt。**
 
@@ -65,15 +65,15 @@ Sitemap: https://vault.moneylab.ccwu.cc/sitemap.xml
 
 ### 1. 首页正常不等于站点健康
 
-这次是最典型的一课。首页 200、样式正常、搜索正常——所有"看得见"的验收全部通过，而面向爬虫的接口烂了一个多月。
+这次是最典型的一课。首页 200、样式正常、搜索正常——所有”看得见“的验收全部通过，而面向爬虫的接口烂了一个多月。
 
 给爬虫看的接口（sitemap、robots.txt、canonical、OG 标签）没有 UI，坏了不会有任何视觉信号。**验收一个站点不能只验收首页**，至少要单独抓一次 `/sitemap.xml` 并核对域名。
 
 ### 2. 验证线上内容必须用真实域名
 
-排查过程中我一度判断"站点没有自定义域名，只能通过带 SSO 的部署地址访问"。这个结论是错的，错因很具体：我只测了 `system-vault.site`（必然解析失败）和带 SSO 保护的部署 URL，**从没测过真实域名**。
+排查过程中我一度判断”站点没有自定义域名，只能通过带 SSO 的部署地址访问“。这个结论是错的，错因很具体：我只测了 `system-vault.site`（必然解析失败）和带 SSO 保护的部署 URL，**从没测过真实域名**。
 
-教训：判断"站点是否公开"之前，先拿到真实域名。而真实域名不在 `vercel domains ls` 里（见下条），要去 Cloudflare 侧或 Vercel alias 记录里找。用错误的域名去验证，会把"域名没注册"误判成"站点没上线"——失败原因和部署无关，却长得像部署故障。
+教训：判断”站点是否公开“之前，先拿到真实域名。而真实域名不在 `vercel domains ls` 里（见下条），要去 Cloudflare 侧或 Vercel alias 记录里找。用错误的域名去验证，会把”域名没注册“误判成”站点没上线“——失败原因和部署无关，却长得像部署故障。
 
 ### 3. Vercel 的 alias 和 domain 是两回事
 
@@ -99,7 +99,7 @@ Sitemap: https://vault.moneylab.ccwu.cc/sitemap.xml
 
 ### 6. robots.txt 不驱动收录，只指路
 
-`robots.txt` 里的 `Sitemap:` 指令只是"爬虫上门时告诉它地图在哪"，**不会**让 Google 主动来发现站点。对已被收录的页面有效（重爬时会重新读 robots.txt），对新站收录速度没有帮助。
+`robots.txt` 里的 `Sitemap:` 指令只是”爬虫上门时告诉它地图在哪“，**不会**让 Google 主动来发现站点。对已被收录的页面有效（重爬时会重新读 robots.txt），对新站收录速度没有帮助。
 
 想主动推送需要去 Google Search Console / Bing Webmaster Tools 提交 sitemap，那一步要验证域名所有权，无法在仓库内完成。
 
@@ -107,7 +107,7 @@ Sitemap: https://vault.moneylab.ccwu.cc/sitemap.xml
 
 等新构建上线时轮询 `/robots.txt`，前 6 分钟一直返回 404——那是 Cloudflare 缓存的旧响应，不是构建没完成。加 `?v=N` 查询参数绕过缓存后才在状态码跳 200 的确切时刻确认上线。
 
-排查"改了却没生效"时，先排除边缘缓存，再怀疑构建。
+排查”改了却没生效“时，先排除边缘缓存，再怀疑构建。
 
 ## 验证结果
 

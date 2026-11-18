@@ -21,9 +21,9 @@ Use caching to make the reads faster.
 
 ## 2. High-Write Traffic
 
-*   Use async workers to process the writes
+* Use async workers to process the writes
 
-*   Use databases powered by LSM-Trees
+* Use databases powered by LSM-Trees
 
 ## 3. Single Point of Failure
 
@@ -31,9 +31,9 @@ Implement redundancy and failover mechanisms for critical components like databa
 
 ## 4. High Availability
 
-*   Use load balancing to ensure that requests go to healthy server instances.
+* Use load balancing to ensure that requests go to healthy server instances.
 
-*   Use database replication to improve durability and availability.
+* Use database replication to improve durability and availability.
 
 ## 5. High Latency
 
@@ -49,6 +49,6 @@ Use a centralized logging system using something like the ELK stack.
 
 ## 8. Slower Database Queries
 
-*   Use proper indexes to optimize queries.
+* Use proper indexes to optimize queries.
 
-*   Use sharding to scale the database horizontally.
+* Use sharding to scale the database horizontally.

@@ -19,52 +19,52 @@ The first version of the cheatsheet was written by guest author [Love Sharma](ht
 
 ## Suitable Scenarios
 
-*   In-memory solution
+* In-memory solution
 
-*   Read heavy system
+* Read heavy system
 
-*   Data is not frequently updated
+* Data is not frequently updated
 
 ## Caching Techniques
 
-*   Cache aside
+* Cache aside
 
-*   Write-through
+* Write-through
 
-*   Read-through
+* Read-through
 
-*   Write-around
+* Write-around
 
-*   Write-back
+* Write-back
 
 ## Cache Eviction Algorithms
 
-*   Least Recently Used (LRU)
+* Least Recently Used (LRU)
 
-*   Least Frequently Used (LFU)
+* Least Frequently Used (LFU)
 
-*   First-in First-out (FIFO)
+* First-in First-out (FIFO)
 
-*   Random Replacement (RR)
+* Random Replacement (RR)
 
 ## Key Metrics
 
-*   Cache Hit Ratio
+* Cache Hit Ratio
 
-*   Latency
+* Latency
 
-*   Throughput
+* Throughput
 
-*   Invalidation Rate
+* Invalidation Rate
 
-*   Memory Usage
+* Memory Usage
 
-*   CPU usage
+* CPU usage
 
-*   Network usage
+* Network usage
 
 ## Other Issues
 
-*   Thunder herd on cold start
+* Thunder herd on cold start
 
-*   Time-to-live (TTL)
+* Time-to-live (TTL)

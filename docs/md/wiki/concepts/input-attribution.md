@@ -5,14 +5,14 @@ source: "wiki-ingest"
 ---
 
 ---
-title: "输入归属（Input Attribution）"
+title: “输入归属（Input Attribution）"
 date: "2026-10-15"
 source: "wiki-ingest"
 ---
 
 # 输入归属（Input Attribution）
 
-> Agent 循环中一条新消息到达时，系统凭什么决定它属于"当前 step 的下一步"、"当前 turn 的下一步"还是"下一次 turn"。
+> Agent 循环中一条新消息到达时，系统凭什么决定它属于”当前 step 的下一步“、”当前 turn 的下一步“还是”下一次 turn"。
 
 ## 核心规则
 
@@ -35,7 +35,7 @@ source: "wiki-ingest"
 ## 架构要点
 
 - **状态建模 vs 事件建模**：pi 走状态建模（容器是循环内部的状态字段），DSH 走事件建模（容器是事件流上的位置）
-- **归属在裁决那一刻确定**：同一个消息，裁决前归"下一次 turn"，裁决后归"当前新 turn"
+- **归属在裁决那一刻确定**：同一个消息，裁决前归“下一次 turn"，裁决后归”当前新 turn"
 - **裁决不重入**：follow-up 执行期间到达的消息不打断裁决，先进输入队列
 - **单消费点**：无论消息来自哪条规则，都统一进输入队列由同一个出队点消费，避免竞态
 
@@ -52,8 +52,8 @@ source: "wiki-ingest"
 
 同样的三条规则，两种接线：
 
-- **交互式聊天 Agent**：steering 返回"打断式"约束，follow-up 返回"不派"，消息直接成为新 turn
-- **自主执行 Agent**：steering 返回"排队式"约束，follow-up 返回"派"，消息排进任务队列
+- **交互式聊天 Agent**：steering 返回“打断式”约束，follow-up 返回“不派”，消息直接成为新 turn
+- **自主执行 Agent**：steering 返回“排队式”约束，follow-up 返回“派”，消息排进任务队列
 
 「输入归属的裁决规则是共享的，裁决的参数是产品的」。
 

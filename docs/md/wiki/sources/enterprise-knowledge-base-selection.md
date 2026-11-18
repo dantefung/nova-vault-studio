@@ -62,7 +62,7 @@ url: "https://www.it235.com/ai/knowledge/introduce.html"
 | RAG / 知识库产品 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | 62k+ | 本地优先、多用户、文档问答、Agent 体验 |
 | RAG / 知识库产品 | [Quivr](https://github.com/QuivrHQ/quivr) | 39k+ | 面向应用集成的 RAG 产品化思路 |
 | RAG / 知识库产品 | [FastGPT](https://github.com/labring/FastGPT) | 28k+ | 国内常见的知识库、工作流、应用编排一体化方案 |
-| 个人知识库产品 | Obsidian | 无法商用 | 个人本地化知识管理工具，非常火，claudian插件结合claude使用 |
+| 个人知识库产品 | Obsidian | 无法商用 | 个人本地化知识管理工具，非常火，claudian 插件结合 claude 使用 |
 | AI Native / Wiki 化知识库 | [WeKnora](https://github.com/Tencent/WeKnora) | 17k+ | 把原始文档转成可查询 RAG、推理 Agent 和自维护 Wiki 的路线 |
 | Flow / AI 应用编排 | [Langflow](https://github.com/langflow-ai/langflow) | 151k+ | 可视化构建 Agent 和工作流 |
 | Flow / AI 应用编排 | [Dify](https://github.com/langgenius/dify) | 148k+ | LLM 应用平台，覆盖 workflow、RAG、Agent、模型管理 |
@@ -74,12 +74,12 @@ url: "https://www.it235.com/ai/knowledge/introduce.html"
 | 文档解析 / 数据清洗 | [MinerU](https://github.com/opendatalab/MinerU) | 73k+ | 复杂 PDF、公式、表格、论文解析 |
 | 文档解析 / 数据清洗 | [Docling](https://github.com/docling-project/docling) | 62k+ | 多格式文档解析，面向 RAG 和 Agent 的结构化输出 |
 
-我的建议是：  
+我的建议是： 
  如果你们要做企业级知识库，不要只看最上层的 RAG 产品，也要同时看三层东西：
 
-1.   **文档解析层**：Docling、MinerU、MarkItDown、Unstructured
-2.   **检索与索引层**：Milvus、Qdrant、Chroma、Weaviate 、PageIndex
-3.   **应用与治理层**：RAGFlow、FastGPT、Dify、WeKnora、Bisheng
+1. **文档解析层**：Docling、MinerU、MarkItDown、Unstructured
+2. **检索与索引层**：Milvus、Qdrant、Chroma、Weaviate 、PageIndex
+3. **应用与治理层**：RAGFlow、FastGPT、Dify、WeKnora、Bisheng
 
 真正的企业知识库，往往不是一个单点工具能解决的，而是这几层组合出来的系统。
 
@@ -87,9 +87,9 @@ url: "https://www.it235.com/ai/knowledge/introduce.html"
 
 企业在做知识库选型时，不要一上来就问：
 
-*   用哪个框架？
-*   哪个产品最火？
-*   哪个 GitHub star 多？
+* 用哪个框架？
+* 哪个产品最火？
+* 哪个 GitHub star 多？
 
 应该先问几个更底层的问题。
 
@@ -149,7 +149,7 @@ url: "https://www.it235.com/ai/knowledge/introduce.html"
 
 **第五，入知识库的文档结构是什么**
 
-纯md文本？PDF、Office、图片、音视频？
+纯 md 文本？PDF、Office、图片、音视频？
 
 **我更认可的技术组合**
 
@@ -203,10 +203,10 @@ Wiki 化适合把散乱知识变成可读、可维护的结构。
 
 现在常见的开源方向里：
 
-*   **Docling** 更偏完整的文档结构化转换，适合把复杂文档转成 AI、RAG、Agent 更容易消费的结构化数据。
-*   **MinerU** 在复杂 PDF、论文、公式、表格、中英文混合场景里很值得关注。
-*   **MarkItDown** 更轻量，适合把 Office、PDF、音频、网页等内容快速转成 Markdown。
-*   **LiteParse** 这类工具强调本地、快速、轻量，适合对处理速度和本地集成要求高的流水线。
+* **Docling** 更偏完整的文档结构化转换，适合把复杂文档转成 AI、RAG、Agent 更容易消费的结构化数据。
+* **MinerU** 在复杂 PDF、论文、公式、表格、中英文混合场景里很值得关注。
+* **MarkItDown** 更轻量，适合把 Office、PDF、音频、网页等内容快速转成 Markdown。
+* **LiteParse** 这类工具强调本地、快速、轻量，适合对处理速度和本地集成要求高的流水线。
 
 但还是那句话：工具只是入口。
 

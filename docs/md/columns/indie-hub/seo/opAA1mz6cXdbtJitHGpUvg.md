@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/opAA1mz6cXdbtJitHGpUvg"
 
 # 真缺德：用这种方式推广 SEO 外链服务
 
-# 各位乡亲父老 —— 赶紧用 SEMrush 或 Ahrefs 打开你们的独立站，把外链情况查一遍。 重点看「最新 / New」，别只看总数唬人。很多站主压根没做过外链，工具Backlink外链飙升；SEO小平在群里一问，一片中招。尤其是英语网站，你要是还没查，先去查，查完再看下文更有体感。
+# 各位乡亲父老 —— 赶紧用 SEMrush 或 Ahrefs 打开你们的独立站，把外链情况查一遍。 重点看「最新 / New」，别只看总数唬人。很多站主压根没做过外链，工具 Backlink 外链飙升；SEO 小平在群里一问，一片中招。尤其是英语网站，你要是还没查，先去查，查完再看下文更有体感。
 
 
 
@@ -36,7 +36,7 @@ Money Robot：Backlink Building Software，Grow Organic Traffic For FREE，还�
 
 
 
-所以SEO工具里数字涨了，先别高兴，也先别吓傻——涨的是噪音，不是实力。
+所以 SEO 工具里数字涨了，先别高兴，也先别吓傻——涨的是噪音，不是实力。
 
 
 
@@ -92,7 +92,7 @@ Money Robot：Backlink Building Software，Grow Organic Traffic For FREE，还�
 
 
 
-什么时候再考虑 Disavow？人工点名非自然链接了；或垃圾链一直暴涨，还伴随你用改版、内容都解释不清的异常。真要做，就按域名批量拒（domain:坏域名.com），官方工具上传，传完耐心等，别天天重传。
+什么时候再考虑 Disavow？人工点名非自然链接了；或垃圾链一直暴涨，还伴随你用改版、内容都解释不清的异常。真要做，就按域名批量拒（domain：坏域名.com），官方工具上传，传完耐心等，别天天重传。
 
 
 
@@ -100,4 +100,4 @@ Money Robot：Backlink Building Software，Grow Organic Traffic For FREE，还�
 
 
 
-把「最新外链」查完：中招别慌，没中招当体检。不批量乱买外链、不慌乱、不跟做——对付这种缺德推广，这就够了。顺便也提醒一下：SEO外链就是 “伟哥”，SEO小平教你怎么服用
+把「最新外链」查完：中招别慌，没中招当体检。不批量乱买外链、不慌乱、不跟做——对付这种缺德推广，这就够了。顺便也提醒一下：SEO 外链就是 “伟哥”，SEO 小平教你怎么服用

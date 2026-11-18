@@ -319,9 +319,9 @@ graph TD
 
 [使用 Cursor，人人都是程序员](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247488009&idx=1&sn=482c9b693d8ee004dd3a9b57ce461430&chksm=c11d5316f66ada00f488a526d2d3c26a18607cdbeaee076e73f655d9fd61e637a08cf940de38&scene=21#wechat_redirect)
 
-[Prompt 制作方法：文字逻辑关系图](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247488255&idx=1&sn=0af2c1235780db663670e799f4802d73&chksm=c11d53e0f66adaf6a117a10bf37f07ddc0011d0984ec2497c81a2eaeb177e9c3dc3c67cb196c&scene=21#wechat_redirect)  
+[Prompt 制作方法：文字逻辑关系图](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247488255&idx=1&sn=0af2c1235780db663670e799f4802d73&chksm=c11d53e0f66adaf6a117a10bf37f07ddc0011d0984ec2497c81a2eaeb177e9c3dc3c67cb196c&scene=21#wechat_redirect) 
 
-[一个 Prompt 搞定架构图和思维模型](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247488242&idx=1&sn=cfe2212800684d73eca510acd3242216&chksm=c11d53edf66adafb5ce6a63d9322dec58c29ac1bc0502c3981356ef9fc2c55981c21d7affb6b&scene=21#wechat_redirect)  
+[一个 Prompt 搞定架构图和思维模型](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247488242&idx=1&sn=cfe2212800684d73eca510acd3242216&chksm=c11d53edf66adafb5ce6a63d9322dec58c29ac1bc0502c3981356ef9fc2c55981c21d7affb6b&scene=21#wechat_redirect) 
 
 [新手友好的 AI 学习指南](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487929&idx=1&sn=0635372611b0a7fbfa1962e9f99c360d&chksm=c11d50a6f66ad9b072a591c3a38356ea4ea0130ee919517ff9cac413de12360037ffd56037df&scene=21#wechat_redirect)
 

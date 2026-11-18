@@ -4,6 +4,6 @@ date: "2026-08-11"
 source: "PDF"
 ---
 
-# 冒号课堂——编程范式与OOP思想
+# 冒号课堂——编程范式与 OOP 思想
 
 <PdfViewer repo-path="docs/md/books/software-engineering/《冒号课堂——编程范式与OOP思想》.pdf" />

@@ -3,13 +3,13 @@ title: "Taste-Skill（AI前端防丑Skill）"
 date: "2026-06-11"
 ---
 
-# Taste-Skill（AI前端防丑Skill）
+# Taste-Skill（AI 前端防丑 Skill）
 
-> The Anti-Slop Frontend Framework for AI Agents. 专治 AI生成的默认丑，让页面从 boilerplate 升级到有品味。
+> The Anti-Slop Frontend Framework for AI Agents. 专治 AI 生成的默认丑，让页面从 boilerplate 升级到有品味。
 
 ## Key Points
 
-- **核心理念**：专治"AI Look"——蓝紫渐变、统一卡片网格、`border-radius: 12px`、Inter 字体、居中布局
+- **核心理念**：专治“AI Look"——蓝紫渐变、统一卡片网格、`border-radius: 12px`、Inter 字体、居中布局
 - **三档设计旋钮**：DESIGN_VARIANCE / MOTION_INTENSITY / VISUAL_DENSITY
 - **定位**：让页面不丑，而非简单样式清单
 

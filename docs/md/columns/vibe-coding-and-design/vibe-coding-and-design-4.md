@@ -4,9 +4,9 @@ date: "2026-01-04"
 source: "KaitoX"
 url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=9db62468415375fe02ef55710ec01781"
 ---
-# Vibe Coding与设计（四）：用ASCII图给AI戴上“结构镣铐”，让你的页面更加可控
+# Vibe Coding 与设计（四）：用 ASCII 图给 AI 戴上“结构镣铐”，让你的页面更加可控
 
-原创 KaitoX *2026年1月27日 09:30*
+原创 KaitoX *2026 年 1 月 27 日 09:30*
 
 ![图片](images/vibe-coding-4/001.webp)
 
@@ -14,7 +14,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 
 在第一篇，我们建立了通过 **设计 Token** 约束 AI 的理论框架；第二篇，我们用 5 分钟实战落地了一个静态网站；第三篇，我们为网站注入了 **Lottie 和 Motion 动画** 的灵魂。至此，我们已经拥有一个外观精美、交互生动的页面。
 
-但很多开发者在实际操作中，往往会跳过规划，直接对 AI 说：“请给我生成一个xxx页面”。然后就开始了漫长的“抽卡”过程：发现不对，让 AI 修改；再不对，再修改……最后得到的代码往往结构混乱、样式冲突，引入一堆难以维护的 bug。
+但很多开发者在实际操作中，往往会跳过规划，直接对 AI 说：“请给我生成一个 xxx 页面”。然后就开始了漫长的“抽卡”过程：发现不对，让 AI 修改；再不对，再修改……最后得到的代码往往结构混乱、样式冲突，引入一堆难以维护的 bug。
 
 ![image.png](images/vibe-coding-4/002.webp)
 
@@ -24,7 +24,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 
 今天，我们将探讨如何使用这种极其简单的方法，为 AI 提供一份清晰的“施工图纸”，让页面开发从“随机抽卡”变为“确定性工程”，真正实现对 AI 的精准控制。
 
-## 核心问题分析：失控的AI生成
+## 核心问题分析：失控的 AI 生成
 
 ![image.png](images/vibe-coding-4/003.webp)
 
@@ -42,7 +42,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 
 最糟糕的是，当你试图在 AI 生成的混乱代码上进行修改时，就像在流沙上盖楼。AI 生成的大量 utility-first class（如 Tailwind）耦合在一起，你很难理清其中的逻辑。让 AI “把这个按钮改大一点”，可能会破坏整个布局。这种“补丁式”的修改，最终会让代码库变成一座无法维护的“屎山”。
 
-## 解决方案：用ASCII图给AI戴上“结构镣铐”
+## 解决方案：用 ASCII 图给 AI 戴上“结构镣铐”
 
 ![image.png](images/vibe-coding-4/004.webp)
 
@@ -64,7 +64,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 2. **可视化沟通 (Visual Communication)** ：这张“图”对于 AI 来说是完全无歧义的。它清晰地定义了每个区域的内容和层级关系，AI 只需按图索骥，将结构翻译成代码即可。
 3. **版本控制友好 (VCS Friendly)** ：ASCII 图是纯文本，你可以将它写在代码注释里，或者作为一个单独的 `.md` 文件。它可以被 Git 追踪、在 PR 中被 review，成为项目永久的技术文档。
 
-## ASCII图的绘制方法
+## ASCII 图的绘制方法
 
 绘制 ASCII 图非常简单，你可以在任何文本编辑器中完成。
 
@@ -85,7 +85,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483808&idx=1&sn=
 
 > 请帮我为一个 SaaS 产品的首页绘制一个 ASCII 线框图。它应该包含一个顶部导航栏、一个带有主标题和行动号召按钮的 Hero 区域、一个三列的特性介绍区，以及一个页脚。
 
-**AI的输出：**
+**AI 的输出：**
 
 ```
 _______________________________________________________________________________
@@ -386,4 +386,4 @@ ASCII 图的潜力远不止于此。
 
 也欢迎关注我的公众号，后续我会持续分享 AI 工程化实践、设计系统搭建等内容。让我们一起，用 AI 的效率 + 设计的温度，做出真正有灵魂的产品。
 
-Vibe Coding与设计 · 目录
+Vibe Coding 与设计 · 目录

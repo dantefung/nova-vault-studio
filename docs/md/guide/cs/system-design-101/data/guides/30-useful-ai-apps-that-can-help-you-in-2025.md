@@ -17,48 +17,48 @@ AI apps are taking over the world. There’s an AI app for every conceivable use
 
 ## General Purpose
 
-*   Perplexity
-*   Anthropic Claude
-*   Grok
-*   ChatGPT
-*   Gemini
+* Perplexity
+* Anthropic Claude
+* Grok
+* ChatGPT
+* Gemini
 
 ## Writing Code
 
-*   Cursor
-*   Replit
-*   Windsurf AI
-*   Github Copilot
-*   Tabnine
+* Cursor
+* Replit
+* Windsurf AI
+* Github Copilot
+* Tabnine
 
 ## Productivity
 
-*   Adobe (PDF Chat)
-*   Gemini for Gmail
-*   Gamma (AI slide deck)
-*   WisprFlow (AI voice dictation)
-*   Granola (AI notetaker)
+* Adobe (PDF Chat)
+* Gemini for Gmail
+* Gamma (AI slide deck)
+* WisprFlow (AI voice dictation)
+* Granola (AI notetaker)
 
 ## Audience Building
 
-*   Delphi (AI text, voice)
-*   HeyGen (video translation)
-*   Persona (AI agent builder)
-*   Captions (AI video editing)
-*   OpusClips (Video repurposing)
+* Delphi (AI text, voice)
+* HeyGen (video translation)
+* Persona (AI agent builder)
+* Captions (AI video editing)
+* OpusClips (Video repurposing)
 
 ## Creativity
 
-*   ElevenLabs (realistic AI voices)
-*   Midjourney
-*   Suno AI (music generation)
-*   Krea (enhance images)
-*   Photoroom (AI image editing)
+* ElevenLabs (realistic AI voices)
+* Midjourney
+* Suno AI (music generation)
+* Krea (enhance images)
+* Photoroom (AI image editing)
 
 ## Learning and Growth
 
-*   Particle News App
-*   Rosebud (AI journal app)
-*   NotebookLM
-*   GoodInside (parenting co-pilot)
-*   Ash (AI counselor)
+* Particle News App
+* Rosebud (AI journal app)
+* NotebookLM
+* GoodInside (parenting co-pilot)
+* Ash (AI counselor)

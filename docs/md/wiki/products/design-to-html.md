@@ -3,7 +3,7 @@ title: "Design-to-HTML（UI截图视觉还原）"
 date: "2026-06-11"
 ---
 
-# Design-to-HTML（UI截图视觉还原）
+# Design-to-HTML（UI 截图视觉还原）
 
 > A Codex / Claude skill for recreating UI screenshots as HTML/CSS. 先拆解再还原，截图验证修正。
 
@@ -47,7 +47,7 @@ date: "2026-06-11"
 ## Related Pages
 
 - [products/open-design](products/open-design) — 开源 Claude Design 替代
-- [products/taste-skill](products/taste-skill) — AI前端防丑Skill
+- [products/taste-skill](products/taste-skill) — AI 前端防丑 Skill
 
 ## Sources
 

@@ -56,7 +56,7 @@ url: "https://new.web.cafe/tutorial/detail/wo85zkrb8z"
 
 最后总结一下，只要你的品牌够强，强到用户愿意主动搜索你的品牌名称来找到你，那么你不做任何 SEO 也可以获取到搜索流量。不过，这里的搜索流量，就只会有品牌词搜索量就是了。
 
-花钱砸广告，把品牌砸出声，这应该是我们国内很多公司更喜欢也更擅长的做法。相反，"让我去做 SEO，半年才有流量，想不都要想！"
+花钱砸广告，把品牌砸出声，这应该是我们国内很多公司更喜欢也更擅长的做法。相反，“让我去做 SEO，半年才有流量，想不都要想！"
 
 看这个网站的外链，发现一条外链来自于 Patreon [https://www.patreon.com/posts/kling-vs-runway-111510757](https://www.patreon.com/posts/kling-vs-runway-111510757)。
 

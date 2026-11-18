@@ -17,34 +17,34 @@ It seems that no matter what the use case, PostgreSQL supports it. When in doubt
 
 ## PostgreSQL Capabilities
 
-*   **TimeSeries**
+* **TimeSeries**
 
     PostgreSQL embraces Timescale, a powerful time-series database extension for efficient handling of time-stamped data.
 
-*   **Machine Learning**
+* **Machine Learning**
 
     With pgVector and PostgresML, Postgres can support machine learning capabilities and vector similarity searches.
 
-*   **OLAP**
+* **OLAP**
 
     Postgres can support OLAP with tools such as Hydra, Citus, and pg\_analytics.
 
-*   **Derived**
+* **Derived**
 
     Even derived databases such as DuckDB, FerretDB, CockroachDB, AlloyDB, YugaByte DB, Supabase, etc provide PostgreSQL.
 
-*   **GeoSpatial**
+* **GeoSpatial**
 
     PostGIS extends PostgreSQL with geospatial capabilities, enabling you to easily store, query, and analyze geographic data.
 
-*   **Search**
+* **Search**
 
     Postgres extensions like pgroonga, ParadeDB, and ZomboDB provide full-text search, text indexing, and data parsing capabilities.
 
-*   **Federated**
+* **Federated**
 
     Postgres seamlessly integrates with various data sources such as MongoDB, MySQL, Redis, Oracle, ParquetDB, SQLite, etc, enabling federated querying and data access.
 
-*   **Graph**
+* **Graph**
 
     Apache AGE and EdgeDB are graph databases built on top of PostgreSQL. Also, pg\_graphql is an extension that provides GraphQL support for Postgres.

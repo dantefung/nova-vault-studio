@@ -9,7 +9,7 @@ author: "袁小康"
 
 > 文章序号：第 08 篇 | 作者：袁小康
 
-Agent 能调工具、能压缩记忆、能加载技能，但面对多步骤任务，它怎么知道自己做到哪了？这篇聊聊任务规划的原理，再看 evo-agent 的 todo 工具是怎么帮 Agent 建立一张始终在线的"作战地图"的。
+Agent 能调工具、能压缩记忆、能加载技能，但面对多步骤任务，它怎么知道自己做到哪了？这篇聊聊任务规划的原理，再看 evo-agent 的 todo 工具是怎么帮 Agent 建立一张始终在线的“作战地图”的。
 ![image](images/article-08/001.webp)
 前七篇文章分别讲了 Agent 的 Loop、Tools、记忆、Context Compact、MCP、Skill 和 TUI。这篇聊一个常常被忽视、但非常关键的问题——任务规划。
 ## 一、Agent 的迷路问题

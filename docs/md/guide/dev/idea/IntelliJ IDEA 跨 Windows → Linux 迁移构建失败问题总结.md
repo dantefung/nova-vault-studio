@@ -24,15 +24,15 @@ IntelliJ IDEA 会在多个位置保存 JDK 绝对路径：
 
 ### 1️⃣ 项目级配置
 
--   `.idea/misc.xml`
--   `.idea/compiler.xml`
--   `*.iml`
+- `.idea/misc.xml`
+- `.idea/compiler.xml`
+- `*.iml`
 
 ### 2️⃣ 全局级配置（更关键）
 
--   `~/.config/JetBrains/IntelliJIdea2025.3/options/jdk.table.xml`
--   `~/.cache/JetBrains/IntelliJIdea2025.3/compile-server`
--   `~/.cache/JetBrains/IntelliJIdea2025.3/projects`
+- `~/.config/JetBrains/IntelliJIdea2025.3/options/jdk.table.xml`
+- `~/.cache/JetBrains/IntelliJIdea2025.3/compile-server`
+- `~/.cache/JetBrains/IntelliJIdea2025.3/projects`
 
 即使删除 `.idea` 目录，**JPS 编译服务器缓存仍可能保存旧的 Windows JDK
 路径**。
@@ -125,12 +125,12 @@ rm -rf ~/.local/share/JetBrains/IntelliJIdea2025.3
 
 ## 七、问题总结
 
-  类型                说明
+  类型 说明
   ------------------- -------
-  代码问题            ❌ 否
-  Linux 问题          ❌ 否
-  IDEA 绝对路径残留   ✅ 是
-  JPS 编译缓存问题    ✅ 是
+  代码问题 ❌ 否
+  Linux 问题 ❌ 否
+  IDEA 绝对路径残留 ✅ 是
+  JPS 编译缓存问题 ✅ 是
 
 本质是：
 

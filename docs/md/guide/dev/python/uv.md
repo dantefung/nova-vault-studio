@@ -82,15 +82,15 @@ uv venv
 .venv/
 ```
 
-或指定python版本来创建虚拟环境:
+或指定 python 版本来创建虚拟环境：
 
-查看可用的python版本:
+查看可用的 python 版本：
 
 ```
 uv python list
 ```
 
-创建虚拟环境:
+创建虚拟环境：
 
 ```bash
 uv venv --python 3.11
@@ -230,14 +230,14 @@ uv sync --frozen
 
 # 五、uv 常用命令速查
 
-| 目的              | 命令                |
+| 目的 | 命令 |
 | --------------- | ----------------- |
-| 创建虚拟环境          | uv venv           |
-| 添加依赖            | uv add xxx        |
-| 删除依赖            | uv remove xxx     |
-| 安装 lock         | uv sync           |
+| 创建虚拟环境 | uv venv |
+| 添加依赖 | uv add xxx |
+| 删除依赖 | uv remove xxx |
+| 安装 lock | uv sync |
 | 安装 requirements | uv pip install -r |
-| 生成 lock         | uv pip compile    |
+| 生成 lock | uv pip compile |
 
 ---
 
@@ -245,11 +245,11 @@ uv sync --frozen
 
 ## 核心区别
 
-| 能力             | pyenv                 | uv             |
+| 能力 | pyenv | uv |
 | -------------- | --------------------- | -------------- |
-| 安装多个 Python 版本 | ✅                     | ✅              |
-| 切换全局 Python    | ✅                     | ❌              |
-| 项目级自动匹配版本      | ⚠️（靠 .python-version） | ✅（靠 pyproject） |
+| 安装多个 Python 版本 | ✅ | ✅ |
+| 切换全局 Python | ✅ | ❌ |
+| 项目级自动匹配版本 | ⚠️（靠 .python-version） | ✅（靠 pyproject） |
 可以这么理解，但**不完全等价**。
 
 一句话总结：
@@ -395,12 +395,12 @@ uv sync
 
 # 七、和 pip 的对比总结
 
-| pip 时代      | uv 时代      |
+| pip 时代 | uv 时代 |
 | ----------- | ---------- |
-| virtualenv  | uv venv    |
-| pip install | uv add     |
-| pip freeze  | uv lock    |
-| pip-tools   | 内置 compile |
-| 手动同步        | uv sync    |
+| virtualenv | uv venv |
+| pip install | uv add |
+| pip freeze | uv lock |
+| pip-tools | 内置 compile |
+| 手动同步 | uv sync |
 
 

@@ -48,11 +48,11 @@ Subagents & Multi-Agent
 
 
 
-## 01问题：查资料的过程，比结论大得多
+## 01 问题：查资料的过程，比结论大得多
 
 
 
-让 Agent 回答"这个项目里，权限检查是在哪里做的"。它可能要列目录、读五六个文件、搜几个关键词，才能得出一句话的结论。
+让 Agent 回答“这个项目里，权限检查是在哪里做的”。它可能要列目录、读五六个文件、搜几个关键词，才能得出一句话的结论。
 
 
 
@@ -60,7 +60,7 @@ Subagents & Multi-Agent
 
 
 
-如果把"查"这件事交给另一个 Agent 呢？
+如果把“查”这件事交给另一个 Agent 呢？
 
 
 
@@ -70,7 +70,7 @@ Subagents & Multi-Agent
 
       用户：权限检查在哪里做的？
 
-      主 Agent → delegate("找出权限检查的位置……")
+      主 Agent → delegate(“找出权限检查的位置……")
 
       工具结果：[子 Agent 的结论] 在 permissions.py 的 check()，agent.py 的 handle_call 调用它……
 
@@ -100,7 +100,7 @@ Subagents & Multi-Agent
 
 
 
-## 02设计：四个决定
+## 02 设计：四个决定
 
 
 
@@ -120,7 +120,7 @@ Subagents & Multi-Agent
 
 
 
-## 03先改 Session：每个会话有自己的工具清单
+## 03 先改 Session：每个会话有自己的工具清单
 
 
 
@@ -134,9 +134,9 @@ Subagents & Multi-Agent
 
     class Session:
 
-        """一个会话 = 一份 messages + 一个权限管理器 + 上一次的 token 数
+        ""”一个会话 = 一份 messages + 一个权限管理器 + 上一次的 token 数
 
-        第 9 课新增：tools 限定能用的工具（None 表示全部），system 可替换，depth 记录是第几层"""
+        第 9 课新增：tools 限定能用的工具（None 表示全部），system 可替换，depth 记录是第几层“""
 
 
 
@@ -190,7 +190,7 @@ Subagents & Multi-Agent
 
         name = call.function.name
 
-        if allowed is not None and name not in allowed:      # 模型请求了一个没发给它的工具
+        if allowed is not None and name not in allowed: # 模型请求了一个没发给它的工具
 
             return f"Error: 当前不能使用工具 {name}"
 
@@ -200,13 +200,13 @@ Subagents & Multi-Agent
 
 
 
-为什么不能只靠"不发说明书"？因为模型偶尔会凭空编出一个工具名，比如它在训练数据里见过 
+为什么不能只靠”不发说明书“？因为模型偶尔会凭空编出一个工具名，比如它在训练数据里见过 
 `write_file`
-。**能不能用，要由执行层说了算，不能只看模型知不知道。** 这和第 3 课"安全检查不能靠 prompt"是同一个道理。
+。**能不能用，要由执行层说了算，不能只看模型知不知道。** 这和第 3 课”安全检查不能靠 prompt“是同一个道理。
 
 
 
-还有一处小改动。子 Agent 的工具要知道"是谁派的我"：用的是哪个模型客户端，确认请求该发给谁。我们在 
+还有一处小改动。子 Agent 的工具要知道”是谁派的我“：用的是哪个模型客户端，确认请求该发给谁。我们在 
 `run()`
  里用一个 
 `ContextVar`
@@ -246,7 +246,7 @@ Subagents & Multi-Agent
 
 
 
-## 04代码：subagent.py
+## 04 代码：subagent.py
 
 
 
@@ -256,13 +256,13 @@ Subagents & Multi-Agent
 
 
 
-    MAX_DEPTH = 1            # 只允许一层：子 Agent 不能再派子 Agent
+    MAX_DEPTH = 1 # 只允许一层：子 Agent 不能再派子 Agent
 
     SUB_MAX_STEPS = 15
 
     MAX_PARALLEL = 3
 
-    RESULT_LIMIT = 3000      # 子 Agent 交回来的结论最多这么长
+    RESULT_LIMIT = 3000 # 子 Agent 交回来的结论最多这么长
 
 
 
@@ -300,19 +300,19 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-    SUB_SYSTEM = ("你是一个子 Agent，被主 Agent 派来完成一件具体的事。"
+    SUB_SYSTEM = (”你是一个子 Agent，被主 Agent 派来完成一件具体的事。"
 
-                  "你看不到主 Agent 和用户之前的对话，只能根据下面的任务说明行动。"
+                  “你看不到主 Agent 和用户之前的对话，只能根据下面的任务说明行动。"
 
-                  "完成后用简洁的文字汇报结论，写清楚依据（读了哪些文件、看到了什么），"
+                  ”完成后用简洁的文字汇报结论，写清楚依据（读了哪些文件、看到了什么），"
 
-                  "不要贴大段原文。做不到就直接说明原因。")
-
-
+                  “不要贴大段原文。做不到就直接说明原因。")
 
 
 
-两句话最重要。"看不到之前的对话"让它不去假设上下文；"不要贴大段原文"保证交回去的是结论，不然把原文搬回主 Agent，子 Agent 就白派了。
+
+
+两句话最重要。”看不到之前的对话“让它不去假设上下文；”不要贴大段原文“保证交回去的是结论，不然把原文搬回主 Agent，子 Agent 就白派了。
 
 
 
@@ -324,9 +324,9 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
     def _spawn(task, kind, parent, client, model, log, idx=None):
 
-        from agent import Session, run              # 延迟导入，避免和 agent.py 循环引用
+        from agent import Session, run # 延迟导入，避免和 agent.py 循环引用
 
-        tag = f"子Agent{'' if idx is None else idx}"
+        tag = f”子 Agent{'' if idx is None else idx}"
 
         sub = Session(f"{parent.name}/{tag}", ask=parent.perms.ask, persist=False,
 
@@ -336,7 +336,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
             result = run(sub, task, client, model,
 
-                         log=lambda m: log(f"  [{tag}] {m}"), max_steps=SUB_MAX_STEPS)
+                         log=lambda m: log(f" [{tag}] {m}"), max_steps=SUB_MAX_STEPS)
 
         except Exception as e:
 
@@ -374,7 +374,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-还有一点：主 Agent "本次会话一直允许"写文件，子 Agent 并不继承，它有自己的 
+还有一点：主 Agent “本次会话一直允许”写文件，子 Agent 并不继承，它有自己的 
 `PermissionManager`
 。宁可多问一次。
 
@@ -390,17 +390,17 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
         name="delegate",
 
-        description=("把一件边界清楚的子任务交给一个子 Agent。它有独立的上下文，看不到当前对话，"
+        description=(“把一件边界清楚的子任务交给一个子 Agent。它有独立的上下文，看不到当前对话，"
 
-                     "所以 task 里要写清目标、范围和希望交回的格式。"
+                     ”所以 task 里要写清目标、范围和希望交回的格式。"
 
                      "kind=explore 只能读（查资料、读代码、找文件），kind=worker 还能写文件和执行命令，"
 
-                     "每个有副作用的操作照样需要用户确认。适合：要读很多内容但只需要结论的任务。"),
+                     “每个有副作用的操作照样需要用户确认。适合：要读很多内容但只需要结论的任务。"),
 
         parameters={"type": "object", "properties": {
 
-            "task": {"type": "string", "description": "完整的任务说明"},
+            "task": {"type": "string", "description": ”完整的任务说明“},
 
             "kind": {"type": "string", "enum": ["explore", "worker"]}},
 
@@ -430,7 +430,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 `CURRENT`
  里取出主 Agent，并检查层数，超过 
 `MAX_DEPTH`
- 就拒绝。描述里的"适合：要读很多内容但只需要结论的任务"是在教模型什么时候该派。第 2 课说过，description 本质上是提示词。
+ 就拒绝。描述里的”适合：要读很多内容但只需要结论的任务“是在教模型什么时候该派。第 2 课说过，description 本质上是提示词。
 
 
 
@@ -444,9 +444,9 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
         name="delegate_parallel",
 
-        description=(f"同时派出多个只读子 Agent（最多 {MAX_PARALLEL} 个），各自完成一件互不依赖的调查，"
+        description=(f”同时派出多个只读子 Agent（最多 {MAX_PARALLEL} 个），各自完成一件互不依赖的调查，"
 
-                     "返回所有结论。tasks 是任务说明的列表。只能读，不能写。"),
+                     “返回所有结论。tasks 是任务说明的列表。只能读，不能写。"),
 
         parameters={"type": "object", "properties": {
 
@@ -468,11 +468,11 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
         if not tasks:
 
-            return "Error: tasks 不能为空"
+            return "Error: tasks 不能为空”
 
         if len(tasks) > MAX_PARALLEL:
 
-            return f"Error: 一次最多 {MAX_PARALLEL} 个子 Agent，你给了 {len(tasks)} 个"
+            return f"Error: 一次最多 {MAX_PARALLEL} 个子 Agent，你给了 {len(tasks)} 个“
 
         with ThreadPoolExecutor(MAX_PARALLEL) as pool:
 
@@ -500,7 +500,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-## 05跑起来
+## 05 跑起来
 
 
 
@@ -510,19 +510,19 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-    🔧 delegate_parallel({"tasks": ["找出权限检查的实现位置……", "找出上下文压缩……", "找出定时任务……"]})
+    🔧 delegate_parallel({"tasks": [”找出权限检查的实现位置……", “找出上下文压缩……", ”找出定时任务……"]})
 
-      [子Agent1] 🔧 list_dir({"path": "."})
+      [子 Agent1] 🔧 list_dir({"path": "."})
 
-      [子Agent2] 🔧 list_dir({"path": "."})
+      [子 Agent2] 🔧 list_dir({"path": "."})
 
-      [子Agent3] 🔧 list_dir({"path": "."})
+      [子 Agent3] 🔧 list_dir({"path": "."})
 
-      [子Agent1] 🔧 read_file({"path": "permissions.py"})
+      [子 Agent1] 🔧 read_file({"path": "permissions.py"})
 
-      [子Agent3] 🔧 read_file({"path": "scheduler.py"})
+      [子 Agent3] 🔧 read_file({"path": "scheduler.py"})
 
-      [子Agent2] 🔧 read_file({"path": "context.py"})
+      [子 Agent2] 🔧 read_file({"path": "context.py"})
 
       ...
 
@@ -548,7 +548,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-## 06多 Agent：什么时候值得
+## 06 多 Agent：什么时候值得
 
 
 
@@ -560,11 +560,11 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-**2\. 编码这类任务，可并行的部分不多。** 同一篇文章写道：需要所有 Agent 共享同一份上下文、或者 Agent 之间依赖很多的任务，不适合多 Agent，而大部分编码任务真正能并行的部分比研究任务少。他们早期的版本还出现过一个简单问题派出 50 个子 Agent 的情况，后来在提示词里写明了"什么规模的问题派几个"。
+**2\. 编码这类任务，可并行的部分不多。** 同一篇文章写道：需要所有 Agent 共享同一份上下文、或者 Agent 之间依赖很多的任务，不适合多 Agent，而大部分编码任务真正能并行的部分比研究任务少。他们早期的版本还出现过一个简单问题派出 50 个子 Agent 的情况，后来在提示词里写明了“什么规模的问题派几个”。
 
 
 
-**3\. 写操作要保持单线程。** 做 Devin 的 Cognition 2025 年写过一篇《Don't Build Multi-Agents》，核心论点是：每一次修改都隐含着决定（代码风格、边界情况怎么处理），几个 Agent 同时写，这些隐含的决定会互相冲突。今年 4 月他们发了续篇，结论更新了，但方向没变：多个 Agent 同时写代码的方案，至今没有真正被用起来；行得通的模式是**写操作保持单线程** ，其他 Agent 贡献"智力"而不是"动作"。比如一个 Agent 写代码，另一个用干净的上下文做代码评审；或者一个管理者拆任务、派出子 Agent、汇总结果。
+**3\. 写操作要保持单线程。** 做 Devin 的 Cognition 2025 年写过一篇《Don't Build Multi-Agents》，核心论点是：每一次修改都隐含着决定（代码风格、边界情况怎么处理），几个 Agent 同时写，这些隐含的决定会互相冲突。今年 4 月他们发了续篇，结论更新了，但方向没变：多个 Agent 同时写代码的方案，至今没有真正被用起来；行得通的模式是**写操作保持单线程** ，其他 Agent 贡献“智力”而不是“动作”。比如一个 Agent 写代码，另一个用干净的上下文做代码评审；或者一个管理者拆任务、派出子 Agent、汇总结果。
 
 
 
@@ -572,11 +572,11 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-## 07验证
+## 07 验证
 
 
 
-最关键的一个测试，验证"子 Agent 读过的内容不会进入主 Agent 的上下文"：
+最关键的一个测试，验证“子 Agent 读过的内容不会进入主 Agent 的上下文”：
 
 
 
@@ -588,13 +588,13 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
         c = FakeClient([
 
-            [tool_call("p1", "delegate", {"task": "读 big.txt，告诉我它有多长", "kind": "explore"})],
+            [tool_call("p1", "delegate", {"task": “读 big.txt，告诉我它有多长”, "kind": "explore"})],
 
-            [tool_call("s1", "read_file", {"path": "big.txt"})],     # 子 Agent 读文件
+            [tool_call("s1", "read_file", {"path": "big.txt"})], # 子 Agent 读文件
 
-            "big.txt 有 5000 个字符",                                  # 子 Agent 的结论
+            "big.txt 有 5000 个字符“, # 子 Agent 的结论
 
-            "子 Agent 说文件有 5000 个字符",                            # 主 Agent 的回答
+            ”子 Agent 说文件有 5000 个字符“, # 主 Agent 的回答
 
         ])
 
@@ -602,21 +602,21 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
         out = agent.run(s, "big.txt 多长？", c, log=lambda *_: None)
 
-        assert out == "子 Agent 说文件有 5000 个字符"
+        assert out == ”子 Agent 说文件有 5000 个字符“
 
         # 主 Agent 的上下文里只有结论，没有 5000 个 x
 
         tool_msgs = [m["content"] for m in s.messages if m["role"] == "tool"]
 
-        assert len(tool_msgs) == 1 and "5000 个字符" in tool_msgs[0] and "xxxx" not in tool_msgs[0]
+        assert len(tool_msgs) == 1 and "5000 个字符” in tool_msgs[0] and "xxxx" not in tool_msgs[0]
 
         # 子 Agent 只拿到了只读工具，而且有自己的 system prompt
 
         sub_request = c.seen[1]
 
-        assert sub_request[0]["content"].startswith("你是一个子 Agent")
+        assert sub_request[0]["content"].startswith(“你是一个子 Agent")
 
-        assert len(sub_request) == 2          # system + 任务，没有主对话的历史
+        assert len(sub_request) == 2 # system + 任务，没有主对话的历史
 
 
 
@@ -628,7 +628,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-## 08这一版的局限
+## 08 这一版的局限
 
 
 
@@ -638,7 +638,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 `grep`
  工具，登记成 SAFE，它会自动出现在 explore 的清单里。
 
-  3. **并行只是"同时开始、全部结束才返回"。** 一个子 Agent 卡住，其他人都得等它。也没有中途汇报进度。
+  3. **并行只是”同时开始、全部结束才返回“。** 一个子 Agent 卡住，其他人都得等它。也没有中途汇报进度。
 
   4. **worker 的确认请求来自子 Agent。** 你在确认界面看到的参数是真实的，但发起它的是一个你看不到上下文的 Agent。日志里的 
 `[子Agent]`
@@ -648,7 +648,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-## 09主流 Agent 怎么做
+## 09 主流 Agent 怎么做
 
 
 
@@ -658,7 +658,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-更重的一档是 Agent 团队（agent teams），目前是实验功能，要手动打开。一个主会话当队长，几个队友各自是完整的 Claude Code 会话，通过一个共享的任务列表认领工作，通过"邮箱"直接互相发消息。文档写得很直白：团队比单个会话多用很多 token，适合调研、评审、互不干扰的新模块这类能并行的事；顺序性的任务、改同一个文件、依赖多的工作，单个会话或子 Agent 更合适；建议从 3 到 5 个队友开始；队友不能再组建自己的团队。还有一条和本课的权限设计呼应：一个 Agent 发给另一个 Agent 的消息，不能代替你批准权限。
+更重的一档是 Agent 团队（agent teams），目前是实验功能，要手动打开。一个主会话当队长，几个队友各自是完整的 Claude Code 会话，通过一个共享的任务列表认领工作，通过”邮箱“直接互相发消息。文档写得很直白：团队比单个会话多用很多 token，适合调研、评审、互不干扰的新模块这类能并行的事；顺序性的任务、改同一个文件、依赖多的工作，单个会话或子 Agent 更合适；建议从 3 到 5 个队友开始；队友不能再组建自己的团队。还有一条和本课的权限设计呼应：一个 Agent 发给另一个 Agent 的消息，不能代替你批准权限。
 
 
 
@@ -668,11 +668,11 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-**Grok Build：子 Agent 加 worktree。** 大任务拆给并行的子 Agent，每个可以在自己的 git worktree 里工作，互不干扰。这是解决"并行写"冲突的一种工程办法：既然几个 Agent 写同一份代码会打架，那就各写一份，最后由人或主 Agent 合并。
+**Grok Build：子 Agent 加 worktree。** 大任务拆给并行的子 Agent，每个可以在自己的 git worktree 里工作，互不干扰。这是解决”并行写“冲突的一种工程办法：既然几个 Agent 写同一份代码会打架，那就各写一份，最后由人或主 Agent 合并。
 
 
 
-**DeepSeek Harness：子 Agent 和团队都是插件。** Subagents 是它的官方插件，Agent teams 是实验性插件。符合它"一切皆插件"的设计：不想要，就不装。
+**DeepSeek Harness：子 Agent 和团队都是插件。** Subagents 是它的官方插件，Agent teams 是实验性插件。符合它”一切皆插件“的设计：不想要，就不装。
 
 
 
@@ -684,7 +684,7 @@ explore 的工具清单直接从第 3 课的风险登记表算出来：所有 SA
 
 
 
-## 10本课小结
+## 10 本课小结
 
 
 

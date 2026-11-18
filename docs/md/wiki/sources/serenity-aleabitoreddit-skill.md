@@ -13,7 +13,7 @@ url: "https://github.com/W-Y-P/Serenity-aleabitoreddit-skill"
 
 ## Serenity 是谁
 
-Serenity（@aleabitoreddit）：2026 年 YTD 回报自述 45 倍，40 万+ 粉丝，免费分享供应链研究。她的方法：沿着超大规模云厂商 capex → ASIC/GPU/TPU → 光通信 → 激光器 → 衬底 → 外延片 → 原材料 → 设备一路向上游追踪，寻找"小市值、低关注、但下游无法绕开的物理卡点"。
+Serenity（@aleabitoreddit）：2026 年 YTD 回报自述 45 倍，40 万+ 粉丝，免费分享供应链研究。她的方法：沿着超大规模云厂商 capex → ASIC/GPU/TPU → 光通信 → 激光器 → 衬底 → 外延片 → 原材料 → 设备一路向上游追踪，寻找“小市值、低关注、但下游无法绕开的物理卡点”。
 
 ## 核心能力
 

@@ -163,11 +163,11 @@ sudo apt install -t trixie ffmpeg
 
 # 总结
 
-| 项目        | 说明                                                               |
+| 项目 | 说明 |
 | --------- | ---------------------------------------------------------------- |
-| Debian 版本 | 13 (Trixie)                                                      |
-| 源地址       | [https://www.deb-multimedia.org](https://www.deb-multimedia.org) |
-| 组件        | main non-free                                                    |
-| 风险等级      | 中等（Testing 版本更高）                                                 |
-| 推荐做法      | 配置 apt pin 限制优先级                                                 |
+| Debian 版本 | 13 (Trixie) |
+| 源地址 | [https://www.deb-multimedia.org](https://www.deb-multimedia.org) |
+| 组件 | main non-free |
+| 风险等级 | 中等（Testing 版本更高） |
+| 推荐做法 | 配置 apt pin 限制优先级 |
 

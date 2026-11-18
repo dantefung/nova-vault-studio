@@ -10,21 +10,21 @@ source: "wiki-ingest"
 
 ## 四步流程
 
-### Step 1：AITDK 初筛（2分钟）
+### Step 1：AITDK 初筛（2 分钟）
 
-打开竞品站点，看域名年龄、TDK、关键词密度、页面结构、基础流量信息。几分钟判断它是靠SEO、广告还是品牌搜索获客。
+打开竞品站点，看域名年龄、TDK、关键词密度、页面结构、基础流量信息。几分钟判断它是靠 SEO、广告还是品牌搜索获客。
 
-### Step 2：SiteData 深度体检（5分钟）
+### Step 2：SiteData 深度体检（5 分钟）
 
-AITDK之后用SiteData，输入域名看流量趋势、关键词、广告投放、相似网站。快速淘汰没有真实增长迹象的站点。
+AITDK 之后用 SiteData，输入域名看流量趋势、关键词、广告投放、相似网站。快速淘汰没有真实增长迹象的站点。
 
-### Step 3：Similarweb 流量拆解（5分钟）
+### Step 3：Similarweb 流量拆解（5 分钟）
 
-看国家分布、设备占比、Direct/Search/Social/Referral/Paid比例。Search占比高→拆SEO；Social占比高→找平台内容策略。
+看国家分布、设备占比、Direct/Search/Social/Referral/Paid 比例。Search 占比高→拆 SEO；Social 占比高→找平台内容策略。
 
-### Step 4：Wayback Machine 历史追踪（10分钟）
+### Step 4：Wayback Machine 历史追踪（10 分钟）
 
-对比竞品当前首页、Pricing和一两年前的快照。关键洞察：什么时候开始改价格？什么时候换目标用户？这些变化比现在的宣传文案更能说明它真正验证过什么。
+对比竞品当前首页、Pricing 和一两年前的快照。关键洞察：什么时候开始改价格？什么时候换目标用户？这些变化比现在的宣传文案更能说明它真正验证过什么。
 
 ## 辅助工具
 
@@ -45,4 +45,4 @@ AITDK之后用SiteData，输入域名看流量趋势、关键词、广告投放�
 
 ## Sources
 
-- 夏林果《出海必备的56个实战工具清单》：x.com/momo_peggy/status/2110301714876346822
+- 夏林果《出海必备的 56 个实战工具清单》：x.com/momo_peggy/status/2110301714876346822

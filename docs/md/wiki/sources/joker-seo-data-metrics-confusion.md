@@ -14,7 +14,7 @@ related:
 
 # Joker（SEOActionBlog 演讲嘉宾）：SEOer 容易陷入的「数据指标」困惑
 
-> **采集说明**：本文由 [@JokerMayCry_Jun](https://x.com/JokerMayCry_Jun) 在 X 上分享（`https://x.com/JokerMayCry_Jun/status/2118536879968763948`），原文是其 2020 年在 John SEOActionBlog 成都线下分享会的演讲整理稿，原文标题《SEOer 容易陷入的"数据指标"困惑》。本归档已合并 X 分享帖与公众号全文内容。
+> **采集说明**：本文由 [@JokerMayCry_Jun](https://x.com/JokerMayCry_Jun) 在 X 上分享（`https://x.com/JokerMayCry_Jun/status/2118536879968763948`），原文是其 2020 年在 John SEOActionBlog 成都线下分享会的演讲整理稿，原文标题《SEOer 容易陷入的“数据指标”困惑》。本归档已合并 X 分享帖与公众号全文内容。
 
 > **核心命题**：DR 值、DA 值、外链数量、文章字数、跳出率……这些被 SEOer 奉为圭臬的「数据指标」，绝大多数都**不是** Google 算法的评判标准，而只是行业自造的、容易被数据站操纵的替代品。
 

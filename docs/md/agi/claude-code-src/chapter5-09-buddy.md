@@ -72,10 +72,10 @@ typescript
 
 属性生成规则：
 
-1.   选一个峰值属性
-2.   选一个低谷属性
-3.   其余随机散开
-4.   稀有度提升底线：common: 5, uncommon: 15, rare: 25, epic: 35, legendary: 50
+1. 选一个峰值属性
+2. 选一个低谷属性
+3. 其余随机散开
+4. 稀有度提升底线：common: 5, uncommon: 15, rare: 25, epic: 35, legendary: 50
 
 ## 精灵动画 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/ui/buddy.html#%E7%B2%BE%E7%81%B5%E5%8A%A8%E7%94%BB)
 
@@ -83,8 +83,8 @@ typescript
 
 动画时序：
 
-*   `TICK_MS = 500`（每帧 500ms）
-*   `IDLE_SEQUENCE`：15 帧循环（休息→躁动→眨眼）
+* `TICK_MS = 500`（每帧 500ms）
+* `IDLE_SEQUENCE`：15 帧循环（休息→躁动→眨眼）
 
 ## 语音气泡 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/ui/buddy.html#%E8%AF%AD%E9%9F%B3%E6%B0%94%E6%B3%A1)
 
@@ -107,5 +107,5 @@ const PET_BURST_MS = 2500 // 抚摸后心动画 2.5s
 
 ## 可用时间窗口 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/ui/buddy.html#%E5%8F%AF%E7%94%A8%E6%97%B6%E9%97%B4%E7%AA%97%E5%8F%A3)
 
-*   **外部用户**：仅 2026 年 4 月 1-7 日（预告）
-*   **Anthropic 内部用户**：始终可用（`'ant'` build 跳过日期检查）
+* **外部用户**：仅 2026 年 4 月 1-7 日（预告）
+* **Anthropic 内部用户**：始终可用（`'ant'` build 跳过日期检查）

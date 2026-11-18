@@ -28,50 +28,50 @@ Jessie Xia is Global CIO at Thoughtworks, where she has built a 20-year career a
 
 ## Contents
 
-*   [What is SPDD?](https://martinfowler.com/articles/structured-prompt-driven/#WhatIsSpdd)
-    *   [The REASONS Canvas](https://martinfowler.com/articles/structured-prompt-driven/#TheReasonsCanvas)
-    *   [The SPDD workflow](https://martinfowler.com/articles/structured-prompt-driven/#TheSpddWorkflow)
+* [What is SPDD?](https://martinfowler.com/articles/structured-prompt-driven/#WhatIsSpdd)
+    * [The REASONS Canvas](https://martinfowler.com/articles/structured-prompt-driven/#TheReasonsCanvas)
+    * [The SPDD workflow](https://martinfowler.com/articles/structured-prompt-driven/#TheSpddWorkflow)
 
-*   [Enhancing a billing engine with SPDD](https://martinfowler.com/articles/structured-prompt-driven/#EnhancingABillingEngineWithSpdd)
-    *   [The current system](https://martinfowler.com/articles/structured-prompt-driven/#TheCurrentSystem)
-    *   [The enhancement](https://martinfowler.com/articles/structured-prompt-driven/#TheEnhancement)
-    *   [Step 1: Create initial requirements](https://martinfowler.com/articles/structured-prompt-driven/#Step1CreateInitialRequirements)
-    *   [Step 2: Clarify analysis](https://martinfowler.com/articles/structured-prompt-driven/#Step2ClarifyAnalysis)
-    *   [Step 3: Generate analysis context](https://martinfowler.com/articles/structured-prompt-driven/#Step3GenerateAnalysisContext)
+* [Enhancing a billing engine with SPDD](https://martinfowler.com/articles/structured-prompt-driven/#EnhancingABillingEngineWithSpdd)
+    * [The current system](https://martinfowler.com/articles/structured-prompt-driven/#TheCurrentSystem)
+    * [The enhancement](https://martinfowler.com/articles/structured-prompt-driven/#TheEnhancement)
+    * [Step 1: Create initial requirements](https://martinfowler.com/articles/structured-prompt-driven/#Step1CreateInitialRequirements)
+    * [Step 2: Clarify analysis](https://martinfowler.com/articles/structured-prompt-driven/#Step2ClarifyAnalysis)
+    * [Step 3: Generate analysis context](https://martinfowler.com/articles/structured-prompt-driven/#Step3GenerateAnalysisContext)
 
-    *   [Step 4: Generate structured prompt](https://martinfowler.com/articles/structured-prompt-driven/#Step4GenerateStructuredPrompt)
-    *   [Step 5: Generate code](https://martinfowler.com/articles/structured-prompt-driven/#Step5GenerateCode)
+    * [Step 4: Generate structured prompt](https://martinfowler.com/articles/structured-prompt-driven/#Step4GenerateStructuredPrompt)
+    * [Step 5: Generate code](https://martinfowler.com/articles/structured-prompt-driven/#Step5GenerateCode)
 
-    *   [Step 6: generate unit tests](https://martinfowler.com/articles/structured-prompt-driven/#Step6GenerateUnitTests)
+    * [Step 6: generate unit tests](https://martinfowler.com/articles/structured-prompt-driven/#Step6GenerateUnitTests)
 
-    *   [What this example delivered](https://martinfowler.com/articles/structured-prompt-driven/#WhatThisExampleDelivered)
+    * [What this example delivered](https://martinfowler.com/articles/structured-prompt-driven/#WhatThisExampleDelivered)
 
 [Three core skills](https://martinfowler.com/articles/structured-prompt-driven/#core-skills)
-    *   [Abstraction first](https://martinfowler.com/articles/structured-prompt-driven/abstraction-first.html)
-    *   [Alignment](https://martinfowler.com/articles/structured-prompt-driven/alignment.html)
-    *   [Iterative Review](https://martinfowler.com/articles/structured-prompt-driven/iterative-review.html)
+    * [Abstraction first](https://martinfowler.com/articles/structured-prompt-driven/abstraction-first.html)
+    * [Alignment](https://martinfowler.com/articles/structured-prompt-driven/alignment.html)
+    * [Iterative Review](https://martinfowler.com/articles/structured-prompt-driven/iterative-review.html)
 
-*   [Where SPDD fits](https://martinfowler.com/articles/structured-prompt-driven/#WhereSpddFits)
-    *   [Fitness assessment](https://martinfowler.com/articles/structured-prompt-driven/#FitnessAssessment)
-    *   [Trade-offs to consider](https://martinfowler.com/articles/structured-prompt-driven/#Trade-offsToConsider)
+* [Where SPDD fits](https://martinfowler.com/articles/structured-prompt-driven/#WhereSpddFits)
+    * [Fitness assessment](https://martinfowler.com/articles/structured-prompt-driven/#FitnessAssessment)
+    * [Trade-offs to consider](https://martinfowler.com/articles/structured-prompt-driven/#Trade-offsToConsider)
 
-*   [Closing](https://martinfowler.com/articles/structured-prompt-driven/#Closing)
+* [Closing](https://martinfowler.com/articles/structured-prompt-driven/#Closing)
 
 ### Sidebars
 
-*   [What SPDD adds to spec-driven development](https://martinfowler.com/articles/structured-prompt-driven/#WhatSpddAddsToSpec-drivenDevelopment)
-*   [Combined user story (simplified)](https://martinfowler.com/articles/structured-prompt-driven/#CombinedUserStorysimplified)
-*   [What if the structured prompt needs modifications?](https://martinfowler.com/articles/structured-prompt-driven/#WhatIfTheStructuredPromptNeedsModifications)
-*   [To be continued: breaking the “expert-only” barrier](https://martinfowler.com/articles/structured-prompt-driven/#ToBeContinuedBreakingTheexpert-onlyBarrier)
+* [What SPDD adds to spec-driven development](https://martinfowler.com/articles/structured-prompt-driven/#WhatSpddAddsToSpec-drivenDevelopment)
+* [Combined user story (simplified)](https://martinfowler.com/articles/structured-prompt-driven/#CombinedUserStorysimplified)
+* [What if the structured prompt needs modifications?](https://martinfowler.com/articles/structured-prompt-driven/#WhatIfTheStructuredPromptNeedsModifications)
+* [To be continued: breaking the “expert-only” barrier](https://martinfowler.com/articles/structured-prompt-driven/#ToBeContinuedBreakingTheexpert-onlyBarrier)
 
 * * *
 
 Once a team adopts AI coding assistants, the first gains show up at the individual level: one developer can draft, modify, and refactor code much faster than before. But delivery speed is rarely limited by typing. When you look at the full delivery lifecycle, from requirements through release, new friction appears:
 
-*   Ambiguous requirements become code quickly, and misunderstandings scale with them.
-*   Reviews have to process more change, and inconsistency becomes easier to introduce.
-*   More integration and testing issues surface because “generated” doesn't mean “aligned.”
-*   Production risk is harder to reason about when the volume of change rises.
+* Ambiguous requirements become code quickly, and misunderstandings scale with them.
+* Reviews have to process more change, and inconsistency becomes easier to introduce.
+* More integration and testing issues surface because “generated” doesn't mean “aligned.”
+* Production risk is harder to reason about when the volume of change rises.
 
 So yes, local speed improves. But that doesn't automatically translate into system-level throughput. It's like buying a Ferrari and driving it on muddy roads: the engine is powerful, but your arrival time is determined by road conditions and traffic. In our experience, the real question isn't “How do we generate more code?” It's how do we make AI-generated changes governable, reviewable, and reusable, so teams get faster and safer?
 
@@ -98,19 +98,19 @@ The REASONS Canvas is a seven-part structure that guides a prompt from intent �
 
 **Abstract parts (intent & design)**
 
-*   R — Requirements: What problem are we solving, and what is DoD?
-*   E — Entities: Domain entities and relationships.
-*   A — Approach: The strategy of how we'll meet the requirements.
-*   S — Structure: Where the change fits in the system; components and dependencies.
+* R — Requirements: What problem are we solving, and what is DoD?
+* E — Entities: Domain entities and relationships.
+* A — Approach: The strategy of how we'll meet the requirements.
+* S — Structure: Where the change fits in the system; components and dependencies.
 
 **Specific parts (execution)**
 
-*   O — Operations: Break the abstract strategy into concrete, testable implementation steps.
+* O — Operations: Break the abstract strategy into concrete, testable implementation steps.
 
 **Common standards parts (governance)**
 
-*   N — Norms: Cross-cutting engineering norms (naming, observability, defensive coding, etc.).
-*   S — Safeguards: Non-negotiable boundaries (invariants, performance limits, security rules, etc.).
+* N — Norms: Cross-cutting engineering norms (naming, observability, defensive coding, etc.).
+* S — Safeguards: Non-negotiable boundaries (invariants, performance limits, security rules, etc.).
 
 The canvas aligns intent and boundaries before code is generated, moving uncertainty to the left. Because the structured prompt captures the full specification, reviewers reason about a single artifact instead of scattered chat logs and partial diffs. By following the same structure, every prompt becomes governable in the same way. And as domain knowledge and design decisions accumulate in each prompt, they compound individual expertise across iterations and reduce variability across the team.
 
@@ -128,10 +128,10 @@ If you've known about [Spec-Driven Development](https://en.wikipedia.org/wiki/Sp
 
 SDD and SPDD share the same starting point: generate a spec before generating code. SPDD adds a method for how that spec is produced, reviewed, and kept in sync with the code.
 
-*   _The prompt is a maintained artifact._ It is not generated once and discarded. It goes through a defined workflow and stays the record of what was intended.
-*   _From requirements to engineering spec._ The REASONS Canvas goes beyond what the system should do. It captures the chosen approach, system structure, engineering norms, and safeguards — giving the LLM an implementation boundary, not just a goal.
-*   _Sync, not handoff._ Prompt and code stay synchronized. Changes on either side are reflected back, so intent and implementation do not drift apart.
-*   _Repeatable team control._ The point is not “more detailed specs” but a consistent way for teams to govern AI output and carry what was decided forward across iterations. The trade-off analysis behind those decisions lives in the analysis phase; the Canvas records the outcome.
+* _The prompt is a maintained artifact._ It is not generated once and discarded. It goes through a defined workflow and stays the record of what was intended.
+* _From requirements to engineering spec._ The REASONS Canvas goes beyond what the system should do. It captures the chosen approach, system structure, engineering norms, and safeguards — giving the LLM an implementation boundary, not just a goal.
+* _Sync, not handoff._ Prompt and code stay synchronized. Changes on either side are reflected back, so intent and implementation do not drift apart.
+* _Repeatable team control._ The point is not “more detailed specs” but a consistent way for teams to govern AI output and carry what was decided forward across iterations. The trade-off analysis behind those decisions lives in the analysis phase; the Canvas records the outcome.
 
 The goal of the SPDD workflow is to turn business input → abstraction → execution → validation → release into a _“closed loop”_ 1—and to make sure prompt assets and code evolve together, not separately.
 
@@ -170,14 +170,14 @@ The complete codebase for this initial version is [available on GitHub](https://
 
 Driven by evolving business requirements and direct user feedback, we are enhancing the billing engine to transition from a static pricing model to a more sophisticated, flexible infrastructure. This update aims to support diverse subscription strategies and variable, model-specific pricing through the following key changes:
 
-*   API enhancement: update the existing `POST /api/usage` endpoint to accept a new, required `modelId` parameter (e.g., “fast-model”, “reasoning-model”).
-*   Model-aware pricing: shift from a single global rate to dynamic pricing, where costs vary depending on the specific AI model invoked.
-*   Multi-plan billing logic: introduce distinct billing behaviors based on the customer's subscription tier:
+* API enhancement: update the existing `POST /api/usage` endpoint to accept a new, required `modelId` parameter (e.g., “fast-model”, “reasoning-model”).
+* Model-aware pricing: shift from a single global rate to dynamic pricing, where costs vary depending on the specific AI model invoked.
+* Multi-plan billing logic: introduce distinct billing behaviors based on the customer's subscription tier:
 
-    *   Standard plan (optimized): retains the global monthly quota, but any overage usage is now calculated using model-specific rates.
-    *   Premium plan (new): operates without a quota limit. It introduces split billing, where prompt tokens and completion tokens are charged separately at different rates depending on the model used.
+    * Standard plan (optimized): retains the global monthly quota, but any overage usage is now calculated using model-specific rates.
+    * Premium plan (new): operates without a quota limit. It introduces split billing, where prompt tokens and completion tokens are charged separately at different rates depending on the model used.
 
-*   Architectural scalability: implement an extensible design pattern (such as Strategy or Factory) to cleanly isolate the calculation formulas for different plans, ensuring the system can easily accommodate future pricing models.
+* Architectural scalability: implement an extensible design pattern (such as Strategy or Factory) to cleanly isolate the calculation formulas for different plans, ensuring the system can easily accommodate future pricing models.
 
 _Since this new section encompasses both business requirements and technical details, it is typically completed collaboratively through a pairing session between a PO (or BA) and a developer._
 
@@ -199,8 +199,8 @@ Its purpose is to make large requirements manageable and to ensure a standardize
 
 The AI analyzed the enhancement description and split it into two user stories:
 
-*   [Story 1-1 (Standard Plan & model-aware pricing)](https://github.com/gszhangwei/token-billing/blob/spdd-article-snapshot/requirements/%5BUser-story-1-1-initial%5DMulti-Plan-Billing-Foundation-%26-Standard-Plan-Model-Aware-Pricing.md)
-*   [Story 1-2 (Premium Plan split-rate billing)](https://github.com/gszhangwei/token-billing/blob/spdd-article-snapshot/requirements/%5BUser-story-1-2-initial%5DPremium-Plan-Split-Rate-Billing.md)
+* [Story 1-1 (Standard Plan & model-aware pricing)](https://github.com/gszhangwei/token-billing/blob/spdd-article-snapshot/requirements/%5BUser-story-1-1-initial%5DMulti-Plan-Billing-Foundation-%26-Standard-Plan-Model-Aware-Pricing.md)
+* [Story 1-2 (Premium Plan split-rate billing)](https://github.com/gszhangwei/token-billing/blob/spdd-article-snapshot/requirements/%5BUser-story-1-2-initial%5DPremium-Plan-Split-Rate-Billing.md)
 
 The auto-generated stories are detailed enough to serve as a baseline for a formal project. For this walkthrough we consolidate them into a single simplified story so the example stays self-contained.
 
@@ -236,42 +236,42 @@ As our LLM API platform scales, a single pricing model is no longer sufficient. 
 
 ## Business Value
 
-1.   **Flexible Monetization**: Support diverse billing strategies (Standard, Premium) to capture different market segments.
-2.   **Model-Aware Pricing**: Charge different rates based on the specific AI model used.
-3.   **Architecture Scalability**: Implement an extensible design (e.g., Strategy Pattern) to isolate calculation logic and easily add future pricing models.
+1. **Flexible Monetization**: Support diverse billing strategies (Standard, Premium) to capture different market segments.
+2. **Model-Aware Pricing**: Charge different rates based on the specific AI model used.
+3. **Architecture Scalability**: Implement an extensible design (e.g., Strategy Pattern) to isolate calculation logic and easily add future pricing models.
 
 ## Scope In
 
-*   Enhance the existing POST /api/usage endpoint.
-*   **New Request Field:** Add modelId (required, string, e.g., “fast-model”, “reasoning-model”).
-*   Implement a routing mechanism (Strategy/Factory Pattern) to handle distinct calculation formulas.
-*   Implement two initial Plan Types: 
-    1.   **Standard Plan (Legacy Refactor):** Has a monthly global quota. Overage rates now depend on the modelId.
-    2.   **Premium Plan (New):** No quota. Prompt and Completion tokens are billed separately, and rates vary by modelId.
+* Enhance the existing POST /api/usage endpoint.
+* **New Request Field:** Add modelId (required, string, e.g., “fast-model”, “reasoning-model”).
+* Implement a routing mechanism (Strategy/Factory Pattern) to handle distinct calculation formulas.
+* Implement two initial Plan Types: 
+    1. **Standard Plan (Legacy Refactor):** Has a monthly global quota. Overage rates now depend on the modelId.
+    2. **Premium Plan (New):** No quota. Prompt and Completion tokens are billed separately, and rates vary by modelId.
 
 ## Scope Out
 
-*   Complex tiered/volume-based discount logic (Deferred to Phase 2).
-*   Subscription plan creation and assignment CRUD.
-*   Invoice generation.
+* Complex tiered/volume-based discount logic (Deferred to Phase 2).
+* Subscription plan creation and assignment CRUD.
+* Invoice generation.
 
 ## Acceptance Criteria (ACs)
 
-1.   **Base Validations (Regression & New)**
+1. **Base Validations (Regression & New)**
 
 **Given** an invalid request (e.g., missing `modelId`, negative tokens)
 
 **When** backend validates request
 
 **Then** return HTTP 400 with appropriate error messages.
-2.   **Standard Plan with Model-Aware Overage**
+2. **Standard Plan with Model-Aware Overage**
 
 **Given** a “Standard” customer with a 100,000 monthly quota, 90,000 used so far. Overage for “fast-model” is `$0.01/1K`.
 
 **When** submitting 30,000 tokens for “fast-model”
 
 **Then** bill shows: 10,000 from quota, 20,000 overage, $0.20 charge.
-3.   **Premium Plan with Split Rates**
+3. **Premium Plan with Split Rates**
 
 **Given** a “Premium” customer. For “reasoning-model”, Prompt is `$0.03/1K`, Completion is `$0.06/1K`.
 
@@ -287,9 +287,9 @@ Before jumping into implementation, the developer reviews the user story to buil
 
 One new required field on the API: `modelId`. The customer now tells us which AI model they used — this is the key that unlocks the right price.
 
-*   _Standard Plan:_ Customer has a monthly token quota. Usage within quota is free. Overage is charged at a model-specific rate (e.g., fast-model $0.01/1K vs. reasoning-model $0.03/1K). Existing quota logic stays; only the rate lookup changes.
-*   _Premium Plan:_ No quota. Every token is billed from the first one. Prompt tokens and completion tokens are charged separately, each at a model-specific rate. Bill = prompt charge + completion charge. This plan is entirely new.
-*   _Routing:_ The system determines the customer's plan and dispatches to the matching billing formula. The design must be easy to extend — Enterprise plans (Story 2) are next.
+* _Standard Plan:_ Customer has a monthly token quota. Usage within quota is free. Overage is charged at a model-specific rate (e.g., fast-model $0.01/1K vs. reasoning-model $0.03/1K). Existing quota logic stays; only the rate lookup changes.
+* _Premium Plan:_ No quota. Every token is billed from the first one. Prompt tokens and completion tokens are charged separately, each at a model-specific rate. Bill = prompt charge + completion charge. This plan is entirely new.
+* _Routing:_ The system determines the customer's plan and dispatches to the matching billing formula. The design must be easy to extend — Enterprise plans (Story 2) are next.
 
 **Scope boundaries**
 
@@ -299,10 +299,10 @@ We are only calculating the current bill. We are NOT building customer CRUD, NOT
 
 The following scenarios restate the story's acceptance criteria with the implementation detail the team needs to verify. The fourth item (Response format) is not a new business AC — it captures the non-functional contract the developer adds to make the criteria testable end-to-end.
 
-*   _Validation:_ Missing `modelId` → HTTP 400. Unknown customer → HTTP 404. Negative tokens → HTTP 400. All existing validations remain intact.
-*   _Standard Plan billing:_ A customer with a 100K quota and 90K already used submits 30K tokens for fast-model ($0.01/1K). Expected result: 10K covered by quota, 20K overage, charge $0.20. The same request with reasoning-model ($0.03/1K) yields $0.60 — same quota logic, different rate.
-*   _Premium Plan billing:_ A customer submits 10K prompt tokens + 20K completion tokens for reasoning-model (prompt $0.03/1K, completion $0.06/1K). Expected result: $0.30 + $1.20 = $1.50. No quota, no overage — prompt and completion are billed separately.
-*   _Response format:_ HTTP 201 returning bill ID, customer ID, token counts, timestamp, `modelId`, and a plan-appropriate charge breakdown.
+* _Validation:_ Missing `modelId` → HTTP 400. Unknown customer → HTTP 404. Negative tokens → HTTP 400. All existing validations remain intact.
+* _Standard Plan billing:_ A customer with a 100K quota and 90K already used submits 30K tokens for fast-model ($0.01/1K). Expected result: 10K covered by quota, 20K overage, charge $0.20. The same request with reasoning-model ($0.03/1K) yields $0.60 — same quota logic, different rate.
+* _Premium Plan billing:_ A customer submits 10K prompt tokens + 20K completion tokens for reasoning-model (prompt $0.03/1K, completion $0.06/1K). Expected result: $0.30 + $1.20 = $1.50. No quota, no overage — prompt and completion are billed separately.
+* _Response format:_ HTTP 201 returning bill ID, customer ID, token counts, timestamp, `modelId`, and a plan-appropriate charge breakdown.
 
 If all these scenarios pass, we've conquered this story.
 
@@ -324,9 +324,9 @@ Generated artifact: [the initial analysis context document](https://github.com/g
 
 This command produces a strategic-level analysis grounded in actual codebase exploration. The output focuses entirely on the “what” and “why,” deliberately avoiding granular implementation details at this stage. It typically covers:
 
-*   Domain concepts: existing vs. new, relationships, business rules
-*   Strategic approach: solution direction, design decisions, trade-offs
-*   Risks & gaps: ambiguities, edge cases, technical risks, acceptance-criteria coverage
+* Domain concepts: existing vs. new, relationships, business rules
+* Strategic approach: solution direction, design decisions, trade-offs
+* Risks & gaps: ambiguities, edge cases, technical risks, acceptance-criteria coverage
 
 #### Review and refine the analysis context
 
@@ -334,11 +334,11 @@ With our own understanding of the business requirements in mind, we review the g
 
 In this specific instance, the review focused on several critical areas:
 
-*   Whether the Strategy Pattern was appropriately considered.
-*   Adherence to the OOP principles established in the existing system, specifically ISP and SRP.
-*   The validity of the proposed strategy for adding new fields.
-*   Identifying edge cases not previously anticipated.
-*   Uncovering potential technical risks.
+* Whether the Strategy Pattern was appropriately considered.
+* Adherence to the OOP principles established in the existing system, specifically ISP and SRP.
+* The validity of the proposed strategy for adding new fields.
+* Identifying edge cases not previously anticipated.
+* Uncovering potential technical risks.
 
 Upon completing the review, the AI's analysis largely aligned with our architectural intent; in fact, its considerations were even more comprehensive than ours in certain areas.
 
@@ -373,9 +373,9 @@ Think of it as a progression: the analysis phase gave us strategic clarity; now 
 
 We never manually edit the structured prompt file. Instead, we maintain the SPDD iterative dialogue:
 
-1.   Identify the gap: spot missing elements (e.g., missing OO principles or a misunderstood business rule).
-2.   Input new prompt: provide the missing intent directly to the AI via a conversational interface.
-3.   AI updates the file: the AI processes the new intent and refines only the specific sections of the structured prompt that require changes.
+1. Identify the gap: spot missing elements (e.g., missing OO principles or a misunderstood business rule).
+2. Input new prompt: provide the missing intent directly to the AI via a conversational interface.
+3. AI updates the file: the AI processes the new intent and refines only the specific sections of the structured prompt that require changes.
 
 We will see a concrete, step-by-step example of this exact “prompt-first update” workflow later in [where we modify the prompt](https://martinfowler.com/articles/structured-prompt-driven/#logic-correction) to correct a business logic mismatch before touching any code.
 
@@ -405,9 +405,9 @@ Generated artifact: [code generated based on the structured prompt](https://gith
 
 Thanks to the multiple rounds of logical deduction we did earlier using structured prompts, we approach the code review with a clear focus and set of priorities:
 
-1.   Architecture: does the code strictly follow our expected 3-tier architecture?
-2.   Business logic: does the Service layer implementation perfectly align with our initial intent?
-3.   Scope of change: are the modifications strictly confined to the boundaries defined by the structured prompt, avoiding unrelated changes or scope creep?
+1. Architecture: does the code strictly follow our expected 3-tier architecture?
+2. Business logic: does the Service layer implementation perfectly align with our initial intent?
+3. Scope of change: are the modifications strictly confined to the boundaries defined by the structured prompt, avoiding unrelated changes or scope creep?
 
 In this specific case, thanks to the highly precise context, the generated code largely met our expectations, aside from a few potential “magic numbers.” We will optimize these out once the functional verification is complete.
 
@@ -491,10 +491,10 @@ Updated artifact: [the updated code](https://github.com/gszhangwei/token-billing
 
 It is important to note that we do not regenerate the entire codebase. We continue using the existing structured prompt and the AI handles targeted diffs:
 
-1.   Identify the mismatch: notice that the behavior of `modelId` during persistence is inconsistent with the new business requirement (it must be mandatory with a default).
-2.   Target the prompt snippet: copy the specific section from the structured prompt that defines the outdated logic.
-3.   Update the prompt: paste the extracted snippet into the chat alongside the revised business rule, instructing the AI to update the structured prompt first.
-4.   Generate targeted code updates: once the prompt reflects the new truth, run `/spdd-generate` pointing to the updated file. The AI automatically performs targeted diffs exclusively on the affected codebase, rather than regenerating everything from scratch.
+1. Identify the mismatch: notice that the behavior of `modelId` during persistence is inconsistent with the new business requirement (it must be mandatory with a default).
+2. Target the prompt snippet: copy the specific section from the structured prompt that defines the outdated logic.
+3. Update the prompt: paste the extracted snippet into the chat alongside the revised business rule, instructing the AI to update the structured prompt first.
+4. Generate targeted code updates: once the prompt reflects the new truth, run `/spdd-generate` pointing to the updated file. The AI automatically performs targeted diffs exclusively on the affected codebase, rather than regenerating everything from scratch.
 
 #### Refactoring (clean code & style)
 
@@ -587,10 +587,10 @@ Result: all tests passed. [Commit for tests](https://github.com/gszhangwei/token
 
 This marks the conclusion of a complete SPDD workflow. Through this standardized process, we successfully delivered the following key outcomes:
 
-1.   A business logic implementation with exceptionally high intent alignment (~99%).
-2.   Complete engineering transparency, including a clear understanding of the implementation path, technical decisions, and accepted trade-offs.
-3.   A structured prompt asset tightly synchronized with the current codebase, laying a solid foundation for future iterations.
-4.   Compounding human expertise, fostering a continuous accumulation of developer experience and mental models as we iterate collaboratively with the AI.
+1. A business logic implementation with exceptionally high intent alignment (~99%).
+2. Complete engineering transparency, including a clear understanding of the implementation path, technical decisions, and accepted trade-offs.
+3. A structured prompt asset tightly synchronized with the current codebase, laying a solid foundation for future iterations.
+4. Compounding human expertise, fostering a continuous accumulation of developer experience and mental models as we iterate collaboratively with the AI.
 
 [View the complete code diff for this enhancement](https://github.com/gszhangwei/token-billing/compare/before-enhancement...after-enhancement) on GitHub.
 

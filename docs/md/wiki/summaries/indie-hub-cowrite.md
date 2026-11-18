@@ -19,4 +19,4 @@ Cowrite 是内置于 Codex 的可视化创作工作台，将零散 Skill 封装�
 
 ## 关联概念
 
-[[Cowrite]] [[Codex Skill]] [[可视化写作工具]] [[飞书CLI]] [[ChatCut]]
+[[Cowrite]] [[Codex Skill]] [[可视化写作工具]] [[飞书 CLI]] [[ChatCut]]

@@ -37,7 +37,7 @@ graph LR
 
 ### 1、画框图
 
-1.1 可以使用 rectangle，component 等来画框图，例:
+1.1 可以使用 rectangle，component 等来画框图，例：
 
 ```
 @startuml
@@ -170,7 +170,7 @@ fenx--gl
 
 ### 4、辅助布局
 
-[类图的语法和功能 PlantUML 类图的语法：您可以定义接口，成员关系，包，泛型，注释... 改变字体和颜色也有可能![](https://plantuml.com/favicon.ico) https://plantuml.com/zh-dark/class-diagram#c08f8d9927fcb626](https://plantuml.com/zh-dark/class-diagram#c08f8d9927fcb626 "类图的语法和功能") 有时候，默认布局并不完美...
+[类图的语法和功能 PlantUML 类图的语法：您可以定义接口，成员关系，包，泛型，注释... 改变字体和颜色也有可能！[](https://plantuml.com/favicon.ico) https://plantuml.com/zh-dark/class-diagram#c08f8d9927fcb626](https://plantuml.com/zh-dark/class-diagram#c08f8d9927fcb626 “类图的语法和功能”) 有时候，默认布局并不完美...
 
 你可以使用 `together` 关键词将某些类进行分组： 布局引擎会尝试将它们捆绑在一起（如同在一个包 (package) 内)，你也可以使用建立 `hidden` 链接的方式来强制布局。例：
 

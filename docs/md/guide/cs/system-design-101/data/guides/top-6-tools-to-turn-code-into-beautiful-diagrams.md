@@ -15,9 +15,9 @@ tags:
 
 Here are the top tools to turn code into diagrams:
 
-*   Diagrams
-*   Go Diagrams
-*   Mermaid
-*   PlantUML
-*   ASCII diagrams
-*   Markmap
+* Diagrams
+* Go Diagrams
+* Mermaid
+* PlantUML
+* ASCII diagrams
+* Markmap

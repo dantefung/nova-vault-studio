@@ -46,7 +46,7 @@ Context Management
 
 
 
-## 01先复现问题
+## 01 先复现问题
 
 
 
@@ -98,11 +98,11 @@ Context Management
 
 
 
-## 02整体思路：三层，从便宜到贵
+## 02 整体思路：三层，从便宜到贵
 
 
 
-不要一上来就做"摘要压缩"。按代价从低到高，分三层：
+不要一上来就做“摘要压缩”。按代价从低到高，分三层：
 
 
 
@@ -132,7 +132,7 @@ Context Management
 
 
 
-## 03新建 context.py
+## 03 新建 context.py
 
 
 
@@ -148,11 +148,11 @@ Context Management
 
 
 
-    MAX_TOOL_CHARS = 4000          # 单个工具结果最多保留的字符数
+    MAX_TOOL_CHARS = 4000 # 单个工具结果最多保留的字符数
 
-    KEEP_RECENT_TOOL_RESULTS = 3   # 清理时，保留最近几条工具结果
+    KEEP_RECENT_TOOL_RESULTS = 3 # 清理时，保留最近几条工具结果
 
-    KEEP_LAST_TURNS = 2            # 压缩时，原样保留最近几轮用户对话
+    KEEP_LAST_TURNS = 2 # 压缩时，原样保留最近几轮用户对话
 
 
 
@@ -168,7 +168,7 @@ Context Management
 
 
 
-    SUMMARY_PROMPT = """你是对话摘要器。把下面这段 Agent 的历史对话压缩成摘要，要求：
+    SUMMARY_PROMPT = ""“你是对话摘要器。把下面这段 Agent 的历史对话压缩成摘要，要求：
 
     1. 保留：用户的目标、已完成的步骤、关键结论、重要的文件路径和参数、尚未解决的问题
 
@@ -212,7 +212,7 @@ Context Management
 
 
 
-这一步要明确告诉模型"被省略了"。否则它会把截断后的内容当成完整内容，得出错误结论。
+这一步要明确告诉模型”被省略了“。否则它会把截断后的内容当成完整内容，得出错误结论。
 
 
 
@@ -268,7 +268,7 @@ Agent 三步之前读过的那个文件内容，现在大概率已经不需要�
 
     def split_for_compact(messages, keep_turns=KEEP_LAST_TURNS):
 
-        """返回 (要被压缩的旧消息, 原样保留的新消息)；没有可压缩的内容返回 None。
+        ""”返回 (要被压缩的旧消息，原样保留的新消息)；没有可压缩的内容返回 None。
 
         约定 messages[0] 是 system。"""
 
@@ -350,7 +350,7 @@ Agent 三步之前读过的那个文件内容，现在大概率已经不需要�
 
             {"role": "user", "content": f"[以下是此前对话的摘要]\n{summary}"},
 
-            {"role": "assistant", "content": "好的，我已了解之前的进展，继续。"},
+            {"role": "assistant", "content": “好的，我已了解之前的进展，继续。"},
 
             *recent,
 
@@ -428,7 +428,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 
 
-## 04接入 agent.py
+## 04 接入 agent.py
 
 
 
@@ -446,15 +446,15 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 
 
-    SOFT_LIMIT = 16000   # 超过：清理旧工具结果
+    SOFT_LIMIT = 16000 # 超过：清理旧工具结果
 
-    HARD_LIMIT = 24000   # 超过：摘要压缩
+    HARD_LIMIT = 24000 # 超过：摘要压缩
 
     # 这两个是演示用的小值，方便你复现。实际按模型窗口的比例来设。
 
 
 
-    usage = {"prompt_tokens": 0}   # 上一次调用的真实 token 数（第 6 课会收进 Session）
+    usage = {"prompt_tokens": 0} # 上一次调用的真实 token 数（第 6 课会收进 Session）
 
 
 
@@ -482,7 +482,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
             usage["prompt_tokens"] = resp.usage.prompt_tokens if resp.usage else 0
 
-            print(f"   [prompt_tokens={usage['prompt_tokens']}]")
+            print(f" [prompt_tokens={usage['prompt_tokens']}]")
 
             msg = resp.choices[0].message
 
@@ -498,11 +498,11 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
                 print(f"🔧 {call.function.name}({call.function.arguments[:80]})")
 
-                result = handle_call(call, perms)          # 第 3 课的权限检查原样保留
+                result = handle_call(call, perms) # 第 3 课的权限检查原样保留
 
                 messages.append({"role": "tool", "tool_call_id": call.id,
 
-                                 "content": truncate_tool_result(result)})   # 第 1 层
+                                 "content": truncate_tool_result(result)}) # 第 1 层
 
         return "（达到最大步数，已停止）"
 
@@ -524,7 +524,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
         while True:
 
-            q = input("你> ").strip()
+            q = input(”你> ").strip()
 
             if q in ("exit", "quit"):
 
@@ -544,7 +544,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 **为什么用
 `elif`
-，而不是两层都做？** 压缩已经包含了"丢掉旧内容"的效果，没必要先清理再压缩。
+，而不是两层都做？** 压缩已经包含了“丢掉旧内容”的效果，没必要先清理再压缩。
 
 
 
@@ -556,11 +556,11 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 
 
-## 05验证：不要只相信"看起来能跑"
+## 05 验证：不要只相信“看起来能跑”
 
 
 
-**验证1：截断。** 不需要 API，直接断言：
+**验证 1：截断。** 不需要 API，直接断言：
 
 
 
@@ -576,7 +576,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
     assert len(out) < 4200
 
-    assert "省略" in out
+    assert “省略” in out
 
     assert truncate_tool_result("short") == "short"
 
@@ -584,7 +584,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 
 
-**验证2：压缩后 tool 消息不能孤立。** 这是最容易出线上问题的地方，写个检查函数：
+**验证 2：压缩后 tool 消息不能孤立。** 这是最容易出线上问题的地方，写个检查函数：
 
 
 
@@ -592,7 +592,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
     def check_pairing(messages):
 
-        """每条 tool 消息，前面必须有声明了该 tool_call_id 的 assistant 消息"""
+        ""“每条 tool 消息，前面必须有声明了该 tool_call_id 的 assistant 消息”""
 
         declared = set()
 
@@ -606,7 +606,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
             if m["role"] == "tool":
 
-                assert m["tool_call_id"] in declared, f"孤立的 tool 消息: {m['tool_call_id']}"
+                assert m["tool_call_id"] in declared, f“孤立的 tool 消息：{m['tool_call_id']}"
 
 
 
@@ -620,11 +620,11 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 `check_pairing`
 ，应该通过。配套代码的 
 `tests/test_context.py`
- 里有完整的测试，包括"清理只改内容、不删消息"和"会话文件不在工作区里"。
+ 里有完整的测试，包括”清理只改内容、不删消息“和”会话文件不在工作区里“。
 
 
 
-**验证3：真实跑一遍。** 把 
+**验证 3：真实跑一遍。** 把 
 `SOFT_LIMIT`
  调到 3000、
 `HARD_LIMIT`
@@ -650,7 +650,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 
 
-## 06这一版的局限
+## 06 这一版的局限
 
 
 
@@ -660,15 +660,15 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
   1. **摘要是有损的。** 摘要质量取决于你的 prompt 和模型，关键细节（比如某个具体的路径、参数）有可能丢。重要信息不要只靠摘要保存。
 
-  2. **只能在 user 消息处切。** 如果用户只发了一条指令，Agent 自己跑了五十步，这一个回合内部没有可切的边界，只能靠第1、2层兜底。
+  2. **只能在 user 消息处切。** 如果用户只发了一条指令，Agent 自己跑了五十步，这一个回合内部没有可切的边界，只能靠第 1、2 层兜底。
 
   3. **阈值是经验值。** 16000 / 24000 只是演示。真实场景要按所用模型的窗口来定，并且给输出留出空间。
 
-  4. **摘要会被反复摘要。** 第二次压缩时，上一次的摘要也在"旧消息"里，会被再压一遍，信息会逐轮衰减。
+  4. **摘要会被反复摘要。** 第二次压缩时，上一次的摘要也在”旧消息“里，会被再压一遍，信息会逐轮衰减。
 
 
 
-这些问题都不是靠再加一层就能彻底解决的，本质上是"有限窗口"这个约束决定的。
+这些问题都不是靠再加一层就能彻底解决的，本质上是”有限窗口“这个约束决定的。
 
 
 
@@ -676,17 +676,17 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 
 
-## 07主流 Agent 怎么做
+## 07 主流 Agent 怎么做
 
 
 
-三层"从便宜到贵"的思路，主流产品基本都是这么做的。区别在于第六节那几个局限，它们各自怎么补。
+三层”从便宜到贵“的思路，主流产品基本都是这么做的。区别在于第六节那几个局限，它们各自怎么补。
 
 
 
-**Claude Code：先清理，再摘要。** 据第三方对它的拆解，Claude Code 在上下文接近上限时，先做一步不调用模型的清理，把旧的工具输出清掉（它叫 microcompact），只有不够时才做完整的摘要。和我们第 2 层、第 3 层的顺序一样。你还可以在项目说明里写"压缩时保留什么"，或者手动 
+**Claude Code：先清理，再摘要。** 据第三方对它的拆解，Claude Code 在上下文接近上限时，先做一步不调用模型的清理，把旧的工具输出清掉（它叫 microcompact），只有不够时才做完整的摘要。和我们第 2 层、第 3 层的顺序一样。你还可以在项目说明里写”压缩时保留什么“，或者手动 
 `/compact`
- 时给出侧重点，这是在补"摘要可能丢掉关键细节"这个局限。
+ 时给出侧重点，这是在补”摘要可能丢掉关键细节“这个局限。
 
 
 
@@ -700,11 +700,11 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 `parentId`
 ，整个会话是一棵树。压缩只影响发给模型的内容，完整历史一直留在文件里，用 
 `/tree`
- 可以回到任何一个节点，从那里分叉重来。它承认摘要有损，然后保证"损"的只是模型看到的那一份。
+ 可以回到任何一个节点，从那里分叉重来。它承认摘要有损，然后保证”损“的只是模型看到的那一份。
 
 
 
-**Hermes：从"压缩"走向"检索"。** Hermes 用全文检索（SQLite 的 FTS5）索引过去所有的会话，需要时搜出相关片段，再让模型摘要。思路变了：与其把过去塞进窗口，不如需要时再找回来。这已经从"上下文管理"走到了"记忆"。
+**Hermes：从”压缩“走向”检索“。** Hermes 用全文检索（SQLite 的 FTS5）索引过去所有的会话，需要时搜出相关片段，再让模型摘要。思路变了：与其把过去塞进窗口，不如需要时再找回来。这已经从”上下文管理“走到了”记忆“。
 
 
 
@@ -712,7 +712,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 
 
-## 08本课小结
+## 08 本课小结
 
 
 
@@ -742,7 +742,7 @@ messages 本身就是一个 list of dict，直接存 JSON 即可：
 
 
 
-上下文管理解决的是"历史太长"。还有一类内容，长度是你自己加上去的：给 Agent 的各种规矩和说明。全塞进 system prompt，每一轮都要付费。下一课讲怎么让它按需加载。
+上下文管理解决的是”历史太长“。还有一类内容，长度是你自己加上去的：给 Agent 的各种规矩和说明。全塞进 system prompt，每一轮都要付费。下一课讲怎么让它按需加载。
 
 
 

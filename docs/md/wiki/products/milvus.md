@@ -11,14 +11,14 @@ title: "Milvus 向量数据库"
 - **高并发**：支持海量数据的高并发检索
 - **持久化**：支持数据持久化存储
 - **混合检索**：支持向量检索 + 全文检索
-- **丰富索引**：支持HNSW、IVF、PQ等多种索引类型
+- **丰富索引**：支持 HNSW、IVF、PQ 等多种索引类型
 
 ## Technical Highlights
 
-- 云原生架构，支持Kubernetes部署
+- 云原生架构，支持 Kubernetes 部署
 - 支持分布式集群
-- 丰富的客户端SDK（Python、Java、Go等）
-- 10K+ GitHub星标
+- 丰富的客户端 SDK（Python、Java、Go 等）
+- 10K+ GitHub 星标
 
 ## Use Cases
 
@@ -35,4 +35,4 @@ title: "Milvus 向量数据库"
 ## Sources
 
 - [[智能客服专栏] 技术选型对比](../../guide/ai/intelligent-customer-service/05-tech-comparison.md)
-- [[智能客服专栏] RAG实现详解](../../guide/ai/intelligent-customer-service/02-rag-implementation.md)
+- [[智能客服专栏] RAG 实现详解](../../guide/ai/intelligent-customer-service/02-rag-implementation.md)

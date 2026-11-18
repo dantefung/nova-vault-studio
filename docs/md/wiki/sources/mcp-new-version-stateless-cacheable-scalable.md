@@ -54,7 +54,7 @@ MCP 正在从一个类似 LSP 的、有会话的双向 RPC 协议，变成更接
 
 ![image](../images/mcp-new-version-stateless-cacheable-scalable/003.webp)
 
-以前是"服务端 hold 住电话等客户端回答"，现在是"服务端先把待确认事项和续办凭证交给客户端，客户端收集完答案后重新提交"。
+以前是“服务端 hold 住电话等客户端回答”，现在是“服务端先把待确认事项和续办凭证交给客户端，客户端收集完答案后重新提交”。
 
 新版结果增加了 `resultType`：普通完成是 `complete`，需要补充输入是 `input_required`；Tasks 扩展还会增加 `task`。
 

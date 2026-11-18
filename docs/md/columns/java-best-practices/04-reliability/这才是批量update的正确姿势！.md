@@ -16,7 +16,7 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 ## 1 案发现场
 
-有一天上午，在我的知识星球群里，有位小伙伴问了我一个问题：批量更新你们一般是使用when case吗？还是有其他的批量更新方法？
+有一天上午，在我的知识星球群里，有位小伙伴问了我一个问题：批量更新你们一般是使用 when case 吗？还是有其他的批量更新方法？
 
 我的回答是：咱们星球的商城项目中，有批量更新的代码可以参考一下，这个项目中很多代码，大家平时可以多看看。
 
@@ -31,7 +31,7 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 有小伙伴说，第一次见到这种写法，涨知识了。
 
-还有小伙伴问，上面这种写法，跟直接for循环中update有什么区别？
+还有小伙伴问，上面这种写法，跟直接 for 循环中 update 有什么区别？
 
 ```auto
 for(UserEntity userEntity: list) {
@@ -39,11 +39,11 @@ for(UserEntity userEntity: list) {
 }
 ```
 
-直接for循环需要多次请求数据库，网络有一定的开销，很显然没有批量一次请求数据库的好。
+直接 for 循环需要多次请求数据库，网络有一定的开销，很显然没有批量一次请求数据库的好。
 
 ## 2 其他的批量更新写法
 
-有小伙说，他之前一直都是用的case when的写法。
+有小伙说，他之前一直都是用的 case when 的写法。
 
 类似下面这样的：
 
@@ -79,7 +79,7 @@ for(UserEntity userEntity: list) {
 
 但这种写法显然需要拼接很多条件，有点复杂，而且性能也不太好。
 
-还有些文章中介绍，可以使用在insert的时候，可以在语句最后加上ON DUPLICATE KEY UPDATE关键字。
+还有些文章中介绍，可以使用在 insert 的时候，可以在语句最后加上 ON DUPLICATE KEY UPDATE 关键字。
 
 ```auto
  <update id="updateForBatch" parameterType="cn.net.susan.entity.sys.UserEntity">
@@ -99,11 +99,11 @@ for(UserEntity userEntity: list) {
 
 这种方式我之前也用过，一般需要创建唯一索引。
 
-因为很多时候主键id，是自动增长的或者根据雪花算法生成的，每次都不一样，没法区分多次相同业务参数请求的唯一性。
+因为很多时候主键 id，是自动增长的或者根据雪花算法生成的，每次都不一样，没法区分多次相同业务参数请求的唯一性。
 
 因此，建议创建一个唯一索引，来保证业务数据的唯一性。
 
-比如：给username创建唯一索引，在insert的时候，发现username已存在，则执行update操作，更新password。
+比如：给 username 创建唯一索引，在 insert 的时候，发现 username 已存在，则执行 update 操作，更新 password。
 
 这种方式批量更新数据，性能比较好，但一般的大公司很少会用，因为非常容易出现死锁的问题。
 
@@ -111,19 +111,19 @@ for(UserEntity userEntity: list) {
 
 ## 3 发现了一个问题
 
-群里另外一位小伙伴，按照我的建议，在自己的项目中尝试了一下foreach的这种批量更新操作，但代码报了一个异常：
+群里另外一位小伙伴，按照我的建议，在自己的项目中尝试了一下 foreach 的这种批量更新操作，但代码报了一个异常：
 
 ```auto
 sql injection violation, multi-statement not allow
 ```
 
-这个异常是阿里巴巴druid包的WallFilter中报出来了。
+这个异常是阿里巴巴 druid 包的 WallFilter 中报出来了。
 
-它里面有个checkInternal方法，会对sql语句做一些校验，如果不满足条件，就会抛异常：![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
+它里面有个 checkInternal 方法，会对 sql 语句做一些校验，如果不满足条件，就会抛异常：![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
-而druid默认不支持一条sql语句中包含多个statement语句，例如：我们的批量update数据的场景。
+而 druid 默认不支持一条 sql 语句中包含多个 statement 语句，例如：我们的批量 update 数据的场景。
 
-此外，MySQL默认也是关闭批量更新数据的，不过我们可以在jdbc的url要上，添加字符串参数：`&allowMultiQueries=true`，开启批量更新操作。
+此外，MySQL 默认也是关闭批量更新数据的，不过我们可以在 jdbc 的 url 要上，添加字符串参数：`&allowMultiQueries=true`，开启批量更新操作。
 
 比如：
 
@@ -139,9 +139,9 @@ datasource:
 
 这个改动非常简单。
 
-但WallFilter中的校验问题如何解决呢？
+但 WallFilter 中的校验问题如何解决呢？
 
-于是，我上网查了一下，可以通过参数调整druid中的filter的判断逻辑，比如：
+于是，我上网查了一下，可以通过参数调整 druid 中的 filter 的判断逻辑，比如：
 
 ```auto
 spring:
@@ -159,11 +159,11 @@ spring:
             none-base-statement-allow: true
 ```
 
-通过设置filter中的multi-statement-allow和none\-base\-statement-allow为true，这样就能开启批量更新的功能。
+通过设置 filter 中的 multi-statement-allow 和 none\-base\-statement-allow 为 true，这样就能开启批量更新的功能。
 
 ## 4 一直不生效
 
-普通使用druid的datasource配置，通过上面这样调整是OK的。
+普通使用 druid 的 datasource 配置，通过上面这样调整是 OK 的。
 
 但有些小伙伴发现，咱们的商城项目中，通过上面的两个地方的修改，还是一直报下面的异常：
 
@@ -173,7 +173,7 @@ sql injection violation, multi-statement not allow
 
 这是怎么回事呢？
 
-答：咱们商城项目中的订单表，使用shardingsphere做了分库分表，并且使用baomidou实现多个数据源动态切换的功能：
+答：咱们商城项目中的订单表，使用 shardingsphere 做了分库分表，并且使用 baomidou 实现多个数据源动态切换的功能：
 
 ```auto
 <dependency>
@@ -183,7 +183,7 @@ sql injection violation, multi-statement not allow
 </dependency>
 ```
 
-我们是使用了baomidou包下的数据源配置，这个配置在DynamicDataSourceProperties类中：
+我们是使用了 baomidou 包下的数据源配置，这个配置在 DynamicDataSourceProperties 类中：
 
 ```auto
 /**
@@ -286,7 +286,7 @@ public class DynamicDataSourceProperties {
 }
 ```
 
-这个类是数据库的配置类，我们可以看到master和druid的配置是在同一层级的，于是，将application.yml文件中的配置改成下面这样的：
+这个类是数据库的配置类，我们可以看到 master 和 druid 的配置是在同一层级的，于是，将 application.yml 文件中的配置改成下面这样的：
 
 ```auto
 spring:
@@ -307,36 +307,36 @@ spring:
           noneBaseStatementAllow: true
 ```
 
-这样改动之后，商城项目中使用foreach这种批量更新数据的功能OK了。
+这样改动之后，商城项目中使用 foreach 这种批量更新数据的功能 OK 了。
 
 ## 5 最后
 
 本文由一位球友的问题开始，讨论了批量更新的四种常见方式：
 
-1.  for循环中一条条更新
+1. for 循环中一条条更新
     
-2.  foreach拼接update语句后批量更新。
+2. foreach 拼接 update 语句后批量更新。
     
-3.  使用case when的方式做判断。
+3. 使用 case when 的方式做判断。
     
-4.  使用insert into on duplicate key update语法，批量插入或者批量更新。
+4. 使用 insert into on duplicate key update 语法，批量插入或者批量更新。
     
 
-虽说有很多种方式，但我个人认为批量update的最佳方式是第2种方式。
+虽说有很多种方式，但我个人认为批量 update 的最佳方式是第 2 种方式。
 
-但需要需要的地方是，使用foreach做批量更新的时候，一次性更新的数据不宜太多，尽量控制在1000以内，这样更新的性能还是不错的。
+但需要需要的地方是，使用 foreach 做批量更新的时候，一次性更新的数据不宜太多，尽量控制在 1000 以内，这样更新的性能还是不错的。
 
-如果需要更新的数据超过了1000，则需要分成多批更新。
+如果需要更新的数据超过了 1000，则需要分成多批更新。
 
-此外，如果大家遇到执行批量update操作，不支持批量更新问题时：
+此外，如果大家遇到执行批量 update 操作，不支持批量更新问题时：
 
 ```auto
 sql injection violation, multi-statement not allow
 ```
 
-首先要在数据库连接的url后面增加&allowMultiQueries\=true参数，开启数据的批量更新操作。
+首先要在数据库连接的 url 后面增加&allowMultiQueries\=true 参数，开启数据的批量更新操作。
 
-如果使用了druid数据库驱动的，可以在配置文件中调整filter的参数。
+如果使用了 druid 数据库驱动的，可以在配置文件中调整 filter 的参数。
 
 ```auto
 spring:
@@ -349,15 +349,15 @@ spring:
             none-base-statement-allow: true
 ```
 
-主要是multi-statement-allow设置成true。
+主要是 multi-statement-allow 设置成 true。
 
-如果你还使用了其他第三方的数据库中间件，比如我使用了baomidou实现多个数据源动态切换的功能。
+如果你还使用了其他第三方的数据库中间件，比如我使用了 baomidou 实现多个数据源动态切换的功能。
 
-这时候，需要查看它的源码，确认它multi-statement-allow的配置参数是怎么配置的，有可能跟druid不一样。
+这时候，需要查看它的源码，确认它 multi-statement-allow 的配置参数是怎么配置的，有可能跟 druid 不一样。
 
 ## 文末送书
 
-为了感谢一路支持苏三的小伙们，今天特地给大家送一点小福利。规则非常简单：**在本文留言，按点赞数量排名，点赞数量最多的前3位，每人获取1本书。（**你可以发朋友圈集赞，或者发微信群集赞。但如果发现有人用机器刷点赞数，立即取消资格，并且拉黑**）**
+为了感谢一路支持苏三的小伙们，今天特地给大家送一点小福利。规则非常简单：**在本文留言，按点赞数量排名，点赞数量最多的前 3 位，每人获取 1 本书。（**你可以发朋友圈集赞，或者发微信群集赞。但如果发现有人用机器刷点赞数，立即取消资格，并且拉黑**）**
 
 后面我会朋友圈公布中奖名单，给你免费包邮到家！这些书是由电子工业出版社提供的，感谢赞助。
 
@@ -365,9 +365,9 @@ spring:
 
 ![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
-《漫画设计模式》围绕主人公“兔小白”和“熊小猫”的对话展开，辅以百余张贴合内容、生动形象的手绘插画，以轻松、幽默的方式讲解GoF的23种设计模式。
+《漫画设计模式》围绕主人公“兔小白”和“熊小猫”的对话展开，辅以百余张贴合内容、生动形象的手绘插画，以轻松、幽默的方式讲解 GoF 的 23 种设计模式。
 
-《漫画设计模式》共27章，第1、2章简要介绍设计模式和设计原则，第3～26章详细介绍设计模式，第27章重点讲解从23种设计模式中提炼的10种设计手法。各章的内容结构为：首先，从现实生活中的常见案例切入，讲解设计模式的结构、功能、优势和意图，使读者形成具象的宏观认知；然后，将案例作为编码练习，使用Java语言开发，并在一次次代码重构中完善程序设计，引导读者思考程序设计中的问题和解决思路；最后，自然而然地引出设计模式的结构图和适用场景等。
+《漫画设计模式》共 27 章，第 1、2 章简要介绍设计模式和设计原则，第 3～26 章详细介绍设计模式，第 27 章重点讲解从 23 种设计模式中提炼的 10 种设计手法。各章的内容结构为：首先，从现实生活中的常见案例切入，讲解设计模式的结构、功能、优势和意图，使读者形成具象的宏观认知；然后，将案例作为编码练习，使用 Java 语言开发，并在一次次代码重构中完善程序设计，引导读者思考程序设计中的问题和解决思路；最后，自然而然地引出设计模式的结构图和适用场景等。
 
 《漫画设计模式》既适合具备一定面向对象语言基础且希望提升程序设计水平的开发人员，也适合想要系统学习设计模式的程序员，还可作为高等院校计算机等相关专业师生的参考资料。![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
 
@@ -377,7 +377,7 @@ spring:
 
 求一键三连：点赞、转发、在看。
 
-关注公众号：【苏三说技术】，在公众号中回复：面试、代码神器、开发手册、时间管理有超赞的粉丝福利，另外回复：加群，可以跟很多BAT大厂的前辈交流和学习。
+关注公众号：【苏三说技术】，在公众号中回复：面试、代码神器、开发手册、时间管理有超赞的粉丝福利，另外回复：加群，可以跟很多 BAT 大厂的前辈交流和学习。
 
   
 

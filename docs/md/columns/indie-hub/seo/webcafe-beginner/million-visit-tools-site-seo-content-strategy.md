@@ -6,17 +6,17 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/9F4dZkZ7L3JPDNnaRRWRkW"
 ---
 
-# 月访问量八百万的在线自动化工具站如何用内容做SEO获取大量优质免费流量？
+# 月访问量八百万的在线自动化工具站如何用内容做 SEO 获取大量优质免费流量？
 
 大家好，我是哥飞。
 
 今天我们聊聊 zapier.com， 一个在线自动化工具网站，Zapier 帮助用户连接应用和服务来实现自动化流程。
 
-在 Similarweb 可以看到，上个月访问量 875万左右，人均访问7.2个页面，用户停留时间4分22秒，很不错的数据。 
+在 Similarweb 可以看到，上个月访问量 875 万左右，人均访问 7.2 个页面，用户停留时间 4 分 22 秒，很不错的数据。 
 
 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_002.webp)
 
- 从最近六个月的访问量来看，最低是4月份的826万，之后一路上涨，到了8月最高到了973万，之后在9月回落了一些。 
+ 从最近六个月的访问量来看，最低是 4 月份的 826 万，之后一路上涨，到了 8 月最高到了 973 万，之后在 9 月回落了一些。 
 
 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_003.webp)
 
@@ -26,11 +26,11 @@ url: "https://new.web.cafe/tutorial/detail/9F4dZkZ7L3JPDNnaRRWRkW"
 
 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_004.webp)
 
- 哥飞真正愿意拿这个网站当案例，是因为自然搜索词里除了品牌词，居然还出现了2个AI相关的关键词。付费搜索里，居然也买了AI相关的关键词。 
+ 哥飞真正愿意拿这个网站当案例，是因为自然搜索词里除了品牌词，居然还出现了 2 个 AI 相关的关键词。付费搜索里，居然也买了 AI 相关的关键词。 
 
 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_005.webp)
 
- 我们打开 Semrush 看下这个网站的流量情况，刚才我们在 Similarweb 看到，自然搜索流量是 0.489\*875 约等于 427万，跟 Semrush 的 430 万居然很接近。 
+ 我们打开 Semrush 看下这个网站的流量情况，刚才我们在 Similarweb 看到，自然搜索流量是 0.489\*875 约等于 427 万，跟 Semrush 的 430 万居然很接近。 
 
 ![image.png](images/million-visit-tools-site-seo-content-strategy/img_006.webp)
 
@@ -52,11 +52,11 @@ url: "https://new.web.cafe/tutorial/detail/9F4dZkZ7L3JPDNnaRRWRkW"
 
 答案是用优质内容从搜索引擎吸引潜在用户点击。
 
-对于我们做AI类产品有什么启发？
+对于我们做 AI 类产品有什么启发？
 
 启发一：工具站请一定加个博客，去做内容。
 
-启发二：AI相关关键词优化不难，很值得大家去做。
+启发二：AI 相关关键词优化不难，很值得大家去做。
 
 其实哥飞之前写过《[AI+强需求=新工具](https://mp.weixin.qq.com/s/mzQFx5Id_nGxcubyYakiYA)》、《[放眼世界，遍地是金矿，此时不做AI，更待何时](https://mp.weixin.qq.com/s/De93EIfIJKzHD7N9vFVURQ)》，现在大家知道哥飞为什么一直让大家去做AI工具网站了吧？
 

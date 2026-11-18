@@ -9,7 +9,7 @@ author: "袁小康"
 
 > 文章序号：第 13 篇 | 作者：袁小康
 
-随着 Agent 能力越来越多，System Prompt 也从一句话演化成了一个多层架构。这篇深入聊聊 System Prompt 的工程设计——怎么把一大堆指令有序地"注入"到 Agent 的 System Prompt 里。前十二篇文章分别讲了 Agent 的 Loop、Tools、上下文记忆、上下文压缩、MCP、Skill、TUI、任务规划、Subagent 子代理、Command、Auto Memory 和 Agent.md。这篇聊一个贯穿整个系列的核心话题——System Prompt 的架构设计。
+随着 Agent 能力越来越多，System Prompt 也从一句话演化成了一个多层架构。这篇深入聊聊 System Prompt 的工程设计——怎么把一大堆指令有序地“注入”到 Agent 的 System Prompt 里。前十二篇文章分别讲了 Agent 的 Loop、Tools、上下文记忆、上下文压缩、MCP、Skill、TUI、任务规划、Subagent 子代理、Command、Auto Memory 和 Agent.md。这篇聊一个贯穿整个系列的核心话题——System Prompt 的架构设计。
 ![image](images/article-13/001.webp)
 ## 一、从一行到一百行
 第三篇文章里，evo-agent 的系统提示词只有一行：

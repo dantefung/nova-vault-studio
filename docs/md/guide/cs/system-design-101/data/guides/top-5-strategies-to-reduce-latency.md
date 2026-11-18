@@ -19,9 +19,9 @@ For high-scale user-facing systems, high latency is a big loss of revenue.
 
 Here are the top strategies to reduce latency:
 
-*   **Database Indexing**
-*   **Caching**
-*   **Load Balancing**
-*   **Content Delivery Network**
-*   **Async Processing**
-*   **Data Compression**
+* **Database Indexing**
+* **Caching**
+* **Load Balancing**
+* **Content Delivery Network**
+* **Async Processing**
+* **Data Compression**

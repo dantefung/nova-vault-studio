@@ -56,4 +56,4 @@ url: "https://mp.weixin.qq.com/s/fbKi7IrAvmv49IfJbI9w7Q"
 ---
 
 
-[← 上一篇：06、Cordis与Pi两种答案](./06-cordis-dsh-vs-pi.md) | [→ 专栏首页](./index.md)
+[← 上一篇：06、Cordis 与 Pi 两种答案](./06-cordis-dsh-vs-pi.md) | [→ 专栏首页](./index.md)

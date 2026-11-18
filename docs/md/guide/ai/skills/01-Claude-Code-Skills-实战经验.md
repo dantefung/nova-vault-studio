@@ -17,7 +17,7 @@ Skills 已经成为 Claude Code 中使用最广泛的扩展点（extension point
 
 如果你还不了解 Skills，建议先看看我们的文档或最新的 Skilljar 上关于 Agent Skills 的课程，本文假设你已经对 Skills 有了基本的了解。
 
-我们经常听到一个误解，认为 Skills"只不过是 markdown 文件"。但 Skills 最有意思的地方恰恰在于它们不只是文本文件——它们是文件夹，可以包含脚本、资源文件、数据等等，智能体可以发现、探索和使用这些内容。
+我们经常听到一个误解，认为 Skills“只不过是 markdown 文件”。但 Skills 最有意思的地方恰恰在于它们不只是文本文件——它们是文件夹，可以包含脚本、资源文件、数据等等，智能体可以发现、探索和使用这些内容。
 
 在 Claude Code 中，Skills 还拥有丰富的配置选项，包括注册动态钩子（hooks）。
 
@@ -54,7 +54,7 @@ Skills 已经成为 Claude Code 中使用最广泛的扩展点（extension point
 连接你的数据和监控体系的 Skills。这类 Skills 可能会包含带有凭证的数据获取库、特定的仪表盘 ID 等，以及常用工作流和数据获取方式的说明。
 
 示例：
-- `funnel-query` — "要看注册→激活→付费的转化，需要关联哪些事件？"，再加上真正存放规范 user_id 的那张表
+- `funnel-query` — “要看注册→激活→付费的转化，需要关联哪些事件？"，再加上真正存放规范 user_id 的那张表
 - `cohort-compare` — 对比两个用户群的留存或转化率，标记统计显著的差异，链接到分群定义
 - `grafana` — 数据源 UID、集群名称、问题→仪表盘对照表
 
@@ -81,7 +81,7 @@ Skills 已经成为 Claude Code 中使用最广泛的扩展点（extension point
 在团队内部执行代码质量标准并辅助代码审查的 Skills。可以包含确定性的脚本或工具来保证最大的可靠性。你可能希望把这些 Skills 作为钩子的一部分自动运行，或者放在 GitHub Action 中执行。
 
 示例：
-- `adversarial-review` — 生成一个全新视角的子智能体来挑刺，实施修复，反复迭代直到发现的问题退化为吹毛求疵。子智能体（subagent）是指 Claude Code 在执行任务时启动的另一个独立 Claude 实例。这里的做法是让一个"没见过这段代码"的新实例来做代码审查，避免原实例的思维惯性。
+- `adversarial-review` — 生成一个全新视角的子智能体来挑刺，实施修复，反复迭代直到发现的问题退化为吹毛求疵。子智能体（subagent）是指 Claude Code 在执行任务时启动的另一个独立 Claude 实例。这里的做法是让一个”没见过这段代码“的新实例来做代码审查，避免原实例的思维惯性。
 - `code-style` — 强制执行代码风格，特别是那些 Claude 默认做不好的风格
 - `testing-practices` — 关于如何写测试以及测试什么的指导
 
@@ -110,7 +110,7 @@ Skills 已经成为 Claude Code 中使用最广泛的扩展点（extension point
 示例：
 - `<resource>-orphans` — 找到孤立的 Pod/Volume→发到 Slack→等待观察→用户确认→级联清理
 - `dependency-management` — 你所在组织的依赖审批工作流
-- `cost-investigation` — "我们的存储/出口带宽费用为什么突然涨了"，附带具体的存储桶和查询模式
+- `cost-investigation` — ”我们的存储/出口带宽费用为什么突然涨了“，附带具体的存储桶和查询模式
 
 ## 编写技巧
 
@@ -154,9 +154,9 @@ Claude 通常会努力遵循你的指令，而由于 Skills 的复用性很强�
 
 ### description 字段是给模型看的
 
-当 Claude Code 启动一个会话时，它会构建一份所有可用 Skills 及其描述的清单。Claude 通过扫描这份清单来判断"这个请求有没有对应的 Skill？"所以 `description` 字段不是摘要——它描述的是**何时该触发这个 Skill**。
+当 Claude Code 启动一个会话时，它会构建一份所有可用 Skills 及其描述的清单。Claude 通过扫描这份清单来判断”这个请求有没有对应的 Skill？“所以 `description` 字段不是摘要——它描述的是**何时该触发这个 Skill**。
 
-这条建议经常被忽略。很多人写 description 时会写"这个 Skill 做什么"，但 Claude 需要的是"什么情况下该用这个 Skill"。好的 description 读起来更像 if-then 条件，而不是功能说明。
+这条建议经常被忽略。很多人写 description 时会写”这个 Skill 做什么“，但 Claude 需要的是”什么情况下该用这个 Skill"。好的 description 读起来更像 if-then 条件，而不是功能说明。
 
 ### 记忆与数据存储
 
@@ -172,7 +172,7 @@ Claude 通常会努力遵循你的指令，而由于 Skills 的复用性很强�
 
 例如，在你的数据科学 Skill 中，你可以放一组从事件源获取数据的函数库。为了让 Claude 做更复杂的分析，你可以提供一组辅助函数。
 
-Claude 就可以即时生成脚本来组合这些功能，完成更高级的分析——比如回答"周二发生了什么？"这样的问题。
+Claude 就可以即时生成脚本来组合这些功能，完成更高级的分析——比如回答“周二发生了什么？”这样的问题。
 
 ### 按需钩子
 
@@ -180,7 +180,7 @@ Skills 可以包含只在该 Skill 被调用时才激活的钩子（On Demand Ho
 
 例如：
 - `/careful` — 通过 `PreToolUse` 匹配器拦截 Bash 中的 `rm -rf`、`DROP TABLE`、force-push、`kubectl delete`。你只在知道自己在操作生产环境时才需要这个——要是一直开着会让你抓狂。PreToolUse 是 Claude Code 的钩子（hook）机制之一，会在 Claude 每次调用工具之前触发。你可以在这个钩子里检查 Claude 即将执行的命令，如果命中危险操作就阻止执行。这里 `/careful` 是一个按需激活的 Skill，只有用户主动调用时才会注册这个钩子。
-- `/freeze` — 阻止对特定目录之外的任何 Edit/Write 操作。在调试时特别有用："我想加日志但老是不小心'修'了不相关的代码"
+- `/freeze` — 阻止对特定目录之外的任何 Edit/Write 操作。在调试时特别有用：“我想加日志但老是不小心’修’了不相关的代码”
 
 ---
 

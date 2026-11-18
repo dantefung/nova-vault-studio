@@ -37,15 +37,15 @@ graph TD
 
 [](#默认配置的-vscode-插件)
 
-*   `Markdown` 预览增强 `hd101wyy.markdown-preview-enhanced`
-*   `Markdown` 多合一 `yzhang.markdown-all-in-one`
-*   `Markdown` 格式化`esbenp.prettier-vscode`
-*   `Draw.io`插件 `hediet.vscode-drawio`
-*   `Draw.io`插入`mermaid`的插件 `nopeslide.vscode-drawio-plugin-mermaid`
-*   `Excalidraw` 插件 `pomdtr.excalidraw-editor`
-*   `PlantUML`插件 `jebbs.plantuml`
-*   `Mermaid` 插件 `bierner.markdown-mermaid`
-*   `Mermaid` 高亮插件 `bpruitt-goddard.mermaid-markdown-syntax-highlighting`
+* `Markdown` 预览增强 `hd101wyy.markdown-preview-enhanced`
+* `Markdown` 多合一 `yzhang.markdown-all-in-one`
+* `Markdown` 格式化`esbenp.prettier-vscode`
+* `Draw.io`插件 `hediet.vscode-drawio`
+* `Draw.io`插入`mermaid`的插件 `nopeslide.vscode-drawio-plugin-mermaid`
+* `Excalidraw` 插件 `pomdtr.excalidraw-editor`
+* `PlantUML`插件 `jebbs.plantuml`
+* `Mermaid` 插件 `bierner.markdown-mermaid`
+* `Mermaid` 高亮插件 `bpruitt-goddard.mermaid-markdown-syntax-highlighting`
 
 `Markdown` 语法
 -------------
@@ -72,10 +72,10 @@ graph TD
 
 > 基于 `Draw.io VS Code Integration` 插件，可以把 `drawio` 绘图插入到 `Markdown`中，详见工程中示例
 
-*   具体实现
-    *   安装`Draw.io VS Code Integration`插件, 基于此工程更顺利，已内置好配置
-    *   在目录中建立 `*.drawio.svg` 或 `*.drawio.png` 文件，如：`test.drawio.svg` 双击打开便可以自由绘图, 与 `drawio`在线绘图或本地客户端绘图效果一样，无法这样是直接保存为图片模式
-    *   在`Markdown`中 使用引用图片语法即可，如：`![测试](test.drawio.svg)`
+* 具体实现
+    * 安装`Draw.io VS Code Integration`插件，基于此工程更顺利，已内置好配置
+    * 在目录中建立 `*.drawio.svg` 或 `*.drawio.png` 文件，如：`test.drawio.svg` 双击打开便可以自由绘图，与 `drawio`在线绘图或本地客户端绘图效果一样，无法这样是直接保存为图片模式
+    * 在`Markdown`中 使用引用图片语法即可，如：`![测试](test.drawio.svg)`
 
 ### `Excalidraw` 白板
 
@@ -85,18 +85,18 @@ graph TD
 > 
 > 基于 `Excalidraw` 插件，可以自由绘图并插入到 `Markdown`中，详见工程中示例
 
-*   具体实现
-    *   安装`Excalidraw`插件, 基于此工程更顺利，已内置好配置
-    *   在目录中建立 `*.excalidraw.svg` 或 `*.excalidraw.png` 文件，如：`test.excalidraw.svg` 双击打开便可以自由绘图
-    *   在`Markdown`中 使用引用图片语法即可，如：`![测试](test.excalidraw.svg)`
+* 具体实现
+    * 安装`Excalidraw`插件，基于此工程更顺利，已内置好配置
+    * 在目录中建立 `*.excalidraw.svg` 或 `*.excalidraw.png` 文件，如：`test.excalidraw.svg` 双击打开便可以自由绘图
+    * 在`Markdown`中 使用引用图片语法即可，如：`![测试](test.excalidraw.svg)`
 
 ### `PlantUML` `UML`绘图
 
-[](#plantuml-uml绘图)
+[](#plantuml-uml 绘图)
 
 > 语法详见 [PlantUML](https://plantuml.com/zh/)
 > 
-> 基于 `PlantUML`插件进行编辑 `UML`, 如果离线操作需要安装`Java` 相关驱动, 基于此工程更顺利，已内置好相关配置，在线服务
+> 基于 `PlantUML`插件进行编辑 `UML`, 如果离线操作需要安装`Java` 相关驱动，基于此工程更顺利，已内置好相关配置，在线服务
 > 
 > `puml` 或者 `plantuml` 代码块中的内容将会被 `PlantUML` 渲染。
 > 
@@ -130,7 +130,7 @@ graph TD
 
 > 官网 [GraphViz](https://viz-js.com/)
 > 
-> `viz` 或者 `dot` 代码块中的内容将会被 `Viz.js` 渲染。  
+> `viz` 或者 `dot` 代码块中的内容将会被 `Viz.js` 渲染。 
 > 你可以通过 `{engine="..."}` 来选择不同的渲染引擎。 引擎 `circo，dot，neato，osage`，或者 `twopi` 是被支持的。默认下，使用 `dot` 引擎。
 > 
 > 完整 的 `Markdown GraphViz` 示例 详见 `/template/index.md`
@@ -168,11 +168,11 @@ graph TD
 
 [](#markdown-导出)
 
-> *   基于 `Markdown Preview Enhanced`插件预览后进行选择导出对应格式文件
-> *   princexml 模式导出
->     *   导出时先安装 [princexml](https://www.princexml.com/download/)
-> *   如果不想安装`princexml`可直接选择 `chrome(Puppeteer)`模式导出
->     *   推荐`chrome(Puppeteer)`模式导出
+> * 基于 `Markdown Preview Enhanced`插件预览后进行选择导出对应格式文件
+> * princexml 模式导出
+> * 导出时先安装 [princexml](https://www.princexml.com/download/)
+> * 如果不想安装`princexml`可直接选择 `chrome(Puppeteer)`模式导出
+> * 推荐`chrome(Puppeteer)`模式导出
 
 TOC 目录
 ------
@@ -197,9 +197,9 @@ toc:
 
 ```
 
-*   `orderedList` 是否使用有序列表。
-*   `depthFrom`, `depthTo [1~6]` 包含的。
-*   `ignoreLink` 如果设置为 `true`，那么 `TOC` 将不会被超链接。 即 标题后面加入 `{ignore=true}`
+* `orderedList` 是否使用有序列表。
+* `depthFrom`, `depthTo [1~6]` 包含的。
+* `ignoreLink` 如果设置为 `true`，那么 `TOC` 将不会被超链接。 即 标题后面加入 `{ignore=true}`
 
 效果如下
 ----

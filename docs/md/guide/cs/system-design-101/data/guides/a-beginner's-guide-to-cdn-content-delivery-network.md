@@ -19,10 +19,10 @@ CDNs are distributed server networks that help improve the performance, reliabil
 
 ## The Overall CDN Diagram explains:
 
-*   Edge servers are located closer to the end user than traditional servers, which helps reduce latency and improve website performance.
+* Edge servers are located closer to the end user than traditional servers, which helps reduce latency and improve website performance.
 
-*   Edge computing is a type of computing that processes data closer to the end user rather than in a centralized data center. This helps to reduce latency and improve the performance of applications that require real-time processing, such as video streaming or online gaming.
+* Edge computing is a type of computing that processes data closer to the end user rather than in a centralized data center. This helps to reduce latency and improve the performance of applications that require real-time processing, such as video streaming or online gaming.
 
-*   Cloud gaming is online gaming that uses cloud computing to provide users with high-quality, low-latency gaming experiences.
+* Cloud gaming is online gaming that uses cloud computing to provide users with high-quality, low-latency gaming experiences.
 
 Together, these technologies are transforming how we access and consume digital content. By providing faster, more reliable, and more immersive experiences for users, they are helping to drive the growth of the digital economy and create new opportunities for businesses and consumers alike.

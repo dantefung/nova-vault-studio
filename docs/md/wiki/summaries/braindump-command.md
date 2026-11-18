@@ -8,7 +8,7 @@ source: "https://github.com/gatelynch/llm-knowledge-base"
 
 ## 功能
 
-将脑中模糊的想法快速倾倒为结构化文本，不要求完美，只要求"出来"。
+将脑中模糊的想法快速倾倒为结构化文本，不要求完美，只要求“出来”。
 
 ## 使用方式
 

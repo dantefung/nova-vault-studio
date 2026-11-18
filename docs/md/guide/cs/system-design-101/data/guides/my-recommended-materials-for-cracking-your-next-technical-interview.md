@@ -15,36 +15,36 @@ tags:
 
 ## Coding
 
-*   Leetcode
-*   Cracking the coding interview book
-*   Neetcode
+* Leetcode
+* Cracking the coding interview book
+* Neetcode
 
 ## System Design Interview
 
-*   System Design Interview Book 1, 2 by Alex Xu, Sahn Lam
-*   Grokking the system design by Design Guru
-*   Design Data-intensive Application book
+* System Design Interview Book 1, 2 by Alex Xu, Sahn Lam
+* Grokking the system design by Design Guru
+* Design Data-intensive Application book
 
 ## Behavioral interview
 
-*   Tech Interview Handbook (Github repo)
-*   A Life Engineered (YT)
-*   STAR method (general method)
+* Tech Interview Handbook (Github repo)
+* A Life Engineered (YT)
+* STAR method (general method)
 
 ## OOD Interview
 
-*   Interviewready
-*   OOD by educative
-*   Head First Design Patterns Book
+* Interviewready
+* OOD by educative
+* Head First Design Patterns Book
 
 ## Mock interviews
 
-*   Interviewingio
-*   Pramp
-*   Meetapro
+* Interviewingio
+* Pramp
+* Meetapro
 
 ## Apply for Jobs
 
-*   Linkedin
-*   Monster
-*   Indeed
+* Linkedin
+* Monster
+* Indeed

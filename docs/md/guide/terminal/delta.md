@@ -193,7 +193,7 @@ Delta 的配置通常在 Git 的配置文件中进行：
 | `syntax-theme` | 语法高亮主题 | auto |
 | `word-diff-regex` | 单词级别 diff 的正则 | 默认值 |
 | `max-line-distance` | 最大行距（用于匹配行） | 0.6 |
-| `true-color` | true（真彩色）/256（256色） | auto |
+| `true-color` | true（真彩色）/256（256 色） | auto |
 
 ### 主题选择
 

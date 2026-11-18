@@ -135,9 +135,9 @@ export function unstable_v2_createSession(_options: SDKSessionOptions): SDKSessi
 
 主要职责：
 
-*   通过 `WriteStream`/`ReadStream` 进行 NDJSON 格式读写
-*   权限请求/响应通过 `control_request`/`control_response` 类型的消息传递
-*   出站事件通过 `stream_event` 类型消息发送
+* 通过 `WriteStream`/`ReadStream` 进行 NDJSON 格式读写
+* 权限请求/响应通过 `control_request`/`control_response` 类型的消息传递
+* 出站事件通过 `stream_event` 类型消息发送
 
 ## RemoteIO [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/cli-entrypoints.html#remoteio)
 
@@ -145,6 +145,6 @@ export function unstable_v2_createSession(_options: SDKSessionOptions): SDKSessi
 
 主要增强：
 
-*   WebSocket/SSE 传输支持
-*   CCR v2 客户端集成
-*   Keep-alive 心跳维护
+* WebSocket/SSE 传输支持
+* CCR v2 客户端集成
+* Keep-alive 心跳维护

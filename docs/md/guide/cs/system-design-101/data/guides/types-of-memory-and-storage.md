@@ -15,9 +15,9 @@ tags:
 
 Diving into the world of computer memory and storage.
 
-*   The fundamental duo: RAM and ROM
-*   DDR4 and DDR5
-*   Firmware and BIOS
-*   SRAM and DRAM
-*   HDD, SSD, USB Drive, SD Card
-*   and more
+* The fundamental duo: RAM and ROM
+* DDR4 and DDR5
+* Firmware and BIOS
+* SRAM and DRAM
+* HDD, SSD, USB Drive, SD Card
+* and more

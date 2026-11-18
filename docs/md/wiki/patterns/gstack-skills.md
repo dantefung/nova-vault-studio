@@ -3,7 +3,7 @@ title: "GStack Skills（AI编程助手团队化）"
 date: "2026-06-11"
 ---
 
-# GStack Skills（AI编程助手团队化）
+# GStack Skills（AI 编程助手团队化）
 
 > Garry Tan（YC President & CEO）业余开源的 gstack 技能集——把通用 AI 编程助手拆分成多个专业角色，按工程生命周期组织成完整团队。
 
@@ -33,7 +33,7 @@ date: "2026-06-11"
 
 ## Related Pages
 
-- [patterns/multi-agent-architecture](patterns/multi-agent-architecture) — 多Agent架构模式
+- [patterns/multi-agent-architecture](patterns/multi-agent-architecture) — 多 Agent 架构模式
 - [concepts/harness-engineering](concepts/harness-engineering) — 驭化工程
 
 ## Sources

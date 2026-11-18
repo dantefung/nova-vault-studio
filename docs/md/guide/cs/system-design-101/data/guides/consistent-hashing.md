@@ -45,8 +45,8 @@ Here we insert a new server s4 to the left of s0 on the ring. Note that only k0 
 
 ## How consistent hashing is used in the real world
 
-*   **Amazon DynamoDB and Apache Cassandra:** minimize data movement during rebalancing
+* **Amazon DynamoDB and Apache Cassandra:** minimize data movement during rebalancing
 
-*   **Content delivery networks like Akamai:** distribute web contents evenly among the edge servers
+* **Content delivery networks like Akamai:** distribute web contents evenly among the edge servers
 
-*   **Load balancers like Google Network Load Balancer:** distribute persistent connections evenly across backend servers
+* **Load balancers like Google Network Load Balancer:** distribute persistent connections evenly across backend servers

@@ -3,16 +3,16 @@ title: "Web Designer Plugin（48个Award级设计模式）"
 date: "2026-06-11"
 ---
 
-# Web Designer Plugin（48个Award级设计模式）
+# Web Designer Plugin（48 个 Award 级设计模式）
 
 > "Would this get featured on Awwwards?" — 给 AI 配一个网页设计总监。48 个设计模式，参考 38 个优秀网站，覆盖排版/配色/动效/3D/页面节奏。
 
 ## Key Points
 
-- **核心定位**：解决"AI Look"问题——蓝紫渐变、统一卡片网格、`border-radius: 12px`、Inter 字体、居中布局
+- **核心定位**：解决“AI Look”问题——蓝紫渐变、统一卡片网格、`border-radius: 12px`、Inter 字体、居中布局
 - **决策框架**：MOOD → PALETTE → TYPE → LAYOUT → MOTION → SIGNATURE
 
-## 6步决策框架
+## 6 步决策框架
 
 1. **MOOD** — 情感调性（calm/energetic/luxurious/playful/authoritative）
 2. **PALETTE** — 配色（从 mood 推导）
@@ -24,7 +24,7 @@ date: "2026-06-11"
 ## 48 个设计模式
 
 涵盖：
-- 3D 卡面 tilt跟随光标（SVZ Design）
+- 3D 卡面 tilt 跟随光标（SVZ Design）
 - 描边/笔画字体（VOUS Church）
 - Clip-path 图片揭示（SVZ Design）
 - 物理 3D 按钮（Pierre-Louis Labonne）
@@ -34,7 +34,7 @@ date: "2026-06-11"
 - 毛玻璃导航（Michael Kors）
 - 粘滞滚动电影场景（The Goonies）
 - 级联菜单动画（207ouest）
-- 无限 logo滚动（Superlist）
+- 无限 logo 滚动（Superlist）
 - ……等 34 个更多
 
 ## 10 个 Anti-Pattern 检查项
@@ -60,8 +60,8 @@ date: "2026-06-11"
 
 ## Related Pages
 
-- [products/taste-skill](products/taste-skill) — AI前端防丑Skill
-- [patterns/ui-polish](patterns/ui-polish) — UI精致打磨
+- [products/taste-skill](products/taste-skill) — AI 前端防丑 Skill
+- [patterns/ui-polish](patterns/ui-polish) — UI 精致打磨
 
 ## Sources
 

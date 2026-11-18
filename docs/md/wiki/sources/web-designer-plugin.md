@@ -13,11 +13,11 @@ url: "https://github.com/MickeyAlton33/web-designer-plugin"
 
 ## 核心定位
 
-解决"AI Look"问题：蓝紫渐变、统一卡片网格、`border-radius: 12px`、Inter 字体、居中布局——所有 AI 前端看起来都一样。Web Designer Plugin 注入真实设计思维，让 AI 按 award 级网站的标准工作。
+解决“AI Look”问题：蓝紫渐变、统一卡片网格、`border-radius: 12px`、Inter 字体、居中布局——所有 AI 前端看起来都一样。Web Designer Plugin 注入真实设计思维，让 AI 按 award 级网站的标准工作。
 
 ## 决策框架
 
-激活后引导 AI 经过6 个步骤：
+激活后引导 AI 经过 6 个步骤：
 
 1. **MOOD** — 情感调性（calm/energetic/luxurious/playful/authoritative）
 2. **PALETTE** — 配色（从 mood 推导）
@@ -29,7 +29,7 @@ url: "https://github.com/MickeyAlton33/web-designer-plugin"
 ## 48 个设计模式
 
 涵盖：
-- 3D 卡面 tilt跟随光标（SVZ Design）
+- 3D 卡面 tilt 跟随光标（SVZ Design）
 - 描边/笔画字体（VOUS Church）
 - Clip-path 图片揭示（SVZ Design）
 - 物理 3D 按钮（Pierre-Louis Labonne）
@@ -39,7 +39,7 @@ url: "https://github.com/MickeyAlton33/web-designer-plugin"
 - 毛玻璃导航（Michael Kors）
 - 粘滞滚动电影场景（The Goonies）
 - 级联菜单动画（207ouest）
-- 无限 logo滚动（Superlist）
+- 无限 logo 滚动（Superlist）
 - 宽色域 P3 强调色（Superlist）
 - 视角 app 截图（Daylight Computer）
 - 环境径向光效（Superlist）

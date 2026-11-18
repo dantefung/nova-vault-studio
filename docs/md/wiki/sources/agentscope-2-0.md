@@ -59,9 +59,9 @@ AgentScope 2.0 引入了更加系统化的**权限系统**，用来控制智能�
 
 AgentScope 2.0 的**上下文管理**进一步走向**系统化**，会结合任务状态、工具结果和文件读写过程管理上下文：
 
-*   压缩结果不只是简单摘要，而是结构化保留任务目标、当前状态、关键发现、下一步计划和需要长期保留的信息；
-*   工具结果自动截断，避免超长日志或搜索结果撑爆上下文；
-*   内置文件读写新增缓存机制，并强制“先读后改”，减少重复 IO，提升性能和操作可靠性。
+* 压缩结果不只是简单摘要，而是结构化保留任务目标、当前状态、关键发现、下一步计划和需要长期保留的信息；
+* 工具结果自动截断，避免超长日志或搜索结果撑爆上下文；
+* 内置文件读写新增缓存机制，并强制“先读后改”，减少重复 IO，提升性能和操作可靠性。
 
 ![Memory 长期记忆与共享机制](../images/agentscope-2-0/007.webp)
 
@@ -89,9 +89,9 @@ Workspace 是 AgentScope 2.0 对**智能体执行环境的抽象**。它为智�
 
 这样，同一个智能体可以在不同环境中运行，而不需要改动运行逻辑。它的设计主要体现在三个方面：
 
-*   **第一，统一接口。**WorkspaceBase 抽象出身份标识、生命周期、资源发现、上下文卸载和动态资源管理等通用能力，不同后端只需要实现同一套接口，就可以接入到 AgentScope 的执行体系中。
-*   **第二，组合解耦。**智能体本身不直接依赖具体 Workspace，而是通过工具集（Toolkit）和指令（instructions）间接使用工具与资源。这样既保留了执行环境的可替换性，也保持了智能体运行逻辑的稳定性和可迁移性。
-*   **第三，池化支持。**Workspace 内置预热池机制，支持提前批量初始化执行环境，并提供获取、归还和失效替换等管理能力。在面对 RL 训练中的并行 rollout 等场景中，它可以降低环境频繁创建的开销，提高资源复用和任务执行效率。
+* **第一，统一接口。**WorkspaceBase 抽象出身份标识、生命周期、资源发现、上下文卸载和动态资源管理等通用能力，不同后端只需要实现同一套接口，就可以接入到 AgentScope 的执行体系中。
+* **第二，组合解耦。**智能体本身不直接依赖具体 Workspace，而是通过工具集（Toolkit）和指令（instructions）间接使用工具与资源。这样既保留了执行环境的可替换性，也保持了智能体运行逻辑的稳定性和可迁移性。
+* **第三，池化支持。**Workspace 内置预热池机制，支持提前批量初始化执行环境，并提供获取、归还和失效替换等管理能力。在面对 RL 训练中的并行 rollout 等场景中，它可以降低环境频繁创建的开销，提高资源复用和任务执行效率。
 
 Workspace 的引入，让智能体不只是“能调用工具”，而是能够在可替换、可管理的执行环境中持续工作。对于需要在本地、容器或云沙箱之间切换的复杂任务来说，执行环境的抽象也成为智能体稳定运行和灵活扩展的重要基础。
 
@@ -113,9 +113,9 @@ AgentScope 的每一次升级，都围绕一个核心：**让智能体在真实�
 
 在 2.0 的更新中，AgentScope 同时在多语言层面做了更多的支持：
 
-*   Python 版已全面升级至 2.0 [https%3A//github.com/agentscope-ai/agentscope](https%3A//github.com/agentscope-ai/agentscope)
-*   TypeScript 版本已正式发布 [https%3A//github.com/agentscope-ai/agentscope-typescript](https%3A//github.com/agentscope-ai/agentscope-typescript)
-*   JAVA 版本将在近期同步更新到 2.0 版本
+* Python 版已全面升级至 2.0 [https%3A//github.com/agentscope-ai/agentscope](https%3A//github.com/agentscope-ai/agentscope)
+* TypeScript 版本已正式发布 [https%3A//github.com/agentscope-ai/agentscope-typescript](https%3A//github.com/agentscope-ai/agentscope-typescript)
+* JAVA 版本将在近期同步更新到 2.0 版本
 
 基于 AgentScope 构建的智能体应用 QwenPaw 也将在近期同步升级至 AgentScope 2.0 基座，为你提供更稳定、更安全、更易扩展的智能体体验。
 

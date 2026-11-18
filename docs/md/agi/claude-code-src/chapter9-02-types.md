@@ -13,12 +13,12 @@ Markdown Content:
 
 AppState 包含几十个字段，主要分类：
 
-*   **设置**: `settings`, `verbose`
-*   **模型**: `mainLoopModel`, `mainLoopModelForSession`
-*   **UI**: `statusLineText`, `thinkingEnabled`
-*   **工具与权限**: `toolPermissionContext`, `agent`, `kairosEnabled`
-*   **MCP**: `mcp: { clients, tools, commands, resources }`
-*   **插件**: `plugins: LoadedPlugin[]`
+* **设置**: `settings`, `verbose`
+* **模型**: `mainLoopModel`, `mainLoopModelForSession`
+* **UI**: `statusLineText`, `thinkingEnabled`
+* **工具与权限**: `toolPermissionContext`, `agent`, `kairosEnabled`
+* **MCP**: `mcp: { clients, tools, commands, resources }`
+* **插件**: `plugins: LoadedPlugin[]`
 
 详见 [状态管理](https://plain-sun-1ffe.hunshcn429.workers.dev/core/state-management.html) 文档。
 

@@ -90,11 +90,11 @@ url: "/columns/vibe-coding/08-clean-code"
 
 3. **L - 里氏替换 (Liskov Substitution)**
    - 子类型可以替换其基类型
-   - 继承关系应该是"IS-A"关系
+   - 继承关系应该是“IS-A”关系
 
 4. **I - 接口隔离 (Interface Segregation)**
    - 接口应该小而专一
-   - 避免"胖接口"，使用多个专门的接口
+   - 避免“胖接口”，使用多个专门的接口
 
 5. **D - 依赖倒置 (Dependency Inversion)**
    - 依赖抽象而非具体实现

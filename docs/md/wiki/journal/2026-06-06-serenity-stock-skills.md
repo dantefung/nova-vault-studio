@@ -15,9 +15,9 @@ date: "2026-06-06"
 |------|--------|-------|
 | [stock-skill](/wiki/sources/stock-skill) | 三人框架合议：Serenity × TraderS × 恨铁，覆盖宏观/卡脖子/技术执行全链路 | 16 |
 | [serenity-aleabitoreddit](/wiki/sources/serenity-aleabitoreddit) | 完整推文档案（5813 条推文）+ 供应链卡点 Skill，112 Stars，最完整版 | 112 |
-| [serenity-aleabitoreddit-skill](/wiki/sources/serenity-aleabitoreddit-skill) | 卡点投资分析技能，支持 6 个 Agent 平台（Claude/Codex/Cursor/Gemini/Windsurf等） | 23 |
+| [serenity-aleabitoreddit-skill](/wiki/sources/serenity-aleabitoreddit-skill) | 卡点投资分析技能，支持 6 个 Agent 平台（Claude/Codex/Cursor/Gemini/Windsurf 等） | 23 |
 | [serenity-aleabitoreddit-skill-zad](/wiki/sources/serenity-skill-zad) | 供应链卡点逆向投资方法论，Claude Code 专用，2071 条推文提炼 | 15 |
-| [serenity-skills-xvhaoran](/wiki/sources/serenity-skills-xvhaoran) | 跨市场版（A股/美股/港股/台股/日股/欧洲），贝叶斯更新框架 | 7 |
+| [serenity-skills-xvhaoran](/wiki/sources/serenity-skills-xvhaoran) | 跨市场版（A 股/美股/港股/台股/日股/欧洲），贝叶斯更新框架 | 7 |
 | [serenity-skill-0xagata](/wiki/sources/serenity-skill-0xagata) | 粉丝站，4740 条推文，Claude Project + ChatGPT Custom GPT 双入口 | 14 |
 | [serenity-stock-choke](/wiki/sources/serenity-stock-choke) | A 股适配版，六步推理链路，覆盖电力/光模块/半导体/军工/新能源车等 | 12 |
 | [serenity-skill-muxuuu](/wiki/sources/serenity-skill-muxuuu) | Serenity 式供应链卡点股票研究，中文优先，356 Stars，Stars 最多版 | **356** |
@@ -26,7 +26,7 @@ date: "2026-06-06"
 
 ### Serenity 的核心方法论
 
-不是追 AI 龙头（NVDA），而是**沿着供应链向上游逆向追溯**，找那个"下游无法绕开的单点卡脖子"——光学/CPO、复合半导体衬底、存储、電力。
+不是追 AI 龙头（NVDA），而是**沿着供应链向上游逆向追溯**，找那个“下游无法绕开的单点卡脖子”——光学/CPO、复合半导体衬底、存储、電力。
 
 核心问题：**哪个小市值节点，一旦断货，万亿产业就要地震？**
 
@@ -55,12 +55,12 @@ date: "2026-06-06"
 
 ## 风险提示
 
-所有仓库都明确标注：**不是投资建议**。Serenity 的 YTD 45 倍战绩均为自述、未经审计，且存在幸存者偏差和"talking his book"嫌疑。使用框架做研究可以，照搬交易后果自负。
+所有仓库都明确标注：**不是投资建议**。Serenity 的 YTD 45 倍战绩均为自述、未经审计，且存在幸存者偏差和“talking his book”嫌疑。使用框架做研究可以，照搬交易后果自负。
 
 ## 关联
 
 - 与 [[go-stock]] 同属 AI 赋能股票分析类工具，但 go-stock 是技术指标方向，Serenity Skill 是供应链卡脖子方向
-- 框架方法论类似 [[geju-skill]] 的"打开格局"——都是给 AI 装上特定思维透镜
+- 框架方法论类似 [[geju-skill]] 的“打开格局”——都是给 AI 装上特定思维透镜
 
 ---
 

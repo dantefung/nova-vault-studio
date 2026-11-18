@@ -19,14 +19,14 @@ Before we answer this question, let's take a look at why we need to optimize thi
 
 The diagram above illustrates how multipart upload works:
 
-1.  The client calls the object storage to initiate a multipart upload.
+1. The client calls the object storage to initiate a multipart upload.
 
-2.  The data store returns an uploadID, which uniquely identifies the upload.
+2. The data store returns an uploadID, which uniquely identifies the upload.
 
-3.  The client splits the large file into small objects and starts uploading. Let’s assume the size of the file is 1.6GB and the client splits it into 8 parts, so each part is 200 MB in size. The client uploads the first part to the data store together with the uploadID it received in step 2.
+3. The client splits the large file into small objects and starts uploading. Let’s assume the size of the file is 1.6GB and the client splits it into 8 parts, so each part is 200 MB in size. The client uploads the first part to the data store together with the uploadID it received in step 2.
 
-4.  When a part is uploaded, the data store returns an ETag, which is essentially the md5 checksum of that part. It is used to verify multipart uploads.
+4. When a part is uploaded, the data store returns an ETag, which is essentially the md5 checksum of that part. It is used to verify multipart uploads.
 
-5.  After all parts are uploaded, the client sends a complete multipart upload request, which includes the uploadID, part numbers, and ETags.
+5. After all parts are uploaded, the client sends a complete multipart upload request, which includes the uploadID, part numbers, and ETags.
 
-6.  The data store reassembles the object from its parts based on the part number. Since the object is really large, this process may take a few minutes. After reassembly is complete, it returns a success message to the client.
+6. The data store reassembles the object from its parts based on the part number. Since the object is really large, this process may take a few minutes. After reassembly is complete, it returns a success message to the client.

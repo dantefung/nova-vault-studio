@@ -7,7 +7,7 @@ url: "https://github.com/GuDong2003/xianyu-auto-reply-fix"
 
 # xianyu-auto-reply-fix
 
-> 闲鱼智能客服系统，支持多账号管理、AI自动回复、自动发货确认、多渠道消息通知，提供完整的 Web 管理后台。AGPL-3.0 开源。
+> 闲鱼智能客服系统，支持多账号管理、AI 自动回复、自动发货确认、多渠道消息通知，提供完整的 Web 管理后台。AGPL-3.0 开源。
 
 ## 基本信息
 
@@ -23,7 +23,7 @@ url: "https://github.com/GuDong2003/xianyu-auto-reply-fix"
 |------|------|
 | 多用户系统 | 邮箱注册、权限控制、数据隔离 |
 | 多账号管理 | 多闲鱼账号独立运行、定时擦亮 |
-| 智能回复 | 关键词匹配 + AI回复（多模型兼容） |
+| 智能回复 | 关键词匹配 + AI 回复（多模型兼容） |
 | 自动发货 | 卡券匹配、自动确认、延时发货 |
 | 商品管理 | 自动收集、详情查看、多规格配置 |
 | 运营协同 | 订单管理、消息通知、在线客服 |
@@ -39,4 +39,4 @@ url: "https://github.com/GuDong2003/xianyu-auto-reply-fix"
 ## 关联资源
 
 - [[wechat-watch]] — 公众号订阅推送
-- [[maolai7-agent-skills]] — Agent技能集合
+- [[maolai7-agent-skills]] — Agent 技能集合

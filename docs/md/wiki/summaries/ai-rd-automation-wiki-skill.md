@@ -5,7 +5,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/6hDDkU2z31K67y8Z9dcqhw"
 ---
 
-# AI研发自动化：Wiki知识库+技能包
+# AI 研发自动化：Wiki 知识库+技能包
 
 > 阿里哥伦实战：LLM-Wiki 知识库（持续生长型）+ 6 大领域专家 SKILL 包（写方案/写代码/评审/测试/答疑/排障），目标用户只给 PRD 剩下全交给 agent。
 
@@ -13,23 +13,23 @@ url: "https://mp.weixin.qq.com/s/6hDDkU2z31K67y8Z9dcqhw"
 
 ## 一句话
 
-把 AI 研发自动化拆成两条腿：**LLM-Wiki 知识库** + **领域专家 SKILL 包**，再加一层 **harness 规则体系**做门禁/编排/回滚，就能量产"全自动化研发"。
+把 AI 研发自动化拆成两条腿：**LLM-Wiki 知识库** + **领域专家 SKILL 包**，再加一层 **harness 规则体系**做门禁/编排/回滚，就能量产“全自动化研发”。
 
 ## 痛点
 
 - **知识散落**：方案/代码/评审/测试/SOP 散在 N 个地方，新人接手要花数周摸索
 - **Skill 不可复用**：每个研发环节各自的 LLM prompt/工具/评测规则没沉淀，下次还得重新摸索
-- **评测缺失**：skill 输出没有"门禁"，质量靠人肉 review，规模化无解
+- **评测缺失**：skill 输出没有“门禁”，质量靠人肉 review，规模化无解
 - **人肉编排**：Harness（编排、门禁、回滚）目前依赖人，AI 没法独立长跑
 
 ## 核心论点
 
-### 论点 1：知识库要从"查询引擎"升级成"持续维护的产物"
+### 论点 1：知识库要从“查询引擎”升级成“持续维护的产物”
 
 传统 RAG 每次 query 都从 chunks 重新拼，**线性增长**；
 LLM-Wiki 在 ingest 时就把新知识融合进 markdown 实体/概念/综述页，**复利增长**——多一份源，整张网被重写一次。
 
-### 论点 2：每个研发环节都得有"原子 Skill + 评测门禁"
+### 论点 2：每个研发环节都得有“原子 Skill + 评测门禁”
 
 | Skill | 评测维度（满分 100） |
 |-------|---------------------|
@@ -42,7 +42,7 @@ LLM-Wiki 在 ingest 时就把新知识融合进 markdown 实体/概念/综述页
 
 **反编造分级**：识别 LLM 编造的不存在的类/接口/字段/表，按 L1~L3 分级扣 -5 ~ -10。
 
-### 论点 3：Harness 是 LLM 全自动研发的"导演"
+### 论点 3：Harness 是 LLM 全自动研发的“导演”
 
 当前 skill 都是单点能力，加上 harness 规则体系后：
 - **LLM = 执行者**：负责单步推理、产出
@@ -75,8 +75,8 @@ LLM-Wiki 在 ingest 时就把新知识融合进 markdown 实体/概念/综述页
 
 ## 关键术语
 
-- **LLM-Wiki**：Karpathy 26/04 提出的"新知识库模式"，本质是 SKILL/md 文件
-- **Skill 包**：SKILL.md 描述"什么场景/什么方法/什么工具/什么产物"的可评测能力
+- **LLM-Wiki**：Karpathy 26/04 提出的“新知识库模式”，本质是 SKILL/md 文件
+- **Skill 包**：SKILL.md 描述“什么场景/什么方法/什么工具/什么产物”的可评测能力
 - **Harness**：执行编排/门禁/护栏/回滚的规则体系
 - **qmd**：BM25 + 向量 + LLM 重排的本地搜索引擎
 - **mkt-link**：阿里营销业务 DDD 工程，作者用作落地的实例项目
@@ -84,7 +84,7 @@ LLM-Wiki 在 ingest 时就把新知识融合进 markdown 实体/概念/综述页
 ## 相关概念
 
 - [[llm-wiki]] — Karpathy 26/04 提出的同源理论，本文是它在研发域的工程化实现
-- [[harness-engineering]] — Harness 工程进化论，本文"harness 规则体系"的理论基础
+- [[harness-engineering]] — Harness 工程进化论，本文“harness 规则体系”的理论基础
 - [[ai-local-brain]] — 同一作者的另一篇：本地知识库 + Skill 体系让 AI 长期能帮忙
 - [[agentic-architectures]] — Agent 架构综述，6 大 Skill 对应 6 类工作流
 

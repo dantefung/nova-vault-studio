@@ -7,7 +7,7 @@ url: "https://new.web.cafe/tutorial/detail/900n85lbf2"
 >
 > 分类：[出海技术栈教程](https://new.web.cafe/label/606g5hj9zq) · [找需求](https://new.web.cafe/label/n9xnb58gw8) · [找词](https://new.web.cafe/label/1mfud0sfix) · [经验](https://new.web.cafe/label/ux8ptumaqu) · [案例分享](https://new.web.cafe/label/9e51be5a855445859eeaf63d998c04dd)
 
-# 【2025.4.27 哥飞小课堂】工具站流量获取、SEO 竞争逻辑与 "站找站 / 词找词" 实战
+# 【2025.4.27 哥飞小课堂】工具站流量获取、SEO 竞争逻辑与 “站找站 / 词找词” 实战
 
 ![](images/tool-site-traffic-seo-competition/img_001.webp)
 
@@ -63,7 +63,7 @@ Devin.ai 的开发商做了 DeepWiki.com 这个免费工具，来接触到更多
 
 ## 重复一遍四种发现思路
 
-我今天为什么会关注到这个网站呢？今天的 #哥飞小课堂 带着大家，重复一下我们经典的"词找站、站找词、站找站、词找词"过程。
+我今天为什么会关注到这个网站呢？今天的 #哥飞小课堂 带着大家，重复一下我们经典的“词找站、站找词、站找站、词找词”过程。
 
 ### 站找站
 

@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/cmKbHO_rnIdvQVhu7MJhug"
 # 90% 的独立开发不挣钱
 
 作者：梁唐
-出品：公众号 Coder梁（ID：Coder_LT）
+出品：公众号 Coder 梁（ID：Coder_LT）
 
 昨天在 X 上看到一张梗图，虽然不愿意承认，有点扎心，但这确实是事实。
 
@@ -17,7 +17,7 @@ url: "https://mp.weixin.qq.com/s/cmKbHO_rnIdvQVhu7MJhug"
 
 这么三层漏斗筛选下来，最后实实在在能有所收获的，可能就只有 1%。
 
-所以 90% 的独立开发者挣不到钱，已经是"美化"之后的现实了。
+所以 90% 的独立开发者挣不到钱，已经是“美化”之后的现实了。
 
 ## 产品、运营、开发，谁更难？
 

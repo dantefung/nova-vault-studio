@@ -32,7 +32,7 @@ Skills
 
 >
 
-> 但用上几天，你会想让它"按你的规矩来"：提交信息按团队格式写，周报按固定模板出，部署前先跑哪几条检查。
+> 但用上几天，你会想让它“按你的规矩来”：提交信息按团队格式写，周报按固定模板出，部署前先跑哪几条检查。
 
 
 
@@ -44,7 +44,7 @@ Skills
 
 
 
-## 01问题：system prompt 只会越写越长
+## 01 问题：system prompt 只会越写越长
 
 
 
@@ -70,7 +70,7 @@ Skills
 
 
 
-## 02思路：分清"一直需要"和"偶尔需要"
+## 02 思路：分清“一直需要”和“偶尔需要”
 
 
 
@@ -110,13 +110,13 @@ Skills
 
         ├── git-commit/
 
-        │   └── SKILL.md
+        │ └── SKILL.md
 
         └── weekly-report/
 
             ├── SKILL.md
 
-            └── template.md      # 技能可以附带其他文件
+            └── template.md # 技能可以附带其他文件
 
 
 
@@ -138,7 +138,7 @@ Skills
 
 
 
-当它判断"这个任务需要写提交信息"时，自己调用 
+当它判断“这个任务需要写提交信息”时，自己调用 
 `load_skill("git-commit")`
 ，规范全文才进入上下文。
 
@@ -184,7 +184,7 @@ Skills
 
     2. 简述不超过 50 字，不加句号
 
-    3. 空一行后写"为什么改"，不写"改了什么"（diff 里已经有了）
+    3. 空一行后写“为什么改”，不写“改了什么”（diff 里已经有了）
 
     4. 提交前先运行 git diff --staged，确认暂存区内容和描述一致
 
@@ -202,7 +202,7 @@ Skills
 
 
 
-## 03代码：skills.py
+## 03 代码：skills.py
 
 
 
@@ -226,7 +226,7 @@ Skills
 
     def parse_skill(text):
 
-        """拆出 frontmatter（--- 之间的 key: value）和正文。"""
+        ""“拆出 frontmatter（--- 之间的 key: value）和正文。"""
 
         lines = text.splitlines()
 
@@ -248,7 +248,7 @@ Skills
 
                 meta[key.strip()] = value.strip()
 
-        return {}, text.strip()          # 没有闭合的 ---，当作没有 frontmatter
+        return {}, text.strip() # 没有闭合的 ---，当作没有 frontmatter
 
 
 
@@ -312,11 +312,11 @@ Skills
 
             return ""
 
-        lines = ["", "## 可用技能",
+        lines = ["", "## 可用技能”,
 
-                 "下面只列出技能的名字和用途。当任务和某个技能的用途匹配时，"
+                 “下面只列出技能的名字和用途。当任务和某个技能的用途匹配时，"
 
-                 "先调用 load_skill 读取完整说明，再按说明执行。"]
+                 ”先调用 load_skill 读取完整说明，再按说明执行。"]
 
         lines += [f"- {n}：{s['description']}" for n, s in found.items()]
 
@@ -362,11 +362,11 @@ Skills
 
         name="load_skill",
 
-        description="读取一个技能的完整说明。任务和「可用技能」列表里某个技能的用途匹配时调用。",
+        description=“读取一个技能的完整说明。任务和「可用技能」列表里某个技能的用途匹配时调用。",
 
         parameters={"type": "object",
 
-                    "properties": {"name": {"type": "string", "description": "技能名"}},
+                    "properties": {"name": {"type": "string", "description": ”技能名“}},
 
                     "required": ["name"]},
 
@@ -378,7 +378,7 @@ Skills
 
         if name not in found:
 
-            return f"Error: 没有名为 {name!r} 的技能，可用：{', '.join(found) or '无'}"
+            return f"Error: 没有名为 {name!r} 的技能，可用：{', '.join(found) or ’无’}"
 
         path = found[name]["path"]
 
@@ -418,7 +418,7 @@ Skills
 
 
 
-## 04接入：改三个地方
+## 04 接入：改三个地方
 
 
 
@@ -436,7 +436,7 @@ Skills
 
         ...
 
-        "load_skill": Risk.SAFE,     # 只读，直接放行
+        "load_skill": Risk.SAFE, # 只读，直接放行
 
     }
 
@@ -460,11 +460,11 @@ Skills
 
         if p is None:
 
-            return f"路径 {path!r} 在工作区 {WORKSPACE} 之外，禁止访问。"
+            return f”路径 {path!r} 在工作区 {WORKSPACE} 之外，禁止访问。"
 
         if name == "write_file" and p.is_relative_to(SKILLS_DIR):
 
-            return "技能目录是只读的，Agent 不能修改自己的技能。"
+            return “技能目录是只读的，Agent 不能修改自己的技能。"
 
 
 
@@ -492,17 +492,17 @@ Skills
 
 
 
-### 2\. context.py：技能内容不参与"清理旧工具结果"
+### 2\. context.py：技能内容不参与”清理旧工具结果“
 
 
 
-第 4 课的第 2 层会把旧的工具结果替换成占位符。技能说明也是工具结果，如果被清理掉，模型就会在任务进行到一半时"忘记规矩"。
+第 4 课的第 2 层会把旧的工具结果替换成占位符。技能说明也是工具结果，如果被清理掉，模型就会在任务进行到一半时”忘记规矩“。
 
 
 
 
 
-    KEEP_PREFIXES = ("[skill]",)   # 以这些前缀开头的工具结果不清理
+    KEEP_PREFIXES = ("[skill]",) # 以这些前缀开头的工具结果不清理
 
 
 
@@ -536,13 +536,13 @@ Skills
 
 
 
-    import skills      # noqa: F401  导入即注册 load_skill
+    import skills # noqa: F401 导入即注册 load_skill
 
 
 
-    BASE_SYSTEM = ("你是一个能使用工具的助手，在用户的工作区内完成任务。"
+    BASE_SYSTEM = (”你是一个能使用工具的助手，在用户的工作区内完成任务。"
 
-                   "必要时调用工具，完成后用简洁的语言汇报结果。")
+                   “必要时调用工具，完成后用简洁的语言汇报结果。")
 
 
 
@@ -578,7 +578,7 @@ Skills
 
         messages = load_session("default") or [{"role": "system", "content": ""}]
 
-        messages[0] = {"role": "system", "content": build_system()}   # 每次用最新的技能列表
+        messages[0] = {"role": "system", "content": build_system()} # 每次用最新的技能列表
 
         ...
 
@@ -590,7 +590,7 @@ Skills
 
 
 
-## 05跑起来
+## 05 跑起来
 
 
 
@@ -610,13 +610,13 @@ Skills
 
     🔧 run_shell({"command": "git diff --staged"})
 
-    ⚠️  Agent 想执行：run_shell
+    ⚠️ Agent 想执行：run_shell
 
       $ git diff --staged
 
     [y]允许 / [n]拒绝 > y
 
-    🔧 run_shell({"command": "git commit -m \"feat: 技能目录设为只读\n\n防止注入内容被写入技能后反复触发\""})
+    🔧 run_shell({"command": "git commit -m \"feat: 技能目录设为只读\n\n 防止注入内容被写入技能后反复触发\""})
 
     ...
 
@@ -624,11 +624,11 @@ Skills
 
 
 
-以上为示意输出，具体步骤取决于模型。值得观察的是第一步：没有人告诉它"去读提交规范"，是它看到技能列表里那一行描述后自己决定的。
+以上为示意输出，具体步骤取决于模型。值得观察的是第一步：没有人告诉它”去读提交规范“，是它看到技能列表里那一行描述后自己决定的。
 
 
 
-你也可以反过来测：问它一个和任何技能都无关的问题，确认它**不会** 去加载技能。按需加载的价值一半在于"该加载时加载"，另一半在于"不该加载时不加载"。
+你也可以反过来测：问它一个和任何技能都无关的问题，确认它**不会** 去加载技能。按需加载的价值一半在于”该加载时加载“，另一半在于”不该加载时不加载“。
 
 
 
@@ -636,7 +636,7 @@ Skills
 
 
 
-## 06验证
+## 06 验证
 
 
 
@@ -666,11 +666,11 @@ Skills
 
     def test_parse_skill():
 
-        meta, body = skills.parse_skill("---\nname: a\ndescription: 做 A: 带冒号\n---\n正文")
+        meta, body = skills.parse_skill("---\nname: a\ndescription: 做 A: 带冒号\n---\n 正文”)
 
-        assert meta == {"name": "a", "description": "做 A: 带冒号"} and body == "正文"
+        assert meta == {"name": "a", "description": “做 A: 带冒号”} and body == “正文”
 
-        assert skills.parse_skill("---\nname: a\n没闭合")[0] == {}
+        assert skills.parse_skill("---\nname: a\n 没闭合“)[0] == {}
 
 
 
@@ -678,9 +678,9 @@ Skills
 
     def test_discover_and_load():
 
-        write_skill("git-commit", "---\nname: git-commit\ndescription: 写提交信息\n---\n规则正文")
+        write_skill("git-commit", "---\nname: git-commit\ndescription: 写提交信息\n---\n 规则正文”)
 
-        write_skill("broken", "---\nname: broken\n---\n没有描述")
+        write_skill("broken", "---\nname: broken\n---\n 没有描述“)
 
         assert "broken" not in skills.discover()
 
@@ -708,7 +708,7 @@ Skills
 
         msgs = [{"role": "system", "content": ""},
 
-                {"role": "tool", "tool_call_id": "s", "content": "[skill] x\n正文"}]
+                {"role": "tool", "tool_call_id": "s", "content": "[skill] x\n 正文”}]
 
         msgs += [{"role": "tool", "tool_call_id": str(i), "content": f"r{i}"} for i in range(5)]
 
@@ -722,7 +722,7 @@ Skills
 
 
 
-第三个测试和第 3 课的思路一样：用户"愿意放行"，硬规则依然拒绝。
+第三个测试和第 3 课的思路一样：用户“愿意放行”，硬规则依然拒绝。
 
 
 
@@ -730,7 +730,7 @@ Skills
 
 
 
-## 07这一版的局限
+## 07 这一版的局限
 
 
 
@@ -754,7 +754,7 @@ Skills
 
 
 
-## 08主流 Agent 怎么做
+## 08 主流 Agent 怎么做
 
 
 
@@ -786,7 +786,7 @@ Skills
 
 
 
-Hermes 走的是相反的路。它的卖点是"自我改进"：从做过的任务里总结出新的技能，在使用中继续改进它们，之后遇到类似任务直接调用。DeepSeek Harness 也有一个 Creator 模式，可以在对话里检查运行时、测试新写的插件。
+Hermes 走的是相反的路。它的卖点是“自我改进”：从做过的任务里总结出新的技能，在使用中继续改进它们，之后遇到类似任务直接调用。DeepSeek Harness 也有一个 Creator 模式，可以在对话里检查运行时、测试新写的插件。
 
 
 
@@ -806,13 +806,13 @@ Hermes 走的是相反的路。它的卖点是"自我改进"：从做过的任�
 
 
 
-如果想要后者，比较稳妥的折中是：让 Agent 把新技能写到一个"待审核"目录，你看过之后再挪进 
+如果想要后者，比较稳妥的折中是：让 Agent 把新技能写到一个“待审核”目录，你看过之后再挪进 
 `skills/`
 。
 
 
 
-## 09本课小结
+## 09 本课小结
 
 
 

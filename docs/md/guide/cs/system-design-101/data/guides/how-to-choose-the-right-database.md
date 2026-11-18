@@ -13,18 +13,18 @@ tags:
 
 ![How to Choose the Right Database](https://assets.bytebytego.com/diagrams/0227-how-to-choose-the-right-database.png)
 
-*   OLTP: For transactional systems requiring strong consistency
+* OLTP: For transactional systems requiring strong consistency
 
-*   OLAP: Optimized for complex queries and data analysis
+* OLAP: Optimized for complex queries and data analysis
 
-*   Full-Text Search: Fast, flexible text search capabilities
+* Full-Text Search: Fast, flexible text search capabilities
 
-*   Document Stores: JSON-like document storage and querying
+* Document Stores: JSON-like document storage and querying
 
-*   Key-Value Stores: High-speed, simple data models
+* Key-Value Stores: High-speed, simple data models
 
-*   Graph Databases: Managing highly connected data
+* Graph Databases: Managing highly connected data
 
-*   Embeddings: Efficient storage and retrieval of vector representations
+* Embeddings: Efficient storage and retrieval of vector representations
 
-*   Geospatial: Specialized for location-based data and queries
+* Geospatial: Specialized for location-based data and queries

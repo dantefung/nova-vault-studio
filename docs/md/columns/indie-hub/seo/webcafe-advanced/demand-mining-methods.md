@@ -6,7 +6,7 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/demand-mining-methods"
 ---
 
-> 原文链接: https://new.web.cafe/tutorial/detail/mrozYpTgfu6MGXggeX2Kzr
+> 原文链接：https://new.web.cafe/tutorial/detail/mrozYpTgfu6MGXggeX2Kzr
 
 ---
 

@@ -26,7 +26,7 @@ url: "https://github.com/nexu-io/open-design"
 
 ## 核心思路
 
-> 当 Anthropic 给 Claude Design 装上的"agent-native"循环——发现 brief / 锁定方向 / 流式 artifact / 批评 / 交付——停止封闭、变成一个**文件系统的 skills + design systems + plugins**，**你本机的 coding agents 就能读、写、remix**。
+> 当 Anthropic 给 Claude Design 装上的“agent-native”循环——发现 brief / 锁定方向 / 流式 artifact / 批评 / 交付——停止封闭、变成一个**文件系统的 skills + design systems + plugins**，**你本机的 coding agents 就能读、写、remix**。
 
 **你的 CLI = 设计引擎**；**你的笔记本 = 工作室**；**你团队的 `DESIGN.md` = 品牌合约**。
 

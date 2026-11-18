@@ -18,4 +18,4 @@ architecture-diagram-generator（6.3k+ Stars）+ process-flow-diagram-generator�
 
 ## 关联概念
 
-[[架构图生成]] [[流程图生成]] [[draw.io替代]] [[Claude Code Skill]] [[Cursor Skill]]
+[[架构图生成]] [[流程图生成]] [[draw.io 替代]] [[Claude Code Skill]] [[Cursor Skill]]

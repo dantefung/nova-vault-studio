@@ -5,7 +5,7 @@ date: "2026-06-11"
 
 # Serenity Cross-Market Skill（跨市场供应链卡点）
 
-> 可复用的 Codex skill，用 Serenity 方法做跨市场"供应链瓶颈 / 需求冲击 / 贝叶斯更新"式投资研究。适用于 A 股、美股、港股、台股、日股、欧洲股票。
+> 可复用的 Codex skill，用 Serenity 方法做跨市场“供应链瓶颈 / 需求冲击 / 贝叶斯更新”式投资研究。适用于 A 股、美股、港股、台股、日股、欧洲股票。
 
 ## Key Points
 
@@ -18,7 +18,7 @@ date: "2026-06-11"
 - 寻找真实供应链卡点：材料、衬底、封装、设备、产能、资格认证、政府背书
 - 把产品/行业需求冲击转译成公司层面的财务影响
 - 用**贝叶斯方式更新投资假设**
-- 区分"明确交易披露"和"观点/看多/目标价"
+- 区分“明确交易披露”和“观点/看多/目标价”
 
 ## 安装
 
@@ -40,7 +40,7 @@ cp -R skills/serenity-chokepoint-investing ~/.codex/skills/
 
 ## Related Pages
 
-- [concepts/serenity-investment-methodology](concepts/serenity-investment-methodology) — Serenity投资方法论
+- [concepts/serenity-investment-methodology](concepts/serenity-investment-methodology) — Serenity 投资方法论
 - [patterns/serenity-stock-research](patterns/serenity-stock-research) — 供应链卡点投研
 
 ## Sources

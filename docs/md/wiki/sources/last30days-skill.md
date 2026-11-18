@@ -5,7 +5,7 @@ source: "GitHub"
 url: "https://github.com/mvanhorn/last30days-skill"
 ---
 
-# mvanhorn/last30days-skill — 近30天趋势研究 Skill（36.5k Stars）
+# mvanhorn/last30days-skill — 近 30 天趋势研究 Skill（36.5k Stars）
 
 > AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web — then synthesizes a grounded summary.
 

@@ -16,21 +16,21 @@ Typically, teams begin their GraphQL journey with a basic architecture where a c
 
 However, multiple patterns are available:
 
-*   **Client-based GraphQL**
+* **Client-based GraphQL**
 
     The client wraps existing APIs behind a single GraphQL endpoint. This approach improves the developer experience but the client still bears the performance costs of aggregating data.
 
-*   **GraphQL with BFFs**
+* **GraphQL with BFFs**
 
     BFF or Backend-for-Frontends adds a new layer where each client has a dedicated BFF service. GraphQL is a natural fit to build a client-focused intermediary layer.
 
     Performance and developer experience for the clients is improved but there’s a tradeoff in building and maintaining BFFs.
 
-*   **The Monolithic GraphQL**
+* **The Monolithic GraphQL**
 
     Multiple teams share one codebase for a GraphQL server used by several clients. Also, a single team owns a GraphQL API that is accessed by multiple client teams.
 
-*   **GraphQL Federation**
+* **GraphQL Federation**
 
     This involves consolidating multiple graphs into a supergraph.
 

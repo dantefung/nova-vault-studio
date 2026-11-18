@@ -9,18 +9,18 @@ URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html
 Markdown Content:
 本页目录
 
-*   [系统提示词架构](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E7%B3%BB%E7%BB%9F%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%9E%B6%E6%9E%84 "系统提示词架构")
-*   [静态提示词核心内容](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E9%9D%99%E6%80%81%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%A0%B8%E5%BF%83%E5%86%85%E5%AE%B9 "静态提示词核心内容")
-    *   [身份定义](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E8%BA%AB%E4%BB%BD%E5%AE%9A%E4%B9%89 "身份定义")
-    *   [工具使用指南](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97 "工具使用指南")
-    *   [输出格式规范](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83 "输出格式规范")
-    *   [安全约束](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E5%AE%89%E5%85%A8%E7%BA%A6%E6%9D%9F "安全约束")
+* [系统提示词架构](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E7%B3%BB%E7%BB%9F%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%9E%B6%E6%9E%84 “系统提示词架构”)
+* [静态提示词核心内容](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E9%9D%99%E6%80%81%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%A0%B8%E5%BF%83%E5%86%85%E5%AE%B9 “静态提示词核心内容”)
+    * [身份定义](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E8%BA%AB%E4%BB%BD%E5%AE%9A%E4%B9%89 “身份定义”)
+    * [工具使用指南](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97 “工具使用指南”)
+    * [输出格式规范](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83 “输出格式规范”)
+    * [安全约束](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E5%AE%89%E5%85%A8%E7%BA%A6%E6%9D%9F “安全约束”)
 
-*   [systemPromptSection() — 动态 Section 注册](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#systempromptsection-%E2%80%94-%E5%8A%A8%E6%80%81-section-%E6%B3%A8%E5%86%8C "systemPromptSection() — 动态 Section 注册")
-    *   [Section 组装流程](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#section-%E7%BB%84%E8%A3%85%E6%B5%81%E7%A8%8B "Section 组装流程")
+* [systemPromptSection() — 动态 Section 注册](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#systempromptsection-%E2%80%94-%E5%8A%A8%E6%80%81-section-%E6%B3%A8%E5%86%8C "systemPromptSection() — 动态 Section 注册“)
+    * [Section 组装流程](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#section-%E7%BB%84%E8%A3%85%E6%B5%81%E7%A8%8B "Section 组装流程”)
 
-*   [constants/ 目录其他文件](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#constants-%E7%9B%AE%E5%BD%95%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6 "constants/ 目录其他文件")
-*   [关键常量摘要](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E5%85%B3%E9%94%AE%E5%B8%B8%E9%87%8F%E6%91%98%E8%A6%81 "关键常量摘要")
+* [constants/ 目录其他文件](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#constants-%E7%9B%AE%E5%BD%95%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6 "constants/ 目录其他文件“)
+* [关键常量摘要](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E5%85%B3%E9%94%AE%E5%B8%B8%E9%87%8F%E6%91%98%E8%A6%81 ”关键常量摘要“)
 
 ## 提示词系统 (constants/prompts.ts) [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E6%8F%90%E7%A4%BA%E8%AF%8D%E7%B3%BB%E7%BB%9F-constants-prompts-ts)
 
@@ -148,7 +148,7 @@ async function resolveSystemPromptSections(
 | `oauth.ts` | OAuth 配置常量 |
 | `outputStyles.ts` | 输出风格定义 |
 | `product.ts` | 产品信息（名称、版本等） |
-| `spinnerVerbs.ts` | 加载动画动词 ("思考中"...) |
+| `spinnerVerbs.ts` | 加载动画动词 (”思考中“...) |
 | `system.ts` | 系统级常量 |
 | `systemPromptSections.ts` | Section 注册辅助 |
 | `toolLimits.ts` | 工具行为限制 |

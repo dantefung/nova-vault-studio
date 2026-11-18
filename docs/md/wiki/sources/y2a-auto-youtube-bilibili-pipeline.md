@@ -60,7 +60,7 @@ url: "https://x.com/awe0_io/status/2112872752059420714"
 ## 相关页面
 
 - [[patterns/content-arbitrage-pattern]] — 内容套利与再加工的合规边界。
-- [[sources/AI-Video竞品调研]] — AI 视频竞品调研。
+- [[sources/AI-Video 竞品调研]] — AI 视频竞品调研。
 - [[sources/ai-code-video-methods]] — AI 代码做视频的九种方法。
 - [[patterns/code-video-rendering-method-matrix]] — 代码视频渲染方法矩阵。
 - [[patterns/video-prompt-reverse-engineering]] — 视频反推提示词。

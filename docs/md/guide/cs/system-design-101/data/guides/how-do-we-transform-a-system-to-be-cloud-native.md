@@ -17,9 +17,9 @@ The diagram below shows the action spectrum and adoption roadmap. You can use it
 
 For a company to adopt cloud native architecture, there are 6 aspects in the spectrum:
 
-*   Application definition development
-*   Orchestration and management
-*   Runtime
-*   Provisioning
-*   Observability
-*   Serverless
+* Application definition development
+* Orchestration and management
+* Runtime
+* Provisioning
+* Observability
+* Serverless

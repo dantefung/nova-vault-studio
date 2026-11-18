@@ -23,6 +23,6 @@ The diagram above illustrates the process.
 
 Two approaches are commonly used to solve this problem:
 
-*   **Cache keys with null value.** Set a short TTL (Time to Live) for keys with null value.
+* **Cache keys with null value.** Set a short TTL (Time to Live) for keys with null value.
 
-*   **Using Bloom filter.** A Bloom filter is a data structure that can rapidly tell us whether an element is present in a set or not. If the key exists, the request first goes to the cache and then queries the database if needed. If the key doesn't exist in the data set, it means the key doesn’t exist in the cache/database. In this case, the query will not hit the cache or database layer.
+* **Using Bloom filter.** A Bloom filter is a data structure that can rapidly tell us whether an element is present in a set or not. If the key exists, the request first goes to the cache and then queries the database if needed. If the key doesn't exist in the data set, it means the key doesn’t exist in the cache/database. In this case, the query will not hit the cache or database layer.

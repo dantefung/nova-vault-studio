@@ -19,20 +19,20 @@ DDD was introduced in Eric Evans’ classic book “Domain-Driven Design: Tackli
 
 ## The composition of domain objects:
 
-*   **Entity:** a domain object that has ID and life cycle.
+* **Entity:** a domain object that has ID and life cycle.
 
-*   **Value Object:** a domain object without ID. It is used to describe the property of Entity.
+* **Value Object:** a domain object without ID. It is used to describe the property of Entity.
 
-*   **Aggregate:** a collection of Entities that are bounded together by Aggregate Root (which is also an entity). It is the unit of storage.
+* **Aggregate:** a collection of Entities that are bounded together by Aggregate Root (which is also an entity). It is the unit of storage.
 
 ## The life cycle of domain objects:
 
-*   **Repository:** storing and loading the Aggregate.
+* **Repository:** storing and loading the Aggregate.
 
-*   **Factory:** handling the creation of the Aggregate.
+* **Factory:** handling the creation of the Aggregate.
 
 ## Behavior of domain objects:
 
-*   **Domain Service:** orchestrate multiple Aggregate.
+* **Domain Service:** orchestrate multiple Aggregate.
 
-*   **Domain Event:** a description of what has happened to the Aggregate. The publication is made public so others can consume and reconstruct it.
+* **Domain Event:** a description of what has happened to the Aggregate. The publication is made public so others can consume and reconstruct it.

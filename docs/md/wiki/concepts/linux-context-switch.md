@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/HzpK4jHQnDeJMiuCV4wp1Q"
 
 # Linux 内核进程上下文切换
 
-上下文切换是 Linux 调度器将 CPU 执行权从一个任务移交到另一个任务的核心机制，本质是"CPU 执行权转移 + 可逆的状态保存/恢复"。
+上下文切换是 Linux 调度器将 CPU 执行权从一个任务移交到另一个任务的核心机制，本质是“CPU 执行权转移 + 可逆的状态保存/恢复”。
 
 ---
 

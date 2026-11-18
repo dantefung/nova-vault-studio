@@ -10,7 +10,7 @@ source: "wiki-ingest"
 
 ## 核心概念
 
-SpaceXSI（The X Subscription）将 Grok、Grok Bot、Cursor 和 X Premium 权益合并为一份订阅。关键设计是"共用周池"——Grok 和 Cursor 的 AI 用量共享同一个每周刷新的配额池，Chat/Imagine/Voice/Bot/API 全部从这口池子里消耗。
+SpaceXSI（The X Subscription）将 Grok、Grok Bot、Cursor 和 X Premium 权益合并为一份订阅。关键设计是“共用周池”——Grok 和 Cursor 的 AI 用量共享同一个每周刷新的配额池，Chat/Imagine/Voice/Bot/API 全部从这口池子里消耗。
 
 类比：家里装了一个共用气罐，厨房、热水器、取暖都从它出气，一周补一次。哪天火力开大了，只是这周紧一点，不是整月直接归零。
 
@@ -43,4 +43,4 @@ SpaceXSI 由 x.ai 推出，整合了原先独立的 Cursor、SuperGrok、X Premi
 
 ## Sources
 
-- 蓝哥AI《SpaceXSI订阅大一统详解》：x.com/0xlangeai/status/2109848124017828195
+- 蓝哥 AI《SpaceXSI 订阅大一统详解》：x.com/0xlangeai/status/2109848124017828195

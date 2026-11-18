@@ -12,7 +12,7 @@ url: "https://x.com/kristoff_wu/status/2112815675018461338"
 
 <!-- more -->
 
-作者：kristoff（@kristoff_wu）  
+作者：kristoff（@kristoff_wu） 
 原文发布日期：2026-10-21（X Article 长文，接续其《出海小白靠新词破千刀的经验复盘》）
 
 这是作者对自己新词站复盘的补充，「今天突然想到了几点，发现之前漏掉了，再补一下」。

@@ -8,9 +8,9 @@ url: "https://x.com/0xcherry/status/2116740089724207555"
 
 # 十分钟精读 DSH Super Agent：从 Paper 到 PRD
 
-> **作者**：@0xcherry  
-> **原文链接**：https://x.com/0xcherry/status/2116740089724207555  
-> **发布日期**：2026-11-01  
+> **作者**：@0xcherry 
+> **原文链接**：https://x.com/0xcherry/status/2116740089724207555 
+> **发布日期**：2026-11-01 
 
 ---
 
@@ -188,7 +188,7 @@ Router 使用真实模型、Worker 使用 Mock 模型，将需要 Router 决策�
 
 ## 精读
 
-7.1 的意思是，经过一系列复杂的实验，我们证明了多个 Agent 干活比一个 Agent 快。并且我们发现了，跟 Agent 强调派遣 subagent 重要性后，Agent 更倾向于派遣subagent。
+7.1 的意思是，经过一系列复杂的实验，我们证明了多个 Agent 干活比一个 Agent 快。并且我们发现了，跟 Agent 强调派遣 subagent 重要性后，Agent 更倾向于派遣 subagent。
 
 7.2 的意思是，经过一系列复杂的实验，我们证明了一次处理 3 条 event 比一次处理 1 条 event 更快，但一次处理所需的时间更长。
 
@@ -210,7 +210,7 @@ Router 使用真实模型、Worker 使用 Mock 模型，将需要 Router 决策�
 
 8.1 的意思是，一个 router 可能不够用，可能要再分几个 router。
 
-而且router 越多系统复杂度越大，如果复杂度更大，蓝色大肥鱼这种傻孩子可能处理不过来，可能要考虑用轨迹数据后训练。
+而且 router 越多系统复杂度越大，如果复杂度更大，蓝色大肥鱼这种傻孩子可能处理不过来，可能要考虑用轨迹数据后训练。
 
 8.2 的意思是，怎么在 session 低可见的情况下让人介入和观测。
 

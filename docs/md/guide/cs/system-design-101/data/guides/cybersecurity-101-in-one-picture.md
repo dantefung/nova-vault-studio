@@ -23,10 +23,10 @@ tags:
 
 To combat these threats, several basic defense mechanisms are employed:
 
-*   **Firewalls:** Network security devices that monitor and control incoming and outgoing network traffic.
+* **Firewalls:** Network security devices that monitor and control incoming and outgoing network traffic.
 
-*   **Antivirus Software:** Programs designed to detect and remove malware.
+* **Antivirus Software:** Programs designed to detect and remove malware.
 
-*   **Encryption:** The process of converting information into a code to prevent unauthorized access.
+* **Encryption:** The process of converting information into a code to prevent unauthorized access.
 
 ## Cybersecurity Frameworks

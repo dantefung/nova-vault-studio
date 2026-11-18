@@ -14,12 +14,12 @@ description: "关于我：纳米，北邮毕业，百度实习，校招腾讯，
 
 
 
-# 纳米AI
+# 纳米 AI
 
 
 
 
-![纳米AI 的头像](images/about/001.webp)
+![纳米 AI 的头像](images/about/001.webp)
 
 
 
@@ -59,23 +59,23 @@ Learning LLMs & Agents in public.
 
 
   1. 
-[01大模型学习路线图先看全景，从 Transformer 到 DeepSeek-V4，8 个阶段、51 个知识点。→](/map/)
+[01 大模型学习路线图先看全景，从 Transformer 到 DeepSeek-V4，8 个阶段、51 个知识点。→](/map/)
 
 
   2. 
-[02图解大模型用「猫吃鱼」3 个词，一格一格地算矩阵：推理、训练、Agent。→](/matrix/)
+[02 图解大模型用「猫吃鱼」3 个词，一格一格地算矩阵：推理、训练、Agent。→](/matrix/)
 
 
   3. 
-[03从零手写大模型用代码把大模型复现一遍，从 GPT-2 写到 LLaMA，再到 DeepSeek。→](/articles/)
+[03 从零手写大模型用代码把大模型复现一遍，从 GPT-2 写到 LLaMA，再到 DeepSeek。→](/articles/)
 
 
   4. 
-[04从零手写 Agent从 100 行的最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex。→](/agent/)
+[04 从零手写 Agent 从 100 行的最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex。→](/agent/)
 
 
   5. 
-[05大模型论文研读读原始论文，配动态架构图。→](/papers/)
+[05 大模型论文研读读原始论文，配动态架构图。→](/papers/)
 
 
 
@@ -86,11 +86,11 @@ Learning LLMs & Agents in public.
 
 
 [![](images/about/002.webp)
-NamiGPT用 PyTorch 从零手写 GPT-2，加载官方权重，跑通推理和文本生成。](https://github.com/aa1143/NamiGPT) 
+NamiGPT 用 PyTorch 从零手写 GPT-2，加载官方权重，跑通推理和文本生成。](https://github.com/aa1143/NamiGPT) 
 [![](images/about/003.webp)
-NamiAgent从 100 行的最小循环开始，一课加一个能力的 Agent 教程。](https://github.com/aa1143/NamiAgent) 
+NamiAgent 从 100 行的最小循环开始，一课加一个能力的 Agent 教程。](https://github.com/aa1143/NamiAgent) 
 [![](images/about/004.webp)
-CamWindow极简的 macOS 悬浮摄像头窗口，专为录屏教程设计。](https://github.com/aa1143/CamWindow)
+CamWindow 极简的 macOS 悬浮摄像头窗口，专为录屏教程设计。](https://github.com/aa1143/CamWindow)
 
 
 

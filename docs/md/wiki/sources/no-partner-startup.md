@@ -28,11 +28,11 @@ url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"
 
 
 
-创业这事儿说白了就是跳悬崖,一个人跳太吓人了
+创业这事儿说白了就是跳悬崖，一个人跳太吓人了
 
 
 
-找个合伙人,心理上就觉得”至少有人陪我一起死”，有一种玄幻的安全感
+找个合伙人，心理上就觉得”至少有人陪我一起死”，有一种玄幻的安全感
 
 
 
@@ -40,7 +40,7 @@ url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"
 
 
 
-我只会xx，我不擅长xx，我需要找个人弥补我的短板
+我只会 xx，我不擅长 xx，我需要找个人弥补我的短板
 
 
 
@@ -76,11 +76,11 @@ url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"
 
 
 
-以此为基础，会出现巨大的bug
+以此为基础，会出现巨大的 bug
 
 
 
-业务不好就算了，最大的bug是绝大多数人都只能共患难不能同富贵
+业务不好就算了，最大的 bug 是绝大多数人都只能共患难不能同富贵
 
 
 
@@ -128,7 +128,7 @@ url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"
 
 
 
-简直是孕妇分娩时被蚊子叮了——第19级的痛
+简直是孕妇分娩时被蚊子叮了——第 19 级的痛
 
 
 
@@ -176,7 +176,7 @@ url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"
 
 
 
-最适合互联网新手的小项目——AI写作
+最适合互联网新手的小项目——AI 写作
 
 
 

@@ -89,4 +89,4 @@ interface InboundAttachment {
 }
 ```
 
-实际函数名为 `extractInboundAttachments(msg)` 用于提取附件列表，`resolveInboundAttachments()` 用于解析附件内容。 其他导出: `prependPathRefs()`、`resolveAndPrepend()`。
+实际函数名为 `extractInboundAttachments(msg)` 用于提取附件列表，`resolveInboundAttachments()` 用于解析附件内容。 其他导出：`prependPathRefs()`、`resolveAndPrepend()`。

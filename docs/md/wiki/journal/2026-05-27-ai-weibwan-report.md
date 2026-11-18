@@ -30,11 +30,11 @@ Artifacts 是 Claude 在对话中直接生成可预览内容的功能——不�
 ## 有价值的文章
 
 1. **《HTML Is the New Output Layer for Claude Code》**
-   > 把 Claude Code 的输出从"纯文字"升级为"可交互 HTML 页面"，是让 AI 工作成果真正可用的关键一步。
+   > 把 Claude Code 的输出从“纯文字”升级为“可交互 HTML 页面”，是让 AI 工作成果真正可用的关键一步。
    - https://emergingai.substack.com/p/html-is-the-new-output-layer-for
 
 2. **《Essential Books for Product Builders》**
-   > Lenny 整理了 36 本经得住时间检验的书，按"你想解决什么问题"来分类推荐
+   > Lenny 整理了 36 本经得住时间检验的书，按“你想解决什么问题”来分类推荐
    - https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart
 
 ## Claude Code 动态工作流

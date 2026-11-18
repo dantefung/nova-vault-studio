@@ -33,7 +33,7 @@ gstack 的核心思路：**把一个通用 AI 编程助手拆分成多个专业�
 
 ### 工程生命周期
 
-按"**思考 → 规划 → 构建 → 审查 → 测试 → 发布 → 反思**"组织。
+按“**思考 → 规划 → 构建 → 审查 → 测试 → 发布 → 反思**”组织。
 
 ### 5 大类 Skills
 
@@ -61,4 +61,4 @@ gstack 的核心思路：**把一个通用 AI 编程助手拆分成多个专业�
 
 - [gstack-skills 专栏](/columns/gstack-skills/) — 本仓 59 个 gstack skill 精读
 - GitHub: [garrytan/gstack](https://github.com/garrytan/gstack)
-- 原文: [gstack Skills 把 AI 编程助手升级为一支工程团队](https://mp.weixin.qq.com/s/wCtuMC6KGwWVFxuVYw_Fgg)
+- 原文：[gstack Skills 把 AI 编程助手升级为一支工程团队](https://mp.weixin.qq.com/s/wCtuMC6KGwWVFxuVYw_Fgg)

@@ -16,15 +16,15 @@ Managed Agents 让 Agent 运行在云端环境中：一方面，推理、编排�
 
 ## Managed Agents 背景
 
-市面上包括百炼、Claude Code、LangChain 等都有类似的 Managed Agents 产品发布。从本质上来讲，Managed Agents 产品与以往的低代码 Agent 平台在产品形态上没有本质区别，都是给你一个包含"Agent 定义 & 运行"能力的托管平台，只不过在 Harness 时代更突出以下两点：
+市面上包括百炼、Claude Code、LangChain 等都有类似的 Managed Agents 产品发布。从本质上来讲，Managed Agents 产品与以往的低代码 Agent 平台在产品形态上没有本质区别，都是给你一个包含“Agent 定义 & 运行”能力的托管平台，只不过在 Harness 时代更突出以下两点：
 
 **1. 不再让业务开发者拼装 Harness。** 传统平台常常把记忆维护、上下文压缩、状态恢复、工具权限和子任务回收拆成大量配置项。Managed Agents 把这些通用工程能力收进统一 Harness，开发者主要定义与业务相关的 Skills、Tools、Subagents 和权限策略。平台保证机制的一致性与可升级性，但最终任务效果仍取决于模型、system prompt、Skill 质量、工具返回值和业务评测。
 
 **2. 让客户掌握工具执行和数据回传边界。** 对企业用户而言，Agent 真正产生价值的地方是与企业数据资产连接，而 shell、文件读写、MCP 和业务工具正是数据流动的入口。为此，系统刻意拆分 Brain（推理编排）与 Hands（工具执行）：Brain 负责下一轮推理、状态恢复和上下文管理；Hands 负责真正接触文件、网络与业务系统。Hands 可以运行在平台托管的 Cloud Sandbox，也可以运行在客户 VPC 内的 Self-hosted Worker。
 
-第 1 点真正改变的是平台的抽象层级。传统低代码平台往往让用户决定"什么时候总结记忆、超长上下文怎么截断、工具异常重试几次、子任务怎样回收"。这些选项看起来灵活，实际上把 Harness 的工程责任转嫁给了业务开发者。Managed Agents 则只暴露业务差异，例如角色提示、Skills、MCP、工具权限和 Environment；至于压缩时机、会话恢复、工具结果淘汰、长期记忆刷新等，交给持续演进的 Harness。
+第 1 点真正改变的是平台的抽象层级。传统低代码平台往往让用户决定“什么时候总结记忆、超长上下文怎么截断、工具异常重试几次、子任务怎样回收”。这些选项看起来灵活，实际上把 Harness 的工程责任转嫁给了业务开发者。Managed Agents 则只暴露业务差异，例如角色提示、Skills、MCP、工具权限和 Environment；至于压缩时机、会话恢复、工具结果淘汰、长期记忆刷新等，交给持续演进的 Harness。
 
-第 2 点改变的是信任边界。模型决定"要调用什么"，不等于模型所在的进程必须"亲自执行什么"。只要工具调用被表示为稳定的 schema、tool_use_id 和结果事件，Hands 就可以被迁移到平台云沙箱或客户 VPC，而不改变 Brain 中的推理循环。这让安全团队能够分别回答三个问题：模型能看到哪些上下文？工具能访问哪些网络和文件？工具结果中哪些内容可以回传给 Brain？
+第 2 点改变的是信任边界。模型决定“要调用什么”，不等于模型所在的进程必须“亲自执行什么”。只要工具调用被表示为稳定的 schema、tool_use_id 和结果事件，Hands 就可以被迁移到平台云沙箱或客户 VPC，而不改变 Brain 中的推理循环。这让安全团队能够分别回答三个问题：模型能看到哪些上下文？工具能访问哪些网络和文件？工具结果中哪些内容可以回传给 Brain？
 
 以 Claude Managed Agents 为例，它被开发者接受的一个重要背景，是 Claude Code 已经证明了成熟 Coding Agent Harness 的产品价值。AgentScope 2.0 采用了相似的分层思路：HarnessAgent 处理长任务、上下文溢出、状态恢复和任务委派，Managed Agents 再向外补上多租户资源、Environment 与稳定的数据面契约。
 
@@ -34,7 +34,7 @@ Managed Agents 让 Agent 运行在云端环境中：一方面，推理、编排�
 - **Claude Agent SDK**：把 Session、事件流和工具交互 API 化，适合嵌入企业应用；身份、租户和资源隔离仍由接入方负责。
 - **Managed Agents**：进一步把 Agent、Environment、Session 与执行面变成托管资源，由平台处理版本、权限和运行时治理。
 
-这三层的区别不只是"封装越来越厚"，而是状态归属逐步上移。
+这三层的区别不只是“封装越来越厚”，而是状态归属逐步上移。
 
 ![三层递进](../images/agentscope-managed-agents/001.webp)
 
@@ -103,13 +103,13 @@ Self-hosted 的目标场景是让数据库、代码仓库和发布系统等企�
 
 ### 深入了解工作原理
 
-**一句话总结**：控制面管"定义与权限"，数据面管"跑起来并记下来"，Worker 管"在谁的机器上动手"；AgentScope 2.0 的 HarnessAgent + 文件系统/沙箱抽象是数据面与 Hands 的内核，SaaS API 做好平台层语义建设，不重新实现推理循环。
+**一句话总结**：控制面管“定义与权限”，数据面管“跑起来并记下来”，Worker 管“在谁的机器上动手”；AgentScope 2.0 的 HarnessAgent + 文件系统/沙箱抽象是数据面与 Hands 的内核，SaaS API 做好平台层语义建设，不重新实现推理循环。
 
-**控制面**负责"定义什么可以运行，以及谁可以使用它"。它管理 Agent 静态定义及其版本，也管理 Model、Skills、MCP、Tools、Environment、Memory、Vault 和 Resources 等可复用资源。资源按"定义、引用、挂载"三种关系理解：Model、Tools、MCP、Skills 进入 Agent 版本定义；Environment 独立存在，由 Session 引用；Memory Store、Vault、Files/Resources 在 Session 创建时挂载。
+**控制面**负责“定义什么可以运行，以及谁可以使用它”。它管理 Agent 静态定义及其版本，也管理 Model、Skills、MCP、Tools、Environment、Memory、Vault 和 Resources 等可复用资源。资源按“定义、引用、挂载”三种关系理解：Model、Tools、MCP、Skills 进入 Agent 版本定义；Environment 独立存在，由 Session 引用；Memory Store、Vault、Files/Resources 在 Session 创建时挂载。
 
 控制面还承担变更治理：Agent 更新生成新版本，旧 Session 可以继续记录；Environment key 可以 rotate；资源可以 archive 而不是立即物理删除；高风险内置工具权限随版本记录。
 
-**数据面**负责"让一个记录了 Agent 版本的 Session 真正运行起来，并完整记录过程"。它承载模型调用、ReAct loop、Harness hooks、turn 租约、Session 状态机、事件持久化与 SSE 推送，也处理 interrupt、HITL 和外化工具结果续跑。
+**数据面**负责“让一个记录了 Agent 版本的 Session 真正运行起来，并完整记录过程”。它承载模型调用、ReAct loop、Harness hooks、turn 租约、Session 状态机、事件持久化与 SSE 推送，也处理 interrupt、HITL 和外化工具结果续跑。
 
 数据面由对等 SaaS 副本组成，请求可以到达任意实例。副本先通过 agentId 找到控制面的版本定义，再根据 Agent 版本、Environment 与挂载信息计算构建键：命中缓存就复用 HarnessAgent，未命中才重新构建。每个 turn 都通过包含 userId、sessionId 的 RuntimeContext 定位会话状态。
 
@@ -117,7 +117,7 @@ Self-hosted 的目标场景是让数据库、代码仓库和发布系统等企�
 
 ![四类状态生命周期](../images/agentscope-managed-agents/010.webp)
 
-这四层不能用一个"保存对话历史"概括。比如 Session 事件能证明模型曾请求写文件，但不能代替文件本身；AgentStateStore 能恢复上下文，却不自动恢复外部数据库的副作用。恢复流程必须分别恢复每一层，再用事件 ID、tool call ID 和资源引用把它们重新关联起来。
+这四层不能用一个“保存对话历史”概括。比如 Session 事件能证明模型曾请求写文件，但不能代替文件本身；AgentStateStore 能恢复上下文，却不自动恢复外部数据库的副作用。恢复流程必须分别恢复每一层，再用事件 ID、tool call ID 和资源引用把它们重新关联起来。
 
 **Worker**关注工具如何从 Brain 到达真正的执行环境。全托管模式下，Brain 负责创建和回收 Sandbox，也主动通过 AgentScope 提供的 E2B 兼容 API 发起文件或 shell 调用。Self-hosted 模式下，Brain 收到模型的 tool call 后，不会连接客户 VPC，而是持久化 agent.tool_use 并创建 work item，客户侧 Worker 主动 poll 队列执行。Work 状态机为：queued → starting → active → stopping → stopped。
 

@@ -12,7 +12,7 @@ url: "https://mp.weixin.qq.com/s/fnrZhT2oxLsOLs2kmvNAdg"
 
 ## Step 1：添加网站并切换 DNS
 
-登录 Cloudflare，点击"Onboard a domain"添加域名。选择免费套餐（不限量 L7 DDoS 防护、WAF、免费 SSL、全球 CDN）。Review DNS 记录时，删除不相关的旧解析记录。
+登录 Cloudflare，点击“Onboard a domain”添加域名。选择免费套餐（不限量 L7 DDoS 防护、WAF、免费 SSL、全球 CDN）。Review DNS 记录时，删除不相关的旧解析记录。
 
 ## Step 2：切换 Name Servers
 

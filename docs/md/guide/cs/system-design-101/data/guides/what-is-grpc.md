@@ -19,7 +19,7 @@ gRPC is designed to enable efficient and robust communication between services i
 
 **Key Features of gRPC:**
 
-*   **Protocol Buffers:** By default, gRPC uses Protocol Buffers (proto files) as its interface definition language (IDL). This makes gRPC messages smaller and faster compared to JSON or XML.
-*   **HTTP/2 Based Transport:** gRPC uses HTTP/2 for transport, which allows for many improvements over HTTP/1.x.
-*   **Multiple Language Support:** gRPC supports a wide range of programming languages.
-*   **Bi-Directional Streaming:** gRPC supports streaming requests and responses, allowing for the development of sophisticated real-time applications with bidirectional communication like chat services.
+* **Protocol Buffers:** By default, gRPC uses Protocol Buffers (proto files) as its interface definition language (IDL). This makes gRPC messages smaller and faster compared to JSON or XML.
+* **HTTP/2 Based Transport:** gRPC uses HTTP/2 for transport, which allows for many improvements over HTTP/1.x.
+* **Multiple Language Support:** gRPC supports a wide range of programming languages.
+* **Bi-Directional Streaming:** gRPC supports streaming requests and responses, allowing for the development of sophisticated real-time applications with bidirectional communication like chat services.

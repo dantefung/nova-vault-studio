@@ -11,7 +11,7 @@ url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"
 
 ## 想找合伙人的三个误区
 
-1. **分摊恐惧和孤独** — 找合伙人心理上觉得"至少有人陪我一起死"，本质是贪便宜
+1. **分摊恐惧和孤独** — 找合伙人心理上觉得“至少有人陪我一起死”，本质是贪便宜
 2. **能力焦虑** — 觉得自己短板需要找人弥补
 3. **资源幻觉** — 想找有资源有人脉的大腿
 
@@ -33,7 +33,7 @@ url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"
 - **定期分钱就好，不要分股权**
 - 自己牛逼，掌握稀缺资源（获客能力、招商能力）
 - 拥有独立判断能力
-- 有对任何人说"不干给我滚"的底气
+- 有对任何人说“不干给我滚”的底气
 
 ## 金句
 
@@ -41,5 +41,5 @@ url: "https://mp.weixin.qq.com/s/9fIs47-ZsFHVFwEYdX_Ahg"
 
 ## 相关
 
-- [[equity-vs-profit-sharing]] — 股权vs分红
+- [[equity-vs-profit-sharing]] — 股权 vs 分红
 - [[startup-resource-control]] — 创业资源控制

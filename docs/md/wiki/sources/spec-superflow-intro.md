@@ -23,23 +23,23 @@ url: "https://mp.weixin.qq.com/s/io9AqU_vRZLHhV_QYB1vlg"
 
 ## 先说清楚，mattpocock/skills 到底是个啥
 
-Matt 对自己的 skills 定位就一句话，small、easy to adapt、composable，能跟任何模型配合。他明确反对vibe coding，也看不上 GSD、BMAD、Spec-Kit 那种「把你的控制权拿走」的重型框架。
+Matt 对自己的 skills 定位就一句话，small、easy to adapt、composable，能跟任何模型配合。他明确反对 vibe coding，也看不上 GSD、BMAD、Spec-Kit 那种「把你的控制权拿走」的重型框架。
 
-怎么理解 small / composable。它不是一个大而全的 prompt 模板，而是一堆可以单独拿出来改的小技能。你 clone 到项目里，哪个不顺手就改哪个。这点对国内团队很关键，因为英文社区那套默认假设你用 GitHub、用 Linear，到了咱们这环境经常水土不服。换成大白话，composable 的意思是，你可以只挑/tdd用，完全不碰/triage，两个 skill 之间不耦合。
+怎么理解 small / composable。它不是一个大而全的 prompt 模板，而是一堆可以单独拿出来改的小技能。你 clone 到项目里，哪个不顺手就改哪个。这点对国内团队很关键，因为英文社区那套默认假设你用 GitHub、用 Linear，到了咱们这环境经常水土不服。换成大白话，composable 的意思是，你可以只挑/tdd 用，完全不碰/triage，两个 skill 之间不耦合。
 
 Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解法。
 
 第一，agent 没按你想的做。根因是你脑子里的决策分支没讲清，解法是/grill-me、/grill-with-docs。
 
-第二，太啰嗦。同一个概念每次换个说法，模型越聊越乱，解法是建一套共享语言写进CONTEXT.md。
+第二，太啰嗦。同一个概念每次换个说法，模型越聊越乱，解法是建一套共享语言写进 CONTEXT.md。
 
-第三，代码跑不通。缺反馈环，解法是/tdd加/diagnosing-bugs。
+第三，代码跑不通。缺反馈环，解法是/tdd 加/diagnosing-bugs。
 
 第四，写成一团浆糊。架构没设计就开写，解法是/codebase-design、/improve-codebase-architecture。
 
-两层分类是这套设计的核心。Matt 把 skill 分成 user-invoked 和 model-invoked。前者是你手动敲/xxx来编排流程的，比如grill-me、grill-with-docs、triage、to-spec、to-tickets、implement、wayfinder、improve-codebase-architecture、setup-matt-pocock-skills、ask-matt。后者是 agent 自动调用或你主动调用的，持有可复用纪律，比如tdd、diagnosing-bugs、research、domain-modeling、code-review、resolving-merge-conflicts、prototype、grilling。
+两层分类是这套设计的核心。Matt 把 skill 分成 user-invoked 和 model-invoked。前者是你手动敲/xxx 来编排流程的，比如 grill-me、grill-with-docs、triage、to-spec、to-tickets、implement、wayfinder、improve-codebase-architecture、setup-matt-pocock-skills、ask-matt。后者是 agent 自动调用或你主动调用的，持有可复用纪律，比如 tdd、diagnosing-bugs、research、domain-modeling、code-review、resolving-merge-conflicts、prototype、grilling。
 
-我得强调一个关系。user-invoked 负责「编排」，它会去调用 model-invoked 的纪律。比如你跑/implement，它内部会驱动/tdd，提交前再拉/code-review。所以两层不是并列摆设，是「调度员」加「执行工人」。社区里最火的两个是/grill-me和/grill-with-docs，前者逼你想清，后者还顺手把共识落成文档。
+我得强调一个关系。user-invoked 负责「编排」，它会去调用 model-invoked 的纪律。比如你跑/implement，它内部会驱动/tdd，提交前再拉/code-review。所以两层不是并列摆设，是「调度员」加「执行工人」。社区里最火的两个是/grill-me 和/grill-with-docs，前者逼你想清，后者还顺手把共识落成文档。
 
 一句话记住。user-invoked 负责「想清楚、排好队」，model-invoked 负责「动手做、做漂亮」。
 
@@ -49,9 +49,9 @@ Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解�
 
 安装有两种姿势，取决于你想不想改源码。
 
-第一种，直接 copy 进项目可改。skills.sh这套会把 skills 原样拷进你的仓库，你后续随便 hack。
+第一种，直接 copy 进项目可改。skills.sh 这套会把 skills 原样拷进你的仓库，你后续随便 hack。
 
-跑完你会看到项目里多了一个 skills 目录，里面每个技能都是独立文件夹，各自带一份SKILL.md，改起来零成本。我试了，从敲命令到看到目录生成，不到 20 秒。这种方式的代价是你得自己追作者更新，但换来的是完全的控制权。
+跑完你会看到项目里多了一个 skills 目录，里面每个技能都是独立文件夹，各自带一份 SKILL.md，改起来零成本。我试了，从敲命令到看到目录生成，不到 20 秒。这种方式的代价是你得自己追作者更新，但换来的是完全的控制权。
 
 第二种，Claude Code 插件市场，只读随作者更新。你不想改源码、只想用最新版，就走这个。
 
@@ -61,7 +61,7 @@ Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解�
 
 ![setup-matt-pocock-skills 配置流程](../images/spec-superflow-intro/002.webp)
 
-它会问，用哪个 issue tracker，选项有 GitHub、Linear、local files。再问，triage 阶段用什么 labels 来分类，比如bug和feature。最后问，/triage生成的 docs 存到项目哪个位置，常见是docs/。这三个答案定下来，整套 skill 才算真正接进你的研发流。我第一回跳过了这步，结果/to-spec生成的 spec 不知道往哪放，白跑一遍。所以这条命令别省。装完顺手ls skills看一眼，确认每个 SKILL.md 都躺在那，后面调用才不会报找不到。
+它会问，用哪个 issue tracker，选项有 GitHub、Linear、local files。再问，triage 阶段用什么 labels 来分类，比如 bug 和 feature。最后问，/triage 生成的 docs 存到项目哪个位置，常见是 docs/。这三个答案定下来，整套 skill 才算真正接进你的研发流。我第一回跳过了这步，结果/to-spec 生成的 spec 不知道往哪放，白跑一遍。所以这条命令别省。装完顺手 ls skills 看一眼，确认每个 SKILL.md 都躺在那，后面调用才不会报找不到。
 
 ## 实战，用 /grill-me 把「加权限」逼问清楚
 
@@ -69,15 +69,15 @@ Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解�
 
 你以为这句话够了，其实不够。敲/grill-me，agent 会像审犯人一样，把「权限」背后的每个决策分支都问出来。是基于角色的 RBAC，还是基于属性的 ABAC。管理员能删别人数据吗。没登录的人看到什么。我那次被问了 11 轮，才发现自己根本没想清楚「游客能不能看预览」。
 
-**更狠的是/grill-with-docs**。它不只是问，还会把你们达成共识的共享语言写进CONTEXT.md，把关键架构决策写进ADR（Architecture Decision Record）。这俩文件后续所有 skill 都会读，等于给团队和 agent 建了本「通用词典」。
+**更狠的是/grill-with-docs**。它不只是问，还会把你们达成共识的共享语言写进 CONTEXT.md，把关键架构决策写进 ADR（Architecture Decision Record）。这俩文件后续所有 skill 都会读，等于给团队和 agent 建了本「通用词典」。
 
 ![grill-with-docs 闭环](../images/spec-superflow-intro/003.webp)
 
-拿我那个权限需求举例，CONTEXT.md里会记一句，「权限在本项目指 RBAC，角色含 guest/admin，guest 仅可读预览」。以后不管哪个 skill 上手，都不会再把 guest 当匿名处理。这种共享语言才是/grill-with-docs比/grill-me多出来的价值，从「想清楚」升级到「记下来」。
+拿我那个权限需求举例，CONTEXT.md 里会记一句，「权限在本项目指 RBAC，角色含 guest/admin，guest 仅可读预览」。以后不管哪个 skill 上手，都不会再把 guest 当匿名处理。这种共享语言才是/grill-with-docs 比/grill-me 多出来的价值，从「想清楚」升级到「记下来」。
 
 有了共享语言，下一步/tdd。它强制红绿重构，一个 feature、一个 bug 都按垂直切片来，先写挂的测试，再写能过的实现。我那个权限接口，就是先写了「未授权访问返回 403」的测试，才动手写中间件，结果一次跑通没踩坑。
 
-需求聊透了怎么办。用/to-spec把当前对话直接合成一份 spec 发到你的 issue tracker，不用再开会对齐。/implement则按 spec 或 tickets 去构建，过程中驱动/tdd，提交前还会跑/code-review做 Standards 和 Spec 两轴检查。
+需求聊透了怎么办。用/to-spec 把当前对话直接合成一份 spec 发到你的 issue tracker，不用再开会对齐。/implement 则按 spec 或 tickets 去构建，过程中驱动/tdd，提交前还会跑/code-review 做 Standards 和 Spec 两轴检查。
 
 这套流程跑下来，开头那个 500 报错的问题从源头就消失了。不是模型变聪明了，是你终于把话说清楚了。
 
@@ -85,19 +85,19 @@ Matt 把 AI 写代码跑偏归纳成 4 个失败模式，每个都有对应解�
 
 我客观说，Matt 这套真不错，但用了一周有两个留白必须讲，不然就是盲目吹。
 
-第一个，偏西方开发者默认。issue tracker 默认 GitHub、Linear，文档全是英文。国内团队用起来要改不少地方，triage labels 那套也得自己接飞书、接 TAPD。我司用飞书，光是把/triage的落点从 GitHub issues 改到飞书多维表，就调了大半天，官方文档里压根没这种例子。
+第一个，偏西方开发者默认。issue tracker 默认 GitHub、Linear，文档全是英文。国内团队用起来要改不少地方，triage labels 那套也得自己接飞书、接 TAPD。我司用飞书，光是把/triage 的落点从 GitHub issues 改到飞书多维表，就调了大半天，官方文档里压根没这种例子。
 
-第二个，它不强行把执行钉死。Matt 的设计哲学是「给你工具，不替你做主」。规划阶段你用/to-spec想得很清楚，但到了/implement执行期，agent 仍可能跑偏，因为中间没有一道硬墙拦着它。
+第二个，它不强行把执行钉死。Matt 的设计哲学是「给你工具，不替你做主」。规划阶段你用/to-spec 想得很清楚，但到了/implement 执行期，agent 仍可能跑偏，因为中间没有一道硬墙拦着它。
 
 这对个人小项目无所谓，但棕地大项目、多人协作、要长期维护的场景，跑偏一次的代价就很高。我一个同事就遇到过，spec 写得好好的，实现时 agent 自作主张改了数据模型，code review 才抓出来，返工大半天。你品，这种「规划严、执行松」的断层，恰恰是多人协作最怕的。
 
-这俩留白，正好是国产的spec-superflow补上的地方。顺着这个话头，重磅来了。
+这俩留白，正好是国产的 spec-superflow 补上的地方。顺着这个话头，重磅来了。
 
-更隐蔽的是，Matt 的 skill 之间靠你手动串联。/to-spec出了 spec，/implement要不要严格照做全看你 prompt 怎么写，没有任何机制校验实现和 spec 对得上。这层信任成本，项目一大就压不住，也是「规划严、执行松」最让人头疼的地方。这两个坑单看都不致命，叠在多人长期项目上就成了慢性失血，每次返工都在吞进度，你还没察觉。
+更隐蔽的是，Matt 的 skill 之间靠你手动串联。/to-spec 出了 spec，/implement 要不要严格照做全看你 prompt 怎么写，没有任何机制校验实现和 spec 对得上。这层信任成本，项目一大就压不住，也是「规划严、执行松」最让人头疼的地方。这两个坑单看都不致命，叠在多人长期项目上就成了慢性失血，每次返工都在吞进度，你还没察觉。
 
 ## 重磅，spec-superflow 把纪律焊死了
 
-MageByte-Zero/spec-superflow，当前版本 v0.10.0，MIT 协议。它源码级融合了OpenSpec规划引擎和Superpowers执行纪律，还自己写了个contract-builder桥接层，独创 8 状态路由。最关键的一点，它自包含，你不用单独装 OpenSpec 或 Superpowers 运行时，一个包全搞定。
+MageByte-Zero/spec-superflow，当前版本 v0.10.0，MIT 协议。它源码级融合了 OpenSpec 规划引擎和 Superpowers 执行纪律，还自己写了个 contract-builder 桥接层，独创 8 状态路由。最关键的一点，它自包含，你不用单独装 OpenSpec 或 Superpowers 运行时，一个包全搞定。
 
 ![spec-superflow 8 状态工作流](../images/spec-superflow-intro/004.webp)
 
@@ -107,11 +107,11 @@ MageByte-Zero/spec-superflow，当前版本 v0.10.0，MIT 协议。它源码级�
 
 ![spec-superflow 9 个核心 skills](../images/spec-superflow-intro/005.webp)
 
-workflow-start是入口，做内容级状态检测加 8 状态路由，还会阻止非法跳转。need-explorer探索需求，一次一问加方案对比。spec-writer出 proposal、specs、design、tasks 四份工件，Schema 引擎实时校验。contract-builder把四份工件压缩成execution-contract.md。build-executor执行，TDD 铁律加 SDD 子代理驱动加 Review Gate。bug-investigator调试，4 阶段根因分析，连错 3 次以上直接质疑架构。code-reviewer审查，三级问题分级。release-archivist收口，spec-merger同步。
+workflow-start 是入口，做内容级状态检测加 8 状态路由，还会阻止非法跳转。need-explorer 探索需求，一次一问加方案对比。spec-writer 出 proposal、specs、design、tasks 四份工件，Schema 引擎实时校验。contract-builder 把四份工件压缩成 execution-contract.md。build-executor 执行，TDD 铁律加 SDD 子代理驱动加 Review Gate。bug-investigator 调试，4 阶段根因分析，连错 3 次以上直接质疑架构。code-reviewer 审查，三级问题分级。release-archivist 收口，spec-merger 同步。
 
 它背后的设计原则写得很直白，Spec First、Guarded Handoff、Strong Guardrails、Schema Validated、Execute Disciplined、Self-Contained。前五个合起来就是一句话，规划和实现之间有一道护栏，不是建议，是强制。
 
-硬约束才是它和 Matt 最大的区别。没有execution-contract.md或没被批准，不允许实现。full 或 hotfix 没有 current execution plan，或者任一 wave 缺 pass review receipt，不允许推进。需求变了强制回退，遇 bug 强制走 debugging，不允许「随便试试」。
+硬约束才是它和 Matt 最大的区别。没有 execution-contract.md 或没被批准，不允许实现。full 或 hotfix 没有 current execution plan，或者任一 wave 缺 pass review receipt，不允许推进。需求变了强制回退，遇 bug 强制走 debugging，不允许「随便试试」。
 
 这道墙，Matt 那套是没有的。
 
@@ -131,13 +131,13 @@ Claude Code 用户，走插件市场。
 
 装完，打开对话输入「用 workflow-start 开始」，它会自动检测你当前在流程的哪一步。我第一次启动，它直接识别出我已有的 proposal，跳到 bridging 阶段，省了我重新走一遍探索。
 
-**还有个全局 CLIssf**，装完能直接npm install -g spec-superflow拿到。常用几条。
+**还有个全局 CLIssf**，装完能直接 npm install -g spec-superflow 拿到。常用几条。
 
-我常用ssf doctor排查为什么某个 skill 没出现，基本 10 秒定位到是插件没激活。顺手给你看两个真实输出体感。
+我常用 ssf doctor 排查为什么某个 skill 没出现，基本 10 秒定位到是插件没激活。顺手给你看两个真实输出体感。
 
 看到这两段，你就知道环境是健康的。如果 validate 报红，它还会告诉你是哪份工件缺字段，不至于盲改。
 
-除了 list 和 validate，我推荐新人先跑一次ssf doctor，它会检查插件市场有没有装全、SKILL.md 是否就位，漏了哪步直接报出来。还有个冷门但好用的`ssf execution recommend <dir>`，给它一个目录，它根据改动文件数推荐你走 full、hotfix 还是 tweak 快速路径，省得自己判断。另外启动后除了「用 workflow-start 开始」，你还能喊「继续上次的工作流」或「帮我看看现在该干什么」，断点续跑不用重来。我一般新机器装完先ssf doctor跑一遍，确认 9 个 skill 全亮，再开 workflow-start，避免用到一半发现某个 skill 没加载。mac 和 Linux 一条命令通吃，Windows 用 PowerShell 跑同样的 npx 即可，路径差异它自己处理，不用你手动配环境变量。
+除了 list 和 validate，我推荐新人先跑一次 ssf doctor，它会检查插件市场有没有装全、SKILL.md 是否就位，漏了哪步直接报出来。还有个冷门但好用的`ssf execution recommend <dir>`，给它一个目录，它根据改动文件数推荐你走 full、hotfix 还是 tweak 快速路径，省得自己判断。另外启动后除了「用 workflow-start 开始」，你还能喊「继续上次的工作流」或「帮我看看现在该干什么」，断点续跑不用重来。我一般新机器装完先 ssf doctor 跑一遍，确认 9 个 skill 全亮，再开 workflow-start，避免用到一半发现某个 skill 没加载。mac 和 Linux 一条命令通吃，Windows 用 PowerShell 跑同样的 npx 即可，路径差异它自己处理，不用你手动配环境变量。
 
 ## 一张表看清，Matt 和 spec-superflow 谁适合你
 
@@ -145,7 +145,7 @@ Claude Code 用户，走插件市场。
 
 ![mattpocock/skills vs spec-superflow 对比](../images/spec-superflow-intro/006.webp)
 
-维度mattpocock/skillsspec-superflow设计理念small、可改、composableSpec First、强护栏、自包含执行纪律软引导，不强行约束execution-contract 硬墙，TDD+SDD+Review Gate平台支持不限模型，靠 agent 承载18 个平台原生适配文档语言英文中文自包含两层都是独立小文件融合 OpenSpec+Superpowers，单包适合场景个人项目、想自己改棕地大项目、多人协作、长期维护
+维度 mattpocock/skillsspec-superflow 设计理念 small、可改、composableSpec First、强护栏、自包含执行纪律软引导，不强行约束 execution-contract 硬墙，TDD+SDD+Review Gate 平台支持不限模型，靠 agent 承载 18 个平台原生适配文档语言英文中文自包含两层都是独立小文件融合 OpenSpec+Superpowers，单包适合场景个人项目、想自己改棕地大项目、多人协作、长期维护
 
 维度
 
@@ -211,11 +211,11 @@ execution-contract 硬墙，TDD+SDD+Review Gate
 
 spec-superflow 和 OpenSpec、Superpowers 是什么关系，我还要单独装吗。源码级融合，不是并列拼装。它把 OpenSpec 的规划引擎和 Superpowers 的执行纪律直接编进自己包里，你不需要单独装任何一个运行时，这也是它「自包含」的含义。
 
-我已经在用 OpenSpec，能共存吗。能。建议在不同会话里混用，你现有的 OpenSpec 工件可以直接被 spec-superflow 的contract-builder接管，不用重写。
+我已经在用 OpenSpec，能共存吗。能。建议在不同会话里混用，你现有的 OpenSpec 工件可以直接被 spec-superflow 的 contract-builder 接管，不用重写。
 
 execution-contract 什么时候算过期。看内容，不看时间戳。spec-superflow 做内容级状态检测，比对 proposal 范围和契约意图锁，内容没变就不过期，变了就强制回退重走。
 
-SDD 具体怎么工作。build-executor里，SDD 子代理先 recommend，你 confirm 之后才 plan。每个 wave 先出 review report，你给 pass 或 fail，拿到 pass receipt 才允许推进下一 wave。
+SDD 具体怎么工作。build-executor 里，SDD 子代理先 recommend，你 confirm 之后才 plan。每个 wave 先出 review report，你给 pass 或 fail，拿到 pass receipt 才允许推进下一 wave。
 
 一次性脚本或小需求适合用吗。不适合。spec-superflow 明确不服务一次性脚本或纯咨询场景，这种用 Matt 的轻量 skill 反而更快。hotfix（≤2 文件）和 tweak（≤4 文件）它有快速路径走。
 

@@ -50,11 +50,11 @@ DDD 为我们提供了两种设计：战略设计和战术设计。战略设计�
 
   
 
-*   我们把领域拆分为多个子域，并通过上下文映射图提取出实体的限界上下文，这一过程就是 DDD 的战略设计；
+* 我们把领域拆分为多个子域，并通过上下文映射图提取出实体的限界上下文，这一过程就是 DDD 的战略设计；
     
       
     
-*   而把问题空间的领域、子域概念通过解决方案空间的描述语言实现软件模型，这就是 DDD 的战术设计。
+* 而把问题空间的领域、子域概念通过解决方案空间的描述语言实现软件模型，这就是 DDD 的战术设计。
     
 
   
@@ -937,13 +937,13 @@ public class OrderRepository implements IOrderRepository {
 
   
 
-*   **几个月后，你自己再次看到这段代码时，是否能够马上理解？**
+* **几个月后，你自己再次看到这段代码时，是否能够马上理解？**
     
-*   **别人接手你的代码时是否容易看得懂？**
+* **别人接手你的代码时是否容易看得懂？**
     
-*   **在新增需求时，这段代码是否容易改，是否容易测试？**
+* **在新增需求时，这段代码是否容易改，是否容易测试？**
     
-*   **在其依赖发生变化时，这段代码能否快速的响应变化？响应变化的成本有多少？**
+* **在其依赖发生变化时，这段代码能否快速的响应变化？响应变化的成本有多少？**
     
 
   
@@ -956,11 +956,11 @@ public class OrderRepository implements IOrderRepository {
 
   
 
-*   **可扩展性：**向六边形架构转变，提升系统的扩展性和灵活性
+* **可扩展性：**向六边形架构转变，提升系统的扩展性和灵活性
     
-*   **稳定性：**通过业务编排，降低业务代码的复杂度，提升系统的可维护性，降低稳定性风险
+* **稳定性：**通过业务编排，降低业务代码的复杂度，提升系统的可维护性，降低稳定性风险
     
-*   **交付效率：**使业务代码更加易于理解，提高团队的协作效率，缩短开发周期，从而加快功能交付速度，满足业务快速发展的需求。
+* **交付效率：**使业务代码更加易于理解，提高团队的协作效率，缩短开发周期，从而加快功能交付速度，满足业务快速发展的需求。
     
 
   
@@ -987,27 +987,27 @@ public class OrderRepository implements IOrderRepository {
 
 **优势：**
 
-*   不影响已有业务逻辑
+* 不影响已有业务逻辑
     
-*   重构风险较小
+* 重构风险较小
     
 
   
 
 **劣势：**
 
-*   重构期间模型混乱
+* 重构期间模型混乱
     
-*   依赖功能迭代，时间跨度长
+* 依赖功能迭代，时间跨度长
     
       
     
 
 **修缮者模式：**
 
-*   从层级中提取出 domain 抽象，已有代码逻辑逐步由细节调用改为抽象调用；
+* 从层级中提取出 domain 抽象，已有代码逻辑逐步由细节调用改为抽象调用；
     
-*   应用依赖倒置反转层级结构。
+* 应用依赖倒置反转层级结构。
     
 
   
@@ -1020,18 +1020,18 @@ public class OrderRepository implements IOrderRepository {
 
 **优势****：**
 
-*   重构期间架构模型变动平滑
+* 重构期间架构模型变动平滑
     
-*   开发人员容易接受
+* 开发人员容易接受
     
-*   重构风险较小
+* 重构风险较小
     
 
   
 
 **劣势：**
 
-*   时间跨度较大
+* 时间跨度较大
     
 
   
@@ -1068,13 +1068,13 @@ public class OrderRepository implements IOrderRepository {
 
   
 
-*   抽象空的 domain 层
+* 抽象空的 domain 层
     
-*   domain 中定义 IxxxRepository 接口
+* domain 中定义 IxxxRepository 接口
     
-*   DAO 实现相应的 Repository 接口， 并应用依赖倒置反转层级关系
+* DAO 实现相应的 Repository 接口， 并应用依赖倒置反转层级关系
     
-*   service 中引用 DAO 的地方改为 IRepository 接口
+* service 中引用 DAO 的地方改为 IRepository 接口
     
 
   
@@ -1305,15 +1305,15 @@ public MerchantAppResponse createVisit(CreateVisitRequest request) {
 
   
 
-*   一个**聚合根**对应一个 domain service（如果需要）；
+* 一个**聚合根**对应一个 domain service（如果需要）；
     
-*   单方法超过 **xx** 行代码（以实际业务场景评估，建议 100 行以上）必须用 domain service 进行编排；
+* 单方法超过 **xx** 行代码（以实际业务场景评估，建议 100 行以上）必须用 domain service 进行编排；
     
-*   一个 service 的方法操作 **xx** 个（建议 2 个）以上不同的**聚合 (或实体) 或存在外部上下文依赖时，必须使用 domain service；**
+* 一个 service 的方法操作 **xx** 个（建议 2 个）以上不同的**聚合 (或实体) 或存在外部上下文依赖时，必须使用 domain service；**
     
-*   抽象到 domain service 的方法，原则上每个方法代表**一个聚合的一系列逻辑处理和一个聚合 (或实体) 的数据库写操作；**
+* 抽象到 domain service 的方法，原则上每个方法代表**一个聚合的一系列逻辑处理和一个聚合 (或实体) 的数据库写操作；**
     
-*   每个实体在整个方法的生命周期中只写 **1** 次，防止逻辑跳跃和逻辑隐匿。
+* 每个实体在整个方法的生命周期中只写 **1** 次，防止逻辑跳跃和逻辑隐匿。
     
 
   
@@ -1334,11 +1334,11 @@ public MerchantAppResponse createVisit(CreateVisitRequest request) {
 
   
 
-*   domain 中定义 IxxxRemote 接口
+* domain 中定义 IxxxRemote 接口
     
-*   远程调用类实现相应的 IRemote 接口， 应用依赖倒置反转层级关系
+* 远程调用类实现相应的 IRemote 接口， 应用依赖倒置反转层级关系
     
-*   domain 中注入原远程调用类的地方改为 IRemote 接口
+* domain 中注入原远程调用类的地方改为 IRemote 接口
     
 
   
@@ -1375,11 +1375,11 @@ public MerchantAppResponse createVisit(CreateVisitRequest request) {
 
   
 
-*   **简单性：**简化了系统复杂性，模型边界也更加清晰。
+* **简单性：**简化了系统复杂性，模型边界也更加清晰。
     
-*   **可演化性：**降低研发人员的变更对开发效率的影响，使所有人都可以轻松理解并安全地修改系统，提高团队内的研发资源利用率
+* **可演化性：**降低研发人员的变更对开发效率的影响，使所有人都可以轻松理解并安全地修改系统，提高团队内的研发资源利用率
     
-*   **可扩展性：**系统扩展性更高，节省更换或新增底层中间件的开发成本约 50% 以上
+* **可扩展性：**系统扩展性更高，节省更换或新增底层中间件的开发成本约 50% 以上
     
 
 **五、总结**
@@ -1398,11 +1398,11 @@ public MerchantAppResponse createVisit(CreateVisitRequest request) {
 
   
 
-*   **DDD 没有统一标准，设计要结合自身实际业务**
+* **DDD 没有统一标准，设计要结合自身实际业务**
     
-*   **不要太局限于概念，找到最适合团队的实践方式**
+* **不要太局限于概念，找到最适合团队的实践方式**
     
-*   **不忘初心，记得为什么要 DDD**
+* **不忘初心，记得为什么要 DDD**
     
 
   
@@ -1471,7 +1471,7 @@ public MerchantAppResponse createVisit(CreateVisitRequest request) {
 
   
 
-*   使用领域服务避免平级调用
+* 使用领域服务避免平级调用
     
 
   
@@ -1480,7 +1480,7 @@ public MerchantAppResponse createVisit(CreateVisitRequest request) {
 
   
 
-*   领域模型和数据模型解耦好处：
+* 领域模型和数据模型解耦好处：
     
 
   
@@ -1489,7 +1489,7 @@ public MerchantAppResponse createVisit(CreateVisitRequest request) {
 
   
 
-*   六边形架构的好处：
+* 六边形架构的好处：
     
 
   
@@ -1498,7 +1498,7 @@ public MerchantAppResponse createVisit(CreateVisitRequest request) {
 
   
 
-*   关于防腐层
+* 关于防腐层
     
 
   

@@ -6,7 +6,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/3Z49rhJa63adsNdneImKig"
 ---
 
-# OpenCode架构与扩展能力解析
+# OpenCode 架构与扩展能力解析
 
 ## 本文阐述 OpenCode 开源 AI 编程 Agent 的七层架构，实现推理、工具调用、会话管理等能力解耦。梳理 LLM Provider、Plugin、Skill、MCP、自定义 Agent 五大扩展方向，覆盖模型接入、进程内增强、业务编排、跨进程工具、子智能体场景，提供各扩展的目录路径与操作步骤，配套选型表辅助开发者快速完成二次开发。
 
@@ -56,7 +56,7 @@ SQLite 负责持久化会话记录、消息、配置数据；文件系统组件�
 
 ### 完整端到端数据流
 
-用户输入 → 客户端 → Hono网关 → AgentEngine→ 组装Prompt，调用LLM Provider推理→ LLM返回结果，解析工具调用→ ToolRegistry分发工具├─内置工具 / Plugin工具：进程内执行└─MCP工具：转发到MCP服务（本地子进程/远端SSE）→ 工具执行结果回传给AgentEngine→ Agent循环迭代，直到任务完成→ 结果经由网关返回客户端展示
+用户输入 → 客户端 → Hono 网关 → AgentEngine→ 组装 Prompt，调用 LLM Provider 推理→ LLM 返回结果，解析工具调用→ ToolRegistry 分发工具├─内置工具 / Plugin 工具：进程内执行└─MCP 工具：转发到 MCP 服务（本地子进程/远端 SSE）→ 工具执行结果回传给 AgentEngine→ Agent 循环迭代，直到任务完成→ 结果经由网关返回客户端展示
 
 ## 二、OpenCode 主要扩展点
 
@@ -198,7 +198,7 @@ YAML 配置
 
 确认待接入推理服务接口能力，确认模型支持 function‑call 工具调用。
 
-若服务兼容 OpenAI 接口，直接修改项目根目录下opencode.json配置文件，新增模型提供者配置，填写服务地址、密钥、模型参数、上下文长度，设置默认使用模型。
+若服务兼容 OpenAI 接口，直接修改项目根目录下 opencode.json 配置文件，新增模型提供者配置，填写服务地址、密钥、模型参数、上下文长度，设置默认使用模型。
 
 若存在 SSO、自定义签名等非标鉴权，编写 TypeScript 插件，使用 auth 钩子接管鉴权流程。
 
@@ -216,9 +216,9 @@ YAML 配置
 
 ### 路径 3：Skill 声明式业务流程扩展
 
-在当前项目根目录手动创建.opencode/skill目录。
+在当前项目根目录手动创建.opencode/skill 目录。
 
-在该目录下新建后缀为.skill.md的 Skill 定义文件，一个文件对应一条业务流水线。
+在该目录下新建后缀为.skill.md 的 Skill 定义文件，一个文件对应一条业务流水线。
 
 在文件头部 YAML 元数据填写 Skill 名称、描述、允许调用的工具白名单，文件主体编写业务提示词，定义业务执行流程。
 
@@ -232,7 +232,7 @@ YAML 配置
 
 开发 MCP 服务，使用标准输入输出协议实现交互，不启用 HTTP 服务，业务日志输出到外部文件。
 
-在opencode.json配置文件中填写 MCP 服务的启动命令、环境变量。
+在 opencode.json 配置文件中填写 MCP 服务的启动命令、环境变量。
 
 重启 OpenCode，系统自动拉起本地 MCP 子进程，通过管道完成通信，自动识别 MCP 对外暴露的全部工具。
 
@@ -242,7 +242,7 @@ YAML 配置
 
 部署完成远端 MCP 服务，确认 SSE 访问地址可连通。
 
-在opencode.json中填写远端 MCP 服务访问地址。
+在 opencode.json 中填写远端 MCP 服务访问地址。
 
 重启 OpenCode，建立网络连接，自动拉取远端提供的工具列表。
 
@@ -250,9 +250,9 @@ YAML 配置
 
 ### 路径 5：自定义 Agent 子智能体扩展
 
-在当前项目根目录手动创建.opencode/agents目录。
+在当前项目根目录手动创建.opencode/agents 目录。
 
-在目录下新建后缀为.agent.yaml的配置文件，一份文件对应一个子 Agent。
+在目录下新建后缀为.agent.yaml 的配置文件，一份文件对应一个子 Agent。
 
 在配置文件中填写 Agent 名称、领域专属系统提示词、绑定目标模型、配置可用工具白名单与业务约束。
 

@@ -8,7 +8,7 @@ tags: ["neovim", "lazyvim", "java", "jdtls", "lsp", "troubleshoot", "gI"]
 
 # LazyVim Java gI 跳转失效排查指南
 
-> **核心结论**：启用 `lang.java` 后 `gI` 无法跳转到实现，**最常见原因是项目缺少 `pom.xml` 或 `build.gradle`** —— `jdtls` 无法识别项目根目录就不会完全初始化。按"确认项目结构 → 重启 LSP → 清理缓存 → 检查 JDK 版本 → 排查配置冲突"5 步走即可。
+> **核心结论**：启用 `lang.java` 后 `gI` 无法跳转到实现，**最常见原因是项目缺少 `pom.xml` 或 `build.gradle`** —— `jdtls` 无法识别项目根目录就不会完全初始化。按“确认项目结构 → 重启 LSP → 清理缓存 → 检查 JDK 版本 → 排查配置冲突”5 步走即可。
 
 > **关键洞察**：
 > - Java 跟其他语言不同：`nvim-jdtls`（不是 `nvim-lspconfig`）管理启动，由 FileType autocmd 后台触发
@@ -38,7 +38,7 @@ LazyVim 对 Java 不是用标准的 `nvim-lspconfig`，而是基于专门的插�
 ```
 
 ✅ 正常：输出 `Client: jdtls` 且状态正常
-❌ 异常：输出"无客户端附加"或 `jdtls` 未启动 → 自动启动失败
+❌ 异常：输出“无客户端附加”或 `jdtls` 未启动 → 自动启动失败
 
 ### 2. 检查服务器能力
 

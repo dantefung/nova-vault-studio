@@ -49,5 +49,5 @@ url: "https://github.com/chenhg5/cc-connect/blob/main/docs/usage.md"
 
 | 消息键 | 内容 |
 |--------|------|
-| `MsgModelChanged` | "模型已切换为 `%s`" |
+| `MsgModelChanged` | “模型已切换为 `%s`" |
 | `MsgModelChangeFailed` | 切换失败提示 |

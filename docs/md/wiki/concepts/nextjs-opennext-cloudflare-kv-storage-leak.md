@@ -40,7 +40,7 @@ await kv.put(this.getKVKey(key, cacheType), JSON.stringify({
 
 每次 `opennextjs-cloudflare deploy` 都会触发 `populateCache` 命令，把全站预渲染页面全量塞进 KV。
 
-### 3. 老版本瞬间沦为"孤岛僵尸数据"
+### 3. 老版本瞬间沦为“孤岛僵尸数据”
 
 新版本部署后，上一版本的所有预渲染页面失去访问入口，既不会被读取也不会被重写，但因为没有 TTL，全部永久躺在 KV 上。
 

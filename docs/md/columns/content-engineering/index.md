@@ -7,7 +7,7 @@ url: ""
 
 # 内容工程专栏
 
-> 把个人/团队的内容资产从"散落的文件"升级为"持续运转的内容生产系统"——用工程思维 + Agent 持续推进。
+> 把个人/团队的内容资产从“散落的文件”升级为“持续运转的内容生产系统”——用工程思维 + Agent 持续推进。
 
 ---
 
@@ -16,7 +16,7 @@ url: ""
 | 序号 | 文档 | 分类 | 说明 |
 |------|------|------|------|
 | 01 | [2 天 2 亿 token：dontbesilent 内容资产工程系统](./dbs-content-system.md) | 实战案例 | Codex 2 天 2 亿 token 把 1293 万字本地内容搭成结构化系统 |
-| 02 | [手把手教你创建一个专属于自己的创作Skill](./custom-creation-skill/) | 创作流工程化 | 导出 X 历史数据入库 Obsidian，让 Codex 生成个人定位与风格统一的专属创作 Skill |
+| 02 | [手把手教你创建一个专属于自己的创作 Skill](./custom-creation-skill/) | 创作流工程化 | 导出 X 历史数据入库 Obsidian，让 Codex 生成个人定位与风格统一的专属创作 Skill |
 | 03 | [我是如何使用 AI 创作长视频脚本的](./yihui-ai-video-scripting.md) | AI 创作工作流 | Yihui 用 YouMind + Codex 实时语音 + 白板四步法，把 10-20 分钟视频脚本从一天缩到 2-3 小时 |
 
 ---
@@ -45,9 +45,9 @@ url: ""
 
 ## 适用场景
 
-- 已经有大量本地内容（公众号、推文、课程稿、笔记），想"系统化"而不是"再写一遍"
+- 已经有大量本地内容（公众号、推文、课程稿、笔记），想“系统化”而不是“再写一遍”
 - 多人协作的内容团队，需要共享知识资产而不是各写各的
-- 想用 Agent 加速内容生产，而不是让 Agent "从零写"
+- 想用 Agent 加速内容生产，而不是让 Agent “从零写”
 
 ## 何时不适合
 
@@ -59,7 +59,7 @@ url: ""
 
 - [agentic-engineer](../agentic-engineer/) — Agent 工程架构全链路
 - [mattpocock-skills](../mattpocock-skills/) — Skill 范式：把流程封装成可调用单元
-- [harness-engineering](../harness-engineering/) — Harness 是 Agent 长跑的"导演"
+- [harness-engineering](../harness-engineering/) — Harness 是 Agent 长跑的“导演”
 
 ## 关联 Wiki 概念
 

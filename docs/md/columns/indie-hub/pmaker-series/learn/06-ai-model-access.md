@@ -10,9 +10,9 @@ source: "pmaker.space（空格的键盘）"
 
 你会遇到的现象
 
-*   看到某个平台价格只有官方一半，不确定能不能用
-*   接了三家模型，三套 SDK、三个账号、三张账单
-*   线上突然大面积超时，不知道该找谁，也没有备用通道
+* 看到某个平台价格只有官方一半，不确定能不能用
+* 接了三家模型，三套 SDK、三个账号、三张账单
+* 线上突然大面积超时，不知道该找谁，也没有备用通道
 
 ## 五种渠道
 
@@ -64,10 +64,10 @@ source: "pmaker.space（空格的键盘）"
 
 ## 资料来源
 
-*   [OpenRouter — Docs](https://openrouter.ai/docs)：聚合平台的接入方式与模型覆盖范围
-*   [阿里云百炼 — 帮助文档](https://help.aliyun.com/product/2400256.html)：云厂商模型平台的形态与企业接入流程
-*   [火山引擎方舟 — 文档](https://www.volcengine.com/docs/82379)：另一家云厂商平台的对照
-*   [OneAPI（开源）](https://github.com/songquanpeng/one-api)：自建网关的常见实现
-*   [Claude Platform — Pricing](https://platform.claude.com/docs/en/about-claude/pricing)：官方基准价的一手来源
+* [OpenRouter — Docs](https://openrouter.ai/docs)：聚合平台的接入方式与模型覆盖范围
+* [阿里云百炼 — 帮助文档](https://help.aliyun.com/product/2400256.html)：云厂商模型平台的形态与企业接入流程
+* [火山引擎方舟 — 文档](https://www.volcengine.com/docs/82379)：另一家云厂商平台的对照
+* [OneAPI（开源）](https://github.com/songquanpeng/one-api)：自建网关的常见实现
+* [Claude Platform — Pricing](https://platform.claude.com/docs/en/about-claude/pricing)：官方基准价的一手来源
 
 资料基准：2026 年 8 月。本文对各渠道的风险判断是通用性归纳，不针对任何具体平台；提及的产品名称仅用于说明形态，不构成推荐。接入前请以各平台当期条款为准，涉及用户数据时请让法务过一遍数据处理协议。

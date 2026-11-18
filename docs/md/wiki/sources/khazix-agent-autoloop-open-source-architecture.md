@@ -87,9 +87,9 @@ url: "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw"
 ```agent-autoloop
 {
   "ask": [{
-    "title": "怎么发货？",
-    "text": "两种方式今天都能发出。",
-    "options": ["快递", "自提"],
+    "title": “怎么发货？",
+    "text": ”两种方式今天都能发出。",
+    "options": [“快递”, “自提”],
     "key": "shipping"
   }]
 }
@@ -145,8 +145,8 @@ url: "https://mp.weixin.qq.com/s/T9_acg247gxzUNL4j5zrCw"
 
 ## 结语
 
-> 工作的意义，从来都是为了更好的生活。  
-> AI 的本质，也从来都是以人为本。  
+> 工作的意义，从来都是为了更好的生活。 
+> AI 的本质，也从来都是以人为本。 
 > 人的注意力，永远是最宝贵的资产。
 
 Agent-Autoloop 旨在把人类开发者从频繁的“守屏看输出、贴日志催进度”的低效消耗中彻底解放出来，让命令行 Agent 真正具备闭环自主执行、有据可查、拿不准才请示的高阶工程能力。

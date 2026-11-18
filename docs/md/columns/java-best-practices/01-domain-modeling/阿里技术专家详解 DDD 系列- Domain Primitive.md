@@ -28,32 +28,32 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 未来会覆盖的内容包括：
 
--   最佳架构实践：六边形应用架构 / Clean 架构的核心思想和落地方案
+- 最佳架构实践：六边形应用架构 / Clean 架构的核心思想和落地方案
     
--   持续发现和交付：Event Storming > Context Map > Design Heuristics > Modelling
+- 持续发现和交付：Event Storming > Context Map > Design Heuristics > Modelling
     
--   降低架构腐败速度：通过 Anti-Corruption Layer 集成第三方库的模块化方案
+- 降低架构腐败速度：通过 Anti-Corruption Layer 集成第三方库的模块化方案
     
--   标准组件的规范和边界：Entity, Aggregate, Repository, Domain Service, Application Service, Event, DTO Assembler 等
+- 标准组件的规范和边界：Entity, Aggregate, Repository, Domain Service, Application Service, Event, DTO Assembler 等
     
--   基于 Use Case 重定义应用服务的边界
+- 基于 Use Case 重定义应用服务的边界
     
--   基于 DDD 的微服务化改造及颗粒度控制
+- 基于 DDD 的微服务化改造及颗粒度控制
     
--   CQRS 架构的改造和挑战
+- CQRS 架构的改造和挑战
     
--   基于事件驱动的架构的挑战
+- 基于事件驱动的架构的挑战
     
--   等等
+- 等等
     
 
-今天先给大家带来一篇最基础，但极其有价值的Domain Primitive的概念。
+今天先给大家带来一篇最基础，但极其有价值的 Domain Primitive 的概念。
 
  Domain Primitive
 
   
 
-就好像在学任何语言时首先需要了解的是基础数据类型一样，在全面了解 DDD 之前，首先给大家介绍一个最基础的概念: Domain Primitive（DP）。  
+就好像在学任何语言时首先需要了解的是基础数据类型一样，在全面了解 DDD 之前，首先给大家介绍一个最基础的概念：Domain Primitive（DP）。 
 
 Primitive 的定义是：
 
@@ -61,7 +61,7 @@ Primitive 的定义是：
 > 
 > 初级的形成或生长的早期阶段
 
-就好像 Integer、String 是所有编程语言的Primitive一样，在 DDD 里， DP 可以说是一切模型、方法、架构的基础，而就像 Integer、String 一样， DP 又是无所不在的。所以，第一讲会对 DP 做一个全面的介绍和分析，但我们先不去讲概念，而是从案例入手，看看为什么 DP 是一个强大的概念。
+就好像 Integer、String 是所有编程语言的 Primitive 一样，在 DDD 里， DP 可以说是一切模型、方法、架构的基础，而就像 Integer、String 一样， DP 又是无所不在的。所以，第一讲会对 DP 做一个全面的介绍和分析，但我们先不去讲概念，而是从案例入手，看看为什么 DP 是一个强大的概念。
 
   
 
@@ -135,11 +135,11 @@ public class RegistrationServiceImpl implements RegistrationService {
 
 我们日常绝大部分代码和模型其实都跟这个是类似的，乍一看貌似没啥问题，但我们再深入一步，从以下四个维度去分析一下：接口的清晰度（可阅读性）、数据验证和错误处理、业务逻辑代码的清晰度、和可测试性。
 
-▍问题1 - 接口的清晰度
+▍问题 1 - 接口的清晰度
 
   
 
-在Java代码中，对于一个方法来说所有的参数名在编译时丢失，留下的仅仅是一个参数类型的列表，所以我们重新看一下以上的接口定义，其实在运行时仅仅是：
+在 Java 代码中，对于一个方法来说所有的参数名在编译时丢失，留下的仅仅是一个参数类型的列表，所以我们重新看一下以上的接口定义，其实在运行时仅仅是：
 
 ```auto
 User register(String, String, String);
@@ -171,7 +171,7 @@ User findByNameAndPhone(String name, String phone);
 
 在这个场景下，由于入参都是 String 类型，不得不在方法名上面加上 `ByXXX` 来区分，而 `findByNameAndPhone` 同样也会陷入前面的入参顺序错误的问题，而且和前面的入参不同，这里参数顺序如果输错了，方法不会报错只会返回 `null`，而这种 bug 更加难被发现。这里的思考是，有没有办法让方法入参一目了然，避免入参错误导致的 bug ？
 
-### ▍问题2 - 数据验证和错误处理
+### ▍问题 2 - 数据验证和错误处理
 
 在前面这段数据校验代码：
 
@@ -203,9 +203,9 @@ if (phone == null) {
 
 可以想像得到，代码里充斥着大量的类似代码块时，维护成本要有多高。
 
-最后，在这个业务方法里，会（隐性或显性的）抛 `ValidationException`，所以需要外部调用方去try/catch，而业务逻辑异常和数据校验异常被混在了一起，是否是合理的？
+最后，在这个业务方法里，会（隐性或显性的）抛 `ValidationException`，所以需要外部调用方去 try/catch，而业务逻辑异常和数据校验异常被混在了一起，是否是合理的？
 
-在传统Java架构里有几个办法能够去解决一部分问题，常见的如BeanValidation注解或ValidationUtils类，比如：
+在传统 Java 架构里有几个办法能够去解决一部分问题，常见的如 BeanValidation 注解或 ValidationUtils 类，比如：
 
 ```auto
 // Use Bean Validation
@@ -228,25 +228,25 @@ public User registerWithUtils(String name, String phone, String address) {
 
 **BeanValidation：**
 
--   通常只能解决简单的校验逻辑，复杂的校验逻辑一样要写代码实现定制校验器
+- 通常只能解决简单的校验逻辑，复杂的校验逻辑一样要写代码实现定制校验器
     
--   在添加了新校验逻辑时，同样会出现在某些地方忘记添加一个注解的情况，DRY原则还是会被违背
+- 在添加了新校验逻辑时，同样会出现在某些地方忘记添加一个注解的情况，DRY 原则还是会被违背
     
 
   
 
-**ValidationUtils类：**
+**ValidationUtils 类：**
 
--   当大量的校验逻辑集中在一个类里之后，违背了Single Responsibility单一性原则，导致代码混乱和不可维护
+- 当大量的校验逻辑集中在一个类里之后，违背了 Single Responsibility 单一性原则，导致代码混乱和不可维护
     
--   业务异常和校验异常还是会混杂
+- 业务异常和校验异常还是会混杂
     
 
   
 
 所以，有没有一种方法，能够一劳永逸的解决所有校验的问题以及降低后续的维护成本和异常处理成本呢？
 
-### ▍问题3 - 业务代码的清晰度
+### ▍问题 3 - 业务代码的清晰度
 
 在这段代码里：
 
@@ -263,7 +263,7 @@ for (int i = 0; i < phone.length(); i++) {
 SalesRep rep = salesRepRepo.findRep(areaCode);
 ```
 
-实际上出现了另外一种常见的情况，那就是从一些入参里抽取一部分数据，然后调用一个外部依赖获取更多的数据，然后通常从新的数据中再抽取部分数据用作其他的作用。这种代码通常被称作“胶水代码”，其本质是由于外部依赖的服务的入参并不符合我们原始的入参导致的。比如，如果`SalesRepRepository`包含一个`findRepByPhone`的方法，则上面大部分的代码都不必要了。  
+实际上出现了另外一种常见的情况，那就是从一些入参里抽取一部分数据，然后调用一个外部依赖获取更多的数据，然后通常从新的数据中再抽取部分数据用作其他的作用。这种代码通常被称作“胶水代码”，其本质是由于外部依赖的服务的入参并不符合我们原始的入参导致的。比如，如果`SalesRepRepository`包含一个`findRepByPhone`的方法，则上面大部分的代码都不必要了。 
 
 所以，一个常见的办法是将这段代码抽离出来，变成独立的一个或多个方法：
 
@@ -295,7 +295,7 @@ SalesRep rep = salesRepRepo.findRep(areaCode);
 
 而为了复用以上的方法，可能会抽离出一个静态工具类 `PhoneUtils` 。但是这里要思考的是，静态工具类是否是最好的实现方式呢？当你的项目里充斥着大量的静态工具类，业务代码散在多个文件当中时，你是否还能找到核心的业务逻辑呢？
 
-### ▍问题4 - 可测试性
+### ▍问题 4 - 可测试性
 
 为了保证代码质量，每个方法里的每个入参的每个可能出现的条件都要有 TC 覆盖（假设我们先不去测试内部业务逻辑），所以在我们这个方法里需要以下的 TC ：
 
@@ -327,13 +327,13 @@ SalesRep rep = salesRepRepo.findRep(areaCode);
 
 在分析了 use case 后，发现其中地推业务员、用户本身自带 ID 属性，属于 Entity（实体），而注册系统属于 Application Service（应用服务），这几个概念已经有存在。但是发现电话号这个概念却完全被隐藏到了代码之中。我们可以问一下自己，取电话号的区号的逻辑是否属于用户（用户的区号？）？是否属于注册服务（注册的区号？）？如果都不是很贴切，那就说明这个逻辑应该属于一个独立的概念。所以这里引入我们第一个原则：
 
-**Make Implicit Concepts Explicit  
+**Make Implicit Concepts Explicit 
   
-将隐性的概念显性化  
+将隐性的概念显性化 
   
 **
 
-在这里，我们可以看到，原来电话号仅仅是用户的一个参数，属于隐形概念，但实际上电话号的区号才是真正的业务逻辑，而我们需要将电话号的概念显性化，通过写一个Value Object：
+在这里，我们可以看到，原来电话号仅仅是用户的一个参数，属于隐形概念，但实际上电话号的区号才是真正的业务逻辑，而我们需要将电话号的概念显性化，通过写一个 Value Object：
 
 ```auto
 public class PhoneNumber {
@@ -375,24 +375,24 @@ public class PhoneNumber {
 }
 ```
 
-‍  
+‍ 
 
 这里面有几个很重要的元素：
 
-1.  通过 `private final String number` 确保 `PhoneNumber` 是一个（Immutable）Value Object。（一般来说 VO 都是 Immutable 的，这里只是重点强调一下）
+1. 通过 `private final String number` 确保 `PhoneNumber` 是一个（Immutable）Value Object。（一般来说 VO 都是 Immutable 的，这里只是重点强调一下）
     
-2.  校验逻辑都放在了 constructor 里面，确保只要 `PhoneNumber` 类被创建出来后，一定是校验通过的。
+2. 校验逻辑都放在了 constructor 里面，确保只要 `PhoneNumber` 类被创建出来后，一定是校验通过的。
     
-3.  之前的 `findAreaCode` 方法变成了 `PhoneNumber` 类里的 `getAreaCode` ，突出了 `areaCode` 是  `PhoneNumber` 的一个计算属性。
+3. 之前的 `findAreaCode` 方法变成了 `PhoneNumber` 类里的 `getAreaCode` ，突出了 `areaCode` 是  `PhoneNumber` 的一个计算属性。
     
 
   
 
 这样做完之后，我们发现把 `PhoneNumber` 显性化之后，其实是生成了一个 Type（数据类型）和一个 Class（类）：
 
--   Type 指我们在今后的代码里可以通过 `PhoneNumber` 去显性的标识电话号这个概念
+- Type 指我们在今后的代码里可以通过 `PhoneNumber` 去显性的标识电话号这个概念
     
--   Class 指我们可以把所有跟电话号相关的逻辑完整的收集到一个文件里
+- Class 指我们可以把所有跟电话号相关的逻辑完整的收集到一个文件里
     
 
   
@@ -431,9 +431,9 @@ public User register(
 }
 ```
 
-我们可以看到在使用了 DP 之后，所有的数据验证逻辑和非业务流程的逻辑都消失了，剩下都是核心业务逻辑，可以一目了然。我们重新用上面的四个维度评估一下：  
+我们可以看到在使用了 DP 之后，所有的数据验证逻辑和非业务流程的逻辑都消失了，剩下都是核心业务逻辑，可以一目了然。我们重新用上面的四个维度评估一下： 
 
-### ▍评估1 - 接口的清晰度
+### ▍评估 1 - 接口的清晰度
 
 重构后的方法签名变成了很清晰的：
 
@@ -441,7 +441,7 @@ public User register(
 public User register(Name, PhoneNumber, Address)
 ```
 
-而之前容易出现的bug，如果按照现在的写法
+而之前容易出现的 bug，如果按照现在的写法
 
   
 
@@ -451,7 +451,7 @@ service.register(new Name("殷浩"), new Address("浙江省杭州市余杭区文
 
 让接口 API 变得很干净，易拓展。
 
-### ▍评估2 - 数据验证和错误处理
+### ▍评估 2 - 数据验证和错误处理
 
 ```auto
 public User register(
@@ -463,9 +463,9 @@ public User register(
 
 如前文代码展示的，重构后的方法里，完全没有了任何数据验证的逻辑，也不会抛 `ValidationException` 。原因是因为 DP 的特性，只要是能够带到入参里的一定是正确的或 null（Bean Validation 或 lombok 的注解能解决 null 的问题）。所以我们把数据验证的工作量前置到了调用方，而调用方本来就是应该提供合法数据的，所以更加合适。
 
-再展开来看，使用DP的另一个好处就是代码遵循了 DRY 原则和单一性原则，如果未来需要修改 `PhoneNumber` 的校验逻辑，只需要在一个文件里修改即可，所有使用到了 `PhoneNumber` 的地方都会生效。
+再展开来看，使用 DP 的另一个好处就是代码遵循了 DRY 原则和单一性原则，如果未来需要修改 `PhoneNumber` 的校验逻辑，只需要在一个文件里修改即可，所有使用到了 `PhoneNumber` 的地方都会生效。
 
-### ▍评估3 - 业务代码的清晰度
+### ▍评估 3 - 业务代码的清晰度
 
 ‍
 
@@ -479,15 +479,15 @@ return userRepo.save(user);
 
 除了在业务方法里不需要校验数据之外，原来的一段胶水代码 `findAreaCode` 被改为了 `PhoneNumber` 类的一个计算属性 `getAreaCode` ，让代码清晰度大大提升。而且胶水代码通常都不可复用，但是使用了 DP 后，变成了可复用、可测试的代码。我们能看到，在刨除了数据验证代码、胶水代码之后，剩下的都是核心业务逻辑。（ Entity 相关的重构在后面文章会谈到，这次先忽略）
 
-### ▍评估4 - 可测试性
+### ▍评估 4 - 可测试性
 
 ![图片](https://mmbiz.qpic.cn/mmbiz_png/33P2FdAnjuicy3aSjJrwLfmhWnx7CPQuWM8oBYuQcK9iamdBVZNEtjfaZ6giaotoiawEp3eI9dxG5XusG8PoDLqYZw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 当我们将 `PhoneNumber` 抽取出来之后，在来看测试的 TC ：
 
--   首先 `PhoneNumber` 本身还是需要 M 个测试用例，但是由于我们只需要测试单一对象，每个用例的代码量会大大降低，维护成本降低。
+- 首先 `PhoneNumber` 本身还是需要 M 个测试用例，但是由于我们只需要测试单一对象，每个用例的代码量会大大降低，维护成本降低。
     
--   每个方法里的每个参数，现在只需要覆盖为 null 的情况就可以了，其他的 case 不可能发生（因为只要不是 null 就一定是合法的）
+- 每个方法里的每个参数，现在只需要覆盖为 null 的情况就可以了，其他的 case 不可能发生（因为只要不是 null 就一定是合法的）
     
 
   
@@ -512,9 +512,9 @@ N + M + P
 
 在上文我介绍了 DP 的第一个原则：将隐性的概念显性化。在这里我将介绍 DP 的另外两个原则，用一个新的案例。
 
-### ▍案例1 - 转账
+### ▍案例 1 - 转账
 
-假设现在要实现一个功能，让A用户可以支付 x 元给用户 B ，可能的实现如下：
+假设现在要实现一个功能，让 A 用户可以支付 x 元给用户 B ，可能的实现如下：
 
 ‍
 
@@ -528,9 +528,9 @@ public void pay(BigDecimal money, Long recipientId) {
 
 在这个 case 里，当我们说“支付 x 元”时，除了 x 本身的数字之外，实际上是有一个隐含的概念那就是货币“元”。但是在原始的入参里，之所以只用了 `BigDecimal` 的原因是我们认为 CNY 货币是默认的，是一个隐含的条件，但是在我们写代码时，需要把所有隐性的条件显性化，而这些条件整体组成当前的上下文。所以 DP 的第二个原则是：
 
-**Make Implicit Context Explicit  
+**Make Implicit Context Explicit 
   
-将 隐性的 上下文 显性化  
+将 隐性的 上下文 显性化 
   
 **
 
@@ -562,9 +562,9 @@ public void pay(Money money, Long recipientId) {
 
   
 
-通过将默认货币这个隐性的上下文概念显性化，并且和金额合并为 `Money` ，我们可以避免很多当前看不出来，但未来可能会暴雷的bug。
+通过将默认货币这个隐性的上下文概念显性化，并且和金额合并为 `Money` ，我们可以避免很多当前看不出来，但未来可能会暴雷的 bug。
 
-### ▍案例2 - 跨境转账
+### ▍案例 2 - 跨境转账
 
 前面的案例升级一下，假设用户可能要做跨境转账从 CNY 到 USD ，并且货币汇率随时在波动：
 
@@ -581,13 +581,13 @@ public void pay(Money money, Currency targetCurrency, Long recipientId) {
 }
 ```
 
-在这个case里，由于 `targetCurrency` 不一定和 `money` 的 `Curreny` 一致，需要调用一个服务去取汇率，然后做计算。最后用计算后的结果做转账。
+在这个 case 里，由于 `targetCurrency` 不一定和 `money` 的 `Curreny` 一致，需要调用一个服务去取汇率，然后做计算。最后用计算后的结果做转账。
 
-这个case最大的问题在于，金额的计算被包含在了支付的服务中，涉及到的对象也有2个 `Currency` ，2 个 `Money` ，1 个 `BigDecimal` ，总共 5 个对象。这种涉及到多个对象的业务逻辑，需要用 DP 包装掉，所以这里引出 DP 的第三个原则：
+这个 case 最大的问题在于，金额的计算被包含在了支付的服务中，涉及到的对象也有 2 个 `Currency` ，2 个 `Money` ，1 个 `BigDecimal` ，总共 5 个对象。这种涉及到多个对象的业务逻辑，需要用 DP 包装掉，所以这里引出 DP 的第三个原则：
 
-**Encapsulate Multi-Object Behavior  
+**Encapsulate Multi-Object Behavior 
   
-封装 多对象 行为  
+封装 多对象 行为 
   
 **
 
@@ -637,41 +637,41 @@ public void pay(Money money, Currency targetCurrency, Long recipientId) {
 
   
 
-▍Domain Primitive 的定义  
+▍Domain Primitive 的定义 
 
   
 
 让我们重新来定义一下 Domain Primitive ：Domain Primitive 是一个在特定领域里，拥有精准定义的、可自我验证的、拥有行为的 Value Object 。
 
--   DP是一个传统意义上的Value Object，拥有Immutable的特性
+- DP 是一个传统意义上的 Value Object，拥有 Immutable 的特性
     
--   DP是一个完整的概念整体，拥有精准定义
+- DP 是一个完整的概念整体，拥有精准定义
     
--   DP使用业务域中的原生语言
+- DP 使用业务域中的原生语言
     
--   DP可以是业务域的最小组成部分、也可以构建复杂组合
+- DP 可以是业务域的最小组成部分、也可以构建复杂组合
     
 
   
 
-注：Domain Primitive的概念和命名来自于Dan Bergh Johnsson & Daniel Deogun的书 Secure by Design。
+注：Domain Primitive 的概念和命名来自于 Dan Bergh Johnsson & Daniel Deogun 的书 Secure by Design。
 
 ### ▍使用 Domain Primitive 的三原则
 
--   让隐性的概念显性化
+- 让隐性的概念显性化
     
--   让隐性的上下文显性化
+- 让隐性的上下文显性化
     
--   封装多对象行为
+- 封装多对象行为
     
 
 ### ▍Domain Primitive 和 DDD 里 Value Object 的区别
 
 在 DDD 中， Value Object 这个概念其实已经存在：
 
--   在 Evans 的 DDD 蓝皮书中，Value Object 更多的是一个非 Entity 的值对象
+- 在 Evans 的 DDD 蓝皮书中，Value Object 更多的是一个非 Entity 的值对象
     
--   在Vernon的IDDD红皮书中，作者更多的关注了Value Object的Immutability、Equals方法、Factory方法等
+- 在 Vernon 的 IDDD 红皮书中，作者更多的关注了 Value Object 的 Immutability、Equals 方法、Factory 方法等
     
 
 Domain Primitive 是 Value Object 的进阶版，在原始 VO 的基础上要求每个 DP 拥有概念的整体，而不仅仅是值对象。在 VO 的 Immutable 基础上增加了 Validity 和行为。当然同样的要求无副作用（side-effect free）。
@@ -686,15 +686,15 @@ Domain Primitive 是 Value Object 的进阶版，在原始 VO 的基础上要求
 
 常见的 DP 的使用场景包括：
 
--   有格式限制的 `String`：比如`Name`，`PhoneNumber`，`OrderNumber`，`ZipCode`，`Address`等
+- 有格式限制的 `String`：比如`Name`，`PhoneNumber`，`OrderNumber`，`ZipCode`，`Address`等
     
--   有限制的`Integer`：比如`OrderId`（>0），`Percentage`（0-100%），`Quantity`（>=0）等
+- 有限制的`Integer`：比如`OrderId`（>0），`Percentage`（0-100%），`Quantity`（>=0）等
     
--   可枚举的 `int` ：比如 `Status`（一般不用Enum因为反序列化问题）
+- 可枚举的 `int` ：比如 `Status`（一般不用 Enum 因为反序列化问题）
     
--   `Double` 或 `BigDecimal`：一般用到的 `Double` 或 `BigDecimal` 都是有业务含义的，比如 `Temperature`、`Money`、`Amount`、`ExchangeRate`、`Rating` 等
+- `Double` 或 `BigDecimal`：一般用到的 `Double` 或 `BigDecimal` 都是有业务含义的，比如 `Temperature`、`Money`、`Amount`、`ExchangeRate`、`Rating` 等
     
--   复杂的数据结构：比如 `Map<String, List<Integer>>` 等，尽量能把 `Map` 的所有操作包装掉，仅暴露必要行为
+- 复杂的数据结构：比如 `Map<String, List<Integer>>` 等，尽量能把 `Map` 的所有操作包装掉，仅暴露必要行为
     
 
   
@@ -766,7 +766,7 @@ public User register(String name, String phone, String address)
 
 ### ▍第三步 - 创建新接口
 
-创建新接口，将DP的代码提升到接口参数层：
+创建新接口，将 DP 的代码提升到接口参数层：
 
 ```auto
 public User register(Name name, PhoneNumber phone, Address address) {
@@ -776,7 +776,7 @@ public User register(Name name, PhoneNumber phone, Address address) {
 
   
 
-▍第四步 - 修改外部调用  
+▍第四步 - 修改外部调用 
 
   
 
@@ -794,7 +794,7 @@ service.register("殷浩", "0571-12345678", "浙江省杭州市余杭区文三�
 service.register(new Name("殷浩"), new PhoneNumber("0571-12345678"), new Address("浙江省杭州市余杭区文三西路969号"));
 ```
 
-通过以上 4 步，就能让你的代码变得更加简洁、优雅、健壮、安全。你还在等什么？今天就去尝试吧！  
+通过以上 4 步，就能让你的代码变得更加简洁、优雅、健壮、安全。你还在等什么？今天就去尝试吧！ 
 
   
 
@@ -808,21 +808,21 @@ END
 
   
 
-你可能还喜欢  
+你可能还喜欢 
 
-点击下方图片即可阅读  
+点击下方图片即可阅读 
 
   
 
 [![图片](https://mmbiz.qpic.cn/mmbiz_jpg/33P2FdAnjuicy3aSjJrwLfmhWnx7CPQuWOfJibSMR14ApedNwRaTM6JuGyPB5GZUBhBp4CluKdpmL9fXjXDkudoA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)](http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650403876&idx=1&sn=e897f950e7e5e0537ce296c83e00fb62&chksm=83953c3cb4e2b52a9ce68b3a54ca9f2f9aa682c61e7cff88444f9ff7371e004ad52203de54b3&scene=21#wechat_redirect)
 
-[大促背后的流量利器|手淘push升级 比你更懂你](http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650403876&idx=1&sn=e897f950e7e5e0537ce296c83e00fb62&chksm=83953c3cb4e2b52a9ce68b3a54ca9f2f9aa682c61e7cff88444f9ff7371e004ad52203de54b3&scene=21#wechat_redirect)  
+[大促背后的流量利器|手淘 push 升级 比你更懂你](http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650403876&idx=1&sn=e897f950e7e5e0537ce296c83e00fb62&chksm=83953c3cb4e2b52a9ce68b3a54ca9f2f9aa682c61e7cff88444f9ff7371e004ad52203de54b3&scene=21#wechat_redirect) 
 
   
 
 [![图片](https://mmbiz.qpic.cn/mmbiz_jpg/33P2FdAnju84LOyL9XSP5VVHVJibh3tib2eDHvTlluM6AgIkGiawwEca0W5RMRW6ZQHkruyfwoY5L16AGYUfcZKKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)](http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650403801&idx=1&sn=5dab2af09f753fd089fe0f1f56260b10&chksm=83953bc1b4e2b2d79f78028ed6e79651167d85bf67453af791d9304fa4003eed73d9f2957fc7&scene=21#wechat_redirect)
 
-[阿里工程师谈，什么是好的代码？](http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650403801&idx=1&sn=5dab2af09f753fd089fe0f1f56260b10&chksm=83953bc1b4e2b2d79f78028ed6e79651167d85bf67453af791d9304fa4003eed73d9f2957fc7&scene=21#wechat_redirect)  
+[阿里工程师谈，什么是好的代码？](http://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650403801&idx=1&sn=5dab2af09f753fd089fe0f1f56260b10&chksm=83953bc1b4e2b2d79f78028ed6e79651167d85bf67453af791d9304fa4003eed73d9f2957fc7&scene=21#wechat_redirect) 
 
   
 

@@ -7,13 +7,13 @@ url: "https://github.com/Leonxlnx/taste-skill"
 
 # Taste-Skill — AI 前端防丑 Skill 合集（34.1k Stars）
 
-> The Anti-Slop Frontend Framework for AI Agents. 专治 AI生成的默认丑，让页面从 boilerplate 升级到有品味。
+> The Anti-Slop Frontend Framework for AI Agents. 专治 AI 生成的默认丑，让页面从 boilerplate 升级到有品味。
 
 <!-- more -->
 
 ## 核心理念
 
-**专治"AI Look"**：蓝紫渐变、统一卡片网格、`border-radius: 12px`、Inter 字体、居中布局——Taste-Skill 给出的是设计决策框架，而非简单样式清单。
+**专治“AI Look"**：蓝紫渐变、统一卡片网格、`border-radius: 12px`、Inter 字体、居中布局——Taste-Skill 给出的是设计决策框架，而非简单样式清单。
 
 ## 核心 Skill
 

@@ -3,14 +3,14 @@ title: "Open Design（开源Claude Design替代）"
 date: "2026-06-11"
 ---
 
-# Open Design（开源Claude Design替代）
+# Open Design（开源 Claude Design 替代）
 
 > 本地优先的开源 Claude Design 替代——100+ skills / 150 brand-grade `DESIGN.md` 设计系统 / 261 插件 / 跑在 21 个本地 CLI 上。
 
 ## Key Points
 
 - **核心定位**：本地优先 + 开源（Apache 2.0）的 Claude Design 替代
-- **核心思路**：当 Anthropic 给 Claude Design 装上的"agent-native"循环停止封闭、变成文件系统里的 skills + design systems + plugins，你的 coding agents 就能读、写、remix
+- **核心思路**：当 Anthropic 给 Claude Design 装上的“agent-native”循环停止封闭、变成文件系统里的 skills + design systems + plugins，你的 coding agents 就能读、写、remix
 - **你的 CLI = 设计引擎**；**你的笔记本 = 工作室**；**你团队的 `DESIGN.md` = 品牌合约**
 
 ## 核心数据

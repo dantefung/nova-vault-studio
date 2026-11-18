@@ -27,11 +27,11 @@ Claude Code 提供完整的企业级功能支持，包括策略限制、远程�
 
 托管设置可覆盖的配置项包括：
 
-*   `permissions`: 权限配置
-*   `mcpServers`: MCP 服务器配置
-*   `allowedTools` / `deniedTools`: 工具白名单/黑名单
-*   `features`: 功能开关
-*   `model`: 模型配置
+* `permissions`: 权限配置
+* `mcpServers`: MCP 服务器配置
+* `allowedTools` / `deniedTools`: 工具白名单/黑名单
+* `features`: 功能开关
+* `model`: 模型配置
 
 使用 ETag 条件请求 + 缓存机制，定期轮询获取更新。
 
@@ -41,10 +41,10 @@ Claude Code 提供完整的企业级功能支持，包括策略限制、远程�
 
 策略可控制的内容：
 
-*   工具限制（allowedTools / deniedTools）
-*   模型限制（allowedModels）
-*   功能限制（maxAgentDepth、maxConcurrentTasks 等）
-*   安全限制（requirePermissionConfirmation 等）
+* 工具限制（allowedTools / deniedTools）
+* 模型限制（allowedModels）
+* 功能限制（maxAgentDepth、maxConcurrentTasks 等）
+* 安全限制（requirePermissionConfirmation 等）
 
 ## 团队记忆同步 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/enterprise.html#%E5%9B%A2%E9%98%9F%E8%AE%B0%E5%BF%86%E5%90%8C%E6%AD%A5)
 
@@ -52,16 +52,16 @@ Claude Code 提供完整的企业级功能支持，包括策略限制、远程�
 
 功能：
 
-*   **push**: 上传本地记忆到服务器
-*   **fetch**: 拉取团队记忆
-*   **scan**: 安全扫描（防止敏感信息泄露）
+* **push**: 上传本地记忆到服务器
+* **fetch**: 拉取团队记忆
+* **scan**: 安全扫描（防止敏感信息泄露）
 
 ## 设置同步 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/enterprise.html#%E8%AE%BE%E7%BD%AE%E5%90%8C%E6%AD%A5)
 
 跨环境设置同步通过 `src/services/settingsSync/` 实现，主要导出：
 
-*   `uploadUserSettingsInBackground()`: 后台上传本地设置
-*   `downloadUserSettings()`: 下载远程设置
-*   `redownloadUserSettings()`: 重新下载设置
+* `uploadUserSettingsInBackground()`: 后台上传本地设置
+* `downloadUserSettings()`: 下载远程设置
+* `redownloadUserSettings()`: 重新下载设置
 
 相关类型包括 `SettingsSyncFetchResult`、`SettingsSyncUploadResult`、`UserSyncData`（`src/services/settingsSync/types.ts`）。

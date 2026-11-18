@@ -5,7 +5,7 @@ source: "刘小排"
 url: "https://mp.weixin.qq.com/s/zxjYSGzgEoDyrcpdupEQ-w"
 ---
 
-# 一个人如何管理几十个AI程序员？
+# 一个人如何管理几十个 AI 程序员？
 
 ## 核心问题
 

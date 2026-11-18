@@ -14,8 +14,8 @@ related:
 
 # 关于 DeepSeek 的 SuperAgent，以及我们的实践
 
-> **本文摘自《Alibaba Cloud AI Agent Handbook》**  
-> 项目地址：https://github.com/aliyun/ai-agent-handbook  
+> **本文摘自《Alibaba Cloud AI Agent Handbook》** 
+> 项目地址：https://github.com/aliyun/ai-agent-handbook 
 > 阿里云 AgentCore 已支持 DeepSeek Harness 部署，加速企业生产化验证。
 
 ![阿里云 AgentCore 支持 DeepSeek Harness](../images/zhengtian-deepseek-superagent-practice/001.webp)
@@ -232,7 +232,7 @@ DSH 同时开源了一个原型[4]，代码约 1.6 万行。以下是深入到�
 - **Policy（规则）**：团队定的规矩，比如谁能发起工作、什么情况下允许主动做。规则会改，所以有版本。
 - **Mandate（授权）**：这份 Ticket“凭什么可以做”的凭证，写明谁要求的、范围多大、依据哪版规则。
 
-**为什么要把 Ticket 和 Mandate 分开？**  
+**为什么要把 Ticket 和 Mandate 分开？** 
 想象这个场景：一个修复已经合并了，Ticket 结束了。一周后有人在那个 PR 下说“这里还有个问题”。系统应该怎么办？重新走一遍评估太慢，直接开工又可能越权。有了独立的 Mandate，就可以这样处理：沿用当时的 Mandate 恢复工作，但先对照最新的规则检查一下，这份 Mandate 是否仍然有效。一件工作能不能继续，和它现在是什么状态，是两个问题。
 
 ### ▍3.2 一条消息怎么变成一份工作

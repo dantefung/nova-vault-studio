@@ -6,7 +6,7 @@ source: "公众号"
 
 # TencentDB Agent Memory：团队级 Agent 记忆中枢
 
-> Agent 不再是一个个"一次性工具"——通过四类可复用资产（Chat Memory / Skill / Wiki / CodeGraph）+ Memory Hub 治理，让上一位 Agent 的学习成本被下一位继承。
+> Agent 不再是一个个“一次性工具”——通过四类可复用资产（Chat Memory / Skill / Wiki / CodeGraph）+ Memory Hub 治理，让上一位 Agent 的学习成本被下一位继承。
 
 ## 核心定义
 
@@ -14,11 +14,11 @@ source: "公众号"
 
 ## 关键洞察
 
-1. **Agent Memory 的核心矛盾不是"记不记得住"，而是"经验能不能被团队继承"**。跨会话记忆只是基础，真正减少返工的是跑通过的经验、读过的文档和理解过的代码。
+1. **Agent Memory 的核心矛盾不是“记不记得住”，而是“经验能不能被团队继承”**。跨会话记忆只是基础，真正减少返工的是跑通过的经验、读过的文档和理解过的代码。
 
 2. **四层记忆架构（L0-L3）解决两个极端**：全量历史塞上下文（Token 膨胀）和不可追溯的总结（细节丢失）。保留了一条从高层判断回到原始证据的路径。
 
-3. **Skill 才是复利的关键**：Chat Memory 是"记住发生过什么"，Skill 是"下次应该怎么做"。Skill 有版本、边界、步骤和验证规则，从"口口相传"走向"有版本、有边界、可验证的操作手册"。
+3. **Skill 才是复利的关键**：Chat Memory 是“记住发生过什么”，Skill 是“下次应该怎么做”。Skill 有版本、边界、步骤和验证规则，从“口口相传”走向“有版本、有边界、可验证的操作手册”。
 
 4. **Memory Hub 解决的不是搜索，而是治理**：private/team/restricted/agent 四级可见性 + Agent Loadout，让共享记忆不等于共享全部信息。
 

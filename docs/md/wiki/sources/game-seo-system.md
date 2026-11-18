@@ -5,7 +5,7 @@ source: "微信公众号（王杨）"
 url: "https://mp.weixin.qq.com/s/sjb05qDsfcp3jCynUeAbJw"
 ---
 
-# 40块1个站点游戏下载站模板+海量游戏数据的SEO功能游戏养站系统
+# 40 块 1 个站点游戏下载站模板+海量游戏数据的 SEO 功能游戏养站系统
 
 > 一套面向入门 SEO 站长的游戏养站系统，集成了 400 套游戏下载站模板、CPS 接口、自动文章更新、蜘蛛池、友链部署等 SEO 功能，主打低成本批量建游戏/软件下载站。
 
@@ -40,13 +40,13 @@ url: "https://mp.weixin.qq.com/s/sjb05qDsfcp3jCynUeAbJw"
 
 集成市面上稳定的游戏盒子 CPS 接口，简单填写游戏平台信息即可部署游戏下载链接。目前只接入游戏行业，软件行业需自己寻找渠道。
 
-![CPS接口](../images/game-seo-system/003.webp)
+![CPS 接口](../images/game-seo-system/003.webp)
 
 ### 4. 自动部署 SEO 信息
 
 自动部署标题、关键词、描述，也可自定义。网站任何信息标题可自动或手工设置。
 
-![SEO部署](../images/game-seo-system/004.webp)
+![SEO 部署](../images/game-seo-system/004.webp)
 
 ### 5. 自动 sitemap.xml
 

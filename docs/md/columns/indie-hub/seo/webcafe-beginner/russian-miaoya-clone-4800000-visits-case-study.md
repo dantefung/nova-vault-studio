@@ -6,30 +6,30 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 ---
 
-# 【5000字调查分析】建站20天拿下480万访问量，俄罗斯版的妙鸭相机是怎么做到的？
+# 【5000 字调查分析】建站 20 天拿下 480 万访问量，俄罗斯版的妙鸭相机是怎么做到的？
 
 ## 新手入门
 
-# 【5000字调查分析】建站20天拿下480万访问量，俄罗斯版的妙鸭相机是怎么做到的？
+# 【5000 字调查分析】建站 20 天拿下 480 万访问量，俄罗斯版的妙鸭相机是怎么做到的？
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_002.webp)
 
-**正文开始** 话说，下午 MoneyHunter 群主在群里例行分享财富信息，说 BaiRBIE.me 单月访问量480万了，而且是凭空冒出来的。
+**正文开始** 话说，下午 MoneyHunter 群主在群里例行分享财富信息，说 BaiRBIE.me 单月访问量 480 万了，而且是凭空冒出来的。
 
-我查了一下，这个域名居然是7月17日注册的，再查 archive 发现网页是7月22日被收录的，也就是说，建站到今天，也才20天。
+我查了一下，这个域名居然是 7 月 17 日注册的，再查 archive 发现网页是 7 月 22 日被收录的，也就是说，建站到今天，也才 20 天。
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_003.webp)
 
-从上图可以看出来，实际流量是7月就有 480万，8月还没结束，暂时看不到流量数据，所以实际480万流量是7月31日之前的10天时间就达成的，但是8月数据还没出来，我们就暂时当作总流量480万。
+从上图可以看出来，实际流量是 7 月就有 480 万，8 月还没结束，暂时看不到流量数据，所以实际 480 万流量是 7 月 31 日之前的 10 天时间就达成的，但是 8 月数据还没出来，我们就暂时当作总流量 480 万。
 
-如果让哥飞来预估的话，8月流量估计在650万左右，到9月初，Similarweb 上显示了8月份流量数据时，我们再来看看哥飞估得准不准。
+如果让哥飞来预估的话，8 月流量估计在 650 万左右，到 9 月初，Similarweb 上显示了 8 月份流量数据时，我们再来看看哥飞估得准不准。
 
-这个网站流量增速这么猛，引起了哥飞运营的付费社群“哥飞的朋友们”里一位朋友 TT总的注意，他问哥飞，这流量到底怎么来的？
+这个网站流量增速这么猛，引起了哥飞运营的付费社群“哥飞的朋友们”里一位朋友 TT 总的注意，他问哥飞，这流量到底怎么来的？
 
 哥飞就去收集了一些信息，总结起来发现，整个爆火路径居然跟妙鸭相机差不多。
 
 好了，下面就是哥飞收集信息的过程，完整教给大家，以后大家也可以这样收集任何网站的信息。
 
-先看 Similarweb 上这个站的用户地理位置分布，我们发现几乎都是北半球来的流量，俄罗斯60.65%，哈萨克斯坦7.57%，乌克兰4.55%，波兰4.37%，土耳其3.84%，白俄罗斯3.07%，剩下的流量就很分散了，我们忽略掉。
+先看 Similarweb 上这个站的用户地理位置分布，我们发现几乎都是北半球来的流量，俄罗斯 60.65%，哈萨克斯坦 7.57%，乌克兰 4.55%，波兰 4.37%，土耳其 3.84%，白俄罗斯 3.07%，剩下的流量就很分散了，我们忽略掉。
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_004.webp)
 
@@ -45,7 +45,7 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
  刚才我们说了，有 21.51%流量来自于搜索引擎，从下图可以看到，大部分都是品牌词，也就是说，用户在别的地方知道这个产品名字之后，再来搜索引擎里搜索的，而不是这个网站抓住了什么热门搜索关键字。
 
-当然，你会说，最近上映了一部电影，但是电影名字是《Barbie》，而网站域名是 BaiRBIE.me ，看出区别来了吗，域名多了一个i，与字母a凑成了ai。
+当然，你会说，最近上映了一部电影，但是电影名字是《Barbie》，而网站域名是 BaiRBIE.me ，看出区别来了吗，域名多了一个 i，与字母 a 凑成了 ai。
 
 而下面的搜索词，基本都是 bairbie ，只有第一个是 barbie 但是搜索词后面有个 me ，所以可以认为用户就是在搜索这个网站的品牌词，而不是在搜索电影。
 
@@ -53,41 +53,41 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 所以，虽然有 21.51%流量来自于搜索引擎，但并不是流量的初始来源，我们还得继续找。
 
-上面我们说了，57.44%流量来自于直接访问，这部分可以认为是用户记住了网址，或者用即时通信软件发送的网址，或者把网址加入了书签，或者是有些链接设置了noreferrer导致无法跟踪。但不管哪种情况，我们先放一边，看看别的方向。
+上面我们说了，57.44%流量来自于直接访问，这部分可以认为是用户记住了网址，或者用即时通信软件发送的网址，或者把网址加入了书签，或者是有些链接设置了 noreferrer 导致无法跟踪。但不管哪种情况，我们先放一边，看看别的方向。
 
-先看外链，6.24%的流量来自于外链，也就是大约30万左右，我们只看前12个，因为后面的都流量太小了。
+先看外链，6.24%的流量来自于外链，也就是大约 30 万左右，我们只看前 12 个，因为后面的都流量太小了。
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_008.webp)
 
 哥飞做了个表格，加上了网站介绍：
 
-|  | 来源网站域名 | 流量占比 | 带来流量 | 介绍 |
+| | 来源网站域名 | 流量占比 | 带来流量 | 介绍 |
 | --- | --- | --- | --- | --- |
-| 1 | lifehacker.ru | 35.21% | 10万 | 俄罗斯生活指南门户网站 |
-| 2 | medialeaks.ru | 16.52% | 4.77万 | 俄罗斯流行文化媒体网站 |
-| 3 | itc.ua | 9.68% | 2.79万 | 乌克兰IT媒体网站 |
-| 5 | hi-tech.mail.ru | 5.49% | 1.58万 | 俄罗斯最大科技网站 |
-| 6 | kayiprihtim.com | 4.68% | 1.35万 | 土耳其综合门户网站 |
-| 7 | naekranie.pl | 3.28% | 0.95万 | 波兰综合媒体网站 |
-| 8 | dzen.ru | 3.21% | 0.93万 | 俄罗斯综合媒体网站 |
-| 9 | yandex.ru | 2.75% | 0.79万 | 俄罗斯搜索引擎（跳转到dzen.ru了 |
-| 10 | trashbox.ru | 2.35% | 0.68万 | 俄罗斯科技媒体 |
-| 11 | vc.ru | 2.30% | 0.66万 | 俄罗斯科技媒体 |
-| 12 | futuretools.ru | 1.68% | 0.5万 | 俄罗斯AI工具导航 |
+| 1 | lifehacker.ru | 35.21% | 10 万 | 俄罗斯生活指南门户网站 |
+| 2 | medialeaks.ru | 16.52% | 4.77 万 | 俄罗斯流行文化媒体网站 |
+| 3 | itc.ua | 9.68% | 2.79 万 | 乌克兰 IT 媒体网站 |
+| 5 | hi-tech.mail.ru | 5.49% | 1.58 万 | 俄罗斯最大科技网站 |
+| 6 | kayiprihtim.com | 4.68% | 1.35 万 | 土耳其综合门户网站 |
+| 7 | naekranie.pl | 3.28% | 0.95 万 | 波兰综合媒体网站 |
+| 8 | dzen.ru | 3.21% | 0.93 万 | 俄罗斯综合媒体网站 |
+| 9 | yandex.ru | 2.75% | 0.79 万 | 俄罗斯搜索引擎（跳转到 dzen.ru 了 |
+| 10 | trashbox.ru | 2.35% | 0.68 万 | 俄罗斯科技媒体 |
+| 11 | vc.ru | 2.30% | 0.66 万 | 俄罗斯科技媒体 |
+| 12 | futuretools.ru | 1.68% | 0.5 万 | 俄罗斯 AI 工具导航 |
 
-接下来，我们在谷歌用“site:来源域名 bairbie”语法搜索，并且点开搜索工具，限定结果时间为7月17日到7月25日，目的是找出最早的宣传网页。
+接下来，我们在谷歌用“site：来源域名 bairbie”语法搜索，并且点开搜索工具，限定结果时间为 7 月 17 日到 7 月 25 日，目的是找出最早的宣传网页。
 
-如第一个lifehacker.ru，我们这样搜索，总共只找到7条结果，其中最早的是7月18日发的，好像找到了最早的网页。 
+如第一个 lifehacker.ru，我们这样搜索，总共只找到 7 条结果，其中最早的是 7 月 18 日发的，好像找到了最早的网页。 
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_009.webp)
 
  但实际仔细看就会发现，我们找的关键字都没有出现在标题里，而是出现在描述里的，所以最有可能的真相是，这些网页里都有个相关文章列表，里边有我们要找的那个文章。
 
-那就继续把时间往后移动，经过多次测试，当选择7月26日到7月28日区间时，终于出现了我们要找的网页。 
+那就继续把时间往后移动，经过多次测试，当选择 7 月 26 日到 7 月 28 日区间时，终于出现了我们要找的网页。 
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_010.webp)
 
- 网址是 [https://lifehacker.ru/bairbie-me-servis/](https://lifehacker.ru/bairbie-me-servis/) ，这是 7月27日发的，网页截图如下。 
+ 网址是 [https://lifehacker.ru/bairbie-me-servis/](https://lifehacker.ru/bairbie-me-servis/) ，这是 7 月 27 日发的，网页截图如下。 
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_011.webp)
 
@@ -101,50 +101,50 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_013.webp)
 
- 那么继续找第二个来源网站 medialeaks.ru ，这次我们限定时间7月17日到8月11日，同样只找到一篇帖子。 
+ 那么继续找第二个来源网站 medialeaks.ru ，这次我们限定时间 7 月 17 日到 8 月 11 日，同样只找到一篇帖子。 
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_014.webp)
 
- 链接是 [https://medialeaks.ru/2707tat-str-int-bairbie-me/](https://medialeaks.ru/2707tat-str-int-bairbie-me/) ，发布时间7月27日，截图如下。 
+ 链接是 [https://medialeaks.ru/2707tat-str-int-bairbie-me/](https://medialeaks.ru/2707tat-str-int-bairbie-me/) ，发布时间 7 月 27 日，截图如下。 
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_015.webp)
 
  注意，这里提到了 Twitter ，说明有可能 BaiRBIE 最早是在 Twitter 推广的。
 
-接下来，用同样的方法，去找第3个来源网站 itc.ua 的搜索结果，找到了四条，两条是7月26日发的，两条是8月1日发的。
+接下来，用同样的方法，去找第 3 个来源网站 itc.ua 的搜索结果，找到了四条，两条是 7 月 26 日发的，两条是 8 月 1 日发的。
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_016.webp)
 
-我们先看7月26日发的，
+我们先看 7 月 26 日发的，
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_017.webp)
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_018.webp)
 注意看这两条，有几个关键点：
 
-1、一个是09:34发布，一个是09:35发布；
+1、一个是 09:34 发布，一个是 09:35 发布；
 
-2、一个70191个阅读，一个101795个阅读；
+2、一个 70191 个阅读，一个 101795 个阅读；
 
 3、两个都嵌入了同一条推文；
 
-4、推文发布时间是7月25日。
+4、推文发布时间是 7 月 25 日。
 
 我们刚才找的两个网站的文章都提到了推特，记住，这里要考的。但我们暂时先放一边，哥飞继续找。
 
-现在是第4个来源网站，这次会发现，直接搜索 site:pikabu.ru intitle:BaiRBIE 找不到结果，而搜索 site:pikabu.ru BaiRBIE 可以找到结果，这说明没有哪个网页标题中含有 BaiRBIE 。
+现在是第 4 个来源网站，这次会发现，直接搜索 site:pikabu.ru intitle:BaiRBIE 找不到结果，而搜索 site:pikabu.ru BaiRBIE 可以找到结果，这说明没有哪个网页标题中含有 BaiRBIE 。
 
-我们换用站内搜索，结果页 [https://pikabu.ru/search?q=bairbie&st=3](https://pikabu.ru/search?q=bairbie&st=3) 找到了4个帖子，分别如下：
+我们换用站内搜索，结果页 [https://pikabu.ru/search?q=bairbie&st=3](https://pikabu.ru/search?q=bairbie&st=3) 找到了 4 个帖子，分别如下：
 
-[https://pikabu.ru/story/v\_volne\_novogo\_filma\_pro\_barbi\_i\_pro\_ai\_neyronku\_10502953](https://pikabu.ru/story/v_volne_novogo_filma_pro_barbi_i_pro_ai_neyronku_10502953) 发布于 7月26日
+[https://pikabu.ru/story/v\_volne\_novogo\_filma\_pro\_barbi\_i\_pro\_ai\_neyronku\_10502953](https://pikabu.ru/story/v_volne_novogo_filma_pro_barbi_i_pro_ai_neyronku_10502953) 发布于 7 月 26 日
 
-[https://pikabu.ru/story/stat\_barbi\_za\_1\_minutu\_10509430](https://pikabu.ru/story/stat_barbi_za_1_minutu_10509430) 发布于 7月28日
+[https://pikabu.ru/story/stat\_barbi\_za\_1\_minutu\_10509430](https://pikabu.ru/story/stat_barbi_za_1_minutu_10509430) 发布于 7 月 28 日
 
-[https://pikabu.ru/story/now\_i\_am\_become\_death\_the\_destroyer\_of\_barbieworlds\_10511321](https://pikabu.ru/story/now_i_am_become_death_the_destroyer_of_barbieworlds_10511321) 发布于 7月29日，里边还提到去水印工具，所以可以认为是用户发布的。
+[https://pikabu.ru/story/now\_i\_am\_become\_death\_the\_destroyer\_of\_barbieworlds\_10511321](https://pikabu.ru/story/now_i_am_become_death_the_destroyer_of_barbieworlds_10511321) 发布于 7 月 29 日，里边还提到去水印工具，所以可以认为是用户发布的。
 
-[https://pikabu.ru/story/prevrati\_sebya\_v\_barbi\_ili\_kena\_v\_odin\_klik\_onlayn\_10527031](https://pikabu.ru/story/prevrati_sebya_v_barbi_ili_kena_v_odin_klik_onlayn_10527031) 发布于 8月3日
+[https://pikabu.ru/story/prevrati\_sebya\_v\_barbi\_ili\_kena\_v\_odin\_klik\_onlayn\_10527031](https://pikabu.ru/story/prevrati_sebya_v_barbi_ili_kena_v_odin_klik_onlayn_10527031) 发布于 8 月 3 日
 
-接下来是 site:hi-tech.mail.ru BaiRBIE ，有一条7月28日的软文。
+接下来是 site:hi-tech.mail.ru BaiRBIE ，有一条 7 月 28 日的软文。
 
 为什么说软文呢，因为 BaiRBIE.me 的使用步骤和链接都完整写出来了。
 
@@ -152,7 +152,7 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 剩下的来源网站我不一一展示步骤，而是直接在下面列出所有找到的结果：
 
-7月26日发布：
+7 月 26 日发布：
 
 [https://itc.ua/news/bairbie-me-yy-ynstrument-kotoryj-prevratyt-vas-v-barby-yly-kena-za-schytannye-mynuty/](https://itc.ua/news/bairbie-me-yy-ynstrument-kotoryj-prevratyt-vas-v-barby-yly-kena-za-schytannye-mynuty/)
 
@@ -160,7 +160,7 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 [https://pikabu.ru/story/v\_volne\_novogo\_filma\_pro\_barbi\_i\_pro\_ai\_neyronku\_10502953](https://pikabu.ru/story/v_volne_novogo_filma_pro_barbi_i_pro_ai_neyronku_10502953)
 
-7月27日发布：
+7 月 27 日发布：
 
 [https://lifehacker.ru/bairbie-me-servis/](https://lifehacker.ru/bairbie-me-servis/)
 
@@ -170,7 +170,7 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 [https://trashbox.ru/link/2023-07-27-nejroset-delaet-barbi-ili-kena-s-vashim-licom](https://trashbox.ru/link/2023-07-27-nejroset-delaet-barbi-ili-kena-s-vashim-licom)
 
-7月28日发布：
+7 月 28 日发布：
 
 [https://hi-tech.mail.ru/news/101583-internet-shodit-s-uma-po-barbi-nejroseti/](https://hi-tech.mail.ru/news/101583-internet-shodit-s-uma-po-barbi-nejroseti/)
 
@@ -184,23 +184,23 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 [https://vc.ru/marketing/774797-ya-tozhe-hochu-na-plyazh-predstavili-zvezd-rossiyskogo-it-v-obraze-barbie](https://vc.ru/marketing/774797-ya-tozhe-hochu-na-plyazh-predstavili-zvezd-rossiyskogo-it-v-obraze-barbie)
 
-7月29日发布：
+7 月 29 日发布：
 
 [https://pikabu.ru/story/now\_i\_am\_become\_death\_the\_destroyer\_of\_barbieworlds\_10511321](https://pikabu.ru/story/now_i_am_become_death_the_destroyer_of_barbieworlds_10511321)
 
 [https://vc.ru/u/2105782-elena-valitova/776159-bairbie-me-zavoevyvaet-mir-v-chem-opasnost-neyronok-i-chat-botov](https://vc.ru/u/2105782-elena-valitova/776159-bairbie-me-zavoevyvaet-mir-v-chem-opasnost-neyronok-i-chat-botov)
 
-7月31日发布：
+7 月 31 日发布：
 
 [https://dzen.ru/a/ZMfUO\_fpOHtoOGmj](https://dzen.ru/a/ZMfUO_fpOHtoOGmj)
 
 [https://vc.ru/ml/777922-ai-vr-daydzhest-14-specialno-dlya-digital-club](https://vc.ru/ml/777922-ai-vr-daydzhest-14-specialno-dlya-digital-club)
 
-8月1日发布：
+8 月 1 日发布：
 
 [https://vc.ru/midjourney/778171-barbengeymer-na-chey-storone-ty](https://vc.ru/midjourney/778171-barbengeymer-na-chey-storone-ty)
 
-8月3日发布：
+8 月 3 日发布：
 
 [https://pikabu.ru/story/prevrati\_sebya\_v\_barbi\_ili\_kena\_v\_odin\_klik\_onlayn\_10527031](https://pikabu.ru/story/prevrati_sebya_v_barbi_ili_kena_v_odin_klik_onlayn_10527031)
 
@@ -208,7 +208,7 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 [https://vc.ru/u/1330361-neyronki-dlya-zarabotka/782392-bairbie-me-poprobuy-sebya-v-obraze-barbi-ili-kena](https://vc.ru/u/1330361-neyronki-dlya-zarabotka/782392-bairbie-me-poprobuy-sebya-v-obraze-barbi-ili-kena)
 
-对于以上21个网页，哥飞以多年行走江湖的经验判断，除了 pikabu.ru 和 vc.ru 两个网站的部分内容是用户自发发布的外，其它的网页典型特征都是一个网站只发一两条，但是访问量都挺大的，可以认为都是媒体软文。
+对于以上 21 个网页，哥飞以多年行走江湖的经验判断，除了 pikabu.ru 和 vc.ru 两个网站的部分内容是用户自发发布的外，其它的网页典型特征都是一个网站只发一两条，但是访问量都挺大的，可以认为都是媒体软文。
 
 现在我们回过头来再看社交网络来的流量，刚才我们说了，整个网站的流量中有 14.51%来自于社交网络，那么这部分流量中，来源分布情况如下：
 
@@ -224,93 +224,93 @@ url: "https://new.web.cafe/tutorial/detail/49CEdLfKEdh6QfT1XsUKg6"
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_019.webp)
 
- 我们先看 VK ，先在谷歌搜索，找到了915条，通过限定时间，找到了几条，但是依然还是我们刚才前文遇到的问题，实际发布时间不是这个时间。 
+ 我们先看 VK ，先在谷歌搜索，找到了 915 条，通过限定时间，找到了几条，但是依然还是我们刚才前文遇到的问题，实际发布时间不是这个时间。 
 
 ![image.png](images/russian-miaoya-clone-4800000-visits-case-study/img_020.webp)
 
- 以上面显示7月18日发布的 [https://vk.com/loveofmom](https://vk.com/loveofmom) 为例，实际我们打开他的个人页面可以就能看到，[https://vk.com/wall-83478798\_15142](https://vk.com/wall-83478798_15142) 是在7月28日发布的。
+ 以上面显示 7 月 18 日发布的 [https://vk.com/loveofmom](https://vk.com/loveofmom) 为例，实际我们打开他的个人页面可以就能看到，[https://vk.com/wall-83478798\_15142](https://vk.com/wall-83478798_15142) 是在 7 月 28 日发布的。
 
-[https://vk.com/muz.ing.club](https://vk.com/muz.ing.club) 则是在8月1日转载别人在当日发布的内容 [https://vk.com/wall-192863412\_651](https://vk.com/wall-192863412_651) 。
+[https://vk.com/muz.ing.club](https://vk.com/muz.ing.club) 则是在 8 月 1 日转载别人在当日发布的内容 [https://vk.com/wall-192863412\_651](https://vk.com/wall-192863412_651) 。
 
 我们换用俄罗斯搜索引擎 yandex.com ，通过以下语法查找到了五千多条用户发布的内容。
 
 site:vk.com inurl:wall bairbie.me
 
-由于没办法限定时间，哥飞只好一条一条点进去，人肉翻看抽样了100条内容，并且做了个表格记录每天的内容数量，结果如下：
+由于没办法限定时间，哥飞只好一条一条点进去，人肉翻看抽样了 100 条内容，并且做了个表格记录每天的内容数量，结果如下：
 
 | 日期 | 内容数量 |
 | --- | --- |
-| 7月26日 | 3条 |
-| 7月27日 | 17条 |
-| 7月28日 | 31条 |
-| 7月29日 | 19条 |
-| 7月30日 | 4条 |
-| 7月31日 | 2条 |
-| 8月1日 | 3条 |
-| 8月2日 | 1条 |
-| 8月3日 | 2条 |
-| 8月4日 | 5条 |
-| 8月5日 | 2条 |
-| 8月6日 | 2条 |
-| 8月7日 | 0条 |
-| 8月8日 | 1条 |
+| 7 月 26 日 | 3 条 |
+| 7 月 27 日 | 17 条 |
+| 7 月 28 日 | 31 条 |
+| 7 月 29 日 | 19 条 |
+| 7 月 30 日 | 4 条 |
+| 7 月 31 日 | 2 条 |
+| 8 月 1 日 | 3 条 |
+| 8 月 2 日 | 1 条 |
+| 8 月 3 日 | 2 条 |
+| 8 月 4 日 | 5 条 |
+| 8 月 5 日 | 2 条 |
+| 8 月 6 日 | 2 条 |
+| 8 月 7 日 | 0 条 |
+| 8 月 8 日 | 1 条 |
 
-可以看到7月26日开始有内容，7月27日开始蔓延，7月28日爆发，7月29日开始减弱，之后就一直没多少量了。
+可以看到 7 月 26 日开始有内容，7 月 27 日开始蔓延，7 月 28 日爆发，7 月 29 日开始减弱，之后就一直没多少量了。
 
 这跟之前我们在看到的媒体软文发布时间是一致的。
 
-再看Twitter上搜索 BaiRBIE.me 的搜索结果统计数据：
+再看 Twitter 上搜索 BaiRBIE.me 的搜索结果统计数据：
 
 | 日期 | 内容数量 |
 | --- | --- |
-| 7月23日 | 1条 |
-| 7月25日 | 46条 |
-| 7月26日 | 78条 |
-| 7月27日 | 126条 |
-| 7月28日 | 118条 |
-| 7月29日 | 275条 |
-| 7月30日 | 149条 |
-| 7月31日 | 137条 |
-| 8月1日 | 205条 |
-| 8月2日 | 256条 |
-| 8月3日 | 218条 |
-| 8月4日 | 243条 |
-| 8月5日 | 154条 |
-| 8月6日 | 106条 |
-| 8月7日 | 56条 |
-| 8月8日 | 45条 |
-| 8月9日 | 47条 |
-| 8月10日 | 40条 |
+| 7 月 23 日 | 1 条 |
+| 7 月 25 日 | 46 条 |
+| 7 月 26 日 | 78 条 |
+| 7 月 27 日 | 126 条 |
+| 7 月 28 日 | 118 条 |
+| 7 月 29 日 | 275 条 |
+| 7 月 30 日 | 149 条 |
+| 7 月 31 日 | 137 条 |
+| 8 月 1 日 | 205 条 |
+| 8 月 2 日 | 256 条 |
+| 8 月 3 日 | 218 条 |
+| 8 月 4 日 | 243 条 |
+| 8 月 5 日 | 154 条 |
+| 8 月 6 日 | 106 条 |
+| 8 月 7 日 | 56 条 |
+| 8 月 8 日 | 45 条 |
+| 8 月 9 日 | 47 条 |
+| 8 月 10 日 | 40 条 |
 
-可以看出来23算是测试，25号才开始正式放出来给用户使用，之后在29日有个高峰，之后回落一些，再之后8月1日到4日数据也不错，之后就开始不断衰落了。
+可以看出来 23 算是测试，25 号才开始正式放出来给用户使用，之后在 29 日有个高峰，之后回落一些，再之后 8 月 1 日到 4 日数据也不错，之后就开始不断衰落了。
 
-剩下的Facebook，哥飞就不去统计了，估计规律差不多，大家感兴趣可以去统计一下。
+剩下的 Facebook，哥飞就不去统计了，估计规律差不多，大家感兴趣可以去统计一下。
 
 最终总结 BaiRBIE.me 这个站的时间线如下：
 
-1、7月17日注册域名；
+1、7 月 17 日注册域名；
 
-2、7月20日电影《芭比Barbie》上映；
+2、7 月 20 日电影《芭比 Barbie》上映；
 
-3、7月22日Archive收录了BaiRBIE.me网站页面；
+3、7 月 22 日 Archive 收录了 BaiRBIE.me 网站页面；
 
-4、7月23日在Twitter看到第一条分享信息；
+4、7 月 23 日在 Twitter 看到第一条分享信息；
 
-5、7月25日，团队先找了部分用户或KOL试用产品，并且带来第一波在Twitter的扩散；
+5、7 月 25 日，团队先找了部分用户或 KOL 试用产品，并且带来第一波在 Twitter 的扩散；
 
-6、7月26日开始投放科技媒体软文，主要是 itc.ua ；
+6、7 月 26 日开始投放科技媒体软文，主要是 itc.ua ；
 
-7、7月26日开始有用户在 pikabu.ru 发帖自发宣传；
+7、7 月 26 日开始有用户在 pikabu.ru 发帖自发宣传；
 
-8、7月27日在 lifehacker.ru、medialeaks.ru、naekranie.pl、trashbox.ru投放软文；
+8、7 月 27 日在 lifehacker.ru、medialeaks.ru、naekranie.pl、trashbox.ru 投放软文；
 
-9、7月28日在hi-tech.mail.ru、kayiprihtim.com投放软文；
+9、7 月 28 日在 hi-tech.mail.ru、kayiprihtim.com 投放软文；
 
-10、7月28日开始有用户在 vc.ru 自发扩散。
+10、7 月 28 日开始有用户在 vc.ru 自发扩散。
 
-其实从7月25日开始，在Twitter中，就有自发扩散的用户，也有团队找的KOL在帮助扩散。
+其实从 7 月 25 日开始，在 Twitter 中，就有自发扩散的用户，也有团队找的 KOL 在帮助扩散。
 
-整个过程看下来，Twitter传播威力依然巨大，值得大家去运营维护好自己的Twitter账号。
+整个过程看下来，Twitter 传播威力依然巨大，值得大家去运营维护好自己的 Twitter 账号。
 
 整套运营推广策略，是不是跟妙鸭相机很像，妙鸭相机在小红书招募内测用户，并且在公测后扩散开来，之后也在别的社交平台如即刻刷屏。
 

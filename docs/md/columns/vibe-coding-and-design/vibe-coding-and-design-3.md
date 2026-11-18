@@ -4,9 +4,9 @@ date: "2026-01-03"
 source: "KaitoX"
 url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=224cd6fbd3176ea31baf2756aecfd680"
 ---
-# Vibe Coding与设计（三）：两步搞定前端动效，让网站瞬间 “活” 起来
+# Vibe Coding 与设计（三）：两步搞定前端动效，让网站瞬间 “活” 起来
 
-原创 KaitoX *2026年1月15日 10:21*
+原创 KaitoX *2026 年 1 月 15 日 10:21*
 
 ## 前言
 
@@ -14,7 +14,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 
 在第一篇《如何实现有设计感的网站》中，我们通过拆解网页设计的五个层次—— **视觉基础、基础组件、复合组件、布局模式、交互反馈** ，建立了设计系统的理论框架。
 
-在第二篇《5分钟，实现一个有设计感的网站》中，我们利用 AI 快速落地了一个名为 **Nanobanana** 的 AI 工具站。虽然页面结构完整、配色也不错，但如果你仔细观察，会发现它少了一点“灵魂”。
+在第二篇《5 分钟，实现一个有设计感的网站》中，我们利用 AI 快速落地了一个名为 **Nanobanana** 的 AI 工具站。虽然页面结构完整、配色也不错，但如果你仔细观察，会发现它少了一点“灵魂”。
 
 **这点缺失的“灵魂”，就是第五个层次——交互反馈（Interactive Feedback）。**
 
@@ -34,7 +34,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 2. **提供反馈** ：确认用户的操作已被系统接收（比如按钮按下的回弹）。
 3. **塑造性格（Vibe）** ：
 - 苹果官网的动画：缓慢、优雅、流畅 -> **高端、精致**
-	- Duolingo 的动画：Q弹、夸张、快速 -> **有趣、亲切**
+	- Duolingo 的动画：Q 弹、夸张、快速 -> **有趣、亲切**
 
 ## 两大流派：Lottie vs Motion
 
@@ -97,7 +97,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 
 ![image.png](images/vibe-coding-3/002.webp)
 
-然后点击 Handoff，然后复制相关代码到项目中，告知 AI "在页面的 xxx 区域增加这个 Lottie 动画"就好了，比如我输入的 Prompt：
+然后点击 Handoff，然后复制相关代码到项目中，告知 AI “在页面的 xxx 区域增加这个 Lottie 动画”就好了，比如我输入的 Prompt：
 
 ```
 请在HeroSection中，新增一个 lottie 动画: import React from 'react'; import { DotLottieReact } from '@lottiefiles/dotlottie-react'; const App = () => { return ( <dotlottiereact src="https://lottie.host/52127f83-29f4-4954-b66f-b1e2041b16a3/FvVzWmqJDL.lottie" loop="" autoplay=""> ); }; </dotlottiereact>
@@ -113,7 +113,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483769&idx=1&sn=
 
 ## 第二步：使用 Framer Motion 增加交互质感
 
-Framer Motion 是基于代码的动画库，实现方式比 Lottie 更灵活，直接告诉AI就好。我们可以针对页面的不同区域做精细调整，比如我输入的 Prompt 是：
+Framer Motion 是基于代码的动画库，实现方式比 Lottie 更灵活，直接告诉 AI 就好。我们可以针对页面的不同区域做精细调整，比如我输入的 Prompt 是：
 
 ```
 整体：在页面中增加点儿Framer Motion动画 局部：在 Community Love 的内容区域，增加多几个评论，然后增加 Framer Motion动画，让他横向滚动起来
@@ -147,4 +147,4 @@ Framer Motion 是基于代码的动画库，实现方式比 Lottie 更灵活，�
 
 也欢迎关注我的公众号，后续我会持续分享 AI 工程化实践、设计系统搭建等内容。让我们一起，用 AI 的效率 + 设计的温度，做出真正有灵魂的产品。
 
-Vibe Coding与设计 · 目录
+Vibe Coding 与设计 · 目录

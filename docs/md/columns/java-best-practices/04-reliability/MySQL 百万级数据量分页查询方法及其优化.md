@@ -8,55 +8,55 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 **方法 1: 直接使用数据库提供的 SQL 语句**
 
-*   语句样式: MySQL 中, 可用如下方法: SELECT * FROM 表名称 LIMIT M,N
+* 语句样式：MySQL 中，可用如下方法：SELECT * FROM 表名称 LIMIT M,N
     
-*   适应场景: 适用于数据量较少的情况 (元组百 / 千级)
+* 适应场景：适用于数据量较少的情况 (元组百 / 千级)
     
-*   原因 / 缺点: 全表扫描, 速度会很慢 且 有的数据库结果集返回不稳定 (如某次返回 1,2,3, 另外的一次返回 2,1,3). Limit 限制的是从结果集的 M 位置处取出 N 条输出, 其余抛弃.
+* 原因 / 缺点：全表扫描，速度会很慢 且 有的数据库结果集返回不稳定 (如某次返回 1,2,3, 另外的一次返回 2,1,3). Limit 限制的是从结果集的 M 位置处取出 N 条输出，其余抛弃.
     
 
-**方法 2: 建立主键或唯一索引, 利用索引 (假设每页 10 条)**
+**方法 2: 建立主键或唯一索引，利用索引 (假设每页 10 条)**
 
-*   语句样式: MySQL 中, 可用如下方法: SELECT * FROM 表名称 WHERE id_pk > (pageNum*10) LIMIT M
+* 语句样式：MySQL 中，可用如下方法：SELECT * FROM 表名称 WHERE id_pk > (pageNum*10) LIMIT M
     
-*   适应场景: 适用于数据量多的情况 (元组数上万)
+* 适应场景：适用于数据量多的情况 (元组数上万)
     
-*   原因: 索引扫描, 速度会很快. 有朋友提出: 因为数据查询出来并不是按照 pk_id 排序的，所以会有漏掉数据的情况，只能方法 3
+* 原因：索引扫描，速度会很快. 有朋友提出：因为数据查询出来并不是按照 pk_id 排序的，所以会有漏掉数据的情况，只能方法 3
     
 
 **方法 3: 基于索引再排序**
 
-*   语句样式: MySQL 中, 可用如下方法: SELECT * FROM 表名称 WHERE id_pk > (pageNum*10) ORDER BY id_pk ASC LIMIT M
+* 语句样式：MySQL 中，可用如下方法：SELECT * FROM 表名称 WHERE id_pk > (pageNum*10) ORDER BY id_pk ASC LIMIT M
     
-*   适应场景: 适用于数据量多的情况 (元组数上万). 最好 ORDER BY 后的列对象是主键或唯一所以, 使得 ORDERBY 操作能利用索引被消除但结果集是稳定的 (稳定的含义, 参见方法 1)
+* 适应场景：适用于数据量多的情况 (元组数上万). 最好 ORDER BY 后的列对象是主键或唯一所以，使得 ORDERBY 操作能利用索引被消除但结果集是稳定的 (稳定的含义，参见方法 1)
     
-*   原因: 索引扫描, 速度会很快. 但 MySQL 的排序操作, 只有 ASC 没有 DESC(DESC 是假的, 未来会做真正的 DESC, 期待...).
+* 原因：索引扫描，速度会很快. 但 MySQL 的排序操作，只有 ASC 没有 DESC(DESC 是假的，未来会做真正的 DESC, 期待...).
     
 
 **方法 4: 基于索引使用 prepare**
 
 第一个问号表示 pageNum，第二个？表示每页元组数
 
-*   语句样式: MySQL 中, 可用如下方法: PREPARE stmt_name FROM SELECT * FROM 表名称 WHERE id_pk > (？* ？) ORDER BY id_pk ASC LIMIT M
+* 语句样式：MySQL 中，可用如下方法：PREPARE stmt_name FROM SELECT * FROM 表名称 WHERE id_pk > (？* ？) ORDER BY id_pk ASC LIMIT M
     
-*   适应场景: 大数据量
+* 适应场景：大数据量
     
-*   原因: 索引扫描, 速度会很快. prepare 语句又比一般的查询语句快一点。
+* 原因：索引扫描，速度会很快. prepare 语句又比一般的查询语句快一点。
     
 
-**方法 5: 利用 MySQL 支持 ORDER 操作可以利用索引快速定位部分元组, 避免全表扫描**
+**方法 5: 利用 MySQL 支持 ORDER 操作可以利用索引快速定位部分元组，避免全表扫描**
 
-比如: 读第 1000 到 1019 行元组 (pk 是主键 / 唯一键).
+比如：读第 1000 到 1019 行元组 (pk 是主键 / 唯一键).
 
 ```
 SELECT * FROM your_table WHERE pk>=1000 ORDER BY pk ASC LIMIT 0,20
 ```
 
-**方法 6: 利用 "子查询 / 连接 + 索引" 快速定位元组的位置, 然后再读取元组.**
+**方法 6: 利用 “子查询 / 连接 + 索引” 快速定位元组的位置，然后再读取元组.**
 
-比如 (id 是主键 / 唯一键, 蓝色字体时变量)
+比如 (id 是主键 / 唯一键，蓝色字体时变量)
 
-利用子查询示例:
+利用子查询示例：
 
 ```
 SELECT * FROM your_table WHERE id <=
@@ -64,7 +64,7 @@ SELECT * FROM your_table WHERE id <=
 LIMIT $pagesize
 ```
 
-利用连接示例:
+利用连接示例：
 
 ```
 SELECT * FROM your_table AS t1
@@ -109,9 +109,9 @@ select * from product limit 866613, 20   37.44秒
 
 从中我们也能总结出两件事情：
 
-1.  limit 语句的查询时间与起始记录的位置成正比
+1. limit 语句的查询时间与起始记录的位置成正比
     
-2.  mysql 的 limit 语句是很方便，但是对记录很多的表并不适合直接使用。
+2. mysql 的 limit 语句是很方便，但是对记录很多的表并不适合直接使用。
     
 
 **2.   对 limit 分页问题的性能优化方法**
@@ -168,7 +168,7 @@ select id,title from collect limit 1000,10;
 select id,title from collect limit 90000,10;
 ```
 
-8-9 秒完成，my god 哪出问题了？其实要优化这条数据，网上找得到答案。看下面一条语句:
+8-9 秒完成，my god 哪出问题了？其实要优化这条数据，网上找得到答案。看下面一条语句：
 
 ```
 select id from collect order by id limit 90000,10;
@@ -240,7 +240,7 @@ select id from collect where vtype=1 limit 90000,10;
 
 非常快！0.04 秒完成！
 
-再测试:
+再测试：
 
 ```
 select id ,title from collect where vtype=1 limit 90000,10;
@@ -256,11 +256,11 @@ select id ,title from collect where vtype=1 limit 90000,10;
 
 * * *
 
-欢迎加入我的知识星球，一起探讨架构，交流源码。加入方式，**长按下方二维码噢**：  
+欢迎加入我的知识星球，一起探讨架构，交流源码。加入方式，**长按下方二维码噢**： 
 
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffVTY1cbQPIhsMGJcNWFwIDn1HomDs3KMQdVdSpmRkicibAFj9FzVtNtQxAtyAhyqmo1N8aibviaU4Qxg/640?wx_fmt=jpeg)
 
-已在知识星球更新源码解析如下：  
+已在知识星球更新源码解析如下： 
 
 ![](https://mmbiz.qpic.cn/mmbiz_png/JdLkEI9sZfcOlXBvLI0OIxHTfcmz77hIibtCsvTlEOuibdsK5MIU3McxzzJCNzRon1Iv2lSh8qaUlovibV9qlAOXg/640?wx_fmt=png)
 

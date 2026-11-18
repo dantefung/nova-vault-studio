@@ -11,7 +11,7 @@ original: "我的代码没有 else 系列教程之代码模板.pdf"
 
 ## 正文
 
-2022/6/12 21:23                                     else 
+2022/6/12 21:23 else 
 
  else 
 
@@ -25,12 +25,12 @@ TIGERB TIGERB
 
  else golang
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA          1/20
-2022/6/12 21:23                                     else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 1/20
+2022/6/12 21:23 else 
 
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA          2/20
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 2/20
  2022/6/12 21:23
                                                     else 
 
@@ -71,7 +71,7 @@ XX
 
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA          3/20
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 3/20
  2022/6/12 21:23
                                                     else 
 
@@ -92,60 +92,60 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA          3/20
 
                                                             
 
-1  (serial_no)                                     -  --
+1 (serial_no) - --
    
 
-2                                                  -  --
+2 - --
    
 
-3  (                                               -  --
+3 ( - --
    )
 
-4  (                                               -  --
+4 ( - --
    )
 
-5  -                                                  --
+5 - --
 
-6  (                                               -  --
+6 ( - --
    )
 
-7                                                  -  --
+7 - --
 
-8  node(                                              1  do nothing(
-   )                                                     )
+8 node( 1 do nothing(
+   ) )
 
                                                    
-8                                                   1 
+8 1 
                                                    
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                     4/20
-2022/6/12 21:23                                     else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 4/20
+2022/6/12 21:23 else 
 
                                                             
                                                      
    
-   8                                                        
+   8 
 
-   8                                                  2 node
+   8 2 node
 
-                                                      3  (
+                                                      3 (
                                                          node)
 
-8                                                  
+8 
                                                     1 
                                                    
 
-8                                                     2 node
+8 2 node
 
-8                                                     3  (
+8 3 (
                                                          node)
 
-9                                                  -  --
+9 - --
 
-1                                                  -  --
+1 - --
 0
 
-11                                                 -  --
+11 - --
 
 
 
@@ -157,8 +157,8 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                     4/20
 
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA               5/20
-2022/6/12 21:23                                     else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 5/20
+2022/6/12 21:23 else 
 
 
 
@@ -175,8 +175,8 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA               5/20
 - 
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA          6/20
-2022/6/12 21:23                                     else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 6/20
+2022/6/12 21:23 else 
 
 ()
 
@@ -195,7 +195,7 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA          6/20
 -
 
 golang
-interface   "":
+interface "":
 
 -- node`Behav`icohreI`cngktePetarPrfraaimczsee``
 s(ByNode`
@@ -226,8 +226,8 @@ Interface`()
 
 UML
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA              7/20
-2022/6/12 21:23                                     else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 7/20
+2022/6/12 21:23 else 
 
 demo
 
@@ -247,7 +247,7 @@ import (
 //------------------------------------------------------------
 
   //
- //                 `else` 
+ // `else` 
 
 
                  
@@ -261,7 +261,7 @@ import (
 
  const (
 
-                 // ConstActTypeTime               
+                 // ConstActTypeTime 
 
 
                   ConstActTypeTime int32 = 1
@@ -280,7 +280,7 @@ import (
 )
 
 
- // Context         
+ // Context 
 
 
 type Context struct {
@@ -292,14 +292,14 @@ type Context struct {
 }
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                8/20
-2022/6/12 21:23                                            else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 8/20
+2022/6/12 21:23 else 
 
- // ActInfo                   
+ // ActInfo 
 
 
   type ActInfo struct {
-//    1:                      2:          3:
+// 1: 2: 3:
 
 
                  // ActivityType int32
@@ -313,11 +313,11 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                8/20
 
 
   type BehaviorInterface interface {
-//(                  )
+//( )
 
 
-                 //   checkParams(ctx *Context) error
-(       )
+                 // checkParams(ctx *Context) error
+( )
 
                      node
 
@@ -327,7 +327,7 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                8/20
 }
 
 
-//  TimeDraw
+// TimeDraw
 
 
 //
@@ -341,7 +341,7 @@ type TimeDraw struct{}
 func (draw TimeDraw) checkParams(ctx *Context) (err error) {
 
                    fmt.Println(runFuncName(), "
-                                                                  :           ...")
+                                                                  : ...")
 
 
                  return
@@ -363,7 +363,7 @@ func (draw TimeDraw) checkParams(ctx *Context) (err error) {
 }
 
 
-//  TimesDraw
+// TimesDraw
 
 
 //
@@ -376,7 +376,7 @@ type TimesDraw struct{}
 
   func (draw TimesDraw) checkParams(ctx *Context) (err error) {
 
-                 fmt.Println(runFuncName(), "                           :     ...")
+                 fmt.Println(runFuncName(), " : ...")
 
 
                  return
@@ -394,10 +394,10 @@ func (draw TimesDraw) getPrizesByNode(ctx *Context) (err error) {
                                                                               ...")
 
                    fmt.Println(runFuncName(), "2.
-                                                                  node        ...")
+                                                                  node ...")
 
                     fmt.Println(runFuncName(), "3.
-                                                                           (  node    )...")
+                                                                           ( node )...")
 
                  return
 
@@ -405,11 +405,11 @@ func (draw TimesDraw) getPrizesByNode(ctx *Context) (err error) {
 }
 
 
- // AmountDraw                                     
+ // AmountDraw 
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                                             9/20
-  2022/6/12 21:23                                       else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 9/20
+  2022/6/12 21:23 else 
         //
                                                       
 
@@ -422,7 +422,7 @@ type AmountDraw struct{}
 
   func (draw *AmountDraw) checkParams(ctx *Context) (err error) {
 
-    fmt.Println(runFuncName(), "                                      :             ...")
+    fmt.Println(runFuncName(), " : ...")
 
 
     return
@@ -436,14 +436,14 @@ type AmountDraw struct{}
 
  func (draw *AmountDraw) getPrizesByNode(ctx *Context) (err error) {
 
-    fmt.Println(runFuncName(), "1.                                          ...")
+    fmt.Println(runFuncName(), "1. ...")
 
       fmt.Println(runFuncName(), "2.
-       fmt.Println(runFuncName(), "3.                           node
+       fmt.Println(runFuncName(), "3. node
                                                                             ...")
 
 
-                                                                         (  node            )...")
+                                                                         ( node )...")
 
     return
 
@@ -451,11 +451,11 @@ type AmountDraw struct{}
 }
 
 
- // Lottery      
+ // Lottery 
 
 
  type Lottery struct {
-//                          
+// 
 
 
     concreteBehavior BehaviorInterface
@@ -464,14 +464,14 @@ type AmountDraw struct{}
 }
 
 
-//  Run 
+// Run 
 
 
 //
 
   func (lottery *Lottery) Run(ctx *Context) (err error) {
 
-    //                                             (serial_no)              
+    // (serial_no) 
 
 
     if err = lottery.checkSerialNo(ctx); err != nil {
@@ -525,10 +525,10 @@ type AmountDraw struct{}
     }
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                                                   10/20
-  2022/6/12 21:23                                      else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 10/20
+  2022/6/12 21:23 else 
                //
-                                                   (  )
+                                                   ( )
 
 
 if err = lottery.checkTimesBySession(ctx); err != nil {
@@ -596,14 +596,14 @@ return err
 }
 
 
-  // checkSerialNo                                              
+  // checkSerialNo 
 
                                                    (serial_no)
 
 func (lottery *Lottery) checkSerialNo(ctx *Context) (err error) {
 
   fmt.Println(runFuncName(), "
- //                                                             (serial_no)  ..
+ // (serial_no) ..
 
                 
 
@@ -642,8 +642,8 @@ lottery.concreteBehavior = &TimesDraw{}
 
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                            11/20
-2022/6/12 21:23                                        else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 11/20
+2022/6/12 21:23 else 
 
                  lottery.concreteBehavior = &AmountDraw{}
 
@@ -678,7 +678,7 @@ func (lottery *Lottery) checkStatus(ctx *Context) (err error) {
 }
 
 
-//  checkParams (
+// checkParams (
 )
 
 //
@@ -693,7 +693,7 @@ func (lottery *Lottery) checkStatus(ctx *Context) (err error) {
 }
 
 
- // checkTimesByAct                                   
+ // checkTimesByAct 
 
 
 func (lottery *Lottery) checkTimesByAct(ctx *Context) (err error) {
@@ -708,12 +708,12 @@ func (lottery *Lottery) checkTimesByAct(ctx *Context) (err error) {
 }
 
 
- // consumePointsByAct                                         
+ // consumePointsByAct 
 
 
  func (lottery *Lottery) consumePointsByAct(ctx *Context) (err error) {
 
-                 fmt.Println(runFuncName(), "                     ...")
+                 fmt.Println(runFuncName(), " ...")
 
 
                  return
@@ -722,11 +722,11 @@ func (lottery *Lottery) checkTimesByAct(ctx *Context) (err error) {
 }
 
 
- // checkTimesBySession                                     
+ // checkTimesBySession 
 
 
  func (lottery *Lottery) checkTimesBySession(ctx *Context) (err error) {
-                 fmt.Println(runFuncName(), "                     ...")
+                 fmt.Println(runFuncName(), " ...")
 
 
                  return
@@ -735,13 +735,13 @@ func (lottery *Lottery) checkTimesByAct(ctx *Context) (err error) {
 }
 
 
- // getPrizesBySession                                   
+ // getPrizesBySession 
 
 
 func (lottery *Lottery) getPrizesBySession(ctx *Context) (err error) {
 
 
-                  fmt.Println(runFuncName(), "                    ...")
+                  fmt.Println(runFuncName(), " ...")
 
 
                  return
@@ -750,7 +750,7 @@ func (lottery *Lottery) getPrizesBySession(ctx *Context) (err error) {
 }
 
 
-//  getPrizesByNode         node
+// getPrizesByNode node
  ()
 
 //
@@ -765,8 +765,8 @@ func (lottery *Lottery) getPrizesBySession(ctx *Context) (err error) {
 }
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                                 12/20
-2022/6/12 21:23                                        else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 12/20
+2022/6/12 21:23 else 
  // drawPrizes
                           
 
@@ -783,12 +783,12 @@ func (lottery *Lottery) drawPrizes(ctx *Context) (err error) {
 }
 
 
- // checkPrizesStock                               
+ // checkPrizesStock 
 
 
  func (lottery *Lottery) checkPrizesStock(ctx *Context) (err error) {
 
-                 fmt.Println(runFuncName(), "            ...")
+                 fmt.Println(runFuncName(), " ...")
 
 
                  return
@@ -797,12 +797,12 @@ func (lottery *Lottery) drawPrizes(ctx *Context) (err error) {
 }
 
 
- // packagePrizeInfo                               
+ // packagePrizeInfo 
 
 
  func (lottery *Lottery) packagePrizeInfo(ctx *Context) (err error) {
 
-                 fmt.Println(runFuncName(), "            ...")
+                 fmt.Println(runFuncName(), " ...")
 
 
                  return
@@ -841,12 +841,12 @@ func runFuncName() string {
 [Running] go run ".../easy-tips/go/src/patterns/template/template.go"
 
   main.(*Lottery).checkSerialNo
-                                                         (serial_no)             ...
+                                                         (serial_no) ...
  main.(*Lottery).checkStatus
                                                                      ...
 
   main.TimesDraw.checkParams
- main.(*Lottery).checkTimesByAct                         :                ...
+ main.(*Lottery).checkTimesByAct : ...
 
  main.(*Lottery).consumePointsByAct
                                                                ...
@@ -855,17 +855,17 @@ func runFuncName() string {
                                                                           ...
 
  main.(*Lottery).checkTimesBySession
- main.(*Lottery).getPrizesBySession                                ...
+ main.(*Lottery).getPrizesBySession ...
 
- main.TimesDraw.getPrizesByNode 1.                                ...
+ main.TimesDraw.getPrizesByNode 1. ...
 
   main.TimesDraw.getPrizesByNode 2.
-                                                         node            ...
+                                                         node ...
 
                                                                           ...
 
    main.TimesDraw.getPrizesByNode 3.
- main.(*Lottery).drawPrizes                                            (   node  )...
+ main.(*Lottery).drawPrizes ( node )...
 
                                                             ...
 
@@ -876,10 +876,10 @@ func runFuncName() string {
                                                             ...
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                                       13/20
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 13/20
 2022/d6/e12m21o:23https://github.com/TIGERB/easye-lse 
   tips/blob/master/go/src/patterns/template/template.go
-  demo2(golang  )
+  demo2(golang )
 
 package main
 
@@ -897,7 +897,7 @@ import (
 //------------------------------------------------------------
 
   //
- //        `else` 
+ // `else` 
 
 
         
@@ -911,7 +911,7 @@ import (
 
  const (
 
-    // ConstActTypeTime                                
+    // ConstActTypeTime 
 
 
      ConstActTypeTime int32 = 1
@@ -930,7 +930,7 @@ import (
 )
 
 
- // Context           
+ // Context 
 
 
 type Context struct {
@@ -942,11 +942,11 @@ type Context struct {
 }
 
 
- // ActInfo           
+ // ActInfo 
 
 
   type ActInfo struct {
-//1:                       2:                3:
+//1: 2: 3:
 
 
      ActivityType int32
@@ -960,11 +960,11 @@ type Context struct {
 
 
   type BehaviorInterface interface {
-//(               )
+//( )
 
 
-    //   checkParams(ctx *Context) error
-(                    )
+    // checkParams(ctx *Context) error
+( )
 
            node
 
@@ -974,13 +974,13 @@ type Context struct {
 }
 
 
-//  TimeDraw
+// TimeDraw
 
 
 //
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                         14/20
-2022/6/12 21:23                                     else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 14/20
+2022/6/12 21:23 else 
 
  type TimeDraw struct {
 // 
@@ -998,7 +998,7 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                         14/20
 func (draw TimeDraw) checkParams(ctx *Context) (err error) {
 
 
-                   fmt.Println(runFuncName(), "    :           ...")
+                   fmt.Println(runFuncName(), " : ...")
 
 
                  return
@@ -1020,7 +1020,7 @@ func (draw TimeDraw) checkParams(ctx *Context) (err error) {
 }
 
 
-//  TimesDraw
+// TimesDraw
 
 
 //
@@ -1040,7 +1040,7 @@ func (draw TimeDraw) checkParams(ctx *Context) (err error) {
 
   func (draw TimesDraw) checkParams(ctx *Context) (err error) {
 
-                 fmt.Println(runFuncName(), "            :     ...")
+                 fmt.Println(runFuncName(), " : ...")
 
 
                  return
@@ -1058,10 +1058,10 @@ func (draw TimesDraw) getPrizesByNode(ctx *Context) (err error) {
                                                                ...")
 
                    fmt.Println(runFuncName(), "2.
-                                                   node        ...")
+                                                   node ...")
 
                     fmt.Println(runFuncName(), "3.
-                                                            (  node    )...")
+                                                            ( node )...")
 
                  return
 
@@ -1069,7 +1069,7 @@ func (draw TimesDraw) getPrizesByNode(ctx *Context) (err error) {
 }
 
 
-//  AmountDraw
+// AmountDraw
  
 
 //
@@ -1089,7 +1089,7 @@ func (draw TimesDraw) getPrizesByNode(ctx *Context) (err error) {
 
   func (draw *AmountDraw) checkParams(ctx *Context) (err error) {
 
-                 fmt.Println(runFuncName(), "            :     ...")
+                 fmt.Println(runFuncName(), " : ...")
 
 
                  return
@@ -1098,24 +1098,24 @@ func (draw TimesDraw) getPrizesByNode(ctx *Context) (err error) {
 }
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                              15/20
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 15/20
    2022/6/12 21:23
         // getPrizesByNode
                                                        else 
 
-                    node                              (               )
+                    node ( )
 
 
  func (draw *AmountDraw) getPrizesByNode(ctx *Context) (err error) {
 
-    fmt.Println(runFuncName(), "1.                                       ...")
+    fmt.Println(runFuncName(), "1. ...")
 
       fmt.Println(runFuncName(), "2.
-       fmt.Println(runFuncName(), "3.                           node
+       fmt.Println(runFuncName(), "3. node
                                                                           ...")
 
 
-                                                                      (   node    )...")
+                                                                      ( node )...")
 
     return
 
@@ -1123,11 +1123,11 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                              1
 }
 
 
- // Lottery      
+ // Lottery 
 
 
  type Lottery struct {
-//                          
+// 
 
 
     ConcreteBehavior BehaviorInterface
@@ -1136,7 +1136,7 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                              1
 }
 
 
-//  Run 
+// Run 
 
 
 //
@@ -1144,7 +1144,7 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                              1
   func (lottery *Lottery) Run(ctx *Context) (err error) {
                 
 
-    //                                             (serial_no)
+    // (serial_no)
 
     if err = lottery.checkSerialNo(ctx); err != nil {
 
@@ -1218,8 +1218,8 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                              1
     }
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                                         16/20
-2022/6/12 21:23                                        else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 16/20
+2022/6/12 21:23 else 
 
                  // ""node
 
@@ -1267,13 +1267,13 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                               
 }
 
 
-  // checkSerialNo                                                 
+  // checkSerialNo 
 
                                                    (serial_no)
 
   func (lottery *Lottery) checkSerialNo(ctx *Context) (err error) {
                     ..
-                 fmt.Println(runFuncName(), "                      (serial_no)
+                 fmt.Println(runFuncName(), " (serial_no)
 
                  return
 
@@ -1296,7 +1296,7 @@ func (lottery *Lottery) checkStatus(ctx *Context) (err error) {
 }
 
 
-//  checkParams (
+// checkParams (
 )
 
 //
@@ -1311,7 +1311,7 @@ func (lottery *Lottery) checkStatus(ctx *Context) (err error) {
 }
 
 
- // checkTimesByAct                                   
+ // checkTimesByAct 
 
 
 func (lottery *Lottery) checkTimesByAct(ctx *Context) (err error) {
@@ -1326,27 +1326,27 @@ func (lottery *Lottery) checkTimesByAct(ctx *Context) (err error) {
 }
 
 
- // consumePointsByAct                                          
+ // consumePointsByAct 
 
 
  func (lottery *Lottery) consumePointsByAct(ctx *Context) (err error) {
 
-                 fmt.Println(runFuncName(), "                         ...")
+                 fmt.Println(runFuncName(), " ...")
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                                       17/20
-2022/6/12 21:23                                           else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 17/20
+2022/6/12 21:23 else 
 
                return
 
         }
 
 
- // checkTimesBySession                                     
+ // checkTimesBySession 
 
 
  func (lottery *Lottery) checkTimesBySession(ctx *Context) (err error) {
-    fmt.Println(runFuncName(), "                                  ...")
+    fmt.Println(runFuncName(), " ...")
 
 
     return
@@ -1355,7 +1355,7 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                               
 }
 
 
- // getPrizesBySession                                   
+ // getPrizesBySession 
 
 
 func (lottery *Lottery) getPrizesBySession(ctx *Context) (err error) {
@@ -1370,7 +1370,7 @@ func (lottery *Lottery) getPrizesBySession(ctx *Context) (err error) {
 }
 
 
-//  getPrizesByNode        node
+// getPrizesByNode node
  ()
 
 //
@@ -1385,7 +1385,7 @@ func (lottery *Lottery) getPrizesBySession(ctx *Context) (err error) {
 }
 
 
- // drawPrizes          
+ // drawPrizes 
 
 
 func (lottery *Lottery) drawPrizes(ctx *Context) (err error) {
@@ -1400,12 +1400,12 @@ func (lottery *Lottery) drawPrizes(ctx *Context) (err error) {
 }
 
 
- // checkPrizesStock                                  
+ // checkPrizesStock 
 
 
  func (lottery *Lottery) checkPrizesStock(ctx *Context) (err error) {
 
-    fmt.Println(runFuncName(), "                               ...")
+    fmt.Println(runFuncName(), " ...")
 
 
     return
@@ -1414,12 +1414,12 @@ func (lottery *Lottery) drawPrizes(ctx *Context) (err error) {
 }
 
 
- // packagePrizeInfo                                  
+ // packagePrizeInfo 
 
 
  func (lottery *Lottery) packagePrizeInfo(ctx *Context) (err error) {
 
-    fmt.Println(runFuncName(), "                               ...")
+    fmt.Println(runFuncName(), " ...")
 
 
     return
@@ -1443,7 +1443,7 @@ func main() {
 
      switch ctx.ActInfo.ActivityType {
 
-    case ConstActTypeTime: //                                  
+    case ConstActTypeTime: // 
 
 
     instance := &TimeDraw{}
@@ -1452,12 +1452,12 @@ func main() {
     instance.ConcreteBehavior = instance
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                         18/20
-2022/6/12 21:23                                     else 
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 18/20
+2022/6/12 21:23 else 
 
                   instance.Run(ctx)
 
-                 case ConstActTypeTimes: //              
+                 case ConstActTypeTimes: // 
 
 
                  instance := &TimesDraw{}
@@ -1468,7 +1468,7 @@ https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                         18/20
 
                   instance.Run(ctx)
 
-                 case ConstActTypeAmount: //                
+                 case ConstActTypeAmount: // 
 
 
                  instance := &AmountDraw{}
@@ -1514,35 +1514,35 @@ func runFuncName() string {
 
 [Running] go run ".../easy-tips/go/src/patterns/template/templateOther.go"
   main.(*Lottery).checkSerialNo
-                                                         (serial_no)                   ...
+                                                         (serial_no) ...
  main.(*Lottery).checkStatus
                                                                   ...
 
   main.(*AmountDraw).checkParams
- main.(*Lottery).checkTimesByAct                             :                 ...
+ main.(*Lottery).checkTimesByAct : ...
 
- main.(*Lottery).consumePointsByAct                         ...
+ main.(*Lottery).consumePointsByAct ...
       ...
 
 
- main.(*Lottery).checkTimesBySession                            ...
+ main.(*Lottery).checkTimesBySession ...
 
- main.(*Lottery).getPrizesBySession                            ...
+ main.(*Lottery).getPrizesBySession ...
 
  main.(*AmountDraw).getPrizesByNode 1.
                                                                            ...
 
 
   main.(*AmountDraw).getPrizesByNode 2.
-                                                            node         ...
+                                                            node ...
 
    main.(*AmountDraw).getPrizesByNode 3.
- main.(*Lottery).drawPrizes                                           (          node  )...
+ main.(*Lottery).drawPrizes ( node )...
 
                                                    ...
 
  main.(*Lottery).checkPrizesStock
- main.(*Lottery).packagePrizeInfo                        ...
+ main.(*Lottery).packagePrizeInfo ...
 
                                                          ...
 
@@ -1552,11 +1552,11 @@ tips/blob/master/go/src/patterns/template/templateOther.go
 
 
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA                                           19/20
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 19/20
  2022/6/12 21:23
                                                     else 
 
- Run  -> 
+ Run -> 
  -> 
 
     checkParams
@@ -1583,39 +1583,39 @@ golang""
 
 Go
 
-https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA          20/20
+https://mp.weixin.qq.com/s/1DIPhwkqtFfXvm-xIIDbSA 20/20
 
 ## 配图
 
 ### 第 1 页 — 001-p01.jpeg
 
-![001-p01.jpeg](images/我的代码没有else系列教程之代码模板/001-p01.webp)
+![001-p01.jpeg](images/我的代码没有 else 系列教程之代码模板/001-p01.webp)
 
 ### 第 1 页 — 002-p01.jpeg
 
-![002-p01.jpeg](images/我的代码没有else系列教程之代码模板/002-p01.webp)
+![002-p01.jpeg](images/我的代码没有 else 系列教程之代码模板/002-p01.webp)
 
 ### 第 2 页 — 003-p02.jpeg
 
-![003-p02.jpeg](images/我的代码没有else系列教程之代码模板/002-p01.webp)
+![003-p02.jpeg](images/我的代码没有 else 系列教程之代码模板/002-p01.webp)
 
 ### 第 5 页 — 004-p05.png
 
-![004-p05.png](images/我的代码没有else系列教程之代码模板/004-p05.webp)
+![004-p05.png](images/我的代码没有 else 系列教程之代码模板/004-p05.webp)
 
 ### 第 6 页 — 005-p06.png
 
-![005-p06.png](images/我的代码没有else系列教程之代码模板/004-p05.webp)
+![005-p06.png](images/我的代码没有 else 系列教程之代码模板/004-p05.webp)
 
 ### 第 7 页 — 006-p07.jpeg
 
-![006-p07.jpeg](images/我的代码没有else系列教程之代码模板/006-p07.webp)
+![006-p07.jpeg](images/我的代码没有 else 系列教程之代码模板/006-p07.webp)
 
 ### 第 8 页 — 007-p08.jpeg
 
-![007-p08.jpeg](images/我的代码没有else系列教程之代码模板/006-p07.webp)
+![007-p08.jpeg](images/我的代码没有 else 系列教程之代码模板/006-p07.webp)
 
 ### 第 20 页 — 008-p20.jpeg
 
-![008-p20.jpeg](images/我的代码没有else系列教程之代码模板/008-p20.webp)
+![008-p20.jpeg](images/我的代码没有 else 系列教程之代码模板/008-p20.webp)
 

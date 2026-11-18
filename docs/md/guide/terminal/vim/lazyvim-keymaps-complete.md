@@ -33,13 +33,13 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet", "all-plugins"]
 
 | 快捷键 | 功能 | 模式 |
 |--------|------|------|
-| ``j`` | 下, | n, x |
+| ``j`` | 下，| n, x |
 ```
 
 | ``&lt;Down&gt;`` | 下, | n, x |
 ```
 
-| ``k`` | 上, | n, x |
+| ``k`` | 上，| n, x |
 ```
 
 | ``&lt;Up&gt;`` | 上, | n, x |
@@ -69,8 +69,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet", "all-plugins"]
 | ``&lt;leader&gt;ur`` | 重绘/清除搜索高亮/更新差异 | n |
 ```
 
-| ``n`` | 下一个检索结果,, | n, x, o |
-| ``N`` | 上一个检索结果,, | n, x, o |
+| ``n`` | 下一个检索结果，, | n, x, o |
+| ``N`` | 上一个检索结果，, | n, x, o |
 ```
 
 | ``&lt;C-s&gt;`` | 保存文件,,, | i, x, n, s |
@@ -97,8 +97,8 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet", "all-plugins"]
 
 | ``]d`` | 上一个诊断 | n |
 | ``[d`` | 下一个诊断 | n |
-| ``]e`` | 下一个Error错误 | n |
-| ``[e`` | 上一个Error错误 | n |
+| ``]e`` | 下一个 Error 错误 | n |
+| ``[e`` | 上一个 Error 错误 | n |
 | ``]w`` | 下一个警告 | n |
 | ``[w`` | 上一个警告 | n |
 ```
@@ -188,7 +188,7 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet", "all-plugins"]
 
 | 快捷键 | 功能 | 模式 |
 |--------|------|------|
-| _bufferline用于管理nvim所打开的buffer。_ | | |
+| _bufferline 用于管理 nvim 所打开的 buffer。_ | | |
 | _Key 描述 Mode_ | | |
 ```
 
@@ -230,9 +230,9 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet", "all-plugins"]
 ```
 
 | ``r`` | 远程闪电搜索 | o |
-| ``R`` | Treesitter搜索, | o, x |
-| ``s`` | 闪电搜索,, | n, o, x |
-| ``S`` | Treesitter闪电搜索,, | n, o, x |
+| ``R`` | Treesitter 搜索，| o, x |
+| ``s`` | 闪电搜索，, | n, o, x |
+| ``S`` | Treesitter 闪电搜索，, | n, o, x |
 
 ### grug-far.nvim
 
@@ -930,7 +930,7 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet", "all-plugins"]
 
 | 快捷键 | 功能 | 模式 |
 |--------|------|------|
-| _主要用于API调试_ | | |
+| _主要用于 API 调试_ | | |
 ```
 
 | ``&lt;leader&gt;R`` | +Rest | n |
@@ -941,4 +941,4 @@ tags: ["neovim", "lazyvim", "keymap", "cheatsheet", "all-plugins"]
 ```
 
 | _💡_ | | |
-| _有关NeoVim安装或者使用上的问题，欢迎您在底部评论区留言，一起交流~_ | | |
+| _有关 NeoVim 安装或者使用上的问题，欢迎您在底部评论区留言，一起交流~_ | | |

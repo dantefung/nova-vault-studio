@@ -61,7 +61,7 @@ Adsense 是谷歌推出的网站广告联盟。做好网站有流量之后，放
 
 ![ads.txt 和代码](../images/adsense-account-registration/009.webp)
 
-9. 验证通过后，点击"申请审核"
+9. 验证通过后，点击“申请审核”
 
 ![申请审核](../images/adsense-account-registration/010.webp)
 
@@ -81,7 +81,7 @@ Adsense 是谷歌推出的网站广告联盟。做好网站有流量之后，放
 
 ## 已有账号添加新网站
 
-找到管理站点页面，点击"新建网站"，按步骤添加域名即可。
+找到管理站点页面，点击“新建网站”，按步骤添加域名即可。
 
 ![新建网站](../images/adsense-account-registration/011.webp)
 

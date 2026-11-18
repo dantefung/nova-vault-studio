@@ -29,6 +29,6 @@ Level 0 segments are periodically merged into Level 1 segments. This process is 
 
 The biggest difference is probably this:
 
-*   B-Tree enables faster reads
+* B-Tree enables faster reads
 
-*   LSM-Tree enables fast writes
+* LSM-Tree enables fast writes

@@ -7,7 +7,7 @@ url: "https://github.com/open-gsd/gsd-core"
 
 # Get Shit Done (GSD) 技能专栏
 
-> GSD 是 Claude Code 的 **spec-driven 开发框架**：用 `.planning/` 目录当数据库，靠"磁盘上已经有哪些产物"推导下一步该做什么——人不需要记进度，文件系统就是状态机。5 步循环（Discuss → Plan → Execute → Verify → Ship）配 6 命名空间路由，把 67 个命令压成一次可学的骨架。
+> GSD 是 Claude Code 的 **spec-driven 开发框架**：用 `.planning/` 目录当数据库，靠“磁盘上已经有哪些产物”推导下一步该做什么——人不需要记进度，文件系统就是状态机。5 步循环（Discuss → Plan → Execute → Verify → Ship）配 6 命名空间路由，把 67 个命令压成一次可学的骨架。
 
 <!-- more -->
 
@@ -79,7 +79,7 @@ flowchart TD
 
 **八条路由判定条件**：无阶段目录 → 讨论；有目录无 CONTEXT → 讨论；有 CONTEXT 无 PLAN → 规划；有 PLAN 但 SUMMARY 不全 → 执行；SUMMARY 齐 → 验收；阶段完成且有下阶段 → 推进；全部完成 → 结里程碑；STATE 显示 paused_at → 恢复。
 
-这就是"好品味"的活样板：**把"下一步该干嘛"这个需要人维护的特例消除掉了**。文件在不在就是全部状态。
+这就是“好品味”的活样板：**把“下一步该干嘛”这个需要人维护的特例消除掉了**。文件在不在就是全部状态。
 
 ---
 
@@ -110,7 +110,7 @@ flowchart TD
 | **Escalation** | 自动解决不了就上交 | 摆出选项等人决定 |
 | **Abort** | 继续有害立即停 | **保留状态**，查根因修好从 checkpoint 重启 |
 
-**检查点三类比例**：**human-verify 90% / decision 9% / human-action 1%**（判据："Claude 能跑的绝不问用户"）。自 #3309 起默认 end-of-phase，不在中途 halt 用户。
+**检查点三类比例**：**human-verify 90% / decision 9% / human-action 1%**（判据："Claude 能跑的绝不问用户“）。自 #3309 起默认 end-of-phase，不在中途 halt 用户。
 
 ---
 
@@ -135,7 +135,7 @@ flowchart TD
 `references/planner-antipatterns.md` 里值得记住的：
 
 - **让人类做 Claude 能自动化的事**——"Vercel 有 CLI，Claude 应该跑 `vercel --yes`"。
-- **具体性测试**只有一句：*"另一个 Claude 实例能不提问就执行吗？"* 答不上来就是没写清楚。
+- **具体性测试**只有一句：*”另一个 Claude 实例能不提问就执行吗？"* 答不上来就是没写清楚。
 - **禁用缩范围语言**：`v1`、`simplified version`、`static for now`、`placeholder`、`will be wired later`。阶段太复杂应该建议拆 phase，而不是静默缩减范围。
 - **Reflexive SUMMARY chaining**——02 引 01、03 引 02 式链式引用，纯浪费上下文。只在真正用到前序计划的类型/导出/决策时才引用。
 

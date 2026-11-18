@@ -17,8 +17,8 @@ When we open web API access to users, we need to make sure each API call is auth
 
 In this post, we explore two common ways:
 
-*   Token based authentication
-*   HMAC (Hash-based Message Authentication Code) authentication
+* Token based authentication
+* HMAC (Hash-based Message Authentication Code) authentication
 
 The diagram above illustrates how they work.
 

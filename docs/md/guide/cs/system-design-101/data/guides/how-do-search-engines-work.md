@@ -27,6 +27,6 @@ The information collected by the crawlers is then analyzed and organized into a 
 
 When a user enters a query, the search engine's algorithm sifts through the index to identify the most relevant and helpful pages. Here's a breakdown of how it works:
 
-*   **Query Analysis:** The search engine analyzes the user's query to understand its meaning and intent. This includes identifying keywords, recognizing synonyms, and interpreting context.
-*   **Retrieval:** The search engine retrieves relevant pages from its vast index based on the query analysis. This involves matching the query's keywords with the indexed content of web pages.
-*   **Ranking:** The retrieved pages are then ranked based on their relevance and other factors.
+* **Query Analysis:** The search engine analyzes the user's query to understand its meaning and intent. This includes identifying keywords, recognizing synonyms, and interpreting context.
+* **Retrieval:** The search engine retrieves relevant pages from its vast index based on the query analysis. This involves matching the query's keywords with the indexed content of web pages.
+* **Ranking:** The retrieved pages are then ranked based on their relevance and other factors.

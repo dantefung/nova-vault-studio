@@ -9,7 +9,7 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 ## 什么是 Agent？
 
-在 OpenClaw 的世界里，Agent 就是一个独立的 AI 助手实例。每个 Agent 有自己的"大脑"（系统指令）、"记忆"（记忆文件）、"技能"（技能集）和"身份"（认证凭证）。
+在 OpenClaw 的世界里，Agent 就是一个独立的 AI 助手实例。每个 Agent 有自己的“大脑”（系统指令）、“记忆”（记忆文件）、“技能”（技能集）和“身份”（认证凭证）。
 
 你可以把 Agent 想象成公司里的员工：
 
@@ -80,7 +80,7 @@ Agent = 一个独立的 AI 员工
 
 > ⏭️ **小白可跳过** — 这是底层运行时细节
 
-OpenClaw 的多 Agent 架构基于 Pi agent runtime（RPC 模式）运行，采用**扁平路由模型**，不是层级管理模型。没有"管理者 Agent"来调度其他 Agent，而是由 Gateway 根据消息来源直接路由到对应的 Agent。每个 Agent 通过 channel routing（消息路由，决定哪条消息由哪个 Agent 处理）配置绑定到不同的频道或账号。
+OpenClaw 的多 Agent 架构基于 Pi agent runtime（RPC 模式）运行，采用**扁平路由模型**，不是层级管理模型。没有“管理者 Agent”来调度其他 Agent，而是由 Gateway 根据消息来源直接路由到对应的 Agent。每个 Agent 通过 channel routing（消息路由，决定哪条消息由哪个 Agent 处理）配置绑定到不同的频道或账号。
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -118,7 +118,7 @@ OpenClaw 的多 Agent 架构基于 Pi agent runtime（RPC 模式）运行，采�
 
 **为什么是扁平路由而不是层级管理？**
 
-OpenClaw 官方明确表示不会合并"Agent 层级框架（管理者的管理者/嵌套规划树）"。原因很实际：
+OpenClaw 官方明确表示不会合并“Agent 层级框架（管理者的管理者/嵌套规划树）"。原因很实际：
 
 1. 层级管理增加延迟 -- 消息要先经过管理者 Agent 判断，再转发给工作 Agent
 2. 管理者 Agent 本身也消耗 token -- 每条消息多一次 AI 调用
@@ -184,7 +184,7 @@ Agent 之间默认没有任何共享：
     └── skills/               # social 的工作空间技能
 ```
 
-每个 Agent 的工作空间是它的"家"。AI 的文件操作默认在这个目录下进行，记忆文件也存在这里。其中 `AGENTS.md`（Agent 的系统指令文件）定义了 Agent 之间的协作规则。
+每个 Agent 的工作空间是它的”家“。AI 的文件操作默认在这个目录下进行，记忆文件也存在这里。其中 `AGENTS.md`（Agent 的系统指令文件）定义了 Agent 之间的协作规则。
 
 ## Agent 角色定义和配置
 
@@ -291,7 +291,7 @@ Agent 的核心配置在 `~/.openclaw/openclaw.json`（JSON5 格式）的 `agent
 
 ### Agent 人格设定（SOUL.md）
 
-每个 Agent 的工作空间里有一个 `SOUL.md` 文件，这是 Agent 的"灵魂"。AI 在每次会话启动时都会读取这个文件，作为系统指令的一部分。
+每个 Agent 的工作空间里有一个 `SOUL.md` 文件，这是 Agent 的”灵魂“。AI 在每次会话启动时都会读取这个文件，作为系统指令的一部分。
 
 **编程 Agent 的 SOUL.md 示例：**
 
@@ -839,7 +839,7 @@ openclaw agents list
  保存到共享    读取资料       最终发布
 ```
 
-这种策略可以通过 `sessions_send` 工具直接传递、定时任务或 HTTP API 来串联（详见上面的"Agent 间通信机制"章节）。
+这种策略可以通过 `sessions_send` 工具直接传递、定时任务或 HTTP API 来串联（详见上面的”Agent 间通信机制“章节）。
 
 ## 实战案例
 
@@ -1390,7 +1390,7 @@ Agent 的 `model` 字段支持故障转移配置：
 
 ### 从零创建一个专业 Agent
 
-下面我们从零开始创建一个"DevOps 监控 Agent"，它能监控服务器状态、处理告警、执行简单的运维操作。
+下面我们从零开始创建一个”DevOps 监控 Agent"，它能监控服务器状态、处理告警、执行简单的运维操作。
 
 **第一步：创建 Agent**
 
@@ -1723,7 +1723,7 @@ openclaw gateway --port 18789
 - `sessions_send` -- 向另一个会话发消息（支持 reply-back ping-pong 和 announce step 模式）
 - `sessions_spawn` -- 生成新的 Agent 会话
 
-如果不需要实时通信，也可以使用定时任务 + 共享文件的方式（参见"Agent 间通信机制"章节）。
+如果不需要实时通信，也可以使用定时任务 + 共享文件的方式（参见“Agent 间通信机制”章节）。
 
 ### 删除 Agent 会丢失数据吗？
 
@@ -1766,4 +1766,4 @@ Agent 的创建需要通过 CLI 命令（`openclaw agents add`）。但在运行
 
 ## 下一步
 
-多 Agent 协作搞定！去 [09. Docker 部署](09-Docker部署指南.md) 学习如何把 OpenClaw 容器化部署到服务器上！
+多 Agent 协作搞定！去 [09. Docker 部署](09-Docker 部署指南.md) 学习如何把 OpenClaw 容器化部署到服务器上！

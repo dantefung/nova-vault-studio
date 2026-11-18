@@ -19,30 +19,30 @@ This gives us 𝐚 𝐭𝐨𝐩-𝐝𝐨𝐰𝐧 𝐯𝐢𝐞𝐰 𝐨𝐟 𝐭�
 
 Notice that different countries have different payment frameworks. But in general, the payment industry is composed of below parts:
 
-*   Regulatory Authority
+* Regulatory Authority
 
-*   Central Bank
+* Central Bank
 
-*   Commercial Banks
+* Commercial Banks
 
-*   Non-Bank Payment Companies
+* Non-Bank Payment Companies
 
-*   Payment Systems
+* Payment Systems
 
-*   Clearing Networks
+* Clearing Networks
 
-*   Settlement Systems
+* Settlement Systems
 
 ## More Useful Materials
 
 Here are some useful materials for your reference:
 
-*   Payment Systems in the U.S. by GlenBrook
+* Payment Systems in the U.S. by GlenBrook
 
-*   BIS (Bank for International Settlements) Website
+* BIS (Bank for International Settlements) Website
 
-*   PayPal documents
+* PayPal documents
 
-*   Stripe documents
+* Stripe documents
 
-*   SWIFT documents
+* SWIFT documents

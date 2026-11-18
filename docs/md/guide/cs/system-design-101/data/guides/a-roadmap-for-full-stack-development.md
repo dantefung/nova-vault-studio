@@ -17,30 +17,30 @@ A full-stack developer needs to be proficient in a wide range of technologies an
 
 ## Technical Stacks for Full-Stack Development
 
-*   **Frontend Development**
+* **Frontend Development**
 
     Frontend development involves creating the user interface and user experience of a web application.
 
-*   **Backend Development**
+* **Backend Development**
 
     Backend development involves managing the server-side logic, databases, and integration of various services.
 
-*   **Database Development**
+* **Database Development**
 
     Database development involves managing data storage, retrieval, and manipulation.
 
-*   **Mobile Development**
+* **Mobile Development**
 
     Mobile development involves creating applications for mobile devices.
 
-*   **Cloud Computing**
+* **Cloud Computing**
 
     Cloud computing involves deploying and managing applications on cloud platforms.
 
-*   **UI/UX Design**
+* **UI/UX Design**
 
     UI/UX design involves designing the user interface and experience of applications.
 
-*   **Infrastructure and DevOps**
+* **Infrastructure and DevOps**
 
     Infrastructure and DevOps involve managing the infrastructure, deployment, and continuous integration/continuous delivery (CI/CD) of applications.

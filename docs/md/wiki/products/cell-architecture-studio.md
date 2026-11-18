@@ -3,7 +3,7 @@ title: "Cell Architecture Studio（3D细胞结构交互画廊）"
 date: "2026-06-11"
 ---
 
-# Cell Architecture Studio（3D细胞结构交互画廊）
+# Cell Architecture Studio（3D 细胞结构交互画廊）
 
 > Interactive 3D cell architecture gallery built with React and Three.js. 7 种细胞类型，高保真 GLB 模型，细胞器详情面板，对比模式，AI Tutor，Playwright 视觉验证覆盖。
 

@@ -55,5 +55,5 @@ coverImage: "../images/jedeeai-ai-video-top10-bookmarks/001.webp"
 - [[sources/story-studio-video-account-pipeline]] — Story Studio：Audio-First 短视频流水线
 - [[sources/xaiwind-jianying-skill-guide]] — 想风：剪映 + jianying-editor-skill（榜单第 10 名原文）
 - [[concepts/ai-content-pipeline]] — AI 内容工厂流水线（通用 12 步框架）
-- [[sources/AI-Video竞品调研]] — AI Video 产品竞品调研报告
+- [[sources/AI-Video 竞品调研]] — AI Video 产品竞品调研报告
 - [[sources/hypit-agent-video-workflow]] — Codex + Hypit 复刻视频工作流（榜单第 4 名原文）

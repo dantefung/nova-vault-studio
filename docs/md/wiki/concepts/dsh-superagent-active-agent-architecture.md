@@ -93,7 +93,7 @@ date: "2026-11-03"
 - [[sources/fanbing-dsh-superagent-engineering-common-sense]] — 增长黑客范冰原文拆解
 - [[summaries/fanbing-dsh-superagent-engineering-common-sense]] — 精读摘要
 - [[sources/criscxuan-deepseek-super-agent-architecture-teardown]] — cxuan 程序员视角解析
-- [[sources/coderleft-deepseek-super-agent-architecture-deep-dive]] — 程序员Left 全景拆解
-- [[sources/antivo-deepseek-super-agent-distributed-master-worker]] — 纳米AI Master-Worker 映射
+- [[sources/coderleft-deepseek-super-agent-architecture-deep-dive]] — 程序员 Left 全景拆解
+- [[sources/antivo-deepseek-super-agent-distributed-master-worker]] — 纳米 AI Master-Worker 映射
 - [[concepts/deepseek-harness-agent-formula]] — Agent = Model + Harness
 - [[concepts/durable-execution]] — Durable 持久可恢复执行

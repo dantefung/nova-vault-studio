@@ -32,7 +32,7 @@ AI Agent 能写代码改文档，但无法上网搜索/读取内容。Agent Reac
 | 全网搜索（Exa MCP） | — | 免费，无需 Key |
 | GitHub 公开仓库 | ✅ | — |
 | Twitter/X 读推文 | — | Cookie 登录 |
-| B站 | ✅（本地） | 服务器需代理 |
+| B 站 | ✅（本地） | 服务器需代理 |
 | Reddit | — | `rdt login` |
 | 小红书 | — | Cookie 登录 |
 | 微信公众号 | ✅ | — |

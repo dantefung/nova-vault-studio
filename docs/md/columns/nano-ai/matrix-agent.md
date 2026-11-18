@@ -54,7 +54,7 @@ system + toolsuserassistant
 
 
 
-    messages = [{"role": "user", "content": "我叫小王。"}]
+    messages = [{"role": "user", "content": “我叫小王。"}]
 
 
 
@@ -66,7 +66,7 @@ system + toolsuserassistant
 
 
 
-    messages.append({"role": "user", "content": "我叫什么？"})
+    messages.append({"role": "user", "content": ”我叫什么？"})
 
 
 
@@ -82,7 +82,7 @@ system + toolsuserassistant
 
 
 
-        messages=[{"role": "user", "content": "我叫什么？"}])
+        messages=[{"role": "user", "content": “我叫什么？"}])
 
 
 
@@ -114,11 +114,11 @@ user≈8 tok
 
 
 
-初始化messages 里只有一条用户消息。system 是单独的参数，但模型同样会读到它。
+初始化 messages 里只有一条用户消息。system 是单独的参数，但模型同样会读到它。
 
 
 
-### 每次调用发出去多少 token浅色 = 上一次已经发过的，深色 = 这一次新增的
+### 每次调用发出去多少 token 浅色 = 上一次已经发过的，深色 = 这一次新增的
 
 
 

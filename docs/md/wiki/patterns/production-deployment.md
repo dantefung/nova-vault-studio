@@ -14,18 +14,18 @@ title: "生产环境部署"
 
 ### 1. 数据安全优先
 
-- 本地私有化部署（Ollama部署LLM和Embedding）
+- 本地私有化部署（Ollama 部署 LLM 和 Embedding）
 - 敏感数据不离开企业内网
 
 ### 2. 混合架构双重保障
 
-- "规则引擎（如Drools）+ LLM"混合决策
+- “规则引擎（如 Drools）+ LLM”混合决策
 - 大模型异常或置信度低时自动降级
 - 注意：增加维护成本
 
 ### 3. 灵活转人工机制
 
-- 预设拦截词（"转人工"）
+- 预设拦截词（“转人工”）
 - 多次重复相似问题
 - 情感分析识别负面情绪
 - 点差评触发
@@ -33,13 +33,13 @@ title: "生产环境部署"
 ### 4. 重运营轻微调
 
 - 建立运营平台监控点赞/点踩
-- 通过Few-Shot示例和知识库更新纠错
+- 通过 Few-Shot 示例和知识库更新纠错
 - 模型微调仅在特定场景使用
 
 ### 5. 性能与并发优化
 
-- Redis缓存热点知识（LRU策略）
-- 滑动窗口算法限制QPS
+- Redis 缓存热点知识（LRU 策略）
+- 滑动窗口算法限制 QPS
 - 异步处理提升响应速度
 
 ### 6. 可观测性体系
@@ -62,4 +62,4 @@ title: "生产环境部署"
 ## Sources
 
 - [[智能客服专栏] 生产部署指南](../../guide/ai/intelligent-customer-service/06-production-deployment.md)
-- [[智能客服专栏] 生产部署指南v2](../../guide/ai/intelligent-customer-service/12-production-deployment-v2.md)
+- [[智能客服专栏] 生产部署指南 v2](../../guide/ai/intelligent-customer-service/12-production-deployment-v2.md)

@@ -17,17 +17,17 @@ url: "https://new.web.cafe/tutorial/0c91c83924e9495aa75384becf6304ff"
 
 | 序号 | 文章 | 核心问题 |
 |------|------|----------|
-| 01 | [新手怎么做好出海第一站](./first-abroad-website.md) | 15年老站长的出海实战经验 |
-| 02 | [海外工具从需求挖掘到网站制作全流程](./tool-creation-full-process.md) | 5000字长文，一篇文章学会 |
-| 03 | [从网站站内优化到部署上线再到推广运营](./seo-onpage-deploy-promote.md) | 5800字长文，一条龙指南 |
+| 01 | [新手怎么做好出海第一站](./first-abroad-website.md) | 15 年老站长的出海实战经验 |
+| 02 | [海外工具从需求挖掘到网站制作全流程](./tool-creation-full-process.md) | 5000 字长文，一篇文章学会 |
+| 03 | [从网站站内优化到部署上线再到推广运营](./seo-onpage-deploy-promote.md) | 5800 字长文，一条龙指南 |
 
 ### SEO 进阶
 
 | 序号 | 文章 | 核心问题 |
 |------|------|----------|
-| 04 | [谷歌SEO三字经（注解版）](./seo-3words-annotation.md) | 120字口诀+详细注释 |
+| 04 | [谷歌 SEO 三字经（注解版）](./seo-3words-annotation.md) | 120 字口诀+详细注释 |
 | 05 | [如何使用谷歌趋势找新词](./google-trends-new-words.md) | 用 Google Trends 判断新词 |
-| 06 | [如何获取Bing的流量](./bing-traffic-guide.md) | Bing SEO 实战经验 |
+| 06 | [如何获取 Bing 的流量](./bing-traffic-guide.md) | Bing SEO 实战经验 |
 | 07 | [再聊挖掘需求的方法](./demand-mining-methods.md) | 需求挖掘方法论汇总 |
 
 ### 高级策略

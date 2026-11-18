@@ -29,7 +29,7 @@ Personal AI Infrastructure（PAI）= 个人 AI 操作系统，不只是 AI 脚�
 ## 核心功能
 
 - **Text over opaque storage** — 纯文本/Markdown，无 SQLite/PG 等不透明存储
-- **Filesystem as context, no RAG** — 2025年6月起放弃 RAG， 富文本+交叉引用+ripgrep 足够
+- **Filesystem as context, no RAG** — 2025 年 6 月起放弃 RAG， 富文本+交叉引用+ripgrep 足够
 - **Memory that compounds** — 三层（WORK/KNOWLEDGE/LEARNING）+ 人/公司/想法/研究类型图
 - **Self-improvement loop** — 显性评分/情感/验证结果/满意度信号
 - **The Algorithm** — 七阶段循环（OBSERVE→THINK→PLAN→BUILD→EXECUTE→VERIFY→LEARN），基于 Deutsch 硬变解释标准

@@ -31,18 +31,18 @@ const inputSchema = z.object({
 
 FileReadTool 的 `call()` 方法执行流程：
 
-1.   路径解析（`safeResolvePath`）
-2.   二进制检测（基于文件扩展名）
-3.   文件大小检查（超过阈值提示使用 offset/limit）
-4.   读取文件内容
-5.   记录时间戳（用于后续编辑冲突检测）
-6.   添加行号并返回
+1. 路径解析（`safeResolvePath`）
+2. 二进制检测（基于文件扩展名）
+3. 文件大小检查（超过阈值提示使用 offset/limit）
+4. 读取文件内容
+5. 记录时间戳（用于后续编辑冲突检测）
+6. 添加行号并返回
 
 ### 权限 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/file-tools.html#%E6%9D%83%E9%99%90)
 
-*   `isReadOnly()` = `true`
-*   `isConcurrencySafe()` = `true`
-*   无需权限确认
+* `isReadOnly()` = `true`
+* `isConcurrencySafe()` = `true`
+* 无需权限确认
 
 ## FileEditTool — 精确编辑 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/file-tools.html#fileedittool-%E2%80%94-%E7%B2%BE%E7%A1%AE%E7%BC%96%E8%BE%91)
 
@@ -66,20 +66,20 @@ const inputSchema = z.strictObject({
 
 FileEditTool 的 `call()` 方法执行流程：
 
-1.   路径解析
-2.   读取当前文件内容
-3.   冲突检测——检查文件是否在上次读取后被外部修改
-4.   查找匹配并执行替换
-5.   写入文件
-6.   更新时间戳
-7.   生成 diff 并返回
+1. 路径解析
+2. 读取当前文件内容
+3. 冲突检测——检查文件是否在上次读取后被外部修改
+4. 查找匹配并执行替换
+5. 写入文件
+6. 更新时间戳
+7. 生成 diff 并返回
 
 ### 权限 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/file-tools.html#%E6%9D%83%E9%99%90-1)
 
-*   `isReadOnly()` = `false`
-*   `isDestructive()` = `true`
-*   `isConcurrencySafe()` = `false` (文件系统竞争)
-*   需要权限确认: `FileEdit(path_pattern)`
+* `isReadOnly()` = `false`
+* `isDestructive()` = `true`
+* `isConcurrencySafe()` = `false` (文件系统竞争)
+* 需要权限确认：`FileEdit(path_pattern)`
 
 ### UI 渲染 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/file-tools.html#ui-%E6%B8%B2%E6%9F%93)
 
@@ -126,18 +126,18 @@ const inputSchema = z.object({
 
 FileWriteTool 的 `call()` 方法执行流程：
 
-1.   路径解析
-2.   内容大小检查
-3.   确保目录存在
-4.   写入文件
-5.   更新时间戳
+1. 路径解析
+2. 内容大小检查
+3. 确保目录存在
+4. 写入文件
+5. 更新时间戳
 
 ### 权限 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/file-tools.html#%E6%9D%83%E9%99%90-2)
 
-*   `isReadOnly()` = `false`
-*   `isDestructive()` = `true`
-*   需要权限确认: `FileWrite(path_pattern)`
-*   新文件创建 vs 覆写有不同提示文本
+* `isReadOnly()` = `false`
+* `isDestructive()` = `true`
+* 需要权限确认：`FileWrite(path_pattern)`
+* 新文件创建 vs 覆写有不同提示文本
 
 ## 文件操作安全机制 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/file-tools.html#%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E5%AE%89%E5%85%A8%E6%9C%BA%E5%88%B6)
 
@@ -145,9 +145,9 @@ FileWriteTool 的 `call()` 方法执行流程：
 
 路径安全检查通过 `safeResolvePath` 等内部函数实现，主要规则：
 
-1.   必须是绝对路径
-2.   禁止路径遍历（`..`）
-3.   必须在允许目录内（工作目录 + additionalDirectories）
+1. 必须是绝对路径
+2. 禁止路径遍历（`..`）
+3. 必须在允许目录内（工作目录 + additionalDirectories）
 
 ### 读后写冲突检测 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/file-tools.html#%E8%AF%BB%E5%90%8E%E5%86%99%E5%86%B2%E7%AA%81%E6%A3%80%E6%B5%8B)
 

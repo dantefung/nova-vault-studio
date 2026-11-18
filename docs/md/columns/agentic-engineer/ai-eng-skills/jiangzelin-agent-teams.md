@@ -8,11 +8,11 @@ url: "https://mp.weixin.qq.com/s/lWpo6q_VEPe_7cjtaGrhdA"
 
 # 从 ReAct 到 Agent Teams：一个工程师视角的 Agent 协作机制思考
 
-01Agent 的本质：ReAct 模式即人类智能的工程化抽象Cloud Native
+01Agent 的本质：ReAct 模式即人类智能的工程化抽象 Cloud Native
 
-01Agent 的本质：ReAct 模式即人类智能的工程化抽象Cloud Native
+01Agent 的本质：ReAct 模式即人类智能的工程化抽象 Cloud Native
 
-01Agent 的本质：ReAct 模式即人类智能的工程化抽象Cloud Native
+01Agent 的本质：ReAct 模式即人类智能的工程化抽象 Cloud Native
 
 01Agent 的本质：ReAct 模式即人类智能的工程化抽象
 
@@ -34,17 +34,17 @@ Cloud Native
 
 这里的 Observation 指 Agent 执行动作后从外部获取的信息——API 返回结果、命令输出、文件内容。它本质上承担了“反馈”功能，让推理始终锚定在事实上，而非模型自己编造。ReAct 相比纯 Chain-of-Thought 的核心优势就在这里：有了外部观察的“接地”，幻觉和错误累积被大幅抑制。
 
-Agent 本质上就是这个循环的实现，而且可以非常简单。pi-agent[1]（7.6 万 star）的核心agent-loop.ts约 600 行代码就完成了完整的 Agent 循环。把这个循环构建好就能完成任务，后续的记忆压缩、Skill 加载都是「上下文管理」层面的优化，不改变基本工作原理。
+Agent 本质上就是这个循环的实现，而且可以非常简单。pi-agent[1]（7.6 万 star）的核心 agent-loop.ts 约 600 行代码就完成了完整的 Agent 循环。把这个循环构建好就能完成任务，后续的记忆压缩、Skill 加载都是「上下文管理」层面的优化，不改变基本工作原理。
 
 所以 Agent 可以用任何语言实现。Blade AI 使用 LangGraph 也只是借用了它的状态机编排功能——当需要多个 ReAct Agent 有序串联时，启动一个子 Agent 就是启动一个新的 ReAct 循环。
 
-02第一性原理分拆：思考、行动、观察Cloud Native
+02 第一性原理分拆：思考、行动、观察 Cloud Native
 
-02第一性原理分拆：思考、行动、观察Cloud Native
+02 第一性原理分拆：思考、行动、观察 Cloud Native
 
-02第一性原理分拆：思考、行动、观察Cloud Native
+02 第一性原理分拆：思考、行动、观察 Cloud Native
 
-02第一性原理分拆：思考、行动、观察
+02 第一性原理分拆：思考、行动、观察
 
 02
 
@@ -68,13 +68,13 @@ Cloud Native
 
 工程团队的着力点：我们无法解决模型的「思考」问题，那是算法团队的事。但可以积极解决「行动」和「观察」——提供更好的工具、返回更结构化的执行结果。这能极大减少幻觉和弯路，不是因为模型变聪明了，而是因为它做决策的依据更充分了。
 
-03无状态本质与上下文管理Cloud Native
+03 无状态本质与上下文管理 Cloud Native
 
-03无状态本质与上下文管理Cloud Native
+03 无状态本质与上下文管理 Cloud Native
 
-03无状态本质与上下文管理Cloud Native
+03 无状态本质与上下文管理 Cloud Native
 
-03无状态本质与上下文管理
+03 无状态本质与上下文管理
 
 03
 
@@ -96,13 +96,13 @@ Cloud Native
 
 即使有一天持续学习成熟、模型能像人一样在使用中自我进化，「行动」和「观察」仍是工程团队不可替代的战场——模型再聪明，没有好工具就做不了事。
 
-04从单 Agent 到 Agent Teams：必然的进化方向Cloud Native
+04 从单 Agent 到 Agent Teams：必然的进化方向 Cloud Native
 
-04从单 Agent 到 Agent Teams：必然的进化方向Cloud Native
+04 从单 Agent 到 Agent Teams：必然的进化方向 Cloud Native
 
-04从单 Agent 到 Agent Teams：必然的进化方向Cloud Native
+04 从单 Agent 到 Agent Teams：必然的进化方向 Cloud Native
 
-04从单 Agent 到 Agent Teams：必然的进化方向
+04 从单 Agent 到 Agent Teams：必然的进化方向
 
 04
 
@@ -124,13 +124,13 @@ ReAct 的成功来自对「个体智能」的正确抽象。Agent 间的协作�
 
 Agent 管理比人简单：没有情绪、即时响应、无沟通摩擦。人类管理中最难的部分（情绪、利益博弈、信息不对称）在 Agent Teams 中天然消解。上班人觉得 AI 提效不了的地方——沟通开会、等回复——恰恰是 Agent 最容易解决的部分。当然 Agent 也有劣势：context window 有限、缺乏常识和隐性知识、幻觉可能导致系统性偏离。
 
-05当前 Leader-Worker 架构的不足Cloud Native
+05 当前 Leader-Worker 架构的不足 Cloud Native
 
-05当前 Leader-Worker 架构的不足Cloud Native
+05 当前 Leader-Worker 架构的不足 Cloud Native
 
-05当前 Leader-Worker 架构的不足Cloud Native
+05 当前 Leader-Worker 架构的不足 Cloud Native
 
-05当前 Leader-Worker 架构的不足
+05 当前 Leader-Worker 架构的不足
 
 05
 
@@ -144,7 +144,7 @@ Cloud Native
 
 ![image](images/005.webp)
 
-主流多 Agent 框架（CrewAI、AutoGen、MetaGPT）大多采用 Leader-Worker 架构。以 CrewAI 为例，其 manager agent 的职责是"coordinates the workflow, delegates tasks, and validates outcomes"——协调、委派、验证。有基于 capability 的分配和结果验证，但本质仍是调度器，没有方案讨论、共识达成、动态重规划的交互。
+主流多 Agent 框架（CrewAI、AutoGen、MetaGPT）大多采用 Leader-Worker 架构。以 CrewAI 为例，其 manager agent 的职责是“coordinates the workflow, delegates tasks, and validates outcomes"——协调、委派、验证。有基于 capability 的分配和结果验证，但本质仍是调度器，没有方案讨论、共识达成、动态重规划的交互。
 
 对比现实技术团队，差距明显：
 
@@ -192,17 +192,17 @@ Leader 审查合理性
 
 阿里 AgentScope 团队开源的 AgentTeams[2] 是当前工业界 Manager-Workers 架构工程完成度最高的项目之一，把「多 Agent 协作平台」当作一个云原生系统来做：Kubernetes 控制面（agentteams-controller）通过 CRD 声明式管理 Worker/Team/Manager，Higress AI Gateway 统一托管模型密钥与 MCP（Worker 只拿消费令牌，从架构上根除凭据外泄），Matrix 协议（Tuwunel）作为 Agent 与人共用的通信总线，MinIO 提供跨 Worker 的共享文件系统降低 token 消耗，Skills 通过 skills.sh 按需拉取。OpenClaw / QwenPaw / Hermes 多种运行时可以在同一个 Matrix Room 里共存，人类通过 Element Web 或任意 Matrix 客户端旁听、介入，一切通信「可见、可干预、无隐藏调用」。
 
-这套设计把 Leader-Worker 的工程侧问题解决得相当彻底：凭据安全、通信基础设施、共享存储、可观测性、人在环、多运行时兼容。但结构上它仍然是 Manager-Workers——Manager 负责编排和心跳汇报，Worker 通过 Matrix 的m.mentions互相点名，本质上是「把每个 Agent 拉进同一个群」。通信通道有了，但协作语义没有：没有方案共同讨论、没有 OKR 协商、没有分歧仲裁、没有任务完成后的集体复盘、没有基于历史的团队演化。Skills 是角色内部的记忆而非团队资产。
+这套设计把 Leader-Worker 的工程侧问题解决得相当彻底：凭据安全、通信基础设施、共享存储、可观测性、人在环、多运行时兼容。但结构上它仍然是 Manager-Workers——Manager 负责编排和心跳汇报，Worker 通过 Matrix 的 m.mentions 互相点名，本质上是「把每个 Agent 拉进同一个群」。通信通道有了，但协作语义没有：没有方案共同讨论、没有 OKR 协商、没有分歧仲裁、没有任务完成后的集体复盘、没有基于历史的团队演化。Skills 是角色内部的记忆而非团队资产。
 
 这个案例反过来印证了本文的判断：Agent Teams 现阶段的瓶颈不在基础设施（Matrix / A2A / ANP / 共享文件系统都已成熟），而在协作机制——如何让一群 Agent 像一支真实团队那样讨论、对齐、跟进、复盘。基础设施解决了“能不能说话”，还没解决“该说什么、怎么达成共识、说完之后如何沉淀”。
 
-06业界已有的探索Cloud Native
+06 业界已有的探索 Cloud Native
 
-06业界已有的探索Cloud Native
+06 业界已有的探索 Cloud Native
 
-06业界已有的探索Cloud Native
+06 业界已有的探索 Cloud Native
 
-06业界已有的探索
+06 业界已有的探索
 
 06
 
@@ -262,13 +262,13 @@ EvoChamber（arXiv 2605.11136）从群体共进化的角度进一步坐实了这
 
 把这五站连起来看，一个判断就浮现出来了：分类、分工、目标、经验、演化——每一环都被人单独攻克过，却没有任何一项工作把它们串成一支能持续运转的团队；更关键的是，有三样东西在几乎所有工作里都缺席——Worker 之间的横向通信、激发式而非命令式的管理、以及 Mission 层面的方向锚定（只有 Meta-Team 部分触及了演化这一环）。这三块空白，正是下一节要动手去补的地方。
 
-07我的设计：真正的 Agent Team 机制Cloud Native
+07 我的设计：真正的 Agent Team 机制 Cloud Native
 
-07我的设计：真正的 Agent Team 机制Cloud Native
+07 我的设计：真正的 Agent Team 机制 Cloud Native
 
-07我的设计：真正的 Agent Team 机制Cloud Native
+07 我的设计：真正的 Agent Team 机制 Cloud Native
 
-07我的设计：真正的 Agent Team 机制
+07 我的设计：真正的 Agent Team 机制
 
 07
 
@@ -344,7 +344,7 @@ Agent Team 需要显式建立 Worker 之间的横向通信，我看至少有三�
 
 现有 Agent Team 几乎没有进度管理机制——Worker 埋头干，Leader 到最后才知道结果。人类组织解决这个问题的成熟工具是 OKR：明确 Objective（做什么、为什么）、拆出几个 Key Result（可量化的验收标准）、执行中定期对齐 KR 完成度。
 
-具体到 Agent Team，OKR 的运作应当是分层的：Team OKR由 Leader 和所有 Worker 共同讨论产出，是本次任务的顶层契约；Worker OKR由每个 Worker 认领自己那部分 KR 并进一步拆解为可执行动作。一个具体例子：某任务的 Team Objective 是「把订单 API 的 P99 延迟从 800ms 降到 200ms」，KR1 = 数据库慢查询占比 < 5%，KR2 = 缓存命中率 > 95%，KR3 = 全链路压测 3000 QPS 下延迟达标。DBA Worker 认领 KR1、缓存 Worker 认领 KR2、压测 Worker 认领 KR3——每个 KR 有明确 owner、明确验收方式、明确完成时点。
+具体到 Agent Team，OKR 的运作应当是分层的：Team OKR 由 Leader 和所有 Worker 共同讨论产出，是本次任务的顶层契约；Worker OKR 由每个 Worker 认领自己那部分 KR 并进一步拆解为可执行动作。一个具体例子：某任务的 Team Objective 是「把订单 API 的 P99 延迟从 800ms 降到 200ms」，KR1 = 数据库慢查询占比 < 5%，KR2 = 缓存命中率 > 95%，KR3 = 全链路压测 3000 QPS 下延迟达标。DBA Worker 认领 KR1、缓存 Worker 认领 KR2、压测 Worker 认领 KR3——每个 KR 有明确 owner、明确验收方式、明确完成时点。
 
 进度管理不需要额外机制，就跑在 OKR 上：里程碑触发（某个 KR 应该达到某阶段值时自动检查）、偏离预警（Worker 上报进度显示达不到 KR 时自动升级到 Leader）、KR 达成即里程碑关闭（避免“完成了再问是否完成”的浪费轮次）。学术上 OKR-Agent 证明了 OKR 用于 Agent 目标分解的可行性，但它是单 Agent 递归分解——Agent Team 需要的是多 Agent 协商式 OKR：Worker 必须参与制定，因为他们才知道执行层的真实约束（“KR2 缓存命中率 95% 做不到，因为业务本身就是长尾访问，最多做到 82%”这种反馈只有执行 Agent 能提供）。
 
@@ -376,13 +376,13 @@ Team 复盘应该由 Leader 主持、所有相关 Worker 参与，结构化输�
 
 这里有一个必须警惕的现象：EvoChamber 的消融实验显示，去掉协作进化机制后，20 个 Agent 的团队跟 1 个 Agent 表现完全一致——多 Agent 的价值 100% 来自协作机制本身，加人不等于加价值。这反过来强化了本节所有设计的必要性：如果没有讨论共识、没有横向通信、没有 OKR 跟进、没有集体复盘，那么“搞个 Team”就是纯粹的资源浪费。
 
-08与现有框架差异Cloud Native
+08 与现有框架差异 Cloud Native
 
-08与现有框架差异Cloud Native
+08 与现有框架差异 Cloud Native
 
-08与现有框架差异Cloud Native
+08 与现有框架差异 Cloud Native
 
-08与现有框架差异
+08 与现有框架差异
 
 08
 
@@ -396,13 +396,13 @@ Cloud Native
 
 ![image](images/023.webp)
 
-09类比人类组织演化Cloud Native
+09 类比人类组织演化 Cloud Native
 
-09类比人类组织演化Cloud Native
+09 类比人类组织演化 Cloud Native
 
-09类比人类组织演化Cloud Native
+09 类比人类组织演化 Cloud Native
 
-09类比人类组织演化
+09 类比人类组织演化
 
 09
 
@@ -424,11 +424,11 @@ Cloud Native
 
 ![image](images/024.webp)
 
-10Agent Autonomy 分级Cloud Native
+10Agent Autonomy 分级 Cloud Native
 
-10Agent Autonomy 分级Cloud Native
+10Agent Autonomy 分级 Cloud Native
 
-10Agent Autonomy 分级Cloud Native
+10Agent Autonomy 分级 Cloud Native
 
 10Agent Autonomy 分级
 
@@ -456,13 +456,13 @@ L5 - Autonomous Organization：自主发现问题、组建团队、协作执行�
 
 当前在 L3→L4 之间。Meta-Team / EvoChamber 标志着 L4→L5 过渡开始。
 
-11结语Cloud Native
+11 结语 Cloud Native
 
-11结语Cloud Native
+11 结语 Cloud Native
 
-11结语Cloud Native
+11 结语 Cloud Native
 
-11结语
+11 结语
 
 11
 

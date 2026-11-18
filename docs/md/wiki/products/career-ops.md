@@ -3,7 +3,7 @@ title: "Career Ops（AI求职系统）"
 date: "2026-06-11"
 ---
 
-# Career Ops（AI求职系统）
+# Career Ops（AI 求职系统）
 
 > AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
 
@@ -25,7 +25,7 @@ date: "2026-06-11"
 | Batch Processing | `claude -p` 并行评估多 offer |
 | Dashboard TUI | Go + Bubble Tea 终端仪表盘 |
 
-## 评估维度（A-F六块）
+## 评估维度（A-F 六块）
 
 1. Role Summary — 角色本质
 2. CV Match — 与简历匹配度

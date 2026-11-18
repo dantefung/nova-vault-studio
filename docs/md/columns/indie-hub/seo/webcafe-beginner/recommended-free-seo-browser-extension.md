@@ -6,17 +6,17 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 ---
 
-# 推荐一款好用且免费的SEO插件，哥飞天天都在用
+# 推荐一款好用且免费的 SEO 插件，哥飞天天都在用
 
 大家好，我是哥飞。
 
-今天给大家推荐一款特别好用而且还免费的SEO谷歌浏览器插件，这个插件哥飞每天都会使用，完全离不开了。
+今天给大家推荐一款特别好用而且还免费的 SEO 谷歌浏览器插件，这个插件哥飞每天都会使用，完全离不开了。
 
 特别说明，今天这篇文章是哥飞自发主动写的，没有收任何推广费用。
 ![image.png](images/recommended-free-seo-browser-extension/img_002.webp)
-插件用途是查看任意网页的SEO信息，方便判断网页站内优化做得好不好。
+插件用途是查看任意网页的 SEO 信息，方便判断网页站内优化做得好不好。
 
-这个插件需求其实来自于哥飞，最早哥飞使用 Detailed 这个插件来查看网页 Title、Description、Headings、网页Meta等信息。
+这个插件需求其实来自于哥飞，最早哥飞使用 Detailed 这个插件来查看网页 Title、Description、Headings、网页 Meta 等信息。
 
 但是一个插件不够用，还需要配合使用 Similarweb 插件查看网站流量，以及另一个网站来看域名注册时间，来判断网站上线多久了。
 
@@ -24,7 +24,7 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 很快，他就把插件做好了，发布了第一版，当时哥飞社群里就一片赞美，群里朋友们纷纷说好用。
 
-目前插件已经更新到1.4.0版本了，越来越好用了，所以哥飞觉得有必要推荐给更多人使用了。 
+目前插件已经更新到 1.4.0 版本了，越来越好用了，所以哥飞觉得有必要推荐给更多人使用了。 
 
 ![image.png](images/recommended-free-seo-browser-extension/img_003.webp)
 
@@ -32,27 +32,27 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 ![image.png](images/recommended-free-seo-browser-extension/img_004.webp)
 
-哥飞以之前在《[月访问量1221万的打字练习网站的开源模式值得我们学习](https://mp.weixin.qq.com/s/0AnaEIo7g3YCRfNwFli37A)》介绍过的打字练习网站 monkeytype.com 为例，给大家演示一下这个插件的功能。
+哥飞以之前在《[月访问量 1221 万的打字练习网站的开源模式值得我们学习](https://mp.weixin.qq.com/s/0AnaEIo7g3YCRfNwFli37A)》介绍过的打字练习网站 monkeytype.com 为例，给大家演示一下这个插件的功能。
 
-**一、SEO概览**
+**一、SEO 概览**
 
 ![image.png](images/recommended-free-seo-browser-extension/img_005.webp)
 
 通过这个插件，可以清晰明了的看到任意网页的：
 
-1.  Title 是否符合标准长度；
-2.  Description 是否符合标准长度；
-3.  Keywords 哥飞不建议大家设置这个；
-4.  URL 当前网页网址是什么；
-5.  Canonical 当前网页设置的规范网址是什么；
-6.  域名注册时间和过期时间，注意 ai 域名注册局不返回注册和过期时间；
-7.  是否有 Robots.txt 文件；
-8.  是否有 sitemap.xml 文件；
-9.  是否启用了谷歌分析统计网站流量；
-10.  是否接入了谷歌Adsense广告；
-11.  H1到H6数量统计；
-12.  图片数量统计，未添加alt的有多少；
-13.  链接数量，内外链统计，是否Dofollow统计。
+1. Title 是否符合标准长度；
+2. Description 是否符合标准长度；
+3. Keywords 哥飞不建议大家设置这个；
+4. URL 当前网页网址是什么；
+5. Canonical 当前网页设置的规范网址是什么；
+6. 域名注册时间和过期时间，注意 ai 域名注册局不返回注册和过期时间；
+7. 是否有 Robots.txt 文件；
+8. 是否有 sitemap.xml 文件；
+9. 是否启用了谷歌分析统计网站流量；
+10. 是否接入了谷歌 Adsense 广告；
+11. H1 到 H6 数量统计；
+12. 图片数量统计，未添加 alt 的有多少；
+13. 链接数量，内外链统计，是否 Dofollow 统计。
 
 **二、网站流量概览**
 
@@ -60,21 +60,21 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 通过这个界面，可以清晰的知道当前网站的以下数据：
 
-1.  月访问量数据；
-2.  跳出率；
-3.  平均每个独立访客访问的页数；
-4.  停留时间；
-5.  全球排名；
-6.  所在国家排名，这是根据服务器所在国家判断的；
-7.  最近三个月流量变化曲线；
-8.  流量渠道来源；
-9.  流量地区来源。
+1. 月访问量数据；
+2. 跳出率；
+3. 平均每个独立访客访问的页数；
+4. 停留时间；
+5. 全球排名；
+6. 所在国家排名，这是根据服务器所在国家判断的；
+7. 最近三个月流量变化曲线；
+8. 流量渠道来源；
+9. 流量地区来源。
 
-**三、H标签 Headings**
+**三、H 标签 Headings**
 
 ![image.png](images/recommended-free-seo-browser-extension/img_007.webp)
 
-在这个界面可以看到任意页面的 Headings 情况，既会统计H1到H6标签分别有多少个，也会以把所有的标签标题给列出来。
+在这个界面可以看到任意页面的 Headings 情况，既会统计 H1 到 H6 标签分别有多少个，也会以把所有的标签标题给列出来。
 
 从这里可以看到，MonkeyType 其实首页很不注重站内优化，只做了自己的品牌关键词，其它需求关键词都没做。
 
@@ -83,32 +83,32 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 ![image.png](images/recommended-free-seo-browser-extension/img_008.webp)
 在这个界面，可以看到当前网页的：
 
-1.  图片数量；
-2.  唯一图片数量；
-3.  未设置图片 Alt 标签的图片数量；
-4.  未设置图片 Title 属性的图片数量；
-5.  图片列表，每一张都显示 Alt、Title和图片网址。
+1. 图片数量；
+2. 唯一图片数量；
+3. 未设置图片 Alt 标签的图片数量；
+4. 未设置图片 Title 属性的图片数量；
+5. 图片列表，每一张都显示 Alt、Title 和图片网址。
 
 这里可以看哥飞的文章，学习如何设置各个标签：
 
-1.  《[【哥飞带你读】你需要了解的10个重要SEO元标签（上）](https://mp.weixin.qq.com/s/Tn_FFAe7JwGopUPFffK9eA)》
-2.  《[【哥飞带你读】你需要了解的10个重要SEO元标签（中](https://mp.weixin.qq.com/s/TOHrvB1VY88yOfTLJPOAIQ)）》
-3.  《[【哥飞带你读】你需要了解的10个重要SEO元标签（下）](https://mp.weixin.qq.com/s/pgRb7By2EVLMDYZ1E2JG5Q)》
+1. 《[【哥飞带你读】你需要了解的 10 个重要 SEO 元标签（上）](https://mp.weixin.qq.com/s/Tn_FFAe7JwGopUPFffK9eA)》
+2. 《[【哥飞带你读】你需要了解的 10 个重要 SEO 元标签（中](https://mp.weixin.qq.com/s/TOHrvB1VY88yOfTLJPOAIQ)）》
+3. 《[【哥飞带你读】你需要了解的 10 个重要 SEO 元标签（下）](https://mp.weixin.qq.com/s/pgRb7By2EVLMDYZ1E2JG5Q)》
 
 **五、链接统计**
 
 ![image.png](images/recommended-free-seo-browser-extension/img_009.webp)
 在这个界面可以看到当前网页的：
 
-1.  链接数量统计；
-2.  唯一链接数量；
-3.  站内链接数量；
-4.  出站链接数量；
-5.  Dofollow 链接数量；
-6.  Nofollow 链接数量；
-7.  链接列表，每一个都有锚文字和链接网址。
+1. 链接数量统计；
+2. 唯一链接数量；
+3. 站内链接数量；
+4. 出站链接数量；
+5. Dofollow 链接数量；
+6. Nofollow 链接数量；
+7. 链接列表，每一个都有锚文字和链接网址。
 
-**六、社交媒体Meta标签**
+**六、社交媒体 Meta 标签**
 
 ![image.png](images/recommended-free-seo-browser-extension/img_010.webp)
 
@@ -124,15 +124,15 @@ url: "https://new.web.cafe/tutorial/detail/bYVZpPSiepD7ZDspRjg2s1"
 
 ![image.png](images/recommended-free-seo-browser-extension/img_012.webp)
 
-有哪些结构化效果，可以看《10种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第9种》。
+有哪些结构化效果，可以看《10 种谷歌结构化搜索结果样式介绍及实现方法，最骚的是第 9 种》。
 
-**九、域名Whois和DNS信息**
+**九、域名 Whois 和 DNS 信息**
 可以看到当前网站域名的 Whois 信息：
 ![image.png](images/recommended-free-seo-browser-extension/img_013.webp)
 以及 DNS 信息：
 
 ![image.png](images/recommended-free-seo-browser-extension/img_014.webp)
-通过以上数据，我们就可以对一个网页的站内SEO 优化有一个大概的了解。
+通过以上数据，我们就可以对一个网页的站内 SEO 优化有一个大概的了解。
 
 如果是别人的大流量网站，我们就可以去学习。
 

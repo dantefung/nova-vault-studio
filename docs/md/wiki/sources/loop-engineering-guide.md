@@ -389,7 +389,7 @@ Kyrie — 前国内大厂 R&D 工程师，现居曼谷，做中国科技企业�
 ### 1
 https://x.com/KyrieCheungYep/status/2071158130571108720
 
-学会loop之后，后续其实可以和很多东西结合，比如这个用cloudflare搭建智能大脑的，我其实在做的时候就用了一些loop的思路！https://t.co/1cf5bderb6
+学会 loop 之后，后续其实可以和很多东西结合，比如这个用 cloudflare 搭建智能大脑的，我其实在做的时候就用了一些 loop 的思路！https://t.co/1cf5bderb6
 
 > Author: Kyrie (@KyrieCheungYep)
 > URL: https://x.com/KyrieCheungYep/status/2071151703395811708

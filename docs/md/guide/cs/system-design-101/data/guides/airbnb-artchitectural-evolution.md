@@ -27,9 +27,9 @@ For Airbnb, SOA is a network of loosely coupled services where clients make thei
 
 Various types of services were built such as:
 
-*   **Data Service:** This is the bottom layer and acts as the entry point for all read and write operations on the data entities.
-*   **Derived Data Service:** These services read from data services and apply basic business logic.
-*   **Middle Tier Service:** They manage important business logic that doesn’t fit at the data service level or derived data service level.
-*   **Presentation Service:** They aggregate data from all other services and also apply some frontend-specific business logic.
+* **Data Service:** This is the bottom layer and acts as the entry point for all read and write operations on the data entities.
+* **Derived Data Service:** These services read from data services and apply basic business logic.
+* **Middle Tier Service:** They manage important business logic that doesn’t fit at the data service level or derived data service level.
+* **Presentation Service:** They aggregate data from all other services and also apply some frontend-specific business logic.
 
 After the migration, the Monorail was eliminated and all reads/writes were migrated to the new services.

@@ -45,7 +45,7 @@ graph TD
 
 drawio 或者 [drawon](https://www.drawon.cn?useSource=csdn) 中的快捷键基本一致，如下我们按照[不同的](https://so.csdn.net/so/search?q=%E4%B8%8D%E5%90%8C%E7%9A%84&spm=1001.2101.3001.7020)类别进行归类描述。
 
-为了便于大家更直观的理解，我们在 b 站上给大家录了讲解与演示教程：  
+为了便于大家更直观的理解，我们在 b 站上给大家录了讲解与演示教程： 
 [https://www.bilibili.com/video/BV13Q4y1L7Dv/?spm_id_from=333.337.search-card.all.click&vd_source=16e8748b5af6de2606217e1f5d76f317](https://www.bilibili.com/video/BV13Q4y1L7Dv/?spm_id_from=333.337.search-card.all.click&vd_source=16e8748b5af6de2606217e1f5d76f317)
 
 ### 标签操作

@@ -17,7 +17,7 @@ With 3 million monthly users, Figma’s user base has increased by 200% since 20
 
 As a result, its Postgres database witnessed a whopping 100X growth.
 
-*   **Vertical Scaling and Replication**
+* **Vertical Scaling and Replication**
 
     Figma used a single, large Amazon RDS database.
 
@@ -25,7 +25,7 @@ As a result, its Postgres database witnessed a whopping 100X growth.
 
     They also created multiple read replicas to scale read traffic and added PgBouncer as a connection pooler to limit the impact of a growing number of connections.
 
-*   **Vertical Partitioning**
+* **Vertical Partitioning**
 
     The next step was vertical partitioning.
 
@@ -33,7 +33,7 @@ As a result, its Postgres database witnessed a whopping 100X growth.
 
     Multiple PgBouncer instances were used to manage the connections for these separate databases.
 
-*   **Horizontal Partitioning**
+* **Horizontal Partitioning**
 
     Over time, some tables crossed several terabytes of data and billions of rows.
 

@@ -17,42 +17,42 @@ There is more to Redis than just caching.
 
 Redis can be used in a variety of scenarios as shown in the diagram.
 
-*   **Session**
+* **Session**
 
     We can use Redis to share user session data among different services.
 
-*   **Cache**
+* **Cache**
 
     We can use Redis to cache objects or pages, especially for hotspot data.
 
-*   **Distributed lock**
+* **Distributed lock**
 
     We can use a Redis string to acquire locks among distributed services.
 
-*   **Counter**
+* **Counter**
 
     We can count how many likes or how many reads for articles.
 
-*   **Rate limiter**
+* **Rate limiter**
 
     We can apply a rate limiter for certain user IPs.
 
-*   **Global ID generator**
+* **Global ID generator**
 
     We can use Redis Int for global ID.
 
-*   **Shopping cart**
+* **Shopping cart**
 
     We can use Redis Hash to represent key-value pairs in a shopping cart.
 
-*   **Calculate user retention**
+* **Calculate user retention**
 
     We can use Bitmap to represent the user login daily and calculate user retention.
 
-*   **Message queue**
+* **Message queue**
 
     We can use List for a message queue.
 
-*   **Ranking**
+* **Ranking**
 
     We can use ZSet to sort the articles.

@@ -6,7 +6,7 @@ source: "X (Twitter)"
 url: "https://x.com/0xlangeai/status/2109115005069341175?s=20"
 ---
 
-# 把自己的推文做成个人画像网站,  用 Grok Bot 从分析特点到上线分享保姆级教程
+# 把自己的推文做成个人画像网站， 用 Grok Bot 从分析特点到上线分享保姆级教程
 
 你可能见过这种玩法：在 X 上 @ Grok，让它分析一个人的表达风格、语言习惯，看看它能不能说中。
 
@@ -88,9 +88,9 @@ Grok Bot 中，同一账号下的 Bots 共用云电脑和文件，适合用文�
 
 群里输入 @，再从列表选中某位 Bot，就能明确把任务交给它。后面创建的设计师、工程师也加入这个群。[群聊与分工说明](https://docs.x.ai/grok-bot/chat-and-collaboration)
 
-![实操:  4 位 Bot 在侧位](https://pbs.twimg.com/media/HUUDZ1sbgAAwgiF.jpg)
+![实操： 4 位 Bot 在侧位](https://pbs.twimg.com/media/HUUDZ1sbgAAwgiF.jpg)
 
-实操: 4 位 Bot 在侧位
+实操：4 位 Bot 在侧位
 
 先发送一次项目规则。下面的目录占位符，换成整理员刚才返回的完整路径：
 
@@ -229,7 +229,7 @@ Grok Bot 中，同一账号下的 Bots 共用云电脑和文件，适合用文�
 
 [为什么是 Muse：Meta 想接手的，不只是你的待办事项](https://x.com/0xlangeai/status/2105226142668251153)
 
-[别再急着买API, 用 CLIProxyAPI 盘活你的 AI 订阅](https://x.com/0xlangeai/status/2106213413928194301)
+[别再急着买 API, 用 CLIProxyAPI 盘活你的 AI 订阅](https://x.com/0xlangeai/status/2106213413928194301)
 
 [新版 Codex 桌面端：值得关注的五个重点](https://x.com/0xlangeai/status/2108017762337755604?s=20)
 
@@ -239,8 +239,7 @@ Grok Bot 中，同一账号下的 Bots 共用云电脑和文件，适合用文�
 
 [Cursor + Grok Bot + pstack，真正的 AI 软件工厂开始出现了](https://x.com/0xlangeai/status/2097839261039153381?s=20)
 
-[用 SSH 连上 Grok Bot 服务器, 保姆级教程](https://x.com/0xlangeai/status/2093192039051489662)
+[用 SSH 连上 Grok Bot 服务器，保姆级教程](https://x.com/0xlangeai/status/2093192039051489662)
 
-如果这篇教程对你有点帮助，欢迎 关注 + 收藏 + 转发
 
 ⏩ 关注 [[@0xlangeai](https://x.com/0xlangeai)](https://x.com/@0xlangeai) , 持续分享 AI 工具使用经验和心得

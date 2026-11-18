@@ -68,7 +68,7 @@ Agent 不应该知道 OpenAI / Anthropic / Gemini 的区别。
 
 
 
-换服务商 = 改代码：假设哪天想从 DeepSeek 换到 Gemini，index.ts 里每一处 chat.completions 都要改，还要重新学对方 SDK 的API surface 调用约定；
+换服务商 = 改代码：假设哪天想从 DeepSeek 换到 Gemini，index.ts 里每一处 chat.completions 都要改，还要重新学对方 SDK 的 API surface 调用约定；
 
 
 
@@ -152,7 +152,7 @@ Agent 不应该知道 OpenAI / Anthropic / Gemini 的区别。
 
 
 
-成功代码的组织结构来看，我们新增了一层model目录，下面定义的model的抽象与实现，这一步，可以说是我们向最终的完全体迈出的结构分层的第一步
+成功代码的组织结构来看，我们新增了一层 model 目录，下面定义的 model 的抽象与实现，这一步，可以说是我们向最终的完全体迈出的结构分层的第一步
 
 
 
@@ -216,11 +216,11 @@ openai.ts 是唯一 import openai 的地方。对外暴露一个普通工厂
 
 
 
-> 同样的，当我们想接入 Anthropic 的Claude模型时，也只需要新建一个 anthropic.ts 文件，将Claude的相关交互锁在这个文件内即可
+> 同样的，当我们想接入 Anthropic 的 Claude 模型时，也只需要新建一个 anthropic.ts 文件，将 Claude 的相关交互锁在这个文件内即可
 
 
 
-同样的，当我们想接入 Anthropic 的Claude模型时，也只需要新建一个 anthropic.ts 文件，将Claude的相关交互锁在这个文件内即可
+同样的，当我们想接入 Anthropic 的 Claude 模型时，也只需要新建一个 anthropic.ts 文件，将 Claude 的相关交互锁在这个文件内即可
 
 
 
@@ -244,7 +244,7 @@ src/model/model.ts：
 
 
 
-### OpenAI接口风格大模型交互的Provider实现
+### OpenAI 接口风格大模型交互的 Provider 实现
 
 
 
@@ -256,7 +256,7 @@ src/model/openai.ts——generate 与 stream 两个实现，就是把第三�
 
 
 
-最后再暴露一个创建Model的普通工厂实现，从而构成 openai.ts 这个Provider的完整实现
+最后再暴露一个创建 Model 的普通工厂实现，从而构成 openai.ts 这个 Provider 的完整实现
 
 
 
@@ -264,7 +264,7 @@ src/model/openai.ts——generate 与 stream 两个实现，就是把第三�
 
 
 
-最后就是我们的应用层，将之前的那一坨OpenAI交互移走，只留下与Model的交互
+最后就是我们的应用层，将之前的那一坨 OpenAI 交互移走，只留下与 Model 的交互
 
 
 
@@ -368,7 +368,7 @@ SDK 形状被关进笼子：chunk、delta、ChatCompletionMessageParam 这些�
 
 
 
-以上这些问题，留在下一篇逐一介绍。好了，本章就到这里。接口、实现、工厂——这三样东西会贯穿后面几十章，请务必亲手跑一遍 --full 和流式两个命令，感受「同接口、两姿势」。欢迎点赞、关注公众号「一灰灰Blog」，Stage 1 我们见真章 😊
+以上这些问题，留在下一篇逐一介绍。好了，本章就到这里。接口、实现、工厂——这三样东西会贯穿后面几十章，请务必亲手跑一遍 --full 和流式两个命令，感受「同接口、两姿势」。欢迎点赞、关注公众号「一灰灰 Blog」，Stage 1 我们见真章 😊
 
 
 

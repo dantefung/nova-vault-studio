@@ -15,7 +15,7 @@ url: "https://github.com/phuryn/pm-skills"
 
 将产品经理专业方法论（Teresa Torres / Marty Cagan / Alberto Savoia 等）硬核化为 AI Agent Skills，共 68 个技能 + 42 个链式工作流。
 
-## 9大插件
+## 9 大插件
 
 | 插件 | Skills 数 | Commands 数 | 覆盖 |
 |------|-----------|-------------|------|

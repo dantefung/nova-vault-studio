@@ -10,7 +10,7 @@ date: "2026-06-11"
 ## Key Points
 
 - **核心定位**：不是 AI 帮你搜知识，而是 AI 帮你维护知识
-- **核心思路**：传统 RAG每次 query都要从零检索；而 LLM Wiki 的思路是：LLM 增量构建并持久维护一个 Wiki，知识和答案编译一次、持续更新
+- **核心思路**：传统 RAG 每次 query 都要从零检索；而 LLM Wiki 的思路是：LLM 增量构建并持久维护一个 Wiki，知识和答案编译一次、持续更新
 
 ## 核心功能
 
@@ -30,7 +30,7 @@ date: "2026-06-11"
 
 ### 3. Louvain 社区发现
 
-自动发现知识集群，用内聚度评分（intra-edge density）：低于 0.15 的集群被标记为"知识缺口"。
+自动发现知识集群，用内聚度评分（intra-edge density）：低于 0.15 的集群被标记为“知识缺口”。
 
 ### 4. 知识缺口自动标出
 
@@ -51,7 +51,7 @@ date: "2026-06-11"
 ## Related Pages
 
 - [concepts/llm-wiki](concepts/llm-wiki) — LLM Wiki 知识库模式
-- [patterns/ai-knowledge-workflow](patterns/ai-knowledge-workflow) — AI知识管理工作流
+- [patterns/ai-knowledge-workflow](patterns/ai-knowledge-workflow) — AI 知识管理工作流
 
 ## Sources
 

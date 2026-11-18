@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/H1httNlFmRqN9jyOAO380A"
 
 # wayfinder & handoff：AI Agent 跨会话接力协议
 
-Matt Pocock 在 skills/engineering/wayfinder 和 skills/productivity/handoff 中给出的跨会话接力协议，解决"上下文窗口是一次性的"这一根本问题。
+Matt Pocock 在 skills/engineering/wayfinder 和 skills/productivity/handoff 中给出的跨会话接力协议，解决“上下文窗口是一次性的”这一根本问题。
 
 ---
 
@@ -23,7 +23,7 @@ Matt Pocock 在 skills/engineering/wayfinder 和 skills/productivity/handoff 中
 
 适用场景：工作本身就需要多会话。
 
-维护一张跨会话共享的"地图"，一次启动即为多会话协作铺路。先把目的地钉死，再 fan out 出票。
+维护一张跨会话共享的“地图”，一次启动即为多会话协作铺路。先把目的地钉死，再 fan out 出票。
 
 **判断信号**：任务太大、雾太大、说不清目的地 → 用 wayfinder。
 

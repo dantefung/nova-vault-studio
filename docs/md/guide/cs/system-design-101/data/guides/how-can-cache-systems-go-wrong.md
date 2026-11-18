@@ -26,8 +26,8 @@ There are two ways to mitigate this issue: one is to avoid setting the same expi
 This happens when the key doesn’t exist in the cache or the database. The application cannot retrieve relevant data from the database to update the cache. This problem creates a lot of pressure on both the cache and the database.
 
 To solve this, there are two suggestions.
-*   Cache a null value for non-existent keys, avoiding hitting the database.
-*   Use a bloom filter to check the key existence first, and if the key doesn’t exist, we can avoid hitting the database.
+* Cache a null value for non-existent keys, avoiding hitting the database.
+* Use a bloom filter to check the key existence first, and if the key doesn’t exist, we can avoid hitting the database.
 
 ## 3. Cache Breakdown
 
@@ -40,5 +40,5 @@ Since the hot keys take up 80% of the queries, we do not set an expiration time 
 This happens when the cache is down and all the requests go to the database.
 
 There are two ways to solve this problem.
-*   Set up a circuit breaker, and when the cache is down, the application services cannot visit the cache or the database.
-*   Set up a cluster for the cache to improve cache availability.
+* Set up a circuit breaker, and when the cache is down, the application services cannot visit the cache or the database.
+* Set up a cluster for the cache to improve cache availability.

@@ -11,7 +11,7 @@ tweetCount: 1
 coverImage: "https://pbs.twimg.com/media/HEx37EyaMAAvhON.jpg"
 ---
 
-# Claude Code CLI 源码分析 : 从 Prompt 架构到工业级 AI Agent缓存黑科技+自我进化+多Agent协作+遥测监控
+# Claude Code CLI 源码分析 : 从 Prompt 架构到工业级 AI Agent 缓存黑科技+自我进化+多 Agent 协作+遥测监控
 
 最近拿到了 Claude Code CLI 的源码。
 
@@ -132,17 +132,17 @@ Prompt Cache 的工作原理：前缀完全匹配
 
 假设你的消息序列是这样的：
 
-[System Prompt] + [消息1] + [消息2] + [消息3] + [消息4] + [消息5]
+[System Prompt] + [消息 1] + [消息 2] + [消息 3] + [消息 4] + [消息 5]
 
 Claude 会把这整个序列缓存起来。下一轮对话，你发送：
 
-[System Prompt] + [消息1] + [消息2] + [消息3] + [消息4] + [消息5] + [消息6]
+[System Prompt] + [消息 1] + [消息 2] + [消息 3] + [消息 4] + [消息 5] + [消息 6]
 
 Claude 发现前面的部分和缓存完全一致，直接复用缓存，只处理新的 【消息 6】。
 
 但如果你删掉了消息 2：
 
-[System Prompt] + [消息1] + [消息3] + [消息4] + [消息5] + [消息6]
+[System Prompt] + [消息 1] + [消息 3] + [消息 4] + [消息 5] + [消息 6]
 
 Claude 发现从消息 1 之后，序列就对不上了：
 
@@ -388,9 +388,9 @@ Token Budget：用 token 量驱动的自主工作
 
 用户可以指定 token 预算，Agent 会持续工作直到接近预算：
 
-"+500k"          → 500,000 tokens
-"+2m"            → 2,000,000 tokens
-"use 1b tokens"  → 1,000,000,000 tokens
+"+500k" → 500,000 tokens
+"+2m" → 2,000,000 tokens
+"use 1b tokens" → 1,000,000,000 tokens
 
 闭环机制：
 
@@ -875,9 +875,9 @@ Worktree 模式的精妙设计：
 
 项目根目录/
 ├── .git/worktrees/bridge-session-abc123/
-├── bridge-session-abc123/  ← 会话 A 独立工作区
-├── bridge-session-def456/  ← 会话 B 独立工作区
-└── (原始目录)               ← 第一个会话用原始目录
+├── bridge-session-abc123/ ← 会话 A 独立工作区
+├── bridge-session-def456/ ← 会话 B 独立工作区
+└── (原始目录) ← 第一个会话用原始目录
 
 这样多个 Agent 并行修改代码互不干扰。
 

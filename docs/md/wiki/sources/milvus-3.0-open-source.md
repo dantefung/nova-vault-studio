@@ -116,4 +116,4 @@ common.storage.useLoonFFI 默认是关闭的。更关键：一旦启用改变序
 
 我赌的判断是：Milvus 3.0 这次 GA 的关键不是功能数量，而是把 beta 挖的坑填上、把上层能力的边界稳住。lake-native 是故事，complete what the beta started 才是这一版本号做的工作。
 
-> 说明：本文内容基于 Milvus 3.0.0 官方 release notes、本地源码（milvus-io/milvus）和 GitHub tag、LF AI & Data 博客等公开来源交叉整理而成。文中标注的"厂商口径"数据均为官方公布的内部基准，未做独立复现。
+> 说明：本文内容基于 Milvus 3.0.0 官方 release notes、本地源码（milvus-io/milvus）和 GitHub tag、LF AI & Data 博客等公开来源交叉整理而成。文中标注的“厂商口径”数据均为官方公布的内部基准，未做独立复现。

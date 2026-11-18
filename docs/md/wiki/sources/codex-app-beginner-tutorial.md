@@ -5,7 +5,7 @@ source: "X @gengdaJ (逸尘)"
 url: "https://x.com/gengdaJ/status/2051891231953920174"
 ---
 
-# Codex App 从0到1完整入门教程
+# Codex App 从 0 到 1 完整入门教程
 
 > 逸尘(@gengdaJ) 写给小白的一篇 Codex App 实测入门长文，550 行覆盖下载安装、三者区别、主界面地图、11 个设置页、权限边界、踩坑排查、上手路线。
 

@@ -6,7 +6,7 @@ source: "微信公众号（哥飞）"
 url: "https://mp.weixin.qq.com/s/YLi38TLLM936bDsILGUtuA"
 ---
 
-# 我如何通过SEO和Adsense优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元
+# 我如何通过 SEO 和 Adsense 优化，把一个网站广告收入从每月八百多美元提升到每月两千多美元
 
 2016 年 6 月收入 874 美元，7 月翻倍到 1475 美元，11 月达到 2100 美元。关键时间点在 6 月底，哥飞做了三件事：
 
@@ -65,7 +65,7 @@ url: "https://mp.weixin.qq.com/s/YLi38TLLM936bDsILGUtuA"
 
 ![新版详情页](../images/adsense-seo-800-to-2000/010.webp)
 
-![新版详情页2](../images/adsense-seo-800-to-2000/011.webp)
+![新版详情页 2](../images/adsense-seo-800-to-2000/011.webp)
 
 HTML 中，h1 标签放书籍名称：
 

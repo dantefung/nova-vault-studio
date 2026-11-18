@@ -3,7 +3,7 @@ title: "React Component Libraries（React组件库对比）"
 date: "2026-06-11"
 ---
 
-# React Component Libraries（React组件库对比）
+# React Component Libraries（React 组件库对比）
 
 > 两个简洁美观的 React 组件库替代品：COSS UI + HeroUI，比 shadcn/UI 更漂亮。
 

@@ -17,10 +17,10 @@ The architecture of a potential experiment platform is depicted in the diagram b
 
 ## Key Components
 
-*   **Experiment definition, setup, and management via a UI.** They are stored in the experiment system configuration.
+* **Experiment definition, setup, and management via a UI.** They are stored in the experiment system configuration.
 
-*   **Experiment deployment** to both the server and client-side (covers variant assignment and parameterization as well).
+* **Experiment deployment** to both the server and client-side (covers variant assignment and parameterization as well).
 
-*   **Experiment instrumentation.**
+* **Experiment instrumentation.**
 
-*   **Experiment analysis.**
+* **Experiment analysis.**

@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/Saq_dHCQ40IbHRgJPOdWDw"
 
 # OpenCodex：Codex 本地模型路由层
 
-OpenCodex 是在 Codex 和上游模型提供商之间插入一层本地代理，统一管理多模型切换，解决"换模型要重启 Codex → session 丢失"的痛点。
+OpenCodex 是在 Codex 和上游模型提供商之间插入一层本地代理，统一管理多模型切换，解决“换模型要重启 Codex → session 丢失”的痛点。
 
 ---
 

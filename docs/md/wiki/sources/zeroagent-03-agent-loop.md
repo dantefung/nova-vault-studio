@@ -183,7 +183,7 @@ response.completed
 
 上述是模型侧的 Event。使用过 Agent 的同学都知道，Agent 在执行任务时会在 TUI 或 GUI 上实时输出模型的推理文本、工具调用、最终答案等信息。这些都源于对 SSE 的加工处理。**为了和 SSE 解耦，需要设计一套 Agent 侧的 Event**，其映射关系如下：
 
-| SSE Event（模型侧） | AgentEvent（Agent侧） | 说明 |
+| SSE Event（模型侧） | AgentEvent（Agent 侧） | 说明 |
 |---|---|---|
 | `response.reasoning_text.delta` | `reasoning_delta` | 推理文本增量，透传 delta |
 | `response.output_text.delta` | `content_delta` | 最终回答文本增量，透传 delta |

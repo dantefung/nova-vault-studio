@@ -52,7 +52,7 @@ OpenAI 官方推出的编程 Agent，也是 Harness Engineering 概念的原始�
 
 ### 定位
 
-Anthropic 推出的"对模型最薄的封装"，强调模型能力本身而非复杂的驭化层。
+Anthropic 推出的“对模型最薄的封装”，强调模型能力本身而非复杂的驭化层。
 
 ### 驭化层配置
 
@@ -97,7 +97,7 @@ from langchain_core.middleware import (
 
 ### 关键数据
 
-LangChain Terminal Bench 2.0（2026年2月）：
+LangChain Terminal Bench 2.0（2026 年 2 月）：
 - 基础配置：52.8% 成功率（Top 30 以外）
 - 优化驭化层后：66.5% 成功率（Top 5）
 - 提升：+13.7 个百分点，不换模型
@@ -154,5 +154,5 @@ Ralph 启动循环
 无论选择哪个工具：
 1. 从最小化驭化层开始，观察真实失败再扩展
 2. AGENTS.md 或 CLAUDE.md 保持 ≤ 100 行
-3. 工具数量 ≤ 10 个（避免"愚蠢区"）
+3. 工具数量 ≤ 10 个（避免“愚蠢区”）
 4. 建立测试套件作为 Agent 的自我验证机制

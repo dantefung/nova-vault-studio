@@ -19,14 +19,14 @@ In this post, we explore common requirements for IDs that are used in social med
 
 ## Requirements:
 
-*   Globally unique
+* Globally unique
 
-*   Roughly sorted by time
+* Roughly sorted by time
 
-*   Numerical values only
+* Numerical values only
 
-*   64 bits
+* 64 bits
 
-*   Highly scalable, low latency
+* Highly scalable, low latency
 
 The implementation details of the algorithms can be found online so we will not go into detail here.

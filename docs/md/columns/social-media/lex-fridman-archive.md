@@ -3,7 +3,7 @@ title: "Lex Fridman 全部访谈整理：502期 ASR识别+中文改写翻译"
 date: "2026-09-29"
 ---
 
-# Lex Fridman 全部访谈整理：502期
+# Lex Fridman 全部访谈整理：502 期
 
 > AI 乃至全领域最强主播 Lex Fridman 全部访谈整理好了。
 

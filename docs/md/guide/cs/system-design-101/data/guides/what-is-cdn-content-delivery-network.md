@@ -21,10 +21,10 @@ With CDN, users don’t need to retrieve content (music, video, files, pictures,
 
 ## The benefits of CDN are:
 
-*   Reducing latency
+* Reducing latency
 
-*   Reducing bandwidth
+* Reducing bandwidth
 
-*   Improving website security, especially protecting against DDoS (Distributed Denial-of-Service) attack
+* Improving website security, especially protecting against DDoS (Distributed Denial-of-Service) attack
 
-*   Increasing content availability
+* Increasing content availability

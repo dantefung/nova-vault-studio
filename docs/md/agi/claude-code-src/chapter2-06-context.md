@@ -120,11 +120,11 @@ function useNotifications() {
 }
 ```
 
-**优先级行为:**
+**优先级行为：**
 
-*   `'low'` / `'medium'` — 排队显示
-*   `'high'` — 优先显示
-*   `'immediate'` — 立即抢占当前显示
+* `'low'` / `'medium'` — 排队显示
+* `'high'` — 优先显示
+* `'immediate'` — 立即抢占当前显示
 
 ### stats.tsx — 统计存储 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/context-system.html#stats-tsx-%E2%80%94-%E7%BB%9F%E8%AE%A1%E5%AD%98%E5%82%A8)
 

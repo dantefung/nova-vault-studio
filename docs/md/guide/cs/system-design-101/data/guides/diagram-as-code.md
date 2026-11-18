@@ -19,10 +19,10 @@ I recently discovered a Github repo that does exactly this: Diagram as Code for 
 
 ## What does it do?
 
-*   Draw the cloud system architecture in Python code.
+* Draw the cloud system architecture in Python code.
 
-*   Diagrams can also be rendered directly inside the Jupyter Notebooks.
+* Diagrams can also be rendered directly inside the Jupyter Notebooks.
 
-*   No design tools are needed.
+* No design tools are needed.
 
-*   Supports the following providers: AWS, Azure, GCP, Kubernetes, Alibaba Cloud, Oracle Cloud, etc.
+* Supports the following providers: AWS, Azure, GCP, Kubernetes, Alibaba Cloud, Oracle Cloud, etc.

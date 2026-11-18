@@ -5,9 +5,9 @@ date: "2026-07-25"
 
 # 网站数据分析工具集成指南
 
-本教程将指导你如何在Next.js项目中集成Google Analytics和Microsoft Clarity等数据分析工具，帮助你追踪和分析用户行为。
+本教程将指导你如何在 Next.js 项目中集成 Google Analytics 和 Microsoft Clarity 等数据分析工具，帮助你追踪和分析用户行为。
 
-目标：学习如何在Next.js项目中设置和使用Google Analytics和Microsoft Clarity进行用户行为分析。
+目标：学习如何在 Next.js 项目中设置和使用 Google Analytics 和 Microsoft Clarity 进行用户行为分析。
 
 ## 一、为什么需要网站分析工具？
 
@@ -19,9 +19,9 @@ date: "2026-07-25"
 
 ## 二、Google Analytics 简介
 
-### 什么是Google Analytics？
+### 什么是 Google Analytics？
 
-- Google提供的免费网站分析服务
+- Google 提供的免费网站分析服务
 - 提供全面的网站流量和用户行为数据
 - 支持目标转化跟踪、事件跟踪等高级功能
 
@@ -35,15 +35,15 @@ date: "2026-07-25"
 
 ## 三、Microsoft Clarity 简介
 
-### 什么是Microsoft Clarity？
+### 什么是 Microsoft Clarity？
 
 - 微软提供的免费用户行为分析工具
 - 提供热图、会话录制、点击跟踪等功能
 - 帮助直观理解用户如何与网站互动
 
-### Microsoft Clarity的主要功能：
+### Microsoft Clarity 的主要功能：
 
 - 热图：直观显示用户点击、滚动和注意力分布
 - 会话录制：回放用户浏览网站的过程
 - 洞察面板：自动识别用户体验问题
-- 与Google Analytics集成：结合两者数据获得更全面分析
+- 与 Google Analytics 集成：结合两者数据获得更全面分析

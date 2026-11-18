@@ -19,17 +19,17 @@ Hope this checklist is useful to guide your discussions during the interview pro
 
 This briefly touches on the following discussion points:
 
-*   Load Balancing
-*   API Gateway
-*   Communication Protocols
-*   Content Delivery Network (CDN)
-*   Database
-*   Cache
-*   Message Queue
-*   Unique ID Generation
-*   Scalability
-*   Availability
-*   Performance
-*   Security
-*   Fault Tolerance and Resilience
-*   And more
+* Load Balancing
+* API Gateway
+* Communication Protocols
+* Content Delivery Network (CDN)
+* Database
+* Cache
+* Message Queue
+* Unique ID Generation
+* Scalability
+* Availability
+* Performance
+* Security
+* Fault Tolerance and Resilience
+* And more

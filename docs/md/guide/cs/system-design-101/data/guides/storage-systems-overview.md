@@ -19,9 +19,9 @@ Let's review the storage systems in general.
 
 Storage systems fall into three broad categories:
 
-*   Block storage
-*   File storage
-*   Object storage
+* Block storage
+* File storage
+* Object storage
 
 The diagram above illustrates the comparison of different storage systems.
 

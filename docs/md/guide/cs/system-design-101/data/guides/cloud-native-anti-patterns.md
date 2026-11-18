@@ -25,9 +25,9 @@ Cloud services can be expensive, and not optimizing costs can result in budget o
 
 ## Mutable Infrastructure
 
-*   Infrastructure components are to be treated as disposable and are never modified in place.
+* Infrastructure components are to be treated as disposable and are never modified in place.
 
-*   Failing to embrace this approach can lead to configuration drift, increased maintenance, and decreased reliability.
+* Failing to embrace this approach can lead to configuration drift, increased maintenance, and decreased reliability.
 
 ## Inefficient DB Access Patterns
 

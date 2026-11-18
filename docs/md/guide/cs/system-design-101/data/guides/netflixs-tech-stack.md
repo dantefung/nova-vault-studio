@@ -15,18 +15,18 @@ This post is based on research from many Netflix engineering blogs and open-sour
 
 ![](https://assets.bytebytego.com/diagrams/0286-netflix-tech-stack.png)
 
-*   Mobile and web: Netflix has adopted Swift and Kotlin to build native mobile apps. For its web application, it uses React.
+* Mobile and web: Netflix has adopted Swift and Kotlin to build native mobile apps. For its web application, it uses React.
 
-*   Frontend/server communication: GraphQL.
+* Frontend/server communication: GraphQL.
 
-*   Backend services: Netflix relies on ZUUL, Eureka, the Spring Boot framework, and other technologies.
+* Backend services: Netflix relies on ZUUL, Eureka, the Spring Boot framework, and other technologies.
 
-*   Databases: Netflix utilizes EV cache, Cassandra, CockroachDB, and other databases.
+* Databases: Netflix utilizes EV cache, Cassandra, CockroachDB, and other databases.
 
-*   Messaging/streaming: Netflix employs Apache Kafka and Fink for messaging and streaming purposes.
+* Messaging/streaming: Netflix employs Apache Kafka and Fink for messaging and streaming purposes.
 
-*   Video storage: Netflix uses S3 and Open Connect for video storage.
+* Video storage: Netflix uses S3 and Open Connect for video storage.
 
-*   Data processing: Netflix utilizes Flink and Spark for data processing, which is then visualized using Tableau. Redshift is used for processing structured data warehouse information.
+* Data processing: Netflix utilizes Flink and Spark for data processing, which is then visualized using Tableau. Redshift is used for processing structured data warehouse information.
 
-*   CI/CD: Netflix employs various tools such as JIRA, Confluence, PagerDuty, Jenkins, Gradle, Chaos Monkey, Spinnaker, Altas, and more for CI/CD processes.
+* CI/CD: Netflix employs various tools such as JIRA, Confluence, PagerDuty, Jenkins, Gradle, Chaos Monkey, Spinnaker, Altas, and more for CI/CD processes.

@@ -19,15 +19,15 @@ date: "2026-06-22"
 | [收入结构四维判断](../../wiki/patterns/income-structure-four-certainties.md) | 项目值不值得做 |
 | [独立开发者套利模式](./money-methods/aribitrage-mode.md) | 前端/后端分离，搭建可复用系统 |
 | [内容搬运套利](../../wiki/patterns/content-arbitrage-pattern.md) | 跨境内容搬运 + 一鱼五吃矩阵分发 |
-| [莆、广系跨境电商AI搜索与深度研究](./ai-cross-border-ecommerce-research/ai-cross-border-ecommerce-research.md) | 市场/用户/竞品/趋势四大研究 + AI整合商业情报系统 |
-| [Google SEO 7大排名信号](./seo/strategy/seo-7-google-signals.md) | 反向链接/搜索意图/新鲜度/HTTPS/移动友好/加载速度/无侵入广告 |
+| [莆、广系跨境电商 AI 搜索与深度研究](./ai-cross-border-ecommerce-research/ai-cross-border-ecommerce-research.md) | 市场/用户/竞品/趋势四大研究 + AI 整合商业情报系统 |
+| [Google SEO 7 大排名信号](./seo/strategy/seo-7-google-signals.md) | 反向链接/搜索意图/新鲜度/HTTPS/移动友好/加载速度/无侵入广告 |
 | [SEO 建站指南](./seo/index.md) | Google 信号、关键词策略、ROI 分析、冷启动等 6 篇 |
 | [Dropshipping 资源索引](./dropshipping-resources/index.md) | 一件代发从概念→选平台→实操全链路 |
 | [独立 App 实战手册](./app-playbook/index.md) | Adam Lyttle 88 集视频整理，从点子到第一批付费用户 6 阶段全流程 |
-| [AI时代个体创业路径](./money-methods/ai-individual-path.md) | 16步低风险从0到1完整指南，动作顺序即风险控制 |
-| [AI赚钱30种方式](./money-methods/ai-money-30-ways.md) | 差价/包装/时间差/流量/规模等30种赚钱模式，附传统vs AI对比 |
-| [赚钱的本质：系统漏洞游戏](./money-methods/money-exploit-games.md) | 23个领域的赚钱漏洞：算法/心理/规则三层，附实操建议 |
-| [把才华变成钱](./money-methods/mengke-money-from-talent.md) | 王梦珂品牌工作手册：16章讲清如何把能力变收入，核心是"让别人知道你为什么值钱" |
+| [AI 时代个体创业路径](./money-methods/ai-individual-path.md) | 16 步低风险从 0 到 1 完整指南，动作顺序即风险控制 |
+| [AI 赚钱 30 种方式](./money-methods/ai-money-30-ways.md) | 差价/包装/时间差/流量/规模等 30 种赚钱模式，附传统 vs AI 对比 |
+| [赚钱的本质：系统漏洞游戏](./money-methods/money-exploit-games.md) | 23 个领域的赚钱漏洞：算法/心理/规则三层，附实操建议 |
+| [把才华变成钱](./money-methods/mengke-money-from-talent.md) | 王梦珂品牌工作手册：16 章讲清如何把能力变收入，核心是“让别人知道你为什么值钱” |
 | [AI 产品沉思录](./ai-product/ai-product-reflection-zlbigger.md) | zlbigger AI 一人公司复盘：流量先行 + 窄业务小工具，PMF→RPA→SOP→无限复制 |
 | [AI 躺赚多语种站](./zlbigger/ai-website-lay-flat-zlbigger.md) | zlbigger 裸晒 linggan.io：6 AI 打工人分工，5 语种全球被动收入 |
 | [Agent 调度升级](./zlbigger/xiaolongxia-agent-automation-zlbigger.md) | zlbigger 第 3 篇：Agent 自主调度 + 远程触发 + 三阶段流水线 |
@@ -45,7 +45,7 @@ date: "2026-06-22"
 | [50 Skills AI 创作系统](./50-skills-ai-creation-system/index.md) | 空格丶：数据→创作→排版→分发四层架构，50 个 Skill 串成系统 |
 | [SaaS 产品落地页设计](../vibe-coding-and-design/vibe-coding-and-design-4.md) | 从 0 搭建高转化落地页 |
 | [PMaker：145 篇产品方法论（AI 基础+产品实践）](./pmaker-series/) | 空格·键盘：AI 名词/大模型/提示词/RAG/Agent/成本安全 60 篇 + 产品发现/定义/设计/交互/界面/协作/验证 85 篇 |
-| [出海工具站实战笔记](./outsea-tool-station/index.md) | 易焘 13 篇：需求挖掘/上站流程/AI编程/认知，按作者自述索引分 6 类，含 Cloudflare 上线 SOP |
+| [出海工具站实战笔记](./outsea-tool-station/index.md) | 易焘 13 篇：需求挖掘/上站流程/AI 编程/认知，按作者自述索引分 6 类，含 Cloudflare 上线 SOP |
 | [Pancake 接入指南](./outsea-playbook/pancake-integration-guide.md) | 商户注册、AI 辅助支付集成、审核、生产迁移与提款全流程 |
 
 ## 分类索引
@@ -57,7 +57,7 @@ date: "2026-06-22"
 | [赚钱方法论](./money-methods/) | 个体创业路径 + 30 种赚钱方式 + 套利思维 + 把才华变成钱 |
 | [出海实战索引](./outsea-playbook/) | droidHZ 出海 1 周年 227 篇实战文章完整 TOC |
 | [PMaker 系列（145 篇）](./pmaker-series/) | 空格·键盘的产品方法论：AI 基础 60 篇 + 产品基础 10 篇 + 产品实践模式 75 篇 |
-| [出海工具站实战笔记](./outsea-tool-station/) | 易焘 的出海工具站系列：上站总览 / 需求挖掘 / 上站流程 / AI编程 / 站外推广 / 产品打磨 |
+| [出海工具站实战笔记](./outsea-tool-station/) | 易焘 的出海工具站系列：上站总览 / 需求挖掘 / 上站流程 / AI 编程 / 站外推广 / 产品打磨 |
 
 ## 核心路径
 

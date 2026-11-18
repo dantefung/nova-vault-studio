@@ -89,7 +89,7 @@ Blank 是 2024 年 10 月新词新站比赛的第一名，他的站单月 PV 99.
 
 ## 参考来源
 
-[1] [2024-12-12 社群日报：Adsense养号秘籍与实操全解析](https://new.web.cafe/)
-[2] [10月新词新站经验分享 - blank](https://new.web.cafe/)
-[3] [10月新词新站经验分享 - 结果](https://new.web.cafe/)
-[4] [小游戏站赚美元攻略第1篇：从什么是小游戏站说起（3600 字）](https://new.web.cafe/)
+[1] [2024-12-12 社群日报：Adsense 养号秘籍与实操全解析](https://new.web.cafe/)
+[2] [10 月新词新站经验分享 - blank](https://new.web.cafe/)
+[3] [10 月新词新站经验分享 - 结果](https://new.web.cafe/)
+[4] [小游戏站赚美元攻略第 1 篇：从什么是小游戏站说起（3600 字）](https://new.web.cafe/)

@@ -61,8 +61,8 @@ java -jar plantuml.jar file1 -TSvg -charset UTF-8
 
 至于为什么会推荐 plantuml server? 主要有两个方面的原因：
 
-1.  server 方式渲染的会更快，且可以团队多人使用。
-2.  最新版本的 plantuml.jar(`version 1.2020.06`) 与 graphviz 2.38 存在一些问题，在渲染带有中文的 dot 时会失败， 即使 dot 代码中设置了 _fontname_ 属性也无法正确绘图。该问题可以参考此 [issue](https://forum.plantuml.net/8720/how-to-use-japanese-font-in-dot)。
+1. server 方式渲染的会更快，且可以团队多人使用。
+2. 最新版本的 plantuml.jar(`version 1.2020.06`) 与 graphviz 2.38 存在一些问题，在渲染带有中文的 dot 时会失败， 即使 dot 代码中设置了 _fontname_ 属性也无法正确绘图。该问题可以参考此 [issue](https://forum.plantuml.net/8720/how-to-use-japanese-font-in-dot)。
 
 关于 PlantUml server 的搭建，官方也有对应的 [repo](https://github.com/plantuml/plantuml-server)。 根据文档，我在 WSL(Ubuntu 18.04) 系统下成功搭建了本地的 PlantUML Server，步骤也非常简单， 相关依赖安装可以参考[这篇教程](https://www.linux265.com/news/3465.html)。
 

@@ -5,15 +5,15 @@ source: "Twitter / @xaiwind"
 url: "https://x.com/xaiwind/status/2102738292580225350"
 ---
 
-# 超详细Codex上手教程，从入门到精通
+# 超详细 Codex 上手教程，从入门到精通
 
-各位看官今天来看Codex !
+各位看官今天来看 Codex !
 
-2023年首次听到Openai、ChatGPT, 之后AI 攻城略地，第一步攻下文本、代码后，一发不可收拾，AI 爆发、模型铺天盖地，我们已经进入AI 时代，感叹一句：这是个最好的时代，也是最坏的时代！
+2023 年首次听到 Openai、ChatGPT, 之后 AI 攻城略地，第一步攻下文本、代码后，一发不可收拾，AI 爆发、模型铺天盖地，我们已经进入 AI 时代，感叹一句：这是个最好的时代，也是最坏的时代！
 
-计算机的出现就是用来计算处理信息，互联网时代通过代码处理文本、图片、音频、视频信息，现在AI 时代，AI通过操作代码处理文本、图片、音频、视频信息！
+计算机的出现就是用来计算处理信息，互联网时代通过代码处理文本、图片、音频、视频信息，现在 AI 时代，AI 通过操作代码处理文本、图片、音频、视频信息！
 
-本文把你当小白，以学会Codex为例，直接把你从互联网时代拽进AI时代，安全带系好，上车！
+本文把你当小白，以学会 Codex 为例，直接把你从互联网时代拽进 AI 时代，安全带系好，上车！
 
 目录：
 
@@ -35,7 +35,7 @@ url: "https://x.com/xaiwind/status/2102738292580225350"
 
 🏢 **OpenAI = 公**司
 
-🧠 **GPT/AI模型 = 大**脑
+🧠 **GPT/AI 模型 = 大**脑
 
 💬 **ChatGPT = AI 助**手
 
@@ -43,7 +43,7 @@ url: "https://x.com/xaiwind/status/2102738292580225350"
 
 🔌 **OpenAI API = 让你自己的程序调用 A**I
 
-OpenAI最新大脑
+OpenAI 最新大脑
 
 📝 GPT-5.6 Luna：OpenAI 公司创造**的文**本模型
 
@@ -51,17 +51,17 @@ OpenAI最新大脑
 
 🎤 GPT-4o-mini-tts: OpenAI 公司创造的视频配音／文字转语音模型
 
-🎬 **Sor**a : OpenAI公司创造的视频模型 (于2026 年 4 月 26 日已经下线)
+🎬 **Sor**a : OpenAI 公司创造的视频模型 (于 2026 年 4 月 26 日已经下线)
 
 ![](images/codex-tutorial/codex-tutorial-img1.webp)
 
 **专有名词：**
 
-AI: Artificial Intelligence 人工的智能 ---简称AI 人工智能
+AI: Artificial Intelligence 人工的智能 ---简称 AI 人工智能
 
 LLM: Large Language Model 大脑、大语言模型
 
-Agent / 智能体: Agent单词意思是代理，现译为智能体---代理了模型能力的软件就是智能体
+Agent / 智能体：Agent 单词意思是代理，现译为智能体---代理了模型能力的软件就是智能体
 
 SKILL: Skill / Agent Skill 提示词、脚本组成，教 Agent 怎么完成某类任务
 
@@ -69,13 +69,13 @@ MCP: Model Context Protocol 模型上下文协议， AI 与软件或 AI 连接�
 
 CLI: Command-Line Interface 命令行、终端
 
-Bash: Bourne Again SHell 一种 Shell / 命令解释器 / Codex 里一切皆Bash
+Bash: Bourne Again SHell 一种 Shell / 命令解释器 / Codex 里一切皆 Bash
 
 IDE: Integrated Development Environment 程序员的开发工作台、编辑器
 
 MHS: Model Hardware Standard 模型硬件标准， AI 与硬件交互沟通协议
 
-A2A: Agent2Agent / Agent-to-Agent AI 与AI 沟通协议 ，让一个 Agent 和另一个 Agent 协作
+A2A: Agent2Agent / Agent-to-Agent AI 与 AI 沟通协议 ，让一个 Agent 和另一个 Agent 协作
 
 简单记忆版
 
@@ -103,13 +103,13 @@ A2A: Agent2Agent / Agent-to-Agent AI 与AI 沟通协议 ，让一个 Agent 和�
 
 Openai 公司官网：[https://openai.com/](https://openai.com/)
 
-Openai Chatgpt聊天助手：[https://chatgpt.com/](https://chatgpt.com/)
+Openai Chatgpt 聊天助手：[https://chatgpt.com/](https://chatgpt.com/)
 
-Openai Codex代码智能体：[https://chatgpt.com/codex/](https://chatgpt.com/codex/)
+Openai Codex 代码智能体：[https://chatgpt.com/codex/](https://chatgpt.com/codex/)
 
 Openai 学院：[https://openai.com/academy/](https://openai.com/academy/)
 
-由于视频模型已经下架，与个人密切相关的就是Chatgpt和Codex 理解了这些，你再去理解 Anthropic 和Claude Code 也是一样的, 理解其他厂商也是一样
+由于视频模型已经下架，与个人密切相关的就是 Chatgpt 和 Codex 理解了这些，你再去理解 Anthropic 和 Claude Code 也是一样的，理解其他厂商也是一样
 
 二、注册账号·下载软件
 
@@ -157,15 +157,15 @@ curl -fsSL https://chatgpt.com/codex/install.sh | sh
 
 三、认识界面
 
-左上方 点击可以ChatGPT 可以切换codex，其中ChatGPT 分聊天和工作模式。
+左上方 点击可以 ChatGPT 可以切换 codex，其中 ChatGPT 分聊天和工作模式。
 
-目前Chat联天偏问答交流，Work 工作偏完成通用任务（如定时任务），Codex 偏软件开发。
+目前 Chat 联天偏问答交流，Work 工作偏完成通用任务（如定时任务），Codex 偏软件开发。
 
-聊天模式: 纯文本或语音沟通
+聊天模式：纯文本或语音沟通
 
 ![](images/codex-tutorial/codex-tutorial-img4.webp)
 
-工作模式：有AI 生成行为，邮件汇总，图片生成，定时任务，搭建网站
+工作模式：有 AI 生成行为，邮件汇总，图片生成，定时任务，搭建网站
 
 ![](images/codex-tutorial/codex-tutorial-img5.webp)
 
@@ -173,7 +173,7 @@ Codex 模式：默认代码项目模式，默认项目区。视频创作、代�
 
 ![](images/codex-tutorial/codex-tutorial-img6.webp)
 
-工作模式与Codex模式功能有重叠，简单任务用工作模式 复杂的用Codex模式
+工作模式与 Codex 模式功能有重叠，简单任务用工作模式 复杂的用 Codex 模式
 
 四、设置功能
 
@@ -181,7 +181,7 @@ Codex 模式：默认代码项目模式，默认项目区。视频创作、代�
 
 ![](images/codex-tutorial/codex-tutorial-img7.webp)
 
-个性化设置可以让AI 回复工作更符合你的需求！ 参考我的个性化设置，实际使用 Codex 项目目录，需要有调整为你自己的。
+个性化设置可以让 AI 回复工作更符合你的需求！ 参考我的个性化设置，实际使用 Codex 项目目录，需要有调整为你自己的。
 
 ```
 # 全局工作指令
@@ -244,11 +244,11 @@ Codex 模式：默认代码项目模式，默认项目区。视频创作、代�
 
 五、终端命令
 
-推荐终端工具 Windows 用Git Bash MAC 选 Iterm or Herdr
+推荐终端工具 Windows 用 Git Bash MAC 选 Iterm or Herdr
 
-命令行, 可能很多新手不适应，你可以理解为你之前用鼠标触发一个命令，如点击打开APP，Codex Cli 里是用 codex 触发 。其他命令也可以类比，Cli上手比用APP 稍高点,但熟练了你也可能会爱上！
+命令行，可能很多新手不适应，你可以理解为你之前用鼠标触发一个命令，如点击打开 APP，Codex Cli 里是用 codex 触发 。其他命令也可以类比，Cli 上手比用 APP 稍高点，但熟练了你也可能会爱上！
 
-新手开始接触，要放弃古法编程知识学习想法，手动编辑代码想法，只有项目足够复杂，业务足够复杂才需要更多软件知识或手动干预！刚开始把codex当玩具就好，codex 只要会说话会打字就可以了！
+新手开始接触，要放弃古法编程知识学习想法，手动编辑代码想法，只有项目足够复杂，业务足够复杂才需要更多软件知识或手动干预！刚开始把 codex 当玩具就好，codex 只要会说话会打字就可以了！
 
 ![](images/codex-tutorial/codex-tutorial-img8.webp)
 

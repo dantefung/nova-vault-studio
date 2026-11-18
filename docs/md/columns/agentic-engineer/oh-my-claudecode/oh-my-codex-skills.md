@@ -121,7 +121,7 @@ sequenceDiagram
 ```
 
 **关键特性**：
-- 步骤3和4必须顺序执行，先等待 Architect 结果再调用 Critic
+- 步骤 3 和 4 必须顺序执行，先等待 Architect 结果再调用 Critic
 - 支持目标模式后续建议（`$ultragoal`、`$autoresearch-goal`、`$performance-goal`）
 - 预上下文摄入机制确保规划前有充分的上下文
 

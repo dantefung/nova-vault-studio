@@ -38,7 +38,7 @@ date: "2026-06-11"
 
 ## Related Pages
 
-- [products/codex-skills](products/codex-skills) — Codex Skills精选列表
+- [products/codex-skills](products/codex-skills) — Codex Skills 精选列表
 
 ## Sources
 

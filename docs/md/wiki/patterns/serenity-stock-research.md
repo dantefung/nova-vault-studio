@@ -45,8 +45,8 @@ date: "2026-06-11"
 
 ## Related Pages
 
-- [products/go-stock](products/go-stock) — AI股票分析工具
-- [patterns/ai-wealth-creation](patterns/ai-wealth-creation) — AI创富模式
+- [products/go-stock](products/go-stock) — AI 股票分析工具
+- [patterns/ai-wealth-creation](patterns/ai-wealth-creation) — AI 创富模式
 
 ## Sources
 

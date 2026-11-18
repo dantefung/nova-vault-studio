@@ -31,8 +31,8 @@ graph TD
 - [chartdb](https://github.com/chartdb/chartdb)
 > Open-source database diagrams editor 
 
-**obsidian魔改插件:**
+**obsidian 魔改插件：**
 `示例程序`
--  [obsidian-excalidraw-example-vault](https://github.com/Bowen-0x00/obsidian-excalidraw-example-vault)
+- [obsidian-excalidraw-example-vault](https://github.com/Bowen-0x00/obsidian-excalidraw-example-vault)
 - [obsidian-excalidraw-scripts](https://github.com/Bowen-0x00/obsidian-excalidraw-scripts)
 - [obsidian-excalidraw-plugin-ymjr](https://github.com/Bowen-0x00/obsidian-excalidraw-plugin-ymjr)

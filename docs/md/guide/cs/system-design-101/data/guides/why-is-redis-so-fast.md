@@ -15,8 +15,8 @@ tags:
 
 There are 3 main reasons as shown in the diagram above.
 
-*   Redis is a RAM-based database. RAM access is at least 1000 times faster than random disk access.
+* Redis is a RAM-based database. RAM access is at least 1000 times faster than random disk access.
 
-*   Redis leverages IO multiplexing and single-threaded execution loop for execution efficiency.
+* Redis leverages IO multiplexing and single-threaded execution loop for execution efficiency.
 
-*   Redis leverages several efficient lower-level data structures.
+* Redis leverages several efficient lower-level data structures.

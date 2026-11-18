@@ -15,38 +15,38 @@ tags:
 
 ## 1. Google
 
-*   Kubernetes
-*   TensorFlow
-*   Go
-*   Angular
+* Kubernetes
+* TensorFlow
+* Go
+* Angular
 
 ## 2. Meta
 
-*   React
-*   PyTorch
-*   GraphQL
-*   Cassandra
+* React
+* PyTorch
+* GraphQL
+* Cassandra
 
 ## 3. Microsoft
 
-*   VSCode
-*   TypeScript
-*   Playwright
+* VSCode
+* TypeScript
+* Playwright
 
 ## 4. Netflix
 
-*   Chaos Monkey
-*   Hystrix
-*   Zuul
+* Chaos Monkey
+* Hystrix
+* Zuul
 
 ## 5. LinkedIn
 
-*   Kafka
-*   Samza
-*   Pinot
+* Kafka
+* Samza
+* Pinot
 
 ## 6. RedHat
 
-*   Ansible
-*   OpenShift
-*   Ceph Storage
+* Ansible
+* OpenShift
+* Ceph Storage

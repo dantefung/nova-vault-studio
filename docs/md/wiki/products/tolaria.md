@@ -3,7 +3,7 @@ title: "Tolaria（Markdown知识库桌面管理）"
 date: "2026-06-11"
 ---
 
-# Tolaria（Markdown知识库桌面管理）
+# Tolaria（Markdown 知识库桌面管理）
 
 > Desktop app to manage markdown knowledge bases. Files-first, Git-first, AI-first but not AI-only, Keyboard-first.
 
@@ -42,7 +42,7 @@ https://refactoringhq.github.io/tolaria/download/
 ## Related Pages
 
 - [concepts/llm-wiki](concepts/llm-wiki) — LLM Wiki 知识库模式
-- [patterns/personal-ai-infrastructure](patterns/personal-ai-infrastructure) — 个人AI基础设施
+- [patterns/personal-ai-infrastructure](patterns/personal-ai-infrastructure) — 个人 AI 基础设施
 
 ## Sources
 

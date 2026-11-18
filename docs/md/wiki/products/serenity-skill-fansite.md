@@ -44,7 +44,7 @@ humanoid 机器人供应链里谁是下一个 $AXTI？
 
 ## Related Pages
 
-- [concepts/serenity-investment-methodology](concepts/serenity-investment-methodology) — Serenity投资方法论
+- [concepts/serenity-investment-methodology](concepts/serenity-investment-methodology) — Serenity 投资方法论
 
 ## Sources
 

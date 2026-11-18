@@ -1,7 +1,7 @@
 
-# Windows 环境Git bash 安装ZSH
+# Windows 环境 Git bash 安装 ZSH
 
-- [Windows安装Zsh终端](https://zhuanlan.zhihu.com/p/625583037)
+- [Windows 安装 Zsh 终端](https://zhuanlan.zhihu.com/p/625583037)
 
 
 共 4394 字阅读需 9 分钟
@@ -12,13 +12,13 @@
 
 本文以 `Windows Terminal`为例，也就是 `Windows 11` 中的 `终端`，`Windows 10` 没有的话，可以去应用商店搜索并下载。但这并不是必须的，你使用 `Git Bash` 也是可以的。
 
-本文所用到软件和字体文件，建议大家从文中提供的官网地址进行下载，以保证版本的时效性。由于网络原因，一些无法访问外网的小伙伴，笔者帮大家打包好了一份，方便大家下载（软件打包时间为2023-04-26，请注意使用时间）：
+本文所用到软件和字体文件，建议大家从文中提供的官网地址进行下载，以保证版本的时效性。由于网络原因，一些无法访问外网的小伙伴，笔者帮大家打包好了一份，方便大家下载（软件打包时间为 2023-04-26，请注意使用时间）：
 
 [软件与字体打包下载地址](https://luwnto.lanzoum.com/b00wxp55g) 密码：4p54
 
 ### 安装 git bash
 
-下载 [windows版本git](https://git-scm.com/download/win)，一般来说，下载64位版本：
+下载 [windows 版本 git](https://git-scm.com/download/win)，一般来说，下载64位版本：
 
 ![](https://pic3.zhimg.com/v2-4e193fe1654750705a9512e9ef0f0206_r.jpg)
 
@@ -122,7 +122,7 @@
 
 ### 配置主题
 
-`Oh My Zsh` 安装默之后，默认使用主题是 `robbyrussell`，可以修改 `.zshrc` 配置中的 `ZSH_THEME` 字段，所有可用主题可参考[ohmyzsh官方文档](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)，这里先配置一下我个人比较喜欢的主题：
+`Oh My Zsh` 安装默之后，默认使用主题是 `robbyrussell`，可以修改 `.zshrc` 配置中的 `ZSH_THEME` 字段，所有可用主题可参考[ohmyzsh 官方文档](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)，这里先配置一下我个人比较喜欢的主题：
 
 ![](https://pic4.zhimg.com/v2-4d0cdea08d548a661d7b6944522a8c09_r.jpg)
 
@@ -156,7 +156,7 @@
 
 ![](https://pic3.zhimg.com/v2-c8fac3d2eee00ad252b1511350bf63f8_r.jpg)
 
-如果你不喜欢提示默认的浅灰色，可以在 `~/.zshrc` 中修改（没有配置项就添加），更多配置可以参考[zsh-autosuggestions官方文档](https://link.zhihu.com/?target=https%3A//github.com/zsh-users/zsh-autosuggestions%23suggestion-highlight-style)：
+如果你不喜欢提示默认的浅灰色，可以在 `~/.zshrc` 中修改（没有配置项就添加），更多配置可以参考[zsh-autosuggestions 官方文档](https://link.zhihu.com/?target=https%3A//github.com/zsh-users/zsh-autosuggestions%23suggestion-highlight-style)：
 
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#9fc5e8"
 
@@ -244,6 +244,6 @@
 
 ![](https://picx.zhimg.com/v2-4d8c454218c3f1651116df86440e1041_r.jpg)
 
-更多配置，可以参考[官方GitHub](https://github.com/romkatv/powerlevel10k)
+更多配置，可以参考[官方 GitHub](https://github.com/romkatv/powerlevel10k)
 
 End \~

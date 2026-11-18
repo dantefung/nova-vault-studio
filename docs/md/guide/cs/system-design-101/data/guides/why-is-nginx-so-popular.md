@@ -21,7 +21,7 @@ The master process is responsible for reading the configuration and managing wor
 
 Due to its architecture, Nginx excels in supporting multiple features such as:
 
-*   **High-Performance Web Server**
-*   **Reverse Proxy and Load Balancing**
-*   **Content Cache**
-*   **SSL Termination**
+* **High-Performance Web Server**
+* **Reverse Proxy and Load Balancing**
+* **Content Cache**
+* **SSL Termination**

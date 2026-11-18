@@ -11,7 +11,7 @@ url: "https://x.com/dannykkg/status/2099996899898208405"
 
 # 小白从零学习 Sandbox
 
-最近，因为coding agent, harness agent的发展，“Sandbox”这个词出现得越来越频繁。
+最近，因为 coding agent, harness agent 的发展，“Sandbox”这个词出现得越来越频繁。
 
 它听起来很技术，但核心并不复杂：
 

@@ -53,7 +53,7 @@ Anthropic 在峰会上公开拆解的架构演进，本质上就是从「静态�
 
 我们不能寄希望于大模型突然变聪明来拯救糟糕的系统设计，而是要用确定性的管道架构去包容大模型天生存在的概率波动。
 
-> "宁可用确定的管道约束概率的波动，也不用失控的自由赌脆弱的成功。"
+> “宁可用确定的管道约束概率的波动，也不用失控的自由赌脆弱的成功。"
 
 ## 工程师的算账逻辑：在失控之前做减法
 
@@ -75,4 +75,4 @@ Anthropic 在峰会上公开拆解的架构演进，本质上就是从「静态�
 
 ## Sources
 
-- 孟健《Anthropic：为何Unix哲学才是Agent协作终局？》：mp.weixin.qq.com/s/S5GPbFCrNRjocF53-gnFvQ
+- 孟健《Anthropic：为何 Unix 哲学才是 Agent 协作终局？》：mp.weixin.qq.com/s/S5GPbFCrNRjocF53-gnFvQ

@@ -9,18 +9,18 @@ URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.
 Markdown Content:
 本页目录
 
-*   [核心概念](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5 "核心概念")
-*   [文件架构](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#%E6%96%87%E4%BB%B6%E6%9E%B6%E6%9E%84 "文件架构")
-    *   [memdir.ts — 核心模块](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#memdir-ts-%E2%80%94-%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97 "memdir.ts — 核心模块")
-    *   [paths.ts — 路径解析](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#paths-ts-%E2%80%94-%E8%B7%AF%E5%BE%84%E8%A7%A3%E6%9E%90 "paths.ts — 路径解析")
-    *   [memoryTypes.ts — 四类记忆](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#memorytypes-ts-%E2%80%94-%E5%9B%9B%E7%B1%BB%E8%AE%B0%E5%BF%86 "memoryTypes.ts — 四类记忆")
-    *   [memoryScan.ts — 记忆扫描](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#memoryscan-ts-%E2%80%94-%E8%AE%B0%E5%BF%86%E6%89%AB%E6%8F%8F "memoryScan.ts — 记忆扫描")
-    *   [findRelevantMemories.ts — AI 检索](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#findrelevantmemories-ts-%E2%80%94-ai-%E6%A3%80%E7%B4%A2 "findRelevantMemories.ts — AI 检索")
-    *   [memoryAge.ts — 新鲜度计算](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#memoryage-ts-%E2%80%94-%E6%96%B0%E9%B2%9C%E5%BA%A6%E8%AE%A1%E7%AE%97 "memoryAge.ts — 新鲜度计算")
-    *   [teamMemPaths.ts — 团队记忆](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#teammempaths-ts-%E2%80%94-%E5%9B%A2%E9%98%9F%E8%AE%B0%E5%BF%86 "teamMemPaths.ts — 团队记忆")
-    *   [teamMemPrompts.ts — 团队记忆提示](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#teammemprompts-ts-%E2%80%94-%E5%9B%A2%E9%98%9F%E8%AE%B0%E5%BF%86%E6%8F%90%E7%A4%BA "teamMemPrompts.ts — 团队记忆提示")
+* [核心概念](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5 “核心概念”)
+* [文件架构](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#%E6%96%87%E4%BB%B6%E6%9E%B6%E6%9E%84 “文件架构”)
+    * [memdir.ts — 核心模块](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#memdir-ts-%E2%80%94-%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97 "memdir.ts — 核心模块“)
+    * [paths.ts — 路径解析](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#paths-ts-%E2%80%94-%E8%B7%AF%E5%BE%84%E8%A7%A3%E6%9E%90 "paths.ts — 路径解析”)
+    * [memoryTypes.ts — 四类记忆](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#memorytypes-ts-%E2%80%94-%E5%9B%9B%E7%B1%BB%E8%AE%B0%E5%BF%86 "memoryTypes.ts — 四类记忆“)
+    * [memoryScan.ts — 记忆扫描](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#memoryscan-ts-%E2%80%94-%E8%AE%B0%E5%BF%86%E6%89%AB%E6%8F%8F "memoryScan.ts — 记忆扫描”)
+    * [findRelevantMemories.ts — AI 检索](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#findrelevantmemories-ts-%E2%80%94-ai-%E6%A3%80%E7%B4%A2 "findRelevantMemories.ts — AI 检索“)
+    * [memoryAge.ts — 新鲜度计算](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#memoryage-ts-%E2%80%94-%E6%96%B0%E9%B2%9C%E5%BA%A6%E8%AE%A1%E7%AE%97 "memoryAge.ts — 新鲜度计算”)
+    * [teamMemPaths.ts — 团队记忆](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#teammempaths-ts-%E2%80%94-%E5%9B%A2%E9%98%9F%E8%AE%B0%E5%BF%86 "teamMemPaths.ts — 团队记忆“)
+    * [teamMemPrompts.ts — 团队记忆提示](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#teammemprompts-ts-%E2%80%94-%E5%9B%A2%E9%98%9F%E8%AE%B0%E5%BF%86%E6%8F%90%E7%A4%BA "teamMemPrompts.ts — 团队记忆提示”)
 
-*   [安全防护](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4 "安全防护")
+* [安全防护](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4 “安全防护”)
 
 `src/memdir/` 包含 **8 个文件**，实现了 Claude Code 的持久记忆系统。
 
@@ -254,7 +254,7 @@ function buildCombinedMemoryPrompt(
 
 ## 安全防护 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/memdir.html#%E5%AE%89%E5%85%A8%E9%98%B2%E6%8A%A4)
 
-*   **路径遍历防护**: `sanitizePathKey()` 拒绝 `../`、null 字节、Unicode 攻击
-*   **符号链接安全**: `PathTraversalError` 阻止符号链接跟踪
-*   **大小限制**: 200 行 / 25KB 入口点截断，200 文件上限
-*   **特性门控**: 团队记忆需要独立的特性门控
+* **路径遍历防护**: `sanitizePathKey()` 拒绝 `../`、null 字节、Unicode 攻击
+* **符号链接安全**: `PathTraversalError` 阻止符号链接跟踪
+* **大小限制**: 200 行 / 25KB 入口点截断，200 文件上限
+* **特性门控**: 团队记忆需要独立的特性门控

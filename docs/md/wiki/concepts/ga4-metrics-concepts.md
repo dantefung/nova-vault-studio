@@ -32,11 +32,11 @@ url: "https://mp.weixin.qq.com/s/6tTeXyTIul2hrC1rHuohuQ"
 | 转化率（Conversion Rate） | 完成转化事件的用户数 / 总用户数 | 评估渠道质量 |
 | 平均订单价值（AOV） | 总收入 / 订单数 | 评估用户消费能力 |
 | 用户生命周期价值（LTV） | 用户在生命周期内产生的总收入 | 评估渠道长期价值 |
-| 留存率（Retention Rate） | N天后仍活跃的用户占比 | 评估产品粘性 |
+| 留存率（Retention Rate） | N 天后仍活跃的用户占比 | 评估产品粘性 |
 
 ## Related Pages
 - [[concepts/ga4-exploration-reports]]
 - [[concepts/ga4-segment-vs-comparison]]
 
 ## Sources
-- 公众号：Haran，《GA4探索报告完整指南》，2026-09-10
+- 公众号：Haran，《GA4 探索报告完整指南》，2026-09-10

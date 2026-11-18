@@ -16,7 +16,7 @@ url: "https://mp.weixin.qq.com/s/wKUkyhnIURwLvxtCuHKYqA"
 
 
 
-总结，访问网站、手机App等其实本质上就是：一台设备向对应的服务商的服务器要数据。
+总结，访问网站、手机 App 等其实本质上就是：一台设备向对应的服务商的服务器要数据。
 
 
 

@@ -40,13 +40,13 @@ graph TD
 
 为了帮助大家理解我还画了两张图，这套提示词由四个部分组成：
 
-*   角色设定（绿色）：主要设定 AI 的角色和主要任务；
+* 角色设定（绿色）：主要设定 AI 的角色和主要任务；
     
-*   基本要求（黄色）：这部分基本是约束画面比例和跟风格无关的排版的，我找了很多优质封面图总结了他们的共性放在了这里。
+* 基本要求（黄色）：这部分基本是约束画面比例和跟风格无关的排版的，我找了很多优质封面图总结了他们的共性放在了这里。
     
-*   风格要求（紫色）：这部分是整套提示词的精华部分，两套提示词这部分是共享的，也就是说你探索出来的风格提示词两个封面都可以用，而且后面比如我们有了 youtube 视频封面这种的时候，风格提示词依然可以共用。
+* 风格要求（紫色）：这部分是整套提示词的精华部分，两套提示词这部分是共享的，也就是说你探索出来的风格提示词两个封面都可以用，而且后面比如我们有了 youtube 视频封面这种的时候，风格提示词依然可以共用。
     
-*   用户输入内容（红色）：这部分就是你需要输入的内容，可以不按字数输入，AI 会帮你优化到合适的字数，如果有背景图和素材图也可以把链接放在这里，AI 会帮你放到封面里面。
+* 用户输入内容（红色）：这部分就是你需要输入的内容，可以不按字数输入，AI 会帮你优化到合适的字数，如果有背景图和素材图也可以把链接放在这里，AI 会帮你放到封面里面。
     
 
 ![][img-2]
@@ -130,27 +130,27 @@ graph TD
 
 ```
 
-如果你觉得你探索的风格和结果不错也可以填写一下这个表单分享给大家：**https://go1coya2a7.feishu.cn/share/base/form/shrcn8PiYwUHyqh37XZKo0uutFF  
+如果你觉得你探索的风格和结果不错也可以填写一下这个表单分享给大家：**https://go1coya2a7.feishu.cn/share/base/form/shrcn8PiYwUHyqh37XZKo0uutFF 
 **
 
-也可以在这里查看其他人填写的风格提示词：**https://go1coya2a7.feishu.cn/base/DY4wbU9U6a1rESsO2B2cfMfvnme?from=from_copylink  
+也可以在这里查看其他人填写的风格提示词：**https://go1coya2a7.feishu.cn/base/DY4wbU9U6a1rESsO2B2cfMfvnme?from=from_copylink 
 **
 
 **这次的提示词真是很难搞，老说产品化方案，这下真是产品化方案了各位，要是产品化赚钱了别忘了藏师傅。**
 
 最后贴一下最近朋友们的提示词玩法，有需求的可以看看：
 
-歸藏：[  
-](https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247487756&idx=1&sn=7855c80ee6e4dae521081745de90e95d&scene=21#wechat_redirect "为了让大家一键生成更漂亮的可视化网页，我写了个工具！")[为了让大家一键生成更漂亮的可视化网页，我写了个工具！](https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247487756&idx=1&sn=7855c80ee6e4dae521081745de90e95d&scene=21#wechat_redirect)
+歸藏：[ 
+](https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247487756&idx=1&sn=7855c80ee6e4dae521081745de90e95d&scene=21#wechat_redirect “为了让大家一键生成更漂亮的可视化网页，我写了个工具！")[为了让大家一键生成更漂亮的可视化网页，我写了个工具！](https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247487756&idx=1&sn=7855c80ee6e4dae521081745de90e95d&scene=21#wechat_redirect)
 
-向阳乔木：[  
-](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442418&idx=1&sn=136b9127aa26b6a40a5e27efac226dbd&scene=21#wechat_redirect "一个提示词生成29种排版风格，秒杀80%人水平，附在线免费用网址")[一个提示词生成 29 种排版风格，秒杀 80% 人水平，附在线免费用网址](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442418&idx=1&sn=136b9127aa26b6a40a5e27efac226dbd&scene=21#wechat_redirect)
+向阳乔木：[ 
+](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442418&idx=1&sn=136b9127aa26b6a40a5e27efac226dbd&scene=21#wechat_redirect ”一个提示词生成 29 种排版风格，秒杀 80%人水平，附在线免费用网址“)[一个提示词生成 29 种排版风格，秒杀 80% 人水平，附在线免费用网址](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442418&idx=1&sn=136b9127aa26b6a40a5e27efac226dbd&scene=21#wechat_redirect)
 
-汉青：[  
-](https://mp.weixin.qq.com/s?__biz=Mzg5NTg0MzYxNw==&mid=2247484699&idx=1&sn=ee632befac2cd5dbf68267a8808f549f&scene=21#wechat_redirect "信息的AI可视化（1）：AI生成动态PPT的步骤分享")[信息的 AI 可视化（1）：AI 生成动态 PPT 的步骤分享](https://mp.weixin.qq.com/s?__biz=Mzg5NTg0MzYxNw==&mid=2247484699&idx=1&sn=ee632befac2cd5dbf68267a8808f549f&scene=21#wechat_redirect)
+汉青：[ 
+](https://mp.weixin.qq.com/s?__biz=Mzg5NTg0MzYxNw==&mid=2247484699&idx=1&sn=ee632befac2cd5dbf68267a8808f549f&scene=21#wechat_redirect ”信息的 AI 可视化（1）：AI 生成动态 PPT 的步骤分享“)[信息的 AI 可视化（1）：AI 生成动态 PPT 的步骤分享](https://mp.weixin.qq.com/s?__biz=Mzg5NTg0MzYxNw==&mid=2247484699&idx=1&sn=ee632befac2cd5dbf68267a8808f549f&scene=21#wechat_redirect)
 
-orange.ai：[教程：](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect)[  
-](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect "用 Figma 和 AI ，解锁文字卡片自由")[用 Figma 和 AI ，解锁文字卡片自由](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect)
+orange.ai：[教程：](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect)[ 
+](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect ”用 Figma 和 AI ，解锁文字卡片自由“)[用 Figma 和 AI ，解锁文字卡片自由](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect)
 
 **今天的教程就到这里了，后面全是风格的展示，如果觉得对你有帮助的话麻烦给个赞👍或者喜欢🩷**
 

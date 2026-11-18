@@ -13,12 +13,12 @@ Claude Code v2.1.88 是 Anthropic 官方开发的 AI 编程助手命令行工具
 
 Claude Code 是一个运行在终端内的交互式 AI 编程代理（Agentic Coding Assistant），核心能力包括：
 
-*   **对话式编程**：通过自然语言与 AI 协作完成代码编写、修改、调试
-*   **工具调用**：40+ 内置工具（文件读写、Bash 执行、搜索、Web 访问等）
-*   **MCP 扩展**：通过 Model Context Protocol 接入外部工具服务器
-*   **多模型支持**：Anthropic Direct、AWS Bedrock、Azure Foundry、Google Vertex AI
-*   **远程协作**：Bridge 协议实现 claude.ai Web 端与 CLI 端的双向通信
-*   **企业级功能**：团队记忆、策略限制、远程托管设置、SSO 认证
+* **对话式编程**：通过自然语言与 AI 协作完成代码编写、修改、调试
+* **工具调用**：40+ 内置工具（文件读写、Bash 执行、搜索、Web 访问等）
+* **MCP 扩展**：通过 Model Context Protocol 接入外部工具服务器
+* **多模型支持**：Anthropic Direct、AWS Bedrock、Azure Foundry、Google Vertex AI
+* **远程协作**：Bridge 协议实现 claude.ai Web 端与 CLI 端的双向通信
+* **企业级功能**：团队记忆、策略限制、远程托管设置、SSO 认证
 
 技术栈总览 [​](#技术栈总览)
 -----------------

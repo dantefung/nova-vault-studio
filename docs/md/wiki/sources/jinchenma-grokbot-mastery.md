@@ -349,4 +349,4 @@ Grok Bot 目前还处于 Beta 阶段，里面的一些功能和操作流程可�
 
 最终真正实现 Human in the loop。
 
-金尘马｜大厂程序员｜30天X破万粉变现过万｜持续分享 AI 搞钱、程序员转型、OPC 心得｜联系方式见主页介绍：[[https://x.com/jinchenma\_ai](https://x.com/jinchenma_ai)](https://x.com/jinchenma_ai)
+金尘马｜大厂程序员｜30 天 X 破万粉变现过万｜持续分享 AI 搞钱、程序员转型、OPC 心得｜联系方式见主页介绍：[[https://x.com/jinchenma\_ai](https://x.com/jinchenma_ai)](https://x.com/jinchenma_ai)

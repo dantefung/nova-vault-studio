@@ -55,7 +55,7 @@ Markdown Content:
 | `toolUseSummary/` | — | 工具使用摘要 |
 | `SessionMemory/` | 3 | 会话记忆 |
 
-**顶层文件 (16个):**`awaySummary.ts`, `claudeAiLimits.ts`, `voice.ts`, `vcr.ts`, `tokenEstimation.ts`, `notifier.ts`, `preventSleep.ts`, `diagnosticTracking.ts` 等
+**顶层文件 (16 个):**`awaySummary.ts`, `claudeAiLimits.ts`, `voice.ts`, `vcr.ts`, `tokenEstimation.ts`, `notifier.ts`, `preventSleep.ts`, `diagnosticTracking.ts` 等
 
 ## 服务生命周期 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/#%E6%9C%8D%E5%8A%A1%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F)
 

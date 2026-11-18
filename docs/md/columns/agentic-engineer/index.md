@@ -49,7 +49,7 @@ source: "原创"
 | [Prompt → Context → Harness 三次进化](./other-tools/prompt-context-harness-evolution.md) | 工程进化论 |
 | [淘天生码工作流最佳实践](./other-tools/taobao-code-generation-workflow.md) | AI 生码全流程案例 |
 | [多 Agent 协作冲突的血泪教训与解决方案](./multi-agent-collision/) | 主管理者+Worker 权限分离、浏览器锁、习惯闭环 |
-| [本体论 vs MCP：Agent 架构中"接口"与"链接"的边界](./ontology-vs-mcp-juepen-crm-s2e7.md) | 嘴喷CRM S2E7，三层递进：MCP→语义封装→本体论；接口是点，链接是边 |
+| [本体论 vs MCP：Agent 架构中“接口”与“链接”的边界](./ontology-vs-mcp-juepen-crm-s2e7.md) | 嘴喷 CRM S2E7，三层递进：MCP→语义封装→本体论；接口是点，链接是边 |
 | [Anthropic 官方指南：AI Native 开发手册](./anthropic-ai-native-sdlc-playbook.md) | AI 原生 SDLC 六阶段 Play（intent.md→spec.md→plan.md→PR→事故），CLAUDE.md + Skills + Hooks 三层护栏 |
 | [多 Agent 系统的模式与问题——Anthropic 实证研究](./anthropic-multiagent-systems.md) | 4 类系统性失败：协调/一致性/认知/目标冲突，7 个实验，核心结论：协调不会自然涌现 |
 | [若飞：代码越来越快，架构工作变在哪里](./ai-eng-skills/ruofei-ai-eng-skills.md) | 从吴恩达 AI 工程技能图谱看：代码生成变快，架构决定反而更密集；身份模型、数据边界、安全可靠性是核心取舍 |
@@ -59,7 +59,7 @@ source: "原创"
 | [玄姐：从 Loop 到 Graph](./ai-eng-skills/xuanjie-loop-to-graph.md) | Loop 到 Graph 的工程架构设计，让 AI Agent 落地的架构实践 |
 | [术哥：Agent 给自己写外挂](./ai-eng-skills/shugex-agent-self-external.md) | DeepSeek Harness 七枚工具：cordis_inspect_list/query/define/run/stop/undefine，防错不防坏，Agent 自主写外挂实战 |
 | [GSD Core 专栏：Spec-Driven 与上下文工程架构](./gsd-core/) | 反上下文腐化架构、The Phase Loop 状态机闭环、Worktree 并发隔离、72 技能全景图谱 |
-| [深度长文｜2026产品经理AI实践手册](./2026-product-manager-ai-handbook/) | 从需求定义到上线的完整流程拆解，三大心法与项目初始化实践 |
+| [深度长文｜2026 产品经理 AI 实践手册](./2026-product-manager-ai-handbook/) | 从需求定义到上线的完整流程拆解，三大心法与项目初始化实践 |
 | [超详细 Codex 上手教程，从入门到精通](./codex-tutorial/) | OpenAI 生态概念、CLI 终端命令、AGENTS.md 配置与问题答疑 |
 | [Codex Desktop 完整系统提示词深度拆解](./codex-desktop-system-prompt/) | 6 个核心设计哲学分析 + 1903 行系统提示词全量中文对照 |
 | [阿里云 AgentCore 架构解析：企业级 Agent 生产化与治理平台](./aliyun-agentcore-enterprise-architecture.md) | 云栖大会分享：四大生产化转变、三层 Judge 评测、AgentLoop 观测、多模式协同与 Skill 资产沉淀 |

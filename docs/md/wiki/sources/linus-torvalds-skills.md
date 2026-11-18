@@ -15,10 +15,10 @@ url: "https://github.com/bingshuoguo/linus-torvalds-skills"
 
 LLM coding agent 常犯的毛病：
 
-- 设计技术方案时围绕"想象中未来的需求"
+- 设计技术方案时围绕“想象中未来的需求”
 - 写 spec 和 plan 时隐藏不清晰的数据所有权或兼容性风险
 - 用分支处理问题而不是修复数据结构
-- 为"假想的未来需求"过度工程化
+- 为“假想的未来需求”过度工程化
 - 为实现细节写测试而不是真实行为
 - 重构无关代码却忽略兼容性风险
 - 偏好理论清洁而非已有用户
@@ -82,4 +82,4 @@ LLM coding agent 常犯的毛病：
 
 ## 关联
 
-与 [[oh-my-claudecode]] 同属 Claude Code 超集工作流框架，但 linus-torvalds-skills 专注于**工程品味**——用 Linus 的工程哲学（Linus 才是真正的-engineer 而不是 manager）给 AI 装上"好品味"透镜。
+与 [[oh-my-claudecode]] 同属 Claude Code 超集工作流框架，但 linus-torvalds-skills 专注于**工程品味**——用 Linus 的工程哲学（Linus 才是真正的-engineer 而不是 manager）给 AI 装上“好品味”透镜。

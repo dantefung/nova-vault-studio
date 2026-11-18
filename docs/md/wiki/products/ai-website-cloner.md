@@ -3,7 +3,7 @@ title: "AI Website Cloner（网站克隆为Next.js）"
 date: "2026-06-11"
 ---
 
-# AI Website Cloner（网站克隆为Next.js）
+# AI Website Cloner（网站克隆为 Next.js）
 
 > Clone any website with one command using AI coding agents. 输入网站链接，AI 自动分析页面结构、布局设计、文案模块、交互逻辑，生成相似风格的 Next.js 网站模板。
 
@@ -11,7 +11,7 @@ date: "2026-06-11"
 
 - **核心定位**：将任意网站逆工程为干净、现代的 Next.js 代码库
 - **推荐**：Claude Code + Opus 4.7
-- **支持13+ 平台**：Claude Code、Codex CLI、OpenCode、GitHub Copilot、Cursor、Windsurf、Gemini CLI、Cline、Roo Code、Continue、Amazon Q、Augment Code、Aider
+- **支持 13+ 平台**：Claude Code、Codex CLI、OpenCode、GitHub Copilot、Cursor、Windsurf、Gemini CLI、Cline、Roo Code、Continue、Amazon Q、Augment Code、Aider
 
 ## 工作流程
 

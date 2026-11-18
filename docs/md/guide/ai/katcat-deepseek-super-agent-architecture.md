@@ -8,9 +8,9 @@ url: "https://x.com/katcat_AI/status/2116724336128381145"
 
 # DeepSeek Super-agent 技术拆解：从写代码，到持续接活
 
-> **作者**：@katcat_AI  
-> **原文链接**：https://x.com/katcat_AI/status/2116724336128381145  
-> **发布日期**：2026-11-01  
+> **作者**：@katcat_AI 
+> **原文链接**：https://x.com/katcat_AI/status/2116724336128381145 
+> **发布日期**：2026-11-01 
 
 ---
 

@@ -21,8 +21,8 @@ Option 2: Store URLs in a database and check if a new URL is in the database. Th
 
 This option is preferred. Bloom filter was proposed by Burton Howard Bloom in 1970. It is a probabilistic data structure that is used to test whether an element is a member of a set.
 
-*   false: the element is definitely not in the set.
-*   true: the element is probably in the set.
+* false: the element is definitely not in the set.
+* true: the element is probably in the set.
 
 False-positive matches are possible, but false negatives are not.
 

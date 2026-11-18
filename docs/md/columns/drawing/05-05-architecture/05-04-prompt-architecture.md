@@ -66,9 +66,9 @@ Artifacts 是在问答的基础上，加了一个可交互的窗口，可以查�
 
 了解了模型的能力，我们就不难理解，现在 Prompt 的价值因 Claude 能力提升而达到了一个新的高度：
 
-*   上一阶段的 prompt：提示词⇒内容⇒回答
+* 上一阶段的 prompt：提示词⇒内容⇒回答
     
-*   这一阶段的 prompt：提示词⇒内容 + 代码⇒可视化表达
+* 这一阶段的 prompt：提示词⇒内容 + 代码⇒可视化表达
     
 
 这一阶段的 Prompt 的应用场景不再把 AI 生成能力当做 copilot 而是真正的产品，之前生成的内容都是被复制到文档、代码、设计工具中，现在可以直接生成**可交付的成品**。真做到**一段文字描述就是一个产品 / 服务**。
@@ -89,11 +89,11 @@ Artifacts 是在问答的基础上，加了一个可交互的窗口，可以查�
 
 下面就是架构图的 Prompt，制作这个大概花费 2-3 小时时间，步骤就是
 
-1.  **让 AI 生成 自己想要的内容**
+1. **让 AI 生成 自己想要的内容**
     
-2.  **让 AI 制作 svg 框架**
+2. **让 AI 制作 svg 框架**
     
-3.  **把步骤 1 生成的内容填进步骤 2**
+3. **把步骤 1 生成的内容填进步骤 2**
     
 
 ```
@@ -194,13 +194,13 @@ Artifacts 是在问答的基础上，加了一个可交互的窗口，可以查�
 
 [使用 Cursor，人人都是程序员](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247488009&idx=1&sn=482c9b693d8ee004dd3a9b57ce461430&chksm=c11d5316f66ada00f488a526d2d3c26a18607cdbeaee076e73f655d9fd61e637a08cf940de38&scene=21#wechat_redirect)
 
-[模型 API 才是打开 AI 的最佳方式](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487907&idx=1&sn=df83cacf3aec652eaff4a31095411623&chksm=c11d50bcf66ad9aa96b3b1af318ee5f39b598e61047c2af197b800e0aa5f4b10920618d6fe72&scene=21#wechat_redirect)  
+[模型 API 才是打开 AI 的最佳方式](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487907&idx=1&sn=df83cacf3aec652eaff4a31095411623&chksm=c11d50bcf66ad9aa96b3b1af318ee5f39b598e61047c2af197b800e0aa5f4b10920618d6fe72&scene=21#wechat_redirect) 
 
-[新手友好的 AI 学习指南](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487929&idx=1&sn=0635372611b0a7fbfa1962e9f99c360d&chksm=c11d50a6f66ad9b072a591c3a38356ea4ea0130ee919517ff9cac413de12360037ffd56037df&scene=21#wechat_redirect)  
+[新手友好的 AI 学习指南](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487929&idx=1&sn=0635372611b0a7fbfa1962e9f99c360d&chksm=c11d50a6f66ad9b072a591c3a38356ea4ea0130ee919517ff9cac413de12360037ffd56037df&scene=21#wechat_redirect) 
 
 [AI 绘画不是创作，只是工具](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487662&idx=1&sn=2258744bde12a2f8976d44dd1323900e&chksm=c11d51b1f66ad8a76ec0c49b6f2143e56fab4d4f3a46ac9dfa5f1edfe88e3a118057197c14c6&scene=21#wechat_redirect)
 
-[AI 产品的五种交互模式](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487693&idx=1&sn=8d2b3801005db4de5e7feeaea200513f&chksm=c11d51d2f66ad8c4c7cbf72187cd67d9a9a6fa45703c85b82654d79e8e987c013507485fabf3&scene=21#wechat_redirect)  
+[AI 产品的五种交互模式](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487693&idx=1&sn=8d2b3801005db4de5e7feeaea200513f&chksm=c11d51d2f66ad8c4c7cbf72187cd67d9a9a6fa45703c85b82654d79e8e987c013507485fabf3&scene=21#wechat_redirect) 
 
 [AI 产品经理的五种定义](http://mp.weixin.qq.com/s?__biz=MzkxMTQ0ODE3Ng==&mid=2247487548&idx=1&sn=c9e43098855a9e3229c13b9454a03e15&chksm=c11d5123f66ad835e6e8fbe87afaabf88dd5182cf5da2274110149125c661a3f897f8559d591&scene=21#wechat_redirect)
 

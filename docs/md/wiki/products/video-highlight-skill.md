@@ -3,7 +3,7 @@ title: "Video Highlight（AI视频高光剪辑）"
 date: "2026-06-11"
 ---
 
-# Video Highlight（AI视频高光剪辑）
+# Video Highlight（AI 视频高光剪辑）
 
 > AI video highlight skill for agents: analyze videos, cut clips with FFmpeg, export subtitles, and generate a shareable recap page.
 

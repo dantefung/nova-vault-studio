@@ -11,7 +11,7 @@ url: "https://github.com/imcuttle/flipbook-app"
 
 ## 核心创新
 
-传统"AI 生图"只停在单张图片。Flipbook Canvas 把每张图变成可玩的知识表面：
+传统“AI 生图”只停在单张图片。Flipbook Canvas 把每张图变成可玩的知识表面：
 
 长按任意位置 → 模型推断点击内容 → 判断是否需要联网搜索 → 生成带标注的子图。
 

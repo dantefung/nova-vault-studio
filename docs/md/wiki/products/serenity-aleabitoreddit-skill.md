@@ -3,14 +3,14 @@ title: "Serenity Aleabitoreddit Skill（WYP版本）"
 date: "2026-06-11"
 ---
 
-# Serenity Aleabitoreddit Skill（WYP版本）
+# Serenity Aleabitoreddit Skill（WYP 版本）
 
 > Serenity 卡点投资分析技能，从 1,965 条公开/镜像推文 + 5,582 条推文语料 + 4 篇 X 长文中蒸馏。
 
 ## Key Points
 
 - **Serenity 背景**：2026 年 YTD 回报自述 45 倍，40 万+ 粉丝，免费分享供应链研究
-- **核心方法**：沿着超大规模云厂商 capex → ASIC/GPU/TPU → 光通信 → 激光器 → 衬底 → 外延片 → 原材料 → 设备一路向上游追踪，寻找"小市值、低关注、但下游无法绕开的物理卡点"
+- **核心方法**：沿着超大规模云厂商 capex → ASIC/GPU/TPU → 光通信 → 激光器 → 衬底 → 外延片 → 原材料 → 设备一路向上游追踪，寻找“小市值、低关注、但下游无法绕开的物理卡点”
 
 ## 核心能力
 
@@ -34,7 +34,7 @@ npx skills add w-y-p/serenity-aleabitoreddit-skill -a codex -a claude-code -a cu
 
 ## Related Pages
 
-- [concepts/serenity-investment-methodology](concepts/serenity-investment-methodology) — Serenity投资方法论
+- [concepts/serenity-investment-methodology](concepts/serenity-investment-methodology) — Serenity 投资方法论
 - [patterns/serenity-stock-research](patterns/serenity-stock-research) — 供应链卡点投研
 
 ## Sources

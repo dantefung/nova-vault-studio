@@ -5,7 +5,7 @@ source: "若飞"
 url: "https://mp.weixin.qq.com/s/joyd7o0cCbiuIvoE0tsV8A"
 ---
 
-# 长程Agent训练九 best practices
+# 长程 Agent 训练九 best practices
 
 ## 核心问题
 
@@ -63,7 +63,7 @@ url: "https://mp.weixin.qq.com/s/joyd7o0cCbiuIvoE0tsV8A"
 
 验证器本身也需要测试。用故意破坏的实现攻击它，记录它漏掉了哪些错误，并给每次评估绑定验证器版本。
 
-候选 Harness 可以改声明过的可编辑表面，runs记录、tracer、verifier 和 LLM configuration 等关键部分保持只读。
+候选 Harness 可以改声明过的可编辑表面，runs 记录、tracer、verifier 和 LLM configuration 等关键部分保持只读。
 
 ### 实践七：先训练短而清楚的路，再逐步放长
 
@@ -73,7 +73,7 @@ ScalingInter-RL 的方法：先限制交互范围，等模型学会较短、较�
 
 三档：短轨迹（单工具）→ 中轨迹（诊断/尝试/修正）→ 长轨迹（跨工具/跨服务/跨时段）。
 
-### 实践八：吞吐提高后，要追踪轨迹的"年龄"
+### 实践八：吞吐提高后，要追踪轨迹的“年龄”
 
 AgentRL 把推理和训练拆成独立资源池，通过异步队列收集已完成轨迹。轨迹需要带上生成策略版本、环境版本、验证器版本和生成时间。
 
@@ -106,12 +106,12 @@ RAGEN-2 发现 Template Collapse：模型的输出仍然流畅，可推理越来
 
 ![image](../images/indie-hub-agentic-rl/001.webp)
 
-*图1：执行、学习与治理三个转速不同的循环*
+*图 1：执行、学习与治理三个转速不同的循环*
 
 ![image](../images/indie-hub-agentic-rl/002.webp)
 
-*图2：分层归因的训练路径*
+*图 2：分层归因的训练路径*
 
 ![image](../images/indie-hub-agentic-rl/003.webp)
 
-*图3：版本化工作现场到灰度发布*
+*图 3：版本化工作现场到灰度发布*

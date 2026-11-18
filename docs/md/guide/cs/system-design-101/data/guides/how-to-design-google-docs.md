@@ -25,8 +25,8 @@ tags:
 
 One of the biggest challenges is real-time conflict resolution. Common algorithms include:
 
-*   Operational transformation (OT)
-*   Differential Synchronization (DS)
-*   Conflict-free replicated data type (CRDT)
+* Operational transformation (OT)
+* Differential Synchronization (DS)
+* Conflict-free replicated data type (CRDT)
 
 Google Doc uses OT according to its Wikipedia page and CRDT is an active area of research for real-time concurrent editing.

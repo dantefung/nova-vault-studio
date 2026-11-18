@@ -28,10 +28,10 @@ const inputSchema = z.strictObject({
 
 ### 执行逻辑 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/search-tools.html#%E6%89%A7%E8%A1%8C%E9%80%BB%E8%BE%91)
 
-1.   解析输入的 `pattern` 和 `path`，默认以工作目录为起点
-2.   通过 `getFileReadIgnorePatterns(toolPermissionContext)` 获取忽略模式（基于 deny read 规则动态生成）
-3.   调用 `glob()` 函数，内部使用 ripgrep `--files --glob` 模式列举文件
-4.   结果限制为 100 个文件，超出时标记 truncated
+1. 解析输入的 `pattern` 和 `path`，默认以工作目录为起点
+2. 通过 `getFileReadIgnorePatterns(toolPermissionContext)` 获取忽略模式（基于 deny read 规则动态生成）
+3. 调用 `glob()` 函数，内部使用 ripgrep `--files --glob` 模式列举文件
+4. 结果限制为 100 个文件，超出时标记 truncated
 
 ### 忽略模式 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/search-tools.html#%E5%BF%BD%E7%95%A5%E6%A8%A1%E5%BC%8F)
 
@@ -71,10 +71,10 @@ const inputSchema = z.strictObject({
 
 ### 执行逻辑 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/search-tools.html#%E6%89%A7%E8%A1%8C%E9%80%BB%E8%BE%91-1)
 
-1.   解析输入的 `pattern`、`path`、`glob` 等参数
-2.   根据输入参数构建 ripgrep (`rg`) 命令参数
-3.   调用 `ripGrep()`（来自 `utils/ripgrep.ts`）执行搜索
-4.   返回格式化结果
+1. 解析输入的 `pattern`、`path`、`glob` 等参数
+2. 根据输入参数构建 ripgrep (`rg`) 命令参数
+3. 调用 `ripGrep()`（来自 `utils/ripgrep.ts`）执行搜索
+4. 返回格式化结果
 
 ### 输出格式 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/search-tools.html#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F)
 

@@ -19,11 +19,11 @@ The diagram shows how big keys impact Redis AOF (Append-Only-File) persistence.
 
 There are three modes when we turn on AOF persistence:
 
-*   Always - synchronously write data to the disk whenever there is a data update in memory.
+* Always - synchronously write data to the disk whenever there is a data update in memory.
 
-*   EverySec - write to the disk every second.
+* EverySec - write to the disk every second.
 
-*   No - Redis doesn’t control when the data is written to the disk. Instead, the operating system decides when the data is written to the disk.
+* No - Redis doesn’t control when the data is written to the disk. Instead, the operating system decides when the data is written to the disk.
 
 ## How do we analyze the impact of big keys?
 

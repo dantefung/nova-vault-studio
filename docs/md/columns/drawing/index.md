@@ -99,5 +99,5 @@ graph TD
 - [07-03 我的个人写作工具链](./07-07-tools/07-03-writing-tools.md) — 写作与绘图工具链
 - [07-04 画图提示词](./07-07-tools/07-04-drawing-prompts.md) — 常用绘图提示词模板
 - [07-05 源码阅读工具流程和方法论](./07-07-tools/07-05-source-code-tools.md) — 源码阅读工具
-- [07-06 还在用 PPT？教你用 Claude 生成惊艳同事的文档可视化网页](./07-07-tools/07-06-claude-visual网页.md) — Claude 可视化网页
+- [07-06 还在用 PPT？教你用 Claude 生成惊艳同事的文档可视化网页](./07-07-tools/07-06-claude-visual 网页.md) — Claude 可视化网页
 - [07-07 技术分享之工具推荐 Jeremy](./07-07-tools/07-07-jeremy-tools.md) — Jeremy 技术工具推荐

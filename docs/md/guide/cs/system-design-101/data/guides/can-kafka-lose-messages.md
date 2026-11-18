@@ -25,9 +25,9 @@ The diagram above shows how a message can be lost during its lifecycle in Kafka.
 
 When we call producer.send() to send a message, it doesn't get sent to the broker directly. There are two threads and a queue involved in the message-sending process:
 
-*   Application thread
-*   Record accumulator
-*   Sender thread (I/O thread)
+* Application thread
+* Record accumulator
+* Sender thread (I/O thread)
 
 We need to configure proper ‘acks’ and ‘retries’ for the producer to make sure messages are sent to the broker.
 
@@ -35,9 +35,9 @@ We need to configure proper ‘acks’ and ‘retries’ for the producer to mak
 
 A broker cluster should not lose messages when it is functioning normally. However, we need to understand which extreme situations might lead to message loss:
 
-*   The messages are usually flushed to the disk asynchronously for higher I/O throughput, so if the instance is down before the flush happens, the messages are lost.
+* The messages are usually flushed to the disk asynchronously for higher I/O throughput, so if the instance is down before the flush happens, the messages are lost.
 
-*   The replicas in the Kafka cluster need to be properly configured to hold a valid copy of the data. The determinism in data synchronization is important.
+* The replicas in the Kafka cluster need to be properly configured to hold a valid copy of the data. The determinism in data synchronization is important.
 
 ## Consumer
 

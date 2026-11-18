@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/Jiq7jTk347mLrTZrSOSafw"
 
 # Agent Sandbox｜智能体任务沙箱调研与选型
 
-> 如果说 2025 年的 Agent 基础设施关键词是 Tool、Memory、Skill 和 Harness，那么进入 2026 年后，一个越来越无法绕开的基础设施正在独立出来：**Agent Sandbox**。随着 Google AX、Agent Substrate 以及 DeepSeek DSec 相继公开，智能体计算基础设施的认知正在发生质的跃迁——沙箱不再只是"给 Agent 一台安全的临时电脑"，而是演进为"为海量有状态、长生命周期、频繁休眠与恢复的 Agent，提供一套独立的工作负载编排、状态解耦与弹性计算基础设施"。
+> 如果说 2025 年的 Agent 基础设施关键词是 Tool、Memory、Skill 和 Harness，那么进入 2026 年后，一个越来越无法绕开的基础设施正在独立出来：**Agent Sandbox**。随着 Google AX、Agent Substrate 以及 DeepSeek DSec 相继公开，智能体计算基础设施的认知正在发生质的跃迁——沙箱不再只是“给 Agent 一台安全的临时电脑”，而是演进为“为海量有状态、长生命周期、频繁休眠与恢复的 Agent，提供一套独立的工作负载编排、状态解耦与弹性计算基础设施”。
 
 ![六层架构全景](../images/agent-sandbox-survey/001.webp)
 
@@ -23,13 +23,13 @@ url: "https://mp.weixin.qq.com/s/Jiq7jTk347mLrTZrSOSafw"
 
 1. **执行大量不可信与动态生成代码**：代码可能来自大模型幻觉与生成、终端用户即时输入、第三方未审计 Git 仓库或网络爬取内容，存在高危命令注入与容器逃逸风险。
 2. **强会话状态与长生命周期**：Agent 在运行过程中安装的系统依赖、修改的文件系统、Git 暂存区、后台长驻守护进程（Daemon）和工具执行上下文，必须能够跨多轮对话完整保留。
-3. **极低且碎片化的 CPU 有效占用率**：Agent 表面上看似持续运行数小时，但大部分时间其实处于"等待大模型推理、等待外部 API、等待网络 I/O、等待人类反馈"的空闲挂起状态，实际占用 CPU 计算指令的时间往往不足 5%。
+3. **极低且碎片化的 CPU 有效占用率**：Agent 表面上看似持续运行数小时，但大部分时间其实处于“等待大模型推理、等待外部 API、等待网络 I/O、等待人类反馈”的空闲挂起状态，实际占用 CPU 计算指令的时间往往不足 5%。
 
-这也解释了为什么 Google 在推出 Agent Substrate 时，将"闲置 Agent 毫秒级暂停与按需恢复"作为架构核心：业界已经明确将 Agent 视为一种与传统无状态 Web 服务、批处理大数据作业完全不同的新型云原生计算工作负载。
+这也解释了为什么 Google 在推出 Agent Substrate 时，将“闲置 Agent 毫秒级暂停与按需恢复”作为架构核心：业界已经明确将 Agent 视为一种与传统无状态 Web 服务、批处理大数据作业完全不同的新型云原生计算工作负载。
 
 ## 二、用了 Docker，不代表已经有 Agent Sandbox
 
-在工程实践中，Agent Sandbox 最容易被误解为"找个机器，用 Docker 跑一个能执行 bash 的容器不就行了吗？"但这两者在架构抽象上完全不在一个维度。
+在工程实践中，Agent Sandbox 最容易被误解为“找个机器，用 Docker 跑一个能执行 bash 的容器不就行了吗？”但这两者在架构抽象上完全不在一个维度。
 
 我们不妨将执行环境划分为清晰的五个技术层级：
 
@@ -41,7 +41,7 @@ url: "https://mp.weixin.qq.com/s/Jiq7jTk347mLrTZrSOSafw"
 | **L3** | 智能体环境沙箱 | 安全隔离 + 虚拟文件系统 + Shell 会话 + 网络隔离 + 生命周期绑定（Agent Sandbox） |
 | **L4** | 生产级 Agent 算力平台 | L3 + 内存/文件快照 + 毫秒级暂停恢复 + 预热资源池 + 多租户调度 + 全链路可观测 |
 
-真正的技术分水岭并不单纯在于底层到底使用 Docker、Firecracker 还是 KVM。而在于系统设计上：**是否把"Agent 的工作环境与会话状态"抽象成了一种可以独立创建、绑定、暂停、恢复、快照迁移和销毁的弹性计算资源。**
+真正的技术分水岭并不单纯在于底层到底使用 Docker、Firecracker 还是 KVM。而在于系统设计上：**是否把“Agent 的工作环境与会话状态”抽象成了一种可以独立创建、绑定、暂停、恢复、快照迁移和销毁的弹性计算资源。**
 
 一个标准的生产级 Agent Sandbox 生命周期流转应当如下：
 
@@ -103,7 +103,7 @@ Kubernetes SIG Agent Sandbox 的传统实现模型仍然遵循经典的控制器
 
 **然而，当系统规模跃升至数十万 Agent、数百万会话时，这个链路便会遭遇严峻挑战：** 智能体在多轮迭代中频繁执行短暂的 Shell 命令、工具调用，伴随长达数分钟的推理等待。如果智能体的每一次启动、休眠、唤醒、调度都要向 Kubernetes API Server 发起读写并由 Kubelet 调谐 Pod，**Kubernetes 的控制面（尤其是 etcd 写入吞吐与调度延迟）将迅速沦为系统瓶颈。**
 
-Google Agent Substrate 的核心解法，就是彻底打破"一个 Agent 对应一个静态 Pod"的教条，将逻辑状态与物理算力彻底剥离。
+Google Agent Substrate 的核心解法，就是彻底打破“一个 Agent 对应一个静态 Pod”的教条，将逻辑状态与物理算力彻底剥离。
 
 ## 六、Agent Substrate：Google 真正的高密度 Sandbox 执行层
 
@@ -148,11 +148,11 @@ DSec 的使命不是为了支持单体 IDE 中的辅助写代码插件，而是�
 - 生产环境维持高达**38 万并发 Sandbox**；
 - 峰值具备每秒持续创建**超过 5000 个 Sandbox** 的极高吞吐。
 
-因此，绝不能把 DSec 简单理解为"DeepSeek 版的 E2B"，它本质上是**一套专为智能体强化学习闭环深度定制的极大规模弹性计算云**。
+因此，绝不能把 DSec 简单理解为“DeepSeek 版的 E2B"，它本质上是**一套专为智能体强化学习闭环深度定制的极大规模弹性计算云**。
 
 ## 八、DSec 最值得借鉴的设计：一种 Sandbox Runtime 远远不够
 
-很多沙箱框架往往试图"一招鲜吃遍天"：E2B 全面押注 Firecracker，CubeSandbox 自研 RustVMM + KVM，传统云平台依赖标准容器。
+很多沙箱框架往往试图”一招鲜吃遍天“：E2B 全面押注 Firecracker，CubeSandbox 自研 RustVMM + KVM，传统云平台依赖标准容器。
 
 然而 DeepSeek 在面对真实异构任务时给出了不同的回答：**Agent 任务在安全边界、启动性能与环境完整度上的差异过大，单一的沙箱技术根本无法兼顾成本与性能。**
 
@@ -177,7 +177,7 @@ DSec 的核心突破之一就是：**利用自研的 3FS 高性能分布式存�
 
 ![DSec 训练与沙箱解耦](../images/agent-sandbox-survey/003.webp)
 
-这与在线 Agent 领域中"Agent Session 会话状态绝不能与具体物理执行进程绑定"的设计准则不谋而合。
+这与在线 Agent 领域中”Agent Session 会话状态绝不能与具体物理执行进程绑定“的设计准则不谋而合。
 
 ## 十、DSec 的定位：P0 级设计参考，而非现阶段部署候选
 
@@ -203,7 +203,7 @@ OpenSandbox 的核心优势体现在：
 
 ## 十二、Kubernetes SIG Agent Sandbox：最纯正的 K8s 标准路线
 
-如果企业技术栈以云原生为主，且核心诉求是"尽量遵循 Kubernetes 原生标准、不引入黑盒编排器"，那么由社区主导的 **Kubernetes SIG Agent Sandbox** 是首选基础基石。
+如果企业技术栈以云原生为主，且核心诉求是”尽量遵循 Kubernetes 原生标准、不引入黑盒编排器“，那么由社区主导的 **Kubernetes SIG Agent Sandbox** 是首选基础基石。
 
 该项目并不试图重造一个自成一体的沙箱云，而是专注于在 Kubernetes 体系内精准定义：一个具备稳定身份凭据、单实例（Singleton）、有状态的 Agent Sandbox 在 K8s 内部到底该如何规范表达。
 
@@ -226,19 +226,19 @@ OpenSandbox 的核心优势体现在：
 2. **细粒度弹性休眠（Hibernation）**：在空闲阶段智能释放物理资源，降低算力空转成本；
 3. **完善的企业级服务配套**：内置动态资源调整（In-place Scaling）、会话路由代理、用户身份认证，并向上原生兼容**E2B API**。
 
-特别值得肯定的是，OpenKruise Agents 并未与标准路线背道而驰，而是明确宣称兼容 Kubernetes SIG Agent Sandbox 的底层能力。企业完全可以将其视为一个**"开箱即用、带生产级状态加速与 E2B API 兼容的 Kubernetes 增强平台"**。
+特别值得肯定的是，OpenKruise Agents 并未与标准路线背道而驰，而是明确宣称兼容 Kubernetes SIG Agent Sandbox 的底层能力。企业完全可以将其视为一个**”开箱即用、带生产级状态加速与 E2B API 兼容的 Kubernetes 增强平台“**。
 
 ## 十四、CubeSandbox：目前最完整的专用 MicroVM 路线之一
 
 腾讯云团队开源的 **CubeSandbox** 是本轮调研中极具硬核技术代表性的独立微虚拟机路线。
 
-与依赖"Kubernetes Pod + RuntimeClass"的技术路径截然不同，CubeSandbox 完全自研了一套独立的 MicroVM 控制面与高效轻量调度引擎：
+与依赖”Kubernetes Pod + RuntimeClass“的技术路径截然不同，CubeSandbox 完全自研了一套独立的 MicroVM 控制面与高效轻量调度引擎：
 - **技术内核**：深度基于 **RustVMM + Linux KVM** 技术栈打造；
 - **极致轻量**：官方实测单沙箱冷启动时延低于**60ms**，单实例物理主机额外内存开销控制在**5MB**以内；
 - **跨节点快照恢复**：最新 v0.7 版本突破性支持了**跨节点的 Pause/Resume** 能力。沙箱在物理节点 A 暂停后，内存快照可直接同步至对象存储（如 S3/COS），并在节点 A 异常时直接在节点 B 毫秒级满血复活；
 - **广泛兼容**：在协议层主动兼容 E2B SDK，降低上层应用迁移改造成本。
 
-对于对"**硬件级物理安全隔离、高并发秒级启动、微虚机极低驻留开销**"有极严苛要求的场景，CubeSandbox 是一套非常成熟且值得重点对照验证的纯自研路线。
+对于对”**硬件级物理安全隔离、高并发秒级启动、微虚机极低驻留开销**“有极严苛要求的场景，CubeSandbox 是一套非常成熟且值得重点对照验证的纯自研路线。
 
 ## 十五、E2B 与 BoxLite：两个维度的重要参考坐标
 
@@ -256,7 +256,7 @@ E2B Runtime 凭借优异的开发者体验，已经实质上成为了 Agent Sand
 
 BoxLite 则走向了另一个极端：它完全不追求 Kubernetes 调度与集群化，而是专注于**将超轻量 MicroVM 深度嵌入单机应用与桌面端**。
 
-BoxLite 在 Linux 上调用 KVM，在 Apple Silicon macOS 上直接调用原生的 `Hypervisor.framework`，能够让单机运行的桌面 Agent（如个人 Coding 助手、本地自动化机器人）在安全隔离的微小虚拟机中直接启动 OCI 镜像，并支持回滚（Rollback）、分叉（Fork）与凭据注入。它解答的是："如何在个人电脑或单机边缘节点上，以极低开销给 Agent 分配一台虚拟小电脑。"
+BoxLite 在 Linux 上调用 KVM，在 Apple Silicon macOS 上直接调用原生的 `Hypervisor.framework`，能够让单机运行的桌面 Agent（如个人 Coding 助手、本地自动化机器人）在安全隔离的微小虚拟机中直接启动 OCI 镜像，并支持回滚（Rollback）、分叉（Fork）与凭据注入。它解答的是：”如何在个人电脑或单机边缘节点上，以极低开销给 Agent 分配一台虚拟小电脑。"
 
 ## 十六、横向全景坐标系：九大主流方案选型矩阵
 
@@ -306,7 +306,7 @@ K8s 原生控制器 (Kubernetes SIG Agent Sandbox 或 OpenKruise Agents)
 
 ### 第三阶段（前瞻预研）：将 AX / Agent Substrate 设为 P0 级架构跟踪目标
 
-尽管我们建议当前不要在生产环境中盲目上线 Google AX，但系统架构师必须保持紧密跟踪。一旦企业内部的长驻 Agent 数量突破 **10,000+** 级别："一个会话占用一个固定 Pod" 将彻底拖垮集群基础设施；AX 与 Substrate 的"**Actor（状态）与 Worker（物理算力）彻底解耦，按需领取、用完休眠**"模型将成为必由之路。
+尽管我们建议当前不要在生产环境中盲目上线 Google AX，但系统架构师必须保持紧密跟踪。一旦企业内部的长驻 Agent 数量突破 **10,000+** 级别：“一个会话占用一个固定 Pod" 将彻底拖垮集群基础设施；AX 与 Substrate 的”**Actor（状态）与 Worker（物理算力）彻底解耦，按需领取、用完休眠**“模型将成为必由之路。
 
 ### 第四阶段（算法孵化）：将 DSec 理念引入 Agent 评测与强化学习闭环
 
@@ -314,7 +314,7 @@ K8s 原生控制器 (Kubernetes SIG Agent Sandbox 或 OpenKruise Agents)
 
 ## 十八、结语：Agent Sandbox 已经不再只是一层沙箱
 
-回望云计算的发展历程，我们经历了从"物理裸机"到"全虚拟化虚拟机"，再到"轻量容器"与"Kubernetes 编排"的持续演变。
+回望云计算的发展历程，我们经历了从”物理裸机“到”全虚拟化虚拟机“，再到”轻量容器“与”Kubernetes 编排“的持续演变。
 
 而在大模型时代，面向智能体的计算体系正在长出一条全新的、清晰的技术栈分层：
 

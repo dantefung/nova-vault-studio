@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/rIu6Efw7m54FENXEvqtvyg"
 
 # 利用 AI 给自己做个网站给养老吧，「躺」着把钱挣
 
-> zlbigger 上次 AI 产品沉思录没能融到钱，这次**裸晒项目**——一个 `linggan.io` 全球多语言 AI 自动运营站点，14 张截图完整手把手教程。这是目前**最具体的"AI 躺赚"实操拆解**。
+> zlbigger 上次 AI 产品沉思录没能融到钱，这次**裸晒项目**——一个 `linggan.io` 全球多语言 AI 自动运营站点，14 张截图完整手把手教程。这是目前**最具体的“AI 躺赚”实操拆解**。
 
 > 📖 **完整带图版**：[wiki sources 版](/md/wiki/sources/ai-website-lay-flat-income-zlbigger) 含 14 张关键截图
 > 📘 **方法论提炼**：[concept-ai-lay-flat-income](/md/wiki/concepts/ai-lay-flat-income)
@@ -90,7 +90,7 @@ url: "https://mp.weixin.qq.com/s/rIu6Efw7m54FENXEvqtvyg"
 
 **建议频率**：每 5 分钟提交一个主题 → 每天 288 个内容页。
 
-## 成本拆解（看作者怎么"白嫖"）
+## 成本拆解（看作者怎么“白嫖”）
 
 | 项 | 成本 |
 |---|------|
@@ -98,7 +98,7 @@ url: "https://mp.weixin.qq.com/s/rIu6Efw7m54FENXEvqtvyg"
 | 空间 | 白菜价（搬瓦工 etc.）|
 | Cloudflare | 白嫖基础功能 |
 | 文本生成 API | 用低级模型 ≈ 免费 |
-| **图片生成 API** | 成本不低（但"要动脑子想办法"）|
+| **图片生成 API** | 成本不低（但“要动脑子想办法”）|
 
 ## 关键金句
 

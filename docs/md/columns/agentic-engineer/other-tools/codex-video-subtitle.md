@@ -21,7 +21,7 @@ url: "https://mp.weixin.qq.com/s/Xe06pFpo9h6uXUsUotk4FQ"
 whisper-cli -m ./ggml-small.bin -f speech.mp3 -l zh -ng -osrt -of speech
 ```
 
-SRT 只解决"听出来什么"和"什么时候显示"，不负责样式。
+SRT 只解决“听出来什么”和“什么时候显示”，不负责样式。
 
 ## 修复字幕文本
 

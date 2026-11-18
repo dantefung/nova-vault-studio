@@ -64,7 +64,7 @@ Chrome 插件：[Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer
 
 Chrome 插件：[Google Trends Everywhere](https://chromewebstore.google.com/detail/google-trends-navigator/inflcalehpinjidhkeagkflfcaaochk)
 
-基于搜索词，快速看到其他网站的 top 关键词。使用这个快速实现"词找词"。可以直接看到 DR，免费版本也可以看到一些页面数据。
+基于搜索词，快速看到其他网站的 top 关键词。使用这个快速实现“词找词”。可以直接看到 DR，免费版本也可以看到一些页面数据。
 
 ---
 

@@ -52,4 +52,4 @@ url: "https://github.com/Conn-Ho/harness-engineering"
 
 ---
 
-> ADR 编写指南：保持简短（目标 ≤ 30 行内容），重点是"为什么"，而不是"怎么做"。
+> ADR 编写指南：保持简短（目标 ≤ 30 行内容），重点是“为什么”，而不是“怎么做”。

@@ -628,39 +628,39 @@ AgentScope Java 官方仓库：https://github.com/agentscope-ai/agentscope-java
 
 
 
-✅ 第1篇：简介与环境搭建：从零搭环境，跑通第一个 Agent 对话
+✅ 第 1 篇：简介与环境搭建：从零搭环境，跑通第一个 Agent 对话
 
 
 
-✅ 第2篇：ReActAgent 核心拆解：理解"思考→行动→观察"的推理循环
+✅ 第 2 篇：ReActAgent 核心拆解：理解“思考→行动→观察”的推理循环
 
 
 
-✅ 第3篇：你的第一个 Java Agent：Builder 模式全面解析 + 流式输出 + 思考模式
+✅ 第 3 篇：你的第一个 Java Agent：Builder 模式全面解析 + 流式输出 + 思考模式
 
 
 
-✅ 第4篇：工具系统（Tools）实战：用 @Tool 注解将 Java 方法注册为 Agent 工具
+✅ 第 4 篇：工具系统（Tools）实战：用 @Tool 注解将 Java 方法注册为 Agent 工具
 
 
 
-✅ 第5篇：结构化输出实战 —— 让 Agent 直接返回 Java 对象
+✅ 第 5 篇：结构化输出实战 —— 让 Agent 直接返回 Java 对象
 
 
 
-第二阶段：进阶架构 —— 掌握 2.0 的核心亮点 HarnessAgent，理解"文件即配置"的工程化理念。
+第二阶段：进阶架构 —— 掌握 2.0 的核心亮点 HarnessAgent，理解“文件即配置”的工程化理念。
 
 
 
-✅ 第6篇: HarnessAgent：为 ReActAgent 装上操作系统：对比 ReActAgent，理解 Harness 如何整合长期记忆、Session、子 Agent 编排与沙箱。
+✅ 第 6 篇：HarnessAgent：为 ReActAgent 装上操作系统：对比 ReActAgent，理解 Harness 如何整合长期记忆、Session、子 Agent 编排与沙箱。
 
 
 
-✅ 第7篇. Workspace 驱动的人格与记忆：通过 AGENTS.md 定义人设，通过 MEMORY.md 沉淀长期事实，实现"改文件即升级 Agent"。
+✅ 第 7 篇. Workspace 驱动的人格与记忆：通过 AGENTS.md 定义人设，通过 MEMORY.md 沉淀长期事实，实现“改文件即升级 Agent"。
 
 
 
-✅ 第8篇. Skills 技能系统（核心）：掌握 SKILL.md 文件协议，理解"操作手册 + 资料包"的按需加载机制，节省 Token。
+✅ 第 8 篇. Skills 技能系统（核心）：掌握 SKILL.md 文件协议，理解”操作手册 + 资料包“的按需加载机制，节省 Token。
 
 
 
@@ -676,8 +676,8 @@ AgentScope Java 官方仓库：https://github.com/agentscope-ai/agentscope-java
 
 
 
-看到这里的小伙伴，不妨点个赞，顺手关注下微信公众号「一灰灰Blog」。下一篇文章，我们将深入 多 Agent 编排与技能隔离——当一个“项目经理”Agent 调度多个“执行”Agent 时，各自工作区里的 Skills 如何划清边界？谁该看到谁的“符号表”？这个坑，咱们下一篇接着撕 😏
+看到这里的小伙伴，不妨点个赞，顺手关注下微信公众号「一灰灰 Blog」。下一篇文章，我们将深入 多 Agent 编排与技能隔离——当一个“项目经理”Agent 调度多个“执行”Agent 时，各自工作区里的 Skills 如何划清边界？谁该看到谁的“符号表”？这个坑，咱们下一篇接着撕 😏
 
 
 
-最后硬推一下，vibecoding的微信小游戏，偶尔用来练练脑子也挺好🤣
+最后硬推一下，vibecoding 的微信小游戏，偶尔用来练练脑子也挺好🤣

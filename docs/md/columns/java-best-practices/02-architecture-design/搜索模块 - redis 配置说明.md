@@ -8,7 +8,7 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 > RedissonClient 多实例说明
 
-相关阅读:
+相关阅读：
 -----
 
 [RedissonClient 多实例说明](https://wiki.int.zuzuche.info/pages/viewpage.action?pageId=583827495)
@@ -23,10 +23,10 @@ JetCache 配置用途解释
   
 ![][img-0]
 
-搜索默认 redisson 连接健康检查处理:
+搜索默认 redisson 连接健康检查处理：
 -----------------------
 
-默认 redisson 指代  jetCache.remote.default.redissonClient=xxxx 配置的客户端![][img-1]
+默认 redisson 指代  jetCache.remote.default.redissonClient=xxxx 配置的客户端！[][img-1]
 
 (非必读) 必须不健康的 redis 连接工厂的 beanName, 采用逗号分割 (如有需求)
 ------------------------------------------------
@@ -39,7 +39,7 @@ ercp.search.rcfUnHealth.beanNames: yyyRedissonConnectionFactory,xxxRedissonConnn
 
 ```
 
-假设应用中已有如下的 **_redis 连接工厂的配置声明, 则这些连接工厂会自动健康检查,_** 如果没有特别指定必须不健康，现在的设计是直接跳过检查
+假设应用中已有如下的 **_redis 连接工厂的配置声明，则这些连接工厂会自动健康检查，_** 如果没有特别指定必须不健康，现在的设计是直接跳过检查
 
 ```
 @Bean("xxxRedissonConnectionFactory")
@@ -64,14 +64,14 @@ public RedissonConnectionFactory yyyRedissonConnectionFactory(@Qualifier("yyyRed
 (必知) 预热的 RedissonClient 注册 RedisConnectionFactory, 参与健康检查
 ---------------------------------------------------------
 
-具体配置参见: 
+具体配置参见： 
 
 com.zuzuche.ercp.common.config.CustomizeRedissonConfig#redissonConnectionFactory
 
 健康检查故障返回设计
 ----------
 
-访问 [http://localhost:5001/actuator/health](http://localhost:5001/actuator/health)   ,  如果连接故障， 设计返回内容:   "ERCP REDIS DOWN,DAEMON RETRY CONNECT"
+访问 [http://localhost:5001/actuator/health](http://localhost:5001/actuator/health)   ,  如果连接故障， 设计返回内容：   "ERCP REDIS DOWN,DAEMON RETRY CONNECT"
 
 ```
 {
@@ -146,12 +146,12 @@ com.zuzuche.ercp.common.config.CustomizeRedissonConfig#redissonConnectionFactory
 ------------
 
   
-![][img-2]  
+![][img-2] 
 
 重连日志
 ----
 
-redis 连接故障, 日志如下:
+redis 连接故障，日志如下：
 
 ```
 2024-09-18 17:29:40.620 [redisson-netty-8-2] ERROR org.redisson.connection.DNSMonitor    - Unable to resolve redis-ercp-dev-cn.ercp-dev.svc.rocketos.local 

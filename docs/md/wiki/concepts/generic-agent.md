@@ -3,7 +3,7 @@ title: "GenericAgent（自我进化AI Agent框架）"
 date: "2026-06-11"
 ---
 
-# GenericAgent（自我进化AI Agent框架）
+# GenericAgent（自我进化 AI Agent 框架）
 
 > Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption. 极致精简 + 自我进化。
 

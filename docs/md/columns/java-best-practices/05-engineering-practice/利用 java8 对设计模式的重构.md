@@ -176,7 +176,7 @@ new PushTemplateLambda().push(1, " 服装店 ", (Object[] obj) -> {
 
 思路：基于某个 Subject 主题，然后一堆观察者 Observer 注册到主题上，有事件发生时，subject 根据注册列表，去通知所有的 observer。
 
-Observer 接口:
+Observer 接口：
 
 ```
 public interface Observer {
@@ -184,7 +184,7 @@ public interface Observer {
 }
 ```
 
-Subject 接口:
+Subject 接口：
 
 ```
 public interface Subject {
@@ -261,7 +261,7 @@ public interface NewSubject {
 }
 ```
 
-使用:
+使用：
 
 ```
 static void test2() {

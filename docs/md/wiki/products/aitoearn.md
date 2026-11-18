@@ -3,15 +3,15 @@ title: "AiToEarn（AI全自动自媒体内容平台）"
 date: "2026-06-11"
 ---
 
-# AiToEarn（AI全自动自媒体内容平台）
+# AiToEarn（AI 全自动自媒体内容平台）
 
-> Let's use AI to Earn! 视频和图文全靠 AI 自动生成，抖音/小红书/B站/TikTok 全平台分发，点赞/关注/评论回复自动化，CPS/CPM 变现。
+> Let's use AI to Earn! 视频和图文全靠 AI 自动生成，抖音/小红书/B 站/TikTok 全平台分发，点赞/关注/评论回复自动化，CPS/CPM 变现。
 
 ## Key Points
 
 - **核心定位**：OPC（一人公司）的 AI 内容营销智能体
 - **四大 Agent 能力**：Monetize（赚钱）+ Publish（发布）+ Engage（互动）+ Create（创作）
-- **支持平台**：抖音/小红书/快手/B站/视频号/TikTok/YouTube/Facebook/Instagram 等 10+ 平台
+- **支持平台**：抖音/小红书/快手/B 站/视频号/TikTok/YouTube/Facebook/Instagram 等 10+ 平台
 - **技术栈**：Electron + React + TypeScript + MCP 协议
 
 ## 四大 Agent
@@ -32,7 +32,7 @@ date: "2026-06-11"
 
 - 浏览器插件实现自动点赞、收藏、关注
 - AI 智能回复：调用大模型为每条评论生成针对性回复
-- 评论挖掘：识别"求链接""怎么购买"等高转化信号
+- 评论挖掘：识别“求链接”“怎么购买”等高转化信号
 - 品牌监测：实时追踪品牌讨论，主动参与热点话题
 
 ### Create —— 内容创作 Agent

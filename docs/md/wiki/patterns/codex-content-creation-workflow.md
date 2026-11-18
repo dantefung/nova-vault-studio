@@ -15,7 +15,7 @@ source: "公众号整理"
 ### 1. stop-slop — 先去 AI 味，再谈写作
 **GitHub**: hardikpandya/stop-slop
 
-最缺的不是"写得更快"，而是"看起来不像 AI 写的"。AI 味一出来，读者立刻防御，信任直接掉。stop-slop 帮你删掉空洞转折、模板句、过度总结、假装深刻的废话。
+最缺的不是“写得更快”，而是“看起来不像 AI 写的”。AI 味一出来，读者立刻防御，信任直接掉。stop-slop 帮你删掉空洞转折、模板句、过度总结、假装深刻的废话。
 
 ### 2. dbskill — 选题诊断，值不值得写
 **GitHub**: dontbesilent2025/dbskill
@@ -50,7 +50,7 @@ source: "公众号整理"
 ### 8. baoyu-skills — 信息图、结构图、视觉工具箱
 **GitHub**: JimLiu/baoyu-skills
 
-把框架、流程、对比、清单、方法论变成图，让内容从"可读"变成"可保存"。
+把框架、流程、对比、清单、方法论变成图，让内容从“可读”变成“可保存”。
 
 ### 9. ian-xiaohei-illustrations — 正文配图有人味
 **GitHub**: helloianneo/ian-xiaohei-illustrations
@@ -72,7 +72,7 @@ source: "公众号整理"
 
 ## 三个核心判断
 
-Skill 不是越多越好。真正适合中文内容创作者的 Codex Skill，不是让你"看起来更自动化"，而是让你少做重复劳动，多做判断、表达和选择。
+Skill 不是越多越好。真正适合中文内容创作者的 Codex Skill，不是让你“看起来更自动化”，而是让你少做重复劳动，多做判断、表达和选择。
 
 AI 负责加速，创作者负责品味。Skill 负责流程，内容负责信任。
 

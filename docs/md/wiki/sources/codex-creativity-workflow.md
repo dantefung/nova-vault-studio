@@ -27,7 +27,7 @@ url: "https://mp.weixin.qq.com/s/XyoqER2ZpdvWDvO4BL6QsQ"
 | Codex × Notion MCP | 接入 6 年时间管理数据，自动整理周计划/日计划，周六自动整理团队周报 |
 | Codex × Cubox CLI | 每周批量整理稍后读，读完后读后感自动归档到多维表格 |
 | 商务英语陪练讲师 | 每天早上 6:30 自动推送口语陪练消息，引导一步步回答 |
-| 趣事数据库 | 从 2023 年人肉打标签，到用 Codex 自动整理成五大类文档："你只管记录，剩下的交给 Agent！" |
+| 趣事数据库 | 从 2023 年人肉打标签，到用 Codex 自动整理成五大类文档：“你只管记录，剩下的交给 Agent！" |
 | IP 形象 | 用 Codex 生成一套不同风格的表情包和 IP 形象 |
 
 ## 三、20 个 Skill，一座兵工厂
@@ -42,7 +42,7 @@ url: "https://mp.weixin.qq.com/s/XyoqER2ZpdvWDvO4BL6QsQ"
 
 ### Markdown Agent
 
-2019 年开始刻意练习 Markdown，2022 年大模型出现后 API 输出基本都是 Markdown。用 Codex 做了基于 Markdown 的 Agent，服务日常写作。"星期一研究室的文章，是 markdown 最好的压测。"
+2019 年开始刻意练习 Markdown，2022 年大模型出现后 API 输出基本都是 Markdown。用 Codex 做了基于 Markdown 的 Agent，服务日常写作。”星期一研究室的文章，是 markdown 最好的压测。"
 
 ## 四、把 AI 塞进甲方的日常
 

@@ -7,7 +7,7 @@ url: "https://github.com/garrytan/gstack"
 
 # GStack 知识系统架构 — 三层记忆
 
-> gstack 的知识系统由 **Learnings（学习记录）**、**GBrain（长期记忆）** 和 **Preamble（自动前导块）** 三部分组成。核心原理：在任务执行前后进行自动化知识捕获与上下文检索，实现 AI Agent 的"制度化记忆"。
+> gstack 的知识系统由 **Learnings（学习记录）**、**GBrain（长期记忆）** 和 **Preamble（自动前导块）** 三部分组成。核心原理：在任务执行前后进行自动化知识捕获与上下文检索，实现 AI Agent 的“制度化记忆”。
 
 ---
 
@@ -51,7 +51,7 @@ graph TD
 
 **置信度衰减**：观察到的和推断的学习每 30 天减 1 分。用户明确设定的偏好不衰减。
 
-**"学习已应用"标注**：当审查发现与历史学习匹配时，显示 `"Prior learning applied: [pattern] (confidence 8/10, from 2026-03-15)"`。
+**“学习已应用”标注**：当审查发现与历史学习匹配时，显示 `"Prior learning applied: [pattern] (confidence 8/10, from 2026-03-15)"`。
 
 ### 跨项目发现
 

@@ -20,7 +20,7 @@ url: "https://mp.weixin.qq.com/s/R0YJ-Z3RMvTNcyz8QjPAww"
 
 1. 先添加 ads.txt 文件，添加之后，确保浏览器里使用 `域名/ads.txt` 可以打开文件，看到里边的一行文字
 
-2. 回到 Adsense 后台，选择 Ads.txt 验证方式，勾选底下的"我已发布 ads.txt 文件"，点击"验证"按钮进行校验
+2. 回到 Adsense 后台，选择 Ads.txt 验证方式，勾选底下的“我已发布 ads.txt 文件”，点击“验证”按钮进行校验
 
 ![验证步骤](../images/adsense-site-application-details/001.webp)
 
@@ -28,15 +28,15 @@ url: "https://mp.weixin.qq.com/s/R0YJ-Z3RMvTNcyz8QjPAww"
 
 ![验证通过](../images/adsense-site-application-details/002.webp)
 
-4. 这时候不要点击"申请审核"按钮，而是点击"验证网站所有权"那行文字右侧的向下箭头，展开下面界面
+4. 这时候不要点击“申请审核”按钮，而是点击“验证网站所有权”那行文字右侧的向下箭头，展开下面界面
 
 ![展开界面](../images/adsense-site-application-details/003.webp)
 
-5. 切换到"Adsense 代码段"验证方式，获取 js 代码，放置到网站每一个网页 html 的 head 里去
+5. 切换到“Adsense 代码段”验证方式，获取 js 代码，放置到网站每一个网页 html 的 head 里去
 
 ![切换验证方式](../images/adsense-site-application-details/004.webp)
 
-6. 之后才是点击"申请审核"按钮，提交申请
+6. 之后才是点击“申请审核”按钮，提交申请
 
 ![提交申请](../images/adsense-site-application-details/005.webp)
 
@@ -46,15 +46,15 @@ url: "https://mp.weixin.qq.com/s/R0YJ-Z3RMvTNcyz8QjPAww"
 
 ![错误操作](../images/adsense-site-application-details/006.webp)
 
-会发现展开之后，再想验证 ads.txt，已经没有"我已发布 ads.txt 文件"的选择框和"验证"按钮了。
+会发现展开之后，再想验证 ads.txt，已经没有“我已发布 ads.txt 文件”的选择框和“验证”按钮了。
 
 ![缺少选项](../images/adsense-site-application-details/007.webp)
 
-直接点击"申请审核"按钮，提交审核虽然能成功：
+直接点击“申请审核”按钮，提交审核虽然能成功：
 
 ![提交成功](../images/adsense-site-application-details/008.webp)
 
-但回到网站列表，会显示"ads.txt 状态"是"未找到"：
+但回到网站列表，会显示“ads.txt 状态”是“未找到”：
 
 ![ads.txt 未找到](../images/adsense-site-application-details/009.webp)
 

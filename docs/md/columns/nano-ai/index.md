@@ -12,7 +12,7 @@ url: "https://nano-ai.tech/"
 
 
 
-# 纳米AI 专栏
+# 纳米 AI 专栏
 
 
 
@@ -20,7 +20,7 @@ url: "https://nano-ai.tech/"
 
 >
 
-> 纳米AI（
+> 纳米 AI（
 [nano-ai.tech](https://nano-ai.tech/)
 ，正式域名 
 [namiai.tech](https://namiai.tech/)
@@ -53,7 +53,7 @@ url: "https://nano-ai.tech/"
  | 30 | 从零手写大模型：推理篇 15 篇 + 训练篇 5 篇 + LLaMA/DeepSeek 组件 + Switch Transformer 三篇 |
 
 | 
-[Agent 图解](#三agent-图解-19-篇)
+[Agent 图解](#三 agent-图解-19-篇)
  | 19 | 从 100 行最小循环到 Claude Code / Codex / DeepSeek Harness / Grok Bot / OpenClaw 拆解 |
 
 | 
@@ -475,7 +475,7 @@ url: "https://nano-ai.tech/"
  — 大模型图解总目录
 
 - 
-[纳米AI（关于）](./about.md)
+[纳米 AI（关于）](./about.md)
  — 站点介绍与联系方式
 
 

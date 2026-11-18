@@ -54,16 +54,16 @@ url: ""
 | `_gstack-command` | 其他 | Router for the gstack skill suite. (gstack) |
 | `agent-reach` | 其他 | > |
 | `agnes-image-gen` | Agnes AI | "Agnes AI 图像生成。基于 agnes-image-2.1-flash 模型，支持文生图、图生图、多图合成。当用户想生成图片、画图、做图、AI 绘图、文生图、图生图、风格转换、图片编辑、生成海报/封面/配图/插画/产品图/壁纸/头像 |
-| `article-batch-illustration` | 内容编辑 | 分析文章结构并批量生成AI配图，调用Gemini API为每个段落创建专业逻辑图/概念图。当用户说"批量配图"、"给文章配图"、"生成文章插图"、"为这篇文章配图"时触发。支持两种风格：简约手绘风和建筑蓝图编辑风。自动保存到Obsidian |
+| `article-batch-illustration` | 内容编辑 | 分析文章结构并批量生成 AI 配图，调用 Gemini API 为每个段落创建专业逻辑图/概念图。当用户说“批量配图”、“给文章配图”、“生成文章插图”、“为这篇文章配图”时触发。支持两种风格：简约手绘风和建筑蓝图编辑风。自动保存到 Obsidian |
 | `article-review` | 内容编辑 | 根据原文内容撰写深度文章评价/解读。当用户提供一篇文章、博客、公众号文章或任何长文内容，并要求生成评价、解读、读后感或二次创作内容时使用此技能。适用于：(1) 对技术文章、行业分析、年终总结等进行深度解读，(2) 提炼文章核心观点并用通俗语 |
 | `ask-matt` | Matt 路由器 | Ask which skill or flow fits your situation. A router over the skills in this repo. |
 | `autoplan` | Auto review | Auto-review pipeline — reads the full CEO, design, eng, and DX review skills from disk and runs them sequentially with a |
 | `baoyu-article-illustrator` | 宝玉 (baoyu) | Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Pale |
 | `baoyu-comic` | 宝玉 (baoyu) | Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed pane |
 | `baoyu-compress-image` | 宝玉 (baoyu) | Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to "compress image", "optim |
-| `baoyu-cover-image` | 宝玉 (baoyu) | Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and  |
+| `baoyu-cover-image` | 宝玉 (baoyu) | Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and |
 | `baoyu-danger-gemini-web` | 宝玉 (baoyu) | Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts |
-| `baoyu-danger-x-to-markdown` | 宝玉 (baoyu) | Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user  |
+| `baoyu-danger-x-to-markdown` | 宝玉 (baoyu) | Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user |
 | `baoyu-format-markdown` | 宝玉 (baoyu) | Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use wh |
 | `baoyu-image-cards` | 宝玉 (baoyu) | Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 |
 | `baoyu-image-gen` | 宝玉 (baoyu) | AI image generation with OpenAI, Azure OpenAI, Google, OpenRouter, DashScope, MiniMax, Jimeng, Seedream and Replicate AP |
@@ -74,8 +74,8 @@ url: ""
 | `baoyu-post-to-weibo` | 宝玉 (baoyu) | Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Mar |
 | `baoyu-post-to-x` | 宝玉 (baoyu) | Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown) |
 | `baoyu-slide-deck` | 宝玉 (baoyu) | Generates professional slide deck images from content. Creates outlines with style instructions, then generates individu |
-| `baoyu-translate` | 宝玉 (baoyu) | Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate),  |
-| `baoyu-url-to-markdown` | 宝玉 (baoyu) | Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters  |
+| `baoyu-translate` | 宝玉 (baoyu) | Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), |
+| `baoyu-url-to-markdown` | 宝玉 (baoyu) | Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters |
 | `baoyu-xhs-images` | 宝玉 (baoyu) | "DEPRECATED: Migrated to baoyu-image-cards. Generates Xiaohongshu (Little Red Book) infographic series with 11 visual st |
 | `baoyu-youtube-transcript` | 宝玉 (baoyu) | Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translat |
 | `batch-grill-me` | Auto review | A relentless interview that asks every frontier question at once, round by round. |
@@ -83,10 +83,10 @@ url: ""
 | `benchmark-models` | gstack 基础 | Cross-model benchmark for gstack skills. (gstack) |
 | `browse` | gstack 基础 | Fast headless browser for QA testing and site dogfooding. (gstack) |
 | `canary` | gstack 基础 | Post-deploy canary monitoring. (gstack) |
-| `cangjie-skill` | 仓颉 (cangjie) | Distill a book into a coherent set of executable skills. Use when the user asks to "拆书" / "蒸馏一本书" / "把 XX 书做成 skill" / " |
+| `cangjie-skill` | 仓颉 (cangjie) | Distill a book into a coherent set of executable skills. Use when the user asks to “拆书” / “蒸馏一本书” / “把 XX 书做成 skill" / " |
 | `careful` | 调试/调查 | Safety guardrails for destructive commands. (gstack) |
 | `caveman` | 其他 | > |
-| `chinese-copywriting-guidelines` | 学习/规范 | "中文文案排版规范检查与修复。统一中文、英文、数字、标点符号的排版用法,降低沟通成本。Actions: 检查、修复、审查、校对、格式化中文排版、文案排版、排版规范、排版问题。当用户说'检查排版'、'修复排版'、'中文排版'、'文案排版'、' |
+| `chinese-copywriting-guidelines` | 学习/规范 | ”中文文案排版规范检查与修复。统一中文、英文、数字、标点符号的排版用法，降低沟通成本。Actions: 检查、修复、审查、校对、格式化中文排版、文案排版、排版规范、排版问题。当用户说’检查排版’、’修复排版’、’中文排版’、’文案排版’、' |
 | `claude-handoff` | Claude 工具 | Hand the current conversation off to a fresh background agent that picks up the work immediately. |
 | `claude-to-im` | Claude 工具 | \| |
 | `code-review` | Review 类 | Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code fo |
@@ -98,15 +98,15 @@ url: ""
 | `context-save` | 上下文/文档 | Save working context. (gstack) |
 | `cso` | cangjie/canary | Chief Security Officer mode. (gstack) |
 | `design-an-interface` | huashu-design / 设计类 | Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to d |
-| `design-consultation` | huashu-design / 设计类 | "Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic,  |
+| `design-consultation` | huashu-design / 设计类 | "Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic, |
 | `design-html` | huashu-design / 设计类 | "Design finalization: generates production-quality Pretext-native HTML/CSS. (gstack)" |
 | `design-review` | huashu-design / 设计类 | "Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interacti |
 | `design-shotgun` | huashu-design / 设计类 | "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate |
 | `devex-review` | Review 类 | Live developer experience audit. (gstack) |
-| `diagnose` | 调试/调查 | Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument →  |
+| `diagnose` | 调试/调查 | Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → |
 | `diagnosing-bugs` | 调试/调查 | Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports som |
 | `diagram` | 其他 | "Turn an English description (or mermaid source) into a diagram triplet: the source, an editable .excalidraw file you ca |
-| `doc-coauthoring` | 上下文/文档 | Guide users through a structured workflow for co-authoring documentation, articles, or long-form content. Use when user  |
+| `doc-coauthoring` | 上下文/文档 | Guide users through a structured workflow for co-authoring documentation, articles, or long-form content. Use when user |
 | `docs-pipeline` | 上下文/文档 | \| |
 | `document-generate` | 其他 | Generate missing documentation from scratch for a feature, module, or entire project. (gstack) |
 | `document-release` | 其他 | Post-ship documentation update. (gstack) |
@@ -114,10 +114,10 @@ url: ""
 | `edit-article` | 内容编辑 | Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edi |
 | `find-skills` | 其他 | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is th |
 | `freeze` | 其他 | Restrict file edits to a specific directory for the session. (gstack) |
-| `frontend-design` | frontend-design 内置 | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to  |
-| `gemini-image` | 其他 | 当用户想要生成图片、画图、绘画、创建图像、AI作画时使用此 Skill。支持文生图和图生图。 |
+| `frontend-design` | frontend-design 内置 | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to |
+| `gemini-image` | 其他 | 当用户想要生成图片、画图、绘画、创建图像、AI 作画时使用此 Skill。支持文生图和图生图。 |
 | `gemini-manager` | 其他 | This skill should be used when the user wants Claude Code to act purely as a manager/architect while Gemini CLI does all |
-| `gemini-web-image` | 宝玉 (baoyu) | 使用 Gemini Web 生图的包装 skill。面向 vibe-writer 的配图流程，内部依赖全局 skill `baoyu-danger-gemini-web`，适用于 Gemini Web 登录态可用、希望直接用 Gemini  |
+| `gemini-web-image` | 宝玉 (baoyu) | 使用 Gemini Web 生图的包装 skill。面向 vibe-writer 的配图流程，内部依赖全局 skill `baoyu-danger-gemini-web`，适用于 Gemini Web 登录态可用、希望直接用 Gemini |
 | `git-guardrails-claude-code` | 其他 | Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execut |
 | `grill-me` | 其他 | A relentless interview to sharpen a plan or design. |
 | `grill-with-docs` | 其他 | A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. |
@@ -191,47 +191,47 @@ url: ""
 | `gstack` | gstack 基础 | Router for the gstack skill suite. (gstack) |
 | `gstack-upgrade` | gstack 基础 | Upgrade gstack to the latest version. |
 | `guard` | 其他 | "Full safety mode: destructive command warnings + directory-scoped edits. (gstack)" |
-| `guizang-ppt-skill` | guizang (桂藏) | 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① "电子杂志 × 电子墨水"（衬线 + 流体背景 + 暖色） ② "瑞士国际主义"（无衬线 + 网格点阵 + IKB |
+| `guizang-ppt-skill` | guizang (桂藏) | 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① “电子杂志 × 电子墨水”（衬线 + 流体背景 + 暖色） ② “瑞士国际主义”（无衬线 + 网格点阵 + IKB |
 | `handoff` | 其他 | Compact the current conversation into a handoff document for another agent to pick up. |
 | `health` | 健康检查 | Code quality dashboard. (gstack) |
-| `health-podcast-rewriter` | 健康检查 |  |
+| `health-podcast-rewriter` | 健康检查 | |
 | `help-center-doc-writer` | 其他 | "Feature documentation writer for HR/business SaaS products. Researches features by reading backend code, frontend code, |
 | `huashu-bookwriter` | huashu (花书) | \| |
-| `huashu-design` | huashu-design / 设计类 | 花叔Design（Huashu-Design）——用HTML做高保真原型、交互Demo、幻灯片、动画、设计变体探索+设计方向顾问+专家评审的一体化设计能力。HTML是工具不是媒介，根据任务embody不同专家（UX设计师/动画师/幻灯片设计 |
+| `huashu-design` | huashu-design / 设计类 | 花叔 Design（Huashu-Design）——用 HTML 做高保真原型、交互 Demo、幻灯片、动画、设计变体探索+设计方向顾问+专家评审的一体化设计能力。HTML 是工具不是媒介，根据任务 embody 不同专家（UX 设计师/动画师/幻灯片设计 |
 | `huashu-nuwa` | huashu (花书) | \| |
 | `implement` | 其他 | "Implement a piece of work based on a spec or set of tickets." |
-| `improve-codebase-architecture` | 其他 | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you  |
+| `improve-codebase-architecture` | 其他 | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you |
 | `investigate` | 调试/调查 | Systematic debugging with root cause investigation. (gstack) |
 | `ios-clean` | 其他 | "Remove the DebugBridge SPM package and all #if DEBUG wiring from an iOS app. (gstack)" |
 | `ios-design-review` | 其他 | Visual design audit for iOS apps on real hardware. (gstack) |
 | `ios-fix` | 其他 | Autonomous iOS bug fixer. (gstack) |
 | `ios-qa` | 其他 | Live-device iOS QA for SwiftUI apps. (gstack) |
 | `ios-sync` | 其他 | Regenerate the iOS debug bridge against the latest upstream gstack templates. (gstack) |
-| `knowledge-site-creator` | 其他 | 一句话生成任何领域的知识学习网站。AI自动理解主题、创作内容、生成页面、部署上线。适用于任何需要系统学习的知识领域：进化心理学、大模型术语、化学元素、历史事件等。 |
+| `knowledge-site-creator` | 其他 | 一句话生成任何领域的知识学习网站。AI 自动理解主题、创作内容、生成页面、部署上线。适用于任何需要系统学习的知识领域：进化心理学、大模型术语、化学元素、历史事件等。 |
 | `land-and-deploy` | gstack 流程 | Land and deploy workflow. (gstack) |
 | `landing-report` | gstack 流程 | Read-only queue dashboard for workspace-aware ship. (gstack) |
 | `learn` | 学习/规范 | Manage project learnings. |
 | `ljg-card` | 其他 | "Content caster (铸). Transforms content into PNG visuals. Six molds: -l (default) long reading card, -i infograph, -m mu |
-| `ljg-invest` | 其他 | 投资分析, 生成一份深度投资分析报告。不做传统投资分析——核心判断是项目是否是一台「秩序创造机器」。Use when user says '投资报告', '投资分析', '分析这个项目', '写投资报告', 'investment repo |
+| `ljg-invest` | 其他 | 投资分析，生成一份深度投资分析报告。不做传统投资分析——核心判断是项目是否是一台「秩序创造机器」。Use when user says ’投资报告’, ’投资分析’, ’分析这个项目’, ’写投资报告’, 'investment repo |
 | `ljg-learn` | 其他 | Deep concept anatomist that deconstructs any concept through 8 exploration dimensions (history, dialectics, phenomenolog |
-| `ljg-paper` | 其他 |  |
+| `ljg-paper` | 其他 | |
 | `ljg-paper-flow` | 其他 | "Paper workflow: read papers + cast cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. Fo |
-| `ljg-paper-river` | 其他 | "论文倒读法：给一篇论文，递归找出它批判和改进的前序论文（最多5层），再找它之后的最新进展，从源头正向讲述问题演化史。以问题为轴，费曼式讲解每篇论文看到的问题和解法创新。Use when user shares a paper and wa |
-| `ljg-plain` | 其他 |  |
-| `ljg-rank` | 其他 | 给一个领域，找出背后真正撑着它的几根独立的力。十几个现象砍到不可再少的生成器——砍完能把现象一个个生回来，才算数。Use when user says '降秩', '找秩', '秩是什么', '这个领域靠什么撑着', '背后是什么', or |
+| `ljg-paper-river` | 其他 | “论文倒读法：给一篇论文，递归找出它批判和改进的前序论文（最多 5 层），再找它之后的最新进展，从源头正向讲述问题演化史。以问题为轴，费曼式讲解每篇论文看到的问题和解法创新。Use when user shares a paper and wa |
+| `ljg-plain` | 其他 | |
+| `ljg-rank` | 其他 | 给一个领域，找出背后真正撑着它的几根独立的力。十几个现象砍到不可再少的生成器——砍完能把现象一个个生回来，才算数。Use when user says ’降秩’, ’找秩’, ’秩是什么’, ’这个领域靠什么撑着’, ’背后是什么’, or |
 | `ljg-relationship` | 其他 | >- |
-| `ljg-roundtable` | 其他 |  |
-| `ljg-skill-map` | 其他 |  |
-| `ljg-think` | 其他 | 追本之箭——纵向深钻思维工具。给一个观点、现象或问题，像箭一样一路向下钻到不可再分的本质。Use when user says '想透', '追本', '本质是什么', '为什么会这样', '深挖', '钻到底', 'think deep' |
+| `ljg-roundtable` | 其他 | |
+| `ljg-skill-map` | 其他 | |
+| `ljg-think` | 其他 | 追本之箭——纵向深钻思维工具。给一个观点、现象或问题，像箭一样一路向下钻到不可再分的本质。Use when user says ’想透’, ’追本’, ’本质是什么’, ’为什么会这样’, ’深挖’, ’钻到底’, 'think deep' |
 | `ljg-travel` | 其他 | "Deep travel research workflow for museums and ancient architecture. Input a city name, auto-generates structured knowle |
-| `ljg-word` | 其他 |  |
+| `ljg-word` | 其他 | |
 | `ljg-word-flow` | 其他 | "Word flow: deep-dive word analysis + infograph card in one go. Takes one or more English words, runs ljg-word (generate |
-| `ljg-writes` | 其他 | "写作引擎。带着一个观点出发，在写的过程中把它想透。" |
+| `ljg-writes` | 其他 | ”写作引擎。带着一个观点出发，在写的过程中把它想透。" |
 | `loop-me` | 其他 | Grill me about specs for the workflows I want to build, within this workspace. |
 | `make-pdf` | 其他 | Turn any markdown file into a publication-quality PDF. (gstack) |
 | `migrate-to-shoehorn` | 其他 | Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to re |
 | `minimax-cli-image` | 其他 | 使用本地 mmx CLI 生成图片。适用于本机已安装并认证 mmx，且需要用 prompt 文本、prompt 文件或 batch.json 批量生成配图的场景。 |
-| `notebooklm` | 其他 | Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed  |
+| `notebooklm` | 其他 | Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed |
 | `obsidian-vault` | 其他 | Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, crea |
 | `office-hours` | office-hours | YC Office Hours — two modes. (gstack) |
 | `open-gstack-browser` | gstack 基础 | Launch GStack Browser — AI-controlled Chromium with the sidebar extension baked in. |
@@ -252,12 +252,12 @@ url: ""
 | `research` | 其他 | Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use w |
 | `resolving-merge-conflicts` | 其他 | "Use when you need to resolve an in-progress git merge/rebase conflict." |
 | `retro` | 回顾/办公 | Weekly engineering retrospective. (gstack) |
-| `retrospective-codify` | Auto review | 'Pair "what failed first" with "what finally worked" and codify the should-have-known-it insight as an ast-grep rule, a  |
+| `retrospective-codify` | Auto review | 'Pair "what failed first" with "what finally worked" and codify the should-have-known-it insight as an ast-grep rule, a |
 | `review` | Review 类 | Pre-landing PR review. (gstack) |
 | `role-prd-design-expert` | 其他 | 'Creates product requirement specification documents from user stories. Use when writing PRDs, defining product features |
 | `scaffold-exercises` | 其他 | Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user |
 | `scrape` | 其他 | Pull data from a web page. (gstack) |
-| `sensenova-image-gen` | 其他 | Use when users ask to generate or create images with SenseNova, SenseNova U1 Fast, or 商汤. Triggers include 生成图片, 画图, 做图, |
+| `sensenova-image-gen` | 其他 | Use when users ask to generate or create images with SenseNova, SenseNova U1 Fast, or 商汤. Triggers include 生成图片，画图，做图，|
 | `setup-browser-cookies` | gstack 基础 | Import cookies from your real Chromium browser into the headless browse session. (gstack) |
 | `setup-deploy` | Claude Code | Configure deployment settings for /land-and-deploy. |
 | `setup-gbrain` | Claude Code | "Set up gbrain for this coding agent: install the CLI, initialize a local PGLite or Supabase brain, register MCP, captur |
@@ -267,7 +267,7 @@ url: ""
 | `ship` | gstack 流程 | "Ship workflow: detect + merge base branch, run tests, review diff, bump VERSION, update CHANGELOG, commit, push, create |
 | `sigma` | 其他 | "Personalized 1-on-1 AI tutor using Bloom's 2-Sigma mastery learning. Guides users through any topic with Socratic quest |
 | `siyuan-send` | 其他 | 发送笔记到思源笔记服务器，支持本地文件、网址和对话内容三种输入方式 |
-| `skill-manage` | Skill 工具 | 管理 skill 的全生命周期。当用户说"整理 skill"、"分类 skill"、"同步 skill"、"推送 skill"、"扫描 skill"、"列出 skill"时触发。支持扫描、分类、同步到 GitHub、跨设备备份等操作。 |
+| `skill-manage` | Skill 工具 | 管理 skill 的全生命周期。当用户说“整理 skill"、”分类 skill"、“同步 skill"、”推送 skill"、“扫描 skill"、”列出 skill“时触发。支持扫描、分类、同步到 GitHub、跨设备备份等操作。 |
 | `skillify` | 其他 | Codify the most recent successful /scrape flow into a permanent browser-skill on disk. (gstack) |
 | `spec` | Spec / 计划 | Turn vague intent into a precise, executable spec in five phases. (gstack) |
 | `sync-gbrain` | 配置/同步 | Keep gbrain current with this repo's code and refresh agent search guidance in CLAUDE.md. Wraps the gstack-gbrain-sync o |
@@ -276,11 +276,11 @@ url: ""
 | `to-issues` | 其他 | Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical |
 | `to-prd` | 其他 | Turn the current conversation context into a PRD and publish it to the project issue tracker. Use when user wants to cre |
 | `to-questionnaire` | 其他 | Turn a decision you can't fully answer into a questionnaire for someone else to fill in. |
-| `to-spec` | 其他 | Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of  |
-| `to-tickets` | 其他 | Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges,  |
-| `topic-collector` | 其他 | AI热点采集工具。从Twitter/X、Product Hunt、Reddit、Hacker News、博客等采集AI相关热点内容。当用户说"开始今日选题"、"采集热点"、"看看今天有什么新闻"、"今日AI热点"时触发。聚焦领域：Vibe  |
-| `topic-generator` | 其他 | AI选题生成工具。从采集的热点中筛选TOP10，生成完整选题方案。当用户说"生成选题"、"筛选热点"、"哪些值得写"时触发。输出包含：事件描述、核心角度、标题、写作方式。 |
-| `topic-reviewer` | 其他 | 选题审核工具。检查选题是否符合发布标准，给出通过/不通过判断及修改建议。当用户说"审核选题"、"这个选题行不行"、"帮我看看这个能不能写"时触发。 |
+| `to-spec` | 其他 | Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of |
+| `to-tickets` | 其他 | Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, |
+| `topic-collector` | 其他 | AI 热点采集工具。从 Twitter/X、Product Hunt、Reddit、Hacker News、博客等采集 AI 相关热点内容。当用户说”开始今日选题“、”采集热点“、”看看今天有什么新闻“、”今日 AI 热点“时触发。聚焦领域：Vibe |
+| `topic-generator` | 其他 | AI 选题生成工具。从采集的热点中筛选 TOP10，生成完整选题方案。当用户说”生成选题“、”筛选热点“、”哪些值得写“时触发。输出包含：事件描述、核心角度、标题、写作方式。 |
+| `topic-reviewer` | 其他 | 选题审核工具。检查选题是否符合发布标准，给出通过/不通过判断及修改建议。当用户说”审核选题“、”这个选题行不行“、”帮我看看这个能不能写“时触发。 |
 | `triage` | 其他 | Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write ag |
 | `typst-author-chinese` | 其他 | 生成符合中文排版习惯的 Typst（.typ）代码，编辑、调试 Typst 文档与项目，回答 Typst 语法与参考问题。当用户处理 .typ 文件、涉及 Typst 文档创建/编辑/调试/编译/格式化/模板/包的使用，或者涉及中文排版、中 |
 | `ubiquitous-language` | 其他 | Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canon |
@@ -288,17 +288,17 @@ url: ""
 | `vast-agent-skill-reviewer` | vast 系列 | 根据最佳实践审查代理技能（Agent Skill）目录和 SKILL.md 文件。当用户想要审查、验证或检查代理技能实现时使用此技能。 |
 | `vast-c4-architecture` | vast 系列 | Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, doc |
 | `vast-claude-config-advisor` | vast 系列 | 审查或设计 Claude Code 项目配置。用于用户提到 `.claude`、`CLAUDE.md`、Claude 配置文件、项目级 Claude 自定义配置、配置结构是否合理、该创建哪些配置文件，或希望从零规划 Claude 配置时使用 |
-| `vast-code-review-expert` | vast 系列 | "以高级工程师的视角对当前的 git 变更进行专家级代码审查。检测 SOLID 原则违反、安全风险，并提出可行的改进建议。" |
+| `vast-code-review-expert` | vast 系列 | ”以高级工程师的视角对当前的 git 变更进行专家级代码审查。检测 SOLID 原则违反、安全风险，并提出可行的改进建议。" |
 | `vast-codex-cli` | vast 系列 | 编排 OpenAI Codex CLI 以进行并行任务执行。作为编排者，分析任务、注入上下文、管理会话并协调并行实例。当将编码任务委托给 Codex 或运行多代理工作流时使用。(user) |
 | `vast-dev-arch-top` | vast 系列 | 提供具有五层结构（策略、功能、交互、数据模型、视觉）的项目开发宪法。在启动软件项目、定义架构或建立开发约束时使用。触发词：“项目开发”、“核心宪法”、“技术铁律”、“五层结构” |
-| `vast-dev-brainstorming` | vast 系列 | "在任何创意工作（创建功能、构建组件、添加功能或修改行为）之前必须使用此技能。在实施前探索用户意图、需求和设计。" |
-| `vast-dev-challenge` | vast 系列 | "跨模型对抗性验证。使用第二个 AI 模型来挑战你的分析、验证主张或审查代码。模式：挑战（寻找缺陷）、验证（事实核查）、审查（同行评审）。" |
+| `vast-dev-brainstorming` | vast 系列 | “在任何创意工作（创建功能、构建组件、添加功能或修改行为）之前必须使用此技能。在实施前探索用户意图、需求和设计。" |
+| `vast-dev-challenge` | vast 系列 | ”跨模型对抗性验证。使用第二个 AI 模型来挑战你的分析、验证主张或审查代码。模式：挑战（寻找缺陷）、验证（事实核查）、审查（同行评审）。" |
 | `vast-dev-code-reader` | vast 系列 | 当您想要深度理解一个陌生的代码库并从中生成可重用的认知技能时使用，通过提供本地路径或 GitHub URL。 |
 | `vast-dev-commit-as-prompt` | vast 系列 | 将 Git 提交转化为结构化 Prompt 上下文，帮助 AI 在代码审查、技术债评估或文档编写时快速理解变更的目标/动机/手段 |
-| `vast-dev-cross-verify` | vast 系列 | 7阶段高风险功能开发工作流，包含4轮独立交叉验证，在投入生产前捕获并发、幂等性和跨服务 bug。用于金融交易、订单/库存状态机、分布式锁、跨服务接口变更、在线 schema 迁移等高风险场景。触发词：'cross-verified'、'交叉 |
-| `vast-dev-dir-organizer` | vast 系列 | "整理和优化项目目录结构。当用户请求整理目录、分类文件、清理无用文件或重构文件夹结构时调用此技能。" |
+| `vast-dev-cross-verify` | vast 系列 | 7 阶段高风险功能开发工作流，包含 4 轮独立交叉验证，在投入生产前捕获并发、幂等性和跨服务 bug。用于金融交易、订单/库存状态机、分布式锁、跨服务接口变更、在线 schema 迁移等高风险场景。触发词：'cross-verified'、’交叉 |
+| `vast-dev-dir-organizer` | vast 系列 | “整理和优化项目目录结构。当用户请求整理目录、分类文件、清理无用文件或重构文件夹结构时调用此技能。" |
 | `vast-dev-kickoff` | vast 系列 | > |
-| `vast-dev-kickoff-pua` | vast 系列 | "高代理开发循环引擎。强制执行完整的开发周期：规划 → 执行 → 代码审查 → 安全检查 → 验证 → Git 提交。内置 P0 护栏、失败压力升级机制以及用于自主执行的循环模式。" |
+| `vast-dev-kickoff-pua` | vast 系列 | ”高代理开发循环引擎。强制执行完整的开发周期：规划 → 执行 → 代码审查 → 安全检查 → 验证 → Git 提交。内置 P0 护栏、失败压力升级机制以及用于自主执行的循环模式。" |
 | `vast-dev-office-hours` | vast 系列 | \| |
 | `vast-dev-project-analyzer` | vast 系列 | 基于深度代码库分析生成全面的项目文档（白皮书），涵盖架构、模块、测试和部署。 |
 | `vast-dev-taste-checker` | vast 系列 | 使用 Linus Torvalds 的 “good taste” 哲学审查代码。消除防御性代码、特殊情况和深度嵌套。在审查代码质量、重构或检查代码异味时使用。 |
@@ -315,11 +315,11 @@ url: ""
 | `vast-khazix-neat-freak` | vast 系列 | > |
 | `vast-learning-builder` | vast 系列 | Create personalized learning tutorials from a learner profile and authority-first research. Use when the user wants a gu |
 | `vast-markdown-proxy` | vast 系列 | \| |
-| `vast-marp-slide` | vast 系列 | Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech,  |
-| `vast-md-summarizer` | vast 系列 | "分析和总结指定的本地 Markdown 文件，并输出结构化的中文总结。当用户请求总结、分析或提取本地 Markdown 文档信息时调用此技能。" |
-| `vast-md-translator` | vast 系列 | "将指定的本地 Markdown 文件翻译成指定语言（默认中文），并在文件名中添加语言标识后缀。当用户请求翻译本地 Markdown 文档时调用此技能。" |
-| `vast-mentor` | vast 系列 | "渐进式学习导师。帮助用户逐步学习书籍章节内容，像私人家庭教师一样通过自然对话推进教学。触发场景：'学习第三章'、'帮我消化这部分'、'讲讲这个概念'、'我不太懂这里'、'这个知识点什么意思'、'教我学这门课'、'带我读一下这本书'、'逐步 |
-| `vast-pm-prd-design-expert` | vast 系列 | '根据用户故事创建产品需求规格文档。在编写 PRD、定义产品功能或将用户故事转换为规格说明时使用。触发词：“产品需求”、“PRD”、“需求规格说明书”、“用户故事”' |
+| `vast-marp-slide` | vast 系列 | Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech, |
+| `vast-md-summarizer` | vast 系列 | “分析和总结指定的本地 Markdown 文件，并输出结构化的中文总结。当用户请求总结、分析或提取本地 Markdown 文档信息时调用此技能。" |
+| `vast-md-translator` | vast 系列 | ”将指定的本地 Markdown 文件翻译成指定语言（默认中文），并在文件名中添加语言标识后缀。当用户请求翻译本地 Markdown 文档时调用此技能。" |
+| `vast-mentor` | vast 系列 | “渐进式学习导师。帮助用户逐步学习书籍章节内容，像私人家庭教师一样通过自然对话推进教学。触发场景：’学习第三章’、’帮我消化这部分’、’讲讲这个概念’、’我不太懂这里’、’这个知识点什么意思’、’教我学这门课’、’带我读一下这本书’、’逐步 |
+| `vast-pm-prd-design-expert` | vast 系列 | ’根据用户故事创建产品需求规格文档。在编写 PRD、定义产品功能或将用户故事转换为规格说明时使用。触发词：“产品需求”、“PRD”、“需求规格说明书”、“用户故事”' |
 | `vast-pm-prd-writer` | vast 系列 | \| |
 | `vast-pm-product-describer` | vast 系列 | \| |
 | `vast-pm-roadmap-planner` | vast 系列 | \| |
@@ -328,9 +328,9 @@ url: ""
 | `vast-skill-forge` | vast 系列 | "Create high-quality, production-grade skills for Claude Code. Expert guidance on skill architecture, workflow design, p |
 | `vast-skill-optimizer` | vast 系列 | 优化和重构现有 skill。用于检查目标 skill 的触发描述、SKILL.md 工作流、确认门槛、渐进式披露，以及 references/scripts/assets 的组织方式。当用户提到”优化 skill””检查 skill 质量” |
 | `vast-skill-recommend-add` | vast 系列 | 向 vast-skill-recommender 的内置推荐列表添加新技能，并同步安装到全局 skills 目录。触发词：登记推荐技能、添加内置推荐、推荐新技能。 |
-| `vast-skill-recommender` | vast 系列 | '维护技能推荐列表。支持添加、删除、更新、查看技能推荐，类似 sanyuan-skills 的技能展示。触发词: /skill-recommend、"技能推荐"、"添加技能"、"删除技能"、"更新技能"' |
-| `vast-skill-review` | vast 系列 | "Quality review and audit for Claude Code skills. Analyzes skill structure, description quality, workflow design, token  |
-| `vast-social-xhs-card` | vast 系列 | 将长内容转换为小红书/Instagram 风格的视觉卡片。在创建社交媒体卡片系列、知识卡片或小红书视觉内容时使用。触发词：“小红书卡片”、“系列卡片”、“视觉卡片”、“4:5画布” |
+| `vast-skill-recommender` | vast 系列 | ’维护技能推荐列表。支持添加、删除、更新、查看技能推荐，类似 sanyuan-skills 的技能展示。触发词：/skill-recommend、”技能推荐“、”添加技能“、”删除技能“、”更新技能“' |
+| `vast-skill-review` | vast 系列 | "Quality review and audit for Claude Code skills. Analyzes skill structure, description quality, workflow design, token |
+| `vast-social-xhs-card` | vast 系列 | 将长内容转换为小红书/Instagram 风格的视觉卡片。在创建社交媒体卡片系列、知识卡片或小红书视觉内容时使用。触发词：“小红书卡片”、“系列卡片”、“视觉卡片”、“4:5 画布” |
 | `vast-social-xhs-content-script` | vast 系列 | 通过多轮对话生成小红书爆款文案和 2 分钟口播脚本。在创建小红书内容、分析爆款元素或撰写高参与度帖子时使用。触发词：“小红书爆款”、“爆款文案”、“口播脚本”、“小红书流量” |
 | `vast-trading-cognitive-guardrails` | vast 系列 | 防止 AI 只挑你爱听的说。当你询问投资相关问题（买入/卖出/持有/分析）时自动激活。触发于股票代码、投资组合持仓或目标价，以确保客观、方向中立的财务分析。 |
 | `vast-universal-system-prompt` | vast 系列 | 为高级 AI 助手提供量子织锦认知引擎框架。当用户需要深度多维思考、跨概念模式识别或想要激活全面的认知协议时使用。触发词：“量子织锦”、“认知引擎”、“深度思考”、“系统初始化” |
@@ -339,14 +339,14 @@ url: ""
 | `vercel-composition-patterns` | 其他 | React composition patterns that scale. Use when refactoring components with |
 | `vercel-react-best-practices` | 其他 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, r |
 | `vercel-react-native-skills` | 其他 | React Native and Expo best practices for building performant mobile apps. Use |
-| `vibe-illustrator` | 其他 | 文章配图调度中心。根据文章类型和用户需求，智能调度最合适的配图方案。当用户说"配图"、"生成图片"、"为文章配图"时触发。 |
-| `vibe-publisher` | 其他 | 发布调度中心。根据内容类型和目标平台，智能调度最合适的发布方案。当用户说"发布"、"群发"、"发布到"时触发。 |
-| `vibe-writer` | 其他 | 写作工作流总调度Skill。协调9个子Skill完成完整写作流程：热点采集→选题生成→选题审核→共同创作→深度审稿→配图调度→配图生成→发布调度→发布。当用户说"开始写作"、"帮我写文章"、"写一篇"时触发。 |
-| `vibe-writer-auto` | 其他 | 全自动写作流程Skill。自动完成热点采集→选题生成→选题审核→文章创作→配图→发布的完整流程，无需用户介入。当用户说"自动写作"、"全自动写文章"、"帮我自动写一篇"时触发。 |
+| `vibe-illustrator` | 其他 | 文章配图调度中心。根据文章类型和用户需求，智能调度最合适的配图方案。当用户说”配图“、”生成图片“、”为文章配图“时触发。 |
+| `vibe-publisher` | 其他 | 发布调度中心。根据内容类型和目标平台，智能调度最合适的发布方案。当用户说”发布“、”群发“、”发布到“时触发。 |
+| `vibe-writer` | 其他 | 写作工作流总调度 Skill。协调 9 个子 Skill 完成完整写作流程：热点采集→选题生成→选题审核→共同创作→深度审稿→配图调度→配图生成→发布调度→发布。当用户说”开始写作“、”帮我写文章“、”写一篇“时触发。 |
+| `vibe-writer-auto` | 其他 | 全自动写作流程 Skill。自动完成热点采集→选题生成→选题审核→文章创作→配图→发布的完整流程，无需用户介入。当用户说”自动写作“、”全自动写文章“、”帮我自动写一篇“时触发。 |
 | `wayfinder` | 其他 | Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tra |
-| `web-design-guidelines` | 其他 | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit  |
-| `wechat-article-formatter` | 其他 | 将Markdown文章转换为美化的HTML格式，适配微信公众号发布。应用专业CSS样式、代码高亮、优化排版。当用户说"美化这篇文章"、"转换为HTML"、"优化公众号格式"、"生成公众号HTML"时使用。 |
-| `wechat-draft-publisher` | 其他 | 自动将 HTML 文章发布到微信公众号草稿箱，支持封面图上传、标题、作者和元数据管理。当用户说"推送到微信"、"发布到公众号草稿"、"上传到草稿箱"或提到微信文章发布时使用。 |
+| `web-design-guidelines` | 其他 | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit |
+| `wechat-article-formatter` | 其他 | 将 Markdown 文章转换为美化的 HTML 格式，适配微信公众号发布。应用专业 CSS 样式、代码高亮、优化排版。当用户说”美化这篇文章“、”转换为 HTML"、“优化公众号格式”、“生成公众号 HTML”时使用。 |
+| `wechat-draft-publisher` | 其他 | 自动将 HTML 文章发布到微信公众号草稿箱，支持封面图上传、标题、作者和元数据管理。当用户说“推送到微信”、“发布到公众号草稿”、“上传到草稿箱”或提到微信文章发布时使用。 |
 | `wiki-ingest` | 其他 | "Compile articles, documents, or notes into a structured wiki knowledge base. Use when user says 'ingest to wiki', 'comp |
 | `wizard` | 其他 | Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migrati |
 | `write-a-skill` | 其他 | Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to cre |
@@ -371,7 +371,7 @@ url: ""
 - **`domain-modeling`** — Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous langu
 - **`find-skills`** — Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is th
 - **`freeze`** — Restrict file edits to a specific directory for the session. (gstack)
-- **`gemini-image`** — 当用户想要生成图片、画图、绘画、创建图像、AI作画时使用此 Skill。支持文生图和图生图。
+- **`gemini-image`** — 当用户想要生成图片、画图、绘画、创建图像、AI 作画时使用此 Skill。支持文生图和图生图。
 - **`gemini-manager`** — This skill should be used when the user wants Claude Code to act purely as a manager/architect while Gemini CLI does all
 - **`git-guardrails-claude-code`** — Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execut
 - **`grill-me`** — A relentless interview to sharpen a plan or design.
@@ -387,23 +387,23 @@ url: ""
 - **`ios-fix`** — Autonomous iOS bug fixer. (gstack)
 - **`ios-qa`** — Live-device iOS QA for SwiftUI apps. (gstack)
 - **`ios-sync`** — Regenerate the iOS debug bridge against the latest upstream gstack templates. (gstack)
-- **`knowledge-site-creator`** — 一句话生成任何领域的知识学习网站。AI自动理解主题、创作内容、生成页面、部署上线。适用于任何需要系统学习的知识领域：进化心理学、大模型术语、化学元素、历史事件等。
+- **`knowledge-site-creator`** — 一句话生成任何领域的知识学习网站。AI 自动理解主题、创作内容、生成页面、部署上线。适用于任何需要系统学习的知识领域：进化心理学、大模型术语、化学元素、历史事件等。
 - **`ljg-card`** — "Content caster (铸). Transforms content into PNG visuals. Six molds: -l (default) long reading card, -i infograph, -m mu
-- **`ljg-invest`** — 投资分析, 生成一份深度投资分析报告。不做传统投资分析——核心判断是项目是否是一台「秩序创造机器」。Use when user says '投资报告', '投资分析', '分析这个项目', '写投资报告', 'investment repo
+- **`ljg-invest`** — 投资分析，生成一份深度投资分析报告。不做传统投资分析——核心判断是项目是否是一台「秩序创造机器」。Use when user says ’投资报告’, ’投资分析’, ’分析这个项目’, ’写投资报告’, 'investment repo
 - **`ljg-learn`** — Deep concept anatomist that deconstructs any concept through 8 exploration dimensions (history, dialectics, phenomenolog
 - **`ljg-paper`** — 
 - **`ljg-paper-flow`** — "Paper workflow: read papers + cast cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. Fo
-- **`ljg-paper-river`** — "论文倒读法：给一篇论文，递归找出它批判和改进的前序论文（最多5层），再找它之后的最新进展，从源头正向讲述问题演化史。以问题为轴，费曼式讲解每篇论文看到的问题和解法创新。Use when user shares a paper and wa
+- **`ljg-paper-river`** — “论文倒读法：给一篇论文，递归找出它批判和改进的前序论文（最多 5 层），再找它之后的最新进展，从源头正向讲述问题演化史。以问题为轴，费曼式讲解每篇论文看到的问题和解法创新。Use when user shares a paper and wa
 - **`ljg-plain`** — 
-- **`ljg-rank`** — 给一个领域，找出背后真正撑着它的几根独立的力。十几个现象砍到不可再少的生成器——砍完能把现象一个个生回来，才算数。Use when user says '降秩', '找秩', '秩是什么', '这个领域靠什么撑着', '背后是什么', or
+- **`ljg-rank`** — 给一个领域，找出背后真正撑着它的几根独立的力。十几个现象砍到不可再少的生成器——砍完能把现象一个个生回来，才算数。Use when user says ’降秩’, ’找秩’, ’秩是什么’, ’这个领域靠什么撑着’, ’背后是什么’, or
 - **`ljg-relationship`** — >-
 - **`ljg-roundtable`** — 
 - **`ljg-skill-map`** — 
-- **`ljg-think`** — 追本之箭——纵向深钻思维工具。给一个观点、现象或问题，像箭一样一路向下钻到不可再分的本质。Use when user says '想透', '追本', '本质是什么', '为什么会这样', '深挖', '钻到底', 'think deep'
+- **`ljg-think`** — 追本之箭——纵向深钻思维工具。给一个观点、现象或问题，像箭一样一路向下钻到不可再分的本质。Use when user says ’想透’, ’追本’, ’本质是什么’, ’为什么会这样’, ’深挖’, ’钻到底’, 'think deep'
 - **`ljg-travel`** — "Deep travel research workflow for museums and ancient architecture. Input a city name, auto-generates structured knowle
 - **`ljg-word`** — 
 - **`ljg-word-flow`** — "Word flow: deep-dive word analysis + infograph card in one go. Takes one or more English words, runs ljg-word (generate
-- **`ljg-writes`** — "写作引擎。带着一个观点出发，在写的过程中把它想透。"
+- **`ljg-writes`** — ”写作引擎。带着一个观点出发，在写的过程中把它想透。"
 - **`loop-me`** — Grill me about specs for the workflows I want to build, within this workspace.
 - **`make-pdf`** — Turn any markdown file into a publication-quality PDF. (gstack)
 - **`migrate-to-shoehorn`** — Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to re
@@ -422,7 +422,7 @@ url: ""
 - **`role-prd-design-expert`** — 'Creates product requirement specification documents from user stories. Use when writing PRDs, defining product features
 - **`scaffold-exercises`** — Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user
 - **`scrape`** — Pull data from a web page. (gstack)
-- **`sensenova-image-gen`** — Use when users ask to generate or create images with SenseNova, SenseNova U1 Fast, or 商汤. Triggers include 生成图片, 画图, 做图,
+- **`sensenova-image-gen`** — Use when users ask to generate or create images with SenseNova, SenseNova U1 Fast, or 商汤. Triggers include 生成图片，画图，做图，
 - **`sigma`** — "Personalized 1-on-1 AI tutor using Bloom's 2-Sigma mastery learning. Guides users through any topic with Socratic quest
 - **`siyuan-send`** — 发送笔记到思源笔记服务器，支持本地文件、网址和对话内容三种输入方式
 - **`skillify`** — Codify the most recent successful /scrape flow into a permanent browser-skill on disk. (gstack)
@@ -433,9 +433,9 @@ url: ""
 - **`to-questionnaire`** — Turn a decision you can't fully answer into a questionnaire for someone else to fill in.
 - **`to-spec`** — Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of 
 - **`to-tickets`** — Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, 
-- **`topic-collector`** — AI热点采集工具。从Twitter/X、Product Hunt、Reddit、Hacker News、博客等采集AI相关热点内容。当用户说"开始今日选题"、"采集热点"、"看看今天有什么新闻"、"今日AI热点"时触发。聚焦领域：Vibe 
-- **`topic-generator`** — AI选题生成工具。从采集的热点中筛选TOP10，生成完整选题方案。当用户说"生成选题"、"筛选热点"、"哪些值得写"时触发。输出包含：事件描述、核心角度、标题、写作方式。
-- **`topic-reviewer`** — 选题审核工具。检查选题是否符合发布标准，给出通过/不通过判断及修改建议。当用户说"审核选题"、"这个选题行不行"、"帮我看看这个能不能写"时触发。
+- **`topic-collector`** — AI 热点采集工具。从 Twitter/X、Product Hunt、Reddit、Hacker News、博客等采集 AI 相关热点内容。当用户说“开始今日选题”、“采集热点”、“看看今天有什么新闻”、“今日 AI 热点”时触发。聚焦领域：Vibe 
+- **`topic-generator`** — AI 选题生成工具。从采集的热点中筛选 TOP10，生成完整选题方案。当用户说“生成选题”、“筛选热点”、“哪些值得写”时触发。输出包含：事件描述、核心角度、标题、写作方式。
+- **`topic-reviewer`** — 选题审核工具。检查选题是否符合发布标准，给出通过/不通过判断及修改建议。当用户说“审核选题”、“这个选题行不行”、“帮我看看这个能不能写”时触发。
 - **`triage`** — Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write ag
 - **`typst-author-chinese`** — 生成符合中文排版习惯的 Typst（.typ）代码，编辑、调试 Typst 文档与项目，回答 Typst 语法与参考问题。当用户处理 .typ 文件、涉及 Typst 文档创建/编辑/调试/编译/格式化/模板/包的使用，或者涉及中文排版、中
 - **`ubiquitous-language`** — Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canon
@@ -443,14 +443,14 @@ url: ""
 - **`vercel-composition-patterns`** — React composition patterns that scale. Use when refactoring components with
 - **`vercel-react-best-practices`** — React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, r
 - **`vercel-react-native-skills`** — React Native and Expo best practices for building performant mobile apps. Use
-- **`vibe-illustrator`** — 文章配图调度中心。根据文章类型和用户需求，智能调度最合适的配图方案。当用户说"配图"、"生成图片"、"为文章配图"时触发。
-- **`vibe-publisher`** — 发布调度中心。根据内容类型和目标平台，智能调度最合适的发布方案。当用户说"发布"、"群发"、"发布到"时触发。
-- **`vibe-writer`** — 写作工作流总调度Skill。协调9个子Skill完成完整写作流程：热点采集→选题生成→选题审核→共同创作→深度审稿→配图调度→配图生成→发布调度→发布。当用户说"开始写作"、"帮我写文章"、"写一篇"时触发。
-- **`vibe-writer-auto`** — 全自动写作流程Skill。自动完成热点采集→选题生成→选题审核→文章创作→配图→发布的完整流程，无需用户介入。当用户说"自动写作"、"全自动写文章"、"帮我自动写一篇"时触发。
+- **`vibe-illustrator`** — 文章配图调度中心。根据文章类型和用户需求，智能调度最合适的配图方案。当用户说“配图”、“生成图片”、“为文章配图”时触发。
+- **`vibe-publisher`** — 发布调度中心。根据内容类型和目标平台，智能调度最合适的发布方案。当用户说“发布”、“群发”、“发布到”时触发。
+- **`vibe-writer`** — 写作工作流总调度 Skill。协调 9 个子 Skill 完成完整写作流程：热点采集→选题生成→选题审核→共同创作→深度审稿→配图调度→配图生成→发布调度→发布。当用户说“开始写作”、“帮我写文章”、“写一篇”时触发。
+- **`vibe-writer-auto`** — 全自动写作流程 Skill。自动完成热点采集→选题生成→选题审核→文章创作→配图→发布的完整流程，无需用户介入。当用户说“自动写作”、“全自动写文章”、“帮我自动写一篇”时触发。
 - **`wayfinder`** — Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tra
 - **`web-design-guidelines`** — Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit 
-- **`wechat-article-formatter`** — 将Markdown文章转换为美化的HTML格式，适配微信公众号发布。应用专业CSS样式、代码高亮、优化排版。当用户说"美化这篇文章"、"转换为HTML"、"优化公众号格式"、"生成公众号HTML"时使用。
-- **`wechat-draft-publisher`** — 自动将 HTML 文章发布到微信公众号草稿箱，支持封面图上传、标题、作者和元数据管理。当用户说"推送到微信"、"发布到公众号草稿"、"上传到草稿箱"或提到微信文章发布时使用。
+- **`wechat-article-formatter`** — 将 Markdown 文章转换为美化的 HTML 格式，适配微信公众号发布。应用专业 CSS 样式、代码高亮、优化排版。当用户说“美化这篇文章”、“转换为 HTML"、”优化公众号格式“、”生成公众号 HTML“时使用。
+- **`wechat-draft-publisher`** — 自动将 HTML 文章发布到微信公众号草稿箱，支持封面图上传、标题、作者和元数据管理。当用户说”推送到微信“、”发布到公众号草稿“、”上传到草稿箱“或提到微信文章发布时使用。
 - **`wiki-ingest`** — "Compile articles, documents, or notes into a structured wiki knowledge base. Use when user says 'ingest to wiki', 'comp
 - **`wizard`** — Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migrati
 - **`write-a-skill`** — Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to cre
@@ -534,17 +534,17 @@ url: ""
 - **`vast-agent-skill-reviewer`** — 根据最佳实践审查代理技能（Agent Skill）目录和 SKILL.md 文件。当用户想要审查、验证或检查代理技能实现时使用此技能。
 - **`vast-c4-architecture`** — Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, doc
 - **`vast-claude-config-advisor`** — 审查或设计 Claude Code 项目配置。用于用户提到 `.claude`、`CLAUDE.md`、Claude 配置文件、项目级 Claude 自定义配置、配置结构是否合理、该创建哪些配置文件，或希望从零规划 Claude 配置时使用
-- **`vast-code-review-expert`** — "以高级工程师的视角对当前的 git 变更进行专家级代码审查。检测 SOLID 原则违反、安全风险，并提出可行的改进建议。"
+- **`vast-code-review-expert`** — ”以高级工程师的视角对当前的 git 变更进行专家级代码审查。检测 SOLID 原则违反、安全风险，并提出可行的改进建议。"
 - **`vast-codex-cli`** — 编排 OpenAI Codex CLI 以进行并行任务执行。作为编排者，分析任务、注入上下文、管理会话并协调并行实例。当将编码任务委托给 Codex 或运行多代理工作流时使用。(user)
 - **`vast-dev-arch-top`** — 提供具有五层结构（策略、功能、交互、数据模型、视觉）的项目开发宪法。在启动软件项目、定义架构或建立开发约束时使用。触发词：“项目开发”、“核心宪法”、“技术铁律”、“五层结构”
-- **`vast-dev-brainstorming`** — "在任何创意工作（创建功能、构建组件、添加功能或修改行为）之前必须使用此技能。在实施前探索用户意图、需求和设计。"
-- **`vast-dev-challenge`** — "跨模型对抗性验证。使用第二个 AI 模型来挑战你的分析、验证主张或审查代码。模式：挑战（寻找缺陷）、验证（事实核查）、审查（同行评审）。"
+- **`vast-dev-brainstorming`** — “在任何创意工作（创建功能、构建组件、添加功能或修改行为）之前必须使用此技能。在实施前探索用户意图、需求和设计。"
+- **`vast-dev-challenge`** — ”跨模型对抗性验证。使用第二个 AI 模型来挑战你的分析、验证主张或审查代码。模式：挑战（寻找缺陷）、验证（事实核查）、审查（同行评审）。"
 - **`vast-dev-code-reader`** — 当您想要深度理解一个陌生的代码库并从中生成可重用的认知技能时使用，通过提供本地路径或 GitHub URL。
 - **`vast-dev-commit-as-prompt`** — 将 Git 提交转化为结构化 Prompt 上下文，帮助 AI 在代码审查、技术债评估或文档编写时快速理解变更的目标/动机/手段
-- **`vast-dev-cross-verify`** — 7阶段高风险功能开发工作流，包含4轮独立交叉验证，在投入生产前捕获并发、幂等性和跨服务 bug。用于金融交易、订单/库存状态机、分布式锁、跨服务接口变更、在线 schema 迁移等高风险场景。触发词：'cross-verified'、'交叉
-- **`vast-dev-dir-organizer`** — "整理和优化项目目录结构。当用户请求整理目录、分类文件、清理无用文件或重构文件夹结构时调用此技能。"
+- **`vast-dev-cross-verify`** — 7 阶段高风险功能开发工作流，包含 4 轮独立交叉验证，在投入生产前捕获并发、幂等性和跨服务 bug。用于金融交易、订单/库存状态机、分布式锁、跨服务接口变更、在线 schema 迁移等高风险场景。触发词：'cross-verified'、’交叉
+- **`vast-dev-dir-organizer`** — “整理和优化项目目录结构。当用户请求整理目录、分类文件、清理无用文件或重构文件夹结构时调用此技能。"
 - **`vast-dev-kickoff`** — >
-- **`vast-dev-kickoff-pua`** — "高代理开发循环引擎。强制执行完整的开发周期：规划 → 执行 → 代码审查 → 安全检查 → 验证 → Git 提交。内置 P0 护栏、失败压力升级机制以及用于自主执行的循环模式。"
+- **`vast-dev-kickoff-pua`** — ”高代理开发循环引擎。强制执行完整的开发周期：规划 → 执行 → 代码审查 → 安全检查 → 验证 → Git 提交。内置 P0 护栏、失败压力升级机制以及用于自主执行的循环模式。"
 - **`vast-dev-office-hours`** — |
 - **`vast-dev-project-analyzer`** — 基于深度代码库分析生成全面的项目文档（白皮书），涵盖架构、模块、测试和部署。
 - **`vast-dev-taste-checker`** — 使用 Linus Torvalds 的 “good taste” 哲学审查代码。消除防御性代码、特殊情况和深度嵌套。在审查代码质量、重构或检查代码异味时使用。
@@ -562,10 +562,10 @@ url: ""
 - **`vast-learning-builder`** — Create personalized learning tutorials from a learner profile and authority-first research. Use when the user wants a gu
 - **`vast-markdown-proxy`** — |
 - **`vast-marp-slide`** — Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech, 
-- **`vast-md-summarizer`** — "分析和总结指定的本地 Markdown 文件，并输出结构化的中文总结。当用户请求总结、分析或提取本地 Markdown 文档信息时调用此技能。"
-- **`vast-md-translator`** — "将指定的本地 Markdown 文件翻译成指定语言（默认中文），并在文件名中添加语言标识后缀。当用户请求翻译本地 Markdown 文档时调用此技能。"
-- **`vast-mentor`** — "渐进式学习导师。帮助用户逐步学习书籍章节内容，像私人家庭教师一样通过自然对话推进教学。触发场景：'学习第三章'、'帮我消化这部分'、'讲讲这个概念'、'我不太懂这里'、'这个知识点什么意思'、'教我学这门课'、'带我读一下这本书'、'逐步
-- **`vast-pm-prd-design-expert`** — '根据用户故事创建产品需求规格文档。在编写 PRD、定义产品功能或将用户故事转换为规格说明时使用。触发词：“产品需求”、“PRD”、“需求规格说明书”、“用户故事”'
+- **`vast-md-summarizer`** — “分析和总结指定的本地 Markdown 文件，并输出结构化的中文总结。当用户请求总结、分析或提取本地 Markdown 文档信息时调用此技能。"
+- **`vast-md-translator`** — ”将指定的本地 Markdown 文件翻译成指定语言（默认中文），并在文件名中添加语言标识后缀。当用户请求翻译本地 Markdown 文档时调用此技能。"
+- **`vast-mentor`** — “渐进式学习导师。帮助用户逐步学习书籍章节内容，像私人家庭教师一样通过自然对话推进教学。触发场景：’学习第三章’、’帮我消化这部分’、’讲讲这个概念’、’我不太懂这里’、’这个知识点什么意思’、’教我学这门课’、’带我读一下这本书’、’逐步
+- **`vast-pm-prd-design-expert`** — ’根据用户故事创建产品需求规格文档。在编写 PRD、定义产品功能或将用户故事转换为规格说明时使用。触发词：“产品需求”、“PRD”、“需求规格说明书”、“用户故事”'
 - **`vast-pm-prd-writer`** — |
 - **`vast-pm-product-describer`** — |
 - **`vast-pm-roadmap-planner`** — |
@@ -574,9 +574,9 @@ url: ""
 - **`vast-skill-forge`** — "Create high-quality, production-grade skills for Claude Code. Expert guidance on skill architecture, workflow design, p
 - **`vast-skill-optimizer`** — 优化和重构现有 skill。用于检查目标 skill 的触发描述、SKILL.md 工作流、确认门槛、渐进式披露，以及 references/scripts/assets 的组织方式。当用户提到”优化 skill””检查 skill 质量”
 - **`vast-skill-recommend-add`** — 向 vast-skill-recommender 的内置推荐列表添加新技能，并同步安装到全局 skills 目录。触发词：登记推荐技能、添加内置推荐、推荐新技能。
-- **`vast-skill-recommender`** — '维护技能推荐列表。支持添加、删除、更新、查看技能推荐，类似 sanyuan-skills 的技能展示。触发词: /skill-recommend、"技能推荐"、"添加技能"、"删除技能"、"更新技能"'
+- **`vast-skill-recommender`** — ’维护技能推荐列表。支持添加、删除、更新、查看技能推荐，类似 sanyuan-skills 的技能展示。触发词：/skill-recommend、”技能推荐“、”添加技能“、”删除技能“、”更新技能“'
 - **`vast-skill-review`** — "Quality review and audit for Claude Code skills. Analyzes skill structure, description quality, workflow design, token 
-- **`vast-social-xhs-card`** — 将长内容转换为小红书/Instagram 风格的视觉卡片。在创建社交媒体卡片系列、知识卡片或小红书视觉内容时使用。触发词：“小红书卡片”、“系列卡片”、“视觉卡片”、“4:5画布”
+- **`vast-social-xhs-card`** — 将长内容转换为小红书/Instagram 风格的视觉卡片。在创建社交媒体卡片系列、知识卡片或小红书视觉内容时使用。触发词：“小红书卡片”、“系列卡片”、“视觉卡片”、“4:5 画布”
 - **`vast-social-xhs-content-script`** — 通过多轮对话生成小红书爆款文案和 2 分钟口播脚本。在创建小红书内容、分析爆款元素或撰写高参与度帖子时使用。触发词：“小红书爆款”、“爆款文案”、“口播脚本”、“小红书流量”
 - **`vast-trading-cognitive-guardrails`** — 防止 AI 只挑你爱听的说。当你询问投资相关问题（买入/卖出/持有/分析）时自动激活。触发于股票代码、投资组合持仓或目标价，以确保客观、方向中立的财务分析。
 - **`vast-universal-system-prompt`** — 为高级 AI 助手提供量子织锦认知引擎框架。当用户需要深度多维思考、跨概念模式识别或想要激活全面的认知协议时使用。触发词：“量子织锦”、“认知引擎”、“深度思考”、“系统初始化”
@@ -625,7 +625,7 @@ url: ""
 - **`design-html`** — "Design finalization: generates production-quality Pretext-native HTML/CSS. (gstack)"
 - **`design-review`** — "Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interacti
 - **`design-shotgun`** — "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate
-- **`huashu-design`** — 花叔Design（Huashu-Design）——用HTML做高保真原型、交互Demo、幻灯片、动画、设计变体探索+设计方向顾问+专家评审的一体化设计能力。HTML是工具不是媒介，根据任务embody不同专家（UX设计师/动画师/幻灯片设计
+- **`huashu-design`** — 花叔 Design（Huashu-Design）——用 HTML 做高保真原型、交互 Demo、幻灯片、动画、设计变体探索+设计方向顾问+专家评审的一体化设计能力。HTML 是工具不是媒介，根据任务 embody 不同专家（UX 设计师/动画师/幻灯片设计
 
 ### gstack 计划类 (5 个)
 
@@ -659,7 +659,7 @@ url: ""
 
 ### 内容编辑 (3 个)
 
-- **`article-batch-illustration`** — 分析文章结构并批量生成AI配图，调用Gemini API为每个段落创建专业逻辑图/概念图。当用户说"批量配图"、"给文章配图"、"生成文章插图"、"为这篇文章配图"时触发。支持两种风格：简约手绘风和建筑蓝图编辑风。自动保存到Obsidian
+- **`article-batch-illustration`** — 分析文章结构并批量生成 AI 配图，调用 Gemini API 为每个段落创建专业逻辑图/概念图。当用户说”批量配图“、”给文章配图“、”生成文章插图“、”为这篇文章配图“时触发。支持两种风格：简约手绘风和建筑蓝图编辑风。自动保存到 Obsidian
 - **`article-review`** — 根据原文内容撰写深度文章评价/解读。当用户提供一篇文章、博客、公众号文章或任何长文内容，并要求生成评价、解读、读后感或二次创作内容时使用此技能。适用于：(1) 对技术文章、行业分析、年终总结等进行深度解读，(2) 提炼文章核心观点并用通俗语
 - **`edit-article`** — Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edi
 
@@ -689,7 +689,7 @@ url: ""
 
 ### 学习/规范 (2 个)
 
-- **`chinese-copywriting-guidelines`** — "中文文案排版规范检查与修复。统一中文、英文、数字、标点符号的排版用法,降低沟通成本。Actions: 检查、修复、审查、校对、格式化中文排版、文案排版、排版规范、排版问题。当用户说'检查排版'、'修复排版'、'中文排版'、'文案排版'、'
+- **`chinese-copywriting-guidelines`** — ”中文文案排版规范检查与修复。统一中文、英文、数字、标点符号的排版用法，降低沟通成本。Actions: 检查、修复、审查、校对、格式化中文排版、文案排版、排版规范、排版问题。当用户说’检查排版’、’修复排版’、’中文排版’、’文案排版’、'
 - **`learn`** — Manage project learnings.
 
 ### Codex CLI (2 个)
@@ -722,7 +722,7 @@ url: ""
 
 ### 仓颉 (cangjie) (1 个)
 
-- **`cangjie-skill`** — Distill a book into a coherent set of executable skills. Use when the user asks to "拆书" / "蒸馏一本书" / "把 XX 书做成 skill" / "
+- **`cangjie-skill`** — Distill a book into a coherent set of executable skills. Use when the user asks to “拆书” / “蒸馏一本书” / “把 XX 书做成 skill" / "
 
 ### cangjie/canary (1 个)
 
@@ -734,7 +734,7 @@ url: ""
 
 ### guizang (桂藏) (1 个)
 
-- **`guizang-ppt-skill`** — 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① "电子杂志 × 电子墨水"（衬线 + 流体背景 + 暖色） ② "瑞士国际主义"（无衬线 + 网格点阵 + IKB
+- **`guizang-ppt-skill`** — 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① ”电子杂志 × 电子墨水“（衬线 + 流体背景 + 暖色） ② ”瑞士国际主义“（无衬线 + 网格点阵 + IKB
 
 ### office-hours (1 个)
 
@@ -746,7 +746,7 @@ url: ""
 
 ### Skill 工具 (1 个)
 
-- **`skill-manage`** — 管理 skill 的全生命周期。当用户说"整理 skill"、"分类 skill"、"同步 skill"、"推送 skill"、"扫描 skill"、"列出 skill"时触发。支持扫描、分类、同步到 GitHub、跨设备备份等操作。
+- **`skill-manage`** — 管理 skill 的全生命周期。当用户说”整理 skill"、“分类 skill"、”同步 skill"、“推送 skill"、”扫描 skill"、“列出 skill”时触发。支持扫描、分类、同步到 GitHub、跨设备备份等操作。
 
 ### Spec / 计划 (1 个)
 

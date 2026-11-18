@@ -6,7 +6,7 @@ source: "X/Twitter"
 url: ""
 ---
 
-# Pas推荐 Top10：面向前端/产品/UI 的 Agent Skills
+# Pas 推荐 Top10：面向前端/产品/UI 的 Agent Skills
 
 > 这 10 个 Skills 考虑到设计落地频率、对视觉/交互质量的直接提升、在 Codex/Claude Code 等的高复用性。
 
@@ -63,7 +63,7 @@ url: ""
 ### 9. brand-guidelines（Anthropic）
 - **来源**：https://github.com/anthropics/skills/tree/main/skills/brand-guidelines
 - **用途**：官网、营销页、设计系统、品牌一致性
-- **层级**：比单纯"写 UI"更上层，适合产品/品牌协同
+- **层级**：比单纯“写 UI”更上层，适合产品/品牌协同
 - **安装状态**：✅ 已安装
 
 ### 10. vercel-deploy-claimable（Vercel）

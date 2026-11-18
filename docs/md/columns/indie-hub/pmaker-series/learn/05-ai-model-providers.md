@@ -10,9 +10,9 @@ source: "pmaker.space（空格的键盘）"
 
 你会遇到的现象
 
-*   看了一堆评测，还是不知道自己该用哪个
-*   按跑分选了最强的，实际用起来还不如便宜那个稳
-*   接完一家才发现数据合规过不了，得从头再来
+* 看了一堆评测，还是不知道自己该用哪个
+* 按跑分选了最强的，实际用起来还不如便宜那个稳
+* 接完一家才发现数据合规过不了，得从头再来
 
 ## 为什么不给排名
 
@@ -71,9 +71,9 @@ source: "pmaker.space（空格的键盘）"
 
 ## 资料来源
 
-*   [Claude Platform — Pricing](https://platform.claude.com/docs/en/about-claude/pricing)：海外闭源模型定价的一手来源
-*   [OpenRouter — Models](https://openrouter.ai/models)：多家模型的价格与上下文长度横向对照
-*   [Stanford HAI — AI Index Report](https://hai.stanford.edu/ai-index)：关于「头部模型基准差距收窄」的公开数据依据
-*   [LMArena](https://lmarena.ai/)：基于人类偏好投票的对比榜，适合看趋势，不适合替代你自己的实测
+* [Claude Platform — Pricing](https://platform.claude.com/docs/en/about-claude/pricing)：海外闭源模型定价的一手来源
+* [OpenRouter — Models](https://openrouter.ai/models)：多家模型的价格与上下文长度横向对照
+* [Stanford HAI — AI Index Report](https://hai.stanford.edu/ai-index)：关于「头部模型基准差距收窄」的公开数据依据
+* [LMArena](https://lmarena.ai/)：基于人类偏好投票的对比榜，适合看趋势，不适合替代你自己的实测
 
 资料基准：2026 年 8 月。本文刻意不写具体排名与单价明细，因为这两项过期最快；文中提到的阵营性格是结构性归纳。任何采购决策前，请以厂商官方文档与当期报价页为准。

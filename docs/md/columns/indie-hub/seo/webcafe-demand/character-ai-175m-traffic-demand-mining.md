@@ -20,7 +20,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 哥飞今天就带大家挖一挖。
 
-打开 Similarweb 的"自然落地页"功能，就可以看到按照访问量从高到低排序的各个不同的页面。
+打开 Similarweb 的“自然落地页”功能，就可以看到按照访问量从高到低排序的各个不同的页面。
 
 可以看到前几个大流量页面的关键词都是品牌词，但是第 6、第 9 等页面就不是品牌词了。
 
@@ -30,7 +30,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 这些页面都是老页面，哥飞今天先不继续分析了，大家可以自行去分析。
 
-哥飞今天带着大家看新页面，鼠标放到"新页面"会有提示，说这些页面是从上个月开始有流量的页面。
+哥飞今天带着大家看新页面，鼠标放到“新页面”会有提示，说这些页面是从上个月开始有流量的页面。
 
 ![](images/character-ai-175m-traffic-demand-mining/img_005.webp)
 
@@ -42,7 +42,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 
 我们会发现获取这些页面获取流量几乎都只要一两个核心关键词。
 
-我们拿第 3 名关键词"ai hoshino"来分析看看，先看谷歌趋势过去一年的走势图，会发现这个词搜索量并不低，差不多相当于"GPTs"的搜索量了。
+我们拿第 3 名关键词“ai hoshino”来分析看看，先看谷歌趋势过去一年的走势图，会发现这个词搜索量并不低，差不多相当于“GPTs”的搜索量了。
 
 ![](images/character-ai-175m-traffic-demand-mining/img_007.webp)
 
@@ -100,7 +100,7 @@ url: "https://new.web.cafe/tutorial/detail/1afYY3YjTnWv4gaLG6Hhxi"
 - **FeiYing** · 2026-01-06 13:43
   > 打卡
 
-- **秋天 | AI探索者** · 2026-01-18 22:55
+- **秋天 | AI 探索者** · 2026-01-18 22:55
   > 打卡，飞哥分享的那个功能现在是收费的了
 
 - **陈慧\_Vera** · 2026-04-28 21:11

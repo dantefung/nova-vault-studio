@@ -19,21 +19,21 @@ Different countries have differing cultures, values, and habits. When we design 
 
 ## Language
 
-*   Extract and maintain all texts in a separate system. For example:
+* Extract and maintain all texts in a separate system. For example:
 
-    *   We shouldn’t put any prompts in the source code.
-    *   We should avoid string concatenation in the code.
-    *   We should remove text from graphics.
+    * We shouldn’t put any prompts in the source code.
+    * We should avoid string concatenation in the code.
+    * We should remove text from graphics.
 
-*   Use complete sentences and avoid dynamic text elements.
-*   Display business data such as currencies in different languages.
+* Use complete sentences and avoid dynamic text elements.
+* Display business data such as currencies in different languages.
 
 ## Layout
 
-*   Describe text length and reserve enough space around the text for different languages.
-*   Plan for line wrap and truncation.
-*   Keep text labels short on buttons.
-*   Adjust the display for numerals, dates, timestamps, and addresses.
+* Describe text length and reserve enough space around the text for different languages.
+* Plan for line wrap and truncation.
+* Keep text labels short on buttons.
+* Adjust the display for numerals, dates, timestamps, and addresses.
 
 ## Time zone
 

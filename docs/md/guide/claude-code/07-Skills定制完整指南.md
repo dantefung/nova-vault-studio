@@ -5,7 +5,7 @@ source: "Github"
 url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 ---
 
-# Skills定制完整指南：打造专属AI能力包的实战手册
+# Skills 定制完整指南：打造专属 AI 能力包的实战手册
 
 ---
 
@@ -13,27 +13,27 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 完成本课学习后，你将能够：
 
-1. **理解Skills的核心价值**：掌握Skills与Commands的本质区别和协作方式
-2. **创建第一个Skill**：5分钟内完成最简单的Skill配置并看到效果
-3. **掌握SKILL.md结构**：理解YAML Frontmatter和Markdown Body的编写规范
-4. **掌握Skill目录结构**：理解scripts、templates等资源组织方式
+1. **理解 Skills 的核心价值**：掌握 Skills 与 Commands 的本质区别和协作方式
+2. **创建第一个 Skill**：5 分钟内完成最简单的 Skill 配置并看到效果
+3. **掌握 SKILL.md 结构**：理解 YAML Frontmatter 和 Markdown Body 的编写规范
+4. **掌握 Skill 目录结构**：理解 scripts、templates 等资源组织方式
 5. **掌握渐进式披露机制**：理解元数据→指令→资源的三层加载逻辑
-6. **利用Hot Reloading**：快速迭代Skill，修改后自动生效
-7. **配置Sandbox安全**：正确设置文件系统、网络、内存等权限边界
-8. **集成Python脚本**：实现自动化工具扩展Claude Code能力
-9. **上传自定义Skill**：通过Web界面或API上传和管理Skill
-10. **排查Skill故障**：独立解决90%的常见配置和执行问题
-11. **实战案例分析**：深度理解企业级Skill架构设计
+6. **利用 Hot Reloading**：快速迭代 Skill，修改后自动生效
+7. **配置 Sandbox 安全**：正确设置文件系统、网络、内存等权限边界
+8. **集成 Python 脚本**：实现自动化工具扩展 Claude Code 能力
+9. **上传自定义 Skill**：通过 Web 界面或 API 上传和管理 Skill
+10. **排查 Skill 故障**：独立解决 90%的常见配置和执行问题
+11. **实战案例分析**：深度理解企业级 Skill 架构设计
 
 ---
 
 ## 学习路径导航（先看这里！）
 
-**根据你的情况选择学习路径**：这是一篇4000+行的长教程，不用全看！根据你的目标选择路径。
+**根据你的情况选择学习路径**：这是一篇 4000+行的长教程，不用全看！根据你的目标选择路径。
 
-### 路径A：快速上手（30分钟）
+### 路径 A：快速上手（30 分钟）
 
-**适合人群**：急着体验Skills，想快速创建一个看效果
+**适合人群**：急着体验 Skills，想快速创建一个看效果
 
 **只看这些章节**（其他跳过）：
 
@@ -44,27 +44,27 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 ✅ 第三部分3.1：SKILL.md基础（5分钟） - 最核心的配置
 ```
 
-**30分钟后你能达到**：成功创建第一个Skill，Claude Code能识别并使用你的专属能力
+**30 分钟后你能达到**：成功创建第一个 Skill，Claude Code 能识别并使用你的专属能力
 
 ---
 
-### 路径B：完整学习（6-8小时）
+### 路径 B：完整学习（6-8 小时）
 
-**适合人群**：想深入理解Skills，掌握完整的开发能力
+**适合人群**：想深入理解 Skills，掌握完整的开发能力
 
 **学习顺序**：从头到尾所有章节
 
 **建议分段学习**：
-- 第1天（2小时）：第1-3部分（理解+目录结构）
-- 第2天（2小时）：第4-5部分（提示词+脚本集成）
-- 第3天（2小时）：第6-7部分（实战案例+故障排查）
-- 第4天（1小时）：第8-9部分（FAQ+附录）
+- 第 1 天（2 小时）：第 1-3 部分（理解+目录结构）
+- 第 2 天（2 小时）：第 4-5 部分（提示词+脚本集成）
+- 第 3 天（2 小时）：第 6-7 部分（实战案例+故障排查）
+- 第 4 天（1 小时）：第 8-9 部分（FAQ+附录）
 
 ---
 
-### 路径C：问题排查（10分钟）
+### 路径 C：问题排查（10 分钟）
 
-**适合人群**：Skill配置出问题，需要快速解决
+**适合人群**：Skill 配置出问题，需要快速解决
 
 **直接跳到这些章节**：
 
@@ -75,22 +75,22 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 **使用方法**：
 1. 按 `Ctrl + F` 搜索你的错误信息关键词
-2. 找到对应的Q&A
+2. 找到对应的 Q&A
 3. 按步骤解决
 
 ---
 
-### 路径D：专项学习（30-60分钟/主题）
+### 路径 D：专项学习（30-60 分钟/主题）
 
-**适合人群**：已经会创建Skill，想学习特定功能
+**适合人群**：已经会创建 Skill，想学习特定功能
 
 | 想学什么 | 看哪几节 | 预计时间 |
 |----------|---------|---------|
-| **提示词工程** | 第四部分 | 1小时 |
-| **Python脚本集成** | 第五部分 | 1.5小时 |
-| **多步骤工作流** | 第六部分6.1节 | 45分钟 |
-| **数据驱动架构** | 第六部分6.2节 | 1小时 |
-| **企业级Skill设计** | 第六部分6.3节 | 1小时 |
+| **提示词工程** | 第四部分 | 1 小时 |
+| **Python 脚本集成** | 第五部分 | 1.5 小时 |
+| **多步骤工作流** | 第六部分 6.1 节 | 45 分钟 |
+| **数据驱动架构** | 第六部分 6.2 节 | 1 小时 |
+| **企业级 Skill 设计** | 第六部分 6.3 节 | 1 小时 |
 
 ---
 
@@ -100,30 +100,30 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 | 术语 | 英文全称 | 通俗解释 | 生活类比 |
 |------|----------|----------|----------|
-| **Skill** | - | Claude Code的"能力包"，封装领域知识和工具 | 手机上的APP（如微信、淘宝） |
-| **SKILL.md** | - | Skill的核心定义文件（必需），包含YAML Frontmatter和Markdown Body | APP的完整说明书（安装信息+使用手册） |
-| **YAML Frontmatter** | - | SKILL.md顶部的元数据区域（---包裹），定义name和description | APP的基本信息（名称、简介） |
-| **Markdown Body** | - | SKILL.md中YAML后的指令部分，详细说明使用方法 | APP的详细操作手册 |
-| **scripts/** | - | 脚本文件夹，存放可执行的工具程序 | APP的功能模块代码 |
+| **Skill** | - | Claude Code 的“能力包”，封装领域知识和工具 | 手机上的 APP（如微信、淘宝） |
+| **SKILL.md** | - | Skill 的核心定义文件（必需），包含 YAML Frontmatter 和 Markdown Body | APP 的完整说明书（安装信息+使用手册） |
+| **YAML Frontmatter** | - | SKILL.md 顶部的元数据区域（---包裹），定义 name 和 description | APP 的基本信息（名称、简介） |
+| **Markdown Body** | - | SKILL.md 中 YAML 后的指令部分，详细说明使用方法 | APP 的详细操作手册 |
+| **scripts/** | - | 脚本文件夹，存放可执行的工具程序 | APP 的功能模块代码 |
 | **templates/** | - | 模板文件夹，存放输出格式模板 | 文档模板库 |
 | **Progressive Disclosure** | 渐进式披露 | 按需加载：元数据常驻内存，指令和资源按需加载 | 微信：先看图标，点开看功能，用时加载详情 |
-| **Hot Reloading** | - | 修改SKILL.md后自动生效，无需重启 | APP热更新，改完立即生效 |
-| **Sandbox** | 沙箱 | 隔离执行环境，限制文件/网络访问，保证安全 | APP的权限管理（只能访问相册） |
-| **Commands** | 斜杠命令 | 显式触发的操作入口 | APP里的功能按钮 |
+| **Hot Reloading** | - | 修改 SKILL.md 后自动生效，无需重启 | APP 热更新，改完立即生效 |
+| **Sandbox** | 沙箱 | 隔离执行环境，限制文件/网络访问，保证安全 | APP 的权限管理（只能访问相册） |
+| **Commands** | 斜杠命令 | 显式触发的操作入口 | APP 里的功能按钮 |
 | **YAML** | YAML Ain't Markup Language | 配置文件格式，易读易写 | 填写表格（有固定格式） |
 | **stdin/stdout** | Standard Input/Output | 脚本的数据输入输出通道 | 快递的收发窗口 |
 
 ---
 
-## 第一部分：Skills简介（10分钟理解）
+## 第一部分：Skills 简介（10 分钟理解）
 
-### 1.1 Skills是什么
+### 1.1 Skills 是什么
 
-**一句话理解**：Skills是Claude Code的"能力APP"，把特定领域的知识、规则、工具打包成可复用的模块，让AI瞬间变成该领域的专家。
+**一句话理解**：Skills 是 Claude Code 的“能力 APP"，把特定领域的知识、规则、工具打包成可复用的模块，让 AI 瞬间变成该领域的专家。
 
-#### 为什么需要Skills？
+#### 为什么需要 Skills？
 
-**没有Skills之前（每次都从零开始）**：
+**没有 Skills 之前（每次都从零开始）**：
 
 ```
 问题：AI没有记忆，每次对话都要重新说明
@@ -137,7 +137,7 @@ Claude：好的，请问什么风格？字数多少？有什么特殊要求？
 Claude：好的，请问什么风格？字数多少？（又从零开始问）
 ```
 
-**有了Skills之后（专业知识即装即用）**：
+**有了 Skills 之后（专业知识即装即用）**：
 
 ```
 解决方案：预置领域知识，AI直接变成专家
@@ -150,26 +150,26 @@ Claude：[自动加载公众号写作Skill]
 ```
 
 **生活类比**：
-- **没有Skills**：每次打车都要从零教司机认路
-- **有Skills后**：安装了高德地图APP，司机直接导航到达（知识预装）
+- **没有 Skills**：每次打车都要从零教司机认路
+- **有 Skills 后**：安装了高德地图 APP，司机直接导航到达（知识预装）
 
-#### Skills的核心价值
+#### Skills 的核心价值
 
-| 对比维度 | 没有Skills | 有Skills后 |
+| 对比维度 | 没有 Skills | 有 Skills 后 |
 |----------|-----------|------------|
 | **知识积累** | 每次对话从零开始 | 领域知识预置，即用即专业 |
-| **团队协作** | 每人都要教AI一遍 | 配置一次，全员共享 |
+| **团队协作** | 每人都要教 AI 一遍 | 配置一次，全员共享 |
 | **质量一致** | 输出质量随机 | 标准化流程，质量稳定 |
 | **效率** | 大量时间在沟通需求 | 直接进入核心任务 |
 | **可维护性** | 知识散落在聊天记录 | 集中管理，版本可控 |
 
 ### 1.2 Skills vs Commands：深度对比
 
-**这是最常被问到的问题**：Skill和Command有什么区别？什么时候用哪个？
+**这是最常被问到的问题**：Skill 和 Command 有什么区别？什么时候用哪个？
 
 #### 一句话区分
 
-- **Commands**：**触发器**，是用户交互的入口点（"按钮"）
+- **Commands**：**触发器**，是用户交互的入口点（”按钮“）
 - **Skills**：**能力包**，是知识和工具的集合（"APP"）
 
 #### 详细对比表
@@ -177,10 +177,10 @@ Claude：[自动加载公众号写作Skill]
 | 对比维度 | Commands（斜杠命令） | Skills（能力包） |
 |----------|---------------------|-----------------|
 | **定位** | 触发器/入口点 | 能力包/知识库 |
-| **复杂度** | 单个Markdown文件 | 多文件目录结构 |
+| **复杂度** | 单个 Markdown 文件 | 多文件目录结构 |
 | **触发方式** | 显式调用 `/command` | 自动识别 + 显式调用 |
 | **状态管理** | 无状态 | 可以维护状态和配置 |
-| **工具集成** | 有限（直接写在md里） | 强大（可集成Python/JS脚本） |
+| **工具集成** | 有限（直接写在 md 里） | 强大（可集成 Python/JS 脚本） |
 | **知识容量** | 几百到几千字 | 可达数万字 |
 | **可维护性** | 简单直接 | 模块化分层 |
 | **适用场景** | 单一任务 | 复杂工作流 |
@@ -214,7 +214,7 @@ Claude：[自动加载公众号写作Skill]
                             └──────────────────┘
 ```
 
-**协作模式示例**：`/write` 命令与公众号写作Skill
+**协作模式示例**：`/write` 命令与公众号写作 Skill
 
 ```markdown
 # 01-write.md (Command层)
@@ -226,12 +226,12 @@ Claude：[自动加载公众号写作Skill]
 ```
 
 **最佳实践**：
-- **简单任务**：直接用Command（如`/help`显示帮助）
-- **复杂任务**：Command + Skill（Command是入口，Skill提供能力）
+- **简单任务**：直接用 Command（如`/help`显示帮助）
+- **复杂任务**：Command + Skill（Command 是入口，Skill 提供能力）
 
 ### 1.3 渐进式披露原理（Progressive Disclosure）
 
-这是Skills系统的核心设计哲学，理解它能帮你更好地设计自己的Skill。
+这是 Skills 系统的核心设计哲学，理解它能帮你更好地设计自己的 Skill。
 
 **核心思想**：只在用户需要时才展示复杂功能，避免信息过载。
 
@@ -243,14 +243,14 @@ Claude：[自动加载公众号写作Skill]
 Claude Code：[检测到"公众号"关键词，自动加载gongzhonghao-writer Skill]
            "好的，我来帮你写..."
 ```
-用户完全不需要知道Skill的存在。
+用户完全不需要知道 Skill 的存在。
 
 **第二层：显式调用（简单控制）**
 ```
 用户：/write Claude Code新功能解析
 Claude Code：[执行完整的写作工作流]
 ```
-用户通过Slash命令明确触发，获得更可控的流程。
+用户通过 Slash 命令明确触发，获得更可控的流程。
 
 **第三层：深度定制（修改配置）**
 ```yaml
@@ -273,11 +273,11 @@ description: 当用户提到"公众号"、"写文章"、"老金风格"等关键�
 **设计优势**：
 - 新手可以直接用，无需学习复杂配置
 - 高级用户可以深度定制每个细节
-- 团队可以将最佳实践沉淀到Skills中
+- 团队可以将最佳实践沉淀到 Skills 中
 
-### 1.4 什么时候该用Skills
+### 1.4 什么时候该用 Skills
 
-**适合使用Skills的场景**：
+**适合使用 Skills 的场景**：
 
 | 场景类型 | 示例 | 为什么适合 |
 |----------|------|-----------|
@@ -287,38 +287,38 @@ description: 当用户提到"公众号"、"写文章"、"老金风格"等关键�
 | **团队标准化** | 代码审查规范、文档模板 | 需要统一团队标准 |
 | **可复用能力** | 跨项目共享的工具包 | 需要在多个项目使用 |
 
-**不适合使用Skills的场景**：
+**不适合使用 Skills 的场景**：
 
 | 场景类型 | 为什么不适合 | 替代方案 |
 |----------|-------------|---------|
 | **一次性任务** | 没有复用价值 | 直接在对话中描述 |
-| **高度变化** | 每次都不同 | 灵活的Command |
-| **无法标准化** | 完全依赖创意 | 保持AI自由发挥 |
+| **高度变化** | 每次都不同 | 灵活的 Command |
+| **无法标准化** | 完全依赖创意 | 保持 AI 自由发挥 |
 
 ---
 
-## 第二部分：5分钟快速开始（立即见效）
+## 第二部分：5 分钟快速开始（立即见效）
 
-**本节目的**：用最快速度创建第一个Skill，让你立即看到效果！
+**本节目的**：用最快速度创建第一个 Skill，让你立即看到效果！
 
-⏱️ **预计时间**：5-10分钟
+⏱️ **预计时间**：5-10 分钟
 
-### 2.1 创建你的第一个Skill
+### 2.1 创建你的第一个 Skill
 
 **为什么选这个示例？**
 
-- ✅ 最简单，只需要1个文件夹 + 1个SKILL.md
+- ✅ 最简单，只需要 1 个文件夹 + 1 个 SKILL.md
 - ✅ 效果直观，立即看到输出
 - ✅ 无依赖，不需要安装任何东西
-- ✅ 支持Hot Reloading（修改后自动生效）
+- ✅ 支持 Hot Reloading（修改后自动生效）
 
-**目标**：创建一个"代码注释生成器"Skill，自动为代码添加中文注释。
+**目标**：创建一个”代码注释生成器“Skill，自动为代码添加中文注释。
 
-#### 步骤1：创建Skill文件夹
+#### 步骤 1：创建 Skill 文件夹
 
-**这一步要做什么**：创建Skill的文件夹（文件夹名必须与skill名称一致）
+**这一步要做什么**：创建 Skill 的文件夹（文件夹名必须与 skill 名称一致）
 
-**Windows系统（PowerShell）：**
+**Windows 系统（PowerShell）：**
 ```powershell
 # 进入你的项目目录
 cd C:\你的项目路径
@@ -327,7 +327,7 @@ cd C:\你的项目路径
 New-Item -ItemType Directory -Path ".claude\skills\code-commenter" -Force
 ```
 
-**macOS/Linux系统：**
+**macOS/Linux 系统：**
 ```bash
 # 进入你的项目目录
 cd ~/你的项目路径
@@ -337,13 +337,13 @@ mkdir -p .claude/skills/code-commenter
 ```
 
 💡 **命名规范**：
-- 文件夹名必须与YAML中的`name`字段一致
+- 文件夹名必须与 YAML 中的`name`字段一致
 - 只能使用小写字母、数字、连字符（-）
 - 不能有空格、下划线或特殊字符
 
-#### 步骤2：创建SKILL.md文件
+#### 步骤 2：创建 SKILL.md 文件
 
-**这一步要做什么**：创建Skill的核心定义文件（YAML Frontmatter + Markdown Body）
+**这一步要做什么**：创建 Skill 的核心定义文件（YAML Frontmatter + Markdown Body）
 
 **创建文件 `.claude/skills/code-commenter/SKILL.md`**：
 
@@ -441,14 +441,14 @@ for item in items:
 EOF
 ```
 
-💡 **SKILL.md结构说明**：
+💡 **SKILL.md 结构说明**：
 - **YAML Frontmatter**（`---`包裹）：
   - `name`：小写、无空格、可用连字符（如`code-commenter`）
-  - `description`：清晰描述触发场景，Claude用此判断是否激活
-- **Markdown Body**：详细指令，只在Skill被激活后加载
-- 这实现了"渐进式披露"：元数据常驻内存，指令按需加载
+  - `description`：清晰描述触发场景，Claude 用此判断是否激活
+- **Markdown Body**：详细指令，只在 Skill 被激活后加载
+- 这实现了”渐进式披露“：元数据常驻内存，指令按需加载
 
-#### 步骤3：验证Skill配置
+#### 步骤 3：验证 Skill 配置
 
 **验证文件结构：**
 ```bash
@@ -462,7 +462,7 @@ ls -la .claude/skills/code-commenter/
 # └── SKILL.md
 ```
 
-**验证YAML格式：**
+**验证 YAML 格式：**
 ```bash
 # 查看SKILL.md前几行（YAML部分）
 head -n 10 .claude/skills/code-commenter/SKILL.md
@@ -474,7 +474,7 @@ head -n 10 .claude/skills/code-commenter/SKILL.md
 # ---
 ```
 
-#### 步骤4：测试Skill（利用Hot Reloading）
+#### 步骤 4：测试 Skill（利用 Hot Reloading）
 
 **Windows（PowerShell）：**
 
@@ -557,7 +557,7 @@ for item in items:
 EOF
 ```
 
-#### 步骤4：验证Skill配置
+#### 步骤 4：验证 Skill 配置
 
 **验证文件结构：**
 ```bash
@@ -571,15 +571,15 @@ ls -la .claude/skills/code-commenter/
 # └── SKILL.md
 ```
 
-**验证YAML格式：**
+**验证 YAML 格式：**
 ```bash
 # 查看SKILL.md前几行（YAML部分）
 head -n 10 .claude/skills/code-commenter/SKILL.md
 ```
 
-#### 步骤5：测试Skill
+#### 步骤 5：测试 Skill
 
-**启动Claude Code：**
+**启动 Claude Code：**
 ```bash
 claude
 ```
@@ -621,35 +621,35 @@ def calculate_discount(price, user_level):
         return price
 ```
 
-🎯 **Hot Reloading体验**：修改SKILL.md后，无需重启Claude Code，下次对话时修改会自动生效！
+🎯 **Hot Reloading 体验**：修改 SKILL.md 后，无需重启 Claude Code，下次对话时修改会自动生效！
 
-### 2.2 验证Skill工作正常
+### 2.2 验证 Skill 工作正常
 
 **完整验证清单**：
 
 - [ ] `.claude/skills/code-commenter/` 目录存在
 - [ ] `SKILL.md` 文件格式正确（YAML Frontmatter + Markdown Body）
-- [ ] 说"添加注释"等关键词时Claude能识别
+- [ ] 说”添加注释“等关键词时 Claude 能识别
 - [ ] 生成的注释符合规范
-- [ ] 修改SKILL.md后自动生效（Hot Reloading）
+- [ ] 修改 SKILL.md 后自动生效（Hot Reloading）
 
 ### 2.3 恭喜完成！
 
-如果上面的测试都成功了，你已经创建了第一个可用的Skill！
+如果上面的测试都成功了，你已经创建了第一个可用的 Skill！
 
 **下一步建议**：
 - 继续学习第三部分，了解完整的目录结构
-- 尝试为你的工作领域创建专属Skill
+- 尝试为你的工作领域创建专属 Skill
 
 ---
 
 ## 第三部分：目录结构详解
 
-**本节目的**：深入理解Skill的标准目录结构，为创建复杂Skill打基础。
+**本节目的**：深入理解 Skill 的标准目录结构，为创建复杂 Skill 打基础。
 
 ### 3.1 标准目录结构
 
-Skills采用**约定优于配置**的目录结构，每个Skill都是 `.claude/skills/` 下的一个独立目录：
+Skills 采用**约定优于配置**的目录结构，每个 Skill 都是 `.claude/skills/` 下的一个独立目录：
 
 ```
 .claude/skills/[skill-name]/
@@ -673,31 +673,31 @@ Skills采用**约定优于配置**的目录结构，每个Skill都是 `.claude/s
 
 | 目录/文件 | 是否必需 | 用途 | 生活类比 |
 |-----------|---------|------|----------|
-| `SKILL.md` | ✅ 必需 | 定义Skill元信息(YAML)+详细指令(Markdown) | APP的安装包信息+完整说明书 |
-| `scripts/` | 可选 | 可执行的工具脚本 | APP的功能代码 |
+| `SKILL.md` | ✅ 必需 | 定义 Skill 元信息(YAML)+详细指令(Markdown) | APP 的安装包信息+完整说明书 |
+| `scripts/` | 可选 | 可执行的工具脚本 | APP 的功能代码 |
 | `templates/` | 可选 | 输出内容的模板 | 文档模板 |
-| `config/` | 可选 | 运行时配置参数 | APP的设置选项 |
+| `config/` | 可选 | 运行时配置参数 | APP 的设置选项 |
 | `docs/` | 可选 | 开发者内部文档 | 开发手册 |
 | `data/` | 可选 | 静态数据文件 | 离线数据包 |
 
 🎯 **重要说明**：当前版本不再使用`skill.yaml`和`prompts/`文件夹，所有内容统一到`SKILL.md`文件中！
 
-### 3.2 SKILL.md配置详解
+### 3.2 SKILL.md 配置详解
 
-`SKILL.md` 是Skill的核心定义文件，由两部分组成：**YAML Frontmatter**（元数据）和**Markdown Body**（详细指令）。
+`SKILL.md` 是 Skill 的核心定义文件，由两部分组成：**YAML Frontmatter**（元数据）和**Markdown Body**（详细指令）。
 
-#### YAML Frontmatter字段表
+#### YAML Frontmatter 字段表
 
 | 字段名 | 类型 | 是否必填 | 默认值 | 说明 |
 |--------|------|---------|--------|------|
-| `name` | string | 推荐 | 目录名 | Skill名称，同时作为`/`斜杠命令（小写、连字符分隔，最多64字符） |
-| `description` | string | 推荐 | - | 简短描述（最多1024字符），Claude用此判断是否自动激活 |
+| `name` | string | 推荐 | 目录名 | Skill 名称，同时作为`/`斜杠命令（小写、连字符分隔，最多 64 字符） |
+| `description` | string | 推荐 | - | 简短描述（最多 1024 字符），Claude 用此判断是否自动激活 |
 | `context` | string | 可选 | - | 设为`fork`时在独立子代理上下文中运行（Forked Context） |
 | `model` | string | 可选 | 继承 | 指定运行模型（如`opus`、`sonnet`、`haiku`） |
 | `agent` | string | 可选 | - | 指定代理类型（如`Explore`） |
 | `allowed-tools` | string | 可选 | 全部 | 限制可用工具列表（逗号分隔，如`Read, Grep, Glob`） |
 | `user-invocable` | boolean | 可选 | true | 是否允许用户通过`/`命令手动调用 |
-| `disable-model-invocation` | boolean | 可选 | false | 设为true时禁止Claude自动激活，只能手动`/`调用 |
+| `disable-model-invocation` | boolean | 可选 | false | 设为 true 时禁止 Claude 自动激活，只能手动`/`调用 |
 | `argument-hint` | string | 可选 | - | 参数提示（如`[filename] [format]`） |
 
 #### 最小配置示例
@@ -750,9 +750,9 @@ description: 当用户提到"公众号"、"写文章"、"老金风格"等关键�
 - **Markdown Body**：所有详细指令、规则、流程都在这里编写
 - **不再需要**：`version`、`author`、`triggers`、`prompt_files`等旧版配置
 
-### 3.3 Markdown Body编写规范
+### 3.3 Markdown Body 编写规范
 
-Markdown Body是SKILL.md的核心部分，包含所有详细指令。推荐遵循以下结构：
+Markdown Body 是 SKILL.md 的核心部分，包含所有详细指令。推荐遵循以下结构：
 
 #### 推荐结构模板
 
@@ -791,31 +791,31 @@ Markdown Body是SKILL.md的核心部分，包含所有详细指令。推荐遵�
 
 ### 3.4 三种复杂度级别对比
 
-根据你的需求，Skill可以从简单到复杂：
+根据你的需求，Skill 可以从简单到复杂：
 
-| 维度 | 简单Skill | 中等Skill | 复杂Skill |
+| 维度 | 简单 Skill | 中等 Skill | 复杂 Skill |
 |------|----------|----------|----------|
-| **文件数** | 1个（SKILL.md） | 3-5个 | 10+个 |
+| **文件数** | 1 个（SKILL.md） | 3-5 个 | 10+个 |
 | **总大小** | <5KB | 5-50KB | >50KB |
-| **SKILL.md** | <100行 | 100-500行 | 500+行 |
-| **scripts** | 0个 | 1-2个 | 5+个 |
-| **config** | 无 | 1个JSON | 多个配置文件 |
+| **SKILL.md** | <100 行 | 100-500 行 | 500+行 |
+| **scripts** | 0 个 | 1-2 个 | 5+个 |
+| **config** | 无 | 1 个 JSON | 多个配置文件 |
 | **适用场景** | 单一任务 | 多步骤流程 | 企业级系统 |
-| **示例** | 代码注释器 | API文档生成器 | 公众号写作助手 |
+| **示例** | 代码注释器 | API 文档生成器 | 公众号写作助手 |
 | **维护难度** | 低 | 中 | 高 |
 
 **建议**：
-- 新手从简单Skill开始
+- 新手从简单 Skill 开始
 - 随着需求增长逐步扩展
 - 不要过度设计
 
 ### 3.5 核心特性详解
 
-🎯 **掌握这些特性能让你的Skill开发事半功倍！**
+🎯 **掌握这些特性能让你的 Skill 开发事半功倍！**
 
 #### Hot Reloading（热重载）
 
-**功能说明**：修改SKILL.md后，无需重启Claude Code，下次对话时修改会自动生效。
+**功能说明**：修改 SKILL.md 后，无需重启 Claude Code，下次对话时修改会自动生效。
 
 **工作原理**：
 ```
@@ -843,15 +843,15 @@ Claude Code检测到文件变化
 ```
 
 **注意事项**：
-- YAML Frontmatter的修改会立即生效
-- Markdown Body的修改会在下次对话时生效
+- YAML Frontmatter 的修改会立即生效
+- Markdown Body 的修改会在下次对话时生效
 - 如果修改未生效，可以尝试开始新对话或使用`/compact`压缩上下文后重试
 
-#### Sandbox安全机制
+#### Sandbox 安全机制
 
-**功能说明**：Claude Code提供OS级别的沙箱隔离，限制文件系统写入和网络访问。
+**功能说明**：Claude Code 提供 OS 级别的沙箱隔离，限制文件系统写入和网络访问。
 
-> **重要**：Sandbox是Claude Code的全局安全功能（通过`/sandbox`命令启用），不是SKILL.md的frontmatter字段。它对所有Bash工具调用生效，包括Skill中的脚本执行。
+> **重要**：Sandbox 是 Claude Code 的全局安全功能（通过`/sandbox`命令启用），不是 SKILL.md 的 frontmatter 字段。它对所有 Bash 工具调用生效，包括 Skill 中的脚本执行。
 
 **启用方式**：
 
@@ -866,10 +866,10 @@ Claude Code检测到文件变化
 |------|------|
 | **文件系统** | 只能写入启动目录及子目录，读取不受限 |
 | **网络** | 只能连接已批准的服务器，阻止未授权的外部连接 |
-| **OS级执行** | 基于Linux bubblewrap / macOS seatbelt的内核级隔离 |
+| **OS 级执行** | 基于 Linux bubblewrap / macOS seatbelt 的内核级隔离 |
 
-**对Skill脚本的影响**：
-- 当Sandbox启用时，Skill中`scripts/`目录的脚本也受沙箱限制
+**对 Skill 脚本的影响**：
+- 当 Sandbox 启用时，Skill 中`scripts/`目录的脚本也受沙箱限制
 - 脚本无法写入项目目录之外的路径
 - 脚本无法访问未批准的网络地址
 
@@ -898,22 +898,22 @@ Claude Code检测到文件变化
 
 | 方式 | 旧版本（skill.yaml+prompts/） | 新版本（SKILL.md） |
 |------|---------------------------|------------------|
-| **内存占用** | 所有prompts常驻 | 只加载元数据 |
+| **内存占用** | 所有 prompts 常驻 | 只加载元数据 |
 | **激活速度** | 需要读取多个文件 | 读取单个文件 |
 | **修改生效** | 需要重启 | Hot Reloading |
 | **维护成本** | 多文件同步 | 单文件管理 |
 
 ---
 
-## 第四部分：SKILL.md提示词工程
+## 第四部分：SKILL.md 提示词工程
 
-**本节目的**：掌握在SKILL.md中组织提示词的技巧和最佳实践。
+**本节目的**：掌握在 SKILL.md 中组织提示词的技巧和最佳实践。
 
-🎯 **重要说明**：不再使用独立的`prompts/`文件夹，所有提示词内容统一写在SKILL.md的Markdown Body中！
+🎯 **重要说明**：不再使用独立的`prompts/`文件夹，所有提示词内容统一写在 SKILL.md 的 Markdown Body 中！
 
 ### 4.1 提示词组织方式
 
-**方式1：按功能分章节组织**（推荐）
+**方式 1：按功能分章节组织**（推荐）
 
 ```markdown
 # 公众号写作助手
@@ -942,7 +942,7 @@ Claude Code检测到文件变化
 [9维度检测标准...]
 ```
 
-**方式2：按工作流阶段组织**
+**方式 2：按工作流阶段组织**
 
 ```markdown
 # API文档生成器
@@ -967,13 +967,13 @@ Claude Code检测到文件变化
 | 版本标记 | `## V{版本}变更` | `## V8.0新特性` | 版本演进 |
 
 **最佳实践**：
-1. 使用清晰的中文标题（面向中文AI）
-2. 保持层次不超过3级
-3. 章节长度适中（建议<500行）
+1. 使用清晰的中文标题（面向中文 AI）
+2. 保持层次不超过 3 级
+3. 章节长度适中（建议<500 行）
 
 ### 4.3 提示词结构模板
 
-一个完整的SKILL.md应该包含以下结构：
+一个完整的 SKILL.md 应该包含以下结构：
 
 ```markdown
 ---
@@ -1069,7 +1069,7 @@ description: 当用户需要生成公众号标题时，自动应用5大爆款公
 
 ### 4.4 提示词版本管理
 
-**在SKILL.md中记录版本历史**：
+**在 SKILL.md 中记录版本历史**：
 
 ```markdown
 ---
@@ -1107,11 +1107,11 @@ description: 公众号写作助手V9.0
 [当前版本的角色定义...]
 ```
 
-💡 **建议**：在SKILL.md开头用专门章节记录版本历史，便于追踪变更。
+💡 **建议**：在 SKILL.md 开头用专门章节记录版本历史，便于追踪变更。
 
 ### 4.5 提示词优化技巧
 
-**技巧1：使用代码块增强可读性**
+**技巧 1：使用代码块增强可读性**
 
 ```markdown
 ## 标题公式
@@ -1127,7 +1127,7 @@ description: 公众号写作助手V9.0
 示例：手把手教你用Cursor，从入门到精通
 ```
 
-**技巧2：用好表格对比**
+**技巧 2：用好表格对比**
 
 ```markdown
 | 版本 | 自然度 | AI腔 | 真诚度 |
@@ -1136,7 +1136,7 @@ description: 公众号写作助手V9.0
 | V8.0 | 85分 | 15分 | 80分 |
 ```
 
-**技巧3：分步骤展示**
+**技巧 3：分步骤展示**
 
 ```markdown
 ## 写作流程
@@ -1159,25 +1159,25 @@ description: 公众号写作助手V9.0
 
 ---
 
-## 第五部分：Python脚本集成
+## 第五部分：Python 脚本集成
 
-**本节目的**：学习如何将Python脚本集成到Skill中，扩展Claude Code的能力。
+**本节目的**：学习如何将 Python 脚本集成到 Skill 中，扩展 Claude Code 的能力。
 
 ### 5.1 为什么需要脚本
 
-**脚本能做什么Claude Code做不到的事？**
+**脚本能做什么 Claude Code 做不到的事？**
 
-| 任务类型 | Claude Code原生 | 脚本增强 |
+| 任务类型 | Claude Code 原生 | 脚本增强 |
 |----------|----------------|---------|
-| 文本分析 | ❌ 只能模糊判断 | ✅ 精确的NLP分析 |
+| 文本分析 | ❌ 只能模糊判断 | ✅ 精确的 NLP 分析 |
 | 数据计算 | ⚠️ 可能出错 | ✅ 100%准确计算 |
 | 文件批处理 | ⚠️ 效率低 | ✅ 高效批量处理 |
-| API调用 | ⚠️ 格式不确定 | ✅ 标准化输出 |
+| API 调用 | ⚠️ 格式不确定 | ✅ 标准化输出 |
 | 复杂校验 | ❌ 难以保证一致 | ✅ 确定性校验 |
 
 ### 5.2 脚本模板
 
-**标准Python脚本模板**：
+**标准 Python 脚本模板**：
 
 ```python
 #!/usr/bin/env python3
@@ -1344,7 +1344,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### 5.3 在Command中调用脚本
+### 5.3 在 Command 中调用脚本
 
 **调用方式**：
 
@@ -1355,7 +1355,7 @@ if __name__ == "__main__":
 
 **调用脚本**：
 ```bash
-cd ".claude/skills/gongzhonghao-writer/scripts" && python quality_detector.py "文章内容" --json
+cd ".claude/skills/gongzhonghao-writer/scripts" && python quality_detector.py ”文章内容“ --json
 ```
 
 **脚本参数说明**：
@@ -1371,7 +1371,7 @@ cd ".claude/skills/gongzhonghao-writer/scripts" && python quality_detector.py "�
     "natural_score": 85,
     "passed": true
   },
-  "message": "检测通过"
+  "message": ”检测通过“
 }
 ```
 ```
@@ -1400,7 +1400,7 @@ cd ".claude/skills/gongzhonghao-writer/scripts" && python quality_detector.py "�
 }
 ```
 
-**Claude Code解析模式**：
+**Claude Code 解析模式**：
 
 ```markdown
 当脚本执行完成后，解析输出：
@@ -1422,11 +1422,11 @@ cd ".claude/skills/gongzhonghao-writer/scripts" && python quality_detector.py "�
 
 ## 第六部分：实战案例分析
 
-**本部分的**：通过分析真实的企业级Skill，学习高级设计模式。
+**本部分的**：通过分析真实的企业级 Skill，学习高级设计模式。
 
 ### 6.1 多步骤工作流设计
 
-**案例：公众号写作流程（8步自动化）**
+**案例：公众号写作流程（8 步自动化）**
 
 ```
 步骤0：选题过滤
@@ -1529,7 +1529,7 @@ wechat_articles.json
 }
 ```
 
-### 6.3 企业级Skill目录结构
+### 6.3 企业级 Skill 目录结构
 
 **公众号写作助手完整结构（V9.0 当前版本适配）**：
 
@@ -1557,7 +1557,7 @@ wechat_articles.json
 └── DATA_DRIVEN_WORKFLOW.md               (数据驱动文档)
 ```
 
-**SKILL.md结构示例**：
+**SKILL.md 结构示例**：
 
 ```markdown
 ---
@@ -1609,23 +1609,23 @@ description: 当用户提到"公众号"、"写文章"、"老金风格"等关键�
 - quality_config.json：质检标准
 ```
 
-**关键设计点（V9.0更新）**：
+**关键设计点（V9.0 更新）**：
 
-1. **单文件入口**：SKILL.md替代skill.yaml+prompts/，简化管理
-2. **Hot Reloading**：修改SKILL.md后立即生效
+1. **单文件入口**：SKILL.md 替代 skill.yaml+prompts/，简化管理
+2. **Hot Reloading**：修改 SKILL.md 后立即生效
 3. **脚本分类**：core（核心）、collectors（收集）、utils（工具）
-4. **配置驱动**：所有可变参数放在config/目录
-5. **渐进式披露**：YAML Frontmatter常驻，Markdown Body按需加载
+4. **配置驱动**：所有可变参数放在 config/目录
+5. **渐进式披露**：YAML Frontmatter 常驻，Markdown Body 按需加载
 
 ---
 
 ## 第七部分：故障排查
 
-**本部分的**：快速解决Skill配置和运行中的常见问题。
+**本部分的**：快速解决 Skill 配置和运行中的常见问题。
 
 ### 7.1 常见错误及解决方案
 
-#### 错误1：Skill未激活
+#### 错误 1：Skill 未激活
 
 **症状**：输入触发词没有反应
 
@@ -1662,14 +1662,14 @@ ls -la .claude/skills/你的skill/
 # 在Claude Code中输入description中的关键词
 ```
 
-#### 错误2：提示词未生效
+#### 错误 2：提示词未生效
 
-**症状**：AI回复不符合Skill风格
+**症状**：AI 回复不符合 Skill 风格
 
 **可能原因**：
-1. Markdown Body格式错误
+1. Markdown Body 格式错误
 2. 指令不够明确
-3. Hot Reloading未生效
+3. Hot Reloading 未生效
 
 **解决方案**：
 
@@ -1703,12 +1703,12 @@ cat .claude/skills/你的skill/SKILL.md
 # ❌ "建议使用自然语言"（太弱）
 ```
 
-#### 错误3：脚本执行失败
+#### 错误 3：脚本执行失败
 
 **症状**：调用脚本时报错
 
 **可能原因**：
-1. Python路径问题
+1. Python 路径问题
 2. 脚本权限问题
 3. 依赖包未安装
 
@@ -1731,12 +1731,12 @@ cd .claude/skills/你的skill/scripts
 python 脚本名.py "测试输入"
 ```
 
-#### 错误4：YAML解析错误
+#### 错误 4：YAML 解析错误
 
 **症状**：加载时报语法错误
 
 **可能原因**：
-1. YAML Frontmatter格式错误
+1. YAML Frontmatter 格式错误
 2. `---`分隔符缺失或多余
 3. 特殊字符未转义
 
@@ -1763,7 +1763,7 @@ description: 当用户需要时激活
 内容...
 ```
 
-**验证YAML格式**：
+**验证 YAML 格式**：
 
 ```bash
 # 方法1：使用在线工具
@@ -1794,7 +1794,7 @@ except yaml.YAMLError as e:
 
 ### 7.2 调试技巧
 
-**技巧1：验证SKILL.md结构**
+**技巧 1：验证 SKILL.md 结构**
 
 ```bash
 # 检查SKILL.md基本结构
@@ -1810,7 +1810,7 @@ cat .claude/skills/你的skill/SKILL.md | head -n 20
 # 内容...
 ```
 
-**技巧2：测试Hot Reloading**
+**技巧 2：测试 Hot Reloading**
 
 ```bash
 # 1. 修改SKILL.md
@@ -1826,7 +1826,7 @@ cat .claude/skills/你的skill/SKILL.md | head -n 20
 /compact
 ```
 
-**技巧3：手动测试脚本**
+**技巧 3：手动测试脚本**
 
 ```bash
 # 直接运行脚本看输出
@@ -1837,7 +1837,7 @@ python 脚本名.py "测试输入" --json
 echo $?  # 0表示成功，非0表示失败
 ```
 
-**技巧4：检查文件编码**
+**技巧 4：检查文件编码**
 
 ```bash
 # 确保文件是UTF-8编码
@@ -1845,47 +1845,47 @@ file .claude/skills/你的skill/SKILL.md
 # 应显示：UTF-8 Unicode text
 ```
 
-**技巧5：查看Skill加载日志**
+**技巧 5：查看 Skill 加载日志**
 
-在Claude Code中输入：
+在 Claude Code 中输入：
 ```
 请列出当前已加载的所有Skills
 ```
 
-这会显示所有被识别的Skills及其基本信息。
+这会显示所有被识别的 Skills 及其基本信息。
 
 ---
 
-## 第八部分：FAQ（20个常见问题）
+## 第八部分：FAQ（20 个常见问题）
 
-### Q1：Skill和Command有什么区别？
-**A**：Command是"按钮"（触发器），Skill是"APP"（能力包）。Command用于显式触发，Skill用于封装知识和工具。两者通常配合使用：Command作为入口，Skill提供能力。
+### Q1：Skill 和 Command 有什么区别？
+**A**：Command 是”按钮“（触发器），Skill 是”APP"（能力包）。Command 用于显式触发，Skill 用于封装知识和工具。两者通常配合使用：Command 作为入口，Skill 提供能力。
 
-### Q2：必须要SKILL.md吗？
-**A**：是的，`SKILL.md` 是Skill的唯一必需文件。没有它Claude Code无法识别这是一个Skill。
+### Q2：必须要 SKILL.md 吗？
+**A**：是的，`SKILL.md` 是 Skill 的唯一必需文件。没有它 Claude Code 无法识别这是一个 Skill。
 
-### Q3：SKILL.md可以是任意大小吗？
-**A**：理论上可以，但建议控制在1000行以内。太大的SKILL.md会影响加载速度和AI理解。如果内容很多，考虑使用scripts/、config/等资源文件夹。
+### Q3：SKILL.md 可以是任意大小吗？
+**A**：理论上可以，但建议控制在 1000 行以内。太大的 SKILL.md 会影响加载速度和 AI 理解。如果内容很多，考虑使用 scripts/、config/等资源文件夹。
 
-### Q4：scripts支持哪些语言？
-**A**：主要支持Python和Bash。推荐Python，因为生态好、跨平台、易维护。JavaScript也可以，但不如Python常用。
+### Q4：scripts 支持哪些语言？
+**A**：主要支持 Python 和 Bash。推荐 Python，因为生态好、跨平台、易维护。JavaScript 也可以，但不如 Python 常用。
 
-### Q5：如何让Skill自动激活？
-**A**：在SKILL.md的YAML Frontmatter中配置`description`字段。Claude Code会根据description判断何时激活。例如：
+### Q5：如何让 Skill 自动激活？
+**A**：在 SKILL.md 的 YAML Frontmatter 中配置`description`字段。Claude Code 会根据 description 判断何时激活。例如：
 ```yaml
 ---
 description: 当用户要求"添加注释"或"代码注释"时激活
 ---
 ```
 
-### Q6：可以有多个Skill吗？
-**A**：可以。每个Skill是 `.claude/skills/` 下的独立目录，可以有任意多个。
+### Q6：可以有多个 Skill 吗？
+**A**：可以。每个 Skill 是 `.claude/skills/` 下的独立目录，可以有任意多个。
 
-### Q7：Skill之间会冲突吗？
-**A**：如果description中描述的触发场景重复可能会冲突。建议每个Skill使用独特的触发场景描述。
+### Q7：Skill 之间会冲突吗？
+**A**：如果 description 中描述的触发场景重复可能会冲突。建议每个 Skill 使用独特的触发场景描述。
 
-### Q8：如何更新Skill版本？
-**A**：在SKILL.md的Markdown Body开头添加"版本历史"章节，记录每次变更。例如：
+### Q8：如何更新 Skill 版本？
+**A**：在 SKILL.md 的 Markdown Body 开头添加“版本历史”章节，记录每次变更。例如：
 ```markdown
 ## 版本历史
 
@@ -1897,39 +1897,39 @@ description: 当用户要求"添加注释"或"代码注释"时激活
 - 初始版本
 ```
 
-### Q9：SKILL.md多大合适？
-**A**：建议单个SKILL.md不超过1000行。太长会影响加载速度和AI理解。大的Skill应该考虑拆分成多个子Skill或使用scripts/。
+### Q9：SKILL.md 多大合适？
+**A**：建议单个 SKILL.md 不超过 1000 行。太长会影响加载速度和 AI 理解。大的 Skill 应该考虑拆分成多个子 Skill 或使用 scripts/。
 
-### Q10：如何调试Skill？
+### Q10：如何调试 Skill？
 **A**：
-1. 验证YAML Frontmatter格式
-2. 手动运行scripts/中的脚本测试
-3. 检查description是否清晰
-4. 查看Claude Code的Skill加载日志
+1. 验证 YAML Frontmatter 格式
+2. 手动运行 scripts/中的脚本测试
+3. 检查 description 是否清晰
+4. 查看 Claude Code 的 Skill 加载日志
 
-### Q11：Hot Reloading不生效怎么办？
+### Q11：Hot Reloading 不生效怎么办？
 **A**：
-1. 确认修改的是SKILL.md而不是其他文件
-2. 检查YAML Frontmatter格式是否正确
+1. 确认修改的是 SKILL.md 而不是其他文件
+2. 检查 YAML Frontmatter 格式是否正确
 3. 尝试使用`/compact`压缩上下文后重试
-4. 最后手段：重启Claude Code
+4. 最后手段：重启 Claude Code
 
 ### Q12：如何处理中文路径问题？
-**A**：Windows上尽量避免中文路径。如果必须使用，确保SKILL.md文件编码为UTF-8（带BOM或不带BOM都可以，但要一致）。
+**A**：Windows 上尽量避免中文路径。如果必须使用，确保 SKILL.md 文件编码为 UTF-8（带 BOM 或不带 BOM 都可以，但要一致）。
 
-### Q13：Skill可以调用MCP吗？
-**A**：可以。在SKILL.md的Markdown Body中可以引用MCP工具。Claude Code会自动识别并调用。
+### Q13：Skill 可以调用 MCP 吗？
+**A**：可以。在 SKILL.md 的 Markdown Body 中可以引用 MCP 工具。Claude Code 会自动识别并调用。
 
-### Q14：如何共享Skill给团队？
-**A**：将整个 `.claude/skills/你的skill/` 目录提交到Git仓库。团队成员克隆后即可使用。
+### Q14：如何共享 Skill 给团队？
+**A**：将整个 `.claude/skills/你的skill/` 目录提交到 Git 仓库。团队成员克隆后即可使用。
 
-### Q15：Skill可以跨项目使用吗？
-**A**：可以。将Skill放在全局配置目录（~/.claude/skills/）即可在所有项目中使用。
+### Q15：Skill 可以跨项目使用吗？
+**A**：可以。将 Skill 放在全局配置目录（~/.claude/skills/）即可在所有项目中使用。
 
-### Q16：如何回退到旧版本Skill？
-**A**：使用Git回退到旧版本的提交，或者在SKILL.md的版本历史中查看旧版本的内容。
+### Q16：如何回退到旧版本 Skill？
+**A**：使用 Git 回退到旧版本的提交，或者在 SKILL.md 的版本历史中查看旧版本的内容。
 
-### Q17：SKILL.md中可以使用变量吗？
+### Q17：SKILL.md 中可以使用变量吗？
 **A**：SKILL.md 支持一个特殊内置变量 `${CLAUDE_SKILL_DIR}`，其他自定义模板变量不支持。
 
 **`${CLAUDE_SKILL_DIR}` 变量说明**：
@@ -1946,33 +1946,33 @@ description: 当用户要求"添加注释"或"代码注释"时激活
 - **优势**：使 Skill 可以组织为包含多个文件的目录结构，而不是将所有内容塞进一个 SKILL.md
 - 如果需要更复杂的动态内容，使用 scripts/ 中的脚本生成
 
-### Q18：如何测试Skill是否正常工作？
+### Q18：如何测试 Skill 是否正常工作？
 **A**：
-1. 检查SKILL.md文件结构是否完整（YAML + Markdown）
-2. 验证YAML Frontmatter格式
-3. 手动测试scripts/中的脚本
-4. 在Claude Code中测试触发词
+1. 检查 SKILL.md 文件结构是否完整（YAML + Markdown）
+2. 验证 YAML Frontmatter 格式
+3. 手动测试 scripts/中的脚本
+4. 在 Claude Code 中测试触发词
 
-### Q19：Skill加载很慢怎么办？
+### Q19：Skill 加载很慢怎么办？
 **A**：
-1. 减少SKILL.md的行数
-2. 优化scripts/中的脚本性能
-3. 检查是否有不必要的config/文件
+1. 减少 SKILL.md 的行数
+2. 优化 scripts/中的脚本性能
+3. 检查是否有不必要的 config/文件
 
-### Q20：如何学习更高级的Skill开发？
+### Q20：如何学习更高级的 Skill 开发？
 **A**：
 1. 阅读公众号写作助手项目中的 SKILL.md 正文
-2. 参考官方Skill示例
+2. 参考官方 Skill 示例
 3. 实践中不断迭代优化
-4. 理解渐进式披露和Hot Reloading机制
+4. 理解渐进式披露和 Hot Reloading 机制
 
 ---
 
 ## 第九部分：附录
 
-### 附录A：Skill目录快速创建脚本
+### 附录 A：Skill 目录快速创建脚本
 
-**macOS/Linux一键创建脚本**：
+**macOS/Linux 一键创建脚本**：
 
 ```bash
 #!/bin/bash
@@ -2062,7 +2062,7 @@ echo "2. 填写description字段"
 echo "3. 编写Markdown Body内容"
 ```
 
-### 附录B：SKILL.md完整模板
+### 附录 B：SKILL.md 完整模板
 
 ```markdown
 ---
@@ -2129,21 +2129,21 @@ description: 当用户提到[关键词1]、[关键词2]或[关键词3]时，自�
 - config2.json：[用途]
 ```
 
-### 附录C：YAML Frontmatter快速参考
+### 附录 C：YAML Frontmatter 快速参考
 
 | 字段 | 类型 | 必填 | 说明 | 示例 |
 |------|------|------|------|------|
-| `name` | string | ✅ | Skill名称（小写、连字符） | `code-commenter` |
+| `name` | string | ✅ | Skill 名称（小写、连字符） | `code-commenter` |
 | `description` | string | ✅ | 触发场景描述 | `当用户要求"添加注释"时激活` |
 
 **最佳实践**：
-- name使用kebab-case（小写+连字符）
-- description应该明确说明触发条件
-- description中包含关键词会提高自动激活准确率
+- name 使用 kebab-case（小写+连字符）
+- description 应该明确说明触发条件
+- description 中包含关键词会提高自动激活准确率
 
-### 附录D：常用脚本示例
+### 附录 D：常用脚本示例
 
-**示例1：简单文本处理**
+**示例 1：简单文本处理**
 
 ```python
 #!/usr/bin/env python3
@@ -2163,7 +2163,7 @@ if __name__ == "__main__":
     print(result)
 ```
 
-**示例2：JSON输出**
+**示例 2：JSON 输出**
 
 ```python
 #!/usr/bin/env python3
@@ -2193,44 +2193,44 @@ if __name__ == "__main__":
 
 完成本教程后，请核对以下检查项：
 
-- [ ] **理解Skills概念**：能解释Skills和Commands的区别
-- [ ] **掌握SKILL.md结构**：理解YAML Frontmatter和Markdown Body的作用
-- [ ] **创建基础Skill**：能独立创建包含SKILL.md的Skill
-- [ ] **配置触发条件**：能编写清晰的description实现自动激活
-- [ ] **编写提示词**：能在Markdown Body中组织清晰的指令结构
-- [ ] **集成脚本**：能将Python脚本集成到Skill中
-- [ ] **利用Hot Reloading**：理解修改SKILL.md后自动生效的机制
-- [ ] **配置Sandbox**：理解不同安全级别的应用场景
+- [ ] **理解 Skills 概念**：能解释 Skills 和 Commands 的区别
+- [ ] **掌握 SKILL.md 结构**：理解 YAML Frontmatter 和 Markdown Body 的作用
+- [ ] **创建基础 Skill**：能独立创建包含 SKILL.md 的 Skill
+- [ ] **配置触发条件**：能编写清晰的 description 实现自动激活
+- [ ] **编写提示词**：能在 Markdown Body 中组织清晰的指令结构
+- [ ] **集成脚本**：能将 Python 脚本集成到 Skill 中
+- [ ] **利用 Hot Reloading**：理解修改 SKILL.md 后自动生效的机制
+- [ ] **配置 Sandbox**：理解不同安全级别的应用场景
 - [ ] **故障排查**：能解决常见的配置和执行问题
-- [ ] **版本管理**：能在SKILL.md中记录版本历史
+- [ ] **版本管理**：能在 SKILL.md 中记录版本历史
 
 ---
 
-**恭喜完成Skills定制教程！**
+**恭喜完成 Skills 定制教程！**
 
-现在你已经掌握了创建和管理Claude Code Skills的核心技能。
+现在你已经掌握了创建和管理 Claude Code Skills 的核心技能。
 
 **下一步建议**：
-1. 为你的工作领域创建一个实用的Skill
-2. 参考公众号写作助手的SKILL.md架构设计更复杂的Skill
-3. 与团队分享你的Skill，收集反馈持续优化
-4. 深入理解Hot Reloading和渐进式披露机制
+1. 为你的工作领域创建一个实用的 Skill
+2. 参考公众号写作助手的 SKILL.md 架构设计更复杂的 Skill
+3. 与团队分享你的 Skill，收集反馈持续优化
+4. 深入理解 Hot Reloading 和渐进式披露机制
 5. 如果团队已经积累了大量 Skills，可以进一步研究 [SkillClaw](https://github.com/AMAP-ML/SkillClaw)：它关注跨用户、长期使用轨迹驱动的 skill 去重、合并、提质和共享，论文见 [arXiv:2604.08377](https://arxiv.org/abs/2604.08377)
 
 ---
 
 **文档信息**
-- 版本：2.1.0（适配Claude Code v2.1+）
-- 更新日期：2026年4月5日
-- 字数：约18,000字
+- 版本：2.1.0（适配 Claude Code v2.1+）
+- 更新日期：2026 年 4 月 5 日
+- 字数：约 18,000 字
 - 作者：老金
 - 主要更新：
   - 全面适配当前版本：skill.yaml → SKILL.md
-  - 删除prompts/文件夹概念
-  - 补充Hot Reloading机制
-  - 修正Sandbox说明（OS级功能，非SKILL.md frontmatter字段）
-  - 补充完整YAML Frontmatter字段表（context、model、allowed-tools等）
-  - 修正虚构的/reload命令引用
-  - 修正步骤3验证部分使用新格式
+  - 删除 prompts/文件夹概念
+  - 补充 Hot Reloading 机制
+  - 修正 Sandbox 说明（OS 级功能，非 SKILL.md frontmatter 字段）
+  - 补充完整 YAML Frontmatter 字段表（context、model、allowed-tools 等）
+  - 修正虚构的/reload 命令引用
+  - 修正步骤 3 验证部分使用新格式
   - 详解渐进式披露原理
-  - 更新所有示例和FAQ
+  - 更新所有示例和 FAQ

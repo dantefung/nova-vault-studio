@@ -12,7 +12,7 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 举例，你想开发在线工具，最好是前端就可以实现的，这样网站做好之后，几乎就不用去升级维护了。
 
-但你又不知道有哪些工具有流量，那么我们就可以先在谷歌中输入"在线工具"，看下搜索结果。
+但你又不知道有哪些工具有流量，那么我们就可以先在谷歌中输入“在线工具”，看下搜索结果。
 
 ![](images/web-product-demand-discovery-intro/img_002.webp)
 
@@ -32,17 +32,17 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 ![](images/web-product-demand-discovery-intro/img_006.webp)
 
-再看流量来源，有 46.11% 来自于直接访问，也就是用户记住了网址，或者从浏览器书签栏打开。有 51.44% 来自于搜索引擎，这里的"有机搜索"是自然搜索的意思。
+再看流量来源，有 46.11% 来自于直接访问，也就是用户记住了网址，或者从浏览器书签栏打开。有 51.44% 来自于搜索引擎，这里的“有机搜索”是自然搜索的意思。
 
 这里可以看到这个站的流量来源，挺大比例来自于搜索引擎，我们可以分析下，他的流量来自于哪些搜索词。
 
 ![](images/web-product-demand-discovery-intro/img_007.webp)
 
-可以看到排名前几的搜索词，有"时间戳"、"时间戳转换"、"ip 地址查询"、"ip 查询"、"ip"等。
+可以看到排名前几的搜索词，有“时间戳”、“时间戳转换”、"ip 地址查询“、"ip 查询”、"ip“等。
 
 这里的每个搜索词，都可以注册一个域名，单独做一个工具网站，来竞争。
 
-我们再打开国内的爱站 aizhan.com 首页输入框输入 tool.lu，下拉框选择"百度权重"，点击"查询"按钮。
+我们再打开国内的爱站 aizhan.com 首页输入框输入 tool.lu，下拉框选择”百度权重“，点击”查询“按钮。
 
 ![](images/web-product-demand-discovery-intro/img_008.webp)
 
@@ -50,7 +50,7 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 ![](images/web-product-demand-discovery-intro/img_009.webp)
 
-因为数据不是实时的，搜索引擎的排名却是实时变化的，爱站说"时间戳转换器"百度搜索 tool.lu 排第一，实际我们搜索发现排第 3，这是正常的。
+因为数据不是实时的，搜索引擎的排名却是实时变化的，爱站说”时间戳转换器“百度搜索 tool.lu 排第一，实际我们搜索发现排第 3，这是正常的。
 
 ![](images/web-product-demand-discovery-intro/img_010.webp)
 
@@ -58,11 +58,11 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 ![](images/web-product-demand-discovery-intro/img_011.webp)
 
-再来回顾一下我们的整个过程，我们先在谷歌里随便输入一个"在线工具"关键字，得到了 tool.lu 网站，之后在 similarweb 和 aizhan 上，我们得到了 tool.lu 网站能够拿到排名的一些关键字，大概就是下面这些了：
+再来回顾一下我们的整个过程，我们先在谷歌里随便输入一个”在线工具“关键字，得到了 tool.lu 网站，之后在 similarweb 和 aizhan 上，我们得到了 tool.lu 网站能够拿到排名的一些关键字，大概就是下面这些了：
 
 > 时间戳、时间戳转换、ip 地址查询、ip 查询、ip、时间戳转换器、在线工具、整数分区、视频地址解析、下载地址转换、整数分区计算器、unix 时间戳、timestamp、unixtimestamp、在线拆字
 
-这里的每一个关键字，我们都可以用站长网的关键字优化分析工具查看 SEO 优化难度。打开 \`<\1>，输入"时间戳"。
+这里的每一个关键字，我们都可以用站长网的关键字优化分析工具查看 SEO 优化难度。打开 \`<\1>，输入”时间戳“。
 
 ![](images/web-product-demand-discovery-intro/img_012.webp)
 
@@ -72,7 +72,7 @@ url: "https://new.web.cafe/tutorial/detail/x6FJMuPZ4Q8MskMzhE2cmh"
 
 而且实际查看列表发现，首页也只是子域名而已。
 
-那么，"时间戳"这个词，如果我们注册一个域名，专门做"时间戳"相关工具的话，假以时日，是有可能上搜索引擎首页，甚至是排到前 5 前 3 的。
+那么，”时间戳“这个词，如果我们注册一个域名，专门做”时间戳“相关工具的话，假以时日，是有可能上搜索引擎首页，甚至是排到前 5 前 3 的。
 
 ## 留言
 

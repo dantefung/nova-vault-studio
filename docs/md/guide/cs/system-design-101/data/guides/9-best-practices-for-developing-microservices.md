@@ -17,20 +17,20 @@ When developing microservices, it's crucial to follow these best practices:
 
 ## Best Practices
 
-*   **Use separate data storage for each microservice**
+* **Use separate data storage for each microservice**
 
-*   **Keep code at a similar level of maturity**
+* **Keep code at a similar level of maturity**
 
-*   **Separate build for each microservice**
+* **Separate build for each microservice**
 
-*   **Assign each microservice with a single responsibility**
+* **Assign each microservice with a single responsibility**
 
-*   **Deploy into containers**
+* **Deploy into containers**
 
-*   **Design stateless services**
+* **Design stateless services**
 
-*   **Adopt domain-driven design**
+* **Adopt domain-driven design**
 
-*   **Design micro frontend**
+* **Design micro frontend**
 
-*   **Orchestrating microservices**
+* **Orchestrating microservices**

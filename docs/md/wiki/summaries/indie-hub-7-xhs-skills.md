@@ -7,7 +7,7 @@ url: ""
 
 ## 核心内容
 
-7个小红书图文Skill完整管线：baoyu-skills(16k Stars，断崖第一)×48种组合 + BLCaptain(35种版式) + Viral Writer(审核通过率100%) + xhs-content(调研5小时→几分钟) + Qianjin(长文拆6平台) + henry-ai(三平台互转) + Qiaomu(大师级海报)。
+7 个小红书图文 Skill 完整管线：baoyu-skills(16k Stars，断崖第一)×48 种组合 + BLCaptain(35 种版式) + Viral Writer(审核通过率 100%) + xhs-content(调研 5 小时→几分钟) + Qianjin(长文拆 6 平台) + henry-ai(三平台互转) + Qiaomu(大师级海报)。
 
 ## 管线逻辑
 

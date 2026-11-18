@@ -11,7 +11,7 @@ url: "https://mp.weixin.qq.com/s/Ci7pNUCxGXF6pbGOC56Gag"
 
 <!-- more -->
 
-作者：空格丶  
+作者：空格丶 
 原文发布日期：2026-10-20
 
 ![九种代码视频方法总览](../images/ai-code-video-methods/001.webp)

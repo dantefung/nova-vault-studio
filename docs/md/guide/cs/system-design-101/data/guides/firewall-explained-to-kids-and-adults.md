@@ -17,9 +17,9 @@ A firewall is a network security system that controls and filters network traffi
 
 They come in two broad categories:
 
-*   Software-based: installed on individual devices for protection
+* Software-based: installed on individual devices for protection
 
-*   Hardware-based: stand-alone devices that safeguard an entire network.
+* Hardware-based: stand-alone devices that safeguard an entire network.
 
 Firewalls have several types, each designed for specific security needs:
 

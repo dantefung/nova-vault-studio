@@ -17,11 +17,11 @@ Amazon Web Services (AWS) offers a comprehensive suite of networking services de
 
 ## Key Components
 
-*   **VPC (Virtual Private Cloud)**
+* **VPC (Virtual Private Cloud)**
 
     At the heart of AWS's networking services is the Amazon VPC, which allows users to provision a logically isolated section of the AWS Cloud. Within this isolated environment, users can launch AWS resources in a virtual network that they define.
 
-*   **AZ (Availability Zone)**
+* **AZ (Availability Zone)**
 
     An AZ in AWS refers to one or more discrete data centers with redundant power, networking, and connectivity in an AWS Region.
 

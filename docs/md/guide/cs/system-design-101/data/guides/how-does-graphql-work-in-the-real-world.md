@@ -39,5 +39,5 @@ The overall workflow after adopting GraphQL has 3 parts:
 
 LinkedIn doesn’t deploy a GraphQL gateway for two reasons:
 
-1.  Prevent an additional network hop
-2.  Avoid single point of failure
+1. Prevent an additional network hop
+2. Avoid single point of failure

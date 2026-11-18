@@ -11,7 +11,7 @@ original: "[星标]长文多图：结合DDD讲清楚编写技术方案的七大�
 
 ## 正文
 
-2022/6/12 21:46                                    DDD
+2022/6/12 21:46 DDD
 
 DDD
 
@@ -23,7 +23,7 @@ DDD
 JAVA 
 
    JAVA 
- java_fro  nt 
+ java_fro nt 
 
 1 
 
@@ -36,8 +36,8 @@ JAVA
 
 1968
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       1/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 1/33
+2022/6/12 21:46 DDD
 
 
 
@@ -53,8 +53,8 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       1/33
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       2/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 2/33
+2022/6/12 21:46 DDD
 
 
 whywhat
@@ -65,8 +65,8 @@ how
 
 3 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       3/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 3/33
+2022/6/12 21:46 DDD
 
 
 
@@ -97,8 +97,8 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       3/33
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       4/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 4/33
+2022/6/12 21:46 DDD
 
 3.1.2 
 
@@ -113,8 +113,8 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       4/33
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       5/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 5/33
+2022/6/12 21:46 DDD
 
   (2) 
 
@@ -128,23 +128,23 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       5/33
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       6/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 6/33
+2022/6/12 21:46 DDD
 
 (4) 
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       7/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 7/33
+2022/6/12 21:46 DDD
 
 3.1.3 
 
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       8/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 8/33
+2022/6/12 21:46 DDD
 
 3.1.4 
 
@@ -157,8 +157,8 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       8/33
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       9/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 9/33
+2022/6/12 21:46 DDD
 
 3.2 
 
@@ -169,8 +169,8 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       9/33
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       10/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 10/33
+2022/6/12 21:46 DDD
 
 include
 
@@ -188,8 +188,8 @@ extend
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       11/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 11/33
+2022/6/12 21:46 DDD
 
 
 
@@ -204,23 +204,23 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       11/33
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       12/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 12/33
+2022/6/12 21:46 DDD
 
 3.3.2 
 
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       13/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 13/33
+2022/6/12 21:46 DDD
 
 
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       14/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 14/33
+2022/6/12 21:46 DDD
 
 3.3.3 
 
@@ -237,8 +237,8 @@ BCCB
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       15/33
-2022/6/12 21:46  DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 15/33
+2022/6/12 21:46 DDD
 
 
 
@@ -271,7 +271,7 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       15/33
 
 
 https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46                      DDD
+2022/6/12 21:46 DDD
 
 // 
 
@@ -326,7 +326,7 @@ ABCA9
             public class OrderServiceImpl implements OrderService {
   17/33
 https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46                                    DDD
+2022/6/12 21:46 DDD
 
                  @Resource
 
@@ -341,7 +341,7 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
 
                  if (null == orderBO) {
 
-                      throw new RuntimeException("    ");
+                      throw new RuntimeException(" ");
 
 
                  }
@@ -350,7 +350,7 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
                  if (OrderTypeEnum.isNotValid(orderBO.getType())) {
 
 
-                      throw new RuntimeException("    ");
+                      throw new RuntimeException(" ");
 
 
                  }
@@ -368,7 +368,7 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
                      if (orderBO.getWeight() > 9) {
 
 
-                              throw new RuntimeException("         ");
+                              throw new RuntimeException(" ");
 
 
                         }
@@ -392,7 +392,7 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
                      if (orderBO.getWeight() > 8) {
 
 
-                              throw new RuntimeException("         ");
+                              throw new RuntimeException(" ");
 
 
                         }
@@ -416,7 +416,7 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
                      if (orderBO.getWeight() > 7) {
 
 
-                              throw new RuntimeException("         ");
+                              throw new RuntimeException(" ");
 
 
                         }
@@ -442,8 +442,8 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
 }
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw                                       18/33
-2022/6/12 21:46  DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 18/33
+2022/6/12 21:46 DDD
 
 
 
@@ -471,7 +471,7 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw                               
             public interface DiscountStrategy {
 
 https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46              DDD
+2022/6/12 21:46 DDD
 
                  public void discount(OrderBO orderBO);
 
@@ -562,7 +562,7 @@ public class DiscountStrategyFactory implements InitializingBean {
                    private TypeCDiscountStrategy typeCDiscountStrategy;
 
 https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46              DDD
+2022/6/12 21:46 DDD
 
                  public DiscountStrategy getStrategy(String type) {
 
@@ -606,7 +606,7 @@ public class DiscountStrategyExecutor {
                  if (null == discountStrategy) {
 
 
-                  throw new RuntimeException("               ");
+                  throw new RuntimeException(" ");
 
 
                  }
@@ -642,7 +642,7 @@ public interface CreateOrderService {
 
             public abstract class AbstractCreateOrderFlow {
 https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46     abstract  class  AbstractCreateOrderFlowDD{D
+2022/6/12 21:46 abstract class AbstractCreateOrderFlowDD{D
 
             public
 
@@ -659,7 +659,7 @@ public void createOrder(OrderBO orderBO) {
 
                     if (null == orderBO) {
 
-                         throw new RuntimeException("        ");
+                         throw new RuntimeException(" ");
 
 
                     }
@@ -668,7 +668,7 @@ public void createOrder(OrderBO orderBO) {
                     if (OrderTypeEnum.isNotValid(orderBO.getType())) {
 
 
-                         throw new RuntimeException("        ");
+                         throw new RuntimeException(" ");
 
 
                     }
@@ -741,8 +741,8 @@ private RefundStrategyExecutor refundStrategyExecutor;
                    public void discount(OrderBO orderBO) {
 
 https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46                                                            DDD
-                   }  discountStrategyExecutor.discount(orderBO);
+2022/6/12 21:46 DDD
+                   } discountStrategyExecutor.discount(orderBO);
 
 
 @Override
@@ -773,8 +773,8 @@ public void supportRefund(OrderBO orderBO) {
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw                               23/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 23/33
+2022/6/12 21:46 DDD
 
 
 
@@ -783,8 +783,8 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw                               
 
 Y
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       24/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 24/33
+2022/6/12 21:46 DDD
 
 3.3.1
 
@@ -793,22 +793,22 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       24/33
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       25/33
- 2022/6/12 21:46                                   DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 25/33
+ 2022/6/12 21:46 DDD
     3.6
 
 
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       26/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 26/33
+2022/6/12 21:46 DDD
 
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       27/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 27/33
+2022/6/12 21:46 DDD
 
      (1) api
 
@@ -836,14 +836,14 @@ RPC
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       28/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 28/33
+2022/6/12 21:46 DDD
 
 DMOVO
 DO
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       29/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 29/33
+2022/6/12 21:46 DDD
 
 3.7 
 
@@ -854,11 +854,11 @@ Swagger
 
 
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       30/33
-2022/6/12 21:46                                    DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 30/33
+2022/6/12 21:46 DDD
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       31/33
-2022/6/12 21:46  DDD
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 31/33
+2022/6/12 21:46 DDD
 
 4 
 
@@ -871,9 +871,9 @@ https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       31/33
 JAVA 
 
    JAVA 
- java_fro  nt 
+ java_fro nt 
 
-     #8                                                           
+     #8 
                                                    
     ATAM
                                                                                                                   32/33
@@ -884,137 +884,137 @@ JAVA
   JAVA
 
 https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw
-2022/6/12 21:46                                    DDD
+2022/6/12 21:46 DDD
 
-https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw       33/33
+https://mp.weixin.qq.com/s/cpvnyzCWduO1r9tp1Yjhsw 33/33
 
 ## 配图
 
 ### 第 2 页 — 001-p02.jpeg
 
-![001-p02.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/001-p02.webp)
+![001-p02.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/001-p02.webp)
 
 ### 第 3 页 — 002-p03.jpeg
 
-![002-p03.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/001-p02.webp)
+![002-p03.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/001-p02.webp)
 
 ### 第 4 页 — 003-p04.jpeg
 
-![003-p04.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/003-p04.webp)
+![003-p04.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/003-p04.webp)
 
 ### 第 5 页 — 004-p05.jpeg
 
-![004-p05.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/003-p04.webp)
+![004-p05.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/003-p04.webp)
 
 ### 第 6 页 — 005-p06.jpeg
 
-![005-p06.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/005-p06.webp)
+![005-p06.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/005-p06.webp)
 
 ### 第 6 页 — 006-p06.jpeg
 
-![006-p06.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/006-p06.webp)
+![006-p06.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/006-p06.webp)
 
 ### 第 7 页 — 007-p07.jpeg
 
-![007-p07.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/006-p06.webp)
+![007-p07.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/006-p06.webp)
 
 ### 第 7 页 — 008-p07.jpeg
 
-![008-p07.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/008-p07.webp)
+![008-p07.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/008-p07.webp)
 
 ### 第 8 页 — 009-p08.jpeg
 
-![009-p08.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/008-p07.webp)
+![009-p08.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/008-p07.webp)
 
 ### 第 8 页 — 010-p08.jpeg
 
-![010-p08.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/010-p08.webp)
+![010-p08.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/010-p08.webp)
 
 ### 第 9 页 — 011-p09.jpeg
 
-![011-p09.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/010-p08.webp)
+![011-p09.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/010-p08.webp)
 
 ### 第 9 页 — 012-p09.jpeg
 
-![012-p09.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/012-p09.webp)
+![012-p09.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/012-p09.webp)
 
 ### 第 10 页 — 013-p10.jpeg
 
-![013-p10.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/012-p09.webp)
+![013-p10.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/012-p09.webp)
 
 ### 第 10 页 — 014-p10.jpeg
 
-![014-p10.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/014-p10.webp)
+![014-p10.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/014-p10.webp)
 
 ### 第 11 页 — 015-p11.jpeg
 
-![015-p11.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/014-p10.webp)
+![015-p11.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/014-p10.webp)
 
 ### 第 12 页 — 016-p12.jpeg
 
-![016-p12.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/016-p12.webp)
+![016-p12.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/016-p12.webp)
 
 ### 第 13 页 — 017-p13.jpeg
 
-![017-p13.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/016-p12.webp)
+![017-p13.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/016-p12.webp)
 
 ### 第 14 页 — 018-p14.jpeg
 
-![018-p14.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/018-p14.webp)
+![018-p14.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/018-p14.webp)
 
 ### 第 15 页 — 019-p15.jpeg
 
-![019-p15.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/018-p14.webp)
+![019-p15.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/018-p14.webp)
 
 ### 第 15 页 — 020-p15.jpeg
 
-![020-p15.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/020-p15.webp)
+![020-p15.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/020-p15.webp)
 
 ### 第 19 页 — 021-p19.jpeg
 
-![021-p19.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/021-p19.webp)
+![021-p19.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/021-p19.webp)
 
 ### 第 23 页 — 022-p23.jpeg
 
-![022-p23.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/022-p23.webp)
+![022-p23.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/022-p23.webp)
 
 ### 第 24 页 — 023-p24.jpeg
 
-![023-p24.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/022-p23.webp)
+![023-p24.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/022-p23.webp)
 
 ### 第 25 页 — 024-p25.jpeg
 
-![024-p25.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/024-p25.webp)
+![024-p25.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/024-p25.webp)
 
 ### 第 26 页 — 025-p26.jpeg
 
-![025-p26.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/025-p26.webp)
+![025-p26.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/025-p26.webp)
 
 ### 第 27 页 — 026-p27.jpeg
 
-![026-p27.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/025-p26.webp)
+![026-p27.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/025-p26.webp)
 
 ### 第 28 页 — 027-p28.jpeg
 
-![027-p28.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/027-p28.webp)
+![027-p28.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/027-p28.webp)
 
 ### 第 29 页 — 028-p29.jpeg
 
-![028-p29.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/027-p28.webp)
+![028-p29.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/027-p28.webp)
 
 ### 第 29 页 — 029-p29.jpeg
 
-![029-p29.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/029-p29.webp)
+![029-p29.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/029-p29.webp)
 
 ### 第 30 页 — 030-p30.jpeg
 
-![030-p30.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/029-p29.webp)
+![030-p30.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/029-p29.webp)
 
 ### 第 30 页 — 031-p30.jpeg
 
-![031-p30.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/031-p30.webp)
+![031-p30.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/031-p30.webp)
 
 ### 第 31 页 — 032-p31.jpeg
 
-![032-p31.jpeg](images/长文多图-结合DDD讲清楚编写技术方案的七大维度/031-p30.webp)
+![032-p31.jpeg](images/长文多图-结合 DDD 讲清楚编写技术方案的七大维度/031-p30.webp)
 

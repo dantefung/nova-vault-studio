@@ -21,9 +21,9 @@ Although Google Maps is a very complex system, we can break it down into 3 high-
 
 The location service is responsible for recording a user’s location update. The Google Map clients send location updates every few seconds. The user location data is used in many cases:
 
-*   detect new and recently closed roads.
-*   improve the accuracy of the map over time.
-*   used as an input for live traffic data.
+* detect new and recently closed roads.
+* improve the accuracy of the map over time.
+* used as an input for live traffic data.
 
 ## Map Rendering
 
@@ -37,9 +37,9 @@ An efficient way is to pre-calculate the map blocks with different zoom levels a
 
 This component is responsible for finding a reasonably fast route from point A to point B. It calls two services to help with the path calculation:
 
-1.  Geocoding Service: resolve the given address to a latitude/longitude pair.
-2.  Route Planner Service: this service does three things in sequence:
+1. Geocoding Service: resolve the given address to a latitude/longitude pair.
+2. Route Planner Service: this service does three things in sequence:
 
-    *   Calculate top-K shortest paths between A and B
-    *   Calculate the estimation of time for each path based on current traffic and historical data
-    *   Rank the paths by time predictions and user filtering. For example, the user doesn’t want to avoid tolls.
+    * Calculate top-K shortest paths between A and B
+    * Calculate the estimation of time for each path based on current traffic and historical data
+    * Rank the paths by time predictions and user filtering. For example, the user doesn’t want to avoid tolls.

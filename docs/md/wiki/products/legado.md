@@ -5,7 +5,7 @@ source: "GitHub"
 url: "https://github.com/gedoor/legado"
 ---
 
-# Legado (阅读3.0)
+# Legado (阅读 3.0)
 
 开源 Android 阅读器，可自定义来源阅读网络内容。
 
@@ -13,7 +13,7 @@ url: "https://github.com/gedoor/legado"
 
 ## 核心定位
 
-阅读3.0，一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
+阅读 3.0，一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 
 ## 核心功能
 

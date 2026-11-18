@@ -207,7 +207,7 @@ CICLe（Conformal In-Context Learning）结合轻量级基分类器和共形预�
 
 ## 四、生产级提示词设计模板（中文客服场景）
 
-以下模板基于 500+ 轮实验评测、华为云/百度千帆/百度AI客服等多个中文实战案例提炼，适用于基于 LLM 的意图分类器。
+以下模板基于 500+ 轮实验评测、华为云/百度千帆/百度 AI 客服等多个中文实战案例提炼，适用于基于 LLM 的意图分类器。
 
 ### 4.1 System Prompt：结构化意图分类专家
 
@@ -255,11 +255,11 @@ CICLe（Conformal In-Context Learning）结合轻量级基分类器和共形预�
 
 **示例选择策略**：
 1. **代表性优先**：每个意图选 2-3 个覆盖不同表述方式的示例
-2. **多样性覆盖**：示例应覆盖正式语、方言、网络用语（如"我的订单到哪了"、"我的东东咋还没到"都指向同一意图）
-3. **边界案例**：包含容易误判的边界示例（如"我要投诉"可能是退款售后，也可能是账户管理）
+2. **多样性覆盖**：示例应覆盖正式语、方言、网络用语（如“我的订单到哪了”、“我的东东咋还没到”都指向同一意图）
+3. **边界案例**：包含容易误判的边界示例（如“我要投诉”可能是退款售后，也可能是账户管理）
 4. **位置**：最近邻示例放在用户输入之前，引导模型关注当前任务
 
-**中文客服场景 Few-Shot 示例（参考百度AI客服案例）**：
+**中文客服场景 Few-Shot 示例（参考百度 AI 客服案例）**：
 
 ```
 示例1：
@@ -423,8 +423,8 @@ response = client.chat.completions.create(
 - [IntentGuard: Production-Grade Vertical Intent Classifier — perfecXion](https://perfecxion.ai/articles/intentguard-vertical-intent-classifier-llm-guardrails.html)，2026-04
 - [Structured Outputs Guide — Logic](https://logic.inc/resources/structured-outputs-guide)，2026-04
 - [Prompt Engineering Guide 2026 — TokenMix](https://tokenmix.ai/blog/prompt-engineering-guide)，2026-04
-- [电商智能客服Prompt优化全流程 — 百度AI社区](https://cloud.baidu.com/article/4668612)，2025-11
-- [吴恩达Prompt工程精解：AI客服系统中的Prompt设计与优化实践 — 百度智能云](https://cloud.baidu.com/article/4421880)，2025-10
+- [电商智能客服 Prompt 优化全流程 — 百度 AI 社区](https://cloud.baidu.com/article/4668612)，2025-11
+- [吴恩达 Prompt 工程精解：AI 客服系统中的 Prompt 设计与优化实践 — 百度智能云](https://cloud.baidu.com/article/4421880)，2025-10
 - [Using Prompts for Intent Alignment — 华为云](https://support.huaweicloud.com/intl/en-us/bestpractice-pangulm/pangulm_04_0021.html)，2025-11
 - [Introducing GPT-5.4 mini and nano — OpenAI](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/)，2026-03
 - [GPT-5.4 nano Pricing — AI Cost Check](https://aicostcheck.com/model/gpt-5-4-nano)，2026-03

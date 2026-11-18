@@ -19,7 +19,7 @@ url: "https://mp.weixin.qq.com/s/zxjYSGzgEoDyrcpdupEQ-w"
 
 | 情况 | 分支 | Worktree | 场景 |
 |------|------|----------|------|
-| 1 | ❌ | ❌ | 5分钟小活，main直改 |
+| 1 | ❌ | ❌ | 5 分钟小活，main 直改 |
 | 2 | ✅ | ❌ | 大活/长周期/可能推倒重来 |
 | 3 | ✅（同一） | ✅（多个） | 同分支下多个并行子任务 |
 | 4 | ✅（多条） | ✅（每分支一个） | 多路线并行 |
@@ -29,8 +29,8 @@ url: "https://mp.weixin.qq.com/s/zxjYSGzgEoDyrcpdupEQ-w"
 
 1. **拆任务能力是第一道分水岭**：从「怎么实现」变成「怎么拆成互不干扰的任务」
 2. **基础设施先于功能**：测试/CI/代码规范 = 地基，地基稳才能多 Agent 并行
-3. **当产品经理别当码农**：判断力稀缺，AI编程时代核心竞争力是产品感觉和决策质量
+3. **当产品经理别当码农**：判断力稀缺，AI 编程时代核心竞争力是产品感觉和决策质量
 
 ## 关联概念
 
-[[Git Worktree]] [[AI并行开发]] [[Agent管理]] [[任务拆解]] [[独立开发者]] [[Peter Steinberger]] [[OpenClaw]]
+[[Git Worktree]] [[AI 并行开发]] [[Agent 管理]] [[任务拆解]] [[独立开发者]] [[Peter Steinberger]] [[OpenClaw]]

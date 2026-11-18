@@ -5,26 +5,26 @@ source: "微信公众号 / 从码农到工匠"
 url: "https://mp.weixin.qq.com/s/mYuzKR48DsMKJapJ2MMyTg"
 ---
 
-# 从零构建Agent(四)：Function Calling
+# 从零构建 Agent(四)：Function Calling
 
 > 作者在上一篇构建了基于 ReAct 的 Agent Loop 骨架，本文扩展出一组真正可用的 Function Calling 工具（read_file / write_file / edit_file / run_terminal_command / file_search），并讨论 Strict Mode 取舍、客户端校验、并发执行等关键工程细节。
 > Demo 源码：[github.com/significantfrank/ZeroAgent](https://github.com/significantfrank/ZeroAgent)
 
 上一篇我们构建了 Agent Loop 的核心骨架——一个基于 ReAct 的 while 循环，能够消费 SSE 事件流、识别工具调用，并将结果回填到对话上下文中。但其能力十分有限。
 
-Agent 的能力边界，取决于它能调用什么工具。Claude Code 能读写文件、执行命令；Cursor 能搜索代码库、修改文件；Hermes 能管理定时任务、发送消息。这些 Agent 的"聪明"来自模型，但"能干"来自工具。
+Agent 的能力边界，取决于它能调用什么工具。Claude Code 能读写文件、执行命令；Cursor 能搜索代码库、修改文件；Hermes 能管理定时任务、发送消息。这些 Agent 的“聪明”来自模型，但“能干”来自工具。
 
 注意，Function Calling 有时候也叫 Tool Calling，业界会混用这两个词，表达的是一个意思。本文我们在上一篇的基础上，扩展出一组真正有用的 Function Calling 工具。
 
 ## 1. 什么是 Function Calling
 
-模型是"大脑"，但它没有手脚。它不能：
+模型是“大脑”，但它没有手脚。它不能：
 
 - 读取你磁盘上的文件
 - 执行一条 shell 命令
 - 搜索代码库中的某个函数
 
-模型的输出只有文本。Function Calling 是一座桥梁：模型按照预定义的 JSON Schema 输出工具调用意图，Agent 在本地执行真正的操作，再把结果作为"观察"喂回模型。
+模型的输出只有文本。Function Calling 是一座桥梁：模型按照预定义的 JSON Schema 输出工具调用意图，Agent 在本地执行真正的操作，再把结果作为“观察”喂回模型。
 
 为了在 Agent 中实现 Function Calling 能力，我们需要经历以下阶段：
 
@@ -166,7 +166,7 @@ async function handleReadFile(args: {
 
 输出带行号前缀（`1|hello`），方便模型在后续推理中精确引用行号。
 
-> 这里有一个容易被忽略的细节：文件末尾的换行符会在 `split('\n')` 后产生一个空字符串元素，需要手动 `pop` 掉，否则模型会看到一个不存在的"空行"。
+> 这里有一个容易被忽略的细节：文件末尾的换行符会在 `split('\n')` 后产生一个空字符串元素，需要手动 `pop` 掉，否则模型会看到一个不存在的“空行”。
 
 #### write_file
 
@@ -256,7 +256,7 @@ async function handleFileSearch(args: {
 }
 ```
 
-> 这里有一个经典的 grep 陷阱：grep 在没有匹配到任何内容时以退出码 1 退出，而 Node.js 的 `exec` 会将非零退出码视为错误并抛出异常。如果我们不处理这个情况，"没搜到东西"就会变成一个工具错误，模型可能会误以为出了问题。
+> 这里有一个经典的 grep 陷阱：grep 在没有匹配到任何内容时以退出码 1 退出，而 Node.js 的 `exec` 会将非零退出码视为错误并抛出异常。如果我们不处理这个情况，“没搜到东西”就会变成一个工具错误，模型可能会误以为出了问题。
 >
 > 正确做法是捕获退出码 1，将空结果正常返回给模型。只有退出码 2（真正的错误，如目录不存在、正则非法）才向上抛出。
 
@@ -302,7 +302,7 @@ for (const { call, result: pendingResult } of pendingResults) {
 
 启动我们的 Agent，进入 Console 界面，输入下面的提示词：
 
-> 在 tmp 文件夹下, 写一个简单的 HTML 贪吃蛇游戏
+> 在 tmp 文件夹下，写一个简单的 HTML 贪吃蛇游戏
 
 可以看到，模型会先调用 terminal 命令创建 tmp 目录，模型返回给 Agent 进行 Function Calling 的内容如下：
 
@@ -344,7 +344,7 @@ Agent 执行完命令之后，会把下面的信息加入到 conversation 上下
 - **工具定义决定能力边界**：`description` 影响模型选对工具的准确率，`parameters` schema 约束模型的输出格式，`strict` 模式在可选参数场景下需要取舍。
 - **错误是模型的信号**：工具执行失败不应 crash Agent，而应将清晰的错误信息回传给模型，让它自我修正。
 - **客户端校验不可省**：关闭 strict mode 后，Agent 必须自己做运行时参数校验。
-- **系统工具的行为差异**：如 `grep` 退出码 1 是"无匹配"而非错误，这类差异需要显式处理。
+- **系统工具的行为差异**：如 `grep` 退出码 1 是“无匹配”而非错误，这类差异需要显式处理。
 - **并发执行 + 顺序回填**：工具 Promise 并发创建，结果按调用顺序产出，兼顾性能和可预测性。
 
-这些工具让 Agent 从"只会聊天"变成了"能读写文件、执行命令、搜索代码"的实干家。但在真实场景中，Agent 还需要更强的能力——比如动态注册工具、工具执行超时、结构化输出等。这些内容会在后续文章展开。
+这些工具让 Agent 从“只会聊天”变成了“能读写文件、执行命令、搜索代码”的实干家。但在真实场景中，Agent 还需要更强的能力——比如动态注册工具、工具执行超时、结构化输出等。这些内容会在后续文章展开。

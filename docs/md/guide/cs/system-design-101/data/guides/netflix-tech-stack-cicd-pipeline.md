@@ -14,18 +14,18 @@ tags:
 
 ![](https://assets.bytebytego.com/diagrams/0287-netflix-ci-cd.png)
 
-*   **Planning:** Netflix Engineering uses JIRA for planning and Confluence for documentation.
+* **Planning:** Netflix Engineering uses JIRA for planning and Confluence for documentation.
 
-*   **Coding:** Java is the primary programming language for the backend service, while other languages are used for different use cases.
+* **Coding:** Java is the primary programming language for the backend service, while other languages are used for different use cases.
 
-*   **Build:** Gradle is mainly used for building, and Gradle plugins are built to support various use cases.
+* **Build:** Gradle is mainly used for building, and Gradle plugins are built to support various use cases.
 
-*   **Packaging:** Package and dependencies are packed into an Amazon Machine Image (AMI) for release.
+* **Packaging:** Package and dependencies are packed into an Amazon Machine Image (AMI) for release.
 
-*   **Testing:** Testing emphasizes the production culture's focus on building chaos tools.
+* **Testing:** Testing emphasizes the production culture's focus on building chaos tools.
 
-*   **Deployment:** Netflix uses its self-built Spinnaker for canary rollout deployment.
+* **Deployment:** Netflix uses its self-built Spinnaker for canary rollout deployment.
 
-*   **Monitoring:** The monitoring metrics are centralized in Atlas, and Kayenta is used to detect anomalies.
+* **Monitoring:** The monitoring metrics are centralized in Atlas, and Kayenta is used to detect anomalies.
 
-*   **Incident report:** Incidents are dispatched according to priority, and PagerDuty is used for incident handling.
+* **Incident report:** Incidents are dispatched according to priority, and PagerDuty is used for incident handling.

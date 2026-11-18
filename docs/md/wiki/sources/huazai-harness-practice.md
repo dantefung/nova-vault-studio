@@ -6,10 +6,10 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/zOgLaXwMjgarsXJ7E0vXmA"
 ---
 
-# 我的Harness 工程化和脚手架实践
+# 我的 Harness 工程化和脚手架实践
 
 阅读本文大约需要 10 分钟。大家好，我是 华仔。
-，倒计时8天，正在观望的粉丝朋友们还有要加入的吗？星球月底要涨价了，请抓紧时间，小红书自主旅游规划项目已完结，如下图所示，截至目前星球总共更新完成6个实战项目，其中4个AI项目，尤其是这个 agentscope2.0 + harness 实战，企业级刚需实战项目，星球交付方式：0-1文档教程+代码+群答疑。另外这个 Harness 跨语言脚手架项目代码基本开发完成，已开放给球友们使用，正在热更教程中（这是从小红书自主规划旅游项目提炼出来的想法并最终落地实战项目，非常实用，价值很大）：简单测试效果：使用 /harness-me 进行需求打磨：使用/harnessing 进行规格构建：新项目大纲清单：已更新8篇：正在增加前端PRD前置转换功能，还在优化完善中，目标打通从产品到研发的全链路：星球限时福利 159，28号要涨价了，还在观望的粉丝们请抓紧时间如果需要请仔细看完，非常超值，不需要的请划走。
+，倒计时 8 天，正在观望的粉丝朋友们还有要加入的吗？星球月底要涨价了，请抓紧时间，小红书自主旅游规划项目已完结，如下图所示，截至目前星球总共更新完成 6 个实战项目，其中 4 个 AI 项目，尤其是这个 agentscope2.0 + harness 实战，企业级刚需实战项目，星球交付方式：0-1 文档教程+代码+群答疑。另外这个 Harness 跨语言脚手架项目代码基本开发完成，已开放给球友们使用，正在热更教程中（这是从小红书自主规划旅游项目提炼出来的想法并最终落地实战项目，非常实用，价值很大）：简单测试效果：使用 /harness-me 进行需求打磨：使用/harnessing 进行规格构建：新项目大纲清单：已更新 8 篇：正在增加前端 PRD 前置转换功能，还在优化完善中，目标打通从产品到研发的全链路：星球限时福利 159，28 号要涨价了，还在观望的粉丝们请抓紧时间如果需要请仔细看完，非常超值，不需要的请划走。
 ，数量有限，先到先得，
 ```
 
@@ -23,7 +23,7 @@ url: "https://mp.weixin.qq.com/s/zOgLaXwMjgarsXJ7E0vXmA"
 ```
 
 ，数量有限，先到先得，
-2.2.1 CLUADE.md整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)2.2.2 harness 工程规范约束.harness/rules/ 三规范：工程结构 / 编码规范 / 开发流程规范.harness/skills/ 六技能：①~⑥ 流水线步骤定义（含 frontmatter + status 流转）.harness/wiki/ 四文档：业务模型 / 接口协议 / 数据模型 / 架构决策（领域真相来源）.harness/changes/ + _TEMPLATE/：变更追踪约定 + 三件套模板（change/review/verify）+ 状态机.harness/agents/owner.md：Owner Agent 的定义（流水线总编排者）CLAUDE.md 作为 AI 协作入口（地图模式，按需加载 .harness/ 各组件）上下文分层模型：Layer0 系统级 / Layer1 项目级(CLAUDE.md + owner.md) / Layer2 约束级(rules) / Layer3 领域级(wiki) / Layer4 运行时(ReMe).claude/settings.json 权限策略与 Hooks（Allow Maven/Docker/Git/Java、Deny 危险操作、PostToolUse Hook）2.2.3 总结Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来不是5 个 Agent 目录代码创建了就算完成，必须真的实现：2.4.2 开发 change 清单为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent 很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。2.6 两类 Skills，不要搞混了这是我在项目里特别强调的一件事，这里的 Skills 分两类：第一类是开发 Skills，在 .harness/skills/ 下。第二类是业务 Skills，在 huazai-trip-skills/ 模块里。2.6.1 开发 Skills开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审CI 校验部署验证2.6.2 业务 Skills业务 Skills 服务的是Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
+2.2.1 CLUADE.md 整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)2.2.2 harness 工程规范约束.harness/rules/ 三规范：工程结构 / 编码规范 / 开发流程规范.harness/skills/ 六技能：①~⑥ 流水线步骤定义（含 frontmatter + status 流转）.harness/wiki/ 四文档：业务模型 / 接口协议 / 数据模型 / 架构决策（领域真相来源）.harness/changes/ + _TEMPLATE/：变更追踪约定 + 三件套模板（change/review/verify）+ 状态机.harness/agents/owner.md：Owner Agent 的定义（流水线总编排者）CLAUDE.md 作为 AI 协作入口（地图模式，按需加载 .harness/ 各组件）上下文分层模型：Layer0 系统级 / Layer1 项目级(CLAUDE.md + owner.md) / Layer2 约束级(rules) / Layer3 领域级(wiki) / Layer4 运行时(ReMe).claude/settings.json 权限策略与 Hooks（Allow Maven/Docker/Git/Java、Deny 危险操作、PostToolUse Hook）2.2.3 总结 Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify 对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来不是 5 个 Agent 目录代码创建了就算完成，必须真的实现：2.4.2 开发 change 清单为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability 所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent 很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill 对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。2.6 两类 Skills，不要搞混了这是我在项目里特别强调的一件事，这里的 Skills 分两类：第一类是开发 Skills，在 .harness/skills/ 下。第二类是业务 Skills，在 huazai-trip-skills/ 模块里。2.6.1 开发 Skills 开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审 CI 校验部署验证 2.6.2 业务 Skills 业务 Skills 服务的是 Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
 ，数量有限，先到先得，
 ```
 
@@ -42,7 +42,7 @@ url: "https://mp.weixin.qq.com/s/zOgLaXwMjgarsXJ7E0vXmA"
 
 
 大家好，我是 华仔。
-，倒计时8天，正在观望的粉丝朋友们还有要加入的吗？星球月底要涨价了，请抓紧时间，小红书自主旅游规划项目已完结，如下图所示，截至目前星球总共更新完成6个实战项目，其中4个AI项目，尤其是这个 agentscope2.0 + harness 实战，企业级刚需实战项目，星球交付方式：0-1文档教程+代码+群答疑。
+，倒计时 8 天，正在观望的粉丝朋友们还有要加入的吗？星球月底要涨价了，请抓紧时间，小红书自主旅游规划项目已完结，如下图所示，截至目前星球总共更新完成 6 个实战项目，其中 4 个 AI 项目，尤其是这个 agentscope2.0 + harness 实战，企业级刚需实战项目，星球交付方式：0-1 文档教程+代码+群答疑。
 
 
 
@@ -74,15 +74,15 @@ url: "https://mp.weixin.qq.com/s/zOgLaXwMjgarsXJ7E0vXmA"
 
 
 
-已更新8篇：
+已更新 8 篇：
 
 
 
-正在增加前端PRD前置转换功能，还在优化完善中，目标打通从产品到研发的全链路：
+正在增加前端 PRD 前置转换功能，还在优化完善中，目标打通从产品到研发的全链路：
 
 
 
-星球限时福利 159，28号要涨价了，还在观望的粉丝们请抓紧时间
+星球限时福利 159，28 号要涨价了，还在观望的粉丝们请抓紧时间
 
 
 
@@ -100,7 +100,7 @@ url: "https://mp.weixin.qq.com/s/zOgLaXwMjgarsXJ7E0vXmA"
 ```
 
 ，数量有限，先到先得，
-2.2.1 CLUADE.md整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)2.2.2 harness 工程规范约束.harness/rules/ 三规范：工程结构 / 编码规范 / 开发流程规范.harness/skills/ 六技能：①~⑥ 流水线步骤定义（含 frontmatter + status 流转）.harness/wiki/ 四文档：业务模型 / 接口协议 / 数据模型 / 架构决策（领域真相来源）.harness/changes/ + _TEMPLATE/：变更追踪约定 + 三件套模板（change/review/verify）+ 状态机.harness/agents/owner.md：Owner Agent 的定义（流水线总编排者）CLAUDE.md 作为 AI 协作入口（地图模式，按需加载 .harness/ 各组件）上下文分层模型：Layer0 系统级 / Layer1 项目级(CLAUDE.md + owner.md) / Layer2 约束级(rules) / Layer3 领域级(wiki) / Layer4 运行时(ReMe).claude/settings.json 权限策略与 Hooks（Allow Maven/Docker/Git/Java、Deny 危险操作、PostToolUse Hook）2.2.3 总结Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来不是5 个 Agent 目录代码创建了就算完成，必须真的实现：2.4.2 开发 change 清单为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent 很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。2.6 两类 Skills，不要搞混了这是我在项目里特别强调的一件事，这里的 Skills 分两类：第一类是开发 Skills，在 .harness/skills/ 下。第二类是业务 Skills，在 huazai-trip-skills/ 模块里。2.6.1 开发 Skills开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审CI 校验部署验证2.6.2 业务 Skills业务 Skills 服务的是Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
+2.2.1 CLUADE.md 整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)2.2.2 harness 工程规范约束.harness/rules/ 三规范：工程结构 / 编码规范 / 开发流程规范.harness/skills/ 六技能：①~⑥ 流水线步骤定义（含 frontmatter + status 流转）.harness/wiki/ 四文档：业务模型 / 接口协议 / 数据模型 / 架构决策（领域真相来源）.harness/changes/ + _TEMPLATE/：变更追踪约定 + 三件套模板（change/review/verify）+ 状态机.harness/agents/owner.md：Owner Agent 的定义（流水线总编排者）CLAUDE.md 作为 AI 协作入口（地图模式，按需加载 .harness/ 各组件）上下文分层模型：Layer0 系统级 / Layer1 项目级(CLAUDE.md + owner.md) / Layer2 约束级(rules) / Layer3 领域级(wiki) / Layer4 运行时(ReMe).claude/settings.json 权限策略与 Hooks（Allow Maven/Docker/Git/Java、Deny 危险操作、PostToolUse Hook）2.2.3 总结 Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify 对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来不是 5 个 Agent 目录代码创建了就算完成，必须真的实现：2.4.2 开发 change 清单为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability 所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent 很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill 对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。2.6 两类 Skills，不要搞混了这是我在项目里特别强调的一件事，这里的 Skills 分两类：第一类是开发 Skills，在 .harness/skills/ 下。第二类是业务 Skills，在 huazai-trip-skills/ 模块里。2.6.1 开发 Skills 开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审 CI 校验部署验证 2.6.2 业务 Skills 业务 Skills 服务的是 Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
 ，数量有限，先到先得，
 来自球友的评价：
 ，数量有限，先到先得，
@@ -208,19 +208,19 @@ Plan Mode 是一种两阶段执行模型，将一次旅游规划任务拆分为�
 
 
 
-Plan计划调度模式（详细调度流程请加入星球查看，有录制视频）：
+Plan 计划调度模式（详细调度流程请加入星球查看，有录制视频）：
 
 
 
-全链路数据持久化覆盖从用户请求提交到最终方案落库的完整生命周期，涉及Redis（短期缓存 + 状态）、ReMe（长期记忆）、MySQL（审计 + 业务持久化）三层存储。一次完整的行程规划流程（完整调度请加入星球查看）：
+全链路数据持久化覆盖从用户请求提交到最终方案落库的完整生命周期，涉及 Redis（短期缓存 + 状态）、ReMe（长期记忆）、MySQL（审计 + 业务持久化）三层存储。一次完整的行程规划流程（完整调度请加入星球查看）：
 
 
 
-全链路数据持久化覆盖从用户请求提交到最终方案落库的完整生命周期，涉及Redis（短期缓存 + 状态）、ReMe（长期记忆）、MySQL（审计 + 业务持久化）三层存储。一次完整的行程规划流程（完整调度请加入星球查看）：
+全链路数据持久化覆盖从用户请求提交到最终方案落库的完整生命周期，涉及 Redis（短期缓存 + 状态）、ReMe（长期记忆）、MySQL（审计 + 业务持久化）三层存储。一次完整的行程规划流程（完整调度请加入星球查看）：
 
 
 
-全链路数据持久化覆盖从用户请求提交到最终方案落库的完整生命周期，涉及Redis（短期缓存 + 状态）、ReMe（长期记忆）、MySQL（审计 + 业务持久化）三层存储。
+全链路数据持久化覆盖从用户请求提交到最终方案落库的完整生命周期，涉及 Redis（短期缓存 + 状态）、ReMe（长期记忆）、MySQL（审计 + 业务持久化）三层存储。
 
 
 
@@ -264,7 +264,7 @@ AgentScope 2.0 提供两层 Agent 实现：
 
 
 
-下面展示前三篇的部分内容，每篇1万+字内容，基本上把整个项目工程的架构设计、harness 构建思路、模块划、系统工程化分都写清楚了，加入星球即可查看：
+下面展示前三篇的部分内容，每篇 1 万+字内容，基本上把整个项目工程的架构设计、harness 构建思路、模块划、系统工程化分都写清楚了，加入星球即可查看：
 ，数量有限，先到先得，
 ，数量有限，先到先得，
 ，数量有限，先到先得，
@@ -277,7 +277,7 @@ AgentScope 2.0 提供两层 Agent 实现：
 ```
 
 ，数量有限，先到先得，
-2.2.1 CLUADE.md整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)2.2.2 harness 工程规范约束.harness/rules/ 三规范：工程结构 / 编码规范 / 开发流程规范.harness/skills/ 六技能：①~⑥ 流水线步骤定义（含 frontmatter + status 流转）.harness/wiki/ 四文档：业务模型 / 接口协议 / 数据模型 / 架构决策（领域真相来源）.harness/changes/ + _TEMPLATE/：变更追踪约定 + 三件套模板（change/review/verify）+ 状态机.harness/agents/owner.md：Owner Agent 的定义（流水线总编排者）CLAUDE.md 作为 AI 协作入口（地图模式，按需加载 .harness/ 各组件）上下文分层模型：Layer0 系统级 / Layer1 项目级(CLAUDE.md + owner.md) / Layer2 约束级(rules) / Layer3 领域级(wiki) / Layer4 运行时(ReMe).claude/settings.json 权限策略与 Hooks（Allow Maven/Docker/Git/Java、Deny 危险操作、PostToolUse Hook）2.2.3 总结Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来不是5 个 Agent 目录代码创建了就算完成，必须真的实现：2.4.2 开发 change 清单为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent 很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。2.6 两类 Skills，不要搞混了这是我在项目里特别强调的一件事，这里的 Skills 分两类：第一类是开发 Skills，在 .harness/skills/ 下。第二类是业务 Skills，在 huazai-trip-skills/ 模块里。2.6.1 开发 Skills开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审CI 校验部署验证2.6.2 业务 Skills业务 Skills 服务的是Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
+2.2.1 CLUADE.md 整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)2.2.2 harness 工程规范约束.harness/rules/ 三规范：工程结构 / 编码规范 / 开发流程规范.harness/skills/ 六技能：①~⑥ 流水线步骤定义（含 frontmatter + status 流转）.harness/wiki/ 四文档：业务模型 / 接口协议 / 数据模型 / 架构决策（领域真相来源）.harness/changes/ + _TEMPLATE/：变更追踪约定 + 三件套模板（change/review/verify）+ 状态机.harness/agents/owner.md：Owner Agent 的定义（流水线总编排者）CLAUDE.md 作为 AI 协作入口（地图模式，按需加载 .harness/ 各组件）上下文分层模型：Layer0 系统级 / Layer1 项目级(CLAUDE.md + owner.md) / Layer2 约束级(rules) / Layer3 领域级(wiki) / Layer4 运行时(ReMe).claude/settings.json 权限策略与 Hooks（Allow Maven/Docker/Git/Java、Deny 危险操作、PostToolUse Hook）2.2.3 总结 Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify 对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来不是 5 个 Agent 目录代码创建了就算完成，必须真的实现：2.4.2 开发 change 清单为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability 所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent 很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill 对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。2.6 两类 Skills，不要搞混了这是我在项目里特别强调的一件事，这里的 Skills 分两类：第一类是开发 Skills，在 .harness/skills/ 下。第二类是业务 Skills，在 huazai-trip-skills/ 模块里。2.6.1 开发 Skills 开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审 CI 校验部署验证 2.6.2 业务 Skills 业务 Skills 服务的是 Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
 ，数量有限，先到先得，
 ```
 
@@ -285,9 +285,9 @@ AgentScope 2.0 提供两层 Agent 实现：
 ```
 
 ，数量有限，先到先得，
-2.2.1 CLUADE.md整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)2.2.2 harness 工程规范约束.harness/rules/ 三规范：工程结构 / 编码规范 / 开发流程规范.harness/skills/ 六技能：①~⑥ 流水线步骤定义（含 frontmatter + status 流转）.harness/wiki/ 四文档：业务模型 / 接口协议 / 数据模型 / 架构决策（领域真相来源）.harness/changes/ + _TEMPLATE/：变更追踪约定 + 三件套模板（change/review/verify）+ 状态机.harness/agents/owner.md：Owner Agent 的定义（流水线总编排者）CLAUDE.md 作为 AI 协作入口（地图模式，按需加载 .harness/ 各组件）上下文分层模型：Layer0 系统级 / Layer1 项目级(CLAUDE.md + owner.md) / Layer2 约束级(rules) / Layer3 领域级(wiki) / Layer4 运行时(ReMe).claude/settings.json 权限策略与 Hooks（Allow Maven/Docker/Git/Java、Deny 危险操作、PostToolUse Hook）2.2.3 总结Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来不是5 个 Agent 目录代码创建了就算完成，必须真的实现：2.4.2 开发 change 清单为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent 很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。2.6 两类 Skills，不要搞混了这是我在项目里特别强调的一件事，这里的 Skills 分两类：第一类是开发 Skills，在 .harness/skills/ 下。第二类是业务 Skills，在 huazai-trip-skills/ 模块里。2.6.1 开发 Skills开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审CI 校验部署验证2.6.2 业务 Skills业务 Skills 服务的是Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
+2.2.1 CLUADE.md 整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)2.2.2 harness 工程规范约束.harness/rules/ 三规范：工程结构 / 编码规范 / 开发流程规范.harness/skills/ 六技能：①~⑥ 流水线步骤定义（含 frontmatter + status 流转）.harness/wiki/ 四文档：业务模型 / 接口协议 / 数据模型 / 架构决策（领域真相来源）.harness/changes/ + _TEMPLATE/：变更追踪约定 + 三件套模板（change/review/verify）+ 状态机.harness/agents/owner.md：Owner Agent 的定义（流水线总编排者）CLAUDE.md 作为 AI 协作入口（地图模式，按需加载 .harness/ 各组件）上下文分层模型：Layer0 系统级 / Layer1 项目级(CLAUDE.md + owner.md) / Layer2 约束级(rules) / Layer3 领域级(wiki) / Layer4 运行时(ReMe).claude/settings.json 权限策略与 Hooks（Allow Maven/Docker/Git/Java、Deny 危险操作、PostToolUse Hook）2.2.3 总结 Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify 对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来不是 5 个 Agent 目录代码创建了就算完成，必须真的实现：2.4.2 开发 change 清单为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability 所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent 很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill 对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。2.6 两类 Skills，不要搞混了这是我在项目里特别强调的一件事，这里的 Skills 分两类：第一类是开发 Skills，在 .harness/skills/ 下。第二类是业务 Skills，在 huazai-trip-skills/ 模块里。2.6.1 开发 Skills 开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审 CI 校验部署验证 2.6.2 业务 Skills 业务 Skills 服务的是 Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
 ，数量有限，先到先得，
-01 自主旅游规划1.1 前言2026 年，AI Agent 真正进入落地爆发期。会使用大模型，调 API 的工程师很多，但真正能把「多 Agent 协同」、「自主决策」、「Skills 技能封装」、「工程化约束」和「可交付代码」结合起来的人并不多。谁能把这几件事打通，谁就不再只是「只会接模型的人」，而是在向「Agent 架构师」进行升级。下面我就结合正在落地的一套 Java AgentScope 小红书旅游规划项目，手把手拆开讲清楚：一套能自主规划旅游行程的多 Agent 系统，到底应该怎么从 0 到 1 设计、分模块研发、逐步交付。项目的核心定位是：这是一款 Java AgentScope 小红书旅游规划 AI Agent 项目，多 Agent + SDD 思想 + Harness Engineering 规范 + CC VibeCoding + Skills 构建自主决策 Agent。下面我会从整体上带你看清这套 Agent 项目的总架构、方法论、工程约束和流水线。1.2 为什么用旅游规划旅游规划是一个非常典型的 Agent 场景。因为它天然不是一个单点问答问题，而是一条完整的任务链：用户先提出模糊意图，比如我想去云南玩 5 天，预算 8000，喜欢美食和小众路线。系统要先理解需求，再去找参考内容。找到内容之后，还要「景点推荐」、「路线规划」、「行程编排」、「成本预算」。最后还要判断方案「是否合理」、「是否超预算」、「是否需要人工确认」。这类问题最适合用多 Agent 来做，而不是一个超级大 Prompt 一把梭，原因很简单：一个大模型擅长综合生成，但不擅长长期稳定地「分工」、「追踪」、「校验」。真正复杂的业务，必须把「理解」、「分析」、「规划」、「验证」、「交付」拆成多个角色和多个阶段。一旦拆分后，再配上工程规范和 Skills，系统才会从「会回答」变成「会交付」。所以，旅游规划不是噱头，而是一个刚好能把「多 Agent 协同」、「自主决策」、「Skills 技能封装」、「工程化约束」等全部串起来的最佳方案。02 项目架构2.1 多 Agent 自主协同系统
+01 自主旅游规划 1.1 前言 2026 年，AI Agent 真正进入落地爆发期。会使用大模型，调 API 的工程师很多，但真正能把「多 Agent 协同」、「自主决策」、「Skills 技能封装」、「工程化约束」和「可交付代码」结合起来的人并不多。谁能把这几件事打通，谁就不再只是「只会接模型的人」，而是在向「Agent 架构师」进行升级。下面我就结合正在落地的一套 Java AgentScope 小红书旅游规划项目，手把手拆开讲清楚：一套能自主规划旅游行程的多 Agent 系统，到底应该怎么从 0 到 1 设计、分模块研发、逐步交付。项目的核心定位是：这是一款 Java AgentScope 小红书旅游规划 AI Agent 项目，多 Agent + SDD 思想 + Harness Engineering 规范 + CC VibeCoding + Skills 构建自主决策 Agent。下面我会从整体上带你看清这套 Agent 项目的总架构、方法论、工程约束和流水线。1.2 为什么用旅游规划旅游规划是一个非常典型的 Agent 场景。因为它天然不是一个单点问答问题，而是一条完整的任务链：用户先提出模糊意图，比如我想去云南玩 5 天，预算 8000，喜欢美食和小众路线。系统要先理解需求，再去找参考内容。找到内容之后，还要「景点推荐」、「路线规划」、「行程编排」、「成本预算」。最后还要判断方案「是否合理」、「是否超预算」、「是否需要人工确认」。这类问题最适合用多 Agent 来做，而不是一个超级大 Prompt 一把梭，原因很简单：一个大模型擅长综合生成，但不擅长长期稳定地「分工」、「追踪」、「校验」。真正复杂的业务，必须把「理解」、「分析」、「规划」、「验证」、「交付」拆成多个角色和多个阶段。一旦拆分后，再配上工程规范和 Skills，系统才会从「会回答」变成「会交付」。所以，旅游规划不是噱头，而是一个刚好能把「多 Agent 协同」、「自主决策」、「Skills 技能封装」、「工程化约束」等全部串起来的最佳方案。02 项目架构 2.1 多 Agent 自主协同系统
 
 
 
@@ -427,7 +427,7 @@ AgentScope 2.0 提供两层 Agent 实现：
 ，数量有限，先到先得，
 ，数量有限，先到先得，
 ，数量有限，先到先得，
-2.2.1 CLUADE.md整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)
+2.2.1 CLUADE.md 整个项目全程是通过 CC Opus 4.8 来完成的，我就是 review 和确定了下相关版本。太长了，具体看项目代码：https://gitcode.com/huazaiteam/huazai-trip-plan/blob/agent-chapter-1(加入星球开通后即可查看)
 
 
 
@@ -463,7 +463,7 @@ AgentScope 2.0 提供两层 Agent 实现：
 
 
 
-2.2.3 总结Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。
+2.2.3 总结 Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills + 变更可追踪 + 知识库沉淀 + 工程规则。目标：把 AgentScope 从能回答问题升级为可研发、可协作、可交付的企业级系统。
 
 
 
@@ -479,7 +479,7 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来
+2.3 真正让项目跑稳的是六阶段自动化开发流水线这套项目最重要的，不是某个 Agent 写得多炫，而是整个研发过程严格走这 6 步：request-analysiscoding-skillunit-test-writeexpert-reviewerunit-test-cideploy-verify 对应含义分别是：需求分析：把一句模糊需求变成结构化 change 卡。编码实现：在明确约束下落代码。单测编写：覆盖核心逻辑，确保关键路径能回归。专家评审：从设计、规范、边界、风险等多维度审视实现。CI 门禁：用 Checkstyle、PMD、ArchUnit、测试等机械化拦截问题。部署验证：做冒烟、健康检查、回滚预案。这一套流程的价值在于，它把「AI 写代码」变成了「AI 按约束规范写代码」。这次的核心不是「把 5 个 Agent 写出来」，而是「把 5 个 Agent 写对」，那么就要盯住下面这 4 件事。2.4.1 多 Agent 协同必须通过 A2A 真正跑起来
 
 
 
@@ -507,11 +507,11 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-不是5 个 Agent 目录代码创建了就算完成，必须真的实现：
+不是 5 个 Agent 目录代码创建了就算完成，必须真的实现：
 
 
 
-不是5 个 Agent 目录代码创建了就算完成，必须真的实现：
+不是 5 个 Agent 目录代码创建了就算完成，必须真的实现：
 
 
 
@@ -523,7 +523,7 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent
+为了项目能顺利推进，按当前模式，后续会按照下面这批 change 执行：C-001 project-bootstrappingC-002 quality-gatesC-003 infra-bootstrapC-004 common-modelsC-005 a2a-foundationC-006 xhs-agentC-007 route-agentC-008 itinerary-agentC-009 budget-agentC-010 supervisor-agentC-011 server-apiC-012 e2e-main-flowC-013 frontend-main-flowC-014-pdf-exportC-015-reme-memory-ragC-016-observability-reliability 所有的 Change 都会严格按照 SDD + TDD + Harness 规范执行并正确落地。2.5 Owner Agent
 
 
 
@@ -539,7 +539,7 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。
+很多同学理解多 Agent 时，容易只盯着业务 Agent。但在工程实践里，真正最关键的往往是「总编排者」。在项目里，Owner Agent 并不是业务里的 Supervisor，而是开发过程中的总控角色。它的职责不是生成旅游方案，而是负责：理解需求调用合适的开发 Skill 对照 rules 守住边界控制上下文加载跟踪 changes 状态发现风险时停下来请求人工决策换句话说，Owner Agent 是「研发流程层的总控 Agent」，必须关心：当前处在哪个阶段该读哪些上下文哪些决策可以自动做哪些决策必须人工确认改动是否可追溯是否能断点续传这就是 Owner Agent 存在的意义。下图定义了 Owner Agent 如何编排 .harness/skills/ 下 6 个开发技能，把产品轴上的每个 feature 生产出来。
 
 
 
@@ -591,7 +591,7 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审CI 校验部署验证
+开发 Skills 服务的是怎么造项目，比如：需求分析编码实现写单测评审 CI 校验部署验证
 
 
 
@@ -599,13 +599,13 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-2.6.2 业务 Skills业务 Skills 服务的是Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
+2.6.2 业务 Skills 业务 Skills 服务的是 Agent 运行时能做什么，比如：路线规划费用计算行程拼装内容分析导出能力很多人第一次做 Agent 系统时，会把 Skills 当成纯 Tool，其实不够。在一个成熟项目里，Skills 至少有两层含义：对开发期来说，Skill 是生产流程的标准动作。对运行期来说，Skill 是 Agent 可复用的业务能力单元。一旦把这两层分开，整个项目的组织会清晰很多。
 ，数量有限，先到先得，
 ### 2.6.2 业务 Skills
 
 
 
-业务 Skills 服务的是Agent 运行时能做什么，比如：
+业务 Skills 服务的是 Agent 运行时能做什么，比如：
 
 
 
@@ -673,7 +673,7 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-当然星球不止AI项目，分布式、微服务、高并发、海量数据、硬核面试题、性能优化等什么都有，总有几个是适合你的。
+当然星球不止 AI 项目，分布式、微服务、高并发、海量数据、硬核面试题、性能优化等什么都有，总有几个是适合你的。
 
 
 
@@ -709,11 +709,11 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-其实星球中不止7个项目，加入之后，会发现真是一个宝藏星球，里面什么都有，很多小伙伴反馈说：干货太多了，太详细了。
+其实星球中不止 7 个项目，加入之后，会发现真是一个宝藏星球，里面什么都有，很多小伙伴反馈说：干货太多了，太详细了。
 
 
 
-有不少小伙伴，通过小红书+AI实战项目，拿到了非常不错的 Offer，薪资也涨了不少。
+有不少小伙伴，通过小红书+AI 实战项目，拿到了非常不错的 Offer，薪资也涨了不少。
 
 
 
@@ -729,7 +729,7 @@ Harness 工程规范约束 = SDD + 六阶段开发流水线 + 多 Agent + Skills
 
 
 
-在去年12月份成功帮助一位来自国外的球友实现了百万年薪，入职了当地最大的互联网公司。这位球友平时就经常问我问题，我们也经常探讨一些关于系统架构方面的设计，面试前也帮他做了大量指导，最终拿下了这家公司。
+在去年 12 月份成功帮助一位来自国外的球友实现了百万年薪，入职了当地最大的互联网公司。这位球友平时就经常问我问题，我们也经常探讨一些关于系统架构方面的设计，面试前也帮他做了大量指导，最终拿下了这家公司。
 
 
 

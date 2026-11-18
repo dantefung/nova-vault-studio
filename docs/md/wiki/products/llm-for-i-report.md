@@ -7,7 +7,7 @@ url: "https://github.com/Jasonfengjx/llm_for_i_report"
 
 # LLM for i-Report
 
-专为"i人"设计的低阻力碎片化记录与智能汇报工具。
+专为“i 人”设计的低阻力碎片化记录与智能汇报工具。
 
 **Python · 0 Stars**
 

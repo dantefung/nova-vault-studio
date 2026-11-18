@@ -7,7 +7,7 @@ url: "https://x.com/sitinme/status/1998943804930535495"
 
 # 出海网站实战：Stripe 支付接入，从 0 到收款全流程
 
-每天一个出海工具/技巧，今天分享网站接入stripe支付的流程。最近给自己的导航站 toolcenter.ai 加了付费提交功能，用的是Stripe，给大家分享出来。
+每天一个出海工具/技巧，今天分享网站接入 stripe 支付的流程。最近给自己的导航站 toolcenter.ai 加了付费提交功能，用的是 Stripe，给大家分享出来。
 
 ![](../images/stripe-sitinme/002.webp)
 
@@ -19,7 +19,7 @@ url: "https://x.com/sitinme/status/1998943804930535495"
 
 这篇文章主要分享一下实际项目中怎么接入 Stripe 支付功能。
 
-另外说一下团队协作的场景，如果团队用一个stripe账号，可以在 Stripe 平台邀请成员，被邀请的小伙伴会收到一封邀请邮件，邮件里有链接，点进去注册账号后就会自动加入到Stripe 团队里面，具体有什么权限是由赋予的成员角色决定的。
+另外说一下团队协作的场景，如果团队用一个 stripe 账号，可以在 Stripe 平台邀请成员，被邀请的小伙伴会收到一封邀请邮件，邮件里有链接，点进去注册账号后就会自动加入到 Stripe 团队里面，具体有什么权限是由赋予的成员角色决定的。
 
 ![](../images/stripe-sitinme/004.webp)
 
@@ -33,7 +33,7 @@ url: "https://x.com/sitinme/status/1998943804930535495"
 
 关于测试模式和正式模式：
 
-在后台右上角能看到 API 密钥，会有两个，公钥pk_开头，私钥sk_开头。API 密钥又分测试和生产两套，测试密钥以 test 开头，不会产生真实交易，可以放心测。
+在后台右上角能看到 API 密钥，会有两个，公钥 pk_开头，私钥 sk_开头。API 密钥又分测试和生产两套，测试密钥以 test 开头，不会产生真实交易，可以放心测。
 
 ![](../images/stripe-sitinme/006.webp)
 
@@ -122,7 +122,7 @@ STRIPE_WEBHOOK_SECRET="whsec_xxxxxxxxxxxxxxxxxxxxxxx"
 
 四、正式环境配置 Webhook
 
-什么是 Webhook？简单理解就是用户付完钱，stripe  主动通知你。
+什么是 Webhook？简单理解就是用户付完钱，stripe 主动通知你。
 
 在 Stripe 后台配置：
 
@@ -168,9 +168,9 @@ Webhook 验签失败：检查 STRIPE_WEBHOOK_SECRET 是不是搞混了，本地�
 
 测试模式和生产模式：API 密钥分测试和生产两套，注意别搞混。测试密钥以 test 开头
 
-金额单位：不同货币的最小单位不同，Stripe 的美元金额单位是"分"，39 美元要传 3900
+金额单位：不同货币的最小单位不同，Stripe 的美元金额单位是“分”，39 美元要传 3900
 
-内测可以设置优惠码，不然税太高了 ，3% + 0.3一笔
+内测可以设置优惠码，不然税太高了 ，3% + 0.3 一笔
 
 以上就是今天的分享，关于编程工具使用，推荐第三方共享平台 aigocode.com，支持 Codex / Claude Code / Gemini 3 三大顶尖模型。
 

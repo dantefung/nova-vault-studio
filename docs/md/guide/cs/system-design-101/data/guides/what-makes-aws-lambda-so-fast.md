@@ -43,6 +43,6 @@ AWS Lambda also has to manage the state consisting of input data and function co
 
 To make it efficient, it uses multiple techniques:
 
-*   Chunking to store the container images more efficiently.
-*   Using convergent encryption to secure the shared data. This involves appending additional data to the chunk to compute a more robust hash.
-*   SnapStart feature to reduce cold start latency by pre-initializing the execution environment
+* Chunking to store the container images more efficiently.
+* Using convergent encryption to secure the shared data. This involves appending additional data to the chunk to compute a more robust hash.
+* SnapStart feature to reduce cold start latency by pre-initializing the execution environment

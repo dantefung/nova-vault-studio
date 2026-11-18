@@ -20,7 +20,7 @@ DeepSeek Harness 提供的「临时 Plugin 挂载」只是 Agent 自我改造的
 5. **组件组合 ≠ 能力叠加**：Liu Ming 的「More Is Not Always Better」对 Planning/Tools/Memory/Self-Reflection/Retrieval 做全组合实验，发现 HotpotQA 上仅工具配置高于全组件，GSM8K 上某个三组件组合也优于全组件——组件通过 context window、prompt、状态传递和 feedback loop 相互影响，整体表现具有明显的非线性、耦合与上下文依赖。
 6. **从临时 mount 到工程闭环需要四类基础设施**：可信评测（覆盖成本/延迟/安全/长任务稳定性/低频高损失场景）+ 正式发布链路（versioned artifact + provenance + policy gate + rollback）+ 强隔离与最小权限（独立进程/虚拟化容器 + 风险级别审批 + 审计记录）+ 责任归属（candidate 不能离开其 failure trace/评测记录/批准责任）。
 7. **关键判断要严格分离**：Agent 提出了修改 ≠ 修改在候选环境中运行 ≠ 修改通过检查 ≠ 修改成为正式可依赖的系统状态。这四件事必须用 candidate、Result、verification evidence、MissingEvidence、CounterEvidence、GateResult 等显式数据形态记录，而非靠 benchmark 分数或单次漂亮轨迹决定。
-8. **自主性可以交给 Agent，责任链不能消失**：Continuum + ACP 是Continuum 内部专门治理变更的子系统（Agent Control Plane），它把 MAL/DIMC 留下的连续性与证据能力用在「系统如何改变自己」上，记录 provenance/version/作用域/风险/预期影响，把 candidate 放进隔离评测，最终只有 Promotion 过的版本才能成为正式状态。
+8. **自主性可以交给 Agent，责任链不能消失**：Continuum + ACP 是 Continuum 内部专门治理变更的子系统（Agent Control Plane），它把 MAL/DIMC 留下的连续性与证据能力用在「系统如何改变自己」上，记录 provenance/version/作用域/风险/预期影响，把 candidate 放进隔离评测，最终只有 Promotion 过的版本才能成为正式状态。
 
 ## 值得保留的判断
 

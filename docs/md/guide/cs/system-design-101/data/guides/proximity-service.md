@@ -19,12 +19,12 @@ There are two key services (see the diagram below):
 
 ## Business Service
 
-*   Add/delete/update restaurant information
-*   Customers view restaurant details
+* Add/delete/update restaurant information
+* Customers view restaurant details
 
 ## Location-based Service
 
-*   Given a radius and location, return a list of nearby restaurants
+* Given a radius and location, return a list of nearby restaurants
 
 How are the restaurant locations stored in the database so that LBS can return nearby restaurants efficiently?
 
@@ -34,10 +34,10 @@ One way to speed up the search is using the geohash algorithm.
 
 First, divide the planet into four quadrants along with the prime meridian and equator：
 
-*   Latitude range \[-90, 0] is represented by 0
-*   Latitude range \[0, 90] is represented by 1
-*   Longitude range \[-180, 0] is represented by 0
-*   Longitude range \[0, 180] is represented by 1
+* Latitude range \[-90, 0] is represented by 0
+* Latitude range \[0, 90] is represented by 1
+* Longitude range \[-180, 0] is represented by 0
+* Longitude range \[0, 180] is represented by 1
 
 Second, divide each grid into four smaller grids. Each grid can be represented by alternating between longitude bit and latitude bit.
 

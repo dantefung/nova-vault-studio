@@ -6,7 +6,7 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/34rBHmYJe3nFSsMDLLd8KU"
 ---
 
-大家好，我是哥飞，昨天给大家分享了 [【5000字调查分析】建站 20 天拿下 480 万访问量，俄罗斯版的妙鸭相机是怎么做到的？](https://mp.weixin.qq.com/s/9CaMuaOC4juWw6rdeI_3Lg)，里边提到有两个站 pikabu.ru 和 vc.ru。
+大家好，我是哥飞，昨天给大家分享了 [【5000 字调查分析】建站 20 天拿下 480 万访问量，俄罗斯版的妙鸭相机是怎么做到的？](https://mp.weixin.qq.com/s/9CaMuaOC4juWw6rdeI_3Lg)，里边提到有两个站 pikabu.ru 和 vc.ru。
 
 哥飞在社群里给大家提醒了一下：
 

@@ -5,7 +5,7 @@ source: "Github"
 url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 ---
 
-# Claude Code Channels与计划任务完整指南：把外部事件推入会话
+# Claude Code Channels 与计划任务完整指南：把外部事件推入会话
 
 ---
 
@@ -574,9 +574,9 @@ claude --resume
 
 ## 14. 下一步建议
 
-- 想跨设备继续本地会话：继续看 [Remote Control完整指南](./12-Remote-Control完整指南.md)
-- 想控制模型、1M 上下文和 `opusplan`：继续看 [安装指南中的模型配置章节](./01-Claude-Code完整安装指南.md#85部分模型配置安装后的进阶配置)
+- 想跨设备继续本地会话：继续看 [Remote Control 完整指南](./12-Remote-Control 完整指南.md)
+- 想控制模型、1M 上下文和 `opusplan`：继续看 [安装指南中的模型配置章节](./01-Claude-Code 完整安装指南.md#85 部分模型配置安装后的进阶配置)
 
 ---
 
-> **最后更新**：2026年4月26日 | **适用版本**：Claude Code v2.1.119
+> **最后更新**：2026 年 4 月 26 日 | **适用版本**：Claude Code v2.1.119

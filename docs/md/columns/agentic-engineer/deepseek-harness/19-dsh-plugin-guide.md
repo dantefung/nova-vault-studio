@@ -179,7 +179,7 @@ https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json
 | :--- | :--- |
 | **dsh-im** ([xmanrui/dsh-im](https://github.com/xmanrui/dsh-im)) | 扫码或凭据接入 IM 机器人，**9 个渠道**：飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord、WhatsApp |
 | **dsh-im-qq** ([988hj7tczd-oss/dsh-im-qq](https://github.com/988hj7tczd-oss/dsh-im-qq)) | QQ 官方机器人（q.qq.com）集成：私聊/群/频道全功能对话、WS 长连接（心跳/重连/RESUME）、按会话隔离、审批内联按钮 + `/revoke`、斜杠命令、白名单 fail-closed |
-| **chicheng-push** ([534119219/chicheng-push](https://github.com/534119219/chicheng-push)) | 多渠道推送：Server酱、PushPlus、Bark、钉钉、企业微信、Telegram、飞书、ntfy、自定义 webhook 等，设置面板配置，**其他插件可通过 pushNotifier 服务调用** |
+| **chicheng-push** ([534119219/chicheng-push](https://github.com/534119219/chicheng-push)) | 多渠道推送：Server 酱、PushPlus、Bark、钉钉、企业微信、Telegram、飞书、ntfy、自定义 webhook 等，设置面板配置，**其他插件可通过 pushNotifier 服务调用** |
 
 ---
 
@@ -263,7 +263,7 @@ dsh plugin --profile web add dshmarket
 
 6. **同名插件互斥**：多数 fork 会注册相同的 profile row id，两个一起装会报 `duplicate loader entry id` 或功能互相覆盖。官方清单里明确标了「do not install both」的条目，安装前留意。
 7. **DSH 会按破坏性变更升级**。8 月的 rc.1 之后，100★+ 头部也只有 59.4% 跟进了；插件市场 8700 多个里 1000 多个已不适配。
-8. **版本不满足时内核会静默跳过插件**，不报错——功能"凭空消失"时先查版本要求。
+8. **版本不满足时内核会静默跳过插件**，不报错——功能“凭空消失”时先查版本要求。
 
 ### 🟠 官方免责声明
 

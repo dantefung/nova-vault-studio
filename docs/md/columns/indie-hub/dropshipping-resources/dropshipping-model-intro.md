@@ -7,7 +7,7 @@ url: "https://www.shopify.com/zh/blog/dropshipping-model"
 
 # 代发货模式：跨境电商新手的起步之路
 
-> 如何以低风险低成本的方式做跨境电商？阅读本文，了解适合跨境电商新手的代发货模式及其优劣势，学习如何选品，并了解Shopify这一适合跨境电商代发货的平台。
+> 如何以低风险低成本的方式做跨境电商？阅读本文，了解适合跨境电商新手的代发货模式及其优劣势，学习如何选品，并了解 Shopify 这一适合跨境电商代发货的平台。
 
 ## 代发货模式是什么？
 
@@ -32,7 +32,7 @@ url: "https://www.shopify.com/zh/blog/dropshipping-model"
 2. **进货价低、高利润潜力、重量轻的商品**：如手机壳、无线充电底座、车载配件
 3. **日用消耗品**：如面膜、厨房纸、香薰蜡烛、运动袜——回购率高
 
-选品工具：谷歌趋势、Facebook受众分析
+选品工具：谷歌趋势、Facebook 受众分析
 
 ## 建站平台推荐
 
@@ -46,5 +46,5 @@ Shopify + DSers 应用可对接速卖通（AliExpress），支持：
 
 ## 关联
 
-- [16个代发平台对比](./dropshipping-platforms-16.md)
-- [1688一件代发实操](./1688-dropshipping-howto.md)
+- [16 个代发平台对比](./dropshipping-platforms-16.md)
+- [1688 一件代发实操](./1688-dropshipping-howto.md)

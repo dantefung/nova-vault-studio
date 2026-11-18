@@ -17,9 +17,9 @@ The diagram below presents a possible solution that might work in an interview s
 
 The high-level architecture is broken down into three stages:
 
-*   Data pipeline - prepare the training data set
-*   Blurring pipeline - extract and classify objects and blur relevant objects, for example, license plates and faces.
-*   Serving pipeline - serve blurred street view images to users.
+* Data pipeline - prepare the training data set
+* Blurring pipeline - extract and classify objects and blur relevant objects, for example, license plates and faces.
+* Serving pipeline - serve blurred street view images to users.
 
 ## Data Pipeline
 

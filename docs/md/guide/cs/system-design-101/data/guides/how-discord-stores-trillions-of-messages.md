@@ -25,9 +25,9 @@ At the beginning of 2022, it had 177 nodes with trillions of messages. At this p
 
 There are several reasons for the issue:
 
-*   Cassandra uses the LSM tree for the internal data structure. The reads are more expensive than the writes. There can be many concurrent reads on a server with hundreds of users, resulting in hotspots.
-*   Maintaining clusters, such as compacting SSTables, impacts performance.
-*   Garbage collection pauses would cause significant latency spikes
+* Cassandra uses the LSM tree for the internal data structure. The reads are more expensive than the writes. There can be many concurrent reads on a server with hundreds of users, resulting in hotspots.
+* Maintaining clusters, such as compacting SSTables, impacts performance.
+* Garbage collection pauses would cause significant latency spikes
 
 ScyllaDB is Cassandra compatible database written in C++. Discord redesigned its architecture to have a monolithic API, a data service written in Rust, and ScyllaDB-based storage.
 

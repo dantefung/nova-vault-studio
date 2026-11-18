@@ -16,15 +16,15 @@ url: "https://mp.weixin.qq.com/s/myyCv_CuEwmyGi4rzW8GJg"
 
 
 
-01Agent 落地场景及形态趋势Cloud Native
+01Agent 落地场景及形态趋势 Cloud Native
 
 
 
-01Agent 落地场景及形态趋势Cloud Native
+01Agent 落地场景及形态趋势 Cloud Native
 
 
 
-01Agent 落地场景及形态趋势Cloud Native
+01Agent 落地场景及形态趋势 Cloud Native
 
 
 
@@ -64,19 +64,19 @@ Cloud Native
 
 
 
-02企业级 Agent 的新特征Cloud Native
+02 企业级 Agent 的新特征 Cloud Native
 
 
 
-02企业级 Agent 的新特征Cloud Native
+02 企业级 Agent 的新特征 Cloud Native
 
 
 
-02企业级 Agent 的新特征Cloud Native
+02 企业级 Agent 的新特征 Cloud Native
 
 
 
-02企业级 Agent 的新特征
+02 企业级 Agent 的新特征
 
 
 
@@ -128,19 +128,19 @@ Cloud Native
 
 
 
-03阿里云 AgentCore 能做些什么？Cloud Native
+03 阿里云 AgentCore 能做些什么？Cloud Native
 
 
 
-03阿里云 AgentCore 能做些什么？Cloud Native
+03 阿里云 AgentCore 能做些什么？Cloud Native
 
 
 
-03阿里云 AgentCore 能做些什么？Cloud Native
+03 阿里云 AgentCore 能做些什么？Cloud Native
 
 
 
-03阿里云 AgentCore 能做些什么？
+03 阿里云 AgentCore 能做些什么？
 
 
 
@@ -176,15 +176,15 @@ AgentCore 的目标，就是一个一站式的企业级 Agent 构建与治理平
 
 
 
-04Agent 的构建与运行Cloud Native
+04Agent 的构建与运行 Cloud Native
 
 
 
-04Agent 的构建与运行Cloud Native
+04Agent 的构建与运行 Cloud Native
 
 
 
-04Agent 的构建与运行Cloud Native
+04Agent 的构建与运行 Cloud Native
 
 
 
@@ -240,15 +240,15 @@ Cloud Native
 
 
 
-05Agent 的协作Cloud Native
+05Agent 的协作 Cloud Native
 
 
 
-05Agent 的协作Cloud Native
+05Agent 的协作 Cloud Native
 
 
 
-05Agent 的协作Cloud Native
+05Agent 的协作 Cloud Native
 
 
 
@@ -292,15 +292,15 @@ Cloud Native
 
 
 
-06AgentCore 的协作模式Cloud Native
+06AgentCore 的协作模式 Cloud Native
 
 
 
-06AgentCore 的协作模式Cloud Native
+06AgentCore 的协作模式 Cloud Native
 
 
 
-06AgentCore 的协作模式Cloud Native
+06AgentCore 的协作模式 Cloud Native
 
 
 
@@ -340,19 +340,19 @@ Cloud Native
 
 
 
-07多 Agents 协同下的上下文工程Cloud Native
+07 多 Agents 协同下的上下文工程 Cloud Native
 
 
 
-07多 Agents 协同下的上下文工程Cloud Native
+07 多 Agents 协同下的上下文工程 Cloud Native
 
 
 
-07多 Agents 协同下的上下文工程Cloud Native
+07 多 Agents 协同下的上下文工程 Cloud Native
 
 
 
-07多 Agents 协同下的上下文工程
+07 多 Agents 协同下的上下文工程
 
 
 
@@ -388,15 +388,15 @@ Cloud Native
 
 
 
-08Agent 资产管理Cloud Native
+08Agent 资产管理 Cloud Native
 
 
 
-08Agent 资产管理Cloud Native
+08Agent 资产管理 Cloud Native
 
 
 
-08Agent 资产管理Cloud Native
+08Agent 资产管理 Cloud Native
 
 
 
@@ -440,15 +440,15 @@ Agent 资产的沉淀也比较关键。到底有哪些资产在企业内部？�
 
 
 
-09Skills 企业级生命周期管理Cloud Native
+09Skills 企业级生命周期管理 Cloud Native
 
 
 
-09Skills 企业级生命周期管理Cloud Native
+09Skills 企业级生命周期管理 Cloud Native
 
 
 
-09Skills 企业级生命周期管理Cloud Native
+09Skills 企业级生命周期管理 Cloud Native
 
 
 
@@ -488,19 +488,19 @@ Skill 这个方面，我想重点和大家分享一下。前面也讲到了，�
 
 
 
-10企业内资产的 Catalog 管理Cloud Native
+10 企业内资产的 Catalog 管理 Cloud Native
 
 
 
-10企业内资产的 Catalog 管理Cloud Native
+10 企业内资产的 Catalog 管理 Cloud Native
 
 
 
-10企业内资产的 Catalog 管理Cloud Native
+10 企业内资产的 Catalog 管理 Cloud Native
 
 
 
-10企业内资产的 Catalog 管理
+10 企业内资产的 Catalog 管理
 
 
 
@@ -536,15 +536,15 @@ Cloud Native
 
 
 
-11Agent 观测与持续优化Cloud Native
+11Agent 观测与持续优化 Cloud Native
 
 
 
-11Agent 观测与持续优化Cloud Native
+11Agent 观测与持续优化 Cloud Native
 
 
 
-11Agent 观测与持续优化Cloud Native
+11Agent 观测与持续优化 Cloud Native
 
 
 
@@ -584,15 +584,15 @@ Cloud Native
 
 
 
-12Agent 观测实现洞察与分析Cloud Native
+12Agent 观测实现洞察与分析 Cloud Native
 
 
 
-12Agent 观测实现洞察与分析Cloud Native
+12Agent 观测实现洞察与分析 Cloud Native
 
 
 
-12Agent 观测实现洞察与分析Cloud Native
+12Agent 观测实现洞察与分析 Cloud Native
 
 
 
@@ -628,15 +628,15 @@ Cloud Native
 
 
 
-13Agent 的评估器设计Cloud Native
+13Agent 的评估器设计 Cloud Native
 
 
 
-13Agent 的评估器设计Cloud Native
+13Agent 的评估器设计 Cloud Native
 
 
 
-13Agent 的评估器设计Cloud Native
+13Agent 的评估器设计 Cloud Native
 
 
 
@@ -688,15 +688,15 @@ Cloud Native
 
 
 
-14Agent 的治理：身份与安全Cloud Native
+14Agent 的治理：身份与安全 Cloud Native
 
 
 
-14Agent 的治理：身份与安全Cloud Native
+14Agent 的治理：身份与安全 Cloud Native
 
 
 
-14Agent 的治理：身份与安全Cloud Native
+14Agent 的治理：身份与安全 Cloud Native
 
 
 
@@ -736,15 +736,15 @@ Cloud Native
 
 
 
-15Agent 的治理：成本Cloud Native
+15Agent 的治理：成本 Cloud Native
 
 
 
-15Agent 的治理：成本Cloud Native
+15Agent 的治理：成本 Cloud Native
 
 
 
-15Agent 的治理：成本Cloud Native
+15Agent 的治理：成本 Cloud Native
 
 
 

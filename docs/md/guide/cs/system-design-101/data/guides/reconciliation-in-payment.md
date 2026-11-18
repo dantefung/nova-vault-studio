@@ -17,11 +17,11 @@ Reconciliation might be the most painful process in a payment system. It is the 
 
 For example, if you pay $200 to buy a watch with Paypal:
 
-*   The eCommerce website should have a record of the $200 purchase order.
+* The eCommerce website should have a record of the $200 purchase order.
 
-*   There should be a transaction record of $200 in Paypal (marked with 2 in the diagram).
+* There should be a transaction record of $200 in Paypal (marked with 2 in the diagram).
 
-*   The Ledger should record a debit of $200 dollars for the buyer, and a credit of $200 for the seller. This is called double-entry bookkeeping (see the table below).
+* The Ledger should record a debit of $200 dollars for the buyer, and a credit of $200 for the seller. This is called double-entry bookkeeping (see the table below).
 
 Let’s take a look at some pain points and how we can address them:
 

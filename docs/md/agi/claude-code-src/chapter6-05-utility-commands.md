@@ -34,16 +34,16 @@ Doctor 是 3 个主屏幕之一（`src/screens/Doctor.tsx`），使用 React/Ink
 
 诊断检查项：
 
-*   使用 `getDoctorDiagnostic()` 获取诊断信息
-*   使用 `checkContextWarnings()` 检查上下文警告
-*   包含 `SandboxDoctorSection`、`McpParsingWarnings`、`KeybindingWarnings` 等子组件
+* 使用 `getDoctorDiagnostic()` 获取诊断信息
+* 使用 `checkContextWarnings()` 检查上下文警告
+* 包含 `SandboxDoctorSection`、`McpParsingWarnings`、`KeybindingWarnings` 等子组件
 
 实际组件使用 useState/useEffect/memo 等 React Hooks，结构较为复杂。
 
 ## /login & /logout — 认证管理 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/commands/utility-commands.html#login-logout-%E2%80%94-%E8%AE%A4%E8%AF%81%E7%AE%A1%E7%90%86)
 
-*   **`/login`**：`local-jsx` 类型，渲染 `ConsoleOAuthFlow` 组件。登录后依次获取 OAuth tokens、用户 profile、API key、角色/权限。
-*   **`/logout`**：`local` 类型，通过加载 `commands/logout/` 模块执行登出流程。
+* **`/login`**：`local-jsx` 类型，渲染 `ConsoleOAuthFlow` 组件。登录后依次获取 OAuth tokens、用户 profile、API key、角色/权限。
+* **`/logout`**：`local` 类型，通过加载 `commands/logout/` 模块执行登出流程。
 
 ## /install — 安装更新 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/commands/utility-commands.html#install-%E2%80%94-%E5%AE%89%E8%A3%85%E6%9B%B4%E6%96%B0)
 
@@ -57,9 +57,9 @@ Doctor 是 3 个主屏幕之一（`src/screens/Doctor.tsx`），使用 React/Ink
 
 `/agents` 是 `local-jsx` 类型命令，列出配置的 Agent：
 
-*   项目级 Agent（`.claude/agents/`）
-*   用户级 Agent（`~/.claude/agents/`）
-*   托管 Agent（企业远程推送）
+* 项目级 Agent（`.claude/agents/`）
+* 用户级 Agent（`~/.claude/agents/`）
+* 托管 Agent（企业远程推送）
 
 显示覆盖/遮蔽关系。
 
@@ -73,8 +73,8 @@ Doctor 是 3 个主屏幕之一（`src/screens/Doctor.tsx`），使用 React/Ink
 
 两种模式：
 
-*   **交互模式**（`local-jsx`）：将消息转换为 API 视图，经过微压缩处理，分析上下文使用情况，以可视化界面显示
-*   **非交互模式**（`local`）：收集上下文数据，格式化为 Markdown 表格输出
+* **交互模式**（`local-jsx`）：将消息转换为 API 视图，经过微压缩处理，分析上下文使用情况，以可视化界面显示
+* **非交互模式**（`local`）：收集上下文数据，格式化为 Markdown 表格输出
 
 ## /extra-usage — 订阅管理 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/commands/utility-commands.html#extra-usage-%E2%80%94-%E8%AE%A2%E9%98%85%E7%AE%A1%E7%90%86)
 

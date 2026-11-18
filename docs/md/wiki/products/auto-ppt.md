@@ -3,13 +3,13 @@ title: "Auto-PPT（React代码制作PPT）"
 date: "2026-06-11"
 ---
 
-# Auto-PPT（React代码制作PPT）
+# Auto-PPT（React 代码制作 PPT）
 
 > One repo, many slide decks. 每个 PPT 是一个文件夹的 React 组件。用编辑 `.tsx` 文件的方式做 PPT，让 Coding Agent 替你写。
 
 ## Key Points
 
-- **核心定位**：Auto-PPT 是一个 **Harness**（而非传统 PPT 工具），把"做 PPT"翻译成"编辑 React 代码"
+- **核心定位**：Auto-PPT 是一个 **Harness**（而非传统 PPT 工具），把“做 PPT”翻译成“编辑 React 代码”
 - **每个 PPT 是一个文件夹** `slides/{ppt}/`，里面是 `.tsx` 幻灯片文件 + `deck.config.ts` 配置
 - **两套反馈循环**：Content loop（`pnpm ppt text`） + Layout loop（浏览器截图）
 
@@ -60,7 +60,7 @@ http://localhost:5273/{ppt}/{slug}
 
 ## Related Pages
 
-- [products/magic-slide](products/magic-slide) — HTML演示稿生成
+- [products/magic-slide](products/magic-slide) — HTML 演示稿生成
 - [patterns/presentation-design](patterns/presentation-design) — 演示设计模式
 
 ## Sources

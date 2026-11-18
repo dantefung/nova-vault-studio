@@ -9,12 +9,12 @@ URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html
 Markdown Content:
 本页目录
 
-*   [传输方式对比](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#%E4%BC%A0%E8%BE%93%E6%96%B9%E5%BC%8F%E5%AF%B9%E6%AF%94 "传输方式对比")
-*   [WebSocket 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#websocket-%E4%BC%A0%E8%BE%93 "WebSocket 传输")
-*   [SSE 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#sse-%E4%BC%A0%E8%BE%93 "SSE 传输")
-*   [Hybrid 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#hybrid-%E4%BC%A0%E8%BE%93 "Hybrid 传输")
-*   [轮询配置](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#%E8%BD%AE%E8%AF%A2%E9%85%8D%E7%BD%AE "轮询配置")
-*   [JWT 工具](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#jwt-%E5%B7%A5%E5%85%B7 "JWT 工具")
+* [传输方式对比](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#%E4%BC%A0%E8%BE%93%E6%96%B9%E5%BC%8F%E5%AF%B9%E6%AF%94 “传输方式对比”)
+* [WebSocket 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#websocket-%E4%BC%A0%E8%BE%93 "WebSocket 传输“)
+* [SSE 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#sse-%E4%BC%A0%E8%BE%93 "SSE 传输”)
+* [Hybrid 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#hybrid-%E4%BC%A0%E8%BE%93 "Hybrid 传输“)
+* [轮询配置](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#%E8%BD%AE%E8%AF%A2%E9%85%8D%E7%BD%AE ”轮询配置“)
+* [JWT 工具](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#jwt-%E5%B7%A5%E5%85%B7 "JWT 工具”)
 
 ## Bridge 传输层 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#bridge-%E4%BC%A0%E8%BE%93%E5%B1%82)
 
@@ -36,26 +36,26 @@ Bridge 支持多种传输方式，适应不同网络环境。
 
 特性：
 
-*   使用 CircularBuffer 缓存消息
-*   重连状态机，默认 10 分钟重连预算（`DEFAULT_RECONNECT_GIVE_UP_MS = 600_000`）
-*   永久关闭码集合（`PERMANENT_CLOSE_CODES = new Set([1002, 4001, 4003])`）
-*   睡眠检测（`SLEEP_DETECTION_THRESHOLD_MS`）
-*   自动检测 Bun/Node 运行时并使用对应的 WebSocket 实现
-*   心跳/keepalive 机制
+* 使用 CircularBuffer 缓存消息
+* 重连状态机，默认 10 分钟重连预算（`DEFAULT_RECONNECT_GIVE_UP_MS = 600_000`）
+* 永久关闭码集合（`PERMANENT_CLOSE_CODES = new Set([1002, 4001, 4003])`）
+* 睡眠检测（`SLEEP_DETECTION_THRESHOLD_MS`）
+* 自动检测 Bun/Node 运行时并使用对应的 WebSocket 实现
+* 心跳/keepalive 机制
 
 ## SSE 传输 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#sse-%E4%BC%A0%E8%BE%93)
 
 `SSETransport`（`src/cli/transports/SSETransport.ts`）使用 SSE 读取 + HTTP POST 写入。
 
-*   读取：使用 AbortController + fetch 架构（非 axios），通过 SSE 帧解析器处理流式数据
-*   写入：HTTP POST 发送 JSON 消息
+* 读取：使用 AbortController + fetch 架构（非 axios），通过 SSE 帧解析器处理流式数据
+* 写入：HTTP POST 发送 JSON 消息
 
 ## Hybrid 传输 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#hybrid-%E4%BC%A0%E8%BE%93)
 
 `HybridTransport`（`src/cli/transports/HybridTransport.ts`）继承自 `WebSocketTransport`（非组合模式）。
 
-*   读取：通过 WebSocket（低延迟）
-*   写入：通过 `SerialBatchEventUploader` HTTP POST（可靠性）
+* 读取：通过 WebSocket（低延迟）
+* 写入：通过 `SerialBatchEventUploader` HTTP POST（可靠性）
 
 `SerialBatchEventUploader` 实现事件队列 → 延迟合批 → HTTP POST，失败重试，串行化保证顺序。
 

@@ -27,10 +27,10 @@ export function assembleToolPool(
 
 内部流程：
 
-1.   通过 `getTools(permissionContext)` 获取内置工具（包含 feature-gated 工具，如 Task 工具通过 `isTodoV2Enabled()` 控制，Worktree 工具通过 `isWorktreeModeEnabled()` 控制）
-2.   过滤在 deny 列表中的 MCP 工具
-3.   分区排序（内置工具作为前缀，保证 prompt-cache 稳定性）
-4.   通过 `uniqBy` 去重合并
+1. 通过 `getTools(permissionContext)` 获取内置工具（包含 feature-gated 工具，如 Task 工具通过 `isTodoV2Enabled()` 控制，Worktree 工具通过 `isWorktreeModeEnabled()` 控制）
+2. 过滤在 deny 列表中的 MCP 工具
+3. 分区排序（内置工具作为前缀，保证 prompt-cache 稳定性）
+4. 通过 `uniqBy` 去重合并
 
 ## 工具过滤 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/tools-service.html#%E5%B7%A5%E5%85%B7%E8%BF%87%E6%BB%A4)
 
@@ -51,9 +51,9 @@ export function mergeAndFilterTools(
 
 内部流程：
 
-1.   `initialTools` 优先，通过 `uniqBy` 去重
-2.   分区排序（内置工具作为前缀，MCP 工具在后）
-3.   若启用了 `COORDINATOR_MODE`，则应用协调器工具过滤
+1. `initialTools` 优先，通过 `uniqBy` 去重
+2. 分区排序（内置工具作为前缀，MCP 工具在后）
+3. 若启用了 `COORDINATOR_MODE`，则应用协调器工具过滤
 
 ## 工具查找 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/tools-service.html#%E5%B7%A5%E5%85%B7%E6%9F%A5%E6%89%BE)
 

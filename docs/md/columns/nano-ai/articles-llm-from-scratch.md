@@ -52,25 +52,25 @@ description: "Finance / AI / Systems · 文章与项目"
 
     llm-from-scratch/
 
-    ├── docs/          # 学习笔记与操作记录
+    ├── docs/ # 学习笔记与操作记录
 
-    ├── notebooks/     # 实验区，分阶段的 .ipynb 文件
+    ├── notebooks/ # 实验区，分阶段的 .ipynb 文件
 
-    ├── src/           # 正式代码
+    ├── src/ # 正式代码
 
-    │   ├── tokenizer.py
+    │ ├── tokenizer.py
 
-    │   ├── embeddings.py
+    │ ├── embeddings.py
 
-    │   ├── attention.py
+    │ ├── attention.py
 
-    │   ├── model.py
+    │ ├── model.py
 
-    │   └── inference.py
+    │ └── inference.py
 
     └── api/
 
-        └── main.py    # FastAPI 对话接口
+        └── main.py # FastAPI 对话接口
 
 
 

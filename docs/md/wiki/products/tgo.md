@@ -7,7 +7,7 @@ url: "https://github.com/tgoai/tgo"
 
 # TGO (tgoai)
 
-开源 AI Agent 客服平台，帮助企业"Build AI Agent Teams for Customer Service"。
+开源 AI Agent 客服平台，帮助企业“Build AI Agent Teams for Customer Service"。
 
 495 Stars，96 Forks，TypeScript 主语言。
 

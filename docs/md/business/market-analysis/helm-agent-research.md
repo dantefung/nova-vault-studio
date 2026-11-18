@@ -13,7 +13,7 @@ url: "https://helmagent.dev/"
 
 ## 核心定位
 
-Helm 不是"又一个 AI 编程助手"，而是一个 **Agent Runtime**——它解决了当前 AI 编程工具的最大痛点：**终端一关，Agent 就死了**。
+Helm 不是“又一个 AI 编程助手”，而是一个 **Agent Runtime**——它解决了当前 AI 编程工具的最大痛点：**终端一关，Agent 就死了**。
 
 ```
 传统 Agent：终端进程 → 关终端 → Agent 停止
@@ -85,7 +85,7 @@ Daemon 存活周期独立于客户端。关终端、重启 App，Daemon 不受�
 
 ## Phodal 原话
 
-> @Phodal: "有想打擂台的同类产品"
+> @Phodal: “有想打擂台的同类产品”
 
 ---
 

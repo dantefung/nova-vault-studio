@@ -64,7 +64,7 @@ url: "https://x.com/MaynorAI1/status/2118347103219146900"
    单张写实真人照片起手，只给三五个字的短 Prompt（如「弹吉他的男子」），测试模型的人物一致性与微动态极限。
    原帖：https://x.com/dokken92047824/status/2118293666456559762
 
-> 引用：テツメモ｜AI図解×検証｜Newsletter (@tetumemo) · <https://x.com/tetumemo/status/2118129204449697985>
+> 引用：テツメモ｜AI 図解×検証｜Newsletter (@tetumemo) · <https://x.com/tetumemo/status/2118129204449697985>
 >
 > 📝【速報】ChatGPT Images 2.6、今日から全プランで使える！早速静止画 1 枚渡して、「このキャラの喜怒哀楽のGIFよろ」ってお願いしただけで簡単に完成
 >
@@ -106,7 +106,7 @@ url: "https://x.com/MaynorAI1/status/2118347103219146900"
    跳出单纯搞笑动图的思路：利用多帧拆解把连贯舞蹈动作按节拍切片，制作直观的动作分解教学 GIF。
    原帖：https://x.com/zone__online/status/2118264293678608774
 
-> 引用：テツメモ｜AI図解×検証｜Newsletter (@tetumemo) · <https://x.com/tetumemo/status/2118131882776985756>
+> 引用：テツメモ｜AI 図解×検証｜Newsletter (@tetumemo) · <https://x.com/tetumemo/status/2118131882776985756>
 >
 > 📝今日発表されたOpenAIのGPT Images 2.6
 >

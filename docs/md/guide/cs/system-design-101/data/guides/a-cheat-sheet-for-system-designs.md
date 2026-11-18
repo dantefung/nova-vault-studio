@@ -15,18 +15,18 @@ tags:
 
 The diagram below lists 15 core concepts when we design systems. The cheat sheet is straightforward to go through one by one. Save it for future reference!
 
-*   Requirement gathering
-*   System architecture
-*   Data design
-*   Domain design
-*   Scalability
-*   Reliability
-*   Availability
-*   Performance
-*   Security
-*   Maintainability
-*   Testing
-*   User experience design
-*   Cost estimation
-*   Documentation
-*   Migration plan
+* Requirement gathering
+* System architecture
+* Data design
+* Domain design
+* Scalability
+* Reliability
+* Availability
+* Performance
+* Security
+* Maintainability
+* Testing
+* User experience design
+* Cost estimation
+* Documentation
+* Migration plan

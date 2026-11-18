@@ -10,15 +10,15 @@ source: "公众号"
 
 ## 核心定义
 
-AgentScope Java 2.0 的分层架构哲学：把 Agent 平台切成三层——无状态 ReAct 推理内核（大脑）、委托内核叠加工程能力的外壳（身体）、18 类可插拔扩展（手脚）。核心是"变化点被控制在哪一层"。
+AgentScope Java 2.0 的分层架构哲学：把 Agent 平台切成三层——无状态 ReAct 推理内核（大脑）、委托内核叠加工程能力的外壳（身体）、18 类可插拔扩展（手脚）。核心是“变化点被控制在哪一层”。
 
 ## 关键洞察
 
-1. **ReAct 内核是"单实例 × 多 session 并发"，不是无状态单例**——把可变状态按 (userId, sessionId) 分槽缓存，每次调用新建 CallExecution，通过 Reactor Context 传递，不靠锁、不靠同步，实现水平扩展。
+1. **ReAct 内核是“单实例 × 多 session 并发”，不是无状态单例**——把可变状态按 (userId, sessionId) 分槽缓存，每次调用新建 CallExecution，通过 Reactor Context 传递，不靠锁、不靠同步，实现水平扩展。
 
-2. **中间件是"洋葱 4 点 + 管道 1 点"，不是五阶段枚举**——4 个洋葱点（onAgent/onReasoning/onActing/onModelCall）带 next 函数 wrap 语义，1 个管道点（onSystemPrompt）顺序变换。比五阶段枚举灵活得多。
+2. **中间件是“洋葱 4 点 + 管道 1 点”，不是五阶段枚举**——4 个洋葱点（onAgent/onReasoning/onActing/onModelCall）带 next 函数 wrap 语义，1 个管道点（onSystemPrompt）顺序变换。比五阶段枚举灵活得多。
 
-3. **call 和 stream 真正合一**——call() 只是 streamEvents() 的"取末尾结果"特例，一套内核维护两种模式。
+3. **call 和 stream 真正合一**——call() 只是 streamEvents() 的“取末尾结果”特例，一套内核维护两种模式。
 
 4. **HarnessAgent 委托 ReActAgent，不是继承**——继承会让工程能力渗透进内核，组合才能独立替换和测试。
 

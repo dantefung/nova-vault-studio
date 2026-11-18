@@ -15,7 +15,7 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 ### Docker 部署的优势
 
-**环境一致性** — 本地能跑的，服务器上一定能跑。不会出现"我这里没问题啊"的经典场景。Docker 把 Node.js 版本、系统依赖、配置文件全部打包在一起，消除了环境差异。
+**环境一致性** — 本地能跑的，服务器上一定能跑。不会出现“我这里没问题啊”的经典场景。Docker 把 Node.js 版本、系统依赖、配置文件全部打包在一起，消除了环境差异。
 
 **一键部署** — 不需要在服务器上手动装 Node.js、配置 npm、处理依赖冲突。一条 `docker compose up` 搞定一切。
 

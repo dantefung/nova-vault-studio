@@ -3,9 +3,9 @@ title: "Multi-Agent Architecture（多Agent协作架构）"
 date: "2026-06-11"
 ---
 
-# Multi-Agent Architecture（多Agent协作架构）
+# Multi-Agent Architecture（多 Agent 协作架构）
 
-> Anthropic 工程团队实践总结：10个多Agent项目里，9个走不出Demo阶段。问题不是模型不够强，是缺Agent之间的结构。
+> Anthropic 工程团队实践总结：10 个多 Agent 项目里，9 个走不出 Demo 阶段。问题不是模型不够强，是缺 Agent 之间的结构。
 
 ## Key Points
 
@@ -40,7 +40,7 @@ Agent Loop 核心是在代码里写死循环结构：模型接收状态 → 选�
 三件很多人忽略的事：
 - **审批闸门**：危险操作必须卡住
 - **日志钩子**：每一步做了什么、为什么做，必须记录
-- **明确的停止条件**：最大迭代次数（通常设30-50轮），一个跑飞的Agent比一个慢的Agent可怕得多
+- **明确的停止条件**：最大迭代次数（通常设 30-50 轮），一个跑飞的 Agent 比一个慢的 Agent 可怕得多
 
 ### STEP02 工程化上下文：写、选、压、隔
 
@@ -54,8 +54,8 @@ Agent Loop 核心是在代码里写死循环结构：模型接收状态 → 选�
 
 - [concepts/harness-engineering](concepts/harness-engineering) — 驭化工程
 - [patterns/engineering-taste](patterns/engineering-taste) — 工程品味
-- [patterns/ai-agent-automation](patterns/ai-agent-automation) — AI Agent自动化模式
+- [patterns/ai-agent-automation](patterns/ai-agent-automation) — AI Agent 自动化模式
 
 ## Sources
 
-- 微信公众号《从零搭建AI Agent团队：9个阶段，从第一个Agent到生产级协作》(2026-06-11)
+- 微信公众号《从零搭建 AI Agent 团队：9 个阶段，从第一个 Agent 到生产级协作》(2026-06-11)

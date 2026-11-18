@@ -21,13 +21,13 @@ The diagram above illustrates four isolation levels.
 
 ## Isolation Levels
 
-*   **Serializable:** This is the highest isolation level. Concurrent transactions are guaranteed to be executed in sequence.
+* **Serializable:** This is the highest isolation level. Concurrent transactions are guaranteed to be executed in sequence.
 
-*   **Repeatable Read:** Data read during the transaction stays the same as the transaction starts.
+* **Repeatable Read:** Data read during the transaction stays the same as the transaction starts.
 
-*   **Read Committed:** Data modification can only be read after the transaction is committed.
+* **Read Committed:** Data modification can only be read after the transaction is committed.
 
-*   **Read Uncommitted:** The data modification can be read by other transactions before a transaction is committed.
+* **Read Uncommitted:** The data modification can be read by other transactions before a transaction is committed.
 
 The isolation is guaranteed by MVCC (Multi-Version Consistency Control) and locks.
 

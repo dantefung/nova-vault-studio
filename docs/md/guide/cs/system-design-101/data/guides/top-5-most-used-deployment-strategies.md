@@ -15,12 +15,12 @@ tags:
 
 Here are the top 5 most-used deployment strategies:
 
-*   **Big Bang Deployment**
+* **Big Bang Deployment**
 
-*   **Rolling Deployment**
+* **Rolling Deployment**
 
-*   **Blue-Green Deployment**
+* **Blue-Green Deployment**
 
-*   **Canary Deployment**
+* **Canary Deployment**
 
-*   **Feature Toggle**
+* **Feature Toggle**

@@ -3,7 +3,7 @@ title: "MyCC Research Machine（AI研究机器四层架构）"
 date: "2026-06-11"
 ---
 
-# MyCC Research Machine（AI研究机器四层架构）
+# MyCC Research Machine（AI 研究机器四层架构）
 
 > 四工具组合：执行层（Claude Code）→ 定制层（Skill Creator）→ 分析层（NotebookLM）→ 记忆层（Obsidian），30 分钟搭建，能自我改进的研究流水线。
 
@@ -35,7 +35,7 @@ date: "2026-06-11"
 ## Related Pages
 
 - [concepts/llm-wiki](concepts/llm-wiki) — LLM Wiki 知识库模式
-- [patterns/personal-ai-infrastructure](patterns/personal-ai-infrastructure) — 个人AI基础设施
+- [patterns/personal-ai-infrastructure](patterns/personal-ai-infrastructure) — 个人 AI 基础设施
 
 ## Sources
 

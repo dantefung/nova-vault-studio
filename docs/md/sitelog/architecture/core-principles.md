@@ -66,8 +66,8 @@ graph LR
 ```
 
 **关键机制解析：**
-1.  **Markdown-it 扩展**：VitePress 所有的魔法（如 Mermaid、Markmap、代码高亮）都在 `markdown-it` 阶段通过 Token 转换实现。
-2.  **SFC 生成**：Markdown 不仅仅被转为 HTML，而是被包装成了 Vue 单文件组件 (SFC)。这意味着你可以在 Markdown 中直接使用 Vue 组件。
+1. **Markdown-it 扩展**：VitePress 所有的魔法（如 Mermaid、Markmap、代码高亮）都在 `markdown-it` 阶段通过 Token 转换实现。
+2. **SFC 生成**：Markdown 不仅仅被转为 HTML，而是被包装成了 Vue 单文件组件 (SFC)。这意味着你可以在 Markdown 中直接使用 Vue 组件。
 
 ---
 

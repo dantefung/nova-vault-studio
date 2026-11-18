@@ -7,7 +7,7 @@ url: "https://github.com/hylarucoder/hai-stack"
 
 # Geju Skill Pattern
 
-专治 Codex "苟帝"综合征：过度兼容、局部细节陷阱、重构恐惧、温和答案偏差。
+专治 Codex “苟帝”综合征：过度兼容、局部细节陷阱、重构恐惧、温和答案偏差。
 
 ## 核心问题
 

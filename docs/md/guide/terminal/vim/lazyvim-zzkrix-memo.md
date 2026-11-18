@@ -64,7 +64,7 @@ tags: ["neovim", "lazyvim", "备忘录", "keymap", "jetbrains-对照", "cheatshe
 
 ## 三、JetBrains 快捷键对照表 ⭐
 
-> **来历**：作者从 JetBrains 系（IDEA/WebStorm）转 LazyVim 时整理，**让 JetBrains 用户能"肌肉记忆复用"**。
+> **来历**：作者从 JetBrains 系（IDEA/WebStorm）转 LazyVim 时整理，**让 JetBrains 用户能“肌肉记忆复用”**。
 
 | LazyVim 快捷键 | 描述 | JetBrains 对照 |
 |----------------|------|---------------|

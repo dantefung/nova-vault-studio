@@ -55,19 +55,19 @@ description: "Finance / AI / Systems · 文章与项目"
 
 
   4. 
-[04位置编码](/articles/positional-encoding/)
+[04 位置编码](/articles/positional-encoding/)
 
 
   5. 
-[05自注意力](/articles/self-attention/)
+[05 自注意力](/articles/self-attention/)
 
 
   6. 
-[06多头注意力](/articles/multi-head-attention/)
+[06 多头注意力](/articles/multi-head-attention/)
 
 
   7. 
-[07残差连接](/articles/residual-connection/)
+[07 残差连接](/articles/residual-connection/)
 
 
   8. 
@@ -79,7 +79,7 @@ description: "Finance / AI / Systems · 文章与项目"
 
 
   10. 
-[10激活函数](/articles/activation-function/)
+[10 激活函数](/articles/activation-function/)
 
 
   11. 
@@ -91,15 +91,15 @@ description: "Finance / AI / Systems · 文章与项目"
 
 
   13. 
-[13加载预训练权重](/articles/loading-pretrained-weights/)
+[13 加载预训练权重](/articles/loading-pretrained-weights/)
 
 
   14. 
-[14文本生成](/articles/text-generation/)
+[14 文本生成](/articles/text-generation/)
 
 
   15. 
-[15可解释性](/articles/interpretability/)
+[15 可解释性](/articles/interpretability/)
 
 
 
@@ -119,15 +119,15 @@ description: "Finance / AI / Systems · 文章与项目"
 
 
   1. 
-[01损失函数](/articles/training-loss-function/)
+[01 损失函数](/articles/training-loss-function/)
 
 
   2. 
-[02反向传播](/articles/training-backpropagation/)
+[02 反向传播](/articles/training-backpropagation/)
 
 
   3. 
-[03梯度下降](/articles/training-gradient-descent/)
+[03 梯度下降](/articles/training-gradient-descent/)
 
 
   4. 
@@ -135,7 +135,7 @@ description: "Finance / AI / Systems · 文章与项目"
 
 
   5. 
-[05学习率调度](/articles/training-learning-rate-scheduling/)
+[05 学习率调度](/articles/training-learning-rate-scheduling/)
 
 
 
@@ -201,7 +201,7 @@ description: "Finance / AI / Systems · 文章与项目"
 
 
   2. 
-[02解耦 RoPE（MLA 下）](/articles/mla-decoupled-rope/)
+[02 解耦 RoPE（MLA 下）](/articles/mla-decoupled-rope/)
 
 
 

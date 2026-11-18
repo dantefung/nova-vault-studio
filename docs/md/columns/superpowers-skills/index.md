@@ -7,15 +7,15 @@ url: "https://github.com/obra/superpowers"
 
 # Superpowers 技能专栏
 
-> obra/superpowers 是 Claude Code 的"软件工程纪律"技能集——14 个核心技能覆盖"理解需求 → 写代码 → 评审 → 上线"完整生命周期。
+> obra/superpowers 是 Claude Code 的“软件工程纪律”技能集——14 个核心技能覆盖“理解需求 → 写代码 → 评审 → 上线”完整生命周期。
 
 <!-- more -->
 
 ## 简介
 
-superpowers 由 obra (Jesse Vincent) 维护，定位是"软件工程最佳实践的强制执行层"。每个 skill 都有"硬规则"——不是"建议使用"，而是"必须遵循"。
+superpowers 由 obra (Jesse Vincent) 维护，定位是“软件工程最佳实践的强制执行层”。每个 skill 都有“硬规则”——不是“建议使用”，而是“必须遵循”。
 
-**核心思想**：把"什么算 good code"、"怎么 debug"、"怎么 review" 这些隐性知识编码成可强制执行的 skill。
+**核心思想**：把“什么算 good code"、”怎么 debug"、“怎么 review" 这些隐性知识编码成可强制执行的 skill。
 
 ## 14 个核心技能
 
@@ -47,17 +47,17 @@ superpowers 由 obra (Jesse Vincent) 维护，定位是"软件工程最佳实践
 
 ## 适用场景
 
-- 想要"工程纪律"而不是"自由发挥"的 AI 编程
+- 想要”工程纪律“而不是”自由发挥“的 AI 编程
 - 多人协作时保证 review/QA 不被跳过
-- 调试 bug 时强制走"找根因"而不是"乱试"
-- 任何"重要代码"——值得用 superpowers 约束
+- 调试 bug 时强制走”找根因“而不是”乱试“
+- 任何”重要代码“——值得用 superpowers 约束
 
 ## 关键设计原则
 
-1. **HARD-GATE 优先于软建议**：brainstorming 的"未批准不能写代码"是硬规则
-2. **Iron Law**：systematic-debugging 的"无根因不修复"
+1. **HARD-GATE 优先于软建议**：brainstorming 的”未批准不能写代码“是硬规则
+2. **Iron Law**：systematic-debugging 的”无根因不修复“
 3. **强制顺序**：using-superpowers 强制先调用
-4. **铁律不可妥协**：所有 skill 都有"违反 = 失败"的硬约束
+4. **铁律不可妥协**：所有 skill 都有”违反 = 失败“的硬约束
 
 ## 与其他 skill 集的关系
 

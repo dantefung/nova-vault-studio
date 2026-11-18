@@ -17,12 +17,12 @@ Kafka was originally built for massive log processing. It retains messages until
 
 Let’s review the popular Kafka use cases.
 
-*   Log processing and analysis
+* Log processing and analysis
 
-*   Data streaming in recommendations
+* Data streaming in recommendations
 
-*   System monitoring and alerting
+* System monitoring and alerting
 
-*   CDC (Change data capture)
+* CDC (Change data capture)
 
-*   System migration
+* System migration

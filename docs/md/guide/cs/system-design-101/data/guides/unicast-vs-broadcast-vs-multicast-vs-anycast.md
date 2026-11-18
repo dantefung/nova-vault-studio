@@ -15,7 +15,7 @@ tags:
 
 These are 4 network communication methods you must know.
 
-*   **Unicast**
+* **Unicast**
 
     Unique sender and a single receiver.
 
@@ -23,7 +23,7 @@ These are 4 network communication methods you must know.
 
     Used in protocols such as HTTP, FTP, and SMTP.
 
-*   **Broadcast**
+* **Broadcast**
 
     Single sender and multiple receivers.
 
@@ -31,7 +31,7 @@ These are 4 network communication methods you must know.
 
     Used in Address Resolution Protocol, DHCP, and NTP
 
-*   **Multicast**
+* **Multicast**
 
     Sender to a specific group of devices in a network. This is a specialized case of broadcast routing.
 
@@ -39,7 +39,7 @@ These are 4 network communication methods you must know.
 
     Used in IPTV and video conference applications.
 
-*   **Anycast**
+* **Anycast**
 
     Sender to a single device or a specific group of devices.
 

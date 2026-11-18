@@ -17,26 +17,26 @@ A distributed lock is a mechanism that ensures mutual exclusion across a distrib
 
 ## Top 6 Use Cases for Distributed Locks
 
-*   **Leader Election**
+* **Leader Election**
 
     Distributed locks can be used to ensure that only one node becomes the leader at any given time.
 
-*   **Task Scheduling**
+* **Task Scheduling**
 
     In a distributed task scheduler, distributed locks ensure that a scheduled task is executed by only one worker node, preventing duplicate execution.
 
-*   **Resource Allocation**
+* **Resource Allocation**
 
     When managing shared resources like file systems, network sockets, or hardware devices, distributed locks ensure that only one process can access the resource at a time.
 
-*   **Microservices Coordination**
+* **Microservices Coordination**
 
     When multiple microservices need to perform coordinated operations, such as updating related data in different databases, distributed locks ensure that these operations are performed in a controlled and orderly manner.
 
-*   **Inventory Management**
+* **Inventory Management**
 
     In e-commerce platforms, distributed locks can manage inventory updates to ensure that stock levels are accurately maintained when multiple users attempt to purchase the same item simultaneously.
 
-*   **Session Management**
+* **Session Management**
 
     When handling user sessions in a distributed environment, distributed locks can ensure that a user session is only modified by one server at a time, preventing inconsistencies.

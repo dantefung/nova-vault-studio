@@ -9,7 +9,7 @@ author: "袁小康"
 
 > 文章序号：第 12 篇 | 作者：袁小康
 
-Auto Memory 解决了"跨会话记住用户偏好"的问题，但项目本身的知识呢？每个项目的构建命令不同、架构不同、约定不同，Agent 怎么知道这些？这篇聊聊 Agent.md——一份给 Agent 的项目说明书。前十一篇文章分别讲了 Agent 的 Loop、Tools、上下文记忆、上下文压缩、MCP、Skill、TUI、任务规划、Subagent 子代理、Command 和 Auto Memory。这篇聊一个看似简单、但对 Agent 实际表现影响极大的东西——Agent.md。
+Auto Memory 解决了“跨会话记住用户偏好”的问题，但项目本身的知识呢？每个项目的构建命令不同、架构不同、约定不同，Agent 怎么知道这些？这篇聊聊 Agent.md——一份给 Agent 的项目说明书。前十一篇文章分别讲了 Agent 的 Loop、Tools、上下文记忆、上下文压缩、MCP、Skill、TUI、任务规划、Subagent 子代理、Command 和 Auto Memory。这篇聊一个看似简单、但对 Agent 实际表现影响极大的东西——Agent.md。
 ![image](images/article-12/001.webp)
 ## 一、一个常见的崩溃场景
 你第一次在一个新项目里启动 Agent。你说“帮我跑一下测试”。Agent 自信地执行了 npm test。然后报错了——因为这是一个 Go 项目，测试命令是 cd src && go test ./...。你纠正它，它改过来了。然后你说“帮我构建”。它执行了 go build。又错了——构建命令是 make build，因为有交叉编译配置。类似的错误会反复出现：用了错的包管理器、在错的目录执行命令、不知道项目的禁区在哪里。问题的根源很清楚：Agent 对你的项目一无所知。它只有一个通用身份——“You are a coding agent”。它不知道你的项目用什么语言，不知道构建系统怎么配置，不知道哪些目录不能乱动。上一篇的 Auto Memory 能部分解决这个问题——你可以用 /remember 让它记住构建命令。但 Auto Memory 是面向个人的。它记的是“你”的偏好和经验，存在你本地的 .evo-agent/memory/ 里。如果换一个同事来用同一个项目的 Agent，他需要从头再来一遍。我们需要的，是一种项目级别的知识文件——跟着项目走，不跟着人走。任何人在这个项目里启动 Agent，都能自动获得这份知识。这就是 Agent.md 的定位。

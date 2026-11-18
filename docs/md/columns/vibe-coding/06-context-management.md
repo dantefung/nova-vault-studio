@@ -8,7 +8,7 @@ url: "/columns/vibe-coding/06-context-management"
 # 上下文管理：MCP 与 Context7
 
 > 本篇整合自：
-> - [references/05-02-mcp/mcp配置.md](references/05-02-mcp/mcp配置.md)
+> - [references/05-02-mcp/mcp 配置.md](references/05-02-mcp/mcp 配置.md)
 > - [references/05-01-context7/context7.md](references/05-01-context7/context7.md)
 
 ---
@@ -119,7 +119,7 @@ npx -y @modelcontextprotocol/server-sequential-thinking
 1. **审慎单选**：优先使用离线工具，确需外呼时每轮最多 1 个 MCP 服务
 2. **序贯调用**：多服务需求时必须串行，明确说明每步理由和预期产出
 3. **最小范围**：精确限定查询参数，避免过度抓取和噪声
-4. **可追溯性**：答复末尾统一附加"工具调用简报"
+4. **可追溯性**：答复末尾统一附加“工具调用简报”
 
 ### 调用优先级
 

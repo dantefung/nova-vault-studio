@@ -19,14 +19,14 @@ By grasping the roles and capabilities of each memory type, developers and syste
 
 Some of the common Memory types are:
 
-*   **Registers:** Tiny, ultra-fast storage within the CPU for immediate data access.
+* **Registers:** Tiny, ultra-fast storage within the CPU for immediate data access.
 
-*   **Caches:** Small, quick memory located close to the CPU to speed up data retrieval.
+* **Caches:** Small, quick memory located close to the CPU to speed up data retrieval.
 
-*   **Main Memory (RAM):** Larger, primary storage for currently executing programs and data.
+* **Main Memory (RAM):** Larger, primary storage for currently executing programs and data.
 
-*   **Solid-State Drives (SSDs):** Fast, reliable storage with no moving parts, used for persistent data.
+* **Solid-State Drives (SSDs):** Fast, reliable storage with no moving parts, used for persistent data.
 
-*   **Hard Disk Drives (HDDs):** Mechanical drives with large capacities for long-term storage.
+* **Hard Disk Drives (HDDs):** Mechanical drives with large capacities for long-term storage.
 
-*   **Remote Secondary Storage:** Offsite storage for data backup and archiving, accessible over a network.
+* **Remote Secondary Storage:** Offsite storage for data backup and archiving, accessible over a network.

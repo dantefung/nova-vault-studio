@@ -552,7 +552,7 @@ https://meetnewbooks.com/suggest-book/54250/The-Book-Thief-Markus-Zusak
 
 **第五步：别在这三步的任何一个环节偷懒。**
 
-袁锐钦总结哥飞两个教训时，说了一句几乎所有踩坑的人都会点头的话：**「创业不是'把事情做完'，是'把事情做好'。这两个词的区别，可能就是亏几十万和赚几十万的区别。」**
+袁锐钦总结哥飞两个教训时，说了一句几乎所有踩坑的人都会点头的话：**「创业不是’把事情做完’，是’把事情做好’。这两个词的区别，可能就是亏几十万和赚几十万的区别。」**
 
 ---
 
@@ -677,21 +677,21 @@ distance.to 用了子域名形式做多语言，但哥飞明确建议：**新网
 
 ## 参考来源
 
-[1] [2026-05-09 哥飞小课堂详析FAQPage下线，程序化SEO与新站比赛高潮](https://new.web.cafe/tutorial/detail/ha4syvj8tx)
-[2] [【哥飞观察】单月新增850万访问量的网站是如何做到的？](https://mp.weixin.qq.com/s/85pz83pIS1g-MVCzHxb_iA)
-[3] [2024-09-09 群友旱地拔葱案例再现，海量页面SEO与Cursor使用引爆讨论](https://new.web.cafe/tutorial/detail/82fw0ghe4n)
-[4] [用几个案例来讲解程序化SEO生成海量页面获取流量的方式](https://new.web.cafe/tutorial/detail/capjm3dnwu)
-[5] [2023-12-01 12月新站赛启动，免费获客与外链避坑成焦点](https://new.web.cafe/tutorial/detail/9h0q8pu326)
+[1] [2026-05-09 哥飞小课堂详析 FAQPage 下线，程序化 SEO 与新站比赛高潮](https://new.web.cafe/tutorial/detail/ha4syvj8tx)
+[2] [【哥飞观察】单月新增 850 万访问量的网站是如何做到的？](https://mp.weixin.qq.com/s/85pz83pIS1g-MVCzHxb_iA)
+[3] [2024-09-09 群友旱地拔葱案例再现，海量页面 SEO 与 Cursor 使用引爆讨论](https://new.web.cafe/tutorial/detail/82fw0ghe4n)
+[4] [用几个案例来讲解程序化 SEO 生成海量页面获取流量的方式](https://new.web.cafe/tutorial/detail/capjm3dnwu)
+[5] [2023-12-01 12 月新站赛启动，免费获客与外链避坑成焦点](https://new.web.cafe/tutorial/detail/9h0q8pu326)
 [6] [我听了三小时出海创业直播，把哥飞、彪哥、壹树的话整理成这篇笔记](https://new.web.cafe/topic/lfspz7f7o8)
-[7] [2026-04-15 pSEO避坑与流量变现实战，群友两日爆单2000美金](https://new.web.cafe/tutorial/detail/qtm3lompyg)
+[7] [2026-04-15 pSEO 避坑与流量变现实战，群友两日爆单 2000 美金](https://new.web.cafe/tutorial/detail/qtm3lompyg)
 [8] [解决系列图书阅读顺序问题的小网站，一年有 2000 万访问量](https://mp.weixin.qq.com/s/mkrPLm8UBTilgx7f26POXg)
 [9] [恭喜彪哥的视频生成产品 Pollo AI 获 1400 万美元融资](https://new.web.cafe/topic/r6zlurkmpn)
-[10] [2025-12-04 Next.js高危漏洞紧急修复，彪哥融资1400万，年终大赛启动](https://new.web.cafe/tutorial/detail/69f3z0pjlw)
-[11] [讲解程序化SEO生成海量页面获取流量的方式](https://new.web.cafe/tutorial/detail/wxk4cg0guh)
-[12] [哥飞的朋友们2024年终分享交流会办成了一场400+人参加的大会](https://mp.weixin.qq.com/s/syHyAOeEqNbyJU1AFDDHUA)
+[10] [2025-12-04 Next.js 高危漏洞紧急修复，彪哥融资 1400 万，年终大赛启动](https://new.web.cafe/tutorial/detail/69f3z0pjlw)
+[11] [讲解程序化 SEO 生成海量页面获取流量的方式](https://new.web.cafe/tutorial/detail/wxk4cg0guh)
+[12] [哥飞的朋友们 2024 年终分享交流会办成了一场 400+人参加的大会](https://mp.weixin.qq.com/s/syHyAOeEqNbyJU1AFDDHUA)
 [13] [阿彪（彪哥）- 创业如逆水行舟不进则退](https://new.web.cafe/tutorial/detail/atnpkbkl47)
 [14] [周而复始的得到更多关键词和网站](https://new.web.cafe/tutorial/detail/0gzs47lbh8)
 [15] [再聊基于精品工具页面思路，如何做精品工具站](https://new.web.cafe/tutorial/detail/za408lc1q9)
-[16] [【哥飞SEO教程】新站不批量上页面，那要怎么做页面呢？从对SEO祛魅开始！](https://mp.weixin.qq.com/s/F4Z3HmA25GJvUPeqUW3zXw)
-[17] [养网站防老第3步：根据搜索意图使用ChatGPT的GPT4生成网页](https://new.web.cafe/tutorial/detail/1uPD9vTKDDQCuUQ3MzFudT)
-[18] [【哥飞实操教学】如何用 ChatGPT O3 做出 SEO 友好的落地页?](https://mp.weixin.qq.com/s/G9F_jkl0MrKPSnhGqGqQcw)
+[16] [【哥飞 SEO 教程】新站不批量上页面，那要怎么做页面呢？从对 SEO 祛魅开始！](https://mp.weixin.qq.com/s/F4Z3HmA25GJvUPeqUW3zXw)
+[17] [养网站防老第 3 步：根据搜索意图使用 ChatGPT 的 GPT4 生成网页](https://new.web.cafe/tutorial/detail/1uPD9vTKDDQCuUQ3MzFudT)
+[18] [【哥飞实操教学】如何用 ChatGPT O3 做出 SEO 友好的落地页？](https://mp.weixin.qq.com/s/G9F_jkl0MrKPSnhGqGqQcw)

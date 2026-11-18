@@ -58,7 +58,7 @@ Channels
 
 
 
-## 01问题：Agent 和终端绑死了
+## 01 问题：Agent 和终端绑死了
 
 
 
@@ -70,7 +70,7 @@ Channels
 
     # agent.py 的 main()
 
-    q = input("你> ").strip()
+    q = input(“你> ").strip()
 
 
 
@@ -82,7 +82,7 @@ Channels
 
 
 
-一处是"收任务"，一处是"问确认"。只要这两处还是 
+一处是”收任务“，一处是”问确认“。只要这两处还是 
 `input()`
 ，Agent 就只能活在终端里。
 
@@ -100,7 +100,7 @@ Channels
 
 
 
-## 02思路：核心不动，只换输入输出
+## 02 思路：核心不动，只换输入输出
 
 
 
@@ -108,9 +108,9 @@ Channels
 
               ┌──────────── Agent 核心（不变）────────────┐
 
-     消息  →  │ Session: messages + perms + token 计数      │  →  回复
+     消息 → │ Session: messages + perms + token 计数 │ → 回复
 
-              │ run(): 循环 / 工具 / 权限 / 上下文 / 技能   │
+              │ run(): 循环 / 工具 / 权限 / 上下文 / 技能 │
 
               └─────────────────────────────────────────────┘
 
@@ -132,7 +132,7 @@ Channels
 
 
 
-需要提醒的是，国内网络访问 Telegram 需要你自行解决网络环境。如果你更常用飞书、企业微信或钉钉，它们都有各自的机器人接口，接入方式不同，但只要实现同样的"收、发、问"三件事，Agent 这边的代码不用改。
+需要提醒的是，国内网络访问 Telegram 需要你自行解决网络环境。如果你更常用飞书、企业微信或钉钉，它们都有各自的机器人接口，接入方式不同，但只要实现同样的”收、发、问“三件事，Agent 这边的代码不用改。
 
 
 
@@ -140,7 +140,7 @@ Channels
 
 
 
-## 03先重构：把会话状态收进 Session
+## 03 先重构：把会话状态收进 Session
 
 
 
@@ -156,7 +156,7 @@ Channels
 
 
 
-只有一个终端、一个会话的时候，这样没问题。接入聊天软件后，可能有好几个聊天同时存在，A 聊天的 token 数会决定 B 聊天要不要压缩。这是一个典型的"单用户时代的全局变量，多用户时代的 bug"。
+只有一个终端、一个会话的时候，这样没问题。接入聊天软件后，可能有好几个聊天同时存在，A 聊天的 token 数会决定 B 聊天要不要压缩。这是一个典型的”单用户时代的全局变量，多用户时代的 bug"。
 
 
 
@@ -168,7 +168,7 @@ Channels
 
     class Session:
 
-        """一个会话 = 一份 messages + 一个权限管理器 + 上一次的 token 数"""
+        ""“一个会话 = 一份 messages + 一个权限管理器 + 上一次的 token 数”""
 
 
 
@@ -182,7 +182,7 @@ Channels
 
             self.messages = saved or [{"role": "system", "content": ""}]
 
-            self.messages[0] = {"role": "system", "content": build_system()}  # 每次用最新的技能列表
+            self.messages[0] = {"role": "system", "content": build_system()} # 每次用最新的技能列表
 
             self.perms = PermissionManager(ask=ask)
 
@@ -200,7 +200,7 @@ Channels
 
 
 
-权限管理器也放进来了。第 3 课的"本次会话一直允许"记录在 
+权限管理器也放进来了。第 3 课的“本次会话一直允许”记录在 
 `perms.always_allowed`
  里，它本来就应该跟着会话走，而不是全局共享。
 
@@ -298,11 +298,11 @@ Channels
 
         client = make_client()
 
-        session = Session("default")       # ask 不传，默认还是终端确认
+        session = Session("default") # ask 不传，默认还是终端确认
 
         while True:
 
-            q = input("你> ").strip()
+            q = input(“你> ").strip()
 
             if q in ("exit", "quit"):
 
@@ -324,7 +324,7 @@ Channels
 
 
 
-## 04渠道：telegram.py
+## 04 渠道：telegram.py
 
 
 
@@ -338,7 +338,7 @@ Channels
 
 
 
-    MAX_LEN = 4000   # Telegram 单条上限 4096，留点余量
+    MAX_LEN = 4000 # Telegram 单条上限 4096，留点余量
 
 
 
@@ -354,7 +354,7 @@ Channels
 
             self.offset = 0
 
-            self.pending = []      # 等待确认期间收到的"别的消息"，稍后处理
+            self.pending = [] # 等待确认期间收到的”别的消息“，稍后处理
 
 
 
@@ -378,7 +378,7 @@ Channels
 
         def fetch(self, timeout=None):
 
-            """只拉新消息。返回 [(chat_id, user_id, text)]，只要私聊文本。"""
+            ""”只拉新消息。返回 [(chat_id, user_id, text)]，只要私聊文本。"""
 
             updates = self._call("getUpdates", offset=self.offset,
 
@@ -388,7 +388,7 @@ Channels
 
             for u in updates:
 
-                self.offset = u["update_id"] + 1     # 确认已收到，下次不再返回
+                self.offset = u["update_id"] + 1 # 确认已收到，下次不再返回
 
                 m = u.get("message")
 
@@ -402,7 +402,7 @@ Channels
 
         def poll(self, timeout=None):
 
-            """先交出积压的消息，没有积压再去拉新的。"""
+            ""“先交出积压的消息，没有积压再去拉新的。"""
 
             if self.pending:
 
@@ -436,11 +436,11 @@ Channels
 `timeout=30`
 ，如果没有新消息，服务器会把请求挂住最多 30 秒再返回，有消息则立即返回。所以这个循环不会空转。
 `offset`
- 设为"最后一条的 id + 1"，表示之前的都已收到，下次不再返回。
+ 设为”最后一条的 id + 1"，表示之前的都已收到，下次不再返回。
 
 
 
-**只处理私聊。** 群聊里有很多人，"谁在确认"会变得说不清。第一版先只做私聊。
+**只处理私聊。** 群聊里有很多人，“谁在确认”会变得说不清。第一版先只做私聊。
 
 
 
@@ -454,7 +454,7 @@ Channels
 `fetch`
  和 
 `poll`
- 分开。** 这是为下一节的"聊天里确认"准备的。
+ 分开。** 这是为下一节的“聊天里确认”准备的。
 
 
 
@@ -462,11 +462,11 @@ Channels
 
 
 
-## 05在聊天里确认：ask 的第二种实现
+## 05 在聊天里确认：ask 的第二种实现
 
 
 
-第 3 课的终端确认是"打印参数，等你输入"。聊天版本是"发一条消息，等你回复"：
+第 3 课的终端确认是“打印参数，等你输入”。聊天版本是“发一条消息，等你回复”：
 
 
 
@@ -480,11 +480,11 @@ Channels
 
             if name in REMEMBERABLE:
 
-                opts += " / a 本会话一直允许"
+                opts += " / a 本会话一直允许“
 
             channel.send(chat_id, f"⚠️ Agent 想执行：{name}\n{render_call(name, args)}\n\n"
 
-                                  f"回复 {opts}\n{wait} 秒内不回复视为拒绝。")
+                                  f”回复 {opts}\n{wait} 秒内不回复视为拒绝。")
 
             deadline = time.time() + wait
 
@@ -502,7 +502,7 @@ Channels
 
                     channel.pending.append((c, u, text))
 
-            return "n", "确认超时"
+            return "n", “确认超时”
 
         return ask
 
@@ -528,7 +528,7 @@ Channels
 
 
 
-**1\. 超时等于拒绝。** 你可能在开会、在睡觉。没有回复时，最安全的默认值是"不做"。这和第 3 课"非交互环境默认拒绝"是同一个原则。
+**1\. 超时等于拒绝。** 你可能在开会、在睡觉。没有回复时，最安全的默认值是“不做”。这和第 3 课“非交互环境默认拒绝”是同一个原则。
 
 
 
@@ -544,7 +544,7 @@ Channels
 
 
 
-**3\. 拒绝原因可以直接跟在 n 后面。** 回复"n 先列出来给我看"，原因会回传给模型，它会换一种做法。在手机上打字不方便，一条消息说完比两步交互顺手。
+**3\. 拒绝原因可以直接跟在 n 后面。** 回复“n 先列出来给我看”，原因会回传给模型，它会换一种做法。在手机上打字不方便，一条消息说完比两步交互顺手。
 
 
 
@@ -552,7 +552,7 @@ Channels
 
 
 
-## 06主程序：bot.py
+## 06 主程序：bot.py
 
 
 
@@ -604,7 +604,7 @@ Channels
 
             (SESSION_DIR / f"tg-{chat_id}.json").unlink(missing_ok=True)
 
-            tg.send(chat_id, "会话已重置。")
+            tg.send(chat_id, “会话已重置。")
 
             return
 
@@ -624,7 +624,7 @@ Channels
 
         except Exception as e:
 
-            s.messages[:] = backup          # 回滚，避免留下没有配对的 tool_calls
+            s.messages[:] = backup # 回滚，避免留下没有配对的 tool_calls
 
             reply = f"[出错，本轮已撤销] {type(e).__name__}: {e}"
 
@@ -640,7 +640,7 @@ Channels
 
         if not ALLOWED:
 
-            sys.exit("必须设置 TG_ALLOWED_USERS（逗号分隔的 Telegram 用户 ID），否则任何人都能操作你的电脑。")
+            sys.exit(”必须设置 TG_ALLOWED_USERS（逗号分隔的 Telegram 用户 ID），否则任何人都能操作你的电脑。")
 
         tg = Telegram(os.environ["TG_BOT_TOKEN"])
 
@@ -648,7 +648,7 @@ Channels
 
         sessions = {}
 
-        print("nami-agent 已启动")
+        print("nami-agent 已启动“)
 
         while True:
 
@@ -658,7 +658,7 @@ Channels
 
             except Exception as e:
 
-                print(f"[轮询出错] {e}，5 秒后重试")
+                print(f"[轮询出错] {e}，5 秒后重试”)
 
                 time.sleep(5)
 
@@ -706,11 +706,11 @@ Channels
 
 
 
-但只"接住异常"还不够。设想模型返回了两个 tool_calls，执行完第一个，第二次调用模型时网络断了。此时 messages 的末尾停在一个不完整的状态，下一次请求很可能被 API 拒绝，这个聊天就"坏掉"了。
+但只“接住异常”还不够。设想模型返回了两个 tool_calls，执行完第一个，第二次调用模型时网络断了。此时 messages 的末尾停在一个不完整的状态，下一次请求很可能被 API 拒绝，这个聊天就“坏掉”了。
 
 
 
-所以在运行前备份 messages，出错就整轮撤销。注意这只能撤销**对话记录** ，已经写入的文件、已经执行的命令不会被撤销。回复里写的是"本轮已撤销"，但你心里要清楚撤销的范围。
+所以在运行前备份 messages，出错就整轮撤销。注意这只能撤销**对话记录** ，已经写入的文件、已经执行的命令不会被撤销。回复里写的是“本轮已撤销”，但你心里要清楚撤销的范围。
 
 
 
@@ -718,7 +718,7 @@ Channels
 
 
 
-## 07安全：威胁模型变了
+## 07 安全：威胁模型变了
 
 
 
@@ -752,7 +752,7 @@ Channels
 
   4. **在手机上确认要更谨慎。** 屏幕小，人容易一扫而过。这正是第 3 课坚持 
 `run_shell`
- 每次都确认、且没有"一直允许"的原因。
+ 每次都确认、且没有“一直允许”的原因。
 
 
 
@@ -764,7 +764,7 @@ Channels
 
 
 
-## 08跑起来
+## 08 跑起来
 
 
 
@@ -788,9 +788,9 @@ Channels
 
     export API_KEY=你的模型密钥
 
-    export TG_BOT_TOKEN=你的机器人token
+    export TG_BOT_TOKEN=你的机器人 token
 
-    export TG_ALLOWED_USERS=你的用户ID
+    export TG_ALLOWED_USERS=你的用户 ID
 
     export NAMI_WORKSPACE=~/agent-workspace
 
@@ -802,7 +802,7 @@ Channels
 
 
 
-注意第2步要在启动 
+注意第 2 步要在启动 
 `bot.py`
  之前做。程序启动后会持续拉取消息，你在浏览器里就看不到了。
 
@@ -826,7 +826,7 @@ Channels
 
       路径：todo.md
 
-        - [ ] 写第7课
+        - [ ] 写第 7 课
 
         - [ ] 回复评论
 
@@ -848,7 +848,7 @@ Channels
 
 
 
-## 09验证
+## 09 验证
 
 
 
@@ -878,19 +878,19 @@ Channels
 
     def test_chat_ask_with_reason_and_buffer():
 
-        ch = FakeChannel([(1, 1, "顺便问个问题"), (2, 2, "别的人"), (1, 1, "n 先列出来")])
+        ch = FakeChannel([(1, 1, “顺便问个问题”), (2, 2, “别的人”), (1, 1, "n 先列出来“)])
 
         ask = make_chat_ask(ch, 1, wait=5)
 
-        assert ask("run_shell", {"command": "rm a"}) == ("n", "先列出来")
+        assert ask("run_shell", {"command": "rm a"}) == ("n", ”先列出来“)
 
         # 不是确认回复的消息都被留下来，没有丢、也没有被当成确认
 
-        assert ch.pending == [(1, 1, "顺便问个问题"), (2, 2, "别的人")]
+        assert ch.pending == [(1, 1, ”顺便问个问题“), (2, 2, ”别的人“)]
 
-        # run_shell 不提供"一直允许"
+        # run_shell 不提供”一直允许“
 
-        assert "a 本会话一直允许" not in ch.sent[0][1]
+        assert "a 本会话一直允许” not in ch.sent[0][1]
 
 
 
@@ -900,13 +900,13 @@ Channels
 
         ask = make_chat_ask(FakeChannel(), 1, wait=1)
 
-        assert ask("run_shell", {"command": "ls"}) == ("n", "确认超时")
+        assert ask("run_shell", {"command": "ls"}) == ("n", “确认超时”)
 
 
 
 
 
-再加一个测试，用一个"第二次调用就断网"的假模型客户端，验证白名单和回滚：非白名单用户发消息后 
+再加一个测试，用一个“第二次调用就断网”的假模型客户端，验证白名单和回滚：非白名单用户发消息后 
 `sent`
  为空、也不创建会话；断网后会话的 messages 回到只有 system 的状态。完整代码在配套代码的 
 `tests/test_bot.py`
@@ -918,13 +918,13 @@ Channels
 
 
 
-## 10这一版的局限
+## 10 这一版的局限
 
 
 
   1. **单线程，一次只做一件事。** 一个任务跑十几步时，其他消息都在排队。等你确认的那两分钟里，整个机器人都在等。
 
-  2. **消息是"最多处理一次"。** 
+  2. **消息是“最多处理一次”。** 
 `offset`
  在处理之前就已更新。如果处理到一半程序被杀掉，这条消息不会被重新拉取，等于丢了。
 
@@ -936,7 +936,7 @@ Channels
 
 
 
-第1条是最影响体验的。解决它需要引入并发，而并发会带来"同一个会话被两个任务同时修改"的新问题。对个人助手来说，单线程的简单和可预期，目前比速度更重要。
+第 1 条是最影响体验的。解决它需要引入并发，而并发会带来“同一个会话被两个任务同时修改”的新问题。对个人助手来说，单线程的简单和可预期，目前比速度更重要。
 
 
 
@@ -944,17 +944,17 @@ Channels
 
 
 
-## 11主流 Agent 怎么做
+## 11 主流 Agent 怎么做
 
 
 
-"Agent 住进聊天软件"是今年个人助手赛道的主线，几家的做法差别很大。
+"Agent 住进聊天软件“是今年个人助手赛道的主线，几家的做法差别很大。
 
 
 
 **OpenClaw：网关优先。** 它的核心不是循环，而是一个网关（gateway）：管理各个聊天渠道的消息路由、会话归属和投递。我们的 
 `bot.py`
- 就是一个只支持 Telegram、只支持私聊的最小网关。OpenClaw 今年初走红，后来连续出现安全问题和稳定性问题，热度明显回落，但"网关 + 渠道"这个结构被后来者继承了下来。
+ 就是一个只支持 Telegram、只支持私聊的最小网关。OpenClaw 今年初走红，后来连续出现安全问题和稳定性问题，热度明显回落，但”网关 + 渠道“这个结构被后来者继承了下来。
 
 
 
@@ -974,7 +974,7 @@ Channels
 
 
 
-## 12本课小结
+## 12 本课小结
 
 
 

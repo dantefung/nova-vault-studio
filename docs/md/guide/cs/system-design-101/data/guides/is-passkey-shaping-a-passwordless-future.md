@@ -19,13 +19,13 @@ Passkey, also backed by Apple and Microsoft, is claimed to be a significantly **
 
 ## How PassKeys Work
 
-*   **Step 1 - Create PassKeys**
+* **Step 1 - Create PassKeys**
 
     The end-user needs to confirm the account information and present their credentials (face ID, touch ID, etc.).
 
     A private key is generated based on the public key provided by the website. The private key is stored on the device.
 
-*   **Step 2 - Sign in with PassKeys on devices**
+* **Step 2 - Sign in with PassKeys on devices**
 
     When the user tries to sign in to a website, they use the generated private key. Just select the account information and present the credentials to unlock the private key.
 

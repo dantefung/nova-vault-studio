@@ -17,9 +17,9 @@ The cheat sheet briefly explains each pattern and how to use it.
 
 What's included?
 
-*   Factory
-*   Builder
-*   Prototype
-*   Singleton
-*   Chain of Responsibility
-*   And many more!
+* Factory
+* Builder
+* Prototype
+* Singleton
+* Chain of Responsibility
+* And many more!

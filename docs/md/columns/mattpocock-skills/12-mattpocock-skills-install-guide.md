@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/xxxxxxxxxxxx"
 
 # Matt Pocock Skills 安装与使用指南
 
-Matt Pocock 的技能包是 GitHub 上最火的 Claude Code / Codex 技能集合之一，75K star。与大多数 Agent 技能不同，这套技能不追求"酷炫"，而是把经典的工程原则（调试、TDD、PRD、代码审查）拆解成 AI 可执行的精确指令。
+Matt Pocock 的技能包是 GitHub 上最火的 Claude Code / Codex 技能集合之一，75K star。与大多数 Agent 技能不同，这套技能不追求“酷炫”，而是把经典的工程原则（调试、TDD、PRD、代码审查）拆解成 AI 可执行的精确指令。
 
 本文记录完整的安装过程、所有技能分类与用法，以及下一步配置建议。
 

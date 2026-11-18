@@ -17,20 +17,20 @@ The answer will vary depending on your use case. Data can be indexed in memory o
 
 The following are some of the most popular data structures used for indexing data:
 
-*   **Skiplist:** a common in-memory index type. Used in Redis
+* **Skiplist:** a common in-memory index type. Used in Redis
 
-*   **Hash index:** a very common implementation of the “Map” data structure (or “Collection”)
+* **Hash index:** a very common implementation of the “Map” data structure (or “Collection”)
 
-*   **SSTable:** immutable on-disk “Map” implementation
+* **SSTable:** immutable on-disk “Map” implementation
 
-*   **LSM tree:** Skiplist + SSTable. High write throughput
+* **LSM tree:** Skiplist + SSTable. High write throughput
 
-*   **B-tree:** disk-based solution. Consistent read/write performance
+* **B-tree:** disk-based solution. Consistent read/write performance
 
-*   **Inverted index:** used for document indexing. Used in Lucene
+* **Inverted index:** used for document indexing. Used in Lucene
 
-*   **Suffix tree:** for string pattern search
+* **Suffix tree:** for string pattern search
 
-*   **R-tree:** multi-dimension search, such as finding the nearest neighbor
+* **R-tree:** multi-dimension search, such as finding the nearest neighbor
 
 This is not an exhaustive list of all database index types.

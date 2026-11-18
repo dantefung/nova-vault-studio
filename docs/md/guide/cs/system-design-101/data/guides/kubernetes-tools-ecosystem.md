@@ -19,9 +19,9 @@ Kubernetes practitioners need to be well-versed in these tools to ensure the rel
 
 To introduce a holistic view of the Kubernetes ecosystem, we've created an illustration covering the aspects of:
 
-*   Security
-*   Networking
-*   Container Runtime
-*   Cluster Management
-*   Monitoring and Observability
-*   Infrastructure Orchestration
+* Security
+* Networking
+* Container Runtime
+* Cluster Management
+* Monitoring and Observability
+* Infrastructure Orchestration

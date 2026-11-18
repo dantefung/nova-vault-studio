@@ -74,7 +74,7 @@ url: "https://new.web.cafe/tutorial/detail/aucjab67rxKvyoJudKV4oM"
 |
 ![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_007.webp)
 |
-|  |
+| |
 
 可以看到，增加了“Home”即首页的导航链接，另外还给每个导航链接增加了背景色和圆角。
 
@@ -100,7 +100,7 @@ html 代码如下：
 |
 ![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_009.webp)
 |
-|  |
+| |
 
 页头整体背景改成了白色，并且让页头宽度等于网页宽度，还修改了 logo 和导航位置，不再居中布局，而是改为左对齐布局。
 
@@ -125,7 +125,7 @@ html 代码如下：
 |
 ![image.png](images/gefei-age-proof-site-step-4-adjust-layout/img_011.webp)
 |
-|  |  |
+| | |
 
 默认按钮颜色不再用色块，而是改为了白色背景色，增加了按钮的边框颜色。
 
@@ -168,7 +168,7 @@ html 代码保持不变：
     | --- | --- | --- |
     | **HTML** | `<h1 class="logo">手机号生成器</h1>` | `<div class="logo">手机号生成器</div>` |
     | **CSS** | `.logo{背景黑; 颜色白; padding:0 8px; 圆角 6px;}` | 同上（内页去掉 h1 默认样式：`font-style:normal`） |
-    | ✅ **效果**：黑底白字圆角，比默认文字更专业，适合快速上线。 |  |  |
+    | ✅ **效果**：黑底白字圆角，比默认文字更专业，适合快速上线。 | | |
 
     **👉 改导航栏：让用户和搜索引擎都看懂**
 
@@ -182,9 +182,9 @@ html 代码保持不变：
 
     **👉 改页头：左对齐比居中更实用**
 
-    1.  **删掉居中代码**：去掉原`text-align:center`
-    2.  **固定宽度**：给`header nav`加`max-width:1000px; margin:0 auto;`
-    3.  **效果**：Logo 和导航左对齐，适配手机端不拥挤。
+    1. **删掉居中代码**：去掉原`text-align:center`
+    2. **固定宽度**：给`header nav`加`max-width:1000px; margin:0 auto;`
+    3. **效果**：Logo 和导航左对齐，适配手机端不拥挤。
 
     **👉 改按钮：降低花哨感，突出功能**
 

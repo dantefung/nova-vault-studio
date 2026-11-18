@@ -15,13 +15,13 @@ tags:
 
 The ELK Stack is composed of three open-source products. ELK stands for Elasticsearch, Logstash, and Kibana.
 
-*   Elasticsearch is a full-text search and analysis engine, leveraging Apache Lucene search engine as its core component.
+* Elasticsearch is a full-text search and analysis engine, leveraging Apache Lucene search engine as its core component.
 
-*   Logstash collects data from all kinds of edge collectors, then transforms that data and sends it to various destinations for further processing or visualization.
+* Logstash collects data from all kinds of edge collectors, then transforms that data and sends it to various destinations for further processing or visualization.
 
 In order to scale the edge data ingestion, a new product Beats is later developed as lightweight agents installed on edge hosts to collect and ship logs to Logstash.
 
-*   Kibana is a visualization layer with which users analyze and visualize the data.
+* Kibana is a visualization layer with which users analyze and visualize the data.
 
 The diagram above shows how ELK Stack works:
 

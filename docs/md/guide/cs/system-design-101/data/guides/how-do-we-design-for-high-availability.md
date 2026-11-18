@@ -25,12 +25,12 @@ The diagram below shows how we can turn a single-node “Product Inventory” in
 
 ## High Availability Architectures
 
-*   **Primary-Backup:** the backup node is just a stand-by, and the data is replicated from primary to backup. When the primary fails, we need to manually switch to the backup node.
+* **Primary-Backup:** the backup node is just a stand-by, and the data is replicated from primary to backup. When the primary fails, we need to manually switch to the backup node.
 
     The backup node might be a waste of hardware resources.
 
-*   **Primary-Secondary:** this architecture looks similar to primary-backup architecture, but the secondary node can take read requests to balance the reading load. Due to latency when replicating data from primary to secondary, the data read from the secondary may be inconsistent with the primary.
+* **Primary-Secondary:** this architecture looks similar to primary-backup architecture, but the secondary node can take read requests to balance the reading load. Due to latency when replicating data from primary to secondary, the data read from the secondary may be inconsistent with the primary.
 
-*   **Primary-Primary:** both nodes act as primary nodes, both nodes can handle read/write operations, and the data is replicated between the two nodes. This type of architecture increases the throughput, but it has limited use cases. For example, if both nodes need to update the same product, the final state might be unpredictable. Use this architecture with caution!
+* **Primary-Primary:** both nodes act as primary nodes, both nodes can handle read/write operations, and the data is replicated between the two nodes. This type of architecture increases the throughput, but it has limited use cases. For example, if both nodes need to update the same product, the final state might be unpredictable. Use this architecture with caution!
 
     If we deploy the node on Amazon EC2, which has 90% availability, the double-node architecture will increase availability from 90% to 99%.

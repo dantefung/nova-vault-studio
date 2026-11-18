@@ -3,13 +3,13 @@ title: "AI API Integration（AI API集成模式）"
 date: "2026-06-11"
 ---
 
-# AI API Integration（AI API集成模式）
+# AI API Integration（AI API 集成模式）
 
 > 普通人做 AI 出海，最重要的能力是知道去哪里找现成的 API 能力，并把这个能力变成产品。
 
 ## Key Points
 
-- **核心公式**：普通人做 AI 产品 3 步骤 = 了解AI能力边界 → 找对应API → 把API文档交给AI编程工具
+- **核心公式**：普通人做 AI 产品 3 步骤 = 了解 AI 能力边界 → 找对应 API → 把 API 文档交给 AI 编程工具
 - **API 即加速器**：每一个 API 都是普通人的一个加速器，组合 API 就能做出出海产品
 - **语言类首选 Openrouter**：Gemini 2.5 Flash Lite 性价比最高
 - **图片类首选 kie.ai**：价格友好，模型更新快
@@ -37,7 +37,7 @@ date: "2026-06-11"
 
 | 平台 | 特点 |
 |------|------|
-| photoroom.com | 图片去背景效果极佳，电商抠图神器（0.02美金/张） |
+| photoroom.com | 图片去背景效果极佳，电商抠图神器（0.02 美金/张） |
 | mapbox.com | 地图 API，可缩放地球，类似谷歌地图 |
 
 ## 关键洞察
@@ -54,9 +54,9 @@ date: "2026-06-11"
 
 ## Related Pages
 
-- [patterns/ai-product-seo-launch](patterns/ai-product-seo-launch) — AI产品SEO冷启动
-- [patterns/ai-wealth-creation](patterns/ai-wealth-creation) — AI时代造富模式
+- [patterns/ai-product-seo-launch](patterns/ai-product-seo-launch) — AI 产品 SEO 冷启动
+- [patterns/ai-wealth-creation](patterns/ai-wealth-creation) — AI 时代造富模式
 
 ## Sources
 
-- 微信公众号《出海产品从0到1：我常用的9个API平台》(2026-06-11)
+- 微信公众号《出海产品从 0 到 1：我常用的 9 个 API 平台》(2026-06-11)

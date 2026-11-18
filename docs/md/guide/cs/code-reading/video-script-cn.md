@@ -42,7 +42,7 @@ title: 解锁代码阅读：从新手到高手的进阶之路
 
 **安装 debugger 并确保其可用**：调试器是理解代码运行过程和排查问题的重要工具。安装与 IDE 或编辑器兼容的调试器，并进行必要的配置，确保在阅读代码时能够方便地进行调试操作，如设置断点、单步执行、查看变量值等。
 
-以 Bat 这个 Rust 项目为例，准备环境的具体操作如下：首先，通过 Git 命令将 Bat 项目的代码克隆到本地：`git clone ``https://github.com/sharkdp/bat.git`。接着，使用Rustup安装 Rust 语言相关的工具, 譬如`rustc`和`cargo`。然后，打开支持 Rust 开发的 IDE，如 Visual Studio Code，并安装 Rust 插件，以获得代码高亮、语法检查和智能提示等功能。最后，确保调试器CodeLLDB已正确安装和配置，为后续调试代码做好准备。
+以 Bat 这个 Rust 项目为例，准备环境的具体操作如下：首先，通过 Git 命令将 Bat 项目的代码克隆到本地：`git clone ``https://github.com/sharkdp/bat.git`。接着，使用 Rustup 安装 Rust 语言相关的工具，譬如`rustc`和`cargo`。然后，打开支持 Rust 开发的 IDE，如 Visual Studio Code，并安装 Rust 插件，以获得代码高亮、语法检查和智能提示等功能。最后，确保调试器 CodeLLDB 已正确安装和配置，为后续调试代码做好准备。
 
 ### 运行代码
 

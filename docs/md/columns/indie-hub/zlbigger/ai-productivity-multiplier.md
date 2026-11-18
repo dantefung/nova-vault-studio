@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 
 # AI as Productivity Multiplier
 
-核心不是"网站"而是"利用 AI"——AI 是每月 10-20 美金的高级打工仔，帮你替换工作流中任何一个环节。
+核心不是“网站”而是“利用 AI"——AI 是每月 10-20 美金的高级打工仔，帮你替换工作流中任何一个环节。
 
 > 参考：zlbigger《关于〈利用 AI 做个网站养老〉的补充》
 
@@ -27,7 +27,7 @@ url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 
 ### 更快验证，更快失败
 
-- 门槛低、成本低，直接上手"实现"想法
+- 门槛低、成本低，直接上手”实现“想法
 - 快速验证产品是否受欢迎
 - 不行就换，举手之劳
 
@@ -62,8 +62,8 @@ url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 
 ## 好 Prompt vs 坏 Prompt
 
-- **坏 Prompt**："写篇文章"
-- **好 Prompt**："以俞军产品方法论为主题，用商业顾问视角，写3000字深度长文，逻辑清晰案例丰富，附可操作框架图，目标读者是中高级产品经理和创业者"
+- **坏 Prompt**：”写篇文章“
+- **好 Prompt**：”以俞军产品方法论为主题，用商业顾问视角，写 3000 字深度长文，逻辑清晰案例丰富，附可操作框架图，目标读者是中高级产品经理和创业者“
 
 ## 俞军产品公式
 
@@ -71,7 +71,7 @@ url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 
 | 场景 | 传统 | AI |
 |------|------|-----|
-| 写文章 | 2小时 | 5分钟 |
+| 写文章 | 2 小时 | 5 分钟 |
 | 内容个性化 | 难 | 轻松 |
 | 多语言创作 | 成本高 | 几乎免费 |
 
@@ -79,7 +79,7 @@ url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 
 > 保留好奇心和好点子，早动手，找到 AI 时代的大机会。
 
-> Prompt 是 AI 应用的"密钥"，决定输出质量和创造性上限。
+> Prompt 是 AI 应用的”密钥“，决定输出质量和创造性上限。
 
 ## 相关
 

@@ -6,9 +6,9 @@
 在 Debian 13 使用 Wayland + fcitx5 输入法时，JetBrains 系列 IDE（如
 IntelliJ IDEA）经常出现：
 
--   无法切换输入法
--   中文候选框不显示
--   输入卡顿 / 光标异常
+- 无法切换输入法
+- 中文候选框不显示
+- 输入卡顿 / 光标异常
 
 本质原因：
 
@@ -18,7 +18,7 @@ IntelliJ IDEA）经常出现：
 
 ## 二、推荐解决方案（按优先级）
 
-### ✅ 方案1：启动时注入环境变量（推荐）
+### ✅ 方案 1：启动时注入环境变量（推荐）
 
 ``` bash
 env GTK_IM_MODULE=fcitx \
@@ -30,7 +30,7 @@ env GTK_IM_MODULE=fcitx \
 
 ------------------------------------------------------------------------
 
-### ✅ 方案2：配置 JVM 参数
+### ✅ 方案 2：配置 JVM 参数
 
 编辑：
 
@@ -47,7 +47,7 @@ env GTK_IM_MODULE=fcitx \
 
 ------------------------------------------------------------------------
 
-### ✅ 方案3：安装 fcitx5 依赖
+### ✅ 方案 3：安装 fcitx5 依赖
 
 ``` bash
 sudo apt install fcitx5 fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
@@ -55,8 +55,8 @@ sudo apt install fcitx5 fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
 
 关键组件：
 
--   fcitx5-qt（IDEA 必需）
--   fcitx5-gtk（候选框显示）
+- fcitx5-qt（IDEA 必需）
+- fcitx5-gtk（候选框显示）
 
 ------------------------------------------------------------------------
 
@@ -86,9 +86,9 @@ sudo apt install fcitx5 fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
 
 优点：
 
--   输入法完全正常
--   JetBrains 官方推荐路径
--   无奇怪兼容问题
+- 输入法完全正常
+- JetBrains 官方推荐路径
+- 无奇怪兼容问题
 
 ------------------------------------------------------------------------
 
@@ -96,9 +96,9 @@ sudo apt install fcitx5 fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
 
 Wayland 当前在开发工具链中仍存在问题，尤其是：
 
--   Java IDE（IDEA / Android Studio）
--   输入法
--   屏幕工具
+- Java IDE（IDEA / Android Studio）
+- 输入法
+- 屏幕工具
 
 👉 如果你是开发者，建议主力环境使用 X11
 
@@ -106,10 +106,10 @@ Wayland 当前在开发工具链中仍存在问题，尤其是：
 
 ## 六、总结
 
-  方案              稳定性
+  方案 稳定性
   ----------------- ------------
-  Wayland + tweak   ⭐⭐⭐
-  X11 + fcitx5      ⭐⭐⭐⭐⭐
+  Wayland + tweak ⭐⭐⭐
+  X11 + fcitx5 ⭐⭐⭐⭐⭐
 
 推荐：
 

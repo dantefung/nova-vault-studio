@@ -28,7 +28,7 @@ RMSNorm
 
 
 
-> 学完 GPT-2 之后，第一个要换的零件：LayerNorm → RMSNorm。 一页纸就能手算完，适合作为"进阶篇「从 GPT-2 到 LLaMA」"的开篇。
+> 学完 GPT-2 之后，第一个要换的零件：LayerNorm → RMSNorm。 一页纸就能手算完，适合作为“进阶篇「从 GPT-2 到 LLaMA」”的开篇。
 
 
 
@@ -36,7 +36,7 @@ RMSNorm
 
 
 
-## 01为什么先看归一化
+## 01 为什么先看归一化
 
 
 
@@ -56,7 +56,7 @@ GPT-2 和今天主流的大模型，主体结构其实是同一个东西：一�
 
 
 
-第一个零件选归一化。原因很简单：它最小，改动最少，是上手"零件替换"最好的练习。
+第一个零件选归一化。原因很简单：它最小，改动最少，是上手“零件替换”最好的练习。
 
 
 
@@ -68,7 +68,7 @@ GPT-2 和今天主流的大模型，主体结构其实是同一个东西：一�
 
 
 
-## 02先回顾：LayerNorm 做了什么
+## 02 先回顾：LayerNorm 做了什么
 
 
 
@@ -76,7 +76,7 @@ GPT-2 和今天主流的大模型，主体结构其实是同一个东西：一�
 
 
 
-μ=1d∑i=1dxiσ2=1d∑i=1d(xi−μ)2 \mu = \frac{1}{d}\sum_{i=1}^{d} x_i \qquad \sigma^2 = \frac{1}{d}\sum_{i=1}^{d} (x_i - \mu)^2  LayerNorm(x)i=xi−μσ2+ϵ⋅γi+βi \text{LayerNorm}(x)_i = \frac{x_i - \mu}{\sqrt{\sigma^2 + \epsilon}} \cdot \gamma_i + \beta_i
+μ=1d∑i=1dxiσ2=1d∑i=1d(xi−μ)2 \mu = \frac{1}{d}\sum_{i=1}^{d} x_i \qquad \sigma^2 = \frac{1}{d}\sum_{i=1}^{d} (x_i - \mu)^2 LayerNorm(x)i=xi−μσ2+ϵ⋅γi+βi \text{LayerNorm}(x)_i = \frac{x_i - \mu}{\sqrt{\sigma^2 + \epsilon}} \cdot \gamma_i + \beta_i
 
 
 
@@ -86,7 +86,7 @@ GPT-2 和今天主流的大模型，主体结构其实是同一个东西：一�
 
   * **平移（re-centering）** ：减去均值 μ\mu，让向量以 0 为中心
 
-  * **缩放（re-scaling）** ：除以标准差，让向量的"大小"统一
+  * **缩放（re-scaling）** ：除以标准差，让向量的“大小”统一
 
 
 
@@ -98,7 +98,7 @@ GPT-2 和今天主流的大模型，主体结构其实是同一个东西：一�
 
 
 
-## 03问题：两件事都有必要吗？
+## 03 问题：两件事都有必要吗？
 
 
 
@@ -114,7 +114,7 @@ RMSNorm 这篇论文（Zhang & Sennrich, 2019）提出的假设是：
 
 
 
-需要说明的是，这是一个**经验性的发现** ，论文是通过实验验证"去掉平移后效果相近、计算更省"，并不是严格的数学证明。它之所以被广泛采用，是因为后来很多大模型实际用起来效果没有变差。
+需要说明的是，这是一个**经验性的发现** ，论文是通过实验验证“去掉平移后效果相近、计算更省”，并不是严格的数学证明。它之所以被广泛采用，是因为后来很多大模型实际用起来效果没有变差。
 
 
 
@@ -126,11 +126,11 @@ RMSNorm 这篇论文（Zhang & Sennrich, 2019）提出的假设是：
 
 
 
-只保留缩放，而且缩放的基准从"标准差"换成"均方根（Root Mean Square）"：
+只保留缩放，而且缩放的基准从“标准差”换成“均方根（Root Mean Square）"：
 
 
 
-RMS(x)=1d∑i=1dxi2+ϵ \text{RMS}(x) = \sqrt{\frac{1}{d}\sum_{i=1}^{d} x_i^2 + \epsilon}  RMSNorm(x)i=xiRMS(x)⋅γi \text{RMSNorm}(x)_i = \frac{x_i}{\text{RMS}(x)} \cdot \gamma_i
+RMS(x)=1d∑i=1dxi2+ϵ \text{RMS}(x) = \sqrt{\frac{1}{d}\sum_{i=1}^{d} x_i^2 + \epsilon} RMSNorm(x)i=xiRMS(x)⋅γi \text{RMSNorm}(x)_i = \frac{x_i}{\text{RMS}(x)} \cdot \gamma_i
 
 
 
@@ -158,19 +158,19 @@ RMS(x)=1d∑i=1dxi2+ϵ \text{RMS}(x) = \sqrt{\frac{1}{d}\sum_{i=1}^{d} x_i^2 + \
 
 
 
-    x            : (1, 3, 4)
+    x : (1, 3, 4)
 
-    x²           : (1, 3, 4)
+    x² : (1, 3, 4)
 
-    mean(x²)     : (1, 3, 1)   ← 沿最后一维求平均，keepdim
+    mean(x²) : (1, 3, 1) ← 沿最后一维求平均，keepdim
 
-    RMS(x)       : (1, 3, 1)
+    RMS(x) : (1, 3, 1)
 
-    x / RMS(x)   : (1, 3, 4)   ← 广播
+    x / RMS(x) : (1, 3, 4) ← 广播
 
-    γ            : (4,)
+    γ : (4,)
 
-    输出          : (1, 3, 4)
+    输出 : (1, 3, 4)
 
 
 
@@ -180,7 +180,7 @@ RMS(x)=1d∑i=1dxi2+ϵ \text{RMS}(x) = \sqrt{\frac{1}{d}\sum_{i=1}^{d} x_i^2 + \
 
 
 
-## 05纸上手算：猫吃鱼
+## 05 纸上手算：猫吃鱼
 
 
 
@@ -192,11 +192,11 @@ RMS(x)=1d∑i=1dxi2+ϵ \text{RMS}(x) = \sqrt{\frac{1}{d}\sum_{i=1}^{d} x_i^2 + \
 
 
 
-    猫 = [ 1,  2,  3,  4]
+    猫 = [ 1, 2, 3, 4]
 
-    吃 = [ 2,  0, -2,  4]
+    吃 = [ 2, 0, -2, 4]
 
-    鱼 = [-1,  1, -1,  1]
+    鱼 = [-1, 1, -1, 1]
 
 
 
@@ -322,7 +322,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-这也是为什么"去掉平移"有可能行得通：很多时候平移这一步贡献有限。
+这也是为什么”去掉平移“有可能行得通：很多时候平移这一步贡献有限。
 
 
 
@@ -330,7 +330,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-## 06一点几何直观
+## 06 一点几何直观
 
 
 
@@ -348,7 +348,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
   * **RMSNorm** ：把向量缩放到半径为 d\sqrt{d} 的球面上。
 
-  * **LayerNorm** ：先把向量投影到"各分量之和为 0"的超平面上（这就是减均值），再缩放到同一个球面。
+  * **LayerNorm** ：先把向量投影到”各分量之和为 0“的超平面上（这就是减均值），再缩放到同一个球面。
 
 
 
@@ -360,7 +360,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-## 07类比：调音量
+## 07 类比：调音量
 
 
 
@@ -370,11 +370,11 @@ token | 原向量 | LayerNorm | RMSNorm
 
   * **RMSNorm** ：只调音量，把响度统一到同一档，声音的波形不变。
 
-  * **LayerNorm** ：除了调音量，还把声音整体的"直流偏置"（整体偏高或偏低的部分）也去掉。
+  * **LayerNorm** ：除了调音量，还把声音整体的”直流偏置“（整体偏高或偏低的部分）也去掉。
 
 
 
-多数时候，直流偏置对"听起来是什么"影响不大，所以只调音量也够用，而且更省事。
+多数时候，直流偏置对”听起来是什么“影响不大，所以只调音量也够用，而且更省事。
 
 
 
@@ -404,7 +404,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
             self.eps = eps
 
-            self.weight = nn.Parameter(torch.ones(d_model))  # γ，没有 β
+            self.weight = nn.Parameter(torch.ones(d_model)) # γ，没有 β
 
 
 
@@ -412,11 +412,11 @@ token | 原向量 | LayerNorm | RMSNorm
 
             # x: (batch, seq_len, d_model)
 
-            mean_sq = x.pow(2).mean(dim=-1, keepdim=True)    # (batch, seq_len, 1)
+            mean_sq = x.pow(2).mean(dim=-1, keepdim=True) # (batch, seq_len, 1)
 
-            rms = torch.sqrt(mean_sq + self.eps)             # (batch, seq_len, 1)
+            rms = torch.sqrt(mean_sq + self.eps) # (batch, seq_len, 1)
 
-            return x / rms * self.weight                     # (batch, seq_len, d_model)
+            return x / rms * self.weight # (batch, seq_len, d_model)
 
 
 
@@ -428,11 +428,11 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-    x = torch.tensor([[[ 1.,  2.,  3., 4.],
+    x = torch.tensor([[[ 1., 2., 3., 4.],
 
-                       [ 2.,  0., -2., 4.],
+                       [ 2., 0., -2., 4.],
 
-                       [-1.,  1., -1., 1.]]])   # (1, 3, 4)
+                       [-1., 1., -1., 1.]]]) # (1, 3, 4)
 
 
 
@@ -450,11 +450,11 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-    [[[ 0.3651,  0.7303,  1.0954,  1.4606],
+    [[[ 0.3651, 0.7303, 1.0954, 1.4606],
 
-      [ 0.8165,  0.0000, -0.8165,  1.6330],
+      [ 0.8165, 0.0000, -0.8165, 1.6330],
 
-      [-1.0000,  1.0000, -1.0000,  1.0000]]]
+      [-1.0000, 1.0000, -1.0000, 1.0000]]]
 
 
 
@@ -484,7 +484,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-## 09小结
+## 09 小结
 
 
 
@@ -502,7 +502,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-一句话总结：**RMSNorm 就是 LayerNorm 去掉"减均值"和 β，只保留缩放。**
+一句话总结：**RMSNorm 就是 LayerNorm 去掉”减均值“和 β，只保留缩放。**
 
 
 
@@ -510,11 +510,11 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-## 10延伸阅读
+## 10 延伸阅读
 
 
 
-  * Zhang & Sennrich, _Root Mean Square Layer Normalization_ （2019）：RMSNorm 原论文，关于"平移不重要"的假设和实验结果，以原文为准。
+  * Zhang & Sennrich, _Root Mean Square Layer Normalization_ （2019）：RMSNorm 原论文，关于”平移不重要“的假设和实验结果，以原文为准。
 
   * Touvron 等， _LLaMA_ （2023）：把 RMSNorm、SwiGLU、RoPE 合到一起用的代表。
 

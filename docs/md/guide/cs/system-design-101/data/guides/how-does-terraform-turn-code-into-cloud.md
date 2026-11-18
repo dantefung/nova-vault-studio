@@ -17,11 +17,11 @@ There are multiple stages in a Terraform workflow:
 
 ## Write Infrastructure as Code
 
-*   Define resources, providers, and configurations in Terraform configuration files.
+* Define resources, providers, and configurations in Terraform configuration files.
 
-*   Use variables, modules, and functions to make the code reusable and maintainable.
+* Use variables, modules, and functions to make the code reusable and maintainable.
 
-*   Integrate with Terraform community registries for ready-to-use modules.
+* Integrate with Terraform community registries for ready-to-use modules.
 
 ## Terraform Plan
 

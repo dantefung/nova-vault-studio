@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/Yia6XDvAkw8ygjRXFmPmgg"
 
 ## 核心问题
 
-团队需求评审聊清楚了，但第二天新 Agent 进仓库，看见四个名字都说得通的文件，没人能回答"Order 到底是哪一个"。
+团队需求评审聊清楚了，但第二天新 Agent 进仓库，看见四个名字都说得通的文件，没人能回答“Order 到底是哪一个”。
 
 ## 两个原语
 
@@ -22,10 +22,10 @@ url: "https://mp.weixin.qq.com/s/Yia6XDvAkw8ygjRXFmPmgg"
 
 | Skill | 触发方式 | 是否落文件 | 何时用 |
 |-------|----------|------------|--------|
-| grilling | 模型自动调（被其他skill复用） | 否 | 需要一次次追问澄清的场景 |
+| grilling | 模型自动调（被其他 skill 复用） | 否 | 需要一次次追问澄清的场景 |
 | grill-me | 用户主动调 | 否 | 没代码库的纯讨论/写文前置 |
 | grill-with-docs | 用户主动调 | 是（CONTEXT.md/ADR） | 有代码库的真实工程 |
-| domain-modeling | 模型自动调（被其他skill驱动） | 是 | 维护 glossary + 提议 ADR |
+| domain-modeling | 模型自动调（被其他 skill 驱动） | 是 | 维护 glossary + 提议 ADR |
 
 ## CONTEXT.md vs ADR
 
@@ -52,13 +52,13 @@ url: "https://mp.weixin.qq.com/s/Yia6XDvAkw8ygjRXFmPmgg"
 3. **把 CONTEXT.md 写成 spec**：放 schema、API、状态机表进去——它是 glossary only
 4. **文档与代码漂移**：代码改了术语但 glossary 没改，grill-with-docs 会读出不一致
 
-## 最小落地清单（30分钟）
+## 最小落地清单（30 分钟）
 
-1. **0-5分钟**：确认是否有 CONTEXT.md、团队最近对齐了哪些词、有无满足 ADR 三条门槛的决定
-2. **5-20分钟**：挑一个反复出现的术语，开 grilling，产出 3-5 个 CONTEXT.md 条目
-3. **20-30分钟**：把候选决定过 ADR 三条门槛，照格式写出来
+1. **0-5 分钟**：确认是否有 CONTEXT.md、团队最近对齐了哪些词、有无满足 ADR 三条门槛的决定
+2. **5-20 分钟**：挑一个反复出现的术语，开 grilling，产出 3-5 个 CONTEXT.md 条目
+3. **20-30 分钟**：把候选决定过 ADR 三条门槛，照格式写出来
 
-**30天后review**：ADR 是被 supersede 还是被代码遗忘但仍有效
+**30 天后 review**：ADR 是被 supersede 还是被代码遗忘但仍有效
 
 ## 核心观点
 
@@ -84,4 +84,4 @@ url: "https://mp.weixin.qq.com/s/Yia6XDvAkw8ygjRXFmPmgg"
 
 ![image](../images/indie-hub-grill-with-docs/005.webp)
 
-*4个最常见的文档化反模式*
+*4 个最常见的文档化反模式*

@@ -10,7 +10,7 @@ url: ""
 下面是一份可直接粘贴使用的 `Key Bindings - User` 配置。设置步骤见
 [Sublime Text 最佳实践](/md/guide/dev/sublimetext/sublime-best-practices)，
 嵌入式终端 Terminus 的安装与排错见
-[Terminus 安装与排错完整指南](/md/guide/dev/sublimetext/Sublime%20Text%20嵌入式终端%20Terminus%20安装与排错完整指南)。
+[Terminus 安装与排错完整指南](/md/guide/dev/sublimetext/Sublime%20Text%20 嵌入式终端%20Terminus%20 安装与排错完整指南)。
 
 ```json
 [
@@ -75,7 +75,7 @@ url: ""
 ]
 ```
 
-**参考链接:**
+**参考链接：**
 
 - [boolean111000/Base File.sublime-settings](https://gist.github.com/boolean111000/1325c6e284505948bed041a240fe5f70)
 - [sublime text3 快捷键修改为 eclipse_sublime](https://blog.csdn.net/qq575792372/article/details/89739696)

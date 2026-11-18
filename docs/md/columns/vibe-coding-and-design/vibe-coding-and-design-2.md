@@ -5,22 +5,22 @@ source: "KaitoX"
 url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=aa330218426023f6d96cdb2aa3da005c"
 ---
 
-# Vibe Coding与设计（二）：5分钟，实现一个有设计感的网站
+# Vibe Coding 与设计（二）：5 分钟，实现一个有设计感的网站
 
-原创 KaitoX *2026年1月13日 11:57*
+原创 KaitoX *2026 年 1 月 13 日 11:57*
 
 ## 前言
 
 ![image.png](images/vibe-coding-2/001.webp)
 
-在上一篇文章中，我们揭示了 AI 生成页面千篇一律的根源—— **原子设计的标准化** 与 **AI的高频模式选择** ，并提出了解决方案： **通过提取设计 Token 来约束 AI** ，让它成为你设计语言的执行者而非决策者。今天，我们将这个理念付诸实践。
+在上一篇文章中，我们揭示了 AI 生成页面千篇一律的根源—— **原子设计的标准化** 与 **AI 的高频模式选择** ，并提出了解决方案： **通过提取设计 Token 来约束 AI** ，让它成为你设计语言的执行者而非决策者。今天，我们将这个理念付诸实践。
 
-本文是一次完整的实战演练：从寻找高质量设计参考，到利用 AI 工具提取设计基因，最终生成一个真正有设计感的落地页。我们的目标很明确——实现一个叫做 **nanobanana的** AI工具站的 Hero Section，整个过程分为三个核心步骤：
+本文是一次完整的实战演练：从寻找高质量设计参考，到利用 AI 工具提取设计基因，最终生成一个真正有设计感的落地页。我们的目标很明确——实现一个叫做 **nanobanana 的** AI 工具站的 Hero Section，整个过程分为三个核心步骤：
 
 1. **寻找高质量的设计参考（Visual Anchor）**
 2. **提取设计基因与落地页信息**
-1. **利用Gemini 3 Pro 提取设计风格**
-	2. **使用Claude Chrome插件提取落地页信息**
+1. **利用 Gemini 3 Pro 提取设计风格**
+	2. **使用 Claude Chrome 插件提取落地页信息**
 4. **生成具有设计风格的落地页**
 
 这套方法的美妙之处在于：即使你完全不懂设计原理，也能通过系统化的流程，借助 AI 的力量，做出专业级的视觉效果。让我们开始吧！
@@ -29,7 +29,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=
 
 对于非设计专业的开发者，凭空创造一套设计系统是非常困难的。最聪明的方法是： **Steal like an artist（像艺术家一样偷师）。** 我们需要寻找一个视觉锚点（Visual Anchor）。
 
-**本次实战目标： 实现一个AI工具站的 Hero Section。**
+**本次实战目标： 实现一个 AI 工具站的 Hero Section。**
 
 \*\*资源推荐： saaslandingpage.com。\*\*这个网站收集了全球最优秀的 SaaS 产品落地页，不仅审美在线，而且非常适合 Web 开发落地（不像 Dribbble 上很多概念稿那样难以实现）。
 
@@ -45,11 +45,11 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=
 
 ## 提取设计基因与落地页信息
 
-找到了参考图，接下来需要完成两个关键步骤：一是"考古"环节——把图片里的视觉信息提取为计算机可读的设计数据；二是提取目标落地页的内容结构信息。
+找到了参考图，接下来需要完成两个关键步骤：一是“考古”环节——把图片里的视觉信息提取为计算机可读的设计数据；二是提取目标落地页的内容结构信息。
 
 ## 利用 Gemini 3 Pro 提取设计风格
 
-这里我们使用 Google Gemini 3 Pro，因为它在理解图像细节和输出结构化数据方面表现优异。你只需要将上面的落地页图片 + 我下面的提示词发送给Gemini 3 Pro：（PS：Prompt模版是去 Design Prompts 随便找的）
+这里我们使用 Google Gemini 3 Pro，因为它在理解图像细节和输出结构化数据方面表现优异。你只需要将上面的落地页图片 + 我下面的提示词发送给 Gemini 3 Pro：（PS：Prompt 模版是去 Design Prompts 随便找的）
 
 ```
 我计划复刻一个同类型的网站，需要你深度分析我提供的网页落地页的设计风格。请从页面中提取核心设计信息，并参考我给出的 Prompt 范例，生成一份精准对应的 Prompt。 我想在使用到该Prompt后，AI能将组件、颜色、设计风格等深度还原  注意：我提供的Prompt只是模版，你不要使用内部的东西！！！ 所有的内容都必须由你来提供 prompt模版：
@@ -62,7 +62,7 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=
 <role> You are an expert frontend engineer, UI/UX designer, visual design specialist, and typography expert. Your goal is to help the user integrate a design system into an existing codebase in a way that is visually consistent, maintainable, and idiomatic to their tech stack.  Before proposing or writing any code, first build a clear mental model of the current system: - Identify the tech stack (e.g. React, Next.js, Vue, Tailwind, shadcn/ui, etc.). - Understand the existing design tokens (colors, spacing, typography, radii, shadows), global styles, and utility patterns. - Review the current component architecture (atoms/molecules/organisms, layout primitives, etc.) and naming conventions. - Note any constraints (legacy CSS, design library in use, performance or bundle-size considerations). Ask the user focused questions to understand the user's goals. Do they want: - a specific component or page redesigned in the new style, - existing components refactored to the new system, or - new pages/features built entirely in the new style? Once you understand the context and scope, do the following: - Propose a concise implementation plan that follows best practices, prioritizing:   - centralizing design tokens,   - reusability and composability of components,   - minimizing duplication and one-off styles,   - long-term maintainability and clear naming. - When writing code, match the user’s existing patterns (folder structure, naming, styling approach, and component patterns). - Explain your reasoning briefly as you go, so the user understands *why* you’re making certain architectural or design choices. Always aim to: - Preserve or improve accessibility. - Maintain visual consistency with the provided design system. - Leave the codebase in a cleaner, more coherent state than you found it. - Ensure layouts are responsive and usable across devices. - Make deliberate, creative design choices (layout, motion, interaction details, and typography) that express the design system’s personality instead of producing a generic or boilerplate UI. </role> <design-system> # Design Philosophy The **"Digital Ocean Pop"** style blends the clarity of modern SaaS interfaces with the playful, retro energy of pixel art and neo-brutalism. It creates a friendly, confident environment that feels like a gamified workspace. **Core Principles:** - **Defined Boundaries**: Elements are clearly separated by distinct black borders (\`border-2\`). There is no ambiguity where one element ends and another begins. - **Hard Shadows (Neo-Brutalism Lite)**: Shadows are solid, black, and offset. They provide a "stacked" physical feel, like stickers or cards laid on a surface. - **Vibrant Optimism**: The color palette uses high-energy Lime Green and Lavender against a calming, deep ocean gradient. - **Pixel & Vector Hybrid**: The interface mixes high-fidelity vector UI (rounded corners, smooth fonts) with low-fidelity pixel art accents (icons, mascots) to create a unique "digital native" aesthetic. - **Card-Based Architecture**: Content is strictly compartmentalized into white cards with rounded corners, mimicking software windows or dashboard widgets. **Emotional Intent:** Professional but not boring. The style says "We are high-tech (Pixel Art) but we are also fun and accessible (Lime Green & Roundness)." It reduces the cognitive load of complex B2B software by wrapping it in a toy-like, approachable visual language. # Design Token System ## Colors (Vibrant SaaS Palette) - **Background Gradient**: A full-page vertical gradient strategy.   - Top: Light Sky Blue/Cyan (\`#E0F2FE\`)   - Middle: Soft Teal (\`#99F6E4\`)   - Bottom/Footer: Deep Ocean Blue (\`#172554\`) - **Surface (Cards)**: White (\`#FFFFFF\`) or very subtle off-white (\`#F8FAFC\`). - **Primary Accent (Action)**: Lime Green (\`#BEF264\` or \`#A3E635\`) - Used for primary buttons and highlights. - **Secondary Accent**: Soft Lavender/Pink (\`#E9D5FF\` or \`#F5D0FE\`) - Used for secondary tags or floating elements. - **Text Primary**: Deep Navy/Black (\`#0F172A\`) - High contrast. - **Border**: Pure Black (\`#000000\`) or Very Dark Navy (\`#020617\`). ## Typography - **Font Family**: \`Plus Jakarta Sans\`, \`Outfit\`, or \`Inter\` (Bold weights are crucial). - **Headings**: Heavy, tight tracking. \`font-bold\` or \`font-extrabold\`. - **Body**: Clean, legible, comfortable line-height (\`leading-relaxed\`). - **Pixel Font (Optional)**: Used specifically for the brand logo or specific "tech" badges (e.g., 'Press Start 2P'). ## Radius & Border - **Consistent Roundness**:   - Small Elements (Tags/Buttons): \`rounded-lg\` or \`rounded-xl\`.   - Large Containers (Cards/Sections): \`rounded-2xl\` or \`rounded-3xl\`. - **Border Thickness**:   - Standard: \`border-2 border-black\` (or very dark navy). This is the defining visual trait.   - Divider lines: \`border-b-2\`. - **Style**: Always \`border-solid\`. ## Shadows/Effects - **Hard Offset Shadows**: Critical for the "Pop" look. No blur.   - Small: \`shadow-[2px_2px_0px_0px_#000]\`   - Medium (Buttons/Cards): \`shadow-[4px_4px_0px_0px_#000]\`   - Hover: Shadows often move or disappear (translate effect) to simulate pressing. # Component Stylings ## Buttons - **Primary Call-to-Action**:   - Background: Lime Green (\`bg-[#BEF264]\`).   - Border: \`border-2 border-black\`.   - Text: Bold Black (\`text-black font-bold\`).   - Radius: \`rounded-xl\` or \`rounded-full\`.   - Shadow: \`shadow-[4px_4px_0px_0px_#000]\`.   - Hover: \`translate-x-[2px] translate-y-[2px] shadow-[2px_2px_0px_0px_#000]\` (Button feels physically pressed). - **Secondary**:   - Background: White.   - Border: \`border-2 border-black\`.   - Shadow: \`shadow-[4px_4px_0px_0px_#000]\`. ## Cards & Containers - **Base Style**: White background, \`border-2 border-black\`, \`rounded-2xl\` or \`rounded-3xl\`. - **Header Strips**: Some cards have a colored "header" strip (like a browser window or folder tab) at the top, often in Lavender or Pale Blue. - **Content Layout**: High padding (\`p-6\` or \`p-8\`). Clear separation between the header (icon + title) and body text. ## Badges / Tags - **Appearance**: Pill-shaped (\`rounded-full\`). - **Style**: White background with black border, OR pastel background (Lavender/Yellow) with black border. - **Typography**: Uppercase, small, bold, tracking-wide. # Layout Strategy - **Z-Layering**: The design relies on "stickers" floating over the gradient background.   - *Layer 0*: The Gradient Background (Sky -> Ocean).   - *Layer 1*: Clouds / Decorative Pixel Art (floating absolutely).   - *Layer 2*: Main Content Cards. - **Grid System**: Standard 12-column grid, but containers are often centered with \`max-w-5xl\`. - **Bento Grid**: The "How it works" or "Features" sections often use a Bento-box style layout—different sized rectangular cards fitting together. # Non-Genericness (Bold Choices) **Unique Visual Signatures:** - **Pixel Art Icons**: Use pixelated versions of common icons (fish, arrows, folders) instead of standard Lucide/Heroicons to reinforce the "Digital/Retro" brand. - **"Sticker" Aesthetics**: Images or screenshots often have a thick white border/padding inside a black border, making them look like die-cut stickers. - **Cloud Motifs**: Fluffy, white, cartoonish clouds (SVG) used as section dividers or background decorations to break the rigid straight lines of the gradient. - **Floating UI Elements**: Small "toast" or "chat bubble" elements that float slightly off-axis (rotated 1deg or -1deg) to add dynamism. # Responsive Strategy - **Mobile**:   - Cards stack vertically (\`flex-col\`).   - Horizontal padding is reduced (\`px-4\`).   - Typography scales down, but borders remain \`2px\`. - **Desktop**:   - Uses specific \`md:grid-cols-2\` or \`lg:grid-cols-3\`.   - Hero image often sits side-by-side with text.   - "Floating" decorative elements are visible (hidden on mobile to save space). </design-system>
 ```
 
-## 使用Claude Chrome 插件提取落地页信息
+## 使用 Claude Chrome 插件提取落地页信息
 
 ![image.png](images/vibe-coding-2/003.webp)
 ```
@@ -84,18 +84,18 @@ url: "https://mp.weixin.qq.com/s?__biz=MzU3MDMwOTczMg==&mid=2247483730&idx=1&sn=
 
 ![image.png](images/vibe-coding-2/004.webp) ![image.png](images/vibe-coding-2/005.webp)
 
-虽说不是100%还原，但是效果已经很好了。有兴趣的同学可以自行访问一下 Demo链接
+虽说不是 100%还原，但是效果已经很好了。有兴趣的同学可以自行访问一下 Demo 链接
 
 ## 结语
 
-这套工作流证明了一个核心观点： **你不需要成为设计师，只需要成为一个会"借力"的工程师** 。从找参考到提取设计基因，再到让 AI 在约束下编码——我们将第一篇的理论完整落地了。
+这套工作流证明了一个核心观点： **你不需要成为设计师，只需要成为一个会“借力”的工程师** 。从找参考到提取设计基因，再到让 AI 在约束下编码——我们将第一篇的理论完整落地了。
 
-方法论的价值在于 **可复制性** ：无论做什么类型的网站，流程都是一样的。而随着项目推进，你会逐渐沉淀出自己的组件库和视觉语言，AI 也会从生成"通用模板"的工具，变成你设计思想的高效执行者。
+方法论的价值在于 **可复制性** ：无论做什么类型的网站，流程都是一样的。而随着项目推进，你会逐渐沉淀出自己的组件库和视觉语言，AI 也会从生成“通用模板”的工具，变成你设计思想的高效执行者。
 
-现在就动手实践吧（ **我只用了5分钟就搞定了** ）：选一个你喜欢的网站，用今天学到的方法提取其设计基因，然后尝试用 AI 重现它。
+现在就动手实践吧（ **我只用了 5 分钟就搞定了** ）：选一个你喜欢的网站，用今天学到的方法提取其设计基因，然后尝试用 AI 重现它。
 
-下一节我会分享：如何给网页加上炫酷的3D动画效果。
+下一节我会分享：如何给网页加上炫酷的 3D 动画效果。
 
 （喜欢的同学可以点个关注，后续我会带来更多 AI + 设计工程化的实战案例）
 
-Vibe Coding与设计 · 目录
+Vibe Coding 与设计 · 目录

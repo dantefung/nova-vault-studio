@@ -124,7 +124,7 @@ vim ~/.cc-connect/config.toml
 
 1. 进入 [飞书开放平台](https://open.feishu.cn/)，创建企业自建应用，获取 **APP_ID** 和 **APP_SECRET**
 2. 添加机器人能力
-3. **事件订阅** → 选择"使用长连接接收事件"
+3. **事件订阅** → 选择“使用长连接接收事件”
 4. 添加事件：`im.message.receive_v1`
 5. **权限管理** → 添加 `im:message` 相关权限
 6. 发布应用版本

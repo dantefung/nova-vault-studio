@@ -7,7 +7,7 @@ author: "ysh33"
 abstract: "深入解析 Linux 环境变量：①进程级环境变量（key=value 字符串，随进程创建/销毁）；②内核视角 mm_struct、fork 复制/execve 重构建；③main 函数三形式（argc/argv/envp）；④Shell 环境变量：普通变量 vs export 导出；⑤getenv/setenv/unsetenv 用法；⑥常用 Shell 命令。"
 ---
 
-> 来源：[4张图搞懂Linux环境变量](https://mp.weixin.qq.com/s/TgjX6-dTKwv163DacBarYw)，作者 ysh33
+> 来源：[4 张图搞懂 Linux 环境变量](https://mp.weixin.qq.com/s/TgjX6-dTKwv163DacBarYw)，作者 ysh33
 
 ---
 
@@ -68,8 +68,8 @@ struct mm_struct {
 └──────────────────┘
 ```
 
-- **32位**：用户空间 3GB，内核空间 1GB
-- **64位**：用户空间 128TB，内核空间 128TB
+- **32 位**：用户空间 3GB，内核空间 1GB
+- **64 位**：用户空间 128TB，内核空间 128TB
 
 ### fork 和 execve
 

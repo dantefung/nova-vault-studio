@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/11Krmb5KYmCHDQ4zN9O4uQ"
 
 # Agent 核心技术概念与范式演变
 
-> Agent 技术不是一蹴而就的。Prompt、Planning、Memory、Tools、Workflow、Environment — 这六个维度在 2023-2026 年间发生了深刻重构。"形"未变，"神"已大不同。
+> Agent 技术不是一蹴而就的。Prompt、Planning、Memory、Tools、Workflow、Environment — 这六个维度在 2023-2026 年间发生了深刻重构。“形”未变，“神”已大不同。
 
 ![Agent 范式演变概览](../images/agent-paradigm-evolution/01.webp)
 
@@ -36,23 +36,23 @@ url: "https://mp.weixin.qq.com/s/11Krmb5KYmCHDQ4zN9O4uQ"
 
 ![Prompt 演变](../images/agent-paradigm-evolution/06.webp)
 
-**早期**：一个任务一个 Agent，System Prompt 里塞满人设、目标、约束、示例 — 一段"小作文"。
+**早期**：一个任务一个 Agent，System Prompt 里塞满人设、目标、约束、示例 — 一段“小作文”。
 
 **现在**：
 - System Prompt 极度精简，只保留底层行为规范
 - 任务要求、领域知识拆解到外部文件系统（SKILL.md、CLAUDE.md、SOUL.md）
-- 渐进式披露加载，实现"动静分离"
+- 渐进式披露加载，实现“动静分离”
 
 ### 2. Planning：思维链 → 复杂长程任务
 
 ![Planning 演变](../images/agent-paradigm-evolution/07.webp)
 
-**早期**：依赖"Let's think step by step"引导线性推理。
+**早期**：依赖“Let's think step by step”引导线性推理。
 
 **现在**：
 - 结构化分解：目标 → 子任务 + Todo List
 - 多步协同：动态调整计划，处理极长上下文
-- 子 Agent 动态构建：从"单体思考"到"协同作战"
+- 子 Agent 动态构建：从“单体思考”到“协同作战”
 
 核心驱动力：基座模型推理能力升级。
 
@@ -63,7 +63,7 @@ url: "https://mp.weixin.qq.com/s/11Krmb5KYmCHDQ4zN9O4uQ"
 **早期**：短期记忆 = 对话上下文；长期记忆 = RAG 向量检索。
 
 **现在**：
-- **短期记忆**：从"存储"转向"管理压缩" — 阈值控制、结构化摘要、重点提取
+- **短期记忆**：从“存储”转向“管理压缩” — 阈值控制、结构化摘要、重点提取
 - **长期记忆**：
   - 事项型（Episodic）→ MEMORY.md 文件系统记录
   - 知识型（Semantic）→ LLM-Wiki、GBrain 本地化知识库 + RAG 混合
@@ -77,11 +77,11 @@ url: "https://mp.weixin.qq.com/s/11Krmb5KYmCHDQ4zN9O4uQ"
 **早期**：每个能力封装成 API，注册 Function Call Schema — 开发维护成本极高。
 
 **现在**：
-- **CLI 原生化**：grep、cat、vim 等命令是模型的"先天知识"，无需额外 Schema
+- **CLI 原生化**：grep、cat、vim 等命令是模型的“先天知识”，无需额外 Schema
 - **Script 脚本化**：工具逻辑封装为独立脚本，内部处理鉴权和细节
 - **Skill 集成**：第三方 CLI 通过 Skill 包装，--help 即可自主理解
 
-核心转变：从"人为适配模型"到"利用模型原生能力"。
+核心转变：从“人为适配模型”到“利用模型原生能力”。
 
 ### 5. Workflow：刚性编排 → 动态混合封装
 
@@ -108,7 +108,7 @@ url: "https://mp.weixin.qq.com/s/11Krmb5KYmCHDQ4zN9O4uQ"
 
 ## 总结
 
-Agent 的"形"未变（仍是 Prompt + Planning + Memory + Tools），但"神"已大不同：
+Agent 的“形”未变（仍是 Prompt + Planning + Memory + Tools），但“神”已大不同：
 
 | 维度 | 过去 | 现在 |
 |------|------|------|

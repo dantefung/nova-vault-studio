@@ -17,7 +17,7 @@ url: "https://mp.weixin.qq.com/s/2ehAIv_X_0_R1YUtsxF3Og"
 
 ## 优势
 
-- 用户友好，显示为"借记卡和信用卡"
+- 用户友好，显示为“借记卡和信用卡”
 - 80%+ 用户首选
 - 适合个人开发者/SaaS
 

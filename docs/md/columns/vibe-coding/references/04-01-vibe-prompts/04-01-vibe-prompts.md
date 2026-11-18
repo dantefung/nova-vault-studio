@@ -3,7 +3,7 @@ title: vibe提示词大杂烩
 ---
 
 &#x2D;&#x2D;&#x2D;
-title: vibe提示词大杂烩
+title: vibe 提示词大杂烩
 
 
 

@@ -6,9 +6,9 @@ author: "何明璐"
 url: "https://mp.weixin.qq.com/s/fhXacJmU2GmLIbpruIwa4g"
 ---
 
-# 深入解析DeepSeek Harness插件运行机制和当前的Harness技术工程能力
+# 深入解析 DeepSeek Harness 插件运行机制和当前的 Harness 技术工程能力
 
-> 在多数 Agent 框架中，"插件"通常只是工具扩展的另一种说法——核心循环、模型调用、会话管理和安全策略由框架固定实现，开发者只能在外围增加若干函数。DeepSeek Harness 采用了更彻底的设计：**模型适配器、工具注册表、技能系统、会话日志、Agent Loop、沙箱、存储、调度、交互界面乃至启动入口本身都由插件提供**。
+> 在多数 Agent 框架中，“插件”通常只是工具扩展的另一种说法——核心循环、模型调用、会话管理和安全策略由框架固定实现，开发者只能在外围增加若干函数。DeepSeek Harness 采用了更彻底的设计：**模型适配器、工具注册表、技能系统、会话日志、Agent Loop、沙箱、存储、调度、交互界面乃至启动入口本身都由插件提供**。
 
 ## 一、平台架构：从配置层到运行时能力树
 
@@ -56,7 +56,7 @@ Service 适合直接调用，Event 适合观察、拦截和组合策略。分发
 
 ### 4. Effect 让注册天然可卸载
 
-Cordis 将"注册"视为 Effect。`ctx.on()`、注册表的 `register()` 以及 `ctx.effect()` 都返回或持有 disposer。插件卸载时按生命周期撤销这些 Effect，避免重复监听与后台任务残留。
+Cordis 将“注册”视为 Effect。`ctx.on()`、注册表的 `register()` 以及 `ctx.effect()` 都返回或持有 disposer。插件卸载时按生命周期撤销这些 Effect，避免重复监听与后台任务残留。
 
 ## 三、Agent Loop 如何驱动一次完整运行
 
@@ -66,7 +66,7 @@ Cordis 将"注册"视为 Effect。`ctx.on()`、注册表的 `register()` 以及 
 
 ![DSH Agent Loop Turn/Step 生命周期](../images/deepseek-harness-plugin-architecture-deep-dive/003.webp)
 
-### 2. "模型可见即日志可重建"
+### 2. “模型可见即日志可重建”
 
 Session Event Log 是 Agent 运行的事实来源。任何进入模型请求的内容都必须能从 Session Log 重建。恢复、分叉、回放、Trajectory 展示、持久化和遥测共享同一条事件流。
 
@@ -90,7 +90,7 @@ LLM 家族定义消息、Content Block、Tool Schema、Request、Stream Chunk �
 
 ### 4. 会话、记忆与上下文管理
 
-DSH 没有把"记忆"压缩成单一 Memory Service，而是由多组插件协同：Session Event Log 保存原始事实，Session Persistence 写入 JSONL/SQLite，Session Query 提供有界读取和语义过滤，Compaction 在 Token 压力下追加摘要。
+DSH 没有把“记忆”压缩成单一 Memory Service，而是由多组插件协同：Session Event Log 保存原始事实，Session Persistence 写入 JSONL/SQLite，Session Query 提供有界读取和语义过滤，Compaction 在 Token 压力下追加摘要。
 
 ### 5. 沙箱、安全与人机审批
 
@@ -110,7 +110,7 @@ Schedule 能力把版本化调度事件写入原始 Session Log，通过 Fold �
 
 ## 五、平台价值
 
-DSH 的插件系统解决的不是"如何多注册几个工具"，而是**让 Agent 平台在持续增加能力时仍保持清晰的所有权与替换关系**。
+DSH 的插件系统解决的不是“如何多注册几个工具”，而是**让 Agent 平台在持续增加能力时仍保持清晰的所有权与替换关系**。
 
 - 对部署者：Profile + Bundle + Patch 把产品形态变成可审查的配置组合
 - 对能力开发者：Service Definition 提供稳定依赖，Typed Event 提供协作点，Scope 提供会话隔离，Effect 提供生命周期回收

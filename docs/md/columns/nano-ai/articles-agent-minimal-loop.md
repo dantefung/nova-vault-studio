@@ -40,7 +40,7 @@ Minimal Agent Loop
 
 
 
-## 01目标
+## 01 目标
 
 
 
@@ -50,7 +50,7 @@ Minimal Agent Loop
 
 
 
-    python agent.py "在当前目录创建 hello.py，打印 hello，并运行它"
+    python agent.py “在当前目录创建 hello.py，打印 hello，并运行它”
 
 
 
@@ -62,7 +62,7 @@ Minimal Agent Loop
 
 
 
-## 02准备
+## 02 准备
 
 
 
@@ -96,7 +96,7 @@ Minimal Agent Loop
 
 
 
-## 03先搞清楚：模型自己不会"动手"
+## 03 先搞清楚：模型自己不会“动手”
 
 
 
@@ -104,7 +104,7 @@ Minimal Agent Loop
 
 
 
-模型只会输出文字。所谓"调用工具"，是一次约定好的对话：
+模型只会输出文字。所谓“调用工具”，是一次约定好的对话：
 
 
 
@@ -128,7 +128,7 @@ Minimal Agent Loop
 
 
 
-## 04整个 Agent 只有三块
+## 04 整个 Agent 只有三块
 
 
 
@@ -160,7 +160,7 @@ Minimal Agent Loop
 
             f.write(content)
 
-        return f"已写入 {path}（{len(content)} 字符）"
+        return f“已写入 {path}（{len(content)} 字符）"
 
 
 
@@ -170,9 +170,9 @@ Minimal Agent Loop
 
         # 第 1 课先用最朴素的权限控制：每条命令人工确认
 
-        if input(f"\n[需要确认] 执行命令：{command}\n允许？(y/n) ").strip().lower() != "y":
+        if input(f"\n[需要确认] 执行命令：{command}\n 允许？(y/n) ").strip().lower() != "y":
 
-            return "用户拒绝执行该命令"
+            return ”用户拒绝执行该命令“
 
         try:
 
@@ -180,9 +180,9 @@ Minimal Agent Loop
 
         except subprocess.TimeoutExpired:
 
-            return "命令超时（60 秒）"
+            return ”命令超时（60 秒）"
 
-        return (p.stdout + p.stderr)[-4000:] or "(无输出)"  # 截断，避免撑爆上下文
+        return (p.stdout + p.stderr)[-4000:] or "(无输出)" # 截断，避免撑爆上下文
 
 
 
@@ -194,7 +194,7 @@ Minimal Agent Loop
 
 
 
-**2\. 工具说明** ：一段 JSON，告诉模型"你有哪些工具、每个要传什么参数"。模型看不到你的代码，只看得到这段说明。
+**2\. 工具说明** ：一段 JSON，告诉模型“你有哪些工具、每个要传什么参数”。模型看不到你的代码，只看得到这段说明。
 
 
 
@@ -232,11 +232,11 @@ Minimal Agent Loop
 
     TOOLS = [
 
-        _tool("read_file", "读取文件内容", {"path": "文件路径"}),
+        _tool("read_file", “读取文件内容”, {"path": “文件路径”}),
 
-        _tool("write_file", "写入文件（覆盖）", {"path": "文件路径", "content": "完整文件内容"}),
+        _tool("write_file", “写入文件（覆盖）", {"path": ”文件路径“, "content": ”完整文件内容“}),
 
-        _tool("run_shell", "执行 shell 命令并返回输出", {"command": "要执行的命令"}),
+        _tool("run_shell", ”执行 shell 命令并返回输出“, {"command": ”要执行的命令“}),
 
     ]
 
@@ -316,9 +316,9 @@ Minimal Agent Loop
 [name](**args)
 
 
-                except Exception as e:  # 工具出错也要告诉模型，让它自己修正
+                except Exception as e: # 工具出错也要告诉模型，让它自己修正
 
-                    result = f"工具执行出错：{type(e).__name__}: {e}"
+                    result = f”工具执行出错：{type(e).__name__}: {e}"
 
                 messages.append({"role": "tool", "tool_call_id": call.id, "content": result})
 
@@ -364,15 +364,15 @@ Minimal Agent Loop
 
     MODEL = os.environ.get("MODEL", "deepseek-flash")
 
-    MAX_STEPS = 20  # 防止死循环：Agent 最多转 20 圈
+    MAX_STEPS = 20 # 防止死循环：Agent 最多转 20 圈
 
 
 
     SYSTEM = (
 
-        "你是一个能操作本地文件和命令行的编程助手。"
+        “你是一个能操作本地文件和命令行的编程助手。"
 
-        "需要时调用工具，完成任务后直接用文字总结，不要再调用工具。"
+        ”需要时调用工具，完成任务后直接用文字总结，不要再调用工具。"
 
     )
 
@@ -382,7 +382,7 @@ Minimal Agent Loop
 
         if len(sys.argv) < 2:
 
-            sys.exit('用法：python agent.py "你的任务"')
+            sys.exit(’用法：python agent.py “你的任务”')
 
         run(sys.argv[1])
 
@@ -390,7 +390,7 @@ Minimal Agent Loop
 
 
 
-## 05跑起来
+## 05 跑起来
 
 
 
@@ -402,7 +402,7 @@ Minimal Agent Loop
 
     mkdir playground && cd playground
 
-    python agent.py "在当前目录创建 hello.py，打印 hello，并运行它"
+    python agent.py “在当前目录创建 hello.py，打印 hello，并运行它”
 
 
 
@@ -432,15 +432,15 @@ Minimal Agent Loop
 
 
 
-注意 "共 3 步"：前两步各调用了一次工具，第三次模型没有再请求工具，而是给出了总结，循环结束。
+注意 “共 3 步”：前两步各调用了一次工具，第三次模型没有再请求工具，而是给出了总结，循环结束。
 
 
 
-## 06几个不起眼但重要的设计
+## 06 几个不起眼但重要的设计
 
 
 
-**1\. messages 是 Agent 的全部记忆。** 每一轮都把完整的 messages 发给模型。模型之所以"记得"它刚写过 hello.py，是因为那条 tool 消息就在 messages 里。第 4 课会专门处理它越来越长的问题。
+**1\. messages 是 Agent 的全部记忆。** 每一轮都把完整的 messages 发给模型。模型之所以“记得”它刚写过 hello.py，是因为那条 tool 消息就在 messages 里。第 4 课会专门处理它越来越长的问题。
 
 
 
@@ -454,7 +454,7 @@ Minimal Agent Loop
 
 **3\. 工具报错也返回给模型。** 文件不存在、命令写错，都把报错原文当结果交回去。模型看到报错，常常能自己修正：先 
 `ls`
- 看看，再读正确的文件。这是 Agent 比普通脚本"聪明"的地方。
+ 看看，再读正确的文件。这是 Agent 比普通脚本“聪明”的地方。
 
 
 
@@ -476,7 +476,7 @@ Minimal Agent Loop
 
 
 
-## 07主流 Agent 怎么做
+## 07 主流 Agent 怎么做
 
 
 
@@ -500,7 +500,7 @@ Minimal Agent Loop
 
 
 
-**DeepSeek Harness（dsh）。** 它的思路是"一切皆插件"：模型适配、工具、会话、沙箱，甚至**循环本身** 都是可以替换的插件。它还有一种叫 PTC 的模式：模型不再一次请求一个工具，而是写一段程序，通过 
+**DeepSeek Harness（dsh）。** 它的思路是“一切皆插件”：模型适配、工具、会话、沙箱，甚至**循环本身** 都是可以替换的插件。它还有一种叫 PTC 的模式：模型不再一次请求一个工具，而是写一段程序，通过 
 `run_code`
  在程序里调用多个工具。一轮往返做完以前要好几轮的事。
 
@@ -510,7 +510,7 @@ Minimal Agent Loop
 
 
 
-**Grok Bot。** xAI 今年 8 月推出的"常驻 Agent"，换了一个维度：循环不跑在你的电脑上。每个 bot 有自己的一台云电脑，你关机了它照样在干活，需要你批准时给你发消息。
+**Grok Bot。** xAI 今年 8 月推出的“常驻 Agent"，换了一个维度：循环不跑在你的电脑上。每个 bot 有自己的一台云电脑，你关机了它照样在干活，需要你批准时给你发消息。
 
 
 
@@ -518,7 +518,7 @@ Minimal Agent Loop
 
 
 
-## 08动手练习
+## 08 动手练习
 
 
 
@@ -532,11 +532,11 @@ Minimal Agent Loop
 `fib(10)`
  的结果。
 
-  3. 故意给一个做不到的任务（比如"读取 secret.txt"，但目录里没有这个文件），观察它怎么失败、会不会反复重试。
+  3. 故意给一个做不到的任务（比如”读取 secret.txt"，但目录里没有这个文件），观察它怎么失败、会不会反复重试。
 
 
 
-## 09这个版本的局限
+## 09 这个版本的局限
 
 
 
@@ -572,7 +572,7 @@ Minimal Agent Loop
 
 
 
-下一课把"加一个工具改三个地方"变成"写一个函数、套一个装饰器"，再加两个工具：列目录和抓网页。
+下一课把“加一个工具改三个地方”变成“写一个函数、套一个装饰器”，再加两个工具：列目录和抓网页。
 
 
 

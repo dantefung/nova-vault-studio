@@ -10,9 +10,9 @@ source: "pmaker.space（空格的键盘）"
 
 你会遇到的现象
 
-*   模型厂商一次降价，你精心算的成本模型全部作废
-*   你做的功能，三个月后变成了模型的内置能力
-*   老板问「我们的壁垒是什么」，你只能答出「我们接得早」
+* 模型厂商一次降价，你精心算的成本模型全部作废
+* 你做的功能，三个月后变成了模型的内置能力
+* 老板问「我们的壁垒是什么」，你只能答出「我们接得早」
 
 ## 四层分别是谁
 
@@ -57,8 +57,8 @@ source: "pmaker.space（空格的键盘）"
 
 ## 资料来源
 
-*   [Stanford HAI — AI Index Report](https://hai.stanford.edu/ai-index)：产业投入、算力与模型训练成本的公开数据基线
-*   [Claude Platform — Pricing](https://platform.claude.com/docs/en/about-claude/pricing)：模型层对外定价的一手来源之一
-*   [OpenRouter — Models](https://openrouter.ai/models)：可用于横向观察模型层的供给数量与价格分布
+* [Stanford HAI — AI Index Report](https://hai.stanford.edu/ai-index)：产业投入、算力与模型训练成本的公开数据基线
+* [Claude Platform — Pricing](https://platform.claude.com/docs/en/about-claude/pricing)：模型层对外定价的一手来源之一
+* [OpenRouter — Models](https://openrouter.ai/models)：可用于横向观察模型层的供给数量与价格分布
 
 资料基准：2026 年 8 月。本文对「钱往下流」「越往下越集中」的判断是结构性归纳，不是某一份报告的原文结论。各层的具体玩家与份额变动很快，做决策前请核实当期公开信息。

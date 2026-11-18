@@ -1,4 +1,4 @@
-# Cygwin、Msys、MinGW、Msys2的区别与联系
+# Cygwin、Msys、MinGW、Msys2 的区别与联系
 
 下面把 **Cygwin、Msys、MinGW、Msys2** 的关系一次讲清楚，从「设计目标」「运行机制」「是否依赖运行时」「适合场景」几个维度对比。
 
@@ -107,11 +107,11 @@ Windows 原生 GCC 工具链
 
 ### 提供 3 套环境
 
-| 环境      | 说明                |
+| 环境 | 说明 |
 | ------- | ----------------- |
-| MSYS    | 类 Unix 构建环境       |
+| MSYS | 类 Unix 构建环境 |
 | MINGW64 | 64 位原生 Windows 编译 |
-| UCRT64  | 使用微软 UCRT 运行库     |
+| UCRT64 | 使用微软 UCRT 运行库 |
 
 ---
 
@@ -137,13 +137,13 @@ Windows 原生 GCC 工具链
 
 # 核心区别对比表
 
-| 对比点        | Cygwin      | MinGW | MSYS         | MSYS2     |
+| 对比点 | Cygwin | MinGW | MSYS | MSYS2 |
 | ---------- | ----------- | ----- | ------------ | --------- |
-| 是否模拟 POSIX | ✔           | ❌     | ✔            | ✔         |
-| 是否依赖 DLL   | cygwin1.dll | 不依赖   | msys-1.0.dll | msys2.dll |
-| 是否生成原生 exe | ❌           | ✔     | ✔            | ✔         |
-| 包管理        | 自有          | 无     | 无            | pacman    |
-| 是否仍活跃      | ✔           | ✔     | ❌            | ✔         |
+| 是否模拟 POSIX | ✔ | ❌ | ✔ | ✔ |
+| 是否依赖 DLL | cygwin1.dll | 不依赖 | msys-1.0.dll | msys2.dll |
+| 是否生成原生 exe | ❌ | ✔ | ✔ | ✔ |
+| 包管理 | 自有 | 无 | 无 | pacman |
+| 是否仍活跃 | ✔ | ✔ | ❌ | ✔ |
 
 ---
 
@@ -354,12 +354,12 @@ Kernel
 
 # 六、核心区别总结
 
-| 维度           | Cygwin | MSYS2 Shell | MinGW-w64 |
+| 维度 | Cygwin | MSYS2 Shell | MinGW-w64 |
 | ------------ | ------ | ----------- | --------- |
-| 是否模拟 POSIX   | ✔      | ✔           | ❌         |
-| 是否有翻译层       | ✔      | ✔           | ❌         |
-| 生成程序是否依赖 DLL | ✔      | ✔           | ❌         |
-| 是否原生 Windows | ❌      | ❌           | ✔         |
+| 是否模拟 POSIX | ✔ | ✔ | ❌ |
+| 是否有翻译层 | ✔ | ✔ | ❌ |
+| 生成程序是否依赖 DLL | ✔ | ✔ | ❌ |
+| 是否原生 Windows | ❌ | ❌ | ✔ |
 
 ---
 
@@ -384,12 +384,12 @@ Kernel
 
 # 八、类比理解（更形象）
 
-| 工具     | 类比                            |
+| 工具 | 类比 |
 | ------ | ----------------------------- |
 | Cygwin | 在 Windows 上装了一个“半个 Linux 虚拟机” |
-| MSYS   | 给 MinGW 提供 Linux 命令行          |
-| MSYS2  | 带包管理的现代 Linux 模拟 + 多编译器平台     |
-| MinGW  | 纯 Windows 编译器                 |
+| MSYS | 给 MinGW 提供 Linux 命令行 |
+| MSYS2 | 带包管理的现代 Linux 模拟 + 多编译器平台 |
+| MinGW | 纯 Windows 编译器 |
 
 ---
 

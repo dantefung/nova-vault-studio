@@ -43,7 +43,7 @@ url: "https://github.com/domain-driven-design/ddd-harness-microservices"
 | **adapter** | 对外适配层（Controller/MQ listener），协议转换 + 参数校验 |
 | **application** | 用例编排层（AppService），组合 domain 行为、管理事务边界 |
 | **domain** | 领域模型层，承载业务不变量与状态机 |
-| **infrastructure** | 基础设施层（DB/外部API/缓存/锁） |
+| **infrastructure** | 基础设施层（DB/外部 API/缓存/锁） |
 
 依赖方向：`adapter → application → domain ← infrastructure`
 

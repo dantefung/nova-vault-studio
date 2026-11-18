@@ -371,7 +371,7 @@ url: "https://x.com/AdrianPunk115/status/2102695228637319269"
 
 ## **关于作者**
 
-**Punk**｜中科大管理学硕士｜AI提示词、AI小白教程｜Punk系列Skills作者｜3个月赚了8位数｜Learn in Public｜FDE文章浏览量240w｜
+**Punk**｜中科大管理学硕士｜AI 提示词、AI 小白教程｜Punk 系列 Skills 作者｜3 个月赚了 8 位数｜Learn in Public｜FDE 文章浏览量 240w｜
 
 [[@AdrianPunk115](https://x.com/AdrianPunk115)](https://x.com/@AdrianPunk115)
 

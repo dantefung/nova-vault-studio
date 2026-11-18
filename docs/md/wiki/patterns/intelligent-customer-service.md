@@ -37,7 +37,7 @@ date: "2026-05-09"
 
 ## Context
 
-智能客服专栏共18篇文章，覆盖v1（基于NotebookLM调研）和v2（基于联网对抗性研究）两个版本，涵盖系统架构、RAG实现、知识图谱、多智能体、技术选型、生产部署、架构演进、意图分类等完整内容。
+智能客服专栏共 18 篇文章，覆盖 v1（基于 NotebookLM 调研）和 v2（基于联网对抗性研究）两个版本，涵盖系统架构、RAG 实现、知识图谱、多智能体、技术选型、生产部署、架构演进、意图分类等完整内容。
 
 ## Related Pages
 
@@ -52,5 +52,5 @@ date: "2026-05-09"
 
 - [[智能客服专栏] 智能客服系统建设总纲](./index.md)
 - [[智能客服专栏] 系统设计与架构](../../guide/ai/intelligent-customer-service/01-system-design.md)
-- [[智能客服专栏] 系统设计与架构v2](../../guide/ai/intelligent-customer-service/07-system-design-v2.md)
+- [[智能客服专栏] 系统设计与架构 v2](../../guide/ai/intelligent-customer-service/07-system-design-v2.md)
 - [[智能客服专栏] 智能客服建设指南](../../guide/ai/intelligent-customer-service/16-customer-service-building-guide.md)

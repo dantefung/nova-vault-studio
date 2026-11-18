@@ -106,7 +106,7 @@ support during the writing of this book.
 
  About the reviewers
 Gaurav Aroraa has done an MPhil in computer science. He is a Microsoft MVP, a lifetime
-member of Computer Society of India (CSI),  an advisory member of IndiaMentor,
+member of Computer Society of India (CSI), an advisory member of IndiaMentor,
 certified as a Scrum trainer/coach, XEN for ITIL-F, and APMG for PRINCE-F and PRINCE-
 P. He is an open source developer, a contributor to TechNet Wiki, and the founder of
 Ovatic Systems Private Limited. In his career of over 20 years, he has mentored thousands
@@ -2972,7 +2972,7 @@ ISO/IEC/IEEE 42010 standard definition
 There is a standard definition for software architecture, which resulted from a joint effort
 between the International Organization for Standardization (ISO) and the Institute of
 Electrical and Electronics Engineers (IEEE). ISO/IEC/IEEE 42010 systems and software
-engineering's  architecture description is an international standard that defines software
+engineering's architecture description is an international standard that defines software
 architecture as:
 
 "Fundamental concepts or properties of a system in its environment embodied in its
@@ -3777,7 +3777,7 @@ Now that cloud deployments are the norm, having someone in an organization dedic
 to cloud adoption, with the relevant expertise, has become increasingly common and
 necessary. A cloud architect is someone who is responsible for an organization's cloud
 computing strategy and initiatives. They are responsible for the cloud architecture used for
-the deployment of software systems.  An organization that has someone who is focused on
+the deployment of software systems. An organization that has someone who is focused on
 cloud architecture leads to increased levels of success with cloud adoption.
 
 The responsibilities of cloud architects include selecting a cloud provider and selecting the
@@ -8432,7 +8432,7 @@ design process to supplement what you feel is missing from the design process yo
 use.
 
 So far, we have been discussing architecture design processes in fairly general terms, so
-now let's  explore several concrete ones at a high level. Three of the architecture design
+now let's explore several concrete ones at a high level. Three of the architecture design
 processes available to you are ADD, Microsoft's technique for architecture and design, and
 the ACDM.
 
@@ -9595,7 +9595,7 @@ numerous contexts to convey the idea that systems generally work best if they ar
 simple. The principle is applicable to the design of software systems. A development team
 should strive to not overcomplicate their solutions.
 
-Variations of the acronym include Keep It Short, Simple, Keep It  Simple, Stupid, Keep It Simple,
+Variations of the acronym include Keep It Short, Simple, Keep It Simple, Stupid, Keep It Simple,
 Straightforward, and Keep It Simple, Silly. All of them have the same basic meaning, which is
 to express the value of simplicity in designs.
 
@@ -13989,7 +13989,7 @@ Once the functional definition has been uploaded to the cloud provider, the buil
 uses it for compilation to produce an artifact. The resultant artifact may be a binary file, a
 package, or a container image.
 
-The starting of an instance function can be the result of cold start or  warm start. With a
+The starting of an instance function can be the result of cold start or warm start. With a
 warm start, one or more function instances have already been deployed and are ready to be
 executed when needed. A cold start takes longer since the function starts from an
 undeployed state. The function must be deployed and then executed when it is needed.
@@ -14998,7 +14998,7 @@ Logging
 
 Caching
 Leveraging the use of caching in a software application is a common way to improve
-performance.  It may be used in a variety of places where data is being read, making it a
+performance. It may be used in a variety of places where data is being read, making it a
 cross-cutting concern for the application.
 
 A reusable caching service should provide the ability to perform operations, such as
@@ -16146,7 +16146,7 @@ two are often used in conjunction with each other.
 Bundling is an effective technique when we are using HTTP/1.1. In order to understand the
 reasons behind that, let's examine how assets are sent. In order to load a web page, the
 browser has to load each of the files that it needs, one at a time, over a connection, as shown
-in  the following diagram:
+in the following diagram:
 
 [ 338 ]
 
@@ -16387,7 +16387,7 @@ and EOT formats are not compressed by default, so servers should use compression
 delivering these formats.
 
 Web fonts can be large Unicode fonts with support for a variety of characters, not all of
-which will be needed at a given time.  The unicode-range property in @font-face can
+which will be needed at a given time. The unicode-range property in @font-face can
 be used to split up a font into multiple subsets so that only the characters that are actually
 needed will be downloaded.
 
@@ -23783,1539 +23783,1539 @@ valuable to other potential customers, our authors, and Packt. Thank you!
  Index
 
 active design review (ADR)
-   about  429, 430
-   documentation for review, preparing  430
-   questionnaires, designing  431
-   review, conducting  431, 432
-   reviewers, identifying  431
-   specialized reviews, identifying  431
-   steps  430
+   about 429, 430
+   documentation for review, preparing 430
+   questionnaires, designing 431
+   review, conducting 431, 432
+   reviewers, identifying 431
+   specialized reviews, identifying 431
+   steps 430
 active reviews of intermediate designs (ARID)
-   about  432
-   participant roles  432
-   phases  432
+   about 432
+   participant roles 432
+   phases 432
 activity diagrams, UML
-   about  417, 418
-   actions/control flow  419
-   decision/merge nodes  419
-   fork/join nodes  420
-   start/end nodes  418
-adaptability  99
+   about 417, 418
+   actions/control flow 419
+   decision/merge nodes 419
+   fork/join nodes 420
+   start/end nodes 418
+adaptability 99
 Advanced Message Queueing Protocol (AMQP)
 
 266
 
 advantages, cloud
-   automatic updates  286
-   cost reduction  286
-   disaster recovery  287
-   greater flexibility and scalability  286
+   automatic updates 286
+   cost reduction 286
+   disaster recovery 287
+   greater flexibility and scalability 286
 advantages, serverless architectures
-   core products, building  279
-   cost savings  279
-   polyglot development  280
-   scalable and flexible  279
-Agile approach  473
-Agile Manifesto  33
+   core products, building 279
+   cost savings 279
+   polyglot development 280
+   scalable and flexible 279
+Agile approach 473
+Agile Manifesto 33
 Agile software development methodologies
-   about  32
-   adaptive  34
-   Agile principles  33
+   about 32
+   adaptive 34
+   Agile principles 33
 
 6
 6 R's
-   about  471
-   refactor  472
-   rehost  472
-   remove  471
-   replatform  472
-   repurchase  472
-   retain  471
+   about 471
+   refactor 472
+   rehost 472
+   remove 471
+   replatform 472
+   repurchase 472
+   retain 471
 
 7
 7 Cs of communication
-   about  481
-   clarity  482
-   completeness  484
-   conciseness  482
-   concreteness  483
-   consideration  483
-   correctness  484
-   courteousness  483
+   about 481
+   clarity 482
+   completeness 484
+   conciseness 482
+   concreteness 483
+   consideration 483
+   correctness 484
+   courteousness 483
 
 A
 AAA pattern
-   about  204
-   Act  204
-   Arrange  204
-   Assert  204
+   about 204
+   Act 204
+   Arrange 204
+   Assert 204
 accessibility
-   designing for  88
-Account base class  406
+   designing for 88
+Account base class 406
 ACID consistency model
-   about  354
-   atomicity  354
-   consistency  354
-   durability  355
-   isolation  354
+   about 354
+   atomicity 354
+   consistency 354
+   durability 355
+   isolation 354
 
-    Agile values  33
-   daily stand-up meetings  35
-   iterative methodology  34
-   predictive  34
-agnostic functional context  253
+    Agile values 33
+   daily stand-up meetings 35
+   iterative methodology 34
+   predictive 34
+agnostic functional context 253
 Amazon Elastic Container Service (Amazon ECS)
 
 288
 
 Amazon Elastic Container Service for Kubernetes
 
-(Amazon EKS)  288
+(Amazon EKS) 288
 
-Amazon Web Services (AWS)  288
-application architect  25
+Amazon Web Services (AWS) 288
+application architect 25
 application overview
-    application type, determining  152
-   creating  151
-   deployment constraints, identifying  152
+    application type, determining 152
+   creating 151
+   deployment constraints, identifying 152
    important architecture design styles, identifying
 
 152
 
-   relevant technologies, determining  152
+   relevant technologies, determining 152
 application, profiling
-   about  326
-   instrumentation  327
-   statistical profilers  327
+   about 326
+   instrumentation 327
+   statistical profilers 327
 architectural drivers
-   about  124
-   architectural concerns  128
-   constraints  127
-   design objectives  125
-   primary functional requirements  126
-   quality-attribute scenarios  126
+   about 124
+   architectural concerns 128
+   constraints 127
+   design objectives 125
+   primary functional requirements 126
+   quality-attribute scenarios 126
 architecturally-significant requirements (ASRs)
 
 142
 
 Architecture Analysis and Design Language
 
-(AADL)  399
+(AADL) 399
 
-architecture description languages (ADLs)  399
+architecture description languages (ADLs) 399
 architecture descriptions (ADs)
-   about  393, 397
-   creating  397
-   software architecture views  397, 398
-   Unified Modeling Language (UML)  401
+   about 393, 397
+   creating 397
+   software architecture views 397, 398
+   Unified Modeling Language (UML) 401
 architecture development method (ADM)
-   about  111, 157
-   architecture vision  160
-   business architecture  160
-   change management  162
-   governance, implementation  162
-   information systems architectures  161
+   about 111, 157
+   architecture vision 160
+   business architecture 160
+   change management 162
+   governance, implementation 162
+   information systems architectures 161
 
-   migration planning  162
-   opportunities and solutions  161
-   phases  159
-   technology architecture  161
+   migration planning 162
+   opportunities and solutions 161
+   phases 159
+   technology architecture 161
    The Open Group Architecture Framework
 
-(TOGAF)  157
+(TOGAF) 157
 
-architecture pattern  215
-architecture style  215
+architecture pattern 215
+architecture style 215
 architecture tradeoff analysis method (ATAM)
-   participant roles  424
-   phases  424
-architecture views  397
+   participant roles 424
+   phases 424
+architecture views 397
 architecture-centric design method (ACDM)
-   about  111, 153, 154
-   architectural drivers, discovering  155
-   experiment-planning  156
-   experimenting with  156
-   notional architecture, creating  155
-   production  157
-   production go/no-go  156
-   production planning  157
-   project scope, establishing  155
-   refining  156
-   review  155
+   about 111, 153, 154
+   architectural drivers, discovering 155
+   experiment-planning 156
+   experimenting with 156
+   notional architecture, creating 155
+   production 157
+   production go/no-go 156
+   production planning 157
+   project scope, establishing 155
+   refining 156
+   review 155
 ARID participant roles
-   facilitator  432
-   lead designer  432
-   questioners  432
-   reviewers  432
-   scribe  432
-   software architects  432
+   facilitator 432
+   lead designer 432
+   questioners 432
+   reviewers 432
+   scribe 432
+   software architects 432
 ARID phases
-   pre-meeting  433
-   review meeting  434
-artifact  410
+   pre-meeting 433
+   review meeting 434
+artifact 410
 aspect-oriented programming (AOP)
-   about  297, 306
-   fundamental concepts  307
-   types of advice  307
-   weaving  308
-asymmetric (public key) encryption  375
-asynchronous messages  415
+   about 297, 306
+   fundamental concepts 307
+   types of advice 307
+   weaving 308
+asymmetric (public key) encryption 375
+asynchronous messages 415
 ATAM participant roles
-   evaluation leader  424
-   proceedings scribe  424
+   evaluation leader 424
+   proceedings scribe 424
 
 [ 537 ]
 
-    project decision makers  424
-   questioner  424
-   scenario scribe  424
-   stakeholders  424
-   team leader  424
+    project decision makers 424
+   questioner 424
+   scenario scribe 424
+   stakeholders 424
+   team leader 424
 ATAM phases
-   evaluation  425, 428
-   follow up  429
-   partnership and preparation  425
+   evaluation 425, 428
+   follow up 429
+   partnership and preparation 425
 attribute-driven design (ADD)
-    current design analysis, performing  149
-   about  111, 145, 146
-   architectural elements, instantiating  148
-   design concepts, selecting  148
-   design decisions, recording  149
-   input, reviewing  147
-   input, selecting  147
-   interfaces, defining  148
-   iterating process  149
-   iteration goal, establishing  147
-   iteration goal, reviewing  149
-   responsibilities, allocating  148
-   system elements, selecting  148
-   views, sketching  149
+    current design analysis, performing 149
+   about 111, 145, 146
+   architectural elements, instantiating 148
+   design concepts, selecting 148
+   design decisions, recording 149
+   input, reviewing 147
+   input, selecting 147
+   interfaces, defining 148
+   iterating process 149
+   iteration goal, establishing 147
+   iteration goal, reviewing 149
+   responsibilities, allocating 148
+   system elements, selecting 148
+   views, sketching 149
 authentication, IAM
-   about  377
-   multi-factor authentication (MFA)  378
-   two-factor authentication (2FA)  378
+   about 377
+   multi-factor authentication (MFA) 378
+   two-factor authentication (2FA) 378
 automated builds
-   about  445, 446
-   software versioning  446, 447
+   about 445, 446
+   software versioning 446, 447
 availability
-   about  91
-   based on request success rate, calculating  93
-   based on time, calculating  92
-   errors  93
-   failures  93
-   faults  93
-Azure Container Service (AKS)  288
+   about 91
+   based on request success rate, calculating 93
+   based on time, calculating 92
+   errors 93
+   failures 93
+   faults 93
+Azure Container Service (AKS) 288
 
 B
 backlog, prioritizing
-   DIVE criteria  164
+   DIVE criteria 164
 BASE consistency model
-   about  355
+   about 355
 
-   basic availability  355
-   eventual consistency  355
-   soft state  355
+   basic availability 355
+   eventual consistency 355
+   soft state 355
 beats
-   about  317
-   Auditbeat  317
-   Filebeat  317
-   Heartbeat  317
-   Libbeat  317
-   Metricbeat  317
-   Packetbeat  317
-   Winlogbeat  317
-behavioral modeling  401
+   about 317
+   Auditbeat 317
+   Filebeat 317
+   Heartbeat 317
+   Libbeat 317
+   Metricbeat 317
+   Packetbeat 317
+   Winlogbeat 317
+behavioral modeling 401
 best alternative to a negotiated agreement
 
-(BATNA)  496
+(BATNA) 496
 
 best practices, for team success
-   about  201
-   deliverables, reviewing  209
-   development environments, setting up  206, 207
-   pair programming  208
-   unit testing  201
-Big Design Up Front (BDUF)  118, 501
-bits per second (bps)  324
-black box  263
-blockers  80
+   about 201
+   deliverables, reviewing 209
+   development environments, setting up 206, 207
+   pair programming 208
+   unit testing 201
+Big Design Up Front (BDUF) 118, 501
+bits per second (bps) 324
+black box 263
+blockers 80
 blog
-   starting  523, 524
-   visibility, increasing  523
-   writing  522
-bottlenecks  328
+   starting 523, 524
+   visibility, increasing 523
+   writing 522
+bottlenecks 328
 bottom-up approach
-   about  119
-   advantages  120, 121
-   disadvantages  120
-   using  121, 122
-bounce rate  322
-bounded contexts  61, 63
-brownfield software system  124
+   about 119
+   advantages 120, 121
+   disadvantages 120
+   using 121, 122
+bounce rate 322
+bounded contexts 61, 63
+brownfield software system 124
 build and deployment processes
-   automating  474
-   modernizing  473, 474
+   automating 474
+   modernizing 473, 474
 build tools
-   updating  475
-built-in self-test (BIST)  95
-built-in test (BIT)  95
+   updating 475
+built-in self-test (BIST) 95
+built-in test (BIT) 95
 
 [ 538 ]
 
- bundling  338
-burst compute pattern  454
+ bundling 338
+burst compute pattern 454
 business acumen
-   developing  53
-business entity services  253
+   developing 53
+business entity services 253
 Business Process Execution Language (BPEL)
 
 227
 
-Business Process Manager (BPM)  227
+Business Process Manager (BPM) 227
 Business Process Model and Notation (BPMN)
 
 227
 
-Business Tier  223
-business topics  54
+Business Tier 223
+business topics 54
 
 C
 cache usage patterns
-   about  332
-   read-through pattern  332
-   write-behind pattern  333
-   write-through pattern  333
+   about 332
+   read-through pattern 332
+   write-behind pattern 333
+   write-through pattern 333
 cached data, invalidating
-   data, evicting  331
-   data, expiring  331
-caching  310
-CALMS  439
-   about  437
-   culture  438, 439
-   Lean  440
-   measurement  441
-   sharing  441
+   data, evicting 331
+   data, expiring 331
+caching 310
+CALMS 439
+   about 437
+   culture 438, 439
+   Lean 440
+   measurement 441
+   sharing 441
 CAP theorem
-   about  353
-   availability  353
-   consistency  353
-   partition tolerance  353
-Cascading Style Sheets (CSS)  183
+   about 353
+   availability 353
+   consistency 353
+   partition tolerance 353
+Cascading Style Sheets (CSS) 183
 categories, fitness functions
-   atomic, versus holistic  509
-   automated, versus manual  509
-   domain-specific  510
-   intentional, versus emergent  510
-   static, versus dynamic  509
-   temporal  510
-   triggered, versus continuous  509
+   atomic, versus holistic 509
+   automated, versus manual 509
+   domain-specific 510
+   intentional, versus emergent 510
+   static, versus dynamic 509
+   temporal 510
+   triggered, versus continuous 509
 centralized identity provider (IdP)
-   implementing  380
+   implementing 380
 
 challenges, remote resources
-   communication  498
-   confidential company data  499
-   cultural differences  498
-   impromptu meetings  498
-   new employee onboarding  498, 499
-   work quality  499
-change control board (CCB)  47
+   communication 498
+   confidential company data 499
+   cultural differences 498
+   impromptu meetings 498
+   new employee onboarding 498, 499
+   work quality 499
+change control board (CCB) 47
 characteristics, MSA
    autonomous and independently deployable
 
-services  265
+services 265
 
    communicating, with lightweight message
 
-protocols  266
-   fault isolation  266
-   focused services  264
-   independent data storage  265
-   well-defined service interfaces  265
+protocols 266
+   fault isolation 266
+   focused services 264
+   independent data storage 265
+   well-defined service interfaces 265
 CIA triad
-   about  357, 359
-   availability  360
-   confidentiality  359
-   integrity  359
-cipher  375
-ciphertext  374
+   about 357, 359
+   availability 360
+   confidentiality 359
+   integrity 359
+cipher 375
+ciphertext 374
 class diagrams, UML
-   about  401
-   aggregation  403
-   association  402, 403
-   composition  404
-   dependency  405
-   generalization  405
-   multiplicity  404
-   realization  406, 407
-   visibility  402
+   about 401
+   aggregation 403
+   association 402, 403
+   composition 404
+   dependency 405
+   generalization 405
+   multiplicity 404
+   realization 406, 407
+   visibility 402
 client-server architecture
-   about  220
+   about 220
    stored procedures, using for application logic
 
 221, 222
 
-cloud architect  28
-cloud bursting  454
+cloud architect 28
+cloud bursting 454
 cloud models
-   about  454, 455
-   Containers as a Service (CaaS)  456, 458
-   Function as a Service (FaaS)  459
-   Infrastructure as a Service (IaaS)  455, 456
+   about 454, 455
+   Containers as a Service (CaaS) 456, 458
+   Function as a Service (FaaS) 459
+   Infrastructure as a Service (IaaS) 455, 456
 
 [ 539 ]
 
-    Platform as a Service (PaaS)  458
-   Software as a Service (SaaS)  459
-Cloud Native Computing Foundation (CNCF)  287
+    Platform as a Service (PaaS) 458
+   Software as a Service (SaaS) 459
+Cloud Native Computing Foundation (CNCF) 287
 cloud types, DevOps
-   hybrid cloud  453, 454
-   private cloud  452, 453
-   public cloud  452
+   hybrid cloud 453, 454
+   private cloud 452, 453
+   public cloud 452
 cloud-native applications
-   about  285, 287
-   containerized  287, 288
-   continuous delivery  289
-   dynamically orchestrated  288
-   microservices-oriented  289
-   migrating, to cloud  286
-   no downtime  289
-   twelve-factor apps  290
-   variety of devices support  290
-clustered table  349
+   about 285, 287
+   containerized 287, 288
+   continuous delivery 289
+   dynamically orchestrated 288
+   microservices-oriented 289
+   migrating, to cloud 286
+   no downtime 289
+   twelve-factor apps 290
+   variety of devices support 290
+clustered table 349
 cohesion
-   about  172
-   coincidental cohesion  173
-   communicational cohesion  174
-   designing  175
-   functional cohesion  174
-   logical cohesion  173
-   procedural cohesion  173, 174
-   sequential cohesion  174
-   temporal cohesion  173
-   types  172
-cold start  283
-Command Model  239
+   about 172
+   coincidental cohesion 173
+   communicational cohesion 174
+   designing 175
+   functional cohesion 174
+   logical cohesion 173
+   procedural cohesion 173, 174
+   sequential cohesion 174
+   temporal cohesion 173
+   types 172
+cold start 283
+Command Model 239
 Command Query Responsibility Segregation
 
 (CQRS)
 
-   about  213, 238
-   advantages  240
-   command model  239
-   disadvantages  241
-   event-sourcing, using  240
-   query model  239
-commented-out code  468
-commercial off-the-shelf (COTS)  73
+   about 213, 238
+   advantages 240
+   command model 239
+   disadvantages 241
+   event-sourcing, using 240
+   query model 239
+commented-out code 468
+commercial off-the-shelf (COTS) 73
 common web application security risks
-   about  385
-   broken access control  388
-   broken authentication  385
+   about 385
+   broken access control 388
+   broken authentication 385
 
    components, using with known vulnerable
 
-components  390
+components 390
 
-   cross-site scripting (XSS)  389
-   injection  385
-   insecure deserialization  389, 390
-   insufficient logging and monitoring  390
-   security misconfiguration  388
-   sensitive data exposure  386
-   unvalidated redirects and forwards  391
-   XML external entity (XXE) attack  386
-complex event processing (CEP)  228, 229
+   cross-site scripting (XSS) 389
+   injection 385
+   insecure deserialization 389, 390
+   insufficient logging and monitoring 390
+   security misconfiguration 388
+   sensitive data exposure 386
+   unvalidated redirects and forwards 391
+   XML external entity (XXE) attack 386
+complex event processing (CEP) 228, 229
 complexity
-   minimizing  175
-component under test (CUT)  105
+   minimizing 175
+component under test (CUT) 105
 compression
-   about  335
-   content-encoding (end-to-end) compression  337
-   file compression  335
-ConcreteComponent  303
+   about 335
+   content-encoding (end-to-end) compression 337
+   file compression 335
+ConcreteComponent 303
 configuration management
-   about  46, 311
-   changing  47, 48
-Containers as a Service (CaaS)  456, 458
+   about 46, 311
+   changing 47, 48
+Containers as a Service (CaaS) 456, 458
 content delivery networks (CDNs)
-   about  344
-   using  344
+   about 344
+   using 344
 continuous delivery (CD)
-   about  448, 474, 511
-   practicing  475
-continuous deployment  448, 449
+   about 448, 474, 511
+   practicing 475
+continuous deployment 448, 449
 continuous integration (CI)
-   about  47, 445, 474, 511
-   automated builds  445, 446
-   automated testing  447
-   practicing  474
-core assets  50
-core concern  298
-create, read, update, and delete (CRUD)  238
+   about 47, 445, 474, 511
+   automated builds 445, 446
+   automated testing 447
+   practicing 474
+core assets 50
+core concern 298
+create, read, update, and delete (CRUD) 238
 critical rendering path (CRP)
-   optimizing  346, 347
+   optimizing 346, 347
 cross-cutting concerns implementation
-   about  301
-   decorator pattern, using  302, 304, 306
-   dependency injection (DI), using  301
+   about 301
+   decorator pattern, using 302, 304, 306
+   dependency injection (DI), using 301
 cross-cutting concerns, types
 
 [ 540 ]
 
-    auditing  312
-   caching  310
-   configuration management  311
-   exception management  312
-   logging  313
-   security  312
+    auditing 312
+   caching 310
+   configuration management 311
+   exception management 312
+   logging 313
+   security 312
 cross-cutting concerns
-   about  298
-   for microservices  317
-   guidelines  299
-   types  310
+   about 298
+   for microservices 317
+   guidelines 299
+   types 310
 cross-site scripting (XSS)
-   about  389
-   DOM XSS  389
-   reflected XSS  389
-   stored XSS  389
+   about 389
+   DOM XSS 389
+   reflected XSS 389
+   stored XSS 389
 cryptographic hash function
-   about  376
-   collision resistant  377
-   deterministic  376
-   one-way function  376
-   quick  376
+   about 376
+   collision resistant 377
+   deterministic 376
+   one-way function 376
+   quick 376
 cryptography
-   about  374
-   encryption  374
-   hash functions  375
-Crystal  33
-CSS Object Model (CSSOM)  346
-customer relationship management (CRM)  459
-cyclomatic complexity  84, 85, 510
+   about 374
+   encryption 374
+   hash functions 375
+Crystal 33
+CSS Object Model (CSSOM) 346
+customer relationship management (CRM) 459
+cyclomatic complexity 84, 85, 510
 
 D
-daily scrum  35
-data architect  26
+daily scrum 35
+data architect 26
 data caching, in distributed applications
-   about  330
-   private caching strategy, using  330
-   shared caching strategy, using  330
-data Tier  224
-data-transfer object (DTO)  238
-database administrator (DBA)  328
+   about 330
+   private caching strategy, using 330
+   shared caching strategy, using 330
+data Tier 224
+data-transfer object (DTO) 238
+database administrator (DBA) 328
 database concurrency
-   about  352
-   ACID model  354
-   BASE model  355
+   about 352
+   ACID model 354
+   BASE model 355
 
-   CAP theorem  353
-   database transactions  352
+   CAP theorem 353
+   database transactions 352
    optimistic, versus pessimistic concurrency
 
-control  352, 353
+control 352, 353
 
 database indexes
-   many indexes  350
-   primary/clustered indexes  349
-   secondary/non-clustered indexes  350
-   using  349
-database management system (DBMS)  81, 351
+   many indexes 350
+   primary/clustered indexes 349
+   secondary/non-clustered indexes 350
+   using 349
+database management system (DBMS) 81, 351
 database performance
-   about  347
-   database concurrency  352
-   database indexes, using  349
-   efficient database schema, designing  347
-   scaling out  351
-   scaling up  351
-dead code  468
-Decorator class  303
-default deny approach  373
+   about 347
+   database concurrency 352
+   database indexes, using 349
+   efficient database schema, designing 347
+   scaling out 351
+   scaling up 351
+dead code 468
+Decorator class 303
+default deny approach 373
 deliverables
-   code reviews  209, 210
-   formal inspections  210
-   reviewing  209
-   walkthrough  212
+   code reviews 209, 210
+   formal inspections 210
+   reviewing 209
+   walkthrough 212
 delivery strategies, SOA
-   agile strategy  250
-   bottom-up strategy  249
-   top-down strategy  249
-denial-of-service (DoS) attack  363
+   agile strategy 250
+   bottom-up strategy 249
+   top-down strategy 249
+denial-of-service (DoS) attack 363
 Dependency Injection (DI)
-   about  196, 297
-   benefits  196
-   containers  201
-   patterns  197
+   about 196, 297
+   benefits 196
+   containers 201
+   patterns 197
 Dependency Inversion Principle (DIP)
-   about  167, 194
-   Dependency Injection (DI)  196
-   Inversion of Control (IoC)  195
-depth of inheritance tree (DIT)  86, 510
+   about 167, 194
+   Dependency Injection (DI) 196
+   Inversion of Control (IoC) 195
+depth of inheritance tree (DIT) 86, 510
 design principles
-   design concept, selecting  129
-   externally-developed software  132
+   design concept, selecting 129
+   externally-developed software 132
    externally-developed software, buy or build
 
-scenario  133
+scenario 133
 
 [ 541 ]
 
-    leveraging  129
-   reference architectures  130
-   software architecture patterns  130
-   tactics  132
+    leveraging 129
+   reference architectures 130
+   software architecture patterns 130
+   tactics 132
 design rationale
-   about  400
-   documenting  138
-   for design communication  140
-   for design documentation  140
-   for design evaluation  139
-   for design knowledge transfer  139
-   for design maintenance  140
-   for design reuse  140
-   for design verification  139
+   about 400
+   documenting 138
+   for design communication 140
+   for design documentation 140
+   for design evaluation 139
+   for design knowledge transfer 139
+   for design maintenance 140
+   for design reuse 140
+   for design verification 139
 development environments
-   README file, providing  207
+   README file, providing 207
 DevOps
-   about  437
-   architecting  449
-   CALMS  437
-   cloud models  454, 455
-   cloud types  452
-   continuous delivery (CD)  448
-   continuous deployment  448, 449
-   continuous integration (CI)  445
-   deploying, to cloud  451
-   important quality attributes  449, 450
-   need for  441, 442
-   practices  444
-   toolchain  442, 444
+   about 437
+   architecting 449
+   CALMS 437
+   cloud models 454, 455
+   cloud types 452
+   continuous delivery (CD) 448
+   continuous deployment 448, 449
+   continuous integration (CI) 445
+   deploying, to cloud 451
+   important quality attributes 449, 450
+   need for 441, 442
+   practices 444
+   toolchain 442, 444
 DI patterns
-   constructor injection  197
-   method injection  200
-   property injection  198
-   service locator  200
+   constructor injection 197
+   method injection 200
+   property injection 198
+   service locator 200
 disadvantages, serverless architectures
-   debugging and monitoring, limitations  280
-   designing many functions complexity  281
-   multitenancy issues  280
-   runtime optimizations  281
-   still immature  281
-   vendor lock-in  281
-distributed denial-of-service (DDoS) attack  344,
+   debugging and monitoring, limitations 280
+   designing many functions complexity 281
+   multitenancy issues 280
+   runtime optimizations 281
+   still immature 281
+   vendor lock-in 281
+distributed denial-of-service (DDoS) attack 344,
 
 363
 DIVE criteria
 
-   business value  164
-   dependencies  164
-   estimated effort  164
-   insure against risks  164
-DLL/EXE  309
-Document Object Model (DOM)  346
-document type definitions (DTDs)  387
-DOM XSS  389
-domain sharding  340
+   business value 164
+   dependencies 164
+   estimated effort 164
+   insure against risks 164
+DLL/EXE 309
+Document Object Model (DOM) 346
+document type definitions (DTDs) 387
+DOM XSS 389
+domain sharding 340
 domain-driven design (DDD)
-   about  56, 265
-   benefits  56
-   bounded contexts  61, 63
-   domain, separating, into subdomains  60
-   fundamentals  59
-   ubiquitous language  57, 59
-domain-specific language (DSL)  227
+   about 56, 265
+   benefits 56
+   bounded contexts 61, 63
+   domain, separating, into subdomains 60
+   fundamentals 59
+   ubiquitous language 57, 59
+domain-specific language (DSL) 227
 Don't Repeat Yourself (DRY) principle
-   about  176, 178, 300, 468
-   copy-and-paste programming  178
-   duplication, avoiding  180
-   magic strings  178
-   overly DRY things  180
+   about 176, 178, 300, 468
+   copy-and-paste programming 178
+   duplication, avoiding 180
+   magic strings 178
+   overly DRY things 180
 DREAD risk assessment model
-   about  364
-   affected users  365
-   damage potential  364
-   discoverability  365
-   exploitability  365
-   reproducibility  364
-duplicate code  468
+   about 364
+   affected users 365
+   damage potential 364
+   discoverability 365
+   exploitability 365
+   reproducibility 364
+duplicate code 468
 duties, software architect
-   technical leaders  17
+   technical leaders 17
 
 E
 efficient database schema, designing
-   appropriate data types, selecting  349
-   database, denormalizing  348
-   database, normalizing  347
-   primary and foreign keys, identifying  348
+   appropriate data types, selecting 349
+   database, denormalizing 348
+   database, normalizing 347
+   primary and foreign keys, identifying 348
 Elastic Stack
-   about  315
-   beats  317
-   Elasticsearch  315
-   Kibana  316
+   about 315
+   beats 317
+   Elasticsearch 315
+   Kibana 316
 
 [ 542 ]
 
-    Logstash  316
-   using  315
-Elevation of Privilege (EoP)  363
+    Logstash 316
+   using 315
+Elevation of Privilege (EoP) 363
 encryption
-   about  374
-   asymmetric (public key) encryption  375
-   symmetric (secret key) encryption  375
-enterprise architect  24
-Enterprise Service Bus (ESB)  264
-entity-centric business services  253
+   about 374
+   asymmetric (public key) encryption 375
+   symmetric (secret key) encryption 375
+enterprise architect 24
+Enterprise Service Bus (ESB) 264
+entity-centric business services 253
 evaluation, ATAM phases
-   about  425
-   architectural approaches, analyzing  427, 429
-   architectural approaches, identifying  426
-   architecture, presenting  426
-   ATAM, presenting  425
-   business drivers, presenting  426
-   quality attribute utility tree, generating  426
-   results, presenting  429
-   scenarios, brainstorming  428
-   scenarios, prioritizing  428
+   about 425
+   architectural approaches, analyzing 427, 429
+   architectural approaches, identifying 426
+   architecture, presenting 426
+   ATAM, presenting 425
+   business drivers, presenting 426
+   quality attribute utility tree, generating 426
+   results, presenting 429
+   scenarios, brainstorming 428
+   scenarios, prioritizing 428
 event channels
-   about  225
-   message queues  225
-   message topics  225
-   point-to-point channel pattern  225
-   publish-subscribe pattern  225
+   about 225
+   message queues 225
+   message topics 225
+   point-to-point channel pattern 225
+   publish-subscribe pattern 225
 event processing styles
-   about  228
-   complex event processing (CEP)  229
-   event stream processing (ESP)  229
-   simple event processing (SEP)  229
-event stream processing (ESP)  228, 229
+   about 228
+   complex event processing (CEP) 229
+   event stream processing (ESP) 229
+   simple event processing (SEP) 229
+event stream processing (ESP) 228, 229
 event-driven architecture (EDA)
-   about  213, 224
-   broker topology  227
-   event channels  224
-   event processing styles  228
-   event-driven functionality, types  230
-   mediator topology  226, 227
-   topologies  226
+   about 213, 224
+   broker topology 227
+   event channels 224
+   event processing styles 228
+   event-driven functionality, types 230
+   mediator topology 226, 227
+   topologies 226
 event-driven functionality
-   event-carried state transfer  230, 231
-   event-sourcing  231, 232
+   event-carried state transfer 230, 231
+   event-sourcing 231, 232
 evolutionary architectures
 
-   changes across multiple dimensions  512
-   changes, making  508
-   designing  507
-   evolvable APIs, designing  513
-   fitness functions  508
-   incremental changes, making  511, 512
-   last responsible moment (LRM)  515
-   loosely coupled  512, 513
-   standards, using in software system  514
+   changes across multiple dimensions 512
+   changes, making 508
+   designing 507
+   evolvable APIs, designing 513
+   fitness functions 508
+   incremental changes, making 511, 512
+   last responsible moment (LRM) 515
+   loosely coupled 512, 513
+   standards, using in software system 514
 evolvable APIs
-   designing  513
-   Postel's Law, applying  514
+   designing 513
+   Postel's Law, applying 514
 existing solutions
-   leveraging  129
-extensibility  82
+   leveraging 129
+extensibility 82
 externally-developed software
-   building, advantages/disadvantages  133
-   buying, advantages/disadvantages  134
-   external software, researching  134
-   open source software (OSS), using  135
-Extreme Programming (XP)  33, 182
+   building, advantages/disadvantages 133
+   buying, advantages/disadvantages 134
+   external software, researching 134
+   open source software (OSS), using 135
+Extreme Programming (XP) 33, 182
 
 F
-facilitator  35
+facilitator 35
 fault detection detection
-   condition monitoring  95
-   self-tests  95
+   condition monitoring 95
+   self-tests 95
 fault detection
-   heartbeat  94
-   ping/echo reply  94
-   sanity test/sanity checking  95
-   timestamp  94
-   voting  94
+   heartbeat 94
+   ping/echo reply 94
+   sanity test/sanity checking 95
+   timestamp 94
+   voting 94
 faults recovery, ways
-   about  95
-   exception handling  95
-   faulty behavior, ignoring  97
-   graceful degradation  97
-   retry strategy  96
-   rollback  97
-   varying levels of redundancy  96
+   about 95
+   exception handling 95
+   faulty behavior, ignoring 97
+   graceful degradation 97
+   retry strategy 96
+   rollback 97
+   varying levels of redundancy 96
 faults
-   detecting  94
+   detecting 94
 file compression
-   about  336
+   about 336
 
 [ 543 ]
 
-    lossless compression  336
-   lossy compression  336
-Filebeat  317
-FileImport class  405
+    lossless compression 336
+   lossy compression 336
+Filebeat 317
+FileImport class 405
 fitness functions
-   about  508
-   categories  509
-   examples  510
-flexibility  82
-Flow Final Node  419
+   about 508
+   categories 509
+   examples 510
+flexibility 82
+Flow Final Node 419
 formal inspection
-   about  210
-   author  211
-   leader/moderator  211
-   recorder/scribe  211
-   reviewer  211
+   about 210
+   author 211
+   leader/moderator 211
+   recorder/scribe 211
+   reviewer 211
 formal inspections
-   meeting and follow-up  211
-   roles  211
-formal negotiations  495, 496
+   meeting and follow-up 211
+   roles 211
+formal negotiations 495, 496
 formats, web fonts
-   EOT  345
-   TTF  345
-   WOFF  345
-   WOFF 2.0  345
-frequently asked questions (FAQs)  91
-Function as a Service (FaaS)  459
+   EOT 345
+   TTF 345
+   WOFF 345
+   WOFF 2.0 345
+frequently asked questions (FAQs) 91
+Function as a Service (FaaS) 459
 function invocation
-   asynchronous request (message queue)  284
-   batch job  285
-   message stream  284
-   synchronous request  283
+   asynchronous request (message queue) 284
+   batch job 285
+   message stream 284
+   synchronous request 283
 fundamental concepts, AOP
-   advice  307
-   aspect  307
-   join point  307
-   pointcut  307
+   advice 307
+   aspect 307
+   join point 307
+   pointcut 307
 fundamentals, domain-driven design (DDD)
-   aggregates entities  60
-   entities  59
-   root entities  60
-   value objects  59
+   aggregates entities 60
+   entities 59
+   root entities 60
+   value objects 59
 
 G
-g11n  100
-gigabits per second (Gbps)  324
+g11n 100
+gigabits per second (Gbps) 324
 good help system
-   providing  91
-Graphics Interchange File (GIF)  336
+   providing 91
+Graphics Interchange File (GIF) 336
 greenfield systems
-   about  123
-   versus brownfield software systems  123
+   about 123
+   versus brownfield software systems 123
 guidelines, cross-cutting concerns
-   about  299
-   consistency, maintaining  299
-   cross-cutting concerns, identifying  299
-   open-source, using  299
-   scattered solutions, avoiding  300
-   tangled solutions, avoiding  300, 301
-   third-party solutions, using  299
-gzip compression  337
+   about 299
+   consistency, maintaining 299
+   cross-cutting concerns, identifying 299
+   open-source, using 299
+   scattered solutions, avoiding 300
+   tangled solutions, avoiding 300, 301
+   third-party solutions, using 299
+gzip compression 337
 
 H
-hash function  375
-header compression  343
+hash function 375
+header compression 343
 Health Insurance Portability and Accountability Act
 
-(HIPAA)  452
+(HIPAA) 452
 
-heap  349
+heap 349
 HTTP caching
-   cache-control directives, specifying  334, 335
-   leveraging  333, 334
-   validation token, using  334
+   cache-control directives, specifying 334, 335
+   leveraging 333, 334
+   validation token, using 334
 HTTP/2
-   about  341
-   header compression  343
-   implementing  343
-   multiplexing  342
-   server push  342, 343
-   using  341
-human resources (HR) department  369
-Hypertext Markup Language (HTML)  183
-Hypertext Transfer Protocol Secure (HTTPS)  104
+   about 341
+   header compression 343
+   implementing 343
+   multiplexing 342
+   server push 342, 343
+   using 341
+human resources (HR) department 369
+Hypertext Markup Language (HTML) 183
+Hypertext Transfer Protocol Secure (HTTPS) 104
 
 I
-i18n  100
-IComponent interface  303
+i18n 100
+IComponent interface 303
 identity and access management (IAM)
 
 [ 544 ]
 
-    about  377
-   authentication  377
-   authorization  378
+    about 377
+   authentication 377
+   authorization 378
    centralized identity provider (IdP), implementing
 
 380, 381
 
-   domain authentication, using  380
-   encrypted passwords, storing  379
-   hashed passwords, storing  379, 380
-   OAuth 2  381
-   OpenID Connect (OIDC)  381
-   plaintext passwords, storing  379
-informal negotiations  495, 496
-information architect  26
-information technology (IT)  456
+   domain authentication, using 380
+   encrypted passwords, storing 379
+   hashed passwords, storing 379, 380
+   OAuth 2 381
+   OpenID Connect (OIDC) 381
+   plaintext passwords, storing 379
+informal negotiations 495, 496
+information architect 26
+information technology (IT) 456
 information-hiding
-   about  180
-   exposed/hidde itemsn  181
-   reasons  181
+   about 180
+   exposed/hidde itemsn 181
+   reasons 181
 infrastructure architect
-   about  27
-   facilities  27
-   network elements  27
-   servers  27
-   storage systems  27
-Infrastructure as a Service (IaaS)  279, 455
-installability  99
+   about 27
+   facilities 27
+   network elements 27
+   servers 27
+   storage systems 27
+Infrastructure as a Service (IaaS) 279, 455
+installability 99
 Institute of Electrical and Electronics Engineers
 
-(IEEE)  9
+(IEEE) 9
 
-integrated development environment (IDE)  84,
+integrated development environment (IDE) 84,
 
 176, 262, 443, 469
 
 Integrated Information Infrastructure Reference
 
-Model (III-RM)  158
+Model (III-RM) 158
 
-inter-process communication (IPC)  319
-Interface Segregation Principle (ISP)  167, 191
+inter-process communication (IPC) 319
+Interface Segregation Principle (ISP) 167, 191
 International Organization for Standardization
 
-(ISO)  9
+(ISO) 9
 
-internationalization  100, 101
-Internet of Things (IoT)  277
-internet service provider (ISP)  324
+internationalization 100, 101
+Internet of Things (IoT) 277
+internet service provider (ISP) 324
 interoperability
-   about  102
-   challenges  102, 103
+   about 102
+   challenges 102, 103
    information, exchanging with another system
 
 103
 
-   information, locating  103
+   information, locating 103
 
-   standards  104
-   testing  104
-ivory tower architect  18, 19
+   standards 104
+   testing 104
+ivory tower architect 18, 19
 
 J
-JavaScript  183
-JavaScript Object Notation (JSON)  104, 266, 316
-Joint Photographic Experts Group (JPEG)  336
+JavaScript 183
+JavaScript Object Notation (JSON) 104, 266, 316
+Joint Photographic Experts Group (JPEG) 336
 JSON web token (JWT)
-   about  382
-   header  383
-   payload  383
-   signature  384
+   about 382
+   header 383
+   payload 383
+   signature 384
 
 K
-Kanban  33
-Keep It Simple, Stupid (KISS)  176
-Kibana  316
+Kanban 33
+Keep It Simple, Stupid (KISS) 176
+Kibana 316
 KISS principle
-   about  176
-   applying, to software  177
-   origin  176
-   over simplicity, avoiding  177
+   about 176
+   applying, to software 177
+   origin 176
+   over simplicity, avoiding 177
 
 L
-last responsible moment (LRM)  515
-last-mile latency  324
-law of the instrument  519
-layer  217
+last responsible moment (LRM) 515
+last-mile latency 324
+law of the instrument 519
+layer 217
 layered architecture
-   about  216
-   advantages  218, 219
-   client-server architecture  220
-   disadvantages  219, 220
-   N-tier architecture  222
-   open layers, versus closed layers  216, 217
-   tiers, versus layers  217, 218
-leadership  489, 490, 491, 492, 494
-lean software development (LSD)  440
-learnability  87
+   about 216
+   advantages 218, 219
+   client-server architecture 220
+   disadvantages 219, 220
+   N-tier architecture 222
+   open layers, versus closed layers 216, 217
+   tiers, versus layers 217, 218
+leadership 489, 490, 491, 492, 494
+lean software development (LSD) 440
+learnability 87
 legacy application
-   migrating, to cloud  470
+   migrating, to cloud 470
 legacy applications
-   about  461, 462, 464
-   changes, making  469
+   about 461, 462, 464
+   changes, making 469
 
 [ 545 ]
 
-    data integration, performing  477
-   functionality, sharing between systems  477
-   integrating with  475
-   issues  462, 463
-   monoliths, transforming to microservices  469,
+    data integration, performing 477
+   functionality, sharing between systems 477
+   integrating with 475
+   issues 462, 463
+   monoliths, transforming to microservices 469,
 
 470
 
-   need for  463
-   need, confirming  476
-   redundant code, removing  467
-   refactoring  464, 465
-   tools, using to refactor  469
-   type, determining  476
+   need for 463
+   need, confirming 476
+   redundant code, removing 467
+   refactoring 464, 465
+   tools, using to refactor 469
+   type, determining 476
 legacy code
-   testable, making  465
-   tests, writing  466
-   unit testing, benefits  465, 466
-   unit tests, refactoring  466
+   testable, making 465
+   tests, writing 466
+   unit testing, benefits 465, 466
+   unit tests, refactoring 466
 Lehman's laws of software evolution
-   about  503, 504
-   change, continuing  505
-   complexity, increasing  505
-   conservation of familiarity  506
-   conservation of organizational stability  506
-   feedback system  507
-   growth, continuing  506
-   quality, declining  506
-   self-regulation  505
+   about 503, 504
+   change, continuing 505
+   complexity, increasing 505
+   conservation of familiarity 506
+   conservation of organizational stability 506
+   feedback system 507
+   growth, continuing 506
+   quality, declining 506
+   self-regulation 505
 Lehman's software categories
-   about  503
-   E-type systems  504
-   P-type systems  504
-   S-type systems  503
-Libbeat  317
-lines of code (LOC)  77, 84, 210, 510
-Liskov Substitution Principle (LSP)  167, 189
-localization  100, 101
+   about 503
+   E-type systems 504
+   P-type systems 504
+   S-type systems 503
+Libbeat 317
+lines of code (LOC) 77, 84, 210, 510
+Liskov Substitution Principle (LSP) 167, 189
+localization 100, 101
 log entries
-   characteristics  313
+   characteristics 313
 log levels
-   DEBUG  313
-   ERROR  314
-   FATAL  314
-   INFO  314
-   TRACE  313
-   WARN  314
+   DEBUG 313
+   ERROR 314
+   FATAL 314
+   INFO 314
+   TRACE 313
+   WARN 314
 
-logging  313
+logging 313
 logging, cross-cutting concerns
-   Elastic Stack, using  315
-   log entries  313
-   log entries, routing  314
-   log levels  313
-Logstash  316
+   Elastic Stack, using 315
+   log entries 313
+   log entries, routing 314
+   log levels 313
+Logstash 316
 loose coupling
-   about  169
-   common coupling  169
-   content coupling  169
-   control coupling  170
-   data coupling  170, 171
-   designing for  171
-   external coupling  170
+   about 169
+   common coupling 169
+   content coupling 169
+   control coupling 170
+   data coupling 170, 171
+   designing for 171
+   external coupling 170
    Law of Demeter (LoD) / principle of least
 
-knowledge  171
+knowledge 171
 
-   message coupling  171
-   no coupling  171
-   stamp coupling (data-structured coupling)  170
-   types  169
-lossless compression  336
-lossy compression  336
+   message coupling 171
+   no coupling 171
+   stamp coupling (data-structured coupling) 170
+   types 169
+lossless compression 336
+lossy compression 336
 
 M
 maintainability
-   about  79
-   cohesion, increasing  83
-   coupling, reducing  83
-   cyclomatic complexity  84, 85
-   depth of inheritance tree (DIT)  86
-   designing  82
-   Lines of code (LOC)  84
-   measuring  83
-   size, reducing  83
+   about 79
+   cohesion, increasing 83
+   coupling, reducing 83
+   cyclomatic complexity 84, 85
+   depth of inheritance tree (DIT) 86
+   designing 82
+   Lines of code (LOC) 84
+   measuring 83
+   size, reducing 83
 mediator topology
-   about  226, 227
-   implementations  227
-megabits per second (Mbps)  324
+   about 226, 227
+   implementations 227
+megabits per second (Mbps) 324
 message-delivery guarantees, AMQP
-   at least once  266
-   at most once  266
-   exactly once  266
+   at least once 266
+   at most once 266
+   exactly once 266
 microservice chassis
-   leveraging  317, 318
+   leveraging 317, 318
 
 [ 546 ]
 
  microservices architecture (MSA)
-   about  260, 263, 451
-   audience, selecting  275, 276
-   characteristics  264
-   dependencies, sharing  270
-   granularity  269
-   nanoservices  269, 270
-   polyglot microservices, designing  267
-   service discovery  271
-   service-oriented architecture (SOA)  263
-   stateless, versus stateful microservices  271
+   about 260, 263, 451
+   audience, selecting 275, 276
+   characteristics 264
+   dependencies, sharing 270
+   granularity 269
+   nanoservices 269, 270
+   polyglot microservices, designing 267
+   service discovery 271
+   service-oriented architecture (SOA) 263
+   stateless, versus stateful microservices 271
 microservices, cross-cutting concerns
-   microservice chassis, leveraging  317, 318
-   sidecar pattern, using  318, 319
-minification  337
+   microservice chassis, leveraging 317, 318
+   sidecar pattern, using 318, 319
+minification 337
 Model-View-Controller (MVC) pattern
-   about  213, 232
-   advantages  234
-   controller  234
-   disadvantages  234
-   model  233
-   view  233
+   about 213, 232
+   advantages 234
+   controller 234
+   disadvantages 234
+   model 233
+   view 233
 Model-View-Presenter (MVP) pattern
-   about  213, 235
-   model  235
-   presenter  236
-   view  235
+   about 213, 235
+   model 235
+   presenter 236
+   view 235
 Model-View-ViewModel (MVVM) pattern
-   about  213, 236
-   model  237
-   view  237
-   ViewModel  237
+   about 213, 236
+   model 237
+   view 237
+   ViewModel 237
 modeling, UML
-   behavioral modeling  401
-   structural modeling  401
-modifiability  81
+   behavioral modeling 401
+   structural modeling 401
+modifiability 81
 modifications
-   scope  82
-monolithic architecture  260
-multi-factor authentication (MFA)  378
+   scope 82
+monolithic architecture 260
+multi-factor authentication (MFA) 378
 
 N
 n-tier architecture
-   about  222
-   Business Tier  223
+   about 222
+   Business Tier 223
 
-   data Tier  224
-   Presentation Tier  223
+   data Tier 224
+   Presentation Tier 223
 naming conventions
-   for unit tests  204
-   unit test class names  205
-   unit test method names  205
+   for unit tests 204
+   unit test class names 205
+   unit test method names 205
 negotiation
-   about  494
-   using  495
-network-attached storage (NAS)  27
-no design up front (NDUF)  120
+   about 494
+   using 495
+network-attached storage (NAS) 27
+no design up front (NDUF) 120
 nodes
-   about  410
-   device nodes  410
-   execution environment nodes (EENs)  410
-non-agnostic functional context  253
-non-clustered indexes  350
+   about 410
+   device nodes 410
+   execution environment nodes (EENs) 410
+non-agnostic functional context 253
+non-clustered indexes 350
 
 O
 OAuth 2
-   about  381
-   roles  381
-object-oriented programming (OOP)  306
-object-relational mapping (ORM) tool  224
+   about 381
+   roles 381
+object-oriented programming (OOP) 306
+object-relational mapping (ORM) tool 224
 office politics
-   about  40
-   cultural differences  43
-   goals  42
-   negotiating  43
-   organization's goals  42
-   stakeholders, addressing  42
+   about 40
+   cultural differences 43
+   goals 42
+   negotiating 43
+   organization's goals 42
+   stakeholders, addressing 42
 onolithic architecture
-   benefits  261
-   drawbacks  262
-Open Source Initiative (OSI)  135, 522
+   benefits 261
+   drawbacks 262
+Open Source Initiative (OSI) 135, 522
 open source projects
-   creating  521
-   participating  521
+   creating 521
+   participating 521
 open source software (OSS)
-   advantages  136
-   disadvantages  136, 137
+   advantages 136
+   disadvantages 136, 137
 Open Web Application Security Project (OWASP)
-   about  385
-   reference link  385
-Open/Closed Principle (OCP)  167, 187, 301
+   about 385
+   reference link 385
+Open/Closed Principle (OCP) 167, 187, 301
 
 [ 547 ]
 
  OpenID Connect (OICD)
-   about  381
-   authenticating, with identity provider  382
-   authorizing, with authorization server  384
+   about 381
+   authenticating, with identity provider 382
+   authorizing, with authorization server 384
 operating system (OS)
-   about  327
-   adaptive maintenance  81
-orchestrated task service  253
-organization's business  55
+   about 327
+   adaptive maintenance 81
+orchestrated task service 253
+organization's business 55
 orthogonal software systems
-   designing  168
-   high cohesion  172
-   loose coupling  168
+   designing 168
+   high cohesion 172
+   loose coupling 168
 
 P
 pair programming
-   about  208
-   benefits  208, 209
-   using  209
+   about 208
+   benefits 208, 209
+   using 209
 performance improvement
-   application, profiling  326
-   changes, implementing  328
-   results, analyzing  328
-   results, monitoring  329
-   systematic approach  326
+   application, profiling 326
+   changes, implementing 328
+   results, analyzing 328
+   results, monitoring 329
+   systematic approach 326
 performance terminology
-   bandwidth  324
-   defining  323
-   latency  324
-   processing time  325
-   response time  325
-   throughput  324
-   utilization  325
-   workload  325
+   bandwidth 324
+   defining 323
+   latency 324
+   processing time 325
+   response time 325
+   throughput 324
+   utilization 325
+   workload 325
 performance
-   about  321, 322
-   bounce rate  322
-   conversion rate  322
-   need for  323
-   page speed  323
-personally identifiable information (PII)  499, 510
-plaintext  374
-Platform as a Service (PaaS)  279, 458
+   about 321, 322
+   bounce rate 322
+   conversion rate 322
+   need for 323
+   page speed 323
+personally identifiable information (PII) 499, 510
+plaintext 374
+Platform as a Service (PaaS) 279, 458
 policies, data eviction
-   explicitly evicting data  332
+   explicitly evicting data 332
 
-   first-in, first-out (FIFO)  332
-   last-in, first-out (LIFO)  332
-   least recently used (LRU)  331
-   most recently used (MRU)  331
+   first-in, first-out (FIFO) 332
+   last-in, first-out (LIFO) 332
+   least recently used (LRU) 331
+   most recently used (MRU) 331
 polyglot microservices
-   designing  267
-   polyglot persistence  268
-   polyglot programming  268
-   technologies, using  269
+   designing 267
+   polyglot persistence 268
+   polyglot programming 268
+   technologies, using 269
 portability
-   about  99
-   maintaining  102
-Portable Network Graphics (PNG)  336
+   about 99
+   maintaining 102
+Portable Network Graphics (PNG) 336
 pre-meeting phase, ARID
-   design presentation, preparing  433
-   review meeting, preparing for  433
-   reviewers, identifying  433
-   seed scenarios, preparing  433
-Presentation Tier  223
+   design presentation, preparing 433
+   review meeting, preparing for 433
+   reviewers, identifying 433
+   seed scenarios, preparing 433
+Presentation Tier 223
 presentations
-   about  486
-   plan  487
-   practice  488
-   prepare  487, 488
-   present  489
-primary index  349
-principle of least privilege (PoLP)  371
-product line engineering (PLE)  49
-profilers  327
-profiling  326
+   about 486
+   plan 487
+   practice 488
+   prepare 487, 488
+   present 489
+primary index 349
+principle of least privilege (PoLP) 371
+product line engineering (PLE) 49
+profilers 327
+profiling 326
 project back
-   acting  40
-   obtaining, on schedule  38
-   overtime, working  38
-   problem areas, identifying  40
-   resources, adding  39
-   resources, reallocating  39
-   scope, reducing  38
+   acting 40
+   obtaining, on schedule 38
+   overtime, working 38
+   problem areas, identifying 40
+   resources, adding 39
+   resources, reallocating 39
+   scope, reducing 38
 project management
-   about  36
-   estimates  36
-   project back, obtaining on schedule  38
-   project schedule changes  38
-   realist  37
-   software project estimation, importance  36
+   about 36
+   estimates 36
+   project back, obtaining on schedule 38
+   project schedule changes 38
+   realist 37
+   software project estimation, importance 36
 
 [ 548 ]
 
-    team and situational factors  37
-proof of concept (POC)  125, 527
+    team and situational factors 37
+proof of concept (POC) 125, 527
 
 Q
 quality attributes
-   about  76, 77
-   and software development life cycle (SDLC)  78
-   external  77
-   internal  77
-   testing  78
+   about 76, 77
+   and software development life cycle (SDLC) 78
+   external 77
+   internal 77
+   testing 78
 quality-attribute scenarios
-   about  126
-   prioritizing  127
-Query Model  239
+   about 126
+   prioritizing 127
+Query Model 239
 
 R
 redundant legacy code
-   commented-out code  468
-   dead code  468
-   duplicate code  468
-   removing  467
-   unreachable code  467
+   commented-out code 468
+   dead code 468
+   duplicate code 468
+   removing 467
+   unreachable code 467
 reference architectures
-   benefits  130
-   creating  131
-   refactoring  131
-reflected XSS  389
-registered claims  383
+   benefits 130
+   creating 131
+   refactoring 131
+reflected XSS 389
+registered claims 383
 relational database management system (RDBMS)
 
 220, 266, 271
 remote resources
-   benefits  497
-   challenges  497
-   working with  497
-replaceability  100
-reply/return messages  415
+   benefits 497
+   challenges 497
+   working with 497
+replaceability 100
+reply/return messages 415
 requirements elicitation
-   about  68
-   stakeholders access, getting  74
-   techniques  69
+   about 68
+   stakeholders access, getting 74
+   techniques 69
 requirements engineering
-   about  63
-   need for  66
-   software requirements, types  63
-resilience engineering  511
+   about 63
+   need for 66
+   software requirements, types 63
+resilience engineering 511
 
-return on investment (ROI)  44, 55
+return on investment (ROI) 44, 55
 review meeting phase, ARID
-   about  434
-   ARID method, presenting  434
-   design, presenting  434
-   scenarios, brainstorming  434
-   scenarios, prioritizing  434
-risk acceptance  46
-risk avoidance  45
-risk management  43
+   about 434
+   ARID method, presenting 434
+   design, presenting 434
+   scenarios, brainstorming 434
+   scenarios, prioritizing 434
+risk acceptance 46
+risk avoidance 45
+risk management 43
 risk management options, threat modeling
-   risk, accepting  366
-   risk, avoiding  366
-   risk, mitigating  367
-   risk, transferring  366
-   security controls  367
-risk mitigation  46
-Robustness Principle  514
+   risk, accepting 366
+   risk, avoiding 366
+   risk, mitigating 367
+   risk, transferring 366
+   security controls 367
+risk mitigation 46
+Robustness Principle 514
 roles, OAuth 2
-   authorization server  381
-   client  381
-   resource owner  381
-   resource server  381
+   authorization server 381
+   client 381
+   resource owner 381
+   resource server 381
 
 S
-sampling  327
-scripts.js  340
-Scrum  33
-secondary indexes  350
-secure by default  372
+sampling 327
+scripts.js 340
+Scrum 33
+secondary indexes 350
+secure by default 372
 secure by design
-   about  370
-   attack surface, minimizing  371
-   default deny  373
-   defense in depth  371
-   fail securely  374
-   input validation  373
-   principle of least privilege (PoLP)  371
-   secure by default  372
-   security by obscurity, avoiding  372
-   security, must be usable  373, 374
-   simple software designs  372
-   weakest link, securing  373
-Secure Hashing Algorithm 256 (SHA-256)  376
-security architect  28
+   about 370
+   attack surface, minimizing 371
+   default deny 373
+   defense in depth 371
+   fail securely 374
+   input validation 373
+   principle of least privilege (PoLP) 371
+   secure by default 372
+   security by obscurity, avoiding 372
+   security, must be usable 373, 374
+   simple software designs 372
+   weakest link, securing 373
+Secure Hashing Algorithm 256 (SHA-256) 376
+security architect 28
 
 [ 549 ]
 
  security controls
-   about  367
-   administrative controls  368, 369
-   detection  370
-   physical security controls  367
-   prevention  369
-   response  370
-   technical security controls  369
-semantic versioning  446
-Separation of Concerns (SoC)  167, 176, 183,
+   about 367
+   administrative controls 368, 369
+   detection 370
+   physical security controls 367
+   prevention 369
+   response 370
+   technical security controls 369
+semantic versioning 446
+Separation of Concerns (SoC) 167, 176, 183,
 
 218, 298
 
 sequence diagrams, UML
-   activation boxes  414
-   alternative flows  416, 417
-   lifeline  414
-   loops  415
-   messages  414
-   optional flows  416
-server push  342, 343
+   activation boxes 414
+   alternative flows 416, 417
+   lifeline 414
+   loops 415
+   messages 414
+   optional flows 416
+server push 342, 343
 server-side caching
-   about  329
-   cache usage patterns  332
-   cache, priming  331
-   cached data, invalidating  331
-   data, caching in distributed applications  330
-Server-Side Request Forgery (SSRF)  386
+   about 329
+   cache usage patterns 332
+   cache, priming 331
+   cached data, invalidating 331
+   data, caching in distributed applications 330
+Server-Side Request Forgery (SSRF) 386
 serverless architecture
-   about  276
-   advantages  279
-   Backend as a service (BaaS)  278
-   disadvantages  280
-   Function as a service (FaaS)  277
-   function deployment  282
-   function invocation  283
-   hybrid approach  282
+   about 276
+   advantages 279
+   Backend as a service (BaaS) 278
+   disadvantages 280
+   Function as a service (FaaS) 277
+   function deployment 282
+   function invocation 283
+   hybrid approach 282
 service discovery
-    service registry, using  271
-   about  271
-   client-side discovery pattern  274
-   server-side discovery pattern  274, 275
-   types  273
+    service registry, using 271
+   about 271
+   client-side discovery pattern 274
+   server-side discovery pattern 274, 275
+   types 273
 service registry
-   self-registration pattern  272
-   third-party registration pattern  272
-   using  271
+   self-registration pattern 272
+   third-party registration pattern 272
+   using 271
 
-service-level agreements (SLAs)  29
+service-level agreements (SLAs) 29
 service-oriented architecture (SOA)
-   about  213, 241, 242, 263
-   analysis  250
-   benefits  242, 243, 244
-   business automation requirements, defining  250
-   candidate services, modeling  251
-   challenges  245
-   cost-benefit analysis  244
-   delivery strategies  248
-   design  253, 254
-   entity service  253
-   existing automation systems, identifying  251
-   key principles  246
-   namespaces, structuring  257
-   service abstraction  247
-   service autonomy  247
-   service choreography  258
-   service composability  248
-   service descriptions  256
-   service discoverability  248
-   service layers  251, 252
-   service loose coupling  246
-   service models  251, 252
-   service orchestration  258
-   service registries  255, 256
-   service reusability  247
-   service statelessness  248
-   service-interface design  254
-   service-interface granularity  255
-   standardized service contract  246
-   task service  253
-   utility service  253
+   about 213, 241, 242, 263
+   analysis 250
+   benefits 242, 243, 244
+   business automation requirements, defining 250
+   candidate services, modeling 251
+   challenges 245
+   cost-benefit analysis 244
+   delivery strategies 248
+   design 253, 254
+   entity service 253
+   existing automation systems, identifying 251
+   key principles 246
+   namespaces, structuring 257
+   service abstraction 247
+   service autonomy 247
+   service choreography 258
+   service composability 248
+   service descriptions 256
+   service discoverability 248
+   service layers 251, 252
+   service loose coupling 246
+   service models 251, 252
+   service orchestration 258
+   service registries 255, 256
+   service reusability 247
+   service statelessness 248
+   service-interface design 254
+   service-interface granularity 255
+   standardized service contract 246
+   task service 253
+   utility service 253
 sidecar pattern
-   using  318, 319
-simple event processing (SEP)  228, 229
-Single Responsibility Principle (SRP)  63, 167,
+   using 318, 319
+simple event processing (SEP) 228, 229
+Single Responsibility Principle (SRP) 63, 167,
 
 184, 186, 278, 300
 
 software architects
-   7 Cs of communication  481
-   about  20, 21, 518, 519, 520
-   application architect  25
-   cloud architect  28
-   communicating  480, 481
-   communication  480
+   7 Cs of communication 481
+   about 20, 21, 518, 519, 520
+   application architect 25
+   cloud architect 28
+   communicating 480, 481
+   communication 480
 
 [ 550 ]
 
-    conferences, attending  528, 529, 530
-   continuous involvement, with coding  527, 528
-   data architect  26
-   duties  18
-   enterprise architect  24
-   expectations, communicating  481
-   information architect  26
-   information security architect  28
-   infrastructure architect  27
-   life outside software development  531
-   listening skills  485, 486
-   preparations, for teaching  524, 525, 526
-   presentations  486
-   quality attributes, communicating  481
-   responsibility  530
-   soft skills  479, 480
-   solution architect  25
-   technical qualities  19, 20
-   technologies, using  526
-   types  24
-   user groups, attending  528, 529, 530
-   working  17
+    conferences, attending 528, 529, 530
+   continuous involvement, with coding 527, 528
+   data architect 26
+   duties 18
+   enterprise architect 24
+   expectations, communicating 481
+   information architect 26
+   information security architect 28
+   infrastructure architect 27
+   life outside software development 531
+   listening skills 485, 486
+   preparations, for teaching 524, 525, 526
+   presentations 486
+   quality attributes, communicating 481
+   responsibility 530
+   soft skills 479, 480
+   solution architect 25
+   technical qualities 19, 20
+   technologies, using 526
+   types 24
+   user groups, attending 528, 529, 530
+   working 17
 software architecture analysis method (SAAM)
-   about  421
-   architecture, developing  422
-   overall evaluation, creating  423
-   scenario interaction, assessing  423
-   scenario-based analysis  421
-   scenarios, classifying  422
-   scenarios, developing  422
-   scenarios, evaluating  423
-   scenarios, prioritizing  422
-   steps  422
+   about 421
+   architecture, developing 422
+   overall evaluation, creating 423
+   scenario interaction, assessing 423
+   scenario-based analysis 421
+   scenarios, classifying 422
+   scenarios, developing 422
+   scenarios, evaluating 423
+   scenarios, prioritizing 422
+   steps 422
 software architecture design
-   about  112
-   active backlogs  165
-   architectural analysis  142
-   architectural evaluation  143
-   architectural synthesis  143
-   as iterative process  143
-   backlog, prioritizing  163
-   communicating, to others  116
-   component  115
-   design decisions, avoiding  116
-   design decisions, making  112, 113
+   about 112
+   active backlogs 165
+   architectural analysis 142
+   architectural evaluation 143
+   architectural synthesis 143
+   as iterative process 143
+   backlog, prioritizing 163
+   communicating, to others 116
+   component 115
+   design decisions, avoiding 116
+   design decisions, making 112, 113
 
-   design terms  113
-   documenting  137
-   dynamic backlogs  164
-   element  114
-   guidance, providing to developers  117
-   importance  115
-   key decisions, creating  115
-   model  142
-   module  114
-   non-technical parts, influencing  117
-   progress, tracking  162
-   progress, tracking with backlog  163
-   selecting  144, 145
-   sketching  137, 138
-   structure  113
-   subsystem  114
-   system  114
-   systematic approach, using  141
+   design terms 113
+   documenting 137
+   dynamic backlogs 164
+   element 114
+   guidance, providing to developers 117
+   importance 115
+   key decisions, creating 115
+   model 142
+   module 114
+   non-technical parts, influencing 117
+   progress, tracking 162
+   progress, tracking with backlog 163
+   selecting 144, 145
+   sketching 137, 138
+   structure 113
+   subsystem 114
+   system 114
+   systematic approach, using 141
 software architecture documentation, uses
-   about  394
-   architectural knowledge reuse, allowing  396
-   architecture, communicating to others  394
-   development team, assisting  395
-   input, providing for reviews  395
-   software architect, helping  396
-   team members, educating  395
+   about 394
+   architectural knowledge reuse, allowing 396
+   architecture, communicating to others 394
+   development team, assisting 395
+   input, providing for reviews 395
+   software architect, helping 396
+   team members, educating 395
 software architecture notations
-   about  398
-   formal software architecture notations  399
-   informal software architecture notations  398
-   semiformal software architecture notations  399
-   types  398
+   about 398
+   formal software architecture notations 399
+   informal software architecture notations 398
+   semiformal software architecture notations 399
+   types 398
 software architecture patterns
-   about  214, 216
-   overusing  215
-   using  214, 215
-   versus, architecture styles  215, 216
+   about 214, 216
+   overusing 215
+   using 214, 215
+   versus, architecture styles 215, 216
 software architecture views
-   about  397, 398
-   design rationales, including  400
-   notations  398
+   about 397, 398
+   design rationales, including 400
+   notations 398
 software architecture
-   about  8, 10, 16
-   active design review (ADR)  429
+   about 8, 10, 16
+   active design review (ADR) 429
    active reviews of intermediate designs (ARID)
 
 [ 551 ]
@@ -25326,295 +25326,295 @@ software architecture
 
 424
 
-   change, managing  13
-   communication ease  13
-   consumers  16
-   contents  10
-   cost estimates, improving  14, 15
-   effort estimates, improving  14, 15
-   implementation constraints, imposing  14
-   need for  10, 11
-   quality attributes, enabling  12
-   quality attributes, inhibiting  12
-   rationale, documenting  138
-   requirements  11
-   reusable model, providing  14
-   reviewing  420
-   serving, as training for team members  15
+   change, managing 13
+   communication ease 13
+   consumers 16
+   contents 10
+   cost estimates, improving 14, 15
+   effort estimates, improving 14, 15
+   implementation constraints, imposing 14
+   need for 10, 11
+   quality attributes, enabling 12
+   quality attributes, inhibiting 12
+   rationale, documenting 138
+   requirements 11
+   reusable model, providing 14
+   reviewing 420
+   serving, as training for team members 15
    software architecture analysis method (SAAM)
 
 421
 
-   system qualities, predicting  12
+   system qualities, predicting 12
 software architectures design, Microsoft
-   application overview, creating  151
-   architecture objectives, identifying  150
-   candidate solutions, defining  153
-   key issues, identifying  153
-   key scenarios, identifying  151
-   techniques  150
-Software as a Service (SaaS)  459
-software configuration management (SCM)  46
-software development life cycle (SDLC)  78
+   application overview, creating 151
+   architecture objectives, identifying 150
+   candidate solutions, defining 153
+   key issues, identifying 153
+   key scenarios, identifying 151
+   techniques 150
+Software as a Service (SaaS) 459
+software configuration management (SCM) 46
+software development life cycle (SDLC) 78
 software development methodologies
-   about  29
-   Agile software development methodologies  32
-   Waterfall model  30
+   about 29
+   Agile software development methodologies 32
+   Waterfall model 30
 software maintenance
-   adaptive maintenance  81
-   corrective maintenance  80
-   perfective maintenance  80
-   preventive maintenance  81
-   types  80
+   adaptive maintenance 81
+   corrective maintenance 80
+   perfective maintenance 80
+   preventive maintenance 81
+   types 80
 software product line
-   benefits  50
+   benefits 50
 software product lines
-   about  49
-   core assets, of organization  50
+   about 49
+   core assets, of organization 50
 
-   product line engineering, risks  51
+   product line engineering, risks 51
 software quality attribute scenario
-   artifact  421
-   environment  421
-   response  422
-   response measure  422
-   source of stimulus  421
-   stimulus  421
+   artifact 421
+   environment 421
+   response 422
+   response measure 422
+   source of stimulus 421
+   stimulus 421
 software requirements
-   impact on architecture  67, 68
-   measurable  67
-   testable  67
-   types  63
+   impact on architecture 67, 68
+   measurable 67
+   testable 67
+   types 63
 software risk management
-   about  43
-   financial risks  44
-   functional risks  44
-   legal risks  44
-   management risks  44
-   personnel risks  44
-   risk acceptance  46
-   risk avoidance  45
-   risk mitigation  46
-   risk, transferring  45
-   technical risks  44
+   about 43
+   financial risks 44
+   functional risks 44
+   legal risks 44
+   management risks 44
+   personnel risks 44
+   risk acceptance 46
+   risk avoidance 45
+   risk mitigation 46
+   risk, transferring 45
+   technical risks 44
 software systems security
-   about  358
-   CIA triad  359
-   three states of information  358
+   about 358
+   CIA triad 359
+   three states of information 358
 software systems
-   change  501, 502
+   change 501, 502
 software
-   uses  91
+   uses 91
 SOLID design principles
-   about  184
-   Dependency Inversion Principle (DIP)  194
-   Interface Segregation Principle (ISP)  191
-   Liskov Substitution Principle (LSP)  189
-   Open/Closed Principle (OCP)  187
-   Single Responsibility Principle (SRP)  184, 186
-solution architect  25
-source lines of code (SLOC)  84
-SQL injection (SQLi)  385
-standard error (stderr)  315
-standard output (stdout)  315
+   about 184
+   Dependency Inversion Principle (DIP) 194
+   Interface Segregation Principle (ISP) 191
+   Liskov Substitution Principle (LSP) 189
+   Open/Closed Principle (OCP) 187
+   Single Responsibility Principle (SRP) 184, 186
+solution architect 25
+source lines of code (SLOC) 84
+SQL injection (SQLi) 385
+standard error (stderr) 315
+standard output (stdout) 315
 
 [ 552 ]
 
- storage area networks (SAN)  27
-stored XSS  389
+ storage area networks (SAN) 27
+stored XSS 389
 strategies, for fault prevention
-   about  98
-   competence set, increasing  98
-   exception prevention  98
-   removal from service  98
-   transactions  98
-StreamReader class  405
+   about 98
+   competence set, increasing 98
+   exception prevention 98
+   removal from service 98
+   transactions 98
+StreamReader class 405
 STRIDE threat model
-   about  362
-   data, tampering with  362
-   denial-of-service (DoS)  363
-   Elevation of Privilege (EoP)  363
-   information disclosure  363
-   repudiation  362
-   spoofing identity  362
-Structured Query Language (SQL)  221
-styles.css  340
-synchronous messages  415
-System Under Test (SUT)  105, 204, 205
+   about 362
+   data, tampering with 362
+   denial-of-service (DoS) 363
+   Elevation of Privilege (EoP) 363
+   information disclosure 363
+   repudiation 362
+   spoofing identity 362
+Structured Query Language (SQL) 221
+styles.css 340
+synchronous messages 415
+System Under Test (SUT) 105, 204, 205
 Systems Modeling Language (SysML)
-   about  399, 400
-   diagram types  400
+   about 399, 400
+   diagram types 400
 
 T
-TCP Connection  342
+TCP Connection 342
 techniques, requirements elicitation
-   brainstorming sessions  70, 71
-   document analysis  73
-   focus groups  72
-   interviews  69
-   observation  71
-   prototyping  73, 74
-   requirements workshops  69, 70
-   reverse engineering  74
-   surveys  72
+   brainstorming sessions 70, 71
+   document analysis 73
+   focus groups 72
+   interviews 69
+   observation 71
+   prototyping 73, 74
+   requirements workshops 69, 70
+   reverse engineering 74
+   surveys 72
 testability
-   about  105
-   automatability  106
-   controllability  105
-   isolability  106
-   observability  106
-   software complexity  107
-   test documentation, importance  108
+   about 105
+   automatability 106
+   controllability 105
+   isolability 106
+   observability 106
+   software complexity 107
+   test documentation, importance 108
 
 tester
-   qualities  109
+   qualities 109
 The Open Group Architecture Framework (TOGAF)
-   architecture domains  158
-   documentation sections  158
-threat  360
+   architecture domains 158
+   documentation sections 158
+threat 360
 threat classification model
-   about  361
-   STRIDE threat model  362
+   about 361
+   STRIDE threat model 362
 threat modeling
-   about  360
-   application, decomposing  361
-   potential threats, categorizing  361
-   potential threats, identifying  361
-   potential threats, prioritizing  363
-   responses, to threats  365
-   risk management  365
-tier  217
+   about 360
+   application, decomposing 361
+   potential threats, categorizing 361
+   potential threats, identifying 361
+   potential threats, prioritizing 363
+   responses, to threats 365
+   risk management 365
+tier 217
 top-down approach
-   about  117, 118
-   advantages  118, 121, 122
-   disadvantages  118, 119
-   versus bottom-up design approach  117
-triple modular redundancy (TMR)  94
+   about 117, 118
+   advantages 118, 121, 122
+   disadvantages 118, 119
+   versus bottom-up design approach 117
+triple modular redundancy (TMR) 94
 twelve-factor apps
-   about  290
-   administrative processes  295
-   backing services  292
-   Build/Release/Run  292, 293
-   codebase  291
-   concurrency  294
-   configuration  292
-   dependencies  291
-   development/production parity  294
-   disposability  294
-   logs  295
-   port binding  294
-   processes  293
-two-factor authentication (2FA)  372, 378
+   about 290
+   administrative processes 295
+   backing services 292
+   Build/Release/Run 292, 293
+   codebase 291
+   concurrency 294
+   configuration 292
+   dependencies 291
+   development/production parity 294
+   disposability 294
+   logs 295
+   port binding 294
+   processes 293
+two-factor authentication (2FA) 372, 378
 types of advice, AOP
-   after advice (finally)  307
-   after returning advice (on success)  307
-   after throwing advice (on error)  307
-   around advice  307
-   before advice (on start)  307
+   after advice (finally) 307
+   after returning advice (on success) 307
+   after throwing advice (on error) 307
+   around advice 307
+   before advice (on start) 307
 
 [ 553 ]
 
  types, event-driven functionality
-   event notification  230
+   event notification 230
 types, software requirements
-   business requirements  64
-   constraints  65, 66
-   functional requirements  64
-   non-functional requirements  65
+   business requirements 64
+   constraints 65, 66
+   functional requirements 64
+   non-functional requirements 65
 
 U
-ubiquitous language  57, 59
+ubiquitous language 57, 59
 Unified Modeling Language (UML)
-   about  393
-   activity diagrams  417
-   class diagram  401
-   component diagrams  407
-   deployment diagrams  410
-   modeling, types  401
-   overview  401
-   package diagrams  409
-   sequence diagrams  413
-   structure diagrams  401
-   use case diagrams  411, 412
-Uniform Resource Locator (URI)  257
+   about 393
+   activity diagrams 417
+   class diagram 401
+   component diagrams 407
+   deployment diagrams 410
+   modeling, types 401
+   overview 401
+   package diagrams 409
+   sequence diagrams 413
+   structure diagrams 401
+   use case diagrams 411, 412
+Uniform Resource Locator (URI) 257
 unit testing, properties
-   atomic  202
-   automated and repeatable  203
-   deterministic  203
-   easy implementation  203
-   fast  203
-   isolated and independent  203
+   atomic 202
+   automated and repeatable 203
+   deterministic 203
+   easy implementation 203
+   fast 203
+   isolated and independent 203
 unit testing
-   AAA pattern  204
-   about  201
-   benefits  202
-   code coverage  205
-   naming conventions  204
-   properties  202
-   updating  206
+   AAA pattern 204
+   about 201
+   benefits 202
+   code coverage 205
+   naming conventions 204
+   properties 202
+   updating 206
 usability
-   about  87
-   need for  89
-   testing  89
+   about 87
+   need for 89
+   testing 89
 useful feedback
-   providing  88
+   providing 88
 user experience (UX)
 
-   conversion rate  323
-   performance affects  322
+   conversion rate 323
+   performance affects 322
 users
-   task completion, allowing  87
-utility tree  426
+   task completion, allowing 87
+utility tree 426
 
 V
-variation points  50
-virtual machines (VMs)  456
+variation points 50
+virtual machines (VMs) 456
 visual design
-   appealing  89
+   appealing 89
 
 W
-warm start  283
-Waste Everyone's Time  178
+warm start 283
+Waste Everyone's Time 178
 Waterfall model
-   about  30
-   issues  32
-   phases  31
-We Enjoy Typing)  178
+   about 30
+   issues 32
+   phases 31
+We Enjoy Typing) 178
 weaving
-   about  308
-   compile-time weaving  309
-   runtime weaving  309
-web application firewall (WAF)  385
+   about 308
+   compile-time weaving 309
+   runtime weaving 309
+web application firewall (WAF) 385
 web application performance, improving
-   compression, using  335
-   content delivery networks (CDNs)  344
-   critical rendering path, optimizing  346, 347
-   HTTP caching, leveraging  333, 334
-   HTTP/2, using  341
-   resources, bundling  338, 339, 340, 341
-   resources, minifying  337
-   techniques  333
-   web fonts, optimizing  344, 345
+   compression, using 335
+   content delivery networks (CDNs) 344
+   critical rendering path, optimizing 346, 347
+   HTTP caching, leveraging 333, 334
+   HTTP/2, using 341
+   resources, bundling 338, 339, 340, 341
+   resources, minifying 337
+   techniques 333
+   web fonts, optimizing 344, 345
 web applications
-   designing  89
+   designing 89
 web fonts
-   about  345
-   font formats  345
-   optimizing  345
+   about 345
+   font formats 345
+   optimizing 345
 Windows desktop applications
-   designing  90
-Windows Presentation Foundation (WPF)  237
-Write Everything Twice (WET)  178
+   designing 90
+Windows Presentation Foundation (WPF) 237
+Write Everything Twice (WET) 178
 
 [ 554 ]
 
  X
-XML external entity (XXE) attack  386
+XML external entity (XXE) attack 386
 
 Y
 
 You Aren't Gonna Need It (YAGNI)
-   about  176, 182
-   non applicable situations  182
-   over-engineering a solution, avoiding  182
+   about 176, 182
+   non applicable situations 182
+   over-engineering a solution, avoiding 182
 

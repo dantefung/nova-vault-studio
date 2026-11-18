@@ -313,4 +313,4 @@ openspec/
 
 ## 信息来源
 
-- [渐进式AI编程 — 江南一点雨](https://mp.weixin.qq.com/s/VplMocyOb9xVxyS6aLiBFQ)，微信公众号，2026-05-10
+- [渐进式 AI 编程 — 江南一点雨](https://mp.weixin.qq.com/s/VplMocyOb9xVxyS6aLiBFQ)，微信公众号，2026-05-10

@@ -16,10 +16,10 @@ echo $DESKTOP_SESSION
 
 说明当前使用的是：
 
--   桌面环境：KDE Plasma
--   Session：plasma
--   显示服务器：Wayland（之前确认）
--   系统：Debian 13
+- 桌面环境：KDE Plasma
+- Session：plasma
+- 显示服务器：Wayland（之前确认）
+- 系统：Debian 13
 
 ------------------------------------------------------------------------
 
@@ -211,11 +211,11 @@ flatpak list --columns=application,installation
 
 ### 总结（开发角度）
 
-| 类型     | 目录                     | 适合场景  |
+| 类型 | 目录 | 适合场景 |
 | ------ | ---------------------- | ----- |
-| system | /var/lib/flatpak       | 多用户机器 |
-| user   | ~/.local/share/flatpak | 个人开发  |
-| 数据目录   | ~/.var/app             | 配置和缓存 |
+| system | /var/lib/flatpak | 多用户机器 |
+| user | ~/.local/share/flatpak | 个人开发 |
+| 数据目录 | ~/.var/app | 配置和缓存 |
 
 ---
 
@@ -224,13 +224,13 @@ flatpak list --columns=application,installation
 
 ## 六、常用命令
 
-  功能         命令
+  功能 命令
   ------------ --------------------------
-  查看已安装   flatpak list
-  搜索应用     flatpak search 关键词
-  更新应用     flatpak update
-  卸载应用     flatpak uninstall 应用ID
-  查看源       flatpak remotes
+  查看已安装 flatpak list
+  搜索应用 flatpak search 关键词
+  更新应用 flatpak update
+  卸载应用 flatpak uninstall 应用 ID
+  查看源 flatpak remotes
 
 ------------------------------------------------------------------------
 
@@ -248,14 +248,14 @@ flatpak run --verbose 应用ID
 
 你当前系统：
 
--   Debian 13
--   KDE Plasma 桌面环境
--   Wayland 会话
+- Debian 13
+- KDE Plasma 桌面环境
+- Wayland 会话
 
 建议安装：
 
--   flatpak
--   plasma-discover-backend-flatpak
--   添加 flathub 仓库
+- flatpak
+- plasma-discover-backend-flatpak
+- 添加 flathub 仓库
 
 这样即可完整支持 Flatpak 桌面应用生态。

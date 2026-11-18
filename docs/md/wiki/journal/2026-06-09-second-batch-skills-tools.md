@@ -45,4 +45,4 @@ whichllm（3.9k Stars）能模拟任意 GPU 选型：`whichllm --gpu "RTX 4090"`
 
 今日归档 10 个资源，Patterns 层积累丰富。明日可考虑：
 1. 横纵分析：Agent Skill 生态（个人 OS vs 大厂技能包 vs 垂直领域）
-2. 开始往 concepts/ 层提炼——"个人 AI 基础设施"作为一个概念与 llm-wiki/ai-local-brain 的关系
+2. 开始往 concepts/ 层提炼——“个人 AI 基础设施”作为一个概念与 llm-wiki/ai-local-brain 的关系

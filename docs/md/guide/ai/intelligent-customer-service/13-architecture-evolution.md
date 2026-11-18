@@ -6,7 +6,7 @@ url: ""
 ---
 
 > 研究时间：2026-05-10 | 所属领域：智能客服系统建设 | 研究对象类型：技术架构演进
-> 现有架构：LLM节点(gptnano) → IF分支 → 专家Agent(MCP+LightRAG)
+> 现有架构：LLM 节点(gptnano) → IF 分支 → 专家 Agent(MCP+LightRAG)
 
 # 多专家 Agent 架构演进路径 — 从 Dify 到完整智能客服系统
 
@@ -134,27 +134,27 @@ Dify 内置 Annotation Reply 功能，可以预置高质量问答对。当用户
 
 | 优化空间 | Dify 能力 | 版本/方式 | 备注 |
 |---------|----------|----------|------|
-| 意图分类+置信度 | ✅ LLM节点输出结构化JSON | 任意版本 | 输出 `{intent, confidence}` |
-| 复合意图并行 | ✅ Parallel节点 + 合并LLM | 任意版本 | 单意图+复合意图均可 |
-| 大小模型分离 | ✅ 节点级模型选择 | 任意版本 | 意图用gptnano，专家用GPT-4o |
+| 意图分类+置信度 | ✅ LLM 节点输出结构化 JSON | 任意版本 | 输出 `{intent, confidence}` |
+| 复合意图并行 | ✅ Parallel 节点 + 合并 LLM | 任意版本 | 单意图+复合意图均可 |
+| 大小模型分离 | ✅ 节点级模型选择 | 任意版本 | 意图用 gptnano，专家用 GPT-4o |
 | 跨域上下文传递 | ✅ Conversation Variable | 任意版本 | 共享 order_id/refund 等 |
-| 工具超时回退 | ✅ Error Handling Retry + Fail Branch | v0.14.2+ | max=10次重试 |
+| 工具超时回退 | ✅ Error Handling Retry + Fail Branch | v0.14.2+ | max=10 次重试 |
 | 可观测性 | ✅ 原生集成 Langfuse | 任意版本 | Tracing + 节点级耗时 |
 | 记忆分层 | ✅ 短期（Memory）+ 长期（Annotation/Knowledge） | 1.7+ | 还有 Per Node Memory 需求未上线 |
-| 知识库权限隔离 | ✅ 三级权限（仅所有者/指定成员/全员） | 1.8+ | 天然对应「哪些Agent能读哪些知识」 |
-| 定时主动任务 | ✅ 计划任务型Agent（cron） | 1.7+ | 可做催单/回访提醒 |
+| 知识库权限隔离 | ✅ 三级权限（仅所有者/指定成员/全员） | 1.8+ | 天然对应「哪些 Agent 能读哪些知识」 |
+| 定时主动任务 | ✅ 计划任务型 Agent（cron） | 1.7+ | 可做催单/回访提醒 |
 | 工具链组合 | ✅ 自动编排多步工具链 | 1.7+ | 查询→图表→邮件 |
-| 多模型协作降幻觉 | ✅ 动态模型路由 Pipeline | 任意版本 | DeepSeek-R1推理 + Gemini输出 |
-| Prompt注入防护 | ✅ Marketplace多插件（OpenGuardrails/Palo Alto/Azure） | 插件市场 | OWASP LLM Top10、企业级WAF |
+| 多模型协作降幻觉 | ✅ 动态模型路由 Pipeline | 任意版本 | DeepSeek-R1 推理 + Gemini 输出 |
+| Prompt 注入防护 | ✅ Marketplace 多插件（OpenGuardrails/Palo Alto/Azure） | 插件市场 | OWASP LLM Top10、企业级 WAF |
 | 内容审核（Input/Output） | ✅ Moderation Tool + API Extension | 内置 | OpenAI + 自定义关键词 |
-| 人工转接 | ⚠️ LLM识别 + HTTP Request调用企微/钉钉Webhook | 需开发 | Conversation Variable传上下文 |
+| 人工转接 | ⚠️ LLM 识别 + HTTP Request 调用企微/钉钉 Webhook | 需开发 | Conversation Variable 传上下文 |
 | Annotation Reply | ✅ 内置 Annotation Reply | 内置 | 高风险问题直接返回预置答案 |
-| Agent工具调用假成功 | ⚠️ System Prompt约束 + 验证节点 | 需工程化 | Issue #31722，已知bug |
-| 记忆隔离（Per Node） | ❌ 未原生支持 | 建议Workaround | 拆成独立Chatflow App隔离Memory |
-| 动态工具Masking（系统层） | ❌ Issue #27887，团队评审中 | 未上线 | 当前靠Prompt约束 |
-| 富权限上下文传递 | ❌ 只传user_id | 未支持 | 工具拿不到用户角色/部门 |
+| Agent 工具调用假成功 | ⚠️ System Prompt 约束 + 验证节点 | 需工程化 | Issue #31722，已知 bug |
+| 记忆隔离（Per Node） | ❌ 未原生支持 | 建议 Workaround | 拆成独立 Chatflow App 隔离 Memory |
+| 动态工具 Masking（系统层） | ❌ Issue #27887，团队评审中 | 未上线 | 当前靠 Prompt 约束 |
+| 富权限上下文传递 | ❌ 只传 user_id | 未支持 | 工具拿不到用户角色/部门 |
 
-**Dify 可覆盖 12/17 项，真正做不到的只有 3 项**（Per Node Memory、动态工具Masking系统层、富权限上下文传递）。
+**Dify 可覆盖 12/17 项，真正做不到的只有 3 项**（Per Node Memory、动态工具 Masking 系统层、富权限上下文传递）。
 
 ### 现状架构（第一阶段前）
 
@@ -312,12 +312,12 @@ flowchart TB
 
 | 维度 | 现状架构 | 目标架构 |
 |------|---------|---------|
-| 意图识别 | LLM(gptnano) → IF分支 | 小模型+置信度+意图分解 |
+| 意图识别 | LLM(gptnano) → IF 分支 | 小模型+置信度+意图分解 |
 | 处理能力 | 单意图二选一 | 单意图+复合意图并行 |
 | 工具权限 | 自由调用 | Sandbox 隔离 |
 | 上下文 | 共享历史 | 领域独立+共享变量 |
 | 记忆 | 无 | 会话+跨会话双层 |
-| 安全 | 无 | 4层防护 |
+| 安全 | 无 | 4 层防护 |
 | 可观测性 | 无 | LangSmith Tracing |
 | 转人工 | 固定阈值 | 置信度动态+Shadow Mode |
 
@@ -479,11 +479,11 @@ Router → 专家Agent(s)
 
 | 维度 | 当前架构 | 第一阶段 | 第三阶段 | 第四阶段 |
 |------|---------|---------|---------|---------|
-| 意图识别准确率 | 依赖IF规则 | +15%（置信度驱动） | +25%（复合意图处理） | +30%（记忆增强） |
+| 意图识别准确率 | 依赖 IF 规则 | +15%（置信度驱动） | +25%（复合意图处理） | +30%（记忆增强） |
 | 跨域信息复用 | 无 | 无 | 有（共享上下文变量） | 有（跨会话记忆） |
-| 幻觉率 | 高（Agent自由发挥） | -30% | -50%（Sandbox） | -70%（Output Audit） |
-| 响应延迟 | 未知 | ~1.5s | ~2s（多Agent并行） | ~1.2s（优化后） |
-| 人工介入率 | 固定阈值 | 动态（置信度驱动） | 降至15-20% | 降至10-15% |
+| 幻觉率 | 高（Agent 自由发挥） | -30% | -50%（Sandbox） | -70%（Output Audit） |
+| 响应延迟 | 未知 | ~1.5s | ~2s（多 Agent 并行） | ~1.2s（优化后） |
+| 人工介入率 | 固定阈值 | 动态（置信度驱动） | 降至 15-20% | 降至 10-15% |
 
 ---
 

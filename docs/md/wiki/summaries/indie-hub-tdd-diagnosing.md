@@ -11,16 +11,16 @@ Matt Pocock 的 /tdd 和 /diagnosing-bugs 给 Agent 装反馈信号，解决「�
 
 ## 关键概念
 
-### /diagnosing-bugs 6阶段
+### /diagnosing-bugs 6 阶段
 
 1. Build a feedback loop → red-capable command（入场券）
 2. Reproduce + minimise
-3. Hypothesise（falsifiable假设）
+3. Hypothesise（falsifiable 假设）
 4. Instrument
 5. Fix + regression test（correct seam）
 6. Cleanup + post-mortem
 
-### red-capable command 4判据
+### red-capable command 4 判据
 
 - Red-capable：断言用户确切症状
 - Deterministic：每次结论一致
@@ -29,7 +29,7 @@ Matt Pocock 的 /tdd 和 /diagnosing-bugs 给 Agent 装反馈信号，解决「�
 
 ### /tdd 核心
 
-- Seam（缝合线）：公共接口/事件/CLI输出
+- Seam（缝合线）：公共接口/事件/CLI 输出
 - Pre-agreed seam：测试前先约定
 - 红绿循环：先写失败测试，只写最少代码
 

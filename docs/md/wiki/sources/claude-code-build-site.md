@@ -5,7 +5,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/a7j9vyYuW4HvUN93VrJOrQ"
 ---
 
-# 不写代码，嘴喷AI6小时后，我也能建站了？！
+# 不写代码，嘴喷 AI6 小时后，我也能建站了？！
 
 > 非程序员用 Claude Code 6 小时完成 SEO 建站全流程：需求挖掘→产品文档→设计优化→SEO 布局→部署上线。
 
@@ -122,7 +122,7 @@ Claude Code 输出 `prd.md`，人工 Review 后继续对话调整。
 
 ### 1. 需求讨论 > 写代码
 
-> "先开一个 Claude Code 聊需求、脑暴、深度追问，让对方模拟客户，互换位置提问，双向费曼。"
+> “先开一个 Claude Code 聊需求、脑暴、深度追问，让对方模拟客户，互换位置提问，双向费曼。"
 
 ### 2. 设计规范先行
 
@@ -147,4 +147,4 @@ Claude Code（编码）+ SuperDesign（UI）+ Stagewise（微调）
 
 | 来源 | URL | 访问时间 |
 |------|-----|----------|
-| 微信公众号 - 不写代码，嘴喷AI6小时后，我也能建站了？！ | https://mp.weixin.qq.com/s/a7j9vyYuW4HvUN93VrJOrQ | 2026-06-08 |
+| 微信公众号 - 不写代码，嘴喷 AI6 小时后，我也能建站了？！ | https://mp.weixin.qq.com/s/a7j9vyYuW4HvUN93VrJOrQ | 2026-06-08 |

@@ -13,7 +13,7 @@ Codex 正在吃掉浏览器作为独立入口的地位，阅读的起点已从�
 
 ## Atlas 死了，活在 Codex 里
 
-OpenAI 的 Atlas 浏览器（2025年10月21日出生）活了 292 天后停止工作。它的浏览器 Agent 能力正在进入 ChatGPT 和 Codex。
+OpenAI 的 Atlas 浏览器（2025 年 10 月 21 日出生）活了 292 天后停止工作。它的浏览器 Agent 能力正在进入 ChatGPT 和 Codex。
 
 ## Codex 吃掉 Atlas，顺手吞了阅读器
 

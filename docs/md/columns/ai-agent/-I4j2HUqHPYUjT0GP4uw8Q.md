@@ -52,7 +52,7 @@ url: "https://mp.weixin.qq.com/s/-I4j2HUqHPYUjT0GP4uw8Q"
 
 
 
-WHAT记什么
+WHAT 记什么
 
 
 
@@ -64,7 +64,7 @@ WHAT
 
 
 
-WHERE存哪里
+WHERE 存哪里
 
 
 
@@ -76,7 +76,7 @@ WHERE
 
 
 
-HOW怎么取
+HOW 怎么取
 
 
 
@@ -88,7 +88,7 @@ HOW
 
 
 
-WHEN何时忘
+WHEN 何时忘
 
 
 
@@ -104,7 +104,7 @@ WHEN
 
 
 
-## 02从认知科学拆解记忆层次（纵轴）
+## 02 从认知科学拆解记忆层次（纵轴）
 
 
 
@@ -116,7 +116,7 @@ WHEN
 
 
 
-⚡ 短期 / 工作记忆上下文窗口内的即时上下文　·　易失　·　容量受限　·　即取即用跨 会 话 持 久 化 ▼长期记忆 按内容性质再细分📚 语义记忆 SEMANTIC事实 / 知识　→　知识库 + 向量检索（RAG）👤 情景记忆 EPISODIC画像 / 偏好 / 经历　→　长期记忆实体🛠 程序记忆 PROCEDURAL技能 / 流程　→　技能 / 工具沙箱
+⚡ 短期 / 工作记忆上下文窗口内的即时上下文　·　易失　·　容量受限　·　即取即用跨 会 话 持 久 化 ▼长期记忆 按内容性质再细分📚 语义记忆 SEMANTIC 事实 / 知识　→　知识库 + 向量检索（RAG）👤 情景记忆 EPISODIC 画像 / 偏好 / 经历　→　长期记忆实体🛠 程序记忆 PROCEDURAL 技能 / 流程　→　技能 / 工具沙箱
 
 
 
@@ -136,7 +136,7 @@ WHEN
 
 
 
-长期记忆 按内容性质再细分📚 语义记忆 SEMANTIC事实 / 知识　→　知识库 + 向量检索（RAG）👤 情景记忆 EPISODIC画像 / 偏好 / 经历　→　长期记忆实体🛠 程序记忆 PROCEDURAL技能 / 流程　→　技能 / 工具沙箱
+长期记忆 按内容性质再细分📚 语义记忆 SEMANTIC 事实 / 知识　→　知识库 + 向量检索（RAG）👤 情景记忆 EPISODIC 画像 / 偏好 / 经历　→　长期记忆实体🛠 程序记忆 PROCEDURAL 技能 / 流程　→　技能 / 工具沙箱
 
 
 
@@ -192,7 +192,7 @@ WHEN
 
 
 
-## 03业界三大范式（横轴）
+## 03 业界三大范式（横轴）
 
 
 
@@ -208,15 +208,15 @@ WHEN
 
 
 
-3.1上下文内记忆　范式一核心思想：把历史内容原样（或经摘要压缩）塞进上下文窗口，模型上下文本身就是记忆载体，不引入任何外部存储。✓ 优点零架构、零依赖，开箱即用。✗ 缺点受窗口长度与 token 成本硬约束，历史一长就「装不下」，且每次都要为全部历史付费。
+3.1 上下文内记忆　范式一核心思想：把历史内容原样（或经摘要压缩）塞进上下文窗口，模型上下文本身就是记忆载体，不引入任何外部存储。✓ 优点零架构、零依赖，开箱即用。✗ 缺点受窗口长度与 token 成本硬约束，历史一长就「装不下」，且每次都要为全部历史付费。
 
 
 
-3.1上下文内记忆　范式一
+3.1 上下文内记忆　范式一
 
 
 
-3.1上下文内记忆　范式一
+3.1 上下文内记忆　范式一
 
 
 
@@ -248,15 +248,15 @@ WHEN
 
 
 
-3.2外部检索记忆（RAG）　范式二核心思想：记忆仍以原始片段（chunk）落外部存储（向量库或倒排索引），查询时按相关性召回 Top-K 注入上下文，而不是全量塞入。代表：embedRAG、BM25 等。✓ 优点突破窗口上限，可扩展到海量知识，按需付费（只召回相关片段）。✗ 缺点只做了「平铺式」检索，缺乏结构；对「事实性、关系性、时序性」等复杂记忆查询力不从心。
+3.2 外部检索记忆（RAG）　范式二核心思想：记忆仍以原始片段（chunk）落外部存储（向量库或倒排索引），查询时按相关性召回 Top-K 注入上下文，而不是全量塞入。代表：embedRAG、BM25 等。✓ 优点突破窗口上限，可扩展到海量知识，按需付费（只召回相关片段）。✗ 缺点只做了「平铺式」检索，缺乏结构；对「事实性、关系性、时序性」等复杂记忆查询力不从心。
 
 
 
-3.2外部检索记忆（RAG）　范式二
+3.2 外部检索记忆（RAG）　范式二
 
 
 
-3.2外部检索记忆（RAG）　范式二
+3.2 外部检索记忆（RAG）　范式二
 
 
 
@@ -292,15 +292,15 @@ WHEN
 
 
 
-3.3结构化自管理记忆　范式三核心思想：不再被动索引原始片段，而是主动从交互流中抽取、提炼、结构化出记忆，并由 Agent（或后台进程）自我维护与更新——即「巩固（consolidation）」。代表：Mem0、Letta（MemGPT）、GraphRAG、HippoRAG。✓ 优点把「记忆」从「原始片段」升级为「结构化、可巩固、自我更新」的知识，更接近人脑。✗ 代价抽取需额外调用模型（有延迟与幻觉污染风险），且引入了巩固时机、一致性、遗忘策略等新复杂度。
+3.3 结构化自管理记忆　范式三核心思想：不再被动索引原始片段，而是主动从交互流中抽取、提炼、结构化出记忆，并由 Agent（或后台进程）自我维护与更新——即「巩固（consolidation）」。代表：Mem0、Letta（MemGPT）、GraphRAG、HippoRAG。✓ 优点把「记忆」从「原始片段」升级为「结构化、可巩固、自我更新」的知识，更接近人脑。✗ 代价抽取需额外调用模型（有延迟与幻觉污染风险），且引入了巩固时机、一致性、遗忘策略等新复杂度。
 
 
 
-3.3结构化自管理记忆　范式三
+3.3 结构化自管理记忆　范式三
 
 
 
-3.3结构化自管理记忆　范式三
+3.3 结构化自管理记忆　范式三
 
 
 
@@ -340,7 +340,7 @@ WHEN
 
 
 
-Core Memory　RAM常驻上下文的定长块：角色设定 + 用户画像 + 当前任务Recall Memory　磁盘缓存可检索的近期对话历史，按需换入上下文Archival Memory　冷存储长期压缩存储，向量检索按需换入
+Core Memory　RAM 常驻上下文的定长块：角色设定 + 用户画像 + 当前任务 Recall Memory　磁盘缓存可检索的近期对话历史，按需换入上下文 Archival Memory　冷存储长期压缩存储，向量检索按需换入
 
 
 
@@ -516,7 +516,7 @@ Mem0 / Letta
 
 
 
-## 04记忆的消费——上下文工程
+## 04 记忆的消费——上下文工程
 
 
 
@@ -528,11 +528,11 @@ Mem0 / Letta
 
 
 
-1检索触发：什么时候去取记忆？取多少？（如知识库的 Top-K、相似度阈值）2注入组织：取回的记忆以什么形式拼进上下文？（追加到系统指令？还是作为参考资料？）3冲突消解：记忆与用户当前表述冲突时以谁为准？4压缩与遗忘：上下文超限时如何摘要、卸载、淘汰？
+1 检索触发：什么时候去取记忆？取多少？（如知识库的 Top-K、相似度阈值）2 注入组织：取回的记忆以什么形式拼进上下文？（追加到系统指令？还是作为参考资料？）3 冲突消解：记忆与用户当前表述冲突时以谁为准？4 压缩与遗忘：上下文超限时如何摘要、卸载、淘汰？
 
 
 
-1检索触发：什么时候去取记忆？取多少？（如知识库的 Top-K、相似度阈值）2注入组织：取回的记忆以什么形式拼进上下文？（追加到系统指令？还是作为参考资料？）3冲突消解：记忆与用户当前表述冲突时以谁为准？4压缩与遗忘：上下文超限时如何摘要、卸载、淘汰？
+1 检索触发：什么时候去取记忆？取多少？（如知识库的 Top-K、相似度阈值）2 注入组织：取回的记忆以什么形式拼进上下文？（追加到系统指令？还是作为参考资料？）3 冲突消解：记忆与用户当前表述冲突时以谁为准？4 压缩与遗忘：上下文超限时如何摘要、卸载、淘汰？
 
 
 
@@ -588,7 +588,7 @@ XXL-AI 的做法
 
 
 
-对话请求（用户 / 访客）▼ChatStreamTool　对话生成 worker（harness）1历史消息　SessionMsg（短期记忆，按会话装载）2系统指令　Agent.systemPrompt3长期记忆　MemoryTool.loadMemory + mergePrompt4工具装配　MCP / Skill / 终端 · 文件沙箱5RAG Advisor　RagTool.buildAdvisor（知识库语义检索）▼LLM 流式生成推理与回复Milvus 向量库语义记忆▼SessionMsg 落库　短期记忆持久化（reasoning + content）▼MemoryArchiveTool　异步归档（harness）定时心跳 60s　+　Redis 抢锁（互斥）新消息 &gt; 水位线？→ 调模型抽取合并（generate）upsert 落库　→　推进水位线▼Memory 长期记忆　Agent × 访客用户画像　·　偏好习惯　·　关键事实　·　目标与意图　·　近期进展
+对话请求（用户 / 访客）▼ChatStreamTool　对话生成 worker（harness）1 历史消息　SessionMsg（短期记忆，按会话装载）2 系统指令　Agent.systemPrompt3 长期记忆　MemoryTool.loadMemory + mergePrompt4 工具装配　MCP / Skill / 终端 · 文件沙箱 5RAG Advisor　RagTool.buildAdvisor（知识库语义检索）▼LLM 流式生成推理与回复 Milvus 向量库语义记忆▼SessionMsg 落库　短期记忆持久化（reasoning + content）▼MemoryArchiveTool　异步归档（harness）定时心跳 60s　+　Redis 抢锁（互斥）新消息 &gt; 水位线？→ 调模型抽取合并（generate）upsert 落库　→　推进水位线▼Memory 长期记忆　Agent × 访客用户画像　·　偏好习惯　·　关键事实　·　目标与意图　·　近期进展
 
 
 
@@ -600,7 +600,7 @@ XXL-AI 的做法
 
 
 
-ChatStreamTool　对话生成 worker（harness）1历史消息　SessionMsg（短期记忆，按会话装载）2系统指令　Agent.systemPrompt3长期记忆　MemoryTool.loadMemory + mergePrompt4工具装配　MCP / Skill / 终端 · 文件沙箱5RAG Advisor　RagTool.buildAdvisor（知识库语义检索）
+ChatStreamTool　对话生成 worker（harness）1 历史消息　SessionMsg（短期记忆，按会话装载）2 系统指令　Agent.systemPrompt3 长期记忆　MemoryTool.loadMemory + mergePrompt4 工具装配　MCP / Skill / 终端 · 文件沙箱 5RAG Advisor　RagTool.buildAdvisor（知识库语义检索）
 
 
 
@@ -612,7 +612,7 @@ ChatStreamTool　对话生成 worker（harness）
 
 
 
-1历史消息　SessionMsg（短期记忆，按会话装载）2系统指令　Agent.systemPrompt3长期记忆　MemoryTool.loadMemory + mergePrompt4工具装配　MCP / Skill / 终端 · 文件沙箱5RAG Advisor　RagTool.buildAdvisor（知识库语义检索）
+1 历史消息　SessionMsg（短期记忆，按会话装载）2 系统指令　Agent.systemPrompt3 长期记忆　MemoryTool.loadMemory + mergePrompt4 工具装配　MCP / Skill / 终端 · 文件沙箱 5RAG Advisor　RagTool.buildAdvisor（知识库语义检索）
 
 
 
@@ -728,7 +728,7 @@ Memory 长期记忆　Agent × 访客
 
 
 
-SESSIONMSG 实体（短期记忆）id消息 IDsessionId对话 IDrole角色：user / assistantreasoning思考过程（reasoning_content）content消息内容status状态：0-生成中 / 1-完成 / 2-失败
+SESSIONMSG 实体（短期记忆）id 消息 IDsessionId 对话 IDrole 角色：user / assistantreasoning 思考过程（reasoning_content）content 消息内容 status 状态：0-生成中 / 1-完成 / 2-失败
 
 
 
@@ -740,7 +740,7 @@ SESSIONMSG 实体（短期记忆）
 
 
 
-id消息 IDsessionId对话 IDrole角色：user / assistantreasoning思考过程（reasoning_content）content消息内容status状态：0-生成中 / 1-完成 / 2-失败
+id 消息 IDsessionId 对话 IDrole 角色：user / assistantreasoning 思考过程（reasoning_content）content 消息内容 status 状态：0-生成中 / 1-完成 / 2-失败
 
 
 
@@ -808,7 +808,7 @@ status
 
 
 
-MEMORY 实体（AGENT × 访客）id记忆 IDagentIdAgent IDvisitorId访客标识content记忆内容（Markdown 分节）lastMsgId水位线：最后归档处理的消息 ID…………
+MEMORY 实体（AGENT × 访客）id 记忆 IDagentIdAgent IDvisitorId 访客标识 content 记忆内容（Markdown 分节）lastMsgId 水位线：最后归档处理的消息 ID…………
 
 
 
@@ -820,7 +820,7 @@ MEMORY 实体（AGENT × 访客）
 
 
 
-id记忆 IDagentIdAgent IDvisitorId访客标识content记忆内容（Markdown 分节）lastMsgId水位线：最后归档处理的消息 ID…………
+id 记忆 IDagentIdAgent IDvisitorId 访客标识 content 记忆内容（Markdown 分节）lastMsgId 水位线：最后归档处理的消息 ID…………
 
 
 
@@ -1000,11 +1000,11 @@ generate(agent, oldMemory, newMsgs, maxLen)
 
 
 
-调度节奏CyclicThread 固定心跳（60s）互斥竞争Redis SETNX 抢锁（TTL = 心跳间隔；抢不到直接跳过）增量判断遍历开启记忆的 Agent → 每个访客 → 比较 max_msg_id 与水位线 last_msg_id抽取生成取水位线之后的新消息 → generate(历史记忆 + 新消息) → 定长记忆落库推进upsert（按 agent_id + visitor_id 唯一键）→ 推进 last_msg_id
+调度节奏 CyclicThread 固定心跳（60s）互斥竞争 Redis SETNX 抢锁（TTL = 心跳间隔；抢不到直接跳过）增量判断遍历开启记忆的 Agent → 每个访客 → 比较 max_msg_id 与水位线 last_msg_id 抽取生成取水位线之后的新消息 → generate(历史记忆 + 新消息) → 定长记忆落库推进 upsert（按 agent_id + visitor_id 唯一键）→ 推进 last_msg_id
 
 
 
-调度节奏CyclicThread 固定心跳（60s）互斥竞争Redis SETNX 抢锁（TTL = 心跳间隔；抢不到直接跳过）增量判断遍历开启记忆的 Agent → 每个访客 → 比较 max_msg_id 与水位线 last_msg_id抽取生成取水位线之后的新消息 → generate(历史记忆 + 新消息) → 定长记忆落库推进upsert（按 agent_id + visitor_id 唯一键）→ 推进 last_msg_id
+调度节奏 CyclicThread 固定心跳（60s）互斥竞争 Redis SETNX 抢锁（TTL = 心跳间隔；抢不到直接跳过）增量判断遍历开启记忆的 Agent → 每个访客 → 比较 max_msg_id 与水位线 last_msg_id 抽取生成取水位线之后的新消息 → generate(历史记忆 + 新消息) → 定长记忆落库推进 upsert（按 agent_id + visitor_id 唯一键）→ 推进 last_msg_id
 
 
 
@@ -1056,7 +1056,7 @@ upsert（按 agent_id + visitor_id 唯一键）→ 推进 last_msg_id
 
 
 
-SESSIONMSG 消息流（时间正序）100101102103已归档last_msg_id = 101本次新增（id &gt; 101）generate(历史记忆 + 新消息) → upsert → 推进 last_msg_id = 103
+SESSIONMSG 消息流（时间正序）100101102103 已归档 last_msg_id = 101 本次新增（id &gt; 101）generate(历史记忆 + 新消息) → upsert → 推进 last_msg_id = 103
 
 
 
@@ -1080,7 +1080,7 @@ SESSIONMSG 消息流（时间正序）
 
 
 
-已归档last_msg_id = 101
+已归档 last_msg_id = 101
 
 
 
@@ -1104,11 +1104,11 @@ last_msg_id 记的是「已处理到哪」，于是每次归档只增量处理�
 
 
 
-隔离每个知识库一个集合 kb_base_{baseId}，向量存储实例按知识库 ID 缓存复用（LRU 上限 128）；向量化分片（chunkSize / chunkOverlap）→ Document（含 docId / chunkIndex 元数据）→ 写入 Milvus（先清旧向量，支持重复向量化）；检索similaritySearch 按 COSINE 相似度召回 Top-K，返回 {text, docId, chunkIndex, score}；注入为对话装配 QuestionAnswerAdvisor，检索上下文自动注入系统提示。
+隔离每个知识库一个集合 kb_base_{baseId}，向量存储实例按知识库 ID 缓存复用（LRU 上限 128）；向量化分片（chunkSize / chunkOverlap）→ Document（含 docId / chunkIndex 元数据）→ 写入 Milvus（先清旧向量，支持重复向量化）；检索 similaritySearch 按 COSINE 相似度召回 Top-K，返回 {text, docId, chunkIndex, score}；注入为对话装配 QuestionAnswerAdvisor，检索上下文自动注入系统提示。
 
 
 
-隔离每个知识库一个集合 kb_base_{baseId}，向量存储实例按知识库 ID 缓存复用（LRU 上限 128）；向量化分片（chunkSize / chunkOverlap）→ Document（含 docId / chunkIndex 元数据）→ 写入 Milvus（先清旧向量，支持重复向量化）；检索similaritySearch 按 COSINE 相似度召回 Top-K，返回 {text, docId, chunkIndex, score}；注入为对话装配 QuestionAnswerAdvisor，检索上下文自动注入系统提示。
+隔离每个知识库一个集合 kb_base_{baseId}，向量存储实例按知识库 ID 缓存复用（LRU 上限 128）；向量化分片（chunkSize / chunkOverlap）→ Document（含 docId / chunkIndex 元数据）→ 写入 Milvus（先清旧向量，支持重复向量化）；检索 similaritySearch 按 COSINE 相似度召回 Top-K，返回 {text, docId, chunkIndex, score}；注入为对话装配 QuestionAnswerAdvisor，检索上下文自动注入系统提示。
 
 
 
@@ -1208,7 +1208,7 @@ skill 模块 + SkillToolFactory 沙箱
 
 
 
-## 06权衡与展望
+## 06 权衡与展望
 
 
 
@@ -1272,11 +1272,11 @@ skill 模块 + SkillToolFactory 沙箱
 
 
 
-GitHub仓库：https://github.com/xuxueli/xxl-ai官方文档：https://www.xuxueli.com/xxl-ai/
+GitHub 仓库：https://github.com/xuxueli/xxl-ai官方文档：https://www.xuxueli.com/xxl-ai/
 
 
 
-GitHub仓库：https://github.com/xuxueli/xxl-ai
+GitHub 仓库：https://github.com/xuxueli/xxl-ai
 
 
 
@@ -1288,12 +1288,9 @@ GitHub仓库：https://github.com/xuxueli/xxl-ai
 
 
 
-长按/扫码关注公众号「许雪里」
 
 
 
-发送 “交流群” ，获取群地址并进入社区交流群
 
 
 
-点赞+转发+推荐，给我们加油点赞~ 👇

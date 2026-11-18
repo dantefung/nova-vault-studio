@@ -21,18 +21,18 @@ Airbnb began as a simple marketplace for hosts and guests. This is built in a Ru
 
 **What’s the challenge?**
 
-*   Confusing team ownership + unowned code
-*   Slow deployment
+* Confusing team ownership + unowned code
+* Slow deployment
 
 **Microservices** (2017 - 2020)
 
 Microservice aims to solve those challenges. In the microservice architecture, key services include:
 
-*   Data fetching service
-*   Business logic data service
-*   Write workflow service
-*   UI aggregation service
-*   Each service had one owning team
+* Data fetching service
+* Business logic data service
+* Write workflow service
+* UI aggregation service
+* Each service had one owning team
 
 **What’s the challenge?**
 

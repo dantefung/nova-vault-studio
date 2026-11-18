@@ -19,7 +19,7 @@ url: "https://github.com/gsd-build/get-shit-done"
 | **What（做什么）** | Setup 检查 → 检测存量代码并可选先跑 map-codebase → 深读提问 → 写 PROJECT.md → 问工作偏好 → 4 路并行调研 → 分类定义需求（REQ-ID）→ 选阶段结构（MVP/分层）→ 派 roadmapper 生成 ROADMAP → 提交全部产物。 |
 | **When（何时用）** | `.planning/` 还不存在、`project_exists` 为 false 的空项目起点。自动模式需 `--auto` 且必须提供 idea 文档（`@prd.md` 或贴文），否则报错退出。 |
 | **Where（在哪里）** | 工作流实现 `~/.claude/get-shit-done/workflows/new-project.md`（1476 行）。派发顺序：4× `gsd-project-researcher`（Stack / Features / Architecture / Pitfalls）→ `gsd-research-synthesizer` → `gsd-roadmapper`（Approve 失败时再派 revise 轮）。 |
-| **Why（为什么存在）** | 把"立项"从拍脑袋变成流水线：调研产物分四个维度落盘（表铁律 vs 差异化 vs 反特性的 feature 分类），需求被压成可测的用户句式并授予 REQ-ID，roadmapper 强制 100% 需求到阶段的映射校验——消除了"规划凭空想"和"路线图漏掉某条需求"这两类返工特例。 |
+| **Why（为什么存在）** | 把“立项”从拍脑袋变成流水线：调研产物分四个维度落盘（表铁律 vs 差异化 vs 反特性的 feature 分类），需求被压成可测的用户句式并授予 REQ-ID，roadmapper 强制 100% 需求到阶段的映射校验——消除了“规划凭空想”和“路线图漏掉某条需求”这两类返工特例。 |
 | **How（怎么做）** | 编号步骤串行：`1. Setup` 有 agent 未装就降级为内联生成路线图，运行时探测决定生成 `AGENTS.md`（Codex）还是 `CLAUDE.md`；`2. Brownfield Offer` 检测到存量代码先问是否跑 `/gsd:map-codebase`；`3. Deep Questioning` 沿话题线索追问题直到 Ready 闸；`6. Research Decision` 4 researcher 并行后禁止编排者自行读文件；`7. Define Requirements` 按类别选出 v1，剩 table stakes 落 v2、差异化落 out of scope；`8. Create Roadmap` 处理 `ROADMAP BLOCKED`/`ROADMAP CREATED` 两种返回并循环审批。 |
 
 ## 工作原理
@@ -58,7 +58,7 @@ flowchart TD
 
 ## 适用场景
 
-- 白板起家，想先问清"到底想建什么"再让 AI 排计划
+- 白板起家，想先问清“到底想建什么”再让 AI 排计划
 - 已有存量仓库，想带上真实架构事实立项（先开 map-codebase 的 brownfield 路径）
 - 已有 PRD/design doc，想 `--auto` 一键跑完全程并自动进入 discuss-phase 1
 - 项目初始化时就锁定工作流偏好：研究/计划检查/验证器/模型档位
@@ -68,7 +68,7 @@ flowchart TD
 - **`project_exists` true 直接报错**：唯一解药是 `/gsd:progress`。没有新项目覆盖流程——`.planning/` 一旦存在这个命令就再也不适用。
 - **`--auto` 没文档就是死路**：源码明确 `--auto requires an idea document`，没有自动兜底。
 - **agent 未装是静默降级**：Setup 警告后会跳过 research 直接内联建路线图，产物质量下降但你若不看警告，回来发现没有 SUMMARY 也会莫名其妙。
-- **不是计划工具**：这里产出的是"为什么要建这个 + 分几段做"，具体的 PLAN 粒度归 `/gsd:plan-phase`。
+- **不是计划工具**：这里产出的是“为什么要建这个 + 分几段做”，具体的 PLAN 粒度归 `/gsd:plan-phase`。
 
 ## 参见
 

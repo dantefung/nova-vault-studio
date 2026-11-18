@@ -38,7 +38,7 @@ npx @santifer/career-ops init
 cd career-ops && claude
 ```
 
-## 评估维度（A-F六块）
+## 评估维度（A-F 六块）
 
 1. Role Summary — 角色本质
 2. CV Match — 与简历匹配度

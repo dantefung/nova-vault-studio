@@ -6,8 +6,8 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/stripe-ranking-revenue"
 ---
 
-# 看排行榜挖掘赚钱产品，基于 Stripe入站流量估算产品收入
-> 原文链接: https://new.web.cafe/tutorial/detail/wBf7QCAM8YRWFUqaPdDoA2
+# 看排行榜挖掘赚钱产品，基于 Stripe 入站流量估算产品收入
+> 原文链接：https://new.web.cafe/tutorial/detail/wBf7QCAM8YRWFUqaPdDoA2
 
 ---
 
@@ -16,19 +16,19 @@ url: "https://new.web.cafe/tutorial/detail/stripe-ranking-revenue"
 
 
 
-大家好，我是哥飞，一个自称为 SEO专家的出海 AI工具创业者。
+大家好，我是哥飞，一个自称为 SEO 专家的出海 AI 工具创业者。
 
 我在 2007 年开始学编程就是​从做网站开始的，也是从那个时候开始学习搞 SEO，到现在断断续续搞了 1​6 年了。
 
-以前主要做百度 SEO流量，最近转战谷歌，因为做谷歌就意味着可以面向 70 亿人做产品，为全球 70 亿人服务，赚​全世界人民的美元。
+以前主要做百度 SEO 流量，最近转战谷歌，因为做谷歌就意味着可以面向 70 亿人做产品，为全球 70 亿人服务，赚​全世界人民的美元。
 
-今天跟大家聊聊一些目前正在赚钱的 AI产品。 主要分成三部分：
+今天跟大家聊聊一些目前正在赚钱的 AI 产品。 主要分成三部分：
 
-1.  分享彪哥发现的通过看排行榜挖掘赚钱产品的方法；
-2.  从排行榜里找一些产品，分析流量来源，估算月收入；
-3.  总结下目前还能够获取到流量的一些渠道。
+1. 分享彪哥发现的通过看排行榜挖掘赚钱产品的方法；
+2. 从排行榜里找一些产品，分析流量来源，估算月收入；
+3. 总结下目前还能够获取到流量的一些渠道。
 
-**第一部分** ，如何找到这些目前正在赚钱的 AI产品。
+**第一部分** ，如何找到这些目前正在赚钱的 AI 产品。
 
 方法很简单，就是看排行榜。 这个方法最早是彪哥和杉木哥等走在前面的领路人分享出来的，感谢他们！
 
@@ -82,7 +82,7 @@ url: "https://new.web.cafe/tutorial/detail/stripe-ranking-revenue"
 
 这里我再解释下，一般打开了 Stripe 的收银台页面，就是已经创建好订单了。用户打开这个订单后，有可能不输入任何信息，直接关闭，也有可能会输入信用卡信息，确认支付。这里就有两种结果，支付成功或者支付失败，失败的原因可能有多种，如被限制了、卡余额不足、卡信息填错等等。
 
-也就是说订单数量不能等同于支付成功数量，这里有一个转化比例，我自己的 AI工具类产品，支付成功比例从 10%到 50%都有。
+也就是说订单数量不能等同于支付成功数量，这里有一个转化比例，我自己的 AI 工具类产品，支付成功比例从 10%到 50%都有。
 
 我们假设 ChatGPT 订单支付成功率是 20%，也就是有 90 万个订单，每个平均支付 20 美元，那么总营收就是 1800 万美元。
 
@@ -96,11 +96,11 @@ ChatGPT 的实际支付成功率估计不止 20%，具体多少，哥飞也不�
 
 ![4dadcba90e6ba09cf2ef7fccaab0d4d1\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_008.webp)
 
-可以看到这个域名每个月的访问量在两三千万，也就是说，所有接入了 Stripe支付但没有设置自定义域名的网站，一共每个月有两三千万个订单。
+可以看到这个域名每个月的访问量在两三千万，也就是说，所有接入了 Stripe 支付但没有设置自定义域名的网站，一共每个月有两三千万个订单。
 
 那要怎么分出来，每一个网站的订单数量呢？
 
-刚才我们说明，在接入了 Stripe支付的网站点击就会打开 Stripe的收银台页面，这个时候，【接入了 Stripe支付的网站】就是【Stripe收银台网站】的【外部链接网站】，所以就可以在 Similarweb 的热门外链网站模块看到每一个网站的数据。
+刚才我们说明，在接入了 Stripe 支付的网站点击就会打开 Stripe 的收银台页面，这个时候，【接入了 Stripe 支付的网站】就是【Stripe 收银台网站】的【外部链接网站】，所以就可以在 Similarweb 的热门外链网站模块看到每一个网站的数据。
 
 ![5c84f261312c1be76380f6862b88430c\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_009.webp)
 
@@ -108,11 +108,11 @@ ChatGPT 的实际支付成功率估计不止 20%，具体多少，哥飞也不�
 
 ![d49dc1a13163384d7ff200155003600b\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_010.webp)
 
-举例，上面是 3 月份的订单数量排行榜，排名第一的是 roblox.com ，是一个套了元宇宙概念的类 4399 网站，上面有很多各种各样的小游戏，3 月的网站访问量是 6.669 亿，其中订单量是 140 万，具体支付成功率哥飞没去估算，反正也不是 AI产品，我们就跳过。
+举例，上面是 3 月份的订单数量排行榜，排名第一的是 roblox.com ，是一个套了元宇宙概念的类 4399 网站，上面有很多各种各样的小游戏，3 月的网站访问量是 6.669 亿，其中订单量是 140 万，具体支付成功率哥飞没去估算，反正也不是 AI 产品，我们就跳过。
 
 ![6e9b695453262751bec8d1e29f03f69e\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_011.webp)
 
-再看第二个产品 Midjourney 就是典型的 AI产品了，3 月份订单数量约为 67 万个。
+再看第二个产品 Midjourney 就是典型的 AI 产品了，3 月份订单数量约为 67 万个。
 
 ![c1309592c8dd7fe450558622df07ca78\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_012.webp)
 
@@ -124,9 +124,9 @@ Midjourney 提供这么多套餐，我们假设平均每个订单 25 美元，�
 
 从这里我们可以看到，对于这种超级大的产品，我们其实并没有那么容易去估算真实的月收入。
 
-但是，其实很多时候我们也不需要知道真实的收入，只要知道订单数量，就能够判断出来说，某一个 AI产品到底有没有收入，进而去判断这个产品对应的需求大概有多大，我们是否值得去进入这个市场。
+但是，其实很多时候我们也不需要知道真实的收入，只要知道订单数量，就能够判断出来说，某一个 AI 产品到底有没有收入，进而去判断这个产品对应的需求大概有多大，我们是否值得去进入这个市场。
 
-那么是不是就完全无法知道一个 AI产品的月收入到底是多少呢？
+那么是不是就完全无法知道一个 AI 产品的月收入到底是多少呢？
 
 也不是。
 
@@ -134,21 +134,21 @@ Midjourney 提供这么多套餐，我们假设平均每个订单 25 美元，�
 
 通过去 Twitter 关注这些开发者，就能够知道真实收入。
 
-甚至还可以再去 Similarweb看他网站的流量情况，这样就能够倒推支付成功率等信息。
+甚至还可以再去 Similarweb 看他网站的流量情况，这样就能够倒推支付成功率等信息。
 
-另外 IndieHackers 网站，也有一个收入排行榜，数据都是真实的，来自于开发者授权 IndieHackers网站读取的 Stripe真实收入。
+另外 IndieHackers 网站，也有一个收入排行榜，数据都是真实的，来自于开发者授权 IndieHackers 网站读取的 Stripe 真实收入。
 
 [https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue](https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue)
 
 ![d33fa823579f4ba7c9dc1a70e57b186c\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_013.webp)
 
-总结一下，我们可以通过 Toolify 和 IndieHackers 的排行榜直接看目前正在赚钱的 AI产品，也可以通过在 Similarweb 看 Stripe 收银台的流量数据来估算其它一些 AI产品的收入。
+总结一下，我们可以通过 Toolify 和 IndieHackers 的排行榜直接看目前正在赚钱的 AI 产品，也可以通过在 Similarweb 看 Stripe 收银台的流量数据来估算其它一些 AI 产品的收入。
 
 [https://www.toolify.ai/Best-AI-Tools-revenue](https://www.toolify.ai/Best-AI-Tools-revenue) [https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue](https://www.indiehackers.com/products?category=ai&revenueVerification=stripe&sorting=highest-revenue)
 
 **第二部分**，找几个产品来实际具体分析一下。
 
-先看 Jenni AI ，这是一个 AI写作类产品，更准确地说是帮你写论文，写文献综述等各种各样内容的 AI产品。
+先看 Jenni AI ，这是一个 AI 写作类产品，更准确地说是帮你写论文，写文献综述等各种各样内容的 AI 产品。
 
 ![5971cb300bc7cc7326b623e0d8ab9273\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_014.webp)
 
@@ -194,25 +194,25 @@ Midjourney 提供这么多套餐，我们假设平均每个订单 25 美元，�
 
 ![11a6c536e3acbad68fb2aa880f4a1db7\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_021.webp)
 
-好了，我们再去看看广告投入，基于 Similarweb估算的数据，3 月 Jenni AI 的搜索广告投入是 9 万美元左右。
+好了，我们再去看看广告投入，基于 Similarweb 估算的数据，3 月 Jenni AI 的搜索广告投入是 9 万美元左右。
 
-这相比于每个月有 57 万美元收入来说，ROI就很高了。
+这相比于每个月有 57 万美元收入来说，ROI 就很高了。
 
 刚才上面说过，这主要是得益于有 28.9%的来自于搜索引擎的流量。
 
-这部分流量完全不花钱，只要做好了 SEO就能够得到，可以理解为是谷歌的馈赠。
+这部分流量完全不花钱，只要做好了 SEO 就能够得到，可以理解为是谷歌的馈赠。
 
 ![4e99bfea069453444daae582d1cdd506\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_022.webp)
 
 Jenni AI 还有 7.1% 流量来自于社交媒体，主要来自于 Youtube 视频，排名第二的是 Linkedin ，Whatsapp 也来了不少流量。
 
-所以我们的 AI产品，如果做好用户引导，让用户能够主动分享到社交平台上，也是能够获得不错的流量和关注度的。
+所以我们的 AI 产品，如果做好用户引导，让用户能够主动分享到社交平台上，也是能够获得不错的流量和关注度的。
 
-我们再看一个产品 StealthGPT ，这是一个生成“Undetectable AI Content”的 AI工具，也就是说他生成出来的内容不太容易被 AI检测工具检测出来。
+我们再看一个产品 StealthGPT ，这是一个生成“Undetectable AI Content”的 AI 工具，也就是说他生成出来的内容不太容易被 AI 检测工具检测出来。
 
 ![3e5bde623a35d1439fc122cd1a2be4aa\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_023.webp)
 
-在 IndieHackers 上公布出来的，被验证的收入是 201K美元。
+在 IndieHackers 上公布出来的，被验证的收入是 201K 美元。
 
 ![840792c7916fd8733ac3ab22f1b01914\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_024.webp)
 
@@ -220,19 +220,19 @@ Jenni AI 还有 7.1% 流量来自于社交媒体，主要来自于 Youtube 视�
 
 而这个网站的访问量目前才 26.4 万每个月，即使最高峰也才 33.8 万。
 
-这么一点流量，居然能够产生这么高的收入，这就是目前 AI出海产品的魅力。
+这么一点流量，居然能够产生这么高的收入，这就是目前 AI 出海产品的魅力。
 
 差不多相当于每一个访问量可以产生 20.1/26.4=0.76 美元的收入。
 
 ![69bfd09b139928cdba933024e2af88fb\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_026.webp)
 
-查看导入到 Stripe 的订单大概是 9.6K个，这里我们忽略支付成功率，假设成功率就是 100%，计算一下每个订单的金额大概是 20.9 美元。
+查看导入到 Stripe 的订单大概是 9.6K 个，这里我们忽略支付成功率，假设成功率就是 100%，计算一下每个订单的金额大概是 20.9 美元。
 
 这个领域，目前流量更大的是另一个产品，谷歌搜索“Undetectable AI”可以找到，排第一名的就是。 ![8ff4a33160d6e6aa4a20b0d9850cfa58\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_027.webp) 可以看到 Undetectable AI 直接用需求关键词注册域名，这样就把行业需求词变成了自己的品牌名称，在谷歌眼里，就相当于大家搜索 Undetectable AI 需求，想找的是 Undetectable AI 这个网站。 这是很牛逼的一个策略。 ![8708a81fee9ea14855dd9ef7b2722bea\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_028.webp) 这个网站 3 月的访问量是 416.9 万，假设这是同一批潜在用户，那么按照每一个访问量 0.76 美元计算，这个网站的月收入是 316 万美元。 不过实际肯定是没有那么多的。
 
 ![344df8d101571eb3752dcab98a592cb0\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_029.webp)
 
-我们查到这个网站 3 月份导入到 Stripe的订单大概是 60.5K。
+我们查到这个网站 3 月份导入到 Stripe 的订单大概是 60.5K。
 
 同样按照 100%支付成功率计算，得到的金额是 60.5_1000_20.9=126 万美元。
 
@@ -246,11 +246,11 @@ Undetectable AI 每个月的流量里有 47.74%来自于搜索引擎，这也是
 
 ![ca61113ca7bdf382593ad02d0c379afa\_.png](images/stripe-ranking-revenue/gefei-stripe-ranking-revenue_031.webp)
 
-3 月花出去的广告费是 22.7 万美元，敢花这么多钱出去，说明肯定是赚钱的，ROI能够打正的。
+3 月花出去的广告费是 22.7 万美元，敢花这么多钱出去，说明肯定是赚钱的，ROI 能够打正的。
 
 有 10.43%的流量来自于付费搜索，也即是大约能够产生 22.9 万美元收入。
 
-这样算起来，ROI才刚刚打正，为什么他还愿意花这么多钱去打广告呢？
+这样算起来，ROI 才刚刚打正，为什么他还愿意花这么多钱去打广告呢？
 
 从上面的付费关键词可以看到，核心关键词“Undetectable AI”上就花了 16 万的广告费，说明他需要靠着付费广告来把这个词的精准流量都拿下，之后再用这些量来拿到自然搜索的排名。
 
@@ -270,11 +270,11 @@ Undetectable AI 每个月的流量里有 47.74%来自于搜索引擎，这也是
 
 3、导航站
 
-目前全球有 300+个 AI导航站，大部分是不需要花钱就能够提交，或者他们会自动收录，但还有很多有流量的 AI导航站需要花钱才能提交，不过一般花的钱也不多，目前最贵的是全球排名第一的 AI导航站 theresanaiforthat.com ，单次提交费用需要三百多美元。
+目前全球有 300+个 AI 导航站，大部分是不需要花钱就能够提交，或者他们会自动收录，但还有很多有流量的 AI 导航站需要花钱才能提交，不过一般花的钱也不多，目前最贵的是全球排名第一的 AI 导航站 theresanaiforthat.com ，单次提交费用需要三百多美元。
 
-而全球排名第二的 AI导航站是杉木大哥做的 Toolify.ai ，目前提交只需要 49 美元，价格很便宜了。
+而全球排名第二的 AI 导航站是杉木大哥做的 Toolify.ai ，目前提交只需要 49 美元，价格很便宜了。
 
-另外有些 AI导航站还会去注册 Affliates，也就是所有从导航过来的付费用户，他们都要收佣金。
+另外有些 AI 导航站还会去注册 Affliates，也就是所有从导航过来的付费用户，他们都要收佣金。
 
 4、Reddit
 
@@ -298,7 +298,7 @@ Hacker News 上有一个 Show HN 频道，允许全球开发者发布自己的�
 
 7、红人营销
 
-找到 Tiktok、Instagram、Youtube等平台上有一定粉丝自己的红人，请他们体验完我们产品后，制作一个视频发布到他们的账号上，也是可以带来不错的热度和流量。
+找到 Tiktok、Instagram、Youtube 等平台上有一定粉丝自己的红人，请他们体验完我们产品后，制作一个视频发布到他们的账号上，也是可以带来不错的热度和流量。
 
 不过这块我不太熟悉，没有实际操作过。
 
@@ -338,19 +338,19 @@ IndieHackers 很早前注册了，原来还有这么多有用的方式
 
 **燚** · 2025-07-06 10:23
 
-1.  怎么找到正在赚钱的 AI产品？ ￼ • 看排行榜：直接去看专门统计 AI产品收入的网站排行榜，比如 Toolify.ai、IndieHackers.com。 • 只看 Web产品：作者主要分析网站类 AI产品，不涉及 App。 • 排行榜的收入怎么算的？ ▫ 不是随便猜，是根据产品用的支付平台（比如 Stripe）的数据来估算。 ▫ 只要网站用 Stripe 收款，用户付费时会跳转到 Stripe 的收银台页面。 ▫ 通过统计这些收银台页面的访问量，可以大致推算订单数量。
-2.  怎么估算产品收入？ ￼ • 以 ChatGPT 为例： ▫ 统计 pay.openai.com 这个 Stripe 收银台页面的访问量（比如 3 月有 450 万次）。 ▫ 假设每次访问就是一个订单，再假设 20%支付成功，每单 20 美元，月收入大约 1800 万美元。 ▫ 真实支付成功率可能更高，但这种方法能大致判断收入区间。 • 如果网站没用自定义域名？ ▫ 这时收银台页面是 checkout.stripe.com。 ▫ 可以看这个域名的总访问量，再通过外部链接分析每个网站带来的订单量。 • 举例分析 Midjourney： ▫ 3 月订单 67 万，假设 40%支付成功，每单 25 美元，月收入约 670 万美元。 ▫ 但实际收入还包括老用户的续费，所以真实收入更高。 • 有些产品开发者会公开收入： ▫ 比如在 IndieHackers 上，开发者会直接展示 Stripe 验证的真实收入数据。
-3.  具体产品分析 ￼ • Jenni AI（AI写作工具） ▫ 年访问量稳定在 100 多万。 ▫ 28.9%流量来自 SEO，10%来自广告，7.1%来自社交媒体，49.4%是直接访问。 ▫ 3 月跳转到 Stripe的订单 3.73 万，假设 10%支付成功，年付套餐 144 美元，月新增收入约 53.7 万美元。 ▫ IndieHackers显示的真实收入是 57.4 万美元，说明估算方法靠谱。 ▫ 广告投入 9 万美元，ROI很高。 • StealthGPT（生成“不可检测 AI内容”） ▫ 月访问量 26.4 万，收入 20.1 万美元，平均每个访问能赚 0.76 美元。 ▫ 订单量 9.6K，平均每单 20.9 美元。 ▫ 领域内流量更大的 Undetectable AI，月访问 416.9 万，订单 6.05 万，估算月收入 126-316 万美元。
-4.  主要流量获取渠道 ￼
-5.  SEO+SEM：免费+付费搜索流量组合。
-6.  Affiliates：通过返佣让别人帮你推广。
-7.  导航站：把产品提交到 AI导航站，部分需要付费。
-8.  Reddit：在相关频道发帖，讲故事比硬广更有效。
-9.  Hacker News：Show HN频道发产品介绍。
-10.  ProductHunt：每天都有新产品打榜，能带来外链和曝光。
-11.  红人营销：找有影响力的博主/达人帮忙推广。
-12.  社交媒体：Twitter、Facebook等传统社交平台。
-13.  总结 ￼ • 通过排行榜和流量数据，可以大致判断 AI产品的赚钱能力。 • 估算收入时要用到一些假设，但结合真实数据和开发者公开信息，能让判断更准确。 • 获取流量的渠道很多，SEO、广告、导航站、社交媒体、红人推广等都值得尝试。
+1. 怎么找到正在赚钱的 AI 产品？ ￼ • 看排行榜：直接去看专门统计 AI 产品收入的网站排行榜，比如 Toolify.ai、IndieHackers.com。 • 只看 Web 产品：作者主要分析网站类 AI 产品，不涉及 App。 • 排行榜的收入怎么算的？ ▫ 不是随便猜，是根据产品用的支付平台（比如 Stripe）的数据来估算。 ▫ 只要网站用 Stripe 收款，用户付费时会跳转到 Stripe 的收银台页面。 ▫ 通过统计这些收银台页面的访问量，可以大致推算订单数量。
+2. 怎么估算产品收入？ ￼ • 以 ChatGPT 为例： ▫ 统计 pay.openai.com 这个 Stripe 收银台页面的访问量（比如 3 月有 450 万次）。 ▫ 假设每次访问就是一个订单，再假设 20%支付成功，每单 20 美元，月收入大约 1800 万美元。 ▫ 真实支付成功率可能更高，但这种方法能大致判断收入区间。 • 如果网站没用自定义域名？ ▫ 这时收银台页面是 checkout.stripe.com。 ▫ 可以看这个域名的总访问量，再通过外部链接分析每个网站带来的订单量。 • 举例分析 Midjourney： ▫ 3 月订单 67 万，假设 40%支付成功，每单 25 美元，月收入约 670 万美元。 ▫ 但实际收入还包括老用户的续费，所以真实收入更高。 • 有些产品开发者会公开收入： ▫ 比如在 IndieHackers 上，开发者会直接展示 Stripe 验证的真实收入数据。
+3. 具体产品分析 ￼ • Jenni AI（AI 写作工具） ▫ 年访问量稳定在 100 多万。 ▫ 28.9%流量来自 SEO，10%来自广告，7.1%来自社交媒体，49.4%是直接访问。 ▫ 3 月跳转到 Stripe 的订单 3.73 万，假设 10%支付成功，年付套餐 144 美元，月新增收入约 53.7 万美元。 ▫ IndieHackers 显示的真实收入是 57.4 万美元，说明估算方法靠谱。 ▫ 广告投入 9 万美元，ROI 很高。 • StealthGPT（生成“不可检测 AI 内容”） ▫ 月访问量 26.4 万，收入 20.1 万美元，平均每个访问能赚 0.76 美元。 ▫ 订单量 9.6K，平均每单 20.9 美元。 ▫ 领域内流量更大的 Undetectable AI，月访问 416.9 万，订单 6.05 万，估算月收入 126-316 万美元。
+4. 主要流量获取渠道 ￼
+5. SEO+SEM：免费+付费搜索流量组合。
+6. Affiliates：通过返佣让别人帮你推广。
+7. 导航站：把产品提交到 AI 导航站，部分需要付费。
+8. Reddit：在相关频道发帖，讲故事比硬广更有效。
+9. Hacker News：Show HN 频道发产品介绍。
+10. ProductHunt：每天都有新产品打榜，能带来外链和曝光。
+11. 红人营销：找有影响力的博主/达人帮忙推广。
+12. 社交媒体：Twitter、Facebook 等传统社交平台。
+13. 总结 ￼ • 通过排行榜和流量数据，可以大致判断 AI 产品的赚钱能力。 • 估算收入时要用到一些假设，但结合真实数据和开发者公开信息，能让判断更准确。 • 获取流量的渠道很多，SEO、广告、导航站、社交媒体、红人推广等都值得尝试。
 
 **支持一下！** · 2026-01-04 11:19
 

@@ -28,7 +28,7 @@ MLA · Part 1
 
 
 
-> 新系列开篇。上一个系列「从GPT-2到LLaMA」里，我们把 GPT-2 的零件一个个换成了 LLaMA 的。这个系列继续往前走：在 LLaMA 的骨架上，DeepSeek 又换掉了哪些零件，为什么要换。
+> 新系列开篇。上一个系列「从 GPT-2 到 LLaMA」里，我们把 GPT-2 的零件一个个换成了 LLaMA 的。这个系列继续往前走：在 LLaMA 的骨架上，DeepSeek 又换掉了哪些零件，为什么要换。
 
 >
 
@@ -40,7 +40,7 @@ MLA · Part 1
 
 
 
-## 01先回到老问题：KV Cache 太大了
+## 01 先回到老问题：KV Cache 太大了
 
 
 
@@ -78,11 +78,11 @@ MLA · Part 1
 
 
 
-## 02上一季的解法：GQA，让头共享 K/V
+## 02 上一季的解法：GQA，让头共享 K/V
 
 
 
-「从GPT-2到LLaMA」EP4 讲过 GQA 的思路：既然每个头都存一份 K/V 太贵，那就让几个 Query 头共用一组 K/V。
+「从 GPT-2 到 LLaMA」EP4 讲过 GQA 的思路：既然每个头都存一份 K/V 太贵，那就让几个 Query 头共用一组 K/V。
 
 
 
@@ -144,7 +144,7 @@ MLA 的做法是：仓库里不存成品，只存一份很小的**毛坯件** �
 
 
 
-## 04公式 + 猫吃鱼手算
+## 04 公式 + 猫吃鱼手算
 
 
 
@@ -172,11 +172,11 @@ MLA 的做法是：仓库里不存成品，只存一份很小的**毛坯件** �
 
 
 
-    c_s     = W_DKV · h_s        下投影：(d_c × d_model)，4 维 → 2 维
+    c_s = W_DKV · h_s 下投影：(d_c × d_model)，4 维 → 2 维
 
-    k_{s,i} = W_UK_i · c_s       头 i 的 K 上投影：(head_dim × d_c)
+    k_{s,i} = W_UK_i · c_s 头 i 的 K 上投影：(head_dim × d_c)
 
-    v_{s,i} = W_UV_i · c_s       头 i 的 V 上投影：(head_dim × d_c)
+    v_{s,i} = W_UV_i · c_s 头 i 的 V 上投影：(head_dim × d_c)
 
 
 
@@ -218,9 +218,9 @@ Q 照常计算：
 
 
 
-    W_DKV = [[0.5, 0,   0.5, 0  ],
+    W_DKV = [[0.5, 0, 0.5, 0 ],
 
-             [0,   0.5, 0,   0.5]]
+             [0, 0.5, 0, 0.5]]
 
 
 
@@ -232,11 +232,11 @@ Q 照常计算：
 
 
 
-    c_猫 = W_DKV · h_猫 = [0.5×1 + 0.5×1,  0]        = [1,   0  ]
+    c_猫 = W_DKV · h_猫 = [0.5×1 + 0.5×1, 0] = [1, 0 ]
 
-    c_吃 = W_DKV · h_吃 = [0,  0.5×1 + 0.5×1]        = [0,   1  ]
+    c_吃 = W_DKV · h_吃 = [0, 0.5×1 + 0.5×1] = [0, 1 ]
 
-    c_鱼 = W_DKV · h_鱼 = [0.5×1,  0.5×1]            = [0.5, 0.5]
+    c_鱼 = W_DKV · h_鱼 = [0.5×1, 0.5×1] = [0.5, 0.5]
 
 
 
@@ -258,13 +258,13 @@ shape：
 
 
 
-    W_UK_1 = [[1, 0],      头 1：原样输出
+    W_UK_1 = [[1, 0], 头 1：原样输出
 
               [0, 1]]
 
 
 
-    W_UK_2 = [[0, 1],      头 2：交换两个分量
+    W_UK_2 = [[0, 1], 头 2：交换两个分量
 
               [1, 0]]
 
@@ -302,9 +302,9 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-    q_鱼,1 = [1, 0]
+    q_鱼，1 = [1, 0]
 
-    q_鱼,2 = [1, 0]
+    q_鱼，2 = [1, 0]
 
 
 
@@ -316,9 +316,9 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-    头 1：q · [k_猫, k_吃, k_鱼] = [1, 0, 0.5]   → 最关注「猫」
+    头 1：q · [k_猫，k_吃，k_鱼] = [1, 0, 0.5] → 最关注「猫」
 
-    头 2：q · [k_猫, k_吃, k_鱼] = [0, 1, 0.5]   → 最关注「吃」
+    头 2：q · [k_猫，k_吃，k_鱼] = [0, 1, 0.5] → 最关注「吃」
 
 
 
@@ -328,7 +328,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-## 05到底省了多少
+## 05 到底省了多少
 
 
 
@@ -342,7 +342,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
     MQA：K 2 个 + V 2 个 = 4
 
-    MLA：c 2 个           = 2   ← K 和 V 共用同一个 c
+    MLA：c 2 个 = 2 ← K 和 V 共用同一个 c
 
 
 
@@ -360,7 +360,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
     MHA：2 × 128 × 128 = 32768 个数 / token / 层
 
-    MLA：512 + 64      =   576 个数 / token / 层
+    MLA：512 + 64 = 576 个数 / token / 层
 
 
 
@@ -388,7 +388,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-## 06问题来了：每次都要还原 K，不就白省了？
+## 06 问题来了：每次都要还原 K，不就白省了？
 
 
 
@@ -468,9 +468,9 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-    q̃ · c_猫 = [0,1] · [1,   0  ] = 0
+    q̃ · c_猫 = [0,1] · [1, 0 ] = 0
 
-    q̃ · c_吃 = [0,1] · [0,   1  ] = 1
+    q̃ · c_吃 = [0,1] · [0, 1 ] = 1
 
     q̃ · c_鱼 = [0,1] · [0.5, 0.5] = 0.5
 
@@ -492,7 +492,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
     W_Q_2 = [[1, 0, 0, 0],
 
-             [0, 0, 1, 0]]        （h_鱼 = [1,1,0,0] 算出来正是 [1, 0]）
+             [0, 0, 1, 0]] （h_鱼 = [1,1,0,0] 算出来正是 [1, 0]）
 
 
 
@@ -592,7 +592,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-## 07吸收不是免费的：用计算换显存
+## 07 吸收不是免费的：用计算换显存
 
 
 
@@ -612,7 +612,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-## 08压缩了，模型能力会不会变差？
+## 08 压缩了，模型能力会不会变差？
 
 
 
@@ -670,25 +670,25 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-            self.W_Q   = nn.Linear(d_model, n_heads * self.d_h, bias=False)
+            self.W_Q = nn.Linear(d_model, n_heads * self.d_h, bias=False)
 
-            self.W_DKV = nn.Linear(d_model, d_c, bias=False)              # 下投影
+            self.W_DKV = nn.Linear(d_model, d_c, bias=False) # 下投影
 
-            self.W_UK  = nn.Linear(d_c, n_heads * self.d_h, bias=False)   # K 上投影
+            self.W_UK = nn.Linear(d_c, n_heads * self.d_h, bias=False) # K 上投影
 
-            self.W_UV  = nn.Linear(d_c, n_heads * self.d_h, bias=False)   # V 上投影
+            self.W_UV = nn.Linear(d_c, n_heads * self.d_h, bias=False) # V 上投影
 
-            self.W_O   = nn.Linear(n_heads * self.d_h, d_model, bias=False)
+            self.W_O = nn.Linear(n_heads * self.d_h, d_model, bias=False)
 
 
 
         def forward_naive(self, h):
 
-            """路线一：先把 c 还原成 K、V，再走标准多头注意力"""
+            ""“路线一：先把 c 还原成 K、V，再走标准多头注意力”""
 
             B, T, _ = h.shape
 
-            c = self.W_DKV(h)                                    # (B, T, d_c)  ← 只缓存它
+            c = self.W_DKV(h) # (B, T, d_c) ← 只缓存它
 
 
 
@@ -704,7 +704,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
             out = F.scaled_dot_product_attention(q, k, v, is_causal=True)
 
-            out = out.transpose(1, 2).reshape(B, T, -1)          # (B, T, H*d_h)
+            out = out.transpose(1, 2).reshape(B, T, -1) # (B, T, H*d_h)
 
             return self.W_O(out)
 
@@ -712,27 +712,27 @@ token | c | 头 1 的 K | 头 2 的 K
 
         def forward_absorbed(self, h):
 
-            """路线二：矩阵吸收，全程不生成 K、V"""
+            ""“路线二：矩阵吸收，全程不生成 K、V"""
 
             B, T, _ = h.shape
 
-            c = self.W_DKV(h)                                    # (B, T, d_c)
+            c = self.W_DKV(h) # (B, T, d_c)
 
-            q = self.W_Q(h).view(B, T, self.n_heads, self.d_h)   # (B, T, H, d_h)
+            q = self.W_Q(h).view(B, T, self.n_heads, self.d_h) # (B, T, H, d_h)
 
 
 
             # nn.Linear 的 weight 形状是 (out, in)，拆成每个头一块
 
-            W_UK = self.W_UK.weight.view(self.n_heads, self.d_h, self.d_c)  # (H, d_h, d_c)
+            W_UK = self.W_UK.weight.view(self.n_heads, self.d_h, self.d_c) # (H, d_h, d_c)
 
-            W_UV = self.W_UV.weight.view(self.n_heads, self.d_h, self.d_c)  # (H, d_h, d_c)
+            W_UV = self.W_UV.weight.view(self.n_heads, self.d_h, self.d_c) # (H, d_h, d_c)
 
 
 
             # 吸收 W_UK：q̃ = W_UK^T · q
 
-            q_tilde = torch.einsum('bthd,hdc->bhtc', q, W_UK)    # (B, H, T, d_c)
+            q_tilde = torch.einsum('bthd,hdc->bhtc', q, W_UK) # (B, H, T, d_c)
 
 
 
@@ -744,15 +744,15 @@ token | c | 头 1 的 K | 头 2 的 K
 
             scores = scores.masked_fill(mask, float('-inf'))
 
-            attn = scores.softmax(dim=-1)                        # (B, H, T, T)
+            attn = scores.softmax(dim=-1) # (B, H, T, T)
 
 
 
             # 先在潜在空间加权求和，再乘一次 W_UV
 
-            ctx = torch.einsum('bhts,bsc->bhtc', attn, c)        # (B, H, T, d_c)
+            ctx = torch.einsum('bhts,bsc->bhtc', attn, c) # (B, H, T, d_c)
 
-            out = torch.einsum('bhtc,hdc->bthd', ctx, W_UV)      # (B, T, H, d_h)
+            out = torch.einsum('bhtc,hdc->bthd', ctx, W_UV) # (B, T, H, d_h)
 
             return self.W_O(out.reshape(B, T, -1))
 
@@ -764,7 +764,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
     mla = MLA(d_model=4, n_heads=2, d_c=2)
 
-    h = torch.randn(1, 3, 4)                                     # 猫 吃 鱼
+    h = torch.randn(1, 3, 4) # 猫 吃 鱼
 
 
 
@@ -772,7 +772,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
     out2 = mla.forward_absorbed(h)
 
-    print("两条路线结果一致：", torch.allclose(out1, out2, atol=1e-6))
+    print(”两条路线结果一致：", torch.allclose(out1, out2, atol=1e-6))
 
 
 
@@ -780,11 +780,11 @@ token | c | 头 1 的 K | 头 2 的 K
 
     n_heads, d_h, d_c = 2, 2, 2
 
-    print("MHA 缓存:", 2 * n_heads * d_h)   # 8
+    print("MHA 缓存：", 2 * n_heads * d_h) # 8
 
-    print("MQA 缓存:", 2 * d_h)             # 4
+    print("MQA 缓存：", 2 * d_h) # 4
 
-    print("MLA 缓存:", d_c)                 # 2
+    print("MLA 缓存：", d_c) # 2
 
 
 
@@ -798,11 +798,11 @@ token | c | 头 1 的 K | 头 2 的 K
 
     两条路线结果一致： True
 
-    MHA 缓存: 8
+    MHA 缓存：8
 
-    MQA 缓存: 4
+    MQA 缓存：4
 
-    MLA 缓存: 2
+    MLA 缓存：2
 
 
 
@@ -826,7 +826,7 @@ token | c | 头 1 的 K | 头 2 的 K
 
 
 
-## 10小结
+## 10 小结
 
 
 
@@ -855,11 +855,11 @@ token | c | 头 1 的 K | 头 2 的 K
   * 推理优化篇 EP1、EP2：KV Cache 上下
 
   * 
-[从GPT-2到LLaMA EP4：GQA](/articles/gqa/)
+[从 GPT-2 到 LLaMA EP4：GQA](/articles/gqa/)
 
 
   * 
-[从GPT-2到LLaMA EP3：RoPE](/articles/rope/)
+[从 GPT-2 到 LLaMA EP3：RoPE](/articles/rope/)
 （下期要用）
 
 

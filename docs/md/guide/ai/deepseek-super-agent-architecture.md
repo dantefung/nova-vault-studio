@@ -27,7 +27,7 @@ DeepSeek Harness 团队公开的 dsh-superagent-prototype，研究的就是这�
 这个原型另建了一套任务模型。Trigger 是收到的事件，Thread 是事件所属的讨论串；Eval 判断是否接单，接受之后创建 Ticket，同时留下 Mandate——这项工作依据哪个版本的规则、由谁发起、获准做到哪里。Assignment 则记录这一次由执行器如何运行它。
 
 > Trigger → Eval → Ticket + Mandate → Assignment → Worker
-事件           判断      任务与授权依据          执行轮次              具体干活
+事件 判断 任务与授权依据 执行轮次 具体干活
 
 Ticket 和 Assignment 分开，是后面一切恢复机制的基础。同一张任务单可以先后经历多次 Assignment；当前 DSH 执行器在重试时复用它的 Worker 会话、目录、分支和 PR。执行中断了，系统不必假装这是一个全新的请求。反过来，Worker 一轮说完话，也不意味着任务已经终结。
 

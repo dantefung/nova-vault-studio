@@ -5,7 +5,7 @@ source: "微信公众号 可逆计算"
 url: "https://mp.weixin.qq.com/s/DsLQTrALYFrtAJlhrG5bOw"
 ---
 
-# 超越Harness Engineering: AGE 应用开发模板介绍
+# 超越 Harness Engineering: AGE 应用开发模板介绍
 
 > 来源：微信公众号「可逆计算」，2026-05-23
 
@@ -13,7 +13,7 @@ url: "https://mp.weixin.qq.com/s/DsLQTrALYFrtAJlhrG5bOw"
 
 ## 摘要
 
-**AGE（Attractor-Guided Engineering，吸引子引导工程）** 是一套面向 AI 大规模应用开发的最佳实践模板，核心理念是把仓库变成 AI 可持续工作的制度基础设施，让 AI 在多 session、长周期、多角色协作中始终围绕文档这个"稳定吸引子"收敛。
+**AGE（Attractor-Guided Engineering，吸引子引导工程）** 是一套面向 AI 大规模应用开发的最佳实践模板，核心理念是把仓库变成 AI 可持续工作的制度基础设施，让 AI 在多 session、长周期、多角色协作中始终围绕文档这个“稳定吸引子”收敛。
 
 **三大核心原则**：
 1. **文件进，文件出** — 重要输入写文件，重要输出回写仓库，不允许结论停留在聊天里
@@ -87,7 +87,7 @@ url: "https://mp.weixin.qq.com/s/DsLQTrALYFrtAJlhrG5bOw"
 
 AGE = Attractor-Guided Engineering（吸引子引导工程）
 
-一套面向 AI 大规模应用开发的最佳实践模板。核心意图：把仓库变成 AI 可持续工作的制度基础设施，让 AI 在多 session、长周期、多角色协作中始终围绕文档这个"稳定吸引子"收敛，避免需求漂移、架构失真和 Demo 化开发。
+一套面向 AI 大规模应用开发的最佳实践模板。核心意图：把仓库变成 AI 可持续工作的制度基础设施，让 AI 在多 session、长周期、多角色协作中始终围绕文档这个“稳定吸引子”收敛，避免需求漂移、架构失真和 Demo 化开发。
 
 > 仓库 = 真相源（Source of Truth），聊天 = 临时工作面
 
@@ -101,7 +101,7 @@ AGE = Attractor-Guided Engineering（吸引子引导工程）
 
 - **nop-chaos-flux**：前端低代码运行时和设计器框架项目，沉淀了 owner-doc precedence、plan closure、audit、bug note、log、full-green baseline 等较完整的 AGE 实践。
 - **nop-chaos-next**：应用层项目，沉淀了 design/、input/、logs/、bugs/、skills/ 等更贴近普通业务应用的轻量文档实践。
-- **nop-entropy**：后端框架项目，强化了"AI 必读的规范性文档"和"开发过程记忆"之间的分离。
+- **nop-entropy**：后端框架项目，强化了“AI 必读的规范性文档”和“开发过程记忆”之间的分离。
 
 `nop-chaos-flux` 证明了 AGE 可以支撑框架级、大规模、AI 深度参与的开发。但框架项目的文档体系太重，不能直接复制给普通应用团队。`age-app-template` 的目标是把其中对中小型应用项目真正有用的部分抽出来：文件进文件出、owner doc、轻量 plan、独立审计、日志、bug 记忆、验证基线，以及清晰的文档路由。
 
@@ -117,7 +117,7 @@ AGE = Attractor-Guided Engineering（吸引子引导工程）
 | Vibe Coding，无历史记录 | docs/logs/ 记录每日变更，可追溯 |
 | 需求漂移，越写越偏 | owner-doc（design/architecture）作为吸引子，持续回归 |
 | 对话上下文丢失 | 文件进，文件出，所有重要结论落地到仓库 |
-| AI 说"完成了"但没真测 | Closure Audit 独立验证闭包门 |
+| AI 说“完成了”但没真测 | Closure Audit 独立验证闭包门 |
 | 自己审查自己 | 独立子 Agent（Independent Subagent）审查 |
 
 ---

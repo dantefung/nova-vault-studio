@@ -6,7 +6,7 @@ author: "MixAILab 万象AI实验室 (@mixailab)"
 url: "https://x.com/mixailab/status/2101626520955748622"
 ---
 
-# MixAILab 万象AI实验室：用 WorkBuddy + SRT 把口播稿批量做成 HTML 视频
+# MixAILab 万象 AI 实验室：用 WorkBuddy + SRT 把口播稿批量做成 HTML 视频
 
 ## 核心结论
 

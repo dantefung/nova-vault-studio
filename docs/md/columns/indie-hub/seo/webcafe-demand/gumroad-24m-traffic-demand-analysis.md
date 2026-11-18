@@ -70,7 +70,7 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 
 刚才的页面主要流量来自于社交网络分享，如果我们想知道主要流量来自于搜索引擎的页面，要怎么办呢？
 
-我们回到 Gumroad 的流量页面列表，选择按照"自然搜索"从高到低排序，就能够找到了。
+我们回到 Gumroad 的流量页面列表，选择按照“自然搜索”从高到低排序，就能够找到了。
 
 ![](images/gumroad-24m-traffic-demand-analysis/img_009.webp)
 
@@ -99,7 +99,7 @@ url: "https://new.web.cafe/tutorial/detail/aYfEzr44YKgXFLfNoSMkfL"
 - **殷小样** · 2025-07-20 20:59
   > 打开 semrush，点击「流量与市场」➡️「主要页面」，输入 gumroad.com![](images/gumroad-24m-traffic-demand-analysis/img_017.webp)
 
-- **金鱼Evan** · 2025-07-27 12:31
+- **金鱼 Evan** · 2025-07-27 12:31
   > 殷小样
   > 感谢
 

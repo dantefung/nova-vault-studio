@@ -19,7 +19,7 @@ url: "https://mp.weixin.qq.com/s/xjjBsGijp7DdrnU_6hp-_w"
 
 ![Shantanu Goel 的对比数据](../images/pi-deepseek-benchmark/002.webp)
 
-同一天，开发者 Shantanu Goel 表示，DeepSeek V4 Flash 在其他 Harness 中的缓存命中率通常为 **94% 至 97%**，到了 Pi 中却能持续达到 **99% 以上**。Mario 评论道："使用本地模型时，这一点尤其好用。"
+同一天，开发者 Shantanu Goel 表示，DeepSeek V4 Flash 在其他 Harness 中的缓存命中率通常为 **94% 至 97%**，到了 Pi 中却能持续达到 **99% 以上**。Mario 评论道：“使用本地模型时，这一点尤其好用。"
 
 2026 年 5 月，Mario 对 Pi 与 DeepSeek V4 这一组合的评价是：
 
@@ -75,9 +75,9 @@ Pi 完成任务的中位时间略慢，但综合成功率、速度与成本来�
 
 ---
 
-## "Harness 乘数效应"
+## "Harness 乘数效应”
 
-这项测试体现了所谓的 **"Harness 乘数效应"**：围绕 AI 搭建的工具会放大或削弱模型的实际表现。
+这项测试体现了所谓的 **"Harness 乘数效应“**：围绕 AI 搭建的工具会放大或削弱模型的实际表现。
 
 > 选对 Harness，同一个模型可以同时变得更可靠、更高效；选错 Harness，即使底层模型的智能水平完全相同，任务成功率和运行效率也可能明显下降。
 
@@ -156,7 +156,7 @@ Pi 生态中的 pi-deepseek-cache 扩展设计思路与 Reasonix 有不少共同
 
 ![DeepSeek Harness 团队](../images/pi-deepseek-benchmark/011.webp)
 
-有趣的是，DeepSeek 官方至今还没有推出自己的 Harness。8 月 11 日，"DeepSeek Harness 团队"微信公众号已完成注册，被外界解读为 Harness 产品即将正式发布的重要信号。产品内测也已启动。
+有趣的是，DeepSeek 官方至今还没有推出自己的 Harness。8 月 11 日，"DeepSeek Harness 团队”微信公众号已完成注册，被外界解读为 Harness 产品即将正式发布的重要信号。产品内测也已启动。
 
 官方 Harness 最核心的优势可能是**原生适配**：第三方 Harness 只能通过公开 API 做逆向优化，而官方团队可以和模型训练团队背靠背协同，让模型针对 Harness 的调用模式做针对性优化，Harness 也能利用模型内部的非公开信息。
 

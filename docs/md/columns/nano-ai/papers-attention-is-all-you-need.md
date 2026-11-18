@@ -32,7 +32,7 @@ Attention Is All You Need（Vaswani et al., 2017）· Figure 1 动态版
 
 
 
-InputEmbeddingMulti-HeadAttentionAdd & NormFeedForwardAdd & NormOutputEmbeddingMaskedMulti-HeadAttentionAdd & NormMulti-HeadAttentionAdd & NormFeedForwardAdd & NormLinearSoftmaxInputsOutputs(shifted right)OutputProbabilitiesPositionalEncodingPositionalEncodingN×N×VKQVKQVKQ原图未画出编码器最终输出（K、V） 根据原论文 Figure 1 重绘 · Vaswani et al., 2017
+InputEmbeddingMulti-HeadAttentionAdd & NormFeedForwardAdd & NormOutputEmbeddingMaskedMulti-HeadAttentionAdd & NormMulti-HeadAttentionAdd & NormFeedForwardAdd & NormLinearSoftmaxInputsOutputs(shifted right)OutputProbabilitiesPositionalEncodingPositionalEncodingN×N×VKQVKQVKQ 原图未画出编码器最终输出（K、V） 根据原论文 Figure 1 重绘 · Vaswani et al., 2017
 
 
 
@@ -94,7 +94,7 @@ InputEmbeddingMulti-HeadAttentionAdd & NormFeedForwardAdd & NormOutputEmbeddingM
 
 
 
-第 2 / 12 步 位置编码：告诉模型词的顺序 “Since our model contains no recurrence and no convolution, in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence.” — 原文 §3.5 注意力本身不区分顺序：把「猫吃鱼」打乱成「鱼吃猫」，每个词算出来的结果一模一样。 所以要在词向量上 直接加 （图里的 ⊕）一个代表位置的向量。论文用的是不同频率的正弦和余弦函数，不需要训练。 维度0 维度2 维度4 维度6 位置 0 → 示意：低维度波动快、高维度波动慢。每个位置在所有维度上取值的组合都不一样，像一个独特的「位置指纹」。 去 大模型是怎么推理的 · 位置编码 ，看这一步的矩阵具体怎么算 → ← 上一步 下一步 → 也可以用键盘 ← →
+第 2 / 12 步 位置编码：告诉模型词的顺序 “Since our model contains no recurrence and no convolution, in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence.” — 原文 §3.5 注意力本身不区分顺序：把「猫吃鱼」打乱成「鱼吃猫」，每个词算出来的结果一模一样。 所以要在词向量上 直接加 （图里的 ⊕）一个代表位置的向量。论文用的是不同频率的正弦和余弦函数，不需要训练。 维度 0 维度 2 维度 4 维度 6 位置 0 → 示意：低维度波动快、高维度波动慢。每个位置在所有维度上取值的组合都不一样，像一个独特的「位置指纹」。 去 大模型是怎么推理的 · 位置编码 ，看这一步的矩阵具体怎么算 → ← 上一步 下一步 → 也可以用键盘 ← →
 
 
 

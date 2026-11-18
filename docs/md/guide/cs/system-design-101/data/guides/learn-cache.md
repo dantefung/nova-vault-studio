@@ -15,12 +15,12 @@ Made a simple visual guide to help everyone understand the key considerations wh
 
 ![](https://assets.bytebytego.com/diagrams/0004-learn-cache.png)
 
-*   What is a cache
-*   Why do we need cache
-*   Where is cache used
-*   Cache deployment
-*   Distributed cache
-*   Cache replacement and invalidation
-*   Cache strategies
-*   Caching challenges
-*   And more.
+* What is a cache
+* Why do we need cache
+* Where is cache used
+* Cache deployment
+* Distributed cache
+* Cache replacement and invalidation
+* Cache strategies
+* Caching challenges
+* And more.

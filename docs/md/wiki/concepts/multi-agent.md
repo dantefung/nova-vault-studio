@@ -2,24 +2,24 @@
 title: "多Agent系统（Multi-Agent System）"
 ---
 
-# 多Agent系统（Multi-Agent System）
+# 多 Agent 系统（Multi-Agent System）
 
-> 由多个具有专业能力的Agent协同工作的系统，通过分工合作完成复杂任务。
+> 由多个具有专业能力的 Agent 协同工作的系统，通过分工合作完成复杂任务。
 
 ## Key Points
 
-- 每个Agent有特定角色和工具
-- 支持CrewAI、LangGraph等框架
-- 解决单一Agent能力有限的问题
+- 每个 Agent 有特定角色和工具
+- 支持 CrewAI、LangGraph 等框架
+- 解决单一 Agent 能力有限的问题
 
 ## Details
 
 ### 典型架构
 
-1. **检索Agent**：负责向量检索、图谱查询
-2. **总结Agent**：负责答案整理、格式输出
-3. **路由Agent**：负责意图判断、任务分发
-4. **执行Agent**：负责工具调用、API操作
+1. **检索 Agent**：负责向量检索、图谱查询
+2. **总结 Agent**：负责答案整理、格式输出
+3. **路由 Agent**：负责意图判断、任务分发
+4. **执行 Agent**：负责工具调用、API 操作
 
 ### 框架对比
 
@@ -27,12 +27,12 @@ title: "多Agent系统（Multi-Agent System）"
 |------|-----------|--------|
 | 状态管理 | 内置持久化层 | 基础状态管理 |
 | 多轮对话 | 原生支持 | 需额外配置 |
-| 工作流 | DAG编排 | 角色定义 |
+| 工作流 | DAG 编排 | 角色定义 |
 | 适用场景 | 复杂多轮 | 多角色协同 |
 
 ### 混合架构
 
-"规则引擎（如Drools）+ LLM"混合决策机制：
+“规则引擎（如 Drools）+ LLM”混合决策机制：
 - 大模型处理复杂推理
 - 规则引擎处理确定性流程
 - 置信度低时自动降级
@@ -49,4 +49,4 @@ title: "多Agent系统（Multi-Agent System）"
 ## Sources
 
 - [[智能客服专栏] 多智能体架构设计](../../guide/ai/intelligent-customer-service/04-multi-agent.md)
-- [[智能客服专栏] 多智能体架构设计v2](../../guide/ai/intelligent-customer-service/10-multi-agent-v2.md)
+- [[智能客服专栏] 多智能体架构设计 v2](../../guide/ai/intelligent-customer-service/10-multi-agent-v2.md)

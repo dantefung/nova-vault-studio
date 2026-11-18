@@ -7,7 +7,7 @@ url: "https://github.com/garrytan/gstack"
 
 # gstack 技能专栏
 
-> Garry Tan 的 gstack 仓库技能列表——按"工程/质量/设计/规划"组织 50+ Claude/Codex 技能。
+> Garry Tan 的 gstack 仓库技能列表——按“工程/质量/设计/规划”组织 50+ Claude/Codex 技能。
 
 <!-- more -->
 
@@ -15,7 +15,7 @@ url: "https://github.com/garrytan/gstack"
 
 gstack 是 Garry Tan（前 YC CEO）开源的 AI 编程技能合集，提供 **CEO/Design/Eng/DX 四类 review 技能** + 浏览器自动化 + 安全审计 + 质量门禁 + 设计生成等能力。
 
-本专栏按"定位/触发/核心流程/适用场景"对每个技能做中量精读。
+本专栏按“定位/触发/核心流程/适用场景”对每个技能做中量精读。
 
 ## 速览（按能力分类）
 

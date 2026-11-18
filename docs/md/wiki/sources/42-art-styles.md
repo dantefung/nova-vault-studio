@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/8Yp-7Edot9k-Lpdlo-1yAA"
 
 # 我整理了 42 种艺术风格图鉴
 
-> 要有设计感！还是不够高级……你怎么一点审美也没？……  
+> 要有设计感！还是不够高级……你怎么一点审美也没？…… 
 > Stop it. You need this guidance. For your agent, for yourself, for us.
 
 ![42 种艺术风格图鉴](images/42-art-styles/001.webp)

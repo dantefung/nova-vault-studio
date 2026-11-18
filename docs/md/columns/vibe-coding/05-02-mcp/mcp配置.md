@@ -3,12 +3,12 @@ title: xhs-mcp 配置步骤
 ---
 
 &#x2D;&#x2D;&#x2D;
-title: xhs-mcp配置步骤:
+title: xhs-mcp 配置步骤：
 
 
 
 
-项目级别配置文件:
+项目级别配置文件：
 ```
 .cursor
 |____mcp.json
@@ -17,13 +17,13 @@ title: xhs-mcp配置步骤:
 | |____project-structure.mdc
 ```
 
-系统级别配置文件:
+系统级别配置文件：
 C:/Users/Administrator/.cursor/mcp.json
 
 
-## xhs-mcp配置步骤:
+## xhs-mcp 配置步骤：
 
-**第一步:**
+**第一步：**
 
 ```
 git clone git@github.com:jobsonlook/xhs-mcp.git
@@ -34,9 +34,9 @@ uv sync
 
 
 
-> 如果 ssh clone 有问题，也可以用git clone https://github.com/jobsonlook/xhs-mcp.git
+> 如果 ssh clone 有问题，也可以用 git clone https://github.com/jobsonlook/xhs-mcp.git
 
-**步骤二:**
+**步骤二：**
 
 添加小红书 MCP
 
@@ -61,7 +61,7 @@ uv sync
 ```
 
 
-mcp.json配置的内容:
+mcp.json 配置的内容：
 
 ```json
 {
@@ -146,17 +146,17 @@ mcp.json配置的内容:
 }
 ```
 
-**联网能力:**
+**联网能力：**
 - jina-mcp-server
 - duckduckgo-mcp-server
 - metaso
 - exa search
 - 
 
-**攻略知识:**
+**攻略知识：**
 - xhs-mcp
- - 在线服务: https://smithery.ai/server/@123BeginToLove/xhs-mcp
- - 本地安装:  
+ - 在线服务：https://smithery.ai/server/@123BeginToLove/xhs-mcp
+ - 本地安装： 
 
 
 ```
@@ -193,6 +193,6 @@ mcp.json配置的内容:
 
 **context7**
 
-Context7 MCP为您的提示直接提供最新文档和代码示例库。
+Context7 MCP 为您的提示直接提供最新文档和代码示例库。
 
 `https://mcp.context7.com/mcp`:

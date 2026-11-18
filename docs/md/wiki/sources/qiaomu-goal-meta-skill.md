@@ -5,7 +5,7 @@ source: "GitHub"
 url: "https://github.com/joeseesun/qiaomu-goal-meta-skill"
 ---
 
-# qiaomu-goal-meta-skill — 让Codex自动运行10+小时的Goal追踪Skill
+# qiaomu-goal-meta-skill — 让 Codex 自动运行 10+小时的 Goal 追踪 Skill
 
 > 让你的 Codex 自动运行 10 +小时，榨干你的 token！
 

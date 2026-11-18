@@ -370,6 +370,6 @@ Agent 执行完命令之后，会把下面的信息加入到 `conversation` 上�
 
 - 系列前篇：[从零构建 Agent（一）：技术选型](/md/wiki/sources/zeroagent-01-tech-stack)、[从零构建 Agent（二）：大模型交互](/md/wiki/sources/zeroagent-02-llm-interaction)、[从零构建 Agent（三）：Agent Loop](/md/wiki/sources/zeroagent-03-agent-loop)
 - 系列后续：[从零构建 Agent（五）：MCP](/md/wiki/sources/zeroagent-05-mcp)、[从零构建 Agent（六）：Skills](/md/wiki/sources/zeroagent-06-skills)、[从零构建 Agent（七）：Session 管理](/md/wiki/sources/zeroagent-07-session-management)、[从零构建 Agent（八）：Slash Commands](/md/wiki/sources/zeroagent-slash-commands)、[从零构建 Agent（九）：SubAgent](/md/wiki/sources/zeroagent-09-subagent)、[从零构建 Agent（十）：Model 管理](/md/wiki/sources/zeroagent-10-model-management)、[从零构建 Agent（十一）：Extension 扩展](/md/wiki/sources/zeroagent-11-extension)、[从零构建 Agent（十二）：长期 Memory 管理](/md/wiki/sources/zeroagent-12-longterm-memory-management)
-- 专栏归档：[从零构建Agent(四)：Function Calling](/md/columns/agentic-engineer/zero-agent/agent-from-zero-function-calling)
+- 专栏归档：[从零构建 Agent(四)：Function Calling](/md/columns/agentic-engineer/zero-agent/agent-from-zero-function-calling)
 - Demo 源码：[significantfrank/ZeroAgent](https://github.com/significantfrank/ZeroAgent)
 - 交叉参考：[Responses API：Agentic Loop 的协议基座](/md/wiki/concepts/responses-api-agent-loop)、[Agent Loop](/md/wiki/patterns/agent-loop)、[Harness Engineering](/md/wiki/concepts/harness-engineering)

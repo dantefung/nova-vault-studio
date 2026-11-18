@@ -17,27 +17,27 @@ The diagram below lists the top 6 log parsing commands.
 
 ## Log Parsing Commands
 
-*   **GREP**
+* **GREP**
 
     GREP searches any given input files, selecting lines that match one or more patterns.
 
-*   **CUT**
+* **CUT**
 
     CUT cuts out selected portions of each line from each file and writes them to the standard output.
 
-*   **SED**
+* **SED**
 
     SED reads the specified files, modifying the input as specified by a list of commands.
 
-*   **AWK**
+* **AWK**
 
     AWK scans each input file for lines that match any of a set of patterns.
 
-*   **SORT**
+* **SORT**
 
     SORT sorts text and binary files by lines.
 
-*   **UNIQ**
+* **UNIQ**
 
     UNIQ reads the specified input file comparing adjacent lines and writes a copy of each unique input line to the output file.
 

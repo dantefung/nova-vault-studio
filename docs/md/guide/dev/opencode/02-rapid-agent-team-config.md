@@ -9,10 +9,10 @@ url: "https://github.com/VastNext/rapid-agent-team-config"
 
 > 跨平台、轻量级、无 Node.js 依赖的 Rapid Agent Team 桌面图形化配置与安装向导。
 
-**项目来源：** [https://github.com/VastNext/rapid-agent-team-config](https://github.com/VastNext/rapid-agent-team-config)  
-**关联项目：** [opencode-rapid-agent-team](https://github.com/VastNext/opencode-rapid-agent-team)  
+**项目来源：** [https://github.com/VastNext/rapid-agent-team-config](https://github.com/VastNext/rapid-agent-team-config) 
+**关联项目：** [opencode-rapid-agent-team](https://github.com/VastNext/opencode-rapid-agent-team) 
 **当前版本：** v0.1.14
-**技术栈：** Rust + wry/tao + 原生前端  
+**技术栈：** Rust + wry/tao + 原生前端 
 
 ---
 

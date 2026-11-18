@@ -7,15 +7,15 @@ url: "https://github.com/TommyZihao/QASystemOnMedicalKG"
 
 # 基于 Neo4j 图数据库的医疗知识图谱智能问答机器人
 
-> 以疾病为中心，构建 4.4 万实体、30 万关系的医药知识图谱，基于 Neo4j + Cypher 实现 18 类医疗问答。由刘焕勇（360AI研究院）原版，同济子豪兄教程讲解。
+> 以疾病为中心，构建 4.4 万实体、30 万关系的医药知识图谱，基于 Neo4j + Cypher 实现 18 类医疗问答。由刘焕勇（360AI 研究院）原版，同济子豪兄教程讲解。
 
 <!-- more -->
 
 ## 项目概述
 
-将疾病、症状、药物、科室、检查、治疗方法、药物厂商、宜吃不宜吃等医疗术语，提取为知识图谱的节点实体，节点实体之间通过关系连接，将人类的医学"知识"定量固化存储为"知识图谱"。
+将疾病、症状、药物、科室、检查、治疗方法、药物厂商、宜吃不宜吃等医疗术语，提取为知识图谱的节点实体，节点实体之间通过关系连接，将人类的医学“知识”定量固化存储为“知识图谱”。
 
-**原作者**：刘焕勇（360AI研究院）
+**原作者**：刘焕勇（360AI 研究院）
 **教程作者**：同济子豪兄
 **Notebook 教程**：https://github.com/TommyZihao/QASystemOnMedicalKG/tree/master/notebook_tutorials
 
@@ -27,7 +27,7 @@ url: "https://github.com/TommyZihao/QASystemOnMedicalKG"
 4. 提取问题中的实体和连接（命名实体识别、意图识别）
 5. 生成 Cypher 查询语句
 6. 在 Neo4j 图数据库中运行 Cypher 查询语句
-7. 将 Cypher 查询结果翻译回"人话"，输出
+7. 将 Cypher 查询结果翻译回“人话”，输出
 
 ## 知识图谱规模
 
@@ -41,7 +41,7 @@ url: "https://github.com/TommyZihao/QASystemOnMedicalKG"
 | Check | 检查项目 | 3,353 | 支气管造影 |
 | Department | 科室 | 54 | 烧伤科 |
 | Food | 食物 | 4,870 | 竹笋炖羊肉 |
-| Producer | 药品厂商 | 17,201 | 通药制药青霉素V钾片 |
+| Producer | 药品厂商 | 17,201 | 通药制药青霉素 V 钾片 |
 
 ![知识图谱规模](../images/medical-kg-qa/003.webp)
 
@@ -58,7 +58,7 @@ url: "https://github.com/TommyZihao/QASystemOnMedicalKG"
 | no_eat | 忌吃食物 | 22,247 | 唇病 → 杏仁 |
 | recommand_eat | 推荐食谱 | 40,221 | 鞘膜积液 → 番茄冲菜牛肉丸汤 |
 | belongs_to | 属于 | 8,844 | 妇科 → 妇产科 |
-| drugs_of | 在售药品 | 17,315 | 青霉素V钾片 → 通药制药青霉素V钾片 |
+| drugs_of | 在售药品 | 17,315 | 青霉素 V 钾片 → 通药制药青霉素 V 钾片 |
 
 ### 疾病属性
 

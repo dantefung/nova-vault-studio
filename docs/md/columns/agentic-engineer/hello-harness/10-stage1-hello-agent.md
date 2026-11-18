@@ -114,7 +114,7 @@ Stage 0 攒下的东西，可以浓缩成一张图：
 
 | 项目 | 内容 |
 |------|------|
-| **作者** | 一灰灰blog |
+| **作者** | 一灰灰 blog |
 | **定位** | Hello Harness 系列 Stage 1 总览 |
 | **核心心法** | Agent 本质是一个循环 |
 | **五章递进** | Function Calling → 第一个 Tool → Tool Result → Agent Loop → 停止条件 |

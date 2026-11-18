@@ -13,15 +13,15 @@ Markdown Content:
 
 `clearConversation()` 是最复杂的命令之一，执行 20+ 步清理：
 
-1.   触发 `SessionEnd` hooks（通过 `executeSessionEndHooks`）
-2.   计算需保留的后台任务 agentId
-3.   清空消息（`setMessages(() => [])`）
-4.   清除会话缓存（`clearSessionCaches(preservedAgentIds)`，传入保留的 agentId）
-5.   重置工作目录和文件状态
-6.   清理 AppState（保留后台任务）
-7.   重新生成 session ID（`regenerateSessionId({ setCurrentAsParent: true })`）
-8.   保存 worktree 状态
-9.   触发 `SessionStart` hooks（通过 `processSessionStartHooks`）
+1. 触发 `SessionEnd` hooks（通过 `executeSessionEndHooks`）
+2. 计算需保留的后台任务 agentId
+3. 清空消息（`setMessages(() => [])`）
+4. 清除会话缓存（`clearSessionCaches(preservedAgentIds)`，传入保留的 agentId）
+5. 重置工作目录和文件状态
+6. 清理 AppState（保留后台任务）
+7. 重新生成 session ID（`regenerateSessionId({ setCurrentAsParent: true })`）
+8. 保存 worktree 状态
+9. 触发 `SessionStart` hooks（通过 `processSessionStartHooks`）
 
 > 注意：实际函数签名接受解构参数对象 `{ setMessages, readFileState, discoveredSkillNames, loadedNestedMemoryPaths, getAppState, setAppState, setConversationId, ... }`，而非 `CommandContext`。代码位于 `src/commands/clear/conversation.ts`。
 
@@ -33,9 +33,9 @@ Markdown Content:
 
 `/compact` 命令触发手动会话压缩。主要流程：
 
-1.   **Session Memory Compact**（如果启用了自动记忆功能）：提取会话记忆
-2.   **Reactive Compact**：通过 `tryReactiveCompact` 执行反应式压缩
-3.   **Traditional Compact**：通过压缩服务生成会话摘要，替换旧消息
+1. **Session Memory Compact**（如果启用了自动记忆功能）：提取会话记忆
+2. **Reactive Compact**：通过 `tryReactiveCompact` 执行反应式压缩
+3. **Traditional Compact**：通过压缩服务生成会话摘要，替换旧消息
 
 压缩完成后更新消息列表。
 
@@ -45,9 +45,9 @@ Resume 命令使用 `local-jsx` 类型，渲染一个会话选择界面。
 
 主要功能：
 
-1.   通过 `getHistory()` 列出历史会话
-2.   支持搜索过滤
-3.   选择后加载对应会话
+1. 通过 `getHistory()` 列出历史会话
+2. 支持搜索过滤
+3. 选择后加载对应会话
 
 > 注意：实际组件和选择器的实现位于 `src/commands/resume/` 目录中。
 
@@ -57,9 +57,9 @@ Resume 命令使用 `local-jsx` 类型，渲染一个会话选择界面。
 
 主要步骤：
 
-1.   将消息列表转换为文本格式（区分 Human/Assistant 角色）
-2.   生成带时间戳的文件名
-3.   写入到当前工作目录
+1. 将消息列表转换为文本格式（区分 Human/Assistant 角色）
+2. 生成带时间戳的文件名
+3. 写入到当前工作目录
 
 ## /diff — 文件变更 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/commands/session-commands.html#diff-%E2%80%94-%E6%96%87%E4%BB%B6%E5%8F%98%E6%9B%B4)
 
@@ -67,8 +67,8 @@ Resume 命令使用 `local-jsx` 类型，渲染一个会话选择界面。
 
 主要功能：
 
-1.   从消息历史中收集所有文件变更
-2.   按文件分组显示差异
-3.   支持滚动浏览
+1. 从消息历史中收集所有文件变更
+2. 按文件分组显示差异
+3. 支持滚动浏览
 
 实际组件位于 `src/commands/diff/` 目录中。

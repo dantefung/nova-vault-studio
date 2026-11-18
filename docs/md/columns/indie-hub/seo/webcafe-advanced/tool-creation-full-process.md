@@ -32,13 +32,13 @@ url: "https://new.web.cafe/tutorial/detail/gz96vzpif7dW65iFcHDbTY"
 
 种一棵树最好的时间是十年前，其次是现在。做网站属于长期积累的事情，所以不要想着等以后再做，而应该立即开始去做。做好了，放在那里不去更新，只要你的工具站还有人使用，权重就会日积月累，越来越高。
 
-尤其今年一整年，大家对于 AI的热情都很高涨，只要你做的工具跟 AI相关，用户就会自发帮助我们传播。
+尤其今年一整年，大家对于 AI 的热情都很高涨，只要你做的工具跟 AI 相关，用户就会自发帮助我们传播。
 
 所以可以说，现在是最好的下场时期。
 
-可以做的方向有很多，有些需求是短期的，有些是长期的，有些是 for fun为了好玩的，有些是真的工作生活需要用到的。
+可以做的方向有很多，有些需求是短期的，有些是长期的，有些是 for fun 为了好玩的，有些是真的工作生活需要用到的。
 
-对于我们大多数新手来说，可以先做短期的或者 for fun的需求练练手，在这个过程中学习如何挖掘需求，如何做 SEO，如何获取流量，如何宣传推广，如何将流量变现。
+对于我们大多数新手来说，可以先做短期的或者 for fun 的需求练练手，在这个过程中学习如何挖掘需求，如何做 SEO，如何获取流量，如何宣传推广，如何将流量变现。
 
 之后就可以布局长期的、工作生活需要的一些工具，参考竞争对手，争取在某些方面超过竞争对手，如做得更好用，做得更漂亮，做得处理速度更快等等。
 
@@ -60,11 +60,11 @@ url: "https://new.web.cafe/tutorial/detail/gz96vzpif7dW65iFcHDbTY"
 
 建议养成好习惯，没事就去搜索引擎搜索一些工具相关词汇，对于搜索结果排名前 10 的网站，都可以去看看流量到底有多少。
 
-举例在谷歌搜索"pdf"，排名第一的是 adobe官网，第二就是 ilovepdf.com ，那么就可以打开 Similarweb 查看流量。
+举例在谷歌搜索“pdf"，排名第一的是 adobe 官网，第二就是 ilovepdf.com ，那么就可以打开 Similarweb 查看流量。
 
-![Similarweb流量数据](images/tool-creation-full-process/gefei-tool-creation-full-process_001.webp)
+![Similarweb 流量数据](images/tool-creation-full-process/gefei-tool-creation-full-process_001.webp)
 
-这里访问量单位 M表示 100 万，8.8M是 880 万，138.8M就是一亿三千八百八十万。跳出率只有 20%不到，说明大家打开之后，都能够找到自己所需要的工具，说明的确是有用的工具。
+这里访问量单位 M 表示 100 万，8.8M 是 880 万，138.8M 就是一亿三千八百八十万。跳出率只有 20%不到，说明大家打开之后，都能够找到自己所需要的工具，说明的确是有用的工具。
 
 如果跳出率太高，就说明进来的人打开后就关闭了页面，这种情况，要么是网站打开太慢，要么是垃圾站，满足不了搜索进来的用户的需求。每次访问页数和访问时长也说明了这个工具站是能够满足用户需求的。
 
@@ -80,7 +80,7 @@ url: "https://new.web.cafe/tutorial/detail/gz96vzpif7dW65iFcHDbTY"
 
 ![流量来源分析](images/tool-creation-full-process/gefei-tool-creation-full-process_004.webp)
 
-64.6%流量来自于搜索引擎，那就说明这个网站 SEO真的做得好很好。同时又不是 90%来自于搜索引擎，还有 31.3%是直接访问的。这就是说明，这个网站能够把从搜索引擎过来的新用户转变为老用户。用户要么记住网址了，要么加入书签了。又再次印证了我们之前说的，这个网站用户体验做得好，能够满足用户需求。
+64.6%流量来自于搜索引擎，那就说明这个网站 SEO 真的做得好很好。同时又不是 90%来自于搜索引擎，还有 31.3%是直接访问的。这就是说明，这个网站能够把从搜索引擎过来的新用户转变为老用户。用户要么记住网址了，要么加入书签了。又再次印证了我们之前说的，这个网站用户体验做得好，能够满足用户需求。
 
 ![搜索关键词来源](images/tool-creation-full-process/gefei-tool-creation-full-process_005.webp)
 
@@ -102,7 +102,7 @@ Similarweb 就先给大家介绍这么多了，以上这些功能，甚至都不
 
 网址：https://zh.semrush.com/projects/
 
-![Semrush界面](images/tool-creation-full-process/gefei-tool-creation-full-process_009.webp)
+![Semrush 界面](images/tool-creation-full-process/gefei-tool-creation-full-process_009.webp)
 
 使用方式很简单，依然是把域名输入进去，提交搜索后就能看到结果页面。
 
@@ -112,11 +112,11 @@ Similarweb 就先给大家介绍这么多了，以上这些功能，甚至都不
 
 ![各国关键词流量](images/tool-creation-full-process/gefei-tool-creation-full-process_010.webp)
 
-注意看 KD那一列，代表的就是这个词在这个国家的优化竞争度，数字越高竞争度越高，我们几乎无法竞争过去。
+注意看 KD 那一列，代表的就是这个词在这个国家的优化竞争度，数字越高竞争度越高，我们几乎无法竞争过去。
 
-免费版本无法按照 KD难度筛选关键字，如果是 VIP账号的话，我们可以筛选 KD值 60 以下的词，按照搜索量从高到低排序，就有可能能够挖掘到一些有一定搜索量，但是竞争难度不高的词。
+免费版本无法按照 KD 难度筛选关键字，如果是 VIP 账号的话，我们可以筛选 KD 值 60 以下的词，按照搜索量从高到低排序，就有可能能够挖掘到一些有一定搜索量，但是竞争难度不高的词。
 
-![KD筛选结果](images/tool-creation-full-process/gefei-tool-creation-full-process_011.webp)
+![KD 筛选结果](images/tool-creation-full-process/gefei-tool-creation-full-process_011.webp)
 
 每个关键字都点击打开新页面，可以看到这个关键字的搜索量，优化竞争度，排名前几的结果。
 
@@ -124,11 +124,11 @@ Similarweb 就先给大家介绍这么多了，以上这些功能，甚至都不
 
 ![关键词详情分析](images/tool-creation-full-process/gefei-tool-creation-full-process_012.webp)
 
-哥飞去找了一下，发现一个词"poxer"，竞争难度很低，下面的搜索结果也都是内页。那么如果我们注册一个相关域名，举全站之力去优化这个词，很容易就能够上谷歌首页。
+哥飞去找了一下，发现一个词”poxer"，竞争难度很低，下面的搜索结果也都是内页。那么如果我们注册一个相关域名，举全站之力去优化这个词，很容易就能够上谷歌首页。
 
-![poxer关键词分析](images/tool-creation-full-process/gefei-tool-creation-full-process_013.webp)
+![poxer 关键词分析](images/tool-creation-full-process/gefei-tool-creation-full-process_013.webp)
 
-注意，"monkey pox"表示"猴痘"，"pox"表示"痘"，所以"poxer"有可能用户想了解的是患了"痘"的人相关信息。
+注意，"monkey pox“表示”猴痘“，"pox”表示“痘”，所以“poxer”有可能用户想了解的是患了“痘”的人相关信息。
 
 当然，具体用户到底想找的是什么，就需要更深入地去挖掘了。
 
@@ -140,10 +140,10 @@ Semrush 功能很多，很强大，我们今天就只介绍以上看域名和看
 
 网址：https://trends.google.com/trends/
 
-![Google Trends对比](images/tool-creation-full-process/gefei-tool-creation-full-process_014.webp)
-![Google Trends趋势](images/tool-creation-full-process/gefei-tool-creation-full-process_015.webp)
+![Google Trends 对比](images/tool-creation-full-process/gefei-tool-creation-full-process_014.webp)
+![Google Trends 趋势](images/tool-creation-full-process/gefei-tool-creation-full-process_015.webp)
 
-从上面两个词对比就可以看出来，有些词的搜索量是有周期性的，如母亲节，只在每年的母亲节前后搜索量高，之后全年都很低。但是"poxer"则一年都很平稳。
+从上面两个词对比就可以看出来，有些词的搜索量是有周期性的，如母亲节，只在每年的母亲节前后搜索量高，之后全年都很低。但是“poxer”则一年都很平稳。
 
 ### 2.4、我们再看下 ahrefs
 
@@ -151,25 +151,25 @@ ahrefs 功能也很强大，很多功能，我们今天只介绍免登录就可�
 
 网址：https://ahrefs.com/keyword-difficulty
 
-输入要查询的词，选择要查询的国家，点击 check按钮，就可以查询了。
+输入要查询的词，选择要查询的国家，点击 check 按钮，就可以查询了。
 
-![ahrefs查询界面](images/tool-creation-full-process/gefei-tool-creation-full-process_016.webp)
+![ahrefs 查询界面](images/tool-creation-full-process/gefei-tool-creation-full-process_016.webp)
 
 在这个结果页面，我们主要关注难度和外链数据。从页面可以看到，竞争难度 95，需要 1391 个外链网站才有可能能排上谷歌美国搜索的前 10。
 
 通常，如果所需要的外链网站数量小于 100，我们都可以去尝试一下。
 
-![ahrefs难度分析](images/tool-creation-full-process/gefei-tool-creation-full-process_017.webp)
+![ahrefs 难度分析](images/tool-creation-full-process/gefei-tool-creation-full-process_017.webp)
 
-刚才我们在 Similarweb查看 ilovepdf 的流量也发现，在美国几乎没流量，从上图的搜索结果列表也可以看出来，ilovepdf就没有上榜。在前 10 可以看到 https://www.freepdfconvert.com/，大家可以当作作业，去分析一下这个站。
+刚才我们在 Similarweb 查看 ilovepdf 的流量也发现，在美国几乎没流量，从上图的搜索结果列表也可以看出来，ilovepdf 就没有上榜。在前 10 可以看到 https://www.freepdfconvert.com/，大家可以当作作业，去分析一下这个站。
 
-![freepdfconvert分析](images/tool-creation-full-process/gefei-tool-creation-full-process_018.webp)
+![freepdfconvert 分析](images/tool-creation-full-process/gefei-tool-creation-full-process_018.webp)
 
-以"poxer"为例，查询结果显示难度为 0，也就是说这是一个没人关注的小词新词，所以很容易就能优化上去。
+以“poxer”为例，查询结果显示难度为 0，也就是说这是一个没人关注的小词新词，所以很容易就能优化上去。
 
 好了，我们常用的工具到这里就介绍完了。
 
-我们最后再总结一下，我们可以通过在搜索引擎查询一些工具相关的词汇，找到一些网站，然后去 Similarweb 查询网站流量，流量渠道，相关网站等信息。之后再用 Semrush 去分析网站、分析关键字，找到竞争难度低的词，再去 ahrefs这里再验证一下。
+我们最后再总结一下，我们可以通过在搜索引擎查询一些工具相关的词汇，找到一些网站，然后去 Similarweb 查询网站流量，流量渠道，相关网站等信息。之后再用 Semrush 去分析网站、分析关键字，找到竞争难度低的词，再去 ahrefs 这里再验证一下。
 
 其实也不一定只看工具站，我们可以去查我们知道的任意一个有一定流量的网站，分析网站流量来自于哪些关键字，之后分析一下，有没有哪个关键字是我们可以去做的。
 
@@ -179,15 +179,15 @@ ahrefs 功能也很强大，很多功能，我们今天只介绍免登录就可�
 
 https://www.reddit.com/r/juststart/comments/mcaodn/how_i_built_a_site_for_less_than_2000_which_now/
 
-![Reddit帖子](images/tool-creation-full-process/gefei-tool-creation-full-process_019.webp)
-![Reddit评论](images/tool-creation-full-process/gefei-tool-creation-full-process_020.webp)
+![Reddit 帖子](images/tool-creation-full-process/gefei-tool-creation-full-process_019.webp)
+![Reddit 评论](images/tool-creation-full-process/gefei-tool-creation-full-process_020.webp)
 
 这个方法在 Semrush 中也可以使用，哥飞带大家实际试用一下。
 
-打开 Keyword Magic Tool，随便输入一些词，这里我选择了猫猫狗狗这些常见的词，选择 KD（竞争度）0～29%，也就是低竞争度，排除一些色情词汇，然后一个一个去看，就给我发现了"cat coloring pages" 这个词，竞争度只有 27，而且搜索结果前 6 都是内页，那么我们注册一个域名来优化这个词，就很容易排到谷歌搜索首页。
+打开 Keyword Magic Tool，随便输入一些词，这里我选择了猫猫狗狗这些常见的词，选择 KD（竞争度）0～29%，也就是低竞争度，排除一些色情词汇，然后一个一个去看，就给我发现了“cat coloring pages" 这个词，竞争度只有 27，而且搜索结果前 6 都是内页，那么我们注册一个域名来优化这个词，就很容易排到谷歌搜索首页。
 
-![Keyword Magic Tool搜索](images/tool-creation-full-process/gefei-tool-creation-full-process_021.webp)
-![cat coloring pages分析](images/tool-creation-full-process/gefei-tool-creation-full-process_022.webp)
+![Keyword Magic Tool 搜索](images/tool-creation-full-process/gefei-tool-creation-full-process_021.webp)
+![cat coloring pages 分析](images/tool-creation-full-process/gefei-tool-creation-full-process_022.webp)
 
 这里解释一下，对于同一个关键字，一般来讲，
 
@@ -201,17 +201,17 @@ https://www.reddit.com/r/juststart/comments/mcaodn/how_i_built_a_site_for_less_t
 
 再在 https://ahrefs.com/keyword-difficulty 这里验证一下，优化难度 9，只需要 10 个外链就能排到首页，说明的确值得去做。
 
-![ahrefs验证](images/tool-creation-full-process/gefei-tool-creation-full-process_023.webp)
+![ahrefs 验证](images/tool-creation-full-process/gefei-tool-creation-full-process_023.webp)
 
-既然 cat可以，dog是否也可以呢？flower是否可以呢？大家可以发散思维，找到更多词。
+既然 cat 可以，dog 是否也可以呢？flower 是否可以呢？大家可以发散思维，找到更多词。
 
 用 coloring pages 去搜索下，找到很多相关词，不过有一些词竞争难度比较大。
 
-![coloring pages相关词](images/tool-creation-full-process/gefei-tool-creation-full-process_024.webp)
+![coloring pages 相关词](images/tool-creation-full-process/gefei-tool-creation-full-process_024.webp)
 
 如果我们要做一个网站来满足这些词的搜索需求，要怎么做呢？
 
-首先注册一个合适的域名，前面我们讲过，域名带上 AI，会让我们的推广事半功倍，所以可以用 ai-coloring-pages.com 这个域名，完美符合关键字，也增加了 AI元素。
+首先注册一个合适的域名，前面我们讲过，域名带上 AI，会让我们的推广事半功倍，所以可以用 ai-coloring-pages.com 这个域名，完美符合关键字，也增加了 AI 元素。
 
 ![域名注册](images/tool-creation-full-process/gefei-tool-creation-full-process_025.webp)
 
@@ -219,17 +219,17 @@ https://www.reddit.com/r/juststart/comments/mcaodn/how_i_built_a_site_for_less_t
 
 然后我们分析需求，用户一般都是为了找到喜欢的黑白着色线框图下载下来打印出来用于填色。
 
-那么我们就需要在网站上放很多已经生成好的线框图，让用户可以分门别类的查找，也最好在网站上直接集成 AI画图能力，用户输入简单的词汇，如 dog、cat等，你后台就可以生成合适的 prompt，去帮助用户生成图片，显示到网站上。
+那么我们就需要在网站上放很多已经生成好的线框图，让用户可以分门别类的查找，也最好在网站上直接集成 AI 画图能力，用户输入简单的词汇，如 dog、cat 等，你后台就可以生成合适的 prompt，去帮助用户生成图片，显示到网站上。
 
 所有生成的图片，都公开给所有用户可见，这样你的网站就会有源源不断地产生新的图片，而不需要你去手动维护更新。
 
-除了放广告赚钱，有没有可能收费呢？也是可以的，既然用户的需求是下载图片，那么你就可以在下载时做文章。不注册只能下载有限张图片，注册后可以下载多张图片，但是如果订阅之后，就可以批量下载图片，还可以把多张图片合并成一个 pdf供用户下载。
+除了放广告赚钱，有没有可能收费呢？也是可以的，既然用户的需求是下载图片，那么你就可以在下载时做文章。不注册只能下载有限张图片，注册后可以下载多张图片，但是如果订阅之后，就可以批量下载图片，还可以把多张图片合并成一个 pdf 供用户下载。
 
 刚才说了，我们最好用图片站的方式来做，那么图片就要用大图，刚好用户下载下来是用于打印的，那么你就可以把所有图片都做出标准 A4 纸大小，让用户下载下来就可以直接拿去打印。
 
-然后给每张图片的 alt都写上合适的描述，让用户能够在图片搜索时找到你的图片，进而打开你的网页。
+然后给每张图片的 alt 都写上合适的描述，让用户能够在图片搜索时找到你的图片，进而打开你的网页。
 
-![图片 SEO优化](images/tool-creation-full-process/gefei-tool-creation-full-process_026.webp)
+![图片 SEO 优化](images/tool-creation-full-process/gefei-tool-creation-full-process_026.webp)
 
 我们的目标是让我们的图片出现在红色大框位置。
 
@@ -245,19 +245,19 @@ https://www.reddit.com/r/juststart/comments/mcaodn/how_i_built_a_site_for_less_t
 
 最好是自己开发或者直接部署别人做好的，如果没有编程基础的话，哥飞给大家推荐一些自学资料，大家可以去学起来。
 
-有很多在线教程，看多了反而可能会无所适从，所以初学者就看菜鸟教程入门足够了。以下三个教程不一定要全部学完了才开始做网站，可以先看一遍概览，大概了解什么是 HTML，要想显示出样式要用 CSS，要想点击有效果要用 JS就可以了，然后根据你的需求，想要什么就找到对应的章节去学习。
+有很多在线教程，看多了反而可能会无所适从，所以初学者就看菜鸟教程入门足够了。以下三个教程不一定要全部学完了才开始做网站，可以先看一遍概览，大概了解什么是 HTML，要想显示出样式要用 CSS，要想点击有效果要用 JS 就可以了，然后根据你的需求，想要什么就找到对应的章节去学习。
 
-HTML教程 https://www.runoob.com/html/html-tutorial.html
-CSS教程 https://www.runoob.com/css/css-tutorial.html
-JS教程 https://www.runoob.com/js/js-tutorial.html
+HTML 教程 https://www.runoob.com/html/html-tutorial.html
+CSS 教程 https://www.runoob.com/css/css-tutorial.html
+JS 教程 https://www.runoob.com/js/js-tutorial.html
 
-这里还有一个 B站的视频教程也可以看 https://www.bilibili.com/video/BV1Wr4y1R7Bd/
+这里还有一个 B 站的视频教程也可以看 https://www.bilibili.com/video/BV1Wr4y1R7Bd/
 
-还可以找 ChatGPT辅助学习，务必尽快学会做一个简单的网页。
+还可以找 ChatGPT 辅助学习，务必尽快学会做一个简单的网页。
 
 如果你已经有了开发能力了，以上讲的这些都不在话下了。注意不要陷入追求高大上的技术栈的陷阱。
 
-我们做的是有 AI能力的工具，交互不会特别复杂。如果你会用 vue ，那么用 vue 没问题。如果不会，那么就直接用原生 js 就足够了，最多加上一个 jQuery 。
+我们做的是有 AI 能力的工具，交互不会特别复杂。如果你会用 vue ，那么用 vue 没问题。如果不会，那么就直接用原生 js 就足够了，最多加上一个 jQuery 。
 
 如果你没有开发能力，又实在不想学，那么还可以找人组队合作，团队的力量一定会比个人单打独斗更强。
 
@@ -267,21 +267,21 @@ Github https://github.com/ 可以找到很多开源代码，有很多代码是�
 
 Vercel 模板中心 https://vercel.com/templates 有很多可以一键部署拿来就用的模板。
 
-![Vercel模板](images/tool-creation-full-process/gefei-tool-creation-full-process_027.webp)
+![Vercel 模板](images/tool-creation-full-process/gefei-tool-creation-full-process_027.webp)
 
 哥飞以前在即刻讲过，有个朋友 3 月份注册的域名，一直没去用起来。
 
 前段时间看到哥飞分享的 Vercel 模板中心后，就在里边找到了一个直接能用的模板，改个名字就上线了。
 
-后来提交到了 ProductHunt，被很多 AI导航工具收录，获得了两千多个外链。
+后来提交到了 ProductHunt，被很多 AI 导航工具收录，获得了两千多个外链。
 
 从谷歌也有了搜索流量过来，后来还被国外各种营销号推荐。
 
-也就是说，目前这个阶段，只要我们的产品跟 AI有关，那么就能够得到用户的自发传播。
+也就是说，目前这个阶段，只要我们的产品跟 AI 有关，那么就能够得到用户的自发传播。
 
 还有 https://codecanyon.net/search/ai 有很多收费的源码，有完整的功能，价格不贵，只要几十美元。
 
-![Codecanyon源码](images/tool-creation-full-process/gefei-tool-creation-full-process_028.webp)
+![Codecanyon 源码](images/tool-creation-full-process/gefei-tool-creation-full-process_028.webp)
 
 我有一个朋友，有一个完美的单字母域名，想用来做一个短链网站，但是因为他自己不会开发，域名就一直在那里放着。
 

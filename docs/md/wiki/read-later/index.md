@@ -20,8 +20,8 @@ date: "2026-05-29"
 | 2026-09-14 | https://x.com/xiaoerzhan/status/2099707280845332534 | **小耳👂Jane｜Xiaoer（@xiaoerzhan）**：不出境不开香港公司，给自己的产品接上全球收款 → 已归档 ([xiaoer-global-payout-without-hk-company](/md/wiki/sources/xiaoer-global-payout-without-hk-company)) |
 | 2026-09-14 | https://x.com/Sukiea1008/status/2099448521237950868 | **Su（@Sukiea1008）**：【全文中译】Vibe Marketing 如何成为营销工程师 → 已归档 ([su-vibe-marketing-translation](/md/wiki/sources/su-vibe-marketing-translation)) |
 | 2026-09-14 | https://x.com/leoshen0/status/2099641267726758095 | **川处安（@leoshen0）**：一篇速通入门——重新理解 AI Agent 的一切 → 已归档 ([leoshen-ai-agent-quickstart-rethinking](/md/wiki/sources/leoshen-ai-agent-quickstart-rethinking)) |
-| 2026-09-14 | https://x.com/yhslgg/status/2068317116831510838 | **老杨啊｜AI产品商业化（@yhslgg）**：网警同款开盒思路——查人查公司查设备，五个免费开源工具 → 已归档 ([laoyang-5-free-osint-tools-for-people-and-companies](/md/wiki/sources/laoyang-5-free-osint-tools-for-people-and-companies)) |
-| 2026-09-14 | https://x.com/Jackywxsz/status/2099816894350110997 | **Jacky无限生长（@Jackywxsz）**：全流程｜如何用 Grok Bot 做自媒体？ → 已归档 ([jacky-infinite-growth-grok-bot-social-media-workflow](/md/wiki/sources/jacky-infinite-growth-grok-bot-social-media-workflow)) |
+| 2026-09-14 | https://x.com/yhslgg/status/2068317116831510838 | **老杨啊｜AI 产品商业化（@yhslgg）**：网警同款开盒思路——查人查公司查设备，五个免费开源工具 → 已归档 ([laoyang-5-free-osint-tools-for-people-and-companies](/md/wiki/sources/laoyang-5-free-osint-tools-for-people-and-companies)) |
+| 2026-09-14 | https://x.com/Jackywxsz/status/2099816894350110997 | **Jacky 无限生长（@Jackywxsz）**：全流程｜如何用 Grok Bot 做自媒体？ → 已归档 ([jacky-infinite-growth-grok-bot-social-media-workflow](/md/wiki/sources/jacky-infinite-growth-grok-bot-social-media-workflow)) |
 | 2026-09-19 | https://x.com/aikangarooking/status/2101488328340390197 | **袋鼠帝（@aikangarooking）**：爆肝 30 天开源让 AI 课程卖家集体失业的网站 → 已归档 ([aikangarooking-open-source-ai-course-selling-website](/md/wiki/sources/aikangarooking-open-source-ai-course-selling-website)) |
 | 2026-09-19 | https://x.com/kongge_space/status/2101184069509747014 | **空格.space（@kongge_space）**：这个 Skill 把你的简历部署成个人网站 → 已归档 ([kongge-space-resume-as-personal-website-skill](/md/wiki/sources/kongge-space-resume-as-personal-website-skill)) |
 | 2026-09-19 | https://x.com/kongge_space/status/2101184069509747014 | **空格.space（@kongge_space）**：这个 Skill 把你的简历部署成个人网站 → 已归档 ([kongge-space-resume-as-personal-website-skill](/md/wiki/sources/kongge-space-resume-as-personal-website-skill)) |
@@ -37,12 +37,12 @@ date: "2026-05-29"
 | 2026-07-26 | https://x.com/i/status/2062080784572534958 | **Adrian Punk（@AdrianPunk115）**：想做高级咨询风视觉？麦肯锡风格提示词可直接复制 → 已归档 ([adrian-mckinsey-style-consulting-visual-prompts](/md/wiki/sources/adrian-mckinsey-style-consulting-visual-prompts)) |
 | 2026-07-26 | https://x.com/i/status/2079935421459366178 | **AI, Ads & Apps（@AIAdsApps）**：如何找到已经有人等着付钱的 App 点子（10 万美元/月案例） → 已归档 ([ai-ads-apps-find-app-idea-people-already-waiting-to-pay](/md/wiki/sources/ai-ads-apps-find-app-idea-people-already-waiting-to-pay)) |
 | 2026-07-26 | https://x.com/i/status/2080467501633478757 | **Fred-New（@Fred834567）**：GitHub 信息差套利 8 法——8 个可立即变现的仓库 → 已归档 ([fred-new-github-information-arbitrage-8-methods](/md/wiki/sources/fred-new-github-information-arbitrage-8-methods)) |
-| 2026-07-26 | — | **躺赚vs辛苦钱**：卖铲子思维——搬视频/盯盘/跪富婆都是辛苦钱，卖工具/课/软件才是躺赚。选边比努力重要一万倍。所有人在赌时，最稳生意是卖入场券 |
+| 2026-07-26 | — | **躺赚 vs 辛苦钱**：卖铲子思维——搬视频/盯盘/跪富婆都是辛苦钱，卖工具/课/软件才是躺赚。选边比努力重要一万倍。所有人在赌时，最稳生意是卖入场券 |
 | 2026-07-15 | https://x.com/i/status/2076966319031996776 | **张子俊（@wuxindehuaft）**：把 12 台 iPhone 8 变成增长机房：内部实验做成公开作品集再变现 → 已归档 ([zhangzijun-12-iphone-8-growth-server-monetization](/md/wiki/sources/zhangzijun-12-iphone-8-growth-server-monetization)) |
-| 2026-09-21 | https://x.com/ainotes_KK/status/2102251206580047933 | **KK的AI笔记（@ainotes_KK）**：OPC 出海必备工具：万里汇获取海外地址证明完整教程 → 已归档 ([kk-ai-notes-opc-wanlihui-overseas-address-proof](/md/wiki/sources/kk-ai-notes-opc-wanlihui-overseas-address-proof)) |
+| 2026-09-21 | https://x.com/ainotes_KK/status/2102251206580047933 | **KK 的 AI 笔记（@ainotes_KK）**：OPC 出海必备工具：万里汇获取海外地址证明完整教程 → 已归档 ([kk-ai-notes-opc-wanlihui-overseas-address-proof](/md/wiki/sources/kk-ai-notes-opc-wanlihui-overseas-address-proof)) |
 | 2026-09-21 | https://x.com/leo_xiaolei/status/2102013053084545433 | **刘老板（@leo_xiaolei）**：AI 人物一致性控制与角色卡制作 Skill → 已归档 ([leo-xiaolei-ai-character-consistency-skill](/md/wiki/sources/leo-xiaolei-ai-character-consistency-skill)) |
 | 2026-09-21 | https://x.com/shaozhu93314/status/2047186395555590428 | **杨进（@shaozhu93314）**：构建 IP 系统的底层架构 → 已归档 ([yangjin-ip-system-underlying-architecture](/md/wiki/sources/yangjin-ip-system-underlying-architecture)) |
-| 2026-09-21 | https://x.com/HanZhang415188/status/2100857704617316717 | **Simon聊AI（@HanZhang415188）**：用 AI 做热点长视频：单条 108 万播放，3 天涨粉近万 → 已归档 ([simon-ai-hot-topic-long-video-1-08m-views](/md/wiki/sources/simon-ai-hot-topic-long-video-1-08m-views)) |
+| 2026-09-21 | https://x.com/HanZhang415188/status/2100857704617316717 | **Simon 聊 AI（@HanZhang415188）**：用 AI 做热点长视频：单条 108 万播放，3 天涨粉近万 → 已归档 ([simon-ai-hot-topic-long-video-1-08m-views](/md/wiki/sources/simon-ai-hot-topic-long-video-1-08m-views)) |
 | 2026-09-21 | https://x.com/CrazyKaomei/status/2099775364965061013 | **疯狂的烤妹儿（@CrazyKaomei）**：月涨粉 5w 还能出海赚美金——古风武侠英语剧长青打法 → 已归档 ([crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook](/md/wiki/sources/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook)) |
 | 2026-09-21 | https://x.com/miles_mazy/status/2102018333499707492 | **Miles Ma（@miles_mazy）**：零基础入门 AI，看完这篇就够了（避免买课被割韭菜） → 已归档 ([miles-ma-ai-beginner-guide-no-courses](/md/wiki/sources/miles-ma-ai-beginner-guide-no-courses)) |
 | 2026-09-21 | https://x.com/bbkirstry/status/2102373925309338097 | **小晚不在（@bbkirstry）**：推特起号焚诀 → 已归档 ([xiaowan-x-account-startup-strategy-3000-followers](/md/wiki/sources/xiaowan-x-account-startup-strategy-3000-followers)) |
@@ -55,8 +55,8 @@ date: "2026-05-29"
 | 2026-09-28 | https://x.com/dotey/status/2094624092015992854 | **宝玉（@dotey）**：腾讯学堂：AI 原生思维——像训练大模型一样训练自己 → 已归档 ([dotey-ai-native-thinking-train-yourself-like-an-llm](/md/wiki/sources/dotey-ai-native-thinking-train-yourself-like-an-llm)) |
 | 2026-09-28 | https://x.com/xaiwind/status/2104039563719262546 | **想风（@xaiwind）**：超详细的 GitHub 教程，从入门到精通 → 已归档 ([xaiwind-github-complete-beginner-to-master-guide](/md/wiki/sources/xaiwind-github-complete-beginner-to-master-guide)) |
 | 2026-09-28 | https://x.com/longhaiqwe123/status/2104223930253021355 | **龙海（@longhaiqwe123）**：讲清楚育儿的第一性原理 → 已归档 ([longhai-parenting-first-principles-comprehensive-guide](/md/wiki/sources/longhai-parenting-first-principles-comprehensive-guide)) |
-| 2026-09-28 | https://x.com/noahduck283/status/2070718724282458257 | **诺鸭船长3（@noahduck283）**：Stripe 全网最全使用指南：从入门到榨干 → 已归档 ([noahduck-stripe-complete-guide-from-beginner-to-advanced](/md/wiki/sources/noahduck-stripe-complete-guide-from-beginner-to-advanced)) |
-| 2026-09-28 | https://x.com/hezhiyan7/status/2017385824833442254 | **droidHZ（@hezhiyan7）**：月入3千刀达成，网站出海内容整理 → 已归档 ([hezhiyan-outsea-3000usd-monthly-content-digest](/md/wiki/sources/hezhiyan-outsea-3000usd-monthly-content-digest)) |
+| 2026-09-28 | https://x.com/noahduck283/status/2070718724282458257 | **诺鸭船长 3（@noahduck283）**：Stripe 全网最全使用指南：从入门到榨干 → 已归档 ([noahduck-stripe-complete-guide-from-beginner-to-advanced](/md/wiki/sources/noahduck-stripe-complete-guide-from-beginner-to-advanced)) |
+| 2026-09-28 | https://x.com/hezhiyan7/status/2017385824833442254 | **droidHZ（@hezhiyan7）**：月入 3 千刀达成，网站出海内容整理 → 已归档 ([hezhiyan-outsea-3000usd-monthly-content-digest](/md/wiki/sources/hezhiyan-outsea-3000usd-monthly-content-digest)) |
 | 2026-09-28 | https://x.com/GoSailGlobal/status/2075469627656904973 | **Jason Zhu（@GoSailGlobal）**：做 AI 工具站要装哪些 SEO 工具？踩坑 15 个后的完整清单 → 已归档 ([gosailglobal-ai-tools-seo-checklist-15-pitfalls](/md/wiki/sources/gosailglobal-ai-tools-seo-checklist-15-pitfalls)) |
 | 2026-09-28 | https://x.com/hezhiyan7/status/2064490910914908564 | **droidHZ（@hezhiyan7）**：从推广渠道找需求 → 已归档 ([hezhiyan-finding-demands-from-promotion-channels](/md/wiki/sources/hezhiyan-finding-demands-from-promotion-channels)) |
 | 2026-09-29 | https://x.com/xingjia520/status/2105671052739362840 | **星佳（@xingjia520）**：存款不到 100 万的年轻人生存清单 → 已归档 ([xingjia-young-adults-net-worth-under-1m-survival-checklist](/md/wiki/sources/xingjia-young-adults-net-worth-under-1m-survival-checklist)) |
@@ -74,14 +74,14 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/yhslgg/status/2108022272095408163 | **老杨啊（@yhslgg）**：剪映/百度网盘 SVIP 年卡会员短视频&直播带货 0~1 → 已归档 ([yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop](/md/wiki/sources/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop)) |
 | 2026-09-29 | https://x.com/yhslgg/status/2104418460919058651 | **老杨啊（@yhslgg）**：AI 美女图文自媒体变现 SOP → 已归档 ([yhslgg-ai-beauty-photo-monetization-sop](/md/wiki/sources/yhslgg-ai-beauty-photo-monetization-sop)) |
 | 2026-09-29 | https://x.com/yaojingang/status/2108106577408389217 | **姚金刚（@yaojingang）**：开源 17 套知识付费提示词 → 已归档 ([yaojingang-17-knowledge-monetization-prompt-templates](/md/wiki/sources/yaojingang-17-knowledge-monetization-prompt-templates)) |
-| 2026-09-29 | https://x.com/WolfMoneyNotes/status/2077624635105980561 | **狼哥搞钱笔记：公众号贴图正在制造新一批"闷声赚钱"的人** ~~已采集~~ → 已归档至 [sources/wechat-tietu-money-playbook](/md/wiki/sources/wechat-tietu-money-playbook) |
-| 2026-09-29 | https://x.com/qihang_zeng6688/status/2082293843353821306 | **启航：7天收入破百，1篇收入破千，微信贴图号的风口** ~~已采集~~ → 已归档至 [sources/wechat-tietu-project-breakdown](/md/wiki/sources/wechat-tietu-project-breakdown) |
+| 2026-09-29 | https://x.com/WolfMoneyNotes/status/2077624635105980561 | **狼哥搞钱笔记：公众号贴图正在制造新一批“闷声赚钱”的人** ~~已采集~~ → 已归档至 [sources/wechat-tietu-money-playbook](/md/wiki/sources/wechat-tietu-money-playbook) |
+| 2026-09-29 | https://x.com/qihang_zeng6688/status/2082293843353821306 | **启航：7 天收入破百，1 篇收入破千，微信贴图号的风口** ~~已采集~~ → 已归档至 [sources/wechat-tietu-project-breakdown](/md/wiki/sources/wechat-tietu-project-breakdown) |
 | 2026-09-29 | https://x.com/yang02010/status/2092727972486885653 | **牙仔（@yang02010）**：公众号贴图新人第 8 天 110 万阅读，单日变现 1500+ → 已归档 ([yangzai-wechat-tietu-1-1m-reads-1500-daily-income](/md/wiki/sources/yangzai-wechat-tietu-1-1m-reads-1500-daily-income)) |
 | 2026-09-29 | https://x.com/lxfater/status/2049019768456241273 | **铁锤人（@lxfater）**：GPT Image 2 爆火，自动化生图套利（附 6 个真实需求案例） → 已归档 ([lxfater-gpt-image-2-automation-arbitrage-cases](/md/wiki/sources/lxfater-gpt-image-2-automation-arbitrage-cases)) |
 | 2026-09-29 | https://x.com/songsong/status/2091850341235200462 | **宋宋：拆解一个公众号蓝海赛道（银发经济）** ~~已采集~~ → 已归档至 [sources/wechat-silver-economy-niche](/md/wiki/sources/wechat-silver-economy-niche) |
 | 2026-09-29 | https://x.com/king1818888/status/2075904679494680643 | **Kimberly（@king1818888）**：有嘴就行！小白零门槛，AI 一键生成小红书和公众号内容 → 已归档 ([kimberly-ai-one-click-content-generator-for-xhs-and-wechat](/md/wiki/sources/kimberly-ai-one-click-content-generator-for-xhs-and-wechat)) |
 | 2026-09-29 | https://x.com/kongge_space/status/2092902850821337330 | **空格.space（@kongge_space）**：10 个 Skill 搭建日更爆文的公众号写作系统 → 已归档 ([kongge-space-10-skills-daily-explosive-wechat-article-system](/md/wiki/sources/kongge-space-10-skills-daily-explosive-wechat-article-system)) |
-| 2026-09-29 | https://x.com/aronhouyu/status/2109278797879205910 | **Aron厚玉（@aronhouyu）**：用 AI 搭建流量上升词自动发现与批量选题流水线 → 已归档 ([aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline](/md/wiki/sources/aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline)) |
+| 2026-09-29 | https://x.com/aronhouyu/status/2109278797879205910 | **Aron 厚玉（@aronhouyu）**：用 AI 搭建流量上升词自动发现与批量选题流水线 → 已归档 ([aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline](/md/wiki/sources/aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline)) |
 | 2026-09-29 | https://x.com/miles_mazy/status/2109209546853876202 | **Miles Ma（@miles_mazy）**：出海赚美金系列｜SEO 保姆级教程 → 已归档 ([miles-mazy-outsea-usd-seo-comprehensive-tutorial](/md/wiki/sources/miles-mazy-outsea-usd-seo-comprehensive-tutorial)) |
 | 2026-09-29 | https://x.com/wlzh/status/2109190638512263418 | **M.（@wlzh）**：人在国内却有美国税号、美国地址和手机号：美国云居民扫盲 → 已归档 ([wlzh-us-cloud-resident-ssn-ein-address-phone-guide](/md/wiki/sources/wlzh-us-cloud-resident-ssn-ein-address-phone-guide)) |
 | 2026-09-29 | https://x.com/pinminlw/status/2109114972882063619 | **pinminlw（@pinminlw）**：马来西亚个人税号（TIN）免费申请攻略 → 已归档 ([pinminlw-malaysia-personal-tax-number-tin-online-guide](/md/wiki/sources/pinminlw-malaysia-personal-tax-number-tin-online-guide)) |
@@ -105,22 +105,22 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/AdrianPunk115/status/2111742325865210099 | **Adrian Punk（@AdrianPunk115）**：AI 视频基础（中册）：景别、机位、运镜与画面连续性 → 已归档 ([adrian-ai-video-fundamentals-framing-camera-and-continuity](/md/wiki/sources/adrian-ai-video-fundamentals-framing-camera-and-continuity)) |
 | 2026-09-29 | https://x.com/heizolshao/status/2111616231723970623 | **左海（@heizolshao）**：为什么在 Reddit 上“评论”远比“发帖”更重要？ → 已归档 ([heizolshao-why-reddit-commenting-is-more-important-than-posting](/md/wiki/sources/heizolshao-why-reddit-commenting-is-more-important-than-posting)) |
 | 2026-09-29 | https://x.com/pamelaaaaa1218/status/2111490939604681059 | **PamelaAI·H（@pamelaaaaa1218）**：从 0 搭建个人网站：8 大类 60+ UI 设计必备清单 → 已归档 ([pamela-build-personal-website-from-scratch-60-ui-checklist](/md/wiki/sources/pamela-build-personal-website-from-scratch-60-ui-checklist)) |
-| 2026-09-29 | https://x.com/isituking/status/2111743535959711875 | **司徒K（@situking）**：创业百问百答：写给自媒体人和个人创业者（2.3万字长文） → 已归档 ([situking-entrepreneurship-100-qa-for-creators-and-solopreneurs](/md/wiki/sources/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs)) |
+| 2026-09-29 | https://x.com/isituking/status/2111743535959711875 | **司徒 K（@situking）**：创业百问百答：写给自媒体人和个人创业者（2.3 万字长文） → 已归档 ([situking-entrepreneurship-100-qa-for-creators-and-solopreneurs](/md/wiki/sources/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs)) |
 | 2026-09-29 | https://x.com/thedankoe/status/2023779299367809063 | **Dan Koe（@thedankoe）**：Human 3.0 – A Map To Reach The Top 1% → 已归档 ([dankoe-human-3-0-map-to-reach-the-top-one-percent](/md/wiki/sources/dankoe-human-3-0-map-to-reach-the-top-one-percent)) |
 | 2026-09-29 | https://x.com/wangzaimedia/status/2111733278353060215 | **汪仔（@wangzaimedia）**：从 0 到 1 的 X 入门运营指南 → 已归档 ([wangzai-x-twitter-zero-to-one-beginner-operations-guide](/md/wiki/sources/wangzai-x-twitter-zero-to-one-beginner-operations-guide)) |
 | 2026-09-29 | https://x.com/longhaiqwe123/status/2111411103528079642 | **龙海（@longhaiqwe123）**：玩 X 瑞士军刀：开源浏览器插件 Oh My X，解决 24 个网页端操作痛点 → 已归档 ([longhai-oh-my-x-browser-extension-24-pain-points](/md/wiki/sources/longhai-oh-my-x-browser-extension-24-pain-points)) |
-| 2026-09-29 | https://x.com/goan999999/status/2111807626329965049 | **G哥（@goan999999）**：GitHub 这 6 个免费开源项目，搞钱提效太猛了 → 已归档 ([govin-github-6-insane-open-source-projects-monetization](/md/wiki/sources/govin-github-6-insane-open-source-projects-monetization)) |
+| 2026-09-29 | https://x.com/goan999999/status/2111807626329965049 | **G 哥（@goan999999）**：GitHub 这 6 个免费开源项目，搞钱提效太猛了 → 已归档 ([govin-github-6-insane-open-source-projects-monetization](/md/wiki/sources/govin-github-6-insane-open-source-projects-monetization)) |
 | 2026-09-29 | https://x.com/Jaden_riku/status/2111846432026378666 | **Jaden 抽象日志（@Jaden_riku）**：Paul Graham：时间和金钱，是怎样失去的 → 已归档 ([jaden-paul-graham-how-time-and-money-are-lost](/md/wiki/sources/jaden-paul-graham-how-time-and-money-are-lost)) |
 | 2026-09-29 | https://x.com/aiRobertDaily/status/2111397327231721560 | **aiRobertDaily**：SEO Stripe 反向产品挖掘法 → 已归档 ([seo-stripe-reverse-product-discovery](/md/wiki/sources/seo-stripe-reverse-product-discovery)) |
 | 2026-09-29 | https://x.com/xoyif63862452/status/2111984579657797975 | **北衡（@xoyif63862452）**：红鸦 AI：一人公司怎么批量做小红书图文复刻 Skill → 已归档 ([xoyif-red-crow-ai-batch-xhs-image-text-replication-skill](/md/wiki/sources/xoyif-red-crow-ai-batch-xhs-image-text-replication-skill)) |
 | 2026-09-29 | https://x.com/alswl/status/2112111190096928930 | **Jingchao（@alswl）**：AI Native 实践续篇：迈向 Stage 8 → 已归档 ([alswl-ai-native-practices-continuation-towards-stage-8](/md/wiki/sources/alswl-ai-native-practices-continuation-towards-stage-8)) |
-| 2026-09-29 | https://x.com/xuxuanzhou/status/2112129349071831259 | **xuxuanzhou**：72小时 5480 美金新词站打法 → 已归档 ([xuxuanzhou-72h-5480usd-new-word-site](/md/wiki/sources/xuxuanzhou-72h-5480usd-new-word-site)) |
+| 2026-09-29 | https://x.com/xuxuanzhou/status/2112129349071831259 | **xuxuanzhou**：72 小时 5480 美金新词站打法 → 已归档 ([xuxuanzhou-72h-5480usd-new-word-site](/md/wiki/sources/xuxuanzhou-72h-5480usd-new-word-site)) |
 | 2026-09-29 | https://x.com/sujingshen/status/2112061360708403397 | **SagaSu（@sujingshen）**：用 Grok Bot 自动化提交外链：一天跑完 4000 多个站 → 已归档 ([sagasu-grok-bot-automated-backlink-submission-4000-sites](/md/wiki/sources/sagasu-grok-bot-automated-backlink-submission-4000-sites)) |
 | 2026-09-29 | https://x.com/qianshuixia2026/status/2112035541177016322 | **浅水虾（@qianshuixia2026）**：Wise 港卡搞定 Stripe！避开号码泄露送出海三通一达 → 已归档 ([qianshuixia-wise-hk-card-stripe-and-outsea-express-solution](/md/wiki/sources/qianshuixia-wise-hk-card-stripe-and-outsea-express-solution)) |
 | 2026-09-29 | https://x.com/liangzhu_AI/status/2112076323598516443 | **良竹（@liangzhu_AI）**：掌控 AI·FDE 实战 01｜万字实操 SOP：搭建本地自动内容交付流水线 → 已归档 ([liangzhu-fde-in-action-01-automated-local-content-delivery-sop](/md/wiki/sources/liangzhu-fde-in-action-01-automated-local-content-delivery-sop)) |
 | 2026-09-29 | https://x.com/3three_AI/status/2112028716138422443 | **三个三（@3three_AI）**：从国内真实案例看把 AI 美女变成钱的 10 种方法 → 已归档 ([threeai-10-ways-to-monetize-ai-beauty-content-china-cases](/md/wiki/sources/threeai-10-ways-to-monetize-ai-beauty-content-china-cases)) |
 | 2026-09-29 | https://x.com/qingj1314/status/2111669870958190608 | **情酱（@qingj1314）**：怎么让你的 AI 说人话？我整理了一套公式化方案 → 已归档 ([qingjiang-make-ai-talk-like-human-formula-guide](/md/wiki/sources/qingjiang-make-ai-talk-like-human-formula-guide)) |
-| 2026-09-29 | https://x.com/Leepriest1990/status/2111981939947376836 | **aix阿乐（@Leepriest1990）**：3 天 120 单、变现 1 万：一人推特发售的完整手册 → 已归档 ([ale-3-days-120-orders-one-person-twitter-launch-manual](/md/wiki/sources/ale-3-days-120-orders-one-person-twitter-launch-manual)) |
+| 2026-09-29 | https://x.com/Leepriest1990/status/2111981939947376836 | **aix 阿乐（@Leepriest1990）**：3 天 120 单、变现 1 万：一人推特发售的完整手册 → 已归档 ([ale-3-days-120-orders-one-person-twitter-launch-manual](/md/wiki/sources/ale-3-days-120-orders-one-person-twitter-launch-manual)) |
 | 2026-09-29 | https://x.com/shaozhu93314/status/2107407716226638129 | **杨进（@shaozhu93314）**：构建操盘手的底层逻辑 → 已归档 ([yangjin-operator-underlying-logic-and-business-closed-loop](/md/wiki/sources/yangjin-operator-underlying-logic-and-business-closed-loop)) |
 | 2026-09-29 | https://x.com/dontbesilent/status/2012543785956487510 | **dontbesilent**：商业思考 100 条（第二部分） → 已归档 ([dontbesilent-business-thoughts-100-part-2](/md/wiki/sources/dontbesilent-business-thoughts-100-part-2)) |
 | 2026-09-29 | https://x.com/heizolshao/status/2112334432262873341 | **左海（@heizolshao）**：Reddit 评论区转化实操笔记：从安全留链到沉淀种子用户 → 已归档 ([heizolshao-reddit-comments-conversion-and-seed-users-playbook](/md/wiki/sources/heizolshao-reddit-comments-conversion-and-seed-users-playbook)) |
@@ -130,11 +130,11 @@ date: "2026-05-29"
 | 2026-09-29 | https://x.com/CrazyKaomei/status/2102311241046008268 | **疯狂的烤妹儿（@CrazyKaomei）**：YouTube 极简火柴人搞钱流水线全套开源 → 已归档 ([crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline](/md/wiki/sources/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline)) |
 | 2026-09-29 | https://wcnppcftpvna.feishu.cn/file/QttFbOKbNoCOE7xvj5Ncc9wInJe | 待查看 |
 | 2026-09-29 | https://x.com/wangzaimedia/status/2109630699888345369 | **汪仔（@wangzaimedia）**：为什么你发了那么多内容，还是没有客户？ → 已归档 ([wangzai-why-publishing-so-much-content-yields-no-clients](/md/wiki/sources/wangzai-why-publishing-so-much-content-yields-no-clients)) |
-| 2026-09-29 | https://x.com/ChrisSlacker/status/2093160607541502218 | **科技混子Chris（@ChrisSlacker）**：公众号贴图 3 天收入破百 1 篇破千 SOP → 已归档 ([chrisslacker-wechat-image-text-post-three-days-monetization-sop](/md/wiki/sources/chrisslacker-wechat-image-text-post-three-days-monetization-sop)) |
+| 2026-09-29 | https://x.com/ChrisSlacker/status/2093160607541502218 | **科技混子 Chris（@ChrisSlacker）**：公众号贴图 3 天收入破百 1 篇破千 SOP → 已归档 ([chrisslacker-wechat-image-text-post-three-days-monetization-sop](/md/wiki/sources/chrisslacker-wechat-image-text-post-three-days-monetization-sop)) |
 | 2026-09-21 | https://x.com/nopinduoduo/status/2103316388261830831 | **我真的没有拼多多（@nopinduoduo）**：普通人做 AI 漫剧花 1 万积分实测教程 → 已归档 ([nopinduoduo-ai-comic-drama-production-10000-credits-tutorial](/md/wiki/sources/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial)) |
 | 2026-09-21 | https://x.com/HanZhang415188/status/2103030353174630574 | **HanZhang**：Codex + Excalidraw 白板解说视频流 → 已归档 ([codex-excalidraw-whiteboard-video](/md/wiki/sources/codex-excalidraw-whiteboard-video)) |
-| 2026-07-15 | https://x.com/i/status/2076554713336512758 | **阿哲Phil（@Formulasearch）**：快速设计个人 IP 做成 Codex 宠物 → 已归档 ([phil-design-personal-ip-and-codex-desktop-pet-tutorial](/md/wiki/sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial)) |
-| 2026-07-15 | https://x.com/i/status/2076887045906256305 | **Niko爱学习（@ai_super_niko）**：掌控 Codex 对话节奏：打断、排队、引导和分叉 → 已归档 ([niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch)) |
+| 2026-07-15 | https://x.com/i/status/2076554713336512758 | **阿哲 Phil（@Formulasearch）**：快速设计个人 IP 做成 Codex 宠物 → 已归档 ([phil-design-personal-ip-and-codex-desktop-pet-tutorial](/md/wiki/sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial)) |
+| 2026-07-15 | https://x.com/i/status/2076887045906256305 | **Niko 爱学习（@ai_super_niko）**：掌控 Codex 对话节奏：打断、排队、引导和分叉 → 已归档 ([niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch)) |
 | 2026-07-15 | https://x.com/i/status/2076931650412511257 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076865068613206046 | 待查看 |
 | 2026-07-15 | https://x.com/i/status/2076871293211685140 | 待查看 |
@@ -144,7 +144,7 @@ date: "2026-05-29"
 | 2026-07-15 | https://x.com/i/status/2076891615013269842 | 待查看 |
 | 2026-07-09 | https://x.com/Bytec99/status/2075372048994672994?s=20 | **Bytec99**：AI 拆书短视频流水线 → 已归档 ([ai-book-short-video-pipeline](/md/wiki/sources/ai-book-short-video-pipeline)) |
 | 2026-07-09 | https://x.com/i/status/2074459150323769843 | 待查看 |
-| 2026-07-15 | https://github.com/Nutlope/hallmark | **Hallmark**：去除AI塑料味的Skill，20种预设主题+57项反AI测试+量身定制，Codex/Cursor均支持 |
+| 2026-07-15 | https://github.com/Nutlope/hallmark | **Hallmark**：去除 AI 塑料味的 Skill，20 种预设主题+57 项反 AI 测试+量身定制，Codex/Cursor 均支持 |
 | 2026-07-15 | https://github.com/simonlin1212/Vibe-Research | 待查看 |
 | 2026-07-15 | https://github.com/bozhouDev/codex-orange-book | 待查看 |
 | 2026-07-09 | https://x.com/i/status/2075077966007291958 | 待查看 |
@@ -186,13 +186,13 @@ date: "2026-05-29"
 | 2026-09-21 | https://x.com/ricouii/status/2102241395511836992 | **待查看** |
 | 2026-07-02 | https://x.com/wuxindehuaft/status/2072303199349035447?s=20 | 待查看 |
 | 2026-07-02 | https://x.com/Jason_WealthAI/status/2072298673422377465?s=20 | 待查看 |
-| 2026-07-02 | https://x.com/i/status/2052036309167014315 | **vivienna：重新定义读书——用 Claude Code + Luffa 把 800 页金融学教材变成可"动手玩"的小程序**，124.3K 浏览 |
-| 2026-07-02 | https://x.com/i/status/2038886363177898095 | **Niko：月入4000刀达成，AI SaaS出海一年内容整理**：从安全行业转型、出第一单用105天、快一年达成MRR 4000刀复盘，264.2K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2052036309167014315 | **vivienna：重新定义读书——用 Claude Code + Luffa 把 800 页金融学教材变成可“动手玩”的小程序**，124.3K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2038886363177898095 | **Niko：月入 4000 刀达成，AI SaaS 出海一年内容整理**：从安全行业转型、出第一单用 105 天、快一年达成 MRR 4000 刀复盘，264.2K 浏览 |
 | 2026-07-02 | https://x.com/i/status/2027685265817694668 | **冰河：短剧剧本创作 Skill 正式发布**：小说→剧本→场景→Seedance 2.0 全链路，含出海模式，469.2K 浏览 |
-| 2026-07-02 | https://x.com/i/status/2039989274070913482 | **Mr Panda：40岁后的身体保养指南**：饮食、运动与作息的科学方案，AI制作，149.5K 浏览 |
-| 2026-07-02 | https://x.com/i/status/2071799516978888972 | **Jingle Bell 初号机：半年总结目录**：AI/投资/个人感悟/重要事件/交易所周边/coding工具/搞抽象全目录，8.8K 浏览 |
-| 2026-07-02 | https://x.com/i/status/2021791983514366057 | **出海去孵化器：Anthropic 官方 Claude Skills 构建指南精华解读**：33页指南整理，解决重复告诉Claude写作风格/项目规范/工作流程的痛点，132.8K 浏览 |
-| 2026-07-02 | https://x.com/i/status/2071796715162857477 | **小互：单人团队运营5款产品80%时间不写代码秘诀**：Every 的方法——每次完成功能后把解法存进系统，让AI下次自动避坑，12K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2039989274070913482 | **Mr Panda：40 岁后的身体保养指南**：饮食、运动与作息的科学方案，AI 制作，149.5K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2071799516978888972 | **Jingle Bell 初号机：半年总结目录**：AI/投资/个人感悟/重要事件/交易所周边/coding 工具/搞抽象全目录，8.8K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2021791983514366057 | **出海去孵化器：Anthropic 官方 Claude Skills 构建指南精华解读**：33 页指南整理，解决重复告诉 Claude 写作风格/项目规范/工作流程的痛点，132.8K 浏览 |
+| 2026-07-02 | https://x.com/i/status/2071796715162857477 | **小互：单人团队运营 5 款产品 80%时间不写代码秘诀**：Every 的方法——每次完成功能后把解法存进系统，让 AI 下次自动避坑，12K 浏览 |
 | 2026-07-02 | https://x.com/i/status/2065232309310427565 | **歸藏：万字长文——做了些爆款 Skills 以后，我对 Skills 的看法**：Agent 大众理解误区、Skills 真正价值所在，476.8K 浏览 |
 | 2026-06-30 | https://x.com/ma_zhenyuan/status/2072139232542630108?s=20 | 待查看 |
 | 2026-06-30 | https://x.com/Jason_Young1231/status/2061476998602715557?s=20 | 待查看 |
@@ -224,90 +224,90 @@ date: "2026-05-29"
 | 2026-05-29 | https://x.com/i/status/2059844244907696186 | Vince 聊开发 |
 | 2026-05-29 | https://x.com/i/status/2052368318825402507 | Vince 聊开发 |
 | 2026-06-06 | https://x.com/i/status/2012728374725398570 | 待查看 |
-| 2026-06-11 | https://x.com/xiaohu0x/status/2065012267297767442 | **野生小虎出海SEO复盘**：练手小游戏30天100万UV、290万PV，纯SEO自然流量 |
+| 2026-06-11 | https://x.com/xiaohu0x/status/2065012267297767442 | **野生小虎出海 SEO 复盘**：练手小游戏 30 天 100 万 UV、290 万 PV，纯 SEO 自然流量 |
 | 2026-06-26 | https://x.com/wquguru/status/2069641926752780384 | **Agent Memory 架构全景**：从规则文件、会话检索到反思与技能沉淀。从 OpenClaw 的 MEMORY.md 出发，深入 ~/.claude/ 目录结构，探讨 Agent 记忆系统的多层架构设计 |
-| 2026-06-27 | https://x.com/i/status/2070096226784297422 | **川野：Codex新手入门**：文章推荐从 Codex 入手而非直接冲 Claude Code 或 Hermes，原因是上手曲线更友好 |
-| 2026-06-27 | https://x.com/i/status/2070505255670775837 | **阿哲Phil：提示词美学解码×包豪斯**：AI 生图的包豪斯风格prompt美学，不是红黄蓝色块拼贴，而是颜色搭配与工业感的深层逻辑 |
+| 2026-06-27 | https://x.com/i/status/2070096226784297422 | **川野：Codex 新手入门**：文章推荐从 Codex 入手而非直接冲 Claude Code 或 Hermes，原因是上手曲线更友好 |
+| 2026-06-27 | https://x.com/i/status/2070505255670775837 | **阿哲 Phil：提示词美学解码×包豪斯**：AI 生图的包豪斯风格 prompt 美学，不是红黄蓝色块拼贴，而是颜色搭配与工业感的深层逻辑 |
 | 2026-06-27 | https://x.com/i/status/2070656715515932930 | **snowboat：AI for Science 详细介绍（上）**：AI for Science 范式与版图 |
-| 2026-06-27 | https://x.com/i/status/2070440257426985386 | **lele：2026美股证券开户对比**：IBKR/Firstrade/Charles Schwab 大陆投资者开户指南与费率对比 |
-| 2026-06-27 | https://x.com/i/status/2070504333201015271 | **探路AI：控制AI视频微表情**：三个方法减少AI味和机械感，提高AI人物活人感 |
-| 2026-06-27 | https://x.com/i/status/2070518876493017579 | **修饼：AI的数学基础**：张量计算、token、向量、矩阵乘法、注意力机制 |
-| 2026-06-27 | https://x.com/i/status/2069761380274630997 | **鱼总聊AI：Giffgaff英国SIM卡激活充值**：无需Visa，适合旅游/海外账号注册/保号接码 |
-| 2026-06-27 | https://x.com/i/status/2070466993401283050 | **徐伦：Wise注册全攻略**：一张身份证拿下多国银行账户，跨境收款 |
-| 2026-06-27 | https://x.com/i/status/2070536395719053364 | **自由的灵魂：Giffgaff批量薅卡技巧**：每人一次性薅5-10张，集货到一个包裹转运回国 |
+| 2026-06-27 | https://x.com/i/status/2070440257426985386 | **lele：2026 美股证券开户对比**：IBKR/Firstrade/Charles Schwab 大陆投资者开户指南与费率对比 |
+| 2026-06-27 | https://x.com/i/status/2070504333201015271 | **探路 AI：控制 AI 视频微表情**：三个方法减少 AI 味和机械感，提高 AI 人物活人感 |
+| 2026-06-27 | https://x.com/i/status/2070518876493017579 | **修饼：AI 的数学基础**：张量计算、token、向量、矩阵乘法、注意力机制 |
+| 2026-06-27 | https://x.com/i/status/2069761380274630997 | **鱼总聊 AI：Giffgaff 英国 SIM 卡激活充值**：无需 Visa，适合旅游/海外账号注册/保号接码 |
+| 2026-06-27 | https://x.com/i/status/2070466993401283050 | **徐伦：Wise 注册全攻略**：一张身份证拿下多国银行账户，跨境收款 |
+| 2026-06-27 | https://x.com/i/status/2070536395719053364 | **自由的灵魂：Giffgaff 批量薅卡技巧**：每人一次性薅 5-10 张，集货到一个包裹转运回国 |
 | 2026-06-27 | https://x.com/i/status/2070681227288551666 | **向野：技能变现·摄影变现**：拍的好只是入场券，案例：摄影爱好者如何通过技能变现 |
-| 2026-06-28 | https://x.com/i/status/2047628310948290603 | **段少：一人家公司1800块、做App 200块**：一人公司头三个月的 cost breakdown 与 how-to，创业成本极简化实践 |
-| 2026-06-28 | https://x.com/i/status/1960539006338523174 | **布衣：工具站出海，月入3000刀**：7500字复盘一年踩坑记录，工具站出海实战经验 |
-| 2026-06-28 | https://mp.weixin.qq.com/s/0R4blVPJforjMKVm6harrw | **黄杨ME：用土区礼品卡充值GPT Plus**：土耳其区 Apple ID 充值 GPT Plus 省一半，实操步骤详解 |
-| 2026-06-28 | https://mp.weixin.qq.com/s/dn1YamrZgs3QYPMvwLzWdQ | **风尘：土区ChatGPT订阅价格暴涨**：土区 Plus 涨至 $21.66 比美区还贵8%，菲律宾区成新低价洼地 |
-| 2026-06-28 | https://mp.weixin.qq.com/s/7xzXiToRiatBRlqIIInDUg | **木易：安卓开通ChatGPT Plus教程**：国内信用卡 + Google Play 绑卡开通 Plus，保姆级安卓篇 |
-| 2026-05-22 | https://x.com/i/status/2057646160631001372 | **Kyrie：Obsidian多端同步全方案**：11种方式对比，71.9K浏览 |
-| 2026-06-29 | https://x.com/i/status/2071593346708177237 | **fireup：土区订阅GPT Plus真相**：不同产品低价区不同，Claude巴区更便宜（约119元），土区反而要145元 |
-| 2026-05-04 | https://x.com/i/status/2051333083220394321 | **9A💎：虚拟信用卡BIN号段**：高权重BIN原理/烧BIN/风控/代币化，AI订阅绑卡实战指南 |
-| 2026-05-17 | https://x.com/i/status/2055913339138560001 | **动物园园长：ChatGPT搞闲鱼店铺**：选品/文案/赚钱系统，94K浏览 |
-| 2026-05-13 | https://x.com/i/status/2054396603197505745 | **铁锤人：AI Agent记忆原理**：向量数据库/RAG/上下文窗口/情景记忆，426.2K浏览（付费合作） |
-| 2025-11-28 | https://x.com/i/status/1994381544178274769 | **泊舟：日常AI使用指南**：四象限选择AI工具/提示词/编程/SMART框架，158.7K浏览 |
-| 2026-05-03 | https://x.com/i/status/2050800695239127479 | **周周：ChatGPT Plus海外区订阅**：Apple ID/礼品卡/地区设置避坑，20.8K浏览 |
-| 2026-06-30 | https://x.com/i/status/2071975182278045813 | **黄赟：03年毕业生AI工作流创业**：RPA+ChatGPT+Lark自动化爆文写作→旅行博主→高客单 |
-| 2026-06-30 | https://x.com/i/status/2071773128993489341 | **淘淘：抖音带货日入2万**：三年100万件，163.5K浏览 |
-| 2026-06-30 | https://x.com/i/status/2071842762056667409 | **老杨啊：free-for-dev开发者白嫖圣经**：12.7k Stars，1600人维护，AWS/GCP/Vercel免费额度汇总 |
-| 2026-06-30 | https://x.com/i/status/2071799855455027664 | **Mengke Wang：App产品卖出160条真话**：Apple×浙大孵化营，App创始人不愿意承认的判断，29.1K浏览 |
+| 2026-06-28 | https://x.com/i/status/2047628310948290603 | **段少：一人家公司 1800 块、做 App 200 块**：一人公司头三个月的 cost breakdown 与 how-to，创业成本极简化实践 |
+| 2026-06-28 | https://x.com/i/status/1960539006338523174 | **布衣：工具站出海，月入 3000 刀**：7500 字复盘一年踩坑记录，工具站出海实战经验 |
+| 2026-06-28 | https://mp.weixin.qq.com/s/0R4blVPJforjMKVm6harrw | **黄杨 ME：用土区礼品卡充值 GPT Plus**：土耳其区 Apple ID 充值 GPT Plus 省一半，实操步骤详解 |
+| 2026-06-28 | https://mp.weixin.qq.com/s/dn1YamrZgs3QYPMvwLzWdQ | **风尘：土区 ChatGPT 订阅价格暴涨**：土区 Plus 涨至 $21.66 比美区还贵 8%，菲律宾区成新低价洼地 |
+| 2026-06-28 | https://mp.weixin.qq.com/s/7xzXiToRiatBRlqIIInDUg | **木易：安卓开通 ChatGPT Plus 教程**：国内信用卡 + Google Play 绑卡开通 Plus，保姆级安卓篇 |
+| 2026-05-22 | https://x.com/i/status/2057646160631001372 | **Kyrie：Obsidian 多端同步全方案**：11 种方式对比，71.9K 浏览 |
+| 2026-06-29 | https://x.com/i/status/2071593346708177237 | **fireup：土区订阅 GPT Plus 真相**：不同产品低价区不同，Claude 巴区更便宜（约 119 元），土区反而要 145 元 |
+| 2026-05-04 | https://x.com/i/status/2051333083220394321 | **9A💎：虚拟信用卡 BIN 号段**：高权重 BIN 原理/烧 BIN/风控/代币化，AI 订阅绑卡实战指南 |
+| 2026-05-17 | https://x.com/i/status/2055913339138560001 | **动物园园长：ChatGPT 搞闲鱼店铺**：选品/文案/赚钱系统，94K 浏览 |
+| 2026-05-13 | https://x.com/i/status/2054396603197505745 | **铁锤人：AI Agent 记忆原理**：向量数据库/RAG/上下文窗口/情景记忆，426.2K 浏览（付费合作） |
+| 2025-11-28 | https://x.com/i/status/1994381544178274769 | **泊舟：日常 AI 使用指南**：四象限选择 AI 工具/提示词/编程/SMART 框架，158.7K 浏览 |
+| 2026-05-03 | https://x.com/i/status/2050800695239127479 | **周周：ChatGPT Plus 海外区订阅**：Apple ID/礼品卡/地区设置避坑，20.8K 浏览 |
+| 2026-06-30 | https://x.com/i/status/2071975182278045813 | **黄赟：03 年毕业生 AI 工作流创业**：RPA+ChatGPT+Lark 自动化爆文写作→旅行博主→高客单 |
+| 2026-06-30 | https://x.com/i/status/2071773128993489341 | **淘淘：抖音带货日入 2 万**：三年 100 万件，163.5K 浏览 |
+| 2026-06-30 | https://x.com/i/status/2071842762056667409 | **老杨啊：free-for-dev 开发者白嫖圣经**：12.7k Stars，1600 人维护，AWS/GCP/Vercel 免费额度汇总 |
+| 2026-06-30 | https://x.com/i/status/2071799855455027664 | **Mengke Wang：App 产品卖出 160 条真话**：Apple×浙大孵化营，App 创始人不愿意承认的判断，29.1K 浏览 |
 | 2026-07-01 | https://mp.weixin.qq.com/s/0bbHjliV-V35HDtGtxt33Q | 待查看 |
-| 2026-07-01 | https://haoshiyinli.com/book/read.html | **王梦珂《把才华变成钱》**：非技术人员品牌工作手册，16章讲清如何把能力变收入 |
-| 2026-07-01 | https://x.com/i/status/2072147682387517527 | **饼干哥哥：AI中转站月入百万**：Token API倒卖生意解析，深潮TechFlow引用，2.4K浏览 |
-| 2026-07-01 | https://weekly.tw93.fun/posts/271 | **tw93潮流周刊271期：精神家园**：claude-tap/VidBee/Witr/Dinky工具推荐+工程师转型随笔，封面拍于王小波书店 |
-| 2026-06-26 | https://mp.weixin.qq.com/s/8Ajr7a5NjyTAyQzn1yg2zQ | **AI少折腾：用Codex搭建公众号AI内容生产流水线**：选题/研究/写作/改稿/视觉/发布全流程，Skill分工设计 |
-| 2026-03-12 | https://x.com/i/status/2032091246588518683 | **Tw93：你不知道的Claude Code**：架构/治理/工程实践，40刀/月深度踩坑经验，3.2M浏览，18K收藏 |
-| 2026-03-19 | https://x.com/i/status/2034627967926825175 | **Tw93：你不知道的Agent**：原理/架构/工程实践，1.7M浏览，11K收藏 |
-| 2026-04-03 | https://x.com/i/status/2040047268221608281 | **Tw93：你不知道的大模型训练**：原理/路径/新实践，640.5K浏览，4.2K收藏 |
-| 2026-01-24 | https://x.com/i/status/2014851148516360446 | **Tw93：243个工程师最近一年买到的好东西**：电子设备/软件/生活用品推荐合集，1.8M浏览 |
-| 2026-01-30 | https://x.com/i/status/2017241035454218547 | **Tw93：我的极简生活经验**：恰到好处的极简生活分享，119.5K浏览 |
-| 2024-01-12 | https://tw93.fun/2024-01-12/open.html | **Tw93：我的开源成长之旅**：9年开源经验，微软GitHub Universe 2023分享 |
+| 2026-07-01 | https://haoshiyinli.com/book/read.html | **王梦珂《把才华变成钱》**：非技术人员品牌工作手册，16 章讲清如何把能力变收入 |
+| 2026-07-01 | https://x.com/i/status/2072147682387517527 | **饼干哥哥：AI 中转站月入百万**：Token API 倒卖生意解析，深潮 TechFlow 引用，2.4K 浏览 |
+| 2026-07-01 | https://weekly.tw93.fun/posts/271 | **tw93 潮流周刊 271 期：精神家园**：claude-tap/VidBee/Witr/Dinky 工具推荐+工程师转型随笔，封面拍于王小波书店 |
+| 2026-06-26 | https://mp.weixin.qq.com/s/8Ajr7a5NjyTAyQzn1yg2zQ | **AI 少折腾：用 Codex 搭建公众号 AI 内容生产流水线**：选题/研究/写作/改稿/视觉/发布全流程，Skill 分工设计 |
+| 2026-03-12 | https://x.com/i/status/2032091246588518683 | **Tw93：你不知道的 Claude Code**：架构/治理/工程实践，40 刀/月深度踩坑经验，3.2M 浏览，18K 收藏 |
+| 2026-03-19 | https://x.com/i/status/2034627967926825175 | **Tw93：你不知道的 Agent**：原理/架构/工程实践，1.7M 浏览，11K 收藏 |
+| 2026-04-03 | https://x.com/i/status/2040047268221608281 | **Tw93：你不知道的大模型训练**：原理/路径/新实践，640.5K 浏览，4.2K 收藏 |
+| 2026-01-24 | https://x.com/i/status/2014851148516360446 | **Tw93：243 个工程师最近一年买到的好东西**：电子设备/软件/生活用品推荐合集，1.8M 浏览 |
+| 2026-01-30 | https://x.com/i/status/2017241035454218547 | **Tw93：我的极简生活经验**：恰到好处的极简生活分享，119.5K 浏览 |
+| 2024-01-12 | https://tw93.fun/2024-01-12/open.html | **Tw93：我的开源成长之旅**：9 年开源经验，微软 GitHub Universe 2023 分享 |
 | 2026-07-01 | https://my.feishu.cn/docs/doccnVL5FwOmPpvCU5NX5lCJljd | **飞书文档**：需登录查看 |
-| 2026-06-28 | https://mp.weixin.qq.com/s/RqKMLdfbWRLTrHfec0IV1A | **zlbigger：长篇网文写作Skill**：小龙虾模型 + Obsidian 自动化写连载小说，附一篇品读章节 |
-| 2026-06-28 | https://x.com/i/status/2070702280224235949 | **Louis Wei：Loop Engineering 0-1搭建教程**：从手动 Prompt 到自主 Agent 的 5 个等级完整指南 |
-| 2026-06-28 | https://x.com/i/status/2061284291544269030 | **水Lane：giffgaff 极简保号技巧**：6个月内必须主动扣费一次，预存 £10 操作方法 |
-| 2026-06-28 | https://x.com/i/status/2071213103505870899 | **Qurious：AI人生复刻短视频教程**：零基础做"体验100种人生"爆款视频，喂饭级指南 |
-| 2026-06-28 | https://chendahuang.com/blog/sub-store-cloudflare/ | **陈大黄：机场订阅聚合搬到Cloudflare**：Workers+D1实现多订阅合并，支持 clash/surge/sing-box/Shadowrocket，附 AI Agent 一键部署 |
-| 2026-06-28 | https://x.com/i/status/2071025081091002392 | **码良：Karpathy的10条Claude新军规**：Karpathy 加入 Anthropic 五周后的 CLAUDE.md 实操笔记，2800+ 赞，37.5K 浏览 |
-| 2026-06-28 | https://x.com/i/status/2071186650521100627 | **方方：小红书起号资料合集**：方法论/工具/Skill/书单全覆盖，含"14天0粉到5000粉"实战复盘 |
+| 2026-06-28 | https://mp.weixin.qq.com/s/RqKMLdfbWRLTrHfec0IV1A | **zlbigger：长篇网文写作 Skill**：小龙虾模型 + Obsidian 自动化写连载小说，附一篇品读章节 |
+| 2026-06-28 | https://x.com/i/status/2070702280224235949 | **Louis Wei：Loop Engineering 0-1 搭建教程**：从手动 Prompt 到自主 Agent 的 5 个等级完整指南 |
+| 2026-06-28 | https://x.com/i/status/2061284291544269030 | **水 Lane：giffgaff 极简保号技巧**：6 个月内必须主动扣费一次，预存 £10 操作方法 |
+| 2026-06-28 | https://x.com/i/status/2071213103505870899 | **Qurious：AI 人生复刻短视频教程**：零基础做“体验 100 种人生”爆款视频，喂饭级指南 |
+| 2026-06-28 | https://chendahuang.com/blog/sub-store-cloudflare/ | **陈大黄：机场订阅聚合搬到 Cloudflare**：Workers+D1 实现多订阅合并，支持 clash/surge/sing-box/Shadowrocket，附 AI Agent 一键部署 |
+| 2026-06-28 | https://x.com/i/status/2071025081091002392 | **码良：Karpathy 的 10 条 Claude 新军规**：Karpathy 加入 Anthropic 五周后的 CLAUDE.md 实操笔记，2800+ 赞，37.5K 浏览 |
+| 2026-06-28 | https://x.com/i/status/2071186650521100627 | **方方：小红书起号资料合集**：方法论/工具/Skill/书单全覆盖，含“14 天 0 粉到 5000 粉”实战复盘 |
 | 2026-06-28 | https://x.com/i/status/2071073057075331498 | **诺鸭船长：Product Hunt 全网最全使用指南**：从入门到榨干，中文互联网爆款产品的海外源头追踪术 |
-| 2026-06-28 | https://x.com/i/status/2071126903939858742 | **Hytidel：闲鱼搞钱保姆级教程(2)商品标题SEO**：搜索电商标题优化指南，172.7K 高浏览 |
-| 2026-06-28 | https://x.com/i/status/2053735690353971217 | **动物园园长：闲鱼倒卖拼多多货3个月还清房贷**：万字长文，3.4M浏览，实战闲鱼无货源电商全流程 |
-| 2026-06-28 | https://x.com/i/status/2070887812313034791 | **黄赟：不会写代码用AI做15个小程序月入2w+**：需求挖掘→开发→变现完整路径拆解，22.1K浏览 |
-| 2026-06-28 | https://x.com/i/status/2063184261184700597 | **动物园园长：Claude搞闲鱼店铺**：选品+文案+运营全流程AI化，694K浏览，2.9K收藏 |
-| 2026-01-15 | https://x.com/i/status/2011642544468434981 | **Asa：招行Visa秒绑Apple Pay**：招行全币种信用卡支持Apple Pay，美区App/Claude/ChatGPT/X蓝V一键订阅，1.3M浏览 |
-| 2026-05-04 | https://x.com/i/status/2051099012288356592 | **黄小木：API中转站比贩毒还赚**：Claude/ChatGPT API中转站商业模式分析，676.5K浏览，2.8K收藏 |
-| 2026-05-19 | https://x.com/i/status/2030239866970407135 | 待查看（X推文，内容待补充） |
-| 2026-06-28 | https://x.com/i/status/2071225284721070558 | 待查看（X推文，内容待补充） |
-| 2026-05-23 | https://x.com/i/status/2058213893638689266 | **向阳乔木：未来硅世界16期——tw93的开源故事**：13年6款开源工具，硅谷CTO/Y Combinator创始人都在用，148K浏览 |
-| 2026-05-03 | https://x.com/i/status/2050979511295197186 | **科爷：中国API中转站产业的崛起与生态重构**：API中转站产业链分析，与"贩毒比API中转站还赚"互为补充 |
-| 2026-05-20 | https://x.com/i/status/2056907392068231597 | **Koda：0成本开giffgaff eSIM保姆教程**：489.7K浏览，1.4K收藏 |
-| 2026-05-21 | https://x.com/i/status/2057441656547508264 | **Koda：ITIN保姆级教程**：9位税号解锁ChatGPT Plus/AmEx/Stripe/美股，562.3K浏览，2.7K收藏 |
-| 2026-01-07 | https://x.com/i/status/1876612222983766305 | **Zane Wynn：酒店代订副业（上）**：协议价差价+高卡权益代订，月挣2-3万，信息差变现，821.4K浏览 |
-| 2026-01-08 | https://x.com/i/status/1876997931754283194 | **Zane Wynn：酒店代订副业（下）**：积分房代订+小程序代订+澳门特殊代订，全链路拆解，75K浏览 |
-| 2026-04-27 | https://x.com/i/status/1916445098356953359 | **Zane Wynn：AFF被动收入**：ChatGPT/Netflix合租网站推广，15%返佣，极简被动收入模型，已薅1000+ |
-| 2026-02-27 | https://x.com/i/status/1895076090466705420 | **Zane Wynn：流量第一思维**：用软件合租网站案例拆解"产品合格+流量优先"，不做爆品也能赚钱 |
+| 2026-06-28 | https://x.com/i/status/2071126903939858742 | **Hytidel：闲鱼搞钱保姆级教程(2)商品标题 SEO**：搜索电商标题优化指南，172.7K 高浏览 |
+| 2026-06-28 | https://x.com/i/status/2053735690353971217 | **动物园园长：闲鱼倒卖拼多多货 3 个月还清房贷**：万字长文，3.4M 浏览，实战闲鱼无货源电商全流程 |
+| 2026-06-28 | https://x.com/i/status/2070887812313034791 | **黄赟：不会写代码用 AI 做 15 个小程序月入 2w+**：需求挖掘→开发→变现完整路径拆解，22.1K 浏览 |
+| 2026-06-28 | https://x.com/i/status/2063184261184700597 | **动物园园长：Claude 搞闲鱼店铺**：选品+文案+运营全流程 AI 化，694K 浏览，2.9K 收藏 |
+| 2026-01-15 | https://x.com/i/status/2011642544468434981 | **Asa：招行 Visa 秒绑 Apple Pay**：招行全币种信用卡支持 Apple Pay，美区 App/Claude/ChatGPT/X 蓝 V 一键订阅，1.3M 浏览 |
+| 2026-05-04 | https://x.com/i/status/2051099012288356592 | **黄小木：API 中转站比贩毒还赚**：Claude/ChatGPT API 中转站商业模式分析，676.5K 浏览，2.8K 收藏 |
+| 2026-05-19 | https://x.com/i/status/2030239866970407135 | 待查看（X 推文，内容待补充） |
+| 2026-06-28 | https://x.com/i/status/2071225284721070558 | 待查看（X 推文，内容待补充） |
+| 2026-05-23 | https://x.com/i/status/2058213893638689266 | **向阳乔木：未来硅世界 16 期——tw93 的开源故事**：13 年 6 款开源工具，硅谷 CTO/Y Combinator 创始人都在用，148K 浏览 |
+| 2026-05-03 | https://x.com/i/status/2050979511295197186 | **科爷：中国 API 中转站产业的崛起与生态重构**：API 中转站产业链分析，与“贩毒比 API 中转站还赚”互为补充 |
+| 2026-05-20 | https://x.com/i/status/2056907392068231597 | **Koda：0 成本开 giffgaff eSIM 保姆教程**：489.7K 浏览，1.4K 收藏 |
+| 2026-05-21 | https://x.com/i/status/2057441656547508264 | **Koda：ITIN 保姆级教程**：9 位税号解锁 ChatGPT Plus/AmEx/Stripe/美股，562.3K 浏览，2.7K 收藏 |
+| 2026-01-07 | https://x.com/i/status/1876612222983766305 | **Zane Wynn：酒店代订副业（上）**：协议价差价+高卡权益代订，月挣 2-3 万，信息差变现，821.4K 浏览 |
+| 2026-01-08 | https://x.com/i/status/1876997931754283194 | **Zane Wynn：酒店代订副业（下）**：积分房代订+小程序代订+澳门特殊代订，全链路拆解，75K 浏览 |
+| 2026-04-27 | https://x.com/i/status/1916445098356953359 | **Zane Wynn：AFF 被动收入**：ChatGPT/Netflix 合租网站推广，15%返佣，极简被动收入模型，已薅 1000+ |
+| 2026-02-27 | https://x.com/i/status/1895076090466705420 | **Zane Wynn：流量第一思维**：用软件合租网站案例拆解“产品合格+流量优先”，不做爆品也能赚钱 |
 | 2026-02-26 | https://x.com/i/status/1894713478344327519 | **Zane Wynn：产品包装思维**：希尔顿金卡获取双早权益，信息差包装成酒店服务，积累用户复利 |
 | 2026-02-25 | https://x.com/i/status/1894393635296481580 | **Zane Wynn：豆瓣引流**：豆瓣小组获取高价客源，适合雅思等虚拟商品，优质用户+持续流量+低审核门槛 |
-| 2024-11-14 | https://x.com/i/status/1856971285794099659 | **Zane Wynn：闲鱼SEO降维打击**：卖可复制知识类产品，懂SEO做闲鱼运营是降维打击，555.7K浏览 |
-| 2025-02-06 | https://x.com/i/status/1887500144742129676 | **Zane Wynn：卖酒店代码副业**：无边际成本无限卖代码，月入3k+，酒店代订系列补充变现方式 |
+| 2024-11-14 | https://x.com/i/status/1856971285794099659 | **Zane Wynn：闲鱼 SEO 降维打击**：卖可复制知识类产品，懂 SEO 做闲鱼运营是降维打击，555.7K 浏览 |
+| 2025-02-06 | https://x.com/i/status/1887500144742129676 | **Zane Wynn：卖酒店代码副业**：无边际成本无限卖代码，月入 3k+，酒店代订系列补充变现方式 |
 | 2025-01-21 | https://x.com/i/status/1881665621752221759 | **Zane Wynn：社媒营销框架**：冷启动/品牌形成/用户管理三维度，结果倒推过程选人设 |
-| 2025-01-09 | https://x.com/i/status/1877358943300952206 | **Zane Wynn：SEO博客底层逻辑**：长尾词博客不仅直接获客，还通过内链传递权重给主页面，提升主词排名 |
-| 2026-04-26 | https://x.com/i/status/2048230976447557787 | **Tw93：非技术人上手AI Coding**：上手路径/使用场景/实战指南，355.3K浏览，2.9K收藏 |
-| 2026-06-29 | https://x.com/i/status/2071637123413970960 | **Stanley：闲鱼AI代写副业**：普通人2026年最被低估的搞钱副业分析，45.1K浏览 |
-| 2026-06-07 | https://x.com/i/status/2063523060406423864 | **知识猫图解：Codex快速入门任意领域**：学习系统/知识仓库/练习生成/项目推进，168.1K浏览，1.8K收藏 |
-| 2023-08-16 | https://x.com/i/status/1691832015816196580 | **Barret李靖：Wise境外卡开通指南**：护照+入金$20认证，地址验证解决方案，423.3K浏览 |
-| 2026-04-22 | https://x.com/i/status/2046746630859210806 | **鱼总聊AI：德国O2 eSIM神卡**：0元开卡，保号0.02欧/年，1M浏览（付费合作内容，仅供参考） |
-| 2026-04-26 | https://x.com/i/status/2048407080512757795 | **鱼总聊AI：KiteSim香港手机卡**：4美分/天，独享虚拟号，228.6K浏览（付费合作内容，仅供参考） |
-| 2026-07-01 | https://github.com/farion1231/Way-to-ChatGPT-Plus | **Way-to-ChatGPT-Plus**：国内订阅ChatGPT Plus/X Premium/Claude Pro攻略，美区/土耳其区Apple ID，1.1k Stars |
-| 2023-09-03 | https://x.com/i/status/1698338662088622167 | **Barret李靖：新加坡OCBC开户指南**：全程大陆身份+大陆IP可开，NFC扫描护照，1.1M浏览 |
-| 2026-03-05 | https://x.com/i/status/2029560033131041059 | **Y11：尼日利亚Gomoney套利**：P2P承兑/锁汇支付/代充值/高息储蓄，197.6K浏览 |
-| 2026-06-28 | https://mp.weixin.qq.com/s/RCnJP6xGT5-OvU7yhCrzGQ | **哥飞：BlogToPin月入1.6万美元**：把博客文章自动做成Pinterest图片并排期发布，工具产品化案例拆解 |
-| 2026-09-20 | https://x.com/i/status/2101584386990964995 | **疯狂的烤妹儿：单人操盘590位博主/26亿播放的AIGC带货流水线** ~~已采集~~ → 已归档至 [summaries/crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) |
+| 2025-01-09 | https://x.com/i/status/1877358943300952206 | **Zane Wynn：SEO 博客底层逻辑**：长尾词博客不仅直接获客，还通过内链传递权重给主页面，提升主词排名 |
+| 2026-04-26 | https://x.com/i/status/2048230976447557787 | **Tw93：非技术人上手 AI Coding**：上手路径/使用场景/实战指南，355.3K 浏览，2.9K 收藏 |
+| 2026-06-29 | https://x.com/i/status/2071637123413970960 | **Stanley：闲鱼 AI 代写副业**：普通人 2026 年最被低估的搞钱副业分析，45.1K 浏览 |
+| 2026-06-07 | https://x.com/i/status/2063523060406423864 | **知识猫图解：Codex 快速入门任意领域**：学习系统/知识仓库/练习生成/项目推进，168.1K 浏览，1.8K 收藏 |
+| 2023-08-16 | https://x.com/i/status/1691832015816196580 | **Barret 李靖：Wise 境外卡开通指南**：护照+入金$20 认证，地址验证解决方案，423.3K 浏览 |
+| 2026-04-22 | https://x.com/i/status/2046746630859210806 | **鱼总聊 AI：德国 O2 eSIM 神卡**：0 元开卡，保号 0.02 欧/年，1M 浏览（付费合作内容，仅供参考） |
+| 2026-04-26 | https://x.com/i/status/2048407080512757795 | **鱼总聊 AI：KiteSim 香港手机卡**：4 美分/天，独享虚拟号，228.6K 浏览（付费合作内容，仅供参考） |
+| 2026-07-01 | https://github.com/farion1231/Way-to-ChatGPT-Plus | **Way-to-ChatGPT-Plus**：国内订阅 ChatGPT Plus/X Premium/Claude Pro 攻略，美区/土耳其区 Apple ID，1.1k Stars |
+| 2023-09-03 | https://x.com/i/status/1698338662088622167 | **Barret 李靖：新加坡 OCBC 开户指南**：全程大陆身份+大陆 IP 可开，NFC 扫描护照，1.1M 浏览 |
+| 2026-03-05 | https://x.com/i/status/2029560033131041059 | **Y11：尼日利亚 Gomoney 套利**：P2P 承兑/锁汇支付/代充值/高息储蓄，197.6K 浏览 |
+| 2026-06-28 | https://mp.weixin.qq.com/s/RCnJP6xGT5-OvU7yhCrzGQ | **哥飞：BlogToPin 月入 1.6 万美元**：把博客文章自动做成 Pinterest 图片并排期发布，工具产品化案例拆解 |
+| 2026-09-20 | https://x.com/i/status/2101584386990964995 | **疯狂的烤妹儿：单人操盘 590 位博主/26 亿播放的 AIGC 带货流水线** ~~已采集~~ → 已归档至 [summaries/crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) |
 | 2026-09-19 | https://x.com/i/status/2101306694747701384 | **刘佳怡：短信验证码自动转发邮件** ~~已采集~~ → 已归档至 [summaries/liujiayi1111-sms-code-forward](/md/wiki/summaries/liujiayi1111-sms-code-forward) |
-| 2026-10-12 | https://x.com/ElowenY20119/status/2107049804480291261?s=20 | **ElowenY20119**：贴图号3天跑出12.9万阅读后限流——从全自动踩坑到人机协作，附完整生产SOP/提示词/插件/避坑清单，含飞书完整源文档 |
-| 2026-10-12 | https://x.com/fatparrotdaily/status/2108502537053536468?s=20 | **fatparrotdaily/鹦鹉哥**：中国人全球移民全维度一览表（工作/收入/安全/门槛/幸福/去和留），10张图按穷人/中产/富人三套权重评估 |
+| 2026-10-12 | https://x.com/ElowenY20119/status/2107049804480291261?s=20 | **ElowenY20119**：贴图号 3 天跑出 12.9 万阅读后限流——从全自动踩坑到人机协作，附完整生产 SOP/提示词/插件/避坑清单，含飞书完整源文档 |
+| 2026-10-12 | https://x.com/fatparrotdaily/status/2108502537053536468?s=20 | **fatparrotdaily/鹦鹉哥**：中国人全球移民全维度一览表（工作/收入/安全/门槛/幸福/去和留），10 张图按穷人/中产/富人三套权重评估 |
 | 2026-10-21 | https://x.com/HytidelLegend/status/2112516357854302348 | **Hytidel 聊商业（@HytidelLegend）**：找工作不要选你配不上的工作 → 已归档 ([hytidel-career-choice-dont-choose-jobs-you-cannot-match](/md/wiki/sources/hytidel-career-choice-dont-choose-jobs-you-cannot-match)) |
 | 2026-10-21 | https://x.com/kristoff_wu/status/2112216903150436383 | **kristoff_wu**：新词站 1100 美金打法 → 已归档 ([kristoff-new-term-site-1100usd](/md/wiki/sources/kristoff-new-term-site-1100usd)) |
 | 2026-10-21 | https://x.com/heizolshao/status/2112334432262873341 | **左海（@heizolshao）**：Reddit 评论区转化实操笔记：从安全留链到沉淀种子用户 → 已归档 ([heizolshao-reddit-comments-conversion-and-seed-users-playbook](/md/wiki/sources/heizolshao-reddit-comments-conversion-and-seed-users-playbook)) |
@@ -317,18 +317,18 @@ date: "2026-05-29"
 | 日期 | 链接 | 摘要 |
 |------|------|------|
 | 2026-05-30 | https://mp.weixin.qq.com/s/k6y1ohwHQJQmVpwMLRwS4g | **OpenCodeReview v1.1.1-v1.1.7 更新**：核心围绕两条主线——**可控性**（让用户看见并控制评审全过程）和**可集成性**（成为 AI 编码工作流原住民）。新功能包括 `--preview` 预览（零 token 消耗提前确认评审范围）、`ocr rules check` 规则检查、多阶段工程流水线等。已在阿里巴巴内部多个核心业务线落地验证。 |
-| 2026-05-31 | https://mp.weixin.qq.com/s/CzhP5enU_tGDbjoDcEMKuA | **easyclaw.work 企业 AI 员工分析**：2 个月从 8.1K 涨到 97.4K 访问量。核心原因不是技术最强，而是**说人话**——用岗位和业务结果来卖，把复杂 agent 基础设施包装成"AI Employees for Business"，面向非技术决策者。站点结构：多语言销售页 + credits 用量制 + 高客单 lobster care 服务。值得学习的增长结构。 |
-| 2026-05-31 | https://mp.weixin.qq.com/s/p-Uk4QjnIAhVWpvC23nFvg | **Remoting 动态图表叠加口播视频**：人月聊IT 分享如何给真人口播视频叠加动态可视化图表（流程图、对比图、要点列表）。核心思路：用 Remoting 生成 SVG 图表 + ffmpeg overlay 叠加到视频上。工作流可复用——给一段视频 + 逐字稿就能跑出来，避免手动剪辑 2-3 小时。提供完整 Skills 技能包。 |
-| 2026-06-01 | https://mp.weixin.qq.com/s/Z09Sf9Nx0S4uv3dHECJGAw | **AI SaaS Web 上线动作日志与指标系统**：上线日志的本质是"增长实验账本"——每次产品动作必须记录：改了什么、影响哪个指标、预计生效时间、数据源、判断方法、是否保留。关键：动作日志记因，指标系统记果，中间必须有时间窗口、对象范围、控制组、版本号。附 API/AI 模型、GSC/SEO、UI/UX、CVR/激活、内容/SEO 长线、归因分析各模块的指标 Cheatsheet。 |
-| 2026-05-31 | https://mp.weixin.qq.com/s/S7HO98KRB2VBqBkBjSNa6g | **Obsidian 插件授权系统改造复盘**：用户买了 Pro 却激活不了，因为国内网络无法访问 Cloudflare Worker。改造方案：国内备用节点 + License 签名校验（客户端必须验证签名，中间人无法伪造）+ 多端点故障转移。关键设计点：私钥保护、KV 存储、ICP 备案/CORS/SSL 证书坑点。还发现"清除本机授权"其实没有释放服务端名额的设计 bug。 |
-| 2026-06-04 | https://mp.weixin.qq.com/s/6hDDkU2z31K67y8Z9dcqhw | **AI研发自动化：Wiki知识库+技能包**：把 AI 研发自动化拆成两条腿——**LLM-Wiki 知识库**（Karpathy 26/04 提出的"新知识库模式"，本质是 SKILL/md 文件，把 LLM 从 RAG 引擎变成"维护 wiki 的全职编辑"，知识增长是**复利式**而非线性）+ **领域专家 SKILL 包**（写方案/写代码/评审/测试/答疑/排障）。架构三层：Sources（只读真源）→ Wiki（LLM 全权 md 实体/概念/综述页）→ Schema（工作流规范）。核心操作是 Ingest/Query/Lint 三件套。最终目标：用户给 PRD，剩下全交给 agent。跟本仓 `llm-wiki` skill 主题完全契合。 |
+| 2026-05-31 | https://mp.weixin.qq.com/s/CzhP5enU_tGDbjoDcEMKuA | **easyclaw.work 企业 AI 员工分析**：2 个月从 8.1K 涨到 97.4K 访问量。核心原因不是技术最强，而是**说人话**——用岗位和业务结果来卖，把复杂 agent 基础设施包装成“AI Employees for Business"，面向非技术决策者。站点结构：多语言销售页 + credits 用量制 + 高客单 lobster care 服务。值得学习的增长结构。 |
+| 2026-05-31 | https://mp.weixin.qq.com/s/p-Uk4QjnIAhVWpvC23nFvg | **Remoting 动态图表叠加口播视频**：人月聊 IT 分享如何给真人口播视频叠加动态可视化图表（流程图、对比图、要点列表）。核心思路：用 Remoting 生成 SVG 图表 + ffmpeg overlay 叠加到视频上。工作流可复用——给一段视频 + 逐字稿就能跑出来，避免手动剪辑 2-3 小时。提供完整 Skills 技能包。 |
+| 2026-06-01 | https://mp.weixin.qq.com/s/Z09Sf9Nx0S4uv3dHECJGAw | **AI SaaS Web 上线动作日志与指标系统**：上线日志的本质是”增长实验账本“——每次产品动作必须记录：改了什么、影响哪个指标、预计生效时间、数据源、判断方法、是否保留。关键：动作日志记因，指标系统记果，中间必须有时间窗口、对象范围、控制组、版本号。附 API/AI 模型、GSC/SEO、UI/UX、CVR/激活、内容/SEO 长线、归因分析各模块的指标 Cheatsheet。 |
+| 2026-05-31 | https://mp.weixin.qq.com/s/S7HO98KRB2VBqBkBjSNa6g | **Obsidian 插件授权系统改造复盘**：用户买了 Pro 却激活不了，因为国内网络无法访问 Cloudflare Worker。改造方案：国内备用节点 + License 签名校验（客户端必须验证签名，中间人无法伪造）+ 多端点故障转移。关键设计点：私钥保护、KV 存储、ICP 备案/CORS/SSL 证书坑点。还发现”清除本机授权“其实没有释放服务端名额的设计 bug。 |
+| 2026-06-04 | https://mp.weixin.qq.com/s/6hDDkU2z31K67y8Z9dcqhw | **AI 研发自动化：Wiki 知识库+技能包**：把 AI 研发自动化拆成两条腿——**LLM-Wiki 知识库**（Karpathy 26/04 提出的”新知识库模式“，本质是 SKILL/md 文件，把 LLM 从 RAG 引擎变成”维护 wiki 的全职编辑“，知识增长是**复利式**而非线性）+ **领域专家 SKILL 包**（写方案/写代码/评审/测试/答疑/排障）。架构三层：Sources（只读真源）→ Wiki（LLM 全权 md 实体/概念/综述页）→ Schema（工作流规范）。核心操作是 Ingest/Query/Lint 三件套。最终目标：用户给 PRD，剩下全交给 agent。跟本仓 `llm-wiki` skill 主题完全契合。 |
 | 2026-06-04 | https://mp.weixin.qq.com/s/AZ-np48XJLM1QO5NJ_YiVA | **用 LLM Agent 重构告警排查流程（得物技术）**：用 **Spring AI Alibaba ReAct Agent** + Supervisor Agent 编排，自动完成告警数据采集/根因分析/处置建议；4 个排查工具（指标/日志/链路/知识）+ Validation Agent 验收 + 知识沉淀闭环。**中位排查耗时 20min→4.4min**，覆盖 11 个服务 10+ 告警类型。核心难点：动态策略组装、工具超时隔离、AI 权限安全、幻觉控制。跟本仓 `agentic-engineer` 主题强相关。 |
-| 2026-06-09 | https://mp.weixin.qq.com/s/--PaxhI2_8dz4bpcDy1ciw | **给 Agent 引入专家：自定义子代理**（天空的代码世界）：通用子代理/自定义子代理/fork子代理/Teammate 四种模式，"配置即能力"——给 Agent 加新行为成本压到"写一段 Markdown"。四个 frontmatter 字段（name/description/model/max_turns）定义专家。关联：本仓 [[agentic-engineer]] 子代理章节 + Serenity Skill 多专家分工思路。 |
-| 2026-06-09 | https://mp.weixin.qq.com/s/OqbXqE8Go-vsLTX-O-JwbA | **控制论与智能体编码中的"人在环上"**（思特沃克洞见）：从 HITL 到 HOTL（Human-on-the-loop）范式转变，用控制论（维纳/Beer VSM/马利克）做桥梁管理 Agent 系统。核心：衰减（过滤噪音）+ 放大（编码全局策略）+ 现地现物（Gemba）+ 双环学习。关联：本仓 [[agentic-engineer]] 框架，llm-wiki 的"塑造与配置"思路。 |
-| 2026-06-09 | https://mp.weixin.qq.com/s/2Cq0QR3vcKlMHkI0XyYYrw | **如何更科学、方向可控的实现 Skill 的"自进化"？（阿里云开发者）**：三篇里程碑论文深度解析——**Trace2Skill**（归纳法学派：并行分析大量轨迹→层次化合并）、**EvoSkill**（自验证选择学派：前沿集合+失败驱动+验证门控）、**SkillOpt**（训练优化器学派：Skill=外部可训练参数，Bounded Learning Rate+动量+元学习）。核心洞察：从"经验主义"走向"科学工程"，验证=reward function，无验证的优化=盲目。关联：本仓 llm-wiki [[llm-wiki]] Skill 自进化方向。 |
+| 2026-06-09 | https://mp.weixin.qq.com/s/--PaxhI2_8dz4bpcDy1ciw | **给 Agent 引入专家：自定义子代理**（天空的代码世界）：通用子代理/自定义子代理/fork 子代理/Teammate 四种模式，”配置即能力“——给 Agent 加新行为成本压到”写一段 Markdown"。四个 frontmatter 字段（name/description/model/max_turns）定义专家。关联：本仓 [[agentic-engineer]] 子代理章节 + Serenity Skill 多专家分工思路。 |
+| 2026-06-09 | https://mp.weixin.qq.com/s/OqbXqE8Go-vsLTX-O-JwbA | **控制论与智能体编码中的“人在环上”**（思特沃克洞见）：从 HITL 到 HOTL（Human-on-the-loop）范式转变，用控制论（维纳/Beer VSM/马利克）做桥梁管理 Agent 系统。核心：衰减（过滤噪音）+ 放大（编码全局策略）+ 现地现物（Gemba）+ 双环学习。关联：本仓 [[agentic-engineer]] 框架，llm-wiki 的“塑造与配置”思路。 |
+| 2026-06-09 | https://mp.weixin.qq.com/s/2Cq0QR3vcKlMHkI0XyYYrw | **如何更科学、方向可控的实现 Skill 的“自进化”？（阿里云开发者）**：三篇里程碑论文深度解析——**Trace2Skill**（归纳法学派：并行分析大量轨迹→层次化合并）、**EvoSkill**（自验证选择学派：前沿集合+失败驱动+验证门控）、**SkillOpt**（训练优化器学派：Skill=外部可训练参数，Bounded Learning Rate+动量+元学习）。核心洞察：从“经验主义”走向“科学工程”，验证=reward function，无验证的优化=盲目。关联：本仓 llm-wiki [[llm-wiki]] Skill 自进化方向。 |
 | 2026-06-24 | https://mp.weixin.qq.com/s/XpSpAiWY-nXjw8d8QPbabg | 待查看 |
 | 2026-06-24 | https://mp.weixin.qq.com/s/tJmoNrjABIMginNSTnvL-w | 待查看 |
-| 2026-06-25 | https://mp.weixin.qq.com/s/vqEIJgsdQltsRNU2POlMHw | **字节火山引擎洪定坤分享**：①原型驱动开发（AI生成可交互原型替代PRD提前暴露分歧）②AI Development系统化（AI写Spec→功能实现→Browser Use验证→自动上线）③Harness基建（上下文工程+架构约束+团队知识Memory+技术债梳理，可交付性40~60分→80分）|
+| 2026-06-25 | https://mp.weixin.qq.com/s/vqEIJgsdQltsRNU2POlMHw | **字节火山引擎洪定坤分享**：①原型驱动开发（AI 生成可交互原型替代 PRD 提前暴露分歧）②AI Development 系统化（AI 写 Spec→功能实现→Browser Use 验证→自动上线）③Harness 基建（上下文工程+架构约束+团队知识 Memory+技术债梳理，可交付性 40~60 分→80 分）|
 | 2026-06-29 | https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ | ~~待查看~~ → 已归档至 sources/vibe-coding-two-prompts.md |
 | 2026-07-15 | https://mp.weixin.qq.com/s/OS5lI3eK1G4X0hYcum6kpw | 待查看 |
 | 2026-07-15 | https://mp.weixin.qq.com/s/WJWR8RdN2OmPGZ38mkPaRA | 待查看 |
@@ -342,8 +342,8 @@ date: "2026-05-29"
 |------|------|------|
 | 2026-06-25 | https://search-sharp.com | **闲鱼黑话搜索**：咸鱼暗号查询工具 |
 | 2026-06-25 | https://x.com/i/status/2070091940260155651 | 待查看 |
-| 2026-06-25 | https://x.com/i/status/2069738265138307490 | **@wizardly_ai Harness/Loop 工程笔记**：80% Agent生产崩溃死在上下文溢出/工具调错/子代理失控，2026分水岭在Harness+Loop非模型；Harness=Agent的办公室制度+安保系统+质检流程；Loop=让Agent自己发现/分派/验证/记录，人变成设计循环的人；模型可替换，Harness是底盘安全系统，Loop是自动驾驶；三样叠加才是能积累传承的Agent工程能力 |
-| 2026-06-25 | — | **Loop Engineering 三件套**：①@addyosmani《Loop Engineering》②Anatoli《Loops explained: Claude, GPT, Mira and what actually works》（890万浏览）③Peter Steinberger（OpenClaw作者）AI Engineer Europe 19分钟分享 — 理论+实战+框架三者互补，Loop核心：Prompt是指挥，Loop是给目标+验收规则让Agent自己跑；靠谱Loop五部分：Automation/Skill/Sub-agents/Connectors/Verifier；验收标准Judge决定成败 |
+| 2026-06-25 | https://x.com/i/status/2069738265138307490 | **@wizardly_ai Harness/Loop 工程笔记**：80% Agent 生产崩溃死在上下文溢出/工具调错/子代理失控，2026 分水岭在 Harness+Loop 非模型；Harness=Agent 的办公室制度+安保系统+质检流程；Loop=让 Agent 自己发现/分派/验证/记录，人变成设计循环的人；模型可替换，Harness 是底盘安全系统，Loop 是自动驾驶；三样叠加才是能积累传承的 Agent 工程能力 |
+| 2026-06-25 | — | **Loop Engineering 三件套**：①@addyosmani《Loop Engineering》②Anatoli《Loops explained: Claude, GPT, Mira and what actually works》（890 万浏览）③Peter Steinberger（OpenClaw 作者）AI Engineer Europe 19 分钟分享 — 理论+实战+框架三者互补，Loop 核心：Prompt 是指挥，Loop 是给目标+验收规则让 Agent 自己跑；靠谱 Loop 五部分：Automation/Skill/Sub-agents/Connectors/Verifier；验收标准 Judge 决定成败 |
 | 2026-06-26 | https://www.xuanyuancode.com | 待查看 |
 | 2026-06-26 | https://skill.huasheng.ai | **Huashu Design Skill PPT 作品**：用 Huashu Design skill 两小时做了 13 页 PPT |
 | 2026-06-26 | https://x.com/i/status/2050968016826048899 | 待查看 |
@@ -360,7 +360,7 @@ date: "2026-05-29"
 | 2026-06-27 | https://x.com/i/status/2070402287366029333 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2069711141534855195 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2070693285019181352 | 待查看 |
-| 2026-06-27 | https://x.com/i/status/2070087156190658983 | **方方：卖 AGENT 一年赚了 120 万，我做对了什么**：个性化教育 agent 从0到120万复盘，"最值钱的答案跟 agent 没关系"——上桌比什么都重要，186.7K 浏览 |
+| 2026-06-27 | https://x.com/i/status/2070087156190658983 | **方方：卖 AGENT 一年赚了 120 万，我做对了什么**：个性化教育 agent 从 0 到 120 万复盘，“最值钱的答案跟 agent 没关系”——上桌比什么都重要，186.7K 浏览 |
 | 2026-06-27 | https://x.com/i/status/2070662634807177570 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2070523413849083977 | 待查看 |
 | 2026-06-27 | https://x.com/i/status/2070423171401191465 | 待查看 |
@@ -390,44 +390,44 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
-| 2026-07-16 | https://x.com/i/status/2077612942585975289 | **Smartpig：副业年入百万的8个GitHub仓库**：①business-ideas-dataset（Reddit/AppStore痛点评分）②startup-ideas（月度创业机会）③niche-app-ideas（细分市场需求）④app-ideas（大型应用创意合集）⑤awesome-app-ideas（移动/效率/工具）⑥tastejs/awesome-app-ideas（搜索/健身/监控）⑦Best-Micro-SaaS-Tools（真实Micro-SaaS产品）⑧BizGenie（商业想法生成+验证），5.7K浏览 |
-| 2026-07-16 | https://my.feishu.cn/wiki/KZAqwJU1CibndpneWzce5gfnsc | **《关于 Vibe Coding 的 100 个问题》**：3.7万字，100个问题，适合不会编程想做东西的人/被AI冲击的职场人/想提效的老板与产品运营 |
-| 2026-07-16 | https://my.feishu.cn/wiki/FC6ZwnwWWi0dWpke56act61gnUd | **《100个问题》系列索引**：①Loop Engineering ②Codex ③WorkBuddy ④AI产品经理 ⑤飞书CLI ⑥Vibe Coding（新增）|
+| 2026-07-16 | https://x.com/i/status/2077612942585975289 | **Smartpig：副业年入百万的 8 个 GitHub 仓库**：①business-ideas-dataset（Reddit/AppStore 痛点评分）②startup-ideas（月度创业机会）③niche-app-ideas（细分市场需求）④app-ideas（大型应用创意合集）⑤awesome-app-ideas（移动/效率/工具）⑥tastejs/awesome-app-ideas（搜索/健身/监控）⑦Best-Micro-SaaS-Tools（真实 Micro-SaaS 产品）⑧BizGenie（商业想法生成+验证），5.7K 浏览 |
+| 2026-07-16 | https://my.feishu.cn/wiki/KZAqwJU1CibndpneWzce5gfnsc | **《关于 Vibe Coding 的 100 个问题》**：3.7 万字，100 个问题，适合不会编程想做东西的人/被 AI 冲击的职场人/想提效的老板与产品运营 |
+| 2026-07-16 | https://my.feishu.cn/wiki/FC6ZwnwWWi0dWpke56act61gnUd | **《100 个问题》系列索引**：①Loop Engineering ②Codex ③WorkBuddy ④AI 产品经理 ⑤飞书 CLI ⑥Vibe Coding（新增）|
 | 2026-07-16 | https://x.com/i/status/2077689805752942619 | 待查看 |
-| 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a44e9190000000008030e7b | **CrazyAllen：图解论文 DSpark**（大模型推理加速）— 小红书Skill，25赞 |
-| 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a435798000000001003da5f | **CrazyAllen：图解论文 SkillOpt**（自改进Agent Skill）— 小红书Skill，22赞 |
-| 2026-07-18 | https://harness-agent.ai/book/ | **《Harness Engineering》**：王梓任著，在线免费阅读，Harness权威指南 |
-| 2026-07-18 | https://martinfowler.com/articles/harness-engineering.html | **Martin Fowler：Harness Engineering**：通俗完整的Harness介绍 |
+| 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a44e9190000000008030e7b | **CrazyAllen：图解论文 DSpark**（大模型推理加速）— 小红书 Skill，25 赞 |
+| 2026-07-16 | https://www.xiaohongshu.com/discovery/item/6a435798000000001003da5f | **CrazyAllen：图解论文 SkillOpt**（自改进 Agent Skill）— 小红书 Skill，22 赞 |
+| 2026-07-18 | https://harness-agent.ai/book/ | **《Harness Engineering》**：王梓任著，在线免费阅读，Harness 权威指南 |
+| 2026-07-18 | https://martinfowler.com/articles/harness-engineering.html | **Martin Fowler：Harness Engineering**：通俗完整的 Harness 介绍 |
 | 2026-07-18 | https://enladder.com/ | **EnLadder**：生词提示辅助工具 |
-| 2026-07-18 | https://www.bilibili.com/video/BV1HxKB6hED3/ | **【2026-07-18】深入理解Harness Engineering**：B站视频 |
-| 2026-07-21 | https://github.com/emilkowalski/skills | **emilkowalski/skills（8.9k Stars）**：Vercel/Linear设计师积累的UI设计能力打包成AI Skill，让AI生成网页有设计品质而非"AI塑料感"，可加载到Cursor/Claude，戳中AI编程前端质量硬伤 |
-| 2026-07-19 | https://github.com/terrastruct/d2 | **D2（24.7k Stars）**：程序员声明式图表工具，用代码画流程图/时序图/ER图，19种主题，AI友好语法，比PlantUML更简洁，支持CLI/VSCode/在线渲染 |
-| 2026-07-19 | https://github.com/tt-a1i/archify | **Archify**：Agent画图Skill（Claude Code/Codex/OpenCode），大白话描述系统关系→生成可分享HTML架构图，支持PNG/JPEG/SVG/WebP导出（4倍高清），内置深浅主题，箭头连线检查，适合技术方案/项目README/产品评审/新人交接 |
-| 2026-07-19 | https://github.com/ake77-code/distill-design | **distill-design**：Google Stitch DESIGN.md蒸馏工具，网站→AI可读设计规范（颜色/字号/圆角/间距/组件），74个顶级品牌现成规范（Stripe/Linear/Apple/Figma等），三件套DESIGN.md+preview.html+demo.html，ake77-code |
-| 2026-07-18 | https://github.com/SpaceZephyr/cowrite | **Cowrite**：Codex可视化创作工作台，零散Skill封装成GUI，一键配图/排版/生成Slide(PPTX/HTML)/发飞书，基于MCP，数字生命卡兹克作品 |
-| 2026-07-17 | https://github.com/Cocoon-AI/architecture-diagram-generator | **architecture-diagram-generator（6.3k+ Stars）**：AI架构图生成Skill，支持Cursor/Claude Code/Windsurf，描述系统结构→生成深色主题HTML架构图，内置复制/PNG/PDF导出，配套process-flow-diagram-generator画流程图 |
-| 2026-07-16 | https://github.com/geekjourneyx/geekx-skills | **geekx-skills（9 Stars）**：极客杰尼AI Agent技能集，geekx-gate（决策门控，判断过度设计/是否该做）+geekx-grilling（苏格拉底追问，强制共同理解），npx安装，JavaScript |
-| 2026-07-16 | https://github.com/bojieli/ai-agent-book | **ai-agent-book（986 Stars）**：《深入理解AI Agent：设计原理与工程实践》(李博杰)，核心公式Agent=LLM+上下文+工具，10章：基础知识→上下文工程→记忆与RAG→工具(MCP)→Coding Agent→评估→后训练→自我进化→多模态→多Agent协作，配书PDF+按章代码，Python 94.5% |
-| 2026-07-16 | https://github.com/jamwithai/production-agentic-rag-course | **production-agentic-rag-course（7.9k Stars）**：7周构建arXiv论文助手，基础设施(Docker/FastAPI/PostgreSQL/OpenSearch/Airflow)→数据管道(arXiv API/Docling)→BM25搜索→混合搜索(RRF)→RAG+Ollama+Gradio→Langfuse监控+Redis缓存→LangGraph Agentic RAG+Telegram Bot，Python+Jupyter |
-| 2026-07-16 | https://github.com/HKUDS/OpenOPC | **OpenOPC**：HKUDS开源，AI编程资源，待补充详情 |
+| 2026-07-18 | https://www.bilibili.com/video/BV1HxKB6hED3/ | **【2026-07-18】深入理解 Harness Engineering**：B 站视频 |
+| 2026-07-21 | https://github.com/emilkowalski/skills | **emilkowalski/skills（8.9k Stars）**：Vercel/Linear 设计师积累的 UI 设计能力打包成 AI Skill，让 AI 生成网页有设计品质而非“AI 塑料感”，可加载到 Cursor/Claude，戳中 AI 编程前端质量硬伤 |
+| 2026-07-19 | https://github.com/terrastruct/d2 | **D2（24.7k Stars）**：程序员声明式图表工具，用代码画流程图/时序图/ER 图，19 种主题，AI 友好语法，比 PlantUML 更简洁，支持 CLI/VSCode/在线渲染 |
+| 2026-07-19 | https://github.com/tt-a1i/archify | **Archify**：Agent 画图 Skill（Claude Code/Codex/OpenCode），大白话描述系统关系→生成可分享 HTML 架构图，支持 PNG/JPEG/SVG/WebP 导出（4 倍高清），内置深浅主题，箭头连线检查，适合技术方案/项目 README/产品评审/新人交接 |
+| 2026-07-19 | https://github.com/ake77-code/distill-design | **distill-design**：Google Stitch DESIGN.md 蒸馏工具，网站→AI 可读设计规范（颜色/字号/圆角/间距/组件），74 个顶级品牌现成规范（Stripe/Linear/Apple/Figma 等），三件套 DESIGN.md+preview.html+demo.html，ake77-code |
+| 2026-07-18 | https://github.com/SpaceZephyr/cowrite | **Cowrite**：Codex 可视化创作工作台，零散 Skill 封装成 GUI，一键配图/排版/生成 Slide(PPTX/HTML)/发飞书，基于 MCP，数字生命卡兹克作品 |
+| 2026-07-17 | https://github.com/Cocoon-AI/architecture-diagram-generator | **architecture-diagram-generator（6.3k+ Stars）**：AI 架构图生成 Skill，支持 Cursor/Claude Code/Windsurf，描述系统结构→生成深色主题 HTML 架构图，内置复制/PNG/PDF 导出，配套 process-flow-diagram-generator 画流程图 |
+| 2026-07-16 | https://github.com/geekjourneyx/geekx-skills | **geekx-skills（9 Stars）**：极客杰尼 AI Agent 技能集，geekx-gate（决策门控，判断过度设计/是否该做）+geekx-grilling（苏格拉底追问，强制共同理解），npx 安装，JavaScript |
+| 2026-07-16 | https://github.com/bojieli/ai-agent-book | **ai-agent-book（986 Stars）**：《深入理解 AI Agent：设计原理与工程实践》(李博杰)，核心公式 Agent=LLM+上下文+工具，10 章：基础知识→上下文工程→记忆与 RAG→工具(MCP)→Coding Agent→评估→后训练→自我进化→多模态→多 Agent 协作，配书 PDF+按章代码，Python 94.5% |
+| 2026-07-16 | https://github.com/jamwithai/production-agentic-rag-course | **production-agentic-rag-course（7.9k Stars）**：7 周构建 arXiv 论文助手，基础设施(Docker/FastAPI/PostgreSQL/OpenSearch/Airflow)→数据管道(arXiv API/Docling)→BM25 搜索→混合搜索(RRF)→RAG+Ollama+Gradio→Langfuse 监控+Redis 缓存→LangGraph Agentic RAG+Telegram Bot，Python+Jupyter |
+| 2026-07-16 | https://github.com/HKUDS/OpenOPC | **OpenOPC**：HKUDS 开源，AI 编程资源，待补充详情 |
 
-| 2026-07-09 | https://github.com/wechat-article/wechat-article-exporter | **wechat-article-exporter（12.2k Stars）**：微信公众号文章批量下载工具，支持导出正文/阅读量/评论数据，HTML格式100%还原排版，支持 Docker/Cloudflare 部署 |
-| 2026-07-09 | https://github.com/mcncarl/yichen-skills | **yichen-skills（795 Stars）**：13个 Claude Code/Codex Skills 合集，含对话摘要/X文章发布/微信双开/微信本地库/抖音/小红书采集/火山ASR/视频诊断/ChatGPT研究/剪映剪辑/Agent记忆/微信公众号批量导出/企业微信本地库，Python 100% |
+| 2026-07-09 | https://github.com/wechat-article/wechat-article-exporter | **wechat-article-exporter（12.2k Stars）**：微信公众号文章批量下载工具，支持导出正文/阅读量/评论数据，HTML 格式 100%还原排版，支持 Docker/Cloudflare 部署 |
+| 2026-07-09 | https://github.com/mcncarl/yichen-skills | **yichen-skills（795 Stars）**：13 个 Claude Code/Codex Skills 合集，含对话摘要/X 文章发布/微信双开/微信本地库/抖音/小红书采集/火山 ASR/视频诊断/ChatGPT 研究/剪映剪辑/Agent 记忆/微信公众号批量导出/企业微信本地库，Python 100% |
 | 2026-07-09 | https://github.com/refly-ai/refly | **Refly（7.4k Stars）**：首个开源 Agent Skills 构建平台，vibe workflow 定义 skills 并导出到 Claude Code/Cursor/Codex/APIs，支持 3000+ 工具 + MCP，Skills 是基础设施而非提示词 |
 | 2026-07-09 | https://github.com/YouMind-OpenLab/awesome-gpt-image-2 | **awesome-gpt-image-2（8.1k Stars）**：全球最大 GPT Image 2 提示词库，2000+ 精选提示词含预览图，16 语言，TypeScript 100% |
-| 2026-07-09 | https://github.com/chuspeeism/dashiAI-ppt-skill | **DashiAI PPT Skill（1.5k Stars）**：AI Agent 生成可编辑网页 PPT，12套视觉主题/1020个版式/8576个控件，支持导出 HTML/PDF/可编辑 PPTX，碾压 PPT-master，Claude Code/Codex/豆包均支持 |
-| 2026-07-09 | https://github.com/byoungd/up | **人生进阶指南 up（55.6k Stars）**：英语学习主线 + AI 学习方法 + 人生复盘样本，含认知/单词/听力/阅读/口语/写作/AI场景训练全链路，JavaScript 100% |
-| 2026-07-15 | https://github.com/nihe0909/xiaohongshu-ai-workbench | **小红书AI工作台（99 Stars）**：Codex Skills套件，6个Skill（suite/title/profile/topic-planner/comment-reply/conversion-path），配套《小红书运营手册》 |
-| 2026-07-15 | https://github.com/ATH-MaaS/Pixelle-Video | **Pixelle-Video（25.5k Stars）**：AI全自动短视频引擎，输入主题→文案+配图+语音+BGM+合成，支持ComfyUI/RunningHub/直连API，数字人口播/动作迁移，Windows一键包 |
-| 2026-07-15 | https://github.com/Jane-xiaoer/paper-collage-ad-codex | **Paper Collage Ad Codex（244 Stars）**：Codex Skill，完整剪纸/编辑拼贴广告制作，创意→分镜→动画→本地IndexTTS-2声音克隆→音效→MP4质检，全链路，85.6% JavaScript |
-| 2026-07-14 | https://github.com/DavidLam-oss/obsidian-wechat-converter | **Obsidian Wechat Converter（251 Stars）**：Obsidian 插件，Markdown 一键发布微信公众号+飞书+知乎/掘金/CSDN/小红书，支持数学公式/SVG/Mermaid/图片滑动/AI编排，MIT |
+| 2026-07-09 | https://github.com/chuspeeism/dashiAI-ppt-skill | **DashiAI PPT Skill（1.5k Stars）**：AI Agent 生成可编辑网页 PPT，12 套视觉主题/1020 个版式/8576 个控件，支持导出 HTML/PDF/可编辑 PPTX，碾压 PPT-master，Claude Code/Codex/豆包均支持 |
+| 2026-07-09 | https://github.com/byoungd/up | **人生进阶指南 up（55.6k Stars）**：英语学习主线 + AI 学习方法 + 人生复盘样本，含认知/单词/听力/阅读/口语/写作/AI 场景训练全链路，JavaScript 100% |
+| 2026-07-15 | https://github.com/nihe0909/xiaohongshu-ai-workbench | **小红书 AI 工作台（99 Stars）**：Codex Skills 套件，6 个 Skill（suite/title/profile/topic-planner/comment-reply/conversion-path），配套《小红书运营手册》 |
+| 2026-07-15 | https://github.com/ATH-MaaS/Pixelle-Video | **Pixelle-Video（25.5k Stars）**：AI 全自动短视频引擎，输入主题→文案+配图+语音+BGM+合成，支持 ComfyUI/RunningHub/直连 API，数字人口播/动作迁移，Windows 一键包 |
+| 2026-07-15 | https://github.com/Jane-xiaoer/paper-collage-ad-codex | **Paper Collage Ad Codex（244 Stars）**：Codex Skill，完整剪纸/编辑拼贴广告制作，创意→分镜→动画→本地 IndexTTS-2 声音克隆→音效→MP4 质检，全链路，85.6% JavaScript |
+| 2026-07-14 | https://github.com/DavidLam-oss/obsidian-wechat-converter | **Obsidian Wechat Converter（251 Stars）**：Obsidian 插件，Markdown 一键发布微信公众号+飞书+知乎/掘金/CSDN/小红书，支持数学公式/SVG/Mermaid/图片滑动/AI 编排，MIT |
 | 2026-07-09 | https://github.com/asnowwolf/meta-project-poc | **Meta-Project POC 元工程**：将软件工程方法论（Design Thinking/DDD/敏捷/TDD）引入 LLM 开发流程的 POC，通过 PDCA 循环 + Human Gate + CI Pipeline 实现宏观确定性与微观灵活性的平衡，93.5% Shell + 6.5% Python |
-| 2026-07-02 | https://github.com/alchaincyf/obsidian-ai-orange-book | **Obsidian + Claude Code 橙皮书**：用AI重建你的第二大脑，1.2k Stars。核心：Markdown是AI原生接口、LLM是编译器而非检索器、CLAUDE.md+index.md搞定80%工作 |
+| 2026-07-02 | https://github.com/alchaincyf/obsidian-ai-orange-book | **Obsidian + Claude Code 橙皮书**：用 AI 重建你的第二大脑，1.2k Stars。核心：Markdown 是 AI 原生接口、LLM 是编译器而非检索器、CLAUDE.md+index.md 搞定 80%工作 |
 |------|------|------|
 | 2026-06-30 | https://github.com/RayVentura/ShortGPT | **ShortGPT**：AI 短视频批量生成框架，自动化剪辑/配音/字幕/发布 |
 | 2026-06-30 | https://github.com/freestylefly/awesome-gpt-image-2 | **awesome-gpt-image-2**：苍何的 329 条 GPT-Image 2 提示词模板开源，Prompt-as-Code 结构化模板。关联：已归档至 sources/gpt-image2-prompts.md |
 | 2026-06-30 | https://github.com/gpt-image2/awesome-gptimage2-prompts | **awesome-gptimage2-prompts**：GPT-Image 2 提示词合集，open-gpt-image 出品的另一个 awesome list |
-| 2026-06-10 | https://github.com/Leonxlnx/taste-skill | **Taste-Skill 审美品味 Skill（36.5k Stars）**：给 AI 装上"设计品味过滤器"，解决大模型生成内容千篇一律的根本问题。审美品味过滤器 + 个性输出 + 品味学习 + 创意增强。部署：`npx skills add taste-skill`。关联：本仓 [[taste-skill]]（已归档）|
+| 2026-06-10 | https://github.com/Leonxlnx/taste-skill | **Taste-Skill 审美品味 Skill（36.5k Stars）**：给 AI 装上“设计品味过滤器”，解决大模型生成内容千篇一律的根本问题。审美品味过滤器 + 个性输出 + 品味学习 + 创意增强。部署：`npx skills add taste-skill`。关联：本仓 [[taste-skill]]（已归档）|
 | 2026-06-10 | https://github.com/kejixiaoliang/html-ppt-editor | **html-ppt-editor**：HTML 可视化编辑器，支持直接编辑 HTML 格式 PPT，可修改文字/颜色/背景/间距，修改时自动同步源码，支持导出新 HTML。Codex 限额还有一些 bug。关联：本仓 [[guizang-ppt-skill]]（网页 PPT 制作）|
 | 2026-06-24 | https://github.com/everyinc/compound-engineering-plugin | **Compound Engineering Plugin**：知识沉淀工具，关联 ce:compound skill |
 | 2026-06-24 | https://github.com/songquanpeng/one-api | **One API**：OpenAI 接口管理 & 分发平台，支持多种渠道 |
@@ -435,19 +435,19 @@ date: "2026-05-29"
 | 2026-06-24 | https://github.com/Panniantong/Agent-Reach | **Agent-Reach**：Agent 触达能力 |
 | 2026-06-28 | https://github.com/realchendahuang/sub-store-cloudflare | **sub-store-cloudflare**：CF Workers+D1 机场订阅聚合，多源合并+分流规则，AI Agent 一键部署 |
 | 2026-06-28 | https://github.com/yaojingang/yao-geo-skills | **GEO Skills**：姚金刚开源的 GEO（生成式引擎优化）提示词与 Skill 全套系统，含改写提示词+评估标准+实操教程 |
-| 2026-06-28 | https://github.com/hasaneyldrm/exercises-dataset | **exercises-dataset**：1324个健身动作数据集，含动画GIF/缩略图/多语言说明，3k Stars |
-| 2026-06-28 | https://github.com/santifer/career-ops | **career-ops**：AI求职系统，Claude Code驱动，740+职位评估/100+定制简历/议薪脚本，56.4k Stars |
-| 2026-06-28 | https://github.com/alexpate/awesome-design-systems | **awesome-design-systems**：精选设计系统合集，收录Ant Design/Atlassian/IBM Carbon等知名系统，25.2k Stars |
+| 2026-06-28 | https://github.com/hasaneyldrm/exercises-dataset | **exercises-dataset**：1324 个健身动作数据集，含动画 GIF/缩略图/多语言说明，3k Stars |
+| 2026-06-28 | https://github.com/santifer/career-ops | **career-ops**：AI 求职系统，Claude Code 驱动，740+职位评估/100+定制简历/议薪脚本，56.4k Stars |
+| 2026-06-28 | https://github.com/alexpate/awesome-design-systems | **awesome-design-systems**：精选设计系统合集，收录 Ant Design/Atlassian/IBM Carbon 等知名系统，25.2k Stars |
 | 2026-06-28 | https://github.com/dreamportdev/Osdev-Notes | **Osdev-Notes**：从零编写操作系统的完整教程书籍，含引导程序/内存管理/调度/文件系统，1.1k Stars |
 | 2026-06-29 | https://github.com/webadderallorg/Recordly | **Recordly（18.3k Stars）**：开源桌面录屏 + 演示视频编辑器，自动放大/光标美化/动态摄像头气泡/时间轴编辑，零剪辑技能出片。Mac/Win/Linux 多平台，支持 MP4/GIF 导出 + .recordly 工程文件，AGPL-3.0 开源。起初为 OpenScreen 分支，已分叉 80%+ 代码 |
-| 2026-06-29 | https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning | **Mathematical Foundations of RL（16.7k Stars）**：西湖大学赵世钰教授写的强化学习数学基础教材 PDF 全本，10 章+附录+教学视频（B站210万+播放）。从 MDP / Bellman 方程到 Actor-Critic 算法，每个例子用统一 grid world 任务串起来。**唯一一本把「为什么这样设计」讲透的 RL 入门书**。已由 Springer + 清华出版社联合出版 |
+| 2026-06-29 | https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning | **Mathematical Foundations of RL（16.7k Stars）**：西湖大学赵世钰教授写的强化学习数学基础教材 PDF 全本，10 章+附录+教学视频（B 站 210 万+播放）。从 MDP / Bellman 方程到 Actor-Critic 算法，每个例子用统一 grid world 任务串起来。**唯一一本把「为什么这样设计」讲透的 RL 入门书**。已由 Springer + 清华出版社联合出版 |
 | 2026-06-29 | https://github.com/DavidXanatos/TaskExplorer | **TaskExplorer（3.7k Stars）**：Windows 高级任务管理器，基于 Process Hacker 内核 + Qt 框架。功能远超自带任务管理器——线程堆栈追踪（诊断死锁/性能瓶颈）/ 内存查看编辑 / 句柄表（文件名+偏移+大小）/ 全部 socket 连接（含 UDP 伪连接 ETW 抓包）/ DLL 模块注入与卸载 / Token / 环境变量 / 窗口 / GDI / .NET 面板。**未来要移植到 Linux** |
 
 ## 其他
 
 | 日期 | 链接 | 摘要 |
 |------|------|------|
-| 2026-07-15 | https://github.com/chenjin-cmd/wechat-aip-architect | **Wechat AIP Architect（55 Stars）**：公众号AIP打造方法论，工具无关（适配任意AI），5模块（定位/搭建/对标/写作/排版）+ 3内容模板 + 4 HTML图文模板，中英双语 |
+| 2026-07-15 | https://github.com/chenjin-cmd/wechat-aip-architect | **Wechat AIP Architect（55 Stars）**：公众号 AIP 打造方法论，工具无关（适配任意 AI），5 模块（定位/搭建/对标/写作/排版）+ 3 内容模板 + 4 HTML 图文模板，中英双语 |
 | 2026-07-09 | https://meigen.ai | **MeiGen（表情包）**：免费 GPT Image 2 / Nano Banana / Seedance 2.0 / Midjourney 提示词库，一键复制，支持短视频封面/电商主图/品牌海报/朋友圈氛围感大片 |
 | 2026-06-30 | https://zhuanlan.zhihu.com/p/2051351123517346918 | 待查看 |
 | 2026-06-30 | https://ew6rccvpnmz.feishu.cn/wiki/ILO2waqXLi1EvqkuKHvcceMOnVd | 待查看 |
@@ -456,8 +456,8 @@ date: "2026-05-29"
 | 2026-06-10 | https://codexradar.com/ | **CodexRadar**：AI Coding Agent / Skills 资讯站，追踪 GitHub trending 新发布，Codex/Claude Code/Cursor 等生态动态。待进一步了解定位。 |
 | 2026-06-10 | http://vibe-ui.youji.pro/ | **Vibe UI Design Guide**：AI 生成 UI 的完整设计到开发路径。两条路（UI Kit+MCP / design.md）、15 个设计系统模板（Clean/Minimal/Modern/Elegant 等）、设计 Token 提取流程、技术栈选型（HTML/React/Next.js/Tailwind）、资源导航（字体/图标/Prompt/Skill）。来源：有籍（youji.pro）|
 | 2026-06-24 | https://harness-agent.ai/ | **Harness Engineering 小书**（王梓任）：对 Harness 概念做精细理论分析，比网上绝大多数分析精确深入得多，包含大量实战经验 |
-| 2026-06-28 | https://x.com/i/communities/1698871397022388467 | **X跨境电商交流群 + AI**：20.8K成员的X社区，跨境电商/AI工具/平台运营交流 |
-| 2026-09-02 | https://my.feishu.cn/wiki/SWDNwKVTxiEz9hkdQ2zcacZKn4f | **Harness 101: Codex 的 Coding 范式**（飞书，需登录）— Claude Code 最小工具集 vs Codex 工具生态（Plan/Goal/Thread/Automation/Sub-Agent/Worktree/Handoff），Claude 式 Harness 回答"怎样让模型像程序员一样操作仓库"，Codex 回答"怎样让模型成为可以长期运行、跨任务协作的工作执行系统" |
+| 2026-06-28 | https://x.com/i/communities/1698871397022388467 | **X 跨境电商交流群 + AI**：20.8K 成员的 X 社区，跨境电商/AI 工具/平台运营交流 |
+| 2026-09-02 | https://my.feishu.cn/wiki/SWDNwKVTxiEz9hkdQ2zcacZKn4f | **Harness 101: Codex 的 Coding 范式**（飞书，需登录）— Claude Code 最小工具集 vs Codex 工具生态（Plan/Goal/Thread/Automation/Sub-Agent/Worktree/Handoff），Claude 式 Harness 回答“怎样让模型像程序员一样操作仓库”，Codex 回答“怎样让模型成为可以长期运行、跨任务协作的工作执行系统” |
 | 2026-07-29 | https://www.xgdn.com/6.html | 待查看 |
 | 2026-07-29 | https://zhuanlan.zhihu.com/p/716891964 | 待查看 |
 | 2026-07-29 | https://www.nodeseek.com/post-84328-1 | 待查看 |
@@ -466,4 +466,4 @@ date: "2026-05-29"
 
 | 日期 | 链接 | 内容 |
 |------|------|------|
-| 2026-06-21 | 本条见证 | **记录**：19年2月开始跟着紫菜抢演唱会门票→茅台→手机→泡泡玛特→港股打新→NFT打新→Web3。"执行跟着紫菜走，很难不赚钱。" — 信任积累的活生生案例，从+10分的小任务一路升级到Web3合作。 |
+| 2026-06-21 | 本条见证 | **记录**：19 年 2 月开始跟着紫菜抢演唱会门票→茅台→手机→泡泡玛特→港股打新→NFT 打新→Web3。“执行跟着紫菜走，很难不赚钱。" — 信任积累的活生生案例，从+10 分的小任务一路升级到 Web3 合作。 |

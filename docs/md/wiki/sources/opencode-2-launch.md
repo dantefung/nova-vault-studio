@@ -44,7 +44,7 @@ OpenCode 内部集成了自身的 API 客户端，大模型可以直接调用这
 
 ### 跨会话干预机制示例
 
-当你在新会话中输入"在一个新的工作区中开始对上传接口做限流"，Agent 会执行以下操作栈：
+当你在新会话中输入“在一个新的工作区中开始对上传接口做限流”，Agent 会执行以下操作栈：
 
 1. 调用 `opencode.worktree_create[name=rate-limit]` 创建新的 Git Worktree
 2. 调用 `opencode.session_rename[title=Rate limit uploads]` 重命名当前会话上下文
@@ -63,7 +63,7 @@ OpenCode 内部集成了自身的 API 客户端，大模型可以直接调用这
 
 在处理批量和具备强逻辑依赖的任务时，目前常规的 Function Calling 机制存在**致命的性能瓶颈**。
 
-如果你要求大模型"获取 GitHub 上的 bug 并建入 Linear 追踪"，传统的 Agent 会：
+如果你要求大模型“获取 GitHub 上的 bug 并建入 Linear 追踪”，传统的 Agent 会：
 
 1. 调用 GitHub API 工具
 2. 等待 LLM 接收并解析返回的大段 JSON

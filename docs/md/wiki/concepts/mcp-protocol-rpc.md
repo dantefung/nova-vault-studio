@@ -15,8 +15,8 @@ Model Context Protocol（MCP）选择 JSON-RPC 2.0 而非 gRPC 等二进制 RPC 
 
 | 层级 | 职责 | 技术 |
 |------|------|------|
-| 数据层 | "说什么" | JSON-RPC 2.0 消息结构、tools/resources/prompts 原语 |
-| 传输层 | "怎么送" | stdio / Streamable HTTP / WebSocket |
+| 数据层 | “说什么” | JSON-RPC 2.0 消息结构、tools/resources/prompts 原语 |
+| 传输层 | “怎么送” | stdio / Streamable HTTP / WebSocket |
 
 **关键**：同一套 JSON-RPC 消息格式可以跑在不同传输通道上，这层解耦是后续所有取舍的地基。
 
@@ -30,7 +30,7 @@ MCP 主流用法是将 server 作为本地进程，通过 stdio 对话。JSON-RP
 
 ### 2. 瓶颈不在序列化
 
-AI 场景的真正瓶颈是大模型推理时间（2-3 秒级），协议序列化省下的 2-3 毫秒可以忽略不计。MCP 明确用"原始二进制性能"换回"灵活性和易用性"。
+AI 场景的真正瓶颈是大模型推理时间（2-3 秒级），协议序列化省下的 2-3 毫秒可以忽略不计。MCP 明确用“原始二进制性能”换回“灵活性和易用性”。
 
 ### 3. 门槛决定生态
 
@@ -38,7 +38,7 @@ JSON-RPC 任何语言都自带 JSON 库，拼字典打印出去就是合法请�
 
 ### 4. JSON 是大模型和调试的母语
 
-- 大模型天生擅长生成/解析 JSON，MCP 的工具定义、资源内容本身就是 JSON 结构化数据，"线上格式"和"AI 格式"是同一种东西
+- 大模型天生擅长生成/解析 JSON，MCP 的工具定义、资源内容本身就是 JSON 结构化数据，“线上格式”和“AI 格式”是同一种东西
 - 调试时 JSON 报文是纯文本，肉眼可读；gRPC 二进制报文需要 Wireshark 解码
 
 ---

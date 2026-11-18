@@ -37,7 +37,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 ![](../images/liangzhu-ai-product-overseas-first/002.webp)
 
-单日广告进账 200 美元，当月2200美金。
+单日广告进账 200 美元，当月 2200 美金。
 
 ![](../images/liangzhu-ai-product-overseas-first/003.webp)
 
@@ -64,7 +64,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 1. Google Trends 实时抓取潜伏风口
 
-做产品出海，Google就是最大的市场，打开 Google Trends（谷歌趋势），范围选择全球，我当时搜索的关键词是“ai”，它是近几年一直高热度的词。
+做产品出海，Google 就是最大的市场，打开 Google Trends（谷歌趋势），范围选择全球，我当时搜索的关键词是“ai”，它是近几年一直高热度的词。
 
 日期建议选择过去一周，不要只看大盘的热搜新闻，去看热度上升的查询。
 
@@ -101,7 +101,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 ② 警惕巨头盘踞的“大泛词”，死磕垂直与蹭词
 
-像ai tools、crypto这种超大词叫做“泛词”，权重全在巨头老站手里，新手碰一个死一个。优先抓两类高转化意图：小游戏相关、在线实用小工具相关。敏锐蹭词，精准截流：比如前段时间大火的jev或jav衍生词，随手一搜，网上已经有海量站点围绕这些词在疯狂收割海外流量。
+像 ai tools、crypto 这种超大词叫做“泛词”，权重全在巨头老站手里，新手碰一个死一个。优先抓两类高转化意图：小游戏相关、在线实用小工具相关。敏锐蹭词，精准截流：比如前段时间大火的 jev 或 jav 衍生词，随手一搜，网上已经有海量站点围绕这些词在疯狂收割海外流量。
 
 ![](../images/liangzhu-ai-product-overseas-first/006.webp)
 
@@ -113,7 +113,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 1. 搜索结果全是一堆论坛碎屑；前两页几乎都是 Reddit 讨论帖、X（Twitter）吐槽、Quora 问答；几乎没有一个正经的独立产品站！
 2. 官方供给极弱、甚至动作迟钝：我当时发现对应这个词的官方网站才注册不到 7 天，权重极低，甚至连主流域名（.com）都没抢占。
-3. 域名主流后缀大量闲置：打开query.domains查一圈，除了官方那个奇怪的小众后缀，主流后缀居然都还空着！
+3. 域名主流后缀大量闲置：打开 query.domains 查一圈，除了官方那个奇怪的小众后缀，主流后缀居然都还空着！
 
 ![](../images/liangzhu-ai-product-overseas-first/007.webp)
 
@@ -129,9 +129,9 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 - 竞争难度（KD）：新手强烈建议找 KD < 10 甚至 KD < 5 的词，这种就是软柿子，上几个基础外链就能轻松杀上首页；
 - 每次点击广告值多少钱（CPC）：如果一个词点击一次值好几美金，说明商业价值极大，挂广告都能赚爽。
 
-    2.  Similarweb (similarweb.com)： 竞品偷窥狂神器！看到别人出海赚到钱的网站，直接把网址扔进去，一键看透它的月总访问量、流量主要靠搜索还是社交网络、主要访客来自哪个国家。照着高手的成熟打法抄，是最稳的捷径！
+    2. Similarweb (similarweb.com)： 竞品偷窥狂神器！看到别人出海赚到钱的网站，直接把网址扔进去，一键看透它的月总访问量、流量主要靠搜索还是社交网络、主要访客来自哪个国家。照着高手的成熟打法抄，是最稳的捷径！
 
-但是注意：对小白用户来说不是必须的，他们的成本也不便宜，一个月闲鱼上也要100多。只是更好的辅助我们，没有也没有关系，Google Trends（https://trends.google.com/） 、google ads keyword planner （https://ads.google.com/aw/keywordplanner/home）。还有 https://ahrefs.com/keyword-difficulty 免费查KD（关键词难度，新手建议30以下） 绝对也是够用的
+但是注意：对小白用户来说不是必须的，他们的成本也不便宜，一个月闲鱼上也要 100 多。只是更好的辅助我们，没有也没有关系，Google Trends（https://trends.google.com/） 、google ads keyword planner （https://ads.google.com/aw/keywordplanner/home）。还有 https://ahrefs.com/keyword-difficulty 免费查 KD（关键词难度，新手建议 30 以下） 绝对也是够用的
 
 4. 搜不到突发热词？祭出哥飞“词根法”（Seed Keywords）
 
@@ -142,7 +142,7 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 经典工具类词根组合：
 
 - [功能] + generator（生成器：比如 bio generator、prompt generator、palette generator）
-- [格式A] to [格式B] + converter（格式转换：比如 webp to png、pdf to docx、pdf 2 img）
+- [格式 A] to [格式 B] + converter（格式转换：比如 webp to png、pdf to docx、pdf 2 img）
 - [行业] + calculator（计算器：比如 cagr calculator、macro calculator）
 - [大牌工具] + alternative（竞品替代：比如 notion alternative、canva alternative）
 
@@ -172,8 +172,8 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 1. 域名选择的实战军规与灵活变通
 
-- 军规一：域名与核心关键词保持高度一致（Exact Match Domain, EMD）： 如果关键词是xyz tool，域名最好就直接是xyztool.com，搜索引擎权重倾斜极其明显，海外用户一眼看到也是天然信任。
-- 军规二：坚决使用国际通用域名： 我们做的是海外产品出海，赚的是老外的钱！国外普通用户根本不知道比如.cn是什么，点击率直接暴跌。
+- 军规一：域名与核心关键词保持高度一致（Exact Match Domain, EMD）： 如果关键词是 xyz tool，域名最好就直接是 xyztool.com，搜索引擎权重倾斜极其明显，海外用户一眼看到也是天然信任。
+- 军规二：坚决使用国际通用域名： 我们做的是海外产品出海，赚的是老外的钱！国外普通用户根本不知道比如.cn 是什么，点击率直接暴跌。
 - 军规三：万事不绝对，多层级替代方案：如果 .com 被占了，去找 .net、.org、.pro、.app，或者加词缀如 xyz-tool.com，核心是方便老外记住。关于大火的 .ai 域名：有预算直接冲没问题，自带科技光环，但门槛高（通常要买 3 年起），基于自己的情况来。
 
 域名购买神器推荐：Spaceship (spaceship.com)： 别再去 GoDaddy 或 Namecheap 忍受复杂的加价套路了。通常最便宜，解析速度快，没有任何乱七八糟的隐形扣费。你有更便宜的选择，优先你的方式。
@@ -186,23 +186,23 @@ url: "https://x.com/liangzhu_AI/status/2103402474677670352"
 
 当你完成过第一个合格的站点后，把它的通用骨架（前端响应式布局、多语言 SEO 标签、深色模式、用户鉴权、Stripe 支付组件、API 转发接口）抽象成一套内部脚手架。下一个新词出现时，直接 Clone 现有工程，换上新的关键词、文案和核心功能，1 到 2 个小时直接发布！这种工业化流水线的复用速度，能把竞争对手打得找不着北。
 
-不一定非要框架，买模板，你手搓绝对能搓出来。GitHub上有开源项目，拿来改造完全够用。你想省麻烦，10分钟就上线先登录注册、多语言、api、生图、生视频的能力，又没有复用模板， 我推荐 @idoubicc 的shipany和 @indie_maker_fox 的mksaas。
+不一定非要框架，买模板，你手搓绝对能搓出来。GitHub 上有开源项目，拿来改造完全够用。你想省麻烦，10 分钟就上线先登录注册、多语言、api、生图、生视频的能力，又没有复用模板， 我推荐 @idoubicc 的 shipany 和 @indie_maker_fox 的 mksaas。
 
-我自己用的是mksaas，我买的原因是当时赚钱了，买这些没有压力，后面对模板魔改的也很厉害。
+我自己用的是 mksaas，我买的原因是当时赚钱了，买这些没有压力，后面对模板魔改的也很厉害。
 
 ② 极低成本部署神器：Cloudflare（强烈推荐！）
 
-部署网站不要傻乎乎去买昂贵配置的独立云服务器。强烈推荐直接用 Cloudflare（Pages / Workers）！它是目前全球 CDN 加速和部署成本最低的方案，抗 DDoS 攻击能力极强。性价比炸裂：作者目前买的是5 美金/月的套餐，一口气跑了6 个出海独立网站，丝滑流畅，全球秒开，几乎零运维成本！
+部署网站不要傻乎乎去买昂贵配置的独立云服务器。强烈推荐直接用 Cloudflare（Pages / Workers）！它是目前全球 CDN 加速和部署成本最低的方案，抗 DDoS 攻击能力极强。性价比炸裂：作者目前买的是 5 美金/月的套餐，一口气跑了 6 个出海独立网站，丝滑流畅，全球秒开，几乎零运维成本！
 
 ③ 数据库搭配：Neon (Serverless Postgres)
 
-如果网站需要存储数据，直接接入Neon (neon.tech)。 Serverless 架构，根据请求自动伸缩，自带连接池，其免费额度（Free Tier）对于中前期的出海工具站来说完全够用，基本处于零成本运行状态。
+如果网站需要存储数据，直接接入 Neon (neon.tech)。 Serverless 架构，根据请求自动伸缩，自带连接池，其免费额度（Free Tier）对于中前期的出海工具站来说完全够用，基本处于零成本运行状态。
 
 ④ 数据监控不用学了，直接让 AI 当牛马！
 
 以前很多人卡在 GSC（Google Search Console）和 GA4（Google Analytics 4）埋点上，看几十页文档折腾两三天。现在根本不需要学了！把前端代码扔给 Claude / Cursor：“帮我把 Google Search Console 和 Clarity 验证文件配置好，把 Google Analytics 4 的测量 ID 埋进去”。
 
-同时安装clarity，这样当用户浏览我们的网站的时候，我们可以查看用户使用行为，便于复盘优化网站。
+同时安装 clarity，这样当用户浏览我们的网站的时候，我们可以查看用户使用行为，便于复盘优化网站。
 
 AI 2 分钟写好代码，你直接推到 Cloudflare 部署，秒完成全站流量监控！代码可以糙，数据监控一秒都不能缺！
 
@@ -233,9 +233,9 @@ Google 只会认谁拿到的投票多！
 
 1. 冷启动期：暴力堆外链，快速拉升域名信任度
 
-海外导航站 / Directory 全网轰炸： 批量提交到 Product Hunt、Toolify.ai、There's An AI For That (TAAFT)、Futurepedia 以及各种垂直细分 Directory（搜submit your tool/ai directory list）。这一步能迅速为你沉淀几十到上百个高权重的 DoFollow/NoFollow 投票，让 Google 爬虫几小时内完成全站收录。
+海外导航站 / Directory 全网轰炸： 批量提交到 Product Hunt、Toolify.ai、There's An AI For That (TAAFT)、Futurepedia 以及各种垂直细分 Directory（搜 submit your tool/ai directory list）。这一步能迅速为你沉淀几十到上百个高权重的 DoFollow/NoFollow 投票，让 Google 爬虫几小时内完成全站收录。
 
-【避坑警示】：不要一天就把所有的干完了， 考虑到有些外链需要审核，建议是一周5-15个外链，这个没有标准，反正我是这么干的， 然后坚持，坚持永远是最难的， 我是停更了1个多月，又慢慢的开始。
+【避坑警示】：不要一天就把所有的干完了， 考虑到有些外链需要审核，建议是一周 5-15 个外链，这个没有标准，反正我是这么干的， 然后坚持，坚持永远是最难的， 我是停更了 1 个多月，又慢慢的开始。
 
 高权重 Web 2.0 与社媒埋链： 在 Medium、Dev.to、Hashnode 撰写使用指南并自然内嵌链接；去 Reddit 相关的 Subreddit、X 垂直标签分享实用心得。
 
@@ -289,7 +289,7 @@ Google 只会认谁拿到的投票多！
 
 特点：这是目前最卷但也最具爆发力的方向。说“容易”，是指相比于几十美分的广告，AI 工具更容易拿到大金额的高客单价订单！
 
-现状与思考：这个方向需要更深度的思考与产品壁垒。我目前也正在全力重构和深耕我的AI 工具站，中间踩了极其多的坑，但这也是真正能赚到持续大钱的资产。
+现状与思考：这个方向需要更深度的思考与产品壁垒。我目前也正在全力重构和深耕我的 AI 工具站，中间踩了极其多的坑，但这也是真正能赚到持续大钱的资产。
 
 ![](../images/liangzhu-ai-product-overseas-first/014.webp)
 
@@ -328,11 +328,11 @@ Google 只会认谁拿到的投票多！
 
 如果你对产品出海、AI 搞钱、选词实战、以及正在尝试的海外广告投放与定价测算感兴趣，欢迎关注我！ 
 
-我会把我做出海Ai产品 踩过的每一个坑、每一个真实的海外订单数据毫无保留地复盘发出来，一起赚美刀。
+我会把我做出海 Ai 产品 踩过的每一个坑、每一个真实的海外订单数据毫无保留地复盘发出来，一起赚美刀。
 
-文章由Gemini 3.8 进行最后优化，图片由GPT Image 2.5模型生成
+文章由 Gemini 3.8 进行最后优化，图片由 GPT Image 2.5 模型生成
 
 - 封面图片使用 @AdrianPunk115 的生图技能
 - 文章配图使用 @dotey 的生图技能
 
-出海产品通过Codex、Claude Code 、GLM、DeepSeek 口喷而成。
+出海产品通过 Codex、Claude Code 、GLM、DeepSeek 口喷而成。

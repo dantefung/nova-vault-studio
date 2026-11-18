@@ -3,7 +3,7 @@ title: "PM Skills Marketplace（产品经理Skills市场）"
 date: "2026-06-11"
 ---
 
-# PM Skills Marketplace（产品经理Skills市场）
+# PM Skills Marketplace（产品经理 Skills 市场）
 
 > 68 PM skills and 42 chained workflows across 9 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, and shipping AI-built code.
 
@@ -12,7 +12,7 @@ date: "2026-06-11"
 - **核心定位**：将产品经理专业方法论（Teresa Torres / Marty Cagan / Alberto Savoia 等）硬核化为 AI Agent Skills
 - **方法论基础**：Teresa Torres（Continuous Discovery Habits）、Marty Cagan（INSPIRED）、Alberto Savoia（The Right It）、Roger L. Martin（Playing to Win）、Sean Ellis（Hacking Growth）
 
-## 9大插件
+## 9 大插件
 
 | 插件 | Skills 数 | Commands 数 | 覆盖 |
 |------|-----------|-------------|------|

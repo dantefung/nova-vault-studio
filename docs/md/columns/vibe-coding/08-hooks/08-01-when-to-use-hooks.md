@@ -88,4 +88,4 @@ date: "2026-05-22"
 | 表达意图/目标 | Prompt |
 | 固化操作流程 | Hook |
 
-**核心原则**：Prompt 告诉 Claude "想要什么"，Hook 告诉 Claude "必须这样做"。
+**核心原则**：Prompt 告诉 Claude “想要什么”，Hook 告诉 Claude “必须这样做”。

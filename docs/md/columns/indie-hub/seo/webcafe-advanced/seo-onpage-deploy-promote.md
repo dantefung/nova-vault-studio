@@ -7,7 +7,7 @@ url: "https://new.web.cafe/tutorial/detail/seo-onpage-deploy-promote"
 ---
 
 # 【5800 字长文】从网站站内优化到部署上线再到推广运营一篇文章让你学明白
-> 原文链接: https://new.web.cafe/tutorial/detail/o3RNNMKZAMtBADNFswicqE
+> 原文链接：https://new.web.cafe/tutorial/detail/o3RNNMKZAMtBADNFswicqE
 
 ---
 
@@ -24,7 +24,7 @@ url: "https://new.web.cafe/tutorial/detail/seo-onpage-deploy-promote"
 
 分析清楚了用户的真实需求，我们就有的放矢，知道到底要给这个关键词做一个什么页面来承接搜索过来的流量。
 
-**1.1、TDK** 现在假设我们已经知道要做一个什么页面了，那么页面内的 TDK要怎么写呢？
+**1.1、TDK** 现在假设我们已经知道要做一个什么页面了，那么页面内的 TDK 要怎么写呢？
 
 我们跟着豆瓣学一学。
 
@@ -34,7 +34,7 @@ url: "https://new.web.cafe/tutorial/detail/seo-onpage-deploy-promote"
 
 这是搜索引擎判断一个网页的主要内容最重要的参考来源之一。
 
-很多时候我们说 SEO优化，其实就是如何写好网页标题。
+很多时候我们说 SEO 优化，其实就是如何写好网页标题。
 
 标题会直接出现在搜索结果中，所以写一个好标题，还有助于吸引用户点进你的网页
 
@@ -50,23 +50,23 @@ url: "https://new.web.cafe/tutorial/detail/seo-onpage-deploy-promote"
 
 用户可能会关心的，且有搜索流量的，都可以拼凑上去。
 
-**description和 keywords**
+**description 和 keywords**
 
 description 网页描述，也比较重要，也会出现在搜索结果中。
 
-keywords 关键词列表，一般可以不写。我的优化风格是优化不要太满，所以一般都是好好写 title和 description，但直接删除 keywords 。
+keywords 关键词列表，一般可以不写。我的优化风格是优化不要太满，所以一般都是好好写 title 和 description，但直接删除 keywords 。
 
 ![f5d6954b7e6f4350785193b406f324d0.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_003.webp)
 
 可以看到，豆瓣把一些本来要写到标题里的，写到描述里去了。
 
-好了，TDK就介绍完了，我们看看实际在搜索引擎里的结果显示成什么样。
+好了，TDK 就介绍完了，我们看看实际在搜索引擎里的结果显示成什么样。
 
 这是百度： ![d5ac597570c277714ccced1f2c71c58c.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_004.webp)
 
 这是谷歌： ![d9a8c4e94ed2b210b3549ffae0eee81b.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_005.webp)
 
-**1.2、网页结构** 一个 HTML网页，除了要写好 title 和 descrition 外，最重要的就是要让整个网页结构清晰，有明显的 h1、h2、h3 结构。
+**1.2、网页结构** 一个 HTML 网页，除了要写好 title 和 descrition 外，最重要的就是要让整个网页结构清晰，有明显的 h1、h2、h3 结构。
 
 **先说下 H1**
 
@@ -74,13 +74,13 @@ keywords 关键词列表，一般可以不写。我的优化风格是优化不�
 
 ![299dbc04d472e74b0838b8d7391e2983.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_006.webp)
 
-**再说下 h2 和 h3** 这两个也是一个完整的语义化 HTML必不可少的部分。一个网页可以有多个 h2 和 h3。
+**再说下 h2 和 h3** 这两个也是一个完整的语义化 HTML 必不可少的部分。一个网页可以有多个 h2 和 h3。
 
 ![814625bf3042b04a70c3f7aa274e88f7.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_007.webp)
 
 **再说下 p** h1 h2 h3 这些都是标题，分别是一级标题、二级标题和三级标题。
 
-除了标题之外，其它正文内容，就要写在 p里边了，图片也可以放在 p里。
+除了标题之外，其它正文内容，就要写在 p 里边了，图片也可以放在 p 里。
 
 ![1b187a2d448f1ba3d604da4a355567af.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_008.webp)
 
@@ -114,7 +114,7 @@ coloring pages
 
 内链建设的意思是，既要能够从首页有链接到每个二级、三级关键词，也要每个页面都有链接能够指向上级。
 
-举例，在 cute dog coloring pages 可以增加文本为“dog coloring pages”的链接指向 dog coloring pages页面。
+举例，在 cute dog coloring pages 可以增加文本为“dog coloring pages”的链接指向 dog coloring pages 页面。
 
 在 dog coloring pages 页面，可以增加文本为“coloring pages”的链接指向首页。
 
@@ -158,13 +158,13 @@ h3 red flower coloring pages img1 img2 img3 …… h3 yellow flower coloring pag
 
 所以新网站，老老实实后端渲染。
 
-**1.6、确保 URL唯一** 还有一点要注意，我们需要确保 url唯一。
+**1.6、确保 URL 唯一** 还有一点要注意，我们需要确保 url 唯一。
 
-每一个网页，有可能会有多个 url可以打开，但是我们需要在网页的 head中通过设置 canonical 来让搜索引擎知道当前网页正确且唯一的 URL。
+每一个网页，有可能会有多个 url 可以打开，但是我们需要在网页的 head 中通过设置 canonical 来让搜索引擎知道当前网页正确且唯一的 URL。
 
-举个例子，微信 App在苹果 AppStore的网页，苹果官方推荐的唯一 URL是 [https://apps.apple.com/cn/app/%E5%BE%AE%E4%BF%A1/id414478124。](https://apps.apple.com/cn/app/%E5%BE%AE%E4%BF%A1/id414478124%E3%80%82)
+举个例子，微信 App 在苹果 AppStore 的网页，苹果官方推荐的唯一 URL 是 [https://apps.apple.com/cn/app/%E5%BE%AE%E4%BF%A1/id414478124。](https://apps.apple.com/cn/app/%E5%BE%AE%E4%BF%A1/id414478124%E3%80%82)
 
-但其实我们可以通过多个 URL都能打开这个页面，如以下 URL都可以：
+但其实我们可以通过多个 URL 都能打开这个页面，如以下 URL 都可以：
 
 [https://apps.apple.com/cn/app/id414478124](https://apps.apple.com/cn/app/id414478124) [https://apps.apple.com/cn/app/weixin/id414478124](https://apps.apple.com/cn/app/weixin/id414478124) [https://apps.apple.com/cn/app/wechat/id414478124](https://apps.apple.com/cn/app/wechat/id414478124)
 
@@ -174,7 +174,7 @@ h3 red flower coloring pages img1 img2 img3 …… h3 yellow flower coloring pag
 
 ![4f095d43b65b45ece2c5b32a48dee7a1.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_012.webp)
 
-可以看到，不管用哪个 URL打开，苹果官方用 canonical 指定的规范且唯一的 URL都是同一个。
+可以看到，不管用哪个 URL 打开，苹果官方用 canonical 指定的规范且唯一的 URL 都是同一个。
 
 有些网站可能同时支持 www 和 裸域名访问，有时还同时支持 http 和 https 访问。
 
@@ -216,9 +216,9 @@ h3 red flower coloring pages img1 img2 img3 …… h3 yellow flower coloring pag
 
 Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后再付费。
 
-**2.4、LOGO制作工具**
+**2.4、LOGO 制作工具**
 
-再推荐几个 logo制作工具
+再推荐几个 logo 制作工具
 
 [https://ideogram.ai/](https://ideogram.ai/) [https://www.midjourney.com/](https://www.midjourney.com/) [https://icon.ray.so/](https://icon.ray.so/) [https://logofa.st/](https://logofa.st/)
 
@@ -228,9 +228,9 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 哥飞先简单介绍一下一点技术小知识。
 
-用户在浏览器输入你的域名之后，会经过 dns解析，找到域名提供服务的服务器 IP，也许这是你自己购买的云服务器 IP，也许是你的 Vercel、CloudFlare等平台的 IP，之后请求就会被发送到服务器里，由服务器进行一些处理后，返回 html页面代码给浏览器，最终浏览器渲染出网页。
+用户在浏览器输入你的域名之后，会经过 dns 解析，找到域名提供服务的服务器 IP，也许这是你自己购买的云服务器 IP，也许是你的 Vercel、CloudFlare 等平台的 IP，之后请求就会被发送到服务器里，由服务器进行一些处理后，返回 html 页面代码给浏览器，最终浏览器渲染出网页。
 
-所以我们购买到的域名，需要有一个 dns服务器，一般域名注册商都会免费提供，我们也可以使用第三方的 dns服务。这里统一建议大家使用 CloudFlare 的域名解析服务。
+所以我们购买到的域名，需要有一个 dns 服务器，一般域名注册商都会免费提供，我们也可以使用第三方的 dns 服务。这里统一建议大家使用 CloudFlare 的域名解析服务。
 
 接下来我们以 CloudFlare 和 Vercel 为例，说明如何部署一个前端工具站点。
 
@@ -244,21 +244,21 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 ![6a65f2c3c0671f8f42039eecdd2c7711.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_014.webp)
 
-复制 CloudFlare提供的 ns1 和 ns2 ，填到域名注册商后台的域名 dns设置界面。
+复制 CloudFlare 提供的 ns1 和 ns2 ，填到域名注册商后台的域名 dns 设置界面。
 
 ![3b7c5519a408a659e1241b6a1ff7a611.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_015.webp)
 
-有些 dns服务商有 5 个 ns，一般最少都有 2 个，CloudFlare就只有 2 个，那么就填这两个进去，提交保存。
+有些 dns 服务商有 5 个 ns，一般最少都有 2 个，CloudFlare 就只有 2 个，那么就填这两个进去，提交保存。
 
 ![e5cac2b1521ab7b433e1f1e318fdf3c3.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_016.webp)
 
-之后继续下一步，三个都开启，最后点击“Finish”就可以了。生效需要一段时间，等回到网站列表页面，网站底下显示“Active”就表示修改 dns成功了。
+之后继续下一步，三个都开启，最后点击“Finish”就可以了。生效需要一段时间，等回到网站列表页面，网站底下显示“Active”就表示修改 dns 成功了。
 
 ![9f410d082dff2d90553253b27fb4a513.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_017.webp)
 
 **3.2、添加域名解析记录**
 
-常用的域名解析记录类型有 A记录、CNAME记录、TXT记录、MAX记录，如果只需要配置网站访问，只需要用前两个就行，如果要配置邮箱，才需要用到后两个。有时候做一些域名所有权校验，需要用到第三个 TXT记录。
+常用的域名解析记录类型有 A 记录、CNAME 记录、TXT 记录、MAX 记录，如果只需要配置网站访问，只需要用前两个就行，如果要配置邮箱，才需要用到后两个。有时候做一些域名所有权校验，需要用到第三个 TXT 记录。
 
 一般别人叫你添加什么，你就添加什么就好了。
 
@@ -266,7 +266,7 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 **3.3、静态网站部署**
 
-以 Vercel配合 CloudFlare为例说明静态网站部署流程，总共有以下几步： 1、创建 Github私有仓库，把网站前端代码提交到仓库； 2、在 Vercel新建项目，选择关联上一步创建的仓库； 3、等待自动构建成功，点击 Vercel免费提供的子域名，可以成功打开网站； 4、在 Vercel域名设置中添加自定义域名，选择默认用无 www域名，把 www域名跳转到无 www域名（刚好与官方建议相反），并且开始 SSL证书，选择从 http跳转到 https； 5、在 CloudFlare中添加域名解析记录，注意要 SSL要选择 Full模式； 6、等待解析记录生效，使用 [https://域名](https://xn--eqrt2g/) 打开网站，部署完成。
+以 Vercel 配合 CloudFlare 为例说明静态网站部署流程，总共有以下几步： 1、创建 Github 私有仓库，把网站前端代码提交到仓库； 2、在 Vercel 新建项目，选择关联上一步创建的仓库； 3、等待自动构建成功，点击 Vercel 免费提供的子域名，可以成功打开网站； 4、在 Vercel 域名设置中添加自定义域名，选择默认用无 www 域名，把 www 域名跳转到无 www 域名（刚好与官方建议相反），并且开始 SSL 证书，选择从 http 跳转到 https； 5、在 CloudFlare 中添加域名解析记录，注意要 SSL 要选择 Full 模式； 6、等待解析记录生效，使用 [https://域名](https://xn--eqrt2g/) 打开网站，部署完成。
 
 通过以上步骤，我们成功部署了一个网站，可以打开搜索引擎，好好欣赏 3 分钟。
 
@@ -280,15 +280,15 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 先要为网站制作制作 sitemap，具体格式请百度或者谷歌或者问 GPT。
 
-之后在谷歌中搜索 site:域名 ，会有一个提示“尝试使用 Google Search Console”，点击进去。
+之后在谷歌中搜索 site：域名 ，会有一个提示“尝试使用 Google Search Console”，点击进去。
 
 ![0f470f43d723386bf7f2e41ae15288a7.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_019.webp)
 
-进去之后，在页面左侧找到按钮，添加资源，选择网域形式，输入域名，点击继续。之后因为你的域名是在 CloudFlare管理的，所以可以一键授权验证所有权。如果是在别处管理，按照要求配置解析记录进去进行所有权验证即可。
+进去之后，在页面左侧找到按钮，添加资源，选择网域形式，输入域名，点击继续。之后因为你的域名是在 CloudFlare 管理的，所以可以一键授权验证所有权。如果是在别处管理，按照要求配置解析记录进去进行所有权验证即可。
 
 ![a0ad1a7c2080f61f75e255b5a3786002.jpg](images/seo-onpage-deploy-promote/gefei-seo-onpage-deploy-promote_020.webp)
 
-验证之后，就可以去添加我们之前准备好的 sitemap文件，之后就等待谷歌爬虫光临就好了。
+验证之后，就可以去添加我们之前准备好的 sitemap 文件，之后就等待谷歌爬虫光临就好了。
 
 **4.2、别忘了放置流量统计代码**
 
@@ -306,7 +306,7 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 **4.3、吸引爬虫** 通过建立启动外链，吸引爬虫，可以尽快让搜索引擎收录我们的新网站。
 
-主要有 2 个办法。 1、找到谷歌爬虫经常光顾的网站，去发布帖子，宣传 如 V2EX.com就是一个不错的发布网站，可以去分享创造节点发布自己的网站，注意，介绍一定要真诚一点，不要敷衍了事。
+主要有 2 个办法。 1、找到谷歌爬虫经常光顾的网站，去发布帖子，宣传 如 V2EX.com 就是一个不错的发布网站，可以去分享创造节点发布自己的网站，注意，介绍一定要真诚一点，不要敷衍了事。
 
 2、在自己的老网站上增加友链 如果你有一些已经被收录的网站就最好了，在你的老网站里给新网站添加外链，也容易吸引到爬虫。
 
@@ -322,9 +322,9 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 5.3、提交到 ProductHunt 之后，把产品提交到 ProductHunt，能够带来真正意义上的第一波海外用户。
 
-因为我们的产品是 AI工具，所以会被各个 AI导航爬虫从 PH上自动抓取，收录，这样又能够从这些导航站获取一批用户。
+因为我们的产品是 AI 工具，所以会被各个 AI 导航爬虫从 PH 上自动抓取，收录，这样又能够从这些导航站获取一批用户。
 
-5.4、提交到导航网站 然后还可以提交到一些不会自动抓取，需要我们手动提交的 AI导航站，甚至有些付费的也可以试试提交，不过量力而行，太贵的就先不提交了。
+5.4、提交到导航网站 然后还可以提交到一些不会自动抓取，需要我们手动提交的 AI 导航站，甚至有些付费的也可以试试提交，不过量力而行，太贵的就先不提交了。
 
 到这一步，你已经有几批新用户过来了，需要观察一下用户使用情况，是否能够正常使用工具，是否会愿意分享工具，看看老用户有没有带新用户进来。
 
@@ -358,7 +358,7 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 我们先从我们能力范围内能做的网站开始做起，先把第一个网站做出来。
 
-能够从搜索引擎获取到免费的流量，能够从 Adsense赚到第一笔广告费，那就说明你入门了。
+能够从搜索引擎获取到免费的流量，能够从 Adsense 赚到第一笔广告费，那就说明你入门了。
 
 举例，去找需求的时候，先找搜索量小一些并且竞争度低的词，先按照这个操作方法，做一个网站，上线后从谷歌拿到流量再说。有了这样的正反馈之后，我们才会更有动力去投入进去做更难一点的词。
 
@@ -396,7 +396,7 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 **LFT** · 2025-06-12 14:25
 
-自己之前做过站，从 cloudflare看每月还有 2000 访问，但估计都是爬虫，必须从 google console 看才真实
+自己之前做过站，从 cloudflare 看每月还有 2000 访问，但估计都是爬虫，必须从 google console 看才真实
 
 **三球法术** · 2025-06-27 15:32
 
@@ -408,18 +408,18 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 **燚** · 2025-07-06 08:47
 
-1.  网站怎么开头？先搞清楚“人家到底想搜啥” • 别一上来就埋头写内容，先想清楚：用户搜这个词，是想找啥？工具？教程？服务？还是买东西？ • 你得对症下药，页面内容要能正好“接住”这些流量。
-2.  TDK是啥？就是“门面三件套” • Title（标题）：写得好，搜索引擎和用户都爱点你。比如豆瓣电影页，直接写电影名+豆瓣，人家有底气。你没底气？那就把用户关心的都写上，比如“主演/评分/票房”。 • Description（描述）：补充介绍，吸引人点进来。可以把没写进标题的内容放这里。 • Keywords（关键词）：现在基本没人管了，直接删掉也行，别堆太多。
-3.  网页结构要像写作文，分层分段 • h1：每页只能有一个，像作文题目，给人和搜索引擎看。 • h2、h3：分小节，分小点，能有条理。 • p：正文内容都放这里，图片也能放进来。 • img：图片要写 alt（描述），让搜索引擎知道你图里是啥，图片尽量大点，300x300 起步。
-4.  内链怎么做？像搭积木，层层递进 • 首页放主关键词，二级页面放二级词，三级页面放三级词。 • 每个页面都要能点回上一级，比如“可爱狗狗填色页”能点回“狗狗填色页”，“狗狗填色页”能点回“填色页”首页。 • 这样做，权重能层层传递，搜索引擎也能顺着爬。
-5.  首页内容怎么排？“分门别类罗列” • 就是把所有内容像超市货架一样分好类、列出来。 • 比如填色页网站，首页先 h1“填色页”，下面 h2“狗狗填色页”，h3“可爱狗狗填色页”，每个下面都放几张图，接着 h2“猫咪填色页”……依次类推。
-6.  后端渲染，别偷懒 • 所有内容都要直接写进 HTML里，别只靠前端 JS渲染。 • 搜索引擎爬虫喜欢“现成的饭”，不爱等你前端慢慢炒菜。 • 新网站尤其要老老实实后端渲染，别想着投机取巧。
-7.  URL唯一，别让搜索引擎迷路 • 一个页面可能有好几个网址能打开，但你得告诉搜索引擎“哪个才是正宫”。 • 用 canonical标签，指定唯一的标准 URL，别让权重分散。
-8.  域名和服务器怎么买？ • 域名推荐国外注册商：GoDaddy、Namecheap、Cloudflare、Porkbun等，国内也能买但不推荐出海用。 • 服务器随便选，阿里云、腾讯云、AWS、Google Cloud都行，做简单工具站还可以用 Vercel、Cloudflare Pages免费套餐。
-9.  部署上线流程像做饭 • 代码放 GitHub，Vercel自动构建，Cloudflare做 DNS解析，SSL证书全自动，几步搞定。 • 最后用 https访问，网站就上线了。
-10.  上线后要做啥？ • 提交网站到 Google Search Console，做 sitemap，等爬虫来抓。 • 加上 Google Analytics统计代码，随时看流量。 • 可以在高权重网站发帖、老站点加友链，吸引爬虫快点来。
-11.  推广怎么搞？ • 先在自己熟悉的渠道发一遍，拉来第一批用户，哪怕是亲戚朋友。 • 提交到科技周刊、导航站、ProductHunt等，能带来更多曝光。 • 社交平台主动找目标用户，真诚自荐，别怕被拒绝。
-12.  别幻想一夜暴富，慢慢来 • 网站刚上线，流量很少很正常，别灰心。 • 先做小词、冷门词，拿到第一波流量和广告费，积累信心。 • 谷歌依然是流量大海，方法对了，2 周就能见效果。
+1. 网站怎么开头？先搞清楚“人家到底想搜啥” • 别一上来就埋头写内容，先想清楚：用户搜这个词，是想找啥？工具？教程？服务？还是买东西？ • 你得对症下药，页面内容要能正好“接住”这些流量。
+2. TDK 是啥？就是“门面三件套” • Title（标题）：写得好，搜索引擎和用户都爱点你。比如豆瓣电影页，直接写电影名+豆瓣，人家有底气。你没底气？那就把用户关心的都写上，比如“主演/评分/票房”。 • Description（描述）：补充介绍，吸引人点进来。可以把没写进标题的内容放这里。 • Keywords（关键词）：现在基本没人管了，直接删掉也行，别堆太多。
+3. 网页结构要像写作文，分层分段 • h1：每页只能有一个，像作文题目，给人和搜索引擎看。 • h2、h3：分小节，分小点，能有条理。 • p：正文内容都放这里，图片也能放进来。 • img：图片要写 alt（描述），让搜索引擎知道你图里是啥，图片尽量大点，300x300 起步。
+4. 内链怎么做？像搭积木，层层递进 • 首页放主关键词，二级页面放二级词，三级页面放三级词。 • 每个页面都要能点回上一级，比如“可爱狗狗填色页”能点回“狗狗填色页”，“狗狗填色页”能点回“填色页”首页。 • 这样做，权重能层层传递，搜索引擎也能顺着爬。
+5. 首页内容怎么排？“分门别类罗列” • 就是把所有内容像超市货架一样分好类、列出来。 • 比如填色页网站，首页先 h1“填色页”，下面 h2“狗狗填色页”，h3“可爱狗狗填色页”，每个下面都放几张图，接着 h2“猫咪填色页”……依次类推。
+6. 后端渲染，别偷懒 • 所有内容都要直接写进 HTML 里，别只靠前端 JS 渲染。 • 搜索引擎爬虫喜欢“现成的饭”，不爱等你前端慢慢炒菜。 • 新网站尤其要老老实实后端渲染，别想着投机取巧。
+7. URL 唯一，别让搜索引擎迷路 • 一个页面可能有好几个网址能打开，但你得告诉搜索引擎“哪个才是正宫”。 • 用 canonical 标签，指定唯一的标准 URL，别让权重分散。
+8. 域名和服务器怎么买？ • 域名推荐国外注册商：GoDaddy、Namecheap、Cloudflare、Porkbun 等，国内也能买但不推荐出海用。 • 服务器随便选，阿里云、腾讯云、AWS、Google Cloud 都行，做简单工具站还可以用 Vercel、Cloudflare Pages 免费套餐。
+9. 部署上线流程像做饭 • 代码放 GitHub，Vercel 自动构建，Cloudflare 做 DNS 解析，SSL 证书全自动，几步搞定。 • 最后用 https 访问，网站就上线了。
+10. 上线后要做啥？ • 提交网站到 Google Search Console，做 sitemap，等爬虫来抓。 • 加上 Google Analytics 统计代码，随时看流量。 • 可以在高权重网站发帖、老站点加友链，吸引爬虫快点来。
+11. 推广怎么搞？ • 先在自己熟悉的渠道发一遍，拉来第一批用户，哪怕是亲戚朋友。 • 提交到科技周刊、导航站、ProductHunt 等，能带来更多曝光。 • 社交平台主动找目标用户，真诚自荐，别怕被拒绝。
+12. 别幻想一夜暴富，慢慢来 • 网站刚上线，流量很少很正常，别灰心。 • 先做小词、冷门词，拿到第一波流量和广告费，积累信心。 • 谷歌依然是流量大海，方法对了，2 周就能见效果。
 一句话总结： 做网站就像盖房子，地基（结构/SEO）要打牢，材料（内容/图片）要新鲜，水电（内链/URL）要通畅，装修（TDK/描述）要吸引人，最后还得自己出去吆喝（推广/外链），别指望一夜暴富，慢慢积累才是王道！
 
 **牛逼** · 2026-01-01 12:35
@@ -440,6 +440,6 @@ Vercel 和 CloudFlare 的免费套餐就足够用了，等流量上来了之后�
 
 **Traveling Light** · 2025-07-23 15:32
 
-**Ju火巨** · 2025-07-27 13:04
+**Ju 火巨** · 2025-07-27 13:04
 
 **匿名用户** · 2025-07-28 23:28

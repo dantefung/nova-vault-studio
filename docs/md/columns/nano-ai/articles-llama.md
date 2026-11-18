@@ -34,15 +34,15 @@ LLaMA
 
 >
 
->     GPT-2                    →   现代 LLM
+> GPT-2 → 现代 LLM
 
->     LayerNorm                →   RMSNorm      （EP1）
+> LayerNorm → RMSNorm （EP1）
 
->     GELU FFN                 →   SwiGLU       （EP2）
+> GELU FFN → SwiGLU （EP2）
 
->     可学习绝对位置向量        →   RoPE         （EP3）
+> 可学习绝对位置向量 → RoPE （EP3）
 
->     MHA                      →   GQA          （EP4）
+> MHA → GQA （EP4）
 
 >
 
@@ -60,7 +60,7 @@ LLaMA
 
 
 
-## 01先说结论：骨架没动，零件全换
+## 01 先说结论：骨架没动，零件全换
 
 
 
@@ -72,17 +72,17 @@ LLaMA
 
     # GPT-2 Block（推理篇 EP11）
 
-    x = x + attn(ln_1(x))      # LayerNorm → MHA（位置信息在进 Block 之前就加好了）
+    x = x + attn(ln_1(x)) # LayerNorm → MHA（位置信息在进 Block 之前就加好了）
 
-    x = x + mlp(ln_2(x))       # LayerNorm → GELU FFN
+    x = x + mlp(ln_2(x)) # LayerNorm → GELU FFN
 
 
 
     # LLaMA Block
 
-    x = x + attn(norm_1(x))    # RMSNorm → GQA（RoPE 在 attn 内部，对 q、k 旋转）
+    x = x + attn(norm_1(x)) # RMSNorm → GQA（RoPE 在 attn 内部，对 q、k 旋转）
 
-    x = x + mlp(norm_2(x))     # RMSNorm → SwiGLU
+    x = x + mlp(norm_2(x)) # RMSNorm → SwiGLU
 
 
 
@@ -104,7 +104,7 @@ LLaMA
 
 
 
-所以 LLaMA 并不是一个"全新架构"。**Transformer 的骨架一行没改，改的是骨架上挂的四个零件。** 这也是整个进阶篇「从 GPT-2 到 LLaMA」能成立的前提：GPT-2 吃透了，LLaMA 就只是一份"换件清单"。
+所以 LLaMA 并不是一个“全新架构”。**Transformer 的骨架一行没改，改的是骨架上挂的四个零件。** 这也是整个进阶篇「从 GPT-2 到 LLaMA」能成立的前提：GPT-2 吃透了，LLaMA 就只是一份“换件清单”。
 
 
 
@@ -112,7 +112,7 @@ LLaMA
 
 
 
-## 02逐个位置对照：零件装在哪
+## 02 逐个位置对照：零件装在哪
 
 
 
@@ -122,39 +122,39 @@ LLaMA
 
 
 
-             GPT-2                              LLaMA
+             GPT-2 LLaMA
 
-             ─────                              ─────
+             ───── ─────
 
-    token →  wte 查表                           embed_tokens 查表
+    token → wte 查表 embed_tokens 查表
 
-             + wpe 位置向量  ←────── 删掉 ────→  （没有这一步）
-
-
-
-    ┌ Block × N ──────────────────┐   ┌ Block × N ──────────────────┐
-
-    │ ln_1        LayerNorm       │   │ input_layernorm   RMSNorm    │ ← EP1
-
-    │ attn        MHA             │   │ self_attn         GQA        │ ← EP4
-
-    │                             │   │   └ q、k 上做 RoPE           │ ← EP3
-
-    │ + 残差                      │   │ + 残差                       │
-
-    │ ln_2        LayerNorm       │   │ post_attention_layernorm     │ ← EP1
-
-    │ mlp         GELU FFN        │   │ mlp               SwiGLU     │ ← EP2
-
-    │ + 残差                      │   │ + 残差                       │
-
-    └─────────────────────────────┘   └──────────────────────────────┘
+             + wpe 位置向量 ←────── 删掉 ────→ （没有这一步）
 
 
 
-             ln_f       LayerNorm               norm      RMSNorm       ← EP1
+    ┌ Block × N ──────────────────┐ ┌ Block × N ──────────────────┐
 
-             lm_head    （和 wte 共享权重）      lm_head   （独立权重）
+    │ ln_1 LayerNorm │ │ input_layernorm RMSNorm │ ← EP1
+
+    │ attn MHA │ │ self_attn GQA │ ← EP4
+
+    │ │ │ └ q、k 上做 RoPE │ ← EP3
+
+    │ + 残差 │ │ + 残差 │
+
+    │ ln_2 LayerNorm │ │ post_attention_layernorm │ ← EP1
+
+    │ mlp GELU FFN │ │ mlp SwiGLU │ ← EP2
+
+    │ + 残差 │ │ + 残差 │
+
+    └─────────────────────────────┘ └──────────────────────────────┘
+
+
+
+             ln_f LayerNorm norm RMSNorm ← EP1
+
+             lm_head （和 wte 共享权重） lm_head （独立权重）
 
 
 
@@ -168,7 +168,7 @@ LLaMA
 
 
 
-  * GPT-2 在最开头加一次位置向量，之后每一层靠残差把它"带下去"。
+  * GPT-2 在最开头加一次位置向量，之后每一层靠残差把它“带下去”。
 
   * LLaMA 开头什么都不加，而是在**每一层** 的注意力里，对 q、k 做一次旋转。
 
@@ -182,11 +182,11 @@ LLaMA
 
 
 
-## 03四个大零件之外，还有三处小改动
+## 03 四个大零件之外，还有三处小改动
 
 
 
-逐行对比时，还会发现三处不在"四大零件"里的差别。它们不值得单独开一期，但加载权重时都会碰到。
+逐行对比时，还会发现三处不在“四大零件”里的差别。它们不值得单独开一期，但加载权重时都会碰到。
 
 
 
@@ -218,7 +218,7 @@ GPT-2 有一张
 
 LLaMA 的 RoPE 是用公式算出来的 cos/sin，**没有任何可学习参数** 。配置文件里的 
 `max_position_embeddings`
- 只是"训练时用过的长度"，不是一张权重表的行数。
+ 只是“训练时用过的长度”，不是一张权重表的行数。
 
 
 
@@ -254,7 +254,7 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-## 04猫吃鱼：把一个"迷你 LLaMA"从头走到尾
+## 04 猫吃鱼：把一个“迷你 LLaMA”从头走到尾
 
 
 
@@ -262,7 +262,7 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-还是"猫吃鱼"，
+还是“猫吃鱼”，
 `d_model=4`
 。迷你配置取：
 
@@ -270,23 +270,23 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-    vocab_size   = 3      词表只有 猫、吃、鱼
+    vocab_size = 3 词表只有 猫、吃、鱼
 
-    d_model      = 4
+    d_model = 4
 
-    n_layers     = 2
+    n_layers = 2
 
-    n_heads      = 2      → head_dim = 4 / 2 = 2
+    n_heads = 2 → head_dim = 4 / 2 = 2
 
-    n_kv_heads   = 1      → 2 个 Q 头共用 1 份 KV
+    n_kv_heads = 1 → 2 个 Q 头共用 1 份 KV
 
-    ffn_hidden   = 3      沿用 SwiGLU 那期手算用的 h=3
-
-
+    ffn_hidden = 3 沿用 SwiGLU 那期手算用的 h=3
 
 
 
-> 为什么不沿用 GQA 那期的 4 个 Q 头？因为那样 head_dim=1，而 RoPE 是**两两配对旋转** 的，head_dim 必须是偶数。2 个头、head_dim=2 正好是"一对"，能转起来。这只是为了凑出能手算的最小配置。
+
+
+> 为什么不沿用 GQA 那期的 4 个 Q 头？因为那样 head_dim=1，而 RoPE 是**两两配对旋转** 的，head_dim 必须是偶数。2 个头、head_dim=2 正好是“一对”，能转起来。这只是为了凑出能手算的最小配置。
 
 
 
@@ -296,9 +296,9 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-    token id: [0, 1, 2]                        猫、吃、鱼
+    token id: [0, 1, 2] 猫、吃、鱼
 
-    embed_tokens 查表:   [3] → [3, 4]
+    embed_tokens 查表： [3] → [3, 4]
 
     （GPT-2 这里还要 + wpe，LLaMA 没有）
 
@@ -312,19 +312,19 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-    input_layernorm (RMSNorm):   [3, 4] → [3, 4]                     EP1
+    input_layernorm (RMSNorm): [3, 4] → [3, 4] EP1
 
 
 
-    q_proj:  [3, 4] → [3, 4] → 拆头 → [2, 3, 2]    2 个 Q 头
+    q_proj: [3, 4] → [3, 4] → 拆头 → [2, 3, 2] 2 个 Q 头
 
-    k_proj:  [3, 4] → [3, 2] → 拆头 → [1, 3, 2]    1 个 KV 头          EP4
+    k_proj: [3, 4] → [3, 2] → 拆头 → [1, 3, 2] 1 个 KV 头 EP4
 
-    v_proj:  [3, 4] → [3, 2] → 拆头 → [1, 3, 2]
+    v_proj: [3, 4] → [3, 2] → 拆头 → [1, 3, 2]
 
 
 
-    RoPE 旋转 q、k:  形状不变                                          EP3
+    RoPE 旋转 q、k: 形状不变 EP3
 
       head_dim=2 只有一对维度，频率 θ^0 = 1
 
@@ -336,19 +336,19 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-    repeat_kv:  k、v  [1, 3, 2] → [2, 3, 2]                           EP4
+    repeat_kv: k、v [1, 3, 2] → [2, 3, 2] EP4
 
-    scores = q @ kᵀ / √2:   [2, 3, 3]，加因果掩码，softmax
+    scores = q @ kᵀ / √2: [2, 3, 3]，加因果掩码，softmax
 
-    weights @ v:            [2, 3, 2]
+    weights @ v: [2, 3, 2]
 
-    拼接 2 个头:             [3, 4]
+    拼接 2 个头： [3, 4]
 
-    o_proj:                 [3, 4] → [3, 4]
+    o_proj: [3, 4] → [3, 4]
 
 
 
-    残差:  h = x + 上面的结果                 [3, 4]
+    残差： h = x + 上面的结果 [3, 4]
 
 
 
@@ -360,21 +360,21 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-    post_attention_layernorm (RMSNorm):   [3, 4] → [3, 4]             EP1
+    post_attention_layernorm (RMSNorm): [3, 4] → [3, 4] EP1
 
 
 
-    gate_proj:  [3, 4] → [3, 3]                                        EP2
+    gate_proj: [3, 4] → [3, 3] EP2
 
-    up_proj:    [3, 4] → [3, 3]
+    up_proj: [3, 4] → [3, 3]
 
-    SiLU(gate) * up:      [3, 3]
+    SiLU(gate) * up: [3, 3]
 
-    down_proj:  [3, 3] → [3, 4]
+    down_proj: [3, 3] → [3, 4]
 
 
 
-    残差:  out = h + 上面的结果               [3, 4]
+    残差： out = h + 上面的结果 [3, 4]
 
 
 
@@ -398,9 +398,9 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-    norm (RMSNorm):  [3, 4] → [3, 4]
+    norm (RMSNorm): [3, 4] → [3, 4]
 
-    lm_head:         [3, 4] → [3, 3]          每个位置对 3 个词的 logits
+    lm_head: [3, 4] → [3, 3] 每个位置对 3 个词的 logits
 
 
 
@@ -432,7 +432,7 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-## 05参数都去哪了
+## 05 参数都去哪了
 
 
 
@@ -452,21 +452,21 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-                        GPT-2 式 Block        LLaMA-3 8B Block
+                        GPT-2 式 Block LLaMA-3 8B Block
 
-    注意力              约 6713 万            约 4194 万     ↓ 37.5%
+    注意力 约 6713 万 约 4194 万 ↓ 37.5%
 
-      q / k / v / o     4096×4096 各一份      k、v 只有 4096×1024
+      q / k / v / o 4096×4096 各一份 k、v 只有 4096×1024
 
-    前馈                约 1.34 亿            约 1.76 亿     ↑ 31%
+    前馈 约 1.34 亿 约 1.76 亿 ↑ 31%
 
-      结构              2 个矩阵，4d 宽       3 个矩阵，3.5d 宽
+      结构 2 个矩阵，4d 宽 3 个矩阵，3.5d 宽
 
-    归一化              1.6 万                0.8 万
+    归一化 1.6 万 0.8 万
 
     ─────────────────────────────────────────────────────
 
-    合计                约 2.01 亿            约 2.18 亿
+    合计 约 2.01 亿 约 2.18 亿
 
 
 
@@ -488,15 +488,15 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 `2/3 × 4d`
 。LLaMA-1/2 的 7B 就是这么做的：
 `2/3 × 4 × 4096 ≈ 10923`
-，再向上取到 256 的倍数，得到 **11008** 。LLaMA-3 8B 则直接给到了 **14336** （3.5 倍），比"持平"还多了一截。
+，再向上取到 256 的倍数，得到 **11008** 。LLaMA-3 8B 则直接给到了 **14336** （3.5 倍），比“持平”还多了一截。
 
 
 
-> 这里只是陈述两个版本的配置差异。LLaMA-3 为什么把 FFN 加宽，Meta 没有单独解释过，不要脑补成"GQA 省下来的参数挪给了 FFN"这种因果关系。
+> 这里只是陈述两个版本的配置差异。LLaMA-3 为什么把 FFN 加宽，Meta 没有单独解释过，不要脑补成“GQA 省下来的参数挪给了 FFN”这种因果关系。
 
 
 
-整体规模再对一下数：32 个这样的 Block 是 69.8 亿，加上两份 5.25 亿的词表矩阵，总数 **约 80.3 亿** ，这就是"8B"的来历。作为对照，GPT-2 small 是 1.24 亿。
+整体规模再对一下数：32 个这样的 Block 是 69.8 亿，加上两份 5.25 亿的词表矩阵，总数 **约 80.3 亿** ，这就是“8B”的来历。作为对照，GPT-2 small 是 1.24 亿。
 
 
 
@@ -504,7 +504,7 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-## 06读懂 LLaMA 的配置文件
+## 06 读懂 LLaMA 的配置文件
 
 
 
@@ -516,29 +516,29 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-    "vocab_size":              128256    词表大小          推理篇 EP02 Tokenizer（GPT-2 是 50257）
+    "vocab_size": 128256 词表大小 推理篇 EP02 Tokenizer（GPT-2 是 50257）
 
-    "hidden_size":             4096      d_model           原系列 Embedding
+    "hidden_size": 4096 d_model 原系列 Embedding
 
-    "num_hidden_layers":       32        Block 堆几层      推理篇 EP12 堆叠
+    "num_hidden_layers": 32 Block 堆几层 推理篇 EP12 堆叠
 
-    "num_attention_heads":     32        Q 头数            原系列 多头注意力
+    "num_attention_heads": 32 Q 头数 原系列 多头注意力
 
-    "num_key_value_heads":     8         KV 头数           进阶篇「从 GPT-2 到 LLaMA」 EP4 GQA
+    "num_key_value_heads": 8 KV 头数 进阶篇「从 GPT-2 到 LLaMA」 EP4 GQA
 
-    "intermediate_size":       14336     SwiGLU 中间维度   进阶篇「从 GPT-2 到 LLaMA」 EP2
+    "intermediate_size": 14336 SwiGLU 中间维度 进阶篇「从 GPT-2 到 LLaMA」 EP2
 
-    "hidden_act":              "silu"    SwiGLU 的门       进阶篇「从 GPT-2 到 LLaMA」 EP2
+    "hidden_act": "silu" SwiGLU 的门 进阶篇「从 GPT-2 到 LLaMA」 EP2
 
-    "rms_norm_eps":            1e-05     RMSNorm 的 ε      进阶篇「从 GPT-2 到 LLaMA」 EP1
+    "rms_norm_eps": 1e-05 RMSNorm 的 ε 进阶篇「从 GPT-2 到 LLaMA」 EP1
 
-    "rope_theta":              500000.0  RoPE 的底数       进阶篇「从 GPT-2 到 LLaMA」 EP3
+    "rope_theta": 500000.0 RoPE 的底数 进阶篇「从 GPT-2 到 LLaMA」 EP3
 
-    "max_position_embeddings": 8192      训练用过的长度    （不是权重表）
+    "max_position_embeddings": 8192 训练用过的长度 （不是权重表）
 
-    "attention_bias":          false     注意力无 bias     本期第三节
+    "attention_bias": false 注意力无 bias 本期第三节
 
-    "tie_word_embeddings":     false     不共享词表矩阵    本期第三节
+    "tie_word_embeddings": false 不共享词表矩阵 本期第三节
 
 
 
@@ -560,7 +560,7 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 `num_key_value_heads`
 。** 如果它等于 
 `num_attention_heads`
-，就是普通 MHA。比如 LLaMA-2 7B 这一项是 32，和 Q 头数相同，说明它**没用 GQA** ；LLaMA-2 里只有 70B 这类大尺寸用了。到 LLaMA-3，8B 也换上了 GQA。所以"LLaMA 用 GQA"这句话要说清楚是哪一代、哪个尺寸。
+，就是普通 MHA。比如 LLaMA-2 7B 这一项是 32，和 Q 头数相同，说明它**没用 GQA** ；LLaMA-2 里只有 70B 这类大尺寸用了。到 LLaMA-3，8B 也换上了 GQA。所以“LLaMA 用 GQA”这句话要说清楚是哪一代、哪个尺寸。
 
 
 
@@ -568,7 +568,7 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 `rope_theta`
 。** EP3 里的频率是 
 `θ_i = base^(-2i/d)`
-，这个 base 默认是 10000，LLaMA-2 就是 10000。LLaMA-3 调到了 500000，底数越大，低频那几对维度转得越慢，"钟表的时针"走一圈要更久，能区分的距离就更远。这和长上下文直接相关，EP3 结尾预告过，这里先不展开。
+，这个 base 默认是 10000，LLaMA-2 就是 10000。LLaMA-3 调到了 500000，底数越大，低频那几对维度转得越慢，“钟表的时针”走一圈要更久，能区分的距离就更远。这和长上下文直接相关，EP3 结尾预告过，这里先不展开。
 
 
 
@@ -580,7 +580,7 @@ LLaMA-1/2/3 的主力尺寸都不共享，
 
 
 
-## 07一个类比：流水线没改，工位上的设备换了
+## 07 一个类比：流水线没改，工位上的设备换了
 
 
 
@@ -592,7 +592,7 @@ LLaMA 的升级，相当于**流水线的布局一点没动，只是把每个工
 
 
 
-  * **质检台** （归一化）：从"既校准中心又校准幅度"的老设备，换成"只校准幅度"的轻量设备。（RMSNorm）
+  * **质检台** （归一化）：从“既校准中心又校准幅度”的老设备，换成“只校准幅度”的轻量设备。（RMSNorm）
 
   * **主加工机** （FFN）：加了一个阀门，先判断这批料该放多少过去，再加工。（SwiGLU）
 
@@ -610,7 +610,7 @@ LLaMA 的升级，相当于**流水线的布局一点没动，只是把每个工
 
 
 
-## 08完整代码：一个能跑的迷你 LLaMA
+## 08 完整代码：一个能跑的迷你 LLaMA
 
 
 
@@ -674,7 +674,7 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
             self.eps = eps
 
-            self.weight = nn.Parameter(torch.ones(d))          # 只有缩放，没有偏移
+            self.weight = nn.Parameter(torch.ones(d)) # 只有缩放，没有偏移
 
 
 
@@ -716,13 +716,13 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
     def precompute_rope(head_dim, max_len, theta=10000.0):
 
-        inv_freq = 1.0 / (theta ** (torch.arange(0, head_dim, 2).float() / head_dim))  # [head_dim/2]
+        inv_freq = 1.0 / (theta ** (torch.arange(0, head_dim, 2).float() / head_dim)) # [head_dim/2]
 
         pos = torch.arange(max_len).float()
 
-        freqs = torch.outer(pos, inv_freq)                     # [max_len, head_dim/2]
+        freqs = torch.outer(pos, inv_freq) # [max_len, head_dim/2]
 
-        emb = torch.cat([freqs, freqs], dim=-1)                # [max_len, head_dim]
+        emb = torch.cat([freqs, freqs], dim=-1) # [max_len, head_dim]
 
         return emb.cos(), emb.sin()
 
@@ -808,15 +808,15 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
 
 
-            q = apply_rope(q, cos, sin)        # EP3：只转 q、k
+            q = apply_rope(q, cos, sin) # EP3：只转 q、k
 
-            k = apply_rope(k, cos, sin)        # v 不转
+            k = apply_rope(k, cos, sin) # v 不转
 
             # KV Cache 应该存在这里：旋转之后、repeat 之前
 
 
 
-            k = repeat_kv(k, self.n_rep)       # EP4
+            k = repeat_kv(k, self.n_rep) # EP4
 
             v = repeat_kv(v, self.n_rep)
 
@@ -828,9 +828,9 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
             scores = scores.masked_fill(mask, float("-inf"))
 
-            out = F.softmax(scores, dim=-1) @ v                   # [B, n_heads, T, head_dim]
+            out = F.softmax(scores, dim=-1) @ v # [B, n_heads, T, head_dim]
 
-            out = out.transpose(1, 2).contiguous().view(B, T, -1)  # [B, T, d_model]
+            out = out.transpose(1, 2).contiguous().view(B, T, -1) # [B, T, d_model]
 
             return self.o_proj(out)
 
@@ -858,7 +858,7 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
         def forward(self, x, cos, sin):
 
-            x = x + self.self_attn(self.input_layernorm(x), cos, sin)   # 和 GPT-2 同一个骨架
+            x = x + self.self_attn(self.input_layernorm(x), cos, sin) # 和 GPT-2 同一个骨架
 
             x = x + self.mlp(self.post_attention_layernorm(x))
 
@@ -884,13 +884,13 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
             self.norm = RMSNorm(cfg.d_model, cfg.eps)
 
-            self.lm_head = nn.Linear(cfg.d_model, cfg.vocab_size, bias=False)  # 不和 embed 共享
+            self.lm_head = nn.Linear(cfg.d_model, cfg.vocab_size, bias=False) # 不和 embed 共享
 
 
 
             cos, sin = precompute_rope(cfg.d_model // cfg.n_heads, cfg.max_len, cfg.rope_theta)
 
-            self.register_buffer("cos", cos, persistent=False)   # buffer：跟着 .to(device) 走，但不算参数
+            self.register_buffer("cos", cos, persistent=False) # buffer：跟着 .to(device) 走，但不算参数
 
             self.register_buffer("sin", sin, persistent=False)
 
@@ -898,15 +898,15 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
         def forward(self, idx):
 
-            x = self.embed_tokens(idx)                  # [B, T, d_model]
+            x = self.embed_tokens(idx) # [B, T, d_model]
 
             for layer in self.layers:
 
-                x = layer(x, self.cos, self.sin)        # 形状不变
+                x = layer(x, self.cos, self.sin) # 形状不变
 
             x = self.norm(x)
 
-            return self.lm_head(x)                      # [B, T, vocab_size]
+            return self.lm_head(x) # [B, T, vocab_size]
 
 
 
@@ -936,15 +936,15 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
 
 
-    idx = torch.tensor([[0, 1, 2]])          # 猫 吃 鱼
+    idx = torch.tensor([[0, 1, 2]]) # 猫 吃 鱼
 
     logits = model(idx)
 
-    print(logits.shape)                      # torch.Size([1, 3, 3])
+    print(logits.shape) # torch.Size([1, 3, 3])
 
 
 
-    print(sum(p.numel() for p in model.parameters()))   # 212
+    print(sum(p.numel() for p in model.parameters())) # 212
 
 
 
@@ -958,17 +958,17 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
     每个 Block：
 
-      q_proj 4×4=16，k_proj 4×2=8，v_proj 4×2=8，o_proj 4×4=16      → 48
+      q_proj 4×4=16，k_proj 4×2=8，v_proj 4×2=8，o_proj 4×4=16 → 48
 
-      gate/up/down 各 4×3=12                                           → 36
+      gate/up/down 各 4×3=12 → 36
 
-      两个 RMSNorm 各 4                                                → 8
+      两个 RMSNorm 各 4 → 8
 
       合计 92，两层 184
 
 
 
-    embed_tokens 3×4=12，lm_head 4×3=12，最后的 norm 4                → 28
+    embed_tokens 3×4=12，lm_head 4×3=12，最后的 norm 4 → 28
 
 
 
@@ -980,7 +980,7 @@ RoPE 这里采用 HuggingFace 的**前后半配对** 写法（
 
 cos/sin 是用 
 `register_buffer`
- 注册的，不计入参数，这也从代码层面印证了"RoPE 没有可学习参数"。
+ 注册的，不计入参数，这也从代码层面印证了“RoPE 没有可学习参数”。
 
 
 
@@ -992,7 +992,7 @@ cos/sin 是用
 
 
 
-## 09加载真实权重前，先把坑列出来
+## 09 加载真实权重前，先把坑列出来
 
 
 
@@ -1052,13 +1052,13 @@ cos/sin 是用
 
 
 
-## 10这一期的要点
+## 10 这一期的要点
 
 
 
   1. **LLaMA 的骨架和 GPT-2 相同** ：Pre-LN、残差、注意力 + 前馈两个子层、多层堆叠。变的是骨架上的零件。
 
-  2. **四个零件各就各位** ：两处归一化换成 RMSNorm，注意力换成 GQA，位置编码从"开头加一次"变成"每层对 q、k 旋转"的 RoPE，FFN 换成 SwiGLU。
+  2. **四个零件各就各位** ：两处归一化换成 RMSNorm，注意力换成 GQA，位置编码从“开头加一次”变成“每层对 q、k 旋转”的 RoPE，FFN 换成 SwiGLU。
 
   3. **还有三处小改动** ：去掉 bias、去掉位置向量表、embedding 和 lm_head 不共享。
 

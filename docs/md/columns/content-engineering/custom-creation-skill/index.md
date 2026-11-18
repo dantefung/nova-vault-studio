@@ -5,7 +5,7 @@ source: "Twitter / @qihang_zeng6688"
 url: "https://x.com/qihang_zeng6688/status/2102238692018401776"
 ---
 
-# 手把手教你创建一个专属于自己的创作Skill
+# 手把手教你创建一个专属于自己的创作 Skill
 
 如何创建自己的一个 X 创作 Skill，将过往发布内容沉淀为风格统一、可重复调用的创作 Agent。
 

@@ -21,10 +21,10 @@ Provisioning infrastructure using code is the key to scalable infra management.
 
 There are multiple strategies that can help:
 
-*   Containerization is one of the first strategies to make application deployments based on code. Docker is one of the most popular ways to containerize the application.
+* Containerization is one of the first strategies to make application deployments based on code. Docker is one of the most popular ways to containerize the application.
 
-*   Next, container orchestration becomes a necessity when dealing with multiple containers in an application. This is where container orchestration tools like Kubernetes become important.
+* Next, container orchestration becomes a necessity when dealing with multiple containers in an application. This is where container orchestration tools like Kubernetes become important.
 
-*   IaC treats infrastructure provisioning and configuration as code, allowing developers to define the application infrastructure in files that can be versioned, tested, and reused. Popular tools such as Terraform, AWS CloudFormation, and Ansible can be used. Ansible is more of a configuration tool.
+* IaC treats infrastructure provisioning and configuration as code, allowing developers to define the application infrastructure in files that can be versioned, tested, and reused. Popular tools such as Terraform, AWS CloudFormation, and Ansible can be used. Ansible is more of a configuration tool.
 
-*   GitOps leverages a Git workflow combined with CI/CD to automate infrastructure and configuration updates.
+* GitOps leverages a Git workflow combined with CI/CD to automate infrastructure and configuration updates.

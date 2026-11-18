@@ -38,8 +38,8 @@ fzf-tab 是一个能够极大提升 zsh 补全体验的插件。它通过 hook z
 **注意事项：** fzf-tab 对加载顺序有要求，推荐将它放在 `compinit` 之后、`zsh-autosuggestions` 和 `fast-syntax-highlighting` 和 `zsh-syntax-highlighting` 之前加载。大概就像这个样子（仍然以 zinit 为例）：
 
     autoload -Uz compinit; compinit # zinit 用户这里可能是 zpcompinit; zpcdreplay
-    zinit light Aloxaf/fzf-tab      # fzf-tab 放在中间加载
-    zinit light zsh-users/zsh-autosuggestions    # 然后再是自动建议和语法高亮
+    zinit light Aloxaf/fzf-tab # fzf-tab 放在中间加载
+    zinit light zsh-users/zsh-autosuggestions # 然后再是自动建议和语法高亮
     zinit light zdharma/fast-syntax-highlighting
 
 # 用法
@@ -48,8 +48,8 @@ fzf-tab 是一个能够极大提升 zsh 补全体验的插件。它通过 hook z
 
 借助 `fzf` 提供的一些妙妙功能，你除了按 `Enter` 直接让结果上屏以外，甚至还可以
 
-1.  按 `Ctrl+Space` 多选
-2.  按 `/` 在本次结果上屏以后立即开始下一次补全（主要用于补全长路径）
+1. 按 `Ctrl+Space` 多选
+2. 按 `/` 在本次结果上屏以后立即开始下一次补全（主要用于补全长路径）
 
 # 配置
 
@@ -59,9 +59,9 @@ fzf-tab 的目标是兼容 zsh 补全系统的所有配置，不过这个目标�
 
 如果将 zsh 的补全系统分为两部分：生成补全结果 和 展示补全结果。 那么在使用 fzf-tab 时，和“生成补全结果”相关的配置是可以生效的；而“展示补全结果”相关的配置，能不能生效就是一个未知数了（
 
-`fzf-tab` 目前主动对与“展示”相关的两个常见配置做了兼容:
+`fzf-tab` 目前主动对与“展示”相关的两个常见配置做了兼容：
 
-*   `descriptions`
+* `descriptions`
 
 用于设置不同补全“组”的描述文本
 
@@ -69,7 +69,7 @@ fzf-tab 的目标是兼容 zsh 补全系统的所有配置，不过这个目标�
 
 因为 fzf 本身并不支持分组的功能，所以 `fzf-tab` 目前采用了用不同颜色来区分不同组。
 
-*   `list-colors`
+* `list-colors`
 
 用于设置补全项的颜色，大部分人都是当成 LS\_COLORS 用
 

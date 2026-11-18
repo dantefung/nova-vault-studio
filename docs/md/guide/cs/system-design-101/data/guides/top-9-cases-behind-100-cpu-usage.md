@@ -17,12 +17,12 @@ The diagram below shows common culprits that can lead to 100% CPU usage. Underst
 
 ## Top 9 Causes of 100% CPU Usage
 
-*   Infinite Loops
-*   Background Processes
-*   High Traffic Volume
-*   Resource-Intensive Applications
-*   Insufficient Memory
-*   Concurrent Processes
-*   Busy Waiting
-*   Regular Expression Matching
-*   Malware and Viruses
+* Infinite Loops
+* Background Processes
+* High Traffic Volume
+* Resource-Intensive Applications
+* Insufficient Memory
+* Concurrent Processes
+* Busy Waiting
+* Regular Expression Matching
+* Malware and Viruses

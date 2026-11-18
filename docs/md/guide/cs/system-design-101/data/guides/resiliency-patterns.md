@@ -19,13 +19,13 @@ A minor error starts the snowball effect that keeps building up. Suddenly, every
 
 Here are 8 cloud design patterns to reduce the damage done by failures.
 
-*   Timeout
-*   Retry
-*   Circuit breaker
-*   Rate limiting
-*   Load shedding
-*   Bulkhead
-*   Back pressure
-*   Let it crash
+* Timeout
+* Retry
+* Circuit breaker
+* Rate limiting
+* Load shedding
+* Bulkhead
+* Back pressure
+* Let it crash
 
 These patterns are usually not used alone. To apply them effectively, we need to understand why we need them, how they work, and their limitations.

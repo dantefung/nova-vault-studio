@@ -3,7 +3,7 @@ title: "SkillShare（AI CLI Skills跨平台同步）"
 date: "2026-06-11"
 ---
 
-# SkillShare（AI CLI Skills跨平台同步）
+# SkillShare（AI CLI Skills 跨平台同步）
 
 > One source of truth for AI CLI skills, agents, rules, commands & more. Sync everywhere with one command — Codex, Claude Code, OpenClaw, OpenCode & 60+ more.
 

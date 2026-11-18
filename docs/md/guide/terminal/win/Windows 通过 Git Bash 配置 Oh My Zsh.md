@@ -1,5 +1,5 @@
 
-# Windows 环境Git bash 安装ZSH
+# Windows 环境 Git bash 安装 ZSH
 
 - [Windows 通过 Git Bash 配置 Oh My Zsh](https://www.seepine.com/git/oh-my-zsh/)
 
@@ -18,12 +18,12 @@
 
 ### 1. 下载 zsh
 
-*   方式一，下载 zsh-5.9-2-x86\_64zip
+* 方式一，下载 zsh-5.9-2-x86\_64zip
 
     > 此 zip 是我基于 zsh-5.9-2-x86\_64 解压 zst 后再压缩为 zip，方便大家在 windows 环境下直接使用
 
     [zsh-5.9-2-x86\_64.pkg.zip](https://www.seepine.com/git/oh-my-zsh/zsh-5.9-2-x86_64.pkg.zip)
-*   方式二，官网下载最新版
+* 方式二，官网下载最新版
 
     > 此方式下载的文件为 zst 类型，还需要安装对应解压软件
 
@@ -38,10 +38,10 @@
 
 解压 zsh 包后有两个目录
 
-*   zsh-5.x-x-x86\_64.pkg
+* zsh-5.x-x-x86\_64.pkg
 
-    *   etc
-    *   usr
+    * etc
+    * usr
 
 将 `etc` 和 `usr` 复制到 Git 安装目录，即 `C:\Program Files\Git` ，此目录原本也有 `etc` 和 `usr`，复制时若提示文件冲突，选择覆盖即可。
 
@@ -92,7 +92,7 @@
 
 ### 1.配置主题
 
-更改为ys，其他主题及效果可查看官网 [OhMyZsh Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+更改为 ys，其他主题及效果可查看官网 [OhMyZsh Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
     ZSH_THEME="ys"
 
@@ -100,10 +100,10 @@
 
 > 若网络不稳定，可在所有 Git 仓库前添加 `https://mirror.ghproxy.com/`
 
-*   zsh-syntax-highlighting 语法高亮
+* zsh-syntax-highlighting 语法高亮
 
         git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-*   zsh-autosuggestions 自动补全
+* zsh-autosuggestions 自动补全
 
         git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
@@ -131,6 +131,6 @@
 
 ![](https://www.seepine.com/git/oh-my-zsh/windows-terminal.jpg)
 
-## 六、配置IDEA、VsCode或其他IDE软件
+## 六、配置 IDEA、VsCode 或其他 IDE 软件
 
 自行在对应软件设置中配置默认终端为 Git Bash 即可

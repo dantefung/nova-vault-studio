@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/UIEzO9_w06iRB7qpULnIQA"
 
 # Shared Task List
 
-没有共享状态，"团队"就是一堆人各干各的。
+没有共享状态，“团队”就是一堆人各干各的。
 
 ## 共享任务列表三要素
 

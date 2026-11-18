@@ -7,7 +7,7 @@ url: ""
 
 # 哥飞社群每日群聊总结
 
-2026年7月哥飞社群每日讨论精华，涵盖 SEO 实战、AI 工具评测、支付合规、项目复盘等。
+2026 年 7 月哥飞社群每日讨论精华，涵盖 SEO 实战、AI 工具评测、支付合规、项目复盘等。
 
 ## 每日摘要
 
@@ -27,19 +27,19 @@ url: ""
 | 07-13 | [需求挖掘机引爆社群，外链自动化与支付踩坑成今日焦点](./2026-07-13-community-recap.md) |
 | 07-14 | [adsterra 暴跌惹众怒，argentinabout 再创爆款](./2026-07-14-community-recap.md) |
 | 07-15 | [外链实干与支付踩坑：从商业地址到垃圾外链的全日攻防](./2026-07-15-community-recap.md) |
-| 07-16 | [支付风暴与"画面先行"新打法，社群一天全记录](./2026-07-16-community-recap.md) |
+| 07-16 | [支付风暴与“画面先行”新打法，社群一天全记录](./2026-07-16-community-recap.md) |
 | 07-17 | [哥飞 SEO 工具 AI 化、Codex 爆肝与 Kimi K3 评测热](./2026-07-17-community-recap.md) |
 | 07-18 | [找词定赚钱，哥飞 SEO Agent 内测启动，游戏攻略站成热议焦点](./2026-07-18-community-recap.md) |
 | 07-19 | [北京线下面基燃爆，热点建站与高收入案例刷屏](./2026-07-19-community-recap.md) |
 | 07-20 | [Creem 支付大面积封号，SEO Agent 模型切换引热议](./2026-07-20-community-recap.md) |
 | 07-21 | [哥飞四城晚宴启程，SEO Agent 持续打磨](./2026-07-21-community-recap.md) |
-| 08-23 | [金果：做网站前3个月一分钱没赚，一年后他做到了月入万刀](./2026-08-23-jinguo-first-dollar.md) |
-| 09-09 | [19岁大学退学卖表情包素材起步，不到一年融资300万美元](./gefei-emoji-stickers-fund.md) |
-| 09-10 | [白天上班，晚上做网站，3个人4年做到年化收入3200万美元](./gefei-3people-32m-arr.md) |
-| 09-10 | [10年前王杨在seowhy学到双权重7，祝老师节日快乐](./wangyang-seowhy-double-pr7.md) |
-| 09-12 | [华强北卖家嫌客服邮件太多写了个工具，拿到6600万美元融资](./huaqiangbei-66m-fund.md) |
-| 09-13 | [网站出海每日分享（Aichuhai系列43篇）](./aichuhai-series/index.md) |
-| 09-14 | [放弃批量上站后，一个新站半个月来了1.2万访客](./new-site-12k-visitors-half-month.md) |
+| 08-23 | [金果：做网站前 3 个月一分钱没赚，一年后他做到了月入万刀](./2026-08-23-jinguo-first-dollar.md) |
+| 09-09 | [19 岁大学退学卖表情包素材起步，不到一年融资 300 万美元](./gefei-emoji-stickers-fund.md) |
+| 09-10 | [白天上班，晚上做网站，3 个人 4 年做到年化收入 3200 万美元](./gefei-3people-32m-arr.md) |
+| 09-10 | [10 年前王杨在 seowhy 学到双权重 7，祝老师节日快乐](./wangyang-seowhy-double-pr7.md) |
+| 09-12 | [华强北卖家嫌客服邮件太多写了个工具，拿到 6600 万美元融资](./huaqiangbei-66m-fund.md) |
+| 09-13 | [网站出海每日分享（Aichuhai 系列 43 篇）](./aichuhai-series/index.md) |
+| 09-14 | [放弃批量上站后，一个新站半个月来了 1.2 万访客](./new-site-12k-visitors-half-month.md) |
 
 ---
 

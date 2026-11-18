@@ -56,7 +56,7 @@ AI Coding Agent 时代，我自己最常用的 4 个终端工具
 
 
 
-工具用途Yazi管理项目，查看和编辑文件Lazygit操作 gitbat快速查看代码，替代 cat
+工具用途 Yazi 管理项目，查看和编辑文件 Lazygit 操作 gitbat 快速查看代码，替代 cat
 
 
 
@@ -148,7 +148,7 @@ markdown 文件没有装单独的命令行来查看，这几个终端都支持�
 
 
 
-往期推荐 						    AI Coding 果然会降低软件质量我做了一个 比小龙虾/workbuddy 更适合自己的用 Agent减脂用微信零碎记录饮食，剩下的交给 Agent
+往期推荐 						    AI Coding 果然会降低软件质量我做了一个 比小龙虾/workbuddy 更适合自己的用 Agent 减脂用微信零碎记录饮食，剩下的交给 Agent
 
 
 
@@ -164,11 +164,11 @@ markdown 文件没有装单独的命令行来查看，这几个终端都支持�
 
 
 
-AI Coding 果然会降低软件质量我做了一个 比小龙虾/workbuddy 更适合自己的用 Agent减脂用微信零碎记录饮食，剩下的交给 Agent
+AI Coding 果然会降低软件质量我做了一个 比小龙虾/workbuddy 更适合自己的用 Agent 减脂用微信零碎记录饮食，剩下的交给 Agent
 
 
 
-AI Coding 果然会降低软件质量我做了一个 比小龙虾/workbuddy 更适合自己的用 Agent减脂用微信零碎记录饮食，剩下的交给 Agent
+AI Coding 果然会降低软件质量我做了一个 比小龙虾/workbuddy 更适合自己的用 Agent 减脂用微信零碎记录饮食，剩下的交给 Agent
 
 
 

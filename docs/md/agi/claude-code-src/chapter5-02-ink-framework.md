@@ -43,10 +43,10 @@ src/ink/
 
 布局计算流程：
 
-1.   根据 DOMNode 树创建 Yoga 节点树
-2.   设置样式属性（flexDirection、alignItems、justifyContent、padding、margin 等）
-3.   Yoga 计算布局
-4.   提取每个节点的 `{ x, y, width, height }` 布局结果
+1. 根据 DOMNode 树创建 Yoga 节点树
+2. 设置样式属性（flexDirection、alignItems、justifyContent、padding、margin 等）
+3. Yoga 计算布局
+4. 提取每个节点的 `{ x, y, width, height }` 布局结果
 
 ## 渲染管道详解 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/ui/ink-framework.html#%E6%B8%B2%E6%9F%93%E7%AE%A1%E9%81%93%E8%AF%A6%E8%A7%A3)
 
@@ -70,10 +70,10 @@ src/ink/
 
 主要功能：
 
-*   **创建节点**：创建 `DOMNode`（含 `type`、`props`、`children`、`yogaNode`）
-*   **创建文本节点**：创建 `TextNode`（`{ type: '#text', value }`）
-*   **子节点管理**：追加/插入/移除子节点，同步更新 Yoga 布局树
-*   **属性更新**：更新节点属性并重新应用样式
+* **创建节点**：创建 `DOMNode`（含 `type`、`props`、`children`、`yogaNode`）
+* **创建文本节点**：创建 `TextNode`（`{ type: '#text', value }`）
+* **子节点管理**：追加/插入/移除子节点，同步更新 Yoga 布局树
+* **属性更新**：更新节点属性并重新应用样式
 
 共约 30 个 Reconciler 方法实现。
 

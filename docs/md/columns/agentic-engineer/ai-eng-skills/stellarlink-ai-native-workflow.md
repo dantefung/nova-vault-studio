@@ -6,7 +6,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/D9J9bu5loSFEm8k98aUN1A"
 ---
 
-# 2026年 我的 AI-Native 软件开发工作流
+# 2026 年 我的 AI-Native 软件开发工作流
 
 # 我的 AI-Native 软件开发工作流
 
@@ -86,7 +86,7 @@ VDD 是我采用的验证驱动开发方法，贯穿整个流程。写需求时�
 
 另一种方式是本地文件：spec 和 tickets 放在仓库里，执行者直接读取文件推进。这时需要自己区分开发、测试和生产环境，隔离并行任务的数据、端口和进程，并配置本地检查与 CI 入口。把任务放进 Markdown，不会自动获得这些能力。
 
-为了保留 issue、PR 的协作方式，又减少远程往返，我开发了 git-forge。它把 issue、PR 等记录保存在本地 Git 的refs/forge/*事件链中，PR 使用不可变快照，合并需要 Review 批准和 CI 成功。它运行项目配置的本地检查命令，不是远程 CI 平台的完整替代品，forge 状态也不会随普通的 push、pull 自动同步。
+为了保留 issue、PR 的协作方式，又减少远程往返，我开发了 git-forge。它把 issue、PR 等记录保存在本地 Git 的 refs/forge/*事件链中，PR 使用不可变快照，合并需要 Review 批准和 CI 成功。它运行项目配置的本地检查命令，不是远程 CI 平台的完整替代品，forge 状态也不会随普通的 push、pull 自动同步。
 
 两种方式的差别主要是基础设施，不是工程纪律。远程有 CI，不代表可以跳过验收；本地没有远程，也不代表可以直接改主分支。
 

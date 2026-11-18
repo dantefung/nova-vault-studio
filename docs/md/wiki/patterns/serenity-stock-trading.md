@@ -43,7 +43,7 @@ npx skills add destiny520537work-lab/stock-skill
 ## Related Pages
 
 - [patterns/serenity-stock-research](patterns/serenity-stock-research) — 供应链卡点投研
-- [patterns/ai-wealth-creation](patterns/ai-wealth-creation) — AI创富模式
+- [patterns/ai-wealth-creation](patterns/ai-wealth-creation) — AI 创富模式
 
 ## Sources
 

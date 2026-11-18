@@ -155,7 +155,6 @@ IP 验证正常后：
 5. Agent Memory 架构全景：从规则文件、会话检索到反思与技能沉淀 https://x.com/wquguru/status/2069641926752780384
 6. 成瘾者：色情、赌博与 Vibe Coding https://x.com/wquguru/status/2022173077329871138
 
-如果这篇教程对你有帮助，欢迎 关注 + 收藏 + 转发 👏🏻
 
 持续分享新手友好的 AI Agent 教程和 AI 工具使用心得，关注 [@wquguru](https://x.com/intent/follow?screen_name=wquguru)
 

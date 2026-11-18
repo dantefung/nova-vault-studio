@@ -10,7 +10,7 @@ url: "https://x.com/AndyL5cc/status/2100900528482062714"
 
 ![](../images/andyl5cc-xiaohongshu-codex-workflow/001.webp)
 
-答应大家的 X涨到2000 粉，分享小红书起号攻略，来交作业了。
+答应大家的 X 涨到 2000 粉，分享小红书起号攻略，来交作业了。
 
 先说结果：
 

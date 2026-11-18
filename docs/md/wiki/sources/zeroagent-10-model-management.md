@@ -6,7 +6,7 @@ author: "从码农到工匠"
 url: "https://mp.weixin.qq.com/s/goxd0IVzN0fMXMHugzuwRQ"
 ---
 
-# 从零构建 Agent（十）：Model管理
+# 从零构建 Agent（十）：Model 管理
 
 > 本文是「从零构建 Agent」系列的第 10 篇：Model 管理。
 > 核心：**通用 Agent 不应被单一模型或供应商绑定**。本文用 `auth.json` / `models-config.json` / `settings.json` 三个用户级配置文件统一管理 Provider 鉴权、Model 定义与运行状态，按 model 动态路由客户端并支持运行时切换与 Session 状态持久化，最后借助 OpenSpec 走完一轮完整的 SDD（规格驱动开发）流程。

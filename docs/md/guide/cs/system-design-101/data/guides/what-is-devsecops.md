@@ -19,22 +19,22 @@ The diagram below shows the important concepts in DevSecOps.
 
 ## Key Concepts in DevSecOps
 
-*   Automated Security Checks
+* Automated Security Checks
 
-*   Continuous Monitoring
+* Continuous Monitoring
 
-*   CI/CD Automation
+* CI/CD Automation
 
-*   Infrastructure as Code (IaC)
+* Infrastructure as Code (IaC)
 
-*   Container Security
+* Container Security
 
-*   Secret Management
+* Secret Management
 
-*   Threat Modeling
+* Threat Modeling
 
-*   Quality Assurance (QA) Integration
+* Quality Assurance (QA) Integration
 
-*   Collaboration and Communication
+* Collaboration and Communication
 
-*   Vulnerability Management
+* Vulnerability Management

@@ -3,7 +3,7 @@ title: "Claude Cookbooks（Anthropic官方使用菜谱集）"
 date: "2026-06-11"
 ---
 
-# Claude Cookbooks（Anthropic官方使用菜谱集）
+# Claude Cookbooks（Anthropic 官方使用菜谱集）
 
 > A collection of notebooks/recipes showcasing some fun and effective ways of using Claude. 44.9k Stars，Anthropic 官方出品。
 
@@ -61,7 +61,7 @@ claude-cookbooks/
 ## Related Pages
 
 - [patterns/prompt-engineering](patterns/prompt-engineering) — Prompt 工程模式
-- [products/codex-skills](products/codex-skills) — Codex Skills精选列表
+- [products/codex-skills](products/codex-skills) — Codex Skills 精选列表
 
 ## Sources
 

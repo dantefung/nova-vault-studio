@@ -40,7 +40,7 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
 ![image.png](images/metadata2go-keyword-match/img_006.webp)
 
-让我们点击"所有关键词"，展开看看。
+让我们点击“所有关键词”，展开看看。
 
 ![image.png](images/metadata2go-keyword-match/img_007.webp)
 
@@ -48,7 +48,7 @@ url: "https://new.web.cafe/tutorial/detail/b254a82f18044a6cbf5b418643d8f2ae"
 
 果然是首页命中了很多个关键词，所以平均每一个关键词带来的流量都不大。
 
-这跟哥飞说的"一个关键词做一个页面原则"好像有冲突？
+这跟哥飞说的“一个关键词做一个页面原则”好像有冲突？
 
 先留着这个疑问，我们继续往下看。
 

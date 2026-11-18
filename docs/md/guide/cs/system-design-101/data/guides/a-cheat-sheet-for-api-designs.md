@@ -23,17 +23,17 @@ We normally generate one unique app ID for each client and generate different pa
 
 Signatures are used to verify the authenticity and integrity of API requests. They are generated using the secret key and typically involve the following steps:
 
-*   Collect parameters
-*   Create a string to sign
-*   Hash the string: Use a cryptographic hash function, like HMAC (Hash-based Message Authentication Code) in combination with SHA-256, to hash the string using the secret key.
-*   Send the requests
+* Collect parameters
+* Create a string to sign
+* Hash the string: Use a cryptographic hash function, like HMAC (Hash-based Message Authentication Code) in combination with SHA-256, to hash the string using the secret key.
+* Send the requests
 
 When designing an API, deciding what should be included in HTTP request parameters is crucial. Include the following in the request parameters:
 
-*   Authentication Credentials
-*   Timestamp: To prevent replay attacks.
-*   Request-specific Data: Necessary to process the request, such as user IDs, transaction details, or search queries.
-*   Nonces: Randomly generated strings included in each request to ensure that each request is unique and to prevent replay attacks.
+* Authentication Credentials
+* Timestamp: To prevent replay attacks.
+* Request-specific Data: Necessary to process the request, such as user IDs, transaction details, or search queries.
+* Nonces: Randomly generated strings included in each request to ensure that each request is unique and to prevent replay attacks.
 
 ## Security guidelines
 

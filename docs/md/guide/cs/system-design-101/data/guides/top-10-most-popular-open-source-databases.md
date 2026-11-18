@@ -17,13 +17,13 @@ This list is based on factors like adoption, industry impact, and the general aw
 
 ## Top 10 Most Popular Open-Source Databases
 
-*   MySQL
-*   PostgreSQL
-*   MariaDB
-*   Apache Cassandra
-*   Neo4j
-*   SQLite
-*   CockroachDB
-*   Redis
-*   MongoDB
-*   Couchbase
+* MySQL
+* PostgreSQL
+* MariaDB
+* Apache Cassandra
+* Neo4j
+* SQLite
+* CockroachDB
+* Redis
+* MongoDB
+* Couchbase

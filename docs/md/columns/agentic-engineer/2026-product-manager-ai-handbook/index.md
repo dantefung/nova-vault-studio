@@ -5,7 +5,7 @@ source: "Twitter / @run_maotui"
 url: "https://x.com/run_maotui/status/2100157320944881776"
 ---
 
-# 深度长文｜2026产品经理AI实践手册
+# 深度长文｜2026 产品经理 AI 实践手册
 
 AI 正在重新组织产品经理的工作方式。最开始，我只让它帮忙做一些具体任务：写 PPT、整理材料、改方案。后来，我开始把它放进真实的工作场景：基于一个已有产品，参与新功能的需求分析、原型设计和 PRD 编写。
 
@@ -15,7 +15,7 @@ AI 正在重新组织产品经理的工作方式。最开始，我只让它帮�
 
 **项目初始化 → 市场分析 → 需求调研 → 需求分析 → 原型 → PRD → 需求评审 → 研发 → 测试上线 → 运营反馈**
 
-文末还有我实践后总结的 **3大心法** 和 **产品项目初始化prompt** 。
+文末还有我实践后总结的 **3 大心法** 和 **产品项目初始化 prompt** 。
 
 开始之前：先给 Agent 一个产品项目
 
@@ -79,7 +79,7 @@ AI 输出的是它根据现有信息整理出来的答案，不能直接当作�
 
 同一个问题换几个 AI 去问，结果经常不一样。我之前调研 Agent 用户量时，就把同一个问题分别交给 GPT、Gemini、Grok、DeepSeek 和豆包，得到的数字经常对不上。
 
-![不同AI对同一个问题的回答对比](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img2.webp)
+![不同 AI 对同一个问题的回答对比](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img2.webp)
 
 现在做市场分析，我会先让它们尽可能找全资料，再回到原始来源判断。公司官方数据、财报、行业研究报告、App 日活和月活追踪网站、权威媒体，都可以成为线索。
 
@@ -119,7 +119,7 @@ AI 可以处理已经被表达出来的信息。产品经理仍然要负责找�
 - 返回哪些成功、哪些失败；
 - 每一条失败的具体原因；
 - 各种异常状态和反馈逻辑。
-![最后AI给的复杂方案](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img4.webp)
+![最后 AI 给的复杂方案](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img4.webp)
 
 每一项单独拿出来都挺合理。但加在一起，一个原本简单的修改功能就被越做越复杂。
 
@@ -145,9 +145,9 @@ AI 可以给建议、补细节、找遗漏，但哪些内容最终进入需求�
 
 我的要求很简单：最终留下来的每一个关键设计，我都要能讲清楚为什么。
 
-可以看我的产品上一个版本设计，需要和AI对齐的需求包有20个共100多个需求点，如下图：
+可以看我的产品上一个版本设计，需要和 AI 对齐的需求包有 20 个共 100 多个需求点，如下图：
 
-![需要和AI澄清的需求列表](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img5.webp)
+![需要和 AI 澄清的需求列表](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img5.webp)
 
 4\. 原型设计：先把设计约束交代清楚
 
@@ -157,7 +157,7 @@ AI 可以给建议、补细节、找遗漏，但哪些内容最终进入需求�
 
 没提供设计约束之前：
 
-![没加约束 AI给的原型](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img6.webp)
+![没加约束 AI 给的原型](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img6.webp)
 
 提供设计约束之后：
 
@@ -189,7 +189,7 @@ AI 能帮忙写文档已经不新鲜了。我现在更关心的是另外两个�
 
 同一份结构化内容，我现在会生成一份适合人阅读的 PRD，也可以保留一份信息更完整的 Markdown，给研发和测试的 Agent 继续使用。
 
-![给人看的和给AI看的PRD](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img9.webp)
+![给人看的和给 AI 看的 PRD](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img9.webp)
 
 过去，PRD 主要解决人与人之间的交接。以后，它还要承担人与 AI、AI 与 AI 之间的信息交接。
 
@@ -247,7 +247,7 @@ AI 能帮忙写文档已经不新鲜了。我现在更关心的是另外两个�
 
 AI 可以整理和推荐，最终优先级仍然由产品经理决定。
 
-![和AI一起维护的需求池](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img11.webp)
+![和 AI 一起维护的需求池](images/2026-product-manager-ai-handbook/2026-product-manager-ai-handbook-img11.webp)
 
 到这里，整个流程才算闭环：上线后的反馈，重新成为下一轮需求的输入。
 
@@ -302,6 +302,6 @@ AI 时代，产品经理的核心竞争力是：
 
 **附录：**
 
-1、《产品项目初始化Prompt：让Agent参与产品全流程》(https://x.com/run_maotui/status/2100156767137415210)
+1、《产品项目初始化 Prompt：让 Agent 参与产品全流程》(https://x.com/run_maotui/status/2100156767137415210)
 
 2、文章配图来自：Punk Skill(https://github.com/adrianpunk/Punk-Skill)

@@ -25,7 +25,7 @@ bindkey -v
 
 ### 使用插件增强功能
 
-虽然内置模式是可用的，但它缺少一些高级 Vim 功能，如视觉模式指示符或无缝的系统剪贴板集成。插件可以提供更全面和"友好"的 Vim 体验。
+虽然内置模式是可用的，但它缺少一些高级 Vim 功能，如视觉模式指示符或无缝的系统剪贴板集成。插件可以提供更全面和“友好”的 Vim 体验。
 
 **常见选项包括：**
 
@@ -33,9 +33,9 @@ bindkey -v
 
 - Oh My Zsh 的 vi-mode 插件：如果你使用 Oh My Zsh 框架，可以通过在 ~/.zshrc 文件中的 plugins 数组中添加 `vi-mode` 来启用其官方 vi-mode 插件。
 
-- `sharat87/zsh-vim-mode`：提供"合理的绑定"使行为更一致地类似于 Vim。 
+- `sharat87/zsh-vim-mode`：提供“合理的绑定”使行为更一致地类似于 Vim。 
 
-## zsh插件
+## zsh 插件
 ### 提示（Prompt）插件
 
 - Powerlevel10k：基于 Oh My Zsh 或原生 zsh 的高级主题，显示 Git 状态、命令时长、当前目录等信息。安装通常需要 Powerline/Nerd 字体，安装后运行 `p10k configure` 进行交互式配置。

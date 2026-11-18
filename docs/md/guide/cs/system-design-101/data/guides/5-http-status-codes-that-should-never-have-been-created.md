@@ -13,8 +13,8 @@ tags:
 
 ![](https://assets.bytebytego.com/diagrams/0232-http-status-code-shouldnt-exist.png)
 
-*   **451 Unavailable for Legal Reasons:** Access denied due to legal issues.
-*   **218 This is Fine:** Inspired by the meme, bypasses server error overrides.
-*   **420 Enhance Your Calm:** Twitter’s old code for exceeding rate limits. Now changed to 429.
-*   **530 Site Frozen:** Used by Pantheon for locked sites, often unpaid bills.
-*   **418 I'm a Teapot:** A classic April Fool's joke indicating a server's limitations.
+* **451 Unavailable for Legal Reasons:** Access denied due to legal issues.
+* **218 This is Fine:** Inspired by the meme, bypasses server error overrides.
+* **420 Enhance Your Calm:** Twitter’s old code for exceeding rate limits. Now changed to 429.
+* **530 Site Frozen:** Used by Pantheon for locked sites, often unpaid bills.
+* **418 I'm a Teapot:** A classic April Fool's joke indicating a server's limitations.

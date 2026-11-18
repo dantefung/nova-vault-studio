@@ -6,7 +6,7 @@ url: "https://raw.githubusercontent.com/Daotin/obsidian-notes/main/Obsidian使�
 ---
 
 ## 内部链接
-- 页面引用：`[[xxx]]`  
+- 页面引用：`[[xxx]]` 
 - 标题引用：`[[Topic#背景]]`
 - 别名引用：`[[Topic|新的名称]]`
 - 嵌入引用
@@ -24,30 +24,30 @@ url: "https://raw.githubusercontent.com/Daotin/obsidian-notes/main/Obsidian使�
 
 ## Callout（呼叫框）
 
-> [!warning] 这是一个callout标题
-> 这里是callout里的内容
+> [!warning] 这是一个 callout 标题
+> 这里是 callout 里的内容
 > [[#20 Callout blocks|callout]]内部支持双链
-> - 同样支持==MD语法==
+> - 同样支持==MD 语法==
 > ```js
 > console.log(111)
 > ```
 
-默认共支持**12种**类别 （可自己在 **Admonitions插件** 里添加）
+默认共支持**12 种**类别 （可自己在 **Admonitions 插件** 里添加）
 
 参考：[Obsidian Callouts](https://notes.nicolevanderhoeven.com/Obsidian+Callouts)
 
-1.  note
-2.  abstract, summary, tldr
-3.  info, todo
-4.  tip, hint, important
-5.  success, check, done
-6.  question, help, faq
-7.  warning, caution, attention
-8.  failure, fail, missing
-9.  danger, error
-10.  bug
-11.  example
-12.  quote, cite
+1. note
+2. abstract, summary, tldr
+3. info, todo
+4. tip, hint, important
+5. success, check, done
+6. question, help, faq
+7. warning, caution, attention
+8. failure, fail, missing
+9. danger, error
+10. bug
+11. example
+12. quote, cite
 
 |Callout 类型|说明|
 |---|---|
@@ -61,7 +61,7 @@ url: "https://raw.githubusercontent.com/Daotin/obsidian-notes/main/Obsidian使�
 ## 折叠与展开
 
 > [!note]+ 这是一个可折叠的标题
-> 这里的内容可通过点击 **Callouts标题** 折叠起来
+> 这里的内容可通过点击 **Callouts 标题** 折叠起来
 
 
 ### 多层嵌套
@@ -109,7 +109,7 @@ Obsidian 在标准 Markdown 的基础上扩展了许多功能，使其更适用�
 
 **渲染效果：**
 
-> [!TIP] 这是一个技巧  
+> [!TIP] 这是一个技巧 
 > 你可以在这里写任何内容，包括 Markdown 语法！
 
 ---
@@ -154,7 +154,7 @@ Obsidian 在标准 Markdown 的基础上扩展了许多功能，使其更适用�
 ==高亮文本==
 ```
 
-**渲染效果：**  
+**渲染效果：** 
 ==高亮文本==
 
 ---
@@ -170,8 +170,8 @@ Obsidian 在标准 Markdown 的基础上扩展了许多功能，使其更适用�
 
 **渲染效果（可点击切换状态）：**
 
-- [ ]  任务 1
-- [x]  已完成任务
+- [ ] 任务 1
+- [x] 已完成任务
 
 ---
 
@@ -185,7 +185,7 @@ E = mc^2
 $$
 ```
 
-**渲染效果：**  
+**渲染效果：** 
 E=mc2E = mc^2
 
 ---
@@ -270,19 +270,19 @@ SORT file.ctime DESC
 ---
 
 ## **总结：Obsidian Markdown 扩展 vs 标准 Markdown**
-| 扩展功能                   | Obsidian | 标准 Markdown  |
+| 扩展功能 | Obsidian | 标准 Markdown |
 | ---------------------- | -------- | ------------ |
-| **Callout（呼叫框）**       | ✅        | ❌            |
-| **内部链接 `[[...]]`**     | ✅        | ❌            |
-| **笔记/文件嵌入 `![[...]]`** | ✅        | ❌            |
-| **高亮文本 `==...==`**     | ✅        | ❌            |
-| **可交互任务列表 `- [ ]`**    | ✅        | 部分支持（GitHub） |
-| **数学公式 `$$...$$`**     | ✅（KaTeX） | ❌            |
-| **块引用 `[[...^ID]]`**   | ✅        | ❌            |
-| **YAML Front Matter**  | ✅        | ✅（部分支持）      |
-| **Mermaid 图表**         | ✅        | ❌（需插件）       |
-| **Dataview 查询**        | ✅（插件）    | ❌            |
-| **Canvas（画布）**         | ✅        | ❌            |
+| **Callout（呼叫框）** | ✅ | ❌ |
+| **内部链接 `[[...]]`** | ✅ | ❌ |
+| **笔记/文件嵌入 `![[...]]`** | ✅ | ❌ |
+| **高亮文本 `==...==`** | ✅ | ❌ |
+| **可交互任务列表 `- [ ]`** | ✅ | 部分支持（GitHub） |
+| **数学公式 `$$...$$`** | ✅（KaTeX） | ❌ |
+| **块引用 `[[...^ID]]`** | ✅ | ❌ |
+| **YAML Front Matter** | ✅ | ✅（部分支持） |
+| **Mermaid 图表** | ✅ | ❌（需插件） |
+| **Dataview 查询** | ✅（插件） | ❌ |
+| **Canvas（画布）** | ✅ | ❌ |
 
 ---
 **📌 结论**

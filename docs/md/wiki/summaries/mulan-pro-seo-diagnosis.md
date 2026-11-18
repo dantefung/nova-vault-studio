@@ -36,7 +36,7 @@ url: "https://mp.weixin.qq.com/s/SadERYNN9BmRHJtgCbW8Ag"
 ### 4. 不存在的 URL 也被跳回首页（soft 404）
 
 - 访问 `/this-page-should-not-exist-xyz123` 返回 200，哈希与首页一致
-- 所有错误地址都跳回首页，告诉搜索引擎"页面正常存在"
+- 所有错误地址都跳回首页，告诉搜索引擎“页面正常存在”
 - 应返回 404 或 410
 
 ### 5. 测试环境已进入 Google

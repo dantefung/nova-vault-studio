@@ -43,7 +43,7 @@ flowchart TD
 
 ## 2. Loop Engineering：让系统学会循环进化
 
-> **核心口号**：*Build once. Evolve continuously. Loop. Improve. Repeat.*  
+> **核心口号**：*Build once. Evolve continuously. Loop. Improve. Repeat.* 
 > **核心跃迁**：**不再手写提示词，设计一个替你写提示词的系统。从「写提示词」走向「设计循环」。**
 
 ### 2.1 循环进化的四大支柱

@@ -21,24 +21,24 @@ A VPN acts as a tunnel through which the encrypted data goes from one location t
 
 A VPN works in 4 steps:
 
-*   Step 1 - Establish a secure tunnel between our device and the VPN server.
+* Step 1 - Establish a secure tunnel between our device and the VPN server.
 
-*   Step 2 - Encrypt the data transmitted.
+* Step 2 - Encrypt the data transmitted.
 
-*   Step 3 - Mask our IP address, so it appears as if our internet activity is coming from the VPN server.
+* Step 3 - Mask our IP address, so it appears as if our internet activity is coming from the VPN server.
 
-*   Step 4 - Our internet traffic is routed through the VPN server.
+* Step 4 - Our internet traffic is routed through the VPN server.
 
 ## Advantages of a VPN:
 
-*   **Privacy**
-*   **Anonymity**
-*   **Security**
-*   **Encryption**
-*   **Masking the original IP address**
+* **Privacy**
+* **Anonymity**
+* **Security**
+* **Encryption**
+* **Masking the original IP address**
 
 ## Disadvantages of a VPN:
 
-*   **VPN blocking**
-*   **Slow down connections**
-*   **Trust in VPN provider**
+* **VPN blocking**
+* **Slow down connections**
+* **Trust in VPN provider**

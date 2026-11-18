@@ -1,4 +1,4 @@
-# 轻量的md预览工具
+# 轻量的 md 预览工具
 
 ---
 
@@ -112,7 +112,7 @@ mdview README.md
 
 1️⃣ **markdown-preview-server（最简单）**
 2️⃣ **mdts（体验最好）**
-3️⃣ **markdpy（Python版本）**
+3️⃣ **markdpy（Python 版本）**
 
 ---
 

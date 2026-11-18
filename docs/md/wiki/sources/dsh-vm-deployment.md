@@ -20,9 +20,9 @@ DeepSeek Harness（命令行简称 dsh）是 DeepSeek 于 2026 年 8 月 13 日�
 
 > Model + Harness = Agent
 
-模型负责思考推理，Harness 负责实际执行。它负责把大模型"接"进真实世界的那一层：读写文件、调用工具、执行命令、控制权限、决定重试还是中止，可以理解为 AI 的"操作系统外壳"。
+模型负责思考推理，Harness 负责实际执行。它负责把大模型“接”进真实世界的那一层：读写文件、调用工具、执行命令、控制权限、决定重试还是中止，可以理解为 AI 的“操作系统外壳”。
 
-DSH 最核心的设计理念是**"一切皆插件"**（everything is a plugin）。整个框架由 220+ 个独立 npm 包组成，模型、工具、技能、会话、沙箱、存储、循环、调度、UI 等所有 Agent 能力均由插件组合而成，可自由替换、灵活重组，支持运行时热插拔。理论基础是 DeepSeek 联合北京大学发表的论文《A Programming Paradigm for Spatiotemporal Composability》。
+DSH 最核心的设计理念是**“一切皆插件”**（everything is a plugin）。整个框架由 220+ 个独立 npm 包组成，模型、工具、技能、会话、沙箱、存储、循环、调度、UI 等所有 Agent 能力均由插件组合而成，可自由替换、灵活重组，支持运行时热插拔。理论基础是 DeepSeek 联合北京大学发表的论文《A Programming Paradigm for Spatiotemporal Composability》。
 
 整套框架基于 Cordis 插件元框架打造。Cordis 仅承担插件加载、卸载和依赖管理的底层工作。全部业务组件为独立的 Cordis 插件——包括模型适配器、工具注册表、会话日志，以及 agent loop 本身——每一部分都可以从配置替换。
 
@@ -49,9 +49,9 @@ DSH 最核心的设计理念是**"一切皆插件"**（everything is a plugin）
 
 ## 二、与其它主流 Agent 框架对比
 
-DeepSeek Harness 与其他框架最本质的区别在于**没有"核心"**。主流 Agent 架构是核心（Agent 循环、上下文管理、执行器）不可动 + 外挂扩展（MCP 工具、Skills、Hooks 等只能加不能改）；DSH 的 Cordis 则把模型适配器、工具注册表、会话/存储、沙箱/权限、Agent 循环、调度、UI 全部做成插件——将 Agent 框架当作操作系统内核来做。
+DeepSeek Harness 与其他框架最本质的区别在于**没有“核心”**。主流 Agent 架构是核心（Agent 循环、上下文管理、执行器）不可动 + 外挂扩展（MCP 工具、Skills、Hooks 等只能加不能改）；DSH 的 Cordis 则把模型适配器、工具注册表、会话/存储、沙箱/权限、Agent 循环、调度、UI 全部做成插件——将 Agent 框架当作操作系统内核来做。
 
-Cordis 与传统 DI 容器和轻量钩子方案的关键差异在于**可逆副作用**：插件是带依赖声明、生命周期、可逆副作用的"组件"，卸载时能完整逆转副作用。可以在 DSH 中把后端的 LLM 插件从 Model-A 无缝替换为 Model-B，而依赖它的组件（如 Agent Loop）会自动重新连接到新的服务提供者，会话中的对话记录毫发无损。
+Cordis 与传统 DI 容器和轻量钩子方案的关键差异在于**可逆副作用**：插件是带依赖声明、生命周期、可逆副作用的“组件”，卸载时能完整逆转副作用。可以在 DSH 中把后端的 LLM 插件从 Model-A 无缝替换为 Model-B，而依赖它的组件（如 Agent Loop）会自动重新连接到新的服务提供者，会话中的对话记录毫发无损。
 
 ![DSH 与传统框架对比](dsh-vm-deployment/images/003.webp)
 
@@ -186,7 +186,7 @@ ssh -L 3080:127.0.0.1:3080 root@xx.xx.xx.xx
 
 ## 四、实际运行体验
 
-选择一个"生成 24 点游戏的 HTML 页面"任务进行验证，下方会显示 Token 消耗情况：
+选择一个“生成 24 点游戏的 HTML 页面”任务进行验证，下方会显示 Token 消耗情况：
 
 ![24 点游戏生成任务](dsh-vm-deployment/images/011.webp)
 

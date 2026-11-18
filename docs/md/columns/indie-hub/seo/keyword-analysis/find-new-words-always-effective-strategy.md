@@ -9,19 +9,19 @@ url: "https://mp.weixin.qq.com/s/NcHgwVLRggbEk6oNLGVJrg"
 
 ![image](images/find-new-words-always-effective-strategy/001.webp)
 
-有个即友回忆10年前从ERP销售转型为SaaS产品经理之路，说当时花钱在淘宝买建站教程，跟着教程做起来的第一个网站，很快就日PV过万了。
+有个即友回忆 10 年前从 ERP 销售转型为 SaaS 产品经理之路，说当时花钱在淘宝买建站教程，跟着教程做起来的第一个网站，很快就日 PV 过万了。
 
 回忆起成功的原因，即友说，是因为刚好抓住了一个新词，拿到了搜索引擎前二位置。
 
 ![image](images/find-new-words-always-effective-strategy/002.webp)
 
-这个方法，10年前有效，今天依然有效，如群友@Gray做的网站，就是抓住了新词，群友新站上线9天拿到11030个独立访客，他是怎么做到的？
+这个方法，10 年前有效，今天依然有效，如群友@Gray 做的网站，就是抓住了新词，群友新站上线 9 天拿到 11030 个独立访客，他是怎么做到的？
 
 这样的例子还可以举出很多，如在谷歌搜索“draggan ai”，发现排名第一的网站，并不是官方网站。
 
 ![image](images/find-new-words-always-effective-strategy/003.webp)
 
-dragganaitool.com 这个域名5月28日注册的，6月份就拿到了4.5万的月访问量。
+dragganaitool.com 这个域名 5 月 28 日注册的，6 月份就拿到了 4.5 万的月访问量。
 
 ![image](images/find-new-words-always-effective-strategy/004.webp)
 
@@ -35,17 +35,17 @@ dragganaitool.com 这个域名5月28日注册的，6月份就拿到了4.5万的�
 
 ![image](images/find-new-words-always-effective-strategy/006.webp)
 
-谷歌每天处理的搜索中有15%是从来没有被搜索过的词。
+谷歌每天处理的搜索中有 15%是从来没有被搜索过的词。
 
 ![image](images/find-new-words-always-effective-strategy/007.webp)
 
-2016年，谷歌说每年处理2万亿次搜索，到2023年，应该要有3万亿次以上了。
+2016 年，谷歌说每年处理 2 万亿次搜索，到 2023 年，应该要有 3 万亿次以上了。
 
-15%就是4500亿，再除以365得到每天是12亿次左右。
+15%就是 4500 亿，再除以 365 得到每天是 12 亿次左右。
 
 即使其中有大部分是旧关键字的变种，也还是有很多全新的搜索词。
 
-这里具体多少比例不清楚，但即使打个1折，也有每天1.2亿次全新的搜索。
+这里具体多少比例不清楚，但即使打个 1 折，也有每天 1.2 亿次全新的搜索。
 
 全新的搜索意味着什么？
 
@@ -57,9 +57,9 @@ dragganaitool.com 这个域名5月28日注册的，6月份就拿到了4.5万的�
 
 ![image](images/find-new-words-always-effective-strategy/008.webp)
 
-哥飞这个付费群建立时间不长，到今天也才23天时间，群友们已经上线好几个网站，好几个浏览器插件了。
+哥飞这个付费群建立时间不长，到今天也才 23 天时间，群友们已经上线好几个网站，好几个浏览器插件了。
 
-如，今天又有群友上线了新的工具站，上线当天就拿到了1000PV。
+如，今天又有群友上线了新的工具站，上线当天就拿到了 1000PV。
 
 ![image](images/find-new-words-always-effective-strategy/009.webp)
 

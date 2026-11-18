@@ -13,7 +13,7 @@ tags: ["neovim", "lazyvim", "java", "import", "code-action", "lsp"]
 > **关键洞察**：
 > - **`<Space> c a`** = 整理导入（最常用，一条命令搞定所有缺失/未使用的 import）
 > - **写代码时自动导入** —— 补全引擎接管，无需手动
-> - **缺失导入也能修** —— 光标停在未导入类名上，再按 `<leader>ca`，菜单里选"Add missing imports"
+> - **缺失导入也能修** —— 光标停在未导入类名上，再按 `<leader>ca`，菜单里选“Add missing imports"
 
 ## 核心快捷键：整理导入（Organize Imports）
 

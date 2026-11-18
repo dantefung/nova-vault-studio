@@ -152,7 +152,7 @@ Weekly newsletter about AI and crypto for builders and investors.
 1. **Memory**（零门槛、立刻见效）
 2. **Projects**（彻底告别每次重新介绍自己）
 3. **CLAUDE.md**（写一次，受益每个项目会话）
-4. **Artifacts**（打开新世界——能"做"而不是只能"说"）
+4. **Artifacts**（打开新世界——能“做”而不是只能“说”）
 5. **Claude in Chrome / Cowork**（解锁 Claude 看电脑/操作电脑的能力）
 
 ## 适用人群速查

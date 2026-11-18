@@ -11,7 +11,7 @@ original: "[星标]架构权衡评估方法（ATAM）：如何评估一个系统
 
 ## 正文
 
-2022/6/12 21:44                                    ATAM
+2022/6/12 21:44 ATAM
 
 ATAM
 
@@ -35,8 +35,8 @@ JAVA
 
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        1/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 1/19
+2022/6/12 21:44 ATAM
 
 1.1 
 
@@ -51,8 +51,8 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        1/19
   
    = QPS x RT
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        2/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 2/19
+2022/6/12 21:44 ATAM
 
   1.1.2 
 
@@ -64,15 +64,15 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        2/19
 
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        3/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 3/19
+2022/6/12 21:44 ATAM
 
 1.2 
 
 1.2.1 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        4/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 4/19
+2022/6/12 21:44 ATAM
 
 X9
 595
@@ -93,8 +93,8 @@ X9
 300100
 30001000
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        5/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 5/19
+2022/6/12 21:44 ATAM
 
 3000
 1000
@@ -129,8 +129,8 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        5/19
 
 10
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        6/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 6/19
+2022/6/12 21:44 ATAM
 
 
 
@@ -165,8 +165,8 @@ B88C7
 public class OrderServiceImpl implements OrderService {
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q         7/19
-2022/6/12 2p1:44              p                    pATAM{
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 7/19
+2022/6/12 2p1:44 p pATAM{
 
                   @Resource
 
@@ -181,7 +181,7 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q         7/19
 
                   if (null == orderBO) {
 
-                       throw new RuntimeException("    ");
+                       throw new RuntimeException(" ");
 
 
                   }
@@ -190,7 +190,7 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q         7/19
                   if (OrderTypeEnum.isNotValid(orderBO.getType())) {
 
 
-                       throw new RuntimeException("    ");
+                       throw new RuntimeException(" ");
 
 
                   }
@@ -208,7 +208,7 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q         7/19
                       if (orderBO.getWeight() > 9) {
 
 
-                               throw new RuntimeException("         ");
+                               throw new RuntimeException(" ");
 
 
                          }
@@ -232,7 +232,7 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q         7/19
                       if (orderBO.getWeight() > 8) {
 
 
-                               throw new RuntimeException("         ");
+                               throw new RuntimeException(" ");
 
 
                          }
@@ -256,7 +256,7 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q         7/19
                       if (orderBO.getWeight() > 7) {
 
 
-                               throw new RuntimeException("         ");
+                               throw new RuntimeException(" ");
 
 
                          }
@@ -282,8 +282,8 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q         7/19
 }
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                                        8/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 8/19
+2022/6/12 21:44 ATAM
 
 
 
@@ -314,8 +314,8 @@ public interface DiscountStrategy {
                  public void discount(OrderBO orderBO);
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q         9/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 9/19
+2022/6/12 21:44 ATAM
             }
 
 
@@ -402,8 +402,8 @@ public class DiscountStrategyFactory implements InitializingBean {
                  private TypeCDiscountStrategy typeCDiscountStrategy;
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                             10/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 10/19
+2022/6/12 21:44 ATAM
 
                  public DiscountStrategy getStrategy(String type) {
 
@@ -447,7 +447,7 @@ public class DiscountStrategyExecutor {
                  if (null == discountStrategy) {
 
 
-                  throw new RuntimeException("             ");
+                  throw new RuntimeException(" ");
 
 
                  }
@@ -484,8 +484,8 @@ public interface CreateOrderService {
 public abstract class AbstractCreateOrderFlow {
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                                                    11/19
-2022/6/12 21:44                            ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 11/19
+2022/6/12 21:44 ATAM
 
                  @Resource
 
@@ -500,7 +500,7 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                               
 
                  if (null == orderBO) {
 
-                      throw new RuntimeException("  ");
+                      throw new RuntimeException(" ");
 
 
                  }
@@ -509,7 +509,7 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                               
                  if (OrderTypeEnum.isNotValid(orderBO.getType())) {
 
 
-                      throw new RuntimeException("  ");
+                      throw new RuntimeException(" ");
 
 
                  }
@@ -585,7 +585,7 @@ public class CreateOrderFlow extends AbstractCreateOrderFlow {
                           discountStrategyExecutor.discount(orderBO);
 
 https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q
-2022/6/12 21:44                                    ATAM
+2022/6/12 21:44 ATAM
                    }
 
 @Override
@@ -634,8 +634,8 @@ public void supportRefund(OrderBO orderBO) {
 
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                      13/19
- 2022/6/12 21:44                                   ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 13/19
+ 2022/6/12 21:44 ATAM
 
 (2) 
 
@@ -664,8 +664,8 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                      13/19
 
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        14/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 14/19
+2022/6/12 21:44 ATAM
 
 
 
@@ -686,8 +686,8 @@ ATAM
 
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        15/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 15/19
+2022/6/12 21:44 ATAM
 
 
 
@@ -705,8 +705,8 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        15/19
 (1)(2)(3)(4)(5)
 (6)(7)
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        16/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 16/19
+2022/6/12 21:44 ATAM
 
 
 (8)
@@ -723,8 +723,8 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        16/19
 
 3 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        17/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 17/19
+2022/6/12 21:44 ATAM
 
 
 
@@ -743,14 +743,14 @@ DDD
 JAVA 
 
    JAVA 
- java_fro  nt 
+ java_fro nt 
 
- #8                                                                       
+ #8 
                                                    DDD
 
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                           18/19
-2022/6/12 21:44                                    ATAM
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 18/19
+2022/6/12 21:44 ATAM
 
   
 
@@ -766,43 +766,43 @@ https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q                           18/1
 
 DeepNoMind
 
-https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q        19/19
+https://mp.weixin.qq.com/s/3LiPUOqB3XT_Z_qrKcyU2Q 19/19
 
 ## 配图
 
 ### 第 1 页 — 001-p01.jpeg
 
-![001-p01.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/001-p01.webp)
+![001-p01.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/001-p01.webp)
 
 ### 第 2 页 — 002-p02.jpeg
 
-![002-p02.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/001-p01.webp)
+![002-p02.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/001-p01.webp)
 
 ### 第 3 页 — 003-p03.jpeg
 
-![003-p03.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/003-p03.webp)
+![003-p03.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/003-p03.webp)
 
 ### 第 4 页 — 004-p04.jpeg
 
-![004-p04.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/003-p03.webp)
+![004-p04.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/003-p03.webp)
 
 ### 第 5 页 — 005-p05.jpeg
 
-![005-p05.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/005-p05.webp)
+![005-p05.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/005-p05.webp)
 
 ### 第 9 页 — 006-p09.jpeg
 
-![006-p09.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/006-p09.webp)
+![006-p09.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/006-p09.webp)
 
 ### 第 15 页 — 007-p15.jpeg
 
-![007-p15.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/007-p15.webp)
+![007-p15.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/007-p15.webp)
 
 ### 第 16 页 — 008-p16.jpeg
 
-![008-p16.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/008-p16.webp)
+![008-p16.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/008-p16.webp)
 
 ### 第 17 页 — 009-p17.jpeg
 
-![009-p17.jpeg](images/架构权衡评估方法ATAM-如何评估一个系统的质量/008-p16.webp)
+![009-p17.jpeg](images/架构权衡评估方法 ATAM-如何评估一个系统的质量/008-p16.webp)
 

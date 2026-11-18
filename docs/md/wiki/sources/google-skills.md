@@ -15,7 +15,7 @@ url: "https://github.com/google/skills"
 
 - Google 官方推出的 Agent Skills 集合
 - 教 AI 优雅调用 Google Cloud 各类资源（GCP 云原生对接）
-- 标志着大厂开始将云原生操作"Agent 化"
+- 标志着大厂开始将云原生操作“Agent 化”
 - 安装：`npx skills add google/skills`
 
 ## 可用 Skills（按类别）

@@ -8,7 +8,7 @@ url: ""
 # Sublime Text 嵌入式终端 Terminus 安装与排错完整指南
 
 Terminus 插件的快捷键配置见
-[Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20自定义快捷键)，
+[Sublime Text 自定义快捷键配置](/md/guide/dev/sublimetext/Sublime%20Text%20 自定义快捷键)，
 更多插件与使用技巧见
 [Sublime Text 最佳实践](/md/guide/dev/sublimetext/sublime-best-practices)。
 
@@ -16,9 +16,9 @@ Terminus 插件的快捷键配置见
 
 本文适用于：
 
--   Linux（如 Debian / Ubuntu 等）
--   使用 Sublime Text
--   需要嵌入式终端（Terminus 插件）
+- Linux（如 Debian / Ubuntu 等）
+- 使用 Sublime Text
+- 需要嵌入式终端（Terminus 插件）
 
 ------------------------------------------------------------------------
 
@@ -84,9 +84,9 @@ git clone https://github.com/randy3k/Terminus.git
 
 Terminus 插件依赖以下 Python 库：
 
--   wcwidth
--   ptyprocess
--   pyte
+- wcwidth
+- ptyprocess
+- pyte
 
 首次加载插件时，可能会出现类似错误：
 
@@ -94,10 +94,10 @@ Terminus 插件依赖以下 Python 库：
 
 这是因为：
 
-1.  Terminus 插件先被加载
-2.  发现缺少依赖
-3.  报错
-4.  Package Control 才开始自动安装依赖
+1. Terminus 插件先被加载
+2. 发现缺少依赖
+3. 报错
+4. Package Control 才开始自动安装依赖
 
 因此：
 
@@ -118,8 +118,8 @@ Terminus 插件依赖以下 Python 库：
 
 如果看到以下命令，说明安装成功：
 
--   Terminus: Open Default Shell in Panel
--   Terminus: Toggle Panel
+- Terminus: Open Default Shell in Panel
+- Terminus: Toggle Panel
 
 ------------------------------------------------------------------------
 
@@ -144,11 +144,11 @@ Terminus 插件依赖以下 Python 库：
 }
 ```
 
-自定义快捷键:
+自定义快捷键：
 
 Preferences -> Key Bindings
 
-添加用户配置:
+添加用户配置：
 
 ```
     {
@@ -181,12 +181,12 @@ Preferences -> Key Bindings
 
 ## 八、常见问题总结
 
-  问题              原因                     解决方案
+  问题 原因 解决方案
   ----------------- ------------------------ ---------------------
-  搜不到 Terminus   Package Control 源异常   手动 git 安装
-  有插件但无命令    依赖未加载               完全重启 Sublime
-  报 wcwidth 错误   Python 依赖未安装        等待自动安装 + 重启
-  快捷键无效        系统快捷键冲突           修改 Sublime 快捷键
+  搜不到 Terminus Package Control 源异常 手动 git 安装
+  有插件但无命令 依赖未加载 完全重启 Sublime
+  报 wcwidth 错误 Python 依赖未安装 等待自动安装 + 重启
+  快捷键无效 系统快捷键冲突 修改 Sublime 快捷键
 
 ------------------------------------------------------------------------
 
@@ -194,10 +194,10 @@ Preferences -> Key Bindings
 
 在 Linux 下安装 Terminus 的核心要点：
 
-1.  优先使用 Package Control 安装
-2.  搜不到时使用 git 手动安装
-3.  出现依赖错误必须完全重启
-4.  重启后验证命令是否出现
+1. 优先使用 Package Control 安装
+2. 搜不到时使用 git 手动安装
+3. 出现依赖错误必须完全重启
+4. 重启后验证命令是否出现
 
 完成以上步骤，即可正常使用 Sublime 嵌入式终端。
 

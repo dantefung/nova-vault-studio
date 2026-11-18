@@ -69,7 +69,7 @@ PHASE-BOUNDARIES.md 的核心不是五个选项的定义，而是**成立条件�
 
 **问题 2：上下文与接下来完全无关？** 要丢的东西——grilling 时的来回拷问、spec 阶段被否决的方案、拆 tickets 的取舍理由。ticket 本身是自包含的，实现只认 ticket 里的验收标准。是，**/clear**。
 
-关键：/clear 之前，信息必须已经迁移到别处。tickets 文件就是那个"别处"——/clear 丢的是窗口，不是重要信息。这就是为什么官方强调到 to-tickets 之后才 clear。
+关键：/clear 之前，信息必须已经迁移到别处。tickets 文件就是那个“别处”——/clear 丢的是窗口，不是重要信息。这就是为什么官方强调到 to-tickets 之后才 clear。
 
 ## 4. 一手 vs 二手：每次边界都是一次损耗交换
 
@@ -119,7 +119,7 @@ Matt Pocock 自己写过文章吐槽 Anthropic 的 Ralph 插件：bash 循环每
 
 ![四个反例示意图](../images/ai-coding-phase-boundaries/004.webp)
 
-- **反例 1：上下文还很热就 /clear。** grilling 刚聊完需求就 /clear 写 spec。结果写 spec 时 Agent 问"免费层到底要不要"，你发现自己也记不清当时怎么定的了——需求的 why 已经丢了。
+- **反例 1：上下文还很热就 /clear。** grilling 刚聊完需求就 /clear 写 spec。结果写 spec 时 Agent 问“免费层到底要不要”，你发现自己也记不清当时怎么定的了——需求的 why 已经丢了。
 - **反例 2：stage 中间 /compact。** 实现 ticket 3 到一半随手 /compact，Agent 回来接着写，写出来的东西和之前方向对不上——它丢了 thread，只能从摘要推断。mid-phase 的正确出路只有继续或拆 subagent。
 - **反例 3：本可 Continue 却 /handoff。** spec 刚写完、上下文还很健康，却写 handoff 交给新会话。代价是推理过程原文被压成摘要，新会话的 spec 质量取决于 handoff 文件写得有多好——而你本来可以直接继续。
 - **反例 4：万事皆 compact。** 每个边界都压一次。会话很干净，但每一压都丢一层细节。压到第三次，新会话面对压了三遍的摘要照样自信地错——它不知道每次压缩各自丢了什么。这种失败模式很隐蔽，全程没有任何报错。
@@ -136,4 +136,4 @@ Matt Pocock 自己写过文章吐槽 Anthropic 的 Ralph 插件：bash 循环每
 
 需要注意：这套树以 Claude Code / Codex 为默认环境，/compact、/clear、subagent 机制不是所有 Agent 平台都有等价物——换平台前先确认你的 harness 支持哪些原语。
 
-> 这棵树的真正价值不在五个选项，在于它把"什么时候处理上下文"从感觉变成了流程。阶段中间你不需要想，边界处你必须想。就凭这一点，它就比大多数上下文管理技巧值得抄。
+> 这棵树的真正价值不在五个选项，在于它把“什么时候处理上下文”从感觉变成了流程。阶段中间你不需要想，边界处你必须想。就凭这一点，它就比大多数上下文管理技巧值得抄。

@@ -31,17 +31,17 @@ source: "wiki-ingest"
 
 ### PostHog（产品分析）
 - 埋点：signup、onboarding_completed、first_result、subscription_created
-- 建立注册到付费的Funnel
+- 建立注册到付费的 Funnel
 - 用户大量注册却未生成第一份结果→先检查首次使用流程
 
 ### Clarity（体验诊断）
 - 看用户是否反复点击不可点击区域
-- 看是否滚到Pricing、在哪个表单字段离开
+- 看是否滚到 Pricing、在哪个表单字段离开
 - 把录屏行为和页面数据对照，找出用户说不清但行为已暴露的问题
 
 ## 组合使用原则
 
-GSC告诉你是**什么词**带来流量，GA4告诉你是**哪类用户**来了，PostHog告诉你是**哪一步**流失了，Clarity告诉你是**为什么**流失。四者缺一，诊断不全。
+GSC 告诉你是**什么词**带来流量，GA4 告诉你是**哪类用户**来了，PostHog 告诉你是**哪一步**流失了，Clarity 告诉你是**为什么**流失。四者缺一，诊断不全。
 
 ## Related Pages
 
@@ -49,4 +49,4 @@ GSC告诉你是**什么词**带来流量，GA4告诉你是**哪类用户**来了
 
 ## Sources
 
-- 夏林果《出海必备的56个实战工具清单》：x.com/momo_peggy/status/2110301714876346822
+- 夏林果《出海必备的 56 个实战工具清单》：x.com/momo_peggy/status/2110301714876346822

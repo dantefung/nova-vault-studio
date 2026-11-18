@@ -357,6 +357,6 @@ Logo；
 
 Punk｜中科大 MBA｜HerName 首席设计师｜Stanley 商学院执行院长｜
 
-｜AI提示词｜分享小白能看懂、复制能上手的 AI / 搞钱方法｜
+｜AI 提示词｜分享小白能看懂、复制能上手的 AI / 搞钱方法｜
 
 [@AdrianPunk115](https://x.com/@AdrianPunk115)

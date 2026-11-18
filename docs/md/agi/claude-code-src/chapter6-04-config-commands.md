@@ -15,10 +15,10 @@ Markdown Content:
 
 Settings 组件包含多个标签页：
 
-*   **Config**: 通用配置（模型、权限模式等）
-*   **Permissions**: 权限规则列表
-*   **Hooks**: 钩子配置
-*   **MCP**: MCP 服务器管理
+* **Config**: 通用配置（模型、权限模式等）
+* **Permissions**: 权限规则列表
+* **Hooks**: 钩子配置
+* **MCP**: MCP 服务器管理
 
 ## /permissions — 权限规则管理 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/commands/config-commands.html#permissions-%E2%80%94-%E6%9D%83%E9%99%90%E8%A7%84%E5%88%99%E7%AE%A1%E7%90%86)
 
@@ -32,12 +32,12 @@ Settings 组件包含多个标签页：
 
 钩子事件类型：
 
-*   `PreToolUse` — 工具执行前
-*   `PostToolUse` — 工具执行后
-*   `SessionStart` — 会话开始
-*   `SessionEnd` — 会话结束
-*   `Notification` — 通知产生
-*   `Stop` — AI 停止
+* `PreToolUse` — 工具执行前
+* `PostToolUse` — 工具执行后
+* `SessionStart` — 会话开始
+* `SessionEnd` — 会话结束
+* `Notification` — 通知产生
+* `Stop` — AI 停止
 
 ## /model — 模型选择 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/commands/config-commands.html#model-%E2%80%94-%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9)
 
@@ -45,10 +45,10 @@ Settings 组件包含多个标签页：
 
 ModelPicker 功能：
 
-*   模型列表（显示可用模型）
-*   快速模式切换（Fast ↔ Standard）
-*   Effort 级别调整
-*   Extra Usage 订阅管理
+* 模型列表（显示可用模型）
+* 快速模式切换（Fast ↔ Standard）
+* Effort 级别调整
+* Extra Usage 订阅管理
 
 ## /vim — Vim 模式切换 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/commands/config-commands.html#vim-%E2%80%94-vim-%E6%A8%A1%E5%BC%8F%E5%88%87%E6%8D%A2)
 

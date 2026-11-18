@@ -7,7 +7,7 @@ url: "https://new.web.cafe/tutorial/detail/internal-links-content-site"
 ---
 
 # 再聊内链和内页，以及如何做好一个内容型工具站
-> 原文链接: https://new.web.cafe/tutorial/detail/v2NENgATdt5a62SzVQUYY6
+> 原文链接：https://new.web.cafe/tutorial/detail/v2NENgATdt5a62SzVQUYY6
 
 ---
 
@@ -43,9 +43,9 @@ url: "https://new.web.cafe/tutorial/detail/internal-links-content-site"
 
 打好基础第一步，就是多做内页，做扎实内容。
 
-【哥飞 SEO教程】如何用做内容的方式做好 AI工具站
+【哥飞 SEO 教程】如何用做内容的方式做好 AI 工具站
 
-怎么做扎实内容，之前北京聚会的聚会的分享嘉宾 Henry就给我们讲过了，哥飞也写了一篇解读的文章，大家可以看上文。
+怎么做扎实内容，之前北京聚会的聚会的分享嘉宾 Henry 就给我们讲过了，哥飞也写了一篇解读的文章，大家可以看上文。
 
 Henry 去年 12 月做了一个网站，选择了一个有一定难度的关键词，靠着扎实的内容，在 4 月份时流量开始起飞，之后每个月都在增长。刚才哥飞去看了下，6 月的访问量又涨了。
 
@@ -63,17 +63,17 @@ Henry 去年 12 月做了一个网站，选择了一个有一定难度的关键�
 
 在看我接下来的分享之前，大家可以再看看我之前分享的失败案例。
 
-我在上次分享时提到说，确保我们网站上线的每一个页面都是精品网页。 怎么定义精品网页呢，就是我们新发布的网页，能够在 GSC里有曝光和点击。
+我在上次分享时提到说，确保我们网站上线的每一个页面都是精品网页。 怎么定义精品网页呢，就是我们新发布的网页，能够在 GSC 里有曝光和点击。
 
-经过最近一段时间和各路 SEO高手交流学习，更是坚定了我在这方面的想法。
+经过最近一段时间和各路 SEO 高手交流学习，更是坚定了我在这方面的想法。
 
-我先定义一个公示： 哥飞网站权重=GSC后台里显示的能够拿到曝光和点击的网页数量/GSC里爬虫发现了的网页数量×100%
+我先定义一个公示： 哥飞网站权重=GSC 后台里显示的能够拿到曝光和点击的网页数量/GSC 里爬虫发现了的网页数量×100%
 
 接下来，我会解释这个看起来很简单，但实际上不简单的公式。
 
 ![7f6fc7d2cec87fbf5582675c97c3b8af\_.png](images/internal-links-content-site/gefei-internal-links-content-site_003.webp)
 
-哥飞会以 Woy.ai 和 AISong.ai 为例，给大家计算一下这个公式。 先看 Woy.ai 的，GSC后台，按照截图所示，下载所有的网页。
+哥飞会以 Woy.ai 和 AISong.ai 为例，给大家计算一下这个公式。 先看 Woy.ai 的，GSC 后台，按照截图所示，下载所有的网页。
 
 Woy.ai 拿到了至少 1 个点击的网页数量是 692 个。
 
@@ -89,7 +89,7 @@ Woy.ai 拿到了至少 1 个点击的网页数量是 692 个。
 
 AISong 的哥飞网站权重=52/300000×100%=0.01733% ChatGPT4o 的哥飞网站权重=23/27300×100%=0.08424%
 
-整体数值有点小，我修正一下公式： 哥飞网站权重=GSC后台里显示的能够拿到曝光和点击的网页数量/GSC里爬虫发现了的网页数量×10000‱
+整体数值有点小，我修正一下公式： 哥飞网站权重=GSC 后台里显示的能够拿到曝光和点击的网页数量/GSC 里爬虫发现了的网页数量×10000‱
 
 解释一下，这个公式用来计算，你的网站高质量页面的万比值，也就是每 1 万个页面里，有多少个高质量页面。
 
@@ -105,7 +105,7 @@ AISong 的哥飞网站权重=52/300000×100%=0.01733% ChatGPT4o 的哥飞网站�
 
 所以先拍脑袋说一个数吧，至少要超过 100‱，这是一条及格线，如果你发现你的网站数值小于 100‱，那么你就要反思一下，是不是你的生成内容策略有问题了。 如果有问题，请及时停止生成新内容页面，然后处理老内容页面，再想新的生成策略。
 
-这个“哥飞网站权重”公式，为什么只选择 GSC后台的这两个指标呢？ 一，当然是为了大家计算更方便，二则是 GSC后台的数据，就是谷歌官方的数据，这比所有任何第三方平台估算的数据都更准确。
+这个“哥飞网站权重”公式，为什么只选择 GSC 后台的这两个指标呢？ 一，当然是为了大家计算更方便，二则是 GSC 后台的数据，就是谷歌官方的数据，这比所有任何第三方平台估算的数据都更准确。
 
 用这个公式计算出来的数值越高，其实就直接表明你的网站在谷歌的受欢迎程度越高。
 
@@ -123,13 +123,13 @@ AISong 的哥飞网站权重=52/300000×100%=0.01733% ChatGPT4o 的哥飞网站�
 
 听起来好像很简单，实际做起来，还是有一些难度的。
 
-首先，你要怎么去挖掘尽可能多的有搜索量关键词呢？ 深圳线下聚会，彪哥分享了一个办法，你先收集你的一些大流量竞对网站，然后用 Similarweb或者 Semrush或者 Ahrefs找到这些网站能够拿到流量的页面，分析他们是通过什么关键词获取流量的，把这些关键词抓取过来。
+首先，你要怎么去挖掘尽可能多的有搜索量关键词呢？ 深圳线下聚会，彪哥分享了一个办法，你先收集你的一些大流量竞对网站，然后用 Similarweb 或者 Semrush 或者 Ahrefs 找到这些网站能够拿到流量的页面，分析他们是通过什么关键词获取流量的，把这些关键词抓取过来。
 
 基于一些你已知的关键词，找到更多的相关网站，进而找到更多的关键词，不断循环，你就能得到一个比较大的关键词库了。
 
 有了关键词库，你就可以基于关键词库，对用户生成的内容进行打标签，也就死把关键词和内容关联起来。
 
-具体的做法，你可以结合关键词搜索、向量相似度检索、GPT打标等方式去做。
+具体的做法，你可以结合关键词搜索、向量相似度检索、GPT 打标等方式去做。
 
 一旦某个关键词关联的内容超过 3 个，你就可以为这个关键词生成页面了。
 
@@ -143,9 +143,9 @@ AISong 的哥飞网站权重=52/300000×100%=0.01733% ChatGPT4o 的哥飞网站�
 
 而做这些一个一个内页，又是为了： 举全站之力优化
 
-对了，哥飞这里用错了数据了，下载下来的 excel文件有多个表格，哥飞用了第一个关键词表格，实际需要用第二个网页表格。
+对了，哥飞这里用错了数据了，下载下来的 excel 文件有多个表格，哥飞用了第一个关键词表格，实际需要用第二个网页表格。
 
-又因为 GSC后台最多只能下载 1000 个网页，所以哥飞要修正一下这个公式的适用范围了： 这个公式适合在你的网站刚上线没多久，有点击和曝光的页面数量小于 1000 时使用。
+又因为 GSC 后台最多只能下载 1000 个网页，所以哥飞要修正一下这个公式的适用范围了： 这个公式适合在你的网站刚上线没多久，有点击和曝光的页面数量小于 1000 时使用。
 
 也刚好，也就是说，最好是在你的网站网页数量 1 万以内时，就要去试探谷歌，看看你的内容生成策略是有有效，不要一下子就上几万几十万个页面。
 
@@ -161,13 +161,13 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
 继续刚才的内容，我们要基于关键词，去生成质量可控的有可能能够拿到曝光和点击的页面，而不是有什么内容，就生成什么页面。
 
-这些关键词页面，才是我们的最终页面，而用户生成的内容，你可以结合实际考虑，是否生成页面，如果要生成页面，也可以设置为 noindex，并且 robots.txt里也设置禁止爬虫抓取这个页面，这样就不会生成大量的不可控的页面了。
+这些关键词页面，才是我们的最终页面，而用户生成的内容，你可以结合实际考虑，是否生成页面，如果要生成页面，也可以设置为 noindex，并且 robots.txt 里也设置禁止爬虫抓取这个页面，这样就不会生成大量的不可控的页面了。
 
 这些关键词页面，也是有层级关系的，你可以继续为他们去生成不同层级的列表页面，拿下更多关键词的流量。
 
 页面多了之后，怎么组织好页面之间的关系，怎么做好内链呢？
 
-首先，页面之间，最好有上下级关系，这就是之前 Henry分享时画出来的树状结构。 从首页出发，可以不断的进入各级目录，各级页面。 这就要做好面包屑导航，面包屑导航可以使得每一个内容，用户都知道，所有的上级有哪些。
+首先，页面之间，最好有上下级关系，这就是之前 Henry 分享时画出来的树状结构。 从首页出发，可以不断的进入各级目录，各级页面。 这就要做好面包屑导航，面包屑导航可以使得每一个内容，用户都知道，所有的上级有哪些。
 
 然后树根直接出来的几个关键词，你可以做成全站顶部导航条，让用户在网页的任何一个页面，都可以快速切换到别的根部。 这也相当于全站每一个页面都给这些重要的频道页面加了内链。
 
@@ -180,7 +180,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 好了，哥飞今天的讲解就大概讲完了。
 
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     請給我一支蘭州
 
@@ -189,14 +189,14 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     打卡
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_005.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_005.webp)
 
     2025-06-13 12:35
 
 
     用户搜索体现需求，跟关键字方法
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     Richao
 
@@ -205,7 +205,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     打卡，内容和内链
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_006.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_006.webp)
 
     峻菁
 
@@ -214,7 +214,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     略微抽象，还需再次复读深入理解，打卡。
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     阿木子三不知
 
@@ -223,7 +223,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     打卡
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_007.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_007.webp)
 
     阿木子三不知
 
@@ -232,16 +232,16 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     隐藏内容
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_008.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_008.webp)
 
     图南
 
     2025-07-09 11:33
 
 
-    打卡, 去看看彪哥的分享
+    打卡，去看看彪哥的分享
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     lx
 
@@ -259,7 +259,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
 
     有的，[https://new.web.cafe/tutorial/detail/82ea980d818446bfbee3daea735126ea](https://new.web.cafe/tutorial/detail/82ea980d818446bfbee3daea735126ea)
 
--   ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
+- ![](images/internal-links-content-site/gefei-internal-links-content-site_0.webp)
 
     楠木
 
@@ -309,7 +309,7 @@ AISong 的哥飞网站权重=307/300000×10000‱=10.23‱ ChatGPT4o 的哥飞�
     打卡
 
 
-    Jessica周
+    Jessica 周
 
     2026-07-13 16:17
 

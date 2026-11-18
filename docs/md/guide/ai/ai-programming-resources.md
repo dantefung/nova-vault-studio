@@ -11,7 +11,7 @@ date: "2026-05-05"
 
 ## 视频课程
 
-- [如何使用 Smart Domain 实现 DDD？](https://www.bilibili.com/video/BV1QT411J7jh/) — B站视频
+- [如何使用 Smart Domain 实现 DDD？](https://www.bilibili.com/video/BV1QT411J7jh/) — B 站视频
 - [Harness for AI coding 团队级 AI 编程驾驭工程](https://b23.tv/aRXiG9J) — 2026-04-25
 - [AI 编程中的测试和 Loop](https://www.bilibili.com/video/BV1atjU6KEJF/) — 2026-06-20
 - [awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — 用 Claude Opus 5.5 制作的爆款视频合集，每条附原始视频与对应提示词，可在 Skillry 观看现场复刻版，持续更新。8.7k stars，MIT 许可
@@ -25,8 +25,8 @@ date: "2026-05-05"
 - [OpenAI Symphony](https://github.com/openai/symphony) — 将项目工作转化为隔离的自主执行运行，团队管理工作而非监督 AI coding agent。监控 Linear 工单板，自动派发任务给 Codex Agent，Agent 完成后提供 CI 状态、PR 审查反馈、复杂度分析等证明，23.5k stars
   - [官方博客：Symphony 开源规范发布](https://openai.com/index/open-source-codex-orchestration-symphony/) — 2026-04-27，OpenAI 工程师博文，内部部分团队 3 周内 PR 数量提升 500%
   - [InfoWorld 报道](https://www.infoworld.com/article/4164173/openais-symphony-spec-pushes-coding-agents-from-prompts-to-orchestration.html) — 分析 Symphony 将 AI 从个人编程助手向团队共享工程基础设施的转型，Forrester 分析师指出 Agent 控制平面和自适应流程编排的价值
-  - [Help Net Security 报道](https://www.helpnetsecurity.com/2026/04/28/openai-symphony-codex-orchestration-linear/) — 详细介绍"人类注意力瓶颈"（每人只能监督 3-5 个 Codex 会话），以及团队 PM/Designer 从 Linear 手机 App 提交工单的实践
-- [Buzz](https://github.com/block/buzz) — Block（原 Square）开源的人类与 AI 协作工作区，Nostr 中继架构，23.9k stars。人与 Agent 共享同一房间，支持频道/线程/画布/工作流/语音 huddle，Agent 是"成员"而非"机器人"，有独立密钥、成员关系和审计轨迹
+  - [Help Net Security 报道](https://www.helpnetsecurity.com/2026/04/28/openai-symphony-codex-orchestration-linear/) — 详细介绍“人类注意力瓶颈”（每人只能监督 3-5 个 Codex 会话），以及团队 PM/Designer 从 Linear 手机 App 提交工单的实践
+- [Buzz](https://github.com/block/buzz) — Block（原 Square）开源的人类与 AI 协作工作区，Nostr 中继架构，23.9k stars。人与 Agent 共享同一房间，支持频道/线程/画布/工作流/语音 huddle，Agent 是“成员”而非“机器人”，有独立密钥、成员关系和审计轨迹
   - [Goose](https://github.com/block/goose) — Block 的另一款开源 AI Agent CLI，管理单个 Agent 怎么干活
   - 观点：从 Goose 管单个 Agent 怎么干活，到 Buzz 管一群人和一群 Agent 怎么共事。团队要让 Agent 干活，迟早要搞清楚**它是谁、它能动什么、它干过什么**——Buzz 是第一个把这三个问题当成产品核心的开源项目
 
@@ -34,7 +34,7 @@ date: "2026-05-05"
 
 ## 内容运营技能
 
-- [内容运营人必装的4个skill（上）](https://mp.weixin.qq.com/s/kqcpZKJLJMh2EyJF3wJTbw) — Agent Reach（AI上网能力）、Marketing Skills（营销方法论提示词）、RedBox（小红书创作工具）、Scrapling（高级网页爬虫）、Maccy（剪贴板管理器）
+- [内容运营人必装的 4 个 skill（上）](https://mp.weixin.qq.com/s/kqcpZKJLJMh2EyJF3wJTbw) — Agent Reach（AI 上网能力）、Marketing Skills（营销方法论提示词）、RedBox（小红书创作工具）、Scrapling（高级网页爬虫）、Maccy（剪贴板管理器）
 - [story-studio](https://github.com/konlu/story-studio) — **373 Stars**，MIT，Python。**从「选题 → 文案 → 配音 → 配图 → 剪映草稿」的一站式 AI 短视频创作 Agent Skill**，专为 Claude Code / Codex / Cursor 这类支持 Skill 的智能体打造。四大模块：**① 文稿创作**——内置「历史叙事风」与「真实人物故事/女性传奇」两套蒸馏过的 Writing-DNA + **370+ 篇高赞对标逐字稿库**（历史叙事 57 篇含 9 类黄金开头钩子机制；人物故事 300+ 篇含 A/B/C/D/E 五类钩子模板），配选题库、史实与素材核验、字数与查重工具；**② 配音**——推荐接豆包语音大模型 V3 双向流式，也可丢进自备 MP3 让 Agent 接力；**③ 时间轴对齐**——用本地 Coli（基于 sherpa-onnx）离线识别生成精准到字句的 SRT，**绝不按字数瞎猜时间**；**④ 分镜与剪映草稿**——三套画风（历史写实 / 厚涂历史漫画 / 黑白纪实）+ 成品参考图库防跨镜头画风漂移，基于 `pyJianYingDraft` 直接生成**可二次编辑的剪映专业版工程**，自动铺 9:16 竖屏图片与配音并写入覆盖全镜的慢推拉关键帧和切点冲击缩放（Punch Zoom）。零门槛环境初始化（首次调用一键配置便携环境），支持随时中断接力：只写稿、只改钩子、只拆镜生图、或用现成素材直接出剪映草稿
   - 赛道定位：历史叙事 / 人物故事（民国名媛、巾帼英雄、时代先驱、传奇母亲等）
 - [image-story-video-wizard](https://github.com/aaronyi97/image-story-video-wizard) — 图文故事与讲书类播客视频 AI 制作向导 Agent Skill（大雷出品）。按步骤主动引导：选题与对标分析 → 生成写作包交给大模型写稿 → 豆包 Seed-TTS 2.0 试听选音色并取字级时间戳 → 按配音拆分镜生图 → 导出视频与剪映草稿，全流程人工介入控制在 1 小时内
@@ -42,7 +42,7 @@ date: "2026-05-05"
 - [wedding-video-guided-wizard](https://github.com/aaronyi97/wedding-video-guided-wizard) — AI 婚礼故事视频定制引导向导 Skill（大雷出品）。14 步完整跑通：故事采集卡一次性收集新人经历 → Kimi K3 撰写文案包 → 豆包 TTS 试听选音色 → GPT Image 2 图生图 → Omni 图生视频 → Suno V5.5 试听配 BGM → 最终组装与字幕对齐
 - [writing-dna-skill](https://github.com/larashero3-dotcom/writing-dna-skill) — 写作风格蒸馏器 Agent Skill（前文字记者 Lieflat 出品，小红书 REDSkill 榜单前三）。基于语言学量化统计，把目标对标文章的词汇密度、句法节奏、论证骨架拆解为可复制的规则层，让 AI 逐层对照写作，彻底复刻任意写作风格并去除 AI 味
 - [SeeCut](https://github.com/YeJe-cpu/SeeCut) — 开源自媒体网感精剪管线（Leaf Yeah! 出品，PolyForm 非商业）。四大设计：Gemini 原生看懂视频挑刺、左右盲测对比循环（最多 3 版收敛）、截真图替代假代码界面、露脸与否根据「对你说」还是「给你看」决策，自动出剪映分层草稿工程
-- [open-topic-radar](https://github.com/aaronyi97/open-topic-radar) — 自媒体选题雷达开源项目（大雷出品）。先去海外信息源（X/Product Hunt/GitHub/Reddit）扫描升温事件，再回中文市场（小红书/B站/抖音）检验覆盖程度，识别「国外已热、国内未做烂」的生态位选题
+- [open-topic-radar](https://github.com/aaronyi97/open-topic-radar) — 自媒体选题雷达开源项目（大雷出品）。先去海外信息源（X/Product Hunt/GitHub/Reddit）扫描升温事件，再回中文市场（小红书/B 站/抖音）检验覆盖程度，识别「国外已热、国内未做烂」的生态位选题
 - [video-talkcraft](https://github.com/Vincentwei1021/video-talkcraft) — 开源 AI 解说视频生成项目。把**口播稿 + 配音**直接生成动态解说视频，适合产品测评、知识讲解、AI 工具介绍、企业宣传与课程视频；与 video-shotcraft 组合可搭出自动生成产品宣传片的 AI 视频 Agent
 - [ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) — 1439 张 AI 人像姿势参考图库（中文版，开源）。支持「改成这个姿势」式指令调用，免费、商用与二次编辑均允许，解决 AI 生成人像时姿势单一、构图缺参考的问题；[在线浏览](https://ai-pose-gallery.anhao.app/)
 - [marketing-skill-hub](https://github.com/aronhy/marketing-skill-hub) — **出海海外营销 Agent Skills 技能库**（默认美国市场）。装进 Claude Code / Codex / Cursor 等智能体即可化身海外增长团队，覆盖 9 大核心技能模块：`growth-strategy`（90 天出海计划与竞品调研）、`paid-ads`（Meta/Google/TikTok 广告搭建与防封）、`ad-copy`（地道英语多角度文案）、`ugc-video`（3 秒钩子脚本与逐帧拆解）、`ads-optimization`（素材关停与 CPA 诊断）、`cold-outreach`（冷邮件与开发信序列）、`email-marketing`（弃单与召回邮件自动化）、`conversational-sales`（私域销售话术库）、`social-media`（社媒矩阵运营）；内置中英双语 80+ 核心术语表与新手 100 问，支持共享产品档案 `product-context.md` 免重复问询
@@ -52,15 +52,15 @@ date: "2026-05-05"
 ### 热点监控
 
 - [SoPilot](https://sopilot.net/zh) — X 上正在起爆话题与推文监控
-- [Today热榜](https://tophub.today) — 今日多平台热榜聚合
+- [Today 热榜](https://tophub.today) — 今日多平台热榜聚合
 - [NewsNow](https://newsnow.busiyi.world) — 精美实时热榜
 - [AIHOT](https://aihot.news) — 卡兹克全球 AI 热门动态
 - **AIHOT Agent**（卡兹克）— 定时汇报 AI 当天重点新闻，并可据热点生成 X/小红书等内容草稿
-- [X榜单](https://xbangdan.com/) — 中文区 X 博主数据门户，每小时更新当日发帖/评论/涨粉/曝光四个维度的榜单与纪录殿堂；另提供 [X榜单 MCP](https://xbangdan.com/mcp/)，接上 Claude Code / Codex / Cursor 后可用自然语言查爆款推文、查账号数据、看今日热点（付费订阅：999 元/年，每天 300 次查询，只读不碰账号）
+- [X 榜单](https://xbangdan.com/) — 中文区 X 博主数据门户，每小时更新当日发帖/评论/涨粉/曝光四个维度的榜单与纪录殿堂；另提供 [X 榜单 MCP](https://xbangdan.com/mcp/)，接上 Claude Code / Codex / Cursor 后可用自然语言查爆款推文、查账号数据、看今日热点（付费订阅：999 元/年，每天 300 次查询，只读不碰账号）
 
 ---
 
-## Claude Skills 精选（2026年）
+## Claude Skills 精选（2026 年）
 
 > 来源：[@sylvainxai](https://x.com/i/status/2037772956483678532) 整理
 
@@ -90,7 +90,7 @@ date: "2026-05-05"
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — Heygen 出品的 AI 视频/帧处理开源项目
 - [超级符的 AI 产品经理课](https://chaojifeng.me/ai-terms) — 免费学习 AI 的网站，用故事一步步教会你怎么在 AI 时代做产品经理，知识付费进入免费时代
 - [wong2/cf-mailroom](https://github.com/wong2/cf-mailroom) — 待查看
-- [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从"执行者"转变为"项目经理"，通过持续跟进协助头脑风暴和需求文档生成
+- [superpowers](https://github.com/superhuman/superpowers) — 将 AI 从“执行者”转变为“项目经理”，通过持续跟进协助头脑风暴和需求文档生成
 - [Paseo Orchestration Skills](https://paseo.sh/docs/skills) — Paseo 官方多 Agent 编排指令技能集，为编程 Agent 提供任务委托、上下文交接与交叉评审指令，安装命令 `npx skills add getpaseo/paseo`。包含四大核心技能：`/paseo`（基准参考，根据 Profile 规约智能调度模型与提供商）、`/paseo-handoff`（任务交接，携带进度、决策、约束与验收标准完整转移至新 Agent/独立 Worktree）、`/paseo-committee`（委员会规划，派发两个独立高推理 Agent 并行做根因分析）、`/paseo-advisor`（第二意见顾问，不改代码给出专业评审）
 - [mattpocock/skills](https://github.com/mattpocock/skills) — TypeScript 大神 Matt Pocock（前 Vercel 工程师）的 AI 编程工作流技能库，27 万星，18 个技能，MIT 协议
   - 安装：`npx skills@latest add mattpocock/skills`
@@ -104,12 +104,12 @@ date: "2026-05-05"
 
 - [vercel-react-best-practices](https://github.com/vercel/react-best-practices) — 巩固团队开发标准，涵盖可读性、性能和边缘案例处理
 - [vue-best-practices](https://github.com/vuejs/core) — 标准化组件边界、状态管理和复用策略
-- [frontend-design](https://github.com/anthropic/frontend-design) — 使用 Tailwind/shadcn/ui 生成高质量 HTML/CSS/React 代码，聚焦间距和对齐避免"AI风味"
+- [frontend-design](https://github.com/anthropic/frontend-design) — 使用 Tailwind/shadcn/ui 生成高质量 HTML/CSS/React 代码，聚焦间距和对齐避免“AI 风味”
 - [ui-ux-pro-max-skill](https://github.com/ui-ux-pro-max/ui-ux-pro-max-skill) — 跨平台设计（Web、iOS、Android）、响应式布局和设计系统管理
 - [web-design-guidelines](https://github.com/web-design-guidelines) — 将网页设计规则系统化：层次结构、排版、无障碍
 - [building-native-ui](https://github.com/building-native-ui) — React Native/Expo 原生 UI 步骤，避免平台差异和手势错误
 - [remotion-best-practices](https://github.com/remotion-dev/remotion-best-practices) — 可编程视频项目标准，聚焦项目结构和渲染性能
-- [openclaw/test-audit](https://github.com/openclaw/openclaw/blob/main/.agents%2Fskills%2Ftest-audit%2FSKILL.md) — OpenClaw 官方测试审计技能，三种模式（Authoring/Audit/Campaign）清理低价值测试。核心理念：①写新测试前必须回答 4 个问题（保护什么行为？什么回归会触发失败？现有覆盖为何漏掉？是否需要仅测试用的生产接口？），缺一不写；②识别 14 种"垃圾测试模式"（断言自由覆盖率探针、自比较、常量字符串判断、重复契约调用、测试专用导出维护等）；③Campaign 模式可一次性修剪整个子系统的测试面；④OpenClaw 自身实践：删掉约 40 万行测试代码，覆盖率几乎没掉——因为模型特别爱写"为了测试而测试"的无用单元测试，建议给 Agent 更狠的目标："删掉最没用的 20% 测试，覆盖率波动控制在 2% 以内"而非模糊的"清理一下"
+- [openclaw/test-audit](https://github.com/openclaw/openclaw/blob/main/.agents%2Fskills%2Ftest-audit%2FSKILL.md) — OpenClaw 官方测试审计技能，三种模式（Authoring/Audit/Campaign）清理低价值测试。核心理念：①写新测试前必须回答 4 个问题（保护什么行为？什么回归会触发失败？现有覆盖为何漏掉？是否需要仅测试用的生产接口？），缺一不写；②识别 14 种“垃圾测试模式”（断言自由覆盖率探针、自比较、常量字符串判断、重复契约调用、测试专用导出维护等）；③Campaign 模式可一次性修剪整个子系统的测试面；④OpenClaw 自身实践：删掉约 40 万行测试代码，覆盖率几乎没掉——因为模型特别爱写“为了测试而测试”的无用单元测试，建议给 Agent 更狠的目标：“删掉最没用的 20% 测试，覆盖率波动控制在 2% 以内”而非模糊的“清理一下”
 - [ub-mode](https://github.com/unclebob/ub-mode) — **Uncle Bob 亲写**，《代码整洁之道》作者为 AI 编程 Agent 出的规则集，两天 1200+ Star。核心是 152 行的 SKILL.md，把「先让功能可用（First Make it Work），再把代码写好（Then Make it Right）」翻译成 Agent 可执行、可校验的约束。三阶段：①**先让功能可用**——最小改动约束（一个业务判断只能存在于一处）、前置定义数据结构、领域模型阻断非法状态、判别联合在类型层杜绝非法值、外部数据只在边界解析一次、禁止屏蔽编译器告警、业务逻辑纯函数化、操作幂等、共享可变状态强制单一写入者、TDD 强制先写失败测试且禁止写无效测试充数；②**再把代码写好**——修复根因而非加防御性判断、拆成可独立验证的微小单元、测行为不测实现（函数体清空测试还能过就删掉），并用 crapper / dryer / mutator 三个工具建立量化门禁；③**工程实践**——记录操作日志、控制上下文窗口占用、临时 worktree 清理（未提交的本地修改必须交人工确认）、小步提交且每个 commit 写清 Why / What changed / How you proved it。放进 Claude Code / Codex / Grok 技能目录用 `/ub-mode` 调用，精简自 [@poteto](https://github.com/poteto) 的 poteto-mode / pstack
   - [crapper](https://github.com/unclebob/crapper) — 跨 6 语言（Clojure / Java / Go / TypeScript-JS / Rust / Python）的复杂度 × 覆盖率联合度量，用 CRAP 公式 `CRAP = CC² × (1−coverage)³ + CC` 给每个函数打分；ub-mode 要求每个函数 **CRAP < 10**（注意：CC=10 的函数即使覆盖率 100% 也只能得 10 分，**只补测试无法达标，必须拆分**）。默认阈值 30，严守 10 以下需传 `--threshold 9.99`
   - [dryer](https://github.com/unclebob/dryer) — 跨语言**结构性重复**检测，针对大模型「复用已有逻辑只换变量名」的通病。计算归一化 AST 结构指纹的 Jaccard 相似度（剥离局部变量名/字段名/字面量，保留调用名/运算符/树形）；ub-mode 要求消除**相似度 ≥ 0.8** 的重复块。默认阈值 0.95，需传 `--threshold 0.8`；默认跳过少于 4 行或归一化节点少于 20 个的短函数
@@ -121,7 +121,7 @@ date: "2026-05-05"
 - [planning-with-files](https://github.com/planning-with-files) — 自动维护 todo.md 和 plan.md 跟踪任务状态，防止无限循环
 - [ralph-wiggum](https://github.com/ralph-wiggum) — planning-with-files 的执行伙伴，负责执行具体计划任务
 - [book-to-skill](https://github.com/virgiliojr94/book-to-skill) — **36.9K Stars**，把任意技术书籍 PDF、EPUB、DOCX、Markdown、HTML、RTF、MOBI 或整个文档文件夹蒸馏为统一的 Agent Skill，遵循 Agent Skills 开放标准，可在 GitHub Copilot CLI、Amp、Claude Code、Codex、Hermes Agent、OpenCode、OpenClaw 中边工作边查引用
-- [document-skills](https://github.com/anthropic/document-skills) — 官方"四大技能"：Docx、Xlsx、Pptx 和 PDF 完整套件
+- [document-skills](https://github.com/anthropic/document-skills) — 官方“四大技能”：Docx、Xlsx、Pptx 和 PDF 完整套件
 - [obsidian-skills](https://github.com/obsidianmd/obsidian-skills) — 自动化知识库管理、双向链接优化和 Canvas 功能
 - [Markitdown](https://github.com/dstearle/markitdown) — 将 PDF、PPT、图片、音频和 ZIP 转换为 Markdown
 - [notebooklm-skill](https://github.com/notebooklm/skill) — 将视频字幕和 PDF 集成到云知识库
@@ -147,7 +147,7 @@ date: "2026-05-05"
 
 ### 核心洞察
 
-> 该生态系统代表了从"一次性输出"到"可复用工作流"的转变。通过"安装"专家的专业知识，用户降低了入门门槛，超越了复杂的提示工程。AI 不再只是你指挥的工具——它是一个能计划和执行的协作伙伴。
+> 该生态系统代表了从“一次性输出”到“可复用工作流”的转变。通过“安装”专家的专业知识，用户降低了入门门槛，超越了复杂的提示工程。AI 不再只是你指挥的工具——它是一个能计划和执行的协作伙伴。
 
 ---
 
@@ -155,7 +155,7 @@ date: "2026-05-05"
 
 - [stitch-skills](https://github.com/google-labs-code/stitch-skills) — **8.1K Stars**，Google Labs 出品的 Agent Skills 库，配套 Google Stitch MCP 服务器，遵循 Agent Skills 开放标准，兼容 Codex/Antigravity/Gemini CLI/Claude Code/Cursor/OpenCode。三大插件包：stitch-design（code-to-design/generate-design/manage-design-system/extract-design-md/extract-static-html/upload-to-stitch）、stitch-build（react-components/react-native/remotion/shadcn-ui/react-vite-dashboard）、stitch-utilities（design-md/enhance-prompt/stitch-loop/taste-design）
 - [diagram-design](https://github.com/cathrynlavery/diagram-design) — **19K Stars**，29 种编辑级图表类型（架构图/流程图/时序图/状态机/ER/时间线/泳道/四象限/树/组织图/Venn/金字塔/雷达/循环/甘特图等），单文件自包含 HTML+SVG，无阴影无 Mermaid-slop。支持 Claude Code/Codex/Pi 三大 Agent 平台，60 秒通过 onboarding 匹配品牌色/字体。支持 draw.io/Mermaid 导入重绘，可选可访问动效，PNG/SVG 导出。设计理念：1 个强调色、1-2 个焦点元素、所有尺寸按 4px 网格、密度目标 4/10
-- [Taste Skill](https://github.com/Leonxlnx/taste-skill) — 22.7K Stars，给 AI 编程好品味的技能包，专门解决 AI 生成 UI 的"塑料味"问题，让 AI 输出更像"人写的"。单句≤25字、禁用词表、TDD 式质量铁律，22,704 stars
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) — 22.7K Stars，给 AI 编程好品味的技能包，专门解决 AI 生成 UI 的“塑料味”问题，让 AI 输出更像“人写的”。单句≤25 字、禁用词表、TDD 式质量铁律，22,704 stars
 - [Vercel 设计规范 Review](https://vercel.com/design) — 用 Claude 读取 Vercel 设计规范文档，对比你的产品设计挑毛病。Prompt 模板：「请访问 vercel.com/design.md 和 vercel.com/design.dark.md，读取 Vercel 的设计规范。然后看看我的产品，对比这套规范，告诉我我现在设计上最明显的问题是什么，以及怎么改。」
 - [bggg-skills](https://github.com/bggg-ai/bggg-skills) — 饼干（@bggg_ai）的 Codex Skills 仓库
   - [bggg-creator-image2psd](https://github.com/bggg-ai/bggg-skills/tree/main/bggg-creator-image2psd) — 设计精修 Skill，将图片转换为 PSD 格式搞定设计师
@@ -177,7 +177,7 @@ date: "2026-05-05"
 
 - [k12-teacher-skills](https://github.com/anthropics/k12-teacher-skills) — Anthropic 开源的教师备课神器，把教育研究验证过的最佳实践封装成 AI 可执行的「技能脚本」。三大功能：教案生成（自动识别科目加载教学法框架，对标州课程标准编号，一次产出教师计划/学生材料/观察模板三份 Word）、教案分层改编（低于/达标/高于年级水平三层，用于大班差异化教学）、开源质量评分标准（evals/ 四维度 CSV 评分表，支持 LLM-as-Judge）
 - [Glarity](https://chromewebstore.google.com/detail/cmnlolelipjlhfkhpohphpedmkfbobjc) — Chrome 扩展，AI 助手，支持自定义 OpenAI API Key，免费使用全部功能
-- [Easy Scraper](https://chromewebstore.google.com/detail/cljbfnedccphacfneigoegkiieckjndh) — Chrome 扩展，网页数据采集工具，无需编码，支持智能选择/批量采集/CSV或Excel导出/自动翻页
+- [Easy Scraper](https://chromewebstore.google.com/detail/cljbfnedccphacfneigoegkiieckjndh) — Chrome 扩展，网页数据采集工具，无需编码，支持智能选择/批量采集/CSV 或 Excel 导出/自动翻页
 - [SiteSucker](https://ricks-apps.com/osx/sitesucker/) — Mac 网站下载工具，完整下载 HTML/图片/视频/音频等所有资源，保持目录结构，支持断点续传/离线浏览
 - [小飞兔](https://www.xiaofeitu.com/) — 批量整站下载工具，收费订阅支持批量扒站，免费版可用但代码识别需手工修正
 - [Lighthouse](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk) — Google 开发的网站性能检测工具，分析性能/可访问性/最佳实践/SEO/PWA，提供详细优化建议
@@ -185,15 +185,15 @@ date: "2026-05-05"
 - [One API](https://github.com/songquanpeng/one-api) — **37.3K Stars**，MIT 协议的开源 LLM API 管理与分发系统。**用标准 OpenAI API 格式访问所有大模型**，开箱即用：支持 OpenAI、Azure OpenAI、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问等多家渠道统一接入，提供渠道管理、负载均衡、令牌计费与用量统计、自定义渠道接入等能力，适合作为多模型统一网关与团队内部 API 分发层
 - [Recordly](https://github.com/webadderallorg/Recordly) — **36K Stars**，开源桌面录屏 + 演示视频编辑器，AGPL-3.0。**零剪辑技能出片**：自动缩放高亮操作区域、光标美化与平滑移动、动效强调、把成片放进带壁纸/配色/渐变/模糊/内边距/阴影的样式边框，支持 MP4 与 GIF 导出及可再编辑的工程文件。macOS 14+（原生 ScreenCaptureKit）、Windows 10+（原生 WGC + WASAPI 音频）、Linux（Electron 采集 API，Wayland 走系统选择器）三平台通吃
 - [技能商店 Skill Store](https://github.com/anbeime/skill) — AI 技能的 App Store，每 24 小时自动同步 awesome-agent-skills，收录最全更新最快的 AI Agent 技能库
-- [AgentKey](https://agentkey.app/@cirila) — 一句话命令安装到 Codex/龙虾/Claude Code，自动化采集小红书、抖音、快手、B站、微博、知乎、Youtube 等平台公开内容、评论、点赞、转发，降低调研搬运门槛
-- [career-assets-skill](https://github.com/Ivor-NCUT/career-assets-skill) — 职业资产 Agent Skill，通过读材料和深度访谈沉淀长期职业主档（`职业经历.md`），针对岗位派生可迭代简历，投递/面试反馈回流更新主档；核心差异：不是润色简历而是从真实经历和证据出发构建可复用的长期资产，包含"保真底稿"与"强化建议"双层机制确保真实性
+- [AgentKey](https://agentkey.app/@cirila) — 一句话命令安装到 Codex/龙虾/Claude Code，自动化采集小红书、抖音、快手、B 站、微博、知乎、Youtube 等平台公开内容、评论、点赞、转发，降低调研搬运门槛
+- [career-assets-skill](https://github.com/Ivor-NCUT/career-assets-skill) — 职业资产 Agent Skill，通过读材料和深度访谈沉淀长期职业主档（`职业经历.md`），针对岗位派生可迭代简历，投递/面试反馈回流更新主档；核心差异：不是润色简历而是从真实经历和证据出发构建可复用的长期资产，包含“保真底稿”与“强化建议”双层机制确保真实性
 - [jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) — 剪映/Capcut/即梦 AI 内容创作相关 Skill
 - [AI-Coding-Guide-Zh](https://github.com/KimYx0207/AI-Coding-Guide-Zh) — 中文 AI Coding 指南
 - [xiaohu-ip-studio](https://github.com/xiaohailabs/xiaohu-ip-studio) — IP Studio
 - [doodle-little-world](https://github.com/foxbitcoo/doodle-little-world) — 待查看
 - [visual-model](https://github.com/sharptoolbox/visual-model) — 待查看
 - [claude-gh-skills](https://github.com/wscffaa/claude-gh-skills) — Claude GitHub Skills
-- [ponytail](https://github.com/DietrichGebert/ponytail) — **60k+ Stars**，让 AI 学会极致偷懒的规则集，代码量平均减少54%，Token成本降20%，安全零妥协
+- [ponytail](https://github.com/DietrichGebert/ponytail) — **60k+ Stars**，让 AI 学会极致偷懒的规则集，代码量平均减少 54%，Token 成本降 20%，安全零妥协
 - [gaokaomath](https://github.com/deekur/gaokaomath) — 高考数学相关资源
 - [gaokaophysics](https://github.com/deekur/gaokaophysics) — 高考物理相关资源
 - [open-source-cs](https://github.com/ForrestKnight/open-source-cs) — 开源计算机科学学习资源
@@ -216,13 +216,13 @@ date: "2026-05-05"
 - [ppt-master](https://github.com/hugohe3/ppt-master) — PPT 大师
 - [baoyu-design](https://github.com/JimLiu/baoyu-design) — 设计相关 Skill
 - [gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) — Gmail 账号批量创建自动化
-- [小耳私人工具库](https://xiaoer-tools-wall.vercel.app/) — 审美、AI艺术、网页相关的酷炫工具合集，不是爬虫采集而是作者手动一个一个拷贝记录在 Notion 中的个人累积
+- [小耳私人工具库](https://xiaoer-tools-wall.vercel.app/) — 审美、AI 艺术、网页相关的酷炫工具合集，不是爬虫采集而是作者手动一个一个拷贝记录在 Notion 中的个人累积
 - [follow-builders](https://github.com/zarazhangrui/follow-builders) — AI 驱动的信息聚合工具，追踪 AI 领域顶尖建造者（研究员、创始人、产品经理、工程师）的最新动态，每日/每周推送到 Telegram、Discord、邮件等，支持 Claude Code 和 OpenClaw
 - [vibe-to-ui](https://github.com/MonkeyUI-dev/vibe-to-ui) — Agent Skills 将截图、图片、音乐转化为设计系统、动效语言和 UI 布局，支持 Claude Code、Cursor、Github Copilot
 - [browser-harness](https://github.com/browser-use/browser-harness) — 浏览器自动化工具，适合 Hermes / OpenClaw 等 Agent 操纵浏览器执行复杂任务，相比 CDP/MCP 方案更轻量易用
 - [Lightpanda](https://github.com/lightpanda-io/browser) — Zig 从零写的无头浏览器，100 页面内存 123MB，内置 MCP Server，支持 Puppeteer/Playwright
 - [Midscene.js](https://github.com/web-infra-dev/midscene) — 视觉智能体 SDK，让 AI 看懂屏幕像人类一样操作，跨平台（Web/PC/Android/iOS/鸿蒙），模型无关，13k+ stars
-- [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — **5.4万+ Stars**，把 Stripe/Linear/Figma/Vercel 等顶级品牌的设计系统整理成 DESIGN.md 文件，AI 编程工具可直接读取，包含配色/字体/组件/布局/响应式规则/设计语气，覆盖 AI 工具、开发工具、设计工具、金融/Crypto、消费品牌。把设计系统变成 AI 可直接读取的工程文件。
+- [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — **5.4 万+ Stars**，把 Stripe/Linear/Figma/Vercel 等顶级品牌的设计系统整理成 DESIGN.md 文件，AI 编程工具可直接读取，包含配色/字体/组件/布局/响应式规则/设计语气，覆盖 AI 工具、开发工具、设计工具、金融/Crypto、消费品牌。把设计系统变成 AI 可直接读取的工程文件。
 - [Paperclip](https://github.com/paperclipai/paperclip) — 协调多种 Agent（OpenClaw、Codex、Claude、Cursor）共同完成目标
 - [Open CoDesign](https://github.com/OpenCoworkAI/open-codesign) — 开源 Claude Design 替代品，5.8k stars，支持 Claude/GPT/Gemini/Ollama 等多模型，一键导入 Claude Code / Codex 配置，本地优先，MIT 协议
 - [DBX](https://github.com/t8y2/dbx) — Rust 写的轻量级跨平台数据库管理工具，25MB 支持 100+ 数据库（MySQL/PostgreSQL/SQLite/Redis/MongoDB/DuckDB/达梦等），内置 AI SQL 助手（自然语言生成 SQL，支持 Claude/OpenAI/Ollama，内置安全检查）和 MCP Server（Claude Code/Cursor/Windsurf 等 Agent 可直接查询数据库），桌面端 + Docker + CLI + Web，Apache-2.0 协议，20.8k stars
@@ -262,8 +262,8 @@ date: "2026-05-05"
 - [VMark](https://github.com/xiaolai/vmark) — **718 Stars**，李笑来开源的 AI 原生 Markdown 编辑器，支持 MCP 协议直连 Claude/Codex/Gemini，AI 直接读写本地文档不需复制粘贴，中日韩排版规则本地优先，ISC 协议
 - [arch-diagram-skill](https://github.com/bassnova42/arch-diagram-skill) — **98 Stars**，RokoAI 出品的 Claude Code / Codex 架构图 Skill：给它一个 GitHub 仓库、技术文章、PDF 或本地项目，读懂结构后画出会动的架构图（HTML / PNG / MP4 / GIF / Mermaid），底部带实时 trace log（光点到达终点即追加「时间·类型·A → B·说明」）。**不套模板**——先判断是分层系统、流水线、带循环的流程、中心辐射、泳道还是层级树再决定画法；**颜色有含义**——元素按种类上色、连线按流向类型（请求/写入/回传/异步）区分颜色与虚实、分组框表示包含关系；**内置自检**——用无头 Chrome 检查元素重叠、文字溢出、连线穿框、标签被遮挡并自动改到干净；**8 种风格**同一份 spec 一句话切换（暗夜终端 terminal / 晒图蓝图 blueprint / 牛皮纸制图 drafting / 白板手绘 whiteboard / 粗野撞色 brutalism / 荧光终端 crt / 柔光卡片 saas / 等距沙盘 isometric），且**换风格不动结构、文字与坐标**；**图的语言跟着提示词走**（中/英/日提问即出对应语言图，代码标识符保持原样，图例内置中英日韩西泰）。安装 `npx @rokoai/arch-diagram install`（需 Node ≥ 18 + Chrome/Chromium/Edge，视频与 GIF 另需 ffmpeg），也支持 Claude Code / Codex 插件市场。MIT 协议
 - [edgetunnel](https://github.com/cmliu/edgetunnel) — **41.1k Stars**，基于 Cloudflare Workers/Pages 的 VLESS/Trojan/SS 多功能面板，支持订阅系统和多平台客户端适配
-- [OpenWorker](https://github.com/andrewyng/openworker) — 吴恩达开源的桌面 AI 助手，自动处理文档/日程/邮件等杂事，支持 25+ 工具（GitHub/Slack/Jira/Notion/Gmail/Google日历），模型灵活（OpenAI/Claude/Gemini/DeepSeek/Ollama），隐私本地存储
-- [ego-lite](https://lite.ego.app/zh-cn) — 为 AI Agent 打造的"最快浏览器"，基于 Chromium 的一键迁移 Chrome 数据的 Agent 浏览器，免费无配置。核心特性：①ego-browser 技能，一个安装即可被 Claude Code/Codex/Cursor/Kiro/Hermes/OpenClaw/OpenCode 等所有 Agent 操控；②Semantic Snapshot 内置在定制 Chromium 引擎中（非 JS 适配层），Snapshot 返回更快、ref 操作更可靠，可访问跨域 iframe、Shadow DOM、Stripe/Salesforce/Intercom/React Portal 等第三方 SDK；③Agent 在独立 Space 中运行，与用户互不干扰，支持多任务并行，最高快 3.45 倍，Token 消耗更低；④Agent 继承用户真实登录态，不再卡在验证码/双重验证/SSO；⑤零费用零配置，仅 Mac 版
+- [OpenWorker](https://github.com/andrewyng/openworker) — 吴恩达开源的桌面 AI 助手，自动处理文档/日程/邮件等杂事，支持 25+ 工具（GitHub/Slack/Jira/Notion/Gmail/Google 日历），模型灵活（OpenAI/Claude/Gemini/DeepSeek/Ollama），隐私本地存储
+- [ego-lite](https://lite.ego.app/zh-cn) — 为 AI Agent 打造的“最快浏览器”，基于 Chromium 的一键迁移 Chrome 数据的 Agent 浏览器，免费无配置。核心特性：①ego-browser 技能，一个安装即可被 Claude Code/Codex/Cursor/Kiro/Hermes/OpenClaw/OpenCode 等所有 Agent 操控；②Semantic Snapshot 内置在定制 Chromium 引擎中（非 JS 适配层），Snapshot 返回更快、ref 操作更可靠，可访问跨域 iframe、Shadow DOM、Stripe/Salesforce/Intercom/React Portal 等第三方 SDK；③Agent 在独立 Space 中运行，与用户互不干扰，支持多任务并行，最高快 3.45 倍，Token 消耗更低；④Agent 继承用户真实登录态，不再卡在验证码/双重验证/SSO；⑤零费用零配置，仅 Mac 版
 - [Paseo](https://github.com/getpaseo/paseo)（[Skills 编排文档](https://paseo.sh/docs/skills)） — **14.5k Stars**，一个界面编排多个 AI 编程 Agent（Claude Code / Codex / Copilot / OpenCode / Pi），自托管本地运行，跨设备（桌面/手机/Web/CLI/浏览器），支持语音控制、多 Agent 并行、工作区隔离。5000+ commits、1.5k forks，活跃度高。Skill 命令：`/paseo-handoff`（Agent 交接）、`/paseo-advisor`（顾问模式）、`/paseo-committee`（多 Agent 委员会）。支持 Docker 自托管、TypeScript SDK、CLI、VS Code 扩展。主要创建者 Mohamed Boudra（GitHub: boudra），北非马格里布裔背景，主要活动在西班牙巴塞罗那/Reus，个人主页 moboudra.com。组织 getpaseo，AGPL-3.0 协议，仓库含中文/日文/韩文 README
   - **同类项目（Paseo 定位：自托管 daemon + 多端客户端 + 多 Agent 编排，AGPL-3.0）**：
     - **Orca** — 并行跑多个 CLI Agent（Claude Code/Codex/OpenCode/Pi），每个独立 git worktree，带终端/浏览器/diff 审查/移动端，偏 ADE（Agent Development Environment）
@@ -274,11 +274,11 @@ date: "2026-05-05"
     - **Crystal** — 并行 Codex/Claude Code session + worktree
 - [video-shotcraft](https://vincentwei1021.github.io/video-shotcraft/) — **106 个镜头配方、162 种风格、161 个动态预览**，分镜/运镜/节奏/音效/Remotion 实现整理成 Agent Skill，视频创作技能库
 - [hyperframes-motion-director](https://github.com/geekjourneyx/hyperframes-motion-director) — 宣传片 Agent Skill，视频创作工作流
-- [Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube视频搬运流水线，自动监控更新/下载/字幕生成/翻译/质检/AI改标题，双平台上传（B站+AcFun），支持企业微信推送
-- [Bento](https://github.com/nyblnet/bento) — 开源HTML PPT工具，单HTML文件实现编辑+全屏播放+多人协作，JSON明文格式适合AI修改迭代，动效炫酷
-- [UP](https://github.com/byoungd/up) — 英语学习全面指南，56W star，涵盖认知/单词/听力/阅读/口语/写作六大板块，含AI辅助学英语（GPT语音模型听说读写训练）
-- [nop-app-erp](https://github.com/entropy-cloud/nop-app-erp) — AI全自主开发中型ERP产品（吸引子引导工程实践），GLM coding plan 7*24小时运行1个月，可看AI演化全过程及人工介入时机
-- [attractor-guided-engineering-template](https://github.com/entropy-cloud/attractor-guided-engineering-template) — Mission Driver Loop Engineering参考实现，AI全自主执行，释放AI生产力
+- [Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube 视频搬运流水线，自动监控更新/下载/字幕生成/翻译/质检/AI 改标题，双平台上传（B 站+AcFun），支持企业微信推送
+- [Bento](https://github.com/nyblnet/bento) — 开源 HTML PPT 工具，单 HTML 文件实现编辑+全屏播放+多人协作，JSON 明文格式适合 AI 修改迭代，动效炫酷
+- [UP](https://github.com/byoungd/up) — 英语学习全面指南，56W star，涵盖认知/单词/听力/阅读/口语/写作六大板块，含 AI 辅助学英语（GPT 语音模型听说读写训练）
+- [nop-app-erp](https://github.com/entropy-cloud/nop-app-erp) — AI 全自主开发中型 ERP 产品（吸引子引导工程实践），GLM coding plan 7*24 小时运行 1 个月，可看 AI 演化全过程及人工介入时机
+- [attractor-guided-engineering-template](https://github.com/entropy-cloud/attractor-guided-engineering-template) — Mission Driver Loop Engineering 参考实现，AI 全自主执行，释放 AI 生产力
 - [SEOnaut](https://github.com/StJudeWasHere/seonaut) — 开源网站 SEO 体检工具，Go + MIT。自动检查死链、重定向、重复 Meta 标签等问题，适合自建 CI 里的 SEO 门禁
 - [SerpBear](https://github.com/towfiqi/serpbear) — 自部署关键词排名监控系统，TypeScript + MIT。持续追踪 Google 排名变化，免费替代 Ahrefs 的排名追踪模块
 - [OpenSEO](https://github.com/every-app/open-seo) — 开源 SEO 工具集，TypeScript + MIT。涵盖关键词研究、排名追踪、网站审计，需要配置数据 API
@@ -318,7 +318,7 @@ date: "2026-05-05"
 ## AI Agent 入门
 
 - [hello-generic-agent](https://github.com/datawhalechina/hello-generic-agent) — Datawhale 出品的 Generic Agent 教程，18 章，覆盖安装/浏览器能力/四层记忆/自我进化/案例，404 stars
-- [ai-agent-book](https://github.com/bojieli/ai-agent-book) — 李博杰著，开源电子书，[在线阅读](https://bojieli.github.io/ai-agent-book/)，含 [PDF 下载](https://github.com/bojieli/ai-agent-book/blob/main/book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.2.pdf)。《深入理解 AI Agent：设计原理与工程实践》，分享大量实践经验和判断，告诉做 Agent 各个方面面临什么问题、怎么解决、有哪些坑。核心价值：Agent 架构设计原则——cache 优化设计是必须的、工具描述的核心是让 LLM 知道"什么时候用"而不只是"能做什么"、Code Agent 是通用 Agent 核心元能力。作者兼具深厚理论功底和工程判断力
+- [ai-agent-book](https://github.com/bojieli/ai-agent-book) — 李博杰著，开源电子书，[在线阅读](https://bojieli.github.io/ai-agent-book/)，含 [PDF 下载](https://github.com/bojieli/ai-agent-book/blob/main/book/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3-AI-Agent-%E6%9D%8E%E5%8D%9A%E6%9D%B0-v1.2.pdf)。《深入理解 AI Agent：设计原理与工程实践》，分享大量实践经验和判断，告诉做 Agent 各个方面面临什么问题、怎么解决、有哪些坑。核心价值：Agent 架构设计原则——cache 优化设计是必须的、工具描述的核心是让 LLM 知道“什么时候用”而不只是“能做什么”、Code Agent 是通用 Agent 核心元能力。作者兼具深厚理论功底和工程判断力
 - [hello-agents](https://github.com/datawhalechina/hello-agents) — Datawhale 出品的零基础 Agent 入门教程
   - [在线阅读](https://hello-agents.datawhale.cc/#/) — Web 版本
 - [build-coding-agent-context-engineering](https://github.com/phodal/build-coding-agent-context-engineering) — 从 Prompt 到上下文工程构建 AI Agent，零基础指南
@@ -334,7 +334,7 @@ date: "2026-05-05"
 - [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — 435 lessons, 20 phases, ~320 hours，Python/TypeScript/Rust/Julia 四语言，从数学基础到 Agent 自主系统，每课产出可复用 artifact
 - [Skill-Factory](https://github.com/FeiCoder/Skill-Factory) — Book2Skills：把人类专业书籍自动转化为 LLM Agent 可执行的标准化 Skill 包，基于 Mini-Agent 开发
 - [gnhf](https://github.com/kunchenguid/gnhf) — "Good Night, Have Fun"，让 AI 替你熬夜改代码，全自动循环 + Git 提交 + 回滚重试 + Worktree 多实例
-- [Agent 入门实践](https://nano-ai.tech/agent/) — 用 Claude 做的可视化 Agent 教学栏目，**10 章**：一次调用、工具调用、Agent Loop、上下文窗口、规划、记忆、MCP 与 Skills、子 Agent、失败模式、实战拆解。核心是那个"一格一格播"播放器：左边代码（黄色高亮当前执行行），右边实时显示此刻的上下文（system/user/assistant/工具结果各一色，新加的块亮黄、外框变黄表示整个上下文正发给模型），下方 token 计量条每调一次模型加一条（浅色=重发历史，深色=本轮新增）——**看完就明白 Agent 为什么跑久了又贵又慢**。建议先看第 3 章 Agent Loop，看懂那十几行后面每章都是往上加东西
+- [Agent 入门实践](https://nano-ai.tech/agent/) — 用 Claude 做的可视化 Agent 教学栏目，**10 章**：一次调用、工具调用、Agent Loop、上下文窗口、规划、记忆、MCP 与 Skills、子 Agent、失败模式、实战拆解。核心是那个“一格一格播”播放器：左边代码（黄色高亮当前执行行），右边实时显示此刻的上下文（system/user/assistant/工具结果各一色，新加的块亮黄、外框变黄表示整个上下文正发给模型），下方 token 计量条每调一次模型加一条（浅色=重发历史，深色=本轮新增）——**看完就明白 Agent 为什么跑久了又贵又慢**。建议先看第 3 章 Agent Loop，看懂那十几行后面每章都是往上加东西
 
 ---
 
@@ -362,16 +362,16 @@ date: "2026-05-05"
 - [上下文工程：AI Agent 有效上下文设计](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic 官方工程博客
   - [为 Agent 编写工具](https://www.anthropic.com/engineering/writing-tools-for-agents) — Anthropic 官方工程博客
 - [anthropics/commerce-agents](https://github.com/anthropics/commerce-agents) — Anthropic 官方电商/商业场景 Agent 参考实现，涵盖结账、退款、订单状态查询等商业流程的 Agent 化方案
-- [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) — **21.7k Stars**，官方风格 Harness Engineering 教程（MIT，TypeScript），**14 lectures + 8 projects + 15 种语言**。定位："构建让 AI coding agent 可靠工作的环境、状态管理、验证与控制机制"。每讲回答一个核心问题——L01 强模型为何在真实任务上仍失败 / L02 harness 到底是什么（**五个子系统：指令、状态、验证、范围、生命周期**）/ L03 仓库为何必须是唯一事实源 / L04 渐进式披露（给地图不是百科）/ L05 长任务连续性（进度落盘）/ L06 初始化为何要独立阶段 / L07 过度扩张与草率收尾 / L08 功能清单是 harness 原语（机器可读的范围边界）/ L09 虚假胜利（自信≠正确）/ L10 端到端测试才算真验证 / L11 可观测性属于 harness 内部 / L12 每次会话必须留下干净状态 / L13 循环工程（目标循环/定时循环/maker-checker 分离）/ L14 图工程（单循环何时该长成图）。8 个项目用同一个 Electron App 贯穿：最小 harness 对照、Agent 可读工作区、多会话连续性、增量索引、接地 QA 验证、运行时可观测与调试、完整 harness 毕业设计等；另含 Frontier Harness Design Breakdowns 专题拆解
+- [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) — **21.7k Stars**，官方风格 Harness Engineering 教程（MIT，TypeScript），**14 lectures + 8 projects + 15 种语言**。定位：“构建让 AI coding agent 可靠工作的环境、状态管理、验证与控制机制”。每讲回答一个核心问题——L01 强模型为何在真实任务上仍失败 / L02 harness 到底是什么（**五个子系统：指令、状态、验证、范围、生命周期**）/ L03 仓库为何必须是唯一事实源 / L04 渐进式披露（给地图不是百科）/ L05 长任务连续性（进度落盘）/ L06 初始化为何要独立阶段 / L07 过度扩张与草率收尾 / L08 功能清单是 harness 原语（机器可读的范围边界）/ L09 虚假胜利（自信≠正确）/ L10 端到端测试才算真验证 / L11 可观测性属于 harness 内部 / L12 每次会话必须留下干净状态 / L13 循环工程（目标循环/定时循环/maker-checker 分离）/ L14 图工程（单循环何时该长成图）。8 个项目用同一个 Electron App 贯穿：最小 harness 对照、Agent 可读工作区、多会话连续性、增量索引、接地 QA 验证、运行时可观测与调试、完整 harness 毕业设计等；另含 Frontier Harness Design Breakdowns 专题拆解
 - [OpenHarness](https://github.com/HKUDS/OpenHarness) — Python Harness 实现 + ohmo 个人 Agent，内置 43 tools、MCP、权限系统，12.4k stars
 - [12-factor-agents](https://github.com/humanlayer/12-factor-agents) — **23.8k Stars**，HumanLayer 出品的「**生产级 LLM Agent 12 原则**」，致敬 12 Factor Apps。核心理念——**好的 Agent 大部分时间就是普通软件，LLM 只在最关键节点做决策**，不是「prompt + 工具袋 + 循环跑」那么简单。12 因素：①自然语言→工具调用 ②自己管 prompt ③自己管 context window ④工具=结构化输出 ⑤统一执行态和业务态 ⑥启停/恢复用简单 API ⑦用工具调用联系人类 ⑧自己管控制流 ⑨错误压回 context ⑩小而聚焦的 Agent ⑪任意地方触发 ⑫Agent=无状态 reducer。配套 `npx create-12-factor-agent` 脚手架
 
 ## 架构实战案例
 
-- [loopx](https://github.com/loopx-project/loopx) — 长周期 Agent 控制平面，6k stars。在 Codex/Claude Code/Cursor/dsh 等 Harness 之上提供持久化目标、门禁、Todo、证据、配额和交接，让多日级工程/研究/实验类任务可复盘、可恢复、可交接；不替换 Harness，而是作为"Agent 原生看板"层；v1.0.3，Apache 2.0 许可证。LHTB 基准：GPT-5.6 Sol 下 mean reward 0.4948，比 Plain Codex +17.3%，比原生 Codex Goal +10.6%
+- [loopx](https://github.com/loopx-project/loopx) — 长周期 Agent 控制平面，6k stars。在 Codex/Claude Code/Cursor/dsh 等 Harness 之上提供持久化目标、门禁、Todo、证据、配额和交接，让多日级工程/研究/实验类任务可复盘、可恢复、可交接；不替换 Harness，而是作为“Agent 原生看板”层；v1.0.3，Apache 2.0 许可证。LHTB 基准：GPT-5.6 Sol 下 mean reward 0.4948，比 Plain Codex +17.3%，比原生 Codex Goal +10.6%
 - [Alioth](https://github.com/CosmicTools9/Alioth) — **9 Stars**，CosmicTools 开发的 PostgreSQL 表继承数据模型，基于群论与交换本体论，将经济行为形式化为四维正交空间 `(Scene, Factor, Function, State)` 内的对称操作，为企业数据管理提供数学严格的基础；MIT 许可证
   - [dsh-alioth](https://github.com/CosmicTools9/dsh-alioth) — **2 Stars**，为 DeepSeek Harness（dsh）开发的 Alioth 应用创建框架，对话式驱动企业应用生成器，用户描述应用后插件组在 Alioth 实体注册表中注册业务实体，通过确定性程序化管道发出 AliothStudio 可导入的产物（`app.json`/`module.json`/extensions/prototype/Sources 骨架），LLM 仅提供结构化参数和语义决策，从不直接生成产物文本；Apache-2.0 许可证
-- [dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll) — **810 Stars**，DeepSeek Harness（dsh）插件：每天替你刷一轮 B站。按关键词搜近几天视频，**逐条读字幕原文再判断**（不看摘要），没字幕的演示类视频先从 B站故事板抽帧看画面，读不到才跳过；写 Markdown 日报到 `out/<日期>.md`，每条含「为什么值得」+「它自己的一句话」，段首固定写成 `### BV号` 便于统计条数；开着「自动评论」时每轮发一条评论 @ 你。还支持按 DeepSeek 优惠时段自动跑以省 token；需 dsh ≥ `0.1.7-rc.1`（版本不满足内核会**静默跳过**该插件，不报错）；MIT 许可证
+- [dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll) — **810 Stars**，DeepSeek Harness（dsh）插件：每天替你刷一轮 B 站。按关键词搜近几天视频，**逐条读字幕原文再判断**（不看摘要），没字幕的演示类视频先从 B 站故事板抽帧看画面，读不到才跳过；写 Markdown 日报到 `out/<日期>.md`，每条含「为什么值得」+「它自己的一句话」，段首固定写成 `### BV号` 便于统计条数；开着「自动评论」时每轮发一条评论 @ 你。还支持按 DeepSeek 优惠时段自动跑以省 token；需 dsh ≥ `0.1.7-rc.1`（版本不满足内核会**静默跳过**该插件，不报错）；MIT 许可证
 - [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness) — DeepSeek 官方的 Agent Harness：模型负责生成，DSH 让模型调用工具、执行任务，插件负责连接各平台。Windows 本地部署基线为 Node.js 24，用 `npm.cmd install --global @deepseek-ai/dsh` 装固定命令入口（`.cmd` 后缀可避开同名 PowerShell 脚本的执行策略问题，**不要为此改整台电脑的执行策略**）；配合 `dsh-im` 接 QQ / 微信机器人、`dsh-bili-scroll` 刷 B 站。踩坑提示：腾讯微信渠道文档未声明支持普通微信群，扫码成功不等于能进群；账号准入问题换人设或重装插件解决不了
   - [dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) — DeepSeek 官方开源的主动型 Coding Agent 原型系统。核心宗旨「少占人注意力，多产出价值」：Router-Worker 前后台解耦与注意力纪律、事件驱动与 Thread 串行一致性（不可变 Trigger + 队列合批）、异步 ReAct Loop 5 秒转后台、版本化 Policy 与不可变 Mandate 授权单、Stored Work 先记账后动手（Outbox 发件箱 + 恢复便签断点续跑），以及独立现场 Watchdog 监工
   - [dsh-market](https://github.com/dsh-market/dsh-market) — **10.7k Stars**，DeepSeek Harness 内的**可视化插件市场**（MIT，[dshmarket.com](https://dshmarket.com)）。dsh ≥ 0.2.1 时它是 Plugins 页紧邻 Installed 的「Plugin Market」标签页，更早在 Settings → Plugin Market。浏览搜索 **4200+ 社区插件**并一键安装；装前按插件声明的 `engines.dsh` 做**宿主兼容性校验**（只隐藏确认不兼容的，未声明/损坏的一律保留可见）；AppStore 式截图轮播、GitHub Discussions 评论区（giscus）、收藏 / 分组 / 自写备注、主题一键切换即时生效、插件清单 JSON 导出导入 + WebDAV 与私有 Gist 备份（恢复为**合并**语义）、逐插件与批量更新（带「变更了什么」链接）、中国下载区的 GitHub 多级回退路由与自定义代理、**插件加载顺序与冲突诊断页**（重复 loader、依赖版本错配、多版本核心包、残留目录）+ 一键复制「AI 修复」提示词、启动失败时的 **Adjust plugins** 恢复助手（标红被 DSH 归责的插件、勾选后再启动）、脱敏日志导出、pnpm 缺失时的一键自动安装。**安装源只允许来自 curated `awesome-dsh-plugin` 注册表**，构建脚本默认被 pnpm 拦截。装法：`dsh plugin --profile <profile> add dshmarket`；若本机装了 DSH Desktop，命令行装进的是 `profiles/web` 而非桌面端所用 profile，需走桌面端「设置 → 插件」
@@ -513,7 +513,7 @@ date: "2026-05-05"
 
 ### Felix 个人 AI 工作流
 
-- [我的常用 AI 工具](https://mp.weixin.qq.com/s/BBUc4NVORsCTF8c3dIX3HQ) — Felix（AI观察志）：本地助理 Hermes+Mac mini / 飞书+lark-cli / Codex+Claude+GLM / Obsidian+Claudian / PPT工具链，完整个人 AI 工作流
+- [我的常用 AI 工具](https://mp.weixin.qq.com/s/BBUc4NVORsCTF8c3dIX3HQ) — Felix（AI 观察志）：本地助理 Hermes+Mac mini / 飞书+lark-cli / Codex+Claude+GLM / Obsidian+Claudian / PPT 工具链，完整个人 AI 工作流
 
 ### 个人高频使用的 10 个 AI 与自媒体生产力产品
 

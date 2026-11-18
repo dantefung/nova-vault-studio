@@ -19,15 +19,15 @@ The diagram below is a pragmatic cheat sheet with the use cases and key design p
 
 ## Key Design Points
 
-*   Authentication
-*   Authorization
-*   Encryption
-*   Vulnerability
-*   Audit & Compliance
-*   Network Security
-*   Terminal Security
-*   Emergency Responses
-*   Container Security
-*   API Security
-*   3rd-Party Vendor Management
-*   Disaster Recovery
+* Authentication
+* Authorization
+* Encryption
+* Vulnerability
+* Audit & Compliance
+* Network Security
+* Terminal Security
+* Emergency Responses
+* Container Security
+* API Security
+* 3rd-Party Vendor Management
+* Disaster Recovery

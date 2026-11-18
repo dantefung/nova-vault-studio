@@ -51,8 +51,8 @@ openclaw onboard --provider zhipu-cn
    - 智谱 AI: https://bigmodel.cn → 控制台 → API Keys
 
 3. **选择模型**
-   - MiniMax 推荐: `MiniMax-M2.1`
-   - 智谱推荐: `glm-4.7`
+   - MiniMax 推荐：`MiniMax-M2.1`
+   - 智谱推荐：`glm-4.7`
 
 4. **确认配置**
    - 向导会自动写入配置文件

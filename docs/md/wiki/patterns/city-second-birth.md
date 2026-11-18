@@ -11,7 +11,7 @@ url: "https://mp.weixin.qq.com/s/oMY2FWh-ztDDLX-7Jd9QbA"
 
 ## 核心观点
 
-> 人只有意识到自己的命运能够被改变，才不会循规蹈矩的像NPC一样活着。
+> 人只有意识到自己的命运能够被改变，才不会循规蹈矩的像 NPC 一样活着。
 
 ## 四个维度
 
@@ -32,7 +32,7 @@ url: "https://mp.weixin.qq.com/s/oMY2FWh-ztDDLX-7Jd9QbA"
 ### 3. 脱离原有惯性
 
 - 人很容易被惯性束缚，思维、行为模式、人际关系都会变成固定模式
-- 换城市不是简单的搬家，而是主动接受"新的刺激源"，选择一种新的人生算法
+- 换城市不是简单的搬家，而是主动接受“新的刺激源”，选择一种新的人生算法
 - 有时候鲁莽的涌现远比精打细算的思考来的更加直接有效
 
 ### 4. 大城市意味着更近
@@ -50,5 +50,5 @@ url: "https://mp.weixin.qq.com/s/oMY2FWh-ztDDLX-7Jd9QbA"
 
 ## 相关
 
-- [[single-threaded-imagination]] — NPC式活在固定模式里
+- [[single-threaded-imagination]] — NPC 式活在固定模式里
 - [[ninth-month-recap]] — 环境塑造人

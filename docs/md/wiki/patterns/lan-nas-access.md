@@ -16,7 +16,7 @@ url: "https://mp.weixin.qq.com/s/m_y0k7Gm15vZn9EVHgyUEQ"
 - 扫描的家庭文件
 - 电子书、影视收藏
 
-NAS 不可能开公网，公网 NAS 也是反模式。你只能把数据传上云，而那就违反了"all in one 本地"的整个前提。
+NAS 不可能开公网，公网 NAS 也是反模式。你只能把数据传上云，而那就违反了“all in one 本地”的整个前提。
 
 ## 解决方案
 

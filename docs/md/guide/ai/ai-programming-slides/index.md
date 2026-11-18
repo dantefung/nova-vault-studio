@@ -39,19 +39,19 @@ url: ""
 
 以下为分享中使用的主要幻灯片：
 
-![幻灯片1](images/0.webp)
+![幻灯片 1](images/0.webp)
 
-![幻灯片2](images/1.webp)
+![幻灯片 2](images/1.webp)
 
-![幻灯片3](images/2.webp)
+![幻灯片 3](images/2.webp)
 
-![幻灯片4](images/3.webp)
+![幻灯片 4](images/3.webp)
 
-![幻灯片5](images/4.webp)
+![幻灯片 5](images/4.webp)
 
-![幻灯片6](images/5.webp)
+![幻灯片 6](images/5.webp)
 
-![幻灯片7](images/6.webp)
+![幻灯片 7](images/6.webp)
 
 ---
 

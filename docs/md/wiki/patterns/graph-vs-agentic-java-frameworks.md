@@ -11,7 +11,7 @@ url: ""
 
 ## Problem Context
 
-Java 开发者要在 2026 年搭建一个 AI 应用，面临第一个问题是：用 Graph 范式还是 Agentic 范式？前者代表"流程可控、模型能力受限换稳定"，后者代表"模型自由发挥、流程弱控制换灵活"。两种思路都声称自己能解决企业落地问题，选错了代价是显著的重写成本。
+Java 开发者要在 2026 年搭建一个 AI 应用，面临第一个问题是：用 Graph 范式还是 Agentic 范式？前者代表“流程可控、模型能力受限换稳定”，后者代表“模型自由发挥、流程弱控制换灵活”。两种思路都声称自己能解决企业落地问题，选错了代价是显著的重写成本。
 
 ## Solution
 
@@ -28,7 +28,7 @@ Java 开发者要在 2026 年搭建一个 AI 应用，面临第一个问题是�
 
 - **核心理念**：智能体 = 模型 + 最小原语（read/write/edit/bash 即可），让模型自己决定
 - **典型能力**：ReActAgent、Memory、Context Engineering——其他功能由模型自己组合
-- **优势**：模型能力上限高；当模型足够强时，Agentic 范式能利用模型的"常识 + 推理"，减少工程脚手架
+- **优势**：模型能力上限高；当模型足够强时，Agentic 范式能利用模型的“常识 + 推理”，减少工程脚手架
 - **代价**：流程可控性弱；调试、审计、可解释性更难
 
 ### 选择框架
@@ -43,7 +43,7 @@ Java 开发者要在 2026 年搭建一个 AI 应用，面临第一个问题是�
 
 ## 生态融合趋势
 
-Java 智能体框架正在从"二选一"走向"融合"：Spring AI Alibaba 团队已宣布未来会在底层全面支持 AgentScope，提供 AgentScope Starter 和 AgentScope Runtime Starter。这意味着未来的 Java 应用可以：
+Java 智能体框架正在从“二选一”走向“融合”：Spring AI Alibaba 团队已宣布未来会在底层全面支持 AgentScope，提供 AgentScope Starter 和 AgentScope Runtime Starter。这意味着未来的 Java 应用可以：
 - 使用 Spring 生态（Boot/Cloud/Gateway/Nacos 等）作为集成层
 - 在需要 Agentic 时通过 Starter 引入 AgentScope
 - 用 Spring 的可观测/HTTP/配置 体系包住 AgentScope 的 Runtime

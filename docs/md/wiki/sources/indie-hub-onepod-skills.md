@@ -6,7 +6,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/kRrTqdWHmMV5yb7vrQ6Mww"
 ---
 
-# 小宇宙播客也能转文章了！开源  OnePod 全套 Skills
+# 小宇宙播客也能转文章了！开源 OnePod 全套 Skills
 
 % 图片已移除（原始图片未下载）
 
@@ -68,7 +68,7 @@ OnePod 现在正式支持中文播客了。
 
 Skill 地址：github.com/zephyrwang6/onepod-Skill/xiaoyuzhou-to-article
 
-它的核心是一个 270 行的 shell 脚本transcribe.sh，配合一个SKILL.md告诉 Agent 怎么调用它。
+它的核心是一个 270 行的 shell 脚本 transcribe.sh，配合一个 SKILL.md 告诉 Agent 怎么调用它。
 
 你对 Agent 说「把这个小宇宙链接转成文章」， Agent 读了 SKILL.md 就知道该跑哪个脚本、参数怎么传、输出怎么处理。
 
@@ -78,7 +78,7 @@ Skill 地址：github.com/zephyrwang6/onepod-Skill/xiaoyuzhou-to-article
 
 脚本跑完，你会拿到两份产出：一份逐字文稿，一份改写后的文章。
 
-关于语音转文字模型，可以使用免费的 Groq API Key（console.groq.com注册即得，转录成本为零）。
+关于语音转文字模型，可以使用免费的 Groq API Key（console.groq.com 注册即得，转录成本为零）。
 
 03 关于 OnePod
 
@@ -100,11 +100,11 @@ OnePod 是我用 AI 搭建的一个个人播客处理系统。它每天从我关
 
 飞书和 cloudflare 都支持 CLI，全部交给 Agent 来操作。
 
-现在 OnePod 不只有播客了，还加了AI 日报模块。它们都是通过最近比较火的 Loop Engineer 模式来做的Agent 每天自动循环运行，抓取、处理、更新、自我纠正，持续成长。
+现在 OnePod 不只有播客了，还加了 AI 日报模块。它们都是通过最近比较火的 Loop Engineer 模式来做的 Agent 每天自动循环运行，抓取、处理、更新、自我纠正，持续成长。
 
 感兴趣的话，我后面写一起讲下我怎么让这些 loop 任务运行的。
 
-到目前为止，OnePod 已经更新了100 多篇播客内容。这些让我觉得花出去的 token 没有被浪费，每一个 token 都变成了可以反复翻阅的信息资产。
+到目前为止，OnePod 已经更新了 100 多篇播客内容。这些让我觉得花出去的 token 没有被浪费，每一个 token 都变成了可以反复翻阅的信息资产。
 
 全套 Skills 开源
 
@@ -154,7 +154,7 @@ Skill 6：xiaoyuzhou-to-article — 小宇宙转文章
 
 ┌──────────────────────────────────────────────┐│  发现层                                       ││  youtube-feed (海外频道监控)                    │├──────────────────────────────────────────────┤│  提取层                                       ││  youtube-transcript-cn (YouTube 字幕)         ││  xiaoyuzhou-to-article (小宇宙音频转录) 🆕     │├──────────────────────────────────────────────┤│  处理层                                       ││  content-digest (内容提炼)                     │├──────────────────────────────────────────────┤│  输出层                                       ││  podcast-workflow (全流程编排)                  ││  podcast-script-generator (口播脚本)           ││  → 飞书知识库 / Obsidian / 网站               │└──────────────────────────────────────────────┘
 
-每个 Skill 都可以独立使用，也可以用podcast-workflow一句话串起来跑。
+每个 Skill 都可以独立使用，也可以用 podcast-workflow 一句话串起来跑。
 
 装完之后直接对 Agent 说「获取播客更新」或者发一条小宇宙链接，就能跑了。
 

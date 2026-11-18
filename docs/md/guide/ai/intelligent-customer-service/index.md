@@ -74,13 +74,13 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 
 ### 2. 混合架构双重保障
 - 不要完全依赖大模型
-- 可考虑采用"规则引擎（如 Drools）+ LLM"的混合决策机制
+- 可考虑采用“规则引擎（如 Drools）+ LLM”的混合决策机制
 - 当大模型服务异常或置信度极低时，可自动降级使用规则引擎响应
 - 注意：混合架构会增加维护成本，需评估是否适合您的场景
 
 ### 3. 灵活的转人工机制
 这是防止用户体验崩塌的最后防线，可设定多维度触发条件：
-- 用户明确发送预设拦截词（如"转人工"）
+- 用户明确发送预设拦截词（如“转人工”）
 - 多次重复相似问题
 - 情感分析模块识别出严重负面情绪（愤怒）
 - 对系统答案点差评
@@ -105,14 +105,14 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 **表现**：客服机器人被用户绕过系统限制，回答了无关话题（如闲聊、写诗或恶意引导），存在极高的商业风险
 
 **解决方案**：
-- 不能仅靠在 System Prompt 中要求"不要回答无关问题"
+- 不能仅靠在 System Prompt 中要求“不要回答无关问题”
 - 必须在流程最前端增加毒性/边界检测节点
 - 使用 Few-Shot 示例让 LLM 预先判断用户输入是否属于业务范围（输出 Yes 或 No）
 - 如果是越界问题，立即切入异常流程委婉拒绝
 
 ### 失败模式 2：多轮对话导致的上下文搜索失效
 
-**表现**：用户追问"这个参数默认值是多少？"时，由于代词缺失，直接送入向量数据库检索会找不到相关文档
+**表现**：用户追问“这个参数默认值是多少？”时，由于代词缺失，直接送入向量数据库检索会找不到相关文档
 
 **解决方案**：
 - 在检索前加入问题重写（Revise Question）机制
@@ -173,15 +173,15 @@ url: "https://notebooklm.google.com/notebook/9b79c405-a227-434d-b0f0-3f8752e6fe7
 
 | 序号 | 文档 | 说明 |
 |------|------|------|
-| 13 | [架构演进路径（基于 Dify）](./13-architecture-evolution.md) | Dify→完整架构：现有架构分析、17项Dify能力对照、四阶段演进 |
-| 14 | [意图分类：准确性与速度优化](./14-intent-classification.md) | 入口层优化：Prompt格式、置信度体系、nano模型选型、CICLe路由 |
+| 13 | [架构演进路径（基于 Dify）](./13-architecture-evolution.md) | Dify→完整架构：现有架构分析、17 项 Dify 能力对照、四阶段演进 |
+| 14 | [意图分类：准确性与速度优化](./14-intent-classification.md) | 入口层优化：Prompt 格式、置信度体系、nano 模型选型、CICLe 路由 |
 | 15 | [渐进式 AI 编程](./15-progressive-ai-programming.md) | 外部转载：微信公众号文章 |
 | 16 | [知识库检索不准？看我们是如何做的](./19-rag-knowledge-base-optimization.md) | 实战经验：企业级知识库 RAG + Graph RAG 优化方案 |
 | 17 | [LightRAG 使用经验总结](./20-lightrag-experience.md) | 实战经验：top_k/chunk_top_k 调优、排查召回失效、数据清洗与图谱质量 |
 | 18 | [智能客服系统搭建指南](./16-customer-service-building-guide.md) | 实战指南：从零搭建企业级智能客服，含完整代码和架构 |
 | 19 | [RAG 知识库搭建方案分析](./17-rag-building-scheme-analysis.md) | 方案分析：多种 RAG 方案的对比与选型 |
 | 20 | [意图分类深度分析](./18-intent-classification-analysis.md) | 深度分析：意图分类准确率优化方法与实践经验 |
-| 21 | [如何构建一个更"好"的知识库？](./21-building-better-knowledge-base.md) | RAGAS 评估体系、切分策略、混合检索、重排序与前沿架构 |
+| 21 | [如何构建一个更“好”的知识库？](./21-building-better-knowledge-base.md) | RAGAS 评估体系、切分策略、混合检索、重排序与前沿架构 |
 | 22 | [企业智能助手的实践分享(LLM/RAG)](./22-enterprise-ai-assistant-practice.md) | 智能运维助手落地：关键挑战与避坑指南 |
 | 23 | [RAG 准确率翻倍的优化实践](./23-rag-accuracy-optimization.md) | 文档解析到生成的全链路优化优先级 |
 

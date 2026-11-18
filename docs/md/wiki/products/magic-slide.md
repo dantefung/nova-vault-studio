@@ -3,7 +3,7 @@ title: "Magic Slide（HTML演示稿生成）"
 date: "2026-06-11"
 ---
 
-# Magic Slide（HTML演示稿生成）
+# Magic Slide（HTML 演示稿生成）
 
 > A skill that generates polished self-contained HTML presentations with smooth Magic Move-style slide transitions. 给一段内容，直接生成 HTML 演示稿，带平滑转场和完整视觉系统。
 

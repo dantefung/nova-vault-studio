@@ -12,18 +12,18 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 ### 文章目录
 
-*   *   [一、前言](#_3)
-    *   [二、ThreadLocal](#ThreadLocal_6)
-    *   *   [1、ThreadLocal 关键 API](#1ThreadLocal__API_7)
-        *   [2、ThreadLocal 存储结构](#2ThreadLocal__19)
-        *   [3、ThreadLocal 局限性](#3ThreadLocal__28)
-    *   [三、InheritableThreadLocal](#InheritableThreadLocal_70)
-    *   *   [1、InheritableThreadLocal 的特性](#1InheritableThreadLocal__111)
-        *   [2、InheritableThreadLocal 局限性](#2InheritableThreadLocal__148)
-    *   [四、TransmittableThreadLocal](#TransmittableThreadLocal_236)
-    *   *   [1、TransmittableThreadLocal 实现原理](#1TransmittableThreadLocal__329)
-        *   [2、整个过程的完整时序图](#2_388)
-    *   [五、小结](#_401)
+* * [一、前言](#_3)
+    * [二、ThreadLocal](#ThreadLocal_6)
+    * * [1、ThreadLocal 关键 API](#1ThreadLocal__API_7)
+        * [2、ThreadLocal 存储结构](#2ThreadLocal__19)
+        * [3、ThreadLocal 局限性](#3ThreadLocal__28)
+    * [三、InheritableThreadLocal](#InheritableThreadLocal_70)
+    * * [1、InheritableThreadLocal 的特性](#1InheritableThreadLocal__111)
+        * [2、InheritableThreadLocal 局限性](#2InheritableThreadLocal__148)
+    * [四、TransmittableThreadLocal](#TransmittableThreadLocal_236)
+    * * [1、TransmittableThreadLocal 实现原理](#1TransmittableThreadLocal__329)
+        * [2、整个过程的完整时序图](#2_388)
+    * [五、小结](#_401)
 
 一、前言
 ----
@@ -50,14 +50,14 @@ public void remove() ;
 
 ### 2、ThreadLocal [存储结构](https://so.csdn.net/so/search?q=%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84&spm=1001.2101.3001.7020)
 
-上述 API 使用简单，关键是要理解 ThreadLocal 的内部存储结构：  
+上述 API 使用简单，关键是要理解 ThreadLocal 的内部存储结构： 
 ![][img-0]
 
 ThreadLocal 的存储结构是这样的：
 
-*   每个 Thread 维护一个 ThreadLocalMap 映射表，这个映射表的 key 是 ThreadLocal 实例本身，value 是真正需要存储的 Object。
-*   **也就是说 ThreadLocal 本身并不存储值，它只是作为一个 key 来让线程从 ThreadLocalMap 获取 value**。
-*   ThreadLocal 能在每个线程间进行隔离，其主要是靠在每个 Thread 对象中维护一个 ThreadLocalMap 来实现的。
+* 每个 Thread 维护一个 ThreadLocalMap 映射表，这个映射表的 key 是 ThreadLocal 实例本身，value 是真正需要存储的 Object。
+* **也就是说 ThreadLocal 本身并不存储值，它只是作为一个 key 来让线程从 ThreadLocalMap 获取 value**。
+* ThreadLocal 能在每个线程间进行隔离，其主要是靠在每个 Thread 对象中维护一个 ThreadLocalMap 来实现的。
 
 ### 3、ThreadLocal 局限性
 
@@ -109,9 +109,9 @@ public class ThreadLocalDemo {
 三、InheritableThreadLocal
 ------------------------
 
-由于 ThreadLocal 在父子线程交互中子线程无法访问到存储在父线程中的值，无法满足某些场景的需求，例如链路跟踪，例如如下场景：  
-![][img-1]  
-为了解决上述问题，JDK 引入了 InheritableThreadLocal，即子线程可以访问父线程中的线程本地变量，更严谨的说法是子线程可以访问在创建子线程时父线程当时的本地线程变量，**因为其实现原理就是在创建子线程将父线程当前存在的本地线程变量拷贝到子线程的本地线程变量中**。  
+由于 ThreadLocal 在父子线程交互中子线程无法访问到存储在父线程中的值，无法满足某些场景的需求，例如链路跟踪，例如如下场景： 
+![][img-1] 
+为了解决上述问题，JDK 引入了 InheritableThreadLocal，即子线程可以访问父线程中的线程本地变量，更严谨的说法是子线程可以访问在创建子线程时父线程当时的本地线程变量，**因为其实现原理就是在创建子线程将父线程当前存在的本地线程变量拷贝到子线程的本地线程变量中**。 
 ThreadLocal 的拷贝发生在：当前线程生成子线程实例的时候。如果当前线程的 inheritableThreadLocals 属性不为空，就会把该属性拷贝到子线程的 inheritableThreadLocals 属性中。
 
 Thread 的 init 相关逻辑如下：
@@ -151,7 +151,7 @@ private ThreadLocalMap(ThreadLocalMap parentMap) {
 
 类似于 Map 的复制，只不过其在 Hash 冲突时，不是使用链表结构，而是直接在数组中找下一个为 null 的槽位。
 
-> 温馨提示：  
+> 温馨提示： 
 > 子线程默认拷贝父线程的方式是浅拷贝，如果需要使用深拷贝，需要使用自定义 ThreadLocal，继承 InheritableThreadLocal 并重写 childValue 方法。
 
 ### 1、InheritableThreadLocal 的特性
@@ -282,7 +282,7 @@ parent:Thread-5:0
 
 从这里可以看出，**子线程中输出的父线程名称与下标 index 无法一一对应，在子线程中出现出现了线程本地变量混乱的现象，在链路跟踪与全链路压测出现这种情况是致命的**。
 
-怎么解决这个问题呢？  
+怎么解决这个问题呢？ 
 **TransmittableThreadLocal ” 闪亮登场 “。**
 
 四、TransmittableThreadLocal
@@ -393,14 +393,14 @@ TransmittableThreadLocal 类继承并加强 InheritableThreadLocal 类，解决�
 
 相比`InheritableThreadLocal`，添加了：
 
-*   protected 方法 copy  
+* protected 方法 copy 
     用于定制 任务提交给线程池 的 ThreadLocal 值传递到任务执行时的拷贝行为，缺省传递的是引用。
-*   protected 方法 `beforeExecute`/`afterExecute`  
+* protected 方法 `beforeExecute`/`afterExecute` 
     执行任务 (`Runnable`/Callable`) 的前 / 后的生命周期回调，缺省是空操作。
 
 简单来说，有个专门的 TtlRunnable 和 TtlCallable 包装类，用于读取原 Thread 的 ThreadLocal 对象及值并存于 Runnable/Callable 中，在执行 run 或者 call 方法的时候再将存于 Runnable/Callable 中的 ThreadLocal 对象和值读取出来，存入调用 run 或者 call 的线程中。
 
-以 TtlRunnable 为例，构造函数如下:
+以 TtlRunnable 为例，构造函数如下：
 
 ```
 private final AtomicReference<Object> capturedRef;
@@ -415,7 +415,7 @@ private TtlRunnable(Runnable runnable, boolean releaseTtlValueReferenceAfterRun)
 }
 ```
 
-capture 函数的复制过程如下:
+capture 函数的复制过程如下：
 
 ```
 @Nonnull
@@ -453,16 +453,16 @@ public void run() {
 
 ### 2、整个过程的完整[时序图](https://so.csdn.net/so/search?q=%E6%97%B6%E5%BA%8F%E5%9B%BE&spm=1001.2101.3001.7020)
 
-![][img-2]  
+![][img-2] 
 根据时序图的步骤来说明：
 
-1.  createTtl()、setTtlValue() 其实就是调用 TransmittableThreadLocal 的线程上下文值，ttlValue 就是上下文中的值；
-2.  createBizTaskRunnable 就是执行业务的线程，createTtlRunnableWrapper(Runnable) 就是使用 TtlRunnable.get() 来封装了 Runnable，捕获操作 captureAllTtlValues 就是发生这里；
-3.  下面就进入到了时序图中 captureAllTtlValues、get()、copy(T value) 的实现；
-4.  submitTtlRunnableToThreadPool、run() 对应线程池开始执行任务；
-5.  接下来就进入到了时序图中的 beforeExecute、replayCapturedTtlValues() 方法；
-6.  时序图中 run、useValueInTtl 即对应到业务 Runnable 中的实现，因为此时已经完成重放操作，子线程中可以使用父线程的 ttlValue；
-7.  后面就是使用备份的子线程上下变量 backup 来恢复子线程的上下文环境，避免因为重放导致子线程的上下文环境被污染。对应到时序图中的 restoreTtlValueBeforeReplay，afterExecute。
+1. createTtl()、setTtlValue() 其实就是调用 TransmittableThreadLocal 的线程上下文值，ttlValue 就是上下文中的值；
+2. createBizTaskRunnable 就是执行业务的线程，createTtlRunnableWrapper(Runnable) 就是使用 TtlRunnable.get() 来封装了 Runnable，捕获操作 captureAllTtlValues 就是发生这里；
+3. 下面就进入到了时序图中 captureAllTtlValues、get()、copy(T value) 的实现；
+4. submitTtlRunnableToThreadPool、run() 对应线程池开始执行任务；
+5. 接下来就进入到了时序图中的 beforeExecute、replayCapturedTtlValues() 方法；
+6. 时序图中 run、useValueInTtl 即对应到业务 Runnable 中的实现，因为此时已经完成重放操作，子线程中可以使用父线程的 ttlValue；
+7. 后面就是使用备份的子线程上下变量 backup 来恢复子线程的上下文环境，避免因为重放导致子线程的上下文环境被污染。对应到时序图中的 restoreTtlValueBeforeReplay，afterExecute。
 
 源码如有兴趣的可以自己去看下。
 
@@ -473,13 +473,13 @@ public void run() {
 
 示例代码：
 
-*   https://github.com/zuozewei/blog-example/tree/master/Performance-testing/04-full-link/springboot-threadlocal-demo
+* https://github.com/zuozewei/blog-example/tree/master/Performance-testing/04-full-link/springboot-threadlocal-demo
 
 参考资料：
 
-*   [1]：https://cloud.tencent.com/developer/article/1478240
-*   [2]：https://fredal.xin/async-threadlocal-in-all-link-tracking
-*   [3]：http://www.cxyzjd.com/article/hosaos/102679619
+* [1]：https://cloud.tencent.com/developer/article/1478240
+* [2]：https://fredal.xin/async-threadlocal-in-all-link-tracking
+* [3]：http://www.cxyzjd.com/article/hosaos/102679619
 
  
 

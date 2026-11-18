@@ -41,7 +41,7 @@ date: "2026-04-29"
 
 ### 长时间运行
 
-- [ralph-wiggum](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-wiggum) — 官方 Stop Hook 守护插件，任务未完成时自动重试，真正实现"无人值守"编程
+- [ralph-wiggum](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-wiggum) — 官方 Stop Hook 守护插件，任务未完成时自动重试，真正实现“无人值守”编程
 - [long-run-agent](https://github.com/hotjp/long-run-agent) — 长耗时任务守护脚本，自动恢复网络波动或超时中断的对话
 - [claude-auto-resume](https://github.com/terryso/claude-auto-resume) — 专为长耗时任务设计，自动检测并恢复 Claude 对话
 - [24hours](https://github.com/kuangjiajia/24hours) — Claude Code 长时运行方案
@@ -77,7 +77,7 @@ date: "2026-04-29"
 
 - [如何创作高质量提示词（入门版）](https://gaoguzhiyaotizhi-gaiyao-x63qbdd.gamma.site/)
 - [smart-prompt](https://github.com/datawhalechina/smart-prompt) — Datawhale 提示词工程
-- [12factor](https://github.com/wquguru/12factor) — 提示词工程12要素
+- [12factor](https://github.com/wquguru/12factor) — 提示词工程 12 要素
 - [Pingdior/usingSkills](https://github.com/pingdior/usingSkills)
 - [PromptFill](https://github.com/TanShilongMario/PromptFill/tree/main)
 - [12factor.me Prompt Engineering](https://www.12factor.me/zh/prompt-engineering)
@@ -151,7 +151,7 @@ date: "2026-04-29"
 - [SuperClaude Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) — 给 Claude Code 加一套工作流系统
 - [oh-my-claude](https://github.com/TechDufus/oh-my-claude)
 - [oh-my-claudecode](https://github.com/yeachan-heo/oh-my-claudecode)
-- [claude-code-blueprint](https://github.com/Aedelon/claude-code-blueprint) — 生产级 Claude Code 配置蓝图，6层架构整合 Skills/Agents/Hooks/Rules/Permissions，32个技能含 AAPEV 五阶段认知规范
+- [claude-code-blueprint](https://github.com/Aedelon/claude-code-blueprint) — 生产级 Claude Code 配置蓝图，6 层架构整合 Skills/Agents/Hooks/Rules/Permissions，32 个技能含 AAPEV 五阶段认知规范
 - [claude-gh-skills](https://github.com/wscffaa/claude-gh-skills) — Claude Code GitHub 工作流自动化技能集，覆盖 PRD→Issue→Project→实现→PR→合并全生命周期，含 gh-autopilot/gh-pr-review 等 8 个技能
 - [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)
 - [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
@@ -160,7 +160,7 @@ date: "2026-04-29"
 - [skill-dev-driver](https://github.com/yanlin-cheng/skill-dev-driver)
 - [ReActAgentsTest](https://github.com/NanGePlus/ReActAgentsTest)
 - [agents](https://github.com/wshobson/agents)
-- [pua skill](https://github.com/tanweai/pua) — 当 Claude 说"无法解决"时自动激活，4 级递进检查机制
+- [pua skill](https://github.com/tanweai/pua) — 当 Claude 说“无法解决”时自动激活，4 级递进检查机制
 - [getsentry/skills](https://github.com/getsentry/skills)
 - [nanoMCP](https://github.com/sanbuphy/nanoMCP) — 能读懂 200 行 Python 就理解了 MCP
 
@@ -198,7 +198,7 @@ date: "2026-04-29"
 - [writing-assistant-skill](https://github.com/Ceeon/writing-assistant-skill)
 - [best-minds](https://github.com/Ceeon/best-minds.git)
 - [vibe-writing](https://github.com/Tasihi89/vibe-writing-workflow)
-- [tweet-skills](https://github.com/chencore/tweet-skills) — 推文自动创作流水线，8个独立模块：采集/调研/观点/正文/去AI味/标题/结尾/串联
+- [tweet-skills](https://github.com/chencore/tweet-skills) — 推文自动创作流水线，8 个独立模块：采集/调研/观点/正文/去 AI 味/标题/结尾/串联
 - [x-article-publisher-skill](https://github.com/wshuyi/x-article-publisher-skill)
 - [notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) — Claude 自动从 NotebookLM 获取综合处理的答案
 - [Youtube-clipper-skill](https://github.com/op7418/Youtube-clipper-skill) — 利用 Claude 对视频字幕语义分析，自动生成各平台摘要和素材
@@ -396,7 +396,7 @@ date: "2026-04-29"
 
 **版本 A：极简断言型（≤140 字）**
 - 直接抛出反常识结论
-- 制造"等等，什么？"的停顿感
+- 制造“等等，什么？”的停顿感
 
 **版本 B：问题-洞察-行动型（≤200 字）**
 - 开头：让目标读者共鸣的痛点问题
@@ -418,7 +418,7 @@ date: "2026-04-29"
 **核心原则**：好内容 = 高价值信息 + 人的温度 - 机器的痕迹
 
 **去 AI 味负面清单**：
-- 禁止开头写"这是一个关于...的指南"
+- 禁止开头写“这是一个关于...的指南”
 - 禁止 AI 惯用语：综上所述、毋庸置疑、不言而喻
 - 禁止过度格式化，每段都变成列表
 - 允许节奏变化，有的地方讲故事（长），有的地方给金句（短）

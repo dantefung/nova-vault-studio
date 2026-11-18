@@ -210,7 +210,7 @@ Worker 只负责明确的文件边界和最小验证。Primary 负责合并后�
 
 ### 不要重复验证
 
-Fast 任务不需要 Worker、Primary、Reviewer 和 CI 各自运行同一套完整测试。实现者做必要的局部检查，Primary 执行一次最终验证，Reviewer审查其证据。只有高风险变更才需要阶段性和专项门禁。
+Fast 任务不需要 Worker、Primary、Reviewer 和 CI 各自运行同一套完整测试。实现者做必要的局部检查，Primary 执行一次最终验证，Reviewer 审查其证据。只有高风险变更才需要阶段性和专项门禁。
 
 ## 升级检查
 

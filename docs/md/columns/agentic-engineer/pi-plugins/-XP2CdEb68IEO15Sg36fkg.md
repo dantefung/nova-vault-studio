@@ -88,7 +88,7 @@ url: "https://mp.weixin.qq.com/s/-XP2CdEb68IEO15Sg36fkg"
 
 
 
-已关注                   关注     重播    分享     赞                                随便看看              -->           关闭观看更多更多退出全屏切换到竖屏全屏退出全屏浮之静已关注分享视频，时长02:190/000:00/02:19 切换到横屏模式 继续播放进度条，百分之0播放00:00/02:1902:19倍速全屏 倍速播放中  0.5倍  0.75倍  1.0倍  1.5倍  2.0倍  超清  流畅  您的浏览器不支持 video 标签 继续观看 Pi 1.0：为何接纳 MCP，又推出 Pi Durable？ 观看更多转载,Pi 1.0：为何接纳 MCP，又推出 Pi Durable？浮之静已关注分享点赞在看已同步到看一看写下你的评论               视频详情
+已关注 关注 重播 分享 赞 随便看看 --> 关闭观看更多更多退出全屏切换到竖屏全屏退出全屏浮之静已关注分享视频，时长 02:190/000:00/02:19 切换到横屏模式 继续播放进度条，百分之 0 播放 00:00/02:1902:19 倍速全屏 倍速播放中 0.5 倍 0.75 倍 1.0 倍 1.5 倍 2.0 倍 超清 流畅 您的浏览器不支持 video 标签 继续观看 Pi 1.0：为何接纳 MCP，又推出 Pi Durable？ 观看更多转载，Pi 1.0：为何接纳 MCP，又推出 Pi Durable？浮之静已关注分享点赞在看已同步到看一看写下你的评论 视频详情
 
 
 
@@ -220,7 +220,7 @@ ownerless 表明这个分支没有任务所有者，适合独立延续的讨论
 
 
 
-已关注                   关注     重播    分享     赞                                随便看看              -->           关闭观看更多更多退出全屏切换到竖屏全屏退出全屏浮之静已关注分享视频，时长01:490/000:00/01:49 切换到横屏模式 继续播放进度条，百分之0播放00:00/01:4901:49倍速全屏 倍速播放中  0.5倍  0.75倍  1.0倍  1.5倍  2.0倍  超清  流畅  您的浏览器不支持 video 标签 继续观看 Pi 1.0：为何接纳 MCP，又推出 Pi Durable？ 观看更多转载,Pi 1.0：为何接纳 MCP，又推出 Pi Durable？浮之静已关注分享点赞在看已同步到看一看写下你的评论               视频详情
+已关注 关注 重播 分享 赞 随便看看 --> 关闭观看更多更多退出全屏切换到竖屏全屏退出全屏浮之静已关注分享视频，时长 01:490/000:00/01:49 切换到横屏模式 继续播放进度条，百分之 0 播放 00:00/01:4901:49 倍速全屏 倍速播放中 0.5 倍 0.75 倍 1.0 倍 1.5 倍 2.0 倍 超清 流畅 您的浏览器不支持 video 标签 继续观看 Pi 1.0：为何接纳 MCP，又推出 Pi Durable？ 观看更多转载，Pi 1.0：为何接纳 MCP，又推出 Pi Durable？浮之静已关注分享点赞在看已同步到看一看写下你的评论 视频详情
 
 
 
@@ -284,7 +284,7 @@ Pi 的扩展机制也支持这样的组织方式：通过 pi.on() 参与工具
 
 
 
-[1]You Said No MCP!:https://earendil.com/posts/you-said-no-mcp[2]Pi 1.0:https://earendil.com/posts/pi-1-0[3]Pi Durable:https://earendil.com/posts/pi-durable[4]早期讨论:https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp[5]原始测量记录:https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/#problems-with-common-browser-devtools-for-your-agent[6]版本变更记录:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/CHANGELOG.md[7]默认基础工具:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/core/settings-manager.ts#L214-L215[8]MCP 默认值:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/index.ts#L128-L130[9]暴露方式映射:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/tools.ts#L35-L41[10]工具暴露文档:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/mcp.md#control-tool-exposure[11]发现接口实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/codemode/execute.ts#L447-L510[12]运行时实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/codemode/src/runtime/worker.ts#L1-L16[13]工具调用路径:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/codemode/execute.ts#L339-L386[14]Codemode 的输入和返回约定:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#call-tools[15]MCP 结果转换:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/tools.ts#L1-L10[16]输出预算与错误处理:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#scripts[17]脚本模型接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#models[18]虚拟模型文档:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/virtual-models.md[19]Codemode 状态保存:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#store-values[20]核心概念:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#concepts[21]包版本与运行环境:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/package.json[22]初始化与恢复接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#persist-and-resume[23]存储保证与限制:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#storage[24]提交去重实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/submissions.ts#L150-L166[25]工具恢复判定:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/tool.ts#L31-L113[26]钩子与 memo 接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/types.ts#L582-L587[27]自定义任务接口与示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/24-child-tasks.ts[28]子任务和取消语义:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#child-tasks[29]文档与原子提交:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/01-documents.ts[30]文档分支策略:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/types.ts#L564-L582[31]会话分支:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#more-conversations-and-forks[32]会话所有权与子智能体:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#abort-and-subagents[33]前台子智能体示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/22-subagent-foreground.ts[34]观察会话:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#watching-a-conversation[35]阈值判断实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/generation.ts#L302-L322[36]压缩接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#compaction[37]提示片段与配置:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#system-prompt[38]运行中替换示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/31-reload-and-restart.ts[39]Durable 官方说明:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md[40]可执行示例目录:https://github.com/earendil-works/pi/tree/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples[41]Claude Code Mods:https://code.claude.com/docs/en/plugins/mods/overview[42]事件机制:https://code.claude.com/docs/en/plugins/mods/events[43]界面机制:https://code.claude.com/docs/en/plugins/mods/interface[44]Pi 扩展文档:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/extensions.md[45]Mods API:https://code.claude.com/docs/en/plugins/mods/api
+[1]You Said No MCP!:https://earendil.com/posts/you-said-no-mcp[2]Pi 1.0:https://earendil.com/posts/pi-1-0[3]Pi Durable:https://earendil.com/posts/pi-durable[4]早期讨论:https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp[5]原始测量记录:https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/#problems-with-common-browser-devtools-for-your-agent[6]版本变更记录:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/CHANGELOG.md[7]默认基础工具:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/core/settings-manager.ts#L214-L215[8]MCP 默认值：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/index.ts#L128-L130[9]暴露方式映射:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/tools.ts#L35-L41[10]工具暴露文档:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/mcp.md#control-tool-exposure[11]发现接口实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/codemode/execute.ts#L447-L510[12]运行时实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/codemode/src/runtime/worker.ts#L1-L16[13]工具调用路径:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/codemode/execute.ts#L339-L386[14]Codemode 的输入和返回约定：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#call-tools[15]MCP 结果转换：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/tools.ts#L1-L10[16]输出预算与错误处理:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#scripts[17]脚本模型接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#models[18]虚拟模型文档:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/virtual-models.md[19]Codemode 状态保存：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#store-values[20]核心概念:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#concepts[21]包版本与运行环境:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/package.json[22]初始化与恢复接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#persist-and-resume[23]存储保证与限制:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#storage[24]提交去重实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/submissions.ts#L150-L166[25]工具恢复判定:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/tool.ts#L31-L113[26]钩子与 memo 接口：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/types.ts#L582-L587[27]自定义任务接口与示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/24-child-tasks.ts[28]子任务和取消语义:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#child-tasks[29]文档与原子提交:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/01-documents.ts[30]文档分支策略:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/types.ts#L564-L582[31]会话分支:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#more-conversations-and-forks[32]会话所有权与子智能体:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#abort-and-subagents[33]前台子智能体示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/22-subagent-foreground.ts[34]观察会话:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#watching-a-conversation[35]阈值判断实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/generation.ts#L302-L322[36]压缩接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#compaction[37]提示片段与配置:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#system-prompt[38]运行中替换示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/31-reload-and-restart.ts[39]Durable 官方说明：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md[40]可执行示例目录:https://github.com/earendil-works/pi/tree/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples[41]Claude Code Mods:https://code.claude.com/docs/en/plugins/mods/overview[42]事件机制:https://code.claude.com/docs/en/plugins/mods/events[43]界面机制:https://code.claude.com/docs/en/plugins/mods/interface[44]Pi 扩展文档：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/extensions.md[45]Mods API:https://code.claude.com/docs/en/plugins/mods/api
 
 
 
@@ -300,151 +300,151 @@ Pi Durable:https://earendil.com/posts/pi-durable
 
 
 
-早期讨论:https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp
+早期讨论：https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp
 
 
 
-原始测量记录:https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/#problems-with-common-browser-devtools-for-your-agent
+原始测量记录：https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/#problems-with-common-browser-devtools-for-your-agent
 
 
 
-版本变更记录:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/CHANGELOG.md
+版本变更记录：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/CHANGELOG.md
 
 
 
-默认基础工具:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/core/settings-manager.ts#L214-L215
+默认基础工具：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/core/settings-manager.ts#L214-L215
 
 
 
-MCP 默认值:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/index.ts#L128-L130
+MCP 默认值：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/index.ts#L128-L130
 
 
 
-暴露方式映射:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/tools.ts#L35-L41
+暴露方式映射：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/tools.ts#L35-L41
 
 
 
-工具暴露文档:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/mcp.md#control-tool-exposure
+工具暴露文档：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/mcp.md#control-tool-exposure
 
 
 
-发现接口实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/codemode/execute.ts#L447-L510
+发现接口实现：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/codemode/execute.ts#L447-L510
 
 
 
-运行时实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/codemode/src/runtime/worker.ts#L1-L16
+运行时实现：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/codemode/src/runtime/worker.ts#L1-L16
 
 
 
-工具调用路径:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/codemode/execute.ts#L339-L386
+工具调用路径：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/codemode/execute.ts#L339-L386
 
 
 
-Codemode 的输入和返回约定:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#call-tools
+Codemode 的输入和返回约定：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#call-tools
 
 
 
-MCP 结果转换:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/tools.ts#L1-L10
+MCP 结果转换：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/src/extensions/mcp/tools.ts#L1-L10
 
 
 
-输出预算与错误处理:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#scripts
+输出预算与错误处理：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#scripts
 
 
 
-脚本模型接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#models
+脚本模型接口：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#models
 
 
 
-虚拟模型文档:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/virtual-models.md
+虚拟模型文档：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/virtual-models.md
 
 
 
-Codemode 状态保存:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#store-values
+Codemode 状态保存：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/codemode.md#store-values
 
 
 
-核心概念:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#concepts
+核心概念：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#concepts
 
 
 
-包版本与运行环境:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/package.json
+包版本与运行环境：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/package.json
 
 
 
-初始化与恢复接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#persist-and-resume
+初始化与恢复接口：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#persist-and-resume
 
 
 
-存储保证与限制:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#storage
+存储保证与限制：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#storage
 
 
 
-提交去重实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/submissions.ts#L150-L166
+提交去重实现：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/submissions.ts#L150-L166
 
 
 
-工具恢复判定:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/tool.ts#L31-L113
+工具恢复判定：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/tool.ts#L31-L113
 
 
 
-钩子与 memo 接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/types.ts#L582-L587
+钩子与 memo 接口：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/types.ts#L582-L587
 
 
 
-自定义任务接口与示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/24-child-tasks.ts
+自定义任务接口与示例：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/24-child-tasks.ts
 
 
 
-子任务和取消语义:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#child-tasks
+子任务和取消语义：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#child-tasks
 
 
 
-文档与原子提交:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/01-documents.ts
+文档与原子提交：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/01-documents.ts
 
 
 
-文档分支策略:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/types.ts#L564-L582
+文档分支策略：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/types.ts#L564-L582
 
 
 
-会话分支:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#more-conversations-and-forks
+会话分支：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#more-conversations-and-forks
 
 
 
-会话所有权与子智能体:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#abort-and-subagents
+会话所有权与子智能体：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#abort-and-subagents
 
 
 
-前台子智能体示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/22-subagent-foreground.ts
+前台子智能体示例：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/22-subagent-foreground.ts
 
 
 
-观察会话:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#watching-a-conversation
+观察会话：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#watching-a-conversation
 
 
 
-阈值判断实现:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/generation.ts#L302-L322
+阈值判断实现：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/src/harness/generation.ts#L302-L322
 
 
 
-压缩接口:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#compaction
+压缩接口：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#compaction
 
 
 
-提示片段与配置:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#system-prompt
+提示片段与配置：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md#system-prompt
 
 
 
-运行中替换示例:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/31-reload-and-restart.ts
+运行中替换示例：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples/31-reload-and-restart.ts
 
 
 
-Durable 官方说明:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md
+Durable 官方说明：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/README.md
 
 
 
-可执行示例目录:https://github.com/earendil-works/pi/tree/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples
+可执行示例目录：https://github.com/earendil-works/pi/tree/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/durable/test/examples
 
 
 
@@ -452,15 +452,15 @@ Claude Code Mods:https://code.claude.com/docs/en/plugins/mods/overview
 
 
 
-事件机制:https://code.claude.com/docs/en/plugins/mods/events
+事件机制：https://code.claude.com/docs/en/plugins/mods/events
 
 
 
-界面机制:https://code.claude.com/docs/en/plugins/mods/interface
+界面机制：https://code.claude.com/docs/en/plugins/mods/interface
 
 
 
-Pi 扩展文档:https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/extensions.md
+Pi 扩展文档：https://github.com/earendil-works/pi/blob/7fbbd5f4a1d982bb02d63472dde0774fa639f99b/packages/coding-agent/docs/extensions.md
 
 
 

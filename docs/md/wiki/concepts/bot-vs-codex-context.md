@@ -36,7 +36,7 @@ source: "wiki-ingest"
    - 内部形成了更稳定的差异化工作流（不同渠道有独特 Agent 流程）
    - 上下文污染严重（不同渠道文风互相干扰）
 2. **跨 bot 通信效率很高**：Bot A 可以直接把信息转接给 Bot B，不需要主 bot 中转
-3. **需要一直记得的内容**：直接说"请记到共用记忆区 / bot 内专属记忆区"，或落到云电脑文档/Skill 里
+3. **需要一直记得的内容**：直接说“请记到共用记忆区 / bot 内专属记忆区”，或落到云电脑文档/Skill 里
 
 ## Related Pages
 
@@ -45,4 +45,4 @@ source: "wiki-ingest"
 
 ## Sources
 
-- 一泽Eze《Grok Bot 10条经验与multi-bots工作流设计》：x.com/eze_is_1/status/2109850538045264151
+- 一泽 Eze《Grok Bot 10 条经验与 multi-bots 工作流设计》：x.com/eze_is_1/status/2109850538045264151

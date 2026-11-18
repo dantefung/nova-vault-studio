@@ -6,24 +6,24 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/def03d968f1b46e894bd19e2516e49c8"
 ---
 
-# 如何用 GPT生成SEO 友好的网页Title和Description
+# 如何用 GPT 生成 SEO 友好的网页 Title 和 Description
 
 ## 新手入门
 
-# 如何用 GPT生成SEO 友好的网页Title和Description
+# 如何用 GPT 生成 SEO 友好的网页 Title 和 Description
 上周，哥飞在社群里跟大家分享了，使用 [https://Claude.ai](https://claude.ai/) 轻松编写好了 [https://ChineseNames.ai](https://chinesenames.ai/) 的首页代码。
 
 ![image.png](images/using-gpt-for-seo-title-description/img_002.webp)
 
-从上面的截图看到，UI还是挺不错的。
+从上面的截图看到，UI 还是挺不错的。
 
-不过呢，很多SEO细节还没有做好，如网页的 Head 部分标签缺失，特别是最重要的Title和Description都没设置。
+不过呢，很多 SEO 细节还没有做好，如网页的 Head 部分标签缺失，特别是最重要的 Title 和 Description 都没设置。
 
-所以今天哥飞给大家演示一下，哥飞平常上线一个网站，是怎么让GPT辅助编写SEO 友好的网页Title和Description。
+所以今天哥飞给大家演示一下，哥飞平常上线一个网站，是怎么让 GPT 辅助编写 SEO 友好的网页 Title 和 Description。
 
 ## 数据准备
 
-第一步，一定要记住，我们不能直接让GPT帮我们写标题和描述，我们需要做好数据准备工作。
+第一步，一定要记住，我们不能直接让 GPT 帮我们写标题和描述，我们需要做好数据准备工作。
 
 方法也很简单，打开 Similarweb 或者 Semrush 的关键词生成器，输入核心关键词，找出用户真的会搜索的关键词列表。
 
@@ -31,9 +31,9 @@ url: "https://new.web.cafe/tutorial/detail/def03d968f1b46e894bd19e2516e49c8"
 
 ![image.png](images/using-gpt-for-seo-title-description/img_003.webp)
 
-把“语句匹配”和“相关关键词”关键词列表下载为 excel 文件，合并、去重、按照搜索量从高到低排序，取前100个关键词，一行一个，只要关键词，不要数据。
+把“语句匹配”和“相关关键词”关键词列表下载为 excel 文件，合并、去重、按照搜索量从高到低排序，取前 100 个关键词，一行一个，只要关键词，不要数据。
 
-## 跟GPT对话要求生成标题 Ttitle
+## 跟 GPT 对话要求生成标题 Ttitle
 
 哥飞的提示词如下：
 
@@ -48,13 +48,13 @@ GPT 的回复如下：
 “Generated”不是哥飞想要的关键词，于是继续提新需求：
 ![image.png](images/using-gpt-for-seo-title-description/img_006.webp)
 
-这时候给出的标题已经差不多达标了，但是哥飞有更高的要求，基于 GPT给出来的，哥飞自己写了一版，让GPT润色。
+这时候给出的标题已经差不多达标了，但是哥飞有更高的要求，基于 GPT 给出来的，哥飞自己写了一版，让 GPT 润色。
 ![image.png](images/using-gpt-for-seo-title-description/img_007.webp)
 
-标题一般要求小于 60个字符，所以哥飞还要求继续缩短了一些，但是GPT写的还是太长了，于是哥飞自己又写了一版，让GPT继续润色。
+标题一般要求小于 60 个字符，所以哥飞还要求继续缩短了一些，但是 GPT 写的还是太长了，于是哥飞自己又写了一版，让 GPT 继续润色。
 ![image.png](images/using-gpt-for-seo-title-description/img_008.webp)
 
-“Interpreter” 这个单词不是哥飞 想要的，太专业了，普通人不太会写这个单词，于是让GPT从哥飞之前给出的关键词列表里找一个单词。
+“Interpreter” 这个单词不是哥飞 想要的，太专业了，普通人不太会写这个单词，于是让 GPT 从哥飞之前给出的关键词列表里找一个单词。
 ![image.png](images/using-gpt-for-seo-title-description/img_009.webp)
 
 最终，得到了如下标题，这就是哥飞想要的标题： `AI Chinese Names Generator & Meaning Explainer | ChinsesNames.ai`
@@ -67,11 +67,11 @@ GPT 的回复如下：
 
 ![image.png](images/using-gpt-for-seo-title-description/img_010.webp)
 
-“with our AI Names Generator at”这里缺少“Chinese”，哥飞要求GPT加上。
+“with our AI Names Generator at”这里缺少“Chinese”，哥飞要求 GPT 加上。
 
 ![image.png](images/using-gpt-for-seo-title-description/img_011.webp)
 
-最终，哥飞如愿得到了SEO 友好的网页Title和Description。
+最终，哥飞如愿得到了 SEO 友好的网页 Title 和 Description。
 
-大家也可以用这个方法，取跟GPT或者Claude对话，让AI辅助你编写网页标题和描述。
+大家也可以用这个方法，取跟 GPT 或者 Claude 对话，让 AI 辅助你编写网页标题和描述。
 

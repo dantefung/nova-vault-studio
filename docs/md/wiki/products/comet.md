@@ -26,7 +26,7 @@ Comet 不是替代 OpenSpec 和 Superpowers，而是合并两者强项：
 ## Key Features
 
 - **支持 28+ AI Coding 平台**
-- **嵌套 Skill 触发**：真正触发 Skill（CC 上有 Skill 触发打印），而非"看起来像触发了 Skill"
+- **嵌套 Skill 触发**：真正触发 Skill（CC 上有 Skill 触发打印），而非“看起来像触发了 Skill"
 - **多阶段自动流转**：除必要用户选择项外，核心流程自动进行 Skill 触发
 - **状态机机制**：每个流程强制验证条件
 
@@ -40,7 +40,7 @@ comet init
 
 ## What Comet Teaches
 
-1. **如何稳定触发嵌套 Skill** — 不是靠文档描述让 Agent"看起来像触发了 Skill"，而是真正触发（核心特征：CC 上有 Skill 触发的打印）
+1. **如何稳定触发嵌套 Skill** — 不是靠文档描述让 Agent”看起来像触发了 Skill"，而是真正触发（核心特征：CC 上有 Skill 触发的打印）
 2. **如何让组合 Skill 多阶段自动流转** — 不是靠人工介入，核心流程能自动进行 Skill 触发
 3. **如何使用状态机机制** — 让 Skill 每个流程强制验证条件
 

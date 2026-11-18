@@ -19,14 +19,14 @@ Initially developed by Google, Kubernetes is now maintained by CNCF (Cloud Nativ
 
 This cheat sheet contains the most important Kubernetes commands for different purposes:
 
-*   Kubernetes Setup
+* Kubernetes Setup
 
-*   General Cluster Management
+* General Cluster Management
 
-*   Kubernetes Deployments
+* Kubernetes Deployments
 
-*   Kubernetes Pod Inspection
+* Kubernetes Pod Inspection
 
-*   Troubleshooting and Configuration
+* Troubleshooting and Configuration
 
-*   Miscellaneous commands related to services, config maps, and managing ingresses.
+* Miscellaneous commands related to services, config maps, and managing ingresses.

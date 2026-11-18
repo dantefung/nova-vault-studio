@@ -5,7 +5,7 @@ date: "2026-05-27"
 
 # agent-browser
 
-> 浏览器自动化代表 — 让 Agent 从"回答问题"升级为"操作网页"
+> 浏览器自动化代表 — 让 Agent 从“回答问题”升级为“操作网页”
 
 ## Core Concept
 

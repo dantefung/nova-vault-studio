@@ -35,4 +35,4 @@ url: "https://mp.weixin.qq.com/s/joyd7o0cCbiuIvoE0tsV8A"
 
 ## 关联概念
 
-[[Agentic RL]] [[长程Agent]] [[Harness]] [[Environment]] [[Trajectory]] [[Verifier]] [[RAGEN]] [[Template Collapse]]
+[[Agentic RL]] [[长程 Agent]] [[Harness]] [[Environment]] [[Trajectory]] [[Verifier]] [[RAGEN]] [[Template Collapse]]

@@ -3,7 +3,7 @@ title: "AI研发自动化（Wiki知识库+技能包）"
 date: "2026-06-11"
 ---
 
-# AI研发自动化（Wiki知识库+技能包）
+# AI 研发自动化（Wiki 知识库+技能包）
 
 > 阿里哥伦实战：把 AI 研发自动化拆成 LLM-Wiki 知识库（持续生长型）+ 领域专家 SKILL 包（写方案/写代码/评审/测试/答疑/排障），最终用户只给 PRD，剩下全交给 agent。
 
@@ -21,7 +21,7 @@ date: "2026-06-11"
 |----|------|------|
 | L1: Sources | 文档/图片/代码 | LLM 只读不写，真相之源 |
 | L2: Wiki | markdown 文件集合（实体/概念/综述/对比页） | LLM 全权拥有，人只读不写 |
-| L3: Schema | 目录约定、摄入流程、查询/巡检流程 | 写给 LLM 的"工作规范" |
+| L3: Schema | 目录约定、摄入流程、查询/巡检流程 | 写给 LLM 的“工作规范” |
 
 ### 核心操作
 
@@ -42,13 +42,13 @@ date: "2026-06-11"
 
 ## Skill 包设计
 
-每个 Skill 都是一个 SKILL.md 文件，描述"在什么场景、用什么方法、调什么工具、输出什么产物"。
+每个 Skill 都是一个 SKILL.md 文件，描述“在什么场景、用什么方法、调什么工具、输出什么产物”。
 
 ## Related Pages
 
 - [concepts/llm-wiki](concepts/llm-wiki) — LLM Wiki 知识库模式
-- [patterns/ai-knowledge-workflow](patterns/ai-knowledge-workflow) — AI知识管理工作流
+- [patterns/ai-knowledge-workflow](patterns/ai-knowledge-workflow) — AI 知识管理工作流
 
 ## Sources
 
-- 微信公众号《AI研发自动化：Wiki知识库+技能包》(2026-06-04)
+- 微信公众号《AI 研发自动化：Wiki 知识库+技能包》(2026-06-04)

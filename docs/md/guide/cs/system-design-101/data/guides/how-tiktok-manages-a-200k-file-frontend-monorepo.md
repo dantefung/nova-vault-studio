@@ -17,9 +17,9 @@ A MonoRepo, short for a monolithic repository, is a software development strateg
 
 The good parts of a MonoRepo are:
 
-*   **Better code sharing**
-*   **Simplified dependency management**
-*   **A unified view of the code base**
+* **Better code sharing**
+* **Simplified dependency management**
+* **A unified view of the code base**
 
 However, the bigger the MonoRepo gets, the slower the various Git operations.
 
@@ -29,7 +29,7 @@ To deal with this, TikTok built a tool named Sparo that optimizes the performanc
 
 Sparo dramatically improved the performance of Git operations. Some stats are as follows
 
-*   Git clone time went from 40 mins to just 2 mins.
-*   Checkout went from 1.5 minutes to 30 seconds.
-*   Status went from 7 seconds to 1 second.
-*   Git commit time went from 15 seconds to 11 seconds.
+* Git clone time went from 40 mins to just 2 mins.
+* Checkout went from 1.5 minutes to 30 seconds.
+* Status went from 7 seconds to 1 second.
+* Git commit time went from 15 seconds to 11 seconds.

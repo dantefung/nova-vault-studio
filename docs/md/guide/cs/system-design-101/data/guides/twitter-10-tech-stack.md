@@ -13,8 +13,8 @@ tags:
 
 ![](https://assets.bytebytego.com/diagrams/0122-twitter1-0-tech-stack.jpg)
 
-*   **Mobile:** Swift, Kotlin, PWA
-*   **Web:** JS, React, Redux
-*   **Services:** Mesos, Finagle
-*   **Caching:** Pelikan Cache, Redis
-*   **Databases:** Manhattan, MySQL, PostgreSQL
+* **Mobile:** Swift, Kotlin, PWA
+* **Web:** JS, React, Redux
+* **Services:** Mesos, Finagle
+* **Caching:** Pelikan Cache, Redis
+* **Databases:** Manhattan, MySQL, PostgreSQL

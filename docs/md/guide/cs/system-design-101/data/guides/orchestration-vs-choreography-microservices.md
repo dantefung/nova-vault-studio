@@ -23,14 +23,14 @@ Orchestration is different. The orchestrator acts as a center of authority. It i
 
 ## The benefits of orchestration:
 
-*   **Reliability** - orchestration has built-in transaction management and error handling, while choreography is point-to-point communications and the fault tolerance scenarios are much more complicated.
+* **Reliability** - orchestration has built-in transaction management and error handling, while choreography is point-to-point communications and the fault tolerance scenarios are much more complicated.
 
-*   **Scalability** - when adding a new service into orchestration, only the orchestrator needs to modify the interaction rules, while in choreography all the interacting services need to be modified.
+* **Scalability** - when adding a new service into orchestration, only the orchestrator needs to modify the interaction rules, while in choreography all the interacting services need to be modified.
 
 ## Some limitations of orchestration:
 
-*   **Performance** - all the services talk via a centralized orchestrator, so latency is higher than it is with choreography. Also, the throughput is bound to the capacity of the orchestrator.
+* **Performance** - all the services talk via a centralized orchestrator, so latency is higher than it is with choreography. Also, the throughput is bound to the capacity of the orchestrator.
 
-*   **Single point of failure** - if the orchestrator goes down, no services can talk to each other. To mitigate this, the orchestrator must be highly available.
+* **Single point of failure** - if the orchestrator goes down, no services can talk to each other. To mitigate this, the orchestrator must be highly available.
 
 Real-world use case: Netflix Conductor is a microservice orchestrator and you can read more details on the orchestrator design.

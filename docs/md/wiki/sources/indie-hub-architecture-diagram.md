@@ -5,7 +5,7 @@ source: "梦想de星空"
 url: "https://mp.weixin.qq.com/s/WtBGpFuCxUfEZd2YjdTXEw"
 ---
 
-# 又一个神级画图Skill开源，再见draw.io！
+# 又一个神级画图 Skill 开源，再见 draw.io！
 
 之前用 draw.io 的 MCP 画架构图，能用，但样式总感觉差点意思——配色偏老气，布局也不够精致。最近发现一款叫 architecture-diagram-generator 的开源 Skill，跟 Claude 描述一下系统结构，几秒钟就出一张高大上的架构图。
 

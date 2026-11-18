@@ -13,7 +13,7 @@ url: "https://mp.weixin.qq.com/s/KMlUUy_reUz83GTIJ1V_8w"
 
 ## 一句话定义
 
-**AI 辅助金融量化工具开发** 是指利用 AI 编码助手（如 OpenAI Code X、Claude Code 等）快速构建金融数据分析、实时监控、套利机会识别等工具的开发模式，核心是将金融领域知识"喂"给 AI，让它接管从数据抓取到界面呈现的全流程。
+**AI 辅助金融量化工具开发** 是指利用 AI 编码助手（如 OpenAI Code X、Claude Code 等）快速构建金融数据分析、实时监控、套利机会识别等工具的开发模式，核心是将金融领域知识“喂”给 AI，让它接管从数据抓取到界面呈现的全流程。
 
 ---
 
@@ -82,8 +82,8 @@ url: "https://mp.weixin.qq.com/s/KMlUUy_reUz83GTIJ1V_8w"
 
 ### 3. 迭代灵活
 
-- "把能申购的放上面" → 立即调整
-- "限额和不限额分开" → 即时响应
+- “把能申购的放上面” → 立即调整
+- “限额和不限额分开” → 即时响应
 - 无需重新编译部署
 
 ---
@@ -103,7 +103,7 @@ url: "https://mp.weixin.qq.com/s/KMlUUy_reUz83GTIJ1V_8w"
 
 ### AI 对初级开发者的替代
 
-> "之前需要三个人分工协作，现在留一个能熟练使用AI工具的足矣。"
+> “之前需要三个人分工协作，现在留一个能熟练使用 AI 工具的足矣。"
 
 ### 应对策略
 
@@ -127,4 +127,4 @@ url: "https://mp.weixin.qq.com/s/KMlUUy_reUz83GTIJ1V_8w"
 
 | 来源 | URL | 访问时间 |
 |------|-----|----------|
-| 微信公众号 - 被裁了，用Code X做了个赚钱工具 | https://mp.weixin.qq.com/s/KMlUUy_reUz83GTIJ1V_8w | 2026-06-08 |
+| 微信公众号 - 被裁了，用 Code X 做了个赚钱工具 | https://mp.weixin.qq.com/s/KMlUUy_reUz83GTIJ1V_8w | 2026-06-08 |

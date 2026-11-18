@@ -41,8 +41,8 @@ url: "https://mp.weixin.qq.com/s/DMui2B5NU60B1uU0mp87xA"
 **收口方案（AgentScope 没做、你该做的）：**
 - Spring 生态下用 `@AutoConfiguration` 最自然，starter 一引即生效
 - ServiceLoader 只做 core 级依赖（如 ModelProvider）
-- 别把 Builder 作为"扩展发现"机制暴露给用户
-- 建一个 `ExtensionRegistry`（SPI + AutoConfig 都向它登记），让用户一处看清"平台有哪些扩展点、各自走哪条道"
+- 别把 Builder 作为“扩展发现”机制暴露给用户
+- 建一个 `ExtensionRegistry`（SPI + AutoConfig 都向它登记），让用户一处看清“平台有哪些扩展点、各自走哪条道”
 
 > 别等到三套并存再治理——那时候已经动不了了。
 
@@ -58,7 +58,7 @@ url: "https://mp.weixin.qq.com/s/DMui2B5NU60B1uU0mp87xA"
 
 ## 二、如果我来做 3.0：5 处双轨债的清理方案
 
-core 模块 112 处 @Deprecated，其中 80 处标了 forRemoval（全仓库 163 处）。forRemoval=true 是一句承诺——"我会删掉它"。GA 了，承诺没兑现。
+core 模块 112 处 @Deprecated，其中 80 处标了 forRemoval（全仓库 163 处）。forRemoval=true 是一句承诺——“我会删掉它”。GA 了，承诺没兑现。
 
 ### 债 1：Hook vs Middleware——主循环还在双触发
 
@@ -80,19 +80,19 @@ core 模块 112 处 @Deprecated，其中 80 处标了 forRemoval（全仓库 163
 
 ### 债 4：两套多模态块——legacy 连标都没标
 
-legacy 的 ImageBlock/AudioBlock/VideoBlock 和前向统一的 DataBlock 并存。legacy 三个块连 @Deprecated 都没标——是 5 处债里最"地下"的一处。
+legacy 的 ImageBlock/AudioBlock/VideoBlock 和前向统一的 DataBlock 并存。legacy 三个块连 @Deprecated 都没标——是 5 处债里最“地下”的一处。
 
 **3.0 方案：** 先补 @Deprecated(forRemoval)，formatter 统一只认 DataBlock，下个版本删。
 
 ### 债 5：两套 subagent-as-tool——core 那套连 deprecated 都没标
 
-core 的 SubAgentTool（消费 v1 Event）和 harness 的 AgentSpawnTool（消费 v2）职责重叠，没标 @Deprecated——和债 4 一样是"隐形债"。
+core 的 SubAgentTool（消费 v1 Event）和 harness 的 AgentSpawnTool（消费 v2）职责重叠，没标 @Deprecated——和债 4 一样是“隐形债”。
 
 **3.0 方案：** 标 @Deprecated(forRemoval) + 文档引导迁到 agent_spawn。
 
 > 5 处债的共同病根：forRemoval 是承诺，承诺不兑现就是债的复利。最危险的不是标了没删，而是根本没标——这些是 maintainer 都还没意识到的隐形债。
 
-**给做平台的人最硬的一课：** 立一个"deprecation 兑现里程碑"——每个 forRemoval 绑定一个目标版本，到了就删；同时跑一遍全仓，把隐形债挖出来标上。
+**给做平台的人最硬的一课：** 立一个“deprecation 兑现里程碑”——每个 forRemoval 绑定一个目标版本，到了就删；同时跑一遍全仓，把隐形债挖出来标上。
 
 ## 三、上生产决策地图：从零搭到能上线的可勾选清单
 
@@ -121,7 +121,7 @@ core 的 SubAgentTool（消费 v1 Event）和 harness 的 AgentSpawnTool（消�
 
 ### 选型决策树
 - **单机 MVP** → 砍掉 DistributedStore / subagent / skill 自学习，用最简内核
-- **多副本生产** → Store + CAS + 优雅停机 + 权限"四件套"必须全上
+- **多副本生产** → Store + CAS + 优雅停机 + 权限“四件套”必须全上
 - **高并发** → 别抄全栈反应式，改用阻塞式 + 线程池，省下巨量调试成本
 - **渠道集成** → Channel 扩展（钉钉/飞书/企微/GitHub/GitLab）直接用，别自己写
 - **跨会话记忆** → 别等框架，自己用 AgentStateStore + onStatePersist 中间件做
@@ -130,7 +130,7 @@ core 的 SubAgentTool（消费 v1 Event）和 harness 的 AgentSpawnTool（消�
 
 AgentScope Java 2.0 不是完美样本——它 GA 了还背着 core 112 处 @Deprecated（80 处 forRemoval）、全仓库 163 处，5 处双轨债里有 3 处连 @Deprecated 都没标干净。但它最大的价值正在于此：**它把成功的经验和踩过的坑，都诚实地留在了代码里。**
 
-> 一个成熟的团队，不在于踩了多少坑，而在于踩坑后能不能定下一个"deprecation 兑现里程碑"、把 forRemoval 的承诺真的兑现。
+> 一个成熟的团队，不在于踩了多少坑，而在于踩坑后能不能定下一个“deprecation 兑现里程碑”、把 forRemoval 的承诺真的兑现。
 
 **回扣开篇那 7 条铁律，一句话收口：** 内核稳、扩展活、治理硬、双轨设杀死开关、文档与代码同源——剩下的，少踩坑。
 

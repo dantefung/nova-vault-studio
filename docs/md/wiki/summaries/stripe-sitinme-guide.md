@@ -21,12 +21,12 @@ url: "https://x.com/sitinme/status/1998943804930535495"
 6. **生产密钥**：创建受限密钥（restricted API key），按业务需要配置最小权限
 7. **常见坑**：
    - Webhook 验签失败：本地用 CLI 的 secret，线上用 Dashboard 的，别搞混
-   - 金额单位：美元以"分"为单位，$39 要传 3900
+   - 金额单位：美元以“分”为单位，$39 要传 3900
    - 测试期设优惠码降低税负（3% + $0.3/笔）
 
 ## 与 noahduck283 指南的关系
 
-sitin 是 noahduck283 全指南中"第三部分（Payment Links/Invoice/Checkout 怎么选）"和"第七部分（Webhook 设计）"的实操补完版。noahduck283 讲为什么，sitin 讲怎么做。
+sitin 是 noahduck283 全指南中“第三部分（Payment Links/Invoice/Checkout 怎么选）”和“第七部分（Webhook 设计）”的实操补完版。noahduck283 讲为什么，sitin 讲怎么做。
 
 ## Related Pages
 

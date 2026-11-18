@@ -31,7 +31,7 @@ Attention Is All You Need · 2017
 
 
   1. 
-[01一张图看懂 Transformer — Figure 1 动态架构图](/papers/attention-is-all-you-need/)
+[01 一张图看懂 Transformer — Figure 1 动态架构图](/papers/attention-is-all-you-need/)
 
 
 
@@ -49,11 +49,11 @@ Attention Is All You Need · 2017
 
 
   2. 
-[02专家容量与负载均衡 — Expert Capacity & Load Balancing](/articles/switch-load-balancing/)
+[02 专家容量与负载均衡 — Expert Capacity & Load Balancing](/articles/switch-load-balancing/)
 
 
   3. 
-[03训练稳定性、实验结论与局限 — Training Stability, Results & Limitations](/articles/switch-results/)
+[03 训练稳定性、实验结论与局限 — Training Stability, Results & Limitations](/articles/switch-results/)
 
 
 

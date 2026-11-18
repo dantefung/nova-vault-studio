@@ -16,15 +16,15 @@ url: "https://mp.weixin.qq.com/s/u4wERL0UXChPgvWQJpwurA"
 
 
 
-一般来讲，当我们在聊到"智能体"（Agent）开发时，第一反应往往是 Python——LangChain、CrewAI、AutoGen……，当然市面上的Agent产品，也大多是Python或者TypeScript进行开发的，java好像在这一波浪潮中掉队了~
+一般来讲，当我们在聊到“智能体”（Agent）开发时，第一反应往往是 Python——LangChain、CrewAI、AutoGen……，当然市面上的 Agent 产品，也大多是 Python 或者 TypeScript 进行开发的，java 好像在这一波浪潮中掉队了~
 
 
 
-虽然...但是存量的系统，还是有海量的AI改造诉求的，那么Java端，做一些智能体的开发，用什么呢？ LangChain4J、SpringAI、或者是AgentScope?
+虽然...但是存量的系统，还是有海量的 AI 改造诉求的，那么 Java 端，做一些智能体的开发，用什么呢？ LangChain4J、SpringAI、或者是 AgentScope?
 
 
 
-之前我写过一些关于SpringAI的教程，接下来由于公司需要，得转向再研究一下AgentScope的应用可能性了。 最近阿里巴巴开源的 AgentScope Java 2.0 已经正式发布了。
+之前我写过一些关于 SpringAI 的教程，接下来由于公司需要，得转向再研究一下 AgentScope 的应用可能性了。 最近阿里巴巴开源的 AgentScope Java 2.0 已经正式发布了。
 
 
 
@@ -32,7 +32,7 @@ url: "https://mp.weixin.qq.com/s/u4wERL0UXChPgvWQJpwurA"
 
 
 
-从 HarnessAgent 的工程底座，到 Middleware 中间件体系，再到多租户隔离与分布式状态管理，2.0 版本可以说是把 Java 开发者需要的"基础设施"一次性配齐了。
+从 HarnessAgent 的工程底座，到 Middleware 中间件体系，再到多租户隔离与分布式状态管理，2.0 版本可以说是把 Java 开发者需要的“基础设施”一次性配齐了。
 
 
 
@@ -48,15 +48,15 @@ url: "https://mp.weixin.qq.com/s/u4wERL0UXChPgvWQJpwurA"
 
 
 
-### 1. 背景：从"Demo 魔咒"说起
+### 1. 背景：从“Demo 魔咒”说起
 
 
 
-不知道各位小伙伴在工作中是否遇到过这样的场景：吭哧吭哧用 Python 搭了一个智能体，Demo 跑得飞起，客户看了直拍大腿说"好，下周上线"。结果一到生产环境——跑了三天的长链路任务不知道为啥断了、工具调用直接操作了系统文件、上下文越跑越臃肿把模型搞崩了、多租户数据全搅和在一起……
+不知道各位小伙伴在工作中是否遇到过这样的场景：吭哧吭哧用 Python 搭了一个智能体，Demo 跑得飞起，客户看了直拍大腿说“好，下周上线”。结果一到生产环境——跑了三天的长链路任务不知道为啥断了、工具调用直接操作了系统文件、上下文越跑越臃肿把模型搞崩了、多租户数据全搅和在一起……
 
 
 
-这个现象有个专门的名词，叫 "Demo 魔咒" 。简单来说，就是智能体在演示里挺好，一放到真实业务场景就拉胯。
+这个现象有个专门的名词，叫 "Demo 魔咒“ 。简单来说，就是智能体在演示里挺好，一放到真实业务场景就拉胯。
 
 
 
@@ -76,11 +76,11 @@ AgentScope Java 2.0 的核心使命就是打破这个魔咒——把分布式部
 
 
 
-ReActAgent：核心推理循环（思考→调用工具→观察结果→继续思考），解决的是"一次请求→推理→工具→回复"这个最基础的智能体能力，相当于发动机。
+ReActAgent：核心推理循环（思考→调用工具→观察结果→继续思考），解决的是”一次请求→推理→工具→回复“这个最基础的智能体能力，相当于发动机。
 
 
 
-HarnessAgent（推荐入口）：在 ReActAgent 之上的"薄包装"，把工作区、记忆、子 Agent、技能、沙箱、Plan Mode 等工程能力用一个 Builder 串起来，相当于给发动机配了油箱、轮胎、刹车片和仪表盘的整车。
+HarnessAgent（推荐入口）：在 ReActAgent 之上的”薄包装“，把工作区、记忆、子 Agent、技能、沙箱、Plan Mode 等工程能力用一个 Builder 串起来，相当于给发动机配了油箱、轮胎、刹车片和仪表盘的整车。
 
 
 
@@ -248,7 +248,7 @@ Agent 要跟大模型对话，自然需要 API Key。AgentScope Java 2.0 的环�
 
 
 
-对此我们专门实现了一个配置解析的工具类，用于读取ApiKey （后续的示例项目中，会依托Spring进行演示，会有一个统一的EnvironmentPostProcessor来完成配置的注册刷新）
+对此我们专门实现了一个配置解析的工具类，用于读取 ApiKey （后续的示例项目中，会依托 Spring 进行演示，会有一个统一的 EnvironmentPostProcessor 来完成配置的注册刷新）
 
 
 
@@ -368,7 +368,7 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-上面的 call() 是阻塞式调用，等 Agent 全部处理完才返回。如果想在前端实时展示 Agent 的"思考过程"，可以使用 streamEvents()：
+上面的 call() 是阻塞式调用，等 Agent 全部处理完才返回。如果想在前端实时展示 Agent 的”思考过程“，可以使用 streamEvents()：
 
 
 
@@ -388,7 +388,7 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-了解了 AgentScope Java 2.0 是什么 —— 阿里巴巴开源的企业级智能体框架，解决了"Demo 魔咒"问题
+了解了 AgentScope Java 2.0 是什么 —— 阿里巴巴开源的企业级智能体框架，解决了”Demo 魔咒“问题
 
 
 
@@ -412,7 +412,7 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-从上面的实战可以看到，AgentScope Java 2.0 给人的第一印象是：API 简洁、工程化意识强、配置文件优于硬编码。它没有在"Hello World"层面炫技，而是从一开始就引导你按照生产环境的标准来组织代码——环境变量管理 API Key、工作区驱动人格与记忆、上下文自动管理。这种"把工程规范内化到框架里"的设计理念，也许正是 2.0 最大的亮点。
+从上面的实战可以看到，AgentScope Java 2.0 给人的第一印象是：API 简洁、工程化意识强、配置文件优于硬编码。它没有在”Hello World“层面炫技，而是从一开始就引导你按照生产环境的标准来组织代码——环境变量管理 API Key、工作区驱动人格与记忆、上下文自动管理。这种”把工程规范内化到框架里“的设计理念，也许正是 2.0 最大的亮点。
 
 
 
@@ -448,19 +448,19 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-第2篇：核心推理引擎 ReActAgent —— 理解"思考→调用工具→观察结果"的循环机制
+第 2 篇：核心推理引擎 ReActAgent —— 理解”思考→调用工具→观察结果“的循环机制
 
 
 
-第3篇：工具系统（Tools）实战 —— 用 @Tool 注解将任意 Java 方法注册为 Agent 工具
+第 3 篇：工具系统（Tools）实战 —— 用 @Tool 注解将任意 Java 方法注册为 Agent 工具
 
 
 
-第4篇：HarnessAgent 深度解析 —— 工作区、记忆、技能、子 Agent 的全景图
+第 4 篇：HarnessAgent 深度解析 —— 工作区、记忆、技能、子 Agent 的全景图
 
 
 
-不知道各位小伙伴是否有发现，AgentScope Java 2.0 中的"工作区"概念很有意思——AGENTS.md 定义了 Agent 的人格，MEMORY.md 沉淀了长期记忆，skills/ 目录存放了积累的技能，这些都是普通的 Markdown 文件。这意味着什么呢？意味着"改文件就是改 Agent 人设"，运维小伙伴可以直接通过修改配置文件来升级 Agent 行为，完全不需要改代码。这种"文件即配置"的设计哲学，是不是感觉很优雅？
+不知道各位小伙伴是否有发现，AgentScope Java 2.0 中的”工作区“概念很有意思——AGENTS.md 定义了 Agent 的人格，MEMORY.md 沉淀了长期记忆，skills/ 目录存放了积累的技能，这些都是普通的 Markdown 文件。这意味着什么呢？意味着”改文件就是改 Agent 人设“，运维小伙伴可以直接通过修改配置文件来升级 Agent 行为，完全不需要改代码。这种”文件即配置“的设计哲学，是不是感觉很优雅？
 
 
 
@@ -468,8 +468,8 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-> 微信公众号: 一灰灰Blog —— 关注获取最新技术文章推送
+> 微信公众号：一灰灰 Blog —— 关注获取最新技术文章推送
 
 
 
-微信公众号: 一灰灰Blog —— 关注获取最新技术文章推送
+微信公众号：一灰灰 Blog —— 关注获取最新技术文章推送

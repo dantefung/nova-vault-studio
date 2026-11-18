@@ -23,16 +23,16 @@ The second diagram explains the quadtree building process in more detail. The ro
 
 ## How to get nearby businesses with quadtree?
 
-*   Build the quadtree in memory.
+* Build the quadtree in memory.
 
-*   After the quadtree is built, start searching from the root and traverse the tree, until we find the leaf node where the search origin is.
+* After the quadtree is built, start searching from the root and traverse the tree, until we find the leaf node where the search origin is.
 
-*   If that leaf node has 100 businesses, return the node. Otherwise, add businesses from its neighbors until enough businesses are returned.
+* If that leaf node has 100 businesses, return the node. Otherwise, add businesses from its neighbors until enough businesses are returned.
 
 ## Update LBS server and rebuild quadtree
 
-*   It may take a few minutes to build a quadtree in memory with 200 million businesses at the server start-up time.
+* It may take a few minutes to build a quadtree in memory with 200 million businesses at the server start-up time.
 
-*   While the quadtree is being built, the server cannot serve traffic.
+* While the quadtree is being built, the server cannot serve traffic.
 
-*   Therefore, we should roll out a new release of the server incrementally to a small subset of servers at a time. This avoids taking a large swathe of the server cluster offline and causes service brownout.
+* Therefore, we should roll out a new release of the server incrementally to a small subset of servers at a time. This avoids taking a large swathe of the server cluster offline and causes service brownout.

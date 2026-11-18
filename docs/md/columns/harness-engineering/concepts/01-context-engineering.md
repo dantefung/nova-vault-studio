@@ -11,7 +11,7 @@ url: "https://github.com/Conn-Ho/harness-engineering"
 
 **上下文工程**是驭化工程的第一大支柱，指系统性地设计和管理 AI Agent 在执行任务时能够访问的信息集合——在正确的时间，提供恰好足够的正确信息。
 
-> "上下文工程不是写一个好的提示词，而是为 Agent 构建持久可用的知识基础设施。"
+> “上下文工程不是写一个好的提示词，而是为 Agent 构建持久可用的知识基础设施。"
 > — Phil Schmid, Hugging Face
 
 ---
@@ -22,7 +22,7 @@ url: "https://github.com/Conn-Ho/harness-engineering"
 
 1. **Agent 只能访问上下文窗口内的信息**——Slack 讨论、邮件决策、口头约定对 Agent 来说根本不存在
 2. **上下文窗口是稀缺资源**——不加区分地堆砌信息会降低信噪比
-3. **信息必须是结构化可寻址的**——Agent 需要能找到它，而不只是"存在某处"
+3. **信息必须是结构化可寻址的**——Agent 需要能找到它，而不只是”存在某处“
 
 ---
 
@@ -38,7 +38,7 @@ url: "https://github.com/Conn-Ho/harness-engineering"
 - 技术债务和已知 bug 必须在代码注释或 issue 中有记录
 - 团队规范必须在 `AGENTS.md` 或 `docs/` 中明确
 
-**反面案例**：一个团队决定"不使用 Redux，改用 Zustand"，这个决定只活在 Slack 讨论里。三个月后，Agent 生成的代码仍然使用 Redux，因为它根本不知道这个决定。
+**反面案例**：一个团队决定”不使用 Redux，改用 Zustand"，这个决定只活在 Slack 讨论里。三个月后，Agent 生成的代码仍然使用 Redux，因为它根本不知道这个决定。
 
 ---
 

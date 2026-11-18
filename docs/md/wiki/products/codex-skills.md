@@ -3,7 +3,7 @@ title: "Codex Skills（AI编码技能市场）"
 date: "2026-06-11"
 ---
 
-# Codex Skills（AI编码技能市场）
+# Codex Skills（AI 编码技能市场）
 
 > A curated list of practical Codex skills for automating workflows across the Codex CLI and API. 精选列表，每个 Skill 均可独立安装使用。
 
@@ -89,7 +89,7 @@ python skill-installer/scripts/install-skill-from-github.py \
 ## Related Pages
 
 - [patterns/vibe-coding](patterns/vibe-coding) — Vibe Coding 建站模式
-- [patterns/personal-ai-infrastructure](patterns/personal-ai-infrastructure) — 个人AI基础设施
+- [patterns/personal-ai-infrastructure](patterns/personal-ai-infrastructure) — 个人 AI 基础设施
 - [products/index](products/index) — AI 产品索引
 
 ## Sources

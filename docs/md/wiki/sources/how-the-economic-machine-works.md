@@ -11,8 +11,8 @@ url: "https://medium.com/@doublerong.wang/%E7%BB%8F%E6%B5%8E%E6%9C%BA%E5%99%A8%E
 
 <!-- more -->
 
-原始模型：Ray Dalio  
-图文整理：Rongrong Wang  
+原始模型：Ray Dalio 
+图文整理：Rongrong Wang 
 Medium 发布日期：2020-04-03
 
 ## 模型总览

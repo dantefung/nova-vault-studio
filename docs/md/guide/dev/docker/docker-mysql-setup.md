@@ -26,7 +26,7 @@ docker run -d \
 |------|------|
 | `-d` | 后台运行 |
 | `--name mysql` | 容器命名为 mysql |
-| `-p 3306:3306` | 端口映射（宿主机:容器）|
+| `-p 3306:3306` | 端口映射（宿主机：容器）|
 | `-e MYSQL_ROOT_PASSWORD=xxx` | root 密码（必须）|
 | `mysql:latest` | 镜像+版本 |
 

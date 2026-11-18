@@ -8,7 +8,7 @@ url: "https://my.feishu.cn/docx/KDRndy4iIoLTQVxQ6XyckDuenAh"
 
 # 我在 iPhone 上装了 DeepSeek Harness — 精读摘要
 
-作者：康叔AI，飞书文档，2026-08-24
+作者：康叔 AI，飞书文档，2026-08-24
 
 ## 核心判断
 
@@ -19,7 +19,7 @@ DSH 不是 Claude Code 竞品，而是 Agent 运行时底座，对标 LangGraph 
 - Claude Code / Codex = iOS：订阅绑定、能力封闭、自定义空间极小
 - DSH = 安卓：大框架、插件生态完全开放
 
-独特身位："模型亲自下场做框架" + Python SDK 单文件运行时（55MB，不用装 Node.js）
+独特身位：“模型亲自下场做框架” + Python SDK 单文件运行时（55MB，不用装 Node.js）
 
 ## iPhone 部署成果
 
@@ -44,7 +44,7 @@ DSH 不是 Claude Code 竞品，而是 Agent 运行时底座，对标 LangGraph 
 
 ## 最终评价
 
-- 定位：好玩的"乐高"，不适合生产，稳定性不行，真干活不如 Codex 和 Claude Code
+- 定位：好玩的“乐高”，不适合生产，稳定性不行，真干活不如 Codex 和 Claude Code
 - 玩法：创造模式自建官方没有的新模式，DIY 空间最大乐趣
 - 成本：缓存命中率已达 93%，大家用相同 Cordis 内核插件则好优化
 

@@ -14,7 +14,7 @@ url: "https://github.com/killop/anything_about_game/blob/master/AI.md"
 ## 目录
 
 ### 1. 资讯与社区
-- [News / RSS](#news) — aihot、Dex周刊、POCHE DIGEST 等 61 个源
+- [News / RSS](#news) — aihot、Dex 周刊、POCHE DIGEST 等 61 个源
 - [Books](#books) — AI 相关书籍 12 本
 
 ### 2. AI 生成内容（AIGC）

@@ -5,7 +5,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/9rU4zfCdtYSp3gB98VgRTg"
 ---
 
-# 出海产品从0到1：我常用的9个API平台，语言、图片、视频、地图全整理
+# 出海产品从 0 到 1：我常用的 9 个 API 平台，语言、图片、视频、地图全整理
 
 > 普通人做 AI 出海，最重要的能力是知道去哪里找现成的 API 能力，并把这个能力变成产品。9 个常用 API 平台整理：语言、图片、视频、地图。
 
@@ -43,7 +43,7 @@ url: "https://mp.weixin.qq.com/s/9rU4zfCdtYSp3gB98VgRTg"
 
 | 平台 | 特点 |
 |------|------|
-| [photoroom.com/api](https://photoroom.com/api) | 图片去背景效果极佳，电商抠图神器（0.02美金/张） |
+| [photoroom.com/api](https://photoroom.com/api) | 图片去背景效果极佳，电商抠图神器（0.02 美金/张） |
 | [mapbox.com](https://mapbox.com/) | 地图 API，可缩放地球，类似谷歌地图 |
 
 ## 关键洞察

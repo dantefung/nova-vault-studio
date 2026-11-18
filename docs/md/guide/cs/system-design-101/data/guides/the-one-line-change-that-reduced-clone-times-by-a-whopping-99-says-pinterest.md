@@ -23,9 +23,9 @@ And it brought down clone times from 40 minutes to a staggering 30 seconds.
 
 For reference, Pinboard is the oldest and largest monorepo at Pinterest. Some facts about it:
 
-*   **350K commits**
-*   **20 GB in size when cloned fully**
-*   **60K git pulls on every business day**
+* **350K commits**
+* **20 GB in size when cloned fully**
+* **60K git pulls on every business day**
 
 Cloning monorepos having a lot of code and history is time consuming. This was exactly what was happening with Pinboard.
 

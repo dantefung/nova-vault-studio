@@ -42,7 +42,7 @@ console.log(result.success, result.totalTokenUsage.output_tokens)
 | **流式 + 结构化输出** | Token 级流式，Zod 验证最终答案，解析失败自动重试 |
 | **可观测性** | `onProgress` 事件 + `onTrace` span + HTML Dashboard |
 | **共享内存** | 默认 in-process KV，可换 Redis/Postgres/Engram |
-| **生产控制** | maxTurns, contextStrategy, 任务重试+退避, loop检测, maxTokenBudget |
+| **生产控制** | maxTurns, contextStrategy, 任务重试+退避，loop 检测，maxTokenBudget |
 
 ---
 

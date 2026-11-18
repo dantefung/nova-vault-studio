@@ -9,11 +9,11 @@ URL Source: https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.
 Markdown Content:
 本页目录
 
-*   [架构](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#%E6%9E%B6%E6%9E%84 "架构")
-*   [types.ts — 类型定义](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#types-ts-%E2%80%94-%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89 "types.ts — 类型定义")
-*   [createDirectConnectSession.ts — 会话创建](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#createdirectconnectsession-ts-%E2%80%94-%E4%BC%9A%E8%AF%9D%E5%88%9B%E5%BB%BA "createDirectConnectSession.ts — 会话创建")
-*   [directConnectManager.ts — 会话管理器](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#directconnectmanager-ts-%E2%80%94-%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%E5%99%A8 "directConnectManager.ts — 会话管理器")
-*   [使用场景](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF "使用场景")
+* [架构](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#%E6%9E%B6%E6%9E%84 “架构”)
+* [types.ts — 类型定义](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#types-ts-%E2%80%94-%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89 "types.ts — 类型定义“)
+* [createDirectConnectSession.ts — 会话创建](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#createdirectconnectsession-ts-%E2%80%94-%E4%BC%9A%E8%AF%9D%E5%88%9B%E5%BB%BA "createDirectConnectSession.ts — 会话创建”)
+* [directConnectManager.ts — 会话管理器](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#directconnectmanager-ts-%E2%80%94-%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86%E5%99%A8 "directConnectManager.ts — 会话管理器“)
+* [使用场景](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF ”使用场景“)
 
 ## Direct-Connect 服务器 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/server.html#direct-connect-%E6%9C%8D%E5%8A%A1%E5%99%A8)
 
@@ -99,9 +99,9 @@ type SessionIndex = Record<string, SessionIndexEntry>
 
 主要流程：
 
-1.   HTTP POST 到 `/sessions` 端点
-2.   验证响应（失败时抛出 `DirectConnectError`）
-3.   解析 `connectResponseSchema` 响应，返回 `{ config, workDir }`
+1. HTTP POST 到 `/sessions` 端点
+2. 验证响应（失败时抛出 `DirectConnectError`）
+3. 解析 `connectResponseSchema` 响应，返回 `{ config, workDir }`
 
 参数包括 `serverUrl`、`authToken`（可选）、`cwd`、`dangerouslySkipPermissions`。
 
@@ -113,10 +113,10 @@ type SessionIndex = Record<string, SessionIndexEntry>
 
 主要功能：
 
-*   **连接**：建立 WebSocket 连接并路由消息
-*   **发送消息**：发送用户消息
-*   **权限响应**：回复权限请求
-*   **中断**：发送中断信号
+* **连接**：建立 WebSocket 连接并路由消息
+* **发送消息**：发送用户消息
+* **权限响应**：回复权限请求
+* **中断**：发送中断信号
 
 回调接口包括 `onMessage`、`onPermissionRequest`、`onConnected`、`onDisconnected`、`onError`。
 

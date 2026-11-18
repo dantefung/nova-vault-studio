@@ -5,7 +5,7 @@ source: "微信公众号（王杨）"
 url: "https://mp.weixin.qq.com/s/Fkt-AyGEMFsipcR4MRZLuw"
 ---
 
-# 1篇文章带你入门游戏下载行业！学会不用求人！
+# 1 篇文章带你入门游戏下载行业！学会不用求人！
 
 > 作者从企业站转型到流量站游戏下载行业的实战经验：找高权重游戏站参考做内容、接入游戏 CPS 后台、保持日常更新，就能从小站起步逐步做起来。
 
@@ -19,19 +19,19 @@ url: "https://mp.weixin.qq.com/s/Fkt-AyGEMFsipcR4MRZLuw"
 
 ## 三步入门方法
 
-### 第1步：找高权重游戏站参考
+### 第 1 步：找高权重游戏站参考
 
 打开爱站工具，查找知名游戏网站，查询其权重。如果权重高，就打开该站直接参考其内容结构，尤其是资讯页面。无需采集工具，手动参考即可。
 
 ![爱站查询高权重游戏站](../images/game-download-industry-entry/001.webp)
 
-### 第2步：找到游戏 CPS 后台
+### 第 2 步：找到游戏 CPS 后台
 
 找到常用的游戏名称信息，这些信息直接关系到游戏 CPS 的收益结果。后台通常都有游戏排行榜，直接搬到自己网站里。
 
-![游戏CPS后台](../images/game-download-industry-entry/002.webp)
+![游戏 CPS 后台](../images/game-download-industry-entry/002.webp)
 
-### 第3步：保持网站更新频率
+### 第 3 步：保持网站更新频率
 
 日常保持更新，直接参考新游信息。新游信息非常有用，直接搬到自己网站，修改好标题即可。
 
@@ -58,6 +58,6 @@ url: "https://mp.weixin.qq.com/s/Fkt-AyGEMFsipcR4MRZLuw"
 
 ## 关联文章
 
-- [游戏下载站养站30个网站成本核算明细分享](./game-station-cost-breakdown.md) — 王杨，2026-07-16
+- [游戏下载站养站 30 个网站成本核算明细分享](./game-station-cost-breakdown.md) — 王杨，2026-07-16
 - [别把闲置域名当摆设！手搓几个游戏站试一下！](./idle-domain-game-site.md) — 王杨，2026-08-09
-- [40块1个站点游戏下载站模板+SEO功能游戏养站系统](./game-seo-system.md) — 王杨，2026-08-10
+- [40 块 1 个站点游戏下载站模板+SEO 功能游戏养站系统](./game-seo-system.md) — 王杨，2026-08-10

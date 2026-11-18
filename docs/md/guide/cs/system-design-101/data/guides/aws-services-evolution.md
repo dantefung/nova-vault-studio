@@ -25,6 +25,6 @@ Happy to present the curated list of AWS services introduced over the years belo
 
 Note:
 
-*   The announcement or preview year differs from the public release year for certain services. In these cases, we've noted the service under the release year
+* The announcement or preview year differs from the public release year for certain services. In these cases, we've noted the service under the release year
 
-*   Unreleased services noted in announcement years
+* Unreleased services noted in announcement years

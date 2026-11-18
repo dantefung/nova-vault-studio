@@ -59,7 +59,7 @@ Act as an expert on software development on the topic of machine learning framew
 
 **<span style="color: rgb(36,91,219); background-color: inherit">而我们所提倡的结构化、模板化 Prompt，写出来是这样的</span> <span style="color: rgb(36,91,219); background-color: inherit">1</span>**
 
-> 该示例来自 LangGPT 项目: https://github.com/yzfly/LangGPT/blob/main/README\_zh.md
+> 该示例来自 LangGPT 项目：https://github.com/yzfly/LangGPT/blob/main/README\_zh.md
 
 ```plaintext
 # Role: 诗人
@@ -107,7 +107,7 @@ Act as an expert on software development on the topic of machine learning framew
 
 
 
-日常的文章结构是通过字号大小、颜色、字体等样式来标识的，ChatGPT 接收的输入没有样式，因此借鉴 markdown，yaml 这类标记语言的方法或者 json 这类数据结构实现 prompt 的结构表达都可以，例如用标识符 `#` 标识一级标题，`##`标识二级标题，以此类推。**尤其是使用 json， yaml 这类成熟的数据结构，对 prompt 进行工程化开发特别友好。**  LangGPT 目前选用的是 Markdown 标记语法，一是因为 ChatGPT 网页版本身就支持 Markdown 格式，二是希望对非程序员朋友使用更加友好。程序员朋友推荐使用yaml, json 等进行结构化 prompt 开发。
+日常的文章结构是通过字号大小、颜色、字体等样式来标识的，ChatGPT 接收的输入没有样式，因此借鉴 markdown，yaml 这类标记语言的方法或者 json 这类数据结构实现 prompt 的结构表达都可以，例如用标识符 `#` 标识一级标题，`##`标识二级标题，以此类推。**尤其是使用 json， yaml 这类成熟的数据结构，对 prompt 进行工程化开发特别友好。** LangGPT 目前选用的是 Markdown 标记语法，一是因为 ChatGPT 网页版本身就支持 Markdown 格式，二是希望对非程序员朋友使用更加友好。程序员朋友推荐使用 yaml, json 等进行结构化 prompt 开发。
 
 
 
@@ -167,13 +167,13 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 
 
-结构化表达同时降低了人和 GPT 模型的认知负担，**大大提高了人和GPT模型对 prompt 的语义认知。** 对人来说，Prompt 内容一目了然，语义清晰，只需要依样画瓢写 Prompt 就行。如果使用 LangGPT 提供的 Prompt 生成助手，还可以帮你生成高质量的初版 Prompt。
+结构化表达同时降低了人和 GPT 模型的认知负担，**大大提高了人和 GPT 模型对 prompt 的语义认知。** 对人来说，Prompt 内容一目了然，语义清晰，只需要依样画瓢写 Prompt 就行。如果使用 LangGPT 提供的 Prompt 生成助手，还可以帮你生成高质量的初版 Prompt。
 
 
 
 > 使用 LangGPT 生成提示词：
 >
-> 1. 月之暗面 Kimi × LangGPT 提示词专家: https://kimi.moonshot.cn/kimiplus/conpg00t7lagbbsfqkq0
+> 1. 月之暗面 Kimi × LangGPT 提示词专家：https://kimi.moonshot.cn/kimiplus/conpg00t7lagbbsfqkq0
 >
 > 2. OpenAI 商店 LangGPT 提示词专家：https://chatgpt.com/g/g-Apzuylaqk-langgpt-ti-shi-ci-zhuan-jia
 
@@ -274,11 +274,11 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 
 
-对大模型的 Prompt 应用CoT 思维链方法的有效性是被研究和实践广泛证明了的。
+对大模型的 Prompt 应用 CoT 思维链方法的有效性是被研究和实践广泛证明了的。
 
 
 
-**一个好的结构化 Prompt 模板，某种意义上是构建了一个好的全局思维链。** 如 LangGPT 中展示的模板设计时就考虑了如下思维链:
+**一个好的结构化 Prompt 模板，某种意义上是构建了一个好的全局思维链。** 如 LangGPT 中展示的模板设计时就考虑了如下思维链：
 
 > <span style="color: rgb(143,149,158); background-color: inherit">Role (角色) -> Profile（角色简介）—> Profile 下的 skill (角色技能) -> Rules (角色要遵守的规则) -> </span> <span style="color: rgb(143,149,158); background-color: inherit">Workflow</span> <span style="color: rgb(143,149,158); background-color: inherit"> (满足上述条件的角色的工作流程) -> Initialization (进行正式开始工作的初始化准备) -> 开始实际使用</span>
 
@@ -286,7 +286,7 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 一个好的 Prompt ，内容结构上最好也是逻辑清晰连贯的。**结构化 prompt 方法将久经考验的逻辑思维链路融入了结构中，大大降低了思维链路的构建难度。**
 
-构建 Prompt 时，不妨参考优质模板的全局思维链路，熟练掌握后，完全可以对其进行增删改留调整得到一个适合自己使用的模板。例如当你需要控制输出格式，尤其是需要格式化输出时，完全可以增加 `Output` 或者 `OutputFormat` 这样的模块（可参考附录中的 AutoGPT 模板）。例如即友\[即刻App朋友] **<span style="color: rgb(36,91,219); background-color: inherit">李继刚([6])</span>** 就构建了很多结构化 Prompt，其他修改同理。
+构建 Prompt 时，不妨参考优质模板的全局思维链路，熟练掌握后，完全可以对其进行增删改留调整得到一个适合自己使用的模板。例如当你需要控制输出格式，尤其是需要格式化输出时，完全可以增加 `Output` 或者 `OutputFormat` 这样的模块（可参考附录中的 AutoGPT 模板）。例如即友\[即刻 App 朋友] **<span style="color: rgb(36,91,219); background-color: inherit">李继刚([6])</span>** 就构建了很多结构化 Prompt，其他修改同理。
 
 
 
@@ -320,7 +320,7 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 1. 细节法：给出更清晰的指令，包含更多具体的细节
 
-2. 分解法：将复杂的任务分解为更简单的子任务 （Let's think step by step, CoT，LangChain等思想）
+2. 分解法：将复杂的任务分解为更简单的子任务 （Let's think step by step, CoT，LangChain 等思想）
 
 3. 记忆法：构建指令使模型时刻记住任务，确保不偏离任务解决路径（system 级 prompt）
 
@@ -425,7 +425,7 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 > 使用 LangGPT 生成提示词：
 >
-> 1. 月之暗面 Kimi × LangGPT 提示词专家: https://kimi.moonshot.cn/kimiplus/conpg00t7lagbbsfqkq0
+> 1. 月之暗面 Kimi × LangGPT 提示词专家：https://kimi.moonshot.cn/kimiplus/conpg00t7lagbbsfqkq0
 >
 > 2. OpenAI 商店 LangGPT 提示词专家：https://chatgpt.com/g/g-Apzuylaqk-langgpt-ti-shi-ci-zhuan-jia
 >
@@ -453,7 +453,7 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 * 大模型的视觉能力弱问题(构建 SVG 矢量图等场景)
 
-* 大模型字数统计问题（不论是字符数和 token 数，大模型都无法统计准确。需要输出指定字数时，将数值设定的高一些，后期自己调整一下，比如希望他输出100字文案，告诉他输出150字。）
+* 大模型字数统计问题（不论是字符数和 token 数，大模型都无法统计准确。需要输出指定字数时，将数值设定的高一些，后期自己调整一下，比如希望他输出 100 字文案，告诉他输出 150 字。）
 
 * 同一 Prompt 在不同模型间的性能差异问题
 
@@ -471,7 +471,7 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 * LangGPT —— 让人人都能编写高质量 Prompt(\[12])
 
-* 如何写好Prompt: 结构化(\[13])
+* 如何写好 Prompt: 结构化(\[13])
 
 * 为什么结构化 Prompt 如此有效？(\[14])
 
@@ -479,7 +479,7 @@ CRISPE 这类框架命中注定结构简单，因为过于复杂将难以记忆�
 
 * 提升大模型可靠性的 prompt 方法汇总(\[16])
 
-* 结构化的Prompts, 用于各种大语言模型(\[17])
+* 结构化的 Prompts, 用于各种大语言模型(\[17])
 
 
 
@@ -593,7 +593,7 @@ As a/an <Role>, you must follow the <Rules>, you must talk to user in default <L
 
 ### **即友 李继刚 的公文笔杆子模板**
 
-> <span style="color: rgb(143,149,158); background-color: inherit">来源:https://m.okjike.com/originalPosts/64c09eb738acc7bb511e4291</span>
+> <span style="color: rgb(143,149,158); background-color: inherit">来源：https://m.okjike.com/originalPosts/64c09eb738acc7bb511e4291</span>
 
 ```plaintext
 # Role：公文笔杆子
@@ -1056,36 +1056,36 @@ execute <Init>
 
 
 
-\[1] 云中江树: *https://www.zhihu.com/people/zphyix*
+\[1] 云中江树：*https://www.zhihu.com/people/zphyix*
 
 \[2] LangGPT: *https://github.com/yzfly/LangGPT*
 
-\[3] CRISPE 框架: *https://github.com/mattnigh/ChatGPT3-Free-Prompt-List*
+\[3] CRISPE 框架：*https://github.com/mattnigh/ChatGPT3-Free-Prompt-List*
 
 \[4] ZhangHanDong: *https://github.com/ZhangHanDong*
 
 \[5] prompt-description-language: *https://github.com/ZhangHanDong/prompt-description-language*
 
-\[6] 李继刚: *https://web.okjike.com/u/752D3103-1107-43A0-BA49-20EC29D09E36*
+\[6] 李继刚：*https://web.okjike.com/u/752D3103-1107-43A0-BA49-20EC29D09E36*
 
 \[7] AI-Tutor: *https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor*
 
-\[8] 刘海同学: *https://ywh1bkansf.feishu.cn/wiki/Dor2wc2FviY3q3kgSuScJrkhngg*
+\[8] 刘海同学：*https://ywh1bkansf.feishu.cn/wiki/Dor2wc2FviY3q3kgSuScJrkhngg*
 
 \[9] LangGPT: *https://github.com/yzfly/LangGPT*
 
-\[10] LangGPT 群精选——Prompt 优化: *https://aq92z6vors3.feishu.cn/wiki/WDfzwfTKwi1lyAkBcoCcu0sUnPc*
+\[10] LangGPT 群精选——Prompt 优化：*https://aq92z6vors3.feishu.cn/wiki/WDfzwfTKwi1lyAkBcoCcu0sUnPc*
 
 \[11] 构建生产级鲁棒高性能 Prompt: *https://zhuanlan.zhihu.com/p/636016460*
 
 \[12] LangGPT —— 让人人都能编写高质量 Prompt: *https://zhuanlan.zhihu.com/p/629107497*
 
-\[13] 如何写好Prompt: 结构化: *https://www.lijigang.com/posts/chatgpt-prompt-structure/*
+\[13] 如何写好 Prompt: 结构化：*https://www.lijigang.com/posts/chatgpt-prompt-structure/*
 
 \[14] 为什么结构化 Prompt 如此有效？: *https://zhuanlan.zhihu.com/p/646183814*
 
 \[15] 构建生产级鲁棒高性能 Prompt: *https://zhuanlan.zhihu.com/p/636016460*
 
-\[16] 提升大模型可靠性的 prompt 方法汇总: *https://www.zhihu.com/pin/1661516375779852288*
+\[16] 提升大模型可靠性的 prompt 方法汇总：*https://www.zhihu.com/pin/1661516375779852288*
 
-\[17] 结构化的Prompts, 用于各种大语言模型: *https://github.com/lijigang/prompts*
+\[17] 结构化的 Prompts, 用于各种大语言模型：*https://github.com/lijigang/prompts*

@@ -148,8 +148,8 @@ async function* query(params: QueryParams): AsyncGenerator<SDKMessage> {
 
 查询循环的前两步处理 snip 压缩和微压缩：
 
-*   **Snip 压缩**（Feature-Gated）：若启用了 `HISTORY_SNIP` 功能，通过 `snipModule?.snipCompactIfNeeded()` 处理
-*   **微压缩**：`deps.microcompact()` 调用 `microcompactMessages`（`src/services/compact/microCompact.ts`），在工具结果级别截断过长输出
+* **Snip 压缩**（Feature-Gated）：若启用了 `HISTORY_SNIP` 功能，通过 `snipModule?.snipCompactIfNeeded()` 处理
+* **微压缩**：`deps.microcompact()` 调用 `microcompactMessages`（`src/services/compact/microCompact.ts`），在工具结果级别截断过长输出
 
 ### Step 3: 微压缩 (Microcompact) [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/query-engine.html#step-3-%E5%BE%AE%E5%8E%8B%E7%BC%A9-microcompact)
 
@@ -157,8 +157,8 @@ async function* query(params: QueryParams): AsyncGenerator<SDKMessage> {
 
 ### Step 5-6: 自动压缩与阻塞压缩 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/query-engine.html#step-5-6-%E8%87%AA%E5%8A%A8%E5%8E%8B%E7%BC%A9%E4%B8%8E%E9%98%BB%E5%A1%9E%E5%8E%8B%E7%BC%A9)
 
-*   **自动压缩**：通过 `deps.autocompact()` 调用 `autoCompactIfNeeded`（`src/services/compact/autoCompact.ts`），当上下文过大时调用 AI（通常用 Haiku）生成会话摘要，替换旧消息
-*   **阻塞压缩**：更激进的压缩，在 API 返回 prompt-too-long 时触发，可能删除更多历史消息
+* **自动压缩**：通过 `deps.autocompact()` 调用 `autoCompactIfNeeded`（`src/services/compact/autoCompact.ts`），当上下文过大时调用 AI（通常用 Haiku）生成会话摘要，替换旧消息
+* **阻塞压缩**：更激进的压缩，在 API 返回 prompt-too-long 时触发，可能删除更多历史消息
 
 ### Step 8: API 调用 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/query-engine.html#step-8-api-%E8%B0%83%E7%94%A8)
 
@@ -168,10 +168,10 @@ async function* query(params: QueryParams): AsyncGenerator<SDKMessage> {
 
 查询循环包含多级错误恢复机制：
 
-1.   **反应式压缩** (Reactive Compact)：prompt too long 或上下文溢出时触发 `tryReactiveCompact`
-2.   **上下文折叠排空** (Collapse Drain)：上下文溢出时折叠旧内容
-3.   **最大输出 token 恢复**：`max_output_tokens` 错误时，升级 max_tokens 并重试（最多 3 次）
-4.   **媒体错误恢复**：图片/PDF 过大时降级处理
+1. **反应式压缩** (Reactive Compact)：prompt too long 或上下文溢出时触发 `tryReactiveCompact`
+2. **上下文折叠排空** (Collapse Drain)：上下文溢出时折叠旧内容
+3. **最大输出 token 恢复**：`max_output_tokens` 错误时，升级 max_tokens 并重试（最多 3 次）
+4. **媒体错误恢复**：图片/PDF 过大时降级处理
 
 ## Token 预算系统 (query/tokenBudget.ts) [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/query-engine.html#token-%E9%A2%84%E7%AE%97%E7%B3%BB%E7%BB%9F-query-tokenbudget-ts)
 
@@ -220,9 +220,9 @@ export function checkTokenBudget(
 
 查询循环在每轮结束时检查是否应停止：
 
-1.   检查 `stop_reason` — `end_turn` 表示完成，`max_tokens` 表示继续
-2.   检查最大轮次限制
-3.   运行相关钩子检查是否应停止
+1. 检查 `stop_reason` — `end_turn` 表示完成，`max_tokens` 表示继续
+2. 检查最大轮次限制
+3. 运行相关钩子检查是否应停止
 
 ## 查询配置 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/query-engine.html#%E6%9F%A5%E8%AF%A2%E9%85%8D%E7%BD%AE)
 

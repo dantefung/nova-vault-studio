@@ -37,9 +37,9 @@ With the business continuing to grow, the database might become the bottleneck. 
 
 Suppose the business continues to grow. One single database cannot handle the load on both the inventory table and user table. We have a few options:
 
-*   **Vertical partition.** Adding more power (CPU, RAM, etc.) to the database server. It has a hard limit.
-*   **Horizontal partition** by adding more database servers.
-*   Adding a caching layer to offload read requests.
+* **Vertical partition.** Adding more power (CPU, RAM, etc.) to the database server. It has a hard limit.
+* **Horizontal partition** by adding more database servers.
+* Adding a caching layer to offload read requests.
 
 ## Step 6
 

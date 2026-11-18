@@ -72,4 +72,4 @@ url: ""
 ## 相关资源
 
 - GitHub: [mattpocock/skills](https://github.com/mattpocock/skills)
-- 75K Star 刷屏说明：AI Agent 技能正在从"酷炫"走向"工程化"
+- 75K Star 刷屏说明：AI Agent 技能正在从“酷炫”走向“工程化”

@@ -218,7 +218,7 @@ Provider 将 Hindsight 的具体调用细节封装起来。对于 ZeroAgent 来�
 > **User**：我叫 Frank，是一名软件工程师，在华为工作。
 
 **Session B（新开启的会话）：**
-> **User**：Frank 的工作是什么？  
+> **User**：Frank 的工作是什么？ 
 > **Agent**：根据记忆中的信息，Frank 是一名软件工程师，在华为工作。
 
 两个问题发生在完全不同的 Session 中。Agent 能够回答，是因为 Hindsight 将 Session A 中的信息存储为长期记忆，并在 Session B 中精准召回。

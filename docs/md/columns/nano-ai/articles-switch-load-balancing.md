@@ -28,7 +28,7 @@ Expert Capacity & Load Balancing
 
 
 
-> 上一期我们把 Transformer Block 里的 FFN 拆成了 N 个"专家"，再加一个 router，让每个 token 只选 1 个专家（Switch Transformer 的 top-1 routing）。参数量可以做得很大，但每个 token 的计算量几乎不变。
+> 上一期我们把 Transformer Block 里的 FFN 拆成了 N 个“专家”，再加一个 router，让每个 token 只选 1 个专家（Switch Transformer 的 top-1 routing）。参数量可以做得很大，但每个 token 的计算量几乎不变。
 
 >
 
@@ -40,7 +40,7 @@ Expert Capacity & Load Balancing
 
 
 
-## 01先回顾：我们现在站在哪
+## 01 先回顾：我们现在站在哪
 
 
 
@@ -56,7 +56,7 @@ EP1 的结构可以压缩成一行：
 
 
 
-本期沿用"猫吃鱼"，并固定一组设定，方便手算：
+本期沿用“猫吃鱼”，并固定一组设定，方便手算：
 
 
 
@@ -80,17 +80,17 @@ Router 本质上就是一个线性层加 softmax，形状变化如下：
 
 
 
-    x:        (3, 4)
+    x: (3, 4)
 
-    W_r:      (4, 3)
+    W_r: (4, 3)
 
-    logits:   (3, 3)    # 每个 token 对每个专家的打分
+    logits: (3, 3) # 每个 token 对每个专家的打分
 
-    probs:    (3, 3)    # softmax 之后，每行和为 1
+    probs: (3, 3) # softmax 之后，每行和为 1
 
-    gate:     (3,)      # 每个 token 选中专家的概率（取行最大值）
+    gate: (3,) # 每个 token 选中专家的概率（取行最大值）
 
-    expert:   (3,)      # 每个 token 选中的专家编号（取行 argmax）
+    expert: (3,) # 每个 token 选中的专家编号（取行 argmax）
 
 
 
@@ -100,7 +100,7 @@ Router 本质上就是一个线性层加 softmax，形状变化如下：
 
 
 
-## 02问题：router 会"偏心"
+## 02 问题：router 会“偏心”
 
 
 
@@ -108,7 +108,7 @@ Router 本质上就是一个线性层加 softmax，形状变化如下：
 
 
 
-Router 是和专家一起训练的，没有人告诉它"该把哪类 token 发给谁"。于是会出现这样的循环：
+Router 是和专家一起训练的，没有人告诉它“该把哪类 token 发给谁”。于是会出现这样的循环：
 
 
 
@@ -116,7 +116,7 @@ Router 是和专家一起训练的，没有人告诉它"该把哪类 token 发�
 
   2. 收到的 token 多，E0 得到的梯度更新就多，学得更快，输出质量更好
 
-  3. 输出质量好，主任务的 loss 降得更多，router 学到"选 E0 更划算"
+  3. 输出质量好，主任务的 loss 降得更多，router 学到“选 E0 更划算”
 
   4. 下一轮 E0 收到更多 token……
 
@@ -126,7 +126,7 @@ Router 是和专家一起训练的，没有人告诉它"该把哪类 token 发�
 
 
 
-### 2.2 一个工程问题：硬件不接受"不均匀"
+### 2.2 一个工程问题：硬件不接受“不均匀”
 
 
 
@@ -154,7 +154,7 @@ Router 是和专家一起训练的，没有人告诉它"该把哪类 token 发�
 
 
 
-> **用后端的视角类比一下** ：router 是负载均衡器，专家是后端实例。Expert Capacity 相当于每个实例的并发上限，超了就限流；Load Balancing Loss 相当于让调度策略自己学会"别把请求都打到同一台机器"。只有限流没有均衡，会大量丢请求；只有均衡没有限流，一次突发流量就能压垮单个实例。两者是配合关系。
+> **用后端的视角类比一下** ：router 是负载均衡器，专家是后端实例。Expert Capacity 相当于每个实例的并发上限，超了就限流；Load Balancing Loss 相当于让调度策略自己学会“别把请求都打到同一台机器”。只有限流没有均衡，会大量丢请求；只有均衡没有限流，一次突发流量就能压垮单个实例。两者是配合关系。
 
 
 
@@ -184,7 +184,7 @@ capacity=⌈TN×capacity_factor⌉ \text{capacity} = \left\lceil \frac{T}{N} \ti
 
   * 
 `capacity_factor`
-：容量因子，给"不完美"留出的缓冲。1.0 表示不留余量，1.25 表示多留 25%
+：容量因子，给“不完美”留出的缓冲。1.0 表示不留余量，1.25 表示多留 25%
 
 
 
@@ -236,7 +236,7 @@ token | E0 | E1 | E2 | 选中（argmax） | gate 值
 
 
 
-这里的"丢弃"不是把 token 删掉，而是**这个 token 在这一层不经过任何专家** ，直接走残差连接传到下一层。
+这里的“丢弃”不是把 token 删掉，而是**这个 token 在这一层不经过任何专家** ，直接走残差连接传到下一层。
 
 
 
@@ -302,7 +302,7 @@ capacity_factor | 优点 | 代价
 
 
 
-## 04Load Balancing Loss：让 router 学会"均匀分发"
+## 04Load Balancing Loss：让 router 学会“均匀分发”
 
 
 
@@ -350,7 +350,7 @@ Laux=α⋅N⋅∑i=1Nfi⋅Pi \mathcal{L}_{aux} = \alpha \cdot N \cdot \sum_{i=1}
 
 
 
-只用 f，没有梯度，router 学不到东西。只用 P，则无法反映"实际分配"：可能每个专家的平均概率都是 1/3，但实际上 argmax 全都落在同一个专家上。
+只用 f，没有梯度，router 学不到东西。只用 P，则无法反映“实际分配”：可能每个专家的平均概率都是 1/3，但实际上 argmax 全都落在同一个专家上。
 
 
 
@@ -358,7 +358,7 @@ Laux=α⋅N⋅∑i=1Nfi⋅Pi \mathcal{L}_{aux} = \alpha \cdot N \cdot \sum_{i=1}
 
 
 
-  * **f_i 充当权重** ：告诉优化器"专家 i 现在实际负载有多高"
+  * **f_i 充当权重** ：告诉优化器“专家 i 现在实际负载有多高”
 
   * **P_i 充当可导的抓手** ：梯度通过它回传给 router
 
@@ -498,7 +498,7 @@ E2 | 0.0000 | 0
 
 
 
-这里有一个容易想错的点：**E2 的概率不是被辅助损失直接"推高"的** 。它之所以会上升，是因为 softmax 的概率和为 1，P_0 和 P_1 被压下去之后，多出来的概率质量自然流向了其他专家，其中就包括 E2。
+这里有一个容易想错的点：**E2 的概率不是被辅助损失直接“推高”的** 。它之所以会上升，是因为 softmax 的概率和为 1，P_0 和 P_1 被压下去之后，多出来的概率质量自然流向了其他专家，其中就包括 E2。
 
 
 
@@ -512,7 +512,7 @@ E2 | 0.0000 | 0
 
   * 太小：均衡约束太弱，路由还是会偏
 
-  * 太大：辅助损失压过主任务（语言建模的交叉熵），为了"均匀"而牺牲了"选对专家"
+  * 太大：辅助损失压过主任务（语言建模的交叉熵），为了“均匀”而牺牲了“选对专家”
 
 
 
@@ -614,7 +614,7 @@ E2 | 0.0000 | 0
 
             B, T, D = x.shape
 
-            x_flat = x.reshape(-1, D)                    # (B*T, D)
+            x_flat = x.reshape(-1, D) # (B*T, D)
 
             n_tokens = x_flat.size(0)
 
@@ -622,11 +622,11 @@ E2 | 0.0000 | 0
 
             # ---------- 1. 路由 ----------
 
-            logits = self.router(x_flat)                 # (n_tokens, N)
+            logits = self.router(x_flat) # (n_tokens, N)
 
-            probs = F.softmax(logits, dim=-1)            # (n_tokens, N)
+            probs = F.softmax(logits, dim=-1) # (n_tokens, N)
 
-            gate, expert_idx = probs.max(dim=-1)         # 都是 (n_tokens,)
+            gate, expert_idx = probs.max(dim=-1) # 都是 (n_tokens,)
 
 
 
@@ -638,19 +638,19 @@ E2 | 0.0000 | 0
 
             # ---------- 3. 分发给专家，超出容量的 token 被丢弃 ----------
 
-            out = torch.zeros_like(x_flat)               # 丢弃的 token 输出保持 0
+            out = torch.zeros_like(x_flat) # 丢弃的 token 输出保持 0
 
             for e, expert in enumerate(self.experts):
 
                 token_ids = (expert_idx == e).nonzero(as_tuple=True)[0]
 
-                token_ids = token_ids[:capacity]         # 位置靠前的优先，多余的丢弃
+                token_ids = token_ids[:capacity] # 位置靠前的优先，多余的丢弃
 
                 if token_ids.numel() == 0:
 
                     continue
 
-                expert_out = expert(x_flat[token_ids])   # (k, D)
+                expert_out = expert(x_flat[token_ids]) # (k, D)
 
                 out[token_ids] = gate[token_ids].unsqueeze(-1) * expert_out
 
@@ -660,9 +660,9 @@ E2 | 0.0000 | 0
 
             one_hot = F.one_hot(expert_idx, self.num_experts).float()
 
-            f = one_hot.mean(dim=0)                      # (N,) 实际分配比例，不可导
+            f = one_hot.mean(dim=0) # (N,) 实际分配比例，不可导
 
-            P = probs.mean(dim=0)                        # (N,) 平均概率，可导
+            P = probs.mean(dim=0) # (N,) 平均概率，可导
 
             aux_loss = self.aux_alpha * self.num_experts * torch.sum(f * P)
 
@@ -682,13 +682,13 @@ E2 | 0.0000 | 0
 `out`
  初始化为全 0**：被丢弃的 token 输出就是 0，配合外层的残差连接 
 `x + MoE(...)`
-，刚好实现了"丢弃的 token 原样通过"
+，刚好实现了“丢弃的 token 原样通过”
 
   * **
 `out[token_ids] = gate * expert_out`
 ** ：输出要乘以 gate 值。这一步很关键，它让 router 的概率直接参与到输出里，主任务的梯度才能传回 router
 
-  * **统计 f 用的是丢弃之前的分配结果** ：辅助损失关心的是 router"想"怎么分，而不是容量限制之后"实际"怎么分
+  * **统计 f 用的是丢弃之前的分配结果** ：辅助损失关心的是 router“想”怎么分，而不是容量限制之后“实际”怎么分
 
 
 
@@ -706,7 +706,7 @@ E2 | 0.0000 | 0
 
             self.ln1 = nn.LayerNorm(d_model)
 
-            self.attn = MultiHeadAttention(d_model, n_heads)   # 沿用 EP5
+            self.attn = MultiHeadAttention(d_model, n_heads) # 沿用 EP5
 
             self.ln2 = nn.LayerNorm(d_model)
 
@@ -720,7 +720,7 @@ E2 | 0.0000 | 0
 
             moe_out, aux_loss = self.moe(self.ln2(x))
 
-            x = x + moe_out                                    # 残差：被丢弃的 token 原样通过
+            x = x + moe_out # 残差：被丢弃的 token 原样通过
 
             return x, aux_loss
 
@@ -732,7 +732,7 @@ E2 | 0.0000 | 0
 
 
 
-## 06用猫吃鱼验证手算结果
+## 06 用猫吃鱼验证手算结果
 
 
 
@@ -744,11 +744,11 @@ E2 | 0.0000 | 0
 
     probs = torch.tensor([
 
-        [0.60, 0.30, 0.10],   # 猫
+        [0.60, 0.30, 0.10], # 猫
 
-        [0.50, 0.30, 0.20],   # 吃
+        [0.50, 0.30, 0.20], # 吃
 
-        [0.20, 0.55, 0.25],   # 鱼
+        [0.20, 0.55, 0.25], # 鱼
 
     ])
 
@@ -756,7 +756,7 @@ E2 | 0.0000 | 0
 
     expert_idx = probs.argmax(dim=-1)
 
-    print(expert_idx)                          # tensor([0, 0, 1])
+    print(expert_idx) # tensor([0, 0, 1])
 
 
 
@@ -764,39 +764,39 @@ E2 | 0.0000 | 0
 
     P = probs.mean(dim=0)
 
-    print(f)                                   # tensor([0.6667, 0.3333, 0.0000])
+    print(f) # tensor([0.6667, 0.3333, 0.0000])
 
-    print(P)                                   # tensor([0.4333, 0.3833, 0.1833])
+    print(P) # tensor([0.4333, 0.3833, 0.1833])
 
 
 
     aux = 0.01 * N * torch.sum(f * P)
 
-    print(aux)                                 # tensor(0.0125)
+    print(aux) # tensor(0.0125)
 
 
 
     # 容量与丢弃
 
-    capacity = math.ceil(3 / N * 1.0)          # capacity_factor = 1.0
+    capacity = math.ceil(3 / N * 1.0) # capacity_factor = 1.0
 
-    print(capacity)                            # 1
+    print(capacity) # 1
 
     e0_tokens = (expert_idx == 0).nonzero(as_tuple=True)[0]
 
-    print(e0_tokens, "->", e0_tokens[:capacity])   # tensor([0, 1]) -> tensor([0])，"吃"被丢弃
+    print(e0_tokens, "->", e0_tokens[:capacity]) # tensor([0, 1]) -> tensor([0])，“吃”被丢弃
 
 
 
 
 
-和手算完全一致：f、P、0.0125，以及"吃"在容量为 1 时被丢弃。
+和手算完全一致：f、P、0.0125，以及“吃”在容量为 1 时被丢弃。
 
 
 
 > **诚实声明** ：和前面所有集数一样，随机初始化的专家和 router 没有任何语义。如果你直接用 
 `SwitchFFN`
- 跑一段真实文本，router 选谁、谁被丢弃都是随机的，没有"猫"一定去 E0 这种规律。本期验证的是**机制** ，不是效果。
+ 跑一段真实文本，router 选谁、谁被丢弃都是随机的，没有“猫”一定去 E0 这种规律。本期验证的是**机制** ，不是效果。
 
 
 
@@ -804,7 +804,7 @@ E2 | 0.0000 | 0
 
 
 
-## 07几点需要说清楚的边界
+## 07 几点需要说清楚的边界
 
 
 
@@ -818,11 +818,11 @@ E2 | 0.0000 | 0
 
 
 
-**3\. 辅助损失只是"鼓励"均衡，不保证均衡。** 它是一个软约束，路由依然可能在局部偏斜，所以才需要前面 Expert Capacity 这个硬约束兜底。
+**3\. 辅助损失只是“鼓励”均衡，不保证均衡。** 它是一个软约束，路由依然可能在局部偏斜，所以才需要前面 Expert Capacity 这个硬约束兜底。
 
 
 
-**4\. 均衡本身是一把双刃剑。** 强行要求每个专家分到的 token 一样多，和"让专家各自专精于不同类型的 token"之间存在天然张力。α 取多大，本质是在这个张力里找平衡。后来的 MoE 工作（比如 DeepSeek 系列）在负载均衡的处理上又做了新的探索，等我们讲到那里再对比。
+**4\. 均衡本身是一把双刃剑。** 强行要求每个专家分到的 token 一样多，和“让专家各自专精于不同类型的 token”之间存在天然张力。α 取多大，本质是在这个张力里找平衡。后来的 MoE 工作（比如 DeepSeek 系列）在负载均衡的处理上又做了新的探索，等我们讲到那里再对比。
 
 
 
@@ -830,7 +830,7 @@ E2 | 0.0000 | 0
 
 
 
-## 08小结
+## 08 小结
 
 
 
@@ -856,7 +856,7 @@ E2 | 0.0000 | 0
 
 
 
-一句话总结：**Capacity 保证"最坏情况下系统不崩"，Load Balancing Loss 保证"平常情况下大家都在干活"。**
+一句话总结：**Capacity 保证“最坏情况下系统不崩”，Load Balancing Loss 保证“平常情况下大家都在干活”。**
 
 
 
@@ -868,7 +868,7 @@ E2 | 0.0000 | 0
 
 
 
-MoE 的训练不只是"加一个辅助损失"这么简单。参数量大、路由是离散操作，这类模型比普通 Transformer 更容易训练不稳定。下一期我们来看 Switch Transformer 论文里为稳定训练做的几个设计：
+MoE 的训练不只是“加一个辅助损失”这么简单。参数量大、路由是离散操作，这类模型比普通 Transformer 更容易训练不稳定。下一期我们来看 Switch Transformer 论文里为稳定训练做的几个设计：
 
 
 

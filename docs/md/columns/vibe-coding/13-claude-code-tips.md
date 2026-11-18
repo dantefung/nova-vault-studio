@@ -7,7 +7,7 @@ author: "Nav Toor"
 abstract: "Nav Toor 11个月 Claude Code 实战总结，42个从基础到高阶的实战技巧。分基础技巧（01-10）、进阶技巧（11-25）、高阶技巧（26-42）三部分，涵盖状态栏定制、斜杠命令、语音输入、Git/CLI集成、上下文管理、多终端并行、容器隔离、CLAUDE.md优化等主题。"
 ---
 
-> 来源：[骚操作来了！Claude编程的42个实战技巧大全](https://mp.weixin.qq.com/s/_3EFVhVwAKXjatG7e7mOpg)，作者 Nav Toor，X 博主、Claude/GPT 深度使用者，Datawhale 整理发布。
+> 来源：[骚操作来了！Claude 编程的 42 个实战技巧大全](https://mp.weixin.qq.com/s/_3EFVhVwAKXjatG7e7mOpg)，作者 Nav Toor，X 博主、Claude/GPT 深度使用者，Datawhale 整理发布。
 
 ---
 
@@ -33,7 +33,7 @@ abstract: "Nav Toor 11个月 Claude Code 实战总结，42个从基础到高阶�
 
 ## 05 把 Git 和 GitHub CLI 用起来
 
-提交、建分支、开 PR，都可以让 Claude 来。配合 `gh` CLI 做进阶查询，说一句"帮我开个 PR"，Claude 会把整个流程都搞定。
+提交、建分支、开 PR，都可以让 Claude 来。配合 `gh` CLI 做进阶查询，说一句“帮我开个 PR"，Claude 会把整个流程都搞定。
 
 ## 06 上下文就像牛奶，要喝新鲜的
 
@@ -79,7 +79,7 @@ abstract: "Nav Toor 11个月 Claude Code 实战总结，42个从基础到高阶�
 
 ## 15 多开终端标签页，并行推进
 
-用"瀑布式"多标签页的方法，同时跟进三到四个任务，每个标签页对应一个独立的 Claude 会话。
+用”瀑布式“多标签页的方法，同时跟进三到四个任务，每个标签页对应一个独立的 Claude 会话。
 
 ## 16 给系统提示词瘦身
 
@@ -149,7 +149,7 @@ abstract: "Nav Toor 11个月 Claude Code 实战总结，42个从基础到高阶�
 
 ## 31 选对抽象层级
 
-"氛围编程"和深度钻研之间找好平衡，根据任务的重要程度来决定投入多少注意力。不是每个功能都值得精雕细琢。
+”氛围编程“和深度钻研之间找好平衡，根据任务的重要程度来决定投入多少注意力。不是每个功能都值得精雕细琢。
 
 ## 32 审查你批准过的命令
 

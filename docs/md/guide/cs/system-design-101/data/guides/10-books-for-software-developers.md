@@ -15,30 +15,30 @@ tags:
 
 ## General Advice
 
-*   **The Pragmatic Programmer** by Andrew Hunt and David Thomas
+* **The Pragmatic Programmer** by Andrew Hunt and David Thomas
 
-*   **Code Complete** by Steve McConnell: Often considered a bible for software developers, this comprehensive book covers all aspects of software development, from design and coding to testing and maintenance.
+* **Code Complete** by Steve McConnell: Often considered a bible for software developers, this comprehensive book covers all aspects of software development, from design and coding to testing and maintenance.
 
 ## Coding
 
-*   **Clean Code** by Robert C. Martin
+* **Clean Code** by Robert C. Martin
 
-*   **Refactoring** by Martin Fowler
+* **Refactoring** by Martin Fowler
 
 ## Software Architecture
 
-*   **Designing Data-Intensive Applications** by Martin Kleppmann
+* **Designing Data-Intensive Applications** by Martin Kleppmann
 
-*   **System Design Interview** (our own book :))
+* **System Design Interview** (our own book :))
 
 ## Design Patterns
 
-*   **Design Patterns** by Eric Gamma and Others
+* **Design Patterns** by Eric Gamma and Others
 
-*   **Domain-Driven Design** by Eric Evans
+* **Domain-Driven Design** by Eric Evans
 
 ## Data Structures and Algorithms
 
-*   **Introduction to Algorithms** by Cormen, Leiserson, Rivest, and Stein
+* **Introduction to Algorithms** by Cormen, Leiserson, Rivest, and Stein
 
-*   **Cracking the Coding Interview** by Gayle Laakmann McDowell
+* **Cracking the Coding Interview** by Gayle Laakmann McDowell

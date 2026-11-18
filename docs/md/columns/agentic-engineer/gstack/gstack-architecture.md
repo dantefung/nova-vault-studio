@@ -9,7 +9,7 @@ url: "https://github.com/garrytan/gstack"
 
 ## 核心原理
 
-gstack 是一个"开源软件工厂"，通过结构化的技能系统将 AI 代理从通用助手转变为协调的专家团队。它专为技术创始人、CEO 和高级工程师设计，旨在利用代理工作流以比传统团队更快的速度交付代码。
+gstack 是一个“开源软件工厂”，通过结构化的技能系统将 AI 代理从通用助手转变为协调的专家团队。它专为技术创始人、CEO 和高级工程师设计，旨在利用代理工作流以比传统团队更快的速度交付代码。
 
 ### 设计哲学
 
@@ -136,13 +136,13 @@ SKILL.md               (已提交，自动生成的部分)
 | 技能 | 专家角色 | 主要功能 |
 | :--- | :--- | :--- |
 | `/office-hours` | **YC Partner** | 通过 6 个强制问题重构产品想法 |
-| `/plan-ceo-review` | **CEO / Founder** | 重新思考问题；找到"10 星产品" |
+| `/plan-ceo-review` | **CEO / Founder** | 重新思考问题；找到“10 星产品” |
 | `/plan-eng-review` | **Eng Manager** | 锁定架构、数据流和边缘情况 |
 | `/review` | **Staff Engineer** | 发现通过 CI 但在生产中失败的 bug |
 | `/qa` | **QA Lead** | 测试应用、发现 bug 并通过浏览器验证 |
 | `/ship` | **Release Engineer** | 自动化 PR 创建、测试运行和文档同步 |
-| `/browse` | **QA Engineer** | 通过持久浏览器为代理提供"眼睛" |
-| `/investigate` | **Debugger** | 系统性根本原因调试，遵循"无调查不修复"的铁律 |
+| `/browse` | **QA Engineer** | 通过持久浏览器为代理提供“眼睛” |
+| `/investigate` | **Debugger** | 系统性根本原因调试，遵循“无调查不修复”的铁律 |
 
 ### /plan-eng-review 技能工作流
 

@@ -6,7 +6,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/e7NVC74MztKIXxHKcSAx5Q"
 ---
 
-# DeepSeekHarness的新范式：让Agent为自己构建工具
+# DeepSeekHarness 的新范式：让 Agent 为自己构建工具
 
 ```
 

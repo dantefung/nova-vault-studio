@@ -16,7 +16,7 @@ url: "https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ"
 
 但真正让我兴奋的不是它能干什么，是它的制作 skill 的方法。
 
-它跟我之前理解的 Skill 完全不一样。除了 SKILL.md，它里面还有command、plugin、hooks三个概念。
+它跟我之前理解的 Skill 完全不一样。除了 SKILL.md，它里面还有 command、plugin、hooks 三个概念。
 
 这些概念才让我认识了，什么是真正的 skill。
 
@@ -24,9 +24,9 @@ url: "https://mp.weixin.qq.com/s/TPbC9HPDvx-fGujacY7hcQ"
 
 % 图片已移除（原始图片未下载）
 
-但搞不清楚Plugin 插件跟 Skill 到底什么关系。
+但搞不清楚 Plugin 插件跟 Skill 到底什么关系。
 
-也有不少朋友在讨论Skill 的上一层是什么，散落在各处的几十个 Skill 该怎么组织。
+也有不少朋友在讨论 Skill 的上一层是什么，散落在各处的几十个 Skill 该怎么组织。
 
 其实答案早就被 Anthropic 定义好了。
 
@@ -64,7 +64,7 @@ pm-marketing-growth 管增长
 
 02
 
-插件使用方式跟skill 不一样
+插件使用方式跟 skill 不一样
 
 以前用 Skill，是 AI 自己挑。我输入一句话，Claude 看哪个 Skill 的描述最匹配就加载哪个。这种用法的问题是 Skill 一多就乱，几十个 Skill 摆在那，AI 经常挑错，或者干脆挑不出来。我自己也老忘记某个 Skill 叫什么名字。
 
@@ -104,7 +104,7 @@ Skill 是建议性的，AI 觉得相关才加载，不相关就跳过。
 
 Hooks 是强制性的，挂在 Claude Code 的生命周期事件上，到点就触发，AI 想不想都没得选。
 
-打开一个插件里的 hooks 文件夹，通常是这几样东西：一个 hooks.json 是入口，声明"在什么时机，跑哪个脚本"。
+打开一个插件里的 hooks 文件夹，通常是这几样东西：一个 hooks.json 是入口，声明“在什么时机，跑哪个脚本”。
 
 .sh 是被调起来跑的脚本，名字一看就知道干啥的，比如 session-start.sh、sdd-cache-pre.sh、simplify-ignore.sh。
 
@@ -122,7 +122,7 @@ Skill 是 AI 的工具箱，command 是工作流，Hooks 是兜底和强制约�
 
 04
 
-把skill、command、hooks 打包的容器：Plugin
+把 skill、command、hooks 打包的容器：Plugin
 
 讲完 command 和 Hooks，再回头看 plugin 这一层。
 
@@ -138,7 +138,7 @@ Claude Cowork 那个插件市场展示的就是这个，每一项都是一个 pl
 
 Anthropic 自己也建了官方仓库 anthropics/claude-plugins-official 统一管插件。第三方市场已经爆炸，tonsofskills 网站， 一个站索引了 425 个 plugin、2810 个 skill。
 
-到这里整个体系就清楚了。Skill 是原子，command 是工作流，Hooks 是强制约束，plugin 是发行单位。Anthropic 在 2026 年正式把这套定义成了 Skill 2.0。我们这两年熟悉的"单 md 文件 Skill"是 1.0。
+到这里整个体系就清楚了。Skill 是原子，command 是工作流，Hooks 是强制约束，plugin 是发行单位。Anthropic 在 2026 年正式把这套定义成了 Skill 2.0。我们这两年熟悉的“单 md 文件 Skill”是 1.0。
 
 05
 
@@ -160,7 +160,7 @@ Skill 是后厨，command 是菜单。我准备做几条高频命令：/new-arti
 
 按领域分组、补上 plugin.json，朋友一条命令就能装，不用复制 SKILL.md。
 
-4，用 Hooks 自动化那些"每次都得做"的事。
+4，用 Hooks 自动化那些“每次都得做”的事。
 
 给自己挂三个 hook：session 开启自动加载写作风格、写完文章自动追加 articlesindex.jsonl、session 关闭自动写 dailylog.jsonl。
 
@@ -212,7 +212,7 @@ Skill 已经进化成了 plugin。
 
 跟前端组件化、后端微服务化是一个套路。每一次架构升级都是把单一巨型工具拆成最小可复用单元，再用编排层串起来。只是这一次被编排的换成了 AI 的执行能力本身。
 
-全球几百万个 plugin 沉淀下来，每一个都是"任务怎么拆、调什么工具、按什么顺序、出什么结果"的高质量结构化样本。
+全球几百万个 plugin 沉淀下来，每一个都是“任务怎么拆、调什么工具、按什么顺序、出什么结果”的高质量结构化样本。
 
 这些会成为下一代模型最精准的训练数据。
 

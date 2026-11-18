@@ -25,13 +25,13 @@ GraphQL supports queries, mutations (applying data modifications to resources), 
 
 **Benefits of GraphQL:**
 
-*   GraphQL is more efficient in data fetching.
-*   GraphQL returns more accurate results.
-*   GraphQL has a strong type system to manage the structure of entities, reducing errors.
-*   GraphQL is suitable for managing complex microservices.
+* GraphQL is more efficient in data fetching.
+* GraphQL returns more accurate results.
+* GraphQL has a strong type system to manage the structure of entities, reducing errors.
+* GraphQL is suitable for managing complex microservices.
 
 **Disadvantages of GraphQL**
 
-*   Increased complexity.
-*   Over fetching by design
-*   Caching complexity
+* Increased complexity.
+* Over fetching by design
+* Caching complexity

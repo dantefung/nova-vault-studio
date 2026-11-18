@@ -28,15 +28,15 @@ AI Agent 的瓶颈不在 LLM，在工具。LLM 只是推理引擎，工具才是
 
 
 
-Tool 的 @Tool 描述是 LLM 判断"什么时候该用这个工具"的唯一依据。描述越具体，LLM 的调用准确率越高。
+Tool 的 @Tool 描述是 LLM 判断“什么时候该用这个工具”的唯一依据。描述越具体，LLM 的调用准确率越高。
 
 
 
-// 差 — LLM 不知道什么时候该用@Tool("查询设备信息")// 好 — 明确的触发场景、输入输出@Tool("查询指定设备的当前告警信息。输入设备ID，返回该设备的所有活跃告警及严重级别。")
+// 差 — LLM 不知道什么时候该用@Tool(“查询设备信息”)// 好 — 明确的触发场景、输入输出@Tool(“查询指定设备的当前告警信息。输入设备 ID，返回该设备的所有活跃告警及严重级别。")
 
 
 
-经验规则：描述里包含三个要素——什么时候用（查询告警）、输入什么（设备ID）、返回什么（活跃告警列表）。
+经验规则：描述里包含三个要素——什么时候用（查询告警）、输入什么（设备 ID）、返回什么（活跃告警列表）。
 
 
 
@@ -68,7 +68,7 @@ LLM 从自然语言中提取参数，然后填到 Function Calling 的 JSON 参�
 
 
 
-// 差 — 自然语言，LLM 可能误读return "设备 CNC-001 当前有 2 个告警：温度过高(严重)和振动异常(中等)";// 好 — 结构化 JSON，LLM 精准解析return """{  "deviceId": "CNC-001",  "status": "warning",  "activeAlarms": [    {"type": "温度过高", "severity": "HIGH", "timestamp": "..."},    {"type": "振动异常", "severity": "MEDIUM", "timestamp": "..."}  ],  "totalCount": 2}""";
+// 差 — 自然语言，LLM 可能误读 return ”设备 CNC-001 当前有 2 个告警：温度过高(严重)和振动异常(中等)";// 好 — 结构化 JSON，LLM 精准解析 return """{  "deviceId": "CNC-001",  "status": "warning",  "activeAlarms": [    {"type": “温度过高”, "severity": "HIGH", "timestamp": "..."},    {"type": “振动异常”, "severity": "MEDIUM", "timestamp": "..."}  ],  "totalCount": 2}""";
 
 
 
@@ -84,11 +84,11 @@ LLM 可能在一次对话中多次调用同一个工具。一定要保证：同�
 
 
 
-// 危险的 — 每次调用都创建工单@Tool("创建维修工单")public String createWorkOrder(String deviceId, String description) {    // 如果 LLM 调了两次，就创建了两个相同的工单！}// 安全的 — 先查询，已存在则返回@Tool("创建维修工单。如果该设备已有相同描述的未完成工单，返回已有工单。")public String createWorkOrder(String deviceId, String description) {    WorkOrder existing = workOrderRepo.findByDeviceAndDescription(deviceId, description);    if (existing != null) {        return "{\"action\":\"existing\", \"workOrder\":" + existing.toJson() + "}";    }    // 真正创建...}
+// 危险的 — 每次调用都创建工单@Tool(“创建维修工单”)public String createWorkOrder(String deviceId, String description) {    // 如果 LLM 调了两次，就创建了两个相同的工单！}// 安全的 — 先查询，已存在则返回@Tool(“创建维修工单。如果该设备已有相同描述的未完成工单，返回已有工单。")public String createWorkOrder(String deviceId, String description) {    WorkOrder existing = workOrderRepo.findByDeviceAndDescription(deviceId, description);    if (existing != null) {        return "{\"action\":\"existing\", \"workOrder\":" + existing.toJson() + "}";    }    // 真正创建...}
 
 
 
-特别危险的 Tool 类型：创建、删除、重启、调整参数。这些操作要么加幂等检查，要么标注为"需要人工确认"。
+特别危险的 Tool 类型：创建、删除、重启、调整参数。这些操作要么加幂等检查，要么标注为”需要人工确认“。
 
 
 
@@ -100,11 +100,11 @@ LLM 可能在一次对话中多次调用同一个工具。一定要保证：同�
 
 
 
-// 差 — 抛异常，LLM 收到的是技术错误信息throw new RuntimeException("Connection refused to TDEngine");// 好 — 返回结构化的错误信息return """{  "error": true,  "message": "无法连接时序数据库，数据查询失败",  "suggestion": "请稍后重试，或联系运维检查 TDEngine 服务状态",  "partialData": null}""";
+// 差 — 抛异常，LLM 收到的是技术错误信息 throw new RuntimeException("Connection refused to TDEngine");// 好 — 返回结构化的错误信息 return """{  "error": true,  "message": ”无法连接时序数据库，数据查询失败“,  "suggestion": ”请稍后重试，或联系运维检查 TDEngine 服务状态“,  "partialData": null}""";
 
 
 
-LLM 看到这个返回，会告诉用户："数据查询暂时失败，建议稍后重试或联系运维。"——而不是把 Connection refused 堆栈抛给用户。
+LLM 看到这个返回，会告诉用户：”数据查询暂时失败，建议稍后重试或联系运维。"——而不是把 Connection refused 堆栈抛给用户。
 
 
 

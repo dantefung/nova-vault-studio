@@ -5,7 +5,7 @@ source: "Github"
 url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 ---
 
-# Claude Agent SDK 完整指南：把AI编程能力装进你的程序里
+# Claude Agent SDK 完整指南：把 AI 编程能力装进你的程序里
 
 ---
 
@@ -22,12 +22,12 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 完成本课学习后，你将能够：
 
-1. **理解SDK的核心价值**：掌握Agent SDK与Claude Code CLI的关系和定位
-2. **5分钟快速上手**：完成Hello World Agent的创建和运行
-3. **掌握核心概念**：深入理解Tools、Agent Loop、Context Management
-4. **独立完成3个实战项目**：从one-shot到multi-tool再到streaming模式
-5. **自定义工具开发**：创建SDK内置MCP服务器，扩展Agent能力
-6. **故障排查技能**：独立解决90%的常见问题
+1. **理解 SDK 的核心价值**：掌握 Agent SDK 与 Claude Code CLI 的关系和定位
+2. **5 分钟快速上手**：完成 Hello World Agent 的创建和运行
+3. **掌握核心概念**：深入理解 Tools、Agent Loop、Context Management
+4. **独立完成 3 个实战项目**：从 one-shot 到 multi-tool 再到 streaming 模式
+5. **自定义工具开发**：创建 SDK 内置 MCP 服务器，扩展 Agent 能力
+6. **故障排查技能**：独立解决 90%的常见问题
 
 ---
 
@@ -35,9 +35,9 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 > 这是一篇长教程，不用全看！根据你的目标选择路径。
 
-### 路径A：快速体验（60分钟）
+### 路径 A：快速体验（60 分钟）
 
-**适合人群**：急着体验Agent SDK，想快速跑个Demo
+**适合人群**：急着体验 Agent SDK，想快速跑个 Demo
 
 **只看这些章节**：
 
@@ -48,25 +48,25 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 实战项目1：Hello World Agent（25分钟）
 ```
 
-**60分钟后你能达到**：成功运行第一个Agent，理解基本工作流程
+**60 分钟后你能达到**：成功运行第一个 Agent，理解基本工作流程
 
 ---
 
-### 路径B：系统学习（6-8小时）
+### 路径 B：系统学习（6-8 小时）
 
-**适合人群**：想深入掌握Agent SDK，准备在项目中使用
+**适合人群**：想深入掌握 Agent SDK，准备在项目中使用
 
 **学习顺序**：从头到尾所有章节
 
 **建议分段学习**：
-- 第1天（2小时）：第一~三部分（概念+安装+核心原理）
-- 第2天（2小时）：第四部分（3个实战项目）
-- 第3天（2小时）：第五~六部分（高级功能+故障排查）
-- 第4天（1小时）：第七部分FAQ + 总复习
+- 第 1 天（2 小时）：第一~三部分（概念+安装+核心原理）
+- 第 2 天（2 小时）：第四部分（3 个实战项目）
+- 第 3 天（2 小时）：第五~六部分（高级功能+故障排查）
+- 第 4 天（1 小时）：第七部分 FAQ + 总复习
 
 ---
 
-### 路径C：问题速查（5分钟）
+### 路径 C：问题速查（5 分钟）
 
 **适合人群**：使用中遇到问题，需要快速解决
 
@@ -79,16 +79,16 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 ---
 
-### 路径D：专项学习（30-60分钟/主题）
+### 路径 D：专项学习（30-60 分钟/主题）
 
 **适合人群**：已经会基础，想深入某个功能
 
 | 想学什么 | 看哪几节 | 预计时间 |
 |----------|---------|---------|
-| **自定义工具** | 第三部分3.3节 + 第四部分项目3 | 60分钟 |
-| **Hooks钩子** | 第五部分5.2节 | 45分钟 |
-| **子代理并行** | 第三部分3.4节 + 第四部分项目3 | 60分钟 |
-| **MCP集成** | 第五部分5.1节 | 45分钟 |
+| **自定义工具** | 第三部分 3.3 节 + 第四部分项目 3 | 60 分钟 |
+| **Hooks 钩子** | 第五部分 5.2 节 | 45 分钟 |
+| **子代理并行** | 第三部分 3.4 节 + 第四部分项目 3 | 60 分钟 |
+| **MCP 集成** | 第五部分 5.1 节 | 45 分钟 |
 
 ---
 
@@ -98,18 +98,18 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 | 术语 | 英文全称 | 通俗解释 |
 |------|----------|----------|
-| **SDK** | Software Development Kit | 软件开发工具包，就像一个"工具箱"，里面有各种你需要的零件和工具，让你能更方便地造东西 |
-| **Agent** | - | 智能代理/自动机器人，能够自主完成任务的AI程序。就像一个会思考的机器人助手，你给它任务，它自己想办法完成 |
-| **Agent Loop** | - | 代理循环，Agent工作的核心流程：接收任务→思考→使用工具→检查结果→继续或结束。就像一个"工作循环" |
-| **Tool** | - | 工具，Agent可以调用的能力，比如读文件、写文件、执行命令等。就像机器人的"手"和"眼睛" |
-| **Hook** | - | 钩子，在特定时机自动触发的回调函数。就像设置的"自动报警器"，特定事件发生时自动执行 |
-| **MCP** | Model Context Protocol | 模型上下文协议，让Agent连接外部工具的标准协议。就像USB接口标准，让各种设备能统一接入 |
+| **SDK** | Software Development Kit | 软件开发工具包，就像一个“工具箱”，里面有各种你需要的零件和工具，让你能更方便地造东西 |
+| **Agent** | - | 智能代理/自动机器人，能够自主完成任务的 AI 程序。就像一个会思考的机器人助手，你给它任务，它自己想办法完成 |
+| **Agent Loop** | - | 代理循环，Agent 工作的核心流程：接收任务→思考→使用工具→检查结果→继续或结束。就像一个“工作循环” |
+| **Tool** | - | 工具，Agent 可以调用的能力，比如读文件、写文件、执行命令等。就像机器人的“手”和“眼睛” |
+| **Hook** | - | 钩子，在特定时机自动触发的回调函数。就像设置的“自动报警器”，特定事件发生时自动执行 |
+| **MCP** | Model Context Protocol | 模型上下文协议，让 Agent 连接外部工具的标准协议。就像 USB 接口标准，让各种设备能统一接入 |
 | **Stream/Streaming** | - | 流式传输，数据像流水一样一点点传过来，而不是等全部完成才一次性传输。就像看视频边加载边播放 |
 | **Async/Await** | - | 异步编程语法，让程序不用傻等，可以同时处理多件事。就像你等外卖时还能看手机，不用傻站着 |
 | **Iterator** | - | 迭代器，一种可以逐个获取数据的对象。就像自动发牌机，每次给你一张牌 |
-| **Context** | - | 上下文，AI理解对话的背景信息。就像聊天记录，AI通过它知道你之前说了什么 |
-| **Token** | - | 计费单位，AI处理文字的最小单元。约等于0.75个英文单词或1-2个汉字 |
-| **Subagent** | - | 子代理，由主Agent创建的子任务执行者。就像主管派出去干活的员工 |
+| **Context** | - | 上下文，AI 理解对话的背景信息。就像聊天记录，AI 通过它知道你之前说了什么 |
+| **Token** | - | 计费单位，AI 处理文字的最小单元。约等于 0.75 个英文单词或 1-2 个汉字 |
+| **Subagent** | - | 子代理，由主 Agent 创建的子任务执行者。就像主管派出去干活的员工 |
 
 ---
 
@@ -117,11 +117,11 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 ### 1.1 什么是 Claude Agent SDK
 
-**用一句话说**：Claude Agent SDK是Anthropic官方提供的开发工具包，让你能够在自己的Python或TypeScript程序中使用Claude Code的全部能力。
+**用一句话说**：Claude Agent SDK 是 Anthropic 官方提供的开发工具包，让你能够在自己的 Python 或 TypeScript 程序中使用 Claude Code 的全部能力。
 
 **生活类比**：
 
-想象Claude Code是一辆装配完整的汽车，你可以开着它到处跑。而Agent SDK就是这辆车的发动机、变速箱和底盘的组合包，让你能够打造属于自己的定制车型。
+想象 Claude Code 是一辆装配完整的汽车，你可以开着它到处跑。而 Agent SDK 就是这辆车的发动机、变速箱和底盘的组合包，让你能够打造属于自己的定制车型。
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -142,7 +142,7 @@ url: "https://github.com/KimYx0207/Claude-Code-x-OpenClaw-Guide-Zh"
 
 ### 1.2 SDK vs CLI：什么时候用哪个？
 
-Claude Code有两种使用方式，选择取决于你的场景：
+Claude Code 有两种使用方式，选择取决于你的场景：
 
 ```
                     Claude代理核心能力
@@ -168,24 +168,24 @@ Claude Code有两种使用方式，选择取决于你的场景：
 | **定制程度** | 配置文件 | 完全可编程 |
 | **学习曲线** | 低（会打字就行） | 中（需要编程基础） |
 
-**什么时候用SDK？**
+**什么时候用 SDK？**
 
 1. **自动化脚本**：每天自动审查代码、生成报告
-2. **批量处理**：一次处理100个文件的重构
-3. **系统集成**：把Claude嵌入你的CI/CD流程
-4. **多Agent协作**：让多个Agent并行工作
-5. **定制化工具**：构建特定领域的AI助手
+2. **批量处理**：一次处理 100 个文件的重构
+3. **系统集成**：把 Claude 嵌入你的 CI/CD 流程
+4. **多 Agent 协作**：让多个 Agent 并行工作
+5. **定制化工具**：构建特定领域的 AI 助手
 
-**什么时候用CLI？**
+**什么时候用 CLI？**
 
-1. **日常开发**：写代码、改bug、问问题
-2. **快速任务**：临时需要AI帮忙的小事
-3. **学习探索**：熟悉Claude的能力
+1. **日常开发**：写代码、改 bug、问问题
+2. **快速任务**：临时需要 AI 帮忙的小事
+3. **学习探索**：熟悉 Claude 的能力
 4. **不想写代码**：就想简单聊聊
 
 ### 1.3 支持的编程语言
 
-Agent SDK目前官方支持两种语言，选择你熟悉的即可：
+Agent SDK 目前官方支持两种语言，选择你熟悉的即可：
 
 **Python SDK**
 
@@ -213,18 +213,18 @@ npm install @anthropic-ai/claude-agent-sdk
 - 适合：Web应用、Node.js服务端、全栈开发
 ```
 
-> **老金建议**：两种SDK功能完全相同，选你最熟悉的语言就好。本教程会同时展示两种语言的代码示例。
+> **老金建议**：两种 SDK 功能完全相同，选你最熟悉的语言就好。本教程会同时展示两种语言的代码示例。
 
 ### 1.4 版本演进说明
 
-Claude Agent SDK经历了从"Claude Code SDK"到"Agent SDK"的品牌升级：
+Claude Agent SDK 经历了从“Claude Code SDK”到“Agent SDK”的品牌升级：
 
 | 版本阶段 | 包名 | 状态 |
 |---------|------|------|
 | 早期 | `@anthropic-ai/claude-code` / `claude-code-sdk` | 已弃用 |
 | 当前 | `@anthropic-ai/claude-agent-sdk` / `claude-agent-sdk` | 推荐使用 |
 
-**如果你之前用旧版SDK**，需要更新导入语句：
+**如果你之前用旧版 SDK**，需要更新导入语句：
 
 ```python
 # Python旧版（已弃用）
@@ -244,7 +244,7 @@ import { query } from '@anthropic-ai/claude-agent-sdk';
 
 ---
 
-## 第二部分：5分钟快速开始
+## 第二部分：5 分钟快速开始
 
 ### 2.1 环境准备
 
@@ -252,8 +252,8 @@ import { query } from '@anthropic-ai/claude-agent-sdk';
 
 | 要求项 | 最低版本 | 推荐版本 |
 |--------|---------|---------|
-| **Node.js**（TypeScript用） | 18.0.0 | 20.x LTS |
-| **Python**（Python用） | 3.10 | 3.11+ |
+| **Node.js**（TypeScript 用） | 18.0.0 | 20.x LTS |
+| **Python**（Python 用） | 3.10 | 3.11+ |
 | **操作系统** | Windows 10/macOS 12/Ubuntu 20.04 | 最新稳定版 |
 
 **快速检查命令**：
@@ -272,9 +272,9 @@ npm --version
 # 应显示 8.0.0 或更高
 ```
 
-### 2.2 安装SDK
+### 2.2 安装 SDK
 
-**Python安装（推荐方式）**：
+**Python 安装（推荐方式）**：
 
 ```bash
 # 步骤1：创建虚拟环境（推荐）
@@ -290,9 +290,9 @@ source venv/bin/activate
 pip install claude-agent-sdk
 ```
 
-> **重要提示**：Python SDK会自动捆绑Claude Code CLI，无需单独安装！
+> **重要提示**：Python SDK 会自动捆绑 Claude Code CLI，无需单独安装！
 
-**TypeScript安装**：
+**TypeScript 安装**：
 
 ```bash
 # 步骤1：创建项目目录
@@ -309,9 +309,9 @@ npm install @anthropic-ai/claude-agent-sdk
 npm install -D typescript @types/node ts-node
 ```
 
-### 2.3 配置API密钥
+### 2.3 配置 API 密钥
 
-Agent SDK需要Anthropic API密钥才能运行。
+Agent SDK 需要 Anthropic API 密钥才能运行。
 
 **方式一：环境变量（推荐）**
 
@@ -326,7 +326,7 @@ $env:ANTHROPIC_API_KEY="sk-ant-api03-..."
 set ANTHROPIC_API_KEY=sk-ant-api03-...
 ```
 
-**方式二：.env文件**
+**方式二：.env 文件**
 
 创建`.env`文件：
 
@@ -349,9 +349,9 @@ import 'dotenv/config';
 
 ### 2.4 Hello World Agent
 
-现在让我们创建第一个Agent！
+现在让我们创建第一个 Agent！
 
-**Python版本** - 创建`hello_agent.py`：
+**Python 版本** - 创建`hello_agent.py`：
 
 ```python
 import asyncio
@@ -399,7 +399,7 @@ Agent任务完成！
 
 ---
 
-**TypeScript版本** - 创建`src/hello-agent.ts`：
+**TypeScript 版本** - 创建`src/hello-agent.ts`：
 
 ```typescript
 import { query, type Query } from '@anthropic-ai/claude-agent-sdk';
@@ -440,24 +440,24 @@ npx ts-node src/hello-agent.ts
 
 ### 2.5 验证安装成功
 
-如果你看到了Agent的回复，恭喜！安装成功！
+如果你看到了 Agent 的回复，恭喜！安装成功！
 
 **常见问题快速排查**：
 
 | 错误信息 | 原因 | 解决方案 |
 |---------|------|---------|
-| `ModuleNotFoundError: No module named 'claude_agent_sdk'` | SDK没装好 | 重新运行 `pip install claude-agent-sdk` |
-| `Cannot find module '@anthropic-ai/claude-agent-sdk'` | npm包没装好 | 重新运行 `npm install` |
-| `Authentication failed` | API Key没配置 | 检查环境变量是否设置正确 |
+| `ModuleNotFoundError: No module named 'claude_agent_sdk'` | SDK 没装好 | 重新运行 `pip install claude-agent-sdk` |
+| `Cannot find module '@anthropic-ai/claude-agent-sdk'` | npm 包没装好 | 重新运行 `npm install` |
+| `Authentication failed` | API Key 没配置 | 检查环境变量是否设置正确 |
 | `Connection timeout` | 网络问题 | 检查网络连接，国内可能需要代理 |
 
 ---
 
 ## 第三部分：核心概念深度解析
 
-### 3.1 query函数：SDK的核心入口
+### 3.1 query 函数：SDK 的核心入口
 
-`query`函数是Agent SDK的心脏，理解它就理解了SDK的一半。
+`query`函数是 Agent SDK 的心脏，理解它就理解了 SDK 的一半。
 
 **函数签名**：
 
@@ -481,10 +481,10 @@ function query(params: {
 
 | 参数 | 类型 | 必填 | 说明 |
 |------|------|------|------|
-| `prompt` | string | 是 | 发送给Agent的提示词/任务描述 |
-| `options` | Options对象 | 否 | Agent的配置选项 |
+| `prompt` | string | 是 | 发送给 Agent 的提示词/任务描述 |
+| `options` | Options 对象 | 否 | Agent 的配置选项 |
 
-**Options配置项详解**：
+**Options 配置项详解**：
 
 ```python
 # Python完整配置示例
@@ -553,9 +553,9 @@ async for message in query(prompt="你的任务", options=options):
 
 ### 3.2 Agent Loop：代理的工作循环
 
-Agent不是简单地"问一句答一句"，而是有一个完整的工作循环。
+Agent 不是简单地“问一句答一句”，而是有一个完整的工作循环。
 
-**Agent Loop工作流程**：
+**Agent Loop 工作流程**：
 
 ```
 ┌──────────────────────────────────────────────────────┐
@@ -592,7 +592,7 @@ Agent不是简单地"问一句答一句"，而是有一个完整的工作循环�
 └──────────────────────────────────────────────────────┘
 ```
 
-**实际例子**：让Agent"创建一个Python计算器"
+**实际例子**：让 Agent“创建一个 Python 计算器”
 
 ```
 轮次1：
@@ -611,7 +611,7 @@ Agent不是简单地"问一句答一句"，而是有一个完整的工作循环�
   - Agent回复：已成功创建计算器，代码如下...
 ```
 
-**控制Agent Loop的参数**：
+**控制 Agent Loop 的参数**：
 
 ```python
 options = ClaudeAgentOptions(
@@ -620,9 +620,9 @@ options = ClaudeAgentOptions(
 )
 ```
 
-### 3.3 Tools：Agent的能力来源
+### 3.3 Tools：Agent 的能力来源
 
-Tools（工具）是Agent能够"做事"的关键。没有工具，Agent只能"说话"不能"干活"。
+Tools（工具）是 Agent 能够“做事”的关键。没有工具，Agent 只能“说话”不能“干活”。
 
 **内置工具清单**：
 
@@ -653,7 +653,7 @@ options = ClaudeAgentOptions(
 
 **自定义工具（SDK MCP Server）**：
 
-这是Agent SDK的强大功能之一！你可以创建自己的工具：
+这是 Agent SDK 的强大功能之一！你可以创建自己的工具：
 
 ```python
 from claude_agent_sdk import tool, create_sdk_mcp_server, ClaudeAgentOptions, ClaudeSDKClient
@@ -693,7 +693,7 @@ options = ClaudeAgentOptions(
 
 ### 3.4 Subagents：子代理并行处理
 
-当任务太复杂或太大时，单个Agent可能会遇到上下文窗口限制。Subagents（子代理）解决了这个问题。
+当任务太复杂或太大时，单个 Agent 可能会遇到上下文窗口限制。Subagents（子代理）解决了这个问题。
 
 **类比理解**：
 
@@ -725,12 +725,12 @@ Subagents方式（主管+多员工）：
 
 | 优势 | 说明 |
 |------|------|
-| **独立上下文** | 每个子代理有独立的200K上下文窗口 |
-| **并行执行** | 最多10个子代理同时运行 |
+| **独立上下文** | 每个子代理有独立的 200K 上下文窗口 |
+| **并行执行** | 最多 10 个子代理同时运行 |
 | **专业化分工** | 每个子代理可以有独立的系统提示词 |
 | **失败隔离** | 单个子代理失败不影响其他子代理 |
 
-**使用Subagents的方式**：
+**使用 Subagents 的方式**：
 
 ```python
 from claude_agent_sdk import ClaudeAgentOptions, AgentDefinition
@@ -820,13 +820,13 @@ async for message in query(prompt=prompt, options=options):
 
 ## 第四部分：实战项目
 
-### 项目1：代码分析Agent（One-shot模式）
+### 项目 1：代码分析 Agent（One-shot 模式）
 
-**目标**：创建一个能分析代码文件并给出改进建议的Agent
+**目标**：创建一个能分析代码文件并给出改进建议的 Agent
 
 **难度**：⭐ 入门
 
-**Python实现** - `code_analyzer.py`：
+**Python 实现** - `code_analyzer.py`：
 
 ```python
 """
@@ -904,13 +904,13 @@ python code_analyzer.py ./app.js
 
 ---
 
-### 项目2：多工具Agent（Multi-tool模式）
+### 项目 2：多工具 Agent（Multi-tool 模式）
 
-**目标**：创建一个能读写文件、执行命令的全能Agent
+**目标**：创建一个能读写文件、执行命令的全能 Agent
 
 **难度**：⭐⭐ 进阶
 
-**Python实现** - `multi_tool_agent.py`：
+**Python 实现** - `multi_tool_agent.py`：
 
 ```python
 """
@@ -1012,13 +1012,13 @@ python multi_tool_agent.py
 
 ---
 
-### 项目3：流式交互Agent（Streaming + 自定义工具）
+### 项目 3：流式交互 Agent（Streaming + 自定义工具）
 
-**目标**：创建一个带有自定义工具的交互式Agent
+**目标**：创建一个带有自定义工具的交互式 Agent
 
 **难度**：⭐⭐⭐ 高级
 
-**Python实现** - `interactive_agent.py`：
+**Python 实现** - `interactive_agent.py`：
 
 ```python
 """
@@ -1214,11 +1214,11 @@ python interactive_agent.py
 
 ## 第五部分：高级功能
 
-### 5.1 MCP服务器集成
+### 5.1 MCP 服务器集成
 
 MCP（Model Context Protocol）让你可以连接外部工具和服务。
 
-**外部MCP服务器配置**：
+**外部 MCP 服务器配置**：
 
 ```python
 from claude_agent_sdk import query, ClaudeAgentOptions
@@ -1254,33 +1254,33 @@ options = ClaudeAgentOptions(
 )
 ```
 
-**SDK内置MCP服务器 vs 外部服务器**：
+**SDK 内置 MCP 服务器 vs 外部服务器**：
 
-| 特性 | SDK内置服务器 | 外部服务器 |
+| 特性 | SDK 内置服务器 | 外部服务器 |
 |------|--------------|-----------|
-| **运行方式** | 在你的Python进程内 | 独立子进程 |
-| **性能** | 更快（无IPC开销） | 略慢（需要进程通信） |
+| **运行方式** | 在你的 Python 进程内 | 独立子进程 |
+| **性能** | 更快（无 IPC 开销） | 略慢（需要进程通信） |
 | **部署** | 简单（单进程） | 需要管理多进程 |
 | **调试** | 更容易 | 需要分别调试 |
-| **适用场景** | 简单工具 | 复杂工具、现有MCP服务器 |
+| **适用场景** | 简单工具 | 复杂工具、现有 MCP 服务器 |
 
 ### 5.2 Hooks：在关键时刻自动执行
 
-Hooks（钩子）让你可以在Agent执行的特定时机插入自定义逻辑。
+Hooks（钩子）让你可以在 Agent 执行的特定时机插入自定义逻辑。
 
-**可用的Hook类型**：
+**可用的 Hook 类型**：
 
-| Hook类型 | 触发时机 | 用途 |
+| Hook 类型 | 触发时机 | 用途 |
 |----------|---------|------|
 | **PreToolUse** | 工具执行前 | 验证、过滤危险命令 |
 | **PostToolUse** | 工具执行后 | 记录日志、自动测试 |
-| **Stop** | Agent停止时 | 清理、汇总报告 |
+| **Stop** | Agent 停止时 | 清理、汇总报告 |
 | **UserPromptSubmit** | 用户提交提示时 | 处理和增强用户输入 |
 | **SessionStart** | 会话开始时 | 加载上次会话状态 |
 | **SessionEnd** | 会话结束时 | 保存会话状态 |
 | **PreCompact** | 上下文压缩前 | 保存关键信息 |
 
-**Python Hooks示例**：
+**Python Hooks 示例**：
 
 ```python
 from claude_agent_sdk import ClaudeAgentOptions, ClaudeSDKClient, HookMatcher
@@ -1334,7 +1334,7 @@ options = ClaudeAgentOptions(
 
 ### 5.3 权限控制
 
-Agent SDK提供多种权限控制方式，确保安全。
+Agent SDK 提供多种权限控制方式，确保安全。
 
 **权限模式**：
 
@@ -1401,14 +1401,14 @@ options = ClaudeAgentOptions(
 
 ### 6.1 常见错误及解决方案
 
-#### 错误1：模块导入失败
+#### 错误 1：模块导入失败
 
 ```python
 # 错误信息
 ModuleNotFoundError: No module named 'claude_agent_sdk'
 ```
 
-**原因**：SDK未安装或虚拟环境未激活
+**原因**：SDK 未安装或虚拟环境未激活
 
 **解决方案**：
 
@@ -1427,14 +1427,14 @@ pip show claude-agent-sdk
 
 ---
 
-#### 错误2：认证失败
+#### 错误 2：认证失败
 
 ```python
 # 错误信息
 AuthenticationError: Invalid API key
 ```
 
-**原因**：API Key未配置或无效
+**原因**：API Key 未配置或无效
 
 **解决方案**：
 
@@ -1453,14 +1453,14 @@ os.environ["ANTHROPIC_API_KEY"] = "your-key"
 
 ---
 
-#### 错误3：连接超时
+#### 错误 3：连接超时
 
 ```python
 # 错误信息
 ConnectionTimeout: Request timed out
 ```
 
-**原因**：网络问题或API服务繁忙
+**原因**：网络问题或 API 服务繁忙
 
 **解决方案**：
 
@@ -1475,7 +1475,7 @@ export HTTPS_PROXY="http://127.0.0.1:7890"
 
 ---
 
-#### 错误4：工具权限被拒绝
+#### 错误 4：工具权限被拒绝
 
 ```python
 # 错误信息
@@ -1495,14 +1495,14 @@ options = ClaudeAgentOptions(
 
 ---
 
-#### 错误5：CLI未找到
+#### 错误 5：CLI 未找到
 
 ```python
 # 错误信息
 CLINotFoundError: Claude Code CLI not found
 ```
 
-**原因**：捆绑的CLI未正确安装
+**原因**：捆绑的 CLI 未正确安装
 
 **解决方案**：
 
@@ -1547,15 +1547,15 @@ async for message in query(prompt="...", options=options):
 
 ## 第七部分：FAQ 常见问题
 
-### Q1: Agent SDK和直接调用Claude API有什么区别？
+### Q1: Agent SDK 和直接调用 Claude API 有什么区别？
 
 **答**：主要区别有三点：
 
-1. **Agent SDK有Agent Loop**：可以自动多轮对话，使用工具完成复杂任务
-2. **Agent SDK有内置工具**：文件操作、命令执行等能力开箱即用
-3. **Agent SDK支持子代理**：可以并行处理大规模任务
+1. **Agent SDK 有 Agent Loop**：可以自动多轮对话，使用工具完成复杂任务
+2. **Agent SDK 有内置工具**：文件操作、命令执行等能力开箱即用
+3. **Agent SDK 支持子代理**：可以并行处理大规模任务
 
-如果你只需要简单问答，用Claude API即可。如果需要AI"干活"（操作文件、执行命令），用Agent SDK。
+如果你只需要简单问答，用 Claude API 即可。如果需要 AI“干活”（操作文件、执行命令），用 Agent SDK。
 
 ---
 
@@ -1576,14 +1576,14 @@ options = ClaudeAgentOptions(model='claude-sonnet-4-6')
 
 ---
 
-### Q3: 如何控制Token消耗？
+### Q3: 如何控制 Token 消耗？
 
 **答**：几个技巧：
 
-1. **设置max_turns**：限制对话轮数
-2. **精简system_prompt**：不要写太长的系统提示
+1. **设置 max_turns**：限制对话轮数
+2. **精简 system_prompt**：不要写太长的系统提示
 3. **任务明确**：给出清晰具体的任务描述
-4. **使用更小的模型**：简单任务用Haiku
+4. **使用更小的模型**：简单任务用 Haiku
 
 ```python
 options = ClaudeAgentOptions(
@@ -1609,7 +1609,7 @@ options = ClaudeAgentOptions(
 
 ### Q5: 可以同时运行多少个子代理？
 
-**答**：最多10个并行。如果需要处理更多任务，会自动排队。
+**答**：最多 10 个并行。如果需要处理更多任务，会自动排队。
 
 ---
 
@@ -1617,11 +1617,11 @@ options = ClaudeAgentOptions(
 
 **答**：几个建议：
 
-1. **使用权限控制**：设置allowed_tools白名单
+1. **使用权限控制**：设置 allowed_tools 白名单
 2. **启用沙箱**：防止危险命令
-3. **添加Hooks**：记录日志、过滤危险操作
+3. **添加 Hooks**：记录日志、过滤危险操作
 4. **设置超时**：防止任务卡住
-5. **监控Token消耗**：控制成本
+5. **监控 Token 消耗**：控制成本
 
 ```python
 # 生产环境配置示例
@@ -1640,9 +1640,9 @@ production_options = ClaudeAgentOptions(
 
 ---
 
-### Q7: SDK支持流式输出吗？
+### Q7: SDK 支持流式输出吗？
 
-**答**：是的！`query`函数返回的是AsyncIterator，天然支持流式：
+**答**：是的！`query`函数返回的是 AsyncIterator，天然支持流式：
 
 ```python
 async for message in query(prompt="...", options=options):
@@ -1672,9 +1672,9 @@ prompt = """请使用子代理并行处理：
 
 ---
 
-### Q9: 自定义工具可以访问外部API吗？
+### Q9: 自定义工具可以访问外部 API 吗？
 
-**答**：可以！自定义工具就是普通的Python/TypeScript函数：
+**答**：可以！自定义工具就是普通的 Python/TypeScript 函数：
 
 ```python
 import httpx
@@ -1691,7 +1691,7 @@ async def get_weather(args):
 
 ---
 
-### Q10: 如何调试Agent的决策过程？
+### Q10: 如何调试 Agent 的决策过程？
 
 **答**：打印所有消息类型：
 
@@ -1713,9 +1713,9 @@ async for message in query(prompt="...", options=options):
 
 ---
 
-### Q11: SDK会自动重试失败的请求吗？
+### Q11: SDK 会自动重试失败的请求吗？
 
-**答**：SDK有基本的重试机制，但你可以自己加强：
+**答**：SDK 有基本的重试机制，但你可以自己加强：
 
 ```python
 import asyncio
@@ -1731,7 +1731,7 @@ async def query_with_retry(prompt, options):
 
 ---
 
-### Q12: 如何在Jupyter Notebook中使用？
+### Q12: 如何在 Jupyter Notebook 中使用？
 
 **答**：需要处理事件循环：
 
@@ -1754,7 +1754,7 @@ asyncio.run(run())
 
 ### Q13: 可以保存和恢复会话吗？
 
-**答**：SDK本身不提供会话持久化，但你可以自己实现：
+**答**：SDK 本身不提供会话持久化，但你可以自己实现：
 
 ```python
 import json
@@ -1775,7 +1775,7 @@ with open("session.json", "w") as f:
 
 ---
 
-### Q14: TypeScript和Python SDK功能一样吗？
+### Q14: TypeScript 和 Python SDK 功能一样吗？
 
 **答**：是的，功能完全相同。选择你熟悉的语言即可。
 
@@ -1783,17 +1783,17 @@ with open("session.json", "w") as f:
 
 ### Q15: 如何处理大文件？
 
-**答**：Agent会自动分块处理。如果文件太大，考虑：
+**答**：Agent 会自动分块处理。如果文件太大，考虑：
 
 1. 只读取需要的部分
-2. 使用Grep搜索而不是Read全文
+2. 使用 Grep 搜索而不是 Read 全文
 3. 拆分任务给多个子代理
 
 ---
 
-### Q16: SDK支持哪些AI模型？
+### Q16: SDK 支持哪些 AI 模型？
 
-**答**：支持Claude系列模型：
+**答**：支持 Claude 系列模型：
 
 - claude-opus-4-6（最强）
 - claude-sonnet-4-6（推荐）
@@ -1829,7 +1829,7 @@ async for message in query(
 
 ---
 
-### Q18: 如何处理API速率限制？
+### Q18: 如何处理 API 速率限制？
 
 **答**：
 
@@ -1855,9 +1855,9 @@ async def rate_limited_query(prompts, delay=1.0):
 
 1. **最小权限原则**：只给需要的工具权限
 2. **输入验证**：自定义工具要验证输入
-3. **不信任用户输入**：Agent的prompt可能被注入
-4. **启用沙箱**：Bash命令在沙箱中执行
-5. **使用Hooks过滤**：阻止危险操作
+3. **不信任用户输入**：Agent 的 prompt 可能被注入
+4. **启用沙箱**：Bash 命令在沙箱中执行
+5. **使用 Hooks 过滤**：阻止危险操作
 6. **监控日志**：记录所有工具调用
 
 ---
@@ -1866,8 +1866,8 @@ async def rate_limited_query(prompts, delay=1.0):
 
 **答**：有！
 
-- **Python示例**：https://github.com/anthropics/claude-agent-sdk-python/tree/main/examples
-- **TypeScript示例**：https://github.com/anthropics/claude-agent-sdk-typescript/tree/main/examples
+- **Python 示例**：https://github.com/anthropics/claude-agent-sdk-python/tree/main/examples
+- **TypeScript 示例**：https://github.com/anthropics/claude-agent-sdk-typescript/tree/main/examples
 
 推荐从`quick_start.py`或`quick_start.ts`开始。
 
@@ -1877,10 +1877,10 @@ async def rate_limited_query(prompts, delay=1.0):
 
 ### 核心知识点回顾
 
-1. **Agent SDK定位**：把Claude Code的能力封装为可编程接口
-2. **query函数**：核心API，返回流式消息
+1. **Agent SDK 定位**：把 Claude Code 的能力封装为可编程接口
+2. **query 函数**：核心 API，返回流式消息
 3. **Agent Loop**：接收→思考→使用工具→检查→继续/结束
-4. **Tools**：Agent的能力来源，可以自定义扩展
+4. **Tools**：Agent 的能力来源，可以自定义扩展
 5. **Subagents**：并行处理复杂任务
 6. **Hooks**：在关键时刻自动执行自定义逻辑
 
@@ -1888,24 +1888,24 @@ async def rate_limited_query(prompts, delay=1.0):
 
 | 场景 | 建议 |
 |------|------|
-| 模型选择 | 日常用Sonnet，复杂推理用Opus，简单任务用Haiku |
+| 模型选择 | 日常用 Sonnet，复杂推理用 Opus，简单任务用 Haiku |
 | 权限控制 | 生产环境用最小权限，开发可以放宽 |
-| 子代理 | 大任务拆分并行，注意最多10个同时运行 |
-| 自定义工具 | 优先用SDK内置MCP服务器，简单高效 |
-| 错误处理 | 使用try/catch，添加重试机制 |
+| 子代理 | 大任务拆分并行，注意最多 10 个同时运行 |
+| 自定义工具 | 优先用 SDK 内置 MCP 服务器，简单高效 |
+| 错误处理 | 使用 try/catch，添加重试机制 |
 
 ### 下一步学习
 
 完成本课后，建议继续学习：
 
-1. **MCP开发**：深入学习MCP协议，创建更复杂的工具
-2. **Hooks高级应用**：实现自动测试、自动格式化等工作流
-3. **企业集成**：将Agent SDK集成到CI/CD流程
+1. **MCP 开发**：深入学习 MCP 协议，创建更复杂的工具
+2. **Hooks 高级应用**：实现自动测试、自动格式化等工作流
+3. **企业集成**：将 Agent SDK 集成到 CI/CD 流程
 
 ---
 
 **课程版本**：V1.2
-**最后更新**：2026年4月5日
+**最后更新**：2026 年 4 月 5 日
 **作者**：老金
 
 ---
@@ -1914,14 +1914,14 @@ async def rate_limited_query(prompts, delay=1.0):
 
 | 版本 | 日期 | 修改内容 |
 |------|------|----------|
-| V1.2 | 2026-02-26 | 更新所有模型引用至最新4.6版本：Sonnet 4.6（claude-sonnet-4-6）、Opus 4.6（claude-opus-4-6）、Haiku 4.5（claude-haiku-4-5-20251001） |
-| V1.1 | 2025-12-24 | 修正所有模型名称为最新4.5版本（claude-sonnet-4-5-20250929、claude-opus-4-5-20251101、claude-3-5-haiku-20241022） |
+| V1.2 | 2026-02-26 | 更新所有模型引用至最新 4.6 版本：Sonnet 4.6（claude-sonnet-4-6）、Opus 4.6（claude-opus-4-6）、Haiku 4.5（claude-haiku-4-5-20251001） |
+| V1.1 | 2025-12-24 | 修正所有模型名称为最新 4.5 版本（claude-sonnet-4-5-20250929、claude-opus-4-5-20251101、claude-3-5-haiku-20241022） |
 | V1.0 | 2025-12-19 | 初版发布 |
 
 **参考资料**：
-- [官方Agent SDK总览](https://platform.claude.com/docs/zh-CN/agent-sdk/overview)
-- [官方Agent SDK Skills文档](https://platform.claude.com/docs/en/agent-sdk/skills)
+- [官方 Agent SDK 总览](https://platform.claude.com/docs/zh-CN/agent-sdk/overview)
+- [官方 Agent SDK Skills 文档](https://platform.claude.com/docs/en/agent-sdk/skills)
 - [GitHub Python SDK](https://github.com/anthropics/claude-agent-sdk-python)
 - [GitHub TypeScript SDK](https://github.com/anthropics/claude-agent-sdk-typescript)
-- [DataCamp教程](https://www.datacamp.com/tutorial/how-to-use-claude-agent-sdk)
-- [KDnuggets入门指南](https://www.kdnuggets.com/getting-started-with-the-claude-agent-sdk)
+- [DataCamp 教程](https://www.datacamp.com/tutorial/how-to-use-claude-agent-sdk)
+- [KDnuggets 入门指南](https://www.kdnuggets.com/getting-started-with-the-claude-agent-sdk)

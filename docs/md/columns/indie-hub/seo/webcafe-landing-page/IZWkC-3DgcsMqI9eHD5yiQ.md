@@ -8,7 +8,7 @@ url: "https://mp.weixin.qq.com/s/IZWkC-3DgcsMqI9eHD5yiQ"
 
 # 最适合普通人的建站工具
 
-阅读大约需要15分钟
+阅读大约需要 15 分钟
 
 
 

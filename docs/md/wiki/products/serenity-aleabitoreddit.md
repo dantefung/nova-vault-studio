@@ -47,7 +47,7 @@ npx skills add yan-labs/serenity-aleabitoreddit
 
 ## Related Pages
 
-- [concepts/serenity-investment-methodology](concepts/serenity-investment-methodology) — Serenity投资方法论
+- [concepts/serenity-investment-methodology](concepts/serenity-investment-methodology) — Serenity 投资方法论
 - [patterns/serenity-stock-research](patterns/serenity-stock-research) — 供应链卡点投研
 
 ## Sources

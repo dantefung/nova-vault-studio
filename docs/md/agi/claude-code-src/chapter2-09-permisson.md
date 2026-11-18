@@ -95,12 +95,12 @@ tool.checkPermissions(context)
 
 相关导出：
 
-*   `AutoModeRules`: 自动模式规则类型
-*   `getDefaultExternalAutoModeRules()`: 获取默认规则
-*   `buildDefaultExternalSystemPrompt()`: 构建分类器系统提示词
-*   `buildTranscriptForClassifier()`: 构建分类器输入上下文
-*   `formatActionForClassifier()`: 格式化操作描述
-*   `YOLO_CLASSIFIER_TOOL_NAME`: 分类器工具名 `'classify_result'`
+* `AutoModeRules`: 自动模式规则类型
+* `getDefaultExternalAutoModeRules()`: 获取默认规则
+* `buildDefaultExternalSystemPrompt()`: 构建分类器系统提示词
+* `buildTranscriptForClassifier()`: 构建分类器输入上下文
+* `formatActionForClassifier()`: 格式化操作描述
+* `YOLO_CLASSIFIER_TOOL_NAME`: 分类器工具名 `'classify_result'`
 
 分类器使用 AI 模型评估操作风险，低风险且符合规则则允许，高风险或不确定则拒绝（回退到 ASK_USER）。
 
@@ -227,7 +227,7 @@ interface HookResult {
 
 可控制内容包括：
 
-*   工具白名单/黑名单（allowedTools / deniedTools）
-*   MCP 服务器白名单/黑名单（allowedMcpServers / deniedMcpServers）
-*   使用限制（单次会话最大成本、最大 token 等）
-*   安全限制（强制权限模式、禁止 auto 模式等）
+* 工具白名单/黑名单（allowedTools / deniedTools）
+* MCP 服务器白名单/黑名单（allowedMcpServers / deniedMcpServers）
+* 使用限制（单次会话最大成本、最大 token 等）
+* 安全限制（强制权限模式、禁止 auto 模式等）

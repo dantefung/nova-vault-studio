@@ -30,4 +30,4 @@ url: "https://mp.weixin.qq.com/s/98O22sqo5kZK1Mdv0Ezs_g"
 ---
 
 
-[← 上一篇：17、Skills应用与拓展](./17-skills.md) | [下一篇：19、Harness工程化与钻写框架实践 →](./19-harness-scaffolding-practice.md)
+[← 上一篇：17、Skills 应用与拓展](./17-skills.md) | [下一篇：19、Harness 工程化与钻写框架实践 →](./19-harness-scaffolding-practice.md)

@@ -31,4 +31,4 @@ IPv6 headers are designed to be simpler and more efficient. The fixed header siz
 
 As the internet transitions from IPv4 to IPv6, mechanisms to allow these protocols to coexist have become essential:
 
-*   **Dual Stack:** This technique involves running IPv4 and IPv6 simultaneously on the same network devices. It allows seamless communication in both protocols, depending on the destination address availability and compatibility. The dual stack is considered one of the best approaches for the smooth transition from IPv4 to IPv6.
+* **Dual Stack:** This technique involves running IPv4 and IPv6 simultaneously on the same network devices. It allows seamless communication in both protocols, depending on the destination address availability and compatibility. The dual stack is considered one of the best approaches for the smooth transition from IPv4 to IPv6.

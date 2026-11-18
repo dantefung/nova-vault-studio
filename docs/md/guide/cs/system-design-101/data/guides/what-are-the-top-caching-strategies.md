@@ -15,14 +15,14 @@ tags:
 
 Read data from the system:
 
-*   **Cache aside**
-*   **Read through**
+* **Cache aside**
+* **Read through**
 
 Write data to the system:
 
-*   **Write around**
-*   **Write back**
-*   **Write through**
+* **Write around**
+* **Write back**
+* **Write through**
 
 The diagram above illustrates how those 5 strategies work. Some of the caching strategies can be used together.
 

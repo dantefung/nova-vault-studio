@@ -23,8 +23,8 @@ Optimistic locking assumes conflicts are rare. It allows multiple users to acces
 
 Here are some best practices to consider:
 
-*   Hold locks for the minimum possible time to reduce contention.
-*   Apply locks at the most granular level such as rows rather than tables.
-*   Implement retry logic for transactions that fail due to conflicts.
-*   Pessimistic locking is better for data integrity but can impact performance.
-*   Optimistic locking is better for efficiency and performance.
+* Hold locks for the minimum possible time to reduce contention.
+* Apply locks at the most granular level such as rows rather than tables.
+* Implement retry logic for transactions that fail due to conflicts.
+* Pessimistic locking is better for data integrity but can impact performance.
+* Optimistic locking is better for efficiency and performance.

@@ -20,7 +20,7 @@ url: "https://mp.weixin.qq.com/s/59Z2eVOg914_bpRD6-WsYg"
 
 ## 与 MCP 的关系
 
-如果说 MCP 为 agent 提供了"手"来操作工具，那么 skill 就是"操作手册"，教 agent 怎么用这些工具。
+如果说 MCP 为 agent 提供了“手”来操作工具，那么 skill 就是“操作手册”，教 agent 怎么用这些工具。
 
 ## 时间线
 

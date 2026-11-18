@@ -5,32 +5,32 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 ---
 
 
-## AOP切面顺序不对,事务失效
+## AOP 切面顺序不对，事务失效
 
 AOP：面向切面编程。简单说，就是把一些业务逻辑中的相同的代码抽取到一个独立的模块中，让业务逻辑更加清爽。
 
-### AOP做横向抽取
+### AOP 做横向抽取
 
-![](assets/AOP做横向抽取.webp)
+![](assets/AOP 做横向抽取.webp)
 
-### AOP应用示例
+### AOP 应用示例
 
-![](assets/AOP应用示例.webp)
+![](assets/AOP 应用示例.webp)
 
-### Spring默认支持的异常回滚
+### Spring 默认支持的异常回滚
 
-Spring默认抛出了未检查unchecked异常（继承自 RuntimeException的异常）或者 Error才回滚事务，其他异常不会触发回滚事务。
+Spring 默认抛出了未检查 unchecked 异常（继承自 RuntimeException 的异常）或者 Error 才回滚事务，其他异常不会触发回滚事务。
 
 1. @Transactional 注解属性 rollbackFor 设置错误
 2. try catch 吞了异常也会导致事务失效无法回滚
 
-![](assets/Spring默认支持的异常回滚.webp)
+![](assets/Spring 默认支持的异常回滚.webp)
 
-![](assets/Spring事务失效原因.webp)
+![](assets/Spring 事务失效原因.webp)
 
 // TODO 继续补充
 
-> 本案例是因为切面顺序不对,导致日志切面工具把异常给吞了,导致Spring的事务没有回滚。
+> 本案例是因为切面顺序不对，导致日志切面工具把异常给吞了，导致 Spring 的事务没有回滚。
 
 
 ### 自定义注解 Metrics
@@ -235,13 +235,13 @@ public interface UserRepository extends JpaRepository<UserEntity, Long> {
 后置通知 (@After)\
 环绕通知 (@Around)
 
-![](assets/AOP环绕方式.webp)
+![](assets/AOP 环绕方式.webp)
 
 多个切面的情况下，可以通过 @Order 指定先后顺序，数字越小，优先级越高。
 
 
 
-![](assets/AOP不同优先级执行顺序.webp)
+![](assets/AOP 不同优先级执行顺序.webp)
 
 
 因为 Spring 的事务管理也是基于 AOP 的，默认情况下优先级最低也就是会先执行出操作，但是自定义切面 MetricsAspect 也同样是最低优先级，这个时候就可能出现问题：如果出操作先执行捕获了异常，那么 Spring 的事务处理就会因为无法捕获到异常导致无法回滚事务。
@@ -271,4 +271,4 @@ if (metrics == null) {
 
 ## 参考
 
-- [19 Spring框架：IoC和AOP是扩展的核心](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/Java%20%e4%b8%9a%e5%8a%a1%e5%bc%80%e5%8f%91%e5%b8%b8%e8%a7%81%e9%94%99%e8%af%af%20100%20%e4%be%8b/19%20Spring%e6%a1%86%e6%9e%b6%ef%bc%9aIoC%e5%92%8cAOP%e6%98%af%e6%89%a9%e5%b1%95%e7%9a%84%e6%a0%b8%e5%bf%83.md)
+- [19 Spring 框架：IoC 和 AOP 是扩展的核心](https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/Java%20%e4%b8%9a%e5%8a%a1%e5%bc%80%e5%8f%91%e5%b8%b8%e8%a7%81%e9%94%99%e8%af%af%20100%20%e4%be%8b/19%20Spring%e6%a1%86%e6%9e%b6%ef%bc%9aIoC%e5%92%8cAOP%e6%98%af%e6%89%a9%e5%b1%95%e7%9a%84%e6%a0%b8%e5%bf%83.md)

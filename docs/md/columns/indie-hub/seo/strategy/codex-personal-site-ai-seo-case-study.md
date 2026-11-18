@@ -5,7 +5,7 @@ source: "X (@Astronaut_1216)"
 url: "https://x.com/Astronaut_1216/status/2101962048695607485"
 ---
 
-# 从0人访问到被更多人搜到：纯小白个人网站 AI + SEO 实战复盘
+# 从 0 人访问到被更多人搜到：纯小白个人网站 AI + SEO 实战复盘
 
 ![封面配图](images/codex-personal-site-ai-seo-case-study/001.webp)
 

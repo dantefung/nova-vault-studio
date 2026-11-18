@@ -7,7 +7,7 @@ url: "https://github.com/2025Emma/vibe-coding-cn"
 
 https://x.com/3i8ae3pgjz56244/status/1993328642697707736?s=46
 
-我是把设计文档写得很细，包括service层的具体逻辑都用伪代码写了，然后交给AI，一遍直出，再用另一个AI review一遍，根据review意见修改一下，跑一下测试用例，让AI自己生成commit后push
+我是把设计文档写得很细，包括 service 层的具体逻辑都用伪代码写了，然后交给 AI，一遍直出，再用另一个 AI review 一遍，根据 review 意见修改一下，跑一下测试用例，让 AI 自己生成 commit 后 push
 
 点评：需求 -> 伪代码 -> 代码
 
@@ -15,7 +15,7 @@ https://x.com/3i8ae3pgjz56244/status/1993328642697707736?s=46
 
 https://x.com/jesselaunz/status/1993231396035301437?s=20
 
-针对gemini 3 pro的系统prompt，使多个代理基准测试的性能提高了约 5%。
+针对 gemini 3 pro 的系统 prompt，使多个代理基准测试的性能提高了约 5%。
 
 ---
 
@@ -31,7 +31,7 @@ https://x.com/9hills/status/1995308023578042844?s=46
 
 ---
 
-文件头注释，一段话描述代码作用，上下游链路，文档维护agents或者claude维护每个模块的一段话说明，降低认知负载，尽量做减法和索引，参考claude skill
+文件头注释，一段话描述代码作用，上下游链路，文档维护 agents 或者 claude 维护每个模块的一段话说明，降低认知负载，尽量做减法和索引，参考 claude skill
 
 ---
 

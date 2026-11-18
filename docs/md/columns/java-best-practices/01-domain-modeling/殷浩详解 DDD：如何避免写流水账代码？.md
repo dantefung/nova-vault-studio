@@ -10,7 +10,7 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 
 **一  案例简介**
 
-这里举一个简单的常见案例：下单链路。假设我们在做一个 checkout 接口，需要做各种校验、查询商品信息、调用库存服务扣库存、然后生成订单：  
+这里举一个简单的常见案例：下单链路。假设我们在做一个 checkout 接口，需要做各种校验、查询商品信息、调用库存服务扣库存、然后生成订单： 
 
 ![][img-0]
 
@@ -77,46 +77,46 @@ public class CheckoutController {
 
   
 
-为什么这种典型的流水账代码在实际应用中会有问题呢？其本质问题是违背了 SRP（Single Responsbility Principle）单一职责原则。这段代码里混杂了业务计算、校验逻辑、基础设施、和通信协议等，在未来无论哪一部分的逻辑变更都会直接影响到这段代码，当后人不断地在上面叠加新的逻辑时，会使代码复杂度增加、逻辑分支越来越多，最终造成 bug 或者没人敢重构的历史包袱。  
+为什么这种典型的流水账代码在实际应用中会有问题呢？其本质问题是违背了 SRP（Single Responsbility Principle）单一职责原则。这段代码里混杂了业务计算、校验逻辑、基础设施、和通信协议等，在未来无论哪一部分的逻辑变更都会直接影响到这段代码，当后人不断地在上面叠加新的逻辑时，会使代码复杂度增加、逻辑分支越来越多，最终造成 bug 或者没人敢重构的历史包袱。 
 
 所以我们才需要用 DDD 的分层思想去重构一下以上的代码，通过不同的代码分层和规范，拆分出逻辑清晰，职责明确的分层和模块，也便于一些通用能力的沉淀。
 
 主要的几个步骤分为：
 
-*   分离出独立的 Interface 接口层，负责处理网络协议相关的逻辑。
+* 分离出独立的 Interface 接口层，负责处理网络协议相关的逻辑。
     
 
-*   从真实业务场景中，找出具体用例（Use Cases），然后将具体用例通过专用的 Command 指令、Query 查询、和 Event 事件对象来承接。
+* 从真实业务场景中，找出具体用例（Use Cases），然后将具体用例通过专用的 Command 指令、Query 查询、和 Event 事件对象来承接。
     
 
-*   分离出独立的 Application 应用层，负责业务流程的编排，响应 Command、Query 和 Event。每个应用层的方法应该代表整个业务流程中的一个节点。
+* 分离出独立的 Application 应用层，负责业务流程的编排，响应 Command、Query 和 Event。每个应用层的方法应该代表整个业务流程中的一个节点。
     
 
-*   处理一些跨层的横切关注点，如鉴权、异常处理、校验、缓存、日志等。
+* 处理一些跨层的横切关注点，如鉴权、异常处理、校验、缓存、日志等。
     
 
-下面会针对每个点做详细的解释。  
+下面会针对每个点做详细的解释。 
 
 **二  Interface 接口层**
 
-随着 REST 和 MVC 架构的普及，经常能看到开发同学直接在 Controller 中写业务逻辑，如上面的典型案例，但实际上 MVC Controller 不是唯一的重灾区。以下的几种常见的代码写法通常都可能包含了同样的问题：  
+随着 REST 和 MVC 架构的普及，经常能看到开发同学直接在 Controller 中写业务逻辑，如上面的典型案例，但实际上 MVC Controller 不是唯一的重灾区。以下的几种常见的代码写法通常都可能包含了同样的问题： 
 
-*   HTTP 框架：如 Spring MVC 框架，Spring Cloud 等。
+* HTTP 框架：如 Spring MVC 框架，Spring Cloud 等。
     
 
-*   RPC 框架：如 Dubbo、HSF、gRPC 等。
+* RPC 框架：如 Dubbo、HSF、gRPC 等。
     
 
-*   消息队列 MQ 的 “消费者”：比如 JMS 的 onMessage，RocketMQ 的 MessageListener 等。
+* 消息队列 MQ 的 “消费者”：比如 JMS 的 onMessage，RocketMQ 的 MessageListener 等。
     
 
-*   Socket 通信：Socket 通信的 receive、WebSocket 的 onMessage 等。
+* Socket 通信：Socket 通信的 receive、WebSocket 的 onMessage 等。
     
 
-*   文件系统：WatcherService 等。
+* 文件系统：WatcherService 等。
     
 
-*   分布式任务调度：SchedulerX 等。
+* 分布式任务调度：SchedulerX 等。
     
 
 这些的方法都有一个共同的点就是都有自己的网络协议，而如果我们的业务代码和网络协议混杂在一起，则会直接导致代码跟网络协议绑定，无法被复用。
@@ -127,25 +127,25 @@ public class CheckoutController {
 
 接口层主要由以下几个功能组成：
 
-*   网络协议的转化：通常这个已经由各种框架给封装掉了，我们需要构建的类要么是被注解的 bean，要么是继承了某个接口的 bean。
+* 网络协议的转化：通常这个已经由各种框架给封装掉了，我们需要构建的类要么是被注解的 bean，要么是继承了某个接口的 bean。
     
 
-*   统一鉴权：比如在一些需要 AppKey+Secret 的场景，需要针对某个租户做鉴权的，包括一些加密串的校验
+* 统一鉴权：比如在一些需要 AppKey+Secret 的场景，需要针对某个租户做鉴权的，包括一些加密串的校验
     
 
-*   Session 管理：一般在面向用户的接口或者有登陆态的，通过 Session 或者 RPC 上下文可以拿到当前调用的用户，以便传递给下游服务。
+* Session 管理：一般在面向用户的接口或者有登陆态的，通过 Session 或者 RPC 上下文可以拿到当前调用的用户，以便传递给下游服务。
     
 
-*   限流配置：对接口做限流避免大流量打到下游服务
+* 限流配置：对接口做限流避免大流量打到下游服务
     
 
-*   前置缓存：针对变更不是很频繁的只读场景，可以前置结果缓存到接口层
+* 前置缓存：针对变更不是很频繁的只读场景，可以前置结果缓存到接口层
     
 
-*   异常处理：通常在接口层要避免将异常直接暴露给调用端，所以需要在接口层做统一的异常捕获，转化为调用端可以理解的数据格式
+* 异常处理：通常在接口层要避免将异常直接暴露给调用端，所以需要在接口层做统一的异常捕获，转化为调用端可以理解的数据格式
     
 
-*   日志：在接口层打调用日志，用来做统计和 debug 等。一般微服务框架可能都直接包含了这些功能。
+* 日志：在接口层打调用日志，用来做统计和 debug 等。一般微服务框架可能都直接包含了这些功能。
     
 
 当然，如果有一个独立的网关设施 / 应用，则可以抽离出鉴权、Session、限流、日志等逻辑，但是目前来看 API 网关也只能解决一部分的功能，即使在有 API 网关的场景下，应用里独立的接口层还是有必要的。
@@ -212,7 +212,7 @@ public class ResultAspect {
 }
 ```
 
-然后最终代码则简化为：  
+然后最终代码则简化为： 
 
 ```
 @PostMapping("checkout")
@@ -226,7 +226,7 @@ public Result<OrderDTO> checkout(Long itemId, Integer quantity) {
 
 3  接口层的接口的数量和业务间的隔离
 
-在传统 REST 和 RPC 的接口规范中，通常一个领域的接口，无论是 REST 的 Resource 资源的 GET/POST/DELETE，还是 RPC 的方法，是追求相对固定的，统一的，而且会追求统一个领域的方法放在一个领域的服务或 Controller 中。  
+在传统 REST 和 RPC 的接口规范中，通常一个领域的接口，无论是 REST 的 Resource 资源的 GET/POST/DELETE，还是 RPC 的方法，是追求相对固定的，统一的，而且会追求统一个领域的方法放在一个领域的服务或 Controller 中。 
 
 但是我发现在实际做业务的过程中，特别是当支撑的上游业务比较多时，刻意去追求接口的统一通常会导致方法中的参数膨胀，或者导致方法的膨胀。举个例子：假设有一个宠物卡和一个亲子卡的业务公用一个开卡服务，但是宠物需要传入宠物类型，亲子的需要传入宝宝年龄。
 
@@ -246,7 +246,7 @@ public interface CardService {
 }
 ```
 
-可以看出来，无论怎么操作，都有可能导致 CardService 这个服务未来越来越难以维护，方法越来越多，一个业务的变更有可能会导致整个服务 / Controller 的变更，最终变得无法维护。我曾经参与过的一个服务，提供了几十个方法，上万行代码，可想而知无论是使用方对接口的理解成本还是对代码的维护成本都是极高的。  
+可以看出来，无论怎么操作，都有可能导致 CardService 这个服务未来越来越难以维护，方法越来越多，一个业务的变更有可能会导致整个服务 / Controller 的变更，最终变得无法维护。我曾经参与过的一个服务，提供了几十个方法，上万行代码，可想而知无论是使用方对接口的理解成本还是对代码的维护成本都是极高的。 
 
 所以，这里提出另一个规范：
 
@@ -264,7 +264,7 @@ public interface BabyCardService {
 }
 ```
 
-这个的好处是符合了 Single Responsibility Principle 单一职责原则，也就是说一个接口类仅仅会因为一个（或一类）业务的变化而变化。一个建议是当一个现有的接口类过度膨胀时，可以考虑对接口类做拆分，拆分原则和 SRP 一致。  
+这个的好处是符合了 Single Responsibility Principle 单一职责原则，也就是说一个接口类仅仅会因为一个（或一类）业务的变化而变化。一个建议是当一个现有的接口类过度膨胀时，可以考虑对接口类做拆分，拆分原则和 SRP 一致。 
 
 也许会有人问，如果按照这种做法，会不会产生大量的接口类，导致代码逻辑重复？答案是不会，因为在 DDD 分层架构里，接口类的核心作用仅仅是协议层，每类业务的协议可以是不同的，而真实的业务逻辑会沉淀到应用层。也就是说 Interface 和 Application 的关系是多对多的：
 
@@ -278,31 +278,31 @@ public interface BabyCardService {
 
 Application 层的几个核心类：
 
-*   ApplicationService 应用服务：最核心的类，负责业务流程的编排，但本身不负责任何业务逻辑。
+* ApplicationService 应用服务：最核心的类，负责业务流程的编排，但本身不负责任何业务逻辑。
     
 
-*   DTO Assembler：负责将内部领域模型转化为可对外的 DTO。
+* DTO Assembler：负责将内部领域模型转化为可对外的 DTO。
     
 
-*   Command、Query、Event 对象：作为 ApplicationService 的入参。
+* Command、Query、Event 对象：作为 ApplicationService 的入参。
     
 
-*   返回的 DTO：作为 ApplicationService 的出参。
+* 返回的 DTO：作为 ApplicationService 的出参。
     
 
 Application 层最核心的对象是 ApplicationService，它的核心功能是承接 “业务流程 “。但是在讲 ApplicationService 的规范之前，必须要先重点的讲几个特殊类型的对象，即 Command、Query 和 Event。
 
 2  Command、Query、Event 对象
 
-从本质上来看，这几种对象都是 Value Object，但是从语义上来看有比较大的差异：  
+从本质上来看，这几种对象都是 Value Object，但是从语义上来看有比较大的差异： 
 
-*   Command 指令：指调用方明确想让系统操作的指令，其预期是对一个系统有影响，也就是写操作。通常来讲指令需要有一个明确的返回值（如同步的操作结果，或异步的指令已经被接受）。
+* Command 指令：指调用方明确想让系统操作的指令，其预期是对一个系统有影响，也就是写操作。通常来讲指令需要有一个明确的返回值（如同步的操作结果，或异步的指令已经被接受）。
     
 
-*   Query 查询：指调用方明确想查询的东西，包括查询参数、过滤、分页等条件，其预期是对一个系统的数据完全不影响的，也就是只读操作。
+* Query 查询：指调用方明确想查询的东西，包括查询参数、过滤、分页等条件，其预期是对一个系统的数据完全不影响的，也就是只读操作。
     
 
-*   Event 事件：指一件已经发生过的既有事实，需要系统根据这个事实作出改变或者响应的，通常事件处理都会有一定的写操作。事件处理器不会有返回值。这里需要注意一下的是，Application 层的 Event 概念和 Domain 层的 DomainEvent 是类似的概念，但不一定是同一回事，这里的 Event 更多是外部一种通知机制而已。
+* Event 事件：指一件已经发生过的既有事实，需要系统根据这个事实作出改变或者响应的，通常事件处理都会有一定的写操作。事件处理器不会有返回值。这里需要注意一下的是，Application 层的 Event 概念和 Domain 层的 DomainEvent 是类似的概念，但不一定是同一回事，这里的 Event 更多是外部一种通知机制而已。
     
 
 简单总结下：
@@ -317,14 +317,14 @@ Application 层最核心的对象是 ApplicationService，它的核心功能是�
 Result<OrderDO> checkout(Long itemId, Integer quantity);
 ```
 
-如果需要在接口上增加参数，考虑到向前兼容，则需要增加一个方法：  
+如果需要在接口上增加参数，考虑到向前兼容，则需要增加一个方法： 
 
 ```
 Result<OrderDO> checkout(Long itemId, Integer quantity);
 Result<OrderDO> checkout(Long itemId, Integer quantity, Integer channel);
 ```
 
-或者常见的查询方法，由于条件的不同导致多个方法：  
+或者常见的查询方法，由于条件的不同导致多个方法： 
 
 ```
 List<OrderDO> queryByItemId(Long itemId);
@@ -334,18 +334,18 @@ List<OrderDO> queryBySellerIdWithPage(Long sellerId, int currentPage, int pageSi
 
 可以看出来，传统的接口写法有几个问题：
 
-*   接口膨胀：一个查询条件一个方法。
+* 接口膨胀：一个查询条件一个方法。
     
-*   难以扩展：每新增一个参数都有可能需要调用方升级。
+* 难以扩展：每新增一个参数都有可能需要调用方升级。
     
-*   难以测试：接口一多，职责随之变得繁杂，业务场景各异，测试用例难以维护。
+* 难以测试：接口一多，职责随之变得繁杂，业务场景各异，测试用例难以维护。
     
 
 但是另外一个最重要的问题是：这种类型的参数罗列，本身没有任何业务上的” 语意 “，只是一堆参数而已，无法明确的表达出来意图。
 
 **CQE 的规范**
 
-所以在 Application 层的接口里，强力建议的一个规范是：  
+所以在 Application 层的接口里，强力建议的一个规范是： 
 
 > ApplicationService 的接口入参只能是一个 Command、Query 或 Event 对象，CQE 对象需要能代表当前方法的语意。唯一可以的例外是根据单一 ID 查询的情况，可以省略掉一个 Query 对象的创建。
 
@@ -374,16 +374,16 @@ public class OrderQuery {
 }
 ```
 
-这个规范的好处是：提升了接口的稳定性、降低低级的重复，并且让接口入参更加语意化。  
+这个规范的好处是：提升了接口的稳定性、降低低级的重复，并且让接口入参更加语意化。 
 
 **CQE vs DTO**
 
 从上面的代码能看出来，ApplicationService 的入参是 CQE 对象，但是出参却是一个 DTO，从代码格式上来看都是简单的 POJO 对象，那么他们之间有什么区别呢？
 
-*   CQE：CQE 对象是 ApplicationService 的输入，是有明确的”意图 “的，所以这个对象必须保证其” 正确性“。
+* CQE：CQE 对象是 ApplicationService 的输入，是有明确的”意图 “的，所以这个对象必须保证其” 正确性“。
     
 
-*   DTO：DTO 对象只是数据容器，只是为了和外部交互，所以本身不包含任何逻辑，只是贫血对象。
+* DTO：DTO 对象只是数据容器，只是为了和外部交互，所以本身不包含任何逻辑，只是贫血对象。
     
 
 但可能最重要的一点：因为 CQE 是”意图 “，所以 CQE 对象在理论上可以有” 无限“个，每个代表不同的意图；但是 DTO 作为模型数据容器，和模型一一对应，所以是有限的。
@@ -480,7 +480,7 @@ ApplicationService 负责了业务流程的编排，是将原有业务流水账�
 
 我见过 3 种 ApplicationService 的组织形态：
 
-（1）一个 ApplicationService 类是一个完整的业务流程，其中每个方法负责处理一个 Use Case。这种的好处是可以完整的收敛整个业务逻辑，从接口类即可对业务逻辑有一定的掌握，适合相对简单的业务流程。坏处就是对于复杂的业务流程会导致一个类的方法过多，有可能代码量过大。这种类型的具体案例如：  
+（1）一个 ApplicationService 类是一个完整的业务流程，其中每个方法负责处理一个 Use Case。这种的好处是可以完整的收敛整个业务逻辑，从接口类即可对业务逻辑有一定的掌握，适合相对简单的业务流程。坏处就是对于复杂的业务流程会导致一个类的方法过多，有可能代码量过大。这种类型的具体案例如： 
 
 ```
 public interface CheckoutService {
@@ -508,7 +508,7 @@ public interface CheckoutService {
 }
 ```
 
-（2）针对于比较复杂的业务流程，可以通过增加独立的 CommandHandler、EventHandler 来降低一个类中的代码量：  
+（2）针对于比较复杂的业务流程，可以通过增加独立的 CommandHandler、EventHandler 来降低一个类中的代码量： 
 
 ```
 @Component
@@ -530,7 +530,7 @@ public class CheckoutServiceImpl implements CheckoutService {
 }
 ```
 
-（3）比较激进一点，通过 CommandBus、EventBus，直接将指令或事件抛给对应的 Handler，EventBus 比较常见。具体案例代码如下，通过消息队列收到 MQ 消息后，生成 Event，然后由 EventBus 做路由到对应的 Handler：  
+（3）比较激进一点，通过 CommandBus、EventBus，直接将指令或事件抛给对应的 Handler，EventBus 比较常见。具体案例代码如下，通过消息队列收到 MQ 消息后，生成 Event，然后由 EventBus 做路由到对应的 Handler： 
 
 ```
 // Application层
@@ -565,7 +565,7 @@ public class OrderMessageListener implements MessageListenerOrderly {
 
 **Application Service 是业务流程的封装，不处理业务逻辑**
 
-虽然之前曾经无数次重复 ApplicationService 只负责业务流程串联，不负责业务逻辑，但如何判断一段代码到底是业务流程还是逻辑呢？  
+虽然之前曾经无数次重复 ApplicationService 只负责业务流程串联，不负责业务逻辑，但如何判断一段代码到底是业务流程还是逻辑呢？ 
 
 举个之前的例子，最初的代码重构后：
 
@@ -624,7 +624,7 @@ if (!withholdSuccess) {
 }
 ```
 
-虽然 CC > 1，但是仅仅代表了中断条件，具体的业务逻辑处理并没有受影响。可以把它看作为 Precondition。  
+虽然 CC > 1，但是仅仅代表了中断条件，具体的业务逻辑处理并没有受影响。可以把它看作为 Precondition。 
 
 （2）不要有任何计算
 
@@ -669,16 +669,16 @@ OrderDTO dto = orderDtoAssembler.orderToDTO(savedOrder);
 
 一般的 “套路” 如下：
 
-*   准备数据：包括从外部服务或持久化源取出相对应的 Entity、VO 以及外部服务返回的 DTO。
+* 准备数据：包括从外部服务或持久化源取出相对应的 Entity、VO 以及外部服务返回的 DTO。
     
 
-*   执行操作：包括新对象的创建、赋值，以及调用领域对象的方法对其进行操作。需要注意的是这个时候通常都是纯内存操作，非持久化。
+* 执行操作：包括新对象的创建、赋值，以及调用领域对象的方法对其进行操作。需要注意的是这个时候通常都是纯内存操作，非持久化。
     
 
-*   持久化：将操作结果持久化，或操作外部系统产生相应的影响，包括发消息等异步操作。
+* 持久化：将操作结果持久化，或操作外部系统产生相应的影响，包括发消息等异步操作。
     
 
-如果涉及到对多个外部系统（包括自身的 DB）都有变更的情况，这个时候通常处在 “分布式事务” 的场景里，无论是用分布式 TX、TCC、还是 Saga 模式，取决于具体场景的设计，在此处暂时略过。  
+如果涉及到对多个外部系统（包括自身的 DB）都有变更的情况，这个时候通常处在 “分布式事务” 的场景里，无论是用分布式 TX、TCC、还是 Saga 模式，取决于具体场景的设计，在此处暂时略过。 
 
 4  DTO Assembler
 
@@ -688,13 +688,13 @@ OrderDTO dto = orderDtoAssembler.orderToDTO(savedOrder);
 
 为什么呢？
 
-*   构建领域边界：ApplicationService 的入参是 CQE 对象，出参是 DTO，这些基本上都属于简单的 POJO，来确保 Application 层的内外互相不影响。
+* 构建领域边界：ApplicationService 的入参是 CQE 对象，出参是 DTO，这些基本上都属于简单的 POJO，来确保 Application 层的内外互相不影响。
     
 
-*   降低规则依赖：Entity 里面通常会包含业务规则，如果 ApplicationService 返回 Entity，则会导致调用方直接依赖业务规则。如果内部规则变更可能直接影响到外部。
+* 降低规则依赖：Entity 里面通常会包含业务规则，如果 ApplicationService 返回 Entity，则会导致调用方直接依赖业务规则。如果内部规则变更可能直接影响到外部。
     
 
-*   通过 DTO 组合降低成本：Entity 是有限的，DTO 可以是多个 Entity、VO 的自由组合，一次性封装成复杂 DTO，或者有选择的抽取部分参数封装成 DTO 可以降低对外的成本。
+* 通过 DTO 组合降低成本：Entity 是有限的，DTO 可以是多个 Entity、VO 的自由组合，一次性封装成复杂 DTO，或者有选择的抽取部分参数封装成 DTO 可以降低对外的成本。
     
 
 因为我们操作的对象是 Entity，但是输出的对象是 DTO，这里就需要一个专属类型的对象叫 DTO Assembler。DTO Assembler 的唯一职责是将一个或多个 Entity/VO，转化为 DTO。注意：DTO Assembler 通常不建议有反操作，也就是不会从 DTO 到 Entity，因为通常一个 DTO 转化为 Entity 时是无法保证 Entity 的准确性的。
@@ -752,13 +752,13 @@ boolean withholdSuccess = inventoryService.withhold(cmd.getItemId(), cmd.getQuan
 
 ACL 防腐层的简单原理如下：
 
-*   对于依赖的外部对象，我们抽取出所需要的字段，生成一个内部所需的 VO 或 DTO 类。
+* 对于依赖的外部对象，我们抽取出所需要的字段，生成一个内部所需的 VO 或 DTO 类。
     
 
-*   构建一个新的 Facade，在 Facade 中封装调用链路，将外部类转化为内部类。
+* 构建一个新的 Facade，在 Facade 中封装调用链路，将外部类转化为内部类。
     
 
-*   针对外部系统调用，同样的用 Facade 方法封装外部调用链路。
+* 针对外部系统调用，同样的用 Facade 方法封装外部调用链路。
     
 
 无防腐层的情况：
@@ -866,10 +866,10 @@ Orchestration 的编排（比如 SOA / 微服务的服务编排 Service Orchestr
 
 1  模式简介
 
-*   Orchestration：通常出现在脑海里的是一个交响乐团（Orchestra，注意这两个词的相似性）。交响乐团的核心是一个唯一的指挥家 Conductor，在一个交响乐中，所有的音乐家必须听从 Conductor 的指挥做操作，不可以独自发挥。所以在 Orchestration 模式中，所有的流程都是由一个节点或服务触发的。我们常见的业务流程代码，包括调用外部服务，就是 Orchestration，由我们的服务统一触发。
+* Orchestration：通常出现在脑海里的是一个交响乐团（Orchestra，注意这两个词的相似性）。交响乐团的核心是一个唯一的指挥家 Conductor，在一个交响乐中，所有的音乐家必须听从 Conductor 的指挥做操作，不可以独自发挥。所以在 Orchestration 模式中，所有的流程都是由一个节点或服务触发的。我们常见的业务流程代码，包括调用外部服务，就是 Orchestration，由我们的服务统一触发。
     
 
-*   Choreography：通常会出现在脑海的场景是一个舞剧（来自于希腊文的舞蹈，Choros）。其中每个不同的舞蹈家都在做自己的事，但是没有一个中心化的指挥。通过协作配合，每个人做好自己的事，整个舞蹈可以展现出一个完整的、和谐的画面。所以在 Choreography 模式中，每个服务都是独立的个体，可能会响应外部的一些事件，但整个系统是一个整体。
+* Choreography：通常会出现在脑海的场景是一个舞剧（来自于希腊文的舞蹈，Choros）。其中每个不同的舞蹈家都在做自己的事，但是没有一个中心化的指挥。通过协作配合，每个人做好自己的事，整个舞蹈可以展现出一个完整的、和谐的画面。所以在 Choreography 模式中，每个服务都是独立的个体，可能会响应外部的一些事件，但整个系统是一个整体。
     
 
 2  案例
@@ -890,34 +890,34 @@ Orchestration 的编排（比如 SOA / 微服务的服务编排 Service Orchestr
 
 从代码依赖关系来看：
 
-*   Orchestration：涉及到一个服务调用到另外的服务，对于调用方来说，是强依赖的服务提供方。
+* Orchestration：涉及到一个服务调用到另外的服务，对于调用方来说，是强依赖的服务提供方。
     
 
-*   Choreography：每一个服务只是做好自己的事，然后通过事件触发其他的服务，服务之间没有直接调用上的依赖。但要注意的是下游还是会依赖上游的代码（比如事件类），所以可以认为是下游对上游有依赖。
+* Choreography：每一个服务只是做好自己的事，然后通过事件触发其他的服务，服务之间没有直接调用上的依赖。但要注意的是下游还是会依赖上游的代码（比如事件类），所以可以认为是下游对上游有依赖。
     
 
 从代码灵活性来看：
 
-*   Orchestration：因为服务间的依赖关系是写死的，增加新的业务流程必然需要修改代码。
+* Orchestration：因为服务间的依赖关系是写死的，增加新的业务流程必然需要修改代码。
     
 
-*   Choreography：因为服务间没有直接调用关系，可以增加或替换服务，而不需要改上游代码。
+* Choreography：因为服务间没有直接调用关系，可以增加或替换服务，而不需要改上游代码。
     
 
 从调用链路来看：
 
-*   Orchestration：是从一个服务主动调用另一个服务，所以是 Command-Driven 指令驱动的。
+* Orchestration：是从一个服务主动调用另一个服务，所以是 Command-Driven 指令驱动的。
     
 
-*   Choreography：是每个服务被动的被外部事件触发，所以是 Event-Driven 事件驱动的。
+* Choreography：是每个服务被动的被外部事件触发，所以是 Event-Driven 事件驱动的。
     
 
 从业务职责来看：
 
-*   Orchestration：有主动的调用方（比如：下单服务）。无论下游的依赖是谁，主动的调用方都需要为整个业务流程和结果负责。
+* Orchestration：有主动的调用方（比如：下单服务）。无论下游的依赖是谁，主动的调用方都需要为整个业务流程和结果负责。
     
 
-*   Choreography：没有主动调用方，每个服务只关心自己的触发条件和结果，没有任何一个服务会为整个业务链路负责。
+* Choreography：没有主动调用方，每个服务只关心自己的触发条件和结果，没有任何一个服务会为整个业务链路负责。
     
 
 小结：
@@ -954,10 +954,10 @@ Orchestration 的编排（比如 SOA / 微服务的服务编排 Service Orchestr
 
 最后，讲了这么多 O vs C，跟 DDD 有啥关系？很简单：
 
-*   O&C 其实是 Interface 层的关注点，Orchestration = 对外的 API，而 Choreography = 消息或事件。当你决策了 O 还是 C 之后，需要在 Interface 层承接这些 “驱动力”。
+* O&C 其实是 Interface 层的关注点，Orchestration = 对外的 API，而 Choreography = 消息或事件。当你决策了 O 还是 C 之后，需要在 Interface 层承接这些 “驱动力”。
     
 
-*   无论 O&C 如何设计，Application 层都 “无感知”，因为 ApplicationService 天生就可以处理 Command、Query 和 Event，至于这些对象怎么来，是 Interface 层的决策。
+* 无论 O&C 如何设计，Application 层都 “无感知”，因为 ApplicationService 天生就可以处理 Command、Query 和 Event，至于这些对象怎么来，是 Interface 层的决策。
     
 
 所以，虽然 Orchestration 和 Choreography 是两种完全不同的业务设计模式，但最终落到 Application 层的代码应该是一致的，这也是为什么 Application 层是 “用例” 而不是“接口”，是相对稳定的存在。
@@ -968,67 +968,67 @@ Orchestration 的编排（比如 SOA / 微服务的服务编排 Service Orchestr
 
 Interface 层：
 
-*   职责：主要负责承接网络协议的转化、Session 管理等。
+* 职责：主要负责承接网络协议的转化、Session 管理等。
     
 
-*   接口数量：避免所谓的统一 API，不必人为限制接口类的数量，每个 / 每类业务对应一套接口即可，接口参数应该符合业务需求，避免大而全的入参。
+* 接口数量：避免所谓的统一 API，不必人为限制接口类的数量，每个 / 每类业务对应一套接口即可，接口参数应该符合业务需求，避免大而全的入参。
     
 
-*   接口出参：统一返回 Result。
+* 接口出参：统一返回 Result。
     
 
-*   异常处理：应该捕捉所有异常，避免异常信息的泄漏。可以通过 AOP 统一处理，避免代码里有大量重复代码。
+* 异常处理：应该捕捉所有异常，避免异常信息的泄漏。可以通过 AOP 统一处理，避免代码里有大量重复代码。
     
 
 Application 层：
 
-*   入参：具像化 Command、Query、Event 对象作为 ApplicationService 的入参，唯一可以的例外是单 ID 查询的场景。
+* 入参：具像化 Command、Query、Event 对象作为 ApplicationService 的入参，唯一可以的例外是单 ID 查询的场景。
     
 
-*   CQE 的语意化：CQE 对象有语意，不同用例之间语意不同，即使参数一样也要避免复用。
+* CQE 的语意化：CQE 对象有语意，不同用例之间语意不同，即使参数一样也要避免复用。
     
 
-*   入参校验：基础校验通过 Bean Validation api 解决。Spring Validation 自带 Validation 的 AOP，也可以自己写 AOP。
+* 入参校验：基础校验通过 Bean Validation api 解决。Spring Validation 自带 Validation 的 AOP，也可以自己写 AOP。
     
 
-*   出参：统一返回 DTO，而不是 Entity 或 DO。
+* 出参：统一返回 DTO，而不是 Entity 或 DO。
     
 
-*   DTO 转化：用 DTO Assembler 负责 Entity/VO 到 DTO 的转化。
+* DTO 转化：用 DTO Assembler 负责 Entity/VO 到 DTO 的转化。
     
 
-*   异常处理：不统一捕捉异常，可以随意抛异常。
+* 异常处理：不统一捕捉异常，可以随意抛异常。
     
 
 部分 Infra 层：
 
-*   用 ACL 防腐层将外部依赖转化为内部代码，隔离外部的影响。
+* 用 ACL 防腐层将外部依赖转化为内部代码，隔离外部的影响。
     
 
 业务流程设计模式：
 
-*   没有最好的模式，取决于业务场景、依赖关系、以及是否有业务 “负责人”。避免拿着锤子找钉子。
+* 没有最好的模式，取决于业务场景、依赖关系、以及是否有业务 “负责人”。避免拿着锤子找钉子。
     
 
-**往期推荐**   
+**往期推荐** 
 
-*   [在焦虑和内卷之后，感叹：人生不必太用力](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050767&idx=2&sn=3c5ecf200be268adadbc5f166034a8de&chksm=8c4c060bbb3b8f1da9d6efc5b12a2f8bcec602e9ce6d06846a86ce04e96ca45727a3fc3e1fec&scene=21#wechat_redirect)  
+* [在焦虑和内卷之后，感叹：人生不必太用力](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050767&idx=2&sn=3c5ecf200be268adadbc5f166034a8de&chksm=8c4c060bbb3b8f1da9d6efc5b12a2f8bcec602e9ce6d06846a86ce04e96ca45727a3fc3e1fec&scene=21#wechat_redirect) 
     
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
-*   [支付宝超级 App 的弹性动态架构实践](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050636&idx=1&sn=51b59399e03cd732fb71a72cd22a9ce7&chksm=8c4c0788bb3b8e9e1e6acf6adeef49df5843bd20a045ab591db8f90c6b0ecd3e80e25fc238d5&scene=21#wechat_redirect)  
+* [支付宝超级 App 的弹性动态架构实践](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050636&idx=1&sn=51b59399e03cd732fb71a72cd22a9ce7&chksm=8c4c0788bb3b8e9e1e6acf6adeef49df5843bd20a045ab591db8f90c6b0ecd3e80e25fc238d5&scene=21#wechat_redirect) 
     
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
-*   [千亿级公司低代码平台的测试体系介绍](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050678&idx=2&sn=a2d464e2eda98ca4edb041705520d57d&chksm=8c4c07b2bb3b8ea47513c73bfddc57872857347fc625486041edbc4912526dfd550f42addd30&scene=21#wechat_redirect)  
+* [千亿级公司低代码平台的测试体系介绍](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050678&idx=2&sn=a2d464e2eda98ca4edb041705520d57d&chksm=8c4c07b2bb3b8ea47513c73bfddc57872857347fc625486041edbc4912526dfd550f42addd30&scene=21#wechat_redirect) 
     
     ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
-*   [有赞数据中台演进，如何省钱](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050594&idx=1&sn=54b5ea1ab283b177abe711aaab4aa059&chksm=8c4c0766bb3b8e709d54cf9b356341e14823b99d30a5b13de45bc5e6e550955666053ee58b52&scene=21#wechat_redirect)  
+* [有赞数据中台演进，如何省钱](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050594&idx=1&sn=54b5ea1ab283b177abe711aaab4aa059&chksm=8c4c0766bb3b8e709d54cf9b356341e14823b99d30a5b13de45bc5e6e550955666053ee58b52&scene=21#wechat_redirect) 
     
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
-*   [DDD 在旅游电商架构演进中的实践](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050593&idx=1&sn=daa70fdb20aedab349a8d938a186c9df&chksm=8c4c0765bb3b8e73cff315b62b0b692404fa2c89230c690d7303b734ad0af84d003795d9c911&scene=21#wechat_redirect)  
+* [DDD 在旅游电商架构演进中的实践](http://mp.weixin.qq.com/s?__biz=MzIxMzEzMjM5NQ==&mid=2651050593&idx=1&sn=daa70fdb20aedab349a8d938a186c9df&chksm=8c4c0765bb3b8e73cff315b62b0b692404fa2c89230c690d7303b734ad0af84d003795d9c911&scene=21#wechat_redirect) 
     
     ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     

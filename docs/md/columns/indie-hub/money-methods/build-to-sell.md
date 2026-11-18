@@ -9,7 +9,7 @@ url: "https://mp.weixin.qq.com/s/rIu6Efw7m54FENXEvqtvyg"
 
 用 AI 驱动 CMS 系统，实现全自动内容生产 + 多语言 SEO + 广告变现。
 
-> 参考：zlbigger《利用 AI 给自己做个网站给养老吧，"躺"着把钱挣》
+> 参考：zlbigger《利用 AI 给自己做个网站给养老吧，“躺”着把钱挣》
 
 ## 核心架构
 
@@ -41,7 +41,7 @@ url: "https://mp.weixin.qq.com/s/rIu6Efw7m54FENXEvqtvyg"
 
 **Google AdSense** — 最原始的广告模式
 
-> 前提：跑通自动化后真的"躺赚"，但需要前期框架搭建。
+> 前提：跑通自动化后真的“躺赚”，但需要前期框架搭建。
 
 ## 成本清单
 
@@ -63,7 +63,7 @@ url: "https://mp.weixin.qq.com/s/rIu6Efw7m54FENXEvqtvyg"
 
 > 核心在于 AI 能帮你干很多事情。AI 能帮你突破语言障碍，获取全球流量。
 
-> 选择有"流量"的主题，AI 让你做任何你想做的内容。
+> 选择有“流量”的主题，AI 让你做任何你想做的内容。
 
 ## 相关
 

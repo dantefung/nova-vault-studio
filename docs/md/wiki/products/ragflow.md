@@ -4,21 +4,21 @@ title: "RAGFlow 文档理解"
 
 # RAGFlow
 
-> 由Infiniflow开发的开源RAG引擎，强调"质量进，质量出"，通过深度文档理解确保数据入口质量。
+> 由 Infiniflow 开发的开源 RAG 引擎，强调“质量进，质量出”，通过深度文档理解确保数据入口质量。
 
 ## Core Capabilities
 
 - **深度文档理解**：支持复杂格式（扫描件、表格、公式）的精细解析
 - **混合检索**：融合向量、关键词、知识图谱多种检索方式
 - **可视化工作流**：Agent Canvas，支持拖拽式编排
-- **Infinity集成**：原生支持自研的Infinity向量数据库
+- **Infinity 集成**：原生支持自研的 Infinity 向量数据库
 
 ## Technical Highlights
 
-- 五层微服务架构：客户端层、API网关层、服务层、Worker层、存储层
+- 五层微服务架构：客户端层、API 网关层、服务层、Worker 层、存储层
 - 语义分块（Semantic Chunking）：避免简易文本切分破坏文档布局信息
-- 支持Elasticsearch/Infinity/OceanBase/OpenSearch作为文档存储
-- 2.5万+ GitHub星标
+- 支持 Elasticsearch/Infinity/OceanBase/OpenSearch 作为文档存储
+- 2.5 万+ GitHub 星标
 
 ## Use Cases
 
@@ -33,5 +33,5 @@ title: "RAGFlow 文档理解"
 
 ## Sources
 
-- [[智能客服专栏] RAG建设方案横纵分析报告](../../guide/ai/intelligent-customer-service/17-rag-building-scheme-analysis.md)
+- [[智能客服专栏] RAG 建设方案横纵分析报告](../../guide/ai/intelligent-customer-service/17-rag-building-scheme-analysis.md)
 - RAGFlow GitHub: https://github.com/infiniflow/ragflow

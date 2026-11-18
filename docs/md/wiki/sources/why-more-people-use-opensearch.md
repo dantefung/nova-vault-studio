@@ -6,7 +6,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/70tSzSKeFBxqqD5DG7q_5g"
 ---
 
-# 为什么越来越多人用OpenSearch？
+# 为什么越来越多人用 OpenSearch？
 
 ## 前言
 

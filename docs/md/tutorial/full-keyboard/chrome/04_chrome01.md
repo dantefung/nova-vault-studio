@@ -16,7 +16,7 @@ url: "https://github.com/dantefung/full-keyboard"
 
 - [地址](https://chrome.google.com/webstore/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg)
 
-安装完成之后就可以通过 `?` 来显示  Vimium C 的帮助面板了
+安装完成之后就可以通过 `?` 来显示 Vimium C 的帮助面板了
 
 ### 为什么选择 `VimiumC` 
 

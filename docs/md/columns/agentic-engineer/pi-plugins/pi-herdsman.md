@@ -5,7 +5,7 @@ date: "2026-09-21"
 
 # pi-herdsman：可以继续往下嵌套 Agent
 
-> 不只是一个 Leader 带几个 Agent，而是 Agent 下面还能继续挂 Agent，已经开始有点"组织架构"的味道了。
+> 不只是一个 Leader 带几个 Agent，而是 Agent 下面还能继续挂 Agent，已经开始有点“组织架构”的味道了。
 
 ## 定位
 

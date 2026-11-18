@@ -23,14 +23,14 @@ The diagram above illustrates how a stop-loss order is executed by a trading sys
 
 ## Stop-Loss Order Execution
 
-*   The investor submits a stop-loss order to the trading system with 100 shares, to sell for $36.
+* The investor submits a stop-loss order to the trading system with 100 shares, to sell for $36.
 
-*   Upon receiving the order request, the trading engine creates the stop-loss order.
+* Upon receiving the order request, the trading engine creates the stop-loss order.
 
-*   The trading engine subscribes to the market data of ABC Inc. from the exchange and monitors its real-time market price.
+* The trading engine subscribes to the market data of ABC Inc. from the exchange and monitors its real-time market price.
 
-*   If the trading engine detects that the market price of ABC Inc. falls to, say, $35, it immediately creates a market order and then submits it to the exchange to sell the 100 shares for the current best market price.
+* If the trading engine detects that the market price of ABC Inc. falls to, say, $35, it immediately creates a market order and then submits it to the exchange to sell the 100 shares for the current best market price.
 
-*   The order is filled (i.e. matched to the best buy orders in the market,) usually instantaneously. Then the trading engine receives from the exchange a ‘fill report’ stating the shares have been sold for, say, $35.5 per share.
+* The order is filled (i.e. matched to the best buy orders in the market,) usually instantaneously. Then the trading engine receives from the exchange a ‘fill report’ stating the shares have been sold for, say, $35.5 per share.
 
-*   The trading system notifies the investor that the 100 shares have been sold for $35.5 per share.
+* The trading system notifies the investor that the 100 shares have been sold for $35.5 per share.

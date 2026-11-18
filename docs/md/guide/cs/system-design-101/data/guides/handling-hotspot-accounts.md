@@ -25,14 +25,14 @@ The diagram above shows several optimizations.
 
 ## Optimizations
 
-*   **Rate limit**
+* **Rate limit**
 
     We can limit the number of requests within a certain period. The remaining requests will be rejected or retried at a later time. It is a simple way to increase the system’s responsiveness for some users, but this can lead to a bad user experience.
 
-*   **Split the balance account into sub-accounts**
+* **Split the balance account into sub-accounts**
 
     We can set up sub-accounts for the merchant’s account. In this way, one update request only locks one sub-account, and the rest sub-accounts are still available.
 
-*   **Use cache to update balance first**
+* **Use cache to update balance first**
 
     We can set up a caching layer to update the merchant’s balance. The detailed statements and balances are updated in the database later asynchronously. The in-memory cache can deal with a much higher throughput than the database.

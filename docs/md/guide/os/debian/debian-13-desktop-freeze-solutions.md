@@ -48,7 +48,7 @@ setsid kwin_wayland --replace
 # 原理说明
 
 - `setsid` 在新会话中启动进程，避免受当前会话限制
-- `kwin_wayland --replace` 直接替换当前 Wayland 合Compositor，无需注销用户会话
+- `kwin_wayland --replace` 直接替换当前 Wayland 合 Compositor，无需注销用户会话
 
 ------------------------------------------------------------------------
 
@@ -76,7 +76,7 @@ setsid kwin_wayland --replace
 结果：
 1. 当前 kwin_wayland 进程被突然杀掉
 2. 所有与之连接的 Wayland 客户端**立即失去通信 socket**
-3. Wayland 协议**没有类似 X11 的"重新连接"机制**——客户端发现合成器消失，绝大多数直接崩溃或退出
+3. Wayland 协议**没有类似 X11 的“重新连接”机制**——客户端发现合成器消失，绝大多数直接崩溃或退出
 
 所以 `setsid kwin_wayland --replace` 本质上是**暴力重启 Wayland 合成器**，效果约等于图形会话强制重启。
 

@@ -36,7 +36,7 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
 ![](images/30m-site-ai-app-120k-revenue/img_007.webp)
 
-当时哥飞就想，看来全世界人民的喜好都差不多啊，国内的"小来早晚安"公众号篇篇 10 万+，国外则是 Good Morning Quotes 需求大。
+当时哥飞就想，看来全世界人民的喜好都差不多啊，国内的“小来早晚安”公众号篇篇 10 万+，国外则是 Good Morning Quotes 需求大。
 
 于是哥飞就去谷歌搜索这个关键词，结果如下。
 
@@ -74,7 +74,7 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 
 ![](images/30m-site-ai-app-120k-revenue/img_015.webp)
 
-这个网页的内容优化也用到了哥飞之前讲过的站内页面优化六字真言"分门别类罗列"。
+这个网页的内容优化也用到了哥飞之前讲过的站内页面优化六字真言“分门别类罗列”。
 
 ![](images/30m-site-ai-app-120k-revenue/img_016.webp)
 
@@ -143,7 +143,7 @@ url: "https://new.web.cafe/tutorial/detail/oDAuhzcqNiar5JMZkmn2fu"
 - **楠木** · 2026-01-05 13:17
   > 打卡
 
-- **秋天 | AI探索者** · 2026-01-18 23:31
+- **秋天 | AI 探索者** · 2026-01-18 23:31
   > 打卡
 
 - **Shrek☀** · 2026-01-27 11:22

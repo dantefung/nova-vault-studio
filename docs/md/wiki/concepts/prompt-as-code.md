@@ -34,4 +34,4 @@ Prompt-as-Code 的解决思路：把提示词当作代码来写。
 ## 来源
 
 - 苍何. [《我逆向了 329 条 GPT-Image2 提示词模板，全部开源！》](../sources/gpt-image2-prompts.md). 2026-06-30. X/Twitter.
-- 开源仓库: https://github.com/freestylefly/awesome-gpt-image-2
+- 开源仓库：https://github.com/freestylefly/awesome-gpt-image-2

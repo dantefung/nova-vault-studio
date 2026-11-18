@@ -19,9 +19,9 @@ Google Authenticator is a software-based authenticator that implements a two-ste
 
 There are two stages involved:
 
-*   Stage 1 - The user enables Google two-step verification
+* Stage 1 - The user enables Google two-step verification
 
-*   Stage 2 - The user uses the authenticator for logging in, etc.
+* Stage 2 - The user uses the authenticator for logging in, etc.
 
 Let’s look at these stages.
 

@@ -3,7 +3,7 @@ title: "Google Agent Skills（Google官方Skills合集）"
 date: "2026-06-11"
 ---
 
-# Google Agent Skills（Google官方Skills合集）
+# Google Agent Skills（Google 官方 Skills 合集）
 
 > Agent Skills for Google products and technologies, including Google Cloud.
 
@@ -11,7 +11,7 @@ date: "2026-06-11"
 
 - **核心定位**：Google 官方推出的 Agent Skills 集合
 - **主要功能**：教 AI 优雅调用 Google Cloud 各类资源（GCP 云原生对接）
-- **标志意义**：标志着大厂开始将云原生操作"Agent 化"
+- **标志意义**：标志着大厂开始将云原生操作“Agent 化”
 
 ## 可用 Skills（按类别）
 
@@ -45,8 +45,8 @@ npx skills add google/skills
 
 ## Related Pages
 
-- [products/codex-skills](products/codex-skills) — Codex Skills精选列表
-- [patterns/gstack-skills](patterns/gstack-skills) — AI编程助手团队化
+- [products/codex-skills](products/codex-skills) — Codex Skills 精选列表
+- [patterns/gstack-skills](patterns/gstack-skills) — AI 编程助手团队化
 
 ## Sources
 

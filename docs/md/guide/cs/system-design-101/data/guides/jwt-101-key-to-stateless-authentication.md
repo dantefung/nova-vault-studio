@@ -31,10 +31,10 @@ The signature is what makes the JWT secure. It is created by taking the encoded 
 
 JWTs can be signed in two different ways:
 
-*   **Symmetric Signatures**
+* **Symmetric Signatures**
 
     It uses a single secret key for both signing the token and verifying it. The same key must be shared between the server that signs the JWT and the system that verifies it.
 
-*   **Asymmetric Signatures**
+* **Asymmetric Signatures**
 
     In this case, a private key is used to sign the token, and a public key to verify it. The private key is kept secure on the server, while the public key can be distributed to anyone who needs to verify the token.

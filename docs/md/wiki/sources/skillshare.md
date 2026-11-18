@@ -30,7 +30,7 @@ url: "https://github.com/runkids/skillshare"
 └─────────┘  └──────────┘  └──────────┘
 ```
 
-| 平台 | Skills源 | Agents 源 | Extras 源 | 链接方式 |
+| 平台 | Skills 源 | Agents 源 | Extras 源 | 链接方式 |
 |------|-----------|-----------|-----------|----------|
 | macOS/Linux | `~/.config/skillshare/skills/` | `~/.config/skillshare/agents/` | `~/.config/skillshare/extras/` | Symlinks |
 | Windows | `%AppData%\skillshare\` | | | NTFS Junctions（无需 admin） |

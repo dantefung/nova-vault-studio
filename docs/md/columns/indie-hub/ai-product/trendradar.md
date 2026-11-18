@@ -51,7 +51,7 @@ docker run -p 8001:8001 wantcat/trendradar-mcp
 ## 项目地址
 
 GitHub: [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)
-官网文档: [trendradar.sandev.cc](https://trendradar.sandev.cc/zh/docs/quick-start/)
+官网文档：[trendradar.sandev.cc](https://trendradar.sandev.cc/zh/docs/quick-start/)
 
 ## 参见
 

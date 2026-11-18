@@ -17,8 +17,8 @@ This guide is designed to help you understand the world of RESTful APIs in a cle
 
 What's inside:
 
-*   An exploration of the six fundamental principles of REST API design.
-*   Insights into key components such as HTTP methods, protocols, versioning, and more.
-*   A special focus on practical aspects like pagination, filtering, and endpoint design.
+* An exploration of the six fundamental principles of REST API design.
+* Insights into key components such as HTTP methods, protocols, versioning, and more.
+* A special focus on practical aspects like pagination, filtering, and endpoint design.
 
 Whether you're beginning your API journey or looking to refresh your knowledge, this blog and cheat sheet combo is the perfect toolkit for success.

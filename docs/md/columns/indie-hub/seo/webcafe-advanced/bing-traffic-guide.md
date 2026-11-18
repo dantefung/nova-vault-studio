@@ -6,7 +6,7 @@ author: "哥飞"
 url: "https://new.web.cafe/tutorial/detail/bing-traffic"
 ---
 
-> 原文链接: https://new.web.cafe/tutorial/detail/i9aa0x1lhb
+> 原文链接：https://new.web.cafe/tutorial/detail/i9aa0x1lhb
 
 ---
 
@@ -20,15 +20,15 @@ url: "https://new.web.cafe/tutorial/detail/bing-traffic"
 
 我有一个网站，这周才发现 Bing 没有收录。 于是就去做了一些事情，目前看来有一些效果了：
 
-1.  提交到 Bing 站长后台 [https://www.bing.com/webmaster/](https://www.bing.com/webmaster/)
+1. 提交到 Bing 站长后台 [https://www.bing.com/webmaster/](https://www.bing.com/webmaster/)
 
-2.  加上 Sitemap （这个站没有 Sitemap ，也有来自于谷歌每天几 K 的点击）
+2. 加上 Sitemap （这个站没有 Sitemap ，也有来自于谷歌每天几 K 的点击）
 
-3.  按照 Bing 站长后台扫描出来的问题，一个一个去修改。 如有些页面没有 Description ，有些没有 H1 ，有些 Title 太长。
+3. 按照 Bing 站长后台扫描出来的问题，一个一个去修改。 如有些页面没有 Description ，有些没有 H1 ，有些 Title 太长。
 
-4.  增加对 IndexNow 的支持[https://www.bing.com/indexnow](https://www.bing.com/indexnow) 网址主动提交到 IndexNow
+4. 增加对 IndexNow 的支持[https://www.bing.com/indexnow](https://www.bing.com/indexnow) 网址主动提交到 IndexNow
 
-5.  在 CF 开启主动推送
+5. 在 CF 开启主动推送
 
 为什么谷歌不需要 Sitemap ，我猜谷歌爬虫很强大，不需要依赖 Sitemap ，也不太喜欢站长提交过来的大量链接，谷歌更喜欢自己去爬，自己去发现，去判断。
 

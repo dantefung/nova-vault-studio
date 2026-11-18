@@ -16,11 +16,11 @@ url: "https://mp.weixin.qq.com/s/3PPy1gB5gxhZSBSxWQ6rng"
 
 
 
-> 没有工具的 Agent 只能"纸上谈兵"——配上工具，它才能真正动手干活。
+> 没有工具的 Agent 只能“纸上谈兵”——配上工具，它才能真正动手干活。
 
 
 
-没有工具的 Agent 只能"纸上谈兵"——配上工具，它才能真正动手干活。
+没有工具的 Agent 只能“纸上谈兵”——配上工具，它才能真正动手干活。
 
 
 
@@ -28,7 +28,7 @@ url: "https://mp.weixin.qq.com/s/3PPy1gB5gxhZSBSxWQ6rng"
 
 
 
-前几篇文章我们把 AgentScope Java 2.0 的环境搭起来了，也拆解了 ReActAgent 的推理循环。但无论推理循环设计得多优雅，如果 Agent 只有"脑子"没有"手脚"，能做的事情终究有限。
+前几篇文章我们把 AgentScope Java 2.0 的环境搭起来了，也拆解了 ReActAgent 的推理循环。但无论推理循环设计得多优雅，如果 Agent 只有“脑子”没有“手脚”，能做的事情终究有限。
 
 
 
@@ -188,7 +188,7 @@ readOnly = true 表示工具不会产生副作用，权限系统会自动放行
 
 
 
-是否必须，默认为true
+是否必须，默认为 true
 
 
 
@@ -228,7 +228,7 @@ readOnly = true 表示工具不会产生副作用，权限系统会自动放行
 
 
 
-Agent 识别到"北京时间"对应时区 Asia/Shanghai，自动调用了 get_current_time 工具，拿到结果后生成回答。
+Agent 识别到“北京时间”对应时区 Asia/Shanghai，自动调用了 get_current_time 工具，拿到结果后生成回答。
 
 
 
@@ -352,7 +352,7 @@ Warning：Meta tool 的输入表示所有组的最终状态而非增量。任何
 
 
 
-注入规则：没有标注 @ToolParam、不是基本类型、不在 java.* / javax.* 包下的参数，都会被框架视为"需要注入"的参数，自动从 RuntimeContext 中按类型匹配。
+注入规则：没有标注 @ToolParam、不是基本类型、不在 java.* / javax.* 包下的参数，都会被框架视为“需要注入”的参数，自动从 RuntimeContext 中按类型匹配。
 
 
 
@@ -488,7 +488,7 @@ Skill 是 AgentScope 的特色能力——不需要写 Java 代码，用 Markdow
 
 
 
-Skill + ToolGroup 的组合可以做到"加载 skill 时自动激活关联工具组"，减少上下文噪音。这块内容比较多，后面单独开一篇细讲。
+Skill + ToolGroup 的组合可以做到“加载 skill 时自动激活关联工具组”，减少上下文噪音。这块内容比较多，后面单独开一篇细讲。
 
 
 
@@ -552,23 +552,23 @@ AgentScope Java Tool 官方文档：https://java.agentscope.io/v2/zh/docs/buildi
 
 
 
-✅ 第1篇：简介与环境搭建：从零搭环境，跑通第一个 Agent 对话
+✅ 第 1 篇：简介与环境搭建：从零搭环境，跑通第一个 Agent 对话
 
 
 
-✅ 第2篇：ReActAgent 核心拆解：理解"思考→行动→观察"的推理循环
+✅ 第 2 篇：ReActAgent 核心拆解：理解“思考→行动→观察”的推理循环
 
 
 
-✅ 第3篇：你的第一个 Java Agent：Builder 模式全面解析 + 流式输出 + 思考模式
+✅ 第 3 篇：你的第一个 Java Agent：Builder 模式全面解析 + 流式输出 + 思考模式
 
 
 
-✅ 第4篇：工具系统（Tools）实战 —— 用 @Tool 注解将任意 Java 方法注册为 Agent 工具
+✅ 第 4 篇：工具系统（Tools）实战 —— 用 @Tool 注解将任意 Java 方法注册为 Agent 工具
 
 
 
-🔜 第5篇：结构化输出 —— 让 Agent 直接返回指定的 Java 类型数据
+🔜 第 5 篇：结构化输出 —— 让 Agent 直接返回指定的 Java 类型数据
 
 
 
@@ -580,8 +580,8 @@ AgentScope Java Tool 官方文档：https://java.agentscope.io/v2/zh/docs/buildi
 
 
 
-> 微信公众号: 一灰灰Blog —— 关注获取最新技术文章推送
+> 微信公众号：一灰灰 Blog —— 关注获取最新技术文章推送
 
 
 
-微信公众号: 一灰灰Blog —— 关注获取最新技术文章推送
+微信公众号：一灰灰 Blog —— 关注获取最新技术文章推送

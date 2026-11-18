@@ -15,9 +15,9 @@ tags:
 
 First, let's clarify some concepts before discussing the differences.
 
-*   NLB (Network Load Balancer) is usually deployed before the API gateway, handling traffic routing based on IP. It does not parse the HTTP requests.
-*   ALB (Application Load Balancer) routes requests based on HTTP header or URL and thus can provide richer routing rules. We can choose the load balancer based on routing requirements. For simple services with a smaller scale, one load balancer is enough.
-*   The API gateway performs tasks more on the application level. So it has different responsibilities from the load balancer.
+* NLB (Network Load Balancer) is usually deployed before the API gateway, handling traffic routing based on IP. It does not parse the HTTP requests.
+* ALB (Application Load Balancer) routes requests based on HTTP header or URL and thus can provide richer routing rules. We can choose the load balancer based on routing requirements. For simple services with a smaller scale, one load balancer is enough.
+* The API gateway performs tasks more on the application level. So it has different responsibilities from the load balancer.
 
 The diagram above shows the detail. Often, they are used in combination to provide a scalable and secure architecture for modern web apps.
 

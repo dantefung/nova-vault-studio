@@ -295,8 +295,8 @@ type ActiveAgentForInput =
 
 ## 性能优化策略 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/state-management.html#%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5)
 
-1.   **选择性订阅**: `useAppState(selector)` 通过 `useSyncExternalStore` 实现细粒度重渲染
-2.   **DeepImmutable**: 编译时防止意外修改，无运行时开销
-3.   **批量更新**: `setState` 使用 `Object.assign` 合并部分更新
-4.   **Ref 缓存**: 稳定回调中通过 `ref.current` 读取最新状态（避免回调重建）
-5.   **低延迟通知**: 同步通知订阅者（绕过 React Context 延迟）
+1. **选择性订阅**: `useAppState(selector)` 通过 `useSyncExternalStore` 实现细粒度重渲染
+2. **DeepImmutable**: 编译时防止意外修改，无运行时开销
+3. **批量更新**: `setState` 使用 `Object.assign` 合并部分更新
+4. **Ref 缓存**: 稳定回调中通过 `ref.current` 读取最新状态（避免回调重建）
+5. **低延迟通知**: 同步通知订阅者（绕过 React Context 延迟）

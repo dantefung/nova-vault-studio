@@ -5,7 +5,7 @@ source: "Ahrefs SEO Guide"
 url: "https://ahrefs.com/zh/seo/technical-seo"
 ---
 
-Title: 技术性SEO初学者指南
+Title: 技术性 SEO 初学者指南
 
 URL Source: https://ahrefs.com/zh/seo/technical-seo
 
@@ -18,7 +18,7 @@ Markdown Content:
 
 * * *
 
-第1部分
+第 1 部分
 
 ## 技术性 SEO 基础
 
@@ -36,7 +36,7 @@ Markdown Content:
 
 * * *
 
-第2部分
+第 2 部分
 
 ## 理解抓取
 
@@ -70,9 +70,9 @@ LLMs.txt 是一项自愿性标准，用于告诉大型语言模型 (LLM) 如何�
 
 如果你希望页面对某些用户可访问，但搜索引擎无法访问，那么你可能需要以下三种方案之一：
 
-*   某种登录系统
+* 某种登录系统
 
-*   IP 白名单（仅允许特定 IP 地址访问页面）
+* IP 白名单（仅允许特定 IP 地址访问页面）
 
 这类设置最适合内网、会员专属内容，或用于暂存、测试或开发站点。它允许特定用户访问该页面，但搜索引擎无法访问，也不会对其进行索引。
 
@@ -92,7 +92,7 @@ LLMs.txt 是一项自愿性标准，用于告诉大型语言模型 (LLM) 如何�
 
 * * *
 
-第3部分
+第 3 部分
 
 ## 理解索引
 
@@ -116,7 +116,7 @@ Robots meta 标签是一段 HTML 代码片段，用于告诉搜索引擎如何�
 
 * * *
 
-第4部分
+第 4 部分
 
 ## 技术性 SEO 速胜要素
 
@@ -174,7 +174,7 @@ Robots meta 标签是一段 HTML 代码片段，用于告诉搜索引擎如何�
 
 * * *
 
-第5部分
+第 5 部分
 
 ## 面向 AI 搜索的技术性 SEO
 
@@ -232,7 +232,7 @@ AI 搜索系统可能会引用你域名下并不存在的 URL。你可以在 Ahr
 
 * * *
 
-第6部分
+第 6 部分
 
 ## 其他技术性 SEO 项目
 
@@ -295,7 +295,7 @@ Ahrefs 现在通过 **Site Audit** 中的可视化 hreflang 链接图简化了 h
 
 * * *
 
-第7部分
+第 7 部分
 
 ## 技术性 SEO 工具
 
@@ -311,17 +311,17 @@ Google Search Console（以前叫 Google Webmaster Tools）是 Google 提供的�
 
 [Bing](https://www.bing.com/toolbox/webmaster) 和 [Yandex](https://webmaster.yandex.com/welcome/) 都有各自的版本，Ahrefs 同样如此。[Ahrefs 免费版](https://ahrefs.com/zh/free)可以帮助您提升网站的 SEO 表现。它可以让您：
 
-*   监控网站的 SEO 健康状况。
+* 监控网站的 SEO 健康状况。
 
-*   全面检查 100 多项 SEO 常见问题。
+* 全面检查 100 多项 SEO 常见问题。
 
-*   查看所有反向链接。
+* 查看所有反向链接。
 
-*   查看您获得排名的所有关键词。
+* 查看您获得排名的所有关键词。
 
-*   了解您的页面获取了多少流量。
+* 了解您的页面获取了多少流量。
 
-*   寻找内部链接机会。
+* 寻找内部链接机会。
 
 它是我们针对 Google Search Console 局限性给出的解决方案。
 
@@ -349,23 +349,23 @@ Ahrefs SEO Toolbar 是一款适用于 [Chrome](https://chrome.google.com/webstor
 
 它的免费功能包括：
 
-*   页面 SEO 报告
+* 页面 SEO 报告
 
-*   使用 HTTP 标头的重定向追踪器
+* 使用 HTTP 标头的重定向追踪器
 
-*   失效链接检查器
+* 失效链接检查器
 
-*   链接高亮显示
+* 链接高亮显示
 
-*   SERP 排名
+* SERP 排名
 
 此外，作为 Ahrefs 用户，你还可以获得：
 
-*   你访问的每个网站、页面以及 Google 搜索结果的 SEO 指标
+* 你访问的每个网站、页面以及 Google 搜索结果的 SEO 指标
 
-*   在 SERP 中直接显示关键词指标，例如搜索量和关键词难度
+* 在 SERP 中直接显示关键词指标，例如搜索量和关键词难度
 
-*   SERP 结果导出
+* SERP 结果导出
 
 ### [PageSpeed Insights](https://ahrefs.com/zh/blog/pagespeed-insights/)
 

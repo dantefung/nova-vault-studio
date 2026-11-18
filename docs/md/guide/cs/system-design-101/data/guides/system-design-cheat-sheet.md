@@ -23,10 +23,10 @@ This means we need to ensure a high agreed level of uptime. We often describe th
 
 To achieve high availability, we need to design redundancy in the system. There are several ways to do this:
 
-*   Hot-hot: two instances receive the same input and send the output to the downstream service. In case one side is down, the other side can immediately take over. Since both sides send output to the downstream, the downstream system needs to dedupe.
-*   Hot-warm: two instances receive the same input and only the hot side sends the output to the downstream service. In case the hot side is down, the warm side takes over and starts to send output to the downstream service.
-*   Single-leader cluster: one leader instance receives data from the upstream system and replicates to other replicas.
-*   Leaderless cluster: there is no leader in this type of cluster. Any write will get replicated to other instances. As long as the number of write instances plus the number of read instances are larger than the total number of instances, we should get valid data.
+* Hot-hot: two instances receive the same input and send the output to the downstream service. In case one side is down, the other side can immediately take over. Since both sides send output to the downstream, the downstream system needs to dedupe.
+* Hot-warm: two instances receive the same input and only the hot side sends the output to the downstream service. In case the hot side is down, the warm side takes over and starts to send output to the downstream service.
+* Single-leader cluster: one leader instance receives data from the upstream system and replicates to other replicas.
+* Leaderless cluster: there is no leader in this type of cluster. Any write will get replicated to other instances. As long as the number of write instances plus the number of read instances are larger than the total number of instances, we should get valid data.
 
 ## High Throughput
 

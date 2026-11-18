@@ -3,9 +3,9 @@ title: "Prompt Engineering（100个提示策略）"
 date: "2026-06-11"
 ---
 
-# Prompt Engineering（100个提示策略）
+# Prompt Engineering（100 个提示策略）
 
-> 你缺的不是更好的模型，而是跟 AI 协作的思维框架。100 个提示策略分 10 大场景，让 Claude 从"改错别字"升级到"深度研究、商业方案、内容生产流水线"。
+> 你缺的不是更好的模型，而是跟 AI 协作的思维框架。100 个提示策略分 10 大场景，让 Claude 从“改错别字”升级到“深度研究、商业方案、内容生产流水线”。
 
 ## Key Points
 
@@ -50,9 +50,9 @@ date: "2026-06-11"
 
 ## Related Pages
 
-- [patterns/thinking-models](patterns/thinking-models) — 40种思维模型
-- [patterns/geju-decision打开策略](patterns/geju-decision打开策略) — AI决策打开策略
+- [patterns/thinking-models](patterns/thinking-models) — 40 种思维模型
+- [patterns/geju-decision 打开策略](patterns/geju-decision 打开策略) — AI 决策打开策略
 
 ## Sources
 
-- 微信公众号《Claude 的真正上限：100个提示策略构建你的AI思维系统》(2026-06-11)
+- 微信公众号《Claude 的真正上限：100 个提示策略构建你的 AI 思维系统》(2026-06-11)

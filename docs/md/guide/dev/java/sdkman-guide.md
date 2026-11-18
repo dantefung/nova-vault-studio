@@ -15,31 +15,31 @@ SDKMAN!（Software Development Kit Manager）是一个 Unix-like 系统上的工
 
 ## SDKMAN!
 
-SDKMAN!（Software Development Kit Manager）是一个开源项目和社区组织，专注于为基于JVM的软件开发工具包提供版本管理。它通过命令行接口简化Java、Groovy、Kotlin、Scala等SDK及构建工具（如Maven、Gradle、SBT）的安装与切换流程，现已成为JVM生态中事实上的标准工具。([SDKMAN!][1])
+SDKMAN!（Software Development Kit Manager）是一个开源项目和社区组织，专注于为基于 JVM 的软件开发工具包提供版本管理。它通过命令行接口简化 Java、Groovy、Kotlin、Scala 等 SDK 及构建工具（如 Maven、Gradle、SBT）的安装与切换流程，现已成为 JVM 生态中事实上的标准工具。([SDKMAN!][1])
 
 ### 关键事实
 
 * **前身**：GVM（Groovy enVironment Manager）
 * **主要作者**：Marco Vermeulen
-* **成立时间**：约2012年
+* **成立时间**：约 2012 年
 * **开源许可证**：Apache 2.0
-* **财政托管**：Open Source Collective（通过Open Collective平台）([Open Collective][2])
+* **财政托管**：Open Source Collective（通过 Open Collective 平台）([Open Collective][2])
 
 ### 起源与发展
 
-SDKMAN! 最初由南非开发者 Marco Vermeulen 创建，用于解决在本地开发环境中频繁切换Grails版本的痛点。其设计灵感来自 RVM 与 rbenv，逐步扩展至整个JVM生态。目前该项目托管于 GitHub，由全球开发者共同维护，拥有活跃的CLI、API与社区插件生态。([GitHub][3])
+SDKMAN! 最初由南非开发者 Marco Vermeulen 创建，用于解决在本地开发环境中频繁切换 Grails 版本的痛点。其设计灵感来自 RVM 与 rbenv，逐步扩展至整个 JVM 生态。目前该项目托管于 GitHub，由全球开发者共同维护，拥有活跃的 CLI、API 与社区插件生态。([GitHub][3])
 
 ### 功能与架构
 
-SDKMAN! 采用轻量级 Bash 与 Rust 编写，仅依赖 `curl`、`zip` 与 `unzip`。其客户端通过 REST API 与后端通信，实现SDK的安装、切换和移除。平台提供“Broker API”和“Vendor API”，允许厂商自动发布新版本；用户可通过 `.sdkmanrc` 文件实现项目级SDK固定与自动加载。([SDKMAN!][4])
+SDKMAN! 采用轻量级 Bash 与 Rust 编写，仅依赖 `curl`、`zip` 与 `unzip`。其客户端通过 REST API 与后端通信，实现 SDK 的安装、切换和移除。平台提供“Broker API”和“Vendor API”，允许厂商自动发布新版本；用户可通过 `.sdkmanrc` 文件实现项目级 SDK 固定与自动加载。([SDKMAN!][4])
 
 ### 社区与资助
 
-该项目完全开源并由社区驱动，接受企业与个人捐助。支持者包括 BellSoft、Info Support、SoftwareMill、Azul 等JVM生态厂商。其资金透明管理于Open Collective上，用于基础设施与兼容性测试等支出。([Open Collective][2])
+该项目完全开源并由社区驱动，接受企业与个人捐助。支持者包括 BellSoft、Info Support、SoftwareMill、Azul 等 JVM 生态厂商。其资金透明管理于 Open Collective 上，用于基础设施与兼容性测试等支出。([Open Collective][2])
 
 ### 当前影响
 
-SDKMAN! 已成为Java及其他JVM语言开发者常用的环境管理工具，被视为JDK分发与版本控制的通用接口，支持在 macOS、Linux 及 Windows Subsystem for Linux 等平台运行，持续推动JVM生态的一致性与可移植性。([Medium][5])
+SDKMAN! 已成为 Java 及其他 JVM 语言开发者常用的环境管理工具，被视为 JDK 分发与版本控制的通用接口，支持在 macOS、Linux 及 Windows Subsystem for Linux 等平台运行，持续推动 JVM 生态的一致性与可移植性。([Medium][5])
 
 [1]: https://sdkman.io/?utm_source=chatgpt.com "Home | SDKMAN! the Software Development Kit Manager"
 [2]: https://opencollective.com/sdkman?utm_source=chatgpt.com "SDKMAN! - Open Collective"

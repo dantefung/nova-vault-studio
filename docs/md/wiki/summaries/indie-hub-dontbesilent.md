@@ -38,4 +38,4 @@ dontbesilent 深度使用 Codex 的核心在于四层工作体系：任务层完
 
 ## 关联概念
 
-[[Codex]] [[Skill治理]] [[知识真源]] [[Agent组织]] [[递归改进]] [[SOURCE_OF_TRUTH]] [[dontbesilent]]
+[[Codex]] [[Skill 治理]] [[知识真源]] [[Agent 组织]] [[递归改进]] [[SOURCE_OF_TRUTH]] [[dontbesilent]]

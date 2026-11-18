@@ -139,14 +139,14 @@ GPT can assist with searching, decomposing, and integrating — a natural enhanc
 
 ## **6. Glue Coding vs Traditional Development**
 
-| Item                         | Traditional Development | Glue Coding           |
+| Item | Traditional Development | Glue Coding |
 | ---------------------------- | ----------------------- | --------------------- |
-| How features are implemented | Write yourself          | Reuse open source     |
-| Workload                     | Large                   | Much smaller          |
-| Success rate                 | Uncertain               | High                  |
-| Speed                        | Slow                    | Extremely fast        |
-| Error rate                   | Prone to pitfalls       | Uses mature solutions |
-| Focus                        | “Invent wheels”         | “Combine wheels”      |
+| How features are implemented | Write yourself | Reuse open source |
+| Workload | Large | Much smaller |
+| Success rate | Uncertain | High |
+| Speed | Slow | Extremely fast |
+| Error rate | Prone to pitfalls | Uses mature solutions |
+| Focus | “Invent wheels” | “Combine wheels” |
 
 ## **7. Typical Application Scenarios for Glue Coding**
 

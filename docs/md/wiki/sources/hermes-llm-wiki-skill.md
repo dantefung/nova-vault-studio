@@ -14,7 +14,7 @@ Published Time: Wed, 12 Aug 2026 00:11:06 GMT
 Markdown Content:
 Karpathy's LLM Wiki: build/query interlinked markdown KB.
 
-|  |  |
+| | |
 | --- | --- |
 | Source | Bundled (installed by default) |
 | Path | `skills/research/llm-wiki` |
@@ -43,11 +43,11 @@ Unlike traditional RAG (which rediscovers knowledge from scratch per query), the
 
 Use this skill when the user:
 
-*   Asks to create, build, or start a wiki or knowledge base
-*   Asks to ingest, add, or process a source into their wiki
-*   Asks a question and an existing wiki is present at the configured path
-*   Asks to lint, audit, or health-check their wiki
-*   References their wiki, knowledge base, or "notes" in a research context
+* Asks to create, build, or start a wiki or knowledge base
+* Asks to ingest, add, or process a source into their wiki
+* Asks a question and an existing wiki is present at the configured path
+* Asks to lint, audit, or health-check their wiki
+* References their wiki, knowledge base, or "notes" in a research context
 
 ## Wiki Location[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#wiki-location "Direct link to Wiki Location")
 
@@ -75,10 +75,10 @@ When the user has an existing wiki, **always orient yourself before doing anythi
 
 Only after orientation should you ingest, query, or lint. This prevents:
 
-*   Creating duplicate pages for entities that already exist
-*   Missing cross-references to existing content
-*   Contradicting the schema's conventions
-*   Repeating work already logged
+* Creating duplicate pages for entities that already exist
+* Missing cross-references to existing content
+* Contradicting the schema's conventions
+* Repeating work already logged
 
 For large wikis (100+ pages), also run a quick `search_files` for the topic at hand before creating anything new.
 
@@ -86,19 +86,19 @@ For large wikis (100+ pages), also run a quick `search_files` for the topic at h
 
 When the user asks to create or start a wiki:
 
-1.   Determine the wiki path (from `$WIKI_PATH` env var, or ask the user; default `~/wiki`)
-2.   Create the directory structure above
-3.   Ask the user what domain the wiki covers — be specific
-4.   Write `SCHEMA.md` customized to the domain (see template below)
-5.   Write initial `index.md` with sectioned header
-6.   Write initial `log.md` with creation entry
-7.   Confirm the wiki is ready and suggest first sources to ingest
+1. Determine the wiki path (from `$WIKI_PATH` env var, or ask the user; default `~/wiki`)
+2. Create the directory structure above
+3. Ask the user what domain the wiki covers — be specific
+4. Write `SCHEMA.md` customized to the domain (see template below)
+5. Write initial `index.md` with sectioned header
+6. Write initial `log.md` with creation entry
+7. Confirm the wiki is ready and suggest first sources to ingest
 
 ### SCHEMA.md Template[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#schemamd-template "Direct link to SCHEMA.md Template")
 
 Adapt to the user's domain. The schema constrains agent behavior and ensures consistency:
 
-`# Wiki Schema## Domain[What this wiki covers — e.g., "AI/ML research", "personal health", "startup intelligence"]## Conventions- File names: lowercase, hyphens, no spaces (e.g., `transformer-architecture.md`)- Every wiki page starts with YAML frontmatter (see below)- Use `[[wikilinks]]` to link between pages (minimum 2 outbound links per page)- When updating a page, always bump the `updated` date- Every new page must be added to `index.md` under the correct section- Every action must be appended to `log.md`- **Provenance markers:** On pages that synthesize 3+ sources, append `^[raw/articles/source-file.md]`  at the end of paragraphs whose claims come from a specific source. This lets a reader trace each  claim back without re-reading the whole raw file. Optional on single-source pages where the  `sources:` frontmatter is enough.## Frontmatter  ```yaml  ---  title: Page Title  created: YYYY-MM-DD  updated: YYYY-MM-DD  type: entity | concept | comparison | query | summary  tags: [from taxonomy below]  sources: [raw/articles/source-name.md]  # Optional quality signals:  confidence: high | medium | low        # how well-supported the claims are  contested: true                        # set when the page has unresolved contradictions  contradictions: [other-page-slug]      # pages this one conflicts with  ---`
+`# Wiki Schema## Domain[What this wiki covers — e.g., "AI/ML research", "personal health", "startup intelligence"]## Conventions- File names: lowercase, hyphens, no spaces (e.g., `transformer-architecture.md`)- Every wiki page starts with YAML frontmatter (see below)- Use `[[wikilinks]]` to link between pages (minimum 2 outbound links per page)- When updating a page, always bump the `updated` date- Every new page must be added to `index.md` under the correct section- Every action must be appended to `log.md`- **Provenance markers:** On pages that synthesize 3+ sources, append `^[raw/articles/source-file.md]`  at the end of paragraphs whose claims come from a specific source. This lets a reader trace each  claim back without re-reading the whole raw file. Optional on single-source pages where the  `sources:` frontmatter is enough.## Frontmatter  ```yaml --- title: Page Title created: YYYY-MM-DD updated: YYYY-MM-DD type: entity | concept | comparison | query | summary tags: [from taxonomy below] sources: [raw/articles/source-name.md] # Optional quality signals: confidence: high | medium | low # how well-supported the claims are contested: true # set when the page has unresolved contradictions contradictions: [other-page-slug] # pages this one conflicts with ---`
 
 `confidence` and `contested` are optional but recommended for opinion-heavy or fast-moving topics. Lint surfaces `contested: true` and `confidence: low` pages for review so weak claims don't silently harden into accepted wiki fact.
 
@@ -120,56 +120,56 @@ The `sha256:` lets a future re-ingest of the same URL skip processing when conte
 
 Example for AI/ML:
 
-*   Models: model, architecture, benchmark, training
-*   People/Orgs: person, company, lab, open-source
-*   Techniques: optimization, fine-tuning, inference, alignment, data
-*   Meta: comparison, timeline, controversy, prediction
+* Models: model, architecture, benchmark, training
+* People/Orgs: person, company, lab, open-source
+* Techniques: optimization, fine-tuning, inference, alignment, data
+* Meta: comparison, timeline, controversy, prediction
 
 Rule: every tag on a page must appear in this taxonomy. If a new tag is needed, add it here first, then use it. This prevents tag sprawl.
 
 ## Page Thresholds[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#page-thresholds "Direct link to Page Thresholds")
 
-*   **Create a page** when an entity/concept appears in 2+ sources OR is central to one source
-*   **Add to existing page** when a source mentions something already covered
-*   **DON'T create a page** for passing mentions, minor details, or things outside the domain
-*   **Split a page** when it exceeds ~200 lines — break into sub-topics with cross-links
-*   **Archive a page** when its content is fully superseded — move to `_archive/`, remove from index
+* **Create a page** when an entity/concept appears in 2+ sources OR is central to one source
+* **Add to existing page** when a source mentions something already covered
+* **DON'T create a page** for passing mentions, minor details, or things outside the domain
+* **Split a page** when it exceeds ~200 lines — break into sub-topics with cross-links
+* **Archive a page** when its content is fully superseded — move to `_archive/`, remove from index
 
 ## Entity Pages[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#entity-pages "Direct link to Entity Pages")
 
 One page per notable entity. Include:
 
-*   Overview / what it is
-*   Key facts and dates
-*   Relationships to other entities ([[wikilinks]])
-*   Source references
+* Overview / what it is
+* Key facts and dates
+* Relationships to other entities ([[wikilinks]])
+* Source references
 
 ## Concept Pages[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#concept-pages "Direct link to Concept Pages")
 
 One page per concept or topic. Include:
 
-*   Definition / explanation
-*   Current state of knowledge
-*   Open questions or debates
-*   Related concepts ([[wikilinks]])
+* Definition / explanation
+* Current state of knowledge
+* Open questions or debates
+* Related concepts ([[wikilinks]])
 
 ## Comparison Pages[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#comparison-pages "Direct link to Comparison Pages")
 
 Side-by-side analyses. Include:
 
-*   What is being compared and why
-*   Dimensions of comparison (table format preferred)
-*   Verdict or synthesis
-*   Sources
+* What is being compared and why
+* Dimensions of comparison (table format preferred)
+* Verdict or synthesis
+* Sources
 
 ## Update Policy[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#update-policy "Direct link to Update Policy")
 
 When new information conflicts with existing content:
 
-1.   Check the dates — newer sources generally supersede older ones
-2.   If genuinely contradictory, note both positions with dates and sources
-3.   Mark the contradiction in frontmatter: `contradictions: [page-name]`
-4.   Flag for user review in the lint report
+1. Check the dates — newer sources generally supersede older ones
+2. If genuinely contradictory, note both positions with dates and sources
+3. Mark the contradiction in frontmatter: `contradictions: [page-name]`
+4. Flag for user review in the lint report
 
 `### index.md TemplateThe index is sectioned by type. Each entry is one line: wikilink + summary.```markdown# Wiki Index> Content catalog. Every wiki page listed under its type with a one-line summary.> Read this first to find relevant pages for any query.> Last updated: YYYY-MM-DD | Total pages: N## Entities<!-- Alphabetical within section -->## Concepts## Comparisons## Queries`
 
@@ -187,11 +187,11 @@ When the user provides a source (URL, file, paste), integrate it into the wiki:
 
 ① **Capture the raw source:**
 
-*   URL → use `web_extract` to get markdown, save to `raw/articles/`
-*   PDF → use `web_extract` (handles PDFs), save to `raw/papers/`
-*   Pasted text → save to appropriate `raw/` subdirectory
-*   Name the file descriptively: `raw/articles/karpathy-llm-wiki-2026.md`
-*   **Add raw frontmatter** (`source_url`, `ingested`, `sha256` of the body). On re-ingest of the same URL: recompute the sha256, compare to the stored value — skip if identical, flag drift and update if different. This is cheap enough to do on every re-ingest and catches silent source changes.
+* URL → use `web_extract` to get markdown, save to `raw/articles/`
+* PDF → use `web_extract` (handles PDFs), save to `raw/papers/`
+* Pasted text → save to appropriate `raw/` subdirectory
+* Name the file descriptively: `raw/articles/karpathy-llm-wiki-2026.md`
+* **Add raw frontmatter** (`source_url`, `ingested`, `sha256` of the body). On re-ingest of the same URL: recompute the sha256, compare to the stored value — skip if identical, flag drift and update if different. This is cheap enough to do on every re-ingest and catches silent source changes.
 
 ② **Discuss takeaways** with the user — what's interesting, what matters for the domain. (Skip this in automated/cron contexts — proceed directly.)
 
@@ -199,19 +199,19 @@ When the user provides a source (URL, file, paste), integrate it into the wiki:
 
 ④ **Write or update wiki pages:**
 
-*   **New entities/concepts:** Create pages only if they meet the Page Thresholds in SCHEMA.md (2+ source mentions, or central to one source)
-*   **Existing pages:** Add new information, update facts, bump `updated` date. When new info contradicts existing content, follow the Update Policy.
-*   **Cross-reference:** Every new or updated page must link to at least 2 other pages via `[[wikilinks]]`. Check that existing pages link back.
-*   **Tags:** Only use tags from the taxonomy in SCHEMA.md
-*   **Provenance:** On pages synthesizing 3+ sources, append `^[raw/articles/source.md]` markers to paragraphs whose claims trace to a specific source.
-*   **Confidence:** For opinion-heavy, fast-moving, or single-source claims, set `confidence: medium` or `low` in frontmatter. Don't mark `high` unless the claim is well-supported across multiple sources.
+* **New entities/concepts:** Create pages only if they meet the Page Thresholds in SCHEMA.md (2+ source mentions, or central to one source)
+* **Existing pages:** Add new information, update facts, bump `updated` date. When new info contradicts existing content, follow the Update Policy.
+* **Cross-reference:** Every new or updated page must link to at least 2 other pages via `[[wikilinks]]`. Check that existing pages link back.
+* **Tags:** Only use tags from the taxonomy in SCHEMA.md
+* **Provenance:** On pages synthesizing 3+ sources, append `^[raw/articles/source.md]` markers to paragraphs whose claims trace to a specific source.
+* **Confidence:** For opinion-heavy, fast-moving, or single-source claims, set `confidence: medium` or `low` in frontmatter. Don't mark `high` unless the claim is well-supported across multiple sources.
 
 ⑤ **Update navigation:**
 
-*   Add new pages to `index.md` under the correct section, alphabetically
-*   Update the "Total pages" count and "Last updated" date in index header
-*   Append to `log.md`: `## [YYYY-MM-DD] ingest | Source Title`
-*   List every file created or updated in the log entry
+* Add new pages to `index.md` under the correct section, alphabetically
+* Update the "Total pages" count and "Last updated" date in index header
+* Append to `log.md`: `## [YYYY-MM-DD] ingest | Source Title`
+* List every file created or updated in the log entry
 
 ⑥ **Report what changed** — list every file created or updated to the user.
 
@@ -265,37 +265,37 @@ When the user asks to lint, health-check, or audit the wiki:
 
 When ingesting multiple sources at once, batch the updates:
 
-1.   Read all sources first
-2.   Identify all entities and concepts across all sources
-3.   Check existing pages for all of them (one search pass, not N)
-4.   Create/update pages in one pass (avoids redundant updates)
-5.   Update index.md once at the end
-6.   Write a single log entry covering the batch
+1. Read all sources first
+2. Identify all entities and concepts across all sources
+3. Check existing pages for all of them (one search pass, not N)
+4. Create/update pages in one pass (avoids redundant updates)
+5. Update index.md once at the end
+6. Write a single log entry covering the batch
 
 ### Archiving[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#archiving "Direct link to Archiving")
 
 When content is fully superseded or the domain scope changes:
 
-1.   Create `_archive/` directory if it doesn't exist
-2.   Move the page to `_archive/` with its original path (e.g., `_archive/entities/old-page.md`)
-3.   Remove from `index.md`
-4.   Update any pages that linked to it — replace wikilink with plain text + "(archived)"
-5.   Log the archive action
+1. Create `_archive/` directory if it doesn't exist
+2. Move the page to `_archive/` with its original path (e.g., `_archive/entities/old-page.md`)
+3. Remove from `index.md`
+4. Update any pages that linked to it — replace wikilink with plain text + "(archived)"
+5. Log the archive action
 
 ### Obsidian Integration[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#obsidian-integration "Direct link to Obsidian Integration")
 
 The wiki directory works as an Obsidian vault out of the box:
 
-*   `[[wikilinks]]` render as clickable links
-*   Graph View visualizes the knowledge network
-*   YAML frontmatter powers Dataview queries
-*   The `raw/assets/` folder holds images referenced via `![[image.png]]`
+* `[[wikilinks]]` render as clickable links
+* Graph View visualizes the knowledge network
+* YAML frontmatter powers Dataview queries
+* The `raw/assets/` folder holds images referenced via `![[image.png]]`
 
 For best results:
 
-*   Set Obsidian's attachment folder to `raw/assets/`
-*   Enable "Wikilinks" in Obsidian settings (usually on by default)
-*   Install Dataview plugin for queries like `TABLE tags FROM "entities" WHERE contains(tags, "company")`
+* Set Obsidian's attachment folder to `raw/assets/`
+* Enable "Wikilinks" in Obsidian settings (usually on by default)
+* Install Dataview plugin for queries like `TABLE tags FROM "entities" WHERE contains(tags, "company")`
 
 If using the Obsidian skill alongside this one, set `OBSIDIAN_VAULT_PATH` to the same directory as the wiki path.
 
@@ -317,16 +317,16 @@ This lets the agent write to `~/wiki` on a server while you browse the same vaul
 
 ## Pitfalls[​](https://hermes-agent.nousresearch.com/docs/user-guide/skills/bundled/research/research-llm-wiki#pitfalls "Direct link to Pitfalls")
 
-*   **Never modify files in `raw/`** — sources are immutable. Corrections go in wiki pages.
-*   **Always orient first** — read SCHEMA + index + recent log before any operation in a new session. Skipping this causes duplicates and missed cross-references.
-*   **Always update index.md and log.md** — skipping this makes the wiki degrade. These are the navigational backbone.
-*   **Don't create pages for passing mentions** — follow the Page Thresholds in SCHEMA.md. A name appearing once in a footnote doesn't warrant an entity page.
-*   **Don't create pages without cross-references** — isolated pages are invisible. Every page must link to at least 2 other pages.
-*   **Frontmatter is required** — it enables search, filtering, and staleness detection.
-*   **Tags must come from the taxonomy** — freeform tags decay into noise. Add new tags to SCHEMA.md first, then use them.
-*   **Keep pages scannable** — a wiki page should be readable in 30 seconds. Split pages over 200 lines. Move detailed analysis to dedicated deep-dive pages.
-*   **Ask before mass-updating** — if an ingest would touch 10+ existing pages, confirm the scope with the user first.
-*   **Rotate the log** — when log.md exceeds 500 entries, rename it `log-YYYY.md` and start fresh. The agent should check log size during lint.
-*   **Handle contradictions explicitly** — don't silently overwrite. Note both claims with dates, mark in frontmatter, flag for user review.
+* **Never modify files in `raw/`** — sources are immutable. Corrections go in wiki pages.
+* **Always orient first** — read SCHEMA + index + recent log before any operation in a new session. Skipping this causes duplicates and missed cross-references.
+* **Always update index.md and log.md** — skipping this makes the wiki degrade. These are the navigational backbone.
+* **Don't create pages for passing mentions** — follow the Page Thresholds in SCHEMA.md. A name appearing once in a footnote doesn't warrant an entity page.
+* **Don't create pages without cross-references** — isolated pages are invisible. Every page must link to at least 2 other pages.
+* **Frontmatter is required** — it enables search, filtering, and staleness detection.
+* **Tags must come from the taxonomy** — freeform tags decay into noise. Add new tags to SCHEMA.md first, then use them.
+* **Keep pages scannable** — a wiki page should be readable in 30 seconds. Split pages over 200 lines. Move detailed analysis to dedicated deep-dive pages.
+* **Ask before mass-updating** — if an ingest would touch 10+ existing pages, confirm the scope with the user first.
+* **Rotate the log** — when log.md exceeds 500 entries, rename it `log-YYYY.md` and start fresh. The agent should check log size during lint.
+* **Handle contradictions explicitly** — don't silently overwrite. Note both claims with dates, mark in frontmatter, flag for user review.
 
 [llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) is a Node.js CLI that compiles sources into a concept wiki with the same Karpathy inspiration. It's Obsidian-compatible, so users who want a scheduled/CLI-driven compile pipeline can point it at the same vault this skill maintains. Trade-offs: it owns page generation (replaces the agent's judgment on page creation) and is tuned for small corpora. Use this skill when you want agent-in-the-loop curation; use llmwiki when you want batch compile of a source directory.

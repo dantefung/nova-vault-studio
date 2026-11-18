@@ -19,7 +19,7 @@ url: ""
 
 **哥飞提炼出两个关键信号：**
 
-1. **外链数量存在阈值**——你不需要比别人多，只需要达到"够进首页"的那条线。Ahrefs 给出的建议是 `ai face swap` 需要约 60-95 个外链就能进首页。
+1. **外链数量存在阈值**——你不需要比别人多，只需要达到“够进首页”的那条线。Ahrefs 给出的建议是 `ai face swap` 需要约 60-95 个外链就能进首页。
 2. **KD 看的是竞争者的质量，但它不预测你的天花板**——就算 KD 看起来吓人，花三五个月时间慢慢做，拿下首页完全可能。进入首页之后，真正决定排前三的是产品力。
 
 关键词密度也是关键点：aifaceswap.io 和 faceswapper.ai 两个站的密度其实都不高，如果你做一个外链几百个、提供免费使用、密度还比他们高的站，就有机会后来居上。
@@ -42,20 +42,20 @@ url: ""
 
 ### 各平台的 KD 算法完全不同
 
-- **Ahrefs 的 KD**：只考虑了第一页的网页结果，最重要的一个指标是"首页数量"——前 10 名中有多少是整个网站的首页在参与竞争。
+- **Ahrefs 的 KD**：只考虑了第一页的网页结果，最重要的一个指标是“首页数量”——前 10 名中有多少是整个网站的首页在参与竞争。
 - **Semrush 的 KD**：算法更综合，会考虑到关键词搜索量等因素。
 
 ### KGR 和 KD 必须结合看
 
 KGR 公式没有考虑到谷歌搜索第一页的首页数量——如果一个词搜索量大、KGR 低，但前 10 名有七八个都是大站首页，那你短期也拿不到量。而 **KD 恰好弥补了这个维度**——它衡量的是竞争者的质量，尤其是首页数量。
 
-所以两套指标必须同时用：KGR 告诉你"竞争者数量"层面的机会，KD 告诉你"竞争者质量"层面的壁垒。
+所以两套指标必须同时用：KGR 告诉你“竞争者数量”层面的机会，KD 告诉你“竞争者质量”层面的壁垒。
 
 ### 哥飞版 KD 计算器
 
 2026 年 6 月 10 日，哥飞自己动手做了一个 KD 计算器，融合了社群多年积累的实战经验，迅速迭代到 V4 版本，支持导出 Markdown 给 AI 分析，并开放了 API 和 MCP 调用。
 
-哥飞的原话是：这个 KD 是哥飞版，肯定跟 Ahrefs、Similarweb、Semrush 等平台的不一样，"按照我们的逻辑来判断"。
+哥飞的原话是：这个 KD 是哥飞版，肯定跟 Ahrefs、Similarweb、Semrush 等平台的不一样，“按照我们的逻辑来判断”。
 
 ---
 
@@ -65,7 +65,7 @@ KGR 公式没有考虑到谷歌搜索第一页的首页数量——如果一个�
 
 这个买 Moz 的 API 拿到 DA/PA 数据、再包装成工具卖给 SEO 从业者的网站，月访问量 176K，dapacheckerpro.com 月访问量 75K，两个站同时做广告和订阅变现。
 
-**你每天在用的 SEO 指标，本身就是一门生意。** 光是"da pa checker"这个词，一个月的搜索量就有 36 万。
+**你每天在用的 SEO 指标，本身就是一门生意。** 光是“da pa checker”这个词，一个月的搜索量就有 36 万。
 
 ### 产品矩阵背后
 
@@ -75,13 +75,13 @@ dapachecker 背后的母公司旗下有 calculators.tech、prepostseo.com（月�
 
 > 姊妹篇：
 > - [指标概念清单](./keyword-metrics-overview.md) — 四层级指标体系
-> - [工具操作流程](./keyword-tools-operation-guide.md) — 9渠道+数据验证
+> - [工具操作流程](./keyword-tools-operation-guide.md) — 9 渠道+数据验证
 
 ## 参考来源
 
-- [【2024.7.20案例拆解】aifaceswap.io](https://new.web.cafe/tutorial/detail/hx8rfu0fgm)
-- [可以开始考虑每天搜索量10万以内，KD50到70的关键词了](https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9)
-- [2025-02-10 Geometry Dash案例点燃群聊，SEO耐心与执行再成焦点](https://new.web.cafe/tutorial/detail/xx4ipk8fo2)
-- [2024-08-07 describepicture.org案例深度拆解与社群激辩](https://new.web.cafe/tutorial/detail/dao2kiibt9)
-- [2026-06-10 社群快报：哥飞KD计算器发布](https://new.web.cafe/tutorial/detail/ez94aopq5q)
-- [【2025.9.2案例拆解】standarddeviationcalculator.io dapachecker.org invisibletext.net](https://new.web.cafe/tutorial/detail/gd9p13963k)
+- [【2024.7.20 案例拆解】aifaceswap.io](https://new.web.cafe/tutorial/detail/hx8rfu0fgm)
+- [可以开始考虑每天搜索量 10 万以内，KD50 到 70 的关键词了](https://new.web.cafe/tutorial/detail/7541571bd09c4c98a708a988d3406ff9)
+- [2025-02-10 Geometry Dash 案例点燃群聊，SEO 耐心与执行再成焦点](https://new.web.cafe/tutorial/detail/xx4ipk8fo2)
+- [2024-08-07 describepicture.org 案例深度拆解与社群激辩](https://new.web.cafe/tutorial/detail/dao2kiibt9)
+- [2026-06-10 社群快报：哥飞 KD 计算器发布](https://new.web.cafe/tutorial/detail/ez94aopq5q)
+- [【2025.9.2 案例拆解】standarddeviationcalculator.io dapachecker.org invisibletext.net](https://new.web.cafe/tutorial/detail/gd9p13963k)

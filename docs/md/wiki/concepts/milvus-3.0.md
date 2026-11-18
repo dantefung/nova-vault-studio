@@ -6,7 +6,7 @@ source: "微信公众号 (运维有术)"
 
 # Milvus 3.0
 
-> Milvus 3.0 是向量数据库 Milvus 的 GA 版本，核心架构从"云原生 + 存算分离"迁移到"lake-native（湖原生）"，底层用 Storage V3 / Loon manifest 列存格式替换了 2.x 的存储抽象。
+> Milvus 3.0 是向量数据库 Milvus 的 GA 版本，核心架构从“云原生 + 存算分离”迁移到“lake-native（湖原生）"，底层用 Storage V3 / Loon manifest 列存格式替换了 2.x 的存储抽象。
 
 ## Key Points
 
@@ -37,7 +37,7 @@ Milvus 2.x 的核心卖点是云原生 + 存算分离，但边界在 2.6 已摸�
 
 ## Context
 
-本文来自"运维有术"公众号，是对 Milvus 3.0.0 GA 的深度技术解读，基于官方 release notes、本地源码和 LF AI & Data 博客交叉整理。作者强调此次发布"关键不是功能数量，而是把 beta 挖的坑填上"。
+本文来自”运维有术“公众号，是对 Milvus 3.0.0 GA 的深度技术解读，基于官方 release notes、本地源码和 LF AI & Data 博客交叉整理。作者强调此次发布”关键不是功能数量，而是把 beta 挖的坑填上“。
 
 ## Related Pages
 
@@ -46,4 +46,4 @@ Milvus 2.x 的核心卖点是云原生 + 存算分离，但边界在 2.6 已摸�
 
 ## Sources
 
-- Article: Milvus 3.0 官宣开源：4 个真改工作流的能力，剩下 16 项要看场景再上 (运维有术, 2026-08-05) → `sources/milvus-3.0-open-source.md`
+- Article: Milvus 3.0 官宣开源：4 个真改工作流的能力，剩下 16 项要看场景再上 (运维有术，2026-08-05) → `sources/milvus-3.0-open-source.md`

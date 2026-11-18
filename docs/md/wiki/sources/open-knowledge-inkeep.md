@@ -7,7 +7,7 @@ url: "https://github.com/inkeep/open-knowledge"
 
 # OpenKnowledge：Inkeep 开源的 AI 原生 Markdown IDE 与 LLM Wiki
 
-> Inkeep（AI 知识管理平台公司）开源了 OpenKnowledge —— 一个"Beautiful, AI-native markdown IDE and LLM wiki"项目，定位为面向个人和团队的 AI 原生知识管理工具。
+> Inkeep（AI 知识管理平台公司）开源了 OpenKnowledge —— 一个“Beautiful, AI-native markdown IDE and LLM wiki”项目，定位为面向个人和团队的 AI 原生知识管理工具。
 
 <!-- more -->
 
@@ -42,9 +42,9 @@ OpenKnowledge 由 **Inkeep** 开源。Inkeep 是一家专注 AI 驱动的企业�
 
 ## 与 LLM Wiki 概念的关系
 
-Topic 中的 `llm-wiki-karpathy` 表明该项目直接关联 Karpathy 提出的 **LLM Wiki** 概念——将 LLM 从"回答问题"转变为"维护一个可迭代的知识库"。
+Topic 中的 `llm-wiki-karpathy` 表明该项目直接关联 Karpathy 提出的 **LLM Wiki** 概念——将 LLM 从“回答问题”转变为“维护一个可迭代的知识库”。
 
-OpenKnowledge 的"AI 原生"方向意味着：知识不是静态地写在那里，而是由 Agent 帮助维护、关联和演化。这与本站（Nova Vault Studio）的 LLM Wiki 实践方向一致——知识库不是最终产品，而是持续运行的知识基础设施。
+OpenKnowledge 的“AI 原生”方向意味着：知识不是静态地写在那里，而是由 Agent 帮助维护、关联和演化。这与本站（Nova Vault Studio）的 LLM Wiki 实践方向一致——知识库不是最终产品，而是持续运行的知识基础设施。
 
 ## 与本站的关系
 

@@ -6,37 +6,37 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/307ZX4doB9hoTP-u6hVDDw"
 ---
 
-# 给项目建Agent知识库，一套完整方法来了！
+# 给项目建 Agent 知识库，一套完整方法来了！
 
-Datawhale干货 作者：王大鹏，Datawhale成员
-
-
-
-Datawhale干货 作者：王大鹏，Datawhale成员
+Datawhale 干货 作者：王大鹏，Datawhale 成员
 
 
 
-Datawhale干货 作者：王大鹏，Datawhale成员
+Datawhale 干货 作者：王大鹏，Datawhale 成员
 
 
 
-Datawhale干货 作者：王大鹏，Datawhale成员
+Datawhale 干货 作者：王大鹏，Datawhale 成员
 
 
 
-Datawhale干货 作者：王大鹏，Datawhale成员
+Datawhale 干货 作者：王大鹏，Datawhale 成员
 
 
 
-Datawhale干货
+Datawhale 干货 作者：王大鹏，Datawhale 成员
 
 
 
-作者：王大鹏，Datawhale成员
+Datawhale 干货
 
 
 
-作者：王大鹏，Datawhale成员
+作者：王大鹏，Datawhale 成员
+
+
+
+作者：王大鹏，Datawhale 成员
 
 
 
@@ -60,7 +60,7 @@ Datawhale干货
 
 
 
-01先确定需要支持什么判断
+01 先确定需要支持什么判断
 
 
 
@@ -108,7 +108,7 @@ Datawhale干货
 
 
 
-02不熟悉项目，先整理它正常时怎么工作
+02 不熟悉项目，先整理它正常时怎么工作
 
 
 
@@ -156,7 +156,7 @@ Datawhale干货
 
 
 
-03把“文档这样写”变成“有依据的判断”
+03 把“文档这样写”变成“有依据的判断”
 
 
 
@@ -200,7 +200,7 @@ Datawhale干货
 
 
 
-04让 Agent 找得到，也知道怎样使用
+04 让 Agent 找得到，也知道怎样使用
 
 
 
@@ -248,7 +248,7 @@ Datawhale干货
 
 
 
-05知识要分开保存，才能按不同速度更新
+05 知识要分开保存，才能按不同速度更新
 
 
 
@@ -288,7 +288,7 @@ Datawhale干货
 
 
 
-06用新问题检查旧知识
+06 用新问题检查旧知识
 
 
 
@@ -320,4 +320,3 @@ Datawhale干货
 
 
 
-一起“点赞”三连↓

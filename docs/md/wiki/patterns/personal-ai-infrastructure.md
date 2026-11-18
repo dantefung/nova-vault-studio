@@ -3,7 +3,7 @@ title: "Personal AI Infrastructure（个人AI基础设施）"
 date: "2026-06-11"
 ---
 
-# Personal AI Infrastructure（个人AI基础设施）
+# Personal AI Infrastructure（个人 AI 基础设施）
 
 > 一份本地知识库 + 一台常驻 Mac + 三个入口 + N 个 Skill。真正的杠杆，是让 AI 够得着你的全部数据。
 
@@ -29,7 +29,7 @@ date: "2026-06-11"
 > Skill = 工具放大器
 > Agent = 把两者拼起来的胶水
 
-任何一个单拎出来都不够。只有三件事同时成立，AI 才真正变成"长期能帮你"的东西。
+任何一个单拎出来都不够。只有三件事同时成立，AI 才真正变成“长期能帮你”的东西。
 
 ## 三个入口
 
@@ -57,7 +57,7 @@ futu skill × vault：
 - grep vault 里股票大作手回忆录.md，把利弗莫尔准则当作判断框架
 - 翻出之前对 AAPL 的判断笔记，逐条对照
 
-**核心**：利弗莫尔不在富途 App 里，我的持仓不在《股票大作手回忆录》里。这两件事只能在"本地知识库 × Skill"的组合里相遇。
+**核心**：利弗莫尔不在富途 App 里，我的持仓不在《股票大作手回忆录》里。这两件事只能在“本地知识库 × Skill”的组合里相遇。
 
 ### Case 2：每日推送
 
@@ -84,7 +84,7 @@ futu skill × vault：
 ## Related Pages
 
 - [concepts/llm-wiki](concepts/llm-wiki) — LLM Wiki 知识库模式
-- [patterns/ai-knowledge-workflow](patterns/ai-knowledge-workflow) — AI知识管理工作流
+- [patterns/ai-knowledge-workflow](patterns/ai-knowledge-workflow) — AI 知识管理工作流
 
 ## Sources
 

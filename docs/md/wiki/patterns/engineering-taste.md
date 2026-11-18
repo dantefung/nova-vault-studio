@@ -9,7 +9,7 @@ date: "2026-06-11"
 
 ## Key Points
 
-- **核心问题**：LLM coding agent 常犯的毛病——为"假想的未来需求"过度工程化、重构无关代码却忽略兼容性风险
+- **核心问题**：LLM coding agent 常犯的毛病——为“假想的未来需求”过度工程化、重构无关代码却忽略兼容性风险
 - **四大原则**：Good Taste + Never Break Userspace + Pragmatism + Simplicity Obsession
 - **输出模式**：Spec Judgment + Plan Judgment + Implementation Guidance + Refactoring Guidance + TDD Guidance + Code Review Output
 

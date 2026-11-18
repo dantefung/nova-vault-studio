@@ -6,7 +6,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/eiYf_IU6XjYAWcFYExdLSw"
 ---
 
-# 同样一份资料，国内卖19，国外卖9刀？ 这个副业太适合普通人了
+# 同样一份资料，国内卖 19，国外卖 9 刀？ 这个副业太适合普通人了
 
 最近一直在看数字产品这块。
 
@@ -186,7 +186,7 @@ Payhip
 
 它现在是月费制。
 
-22美元/月起。
+22 美元/月起。
 
 平台费是 0%。
 
@@ -272,6 +272,5 @@ Workflow
 
 会省事很多。
 
-扫码入群一起学习交流，可关注先加我微信
 
 ![image](images/sell-digital-products/001.webp)

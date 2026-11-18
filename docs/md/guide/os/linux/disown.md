@@ -127,11 +127,11 @@ python BreakReminder.py > /dev/null 2>&1 & disown
 
 解释：
 
-| 部分          | 含义          |
+| 部分 | 含义 |
 | ----------- | ----------- |
-| `>`         | 重定向标准输出     |
-| `2>&1`      | 错误输出合并到标准输出 |
-| `/dev/null` | 丢弃所有输出      |
+| `>` | 重定向标准输出 |
+| `2>&1` | 错误输出合并到标准输出 |
+| `/dev/null` | 丢弃所有输出 |
 
 这样：
 
@@ -157,12 +157,12 @@ pgrep -fl BreakReminder
 
 # 八、总结
 
-| 命令                    | 终端关闭后是否存活 |
+| 命令 | 终端关闭后是否存活 |
 | --------------------- | --------- |
-| `python xxx`          | ❌ 不会      |
-| `python xxx &`        | ❌ 不会      |
-| `python xxx & disown` | ✅ 会       |
-| `nohup python xxx &`  | ✅ 会       |
+| `python xxx` | ❌ 不会 |
+| `python xxx &` | ❌ 不会 |
+| `python xxx & disown` | ✅ 会 |
+| `nohup python xxx &` | ✅ 会 |
 
 ---
 

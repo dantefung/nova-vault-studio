@@ -7,7 +7,7 @@ url: "/columns/vibe-coding/02-vibe-rules"
 
 # Vibe 开发基础规则
 
-> 本篇整合自两篇原始文档：[references/01-01-vibe-rules/01-01-vibe通用规则.md](references/01-01-vibe-rules/01-01-vibe通用规则.md) + [references/01-01-vibe-rules/01-02-基础开发规则.md](references/01-01-vibe-rules/01-02-基础开发规则.md)
+> 本篇整合自两篇原始文档：[references/01-01-vibe-rules/01-01-vibe 通用规则.md](references/01-01-vibe-rules/01-01-vibe 通用规则.md) + [references/01-01-vibe-rules/01-02-基础开发规则.md](references/01-01-vibe-rules/01-02-基础开发规则.md)
 
 ---
 

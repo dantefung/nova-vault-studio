@@ -7,7 +7,7 @@ url: "https://github.com/xvhaoran778-cyber/Serenity.SKILL"
 
 # xvhaoran778-cyber/Serenity.SKILL — 跨市场供应链卡点投资 Skill（7 Stars）
 
-> 可复用的 Codex skill，用 Serenity 方法做跨市场"供应链瓶颈 / 需求冲击 / 贝叶斯更新"式投资研究。适用于 A 股、美股、港股、台股、日股、欧洲股票。
+> 可复用的 Codex skill，用 Serenity 方法做跨市场“供应链瓶颈 / 需求冲击 / 贝叶斯更新”式投资研究。适用于 A 股、美股、港股、台股、日股、欧洲股票。
 
 <!-- more -->
 
@@ -17,7 +17,7 @@ url: "https://github.com/xvhaoran778-cyber/Serenity.SKILL"
 - 寻找真实供应链卡点：材料、衬底、封装、设备、产能、资格认证、政府背书
 - 把产品/行业需求冲击转译成公司层面的财务影响
 - 用**贝叶斯方式更新投资假设**：先验 → 正证据 → 反证据 → 后验方向
-- 区分"明确交易披露"和"观点/看多/目标价"
+- 区分“明确交易披露”和“观点/看多/目标价”
 
 ## 目录结构
 

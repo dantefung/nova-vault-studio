@@ -5,7 +5,7 @@ source: "原创"
 url: "https://github.com/yzfly/LangGPT"
 ---
 
-> **摘要** — LangGPT 是一种结构化提示词方法论，由云中江树提出。核心理念是"像编程一样写 Prompt"，通过变量和模板语法实现系统化、灵活、可复用的 Prompt 构建。解决传统 Prompt 编写的四大痛点：缺乏系统性、缺乏灵活性、缺乏交互友好性、未充分考虑 LLM 特性。
+> **摘要** — LangGPT 是一种结构化提示词方法论，由云中江树提出。核心理念是“像编程一样写 Prompt"，通过变量和模板语法实现系统化、灵活、可复用的 Prompt 构建。解决传统 Prompt 编写的四大痛点：缺乏系统性、缺乏灵活性、缺乏交互友好性、未充分考虑 LLM 特性。
 
 ```mermaid
 graph LR
@@ -75,7 +75,7 @@ prompt 编写越来越像 AI 时代的编程语言。
 ### 
 **经过初步探索和实验，<span style="color: rgb(36,91,219); background-color: inherit">我们设计了 LangGPT（项目链接：</span>[<span style="color: rgb(36,91,219); background-color: inherit">github.com</span>](https://github.com/yzfly/LangGPT)<span style="color: rgb(36,91,219); background-color: inherit">），希望在 prompt 的编程法上迈出一小步。</span>**
 
-### **<span style="color: rgb(36,91,219); background-color: inherit">使用 LangGPT 为大规模生产高质量prompt提供了可能，它有下面的优点</span>**<span style="color: rgb(36,91,219); background-color: inherit">：</span>
+### **<span style="color: rgb(36,91,219); background-color: inherit">使用 LangGPT 为大规模生产高质量 prompt 提供了可能，它有下面的优点</span>**<span style="color: rgb(36,91,219); background-color: inherit">：</span>
 
 1. <span style="color: rgb(36,91,219); background-color: inherit">系统性：</span>提供“模板”，按照模板填鸭式写上相应内容即可
 
@@ -88,26 +88,26 @@ prompt 编写越来越像 AI 时代的编程语言。
 5. <span style="color: rgb(36,91,219); background-color: inherit">充分利用</span> <span style="color: rgb(36,91,219); background-color: inherit">大模型</span> <span style="color: rgb(36,91,219); background-color: inherit">能力：</span> <span style="color: rgb(36,91,219); background-color: inherit">1）模块化配置</span> <span style="color: rgb(36,91,219); background-color: inherit">2）分点条理性叙述</span> <span style="color: rgb(36,91,219); background-color: inherit">3）Reminder 缓解</span> <span style="color: rgb(36,91,219); background-color: inherit">长期记忆</span> <span style="color: rgb(36,91,219); background-color: inherit">缺失问题</span>
 
 
-##  <span style="color: rgb(36,91,219); background-color: inherit">LangGPT 的两个关键语法</span>
+## <span style="color: rgb(36,91,219); background-color: inherit">LangGPT 的两个关键语法</span>
 
-###  **<span style="color: rgb(36,91,219); background-color: inherit">1. LangGPT 变量</span>**
+### **<span style="color: rgb(36,91,219); background-color: inherit">1. LangGPT 变量</span>**
 
 
 我们发现 ChatGPT 可以识别各种良好标记的层级结构内容。大模型可以识别文章的标题，段落名，段落正文等层级结构，如果我们告诉他标题，模型知道我们指的是标题以及标题下的正文内容。
 
-这意味着我们将 prompt 的内容用结构化方式呈现，并设置标题即可方便的引用，修改，设置 prompt 内容。可以直接使用段落标题来指代大段内容，也可以告诉ChatGPT修改调整指定内容。这类似于编程中的变量，因此我们可以将这种标题当做变量使用。
+这意味着我们将 prompt 的内容用结构化方式呈现，并设置标题即可方便的引用，修改，设置 prompt 内容。可以直接使用段落标题来指代大段内容，也可以告诉 ChatGPT 修改调整指定内容。这类似于编程中的变量，因此我们可以将这种标题当做变量使用。
 
-Markdown 的语法层级结构很好，适合编写 prompt，因此 LangGPT 的变量基于 markdown语法。实际上除 markdown外各种能实现标记作用，如 json,yaml, 甚至好好排版好格式 都可以。
+Markdown 的语法层级结构很好，适合编写 prompt，因此 LangGPT 的变量基于 markdown 语法。实际上除 markdown 外各种能实现标记作用，如 json,yaml, 甚至好好排版好格式 都可以。
 
 变量为 Prompt 的编写带来了很大的灵活性。使用变量可以方便的引用角色内容，设置和更改角色属性。这是一般的 prompt 方法实现起来不方便的。
 
 
 
-### <span style="color: rgb(36,91,219); background-color: inherit"> </span>**<span style="color: rgb(36,91,219); background-color: inherit">2.  LangGPT 模板</span>**
+### <span style="color: rgb(36,91,219); background-color: inherit"> </span>**<span style="color: rgb(36,91,219); background-color: inherit">2. LangGPT 模板</span>**
 
 
 
-ChatGPT 十分擅长角色扮演，大部分优质 prompt 开头往往就是 “我希望你作为xxx”，“我希望你扮演xxx” 的句式定义一个角色，只要提供角色说明，角色行为，技能等描述，就能做出很符合角色的行为。
+ChatGPT 十分擅长角色扮演，大部分优质 prompt 开头往往就是 “我希望你作为 xxx”，“我希望你扮演 xxx” 的句式定义一个角色，只要提供角色说明，角色行为，技能等描述，就能做出很符合角色的行为。
 
 如果你熟悉编程语言里的 “对象”，就知道其实 prompt 的“角色声明”和类声明很像。因此 可以将 prompt 抽象为一个角色 （Role），包含名字，描述，技能，工作方法等描述，然后就得到了 LangGPT 的 Role 模板。
 

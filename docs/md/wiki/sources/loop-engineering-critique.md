@@ -7,7 +7,7 @@ url: "https://mp.weixin.qq.com/s/2HugtDY6FTAty4eTD6Tzag"
 
 # Loop Engineering 批判：一个被过度炒作的技术名词
 
-> Loop Engineering 本质就是定时任务/循环调度的重新包装，在 KOL 的利益驱动下被层层加码，炒作成了"新的编程范式"。
+> Loop Engineering 本质就是定时任务/循环调度的重新包装，在 KOL 的利益驱动下被层层加码，炒作成了“新的编程范式”。
 
 <!-- more -->
 
@@ -15,7 +15,7 @@ url: "https://mp.weixin.qq.com/s/2HugtDY6FTAty4eTD6Tzag"
 
 ### 第一波：Boris 的随口一说
 
-Claude Code 创始人 Boris 在访谈中提到自己越来越多地使用 `/loop` 命令，本质是给 Agent 定时发送 prompt 的任务调度器。他对这个功能很满意，随口说了一句"loops 就是未来"。
+Claude Code 创始人 Boris 在访谈中提到自己越来越多地使用 `/loop` 命令，本质是给 Agent 定时发送 prompt 的任务调度器。他对这个功能很满意，随口说了一句“loops 就是未来”。
 
 % 图片已移除（原始图片未下载）
 
@@ -28,11 +28,11 @@ Claude Code 创始人 Boris 在访谈中提到自己越来越多地使用 `/loop
 
 ### 第二波：Peter 的标题党
 
-OpenClaw 创始人 Peter 在 OpenClaw 热度下降后，看到了 Loop 这个话题的潜力。Boris 只是推荐大家用用，Peter 却直接来了个"XXX 已死，YYY 当立"式标题党。
+OpenClaw 创始人 Peter 在 OpenClaw 热度下降后，看到了 Loop 这个话题的潜力。Boris 只是推荐大家用用，Peter 却直接来了个“XXX 已死，YYY 当立”式标题党。
 
 % 图片已移除（原始图片未下载）
 
-标题党确实有效 —— 传播成本低，还方便转发者"装逼说我发现了新趋势"。
+标题党确实有效 —— 传播成本低，还方便转发者“装逼说我发现了新趋势”。
 
 ### 第三波：Addy 的抢注定义
 
@@ -42,15 +42,15 @@ OpenClaw 创始人 Peter 在 OpenClaw 热度下降后，看到了 Loop 这个话
 
 ## Addy 文章的致命缺陷
 
-Addy 的文章被作者评为"非常非常非常水"，像是赶工对付出来的。核心套路：
+Addy 的文章被作者评为“非常非常非常水”，像是赶工对付出来的。核心套路：
 
 **制造焦虑 → 回顾历史 → 定义框架 → 蹭热度收工**
 
-文章用焦虑体开篇："Prompt Engineering 已死，Loop Engineering 当立"。
+文章用焦虑体开篇："Prompt Engineering 已死，Loop Engineering 当立“。
 
 % 图片已移除（原始图片未下载）
 
-然后回顾前两位大佬的热度发言，表示"你们造热度，定义我来做"。
+然后回顾前两位大佬的热度发言，表示”你们造热度，定义我来做“。
 
 % 图片已移除（原始图片未下载）
 
@@ -79,7 +79,7 @@ Addy 定义了 Loop 需要的五个组件：
 
 % 图片已移除（原始图片未下载）
 
-最后不忘叠甲放水："放手去设置循环，但也别忘了直接写 Prompt 同样有效"——开篇那种 Prompt 已死的自信荡然无存。
+最后不忘叠甲放水：”放手去设置循环，但也别忘了直接写 Prompt 同样有效“——开篇那种 Prompt 已死的自信荡然无存。
 
 % 图片已移除（原始图片未下载）
 

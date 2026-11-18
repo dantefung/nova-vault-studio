@@ -17,30 +17,30 @@ In software development, different programming paradigms offer unique ways to st
 
 ## Imperative Programming
 
-*   Works by changing program state through a sequence of commands.
+* Works by changing program state through a sequence of commands.
 
-*   Uses control structures like loops and conditional statements for execution flow.
+* Uses control structures like loops and conditional statements for execution flow.
 
-*   Emphasizes mutable data and explicit steps for task completion.
+* Emphasizes mutable data and explicit steps for task completion.
 
-*   Examples: C, Python, and most procedural languages.
+* Examples: C, Python, and most procedural languages.
 
 ## Functional Programming
 
-*   Relies on pure functions, emphasizing computation without side effects.
+* Relies on pure functions, emphasizing computation without side effects.
 
-*   Promotes immutability and the avoidance of mutable state.
+* Promotes immutability and the avoidance of mutable state.
 
-*   Supports higher-order functions, recursion, and declarative programming.
+* Supports higher-order functions, recursion, and declarative programming.
 
-*   Examples: Haskell, Lisp, Scala, and functional features in languages like JavaScript.
+* Examples: Haskell, Lisp, Scala, and functional features in languages like JavaScript.
 
 ## Object-oriented Programming
 
-*   Focuses on modeling real-world entities as objects, containing data and methods.
+* Focuses on modeling real-world entities as objects, containing data and methods.
 
-*   Encourages concepts such as inheritance, encapsulation, and polymorphism.
+* Encourages concepts such as inheritance, encapsulation, and polymorphism.
 
-*   Utilizes classes, objects, and interfaces to structure code.
+* Utilizes classes, objects, and interfaces to structure code.
 
-*   Examples: Java, C++, Python, and Ruby.
+* Examples: Java, C++, Python, and Ruby.

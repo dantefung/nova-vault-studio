@@ -19,7 +19,7 @@ Managed Agents 把 Agent 的 Harness 责任从业务开发者转移到平台—�
 | **Brain** | 推理编排、状态恢复、上下文管理 | Managed 集群 |
 | **Hands** | 接触文件、网络、业务系统（工具执行） | Cloud Sandbox 或客户 VPC |
 
-模型决定"要调用什么"≠ 模型进程必须"亲自执行什么"。工具调用被表示为稳定 schema + tool_use_id + 结果事件后，Hands 可迁移到不同信任边界，不改变 Brain 的推理循环。安全团队可以分别回答：模型能看到哪些上下文？工具能访问哪些网络/文件？结果中哪些可回传 Brain？
+模型决定“要调用什么”≠ 模型进程必须“亲自执行什么”。工具调用被表示为稳定 schema + tool_use_id + 结果事件后，Hands 可迁移到不同信任边界，不改变 Brain 的推理循环。安全团队可以分别回答：模型能看到哪些上下文？工具能访问哪些网络/文件？结果中哪些可回传 Brain？
 
 ### Anthropic 三层递进方案
 
@@ -45,9 +45,9 @@ Self-hosted：Brain 收到 `tool_use` 后挂起，通过 work queue + Worker 协
 
 ### 控制面、数据面、Worker 三层职责
 
-**控制面**：管"定义与权限"。管理 Agent 定义及版本，Model/Skills/MCP/Tools/Environment 等资源按"定义、引用、挂载"三种关系组织。承担变更治理（版本、key rotate、archive、权限审计）。
+**控制面**：管“定义与权限”。管理 Agent 定义及版本，Model/Skills/MCP/Tools/Environment 等资源按“定义、引用、挂载”三种关系组织。承担变更治理（版本、key rotate、archive、权限审计）。
 
-**数据面**：管"跑起来并记下来"。承载模型调用、ReAct loop、Harness hooks、turn 租约、Session 状态机、事件持久化、SSE 推送、interrupt/HITL。由对等 SaaS 副本组成，通过 RuntimeContext（userId+sessionId）定位会话状态。
+**数据面**：管“跑起来并记下来”。承载模型调用、ReAct loop、Harness hooks、turn 租约、Session 状态机、事件持久化、SSE 推送、interrupt/HITL。由对等 SaaS 副本组成，通过 RuntimeContext（userId+sessionId）定位会话状态。
 
 数据面托管四类状态生命周期：
 1. 短期 brain state（AgentStateStore，可恢复的推理上下文）
@@ -55,7 +55,7 @@ Self-hosted：Brain 收到 `tool_use` 后挂起，通过 work queue + Worker 协
 3. 长期文件/workspace（FileSystem 后端，工具副作用结果）
 4. 持久记忆（Memory Store，跨 session 的长期记忆）
 
-**Worker**：管"在谁的机器上动手"。全托管：Brain 主动创建沙箱、执行、回收。Self-hosted：客户 Worker 主动 poll，执行工具并回传。
+**Worker**：管“在谁的机器上动手”。全托管：Brain 主动创建沙箱、执行、回收。Self-hosted：客户 Worker 主动 poll，执行工具并回传。
 
 ### AgentScope 2.0 的核心贡献
 

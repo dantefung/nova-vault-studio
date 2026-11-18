@@ -24,7 +24,7 @@ magpie 的 CLAUDE.md 只引用了两个文件：AGENTS.md（路由表）和 LESS
 
 ## 与 LESSONS.md 的配合
 
-路由表告诉 agent "去哪找答案"，错题本告诉 agent "别犯同样的错"。两者结合形成完整的 agent 行为引导体系。
+路由表告诉 agent “去哪找答案”，错题本告诉 agent “别犯同样的错”。两者结合形成完整的 agent 行为引导体系。
 
 ## Related Pages
 
@@ -33,4 +33,4 @@ magpie 的 CLAUDE.md 只引用了两个文件：AGENTS.md（路由表）和 LESS
 
 ## Sources
 
-- WquGuru《magpie项目全AI自动化构建深度分析》：x.com/wquguru/status/2109650264601117141
+- WquGuru《magpie 项目全 AI 自动化构建深度分析》：x.com/wquguru/status/2109650264601117141

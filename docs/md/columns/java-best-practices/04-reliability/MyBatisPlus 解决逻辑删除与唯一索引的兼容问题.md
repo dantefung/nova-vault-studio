@@ -11,7 +11,7 @@ source: "Macaroon-Spring-Family/spring-boot-best-practice"
 需求背景
 ----
 
-比如有张用户表, 在插入或者更新数据的时候，我们需要 `用户名称`(username), 不能重复。
+比如有张用户表，在插入或者更新数据的时候，我们需要 `用户名称`(username), 不能重复。
 
 我们首先考虑的是给该字段创建唯一索引
 
@@ -35,9 +35,9 @@ create unique index uni_username_deleted on user(username,deleted)
 
 再去删除会发现系统报错了，因为该条数据已经存在了，不能在删除了。
 
-是不是很多时候因为逻辑删除与唯一索引的冲突，你就不创建唯一索引, 想着自己写的代码自己有信心不会出现脏数据的。
+是不是很多时候因为逻辑删除与唯一索引的冲突，你就不创建唯一索引，想着自己写的代码自己有信心不会出现脏数据的。
 
-这么想你就太天真啦，数据库是我们最后一道防线, 这道防线都不要了嘛？
+这么想你就太天真啦，数据库是我们最后一道防线，这道防线都不要了嘛？
 
 阿里巴巴手册有关索引规范，第一条就是
 
@@ -53,9 +53,9 @@ create unique index uni_username_deleted on user(username,deleted)
 
 现在大家比较通用的办法就是
 
-> 我们依旧可以将 username + deleted 组合成一个联合唯一索引, 但是删除的时候 deleted 不再是固定的 1，而是当前的主键 ID, 也就是 deleted 不等于 0 都是删除状态，如果删除了那 deleted 值 =id 值
+> 我们依旧可以将 username + deleted 组合成一个联合唯一索引，但是删除的时候 deleted 不再是固定的 1，而是当前的主键 ID, 也就是 deleted 不等于 0 都是删除状态，如果删除了那 deleted 值 =id 值
 
-既然确立了解决方案, 那就该思考怎么做？
+既然确立了解决方案，那就该思考怎么做？
 
   
 
@@ -68,14 +68,14 @@ MyBatisPlus 是支持逻辑删除的，如果确定在哪个字段是逻辑删�
 /**     * 1、删除 0、未删除     */    @TableLogic(value = "0", delval = "1")    private Integer deleted;
 ```
 
-这个一来操作数据是会自动变成如下:
+这个一来操作数据是会自动变成如下：
 
-*   `查询时`: 查询条件会自动加上 'AND deleted = 0'
+* `查询时`: 查询条件会自动加上 'AND deleted = 0'
     
-*   `删除时`: 自定添加 'UPDATE SET deleted = 1 … WHERE … AND deleted = 0'
+* `删除时`: 自定添加 'UPDATE SET deleted = 1 … WHERE … AND deleted = 0'
     
 
-如果你想删除的时候不再是固定 1 而是 id 值, 那么就可以这样改
+如果你想删除的时候不再是固定 1 而是 id 值，那么就可以这样改
 
 ```
 @TableLogic(value = "0", delval = "id")    private Integer deleted;
@@ -130,7 +130,7 @@ CREATE TABLE `user` (  `id` int unsigned  AUTO_INCREMENT COMMENT '主
 @TableLogic(value = "0", delval = "id") private Integer deleted;
 ```
 
-我们再来执行上面三个删除, 看下执行结果
+我们再来执行上面三个删除，看下执行结果
 
 ```
 --方式1UPDATE user SET deleted=id WHERE id=10 AND deleted=0--方式2UPDATE user SET deleted=id WHERE deleted=0 AND (sex = '男')--方式3报错了
@@ -142,7 +142,7 @@ CREATE TABLE `user` (  `id` int unsigned  AUTO_INCREMENT COMMENT '主
 
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/Oxia1LUYQ0EsScxQWd8h2CtlFjWG2dfhT3soGpyG40eXlVeZkKKmQ2z5VITStm9Xad9u8k06qvFMI0jwutQcvew/640?wx_fmt=jpeg)
 
-发现问题了, 最终执行的 SQL 竟然是:
+发现问题了，最终执行的 SQL 竟然是：
 
 ```
 UPDATE user  WHERE id=?  AND deleted=0
@@ -154,15 +154,15 @@ UPDATE user  WHERE id=?  AND deleted=0
 UPDATE user SET deleted=1  WHERE id=?  AND deleted=0
 ```
 
-这个就需要去看 Mybatisplus 到底做了什么操作, 改变了我们的 SQL
+这个就需要去看 Mybatisplus 到底做了什么操作，改变了我们的 SQL
 
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/Oxia1LUYQ0EsScxQWd8h2CtlFjWG2dfhTOxCjjicQeECQNeY0lYOfjOtbJ7IYDGkhZBXCBHPyDRjj4VrCo6On1mA/640?wx_fmt=jpeg)
 
 真相大白了
 
-> Mybatisplus 在 updateById 更新时，如果已经加了逻辑删除标记, 那做 SQL 拼接的时候, 会自动过滤掉逻辑删除的 Set 拼接
+> Mybatisplus 在 updateById 更新时，如果已经加了逻辑删除标记，那做 SQL 拼接的时候，会自动过滤掉逻辑删除的 Set 拼接
 
-所以在实际开发中就非常注意，如果你的项目一开始是没有加 Mybatisplus 逻辑删除标识的, 后面你在加逻辑删除标识时，不是说加了就好了。
+所以在实际开发中就非常注意，如果你的项目一开始是没有加 Mybatisplus 逻辑删除标识的，后面你在加逻辑删除标识时，不是说加了就好了。
 
 你还需要考虑对整体项目有没有影响，如果之前是用 updateById 做逻辑删除，那就会导致之前的删除失败甚至是报错，这一点一定要注意。
 

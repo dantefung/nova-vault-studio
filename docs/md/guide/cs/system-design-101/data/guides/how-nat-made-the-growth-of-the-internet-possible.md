@@ -25,7 +25,7 @@ But how does it work?
 
 NAT has several important uses:
 
-*   **Conserves public IP addresses:** Without NAT, IPv4 addresses would have been depleted much faster, severely limiting the growth of the Internet.
-*   **Allows sharing:** It allows sharing a single public IP address across multiple devices.
-*   **Acts as a basic firewall:** NAT acts as a basic firewall that hides internal IP addresses.
-*   **Eases network management:** NAT also makes it easy to manage large networks.
+* **Conserves public IP addresses:** Without NAT, IPv4 addresses would have been depleted much faster, severely limiting the growth of the Internet.
+* **Allows sharing:** It allows sharing a single public IP address across multiple devices.
+* **Acts as a basic firewall:** NAT acts as a basic firewall that hides internal IP addresses.
+* **Eases network management:** NAT also makes it easy to manage large networks.

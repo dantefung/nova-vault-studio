@@ -19,17 +19,17 @@ We need to understand how search engines rank websites and optimize our website 
 
 A search engine works in 3 stages:
 
-*   The crawler reads the page content (HTML code) and follows the hyperlink to read more web pages.
+* The crawler reads the page content (HTML code) and follows the hyperlink to read more web pages.
 
-*   The preprocessor also works in 3 steps:
+* The preprocessor also works in 3 steps:
 
-    *   It removes HTML tags and ‘Stop’ words, which are words like ‘a’ or ‘an’ or ‘the.’ It also removes other noise that is not relevant to the web page's content, for example, the disclaimer.
+    * It removes HTML tags and ‘Stop’ words, which are words like ‘a’ or ‘an’ or ‘the.’ It also removes other noise that is not relevant to the web page's content, for example, the disclaimer.
 
-    *   Then the keywords form structured indices, called forward indices and inverted indices.
+    * Then the keywords form structured indices, called forward indices and inverted indices.
 
-    *   The preprocessor calculates the hyperlink relationships, for example, how many hyperlinks are on the web page and how many hyperlinks point to it.
+    * The preprocessor calculates the hyperlink relationships, for example, how many hyperlinks are on the web page and how many hyperlinks point to it.
 
-*   When a user types in a search term, the search engine uses the indices and ranking algorithms to rank the web pages and presents the search results to the user.
+* When a user types in a search term, the search engine uses the indices and ranking algorithms to rank the web pages and presents the search results to the user.
 
 How do we make our website rank higher in search results? The diagram below shows some ways to do this.
 

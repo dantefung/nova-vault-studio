@@ -355,7 +355,7 @@ chmod +x install-agents.sh
 
 > **开启方式**：设置环境变量 `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`，然后再进入相关工作流。
 
-**一句话理解**：如果说普通 Subagent 是"你指派一个助手去干活"，那 Agent Teams 就是"你组建一个项目组，分工合作"。
+**一句话理解**：如果说普通 Subagent 是“你指派一个助手去干活”，那 Agent Teams 就是“你组建一个项目组，分工合作”。
 
 ## 核心概念
 
@@ -400,4 +400,4 @@ Team Lead 会自动将任务分配给不同的 Teammate，各成员独立工作�
 
 ---
 
-> **下一步学习**：想深入了解如何自定义代理定义文件？请参考 [07-Skills定制完整指南](./07-Skills定制完整指南.md) 中关于 Agent 配置的部分。
+> **下一步学习**：想深入了解如何自定义代理定义文件？请参考 [07-Skills 定制完整指南](./07-Skills 定制完整指南.md) 中关于 Agent 配置的部分。

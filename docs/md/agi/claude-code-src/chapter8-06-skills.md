@@ -334,8 +334,8 @@ const commands = uniqBy(allCommands, 'name')
 
 去重设计要点：
 
-*   使用 `realpath()` 而非 inode（避免 NFS/ExFAT/容器环境的不可靠性）
-*   优先级：`managed > user > project > additional > legacy`
+* 使用 `realpath()` 而非 inode（避免 NFS/ExFAT/容器环境的不可靠性）
+* 优先级：`managed > user > project > additional > legacy`
 
 ### 阶段 3：模型发现（上下文提示词注入） [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/skills.html#%E9%98%B6%E6%AE%B5-3-%E6%A8%A1%E5%9E%8B%E5%8F%91%E7%8E%B0-%E4%B8%8A%E4%B8%8B%E6%96%87%E6%8F%90%E7%A4%BA%E8%AF%8D%E6%B3%A8%E5%85%A5)
 
@@ -658,10 +658,10 @@ function getMCPSkillBuilders(): MCPSkillBuilders {
 
 ### MCP 技能特殊处理 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/skills.html#mcp-%E6%8A%80%E8%83%BD%E7%89%B9%E6%AE%8A%E5%A4%84%E7%90%86)
 
-*   名称格式: `<server>:<skill>`
-*   Shell 命令禁止执行
-*   `${CLAUDE_SKILL_DIR}` 无意义（远程技能无本地目录）
-*   `loadedFrom: 'mcp'` 标记
+* 名称格式：`<server>:<skill>`
+* Shell 命令禁止执行
+* `${CLAUDE_SKILL_DIR}` 无意义（远程技能无本地目录）
+* `loadedFrom: 'mcp'` 标记
 
 * * *
 
@@ -669,7 +669,7 @@ function getMCPSkillBuilders(): MCPSkillBuilders {
 
 ### 始终注册的技能 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/skills.html#%E5%A7%8B%E7%BB%88%E6%B3%A8%E5%86%8C%E7%9A%84%E6%8A%80%E8%83%BD)
 
-| 技能名 | 用户可调 | LLM可调 | 限制 | 核心功能 |
+| 技能名 | 用户可调 | LLM 可调 | 限制 | 核心功能 |
 | --- | --- | --- | --- | --- |
 | `update-config` | ✅ | ✅ | 无 | 修改 settings.json/hooks 配置 |
 | `keybindings` | ✅ | ✅ | `isKeybindingCustomizationEnabled()` | 自定义快捷键配置 |

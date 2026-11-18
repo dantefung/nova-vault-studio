@@ -764,7 +764,7 @@ Stripe 的正确使用方式，往往是分层升级：先轻量收款，再正�
 
 [Telegram 全网最全使用指南：从入门到榨干](https://x.com/noahduck283/status/2069570117445571061?s=20)
 
-[去AI 去味全网最全指南：从识别到榨干](https://x.com/noahduck283/status/2069030402048893317?s=20)
+[去 AI 去味全网最全指南：从识别到榨干](https://x.com/noahduck283/status/2069030402048893317?s=20)
 
 [爬虫工具全网最全使用指南：从入门到榨干全网](https://x.com/noahduck283/status/2068173537005932865?s=20)
 
@@ -772,7 +772,7 @@ Stripe 的正确使用方式，往往是分层升级：先轻量收款，再正�
 
 [giffgaff 全网最全使用指南：从入门到榨干](https://x.com/noahduck283/status/2063773625535385827?s=20)
 
-[美国紫卡PayGo 全网最全使用指南：从入坑到榨干](https://x.com/noahduck283/status/2064147050816831758?s=20)
+[美国紫卡 PayGo 全网最全使用指南：从入坑到榨干](https://x.com/noahduck283/status/2064147050816831758?s=20)
 
 [Wise 全网最全使用指南：从开户到榨干](https://x.com/noahduck283/status/2064860443454423341?s=20)
 

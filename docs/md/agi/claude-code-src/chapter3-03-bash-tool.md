@@ -115,10 +115,10 @@ async call(input: BashToolInput, toolUseContext, _canUseTool?, parentMessage?, o
 
 `bashSecurity.ts` 包含以下安全检查机制：
 
-*   **命令替换模式** (`COMMAND_SUBSTITUTION_PATTERNS`)：检测 `$()`、`${}`、进程替换等
-*   **危险 zsh 命令** (`ZSH_DANGEROUS_COMMANDS`)：`zmodload`、`emulate`、`sysopen` 等
-*   **安全检查 ID** (`BASH_SECURITY_CHECK_IDS`)：23+ 种检查类型编号
-*   **验证函数** (`validateDangerousPatterns`)：检查未转义反引号、命令替换模式等，返回 `PermissionResult`
+* **命令替换模式** (`COMMAND_SUBSTITUTION_PATTERNS`)：检测 `$()`、`${}`、进程替换等
+* **危险 zsh 命令** (`ZSH_DANGEROUS_COMMANDS`)：`zmodload`、`emulate`、`sysopen` 等
+* **安全检查 ID** (`BASH_SECURITY_CHECK_IDS`)：23+ 种检查类型编号
+* **验证函数** (`validateDangerousPatterns`)：检查未转义反引号、命令替换模式等，返回 `PermissionResult`
 
 ## 交互命令检测 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/bash-tool.html#%E4%BA%A4%E4%BA%92%E5%91%BD%E4%BB%A4%E6%A3%80%E6%B5%8B)
 
@@ -149,15 +149,15 @@ typescript
 
 `utils.ts` 中的 `formatOutput()` 函数处理输出截断：
 
-1.   通过 `getMaxOutputLength()` 获取最大输出长度阈值
-2.   如果内容未超出阈值，直接返回
-3.   如果超出，截断并添加 `[N lines truncated]` 标记
-4.   返回 `{ totalLines, truncatedContent, isImage? }`
+1. 通过 `getMaxOutputLength()` 获取最大输出长度阈值
+2. 如果内容未超出阈值，直接返回
+3. 如果超出，截断并添加 `[N lines truncated]` 标记
+4. 返回 `{ totalLines, truncatedContent, isImage? }`
 
 ## 权限 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/tools/bash-tool.html#%E6%9D%83%E9%99%90)
 
-*   `isReadOnly()` = `false`
-*   `isDestructive()` = `true`
-*   `isConcurrencySafe()` = `false`
-*   权限模式: `Bash(command_pattern)`
-*   每个命令单独确认（除非匹配 allow 规则）
+* `isReadOnly()` = `false`
+* `isDestructive()` = `true`
+* `isConcurrencySafe()` = `false`
+* 权限模式：`Bash(command_pattern)`
+* 每个命令单独确认（除非匹配 allow 规则）

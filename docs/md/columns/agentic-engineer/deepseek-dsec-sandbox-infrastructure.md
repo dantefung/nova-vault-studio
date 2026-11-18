@@ -14,7 +14,7 @@ url: "https://mp.weixin.qq.com/s/nZmLYc37EcTUNH6k0kad0g"
 
 > **论文信息**：DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale，arXiv:2609.22978，2026-09-19 提交，31 页。本文所有数字直接出自论文原文（标注节号），评测部分为论文自测，不含端到端 Agent 基准分数——这一限制论文自己在 §8 声明，本文沿用。
 
-相关文章：一切皆插件：DeepSeek Harness 是怎么把 Agent 装起来的——DSec服务的正是 DSH 这类 Harness；Agent Sandbox 的演进与设计范式——沙箱设计视角的对照篇。
+相关文章：一切皆插件：DeepSeek Harness 是怎么把 Agent 装起来的——DSec 服务的正是 DSH 这类 Harness；Agent Sandbox 的演进与设计范式——沙箱设计视角的对照篇。
 
 Agent 的强化学习，光堆 GPU 不够。普通大模型可以在 GPU 集群里喂数据、算梯度，Agent 却要真正进入环境执行任务：打开代码仓库、改文件、装依赖、跑测试，每一步都改变环境，下一步又依赖前面的状态。强化学习的规模一上来，训练系统不光要批量产出轨迹，还得批量造出能真正干活的环境。
 
@@ -32,7 +32,7 @@ Agentic 训练管线分环境构建、RL rollout、奖励计算、策略更新�
 
 ## 二、平台怎么搭：四类后端，一条入口
 
-DSec 没有用一种沙盒包打天下，而是按「隔离越强、启动越慢、开销越大」的谱系放了四类后端（§2.2），由统一的 Python SDKlibdsec接入（§2.1）：
+DSec 没有用一种沙盒包打天下，而是按「隔离越强、启动越慢、开销越大」的谱系放了四类后端（§2.2），由统一的 Python SDKlibdsec 接入（§2.1）：
 
 SDK 故意不做全语义抽象：各后端的启动成本、隔离边界、文件系统语义不同，选型责任留给调用方（§2.1）。
 
@@ -100,7 +100,7 @@ CPU（§8.5）：延迟敏感（LS）与尽力而为（BE）分级，BE 压到 S
 
 ### 5.1 Agent 造环境，Agent 用环境
 
-手工构建 Agent RL 需要的海量环境不现实。DSec 的做法是让 Agent 在训练同款基础设施上交互式搭环境，随时pack_diff打增量磁盘快照，快照可直接恢复成新沙盒——交互会话一步变成可复用环境，没有单独的镜像构建管线（§6.1）。配套有内部质检平台和打包规则，且建环境的与跑任务的用不同账号、打包前清除可写层残留，防止参考答案混进环境。
+手工构建 Agent RL 需要的海量环境不现实。DSec 的做法是让 Agent 在训练同款基础设施上交互式搭环境，随时 pack_diff 打增量磁盘快照，快照可直接恢复成新沙盒——交互会话一步变成可复用环境，没有单独的镜像构建管线（§6.1）。配套有内部质检平台和打包规则，且建环境的与跑任务的用不同账号、打包前清除可写层残留，防止参考答案混进环境。
 
 ### 5.2 rollout 迁出 GPU 池
 
@@ -112,7 +112,7 @@ CPU（§8.5）：延迟敏感（LS）与尽力而为（BE）分级，BE 压到 S
 
 ### 5.3 暂停与恢复
 
-GPU 被抢占后，挂着的一堆空闲沙盒还在吃内存。RL 框架主动向相关沙盒发 pause（§6.3）：容器走docker pause冻结进程树，开 swap、触发主动内存回收，状态保留；恢复时先MADV_WILLNEED异步预读再docker unpause。microVM 直接存 Firecracker 快照、终止进程释放运行时内存，恢复时起新进程灌回快照。
+GPU 被抢占后，挂着的一堆空闲沙盒还在吃内存。RL 框架主动向相关沙盒发 pause（§6.3）：容器走 docker pause 冻结进程树，开 swap、触发主动内存回收，状态保留；恢复时先 MADV_WILLNEED 异步预读再 docker unpause。microVM 直接存 Firecracker 快照、终止进程释放运行时内存，恢复时起新进程灌回快照。
 
 ## 六、Agent 开始钻训练环境的漏洞
 

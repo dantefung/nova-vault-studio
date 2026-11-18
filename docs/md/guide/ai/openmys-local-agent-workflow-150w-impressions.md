@@ -9,9 +9,9 @@ tags: [ai-agent, workflow, claude-code, prompt-engineering, frontend-design, gro
 
 # 从零到 150 万曝光：开源我的全部软件、Skill 与本地 Agent 工作流
 
-> **作者**：周瑟夫 Joseph ([@openmys](https://x.com/openmys))  
-> **原文链接**：https://x.com/openmys/status/2116911476422402222  
-> **发布时间**：2026-11-01  
+> **作者**：周瑟夫 Joseph ([@openmys](https://x.com/openmys)) 
+> **原文链接**：https://x.com/openmys/status/2116911476422402222 
+> **发布时间**：2026-11-01 
 > **核心摘要**：深圳初创公司 Founder 深度拆解本地单人多项目推进的完整 AI Agent 工业级工作栈。涵盖前端设计（Paper MCP / framesbase / Motion+ / Jakub Krehel interfaces）、功能开发（Claude Opus 5.5 作为高维主 Agent 统筹、Codex 审查、Gemini 视觉、双机硬件环境）、多项目调度（Linear 单一事实依据、单一主对话架构）以及社区调研与内容发布全流程。
 
 ---
@@ -41,9 +41,9 @@ tags: [ai-agent, workflow, claude-code, prompt-engineering, frontend-design, gro
 - **微信公众号**：2,000 多粉丝
 ![](https://pbs.twimg.com/media/HWCwoPSa8AAiamm.jpg)
 
-![x数据，170万曝光，15500个赞](https://pbs.twimg.com/media/HWCwqVUaIAABp-e.jpg)
+![x 数据，170 万曝光，15500 个赞](https://pbs.twimg.com/media/HWCwqVUaIAABp-e.jpg)
 
-x数据，170万曝光，15500个赞
+x 数据，170 万曝光，15500 个赞
 
 这一个月发出去的每一个帖子，全都是我自己独立创作出来的作品，这年头在社交媒体上做一名创作者，远远比汉化搬运型“博主”需要消耗的精力多得多。
 
@@ -151,9 +151,9 @@ Linear 非常适合作为调度层，以 Issue 为单位进行状态与上下文
 
 我桌上摆着 groki，我可以直接对着桌上的小机器人语音交代任务、听它念出回复，不用特意切回某个聊天窗口，就能把指令转交给背后的 agent 并随时接上社区动态。
 
-![我的esp32开发流程](https://pbs.twimg.com/media/HWCxNw1bMAEMmXH.jpg)
+![我的 esp32 开发流程](https://pbs.twimg.com/media/HWCxNw1bMAEMmXH.jpg)
 
-我的esp32开发流程
+我的 esp32 开发流程
 
 而在一条想法真正变成大家在 X 上看到的成品之前，最后一步是录制与整理。日常无论是为已完成的工作留存演示画面，还是制作对外发布的视频，我们都会用 Screen Studio 和 CleanShot 来做录屏与截图。
 

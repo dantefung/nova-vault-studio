@@ -104,9 +104,9 @@ GrowthBook 集成用于运行时特性门控（`src/services/analytics/growthboo
 
 缓存策略：
 
-*   本地缓存 stale 值
-*   后台异步刷新
-*   失败时降级到缓存
+* 本地缓存 stale 值
+* 后台异步刷新
+* 失败时降级到缓存
 
 获取特性值通过 `getFeatureValue_CACHED_MAY_BE_STALE` 函数（命名强调返回值可能是 stale 的）。
 

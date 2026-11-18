@@ -16,7 +16,7 @@ url: ""
 - [wechat-social-guide/](./wechat-social-guide/) — 微信社交操作指南：从加好友到建立关系的全流程
 - [overseas-influencer-marketing/](./overseas-influencer-marketing/) — 百万海外博主投放实战复盘：从找人、筛选到避坑
 - [reddit-marketing-playbook/](./reddit-marketing-playbook/) — Reddit 上推产品：从社区心理到非广告化推广贴写作框架
-- [xhs-kpop-livestream-workflow/](./xhs-kpop-livestream-workflow/) — 靠一套半自动化工作流，我把韩娱idol 直播做成小红书笔记，20天涨粉1500
+- [xhs-kpop-livestream-workflow/](./xhs-kpop-livestream-workflow/) — 靠一套半自动化工作流，我把韩娱 idol 直播做成小红书笔记，20 天涨粉 1500
 - [social-media-data-tools/](./social-media-data-tools/) — 社媒数据与分析工具集
 - [my-x-operations-playbook.md](./my-x-operations-playbook.md) — 我的版本（X 运营四条核心原则）
 - [first-x-post.md](./first-x-post.md) — 第一次写 X post：立个可能会倒的 flag

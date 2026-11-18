@@ -5,7 +5,7 @@ source: "微信公众号"
 url: "https://mp.weixin.qq.com/s/emFwOrYHQ3n6E0Q-rGCzJQ"
 ---
 
-# 独立开发变现周刊第161期：案例精读摘要
+# 独立开发变现周刊第 161 期：案例精读摘要
 
 ## 核心结论
 

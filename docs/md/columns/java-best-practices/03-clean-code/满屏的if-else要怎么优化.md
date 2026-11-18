@@ -15,7 +15,7 @@ original: "满屏的 if-else，要怎么优化？.pdf"
 
 ## 正文
 
-2022/6/12 16:34                                     if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -39,7 +39,7 @@ original: "满屏的 if-else，要怎么优化？.pdf"
 
  if-else 
 
- if-else  if-else 
+ if-else if-else 
 
 
 
@@ -181,9 +181,9 @@ if (newCollect != null && newCollect.size() &gt; 0 && oldCollect !=
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             1/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 1/16
 
-2022/6/12 16:34                                                                  if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -367,9 +367,9 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             1/
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                                                   2/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 2/16
 
-2022/6/12 16:34                                        if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -542,9 +542,9 @@ TestCodeData newData = newDataList.stream().filter(p -&gt; {
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                 3/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 3/16
 
- 2022/6/12 16:34                                          if-else
+ 2022/6/12 16:34 if-else
 
 
 
@@ -664,7 +664,7 @@ TestCodeData newData = newDataList.stream().filter(p -&gt; {
 ```
 
 
-//                                                 
+// 
 
 
 
@@ -750,13 +750,13 @@ if (CollectionUtils.isEmpty(newCollect) && CollectionUtils.isEmpty(oldCo
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             4/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 4/16
 
-2022/6/12 16:34                                                                          if-else
+2022/6/12 16:34 if-else
 
 
 
-             }   for (TestCodeData newPO : newCollect) {
+             } for (TestCodeData newPO : newCollect) {
 
 
       }
@@ -885,7 +885,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             4/
 
 
 
-"" getCityNull  for  4 
+"" getCityNull for 4 
 
 
 
@@ -910,7 +910,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                             4/
  } else if (newPO.getStartTime() == 0 && newPO.getEndTime() == 24) {
 
 
-   //            
+   // 
 
 
 
@@ -936,9 +936,9 @@ public enum TimeEnum {
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                                             5/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 5/16
 
-2022/6/12 16:34                                     if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -1242,13 +1242,13 @@ TimeEnum(String code, String desc) {
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                                       6/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 6/16
 
-2022/6/12 16:34                                     if-else
+2022/6/12 16:34 if-else
 
 
 
-             }   this.desc = desc;
+             } this.desc = desc;
 
 
 
@@ -1301,7 +1301,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                               
 
 
 
- getCityNull  for 
+ getCityNull for 
 
 
 
@@ -1350,7 +1350,7 @@ for (TestCodeData data : newCollect) {
                            
 
 
-                 String code = "am"; //            code  data
+                 String code = "am"; // code data
 
 
 
@@ -1374,9 +1374,9 @@ for (TestCodeData data : newCollect) {
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                          7/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 7/16
 
-2022/6/12 16:34                                             if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -1452,7 +1452,7 @@ public class AwardService {
        public Boolean toutiaoReward(String userId) {
 
 
-                 log.info("                        {} 50   !", userId);
+                 log.info(" {} 50 !", userId);
 
 
 
@@ -1469,7 +1469,7 @@ public class AwardService {
        public Boolean wxReward(String userId) {
 
 
-                 log.info("                        {} 100  !", userId);
+                 log.info(" {} 100 !", userId);
 
 
 
@@ -1549,9 +1549,9 @@ public class AwardService {
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                    8/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 8/16
 
-2022/6/12 16:34                                             if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -1619,7 +1619,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                               
        private Boolean toutiaoReward(String userId) {
 
 
-                 log.info("                        {} 50   !", userId);
+                 log.info(" {} 50 !", userId);
 
 
 
@@ -1635,7 +1635,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                               
 
        private Boolean wxReward(String userId) {
 
-                 log.info("                        {} 100  !", userId);
+                 log.info(" {} 100 !", userId);
 
 
 
@@ -1694,9 +1694,9 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                               
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                    9/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 9/16
 
-2022/6/12 16:34                                             if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -1735,7 +1735,7 @@ public class TouTiaoAwardService extends AwardAbstract {
        public Boolean award(String userId) {
 
 
-                 log.info("                        {} 50   !", userId);
+                 log.info(" {} 50 !", userId);
 
 
 
@@ -1772,7 +1772,7 @@ public class WeChatAwardService extends AwardAbstract {
        public Boolean award(String userId) {
 
 
-                 log.info("                        {} 100  !", userId);
+                 log.info(" {} 100 !", userId);
 
 
 
@@ -1868,17 +1868,17 @@ public class WeChatAwardService extends AwardAbstract {
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                          10/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 10/16
 
-2022/6/12 16:34                                     if-else
-
-
+2022/6/12 16:34 if-else
 
 
 
 
 
-/**  */
+
+
+/** */
 
 
 
@@ -1965,7 +1965,7 @@ public Boolean awardTemplate(String userId) {
  protected void authentication(String userId) {
 
 
-                 log.info("{}                      !", userId);
+                 log.info("{} !", userId);
 
 
 
@@ -1982,7 +1982,7 @@ public Boolean awardTemplate(String userId) {
  protected void risk(String userId) {
 
 
-                 log.info("{}                      !", userId);
+                 log.info("{} !", userId);
 
 
 
@@ -2044,9 +2044,9 @@ public class ToutiaoAwardStrategyService extends BaseAwardTemplate implements Aw
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                 11/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 11/16
 
-2022/6/12 16:34                                             if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -2083,7 +2083,7 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                 11/16
        protected Boolean awardRecord(String userId) {
 
 
-                      log.info("                   {} 50   !", userId);
+                      log.info(" {} 50 !", userId);
 
 
 
@@ -2170,7 +2170,7 @@ public class WeChatAwardStrategyService extends BaseAwardTemplate implements Awa
        protected Boolean awardRecord(String userId) {
 
 
-                      log.info("                   {} 100  !", userId);
+                      log.info(" {} 100 !", userId);
 
 
 
@@ -2237,9 +2237,9 @@ public class AwardStrategyFactory implements ApplicationContextAware {
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                               12/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 12/16
 
-2022/6/12 16:34                                     if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -2379,9 +2379,9 @@ POST http://localhost:8080/activity/reward3?userId=fei&source=wx
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                  13/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 13/16
 
-2022/6/12 16:34                                     if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -2410,9 +2410,9 @@ TomP7offer11
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ            14/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 14/16
 
-2022/6/12 16:34                                     if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -2420,9 +2420,9 @@ https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ            14/16
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ                                                       15/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 15/16
 
-2022/6/12 16:34                                     if-else
+2022/6/12 16:34 if-else
 
 
 
@@ -2450,19 +2450,19 @@ Python
 
 
 
-https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ            16/16
+https://mp.weixin.qq.com/s/i6geEsKH0gqu9MUzTssegQ 16/16
 
 ## 配图
 
 ### 第 14 页 — 001-p14.jpeg
 
-![001-p14.jpeg](images/满屏的if-else要怎么优化/001-p14.webp)
+![001-p14.jpeg](images/满屏的 if-else 要怎么优化/001-p14.webp)
 
 ### 第 14 页 — 002-p14.png
 
-![002-p14.png](images/满屏的if-else要怎么优化/002-p14.webp)
+![002-p14.png](images/满屏的 if-else 要怎么优化/002-p14.webp)
 
 ### 第 15 页 — 003-p15.png
 
-![003-p15.png](images/满屏的if-else要怎么优化/002-p14.webp)
+![003-p15.png](images/满屏的 if-else 要怎么优化/002-p14.webp)
 

@@ -4,12 +4,12 @@ title: "知识图谱（Knowledge Graph）"
 
 # 知识图谱（Knowledge Graph）
 
-> 用结构化的节点和边表示实体及关系的语义网络，为RAG系统提供关系推理能力。
+> 用结构化的节点和边表示实体及关系的语义网络，为 RAG 系统提供关系推理能力。
 
 ## Key Points
 
 - 核心组成：实体（节点）、关系（边）、属性
-- 解决传统RAG无法理解"关系"的问题
+- 解决传统 RAG 无法理解“关系”的问题
 - 支持多跳推理和跨文档关联分析
 
 ## Details
@@ -19,9 +19,9 @@ title: "知识图谱（Knowledge Graph）"
 1. **实体抽取**：从文档中识别关键实体（产品、故障、操作等）
 2. **关系抽取**：提取实体间的关系（包含、导致、属于等）
 3. **属性抽取**：提取实体的特征（价格、规格、状态等）
-4. **图谱存储**：存入Neo4j等图数据库
+4. **图谱存储**：存入 Neo4j 等图数据库
 
-### 在RAG中的应用
+### 在 RAG 中的应用
 
 - **GraphRAG**：将图谱作为检索索引
 - **混合检索**：向量检索 + 图谱检索 + BM25
@@ -46,4 +46,4 @@ title: "知识图谱（Knowledge Graph）"
 ## Sources
 
 - [[智能客服专栏] 知识图谱构建方案](../../guide/ai/intelligent-customer-service/03-knowledge-graph.md)
-- [[智能客服专栏] 知识图谱构建方案v2](../../guide/ai/intelligent-customer-service/09-knowledge-graph-v2.md)
+- [[智能客服专栏] 知识图谱构建方案 v2](../../guide/ai/intelligent-customer-service/09-knowledge-graph-v2.md)

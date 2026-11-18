@@ -36,7 +36,7 @@ Decoupled RoPE · MLA Part 2
 
 
 
-在「从GPT-2到LLaMA」里，RoPE 已经取代了 GPT-2 的绝对位置编码，DeepSeek 当然也要用它。可一旦把 RoPE 加回 MLA，上一期最巧妙的矩阵吸收会直接失效。
+在「从 GPT-2 到 LLaMA」里，RoPE 已经取代了 GPT-2 的绝对位置编码，DeepSeek 当然也要用它。可一旦把 RoPE 加回 MLA，上一期最巧妙的矩阵吸收会直接失效。
 
 
 
@@ -52,11 +52,11 @@ Decoupled RoPE · MLA Part 2
 
 
 
-## 01先回顾两件事
+## 01 先回顾两件事
 
 
 
-### 1.1 RoPE：位置是"转"进去的
+### 1.1 RoPE：位置是“转”进去的
 
 
 
@@ -64,7 +64,7 @@ RoPE 不把位置加到向量上，而是按位置去**旋转** q 和 k。位置
 
 
 
-它最关键的性质，在「从GPT-2到LLaMA」RoPE 那期推过：
+它最关键的性质，在「从 GPT-2 到 LLaMA」RoPE 那期推过：
 
 
 
@@ -118,7 +118,7 @@ RoPE 不把位置加到向量上，而是按位置去**旋转** q 和 k。位置
 
 
 
-## 02把 RoPE 加回来，会发生什么
+## 02 把 RoPE 加回来，会发生什么
 
 
 
@@ -206,7 +206,7 @@ RoPE 不把位置加到向量上，而是按位置去**旋转** q 和 k。位置
 
 
 
-上一期说，MLA 的仓库里不存成品，只存毛坯件 c，每个工位按自己的图纸加工。现在的问题是，每件货还得带上"它是第几号"的位置信息，而这个信息必须在**加工完之后** 才能打上去（旋转必须作用在最终的 q、k 上），这就和"不加工、直接用毛坯"冲突了。
+上一期说，MLA 的仓库里不存成品，只存毛坯件 c，每个工位按自己的图纸加工。现在的问题是，每件货还得带上“它是第几号”的位置信息，而这个信息必须在**加工完之后** 才能打上去（旋转必须作用在最终的 q、k 上），这就和“不加工、直接用毛坯”冲突了。
 
 
 
@@ -222,7 +222,7 @@ DeepSeek 的办法很朴素：**货物和面单分开放** 。
 
 
 
-这就是 **decoupled RoPE（解耦 RoPE）** ：把"内容"和"位置"解开，各走各的路。
+这就是 **decoupled RoPE（解耦 RoPE）** ：把“内容”和“位置”解开，各走各的路。
 
 
 
@@ -236,9 +236,9 @@ DeepSeek 的办法很朴素：**货物和面单分开放** 。
 
 
 
-    q_t,i = [ q_t,iᶜ ; q_t,iᴿ ]      内容段 + 位置段
+    q_t,i = [ q_t,iᶜ ; q_t,iᴿ ] 内容段 + 位置段
 
-    k_s,i = [ k_s,iᶜ ; k_sᴿ   ]      内容段 + 位置段
+    k_s,i = [ k_s,iᶜ ; k_sᴿ ] 内容段 + 位置段
 
 
 
@@ -256,9 +256,9 @@ DeepSeek 的办法很朴素：**货物和面单分开放** 。
 
 
 
-    score = q_t,iᶜ · k_s,iᶜ  +  q_t,iᴿ · k_sᴿ
+    score = q_t,iᶜ · k_s,iᶜ + q_t,iᴿ · k_sᴿ
 
-             └─ 内容分数 ─┘     └─ 位置分数 ─┘
+             └─ 内容分数 ─┘ └─ 位置分数 ─┘
 
 
 
@@ -288,7 +288,7 @@ DeepSeek 的办法很朴素：**货物和面单分开放** 。
 
 
 
-这样会不会损失表达能力？位置段本来就只负责"距离"这一件事，信息量远小于内容。而且每个头的 q 位置段依然是自己的，同一个共享 key，不同的头可以用不同的方式去"读"它。真正需要每个头各不相同的内容部分，仍然由 MLA 保证。
+这样会不会损失表达能力？位置段本来就只负责“距离”这一件事，信息量远小于内容。而且每个头的 q 位置段依然是自己的，同一个共享 key，不同的头可以用不同的方式去“读”它。真正需要每个头各不相同的内容部分，仍然由 MLA 保证。
 
 
 
@@ -308,7 +308,7 @@ RoPE 里，一个 key 转多少度，只取决于它**自己的位置** s。一�
 
 
 
-## 04手算：「猫吃鱼」加上位置
+## 04 手算：「猫吃鱼」加上位置
 
 
 
@@ -322,11 +322,11 @@ RoPE 里，一个 key 转多少度，只取决于它**自己的位置** s。一�
 
 
 
-    cos 0 = 1        sin 0 = 0
+    cos 0 = 1 sin 0 = 0
 
-    cos 1 ≈ 0.540    sin 1 ≈ 0.841
+    cos 1 ≈ 0.540 sin 1 ≈ 0.841
 
-    cos 2 ≈ −0.416   sin 2 ≈ 0.909
+    cos 2 ≈ −0.416 sin 2 ≈ 0.909
 
 
 
@@ -338,7 +338,7 @@ RoPE 里，一个 key 转多少度，只取决于它**自己的位置** s。一�
 
 
 
-    [ x₀·cos α − x₁·sin α ,  x₀·sin α + x₁·cos α ]
+    [ x₀·cos α − x₁·sin α , x₀·sin α + x₁·cos α ]
 
 
 
@@ -358,9 +358,9 @@ RoPE 里，一个 key 转多少度，只取决于它**自己的位置** s。一�
 
 
 
-    头 1 内容分数：鱼→猫 = 1，  鱼→吃 = 0，  鱼→鱼 = 0.5
+    头 1 内容分数：鱼→猫 = 1， 鱼→吃 = 0， 鱼→鱼 = 0.5
 
-    头 2 内容分数：鱼→猫 = 0，  鱼→吃 = 1，  鱼→鱼 = 0.5
+    头 2 内容分数：鱼→猫 = 0， 鱼→吃 = 1， 鱼→鱼 = 0.5
 
 
 
@@ -384,11 +384,11 @@ RoPE 里，一个 key 转多少度，只取决于它**自己的位置** s。一�
 
 
 
-    H = [[1, 0, 1, 0],    猫
+    H = [[1, 0, 1, 0], 猫
 
-         [0, 1, 0, 1],    吃
+         [0, 1, 0, 1], 吃
 
-         [1, 1, 0, 0]]    鱼
+         [1, 1, 0, 0]] 鱼
 
 
 
@@ -400,7 +400,7 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-    W_KR = [[0.5,  0.5,  0.5, 0.5],
+    W_KR = [[0.5, 0.5, 0.5, 0.5],
 
             [0.5, −0.5, −0.5, 0.5]]
 
@@ -414,11 +414,11 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-    猫：[1,0,1,0] · [0.5, 0.5, 0.5,0.5] = 1      [1,0,1,0] · [0.5,−0.5,−0.5,0.5] = 0
+    猫：[1,0,1,0] · [0.5, 0.5, 0.5,0.5] = 1 [1,0,1,0] · [0.5,−0.5,−0.5,0.5] = 0
 
-    吃：[0,1,0,1] · [0.5, 0.5, 0.5,0.5] = 1      [0,1,0,1] · [0.5,−0.5,−0.5,0.5] = 0
+    吃：[0,1,0,1] · [0.5, 0.5, 0.5,0.5] = 1 [0,1,0,1] · [0.5,−0.5,−0.5,0.5] = 0
 
-    鱼：[1,1,0,0] · [0.5, 0.5, 0.5,0.5] = 1      [1,1,0,0] · [0.5,−0.5,−0.5,0.5] = 0
+    鱼：[1,1,0,0] · [0.5, 0.5, 0.5,0.5] = 1 [1,1,0,0] · [0.5,−0.5,−0.5,0.5] = 0
 
 
 
@@ -438,11 +438,11 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-    猫（位置 0）：[1, 0]       转 0  →  [1,      0    ]
+    猫（位置 0）：[1, 0] 转 0 → [1, 0 ]
 
-    吃（位置 1）：[1, 0]       转 1  →  [0.540,  0.841]
+    吃（位置 1）：[1, 0] 转 1 → [0.540, 0.841]
 
-    鱼（位置 2）：[1, 0]       转 2  →  [−0.416, 0.909]
+    鱼（位置 2）：[1, 0] 转 2 → [−0.416, 0.909]
 
 
 
@@ -480,9 +480,9 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-    头 1：[1, 0] 转 2  →  [1×(−0.416) − 0×0.909,  1×0.909 + 0×(−0.416)] = [−0.416,  0.909]
+    头 1：[1, 0] 转 2 → [1×(−0.416) − 0×0.909, 1×0.909 + 0×(−0.416)] = [−0.416, 0.909]
 
-    头 2：[0, 1] 转 2  →  [0×(−0.416) − 1×0.909,  0×0.909 + 1×(−0.416)] = [−0.909, −0.416]
+    头 2：[0, 1] 转 2 → [0×(−0.416) − 1×0.909, 0×0.909 + 1×(−0.416)] = [−0.909, −0.416]
 
 
 
@@ -502,11 +502,11 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-    鱼→猫：[−0.416, 0.909] · [1,      0    ] = −0.416
+    鱼→猫：[−0.416, 0.909] · [1, 0 ] = −0.416
 
-    鱼→吃：[−0.416, 0.909] · [0.540,  0.841] = −0.225 + 0.765 = 0.540
+    鱼→吃：[−0.416, 0.909] · [0.540, 0.841] = −0.225 + 0.765 = 0.540
 
-    鱼→鱼：[−0.416, 0.909] · [−0.416, 0.909] =  0.173 + 0.826 = 1
+    鱼→鱼：[−0.416, 0.909] · [−0.416, 0.909] = 0.173 + 0.826 = 1
 
 
 
@@ -518,11 +518,11 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-    鱼→猫：[−0.909, −0.416] · [1,      0    ] = −0.909
+    鱼→猫：[−0.909, −0.416] · [1, 0 ] = −0.909
 
-    鱼→吃：[−0.909, −0.416] · [0.540,  0.841] = −0.491 − 0.350 = −0.841
+    鱼→吃：[−0.909, −0.416] · [0.540, 0.841] = −0.491 − 0.350 = −0.841
 
-    鱼→鱼：[−0.909, −0.416] · [−0.416, 0.909] =  0.378 − 0.378 = 0
+    鱼→鱼：[−0.909, −0.416] · [−0.416, 0.909] = 0.378 − 0.378 = 0
 
 
 
@@ -542,21 +542,21 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-                  鱼→猫     鱼→吃     鱼→鱼
+                  鱼→猫 鱼→吃 鱼→鱼
 
-    头 1 内容      1         0         0.5
+    头 1 内容 1 0 0.5
 
-    头 1 位置     −0.416     0.540     1
+    头 1 位置 −0.416 0.540 1
 
-    头 1 总分      0.584     0.540     1.5
+    头 1 总分 0.584 0.540 1.5
 
 
 
-    头 2 内容      0         1         0.5
+    头 2 内容 0 1 0.5
 
-    头 2 位置     −0.909    −0.841     0
+    头 2 位置 −0.909 −0.841 0
 
-    头 2 总分     −0.909     0.159     0.5
+    头 2 总分 −0.909 0.159 0.5
 
 
 
@@ -570,7 +570,7 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
     q = [内容 1, 0 ; 位置 −0.416, 0.909]
 
-    k = [内容 1, 0 ; 位置 1,      0    ]
+    k = [内容 1, 0 ; 位置 1, 0 ]
 
     q · k = 1 + 0 + (−0.416) + 0 = 0.584
 
@@ -578,11 +578,11 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-和"分开算再相加"完全一致。拼接点积，就等于两段分别点积之和。
+和“分开算再相加”完全一致。拼接点积，就等于两段分别点积之和。
 
 
 
-**要说明的是** ，这里每个具体数值都是为了手算挑的，"位置分数把头 2 的关注从「吃」拉向了「鱼」"这类现象，不代表真实模型的行为。这一节要看的只有结构：**最终分数 = 不含旋转、可吸收的内容分数 + 含旋转、不吸收的位置分数** 。
+**要说明的是** ，这里每个具体数值都是为了手算挑的，“位置分数把头 2 的关注从「吃」拉向了「鱼」”这类现象，不代表真实模型的行为。这一节要看的只有结构：**最终分数 = 不含旋转、可吸收的内容分数 + 含旋转、不吸收的位置分数** 。
 
 
 
@@ -594,7 +594,7 @@ W_KR 存的形状是 2×4（输出 × 输入），计算时转置：
 
 
 
-V 没有位置段。RoPE 只用来决定"看谁"，也就是分数；V 是"看到之后拿走什么"，和位置无关。所以 V 和上一期完全一样，只从 c 还原，吸收进输出矩阵的做法也照旧。
+V 没有位置段。RoPE 只用来决定“看谁”，也就是分数；V 是“看到之后拿走什么”，和位置无关。所以 V 和上一期完全一样，只从 c 还原，吸收进输出矩阵的做法也照旧。
 
 
 
@@ -602,7 +602,7 @@ V 没有位置段。RoPE 只用来决定"看谁"，也就是分数；V 是"看�
 
 
 
-## 05推理时的完整流程
+## 05 推理时的完整流程
 
 
 
@@ -614,17 +614,17 @@ V 没有位置段。RoPE 只用来决定"看谁"，也就是分数；V 是"看�
 
     1. h_t 进来
 
-    2. 算 c_t = W_DKV · h_t                     → 追加进缓存
+    2. 算 c_t = W_DKV · h_t → 追加进缓存
 
-    3. 算 k_tᴿ = RoPE_t(W_KR · h_t)              → 追加进缓存
+    3. 算 k_tᴿ = RoPE_t(W_KR · h_t) → 追加进缓存
 
     4. 每个头：
 
-         q̃ = (W_UKᵀ · W_Q) · h_t                 内容 query，已吸收
+         q̃ = (W_UKᵀ · W_Q) · h_t 内容 query，已吸收
 
-         qᴿ = RoPE_t(W_QR · h_t)                 位置 query
+         qᴿ = RoPE_t(W_QR · h_t) 位置 query
 
-         score_s = q̃ · c_s + qᴿ · k_sᴿ           对缓存里每个 s
+         score_s = q̃ · c_s + qᴿ · k_sᴿ 对缓存里每个 s
 
     5. softmax，对 c 加权求和，再乘一次 (W_O · W_UV)，已吸收
 
@@ -672,9 +672,9 @@ V 没有位置段。RoPE 只用来决定"看谁"，也就是分数；V 是"看�
 
 
 
-    标准多头注意力（MHA）：K、V 各 128 × 128    = 32768 个数
+    标准多头注意力（MHA）：K、V 各 128 × 128 = 32768 个数
 
-    MLA + 解耦 RoPE：      c 512 + kᴿ 64         = 576 个数
+    MLA + 解耦 RoPE： c 512 + kᴿ 64 = 576 个数
 
 
 
@@ -732,9 +732,9 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
     def rope(x, pos, base=10000.0):
 
-        """对最后一维做 RoPE，相邻两维一组：(0,1), (2,3), ...
+        ""“对最后一维做 RoPE，相邻两维一组：(0,1), (2,3), ...
 
-        x:   (..., T, d)，d 为偶数
+        x: (..., T, d)，d 为偶数
 
         pos: (T,) 每个词的位置
 
@@ -744,9 +744,9 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
         i = torch.arange(0, d, 2, dtype=x.dtype)
 
-        theta = base ** (-i / d)                              # (d/2,)
+        theta = base ** (-i / d) # (d/2,)
 
-        ang = pos[:, None].to(x.dtype) * theta[None, :]       # (T, d/2)
+        ang = pos[:, None].to(x.dtype) * theta[None, :] # (T, d/2)
 
         cos, sin = ang.cos(), ang.sin()
 
@@ -786,23 +786,23 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
             # 内容这一路：和上一期相同
 
-            self.W_Q   = nn.Linear(d_model, n_heads * self.d_h, bias=False)
+            self.W_Q = nn.Linear(d_model, n_heads * self.d_h, bias=False)
 
             self.W_DKV = nn.Linear(d_model, d_c, bias=False)
 
-            self.W_UK  = nn.Linear(d_c, n_heads * self.d_h, bias=False)
+            self.W_UK = nn.Linear(d_c, n_heads * self.d_h, bias=False)
 
-            self.W_UV  = nn.Linear(d_c, n_heads * self.d_h, bias=False)
+            self.W_UV = nn.Linear(d_c, n_heads * self.d_h, bias=False)
 
             # 位置这一路：本期新增
 
-            self.W_QR  = nn.Linear(d_model, n_heads * d_rope, bias=False)  # 每个头一份
+            self.W_QR = nn.Linear(d_model, n_heads * d_rope, bias=False) # 每个头一份
 
-            self.W_KR  = nn.Linear(d_model, d_rope, bias=False)            # 所有头共用一份
+            self.W_KR = nn.Linear(d_model, d_rope, bias=False) # 所有头共用一份
 
 
 
-            self.W_O   = nn.Linear(n_heads * self.d_h, d_model, bias=False)
+            self.W_O = nn.Linear(n_heads * self.d_h, d_model, bias=False)
 
             self.scale = 1.0 / math.sqrt(self.d_h + d_rope)
 
@@ -810,11 +810,11 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
         def cache(self, h, pos):
 
-            """缓存里只有这两样"""
+            ""”缓存里只有这两样“""
 
-            c = self.W_DKV(h)                       # (T, d_c)
+            c = self.W_DKV(h) # (T, d_c)
 
-            k_R = rope(self.W_KR(h), pos)           # (T, d_rope)，旋转后直接存
+            k_R = rope(self.W_KR(h), pos) # (T, d_rope)，旋转后直接存
 
             return c, k_R
 
@@ -824,9 +824,9 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
             T = h.shape[0]
 
-            q_C = self.W_Q(h).view(T, self.n_heads, self.d_h).transpose(0, 1)       # (n_h, T, d_h)
+            q_C = self.W_Q(h).view(T, self.n_heads, self.d_h).transpose(0, 1) # (n_h, T, d_h)
 
-            q_R = self.W_QR(h).view(T, self.n_heads, self.d_rope).transpose(0, 1)   # (n_h, T, d_rope)
+            q_R = self.W_QR(h).view(T, self.n_heads, self.d_rope).transpose(0, 1) # (n_h, T, d_rope)
 
             q_R = rope(q_R, pos)
 
@@ -840,7 +840,7 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
             mask = torch.triu(torch.ones(T, T, dtype=torch.bool), diagonal=1)
 
-            scores = scores.masked_fill(mask, float("-inf"))   # 因果掩码，每一层都要
+            scores = scores.masked_fill(mask, float("-inf")) # 因果掩码，每一层都要
 
             return F.softmax(scores, dim=-1)
 
@@ -848,7 +848,7 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
         def forward_naive(self, h):
 
-            """训练 / prefill 的写法：还原 K、V，内容段和位置段拼接"""
+            ""”训练 / prefill 的写法：还原 K、V，内容段和位置段拼接“""
 
             T = h.shape[0]
 
@@ -860,19 +860,19 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
 
 
-            k_C = self.W_UK(c).view(T, self.n_heads, self.d_h).transpose(0, 1)   # (n_h, T, d_h)
+            k_C = self.W_UK(c).view(T, self.n_heads, self.d_h).transpose(0, 1) # (n_h, T, d_h)
 
-            v   = self.W_UV(c).view(T, self.n_heads, self.d_h).transpose(0, 1)   # (n_h, T, d_h)
-
-
-
-            q = torch.cat([q_C, q_R], dim=-1)                                     # (n_h, T, d_h + d_rope)
-
-            k = torch.cat([k_C, k_R.expand(self.n_heads, T, self.d_rope)], dim=-1)  # 位置段复制给每个头
+            v = self.W_UV(c).view(T, self.n_heads, self.d_h).transpose(0, 1) # (n_h, T, d_h)
 
 
 
-            attn = self._softmax(q @ k.transpose(-2, -1), T)                      # (n_h, T, T)
+            q = torch.cat([q_C, q_R], dim=-1) # (n_h, T, d_h + d_rope)
+
+            k = torch.cat([k_C, k_R.expand(self.n_heads, T, self.d_rope)], dim=-1) # 位置段复制给每个头
+
+
+
+            attn = self._softmax(q @ k.transpose(-2, -1), T) # (n_h, T, T)
 
             out = (attn @ v).transpose(0, 1).reshape(T, -1)
 
@@ -882,7 +882,7 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
         def forward_absorbed(self, h):
 
-            """推理 decode 的写法：只用缓存里的 c 和 k_R，K、V 从不还原"""
+            ""”推理 decode 的写法：只用缓存里的 c 和 k_R，K、V 从不还原“""
 
             T = h.shape[0]
 
@@ -894,25 +894,25 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
 
 
-            W_UK = self.W_UK.weight.view(self.n_heads, self.d_h, self.d_c)   # (n_h, d_h, d_c)
+            W_UK = self.W_UK.weight.view(self.n_heads, self.d_h, self.d_c) # (n_h, d_h, d_c)
 
             W_UV = self.W_UV.weight.view(self.n_heads, self.d_h, self.d_c)
 
 
 
-            q_tilde = q_C @ W_UK                    # (n_h, T, d_c)  内容 query 吸收 W_UK
+            q_tilde = q_C @ W_UK # (n_h, T, d_c) 内容 query 吸收 W_UK
 
-            score_C = q_tilde @ c.T                 # (n_h, T, T)    内容分数
+            score_C = q_tilde @ c.T # (n_h, T, T) 内容分数
 
-            score_R = q_R @ k_R.T                   # (n_h, T, T)    位置分数，k_R 所有头共用
+            score_R = q_R @ k_R.T # (n_h, T, T) 位置分数，k_R 所有头共用
 
             attn = self._softmax(score_C + score_R, T)
 
 
 
-            latent = attn @ c                       # (n_h, T, d_c)  先在潜在空间加权求和
+            latent = attn @ c # (n_h, T, d_c) 先在潜在空间加权求和
 
-            out = latent @ W_UV.transpose(-2, -1)   # (n_h, T, d_h)  最后才乘一次 W_UV
+            out = latent @ W_UV.transpose(-2, -1) # (n_h, T, d_h) 最后才乘一次 W_UV
 
             out = out.transpose(0, 1).reshape(T, -1)
 
@@ -934,9 +934,9 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
     out_absorbed = mla.forward_absorbed(h)
 
-    print(out_naive.shape)                                        # torch.Size([10, 64])
+    print(out_naive.shape) # torch.Size([10, 64])
 
-    print(torch.allclose(out_naive, out_absorbed, atol=1e-5))     # True
+    print(torch.allclose(out_naive, out_absorbed, atol=1e-5)) # True
 
 
 
@@ -946,7 +946,7 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
 
 
-  * 两条路线唯一的区别，在于内容分数是"先还原 K 再点积"还是"先变换 q 再和 c 点积"。位置分数在两条路线里算法完全相同，因为它本来就没有吸收。
+  * 两条路线唯一的区别，在于内容分数是”先还原 K 再点积“还是”先变换 q 再和 c 点积“。位置分数在两条路线里算法完全相同，因为它本来就没有吸收。
 
   * 
 `k_R.expand(...)`
@@ -962,7 +962,7 @@ DeepSeek-V2 论文给了另一个直观的换算：576 个数，相当于每个�
 
 
 
-## 08小结
+## 08 小结
 
 
 
@@ -997,15 +997,15 @@ k 是否每头不同 | 是（MLA 思路） | 否，所有头共用（MQA 思路�
 
 
   * 
-[从LLaMA到DeepSeek EP1：MLA（上）](/articles/mla/)
+[从 LLaMA 到 DeepSeek EP1：MLA（上）](/articles/mla/)
 
 
   * 
-[从GPT-2到LLaMA EP3：RoPE](/articles/rope/)
+[从 GPT-2 到 LLaMA EP3：RoPE](/articles/rope/)
 
 
   * 
-[从GPT-2到LLaMA EP4：GQA](/articles/gqa/)
+[从 GPT-2 到 LLaMA EP4：GQA](/articles/gqa/)
 （MQA 是它的极端情况）
 
   * 推理优化篇 EP1、EP2：KV Cache 上下

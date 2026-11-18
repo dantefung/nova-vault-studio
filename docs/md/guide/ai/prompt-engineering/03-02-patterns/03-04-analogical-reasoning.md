@@ -4,7 +4,7 @@ date: "2026-05-07"
 source: "微信公众号"
 ---
 
-> **摘要** — 类推提示法（Analogical Reasoning）源自论文 Large Language Models as Analogical Reasoners，让 LLM 先回想与问题相关的知识和案例，再借助这些案例推理解决原问题。相当于让 LLM 自动生成 few-shot 示例和思维链。Prompt 结构为：先列出"相关问题"（3个相关例子），再解决"初始问题"。
+> **摘要** — 类推提示法（Analogical Reasoning）源自论文 Large Language Models as Analogical Reasoners，让 LLM 先回想与问题相关的知识和案例，再借助这些案例推理解决原问题。相当于让 LLM 自动生成 few-shot 示例和思维链。Prompt 结构为：先列出“相关问题”（3 个相关例子），再解决“初始问题”。
 
 ```mermaid
 graph TD

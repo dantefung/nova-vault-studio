@@ -313,13 +313,13 @@ AI 在每个模块都有对应文章：
 
 ### 4. 跨境合规闭环 = 必选
 
-**香港银行 / 香港 Stripe / 水星银行 / 美国 LLC / PayPal / Stripe / Creem** —— 这是一条完整的"个人出海商业账户"路径。
+**香港银行 / 香港 Stripe / 水星银行 / 美国 LLC / PayPal / Stripe / Creem** —— 这是一条完整的“个人出海商业账户”路径。
 
 任何做独立站的个人都必须打通这条线。
 
-### 5. 复盘模块最后说"种树故事"
+### 5. 复盘模块最后说“种树故事”
 
-> "网站出海就是一个种树的故事，浇水施肥，静待开花结果。"
+> “网站出海就是一个种树的故事，浇水施肥，静待开花结果。"
 
 这反映了 indie 创业的真正心态：**慢就是快，资产型增长**。1 年达到月入万刀不是例外，是正常节奏；但前提是**不停地浇水施肥，不问何时开花**。
 
@@ -329,8 +329,8 @@ AI 在每个模块都有对应文章：
 
 ## 关联参考资料
 
-- 同主题文章: `[[sources/ai-virtual-model-account-case-study]]`（AI 独立站案例研究）
-- 同主题文章: `[[sources/xianyu-private-domain-guide]]`（私域流量运营对照）
+- 同主题文章：`[[sources/ai-virtual-model-account-case-study]]`（AI 独立站案例研究）
+- 同主题文章：`[[sources/xianyu-private-domain-guide]]`（私域流量运营对照）
 - 本仓 `[[concepts/ai-content-pipeline]]`（AI 内容流水线方法论）
 - 本仓 `[[concepts/ai-oneperson-company]]`（AI 一人公司方法论）
 - 本仓 `[[concepts/ai-lay-flat-income]]`（AI 躺赚多语种站）

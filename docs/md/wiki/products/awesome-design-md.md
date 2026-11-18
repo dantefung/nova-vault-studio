@@ -3,7 +3,7 @@ title: "DESIGN.md（AI设计系统文档）"
 date: "2026-06-11"
 ---
 
-# DESIGN.md（AI设计系统文档）
+# DESIGN.md（AI 设计系统文档）
 
 > A collection of DESIGN.md files by popular brand design systems. 放进项目，AI 就能按指定风格生成界面。
 
@@ -17,7 +17,7 @@ date: "2026-06-11"
 
 | 类别 | 品牌 |
 |------|------|
-| **AI & LLM平台** | Claude、Cohere、ElevenLabs、Minimax、Mistral AI、Ollama、OpenCode AI、Replicate、Runway、Together AI、VoltAgent、xAI |
+| **AI & LLM 平台** | Claude、Cohere、ElevenLabs、Minimax、Mistral AI、Ollama、OpenCode AI、Replicate、Runway、Together AI、VoltAgent、xAI |
 | **开发者工具 & IDE** | Cursor、Expo、Lovable、Raycast、Superhuman、Vercel、Warp |
 | **后端、数据库 & DevOps** | ClickHouse、Composio、HashiCorp、MongoDB、PostHog、Sanity、Sentry、Supabase |
 | **生产力 & SaaS** | Cal.com、Intercom、Linear、Mintlify、Notion、Resend、Zapier |
@@ -52,7 +52,7 @@ date: "2026-06-11"
 ## Related Pages
 
 - [products/open-design](products/open-design) — 开源 Claude Design 替代
-- [patterns/ui-polish](patterns/ui-polish) — UI精致打磨
+- [patterns/ui-polish](patterns/ui-polish) — UI 精致打磨
 
 ## Sources
 

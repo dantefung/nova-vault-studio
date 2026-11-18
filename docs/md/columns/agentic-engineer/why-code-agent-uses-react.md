@@ -223,7 +223,7 @@ BabyAGI 是早期代表，后续衍生 ReWOO、LLMCompiler，同属规划路线�
 
 SWE-bench 评测也印证：**简单确定任务，LLMCompiler 表现不输甚至优于 ReAct；复杂调试、跨模块根因排查，ReAct 优势明显。**
 
-> **一句话总结边界：Plan-and-Execute 家族适合信息充足的"建造任务"；ReAct 适合信息未知、需要探索的"诊断调试任务"。**
+> **一句话总结边界：Plan-and-Execute 家族适合信息充足的“建造任务”；ReAct 适合信息未知、需要探索的“诊断调试任务”。**
 >
 > 而 Code Agent 日常高频需求，恰恰是 bug 修复、存量代码理解、增量改造这类探索型任务——这也是 ReAct 成为主流的核心原因。
 

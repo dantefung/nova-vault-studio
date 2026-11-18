@@ -77,4 +77,4 @@ url: "https://mp.weixin.qq.com/s/g6wTg7SVXbHrjdX4aEJQxg"
 ---
 
 
-[← 上一篇：07、OpenAI开源Codex Harness](./07-codex-harness-open-source.md) | [→ 专栏首页](./index.md)
+[← 上一篇：07、OpenAI 开源 Codex Harness](./07-codex-harness-open-source.md) | [→ 专栏首页](./index.md)

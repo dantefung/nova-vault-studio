@@ -59,9 +59,9 @@ cd ~/skills/follow-builders/scripts && npm install
 ## Customization
 
 可通过对话配置：
-- "切换到每周一早晨的摘要"
-- "语言改为中文"
-- "让摘要更简短"
+- “切换到每周一早晨的摘要”
+- “语言改为中文”
+- “让摘要更简短”
 
 或直接编辑 `prompts/` 下的文件：
 - `summarize-podcast.md` — 播客摘要方式

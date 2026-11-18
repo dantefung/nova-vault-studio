@@ -24,7 +24,7 @@ date: "2026-06-04"
 | [awesome-design-md](/wiki/sources/awesome-design-md) | 72+ 品牌 DESIGN.md 集合，粘贴即用，AI 按风格生成界面 | 87.8k |
 | [guizang-social-card-skill](/wiki/sources/guizang-social-card-skill) | 小红书图文/公众号封面对，Editorial × Swiss 双视觉系统，28 版式 | 3k |
 | [skillshare](/wiki/sources/skillshare) | 一个命令同步 Skills 到 60+ AI CLI 平台，内置安全审计 | 2.1k |
-| [geju-skill](/wiki/sources/geju-skill) | 专治 Codex "苟帝"综合征，8 种打开格局打法，触发词「格局打开」 | — |
+| [geju-skill](/wiki/sources/geju-skill) | 专治 Codex “苟帝”综合征，8 种打开格局打法，触发词「格局打开」 | — |
 
 ## Product 类（4 个）
 
@@ -32,7 +32,7 @@ date: "2026-06-04"
 |------|--------|-------|
 | [weread-exporter](/wiki/sources/weread-exporter) | 微信读书全本导出，Playwright + Canvas fillText Hook，支持付费书 | 47 |
 | [ai-website-cloner-template](/wiki/sources/ai-website-cloner-template) | 输入 URL 用 AI 克隆网站为 Next.js，/clone-website 单命令 | 16.4k |
-| [go-stock](/wiki/sources/go-stock) | AI 赋能股票分析，市场/个股情绪分析，支持 A股/港股/美股 | 6.1k |
+| [go-stock](/wiki/sources/go-stock) | AI 赋能股票分析，市场/个股情绪分析，支持 A 股/港股/美股 | 6.1k |
 | [AiToEarn](/wiki/sources/aitoearn) | AI 全自动自媒体：内容生产+全平台分发+自动互动+CPS/CPM 变现 | 18.2k |
 
 ---
