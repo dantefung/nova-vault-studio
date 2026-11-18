@@ -133,12 +133,20 @@
 
 .vp-library-recent-item {
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  /* 命名区域必须显式声明：复用团队 arrow 类带着 grid-area: arrow，
+     没有对应区域时会生成隐式轨道，把每行撑成两行 */
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  grid-template-areas: 'title meta arrow';
   align-items: center;
   gap: 14px;
-  padding: 11px 14px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--vp-c-divider);
   border-radius: 8px;
   color: var(--vp-c-text-1);
+}
+
+.vp-library-recent-item:last-child {
+  border-bottom: none;
 }
 
 .vp-library-recent-item:hover {
@@ -147,6 +155,7 @@
 }
 
 .vp-library-recent-title {
+  grid-area: title;
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -154,6 +163,7 @@
 }
 
 .vp-library-recent-meta {
+  grid-area: meta;
   font-size: 13px;
   color: var(--vp-c-text-3);
   white-space: nowrap;
