@@ -21,6 +21,8 @@ CASES = [
     ('在LeanCloud上开发', '在 LeanCloud 上开发', '盘古之白'),
     ('中文语境中的应用, 测试; 结束!', '中文语境中的应用，测试；结束！', '全角标点'),
     ('他说"你好"然后走了', '他说“你好”然后走了', '配对引号'),
+    ('公式 $$KGR=\\frac{intitle:\\text{"关键词"}}{x}$$ 结束', '\\text{"关键词"}', 'LaTeX 行内数学引号'),
+    ('<span style="color: rgb(1,2,3)">1</span> <span style="color: rgb(4,5,6)">2</span>', '<span style="color: rgb(1,2,3)">1</span> <span style="color: rgb(4,5,6)">2</span>', '相邻嵌套 HTML 占位符'),
 ]
 
 def main():

@@ -21,15 +21,23 @@ CJK = '\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff'
 HAN = f'[{CJK}]'
 
 
+# 占位符用「数字 + 固定字母后缀」而非纯数字，避免相邻占位符
+# \x001\x00 与 \x002\x001\x00 互相嵌套时，替换 slot 1 误伤 slot 2 的数字。
+PH = lambda i: f'\x00{i}z\x00'
+
+
 def protect(line: str):
-    """把行内代码与 URL 换成占位符，避免被改写。"""
+    """把行内代码、HTML 标签与 URL 换成占位符，避免被改写。"""
     slots = []
 
     def stash(m):
         slots.append(m.group(0))
-        return f'\x00{len(slots) - 1}\x00'
+        return PH(len(slots) - 1)
 
     text = re.sub(r'`[^`]*`', stash, line)
+    # 行内 LaTeX 数学（$...$ / $$...$$）也保护：里面的 \text{"关键词"} 等
+    # 引号是语法，不能被改成弯引号。
+    text = re.sub(r'\$\$[^$]+\$\$|\$[^$\n]+\$', stash, text)
     # 先保护 HTML 标签，再保护 URL：
     # 若先处理 URL，<a href="https://x"> 里的 URL 会把后面的 ">文本</a> 一起吞掉，
     # 留下一个裸 " 被配对引号改坏。先保护整段标签即可避免。
@@ -42,10 +50,10 @@ def restore(text: str, slots):
     # 多次遍历直到没有占位符：HTML 标签内可能嵌着 URL/代码占位符（嵌套占位），
     # 单次正序遍历会把外层还原后带出的内层占位符留在结果里，最终变成 NUL 字节。
     for _ in range(len(slots) + 1):
-        if not re.search(r'\x00\d+\x00', text):
+        if not re.search(r'\x00\d+z\x00', text):
             break
         for i, s in enumerate(slots):
-            text = text.replace(f'\x00{i}\x00', s)
+            text = text.replace(PH(i), s)
     return text
 
 
@@ -97,6 +105,7 @@ def process(path: Path, apply: bool = False):
     prepared = []
     in_fm = False
     in_code = False
+    in_math = False
     for i, line in enumerate(lines):
         s = line.strip()
         if i == 0 and s == '---':
@@ -114,6 +123,16 @@ def process(path: Path, apply: bool = False):
             continue
         if in_code:
             prepared.append((line, None, None))
+            continue
+        # 跨行 $$...$$ 数学块整段跳过（单行 $$ 已在 protect() 中保护）
+        if s.startswith('$$') and s.count('$$') == 1:
+            in_math = not in_math
+            prepared.append((line, None, None))
+            continue
+        if in_math:
+            prepared.append((line, None, None))
+            if '$$' in s:
+                in_math = False
             continue
         text, slots = protect(line)
         text = fullwidth_punct(text)
