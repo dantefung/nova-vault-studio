@@ -15,12 +15,14 @@ import '../styles/site.css'
 import '../styles/pages.css'
 import '../styles/tailwind.css'
 import '../styles/landing.css'
+import '../styles/zen.css'
 import Sidebar from '../components/Sidebar.astro'
 import NavBar from '../components/NavBar.astro'
 import Outline from '../components/Outline.astro'
 import ThemeSwitcher from '../components/ThemeSwitcher.astro'
 import LandingThemeSwitcher from '../components/LandingThemeSwitcher.astro'
 import MobileNavSheet from '../components/MobileNavSheet.astro'
+import ZenToggle from '../components/ZenToggle.astro'
 import Giscus from '../components/Giscus.astro'
 import { THEME_INIT_SCRIPT } from '../lib/theme'
 
@@ -108,6 +110,7 @@ const currentPath = Astro.url.pathname
     )}
     {comments && <div class="vp-comments"><Giscus /></div>}
     <div class="vp-float-tools">
+      <ZenToggle />
       <LandingThemeSwitcher />
       <ThemeSwitcher />
       <MobileNavSheet />

@@ -20,6 +20,7 @@ export type LandingTheme = (typeof LANDING_THEMES)[number]
 
 export const THEME_STORAGE_KEY = 'vp-theme'
 export const LANDING_STORAGE_KEY = 'vp-landing-theme'
+export const ZEN_STORAGE_KEY = 'vp-zen'
 
 export const THEME_META: Record<Theme, { label: string; desc: string }> = {
   light: { label: 'Light', desc: '默认浅色' },
@@ -51,6 +52,10 @@ export const THEME_INIT_SCRIPT = `
     var l = localStorage.getItem('${LANDING_STORAGE_KEY}');
     if (!l || ['quiet','easton'].indexOf(l) === -1) l = 'quiet';
     document.documentElement.dataset.landingTheme = l;
+
+    if (localStorage.getItem('${ZEN_STORAGE_KEY}') === '1') {
+      document.documentElement.dataset.zen = 'true';
+    }
   } catch(e) {}
 })();
 `

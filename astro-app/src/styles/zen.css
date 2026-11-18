@@ -1,0 +1,182 @@
+/**
+ * 正文阅读排版增强 + 禅模式
+ *
+ * 1) 所有文档页：改善正文字号/行距/标题层级/段间距（替代浏览器默认）。
+ * 2) 禅模式（html[data-zen]）：隐藏顶栏/侧栏/大纲/页脚/评论，正文居中放大。
+ * 只作用于文档正文容器，与首页 tw-* / 顶栏 vp-nav 等零冲突。
+ * 颜色取 --vp-* 变量，随 light/dark 主题自动切换。
+ */
+
+/* ── 一、正文排版增强（默认生效）───────────────────────── */
+
+.vp-doc .vp-doc-content {
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: var(--vp-c-text-1);
+  letter-spacing: 0.01em;
+}
+
+/* 段落呼吸感：段间距 > 行距，避免糊成一团 */
+.vp-doc .vp-doc-content p {
+  margin: 1.15em 0;
+}
+
+/* 标题层级：字号递减、字重区分、上方留白下方收紧 */
+.vp-doc .vp-doc-content h1,
+.vp-doc .vp-doc-content h2,
+.vp-doc .vp-doc-content h3,
+.vp-doc .vp-doc-content h4 {
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--vp-c-text-1);
+  scroll-margin-top: 76px;
+}
+.vp-doc .vp-doc-content h1 { font-size: 1.9em; margin: 2em 0 0.8em; }
+.vp-doc .vp-doc-content h2 {
+  font-size: 1.5em;
+  margin: 2.2em 0 0.9em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.vp-doc .vp-doc-content h3 { font-size: 1.22em; margin: 1.9em 0 0.7em; }
+.vp-doc .vp-doc-content h4 { font-size: 1.06em; margin: 1.6em 0 0.6em; }
+/* 正文首个 h1 与 DocMeta 标题重复时收紧上边距 */
+.vp-doc .vp-doc-content > h1:first-child { margin-top: 0.5em; }
+
+/* 列表 */
+.vp-doc .vp-doc-content ul,
+.vp-doc .vp-doc-content ol {
+  margin: 1em 0;
+  padding-left: 1.6em;
+}
+.vp-doc .vp-doc-content li { margin: 0.4em 0; }
+.vp-doc .vp-doc-content li::marker { color: var(--vp-c-brand-1); }
+
+/* 引用块：品牌色左边框 + 柔和背景 */
+.vp-doc .vp-doc-content blockquote {
+  margin: 1.5em 0;
+  padding: 0.8em 1.2em;
+  border-left: 3px solid var(--vp-c-brand-1);
+  border-radius: 0 8px 8px 0;
+  background: color-mix(in srgb, var(--vp-c-brand-1) 6%, var(--vp-c-bg));
+  color: var(--vp-c-text-2);
+}
+
+/* 行内代码：不再与粗体混淆，加柔和底色与字重 */
+.vp-doc .vp-doc-content :not(pre) > code {
+  font-size: 0.9em;
+  font-weight: 500;
+  background: color-mix(in srgb, var(--vp-c-brand-1) 10%, var(--vp-c-bg-soft));
+  color: var(--vp-c-brand-1);
+  border-radius: 5px;
+  padding: 0.15em 0.45em;
+}
+
+/* 代码块：行距与内边距更舒展 */
+.vp-doc .vp-doc-content pre {
+  line-height: 1.65;
+  padding: 18px 20px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+/* 表格：斑马纹提升可读性 */
+.vp-doc .vp-doc-content tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--vp-c-text-1) 3%, transparent);
+}
+
+/* 分隔线 */
+.vp-doc .vp-doc-content hr {
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+  margin: 2.5em 0;
+}
+
+/* ── 二、禅模式 ────────────────────────────────────────── */
+
+/* 隐藏周边 chrome，正文独占视口 */
+html[data-zen] .vp-nav,
+html[data-zen] .vp-sidebar,
+html[data-zen] .vp-outline,
+html[data-zen] .vp-footer,
+html[data-zen] .vp-comments,
+html[data-zen] .vp-skip-link,
+html[data-zen] .vp-float-tools > *:not(.vp-zen-toggle) {
+  display: none !important;
+}
+
+/* 单列居中，去掉三栏网格与内边距 */
+html[data-zen] .vp-shell {
+  grid-template-columns: minmax(0, 1fr) !important;
+  max-width: 860px;
+  padding: 0 32px;
+  gap: 0;
+}
+html[data-zen] .vp-main {
+  padding: 0 0 120px;
+}
+
+/* 正文居中、行宽与字号放大 */
+html[data-zen] .vp-doc {
+  max-width: 100%;
+  margin: 0 auto;
+}
+html[data-zen] .vp-doc .vp-doc-content {
+  font-size: 18px;
+  line-height: 1.95;
+  letter-spacing: 0.015em;
+}
+html[data-zen] .vp-doc .vp-doc-title {
+  font-size: 2.4em;
+  line-height: 1.25;
+  margin-bottom: 1.2em;
+}
+html[data-zen] .vp-doc .vp-doc-meta {
+  font-size: 14px;
+  gap: 20px;
+  margin-bottom: 3em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+/* 禅模式下的开关固定在右下角，半透明、hover 显现 */
+html[data-zen] .vp-zen-toggle {
+  position: fixed;
+  opacity: 0.35;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+html[data-zen] .vp-zen-toggle:hover { opacity: 1; transform: scale(1.06); }
+
+/* ── 三、禅模式开关按钮 ────────────────────────────────── */
+
+.vp-zen-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-elv);
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+.vp-zen-toggle:hover {
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+.vp-zen-toggle[aria-pressed='true'] {
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  border-color: var(--vp-c-brand-1);
+}
+.vp-zen-toggle-label { font-size: 12px; }
+
+@media (max-width: 768px) {
+  html[data-zen] .vp-shell { padding: 0 20px; }
+  html[data-zen] .vp-doc .vp-doc-content { font-size: 17px; line-height: 1.9; }
+}

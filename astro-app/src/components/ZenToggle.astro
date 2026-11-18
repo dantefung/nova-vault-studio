@@ -1,0 +1,60 @@
+---
+/**
+ * 禅模式开关（沉浸式阅读）
+ *
+ * 切换 html[data-zen]：隐藏顶栏/侧栏/大纲/页脚/评论，正文居中放大。
+ * 状态存 localStorage，首屏由 THEME_INIT_SCRIPT 同步应用（无闪烁）。
+ * 键盘快捷键 Z 切换（输入焦点时不触发）。
+ */
+import { ZEN_STORAGE_KEY } from '../lib/theme'
+---
+
+<button
+  type="button"
+  class="vp-zen-toggle"
+  id="vp-zen-toggle"
+  aria-label="切换禅模式"
+  aria-pressed="false"
+  title="禅模式（专注阅读，快捷键 Z）"
+>
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 3v3M12 18v3M3 12h3M18 12h3" />
+    <circle cx="12" cy="12" r="4" />
+  </svg>
+  <span class="vp-zen-toggle-label">禅</span>
+</button>
+
+<script define:vars={{ ZEN_STORAGE_KEY }}>
+  const btn = document.getElementById('vp-zen-toggle')
+  const root = document.documentElement
+
+  function applyZen(on) {
+    if (on) root.dataset.zen = 'true'
+    else delete root.dataset.zen
+    btn?.setAttribute('aria-pressed', String(on))
+  }
+
+  applyZen(root.dataset.zen === 'true')
+
+  btn?.addEventListener('click', () => {
+    const on = root.dataset.zen !== 'true'
+    applyZen(on)
+    try {
+      if (on) localStorage.setItem(ZEN_STORAGE_KEY, '1')
+      else localStorage.removeItem(ZEN_STORAGE_KEY)
+    } catch (e) {}
+  })
+
+  document.addEventListener('keydown', (e) => {
+    const tag = (e.target.tagName || '').toLowerCase()
+    if (tag === 'input' || tag === 'textarea' || e.target.isContentEditable) return
+    if (e.key === 'z' || e.key === 'Z') {
+      const on = root.dataset.zen !== 'true'
+      applyZen(on)
+      try {
+        if (on) localStorage.setItem(ZEN_STORAGE_KEY, '1')
+        else localStorage.removeItem(ZEN_STORAGE_KEY)
+      } catch (err) {}
+    }
+  })
+</script>
