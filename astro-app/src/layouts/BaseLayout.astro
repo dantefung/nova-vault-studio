@@ -13,9 +13,11 @@
  */
 import '../styles/site.css'
 import '../styles/pages.css'
+import { ClientRouter } from 'astro:transitions'
 import '../styles/tailwind.css'
 import '../styles/landing.css'
 import '../styles/zen.css'
+import '../styles/modern.css'
 import Sidebar from '../components/Sidebar.astro'
 import NavBar from '../components/NavBar.astro'
 import Outline from '../components/Outline.astro'
@@ -72,6 +74,8 @@ const currentPath = Astro.url.pathname
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    {/* Astro View Transitions：页面间无刷新淡入，现代 Astro 的标志性能力 */}
+    <ClientRouter />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     {canonical && <link rel="canonical" href={canonical} />}
@@ -86,6 +90,8 @@ const currentPath = Astro.url.pathname
     <script is:inline set:html={THEME_INIT_SCRIPT}></script>
   </head>
   <body class={bodyClass}>
+    {/* 阅读进度条（顶部细线） */}
+    <div class="vp-progress" aria-hidden="true"><div class="vp-progress-fill" id="vp-progress-fill"></div></div>
     {/* 键盘用户第一个 Tab 停靠点：跳过顶栏和 100+ 条侧边栏链接直达正文 */}
     <a class="vp-skip-link" href="#vp-main">跳到正文</a>
     {!bare && <NavBar currentPath={currentPath} />}
@@ -117,6 +123,7 @@ const currentPath = Astro.url.pathname
     </div>
     <script>
       import '../scripts/theme-client.ts'
+      import '../scripts/reading.ts'
     </script>
     <script>
       import '../scripts/islands.ts'

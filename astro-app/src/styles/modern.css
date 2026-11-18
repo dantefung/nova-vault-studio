@@ -1,0 +1,305 @@
+/**
+ * Modern theme — 现代 Astro 文档站设计语言
+ *
+ * 这是一套完整的视觉层，覆盖 VitePress 遗留的 vp-* 外观：
+ * - Inter（拉丁）+ 霞鹜文楷（中文标题）字体
+ * - OKLCH 色彩：柔和的靛紫强调色、分层中性色
+ * - 玻璃感顶栏、卡片式侧边栏、编辑式正文、带滚动高亮的大纲
+ *
+ * 通过 html[data-theme] 切换 light/dark；所有颜色走 CSS 变量，
+ * 与既有主题脚本、禅模式零冲突。加载顺序在最后，覆盖旧样式。
+ */
+
+/* 只用 Inter（拉丁）：中文由系统字体栈渲染。
+   霞鹜文楷单字重就 7–9MB，全量引入会拖慢 4000+ 页，故不加载。 */
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+/* ── 设计 token ─────────────────────────────────────────── */
+:root {
+  --ui-accent: oklch(0.58 0.2 265);
+  --ui-accent-2: oklch(0.62 0.17 290);
+  --ui-accent-soft: oklch(0.58 0.2 265 / 0.1);
+  --ui-accent-ink: oklch(0.45 0.19 265);
+
+  --ui-font: 'Inter', ui-sans-serif, system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --ui-font-serif: 'LXGW WenKai', Georgia, 'Songti SC', serif;
+  --ui-mono: 'SFMono-Regular', ui-monospace, 'Menlo', 'Consolas', monospace;
+
+  --ui-radius: 14px;
+  --ui-radius-sm: 9px;
+  --ui-shadow: 0 1px 2px oklch(0 0 0 / 0.04), 0 8px 24px -12px oklch(0.4 0.05 265 / 0.18);
+}
+
+.dark {
+  --ui-accent: oklch(0.72 0.16 265);
+  --ui-accent-2: oklch(0.74 0.14 290);
+  --ui-accent-soft: oklch(0.72 0.16 265 / 0.16);
+  --ui-accent-ink: oklch(0.85 0.12 265);
+}
+
+/* ── 全局字体与渲染 ─────────────────────────────────────── */
+html {
+  font-family: var(--ui-font);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--ui-font);
+}
+
+/* ── 顶栏：玻璃感 ───────────────────────────────────────── */
+.vp-nav {
+  background: color-mix(in oklab, var(--vp-c-bg) 78%, transparent);
+  backdrop-filter: saturate(1.6) blur(14px);
+  -webkit-backdrop-filter: saturate(1.6) blur(14px);
+  border-bottom: 1px solid color-mix(in oklab, var(--vp-c-divider) 70%, transparent);
+}
+.vp-nav-inner {
+  height: 60px;
+}
+.vp-nav-brand {
+  font-family: var(--ui-font);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+.vp-nav-brand::before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  background: linear-gradient(135deg, var(--ui-accent), var(--ui-accent-2));
+  box-shadow: 0 2px 8px -2px var(--ui-accent);
+}
+.vp-nav-links > a,
+.vp-nav-group-title {
+  font-family: var(--ui-font);
+  font-size: 13.5px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 6px 9px;
+  transition: color 0.15s, background 0.15s;
+}
+.vp-nav-links > a:hover,
+.vp-nav-group-title:hover {
+  background: var(--vp-c-bg-soft);
+}
+.vp-nav-links > a.is-active,
+.vp-nav-group-title.is-active {
+  background: var(--ui-accent-soft);
+  color: var(--ui-accent-ink);
+}
+.vp-nav-group ul {
+  border-radius: var(--ui-radius);
+  border: 1px solid var(--vp-c-divider);
+  box-shadow: var(--ui-shadow);
+  padding: 6px;
+  backdrop-filter: blur(10px);
+}
+.vp-nav-group ul li a {
+  border-radius: 7px;
+  font-size: 13px;
+}
+
+/* ── 布局：更宽的正文、独立的侧栏卡片 ───────────────────── */
+.vp-shell.has-sidebar {
+  grid-template-columns: 258px minmax(0, 1fr) 232px;
+  gap: 40px;
+}
+.vp-main {
+  padding: 40px 0 96px;
+}
+
+/* ── 侧边栏：卡片式导航 ─────────────────────────────────── */
+.vp-sidebar {
+  border-right: none;
+  padding: 40px 8px 60px 0;
+}
+.vp-sidebar-title {
+  font-family: var(--ui-font);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+  padding: 0 12px;
+  margin: 14px 0 6px;
+}
+.vp-sidebar-link {
+  border-radius: 8px;
+  padding: 7px 12px;
+  border-left: none;
+  font-size: 13.5px;
+  color: var(--vp-c-text-2);
+  transition: background 0.15s, color 0.15s;
+}
+.vp-sidebar-link:hover {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+}
+.vp-sidebar-link[aria-current='page'] {
+  background: var(--ui-accent-soft);
+  color: var(--ui-accent-ink);
+  font-weight: 600;
+  border-left: none;
+  box-shadow: inset 2px 0 0 var(--ui-accent);
+}
+.vp-sidebar-summary {
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+.vp-sidebar-summary::before { left: -2px; color: var(--ui-accent); }
+.vp-sidebar-list { margin-left: 10px; border-left: 1px solid var(--vp-c-divider); padding-left: 4px; }
+
+/* ── 正文：编辑式排版 ───────────────────────────────────── */
+.vp-doc { max-width: 760px; }
+.vp-doc-title {
+  font-family: var(--ui-font);
+  font-size: clamp(30px, 4vw, 42px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  background: linear-gradient(120deg, var(--vp-c-text-1) 30%, var(--ui-accent-ink));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.vp-doc-hero {
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 28px;
+  margin-bottom: 8px;
+}
+.vp-doc-lead {
+  font-family: var(--ui-font);
+  color: var(--vp-c-text-2);
+}
+.vp-doc-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: var(--vp-c-bg-soft);
+  font-size: 12px;
+}
+.vp-doc-meta-item::before {
+  content: '';
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--ui-accent);
+}
+
+/* 正文标题层级（覆盖 zen.css 的同名规则，保持一致口径） */
+.vp-doc .vp-doc-content h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.vp-doc .vp-doc-content h2::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  margin-right: 10px;
+  vertical-align: -0.12em;
+  border-radius: 2px;
+  background: linear-gradient(var(--ui-accent), var(--ui-accent-2));
+}
+
+/* 链接：下划线动效 */
+.vp-doc .vp-doc-content a:not(.header-anchor) {
+  text-decoration: underline;
+  text-decoration-color: var(--ui-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-opacity: 0.5;
+  transition: text-decoration-color 0.15s;
+}
+.vp-doc .vp-doc-content a:hover { text-decoration-color: var(--ui-accent); text-decoration-opacity: 1; }
+
+/* 代码块：更精致的容器 */
+.vp-doc .vp-doc-content pre {
+  border: 1px solid color-mix(in oklab, var(--vp-c-divider) 80%, transparent);
+  border-radius: var(--ui-radius);
+  box-shadow: var(--ui-shadow);
+}
+.vp-doc .vp-doc-content :not(pre) > code {
+  border-radius: 5px;
+}
+
+/* ── 右侧大纲：滚动高亮 ─────────────────────────────────── */
+.vp-outline {
+  border-left: 1px solid var(--vp-c-divider);
+  padding-left: 14px;
+}
+.vp-outline-title {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+  font-weight: 700;
+}
+.vp-outline-item a {
+  border-radius: 6px;
+  padding: 5px 9px;
+  margin-left: -9px;
+  font-size: 12.5px;
+  transition: color 0.15s, background 0.15s;
+}
+.vp-outline-item a:hover { background: var(--vp-c-bg-soft); }
+.vp-outline-item a.is-active {
+  color: var(--ui-accent-ink);
+  background: var(--ui-accent-soft);
+  font-weight: 600;
+}
+
+/* ── 阅读进度条 ─────────────────────────────────────────── */
+.vp-progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  z-index: 60;
+  pointer-events: none;
+  background: transparent;
+}
+.vp-progress-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--ui-accent), var(--ui-accent-2));
+  box-shadow: 0 0 10px var(--ui-accent);
+  transition: width 0.08s linear;
+}
+
+/* ── 浮动工具：更收敛 ───────────────────────────────────── */
+.vp-theme-switch,
+.vp-zen-toggle {
+  box-shadow: var(--ui-shadow);
+  border-color: color-mix(in oklab, var(--vp-c-divider) 70%, transparent);
+}
+.vp-zen-toggle[aria-pressed='true'] {
+  background: linear-gradient(135deg, var(--ui-accent), var(--ui-accent-2));
+}
+
+/* ── 页脚 ───────────────────────────────────────────────── */
+.vp-footer {
+  background: color-mix(in oklab, var(--vp-c-bg-soft) 60%, transparent);
+}
+
+/* ── View Transition：页面切换淡入 ──────────────────────── */
+::view-transition-old(root) { animation: 180ms ease both fade-out; }
+::view-transition-new(root) { animation: 260ms ease both fade-in; }
+@keyframes fade-out { to { opacity: 0; } }
+@keyframes fade-in { from { opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) { animation: none; }
+}

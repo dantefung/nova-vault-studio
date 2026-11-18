@@ -75,7 +75,7 @@ export default defineConfig({
       },
     },
     ssr: {
-      noExternal: ['@fontsource/lxgw-wenkai'],
+      noExternal: [],
     },
     // docs/md 下有 4000+ 文件，Vite 的 glob 扫描要放开
     server: {
