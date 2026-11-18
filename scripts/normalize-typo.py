@@ -120,7 +120,10 @@ def process(path: Path, apply: bool = False):
         text = pangu(text)
         prepared.append((line, text, slots))
 
-    # 2) 跨行配对引号（此时代码/URL 仍是占位符，不会被误改）
+    # 2) 跨行配对引号（此时代码/URL 仍是占位符，不会被误改）。
+    #    安全护栏：只有紧邻汉字的直引号才参与配对（中文文案的引号）。
+    #    代码里的字符串字面量（如 {"role": "user"}）两侧都是 ASCII 标点/字母，
+    #    永不触发 —— 即使围栏计数在某篇长文里漂移、代码块被误判为正文也不会坏。
     dq = 0
     out = []
     for orig, text, slots in prepared:
@@ -128,12 +131,19 @@ def process(path: Path, apply: bool = False):
             out.append(orig)
             continue
         buf = []
-        for ch in text:
+        for pos, ch in enumerate(text):
             if ch == '"':
-                buf.append('“' if dq % 2 == 0 else '”')
-                dq += 1
+                prev_is_han = pos > 0 and re.match(HAN, text[pos - 1])
+                next_is_han = pos + 1 < len(text) and re.match(HAN, text[pos + 1])
+                if prev_is_han or next_is_han:
+                    buf.append('“' if dq % 2 == 0 else '”')
+                    dq += 1
+                else:
+                    buf.append(ch)
             elif ch == "'":
-                buf.append('’')
+                prev_is_han = pos > 0 and re.match(HAN, text[pos - 1])
+                next_is_han = pos + 1 < len(text) and re.match(HAN, text[pos + 1])
+                buf.append('’' if (prev_is_han or next_is_han) else ch)
             else:
                 buf.append(ch)
         # 最后一步才还原被保护的行内代码与 URL
