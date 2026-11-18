@@ -9,6 +9,7 @@
 
 import { defineConfig } from 'astro/config'
 import sitemap from '@astrojs/sitemap'
+import tailwindcss from '@tailwindcss/vite'
 import copyMdAssets from './integrations/copy-md-assets.mjs'
 
 // repo 根目录（astro-app 的父目录）
@@ -62,6 +63,8 @@ export default defineConfig({
     service: { entrypoint: 'astro/assets/services/noop' },
   },
   vite: {
+    // Tailwind v4 通过 Vite 插件编译，扫描 .astro 里的 utility class。
+    plugins: [tailwindcss()],
     resolve: {
       alias: {
         '@repo': REPO_ROOT,

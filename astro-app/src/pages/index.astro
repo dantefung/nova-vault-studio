@@ -73,50 +73,69 @@ function formatMeta(entry: any): string {
   landingTheme="quiet"
   bodyClass="vp-landing"
 >
-  <main class="vp-landing-main">
-    <section class="vp-library-hero" aria-labelledby="vp-library-title">
-      <p class="vp-library-kicker">A PERSONAL KNOWLEDGE LIBRARY</p>
-      <h1 id="vp-library-title">A personal knowledge library</h1>
-      <p class="vp-library-lead">把零散知识，整理成可以反复使用的系统。</p>
-      <p class="vp-library-description">
-        AI、开发、商业、书籍与长期学习的工作记录。安静地阅读，清楚地找到下一步。
-      </p>
-      <div class="vp-library-actions">
-        <SearchBox variant="hero" />
-        <a href="/md/guide/getting-started" class="vp-library-action">开始阅读 <span aria-hidden="true">→</span></a>
+  <main class="tw-landing">
+    <!-- Hero：柔和渐变背景 + 大标题 + 搜索/CTA -->
+    <section class="tw-hero" aria-labelledby="vp-library-title">
+      <div class="tw-hero-glow" aria-hidden="true"></div>
+      <div class="tw-hero-inner">
+        <span class="tw-kicker">
+          <span class="tw-kicker-dot" aria-hidden="true"></span>
+          A PERSONAL KNOWLEDGE LIBRARY
+        </span>
+        <h1 id="vp-library-title" class="tw-hero-title">
+          A personal <span class="tw-hero-accent">knowledge</span> library
+        </h1>
+        <p class="tw-hero-lead">把零散知识，整理成可以反复使用的系统。</p>
+        <p class="tw-hero-sub">
+          AI、开发、商业、书籍与长期学习的工作记录。安静地阅读，清楚地找到下一步。
+        </p>
+        <div class="tw-hero-actions">
+          <SearchBox variant="hero" />
+          <a href="/md/guide/getting-started" class="btn btn-primary tw-cta">
+            开始阅读 <span aria-hidden="true">→</span>
+          </a>
+        </div>
       </div>
     </section>
 
-    <section class="vp-library-section" aria-labelledby="vp-library-start-title">
-      <div class="vp-library-heading">
-        <p class="vp-library-kicker">EXPLORE THE LIBRARY</p>
+    <!-- 分类入口：悬浮卡片 + 编号 -->
+    <section class="tw-section" aria-labelledby="vp-library-start-title">
+      <div class="tw-section-head">
+        <span class="tw-kicker">EXPLORE THE LIBRARY</span>
         <h2 id="vp-library-start-title">知识分类入口</h2>
+        <p class="tw-section-sub">从八个方向进入这座持续生长的知识库</p>
       </div>
-      <div class="vp-library-grid">
+      <div class="tw-grid">
         {
-          libraryEntries.map((entry) => (
-            <a href={entry.href} class:list={['vp-library-entry', { 'is-featured': entry.featured }]}>
-              <span class="vp-library-entry-label">{entry.label}</span>
-              <span class="vp-library-entry-description">{entry.description}</span>
-              <span class="vp-library-entry-arrow" aria-hidden="true">↗</span>
+          libraryEntries.map((entry, i) => (
+            <a href={entry.href} class:list={['tw-card', { 'tw-card-featured': entry.featured }]}>
+              <span class="tw-card-index">{String(i + 1).padStart(2, '0')}</span>
+              <span class="tw-card-label">{entry.label}</span>
+              <span class="tw-card-desc">{entry.description}</span>
+              <span class="tw-card-arrow" aria-hidden="true">↗</span>
             </a>
           ))
         }
       </div>
     </section>
 
-    <section class="vp-library-section" aria-labelledby="vp-library-recent-title">
-      <div class="vp-library-heading">
-        <p class="vp-library-kicker">RECENTLY ADDED</p>
+    <!-- 最近更新：紧凑列表 + 徽章 -->
+    <section class="tw-section" aria-labelledby="vp-library-recent-title">
+      <div class="tw-section-head">
+        <span class="tw-kicker">RECENTLY ADDED</span>
         <h2 id="vp-library-recent-title">最近更新</h2>
+        <p class="tw-section-sub">最新收录的文章与笔记</p>
       </div>
-      <div class="vp-library-recent">
+      <div class="tw-recent">
         {
-          recent.map((item) => (
-            <a href={item.href} class="vp-library-recent-item">
-              <span class="vp-library-recent-title">{item.title}</span>
-              <span class="vp-library-recent-meta">{item.meta}</span>
-              <span class="vp-library-entry-arrow" aria-hidden="true">↗</span>
+          recent.map((item, i) => (
+            <a href={item.href} class="tw-recent-item">
+              <span class="tw-recent-num">{String(i + 1).padStart(2, '0')}</span>
+              <span class="tw-recent-body">
+                <span class="tw-recent-title">{item.title}</span>
+                <span class="badge badge-ghost badge-sm tw-recent-badge">{item.meta}</span>
+              </span>
+              <span class="tw-recent-arrow" aria-hidden="true">↗</span>
             </a>
           ))
         }
