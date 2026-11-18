@@ -31,6 +31,9 @@ def protect(line: str):
 
     text = re.sub(r'`[^`]*`', stash, line)
     text = re.sub(r'https?://\S+', stash, text)
+    # 裸 HTML 标签（含属性引号，如 <table tabindex="0">）同样要保护，
+    # 否则配对引号会把属性里的直引号改成弯引号、破坏 HTML。
+    text = re.sub(r'<[A-Za-z/][^>]*>', stash, text)
     return text, slots
 
 
@@ -41,19 +44,29 @@ def restore(text: str, slots):
 
 
 def fullwidth_punct(text: str) -> str:
-    """中文语境中的半角 , ; : ? ! 转全角；纯英文上下文保持半角。"""
+    """中文语境中的半角 , ; : ? ! 转全角；纯英文上下文保持半角。
+
+    半角标点常写作 ", "（逗号后带空格），转全角后空格须一并去掉，
+    否则会留下 "， "（全角标点后带空格），违反「全角标点与其他字符之间不加空格」。
+    """
     mapping = {',': '，', ';': '；', ':': '：', '?': '？', '!': '！'}
     out = []
-    for i, ch in enumerate(text):
+    i = 0
+    while i < len(text):
+        ch = text[i]
         if ch in mapping:
             prev = text[i - 1] if i > 0 else ''
             nxt = text[i + 1] if i + 1 < len(text) else ''
             if re.match(HAN, prev) or re.match(HAN, nxt):
                 out.append(mapping[ch])
+                # 吞掉紧跟的一个半角空格（"， " -> "，"）
+                if i + 1 < len(text) and text[i + 1] == ' ':
+                    i += 1
             else:
                 out.append(ch)
         else:
             out.append(ch)
+        i += 1
     return ''.join(out)
 
 
@@ -72,7 +85,9 @@ def process(path: Path, apply: bool = False):
     raw = path.read_text(encoding='utf-8')
     lines = raw.split('\n')
 
-    # 1) 保护代码与 URL，逐行做标点与盘古之白
+    # 1) 保护代码与 URL，逐行做标点与盘古之白。
+    #    关键：行内代码/URL 在整个变换期间都保持占位符状态，直到最后一步才还原，
+    #    否则步骤 2 的配对引号会篡改代码里的直引号（如 JSON 的 "、"HTML 属性的 "）。
     prepared = []
     in_fm = False
     in_code = False
@@ -80,29 +95,29 @@ def process(path: Path, apply: bool = False):
         s = line.strip()
         if i == 0 and s == '---':
             in_fm = True
-            prepared.append((line, None))
+            prepared.append((line, None, None))
             continue
         if in_fm:
-            prepared.append((line, None))
+            prepared.append((line, None, None))
             if s == '---':
                 in_fm = False
             continue
         if s.startswith('```') or s.startswith('~~~'):
             in_code = not in_code
-            prepared.append((line, None))
+            prepared.append((line, None, None))
             continue
         if in_code:
-            prepared.append((line, None))
+            prepared.append((line, None, None))
             continue
         text, slots = protect(line)
         text = fullwidth_punct(text)
         text = pangu(text)
-        prepared.append((line, restore(text, slots)))
+        prepared.append((line, text, slots))
 
-    # 2) 跨行配对引号
+    # 2) 跨行配对引号（此时代码/URL 仍是占位符，不会被误改）
     dq = 0
     out = []
-    for orig, text in prepared:
+    for orig, text, slots in prepared:
         if text is None:
             out.append(orig)
             continue
@@ -115,7 +130,8 @@ def process(path: Path, apply: bool = False):
                 buf.append('’')
             else:
                 buf.append(ch)
-        out.append(''.join(buf))
+        # 最后一步才还原被保护的行内代码与 URL
+        out.append(restore(''.join(buf), slots))
 
     new_text = '\n'.join(out)
     changes = sum(1 for a, b in zip(lines, out) if a != b)
