@@ -470,7 +470,6 @@ Deepseek V3 生成
 
 ```
 
-**如果觉得对你有帮助的话麻烦给个赞👍或者喜欢🩷，或者转发给需要的朋友们**
 
 [img-0]:images/04-01-cover-prompt/p01.webp
 
