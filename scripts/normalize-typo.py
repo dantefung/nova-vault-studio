@@ -30,16 +30,22 @@ def protect(line: str):
         return f'\x00{len(slots) - 1}\x00'
 
     text = re.sub(r'`[^`]*`', stash, line)
-    text = re.sub(r'https?://\S+', stash, text)
-    # 裸 HTML 标签（含属性引号，如 <table tabindex="0">）同样要保护，
-    # 否则配对引号会把属性里的直引号改成弯引号、破坏 HTML。
+    # 先保护 HTML 标签，再保护 URL：
+    # 若先处理 URL，<a href="https://x"> 里的 URL 会把后面的 ">文本</a> 一起吞掉，
+    # 留下一个裸 " 被配对引号改坏。先保护整段标签即可避免。
     text = re.sub(r'<[A-Za-z/][^>]*>', stash, text)
+    text = re.sub(r'https?://\S+', stash, text)
     return text, slots
 
 
 def restore(text: str, slots):
-    for i, s in enumerate(slots):
-        text = text.replace(f'\x00{i}\x00', s)
+    # 多次遍历直到没有占位符：HTML 标签内可能嵌着 URL/代码占位符（嵌套占位），
+    # 单次正序遍历会把外层还原后带出的内层占位符留在结果里，最终变成 NUL 字节。
+    for _ in range(len(slots) + 1):
+        if not re.search(r'\x00\d+\x00', text):
+            break
+        for i, s in enumerate(slots):
+            text = text.replace(f'\x00{i}\x00', s)
     return text
 
 
