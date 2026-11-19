@@ -2102,7 +2102,7 @@ source: "llm-wiki"
 
 - 归档《用问题空间定位法认识 单身汉 DSH（DeepSeek Harness）》至 sources/problem-space-dsh.md（微信公众号：阿海，2026-08-15）
 - 无配图（纯文字短文）
-- 内容摘要：用”问题空间定位法“五步拆解 DSH——它解决的 3 个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是”调度 AI 的运行时“（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude 占”把代码写好“，Pi 占”省上下文“，WorkBuddy 占”分发“，DSH 占”调度+本地“），反直觉事实：DSH 能把 Codex 和 Claude Code 当插件后端调度
+- 内容摘要：用“问题空间定位法”五步拆解 DSH——它解决的 3 个问题（长任务记忆丢失/并行调度胶水代码/本地数据不出机器），本质是“调度 AI 的运行时”（类比操作系统之于进程：调度+通信+权限），生态位对比（Codex/Claude 占“把代码写好”，Pi 占“省上下文”，WorkBuddy 占“分发”，DSH 占“调度+本地”），反直觉事实：DSH 能把 Codex 和 Claude Code 当插件后端调度
 
 ## [2026-08-18] ingest: Hello Harness 04
 
@@ -2202,7 +2202,7 @@ source: "llm-wiki"
 ## [2026-08-19] ingest: 澎湃王侯「普通人如何上牌桌」
 
 - 归档《普通人如何「上牌桌」？》至 sources/penghua-putai-shangpai.md（微信公众号：澎湃王侯，2026-08-19）
-- 纯文字，无配图，无广告（”付费“为正文内容非推广）
+- 纯文字，无配图，无广告（“付费”为正文内容非推广）
 - 摘要写入 wiki/商业分析/penghua-putai-shangpai.md
 - 内容摘要：核心隐喻「小兔子与破桌子」，风口≠牌桌，生态位分化，四个实操案例（冷门自媒体/老人数字助手/接地气英语/本地维修），四条执行原则
 
@@ -2329,7 +2329,7 @@ source: "llm-wiki"
 
 - 归档《为什么我们要把 Agent 引擎从自研换成 AgentScope》至 sources/why-migrate-to-agentscope.md（微信公众号：老梁 agent，2026-07-31）
 - 无配图（微信采集版本不含图片）
-- 内容摘要：工业 AI Agent 项目（Java 21 + Spring Boot 3.3 + LangChain4j 1.16.3 + DeepSeek）架构决策——自研引擎 18 个文件不到 3000 行，5 个专家 Agent，Supervisor 多 Agent 协作；三个痛点：多 Agent 靠 if-else/switch、LLM 调用与 Agent 行为耦合、每新增专家要新建类；评估三框架：LangGraph4j（图编排编译时确定拓扑、Java 版 0.x 不成熟、缺 MCP/记忆/沙箱）、Spring AI Alibaba（绑定阿里云、无多 Agent 故事）、AgentScope（Java 原生、MCP+A2A+沙箱全内置、Supervisor+SubagentDeclaration 原生支持、Flux 事件流、达摩院维护）；六阶段渐进迁移策略（环境准备→单 Agent 验证→工具迁移→多 Agent 协作→清理验证→高级能力），薄封装层隔离 AgentPort 接口可回退；不选 AgentScope 的 4 种场景：单 Agent 对话、深度绑定阿里云、确定性图编排、不想引入响应式编程；核心观点”从写代码决定 Agent 怎么协作变成描述 Agent 能做什么让 LLM 决定“
+- 内容摘要：工业 AI Agent 项目（Java 21 + Spring Boot 3.3 + LangChain4j 1.16.3 + DeepSeek）架构决策——自研引擎 18 个文件不到 3000 行，5 个专家 Agent，Supervisor 多 Agent 协作；三个痛点：多 Agent 靠 if-else/switch、LLM 调用与 Agent 行为耦合、每新增专家要新建类；评估三框架：LangGraph4j（图编排编译时确定拓扑、Java 版 0.x 不成熟、缺 MCP/记忆/沙箱）、Spring AI Alibaba（绑定阿里云、无多 Agent 故事）、AgentScope（Java 原生、MCP+A2A+沙箱全内置、Supervisor+SubagentDeclaration 原生支持、Flux 事件流、达摩院维护）；六阶段渐进迁移策略（环境准备→单 Agent 验证→工具迁移→多 Agent 协作→清理验证→高级能力），薄封装层隔离 AgentPort 接口可回退；不选 AgentScope 的 4 种场景：单 Agent 对话、深度绑定阿里云、确定性图编排、不想引入响应式编程；核心观点“从写代码决定 Agent 怎么协作变成描述 Agent 能做什么让 LLM 决定”
 
 ## [2026-07-26] ingest: AgentScope 2.0 深度解析
 
@@ -2443,19 +2443,19 @@ source: "llm-wiki"
 
 - 归档《AI Video 产品竞品调研报告》至 sources/AI-Video 竞品调研.md（微信公众号：Corly，2026-08-15）
 - 3 张配图
-- 内容摘要：30+产品 AI 视频赛道全景调研，11 种产品形态拆解，”健身房模式“（无限套餐=概率生意），核心结论”模型是成本，工作流才是商品，成片才是价值“，”画布负责复杂度，Agent 负责降低复杂度，表单负责转化率“，电商复刻和 AI 短剧是最先工业化的两个场景
+- 内容摘要：30+产品 AI 视频赛道全景调研，11 种产品形态拆解，“健身房模式”（无限套餐=概率生意），核心结论“模型是成本，工作流才是商品，成片才是价值”，“画布负责复杂度，Agent 负责降低复杂度，表单负责转化率”，电商复刻和 AI 短剧是最先工业化的两个场景
 
 ## [2026-08-16] ingest: 月入万刀周报
 
 - 归档《【周报 1.19】一个创业 10 年的程序员，走上了一人开发之路，月入万刀》至 sources/月入万刀.md（微信公众号：Corly，2026-01-19）
 - 2 张配图
-- 内容摘要：大厂 10 年创业 4 次的程序员辞职一人公司首月复盘，MRR 逼近 1 万美金，核心观点”正反馈>计划“、”个体开发者应从用户需求出发“、”编程已进入不看代码只看结果的奇点时代“、”套壳价值被严重低估“
+- 内容摘要：大厂 10 年创业 4 次的程序员辞职一人公司首月复盘，MRR 逼近 1 万美金，核心观点“正反馈>计划”、“个体开发者应从用户需求出发”、“编程已进入不看代码只看结果的奇点时代”、“套壳价值被严重低估”
 
 ## [2026-08-16] ingest: 26 年的回乡文学——关于 AI 的思考
 
 - 归档《26 年的回乡文学——关于 AI 的思考》至 sources/回乡文学关于 AI 的思考.md（微信公众号：Corly，2026-02-26）
 - 无配图
-- 内容摘要：20 年互联网从业者的春节回乡冷静观察，核心观点包括”代码是日抛的但思想不是“、”编程不再是文本编辑行为“、"Agent 是过渡品终局是大厂平台内嵌”、"AI 不能替代人类思考（概率≠智慧）"、“工具不是命运”
+- 内容摘要：20 年互联网从业者的春节回乡冷静观察，核心观点包括“代码是日抛的但思想不是”、“编程不再是文本编辑行为”、"Agent 是过渡品终局是大厂平台内嵌“、"AI 不能替代人类思考（概率≠智慧）"、”工具不是命运“
 
 ## [2026-08-16] ingest: SEO 出海速成指南
 
@@ -3530,13 +3530,13 @@ source: "llm-wiki"
 - 精读摘要写入 summaries/ai-rd-automation-wiki-skill.md
 - 知识提炼写入 concepts/ai-rd-automation-wiki-skill.md（与 [[llm-wiki]]/[[harness-engineering]]/[[ai-local-brain]] 关联）
 - 内容摘要：阿里哥伦实战——LLM-Wiki + 6 大领域 Skill（写方案/写代码/评审/测试/答疑/排障）+ Harness 规则体系（门禁/编排/护栏/回滚），目标“用户给 PRD，剩下全交给 agent"
-- AGENTS.md 同步新增”稍后读“流程规范（触发词/文件/格式/反例）
+- AGENTS.md 同步新增“稍后读”流程规范（触发词/文件/格式/反例）
 
 ## [2026-06-04] ingest: 40 种顶级思维模型
 
 - 归档掘金《40 种顶级思维模型》至 sources/40-thinking-models.md
 - 41 张配图本地化至 images/40-thinking-models/（1MB）
-- 内容摘要：40 个模型分 8 大能力模块（学习力 6/思考力 4/创造力 5/设计力 5/共情力 5/故事力 5/领导力 5/整合力 5），每个给”一句话应用“
+- 内容摘要：40 个模型分 8 大能力模块（学习力 6/思考力 4/创造力 5/设计力 5/共情力 5/故事力 5/领导力 5/整合力 5），每个给“一句话应用”
 - 分类：思维模型/
 
 ## [2026-06-04] fix: sidebar.js extractTitle 读取 frontmatter title
@@ -3637,7 +3637,7 @@ source: "llm-wiki"
 ## [2026-06-04] ingest: geju（格局）Skill，专治 Codex 过度谨慎
 
 - 归档 hai-stack/geju Skill 至 sources/geju-skill.md
-- 内容摘要：专治 Codex ”苟帝“综合征，8 种打开格局打法（从终局倒推/零历史包袱/杀错误概念/十倍问题/反向约束等），触发词「格局打开」，48 Stars（hai-stack）
+- 内容摘要：专治 Codex “苟帝”综合征，8 种打开格局打法（从终局倒推/零历史包袱/杀错误概念/十倍问题/反向约束等），触发词「格局打开」，48 Stars（hai-stack）
 - 分类：patterns/
 
 ## [2026-06-04] ingest: flipbook-app，点击探索 AI 生成知识树
@@ -3680,7 +3680,7 @@ source: "llm-wiki"
 ## [2026-06-07] ingest: 广州工业品店群实战文章
 
 - 归档公众号文章《搞副业最猛的城市：广州》至 sources/guangzhou-industrial-ecommerce.md
-- 内容摘要：广州工业品店群实战，采集+代发+工厂场景，从”出租屋一周没咨询“到”一个人管 20 个店“，番禺农机/花都工程材料/白云小型机械供应链路由
+- 内容摘要：广州工业品店群实战，采集+代发+工厂场景，从“出租屋一周没咨询”到“一个人管 20 个店”，番禺农机/花都工程材料/白云小型机械供应链路由
 - 分类：patterns/
 
 ## [2026-06-07] report: 一件代发（Dropshipping）商业模式横纵分析报告
@@ -3752,7 +3752,7 @@ source: "llm-wiki"
 
 ## [2026-06-11] ingest: Hermes Agent + Obsidian 知识库
 
-- 归档《我把 Hermes Agent 接进 Obsidian 后，知识库终于不只是”存资料“了》至 sources/hermes-obsidian-knowledge-base.md
+- 归档《我把 Hermes Agent 接进 Obsidian 后，知识库终于不只是“存资料”了》至 sources/hermes-obsidian-knowledge-base.md
 - 下载 1 张配图至 images/hermes-obsidian-knowledge-base/
 - 内容摘要：Obsidian 做底座，Hermes Agent 做执行层。Source→Topic→Draft→Published 四步流转链路，知识库从仓库变生产线
 
@@ -3936,7 +3936,7 @@ source: "llm-wiki"
 
 - 归档《Claude Code UI/UX 设计最佳 18 款 Skill 完整指南》博客至 sources/claude-code-18-ui-ux-design-skills.md
 - 下载 3 张配图至 images/claude-code-18-ui-ux-design-skills/
-- 内容摘要：解决 Claude Code 生成界面千篇一律的”分布收敛“问题，18 款设计 Skill 详细介绍（Anthropic Frontend Design、UI/UX Pro Max、Taste Skill、Impeccable 等），含对比表和安装命令
+- 内容摘要：解决 Claude Code 生成界面千篇一律的“分布收敛”问题，18 款设计 Skill 详细介绍（Anthropic Frontend Design、UI/UX Pro Max、Taste Skill、Impeccable 等），含对比表和安装命令
 - 分类：products/design-skills
 
 ## [2026-06-15] ingest: Claude Design 10 个高级提示词
@@ -4043,7 +4043,7 @@ source: "llm-wiki"
 
 - 归档《AI 全自动生成图书号短视频》X/Twitter @Bytec99(Bytec) 至 sources/ai-book-short-video-pipeline.md
 - 下载 5 张配图至 images/ai-book-short-video-pipeline/
-- 内容摘要：基于 @369Serena 流程改造的图书号短视频自动化链路。6 个核心工具(HyperFrames + 微信读书 Skill + VoxCPM + faster-whisper + FFmpeg + yt-dlp)，12 步流水线只保留 2 个确认点（文案+图片）。关键经验：图片不放文字、旁白一次生成、字幕只借时间不用文字、BGM ducking 用 sidechaincompress、HyperFrames 自检三步走。核心观点：”把内容品类做成可复用的生产流程“。
+- 内容摘要：基于 @369Serena 流程改造的图书号短视频自动化链路。6 个核心工具(HyperFrames + 微信读书 Skill + VoxCPM + faster-whisper + FFmpeg + yt-dlp)，12 步流水线只保留 2 个确认点（文案+图片）。关键经验：图片不放文字、旁白一次生成、字幕只借时间不用文字、BGM ducking 用 sidechaincompress、HyperFrames 自检三步走。核心观点：“把内容品类做成可复用的生产流程”。
 - 新增概念页 [[concept-ai-content-pipeline]]：AI 内容工厂流水线——把内容生产从一次性生成变成可复用工程，人负责挑选微调，AI 跑完全流程。
 - 分类：sources/tools + concepts（ai-content-pipeline / short-video / automation / codex / hyperframes / voxcpm / ffmpeg）
 
@@ -4073,7 +4073,7 @@ source: "llm-wiki"
 
 ## [2026-07-02] ingest: 利用 AI 给自己做个网站给养老吧（裸晒项目实操）
 
-- 归档《利用 AI 给自己做个网站给养老吧，”躺“着把钱挣》微信公众号 zlbigger 至 sources/ai-website-lay-flat-income-zlbigger.md
+- 归档《利用 AI 给自己做个网站给养老吧，“躺”着把钱挣》微信公众号 zlbigger 至 sources/ai-website-lay-flat-income-zlbigger.md
 - 下载 14 张关键配图至 images/ai-website-lay-flat-income-zlbigger/
 - 内容摘要：zlbigger 上次没融到钱没找到团队，这次直接裸晒项目 linggan.io（动漫 OOTD 站）。完整 6 个 AI 打工人分工（写主题/画图 prompt/标题党/分词/description/正文创作），全部输出 5 语种 JSON（es/zh/jp/kr/en）。关键 SEO 设计：多语种子路径 URL + 默认 301 重定向防内容重复 + friendly URL 部分不翻译 + 标签页本地化。定时任务每 5 分钟提交一个主题 → 每天 288 个内容页。成本：域名 100/年 + 搬瓦工空间 + Cloudflare 白嫖 + 文本 API 几乎免费（图片 API 是隐藏技巧）。
 - 新增概念页 [[concept-ai-lay-flat-income]]：AI 躺赚多语种站——选流量主题 + 6 AI 打工人分工 + JSON 多语种输出 + 定时任务调度 + 全球被动收入。核心："AI 加成普通 CMS，不是做 AI 应用”。
@@ -5239,3 +5239,9 @@ source: "llm-wiki"
 - 来源：`https://x.com/hylarucoder/status/2122317669139722405`（X/Twitter：海拉鲁编程客 @hylarucoder，发布于 2026-11-16 13:15 UTC）
 - 归档至 `sources/hylarucoder-codex-ui-restore-screenshot-loop.md`（单推无配图）
 - 内容摘要：Codex 还原 UI 程度很高，秘诀也只有一句——「`/goal` 每次修改后截图，用 python 和原图比对，直到界面和图片差距不大即可」；其实用 Claude Code 也会发现它爱这么做，只是你不需要把上面那句话提出来。（延伸出价值：这与 [[patterns/agent-iteration-environment]]「人是环境的产物、Agent 也是」的环境论一致——给 Agent 一张截图作为可量化的验收信号，它会自主迭代至合格。）
+
+## [2026-11-19] ingest: 天不生邹子Zihan《CCSwitch严父：Magpie 全网最全教学》——本地网关 + 全可视化
+
+- 来源：`https://x.com/Zihan_dev/status/2110358853405519957`（X/Twitter：X Article 长文，天不生邹子Zihan @Zihan_dev，发布于 2026-10-14 13:15 UTC）
+- 归档至 `sources/zihan-magpie-llm-gateway.md`（X Article，9 张配图已本地化）
+- 内容摘要：Magpie（github.com/yetone/magpie）把各家供应商的模型汇成一张清单反代给任意 Agent——Claude Code 里跑 GPT、Codex 里跑 GLM 都行，只改 base_url 指向 127.0.0.1:3425 即可；订阅即供应商（ChatGPT / Claude / Copilot / Gemini / Grok / Antigravity 都能挂多个账号），路由组提供 smart / order / rotate / usage / pace 五种策略，另有每日预热与意图路由两个细节；真正的差异点是把「看不见的地方」全可视化——每次调用的费用与 token 构成、上下文占比（实测 83% 是工具定义、真实会话仅 2%）、会话评分与跨 Agent 接力、资源库（MCP 服务器与技能直接落到每个 Agent 目录、RTK 命令行输出瘦身）、识图/生图/生视频统一入口。与 CC Switch 的取舍也讲得实在：API key 为主选 CC Switch，订阅多且要看清 token 去向、跨 Agent 接力则选 Magpie。第八节还复盘了那场推特骂战的关键机制——LESSONS.md 错题本 + 「事不过三」升级为硬规则，版本数从一天 168 个降到每天 15-26 个（与 [[patterns/error-notebook-pattern]] 同源），并点出真正的争议已从「AI 能不能写软件」转向「如何给全自动 AI 开发建立质量保障体系」。
