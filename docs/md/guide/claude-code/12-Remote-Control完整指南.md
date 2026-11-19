@@ -223,7 +223,7 @@ Remote Control 启动后，官方支持三种常见连接方式：
 - 更适合并行任务
 - 需要 git 仓库
 
-如果你准备用 Remote Control 做”多设备继续”而非”多人并发”，`same-dir` 足够。
+如果你准备用 Remote Control 做“多设备继续”而非“多人并发”，`same-dir` 足够。
 
 如果你打算把它当作多线程工作台，优先用 `worktree`。
 
@@ -391,7 +391,7 @@ claude --remote-control "deploy-watch"
 
 ### Q5：它能替代 Cloud / Desktop scheduled tasks 吗？
 
-不能。Remote Control 适合”继续一个正在运行的本地会话”，不是长期持久调度系统。
+不能。Remote Control 适合“继续一个正在运行的本地会话”，不是长期持久调度系统。
 
 ### Q6：Ultraplan 模式下能用 Remote Control 吗？
 

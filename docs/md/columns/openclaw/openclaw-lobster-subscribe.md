@@ -10,7 +10,7 @@ url: "https://mp.weixin.qq.com/s/04vWKtCOyRCKS4A4EbD3fg"
 requestedUrl: "https://mp.weixin.qq.com/s/04vWKtCOyRCKS4A4EbD3fg"
 author: “猫来 gogogo"
 coverImage: "https://mmbiz.qpic.cn/sz_mmbiz_jpg/duHjWexEwEqueibFQWLnUeD1m7lTYN3iaVEYBzADfa2MgY09rtdz9QKIibgqBPiat9hD5cey19jPlv3XQPm4oLw3n9fCJOmQQibuWibGBRpxy4iamU/0?wx_fmt=jpeg"
-siteName: ”微信公众平台“
+siteName: “微信公众平台”
 summary: ”上周我开源了一个【抓取公众号的 skill】：https://mp.weixin.qq.com/s/c"
 adapter: "generic"
 capturedAt: "2026-06-01T03:01:15.037Z"

@@ -49,7 +49,7 @@ tags: ["neovim", "lazyvim", "架构", "plugin", "lsp", "lazy.nvim", "庖丁解�
 └─────────────────────────────────────────┘
 ```
 
-**L3 是真正的引擎**，L2 是 LazyVim 团队基于 L3 的默认配置，L1 是你定制用的”安全干预面“。
+**L3 是真正的引擎**，L2 是 LazyVim 团队基于 L3 的默认配置，L1 是你定制用的“安全干预面”。
 
 ### 1.3 三大设计哲学
 
@@ -71,9 +71,9 @@ tags: ["neovim", "lazyvim", "架构", "plugin", "lsp", "lazy.nvim", "庖丁解�
 
 ---
 
-## 第二章 静态构成：LazyVim 由哪些”骨骼“组成
+## 第二章 静态构成：LazyVim 由哪些“骨骼”组成
 
-> **方法**：把所有插件归类为 **5 大类**，理解每类的 1-2 个”核心组件“。碰到陌生插件时，先判断它在 5 类中的哪一类，再去找同类插件的类比，最快掌握。
+> **方法**：把所有插件归类为 **5 大类**，理解每类的 1-2 个“核心组件”。碰到陌生插件时，先判断它在 5 类中的哪一类，再去找同类插件的类比，最快掌握。
 
 ```
                 ┌─────────────────────────────────┐
@@ -101,7 +101,7 @@ tags: ["neovim", "lazyvim", "架构", "plugin", "lsp", "lazy.nvim", "庖丁解�
 **核心点是 lazy.nvim**：
 - 它把每个插件描述为一张 "spec"（一个 Lua 表）
 - spec 可以指定 `event = "BufRead"`、`cmd = "LspInfo"`、`keys = { ... }` 等触发条件
-- 触发条件不满足时，插件**不被 require**——这是”lazy“的核心含义
+- 触发条件不满足时，插件**不被 require**——这是“lazy”的核心含义
 
 ### 2.2 通用 UI 层（4 插件）
 
@@ -159,7 +159,7 @@ tags: ["neovim", "lazyvim", "架构", "plugin", "lsp", "lazy.nvim", "庖丁解�
 
 ---
 
-## 第三章 动态机制：从启动到可用的”心动周期“
+## 第三章 动态机制：从启动到可用的“心动周期”
 
 > **核心结论**：LazyVim 启动分**两道闸口**——`lazy.lua 加载顺序` → `事件驱动加载`。每道闸口解决一类问题。
 
@@ -211,13 +211,13 @@ T+1.00s  进入交互式编辑
 ```
 
 **关键观察**：
-- **T+0.50s 之前** LazyVim 啥都没”完全“启动好
+- **T+0.50s 之前** LazyVim 啥都没“完全”启动好
 - LazyVim 通过 lazy load + 事件触发，让**启动时间从 2-3 秒压到 0.7 秒内**
 - 你按 `<Space>` 弹菜单时 which-key 才 `require`
 
 ### 3.4 LazyExtras 的内部机制
 
-`lang.typescript` 是 LazyVim 的”spec 工厂“：
+`lang.typescript` 是 LazyVim 的“spec 工厂”：
 
 ```lua
 -- 简化版 LazyVim 的 extras/lang/typescript.lua
@@ -241,7 +241,7 @@ return {
 
 ## 第四章 核心实现链路：4 个最常见场景拆解
 
-> 思路：**每条”用户操作“背后是一条”事件 → 插件 → LSP/UI“链**。拆一条链 = 理解一类行为。
+> 思路：**每条“用户操作”背后是一条“事件 → 插件 → LSP/UI”链**。拆一条链 = 理解一类行为。
 
 ### 4.1 场景 1：你按下 `<leader>ca`
 
@@ -263,7 +263,7 @@ LSP 服务器（如 tsserver、jdtls）的 `textDocument/codeAction` 请求
 vim.lsp.buf.code_action() 弹菜单
 ```
 
-> **关键点**：`<leader>ca` 不是 LazyVim 的”魔法“——它是 **`vim.lsp.buf.code_action()` 的快速键**。所有 LSP 能力都依赖此接口。详见 [[lazyvim-java-import]] 中的 Java 案例。
+> **关键点**：`<leader>ca` 不是 LazyVim 的“魔法”——它是 **`vim.lsp.buf.code_action()` 的快速键**。所有 LSP 能力都依赖此接口。详见 [[lazyvim-java-import]] 中的 Java 案例。
 
 ### 4.2 场景 2：你在 `pom.xml` 项目里按 `<leader>tt`
 
@@ -299,7 +299,7 @@ nvim 的 window manager 切焦点
 snacks.scope 显示 scope indicators
 ```
 
-> **关键点**：LazyVim **重映射**了部分默认键位（`<C-h>`、`<C-l>`、`<C-j>`、`<C-k>`）到窗口切换。这是 ”提高生产力“ 的常见改造。
+> **关键点**：LazyVim **重映射**了部分默认键位（`<C-h>`、`<C-l>`、`<C-j>`、`<C-k>`）到窗口切换。这是 “提高生产力” 的常见改造。
 
 ### 4.4 场景 4：你打开一个 `.py` 文件
 

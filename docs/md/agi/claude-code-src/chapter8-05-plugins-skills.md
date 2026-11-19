@@ -16,9 +16,9 @@ Markdown Content:
 
 * [技能系统 (skills/)](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F-skills ”技能系统 (skills/)")
     * [bundledSkills.ts — 技能注册](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#bundledskills-ts-%E2%80%94-%E6%8A%80%E8%83%BD%E6%B3%A8%E5%86%8C "bundledSkills.ts — 技能注册“)
-    * [内置技能清单](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E5%86%85%E7%BD%AE%E6%8A%80%E8%83%BD%E6%B8%85%E5%8D%95 ”内置技能清单“)
-        * [常驻技能](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E5%B8%B8%E9%A9%BB%E6%8A%80%E8%83%BD ”常驻技能“)
-        * [特性门控技能](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E7%89%B9%E6%80%A7%E9%97%A8%E6%8E%A7%E6%8A%80%E8%83%BD ”特性门控技能“)
+    * [内置技能清单](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E5%86%85%E7%BD%AE%E6%8A%80%E8%83%BD%E6%B8%85%E5%8D%95 “内置技能清单”)
+        * [常驻技能](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E5%B8%B8%E9%A9%BB%E6%8A%80%E8%83%BD “常驻技能”)
+        * [特性门控技能](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E7%89%B9%E6%80%A7%E9%97%A8%E6%8E%A7%E6%8A%80%E8%83%BD “特性门控技能”)
 
     * [loadSkillsDir.ts — 技能加载](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#loadskillsdir-ts-%E2%80%94-%E6%8A%80%E8%83%BD%E5%8A%A0%E8%BD%BD "loadSkillsDir.ts — 技能加载”)
     * [技能加载流程](https://plain-sun-1ffe.hunshcn429.workers.dev/infrastructure/plugins-skills.html#%E6%8A%80%E8%83%BD%E5%8A%A0%E8%BD%BD%E6%B5%81%E7%A8%8B “技能加载流程”)

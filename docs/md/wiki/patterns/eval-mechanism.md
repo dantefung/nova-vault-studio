@@ -35,8 +35,8 @@ skill 的外部验证：用真实输入跑 skill，对比有无 skill 的输出�
 ### 4. description 触发率优化
 
 skill 内容稳定后单独优化 description，用 should-trigger / should-not-trigger 样本测试召回精度，重点关注：
-- ”近似场景误触发“
-- ”该触发却未触发“
+- “近似场景误触发”
+- “该触发却未触发”
 
 ## 与自查的区别
 

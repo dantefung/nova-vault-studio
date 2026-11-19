@@ -44,16 +44,16 @@ Prompt box with border
 - Products:
   - LangChain (136k ★ / MIT)
   - 从框架层写起
-- Note: ”完全掌控，代价是时间“
+- Note: “完全掌控，代价是时间”
 
 ## CROSS-CUTTING (bottom area):
 **Third tier — 云厂商方案** (faded band across all three)
-”阿里云/腾讯云/AWS Lex/Google DialogFlow — 全家桶捆绑“
+“阿里云/腾讯云/AWS Lex/Google DialogFlow — 全家桶捆绑”
 
 ## DECISION ANNOTATIONS on arrows:
-- Path 1 arrow: ”快速启动 → 功能受限于 SaaS 节奏“
-- Path 2 arrow: ”灵活性高 → 需要持续维护“
-- Path 3 arrow: ”完全控制 → 5-10x 工程量“
+- Path 1 arrow: “快速启动 → 功能受限于 SaaS 节奏”
+- Path 2 arrow: “灵活性高 → 需要持续维护”
+- Path 3 arrow: “完全控制 → 5-10x 工程量”
 
 ## COLORS
 - Path 1: warm orange zone

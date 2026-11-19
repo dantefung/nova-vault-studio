@@ -144,13 +144,13 @@ graph TD
 ](https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247487756&idx=1&sn=7855c80ee6e4dae521081745de90e95d&scene=21#wechat_redirect “为了让大家一键生成更漂亮的可视化网页，我写了个工具！")[为了让大家一键生成更漂亮的可视化网页，我写了个工具！](https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247487756&idx=1&sn=7855c80ee6e4dae521081745de90e95d&scene=21#wechat_redirect)
 
 向阳乔木：[ 
-](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442418&idx=1&sn=136b9127aa26b6a40a5e27efac226dbd&scene=21#wechat_redirect ”一个提示词生成 29 种排版风格，秒杀 80%人水平，附在线免费用网址“)[一个提示词生成 29 种排版风格，秒杀 80% 人水平，附在线免费用网址](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442418&idx=1&sn=136b9127aa26b6a40a5e27efac226dbd&scene=21#wechat_redirect)
+](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442418&idx=1&sn=136b9127aa26b6a40a5e27efac226dbd&scene=21#wechat_redirect “一个提示词生成 29 种排版风格，秒杀 80%人水平，附在线免费用网址”)[一个提示词生成 29 种排版风格，秒杀 80% 人水平，附在线免费用网址](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442418&idx=1&sn=136b9127aa26b6a40a5e27efac226dbd&scene=21#wechat_redirect)
 
 汉青：[ 
-](https://mp.weixin.qq.com/s?__biz=Mzg5NTg0MzYxNw==&mid=2247484699&idx=1&sn=ee632befac2cd5dbf68267a8808f549f&scene=21#wechat_redirect ”信息的 AI 可视化（1）：AI 生成动态 PPT 的步骤分享“)[信息的 AI 可视化（1）：AI 生成动态 PPT 的步骤分享](https://mp.weixin.qq.com/s?__biz=Mzg5NTg0MzYxNw==&mid=2247484699&idx=1&sn=ee632befac2cd5dbf68267a8808f549f&scene=21#wechat_redirect)
+](https://mp.weixin.qq.com/s?__biz=Mzg5NTg0MzYxNw==&mid=2247484699&idx=1&sn=ee632befac2cd5dbf68267a8808f549f&scene=21#wechat_redirect “信息的 AI 可视化（1）：AI 生成动态 PPT 的步骤分享”)[信息的 AI 可视化（1）：AI 生成动态 PPT 的步骤分享](https://mp.weixin.qq.com/s?__biz=Mzg5NTg0MzYxNw==&mid=2247484699&idx=1&sn=ee632befac2cd5dbf68267a8808f549f&scene=21#wechat_redirect)
 
 orange.ai：[教程：](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect)[ 
-](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect ”用 Figma 和 AI ，解锁文字卡片自由“)[用 Figma 和 AI ，解锁文字卡片自由](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect)
+](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect “用 Figma 和 AI ，解锁文字卡片自由”)[用 Figma 和 AI ，解锁文字卡片自由](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485689&idx=1&sn=76de6031dec364e34885b26327877a71&scene=21#wechat_redirect)
 
 **今天的教程就到这里了，后面全是风格的展示，如果觉得对你有帮助的话麻烦给个赞👍或者喜欢🩷**
 

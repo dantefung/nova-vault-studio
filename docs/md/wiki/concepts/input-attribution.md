@@ -12,7 +12,7 @@ source: "wiki-ingest"
 
 # 输入归属（Input Attribution）
 
-> Agent 循环中一条新消息到达时，系统凭什么决定它属于”当前 step 的下一步“、”当前 turn 的下一步“还是”下一次 turn"。
+> Agent 循环中一条新消息到达时，系统凭什么决定它属于“当前 step 的下一步”、“当前 turn 的下一步”还是“下一次 turn"。
 
 ## 核心规则
 

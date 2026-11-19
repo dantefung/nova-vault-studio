@@ -278,9 +278,9 @@ url: ""
 | `to-questionnaire` | 其他 | Turn a decision you can't fully answer into a questionnaire for someone else to fill in. |
 | `to-spec` | 其他 | Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of |
 | `to-tickets` | 其他 | Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, |
-| `topic-collector` | 其他 | AI 热点采集工具。从 Twitter/X、Product Hunt、Reddit、Hacker News、博客等采集 AI 相关热点内容。当用户说”开始今日选题“、”采集热点“、”看看今天有什么新闻“、”今日 AI 热点“时触发。聚焦领域：Vibe |
-| `topic-generator` | 其他 | AI 选题生成工具。从采集的热点中筛选 TOP10，生成完整选题方案。当用户说”生成选题“、”筛选热点“、”哪些值得写“时触发。输出包含：事件描述、核心角度、标题、写作方式。 |
-| `topic-reviewer` | 其他 | 选题审核工具。检查选题是否符合发布标准，给出通过/不通过判断及修改建议。当用户说”审核选题“、”这个选题行不行“、”帮我看看这个能不能写“时触发。 |
+| `topic-collector` | 其他 | AI 热点采集工具。从 Twitter/X、Product Hunt、Reddit、Hacker News、博客等采集 AI 相关热点内容。当用户说“开始今日选题”、“采集热点”、“看看今天有什么新闻”、“今日 AI 热点”时触发。聚焦领域：Vibe |
+| `topic-generator` | 其他 | AI 选题生成工具。从采集的热点中筛选 TOP10，生成完整选题方案。当用户说“生成选题”、“筛选热点”、“哪些值得写”时触发。输出包含：事件描述、核心角度、标题、写作方式。 |
+| `topic-reviewer` | 其他 | 选题审核工具。检查选题是否符合发布标准，给出通过/不通过判断及修改建议。当用户说“审核选题”、“这个选题行不行”、“帮我看看这个能不能写”时触发。 |
 | `triage` | 其他 | Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write ag |
 | `typst-author-chinese` | 其他 | 生成符合中文排版习惯的 Typst（.typ）代码，编辑、调试 Typst 文档与项目，回答 Typst 语法与参考问题。当用户处理 .typ 文件、涉及 Typst 文档创建/编辑/调试/编译/格式化/模板/包的使用，或者涉及中文排版、中 |
 | `ubiquitous-language` | 其他 | Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canon |
@@ -326,9 +326,9 @@ url: ""
 | `vast-pragmatic-clean-code-reviewer` | vast 系列 | > |
 | `vast-prompt-compiler` | vast 系列 | "Prompt 设计编译器 - 将用户原始需求编译为可指导 Prompt 写作的设计方案。通过 10 步流程识别问题原型、路由学科领域、诊断能力缺口、召回并验证高信息密度知识对象，最终输出轻量 Prompt 骨架。使用场景：写 Prompt |
 | `vast-skill-forge` | vast 系列 | "Create high-quality, production-grade skills for Claude Code. Expert guidance on skill architecture, workflow design, p |
-| `vast-skill-optimizer` | vast 系列 | 优化和重构现有 skill。用于检查目标 skill 的触发描述、SKILL.md 工作流、确认门槛、渐进式披露，以及 references/scripts/assets 的组织方式。当用户提到”优化 skill””检查 skill 质量” |
+| `vast-skill-optimizer` | vast 系列 | 优化和重构现有 skill。用于检查目标 skill 的触发描述、SKILL.md 工作流、确认门槛、渐进式披露，以及 references/scripts/assets 的组织方式。当用户提到“优化 skill”“检查 skill 质量” |
 | `vast-skill-recommend-add` | vast 系列 | 向 vast-skill-recommender 的内置推荐列表添加新技能，并同步安装到全局 skills 目录。触发词：登记推荐技能、添加内置推荐、推荐新技能。 |
-| `vast-skill-recommender` | vast 系列 | ’维护技能推荐列表。支持添加、删除、更新、查看技能推荐，类似 sanyuan-skills 的技能展示。触发词：/skill-recommend、”技能推荐“、”添加技能“、”删除技能“、”更新技能“' |
+| `vast-skill-recommender` | vast 系列 | ’维护技能推荐列表。支持添加、删除、更新、查看技能推荐，类似 sanyuan-skills 的技能展示。触发词：/skill-recommend、“技能推荐”、“添加技能”、“删除技能”、“更新技能”' |
 | `vast-skill-review` | vast 系列 | "Quality review and audit for Claude Code skills. Analyzes skill structure, description quality, workflow design, token |
 | `vast-social-xhs-card` | vast 系列 | 将长内容转换为小红书/Instagram 风格的视觉卡片。在创建社交媒体卡片系列、知识卡片或小红书视觉内容时使用。触发词：“小红书卡片”、“系列卡片”、“视觉卡片”、“4:5 画布” |
 | `vast-social-xhs-content-script` | vast 系列 | 通过多轮对话生成小红书爆款文案和 2 分钟口播脚本。在创建小红书内容、分析爆款元素或撰写高参与度帖子时使用。触发词：“小红书爆款”、“爆款文案”、“口播脚本”、“小红书流量” |
@@ -339,13 +339,13 @@ url: ""
 | `vercel-composition-patterns` | 其他 | React composition patterns that scale. Use when refactoring components with |
 | `vercel-react-best-practices` | 其他 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, r |
 | `vercel-react-native-skills` | 其他 | React Native and Expo best practices for building performant mobile apps. Use |
-| `vibe-illustrator` | 其他 | 文章配图调度中心。根据文章类型和用户需求，智能调度最合适的配图方案。当用户说”配图“、”生成图片“、”为文章配图“时触发。 |
-| `vibe-publisher` | 其他 | 发布调度中心。根据内容类型和目标平台，智能调度最合适的发布方案。当用户说”发布“、”群发“、”发布到“时触发。 |
-| `vibe-writer` | 其他 | 写作工作流总调度 Skill。协调 9 个子 Skill 完成完整写作流程：热点采集→选题生成→选题审核→共同创作→深度审稿→配图调度→配图生成→发布调度→发布。当用户说”开始写作“、”帮我写文章“、”写一篇“时触发。 |
-| `vibe-writer-auto` | 其他 | 全自动写作流程 Skill。自动完成热点采集→选题生成→选题审核→文章创作→配图→发布的完整流程，无需用户介入。当用户说”自动写作“、”全自动写文章“、”帮我自动写一篇“时触发。 |
+| `vibe-illustrator` | 其他 | 文章配图调度中心。根据文章类型和用户需求，智能调度最合适的配图方案。当用户说“配图”、“生成图片”、“为文章配图”时触发。 |
+| `vibe-publisher` | 其他 | 发布调度中心。根据内容类型和目标平台，智能调度最合适的发布方案。当用户说“发布”、“群发”、“发布到”时触发。 |
+| `vibe-writer` | 其他 | 写作工作流总调度 Skill。协调 9 个子 Skill 完成完整写作流程：热点采集→选题生成→选题审核→共同创作→深度审稿→配图调度→配图生成→发布调度→发布。当用户说“开始写作”、“帮我写文章”、“写一篇”时触发。 |
+| `vibe-writer-auto` | 其他 | 全自动写作流程 Skill。自动完成热点采集→选题生成→选题审核→文章创作→配图→发布的完整流程，无需用户介入。当用户说“自动写作”、“全自动写文章”、“帮我自动写一篇”时触发。 |
 | `wayfinder` | 其他 | Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tra |
 | `web-design-guidelines` | 其他 | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit |
-| `wechat-article-formatter` | 其他 | 将 Markdown 文章转换为美化的 HTML 格式，适配微信公众号发布。应用专业 CSS 样式、代码高亮、优化排版。当用户说”美化这篇文章“、”转换为 HTML"、“优化公众号格式”、“生成公众号 HTML”时使用。 |
+| `wechat-article-formatter` | 其他 | 将 Markdown 文章转换为美化的 HTML 格式，适配微信公众号发布。应用专业 CSS 样式、代码高亮、优化排版。当用户说“美化这篇文章”、“转换为 HTML"、”优化公众号格式“、”生成公众号 HTML“时使用。 |
 | `wechat-draft-publisher` | 其他 | 自动将 HTML 文章发布到微信公众号草稿箱，支持封面图上传、标题、作者和元数据管理。当用户说“推送到微信”、“发布到公众号草稿”、“上传到草稿箱”或提到微信文章发布时使用。 |
 | `wiki-ingest` | 其他 | "Compile articles, documents, or notes into a structured wiki knowledge base. Use when user says 'ingest to wiki', 'comp |
 | `wizard` | 其他 | Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migrati |
@@ -450,7 +450,7 @@ url: ""
 - **`wayfinder`** — Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tra
 - **`web-design-guidelines`** — Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit 
 - **`wechat-article-formatter`** — 将 Markdown 文章转换为美化的 HTML 格式，适配微信公众号发布。应用专业 CSS 样式、代码高亮、优化排版。当用户说“美化这篇文章”、“转换为 HTML"、”优化公众号格式“、”生成公众号 HTML“时使用。
-- **`wechat-draft-publisher`** — 自动将 HTML 文章发布到微信公众号草稿箱，支持封面图上传、标题、作者和元数据管理。当用户说”推送到微信“、”发布到公众号草稿“、”上传到草稿箱“或提到微信文章发布时使用。
+- **`wechat-draft-publisher`** — 自动将 HTML 文章发布到微信公众号草稿箱，支持封面图上传、标题、作者和元数据管理。当用户说“推送到微信”、“发布到公众号草稿”、“上传到草稿箱”或提到微信文章发布时使用。
 - **`wiki-ingest`** — "Compile articles, documents, or notes into a structured wiki knowledge base. Use when user says 'ingest to wiki', 'comp
 - **`wizard`** — Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migrati
 - **`write-a-skill`** — Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to cre
@@ -572,9 +572,9 @@ url: ""
 - **`vast-pragmatic-clean-code-reviewer`** — >
 - **`vast-prompt-compiler`** — "Prompt 设计编译器 - 将用户原始需求编译为可指导 Prompt 写作的设计方案。通过 10 步流程识别问题原型、路由学科领域、诊断能力缺口、召回并验证高信息密度知识对象，最终输出轻量 Prompt 骨架。使用场景：写 Prompt
 - **`vast-skill-forge`** — "Create high-quality, production-grade skills for Claude Code. Expert guidance on skill architecture, workflow design, p
-- **`vast-skill-optimizer`** — 优化和重构现有 skill。用于检查目标 skill 的触发描述、SKILL.md 工作流、确认门槛、渐进式披露，以及 references/scripts/assets 的组织方式。当用户提到”优化 skill””检查 skill 质量”
+- **`vast-skill-optimizer`** — 优化和重构现有 skill。用于检查目标 skill 的触发描述、SKILL.md 工作流、确认门槛、渐进式披露，以及 references/scripts/assets 的组织方式。当用户提到“优化 skill”“检查 skill 质量”
 - **`vast-skill-recommend-add`** — 向 vast-skill-recommender 的内置推荐列表添加新技能，并同步安装到全局 skills 目录。触发词：登记推荐技能、添加内置推荐、推荐新技能。
-- **`vast-skill-recommender`** — ’维护技能推荐列表。支持添加、删除、更新、查看技能推荐，类似 sanyuan-skills 的技能展示。触发词：/skill-recommend、”技能推荐“、”添加技能“、”删除技能“、”更新技能“'
+- **`vast-skill-recommender`** — ’维护技能推荐列表。支持添加、删除、更新、查看技能推荐，类似 sanyuan-skills 的技能展示。触发词：/skill-recommend、“技能推荐”、“添加技能”、“删除技能”、“更新技能”'
 - **`vast-skill-review`** — "Quality review and audit for Claude Code skills. Analyzes skill structure, description quality, workflow design, token 
 - **`vast-social-xhs-card`** — 将长内容转换为小红书/Instagram 风格的视觉卡片。在创建社交媒体卡片系列、知识卡片或小红书视觉内容时使用。触发词：“小红书卡片”、“系列卡片”、“视觉卡片”、“4:5 画布”
 - **`vast-social-xhs-content-script`** — 通过多轮对话生成小红书爆款文案和 2 分钟口播脚本。在创建小红书内容、分析爆款元素或撰写高参与度帖子时使用。触发词：“小红书爆款”、“爆款文案”、“口播脚本”、“小红书流量”
@@ -659,7 +659,7 @@ url: ""
 
 ### 内容编辑 (3 个)
 
-- **`article-batch-illustration`** — 分析文章结构并批量生成 AI 配图，调用 Gemini API 为每个段落创建专业逻辑图/概念图。当用户说”批量配图“、”给文章配图“、”生成文章插图“、”为这篇文章配图“时触发。支持两种风格：简约手绘风和建筑蓝图编辑风。自动保存到 Obsidian
+- **`article-batch-illustration`** — 分析文章结构并批量生成 AI 配图，调用 Gemini API 为每个段落创建专业逻辑图/概念图。当用户说“批量配图”、“给文章配图”、“生成文章插图”、“为这篇文章配图”时触发。支持两种风格：简约手绘风和建筑蓝图编辑风。自动保存到 Obsidian
 - **`article-review`** — 根据原文内容撰写深度文章评价/解读。当用户提供一篇文章、博客、公众号文章或任何长文内容，并要求生成评价、解读、读后感或二次创作内容时使用此技能。适用于：(1) 对技术文章、行业分析、年终总结等进行深度解读，(2) 提炼文章核心观点并用通俗语
 - **`edit-article`** — Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edi
 
@@ -734,7 +734,7 @@ url: ""
 
 ### guizang (桂藏) (1 个)
 
-- **`guizang-ppt-skill`** — 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① ”电子杂志 × 电子墨水“（衬线 + 流体背景 + 暖色） ② ”瑞士国际主义“（无衬线 + 网格点阵 + IKB
+- **`guizang-ppt-skill`** — 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① “电子杂志 × 电子墨水”（衬线 + 流体背景 + 暖色） ② “瑞士国际主义”（无衬线 + 网格点阵 + IKB
 
 ### office-hours (1 个)
 
@@ -746,7 +746,7 @@ url: ""
 
 ### Skill 工具 (1 个)
 
-- **`skill-manage`** — 管理 skill 的全生命周期。当用户说”整理 skill"、“分类 skill"、”同步 skill"、“推送 skill"、”扫描 skill"、“列出 skill”时触发。支持扫描、分类、同步到 GitHub、跨设备备份等操作。
+- **`skill-manage`** — 管理 skill 的全生命周期。当用户说“整理 skill"、”分类 skill"、“同步 skill"、”推送 skill"、“扫描 skill"、”列出 skill“时触发。支持扫描、分类、同步到 GitHub、跨设备备份等操作。
 
 ### Spec / 计划 (1 个)
 

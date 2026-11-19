@@ -25,8 +25,8 @@ A comparison matrix / radar chart showing 6 platforms across 5 dimensions.
 
 ## PRIMARY CALL-OUTS:
 1. **Dify**: 141k ★ — “低门槛之王，半天搭出 Demo" — TypeScript + Python
-2. **FastGPT**: 28k ★ — ”客服场景专精，混合检索+重排“ — TypeScript 
-3. **LangChain**: 136k ★ — ”纯框架，无限定制的代价是 5-10x 工程“ — Python
+2. **FastGPT**: 28k ★ — “客服场景专精，混合检索+重排” — TypeScript 
+3. **LangChain**: 136k ★ — “纯框架，无限定制的代价是 5-10x 工程” — Python
 4. **Rasa**: 21.2k ★ — ”曾经的王者，已转向 LLM-native" — Maintenance mode
 5. **Flowise**: 52.7k ★ — “拖拽式低代码 Agent" — TypeScript + JS
 6. **Botpress**: 14.7k ★ — "LLM Agent + 集成生态” — TypeScript

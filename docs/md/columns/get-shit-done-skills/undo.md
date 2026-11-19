@@ -62,7 +62,7 @@ flowchart TD
 
 ## 适用场景
 
-- 阶段整体跑偏，撤销该阶段全部提交（`--phase 03`），但先被依赖检查拦一下”Phase 4 已经开工了“
+- 阶段整体跑偏，撤销该阶段全部提交（`--phase 03`），但先被依赖检查拦一下“Phase 4 已经开工了”
 - 单个计划（如 03-02）做坏了，只想撤它不动同阶段其他计划
 - 想从最近 N 个 GSD 提交里挑几个撤（`--last 10` 交互选择）
 - 回滚后发现还是不对——`/gsd:undo --last 1` 把回滚本身也撤销（revert 可逆性的直接应用）
@@ -79,7 +79,7 @@ flowchart TD
 ## 参见
 
 - [index.md](./index.md) — 专栏总纲：三层架构、Gate 四分类、主链状态机、依赖关系
-- [forensics](./forensics.md) — 回滚前先勘察”到底哪里坏了“
+- [forensics](./forensics.md) — 回滚前先勘察“到底哪里坏了”
 - [audit-milestone](./audit-milestone.md) — 里程碑验收失败后，回滚到未达标阶段的入口
 - [progress](./progress.md) — 回滚后复查项目状态（undo 的 summary 推荐命令）
 - GitHub: [get-shit-done](https://github.com/gsd-build/get-shit-done)

@@ -92,7 +92,7 @@ PDF 报告 → AI 通俗易懂解读 → 发布到对应栏目 → 同步公众�
 > 1. **不挑模型也够用**：包月订阅的国产模型干低风险活儿绰绰有余。
 > 2. **试错成本极低**：单站一年 ¥200-300，失败 10 次才 ¥3000。
 > 3. **"AI 味/数字泔水“ 不是问题**：实操优先于道德洁癖。
-> 4. **”不会“ 是最大的障碍**：你跟 AI 对话了，怕个啥。
+> 4. **“不会” 是最大的障碍**：你跟 AI 对话了，怕个啥。
 
 ## 完整 AI 一人公司路线图
 
@@ -116,4 +116,4 @@ PDF 报告 → AI 通俗易懂解读 → 发布到对应栏目 → 同步公众�
 
 ---
 
-*—— 来源：微信公众号 zlbigger 原文发布时间 2026-04-27，本系列为 zlbigger 公众号”AI 一人公司“的第 3 篇。完整带图版见 [wiki sources](/md/wiki/sources/xiaolongxia-agent-automation-zlbigger)。*
+*—— 来源：微信公众号 zlbigger 原文发布时间 2026-04-27，本系列为 zlbigger 公众号“AI 一人公司”的第 3 篇。完整带图版见 [wiki sources](/md/wiki/sources/xiaolongxia-agent-automation-zlbigger)。*

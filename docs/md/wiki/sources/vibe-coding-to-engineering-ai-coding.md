@@ -49,7 +49,7 @@ Agent 接下来仍有不少事情需要确认。是所有错误都重试，还�
 这最后两项要分开写：
 
 - "API 恢复后，资源最终达到期望状态“是一条验收标准
-- ”用集成测试复现临时错误和恢复过程“才是验证方法
+- “用集成测试复现临时错误和恢复过程”才是验证方法
 
 ### 把模糊需求写成可验收的 Spec
 
@@ -80,7 +80,7 @@ Verification:
 - 执行项目规定的 Build / Test / Lint 检查
 ```
 
-这份 Spec 把目标写成了”恢复正常“，没有指定要新增一套重试代码。Agent 应先检查现有实现，找出恢复过程断在了哪里。
+这份 Spec 把目标写成了“恢复正常”，没有指定要新增一套重试代码。Agent 应先检查现有实现，找出恢复过程断在了哪里。
 
 ### 复杂任务先看 Plan
 
@@ -137,11 +137,11 @@ This is a Go project based on Kubernetes controller-runtime.
 
 ### 不要让 Session 成为唯一的事实源
 
-任务做到一半换 Session，最容易丢失的是”为什么决定这样改“和”还有哪项没检查“。这些信息需要另有记录。
+任务做到一半换 Session，最容易丢失的是“为什么决定这样改”和“还有哪项没检查”。这些信息需要另有记录。
 
 ![image](../images/vibe-coding-to-engineering/004.webp)
 
-## Verify + Review：AI 说”完成了“，不代表真的完成了
+## Verify + Review：AI 说“完成了”，不代表真的完成了
 
 代码改完，Agent 可能会回复："Implementation completed. All tests passed."
 

@@ -23,7 +23,7 @@ LangChain 范式做了各种抽象，是为了降低 Agent 开发复杂度设计
 
 ## 01 什么是 Agent “连续实体”？
 
-dsh-superagent-prototype 提出了 Super-agent 的概念：“打破 Agent 与单次手动会话的绑定，使其成为一个能跨会话保持上下文、同时推进多项复杂任务且互不干扰的“连续实体”。我们把这种 Agent 形态及其系统架构称为 Super-agent。”
+dsh-superagent-prototype 提出了 Super-agent 的概念：“打破 Agent 与单次手动会话的绑定，使其成为一个能跨会话保持上下文、同时推进多项复杂任务且互不干扰的”连续实体“。我们把这种 Agent 形态及其系统架构称为 Super-agent。”
 
 听上去有点抽象，我们来看一个具体的办公场景。
 

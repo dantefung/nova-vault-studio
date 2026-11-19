@@ -206,17 +206,17 @@ Claude 3.0 时代需要强制实施极严格的 Harness 约束。Claude 3.5 升�
 
 ## 08 实践路线图
 
-1. **打牢 Prompt 基础**：知道 CoT、角色设定、结构化输出。不执着于”最佳提示词“
+1. **打牢 Prompt 基础**：知道 CoT、角色设定、结构化输出。不执着于“最佳提示词”
 2. **系统学习 Context Engineering**：RAG 设计调优、上下文窗口管理、记忆系统设计、知识库治理
 3. **从系统视角思考 Agent 设计**：Agent 在哪里可能跑偏？如何设计约束和验证？何时单 Agent 何时多 Agent？
-4. **培养”动态 Harness 思维“**：这个约束是因为模型能力不足还是业务逻辑需要？如果下一版模型强了 20%，哪些部分可以简化？
+4. **培养“动态 Harness 思维”**：这个约束是因为模型能力不足还是业务逻辑需要？如果下一版模型强了 20%，哪些部分可以简化？
 
 ---
 
 ## 结语
 
-Prompt Engineering 解决了”说清楚“，Context Engineering 解决了”给够信息“，Harness Engineering 解决了”系统可靠“。
+Prompt Engineering 解决了“说清楚”，Context Engineering 解决了“给够信息”，Harness Engineering 解决了“系统可靠”。
 
 三次进化，一个目标：让 LLM 的能力真正转化为可靠的生产力。
 
-从”写代码的人“，进化为”设计让 AI 把代码写好的系统的人“。
+从“写代码的人”，进化为“设计让 AI 把代码写好的系统的人”。

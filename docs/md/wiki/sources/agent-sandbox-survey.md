@@ -152,7 +152,7 @@ DSec 的使命不是为了支持单体 IDE 中的辅助写代码插件，而是�
 
 ## 八、DSec 最值得借鉴的设计：一种 Sandbox Runtime 远远不够
 
-很多沙箱框架往往试图”一招鲜吃遍天“：E2B 全面押注 Firecracker，CubeSandbox 自研 RustVMM + KVM，传统云平台依赖标准容器。
+很多沙箱框架往往试图“一招鲜吃遍天”：E2B 全面押注 Firecracker，CubeSandbox 自研 RustVMM + KVM，传统云平台依赖标准容器。
 
 然而 DeepSeek 在面对真实异构任务时给出了不同的回答：**Agent 任务在安全边界、启动性能与环境完整度上的差异过大，单一的沙箱技术根本无法兼顾成本与性能。**
 
@@ -177,7 +177,7 @@ DSec 的核心突破之一就是：**利用自研的 3FS 高性能分布式存�
 
 ![DSec 训练与沙箱解耦](../images/agent-sandbox-survey/003.webp)
 
-这与在线 Agent 领域中”Agent Session 会话状态绝不能与具体物理执行进程绑定“的设计准则不谋而合。
+这与在线 Agent 领域中“Agent Session 会话状态绝不能与具体物理执行进程绑定”的设计准则不谋而合。
 
 ## 十、DSec 的定位：P0 级设计参考，而非现阶段部署候选
 
@@ -203,7 +203,7 @@ OpenSandbox 的核心优势体现在：
 
 ## 十二、Kubernetes SIG Agent Sandbox：最纯正的 K8s 标准路线
 
-如果企业技术栈以云原生为主，且核心诉求是”尽量遵循 Kubernetes 原生标准、不引入黑盒编排器“，那么由社区主导的 **Kubernetes SIG Agent Sandbox** 是首选基础基石。
+如果企业技术栈以云原生为主，且核心诉求是“尽量遵循 Kubernetes 原生标准、不引入黑盒编排器”，那么由社区主导的 **Kubernetes SIG Agent Sandbox** 是首选基础基石。
 
 该项目并不试图重造一个自成一体的沙箱云，而是专注于在 Kubernetes 体系内精准定义：一个具备稳定身份凭据、单实例（Singleton）、有状态的 Agent Sandbox 在 K8s 内部到底该如何规范表达。
 
@@ -226,19 +226,19 @@ OpenSandbox 的核心优势体现在：
 2. **细粒度弹性休眠（Hibernation）**：在空闲阶段智能释放物理资源，降低算力空转成本；
 3. **完善的企业级服务配套**：内置动态资源调整（In-place Scaling）、会话路由代理、用户身份认证，并向上原生兼容**E2B API**。
 
-特别值得肯定的是，OpenKruise Agents 并未与标准路线背道而驰，而是明确宣称兼容 Kubernetes SIG Agent Sandbox 的底层能力。企业完全可以将其视为一个**”开箱即用、带生产级状态加速与 E2B API 兼容的 Kubernetes 增强平台“**。
+特别值得肯定的是，OpenKruise Agents 并未与标准路线背道而驰，而是明确宣称兼容 Kubernetes SIG Agent Sandbox 的底层能力。企业完全可以将其视为一个**“开箱即用、带生产级状态加速与 E2B API 兼容的 Kubernetes 增强平台”**。
 
 ## 十四、CubeSandbox：目前最完整的专用 MicroVM 路线之一
 
 腾讯云团队开源的 **CubeSandbox** 是本轮调研中极具硬核技术代表性的独立微虚拟机路线。
 
-与依赖”Kubernetes Pod + RuntimeClass“的技术路径截然不同，CubeSandbox 完全自研了一套独立的 MicroVM 控制面与高效轻量调度引擎：
+与依赖“Kubernetes Pod + RuntimeClass”的技术路径截然不同，CubeSandbox 完全自研了一套独立的 MicroVM 控制面与高效轻量调度引擎：
 - **技术内核**：深度基于 **RustVMM + Linux KVM** 技术栈打造；
 - **极致轻量**：官方实测单沙箱冷启动时延低于**60ms**，单实例物理主机额外内存开销控制在**5MB**以内；
 - **跨节点快照恢复**：最新 v0.7 版本突破性支持了**跨节点的 Pause/Resume** 能力。沙箱在物理节点 A 暂停后，内存快照可直接同步至对象存储（如 S3/COS），并在节点 A 异常时直接在节点 B 毫秒级满血复活；
 - **广泛兼容**：在协议层主动兼容 E2B SDK，降低上层应用迁移改造成本。
 
-对于对”**硬件级物理安全隔离、高并发秒级启动、微虚机极低驻留开销**“有极严苛要求的场景，CubeSandbox 是一套非常成熟且值得重点对照验证的纯自研路线。
+对于对“**硬件级物理安全隔离、高并发秒级启动、微虚机极低驻留开销**”有极严苛要求的场景，CubeSandbox 是一套非常成熟且值得重点对照验证的纯自研路线。
 
 ## 十五、E2B 与 BoxLite：两个维度的重要参考坐标
 
@@ -314,7 +314,7 @@ K8s 原生控制器 (Kubernetes SIG Agent Sandbox 或 OpenKruise Agents)
 
 ## 十八、结语：Agent Sandbox 已经不再只是一层沙箱
 
-回望云计算的发展历程，我们经历了从”物理裸机“到”全虚拟化虚拟机“，再到”轻量容器“与”Kubernetes 编排“的持续演变。
+回望云计算的发展历程，我们经历了从“物理裸机”到“全虚拟化虚拟机”，再到“轻量容器”与“Kubernetes 编排”的持续演变。
 
 而在大模型时代，面向智能体的计算体系正在长出一条全新的、清晰的技术栈分层：
 

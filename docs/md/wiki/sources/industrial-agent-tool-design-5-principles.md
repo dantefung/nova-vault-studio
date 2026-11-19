@@ -68,7 +68,7 @@ LLM 从自然语言中提取参数，然后填到 Function Calling 的 JSON 参�
 
 
 
-// 差 — 自然语言，LLM 可能误读 return ”设备 CNC-001 当前有 2 个告警：温度过高(严重)和振动异常(中等)";// 好 — 结构化 JSON，LLM 精准解析 return """{  "deviceId": "CNC-001",  "status": "warning",  "activeAlarms": [    {"type": “温度过高”, "severity": "HIGH", "timestamp": "..."},    {"type": “振动异常”, "severity": "MEDIUM", "timestamp": "..."}  ],  "totalCount": 2}""";
+// 差 — 自然语言，LLM 可能误读 return “设备 CNC-001 当前有 2 个告警：温度过高(严重)和振动异常(中等)";// 好 — 结构化 JSON，LLM 精准解析 return """{  "deviceId": "CNC-001",  "status": "warning",  "activeAlarms": [    {"type": ”温度过高“, "severity": "HIGH", "timestamp": "..."},    {"type": ”振动异常“, "severity": "MEDIUM", "timestamp": "..."}  ],  "totalCount": 2}""";
 
 
 
@@ -88,7 +88,7 @@ LLM 可能在一次对话中多次调用同一个工具。一定要保证：同�
 
 
 
-特别危险的 Tool 类型：创建、删除、重启、调整参数。这些操作要么加幂等检查，要么标注为”需要人工确认“。
+特别危险的 Tool 类型：创建、删除、重启、调整参数。这些操作要么加幂等检查，要么标注为“需要人工确认”。
 
 
 
@@ -100,7 +100,7 @@ LLM 可能在一次对话中多次调用同一个工具。一定要保证：同�
 
 
 
-// 差 — 抛异常，LLM 收到的是技术错误信息 throw new RuntimeException("Connection refused to TDEngine");// 好 — 返回结构化的错误信息 return """{  "error": true,  "message": ”无法连接时序数据库，数据查询失败“,  "suggestion": ”请稍后重试，或联系运维检查 TDEngine 服务状态“,  "partialData": null}""";
+// 差 — 抛异常，LLM 收到的是技术错误信息 throw new RuntimeException("Connection refused to TDEngine");// 好 — 返回结构化的错误信息 return """{  "error": true,  "message": “无法连接时序数据库，数据查询失败”,  "suggestion": “请稍后重试，或联系运维检查 TDEngine 服务状态”,  "partialData": null}""";
 
 
 

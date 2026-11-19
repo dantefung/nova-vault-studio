@@ -64,7 +64,7 @@ AgentScope Java 2.0 的结构化输出（Structured Output）就是干这个的�
 
 
 
-结构化输出让 Agent 直接生成符合预定义 Schema 的类型化数据，把”自然语言 → 结构化数据“的转换交给框架完成。使用姿势极其简单：
+结构化输出让 Agent 直接生成符合预定义 Schema 的类型化数据，把“自然语言 → 结构化数据”的转换交给框架完成。使用姿势极其简单：
 
 
 
@@ -504,7 +504,7 @@ GitHub 仓库：https://github.com/liuyueyi/spring-ai-demo/agent-scope
 
 
 
-✅ 第 2 篇：ReActAgent 核心拆解：理解”思考→行动→观察“的推理循环
+✅ 第 2 篇：ReActAgent 核心拆解：理解“思考→行动→观察”的推理循环
 
 
 

@@ -142,7 +142,7 @@ MCP 的消息格式是 JSON-RPC 2.0。本地服务器最常用的传输方式是
 
     ← {"jsonrpc":"2.0","id":2,"result":{"tools":[{"name":"word_count","description":“统计一段文字的字符数和行数。","inputSchema":{...}}]}}
 
-    → {"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"word_count","arguments":{"text":”你好“}}}
+    → {"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"word_count","arguments":{"text":“你好”}}}
 
     ← {"jsonrpc":"2.0","id":3,"result":{"content":[{"type":"text","text":"2 个字符，1 行”}],"isError":false}}
 
@@ -702,7 +702,7 @@ MCP 服务器能提供的不止工具，还有 resources（可读的数据）和
 
 
 
-**Claude Code：工具多了就延迟加载。** 接入的 MCP 工具很多时，Claude Code 不把全部说明书一次塞给模型，只给工具名，模型需要时先”搜索“出某个工具的完整说明，再调用。这直接对付了第五节说的”说明书要付钱“。命名上，它用的也是 
+**Claude Code：工具多了就延迟加载。** 接入的 MCP 工具很多时，Claude Code 不把全部说明书一次塞给模型，只给工具名，模型需要时先“搜索”出某个工具的完整说明，再调用。这直接对付了第五节说的“说明书要付钱”。命名上，它用的也是 
 `mcp__服务器__工具`
 。
 
@@ -712,7 +712,7 @@ MCP 服务器能提供的不止工具，还有 resources（可读的数据）和
 
 
 
-**DeepSeek Harness：同样的思路。** 它的 Code 模式（也叫 PTC）让模型写一段 TypeScript 程序，通过生成的 SDK 调用工具。Pi 和 DeepSeek 不约而同：工具越来越多之后，”让模型写代码来调工具“比”把所有工具摆在模型面前“更省上下文。
+**DeepSeek Harness：同样的思路。** 它的 Code 模式（也叫 PTC）让模型写一段 TypeScript 程序，通过生成的 SDK 调用工具。Pi 和 DeepSeek 不约而同：工具越来越多之后，“让模型写代码来调工具”比“把所有工具摆在模型面前”更省上下文。
 
 
 
@@ -724,7 +724,7 @@ MCP 服务器能提供的不止工具，还有 resources（可读的数据）和
 
 
 
-  * MCP 把”工具的执行“标准化：工具跑在另一个进程里，Agent 通过 JSON-RPC 问它有哪些工具、请它执行
+  * MCP 把“工具的执行”标准化：工具跑在另一个进程里，Agent 通过 JSON-RPC 问它有哪些工具、请它执行
 
   * 客户端的本质是翻译：把 
 `tools/list`
@@ -744,7 +744,7 @@ MCP 服务器能提供的不止工具，还有 resources（可读的数据）和
 
 
 
-工具越接越多，任务越做越大，上下文还是会被填满。第 4 课的压缩是”事后补救“，下一课换个思路：**把一部分工作交给另一个 Agent，它在自己的上下文里干完，只把结论交回来。**
+工具越接越多，任务越做越大，上下文还是会被填满。第 4 课的压缩是“事后补救”，下一课换个思路：**把一部分工作交给另一个 Agent，它在自己的上下文里干完，只把结论交回来。**
 
 
 

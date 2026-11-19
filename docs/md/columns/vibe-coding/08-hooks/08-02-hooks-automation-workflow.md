@@ -26,7 +26,7 @@ Hook 是在 Claude 生命周期的固定节点自动执行的 shell 命令。不
 | **PostToolUse** | Claude 用完工具后触发 | 自动格式化、跑 linter、记变更日志 |
 | **PreToolUse** | Claude 调工具之前触发 | 保护敏感文件（.env、package-lock.json）、阻止危险命令 |
 | **Notification** | Claude 需要你关注时触发 | 弹桌面通知，不用盯着终端 |
-| **Stop** | Claude 回复结束时触发 | 跑测试、跑 CI、自动提交——Claude 说”搞完了“之后自动执行 |
+| **Stop** | Claude 回复结束时触发 | 跑测试、跑 CI、自动提交——Claude 说“搞完了”之后自动执行 |
 | **SessionStart** | 会话启动或恢复时触发 | 压缩（compaction）之后重新灌上下文 |
 
 ### 建议：从这三个开始

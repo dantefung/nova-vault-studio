@@ -229,7 +229,7 @@ Vercel 送了一个子域名给我们测试用，可以点击这个域名看看�
     **操作步骤**：
 
     1. **注册 Vercel**：
-        - 打开[Vercel 官网](https://vercel.com/)，点“Sign up”，选“Continue with Github”（用刚注册的 Github 账号登录，授权即可）。
+        - 打开[Vercel 官网](https://vercel.com/)，点“Sign up“，选”Continue with Github“（用刚注册的 Github 账号登录，授权即可）。
         - ⚠️ 注意：如果刚注册就被封号，别慌！发邮件给 Vercel 客服（`support@vercel.com`），说“我是新手，想上线第一个网站，不是机器人”，通常会解封。
     2. **导入代码**：
         - 登录后点右上角“Add New”→“Project”，在列表里找到你刚在 Github 建的仓库，点“Import”（导入）。

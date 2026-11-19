@@ -42,7 +42,42 @@ def main():
             print(f'        期望含: {must_keep}')
             print(f'        实际得: {out[i]}')
     print(f'\n{ok}/{len(CASES)} 通过')
-    raise SystemExit(0 if ok == len(CASES) else 1)
+    total = len(CASES)
+    ok += check_quote_healing()
+    total += 1
+    print(f'\n{ok}/{total} 通过')
+    raise SystemExit(0 if ok == total else 1)
+
+
+def check_quote_healing():
+    """回归：单个不成对的引号不能污染后面的行。
+
+    旧实现用全文奇偶计数器，第一行只参与了一个引号（另一个两侧都不是汉字），
+    奇偶性就永久错位，后面所有引号全部反向 —— 全站 337 个文件、2480 行中招。
+    """
+    src = [
+        'abc"中文',            # 只有开引号参与（后邻是汉字，前邻是字母）
+        '他说"你好"结束',      # 偶数个 → 行内自足，必须正确
+        '第三行"正常"引用',    # 偶数个 → 行内自足，必须正确
+    ]
+    with tempfile.NamedTemporaryFile('w', suffix='.md', delete=False, encoding='utf-8') as f:
+        f.write('\n'.join(src))
+        p = f.name
+    nt.process(Path(p), apply=True)
+    out = Path(p).read_text(encoding='utf-8').split('\n')
+    os.unlink(p)
+
+    expect = [
+        '他说“你好”结束',
+        '第三行“正常”引用',
+    ]
+    passed = all(e in out[i + 1] for i, e in enumerate(expect))
+    print(f'  {"PASS" if passed else "FAIL"}  奇偶错位不跨行传染')
+    if not passed:
+        for i, e in enumerate(expect):
+            print(f'        期望含: {e}')
+            print(f'        实际得: {out[i + 1]}')
+    return 1 if passed else 0
 
 if __name__ == '__main__':
     main()

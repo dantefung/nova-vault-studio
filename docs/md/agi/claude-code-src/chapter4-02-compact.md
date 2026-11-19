@@ -16,7 +16,7 @@ Markdown Content:
 * [Autocompact（全量摘要压缩）](https://plain-sun-1ffe.hunshcn429.workers.dev/services/compact.html#autocompact-%E5%85%A8%E9%87%8F%E6%91%98%E8%A6%81%E5%8E%8B%E7%BC%A9 "Autocompact（全量摘要压缩）")
 * [Session Memory Compact](https://plain-sun-1ffe.hunshcn429.workers.dev/services/compact.html#session-memory-compact "Session Memory Compact")
 * [Reactive Compact](https://plain-sun-1ffe.hunshcn429.workers.dev/services/compact.html#reactive-compact "Reactive Compact")
-* [压缩策略对比](https://plain-sun-1ffe.hunshcn429.workers.dev/services/compact.html#%E5%8E%8B%E7%BC%A9%E7%AD%96%E7%95%A5%E5%AF%B9%E6%AF%94 ”压缩策略对比“)
+* [压缩策略对比](https://plain-sun-1ffe.hunshcn429.workers.dev/services/compact.html#%E5%8E%8B%E7%BC%A9%E7%AD%96%E7%95%A5%E5%AF%B9%E6%AF%94 “压缩策略对比”)
 
 ## 上下文压缩系统 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/services/compact.html#%E4%B8%8A%E4%B8%8B%E6%96%87%E5%8E%8B%E7%BC%A9%E7%B3%BB%E7%BB%9F)
 

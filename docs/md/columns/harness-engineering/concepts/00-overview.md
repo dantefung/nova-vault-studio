@@ -162,7 +162,7 @@ Martin Fowler 将这个转变总结为：
 - 在 Agent 第一次失败时就添加大量规则
 
 HumanLayer 的研究发现：
-- 过多工具会让 Agent 进入”愚蠢区“（dumb zone）
+- 过多工具会让 Agent 进入“愚蠢区”（dumb zone）
 - ETH Zurich 研究：人工撰写的 AGENTS.md 只带来 4% 提升，LLM 自动生成版本反而降低 20%+
 - 过长上下文不是解决方案：更多 token 不等于更好的性能
 

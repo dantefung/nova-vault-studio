@@ -322,7 +322,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-这也是为什么”去掉平移“有可能行得通：很多时候平移这一步贡献有限。
+这也是为什么“去掉平移”有可能行得通：很多时候平移这一步贡献有限。
 
 
 
@@ -348,7 +348,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
   * **RMSNorm** ：把向量缩放到半径为 d\sqrt{d} 的球面上。
 
-  * **LayerNorm** ：先把向量投影到”各分量之和为 0“的超平面上（这就是减均值），再缩放到同一个球面。
+  * **LayerNorm** ：先把向量投影到“各分量之和为 0”的超平面上（这就是减均值），再缩放到同一个球面。
 
 
 
@@ -370,11 +370,11 @@ token | 原向量 | LayerNorm | RMSNorm
 
   * **RMSNorm** ：只调音量，把响度统一到同一档，声音的波形不变。
 
-  * **LayerNorm** ：除了调音量，还把声音整体的”直流偏置“（整体偏高或偏低的部分）也去掉。
+  * **LayerNorm** ：除了调音量，还把声音整体的“直流偏置”（整体偏高或偏低的部分）也去掉。
 
 
 
-多数时候，直流偏置对”听起来是什么“影响不大，所以只调音量也够用，而且更省事。
+多数时候，直流偏置对“听起来是什么”影响不大，所以只调音量也够用，而且更省事。
 
 
 
@@ -502,7 +502,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-一句话总结：**RMSNorm 就是 LayerNorm 去掉”减均值“和 β，只保留缩放。**
+一句话总结：**RMSNorm 就是 LayerNorm 去掉“减均值”和 β，只保留缩放。**
 
 
 
@@ -514,7 +514,7 @@ token | 原向量 | LayerNorm | RMSNorm
 
 
 
-  * Zhang & Sennrich, _Root Mean Square Layer Normalization_ （2019）：RMSNorm 原论文，关于”平移不重要“的假设和实验结果，以原文为准。
+  * Zhang & Sennrich, _Root Mean Square Layer Normalization_ （2019）：RMSNorm 原论文，关于“平移不重要”的假设和实验结果，以原文为准。
 
   * Touvron 等， _LLaMA_ （2023）：把 RMSNorm、SwiGLU、RoPE 合到一起用的代表。
 

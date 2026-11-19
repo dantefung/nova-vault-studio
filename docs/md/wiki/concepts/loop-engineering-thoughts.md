@@ -39,15 +39,15 @@ Loop Engineering 本质上是**控制论在 AI 领域的一次落地应用**—�
 
 ### Loop 五大组件
 
-1. **Automations（唤醒机制）**——人不用再去”盯着去喊“，自动化系统运行的前提
+1. **Automations（唤醒机制）**——人不用再去“盯着去喊”，自动化系统运行的前提
 2. **Worktrees（沙箱环境）**——多 Agent 协同，每任务独立工作区，杜绝文件覆盖和环境污染
-3. **Maker-Checker（双校验）**——对抗性思维，”一方做、一方质疑“，结合 Skills 经验库
+3. **Maker-Checker（双校验）**——对抗性思维，“一方做、一方质疑”，结合 Skills 经验库
 4. **Connectors（通信模式）**——MCP、Function call 等，打通上下游系统
 5. **Memory（长任务记忆）**——记录任务进度、过往尝试，防止多轮迭代后丢失目标
 
 ## 关键机制
 
-### 如何让模型说”不“？三种方法
+### 如何让模型说“不”？三种方法
 
 **方法一：TDD（测试驱动开发）**——TDD 的价值不是多写测试用例，而是**把需求翻译成反馈信号**。核心：Red-Green-Refactor 最小闭环。注重 TDD 左移：先定标准、后做开发、以结果反向驱动过程。
 
@@ -66,9 +66,9 @@ Loop Engineering 本质上是**控制论在 AI 领域的一次落地应用**—�
 - 与 [[loop-engineering]] 相关：本文是 loop-engineering 概念页的深度补充，补充了控制论四大公理与 Loop 的映射关系、吴恩达三个环（技术/产品/用户）、模型成本等实践视角。
 - 与 [[harness-engineering]] 相关：Harness 是 Loop 的地基，Loop 是 Harness 之上的自驱动调度。
 - 与 [[vibe-coding]] 相关：VibeCoding 是控制论的最早实践（人+AI 的负反馈闭环）。
-- 与 [[ai-friendly-backend]] 相关：AI Friendly 后端架构中的”测试约束 AI 行为“与本文的 TDD 作为反馈信号高度一致。
+- 与 [[ai-friendly-backend]] 相关：AI Friendly 后端架构中的“测试约束 AI 行为”与本文的 TDD 作为反馈信号高度一致。
 - 与 [[agentscope-skills]] 相关：Maker-Checker 双校验与 Skills 的确定性协处理器形成互补。
 
 ## 一句话点评
 
-本文最有价值的是**把控制论作为 Loop Engineering 的理论地基**——负反馈闭环、可观测性、可控性约束、离散迭代纠偏——让 Loop 不再只是一个”AI 圈新词“，而是有成熟工程理论支撑的实践框架。五代演进的分期（2023→2026）也清晰刻画了 AI 编程工程化的完整脉络。
+本文最有价值的是**把控制论作为 Loop Engineering 的理论地基**——负反馈闭环、可观测性、可控性约束、离散迭代纠偏——让 Loop 不再只是一个“AI 圈新词”，而是有成熟工程理论支撑的实践框架。五代演进的分期（2023→2026）也清晰刻画了 AI 编程工程化的完整脉络。

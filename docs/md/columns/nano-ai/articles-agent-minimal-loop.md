@@ -172,7 +172,7 @@ Minimal Agent Loop
 
         if input(f"\n[需要确认] 执行命令：{command}\n 允许？(y/n) ").strip().lower() != "y":
 
-            return ”用户拒绝执行该命令“
+            return “用户拒绝执行该命令”
 
         try:
 
@@ -236,7 +236,7 @@ Minimal Agent Loop
 
         _tool("write_file", “写入文件（覆盖）", {"path": ”文件路径“, "content": ”完整文件内容“}),
 
-        _tool("run_shell", ”执行 shell 命令并返回输出“, {"command": ”要执行的命令“}),
+        _tool("run_shell", “执行 shell 命令并返回输出”, {"command": “要执行的命令”}),
 
     ]
 

@@ -14,7 +14,7 @@ url: "https://mp.weixin.qq.com/s/59Z2eVOg914_bpRD6-WsYg"
 关于 skill：概念、特性与应用场景
 关于 skill：概念、特性与应用场景
 ▐什么是 Agent Skill
-Agent Skill 是模块化的能力包，沉淀了领域知识的资产 bundle，资产包括自然语言指令、元数据和可选资源（脚本、模板），让 AI Agent 在需要时自动加载和使用。如果说 MCP 为 agent 提供了”手“来操作工具，那么 skill 就是”操作手册“，教 agent 怎么用这些工具。
+Agent Skill 是模块化的能力包，沉淀了领域知识的资产 bundle，资产包括自然语言指令、元数据和可选资源（脚本、模板），让 AI Agent 在需要时自动加载和使用。如果说 MCP 为 agent 提供了“手”来操作工具，那么 skill 就是“操作手册”，教 agent 怎么用这些工具。
 从时间线看，2025 年 10 月中旬 Anthropic 正式发布 Claude Skills，两个月后 Agent Skills 作为开放标准发布，Cursor、OpenCode、Qoder 等主流工具陆续跟进。
 通俗理解：skill 就是给 agent 准备的业务 SOP 大礼包，涵盖执行流程、背景知识、工具使用说明、模板素材，以及常见问题的处理方式。
 ▐Agent skill 的形态
@@ -54,17 +54,17 @@ https://skills.sh/softaworks/agent-toolkit/skill-judge用于评估 skill
 % 图片已移除（原始图片未下载）
 以下是开发过程中一些具体的可优化 skill 效果的实践
 用决策树替代模糊判断
-### 结果处理规则**补全未发出消息：**若有序事件的前序有日志、后序无日志，在报告表格中补充后序事件行，tag 以外字段留空，备注标记为”消息未发出“。**消费失败处理：**判断某 tag 是否失败，标准为`resultFlag = N`且该 tag 后续无`resultFlag = Y`的记录。-若后续**有**`Y`（重试成功）→ 取**第一条**失败行，调用错误详情查询-若后续**无**`Y`（持续失败）→ 取**每一条**失败行，调用错误详情查询**错误详情查询（消费失败）：**
+### 结果处理规则**补全未发出消息：**若有序事件的前序有日志、后序无日志，在报告表格中补充后序事件行，tag 以外字段留空，备注标记为“消息未发出”。**消费失败处理：**判断某 tag 是否失败，标准为`resultFlag = N`且该 tag 后续无`resultFlag = Y`的记录。-若后续**有**`Y`（重试成功）→ 取**第一条**失败行，调用错误详情查询-若后续**无**`Y`（持续失败）→ 取**每一条**失败行，调用错误详情查询**错误详情查询（消费失败）：**
 skill-judge 把决策树列为高质量 skill 的明确标志，在 D1（知识增量）和 D8（实用性）两个维度都是加分项：
 > Green flags (indicators of high knowledge delta):- Decision trees for non-obvious choices (&quot;when X fails, try Y because Z&quot;)D8 Usability 检查项：- Decision trees: For multi-path scenarios, is there clear guidance on which path to take?
 Green flags (indicators of high knowledge delta):- Decision trees for non-obvious choices (&quot;when X fails, try Y because Z&quot;)
-原因很简单：skill 的核心价值是封装专家才有的判断知识。决策树把”应该怎么判断“写清楚，而不是用模糊语言把判断压力甩给 agent。agent 不需要推理，顺着树走就行。比模糊描述的可执行性高很多。写 skill 时遇到分支判断，优先用树形结构，而不是让 agent 自行决策。
+原因很简单：skill 的核心价值是封装专家才有的判断知识。决策树把“应该怎么判断”写清楚，而不是用模糊语言把判断压力甩给 agent。agent 不需要推理，顺着树走就行。比模糊描述的可执行性高很多。写 skill 时遇到分支判断，优先用树形结构，而不是让 agent 自行决策。
 负向约束要配替代方案
 ### Mocking Restrictions**Do NOT mock:**-`public static`fields (e.g.,`@AppSwitch`-annotated configurations) - assign values directly in`@BeforeEach`andrestore originals post-test-POJO classes or OneLog objects - initialize simple POJOs programmatically; load complex POJOs from JSON files-Stateless static methods (e.g., utility methods for conversion/assembly) - call real implementations directly
-不要只说”不能做什么“，要给”那应该怎么做“。这也是一种 few shot。没有替代方案的话，agent 会自己找一个——结果往往不是你想要的。
+不要只说“不能做什么”，要给“那应该怎么做”。这也是一种 few shot。没有替代方案的话，agent 会自己找一个——结果往往不是你想要的。
 skill 执行后自查机制
 ## Post-Generation ReviewAfter generating tests, review against this specificationtoensure:-Correct test file locationandnaming-Proper mock configurationwithoutprohibited patterns-Complete verificationofreturnvalues, state mutations,andinvocations-AssertJ assertion patternsareused consistently-Noreflection-based testingorprivatememberverification-Similartestsaregroupedintoparameterized testswhereappropriate-Parameterized tests use appropriate source typesandhandlenullvaluescorrectly
-agent 的自然倾向是完成任务就结束，不会主动回头检验。很多规范性错误恰恰在”完成“之后才能发现。把自查写进 skill，就是强制插入一个反射节点，把”我觉得做完了“变成”我验证过做完了“。
+agent 的自然倾向是完成任务就结束，不会主动回头检验。很多规范性错误恰恰在“完成”之后才能发现。把自查写进 skill，就是强制插入一个反射节点，把“我觉得做完了”变成“我验证过做完了”。
 自查可以从两个角度来：
 规范符合性：对照约束检查，确认没做错
 覆盖完整性：对照领域知识检查，确认没遗漏

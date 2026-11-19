@@ -545,7 +545,7 @@ understand what this company is doing!”, a person whispers.
 Eventually, the whole process starts to make sense, and while we’re merging
 the different points of view, people can’t stop commenting on given business
 steps: “and this is where everything screws up!” or “this never really works as
-expected” or “it always takes ages to complete this step”.
+expected“ or ”it always takes ages to complete this step“.
 
 These pieces of information are crucial, so I try to capture every warning
 sign and write them on purple stickies decorating them with big exclamation
@@ -1693,7 +1693,7 @@ Lack of shared understanding will turn into procrastination.
 Part of the struggle between different organization types has to do with the
 cost of achieving consensus. Sometimes no agreement is needed: my way
 or the highway can be applicable in some places, like “We use MSWindow
-laptops here” or “this is your desk.”
+laptops here“ or ”this is your desk.“
 
 But when a team agreement is needed, human beings tend to enter a spiral of
 dysfunctional meetings that give democracy a bad reputation. Sitting around
@@ -3516,7 +3516,7 @@ Running a Big Picture Workshop - 98%
 
 95
 
-please not again!” to “Grab the popcorns; this is finally it!” - and/or to explicitly
+please not again!“ to ”Grab the popcorns; this is finally it!“ - and/or to explicitly
 ask what they would like to do.
 
 It doesn’t make sense to kill a long-awaited discussion just to follow the
@@ -3559,7 +3559,7 @@ Running a Big Picture Workshop - 98%
 Reverse narrative in action
 
 You might want to challenge the audience asking something like “So [Event
-A] is all it takes to have [Event B]?” or “What needs to happen, to have [Event C]
+A] is all it takes to have [Event B]?“ or ”What needs to happen, to have [Event C]
 happen?”
 
 Here is a little example from my company domain.
@@ -4118,7 +4118,7 @@ what was missing from the picture, in order to steer the discussion where it
 mattered for them. A voice said: “I don’t see the purpose!”
 
 With a hint of imposter’s syndrome, I asked: “Do you mean the purpose of this
-workshop?” “No, I don’t see the purpose of our job.”
+workshop?“ ”No, I don’t see the purpose of our job.“
 
 Oh, shit.
 
@@ -4885,7 +4885,7 @@ but only about the what.
 
 In our scenario it may be something like: “I don’t care whether you used
 WordPress to publish the website, I just need to know whether the URL is
-reachable or not” or “I don’t care how did you decide those prices, I just need
+reachable or not“ or ”I don’t care how did you decide those prices, I just need
 to know the amount for every ticket type”.
 
 Discovering Bounded Contexts with EventStorming
@@ -5246,7 +5246,7 @@ especially those huge meeting rooms ones. We’ll need some small table,
 in order to write on the sticky notes. Tall, smaller tables are a perfect
 match.
 
-¹“I am sorry, I can’t read from here…“, it’s hard not to say a word, sometimes.
+¹“I am sorry, I can’t read from here…”, it’s hard not to say a word, sometimes.
 
 Preparing the workshop - 30%
 
@@ -5633,7 +5633,7 @@ An emerging subdomains structure from my company’s public trainings line of bu
 When to stop?
 
 I’d be happy to say something like: “You can stop once you’ve achieved a
-satisfying level of understanding about the underlying domain” or “the workshop
+satisfying level of understanding about the underlying domain“ or ”the workshop
 is over when every flow is completely modeled on the wall”. Unfortunately, that’s
 not the case: the dominant constraint for a big picture workshop is key
 people availability, so, unless you provide very high quality refreshments and
@@ -6154,7 +6154,7 @@ notation to reduce the modelling frictions down to a minimum, and now
 we’re back with a digital tool than only 20% of the room participants
 will master. There was almost zero friction in writing sticky notes, and
 now frictions and micro-impediments are part of the recipe. From “my
-screen is too small!” to “my laptop is overheating”, we can’t guarantee that
+screen is too small!“ to ”my laptop is overheating“, we can’t guarantee that
 a modelling workshop will be a nice experience. It can actually be a
 torture for some, and this would be really hard to realize for the tech-
 savy participants with a last generation laptop, panoramic screens and
@@ -7550,14 +7550,14 @@ whenever a given event, or a combination of events, happen.
 ³Draft and Executable Models are a frequently misunderstood topic: I’ve found quite a few software
 systems that ended up crippled because of the lack of separation between the two phases. This is a major
 issue in many enterprise systems, I’ve frequently talked about it, you may want to have a look at “Why do all
-my DDD apps look the same?” and to [“What lies beneath”][FIXME: upload the presentation].
+my DDD apps look the same?“ and to [”What lies beneath“][FIXME: upload the presentation].
 
 Process Modeling Building Blocks - 90%
 
 223
 
 A simple policy in action. You can read it as: “Whenever a registration is completed, we send a welcome
-pack to the new user.” Or: “Whenever a registration is completed, our welcome policy is to send a
+pack to the new user.“ Or: ”Whenever a registration is completed, our welcome policy is to send a
 welcome pack to the new user.”
 
 We look for policies like the missing glue between a domain event and the
@@ -9422,11 +9422,11 @@ Downgrading expectations
 Probably, what’s disappointing for me is that people keep talking about
 “Remote EventStorming” which sounds like blasphemy to me. If the question
 was something like “do you know any cool way for remote modeling?” then the
-answer may be “of course I do, “
+answer may be “of course I do, ”
 
 Patterns and Anti-patterns
 
-“The 7 most expensive words in business are: ‘We have always done it that way!’“
+“The 7 most expensive words in business are: ‘We have always done it that way!’”
 
 Catherine DeVrye
 
@@ -9629,7 +9629,7 @@ Clearly state that you won’t provide precise definitions on purpose, ant the
 goal is to include different viewpoints in the same conversation.
 
 The apparently agreeable sentence “Ok, but we have to define what an actor
-is” could be addressed like: “Sure, we will!” But now there are more interesting
+is“ could be addressed like: ”Sure, we will!“ But now there are more interesting
 things to do. However, if the pressure for a definition is driven by clashing
 interpretations, then make both interpretation visible: maybe you’re just
 
@@ -9752,7 +9752,7 @@ Patterns and Anti-Patterns - 75%
 305
 
 I usually ask participants questions like “What is the aspect you’d like to see
-in the model?” or “What’s the next thing you’d like to visualize?” to go in the
+in the model?“ or ”What’s the next thing you’d like to visualize?“ to go in the
 direction that will maximize the engagement and keep the workshop flow in
 ‘the zone’.
 

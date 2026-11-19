@@ -74,6 +74,6 @@ AgentScope Java 自 2025 年 9 月开源（https://github.com/agentscope-ai/agen
 
 我们计划于 11 月底发布 v1.0 版本，届时将新增 RAG、Plan、Tracing、Evaluation 及 Studio 等全套功能，标志着框架正式生产可用；Runtime v1.0 也将同步上线，提供涵盖安全沙箱、A2A Agent 在内的企业级落地方案。随后在 12 月，我们将进一步推出基于 ReMe 的上下文管理与基于 Trinity-RFT 的强化学习最佳实践。
 
-在技术演进层面，我们正持续探索更高效、智能的上下文工程与多 Agent 协同范式，致力于支撑更强大的 AI 应用构建。此外，针对 Agent 流量呈现的”二八定律“特征（头部 20%的 Agent 承载了 80%的流量），我们在架构上全力推进 Serverless 化，通过实现毫秒级冷启动与混合部署，帮助开发者在应对高并发的同时，显著降低部署成本并提升效率。
+在技术演进层面，我们正持续探索更高效、智能的上下文工程与多 Agent 协同范式，致力于支撑更强大的 AI 应用构建。此外，针对 Agent 流量呈现的“二八定律”特征（头部 20%的 Agent 承载了 80%的流量），我们在架构上全力推进 Serverless 化，通过实现毫秒级冷启动与混合部署，帮助开发者在应对高并发的同时，显著降低部署成本并提升效率。
 
 ![AgentScope-Java 路线图与 Serverless 架构](../images/saa-agentscope/006.webp)

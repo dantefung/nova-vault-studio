@@ -54,7 +54,7 @@ Codelab 两个：上手 Google Antigravity 2.0（Google 的 agentic IDE），以
 
 Day 2 — Agent 工具与互操作
 
-白皮书《Agent Tools & Interoperability》的核心命题是：没有开放协议，每个工具集成都变成“standard-of-one"——为每个工具写一层脆弱的定制包装，累积成技术债。采用标准化协议层之后，孤立的定制系统变成模块化的互操作平台，开发者从“建造者”升级为“编排者”。白皮书封面承诺读者可以“在一个下午内用这些协议拼出一支虚拟的数据与执行团队”。
+白皮书《Agent Tools & Interoperability》的核心命题是：没有开放协议，每个工具集成都变成“standard-of-one"——为每个工具写一层脆弱的定制包装，累积成技术债。采用标准化协议层之后，孤立的定制系统变成模块化的互操作平台，开发者从”建造者“升级为”编排者“。白皮书封面承诺读者可以”在一个下午内用这些协议拼出一支虚拟的数据与执行团队“。
 
 涉及的协议栈是一幅完整的 Agent 互操作版图：
 
@@ -76,13 +76,13 @@ Day 3 — Agent Skills
 
 Day 4 — Vibe Coding 的安全与评估
 
-白皮书《Vibe Coding Agent Security and Evaluation》直面这个范式最尖锐的问题：意图驱动开发加快了创新速度，但击穿了传统信任模型。传统确定性软件的信任是二元的（能编译、测试通过、凭证有效），而 Agent 系统会自主执行生成的代码、访问敏感内部 API、动态修改生产环境。白皮书提出从“随口接受 AI 输出”的随性 vibe coding 到“在严格约束下把 AI 当实现引擎”的纪律化 agentic engineering 的光谱，并给出了一套 7 支柱的”Effective Trust“架构，包括：临时沙箱隔离、防御“slopsquatting”（攻击者抢注 AI 幻觉出来的包名，等开发者照抄安装，这是供应链攻击在 AI 时代的新形态）、红/蓝/绿安全三色体系，以及基于 OpenTelemetry 的轨迹评估（不只要看最终输出，要审查 Agent 走过的每一步）。
+白皮书《Vibe Coding Agent Security and Evaluation》直面这个范式最尖锐的问题：意图驱动开发加快了创新速度，但击穿了传统信任模型。传统确定性软件的信任是二元的（能编译、测试通过、凭证有效），而 Agent 系统会自主执行生成的代码、访问敏感内部 API、动态修改生产环境。白皮书提出从“随口接受 AI 输出”的随性 vibe coding 到“在严格约束下把 AI 当实现引擎”的纪律化 agentic engineering 的光谱，并给出了一套 7 支柱的“Effective Trust”架构，包括：临时沙箱隔离、防御“slopsquatting”（攻击者抢注 AI 幻觉出来的包名，等开发者照抄安装，这是供应链攻击在 AI 时代的新形态）、红/蓝/绿安全三色体系，以及基于 OpenTelemetry 的轨迹评估（不只要看最终输出，要审查 Agent 走过的每一步）。
 
 两个 Codelab 很实用：用 ADK + Agents CLI 构建一个带人工审批环节（human-in-the-loop）的费用报销 Agent；以及带自动化威胁扫描和安全护栏的安全编码实践。这一天的核心信息是：“信任”在 Agent 时代从一次性验证变成了持续性工程。
 
 Day 5 — 规格驱动的生产级开发
 
-收官日由 Lee Boonstra 执笔白皮书《Spec-Driven Production Grade Development in the Age of Vibe Coding》。它先戳破一个幻觉，”速度的错觉“：AI 生成错误的速度和生成代码的速度一样快，bug 率并不因为 AI 而自动下降。然后给出核心主张：
+收官日由 Lee Boonstra 执笔白皮书《Spec-Driven Production Grade Development in the Age of Vibe Coding》。它先戳破一个幻觉，“速度的错觉”：AI 生成错误的速度和生成代码的速度一样快，bug 率并不因为 AI 而自动下降。然后给出核心主张：
 
 •"Vibe Coding" 不等于 "Vibe in Production"，随性开发可以，随性上线不行；
 

@@ -29,11 +29,11 @@ url: "https://mp.weixin.qq.com/s/EcCgLjiqtmUl6ULUWaTmxQ"
 
 ## 第一步：替换，不是删除
 
-一上来不要说”删掉模板内容“。很多人会删除没用的东西，但删完以后页面空了，结构也没了。
+一上来不要说“删掉模板内容”。很多人会删除没用的东西，但删完以后页面空了，结构也没了。
 
 商业模版里有的东西，绝大部分是有用的。TanStarter 原来有导航、页脚、定价页、法务页，这些对 SaaS 是有用的。
 
-**要求是”替换“**：把模板壳子变成 ProductShot AI 的壳子。
+**要求是“替换”**：把模板壳子变成 ProductShot AI 的壳子。
 
 ![初始视觉设计](images/tanstarter-productshot-ai/001.webp)
 

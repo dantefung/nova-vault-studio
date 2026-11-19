@@ -1220,7 +1220,7 @@ claude mcp add --transport http my-remote-server https://your-server.com/mcp
 
 #### 1. Tools（工具）
 
-> **这是什么？** Tools 是 MCP 服务器提供的”函数“，AI 可以调用它们执行操作。
+> **这是什么？** Tools 是 MCP 服务器提供的“函数”，AI 可以调用它们执行操作。
 
 **工具定义示例**：
 
@@ -1248,7 +1248,7 @@ claude mcp add --transport http my-remote-server https://your-server.com/mcp
 
 #### 2. Resources（资源）
 
-> **这是什么？** Resources 是 MCP 服务器提供的”数据“，AI 可以读取它们。
+> **这是什么？** Resources 是 MCP 服务器提供的“数据”，AI 可以读取它们。
 
 **资源定义示例**：
 
@@ -1267,7 +1267,7 @@ claude mcp add --transport http my-remote-server https://your-server.com/mcp
 
 #### 3. Prompts（提示词）
 
-> **这是什么？** Prompts 是 MCP 服务器提供的”模板“，预定义的交互方式。
+> **这是什么？** Prompts 是 MCP 服务器提供的“模板”，预定义的交互方式。
 
 **提示词定义示例**：
 

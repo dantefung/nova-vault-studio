@@ -26,9 +26,9 @@ DSH 架构文档里最狠的一句话：
 
 代价是复杂度上去了——理解 Cordis 的事件系统需要学习成本。收益是灵活性极高——同一个进程里可以跑完全不同架构的 Agent。
 
-**参考价值**：设计 Agent Runtime 时要想清楚哪些是骨架（不可替换），哪些是血肉（可替换）。DSH 的极端答案是”全是血肉“。
+**参考价值**：设计 Agent Runtime 时要想清楚哪些是骨架（不可替换），哪些是血肉（可替换）。DSH 的极端答案是“全是血肉”。
 
-![”无特权核心“架构示意图](../images/deepseek-harness-agent-runtime-architecture/001.webp)
+![“无特权核心”架构示意图](../images/deepseek-harness-agent-runtime-architecture/001.webp)
 
 ## Session Log：append-only 事件流
 
@@ -38,11 +38,11 @@ DSH 对会话数据的处理方式，是其他 Agent 框架里不多见的：
 
 **模型能看到的一切，都必须能从日志重建。**
 
-Session Log 是 append-only 的事件流。每一条事件（turn/start、step/start、user/message、assistant/chunk、tool/call、tool/result、turn/end）都不可修改地追加到日志里。上下文压缩不会删除原始数据——它只是插入一个 replacement 事件，改变模型此后的”视图“。
+Session Log 是 append-only 的事件流。每一条事件（turn/start、step/start、user/message、assistant/chunk、tool/call、tool/result、turn/end）都不可修改地追加到日志里。上下文压缩不会删除原始数据——它只是插入一个 replacement 事件，改变模型此后的“视图”。
 
 这意味着：
 - 可以完整回放 Agent 的每一步决策
-- Debug 时精确定位到”第 3 轮第 2 步，模型收到的 prompt 是什么，调了什么工具，返回了什么“
+- Debug 时精确定位到“第 3 轮第 2 步，模型收到的 prompt 是什么，调了什么工具，返回了什么”
 - Fork 和 resume 变得自然——fork 就是从某个事件点复制，resume 就是从某个事件点继续追加
 
 **参考价值**：Event Sourcing 模式比消息列表+快照更优雅，尤其对于多 Agent 协作场景——每个 Agent 的决策链路都是可审计的。
@@ -109,10 +109,10 @@ DSH 的 Agent Loop 设计：
 
 ## 总结
 
-> DSH 给 Agent Runtime 的设计者上了一课：不是”给 Agent 加插件“，而是”Agent 本身就是插件组合的产物“。
+> DSH 给 Agent Runtime 的设计者上了一课：不是“给 Agent 加插件”，而是“Agent 本身就是插件组合的产物”。
 
 从模型适配器到工具注册表到 Agent Loop 到前端 UI，全是可替换的插件。没有特权核心，只有有序的组合。
 
-DSH 最值得偷的设计不是插件本身，而是**"Agent Loop 也是插件”**这个架构决策——它把 Runtime 从“框架”变成了“组装台”。
+DSH 最值得偷的设计不是插件本身，而是**"Agent Loop 也是插件“**这个架构决策——它把 Runtime 从”框架“变成了”组装台“。
 
 !["DSH 架构总结“示意图](../images/deepseek-harness-agent-runtime-architecture/002.webp)

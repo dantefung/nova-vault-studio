@@ -20,7 +20,7 @@ Markdown Content:
     * [Section 组装流程](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#section-%E7%BB%84%E8%A3%85%E6%B5%81%E7%A8%8B "Section 组装流程”)
 
 * [constants/ 目录其他文件](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#constants-%E7%9B%AE%E5%BD%95%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6 "constants/ 目录其他文件“)
-* [关键常量摘要](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E5%85%B3%E9%94%AE%E5%B8%B8%E9%87%8F%E6%91%98%E8%A6%81 ”关键常量摘要“)
+* [关键常量摘要](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E5%85%B3%E9%94%AE%E5%B8%B8%E9%87%8F%E6%91%98%E8%A6%81 “关键常量摘要”)
 
 ## 提示词系统 (constants/prompts.ts) [​](https://plain-sun-1ffe.hunshcn429.workers.dev/core/prompts.html#%E6%8F%90%E7%A4%BA%E8%AF%8D%E7%B3%BB%E7%BB%9F-constants-prompts-ts)
 
@@ -148,7 +148,7 @@ async function resolveSystemPromptSections(
 | `oauth.ts` | OAuth 配置常量 |
 | `outputStyles.ts` | 输出风格定义 |
 | `product.ts` | 产品信息（名称、版本等） |
-| `spinnerVerbs.ts` | 加载动画动词 (”思考中“...) |
+| `spinnerVerbs.ts` | 加载动画动词 (“思考中”...) |
 | `system.ts` | 系统级常量 |
 | `systemPromptSections.ts` | Section 注册辅助 |
 | `toolLimits.ts` | 工具行为限制 |

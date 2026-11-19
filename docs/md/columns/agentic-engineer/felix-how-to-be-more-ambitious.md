@@ -63,7 +63,7 @@ Then rewrite my prompt to ask for exactly that.
 心理学上有自我效能感（self-efficacy）：相信自身能力的人会实际完成更多。
 
 **三个已验证的 hacks**：
-1. **相信某事是可能的，就能完成它**：1939 年 George Dantzig 迟到抄了两个”作业题“，结果是两个未解决的统计问题
+1. **相信某事是可能的，就能完成它**：1939 年 George Dantzig 迟到抄了两个“作业题”，结果是两个未解决的统计问题
 2. **看别人做过后你也能做**：人类跑进 4 分钟 mile 后，46 天内就有多人做到；sub-2 hour marathon 也在发生
 3. **给自己失败的权利**：Linux 最初只是” hobby, won't be big"
 

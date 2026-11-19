@@ -110,7 +110,7 @@ Permissions
 
 
 
-在 system prompt 里写”危险操作前请先询问用户“，是在请求模型自觉，不是保证。能保证的只有代码：模型只能”提出调用“，能不能执行由代码裁决。
+在 system prompt 里写“危险操作前请先询问用户”，是在请求模型自觉，不是保证。能保证的只有代码：模型只能“提出调用”，能不能执行由代码裁决。
 
 
 
@@ -260,7 +260,7 @@ Permissions
 
 
 
-    # 允许”本次会话一直允许“的工具。run_shell 不在里面：每条命令都要过目。
+    # 允许“本次会话一直允许”的工具。run_shell 不在里面：每条命令都要过目。
 
     REMEMBERABLE = {"write_file"}
 
@@ -458,13 +458,13 @@ Permissions
 
                 # 非交互环境（管道、脚本）没有人可以确认，默认拒绝
 
-                return "n", ”当前是非交互环境，无法确认“
+                return "n", “当前是非交互环境，无法确认”
 
             print(f"\n⚠️ Agent 想执行：{name}")
 
             print(render_call(name, args))
 
-            options = "[y]允许 / [n]拒绝” + (" / [a]本次会话一直允许“ if name in REMEMBERABLE else "")
+            options = "[y]允许 / [n]拒绝“ + (" / [a]本次会话一直允许” if name in REMEMBERABLE else "")
 
             while True:
 
@@ -582,7 +582,7 @@ Permissions
 
 
 `perms`
- 在会话开始时创建一次，整个会话共用，”本次会话一直允许“就记在它身上：
+ 在会话开始时创建一次，整个会话共用，“本次会话一直允许”就记在它身上：
 
 
 
@@ -594,7 +594,7 @@ Permissions
 
 
 
-就是这几行。闸门的位置在”解析出 tool_call“之后、”执行函数“之前，模型绕不过去。
+就是这几行。闸门的位置在“解析出 tool_call”之后、“执行函数”之前，模型绕不过去。
 
 
 
@@ -684,7 +684,7 @@ Permissions
 
 
 
-    @tool("run_shell", ”在工作区执行一条 shell 命令。", _params(command=“要执行的命令”))
+    @tool("run_shell", “在工作区执行一条 shell 命令。", _params(command=”要执行的命令“))
 
     def run_shell(command, timeout=30):
 

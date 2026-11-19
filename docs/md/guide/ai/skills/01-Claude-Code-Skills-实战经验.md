@@ -81,7 +81,7 @@ Skills 已经成为 Claude Code 中使用最广泛的扩展点（extension point
 在团队内部执行代码质量标准并辅助代码审查的 Skills。可以包含确定性的脚本或工具来保证最大的可靠性。你可能希望把这些 Skills 作为钩子的一部分自动运行，或者放在 GitHub Action 中执行。
 
 示例：
-- `adversarial-review` — 生成一个全新视角的子智能体来挑刺，实施修复，反复迭代直到发现的问题退化为吹毛求疵。子智能体（subagent）是指 Claude Code 在执行任务时启动的另一个独立 Claude 实例。这里的做法是让一个”没见过这段代码“的新实例来做代码审查，避免原实例的思维惯性。
+- `adversarial-review` — 生成一个全新视角的子智能体来挑刺，实施修复，反复迭代直到发现的问题退化为吹毛求疵。子智能体（subagent）是指 Claude Code 在执行任务时启动的另一个独立 Claude 实例。这里的做法是让一个“没见过这段代码”的新实例来做代码审查，避免原实例的思维惯性。
 - `code-style` — 强制执行代码风格，特别是那些 Claude 默认做不好的风格
 - `testing-practices` — 关于如何写测试以及测试什么的指导
 
@@ -110,7 +110,7 @@ Skills 已经成为 Claude Code 中使用最广泛的扩展点（extension point
 示例：
 - `<resource>-orphans` — 找到孤立的 Pod/Volume→发到 Slack→等待观察→用户确认→级联清理
 - `dependency-management` — 你所在组织的依赖审批工作流
-- `cost-investigation` — ”我们的存储/出口带宽费用为什么突然涨了“，附带具体的存储桶和查询模式
+- `cost-investigation` — “我们的存储/出口带宽费用为什么突然涨了”，附带具体的存储桶和查询模式
 
 ## 编写技巧
 
@@ -154,9 +154,9 @@ Claude 通常会努力遵循你的指令，而由于 Skills 的复用性很强�
 
 ### description 字段是给模型看的
 
-当 Claude Code 启动一个会话时，它会构建一份所有可用 Skills 及其描述的清单。Claude 通过扫描这份清单来判断”这个请求有没有对应的 Skill？“所以 `description` 字段不是摘要——它描述的是**何时该触发这个 Skill**。
+当 Claude Code 启动一个会话时，它会构建一份所有可用 Skills 及其描述的清单。Claude 通过扫描这份清单来判断“这个请求有没有对应的 Skill？”所以 `description` 字段不是摘要——它描述的是**何时该触发这个 Skill**。
 
-这条建议经常被忽略。很多人写 description 时会写”这个 Skill 做什么“，但 Claude 需要的是”什么情况下该用这个 Skill"。好的 description 读起来更像 if-then 条件，而不是功能说明。
+这条建议经常被忽略。很多人写 description 时会写“这个 Skill 做什么”，但 Claude 需要的是“什么情况下该用这个 Skill"。好的 description 读起来更像 if-then 条件，而不是功能说明。
 
 ### 记忆与数据存储
 

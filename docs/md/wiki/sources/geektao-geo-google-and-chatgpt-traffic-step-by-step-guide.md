@@ -58,7 +58,7 @@ ChatGPT 推荐一个网站之前，要先能抓到页面，并读出页面在讲
 5. 把 sitemap 同时提交到 Google Search Console 和 Bing Webmaster Tools。公开报道称 ChatGPT 搜索有一部分依赖 Bing 的索引，这一点我没有办法自己验证。
 6. 在网站根目录放一个 llms.txt，依次写：一句话介绍、怎么用、价格、和主要替代品的区别、核心页面和工具页的链接。
 
-curl -A “Mozilla/5.0 (compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot)” https://你的域名/ | grep -c “<h1”
+curl -A “Mozilla/5.0 (compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot)” https://你的域名/ | grep -c ”<h1“
 
 ![](../images/geektao-geo-google-and-chatgpt-traffic-step-by-step-guide/004.webp)
 

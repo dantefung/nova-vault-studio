@@ -208,7 +208,7 @@ Scheduler & Heartbeat
 
             if h > 23 or mi > 59:
 
-                raise ValueError(”时间不合法“)
+                raise ValueError(“时间不合法”)
 
             t = after.replace(hour=h, minute=mi, second=0, microsecond=0)
 
@@ -320,7 +320,7 @@ Scheduler & Heartbeat
 
         def mark_started(self, task):
 
-            # 从”现在“算下一次，而不是从原定时间算：停机期间错过的不补跑
+            # 从“现在”算下一次，而不是从原定时间算：停机期间错过的不补跑
 
             task["next_run"] = next_run(task["spec"], self.now()).isoformat(timespec="seconds")
 
@@ -356,7 +356,7 @@ Scheduler & Heartbeat
 
   * 
 `now`
- 可以从外面传入。测试”停机 5 小时“不需要真的等 5 小时，传一个假时钟就行。
+ 可以从外面传入。测试“停机 5 小时”不需要真的等 5 小时，传一个假时钟就行。
 
   * 保存时先写临时文件再替换。程序在写文件的瞬间被杀掉，留下的要么是旧文件，要么是新文件，不会是写了一半的坏 JSON。
 
@@ -364,7 +364,7 @@ Scheduler & Heartbeat
 
 
 `mark_started`
- 是”错过不补跑“的全部实现：下一次时间从**现在** 开始算，而不是从原定时间开始算。
+ 是“错过不补跑”的全部实现：下一次时间从**现在** 开始算，而不是从原定时间开始算。
 
 
 
@@ -376,7 +376,7 @@ Scheduler & Heartbeat
 
     def make_task_ask(task):
 
-        ""”无人值守：只放行创建任务时预授权过的工具“""
+        ""“无人值守：只放行创建任务时预授权过的工具”""
 
         allowed = set(task.get("allow", []))
 
@@ -388,7 +388,7 @@ Scheduler & Heartbeat
 
                 return "y", ""
 
-            return "n", ”这是无人值守的定时任务，该操作没有被预授权“
+            return "n", “这是无人值守的定时任务，该操作没有被预授权”
 
         return ask
 
@@ -398,7 +398,7 @@ Scheduler & Heartbeat
 
 这是 
 `ask`
- 的第三种实现。第 3 课是终端里问，第 6 课是聊天里问，这一课是”按事先的决定回答“。
+ 的第三种实现。第 3 课是终端里问，第 6 课是聊天里问，这一课是“按事先的决定回答”。
 `PermissionManager`
  一行没改。
 
@@ -440,7 +440,7 @@ Scheduler & Heartbeat
 
 
 
-开头那一行告诉模型”没人在“。它就不会写出”请确认是否继续“这种没人能回答的话，被拒绝时也更容易理解为什么。
+开头那一行告诉模型“没人在”。它就不会写出“请确认是否继续”这种没人能回答的话，被拒绝时也更容易理解为什么。
 
 
 
@@ -662,11 +662,11 @@ Scheduler & Heartbeat
 
 
 
-消息处理和任务执行在同一个线程里轮流进行，所以不会出现”一个会话同时被两件事修改“的情况。代价下面会说。
+消息处理和任务执行在同一个线程里轮流进行，所以不会出现“一个会话同时被两件事修改”的情况。代价下面会说。
 
 
 
-**3\. 告诉工具”现在是哪个聊天“。**
+**3\. 告诉工具“现在是哪个聊天”。**
 
 
 
@@ -750,7 +750,7 @@ Scheduler & Heartbeat
 
 
 
-心跳的价值在于”没事不打扰“，但它的成本是实打实的：**不管有没有事，每次都要调用模型。**
+心跳的价值在于“没事不打扰”，但它的成本是实打实的：**不管有没有事，每次都要调用模型。**
 
 
 
@@ -760,7 +760,7 @@ Scheduler & Heartbeat
 
 还有一个现实问题：模型不一定百分之百只回复 
 `HEARTBEAT_OK`
-。它可能会说”HEARTBEAT_OK，一切正常“。这里的判断用的是严格相等，这种情况会被当成有事而发出来。宁可多打扰一次，也不要把真正有事的回复误判成没事。
+。它可能会说“HEARTBEAT_OK，一切正常”。这里的判断用的是严格相等，这种情况会被当成有事而发出来。宁可多打扰一次，也不要把真正有事的回复误判成没事。
 
 
 
@@ -844,7 +844,7 @@ Scheduler & Heartbeat
 
         assert scheduler.next_run("daily 11:30", t) == datetime(2026, 10, 28, 11, 30)
 
-        for bad in ("every 1m", "daily 25:00", ”每天九点“):
+        for bad in ("every 1m", "daily 25:00", “每天九点”):
 
             with pytest.raises(ValueError):
 
@@ -860,7 +860,7 @@ Scheduler & Heartbeat
 
         s = scheduler.Scheduler(tmp_path / "t.json", now=lambda: now[0])
 
-        task = s.add("every 1h", ”看看“, chat_id=1, allow={"fetch_url"})
+        task = s.add("every 1h", “看看”, chat_id=1, allow={"fetch_url"})
 
         with pytest.raises(ValueError):
 
@@ -898,7 +898,7 @@ Scheduler & Heartbeat
 
 
 
-心跳”没事不发消息“也可以测：用一个按顺序返回 
+心跳“没事不发消息”也可以测：用一个按顺序返回 
 `HEARTBEAT_OK`
  和一段普通文字的假模型客户端，跑一次 
 `run_due_tasks`
@@ -924,9 +924,9 @@ Scheduler & Heartbeat
 
   4. **预授权的
 `fetch_url`
- 是注入风险最高的组合。** 无人值守、读取外部网页，正是提示词注入最容易得手的场景。硬规则和”任务不能创建任务“限制了它能造成的破坏，但它仍然可以在工作区里写入文件，以及给你发一条内容被操纵的消息。对定时任务发来的内容，要保持基本的怀疑。
+ 是注入风险最高的组合。** 无人值守、读取外部网页，正是提示词注入最容易得手的场景。硬规则和“任务不能创建任务”限制了它能造成的破坏，但它仍然可以在工作区里写入文件，以及给你发一条内容被操纵的消息。对定时任务发来的内容，要保持基本的怀疑。
 
-  5. **心跳判断太死板。** 模型回复”HEARTBEAT_OK，一切正常“就会被当成有事发出来。第九节会看到 OpenClaw 怎么处理这个问题。
+  5. **心跳判断太死板。** 模型回复“HEARTBEAT_OK，一切正常”就会被当成有事发出来。第九节会看到 OpenClaw 怎么处理这个问题。
 
 
 
@@ -938,7 +938,7 @@ Scheduler & Heartbeat
 
 
 
-**OpenClaw 的心跳：本课的原型。** ”心跳“和 
+**OpenClaw 的心跳：本课的原型。** “心跳”和 
 `HEARTBEAT_OK`
  这两个概念，来自 OpenClaw。它的做法比我们细：
 
@@ -952,7 +952,7 @@ Scheduler & Heartbeat
 
   * 
 `HEARTBEAT_OK`
- 出现在回复的开头或结尾时会被去掉，剩下的文字不超过 300 字就不发。这正好解决了我们”严格相等太死板“的问题
+ 出现在回复的开头或结尾时会被去掉，剩下的文字不超过 300 字就不发。这正好解决了我们“严格相等太死板”的问题
 
   * 可以设置活跃时段，半夜不跑
 
@@ -972,7 +972,7 @@ Scheduler & Heartbeat
 
 **DeepSeek Harness：定时也是插件。** 它的定时任务是一个实验性的官方插件，模型通过 
 `schedule_create`
- 这样的工具创建任务，比如”每周五 17:00（上海时间）执行某段提示“。和本课的 
+ 这样的工具创建任务，比如“每周五 17:00（上海时间）执行某段提示”。和本课的 
 `schedule_task`
  几乎是同一个设计：让模型自己写定时规则。
 
@@ -982,7 +982,7 @@ Scheduler & Heartbeat
 
 
 
-几家都绕不开本课的核心问题：**没人在场时，谁来批准。** 我们的答案是”创建时预授权，且有上限“；Claude Code 的 auto 模式让另一个模型来审；DeepSeek Harness 有实验性的自动审批插件；Grok Bot 停下来等你。没有哪种是免费的：预授权要你事先想清楚，模型审核会误判，等人则会让任务卡住。
+几家都绕不开本课的核心问题：**没人在场时，谁来批准。** 我们的答案是“创建时预授权，且有上限”；Claude Code 的 auto 模式让另一个模型来审；DeepSeek Harness 有实验性的自动审批插件；Grok Bot 停下来等你。没有哪种是免费的：预授权要你事先想清楚，模型审核会误判，等人则会让任务卡住。
 
 
 

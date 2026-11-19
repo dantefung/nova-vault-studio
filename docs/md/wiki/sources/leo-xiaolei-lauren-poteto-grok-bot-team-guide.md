@@ -49,7 +49,7 @@ coverImage: "../images/leo-xiaolei-lauren-poteto-grok-bot-team-guide/001.jpg"
 “imagine you hired an intern, how would you onboard them and help them do the work correctly and efficiently? introduce yourself to your bot and describe the work you do, then ask it how it can help you automate it”别把 Bot 当搜索引擎用。像带新来的实习生一样，先向它介绍你是谁、你每天的工作内容是什么，然后让它自己动脑筋向你提案：哪些环节它可以接过去自动化。
 
 - 最佳私藏技巧——语音一股脑倾倒 + 强制要求「用它自己的话复述」：
-“use voice mode or the transcription option! it’s a good way to just brain dump a lot of information. then, at the end, tell your bot to “restate this in your own words” so you can confirm it understood you”打字往往会让我们省略关键背景。直接开语音模式（Voice Mode）或转写功能，把脑子里的背景和盘托出（Brain dump）。最关键的是最后那句口令——「用你自己的话复述一遍（restate this in your own words）」，一眼就能检验它到底听懂没有。
+“use voice mode or the transcription option! it’s a good way to just brain dump a lot of information. then, at the end, tell your bot to ”restate this in your own words“ so you can confirm it understood you”打字往往会让我们省略关键背景。直接开语音模式（Voice Mode）或转写功能，把脑子里的背景和盘托出（Brain dump）。最关键的是最后那句口令——「用你自己的话复述一遍（restate this in your own words）」，一眼就能检验它到底听懂没有。
 
 ## 二、 全网召唤 @bot 现场办公，连「你妈喊你改进」都出来了
 

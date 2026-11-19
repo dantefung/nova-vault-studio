@@ -66,20 +66,20 @@ url: "https://mp.weixin.qq.com/s/r9nRB7TmOLBGtG3bJ1iRZQ"
 
 ## 关键洞察
 
-### 关于”熟能生巧“
+### 关于“熟能生巧”
 
 > 每天都做笔记的人不一定会做笔记。
 > 每天都提需求的人不一定会提需求。
 
 「勤于练习」就「精通」是错觉——**只是重复每天的经验**，没有反思就永远不会从经验中萃取方法。
 
-### 关于”提问“
+### 关于“提问”
 
 > 别人提出的问题，很快就会被我们忘记。
 
 **问题必须是自己的**——别人给的答案不会留在脑子里，自己遇到的问题才会驱动真正的探究。
 
-### 关于”问题的抽象“
+### 关于“问题的抽象”
 
 **问题尽量从「眼前的具体案例」抽象成「通用问题格式」**：
 
@@ -90,7 +90,7 @@ url: "https://mp.weixin.qq.com/s/r9nRB7TmOLBGtG3bJ1iRZQ"
 
 抽象后你会发现：**这些问题网上能找到很多前人的经验**——不需要从零造。
 
-### 关于”问题的 5 种类型“
+### 关于“问题的 5 种类型”
 
 **所有问题都能归到 5 种**：
 
@@ -102,7 +102,7 @@ url: "https://mp.weixin.qq.com/s/r9nRB7TmOLBGtG3bJ1iRZQ"
 | **观点和判断是什么？** | 自己的判断 + 论据 |
 | **感受是什么？** | 直面真实 Feeling，理性与感性可能冲突 |
 
-### 关于”输出的标准“
+### 关于“输出的标准”
 
 > **最好能够给 30 个人的会场分享**——到了这个程度说明真学会了。
 
@@ -123,7 +123,7 @@ url: "https://mp.weixin.qq.com/s/r9nRB7TmOLBGtG3bJ1iRZQ"
 | 概念 | 关系 |
 |------|------|
 | [[sources/problem-driven-learning-wheel]] | 原文精读（曹宇/Heidixie 呀讲述） |
-| [[concepts/learn-by-doing-and-teaching]] | ”做中学 + 教中学“ 同源思路 |
+| [[concepts/learn-by-doing-and-teaching]] | “做中学 + 教中学” 同源思路 |
 | [[concepts/knowledge-management]] | 问题本 = 外部大脑 |
 | [[concepts/feedback-loop]] | 学习中反馈环的抽象模型 |
 

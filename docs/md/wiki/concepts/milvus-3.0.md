@@ -37,7 +37,7 @@ Milvus 2.x 的核心卖点是云原生 + 存算分离，但边界在 2.6 已摸�
 
 ## Context
 
-本文来自”运维有术“公众号，是对 Milvus 3.0.0 GA 的深度技术解读，基于官方 release notes、本地源码和 LF AI & Data 博客交叉整理。作者强调此次发布”关键不是功能数量，而是把 beta 挖的坑填上“。
+本文来自“运维有术”公众号，是对 Milvus 3.0.0 GA 的深度技术解读，基于官方 release notes、本地源码和 LF AI & Data 博客交叉整理。作者强调此次发布“关键不是功能数量，而是把 beta 挖的坑填上”。
 
 ## Related Pages
 

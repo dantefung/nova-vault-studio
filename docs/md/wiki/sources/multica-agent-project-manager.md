@@ -13,7 +13,7 @@ url: "https://zhuanlan.zhihu.com/p/2029366661904351854"
 
 过去一年，AI 编码 Agent 的单体能力提升很快。Claude Code、Codex、Gemini CLI、Cursor Agent 这类命令行工具，让一个工程师可以同时跑好几个任务。但这种个人生产力的提升，到了团队层面常常卡住。每个人开自己的终端窗口，谁也看不到别人的 Agent 在做什么。跑到一半中断，别的人接不了手。上周解决过的问题，这周另一个 Agent 还要重新摸一遍。
 
-这种”个体飞跃、团队失速”的感觉，在最近几个月被越来越多人提及。4 月初，GitHub 上出现了一个新项目叫 [Multica](https%3A//github.com/multica-ai/multica)。它的定位不是再造一个 Agent，而是给现有的 Agent 做一套协作外壳。发布后 11 天内涨到一万六千多颗 Star，在 Trending 上挂了一整周。
+这种“个体飞跃、团队失速”的感觉，在最近几个月被越来越多人提及。4 月初，GitHub 上出现了一个新项目叫 [Multica](https%3A//github.com/multica-ai/multica)。它的定位不是再造一个 Agent，而是给现有的 Agent 做一套协作外壳。发布后 11 天内涨到一万六千多颗 Star，在 Trending 上挂了一整周。
 
 ![插图](../images/multica-agent-project-manager/001.webp)
 
@@ -25,7 +25,7 @@ url: "https://zhuanlan.zhihu.com/p/2029366661904351854"
 
 这个命名选得挺讲究。Multics 解决的是把一台昂贵大型机的算力分时给多个人用；Multica 想解决的是把一组工作流分给人和 AI Agent 一起做。底层逻辑一脉相承：多路复用（multiplex）一套有限的资源，让不同的参与者并发共享。
 
-项目 README 对自己的描述是一句话：”开源的托管 Agent 平台，让编码 Agent 变成真正的团队成员——分配任务、追踪进度、沉淀技能。”
+项目 README 对自己的描述是一句话：“开源的托管 Agent 平台，让编码 Agent 变成真正的团队成员——分配任务、追踪进度、沉淀技能。”
 
 ### License 需要单独看一眼
 
@@ -181,7 +181,7 @@ func New(kind string, cfg Config) (Backend, error) {
 
 这里有一件事值得读者注意：README 的营销描述和首页罗列了 8 种被支持的 CLI——Claude Code、Codex、Cursor Agent、Gemini CLI、OpenClaw、OpenCode、Hermes、Pi。但仓库里 `CLI_AND_DAEMON.md` 这份相对严肃的技术文档，**详细覆盖的只有 Claude Code 和 Codex 两种**。其他几种有不同程度的检测逻辑和 Runtime 类型，但**完整的一等公民目前只有 Claude Code 和 Codex 这两位**。
 
-社区里已经有对应的 Feature Request。Issue #257 讨论的就是希望把 Provider 改成可插拔的注册机制，这样第三方可以不用 fork 核心代码就加入新的 CLI 后端。这个改造没做之前，”支持 8 种 CLI” 这个说法对新用户要打折扣——评估时应该先在目标 CLI 上做端到端试用。
+社区里已经有对应的 Feature Request。Issue #257 讨论的就是希望把 Provider 改成可插拔的注册机制，这样第三方可以不用 fork 核心代码就加入新的 CLI 后端。这个改造没做之前，“支持 8 种 CLI” 这个说法对新用户要打折扣——评估时应该先在目标 CLI 上做端到端试用。
 
 ### Skills 系统
 

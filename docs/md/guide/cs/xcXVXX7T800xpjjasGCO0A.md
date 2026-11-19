@@ -24,7 +24,7 @@ url: "https://mp.weixin.qq.com/s/xcXVXX7T800xpjjasGCO0A"
 
 
 
-有一组问题，几乎是 C/C++ 后端面试的”必考题“：
+有一组问题，几乎是 C/C++ 后端面试的“必考题”：
 
 
 

@@ -27,7 +27,7 @@ url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 
 ### 更快验证，更快失败
 
-- 门槛低、成本低，直接上手”实现“想法
+- 门槛低、成本低，直接上手“实现”想法
 - 快速验证产品是否受欢迎
 - 不行就换，举手之劳
 
@@ -62,8 +62,8 @@ url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 
 ## 好 Prompt vs 坏 Prompt
 
-- **坏 Prompt**：”写篇文章“
-- **好 Prompt**：”以俞军产品方法论为主题，用商业顾问视角，写 3000 字深度长文，逻辑清晰案例丰富，附可操作框架图，目标读者是中高级产品经理和创业者“
+- **坏 Prompt**：“写篇文章”
+- **好 Prompt**：“以俞军产品方法论为主题，用商业顾问视角，写 3000 字深度长文，逻辑清晰案例丰富，附可操作框架图，目标读者是中高级产品经理和创业者”
 
 ## 俞军产品公式
 
@@ -79,7 +79,7 @@ url: "https://mp.weixin.qq.com/s/SMeBQGzKviWWKFL-Ccmi1w"
 
 > 保留好奇心和好点子，早动手，找到 AI 时代的大机会。
 
-> Prompt 是 AI 应用的”密钥“，决定输出质量和创造性上限。
+> Prompt 是 AI 应用的“密钥”，决定输出质量和创造性上限。
 
 ## 相关
 

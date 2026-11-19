@@ -184,7 +184,7 @@ Agent 之间默认没有任何共享：
     └── skills/               # social 的工作空间技能
 ```
 
-每个 Agent 的工作空间是它的”家“。AI 的文件操作默认在这个目录下进行，记忆文件也存在这里。其中 `AGENTS.md`（Agent 的系统指令文件）定义了 Agent 之间的协作规则。
+每个 Agent 的工作空间是它的“家”。AI 的文件操作默认在这个目录下进行，记忆文件也存在这里。其中 `AGENTS.md`（Agent 的系统指令文件）定义了 Agent 之间的协作规则。
 
 ## Agent 角色定义和配置
 
@@ -291,7 +291,7 @@ Agent 的核心配置在 `~/.openclaw/openclaw.json`（JSON5 格式）的 `agent
 
 ### Agent 人格设定（SOUL.md）
 
-每个 Agent 的工作空间里有一个 `SOUL.md` 文件，这是 Agent 的”灵魂“。AI 在每次会话启动时都会读取这个文件，作为系统指令的一部分。
+每个 Agent 的工作空间里有一个 `SOUL.md` 文件，这是 Agent 的“灵魂”。AI 在每次会话启动时都会读取这个文件，作为系统指令的一部分。
 
 **编程 Agent 的 SOUL.md 示例：**
 
@@ -839,7 +839,7 @@ openclaw agents list
  保存到共享    读取资料       最终发布
 ```
 
-这种策略可以通过 `sessions_send` 工具直接传递、定时任务或 HTTP API 来串联（详见上面的”Agent 间通信机制“章节）。
+这种策略可以通过 `sessions_send` 工具直接传递、定时任务或 HTTP API 来串联（详见上面的“Agent 间通信机制”章节）。
 
 ## 实战案例
 

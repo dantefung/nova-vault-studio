@@ -61,7 +61,7 @@ url: "https://mp.weixin.qq.com/s/z1ZE1uymL0XORPkY8BNb2Q"
 
 ### 阶段 1：Agent 是什么（1 周）
 
-能调 API 之后，先别急着选框架。这一周只回答一个问题：Agent 和 Chatbot 到底差在哪。心智模型只有一句话：**Agent = LLM + 工具 + 循环**。Chatbot 是”一问一答“；Agent 是”自主规划步骤、调用工具、根据结果再决策“的循环。
+能调 API 之后，先别急着选框架。这一周只回答一个问题：Agent 和 Chatbot 到底差在哪。心智模型只有一句话：**Agent = LLM + 工具 + 循环**。Chatbot 是“一问一答”；Agent 是“自主规划步骤、调用工具、根据结果再决策”的循环。
 
 - 参考：[microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) 第 1–4 课（概念、框架概览、设计模式、工具调用）；中文入门可选 [hello-agents](https://github.com/ForceInjection/hello-agents) 第 1–3 章
 - 必读短文：Anthropic《[Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)》。其中 workflow（预设路径）vs agent（自主决策）的区分，是全场最重要的一个概念，值得反复读
@@ -71,9 +71,9 @@ url: "https://mp.weixin.qq.com/s/z1ZE1uymL0XORPkY8BNb2Q"
 
 ### 阶段 2：手搓核心范式（2–3 周，最重要）
 
-心智模型建立之后，下一步是亲手把”循环“实现一遍：用原生 API 手写三个经典范式：**ReAct**（推理-行动循环）、**Plan-and-Solve**（先规划后执行）、**Reflection**（自我反思迭代）。
+心智模型建立之后，下一步是亲手把“循环”实现一遍：用原生 API 手写三个经典范式：**ReAct**（推理-行动循环）、**Plan-and-Solve**（先规划后执行）、**Reflection**（自我反思迭代）。
 
-这一步是整条路线图里最关键的一步：它决定了你以后是”库的使用者“还是”系统的构建者“。很多人想跳过它直接上框架，我的建议是别。手写过一次 ReAct，你才知道 LangGraph 的节点和边在替你做什么；没手写过，框架永远是个黑盒。面试能讲原理、看得懂框架源码、有能力自研系统，都从这一步开始。
+这一步是整条路线图里最关键的一步：它决定了你以后是“库的使用者”还是“系统的构建者”。很多人想跳过它直接上框架，我的建议是别。手写过一次 ReAct，你才知道 LangGraph 的节点和边在替你做什么；没手写过，框架永远是个黑盒。面试能讲原理、看得懂框架源码、有能力自研系统，都从这一步开始。
 
 - 参考：hello-agents 第 4–7 章，专门带你把三个范式用原生 API 写一遍，并自研一个迷你框架 HelloAgents
 - 深度阅读：Cursor IDE ReAct Agent 技术架构深度分析，手搓完再看：同一范式在真实产品 Cursor 中的工程实现（分层架构、工具调用、上下文管理与性能优化）
@@ -84,7 +84,7 @@ url: "https://mp.weixin.qq.com/s/z1ZE1uymL0XORPkY8BNb2Q"
 
 手搓过裸循环之后，框架的价值才真正显形：它替你解决状态、记忆、并行、错误恢复，而这些正是你上一阶段头疼过的问题。带着问题学框架，比一上来就学框架快得多，也扎实得多。
 
-**选型建议是”先精通一个，再触类旁通“：**
+**选型建议是“先精通一个，再触类旁通”：**
 
 - 快速出 demo 用 [crewAI](https://github.com/crewAIInc/crewAI)（角色扮演，最易上手）或 [smolagents](https://github.com/huggingface/smolagents)（代码极简）
 - 企业级主攻 [LangGraph](https://github.com/langchain-ai/langgraph)（有状态图，生态最全，市场岗位需求最大）
@@ -97,10 +97,10 @@ url: "https://mp.weixin.qq.com/s/z1ZE1uymL0XORPkY8BNb2Q"
 
 ### 阶段 4：协议、记忆与上下文工程（2–3 周）
 
-能跑的单体 Agent 还缺两样东西：”感官“与”记忆“。生产级和 demo 的差距就在这里。生产级需要：标准化的工具接口（MCP）、可复用的能力单元（Agent Skills）、跨会话的记忆系统，以及决定”哪些内容装进上下文窗口“的上下文工程。窗口是 Agent 的工作记忆，也是成本和性能的最大变量。
+能跑的单体 Agent 还缺两样东西：“感官”与“记忆”。生产级和 demo 的差距就在这里。生产级需要：标准化的工具接口（MCP）、可复用的能力单元（Agent Skills）、跨会话的记忆系统，以及决定“哪些内容装进上下文窗口”的上下文工程。窗口是 Agent 的工作记忆，也是成本和性能的最大变量。
 
 - 参考：[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)（89.8K），先跑通一个 MCP server；[anthropics/skills](https://github.com/anthropics/skills)（171.2K），读懂 SKILL.md 格式并写一个自己的技能；[anthropics/courses](https://github.com/anthropics/courses)（22.7K），Agent Skills 与上下文工程的官方实操课
-- 深度阅读：深度解析 MCP 与 AI 工具化的未来（协议原理与实战）；给 Claude 写本”标准操作手册“：Agent Skills 实战与深度解析（技能定义规范）；上下文工程原理（动态组装、压缩与检索）
+- 深度阅读：深度解析 MCP 与 AI 工具化的未来（协议原理与实战）；给 Claude 写本“标准操作手册”：Agent Skills 实战与深度解析（技能定义规范）；上下文工程原理（动态组装、压缩与检索）
 - 找灵感：[awesome-skills](https://github.com/awesome-skills/awesome-skills)，优秀 Agent Skill 实例合集
 
 **验收标志**：给你的 Agent 接上 3 个 MCP 工具 + 跨会话记忆，再写一个自己的 Agent Skill。
@@ -110,7 +110,7 @@ url: "https://mp.weixin.qq.com/s/z1ZE1uymL0XORPkY8BNb2Q"
 单 Agent 的全栈能力齐了之后，下一步是把它用起来：用完整项目建立产品感。这个阶段练的是判断力：把需求翻译成 Agent 系统，哪些环节让 Agent 自主，哪些必须预设路径。
 
 - 找灵感：[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)（133.7K）；行业案例：[ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)（36.9K）；多智能体理论：[geekan/MetaGPT](https://github.com/geekan/MetaGPT)（70.0K）与 [camel-ai/camel](https://github.com/camel-ai/camel)（17.6K）
-- 深度阅读：数据智能体：是重塑生产力的”自动驾驶“，还是换壳的平庸炒作？，Data Agent 是当下最容易变现的方向之一，能力分级与炒作风险都讲透了
+- 深度阅读：数据智能体：是重塑生产力的“自动驾驶”，还是换壳的平庸炒作？，Data Agent 是当下最容易变现的方向之一，能力分级与炒作风险都讲透了
 
 **验收标志**：复刻或自创一个完整项目（智能客服、Data Agent、Deep Research 三选一）。
 
@@ -141,9 +141,9 @@ url: "https://mp.weixin.qq.com/s/z1ZE1uymL0XORPkY8BNb2Q"
 
 这条路线图没覆盖的事，也写清楚：
 
-1. **不覆盖的领域**：多模态 Agent、Agent 评测与 benchmark、模型微调与强化学习，这些是”下一个层次“的课题。本路线图聚焦一件事：用工程能力把现有模型变成系统
-2. **star 数的时效性**：文中所有 star 数于 2026-08-24 核实，而生态半年一换。star 数会过时，验收标志不会。”学完“比”追新“重要，不必逐条打卡
-3. **深度 vs 广度**：阶段 3 的选型建议是”先精通一个“，不是”都学一遍“。框架会换，范式不换。把范式吃透，剩下的只是换语法
+1. **不覆盖的领域**：多模态 Agent、Agent 评测与 benchmark、模型微调与强化学习，这些是“下一个层次”的课题。本路线图聚焦一件事：用工程能力把现有模型变成系统
+2. **star 数的时效性**：文中所有 star 数于 2026-08-24 核实，而生态半年一换。star 数会过时，验收标志不会。“学完”比“追新”重要，不必逐条打卡
+3. **深度 vs 广度**：阶段 3 的选型建议是“先精通一个”，不是“都学一遍”。框架会换，范式不换。把范式吃透，剩下的只是换语法
 
 ## 五、结语
 

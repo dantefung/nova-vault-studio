@@ -660,7 +660,7 @@ AgentScope Java 官方仓库：https://github.com/agentscope-ai/agentscope-java
 
 
 
-✅ 第 8 篇. Skills 技能系统（核心）：掌握 SKILL.md 文件协议，理解”操作手册 + 资料包“的按需加载机制，节省 Token。
+✅ 第 8 篇. Skills 技能系统（核心）：掌握 SKILL.md 文件协议，理解“操作手册 + 资料包”的按需加载机制，节省 Token。
 
 
 

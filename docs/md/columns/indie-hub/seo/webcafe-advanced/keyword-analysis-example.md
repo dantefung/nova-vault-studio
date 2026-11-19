@@ -19,9 +19,9 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 社群里朋友找到一个关键词“pizza edition"，说优化难度低，让哥飞看看确认一下。
 
-所以哥飞干脆开一个新栏目”哥飞看词“，时不时帮大家看看某个关键词是否可以做。
+所以哥飞干脆开一个新栏目“哥飞看词”，时不时帮大家看看某个关键词是否可以做。
 
-我们直接开始，先在谷歌趋势里拿”pizza edition“和”GPTs“比，会发现”pizza edition“是一个搜索量还不小的词。
+我们直接开始，先在谷歌趋势里拿“pizza edition”和“GPTs”比，会发现“pizza edition”是一个搜索量还不小的词。
 
 ![](images/keyword-analysis-example/gefei-keyword-analysis-example_000.webp)
 
@@ -105,8 +105,8 @@ url: "https://new.web.cafe/tutorial/detail/keyword-analysis-example"
 
 这东西有什么好处呢？
 
-哥飞已经在付费社群”哥飞的朋友们“里给朋友们讲解清楚了，并且这类的平台还不止一个。
+哥飞已经在付费社群“哥飞的朋友们”里给朋友们讲解清楚了，并且这类的平台还不止一个。
 
 想要知道吗？
 
-想要跟着一起做网站赚美元吗？想要跟着哥飞学 SEO 搞流量吗？ 欢迎加入哥飞的付费社群”哥飞的朋友们“。
+想要跟着一起做网站赚美元吗？想要跟着哥飞学 SEO 搞流量吗？ 欢迎加入哥飞的付费社群“哥飞的朋友们”。

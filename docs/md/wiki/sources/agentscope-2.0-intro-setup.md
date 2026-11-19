@@ -76,11 +76,11 @@ AgentScope Java 2.0 的核心使命就是打破这个魔咒——把分布式部
 
 
 
-ReActAgent：核心推理循环（思考→调用工具→观察结果→继续思考），解决的是”一次请求→推理→工具→回复“这个最基础的智能体能力，相当于发动机。
+ReActAgent：核心推理循环（思考→调用工具→观察结果→继续思考），解决的是“一次请求→推理→工具→回复”这个最基础的智能体能力，相当于发动机。
 
 
 
-HarnessAgent（推荐入口）：在 ReActAgent 之上的”薄包装“，把工作区、记忆、子 Agent、技能、沙箱、Plan Mode 等工程能力用一个 Builder 串起来，相当于给发动机配了油箱、轮胎、刹车片和仪表盘的整车。
+HarnessAgent（推荐入口）：在 ReActAgent 之上的“薄包装”，把工作区、记忆、子 Agent、技能、沙箱、Plan Mode 等工程能力用一个 Builder 串起来，相当于给发动机配了油箱、轮胎、刹车片和仪表盘的整车。
 
 
 
@@ -368,7 +368,7 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-上面的 call() 是阻塞式调用，等 Agent 全部处理完才返回。如果想在前端实时展示 Agent 的”思考过程“，可以使用 streamEvents()：
+上面的 call() 是阻塞式调用，等 Agent 全部处理完才返回。如果想在前端实时展示 Agent 的“思考过程”，可以使用 streamEvents()：
 
 
 
@@ -388,7 +388,7 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-了解了 AgentScope Java 2.0 是什么 —— 阿里巴巴开源的企业级智能体框架，解决了”Demo 魔咒“问题
+了解了 AgentScope Java 2.0 是什么 —— 阿里巴巴开源的企业级智能体框架，解决了“Demo 魔咒”问题
 
 
 
@@ -412,7 +412,7 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-从上面的实战可以看到，AgentScope Java 2.0 给人的第一印象是：API 简洁、工程化意识强、配置文件优于硬编码。它没有在”Hello World“层面炫技，而是从一开始就引导你按照生产环境的标准来组织代码——环境变量管理 API Key、工作区驱动人格与记忆、上下文自动管理。这种”把工程规范内化到框架里“的设计理念，也许正是 2.0 最大的亮点。
+从上面的实战可以看到，AgentScope Java 2.0 给人的第一印象是：API 简洁、工程化意识强、配置文件优于硬编码。它没有在“Hello World”层面炫技，而是从一开始就引导你按照生产环境的标准来组织代码——环境变量管理 API Key、工作区驱动人格与记忆、上下文自动管理。这种“把工程规范内化到框架里”的设计理念，也许正是 2.0 最大的亮点。
 
 
 
@@ -448,7 +448,7 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-第 2 篇：核心推理引擎 ReActAgent —— 理解”思考→调用工具→观察结果“的循环机制
+第 2 篇：核心推理引擎 ReActAgent —— 理解“思考→调用工具→观察结果”的循环机制
 
 
 
@@ -460,7 +460,7 @@ RuntimeContext：携带 userId 和 sessionId，同一个 sessionId 的第�
 
 
 
-不知道各位小伙伴是否有发现，AgentScope Java 2.0 中的”工作区“概念很有意思——AGENTS.md 定义了 Agent 的人格，MEMORY.md 沉淀了长期记忆，skills/ 目录存放了积累的技能，这些都是普通的 Markdown 文件。这意味着什么呢？意味着”改文件就是改 Agent 人设“，运维小伙伴可以直接通过修改配置文件来升级 Agent 行为，完全不需要改代码。这种”文件即配置“的设计哲学，是不是感觉很优雅？
+不知道各位小伙伴是否有发现，AgentScope Java 2.0 中的“工作区”概念很有意思——AGENTS.md 定义了 Agent 的人格，MEMORY.md 沉淀了长期记忆，skills/ 目录存放了积累的技能，这些都是普通的 Markdown 文件。这意味着什么呢？意味着“改文件就是改 Agent 人设”，运维小伙伴可以直接通过修改配置文件来升级 Agent 行为，完全不需要改代码。这种“文件即配置”的设计哲学，是不是感觉很优雅？
 
 
 

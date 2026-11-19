@@ -290,7 +290,7 @@ Application 层的几个核心类：
 * 返回的 DTO：作为 ApplicationService 的出参。
     
 
-Application 层最核心的对象是 ApplicationService，它的核心功能是承接 “业务流程 “。但是在讲 ApplicationService 的规范之前，必须要先重点的讲几个特殊类型的对象，即 Command、Query 和 Event。
+Application 层最核心的对象是 ApplicationService，它的核心功能是承接 “业务流程 ”。但是在讲 ApplicationService 的规范之前，必须要先重点的讲几个特殊类型的对象，即 Command、Query 和 Event。
 
 2  Command、Query、Event 对象
 
@@ -341,7 +341,7 @@ List<OrderDO> queryBySellerIdWithPage(Long sellerId, int currentPage, int pageSi
 * 难以测试：接口一多，职责随之变得繁杂，业务场景各异，测试用例难以维护。
     
 
-但是另外一个最重要的问题是：这种类型的参数罗列，本身没有任何业务上的” 语意 “，只是一堆参数而已，无法明确的表达出来意图。
+但是另外一个最重要的问题是：这种类型的参数罗列，本身没有任何业务上的“ 语意 ”，只是一堆参数而已，无法明确的表达出来意图。
 
 **CQE 的规范**
 
@@ -380,13 +380,13 @@ public class OrderQuery {
 
 从上面的代码能看出来，ApplicationService 的入参是 CQE 对象，但是出参却是一个 DTO，从代码格式上来看都是简单的 POJO 对象，那么他们之间有什么区别呢？
 
-* CQE：CQE 对象是 ApplicationService 的输入，是有明确的”意图 “的，所以这个对象必须保证其” 正确性“。
+* CQE：CQE 对象是 ApplicationService 的输入，是有明确的“意图 ”的，所以这个对象必须保证其“ 正确性”。
     
 
 * DTO：DTO 对象只是数据容器，只是为了和外部交互，所以本身不包含任何逻辑，只是贫血对象。
     
 
-但可能最重要的一点：因为 CQE 是”意图 “，所以 CQE 对象在理论上可以有” 无限“个，每个代表不同的意图；但是 DTO 作为模型数据容器，和模型一一对应，所以是有限的。
+但可能最重要的一点：因为 CQE 是“意图 ”，所以 CQE 对象在理论上可以有“ 无限”个，每个代表不同的意图；但是 DTO 作为模型数据容器，和模型一一对应，所以是有限的。
 
 **CQE 的校验**
 

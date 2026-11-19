@@ -283,7 +283,7 @@ parent:Thread-5:0
 从这里可以看出，**子线程中输出的父线程名称与下标 index 无法一一对应，在子线程中出现出现了线程本地变量混乱的现象，在链路跟踪与全链路压测出现这种情况是致命的**。
 
 怎么解决这个问题呢？ 
-**TransmittableThreadLocal ” 闪亮登场 “。**
+**TransmittableThreadLocal “ 闪亮登场 ”。**
 
 四、TransmittableThreadLocal
 --------------------------

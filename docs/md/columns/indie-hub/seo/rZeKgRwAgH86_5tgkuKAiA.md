@@ -262,7 +262,7 @@ r/marketing（营销）、r/SEO（搜索引擎优化）、r/bigseo（大 SEO）�
 
 
 
-一些版块发帖有明确的特殊要求，未达到就会被系统删除。比如 r/InternetIsBeautiful 要求不能发和 AI 相关的，比如 r/Entrepreneur 要求帖子不能包括链接，比如 r/marketing 要求不能包含短链接，比如 r/startup_resources 要求内容必须包括”My post comply with the rules.“这句话等等。那么你需要做的就是修改文章，使其符合要求，然后重发一遍。如果无法修改达到要求，比如你的产品就是关于 AI 的，无法改成不含 AI 的内容，那就放弃这个版块。
+一些版块发帖有明确的特殊要求，未达到就会被系统删除。比如 r/InternetIsBeautiful 要求不能发和 AI 相关的，比如 r/Entrepreneur 要求帖子不能包括链接，比如 r/marketing 要求不能包含短链接，比如 r/startup_resources 要求内容必须包括“My post comply with the rules.”这句话等等。那么你需要做的就是修改文章，使其符合要求，然后重发一遍。如果无法修改达到要求，比如你的产品就是关于 AI 的，无法改成不含 AI 的内容，那就放弃这个版块。
 
 
 

@@ -48,7 +48,7 @@ url: "https://mp.weixin.qq.com/s/NAMiUEq0eve67LrGAlZZXQ"
 
 def roll_summary(old_summary: str, new_turns: list[str]) -> str:prompt = (“以下是助手记忆的旧摘要和新对话，"”合并为一份不超过 500 字的摘要，"“保留事实、决策、用户偏好，丢弃寒暄和过程性内容：\n"f”旧摘要：{old_summary}\n"f“新对话：{'\\n'.join(new_turns)}")return llm.chat(prompt, model="deepseek-chat")
 
-def roll_summary(old_summary: str, new_turns: list[str]) -> str:prompt = (”以下是助手记忆的旧摘要和新对话，"“合并为一份不超过 500 字的摘要，"”保留事实、决策、用户偏好，丢弃寒暄和过程性内容：\n"f“旧摘要：{old_summary}\n"f”新对话：{'\\n'.join(new_turns)}")return llm.chat(prompt, model="deepseek-chat")
+def roll_summary(old_summary: str, new_turns: list[str]) -> str:prompt = (“以下是助手记忆的旧摘要和新对话，"”合并为一份不超过 500 字的摘要，"“保留事实、决策、用户偏好，丢弃寒暄和过程性内容：\n"f”旧摘要：{old_summary}\n"f“新对话：{'\\n'.join(new_turns)}")return llm.chat(prompt, model="deepseek-chat")
 
 这一层做完，记忆体积直接从 11 万 token 压到 8000 以内，压缩率 93%。是的，会丢细节，我一开始也肉疼——但丢的细节里有 90%是“好的”“收到”“我再看看”这种废话，真丢了也不心疼。
 

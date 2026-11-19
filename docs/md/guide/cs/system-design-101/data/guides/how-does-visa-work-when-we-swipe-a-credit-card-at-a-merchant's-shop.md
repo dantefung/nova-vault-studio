@@ -31,7 +31,7 @@ The diagram shows VISA’s role in the credit card payment process. There are tw
 
 ## Capture and Settlement Flow
 
-* Steps 1 and 2: The merchant wants to collect the money at the end of the day, so they hit ”capture” on the POS terminal. The transactions are sent to the acquirer in batches. The acquirer sends the batch file with transactions to the card network.
+* Steps 1 and 2: The merchant wants to collect the money at the end of the day, so they hit “capture” on the POS terminal. The transactions are sent to the acquirer in batches. The acquirer sends the batch file with transactions to the card network.
 
 * Step 3: The card network performs clearing for the transactions collected from different acquirers, and sends the clearing files to different issuing banks.
 

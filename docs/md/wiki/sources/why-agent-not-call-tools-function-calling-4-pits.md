@@ -32,7 +32,7 @@ url: "http://mp.weixin.qq.com/s?__biz=MzY5MzMzODAwMg==&mid=2247483736&idx=1&sn=6
 
 
 
-修复方式：描述里加上使用场景——”当用户 XX 时使用此工具“。这句话是给 LLM 的触发器。
+修复方式：描述里加上使用场景——“当用户 XX 时使用此工具”。这句话是给 LLM 的触发器。
 
 
 
@@ -60,7 +60,7 @@ AiServices.builder().tools() 只会扫描 LangChain4j 的 @Tool，其他框架�
 
 
 
-## 坑 3：LLM 觉得”不需要“工具
+## 坑 3：LLM 觉得“不需要”工具
 
 
 
@@ -68,7 +68,7 @@ AiServices.builder().tools() 只会扫描 LangChain4j 的 @Tool，其他框架�
 
 
 
-根因：LLM 自己判断”我能直接回答这个问题“。例如：
+根因：LLM 自己判断“我能直接回答这个问题”。例如：
 
 
 

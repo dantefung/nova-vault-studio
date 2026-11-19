@@ -766,7 +766,7 @@ CIO Synthesizer 输出结构化推荐：
 
 •Quant：关注 RSI 指标、收入增长率 → 技术面偏多
 
-CIO 综合：识别出共识（AI 需求强劲）和分歧（估值争议），给出”Buy, confidence 7.5“的最终推荐。
+CIO 综合：识别出共识（AI 需求强劲）和分歧（估值争议），给出“Buy, confidence 7.5”的最终推荐。
 
 #### 2.4.5 思考与延伸
 

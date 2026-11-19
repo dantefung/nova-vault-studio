@@ -30,7 +30,7 @@ aspect: "16:9"
 13. 2026: Sierra 估值 100B+ — AI Agent 接管 30%客服
 
 ## SUB-ANNOTATIONS below timeline:
-- Below node 5: ”渠道融合期“
+- Below node 5: “渠道融合期”
 - Below node 8: "NLP 质变期” 
 - Below node 10: "LLM 颠覆期“
 - Below node 13: "AI Agent 期”

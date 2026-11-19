@@ -215,10 +215,10 @@ SKILL.md 作为路由入口，根据关键词将请求分发到正确工具：
 | “怎么安装/重装 Pensieve？" | 读 `skill-lifecycle.md` → `init` |
 | ”升级 Pensieve" | `upgrade` |
 | “怎么更新？" | 读 `skill-lifecycle.md` → `upgrade` |
-| ”迁移到 v2 / 清理旧路径“ | `migrate` |
-| ”检查数据有没有问题“ | `doctor` |
-| ”捕获这个经验“ | `self-improve` |
-| ”整理/去重/压缩知识“ | `refine` |
+| “迁移到 v2 / 清理旧路径” | `migrate` |
+| “检查数据有没有问题” | `doctor` |
+| “捕获这个经验” | `self-improve` |
+| “整理/去重/压缩知识” | `refine` |
 | ”把 pipeline 写入 CLAUDE.md" | `sync-instructions` |
 
 ## 下一步

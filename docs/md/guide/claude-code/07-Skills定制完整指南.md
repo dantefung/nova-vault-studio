@@ -169,7 +169,7 @@ Claude：[自动加载公众号写作Skill]
 
 #### 一句话区分
 
-- **Commands**：**触发器**，是用户交互的入口点（”按钮“）
+- **Commands**：**触发器**，是用户交互的入口点（“按钮”）
 - **Skills**：**能力包**，是知识和工具的集合（"APP"）
 
 #### 详细对比表
@@ -312,7 +312,7 @@ description: 当用户提到"公众号"、"写文章"、"老金风格"等关键�
 - ✅ 无依赖，不需要安装任何东西
 - ✅ 支持 Hot Reloading（修改后自动生效）
 
-**目标**：创建一个”代码注释生成器“Skill，自动为代码添加中文注释。
+**目标**：创建一个“代码注释生成器”Skill，自动为代码添加中文注释。
 
 #### 步骤 1：创建 Skill 文件夹
 
@@ -446,7 +446,7 @@ EOF
   - `name`：小写、无空格、可用连字符（如`code-commenter`）
   - `description`：清晰描述触发场景，Claude 用此判断是否激活
 - **Markdown Body**：详细指令，只在 Skill 被激活后加载
-- 这实现了”渐进式披露“：元数据常驻内存，指令按需加载
+- 这实现了“渐进式披露”：元数据常驻内存，指令按需加载
 
 #### 步骤 3：验证 Skill 配置
 
@@ -629,7 +629,7 @@ def calculate_discount(price, user_level):
 
 - [ ] `.claude/skills/code-commenter/` 目录存在
 - [ ] `SKILL.md` 文件格式正确（YAML Frontmatter + Markdown Body）
-- [ ] 说”添加注释“等关键词时 Claude 能识别
+- [ ] 说“添加注释”等关键词时 Claude 能识别
 - [ ] 生成的注释符合规范
 - [ ] 修改 SKILL.md 后自动生效（Hot Reloading）
 
@@ -1355,7 +1355,7 @@ if __name__ == "__main__":
 
 **调用脚本**：
 ```bash
-cd ".claude/skills/gongzhonghao-writer/scripts" && python quality_detector.py ”文章内容“ --json
+cd ".claude/skills/gongzhonghao-writer/scripts" && python quality_detector.py “文章内容” --json
 ```
 
 **脚本参数说明**：
@@ -1371,7 +1371,7 @@ cd ".claude/skills/gongzhonghao-writer/scripts" && python quality_detector.py �
     "natural_score": 85,
     "passed": true
   },
-  "message": ”检测通过“
+  "message": “检测通过”
 }
 ```
 ```
@@ -1859,7 +1859,7 @@ file .claude/skills/你的skill/SKILL.md
 ## 第八部分：FAQ（20 个常见问题）
 
 ### Q1：Skill 和 Command 有什么区别？
-**A**：Command 是”按钮“（触发器），Skill 是”APP"（能力包）。Command 用于显式触发，Skill 用于封装知识和工具。两者通常配合使用：Command 作为入口，Skill 提供能力。
+**A**：Command 是“按钮”（触发器），Skill 是“APP"（能力包）。Command 用于显式触发，Skill 用于封装知识和工具。两者通常配合使用：Command 作为入口，Skill 提供能力。
 
 ### Q2：必须要 SKILL.md 吗？
 **A**：是的，`SKILL.md` 是 Skill 的唯一必需文件。没有它 Claude Code 无法识别这是一个 Skill。

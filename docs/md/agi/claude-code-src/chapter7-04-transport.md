@@ -13,7 +13,7 @@ Markdown Content:
 * [WebSocket 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#websocket-%E4%BC%A0%E8%BE%93 "WebSocket 传输“)
 * [SSE 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#sse-%E4%BC%A0%E8%BE%93 "SSE 传输”)
 * [Hybrid 传输](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#hybrid-%E4%BC%A0%E8%BE%93 "Hybrid 传输“)
-* [轮询配置](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#%E8%BD%AE%E8%AF%A2%E9%85%8D%E7%BD%AE ”轮询配置“)
+* [轮询配置](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#%E8%BD%AE%E8%AF%A2%E9%85%8D%E7%BD%AE “轮询配置”)
 * [JWT 工具](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#jwt-%E5%B7%A5%E5%85%B7 "JWT 工具”)
 
 ## Bridge 传输层 [​](https://plain-sun-1ffe.hunshcn429.workers.dev/bridge/transport.html#bridge-%E4%BC%A0%E8%BE%93%E5%B1%82)

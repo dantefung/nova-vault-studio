@@ -314,10 +314,10 @@ url: "https://new.web.cafe/chat"
 
 **祥子** 详细记录了 Creem 提现到支付宝的完整链路[\[6\]](https://new.web.cafe/topic/kdayqrotkb)：
 
-1. Creem 后台申请提现后，支付宝会发短信提示有境外汇款，点击进入”闪速收款“。
+1. Creem 后台申请提现后，支付宝会发短信提示有境外汇款，点击进入“闪速收款”。
 2. **需 24 小时内**提交资金来源性质。
 3. 他准备了 5 份资料：Creem 商户说明截图、AI 写的个人数字化订阅服务协议（附模板）、Creem 后台发票等。
-4. 支付宝申报收入性质为：**”个人提供数字化订阅服务所取得的服务收入“**。
+4. 支付宝申报收入性质为：**“个人提供数字化订阅服务所取得的服务收入”**。
 
 ### 四、Vercel + Cloudflare：小游戏站 70-80% 成本削减
 
@@ -339,9 +339,9 @@ url: "https://new.web.cafe/chat"
 
 这是 **哥飞** 自己交过的一笔血淋淋的学费[\[1\]](https://new.web.cafe/tutorial/detail/cropjefokb)：
 
-2025 年除夕，他凌晨刷手机发现一个新词，六点多注册域名，十点半前上线了 A 网站。当天 UV 就冲到 2600，第二天峰值一小时 880 访问，原本是一条漂亮的万级日访曲线。群里 **江帅有点忙🏂** 感叹”新词一万每天，真牛啊“[\[1\]](https://new.web.cafe/tutorial/detail/cropjefokb)。
+2025 年除夕，他凌晨刷手机发现一个新词，六点多注册域名，十点半前上线了 A 网站。当天 UV 就冲到 2600，第二天峰值一小时 880 访问，原本是一条漂亮的万级日访曲线。群里 **江帅有点忙🏂** 感叹“新词一万每天，真牛啊”[\[1\]](https://new.web.cafe/tutorial/detail/cropjefokb)。
 
-但紧接着他做了一个骚操作：把已通过 AdSense 的 C 站子域名 `A.C.com` 解析到 A 站的 Vercel 后台，让 `A.com` 的用户跳转到 `A.C.com` 看广告，还在导航里刻意引导点击。虽然设置了 Canonical，谷歌还是收录了 `A.C.com`，主站排名直接消失。**哥飞**自己说”天塌了“，后续补外链也无济于事[\[1\]](https://new.web.cafe/tutorial/detail/cropjefokb)。
+但紧接着他做了一个骚操作：把已通过 AdSense 的 C 站子域名 `A.C.com` 解析到 A 站的 Vercel 后台，让 `A.com` 的用户跳转到 `A.C.com` 看广告，还在导航里刻意引导点击。虽然设置了 Canonical，谷歌还是收录了 `A.C.com`，主站排名直接消失。**哥飞**自己说“天塌了”，后续补外链也无济于事[\[1\]](https://new.web.cafe/tutorial/detail/cropjefokb)。
 
 核心教训只有一句：网站刚上线排名不稳时，先别想着搞钱，让网站成长起来再说。真要变现，直接申请 AdSense 或接入支付，**别自己复制自己**[\[1\]](https://new.web.cafe/tutorial/detail/cropjefokb)。
 
@@ -349,13 +349,13 @@ url: "https://new.web.cafe/chat"
 
 2025 年 2 月 9 日的群聊里，**哥飞** 分享了一个 AdSense 被封号的案例，引发了密集讨论[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)：
 
-**第一条红线：误导性导航。** **闭码翁** 现身说法——自己的游戏站因为首页的”Play“按钮跳转到站外，导致 AdSense 申请未通过，官方给出的原因是”网站行为：导航“。**龙文章** 补充，显眼位置的链接最好别直接跳站外[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)。
+**第一条红线：误导性导航。** **闭码翁** 现身说法——自己的游戏站因为首页的“Play”按钮跳转到站外，导致 AdSense 申请未通过，官方给出的原因是“网站行为：导航”。**龙文章** 补充，显眼位置的链接最好别直接跳站外[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)。
 
 **第二条红线：无效流量 / 点击欺诈。** **快乐动起来呀** 分析认为，封号原因可能是点击广告将用户导向了非广告本来的地址[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)。
 
-**第三条红线：季节性的秋后算账。** **ian liu** 指出，近期属于”秋后算账阶段“，是旺季后的常规审计，不要心存侥幸[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)。
+**第三条红线：季节性的秋后算账。** **ian liu** 指出，近期属于“秋后算账阶段”，是旺季后的常规审计，不要心存侥幸[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)。
 
-**Ethan** 感叹处罚之严：”直接给网站降权不给流量不行吗，直接就封号“[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)。
+**Ethan** 感叹处罚之严：“直接给网站降权不给流量不行吗，直接就封号”[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)。
 
 同一时期，受 2 月初谷歌算法更新影响，多位群友反馈网站流量骤降甚至归零。**哥飞** 安抚说，短时间流量波动是正常现象，建议耐心养站等待流量恢复。同时有群友通过优化标题，将点击率从 36%–54% 提升至 60% 以上[\[2\]](https://new.web.cafe/tutorial/detail/zsv1pns9i9)。
 
@@ -403,7 +403,7 @@ url: "https://new.web.cafe/chat"
 
 ### 一、ian liu 财税规划帖——经营方式与身份选择框架
 
-**ian liu** 在 2025 年 1 月 8 日发布的这篇万字长文，目的是”详细说明白收款及财税相关的一些事情，并给出个人建议“[\[1\]](https://new.web.cafe/topic/okjt2p06m6)。
+**ian liu** 在 2025 年 1 月 8 日发布的这篇万字长文，目的是“详细说明白收款及财税相关的一些事情，并给出个人建议”[\[1\]](https://new.web.cafe/topic/okjt2p06m6)。
 
 目前已读到的目录结构：
 1. **经营方式**（正文尚未展开）
@@ -440,7 +440,7 @@ url: "https://new.web.cafe/chat"
 
 #### 红线一：蹭词站是风控重灾区
 
-2026 年 1 月 23 日的群聊总结中，**哥飞**明确指出 **"PayPal 目前不太接受蹭词站”**。群友 **喜** 的 PayPal 账号因此被永封，她感叹“蹭词还是太敏感了，还是要做品牌站”。Stripe 侧同样不平静，有人因被误判为成人内容遭封号[\[3\]](https://new.web.cafe/tutorial/detail/tlewm1n224)。
+2026 年 1 月 23 日的群聊总结中，**哥飞**明确指出 **"PayPal 目前不太接受蹭词站“**。群友 **喜** 的 PayPal 账号因此被永封，她感叹”蹭词还是太敏感了，还是要做品牌站“。Stripe 侧同样不平静，有人因被误判为成人内容遭封号[\[3\]](https://new.web.cafe/tutorial/detail/tlewm1n224)。
 
 应对策略：
 - **哥飞** 强调 PayPal 相比 Stripe 的好处是“有问题能找到官方人员处理”。
@@ -583,7 +583,7 @@ url: "https://new.web.cafe/chat"
 
 **Gu** 梳理了一条完整的找词操作链[\[1\]](https://new.web.cafe/topic/3xjbtjvm19)：
 
-**一句话总结**：拿流量，不是最后的事情——在你找词时，就已经几乎决定了后面能拿多少流量。关键词调研是”重中之重，贯穿始终“。
+**一句话总结**：拿流量，不是最后的事情——在你找词时，就已经几乎决定了后面能拿多少流量。关键词调研是“重中之重，贯穿始终”。
 
 **找词的 9 个入口**：
 1. 谷歌下拉搜索

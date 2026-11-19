@@ -139,26 +139,54 @@ def process(path: Path, apply: bool = False):
         text = pangu(text)
         prepared.append((line, text, slots))
 
-    # 2) 跨行配对引号（此时代码/URL 仍是占位符，不会被误改）。
+    # 2) 配对引号（此时代码/URL 仍是占位符，不会被误改）。
     #    安全护栏：只有紧邻汉字的直引号才参与配对（中文文案的引号）。
     #    代码里的字符串字面量（如 {"role": "user"}）两侧都是 ASCII 标点/字母，
     #    永不触发 —— 即使围栏计数在某篇长文里漂移、代码块被误判为正文也不会坏。
-    dq = 0
+    #
+    #    配对策略：逐行配对。
+    #    旧实现用「全文奇偶计数器」，一旦某行只参与了一个引号（另一个引号
+    #    两侧都不是汉字），奇偶性就永久错位，后面所有引号全部反向 ——
+    #    实测污染了全站 337 个文件、2480 行。
+    #    现在：行内引号数为偶数 → 行内自足自闭（从 “ 开始交替）；
+    #    奇数 → 最后一个视为开引号延续到下一行，下一行首个引号负责闭合。
+    #    偶数行不理会上一行的残留状态，错误最多污染一行，下一行自动纠正。
+    pending_open = False   # 上一行留了个未闭合的开引号
     out = []
     for orig, text, slots in prepared:
         if text is None:
             out.append(orig)
             continue
+        # 定位参与配对的直引号
+        qpos = []
+        for pos, ch in enumerate(text):
+            if ch != '"':
+                continue
+            prev_is_han = pos > 0 and re.match(HAN, text[pos - 1])
+            next_is_han = pos + 1 < len(text) and re.match(HAN, text[pos + 1])
+            if prev_is_han or next_is_han:
+                qpos.append(pos)
+        # 决定每个引号的开合
+        marks = {}
+        if len(qpos) % 2 == 0:
+            for i, p in enumerate(qpos):
+                marks[p] = '“' if i % 2 == 0 else '”'
+            pending_open = False
+        else:
+            if pending_open:
+                marks[qpos[0]] = '”'
+                for i, p in enumerate(qpos[1:]):
+                    marks[p] = '“' if i % 2 == 0 else '”'
+                pending_open = False
+            else:
+                for i, p in enumerate(qpos[:-1]):
+                    marks[p] = '“' if i % 2 == 0 else '”'
+                marks[qpos[-1]] = '“'
+                pending_open = True
         buf = []
         for pos, ch in enumerate(text):
-            if ch == '"':
-                prev_is_han = pos > 0 and re.match(HAN, text[pos - 1])
-                next_is_han = pos + 1 < len(text) and re.match(HAN, text[pos + 1])
-                if prev_is_han or next_is_han:
-                    buf.append('“' if dq % 2 == 0 else '”')
-                    dq += 1
-                else:
-                    buf.append(ch)
+            if pos in marks:
+                buf.append(marks[pos])
             elif ch == "'":
                 prev_is_han = pos > 0 and re.match(HAN, text[pos - 1])
                 next_is_han = pos + 1 < len(text) and re.match(HAN, text[pos + 1])

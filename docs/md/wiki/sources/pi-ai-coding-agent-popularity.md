@@ -68,7 +68,7 @@ Mario Zechner 的解释：“这一代最先进的大模型其实已经非常擅
 
 > 对 Agent 来说，你刻意不做什么，比你做什么更重要。
 
-当其他工具都在疯狂堆功能的时候，Pi 选择了做减法。Claude Code 是”给你一个 AI 助手“，Pi 是”给你造 AI 助手的工厂“。
+当其他工具都在疯狂堆功能的时候，Pi 选择了做减法。Claude Code 是“给你一个 AI 助手”，Pi 是“给你造 AI 助手的工厂”。
 
 开源地址：`<https://github.com/earendil-works/pi>` 
 官方文档：`<https://pi.dev>`
