@@ -1008,3 +1008,5 @@ wiki/
 | [chainepic-free-token-burn-projects](/md/wiki/sources/chainepic-free-token-burn-projects) | Roland（@ChainEpic）：如果还有几个小时你的 Token 就要重置了，做什么项目能不浪费呢？ | X/Twitter |
 | [hylarucoder-codex-ui-restore-screenshot-loop](/md/wiki/sources/hylarucoder-codex-ui-restore-screenshot-loop) | 海拉鲁编程客：Codex 还原 UI 程度很高——秘密就是 /goal：每次修改后截图，用 Python 和原图比对 | X/Twitter |
 | [zihan-magpie-llm-gateway](/md/wiki/sources/zihan-magpie-llm-gateway) | 天不生邹子Zihan：Magpie 把全网模型收进一个本地网关——订阅即供应商，任意 Agent 都能用 | X/Twitter |
+| [ruofei-codex-sandbox-permissions](/md/wiki/sources/ruofei-codex-sandbox-permissions) | 若飞：Codex Sandbox 完整公开——OpenAI 怎么在本机给 Agent 限权 | 微信公众号 |
+| [chengge-overseas-10-niches](/md/wiki/sources/chengge-overseas-10-niches) | 橙哥：出海搞钱 10 个赛道，哪一个适合你 | 微信公众号 |
