@@ -5245,3 +5245,13 @@ source: "llm-wiki"
 - 来源：`https://x.com/Zihan_dev/status/2110358853405519957`（X/Twitter：X Article 长文，天不生邹子Zihan @Zihan_dev，发布于 2026-10-14 13:15 UTC）
 - 归档至 `sources/zihan-magpie-llm-gateway.md`（X Article，9 张配图已本地化）
 - 内容摘要：Magpie（github.com/yetone/magpie）把各家供应商的模型汇成一张清单反代给任意 Agent——Claude Code 里跑 GPT、Codex 里跑 GLM 都行，只改 base_url 指向 127.0.0.1:3425 即可；订阅即供应商（ChatGPT / Claude / Copilot / Gemini / Grok / Antigravity 都能挂多个账号），路由组提供 smart / order / rotate / usage / pace 五种策略，另有每日预热与意图路由两个细节；真正的差异点是把"看不见的地方"全可视化——每次调用的费用与 token 构成、上下文占比（实测 83% 是工具定义、真实会话仅 2%）、会话评分与跨 Agent 接力、资源库（MCP 服务器与技能直接落到每个 Agent 目录、RTK 命令行输出瘦身）、识图/生图/生视频统一入口。与 CC Switch 的取舍也讲得实在：API key 为主选 CC Switch，订阅多且要看清 token 去向、跨 Agent 接力则选 Magpie。第八节还复盘了那场推特骂战的关键机制——LESSONS.md 错题本 + "事不过三"升级为硬规则，版本数从一天 168 个降到每天 15-26 个（与 [[patterns/error-notebook-pattern]] 同源），并点出真正的争议已从"AI 能不能写软件"转向"如何给全自动 AI 开发建立质量保障体系"。
+
+## [2026-11-20] ingest: 微信公众号两篇——Codex Sandbox 权限设计 + 出海 10 赛道
+
+- 来源一：`https://mp.weixin.qq.com/s/DcqSSYb3JQgZqpJNBV_kFQ`（微信公众号「架构师（JiaGouX）」，若飞，发布于 2026-11-19 22:54）
+- 归档至 `sources/ruofei-codex-sandbox-permissions.md`（3 张配图已本地化，含 2 段 TOML 配置与 1 张核对表）
+- 内容摘要：OpenAI 工程师 Michael Bolin 完整公开 Codex Sandbox 设计，讲清「本机给 Agent 限权」的四个层次——**① 命令启动时限权**：权限配置被翻译成本机沙箱规则后由操作系统执行，`:workspace` 允许写工作区与系统临时目录、默认断网，`.git` / `.codex` / `.agents` / `.aws` 另有写保护，子进程继承约束；**② 本地 stdio MCP 服务另设权限**：默认不套用 Shell 的沙箱配置，需用 `codex sandbox --permission-profile` 单独包裹（MCP 只读本地索引与要连内网的服务需求不同，强行统一断网会导致服务起不来），管理员可在 `requirements.toml` 限定可用配置；**③ 域名规则靠代理执行**：`network.enabled` 只开网络不够，还必须开 `features.network_proxy`，否则域名表不生效——代理按域名放行，绕过代理的直连由操作系统沙箱兜底，两层缺一不可；**④ 三套系统三种实现**：macOS 用 `sandbox-exec`（Seatbelt）、Linux 用 bubblewrap（seccomp + no_new_privs + 网络命名空间）、Windows 正迁移到 Microsoft MXC；通配符规则（如 `**/*.env`）在启动前展开，命令启动后才出现的文件不会被补进拒绝规则。最容易被忽略的一点是**文件不继承沙箱限制**——沙箱内被写入的依赖（如 Prettier），下次由沙箱外的编辑器加载执行，Simon Willison 的解法是把 Agent 留在桌面、执行命令交给独立的 Linux 环境。
+- 来源二：`https://mp.weixin.qq.com/s/NhTCMzOA-iaZKPNOo2Rv8w`（微信公众号「橙哥」，发布于 2026-11-19 08:05）
+- 归档至 `sources/chengge-overseas-10-niches.md`（5 张配图已本地化）
+- 内容摘要：出海搞钱 10 个赛道的横向比较，落点是「橘生淮南则为橘，生于淮北则为枳」——有些东西在国内长成枳，挪到海外反而结出橘子。核心判断有三条：① **现金流比想象重要**，有些赛道的现金流稳得跟收房租一样，客户付钱只看账；② **规模化的游戏只奖励有规模的人**，新人冲进去大概率是给别人当分母；③ **数字商品是最轻的起点**（Etsy 可打印手帐、Lightroom 调色预设、Framer 网站模板），成本几乎为零、一份做好卖一万次，没有库存物流退货。作者也提醒：这些赛道的表面门槛低，往下挖三层全是细节，而抠细节恰恰是互联网人最擅长的事。
+- 去广告：两篇的引流段（关注 / 星标 / 看在 / 朋友圈 / 技术群微信 / 社群入场券 / 点击文末领取）已删除，作者身份与版权申明保留。
