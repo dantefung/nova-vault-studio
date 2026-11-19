@@ -5239,3 +5239,9 @@ source: "llm-wiki"
 - 来源：`https://x.com/hylarucoder/status/2122317669139722405`（X/Twitter：海拉鲁编程客 @hylarucoder，发布于 2026-11-16 13:15 UTC）
 - 归档至 `sources/hylarucoder-codex-ui-restore-screenshot-loop.md`（单推无配图）
 - 内容摘要：Codex 还原 UI 程度很高，秘诀也只有一句——「`/goal` 每次修改后截图，用 python 和原图比对，直到界面和图片差距不大即可」；其实用 Claude Code 也会发现它爱这么做，只是你不需要把上面那句话提出来。（延伸出价值：这与 [[patterns/agent-iteration-environment]]「人是环境的产物、Agent 也是」的环境论一致——给 Agent 一张截图作为可量化的验收信号，它会自主迭代至合格。）
+
+## [2026-11-19] ingest: 天不生邹子Zihan《CCSwitch严父：Magpie 全网最全教学》——本地网关 + 全可视化
+
+- 来源：`https://x.com/Zihan_dev/status/2110358853405519957`（X/Twitter：X Article 长文，天不生邹子Zihan @Zihan_dev，发布于 2026-10-14 13:15 UTC）
+- 归档至 `sources/zihan-magpie-llm-gateway.md`（X Article，9 张配图已本地化）
+- 内容摘要：Magpie（github.com/yetone/magpie）把各家供应商的模型汇成一张清单反代给任意 Agent——Claude Code 里跑 GPT、Codex 里跑 GLM 都行，只改 base_url 指向 127.0.0.1:3425 即可；订阅即供应商（ChatGPT / Claude / Copilot / Gemini / Grok / Antigravity 都能挂多个账号），路由组提供 smart / order / rotate / usage / pace 五种策略，另有每日预热与意图路由两个细节；真正的差异点是把"看不见的地方"全可视化——每次调用的费用与 token 构成、上下文占比（实测 83% 是工具定义、真实会话仅 2%）、会话评分与跨 Agent 接力、资源库（MCP 服务器与技能直接落到每个 Agent 目录、RTK 命令行输出瘦身）、识图/生图/生视频统一入口。与 CC Switch 的取舍也讲得实在：API key 为主选 CC Switch，订阅多且要看清 token 去向、跨 Agent 接力则选 Magpie。第八节还复盘了那场推特骂战的关键机制——LESSONS.md 错题本 + "事不过三"升级为硬规则，版本数从一天 168 个降到每天 15-26 个（与 [[patterns/error-notebook-pattern]] 同源），并点出真正的争议已从"AI 能不能写软件"转向"如何给全自动 AI 开发建立质量保障体系"。

@@ -1007,3 +1007,4 @@ wiki/
 | [chainepic-big-data-b2b-data-play](/md/wiki/sources/chainepic-big-data-b2b-data-play) | Roland（@ChainEpic）：大道至简，真实数据就是这个「简」——把医美店/足浴店/健身房数据爬下来做个 App | X/Twitter |
 | [chainepic-free-token-burn-projects](/md/wiki/sources/chainepic-free-token-burn-projects) | Roland（@ChainEpic）：如果还有几个小时你的 Token 就要重置了，做什么项目能不浪费呢？ | X/Twitter |
 | [hylarucoder-codex-ui-restore-screenshot-loop](/md/wiki/sources/hylarucoder-codex-ui-restore-screenshot-loop) | 海拉鲁编程客：Codex 还原 UI 程度很高——秘密就是 /goal：每次修改后截图，用 Python 和原图比对 | X/Twitter |
+| [zihan-magpie-llm-gateway](/md/wiki/sources/zihan-magpie-llm-gateway) | 天不生邹子Zihan：Magpie 把全网模型收进一个本地网关——订阅即供应商，任意 Agent 都能用 | X/Twitter |
