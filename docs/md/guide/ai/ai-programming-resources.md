@@ -272,6 +272,7 @@ date: "2026-05-05"
     - **Happy** — 开源移动 + Web 客户端，远程控制 Claude Code/Codex，端到端加密 + 语音
     - **Claude Squad** — 终端工作流，多 Agent + git worktree，比较成熟
     - **Crystal** — 并行 Codex/Claude Code session + worktree
+- [T3 Code](https://github.com/pingdotgg/t3code) — **65.7k Stars**、11.5k forks，MIT 协议的开源**编码 Agent 控制平面**（control plane），12.4k commits 仍在高频迭代。**它不卖 token**，而是驱动你本机已经装好并登录的 Agent：Claude Code、Codex、Cursor、OpenCode、Grok Build、Antigravity、Kiro、Pi、Muse Code、fx，以及任何支持 ACP 协议的 Agent。**① 一个界面管所有 Agent**——线程中途就能换模型，还能让 Claude 把活儿交给 Codex 接着干；**② 桌面 / Web / 手机三端同一批线程**——一个本地 server，客户端（iOS / Android App + 浏览器 + Web App）看到的都是同一份会话，在电脑前起头、在手机上批准下一步命令；**③ 远程就绪**——局域网、Tailscale 或 T3 Connect 都能连，Agent 跑在哪台机器都行；**④ Git 内置**——每个线程独立 worktree，看完 diff 一键 commit / push / 开 PR；**⑤ 性能当特性做**——官方把掉帧当 bug 修。安装：macOS `brew install --cask t3-code`、Windows `winget install T3Tools.T3Code`、Arch `yay -S t3code-bin`，或 `curl -fsSL https://t3.codes/install.sh | sh` 装 `t3` 命令（`npx t3@latest` 可免安装试跑）。官网 [t3.codes](https://t3.codes)
 - [video-shotcraft](https://vincentwei1021.github.io/video-shotcraft/) — **106 个镜头配方、162 种风格、161 个动态预览**，分镜/运镜/节奏/音效/Remotion 实现整理成 Agent Skill，视频创作技能库
 - [hyperframes-motion-director](https://github.com/geekjourneyx/hyperframes-motion-director) — 宣传片 Agent Skill，视频创作工作流
 - [Y2A-Auto](https://github.com/fqscfqj/Y2A-Auto) — YouTube视频搬运流水线，自动监控更新/下载/字幕生成/翻译/质检/AI改标题，双平台上传（B站+AcFun），支持企业微信推送
