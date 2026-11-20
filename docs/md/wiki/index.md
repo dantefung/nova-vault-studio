@@ -1012,3 +1012,5 @@ wiki/
 | [chengge-overseas-10-niches](/md/wiki/sources/chengge-overseas-10-niches) | 橙哥：出海搞钱 10 个赛道，哪一个适合你 | 微信公众号 |
 | [xiaoshi-b2b-sites-inquiries-no-cms](/md/wiki/sources/xiaoshi-b2b-sites-inquiries-no-cms) | 小拾随语：不用 WordPress 也不买服务器，我做的三个 B2B 站都拿到询盘了 | 微信公众号 |
 | [xiaoshi-schwartz-desire-derivation](/md/wiki/sources/xiaoshi-schwartz-desire-derivation) | 小拾随语：CTR 5%、CPC 两毛，为什么后台依然零转化？（附 Schwartz 欲望推导 Prompt） | 微信公众号 |
+
+| [baiyang-seo-traffic-platform-money-overseas](/md/wiki/sources/baiyang-seo-traffic-platform-money-overseas) | 白杨SEO：流量在平台，钱在出海里——为什么官网才是自己的渠道 | 微信公众号 |
