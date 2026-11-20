@@ -1010,3 +1010,5 @@ wiki/
 | [zihan-magpie-llm-gateway](/md/wiki/sources/zihan-magpie-llm-gateway) | 天不生邹子Zihan：Magpie 把全网模型收进一个本地网关——订阅即供应商，任意 Agent 都能用 | X/Twitter |
 | [ruofei-codex-sandbox-permissions](/md/wiki/sources/ruofei-codex-sandbox-permissions) | 若飞：Codex Sandbox 完整公开——OpenAI 怎么在本机给 Agent 限权 | 微信公众号 |
 | [chengge-overseas-10-niches](/md/wiki/sources/chengge-overseas-10-niches) | 橙哥：出海搞钱 10 个赛道，哪一个适合你 | 微信公众号 |
+| [xiaoshi-b2b-sites-inquiries-no-cms](/md/wiki/sources/xiaoshi-b2b-sites-inquiries-no-cms) | 小拾随语：不用 WordPress 也不买服务器，我做的三个 B2B 站都拿到询盘了 | 微信公众号 |
+| [xiaoshi-schwartz-desire-derivation](/md/wiki/sources/xiaoshi-schwartz-desire-derivation) | 小拾随语：CTR 5%、CPC 两毛，为什么后台依然零转化？（附 Schwartz 欲望推导 Prompt） | 微信公众号 |
