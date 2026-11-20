@@ -13,7 +13,7 @@ source: "llm-wiki"
 ## 关于本 wiki
 
 本文档站（nova-vault-studio）是 AI 编程、Agent 工程、Vibe Writing 等领域的内容集散地。
-`llm-wiki` 模式将这些内容从"一次性消费"变为"可持续复利的知识资产"。
+`llm-wiki` 模式将这些内容从“一次性消费”变为“可持续复利的知识资产”。
 
 ---
 
@@ -39,18 +39,18 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [ontology-platform-architecture](/md/wiki/concepts/ontology-platform-architecture) | 本体平台总体架构：四层三纵 + 十大引擎 + 三大运行模式，统一企业业务语义中枢 | 公众号：人月聊IT |
+| [ontology-platform-architecture](/md/wiki/concepts/ontology-platform-architecture) | 本体平台总体架构：四层三纵 + 十大引擎 + 三大运行模式，统一企业业务语义中枢 | 公众号：人月聊 IT |
 | [llm-wiki](/md/wiki/concepts/llm-wiki) | 持久化、复利的知识库模式：三层架构 + Ingest/Query/Lint + 哈希/阈值/冲突治理 | Skill / Hermes Agent |
 | [agent-memory-four-layers](/md/wiki/concepts/agent-memory-four-layers) | Agent 记忆四层架构：会话记录/笔记/Wiki/启动上下文分层存放 + 离线整理 + 按需读取 | 公众号：架构师若飞 |
 | [sessionless-agent-architecture](/md/wiki/concepts/sessionless-agent-architecture) | Sessionless Agent 架构：会话耗材化 + 任务责任状（Quest）+ 动态长出 DAG + MDC 文件空间 | 公众号：郑天 |
 | [hermes-llm-wiki-skill](/md/wiki/summaries/hermes-llm-wiki-skill) | Hermes v2.1.0 将 Karpathy LLM Wiki 落实为可执行的建设、查询和 13 步 Lint 治理流程 | Hermes Agent 文档 |
 | [llm-cache-mechanism](/md/wiki/concepts/llm-cache-mechanism) | LLM 缓存三层机制：KV Cache → 显存优化 → 前缀缓存，以及 Claude Code/Codex 工程实践 | 公众号 |
-| [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
-| [harness-legacy-refactor](/md/wiki/summaries/harness-legacy-refactor) | 90万行遗留系统重构实践：质量左移、多Agent独立审查、变异测试、防篡改状态机与上下文分层 | 公众号 |
+| [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI 不缺智商缺纪律：harness 工程化实践，四阶段演进、19 节点链路、7 维评测 | 公众号 |
+| [harness-legacy-refactor](/md/wiki/summaries/harness-legacy-refactor) | 90 万行遗留系统重构实践：质量左移、多 Agent 独立审查、变异测试、防篡改状态机与上下文分层 | 公众号 |
 | [agent-runtime-safety-guardrails](/md/wiki/patterns/agent-runtime-safety-guardrails) | Agent 运行时纵深防御：默认拒绝、最小权限、执行前授权、成本包络、门禁、回滚与脱敏审计 | 公众号 |
 | [ai-coding-delivery](/md/wiki/concepts/ai-coding-delivery) | 复杂业务团队 AI 研发交付：分层知识库 + 文件化 RD 流程 + 前置质量门禁 | 公众号 |
 | [prompt-context-harness](/md/columns/agentic-engineer/other-tools/prompt-context-harness-evolution) | Prompt→Context→Harness 工程进化论 | 文章 |
-| [loop-engineering](/md/wiki/concepts/loop-engineering) | Loop Engineering 溯源与批判：定时任务 → KOL炒作 → 五组件框架，看清词源回归本质 | 公众号 |
+| [loop-engineering](/md/wiki/concepts/loop-engineering) | Loop Engineering 溯源与批判：定时任务 → KOL 炒作 → 五组件框架，看清词源回归本质 | 公众号 |
 | [loop-engineering-thoughts](/md/wiki/concepts/loop-engineering-thoughts) | Loop Engineering 深度思考：控制论四大公理映射、五代工程演进、吴恩达三个环、TDD 作为反馈信号、模型成本与预算思维 | 公众号 |
 | [ralph-loop](/md/wiki/concepts/ralph-loop) | Ralph Loop：Stop Hook 拦截 + 明确完成条件，强制 AI Agent 持续迭代直到真正完成任务，而非 LLM 自我评估退出 | 博客 |
 | [ai-self-refine-prompt](/md/wiki/patterns/ai-self-refine-prompt) | AI 主动进步提示词：先定质量标准→自检→针对最差处重写，迭代至无明显改进空间 | X/Twitter |
@@ -94,7 +94,7 @@ wiki/
 | [stripe-noahduck283-guide](/md/wiki/summaries/stripe-noahduck283-guide) | Stripe 全链路指南：Payment Links→Checkout→Billing→Tax/MoR→Connect 分层升级路径与上线 checklist | X/Twitter |
 | [stripe-sitinme-guide](/md/wiki/summaries/stripe-sitinme-guide) | Stripe 网站接入实战：Checkout Session→Webhook→Stripe CLI 本地测试→生产受限密钥 | X/Twitter |
 | [liujiayi1111-sms-code-forward](/md/wiki/summaries/liujiayi1111-sms-code-forward) | iPhone 快捷指令把短信验证码自动转发邮箱：被动转发/主动查询两案，附「内容」变量坑点 | X/Twitter |
-| [ai-xiaomu-jev-decision-model-primer](/md/wiki/summaries/ai-xiaomu-jev-decision-model-primer) | Jev决策模型入门：把问答变填表，答案格式数学上锁死；confidence分级兜底让AI真正可自动化；快200倍便宜400倍 | X/Twitter |
+| [ai-xiaomu-jev-decision-model-primer](/md/wiki/summaries/ai-xiaomu-jev-decision-model-primer) | Jev 决策模型入门：把问答变填表，答案格式数学上锁死；confidence 分级兜底让 AI 真正可自动化；快 200 倍便宜 400 倍 | X/Twitter |
 | [claude-role-prompts](/md/wiki/concepts/claude-role-prompts) | 4 个改变提问方式的角色框架——CBT 咨询师/严厉导师/魔鬼代言人/私人教练 | X Article |
 | [selfmedia-compound-model](/md/wiki/concepts/selfmedia-compound-model) | 自媒体复利模型——流量起点→真需求产品→收入闭环，4 层变现漏斗 | X Article |
 | [ai-oneperson-company](/md/wiki/concepts/ai-oneperson-company) | AI 一人公司方法论——PMF→RPA→SOP→无限复制，跟在大模型屁股后面吃红利 | 公众号 |
@@ -131,18 +131,18 @@ wiki/
 | [video-highlight-skill](/md/wiki/sources/video-highlight-skill) | AI 视频高光剪辑 Skill，FFmpeg 剪辑 + SRT 字幕 + YouTube 风格回顾页，7 Stars | GitHub |
 | [linus-torvalds-skills](/md/wiki/sources/linus-torvalds-skills) | Linus 式工程品味 Skill：好品味/不破坏用户/实用主义/极度求简，5 Stars | GitHub |
 | [matt-pocock-wayfinder-handoff](/md/wiki/concepts/matt-pocock-wayfinder-handoff) | wayfinder（多会话地图）+ handoff（会话边界交接）接力协议，smart zone vs dumb zone ~120K tokens 阈值 | 公众号 |
-| [matt-pocock-on-ramp](/md/wiki/concepts/matt-pocock-on-ramp) | 三类输入分类器：/triage（issue）/diagnosing-bugs（回归bug）/wayfinder（新模块），按来源和形态分流 | 公众号 |
+| [matt-pocock-on-ramp](/md/wiki/concepts/matt-pocock-on-ramp) | 三类输入分类器：/triage（issue）/diagnosing-bugs（回归 bug）/wayfinder（新模块），按来源和形态分流 | 公众号 |
 | [mcp-protocol-rpc](/md/wiki/concepts/mcp-protocol-rpc) | MCP 选 JSON-RPC 而非 gRPC 的四个理由：stdio 优先、瓶颈在推理而非序列化、门槛低生态广、JSON 是 AI 母语 | 公众号 |
-| [mcp-2026-07-28-stateless](/md/wiki/concepts/mcp-2026-07-28-stateless) | MCP 2026-07-28 最大更新：无状态+短连接、MRTR 多轮往返、缓存TTL、按需订阅、Tasks 正式扩展 | 公众号 |
+| [mcp-2026-07-28-stateless](/md/wiki/concepts/mcp-2026-07-28-stateless) | MCP 2026-07-28 最大更新：无状态+短连接、MRTR 多轮往返、缓存 TTL、按需订阅、Tasks 正式扩展 | 公众号 |
 | [awesome-codex-skills](/md/wiki/sources/awesome-codex-skills) | Codex Skills 精选列表，40+ Skills 覆盖开发/协作/写作/分析，13k Stars | GitHub |
 | [ai-website-cloner-template](/md/wiki/sources/ai-website-cloner-template) | 输入 URL 用 AI 克隆网站为 Next.js，/clone-website 单命令，16.4k Stars | GitHub |
-| [go-stock](/md/wiki/sources/go-stock) | AI 赋能股票分析，市场/个股情绪分析，K线技术指标，6.1k Stars | GitHub |
+| [go-stock](/md/wiki/sources/go-stock) | AI 赋能股票分析，市场/个股情绪分析，K 线技术指标，6.1k Stars | GitHub |
 | [cell-architecture-studio](/md/wiki/sources/cell-architecture-studio) | 3D 细胞结构交互画廊，7 种细胞类型，高保真 GLB 模型，1k Stars | GitHub |
 | [商业分析 · 案例专栏](/md/business/) | 横纵分析法深度研究报告系列 | 专栏 |
 | [AiToEarn](/md/wiki/sources/aitoearn) | AI 全自动自媒体内容生产与多平台分发变现，18.2k Stars | GitHub |
 | [guangzhou-industrial-ecommerce](/md/wiki/sources/guangzhou-industrial-ecommerce) | 广州工业品店群实战：采集+代发+工厂场景，20 个店一人管 | 公众号 |
 | [wx-cli](/md/wiki/sources/wx-cli) | 微信本地数据 CLI，内存扫描解密，零依赖跨平台，3.3k Stars | GitHub |
-| [cloudflare-zero-trust-access](/md/wiki/concepts/cloudflare-zero-trust-access) | 零信任访问控制——"永不信任，始终验证"，Cloudflare Access 免费 50 用户方案 | 公众号 |
+| [cloudflare-zero-trust-access](/md/wiki/concepts/cloudflare-zero-trust-access) | 零信任访问控制——“永不信任，始终验证”，Cloudflare Access 免费 50 用户方案 | 公众号 |
 | [geju-skill](/md/wiki/sources/geju-skill) | 专治 Codex 过度谨慎，格局打开暴论输出机，8 种打法 | GitHub |
 | [flipbook-app](/md/wiki/sources/flipbook-app) | 点击探索 AI 生成知识树，无限子节点层层递进，142 Stars | GitHub |
 | [stock-skill](/md/wiki/sources/stock-skill) | 三人美股框架合议：Serenity 卡脖子 × TraderS 宏观 × 恨铁技术执行，16 Stars | GitHub |
@@ -158,7 +158,7 @@ wiki/
 | [design-skills-programmer](/md/wiki/sources/design-skills-programmer) | 程序员必备 Design Skills：四类能力（生成/规范/还原/系统化），五种角色组合建议，含 Taste Skill/UI UX Pro Max/UI Design Brain/Impeccable 等 | 公众号 |
 | [design-skills-eight](/md/wiki/sources/design-skills-eight) | 8 个优质 Design Skills（创意方向/设计智能/质量合规/工程模式四类），含 Anthropic Frontend Design/Impeccable/Taste Skill/UI UX Pro Max 等 | 公众号 |
 | [baoyu-design-skill](/md/wiki/sources/baoyu-design-skill) | baoyu-design 技能包：Design Skill 导出 MP4 动画视频（逐帧拍照+ffmpeg），一句话生成技术解释视频，支持 Cursor/Claude Code/Codex | 公众号 |
-| [huashu-design-deep-dive](/md/wiki/sources/huashu-design-deep-dive) | huashu-design 逆向深度解析：品牌资产协议（5步硬流程）+ 20种设计哲学库 + Stage+Sprite 动画引擎 + render-video.js 视频管线 + 16条动画踩坑实录 | 公众号 |
+| [huashu-design-deep-dive](/md/wiki/sources/huashu-design-deep-dive) | huashu-design 逆向深度解析：品牌资产协议（5 步硬流程）+ 20 种设计哲学库 + Stage+Sprite 动画引擎 + render-video.js 视频管线 + 16 条动画踩坑实录 | 公众号 |
 | [huashu-design-workflow](/md/wiki/sources/huashu-design-workflow) | huashu-design 交付型设计 skill 分析：HTML 作为中间层，解决格式/上下文/方向/责任 4 个结构性断裂 | 公众号 |
 | [seo-audit-tool](/md/wiki/sources/seo-audit-tool) | On Page SEO 体检工具 seo.web.cafe/audit/：上线前自检 Title/Description/H1/关键词覆盖，支持 pSEO 批量抽查 | 公众号 |
 | [ego-lite-browser](/md/wiki/sources/ego-lite-browser) | Ego Lite 免费 Agent 浏览器：导入 Chrome 登录态/Cookie，Space 多任务隔离，Semantic Snapshot 压缩 Token，benchmark 比 Agent Browser 快 3.5 倍 | 公众号 |
@@ -199,7 +199,7 @@ wiki/
 | [ai-finance-tool-dev](/md/wiki/patterns/ai-finance-tool-dev) | AI 辅助金融量化工具开发模式 | 公众号 |
 | [claude-code-build-site](/md/wiki/concepts/claude-code-build-site) | 用 Claude Code 建站：非程序员 6 小时完成 SEO 建站全流程 | 公众号 |
 | [linux-context-switch](/md/wiki/concepts/linux-context-switch) | Linux 内核进程上下文切换全解：switch_to 汇编、CFS→EEVDF、进程/线程/中断三类切换、线上排查工具链 | 公众号 |
-| [mutex-evolution](/md/wiki/concepts/mutex-evolution) | 互斥锁演化史：关中断→Peterson算法→原子指令→自旋锁→互斥锁→读写锁，含死锁四条件 | 公众号 |
+| [mutex-evolution](/md/wiki/concepts/mutex-evolution) | 互斥锁演化史：关中断→Peterson 算法→原子指令→自旋锁→互斥锁→读写锁，含死锁四条件 | 公众号 |
 | [sdio-bus](/md/wiki/concepts/sdio-bus) | SDIO 总线硬件原理：SD 家族区分、引脚定义、1-bit/4-bit 模式、命令帧格式、初始化时序、硬件设计踩坑 | 公众号 |
 | [virtual-memory-invention](/md/wiki/concepts/virtual-memory-invention) | 虚拟内存发明历程：物理寻址→重定位→覆盖→分页→MMU→缺页中断→TLB，三大核心价值 | 公众号 |
 | [tcp-listen-semantics](/md/wiki/concepts/tcp-listen-semantics) | TCP 套接字状态机：listen 的三件事、内核 SYN 查找逻辑与三种建连场景，判断「谁是发起方」 | 公众号 |
@@ -222,10 +222,10 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [meigen-ai-tech-breakdown](/md/wiki/sources/meigen-ai-tech-breakdown) | 月访500万AI生图站：SSR + 积分制 + 程序化 SEO，T3国家市场策略 | 公众号 |
-| [ai-api-platforms-overseas](/md/wiki/sources/ai-api-platforms-overseas) | 9个常用API平台：语言/图片/视频/地图，API组合是出海产品加速器 | 公众号 |
-| [indie-development-weekly-161](/md/wiki/sources/indie-development-weekly-161) | 独立开发变现周刊第161期：10个案例提炼真实付费、渠道资产化、窄定位和基础设施抽象 | 公众号 |
-| [xiaohu-seo-1m-uv](/md/wiki/read-later/index) | 练手小游戏30天100万UV：野生小虎首次出海SEO实战复盘，纯自然流量 | X |
+| [meigen-ai-tech-breakdown](/md/wiki/sources/meigen-ai-tech-breakdown) | 月访 500 万 AI 生图站：SSR + 积分制 + 程序化 SEO，T3 国家市场策略 | 公众号 |
+| [ai-api-platforms-overseas](/md/wiki/sources/ai-api-platforms-overseas) | 9 个常用 API 平台：语言/图片/视频/地图，API 组合是出海产品加速器 | 公众号 |
+| [indie-development-weekly-161](/md/wiki/sources/indie-development-weekly-161) | 独立开发变现周刊第 161 期：10 个案例提炼真实付费、渠道资产化、窄定位和基础设施抽象 | 公众号 |
+| [xiaohu-seo-1m-uv](/md/wiki/read-later/index) | 练手小游戏 30 天 100 万 UV：野生小虎首次出海 SEO 实战复盘，纯自然流量 | X |
 | [hezhiyan7-outsea-oneyear-10000usd](/md/wiki/sources/hezhiyan7-outsea-oneyear-10000usd) | 出海一周年稳定万刀：12 模块 200+ 篇实战文章方法论地图 | X |
 | [indie-site-builder-skill-stack](/md/wiki/concepts/indie-site-builder-skill-stack) | 独立网站出海创业 12 大能力栈：需求/SEO/支付/流量 等实战密度地图 | 概念 |
 | [half-hour-game-site](/md/wiki/sources/half-hour-game-site) | 半小时上线小游戏站：域名注册→Cloudflare DNS→GitHub→Claude 生成代码→Vercel 部署→自定义域名+SSL，1 小时含写文章 | 公众号 |
@@ -285,7 +285,7 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [ai-agent-team-9-stages](/md/wiki/sources/ai-agent-team-9-stages) | Anthropic 9阶段搭建Agent团队：从单个Agent到生产级协作，三层架构 | 公众号 |
+| [ai-agent-team-9-stages](/md/wiki/sources/ai-agent-team-9-stages) | Anthropic 9 阶段搭建 Agent 团队：从单个 Agent 到生产级协作，三层架构 | 公众号 |
 | [zeroagent-01-tech-stack](/md/wiki/sources/zeroagent-01-tech-stack) | 从码农到工匠：从零构建 Agent（一）——技术选型，Go/Python 两次弯路后全栈 TypeScript 的必选项结论 | 微信公众号 |
 | [zeroagent-02-llm-interaction](/md/wiki/sources/zeroagent-02-llm-interaction) | 从码农到工匠：从零构建 Agent（二）——大模型交互，Responses API 请求/响应结构与六种用法 | 微信公众号 |
 | [zeroagent-03-agent-loop](/md/wiki/sources/zeroagent-03-agent-loop) | 从码农到工匠：从零构建 Agent（三）——Agent Loop 与 ReAct，四阶段闭环、SSE 事件映射与三种终止条件 | 微信公众号 |
@@ -301,7 +301,7 @@ wiki/
 | [responses-api-agent-loop](/md/wiki/concepts/responses-api-agent-loop) | Responses API：把 Agentic Loop 打包进协议层的事实标准接口，及其能力边界与实测差异 | 公众号提炼 |
 | [dewu-multi-agent-three-reversals](/md/wiki/sources/dewu-multi-agent-three-reversals) | 得物技术（微辣帝）：多 Agent 架构的三次反转——控制权从中心节点经共享状态下沉到执行者，中间件巡检落地案例 | 微信公众号 |
 | [multi-agent-control-rights](/md/wiki/concepts/multi-agent-control-rights) | 多 Agent 控制权归属三次反转：Master Agent / 任务看板 / Advisor 三种协作方式的选择轴与两个边界前提 | 公众号提炼 |
-| [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI不缺智商缺纪律：harness工程化实践，四阶段演进、19节点链路、7维评测 | 公众号 |
+| [harness-engineering-practice](/md/wiki/sources/harness-engineering-practice) | AI 不缺智商缺纪律：harness 工程化实践，四阶段演进、19 节点链路、7 维评测 | 公众号 |
 | [deepseek-harness](/md/wiki/products/deepseek-harness) | DeepSeek 开源的可组装 Agent 底盘：模型、工具、Skill、沙箱、控制流与 UI 一切皆插件 | 用户原创 |
 | [deepseek-harness-summary](/md/wiki/summaries/deepseek-harness-plugin-first-agent-runtime) | DeepSeek Harness 原创材料精读：五个关键洞察、长期资产判断及插件系统待验证边界 | Wiki 摘要 |
 | [plugin-first-agent-runtime](/md/wiki/patterns/plugin-first-agent-runtime) | 插件优先 Agent Runtime：极简稳定内核 + 标准化可替换组件，像 Agent 世界的 foobar2000 | 用户原创 |
@@ -314,7 +314,7 @@ wiki/
 | [durable-agent-agentcore](/md/wiki/sources/durable-agent-agentcore) | 刘军：Durable Agent 详解——五封邮件的崩溃恢复示例，AgentScope 持久执行内核 + AgentCore Brain-Hands 分离 | 公众号 |
 | [agentteams-dashboard](/md/wiki/products/agentteams-dashboard) | 多 Agent 团队控制面：组织权限、项目任务、Skill/MCP/模型资产、运行时与编码 CLI 执行审计 | 产品 |
 | [agentscope-layering](/md/wiki/concepts/agentscope-layering) | AgentScope 分层架构：无状态 ReAct 内核 + 组合式外壳 + 18 类扩展，洋葱 4 点+管道 1 点中间件，112 处 @Deprecated 双轨债 | 公众号 |
-| [agentscope-governance](/md/wiki/concepts/agentscope-governance) | Agent 平台治理三大支柱：权限六步管线（独立引擎+HITL）、优雅停机三原则（先存后断+阶段边界+按requestId）、统一事件流（31种event+CustomEvent逃生舱） | 公众号 |
+| [agentscope-governance](/md/wiki/concepts/agentscope-governance) | Agent 平台治理三大支柱：权限六步管线（独立引擎+HITL）、优雅停机三原则（先存后断+阶段边界+按 requestId）、统一事件流（31 种 event+CustomEvent 逃生舱） | 公众号 |
 | [agent-token-architecture](/md/wiki/concepts/agent-token-architecture) | Agent 的本质：用 Token 换架构，控制流从开发期迁移到运行时，三年技术脉络 ReAct→FC→MCP→Skills | 公众号 |
 | [llm-context-and-token](/md/wiki/sources/llm-context-and-token) | LLM 上下文窗口与 Token 原理：128k 公摊、BPE 子词切分、Prompt 工程四要素 | 公众号 |
 | [llm-context-and-token-summary](/md/wiki/summaries/llm-context-and-token) | LLM 上下文与 Token 原理精读：自回归生成 + 子词分词 + 128k 公摊 + Prompt 四要素 | Wiki 摘要 |
@@ -331,7 +331,7 @@ wiki/
 | [khazix-agent-automation-system](/md/wiki/sources/khazix-agent-automation-system) | 数字生命卡兹克：折腾了一年，毫无保留地分享我的 Agent 自动化系统（中台+本地+CI） | X/Twitter |
 | [sujingshen-deepseek-harness-super-agent-reading](/md/wiki/sources/sujingshen-deepseek-harness-super-agent-reading) | SagaSu：细读 DeepSeek Harness Super-agent 设计——不是更聪明，是不用你盯着 | X/Twitter |
 | [zen-with-ai-deepseek-super-agent-architecture](/md/wiki/sources/zen-with-ai-deepseek-super-agent-architecture) | 山景城小路：细读 DeepSeek Super-agent 架构长文——把计算机经典机制搬进 Agent 系统 | X/Twitter |
-| [dannykkg-ai-sandbox-primer](/md/wiki/summaries/dannykkg-ai-sandbox-primer) | Sandbox入门：≠Docker≠VM；六类受限资源（文件/进程/网络/凭据/算力/生命周期）；预分配+拦截双层防御；三道防线+7问自检 | X/Twitter |
+| [dannykkg-ai-sandbox-primer](/md/wiki/summaries/dannykkg-ai-sandbox-primer) | Sandbox 入门：≠Docker≠VM；六类受限资源（文件/进程/网络/凭据/算力/生命周期）；预分配+拦截双层防御；三道防线+7 问自检 | X/Twitter |
 | [agent-flow-vs-general](/md/wiki/sources/agent-flow-vs-general) | 从 Agent Flow 到 AI Native：通用 Agent 是「饮鸩止渴」；最小任务单元、Hardcode 是美丽的、AI Native 本质是解决用户问题、基建要 LLM-friendly、组织链路要足够短 | 公众号 |
 | [linux-interrupt-overview](/md/wiki/sources/linux-interrupt-overview) | Linux 中断管理概述：顶半部/底半部分层架构，三大底半部机制（Softirq/Tasklet/Workqueue）特点与适用场景 | 公众号 |
 | [microsoft-autogen-multagent](/md/wiki/sources/microsoft-autogen-multagent) | 微软开源 AutoGen：多智能体框架，ConversableAgent 万物皆可对话，GroupChat 团队协作，v0.4 async-first 分布式架构，vs LangGraph/CrewAI 对比 | 公众号 |
@@ -360,7 +360,7 @@ wiki/
 | [age-mission-driver](/md/wiki/concepts/age-mission-driver) | AGE 吸引子引导工程：从 Loop Engineering 到方向外化的期望吸引子，Mission Driver 全文件化编排 Plan 生命周期 | 公众号 |
 | [harness-multiplier-effect](/md/wiki/concepts/harness-multiplier-effect) | Harness 乘数效应：Composio 测试同一模型 8 种 Harness，Pi Agent 66.7% 成功率 $0.028/任务，缓存命中率 99.93% | 公众号 |
 | [cordis-dsh-vs-pi](/md/wiki/sources/cordis-dsh-vs-pi) | Cordis 解决什么：DSH 用 Cordis 管理跨插件关系（Loader/Fiber/effect/Service/Context），Pi 把清理交给扩展作者。两条 Provider 变化路径 + 所有权规则 + 半途失败回收 | 公众号 |
-| [frontend-skill-team-coding](/md/wiki/sources/frontend-skill-team-coding) | 阿里云团队前端 Skill 驱动的团队 AI Coding 实践：五维结构（When/What/Don't-Why/How/Map）、四个落地案例（Status看板/CFD升级/AIOps设计直码/国际化流水线）、R2C 需求转代码 | 公众号 |
+| [frontend-skill-team-coding](/md/wiki/sources/frontend-skill-team-coding) | 阿里云团队前端 Skill 驱动的团队 AI Coding 实践：五维结构（When/What/Don't-Why/How/Map）、四个落地案例（Status 看板/CFD 升级/AIOps 设计直码/国际化流水线）、R2C 需求转代码 | 公众号 |
 | [langchain-agent-wechat](/md/wiki/sources/langchain-agent-wechat) | Node + LangChain.js v1 搭公众号 Agent 流水线：七步落地 ReAct/Harness/MCP/SubAgent/Skill，DeepSeek V4 双模型分工，8 个避坑 | 公众号 |
 | [sba-agentscope-announcement](/md/wiki/sources/saa-agentscope) | Spring AI Alibaba 与 AgentScope 定位区别：Graph 工作流 vs Agentic 最大化模型，Java 智能体两条路线融合趋势 | java2ai.com |
 | [sba-agentscope-summary](/md/wiki/summaries/saa-agentscope) | Spring AI Alibaba vs AgentScope-Java 定位精读：四条路线差异 + 生态融合 + 路线图 v1.0 | Wiki 摘要 |
@@ -379,7 +379,7 @@ wiki/
 | [dsh-browser-first-configurable-harness](/md/wiki/concepts/dsh-browser-first-configurable-harness) | 浏览器优先的完全可配置 Harness：DSH 与 Claude Code/Codex 的四项核心工程差异 | Wiki 推导 |
 | [dsh-superagent-active-agent-architecture](/md/wiki/concepts/dsh-superagent-active-agent-architecture) | 主动型 Coding Agent 架构设计：DSH Super-agent 五大工程常识与后厨美学模型 | 公众号 |
 | [fanbing-dsh-superagent-engineering-common-sense](/md/wiki/summaries/fanbing-dsh-superagent-engineering-common-sense) | 增长黑客范冰：解读 dsh-superagent 精读摘要——主动型 Agent 五大工程常识与后厨美学 | 公众号 |
-| [shao-meng-google-5day-ai-agents-course](/md/wiki/sources/shao-meng-google-5day-ai-agents-course) | Google 官方「5天 AI Agents 课程」深度解读：从 Vibe Coding 到生产级 Agent 范式 | X/Twitter |
+| [shao-meng-google-5day-ai-agents-course](/md/wiki/sources/shao-meng-google-5day-ai-agents-course) | Google 官方「5 天 AI Agents 课程」深度解读：从 Vibe Coding 到生产级 Agent 范式 | X/Twitter |
 | [yihui-loop-engineering-explained](/md/wiki/sources/yihui-loop-engineering-explained) | yihui：Loop Engineering 到底是什么？从人肉循环到自主工程闭环 | X/Twitter |
 | [katelyn-lesse-new-problems-for-engineers](/md/wiki/sources/katelyn-lesse-new-problems-for-engineers) | Anthropic 平台工程负责人 Lesse：上千个 AI 智能体一起干活，还缺程序员解决四个难题 | 个人博客 |
 | [leo-xiaolei-369-video-agent-tools](/md/wiki/sources/leo-xiaolei-369-video-agent-tools) | 刘老板：369 个开源仓库——AI Agent 视频生成、自动化剪辑与代码动效渲染 | X/Twitter |
@@ -392,14 +392,14 @@ wiki/
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
 | [yc-s26-agent-infrastructure](/md/wiki/summaries/yc-s26-agent-infrastructure) | YC S26 趋势观察：Agent 基础设施、AI 原生服务公司与机器人/工业硬件升温 | 公众号 |
-| [ai-era-wealth-creation](/md/wiki/sources/ai-era-wealth-creation) | AI时代造富公式：现金流/股权/流动性三路径，四大赛道分析 | 公众号 |
-| [digital-products-side-income](/md/wiki/concepts/digital-products-side-income) | 数字产品副业：国内卖19.9国外卖9美元，Gumroad/Payhip/Sellfy 平台对比 | 公众号 |
+| [ai-era-wealth-creation](/md/wiki/sources/ai-era-wealth-creation) | AI 时代造富公式：现金流/股权/流动性三路径，四大赛道分析 | 公众号 |
+| [digital-products-side-income](/md/wiki/concepts/digital-products-side-income) | 数字产品副业：国内卖 19.9 国外卖 9 美元，Gumroad/Payhip/Sellfy 平台对比 | 公众号 |
 | [indie-product](/md/wiki/concepts/indie-product) | 独立开发者三维度找需求：用户群体×产品形态×收费模式，「官方不管、用户很痒、有人愿意付钱」 | 公众号 |
 | [boss-business-model](/md/wiki/concepts/boss-business-model) | 招聘信息分析：用 BOSS 直聘做商业模式研究，岗位类型暴露获客/销售/交付模式，横向对比拼出行业地图 | 公众号 |
-| [dongqingai-xianyu-virtual-product-automation](/md/wiki/summaries/dongqingai-xianyu-virtual-product-automation) | 闲鱼虚拟资料自动化：AI+MCP把选品/制作/上架/发货变流水线，人只做定方向+质量检查+异常处理 | X/Twitter |
+| [dongqingai-xianyu-virtual-product-automation](/md/wiki/summaries/dongqingai-xianyu-virtual-product-automation) | 闲鱼虚拟资料自动化：AI+MCP 把选品/制作/上架/发货变流水线，人只做定方向+质量检查+异常处理 | X/Twitter |
 | [dongqing-cashback-bot-project](/md/wiki/sources/dongqing-cashback-bot-project) | 冬青：返利机器人项目——老项目很稳，月入 3K-5k 滚雪球，种子人群+自发裂变增长策略 | X/Twitter |
 | [dongqing-5-ai-money-making-projects](/md/wiki/sources/dongqing-5-ai-money-making-projects) | 冬青：普通人利用 AI 赚钱的五个项目（小红书虚拟资料/公众号+小程序/定制网站软件/内容创作/CPS 返利机器人）| X/Twitter |
-| [affnom-y-traffic-arbitrage-3min-primer](/md/wiki/summaries/affnom-y-traffic-arbitrage-3min-primer) | 3分钟讲清楚流量套利：搜索套利/产品变现/网站广告三出口100美元账本示例，普通人先跑通一笔完整账再扩量 | X/Twitter |
+| [affnom-y-traffic-arbitrage-3min-primer](/md/wiki/summaries/affnom-y-traffic-arbitrage-3min-primer) | 3 分钟讲清楚流量套利：搜索套利/产品变现/网站广告三出口 100 美元账本示例，普通人先跑通一笔完整账再扩量 | X/Twitter |
 | [ai-business-seven-layers](/md/wiki/patterns/ai-business-seven-layers) | AI 商业七层金字塔：从卖时间、内容和结果，到卖产品、系统、底层能力与资本，换层的关键是改变交付标的 | 公众号 |
 | [ai-escape-speed](/md/wiki/concepts/ai-escape-speed) | AI 创业的逃逸速度：套壳为什么有价值——在下一代模型前做更多次有效迭代，含能力公式与方向/迭代两类判断 | 公众号 |
 | [agent-iteration-environment](/md/wiki/patterns/agent-iteration-environment) | Agent 迭代环境闭环：Dogfood 环境自建 → 区分产品问题与基建问题 → 清障降本 → 口喷式无限迭代 | 公众号 |
@@ -410,7 +410,7 @@ wiki/
 | [solo-cream-1m-ai-site-case](/md/wiki/sources/solo-cream-1m-ai-site-case) | 一个人靠 AI 做到百万美元营收：大市场切小块、营收与利润的口径差异、获客不止 SEO | 用户整理 |
 | [fangxin-geo-monetization-guide](/md/wiki/sources/fangxin-geo-monetization-guide) | 方鑫：GEO 到底怎么赚钱？六类生意形态、收费、交付与验收全解析 | X/Twitter |
 | [koda-ordinary-person-million-guide](/md/wiki/sources/koda-ordinary-person-million-guide) | Koda：2026 年普通人如何一年赚 100 万——破除思维遮蔽与商业闭环实操 | X/Twitter |
-| [weiyux-xianyu-6-years-experience](/md/wiki/sources/weiyux-xianyu-6-years-experience) | 动物园园长：36岁做了6年闲鱼，劝大家不要想太多！避坑与实战经验 | X/Twitter |
+| [weiyux-xianyu-6-years-experience](/md/wiki/sources/weiyux-xianyu-6-years-experience) | 动物园园长：36 岁做了 6 年闲鱼，劝大家不要想太多！避坑与实战经验 | X/Twitter |
 | [yihui-skillry-first-10k-mrr-order](/md/wiki/sources/yihui-skillry-first-10k-mrr-order) | Yihui：Skillry 一月破万刀复盘，写代码前先想明白商业模式与营销打法 | X/Twitter |
 | [teamai-individual-team-golden-trio](/md/wiki/sources/teamai-individual-team-golden-trio) | 沈淦：一个人+AI 就是一个团队——上下文工程五环节、TeamAI 黄金三件套与半自动化三段流水线 | 公众号 |
 | [context-engineering-five-links](/md/wiki/patterns/context-engineering-five-links) | 上下文工程五环节：知识库、工具调用、对话历史、项目记忆、现场清理，附上下文用量 45%~55% 硬上限 | 公众号 |
@@ -428,10 +428,10 @@ wiki/
 | [canghe-codex-obsidian-wechat-workflow](/md/wiki/sources/canghe-codex-obsidian-wechat-workflow) | 苍何：Codex + Obsidian 公众号创作工作流开源沉淀——标题、排版与数据驱动 | X/Twitter |
 | [binghe-wechat-formatting-skill-v2](/md/wiki/sources/binghe-wechat-formatting-skill-v2) | 冰河：公众号排版工具 Skill V2.0——从写完到发布双 Skill 联动 | X/Twitter |
 | [ai-chuhai-x-viral-writing-engine](/md/wiki/sources/ai-chuhai-x-viral-writing-engine) | 爱出海：X 爆款写作引擎——没有自己的数据，就用同赛道的爆款 | X/Twitter |
-| [claude-prompt-strategies](/md/wiki/sources/claude-prompt-strategies) | 100个提示策略：结构化提示、推理框架、内容量产，思维框架比模型版本更重要 | 公众号 |
-| [crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) | 单人操盘590位博主/26亿播放：前3秒钩子决定生死，13万条买家评价喂AI+5步流水线+3个Prompt | X/Twitter |
-| [andyl5cc-xiaohongshu-codex-workflow](/md/wiki/summaries/andyl5cc-xiaohongshu-codex-workflow) | 用Codex做小红书2天涨1000粉：发现→拆解→模仿→迭代，AI真正降的是从看到机会到做出来的时间 | X/Twitter |
-| [mixailab-workbuddy-html-pipeline](/md/wiki/summaries/mixailab-workbuddy-html-pipeline) | WorkBuddy+SRT做HTML视频：SRT当画面排期表，HTML模板可复用，后续只换mp3+srt同款视觉持续出片 | X/Twitter |
+| [claude-prompt-strategies](/md/wiki/sources/claude-prompt-strategies) | 100 个提示策略：结构化提示、推理框架、内容量产，思维框架比模型版本更重要 | 公众号 |
+| [crazykaomei-aigc-hook-pipeline](/md/wiki/summaries/crazykaomei-aigc-hook-pipeline) | 单人操盘 590 位博主/26 亿播放：前 3 秒钩子决定生死，13 万条买家评价喂 AI+5 步流水线+3 个 Prompt | X/Twitter |
+| [andyl5cc-xiaohongshu-codex-workflow](/md/wiki/summaries/andyl5cc-xiaohongshu-codex-workflow) | 用 Codex 做小红书 2 天涨 1000 粉：发现→拆解→模仿→迭代，AI 真正降的是从看到机会到做出来的时间 | X/Twitter |
+| [mixailab-workbuddy-html-pipeline](/md/wiki/summaries/mixailab-workbuddy-html-pipeline) | WorkBuddy+SRT 做 HTML 视频：SRT 当画面排期表，HTML 模板可复用，后续只换 mp3+srt 同款视觉持续出片 | X/Twitter |
 | [zhouluobo-workbuddy-feishu-content-flywheel](/md/wiki/summaries/zhouluobo-workbuddy-feishu-content-flywheel) | WorkBuddy+飞书三环飞轮：多维表格选题库→状态改「选中」触发写稿→排版 skill + 公众号 API 推草稿箱 | X/Twitter |
 | [zhouluobo-workbuddy-skill-wechat-article-pipeline](/md/wiki/summaries/zhouluobo-workbuddy-skill-wechat-article-pipeline) | WorkBuddy 加两个自建 skill 实现公众号自由：排版+视觉+自动推送草稿箱，自动发布绝对不碰 | X/Twitter |
 | [x-hot-topic-source-layering](/md/wiki/patterns/x-hot-topic-source-layering) | 追热点的信息源分层：源头（英文首发）/ 翻译（中文社区）/ 垂直（单领域）三层分工与速查表 | 用户整理 |
@@ -464,15 +464,15 @@ wiki/
 
 | 文章 | 一句话 | 来源 |
 |------|--------|------|
-| [长程Agent训练九实践](/md/wiki/sources/indie-hub-agentic-rl) | 执行/学习/治理三循环，九项实践，Horizon渐进，Template Collapse监控 | 若飞 |
-| [dontbesilent四层Codex体系](/md/wiki/sources/indie-hub-dontbesilent) | 任务/工作流/方法/系统四层，短Prompt+厚环境，SOURCE_OF_TRUTH.md，递归改进 | dontbesilent |
-| [Git Worktree管多AI程序员](/md/wiki/sources/indie-hub-git-worktree) | 分支管路线Worktree管现场，五种情况，独立开发者三条建议 | 刘小排 |
-| [Codex吞掉浏览器](/md/wiki/sources/indie-hub-codex-eat-pc) | Atlas死了但Agent能力活在Codex里，AgentOS雏形：Agent+工具+Skills+上下文 | 成峰 |
-| [grill-with-docs术语对齐](/md/wiki/sources/indie-hub-grill-with-docs) | Matt Pocock：grilling+domain-modeling双原语，CONTEXT.md/ADR三分法，四反模式 | 运维有术 |
+| [长程 Agent 训练九实践](/md/wiki/sources/indie-hub-agentic-rl) | 执行/学习/治理三循环，九项实践，Horizon 渐进，Template Collapse 监控 | 若飞 |
+| [dontbesilent 四层 Codex 体系](/md/wiki/sources/indie-hub-dontbesilent) | 任务/工作流/方法/系统四层，短 Prompt+厚环境，SOURCE_OF_TRUTH.md，递归改进 | dontbesilent |
+| [Git Worktree 管多 AI 程序员](/md/wiki/sources/indie-hub-git-worktree) | 分支管路线 Worktree 管现场，五种情况，独立开发者三条建议 | 刘小排 |
+| [Codex 吞掉浏览器](/md/wiki/sources/indie-hub-codex-eat-pc) | Atlas 死了但 Agent 能力活在 Codex 里，AgentOS 雏形：Agent+工具+Skills+上下文 | 成峰 |
+| [grill-with-docs 术语对齐](/md/wiki/sources/indie-hub-grill-with-docs) | Matt Pocock：grilling+domain-modeling 双原语，CONTEXT.md/ADR 三分法，四反模式 | 运维有术 |
 | [外汇交易基础](/md/wiki/sources/indie-hub-forex-basics) | 货币对/点差/汇率/直盘交叉盘/保证金/Margin Call/滑点 | 光速白眉 |
-| [D2画图神器24k Stars](/md/wiki/sources/indie-hub-d2) | 程序员声明式图表工具，用代码画流程图/时序图/ER图，19种主题 | 韩数同学 |
+| [D2 画图神器 24k Stars](/md/wiki/sources/indie-hub-d2) | 程序员声明式图表工具，用代码画流程图/时序图/ER 图，19 种主题 | 韩数同学 |
 | [计算机数据表示与存储](/md/wiki/sources/indie-hub-computer-data) | 二进制/补码/IEEE 754/ASCII/Unicode/大小端/存储层次 | Debug 蟹老板 |
-| [哥飞SEO找关键词方法论](/md/wiki/sources/indie-hub-gefei-keyword) | 9渠道穷尽+7步筛选+跨平台对齐+AI辅助网站规划 | 哥飞社群 |
+| [哥飞 SEO 找关键词方法论](/md/wiki/sources/indie-hub-gefei-keyword) | 9 渠道穷尽+7 步筛选+跨平台对齐+AI 辅助网站规划 | 哥飞社群 |
 
 [更多 →](./sources/index.md)
 
@@ -520,7 +520,7 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [error-notebook-pattern](/md/wiki/patterns/error-notebook-pattern) | 错题本模式：agent 每晚复盘 commit，同一条教训出现3天即升格为硬规则，magpie 发版频率因此从168→15个/天 | X |
+| [error-notebook-pattern](/md/wiki/patterns/error-notebook-pattern) | 错题本模式：agent 每晚复盘 commit，同一条教训出现 3 天即升格为硬规则，magpie 发版频率因此从 168→15 个/天 | X |
 | [dreaming-offline-memory-repair](/md/wiki/patterns/dreaming-offline-memory-repair) | Dreaming 离线记忆整理：回看旧会话→逐条列出冲突与依据→写候选版→重跑验证→再采用 | 公众号提炼 |
 | [model-propose-program-decide](/md/wiki/patterns/model-propose-program-decide) | 模型提议程序裁决模式：唯一状态写入者 + Outbox 事务先记账后动手 + 外部文本降级为数据 + 灰度主动性 | 公众号提炼 |
 | [memory-ab-regression-test](/md/wiki/patterns/memory-ab-regression-test) | 记忆有效性三组对照实验：固定问题+单一变量+先验答案出处再看工具调用，并留作回归题 | 公众号提炼 |
@@ -535,6 +535,10 @@ wiki/
 | [agent-event-decoupling](/md/wiki/patterns/agent-event-decoupling) | 模型事件与 Agent 事件解耦：SSE 加工成语义事件流，让 Loop 自身事件并入同一通道 | 公众号提炼 |
 | [mcp-tool-namespace-isolation](/md/wiki/patterns/mcp-tool-namespace-isolation) | MCP 工具命名空间隔离：serverName__toolName 前缀 + 反向索引路由，多 Server 共存的基础设施 | 公众号提炼 |
 | [progressive-disclosure](/md/wiki/patterns/progressive-disclosure) | 渐进式披露：上下文工程核心模式，并在 Agent Skills 中落地为前言/全文/引用三级加载 | 公众号提炼 |
+| [codex-sandbox-permission-model](/md/wiki/concepts/codex-sandbox-permission-model) | Codex 沙箱权限模型：限权按启动路径生效，文件不继承沙箱限制 | 公众号提炼 |
+| [magpie-local-model-gateway](/md/wiki/concepts/magpie-local-model-gateway) | 本地模型网关：把订阅变成供应商——汇聚/协议/调度/观测四层 | X/Twitter |
+| [ruofei-codex-sandbox-permissions](/md/wiki/summaries/ruofei-codex-sandbox-permissions) | 若飞：Codex Sandbox 完整公开——权限配置、三系统实现与文件不继承沙箱限制 | 公众号 |
+| [zihan-magpie-llm-gateway](/md/wiki/summaries/zihan-magpie-llm-gateway) | 天不生邹子Zihan：Magpie 全网最全教学——模型网关、路由组与可视化 | X/Twitter |
 
 ### AI 产品与订阅 (AI Products & Subscriptions)
 
@@ -557,29 +561,35 @@ wiki/
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [overseas-tool-stack](/md/wiki/concepts/overseas-tool-stack) | 出海工具栈全景：56个实战工具按7大方向分类（调研/SEO/设计/建站/支付/增长/分析） | X |
+| [overseas-tool-stack](/md/wiki/concepts/overseas-tool-stack) | 出海工具栈全景：56 个实战工具按 7 大方向分类（调研/SEO/设计/建站/支付/增长/分析） | X |
 | [payment-platform-selection](/md/wiki/patterns/payment-platform-selection) | 支付三档选择：Lemon Squeezy（最快验证）vs Paddle（税务托管）vs Stripe（完整控制） | X |
-| [competitor-research-four-step](/md/wiki/patterns/competitor-research-four-step) | 竞品调研四步法：AITDK初筛 → SiteData体检 → Similarweb拆流量 → Wayback Machine追历史 | X |
+| [competitor-research-four-step](/md/wiki/patterns/competitor-research-four-step) | 竞品调研四步法：AITDK 初筛 → SiteData 体检 → Similarweb 拆流量 → Wayback Machine 追历史 | X |
 | [analytics-four-piece-set](/md/wiki/patterns/analytics-four-piece-set) | 数据分析四件套：GSC（搜索词）+ GA4（来源）+ PostHog（漏斗）+ Clarity（体验录屏） | X |
 | [open-source-seo-tooling](/md/wiki/concepts/open-source-seo-tooling) | 开源 SEO 工具的自建边界：工具逻辑可开源替代，数据资产不行；6 个工具的能力映射与选型决策 | X |
 | [open-source-seo-tooling-list](/md/wiki/sources/open-source-seo-tooling-list) | 6 个开源免费 SEO 工具原始归档：SEOnaut / SoPilot / SerpBear / OpenSEO / SEOMachine / Awesome Open Source SEO | X |
 | [chuhaiqu-social-distribution-playbook](/md/wiki/sources/chuhaiqu-social-distribution-playbook) | 出海去孵化器：做产品容易，怎么通过推特、油管、短视频把产品卖出去？ | X/Twitter |
-| [ai-jasonyu-x-creator-revenue-complete-guide](/md/wiki/sources/ai-jasonyu-x-creator-revenue-complete-guide) | 鱼总聊AI：2026 年 X 创作者收益完全指南——从零到收款实操与避坑 | X/Twitter |
+| [ai-jasonyu-x-creator-revenue-complete-guide](/md/wiki/sources/ai-jasonyu-x-creator-revenue-complete-guide) | 鱼总聊 AI：2026 年 X 创作者收益完全指南——从零到收款实操与避坑 | X/Twitter |
 | [wadezone-x-creator-14-days-blue-v-strategy](/md/wiki/sources/wadezone-x-creator-14-days-blue-v-strategy) | Koda：我前 3 天一个字没发，然后 14 天开通了 X 创作者收益 | X/Twitter |
-| [aronhouyu-tiktok-operations-with-codex](/md/wiki/sources/aronhouyu-tiktok-operations-with-codex) | Aron厚玉：我把 TikTok 运营塞进了 Codex——选品、拆账号、找达人全流程自动化 | X/Twitter |
+| [aronhouyu-tiktok-operations-with-codex](/md/wiki/sources/aronhouyu-tiktok-operations-with-codex) | Aron 厚玉：我把 TikTok 运营塞进了 Codex——选品、拆账号、找达人全流程自动化 | X/Twitter |
 | [ai-automated-internal-link-seo](/md/wiki/patterns/ai-automated-internal-link-seo) | AI 自动内链 SEO：拿竞品前三当对照样本，阈值自算、归因只认证据、先清单后自动 | X/Twitter |
 | [ai-chuhai-46-small-sites-real-revenue](/md/wiki/sources/ai-chuhai-46-small-sites-real-revenue) | 爱出海：46 个闷声发财的小站——翻完 1.5 万个收银台和 1161 份真实收入 | X/Twitter |
 | [taowithsaas-ezmaker-traffic-analysis](/md/wiki/sources/taowithsaas-ezmaker-traffic-analysis) | taoWithSaaS：一个新站首月访问量破 10w+ 原来是这么做到的（强站带小站外链揭秘） | 公众号 |
 | [coderjefflee-saas-seo-infrastructure](/md/wiki/sources/coderjefflee-saas-seo-infrastructure) | 子木：《SaaS SEO Playbook》第三部分——站内基建，让 Google 能看见、看懂、收录 | X/Twitter |
 | [aichuhai-ai-automated-internal-links-seo](/md/wiki/sources/aichuhai-ai-automated-internal-links-seo) | 爱出海：AI 自动加内链做 SEO 原帖归档，附 Claude 自动内链英文工程书 | X/Twitter |
+| [overseas-niche-selection-map](/md/wiki/concepts/overseas-niche-selection-map) | 出海赛道选择地图：10 条赛道按「你能控制什么」排序 | 公众号提炼 |
+| [b2b-inquiry-site-minimal-stack](/md/wiki/concepts/b2b-inquiry-site-minimal-stack) | 极简 B2B 询盘站技术栈：不做后台也能拿到询盘 | 公众号提炼 |
+| [platform-traffic-vs-own-channel](/md/wiki/concepts/platform-traffic-vs-own-channel) | 平台流量 vs 自有渠道：流量在平台，渠道在自己（官网才算） | 公众号提炼 |
+| [chengge-overseas-10-niches](/md/wiki/summaries/chengge-overseas-10-niches) | 橙哥：出海搞钱 10 个赛道——做产品/做流量/做货/做内容 | 公众号 |
+| [xiaoshi-b2b-sites-inquiries-no-cms](/md/wiki/summaries/xiaoshi-b2b-sites-inquiries-no-cms) | 小拾随语：三个 B2B 站怎么拿到询盘——不建后台也不买服务器 | 公众号 |
+| [baiyang-seo-traffic-platform-money-overseas](/md/wiki/summaries/baiyang-seo-traffic-platform-money-overseas) | 白杨SEO：流量在平台，钱在出海里——为什么官网才是自己的渠道 | 公众号 |
 
 ### AI 变现与套利（AI Monetization & Arbitrage）
 
 | 页面 | 一句话 | 来源 |
 |------|--------|------|
-| [gpt-proxy-arbitrage](/md/wiki/concepts/gpt-proxy-arbitrage) | ChatGPT代充原理：利用不同国家/地区价格差异（菲区/智利区）进行区域定价套利 | X |
+| [gpt-proxy-arbitrage](/md/wiki/concepts/gpt-proxy-arbitrage) | ChatGPT 代充原理：利用不同国家/地区价格差异（菲区/智利区）进行区域定价套利 | X |
 | [session-token-acquisition](/md/wiki/concepts/session-token-acquisition) | Session Token 获取技术：通过特定路径提取 ChatGPT 登录态凭据用于支付协议充值 | X |
-| [gray-market-customer-acquisition](/md/wiki/patterns/gray-market-customer-acquisition) | 灰产获客平台策略：抖音直播、B站软广、咸鱼黑暗森林及各平台封禁博弈 | X |
+| [gray-market-customer-acquisition](/md/wiki/patterns/gray-market-customer-acquisition) | 灰产获客平台策略：抖音直播、B 站软广、咸鱼黑暗森林及各平台封禁博弈 | X |
 | [ai-robert-reddit-idea-validation](/md/wiki/sources/ai-robert-reddit-idea-validation) | AI Robert：出海野路子——Reddit 搜「I would pay for」+ Semrush 验证需求，30 分钟一轮高信号验证法 | X/Twitter |
 | [david-ai-game-publishing-platforms](/md/wiki/sources/david-ai-game-publishing-platforms) | 大卫：4 款 AI 小游戏收入 10 万！国内外 7 个小游戏发行入口、7 步开发路径与 4 大变现避坑 | X/Twitter |
 | [weiyux2021-claude-xianyu-ecommerce-workflow](/md/wiki/sources/weiyux2021-claude-xianyu-ecommerce-workflow) | 动物园园长：用 Claude 跑通闲鱼电商全流程——选品、文案、话术与运营 | X/Twitter |
@@ -589,9 +599,11 @@ wiki/
 | [kyrie-codex-xianyu-customer-service-automation](/md/wiki/sources/kyrie-codex-xianyu-customer-service-automation) | Kyrie：7 分钟搭好闲鱼自动化客服——让付费的 Codex 自己赚回来 | X/Twitter |
 | [zhuoyihang-wechat-shop-ecommerce-guide](/md/wiki/sources/zhuoyihang-wechat-shop-ecommerce-guide) | 在下卓一航：微信小店搞钱保姆级教程——从准备到开店全流程与熟人生态 | X/Twitter |
 | [dongqing-rebate-cps-bot-passive-income](/md/wiki/sources/dongqing-rebate-cps-bot-passive-income) | 冬青：返利 CPS 机器人——月入 3-5K 长期稳定被动收入小项目 | X/Twitter |
-| [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
+| [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于 Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
 | [cross-platform-information-arbitrage](/md/wiki/patterns/cross-platform-information-arbitrage) | 跨平台信息差中介：不搬本体，只卖信息与配置——五个可复制样本与共性公式 | X/Twitter |
 | [hyhongyu-inside-outside-information-arbitrage-09](/md/wiki/sources/hyhongyu-inside-outside-information-arbitrage-09) | 红鱼：墙内外的赚钱信息差（第九期）——插件教程、Notion 模板、Newsletter 摘要等五个样本 | X/Twitter |
+| [blocked-desire-model](/md/wiki/concepts/blocked-desire-model) | 被阻挡的欲望模型：功能→麻烦→欲望三步推导 + USS 筛选 | 公众号提炼 |
+| [xiaoshi-schwartz-desire-derivation](/md/wiki/summaries/xiaoshi-schwartz-desire-derivation) | 小拾随语：CTR 5% 却零转化——Schwartz 欲望推导三步法与 Prompt | 公众号 |
 
 ### AI 工程化（AI Engineering）
 
@@ -628,10 +640,10 @@ wiki/
 | [zerber-daily-4-figure-video-clip-workflow](/md/wiki/sources/zerber-daily-4-figure-video-clip-workflow) | Zerber：开源日赚 4 位数剪辑工作流——零基础 1 小时搓出科普视频 | X/Twitter |
 | [longhai-uncle-bob-ub-mode-skill-review](/md/wiki/sources/longhai-uncle-bob-ub-mode-skill-review) | 龙海：实测 Uncle Bob 的 ub-mode——152 行 SKILL.md + 三个量化门禁工具的完整拆解 | X/Twitter |
 | [victor-adsense-publisher-id-site-cluster-discovery](/md/wiki/sources/victor-adsense-publisher-id-site-cluster-discovery) | Victor 在西雅图：用 AdSense 发布商 ID 反查站群——四步摸清站长手里还有哪些站 | X/Twitter |
-| [jasonzeyuan818-gomotion-youtube-documentary-mrr](/md/wiki/sources/jasonzeyuan818-gomotion-youtube-documentary-mrr) | Jason泽源：GoMotion 上线不到 3 个月 MRR 6.4 万美元——贴脚本自动出 15 分钟纪录片 | X/Twitter |
+| [jasonzeyuan818-gomotion-youtube-documentary-mrr](/md/wiki/sources/jasonzeyuan818-gomotion-youtube-documentary-mrr) | Jason 泽源：GoMotion 上线不到 3 个月 MRR 6.4 万美元——贴脚本自动出 15 分钟纪录片 | X/Twitter |
 | [pluvio9yte-talking-head-digital-human-action-spec](/md/wiki/sources/pluvio9yte-talking-head-digital-human-action-spec) | 雪踏乌云：不露脸做口播数字人——先让 Agent 拉片写出可量化的「动作说明书」 | X/Twitter |
-| [xitang-ai-workbuddy-libtv-ancient-rap-mv](/md/wiki/sources/xitang-ai-workbuddy-libtv-ancient-rap-mv) | 西堂AI：WorkBuddy + LibTV 让三位古人同台说唱——文、资、视、剪四步与完整歌词/Suno 输入 | X/Twitter |
-| [bainianai-seo-daily-003-webaloha-font-checker-page](/md/wiki/sources/bainianai-seo-daily-003-webaloha-font-checker-page) | 百年AI：SEO 日课 003——一页吃下全站 78% 流量，Web Aloha Font Checker 三次改版还原 | X/Twitter |
+| [xitang-ai-workbuddy-libtv-ancient-rap-mv](/md/wiki/sources/xitang-ai-workbuddy-libtv-ancient-rap-mv) | 西堂 AI：WorkBuddy + LibTV 让三位古人同台说唱——文、资、视、剪四步与完整歌词/Suno 输入 | X/Twitter |
+| [bainianai-seo-daily-003-webaloha-font-checker-page](/md/wiki/sources/bainianai-seo-daily-003-webaloha-font-checker-page) | 百年 AI：SEO 日课 003——一页吃下全站 78% 流量，Web Aloha Font Checker 三次改版还原 | X/Twitter |
 | [hezhiyan7-new-word-site-recap-roundup](/md/wiki/sources/hezhiyan7-new-word-site-recap-roundup) | droidHZ（@hezhiyan7）：梳理最近新词出单的几个复盘——找词、上线、ChatGPT 推荐、优化与出单 | X/Twitter |
 | [hezhiyan7-mrr-3000usd-content-index](/md/wiki/sources/hezhiyan7-mrr-3000usd-content-index) | droidHZ（@hezhiyan7）：月入 3 千刀达成——网站出海每日分享的十类内容索引 | X/Twitter |
 | [xuxuanzhou-72h-5480usd-new-word-site](/md/wiki/sources/xuxuanzhou-72h-5480usd-new-word-site) | 绪轩（@xuxuanzhou）：没投流、没买外链，一个新词站 72 小时 $5,480——从买域名到出单的完整复盘 | X/Twitter |
@@ -643,7 +655,7 @@ wiki/
 | [bytec99-saas-overseas-3-week-recap](/md/wiki/sources/bytec99-saas-overseas-3-week-recap) | 阿策（@Bytec99）：大厂后端出海建站 3 周复盘——踩过的 3 个坑与 4 条认知 | X/Twitter |
 | [bytec99-content-plus-overseas-flywheel](/md/wiki/sources/bytec99-content-plus-overseas-flywheel) | 阿策（@Bytec99）：这个月我只赚了 1 刀——副业要把内容、出海和自动化拧成一个系统 | X/Twitter |
 | [miles-mazy-zero-to-one-overseas-guide](/md/wiki/sources/miles-mazy-zero-to-one-overseas-guide) | Miles Ma（@miles_mazy）：出海系列｜从 0 到 1 出海赚美金指南——四条路、建站、收款与利润 | X/Twitter |
-| [bizinfogap-usd-earnings-four-traps](/md/wiki/sources/bizinfogap-usd-earnings-four-traps) | 陈默Jason（@BizInfoGap）：国人赚美金的套路和真实逻辑——四种套路与获客、合规、资金闭环三问 | X/Twitter |
+| [bizinfogap-usd-earnings-four-traps](/md/wiki/sources/bizinfogap-usd-earnings-four-traps) | 陈默 Jason（@BizInfoGap）：国人赚美金的套路和真实逻辑——四种套路与获客、合规、资金闭环三问 | X/Twitter |
 | [aprilbaby153-ai-short-drama-overseas-60-eps](/md/wiki/sources/aprilbaby153-ai-short-drama-overseas-60-eps) | April（@Aprilbaby153）：一天 60 集？！起底「AI 短剧」出海的捞金秘籍——100 块广告换 200 块充值 | X/Twitter |
 | [loverboyy0321-threads-3000-new-users](/md/wiki/sources/loverboyy0321-threads-3000-new-users) | joy（@loverboyy0321）：靠一篇 threads 爆帖给产品引流近 3000 名新用户——生活 70% 加推广 30% | X/Twitter |
 | [jarvis11x-10usd-ai-video-saas-11-steps](/md/wiki/sources/jarvis11x-10usd-ai-video-saas-11-steps) | Jarvis（@jarvis11x）：AI 编程实战教程（3）——10 美金搭建海外 AI 视频 SaaS 的 11 个步骤 | X/Twitter |
@@ -673,7 +685,7 @@ wiki/
 | [hytidel-shanghai-smk-secret-exam-guide](/md/wiki/sources/hytidel-shanghai-smk-secret-exam-guide) | Hytidel（@HytidelLegend）：2027 上海小升初「神秘考 SMK」全攻略——梯队代码、时间线、证书门槛与黑话 | X/Twitter |
 | [heyrico-design-system-and-skills-for-agents](/md/wiki/sources/heyrico-design-system-and-skills-for-agents) | rico（@_heyrico）：构建 AI Agent 能严格遵守的设计系统与 Skills 体系 | X/Twitter |
 | [liangzhu-marketingskills-agent-skills-system](/md/wiki/sources/liangzhu-marketingskills-agent-skills-system) | 良竹（@liangzhu_AI）：会写代码不会卖？基于 Agent Skills 的独立开发者营销转化体系 | X/Twitter |
-| [ganfanren-taishang-laojun-douyin-content-skill](/md/wiki/sources/ganfanren-taishang-laojun-douyin-content-skill) | 饭饭猛猛炫（@ganfanren_ai）：太上老君·AI炼丹炉——去 AI 味、改爆款口播的自媒体内容 Skill | X/Twitter |
+| [ganfanren-taishang-laojun-douyin-content-skill](/md/wiki/sources/ganfanren-taishang-laojun-douyin-content-skill) | 饭饭猛猛炫（@ganfanren_ai）：太上老君·AI 炼丹炉——去 AI 味、改爆款口播的自媒体内容 Skill | X/Twitter |
 | [manorgw-inkos-ai-creative-workspace](/md/wiki/sources/manorgw-inkos-ai-creative-workspace) | Man ting（@Manorgw）：InkOS——面向长篇小说、剧本与互动影游的开源 AI 创作工作台 | X/Twitter |
 | [fantuantalk-5-tools-finding-real-needs](/md/wiki/sources/fantuantalk-5-tools-finding-real-needs) | 饭团（@fantuantalk）：找真实需求的 5 个出海利器——Google Trends/AnswerThePublic/Reddit/PH/SparkToro | X/Twitter |
 | [kkkeric-seo-new-site-gsc-and-300-backlinks](/md/wiki/sources/kkkeric-seo-new-site-gsc-and-300-backlinks) | KKKK（@kkkeric_ai）：SEO 新站起步心法——看淡 DR、死磕 GSC 与 300 条外链分界线 | X/Twitter |
@@ -686,20 +698,20 @@ wiki/
 | [liangzhu-google-ads-transparency-center-spy](/md/wiki/sources/liangzhu-google-ads-transparency-center-spy) | 良竹（@liangzhu_AI）：竞品投放透明化——用谷歌官方工具排查对手广告素材与投放地区 | X/Twitter |
 | [heizolshao-reddit-traffic-intercept-100m-site](/md/wiki/sources/heizolshao-reddit-traffic-intercept-100m-site) | 左海（@heizolshao）：月访 1.05 亿老牌站还在 Reddit 导流——垂直社区截流真实痛点实操 | X/Twitter |
 | [gefei-products-remade-for-ai-via-mcp](/md/wiki/sources/gefei-products-remade-for-ai-via-mcp) | 哥飞（@gefei55）：很多产品都可以重做一遍——不是给人用，而是提供 MCP 给 AI 调用的自闭环 | X/Twitter |
-| [antivo-deepseek-super-agent-distributed-master-worker](/md/wiki/sources/antivo-deepseek-super-agent-distributed-master-worker) | 纳米AI（@antiAIvo）：DeepSeek Super-agent 的本质——经典分布式 Master-Worker 架构在 Agent 的回归 | X/Twitter |
+| [antivo-deepseek-super-agent-distributed-master-worker](/md/wiki/sources/antivo-deepseek-super-agent-distributed-master-worker) | 纳米 AI（@antiAIvo）：DeepSeek Super-agent 的本质——经典分布式 Master-Worker 架构在 Agent 的回归 | X/Twitter |
 | [wquguru-us-llc-registration-and-maintenance-for-indie-devs](/md/wiki/sources/wquguru-us-llc-registration-and-maintenance-for-indie-devs) | WquGuru（@wquguru）：独立开发者出海注册与维护美国公司指南（成本/避坑/报税/苹果开发者） | X/Twitter |
 | [yhslgg-ai-beauty-photo-monetization-sop](/md/wiki/sources/yhslgg-ai-beauty-photo-monetization-sop) | 老杨（@yhslgg）：AI 美女写真短视频全流程变现 SOP——养号、作图、剪辑模板、私域承接与二转交付 | X/Twitter |
-| [coderleft-deepseek-super-agent-architecture-deep-dive](/md/wiki/sources/coderleft-deepseek-super-agent-architecture-deep-dive) | 程序员Left（@coder_left）：解读 DeepSeek Super Agent——打破传统人机交互范式，从消灭会话到工程底座全景拆解 | X/Twitter |
-| [ichardrv-information-fasting-and-calorie-model](/md/wiki/sources/ichardrv-information-fasting-and-calorie-model) | 飞鱼Fly（@ichardrv）：你和高手的最大差距是信息戒断能力——纳瓦尔注意力卡路里模型与不值得清单 | X/Twitter |
+| [coderleft-deepseek-super-agent-architecture-deep-dive](/md/wiki/sources/coderleft-deepseek-super-agent-architecture-deep-dive) | 程序员 Left（@coder_left）：解读 DeepSeek Super Agent——打破传统人机交互范式，从消灭会话到工程底座全景拆解 | X/Twitter |
+| [ichardrv-information-fasting-and-calorie-model](/md/wiki/sources/ichardrv-information-fasting-and-calorie-model) | 飞鱼 Fly（@ichardrv）：你和高手的最大差距是信息戒断能力——纳瓦尔注意力卡路里模型与不值得清单 | X/Twitter |
 | [kkkeric-grok-bot-22-agents-growth-fleet](/md/wiki/sources/kkkeric-grok-bot-22-agents-growth-fleet) | KKKK（@kkkeric_ai）：Grok Bot 出海增长实战——一个人 + 22 个 Bot 跑通 20+ 社媒渠道、SEO/AEO、外链与竞品全流程 | X/Twitter |
-| [anti-aivo-agent-engineering-70-backend-30-uncertainty](/md/wiki/sources/anti-aivo-agent-engineering-70-backend-30-uncertainty) | 纳米AI（@antiAIvo）：Agent 工程心法——七成在传统后端，三成在处理模型不确定性 | X/Twitter |
+| [anti-aivo-agent-engineering-70-backend-30-uncertainty](/md/wiki/sources/anti-aivo-agent-engineering-70-backend-30-uncertainty) | 纳米 AI（@antiAIvo）：Agent 工程心法——七成在传统后端，三成在处理模型不确定性 | X/Twitter |
 | [aichuhai-residential-isp-proxy-claude-chatgpt](/md/wiki/sources/aichuhai-residential-isp-proxy-claude-chatgpt) | 爱出海（@ai_chuhai）：想用 Claude / ChatGPT？静态住宅 ISP 代理选购、配置与排错全攻略 | X/Twitter |
 | [ohayou-claude-artifacts-ui-design-system-leak](/md/wiki/sources/ohayou-claude-artifacts-ui-design-system-leak) | Unicorn（@ohayou792）：Claude 内部组件设计系统提示词与完整 UI 规范解析 | X/Twitter |
 | [wquguru-shisei-cc0-ancient-costume-library](/md/wiki/sources/wquguru-shisei-cc0-ancient-costume-library) | WquGuru（@wquguru）：Shisei 开源中国历代四视角服装库——从商朝到民国 227 张 CC0 资产 | X/Twitter |
 | [hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling](/md/wiki/sources/hytidel-xiaohongshu-ecommerce-operations-and-10x-scaling) | Hytidel（@HytidelLegend）：小红书电商保姆级教程（6）——运营进阶、提效工具与利润十倍放大 | X/Twitter |
 | [konghayao-deepseek-super-agent-architecture-reflections](/md/wiki/sources/konghayao-deepseek-super-agent-architecture-reflections) | 江夏尧（@konghayao）：关于 DeepSeek SuperAgent 架构设计的深度反思与开源工程映射 | X/Twitter |
 | [myleafy-phongent-local-device-cluster-control](/md/wiki/sources/myleafy-phongent-local-device-cluster-control) | myleaf（@myleafy1）：开源 phongent——基于 Mika 的安卓局域网多设备群控与 AI 任务调度系统 | X/Twitter |
-| [morry-course2md-video-to-markdown-notes](/md/wiki/sources/morry-course2md-video-to-markdown-notes) | Morry.AI（@Morry4AI）：course2md 学习神器——把 YouTube/B站/本地视频一键转为带截图的 Markdown 笔记 | X/Twitter |
+| [morry-course2md-video-to-markdown-notes](/md/wiki/sources/morry-course2md-video-to-markdown-notes) | Morry.AI（@Morry4AI）：course2md 学习神器——把 YouTube/B 站/本地视频一键转为带截图的 Markdown 笔记 | X/Twitter |
 | [aixiaomu-mika-phone-agent-accessibility-risk-control](/md/wiki/sources/aixiaomu-mika-phone-agent-accessibility-risk-control) | 黄小木（@ai_xiaomu）：王赞开源 Mika 手机端常驻 Agent 评测与风控防封提醒 | X/Twitter |
 | [willhu-wigent-ai-growth-system-and-agent-pilot](/md/wiki/sources/willhu-wigent-ai-growth-system-and-agent-pilot) | 胡二虎 Will Hu（@willlhhh）：在 Manus 负责增长的实战思考——从制造 Agent 到驾驶 Agent 的能力模型演进 | X/Twitter |
 | [wigent-ai-personal-knowledge-agent](/md/wiki/sources/wigent-ai-personal-knowledge-agent) | 胡二虎（Will Hu）：Wigent by Will Hu｜胡二虎的个人知识分身（wigent.ai 离线镜像） | 网站归档 |
@@ -708,7 +720,7 @@ wiki/
 | [aliez-ren-claude-code-fable-opus-coding-playbook](/md/wiki/sources/aliez-ren-claude-code-fable-opus-coding-playbook) | Aliez Ren（@aliez_ren）：几个月高强度 AI 编程真实心法——Claude Code + Herdr + Fable 架构实践 | X/Twitter |
 | [govin-taste-skill-frontend-design-for-ai](/md/wiki/sources/govin-taste-skill-frontend-design-for-ai) | govin（@goan999999）：Taste-Skill——让 Claude Code 与 Codex 告别模板化廉价感的前端审美升级 Skill | X/Twitter |
 | [leo-xiaolei-lauren-poteto-grok-bot-team-guide](/md/wiki/sources/leo-xiaolei-lauren-poteto-grok-bot-team-guide) | 刘老板（@leo_xiaolei）：深度拆解 xAI 负责人 Lauren 的 Grok Bot 团队打造指南与评论区交锋 | X/Twitter |
-| [antivo-deepseek-super-agent-architecture-gif-summary](/md/wiki/sources/antivo-deepseek-super-agent-architecture-gif-summary) | 纳米AI（@antiAIvo）：一图看懂 DeepSeek Super-agent 三层架构——事件双筛、Router 调度与 Worker 并发 | X/Twitter |
+| [antivo-deepseek-super-agent-architecture-gif-summary](/md/wiki/sources/antivo-deepseek-super-agent-architecture-gif-summary) | 纳米 AI（@antiAIvo）：一图看懂 DeepSeek Super-agent 三层架构——事件双筛、Router 调度与 Worker 并发 | X/Twitter |
 | [leaf-sanren-douyin-offline-commercial-orders-playbook](/md/wiki/sources/leaf-sanren-douyin-offline-commercial-orders-playbook) | Leaf Yeah!（@leaf_sanren）：抖音水下商单 0→1 实操手册——从首单接单、谈单报价、过审防限流到报喜回款 | X/Twitter |
 | [victor-uwer-utm-stripe-metadata-true-cac](/md/wiki/sources/victor-uwer-utm-stripe-metadata-true-cac) | Victor 在西雅图（@victor_UWer）：出海获客成本别只看总数——用 UTM + Stripe Metadata 拆解单渠道真实 CAC | X/Twitter |
 | [kkkeric-free-tool-seo-fast-traffic-low-conversion](/md/wiki/sources/kkkeric-free-tool-seo-fast-traffic-low-conversion) | KKKK（@kkkeric_ai）：Free Tool 是 SEO 起量最快策略——大流量、长停留与低转化的冷启动权衡 | X/Twitter |
@@ -729,8 +741,8 @@ wiki/
 | [leo-xiaolei-10-chrome-extensions-for-x-twitter](/md/wiki/sources/leo-xiaolei-10-chrome-extensions-for-x-twitter) | 刘老板（@leo_xiaolei）：运营 X（Twitter）看这篇就够了——10 款高口碑免费 Chrome 扩展实测盘点 | X/Twitter |
 | [svwang-wealthy-entrepreneurs-path-dependency-and-waiting](/md/wiki/sources/svwang-wealthy-entrepreneurs-path-dependency-and-waiting) | 硅谷王川（@Svwang1）：富商发家史随想——路径依赖、缺乏抽象思考与「什么都不做耐心等待」的缺失 | X/Twitter |
 | [lingxiang-stageshow-realistic-product-mockup-skill](/md/wiki/sources/lingxiang-stageshow-realistic-product-mockup-skill) | 0xiang（@LingxiangAI）：Stageshow——教 Claude Code 与 Codex 制作真实产品示意配图的开源 Skill | X/Twitter |
-| [yuntianming-md2draft-markdown-to-x-draft-extension](/md/wiki/sources/yuntianming-md2draft-markdown-to-x-draft-extension) | 云天明AI（@yuntianming10）：Markdown 一键直达 X 草稿——MD2DRAFT 解决 Thread 串推分段与 Article 长文排版痛点 | X/Twitter |
-| [lin-crypto-15-human-nature-monetization-models](/md/wiki/sources/lin-crypto-15-human-nature-monetization-models) | Lin数字资产（@Crypto_146827）：做产品的底层逻辑——基于人性的 15 种商业变现与需求切入形态 | X/Twitter |
+| [yuntianming-md2draft-markdown-to-x-draft-extension](/md/wiki/sources/yuntianming-md2draft-markdown-to-x-draft-extension) | 云天明 AI（@yuntianming10）：Markdown 一键直达 X 草稿——MD2DRAFT 解决 Thread 串推分段与 Article 长文排版痛点 | X/Twitter |
+| [lin-crypto-15-human-nature-monetization-models](/md/wiki/sources/lin-crypto-15-human-nature-monetization-models) | Lin 数字资产（@Crypto_146827）：做产品的底层逻辑——基于人性的 15 种商业变现与需求切入形态 | X/Twitter |
 | [0xgky-learn-from-materials-agent-skill](/md/wiki/sources/0xgky-learn-from-materials-agent-skill) | Gk（@0xGky）：learn-from-materials——把几百页 PDF/EPUB 资料整成带精确页码出处交互式学习网站的 Agent Skill | X/Twitter |
 | [missle8z-ai-life-advice-image-card-monetization](/md/wiki/sources/missle8z-ai-life-advice-image-card-monetization) | 壹新（@Missle8z）：发 4 篇笔记爆了 2 万赞——AI 走心人生建议图文全平台分发与变现 | X/Twitter |
 | [luffy-19yo-ai-tiktok-dance-girl-7-prompts](/md/wiki/sources/luffy-19yo-ai-tiktok-dance-girl-7-prompts) | 路飞（@0xluffy_eth）：19 岁男生用 AI 做美女号 2 周赚 3.6W——可灵动作控制与 Fanvue 订阅变现 7 段提示词 | X/Twitter |
@@ -755,13 +767,13 @@ wiki/
 | [chencheng-mayoi-fast-gpu-editor-for-agentic-era](/md/wiki/sources/chencheng-mayoi-fast-gpu-editor-for-agentic-era) | 陈成（@chenchengpro）：我写了个极速代码编辑器 Mayoi——专为 Agent 编程时代打造（Go + MyGo GPU 原生渲染） | X/Twitter |
 | [ryan-muse-ai-image-post-daily-15-skills-rotation](/md/wiki/sources/ryan-muse-ai-image-post-daily-15-skills-rotation) | Ryan（@7998l201）：让 Muse 每天自动更新 15 条热门贴图——8 大开源生图与艺术风格 Skill 轮换实测盘点 | X/Twitter |
 | [xionghuanwei-wechat-official-account-traffic-monetization-rules](/md/wiki/sources/xionghuanwei-wechat-official-account-traffic-monetization-rules) | 熊叔的茅草屋（@xionghuanwei）：一天 265 收益 9 万曝光——公众号爆款赛道选择与避开真人验证 6 大硬规则 | X/Twitter |
-| [aiwarts-doubao-work-record-and-replay-computer-automation](/md/wiki/sources/aiwarts-doubao-work-record-and-replay-computer-automation) | 卡尔的AI沃茨（@aiwarts）：豆包工作录制回放全攻略——不写代码也能爽玩电脑自动化（30 分钟边讲边录、多平台巡检与风控规避） | X/Twitter |
+| [aiwarts-doubao-work-record-and-replay-computer-automation](/md/wiki/sources/aiwarts-doubao-work-record-and-replay-computer-automation) | 卡尔的 AI 沃茨（@aiwarts）：豆包工作录制回放全攻略——不写代码也能爽玩电脑自动化（30 分钟边讲边录、多平台巡检与风控规避） | X/Twitter |
 | [kyrie-ai-short-drama-monetization-6-business-models](/md/wiki/sources/kyrie-ai-short-drama-monetization-6-business-models) | Kyrie（@KyrieCheungYep）：百万播放只能赚 500 块？AI 短剧真正赚钱的 6 条路与成本账本 | X/Twitter |
 | [xaiwind-telegram-from-beginner-to-master-developer-guide](/md/wiki/sources/xaiwind-telegram-from-beginner-to-master-developer-guide) | 想风（@xaiwind）：超简单 Telegram 从入门到精通——客户端装配、Bot 机器人开发、MTProto 接口与广告投放指南 | X/Twitter |
 | [lele-wechat-21-days-monetization-nanny-guide](/md/wiki/sources/lele-wechat-21-days-monetization-nanny-guide) | 乐博士在路上（@lele898898898）：21 天手把手做一个能赚到钱的公众号——赛道选择、对标拆解与冷启动保姆级教程 | X/Twitter |
 | [ryan-muse-x-account-dedicated-proxy-ip-guide](/md/wiki/sources/ryan-muse-x-account-dedicated-proxy-ip-guide) | Ryan（@7998l201）：让 Muse 全权运营 X 账号——固定代理 IP、Cookie-Editor 会话导出与 Playwright 防封教程 | X/Twitter |
 | [ryan-muse-channels-wechat-reading-video-automation](/md/wiki/sources/ryan-muse-channels-wechat-reading-video-automation) | Ryan（@7998l201）：Muse 接管微信视频号——接入微信读书 API 每日自动选书、写文案与做短视频 | X/Twitter |
-| [lxfater-wechat-cover-prompt-formula-235-ratio](/md/wiki/sources/lxfater-wechat-cover-prompt-formula-235-ratio) | 铁锤人（@lxfater）：公众号 2.35:1 高点击率首图封面提示词模板（真人摄影质感 + UI贴纸排版） | X/Twitter |
+| [lxfater-wechat-cover-prompt-formula-235-ratio](/md/wiki/sources/lxfater-wechat-cover-prompt-formula-235-ratio) | 铁锤人（@lxfater）：公众号 2.35:1 高点击率首图封面提示词模板（真人摄影质感 + UI 贴纸排版） | X/Twitter |
 | [shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto](/md/wiki/sources/shanyanggm-digital-nomad-freelancer-monetization-tracks-manifesto) | 山羊赚钱笔记（@shanyanggm）：你难道就没幻想过？数百个自媒体与数字游民变现赛道全景清单 | X/Twitter |
 | [taowithsaas-bing-webmaster-free-competitor-backlinks-export](/md/wiki/sources/taowithsaas-bing-webmaster-free-competitor-backlinks-export) | taoWithSaaS：免费导出竞品所有外链的一种方法——利用 Bing 站长工具 Backlinks 功能 | 微信公众号 |
 | [zeroagent-12-longterm-memory-management](/md/wiki/sources/zeroagent-12-longterm-memory-management) | 从码农到工匠：从零构建 Agent（十二）——长期 Memory 管理与 Hindsight 跨 Session 认知实践 | 微信公众号 |
@@ -782,7 +794,7 @@ wiki/
 | [daqi-worst-6-onboarding-antipatterns](/md/wiki/sources/daqi-worst-6-onboarding-antipatterns) | Mengqi Pei（@daqi029）：我见过最糟糕的 Onboarding 新手引导 6 种反模式——用户还没尝到甜头，你先让他干活 | X/Twitter |
 | [gkevin-adversarial-subagent-code-review-pitfalls-and-formal-verification](/md/wiki/sources/gkevin-adversarial-subagent-code-review-pitfalls-and-formal-verification) | gKev1n（@GKev1n）：别再沉迷让 Sub-agent 互相 Review 代码了——对抗式审查的三大死穴与实测形式化验证转向 | X/Twitter |
 | [peter-yang-affiliate-marketing-overseas-usd-playbook](/md/wiki/sources/peter-yang-affiliate-marketing-overseas-usd-playbook) | Peter Yang（@affnom_y）：什么是联盟营销？——一文带你走进海外美金世界 | X/Twitter |
-| [aiwarts-awesome-seedance-463-ai-video-skills](/md/wiki/sources/aiwarts-awesome-seedance-463-ai-video-skills) | 卡尔的AI沃茨（@aiwarts）：我把 463 个 AI 视频做成了 Skill 和提示语模板——全都开源！ | X/Twitter |
+| [aiwarts-awesome-seedance-463-ai-video-skills](/md/wiki/sources/aiwarts-awesome-seedance-463-ai-video-skills) | 卡尔的 AI 沃茨（@aiwarts）：我把 463 个 AI 视频做成了 Skill 和提示语模板——全都开源！ | X/Twitter |
 | [wangdachui-codex-content-production-solo-primer](/md/wiki/sources/wangdachui-codex-content-production-solo-primer) | 王大锤（@boniusex）：超级个体必备——用 Codex 重构内容生产的全套实操教程 | X/Twitter |
 | [weiyux-x-account-zero-to-one-guide](/md/wiki/sources/weiyux-x-account-zero-to-one-guide) | 动物园园长（@weiyux2021）：X（推特）账号运营从 0 到 1——万字实操指南 | X/Twitter |
 | [xiaowan-x-account-startup-strategy-3000-followers](/md/wiki/sources/xiaowan-x-account-startup-strategy-3000-followers) | 小晚不在（@bbkirstry）：看完一堆起号攻略＋涨粉 3000 后，我终于悟到了「推特起号焚诀」 | X/Twitter |
@@ -792,18 +804,18 @@ wiki/
 | [kaitox-markdown-to-x-article](/md/wiki/sources/kaitox-markdown-to-x-article) | kaitox：本地 Markdown 转 X 长文——我开源了目前最顺手的方案（Kaitox 工具链） | 微信公众号 |
 | [libtv-agent-100-skills-article-to-video](/md/wiki/sources/libtv-agent-100-skills-article-to-video) | 空格丶：做了个 Skill，把任何文章都变成视频版 PPT（LibTV Agent 100+ Skill 实测） | 微信公众号 |
 | [khazix-6-prompt-mindset-techniques](/md/wiki/sources/khazix-6-prompt-mindset-techniques) | 数字生命卡兹克：分享 6 个平时我最常用的 Prompt 心法 | 微信公众号 |
-| [aphil-fde-role-real-ai-implementation-guide](/md/wiki/sources/aphil-fde-role-real-ai-implementation-guide) | 阿哲Phil（@Formulasearch）：FDE 是临时外包 or 真 AI 落地？——附小白快速入门与辨别方式 | X/Twitter |
+| [aphil-fde-role-real-ai-implementation-guide](/md/wiki/sources/aphil-fde-role-real-ai-implementation-guide) | 阿哲 Phil（@Formulasearch）：FDE 是临时外包 or 真 AI 落地？——附小白快速入门与辨别方式 | X/Twitter |
 | [jason-zhu-chiang-mai-university-language-program-guide](/md/wiki/sources/jason-zhu-chiang-mai-university-language-program-guide) | Jason Zhu（@GoSailGlobal）：手把手教你申请清迈大学语言班——42000 泰铢，半年泡在清迈学英语 | X/Twitter |
 | [adrian-punk-gpt-live-free-speaking-tutor-guide](/md/wiki/sources/adrian-punk-gpt-live-free-speaking-tutor-guide) | Adrian Punk（@AdrianPunk115）：一年省下 2 万块口语课｜GPT Live 实测——英语外教可以下岗了 | X/Twitter |
 | [tw93-leading-vs-being-pushed-forward](/md/wiki/sources/tw93-leading-vs-being-pushed-forward) | Tw93（@HiTw93）：走在前面，还是被推着走 | X/Twitter |
-| [jacky-infinite-growth-grok-bot-social-media-workflow](/md/wiki/sources/jacky-infinite-growth-grok-bot-social-media-workflow) | Jacky无限生长（@Jackywxsz）：全流程｜如何用 Grok Bot 做自媒体？ | X/Twitter |
+| [jacky-infinite-growth-grok-bot-social-media-workflow](/md/wiki/sources/jacky-infinite-growth-grok-bot-social-media-workflow) | Jacky 无限生长（@Jackywxsz）：全流程｜如何用 Grok Bot 做自媒体？ | X/Twitter |
 | [jason-young-claude-code-project-level-memory](/md/wiki/sources/jason-young-claude-code-project-level-memory) | Jason Young（@Jason_Young1231）：Claude 是如何记住你的项目的？——浅析 Claude Code 项目级记忆功能 | X/Twitter |
 | [kongge-space-resume-as-personal-website-skill](/md/wiki/sources/kongge-space-resume-as-personal-website-skill) | 空格.space（@kongge_space）：这个 Skill 把你的简历部署成个人网站 | X/Twitter |
 | [leoshen-ai-agent-quickstart-rethinking](/md/wiki/sources/leoshen-ai-agent-quickstart-rethinking) | 川处安（@leoshen0）：一篇速通入门——重新理解 AI Agent 的一切 | X/Twitter |
 | [su-vibe-marketing-translation](/md/wiki/sources/su-vibe-marketing-translation) | Su（@Sukiea1008）：【全文中译】Vibe Marketing 如何成为营销工程师 | X/Twitter |
 | [thomas-zhou-flow-is-dead](/md/wiki/sources/thomas-zhou-flow-is-dead) | Thomas Zhou（@thomaszhou_）：心流已死 | X/Twitter |
 | [xiaoer-global-payout-without-hk-company](/md/wiki/sources/xiaoer-global-payout-without-hk-company) | 小耳👂Jane｜Xiaoer（@xiaoerzhan）：如何不出境、不开香港公司，给自己的产品接上全球收款 | X/Twitter |
-| [laoyang-5-free-osint-tools-for-people-and-companies](/md/wiki/sources/laoyang-5-free-osint-tools-for-people-and-companies) | 老杨啊｜AI产品商业化（@yhslgg）：网警同款开盒思路——查人查公司查设备，五个免费开源工具 | X/Twitter |
+| [laoyang-5-free-osint-tools-for-people-and-companies](/md/wiki/sources/laoyang-5-free-osint-tools-for-people-and-companies) | 老杨啊｜AI 产品商业化（@yhslgg）：网警同款开盒思路——查人查公司查设备，五个免费开源工具 | X/Twitter |
 | [xiaoniaoziming-lie-down-income-system-20-to-now](/md/wiki/sources/xiaoniaoziming-lie-down-income-system-20-to-now) | 周小鸟开窍（@xiaoniaoziming）：如何躺着赚钱——从 20 岁到现在的躺赚体系 | X/Twitter |
 | [aikangarooking-open-source-ai-course-selling-website](/md/wiki/sources/aikangarooking-open-source-ai-course-selling-website) | 袋鼠帝（@aikangarooking）：爆肝 30 天！我们开源了一个让 AI 课程卖家集体失业的网站 | X/Twitter |
 | [riverai-pi-session-control-cross-agent-messaging](/md/wiki/sources/riverai-pi-session-control-cross-agent-messaging) | RiverAi7z（@RiverAi7z）：Pi 的 Session Control——让不同终端里的 Coding Agent 直接互相发消息 | X/Twitter |
@@ -813,17 +825,17 @@ wiki/
 | [zhangzijun-12-iphone-8-growth-server-monetization](/md/wiki/sources/zhangzijun-12-iphone-8-growth-server-monetization) | 张子俊（@wuxindehuaft）：把 12 台 iPhone 8 变成增长机房——X 博主如何把内部实验做成公开作品集再变现 | X/Twitter |
 | [yangjin-ip-system-underlying-architecture](/md/wiki/sources/yangjin-ip-system-underlying-architecture) | 杨进（@shaozhu93314）：构建 IP 系统的底层架构（全文手打、放心食用） | X/Twitter |
 | [crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook](/md/wiki/sources/crazykaomei-guofeng-wuxia-english-drama-evergreen-playbook) | 疯狂的烤妹儿（@CrazyKaomei）：爆款复刻｜月涨粉 5w 还能出海赚美金——拆透「古风武侠英语剧」的长青打法 | X/Twitter |
-| [simon-ai-hot-topic-long-video-1-08m-views](/md/wiki/sources/simon-ai-hot-topic-long-video-1-08m-views) | Simon聊AI（@HanZhang415188）：用 AI 做热点长视频——单条 108 万播放，3 天涨粉近万的实操复盘 | X/Twitter |
+| [simon-ai-hot-topic-long-video-1-08m-views](/md/wiki/sources/simon-ai-hot-topic-long-video-1-08m-views) | Simon 聊 AI（@HanZhang415188）：用 AI 做热点长视频——单条 108 万播放，3 天涨粉近万的实操复盘 | X/Twitter |
 | [liangzhu-product-selection-before-building](/md/wiki/sources/liangzhu-product-selection-before-building) | 良竹（@liangzhu_AI）：产品出海第一步——选择比努力重要 100 倍，快速完成比完美重要 1000 倍 | X/Twitter |
 | [miles-ma-ai-beginner-guide-no-courses](/md/wiki/sources/miles-ma-ai-beginner-guide-no-courses) | Miles Ma（@miles_mazy）：零基础入门 AI，看完这篇就够了（避免花钱买课被割韭菜版） | X/Twitter |
-| [kk-ai-notes-opc-wanlihui-overseas-address-proof](/md/wiki/sources/kk-ai-notes-opc-wanlihui-overseas-address-proof) | KK的AI笔记（@ainotes_KK）：OPC 出海必备工具｜万里汇获取海外地址证明完整教程 | X/Twitter |
+| [kk-ai-notes-opc-wanlihui-overseas-address-proof](/md/wiki/sources/kk-ai-notes-opc-wanlihui-overseas-address-proof) | KK 的 AI 笔记（@ainotes_KK）：OPC 出海必备工具｜万里汇获取海外地址证明完整教程 | X/Twitter |
 | [adrian-workbuddy-boss-friendly-ppt](/md/wiki/sources/adrian-workbuddy-boss-friendly-ppt) | Adrian Punk（@AdrianPunk115）：用 WorkBuddy 做老板爱看的 PPT | X/Twitter |
 | [heizolshao-air-fryer-site-reddit-and-ai-search-growth](/md/wiki/sources/heizolshao-air-fryer-site-reddit-and-ai-search-growth) | 左海（@heizolshao）：一个空气炸锅独立站，怎么靠 Reddit 和 AI 搜索把日单从 30 做上 210 | X/Twitter |
 | [jolestar-what-is-holon-and-why-build-it](/md/wiki/sources/jolestar-what-is-holon-and-why-build-it) | jolestar（@jolestar）：Holon 是什么，以及我为什么要做 Holon | X/Twitter |
 | [dotey-ai-native-thinking-train-yourself-like-an-llm](/md/wiki/sources/dotey-ai-native-thinking-train-yourself-like-an-llm) | 宝玉（@dotey）：腾讯学堂｜AI 原生思维——像训练大模型一样训练自己 | X/Twitter |
 | [xaiwind-github-complete-beginner-to-master-guide](/md/wiki/sources/xaiwind-github-complete-beginner-to-master-guide) | 想风（@xaiwind）：万字长文｜超详细的 GitHub 教程，从入门到精通 | X/Twitter |
 | [longhai-parenting-first-principles-comprehensive-guide](/md/wiki/sources/longhai-parenting-first-principles-comprehensive-guide) | 龙海（@longhaiqwe123）：万字长文（含配图），讲清楚育儿的第一性原理 | X/Twitter |
-| [noahduck-stripe-complete-guide-from-beginner-to-advanced](/md/wiki/sources/noahduck-stripe-complete-guide-from-beginner-to-advanced) | 诺鸭船长3（@noahduck283）：Stripe 全网最全使用指南——从入门到榨干 | X/Twitter |
+| [noahduck-stripe-complete-guide-from-beginner-to-advanced](/md/wiki/sources/noahduck-stripe-complete-guide-from-beginner-to-advanced) | 诺鸭船长 3（@noahduck283）：Stripe 全网最全使用指南——从入门到榨干 | X/Twitter |
 | [hezhiyan-outsea-3000usd-monthly-content-digest](/md/wiki/sources/hezhiyan-outsea-3000usd-monthly-content-digest) | droidHZ（@hezhiyan7）：月入 3 千刀达成，网站出海内容整理 | X/Twitter |
 | [gosailglobal-ai-tools-seo-checklist-15-pitfalls](/md/wiki/sources/gosailglobal-ai-tools-seo-checklist-15-pitfalls) | Jason Zhu（@GoSailGlobal）：做 AI 工具站要装哪些 SEO 工具？我们踩了 15 个坑后的完整清单 | X/Twitter |
 | [hezhiyan-finding-demands-from-promotion-channels](/md/wiki/sources/hezhiyan-finding-demands-from-promotion-channels) | droidHZ（@hezhiyan7）：从推广渠道找需求——反向推导爆款独立站选题 | X/Twitter |
@@ -842,7 +854,7 @@ wiki/
 | [yaojingang-17-knowledge-monetization-prompt-templates](/md/wiki/sources/yaojingang-17-knowledge-monetization-prompt-templates) | 姚金刚（@yaojingang）：开源 17 套知识付费提示词——课程定位、设计、售卖与运营全流程 | X/Twitter |
 | [yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop](/md/wiki/sources/yhslgg-jianying-baidunetdisk-svip-short-video-and-live-ecommerce-sop) | 老杨啊（@yhslgg）：剪映/百度网盘 SVIP 年卡会员短视频&直播带货 0~1 保姆级教程 | X/Twitter |
 | [yooee-xiaohongshu-zero-followers-monetization-blueprint](/md/wiki/sources/yooee-xiaohongshu-zero-followers-monetization-blueprint) | Yooee（@Yooeec3）：妈妈教程｜像亲妈一样手把手教你 0 粉新号在小红书完成「流量→收钱」闭环 | X/Twitter |
-| [aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline](/md/wiki/sources/aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline) | Aron厚玉（@aronhouyu）：用 AI 搭建流量上升词自动发现与批量选题流水线 | X/Twitter |
+| [aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline](/md/wiki/sources/aronhouyu-ai-trending-keywords-discovery-and-topic-pipeline) | Aron 厚玉（@aronhouyu）：用 AI 搭建流量上升词自动发现与批量选题流水线 | X/Twitter |
 | [chainepic-self-hosted-search-console-dashboard-opensource](/md/wiki/sources/chainepic-self-hosted-search-console-dashboard-opensource) | Roland（@ChainEpic）：开源多搜索引擎控制台仪表盘——Google、Bing 与 Yandex 数据聚合 | X/Twitter |
 | [eian-chatgpt-intelligent-ui-10-cases-and-prompts](/md/wiki/sources/eian-chatgpt-intelligent-ui-10-cases-and-prompts) | Eian（@EianLu）：ChatGPT 这个更新被严重低估了——10 个最具代表性的 Intelligent UI 玩法（附提示词） | X/Twitter |
 | [hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy](/md/wiki/sources/hiwise-qwen-image-2-1-turbo-uncensored-comfyui-deploy) | 启明破晓（@hiwise_aigc）：8G 显存也能跑——Qwen-Image-2.1-Turbo 本地部署 8 步出图（附 ComfyUI 工作流） | X/Twitter |
@@ -866,11 +878,11 @@ wiki/
 | [adrian-ai-video-fundamentals-framing-camera-and-continuity](/md/wiki/sources/adrian-ai-video-fundamentals-framing-camera-and-continuity) | Adrian Punk（@AdrianPunk115）：AI 视频基础（中册）——景别、机位、运镜与画面连续性 | X/Twitter |
 | [heizolshao-why-reddit-commenting-is-more-important-than-posting](/md/wiki/sources/heizolshao-why-reddit-commenting-is-more-important-than-posting) | 左海（@heizolshao）：为什么在 Reddit 上“评论”远比“发帖”更重要？深度解析与实操指南 | X/Twitter |
 | [pamela-build-personal-website-from-scratch-60-ui-checklist](/md/wiki/sources/pamela-build-personal-website-from-scratch-60-ui-checklist) | PamelaAI·H（@pamelaaaaa1218）：从 0 搭建个人网站——8 大类 60+ UI 设计必备清单 | X/Twitter |
-| [situking-entrepreneurship-100-qa-for-creators-and-solopreneurs](/md/wiki/sources/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs) | 司徒K（@situking）：创业百问百答——写给自媒体人和个人创业者（2.3 万字长文实战心法） | X/Twitter |
+| [situking-entrepreneurship-100-qa-for-creators-and-solopreneurs](/md/wiki/sources/situking-entrepreneurship-100-qa-for-creators-and-solopreneurs) | 司徒 K（@situking）：创业百问百答——写给自媒体人和个人创业者（2.3 万字长文实战心法） | X/Twitter |
 | [dankoe-human-3-0-map-to-reach-the-top-one-percent](/md/wiki/sources/dankoe-human-3-0-map-to-reach-the-top-one-percent) | Dan Koe（@thedankoe）：Human 3.0 – A Map To Reach The Top 1%（登顶前 1% 的认知进化地图） | X/Twitter |
 | [wangzai-x-twitter-zero-to-one-beginner-operations-guide](/md/wiki/sources/wangzai-x-twitter-zero-to-one-beginner-operations-guide) | 汪仔（@wangzaimedia）：从 0 到 1 的 X 入门运营指南 | X/Twitter |
 | [longhai-oh-my-x-browser-extension-24-pain-points](/md/wiki/sources/longhai-oh-my-x-browser-extension-24-pain-points) | 龙海（@longhaiqwe123）：玩 X 瑞士军刀——开源浏览器插件 Oh My X，解决 24 个网页端操作痛点（附代码） | X/Twitter |
-| [govin-github-6-insane-open-source-projects-monetization](/md/wiki/sources/govin-github-6-insane-open-source-projects-monetization) | G哥（@goan999999）：GitHub 已经彻底疯了！这 6 个免费开源项目，搞钱、提效真的太猛了 | X/Twitter |
+| [govin-github-6-insane-open-source-projects-monetization](/md/wiki/sources/govin-github-6-insane-open-source-projects-monetization) | G 哥（@goan999999）：GitHub 已经彻底疯了！这 6 个免费开源项目，搞钱、提效真的太猛了 | X/Twitter |
 | [jaden-paul-graham-how-time-and-money-are-lost](/md/wiki/sources/jaden-paul-graham-how-time-and-money-are-lost) | Jaden 抽象日志（@Jaden_riku）：Paul Graham——时间和金钱，是怎样失去的 | X/Twitter |
 | [xoyif-red-crow-ai-batch-xhs-image-text-replication-skill](/md/wiki/sources/xoyif-red-crow-ai-batch-xhs-image-text-replication-skill) | 北衡（@xoyif63862452）：红鸦 AI——一人公司怎么批量做小红书图文，靠的是这个复刻 Skill | X/Twitter |
 | [alswl-ai-native-practices-continuation-towards-stage-8](/md/wiki/sources/alswl-ai-native-practices-continuation-towards-stage-8) | Jingchao（@alswl）：AI Native 实践续篇——迈向 Stage 8（全自动软件交付与认知升级） | X/Twitter |
@@ -879,28 +891,28 @@ wiki/
 | [liangzhu-fde-in-action-01-automated-local-content-delivery-sop](/md/wiki/sources/liangzhu-fde-in-action-01-automated-local-content-delivery-sop) | 良竹（@liangzhu_AI）：掌控 AI·FDE 实战 01｜万字实操 SOP——搭建本地自动内容交付流水线 | X/Twitter |
 | [threeai-10-ways-to-monetize-ai-beauty-content-china-cases](/md/wiki/sources/threeai-10-ways-to-monetize-ai-beauty-content-china-cases) | 三个三（@3three_AI）：从国内真实案例看，把 AI 美女变成钱的 10 种方法 | X/Twitter |
 | [qingjiang-make-ai-talk-like-human-formula-guide](/md/wiki/sources/qingjiang-make-ai-talk-like-human-formula-guide) | 情酱（@qingj1314）：怎么让你的 AI 说人话？我整理了一套公式化方案 | X/Twitter |
-| [ale-3-days-120-orders-one-person-twitter-launch-manual](/md/wiki/sources/ale-3-days-120-orders-one-person-twitter-launch-manual) | aix阿乐（@Leepriest1990）：3 天 120 单、变现 1 万——一人推特发售的完整手册（附 4 步法） | X/Twitter |
+| [ale-3-days-120-orders-one-person-twitter-launch-manual](/md/wiki/sources/ale-3-days-120-orders-one-person-twitter-launch-manual) | aix 阿乐（@Leepriest1990）：3 天 120 单、变现 1 万——一人推特发售的完整手册（附 4 步法） | X/Twitter |
 | [yangjin-operator-underlying-logic-and-business-closed-loop](/md/wiki/sources/yangjin-operator-underlying-logic-and-business-closed-loop) | 杨进（@shaozhu93314）：构建操盘手的底层逻辑「全文手打、放心食用」 | X/Twitter |
 | [heizolshao-reddit-comments-conversion-and-seed-users-playbook](/md/wiki/sources/heizolshao-reddit-comments-conversion-and-seed-users-playbook) | 左海（@heizolshao）：Reddit 评论区转化实操笔记——从安全留链到沉淀种子用户 | X/Twitter |
 | [hytidel-career-choice-dont-choose-jobs-you-cannot-match](/md/wiki/sources/hytidel-career-choice-dont-choose-jobs-you-cannot-match) | Hytidel 聊商业（@HytidelLegend）：找工作不要选你配不上的工作 | X/Twitter |
 | [zhouluobo-design-personal-agent-learns-visual-style](/md/wiki/sources/zhouluobo-design-personal-agent-learns-visual-style) | zhouluobo（@zhouluobo）：设计界的 Personal Agent 也来了——偷学我的作图风格，现在比我还熟 | X/Twitter |
 | [crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline](/md/wiki/sources/crazykaomei-youtube-minimal-matchstick-man-cashflow-pipeline) | 疯狂的烤妹儿（@CrazyKaomei）：爆款复刻｜YouTube 极简火柴人搞钱流水线，优质内容心法 + 全套工作流开源 | X/Twitter |
 | [wangzai-why-publishing-so-much-content-yields-no-clients](/md/wiki/sources/wangzai-why-publishing-so-much-content-yields-no-clients) | 汪仔（@wangzaimedia）：为什么你发了那么多内容，还是没有客户？ | X/Twitter |
-| [chrisslacker-wechat-image-text-post-three-days-monetization-sop](/md/wiki/sources/chrisslacker-wechat-image-text-post-three-days-monetization-sop) | 科技混子Chris（@ChrisSlacker）：公众号贴图，3 天收入破百，1 篇收入破千——附 5 步实操 SOP | X/Twitter |
+| [chrisslacker-wechat-image-text-post-three-days-monetization-sop](/md/wiki/sources/chrisslacker-wechat-image-text-post-three-days-monetization-sop) | 科技混子 Chris（@ChrisSlacker）：公众号贴图，3 天收入破百，1 篇收入破千——附 5 步实操 SOP | X/Twitter |
 | [nopinduoduo-ai-comic-drama-production-10000-credits-tutorial](/md/wiki/sources/nopinduoduo-ai-comic-drama-production-10000-credits-tutorial) | 我真的没有拼多多（@nopinduoduo）：不会分镜和运镜？普通人到底能不能上手做 AI 漫剧？花 1 万积分的实测教程 | X/Twitter |
-| [phil-design-personal-ip-and-codex-desktop-pet-tutorial](/md/wiki/sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial) | 阿哲Phil（@Formulasearch）：快速上手设计一款个人 IP，并做成 Codex 宠物（附提示词和链接） | X/Twitter |
-| [niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch) | Niko爱学习（@ai_super_niko）：掌控 Codex 对话节奏——打断、排队、引导和分叉 | X/Twitter |
-| [heminglu-from-ontology-to-ontology-modeling-business-semantics](/md/wiki/sources/heminglu-from-ontology-to-ontology-modeling-business-semantics) | 何明璐（人月聊IT）：从本体论到本体建模——如何构建可生成可推理的业务语义规范 | 微信公众号 |
-| [anthropic-agent-memory-four-layers](/md/wiki/sources/anthropic-agent-memory-four-layers) | 若飞：Claude 的4层记忆是如何设计的？——会话记录/笔记/Wiki/启动上下文四层 + Dreaming 离线纠错 + 三步自建方案 | 微信公众号 |
-| [zhengtian-deepseek-superagent-practice](/md/wiki/sources/zhengtian-deepseek-superagent-practice) | 郑天：关于 DeepSeek 的 SuperAgent，以及我们的实践——双层架构/Outbox模式/Sessionless/Quest责任状/动态DAG/MDC | 微信公众号 |
+| [phil-design-personal-ip-and-codex-desktop-pet-tutorial](/md/wiki/sources/phil-design-personal-ip-and-codex-desktop-pet-tutorial) | 阿哲 Phil（@Formulasearch）：快速上手设计一款个人 IP，并做成 Codex 宠物（附提示词和链接） | X/Twitter |
+| [niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch](/md/wiki/sources/niko-controlling-codex-dialogue-rhythm-interrupt-queue-branch) | Niko 爱学习（@ai_super_niko）：掌控 Codex 对话节奏——打断、排队、引导和分叉 | X/Twitter |
+| [heminglu-from-ontology-to-ontology-modeling-business-semantics](/md/wiki/sources/heminglu-from-ontology-to-ontology-modeling-business-semantics) | 何明璐（人月聊 IT）：从本体论到本体建模——如何构建可生成可推理的业务语义规范 | 微信公众号 |
+| [anthropic-agent-memory-four-layers](/md/wiki/sources/anthropic-agent-memory-four-layers) | 若飞：Claude 的 4 层记忆是如何设计的？——会话记录/笔记/Wiki/启动上下文四层 + Dreaming 离线纠错 + 三步自建方案 | 微信公众号 |
+| [zhengtian-deepseek-superagent-practice](/md/wiki/sources/zhengtian-deepseek-superagent-practice) | 郑天：关于 DeepSeek 的 SuperAgent，以及我们的实践——双层架构/Outbox 模式/Sessionless/Quest 责任状/动态 DAG/MDC | 微信公众号 |
 | [xiaozhang-jetbrains-thinkrail-ai-ide](/md/wiki/sources/xiaozhang-jetbrains-thinkrail-ai-ide) | 小张：JetBrains 终于出手了！开源 AI IDE ThinkRail——以后写代码，可能真不需要人盯着了 | 微信公众号 |
 | [0xding-ankole-agent-os-for-teams](/md/wiki/sources/0xding-ankole-agent-os-for-teams) | Li (Boris) Ding（@0xDing）：为团队构建真正的 Agent OS——来自 Ankole 的工程实践 | X/Twitter |
 | [intentplex-grok-bot-directory-backlink-automation](/md/wiki/sources/intentplex-grok-bot-directory-backlink-automation) | Wyong（@intentplex）：用 Grok Bot 自动化提交免费目录站外链——可落地的批量做法 | X/Twitter |
 | [tangcheng-voice-pipeline-asr-tts-300ms-response](/md/wiki/sources/tangcheng-voice-pipeline-asr-tts-300ms-response) | 唐成：评论区说「ASR+TTS 接入 300ms 不可能」——实测与源码回应 | 微信公众号 |
-| [yihuihui-unified-export-download-center](/md/wiki/sources/yihuihui-unified-export-download-center) | 一灰灰blog：导出功能还要每个系统写一遍吗？统一下载中心的收口思路 | 微信公众号 |
+| [yihuihui-unified-export-download-center](/md/wiki/sources/yihuihui-unified-export-download-center) | 一灰灰 blog：导出功能还要每个系统写一遍吗？统一下载中心的收口思路 | 微信公众号 |
 | [maynorai-gpt-images-26-15-monetization-plays](/md/wiki/sources/maynorai-gpt-images-26-15-monetization-plays) | MomoAI（@MaynorAI1）：GPT Images 2.6 这波更新能赚什么、能上什么站——15 个玩法 + 7 个开源 Cloudflare 演示站 | X/Twitter |
 | [maynorai-gpt-images-26-14-hottest-plays](/md/wiki/sources/maynorai-gpt-images-26-14-hottest-plays) | MomoAI（@MaynorAI1）：GPT Images 2.6 目前最火的 14 种玩法（按热度排序）——每项保留原帖与可复现路径 | X/Twitter |
-| [barret-super-agent-prompt-proactive-perception-inbox-outbox-l5](/md/wiki/sources/barret-super-agent-prompt-proactive-perception-inbox-outbox-l5) | Barret李靖（@Barret_China）：把 Pi、DSH、Super-Agent 组装成主动服务的超级智能——一段提示词里的自主分级、Inbox/Outbox 与 HITL 机制 | X/Twitter |
+| [barret-super-agent-prompt-proactive-perception-inbox-outbox-l5](/md/wiki/sources/barret-super-agent-prompt-proactive-perception-inbox-outbox-l5) | Barret 李靖（@Barret_China）：把 Pi、DSH、Super-Agent 组装成主动服务的超级智能——一段提示词里的自主分级、Inbox/Outbox 与 HITL 机制 | X/Twitter |
 | [leo-3-days-launch-overseas-saas-server-domain-payment-seo](/md/wiki/sources/leo-3-days-launch-overseas-saas-server-domain-payment-seo) | 刘老板（@leo_xiaolei）：3 天上线一个出海 SaaS——服务器、域名、收款与 SEO 全记录 | X/Twitter |
 | [lucaspei-xiaohongshu-agent-automated-product-selection](/md/wiki/sources/lucaspei-xiaohongshu-agent-automated-product-selection) | 裴同学（@LucasPei181034）：小红书 × Agent × 自动化选品，真的爽翻了！ | X/Twitter |
 | [ashfold-dim-event-timeline-agent-harness-release](/md/wiki/sources/ashfold-dim-event-timeline-agent-harness-release) | Han Cheng e/acc（@ashfold）：发布 dim——为 Agent 构造新的容器与躯体 | X/Twitter |
@@ -908,7 +920,7 @@ wiki/
 | [jessicao-x-article-skill-corpus-illustration-cover-open-source](/md/wiki/sources/jessicao-x-article-skill-corpus-illustration-cover-open-source) | Jessi Cao（@JessiCao_JC）：我把写 X 长文的流程做成了 Skill——语料、配图、封面，整套开源 | X/Twitter |
 | [binghe-grok-bot-14day-topics-and-hot-comments-demand-mining](/md/wiki/sources/binghe-grok-bot-14day-topics-and-hot-comments-demand-mining) | 冰河（@binghe）：我教你怎么用 AI 马上赚到钱——用 Grok Bot 扒大博主近 14 天选题，再从评论区挖真实付费需求 | X/Twitter |
 | [wuc-three-line-workflow-keyword-code-backlink-pipeline](/md/wiki/sources/wuc-three-line-workflow-keyword-code-backlink-pipeline) | Wu（@Wuc436）：重构后的工作流——找词线、代码线、外链线三条并行流水线的极简分工 | X/Twitter |
-| [antiaivo-handwrite-mini-cordis-before-learning-dsh](/md/wiki/sources/antiaivo-handwrite-mini-cordis-before-learning-dsh) | 纳米AI（@antiAIvo）：学 DeepSeek Harness 之前，我先手写了一个迷你版 Cordis | X/Twitter |
+| [antiaivo-handwrite-mini-cordis-before-learning-dsh](/md/wiki/sources/antiaivo-handwrite-mini-cordis-before-learning-dsh) | 纳米 AI（@antiAIvo）：学 DeepSeek Harness 之前，我先手写了一个迷你版 Cordis | X/Twitter |
 | [eian-claude-code-codex-seedance-ai-video-full-workflow](/md/wiki/sources/eian-claude-code-codex-seedance-ai-video-full-workflow) | Eian（@EianLu）：Claude Code/Codex + Seedance AI 视频——从一个想法到成片的全流程 | X/Twitter |
 | [ipp-pod-side-project-logic-overview](/md/wiki/sources/ipp-pod-side-project-logic-overview) | 澎湃王侯：【TK-POD】副业项目逻辑概述——信息差 × POD 按需生产 × 跨境的三层组合 | 微信公众号 |
 | [joker-seo-data-metrics-confusion](/md/wiki/sources/joker-seo-data-metrics-confusion) | Joker（SEOActionBlog 演讲嘉宾）：SEOer 容易陷入的「数据指标」困惑——DR/DA/AS、外链数量、字数与跳出率的真相 | 微信公众号 / X/Twitter |
@@ -926,14 +938,14 @@ wiki/
 | [zujingpgg-openmausbot-grok-bot-alternative](/md/wiki/sources/zujingpgg-openmausbot-grok-bot-alternative) | Jenzin（@zujingpgg）：OpenMausBot——目前用下来最好的 Grok Bot 开源替代品 | X/Twitter |
 | [morris-wealth-from-strangers-and-boundaries-with-close-relations](/md/wiki/sources/morris-wealth-from-strangers-and-boundaries-with-close-relations) | Morris（@Morris_LT）：财富来自陌生人，麻烦来自身边人 | X/Twitter |
 | [siaxiom-ai-requirement-reverse-interview-6-step-prompts](/md/wiki/sources/siaxiom-ai-requirement-reverse-interview-6-step-prompts) | SI Axiom（@SIAxiom）：让 AI 反过来采访你——把模糊想法变成可执行方案的 6 步提示词 | X/Twitter |
-| [snwiki-12-requirements-for-production-grade-agent](/md/wiki/sources/snwiki-12-requirements-for-production-grade-agent) | 南晚Nanwan（@snwiki238337）：自己构建 Agent 至少要满足的 12 条——从确定性边界到沙箱隔离 | X/Twitter |
+| [snwiki-12-requirements-for-production-grade-agent](/md/wiki/sources/snwiki-12-requirements-for-production-grade-agent) | 南晚 Nanwan（@snwiki238337）：自己构建 Agent 至少要满足的 12 条——从确定性边界到沙箱隔离 | X/Twitter |
 | [xiaomovps-4-projects-to-build-personal-agent-on-pi](/md/wiki/sources/xiaomovps-4-projects-to-build-personal-agent-on-pi) | 小墨同学（@xiaomovps）：自己开发 Personal Agent，可以从 Pi Durable 开始的 4 个项目学习路线 | X/Twitter |
 | [dongqing-bilibili-toy-cloud-disk-cps-playbook](/md/wiki/sources/dongqing-bilibili-toy-cloud-disk-cps-playbook) | 冬青（@DongQingAsk）：新玩法——用 B 站 TOY 做网盘拉新和 CPS | X/Twitter |
 | [growaiskills-new-site-seo-10-pages-then-optimize](/md/wiki/sources/growaiskills-new-site-seo-10-pages-then-optimize) | Marvin（@growaiskills）：新站没外链，SEO 怎么起步？先做 10 页，再按数据改 | X/Twitter |
 | [growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai](/md/wiki/sources/growaiskills-gsc-impressions-no-clicks-fix-10-old-pages-with-ai) | Marvin（@growaiskills）：SEO 有曝光没点击？用 GSC + AI 修好这 10 个旧页面 | X/Twitter |
 | [morris-what-is-poor-peoples-mindset-35-traits](/md/wiki/sources/morris-what-is-poor-peoples-mindset-35-traits) | Morris（@Morris_LT）：什么是穷人思维？——五类共 35 条认知错位自查清单 | X/Twitter |
 | [kkkeric-seo-highest-roi-on-pages-that-already-rank](/md/wiki/sources/kkkeric-seo-highest-roi-on-pages-that-already-rank) | KKKK（@kkkeric_ai）：SEO 收益最高的地方，是你已经排名的那些页面 | X/Twitter |
-| [dtdt666-20-ways-big-money-is-actually-made](/md/wiki/sources/dtdt666-20-ways-big-money-is-actually-made) | 看不懂的SOL（@DtDt666）：到底大钱是怎么挣的？——20 条草根赚钱逻辑 | X/Twitter |
+| [dtdt666-20-ways-big-money-is-actually-made](/md/wiki/sources/dtdt666-20-ways-big-money-is-actually-made) | 看不懂的 SOL（@DtDt666）：到底大钱是怎么挣的？——20 条草根赚钱逻辑 | X/Twitter |
 | [ilovek8s-douyin-cli-open-source-comment-and-data-agent](/md/wiki/sources/ilovek8s-douyin-cli-open-source-comment-and-data-agent) | ilovelife（@ilovek8s）：抖音全自动评论管理神器开源——douyin-cli 让 Agent 搞定抖音公开数据采集 | X/Twitter |
 | [aikangarooking-lobehub-open-source-super-agent-837k-stars](/md/wiki/sources/aikangarooking-lobehub-open-source-super-agent-837k-stars) | 袋鼠帝（@aikangarooking）：狂揽 83.7K Star！开源版 Super-agent 来了，告别 AI 监工 | X/Twitter |
 | [xiaomanhedy-ant-stigmergy-for-multi-agent-collaboration](/md/wiki/sources/xiaomanhedy-ant-stigmergy-for-multi-agent-collaboration) | Hedy Zhang（@xiaomanhedy）：多 Agent 协作该学蚂蚁——痕迹协作（Stigmergy）而不是人类开会 | X/Twitter |
@@ -942,11 +954,11 @@ wiki/
 | [heli-15-grok-bot-team-projects-open-source](/md/wiki/sources/heli-15-grok-bot-team-projects-open-source) | 何笠聊 AI（@HeLi8866）：GitHub 上早就有了现成的 Grok Bot 团队——15 个开源项目清单 | X/Twitter |
 | [chatgptastra-7-niche-ui-component-libraries-for-web](/md/wiki/sources/chatgptastra-7-niche-ui-component-libraries-for-web) | 摸鱼巨匠🔨（@ChatGptAstra）：网页 UI 做不好不是水平低——7 个特色组件库 | X/Twitter |
 | [pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use](/md/wiki/sources/pluvio9yte-vercel-agent-desktop-accessibility-tree-computer-use) | 雪踏乌云（@Pluvio9yte）：Vercel 推出的 agent-desktop 才是 Agent 操控电脑的真神 | X/Twitter |
-| [victor-uwerr-chrome-extension-as-backlink-entry](/md/wiki/sources/victor-uwerr-chrome-extension-as-backlink-entry) | Victor在西雅图（@victor_UWer）：给自己的网站做个 Chrome 插件，把链接挂到应用商店详情页 | X/Twitter |
+| [victor-uwerr-chrome-extension-as-backlink-entry](/md/wiki/sources/victor-uwerr-chrome-extension-as-backlink-entry) | Victor 在西雅图（@victor_UWer）：给自己的网站做个 Chrome 插件，把链接挂到应用商店详情页 | X/Twitter |
 | [smartpigai-managing-coding-agents-not-writing-code](/md/wiki/sources/smartpigai-managing-coding-agents-not-writing-code) | Smartpig（@Smartpigai）：很多程序员把自己变成了 Coding Agent 的全职质检员 | X/Twitter |
 | [addyosmani-your-coding-agents-made-you-a-manager](/md/wiki/sources/addyosmani-your-coding-agents-made-you-a-manager) | Addy Osmani（@addyosmani）：Your coding agents made you a manager——管理 Agent 的十二条实践 | X/Twitter |
 | [xiaomovps-pi-5-must-read-articles-for-developers](/md/wiki/sources/xiaomovps-pi-5-must-read-articles-for-developers) | 小墨同学（@xiaomovps）：学习 Pi 必须阅读的 5 篇经典文章——从入门到自己开发 Agent | X/Twitter |
-| [barret-agent-era-debugging-from-function-profiling-to-decision-profiling](/md/wiki/sources/barret-agent-era-debugging-from-function-profiling-to-decision-profiling) | Barret李靖（@Barret_China）：Agent 时代的 Debug——从 Function Profiling 走向 Decision Profiling | X/Twitter |
+| [barret-agent-era-debugging-from-function-profiling-to-decision-profiling](/md/wiki/sources/barret-agent-era-debugging-from-function-profiling-to-decision-profiling) | Barret 李靖（@Barret_China）：Agent 时代的 Debug——从 Function Profiling 走向 Decision Profiling | X/Twitter |
 | [vikingmute-3-practices-from-addy-osmani-agent-management](/md/wiki/sources/vikingmute-3-practices-from-addy-osmani-agent-management) | Viking（@vikingmute）：从 Addy Osmani 的 Agent 管理文章里提炼出的 3 条最佳实践 | X/Twitter |
 | [vikingmute-when-engineer-work-becomes-management](/md/wiki/sources/vikingmute-when-engineer-work-becomes-management) | Viking（@vikingmute）：当工程师的工作变成管理——不想转管理的人也要面对的转变 | X/Twitter |
 | [yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build](/md/wiki/sources/yaohongan2025-hardest-part-of-overseas-site-is-deciding-what-to-build) | 虹安（@yaohongan2025）：做了一个月出海站，我才发现最难的不是建站，是决定做哪个 | X/Twitter |
@@ -978,8 +990,8 @@ wiki/
 | [harrisonitsme-dsh-11-essential-plugins](/md/wiki/sources/harrisonitsme-dsh-11-essential-plugins) | 森叔（@harrisonitsme）：大肥鱼 DSH 必装的 11 个插件 | X/Twitter |
 | [yxl44-agent-desktop-200k-stars-no-screenshot-rust](/md/wiki/sources/yxl44-agent-desktop-200k-stars-no-screenshot-rust) | 杨小乱（@yxl44）：20 万 Star 的 agent-desktop——不用截图、不模拟坐标，直接读系统无障碍接口 | X/Twitter |
 | [bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize](/md/wiki/sources/bbkirstry-xhs-0-to-1-account-guide-benchmark-and-commercialize) | 小晚不在（@bbkirstry）：小红书起号保姆级教程——从 0 开始找对标，坚持出摊、商业化 | X/Twitter |
-| [weiyipei-big-tech-high-salary-poison](/md/wiki/sources/weiyipei-big-tech-high-salary-poison) | 生姜Iris（@WeiYipei）：从字节离职后写下的「大厂高薪毒药」——白金螺丝钉、执行方与自由 | X/Twitter |
-| [weiyipei-big-tech-high-salary-poison（精读摘要）](/md/wiki/summaries/weiyipei-big-tech-high-salary-poison) | 生姜Iris：大厂高薪毒药精读——ownership 缺失的根因、8 条关键洞察与结构性解释 | X/Twitter 提炼 |
+| [weiyipei-big-tech-high-salary-poison](/md/wiki/sources/weiyipei-big-tech-high-salary-poison) | 生姜 Iris（@WeiYipei）：从字节离职后写下的「大厂高薪毒药」——白金螺丝钉、执行方与自由 | X/Twitter |
+| [weiyipei-big-tech-high-salary-poison（精读摘要）](/md/wiki/summaries/weiyipei-big-tech-high-salary-poison) | 生姜 Iris：大厂高薪毒药精读——ownership 缺失的根因、8 条关键洞察与结构性解释 | X/Twitter 提炼 |
 | [hezhiyan7-serp-monitor-ai-cron](/md/wiki/sources/hezhiyan7-serp-monitor-ai-cron) | droidHZ（赫兹）：让 AI 每天帮我盯 SERP——自己的词每天看、大词每周看，新站一冒头当天就知道 | 微信公众号 |
 | [hezhiyan7-serp-monitor-ai-cron（精读摘要）](/md/wiki/summaries/hezhiyan7-serp-monitor-ai-cron) | AI 定时盯 SERP 精读——双频次监控方法论、可复用提示词与 AI Overview 引用格局 | 微信公众号提炼 |
 | [vikingmute-three-ways-to-stay-focused](/md/wiki/sources/vikingmute-three-ways-to-stay-focused) | Viking（@vikingmute）：保持专注的三种方式——真正的写作、每次一个项目、认真看老美剧 | X/Twitter |

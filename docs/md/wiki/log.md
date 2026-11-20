@@ -5272,3 +5272,23 @@ source: "llm-wiki"
 - 归档至 `sources/baiyang-seo-traffic-platform-money-overseas.md`（3 张配图已本地化）
 - 内容摘要：作者把话分成两半——**流量在平台，钱在出海里**。① 「流量在平台」有两层意思：流量都握在平台手里（得研究平台规则做流量），以及流量在平台手里就更要建品牌、把自己的渠道拿回来。他用线下「集市」的比喻讲流量聚集与迁移：门户 → 搜索引擎（电商游戏影市在成为平台之前也是从搜索买流量）→ 微信拿到移动互联网第一张船票、各 APP 成孤岛、搜索引擎抓不动别的平台 → 短视频与小红书崛起 → 如今豆包这类 AI 工具分流，传统搜索流量江河日下，叠加人口流量红利消失，平台从「睁一只眼闭一只眼」变成存量严管（公众号现在连描述里带微信号都会被提示）。作者用「盘石网盟崩盘」作反例：这家当年号称与百度联盟、阿里妈妈并列的三巨头，靠百度流量起家、自建网盟却没有自己的流量壁垒，用户进移动互联网后流量转向微信抖音小红书，据说只能反过来向它们买流量——本质是流量中间商。结论是**企业自己的渠道是官网，平台店铺和平台账号不是**；有品牌才有议价权，才不会把命脉完全交在别人手里，AI 时代官网更重要。② 「钱在出海里」指三点：同样赚一块钱，美元汇率至少 6 倍；同样赚一块钱（哪怕是美元），投入成本没有国内 6 倍；不论品牌方还是服务方都比在国内卷好一些。③ 作者自述履历：2011 年进维库做 SeekIC 平台电话销售，第一次了解搜索排名原理是谷歌；后来转 SEO 做外链建设，2015-2017 带团队做日本市场流量（B2B、B2C、开店运营都做过），2018 年起写公众号、建付费 SEO 圈与知识星球，海外业务则一直以企业顾问方式在做。末尾还怼了两种极端：没深入就发爆论、以及为了流量互踩的营销方式。
 - 去广告：出海群限时免费进群、社群成员收益截图（9 张）、星标关注话术、自家旧文推荐与服务介绍页均已删除；作者身份与经历保留。
+
+## [2026-11-20] ingest: 为本批 6 篇来源补齐 summaries 与 concepts 两层
+
+- 触发：sources 层连着补了 6 篇（Magpie 网关 / Codex Sandbox / 出海 10 赛道 / B2B 站 / Schwartz 欲望推导 / 流量在平台），但只停在原文层。按 llm-wiki 的四层结构，这批来源值得往上抽两层。
+- summaries（6 篇，LLM 重写，每篇含核心结论 + 关键洞察 + 速查表）：
+  - `summaries/zihan-magpie-llm-gateway.md`
+  - `summaries/ruofei-codex-sandbox-permissions.md`
+  - `summaries/chengge-overseas-10-niches.md`
+  - `summaries/xiaoshi-b2b-sites-inquiries-no-cms.md`
+  - `summaries/xiaoshi-schwartz-desire-derivation.md`
+  - `summaries/baiyang-seo-traffic-platform-money-overseas.md`
+- concepts（6 篇，抽出的可复用抽象，每篇含一句话定义表 + 机制 + 失效模式 + 与既有页面的关系）：
+  - `concepts/magpie-local-model-gateway.md` —— 订阅即供应商：来源/汇聚/协议/调度/观测五层，以及缓存粘性、预热、意图路由三个易忽略的设计
+  - `concepts/codex-sandbox-permission-model.md` —— 限权按启动路径生效（Shell / MCP / 域名三个独立生效点），文件不继承沙箱限制
+  - `concepts/blocked-desire-model.md` —— 功能→麻烦→欲望三步推导 + USS 筛选，含两条文案路径的成交动力对照
+  - `concepts/platform-traffic-vs-own-channel.md` —— 流量在平台、渠道在自己，官网才算自有渠道
+  - `concepts/b2b-inquiry-site-minimal-stack.md` —— 不做后台的 B2B 站技术栈与「90% 时间在前期调研」
+  - `concepts/overseas-niche-selection-map.md` —— 10 条赛道按「你能控制什么」排序，三个筛选器
+- 索引：concepts/index.md 追加 6 条；wiki/index.md 在「Agent 工程模式 / AI 变现与套利 / 出海工具与方法」三节各追加对应条目。
+- 校验：12 篇新页面的 wikilink 全部可解析（0 悬空），frontmatter / 图片引用 / HTML 标签检查全过。
