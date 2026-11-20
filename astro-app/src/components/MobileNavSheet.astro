@@ -11,14 +11,49 @@
 import navData from '../generated/nav.json'
 ---
 
-<button type="button" class="vp-mobile-nav-toggle" id="vp-mobile-nav-toggle" aria-label="打开导航">
-  ☰
+<button
+  type="button"
+  class="inline-flex size-8 items-center justify-center rounded-[9px] border border-line/70 bg-surface-elv/78 text-ink backdrop-blur-[14px] backdrop-saturate-150 shadow-[var(--ui-shadow)] transition-colors duration-150 hover:bg-ink/8 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+  id="vp-mobile-nav-toggle"
+  aria-label="打开导航"
+  title="导航"
+>
+  <svg
+    viewBox="0 0 24 24"
+    width="16"
+    height="16"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.7"
+    stroke-linecap="round"
+    aria-hidden="true"
+  >
+    <path d="M3 6h18M3 12h18M3 18h18" />
+  </svg>
 </button>
 
 <dialog class="vp-mobile-nav" id="vp-mobile-nav" aria-label="移动端导航">
   <div class="vp-mobile-nav-head">
     <span class="vp-mobile-nav-brand">System Vault</span>
-    <button type="button" class="vp-mobile-nav-close" id="vp-mobile-nav-close" aria-label="关闭导航">✕</button>
+    <button
+      type="button"
+      class="inline-flex size-8 items-center justify-center rounded-[9px] text-muted transition-colors duration-150 hover:bg-ink/8 hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+      id="vp-mobile-nav-close"
+      aria-label="关闭导航"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        width="16"
+        height="16"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.7"
+        stroke-linecap="round"
+        aria-hidden="true"
+      >
+        <path d="M18 6 6 18M6 6l12 12" />
+      </svg>
+    </button>
   </div>
   <nav class="vp-mobile-nav-body" id="vp-mobile-nav-body" aria-label="站点导航">
     <ul class="vp-mobile-nav-list">

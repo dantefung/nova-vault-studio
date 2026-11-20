@@ -14,7 +14,9 @@
 import '../styles/site.css'
 import '../styles/pages.css'
 import { ClientRouter } from 'astro:transitions'
+import '../styles/tailwind.css'
 import '../styles/zen.css'
+import '../styles/landing-theme.css'
 import '../styles/modern.css'
 import Sidebar from '../components/Sidebar.astro'
 import NavBar from '../components/NavBar.astro'
@@ -31,6 +33,8 @@ interface Props {
   description?: string
   /** 当前落地页风格（quiet / easton） */
   landingTheme?: string
+  /** 是否提供落地页版式切换（首页 / 博客 / 资源页为 true；文档页没有版式可切） */
+  landingSwitcher?: boolean
   /** 是否渲染文档侧边栏 */
   sidebar?: boolean
   /** 侧边栏数据 */
@@ -53,6 +57,7 @@ const {
   title,
   description = 'System Vault — 系统知识库',
   landingTheme = 'quiet',
+  landingSwitcher = false,
   sidebar = false,
   sidebarItems = [],
   headings = [],
@@ -115,7 +120,7 @@ const currentPath = Astro.url.pathname
     {comments && <div class="vp-comments"><Giscus /></div>}
     <div class="vp-float-tools">
       <ZenToggle />
-      <LandingThemeSwitcher />
+      {landingSwitcher && <LandingThemeSwitcher />}
       <ThemeSwitcher />
       <MobileNavSheet />
     </div>

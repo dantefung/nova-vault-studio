@@ -11,17 +11,26 @@ import { ZEN_STORAGE_KEY } from '../lib/theme'
 
 <button
   type="button"
-  class="vp-zen-toggle"
+  class="inline-flex size-8 items-center justify-center rounded-[9px] border border-line/70 bg-surface-elv/78 text-muted backdrop-blur-[14px] backdrop-saturate-150 shadow-[var(--ui-shadow)] transition-colors duration-150 hover:bg-ink/8 hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent aria-pressed:bg-accent aria-pressed:text-white"
   id="vp-zen-toggle"
   aria-label="切换禅模式"
   aria-pressed="false"
   title="禅模式（专注阅读，快捷键 Z）"
 >
-  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M12 3v3M12 18v3M3 12h3M18 12h3" />
-    <circle cx="12" cy="12" r="4" />
+  <svg
+    viewBox="0 0 24 24"
+    width="16"
+    height="16"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+  >
+    <path d="M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21" />
+    <circle cx="12" cy="12" r="4.25" />
   </svg>
-  <span class="vp-zen-toggle-label">禅</span>
 </button>
 
 <script define:vars={{ ZEN_STORAGE_KEY }}>

@@ -140,41 +140,10 @@ html[data-zen] .vp-doc .vp-doc-meta {
 }
 
 /* 禅模式下的开关固定在右下角，半透明、hover 显现 */
-html[data-zen] .vp-zen-toggle {
-  position: fixed;
-  opacity: 0.35;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-html[data-zen] .vp-zen-toggle:hover { opacity: 1; transform: scale(1.06); }
+/* 禅模式下的开关固定在右下角，半透明、hover 显现 —— 样式在 modern.css */
 
 /* ── 三、禅模式开关按钮 ────────────────────────────────── */
-
-.vp-zen-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  width: 40px;
-  height: 40px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 10px;
-  background: var(--vp-c-bg-elv);
-  color: var(--vp-c-text-2);
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease;
-}
-.vp-zen-toggle:hover {
-  color: var(--vp-c-brand-1);
-  border-color: var(--vp-c-brand-1);
-}
-.vp-zen-toggle[aria-pressed='true'] {
-  background: var(--vp-c-brand-1);
-  color: #fff;
-  border-color: var(--vp-c-brand-1);
-}
-.vp-zen-toggle-label { font-size: 12px; }
+/* 按钮外观由组件里的 Tailwind 工具类承担，这里不再重复定义 */
 
 @media (max-width: 768px) {
   html[data-zen] .vp-shell { padding: 0 20px; }

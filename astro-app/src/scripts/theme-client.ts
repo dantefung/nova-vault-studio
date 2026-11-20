@@ -36,7 +36,11 @@ function applyLandingTheme(name: string) {
 
 function syncActive(attr: string, value: string) {
   document.querySelectorAll(`[${attr}]`).forEach((el) => {
-    el.classList.toggle('is-active', el.getAttribute(attr) === value)
+    const on = el.getAttribute(attr) === value
+    el.classList.toggle('is-active', on)
+    // 图标按钮的选中态由 Tailwind 的 aria-pressed: 变体承载，
+    // 所以这里必须同步 aria-pressed，不能只切 class
+    el.setAttribute('aria-pressed', String(on))
   })
 }
 
@@ -54,7 +58,13 @@ document.addEventListener('click', (e) => {
 })
 
 // 初始化按钮的 active 状态
-const currentTheme = document.documentElement.dataset.theme || 'light'
-const currentLanding = document.documentElement.dataset.landingTheme || 'quiet'
-syncActive('data-theme-value', currentTheme)
-syncActive('data-landing-theme-value', currentLanding)
+function syncCurrent() {
+  const currentTheme = document.documentElement.dataset.theme || 'light'
+  const currentLanding = document.documentElement.dataset.landingTheme || 'quiet'
+  syncActive('data-theme-value', currentTheme)
+  syncActive('data-landing-theme-value', currentLanding)
+}
+
+syncCurrent()
+// View Transitions 换页后脚本不会重跑，新插入的按钮要重新同步选中态
+document.addEventListener('astro:page-load', syncCurrent)

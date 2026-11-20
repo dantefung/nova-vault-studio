@@ -1,0 +1,79 @@
+/**
+ * 落地页版式：quiet / easton
+ *
+ * 移植自 VitePress 时期的 easton-doc.css / easton-blog.css：
+ *   quiet  = 跟随站点配色（无衬线，克制）
+ *   easton = 暖纸色 + 衬线标题（书卷感）
+ *
+ * 实现方式：不改 pages.css 的任何一条规则，只在落地页作用域内把
+ * --vp-c-* 重新指向版式变量 —— 所有既有落地页样式自动跟随，
+ * 三套主题（light/dark/sepia）各有一组取值。
+ *
+ * 作用域：body.vp-landing（首页）、body.vp-blog-page（博客四视图与资源页）。
+ * 文档页不受影响 —— 它有自己的一套现代主题。
+ */
+
+html[data-landing-theme='easton'] {
+  --landing-bg: #f5f0e8;
+  --landing-surface: #fffaf3;
+  --landing-soft: #eee5d8;
+  --landing-ink: #24211e;
+  --landing-body: #6e655c;
+  --landing-muted: #9b8c7f;
+  --landing-accent: #e7683d;
+  --landing-rule: #d7cec2;
+  --landing-heading-font: Georgia, 'Songti SC', 'Noto Serif CJK SC', serif;
+}
+
+html[data-landing-theme='easton'][data-theme='dark'] {
+  --landing-bg: #1d1a18;
+  --landing-surface: #29231f;
+  --landing-soft: #352c26;
+  --landing-ink: #f7eee5;
+  --landing-body: #c8b9aa;
+  --landing-muted: #9f8e7d;
+  --landing-accent: #ff9a70;
+  --landing-rule: #4b4037;
+}
+
+html[data-landing-theme='easton'][data-theme='sepia'] {
+  --landing-bg: #e9ddcf;
+  --landing-surface: #f8efe2;
+  --landing-soft: #ddcbb6;
+  --landing-ink: #44352a;
+  --landing-body: #765e4c;
+  --landing-muted: #927765;
+  --landing-accent: #b54d2f;
+  --landing-rule: #cdb9a4;
+}
+
+/* 把站点色板映射到当前版式（quiet 保持原样，不需要覆盖） */
+html[data-landing-theme='easton'] body.vp-landing,
+html[data-landing-theme='easton'] body.vp-blog-page {
+  --vp-c-bg: var(--landing-bg);
+  --vp-c-bg-soft: var(--landing-soft);
+  --vp-c-bg-elv: var(--landing-surface);
+  --vp-c-text-1: var(--landing-ink);
+  --vp-c-text-2: var(--landing-body);
+  --vp-c-text-3: var(--landing-muted);
+  --vp-c-divider: var(--landing-rule);
+  --vp-c-brand-1: var(--landing-accent);
+  --vp-c-brand-2: var(--landing-accent);
+  --vp-c-brand-soft: color-mix(in srgb, var(--landing-accent) 12%, var(--landing-surface));
+}
+
+/* easton 的衬线标题（quiet 保持界面无衬线） */
+html[data-landing-theme='easton'] body.vp-landing .vp-library-hero h1,
+html[data-landing-theme='easton'] body.vp-landing .vp-library-heading h2,
+html[data-landing-theme='easton'] body.vp-blog-page .vp-blog-hero h1,
+html[data-landing-theme='easton'] body.vp-blog-page .vp-blog-section-title {
+  font-family: var(--landing-heading-font);
+}
+
+/* 落地页整体底色跟随版式（body 背景由 global.css 的 --theme-bg 控制，
+   这里用 landing 变量直接覆盖，dark/sepia 也在同一套变量里） */
+html[data-landing-theme='easton'] body.vp-landing,
+html[data-landing-theme='easton'] body.vp-blog-page {
+  background: var(--landing-bg);
+  color: var(--landing-ink);
+}

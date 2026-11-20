@@ -529,18 +529,6 @@ html-viewer iframe {
 
 /* ── 移动端导航抽屉 ───────────────────────────────────────── */
 
-.vp-mobile-nav-toggle {
-  border: 1px solid var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  color: var(--vp-c-text-1);
-  font-size: 18px;
-  line-height: 1;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
 .vp-mobile-nav {
   width: min(88vw, 360px);
   height: 100dvh;
@@ -571,17 +559,6 @@ html-viewer iframe {
 
 .vp-mobile-nav-brand {
   font-weight: 700;
-}
-
-.vp-mobile-nav-close {
-  border: none;
-  background: transparent;
-  color: var(--vp-c-text-2);
-  font-size: 18px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
-  cursor: pointer;
 }
 
 .vp-mobile-nav-body {

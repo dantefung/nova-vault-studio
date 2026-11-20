@@ -1,22 +1,54 @@
 ---
 /**
- * 落地页风格切换（quiet / easton）
+ * 落地页版式切换（quiet / easton）
+ *
+ * quiet = 跟随站点的克制版式；easton = 暖纸色 + 衬线标题。
+ * 视觉差异由 styles/landing-theme.css 承载（变量重映射，不改 DOM）。
+ * 只在落地页（首页 / 博客 / 资源页）出现 —— 文档页没有版式可切。
  */
 import { LANDING_THEMES, LANDING_THEME_META } from '../lib/theme'
+
+const ICONS: Record<string, string> = {
+  quiet:
+    '<rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 8h10M7 12h10M7 16h6"/>',
+  easton:
+    '<path d="M2 4.5A2.5 2.5 0 0 1 4.5 2H11v19H4.5A2.5 2.5 0 0 1 2 18.5z"/><path d="M22 4.5A2.5 2.5 0 0 0 19.5 2H13v19h6.5a2.5 2.5 0 0 0 2.5-2.5z"/>',
+}
+
+const BTN =
+  'inline-flex size-8 items-center justify-center rounded-[9px] text-muted transition-colors duration-150 ' +
+  'hover:bg-ink/8 hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ' +
+  'aria-pressed:bg-accent-soft aria-pressed:text-accent-ink'
 ---
 
-<div class="vp-theme-switch" role="group" aria-label="切换版式">
+<div
+  class="inline-flex items-center gap-0.5 rounded-[13px] border border-line/70 bg-surface-elv/78 p-1 backdrop-blur-[14px] backdrop-saturate-150 shadow-[var(--ui-shadow)]"
+  role="group"
+  aria-label="切换落地页版式"
+>
   {
     LANDING_THEMES.map((t) => (
       <button
         type="button"
-        class="vp-theme-btn"
+        class={BTN}
         data-landing-theme-value={t}
         data-landing-theme-target={t}
-        title={LANDING_THEME_META[t].desc}
-        aria-label={LANDING_THEME_META[t].desc}
+        title={`${LANDING_THEME_META[t].label} · ${LANDING_THEME_META[t].desc}`}
+        aria-label={`${LANDING_THEME_META[t].label} 版式：${LANDING_THEME_META[t].desc}`}
+        aria-pressed="false"
       >
-        {LANDING_THEME_META[t].label}
+        <svg
+          viewBox="0 0 24 24"
+          width="16"
+          height="16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          set:html={ICONS[t]}
+        />
       </button>
     ))
   }

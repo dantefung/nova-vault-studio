@@ -278,15 +278,15 @@ body {
   transition: width 0.08s linear;
 }
 
-/* ── 浮动工具：更收敛 ───────────────────────────────────── */
-.vp-theme-switch,
-.vp-zen-toggle {
-  box-shadow: var(--ui-shadow);
-  border-color: color-mix(in oklab, var(--vp-c-divider) 70%, transparent);
+/* ── 浮动工具条 ───────────────────────────────────────────
+   外观全部由组件里的 Tailwind 工具类承担（见 ThemeSwitcher / ZenToggle）。
+   这里只保留工具类表达不了的部分：禅模式下按钮半透明、hover 显现。 */
+html[data-zen] .vp-zen-toggle {
+  position: fixed;
+  opacity: 0.35;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
-.vp-zen-toggle[aria-pressed='true'] {
-  background: linear-gradient(135deg, var(--ui-accent), var(--ui-accent-2));
-}
+html[data-zen] .vp-zen-toggle:hover { opacity: 1; transform: scale(1.06); }
 
 /* ── 页脚 ───────────────────────────────────────────────── */
 .vp-footer {

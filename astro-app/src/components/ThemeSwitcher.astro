@@ -2,24 +2,54 @@
 /**
  * 站点主题切换（light / dark / sepia）
  *
- * VitePress 时期的 ThemeSwitcher.vue 用 Vue ref 管理状态，
- * 这里改为纯 CSS 变量 + data 属性，切换不触发任何 DOM 结构变化。
+ * 图标化：太阳 / 月亮 / 纸卷，线性描边（lucide 风格），不用文字按钮。
+ * 样式走 Tailwind 工具类（见 styles/tailwind.css）。
+ * 状态仍由 data-theme-value 表达，客户端逻辑在 scripts/theme-client.ts。
  */
 import { THEMES, THEME_META } from '../lib/theme'
+
+const ICONS: Record<string, string> = {
+  light:
+    '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>',
+  dark: '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>',
+  sepia:
+    '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>',
+}
+
+const BTN =
+  'inline-flex size-8 items-center justify-center rounded-[9px] text-muted transition-colors duration-150 ' +
+  'hover:bg-ink/8 hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ' +
+  'aria-pressed:bg-accent-soft aria-pressed:text-accent-ink'
 ---
 
-<div class="vp-theme-switch" role="group" aria-label="切换配色">
+<div
+  class="inline-flex items-center gap-0.5 rounded-[13px] border border-line/70 bg-surface-elv/78 p-1 backdrop-blur-[14px] backdrop-saturate-150 shadow-[var(--ui-shadow)]"
+  role="group"
+  aria-label="切换配色"
+>
   {
     THEMES.map((t) => (
       <button
         type="button"
-        class="vp-theme-btn"
+        class={BTN}
         data-theme-value={t}
         data-theme-target={t}
-        title={THEME_META[t].desc}
-        aria-label={THEME_META[t].desc}
+        title={`${THEME_META[t].label} · ${THEME_META[t].desc}`}
+        aria-label={`${THEME_META[t].label} 配色：${THEME_META[t].desc}`}
+        aria-pressed="false"
       >
-        {THEME_META[t].label}
+        <svg
+          viewBox="0 0 24 24"
+          width="16"
+          height="16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          set:html={ICONS[t]}
+        />
       </button>
     ))
   }
