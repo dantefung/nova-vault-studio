@@ -535,6 +535,10 @@ wiki/
 | [agent-event-decoupling](/md/wiki/patterns/agent-event-decoupling) | 模型事件与 Agent 事件解耦：SSE 加工成语义事件流，让 Loop 自身事件并入同一通道 | 公众号提炼 |
 | [mcp-tool-namespace-isolation](/md/wiki/patterns/mcp-tool-namespace-isolation) | MCP 工具命名空间隔离：serverName__toolName 前缀 + 反向索引路由，多 Server 共存的基础设施 | 公众号提炼 |
 | [progressive-disclosure](/md/wiki/patterns/progressive-disclosure) | 渐进式披露：上下文工程核心模式，并在 Agent Skills 中落地为前言/全文/引用三级加载 | 公众号提炼 |
+| [codex-sandbox-permission-model](/md/wiki/concepts/codex-sandbox-permission-model) | Codex 沙箱权限模型：限权按启动路径生效，文件不继承沙箱限制 | 公众号提炼 |
+| [magpie-local-model-gateway](/md/wiki/concepts/magpie-local-model-gateway) | 本地模型网关：把订阅变成供应商——汇聚/协议/调度/观测四层 | X/Twitter |
+| [ruofei-codex-sandbox-permissions](/md/wiki/summaries/ruofei-codex-sandbox-permissions) | 若飞：Codex Sandbox 完整公开——权限配置、三系统实现与文件不继承沙箱限制 | 公众号 |
+| [zihan-magpie-llm-gateway](/md/wiki/summaries/zihan-magpie-llm-gateway) | 天不生邹子Zihan：Magpie 全网最全教学——模型网关、路由组与可视化 | X/Twitter |
 
 ### AI 产品与订阅 (AI Products & Subscriptions)
 
@@ -572,6 +576,12 @@ wiki/
 | [taowithsaas-ezmaker-traffic-analysis](/md/wiki/sources/taowithsaas-ezmaker-traffic-analysis) | taoWithSaaS：一个新站首月访问量破 10w+ 原来是这么做到的（强站带小站外链揭秘） | 公众号 |
 | [coderjefflee-saas-seo-infrastructure](/md/wiki/sources/coderjefflee-saas-seo-infrastructure) | 子木：《SaaS SEO Playbook》第三部分——站内基建，让 Google 能看见、看懂、收录 | X/Twitter |
 | [aichuhai-ai-automated-internal-links-seo](/md/wiki/sources/aichuhai-ai-automated-internal-links-seo) | 爱出海：AI 自动加内链做 SEO 原帖归档，附 Claude 自动内链英文工程书 | X/Twitter |
+| [overseas-niche-selection-map](/md/wiki/concepts/overseas-niche-selection-map) | 出海赛道选择地图：10 条赛道按「你能控制什么」排序 | 公众号提炼 |
+| [b2b-inquiry-site-minimal-stack](/md/wiki/concepts/b2b-inquiry-site-minimal-stack) | 极简 B2B 询盘站技术栈：不做后台也能拿到询盘 | 公众号提炼 |
+| [platform-traffic-vs-own-channel](/md/wiki/concepts/platform-traffic-vs-own-channel) | 平台流量 vs 自有渠道：流量在平台，渠道在自己（官网才算） | 公众号提炼 |
+| [chengge-overseas-10-niches](/md/wiki/summaries/chengge-overseas-10-niches) | 橙哥：出海搞钱 10 个赛道——做产品/做流量/做货/做内容 | 公众号 |
+| [xiaoshi-b2b-sites-inquiries-no-cms](/md/wiki/summaries/xiaoshi-b2b-sites-inquiries-no-cms) | 小拾随语：三个 B2B 站怎么拿到询盘——不建后台也不买服务器 | 公众号 |
+| [baiyang-seo-traffic-platform-money-overseas](/md/wiki/summaries/baiyang-seo-traffic-platform-money-overseas) | 白杨SEO：流量在平台，钱在出海里——为什么官网才是自己的渠道 | 公众号 |
 
 ### AI 变现与套利（AI Monetization & Arbitrage）
 
@@ -592,6 +602,8 @@ wiki/
 | [renagonzaga-wechat-public-account-0-to-1](/md/wiki/sources/renagonzaga-wechat-public-account-0-to-1) | 生于 Ai：公众号保姆级 0-1 起号全流程（选赛道/垂直养号/AB 转类型/AI 辅助写作/流量主变现），单账号累计 24 万+实操经验 | X/Twitter |
 | [cross-platform-information-arbitrage](/md/wiki/patterns/cross-platform-information-arbitrage) | 跨平台信息差中介：不搬本体，只卖信息与配置——五个可复制样本与共性公式 | X/Twitter |
 | [hyhongyu-inside-outside-information-arbitrage-09](/md/wiki/sources/hyhongyu-inside-outside-information-arbitrage-09) | 红鱼：墙内外的赚钱信息差（第九期）——插件教程、Notion 模板、Newsletter 摘要等五个样本 | X/Twitter |
+| [blocked-desire-model](/md/wiki/concepts/blocked-desire-model) | 被阻挡的欲望模型：功能→麻烦→欲望三步推导 + USS 筛选 | 公众号提炼 |
+| [xiaoshi-schwartz-desire-derivation](/md/wiki/summaries/xiaoshi-schwartz-desire-derivation) | 小拾随语：CTR 5% 却零转化——Schwartz 欲望推导三步法与 Prompt | 公众号 |
 
 ### AI 工程化（AI Engineering）
 
