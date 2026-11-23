@@ -10,8 +10,24 @@
 import { defineConfig } from 'astro/config'
 import sitemap from '@astrojs/sitemap'
 import tailwindcss from '@tailwindcss/vite'
+import fs from 'node:fs'
 
 import copyMdAssets from './integrations/copy-md-assets.mjs'
+
+// pdf.js 的 worker 必须原样放到 public/（Vite 的 ?url / ?worker&url 会给存根或 IIFE，
+// 而 pdf.js v6 要求同源的真实 ESM worker）。public/ 被 gitignore，所以任何构建方式
+// 都得先复制一份，否则 PDF 预览会静默卡死。
+const pdfWorker = {
+  name: 'pdf-worker-copy',
+  hooks: {
+    'astro:build:start': () => {
+      fs.copyFileSync(
+        'node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs',
+        'public/pdf.worker.min.mjs'
+      )
+    },
+  },
+}
 
 // repo 根目录（astro-app 的父目录）
 const REPO_ROOT = new URL('..', import.meta.url).pathname
@@ -36,6 +52,7 @@ export default defineConfig({
     concurrency: 4,
   },
   integrations: [
+    pdfWorker,
     sitemap({
       filter: (page) => !page.includes('/v2/') && !page.includes('/v3/'),
       changefreq: 'weekly',
