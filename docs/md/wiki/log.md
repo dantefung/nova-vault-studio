@@ -5292,3 +5292,13 @@ source: "llm-wiki"
   - `concepts/overseas-niche-selection-map.md` —— 10 条赛道按「你能控制什么」排序，三个筛选器
 - 索引：concepts/index.md 追加 6 条；wiki/index.md 在「Agent 工程模式 / AI 变现与套利 / 出海工具与方法」三节各追加对应条目。
 - 校验：12 篇新页面的 wikilink 全部可解析（0 悬空），frontmatter / 图片引用 / HTML 标签检查全过。
+
+## [2026-11-20] ingest: X 推文批量采集 18 条（Agent 工程 / 出海 / 商业）
+
+- 批次：一次采集 18 条 X 推文，覆盖三条主线——① **Agent 工程与 Harness**：Pi 的交互式可视化（4 个工具怎么撑起一个 Agent）、AGY `/swarm` 万字拆解（一块黑板 = 两个 JSON 文件 + 一个 JSONL 日志）、Harness CG 论文（能力做成可发现/构造/演化的语法）、LangChain 的 knowledge factory、Lauren Tan 的 Grok Bot 自动化译文、Emil Kowalski 的设计 skills 集合页、Claude Code 的 claude-lead / weekly-retro 技能开源；② **出海与流量**：GEO 大会 Day 1 十五位讲者精华、微信小游戏变现施工单、上站比赛 Day 19（主词量不足改拓词）、热词仿站外链调查（Wix 博客评论不传 nofollow）、视频号直播精准投放微信群；③ **商业与观点**：传统 IT To B 生意归零（没有一款软件是 AI native 的）、独立开发的对手是自己的股票账户、00 后低成本加精准用户的老玩法、Agent 任务要可被 verified 检验。
+- 归档：18 篇 `sources/*.md` + 42 张配图本地化（3.6MB），全部 <500KB。
+- 处理要点：
+  - 5 条短链指向 X Article（Lauren Tan 文章、/swarm 万字拆解、knowledge factory、GEO 大会、微信小游戏），统一还原成 `x.com/i/article/<id>` 形式；其余 t.co 短链（GitHub 仓库、alphaxiv 论文、部署站点等）全部解析成真实地址。
+  - 0xChonsy 那条的可粘贴 Prompt 被上游抓取器压成散行，已还原成 122 行 ```text 代码块（这条推文的全部价值就在「能直接粘给 Agent」）。
+  - 推文日期按 snowflake ID 反算，不使用流水线默认日期。
+- 索引：wiki/index.md 追加 18 行；sources 计数 436→454。

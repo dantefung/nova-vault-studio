@@ -1026,3 +1026,21 @@ wiki/
 | [xiaoshi-schwartz-desire-derivation](/md/wiki/sources/xiaoshi-schwartz-desire-derivation) | 小拾随语：CTR 5%、CPC 两毛，为什么后台依然零转化？（附 Schwartz 欲望推导 Prompt） | 微信公众号 |
 
 | [baiyang-seo-traffic-platform-money-overseas](/md/wiki/sources/baiyang-seo-traffic-platform-money-overseas) | 白杨SEO：流量在平台，钱在出海里——为什么官网才是自己的渠道 | 微信公众号 |
+| [chonsy-lauren-tan-recurring-failure-guard](/md/wiki/sources/chonsy-lauren-tan-recurring-failure-guard) | 0xChonsy：Lauren Tan 的自检守卫 Prompt——把重复失误变成可执行的验收规则 | X/Twitter |
+| [dongqing-wechat-minigame-ai-monetization](/md/wiki/sources/dongqing-wechat-minigame-ai-monetization) | 冬青：微信小游戏成了热门项目——从一句话到 3D 游戏、过审上架、接流量主 | X/Twitter |
+| [harries-indie-dev-vs-stock-account](/md/wiki/sources/harries-indie-dev-vs-stock-account) | Harries：独立开发最后的竞争对手，是自己的股票账户 | X/Twitter |
+| [jerry-designed-to-scale-system-design-app](/md/wiki/sources/jerry-designed-to-scale-system-design-app) | Jerry Fang：学 Agent Infra 必看——把 System Design 做成可视化交互教程 | X/Twitter |
+| [maiyang-lauren-tan-grok-bot-automation](/md/wiki/sources/maiyang-lauren-tan-grok-bot-automation) | Mai Yang 译：用 Grok Bot 自动化任何事——自动化的思考方式与 Dr Eggbot | X/Twitter |
+| [chasen-liao-pi-visualizer](/md/wiki/sources/chasen-liao-pi-visualizer) | Chasen：用 Gemini 4 Neon 做了一个 Pi 的交互式可视化——4 个工具怎么撑起一个 Agent | X/Twitter |
+| [chasen-liao-swarm-blackboard-agent-swarm](/md/wiki/sources/chasen-liao-swarm-blackboard-agent-swarm) | Chasen：万字拆解 /swarm——AGY 怎么用一块黑板支撑起一个 Agent 蜂群 | X/Twitter |
+| [mike-chong-ai-native-tob](/md/wiki/sources/mike-chong-ai-native-tob) | 迈克 Mike：传统 IT 的 To B 生意会归零——因为没有一款软件是 AI native 的 | X/Twitter |
+| [huangruiteng-harness-cg-capability-grammar](/md/wiki/sources/huangruiteng-harness-cg-capability-grammar) | Ruiteng Huang：Harness CG——把能力做成可发现、可构造、可演化的语法 | X/Twitter |
+| [hwchase-knowledge-factory](/md/wiki/sources/hwchase-knowledge-factory) | Harrison Chase：How to build a knowledge factory——缺的不是模型，是知识 | X/Twitter |
+| [keke-geo-conference-day1-15-speakers](/md/wiki/sources/keke-geo-conference-day1-15-speakers) | 蛋挞：第二届 GEO 大会 Day 1 全嘉宾实战精华（附 15 位讲者避坑与实操清单） | X/Twitter |
+| [danta-video-account-group-precise-traffic](/md/wiki/sources/danta-video-account-group-precise-traffic) | 蛋挞：视频号直播能精准投放微信群——低成本加几千精准用户的老玩法 | X/Twitter |
+| [geektao-krillion-nofollow-comment-links](/md/wiki/sources/geektao-krillion-nofollow-comment-links) | Geektao：查热词仿站的外链——Wix 博客评论居然不传 nofollow | X/Twitter |
+| [guojifanbill-upsite-race-day19-ai-rap-video](/md/wiki/sources/guojifanbill-upsite-race-day19-ai-rap-video) | 国际范 Bill：上站比赛 Day 19——主词搜索量有限，改用拓词加内页拿流量 | X/Twitter |
+| [cosmtrek-rstack-claude-lead-weekly-retro](/md/wiki/sources/cosmtrek-rstack-claude-lead-weekly-retro) | Ricko Yu：claude-lead 与 weekly-retro 技能开源——都放进 rstack 仓库了 | X/Twitter |
+| [vikingmute-emil-kowalski-skills-page](/md/wiki/sources/vikingmute-emil-kowalski-skills-page) | Viking：Emil Kowalski 的 skills 集合页——覆盖设计从开始到 improve 再到 review | X/Twitter |
+| [xiongchun-dsh-openmotion-video-plugin](/md/wiki/sources/xiongchun-dsh-openmotion-video-plugin) | 程序员大熊：DSH 开源插件 OpenMotion——一句话做出产品宣传视频 | X/Twitter |
+| [yangyi-verifiable-task-cross-check](/md/wiki/sources/yangyi-verifiable-task-cross-check) | Yangyi：可被 verified 评估检验的任务往往都更好——Agent 不收敛时该做什么 | X/Twitter |
