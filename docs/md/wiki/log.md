@@ -5336,3 +5336,8 @@ source: "llm-wiki"
 
 - `sources/barret-entrepreneur-optimism-supply-demand.md` —— 三条：① 极乐观且恢复极快（几小时走出低落，随即冷静复盘：哪里好/不好、问题出在哪、谁能改、要不要坚持）；② 靠观察找创业目标——流量本质是发现并满足用户需求，关注需求自然思考供需关系，不怕失败愿意试；③ 找到供需机会后研究行业 Top 1，以平起平坐或超越为目标：「只要资源和能力全部到位，就没理由干不过对方」。失败正常，重要的是快速走出来。
 - 处理：无外部短链与配图；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 478→479。
+
+## [2026-11-24] ingest: Zachary《全自动 AI 编程工作流（Cindy / T3 Code）》
+
+- `sources/zachary-ai-coding-workflow-cindy-t3code.md` —— 三步：定稿 PRD.md 与 TechStack.md（GPT 6 Pro 初稿 + Mythos 5.2 交叉验证）→ CLI 工具与密钥（本地 .md 加进 .gitignore）→ 自动开发（AI 拆解/写代码/审查/e2e/提交，人只验收）。三角色：主 Agent 唯一改代码、Reviewer（gpt-6.2-astra）只读看 diff、Advisor（claude-fable-5-2）只在 4 节点判断。四规则：单线串行不开 worktree/子 Agent；不猜不吞错不多写（单文件 ≤1000 行、不写兜底）；Reviewer 上限 5 轮防 edge case 卡死，没过标 [!] 继续；Advisor 四个节点介入。附完整 Prompt 与设计人工兜底。
+- 处理：1 张配图本地化；结尾 `## Thread` 外壳由流水线自动剥离；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 479→480。
