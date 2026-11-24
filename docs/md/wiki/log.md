@@ -5316,3 +5316,18 @@ source: "llm-wiki"
 - `sources/amfe1u-nine-steps-million-yuan-playbook.md` —— Amfe1U 的「年入百万 9 步」：卖什么（实体/资料/服务）→ 50 个同行建数据库 → 拆解环节批量生产 → 10 台手机 × 5 平台 × 100 条/天 = 15000 触点/月 → 朋友圈成交 → 招生 → 团队 → 招商加盟 → 联盟后端吃利润差与裂变。
 - `sources/chendahuang-antigravity-codex-worker-skill.md` —— 大 Huang：用 Antigravity 指挥 Codex 干活的 skill，GPT 只执行不说话、Gemini 负责跟人沟通；附 antigravity-codex-worker 仓库与截图。
 - 处理：2 条 t.co 短链还原（GitHub 仓库 + 原推）；日期按 snowflake 反算；远程图残留 0；sources 计数 464→466。
+
+## [2026-11-24] ingest: 公众号长文 1 篇 + X 推文 6 条（思维体系 / Agent 协作 / 出海案例）
+
+- `sources/heminglu-personal-thinking-system.md` —— 何明璐（人月聊 IT）《思维系列-如何构建个人思维体系》：六段一一对应六个问题——① 思维是加工流水线（感知→注意→记忆→理解→分析→综合→判断→推理），产出四类成品（认知/评价/方案/决策），收口于「造知识」与「用知识」两条线；**思维 = 思考 + 维度**（思考讲先后、维度讲位置）。② 认识的根基：本体论 vs 认识论要分开，亚里士多德四因说与第一/第二实体，经验主义 vs 理性主义、休谟问题与康德的先天架子，辩证法不是和稀泥而是给结论补成立条件。③ 逻辑与自洽：概念/判断/推理三零件，归纳造新知识但只有或然性、演绎用知识但结论已藏在前提里，**三重自洽**（因果对得上、关系放得回、过程接得住）。④ 认知一个事物：黑盒观察→白盒分解（MECE 3-4 层）→动静结合→归纳入库，三个维度（结构/行为/关系）。⑤ 解决问题：问题是一段差距（期望 - 实际），六格定义法，别把方案当问题，目标必须带时空，分解后排序与模式匹配，知识库与经验模式库分开，复盘四步。⑥ 结构化与终身闭环：结构化思维管分解、系统思维管制约；资料库→知识库→经验库→模式库四层沉淀；第一性原理一路追到不用再问为什么；**AI 让廉价思考力泛滥，但感知、反思、把隐性经验说出来这三样机器替不走**。
+- X 批次：`sources/tao-antigravity-teamwork-multi-agent.md`（`/teamwork` 多 Agent 协作：协调者 + 独立 worktree 并行的 Workers + 独立验证互审）；`sources/rachid-cross-border-ecommerce-agent-toolkit.md`（38 页跨境运营 SOP 拆成 7 个 AI 员工，约 1.2k Star）；`sources/alinsees-glority-19-apps-case.md`（杭州睿琪 200 人 19 个小 App 年入 1.68 亿美元）；`sources/shenxian-ai-agent-book.md`（开源《深入理解 AI Agent》54k Star）；`sources/dongqing-cps-rebate-bot-0-to-1.md`（返利 CPS 机器人 0 到 1，封号风险与收益爬坡的实话）；`sources/victor-uwerr-in-product-survey-user-persona.md`（等待任务时弹 5 题问卷：自由职业者占七成、AI 聊天机器人来源 31%——画像别靠猜）。
+- 处理：3 条 t.co 短链还原（GitHub 仓库 × 2 + 原推）；日期按 snowflake 反算；公众号 28 张配图本地化并补 alt；7 篇检查全过、wikilink 0 悬空；sources 计数 466→473。
+
+## [2026-11-24] ingest: X 推文 5 条（手机自动化 / 卖货 / shipwords / B站 Toy / Muse 起号）
+
+- `sources/aaron-uiautomator2-ai-phone-control.md` —— uiautomator2 + adb 让 AI 操控手机做电商选品调研。
+- `sources/amfe1u-find-something-to-sell-four-steps.md` —— 「不想上班就找东西卖」四步：高利润单品 → 先卖别人的货 → 有量再做自有产品 → 成交是起点。
+- `sources/gargantua-shipwords-vps-migration.md` —— shipwords v0.3.0 从 CF Workers 搬到 VPS：ffmpeg 跑不了、CF Containers 空转计费、D1 并发问题，「省心但不省钱」。
+- `sources/zh-crypto-bilibili-toy-vibe-coding-500rmb.md` —— B 站 Toy 商单：1k–9999 粉一单 500 元，三步投稿 + 刮刮乐交付样例。
+- `sources/feljoy-muse-douyin-beauty-account-pipeline.md` —— Muse 出 9:16 竖屏 + Agent-Reach 选题 + social-auto-upload 自动发抖音，美女号六步流水线与 AI 标识提醒。
+- 处理：3 条 t.co 短链还原（Agent-Reach / social-auto-upload / shipwords 官网）；日期按 snowflake 反算；远程图残留 0；12 篇检查全过、wikilink 0 悬空；sources 计数 473→478。
