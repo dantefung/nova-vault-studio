@@ -1069,3 +1069,4 @@ wiki/
 | [zh-crypto-bilibili-toy-vibe-coding-500rmb](/md/wiki/sources/zh-crypto-bilibili-toy-vibe-coding-500rmb) | Zh_Crypto：在 B 站 vibe coding 一个游戏/工具，一单拿 500 元 | X/Twitter |
 | [feljoy-muse-douyin-beauty-account-pipeline](/md/wiki/sources/feljoy-muse-douyin-beauty-account-pipeline) | Feljoy：Muse 直接运营抖音美女号起号——不用自己拍、不用请模特 | X/Twitter |
 | [barret-entrepreneur-optimism-supply-demand](/md/wiki/sources/barret-entrepreneur-optimism-supply-demand) | Barret：创业成功的秘诀——极乐观、快速复盘、靠观察供需找目标 | X/Twitter |
+| [zachary-ai-coding-workflow-cindy-t3code](/md/wiki/sources/zachary-ai-coding-workflow-cindy-t3code) | Zachary：全自动 AI 编程工作流——三角色分工 + 四条核心规则 + 完整 Prompt | X/Twitter |
