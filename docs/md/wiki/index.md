@@ -1056,3 +1056,15 @@ wiki/
 | [intentplex-web-game-evergreen-site](/md/wiki/sources/intentplex-web-game-evergreen-site) | Intentplex：把网页游戏做成常青树养老站——搜索排名、首局完局率与社区壁垒 | X/Twitter |
 | [amfe1u-nine-steps-million-yuan-playbook](/md/wiki/sources/amfe1u-nine-steps-million-yuan-playbook) | Amfe1U：身边小富婆年入百万的 9 步——从卖什么到联盟后端 | X/Twitter |
 | [chendahuang-antigravity-codex-worker-skill](/md/wiki/sources/chendahuang-antigravity-codex-worker-skill) | 大 Huang：用 Antigravity 指挥 Codex 干活的 skill——GPT 只干活不说话 | X/Twitter |
+| [heminglu-personal-thinking-system](/md/wiki/sources/heminglu-personal-thinking-system) | 何明璐：如何构建个人思维体系——思维运转、认识根基、逻辑自洽、认知事物、解决问题、终身闭环 | 微信公众号 |
+| [tao-antigravity-teamwork-multi-agent](/md/wiki/sources/tao-antigravity-teamwork-multi-agent) | 陶：/teamwork——Antigravity 的多智能体协作团队命令 | X/Twitter |
+| [rachid-cross-border-ecommerce-agent-toolkit](/md/wiki/sources/rachid-cross-border-ecommerce-agent-toolkit) | Rachid：把 38 页跨境运营 SOP 拆成 7 个 AI 员工 | X/Twitter |
+| [alinsees-glority-19-apps-case](/md/wiki/sources/alinsees-glority-19-apps-case) | Alinsees：杭州睿琪 19 个小 App 干出年入 1.6 亿美元 | X/Twitter |
+| [shenxian-ai-agent-book](/md/wiki/sources/shenxian-ai-agent-book) | 神仙：开源免费的《深入理解 AI Agent》——54k Star，每章配可跑实验 | X/Twitter |
+| [dongqing-cps-rebate-bot-0-to-1](/md/wiki/sources/dongqing-cps-rebate-bot-0-to-1) | 冬青：返利 CPS 机器人月入 3-5K——个人微信从 0 到 1 怎么跑通 | X/Twitter |
+| [victor-uwerr-in-product-survey-user-persona](/md/wiki/sources/victor-uwerr-in-product-survey-user-persona) | Victor Uwer：等待任务时弹一次问卷——画像别靠猜，让用户自己告诉你 | X/Twitter |
+| [aaron-uiautomator2-ai-phone-control](/md/wiki/sources/aaron-uiautomator2-ai-phone-control) | Aaron：uiautomator2 + adb——让 AI 直接操控手机干活 | X/Twitter |
+| [amfe1u-find-something-to-sell-four-steps](/md/wiki/sources/amfe1u-find-something-to-sell-four-steps) | Amfe1U：不想上班就找东西卖——普通人 0 基础可复制的四步卖货逻辑 | X/Twitter |
+| [gargantua-shipwords-vps-migration](/md/wiki/sources/gargantua-shipwords-vps-migration) | GargantuaX：shipwords v0.3.0 从 Cloudflare Workers 搬到了 VPS | X/Twitter |
+| [zh-crypto-bilibili-toy-vibe-coding-500rmb](/md/wiki/sources/zh-crypto-bilibili-toy-vibe-coding-500rmb) | Zh_Crypto：在 B 站 vibe coding 一个游戏/工具，一单拿 500 元 | X/Twitter |
+| [feljoy-muse-douyin-beauty-account-pipeline](/md/wiki/sources/feljoy-muse-douyin-beauty-account-pipeline) | Feljoy：Muse 直接运营抖音美女号起号——不用自己拍、不用请模特 | X/Twitter |
