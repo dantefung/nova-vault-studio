@@ -1,0 +1,21 @@
+---
+title: "🚀 入门指南"
+date: "2026-11-24"
+source: "VastFuture/vibe-coding-cn"
+---
+
+# 🚀 入门指南
+
+> 从零开始学习 Vibe Coding，配置环境
+
+## 📚 学习路径
+
+1. [Vibe Coding 哲学原理](./Vibe%20Coding%20哲学原理.md) - 理解核心理念
+2. [网络环境配置](./网络环境配置.md) - 配置网络访问
+3. [开发环境搭建](./开发环境搭建.md) - 搭建开发环境
+4. [IDE 配置](./IDE配置.md) - 配置编辑器
+
+## 🔗 相关资源
+- [基础指南](../../principles/fundamentals/) - 核心理念与方法论
+- [方法论](../playbook/) - 工具与经验
+- [实战](../../case-studies/) - 动手实践项目

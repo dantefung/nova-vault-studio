@@ -136,3 +136,11 @@ url: ""
 > 像调优软件那样调优人体系统——神经科学/营养学/睡眠医学的前沿研究转化为可执行日常实践，覆盖睡眠/饮食/Fasting/多巴胺/学习/大脑健康/长寿七大模块。
 
 [进入专栏 →](/md/columns/healthy-life/)
+
+---
+
+## Vibe Coding CN 文档库
+
+> 完整收录 VastFuture/vibe-coding-cn 的 `assets/documents/` 文档库（61 篇）：原则与思想（fundamentals / philosophy）、入门与方法（getting-started / playbook）、实战案例（case-studies），保持原仓库结构与内部链接。
+
+[进入专栏 →](/md/columns/vibe-coding-cn/)

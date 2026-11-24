@@ -125,6 +125,7 @@ const nav = [
       { text: '专栏总览', link: '/md/columns/' },
       { text: 'Agentic Engineer 专栏', link: '/md/columns/agentic-engineer/' },
       { text: 'Vibe Coding 专栏', link: '/md/columns/vibe-coding/' },
+      { text: 'Vibe Coding CN 文档库', link: '/md/columns/vibe-coding-cn/' },
       { text: 'Harness Engineering 专栏', link: '/md/columns/harness-engineering/' },
       { text: 'Lenny 通讯', link: '/md/columns/lenny-newsletter/' },
       { text: '绘图指南', link: '/md/columns/drawing/' },
