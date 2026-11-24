@@ -5331,3 +5331,8 @@ source: "llm-wiki"
 - `sources/zh-crypto-bilibili-toy-vibe-coding-500rmb.md` —— B 站 Toy 商单：1k–9999 粉一单 500 元，三步投稿 + 刮刮乐交付样例。
 - `sources/feljoy-muse-douyin-beauty-account-pipeline.md` —— Muse 出 9:16 竖屏 + Agent-Reach 选题 + social-auto-upload 自动发抖音，美女号六步流水线与 AI 标识提醒。
 - 处理：3 条 t.co 短链还原（Agent-Reach / social-auto-upload / shipwords 官网）；日期按 snowflake 反算；远程图残留 0；12 篇检查全过、wikilink 0 悬空；sources 计数 473→478。
+
+## [2026-11-24] ingest: Barret《创业成功的秘诀》
+
+- `sources/barret-entrepreneur-optimism-supply-demand.md` —— 三条：① 极乐观且恢复极快（几小时走出低落，随即冷静复盘：哪里好/不好、问题出在哪、谁能改、要不要坚持）；② 靠观察找创业目标——流量本质是发现并满足用户需求，关注需求自然思考供需关系，不怕失败愿意试；③ 找到供需机会后研究行业 Top 1，以平起平坐或超越为目标：「只要资源和能力全部到位，就没理由干不过对方」。失败正常，重要的是快速走出来。
+- 处理：无外部短链与配图；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 478→479。
