@@ -5310,3 +5310,9 @@ source: "llm-wiki"
 - 归档：10 篇 `sources/*.md` + 19 张配图本地化，全部 <500KB 且为真 PNG/JPEG，远程图残留 0。
 - 处理要点：12 条 t.co 短链全部还原成真实地址（其中 3 条 X Article 转成 `x.com/i/article/<id>`）；推文日期按 snowflake ID 反算；删掉卡兹克文末「点赞评论转发三连」导流段；两处裸标签（poteto 的 `<goal>`）转成反引号避免 Vue 编译器报错。
 - 校验：10 篇 × 4 项 pre-commit 检查全过，wikilink 0 悬空；sources 计数 454→464。
+
+## [2026-11-24] ingest: X 推文 2 条（赚钱九步法 / Antigravity 指挥 Codex）
+
+- `sources/amfe1u-nine-steps-million-yuan-playbook.md` —— Amfe1U 的「年入百万 9 步」：卖什么（实体/资料/服务）→ 50 个同行建数据库 → 拆解环节批量生产 → 10 台手机 × 5 平台 × 100 条/天 = 15000 触点/月 → 朋友圈成交 → 招生 → 团队 → 招商加盟 → 联盟后端吃利润差与裂变。
+- `sources/chendahuang-antigravity-codex-worker-skill.md` —— 大 Huang：用 Antigravity 指挥 Codex 干活的 skill，GPT 只执行不说话、Gemini 负责跟人沟通；附 antigravity-codex-worker 仓库与截图。
+- 处理：2 条 t.co 短链还原（GitHub 仓库 + 原推）；日期按 snowflake 反算；远程图残留 0；sources 计数 464→466。
