@@ -43,7 +43,7 @@ url: ""
 
 ---
 
-## 纳米AI
+## 纳米 AI
 
 > 把大模型拆开，一格一格算清楚。大模型学习路线图（8 阶段 51 知识点）、从零手写大模型与 Agent、交互式图解与论文研读，全站 65 页离线归档。
 
@@ -136,3 +136,11 @@ url: ""
 > 像调优软件那样调优人体系统——神经科学/营养学/睡眠医学的前沿研究转化为可执行日常实践，覆盖睡眠/饮食/Fasting/多巴胺/学习/大脑健康/长寿七大模块。
 
 [进入专栏 →](/md/columns/healthy-life/)
+
+---
+
+## Vibe Coding CN 文档库
+
+> 完整收录 VastFuture/vibe-coding-cn 的 `assets/documents/` 文档库（61 篇）：原则与思想（fundamentals / philosophy）、入门与方法（getting-started / playbook）、实战案例（case-studies），保持原仓库结构与内部链接。
+
+[进入专栏 →](/md/columns/vibe-coding-cn/)
