@@ -1054,3 +1054,5 @@ wiki/
 | [poteto-automate-anything-with-grok-bot](/md/wiki/sources/poteto-automate-anything-with-grok-bot) | Lauren Tan：Automate Anything with Grok Bot（原文） | X/Twitter |
 | [yangyi-three-business-models-time-space-constraints](/md/wiki/sources/yangyi-three-business-models-time-space-constraints) | Yangyi：只做「别人追着你问」的生意——三类生意 + 时间与空间约束 | X/Twitter |
 | [intentplex-web-game-evergreen-site](/md/wiki/sources/intentplex-web-game-evergreen-site) | Intentplex：把网页游戏做成常青树养老站——搜索排名、首局完局率与社区壁垒 | X/Twitter |
+| [amfe1u-nine-steps-million-yuan-playbook](/md/wiki/sources/amfe1u-nine-steps-million-yuan-playbook) | Amfe1U：身边小富婆年入百万的 9 步——从卖什么到联盟后端 | X/Twitter |
+| [chendahuang-antigravity-codex-worker-skill](/md/wiki/sources/chendahuang-antigravity-codex-worker-skill) | 大 Huang：用 Antigravity 指挥 Codex 干活的 skill——GPT 只干活不说话 | X/Twitter |
