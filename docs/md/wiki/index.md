@@ -1044,3 +1044,13 @@ wiki/
 | [vikingmute-emil-kowalski-skills-page](/md/wiki/sources/vikingmute-emil-kowalski-skills-page) | Viking：Emil Kowalski 的 skills 集合页——覆盖设计从开始到 improve 再到 review | X/Twitter |
 | [xiongchun-dsh-openmotion-video-plugin](/md/wiki/sources/xiongchun-dsh-openmotion-video-plugin) | 程序员大熊：DSH 开源插件 OpenMotion——一句话做出产品宣传视频 | X/Twitter |
 | [yangyi-verifiable-task-cross-check](/md/wiki/sources/yangyi-verifiable-task-cross-check) | Yangyi：可被 verified 评估检验的任务往往都更好——Agent 不收敛时该做什么 | X/Twitter |
+| [hitw93-24-mac-apps-2026](/md/wiki/sources/hitw93-24-mac-apps-2026) | HiTw93：2026 我每天在用的 24 个 Mac 软件 | X/Twitter |
+| [ruguo-search-engines-beyond-google](/md/wiki/sources/ruguo-search-engines-beyond-google) | 如歌：做全球 SEO 别只盯 Google——五个搜索引擎提交入口备忘录 | X/Twitter |
+| [murong-vercel-agents-md-8-rules](/md/wiki/sources/murong-vercel-agents-md-8-rules) | 牧蓉：Vercel Next.js 团队烧 60B tokens 总结的 8 条 AGENTS.md 规则 | X/Twitter |
+| [khazix-claude-gpt-gemini-collaboration](/md/wiki/sources/khazix-claude-gpt-gemini-collaboration) | 卡兹克：毫无保留地分享我如何让 Claude、GPT 和 Gemini 完美协同 | X/Twitter |
+| [zen-in-your-own-words-skill](/md/wiki/sources/zen-in-your-own-words-skill) | Zen：「in your own words」技能——让 Agent 先复述需求再动手 | X/Twitter |
+| [shengxj-claude-code-magpie-t3code-workflow](/md/wiki/sources/shengxj-claude-code-magpie-t3code-workflow) | shengxj：Claude Code + Google 模型（Magpie 代理）+ T3-Code 的工作流 | X/Twitter |
+| [victor-code-as-ssot-reverse-spec-flow](/md/wiki/sources/victor-code-as-ssot-reverse-spec-flow) | Victor Wu：代码才是唯一事实源——从既有代码反向生成规格说明 | X/Twitter |
+| [poteto-automate-anything-with-grok-bot](/md/wiki/sources/poteto-automate-anything-with-grok-bot) | Lauren Tan：Automate Anything with Grok Bot（原文） | X/Twitter |
+| [yangyi-three-business-models-time-space-constraints](/md/wiki/sources/yangyi-three-business-models-time-space-constraints) | Yangyi：只做「别人追着你问」的生意——三类生意 + 时间与空间约束 | X/Twitter |
+| [intentplex-web-game-evergreen-site](/md/wiki/sources/intentplex-web-game-evergreen-site) | Intentplex：把网页游戏做成常青树养老站——搜索排名、首局完局率与社区壁垒 | X/Twitter |

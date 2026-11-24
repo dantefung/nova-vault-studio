@@ -5302,3 +5302,11 @@ source: "llm-wiki"
   - 0xChonsy 那条的可粘贴 Prompt 被上游抓取器压成散行，已还原成 122 行 ```text 代码块（这条推文的全部价值就在「能直接粘给 Agent」）。
   - 推文日期按 snowflake ID 反算，不使用流水线默认日期。
 - 索引：wiki/index.md 追加 18 行；sources 计数 436→454。
+
+## [2026-11-24] ingest: X 推文批量采集 10 条（工具清单 / 多模型协同 / 出海 SEO / 生意模式）
+
+- 批次一（5 条）：HiTw93 的 2026 年 24 个常用 Mac 软件；如歌的全球 SEO 搜索引擎提交备忘录（Naver / Yandex / 百度 / Seznam / Bing）；牧蓉转述 Vercel Next.js 团队烧 60B tokens 总结的 8 条 AGENTS.md 规则（含「生产环境慎用」警告）；卡兹克的 Claude / GPT / Gemini 协同长文；Zen 推荐的「in your own words」skill。
+- 批次二（5 条）：shengxj 的 Claude Code + Magpie 代理 Google 模型 + T3-Code 工作流；Victor Wu「代码即唯一事实源」与 AWS Reverse Spec Flow；Lauren Tan《Automate Anything with Grok Bot》英文原文（与本库已有中文译文互为对照）；Yangyi 的三类生意模式 + 时间/空间约束；Intentplex 把网页游戏做成常青树养老站的三件事与 5 个周度指标。
+- 归档：10 篇 `sources/*.md` + 19 张配图本地化，全部 <500KB 且为真 PNG/JPEG，远程图残留 0。
+- 处理要点：12 条 t.co 短链全部还原成真实地址（其中 3 条 X Article 转成 `x.com/i/article/<id>`）；推文日期按 snowflake ID 反算；删掉卡兹克文末「点赞评论转发三连」导流段；两处裸标签（poteto 的 `<goal>`）转成反引号避免 Vue 编译器报错。
+- 校验：10 篇 × 4 项 pre-commit 检查全过，wikilink 0 悬空；sources 计数 454→464。
