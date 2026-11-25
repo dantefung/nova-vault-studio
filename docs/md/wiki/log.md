@@ -5386,3 +5386,11 @@ source: "llm-wiki"
 - `sources/weiyux-li-yanhong-two-role-organization.md` —— 李彦宏：未来只剩 Builder 与 Seller；企业 AI 花了钱没涨收入是只换电机没改流程；组织进化三原则；百度活跃智能体 0.5 万→3.7 万、周任务 8.4 万→100 万+。
 - `sources/shenyuan-gsc-search-console-ai-content-gap.md` —— GSC 导出 12 个月搜索数据喂 AI，找「已有排名但无专门内容覆盖」的关键词并补文。
 - 处理：2 条 t.co 短链还原（X Article + 原文文章）；22 张配图本地化、全部 <500KB；日期按 snowflake 反算；6 篇检查全过、wikilink 0 悬空；sources 计数 491→497。
+
+## [2026-11-25] ingest: X 推文 4 条（自媒体放大器 / AI 视频模板平台 / SkillOpt 自优化）
+
+- `sources/qianshuixia-selfmedia-ordinary-person-amplifier.md` —— 潜水侠认同胡子哥：自媒体是普通人的放大器、最没门槛可持续做的事；以力破巧、持续迭代复盘。
+- `sources/chainepic-selfmedia-never-detour.md` —— ChainEpic 原文：有影响力账号就饿不死，孤注一掷产品易被颠覆；粉丝不到一万已收到商单/原创/AFF 收益。
+- `sources/harries-ai-video-template-platform-vs-new-domain.md` —— 做 AI 视频模板平台而非疯狂注册新词域名：把上新词成本压到几分钟，流量短期、域名权重与用户资产长期。
+- `sources/huahuazo-microsoft-skillopt-skill-auto-optimization.md` —— 微软开源 SkillOpt：Agent 自己跑、评、改 Skill；从轨迹挑改进点、不超基准打回、不绑模型可迁移；1 张配图。
+- 处理：1 条 t.co 短链还原（microsoft/SkillOpt）；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 497→501。

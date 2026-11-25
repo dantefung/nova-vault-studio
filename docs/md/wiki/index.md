@@ -1087,3 +1087,7 @@ wiki/
 | [yangyi-wishful-development-feedback-loop](/md/wiki/sources/yangyi-wishful-development-feedback-loop) | Yangyi：许愿式开发——四步把用户反馈接到工程 Agent Loop | X/Twitter |
 | [weiyux-li-yanhong-two-role-organization](/md/wiki/sources/weiyux-li-yanhong-two-role-organization) | weiyux：李彦宏——未来企业只剩 Builder 与 Seller 两类人 | X/Twitter |
 | [shenyuan-gsc-search-console-ai-content-gap](/md/wiki/sources/shenyuan-gsc-search-console-ai-content-gap) | Shenyuan：一个实用 SEO 技巧——用 GSC 导出数据找「有排名但没专门内容」的关键词 | X/Twitter |
+| [qianshuixia-selfmedia-ordinary-person-amplifier](/md/wiki/sources/qianshuixia-selfmedia-ordinary-person-amplifier) | 潜水侠：自媒体是普通人的放大器——以力破巧、持续迭代复盘 | X/Twitter |
+| [chainepic-selfmedia-never-detour](/md/wiki/sources/chainepic-selfmedia-never-detour) | ChainEpic：永远不要觉得做自媒体是走弯路——有影响力账号就饿不死 | X/Twitter |
+| [harries-ai-video-template-platform-vs-new-domain](/md/wiki/sources/harries-ai-video-template-platform-vs-new-domain) | Harries：做 AI 视频模板平台，而不是疯狂注册新词域名 | X/Twitter |
+| [huahuazo-microsoft-skillopt-skill-auto-optimization](/md/wiki/sources/huahuazo-microsoft-skillopt-skill-auto-optimization) | 花花：微软开源 SkillOpt——让 Agent Skill 自己跑、自己评、自己改 | X/Twitter |
