@@ -5376,3 +5376,13 @@ source: "llm-wiki"
 
 - `sources/lbang-gemini-api-cli-go-tool.md` —— 纯 Go、零依赖、单文件，让 Claude Code / Codex 顺手调 Gemini；生图、啃 PDF、后台调研都是一行命令，不切窗口、不换客户端、不重讲上下文。附 google-gemini/gemini-api-cli 仓库。
 - 处理：1 条 t.co 短链还原（GitHub 仓库）；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 490→491。
+
+## [2026-11-25] ingest: X 推文 6 条（Entity SEO 长文 / 知识工厂 / 新词信号 / 反馈环路 / 两类人 / GSC 技巧）
+
+- `sources/kkkeric-entity-seo-2026-guide.md` —— 万字长文：SEO 从 Keyword（按词找页）转向 Entity（先核对品牌实体身份证再决定推不推），Leadde 案例：816 页、月访 33.5 万却核心商业词无排名；22 张配图。
+- `sources/xiaohu-langchain-knowledge-factory-dual-agent.md` —— LangChain 知识工厂：干活 Agent 提报错标记、后台馆长 Agent 定期把技能与文档改对；知识库只存技能/业务知识/取数指南，正本留 Snowflake/Databricks 现查。
+- `sources/harries-new-word-discovery-four-signals.md` —— 新词挖掘四信号：TikTok 发现需求 → X 验证传播 → Google Trends 验证搜索 → 竞品监测验证商业机会。
+- `sources/yangyi-wishful-development-feedback-loop.md` —— 许愿式开发四步：产品内反馈通路 → IM 通知 → 人工确认触发工程 Agent Loop → 合并 PR 自动更新。
+- `sources/weiyux-li-yanhong-two-role-organization.md` —— 李彦宏：未来只剩 Builder 与 Seller；企业 AI 花了钱没涨收入是只换电机没改流程；组织进化三原则；百度活跃智能体 0.5 万→3.7 万、周任务 8.4 万→100 万+。
+- `sources/shenyuan-gsc-search-console-ai-content-gap.md` —— GSC 导出 12 个月搜索数据喂 AI，找「已有排名但无专门内容覆盖」的关键词并补文。
+- 处理：2 条 t.co 短链还原（X Article + 原文文章）；22 张配图本地化、全部 <500KB；日期按 snowflake 反算；6 篇检查全过、wikilink 0 悬空；sources 计数 491→497。

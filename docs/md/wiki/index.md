@@ -1081,3 +1081,9 @@ wiki/
 | [chainepic-no-positive-feedback-phase](/md/wiki/sources/chainepic-no-positive-feedback-phase) | ChainEpic：一个人能否成功，很大程度上取决于如何处理「没有正反馈」的阶段 | X/Twitter |
 | [chunxiangai-entrepreneurship-three-question-types](/md/wiki/sources/chunxiangai-entrepreneurship-three-question-types) | 淳湘AI：创业是完形填空、选择题还是问答题——清醒地观察自己的题型 | X/Twitter |
 | [lbang-gemini-api-cli-go-tool](/md/wiki/sources/lbang-gemini-api-cli-go-tool) | lbang：谷歌开源 gemini-api-cli——纯 Go 单文件，让 Claude Code / Codex 顺手调 Gemini | X/Twitter |
+| [kkkeric-entity-seo-2026-guide](/md/wiki/sources/kkkeric-entity-seo-2026-guide) | kkkeric：万字长文｜2026 Entity SEO 保姆级 0 到 1——从 Keyword 到 Entity | X/Twitter |
+| [xiaohu-langchain-knowledge-factory-dual-agent](/md/wiki/sources/xiaohu-langchain-knowledge-factory-dual-agent) | 小互：LangChain 知识工厂——干活 Agent 与「馆长 Agent」拆成两头 | X/Twitter |
+| [harries-new-word-discovery-four-signals](/md/wiki/sources/harries-new-word-discovery-four-signals) | Harries：挖新词别只看 Google Trends——TikTok 发现、X 验证传播、Google 验证搜索 | X/Twitter |
+| [yangyi-wishful-development-feedback-loop](/md/wiki/sources/yangyi-wishful-development-feedback-loop) | Yangyi：许愿式开发——四步把用户反馈接到工程 Agent Loop | X/Twitter |
+| [weiyux-li-yanhong-two-role-organization](/md/wiki/sources/weiyux-li-yanhong-two-role-organization) | weiyux：李彦宏——未来企业只剩 Builder 与 Seller 两类人 | X/Twitter |
+| [shenyuan-gsc-search-console-ai-content-gap](/md/wiki/sources/shenyuan-gsc-search-console-ai-content-gap) | Shenyuan：一个实用 SEO 技巧——用 GSC 导出数据找「有排名但没专门内容」的关键词 | X/Twitter |
