@@ -5346,3 +5346,21 @@ source: "llm-wiki"
 
 - `sources/taozi-cobalt-ai-selfmedia-material-pipeline.md` —— 爆款不靠灵感靠素材：GitHub 开源工具 Cobalt（4.6 万+ Star）可下载 YouTube/TikTok/X/Instagram/B 站公开视频，免费、免注册。工作流：刷到爆款收进素材库 → AI 分析（选题/开头/脚本/镜头/转发点）→ 结合自身定位重创作。分工：工具找素材、AI 拆解、人判断与创造。
 - 处理：2 条 t.co 短链还原（GitHub 仓库 + 官网）；1 张配图本地化；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 480→481。
+
+## [2026-11-25] ingest: X 推文 2 条（需求生长树 + 千元文章拆解）
+
+- `sources/lxfater-grow-me-grow-loop-skills.md` —— grow-me 把需求问答画成本地生长树（答完开花、追问长枝、改上游自动黄叶提示下游重认、出白话方案与验收表）；grow-loop 给执行装刹车（常规模型修 2 轮→升档强模型修 2 轮→仍不过刹车问人，另模型只读挑刺 2 轮，高风险动作硬拦等人批）；MIT 开源、直连 Claude Code / Codex。
+- `sources/aichuhai-raphael-1000-yuan-article-teardown.md` —— 对 1000 元卖了 150 份的 Raphael 文章的冷水拆解：三段增长（差异化曝光→养权重打磨→权重到位后极致自动化；域名权重低别用极致自动化）+「付了钱你也成不了」的三件事（坚持两年、外链不是一切、别迷信自动化外链）。
+- 处理：2 条 t.co 短链还原（GitHub 仓库 + X Article）；4 张配图本地化；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 481→483。
+
+## [2026-11-25] ingest: X 推文 3 条（大一统工具链 / C端用户提示词 / 发财 20 因）
+
+- `sources/dakln-dsh-magpie-glm-unified-toolchain.md` —— DSH + T3 Code/Paseo 魔改 + Magpie 反代 + GLM 5.4 的大一统套壳：ACP 连接模型、上下文互通、可调用其他 Harness，手机/微信端管控；4 张配图。
+- `sources/james-c-end-user-prompt-user-cannot-read.md` —— 给 Claude 的 C 端系统提示词：用户没有记忆力、相当于小学文化，不看三步以上流程、不看三行以上文字，站内内容本质是给 SEO 与 AI 看的。
+- `sources/stanley-20-reasons-men-dont-get-rich.md` —— 难发大财的 20 个原因：死要面子、不会卖、胆小、研究大道理、工龄当能力、穷大方、敌视新事物、没有定价权、不会算账、自命清高、无延迟满足等。
+- 处理：2 条 t.co 短链还原（DSH Go / phone-dsh 仓库）；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 483→486。
+
+## [2026-11-25] ingest: Stanley《虚拟软装服务出口》
+
+- `sources/stanley-virtual-staging-service-export.md` —— 佛山 8 年家具设计师裁员后给澳洲房产中介做虚拟软装：AI 生成家具布置 + 人工按当地审美修图，一张图 25 美元、一套房约 150 美元；小中介每月十几套、维护几个客户月营收四五千美元。核心洞察：技术/电脑/地点都没变，唯一变的是付钱的人；**中国被低估的专业人才 × 海外不值得养全职员工的零碎需求 = 生意**，佛山懂家具的人也能做服务出口。
+- 处理：无外部短链与配图；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 486→487。

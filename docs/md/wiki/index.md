@@ -1071,3 +1071,9 @@ wiki/
 | [barret-entrepreneur-optimism-supply-demand](/md/wiki/sources/barret-entrepreneur-optimism-supply-demand) | Barret：创业成功的秘诀——极乐观、快速复盘、靠观察供需找目标 | X/Twitter |
 | [zachary-ai-coding-workflow-cindy-t3code](/md/wiki/sources/zachary-ai-coding-workflow-cindy-t3code) | Zachary：全自动 AI 编程工作流——三角色分工 + 四条核心规则 + 完整 Prompt | X/Twitter |
 | [taozi-cobalt-ai-selfmedia-material-pipeline](/md/wiki/sources/taozi-cobalt-ai-selfmedia-material-pipeline) | 桃子：Cobalt 素材库工作流——工具找素材、AI 拆解、人判断 | X/Twitter |
+| [lxfater-grow-me-grow-loop-skills](/md/wiki/sources/lxfater-grow-me-grow-loop-skills) | lxfater：grow-me + grow-loop——把需求问答画成生长树，给 AI 干活装刹车 | X/Twitter |
+| [aichuhai-raphael-1000-yuan-article-teardown](/md/wiki/sources/aichuhai-raphael-1000-yuan-article-teardown) | AI 出海：刘小排 1000 元 Raphael 文章值不值——拆开 200 万月访问的增长叙事 | X/Twitter |
+| [dakln-dsh-magpie-glm-unified-toolchain](/md/wiki/sources/dakln-dsh-magpie-glm-unified-toolchain) | Daklnl：国产可用工具链——DeepSeek Harness + Magpie + GLM 5.4 的大一统套壳 | X/Twitter |
+| [james-c-end-user-prompt-user-cannot-read](/md/wiki/sources/james-c-end-user-prompt-user-cannot-read) | James：做 C 端产品时给 Claude 的系统提示词——用户没有记忆力、相当于小学文化 | X/Twitter |
+| [stanley-20-reasons-men-dont-get-rich](/md/wiki/sources/stanley-20-reasons-men-dont-get-rich) | Stanley：一个男人这辈子很难发大财的 20 个原因 | X/Twitter |
+| [stanley-virtual-staging-service-export](/md/wiki/sources/stanley-virtual-staging-service-export) | Stanley：佛山家具设计师给澳洲中介做虚拟软装——技术没变，变的是付钱的人 | X/Twitter |
