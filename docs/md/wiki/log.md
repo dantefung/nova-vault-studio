@@ -5341,3 +5341,8 @@ source: "llm-wiki"
 
 - `sources/zachary-ai-coding-workflow-cindy-t3code.md` —— 三步：定稿 PRD.md 与 TechStack.md（GPT 6 Pro 初稿 + Mythos 5.2 交叉验证）→ CLI 工具与密钥（本地 .md 加进 .gitignore）→ 自动开发（AI 拆解/写代码/审查/e2e/提交，人只验收）。三角色：主 Agent 唯一改代码、Reviewer（gpt-6.2-astra）只读看 diff、Advisor（claude-fable-5-2）只在 4 节点判断。四规则：单线串行不开 worktree/子 Agent；不猜不吞错不多写（单文件 ≤1000 行、不写兜底）；Reviewer 上限 5 轮防 edge case 卡死，没过标 [!] 继续；Advisor 四个节点介入。附完整 Prompt 与设计人工兜底。
 - 处理：1 张配图本地化；结尾 `## Thread` 外壳由流水线自动剥离；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 479→480。
+
+## [2026-11-25] ingest: 桃子《Cobalt 素材库工作流》
+
+- `sources/taozi-cobalt-ai-selfmedia-material-pipeline.md` —— 爆款不靠灵感靠素材：GitHub 开源工具 Cobalt（4.6 万+ Star）可下载 YouTube/TikTok/X/Instagram/B 站公开视频，免费、免注册。工作流：刷到爆款收进素材库 → AI 分析（选题/开头/脚本/镜头/转发点）→ 结合自身定位重创作。分工：工具找素材、AI 拆解、人判断与创造。
+- 处理：2 条 t.co 短链还原（GitHub 仓库 + 官网）；1 张配图本地化；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 480→481。
