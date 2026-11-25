@@ -1077,3 +1077,6 @@ wiki/
 | [james-c-end-user-prompt-user-cannot-read](/md/wiki/sources/james-c-end-user-prompt-user-cannot-read) | James：做 C 端产品时给 Claude 的系统提示词——用户没有记忆力、相当于小学文化 | X/Twitter |
 | [stanley-20-reasons-men-dont-get-rich](/md/wiki/sources/stanley-20-reasons-men-dont-get-rich) | Stanley：一个男人这辈子很难发大财的 20 个原因 | X/Twitter |
 | [stanley-virtual-staging-service-export](/md/wiki/sources/stanley-virtual-staging-service-export) | Stanley：佛山家具设计师给澳洲中介做虚拟软装——技术没变，变的是付钱的人 | X/Twitter |
+| [harries-new-word-site-data-toolization](/md/wiki/sources/harries-new-word-site-data-toolization) | Harries：有人把新词网站 CSV 直接做成工具——拼的是谁发现需求更快、上线更快 | X/Twitter |
+| [chainepic-no-positive-feedback-phase](/md/wiki/sources/chainepic-no-positive-feedback-phase) | ChainEpic：一个人能否成功，很大程度上取决于如何处理「没有正反馈」的阶段 | X/Twitter |
+| [chunxiangai-entrepreneurship-three-question-types](/md/wiki/sources/chunxiangai-entrepreneurship-three-question-types) | 淳湘AI：创业是完形填空、选择题还是问答题——清醒地观察自己的题型 | X/Twitter |

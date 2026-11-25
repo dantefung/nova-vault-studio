@@ -5364,3 +5364,10 @@ source: "llm-wiki"
 
 - `sources/stanley-virtual-staging-service-export.md` —— 佛山 8 年家具设计师裁员后给澳洲房产中介做虚拟软装：AI 生成家具布置 + 人工按当地审美修图，一张图 25 美元、一套房约 150 美元；小中介每月十几套、维护几个客户月营收四五千美元。核心洞察：技术/电脑/地点都没变，唯一变的是付钱的人；**中国被低估的专业人才 × 海外不值得养全职员工的零碎需求 = 生意**，佛山懂家具的人也能做服务出口。
 - 处理：无外部短链与配图；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 486→487。
+
+## [2026-11-25] ingest: X 推文 3 条（新词数据工具化 / 无正反馈阶段 / 创业三种题型）
+
+- `sources/harries-new-word-site-data-toolization.md` —— 有人把新词网站 CSV 直接做成可搜索筛选分析的网站，里面甚至有上线一月百万访问的新站；AI 编程打平开发门槛后，拼的是谁发现需求更快、上线更快。
+- `sources/chainepic-no-positive-feedback-phase.md` —— 出海必须经历没有正反馈的阶段，比搬砖更糟的是连负面反馈都没有；能否成功取决于如何处理这段时期。
+- `sources/chunxiangai-entrepreneurship-three-question-types.md` —— 创业三种题型：完形填空（资源补齐）、选择题（资源充足选赛道）、问答题（回答时代之问）；给分与风险各异，围城效应普遍；清醒观察自己的题型，实事求是，然后就一个字：干。
+- 处理：无外部短链与配图；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 487→490。
