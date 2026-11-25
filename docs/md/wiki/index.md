@@ -1070,3 +1070,4 @@ wiki/
 | [feljoy-muse-douyin-beauty-account-pipeline](/md/wiki/sources/feljoy-muse-douyin-beauty-account-pipeline) | Feljoy：Muse 直接运营抖音美女号起号——不用自己拍、不用请模特 | X/Twitter |
 | [barret-entrepreneur-optimism-supply-demand](/md/wiki/sources/barret-entrepreneur-optimism-supply-demand) | Barret：创业成功的秘诀——极乐观、快速复盘、靠观察供需找目标 | X/Twitter |
 | [zachary-ai-coding-workflow-cindy-t3code](/md/wiki/sources/zachary-ai-coding-workflow-cindy-t3code) | Zachary：全自动 AI 编程工作流——三角色分工 + 四条核心规则 + 完整 Prompt | X/Twitter |
+| [taozi-cobalt-ai-selfmedia-material-pipeline](/md/wiki/sources/taozi-cobalt-ai-selfmedia-material-pipeline) | 桃子：Cobalt 素材库工作流——工具找素材、AI 拆解、人判断 | X/Twitter |
