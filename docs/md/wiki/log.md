@@ -5371,3 +5371,8 @@ source: "llm-wiki"
 - `sources/chainepic-no-positive-feedback-phase.md` —— 出海必须经历没有正反馈的阶段，比搬砖更糟的是连负面反馈都没有；能否成功取决于如何处理这段时期。
 - `sources/chunxiangai-entrepreneurship-three-question-types.md` —— 创业三种题型：完形填空（资源补齐）、选择题（资源充足选赛道）、问答题（回答时代之问）；给分与风险各异，围城效应普遍；清醒观察自己的题型，实事求是，然后就一个字：干。
 - 处理：无外部短链与配图；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 487→490。
+
+## [2026-11-25] ingest: lbang《谷歌开源 gemini-api-cli》
+
+- `sources/lbang-gemini-api-cli-go-tool.md` —— 纯 Go、零依赖、单文件，让 Claude Code / Codex 顺手调 Gemini；生图、啃 PDF、后台调研都是一行命令，不切窗口、不换客户端、不重讲上下文。附 google-gemini/gemini-api-cli 仓库。
+- 处理：1 条 t.co 短链还原（GitHub 仓库）；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 490→491。

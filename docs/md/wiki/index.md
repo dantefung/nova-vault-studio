@@ -1080,3 +1080,4 @@ wiki/
 | [harries-new-word-site-data-toolization](/md/wiki/sources/harries-new-word-site-data-toolization) | Harries：有人把新词网站 CSV 直接做成工具——拼的是谁发现需求更快、上线更快 | X/Twitter |
 | [chainepic-no-positive-feedback-phase](/md/wiki/sources/chainepic-no-positive-feedback-phase) | ChainEpic：一个人能否成功，很大程度上取决于如何处理「没有正反馈」的阶段 | X/Twitter |
 | [chunxiangai-entrepreneurship-three-question-types](/md/wiki/sources/chunxiangai-entrepreneurship-three-question-types) | 淳湘AI：创业是完形填空、选择题还是问答题——清醒地观察自己的题型 | X/Twitter |
+| [lbang-gemini-api-cli-go-tool](/md/wiki/sources/lbang-gemini-api-cli-go-tool) | lbang：谷歌开源 gemini-api-cli——纯 Go 单文件，让 Claude Code / Codex 顺手调 Gemini | X/Twitter |
