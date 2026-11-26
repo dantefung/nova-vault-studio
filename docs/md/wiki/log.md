@@ -5394,3 +5394,15 @@ source: "llm-wiki"
 - `sources/harries-ai-video-template-platform-vs-new-domain.md` —— 做 AI 视频模板平台而非疯狂注册新词域名：把上新词成本压到几分钟，流量短期、域名权重与用户资产长期。
 - `sources/huahuazo-microsoft-skillopt-skill-auto-optimization.md` —— 微软开源 SkillOpt：Agent 自己跑、评、改 Skill；从轨迹挑改进点、不超基准打回、不绑模型可迁移；1 张配图。
 - 处理：1 条 t.co 短链还原（microsoft/SkillOpt）；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 497→501。
+
+## [2026-11-26] wiki-ingest: Jackie《月订阅费 8000 块，一台手机同时管 9 台电脑、6 个 Agent》
+
+- 路由：微信公众号 → `fetch_weixin.py` + `download-images.py` 两步走；3 张唯一配图（原抓取器重复输出已去重）。
+- 四层完整归档：
+  - `sources/makerjackie-multi-agent-remote-setup.md` —— 精读正文（去导流邀请链接、还原环境变量代码块与架构图注）
+  - `summaries/makerjackie-multi-agent-remote-setup.md` —— 核心结论 + 9 条关键洞察 + 三款工具形态对照
+  - `concepts/multi-agent-remote-control-layers.md` —— 抽象出「人控机 / 机连机」两层正交模型 + 四款方案取舍表 + 失效模式
+  - `images/makerjackie-multi-agent-remote-setup/` —— 001–003.png
+- 核心内容：6 个 Agent（GPT/Claude/Google/OpenCode/DeepSeek/Grok）+ 9 台电脑；UU 免费稳但看不到 Agent 状态、Paseo 局域网顺但出门不稳且配对繁琐、T3 Code 交互上乘但无远程桌面、Vibe42 付费主力（全球加密直连 + 远程桌面 + 跨端续接）；Vibe42 管人控机、Tailscale 管机连机；美国云主机专跑 Claude 隔离防封号。
+- 去广告：删除 Vibe42 邀请链接与 3 天/7 天试用返利话术；作者署名保留。
+- 校验：3 篇 × 4 项检查全过、wikilink 0 悬空；sources 计数 501→502。
