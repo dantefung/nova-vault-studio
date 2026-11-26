@@ -1091,3 +1091,6 @@ wiki/
 | [chainepic-selfmedia-never-detour](/md/wiki/sources/chainepic-selfmedia-never-detour) | ChainEpic：永远不要觉得做自媒体是走弯路——有影响力账号就饿不死 | X/Twitter |
 | [harries-ai-video-template-platform-vs-new-domain](/md/wiki/sources/harries-ai-video-template-platform-vs-new-domain) | Harries：做 AI 视频模板平台，而不是疯狂注册新词域名 | X/Twitter |
 | [huahuazo-microsoft-skillopt-skill-auto-optimization](/md/wiki/sources/huahuazo-microsoft-skillopt-skill-auto-optimization) | 花花：微软开源 SkillOpt——让 Agent Skill 自己跑、自己评、自己改 | X/Twitter |
+| [makerjackie-multi-agent-remote-setup](/md/wiki/sources/makerjackie-multi-agent-remote-setup) | Jackie：月订阅 8000 块，一台手机管 9 台电脑、6 个 Agent 的远程实战 | 微信公众号 |
+| [makerjackie-multi-agent-remote-setup](/md/wiki/summaries/makerjackie-multi-agent-remote-setup) | 精读摘要：人控机 vs 机连机分层，UU/Paseo/T3 Code/Vibe42 四款实测取舍 | 微信公众号 |
+| [multi-agent-remote-control-layers](/md/wiki/concepts/multi-agent-remote-control-layers) | 多机多 Agent 远程控制：人控机与机连机两层正交 | 公众号提炼 |

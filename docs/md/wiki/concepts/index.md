@@ -17,3 +17,4 @@ date: "2026-05-09"
 - [[platform-traffic-vs-own-channel]] — 平台流量 vs 自有渠道：流量在平台，渠道在自己（官网才算）
 - [[b2b-inquiry-site-minimal-stack]] — 极简 B2B 询盘站技术栈：不做后台也能拿到询盘
 - [[overseas-niche-selection-map]] — 出海赛道选择地图：10 条赛道按「你能控制什么」排序
+- [[multi-agent-remote-control-layers]] — 多机多 Agent 远程控制：人控机与机连机分层，四款方案实测取舍
