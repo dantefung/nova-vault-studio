@@ -1094,3 +1094,12 @@ wiki/
 | [makerjackie-multi-agent-remote-setup](/md/wiki/sources/makerjackie-multi-agent-remote-setup) | Jackie：月订阅 8000 块，一台手机管 9 台电脑、6 个 Agent 的远程实战 | 微信公众号 |
 | [makerjackie-multi-agent-remote-setup](/md/wiki/summaries/makerjackie-multi-agent-remote-setup) | 精读摘要：人控机 vs 机连机分层，UU/Paseo/T3 Code/Vibe42 四款实测取舍 | 微信公众号 |
 | [multi-agent-remote-control-layers](/md/wiki/concepts/multi-agent-remote-control-layers) | 多机多 Agent 远程控制：人控机与机连机两层正交 | 公众号提炼 |
+| [chainepic-site-matrix-audit-prompt](/md/wiki/sources/chainepic-site-matrix-audit-prompt) | ChainEpic：公开商业级多站点矩阵业务评估提示词 | X/Twitter |
+| [barret-ai-verification-bottleneck](/md/wiki/sources/barret-ai-verification-bottleneck) | Barret：AI 编码提效十倍，瓶颈转移到验收端 | X/Twitter |
+| [bozhou-vertical-backlink-agent](/md/wiki/sources/bozhou-vertical-backlink-agent) | bozhou：基于 Pi 搓专用外链 Agent——垂类 agent 比通用 Agent 更适配 | X/Twitter |
+| [teach-fireworks-no-staging-reading-list](/md/wiki/sources/teach-fireworks-no-staging-reading-list) | 烟花老师：去 Staging / 生产验证 / 高频合入——必读深度文章清单 | X/Twitter |
+| [fiapp-opus-recommends-poteto-skills](/md/wiki/sources/fiapp-opus-recommends-poteto-skills) | fiapp：Opus 按我的工作流推荐土豆姐的四个 skill | X/Twitter |
+| [meow-multi-agent-codex-claude-antigravity](/md/wiki/sources/meow-multi-agent-codex-claude-antigravity) | meow：从 Subagent 到 Swarm——三条多智能体协作路线对比 | X/Twitter |
+| [vikingmute-lcu-cua-driver](/md/wiki/sources/vikingmute-lcu-cua-driver) | Viking：Antigravity 没有 computer use 的两个开源替代——Lcu 与 Cua driver | X/Twitter |
+| [fankai-paseo-model-ranking](/md/wiki/sources/fankai-paseo-model-ranking) | 凡凯：Paseo 模型组合排行——Gemini 4 Neon 升第二主力，DeepSeek V4.1 Flash 退备胎 | X/Twitter |
+| [cu30rry-pstack-principles-playbook](/md/wiki/sources/cu30rry-pstack-principles-playbook) | cu30rry：pstack 的精髓——Principles 先行、Playbook 后行 | X/Twitter |

@@ -5406,3 +5406,16 @@ source: "llm-wiki"
 - 核心内容：6 个 Agent（GPT/Claude/Google/OpenCode/DeepSeek/Grok）+ 9 台电脑；UU 免费稳但看不到 Agent 状态、Paseo 局域网顺但出门不稳且配对繁琐、T3 Code 交互上乘但无远程桌面、Vibe42 付费主力（全球加密直连 + 远程桌面 + 跨端续接）；Vibe42 管人控机、Tailscale 管机连机；美国云主机专跑 Claude 隔离防封号。
 - 去广告：删除 Vibe42 邀请链接与 3 天/7 天试用返利话术；作者署名保留。
 - 校验：3 篇 × 4 项检查全过、wikilink 0 悬空；sources 计数 501→502。
+
+## [2026-11-27] ingest: X 推文 9 条（矩阵评估提示词 / 验收瓶颈 / 垂类 Agent / 去 Staging / 多智能体路线）
+
+- `sources/chainepic-site-matrix-audit-prompt.md` —— 公开商业级多站点矩阵评估提示词：5 维评分 + 留/改/养/弃四象限 + 90 天路线图。
+- `sources/barret-ai-verification-bottleneck.md` —— AI 编码提效十倍但验收没解放，瓶颈从生产端转到验收端，AI 越强人压力越大。
+- `sources/bozhou-vertical-backlink-agent.md` —— 基于 Pi 搓专用外链 Agent：两小时提交 60 个、低内存低 token，垂类 agent 比通用更适配。
+- `sources/teach-fireworks-no-staging-reading-list.md` —— 去 Staging / 生产验证 / 高频合入必读清单（8 篇文章链接全还原）。
+- `sources/fiapp-opus-recommends-poteto-skills.md` —— Opus 推荐的四个 verification 类 skill + /reframe。
+- `sources/meow-multi-agent-codex-claude-antigravity.md` —— Codex Subagents / Claude Agent Teams / Antigravity Swarm 三条多智能体路线对比（227 行）。
+- `sources/vikingmute-lcu-cua-driver.md` —— Antigravity 没有 computer use 的开源替代：Lcu、Cua driver。
+- `sources/fankai-paseo-model-ranking.md` —— Paseo 模型组合排行：Gemini 4 Neon 第二主力但推理不稳、过程不透明。
+- `sources/cu30rry-pstack-principles-playbook.md` —— pstack 精髓：Principles 先行、Playbook 后行；自我推广句已删。
+- 处理：16 条 t.co 短链全部还原（技术文章/官方文档/GitHub/原推）；日期按 snowflake 反算；1 张配图本地化；9 篇检查全过、wikilink 0 悬空；sources 计数 502→511。
