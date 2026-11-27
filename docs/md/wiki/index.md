@@ -1103,3 +1103,4 @@ wiki/
 | [vikingmute-lcu-cua-driver](/md/wiki/sources/vikingmute-lcu-cua-driver) | Viking：Antigravity 没有 computer use 的两个开源替代——Lcu 与 Cua driver | X/Twitter |
 | [fankai-paseo-model-ranking](/md/wiki/sources/fankai-paseo-model-ranking) | 凡凯：Paseo 模型组合排行——Gemini 4 Neon 升第二主力，DeepSeek V4.1 Flash 退备胎 | X/Twitter |
 | [cu30rry-pstack-principles-playbook](/md/wiki/sources/cu30rry-pstack-principles-playbook) | cu30rry：pstack 的精髓——Principles 先行、Playbook 后行 | X/Twitter |
+| [yangyi-high-cognition-poor-choose-too-much](/md/wiki/sources/yangyi-high-cognition-poor-choose-too-much) | Yangyi：高认知穷人——选择太多、看不上朴实机会 | X/Twitter |
