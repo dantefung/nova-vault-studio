@@ -5424,3 +5424,8 @@ source: "llm-wiki"
 
 - `sources/yangyi-high-cognition-poor-choose-too-much.md` —— 高认知穷人源于选择多：号贩子、卖 API 中转这类朴实机会看不上，偏要做 personal agent 被大厂卷；失业者没别的路反而只能做自媒体、更聚焦。
 - 处理：无短链配图；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 511→512。
+
+## [2026-11-27] ingest: Zachary《让 AI 写出干净界面的前端规范》
+
+- `sources/zachary-ai-frontend-design-rules.md` —— 5 个规则模块：布局层级（禁嵌套框/解释文字）、视觉色彩留白（90% 中性 + 10% 单一强调、1.5 倍留白）、字体栅格图标（Geist / 4px 栅格 / #181818、#6A6A6A / Reicon 24×24 框）、多级菜单安全三角区、DESIGN.md 落地三步；6 张配图。作者明确「不要使用任何 UI Skill」并强调这只是让出稿不丑的 Guidelines 而非成品 Prompt。
+- 处理：无短链；6 张配图本地化全部 <500KB；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 512→513。
