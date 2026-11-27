@@ -5429,3 +5429,8 @@ source: "llm-wiki"
 
 - `sources/zachary-ai-frontend-design-rules.md` —— 5 个规则模块：布局层级（禁嵌套框/解释文字）、视觉色彩留白（90% 中性 + 10% 单一强调、1.5 倍留白）、字体栅格图标（Geist / 4px 栅格 / #181818、#6A6A6A / Reicon 24×24 框）、多级菜单安全三角区、DESIGN.md 落地三步；6 张配图。作者明确「不要使用任何 UI Skill」并强调这只是让出稿不丑的 Guidelines 而非成品 Prompt。
 - 处理：无短链；6 张配图本地化全部 <500KB；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 512→513。
+
+## [2026-11-27] ingest: 刘小排《一个人如何管理几十个AI程序员？之二：当前最优解》
+
+- `sources/liuxiaopai-orca-worktree-first.md` —— 7 月那篇的续集。痛点：Claude Code / Codex / OpenCode 自动建 Worktree，一个项目默默攒了 37 个隐藏僵尸目录，界面根本看不清。核心解法：Orca 把 Worktree 做成一等公民，一级导航定死「机器 → 项目 → Worktree」，对话降级成 Worktree 里的标签页；切过去就是整套独立现场（专属目录/独立分支/多 Agent/终端分屏/行级 Diff 批注/内置浏览器预览），干完一键提 PR 清理现场。两大惊喜：Orca Bots（11/19 上线）用自有订阅跑 24 小时后台任务、接 Slack/Linear/GitHub、SOUL.md/MEMORY.md 明文可改、卡点集中到 Needs you；手机端国内普通网络下飞快，替掉大半 UU 远程。MIT 开源免费、通吃 34+ CLI Agent。两个坑：用 orca.yaml 共享依赖 + .worktreeinclude 同步 .env 防硬盘爆；Worktree 只隔离代码文件、不隔离网络/SSH 密钥/线上环境变量，生产项目关掉默认跳过权限。
+- 处理：8 张配图本地化（3 张 GIF 按规矩提首帧转 PNG）；H2 压平段重建；排版规范化；检查全过、wikilink 0 悬空；sources 计数 513→514。

@@ -1105,3 +1105,4 @@ wiki/
 | [cu30rry-pstack-principles-playbook](/md/wiki/sources/cu30rry-pstack-principles-playbook) | cu30rry：pstack 的精髓——Principles 先行、Playbook 后行 | X/Twitter |
 | [yangyi-high-cognition-poor-choose-too-much](/md/wiki/sources/yangyi-high-cognition-poor-choose-too-much) | Yangyi：高认知穷人——选择太多、看不上朴实机会 | X/Twitter |
 | [zachary-ai-frontend-design-rules](/md/wiki/sources/zachary-ai-frontend-design-rules) | Zachary：让 AI 写出干净界面的前端规范——5 模块 + 完整文件 | X/Twitter |
+| [liuxiaopai-orca-worktree-first](/md/wiki/sources/liuxiaopai-orca-worktree-first) | 刘小排：一个人管几十个 AI 程序员之二——Worktree 是一等公民，Orca 是当前最优解 | 微信公众号 |
