@@ -5419,3 +5419,8 @@ source: "llm-wiki"
 - `sources/fankai-paseo-model-ranking.md` —— Paseo 模型组合排行：Gemini 4 Neon 第二主力但推理不稳、过程不透明。
 - `sources/cu30rry-pstack-principles-playbook.md` —— pstack 精髓：Principles 先行、Playbook 后行；自我推广句已删。
 - 处理：16 条 t.co 短链全部还原（技术文章/官方文档/GitHub/原推）；日期按 snowflake 反算；1 张配图本地化；9 篇检查全过、wikilink 0 悬空；sources 计数 502→511。
+
+## [2026-11-27] ingest: Yangyi《为什么聪明人反而赚不到钱》
+
+- `sources/yangyi-high-cognition-poor-choose-too-much.md` —— 高认知穷人源于选择多：号贩子、卖 API 中转这类朴实机会看不上，偏要做 personal agent 被大厂卷；失业者没别的路反而只能做自媒体、更聚焦。
+- 处理：无短链配图；日期按 snowflake 反算；检查全过、wikilink 0 悬空；sources 计数 511→512。
